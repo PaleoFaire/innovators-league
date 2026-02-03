@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovation Insights | The Innovators League</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    <style>
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+:root {
+  --bg: #ffffff;
+  --bg-s: #f8f9fa;
+  --bg-t: #f1f3f5;
+  --text: #111827;
+  --text-s: #4b5563;
+  --text-m: #9ca3af;
+  --border: #e5e7eb;
+  --blue: #2563eb;
+  --blue-light: #eff6ff;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.04);
+}
+
+html { scroll-behavior: smooth; }
+body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color:var(--text); -webkit-font-smoothing:antialiased; }
+
+/* Nav */
+.nav { position:fixed; top:0; left:0; right:0; z-index:1000; display:flex; align-items:center; justify-content:space-between; padding:0 32px; height:56px; background:rgba(255,255,255,0.92); backdrop-filter:blur(12px); border-bottom:1px solid var(--border); }
+.nav-brand { display:flex; align-items:center; gap:10px; }
+.nav-logo { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; color:#fff; background:#111827; padding:3px 8px; border-radius:4px; letter-spacing:1px; }
+.nav-title { font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; letter-spacing:2px; }
+.nav-links { display:flex; gap:24px; align-items:center; }
+.nav-links a { font-size:14px; font-weight:500; color:var(--text-s); text-decoration:none; transition:color .15s; }
+.nav-links a:hover { color:var(--text); }
+.nav-cta { background:#111827!important; color:#fff!important; padding:6px 16px; border-radius:6px; font-weight:600!important; font-size:13px!important; }
+
+/* Hero */
+.hero { padding:100px 24px 48px; text-align:center; border-bottom:1px solid var(--border); }
+.hero h1 { font-family:'Space Grotesk',sans-serif; font-size:clamp(32px,4vw,48px); font-weight:800; margin-bottom:8px; }
+.hero p { font-size:17px; color:var(--text-s); max-width:600px; margin:0 auto; }
+
+/* Container */
+.container { max-width:1200px; margin:0 auto; padding:0 24px; }
+
+/* Section */
+.viz-section { padding:64px 0; border-bottom:1px solid var(--border); }
+.viz-section:last-of-type { border-bottom:none; }
+.viz-header { margin-bottom:32px; }
+.viz-header h2 { font-family:'Space Grotesk',sans-serif; font-size:24px; font-weight:700; margin-bottom:4px; }
+.viz-header p { font-size:14px; color:var(--text-m); }
+
+/* Stat Cards Row */
+.stat-row { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; margin-bottom:48px; }
+.stat-card { background:var(--bg); border:1px solid var(--border); border-radius:var(--radius); padding:24px; text-align:center; }
+.stat-card .num { font-family:'Space Grotesk',sans-serif; font-size:36px; font-weight:800; line-height:1; }
+.stat-card .label { font-size:12px; color:var(--text-m); text-transform:uppercase; letter-spacing:1.5px; margin-top:6px; font-weight:500; }
+
+/* Heatmap */
+#heatmap { width:100%; height:550px; border-radius:var(--radius); border:1px solid var(--border); overflow:hidden; }
+
+/* Bar Charts */
+.bar-chart { display:flex; flex-direction:column; gap:8px; }
+.bar-row { display:flex; align-items:center; gap:12px; }
+.bar-label { width:180px; font-size:13px; font-weight:500; text-align:right; flex-shrink:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.bar-track { flex:1; height:32px; background:var(--bg-t); border-radius:6px; overflow:hidden; position:relative; }
+.bar-fill { height:100%; border-radius:6px; transition:width 1s cubic-bezier(.4,0,.2,1); display:flex; align-items:center; padding-left:10px; }
+.bar-fill span { font-size:12px; font-weight:700; color:#fff; white-space:nowrap; }
+.bar-count { width:36px; font-size:13px; font-weight:600; color:var(--text-s); text-align:left; flex-shrink:0; }
+
+/* Treemap */
+.treemap { display:grid; gap:4px; min-height:400px; }
+.treemap-cell { border-radius:8px; padding:16px; display:flex; flex-direction:column; justify-content:space-between; cursor:pointer; transition:opacity .15s, transform .15s; position:relative; overflow:hidden; }
+.treemap-cell:hover { opacity:0.9; transform:scale(1.01); }
+.treemap-cell .cell-icon { font-size:24px; }
+.treemap-cell .cell-name { font-size:14px; font-weight:700; color:#fff; }
+.treemap-cell .cell-count { font-size:12px; color:rgba(255,255,255,0.8); }
+.treemap-cell .cell-pct { position:absolute; top:12px; right:14px; font-size:20px; font-weight:800; color:rgba(255,255,255,0.25); }
+
+/* Bubble Grid (Valuations) */
+.bubble-grid { display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end; justify-content:center; padding:20px 0; }
+.bubble { border-radius:50%; display:flex; align-items:center; justify-content:center; flex-direction:column; text-align:center; transition:transform .2s; cursor:default; border:2px solid rgba(255,255,255,0.3); }
+.bubble:hover { transform:scale(1.08); }
+.bubble .b-name { font-size:10px; font-weight:700; color:#fff; line-height:1.2; padding:0 4px; }
+.bubble .b-val { font-size:9px; color:rgba(255,255,255,0.8); }
+
+/* Funding Pipeline */
+.pipeline { display:flex; gap:2px; align-items:stretch; min-height:300px; }
+.pipeline-col { flex:1; display:flex; flex-direction:column; align-items:center; }
+.pipeline-bar { width:100%; border-radius:8px 8px 0 0; display:flex; align-items:flex-end; justify-content:center; padding-bottom:12px; transition:height 1s cubic-bezier(.4,0,.2,1); }
+.pipeline-bar span { font-size:20px; font-weight:800; color:#fff; }
+.pipeline-label { padding:12px 4px; text-align:center; }
+.pipeline-label .p-stage { font-size:11px; font-weight:600; color:var(--text); }
+.pipeline-label .p-count { font-size:10px; color:var(--text-m); margin-top:2px; }
+
+/* City Grid */
+.city-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:12px; }
+.city-card { background:var(--bg); border:1px solid var(--border); border-radius:var(--radius); padding:16px 20px; display:flex; align-items:center; gap:14px; transition:border-color .15s, box-shadow .15s; }
+.city-card:hover { border-color:#d1d5db; box-shadow:var(--shadow-md); }
+.city-rank { font-family:'Space Grotesk',sans-serif; font-size:24px; font-weight:800; color:var(--bg-t); width:32px; text-align:center; }
+.city-card:nth-child(1) .city-rank { color:var(--blue); }
+.city-card:nth-child(2) .city-rank { color:#6366f1; }
+.city-card:nth-child(3) .city-rank { color:#8b5cf6; }
+.city-info .city-name { font-size:14px; font-weight:600; }
+.city-info .city-count { font-size:12px; color:var(--text-m); }
+
+/* Footer */
+.footer { background:#111827; color:#fff; padding:32px 0; text-align:center; }
+.footer p { font-size:13px; color:rgba(255,255,255,0.5); }
+.footer a { color:rgba(255,255,255,0.7); text-decoration:none; }
+.footer a:hover { color:#fff; }
+
+/* Two column layout */
+.two-col { display:grid; grid-template-columns:1fr 1fr; gap:32px; }
+
+/* Responsive */
+@media(max-width:768px) {
+  .nav { padding:0 16px; }
+  .nav-links { display:none; }
+  .hero { padding:80px 16px 40px; }
+  .stat-row { grid-template-columns:repeat(2,1fr); }
+  .two-col { grid-template-columns:1fr; }
+  .bar-label { width:120px; font-size:11px; }
+  .pipeline { flex-wrap:wrap; }
+  .pipeline-col { min-width:60px; }
+}
+
+/* Animate in */
+.animate-in { opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease; }
+.animate-in.visible { opacity:1; transform:translateY(0); }
+    </style>
+</head>
+<body>
+
+<nav class="nav">
+    <div class="nav-brand">
+        <div class="nav-logo">ROS</div>
+        <span class="nav-title">INNOVATION INSIGHTS</span>
+    </div>
+    <div class="nav-links">
+        <a href="index.html">Database</a>
+        <a href="#hotspots">Hotspots</a>
+        <a href="#sectors">Sectors</a>
+        <a href="#funding">Funding</a>
+        <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
+        <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+    </div>
+</nav>
+
+<header class="hero">
+    <h1>Innovation Insights</h1>
+    <p>Interactive data visualizations from The Innovators League &mdash; 105 companies across 13 sectors reshaping America.</p>
+</header>
+
+<!-- Key Stats -->
+<section class="viz-section">
+    <div class="container">
+        <div class="stat-row" id="stat-row"></div>
+    </div>
+</section>
+
+<!-- 1. Innovation Hotspots Heatmap -->
+<section class="viz-section" id="hotspots">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <h2>Innovation Hotspots</h2>
+            <p>Where America's most ambitious startups cluster. Brighter = more companies.</p>
+        </div>
+        <div id="heatmap" class="animate-in"></div>
+    </div>
+</section>
+
+<!-- 2. Sector Treemap + Bar Chart -->
+<section class="viz-section" id="sectors">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <h2>Sectors of Disruption</h2>
+            <p>What these 105 companies are building, by category.</p>
+        </div>
+        <div class="treemap animate-in" id="treemap"></div>
+    </div>
+</section>
+
+<!-- 3. Top Cities + State Bar Chart -->
+<section class="viz-section" id="cities">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <h2>America's Innovation Capitals</h2>
+            <p>The cities and states where the future is being built.</p>
+        </div>
+        <div class="two-col">
+            <div class="animate-in">
+                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;">Top Cities</h3>
+                <div class="city-grid" id="city-grid"></div>
+            </div>
+            <div class="animate-in">
+                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;">Companies by State</h3>
+                <div class="bar-chart" id="state-bars"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 4. Funding Pipeline -->
+<section class="viz-section" id="funding">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <h2>The Funding Pipeline</h2>
+            <p>From seed to public markets &mdash; how these companies are funded.</p>
+        </div>
+        <div class="pipeline animate-in" id="pipeline"></div>
+    </div>
+</section>
+
+<!-- 5. Valuation Bubbles -->
+<section class="viz-section" id="valuations">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <h2>The Billion-Dollar Map</h2>
+            <p>Every company with a known valuation, sized by market cap.</p>
+        </div>
+        <div class="bubble-grid animate-in" id="bubble-grid"></div>
+    </div>
+</section>
+
+<!-- 6. California Deep Dive -->
+<section class="viz-section" id="california" style="background:var(--bg-s);">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <h2>The California Dominance</h2>
+            <p>74 of 105 companies (70%) are based in California. Here's where they are.</p>
+        </div>
+        <div class="two-col">
+            <div class="animate-in">
+                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;">LA's Defense Tech Corridor</h3>
+                <div class="bar-chart" id="la-bars"></div>
+                <p style="font-size:12px;color:var(--text-m);margin-top:12px;">El Segundo, Torrance, and Hawthorne alone house 25 companies &mdash; America's new defense tech heartland.</p>
+            </div>
+            <div class="animate-in">
+                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;">CA Sectors</h3>
+                <div class="bar-chart" id="ca-sector-bars"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 <a href="https://www.rationaloptimistsociety.com" target="_blank">Rational Optimist Society</a> &middot; <a href="index.html">Back to Database</a></p>
+    </div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+// ─── HELPERS ───
+function parseVal(str) {
+  if (!str) return 0;
+  str = str.replace(/[^0-9.BMK+$]/g,'');
+  let num = parseFloat(str.replace(/[^0-9.]/g,'')) || 0;
+  if (str.includes('T')) num *= 1000;
+  else if (str.includes('B')) num *= 1;
+  else if (str.includes('M')) num /= 1000;
+  return num;
+}
+
+function parseFunding(str) {
+  if (!str) return 0;
+  let num = parseFloat(str.replace(/[^0-9.]/g,'')) || 0;
+  if (str.includes('B')) num *= 1000;
+  return num; // in millions
+}
+
+const sectorColors = {};
+Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.color; });
+
+// ─── 0. KEY STATS ───
+(function() {
+  const total = COMPANIES.length;
+  const sectorCount = Object.keys(SECTORS).length;
+  const states = new Set(COMPANIES.map(c => c.state)).size;
+  const cities = new Set(COMPANIES.map(c => c.location)).size;
+  const caCount = COMPANIES.filter(c => c.state === 'CA').length;
+  const withVal = COMPANIES.filter(c => c.valuation).length;
+
+  const stats = [
+    { num: total, label: 'Companies Tracked', color: '#111827' },
+    { num: sectorCount, label: 'Sectors', color: '#2563eb' },
+    { num: states, label: 'States', color: '#6366f1' },
+    { num: cities, label: 'Cities', color: '#8b5cf6' },
+    { num: caCount, label: 'Based in California', color: '#22c55e' },
+    { num: withVal, label: 'Billion+ Valuations', color: '#f59e0b' }
+  ];
+
+  const row = document.getElementById('stat-row');
+  stats.forEach(s => {
+    const card = document.createElement('div');
+    card.className = 'stat-card';
+    card.innerHTML = `<div class="num" style="color:${s.color}">${s.num}</div><div class="label">${s.label}</div>`;
+    row.appendChild(card);
+  });
+})();
+
+// ─── 1. HEATMAP ───
+(function() {
+  const map = L.map('heatmap', { center:[37.5,-98], zoom:4, minZoom:3, maxZoom:12, scrollWheelZoom:true, zoomControl:true });
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution:'&copy; OpenStreetMap &copy; CARTO', maxZoom:19
+  }).addTo(map);
+
+  // Heat data: [lat, lng, intensity]
+  const heatData = COMPANIES.filter(c => c.lat && c.lng).map(c => [c.lat, c.lng, 0.7]);
+  L.heatLayer(heatData, { radius:28, blur:20, maxZoom:10, max:1.0,
+    gradient: { 0.2:'#eff6ff', 0.4:'#93c5fd', 0.6:'#3b82f6', 0.8:'#1d4ed8', 1.0:'#1e3a8a' }
+  }).addTo(map);
+
+  // Also add small circle markers
+  COMPANIES.forEach(c => {
+    if (!c.lat || !c.lng) return;
+    const color = sectorColors[c.sector] || '#6b7280';
+    L.circleMarker([c.lat, c.lng], { radius:5, fillColor:color, color:'#fff', weight:1.5, fillOpacity:0.9 })
+      .bindPopup(`<strong>${c.name}</strong><br><span style="color:${color}">${c.sector}</span><br><small>${c.location}</small>`)
+      .addTo(map);
+  });
+})();
+
+// ─── 2. TREEMAP ───
+(function() {
+  const counts = {};
+  COMPANIES.forEach(c => { counts[c.sector] = (counts[c.sector]||0)+1; });
+  const sorted = Object.entries(counts).sort((a,b) => b[1]-a[1]);
+  const total = COMPANIES.length;
+
+  const grid = document.getElementById('treemap');
+  // Create a CSS grid that approximates a treemap
+  const rows = [];
+  let row = [];
+  let rowTotal = 0;
+  const targetPerRow = total / 3;
+
+  sorted.forEach(([sector, count]) => {
+    row.push({ sector, count });
+    rowTotal += count;
+    if (rowTotal >= targetPerRow && rows.length < 2) {
+      rows.push([...row]);
+      row = [];
+      rowTotal = 0;
+    }
+  });
+  if (row.length) rows.push(row);
+
+  grid.style.gridTemplateRows = rows.map(r => {
+    const rowSum = r.reduce((a,b) => a+b.count, 0);
+    return `${Math.max(rowSum/total*100, 20)}fr`;
+  }).join(' ');
+
+  rows.forEach(r => {
+    const rowDiv = document.createElement('div');
+    rowDiv.style.display = 'grid';
+    rowDiv.style.gridTemplateColumns = r.map(s => `${s.count}fr`).join(' ');
+    rowDiv.style.gap = '4px';
+
+    r.forEach(({ sector, count }) => {
+      const info = SECTORS[sector];
+      const pct = Math.round(count/total*100);
+      const cell = document.createElement('div');
+      cell.className = 'treemap-cell';
+      cell.style.background = info.color;
+      cell.innerHTML = `
+        <div><div class="cell-icon">${info.icon}</div><div class="cell-name">${sector}</div></div>
+        <div class="cell-count">${count} companies</div>
+        <div class="cell-pct">${pct}%</div>
+      `;
+      cell.addEventListener('click', () => {
+        window.location.href = `index.html#companies`;
+      });
+      rowDiv.appendChild(cell);
+    });
+
+    grid.appendChild(rowDiv);
+  });
+})();
+
+// ─── 3. CITIES + STATE BARS ───
+(function() {
+  // Cities
+  const cityCounts = {};
+  COMPANIES.forEach(c => { cityCounts[c.location] = (cityCounts[c.location]||0)+1; });
+  const topCities = Object.entries(cityCounts).sort((a,b) => b[1]-a[1]).slice(0,12);
+
+  const cityGrid = document.getElementById('city-grid');
+  topCities.forEach(([city, count], i) => {
+    const card = document.createElement('div');
+    card.className = 'city-card';
+    card.innerHTML = `
+      <div class="city-rank">${i+1}</div>
+      <div class="city-info"><div class="city-name">${city}</div><div class="city-count">${count} ${count===1?'company':'companies'}</div></div>
+    `;
+    cityGrid.appendChild(card);
+  });
+
+  // States
+  const stateCounts = {};
+  COMPANIES.forEach(c => { stateCounts[c.state] = (stateCounts[c.state]||0)+1; });
+  const topStates = Object.entries(stateCounts).sort((a,b) => b[1]-a[1]);
+  const maxState = topStates[0][1];
+
+  const stateColors = { CA:'#2563eb', TX:'#dc2626', DC:'#6366f1', CO:'#22c55e', MA:'#f59e0b', WA:'#8b5cf6', NY:'#ec4899', MD:'#14b8a6', TN:'#f97316', GA:'#06b6d4', IL:'#a855f7', NV:'#eab308' };
+  const stateBars = document.getElementById('state-bars');
+
+  topStates.forEach(([state, count]) => {
+    const pct = (count/maxState*100);
+    const color = stateColors[state] || '#6b7280';
+    const row = document.createElement('div');
+    row.className = 'bar-row';
+    row.innerHTML = `
+      <div class="bar-label">${state}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:0;background:${color}"><span>${count}</span></div></div>
+    `;
+    stateBars.appendChild(row);
+    setTimeout(() => {
+      row.querySelector('.bar-fill').style.width = pct + '%';
+    }, 300);
+  });
+})();
+
+// ─── 4. FUNDING PIPELINE ───
+(function() {
+  const stageOrder = ['Seed','Early Stage','Series A','Series B','Series C','Series D','Series E','Series F','Series G','Late Stage','Private','Public','Alphabet subsidiary'];
+  const stageCounts = {};
+  COMPANIES.forEach(c => { if(c.fundingStage) stageCounts[c.fundingStage] = (stageCounts[c.fundingStage]||0)+1; });
+
+  // Simplify stages
+  const simplified = [
+    { label:'Seed', stages:['Seed','Early Stage'], color:'#94a3b8' },
+    { label:'Series A', stages:['Series A'], color:'#60a5fa' },
+    { label:'Series B', stages:['Series B'], color:'#3b82f6' },
+    { label:'Series C', stages:['Series C'], color:'#2563eb' },
+    { label:'Series D+', stages:['Series D','Series E','Series F','Series G'], color:'#1d4ed8' },
+    { label:'Late Stage', stages:['Late Stage','Private'], color:'#1e3a8a' },
+    { label:'Public', stages:['Public','Alphabet subsidiary'], color:'#111827' }
+  ];
+
+  simplified.forEach(s => {
+    s.count = s.stages.reduce((a,st) => a + (stageCounts[st]||0), 0);
+  });
+
+  const maxCount = Math.max(...simplified.map(s => s.count));
+  const pipeline = document.getElementById('pipeline');
+
+  simplified.forEach(s => {
+    const pct = (s.count/maxCount*100);
+    const col = document.createElement('div');
+    col.className = 'pipeline-col';
+    col.innerHTML = `
+      <div class="pipeline-bar" style="height:0;background:${s.color}"><span>${s.count}</span></div>
+      <div class="pipeline-label"><div class="p-stage">${s.label}</div><div class="p-count">${s.count} companies</div></div>
+    `;
+    pipeline.appendChild(col);
+    setTimeout(() => {
+      col.querySelector('.pipeline-bar').style.height = Math.max(pct, 8) + '%';
+    }, 500);
+  });
+})();
+
+// ─── 5. VALUATION BUBBLES ───
+(function() {
+  const valued = COMPANIES.filter(c => c.valuation && c.valuation.includes('$')).map(c => ({
+    name: c.name,
+    sector: c.sector,
+    val: c.valuation,
+    num: parseVal(c.valuation)
+  })).sort((a,b) => b.num - a.num);
+
+  const grid = document.getElementById('bubble-grid');
+  const maxVal = valued[0].num;
+
+  valued.forEach(v => {
+    const size = Math.max(Math.sqrt(v.num / maxVal) * 160, 56);
+    const color = sectorColors[v.sector] || '#6b7280';
+    const bubble = document.createElement('div');
+    bubble.className = 'bubble';
+    bubble.style.width = size + 'px';
+    bubble.style.height = size + 'px';
+    bubble.style.background = color;
+    bubble.title = `${v.name}: ${v.val}`;
+    if (size > 70) {
+      bubble.innerHTML = `<div class="b-name">${v.name}</div><div class="b-val">${v.val}</div>`;
+    } else {
+      bubble.innerHTML = `<div class="b-name" style="font-size:8px">${v.name}</div>`;
+    }
+    grid.appendChild(bubble);
+  });
+})();
+
+// ─── 6. CALIFORNIA DEEP DIVE ───
+(function() {
+  // LA corridor
+  const laCorridorCities = ['El Segundo, CA','Torrance, CA','Hawthorne, CA','Redondo Beach, CA','Playa Vista, CA','Gardena, CA','Chatsworth, CA','Culver City, CA','Long Beach, CA','Huntington Beach, CA','Costa Mesa, CA','Irvine, CA'];
+  const laCounts = {};
+  COMPANIES.forEach(c => {
+    if (laCorridorCities.includes(c.location)) {
+      laCounts[c.location] = (laCounts[c.location]||0)+1;
+    }
+  });
+  const laTop = Object.entries(laCounts).sort((a,b) => b[1]-a[1]);
+  const maxLA = laTop[0] ? laTop[0][1] : 1;
+
+  const laBars = document.getElementById('la-bars');
+  const laColors = ['#1e3a8a','#1d4ed8','#2563eb','#3b82f6','#60a5fa','#93c5fd','#bfdbfe','#dbeafe','#eff6ff','#f8fafc'];
+
+  laTop.forEach(([city, count], i) => {
+    const pct = (count/maxLA*100);
+    const row = document.createElement('div');
+    row.className = 'bar-row';
+    row.innerHTML = `
+      <div class="bar-label">${city.replace(', CA','')}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:0;background:${laColors[i]||'#93c5fd'}"><span>${count}</span></div></div>
+    `;
+    laBars.appendChild(row);
+    setTimeout(() => { row.querySelector('.bar-fill').style.width = pct+'%'; }, 400);
+  });
+
+  // CA sectors
+  const caSectors = {};
+  COMPANIES.filter(c => c.state === 'CA').forEach(c => { caSectors[c.sector] = (caSectors[c.sector]||0)+1; });
+  const caTop = Object.entries(caSectors).sort((a,b) => b[1]-a[1]);
+  const maxCAS = caTop[0][1];
+
+  const caBars = document.getElementById('ca-sector-bars');
+  caTop.forEach(([sector, count]) => {
+    const pct = (count/maxCAS*100);
+    const color = sectorColors[sector] || '#6b7280';
+    const row = document.createElement('div');
+    row.className = 'bar-row';
+    row.innerHTML = `
+      <div class="bar-label">${sector}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:0;background:${color}"><span>${count}</span></div></div>
+    `;
+    caBars.appendChild(row);
+    setTimeout(() => { row.querySelector('.bar-fill').style.width = pct+'%'; }, 400);
+  });
+})();
+
+// ─── SCROLL ANIMATIONS ───
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold:0.1 });
+document.querySelectorAll('.animate-in').forEach(el => obs.observe(el));
+
+// ─── SMOOTH SCROLL ───
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const t = document.querySelector(a.getAttribute('href'));
+    if(t) t.scrollIntoView({ behavior:'smooth', block:'start' });
+  });
+});
+</script>
+</body>
+</html>
