@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Innovators League | Rational Optimist Society</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="#map">Map</a>
+            <a href="#companies">Database</a>
+            <a href="#sectors">Sectors</a>
+            <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow">RATIONAL OPTIMIST SOCIETY</p>
+            <h1 class="hero-title">The Innovators League</h1>
+            <p class="hero-subtitle">The definitive directory of America's most ambitious startups &mdash; mapped, documented, and tracked by the founders building the future.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="company-count">0</span>
+                    <span class="stat-label">Companies</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="sector-count">0</span>
+                    <span class="stat-label">Sectors</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="state-count">0</span>
+                    <span class="stat-label">States</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Map Section -->
+    <section id="map" class="section map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Innovation Map</h2>
+                <p>Every pin is a company reshaping an industry. Click to explore.</p>
+            </div>
+        </div>
+        <div id="innovators-map"></div>
+    </section>
+
+    <!-- Database Section -->
+    <section id="companies" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Company Database</h2>
+                <p id="results-count"></p>
+            </div>
+
+            <!-- Filters -->
+            <div class="filter-bar">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="text" id="search-input" placeholder="Search companies, founders, technologies...">
+                </div>
+                <div class="filter-dropdowns">
+                    <select id="sector-filter" class="filter-select">
+                        <option value="all">All Sectors</option>
+                    </select>
+                    <select id="stage-filter" class="filter-select">
+                        <option value="all">All Stages</option>
+                    </select>
+                    <select id="sort-filter" class="filter-select">
+                        <option value="name">Sort: A-Z</option>
+                        <option value="name-desc">Sort: Z-A</option>
+                        <option value="sector">Sort: Sector</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Sector Chips (quick filter) -->
+            <div class="filter-chips" id="filter-chips">
+                <button class="chip active" data-sector="all">All</button>
+            </div>
+
+            <!-- Company Grid -->
+            <div class="company-grid" id="company-grid"></div>
+            <div class="no-results" id="no-results" style="display:none;">
+                <p>No companies match your filters. Try adjusting your search.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sectors Overview -->
+    <section id="sectors" class="section sectors-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sectors</h2>
+                <p>The industries being reinvented by America's boldest founders.</p>
+            </div>
+            <div class="sectors-grid" id="sectors-grid"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">THE INNOVATORS LEAGUE</div>
+                    <p>A project of the Rational Optimist Society. We celebrate human achievement, technological progress, and the entrepreneurs building a better future.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>ROS</h4>
+                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener">Main Site</a>
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
+                    <a href="https://x.com/RationalOptSoc" target="_blank" rel="noopener">X / Twitter</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <a href="#map">Innovation Map</a>
+                    <a href="#companies">Database</a>
+                    <a href="#sectors">Sectors</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rational Optimist Society &middot; The Innovators League</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
