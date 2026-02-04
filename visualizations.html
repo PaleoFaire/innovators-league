@@ -155,7 +155,7 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 
 <header class="hero">
     <h1>Innovation Insights</h1>
-    <p>Interactive data visualizations from The Innovators League &mdash; 105 companies across 13 sectors reshaping America.</p>
+    <p id="hero-subtitle">Interactive data visualizations from The Innovators League &mdash; loading...</p>
 </header>
 
 <!-- Key Stats -->
@@ -181,7 +181,7 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
     <div class="container">
         <div class="viz-header animate-in">
             <h2>Sectors of Disruption</h2>
-            <p>What these 105 companies are building, by category.</p>
+            <p id="sectors-subtitle">What these companies are building, by category.</p>
         </div>
         <div class="treemap animate-in" id="treemap"></div>
     </div>
@@ -234,7 +234,7 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
     <div class="container">
         <div class="viz-header animate-in">
             <h2>The California Dominance</h2>
-            <p>74 of 105 companies (70%) are based in California. Here's where they are.</p>
+            <p id="california-subtitle">California companies loading...</p>
         </div>
         <div class="two-col">
             <div class="animate-in">
@@ -304,6 +304,15 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
     card.innerHTML = `<div class="num" style="color:${s.color}">${s.num}</div><div class="label">${s.label}</div>`;
     row.appendChild(card);
   });
+
+  // Dynamic subtitles
+  document.getElementById('hero-subtitle').innerHTML =
+    `Interactive data visualizations from The Innovators League &mdash; ${total} companies across ${sectorCount} sectors reshaping America.`;
+  document.getElementById('sectors-subtitle').textContent =
+    `What these ${total} companies are building, by category.`;
+  const caPct = Math.round(caCount / total * 100);
+  document.getElementById('california-subtitle').textContent =
+    `${caCount} of ${total} companies (${caPct}%) are based in California. Here's where they are.`;
 })();
 
 // ─── 1. HEATMAP ───
