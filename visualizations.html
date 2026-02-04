@@ -14,36 +14,40 @@
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
 
 :root {
-  --bg: #ffffff;
-  --bg-s: #f8f9fa;
-  --bg-t: #f1f3f5;
-  --text: #111827;
-  --text-s: #4b5563;
-  --text-m: #9ca3af;
-  --border: #e5e7eb;
-  --blue: #2563eb;
-  --blue-light: #eff6ff;
+  --bg: #000000;
+  --bg-s: #0a0a0a;
+  --bg-t: #111111;
+  --bg-card: #0d0d0d;
+  --text: #f0f0fa;
+  --text-s: rgba(240,240,250,0.60);
+  --text-m: rgba(240,240,250,0.40);
+  --border: rgba(255,255,255,0.08);
+  --border-hover: rgba(255,255,255,0.15);
+  --accent: #DFF140;
+  --accent-dim: rgba(223,241,64,0.15);
   --radius: 12px;
-  --shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
-  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.04);
+  --shadow: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 html { scroll-behavior: smooth; }
 body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color:var(--text); -webkit-font-smoothing:antialiased; }
 
 /* Nav */
-.nav { position:fixed; top:0; left:0; right:0; z-index:1000; display:flex; align-items:center; justify-content:space-between; padding:0 32px; height:56px; background:rgba(255,255,255,0.92); backdrop-filter:blur(12px); border-bottom:1px solid var(--border); }
+.nav { position:fixed; top:0; left:0; right:0; z-index:1000; display:flex; align-items:center; justify-content:space-between; padding:0 32px; height:56px; background:rgba(0,0,0,0.85); backdrop-filter:blur(16px); border-bottom:1px solid var(--border); }
 .nav-brand { display:flex; align-items:center; gap:10px; }
-.nav-logo { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; color:#fff; background:#111827; padding:3px 8px; border-radius:4px; letter-spacing:1px; }
-.nav-title { font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; letter-spacing:2px; }
+.nav-logo { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px; color:#000; background:var(--accent); padding:3px 8px; border-radius:4px; letter-spacing:1px; }
+.nav-title { font-family:'Space Grotesk',sans-serif; font-weight:600; font-size:13px; letter-spacing:2px; color:var(--text); }
 .nav-links { display:flex; gap:24px; align-items:center; }
 .nav-links a { font-size:14px; font-weight:500; color:var(--text-s); text-decoration:none; transition:color .15s; }
 .nav-links a:hover { color:var(--text); }
-.nav-cta { background:#111827!important; color:#fff!important; padding:6px 16px; border-radius:6px; font-weight:600!important; font-size:13px!important; }
+.nav-cta { background:var(--accent)!important; color:#000!important; padding:6px 16px; border-radius:6px; font-weight:600!important; font-size:13px!important; }
+.nav-cta:hover { opacity:0.9; }
 
 /* Hero */
-.hero { padding:100px 24px 48px; text-align:center; border-bottom:1px solid var(--border); }
-.hero h1 { font-family:'Space Grotesk',sans-serif; font-size:clamp(32px,4vw,48px); font-weight:800; margin-bottom:8px; }
+.hero { padding:100px 24px 48px; text-align:center; border-bottom:1px solid var(--border); position:relative; }
+.hero::before { content:''; position:absolute; top:50%; left:50%; width:600px; height:600px; transform:translate(-50%,-50%); background:radial-gradient(ellipse,rgba(223,241,64,0.04) 0%,transparent 70%); pointer-events:none; }
+.hero h1 { font-family:'Space Grotesk',sans-serif; font-size:clamp(32px,4vw,48px); font-weight:800; margin-bottom:8px; letter-spacing:-0.03em; }
 .hero p { font-size:17px; color:var(--text-s); max-width:600px; margin:0 auto; }
 
 /* Container */
@@ -53,12 +57,14 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 .viz-section { padding:64px 0; border-bottom:1px solid var(--border); }
 .viz-section:last-of-type { border-bottom:none; }
 .viz-header { margin-bottom:32px; }
-.viz-header h2 { font-family:'Space Grotesk',sans-serif; font-size:24px; font-weight:700; margin-bottom:4px; }
+.viz-header h2 { font-family:'Space Grotesk',sans-serif; font-size:24px; font-weight:700; margin-bottom:4px; letter-spacing:-0.02em; }
 .viz-header p { font-size:14px; color:var(--text-m); }
+.section-eyebrow { font-size:11px; font-weight:600; letter-spacing:3px; text-transform:uppercase; color:var(--accent); margin-bottom:8px; }
 
 /* Stat Cards Row */
 .stat-row { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; margin-bottom:48px; }
-.stat-card { background:var(--bg); border:1px solid var(--border); border-radius:var(--radius); padding:24px; text-align:center; }
+.stat-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px; text-align:center; transition:border-color .2s; }
+.stat-card:hover { border-color:var(--border-hover); }
 .stat-card .num { font-family:'Space Grotesk',sans-serif; font-size:36px; font-weight:800; line-height:1; }
 .stat-card .label { font-size:12px; color:var(--text-m); text-transform:uppercase; letter-spacing:1.5px; margin-top:6px; font-weight:500; }
 
@@ -68,7 +74,7 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 /* Bar Charts */
 .bar-chart { display:flex; flex-direction:column; gap:8px; }
 .bar-row { display:flex; align-items:center; gap:12px; }
-.bar-label { width:180px; font-size:13px; font-weight:500; text-align:right; flex-shrink:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.bar-label { width:180px; font-size:13px; font-weight:500; text-align:right; flex-shrink:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:var(--text-s); }
 .bar-track { flex:1; height:32px; background:var(--bg-t); border-radius:6px; overflow:hidden; position:relative; }
 .bar-fill { height:100%; border-radius:6px; transition:width 1s cubic-bezier(.4,0,.2,1); display:flex; align-items:center; padding-left:10px; }
 .bar-fill span { font-size:12px; font-weight:700; color:#fff; white-space:nowrap; }
@@ -85,8 +91,8 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 
 /* Bubble Grid (Valuations) */
 .bubble-grid { display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end; justify-content:center; padding:20px 0; }
-.bubble { border-radius:50%; display:flex; align-items:center; justify-content:center; flex-direction:column; text-align:center; transition:transform .2s; cursor:default; border:2px solid rgba(255,255,255,0.3); }
-.bubble:hover { transform:scale(1.08); }
+.bubble { border-radius:50%; display:flex; align-items:center; justify-content:center; flex-direction:column; text-align:center; transition:transform .2s; cursor:default; border:2px solid rgba(255,255,255,0.15); }
+.bubble:hover { transform:scale(1.08); border-color:var(--accent); }
 .bubble .b-name { font-size:10px; font-weight:700; color:#fff; line-height:1.2; padding:0 4px; }
 .bubble .b-val { font-size:9px; color:rgba(255,255,255,0.8); }
 
@@ -101,23 +107,32 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 
 /* City Grid */
 .city-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:12px; }
-.city-card { background:var(--bg); border:1px solid var(--border); border-radius:var(--radius); padding:16px 20px; display:flex; align-items:center; gap:14px; transition:border-color .15s, box-shadow .15s; }
-.city-card:hover { border-color:#d1d5db; box-shadow:var(--shadow-md); }
-.city-rank { font-family:'Space Grotesk',sans-serif; font-size:24px; font-weight:800; color:var(--bg-t); width:32px; text-align:center; }
-.city-card:nth-child(1) .city-rank { color:var(--blue); }
-.city-card:nth-child(2) .city-rank { color:#6366f1; }
+.city-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:16px 20px; display:flex; align-items:center; gap:14px; transition:border-color .15s, box-shadow .15s; }
+.city-card:hover { border-color:var(--border-hover); box-shadow:var(--shadow-md); }
+.city-rank { font-family:'Space Grotesk',sans-serif; font-size:24px; font-weight:800; color:var(--text-m); width:32px; text-align:center; }
+.city-card:nth-child(1) .city-rank { color:var(--accent); }
+.city-card:nth-child(2) .city-rank { color:#60a5fa; }
 .city-card:nth-child(3) .city-rank { color:#8b5cf6; }
-.city-info .city-name { font-size:14px; font-weight:600; }
+.city-info .city-name { font-size:14px; font-weight:600; color:var(--text); }
 .city-info .city-count { font-size:12px; color:var(--text-m); }
 
 /* Footer */
-.footer { background:#111827; color:#fff; padding:32px 0; text-align:center; }
-.footer p { font-size:13px; color:rgba(255,255,255,0.5); }
-.footer a { color:rgba(255,255,255,0.7); text-decoration:none; }
-.footer a:hover { color:#fff; }
+.footer { background:var(--bg-s); border-top:1px solid var(--border); color:#fff; padding:32px 0; text-align:center; }
+.footer p { font-size:13px; color:var(--text-m); }
+.footer a { color:var(--text-s); text-decoration:none; }
+.footer a:hover { color:var(--accent); }
 
 /* Two column layout */
 .two-col { display:grid; grid-template-columns:1fr 1fr; gap:32px; }
+
+/* Dark Leaflet overrides */
+.leaflet-container { background:#0a0a0a !important; }
+.leaflet-control-zoom a { background:rgba(20,20,20,0.9)!important; color:var(--text)!important; border-color:var(--border)!important; }
+.leaflet-control-zoom a:hover { background:rgba(30,30,30,0.95)!important; }
+.leaflet-control-attribution { background:rgba(0,0,0,0.7)!important; color:var(--text-m)!important; }
+.leaflet-control-attribution a { color:var(--text-s)!important; }
+.leaflet-popup-content-wrapper { background:var(--bg-t)!important; color:var(--text)!important; border-radius:8px!important; box-shadow:var(--shadow-md)!important; }
+.leaflet-popup-tip { background:var(--bg-t)!important; }
 
 /* Responsive */
 @media(max-width:768px) {
@@ -130,6 +145,12 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
   .pipeline { flex-wrap:wrap; }
   .pipeline-col { min-width:60px; }
 }
+
+/* Scrollbar */
+::-webkit-scrollbar { width:8px; height:8px; }
+::-webkit-scrollbar-track { background:transparent; }
+::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.15); border-radius:4px; }
+::-webkit-scrollbar-thumb:hover { background:rgba(255,255,255,0.25); }
 
 /* Animate in */
 .animate-in { opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease; }
@@ -154,6 +175,7 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 </nav>
 
 <header class="hero">
+    <p class="section-eyebrow">RATIONAL OPTIMIST SOCIETY</p>
     <h1>Innovation Insights</h1>
     <p id="hero-subtitle">Interactive data visualizations from The Innovators League &mdash; loading...</p>
 </header>
@@ -169,17 +191,19 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 <section class="viz-section" id="hotspots">
     <div class="container">
         <div class="viz-header animate-in">
+            <p class="section-eyebrow">GEOGRAPHY</p>
             <h2>Innovation Hotspots</h2>
-            <p>Where America's most ambitious startups cluster. Brighter = more companies.</p>
+            <p>Where the world's most ambitious startups cluster. Brighter = more companies.</p>
         </div>
         <div id="heatmap" class="animate-in"></div>
     </div>
 </section>
 
-<!-- 2. Sector Treemap + Bar Chart -->
+<!-- 2. Sector Treemap -->
 <section class="viz-section" id="sectors">
     <div class="container">
         <div class="viz-header animate-in">
+            <p class="section-eyebrow">SECTORS</p>
             <h2>Sectors of Disruption</h2>
             <p id="sectors-subtitle">What these companies are building, by category.</p>
         </div>
@@ -187,21 +211,22 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
     </div>
 </section>
 
-<!-- 3. Top Cities + State Bar Chart -->
+<!-- 3. Top Cities + Country Bar Chart -->
 <section class="viz-section" id="cities">
     <div class="container">
         <div class="viz-header animate-in">
-            <h2>America's Innovation Capitals</h2>
-            <p>The cities and states where the future is being built.</p>
+            <p class="section-eyebrow">LOCATIONS</p>
+            <h2>Global Innovation Capitals</h2>
+            <p>The cities and countries where the future is being built.</p>
         </div>
         <div class="two-col">
             <div class="animate-in">
-                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;">Top Cities</h3>
+                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;color:var(--text);">Top Cities</h3>
                 <div class="city-grid" id="city-grid"></div>
             </div>
             <div class="animate-in">
-                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;">Companies by State</h3>
-                <div class="bar-chart" id="state-bars"></div>
+                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;color:var(--text);">Companies by Country</h3>
+                <div class="bar-chart" id="country-bars"></div>
             </div>
         </div>
     </div>
@@ -211,6 +236,7 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 <section class="viz-section" id="funding">
     <div class="container">
         <div class="viz-header animate-in">
+            <p class="section-eyebrow">CAPITAL</p>
             <h2>The Funding Pipeline</h2>
             <p>From seed to public markets &mdash; how these companies are funded.</p>
         </div>
@@ -222,6 +248,7 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 <section class="viz-section" id="valuations">
     <div class="container">
         <div class="viz-header animate-in">
+            <p class="section-eyebrow">VALUATIONS</p>
             <h2>The Billion-Dollar Map</h2>
             <p>Every company with a known valuation, sized by market cap.</p>
         </div>
@@ -229,21 +256,22 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
     </div>
 </section>
 
-<!-- 6. California Deep Dive -->
-<section class="viz-section" id="california" style="background:var(--bg-s);">
+<!-- 6. US Deep Dive (still interesting with global data) -->
+<section class="viz-section" id="us-deep-dive" style="background:var(--bg-s);">
     <div class="container">
         <div class="viz-header animate-in">
+            <p class="section-eyebrow">DEEP DIVE</p>
             <h2>The California Dominance</h2>
             <p id="california-subtitle">California companies loading...</p>
         </div>
         <div class="two-col">
             <div class="animate-in">
-                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;">LA's Defense Tech Corridor</h3>
+                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;color:var(--text);">LA's Defense Tech Corridor</h3>
                 <div class="bar-chart" id="la-bars"></div>
-                <p style="font-size:12px;color:var(--text-m);margin-top:12px;">El Segundo, Torrance, and Hawthorne alone house 25 companies &mdash; America's new defense tech heartland.</p>
+                <p style="font-size:12px;color:var(--text-m);margin-top:12px;">El Segundo, Torrance, and Hawthorne house dozens of companies &mdash; the new defense tech heartland.</p>
             </div>
             <div class="animate-in">
-                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;">CA Sectors</h3>
+                <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;color:var(--text);">CA Sectors</h3>
                 <div class="bar-chart" id="ca-sector-bars"></div>
             </div>
         </div>
@@ -258,10 +286,30 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 
 <script src="data.js"></script>
 <script>
+// ─── COUNTRY HELPER (matches app.js logic) ───
+const INTL_CODES_VIZ = {
+  'UK':'United Kingdom','GB':'United Kingdom','FR':'France','SE':'Sweden','FI':'Finland',
+  'CH':'Switzerland','DK':'Denmark','NO':'Norway','NL':'Netherlands','ES':'Spain',
+  'IT':'Italy','EE':'Estonia','PL':'Poland','JP':'Japan','KR':'South Korea',
+  'AU':'Australia','SG':'Singapore','NZ':'New Zealand','ZA':'South Africa','BR':'Brazil',
+  'IE':'Ireland','CA-CAN':'Canada'
+};
+const LOC_COUNTRIES = {'Germany':'Germany','Israel':'Israel','India':'India','Argentina':'Argentina','Ireland':'Ireland'};
+
+function getCountryViz(stateCode, location) {
+  if (INTL_CODES_VIZ[stateCode]) return INTL_CODES_VIZ[stateCode];
+  if (location) {
+    for (const [kw, country] of Object.entries(LOC_COUNTRIES)) {
+      if (location.includes(kw)) return country;
+    }
+  }
+  return 'United States';
+}
+
 // ─── HELPERS ───
 function parseVal(str) {
   if (!str) return 0;
-  str = str.replace(/[^0-9.BMK+$]/g,'');
+  str = str.replace(/[^0-9.BMK+$T]/g,'');
   let num = parseFloat(str.replace(/[^0-9.]/g,'')) || 0;
   if (str.includes('T')) num *= 1000;
   else if (str.includes('B')) num *= 1;
@@ -273,7 +321,7 @@ function parseFunding(str) {
   if (!str) return 0;
   let num = parseFloat(str.replace(/[^0-9.]/g,'')) || 0;
   if (str.includes('B')) num *= 1000;
-  return num; // in millions
+  return num;
 }
 
 const sectorColors = {};
@@ -283,18 +331,19 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
 (function() {
   const total = COMPANIES.length;
   const sectorCount = Object.keys(SECTORS).length;
-  const states = new Set(COMPANIES.map(c => c.state)).size;
+  const countries = new Set(COMPANIES.map(c => getCountryViz(c.state, c.location)));
+  const countryCount = countries.size;
   const cities = new Set(COMPANIES.map(c => c.location)).size;
   const caCount = COMPANIES.filter(c => c.state === 'CA').length;
   const withVal = COMPANIES.filter(c => c.valuation).length;
 
   const stats = [
-    { num: total, label: 'Companies Tracked', color: '#111827' },
-    { num: sectorCount, label: 'Sectors', color: '#2563eb' },
-    { num: states, label: 'States', color: '#6366f1' },
-    { num: cities, label: 'Cities', color: '#8b5cf6' },
+    { num: total, label: 'Companies Tracked', color: 'var(--accent)' },
+    { num: sectorCount, label: 'Sectors', color: '#3b82f6' },
+    { num: countryCount, label: 'Countries', color: '#8b5cf6' },
+    { num: cities, label: 'Cities', color: '#6366f1' },
     { num: caCount, label: 'Based in California', color: '#22c55e' },
-    { num: withVal, label: 'Billion+ Valuations', color: '#f59e0b' }
+    { num: withVal, label: 'With Valuations', color: '#f59e0b' }
   ];
 
   const row = document.getElementById('stat-row');
@@ -305,9 +354,8 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
     row.appendChild(card);
   });
 
-  // Dynamic subtitles
   document.getElementById('hero-subtitle').innerHTML =
-    `Interactive data visualizations from The Innovators League &mdash; ${total} companies across ${sectorCount} sectors reshaping America.`;
+    `Interactive data visualizations from The Innovators League &mdash; ${total} companies across ${countryCount} countries reshaping the world.`;
   document.getElementById('sectors-subtitle').textContent =
     `What these ${total} companies are building, by category.`;
   const caPct = Math.round(caCount / total * 100);
@@ -315,24 +363,22 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
     `${caCount} of ${total} companies (${caPct}%) are based in California. Here's where they are.`;
 })();
 
-// ─── 1. HEATMAP ───
+// ─── 1. HEATMAP (global, dark tiles) ───
 (function() {
-  const map = L.map('heatmap', { center:[37.5,-98], zoom:4, minZoom:3, maxZoom:12, scrollWheelZoom:true, zoomControl:true });
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  const map = L.map('heatmap', { center:[25,0], zoom:2, minZoom:2, maxZoom:12, scrollWheelZoom:true, zoomControl:true });
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution:'&copy; OpenStreetMap &copy; CARTO', maxZoom:19
   }).addTo(map);
 
-  // Heat data: [lat, lng, intensity]
   const heatData = COMPANIES.filter(c => c.lat && c.lng).map(c => [c.lat, c.lng, 0.7]);
   L.heatLayer(heatData, { radius:28, blur:20, maxZoom:10, max:1.0,
-    gradient: { 0.2:'#eff6ff', 0.4:'#93c5fd', 0.6:'#3b82f6', 0.8:'#1d4ed8', 1.0:'#1e3a8a' }
+    gradient: { 0.2:'rgba(223,241,64,0.15)', 0.4:'rgba(223,241,64,0.3)', 0.6:'#DFF140', 0.8:'#c4d636', 1.0:'#a8bb2c' }
   }).addTo(map);
 
-  // Also add small circle markers
   COMPANIES.forEach(c => {
     if (!c.lat || !c.lng) return;
     const color = sectorColors[c.sector] || '#6b7280';
-    L.circleMarker([c.lat, c.lng], { radius:5, fillColor:color, color:'#fff', weight:1.5, fillOpacity:0.9 })
+    L.circleMarker([c.lat, c.lng], { radius:5, fillColor:color, color:'rgba(255,255,255,0.3)', weight:1, fillOpacity:0.9 })
       .bindPopup(`<strong>${c.name}</strong><br><span style="color:${color}">${c.sector}</span><br><small>${c.location}</small>`)
       .addTo(map);
   });
@@ -346,7 +392,6 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
   const total = COMPANIES.length;
 
   const grid = document.getElementById('treemap');
-  // Create a CSS grid that approximates a treemap
   const rows = [];
   let row = [];
   let rowTotal = 0;
@@ -385,9 +430,7 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
         <div class="cell-count">${count} companies</div>
         <div class="cell-pct">${pct}%</div>
       `;
-      cell.addEventListener('click', () => {
-        window.location.href = `index.html#companies`;
-      });
+      cell.addEventListener('click', () => { window.location.href = `index.html?sector=${encodeURIComponent(sector)}#companies`; });
       rowDiv.appendChild(cell);
     });
 
@@ -395,7 +438,7 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
   });
 })();
 
-// ─── 3. CITIES + STATE BARS ───
+// ─── 3. CITIES + COUNTRY BARS ───
 (function() {
   // Cities
   const cityCounts = {};
@@ -413,46 +456,50 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
     cityGrid.appendChild(card);
   });
 
-  // States
-  const stateCounts = {};
-  COMPANIES.forEach(c => { stateCounts[c.state] = (stateCounts[c.state]||0)+1; });
-  const topStates = Object.entries(stateCounts).sort((a,b) => b[1]-a[1]);
-  const maxState = topStates[0][1];
+  // Countries instead of states
+  const countryCounts = {};
+  COMPANIES.forEach(c => {
+    const country = getCountryViz(c.state, c.location);
+    countryCounts[country] = (countryCounts[country]||0)+1;
+  });
+  const topCountries = Object.entries(countryCounts).sort((a,b) => b[1]-a[1]);
+  const maxCountry = topCountries[0][1];
 
-  const stateColors = { CA:'#2563eb', TX:'#dc2626', DC:'#6366f1', CO:'#22c55e', MA:'#f59e0b', WA:'#8b5cf6', NY:'#ec4899', MD:'#14b8a6', TN:'#f97316', GA:'#06b6d4', IL:'#a855f7', NV:'#eab308' };
-  const stateBars = document.getElementById('state-bars');
+  const countryColors = {
+    'United States':'#DFF140', 'United Kingdom':'#3b82f6', 'Germany':'#dc2626',
+    'France':'#6366f1', 'Israel':'#f59e0b', 'Japan':'#ec4899', 'Canada':'#22c55e',
+    'Sweden':'#14b8a6', 'Finland':'#60a5fa', 'Switzerland':'#f97316', 'India':'#8b5cf6',
+    'South Korea':'#06b6d4', 'Australia':'#a855f7'
+  };
+  const countryBars = document.getElementById('country-bars');
 
-  topStates.forEach(([state, count]) => {
-    const pct = (count/maxState*100);
-    const color = stateColors[state] || '#6b7280';
+  topCountries.forEach(([country, count]) => {
+    const pct = (count/maxCountry*100);
+    const color = countryColors[country] || '#6b7280';
     const row = document.createElement('div');
     row.className = 'bar-row';
     row.innerHTML = `
-      <div class="bar-label">${state}</div>
+      <div class="bar-label">${country}</div>
       <div class="bar-track"><div class="bar-fill" style="width:0;background:${color}"><span>${count}</span></div></div>
     `;
-    stateBars.appendChild(row);
-    setTimeout(() => {
-      row.querySelector('.bar-fill').style.width = pct + '%';
-    }, 300);
+    countryBars.appendChild(row);
+    setTimeout(() => { row.querySelector('.bar-fill').style.width = pct + '%'; }, 300);
   });
 })();
 
 // ─── 4. FUNDING PIPELINE ───
 (function() {
-  const stageOrder = ['Seed','Early Stage','Series A','Series B','Series C','Series D','Series E','Series F','Series G','Late Stage','Private','Public','Alphabet subsidiary'];
   const stageCounts = {};
   COMPANIES.forEach(c => { if(c.fundingStage) stageCounts[c.fundingStage] = (stageCounts[c.fundingStage]||0)+1; });
 
-  // Simplify stages
   const simplified = [
-    { label:'Seed', stages:['Seed','Early Stage'], color:'#94a3b8' },
-    { label:'Series A', stages:['Series A'], color:'#60a5fa' },
-    { label:'Series B', stages:['Series B'], color:'#3b82f6' },
-    { label:'Series C', stages:['Series C'], color:'#2563eb' },
-    { label:'Series D+', stages:['Series D','Series E','Series F','Series G'], color:'#1d4ed8' },
-    { label:'Late Stage', stages:['Late Stage','Private'], color:'#1e3a8a' },
-    { label:'Public', stages:['Public','Alphabet subsidiary'], color:'#111827' }
+    { label:'Seed', stages:['Seed','Early Stage'], color:'rgba(223,241,64,0.4)' },
+    { label:'Series A', stages:['Series A'], color:'rgba(223,241,64,0.5)' },
+    { label:'Series B', stages:['Series B'], color:'rgba(223,241,64,0.6)' },
+    { label:'Series C', stages:['Series C'], color:'rgba(223,241,64,0.75)' },
+    { label:'Series D+', stages:['Series D','Series E','Series F','Series G'], color:'#DFF140' },
+    { label:'Late Stage', stages:['Late Stage','Private'], color:'#c4d636' },
+    { label:'Public', stages:['Public','Alphabet subsidiary'], color:'#a8bb2c' }
   ];
 
   simplified.forEach(s => {
@@ -471,22 +518,18 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
       <div class="pipeline-label"><div class="p-stage">${s.label}</div><div class="p-count">${s.count} companies</div></div>
     `;
     pipeline.appendChild(col);
-    setTimeout(() => {
-      col.querySelector('.pipeline-bar').style.height = Math.max(pct, 8) + '%';
-    }, 500);
+    setTimeout(() => { col.querySelector('.pipeline-bar').style.height = Math.max(pct, 8) + '%'; }, 500);
   });
 })();
 
 // ─── 5. VALUATION BUBBLES ───
 (function() {
   const valued = COMPANIES.filter(c => c.valuation && c.valuation.includes('$')).map(c => ({
-    name: c.name,
-    sector: c.sector,
-    val: c.valuation,
-    num: parseVal(c.valuation)
+    name: c.name, sector: c.sector, val: c.valuation, num: parseVal(c.valuation)
   })).sort((a,b) => b.num - a.num);
 
   const grid = document.getElementById('bubble-grid');
+  if (!valued.length) return;
   const maxVal = valued[0].num;
 
   valued.forEach(v => {
@@ -509,19 +552,14 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
 
 // ─── 6. CALIFORNIA DEEP DIVE ───
 (function() {
-  // LA corridor
   const laCorridorCities = ['El Segundo, CA','Torrance, CA','Hawthorne, CA','Redondo Beach, CA','Playa Vista, CA','Gardena, CA','Chatsworth, CA','Culver City, CA','Long Beach, CA','Huntington Beach, CA','Costa Mesa, CA','Irvine, CA'];
   const laCounts = {};
-  COMPANIES.forEach(c => {
-    if (laCorridorCities.includes(c.location)) {
-      laCounts[c.location] = (laCounts[c.location]||0)+1;
-    }
-  });
+  COMPANIES.forEach(c => { if (laCorridorCities.includes(c.location)) laCounts[c.location] = (laCounts[c.location]||0)+1; });
   const laTop = Object.entries(laCounts).sort((a,b) => b[1]-a[1]);
   const maxLA = laTop[0] ? laTop[0][1] : 1;
 
   const laBars = document.getElementById('la-bars');
-  const laColors = ['#1e3a8a','#1d4ed8','#2563eb','#3b82f6','#60a5fa','#93c5fd','#bfdbfe','#dbeafe','#eff6ff','#f8fafc'];
+  const laColors = ['#DFF140','#c4d636','#a8bb2c','#8d9f22','#718318','#60a5fa','#3b82f6','#2563eb','#1d4ed8','#1e3a8a'];
 
   laTop.forEach(([city, count], i) => {
     const pct = (count/maxLA*100);
@@ -529,7 +567,7 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
     row.className = 'bar-row';
     row.innerHTML = `
       <div class="bar-label">${city.replace(', CA','')}</div>
-      <div class="bar-track"><div class="bar-fill" style="width:0;background:${laColors[i]||'#93c5fd'}"><span>${count}</span></div></div>
+      <div class="bar-track"><div class="bar-fill" style="width:0;background:${laColors[i]||'#6b7280'}"><span>${count}</span></div></div>
     `;
     laBars.appendChild(row);
     setTimeout(() => { row.querySelector('.bar-fill').style.width = pct+'%'; }, 400);
@@ -539,7 +577,7 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
   const caSectors = {};
   COMPANIES.filter(c => c.state === 'CA').forEach(c => { caSectors[c.sector] = (caSectors[c.sector]||0)+1; });
   const caTop = Object.entries(caSectors).sort((a,b) => b[1]-a[1]);
-  const maxCAS = caTop[0][1];
+  const maxCAS = caTop[0] ? caTop[0][1] : 1;
 
   const caBars = document.getElementById('ca-sector-bars');
   caTop.forEach(([sector, count]) => {

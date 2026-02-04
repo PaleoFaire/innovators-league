@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Innovators League | Rational Optimist Society</title>
+    <meta name="description" content="The definitive directory of the world's most ambitious startups — mapped, documented, and tracked by the founders building the future.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -36,7 +37,7 @@
         <div class="hero-content">
             <p class="hero-eyebrow">RATIONAL OPTIMIST SOCIETY</p>
             <h1 class="hero-title">The Innovators League</h1>
-            <p class="hero-subtitle">The definitive directory of America's most ambitious startups &mdash; mapped, documented, and tracked by the founders building the future.</p>
+            <p class="hero-subtitle">The definitive directory of the world's most ambitious startups &mdash; mapped, documented, and tracked by the founders building the future.</p>
             <div class="hero-stats">
                 <div class="stat">
                     <span class="stat-number" id="company-count">0</span>
@@ -49,17 +50,32 @@
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
-                    <span class="stat-number" id="state-count">0</span>
-                    <span class="stat-label">States</span>
+                    <span class="stat-number" id="country-count">0</span>
+                    <span class="stat-label">Countries</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="funding-count">0</span>
+                    <span class="stat-label">Tracked Funding</span>
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- Featured Innovators -->
+    <section class="featured-section" id="featured">
+        <div class="container">
+            <p class="section-eyebrow">SPOTLIGHT</p>
+            <h2 class="featured-title">Featured Innovators</h2>
+        </div>
+        <div class="featured-scroll" id="featured-scroll"></div>
+    </section>
+
     <!-- Map Section -->
     <section id="map" class="section map-section">
         <div class="container">
             <div class="section-header">
+                <p class="section-eyebrow">GLOBAL PRESENCE</p>
                 <h2>Innovation Map</h2>
                 <p>Every pin is a company reshaping an industry. Click to explore.</p>
             </div>
@@ -71,6 +87,7 @@
     <section id="companies" class="section">
         <div class="container">
             <div class="section-header">
+                <p class="section-eyebrow">DIRECTORY</p>
                 <h2>Company Database</h2>
                 <p id="results-count"></p>
             </div>
@@ -80,10 +97,14 @@
                 <div class="search-box">
                     <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                     <input type="text" id="search-input" placeholder="Search companies, founders, technologies...">
+                    <span class="keyboard-hint">/</span>
                 </div>
                 <div class="filter-dropdowns">
                     <select id="sector-filter" class="filter-select">
                         <option value="all">All Sectors</option>
+                    </select>
+                    <select id="country-filter" class="filter-select">
+                        <option value="all">All Countries</option>
                     </select>
                     <select id="stage-filter" class="filter-select">
                         <option value="all">All Stages</option>
@@ -92,6 +113,7 @@
                         <option value="name">Sort: A-Z</option>
                         <option value="name-desc">Sort: Z-A</option>
                         <option value="sector">Sort: Sector</option>
+                        <option value="saved">Sort: Saved First</option>
                     </select>
                 </div>
             </div>
@@ -113,12 +135,32 @@
     <section id="sectors" class="section sectors-section">
         <div class="container">
             <div class="section-header">
+                <p class="section-eyebrow">CATEGORIES</p>
                 <h2>Sectors</h2>
-                <p>The industries being reinvented by America's boldest founders.</p>
+                <p>The industries being reinvented by the world's boldest founders.</p>
             </div>
             <div class="sectors-grid" id="sectors-grid"></div>
         </div>
     </section>
+
+    <!-- Company Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-content" id="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Compare Bar -->
+    <div class="compare-bar" id="compare-bar">
+        <div class="compare-bar-inner">
+            <div class="compare-items" id="compare-items"></div>
+            <div class="compare-actions">
+                <button class="compare-btn" id="compare-btn">Compare</button>
+                <button class="compare-clear" id="compare-clear">Clear</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
@@ -139,6 +181,7 @@
                     <a href="#map">Innovation Map</a>
                     <a href="#companies">Database</a>
                     <a href="#sectors">Sectors</a>
+                    <a href="visualizations.html">Insights</a>
                 </div>
             </div>
             <div class="footer-bottom">
