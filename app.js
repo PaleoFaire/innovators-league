@@ -835,6 +835,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initGovContracts();
   initPatentIntel();
   initAltData();
+  initNetworkGraph();
+  initPortfolioBuilder();
+  initAIMemo();
   initURLState();
   initSmoothScroll();
   updateResultsCount(COMPANIES.length);
@@ -2545,4 +2548,697 @@ function initAltData() {
 
   renderAltData();
   document.getElementById('alt-sort')?.addEventListener('change', renderAltData);
+}
+
+// ═══════════════════════════════════════════════════════
+// PHASE 2: INTERACTIVE NETWORK GRAPH (D3.js)
+// ═══════════════════════════════════════════════════════
+function initNetworkGraph() {
+  if (typeof NETWORK_GRAPH === 'undefined' || typeof d3 === 'undefined') return;
+
+  const container = document.getElementById('network-canvas');
+  if (!container) return;
+
+  const width = container.clientWidth || 900;
+  const height = 600;
+
+  // Clear any existing SVG
+  container.innerHTML = '';
+
+  const svg = d3.select(container)
+    .append('svg')
+    .attr('width', width)
+    .attr('height', height)
+    .attr('viewBox', [0, 0, width, height]);
+
+  // Zoom container
+  const g = svg.append('g');
+  svg.call(d3.zoom().scaleExtent([0.2, 5]).on('zoom', (e) => {
+    g.attr('transform', e.transform);
+  }));
+
+  // Build node/edge maps
+  const nodeMap = {};
+  NETWORK_GRAPH.nodes.forEach(n => { nodeMap[n.id] = { ...n }; });
+
+  // Filter edges to only include those with valid nodes
+  let edges = NETWORK_GRAPH.edges.filter(e => nodeMap[e.source] && nodeMap[e.target]);
+  let nodes = NETWORK_GRAPH.nodes.filter(n => {
+    return edges.some(e => e.source === n.id || e.target === n.id);
+  });
+
+  // Color scheme
+  const typeColors = {
+    company: '#FF6B2C',
+    investor: '#f59e0b',
+    person: '#8b5cf6'
+  };
+
+  const edgeColors = {
+    investment: 'rgba(245,158,11,0.25)',
+    founder: 'rgba(139,92,246,0.3)',
+    mafia: 'rgba(255,107,44,0.3)',
+    'co-investor': 'rgba(34,197,94,0.15)',
+    board: 'rgba(96,165,250,0.25)'
+  };
+
+  // Node sizing
+  function nodeRadius(d) {
+    if (d.type === 'company') return 6 + Math.min((edges.filter(e => e.source.id === d.id || e.target.id === d.id).length) * 0.8, 12);
+    if (d.type === 'investor') return 5 + Math.min((edges.filter(e => e.source.id === d.id || e.target.id === d.id).length) * 0.6, 10);
+    return 4;
+  }
+
+  // Simulation
+  const simulation = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(edges).id(d => d.id).distance(d => {
+      if (d.type === 'co-investor') return 150;
+      if (d.type === 'mafia') return 100;
+      return 80;
+    }).strength(d => {
+      if (d.type === 'co-investor') return 0.1;
+      return 0.3;
+    }))
+    .force('charge', d3.forceManyBody().strength(-120).distanceMax(400))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collision', d3.forceCollide().radius(18))
+    .force('x', d3.forceX(width / 2).strength(0.04))
+    .force('y', d3.forceY(height / 2).strength(0.04));
+
+  // Draw links
+  const link = g.append('g')
+    .selectAll('line')
+    .data(edges)
+    .join('line')
+    .attr('class', d => `network-link edge-${d.type}`)
+    .attr('stroke', d => edgeColors[d.type] || 'rgba(255,255,255,0.08)')
+    .attr('stroke-width', d => d.type === 'co-investor' ? 0.5 : 1);
+
+  // Draw nodes
+  const node = g.append('g')
+    .selectAll('g')
+    .data(nodes)
+    .join('g')
+    .attr('class', 'network-node')
+    .call(d3.drag()
+      .on('start', (e, d) => { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on('drag', (e, d) => { d.fx = e.x; d.fy = e.y; })
+      .on('end', (e, d) => { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
+    );
+
+  node.append('circle')
+    .attr('r', d => nodeRadius(d))
+    .attr('fill', d => typeColors[d.type] || '#666');
+
+  node.append('text')
+    .attr('dx', d => nodeRadius(d) + 4)
+    .attr('dy', 3)
+    .text(d => d.label);
+
+  // Tooltip
+  const tooltip = document.getElementById('network-tooltip');
+
+  node.on('mouseover', (e, d) => {
+    const connected = new Set();
+    edges.forEach(edge => {
+      const src = typeof edge.source === 'object' ? edge.source.id : edge.source;
+      const tgt = typeof edge.target === 'object' ? edge.target.id : edge.target;
+      if (src === d.id) connected.add(tgt);
+      if (tgt === d.id) connected.add(src);
+    });
+    connected.add(d.id);
+
+    node.classed('dimmed', n => !connected.has(n.id));
+    node.classed('highlighted', n => n.id === d.id);
+    link.classed('dimmed', l => {
+      const src = typeof l.source === 'object' ? l.source.id : l.source;
+      const tgt = typeof l.target === 'object' ? l.target.id : l.target;
+      return !connected.has(src) || !connected.has(tgt);
+    });
+    link.classed('highlight', l => {
+      const src = typeof l.source === 'object' ? l.source.id : l.source;
+      const tgt = typeof l.target === 'object' ? l.target.id : l.target;
+      return (src === d.id || tgt === d.id);
+    });
+
+    const connections = edges.filter(edge => {
+      const src = typeof edge.source === 'object' ? edge.source.id : edge.source;
+      const tgt = typeof edge.target === 'object' ? edge.target.id : edge.target;
+      return src === d.id || tgt === d.id;
+    });
+
+    let extra = '';
+    if (d.type === 'company' && d.sector) extra = `<div class="tt-detail">Sector: ${d.sector}</div>`;
+    if (d.type === 'investor' && d.investmentCount) extra = `<div class="tt-detail">${d.investmentCount} investments in dataset</div>`;
+    if (d.type === 'person' && d.role) extra = `<div class="tt-detail">${d.role}${d.affiliation ? ' — ' + d.affiliation : ''}</div>`;
+
+    tooltip.innerHTML = `
+      <h5>${d.label}</h5>
+      <div class="tt-type">${d.type}</div>
+      ${extra}
+      <div class="tt-detail">${connections.length} connection${connections.length !== 1 ? 's' : ''}</div>
+    `;
+    tooltip.style.display = 'block';
+  })
+  .on('mousemove', (e) => {
+    const rect = container.getBoundingClientRect();
+    tooltip.style.left = (e.clientX - rect.left + 15) + 'px';
+    tooltip.style.top = (e.clientY - rect.top - 10) + 'px';
+  })
+  .on('mouseout', () => {
+    node.classed('dimmed', false).classed('highlighted', false);
+    link.classed('dimmed', false).classed('highlight', false);
+    tooltip.style.display = 'none';
+  })
+  .on('click', (e, d) => {
+    if (d.type === 'company') {
+      const comp = COMPANIES.find(c => d.label.includes(c.name) || c.name.includes(d.label));
+      if (comp) openCompanyModal(comp.name);
+    }
+  });
+
+  // Tick
+  simulation.on('tick', () => {
+    link
+      .attr('x1', d => d.source.x)
+      .attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x)
+      .attr('y2', d => d.target.y);
+    node.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+
+  // Edge type filter
+  document.querySelectorAll('.network-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.network-filter').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.edge;
+      link.attr('display', d => {
+        if (filter === 'all') return 'inline';
+        return d.type === filter ? 'inline' : 'none';
+      });
+    });
+  });
+
+  // Search
+  const searchInput = document.getElementById('network-search');
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      const q = searchInput.value.toLowerCase().trim();
+      if (!q) {
+        node.classed('dimmed', false).classed('highlighted', false);
+        link.classed('dimmed', false);
+        return;
+      }
+      const matches = new Set();
+      nodes.forEach(n => {
+        if (n.label.toLowerCase().includes(q)) matches.add(n.id);
+      });
+      if (matches.size === 0) {
+        node.classed('dimmed', true).classed('highlighted', false);
+        link.classed('dimmed', true);
+        return;
+      }
+      // Also highlight direct connections
+      const connected = new Set(matches);
+      edges.forEach(edge => {
+        const src = typeof edge.source === 'object' ? edge.source.id : edge.source;
+        const tgt = typeof edge.target === 'object' ? edge.target.id : edge.target;
+        if (matches.has(src)) connected.add(tgt);
+        if (matches.has(tgt)) connected.add(src);
+      });
+      node.classed('dimmed', n => !connected.has(n.id));
+      node.classed('highlighted', n => matches.has(n.id));
+      link.classed('dimmed', l => {
+        const src = typeof l.source === 'object' ? l.source.id : l.source;
+        const tgt = typeof l.target === 'object' ? l.target.id : l.target;
+        return !connected.has(src) || !connected.has(tgt);
+      });
+    });
+  }
+
+  // Stats
+  const statsEl = document.getElementById('network-stats');
+  if (statsEl) {
+    statsEl.textContent = `${nodes.length} nodes \u00b7 ${edges.length} connections \u00b7 ${nodes.filter(n => n.type === 'company').length} companies \u00b7 ${nodes.filter(n => n.type === 'investor').length} investors \u00b7 ${nodes.filter(n => n.type === 'person').length} people`;
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// PHASE 2: PORTFOLIO BUILDER & SCENARIO SIMULATOR
+// ═══════════════════════════════════════════════════════
+function initPortfolioBuilder() {
+  const listEl = document.getElementById('portfolio-company-list');
+  const holdingsEl = document.getElementById('portfolio-holdings');
+  const searchInput = document.getElementById('portfolio-search');
+  if (!listEl) return;
+
+  let portfolio = [];
+
+  // Try loading portfolio from URL hash
+  try {
+    const params = new URLSearchParams(window.location.hash.slice(1));
+    const p = params.get('portfolio');
+    if (p) portfolio = p.split('|').filter(Boolean);
+  } catch(e) {}
+
+  // Populate company list
+  const sortedCompanies = [...COMPANIES].sort((a, b) => a.name.localeCompare(b.name));
+
+  function renderCompanyList(filter = '') {
+    const q = filter.toLowerCase();
+    const filtered = q ? sortedCompanies.filter(c => c.name.toLowerCase().includes(q) || (c.sector || '').toLowerCase().includes(q)) : sortedCompanies;
+    listEl.innerHTML = filtered.slice(0, 80).map(c => `
+      <div class="portfolio-company-item ${portfolio.includes(c.name) ? 'in-portfolio' : ''}" data-name="${c.name.replace(/"/g, '&quot;')}">
+        <span>${c.name}</span>
+        <span class="pci-sector">${c.sector || ''}</span>
+      </div>
+    `).join('');
+
+    listEl.querySelectorAll('.portfolio-company-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const name = item.dataset.name;
+        if (portfolio.includes(name)) {
+          portfolio = portfolio.filter(n => n !== name);
+        } else {
+          portfolio.push(name);
+        }
+        renderCompanyList(searchInput?.value || '');
+        renderPortfolio();
+      });
+    });
+  }
+
+  function renderPortfolio() {
+    if (portfolio.length === 0) {
+      holdingsEl.innerHTML = '<div class="portfolio-empty">Click companies on the left to build your portfolio</div>';
+      document.getElementById('portfolio-sector-bars').innerHTML = '';
+      document.getElementById('portfolio-stage-bars').innerHTML = '';
+      document.getElementById('portfolio-metrics').innerHTML = '';
+      document.getElementById('scenario-results').innerHTML = '';
+      return;
+    }
+
+    const companies = portfolio.map(name => COMPANIES.find(c => c.name === name)).filter(Boolean);
+
+    // Holdings table
+    holdingsEl.innerHTML = companies.map(c => {
+      const iscore = getInnovatorScore(c.name);
+      const score = iscore ? iscore.composite.toFixed(0) : '—';
+      const tier = iscore ? iscore.tier : '';
+      const tierColor = tier === 'elite' ? '#22c55e' : tier === 'strong' ? '#3b82f6' : tier === 'promising' ? '#f59e0b' : '#6b7280';
+      return `
+        <div class="portfolio-holding-row">
+          <div>
+            <div class="ph-name" onclick="openCompanyModal('${c.name.replace(/'/g, "\\'")}')">${c.name}</div>
+            <div class="ph-sector">${c.sector || ''}</div>
+          </div>
+          <div class="ph-valuation">${c.valuation || '—'}</div>
+          <div class="ph-score" style="color:${tierColor}">${score} IS\u2122</div>
+          <button class="ph-remove" data-name="${c.name.replace(/"/g, '&quot;')}">\u00d7</button>
+        </div>
+      `;
+    }).join('');
+
+    holdingsEl.querySelectorAll('.ph-remove').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        portfolio = portfolio.filter(n => n !== btn.dataset.name);
+        renderCompanyList(searchInput?.value || '');
+        renderPortfolio();
+      });
+    });
+
+    // Sector exposure
+    const sectorCounts = {};
+    companies.forEach(c => { sectorCounts[c.sector || 'Unknown'] = (sectorCounts[c.sector || 'Unknown'] || 0) + 1; });
+    const sectorBars = Object.entries(sectorCounts).sort((a, b) => b[1] - a[1]);
+    const maxSec = Math.max(...sectorBars.map(s => s[1]));
+    const sectorColors = ['#FF6B2C', '#3b82f6', '#22c55e', '#f59e0b', '#8b5cf6', '#06b6d4', '#ec4899', '#ef4444'];
+
+    document.getElementById('portfolio-sector-bars').innerHTML = sectorBars.map((s, i) => `
+      <div class="portfolio-bar-item">
+        <span class="portfolio-bar-label">${s[0]}</span>
+        <div class="portfolio-bar-track">
+          <div class="portfolio-bar-fill" style="width:${(s[1]/maxSec)*100}%; background:${sectorColors[i % sectorColors.length]}"></div>
+        </div>
+        <span class="portfolio-bar-pct">${((s[1]/companies.length)*100).toFixed(0)}%</span>
+      </div>
+    `).join('');
+
+    // Stage distribution
+    const stageCounts = {};
+    companies.forEach(c => {
+      const stage = c.stage || (c.valuation && c.valuation.includes('Public') ? 'Public' : 'Private');
+      stageCounts[stage] = (stageCounts[stage] || 0) + 1;
+    });
+    const stageBars = Object.entries(stageCounts).sort((a, b) => b[1] - a[1]);
+    const maxStage = Math.max(...stageBars.map(s => s[1]));
+
+    document.getElementById('portfolio-stage-bars').innerHTML = stageBars.map((s, i) => `
+      <div class="portfolio-bar-item">
+        <span class="portfolio-bar-label">${s[0]}</span>
+        <div class="portfolio-bar-track">
+          <div class="portfolio-bar-fill" style="width:${(s[1]/maxStage)*100}%; background:${sectorColors[(i+3) % sectorColors.length]}"></div>
+        </div>
+        <span class="portfolio-bar-pct">${((s[1]/companies.length)*100).toFixed(0)}%</span>
+      </div>
+    `).join('');
+
+    // Portfolio metrics
+    const avgScore = companies.reduce((sum, c) => {
+      const iscore = getInnovatorScore(c.name);
+      return sum + (iscore ? iscore.composite : 0);
+    }, 0) / companies.length;
+
+    const uniqueSectors = new Set(companies.map(c => c.sector)).size;
+    const diversificationScore = Math.min(100, Math.round((uniqueSectors / Math.max(companies.length, 1)) * 100 * 1.5));
+
+    const govCompanies = typeof GOV_CONTRACTS !== 'undefined'
+      ? companies.filter(c => GOV_CONTRACTS.some(g => g.company === c.name)).length
+      : 0;
+
+    document.getElementById('portfolio-metrics').innerHTML = `
+      <div class="portfolio-metric-card">
+        <div class="portfolio-metric-value">${companies.length}</div>
+        <div class="portfolio-metric-label">Companies</div>
+      </div>
+      <div class="portfolio-metric-card">
+        <div class="portfolio-metric-value">${avgScore.toFixed(0)}</div>
+        <div class="portfolio-metric-label">Avg IS\u2122</div>
+      </div>
+      <div class="portfolio-metric-card">
+        <div class="portfolio-metric-value" style="color:${diversificationScore > 70 ? '#22c55e' : diversificationScore > 40 ? '#f59e0b' : '#ef4444'}">${diversificationScore}</div>
+        <div class="portfolio-metric-label">Diversification</div>
+      </div>
+      <div class="portfolio-metric-card">
+        <div class="portfolio-metric-value">${govCompanies}</div>
+        <div class="portfolio-metric-label">Gov Contracts</div>
+      </div>
+    `;
+
+    // Update URL hash
+    const hash = new URLSearchParams();
+    hash.set('portfolio', portfolio.join('|'));
+    window.history.replaceState({}, '', '#' + hash.toString());
+  }
+
+  // Scenario simulator
+  const scenarioBtn = document.getElementById('scenario-run');
+  if (scenarioBtn) {
+    scenarioBtn.addEventListener('click', () => {
+      const scenario = document.getElementById('scenario-select')?.value || 'defense-up';
+      const companies = portfolio.map(name => COMPANIES.find(c => c.name === name)).filter(Boolean);
+      if (companies.length === 0) {
+        document.getElementById('scenario-results').innerHTML = '<p style="color:var(--text-muted)">Add companies to your portfolio first.</p>';
+        return;
+      }
+
+      const scenarioConfig = {
+        'defense-up': { label: 'Defense Budget +15%', sectors: { 'Defense & Security': 3, 'Space & Aerospace': 2, 'Advanced Manufacturing': 1, 'Cybersecurity': 2 }, default: 0 },
+        'defense-down': { label: 'Defense Budget \u221210%', sectors: { 'Defense & Security': -2, 'Space & Aerospace': -1 }, default: 0 },
+        'ai-boom': { label: 'AI Investment Boom', sectors: { 'Artificial Intelligence': 3, 'Robotics & Automation': 2, 'Cybersecurity': 1, 'Advanced Manufacturing': 1 }, default: 0 },
+        'space-race': { label: 'Space Race Acceleration', sectors: { 'Space & Aerospace': 3, 'Defense & Security': 1, 'Advanced Manufacturing': 1 }, default: 0 },
+        'climate-push': { label: 'Climate Policy Push', sectors: { 'Energy & Fusion': 3, 'Climate & Carbon': 3, 'Sustainable Materials': 2, 'Next-Gen Mobility': 1 }, default: 0 },
+        'recession': { label: 'Recession Scenario', sectors: { 'Defense & Security': 1, 'Cybersecurity': 0 }, default: -2 }
+      };
+
+      const config = scenarioConfig[scenario] || scenarioConfig['defense-up'];
+
+      const results = companies.map(c => {
+        const sectorImpact = config.sectors[c.sector] !== undefined ? config.sectors[c.sector] : (config.default || 0);
+        const govBonus = (typeof GOV_CONTRACTS !== 'undefined' && GOV_CONTRACTS.some(g => g.company === c.name) && sectorImpact > 0) ? 1 : 0;
+        const totalImpact = sectorImpact + govBonus;
+        const impactClass = totalImpact > 0 ? 'positive' : totalImpact < 0 ? 'negative' : 'neutral';
+        const impactLabel = totalImpact > 0 ? `+${totalImpact} Tailwind` : totalImpact < 0 ? `${totalImpact} Headwind` : 'Neutral';
+        return { name: c.name, impact: totalImpact, impactClass, impactLabel, sector: c.sector };
+      }).sort((a, b) => b.impact - a.impact);
+
+      document.getElementById('scenario-results').innerHTML = `
+        <p style="margin-bottom:12px; font-size:13px; color:var(--text-muted)">Scenario: <strong style="color:var(--text-primary)">${config.label}</strong></p>
+        ${results.map(r => `
+          <div class="scenario-result-item">
+            <span class="scenario-company">${r.name} <span style="font-size:11px;color:var(--text-muted)">${r.sector}</span></span>
+            <span class="scenario-impact ${r.impactClass}">${r.impactLabel}</span>
+          </div>
+        `).join('')}
+      `;
+    });
+  }
+
+  // Share & clear buttons
+  document.getElementById('portfolio-share')?.addEventListener('click', () => {
+    const url = window.location.href;
+    navigator.clipboard?.writeText(url).then(() => {
+      const btn = document.getElementById('portfolio-share');
+      btn.textContent = '\u2713 Copied!';
+      setTimeout(() => { btn.textContent = '\ud83d\udccb Copy Shareable URL'; }, 1500);
+    });
+  });
+
+  document.getElementById('portfolio-clear')?.addEventListener('click', () => {
+    portfolio = [];
+    window.history.replaceState({}, '', window.location.pathname + window.location.search);
+    renderCompanyList(searchInput?.value || '');
+    renderPortfolio();
+  });
+
+  // Search filter
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      renderCompanyList(searchInput.value);
+    });
+  }
+
+  renderCompanyList();
+  renderPortfolio();
+}
+
+// ═══════════════════════════════════════════════════════
+// PHASE 2: AI INVESTMENT MEMO GENERATOR
+// ═══════════════════════════════════════════════════════
+function initAIMemo() {
+  const companySelect = document.getElementById('memo-company');
+  const generateBtn = document.getElementById('memo-generate');
+  const outputEl = document.getElementById('memo-output');
+  if (!companySelect || !generateBtn) return;
+
+  // Populate company dropdown
+  const sorted = [...COMPANIES].sort((a, b) => a.name.localeCompare(b.name));
+  sorted.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c.name;
+    opt.textContent = `${c.name} — ${c.sector || 'Unknown'}`;
+    companySelect.appendChild(opt);
+  });
+
+  // Restore saved API key
+  const savedKey = localStorage.getItem('til-memo-api-key') || '';
+  const keyInput = document.getElementById('memo-api-key');
+  if (keyInput && savedKey) keyInput.value = savedKey;
+
+  // Build context from all our data for a company
+  function buildCompanyContext(companyName) {
+    const company = COMPANIES.find(c => c.name === companyName);
+    if (!company) return null;
+
+    let context = `Company: ${company.name}\n`;
+    context += `Sector: ${company.sector || 'Unknown'}\n`;
+    context += `Location: ${company.location || 'Unknown'}\n`;
+    context += `Founded: ${company.founded || 'Unknown'}\n`;
+    context += `Valuation: ${company.valuation || 'Unknown'}\n`;
+    context += `Total Raised: ${company.totalRaised || 'Unknown'}\n`;
+    context += `Stage: ${company.stage || 'Unknown'}\n`;
+    context += `Thesis: ${company.thesis || ''}\n`;
+    context += `Signal: ${company.signal || ''}\n`;
+    if (company.recentEvent) context += `Recent Event: ${company.recentEvent}\n`;
+    if (company.keyPeople && company.keyPeople.length) context += `Key People: ${company.keyPeople.join(', ')}\n`;
+    if (company.investors && company.investors.length) context += `Investors: ${company.investors.join(', ')}\n`;
+    if (company.competitors && company.competitors.length) context += `Competitors: ${company.competitors.join(', ')}\n`;
+
+    // Innovator Score
+    const iscore = typeof INNOVATOR_SCORES !== 'undefined' ? INNOVATOR_SCORES.find(s => s.company === companyName) : null;
+    if (iscore) {
+      context += `\nInnovator Score: ${iscore.composite.toFixed(1)}/100 (${iscore.tier})\n`;
+      context += `  Tech Moat: ${iscore.techMoat}/10, Momentum: ${iscore.momentum}/10, Team: ${iscore.teamPedigree}/10\n`;
+      context += `  Market Gravity: ${iscore.marketGravity}/10, Capital Efficiency: ${iscore.capitalEfficiency}/10, Gov Traction: ${iscore.govTraction}/10\n`;
+      context += `  Note: ${iscore.note}\n`;
+    }
+
+    // Gov contracts
+    const govData = typeof GOV_CONTRACTS !== 'undefined' ? GOV_CONTRACTS.find(g => g.company === companyName) : null;
+    if (govData) {
+      context += `\nGovernment Contracts: $${govData.totalGovValue} total\n`;
+      context += `  Agencies: ${govData.agencies.join(', ')}\n`;
+      context += `  SBIR Status: ${govData.sbirStatus || 'None'}\n`;
+      context += `  Clearance: ${govData.clearanceLevel || 'None'}\n`;
+      if (govData.keyContracts) context += `  Key Contracts: ${govData.keyContracts.slice(0, 3).join('; ')}\n`;
+    }
+
+    // Patent intel
+    const patent = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => p.company === companyName) : null;
+    if (patent) {
+      context += `\nPatent Portfolio: ${patent.totalPatents} patents, filing ${patent.velocity} patents/year (${patent.velocityTrend})\n`;
+      context += `  IP Moat Score: ${patent.ipMoatScore}/10\n`;
+      context += `  Tech Areas: ${patent.techAreas.join(', ')}\n`;
+    }
+
+    // Alt data
+    const altData = typeof ALT_DATA_SIGNALS !== 'undefined' ? ALT_DATA_SIGNALS.find(a => a.company === companyName) : null;
+    if (altData) {
+      context += `\nAlternative Data:\n`;
+      context += `  Hiring Velocity: ${altData.hiringVelocity}, Headcount: ~${altData.headcountEstimate}\n`;
+      context += `  Web Traffic: ${altData.webTraffic}, News Sentiment: ${altData.newsSentiment}\n`;
+      context += `  Signal Strength: ${altData.signalStrength}/10\n`;
+      context += `  Key Signal: ${altData.keySignal}\n`;
+    }
+
+    return { company, context };
+  }
+
+  function getMemoPrompt(companyName, memoType) {
+    const data = buildCompanyContext(companyName);
+    if (!data) return null;
+
+    const prompts = {
+      investment: `You are a senior analyst at a top-tier venture capital firm. Using the structured data below from The Innovators League intelligence platform, write a professional investment memo for ${companyName}.
+
+Structure your memo with these sections:
+1. **Executive Summary** — 2-3 sentence overview
+2. **Company Overview** — What they do, market position, key metrics
+3. **Investment Thesis** — Bull case with specific data points
+4. **Key Risks** — Bear case, competitive threats, execution risks
+5. **Proprietary Signals** — What our Innovator Score, alt data, patent data, and gov contract intelligence reveal
+6. **Recommendation** — Investment attractiveness rating
+
+Use specific numbers and data from the context. Be analytical, not promotional.`,
+
+      competitive: `You are a competitive intelligence analyst. Using the data below, write a competitive analysis for ${companyName}.
+
+Structure with:
+1. **Market Position** — Where the company sits in its competitive landscape
+2. **Competitive Advantages** — Moats based on patent data, gov contracts, team pedigree
+3. **Key Competitors** — Direct and indirect competitors with comparison
+4. **Vulnerability Assessment** — Where competitors could gain ground
+5. **Strategic Outlook** — 12-24 month competitive dynamics`,
+
+      sector: `You are a sector analyst. Using the data below for ${companyName}, write a sector brief covering the broader ${data.company.sector} landscape.
+
+Structure with:
+1. **Sector Overview** — Current state, key trends, market size
+2. **Featured Company Deep-Dive** — ${companyName}'s position and metrics
+3. **Sector Signals** — What hiring, patents, and government spending tell us
+4. **Investment Themes** — Key themes for investors in this sector
+5. **Outlook** — 12-month sector trajectory`,
+
+      risk: `You are a risk analyst. Using the data below, write a risk assessment for ${companyName}.
+
+Structure with:
+1. **Risk Summary** — Overall risk level and key factors
+2. **Technology Risk** — Based on patent portfolio and TRL
+3. **Market Risk** — Competition, timing, TAM uncertainty
+4. **Execution Risk** — Team, capital efficiency, scaling challenges
+5. **Regulatory & Government Risk** — Based on contract data and sector
+6. **Signal Warnings** — What alt data signals suggest about trajectory`
+    };
+
+    return {
+      systemPrompt: 'You are a world-class technology investment analyst. Write professional, data-driven analysis. Use markdown formatting with headers, bullet points, and bold text. Reference specific data points.',
+      userPrompt: `${prompts[memoType] || prompts.investment}\n\n--- DATA FROM THE INNOVATORS LEAGUE ---\n${data.context}`
+    };
+  }
+
+  generateBtn.addEventListener('click', async () => {
+    const companyName = companySelect.value;
+    const memoType = document.getElementById('memo-type')?.value || 'investment';
+    const provider = document.getElementById('memo-provider')?.value || 'anthropic';
+    const apiKey = document.getElementById('memo-api-key')?.value?.trim();
+
+    if (!companyName) { alert('Please select a company.'); return; }
+    if (!apiKey) { alert('Please enter your API key.'); return; }
+
+    // Save key to localStorage
+    localStorage.setItem('til-memo-api-key', apiKey);
+
+    const prompt = getMemoPrompt(companyName, memoType);
+    if (!prompt) { alert('Company not found.'); return; }
+
+    generateBtn.disabled = true;
+    generateBtn.textContent = 'Generating...';
+    outputEl.innerHTML = '<div class="memo-content"><p style="color:var(--text-muted)">Generating investment memo...<span class="memo-streaming-cursor"></span></p></div>';
+
+    try {
+      let responseText = '';
+
+      if (provider === 'anthropic') {
+        const resp = await fetch('https://api.anthropic.com/v1/messages', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': apiKey,
+            'anthropic-version': '2023-06-01',
+            'anthropic-dangerous-direct-browser-access': 'true'
+          },
+          body: JSON.stringify({
+            model: 'claude-sonnet-4-20250514',
+            max_tokens: 2048,
+            system: prompt.systemPrompt,
+            messages: [{ role: 'user', content: prompt.userPrompt }]
+          })
+        });
+        const data = await resp.json();
+        if (data.error) throw new Error(data.error.message);
+        responseText = data.content?.[0]?.text || 'No response generated.';
+      } else {
+        const resp = await fetch('https://api.openai.com/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${apiKey}`
+          },
+          body: JSON.stringify({
+            model: 'gpt-4o',
+            max_tokens: 2048,
+            messages: [
+              { role: 'system', content: prompt.systemPrompt },
+              { role: 'user', content: prompt.userPrompt }
+            ]
+          })
+        });
+        const data = await resp.json();
+        if (data.error) throw new Error(data.error.message);
+        responseText = data.choices?.[0]?.message?.content || 'No response generated.';
+      }
+
+      // Simple markdown to HTML
+      const html = responseText
+        .replace(/^### (.+)$/gm, '<h4>$1</h4>')
+        .replace(/^## (.+)$/gm, '<h4>$1</h4>')
+        .replace(/^# (.+)$/gm, '<h3>$1</h3>')
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.+?)\*/g, '<em>$1</em>')
+        .replace(/^- (.+)$/gm, '<li>$1</li>')
+        .replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>')
+        .replace(/\n\n/g, '</p><p>')
+        .replace(/\n/g, '<br>');
+
+      const memoTypes = { investment: 'Investment Memo', competitive: 'Competitive Analysis', sector: 'Sector Brief', risk: 'Risk Assessment' };
+
+      outputEl.innerHTML = `
+        <div class="memo-content">
+          <h3>${companyName}</h3>
+          <div class="memo-subtitle">${memoTypes[memoType] || 'Investment Memo'} \u00b7 Generated ${new Date().toLocaleDateString()} \u00b7 The Innovators League</div>
+          <p>${html}</p>
+          <div class="memo-actions">
+            <button class="memo-action-btn" onclick="navigator.clipboard?.writeText(document.querySelector('.memo-content')?.innerText || '').then(() => { this.textContent = '\u2713 Copied!'; setTimeout(() => this.textContent = '\ud83d\udccb Copy Text', 1500); })">📋 Copy Text</button>
+          </div>
+        </div>
+      `;
+    } catch (err) {
+      outputEl.innerHTML = `<div class="memo-content"><p style="color:#ef4444"><strong>Error:</strong> ${err.message}</p><p style="color:var(--text-muted)">Check your API key and try again. Make sure you have credits available.</p></div>`;
+    }
+
+    generateBtn.disabled = false;
+    generateBtn.textContent = '\u26a1 Generate Memo';
+  });
 }

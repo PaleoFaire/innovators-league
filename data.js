@@ -9837,3 +9837,514 @@ const ALT_DATA_SIGNALS = [
     keySignal: "10cm resolution commercial satellite imagery from VLEO fills critical gap between aerial and traditional satellite; strong defense and intelligence community interest"
   }
 ];
+
+// =============================================================
+// NETWORK GRAPH — Relationship Intelligence Data
+// =============================================================
+const NETWORK_GRAPH = {
+  nodes: [
+    // ════════════════════════════════════════════════════════
+    // COMPANY NODES — extracted from COMPANIES array
+    // ════════════════════════════════════════════════════════
+
+    // Defense & Security
+    { id: "company-Anduril Industries", label: "Anduril Industries", type: "company", sector: "Defense & Security", valuation: "$78B+" },
+    { id: "company-Shield AI", label: "Shield AI", type: "company", sector: "Defense & Security", valuation: "$5.6B" },
+    { id: "company-Epirus", label: "Epirus", type: "company", sector: "Defense & Security", valuation: "$1.35B" },
+    { id: "company-Saronic", label: "Saronic", type: "company", sector: "Defense & Security", valuation: "$4.0B" },
+    { id: "company-Chaos Industries", label: "Chaos Industries", type: "company", sector: "Defense & Security", valuation: "$4.5B" },
+    { id: "company-Castelion", label: "Castelion", type: "company", sector: "Defense & Security", valuation: "$2.8B" },
+    { id: "company-Scale AI", label: "Scale AI", type: "company", sector: "Defense & Security", valuation: "$29B" },
+    { id: "company-Skydio", label: "Skydio", type: "company", sector: "Defense & Security", valuation: "$2.2B" },
+    { id: "company-Palantir", label: "Palantir", type: "company", sector: "AI & Software", valuation: "$400B+" },
+    { id: "company-Flock Safety", label: "Flock Safety", type: "company", sector: "Defense & Security", valuation: "$7.5B" },
+    { id: "company-Helsing", label: "Helsing", type: "company", sector: "Defense & Security", valuation: "$5.5B" },
+    { id: "company-Saildrone", label: "Saildrone", type: "company", sector: "Defense & Security", valuation: "" },
+    { id: "company-Vannevar Labs", label: "Vannevar Labs", type: "company", sector: "Defense & Security", valuation: "$1.5B" },
+    { id: "company-Neros", label: "Neros", type: "company", sector: "Defense & Security", valuation: "" },
+    { id: "company-Forterra", label: "Forterra", type: "company", sector: "Defense & Security", valuation: "" },
+    { id: "company-Second Front Systems", label: "Second Front Systems", type: "company", sector: "Defense & Security", valuation: "" },
+    { id: "company-True Anomaly", label: "True Anomaly", type: "company", sector: "Defense & Security", valuation: "" },
+    { id: "company-Primer AI", label: "Primer AI", type: "company", sector: "Defense & Security", valuation: "" },
+    { id: "company-Rebellion Defense", label: "Rebellion Defense", type: "company", sector: "Defense & Security", valuation: "" },
+    { id: "company-Kodiak Robotics", label: "Kodiak Robotics", type: "company", sector: "Defense & Security", valuation: "" },
+    { id: "company-Mach Industries", label: "Mach Industries", type: "company", sector: "Defense & Security", valuation: "" },
+
+    // Nuclear Energy
+    { id: "company-Radiant", label: "Radiant", type: "company", sector: "Nuclear Energy", valuation: "" },
+    { id: "company-Oklo", label: "Oklo", type: "company", sector: "Nuclear Energy", valuation: "" },
+    { id: "company-Kairos Power", label: "Kairos Power", type: "company", sector: "Nuclear Energy", valuation: "" },
+    { id: "company-TerraPower", label: "TerraPower", type: "company", sector: "Nuclear Energy", valuation: "" },
+    { id: "company-X-Energy", label: "X-Energy", type: "company", sector: "Nuclear Energy", valuation: "" },
+    { id: "company-Valar Atomics", label: "Valar Atomics", type: "company", sector: "Nuclear Energy", valuation: "" },
+    { id: "company-General Matter", label: "General Matter", type: "company", sector: "Nuclear Energy", valuation: "" },
+    { id: "company-NuScale Power", label: "NuScale Power", type: "company", sector: "Nuclear Energy", valuation: "" },
+    { id: "company-Zap Energy", label: "Zap Energy", type: "company", sector: "Nuclear Energy", valuation: "" },
+    { id: "company-Pacific Fusion", label: "Pacific Fusion", type: "company", sector: "Nuclear Energy", valuation: "" },
+
+    // Space & Aerospace
+    { id: "company-SpaceX", label: "SpaceX", type: "company", sector: "Space & Aerospace", valuation: "$800B" },
+    { id: "company-Rocket Lab", label: "Rocket Lab", type: "company", sector: "Space & Aerospace", valuation: "$45B" },
+    { id: "company-Relativity Space", label: "Relativity Space", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Varda Space Industries", label: "Varda Space Industries", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Impulse Space", label: "Impulse Space", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Astranis", label: "Astranis", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Vast", label: "Vast", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-K2 Space", label: "K2 Space", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Apex Space", label: "Apex Space", type: "company", sector: "Space & Aerospace", valuation: "$1B+" },
+    { id: "company-Blue Origin", label: "Blue Origin", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Axiom Space", label: "Axiom Space", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Planet Labs", label: "Planet Labs", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-AstroForge", label: "AstroForge", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Stoke Space", label: "Stoke Space", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Northwood Space", label: "Northwood Space", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-AST SpaceMobile", label: "AST SpaceMobile", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Capella Space", label: "Capella Space", type: "company", sector: "Space & Aerospace", valuation: "" },
+
+    // Supersonic & Hypersonic
+    { id: "company-Boom Supersonic", label: "Boom Supersonic", type: "company", sector: "Supersonic & Hypersonic", valuation: "$1.5B" },
+    { id: "company-Hermeus", label: "Hermeus", type: "company", sector: "Supersonic & Hypersonic", valuation: "" },
+    { id: "company-Astro Mechanica", label: "Astro Mechanica", type: "company", sector: "Supersonic & Hypersonic", valuation: "" },
+    { id: "company-Venus Aerospace", label: "Venus Aerospace", type: "company", sector: "Supersonic & Hypersonic", valuation: "" },
+
+    // AI & Software
+    { id: "company-OpenAI", label: "OpenAI", type: "company", sector: "AI & Software", valuation: "$300B+" },
+    { id: "company-Anthropic", label: "Anthropic", type: "company", sector: "AI & Software", valuation: "$183B" },
+    { id: "company-Anysphere", label: "Anysphere", type: "company", sector: "AI & Software", valuation: "$29.3B" },
+    { id: "company-Waymo", label: "Waymo", type: "company", sector: "AI & Software", valuation: "$126B" },
+    { id: "company-Figure AI", label: "Figure AI", type: "company", sector: "AI & Software", valuation: "$39B" },
+    { id: "company-Physical Intelligence", label: "Physical Intelligence", type: "company", sector: "AI & Software", valuation: "$5.6B" },
+    { id: "company-Neuralink", label: "Neuralink", type: "company", sector: "AI & Software", valuation: "$9.7B" },
+    { id: "company-Skild AI", label: "Skild AI", type: "company", sector: "AI & Software", valuation: "$14B+" },
+    { id: "company-Applied Intuition", label: "Applied Intuition", type: "company", sector: "AI & Software", valuation: "$15B" },
+    { id: "company-Crusoe Energy", label: "Crusoe Energy", type: "company", sector: "AI & Software", valuation: "$10B+" },
+    { id: "company-Groq", label: "Groq", type: "company", sector: "AI & Software", valuation: "$2.8B" },
+    { id: "company-ElevenLabs", label: "ElevenLabs", type: "company", sector: "AI & Software", valuation: "$3B+" },
+    { id: "company-Cognition", label: "Cognition", type: "company", sector: "AI & Software", valuation: "" },
+    { id: "company-Nominal", label: "Nominal", type: "company", sector: "AI & Software", valuation: "" },
+    { id: "company-Field AI", label: "Field AI", type: "company", sector: "AI & Software", valuation: "$2B" },
+
+    // Robotics & Manufacturing
+    { id: "company-Hadrian", label: "Hadrian", type: "company", sector: "Robotics & Manufacturing", valuation: "$1.6B" },
+    { id: "company-Machina Labs", label: "Machina Labs", type: "company", sector: "Robotics & Manufacturing", valuation: "" },
+    { id: "company-Gecko Robotics", label: "Gecko Robotics", type: "company", sector: "Robotics & Manufacturing", valuation: "" },
+    { id: "company-Agility Robotics", label: "Agility Robotics", type: "company", sector: "Robotics & Manufacturing", valuation: "" },
+    { id: "company-Apptronik", label: "Apptronik", type: "company", sector: "Robotics & Manufacturing", valuation: "" },
+    { id: "company-1X Technologies", label: "1X Technologies", type: "company", sector: "Robotics & Manufacturing", valuation: "" },
+    { id: "company-Covariant", label: "Covariant", type: "company", sector: "Robotics & Manufacturing", valuation: "" },
+    { id: "company-Collaborative Robotics", label: "Collaborative Robotics", type: "company", sector: "Robotics & Manufacturing", valuation: "" },
+    { id: "company-Bedrock Robotics", label: "Bedrock Robotics", type: "company", sector: "Robotics & Manufacturing", valuation: "$1.75B" },
+    { id: "company-Divergent", label: "Divergent", type: "company", sector: "Robotics & Manufacturing", valuation: "$2.3B" },
+    { id: "company-Senra Systems", label: "Senra Systems", type: "company", sector: "Robotics & Manufacturing", valuation: "" },
+    { id: "company-Amca", label: "Amca", type: "company", sector: "Robotics & Manufacturing", valuation: "" },
+
+    // Biotech & Health
+    { id: "company-Altos Labs", label: "Altos Labs", type: "company", sector: "Biotech & Health", valuation: "" },
+    { id: "company-Retro Biosciences", label: "Retro Biosciences", type: "company", sector: "Biotech & Health", valuation: "" },
+    { id: "company-New Limit", label: "New Limit", type: "company", sector: "Biotech & Health", valuation: "" },
+    { id: "company-Colossal Biosciences", label: "Colossal Biosciences", type: "company", sector: "Biotech & Health", valuation: "$1.5B" },
+    { id: "company-Tempus AI", label: "Tempus AI", type: "company", sector: "Biotech & Health", valuation: "$6B+" },
+    { id: "company-Insitro", label: "Insitro", type: "company", sector: "Biotech & Health", valuation: "$2.4B" },
+    { id: "company-Recursion Pharmaceuticals", label: "Recursion Pharmaceuticals", type: "company", sector: "Biotech & Health", valuation: "" },
+
+    // Climate & Energy
+    { id: "company-Commonwealth Fusion Systems", label: "Commonwealth Fusion Systems", type: "company", sector: "Climate & Energy", valuation: "" },
+    { id: "company-Helion", label: "Helion", type: "company", sector: "Climate & Energy", valuation: "$5.4B" },
+    { id: "company-Fervo Energy", label: "Fervo Energy", type: "company", sector: "Climate & Energy", valuation: "" },
+    { id: "company-Terraform Industries", label: "Terraform Industries", type: "company", sector: "Climate & Energy", valuation: "" },
+    { id: "company-Solugen", label: "Solugen", type: "company", sector: "Climate & Energy", valuation: "" },
+    { id: "company-KoBold Metals", label: "KoBold Metals", type: "company", sector: "Climate & Energy", valuation: "$2B+" },
+    { id: "company-Heirloom Carbon", label: "Heirloom Carbon", type: "company", sector: "Climate & Energy", valuation: "" },
+    { id: "company-Twelve", label: "Twelve", type: "company", sector: "Climate & Energy", valuation: "" },
+    { id: "company-Redwood Materials", label: "Redwood Materials", type: "company", sector: "Climate & Energy", valuation: "$5B" },
+    { id: "company-Antora Energy", label: "Antora Energy", type: "company", sector: "Climate & Energy", valuation: "" },
+    { id: "company-Form Energy", label: "Form Energy", type: "company", sector: "Climate & Energy", valuation: "" },
+    { id: "company-Charm Industrial", label: "Charm Industrial", type: "company", sector: "Climate & Energy", valuation: "" },
+
+    // Drones & Autonomous
+    { id: "company-Zipline", label: "Zipline", type: "company", sector: "Drones & Autonomous", valuation: "" },
+    { id: "company-Joby Aviation", label: "Joby Aviation", type: "company", sector: "Drones & Autonomous", valuation: "" },
+    { id: "company-Archer Aviation", label: "Archer Aviation", type: "company", sector: "Drones & Autonomous", valuation: "" },
+    { id: "company-Nuro", label: "Nuro", type: "company", sector: "Drones & Autonomous", valuation: "$8.6B" },
+    { id: "company-Aurora Innovation", label: "Aurora Innovation", type: "company", sector: "Drones & Autonomous", valuation: "" },
+
+    // Chips & Semiconductors
+    { id: "company-Cerebras", label: "Cerebras", type: "company", sector: "Chips & Semiconductors", valuation: "$8.1B+" },
+    { id: "company-Etched", label: "Etched", type: "company", sector: "Chips & Semiconductors", valuation: "$5B" },
+    { id: "company-Lightmatter", label: "Lightmatter", type: "company", sector: "Chips & Semiconductors", valuation: "" },
+    { id: "company-PsiQuantum", label: "PsiQuantum", type: "company", sector: "Chips & Semiconductors", valuation: "$3.1B" },
+
+    // Consumer Tech
+    { id: "company-Flexport", label: "Flexport", type: "company", sector: "Consumer Tech", valuation: "" },
+    { id: "company-Shinkei", label: "Shinkei", type: "company", sector: "Consumer Tech", valuation: "" },
+
+    // Housing & Construction
+    { id: "company-Cover", label: "Cover", type: "company", sector: "Housing & Construction", valuation: "" },
+
+    // Transportation
+    { id: "company-The Boring Company", label: "The Boring Company", type: "company", sector: "Transportation", valuation: "" },
+
+    // Quantum Computing
+    { id: "company-IonQ", label: "IonQ", type: "company", sector: "Quantum Computing", valuation: "" },
+
+    // ════════════════════════════════════════════════════════
+    // INVESTOR NODES — extracted from VC_FIRMS and DEAL_TRACKER
+    // ════════════════════════════════════════════════════════
+    { id: "investor-a16z", label: "a16z (Andreessen Horowitz)", type: "investor", investmentCount: 10, aum: "$42B+" },
+    { id: "investor-Founders Fund", label: "Founders Fund", type: "investor", investmentCount: 8, aum: "$17B+" },
+    { id: "investor-8VC", label: "8VC", type: "investor", investmentCount: 5, aum: "$6B+" },
+    { id: "investor-Khosla Ventures", label: "Khosla Ventures", type: "investor", investmentCount: 4, aum: "$14B+" },
+    { id: "investor-Sequoia Capital", label: "Sequoia Capital", type: "investor", investmentCount: 4, aum: "$56B+" },
+    { id: "investor-Lux Capital", label: "Lux Capital", type: "investor", investmentCount: 6, aum: "$5B+" },
+    { id: "investor-Eclipse Ventures", label: "Eclipse Ventures", type: "investor", investmentCount: 4, aum: "$5B+" },
+    { id: "investor-DCVC", label: "DCVC", type: "investor", investmentCount: 3, aum: "$4B+" },
+    { id: "investor-Cantos Ventures", label: "Cantos Ventures", type: "investor", investmentCount: 7, aum: "$100M+" },
+    { id: "investor-Lowercarbon Capital", label: "Lowercarbon Capital", type: "investor", investmentCount: 6, aum: "$2B+" },
+    { id: "investor-Harpoon Ventures", label: "Harpoon Ventures", type: "investor", investmentCount: 4, aum: "$300M+" },
+    { id: "investor-General Catalyst", label: "General Catalyst", type: "investor", investmentCount: 3, aum: "$25B+" },
+    { id: "investor-Breakthrough Energy Ventures", label: "Breakthrough Energy Ventures", type: "investor", investmentCount: 3, aum: "$3.5B+" },
+    { id: "investor-Bold Capital Partners", label: "Bold Capital Partners", type: "investor", investmentCount: 2, aum: "$500M+" },
+    { id: "investor-Kleiner Perkins", label: "Kleiner Perkins", type: "investor", investmentCount: 2, aum: "$10B+" },
+    { id: "investor-ARCH Venture Partners", label: "ARCH Venture Partners", type: "investor", investmentCount: 2, aum: "$3.5B+" },
+    { id: "investor-Playground Global", label: "Playground Global", type: "investor", investmentCount: 2, aum: "$1.2B+" },
+    { id: "investor-Alumni Ventures", label: "Alumni Ventures", type: "investor", investmentCount: 3, aum: "$1.5B+" },
+    { id: "investor-SOSV", label: "SOSV", type: "investor", investmentCount: 2, aum: "$1.4B+" },
+    { id: "investor-Thrive Capital", label: "Thrive Capital", type: "investor", investmentCount: 2, aum: "" },
+    { id: "investor-Lightspeed", label: "Lightspeed Venture Partners", type: "investor", investmentCount: 2, aum: "" },
+    { id: "investor-SoftBank", label: "SoftBank", type: "investor", investmentCount: 2, aum: "" },
+    { id: "investor-Bezos Expeditions", label: "Bezos Expeditions", type: "investor", investmentCount: 3, aum: "" },
+    { id: "investor-Microsoft", label: "Microsoft", type: "investor", investmentCount: 2, aum: "" },
+    { id: "investor-Alphabet", label: "Alphabet", type: "investor", investmentCount: 2, aum: "" },
+    { id: "investor-ARK Invest", label: "ARK Invest", type: "investor", investmentCount: 1, aum: "" },
+    { id: "investor-Valor Equity", label: "Valor Equity Partners", type: "investor", investmentCount: 1, aum: "" },
+    { id: "investor-GIC", label: "GIC (Singapore)", type: "investor", investmentCount: 1, aum: "" },
+    { id: "investor-L3Harris", label: "L3Harris Technologies", type: "investor", investmentCount: 1, aum: "" },
+    { id: "investor-CapitalG", label: "CapitalG (Alphabet)", type: "investor", investmentCount: 1, aum: "" },
+    { id: "investor-Y Combinator", label: "Y Combinator", type: "investor", investmentCount: 8, aum: "" },
+    { id: "investor-In-Q-Tel", label: "In-Q-Tel", type: "investor", investmentCount: 2, aum: "" },
+    { id: "investor-NVIDIA", label: "NVIDIA", type: "investor", investmentCount: 2, aum: "" },
+
+    // ════════════════════════════════════════════════════════
+    // PEOPLE NODES — extracted from founders, keyPeople, mafias
+    // ════════════════════════════════════════════════════════
+    { id: "person-Elon Musk", label: "Elon Musk", type: "person", role: "CEO/Founder", affiliation: "SpaceX" },
+    { id: "person-Palmer Luckey", label: "Palmer Luckey", type: "person", role: "Founder", affiliation: "Anduril Industries" },
+    { id: "person-Peter Thiel", label: "Peter Thiel", type: "person", role: "Co-Founder/Partner", affiliation: "Founders Fund / Palantir" },
+    { id: "person-Trae Stephens", label: "Trae Stephens", type: "person", role: "Co-Founder/Partner", affiliation: "Anduril / Founders Fund" },
+    { id: "person-Delian Asparouhov", label: "Delian Asparouhov", type: "person", role: "Co-Founder/Partner", affiliation: "Varda / Founders Fund" },
+    { id: "person-Joe Lonsdale", label: "Joe Lonsdale", type: "person", role: "Founder", affiliation: "8VC / Palantir" },
+    { id: "person-Sam Altman", label: "Sam Altman", type: "person", role: "CEO", affiliation: "OpenAI" },
+    { id: "person-Dario Amodei", label: "Dario Amodei", type: "person", role: "CEO/Co-Founder", affiliation: "Anthropic" },
+    { id: "person-Brett Adcock", label: "Brett Adcock", type: "person", role: "Founder/CEO", affiliation: "Figure AI" },
+    { id: "person-Tom Mueller", label: "Tom Mueller", type: "person", role: "Founder (ex-SpaceX)", affiliation: "Impulse Space" },
+    { id: "person-Jeff Bezos", label: "Jeff Bezos", type: "person", role: "Founder/Investor", affiliation: "Blue Origin" },
+    { id: "person-Peter Beck", label: "Peter Beck", type: "person", role: "Founder/CEO", affiliation: "Rocket Lab" },
+    { id: "person-Katherine Boyle", label: "Katherine Boyle", type: "person", role: "General Partner", affiliation: "a16z" },
+    { id: "person-Josh Wolfe", label: "Josh Wolfe", type: "person", role: "Managing Partner", affiliation: "Lux Capital" },
+    { id: "person-Chris Sacca", label: "Chris Sacca", type: "person", role: "Founder", affiliation: "Lowercarbon Capital" },
+    { id: "person-Vinod Khosla", label: "Vinod Khosla", type: "person", role: "Founder", affiliation: "Khosla Ventures" },
+    { id: "person-Eric Schmidt", label: "Eric Schmidt", type: "person", role: "CEO (ex-Google)", affiliation: "Relativity Space" },
+    { id: "person-Alex Karp", label: "Alex Karp", type: "person", role: "CEO/Co-Founder", affiliation: "Palantir" },
+    { id: "person-Alexandr Wang", label: "Alexandr Wang", type: "person", role: "Founder/CEO", affiliation: "Scale AI" },
+    { id: "person-Brad Porter", label: "Brad Porter", type: "person", role: "Founder (ex-Amazon VP Robotics)", affiliation: "Collaborative Robotics" },
+    { id: "person-Brian Armstrong", label: "Brian Armstrong", type: "person", role: "Co-Founder (Coinbase CEO)", affiliation: "New Limit" },
+    { id: "person-JB Straubel", label: "JB Straubel", type: "person", role: "Founder (ex-Tesla CTO)", affiliation: "Redwood Materials" },
+    { id: "person-Will Bruey", label: "Will Bruey", type: "person", role: "Co-Founder (ex-SpaceX)", affiliation: "Varda Space Industries" },
+    { id: "person-Chris Power", label: "Chris Power", type: "person", role: "Founder", affiliation: "Hadrian" },
+    { id: "person-Max Hodak", label: "Max Hodak", type: "person", role: "Founder (ex-Neuralink President)", affiliation: "Science Corporation" },
+    { id: "person-Scott Nolan", label: "Scott Nolan", type: "person", role: "Co-Founder/Partner", affiliation: "General Matter / Founders Fund" },
+    { id: "person-Blake Scholl", label: "Blake Scholl", type: "person", role: "Founder/CEO (YC W16)", affiliation: "Boom Supersonic" },
+    { id: "person-David Kirtley", label: "David Kirtley", type: "person", role: "Founder/CEO (YC S14)", affiliation: "Helion" },
+    { id: "person-Jake Loosararian", label: "Jake Loosararian", type: "person", role: "Co-Founder (YC W16)", affiliation: "Gecko Robotics" },
+    { id: "person-Ian Rountree", label: "Ian Rountree", type: "person", role: "Founder/GP", affiliation: "Cantos Ventures" },
+  ],
+
+  edges: [
+    // ════════════════════════════════════════════════════════
+    // INVESTMENT EDGES — from DEAL_TRACKER and VC_FIRMS portfolioCompanies
+    // ════════════════════════════════════════════════════════
+
+    // a16z investments
+    { source: "investor-a16z", target: "company-Anduril Industries", type: "investment", detail: "Series G participant" },
+    { source: "investor-a16z", target: "company-Shield AI", type: "investment", detail: "Series F-1 participant" },
+    { source: "investor-a16z", target: "company-Saronic", type: "investment", detail: "Series C lead" },
+    { source: "investor-a16z", target: "company-Hadrian", type: "investment", detail: "Series C lead" },
+    { source: "investor-a16z", target: "company-Physical Intelligence", type: "investment", detail: "Portfolio company" },
+    { source: "investor-a16z", target: "company-Groq", type: "investment", detail: "Portfolio company" },
+    { source: "investor-a16z", target: "company-Flock Safety", type: "investment", detail: "Portfolio company" },
+    { source: "investor-a16z", target: "company-ElevenLabs", type: "investment", detail: "Portfolio company" },
+    { source: "investor-a16z", target: "company-Skild AI", type: "investment", detail: "Series C participant" },
+    { source: "investor-a16z", target: "company-Anysphere", type: "investment", detail: "Series D lead" },
+    { source: "investor-a16z", target: "company-Astranis", type: "investment", detail: "Series D lead" },
+    { source: "investor-a16z", target: "company-Senra Systems", type: "investment", detail: "Series A investor" },
+    { source: "investor-a16z", target: "company-Amca", type: "investment", detail: "Series A investor" },
+
+    // Founders Fund investments
+    { source: "investor-Founders Fund", target: "company-SpaceX", type: "investment", detail: "First institutional investor" },
+    { source: "investor-Founders Fund", target: "company-Anduril Industries", type: "investment", detail: "Series G lead" },
+    { source: "investor-Founders Fund", target: "company-Palantir", type: "investment", detail: "Co-founded by Peter Thiel" },
+    { source: "investor-Founders Fund", target: "company-Relativity Space", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Founders Fund", target: "company-Varda Space Industries", type: "investment", detail: "Series C lead" },
+    { source: "investor-Founders Fund", target: "company-Boom Supersonic", type: "investment", detail: "Series B participant" },
+    { source: "investor-Founders Fund", target: "company-Crusoe Energy", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Founders Fund", target: "company-General Matter", type: "investment", detail: "Incubated by Founders Fund" },
+    { source: "investor-Founders Fund", target: "company-Shinkei", type: "investment", detail: "Series A investor" },
+    { source: "investor-Founders Fund", target: "company-Senra Systems", type: "investment", detail: "Series A investor" },
+    { source: "investor-Founders Fund", target: "company-Amca", type: "investment", detail: "Series A investor" },
+
+    // 8VC investments
+    { source: "investor-8VC", target: "company-Epirus", type: "investment", detail: "Late Stage participant" },
+    { source: "investor-8VC", target: "company-Saronic", type: "investment", detail: "Series C participant" },
+    { source: "investor-8VC", target: "company-Hadrian", type: "investment", detail: "Portfolio company" },
+    { source: "investor-8VC", target: "company-Joby Aviation", type: "investment", detail: "Portfolio company" },
+    { source: "investor-8VC", target: "company-Saildrone", type: "investment", detail: "Portfolio company" },
+    { source: "investor-8VC", target: "company-Bedrock Robotics", type: "investment", detail: "Seed/A co-lead" },
+
+    // Lux Capital investments
+    { source: "investor-Lux Capital", target: "company-Anduril Industries", type: "investment", detail: "Early investor" },
+    { source: "investor-Lux Capital", target: "company-Saronic", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Lux Capital", target: "company-Saildrone", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Lux Capital", target: "company-Physical Intelligence", type: "investment", detail: "Series B participant" },
+    { source: "investor-Lux Capital", target: "company-Collaborative Robotics", type: "investment", detail: "Series B participant" },
+    { source: "investor-Lux Capital", target: "company-Amca", type: "investment", detail: "Series A investor" },
+
+    // Khosla Ventures investments
+    { source: "investor-Khosla Ventures", target: "company-Helion", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Khosla Ventures", target: "company-Commonwealth Fusion Systems", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Khosla Ventures", target: "company-OpenAI", type: "investment", detail: "Early investor" },
+    { source: "investor-Khosla Ventures", target: "company-Collaborative Robotics", type: "investment", detail: "Series B participant" },
+    { source: "investor-Khosla Ventures", target: "company-Mach Industries", type: "investment", detail: "Series B investor" },
+
+    // Sequoia Capital investments
+    { source: "investor-Sequoia Capital", target: "company-Varda Space Industries", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Sequoia Capital", target: "company-Collaborative Robotics", type: "investment", detail: "Series B participant" },
+    { source: "investor-Sequoia Capital", target: "company-Nominal", type: "investment", detail: "Series B lead" },
+
+    // Eclipse Ventures investments
+    { source: "investor-Eclipse Ventures", target: "company-Hadrian", type: "investment", detail: "Series C participant" },
+    { source: "investor-Eclipse Ventures", target: "company-Gecko Robotics", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Eclipse Ventures", target: "company-Machina Labs", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Eclipse Ventures", target: "company-Bedrock Robotics", type: "investment", detail: "Seed/A co-lead" },
+
+    // Cantos Ventures investments
+    { source: "investor-Cantos Ventures", target: "company-Astranis", type: "investment", detail: "Early investor" },
+    { source: "investor-Cantos Ventures", target: "company-Radiant", type: "investment", detail: "Series B participant" },
+    { source: "investor-Cantos Ventures", target: "company-Castelion", type: "investment", detail: "Series B participant" },
+    { source: "investor-Cantos Ventures", target: "company-Venus Aerospace", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Cantos Ventures", target: "company-Solugen", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Cantos Ventures", target: "company-Twelve", type: "investment", detail: "Portfolio company" },
+
+    // Lowercarbon Capital investments
+    { source: "investor-Lowercarbon Capital", target: "company-Commonwealth Fusion Systems", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Lowercarbon Capital", target: "company-Pacific Fusion", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Lowercarbon Capital", target: "company-Twelve", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Lowercarbon Capital", target: "company-Heirloom Carbon", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Lowercarbon Capital", target: "company-Antora Energy", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Lowercarbon Capital", target: "company-Charm Industrial", type: "investment", detail: "Portfolio company" },
+
+    // Breakthrough Energy Ventures investments
+    { source: "investor-Breakthrough Energy Ventures", target: "company-Commonwealth Fusion Systems", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Breakthrough Energy Ventures", target: "company-Form Energy", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Breakthrough Energy Ventures", target: "company-KoBold Metals", type: "investment", detail: "Portfolio company" },
+
+    // DCVC investments
+    { source: "investor-DCVC", target: "company-Oklo", type: "investment", detail: "Portfolio company" },
+    { source: "investor-DCVC", target: "company-Planet Labs", type: "investment", detail: "Portfolio company" },
+    { source: "investor-DCVC", target: "company-Saildrone", type: "investment", detail: "Portfolio company" },
+
+    // Other major investments from DEAL_TRACKER
+    { source: "investor-Thrive Capital", target: "company-Physical Intelligence", type: "investment", detail: "Series B co-lead" },
+    { source: "investor-Bezos Expeditions", target: "company-Physical Intelligence", type: "investment", detail: "Series B lead" },
+    { source: "investor-Bezos Expeditions", target: "company-Altos Labs", type: "investment", detail: "$3B founding investment" },
+    { source: "investor-Bezos Expeditions", target: "company-Blue Origin", type: "investment", detail: "Founder — $10B+ invested" },
+    { source: "investor-L3Harris", target: "company-Shield AI", type: "investment", detail: "Series F-1 lead" },
+    { source: "investor-Microsoft", target: "company-Figure AI", type: "investment", detail: "Series C lead" },
+    { source: "investor-Microsoft", target: "company-OpenAI", type: "investment", detail: "Multi-billion strategic investment" },
+    { source: "investor-Lightspeed", target: "company-Skild AI", type: "investment", detail: "Series C lead" },
+    { source: "investor-SoftBank", target: "company-OpenAI", type: "investment", detail: "$40B round lead" },
+    { source: "investor-GIC", target: "company-Anthropic", type: "investment", detail: "Series F lead" },
+    { source: "investor-Alphabet", target: "company-Waymo", type: "investment", detail: "$16B subsidiary funding" },
+    { source: "investor-ARK Invest", target: "company-Neuralink", type: "investment", detail: "Series E lead" },
+    { source: "investor-Valor Equity", target: "company-Crusoe Energy", type: "investment", detail: "Series E lead" },
+    { source: "investor-CapitalG", target: "company-Bedrock Robotics", type: "investment", detail: "Series B lead" },
+    { source: "investor-General Catalyst", target: "company-Collaborative Robotics", type: "investment", detail: "Series B lead" },
+    { source: "investor-NVIDIA", target: "company-Crusoe Energy", type: "investment", detail: "Strategic investor" },
+    { source: "investor-NVIDIA", target: "company-Figure AI", type: "investment", detail: "Strategic investor" },
+    { source: "investor-In-Q-Tel", target: "company-Vast", type: "investment", detail: "Strategic investment" },
+    { source: "investor-In-Q-Tel", target: "company-Palantir", type: "investment", detail: "Early strategic investor" },
+
+    // Y Combinator alumni investments
+    { source: "investor-Y Combinator", target: "company-Boom Supersonic", type: "investment", detail: "YC W16" },
+    { source: "investor-Y Combinator", target: "company-Helion", type: "investment", detail: "YC S14" },
+    { source: "investor-Y Combinator", target: "company-Relativity Space", type: "investment", detail: "YC S16" },
+    { source: "investor-Y Combinator", target: "company-Gecko Robotics", type: "investment", detail: "YC W16" },
+    { source: "investor-Y Combinator", target: "company-Solugen", type: "investment", detail: "YC S17" },
+
+    // Harpoon Ventures investments
+    { source: "investor-Harpoon Ventures", target: "company-Solugen", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Harpoon Ventures", target: "company-Astranis", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Harpoon Ventures", target: "company-Castelion", type: "investment", detail: "Portfolio company" },
+
+    // Alumni Ventures investments
+    { source: "investor-Alumni Ventures", target: "company-SpaceX", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Alumni Ventures", target: "company-Anduril Industries", type: "investment", detail: "Portfolio company" },
+    { source: "investor-Alumni Ventures", target: "company-Boom Supersonic", type: "investment", detail: "Portfolio company" },
+
+    // Bold Capital Partners investments
+    { source: "investor-Bold Capital Partners", target: "company-Colossal Biosciences", type: "investment", detail: "Portfolio company" },
+
+    // Playground Global investments
+    { source: "investor-Playground Global", target: "company-Physical Intelligence", type: "investment", detail: "Portfolio company" },
+
+    // ════════════════════════════════════════════════════════
+    // FOUNDER / LEADERSHIP EDGES
+    // ════════════════════════════════════════════════════════
+    { source: "person-Elon Musk", target: "company-SpaceX", type: "founder", detail: "CEO & Chief Engineer" },
+    { source: "person-Elon Musk", target: "company-Neuralink", type: "founder", detail: "Co-Founder" },
+    { source: "person-Elon Musk", target: "company-The Boring Company", type: "founder", detail: "Founder" },
+    { source: "person-Palmer Luckey", target: "company-Anduril Industries", type: "founder", detail: "Co-Founder" },
+    { source: "person-Peter Thiel", target: "company-Palantir", type: "founder", detail: "Co-Founder" },
+    { source: "person-Peter Thiel", target: "investor-Founders Fund", type: "founder", detail: "Co-Founder & Managing Partner" },
+    { source: "person-Trae Stephens", target: "company-Anduril Industries", type: "founder", detail: "Co-Founder (ex-Palantir)" },
+    { source: "person-Trae Stephens", target: "investor-Founders Fund", type: "board", detail: "Partner" },
+    { source: "person-Delian Asparouhov", target: "company-Varda Space Industries", type: "founder", detail: "Co-Founder" },
+    { source: "person-Delian Asparouhov", target: "investor-Founders Fund", type: "board", detail: "Partner" },
+    { source: "person-Joe Lonsdale", target: "company-Palantir", type: "founder", detail: "Co-Founder" },
+    { source: "person-Joe Lonsdale", target: "investor-8VC", type: "founder", detail: "Founder & Managing Partner" },
+    { source: "person-Sam Altman", target: "company-OpenAI", type: "founder", detail: "CEO & Co-Founder" },
+    { source: "person-Sam Altman", target: "company-Helion", type: "board", detail: "Lead investor, Series F" },
+    { source: "person-Dario Amodei", target: "company-Anthropic", type: "founder", detail: "CEO & Co-Founder" },
+    { source: "person-Brett Adcock", target: "company-Figure AI", type: "founder", detail: "Founder & CEO" },
+    { source: "person-Tom Mueller", target: "company-Impulse Space", type: "founder", detail: "Founder (ex-SpaceX VP Propulsion)" },
+    { source: "person-Jeff Bezos", target: "company-Blue Origin", type: "founder", detail: "Founder" },
+    { source: "person-Jeff Bezos", target: "investor-Bezos Expeditions", type: "founder", detail: "Founder" },
+    { source: "person-Peter Beck", target: "company-Rocket Lab", type: "founder", detail: "Founder & CEO" },
+    { source: "person-Katherine Boyle", target: "investor-a16z", type: "board", detail: "GP, American Dynamism" },
+    { source: "person-Josh Wolfe", target: "investor-Lux Capital", type: "founder", detail: "Co-Founder & Managing Partner" },
+    { source: "person-Chris Sacca", target: "investor-Lowercarbon Capital", type: "founder", detail: "Founder" },
+    { source: "person-Vinod Khosla", target: "investor-Khosla Ventures", type: "founder", detail: "Founder" },
+    { source: "person-Eric Schmidt", target: "company-Relativity Space", type: "board", detail: "CEO (acquired majority stake)" },
+    { source: "person-Alex Karp", target: "company-Palantir", type: "founder", detail: "CEO & Co-Founder" },
+    { source: "person-Alexandr Wang", target: "company-Scale AI", type: "founder", detail: "Founder & CEO" },
+    { source: "person-Brad Porter", target: "company-Collaborative Robotics", type: "founder", detail: "Founder (ex-Amazon VP Robotics)" },
+    { source: "person-Brian Armstrong", target: "company-New Limit", type: "founder", detail: "Co-Founder (Coinbase CEO)" },
+    { source: "person-JB Straubel", target: "company-Redwood Materials", type: "founder", detail: "Founder & CEO (ex-Tesla CTO)" },
+    { source: "person-Will Bruey", target: "company-Varda Space Industries", type: "founder", detail: "Co-Founder (ex-SpaceX Engineer)" },
+    { source: "person-Chris Power", target: "company-Hadrian", type: "founder", detail: "Founder & CEO" },
+    { source: "person-Max Hodak", target: "company-Neuralink", type: "board", detail: "Former President" },
+    { source: "person-Scott Nolan", target: "company-General Matter", type: "founder", detail: "Co-Founder (Founders Fund Partner)" },
+    { source: "person-Blake Scholl", target: "company-Boom Supersonic", type: "founder", detail: "Founder & CEO" },
+    { source: "person-David Kirtley", target: "company-Helion", type: "founder", detail: "Founder & CEO" },
+    { source: "person-Jake Loosararian", target: "company-Gecko Robotics", type: "founder", detail: "Co-Founder & CEO" },
+    { source: "person-Ian Rountree", target: "investor-Cantos Ventures", type: "founder", detail: "Founder & GP" },
+
+    // ════════════════════════════════════════════════════════
+    // MAFIA CONNECTION EDGES — from FOUNDER_MAFIAS
+    // ════════════════════════════════════════════════════════
+
+    // SpaceX Mafia connections
+    { source: "company-SpaceX", target: "company-Impulse Space", type: "mafia", detail: "Tom Mueller (Founding Employee, VP Propulsion at SpaceX)" },
+    { source: "company-SpaceX", target: "company-Relativity Space", type: "mafia", detail: "Tim Ellis (SpaceX Intern/Engineer)" },
+    { source: "company-SpaceX", target: "company-Varda Space Industries", type: "mafia", detail: "Will Bruey (SpaceX Engineer)" },
+    { source: "company-SpaceX", target: "company-Castelion", type: "mafia", detail: "Team of former SpaceX engineers" },
+    { source: "company-SpaceX", target: "company-Hermeus", type: "mafia", detail: "AJ Piplica, Skyler Shuford (SpaceX Engineers)" },
+    { source: "company-SpaceX", target: "company-Hadrian", type: "mafia", detail: "Chris Power (SpaceX supply chain adjacent)" },
+    { source: "company-SpaceX", target: "company-Apex Space", type: "mafia", detail: "Former SpaceX manufacturing engineers" },
+    { source: "company-SpaceX", target: "company-Astro Mechanica", type: "mafia", detail: "Former SpaceX propulsion team" },
+    { source: "company-SpaceX", target: "company-Oklo", type: "mafia", detail: "Jake DeWitte (DOE/SpaceX network adjacent)" },
+
+    // Palantir Mafia connections
+    { source: "company-Palantir", target: "company-Anduril Industries", type: "mafia", detail: "Palmer Luckey (board), Trae Stephens (ex-Palantir)" },
+    { source: "company-Palantir", target: "company-Hadrian", type: "mafia", detail: "Chris Power (Palantir network)" },
+    { source: "company-Palantir", target: "company-Saronic", type: "mafia", detail: "Palantir defense network" },
+    { source: "company-Palantir", target: "company-Vannevar Labs", type: "mafia", detail: "Brett Granberg (ex-Palantir)" },
+    { source: "company-Palantir", target: "company-Scale AI", type: "mafia", detail: "Alexandr Wang (Palantir intern/adjacent)" },
+    { source: "company-Palantir", target: "company-Epirus", type: "mafia", detail: "Defense network overlap with Palantir ecosystem" },
+
+    // Google/DeepMind Alumni connections
+    { source: "company-Waymo", target: "company-Physical Intelligence", type: "mafia", detail: "Karol Hausman (Google Brain)" },
+    { source: "company-Waymo", target: "company-Covariant", type: "mafia", detail: "Pieter Abbeel (UC Berkeley/Google Brain adjacent)" },
+    { source: "company-Waymo", target: "company-Skild AI", type: "mafia", detail: "Deepak Pathak (CMU/Google Research)" },
+
+    // Amazon Robotics Alumni connections
+    { source: "company-Collaborative Robotics", target: "company-Agility Robotics", type: "mafia", detail: "Amazon robotics ecosystem — Brad Porter (ex-Amazon VP) and Amazon partnership" },
+
+    // Tesla/Autopilot Alumni
+    { source: "company-Redwood Materials", target: "company-Applied Intuition", type: "mafia", detail: "JB Straubel (ex-Tesla CTO), Qasar Younis (Tesla network)" },
+
+    // Neuralink Alumni
+    { source: "company-Neuralink", target: "company-Palantir", type: "mafia", detail: "Max Hodak (ex-Neuralink President → Science Corp; Peter Thiel invested in both)" },
+
+    // ════════════════════════════════════════════════════════
+    // CO-INVESTOR EDGES — notable VCs with 3+ portfolio companies
+    // Only for VCs with dense portfolios to avoid over-connecting
+    // ════════════════════════════════════════════════════════
+
+    // a16z co-investments (connects companies that share a16z as investor)
+    { source: "company-Anduril Industries", target: "company-Shield AI", type: "co-investor", detail: "a16z" },
+    { source: "company-Anduril Industries", target: "company-Saronic", type: "co-investor", detail: "a16z" },
+    { source: "company-Anduril Industries", target: "company-Hadrian", type: "co-investor", detail: "a16z" },
+    { source: "company-Shield AI", target: "company-Saronic", type: "co-investor", detail: "a16z" },
+    { source: "company-Hadrian", target: "company-Flock Safety", type: "co-investor", detail: "a16z" },
+    { source: "company-Skild AI", target: "company-Anysphere", type: "co-investor", detail: "a16z" },
+    { source: "company-Groq", target: "company-ElevenLabs", type: "co-investor", detail: "a16z" },
+    { source: "company-Astranis", target: "company-Senra Systems", type: "co-investor", detail: "a16z" },
+
+    // Founders Fund co-investments
+    { source: "company-SpaceX", target: "company-Anduril Industries", type: "co-investor", detail: "Founders Fund" },
+    { source: "company-SpaceX", target: "company-Palantir", type: "co-investor", detail: "Founders Fund" },
+    { source: "company-Anduril Industries", target: "company-Palantir", type: "co-investor", detail: "Founders Fund" },
+    { source: "company-Anduril Industries", target: "company-Varda Space Industries", type: "co-investor", detail: "Founders Fund" },
+    { source: "company-Varda Space Industries", target: "company-Relativity Space", type: "co-investor", detail: "Founders Fund" },
+    { source: "company-SpaceX", target: "company-Crusoe Energy", type: "co-investor", detail: "Founders Fund" },
+    { source: "company-Boom Supersonic", target: "company-General Matter", type: "co-investor", detail: "Founders Fund" },
+
+    // 8VC co-investments
+    { source: "company-Epirus", target: "company-Saronic", type: "co-investor", detail: "8VC" },
+    { source: "company-Saronic", target: "company-Hadrian", type: "co-investor", detail: "8VC" },
+    { source: "company-Saronic", target: "company-Joby Aviation", type: "co-investor", detail: "8VC" },
+    { source: "company-Bedrock Robotics", target: "company-Epirus", type: "co-investor", detail: "8VC" },
+
+    // Lux Capital co-investments
+    { source: "company-Anduril Industries", target: "company-Saildrone", type: "co-investor", detail: "Lux Capital" },
+    { source: "company-Collaborative Robotics", target: "company-Saildrone", type: "co-investor", detail: "Lux Capital" },
+    { source: "company-Anduril Industries", target: "company-Collaborative Robotics", type: "co-investor", detail: "Lux Capital" },
+
+    // Khosla Ventures co-investments
+    { source: "company-Helion", target: "company-Commonwealth Fusion Systems", type: "co-investor", detail: "Khosla Ventures" },
+    { source: "company-OpenAI", target: "company-Helion", type: "co-investor", detail: "Khosla Ventures" },
+
+    // Eclipse Ventures co-investments
+    { source: "company-Hadrian", target: "company-Gecko Robotics", type: "co-investor", detail: "Eclipse Ventures" },
+    { source: "company-Hadrian", target: "company-Machina Labs", type: "co-investor", detail: "Eclipse Ventures" },
+    { source: "company-Hadrian", target: "company-Bedrock Robotics", type: "co-investor", detail: "Eclipse Ventures" },
+    { source: "company-Gecko Robotics", target: "company-Machina Labs", type: "co-investor", detail: "Eclipse Ventures" },
+
+    // Cantos Ventures co-investments
+    { source: "company-Astranis", target: "company-Radiant", type: "co-investor", detail: "Cantos Ventures" },
+    { source: "company-Radiant", target: "company-Castelion", type: "co-investor", detail: "Cantos Ventures" },
+    { source: "company-Astranis", target: "company-Castelion", type: "co-investor", detail: "Cantos Ventures" },
+    { source: "company-Venus Aerospace", target: "company-Solugen", type: "co-investor", detail: "Cantos Ventures" },
+
+    // Lowercarbon Capital co-investments
+    { source: "company-Commonwealth Fusion Systems", target: "company-Heirloom Carbon", type: "co-investor", detail: "Lowercarbon Capital" },
+    { source: "company-Heirloom Carbon", target: "company-Charm Industrial", type: "co-investor", detail: "Lowercarbon Capital" },
+    { source: "company-Antora Energy", target: "company-Twelve", type: "co-investor", detail: "Lowercarbon Capital" },
+    { source: "company-Commonwealth Fusion Systems", target: "company-Pacific Fusion", type: "co-investor", detail: "Lowercarbon Capital" },
+
+    // Breakthrough Energy Ventures co-investments
+    { source: "company-Commonwealth Fusion Systems", target: "company-Form Energy", type: "co-investor", detail: "Breakthrough Energy Ventures" },
+    { source: "company-Commonwealth Fusion Systems", target: "company-KoBold Metals", type: "co-investor", detail: "Breakthrough Energy Ventures" },
+
+    // Y Combinator co-investments
+    { source: "company-Boom Supersonic", target: "company-Helion", type: "co-investor", detail: "Y Combinator" },
+    { source: "company-Boom Supersonic", target: "company-Relativity Space", type: "co-investor", detail: "Y Combinator" },
+    { source: "company-Boom Supersonic", target: "company-Gecko Robotics", type: "co-investor", detail: "Y Combinator" },
+    { source: "company-Helion", target: "company-Relativity Space", type: "co-investor", detail: "Y Combinator" },
+    { source: "company-Helion", target: "company-Solugen", type: "co-investor", detail: "Y Combinator" },
+
+    // Cross-investor notable connections (companies sharing multiple investors)
+    { source: "company-Collaborative Robotics", target: "company-Physical Intelligence", type: "co-investor", detail: "Lux Capital + Khosla Ventures" },
+    { source: "company-Anduril Industries", target: "company-Hadrian", type: "co-investor", detail: "a16z + Lux Capital" },
+  ]
+};

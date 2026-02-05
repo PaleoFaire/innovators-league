@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <link rel="stylesheet" href="styles.css?v=9">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css?v=10">
 </head>
 <body>
     <!-- Navigation -->
@@ -264,6 +265,148 @@
         </div>
     </section>
 
+    <!-- Interactive Network Graph -->
+    <section class="network-section" id="network-graph">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">RELATIONSHIP INTELLIGENCE</p>
+                <h2>Network Graph</h2>
+                <p>Interactive force-directed graph revealing hidden connections between companies, investors, and key people across frontier tech.</p>
+            </div>
+            <div class="network-controls">
+                <div class="network-filters">
+                    <button class="network-filter active" data-edge="all">All Connections</button>
+                    <button class="network-filter" data-edge="investment">Investments</button>
+                    <button class="network-filter" data-edge="mafia">Mafia Links</button>
+                    <button class="network-filter" data-edge="co-investor">Co-Investors</button>
+                    <button class="network-filter" data-edge="founder">Founders</button>
+                    <button class="network-filter" data-edge="board">Board</button>
+                </div>
+                <div class="network-search">
+                    <input type="text" id="network-search" placeholder="Search node...">
+                </div>
+                <div class="network-legend">
+                    <span class="network-legend-item"><span class="legend-dot" style="background:#FF6B2C"></span>Company</span>
+                    <span class="network-legend-item"><span class="legend-dot" style="background:#f59e0b"></span>Investor</span>
+                    <span class="network-legend-item"><span class="legend-dot" style="background:#8b5cf6"></span>Person</span>
+                </div>
+            </div>
+            <div class="network-canvas-wrapper">
+                <div id="network-canvas"></div>
+                <div class="network-tooltip" id="network-tooltip" style="display:none"></div>
+            </div>
+            <div class="network-info" id="network-info">
+                <p class="network-stats" id="network-stats"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Builder & Scenario Simulator -->
+    <section class="portfolio-section" id="portfolio-builder">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">PORTFOLIO TOOLS</p>
+                <h2>Portfolio Builder &amp; Scenario Simulator</h2>
+                <p>Build hypothetical frontier tech portfolios, analyze sector exposure, and model "what if" scenarios with real budget and contract data.</p>
+            </div>
+            <div class="portfolio-layout">
+                <div class="portfolio-picker">
+                    <div class="portfolio-picker-header">
+                        <h3>Add Companies</h3>
+                        <input type="text" id="portfolio-search" placeholder="Search companies...">
+                    </div>
+                    <div class="portfolio-company-list" id="portfolio-company-list"></div>
+                </div>
+                <div class="portfolio-main">
+                    <div class="portfolio-holdings" id="portfolio-holdings">
+                        <div class="portfolio-empty">Click companies on the left to build your portfolio</div>
+                    </div>
+                    <div class="portfolio-analytics">
+                        <div class="portfolio-chart-row">
+                            <div class="portfolio-chart-card" id="portfolio-sector-chart">
+                                <h4>Sector Exposure</h4>
+                                <div class="portfolio-bars" id="portfolio-sector-bars"></div>
+                            </div>
+                            <div class="portfolio-chart-card" id="portfolio-stage-chart">
+                                <h4>Stage Distribution</h4>
+                                <div class="portfolio-bars" id="portfolio-stage-bars"></div>
+                            </div>
+                        </div>
+                        <div class="portfolio-metrics-row" id="portfolio-metrics"></div>
+                        <div class="portfolio-scenarios" id="portfolio-scenarios">
+                            <h4>Scenario Simulator</h4>
+                            <div class="scenario-controls">
+                                <select id="scenario-select" class="lb-filter-select">
+                                    <option value="defense-up">Defense Budget +15%</option>
+                                    <option value="defense-down">Defense Budget −10%</option>
+                                    <option value="ai-boom">AI Investment Boom</option>
+                                    <option value="space-race">Space Race Acceleration</option>
+                                    <option value="climate-push">Climate Policy Push</option>
+                                    <option value="recession">Recession Scenario</option>
+                                </select>
+                                <button class="scenario-run-btn" id="scenario-run">Run Scenario</button>
+                            </div>
+                            <div class="scenario-results" id="scenario-results"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-actions">
+                        <button class="portfolio-action-btn" id="portfolio-share">📋 Copy Shareable URL</button>
+                        <button class="portfolio-action-btn" id="portfolio-clear">🗑️ Clear Portfolio</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Investment Memo Generator -->
+    <section class="memo-section" id="ai-memo">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">AI-POWERED ANALYSIS</p>
+                <h2>Investment Memo Generator</h2>
+                <p>Generate institutional-quality investment memos using our proprietary data. Powered by your own API key — data never leaves your browser.</p>
+            </div>
+            <div class="memo-layout">
+                <div class="memo-config">
+                    <div class="memo-config-group">
+                        <label>Select Company</label>
+                        <select id="memo-company" class="lb-filter-select">
+                            <option value="">Choose a company...</option>
+                        </select>
+                    </div>
+                    <div class="memo-config-group">
+                        <label>Memo Type</label>
+                        <select id="memo-type" class="lb-filter-select">
+                            <option value="investment">Investment Memo</option>
+                            <option value="competitive">Competitive Analysis</option>
+                            <option value="sector">Sector Brief</option>
+                            <option value="risk">Risk Assessment</option>
+                        </select>
+                    </div>
+                    <div class="memo-config-group">
+                        <label>AI Provider</label>
+                        <select id="memo-provider" class="lb-filter-select">
+                            <option value="anthropic">Anthropic (Claude)</option>
+                            <option value="openai">OpenAI (GPT-4)</option>
+                        </select>
+                    </div>
+                    <div class="memo-config-group">
+                        <label>API Key <span class="memo-key-note">(stored locally, never sent to our servers)</span></label>
+                        <input type="password" id="memo-api-key" placeholder="sk-... or your API key" class="memo-key-input">
+                    </div>
+                    <button class="memo-generate-btn" id="memo-generate">⚡ Generate Memo</button>
+                </div>
+                <div class="memo-output" id="memo-output">
+                    <div class="memo-placeholder">
+                        <div class="memo-placeholder-icon">📊</div>
+                        <p>Select a company and provide your API key to generate an institutional-quality investment memo.</p>
+                        <p class="memo-placeholder-sub">Your key is stored in localStorage and never transmitted to any server besides the AI provider.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Founder Mafia Explorer -->
     <section class="mafia-section" id="mafia-explorer">
         <div class="container">
@@ -492,7 +635,7 @@
         </div>
     </footer>
 
-    <script src="data.js?v=9"></script>
-    <script src="app.js?v=9"></script>
+    <script src="data.js?v=10"></script>
+    <script src="app.js?v=10"></script>
 </body>
 </html>
