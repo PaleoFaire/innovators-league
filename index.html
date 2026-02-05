@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <link rel="stylesheet" href="styles.css?v=8">
+    <link rel="stylesheet" href="styles.css?v=9">
 </head>
 <body>
     <!-- Navigation -->
@@ -177,6 +177,90 @@
                 <p>Leaders, challengers, and emerging players across the hottest deep tech categories.</p>
             </div>
             <div class="market-map-grid" id="market-map-grid"></div>
+        </div>
+    </section>
+
+    <!-- Innovator Score Rankings -->
+    <section class="innovator-score-section" id="innovator-scores">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">PROPRIETARY INTELLIGENCE</p>
+                <h2>Innovator Score&trade;</h2>
+                <p>Our proprietary composite metric ranking frontier tech companies across 6 dimensions. The definitive measure of startup potential.</p>
+            </div>
+            <div class="iscore-methodology">
+                <div class="iscore-dimension-legend">
+                    <span class="iscore-dim" data-dim="tech"><span class="iscore-dim-dot" style="background:#3b82f6"></span>Technology Moat <small>25%</small></span>
+                    <span class="iscore-dim" data-dim="momentum"><span class="iscore-dim-dot" style="background:#f59e0b"></span>Momentum <small>25%</small></span>
+                    <span class="iscore-dim" data-dim="team"><span class="iscore-dim-dot" style="background:#8b5cf6"></span>Team Pedigree <small>15%</small></span>
+                    <span class="iscore-dim" data-dim="market"><span class="iscore-dim-dot" style="background:#22c55e"></span>Market Gravity <small>15%</small></span>
+                    <span class="iscore-dim" data-dim="efficiency"><span class="iscore-dim-dot" style="background:#06b6d4"></span>Capital Efficiency <small>10%</small></span>
+                    <span class="iscore-dim" data-dim="gov"><span class="iscore-dim-dot" style="background:#dc2626"></span>Gov't Traction <small>10%</small></span>
+                </div>
+            </div>
+            <div class="iscore-controls">
+                <select id="iscore-sector" class="lb-filter-select">
+                    <option value="all">Sector: All</option>
+                </select>
+                <select id="iscore-tier" class="lb-filter-select">
+                    <option value="all">Tier: All</option>
+                    <option value="elite">Elite (90+)</option>
+                    <option value="strong">Strong (75-89)</option>
+                    <option value="promising">Promising (60-74)</option>
+                    <option value="early">Early (&lt;60)</option>
+                </select>
+            </div>
+            <div class="iscore-grid" id="iscore-grid"></div>
+        </div>
+    </section>
+
+    <!-- Government Contract Intelligence -->
+    <section class="gov-contracts-section" id="gov-contracts">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">GOVERNMENT INTELLIGENCE</p>
+                <h2>Contract Intelligence</h2>
+                <p>Federal contract awards, SBIR status, agency relationships, and defense budget signals mapped to frontier tech startups.</p>
+            </div>
+            <div class="gov-tabs">
+                <button class="gov-tab active" data-tab="contracts">Contract Awards</button>
+                <button class="gov-tab" data-tab="budget">Budget Signals</button>
+                <button class="gov-tab" data-tab="heatmap">Agency Heatmap</button>
+            </div>
+            <div class="gov-panel" id="gov-contracts-panel"></div>
+            <div class="gov-panel" id="gov-budget-panel" style="display:none"></div>
+            <div class="gov-panel" id="gov-heatmap-panel" style="display:none"></div>
+        </div>
+    </section>
+
+    <!-- Patent Intelligence -->
+    <section class="patent-section" id="patent-intel">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">IP INTELLIGENCE</p>
+                <h2>Patent Intelligence &amp; IP Moat</h2>
+                <p>Patent portfolios, filing velocity, and IP moat analysis — the leading indicator of technology defensibility.</p>
+            </div>
+            <div class="patent-grid" id="patent-grid"></div>
+        </div>
+    </section>
+
+    <!-- Alternative Data Signals -->
+    <section class="alt-data-section" id="alt-data">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">ALTERNATIVE DATA</p>
+                <h2>Alternative Signals Dashboard</h2>
+                <p>Hiring velocity, web traffic, news sentiment, and GitHub activity — the leading indicators that predict trajectory 6-12 months ahead.</p>
+            </div>
+            <div class="alt-data-controls">
+                <select id="alt-sort" class="lb-filter-select">
+                    <option value="strength">Sort: Signal Strength</option>
+                    <option value="hiring">Sort: Hiring Velocity</option>
+                    <option value="name">Sort: A-Z</option>
+                </select>
+            </div>
+            <div class="alt-data-grid" id="alt-data-grid"></div>
         </div>
     </section>
 
@@ -408,7 +492,7 @@
         </div>
     </footer>
 
-    <script src="data.js?v=8"></script>
-    <script src="app.js?v=8"></script>
+    <script src="data.js?v=9"></script>
+    <script src="app.js?v=9"></script>
 </body>
 </html>

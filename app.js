@@ -653,6 +653,77 @@ function openCompanyModal(companyName) {
       `;
     })()}
 
+    ${(() => {
+      const iscore = getInnovatorScore(company.name);
+      if (!iscore) return '';
+      const tierColors = { elite: '#22c55e', strong: '#3b82f6', promising: '#f59e0b', early: '#6b7280' };
+      const tc = tierColors[iscore.tier];
+      const dims = [
+        { label: 'Technology Moat', value: iscore.techMoat, color: '#3b82f6', weight: '25%' },
+        { label: 'Momentum', value: iscore.momentum, color: '#f59e0b', weight: '25%' },
+        { label: 'Team Pedigree', value: iscore.teamPedigree, color: '#8b5cf6', weight: '15%' },
+        { label: 'Market Gravity', value: iscore.marketGravity, color: '#22c55e', weight: '15%' },
+        { label: 'Capital Efficiency', value: iscore.capitalEfficiency, color: '#06b6d4', weight: '10%' },
+        { label: "Gov't Traction", value: iscore.govTraction, color: '#dc2626', weight: '10%' }
+      ];
+      return `
+        <div class="modal-iscore">
+          <div class="modal-iscore-header">
+            <h4>Innovator Score™</h4>
+            <div class="modal-iscore-total" style="border-color:${tc};">
+              <span style="color:${tc}; font-size:28px; font-weight:800;">${iscore.composite.toFixed(0)}</span>
+              <span class="modal-iscore-tier" style="background:${tc}15; color:${tc}; border:1px solid ${tc}40;">${iscore.tier.toUpperCase()}</span>
+            </div>
+          </div>
+          <div class="modal-iscore-dims">
+            ${dims.map(d => `
+              <div class="modal-iscore-dim">
+                <div class="modal-iscore-dim-label"><span style="color:${d.color};">●</span> ${d.label} <small style="color:var(--text-muted);">${d.weight}</small></div>
+                <div class="modal-iscore-dim-bar"><div style="width:${d.value * 10}%; background:${d.color}; height:100%; border-radius:3px;"></div></div>
+                <span class="modal-iscore-dim-val">${d.value}/10</span>
+              </div>
+            `).join('')}
+          </div>
+          ${iscore.note ? `<p class="modal-iscore-note">${iscore.note}</p>` : ''}
+        </div>
+      `;
+    })()}
+
+    ${(() => {
+      const patent = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => p.company === company.name) : null;
+      if (!patent) return '';
+      const moatColor = patent.ipMoatScore >= 8 ? '#22c55e' : patent.ipMoatScore >= 6 ? '#f59e0b' : '#6b7280';
+      return `
+        <div class="modal-patent">
+          <h4>Patent Intelligence</h4>
+          <div class="modal-patent-stats">
+            <div><span class="modal-patent-val">${patent.totalPatents}</span><span class="modal-patent-lbl">Patents</span></div>
+            <div><span class="modal-patent-val">${patent.velocity}</span><span class="modal-patent-lbl">Filing Rate</span></div>
+            <div><span class="modal-patent-val" style="color:${moatColor};">${patent.ipMoatScore}/10</span><span class="modal-patent-lbl">IP Moat</span></div>
+          </div>
+          <div class="modal-patent-areas">${(patent.techAreas || []).map(t => `<span class="patent-tech-tag">${t}</span>`).join('')}</div>
+        </div>
+      `;
+    })()}
+
+    ${(() => {
+      const alt = typeof ALT_DATA_SIGNALS !== 'undefined' ? ALT_DATA_SIGNALS.find(a => a.company === company.name) : null;
+      if (!alt) return '';
+      const hc = { surging: '#22c55e', growing: '#3b82f6', stable: '#f59e0b', declining: '#ef4444' };
+      return `
+        <div class="modal-altdata">
+          <h4>Alternative Signals</h4>
+          <div class="modal-altdata-grid">
+            <div><span class="modal-altdata-lbl">Hiring</span><span style="color:${hc[alt.hiringVelocity] || '#6b7280'};">${(alt.hiringVelocity || '').toUpperCase()} (${alt.headcountEstimate})</span></div>
+            <div><span class="modal-altdata-lbl">Traffic</span><span>${(alt.webTraffic || '').toUpperCase()}</span></div>
+            <div><span class="modal-altdata-lbl">Sentiment</span><span>${(alt.newsSentiment || '').toUpperCase()}</span></div>
+            <div><span class="modal-altdata-lbl">Signal</span><span>${alt.signalStrength}/10</span></div>
+          </div>
+          ${alt.keySignal ? `<p class="modal-altdata-signal">${alt.keySignal}</p>` : ''}
+        </div>
+      `;
+    })()}
+
     <div class="modal-actions">
       ${company.rosLink ? `<a href="${company.rosLink}" target="_blank" rel="noopener" class="modal-action-btn primary">
         Read Coverage
@@ -760,6 +831,10 @@ document.addEventListener('DOMContentLoaded', () => {
   initFundingTracker();
   initSectorMomentum();
   initIPOPipeline();
+  initInnovatorScores();
+  initGovContracts();
+  initPatentIntel();
+  initAltData();
   initURLState();
   initSmoothScroll();
   updateResultsCount(COMPANIES.length);
@@ -1123,7 +1198,16 @@ function renderCompanies(companies) {
         </div>
       </div>
       <h3 class="card-name">${company.name}</h3>
-      ${(company.signal || company.scores) ? `<div class="card-badges">${renderSignalBadge(company.signal)}${renderScoreBadge(company.scores)}</div>` : ''}
+      ${(() => {
+        const iscore = getInnovatorScore(company.name);
+        const hasBadges = company.signal || company.scores || iscore;
+        if (!hasBadges) return '';
+        const iscoreBadge = iscore ? (() => {
+          const tc = { elite: '#22c55e', strong: '#3b82f6', promising: '#f59e0b', early: '#6b7280' }[iscore.tier];
+          return `<span class="iscore-card-badge" style="background:${tc}15; color:${tc}; border:1px solid ${tc}30;">${iscore.composite.toFixed(0)} IS™</span>`;
+        })() : '';
+        return `<div class="card-badges">${iscoreBadge}${renderSignalBadge(company.signal)}${renderScoreBadge(company.scores)}</div>`;
+      })()}
       ${company.founder ? `<p class="card-founder">${company.founder}</p>` : ''}
       <p class="card-location">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -2169,4 +2253,296 @@ function initRequestForStartups() {
 
     grid.appendChild(card);
   });
+}
+
+// ═══════════════════════════════════════════════════════════════
+// INNOVATOR SCORE™ RANKINGS
+// ═══════════════════════════════════════════════════════════════
+function initInnovatorScores() {
+  if (typeof INNOVATOR_SCORES === 'undefined') return;
+  const grid = document.getElementById('iscore-grid');
+  if (!grid) return;
+
+  // Recalculate composites and sort
+  INNOVATOR_SCORES.forEach(s => {
+    s.composite = s.techMoat * 2.5 + s.momentum * 2.5 + s.teamPedigree * 1.5 +
+                  s.marketGravity * 1.5 + s.capitalEfficiency * 1.0 + s.govTraction * 1.0;
+    s.tier = s.composite >= 90 ? 'elite' : s.composite >= 75 ? 'strong' : s.composite >= 60 ? 'promising' : 'early';
+  });
+  INNOVATOR_SCORES.sort((a, b) => b.composite - a.composite);
+
+  // Populate sector filter
+  const sectorSelect = document.getElementById('iscore-sector');
+  if (sectorSelect) {
+    const companySectors = new Set();
+    INNOVATOR_SCORES.forEach(s => {
+      const co = COMPANIES.find(c => c.name === s.company);
+      if (co) companySectors.add(co.sector);
+    });
+    [...companySectors].sort().forEach(sec => {
+      const opt = document.createElement('option');
+      opt.value = sec;
+      opt.textContent = sec;
+      sectorSelect.appendChild(opt);
+    });
+  }
+
+  function renderScores() {
+    const sectorVal = document.getElementById('iscore-sector')?.value || 'all';
+    const tierVal = document.getElementById('iscore-tier')?.value || 'all';
+    let filtered = INNOVATOR_SCORES.filter(s => {
+      if (tierVal !== 'all' && s.tier !== tierVal) return false;
+      if (sectorVal !== 'all') {
+        const co = COMPANIES.find(c => c.name === s.company);
+        if (!co || co.sector !== sectorVal) return false;
+      }
+      return true;
+    });
+
+    grid.innerHTML = '';
+    filtered.forEach((s, i) => {
+      const tierColors = { elite: '#22c55e', strong: '#3b82f6', promising: '#f59e0b', early: '#6b7280' };
+      const tierLabels = { elite: 'ELITE', strong: 'STRONG', promising: 'PROMISING', early: 'EARLY' };
+      const tc = tierColors[s.tier];
+      const row = document.createElement('div');
+      row.className = 'iscore-row';
+      row.style.cursor = 'pointer';
+      row.onclick = () => openCompanyModal(s.company);
+
+      const rankBadge = i < 3 ? ['🥇','🥈','🥉'][i] : `#${i + 1}`;
+
+      row.innerHTML = `
+        <div class="iscore-rank" style="${i < 3 ? 'font-size:20px;' : ''}">${rankBadge}</div>
+        <div class="iscore-info">
+          <div class="iscore-name">${s.company}</div>
+          <div class="iscore-note">${s.note || ''}</div>
+        </div>
+        <div class="iscore-dimensions">
+          <div class="iscore-bar" title="Tech Moat: ${s.techMoat}/10"><div class="iscore-bar-fill" style="width:${s.techMoat * 10}%; background:#3b82f6;"></div></div>
+          <div class="iscore-bar" title="Momentum: ${s.momentum}/10"><div class="iscore-bar-fill" style="width:${s.momentum * 10}%; background:#f59e0b;"></div></div>
+          <div class="iscore-bar" title="Team: ${s.teamPedigree}/10"><div class="iscore-bar-fill" style="width:${s.teamPedigree * 10}%; background:#8b5cf6;"></div></div>
+          <div class="iscore-bar" title="Market: ${s.marketGravity}/10"><div class="iscore-bar-fill" style="width:${s.marketGravity * 10}%; background:#22c55e;"></div></div>
+          <div class="iscore-bar" title="Efficiency: ${s.capitalEfficiency}/10"><div class="iscore-bar-fill" style="width:${s.capitalEfficiency * 10}%; background:#06b6d4;"></div></div>
+          <div class="iscore-bar" title="Gov't: ${s.govTraction}/10"><div class="iscore-bar-fill" style="width:${s.govTraction * 10}%; background:#dc2626;"></div></div>
+        </div>
+        <div class="iscore-composite" style="border-color:${tc};">
+          <span class="iscore-composite-value" style="color:${tc};">${s.composite.toFixed(0)}</span>
+          <span class="iscore-tier-badge" style="background:${tc}15; color:${tc}; border:1px solid ${tc}40;">${tierLabels[s.tier]}</span>
+        </div>
+      `;
+      grid.appendChild(row);
+    });
+  }
+
+  renderScores();
+  document.getElementById('iscore-sector')?.addEventListener('change', renderScores);
+  document.getElementById('iscore-tier')?.addEventListener('change', renderScores);
+}
+
+// Helper to get innovator score for a company
+function getInnovatorScore(companyName) {
+  if (typeof INNOVATOR_SCORES === 'undefined') return null;
+  return INNOVATOR_SCORES.find(s => s.company === companyName) || null;
+}
+
+// ═══════════════════════════════════════════════════════════════
+// GOVERNMENT CONTRACT INTELLIGENCE
+// ═══════════════════════════════════════════════════════════════
+function initGovContracts() {
+  if (typeof GOV_CONTRACTS === 'undefined') return;
+  const contractsPanel = document.getElementById('gov-contracts-panel');
+  const budgetPanel = document.getElementById('gov-budget-panel');
+  const heatmapPanel = document.getElementById('gov-heatmap-panel');
+  if (!contractsPanel) return;
+
+  // Tab switching
+  document.querySelectorAll('.gov-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.gov-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const tabName = tab.dataset.tab;
+      contractsPanel.style.display = tabName === 'contracts' ? '' : 'none';
+      budgetPanel.style.display = tabName === 'budget' ? '' : 'none';
+      heatmapPanel.style.display = tabName === 'heatmap' ? '' : 'none';
+    });
+  });
+
+  // Filter out duplicates
+  const contracts = GOV_CONTRACTS.filter(c => !c.notes?.includes('DUPLICATE'));
+
+  // Contracts Panel - sorted by total value
+  const sortedContracts = [...contracts].sort((a, b) => {
+    const parseGov = v => {
+      if (!v) return 0;
+      const m = v.match(/([\d.]+)\s*(B|M|K)?/i);
+      if (!m) return 0;
+      let val = parseFloat(m[1]);
+      const u = (m[2] || '').toUpperCase();
+      if (u === 'B') val *= 1000;
+      if (u === 'K') val *= 0.001;
+      return val;
+    };
+    return parseGov(b.totalGovValue) - parseGov(a.totalGovValue);
+  });
+
+  contractsPanel.innerHTML = sortedContracts.map(c => `
+    <div class="gov-contract-row" onclick="openCompanyModal('${(c.company || '').replace(/'/g, "\\'")}')">
+      <div class="gov-contract-header">
+        <span class="gov-company-name">${c.company}</span>
+        <span class="gov-total-value">${c.totalGovValue}</span>
+      </div>
+      <div class="gov-agencies">${(c.agencies || []).map(a => `<span class="gov-agency-tag">${a}</span>`).join('')}</div>
+      <div class="gov-contract-details">
+        ${(c.keyContracts || []).slice(0, 2).map(k => `
+          <div class="gov-key-contract">
+            <span class="gov-contract-agency">${k.agency}</span>
+            <span class="gov-contract-program">${k.program}</span>
+            <span class="gov-contract-value">${k.value}</span>
+          </div>
+        `).join('')}
+      </div>
+      <div class="gov-meta">
+        ${c.sbirStatus ? `<span class="sbir-badge sbir-${(c.sbirStatus || '').toLowerCase().replace(/\s/g, '')}">${c.sbirStatus}</span>` : ''}
+        ${c.clearanceLevel ? `<span class="clearance-badge cl-${(c.clearanceLevel || '').toLowerCase().replace(/[\s/]/g, '-')}">${c.clearanceLevel}</span>` : ''}
+        <span class="gov-rev-pct">${c.govRevenuePercent || ''} gov revenue</span>
+      </div>
+    </div>
+  `).join('');
+
+  // Budget Signals Panel
+  if (typeof BUDGET_SIGNALS !== 'undefined' && budgetPanel) {
+    budgetPanel.innerHTML = BUDGET_SIGNALS.map(b => `
+      <div class="budget-signal-card">
+        <div class="budget-signal-header">
+          <span class="budget-category">${b.category}</span>
+          <span class="budget-change ${b.change.startsWith('+') ? 'positive' : 'negative'}">${b.change}</span>
+        </div>
+        <div class="budget-line-item">${b.budgetLineItem}</div>
+        <div class="budget-allocation">${b.allocation} · ${b.fy}</div>
+        <p class="budget-description">${b.description}</p>
+        <div class="budget-beneficiaries">
+          <span class="budget-beneficiaries-label">Beneficiaries:</span>
+          ${b.beneficiaries.map(name => `<span class="budget-beneficiary" onclick="openCompanyModal('${name.replace(/'/g, "\\'")}')">${name}</span>`).join('')}
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // Agency Heatmap Panel
+  if (heatmapPanel) {
+    const allAgencies = new Set();
+    contracts.forEach(c => (c.agencies || []).forEach(a => allAgencies.add(a)));
+    const agencies = [...allAgencies].sort().slice(0, 12);
+    const topCompanies = sortedContracts.slice(0, 20);
+
+    let html = '<div class="gov-heatmap-wrapper"><table class="gov-heatmap-table"><thead><tr><th>Company</th>';
+    agencies.forEach(a => { html += `<th class="gov-heatmap-agency">${a}</th>`; });
+    html += '</tr></thead><tbody>';
+
+    topCompanies.forEach(c => {
+      html += `<tr><td class="gov-heatmap-company">${c.company}</td>`;
+      agencies.forEach(a => {
+        const has = (c.agencies || []).includes(a);
+        html += `<td class="gov-heatmap-cell ${has ? 'gov-heatmap-active' : ''}"></td>`;
+      });
+      html += '</tr>';
+    });
+    html += '</tbody></table></div>';
+    heatmapPanel.innerHTML = html;
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// PATENT INTELLIGENCE & IP MOAT
+// ═══════════════════════════════════════════════════════════════
+function initPatentIntel() {
+  if (typeof PATENT_INTEL === 'undefined') return;
+  const grid = document.getElementById('patent-grid');
+  if (!grid) return;
+
+  const sorted = [...PATENT_INTEL].sort((a, b) => (b.ipMoatScore || 0) - (a.ipMoatScore || 0));
+
+  grid.innerHTML = sorted.map(p => {
+    const moatColor = p.ipMoatScore >= 8 ? '#22c55e' : p.ipMoatScore >= 6 ? '#f59e0b' : '#6b7280';
+    const moatLabel = p.ipMoatScore >= 8 ? 'HIGH' : p.ipMoatScore >= 6 ? 'MID' : 'LOW';
+    return `
+      <div class="patent-card" onclick="openCompanyModal('${(p.company || '').replace(/'/g, "\\'")}')">
+        <div class="patent-card-header">
+          <span class="patent-company">${p.company}</span>
+          <span class="patent-ip-score" style="background:${moatColor}15; color:${moatColor}; border:1px solid ${moatColor}40;">
+            IP: ${p.ipMoatScore}/10 · ${moatLabel}
+          </span>
+        </div>
+        <div class="patent-stats">
+          <div class="patent-stat">
+            <span class="patent-stat-value">${p.totalPatents}</span>
+            <span class="patent-stat-label">Patents</span>
+          </div>
+          <div class="patent-stat">
+            <span class="patent-stat-value">${p.velocity}</span>
+            <span class="patent-stat-label">Filing Rate</span>
+          </div>
+          <div class="patent-stat">
+            <span class="patent-stat-value patent-trend-${p.velocityTrend}">${p.velocityTrend === 'accelerating' ? '↑ Accel.' : p.velocityTrend === 'steady' ? '→ Steady' : '↓ Slow'}</span>
+            <span class="patent-stat-label">Trend</span>
+          </div>
+        </div>
+        <div class="patent-tech-areas">
+          ${(p.techAreas || []).map(t => `<span class="patent-tech-tag">${t}</span>`).join('')}
+        </div>
+        <p class="patent-note">${p.note || ''}</p>
+      </div>
+    `;
+  }).join('');
+}
+
+// ═══════════════════════════════════════════════════════════════
+// ALTERNATIVE DATA SIGNALS
+// ═══════════════════════════════════════════════════════════════
+function initAltData() {
+  if (typeof ALT_DATA_SIGNALS === 'undefined') return;
+  const grid = document.getElementById('alt-data-grid');
+  if (!grid) return;
+
+  function renderAltData() {
+    const sortVal = document.getElementById('alt-sort')?.value || 'strength';
+    let sorted = [...ALT_DATA_SIGNALS];
+
+    if (sortVal === 'strength') sorted.sort((a, b) => (b.signalStrength || 0) - (a.signalStrength || 0));
+    else if (sortVal === 'hiring') {
+      const hiringOrder = { surging: 4, growing: 3, stable: 2, declining: 1 };
+      sorted.sort((a, b) => (hiringOrder[b.hiringVelocity] || 0) - (hiringOrder[a.hiringVelocity] || 0));
+    } else sorted.sort((a, b) => (a.company || '').localeCompare(b.company || ''));
+
+    const hiringColors = { surging: '#22c55e', growing: '#3b82f6', stable: '#f59e0b', declining: '#ef4444' };
+    const trafficIcons = { up: '↑', flat: '→', down: '↓' };
+    const trafficColors = { up: '#22c55e', flat: '#f59e0b', down: '#ef4444' };
+    const sentimentColors = { positive: '#22c55e', mixed: '#f59e0b', neutral: '#6b7280', negative: '#ef4444' };
+
+    grid.innerHTML = sorted.map(s => `
+      <div class="alt-data-row" onclick="openCompanyModal('${(s.company || '').replace(/'/g, "\\'")}')">
+        <div class="alt-data-company">${s.company}</div>
+        <div class="alt-data-hiring" style="color:${hiringColors[s.hiringVelocity] || '#6b7280'}">
+          ${(s.hiringVelocity || 'unknown').toUpperCase()}
+          <span class="alt-data-headcount">${s.headcountEstimate || ''}</span>
+        </div>
+        <div class="alt-data-traffic" style="color:${trafficColors[s.webTraffic] || '#6b7280'}">
+          ${trafficIcons[s.webTraffic] || '?'} ${(s.webTraffic || '').toUpperCase()}
+        </div>
+        <div class="alt-data-sentiment" style="color:${sentimentColors[s.newsSentiment] || '#6b7280'}">
+          ${(s.newsSentiment || 'unknown').toUpperCase()}
+        </div>
+        <div class="alt-data-signal">
+          <div class="alt-signal-bar">
+            <div class="alt-signal-fill" style="width:${(s.signalStrength || 0) * 10}%;"></div>
+          </div>
+          <span class="alt-signal-value">${s.signalStrength || 0}/10</span>
+        </div>
+        <div class="alt-data-key-signal">${s.keySignal || ''}</div>
+      </div>
+    `).join('');
+  }
+
+  renderAltData();
+  document.getElementById('alt-sort')?.addEventListener('change', renderAltData);
 }
