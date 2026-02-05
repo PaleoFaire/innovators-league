@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <link rel="stylesheet" href="styles.css?v=5">
+    <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
     <!-- Navigation -->
@@ -124,6 +124,59 @@
                 <p>Companies approaching public markets and major liquidity events.</p>
             </div>
             <div class="ipo-grid" id="ipo-grid"></div>
+        </div>
+    </section>
+
+    <!-- TRL Rankings Dashboard -->
+    <section class="trl-section" id="trl-rankings">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">TECHNOLOGY MATURITY</p>
+                <h2>Technology Readiness Levels</h2>
+                <p>NASA's 1-9 scale measuring how close each technology is to real-world deployment.</p>
+            </div>
+            <div class="trl-legend" id="trl-legend"></div>
+            <div class="trl-grid" id="trl-grid"></div>
+        </div>
+    </section>
+
+    <!-- Deal Tracker -->
+    <section class="deal-tracker-section" id="deal-tracker">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">CAPITAL INTELLIGENCE</p>
+                <h2>Deal Tracker</h2>
+                <p>Who invested, when, and how much — the definitive record of frontier tech capital flows.</p>
+            </div>
+            <div class="deal-filter-bar">
+                <button class="deal-filter active" data-filter="all">All Deals</button>
+                <button class="deal-filter" data-filter="lead">Lead Investors Only</button>
+            </div>
+            <div class="deal-grid" id="deal-grid"></div>
+        </div>
+    </section>
+
+    <!-- Growth Signals Dashboard -->
+    <section class="growth-signals-section" id="growth-signals">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">INTELLIGENCE SIGNALS</p>
+                <h2>Growth Signals</h2>
+                <p>Real-time intelligence on hiring surges, contracts, breakthroughs, and revenue acceleration.</p>
+            </div>
+            <div class="signals-grid" id="signals-grid"></div>
+        </div>
+    </section>
+
+    <!-- Market Map -->
+    <section class="market-map-section" id="market-map">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">COMPETITIVE LANDSCAPE</p>
+                <h2>Market Map</h2>
+                <p>Leaders, challengers, and emerging players across the hottest deep tech categories.</p>
+            </div>
+            <div class="market-map-grid" id="market-map-grid"></div>
         </div>
     </section>
 
@@ -293,7 +346,7 @@
         </div>
     </footer>
 
-    <script src="data.js?v=5"></script>
-    <script src="app.js?v=5"></script>
+    <script src="data.js?v=6"></script>
+    <script src="app.js?v=6"></script>
 </body>
 </html>

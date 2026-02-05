@@ -571,6 +571,10 @@ document.addEventListener('DOMContentLoaded', () => {
   initMovementTracker();
   initWeeklyDigest();
   initLeaderboard();
+  initTRLDashboard();
+  initDealTracker();
+  initGrowthSignals();
+  initMarketMap();
   initNewsTicker();
   initMarketPulse();
   initFundingTracker();
@@ -1573,6 +1577,194 @@ function initIPOPipeline() {
     `;
 
     card.addEventListener('click', () => openCompanyModal(item.company));
+    grid.appendChild(card);
+  });
+}
+
+// ─── TRL DASHBOARD ───
+function initTRLDashboard() {
+  const legend = document.getElementById('trl-legend');
+  const grid = document.getElementById('trl-grid');
+  if (!grid || typeof TRL_DEFINITIONS === 'undefined' || typeof TRL_RANKINGS === 'undefined') return;
+
+  // Render legend
+  if (legend) {
+    legend.innerHTML = Object.entries(TRL_DEFINITIONS).map(([level, def]) =>
+      `<div class="trl-legend-item">
+        <div class="trl-level-badge" style="background:${def.color};">${level}</div>
+        <div class="trl-legend-text">
+          <div class="trl-legend-label">${def.label}</div>
+        </div>
+      </div>`
+    ).join('');
+  }
+
+  // Group by TRL level (descending)
+  const grouped = {};
+  TRL_RANKINGS.forEach(item => {
+    if (!grouped[item.trl]) grouped[item.trl] = [];
+    grouped[item.trl].push(item);
+  });
+
+  Object.keys(grouped).sort((a, b) => b - a).forEach(trl => {
+    const def = TRL_DEFINITIONS[trl];
+    const section = document.createElement('div');
+    section.className = 'trl-row';
+
+    const companies = grouped[trl];
+    section.innerHTML = `
+      <div class="trl-row-header">
+        <div class="trl-row-badge" style="background:${def.color};">TRL ${trl}</div>
+        <div class="trl-row-info">
+          <span class="trl-row-label">${def.label}</span>
+          <span class="trl-row-count">${companies.length} companies</span>
+        </div>
+      </div>
+      <div class="trl-row-companies">
+        ${companies.map(c => {
+          const comp = COMPANIES.find(x => x.name === c.company);
+          const sectorInfo = comp ? (SECTORS[comp.sector] || { icon: '📦', color: '#6b7280' }) : { icon: '📦', color: '#6b7280' };
+          return `<div class="trl-company-chip" onclick="openCompanyModal('${c.company}')" title="${c.note}">
+            <span style="color:${sectorInfo.color}">${sectorInfo.icon}</span>
+            <span class="trl-company-name">${c.company}</span>
+            <span class="trl-company-note">${c.note.substring(0, 60)}${c.note.length > 60 ? '...' : ''}</span>
+          </div>`;
+        }).join('')}
+      </div>
+    `;
+
+    grid.appendChild(section);
+  });
+}
+
+// ─── DEAL TRACKER ───
+function initDealTracker() {
+  const grid = document.getElementById('deal-grid');
+  if (!grid || typeof DEAL_TRACKER === 'undefined') return;
+
+  function renderDeals(filter) {
+    grid.innerHTML = '';
+    const deals = filter === 'lead'
+      ? DEAL_TRACKER.filter(d => d.leadOrParticipant === 'lead')
+      : DEAL_TRACKER;
+
+    // Sort by date descending
+    deals.sort((a, b) => b.date.localeCompare(a.date));
+
+    // Header
+    const header = document.createElement('div');
+    header.className = 'deal-row deal-header';
+    header.innerHTML = `
+      <div class="deal-cell deal-company-col">Company</div>
+      <div class="deal-cell deal-investor-col">Investor</div>
+      <div class="deal-cell deal-amount-col">Amount</div>
+      <div class="deal-cell deal-round-col">Round</div>
+      <div class="deal-cell deal-val-col">Valuation</div>
+      <div class="deal-cell deal-date-col">Date</div>
+      <div class="deal-cell deal-role-col">Role</div>
+    `;
+    grid.appendChild(header);
+
+    deals.forEach((deal, i) => {
+      const row = document.createElement('div');
+      row.className = 'deal-row';
+      row.style.animationDelay = `${i * 30}ms`;
+      const isLead = deal.leadOrParticipant === 'lead';
+      row.innerHTML = `
+        <div class="deal-cell deal-company-col"><span class="deal-company-link" onclick="openCompanyModal('${deal.company}')">${deal.company}</span></div>
+        <div class="deal-cell deal-investor-col">${deal.investor}</div>
+        <div class="deal-cell deal-amount-col" style="color:var(--accent);font-weight:600;">${deal.amount}</div>
+        <div class="deal-cell deal-round-col">${deal.round}</div>
+        <div class="deal-cell deal-val-col">${deal.valuation || '—'}</div>
+        <div class="deal-cell deal-date-col">${deal.date}</div>
+        <div class="deal-cell deal-role-col"><span class="deal-role ${isLead ? 'deal-role-lead' : ''}">${isLead ? '★ Lead' : 'Participant'}</span></div>
+      `;
+      grid.appendChild(row);
+    });
+  }
+
+  renderDeals('all');
+
+  // Filter buttons
+  document.querySelectorAll('.deal-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.deal-filter').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderDeals(btn.dataset.filter);
+    });
+  });
+}
+
+// ─── GROWTH SIGNALS ───
+function initGrowthSignals() {
+  const grid = document.getElementById('signals-grid');
+  if (!grid || typeof GROWTH_SIGNALS === 'undefined' || typeof SIGNAL_TYPES === 'undefined') return;
+
+  // Sort by strength (strong first) then date
+  const sorted = [...GROWTH_SIGNALS].sort((a, b) => {
+    const strengthOrder = { strong: 0, medium: 1, weak: 2 };
+    if (strengthOrder[a.strength] !== strengthOrder[b.strength]) return strengthOrder[a.strength] - strengthOrder[b.strength];
+    return b.date.localeCompare(a.date);
+  });
+
+  sorted.forEach((sig, i) => {
+    const type = SIGNAL_TYPES[sig.signal] || { icon: '📊', label: sig.signal };
+    const card = document.createElement('div');
+    card.className = `signal-card signal-${sig.strength}`;
+    card.style.animationDelay = `${i * 40}ms`;
+
+    card.innerHTML = `
+      <div class="signal-card-header">
+        <span class="signal-type-icon">${type.icon}</span>
+        <span class="signal-type-label">${type.label}</span>
+        <span class="signal-strength signal-strength-${sig.strength}">${sig.strength}</span>
+      </div>
+      <div class="signal-company" onclick="openCompanyModal('${sig.company}')">${sig.company}</div>
+      <div class="signal-detail">${sig.detail}</div>
+      <div class="signal-date">${sig.date}</div>
+    `;
+
+    grid.appendChild(card);
+  });
+}
+
+// ─── MARKET MAP ───
+function initMarketMap() {
+  const grid = document.getElementById('market-map-grid');
+  if (!grid || typeof MARKET_MAP === 'undefined') return;
+
+  Object.entries(MARKET_MAP).forEach(([category, data]) => {
+    const card = document.createElement('div');
+    card.className = 'market-map-card';
+
+    const renderCompanyList = (companies, className) =>
+      companies.map(c =>
+        `<span class="market-company ${className}" onclick="openCompanyModal('${c}')">${c}</span>`
+      ).join('');
+
+    card.innerHTML = `
+      <div class="market-map-header">
+        <h3 class="market-map-title">${category}</h3>
+        <span class="market-map-tam">${data.totalTAM} TAM</span>
+      </div>
+      <p class="market-map-desc">${data.description}</p>
+      <div class="market-map-trend">${data.keyTrend}</div>
+      <div class="market-map-tiers">
+        <div class="market-tier">
+          <div class="market-tier-label">🏆 Leaders</div>
+          <div class="market-tier-companies">${renderCompanyList(data.leaders, 'market-leader')}</div>
+        </div>
+        <div class="market-tier">
+          <div class="market-tier-label">⚡ Challengers</div>
+          <div class="market-tier-companies">${renderCompanyList(data.challengers, 'market-challenger')}</div>
+        </div>
+        <div class="market-tier">
+          <div class="market-tier-label">🌱 Emerging</div>
+          <div class="market-tier-companies">${renderCompanyList(data.emerging, 'market-emerging')}</div>
+        </div>
+      </div>
+    `;
+
     grid.appendChild(card);
   });
 }
