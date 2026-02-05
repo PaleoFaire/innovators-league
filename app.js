@@ -241,6 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initKeyboard();
   initFeatured();
   initURLState();
+  initSmoothScroll();
   updateResultsCount(COMPANIES.length);
 });
 
@@ -834,11 +835,13 @@ function initMobileMenu() {
   });
 }
 
-// ─── SMOOTH SCROLL ───
-document.querySelectorAll('a[href^="#"]').forEach(a => {
-  a.addEventListener('click', (e) => {
-    e.preventDefault();
-    const target = document.querySelector(a.getAttribute('href'));
-    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+// ─── SMOOTH SCROLL (runs after DOMContentLoaded via initSmoothScroll) ───
+function initSmoothScroll() {
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
   });
-});
+}
