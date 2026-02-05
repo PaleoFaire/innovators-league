@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Innovators League | Rational Optimist Society</title>
-    <meta name="description" content="The definitive directory of the world's most ambitious startups — mapped, documented, and tracked by the founders building the future.">
+    <meta name="description" content="The definitive intelligence database of the world's most ambitious startups — mapped, assessed, and tracked by the founders building the future.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <link rel="stylesheet" href="styles.css?v=2">
+    <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
     <!-- Navigation -->
@@ -21,7 +21,8 @@
         </div>
         <div class="nav-links">
             <a href="#map">Map</a>
-            <a href="#companies">Database</a>
+            <a href="#companies">Intelligence</a>
+            <a href="#movements">Signals</a>
             <a href="#sectors">Sectors</a>
             <a href="visualizations.html">Insights</a>
             <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
@@ -37,7 +38,7 @@
         <div class="hero-content">
             <p class="hero-eyebrow">RATIONAL OPTIMIST SOCIETY</p>
             <h1 class="hero-title">The Innovators League</h1>
-            <p class="hero-subtitle">The definitive directory of the world's most ambitious startups &mdash; mapped, documented, and tracked by the founders building the future.</p>
+            <p class="hero-subtitle">The definitive intelligence database of the world's most ambitious startups &mdash; mapped, assessed, and tracked by the founders building the future.</p>
             <div class="hero-stats">
                 <div class="stat">
                     <span class="stat-number" id="company-count">0</span>
@@ -59,6 +60,7 @@
                     <span class="stat-label">Tracked Funding</span>
                 </div>
             </div>
+            <p class="last-updated" id="last-updated"></p>
         </div>
     </header>
 
@@ -69,6 +71,26 @@
             <h2 class="featured-title">Featured Innovators</h2>
         </div>
         <div class="featured-scroll" id="featured-scroll"></div>
+    </section>
+
+    <!-- Movement Tracker -->
+    <section class="movement-section" id="movements">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">WEEKLY INTELLIGENCE</p>
+                <h2>Movement Tracker</h2>
+                <p>Real-time signals across the frontier tech landscape.</p>
+            </div>
+            <div class="movement-tabs">
+                <button class="movement-tab active" data-type="all">All</button>
+                <button class="movement-tab" data-type="funding">Recently Funded</button>
+                <button class="movement-tab" data-type="milestone">Milestones</button>
+                <button class="movement-tab" data-type="launch">Launches</button>
+                <button class="movement-tab" data-type="partnership">Partnerships</button>
+                <button class="movement-tab" data-type="new">New Additions</button>
+            </div>
+            <div class="movement-grid" id="movement-grid"></div>
+        </div>
     </section>
 
     <!-- Map Section -->
@@ -87,7 +109,7 @@
     <section id="companies" class="section">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">DIRECTORY</p>
+                <p class="section-eyebrow">INTELLIGENCE DATABASE</p>
                 <h2>Company Database</h2>
                 <p id="results-count"></p>
             </div>
@@ -113,6 +135,9 @@
                         <option value="name">Sort: A-Z</option>
                         <option value="name-desc">Sort: Z-A</option>
                         <option value="sector">Sort: Sector</option>
+                        <option value="signal">Sort: Signal Strength</option>
+                        <option value="score">Sort: Highest Rated</option>
+                        <option value="recent">Sort: Recent Activity</option>
                         <option value="saved">Sort: Saved First</option>
                     </select>
                 </div>
@@ -135,7 +160,7 @@
     <section id="sectors" class="section sectors-section">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">CATEGORIES</p>
+                <p class="section-eyebrow">SECTOR INTELLIGENCE</p>
                 <h2>Sectors</h2>
                 <p>The industries being reinvented by the world's boldest founders.</p>
             </div>
@@ -179,7 +204,8 @@
                 <div class="footer-links">
                     <h4>Navigate</h4>
                     <a href="#map">Innovation Map</a>
-                    <a href="#companies">Database</a>
+                    <a href="#companies">Intelligence Database</a>
+                    <a href="#movements">Signals</a>
                     <a href="#sectors">Sectors</a>
                     <a href="visualizations.html">Insights</a>
                 </div>
@@ -190,7 +216,7 @@
         </div>
     </footer>
 
-    <script src="data.js?v=2"></script>
-    <script src="app.js?v=2"></script>
+    <script src="data.js?v=3"></script>
+    <script src="app.js?v=3"></script>
 </body>
 </html>

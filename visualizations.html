@@ -23,8 +23,8 @@
   --text-m: rgba(240,240,250,0.40);
   --border: rgba(255,255,255,0.08);
   --border-hover: rgba(255,255,255,0.15);
-  --accent: #DFF140;
-  --accent-dim: rgba(223,241,64,0.15);
+  --accent: #FF6B2C;
+  --accent-dim: rgba(255,107,44,0.12);
   --radius: 12px;
   --shadow: 0 1px 3px rgba(0,0,0,0.3);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
@@ -46,7 +46,7 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 
 /* Hero */
 .hero { padding:100px 24px 48px; text-align:center; border-bottom:1px solid var(--border); position:relative; }
-.hero::before { content:''; position:absolute; top:50%; left:50%; width:600px; height:600px; transform:translate(-50%,-50%); background:radial-gradient(ellipse,rgba(223,241,64,0.04) 0%,transparent 70%); pointer-events:none; }
+.hero::before { content:''; position:absolute; top:50%; left:50%; width:600px; height:600px; transform:translate(-50%,-50%); background:radial-gradient(ellipse,rgba(255,107,44,0.04) 0%,transparent 70%); pointer-events:none; }
 .hero h1 { font-family:'Space Grotesk',sans-serif; font-size:clamp(32px,4vw,48px); font-weight:800; margin-bottom:8px; letter-spacing:-0.03em; }
 .hero p { font-size:17px; color:var(--text-s); max-width:600px; margin:0 auto; }
 
@@ -284,7 +284,7 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
     </div>
 </footer>
 
-<script src="data.js?v=2"></script>
+<script src="data.js?v=3"></script>
 <script>
 // ─── COUNTRY HELPER (matches app.js logic) ───
 const INTL_CODES_VIZ = {
@@ -372,7 +372,7 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
 
   const heatData = COMPANIES.filter(c => c.lat && c.lng).map(c => [c.lat, c.lng, 0.7]);
   L.heatLayer(heatData, { radius:28, blur:20, maxZoom:10, max:1.0,
-    gradient: { 0.2:'rgba(223,241,64,0.15)', 0.4:'rgba(223,241,64,0.3)', 0.6:'#DFF140', 0.8:'#c4d636', 1.0:'#a8bb2c' }
+    gradient: { 0.2:'rgba(255,107,44,0.15)', 0.4:'rgba(255,107,44,0.3)', 0.6:'#FF6B2C', 0.8:'#FF8147', 1.0:'#FF9560' }
   }).addTo(map);
 
   COMPANIES.forEach(c => {
@@ -466,7 +466,7 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
   const maxCountry = topCountries[0][1];
 
   const countryColors = {
-    'United States':'#DFF140', 'United Kingdom':'#3b82f6', 'Germany':'#dc2626',
+    'United States':'#FF6B2C', 'United Kingdom':'#3b82f6', 'Germany':'#dc2626',
     'France':'#6366f1', 'Israel':'#f59e0b', 'Japan':'#ec4899', 'Canada':'#22c55e',
     'Sweden':'#14b8a6', 'Finland':'#60a5fa', 'Switzerland':'#f97316', 'India':'#8b5cf6',
     'South Korea':'#06b6d4', 'Australia':'#a855f7'
@@ -497,9 +497,9 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
     { label:'Series A', stages:['Series A'], color:'rgba(223,241,64,0.5)' },
     { label:'Series B', stages:['Series B'], color:'rgba(223,241,64,0.6)' },
     { label:'Series C', stages:['Series C'], color:'rgba(223,241,64,0.75)' },
-    { label:'Series D+', stages:['Series D','Series E','Series F','Series G'], color:'#DFF140' },
-    { label:'Late Stage', stages:['Late Stage','Private'], color:'#c4d636' },
-    { label:'Public', stages:['Public','Alphabet subsidiary'], color:'#a8bb2c' }
+    { label:'Series D+', stages:['Series D','Series E','Series F','Series G'], color:'#FF6B2C' },
+    { label:'Late Stage', stages:['Late Stage','Private'], color:'#FF8147' },
+    { label:'Public', stages:['Public','Alphabet subsidiary'], color:'#FF9560' }
   ];
 
   simplified.forEach(s => {
@@ -559,7 +559,7 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
   const maxLA = laTop[0] ? laTop[0][1] : 1;
 
   const laBars = document.getElementById('la-bars');
-  const laColors = ['#DFF140','#c4d636','#a8bb2c','#8d9f22','#718318','#60a5fa','#3b82f6','#2563eb','#1d4ed8','#1e3a8a'];
+  const laColors = ['#FF6B2C','#FF8147','#FF9560','#FFB088','#FFD0B5','#60a5fa','#3b82f6','#2563eb','#1d4ed8','#1e3a8a'];
 
   laTop.forEach(([city, count], i) => {
     const pct = (count/maxLA*100);

@@ -1,20 +1,23 @@
+const LAST_UPDATED = "2026-02-05";
+
 const SECTORS = {
-  "Defense & Security": { icon: "🛡️", color: "#dc2626", description: "Autonomous drones, counter-drone systems, defense AI, and next-generation weapons platforms." },
-  "Nuclear Energy": { icon: "⚛️", color: "#f59e0b", description: "Small modular reactors, microreactors, nuclear fuel, and next-gen fission and fusion energy." },
-  "Space & Aerospace": { icon: "🚀", color: "#3b82f6", description: "Orbital launch, satellite infrastructure, space manufacturing, and aerospace innovation." },
-  "Supersonic & Hypersonic": { icon: "✈️", color: "#6366f1", description: "Supersonic jets, hypersonic vehicles, and next-generation propulsion systems." },
-  "AI & Software": { icon: "🤖", color: "#8b5cf6", description: "Artificial intelligence, robotics software, and autonomous systems." },
-  "Robotics & Manufacturing": { icon: "🏭", color: "#14b8a6", description: "Industrial robots, automated factories, and advanced manufacturing." },
-  "Biotech & Health": { icon: "🧬", color: "#ec4899", description: "Longevity research, genomics, prosthetics, and life sciences." },
-  "Climate & Energy": { icon: "🌍", color: "#22c55e", description: "Geothermal, fusion, synthetic fuels, carbon capture, and climate tech." },
-  "Drones & Autonomous": { icon: "🛸", color: "#f97316", description: "Commercial drones, autonomous delivery, drone-based services, and unmanned systems." },
-  "Chips & Semiconductors": { icon: "💎", color: "#06b6d4", description: "Next-gen chip architectures, photonics, quantum computing, and semiconductor innovation." },
-  "Housing & Construction": { icon: "🏠", color: "#a855f7", description: "Factory-built homes, modular construction, and housing innovation." },
-  "Transportation": { icon: "🚄", color: "#eab308", description: "Electric vehicles, tunneling, autonomous boats, and next-gen transport." },
-  "Consumer Tech": { icon: "⚡", color: "#f43f5e", description: "AI-powered consumer products, scent tech, EdTech, and frontier consumer applications." },
-  "Quantum Computing": { icon: "🔮", color: "#7c3aed", description: "Quantum processors, quantum networking, and next-generation computing architectures." },
-  "Ocean & Maritime": { icon: "🌊", color: "#0ea5e9", description: "Ocean exploration, autonomous vessels, maritime tech, and blue economy innovation." },
-  "Infrastructure & Logistics": { icon: "🏗️", color: "#78716c", description: "Grid modernization, supply chain, construction tech, and industrial infrastructure." }
+  "Defense & Security": { icon: "🛡️", color: "#dc2626", description: "Autonomous drones, counter-drone systems, defense AI, and next-generation weapons platforms.", trend: "Defense tech funding hit $25B in 2025. The Pentagon's Replicator initiative is accelerating autonomous systems procurement. Counter-drone is the hottest sub-sector." },
+  "Nuclear Energy": { icon: "⚛️", color: "#f59e0b", description: "Small modular reactors, microreactors, nuclear fuel, and next-gen fission and fusion energy.", trend: "Nuclear renaissance is real — NRC applications are at 20-year highs. Data center power demand is the unexpected catalyst driving SMR and microreactor timelines forward." },
+  "Space & Aerospace": { icon: "🚀", color: "#3b82f6", description: "Orbital launch, satellite infrastructure, space manufacturing, and aerospace innovation.", trend: "Launch costs continue to plummet. The real money is moving to in-orbit services, space manufacturing, and satellite constellations for defense and connectivity." },
+  "Supersonic & Hypersonic": { icon: "✈️", color: "#6366f1", description: "Supersonic jets, hypersonic vehicles, and next-generation propulsion systems.", trend: "Boom Supersonic's Overture program is pushing toward certification. DoD hypersonic programs are driving dual-use propulsion innovation." },
+  "AI & Software": { icon: "🤖", color: "#8b5cf6", description: "Artificial intelligence, robotics software, and autonomous systems.", trend: "AI infrastructure spending exceeds $200B. The new battleground is AI agents and vertical-specific models. Open-source vs. closed-source race intensifies." },
+  "Robotics & Manufacturing": { icon: "🏭", color: "#14b8a6", description: "Industrial robots, automated factories, and advanced manufacturing.", trend: "Reshoring is creating massive demand for automated manufacturing. General-purpose humanoid robots are the next frontier with multiple companies racing to commercialize." },
+  "Biotech & Health": { icon: "🧬", color: "#ec4899", description: "Longevity research, genomics, prosthetics, and life sciences.", trend: "GLP-1 drugs are reshaping healthcare economics. AI-driven drug discovery is cutting timelines by 50%. Longevity science is moving from fringe to mainstream." },
+  "Climate & Energy": { icon: "🌍", color: "#22c55e", description: "Geothermal, fusion, synthetic fuels, carbon capture, and climate tech.", trend: "Enhanced geothermal is delivering real power to the grid. Fusion timelines are accelerating with multiple private companies targeting 2030s demos." },
+  "Drones & Autonomous": { icon: "🛸", color: "#f97316", description: "Commercial drones, autonomous delivery, drone-based services, and unmanned systems.", trend: "FAA beyond-visual-line-of-sight approvals are unlocking commercial drone economics. Drone delivery is reaching unit economics viability in select markets." },
+  "Chips & Semiconductors": { icon: "💎", color: "#06b6d4", description: "Next-gen chip architectures, photonics, quantum computing, and semiconductor innovation.", trend: "CHIPS Act funding is flowing. The AI chip race extends beyond GPUs to custom silicon, photonics, and neuromorphic architectures. Packaging is the new bottleneck." },
+  "Housing & Construction": { icon: "🏠", color: "#a855f7", description: "Factory-built homes, modular construction, and housing innovation.", trend: "Factory-built housing is finally scaling. 3D printing and modular approaches are showing 30-50% cost reductions. Zoning reform is the remaining unlock." },
+  "Transportation": { icon: "🚄", color: "#eab308", description: "Electric vehicles, tunneling, autonomous boats, and next-gen transport.", trend: "Autonomous driving is achieving regulatory breakthroughs. Electric aviation is advancing toward certification. Underground transit concepts are gaining traction." },
+  "Consumer Tech": { icon: "⚡", color: "#f43f5e", description: "AI-powered consumer products, scent tech, EdTech, and frontier consumer applications.", trend: "AI-native consumer apps are redefining categories. Personalization powered by LLMs is creating new product paradigms across education, wellness, and creativity." },
+  "Quantum Computing": { icon: "🔮", color: "#7c3aed", description: "Quantum processors, quantum networking, and next-generation computing architectures.", trend: "Error-corrected quantum computing is showing real progress. Quantum networking could be the sleeper application. Government investment is accelerating." },
+  "Ocean & Maritime": { icon: "🌊", color: "#0ea5e9", description: "Ocean exploration, autonomous vessels, maritime tech, and blue economy innovation.", trend: "Autonomous surface vessels are reaching commercial viability. Deep-sea mining debate intensifies as critical mineral demand surges." },
+  "Infrastructure & Logistics": { icon: "🏗️", color: "#78716c", description: "Grid modernization, supply chain, construction tech, and industrial infrastructure.", trend: "Grid infrastructure is the bottleneck for AI and electrification. Smart grid and energy storage investments are surging to meet data center and EV demand." },
+  "Venture Capital": { icon: "💰", color: "#d97706", description: "Deep tech and frontier technology venture capital firms shaping the next wave of innovation.", trend: "Deep tech VC is in a golden era. Defense, energy, and hard tech funds are raising record capital as software-only returns compress." }
 };
 
 const COMPANIES = [
@@ -32,13 +35,20 @@ const COMPANIES = [
     totalRaised: "$2.5B+",
     valuation: "$30.5B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/rational-optimist-awards-part-2",
-    tags: ["autonomous drones", "AI", "defense", "sensors"]
+    tags: ["autonomous drones", "AI", "defense", "sensors"],
+    insight: "Anduril's Lattice OS is becoming the de facto operating system for autonomous defense. Their vertical integration strategy mirrors early SpaceX — own the stack, own the margin. Watch for international expansion as Five Eyes allies seek US-made alternatives.",
+    signal: "hot",
+    scores: { team: 10, traction: 10, techMoat: 9, market: 9, momentum: 10 },
+    competitors: ["Shield AI", "Skydio", "Chaos Industries"],
+    recentEvent: { type: "funding", text: "Closed Series G at $30.5B valuation", date: "2025-12" },
+    tbpnMentioned: true,
+    addedDate: "2024-06"
   },
   {
     name: "Shield AI",
     sector: "Defense & Security",
     description: "Hivemind autonomy software that flies aircraft in swarms without GPS. Works across multiple airframes in denied environments. Dual-use AI with real-world deterrence value.",
-    founder: "",
+    founder: "Brandon Tseng, Ryan Tseng, Andrew Reiter",
     location: "San Diego, CA",
     state: "CA",
     lat: 32.7157,
@@ -47,7 +57,13 @@ const COMPANIES = [
     totalRaised: "$1.4B+",
     valuation: "$5.3B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["autonomy", "AI", "swarm", "defense"]
+    tags: ["autonomy", "AI", "swarm", "defense"],
+    insight: "Hivemind is the real product — the airframes are just the delivery mechanism. If Shield AI can make any aircraft autonomous in GPS-denied environments, they become the Android of military aviation.",
+    signal: "hot",
+    scores: { team: 9, traction: 9, techMoat: 9, market: 9, momentum: 9 },
+    competitors: ["Anduril Industries", "Skydio"],
+    recentEvent: { type: "funding", text: "Series F at $5.3B valuation", date: "2025-07" },
+    addedDate: "2024-06"
   },
   {
     name: "Epirus",
@@ -62,7 +78,13 @@ const COMPANIES = [
     totalRaised: "$250M+",
     valuation: "$1.35B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["directed energy", "counter-drone", "defense"]
+    tags: ["directed energy", "counter-drone", "defense"],
+    insight: "Directed energy is the only cost-effective answer to drone swarms — you can't spend a $1M missile on a $500 drone. Epirus's Leonidas changes the economics of air defense fundamentally.",
+    signal: "hot",
+    scores: { team: 8, traction: 8, techMoat: 9, market: 9, momentum: 9 },
+    competitors: [],
+    recentEvent: { type: "funding", text: "$250M Series D for Leonidas production scale", date: "2025-05" },
+    addedDate: "2024-06"
   },
   {
     name: "Saronic",
@@ -77,7 +99,13 @@ const COMPANIES = [
     totalRaised: "$500M+",
     valuation: "$4.0B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["autonomous", "naval", "shipbuilding", "defense"]
+    tags: ["autonomous", "naval", "shipbuilding", "defense"],
+    insight: "Saronic's 'shipyard as startup' model is revolutionary — they're building autonomous naval vessels on software development timelines, not traditional shipbuilding cycles. The Navy desperately needs this speed.",
+    signal: "hot",
+    scores: { team: 8, traction: 9, techMoat: 8, market: 9, momentum: 10 },
+    competitors: [],
+    recentEvent: { type: "funding", text: "Reached $4B valuation", date: "2025-10" },
+    addedDate: "2024-06"
   },
   {
     name: "Neros",
@@ -167,7 +195,13 @@ const COMPANIES = [
     totalRaised: "$340M+",
     valuation: "$2.2B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["autonomous drones", "public safety", "defense"]
+    tags: ["autonomous drones", "public safety", "defense"],
+    insight: "Skydio's position as the only major US-made drone company is a regulatory moat that's becoming a fortress. As DJI bans spread, every US government agency needs a domestic alternative.",
+    signal: "rising",
+    scores: { team: 8, traction: 8, techMoat: 7, market: 9, momentum: 8 },
+    competitors: ["Anduril Industries"],
+    recentEvent: { type: "milestone", text: "Expanding defense and law enforcement contracts", date: "2025-08" },
+    addedDate: "2024-06"
   },
   {
     name: "Allen Control Systems",
@@ -274,7 +308,14 @@ const COMPANIES = [
     totalRaised: "$465M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
-    tags: ["microreactor", "nuclear", "portable", "defense"]
+    tags: ["microreactor", "nuclear", "portable", "defense"],
+    insight: "Radiant's portable microreactor could be the most important energy product of the decade for defense. 1.2MW that fits on a truck and powers a forward operating base without fuel convoys — that's a game-changer.",
+    signal: "hot",
+    scores: { team: 9, traction: 8, techMoat: 9, market: 9, momentum: 9 },
+    competitors: ["Oklo", "NuScale"],
+    recentEvent: { type: "funding", text: "$300M Series D for DOE Reactor Pilot Program", date: "2025-06" },
+    tbpnMentioned: true,
+    addedDate: "2024-06"
   },
   {
     name: "Aalo Atomics",
@@ -364,7 +405,13 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
-    tags: ["SMR", "nuclear", "data centers", "Meta"]
+    tags: ["SMR", "nuclear", "data centers", "Meta"],
+    insight: "Oklo's Meta partnership is the validation signal — Big Tech is betting on nuclear for AI data center power. Being publicly traded gives them a capital advantage over private nuclear startups.",
+    signal: "rising",
+    scores: { team: 8, traction: 7, techMoat: 7, market: 9, momentum: 8 },
+    competitors: ["Radiant", "NuScale"],
+    recentEvent: { type: "partnership", text: "Meta partnership for Pike County nuclear campus", date: "2025-09" },
+    addedDate: "2024-06"
   },
   {
     name: "Last Energy",
@@ -441,7 +488,14 @@ const COMPANIES = [
     totalRaised: "$10B+",
     valuation: "$800B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/rational-optimist-awards-part-2",
-    tags: ["rockets", "satellites", "Starlink", "space"]
+    tags: ["rockets", "satellites", "Starlink", "space"],
+    insight: "SpaceX isn't just a launch company — Starlink is becoming a $10B+ revenue business that funds the Mars mission. The vertical integration from engines to orbit to end-user connectivity is unprecedented in any industry.",
+    signal: "established",
+    scores: { team: 10, traction: 10, techMoat: 10, market: 10, momentum: 10 },
+    competitors: ["Rocket Lab", "Blue Origin"],
+    recentEvent: { type: "milestone", text: "Preparing for IPO at $1.5T valuation", date: "2025-12" },
+    tbpnMentioned: true,
+    addedDate: "2024-06"
   },
   {
     name: "Rocket Lab",
@@ -456,7 +510,13 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "$45B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["rockets", "satellites", "launch"]
+    tags: ["rockets", "satellites", "launch"],
+    insight: "Rocket Lab is the clear #2 in launch and pulling away. The $816M SDA contract proves they can compete for national security missions. Peter Beck's end-to-end space company vision is materializing.",
+    signal: "established",
+    scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 9 },
+    competitors: ["SpaceX"],
+    recentEvent: { type: "milestone", text: "Market cap tripled to $37B, SDA contract won", date: "2025-10" },
+    addedDate: "2024-06"
   },
   {
     name: "Apex Space",
@@ -531,7 +591,13 @@ const COMPANIES = [
     totalRaised: "$1.3B+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["rockets", "launch", "3D printing"]
+    tags: ["rockets", "launch", "3D printing"],
+    insight: "Eric Schmidt's acquisition and pivot toward space-based data centers is a bold bet. If compute needs to move to orbit for energy or latency reasons, Relativity has the manufacturing tech to build it.",
+    signal: "watch",
+    scores: { team: 7, traction: 5, techMoat: 8, market: 8, momentum: 6 },
+    competitors: ["SpaceX", "Rocket Lab"],
+    recentEvent: { type: "milestone", text: "Eric Schmidt becomes CEO, pivots to space data centers", date: "2025-06" },
+    addedDate: "2024-06"
   },
   {
     name: "Impulse Space",
@@ -606,7 +672,13 @@ const COMPANIES = [
     totalRaised: "$350M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["GEO satellites", "internet", "connectivity"]
+    tags: ["GEO satellites", "internet", "connectivity"],
+    insight: "Astranis's MicroGEO approach is clever — GEO satellites where Starlink's LEO constellation can't economically serve. Dedicated bandwidth for specific countries and regions is a defensible niche.",
+    signal: "rising",
+    scores: { team: 8, traction: 7, techMoat: 7, market: 8, momentum: 7 },
+    competitors: [],
+    recentEvent: { type: "milestone", text: "Expanding MicroGEO constellation deployment", date: "2025-07" },
+    addedDate: "2024-06"
   },
   {
     name: "Observable Space",
@@ -668,7 +740,13 @@ const COMPANIES = [
     totalRaised: "$700M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/dude-wheres-my-supersonic-jet",
-    tags: ["supersonic", "aviation", "commercial jets"]
+    tags: ["supersonic", "aviation", "commercial jets"],
+    insight: "Boom is betting that proprietary engines (Symphony) are the unlock — no one else is building a purpose-built supersonic commercial engine. 130+ airline orders suggest real demand if they can deliver on certification.",
+    signal: "rising",
+    scores: { team: 8, traction: 7, techMoat: 8, market: 8, momentum: 7 },
+    competitors: ["Hermeus"],
+    recentEvent: { type: "milestone", text: "XB-1 test flights progressing toward Overture design validation", date: "2025-09" },
+    addedDate: "2024-06"
   },
   {
     name: "Hermeus",
@@ -683,7 +761,13 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/dude-wheres-my-supersonic-jet",
-    tags: ["hypersonic", "Mach 5", "military", "aviation"]
+    tags: ["hypersonic", "Mach 5", "military", "aviation"],
+    insight: "Hermeus's military-first strategy is smart — DoD will pay for Mach 5 capabilities that commercial aviation won't need for decades. The Chimera engine's turbine-to-ramjet transition is the key technical risk.",
+    signal: "rising",
+    scores: { team: 8, traction: 7, techMoat: 9, market: 8, momentum: 8 },
+    competitors: ["Boom Supersonic"],
+    recentEvent: { type: "milestone", text: "First Quarterhorse test jet flew successfully", date: "2025-05" },
+    addedDate: "2024-06"
   },
   {
     name: "Astro Mechanica",
@@ -820,7 +904,14 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "$150B+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["data analytics", "AI", "defense", "government"]
+    tags: ["data analytics", "AI", "defense", "government"],
+    insight: "Palantir's AIP platform is making LLMs usable in classified environments — a moat no other company can replicate at scale. The government-to-commercial flywheel is finally spinning.",
+    signal: "established",
+    scores: { team: 9, traction: 10, techMoat: 10, market: 9, momentum: 9 },
+    competitors: [],
+    recentEvent: { type: "milestone", text: "Market cap exceeds $150B on AI platform adoption", date: "2025-11" },
+    tbpnMentioned: true,
+    addedDate: "2024-06"
   },
   {
     name: "Cognition",
@@ -835,7 +926,13 @@ const COMPANIES = [
     totalRaised: "$175M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["AI", "coding", "autonomous agent"]
+    tags: ["AI", "coding", "autonomous agent"],
+    insight: "Devin represents the frontier of AI agents — not just generating code but planning, debugging, and deploying autonomously. If this works at scale, every software team becomes 10x more productive.",
+    signal: "hot",
+    scores: { team: 8, traction: 7, techMoat: 7, market: 10, momentum: 9 },
+    competitors: ["Anysphere"],
+    recentEvent: { type: "funding", text: "$175M Series A for autonomous coding agent", date: "2025-06" },
+    addedDate: "2025-01"
   },
 
   // ─── ROBOTICS & MANUFACTURING ───
@@ -852,7 +949,13 @@ const COMPANIES = [
     totalRaised: "$260M+",
     valuation: "$1.6B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["automated factory", "CNC", "aerospace", "defense"]
+    tags: ["automated factory", "CNC", "aerospace", "defense"],
+    insight: "Hadrian is solving the bottleneck no one talks about: precision manufacturing capacity. While everyone builds the weapons systems, someone has to machine the parts — and US capacity is dangerously thin.",
+    signal: "hot",
+    scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 9 },
+    competitors: ["Machina Labs"],
+    recentEvent: { type: "funding", text: "$260M Series C for Mesa AZ expansion", date: "2025-08" },
+    addedDate: "2024-06"
   },
   {
     name: "Machina Labs",
@@ -867,7 +970,14 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["robotic manufacturing", "metal forming", "automotive"]
+    tags: ["robotic manufacturing", "metal forming", "automotive"],
+    insight: "Machina Labs' roboforming tech makes metal shaping as flexible as 3D printing but at production scale. The Toyota partnership validates the tech for automotive; the Air Force contract proves defense demand.",
+    signal: "rising",
+    scores: { team: 8, traction: 7, techMoat: 8, market: 8, momentum: 8 },
+    competitors: ["Hadrian"],
+    recentEvent: { type: "partnership", text: "Toyota partnership for auto body panel manufacturing", date: "2025-07" },
+    tbpnMentioned: true,
+    addedDate: "2024-06"
   },
   {
     name: "Formic",
@@ -1141,7 +1251,13 @@ const COMPANIES = [
     totalRaised: "$600M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/ridley-are-we-finally-about-to-crack",
-    tags: ["fusion", "field-reversed", "energy"]
+    tags: ["fusion", "field-reversed", "energy"],
+    insight: "Helion's direct electricity conversion from fusion (no steam turbine) could be transformational if it works. The Microsoft PPA gives them a committed buyer and a deadline — the best combination for hard tech.",
+    signal: "rising",
+    scores: { team: 8, traction: 7, techMoat: 9, market: 10, momentum: 8 },
+    competitors: ["TAE Technologies", "Xcimer Energy", "Commonwealth Fusion"],
+    recentEvent: { type: "milestone", text: "Advancing toward 2028 power generation target", date: "2025-10" },
+    addedDate: "2024-06"
   },
   {
     name: "TAE Technologies",
@@ -2072,7 +2188,13 @@ const COMPANIES = [
     totalRaised: "$10B+",
     valuation: "$60B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["AI safety", "LLMs", "Claude"]
+    tags: ["AI safety", "LLMs", "Claude"],
+    insight: "Anthropic's safety-first positioning is becoming a competitive advantage, not a constraint. Enterprise customers and governments increasingly prefer AI they can trust. The Constitutional AI approach is the moat.",
+    signal: "hot",
+    scores: { team: 10, traction: 9, techMoat: 9, market: 10, momentum: 10 },
+    competitors: ["OpenAI", "Mistral AI", "Google DeepMind"],
+    recentEvent: { type: "funding", text: "Raised $10B+ at $60B valuation", date: "2025-11" },
+    addedDate: "2025-01"
   },
   {
     name: "Anysphere",
@@ -2087,7 +2209,13 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "$2.5B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["AI coding", "IDE", "developer tools"]
+    tags: ["AI coding", "IDE", "developer tools"],
+    insight: "Cursor has achieved what GitHub Copilot couldn't — making AI the primary driver of code creation, not just a suggestion engine. The fastest-growing developer tool in history signals a paradigm shift in how software gets built.",
+    signal: "hot",
+    scores: { team: 9, traction: 10, techMoat: 7, market: 10, momentum: 10 },
+    competitors: ["Cognition"],
+    recentEvent: { type: "funding", text: "Series B at $2.5B valuation on explosive growth", date: "2025-08" },
+    addedDate: "2025-01"
   },
   {
     name: "Air Space Intelligence",
@@ -3324,7 +3452,13 @@ const COMPANIES = [
     totalRaised: "$20B+",
     valuation: "$150B+",
     rosLink: "",
-    tags: ["AGI", "LLM", "ChatGPT", "frontier AI"]
+    tags: ["AGI", "LLM", "ChatGPT", "frontier AI"],
+    insight: "OpenAI's transition to a for-profit capped entity signals the endgame: AGI development requires nation-state-level capital. The question isn't if they'll build AGI but whether the governance structure can handle what they create.",
+    signal: "established",
+    scores: { team: 10, traction: 10, techMoat: 9, market: 10, momentum: 10 },
+    competitors: ["Anthropic", "Mistral AI", "Google DeepMind"],
+    recentEvent: { type: "funding", text: "Raised $20B+ in latest funding round", date: "2025-10" },
+    addedDate: "2025-01"
   },
   {
     name: "Mistral AI",
@@ -3354,7 +3488,13 @@ const COMPANIES = [
     totalRaised: "$600M+",
     valuation: "$2.8B",
     rosLink: "",
-    tags: ["AI chips", "inference", "LPU"]
+    tags: ["AI chips", "inference", "LPU"],
+    insight: "Groq's LPU architecture delivers 10x faster inference than GPU-based systems. If inference costs determine AI economics (and they do), Groq could own the inference layer the way NVIDIA owns training.",
+    signal: "rising",
+    scores: { team: 8, traction: 7, techMoat: 9, market: 9, momentum: 8 },
+    competitors: ["Cerebras"],
+    recentEvent: { type: "funding", text: "Series D at $2.8B valuation for LPU production", date: "2025-08" },
+    addedDate: "2025-01"
   },
   {
     name: "Skild AI",
@@ -3369,7 +3509,14 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "$1.5B",
     rosLink: "",
-    tags: ["foundation model", "robotics", "AI"]
+    tags: ["foundation model", "robotics", "AI"],
+    insight: "If Skild succeeds in building a general-purpose robot foundation model, it becomes the most valuable AI company after OpenAI. The CMU robotics pedigree and $1.4B raise signal this is serious.",
+    signal: "rising",
+    scores: { team: 9, traction: 6, techMoat: 9, market: 10, momentum: 9 },
+    competitors: ["Figure", "1X"],
+    recentEvent: { type: "funding", text: "$1.4B funding round for general-purpose robot brain", date: "2025-09" },
+    tbpnMentioned: true,
+    addedDate: "2025-01"
   },
   {
     name: "Crusoe Energy",
@@ -3384,7 +3531,13 @@ const COMPANIES = [
     totalRaised: "$1B+",
     valuation: "$2.8B",
     rosLink: "",
-    tags: ["AI data centers", "energy", "infrastructure"]
+    tags: ["AI data centers", "energy", "infrastructure"],
+    insight: "Crusoe's pivot from Bitcoin mining to AI data centers was prescient. Managing Stargate's $500B buildout positions them at the center of AI infrastructure — the picks-and-shovels play of the AI era.",
+    signal: "hot",
+    scores: { team: 8, traction: 9, techMoat: 7, market: 10, momentum: 9 },
+    competitors: [],
+    recentEvent: { type: "milestone", text: "Managing $500B Stargate AI data center buildout", date: "2025-10" },
+    addedDate: "2025-01"
   },
   {
     name: "ElevenLabs",
@@ -3399,7 +3552,14 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "$3B+",
     rosLink: "",
-    tags: ["voice AI", "text-to-speech", "audio"]
+    tags: ["voice AI", "text-to-speech", "audio"],
+    insight: "ElevenLabs owns the voice AI market with a quality moat that keeps widening. At $11B valuation, they're pricing in a world where every piece of content is instantly available in every language — and that world is coming fast.",
+    signal: "hot",
+    scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 10 },
+    competitors: [],
+    recentEvent: { type: "funding", text: "Series C at $11B valuation", date: "2025-11" },
+    tbpnMentioned: true,
+    addedDate: "2025-01"
   },
   {
     name: "Hippocratic AI",
@@ -3446,7 +3606,13 @@ const COMPANIES = [
     totalRaised: "$120M+",
     valuation: "",
     rosLink: "",
-    tags: ["inspection robots", "industrial", "AI"]
+    tags: ["inspection robots", "industrial", "AI"],
+    insight: "Gecko is solving a $100B+ problem: aging industrial infrastructure that nobody can safely inspect. Wall-climbing robots with AI create a data moat — every inspection feeds the prediction model.",
+    signal: "rising",
+    scores: { team: 8, traction: 8, techMoat: 8, market: 9, momentum: 8 },
+    competitors: [],
+    recentEvent: { type: "funding", text: "Series C for industrial inspection expansion", date: "2025-07" },
+    addedDate: "2025-01"
   },
   {
     name: "Terranova",
@@ -5422,5 +5588,183 @@ const COMPANIES = [
     valuation: "",
     rosLink: "",
     tags: ["agtech", "autonomous robots", "precision agriculture"]
+  },
+
+  // ─── NEW ADDITIONS (Feb 2026) — TBPN-Sourced ───
+  {
+    name: "SemiAnalysis",
+    sector: "Chips & Semiconductors",
+    description: "Premier independent semiconductor and AI hardware analysis firm. Publishes deep technical research on chip architectures, AI training infrastructure, and semiconductor supply chains widely cited by industry leaders and investors.",
+    founder: "Dylan Patel",
+    location: "San Francisco, CA",
+    state: "CA",
+    lat: 37.7749,
+    lng: -122.4194,
+    fundingStage: "Bootstrapped",
+    totalRaised: "",
+    valuation: "",
+    rosLink: "",
+    tags: ["semiconductors", "AI hardware", "research", "analysis"],
+    insight: "SemiAnalysis has become the go-to source for semiconductor intelligence that moves markets. Dylan Patel's technical depth and industry access create an information moat that traditional analyst firms struggle to replicate.",
+    signal: "rising",
+    scores: { team: 8, traction: 9, techMoat: 8, market: 9, momentum: 9 },
+    competitors: [],
+    recentEvent: { type: "milestone", text: "Expanding research coverage to AI datacenter infrastructure", date: "2025-10" },
+    tbpnMentioned: true,
+    addedDate: "2026-02"
+  },
+  {
+    name: "Truemed",
+    sector: "Biotech & Health",
+    description: "Enables purchases of health-related products with pre-tax HSA/FSA dollars through physician-verified Letters of Medical Necessity. Making preventive health more accessible by unlocking $140B in unused tax-advantaged health spending.",
+    founder: "Justin Mares",
+    location: "Austin, TX",
+    state: "TX",
+    lat: 30.2672,
+    lng: -97.7431,
+    fundingStage: "Series A",
+    totalRaised: "$34M",
+    valuation: "",
+    rosLink: "",
+    tags: ["healthcare payments", "HSA", "preventive health", "fintech"],
+    insight: "Truemed sits at the intersection of healthcare and fintech. Justin Mares identified that $140B in HSA/FSA funds go unused annually. The regulatory moat around physician verification is genuine and defensible.",
+    signal: "rising",
+    scores: { team: 8, traction: 8, techMoat: 7, market: 9, momentum: 8 },
+    competitors: [],
+    recentEvent: { type: "funding", text: "Closed $34M Series A", date: "2025-08" },
+    tbpnMentioned: true,
+    addedDate: "2026-02"
+  },
+  {
+    name: "Turbopuffer",
+    sector: "AI & Software",
+    description: "Serverless vector database built for speed and scale. Designed for AI-native applications requiring fast similarity search across billions of vectors. Founded by former Shopify infrastructure lead.",
+    founder: "Simon Eskildsen",
+    location: "San Francisco, CA",
+    state: "CA",
+    lat: 37.7749,
+    lng: -122.4194,
+    fundingStage: "Seed",
+    totalRaised: "",
+    valuation: "",
+    rosLink: "",
+    tags: ["vector database", "AI infrastructure", "serverless", "search"],
+    insight: "Turbopuffer is attacking the AI infrastructure layer with a serverless-first architecture that dramatically reduces cost versus incumbents. Simon Eskildsen's infrastructure pedigree from Shopify gives deep credibility.",
+    signal: "stealth",
+    scores: { team: 9, traction: 6, techMoat: 8, market: 9, momentum: 7 },
+    competitors: [],
+    recentEvent: { type: "launch", text: "Public beta launch with serverless vector search", date: "2025-06" },
+    tbpnMentioned: true,
+    addedDate: "2026-02"
+  },
+  {
+    name: "Attio",
+    sector: "AI & Software",
+    description: "Next-generation CRM that automatically enriches and structures relationship data using AI. Designed for modern teams who want a CRM that builds itself. Growing rapidly with product-led adoption across startups and scaleups.",
+    founder: "Nicolas Sharp",
+    location: "London, UK",
+    state: "UK",
+    lat: 51.5074,
+    lng: -0.1278,
+    fundingStage: "Series B",
+    totalRaised: "$63M",
+    valuation: "",
+    rosLink: "",
+    tags: ["CRM", "AI", "sales", "relationship intelligence"],
+    insight: "Attio is the most credible Salesforce challenger in a decade. Their AI-native approach to CRM — where the system structures data automatically rather than requiring manual entry — is resonating with PLG-native companies.",
+    signal: "hot",
+    scores: { team: 8, traction: 8, techMoat: 7, market: 10, momentum: 9 },
+    competitors: [],
+    recentEvent: { type: "funding", text: "Series B to accelerate AI CRM platform", date: "2025-09" },
+    tbpnMentioned: true,
+    addedDate: "2026-02"
+  },
+  {
+    name: "Lux Capital",
+    sector: "Venture Capital",
+    description: "Deep tech venture capital firm backing founders turning science fiction into science fact. Portfolio includes Anduril, Saronic, Hadrian, and dozens of Innovators League companies. $5B+ AUM with focus on defense, space, and hard tech.",
+    founder: "Josh Wolfe, Peter Hebert",
+    location: "New York, NY",
+    state: "NY",
+    lat: 40.7128,
+    lng: -74.0060,
+    fundingStage: "Fund VII",
+    totalRaised: "$5B+ AUM",
+    valuation: "",
+    rosLink: "",
+    tags: ["venture capital", "deep tech", "defense", "frontier tech"],
+    insight: "Lux Capital's portfolio reads like a map of the American reindustrialization. Josh Wolfe's ability to identify and back defense, space, and hard tech founders years before consensus is a generational investing edge.",
+    signal: "established",
+    scores: { team: 10, traction: 10, techMoat: 8, market: 9, momentum: 9 },
+    competitors: [],
+    recentEvent: { type: "milestone", text: "Multiple portfolio companies exceeding $1B+ valuations", date: "2025-11" },
+    tbpnMentioned: true,
+    addedDate: "2026-02"
+  },
+  {
+    name: "Day.ai",
+    sector: "AI & Software",
+    description: "AI meeting intelligence platform that captures, summarizes, and acts on conversations. Builds a comprehensive relationship and context layer by integrating across calendar and communication tools.",
+    founder: "Christopher O'Donnell",
+    location: "Boston, MA",
+    state: "MA",
+    lat: 42.3601,
+    lng: -71.0589,
+    fundingStage: "Seed",
+    totalRaised: "",
+    valuation: "",
+    rosLink: "",
+    tags: ["AI meetings", "productivity", "conversation intelligence", "CRM"],
+    insight: "Day.ai is betting that the real CRM is your calendar and conversations, not a database you manually update. Chris O'Donnell's HubSpot background gives deep insight into where traditional CRM fails knowledge workers.",
+    signal: "stealth",
+    scores: { team: 8, traction: 5, techMoat: 6, market: 8, momentum: 6 },
+    competitors: ["Attio"],
+    recentEvent: { type: "launch", text: "Launched AI meeting intelligence platform", date: "2025-07" },
+    tbpnMentioned: true,
+    addedDate: "2026-02"
+  },
+  {
+    name: "SHIELD Technology Partners",
+    sector: "Defense & Security",
+    description: "Defense technology advisory and venture firm bridging Silicon Valley innovation with Pentagon requirements. Focused on accelerating adoption of commercial technology in national security applications.",
+    founder: "Jim Siders",
+    location: "Washington, DC",
+    state: "DC",
+    lat: 38.9072,
+    lng: -77.0369,
+    fundingStage: "Fund",
+    totalRaised: "",
+    valuation: "",
+    rosLink: "",
+    tags: ["defense tech", "advisory", "venture", "national security"],
+    insight: "SHIELD operates at the critical junction between defense primes and startups. Jim Siders' network across DoD acquisition and venture makes this a key node in the defense tech ecosystem.",
+    signal: "watch",
+    scores: { team: 8, traction: 7, techMoat: 6, market: 8, momentum: 7 },
+    competitors: [],
+    recentEvent: { type: "milestone", text: "Expanding defense tech advisory portfolio", date: "2025-09" },
+    tbpnMentioned: true,
+    addedDate: "2026-02"
+  },
+  {
+    name: "Lotus Health AI",
+    sector: "Biotech & Health",
+    description: "AI-powered health platform leveraging machine learning for personalized health insights and clinical decision support. Applying artificial intelligence to improve patient outcomes and reduce healthcare costs.",
+    founder: "KJ Dhaliwal",
+    location: "San Francisco, CA",
+    state: "CA",
+    lat: 37.7749,
+    lng: -122.4194,
+    fundingStage: "Early Stage",
+    totalRaised: "",
+    valuation: "",
+    rosLink: "",
+    tags: ["AI health", "clinical AI", "personalized medicine"],
+    insight: "Lotus Health AI is applying LLM-era techniques to clinical decision support, a space where regulatory barriers create natural moats for companies that can navigate FDA pathways.",
+    signal: "stealth",
+    scores: null,
+    competitors: [],
+    recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
+    tbpnMentioned: true,
+    addedDate: "2026-02"
   }
 ];

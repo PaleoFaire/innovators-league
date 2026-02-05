@@ -40,6 +40,99 @@ function getCountry(stateCode, location) {
   return 'United States';
 }
 
+// ─── SIGNAL HELPERS ───
+const SIGNAL_CONFIG = {
+  hot:         { label: 'HOT', icon: '🔥', class: 'signal-hot' },
+  rising:      { label: 'RISING', icon: '⚡', class: 'signal-rising' },
+  stealth:     { label: 'STEALTH', icon: '👀', class: 'signal-stealth' },
+  watch:       { label: 'WATCH', icon: '🔭', class: 'signal-watch' },
+  established: { label: 'EST.', icon: '✓', class: 'signal-established' }
+};
+
+const SIGNAL_PRIORITY = { hot: 0, rising: 1, stealth: 2, watch: 3, established: 4 };
+
+function renderSignalBadge(signal) {
+  if (!signal || !SIGNAL_CONFIG[signal]) return '';
+  const s = SIGNAL_CONFIG[signal];
+  return `<span class="signal-badge ${s.class}">${s.icon} ${s.label}</span>`;
+}
+
+function renderTBPNBadge(company) {
+  if (!company.tbpnMentioned) return '';
+  return `<span class="tbpn-badge">TBPN</span>`;
+}
+
+// ─── RADAR CHART ───
+function renderRadarChart(scores) {
+  if (!scores) return '';
+  const labels = ['Team', 'Traction', 'Tech Moat', 'Market', 'Momentum'];
+  const keys = ['team', 'traction', 'techMoat', 'market', 'momentum'];
+  const size = 280;
+  const cx = size / 2;
+  const cy = size / 2;
+  const maxR = 100;
+  const levels = [0.25, 0.5, 0.75, 1.0];
+
+  function polarToCart(angle, radius) {
+    const a = (angle - 90) * Math.PI / 180;
+    return [cx + radius * Math.cos(a), cy + radius * Math.sin(a)];
+  }
+
+  const angleStep = 360 / 5;
+
+  // Grid polygons
+  let gridSvg = '';
+  levels.forEach(level => {
+    const points = [];
+    for (let i = 0; i < 5; i++) {
+      const [x, y] = polarToCart(i * angleStep, maxR * level);
+      points.push(`${x},${y}`);
+    }
+    gridSvg += `<polygon points="${points.join(' ')}" class="radar-grid"/>`;
+  });
+
+  // Axis lines
+  let axisSvg = '';
+  for (let i = 0; i < 5; i++) {
+    const [x, y] = polarToCart(i * angleStep, maxR);
+    axisSvg += `<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" class="radar-axis"/>`;
+  }
+
+  // Data polygon
+  const dataPoints = [];
+  for (let i = 0; i < 5; i++) {
+    const val = (scores[keys[i]] || 0) / 10;
+    const [x, y] = polarToCart(i * angleStep, maxR * val);
+    dataPoints.push(`${x},${y}`);
+  }
+
+  // Labels
+  let labelsSvg = '';
+  for (let i = 0; i < 5; i++) {
+    const [x, y] = polarToCart(i * angleStep, maxR + 22);
+    const val = scores[keys[i]] || 0;
+    labelsSvg += `<text x="${x}" y="${y}" text-anchor="middle" dominant-baseline="middle" class="radar-label">${labels[i]}</text>`;
+    const [sx, sy] = polarToCart(i * angleStep, maxR * (val / 10) + 12);
+    labelsSvg += `<text x="${sx}" y="${sy}" text-anchor="middle" dominant-baseline="middle" class="radar-score">${val}</text>`;
+  }
+
+  return `
+    <div class="radar-chart-container">
+      <div>
+        <h4>Intelligence Scores</h4>
+        <div class="radar-chart">
+          <svg viewBox="0 0 ${size} ${size}" xmlns="http://www.w3.org/2000/svg">
+            ${gridSvg}
+            ${axisSvg}
+            <polygon points="${dataPoints.join(' ')}" class="radar-data"/>
+            ${labelsSvg}
+          </svg>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
 // ─── BOOKMARKS ───
 let bookmarks = JSON.parse(localStorage.getItem('til-bookmarks') || '[]');
 
@@ -149,12 +242,17 @@ function openCompanyModal(companyName) {
     .sort(() => Math.random() - 0.5)
     .slice(0, 4);
 
+  // Competitors from data
+  const competitors = (company.competitors || [])
+    .map(name => COMPANIES.find(c => c.name === name))
+    .filter(Boolean);
+
   const body = document.getElementById('modal-body');
   body.innerHTML = `
     <div class="modal-sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border: 1px solid ${sectorInfo.color}30;">
       ${sectorInfo.icon} ${company.sector}
     </div>
-    <h2 class="modal-company-name">${company.name}</h2>
+    <h2 class="modal-company-name">${company.name} ${renderSignalBadge(company.signal)} ${renderTBPNBadge(company)}</h2>
     ${company.founder ? `<p class="modal-founder">${company.founder}</p>` : ''}
     <p class="modal-location">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -167,17 +265,28 @@ function openCompanyModal(companyName) {
       ${company.valuation ? `<div class="modal-stat"><span class="modal-stat-label">Valuation</span><span class="modal-stat-value">${company.valuation}</span></div>` : ''}
     </div>
 
+    ${company.insight ? `
+      <div class="modal-insight">
+        <div class="modal-insight-label">ROS Intelligence</div>
+        ${company.insight}
+      </div>
+    ` : ''}
+
+    ${renderRadarChart(company.scores)}
+
     <p class="modal-description">${company.description}</p>
 
     <div class="modal-tags">
       ${company.tags.map(t => `<span class="tag">${t}</span>`).join('')}
     </div>
 
+    ${!company.scores && !company.insight ? '<p class="assessment-pending">⏳ Full intelligence assessment pending</p>' : ''}
+
     <div class="modal-actions">
-      <a href="${company.rosLink}" target="_blank" rel="noopener" class="modal-action-btn primary">
+      ${company.rosLink ? `<a href="${company.rosLink}" target="_blank" rel="noopener" class="modal-action-btn primary">
         Read Coverage
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
-      </a>
+      </a>` : ''}
       <button class="modal-action-btn ${saved ? 'saved' : ''}" onclick="toggleBookmark('${company.name.replace(/'/g, "\\'")}'); openCompanyModal('${company.name.replace(/'/g, "\\'")}');">
         ${saved ? '★ Saved' : '☆ Save'}
       </button>
@@ -185,6 +294,19 @@ function openCompanyModal(companyName) {
         ↗ Share
       </button>
     </div>
+
+    ${competitors.length > 0 ? `
+      <div class="modal-competitors">
+        <h4>Competitive Landscape</h4>
+        <div class="competitors-grid">
+          ${competitors.map(r => `
+            <span class="competitor-chip" onclick="openCompanyModal('${r.name.replace(/'/g, "\\'")}')">
+              ${r.name}
+            </span>
+          `).join('')}
+        </div>
+      </div>
+    ` : ''}
 
     ${related.length > 0 ? `
       <div class="modal-related">
@@ -240,6 +362,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCompare();
   initKeyboard();
   initFeatured();
+  initMovementTracker();
   initURLState();
   initSmoothScroll();
   updateResultsCount(COMPANIES.length);
@@ -277,6 +400,12 @@ function initStats() {
   if (fundingEl) {
     const fundingB = (totalFunding / 1000).toFixed(0);
     animateCounterWithPrefix('funding-count', parseInt(fundingB), '$', 'B+');
+  }
+
+  // Last updated
+  const updatedEl = document.getElementById('last-updated');
+  if (updatedEl && typeof LAST_UPDATED !== 'undefined') {
+    updatedEl.textContent = `Last updated: ${LAST_UPDATED}`;
   }
 }
 
@@ -502,6 +631,27 @@ function applyFilters() {
       const bS = isBookmarked(b.name) ? 0 : 1;
       return aS - bS || a.name.localeCompare(b.name);
     });
+  } else if (sortBy === 'signal') {
+    filtered.sort((a, b) => {
+      const aP = a.signal ? (SIGNAL_PRIORITY[a.signal] ?? 99) : 99;
+      const bP = b.signal ? (SIGNAL_PRIORITY[b.signal] ?? 99) : 99;
+      return aP - bP || a.name.localeCompare(b.name);
+    });
+  } else if (sortBy === 'score') {
+    filtered.sort((a, b) => {
+      const avg = s => {
+        if (!s) return 0;
+        const vals = [s.team, s.traction, s.techMoat, s.market, s.momentum].filter(v => v != null);
+        return vals.length ? vals.reduce((sum, v) => sum + v, 0) / vals.length : 0;
+      };
+      return avg(b.scores) - avg(a.scores) || a.name.localeCompare(b.name);
+    });
+  } else if (sortBy === 'recent') {
+    filtered.sort((a, b) => {
+      const dA = a.recentEvent ? a.recentEvent.date : '0000-00';
+      const dB = b.recentEvent ? b.recentEvent.date : '0000-00';
+      return dB.localeCompare(dA) || a.name.localeCompare(b.name);
+    });
   }
 
   renderCompanies(filtered);
@@ -576,6 +726,7 @@ function renderCompanies(companies) {
         </div>
       </div>
       <h3 class="card-name">${company.name}</h3>
+      ${(company.signal || company.tbpnMentioned) ? `<div class="card-badges">${renderSignalBadge(company.signal)}${renderTBPNBadge(company)}</div>` : ''}
       ${company.founder ? `<p class="card-founder">${company.founder}</p>` : ''}
       <p class="card-location">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -616,6 +767,7 @@ function renderSectors() {
       <div class="sector-icon">${info.icon}</div>
       <h3>${name}</h3>
       <p>${info.description}</p>
+      ${info.trend ? `<p style="font-size: 12px; color: var(--accent); margin-top: 8px; line-height: 1.5; font-style: italic;">${info.trend}</p>` : ''}
       <div class="sector-count">${count} ${count === 1 ? 'company' : 'companies'}</div>
     `;
 
@@ -831,6 +983,51 @@ function initMobileMenu() {
     a.addEventListener('click', () => {
       links.classList.remove('open');
       btn.classList.remove('open');
+    });
+  });
+}
+
+// ─── MOVEMENT TRACKER ───
+function initMovementTracker() {
+  const grid = document.getElementById('movement-grid');
+  if (!grid) return;
+
+  const companiesWithEvents = COMPANIES
+    .filter(c => c.recentEvent)
+    .sort((a, b) => b.recentEvent.date.localeCompare(a.recentEvent.date));
+
+  function renderMovements(type) {
+    const filtered = type === 'all'
+      ? companiesWithEvents
+      : companiesWithEvents.filter(c => c.recentEvent.type === type);
+
+    grid.innerHTML = filtered.slice(0, 15).map(c => {
+      const evType = c.recentEvent.type;
+      return `
+        <div class="movement-item" onclick="openCompanyModal('${c.name.replace(/'/g, "\\'")}')">
+          <span class="movement-type movement-type-${evType}">${evType}</span>
+          <div class="movement-info">
+            <div class="movement-company">${c.name} ${renderSignalBadge(c.signal)}</div>
+            <div class="movement-text">${c.recentEvent.text}</div>
+          </div>
+          <span class="movement-date">${c.recentEvent.date}</span>
+        </div>
+      `;
+    }).join('');
+
+    if (filtered.length === 0) {
+      grid.innerHTML = '<p style="color: var(--text-muted); padding: 20px;">No events in this category yet.</p>';
+    }
+  }
+
+  renderMovements('all');
+
+  // Tab handling
+  document.querySelectorAll('.movement-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.movement-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderMovements(tab.dataset.type);
     });
   });
 }
