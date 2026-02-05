@@ -1,10 +1,22 @@
-name: Weekly Data Update
+name: Automated Data Pipeline
 
 on:
   schedule:
-    # Every Monday at 8:00 AM UTC
+    # Daily quick update at 7:00 AM UTC (news + market pulse)
+    - cron: '0 7 * * *'
+    # Weekly deep update every Monday at 8:00 AM UTC
     - cron: '0 8 * * 1'
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Update mode'
+        required: false
+        default: 'standard'
+        type: choice
+        options:
+          - quick
+          - standard
+          - deep
 
 permissions:
   contents: write
@@ -25,11 +37,29 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Run data update script
+      - name: Determine update mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode || 'standard' }}" >> $GITHUB_OUTPUT
+          elif [ "$(date +%u)" = "1" ]; then
+            echo "mode=deep" >> $GITHUB_OUTPUT
+          else
+            echo "mode=quick" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run data pipeline
         env:
           FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
-          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
-        run: python scripts/update_data.py
+        run: |
+          MODE=${{ steps.mode.outputs.mode }}
+          if [ "$MODE" = "quick" ]; then
+            python scripts/update_data.py --quick
+          elif [ "$MODE" = "deep" ]; then
+            python scripts/update_data.py --deep
+          else
+            python scripts/update_data.py
+          fi
 
       - name: Check for changes
         id: changes
@@ -42,10 +72,21 @@ jobs:
           git config user.name "Innovators League Bot"
           git config user.email "bot@innovatorsleague.com"
           git add data.js
-          git commit -m "chore: weekly data update $(date +%Y-%m-%d)
+          git commit -m "chore: automated data update $(date +%Y-%m-%d) [${{ steps.mode.outputs.mode }}]
 
-          Automated weekly update:
-          - Public company market cap refresh
-          - Movement tracker event additions
-          - LAST_UPDATED timestamp bump"
+          Automated pipeline update:
+          - Market pulse & stock data refresh
+          - News ticker update from RSS feeds
+          - Funding round detection
+          - LAST_UPDATED timestamp bump
+
+          Mode: ${{ steps.mode.outputs.mode }}"
           git push
+
+      - name: Upload update report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-report-${{ github.run_id }}
+          path: update_report.txt
+          retention-days: 30
