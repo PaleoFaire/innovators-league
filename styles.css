@@ -3523,6 +3523,372 @@ body {
   filter: brightness(1.2);
 }
 
+/* ─── CARD WEBSITE LINK ─── */
+.card-link-website {
+  color: var(--text-muted) !important;
+  margin-left: 8px;
+}
+.card-link-website:hover {
+  color: var(--accent) !important;
+}
+
+/* ─── MODAL MAFIA BADGES ─── */
+.modal-mafias {
+  margin-top: 16px;
+}
+
+.modal-mafias h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.mafia-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.mafia-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+}
+
+.mafia-icon { font-size: 14px; }
+.mafia-name { font-weight: 600; }
+.mafia-detail { font-size: 11px; opacity: 0.8; }
+
+/* ─── MODAL REVENUE ─── */
+.modal-revenue {
+  margin-top: 16px;
+}
+
+.modal-revenue h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.revenue-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.revenue-item {
+  background: var(--bg-tertiary);
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+}
+
+.revenue-label {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+
+.revenue-value {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+/* ─── MODAL VALUATION CONTEXT ─── */
+.modal-valuation-context {
+  margin-top: 12px;
+  padding: 12px 16px;
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--accent);
+}
+
+.val-context-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.val-context-text {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.val-context-note {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+/* ─── MAFIA EXPLORER SECTION ─── */
+.mafia-section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mafia-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 16px;
+}
+
+.mafia-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.mafia-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.mafia-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--bg-tertiary);
+}
+
+.mafia-card-icon { font-size: 24px; }
+
+.mafia-card-title {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.mafia-card-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.mafia-card-count {
+  margin-left: auto;
+  background: var(--accent);
+  color: #000;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+}
+
+.mafia-card-companies {
+  padding: 8px;
+}
+
+.mafia-company-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.mafia-company-row:hover {
+  background: var(--bg-tertiary);
+}
+
+.mafia-company-name {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.mafia-company-founders {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-align: right;
+  max-width: 55%;
+}
+
+/* ─── REVENUE INTELLIGENCE SECTION ─── */
+.revenue-section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.revenue-grid-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.revenue-row {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+  gap: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+  animation: fadeInUp 0.3s ease both;
+}
+
+.revenue-row:hover:not(.revenue-header) {
+  background: var(--bg-secondary);
+}
+
+.revenue-header {
+  background: var(--bg-tertiary);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+
+.revenue-cell {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+/* ─── REQUEST FOR STARTUPS ─── */
+.rfs-section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.rfs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 16px;
+}
+
+.rfs-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  transition: all 0.2s;
+  animation: fadeInUp 0.4s ease both;
+}
+
+.rfs-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+.rfs-card.rfs-critical {
+  border-left: 3px solid #ef4444;
+}
+
+.rfs-card.rfs-high {
+  border-left: 3px solid #f97316;
+}
+
+.rfs-card.rfs-medium {
+  border-left: 3px solid #eab308;
+}
+
+.rfs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rfs-sector {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.rfs-urgency {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.rfs-title {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.rfs-requester {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.rfs-problem {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.rfs-bounty {
+  font-size: 13px;
+  color: var(--accent);
+  padding: 8px 12px;
+  background: rgba(255, 107, 44, 0.08);
+  border-radius: var(--radius-sm);
+  margin-bottom: 12px;
+}
+
+.rfs-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.rfs-related {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.rfs-related-label {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.rfs-related-company {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  cursor: pointer;
+  padding: 2px 8px;
+  background: rgba(255, 107, 44, 0.1);
+  border-radius: var(--radius-sm);
+  transition: all 0.15s;
+}
+
+.rfs-related-company:hover {
+  background: rgba(255, 107, 44, 0.2);
+  transform: translateY(-1px);
+}
+
 /* ─── PREMIUM FEATURES RESPONSIVE ─── */
 @media (max-width: 768px) {
   .trl-legend { gap: 4px; }
@@ -3545,4 +3911,19 @@ body {
   .market-map-grid { grid-template-columns: 1fr; }
   .market-map-card { padding: 16px; }
   .market-map-header { flex-direction: column; align-items: flex-start; gap: 6px; }
+
+  .mafia-grid { grid-template-columns: 1fr; }
+  .mafia-company-founders { display: none; }
+
+  .revenue-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    padding: 10px 12px;
+  }
+  .revenue-header { display: none; }
+  .rev-period-col, .rev-source-col { display: none; }
+
+  .revenue-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .rfs-grid { grid-template-columns: 1fr; }
 }

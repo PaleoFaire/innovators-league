@@ -41,6 +41,127 @@ function getCountry(stateCode, location) {
   return 'United States';
 }
 
+// ─── COMPANY WEBSITE DIRECTORY ───
+const COMPANY_WEBSITES = {
+  "Anduril Industries": "https://www.anduril.com",
+  "Shield AI": "https://www.shield.ai",
+  "Epirus": "https://www.epirusinc.com",
+  "Saronic": "https://www.saronic.com",
+  "SpaceX": "https://www.spacex.com",
+  "Boom Supersonic": "https://boomsupersonic.com",
+  "Hermeus": "https://www.hermeus.com",
+  "Venus Aerospace": "https://www.venusaero.com",
+  "Castelion": "https://www.castelion.com",
+  "Hadrian": "https://www.hadrian.co",
+  "Palantir": "https://www.palantir.com",
+  "Scale AI": "https://scale.com",
+  "Relativity Space": "https://www.relativityspace.com",
+  "Rocket Lab": "https://www.rocketlabusa.com",
+  "Impulse Space": "https://www.impulsespace.com",
+  "Varda Space Industries": "https://www.varda.com",
+  "Astranis": "https://www.astranis.com",
+  "Planet Labs": "https://www.planet.com",
+  "Joby Aviation": "https://www.jobyaviation.com",
+  "Archer Aviation": "https://www.archer.com",
+  "Lilium": "https://www.lilium.com",
+  "Skydio": "https://www.skydio.com",
+  "Zipline": "https://www.flyzipline.com",
+  "Saildrone": "https://www.saildrone.com",
+  "Figure": "https://www.figure.ai",
+  "Physical Intelligence": "https://www.physicalintelligence.company",
+  "Agility Robotics": "https://www.agilityrobotics.com",
+  "Apptronik": "https://www.apptronik.com",
+  "Covariant": "https://covariant.ai",
+  "Boston Dynamics": "https://www.bostondynamics.com",
+  "Commonwealth Fusion Systems": "https://cfs.energy",
+  "Helion": "https://www.helionenergy.com",
+  "Oklo": "https://oklo.com",
+  "Radiant": "https://www.radiantnuclear.com",
+  "Kairos Power": "https://kairospower.com",
+  "TerraPower": "https://www.terrapower.com",
+  "NuScale Power": "https://www.nuscalepower.com",
+  "Fervo Energy": "https://fervoenergy.com",
+  "Solugen": "https://www.solugen.com",
+  "KoBold Metals": "https://www.koboldmetals.com",
+  "Heirloom Carbon": "https://www.heirloomcarbon.com",
+  "Terraform Industries": "https://www.terraformindustries.com",
+  "Cerebras": "https://www.cerebras.net",
+  "Groq": "https://groq.com",
+  "Lightmatter": "https://lightmatter.co",
+  "Etched": "https://www.etched.com",
+  "OpenAI": "https://openai.com",
+  "Anthropic": "https://www.anthropic.com",
+  "Neuralink": "https://neuralink.com",
+  "Waymo": "https://waymo.com",
+  "Zoox": "https://zoox.com",
+  "Applied Intuition": "https://www.appliedintuition.com",
+  "Flexport": "https://www.flexport.com",
+  "Gecko Robotics": "https://www.geckorobotics.com",
+  "Machina Labs": "https://www.machinalabs.ai",
+  "Bedrock Robotics": "https://www.bedrockrobotics.ai",
+  "GrayMatter Robotics": "https://www.graymatter-robotics.com",
+  "Collaborative Robotics": "https://www.collaborativerobotics.com",
+  "Pano AI": "https://www.pano.ai",
+  "AiDash": "https://www.aidash.com",
+  "Multiply Labs": "https://www.multiplylabs.com",
+  "Cobod": "https://cobod.com",
+  "Mighty Buildings": "https://www.mightybuildings.com",
+  "ICON Technology": "https://www.iconbuild.com",
+  "AstroForge": "https://www.astroforge.io",
+  "Muon Space": "https://www.muonspace.com",
+  "Axiom Space": "https://www.axiomspace.com",
+  "Sierra Space": "https://www.sierraspace.com",
+  "Valar Atomics": "https://www.valaratomics.com",
+  "Deep Fission": "https://www.deepfission.com",
+  "Pacific Fusion": "https://www.pacificfusion.com",
+  "Xcimer Energy": "https://www.xcimer.com",
+  "Zap Energy": "https://www.zapenergy.com",
+  "PsiQuantum": "https://www.psiquantum.com",
+  "IonQ": "https://ionq.com",
+  "Rigetti Computing": "https://www.rigetti.com",
+  "Colossal Biosciences": "https://colossal.com",
+  "Retro Biosciences": "https://retro.bio",
+  "NewLimit": "https://www.newlimit.com",
+  "Neros": "https://www.neros.tech",
+  "Chaos Industries": "https://www.chaosindustries.com",
+  "Picogrid": "https://picogrid.com",
+  "Skild AI": "https://www.skild.ai",
+  "Gecko Robotics": "https://www.geckorobotics.com",
+  "Antora Energy": "https://www.antoraenergy.com",
+  "Koloma": "https://www.koloma.com",
+  "Crusoe Energy": "https://www.crusoeenergy.com",
+  "Form Energy": "https://formenergy.com",
+  "Helion Energy": "https://www.helionenergy.com",
+  "Orangewood Labs": "https://www.orangewood.co",
+  "Trilobio": "https://www.trilobio.com",
+  "Starpath Robotics": "https://www.starpathrobotics.com",
+  "SafeAI": "https://www.safeai.ai",
+  "RIOS Intelligent Machines": "https://www.rios.ai",
+  "Orbital Composites": "https://www.orbitalcomposites.com"
+};
+
+function getCompanyWebsite(companyName) {
+  return COMPANY_WEBSITES[companyName] || '';
+}
+
+// ─── MAFIA LOOKUP ───
+function getCompanyMafias(companyName) {
+  if (typeof FOUNDER_MAFIAS === 'undefined') return [];
+  const results = [];
+  for (const [mafiaName, data] of Object.entries(FOUNDER_MAFIAS)) {
+    const match = data.companies.find(c => c.company === companyName);
+    if (match) {
+      results.push({
+        mafia: mafiaName,
+        icon: data.icon,
+        color: data.color,
+        detail: match.founders
+      });
+    }
+  }
+  return results;
+}
+
 // ─── SIGNAL HELPERS ───
 const SIGNAL_CONFIG = {
   hot:         { label: 'HOT', icon: '🔥', class: 'signal-hot' },
@@ -479,10 +600,66 @@ function openCompanyModal(companyName) {
 
     ${!company.scores && !company.insight ? '<p class="assessment-pending">⏳ Full intelligence assessment pending</p>' : ''}
 
+    ${(() => {
+      const mafias = getCompanyMafias(company.name);
+      return mafias.length > 0 ? `
+        <div class="modal-mafias">
+          <h4>Founder Network</h4>
+          <div class="mafia-badges">
+            ${mafias.map(m => `
+              <div class="mafia-badge" style="background:${m.color}12; border:1px solid ${m.color}30; color:${m.color};">
+                <span class="mafia-icon">${m.icon}</span>
+                <span class="mafia-name">${m.mafia}</span>
+                <span class="mafia-detail">${m.detail}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      ` : '';
+    })()}
+
+    ${(() => {
+      const rev = typeof REVENUE_INTEL !== 'undefined' ? REVENUE_INTEL.find(r => r.company === company.name) : null;
+      return rev ? `
+        <div class="modal-revenue">
+          <h4>Revenue Intelligence</h4>
+          <div class="revenue-grid">
+            <div class="revenue-item"><span class="revenue-label">Revenue</span><span class="revenue-value">${rev.revenue}</span></div>
+            <div class="revenue-item"><span class="revenue-label">Period</span><span class="revenue-value">${rev.period}</span></div>
+            <div class="revenue-item"><span class="revenue-label">Growth</span><span class="revenue-value" style="color:var(--accent);">${rev.growth}</span></div>
+            <div class="revenue-item"><span class="revenue-label">Source</span><span class="revenue-value" style="font-size:11px;">${rev.source}</span></div>
+          </div>
+        </div>
+      ` : '';
+    })()}
+
+    ${(() => {
+      const benchmarks = typeof VALUATION_BENCHMARKS !== 'undefined' ? VALUATION_BENCHMARKS[company.sector] : null;
+      if (!benchmarks || !company.fundingStage) return '';
+      const stage = company.fundingStage.toLowerCase();
+      let stageData = null;
+      if (stage.includes('seed') || stage.includes('pre-seed')) stageData = benchmarks.seed;
+      else if (stage.includes('series a') || stage === 'early stage') stageData = benchmarks.seriesA;
+      else if (stage.includes('series b')) stageData = benchmarks.seriesB;
+      else if (stage.includes('series c') || stage.includes('series d')) stageData = benchmarks.seriesC;
+      else if (stage.includes('growth') || stage.includes('late') || stage.includes('series e') || stage.includes('series f') || stage.includes('series g')) stageData = benchmarks.growth;
+      if (!stageData) return '';
+      return `
+        <div class="modal-valuation-context">
+          <div class="val-context-label">📊 Sector Valuation Context: ${company.sector}</div>
+          <div class="val-context-text">Median ${company.fundingStage} valuation: <strong>${stageData.median}</strong> (range: ${stageData.range}, ${stageData.deals} deals tracked)</div>
+          ${benchmarks.note ? `<div class="val-context-note">${benchmarks.note}</div>` : ''}
+        </div>
+      `;
+    })()}
+
     <div class="modal-actions">
       ${company.rosLink ? `<a href="${company.rosLink}" target="_blank" rel="noopener" class="modal-action-btn primary">
         Read Coverage
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+      </a>` : ''}
+      ${getCompanyWebsite(company.name) ? `<a href="${getCompanyWebsite(company.name)}" target="_blank" rel="noopener" class="modal-action-btn">
+        🌐 Website
       </a>` : ''}
       <button class="modal-action-btn ${saved ? 'saved' : ''}" onclick="toggleBookmark('${company.name.replace(/'/g, "\\'")}'); openCompanyModal('${company.name.replace(/'/g, "\\'")}');">
         ${saved ? '★ Saved' : '☆ Save'}
@@ -575,6 +752,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initDealTracker();
   initGrowthSignals();
   initMarketMap();
+  initMafiaExplorer();
+  initRevenueTable();
+  initRequestForStartups();
   initNewsTicker();
   initMarketPulse();
   initFundingTracker();
@@ -957,7 +1137,10 @@ function renderCompanies(companies) {
       <div class="card-footer">
         ${company.rosLink ? `<a href="${company.rosLink}" target="_blank" rel="noopener" class="card-link" onclick="event.stopPropagation();">
           Read Coverage <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
-        </a>` : '<span class="card-link" style="color:var(--text-muted);">Coming Soon</span>'}
+        </a>` : ''}
+        ${getCompanyWebsite(company.name) ? `<a href="${getCompanyWebsite(company.name)}" target="_blank" rel="noopener" class="card-link card-link-website" onclick="event.stopPropagation();">
+          Website <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>` : ''}
       </div>
     `;
 
@@ -1763,6 +1946,120 @@ function initMarketMap() {
           <div class="market-tier-companies">${renderCompanyList(data.emerging, 'market-emerging')}</div>
         </div>
       </div>
+    `;
+
+    grid.appendChild(card);
+  });
+}
+
+// ─── MAFIA EXPLORER ───
+function initMafiaExplorer() {
+  const grid = document.getElementById('mafia-grid');
+  if (!grid || typeof FOUNDER_MAFIAS === 'undefined') return;
+
+  Object.entries(FOUNDER_MAFIAS).forEach(([name, data]) => {
+    const card = document.createElement('div');
+    card.className = 'mafia-card';
+
+    card.innerHTML = `
+      <div class="mafia-card-header" style="border-left: 3px solid ${data.color};">
+        <span class="mafia-card-icon">${data.icon}</span>
+        <div>
+          <h3 class="mafia-card-title">${name}</h3>
+          <p class="mafia-card-desc">${data.description}</p>
+        </div>
+        <span class="mafia-card-count">${data.companies.length}</span>
+      </div>
+      <div class="mafia-card-companies">
+        ${data.companies.map(c => `
+          <div class="mafia-company-row" onclick="openCompanyModal('${c.company}')">
+            <span class="mafia-company-name">${c.company}</span>
+            <span class="mafia-company-founders">${c.founders}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+
+    grid.appendChild(card);
+  });
+}
+
+// ─── REVENUE TABLE ───
+function initRevenueTable() {
+  const grid = document.getElementById('revenue-grid');
+  if (!grid || typeof REVENUE_INTEL === 'undefined') return;
+
+  const sorted = [...REVENUE_INTEL].sort((a, b) => {
+    const parseRev = (r) => {
+      const m = r.match(/\$?([\d.]+)(B|M|T)/);
+      if (!m) return 0;
+      const val = parseFloat(m[1]);
+      if (m[2] === 'T') return val * 1000;
+      if (m[2] === 'B') return val;
+      return val / 1000;
+    };
+    return parseRev(b.revenue) - parseRev(a.revenue);
+  });
+
+  const header = document.createElement('div');
+  header.className = 'revenue-row revenue-header';
+  header.innerHTML = `
+    <div class="revenue-cell rev-company-col">Company</div>
+    <div class="revenue-cell rev-revenue-col">Revenue</div>
+    <div class="revenue-cell rev-period-col">Period</div>
+    <div class="revenue-cell rev-growth-col">Growth</div>
+    <div class="revenue-cell rev-source-col">Source</div>
+  `;
+  grid.appendChild(header);
+
+  sorted.forEach((rev, i) => {
+    const row = document.createElement('div');
+    row.className = 'revenue-row';
+    row.style.animationDelay = `${i * 30}ms`;
+    const isPreRevenue = rev.revenue === 'Pre-Revenue';
+
+    row.innerHTML = `
+      <div class="revenue-cell rev-company-col"><span class="deal-company-link" onclick="openCompanyModal('${rev.company}')">${rev.company}</span></div>
+      <div class="revenue-cell rev-revenue-col" style="color:${isPreRevenue ? 'var(--text-muted)' : 'var(--accent)'};font-weight:600;">${rev.revenue}</div>
+      <div class="revenue-cell rev-period-col">${rev.period}</div>
+      <div class="revenue-cell rev-growth-col" style="color:${rev.growth === 'N/A' ? 'var(--text-muted)' : '#22c55e'}">${rev.growth}</div>
+      <div class="revenue-cell rev-source-col">${rev.source}</div>
+    `;
+    grid.appendChild(row);
+  });
+}
+
+// ─── REQUEST FOR STARTUPS ───
+function initRequestForStartups() {
+  const grid = document.getElementById('rfs-grid');
+  if (!grid || typeof REQUEST_FOR_STARTUPS === 'undefined') return;
+
+  REQUEST_FOR_STARTUPS.forEach((rfs, i) => {
+    const card = document.createElement('div');
+    card.className = `rfs-card rfs-${rfs.urgency}`;
+    card.style.animationDelay = `${i * 50}ms`;
+
+    const sectorInfo = SECTORS[rfs.sector] || { icon: '📦', color: '#6b7280' };
+    const urgencyLabels = { critical: '🔴 Critical', high: '🟠 High', medium: '🟡 Medium' };
+
+    card.innerHTML = `
+      <div class="rfs-header">
+        <span class="rfs-sector" style="color:${sectorInfo.color}">${sectorInfo.icon} ${rfs.sector}</span>
+        <span class="rfs-urgency">${urgencyLabels[rfs.urgency] || rfs.urgency}</span>
+      </div>
+      <h3 class="rfs-title">${rfs.title}</h3>
+      <div class="rfs-requester">Requested by: <strong>${rfs.requestedBy}</strong></div>
+      <p class="rfs-problem">${rfs.problem}</p>
+      <div class="rfs-bounty">💰 Market Opportunity: <strong>${rfs.bounty}</strong></div>
+      <div class="rfs-tags">
+        ${rfs.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+      </div>
+      ${rfs.relatedCompanies.length > 0 ? `
+        <div class="rfs-related">
+          <span class="rfs-related-label">Companies working on this:</span>
+          ${rfs.relatedCompanies.map(c => `<span class="rfs-related-company" onclick="openCompanyModal('${c}')">${c}</span>`).join('')}
+        </div>
+      ` : ''}
     `;
 
     grid.appendChild(card);

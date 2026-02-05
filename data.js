@@ -7127,3 +7127,322 @@ const MARKET_MAP = {
     keyTrend: "Custom silicon and inference optimization becoming the next battleground"
   }
 };
+
+// ─── FOUNDER MAFIA TRACKING ───
+// Tags founders by their alumni networks — the "mafias" that produce disproportionate startup founders
+const FOUNDER_MAFIAS = {
+  "SpaceX Mafia": {
+    icon: "🚀",
+    color: "#3b82f6",
+    description: "Former SpaceX engineers who left to found their own companies",
+    companies: [
+      { company: "Impulse Space", founders: "Tom Mueller (Founding Employee, VP Propulsion)" },
+      { company: "Relativity Space", founders: "Tim Ellis (Intern/Engineer)" },
+      { company: "Varda Space Industries", founders: "Will Bruey (Engineer)" },
+      { company: "Castelion", founders: "Team of former SpaceX engineers" },
+      { company: "Hermeus", founders: "AJ Piplica, Skyler Shuford (Engineers)" },
+      { company: "Hadrian", founders: "Chris Power (Adjacent — SpaceX supply chain)" },
+      { company: "Starpath Robotics", founders: "Joe Landon (Engineer)" },
+      { company: "Astra", founders: "Chris Kemp (CTO of NASA, SpaceX adjacent)" },
+      { company: "Apex Space", founders: "Former SpaceX manufacturing engineers" },
+      { company: "Long Wall", founders: "Former SpaceX engineers" },
+      { company: "Astro Mechanica", founders: "Former SpaceX propulsion team" },
+      { company: "Oklo", founders: "Jake DeWitte (adjacent — DOE/SpaceX network)" }
+    ]
+  },
+  "Palantir Mafia": {
+    icon: "🛡️",
+    color: "#dc2626",
+    description: "Former Palantir employees who founded defense and enterprise tech companies",
+    companies: [
+      { company: "Anduril Industries", founders: "Palmer Luckey (Palantir board), Trae Stephens (Palantir)" },
+      { company: "Hadrian", founders: "Chris Power (Palantir network)" },
+      { company: "Saronic", founders: "Deans Kamen (Palantir defense network)" },
+      { company: "Vannevar Labs", founders: "Brett Granberg (Palantir)" },
+      { company: "Scale AI", founders: "Alexandr Wang (Palantir intern/adjacent)" },
+      { company: "8VC", founders: "Joe Lonsdale (Palantir Co-Founder)" },
+      { company: "Epirus", founders: "Defense network overlap with Palantir ecosystem" }
+    ]
+  },
+  "Stripe Mafia": {
+    icon: "💳",
+    color: "#6366f1",
+    description: "Former Stripe employees founding fintech and infrastructure companies",
+    companies: [
+      { company: "Flexport", founders: "Ryan Petersen (Stripe network)" }
+    ]
+  },
+  "Google/DeepMind Alumni": {
+    icon: "🧠",
+    color: "#8b5cf6",
+    description: "Former Google, DeepMind, and Google Brain researchers",
+    companies: [
+      { company: "Physical Intelligence", founders: "Karol Hausman (Google Brain)" },
+      { company: "Covariant", founders: "Pieter Abbeel (UC Berkeley/Google Brain adjacent)" },
+      { company: "Waymo", founders: "Google self-driving car spinout" },
+      { company: "Figure", founders: "Brett Adcock (adjacent — Google AI ecosystem)" },
+      { company: "Skild AI", founders: "Deepak Pathak (CMU/Google Research)" },
+      { company: "Kyutai", founders: "Former Meta & Google AI researchers" }
+    ]
+  },
+  "Tesla/Autopilot Alumni": {
+    icon: "⚡",
+    color: "#22c55e",
+    description: "Former Tesla and Autopilot team members",
+    companies: [
+      { company: "Applied Intuition", founders: "Qasar Younis (adjacent — Tesla network)" },
+      { company: "Zoox", founders: "Competed with Tesla on autonomous driving" },
+      { company: "Bedrock Robotics", founders: "Former Waymo engineers (Tesla competitor ecosystem)" }
+    ]
+  },
+  "Amazon Robotics Alumni": {
+    icon: "📦",
+    color: "#f97316",
+    description: "Former Amazon robotics and logistics leaders",
+    companies: [
+      { company: "Collaborative Robotics", founders: "Brad Porter (VP Robotics, led 10K people)" },
+      { company: "Agility Robotics", founders: "Amazon partnership/investment" },
+      { company: "Zoox", founders: "Acquired by Amazon for $1.2B+" }
+    ]
+  },
+  "NASA/JPL Alumni": {
+    icon: "🌌",
+    color: "#06b6d4",
+    description: "Former NASA, JPL, and government space program veterans",
+    companies: [
+      { company: "Rocket Lab", founders: "Peter Beck (self-taught, NZ space program)" },
+      { company: "Axiom Space", founders: "Michael Suffredini (former ISS Program Manager)" },
+      { company: "Starpath Robotics", founders: "NASA Break the Ice Challenge winner" },
+      { company: "AstroForge", founders: "Matt Gialich (JPL adjacent)" },
+      { company: "Sierra Space", founders: "Spun from Sierra Nevada Corp" },
+      { company: "Planet Labs", founders: "Robbie Schingler, Will Marshall (NASA Ames)" },
+      { company: "Saildrone", founders: "Richard Jenkins (ocean engineering)" }
+    ]
+  },
+  "Y Combinator Deep Tech": {
+    icon: "🟧",
+    color: "#f59e0b",
+    description: "YC-backed deep tech and hardware companies",
+    companies: [
+      { company: "Boom Supersonic", founders: "Blake Scholl (YC W16)" },
+      { company: "Helion", founders: "David Kirtley (YC S14)" },
+      { company: "Relativity Space", founders: "Tim Ellis (YC S16)" },
+      { company: "Gecko Robotics", founders: "Jake Loosararian (YC W16)" },
+      { company: "Orangewood Labs", founders: "Nishant Gupta (YC S16)" },
+      { company: "Trilobio", founders: "Max Hensen (YC adjacent)" },
+      { company: "Multiply Labs", founders: "Fred Parietti (YC S16)" },
+      { company: "Solugen", founders: "Gaurab Chakrabarti (YC S17)" }
+    ]
+  }
+};
+
+// ─── REVENUE INTELLIGENCE ───
+// Revenue figures where publicly available or credibly reported
+const REVENUE_INTEL = [
+  { company: "Palantir", revenue: "$2.8B+", period: "2025 Annual", growth: "30%+ YoY", source: "Public filings (NYSE: PLTR)" },
+  { company: "SpaceX", revenue: "$14B+", period: "2025 Est.", growth: "40%+ YoY", source: "Reported estimates" },
+  { company: "Anduril Industries", revenue: "$1.5B+", period: "2025 Est.", growth: "100%+ YoY", source: "Reported estimates" },
+  { company: "Scale AI", revenue: "$1.4B+", period: "2025 ARR", growth: "80%+ YoY", source: "Reported estimates" },
+  { company: "Flexport", revenue: "$3B+", period: "2025 Est.", growth: "25%+ YoY", source: "Reported estimates" },
+  { company: "NVIDIA", revenue: "$130B+", period: "FY2025", growth: "115%+ YoY", source: "Public filings (NASDAQ: NVDA)" },
+  { company: "Rocket Lab", revenue: "$450M+", period: "2025 Est.", growth: "40%+ YoY", source: "Public filings (NASDAQ: RKLB)" },
+  { company: "Planet Labs", revenue: "$240M+", period: "2025 Est.", growth: "15%+ YoY", source: "Public filings (NYSE: PL)" },
+  { company: "Joby Aviation", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Public filings (NYSE: JOBY)" },
+  { company: "Archer Aviation", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Public filings (NYSE: ACHR)" },
+  { company: "Pano AI", revenue: "$100M+", period: "Booked Revenue", growth: "100%+ YoY", source: "Company announcement" },
+  { company: "AiDash", revenue: "$50M+", period: "2025 ARR Est.", growth: "100%+ YoY", source: "Company announcement" },
+  { company: "Hadrian", revenue: "$100M+", period: "2025 Est.", growth: "200%+ YoY", source: "Reported estimates" },
+  { company: "Shield AI", revenue: "$500M+", period: "2025 Est.", growth: "100%+ YoY", source: "Reported estimates" },
+  { company: "Boom Supersonic", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Pre-certification" },
+  { company: "Waymo", revenue: "$1B+", period: "2025 Est.", growth: "300%+ YoY", source: "Reported estimates" },
+  { company: "Cerebras", revenue: "$200M+", period: "2025 Est.", growth: "150%+ YoY", source: "Reported estimates" },
+  { company: "Zipline", revenue: "$300M+", period: "2025 Est.", growth: "50%+ YoY", source: "Reported estimates" },
+  { company: "Skydio", revenue: "$300M+", period: "2025 Est.", growth: "80%+ YoY", source: "Reported estimates" },
+  { company: "Saronic", revenue: "$50M+", period: "2025 Est.", growth: "500%+ YoY", source: "Early revenue stage" }
+];
+
+// ─── VALUATION MULTIPLES BY SECTOR & STAGE ───
+// Average valuations to contextualize individual company valuations
+const VALUATION_BENCHMARKS = {
+  "Defense & Security": {
+    seed: { median: "$25M", range: "$15-40M", deals: 45 },
+    seriesA: { median: "$120M", range: "$60-250M", deals: 28 },
+    seriesB: { median: "$500M", range: "$200M-1.5B", deals: 18 },
+    seriesC: { median: "$2B", range: "$800M-5B", deals: 12 },
+    growth: { median: "$5B+", range: "$2-30B", deals: 8 },
+    note: "Defense premiums at all-time highs. Replicator program driving urgency."
+  },
+  "Nuclear Energy": {
+    seed: { median: "$20M", range: "$10-35M", deals: 25 },
+    seriesA: { median: "$80M", range: "$40-200M", deals: 15 },
+    seriesB: { median: "$400M", range: "$150M-1B", deals: 10 },
+    seriesC: { median: "$1.5B", range: "$500M-6B", deals: 6 },
+    growth: { median: "$3B+", range: "$1-10B", deals: 4 },
+    note: "Fusion companies command premium multiples. Fission SMRs priced on regulatory progress."
+  },
+  "Space & Aerospace": {
+    seed: { median: "$20M", range: "$10-40M", deals: 50 },
+    seriesA: { median: "$100M", range: "$50-250M", deals: 30 },
+    seriesB: { median: "$500M", range: "$200M-1.5B", deals: 20 },
+    seriesC: { median: "$2B", range: "$700M-8B", deals: 10 },
+    growth: { median: "$10B+", range: "$3-350B", deals: 5 },
+    note: "SpaceX outlier ($350B) skews growth stage. Launch companies increasingly valued on manufacturing."
+  },
+  "AI & Software": {
+    seed: { median: "$30M", range: "$15-60M", deals: 200 },
+    seriesA: { median: "$200M", range: "$80-500M", deals: 120 },
+    seriesB: { median: "$800M", range: "$300M-2B", deals: 60 },
+    seriesC: { median: "$3B", range: "$1-10B", deals: 25 },
+    growth: { median: "$10B+", range: "$3-150B", deals: 15 },
+    note: "AI valuations remain elevated. Foundation model companies 3-5x premium to vertical SaaS."
+  },
+  "Robotics & Manufacturing": {
+    seed: { median: "$18M", range: "$8-35M", deals: 40 },
+    seriesA: { median: "$80M", range: "$40-200M", deals: 25 },
+    seriesB: { median: "$350M", range: "$150M-1B", deals: 15 },
+    seriesC: { median: "$1.2B", range: "$500M-3B", deals: 8 },
+    growth: { median: "$3B+", range: "$1-10B", deals: 5 },
+    note: "Humanoid robotics commanding 5-10x premium over industrial robotics."
+  },
+  "Climate & Energy": {
+    seed: { median: "$15M", range: "$8-30M", deals: 60 },
+    seriesA: { median: "$60M", range: "$30-150M", deals: 35 },
+    seriesB: { median: "$250M", range: "$100M-600M", deals: 20 },
+    seriesC: { median: "$800M", range: "$300M-2B", deals: 10 },
+    growth: { median: "$2B+", range: "$800M-5B", deals: 6 },
+    note: "Carbon removal and enhanced geothermal seeing fastest valuation growth."
+  },
+  "Biotech & Health": {
+    seed: { median: "$20M", range: "$10-40M", deals: 80 },
+    seriesA: { median: "$100M", range: "$50-300M", deals: 50 },
+    seriesB: { median: "$500M", range: "$200M-1.5B", deals: 30 },
+    seriesC: { median: "$1.5B", range: "$500M-5B", deals: 15 },
+    growth: { median: "$5B+", range: "$1-30B", deals: 8 },
+    note: "Longevity sector emerging with premium multiples. GLP-1 adjacency driving interest."
+  }
+};
+
+// ─── REQUEST FOR STARTUPS: Problems That Need Solving ───
+// Corporate and institutional needs that create market opportunities
+const REQUEST_FOR_STARTUPS = [
+  {
+    title: "Autonomous Drone Swarm Coordination",
+    requestedBy: "U.S. Department of Defense",
+    sector: "Defense & Security",
+    problem: "Coordinating hundreds of autonomous drones in contested environments with degraded GPS and communications. Current systems can't scale beyond small formations.",
+    bounty: "Billions in procurement",
+    urgency: "critical",
+    relatedCompanies: ["Shield AI", "Anduril Industries", "Skydio"],
+    tags: ["autonomy", "swarm intelligence", "EW resilience"]
+  },
+  {
+    title: "AI-Powered Power Grid Load Balancing",
+    requestedBy: "Major US Utilities / Data Center Operators",
+    sector: "Infrastructure & Logistics",
+    problem: "Data centers are requesting 10-50GW of new power capacity. Current grid infrastructure can't handle the load. Need AI systems that can dynamically balance supply and demand in real-time.",
+    bounty: "$100B+ market opportunity",
+    urgency: "critical",
+    relatedCompanies: ["AiDash", "Fervo Energy", "Antora Energy"],
+    tags: ["grid modernization", "AI optimization", "energy storage"]
+  },
+  {
+    title: "Reduce Directed Energy Weapon Power Consumption",
+    requestedBy: "U.S. Navy / Army",
+    sector: "Defense & Security",
+    problem: "Current directed energy weapons require enormous power systems. Need 10x improvement in power efficiency to make ship-based and vehicle-mounted DEWs practical for widespread deployment.",
+    bounty: "Major defense contracts",
+    urgency: "high",
+    relatedCompanies: ["Epirus"],
+    tags: ["directed energy", "power electronics", "thermal management"]
+  },
+  {
+    title: "Scalable Carbon-Negative Cement",
+    requestedBy: "Construction Industry / Climate Funds",
+    sector: "Climate & Energy",
+    problem: "Cement production accounts for 8% of global CO2 emissions. Need drop-in replacement that is carbon-negative, cost-competitive, and can scale to billions of tons per year.",
+    bounty: "$500B+ market",
+    urgency: "high",
+    relatedCompanies: ["Heirloom Carbon", "Terraform Industries"],
+    tags: ["carbon capture", "construction materials", "industrial decarbonization"]
+  },
+  {
+    title: "General-Purpose Robot Foundation Model",
+    requestedBy: "Manufacturing / Logistics / Healthcare",
+    sector: "Robotics & Manufacturing",
+    problem: "Robots today are programmed for single tasks. Need a foundation model that enables any robot to learn new tasks from demonstration or natural language, with zero-shot transfer across platforms.",
+    bounty: "$200B+ robotics TAM",
+    urgency: "high",
+    relatedCompanies: ["Physical Intelligence", "Covariant", "Skild AI"],
+    tags: ["foundation models", "manipulation", "sim-to-real"]
+  },
+  {
+    title: "Affordable Small Modular Reactor Fuel Supply",
+    requestedBy: "SMR Developers / DOE",
+    sector: "Nuclear Energy",
+    problem: "HALEU fuel (high-assay low-enriched uranium) supply is the bottleneck for every SMR company. Current capacity is nearly zero. Need 10x increase in domestic HALEU production by 2030.",
+    bounty: "Critical enabler for $50B+ nuclear market",
+    urgency: "critical",
+    relatedCompanies: ["Oklo", "Radiant", "General Matter", "Kairos Power"],
+    tags: ["nuclear fuel", "HALEU", "enrichment", "supply chain"]
+  },
+  {
+    title: "Counter-UAS for Critical Infrastructure",
+    requestedBy: "FAA / DHS / Airport Operators",
+    sector: "Defense & Security",
+    problem: "Unauthorized drones near airports and critical infrastructure are increasing 100%+ annually. Need automated detection, tracking, and neutralization that's safe in populated areas.",
+    bounty: "$10B+ market",
+    urgency: "high",
+    relatedCompanies: ["Epirus", "Anduril Industries", "Skydio"],
+    tags: ["counter-drone", "critical infrastructure", "RF detection"]
+  },
+  {
+    title: "Autonomous Ship-to-Shore Logistics",
+    requestedBy: "U.S. Navy / Marine Corps",
+    sector: "Ocean & Maritime",
+    problem: "Moving supplies from ships to shore in contested environments is one of the most dangerous military operations. Need autonomous surface vessels that can do this without risking human lives.",
+    bounty: "Major naval procurement",
+    urgency: "high",
+    relatedCompanies: ["Saronic", "Saildrone"],
+    tags: ["autonomous vessels", "logistics", "contested environments"]
+  },
+  {
+    title: "Real-Time Wildfire Prediction (Not Just Detection)",
+    requestedBy: "CalFire / FEMA / Insurance Industry",
+    sector: "Climate & Energy",
+    problem: "Current systems detect fires after they start. Need AI that predicts where fires will start 24-72 hours in advance using weather, vegetation, soil moisture, and human activity data.",
+    bounty: "$20B+ in annual wildfire damage prevention",
+    urgency: "high",
+    relatedCompanies: ["Pano AI"],
+    tags: ["wildfire prediction", "climate AI", "satellite analytics"]
+  },
+  {
+    title: "Photonic Interconnects for AI Data Centers",
+    requestedBy: "Hyperscalers (Google, Microsoft, Meta, Amazon)",
+    sector: "Chips & Semiconductors",
+    problem: "Electrical interconnects between AI chips are the bottleneck, not the chips themselves. Need photonic interconnects that are 10x faster and 10x more energy efficient than copper.",
+    bounty: "$50B+ market",
+    urgency: "critical",
+    relatedCompanies: ["Lightmatter", "Celestial AI"],
+    tags: ["photonics", "optical interconnects", "AI infrastructure"]
+  },
+  {
+    title: "Automated Aerospace Parts Inspection",
+    requestedBy: "Boeing / Lockheed Martin / Northrop Grumman",
+    sector: "Robotics & Manufacturing",
+    problem: "Defense primes waste 30-40% of manufacturing time on manual inspection. Need AI + robotics systems that can inspect complex parts with higher accuracy than humans.",
+    bounty: "$5B+ in efficiency gains",
+    urgency: "medium",
+    relatedCompanies: ["Hadrian", "Gecko Robotics", "GrayMatter Robotics"],
+    tags: ["quality inspection", "computer vision", "manufacturing AI"]
+  },
+  {
+    title: "Space Debris Removal at Scale",
+    requestedBy: "ESA / NASA / Satellite Operators",
+    sector: "Space & Aerospace",
+    problem: "30,000+ tracked debris objects threaten $1T+ in space assets. Need economically viable technology to remove debris at scale — current approaches can handle one piece at a time.",
+    bounty: "Emerging market, regulatory push imminent",
+    urgency: "medium",
+    relatedCompanies: ["Impulse Space", "Astroscale"],
+    tags: ["space debris", "orbital services", "sustainability"]
+  }
+];
