@@ -2,8 +2,9 @@
 """
 Weekly Data Updater for The Innovators League
 ----------------------------------------------
-Fetches public company market caps and recent tech news,
-then patches data.js with updated values.
+Fetches public company market caps, stock changes, and recent tech news,
+then patches data.js with updated values. Also updates MARKET_PULSE
+for live Bloomberg-style ticker display.
 
 Environment variables:
   FMP_API_KEY  - Financial Modeling Prep API key (free tier: 250 req/day)
@@ -39,10 +40,12 @@ PUBLIC_COMPANIES = {
     "NVIDIA": "NVDA",
 }
 
-# RSS feeds for tech/defense news
+# RSS feeds for tech/defense/frontier news
 RSS_FEEDS = [
     "https://techcrunch.com/feed/",
     "https://feeds.feedburner.com/defense-one/all",
+    "https://spacenews.com/feed/",
+    "https://www.therobotreport.com/feed/",
 ]
 
 # Keywords to watch for in news
@@ -51,7 +54,9 @@ WATCH_KEYWORDS = [
     "boom supersonic", "helion", "openai", "anthropic",
     "defense tech", "autonomous", "nuclear energy", "fusion",
     "drone", "robotics", "deep tech", "series", "raised",
-    "valuation", "ipo", "funding round",
+    "valuation", "ipo", "funding round", "rocket lab",
+    "hypersonic", "quantum", "semiconductor", "chips act",
+    "ai startup", "defense startup", "climate tech",
 ]
 
 
@@ -88,13 +93,17 @@ def fetch_market_caps():
         for item in data:
             symbol = item.get("symbol", "")
             market_cap = item.get("marketCap", 0)
-            name = item.get("name", "")
+            change_pct = item.get("changesPercentage", 0)
 
             # Find our company name for this ticker
             for company_name, ticker in PUBLIC_COMPANIES.items():
                 if ticker == symbol:
-                    results[company_name] = market_cap
-                    logger.info(f"  {company_name} ({symbol}): ${market_cap:,.0f}")
+                    results[company_name] = {
+                        "marketCap": market_cap,
+                        "change": change_pct,
+                        "ticker": ticker,
+                    }
+                    logger.info(f"  {company_name} ({symbol}): ${market_cap:,.0f} ({change_pct:+.1f}%)")
                     break
 
     except Exception as e:
@@ -116,15 +125,13 @@ def format_market_cap(cap):
 
 def update_valuations(content, market_caps):
     """Update valuation fields for public companies."""
-    today = datetime.now().strftime("%Y-%m")
-
-    for company_name, cap in market_caps.items():
+    for company_name, data in market_caps.items():
+        cap = data["marketCap"]
         formatted = format_market_cap(cap)
         if not formatted:
             continue
 
         # Find the company entry and update its valuation
-        # Look for: name: "CompanyName" ... valuation: "..."
         pattern = (
             r'(name:\s*"' + re.escape(company_name) + r'".*?'
             r'valuation:\s*)"[^"]*"'
@@ -135,6 +142,45 @@ def update_valuations(content, market_caps):
         if new_content != content:
             logger.info(f"Updated {company_name} valuation to {formatted}")
             content = new_content
+
+    return content
+
+
+def update_market_pulse(content, market_caps):
+    """Update the MARKET_PULSE array with live stock data."""
+    if not market_caps:
+        return content
+
+    # Build sector mapping from the data
+    sector_map = {}
+    for match in re.finditer(r'name:\s*"([^"]+)".*?sector:\s*"([^"]+)"', content, re.DOTALL):
+        sector_map[match.group(1)] = match.group(2)
+
+    entries = []
+    for company_name, data in market_caps.items():
+        cap = data["marketCap"]
+        change = data["change"]
+        ticker = data["ticker"]
+        sector = sector_map.get(company_name, "")
+        formatted = format_market_cap(cap)
+        trend = "up" if change >= 0 else "down"
+        change_str = f"+{change:.1f}%" if change >= 0 else f"{change:.1f}%"
+
+        entries.append(
+            f'  {{ name: "{company_name}", ticker: "{ticker}", '
+            f'valuation: "{formatted}", change: "{change_str}", '
+            f'trend: "{trend}", sector: "{sector}" }}'
+        )
+
+    if entries:
+        new_pulse = "const MARKET_PULSE = [\n" + ",\n".join(entries) + "\n];"
+        content = re.sub(
+            r'const MARKET_PULSE = \[.*?\];',
+            new_pulse,
+            content,
+            flags=re.DOTALL,
+        )
+        logger.info(f"Updated MARKET_PULSE with {len(entries)} stocks")
 
     return content
 
@@ -168,6 +214,48 @@ def fetch_news_items():
     return items
 
 
+def update_news_ticker(content, news_items):
+    """Update the NEWS_TICKER array with latest news."""
+    if not news_items:
+        return content
+
+    entries = []
+    for item in news_items[:8]:
+        title = item["title"].replace('"', '\\"')
+        # Calculate time ago
+        try:
+            from dateutil import parser as dateparser
+            pub_date = dateparser.parse(item["published"])
+            diff = datetime.now(pub_date.tzinfo) - pub_date
+            if diff.days > 0:
+                time_str = f"{diff.days}d ago"
+            elif diff.seconds > 3600:
+                time_str = f"{diff.seconds // 3600}h ago"
+            else:
+                time_str = "Just now"
+        except Exception:
+            time_str = "Recent"
+
+        # Determine priority based on keyword count
+        priority = "high" if len(item["keywords"]) >= 3 else "medium" if len(item["keywords"]) >= 2 else "low"
+
+        entries.append(
+            f'  {{ text: "{title}", time: "{time_str}", priority: "{priority}" }}'
+        )
+
+    if entries:
+        new_ticker = "const NEWS_TICKER = [\n" + ",\n".join(entries) + "\n];"
+        content = re.sub(
+            r'const NEWS_TICKER = \[.*?\];',
+            new_ticker,
+            content,
+            flags=re.DOTALL,
+        )
+        logger.info(f"Updated NEWS_TICKER with {len(entries)} items")
+
+    return content
+
+
 def update_last_updated(content):
     """Update the LAST_UPDATED timestamp."""
     today = datetime.now().strftime("%Y-%m-%d")
@@ -193,11 +281,13 @@ def main():
     market_caps = fetch_market_caps()
     if market_caps:
         content = update_valuations(content, market_caps)
+        content = update_market_pulse(content, market_caps)
 
-    # 2. Fetch news (logged for reference, manual curation recommended)
+    # 2. Fetch news
     logger.info("\n--- Scanning news feeds ---")
     news = fetch_news_items()
     if news:
+        content = update_news_ticker(content, news)
         logger.info("\nRelevant stories found (for manual review):")
         for item in news[:10]:
             logger.info(f"  - {item['title']}")

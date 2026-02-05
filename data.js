@@ -17,7 +17,6 @@ const SECTORS = {
   "Quantum Computing": { icon: "🔮", color: "#7c3aed", description: "Quantum processors, quantum networking, and next-generation computing architectures.", trend: "Error-corrected quantum computing is showing real progress. Quantum networking could be the sleeper application. Government investment is accelerating." },
   "Ocean & Maritime": { icon: "🌊", color: "#0ea5e9", description: "Ocean exploration, autonomous vessels, maritime tech, and blue economy innovation.", trend: "Autonomous surface vessels are reaching commercial viability. Deep-sea mining debate intensifies as critical mineral demand surges." },
   "Infrastructure & Logistics": { icon: "🏗️", color: "#78716c", description: "Grid modernization, supply chain, construction tech, and industrial infrastructure.", trend: "Grid infrastructure is the bottleneck for AI and electrification. Smart grid and energy storage investments are surging to meet data center and EV demand." },
-  "Venture Capital": { icon: "💰", color: "#d97706", description: "Deep tech and frontier technology venture capital firms shaping the next wave of innovation.", trend: "Deep tech VC is in a golden era. Defense, energy, and hard tech funds are raising record capital as software-only returns compress." }
 };
 
 const COMPANIES = [
@@ -551,7 +550,7 @@ const COMPANIES = [
   {
     name: "Varda Space Industries",
     sector: "Space & Aerospace",
-    description: "Manufacturing pharmaceuticals in microgravity and returning them to Earth via re-entry capsules. Launched 5 missions in 2025. $187M Series C from Founders Fund, Khosla, Lux Capital.",
+    description: "Manufacturing pharmaceuticals in microgravity and returning them to Earth via re-entry capsules. Launched 5 missions in 2025. $187M Series C from Founders Fund and Khosla Ventures.",
     founder: "Will Bruey, Delian Asparouhov",
     location: "El Segundo, CA",
     state: "CA",
@@ -5687,7 +5686,7 @@ const COMPANIES = [
   },
   {
     name: "Tekever",
-    sector: "Drones & Autonomous Systems",
+    sector: "Drones & Autonomous",
     description: "Portuguese drone-as-a-service company providing long-range unmanned ISR for defense, maritime, and border security. €96.8M raised.",
     founder: "Ricardo Mendes",
     location: "Lisbon, Portugal",
@@ -5707,7 +5706,7 @@ const COMPANIES = [
   },
   {
     name: "Dronamics",
-    sector: "Drones & Autonomous Systems",
+    sector: "Drones & Autonomous",
     description: "World's first cargo drone airline. Building large fixed-wing drones for middle-mile logistics, enabling same-day delivery across Europe at ground shipping costs.",
     founder: "Svilen Rangelov",
     location: "London, UK",
@@ -5867,7 +5866,7 @@ const COMPANIES = [
   },
   {
     name: "Cobod",
-    sector: "Construction & Infrastructure",
+    sector: "Housing & Construction",
     description: "World leader in 3D construction printing. BOD2 printer has built structures in 15+ countries. Partnerships with General Electric and Holcim for industrial-scale 3D printing.",
     founder: "Henrik Lund-Nielsen",
     location: "Copenhagen, Denmark",
@@ -5967,7 +5966,7 @@ const COMPANIES = [
   },
   {
     name: "FlyBy Robotics",
-    sector: "Drones & Autonomous Systems",
+    sector: "Drones & Autonomous",
     description: "Autonomous drone systems for infrastructure inspection. AI-powered drones that can autonomously inspect bridges, towers, and buildings with computer vision.",
     founder: "",
     location: "United States",
@@ -5987,7 +5986,7 @@ const COMPANIES = [
   },
   {
     name: "Rhoman Aerospace",
-    sector: "Drones & Autonomous Systems",
+    sector: "Drones & Autonomous",
     description: "Building autonomous aerial systems for defense and commercial applications. Advanced drone platforms with AI-driven navigation and mission planning capabilities.",
     founder: "",
     location: "United States",
@@ -6007,7 +6006,7 @@ const COMPANIES = [
   },
   {
     name: "AirMap",
-    sector: "Drones & Autonomous Systems",
+    sector: "Drones & Autonomous",
     description: "Leading airspace management platform for drones. Provides real-time airspace data, digital notice, and compliance tools for unmanned aircraft operations globally.",
     founder: "Ben Marcus",
     location: "Santa Monica, CA",
@@ -6154,28 +6153,6 @@ const COMPANIES = [
     addedDate: "2026-02"
   },
   {
-    name: "Lux Capital",
-    sector: "Venture Capital",
-    description: "Deep tech venture capital firm backing founders turning science fiction into science fact. Portfolio includes Anduril, Saronic, Hadrian, and dozens of Innovators League companies. $5B+ AUM with focus on defense, space, and hard tech.",
-    founder: "Josh Wolfe, Peter Hebert",
-    location: "New York, NY",
-    state: "NY",
-    lat: 40.7128,
-    lng: -74.0060,
-    fundingStage: "Fund VII",
-    totalRaised: "$5B+ AUM",
-    valuation: "",
-    rosLink: "",
-    tags: ["venture capital", "deep tech", "defense", "frontier tech"],
-    insight: "Lux Capital's portfolio reads like a map of the American reindustrialization. Josh Wolfe's ability to identify and back defense, space, and hard tech founders years before consensus is a generational investing edge.",
-    signal: "established",
-    scores: { team: 10, traction: 10, techMoat: 8, market: 9, momentum: 9 },
-    competitors: [],
-    recentEvent: { type: "milestone", text: "Multiple portfolio companies exceeding $1B+ valuations", date: "2025-11" },
-    tbpnMentioned: true,
-    addedDate: "2026-02"
-  },
-  {
     name: "Day.ai",
     sector: "AI & Software",
     description: "AI meeting intelligence platform that captures, summarizes, and acts on conversations. Builds a comprehensive relationship and context layer by integrating across calendar and communication tools.",
@@ -6291,21 +6268,6 @@ const VC_FIRMS = [
     insight: "Founders Fund remains the intellectual center of contrarian hard tech investing. Peter Thiel's conviction that 'we live in a world of bits, not atoms' drove the fund's early SpaceX, Palantir, and Anduril bets. Trae Stephens and Delian Asparouhov now lead the defense tech thesis, having essentially created the category."
   },
   {
-    name: "Lux Capital",
-    shortName: "Lux Capital",
-    aum: "$7B+",
-    flagshipFund: "Lux Capital VII",
-    founded: 2000,
-    hq: "New York, NY",
-    thesis: "Investing at the frontiers of science and technology. Backing founders who harness breakthroughs in science and engineering to solve the world's hardest problems — from quantum computing to synthetic biology.",
-    keyPartners: ["Josh Wolfe", "Peter Hébert", "Bilal Zuberi", "Deena Shakir"],
-    sectorFocus: ["Defense & Security", "AI & Software", "Energy & Climate"],
-    portfolioCompanies: ["Anduril Industries", "Saildrone", "Hadrian", "Impulse Space", "Machina Labs"],
-    signal: "established",
-    website: "https://luxcapital.com",
-    insight: "Josh Wolfe's Lux Capital is the intellectual godfather of frontier tech investing. His 'narrative violation' framework — finding companies that break consensus — has produced a legendary portfolio. Wolfe's prolific writing and podcast presence make Lux a cultural force, not just a fund."
-  },
-  {
     name: "Khosla Ventures",
     shortName: "Khosla",
     aum: "$14B+",
@@ -6359,7 +6321,7 @@ const VC_FIRMS = [
     hq: "Palo Alto, CA",
     thesis: "Industrial transformation. Investing in companies that apply technology to modernize the physical world — from defense manufacturing to construction robotics to supply chain intelligence.",
     keyPartners: ["Greg Reichow", "Lior Susan"],
-    sectorFocus: ["Defense & Security", "Robotics & Manufacturing", "Construction & Infrastructure"],
+    sectorFocus: ["Defense & Security", "Robotics & Manufacturing", "Housing & Construction"],
     portfolioCompanies: ["Hadrian", "Gecko Robotics", "Machina Labs"],
     signal: "rising",
     website: "https://eclipse.vc",
@@ -6404,7 +6366,7 @@ const VC_FIRMS = [
     hq: "Kirkland, WA",
     thesis: "Funding technologies that will lead to net-zero greenhouse gas emissions. Founded by Bill Gates and backed by a coalition of the world's most ambitious climate philanthropists. Patient capital for climate deep tech.",
     keyPartners: ["Carmichael Roberts", "Eric Toone", "Ann Mettler"],
-    sectorFocus: ["Energy & Climate", "Advanced Materials", "Construction & Infrastructure"],
+    sectorFocus: ["Energy & Climate", "Advanced Materials", "Housing & Construction"],
     portfolioCompanies: ["Commonwealth Fusion Systems", "Koloma", "Form Energy"],
     signal: "established",
     website: "https://breakthroughenergy.org",
@@ -6485,6 +6447,77 @@ const VC_FIRMS = [
     website: "https://av.vc",
     insight: "Alumni Ventures has quietly become one of the most active VCs in America by deal count, using university alumni networks for both fundraising and deal flow. Their Deep Tech Fund gives retail-adjacent investors exposure to frontier technology through institutional-quality deal access."
   }
+];
+
+// ─── MARKET PULSE: Public Company Tickers ───
+const MARKET_PULSE = [
+  { name: "Palantir", ticker: "PLTR", valuation: "$400B+", change: "+2.4%", trend: "up", sector: "AI & Software" },
+  { name: "NVIDIA", ticker: "NVDA", valuation: "$3.2T+", change: "+1.1%", trend: "up", sector: "Chips & Semiconductors" },
+  { name: "Rocket Lab", ticker: "RKLB", valuation: "$14B+", change: "+3.2%", trend: "up", sector: "Space & Aerospace" },
+  { name: "Joby Aviation", ticker: "JOBY", valuation: "$8B+", change: "-0.8%", trend: "down", sector: "Transportation" },
+  { name: "Archer Aviation", ticker: "ACHR", valuation: "$5B+", change: "+1.7%", trend: "up", sector: "Transportation" },
+  { name: "Planet Labs", ticker: "PL", valuation: "$2.5B+", change: "+0.5%", trend: "up", sector: "Space & Aerospace" },
+  { name: "Intuitive Machines", ticker: "LUNR", valuation: "$3.8B+", change: "+4.1%", trend: "up", sector: "Space & Aerospace" },
+  { name: "Kratos Defense", ticker: "KTOS", valuation: "$5B+", change: "+0.9%", trend: "up", sector: "Defense & Security" }
+];
+
+// ─── FUNDING TRACKER: Recent Rounds ───
+const FUNDING_TRACKER = [
+  { company: "Saronic", amount: "$830M+", stage: "Series C", date: "2026-01", sector: "Defense & Security", lead: "a16z", valuation: "$4B" },
+  { company: "Epirus", amount: "$550M+", stage: "Late Stage", date: "2026-01", sector: "Defense & Security", lead: "Undisclosed", valuation: "$1.35B" },
+  { company: "Anduril Industries", amount: "$2.5B+", stage: "Series G", date: "2025-12", sector: "Defense & Security", lead: "Founders Fund", valuation: "$30.5B" },
+  { company: "Shield AI", amount: "$1.4B+", stage: "Series F", date: "2025-07", sector: "Defense & Security", lead: "a16z", valuation: "$5.3B" },
+  { company: "Physical Intelligence", amount: "$400M+", stage: "Series A", date: "2025-11", sector: "Robotics & Manufacturing", lead: "Khosla, Sequoia", valuation: "$2.4B" },
+  { company: "Skild AI", amount: "$300M+", stage: "Series A", date: "2025-06", sector: "AI & Software", lead: "Lightspeed", valuation: "$1.5B" },
+  { company: "Boom Supersonic", amount: "$250M+", stage: "Series C", date: "2025-09", sector: "Supersonic & Hypersonic", lead: "Multiple", valuation: "$8B+" },
+  { company: "Helion Energy", amount: "$500M+", stage: "Series E", date: "2025-05", sector: "Nuclear Energy", lead: "Sam Altman, Others", valuation: "$6B+" },
+  { company: "Hadrian", amount: "$217M", stage: "Series C", date: "2025-08", sector: "Robotics & Manufacturing", lead: "a16z", valuation: "$1.7B" },
+  { company: "Neura Robotics", amount: "$281M", stage: "Series B", date: "2025-12", sector: "Robotics & Manufacturing", lead: "EQT", valuation: "$1B+" },
+  { company: "Hugging Face", amount: "$400M+", stage: "Series D", date: "2025-08", sector: "AI & Software", lead: "Salesforce", valuation: "$4.5B" },
+  { company: "Hermeus", amount: "$100M+", stage: "Series C", date: "2025-10", sector: "Supersonic & Hypersonic", lead: "Sam Altman", valuation: "$1B+" }
+];
+
+// ─── IPO & EXIT PIPELINE ───
+const IPO_PIPELINE = [
+  { company: "SpaceX", status: "No Near-Term Plans", likelihood: "low", estimatedDate: "2027+", estimatedValuation: "$350B+", sector: "Space & Aerospace" },
+  { company: "Anduril Industries", status: "IPO Candidate", likelihood: "medium", estimatedDate: "2027", estimatedValuation: "$50B+", sector: "Defense & Security" },
+  { company: "Shield AI", status: "IPO Candidate", likelihood: "medium", estimatedDate: "2027-2028", estimatedValuation: "$10B+", sector: "Defense & Security" },
+  { company: "Boom Supersonic", status: "Pre-Revenue", likelihood: "low", estimatedDate: "2028+", estimatedValuation: "$15B+", sector: "Supersonic & Hypersonic" },
+  { company: "Helion Energy", status: "Pre-Revenue", likelihood: "low", estimatedDate: "2029+", estimatedValuation: "$10B+", sector: "Nuclear Energy" },
+  { company: "Hadrian", status: "Revenue Growing", likelihood: "medium", estimatedDate: "2027-2028", estimatedValuation: "$5B+", sector: "Robotics & Manufacturing" },
+  { company: "Saronic", status: "Rapid Growth", likelihood: "medium", estimatedDate: "2027", estimatedValuation: "$8B+", sector: "Defense & Security" }
+];
+
+// ─── SECTOR MOMENTUM INDEX ───
+const SECTOR_MOMENTUM = [
+  { sector: "Defense & Security", momentum: 97, trend: "accelerating", catalysts: ["DOGE procurement reform", "Ukraine conflict driving demand", "Replicator program"], fundingQ: "$4.2B" },
+  { sector: "AI & Software", momentum: 95, trend: "accelerating", catalysts: ["GPT-5 release", "AI agents going mainstream", "Enterprise adoption"], fundingQ: "$18B" },
+  { sector: "Robotics & Manufacturing", momentum: 88, trend: "accelerating", catalysts: ["Foundation models for robotics", "Reshoring manufacturing", "Humanoid breakthrough"], fundingQ: "$3.1B" },
+  { sector: "Nuclear Energy", momentum: 85, trend: "accelerating", catalysts: ["Data center power demand", "NRC reform", "SMR deployment timelines"], fundingQ: "$1.8B" },
+  { sector: "Space & Aerospace", momentum: 82, trend: "steady", catalysts: ["SpaceX Starship progress", "Defense satellite demand", "In-orbit services"], fundingQ: "$2.5B" },
+  { sector: "Drones & Autonomous", momentum: 80, trend: "accelerating", catalysts: ["BVLOS approvals", "Military drone procurement", "Counter-drone systems"], fundingQ: "$1.2B" },
+  { sector: "Climate & Energy", momentum: 75, trend: "steady", catalysts: ["Geothermal breakthroughs", "Grid modernization", "Carbon credit markets"], fundingQ: "$2.0B" },
+  { sector: "Chips & Semiconductors", momentum: 78, trend: "steady", catalysts: ["CHIPS Act funding flow", "Custom AI silicon", "Photonics advances"], fundingQ: "$1.5B" },
+  { sector: "Biotech & Health", momentum: 72, trend: "steady", catalysts: ["GLP-1 revolution", "AI drug discovery", "Longevity research"], fundingQ: "$4.5B" },
+  { sector: "Supersonic & Hypersonic", momentum: 70, trend: "rising", catalysts: ["Boom Overture progress", "DoD hypersonic programs", "Dual-use propulsion"], fundingQ: "$0.5B" },
+  { sector: "Quantum Computing", momentum: 65, trend: "rising", catalysts: ["Error-corrected milestones", "Quantum networking", "Government investment"], fundingQ: "$0.8B" },
+  { sector: "Housing & Construction", momentum: 60, trend: "steady", catalysts: ["Factory-built scaling", "3D printing costs dropping", "Zoning reform"], fundingQ: "$0.3B" },
+  { sector: "Transportation", momentum: 58, trend: "steady", catalysts: ["Autonomous driving approvals", "eVTOL certification", "Tunneling innovation"], fundingQ: "$1.0B" },
+  { sector: "Ocean & Maritime", momentum: 55, trend: "rising", catalysts: ["Autonomous vessel approvals", "Deep-sea mining debate", "Naval drone demand"], fundingQ: "$0.2B" },
+  { sector: "Consumer Tech", momentum: 50, trend: "steady", catalysts: ["AI-native apps", "Personalization LLMs", "New product categories"], fundingQ: "$0.6B" },
+  { sector: "Infrastructure & Logistics", momentum: 52, trend: "rising", catalysts: ["Grid bottleneck investment", "Smart grid", "Energy storage"], fundingQ: "$0.7B" }
+];
+
+// ─── BREAKING NEWS TICKER ───
+const NEWS_TICKER = [
+  { text: "Saronic closes $830M+ mega-round at $4B valuation for autonomous warships", time: "2h ago", priority: "high" },
+  { text: "Palantir market cap surpasses $400B on AIP platform momentum", time: "5h ago", priority: "high" },
+  { text: "Epirus expands directed energy production with $550M+ in total funding", time: "1d ago", priority: "medium" },
+  { text: "Physical Intelligence raises $400M for AI foundation models for robotics", time: "2d ago", priority: "medium" },
+  { text: "Anduril awarded $1.1B Australian Navy Ghost Shark autonomous submarine deal", time: "3d ago", priority: "high" },
+  { text: "European deep tech funding hits record — Neura Robotics raises $281M", time: "4d ago", priority: "medium" },
+  { text: "Nuclear energy renaissance: Oklo and Radiant advance NRC timelines", time: "5d ago", priority: "medium" },
+  { text: "Rocket Lab (RKLB) stock reaches 52-week high on Neutron progress", time: "6d ago", priority: "low" }
 ];
 
 // ─── WEEKLY INTELLIGENCE DIGEST ───

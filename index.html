@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <link rel="stylesheet" href="styles.css?v=4">
+    <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
     <!-- Navigation -->
@@ -65,13 +65,78 @@
         </div>
     </header>
 
+    <!-- Breaking News Ticker -->
+    <div class="news-ticker-bar" id="news-ticker">
+        <div class="ticker-label">LIVE</div>
+        <div class="ticker-scroll" id="ticker-scroll"></div>
+    </div>
+
+    <!-- Market Pulse -->
+    <section class="market-pulse-section" id="market-pulse">
+        <div class="container">
+            <div class="market-pulse-header">
+                <p class="section-eyebrow">MARKET PULSE</p>
+                <span class="pulse-live-dot"></span>
+            </div>
+            <div class="market-pulse-grid" id="market-pulse-grid"></div>
+        </div>
+    </section>
+
     <!-- Weekly Intelligence Digest -->
     <section class="digest-section" id="digest">
         <div class="container">
             <p class="section-eyebrow">THIS WEEK IN FRONTIER TECH</p>
-            <h2 style="font-family: var(--font-display); font-size: 24px; margin: 8px 0 4px;">Intelligence Digest</h2>
+            <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 24px; margin: 8px 0 4px;">Intelligence Digest</h2>
         </div>
         <div class="digest-scroll" id="digest-scroll"></div>
+    </section>
+
+    <!-- Funding Tracker -->
+    <section class="funding-tracker-section" id="funding-tracker">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">CAPITAL FLOWS</p>
+                <h2>Funding Tracker</h2>
+                <p>The latest funding rounds across frontier tech — updated weekly.</p>
+            </div>
+            <div class="funding-tracker-grid" id="funding-tracker-grid"></div>
+        </div>
+    </section>
+
+    <!-- Sector Momentum Index -->
+    <section class="momentum-section" id="momentum">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">SECTOR INTELLIGENCE</p>
+                <h2>Sector Momentum Index</h2>
+                <p>Real-time momentum scores across all frontier tech sectors.</p>
+            </div>
+            <div class="momentum-grid" id="momentum-grid"></div>
+        </div>
+    </section>
+
+    <!-- IPO & Exit Pipeline -->
+    <section class="ipo-section" id="ipo-pipeline">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">EXIT PIPELINE</p>
+                <h2>IPO & Exit Tracker</h2>
+                <p>Companies approaching public markets and major liquidity events.</p>
+            </div>
+            <div class="ipo-grid" id="ipo-grid"></div>
+        </div>
+    </section>
+
+    <!-- Innovation Leaderboard -->
+    <section class="leaderboard-section" id="leaderboard">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">TOP RATED</p>
+                <h2>Innovation Leaderboard</h2>
+                <p>The highest-rated frontier tech companies based on our 5-dimension assessment.</p>
+            </div>
+            <div class="leaderboard-grid" id="leaderboard-grid"></div>
+        </div>
     </section>
 
     <!-- Featured Innovators -->
@@ -150,6 +215,7 @@
                         <option value="recent">Sort: Recent Activity</option>
                         <option value="saved">Sort: Saved First</option>
                     </select>
+                    <button onclick="exportWatchlistCSV()" class="filter-select" style="cursor:pointer; background:var(--bg-tertiary); color:var(--text-secondary); border:1px solid var(--border); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif;">Export CSV</button>
                 </div>
             </div>
 
@@ -227,7 +293,7 @@
         </div>
     </footer>
 
-    <script src="data.js?v=4"></script>
-    <script src="app.js?v=4"></script>
+    <script src="data.js?v=5"></script>
+    <script src="app.js?v=5"></script>
 </body>
 </html>

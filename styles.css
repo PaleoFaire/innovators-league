@@ -46,6 +46,9 @@
   --shadow-lg: 0 8px 24px rgba(0,0,0,0.7);
   --glow:      0 0 20px rgba(255, 107, 44, 0.06);
 
+  /* ── Typography ── */
+  --font-display:    'Space Grotesk', sans-serif;
+
   /* ── Motion ── */
   --transition:      200ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -657,6 +660,17 @@ body {
 }
 
 @keyframes cardIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
   to {
     opacity: 1;
     transform: translateY(0);
@@ -2414,6 +2428,602 @@ body {
   flex-wrap: wrap;
   gap: 4px;
   margin-top: 12px;
+}
+
+/* ─── BREAKING NEWS TICKER ─── */
+.news-ticker-bar {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 107, 44, 0.06);
+  border-bottom: 1px solid var(--border);
+  overflow: hidden;
+  height: 42px;
+}
+
+.ticker-label {
+  background: #dc2626;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding: 4px 14px;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.ticker-label::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  border-radius: 50%;
+  margin-left: 6px;
+  animation: tickerPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes tickerPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.ticker-scroll {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 0 20px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.ticker-scroll::-webkit-scrollbar { display: none; }
+
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.ticker-item:hover { color: var(--text-primary); }
+
+.ticker-priority-high { color: var(--accent); }
+.ticker-priority-medium { color: var(--text-secondary); }
+.ticker-priority-low { color: var(--text-muted); }
+
+.ticker-time {
+  font-size: 11px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.ticker-divider {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--border-hover);
+  flex-shrink: 0;
+}
+
+/* ─── MARKET PULSE ─── */
+.market-pulse-section {
+  padding: 16px 0;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+.market-pulse-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.pulse-live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22C55E;
+  animation: tickerPulse 1.5s ease-in-out infinite;
+}
+
+.market-pulse-grid {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+
+.market-pulse-grid::-webkit-scrollbar { display: none; }
+
+.pulse-card {
+  flex: 0 0 160px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pulse-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+.pulse-ticker {
+  font-family: 'Space Grotesk', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+}
+
+.pulse-name {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 2px 0 6px;
+}
+
+.pulse-val {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.pulse-change {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.pulse-change.up { color: #22C55E; }
+.pulse-change.down { color: #EF4444; }
+
+/* ─── FUNDING TRACKER ─── */
+.funding-tracker-section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.funding-tracker-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.funding-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 0.8fr;
+  gap: 12px;
+  align-items: center;
+  padding: 14px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.funding-row:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+.funding-row-header {
+  background: transparent;
+  border: none;
+  cursor: default;
+  padding: 8px 20px;
+}
+
+.funding-row-header:hover {
+  background: transparent;
+  border: none;
+}
+
+.funding-row-header span {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+
+.funding-company {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+.funding-amount {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #22C55E;
+}
+
+.funding-stage-tag {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 4px;
+  background: rgba(96, 165, 250, 0.12);
+  color: #60A5FA;
+  border: 1px solid rgba(96, 165, 250, 0.2);
+  display: inline-block;
+}
+
+.funding-lead {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.funding-date {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.funding-val {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ─── SECTOR MOMENTUM INDEX ─── */
+.momentum-section {
+  padding: 60px 0;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+.momentum-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.momentum-row {
+  display: grid;
+  grid-template-columns: 2fr 100px 1fr 0.8fr 1fr;
+  gap: 12px;
+  align-items: center;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s;
+}
+
+.momentum-row:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+.momentum-sector-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.momentum-sector-icon {
+  font-size: 18px;
+}
+
+.momentum-score {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.momentum-score.high { color: #22C55E; }
+.momentum-score.mid { color: #FFD700; }
+.momentum-score.low { color: var(--text-muted); }
+
+.momentum-bar-bg {
+  height: 8px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.momentum-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.momentum-bar-fill.high { background: linear-gradient(90deg, #22C55E, #4ADE80); }
+.momentum-bar-fill.mid { background: linear-gradient(90deg, #FFD700, #FDE047); }
+.momentum-bar-fill.low { background: linear-gradient(90deg, #6B7280, #9CA3AF); }
+
+.momentum-trend {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.momentum-trend-accelerating { background: rgba(34, 197, 94, 0.12); color: #22C55E; }
+.momentum-trend-rising { background: rgba(96, 165, 250, 0.12); color: #60A5FA; }
+.momentum-trend-steady { background: rgba(255, 215, 0, 0.12); color: #FFD700; }
+
+.momentum-funding {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--accent);
+  text-align: right;
+}
+
+/* ─── IPO & EXIT PIPELINE ─── */
+.ipo-section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.ipo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.ipo-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.ipo-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+}
+
+.ipo-company {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.ipo-status {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.ipo-status-high { background: rgba(34, 197, 94, 0.12); color: #22C55E; border: 1px solid rgba(34, 197, 94, 0.2); }
+.ipo-status-medium { background: rgba(255, 215, 0, 0.12); color: #FFD700; border: 1px solid rgba(255, 215, 0, 0.2); }
+.ipo-status-low { background: rgba(96, 165, 250, 0.12); color: #60A5FA; border: 1px solid rgba(96, 165, 250, 0.2); }
+
+.ipo-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.ipo-meta-item {
+  padding: 10px;
+  background: var(--bg-elevated);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.ipo-meta-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.ipo-meta-value {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* ─── INNOVATION LEADERBOARD ─── */
+.leaderboard-section {
+  padding: 48px 0;
+  background: linear-gradient(180deg, rgba(255, 107, 44, 0.03) 0%, transparent 100%);
+  border-bottom: 1px solid var(--border);
+}
+
+.leaderboard-grid {
+  display: grid;
+  gap: 6px;
+}
+
+.leaderboard-row {
+  display: grid;
+  grid-template-columns: 50px 2fr 100px 1fr 1fr 80px;
+  gap: 12px;
+  align-items: center;
+  padding: 14px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.leaderboard-row:hover {
+  border-color: var(--accent);
+  background: var(--bg-card-hover);
+  transform: translateX(4px);
+}
+
+.leaderboard-rank {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.leaderboard-rank.gold { color: #FFD700; }
+.leaderboard-rank.silver { color: #C0C0C0; }
+.leaderboard-rank.bronze { color: #CD7F32; }
+.leaderboard-rank.normal { color: var(--text-muted); }
+
+.leaderboard-company {
+  display: flex;
+  flex-direction: column;
+}
+
+.leaderboard-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text-primary);
+}
+
+.leaderboard-sector {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.leaderboard-score {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.leaderboard-score.high { color: #22C55E; }
+.leaderboard-score.mid { color: #FFD700; }
+
+.leaderboard-bar {
+  height: 8px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.leaderboard-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--accent), #ff9b6a);
+  transition: width 1s ease;
+}
+
+.leaderboard-signal {
+  text-align: center;
+}
+
+.leaderboard-val {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--accent);
+  text-align: right;
+}
+
+/* ─── COMPARE MODAL ─── */
+.compare-modal {
+  max-width: 900px !important;
+}
+
+.compare-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.compare-header-row {
+  display: grid;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 2px solid var(--border);
+}
+
+.compare-data-row {
+  display: grid;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.compare-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+
+.compare-value {
+  font-size: 14px;
+  color: var(--text-primary);
+}
+
+.compare-value.highlight {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* ─── BLOOMBERG RESPONSIVE ─── */
+@media (max-width: 768px) {
+  .funding-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .funding-row-header { display: none; }
+
+  .momentum-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .momentum-sector-name { margin-bottom: 4px; }
+
+  .market-pulse-grid { gap: 8px; }
+
+  .pulse-card { flex: 0 0 140px; padding: 12px; }
+
+  .ipo-grid { grid-template-columns: 1fr; }
+
+  .leaderboard-row {
+    grid-template-columns: 40px 1fr 60px;
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .leaderboard-bar,
+  .leaderboard-signal,
+  .leaderboard-val {
+    display: none;
+  }
+
+  .news-ticker-bar { height: 36px; }
+  .ticker-item { font-size: 12px; }
 }
 
 /* ─── ONE-PAGER PRINT STYLES ─── */

@@ -357,6 +357,7 @@ function updateCompareBar() {
   bar.classList.add('visible');
   items.innerHTML = compareList.map(name => {
     const c = COMPANIES.find(co => co.name === name);
+    if (!c) return '';
     const sectorInfo = SECTORS[c.sector] || { color: '#6b7280', icon: '' };
     return `<div class="compare-item">
       <span style="color:${sectorInfo.color}">${sectorInfo.icon}</span> ${name}
@@ -530,20 +531,26 @@ function openCompanyModal(companyName) {
   openModal();
 }
 
-function shareCompany(companyName) {
+function shareCompany(companyName, btnEl) {
   const url = new URL(window.location.origin + window.location.pathname);
   url.searchParams.set('company', companyName);
   const shareUrl = url.toString();
 
   if (navigator.clipboard) {
     navigator.clipboard.writeText(shareUrl).then(() => {
-      const btn = document.querySelector('.modal-action-btn:last-child');
+      // Find the share button specifically
+      const btns = document.querySelectorAll('.modal-actions .modal-action-btn');
+      let btn = null;
+      btns.forEach(b => { if (b.textContent.includes('Share') || b.textContent.includes('Copied')) btn = b; });
       if (btn) {
         const original = btn.innerHTML;
         btn.innerHTML = '✓ Copied!';
         setTimeout(() => { btn.innerHTML = original; }, 1500);
       }
     });
+  } else {
+    // Fallback: select text via prompt
+    prompt('Copy this link:', shareUrl);
   }
 }
 
@@ -563,6 +570,12 @@ document.addEventListener('DOMContentLoaded', () => {
   initFeatured();
   initMovementTracker();
   initWeeklyDigest();
+  initLeaderboard();
+  initNewsTicker();
+  initMarketPulse();
+  initFundingTracker();
+  initSectorMomentum();
+  initIPOPipeline();
   initURLState();
   initSmoothScroll();
   updateResultsCount(COMPANIES.length);
@@ -938,9 +951,9 @@ function renderCompanies(companies) {
         ${company.tags.slice(0, 3).map(t => `<span class="tag">${t}</span>`).join('')}
       </div>
       <div class="card-footer">
-        <a href="${company.rosLink}" target="_blank" rel="noopener" class="card-link" onclick="event.stopPropagation();">
+        ${company.rosLink ? `<a href="${company.rosLink}" target="_blank" rel="noopener" class="card-link" onclick="event.stopPropagation();">
           Read Coverage <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
-        </a>
+        </a>` : '<span class="card-link" style="color:var(--text-muted);">Coming Soon</span>'}
       </div>
     `;
 
@@ -1057,7 +1070,7 @@ function initModal() {
 
 // ─── COMPARE INIT ───
 function initCompare() {
-  document.getElementById('compare-btn').addEventListener('click', showComparison);
+  document.getElementById('compare-btn').addEventListener('click', openCompareView);
   document.getElementById('compare-clear').addEventListener('click', () => {
     compareList = [];
     updateCompareBar();
@@ -1096,8 +1109,10 @@ function initKeyboard() {
         if (overlay.classList.contains('active')) {
           const nameEl = document.querySelector('.modal-company-name');
           if (nameEl) {
-            toggleBookmark(nameEl.textContent);
-            openCompanyModal(nameEl.textContent); // refresh modal
+            // Get only the direct text, not signal badge text
+            const companyName = nameEl.childNodes[0].textContent.trim();
+            toggleBookmark(companyName);
+            openCompanyModal(companyName); // refresh modal
           }
         }
       }
@@ -1303,6 +1318,114 @@ function exportWatchlistCSV() {
   URL.revokeObjectURL(url);
 }
 
+// ─── INNOVATION LEADERBOARD ───
+function initLeaderboard() {
+  const grid = document.getElementById('leaderboard-grid');
+  if (!grid) return;
+
+  // Get companies with scores, calculate average, sort by score
+  const scored = COMPANIES
+    .filter(c => c.scores)
+    .map(c => ({
+      ...c,
+      avgScore: getAverageScore(c.scores)
+    }))
+    .sort((a, b) => b.avgScore - a.avgScore)
+    .slice(0, 20);
+
+  scored.forEach((c, i) => {
+    const rank = i + 1;
+    const rankClass = rank === 1 ? 'gold' : rank === 2 ? 'silver' : rank === 3 ? 'bronze' : 'normal';
+    const rankSymbol = rank <= 3 ? ['🥇','🥈','🥉'][rank - 1] : `#${rank}`;
+    const scoreClass = c.avgScore >= 8 ? 'high' : 'mid';
+    const sectorInfo = SECTORS[c.sector] || { icon: '' };
+    const signalBadge = c.signal ? renderSignalBadge(c.signal) : '';
+
+    const row = document.createElement('div');
+    row.className = 'leaderboard-row';
+    row.innerHTML = `
+      <div class="leaderboard-rank ${rankClass}">${rankSymbol}</div>
+      <div class="leaderboard-company">
+        <span class="leaderboard-name">${c.name} ${signalBadge}</span>
+        <span class="leaderboard-sector">${sectorInfo.icon} ${c.sector}</span>
+      </div>
+      <div class="leaderboard-score ${scoreClass}">${c.avgScore.toFixed(1)}</div>
+      <div class="leaderboard-bar">
+        <div class="leaderboard-bar-fill" style="width: 0%"></div>
+      </div>
+      <div class="leaderboard-signal">${c.valuation || ''}</div>
+      <div class="leaderboard-val">${c.fundingStage || ''}</div>
+    `;
+
+    row.addEventListener('click', () => openCompanyModal(c.name));
+    grid.appendChild(row);
+
+    // Animate bar
+    setTimeout(() => {
+      row.querySelector('.leaderboard-bar-fill').style.width = `${c.avgScore * 10}%`;
+    }, 100 + i * 60);
+  });
+}
+
+// ─── ENHANCED COMPARE VIEW ───
+function openCompareView() {
+  if (compareList.length < 2) return;
+
+  const companies = compareList.map(name => COMPANIES.find(c => c.name === name)).filter(Boolean);
+  if (companies.length < 2) return;
+
+  const cols = companies.length + 1;
+  const gridCols = `180px repeat(${companies.length}, 1fr)`;
+
+  const metrics = [
+    { label: 'Sector', key: c => c.sector },
+    { label: 'Location', key: c => c.location },
+    { label: 'Stage', key: c => c.fundingStage || 'N/A' },
+    { label: 'Total Raised', key: c => c.totalRaised || 'N/A' },
+    { label: 'Valuation', key: c => c.valuation || 'N/A' },
+    { label: 'Signal', key: c => c.signal ? renderSignalBadge(c.signal) : 'None' },
+    { label: 'Avg Score', key: c => c.scores ? getAverageScore(c.scores).toFixed(1) + '/10' : 'N/A', highlight: true },
+    { label: 'Team', key: c => c.scores ? c.scores.team + '/10' : 'N/A' },
+    { label: 'Traction', key: c => c.scores ? c.scores.traction + '/10' : 'N/A' },
+    { label: 'Tech Moat', key: c => c.scores ? c.scores.techMoat + '/10' : 'N/A' },
+    { label: 'Market', key: c => c.scores ? c.scores.market + '/10' : 'N/A' },
+    { label: 'Momentum', key: c => c.scores ? c.scores.momentum + '/10' : 'N/A' },
+    { label: 'Founder', key: c => c.founder || 'N/A' },
+    { label: 'Latest Event', key: c => c.recentEvent ? c.recentEvent.text : 'N/A' }
+  ];
+
+  const body = document.getElementById('modal-body');
+  body.innerHTML = `
+    <div style="margin-bottom: 20px;">
+      <span class="modal-sector-badge" style="background: var(--accent-dim); color: var(--accent);">COMPARISON</span>
+      <h2 class="modal-company-name">Company Comparison</h2>
+      <p style="color: var(--text-muted); font-size: 14px;">Side-by-side analysis of ${companies.length} companies</p>
+    </div>
+
+    <div class="compare-grid">
+      <div class="compare-header-row" style="display: grid; grid-template-columns: ${gridCols};">
+        <div class="compare-label">Metric</div>
+        ${companies.map(c => {
+          const sectorInfo = SECTORS[c.sector] || { color: '#6b7280' };
+          return `<div style="text-align: center;">
+            <div style="font-family: var(--font-display); font-weight: 700; font-size: 16px; color: var(--text-primary);">${c.name}</div>
+            <div style="font-size: 11px; color: ${sectorInfo.color};">${c.sector}</div>
+          </div>`;
+        }).join('')}
+      </div>
+      ${metrics.map(m => `
+        <div class="compare-data-row" style="display: grid; grid-template-columns: ${gridCols};">
+          <div class="compare-label">${m.label}</div>
+          ${companies.map(c => `<div class="compare-value ${m.highlight ? 'highlight' : ''}" style="text-align: center;">${m.key(c)}</div>`).join('')}
+        </div>
+      `).join('')}
+    </div>
+  `;
+
+  document.getElementById('modal-overlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
 // ─── SMOOTH SCROLL (runs after DOMContentLoaded via initSmoothScroll) ───
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(a => {
@@ -1311,5 +1434,145 @@ function initSmoothScroll() {
       const target = document.querySelector(a.getAttribute('href'));
       if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
+  });
+}
+
+// ─── BREAKING NEWS TICKER ───
+function initNewsTicker() {
+  const scroll = document.getElementById('ticker-scroll');
+  if (!scroll || typeof NEWS_TICKER === 'undefined') return;
+
+  NEWS_TICKER.forEach((item, i) => {
+    if (i > 0) {
+      const divider = document.createElement('span');
+      divider.className = 'ticker-divider';
+      scroll.appendChild(divider);
+    }
+
+    const el = document.createElement('span');
+    el.className = `ticker-item ticker-priority-${item.priority}`;
+    el.innerHTML = `<span>${item.text}</span><span class="ticker-time">${item.time}</span>`;
+    scroll.appendChild(el);
+  });
+}
+
+// ─── MARKET PULSE ───
+function initMarketPulse() {
+  const grid = document.getElementById('market-pulse-grid');
+  if (!grid || typeof MARKET_PULSE === 'undefined') return;
+
+  MARKET_PULSE.forEach(stock => {
+    const card = document.createElement('div');
+    card.className = 'pulse-card';
+    card.innerHTML = `
+      <div class="pulse-ticker">${stock.ticker}</div>
+      <div class="pulse-name">${stock.name}</div>
+      <div>
+        <span class="pulse-val">${stock.valuation}</span>
+        <span class="pulse-change ${stock.trend}">${stock.change}</span>
+      </div>
+    `;
+    card.addEventListener('click', () => openCompanyModal(stock.name));
+    grid.appendChild(card);
+  });
+}
+
+// ─── FUNDING TRACKER ───
+function initFundingTracker() {
+  const grid = document.getElementById('funding-tracker-grid');
+  if (!grid || typeof FUNDING_TRACKER === 'undefined') return;
+
+  // Header row
+  const header = document.createElement('div');
+  header.className = 'funding-row funding-row-header';
+  header.innerHTML = `
+    <span>Company</span>
+    <span>Amount</span>
+    <span>Stage</span>
+    <span>Lead Investor</span>
+    <span>Valuation</span>
+    <span>Date</span>
+  `;
+  grid.appendChild(header);
+
+  FUNDING_TRACKER.forEach(round => {
+    const row = document.createElement('div');
+    row.className = 'funding-row';
+    row.innerHTML = `
+      <span class="funding-company">${round.company}</span>
+      <span class="funding-amount">${round.amount}</span>
+      <span><span class="funding-stage-tag">${round.stage}</span></span>
+      <span class="funding-lead">${round.lead}</span>
+      <span class="funding-val">${round.valuation}</span>
+      <span class="funding-date">${round.date}</span>
+    `;
+    row.addEventListener('click', () => openCompanyModal(round.company));
+    grid.appendChild(row);
+  });
+}
+
+// ─── SECTOR MOMENTUM INDEX ───
+function initSectorMomentum() {
+  const grid = document.getElementById('momentum-grid');
+  if (!grid || typeof SECTOR_MOMENTUM === 'undefined') return;
+
+  SECTOR_MOMENTUM.forEach((item, i) => {
+    const sectorInfo = SECTORS[item.sector] || { icon: '📊' };
+    const scoreClass = item.momentum >= 80 ? 'high' : item.momentum >= 60 ? 'mid' : 'low';
+    const trendClass = `momentum-trend-${item.trend}`;
+
+    const row = document.createElement('div');
+    row.className = 'momentum-row';
+    row.innerHTML = `
+      <div class="momentum-sector-name">
+        <span class="momentum-sector-icon">${sectorInfo.icon}</span>
+        ${item.sector}
+      </div>
+      <div class="momentum-score ${scoreClass}">${item.momentum}</div>
+      <div class="momentum-bar-bg">
+        <div class="momentum-bar-fill ${scoreClass}" style="width: 0%"></div>
+      </div>
+      <div class="momentum-trend ${trendClass}">${item.trend}</div>
+      <div class="momentum-funding">${item.fundingQ} Q1</div>
+    `;
+
+    grid.appendChild(row);
+
+    // Animate bar
+    setTimeout(() => {
+      row.querySelector('.momentum-bar-fill').style.width = `${item.momentum}%`;
+    }, 200 + i * 80);
+  });
+}
+
+// ─── IPO & EXIT PIPELINE ───
+function initIPOPipeline() {
+  const grid = document.getElementById('ipo-grid');
+  if (!grid || typeof IPO_PIPELINE === 'undefined') return;
+
+  IPO_PIPELINE.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'ipo-card';
+
+    const sectorInfo = SECTORS[item.sector] || { icon: '', color: '#6b7280' };
+
+    card.innerHTML = `
+      <div style="font-size: 11px; color: ${sectorInfo.color}; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">${sectorInfo.icon} ${item.sector}</div>
+      <div class="ipo-company">${item.company}</div>
+      <div class="ipo-status ipo-status-${item.likelihood}">${item.status}</div>
+      <div class="ipo-meta">
+        <div class="ipo-meta-item">
+          <div class="ipo-meta-label">Timeline</div>
+          <div class="ipo-meta-value">${item.estimatedDate}</div>
+        </div>
+        <div class="ipo-meta-item">
+          <div class="ipo-meta-label">Est. Valuation</div>
+          <div class="ipo-meta-value" style="color: var(--accent);">${item.estimatedValuation}</div>
+        </div>
+      </div>
+    `;
+
+    card.addEventListener('click', () => openCompanyModal(item.company));
+    grid.appendChild(card);
   });
 }
