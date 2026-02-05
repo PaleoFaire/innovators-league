@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Intelligence | The Innovators League</title>
+    <meta name="description" content="Deep tech venture capital intelligence — the firms, partners, and capital flows shaping the frontier technology landscape.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html#map">Map</a>
+            <a href="index.html#companies">Intelligence</a>
+            <a href="index.html#movements">Signals</a>
+            <a href="index.html#sectors">Sectors</a>
+            <a href="investors.html" class="active">Investors</a>
+            <a href="visualizations.html">Insights</a>
+            <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero investor-hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow">CAPITAL INTELLIGENCE</p>
+            <h1 class="hero-title">Investor Intelligence</h1>
+            <p class="hero-subtitle">The venture capital firms and partners deploying capital into deep tech, defense, and frontier technology — mapped, profiled, and cross-referenced.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="vc-count">0</span>
+                    <span class="stat-label">VC Firms</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="total-aum">0</span>
+                    <span class="stat-label">Combined AUM</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="portfolio-count">0</span>
+                    <span class="stat-label">Portfolio Links</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filters -->
+    <section class="section" id="vc-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">DEEP TECH CAPITAL</p>
+                <h2>Venture Capital Firms</h2>
+                <p>The investors deploying billions into frontier technology.</p>
+            </div>
+
+            <div class="filter-bar">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="text" id="vc-search" placeholder="Search firms, partners, portfolio companies...">
+                </div>
+                <div class="filter-dropdowns">
+                    <select id="vc-sector-filter" class="filter-select">
+                        <option value="all">All Sectors</option>
+                    </select>
+                    <select id="vc-sort" class="filter-select">
+                        <option value="aum">Sort: AUM (High→Low)</option>
+                        <option value="name">Sort: A-Z</option>
+                        <option value="founded">Sort: Established First</option>
+                        <option value="portfolio">Sort: Portfolio Size</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- VC Cards Grid -->
+            <div class="vc-grid" id="vc-grid"></div>
+        </div>
+    </section>
+
+    <!-- Co-Investment Network -->
+    <section class="section co-invest-section" id="co-invest">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">NETWORK ANALYSIS</p>
+                <h2>Co-Investment Overlap</h2>
+                <p>Which VCs share portfolio companies — revealing syndication patterns and conviction clusters.</p>
+            </div>
+            <div class="overlap-matrix" id="overlap-matrix"></div>
+        </div>
+    </section>
+
+    <!-- Sector Capital Flow -->
+    <section class="section" id="capital-flow">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">CAPITAL ALLOCATION</p>
+                <h2>Capital by Sector</h2>
+                <p>Where the smart money is flowing — sector-level VC concentration analysis.</p>
+            </div>
+            <div class="sector-capital-grid" id="sector-capital-grid"></div>
+        </div>
+    </section>
+
+    <!-- VC Detail Modal -->
+    <div class="modal-overlay" id="vc-modal-overlay">
+        <div class="modal-content" id="vc-modal-content">
+            <button class="modal-close" id="vc-modal-close" aria-label="Close modal">&times;</button>
+            <div class="modal-body" id="vc-modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">THE INNOVATORS LEAGUE</div>
+                    <p>A project of the Rational Optimist Society. We celebrate human achievement, technological progress, and the entrepreneurs building a better future.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>ROS</h4>
+                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener">Main Site</a>
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
+                    <a href="https://x.com/RationalOptSoc" target="_blank" rel="noopener">X / Twitter</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <a href="index.html#map">Innovation Map</a>
+                    <a href="index.html#companies">Intelligence Database</a>
+                    <a href="index.html#movements">Signals</a>
+                    <a href="index.html#sectors">Sectors</a>
+                    <a href="investors.html">Investors</a>
+                    <a href="visualizations.html">Insights</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rational Optimist Society &middot; The Innovators League</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="data.js?v=4"></script>
+    <script src="investors.js?v=4"></script>
+</body>
+</html>

@@ -1553,21 +1553,6 @@ body {
 .signal-watch   { background: rgba(96,165,250,0.15); color: #60A5FA; border: 1px solid rgba(96,165,250,0.3); }
 .signal-established { background: rgba(34,197,94,0.15);  color: #22C55E; border: 1px solid rgba(34,197,94,0.3); }
 
-/* ─── TBPN BADGE ─── */
-.tbpn-badge {
-  display: inline-block;
-  font-size: 8px;
-  font-weight: 600;
-  padding: 2px 6px;
-  border-radius: 3px;
-  text-transform: uppercase;
-  letter-spacing: 0.4px;
-  background: rgba(255, 107, 44, 0.10);
-  color: var(--accent);
-  border: 1px solid rgba(255, 107, 44, 0.25);
-  margin-left: 6px;
-}
-
 /* ─── RADAR CHART ─── */
 .radar-chart-container {
   display: flex;
@@ -1818,5 +1803,660 @@ body {
 
   .radar-chart svg {
     max-width: 220px;
+  }
+}
+
+/* ═══════════════════════════════════════
+   VC / INVESTORS PAGE STYLES
+   ═══════════════════════════════════════ */
+
+.investor-hero {
+  background: linear-gradient(180deg, rgba(255, 107, 44, 0.06) 0%, var(--bg) 100%);
+}
+
+/* ─── VC CARD GRID ─── */
+.vc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.vc-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.4s ease both;
+}
+
+.vc-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(255, 107, 44, 0.12);
+}
+
+.vc-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.vc-card-name {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.vc-card-fullname {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 2px 0 0 0;
+}
+
+.vc-card-aum {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(255, 107, 44, 0.08);
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 107, 44, 0.2);
+  white-space: nowrap;
+}
+
+.vc-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.vc-meta-item {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.vc-card-thesis {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: 12px 16px;
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+  margin-bottom: 20px;
+}
+
+.vc-card-section {
+  margin-bottom: 16px;
+}
+
+.vc-card-section h4 {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin: 0 0 8px 0;
+}
+
+.vc-partners {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.vc-sector-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.vc-sector-tag {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 107, 44, 0.08);
+  color: var(--accent);
+  border: 1px solid rgba(255, 107, 44, 0.15);
+}
+
+.vc-portfolio-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.portfolio-chip {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.portfolio-chip.linked {
+  color: var(--accent);
+  border-color: rgba(255, 107, 44, 0.2);
+  cursor: pointer;
+}
+
+.portfolio-chip.linked:hover {
+  background: rgba(255, 107, 44, 0.12);
+  border-color: var(--accent);
+}
+
+.portfolio-chip.small {
+  font-size: 11px;
+  padding: 2px 8px;
+}
+
+.portfolio-count {
+  font-size: 10px;
+  background: var(--accent);
+  color: #000;
+  padding: 1px 6px;
+  border-radius: 10px;
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+.vc-card-footer {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.vc-detail-btn, .vc-website-btn {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.vc-detail-btn:hover {
+  background: var(--accent);
+  color: #000;
+  border-color: var(--accent);
+}
+
+.vc-website-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ─── VC MODAL EXTRAS ─── */
+.vc-modal-header h2 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  margin: 0 0 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.vc-modal-meta {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.vc-modal-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.vc-modal-section {
+  margin-bottom: 28px;
+}
+
+.vc-modal-section h3 {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 12px 0;
+}
+
+.vc-thesis-full {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.vc-partners-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.vc-partner-chip {
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+}
+
+.vc-overlaps {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vc-overlap-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--bg-tertiary);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.overlap-firm {
+  font-weight: 600;
+  color: var(--accent);
+  min-width: 100px;
+}
+
+.overlap-shared {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.vc-modal-actions {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+/* ─── CO-INVESTMENT OVERLAP ─── */
+.co-invest-section {
+  background: var(--bg-secondary);
+}
+
+.overlap-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.overlap-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  transition: border-color 0.2s ease;
+}
+
+.overlap-card:hover {
+  border-color: var(--accent);
+}
+
+.overlap-firms {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.overlap-firm-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+.overlap-connector {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.overlap-count {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.overlap-companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+/* ─── SECTOR CAPITAL FLOW ─── */
+.sector-capital-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sector-capital-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+
+.sector-capital-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.sector-capital-header h4 {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.sector-capital-aum {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.sector-capital-bar-bg {
+  height: 6px;
+  background: var(--bg-tertiary);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.sector-capital-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), #ff9b6a);
+  border-radius: 3px;
+  transition: width 1s ease;
+}
+
+.sector-capital-firms {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.sector-capital-count {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.sector-firm-tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+
+/* ─── NAV ACTIVE STATE ─── */
+.nav-links a.active {
+  color: var(--accent);
+}
+
+/* ─── INNOVATION SCORE BADGE ─── */
+.score-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: rgba(34, 197, 94, 0.12);
+  color: #22C55E;
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  font-family: var(--font-display);
+}
+
+.score-badge.high {
+  background: rgba(34, 197, 94, 0.12);
+  color: #22C55E;
+  border-color: rgba(34, 197, 94, 0.25);
+}
+
+.score-badge.mid {
+  background: rgba(255, 215, 0, 0.12);
+  color: #FFD700;
+  border-color: rgba(255, 215, 0, 0.25);
+}
+
+.score-badge.low {
+  background: rgba(239, 68, 68, 0.12);
+  color: #EF4444;
+  border-color: rgba(239, 68, 68, 0.25);
+}
+
+/* ─── INVESTMENT THESIS ─── */
+.thesis-section {
+  margin: 20px 0;
+  padding: 20px;
+  background: var(--bg-tertiary);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+}
+
+.thesis-section h4 {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  color: var(--text-primary);
+}
+
+.thesis-item {
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.thesis-bull {
+  background: rgba(34, 197, 94, 0.06);
+  border-left: 3px solid #22C55E;
+}
+
+.thesis-bear {
+  background: rgba(239, 68, 68, 0.06);
+  border-left: 3px solid #EF4444;
+}
+
+.thesis-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.thesis-bull .thesis-label { color: #22C55E; }
+.thesis-bear .thesis-label { color: #EF4444; }
+
+.thesis-risks {
+  margin-top: 12px;
+}
+
+.thesis-risks h5 {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #F59E0B;
+  margin: 0 0 8px 0;
+}
+
+.thesis-risk-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 4px 0;
+}
+
+.thesis-risk-item::before {
+  content: '⚠';
+  font-size: 12px;
+}
+
+/* ─── WEEKLY DIGEST ─── */
+.digest-section {
+  padding: 32px 0;
+  background: linear-gradient(180deg, rgba(255, 107, 44, 0.04) 0%, transparent 100%);
+  border-bottom: 1px solid var(--border);
+}
+
+.digest-scroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 0 max(20px, calc((100vw - 1200px) / 2));
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.digest-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.digest-card {
+  flex: 0 0 360px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px 24px;
+  scroll-snap-align: start;
+  transition: border-color 0.2s ease;
+  cursor: pointer;
+}
+
+.digest-card:hover {
+  border-color: var(--accent);
+}
+
+.digest-date {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.digest-category {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-left: 8px;
+}
+
+.digest-category-funding { background: rgba(34, 197, 94, 0.12); color: #22C55E; }
+.digest-category-milestone { background: rgba(255, 107, 44, 0.12); color: var(--accent); }
+.digest-category-trend { background: rgba(96, 165, 250, 0.12); color: #60A5FA; }
+
+.digest-headline {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 10px 0 8px;
+  line-height: 1.4;
+}
+
+.digest-summary {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.digest-companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 12px;
+}
+
+/* ─── ONE-PAGER PRINT STYLES ─── */
+@media print {
+  body { background: #fff; color: #000; }
+  .nav, .footer, .modal-overlay { display: none; }
+}
+
+/* ─── VC PAGE RESPONSIVE ─── */
+@media (max-width: 768px) {
+  .vc-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vc-card-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .vc-card-aum {
+    align-self: flex-start;
+  }
+
+  .overlap-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .vc-modal-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vc-overlap-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sector-capital-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .digest-card {
+    flex: 0 0 300px;
   }
 }

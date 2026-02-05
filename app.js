@@ -16,7 +16,8 @@ const INTL_CODES = {
   'JP': 'Japan', 'KR': 'South Korea',
   'AU': 'Australia', 'SG': 'Singapore',
   'NZ': 'New Zealand', 'ZA': 'South Africa', 'BR': 'Brazil',
-  'IE': 'Ireland', 'CA-CAN': 'Canada'
+  'IE': 'Ireland', 'CA-CAN': 'Canada',
+  'PT': 'Portugal', 'CZ': 'Czech Republic'
 };
 
 // Countries found in location strings — used to disambiguate shared codes
@@ -57,9 +58,188 @@ function renderSignalBadge(signal) {
   return `<span class="signal-badge ${s.class}">${s.icon} ${s.label}</span>`;
 }
 
-function renderTBPNBadge(company) {
-  if (!company.tbpnMentioned) return '';
-  return `<span class="tbpn-badge">TBPN</span>`;
+// ─── INNOVATION SCORE ───
+function getAverageScore(scores) {
+  if (!scores) return 0;
+  const vals = [scores.team, scores.traction, scores.techMoat, scores.market, scores.momentum].filter(v => v != null);
+  return vals.length ? (vals.reduce((sum, v) => sum + v, 0) / vals.length) : 0;
+}
+
+function renderScoreBadge(scores) {
+  if (!scores) return '';
+  const avg = getAverageScore(scores);
+  if (avg === 0) return '';
+  const cls = avg >= 8 ? 'high' : avg >= 6 ? 'mid' : 'low';
+  return `<span class="score-badge ${cls}">★ ${avg.toFixed(1)}</span>`;
+}
+
+// ─── INVESTMENT THESIS ───
+function renderThesis(thesis) {
+  if (!thesis) return '';
+  return `
+    <div class="thesis-section">
+      <h4>Investment Thesis</h4>
+      ${thesis.bull ? `
+        <div class="thesis-item thesis-bull">
+          <div class="thesis-label">Bull Case</div>
+          ${thesis.bull}
+        </div>
+      ` : ''}
+      ${thesis.bear ? `
+        <div class="thesis-item thesis-bear">
+          <div class="thesis-label">Bear Case</div>
+          ${thesis.bear}
+        </div>
+      ` : ''}
+      ${thesis.risks && thesis.risks.length > 0 ? `
+        <div class="thesis-risks">
+          <h5>Key Risks</h5>
+          ${thesis.risks.map(r => `<div class="thesis-risk-item">${r}</div>`).join('')}
+        </div>
+      ` : ''}
+    </div>
+  `;
+}
+
+// ─── DUE DILIGENCE ONE-PAGER ───
+function generateOnePager(companyName) {
+  const company = COMPANIES.find(c => c.name === companyName);
+  if (!company) return;
+
+  const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
+  const country = getCountry(company.state, company.location);
+  const avg = getAverageScore(company.scores);
+
+  // Find VCs backing this company
+  const backers = (typeof VC_FIRMS !== 'undefined' ? VC_FIRMS : [])
+    .filter(f => f.portfolioCompanies.includes(company.name))
+    .map(f => f.shortName);
+
+  const competitors = (company.competitors || [])
+    .map(name => COMPANIES.find(c => c.name === name))
+    .filter(Boolean);
+
+  const w = window.open('', '_blank');
+  w.document.write(`
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>${company.name} — Due Diligence One-Pager | Innovators League</title>
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: #000; color: #f0f0fa; padding: 40px; max-width: 900px; margin: 0 auto; line-height: 1.6; }
+        .header { border-bottom: 2px solid #FF6B2C; padding-bottom: 20px; margin-bottom: 28px; }
+        .header h1 { font-size: 28px; margin-bottom: 4px; }
+        .header .subtitle { color: rgba(240,240,250,0.5); font-size: 13px; }
+        .sector-tag { display: inline-block; background: rgba(255,107,44,0.12); color: #FF6B2C; padding: 4px 12px; border-radius: 6px; font-size: 12px; font-weight: 600; margin-bottom: 12px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0; }
+        .stat-box { background: #0a0a0a; border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 16px; }
+        .stat-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; color: rgba(240,240,250,0.4); margin-bottom: 4px; }
+        .stat-value { font-size: 18px; font-weight: 600; }
+        .section { margin: 24px 0; }
+        .section h3 { font-size: 14px; text-transform: uppercase; letter-spacing: 0.5px; color: #FF6B2C; margin-bottom: 10px; }
+        .section p { color: rgba(240,240,250,0.7); font-size: 14px; }
+        .insight-box { background: #0a0a0a; border-left: 3px solid #FF6B2C; padding: 16px; border-radius: 0 8px 8px 0; margin: 12px 0; font-style: italic; color: rgba(240,240,250,0.7); font-size: 14px; }
+        .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+        .tag { background: #111; border: 1px solid rgba(255,255,255,0.08); padding: 4px 10px; border-radius: 6px; font-size: 12px; color: rgba(240,240,250,0.6); }
+        .bull { background: rgba(34,197,94,0.06); border-left: 3px solid #22C55E; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 8px 0; font-size: 13px; color: rgba(240,240,250,0.7); }
+        .bear { background: rgba(239,68,68,0.06); border-left: 3px solid #EF4444; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 8px 0; font-size: 13px; color: rgba(240,240,250,0.7); }
+        .bull-label { color: #22C55E; font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 4px; }
+        .bear-label { color: #EF4444; font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 4px; }
+        .footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.08); text-align: center; color: rgba(240,240,250,0.3); font-size: 12px; }
+        .score-row { display: flex; gap: 12px; flex-wrap: wrap; margin: 12px 0; }
+        .score-item { background: #0a0a0a; border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 10px 16px; text-align: center; }
+        .score-num { font-size: 20px; font-weight: 700; color: #22C55E; }
+        .score-lbl { font-size: 10px; text-transform: uppercase; letter-spacing: 0.3px; color: rgba(240,240,250,0.4); margin-top: 2px; }
+        @media print {
+          body { background: #fff; color: #000; padding: 20px; }
+          .stat-box, .insight-box, .bull, .bear, .score-item { background: #f5f5f5; border-color: #ddd; }
+          .section h3 { color: #333; }
+          .stat-label, .section p, .insight-box, .bull, .bear { color: #333; }
+          .header { border-color: #333; }
+          .score-num { color: #22C55E; }
+          .tag { background: #eee; border-color: #ccc; color: #333; }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <div class="sector-tag">${sectorInfo.icon} ${company.sector}</div>
+        <h1>${company.name}</h1>
+        <div class="subtitle">Due Diligence One-Pager · Generated ${new Date().toLocaleDateString()} · Innovators League by ROS</div>
+      </div>
+
+      <div class="grid">
+        <div class="stat-box"><div class="stat-label">Location</div><div class="stat-value">${company.location} · ${country}</div></div>
+        <div class="stat-box"><div class="stat-label">Stage</div><div class="stat-value">${company.fundingStage || 'N/A'}</div></div>
+        <div class="stat-box"><div class="stat-label">Total Raised</div><div class="stat-value">${company.totalRaised || 'N/A'}</div></div>
+        <div class="stat-box"><div class="stat-label">Valuation</div><div class="stat-value">${company.valuation || 'N/A'}</div></div>
+        ${company.founder ? `<div class="stat-box"><div class="stat-label">Founder(s)</div><div class="stat-value">${company.founder}</div></div>` : ''}
+        ${avg > 0 ? `<div class="stat-box"><div class="stat-label">Innovation Score</div><div class="stat-value" style="color:#22C55E">${avg.toFixed(1)} / 10</div></div>` : ''}
+      </div>
+
+      ${company.scores ? `
+        <div class="section">
+          <h3>Intelligence Scores</h3>
+          <div class="score-row">
+            <div class="score-item"><div class="score-num">${company.scores.team}</div><div class="score-lbl">Team</div></div>
+            <div class="score-item"><div class="score-num">${company.scores.traction}</div><div class="score-lbl">Traction</div></div>
+            <div class="score-item"><div class="score-num">${company.scores.techMoat}</div><div class="score-lbl">Tech Moat</div></div>
+            <div class="score-item"><div class="score-num">${company.scores.market}</div><div class="score-lbl">Market</div></div>
+            <div class="score-item"><div class="score-num">${company.scores.momentum}</div><div class="score-lbl">Momentum</div></div>
+          </div>
+        </div>
+      ` : ''}
+
+      <div class="section">
+        <h3>Overview</h3>
+        <p>${company.description}</p>
+      </div>
+
+      ${company.insight ? `
+        <div class="section">
+          <h3>Analyst View</h3>
+          <div class="insight-box">${company.insight}</div>
+        </div>
+      ` : ''}
+
+      ${company.thesis ? `
+        <div class="section">
+          <h3>Investment Thesis</h3>
+          ${company.thesis.bull ? `<div class="bull"><div class="bull-label">Bull Case</div>${company.thesis.bull}</div>` : ''}
+          ${company.thesis.bear ? `<div class="bear"><div class="bear-label">Bear Case</div>${company.thesis.bear}</div>` : ''}
+          ${company.thesis.risks ? `<div style="margin-top:12px"><div style="color:#F59E0B;font-size:11px;font-weight:700;text-transform:uppercase;margin-bottom:6px">Key Risks</div>${company.thesis.risks.map(r => `<div style="font-size:13px;color:rgba(240,240,250,0.6);padding:3px 0;">⚠ ${r}</div>`).join('')}</div>` : ''}
+        </div>
+      ` : ''}
+
+      ${backers.length > 0 ? `
+        <div class="section">
+          <h3>VC Backers</h3>
+          <div class="tags">${backers.map(b => `<span class="tag">${b}</span>`).join('')}</div>
+        </div>
+      ` : ''}
+
+      ${competitors.length > 0 ? `
+        <div class="section">
+          <h3>Competitive Landscape</h3>
+          <div class="tags">${competitors.map(c => `<span class="tag">${c.name}</span>`).join('')}</div>
+        </div>
+      ` : ''}
+
+      <div class="section">
+        <h3>Tags</h3>
+        <div class="tags">${company.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+      </div>
+
+      <div class="footer">
+        <p>The Innovators League by Rational Optimist Society · rationaloptimistsociety.com</p>
+        <p style="margin-top:4px">This report is for informational purposes only and does not constitute investment advice.</p>
+      </div>
+    </body>
+    </html>
+  `);
+  w.document.close();
 }
 
 // ─── RADAR CHART ───
@@ -252,7 +432,7 @@ function openCompanyModal(companyName) {
     <div class="modal-sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border: 1px solid ${sectorInfo.color}30;">
       ${sectorInfo.icon} ${company.sector}
     </div>
-    <h2 class="modal-company-name">${company.name} ${renderSignalBadge(company.signal)} ${renderTBPNBadge(company)}</h2>
+    <h2 class="modal-company-name">${company.name} ${renderSignalBadge(company.signal)}</h2>
     ${company.founder ? `<p class="modal-founder">${company.founder}</p>` : ''}
     <p class="modal-location">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -274,11 +454,27 @@ function openCompanyModal(companyName) {
 
     ${renderRadarChart(company.scores)}
 
+    ${renderThesis(company.thesis)}
+
     <p class="modal-description">${company.description}</p>
 
     <div class="modal-tags">
       ${company.tags.map(t => `<span class="tag">${t}</span>`).join('')}
     </div>
+
+    ${(() => {
+      const backers = (typeof VC_FIRMS !== 'undefined' ? VC_FIRMS : [])
+        .filter(f => f.portfolioCompanies.includes(company.name))
+        .map(f => f.shortName);
+      return backers.length > 0 ? `
+        <div class="modal-competitors" style="margin-top:16px;">
+          <h4>VC Backers</h4>
+          <div class="competitors-grid">
+            ${backers.map(b => `<a href="investors.html" class="competitor-chip">${b}</a>`).join('')}
+          </div>
+        </div>
+      ` : '';
+    })()}
 
     ${!company.scores && !company.insight ? '<p class="assessment-pending">⏳ Full intelligence assessment pending</p>' : ''}
 
@@ -292,6 +488,9 @@ function openCompanyModal(companyName) {
       </button>
       <button class="modal-action-btn" onclick="shareCompany('${company.name.replace(/'/g, "\\'")}')">
         ↗ Share
+      </button>
+      <button class="modal-action-btn" onclick="generateOnePager('${company.name.replace(/'/g, "\\'")}')">
+        📋 One-Pager
       </button>
     </div>
 
@@ -363,6 +562,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initKeyboard();
   initFeatured();
   initMovementTracker();
+  initWeeklyDigest();
   initURLState();
   initSmoothScroll();
   updateResultsCount(COMPANIES.length);
@@ -726,7 +926,7 @@ function renderCompanies(companies) {
         </div>
       </div>
       <h3 class="card-name">${company.name}</h3>
-      ${(company.signal || company.tbpnMentioned) ? `<div class="card-badges">${renderSignalBadge(company.signal)}${renderTBPNBadge(company)}</div>` : ''}
+      ${(company.signal || company.scores) ? `<div class="card-badges">${renderSignalBadge(company.signal)}${renderScoreBadge(company.scores)}</div>` : ''}
       ${company.founder ? `<p class="card-founder">${company.founder}</p>` : ''}
       <p class="card-location">
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -1030,6 +1230,77 @@ function initMovementTracker() {
       renderMovements(tab.dataset.type);
     });
   });
+}
+
+// ─── WEEKLY DIGEST ───
+function initWeeklyDigest() {
+  const scroll = document.getElementById('digest-scroll');
+  if (!scroll || typeof WEEKLY_DIGEST === 'undefined') return;
+
+  WEEKLY_DIGEST.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'digest-card';
+
+    const catClass = `digest-category-${item.category}`;
+
+    card.innerHTML = `
+      <div>
+        <span class="digest-date">${item.date}</span>
+        <span class="digest-category ${catClass}">${item.category}</span>
+      </div>
+      <h3 class="digest-headline">${item.headline}</h3>
+      <p class="digest-summary">${item.summary}</p>
+      <div class="digest-companies">
+        ${item.relatedCompanies.map(name => {
+          const exists = COMPANIES.find(c => c.name === name);
+          return exists
+            ? `<span class="portfolio-chip linked small" onclick="openCompanyModal('${name.replace(/'/g, "\\'")}')">${name}</span>`
+            : `<span class="portfolio-chip small">${name}</span>`;
+        }).join('')}
+      </div>
+    `;
+
+    scroll.appendChild(card);
+  });
+}
+
+// ─── EXPORT WATCHLIST CSV ───
+function exportWatchlistCSV() {
+  const savedCompanies = COMPANIES.filter(c => isBookmarked(c.name));
+  if (savedCompanies.length === 0) {
+    alert('No companies saved to watchlist. Save companies first using the ☆ button.');
+    return;
+  }
+
+  const headers = ['Name', 'Sector', 'Location', 'Country', 'Stage', 'Total Raised', 'Valuation', 'Founder', 'Signal', 'Score', 'Description'];
+  const rows = savedCompanies.map(c => {
+    const country = getCountry(c.state, c.location);
+    const avg = getAverageScore(c.scores);
+    return [
+      c.name,
+      c.sector,
+      c.location,
+      country,
+      c.fundingStage || '',
+      c.totalRaised || '',
+      c.valuation || '',
+      c.founder || '',
+      c.signal || '',
+      avg > 0 ? avg.toFixed(1) : '',
+      `"${(c.description || '').replace(/"/g, '""')}"`
+    ].join(',');
+  });
+
+  const csv = [headers.join(','), ...rows].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `innovators-league-watchlist-${new Date().toISOString().slice(0, 10)}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
 }
 
 // ─── SMOOTH SCROLL (runs after DOMContentLoaded via initSmoothScroll) ───
