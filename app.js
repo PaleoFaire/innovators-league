@@ -1505,53 +1505,158 @@ function exportWatchlistCSV() {
   URL.revokeObjectURL(url);
 }
 
-// ─── INNOVATION LEADERBOARD ───
+// ─── VALUATION LEADERBOARD ───
+function parseValuation(val) {
+  if (!val) return 0;
+  const str = val.replace(/[^0-9.BMbmTt+]/g, '').toUpperCase();
+  let num = parseFloat(str);
+  if (isNaN(num)) return 0;
+  if (str.includes('T')) return num * 1000000000000;
+  if (str.includes('B')) return num * 1000000000;
+  if (str.includes('M')) return num * 1000000;
+  return num;
+}
+
+function parseFunding(val) {
+  if (!val) return 0;
+  const str = val.replace(/[^0-9.BMbmTt+]/g, '').toUpperCase();
+  let num = parseFloat(str);
+  if (isNaN(num)) return 0;
+  if (str.includes('T')) return num * 1000000000000;
+  if (str.includes('B')) return num * 1000000000;
+  if (str.includes('M')) return num * 1000000;
+  return num;
+}
+
+function formatValuation(num) {
+  if (num >= 1000000000000) return `$${(num / 1000000000000).toFixed(1)}T`;
+  if (num >= 1000000000) return `$${(num / 1000000000).toFixed(1)}B`;
+  if (num >= 1000000) return `$${(num / 1000000).toFixed(0)}M`;
+  return '';
+}
+
 function initLeaderboard() {
   const grid = document.getElementById('leaderboard-grid');
   if (!grid) return;
 
-  // Get companies with scores, calculate average, sort by score
-  const scored = COMPANIES
-    .filter(c => c.scores)
-    .map(c => ({
+  // Populate sector dropdown
+  const sectorSelect = document.getElementById('lb-sector');
+  if (sectorSelect) {
+    const sectors = [...new Set(COMPANIES.map(c => c.sector))].sort();
+    sectors.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s;
+      opt.textContent = s;
+      sectorSelect.appendChild(opt);
+    });
+  }
+
+  function renderLeaderboard() {
+    grid.innerHTML = '';
+    const sortBy = document.getElementById('lb-sort')?.value || 'valuation';
+    const stage = document.getElementById('lb-stage')?.value || 'all';
+    const sector = document.getElementById('lb-sector')?.value || 'all';
+    const countVal = document.getElementById('lb-count')?.value || '25';
+
+    // Filter
+    let filtered = COMPANIES.filter(c => {
+      if (stage === 'private') return c.fundingStage !== 'Public' && !c.fundingStage?.includes('Alphabet');
+      if (stage === 'public') return c.fundingStage === 'Public' || c.fundingStage?.includes('Alphabet');
+      if (stage === 'pre-ipo') return c.fundingStage === 'Pre-IPO' || c.fundingStage === 'Late Stage';
+      return true;
+    }).filter(c => {
+      if (sector !== 'all') return c.sector === sector;
+      return true;
+    });
+
+    // Sort
+    filtered = filtered.map(c => ({
       ...c,
-      avgScore: getAverageScore(c.scores)
-    }))
-    .sort((a, b) => b.avgScore - a.avgScore)
-    .slice(0, 20);
+      _val: parseValuation(c.valuation),
+      _raised: parseFunding(c.totalRaised),
+      _score: c.scores ? getAverageScore(c.scores) : 0
+    }));
 
-  scored.forEach((c, i) => {
-    const rank = i + 1;
-    const rankClass = rank === 1 ? 'gold' : rank === 2 ? 'silver' : rank === 3 ? 'bronze' : 'normal';
-    const rankSymbol = rank <= 3 ? ['🥇','🥈','🥉'][rank - 1] : `#${rank}`;
-    const scoreClass = c.avgScore >= 8 ? 'high' : 'mid';
-    const sectorInfo = SECTORS[c.sector] || { icon: '' };
-    const signalBadge = c.signal ? renderSignalBadge(c.signal) : '';
+    if (sortBy === 'valuation') {
+      filtered.sort((a, b) => b._val - a._val);
+      filtered = filtered.filter(c => c._val > 0);
+    } else if (sortBy === 'score') {
+      filtered.sort((a, b) => b._score - a._score);
+      filtered = filtered.filter(c => c._score > 0);
+    } else if (sortBy === 'funding') {
+      filtered.sort((a, b) => b._raised - a._raised);
+      filtered = filtered.filter(c => c._raised > 0);
+    } else {
+      filtered.sort((a, b) => a.name.localeCompare(b.name));
+    }
 
-    const row = document.createElement('div');
-    row.className = 'leaderboard-row';
-    row.innerHTML = `
-      <div class="leaderboard-rank ${rankClass}">${rankSymbol}</div>
-      <div class="leaderboard-company">
-        <span class="leaderboard-name">${c.name} ${signalBadge}</span>
-        <span class="leaderboard-sector">${sectorInfo.icon} ${c.sector}</span>
-      </div>
-      <div class="leaderboard-score ${scoreClass}">${c.avgScore.toFixed(1)}</div>
-      <div class="leaderboard-bar">
-        <div class="leaderboard-bar-fill" style="width: 0%"></div>
-      </div>
-      <div class="leaderboard-signal">${c.valuation || ''}</div>
-      <div class="leaderboard-val">${c.fundingStage || ''}</div>
-    `;
+    const totalCount = filtered.length;
+    const maxCount = countVal === 'all' ? filtered.length : parseInt(countVal);
+    filtered = filtered.slice(0, maxCount);
 
-    row.addEventListener('click', () => openCompanyModal(c.name));
-    grid.appendChild(row);
+    // Stats
+    const statsEl = document.getElementById('lb-stats');
+    if (statsEl) {
+      const totalVal = filtered.reduce((sum, c) => sum + c._val, 0);
+      const totalRaised = filtered.reduce((sum, c) => sum + c._raised, 0);
+      statsEl.innerHTML = `
+        <span class="lb-stat"><strong>${filtered.length}</strong> of ${totalCount} companies</span>
+        <span class="lb-stat">Combined Value: <strong>${formatValuation(totalVal)}</strong></span>
+        <span class="lb-stat">Total Raised: <strong>${formatValuation(totalRaised)}</strong></span>
+      `;
+    }
 
-    // Animate bar
-    setTimeout(() => {
-      row.querySelector('.leaderboard-bar-fill').style.width = `${c.avgScore * 10}%`;
-    }, 100 + i * 60);
+    // Find max value for bar scaling
+    const maxVal = filtered.length > 0 ? filtered[0]._val : 1;
+
+    filtered.forEach((c, i) => {
+      const rank = i + 1;
+      const rankClass = rank === 1 ? 'gold' : rank === 2 ? 'silver' : rank === 3 ? 'bronze' : 'normal';
+      const rankSymbol = rank <= 3 ? ['🥇','🥈','🥉'][rank - 1] : `#${rank}`;
+      const sectorInfo = SECTORS[c.sector] || { icon: '📦', color: '#6b7280' };
+      const signalBadge = c.signal ? renderSignalBadge(c.signal) : '';
+      const scoreBadge = c._score > 0 ? `<span class="lb-score-badge">${c._score.toFixed(1)}</span>` : '';
+      const barWidth = sortBy === 'valuation' ? (maxVal > 0 ? (c._val / maxVal * 100) : 0) :
+                       sortBy === 'score' ? (c._score * 10) :
+                       sortBy === 'funding' ? (filtered[0]._raised > 0 ? (c._raised / filtered[0]._raised * 100) : 0) : 50;
+
+      const valDisplay = c.valuation || '—';
+      const raisedDisplay = c.totalRaised || '—';
+      const stageDisplay = c.fundingStage || '';
+
+      const row = document.createElement('div');
+      row.className = 'leaderboard-row';
+      row.innerHTML = `
+        <div class="leaderboard-rank ${rankClass}">${rankSymbol}</div>
+        <div class="leaderboard-company">
+          <span class="leaderboard-name">${c.name} ${signalBadge} ${scoreBadge}</span>
+          <span class="leaderboard-sector">${sectorInfo.icon} ${c.sector}</span>
+        </div>
+        <div class="leaderboard-valuation">${valDisplay}</div>
+        <div class="leaderboard-bar">
+          <div class="leaderboard-bar-fill" style="width: 0%"></div>
+        </div>
+        <div class="leaderboard-raised">${raisedDisplay}</div>
+        <div class="leaderboard-stage">${stageDisplay}</div>
+      `;
+
+      row.addEventListener('click', () => openCompanyModal(c.name));
+      grid.appendChild(row);
+
+      // Animate bar
+      setTimeout(() => {
+        row.querySelector('.leaderboard-bar-fill').style.width = `${barWidth}%`;
+      }, 80 + i * 40);
+    });
+  }
+
+  // Attach event listeners
+  ['lb-sort', 'lb-stage', 'lb-sector', 'lb-count'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('change', renderLeaderboard);
   });
+
+  renderLeaderboard();
 }
 
 // ─── ENHANCED COMPARE VIEW ───

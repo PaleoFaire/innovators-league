@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <link rel="stylesheet" href="styles.css?v=7">
+    <link rel="stylesheet" href="styles.css?v=8">
 </head>
 <body>
     <!-- Navigation -->
@@ -216,13 +216,39 @@
         </div>
     </section>
 
-    <!-- Innovation Leaderboard -->
+    <!-- Valuation Leaderboard -->
     <section class="leaderboard-section" id="leaderboard">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">TOP RATED</p>
-                <h2>Innovation Leaderboard</h2>
-                <p>The highest-rated frontier tech companies based on our 5-dimension assessment.</p>
+                <p class="section-eyebrow">VALUATION RANKINGS</p>
+                <h2>Valuation Leaderboard</h2>
+                <p>Private and public frontier tech companies ranked by latest valuation. Customize filters to build your own view.</p>
+            </div>
+            <div class="leaderboard-controls">
+                <div class="leaderboard-filters">
+                    <select id="lb-sort" class="lb-filter-select">
+                        <option value="valuation">Sort: Valuation</option>
+                        <option value="score">Sort: Innovation Score</option>
+                        <option value="funding">Sort: Total Raised</option>
+                        <option value="name">Sort: A-Z</option>
+                    </select>
+                    <select id="lb-stage" class="lb-filter-select">
+                        <option value="all">Stage: All</option>
+                        <option value="private">Private Only</option>
+                        <option value="public">Public Only</option>
+                        <option value="pre-ipo">Pre-IPO</option>
+                    </select>
+                    <select id="lb-sector" class="lb-filter-select">
+                        <option value="all">Sector: All</option>
+                    </select>
+                    <select id="lb-count" class="lb-filter-select">
+                        <option value="25">Show: Top 25</option>
+                        <option value="50">Show: Top 50</option>
+                        <option value="100">Show: Top 100</option>
+                        <option value="all">Show: All</option>
+                    </select>
+                </div>
+                <div class="leaderboard-stats" id="lb-stats"></div>
             </div>
             <div class="leaderboard-grid" id="leaderboard-grid"></div>
         </div>
@@ -382,7 +408,7 @@
         </div>
     </footer>
 
-    <script src="data.js?v=7"></script>
-    <script src="app.js?v=7"></script>
+    <script src="data.js?v=8"></script>
+    <script src="app.js?v=8"></script>
 </body>
 </html>
