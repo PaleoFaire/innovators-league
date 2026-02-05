@@ -5630,3 +5630,393 @@ body {
   .scenario-controls { flex-direction: column; }
   .memo-output { padding: 20px; }
 }
+
+/* ═══════════════════════════════════════════════════════
+   PHASE 3: Intelligence Feed, PDF Reports, Community
+   ═══════════════════════════════════════════════════════ */
+
+/* ─── INTELLIGENCE FEED ─── */
+.intel-feed-section { padding: 60px 0; }
+
+.feed-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+.feed-tab {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 8px 20px;
+  border-radius: 8px 8px 0 0;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.2s;
+}
+.feed-tab:hover { color: var(--text-primary); }
+.feed-tab.active {
+  background: var(--bg-card);
+  border-bottom-color: var(--bg-card);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.feed-controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.feed-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 0 var(--radius-lg, 12px) var(--radius-lg, 12px) var(--radius-lg, 12px);
+  padding: 8px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.feed-item {
+  display: grid;
+  grid-template-columns: 80px 1fr 90px;
+  gap: 14px;
+  align-items: start;
+  padding: 14px 12px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+.feed-item:last-child { border-bottom: none; }
+.feed-item:hover { background: var(--bg-elevated); }
+
+.feed-date {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-family: 'Space Grotesk', sans-serif;
+  padding-top: 2px;
+}
+.feed-content { min-width: 0; }
+.feed-headline {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+.feed-headline .feed-company-link {
+  color: var(--accent);
+  cursor: pointer;
+}
+.feed-headline .feed-company-link:hover { text-decoration: underline; }
+.feed-summary {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+.feed-meta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 11px;
+}
+.feed-source {
+  color: var(--text-muted);
+  font-style: italic;
+}
+.feed-category-tag {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.feed-category-tag.funding { background: rgba(34,197,94,0.15); color: #22c55e; }
+.feed-category-tag.milestone { background: rgba(59,130,246,0.15); color: #3b82f6; }
+.feed-category-tag.contract { background: rgba(245,158,11,0.15); color: #f59e0b; }
+.feed-category-tag.partnership { background: rgba(139,92,246,0.15); color: #8b5cf6; }
+.feed-category-tag.ipo { background: rgba(236,72,153,0.15); color: #ec4899; }
+.feed-category-tag.leadership { background: rgba(6,182,212,0.15); color: #06b6d4; }
+.feed-category-tag.product { background: rgba(255,107,44,0.15); color: #FF6B2C; }
+.feed-category-tag.acquisition { background: rgba(239,68,68,0.15); color: #ef4444; }
+.feed-category-tag.regulatory { background: rgba(107,114,128,0.15); color: #9ca3af; }
+
+.feed-impact {
+  text-align: right;
+  padding-top: 2px;
+}
+.feed-impact-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.feed-impact-badge.high { background: rgba(239,68,68,0.15); color: #ef4444; }
+.feed-impact-badge.medium { background: rgba(245,158,11,0.1); color: #f59e0b; }
+.feed-impact-badge.low { background: rgba(107,114,128,0.1); color: #6b7280; }
+
+/* Story leads */
+.story-lead-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-hover);
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 12px;
+}
+.story-lead-card:last-child { margin-bottom: 0; }
+.story-lead-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.story-lead-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.story-lead-confidence {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.story-lead-confidence.high { background: rgba(255,107,44,0.15); color: var(--accent); }
+.story-lead-confidence.medium { background: rgba(245,158,11,0.1); color: #f59e0b; }
+.story-lead-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.story-lead-signals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.story-signal-tag {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  background: var(--accent-dim);
+  color: var(--accent);
+}
+.story-lead-companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.story-company-chip {
+  padding: 3px 10px;
+  border-radius: 14px;
+  font-size: 11px;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.story-company-chip:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ─── SECTOR REPORTS ─── */
+.reports-section { padding: 60px 0; }
+
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
+.report-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg, 12px);
+  padding: 24px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.report-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+.report-card-icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+.report-card-sector {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.report-card-stats {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+.report-card-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #000;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: opacity 0.15s;
+}
+.report-card-btn:hover { opacity: 0.85; }
+
+/* Company comparison PDF */
+.report-compare-bar {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg, 12px);
+  padding: 16px 20px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.report-compare-bar p {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-right: auto;
+}
+.report-compare-btn {
+  background: var(--accent);
+  color: #000;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ─── COMMUNITY INTELLIGENCE ─── */
+.community-section { padding: 60px 0; }
+
+.community-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 24px;
+}
+.community-discussions {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg, 12px);
+  padding: 20px;
+  min-height: 400px;
+}
+.community-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.community-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg, 12px);
+  padding: 20px;
+}
+.community-card h4 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.community-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+.watchlist-builder {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.watchlist-companies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  min-height: 30px;
+}
+.watchlist-chip {
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  background: var(--accent-dim);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.watchlist-chip .wl-remove {
+  cursor: pointer;
+  font-size: 13px;
+  opacity: 0.7;
+}
+.watchlist-chip .wl-remove:hover { opacity: 1; }
+
+.suggest-edit-btn {
+  display: inline-block;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.suggest-edit-btn:hover { border-color: var(--accent); color: var(--text-primary); }
+
+.expert-take {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+.expert-take:last-child { border-bottom: none; }
+.expert-take-author {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+.expert-take-company {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+.expert-take-text {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ─── PHASE 3 RESPONSIVE ─── */
+@media (max-width: 1024px) {
+  .community-layout { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+  .feed-item { grid-template-columns: 60px 1fr; }
+  .feed-impact { display: none; }
+  .feed-controls { flex-direction: column; }
+  .reports-grid { grid-template-columns: 1fr; }
+  .community-layout { grid-template-columns: 1fr; }
+}

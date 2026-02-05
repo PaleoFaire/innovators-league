@@ -838,6 +838,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initNetworkGraph();
   initPortfolioBuilder();
   initAIMemo();
+  initIntelFeed();
+  initSectorReports();
+  initCommunityIntel();
   initURLState();
   initSmoothScroll();
   updateResultsCount(COMPANIES.length);
@@ -3241,4 +3244,342 @@ Structure with:
     generateBtn.disabled = false;
     generateBtn.textContent = '\u26a1 Generate Memo';
   });
+}
+
+// ═══════════════════════════════════════════════════════
+// PHASE 3: REAL-TIME INTELLIGENCE FEED
+// ═══════════════════════════════════════════════════════
+function initIntelFeed() {
+  if (typeof NEWS_FEED === 'undefined') return;
+  const newsPanel = document.getElementById('feed-news-panel');
+  const storiesPanel = document.getElementById('feed-stories-panel');
+  if (!newsPanel) return;
+
+  // Populate sector filter
+  const sectorFilter = document.getElementById('feed-sector');
+  if (sectorFilter) {
+    const sectors = [...new Set(NEWS_FEED.map(n => n.sector))].sort();
+    sectors.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s;
+      opt.textContent = s;
+      sectorFilter.appendChild(opt);
+    });
+  }
+
+  // Tab switching
+  document.querySelectorAll('.feed-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.feed-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const panel = tab.dataset.feed;
+      newsPanel.style.display = panel === 'news' ? '' : 'none';
+      storiesPanel.style.display = panel === 'stories' ? '' : 'none';
+    });
+  });
+
+  function renderNews() {
+    const cat = document.getElementById('feed-category')?.value || 'all';
+    const sec = document.getElementById('feed-sector')?.value || 'all';
+    const imp = document.getElementById('feed-impact')?.value || 'all';
+
+    let items = [...NEWS_FEED].sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    if (cat !== 'all') items = items.filter(n => n.category === cat);
+    if (sec !== 'all') items = items.filter(n => n.sector === sec);
+    if (imp !== 'all') items = items.filter(n => n.impact === imp);
+
+    newsPanel.innerHTML = items.length === 0
+      ? '<div style="padding:30px; text-align:center; color:var(--text-muted)">No news items match your filters.</div>'
+      : items.map(n => `
+        <div class="feed-item">
+          <div class="feed-date">${formatFeedDate(n.date)}</div>
+          <div class="feed-content">
+            <div class="feed-headline">
+              <span class="feed-company-link" onclick="openCompanyModal('${(n.company || '').replace(/'/g, "\\'")}')">${n.company}</span>: ${n.headline}
+            </div>
+            <div class="feed-summary">${n.summary || ''}</div>
+            <div class="feed-meta">
+              <span class="feed-category-tag ${n.category}">${n.category}</span>
+              <span class="feed-source">${n.source || ''}</span>
+            </div>
+          </div>
+          <div class="feed-impact">
+            <span class="feed-impact-badge ${n.impact}">${n.impact}</span>
+          </div>
+        </div>
+      `).join('');
+  }
+
+  function renderStoryLeads() {
+    if (typeof STORY_LEADS === 'undefined') { storiesPanel.innerHTML = ''; return; }
+    storiesPanel.innerHTML = STORY_LEADS.map(s => `
+      <div class="story-lead-card">
+        <div class="story-lead-header">
+          <div class="story-lead-title">${s.title}</div>
+          <span class="story-lead-confidence ${s.confidence}">${s.confidence} confidence</span>
+        </div>
+        <div class="story-lead-desc">${s.description}</div>
+        <div class="story-lead-signals">
+          ${(s.signals || []).map(sig => `<span class="story-signal-tag">${sig}</span>`).join('')}
+        </div>
+        <div class="story-lead-companies">
+          ${(s.companies || []).map(c => `<span class="story-company-chip" onclick="openCompanyModal('${c.replace(/'/g, "\\'")}')">${c}</span>`).join('')}
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function formatFeedDate(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr + 'T00:00:00');
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return `${months[d.getMonth()]} ${d.getDate()}`;
+  }
+
+  renderNews();
+  renderStoryLeads();
+  document.getElementById('feed-category')?.addEventListener('change', renderNews);
+  document.getElementById('feed-sector')?.addEventListener('change', renderNews);
+  document.getElementById('feed-impact')?.addEventListener('change', renderNews);
+}
+
+// ═══════════════════════════════════════════════════════
+// PHASE 3: EXPORTABLE SECTOR REPORTS (PDF)
+// ═══════════════════════════════════════════════════════
+function initSectorReports() {
+  const grid = document.getElementById('reports-grid');
+  if (!grid) return;
+
+  const sectorList = Object.keys(SECTORS).sort();
+
+  grid.innerHTML = sectorList.map(sector => {
+    const info = SECTORS[sector] || {};
+    const companies = COMPANIES.filter(c => c.sector === sector);
+    const topCompanies = companies.sort((a, b) => {
+      const sa = getInnovatorScore(a.name);
+      const sb = getInnovatorScore(b.name);
+      return ((sb ? sb.composite : 0) - (sa ? sa.composite : 0));
+    }).slice(0, 5);
+
+    return `
+      <div class="report-card" onclick="generateSectorPDF('${sector.replace(/'/g, "\\'")}')">
+        <div class="report-card-icon">${info.icon || '\u{1F4CA}'}</div>
+        <div class="report-card-sector">${sector}</div>
+        <div class="report-card-stats">${companies.length} companies \u00b7 ${info.trend || 'Tracking'}</div>
+        <button class="report-card-btn">\u{1F4C4} Generate PDF</button>
+      </div>
+    `;
+  }).join('');
+}
+
+function generateSectorPDF(sectorName) {
+  if (typeof window.jspdf === 'undefined') {
+    alert('PDF library is still loading. Please try again in a moment.');
+    return;
+  }
+
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+  const pageW = doc.internal.pageSize.getWidth();
+  const margin = 20;
+  const contentW = pageW - margin * 2;
+  let y = margin;
+
+  const sectorInfo = SECTORS[sectorName] || {};
+  const companies = COMPANIES.filter(c => c.sector === sectorName);
+  const topCompanies = [...companies].sort((a, b) => {
+    const sa = getInnovatorScore(a.name);
+    const sb = getInnovatorScore(b.name);
+    return ((sb ? sb.composite : 0) - (sa ? sa.composite : 0));
+  });
+
+  // Helper
+  function addText(text, size, style, color, maxW) {
+    doc.setFontSize(size);
+    doc.setFont('helvetica', style || 'normal');
+    doc.setTextColor(...(color || [240, 240, 250]));
+    const lines = doc.splitTextToSize(text, maxW || contentW);
+    if (y + lines.length * size * 0.45 > 280) { doc.addPage(); y = margin; }
+    doc.text(lines, margin, y);
+    y += lines.length * size * 0.45 + 2;
+    return lines.length;
+  }
+
+  function addLine() {
+    doc.setDrawColor(60, 60, 60);
+    doc.line(margin, y, pageW - margin, y);
+    y += 4;
+  }
+
+  // Page background
+  doc.setFillColor(10, 10, 10);
+  doc.rect(0, 0, pageW, 297, 'F');
+
+  // Header
+  doc.setFontSize(10);
+  doc.setFont('helvetica', 'normal');
+  doc.setTextColor(255, 107, 44);
+  doc.text('THE INNOVATORS LEAGUE', margin, y);
+  doc.setTextColor(120, 120, 130);
+  doc.text('Sector Intelligence Report', pageW - margin, y, { align: 'right' });
+  y += 8;
+
+  addLine();
+
+  // Sector title
+  addText(`${sectorInfo.icon || ''} ${sectorName}`, 22, 'bold', [255, 255, 255]);
+  y += 2;
+  addText(`${companies.length} companies tracked \u00b7 Generated ${new Date().toLocaleDateString()}`, 10, 'normal', [140, 140, 150]);
+  y += 4;
+
+  // Sector overview
+  if (sectorInfo.description) {
+    addText('SECTOR OVERVIEW', 11, 'bold', [255, 107, 44]);
+    y += 1;
+    addText(sectorInfo.description, 10, 'normal', [200, 200, 210]);
+    y += 4;
+  }
+
+  addText(`Trend: ${sectorInfo.trend || 'N/A'}`, 10, 'normal', [160, 160, 170]);
+  y += 6;
+
+  addLine();
+
+  // Top companies by Innovator Score
+  addText('TOP COMPANIES BY INNOVATOR SCORE\u2122', 11, 'bold', [255, 107, 44]);
+  y += 3;
+
+  topCompanies.slice(0, 10).forEach((c, i) => {
+    if (y > 265) { doc.addPage(); doc.setFillColor(10, 10, 10); doc.rect(0, 0, pageW, 297, 'F'); y = margin; }
+    const score = getInnovatorScore(c.name);
+    const composite = score ? score.composite.toFixed(0) : '--';
+    const tier = score ? score.tier : '';
+
+    doc.setFontSize(10);
+    doc.setFont('helvetica', 'bold');
+    doc.setTextColor(240, 240, 250);
+    doc.text(`${i + 1}. ${c.name}`, margin, y);
+
+    const tierColor = tier === 'elite' ? [34, 197, 94] : tier === 'strong' ? [59, 130, 246] : tier === 'promising' ? [245, 158, 11] : [150, 150, 160];
+    doc.setFont('helvetica', 'bold');
+    doc.setTextColor(...tierColor);
+    doc.text(`${composite} IS\u2122`, pageW - margin, y, { align: 'right' });
+    y += 5;
+
+    doc.setFontSize(9);
+    doc.setFont('helvetica', 'normal');
+    doc.setTextColor(160, 160, 170);
+    doc.text(`${c.valuation || 'N/A'} \u00b7 ${c.location || 'N/A'} \u00b7 ${c.stage || 'N/A'}`, margin + 4, y);
+    y += 4;
+
+    if (c.thesis) {
+      const thesisLines = doc.splitTextToSize(c.thesis, contentW - 8);
+      doc.setFontSize(8);
+      doc.setTextColor(140, 140, 150);
+      doc.text(thesisLines.slice(0, 2), margin + 4, y);
+      y += thesisLines.slice(0, 2).length * 3.5 + 3;
+    }
+    y += 2;
+  });
+
+  // Funding overview
+  if (y > 220) { doc.addPage(); doc.setFillColor(10, 10, 10); doc.rect(0, 0, pageW, 297, 'F'); y = margin; }
+  addLine();
+  addText('FUNDING LANDSCAPE', 11, 'bold', [255, 107, 44]);
+  y += 2;
+
+  const valuationBuckets = { '$10B+': 0, '$1B-$10B': 0, '$100M-$1B': 0, '<$100M': 0 };
+  companies.forEach(c => {
+    const val = parseValuation(c.valuation);
+    if (val >= 10000) valuationBuckets['$10B+']++;
+    else if (val >= 1000) valuationBuckets['$1B-$10B']++;
+    else if (val >= 100) valuationBuckets['$100M-$1B']++;
+    else valuationBuckets['<$100M']++;
+  });
+
+  Object.entries(valuationBuckets).forEach(([bucket, count]) => {
+    addText(`${bucket}: ${count} companies`, 9, 'normal', [180, 180, 190]);
+  });
+  y += 4;
+
+  // Gov contract companies in sector
+  if (typeof GOV_CONTRACTS !== 'undefined') {
+    const govCompanies = GOV_CONTRACTS.filter(g => {
+      const comp = COMPANIES.find(c => c.name === g.company);
+      return comp && comp.sector === sectorName;
+    });
+    if (govCompanies.length > 0) {
+      addLine();
+      addText('GOVERNMENT CONTRACTS', 11, 'bold', [255, 107, 44]);
+      y += 2;
+      addText(`${govCompanies.length} companies with federal contracts in this sector`, 9, 'normal', [180, 180, 190]);
+      y += 2;
+      govCompanies.slice(0, 5).forEach(g => {
+        addText(`\u2022 ${g.company}: $${g.totalGovValue} \u00b7 ${g.agencies.slice(0, 3).join(', ')}`, 9, 'normal', [160, 160, 170]);
+      });
+      y += 4;
+    }
+  }
+
+  // Footer
+  if (y > 265) { doc.addPage(); doc.setFillColor(10, 10, 10); doc.rect(0, 0, pageW, 297, 'F'); y = margin; }
+  y = 280;
+  doc.setFontSize(8);
+  doc.setFont('helvetica', 'italic');
+  doc.setTextColor(80, 80, 90);
+  doc.text('The Innovators League \u00b7 Rational Optimist Society \u00b7 For informational purposes only', pageW / 2, y, { align: 'center' });
+
+  // Save
+  doc.save(`TIL_${sectorName.replace(/[^a-zA-Z0-9]/g, '_')}_Report.pdf`);
+}
+
+// ═══════════════════════════════════════════════════════
+// PHASE 3: COMMUNITY INTELLIGENCE LAYER
+// ═══════════════════════════════════════════════════════
+function initCommunityIntel() {
+  // Expert takes
+  const expertList = document.getElementById('expert-takes-list');
+  if (expertList && typeof EXPERT_TAKES !== 'undefined') {
+    expertList.innerHTML = EXPERT_TAKES.slice(0, 5).map(t => `
+      <div class="expert-take">
+        <div class="expert-take-author">${t.author}</div>
+        <div class="expert-take-company">on ${t.company}</div>
+        <div class="expert-take-text">${t.text}</div>
+      </div>
+    `).join('');
+  } else if (expertList) {
+    expertList.innerHTML = '<p style="font-size:12px; color:var(--text-muted);">Expert takes coming soon. Want to contribute? <a href="https://github.com/PaleoFaire/innovators-league/issues/new" target="_blank" style="color:var(--accent)">Submit yours</a></p>';
+  }
+
+  // Shared watchlist builder — reuses bookmarks
+  const watchlistEl = document.getElementById('watchlist-companies');
+  const shareBtn = document.getElementById('watchlist-share');
+  if (!watchlistEl || !shareBtn) return;
+
+  function renderWatchlist() {
+    const saved = JSON.parse(localStorage.getItem('til-bookmarks') || '[]');
+    if (saved.length === 0) {
+      watchlistEl.innerHTML = '<span style="font-size:11px; color:var(--text-muted)">Bookmark companies to add them to your watchlist</span>';
+      return;
+    }
+    watchlistEl.innerHTML = saved.map(name => `
+      <span class="watchlist-chip">${name}</span>
+    `).join('');
+  }
+
+  shareBtn.addEventListener('click', () => {
+    const saved = JSON.parse(localStorage.getItem('til-bookmarks') || '[]');
+    const watchlistName = document.getElementById('watchlist-name')?.value || 'My Watchlist';
+    if (saved.length === 0) { alert('Bookmark some companies first!'); return; }
+    const params = new URLSearchParams();
+    params.set('watchlist', saved.join('|'));
+    params.set('wl-name', watchlistName);
+    const url = window.location.origin + window.location.pathname + '?' + params.toString();
+    navigator.clipboard?.writeText(url).then(() => {
+      shareBtn.textContent = '\u2713 Copied!';
+      setTimeout(() => { shareBtn.textContent = '\ud83d\udccb Generate Shareable Link'; }, 1500);
+    });
+  });
+
+  renderWatchlist();
 }

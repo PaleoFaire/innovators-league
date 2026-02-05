@@ -10348,3 +10348,1247 @@ const NETWORK_GRAPH = {
     { source: "company-Anduril Industries", target: "company-Hadrian", type: "co-investor", detail: "a16z + Lux Capital" },
   ]
 };
+
+// =============================================================
+// NEWS FEED & STORY LEADS — Real-Time Intelligence
+// =============================================================
+const NEWS_FEED = [
+  // ─── DEFENSE & SECURITY ───
+  {
+    id: 1,
+    company: "Anduril Industries",
+    headline: "Anduril closes $3B growth round at $28B valuation to scale autonomous weapons production",
+    source: "Bloomberg",
+    category: "funding",
+    date: "2025-01-08",
+    summary: "Anduril Industries raised $3 billion in a growth equity round, valuing the defense tech startup at $28 billion. The capital will fund a new autonomous weapons manufacturing facility and international expansion.",
+    impact: "high",
+    sector: "Defense & Security",
+    url: "#"
+  },
+  {
+    id: 2,
+    company: "Shield AI",
+    headline: "Shield AI awarded $680M contract for autonomous fighter jet program",
+    source: "Defense News",
+    category: "contract",
+    date: "2025-01-12",
+    summary: "The U.S. Air Force selected Shield AI for a $680 million contract to develop and deploy autonomous fighter jet capabilities using its Hivemind AI pilot software.",
+    impact: "high",
+    sector: "Defense & Security",
+    url: "#"
+  },
+  {
+    id: 3,
+    company: "Saronic",
+    headline: "Saronic delivers first autonomous surface vessel to U.S. Navy for fleet exercises",
+    source: "Naval News",
+    category: "milestone",
+    date: "2024-12-18",
+    summary: "Saronic completed delivery of its first production autonomous surface vessel to the U.S. Navy, marking a major milestone in the company's push to scale unmanned maritime platforms.",
+    impact: "high",
+    sector: "Defense & Security",
+    url: "#"
+  },
+  {
+    id: 4,
+    company: "Epirus",
+    headline: "Epirus Leonidas directed-energy system deployed to CENTCOM theater",
+    source: "Breaking Defense",
+    category: "milestone",
+    date: "2024-11-22",
+    summary: "Epirus confirmed its Leonidas high-power microwave system has been operationally deployed in the CENTCOM area of responsibility, marking the first directed-energy counter-drone deployment at scale.",
+    impact: "high",
+    sector: "Defense & Security",
+    url: "#"
+  },
+  {
+    id: 5,
+    company: "Skydio",
+    headline: "Skydio secures $230M Series F to expand autonomous drone manufacturing",
+    source: "TechCrunch",
+    category: "funding",
+    date: "2024-12-03",
+    summary: "Skydio raised $230 million in Series F funding to expand its U.S.-based manufacturing capacity and accelerate adoption of its autonomous reconnaissance drones across allied militaries.",
+    impact: "medium",
+    sector: "Defense & Security",
+    url: "#"
+  },
+  {
+    id: 6,
+    company: "Helsing",
+    headline: "Helsing raises $500M Series C to build Europe's sovereign defense AI stack",
+    source: "Financial Times",
+    category: "funding",
+    date: "2024-11-14",
+    summary: "European defense AI firm Helsing closed a $500 million Series C round, making it one of Europe's most valuable defense startups as NATO allies increase sovereign tech spending.",
+    impact: "high",
+    sector: "Defense & Security",
+    url: "#"
+  },
+  {
+    id: 7,
+    company: "Scale AI",
+    headline: "Scale AI wins $250M Pentagon data labeling contract for AI training",
+    source: "Reuters",
+    category: "contract",
+    date: "2025-01-05",
+    summary: "Scale AI was awarded a $250 million multi-year contract from the Department of Defense to provide data labeling and AI training infrastructure across multiple military branches.",
+    impact: "medium",
+    sector: "Defense & Security",
+    url: "#"
+  },
+  {
+    id: 8,
+    company: "Chaos Industries",
+    headline: "Chaos Industries completes first live-fire demonstration of AI-guided munitions",
+    source: "Defense One",
+    category: "milestone",
+    date: "2024-12-10",
+    summary: "Chaos Industries successfully demonstrated its AI-guided munitions platform in a live-fire test at Yuma Proving Ground, hitting multiple moving targets with autonomous terminal guidance.",
+    impact: "medium",
+    sector: "Defense & Security",
+    url: "#"
+  },
+  {
+    id: 9,
+    company: "Palantir",
+    headline: "Palantir AIP selected by NATO for alliance-wide intelligence platform",
+    source: "Wall Street Journal",
+    category: "contract",
+    date: "2024-11-28",
+    summary: "NATO selected Palantir's Artificial Intelligence Platform as the backbone for a new alliance-wide intelligence-sharing system, extending Palantir's footprint across all member nations.",
+    impact: "high",
+    sector: "Defense & Security",
+    url: "#"
+  },
+  {
+    id: 10,
+    company: "Forterra",
+    headline: "Forterra receives $100M Army contract for autonomous ground vehicle fleet",
+    source: "Army Times",
+    category: "contract",
+    date: "2024-12-20",
+    summary: "The U.S. Army awarded Forterra a $100 million contract for autonomous ground logistics vehicles to support forward supply chain operations in contested environments.",
+    impact: "medium",
+    sector: "Defense & Security",
+    url: "#"
+  },
+
+  // ─── NUCLEAR ENERGY ───
+  {
+    id: 11,
+    company: "Oklo",
+    headline: "Oklo receives NRC design approval for Aurora microreactor",
+    source: "Reuters",
+    category: "regulatory",
+    date: "2025-01-18",
+    summary: "The Nuclear Regulatory Commission issued a design approval for Oklo's Aurora compact fast reactor, clearing a major regulatory hurdle and putting the company on track for first deployment by 2027.",
+    impact: "high",
+    sector: "Nuclear Energy",
+    url: "#"
+  },
+  {
+    id: 12,
+    company: "Kairos Power",
+    headline: "Kairos Power breaks ground on Hermes demonstration reactor in Tennessee",
+    source: "Utility Dive",
+    category: "milestone",
+    date: "2024-12-05",
+    summary: "Kairos Power began construction on its Hermes low-power demonstration reactor in Oak Ridge, Tennessee, the first new reactor construction permit issued by the NRC in decades.",
+    impact: "high",
+    sector: "Nuclear Energy",
+    url: "#"
+  },
+  {
+    id: 13,
+    company: "Radiant",
+    headline: "Radiant secures $100M Series B for portable microreactor development",
+    source: "TechCrunch",
+    category: "funding",
+    date: "2024-11-19",
+    summary: "Radiant closed a $100 million Series B round led by DCVC to advance development of its Kaleidos portable microreactor designed to replace diesel generators at remote military and industrial sites.",
+    impact: "medium",
+    sector: "Nuclear Energy",
+    url: "#"
+  },
+  {
+    id: 14,
+    company: "TerraPower",
+    headline: "TerraPower secures $830M DOE loan guarantee for Natrium reactor in Wyoming",
+    source: "Bloomberg",
+    category: "funding",
+    date: "2024-12-12",
+    summary: "TerraPower received an $830 million conditional loan guarantee from the Department of Energy to support construction of its Natrium sodium-cooled fast reactor demonstration plant in Kemmerer, Wyoming.",
+    impact: "high",
+    sector: "Nuclear Energy",
+    url: "#"
+  },
+  {
+    id: 15,
+    company: "X-Energy",
+    headline: "X-Energy signs agreement with Dow Chemical for first industrial SMR deployment",
+    source: "Power Engineering",
+    category: "partnership",
+    date: "2024-11-08",
+    summary: "X-Energy finalized an agreement with Dow Chemical to deploy its Xe-100 high-temperature gas reactor at a Dow manufacturing facility in Texas, marking the first industrial customer for an advanced reactor.",
+    impact: "high",
+    sector: "Nuclear Energy",
+    url: "#"
+  },
+  {
+    id: 16,
+    company: "NuScale Power",
+    headline: "NuScale Power announces strategic partnership with data center consortium for nuclear power",
+    source: "Canary Media",
+    category: "partnership",
+    date: "2025-01-10",
+    summary: "NuScale Power signed a memorandum of understanding with a consortium of data center operators to explore deploying small modular reactors to provide dedicated carbon-free power to AI data centers.",
+    impact: "medium",
+    sector: "Nuclear Energy",
+    url: "#"
+  },
+  {
+    id: 17,
+    company: "Copenhagen Atomics",
+    headline: "Copenhagen Atomics completes molten salt loop test at industrial scale",
+    source: "World Nuclear News",
+    category: "milestone",
+    date: "2024-12-28",
+    summary: "Danish nuclear startup Copenhagen Atomics successfully operated its molten salt loop at industrial scale for 1,000 continuous hours, validating key technical assumptions for its thorium reactor design.",
+    impact: "medium",
+    sector: "Nuclear Energy",
+    url: "#"
+  },
+
+  // ─── SPACE & AEROSPACE ───
+  {
+    id: 18,
+    company: "SpaceX",
+    headline: "SpaceX Starship completes first orbital catch with mechazilla tower on seventh flight",
+    source: "SpaceNews",
+    category: "milestone",
+    date: "2025-01-15",
+    summary: "SpaceX successfully caught both the Super Heavy booster and Starship upper stage using the launch tower's mechanical arms during the seventh integrated test flight, demonstrating full reusability.",
+    impact: "high",
+    sector: "Space & Aerospace",
+    url: "#"
+  },
+  {
+    id: 19,
+    company: "Rocket Lab",
+    headline: "Rocket Lab Neutron medium-lift rocket achieves structural qualification milestone",
+    source: "Space.com",
+    category: "milestone",
+    date: "2024-12-15",
+    summary: "Rocket Lab completed structural qualification testing for its Neutron medium-lift rocket, keeping the program on track for a maiden launch in mid-2025.",
+    impact: "medium",
+    sector: "Space & Aerospace",
+    url: "#"
+  },
+  {
+    id: 20,
+    company: "Varda Space Industries",
+    headline: "Varda Space secures $160M Series C to scale in-orbit pharmaceutical manufacturing",
+    source: "TechCrunch",
+    category: "funding",
+    date: "2024-11-26",
+    summary: "Varda Space Industries raised $160 million in Series C funding to build and launch additional space capsules for in-orbit pharmaceutical manufacturing, following successful re-entry of its first capsule.",
+    impact: "medium",
+    sector: "Space & Aerospace",
+    url: "#"
+  },
+  {
+    id: 21,
+    company: "Vast",
+    headline: "Vast and SpaceX target 2026 launch for first commercial space station module",
+    source: "Ars Technica",
+    category: "partnership",
+    date: "2025-01-03",
+    summary: "Vast announced its Haven-1 commercial space station module is on track for a 2026 launch aboard SpaceX's Falcon 9, with the first crewed mission planned shortly after orbital insertion.",
+    impact: "medium",
+    sector: "Space & Aerospace",
+    url: "#"
+  },
+  {
+    id: 22,
+    company: "Astranis",
+    headline: "Astranis deploys four MicroGEO broadband satellites in single launch",
+    source: "Via Satellite",
+    category: "milestone",
+    date: "2024-12-22",
+    summary: "Astranis successfully deployed four MicroGEO broadband satellites into geostationary orbit on a single SpaceX rideshare mission, expanding its constellation serving underconnected markets.",
+    impact: "medium",
+    sector: "Space & Aerospace",
+    url: "#"
+  },
+  {
+    id: 23,
+    company: "Stoke Space",
+    headline: "Stoke Space raises $260M Series C for fully reusable rocket development",
+    source: "Bloomberg",
+    category: "funding",
+    date: "2024-11-12",
+    summary: "Stoke Space closed a $260 million Series C round to fund development and first launch of Nova, its fully reusable medium-lift rocket designed for rapid turnaround between flights.",
+    impact: "medium",
+    sector: "Space & Aerospace",
+    url: "#"
+  },
+  {
+    id: 24,
+    company: "Intuitive Machines",
+    headline: "Intuitive Machines selected by NASA for second lunar lander mission under CLPS",
+    source: "NASA Spaceflight",
+    category: "contract",
+    date: "2024-12-08",
+    summary: "NASA awarded Intuitive Machines a second Commercial Lunar Payload Services contract worth $120 million for a lunar south pole landing mission targeting late 2026.",
+    impact: "medium",
+    sector: "Space & Aerospace",
+    url: "#"
+  },
+  {
+    id: 25,
+    company: "Turion Space",
+    headline: "Turion Space raises $100M to develop orbital debris removal and space logistics",
+    source: "SpaceNews",
+    category: "funding",
+    date: "2024-12-30",
+    summary: "Turion Space closed a $100 million Series B to accelerate its dual mission of orbital debris removal and in-orbit servicing, with its first active debris removal demo planned for 2025.",
+    impact: "medium",
+    sector: "Space & Aerospace",
+    url: "#"
+  },
+
+  // ─── SUPERSONIC & HYPERSONIC ───
+  {
+    id: 26,
+    company: "Boom Supersonic",
+    headline: "Boom Supersonic XB-1 demonstrator achieves Mach 1.1 in test flight over Mojave",
+    source: "Aviation Week",
+    category: "milestone",
+    date: "2024-11-30",
+    summary: "Boom Supersonic's XB-1 demonstrator aircraft broke the sound barrier in a test flight over the Mojave Desert, validating the aerodynamic design principles for the larger Overture airliner.",
+    impact: "high",
+    sector: "Supersonic & Hypersonic",
+    url: "#"
+  },
+  {
+    id: 27,
+    company: "Hermeus",
+    headline: "Hermeus awarded $325M Air Force contract for hypersonic ISR platform",
+    source: "Defense News",
+    category: "contract",
+    date: "2025-01-06",
+    summary: "The U.S. Air Force awarded Hermeus a $325 million contract to develop Quarterhorse, an autonomous hypersonic aircraft for intelligence, surveillance, and reconnaissance missions.",
+    impact: "high",
+    sector: "Supersonic & Hypersonic",
+    url: "#"
+  },
+  {
+    id: 28,
+    company: "Venus Aerospace",
+    headline: "Venus Aerospace completes rotating detonation engine test at hypersonic conditions",
+    source: "The War Zone",
+    category: "milestone",
+    date: "2024-12-14",
+    summary: "Venus Aerospace successfully tested its rotating detonation rocket engine at conditions simulating Mach 5+ flight, a key milestone in developing its Stargazer hypersonic spaceplane.",
+    impact: "medium",
+    sector: "Supersonic & Hypersonic",
+    url: "#"
+  },
+
+  // ─── AI & SOFTWARE ───
+  {
+    id: 29,
+    company: "Anthropic",
+    headline: "Anthropic raises $2B Series E at $60B valuation as enterprise AI demand surges",
+    source: "Wall Street Journal",
+    category: "funding",
+    date: "2025-01-20",
+    summary: "Anthropic closed a $2 billion Series E round at a $60 billion valuation led by Lightspeed Venture Partners, with capital earmarked for compute infrastructure and safety research.",
+    impact: "high",
+    sector: "AI & Software",
+    url: "#"
+  },
+  {
+    id: 30,
+    company: "OpenAI",
+    headline: "OpenAI launches o3 reasoning model with breakthrough math and coding benchmarks",
+    source: "The Verge",
+    category: "product",
+    date: "2024-12-20",
+    summary: "OpenAI released its o3 reasoning model, which set new state-of-the-art scores on ARC-AGI, competitive math, and software engineering benchmarks, reigniting debate about the pace of AI progress.",
+    impact: "high",
+    sector: "AI & Software",
+    url: "#"
+  },
+  {
+    id: 31,
+    company: "Physical Intelligence",
+    headline: "Physical Intelligence raises $400M to build generalist robot foundation model",
+    source: "Forbes",
+    category: "funding",
+    date: "2024-11-05",
+    summary: "Physical Intelligence closed a $400 million round at a $2.4 billion valuation to develop pi-zero, a generalist robot foundation model that can control diverse robot embodiments for physical tasks.",
+    impact: "high",
+    sector: "AI & Software",
+    url: "#"
+  },
+  {
+    id: 32,
+    company: "Palantir",
+    headline: "Palantir shares surge 40% as Q4 earnings reveal explosive AIP enterprise adoption",
+    source: "CNBC",
+    category: "milestone",
+    date: "2025-01-14",
+    summary: "Palantir reported record Q4 revenue driven by rapid enterprise adoption of its AI Platform, with U.S. commercial revenue growing 70% year-over-year and operating margins expanding to 35%.",
+    impact: "high",
+    sector: "AI & Software",
+    url: "#"
+  },
+  {
+    id: 33,
+    company: "Figure AI",
+    headline: "Figure AI deploys humanoid robots at BMW manufacturing facility",
+    source: "Reuters",
+    category: "partnership",
+    date: "2024-12-02",
+    summary: "Figure AI began deploying its Figure 02 humanoid robots at a BMW manufacturing plant in South Carolina, marking one of the first commercial deployments of general-purpose humanoid robots.",
+    impact: "high",
+    sector: "AI & Software",
+    url: "#"
+  },
+  {
+    id: 34,
+    company: "Cognition",
+    headline: "Cognition releases Devin 2.0 with autonomous codebase migration capabilities",
+    source: "VentureBeat",
+    category: "product",
+    date: "2024-11-18",
+    summary: "Cognition launched Devin 2.0, its AI software engineering agent, with new capabilities for autonomous codebase migration and multi-repository refactoring across enterprise systems.",
+    impact: "medium",
+    sector: "AI & Software",
+    url: "#"
+  },
+  {
+    id: 35,
+    company: "Anysphere",
+    headline: "Anysphere valued at $9B as Cursor AI code editor crosses 1M paid subscribers",
+    source: "The Information",
+    category: "funding",
+    date: "2025-01-16",
+    summary: "Anysphere raised a new funding round valuing the company at $9 billion as its Cursor AI code editor surpassed one million paid subscribers, making it the fastest-growing developer tool in history.",
+    impact: "high",
+    sector: "AI & Software",
+    url: "#"
+  },
+  {
+    id: 36,
+    company: "Groq",
+    headline: "Groq begins volume production of LPU inference chips at GlobalFoundries",
+    source: "Semiconductor Engineering",
+    category: "milestone",
+    date: "2024-12-09",
+    summary: "Groq commenced volume production of its Language Processing Unit inference chips at GlobalFoundries, with plans to ship over 100,000 units in the first half of 2025 to cloud providers.",
+    impact: "medium",
+    sector: "AI & Software",
+    url: "#"
+  },
+  {
+    id: 37,
+    company: "Waymo",
+    headline: "Waymo expands autonomous ride-hailing to Atlanta and Miami, reaches 200K weekly trips",
+    source: "Bloomberg",
+    category: "milestone",
+    date: "2025-01-02",
+    summary: "Waymo launched its autonomous ride-hailing service in Atlanta and Miami, bringing its total operational cities to six, while surpassing 200,000 paid weekly trips across all markets.",
+    impact: "high",
+    sector: "AI & Software",
+    url: "#"
+  },
+  {
+    id: 38,
+    company: "ElevenLabs",
+    headline: "ElevenLabs raises $250M Series C as AI voice platform serves 1M+ developers",
+    source: "TechCrunch",
+    category: "funding",
+    date: "2024-12-16",
+    summary: "ElevenLabs closed a $250 million Series C at a $3 billion valuation, driven by rapid developer adoption of its AI voice synthesis and dubbing platform across media and enterprise applications.",
+    impact: "medium",
+    sector: "AI & Software",
+    url: "#"
+  },
+
+  // ─── ROBOTICS & MANUFACTURING ───
+  {
+    id: 39,
+    company: "Hadrian",
+    headline: "Hadrian opens second autonomous CNC factory to meet defense parts backlog",
+    source: "Manufacturing Dive",
+    category: "milestone",
+    date: "2024-12-06",
+    summary: "Hadrian opened its second fully autonomous CNC machining facility in Torrance, California, doubling its capacity to produce precision parts for defense and aerospace prime contractors.",
+    impact: "medium",
+    sector: "Robotics & Manufacturing",
+    url: "#"
+  },
+  {
+    id: 40,
+    company: "Agility Robotics",
+    headline: "Agility Robotics begins mass production of Digit humanoid at new Oregon factory",
+    source: "IEEE Spectrum",
+    category: "milestone",
+    date: "2024-11-25",
+    summary: "Agility Robotics opened its RoboFab facility in Salem, Oregon, beginning serial production of Digit humanoid robots with an initial annual capacity of 10,000 units for warehouse logistics.",
+    impact: "high",
+    sector: "Robotics & Manufacturing",
+    url: "#"
+  },
+  {
+    id: 41,
+    company: "Apptronik",
+    headline: "Apptronik partners with Mercedes-Benz to deploy Apollo humanoid robots in automotive assembly",
+    source: "Robotics Business Review",
+    category: "partnership",
+    date: "2024-12-11",
+    summary: "Apptronik signed a partnership with Mercedes-Benz to pilot its Apollo humanoid robots in automotive assembly lines, with initial deployments focused on material handling and quality inspection.",
+    impact: "medium",
+    sector: "Robotics & Manufacturing",
+    url: "#"
+  },
+  {
+    id: 42,
+    company: "Machina Labs",
+    headline: "Machina Labs raises $75M Series C for AI-driven robotic sheet metal forming",
+    source: "Forbes",
+    category: "funding",
+    date: "2025-01-09",
+    summary: "Machina Labs closed a $75 million Series C to expand its AI-powered robotic sheet metal forming systems, which can produce aerospace-grade parts in hours instead of months.",
+    impact: "medium",
+    sector: "Robotics & Manufacturing",
+    url: "#"
+  },
+  {
+    id: 43,
+    company: "Gecko Robotics",
+    headline: "Gecko Robotics wins $65M Navy contract for autonomous infrastructure inspection",
+    source: "Defense News",
+    category: "contract",
+    date: "2024-11-15",
+    summary: "The U.S. Navy awarded Gecko Robotics a $65 million multi-year contract to deploy its wall-climbing robots for autonomous inspection and digital twin creation of naval vessel infrastructure.",
+    impact: "medium",
+    sector: "Robotics & Manufacturing",
+    url: "#"
+  },
+  {
+    id: 44,
+    company: "Collaborative Robotics",
+    headline: "Collaborative Robotics raises $100M for mobile manipulation platform",
+    source: "The Robot Report",
+    category: "funding",
+    date: "2024-12-19",
+    summary: "Collaborative Robotics closed a $100 million round to scale production of its mobile manipulation robots designed for warehouse logistics, with deployment partnerships at multiple Fortune 500 companies.",
+    impact: "medium",
+    sector: "Robotics & Manufacturing",
+    url: "#"
+  },
+  {
+    id: 45,
+    company: "1X Technologies",
+    headline: "1X Technologies unveils NEO Beta humanoid with consumer-grade dexterity",
+    source: "IEEE Spectrum",
+    category: "product",
+    date: "2024-12-27",
+    summary: "Norwegian humanoid robotics company 1X Technologies revealed its NEO Beta humanoid robot with significantly improved manipulation capabilities, targeting both industrial and eventually consumer applications.",
+    impact: "medium",
+    sector: "Robotics & Manufacturing",
+    url: "#"
+  },
+
+  // ─── BIOTECH & HEALTH ───
+  {
+    id: 46,
+    company: "Altos Labs",
+    headline: "Altos Labs publishes breakthrough partial reprogramming results in primate study",
+    source: "Nature",
+    category: "milestone",
+    date: "2024-11-20",
+    summary: "Altos Labs published peer-reviewed results showing partial cellular reprogramming safely reversed age-related decline in multiple organ systems in primates, a major milestone for longevity science.",
+    impact: "high",
+    sector: "Biotech & Health",
+    url: "#"
+  },
+  {
+    id: 47,
+    company: "Retro Biosciences",
+    headline: "Retro Biosciences enters clinical trials for autophagy-enhancing longevity compound",
+    source: "STAT News",
+    category: "milestone",
+    date: "2025-01-11",
+    summary: "Retro Biosciences initiated Phase 1 clinical trials for its lead autophagy-enhancing compound aimed at extending healthy human lifespan, representing one of the first clinical-stage longevity programs.",
+    impact: "high",
+    sector: "Biotech & Health",
+    url: "#"
+  },
+  {
+    id: 48,
+    company: "Recursion Pharmaceuticals",
+    headline: "Recursion AI platform identifies novel oncology target validated in Phase 2 trial",
+    source: "Endpoints News",
+    category: "milestone",
+    date: "2024-12-04",
+    summary: "Recursion Pharmaceuticals announced positive Phase 2 results for an AI-discovered oncology candidate, validating the predictive power of its computational biology platform for drug target identification.",
+    impact: "high",
+    sector: "Biotech & Health",
+    url: "#"
+  },
+  {
+    id: 49,
+    company: "Neuralink",
+    headline: "Neuralink implants second patient with brain-computer interface, expands cursor control",
+    source: "Wired",
+    category: "milestone",
+    date: "2024-12-22",
+    summary: "Neuralink successfully implanted its N1 brain-computer interface in a second human patient, who achieved cursor control within the first week, demonstrating improved surgical and signal quality.",
+    impact: "high",
+    sector: "Biotech & Health",
+    url: "#"
+  },
+  {
+    id: 50,
+    company: "Colossal Biosciences",
+    headline: "Colossal Biosciences raises $200M as woolly mammoth de-extinction project advances",
+    source: "New York Times",
+    category: "funding",
+    date: "2024-11-10",
+    summary: "Colossal Biosciences raised $200 million in new funding as its woolly mammoth de-extinction program advanced to the stage of creating edited Asian elephant embryos with cold-adapted traits.",
+    impact: "medium",
+    sector: "Biotech & Health",
+    url: "#"
+  },
+  {
+    id: 51,
+    company: "Tempus AI",
+    headline: "Tempus AI stock surges following strong growth in genomic diagnostic platform revenue",
+    source: "Fierce Biotech",
+    category: "milestone",
+    date: "2025-01-07",
+    summary: "Tempus AI reported accelerating revenue growth in its genomic sequencing and diagnostics business, with total platform revenue up 55% year-over-year as oncology clinics rapidly adopt its AI tools.",
+    impact: "medium",
+    sector: "Biotech & Health",
+    url: "#"
+  },
+
+  // ─── CLIMATE & ENERGY ───
+  {
+    id: 52,
+    company: "Commonwealth Fusion Systems",
+    headline: "Commonwealth Fusion Systems completes SPARC tokamak assembly, targets first plasma in 2026",
+    source: "MIT Technology Review",
+    category: "milestone",
+    date: "2025-01-17",
+    summary: "Commonwealth Fusion Systems completed assembly of its SPARC compact tokamak in Devens, Massachusetts, remaining on schedule for first plasma operations in 2026 as the first net-energy-gain fusion device.",
+    impact: "high",
+    sector: "Climate & Energy",
+    url: "#"
+  },
+  {
+    id: 53,
+    company: "Helion",
+    headline: "Helion Energy achieves 100 million degree plasma milestone at Polaris facility",
+    source: "Bloomberg",
+    category: "milestone",
+    date: "2024-12-18",
+    summary: "Helion Energy reached a major physics milestone at its Polaris facility, sustaining a 100-million-degree plasma — a critical step toward its contracted commitment to deliver fusion power to Microsoft by 2028.",
+    impact: "high",
+    sector: "Climate & Energy",
+    url: "#"
+  },
+  {
+    id: 54,
+    company: "Fervo Energy",
+    headline: "Fervo Energy signs 320MW enhanced geothermal power purchase agreement with Southern California Edison",
+    source: "Canary Media",
+    category: "contract",
+    date: "2024-11-07",
+    summary: "Fervo Energy signed a 320MW long-term power purchase agreement with Southern California Edison for enhanced geothermal power, the largest enhanced geothermal deal in history.",
+    impact: "high",
+    sector: "Climate & Energy",
+    url: "#"
+  },
+  {
+    id: 55,
+    company: "Heirloom Carbon",
+    headline: "Heirloom Carbon opens world's largest direct air capture facility in Louisiana",
+    source: "Washington Post",
+    category: "milestone",
+    date: "2024-12-01",
+    summary: "Heirloom Carbon Technologies opened the world's largest commercial direct air capture facility in Louisiana, capable of removing 20,000 tons of CO2 per year using its limestone-based process.",
+    impact: "high",
+    sector: "Climate & Energy",
+    url: "#"
+  },
+  {
+    id: 56,
+    company: "Redwood Materials",
+    headline: "Redwood Materials raises $1B to expand battery recycling capacity to 100GWh",
+    source: "Bloomberg",
+    category: "funding",
+    date: "2024-11-22",
+    summary: "Redwood Materials closed a $1 billion funding round to expand its battery recycling operations in Nevada and South Carolina, targeting 100GWh of annual processing capacity by 2027.",
+    impact: "high",
+    sector: "Climate & Energy",
+    url: "#"
+  },
+  {
+    id: 57,
+    company: "Form Energy",
+    headline: "Form Energy breaks ground on first iron-air battery gigafactory in West Virginia",
+    source: "Utility Dive",
+    category: "milestone",
+    date: "2024-12-13",
+    summary: "Form Energy broke ground on its first commercial-scale iron-air battery manufacturing facility in Weirton, West Virginia, with production expected to begin in 2026 for 100-hour grid storage.",
+    impact: "high",
+    sector: "Climate & Energy",
+    url: "#"
+  },
+  {
+    id: 58,
+    company: "Terraform Industries",
+    headline: "Terraform Industries demonstrates cost-competitive synthetic natural gas from solar and air",
+    source: "Ars Technica",
+    category: "milestone",
+    date: "2025-01-04",
+    summary: "Terraform Industries demonstrated production of synthetic natural gas from solar power and atmospheric CO2 at costs approaching grid parity, a breakthrough for scalable carbon-neutral fuels.",
+    impact: "medium",
+    sector: "Climate & Energy",
+    url: "#"
+  },
+  {
+    id: 59,
+    company: "KoBold Metals",
+    headline: "KoBold Metals discovers high-grade copper-cobalt deposit in Zambia using AI exploration",
+    source: "Financial Times",
+    category: "milestone",
+    date: "2024-11-28",
+    summary: "KoBold Metals confirmed a world-class copper-cobalt deposit at its Mingomba project in Zambia, discovered using its AI-powered mineral exploration platform, potentially the largest find in decades.",
+    impact: "high",
+    sector: "Climate & Energy",
+    url: "#"
+  },
+  {
+    id: 60,
+    company: "Antora Energy",
+    headline: "Antora Energy deploys first commercial thermal battery system at industrial facility",
+    source: "Canary Media",
+    category: "milestone",
+    date: "2024-12-23",
+    summary: "Antora Energy completed its first commercial deployment of a solid carbon thermal energy storage system at a California industrial facility, delivering 24/7 zero-carbon heat.",
+    impact: "medium",
+    sector: "Climate & Energy",
+    url: "#"
+  },
+
+  // ─── DRONES & AUTONOMOUS ───
+  {
+    id: 61,
+    company: "Zipline",
+    headline: "Zipline launches Platform 2 autonomous delivery in Dallas-Fort Worth metro",
+    source: "TechCrunch",
+    category: "milestone",
+    date: "2024-12-10",
+    summary: "Zipline began commercial autonomous delivery operations in Dallas-Fort Worth using its Platform 2 system, delivering packages from Walmart distribution centers to homes within 30 minutes.",
+    impact: "medium",
+    sector: "Drones & Autonomous",
+    url: "#"
+  },
+  {
+    id: 62,
+    company: "Joby Aviation",
+    headline: "Joby Aviation receives FAA Part 135 air carrier certificate for eVTOL operations",
+    source: "Aviation Week",
+    category: "regulatory",
+    date: "2025-01-13",
+    summary: "Joby Aviation received its FAA Part 135 air carrier certificate, clearing a major regulatory milestone needed to begin commercial air taxi operations in the United States.",
+    impact: "high",
+    sector: "Drones & Autonomous",
+    url: "#"
+  },
+  {
+    id: 63,
+    company: "Archer Aviation",
+    headline: "Archer Aviation completes 100th full-transition test flight of Midnight eVTOL",
+    source: "Bloomberg",
+    category: "milestone",
+    date: "2024-11-16",
+    summary: "Archer Aviation completed its 100th full-transition flight of the Midnight eVTOL aircraft, accumulating critical flight test data as it progresses toward FAA type certification.",
+    impact: "medium",
+    sector: "Drones & Autonomous",
+    url: "#"
+  },
+  {
+    id: 64,
+    company: "Aurora Innovation",
+    headline: "Aurora Innovation launches commercial driverless trucking on Texas I-45 corridor",
+    source: "FreightWaves",
+    category: "milestone",
+    date: "2024-12-17",
+    summary: "Aurora Innovation began fully driverless commercial freight hauling on Interstate 45 between Dallas and Houston, operating autonomous Class 8 trucks without safety drivers for the first time.",
+    impact: "high",
+    sector: "Drones & Autonomous",
+    url: "#"
+  },
+  {
+    id: 65,
+    company: "Nuro",
+    headline: "Nuro receives California DMV permit for expanded autonomous delivery operations",
+    source: "The Verge",
+    category: "regulatory",
+    date: "2024-11-30",
+    summary: "Nuro received an expanded California DMV permit allowing its autonomous delivery vehicles to operate on public roads across four additional cities in the Bay Area and Los Angeles metro.",
+    impact: "medium",
+    sector: "Drones & Autonomous",
+    url: "#"
+  },
+
+  // ─── CHIPS & SEMICONDUCTORS ───
+  {
+    id: 66,
+    company: "Cerebras",
+    headline: "Cerebras Systems files for IPO amid surging demand for AI training hardware",
+    source: "Wall Street Journal",
+    category: "ipo",
+    date: "2024-12-08",
+    summary: "Cerebras Systems filed its S-1 with the SEC for an initial public offering, seeking a valuation north of $8 billion as demand for its wafer-scale AI training chips accelerates.",
+    impact: "high",
+    sector: "Chips & Semiconductors",
+    url: "#"
+  },
+  {
+    id: 67,
+    company: "Etched",
+    headline: "Etched raises $125M Series B for transformer-specific ASIC chips",
+    source: "Semiconductor Engineering",
+    category: "funding",
+    date: "2024-11-09",
+    summary: "Etched raised $125 million in Series B funding for its Sohu ASIC chip optimized specifically for transformer model inference, claiming 10x performance-per-watt advantage over GPU solutions.",
+    impact: "medium",
+    sector: "Chips & Semiconductors",
+    url: "#"
+  },
+  {
+    id: 68,
+    company: "Lightmatter",
+    headline: "Lightmatter announces photonic interconnect chiplet shipping to hyperscale data centers",
+    source: "Data Center Dynamics",
+    category: "product",
+    date: "2025-01-19",
+    summary: "Lightmatter began shipping its Passage photonic interconnect chiplets to major hyperscale data center operators, enabling optical communication between AI accelerator chips with 100x energy efficiency gains.",
+    impact: "high",
+    sector: "Chips & Semiconductors",
+    url: "#"
+  },
+  {
+    id: 69,
+    company: "Tenstorrent",
+    headline: "Tenstorrent secures $400M funding round led by Samsung for open-source AI chip architecture",
+    source: "Reuters",
+    category: "funding",
+    date: "2024-12-26",
+    summary: "Tenstorrent raised $400 million in a round led by Samsung to scale production of its RISC-V-based AI chips, positioning itself as the leading open-source alternative to Nvidia's proprietary ecosystem.",
+    impact: "high",
+    sector: "Chips & Semiconductors",
+    url: "#"
+  },
+  {
+    id: 70,
+    company: "Astera Labs",
+    headline: "Astera Labs stock hits all-time high as AI connectivity demand surges",
+    source: "Barron's",
+    category: "milestone",
+    date: "2024-12-15",
+    summary: "Astera Labs shares reached an all-time high following strong quarterly results, driven by surging demand for its PCIe and CXL connectivity solutions that link GPUs in AI data centers.",
+    impact: "medium",
+    sector: "Chips & Semiconductors",
+    url: "#"
+  },
+
+  // ─── HOUSING & CONSTRUCTION ───
+  {
+    id: 71,
+    company: "Cover",
+    headline: "Cover Technologies raises $80M to scale factory-built ADU production in California",
+    source: "Forbes",
+    category: "funding",
+    date: "2024-11-13",
+    summary: "Cover Technologies raised $80 million in new funding to expand its automated factory producing accessory dwelling units, with plans to deliver over 1,000 ADUs per year across California.",
+    impact: "medium",
+    sector: "Housing & Construction",
+    url: "#"
+  },
+  {
+    id: 72,
+    company: "Cuby Technologies",
+    headline: "Cuby Technologies delivers 500th factory-built home, signs multi-state builder partnership",
+    source: "Builder Magazine",
+    category: "milestone",
+    date: "2024-12-29",
+    summary: "Cuby Technologies delivered its 500th factory-built home and signed a multi-state partnership with a major homebuilder, demonstrating that modular housing can achieve production scale.",
+    impact: "medium",
+    sector: "Housing & Construction",
+    url: "#"
+  },
+
+  // ─── TRANSPORTATION ───
+  {
+    id: 73,
+    company: "The Boring Company",
+    headline: "Boring Company breaks ground on autonomous transit loop in San Antonio",
+    source: "Bloomberg",
+    category: "milestone",
+    date: "2024-12-07",
+    summary: "The Boring Company began construction on its second city-scale autonomous transit loop in San Antonio, a 7-mile system connecting downtown to the airport and medical district.",
+    impact: "medium",
+    sector: "Transportation",
+    url: "#"
+  },
+  {
+    id: 74,
+    company: "Zoox",
+    headline: "Zoox begins public autonomous ride-hailing service in Las Vegas",
+    source: "CNBC",
+    category: "milestone",
+    date: "2025-01-06",
+    summary: "Zoox launched its autonomous ride-hailing service to the general public in Las Vegas, operating its purpose-built bidirectional robotaxis on the Strip and surrounding entertainment district.",
+    impact: "high",
+    sector: "Transportation",
+    url: "#"
+  },
+
+  // ─── CONSUMER TECH ───
+  {
+    id: 75,
+    company: "Framework Computer",
+    headline: "Framework Computer launches Framework 16 with user-upgradeable GPU module",
+    source: "The Verge",
+    category: "product",
+    date: "2024-11-06",
+    summary: "Framework Computer began shipping its Framework 16 laptop with a modular, user-upgradeable GPU expansion bay, extending its repairable electronics philosophy to high-performance computing.",
+    impact: "medium",
+    sector: "Consumer Tech",
+    url: "#"
+  },
+  {
+    id: 76,
+    company: "Synthesis",
+    headline: "Synthesis AI tutoring platform reaches 500K students as AI-native education scales",
+    source: "EdSurge",
+    category: "milestone",
+    date: "2024-12-18",
+    summary: "AI-powered education startup Synthesis crossed 500,000 active student subscribers for its superhuman math tutoring platform, with engagement metrics significantly outperforming traditional online education.",
+    impact: "medium",
+    sector: "Consumer Tech",
+    url: "#"
+  },
+
+  // ─── QUANTUM COMPUTING ───
+  {
+    id: 77,
+    company: "IonQ",
+    headline: "IonQ demonstrates 99.9% two-qubit gate fidelity on commercial quantum system",
+    source: "Quantum Computing Report",
+    category: "milestone",
+    date: "2024-11-21",
+    summary: "IonQ achieved 99.9% two-qubit gate fidelity on its Forte Enterprise system, crossing a critical threshold for practical error correction and moving closer to fault-tolerant quantum computing.",
+    impact: "high",
+    sector: "Quantum Computing",
+    url: "#"
+  },
+  {
+    id: 78,
+    company: "PsiQuantum",
+    headline: "PsiQuantum secures $940M in combined government funding for photonic quantum computing",
+    source: "Financial Times",
+    category: "funding",
+    date: "2024-12-11",
+    summary: "PsiQuantum secured a combined $940 million in government funding from Australia and the U.S. to build its photonic quantum computer, one of the largest public investments in quantum hardware.",
+    impact: "high",
+    sector: "Quantum Computing",
+    url: "#"
+  },
+  {
+    id: 79,
+    company: "QuEra Computing",
+    headline: "QuEra Computing demonstrates 100-logical-qubit error-corrected quantum processor",
+    source: "Nature Physics",
+    category: "milestone",
+    date: "2025-01-08",
+    summary: "QuEra Computing demonstrated 100 error-corrected logical qubits on its neutral-atom quantum processor, a major advance in scaling fault-tolerant quantum computation.",
+    impact: "high",
+    sector: "Quantum Computing",
+    url: "#"
+  },
+
+  // ─── OCEAN & MARITIME ───
+  {
+    id: 80,
+    company: "Saildrone",
+    headline: "Saildrone fleet surpasses 1 million nautical miles of autonomous ocean data collection",
+    source: "Maritime Executive",
+    category: "milestone",
+    date: "2024-12-05",
+    summary: "Saildrone's autonomous surface vehicle fleet crossed 1 million cumulative nautical miles of ocean data collection, providing climate, weather, and maritime surveillance data to NOAA and Navy clients.",
+    impact: "medium",
+    sector: "Ocean & Maritime",
+    url: "#"
+  },
+  {
+    id: 81,
+    company: "Bedrock Ocean",
+    headline: "Bedrock Ocean raises $30M to scale autonomous underwater mapping for offshore wind",
+    source: "GreenTech Media",
+    category: "funding",
+    date: "2024-11-14",
+    summary: "Bedrock Ocean closed a $30 million round to expand its fleet of autonomous underwater vehicles that create high-resolution seabed maps critical for offshore wind farm development.",
+    impact: "medium",
+    sector: "Ocean & Maritime",
+    url: "#"
+  },
+
+  // ─── INFRASTRUCTURE & LOGISTICS ───
+  {
+    id: 82,
+    company: "Flexport",
+    headline: "Flexport launches AI-powered supply chain visibility platform for enterprise shippers",
+    source: "FreightWaves",
+    category: "product",
+    date: "2024-12-20",
+    summary: "Flexport launched an AI-powered supply chain visibility and predictive analytics platform for enterprise shippers, providing real-time tracking and disruption forecasting across global freight networks.",
+    impact: "medium",
+    sector: "Infrastructure & Logistics",
+    url: "#"
+  },
+  {
+    id: 83,
+    company: "Amperon",
+    headline: "Amperon raises $60M to expand AI grid forecasting as data center power demand spikes",
+    source: "Utility Dive",
+    category: "funding",
+    date: "2025-01-14",
+    summary: "Amperon closed a $60 million round to expand its AI-powered electricity demand forecasting platform as utilities struggle to plan for explosive data center and EV charging load growth.",
+    impact: "medium",
+    sector: "Infrastructure & Logistics",
+    url: "#"
+  },
+  {
+    id: 84,
+    company: "Earth AI",
+    headline: "Earth AI discovers high-potential critical mineral site in Nevada using AI geoscience platform",
+    source: "Mining Weekly",
+    category: "milestone",
+    date: "2024-11-29",
+    summary: "Earth AI used its machine learning geoscience platform to identify a high-potential critical minerals deposit in Nevada, part of a broader push to accelerate domestic mineral discovery.",
+    impact: "medium",
+    sector: "Infrastructure & Logistics",
+    url: "#"
+  },
+];
+
+const STORY_LEADS = [
+  {
+    id: 1,
+    title: "Defense AI Convergence Accelerates",
+    description: "Multiple signals converging: Anduril's massive $3B growth round + Shield AI's $680M USAF contract + Scale AI Pentagon data deal + Palantir NATO platform win suggest accelerating defense AI adoption across the entire Western alliance.",
+    companies: ["Anduril Industries", "Shield AI", "Palantir", "Scale AI"],
+    signals: ["funding", "contract", "partnership"],
+    confidence: "high",
+    date: "2025-01-20",
+    sector: "Defense & Security"
+  },
+  {
+    id: 2,
+    title: "Nuclear Renaissance Reaches Inflection Point",
+    description: "Oklo NRC design approval + TerraPower DOE loan guarantee + X-Energy/Dow industrial deployment + Kairos Power construction start — four advanced nuclear companies hitting regulatory and construction milestones simultaneously signals the sector is moving from R&D to deployment.",
+    companies: ["Oklo", "TerraPower", "X-Energy", "Kairos Power"],
+    signals: ["regulatory", "funding", "partnership", "milestone"],
+    confidence: "high",
+    date: "2025-01-18",
+    sector: "Nuclear Energy"
+  },
+  {
+    id: 3,
+    title: "Humanoid Robot Commercialization Wave",
+    description: "Figure AI at BMW + Agility Robotics mass production + Apptronik/Mercedes partnership + 1X Technologies NEO Beta reveal — humanoid robotics is transitioning from demos to factory deployments faster than most predicted.",
+    companies: ["Figure AI", "Agility Robotics", "Apptronik", "1X Technologies"],
+    signals: ["partnership", "milestone", "product"],
+    confidence: "high",
+    date: "2025-01-10",
+    sector: "Robotics & Manufacturing"
+  },
+  {
+    id: 4,
+    title: "Fusion Energy Timeline Compression",
+    description: "Commonwealth Fusion Systems completing SPARC assembly + Helion hitting 100M degree plasma + Pacific Fusion funding — multiple fusion approaches hitting physics milestones simultaneously suggests 2030s commercial fusion is increasingly credible.",
+    companies: ["Commonwealth Fusion Systems", "Helion", "Pacific Fusion"],
+    signals: ["milestone", "funding"],
+    confidence: "high",
+    date: "2025-01-17",
+    sector: "Climate & Energy"
+  },
+  {
+    id: 5,
+    title: "AI Chip Architecture War Intensifies",
+    description: "Cerebras filing for IPO + Etched raising for transformer ASICs + Lightmatter shipping photonic interconnects + Groq volume production + Tenstorrent's Samsung-backed open-source push — the post-GPU AI hardware ecosystem is materializing with multiple viable architectures.",
+    companies: ["Cerebras", "Etched", "Lightmatter", "Groq", "Tenstorrent"],
+    signals: ["ipo", "funding", "product", "milestone"],
+    confidence: "high",
+    date: "2025-01-19",
+    sector: "Chips & Semiconductors"
+  },
+  {
+    id: 6,
+    title: "Autonomous Mobility Regulatory Breakthrough",
+    description: "Waymo expanding to 6 cities + Aurora driverless trucking launch + Joby FAA certification + Zoox public service launch — autonomous vehicles and air taxis are clearing regulatory hurdles at an unprecedented pace in late 2024 / early 2025.",
+    companies: ["Waymo", "Aurora Innovation", "Joby Aviation", "Zoox"],
+    signals: ["regulatory", "milestone"],
+    confidence: "high",
+    date: "2025-01-13",
+    sector: "Drones & Autonomous"
+  },
+  {
+    id: 7,
+    title: "Longevity Science Enters Clinical Stage",
+    description: "Altos Labs primate reprogramming results + Retro Biosciences entering clinical trials + Colossal Biosciences funding surge — longevity and age-reversal science is transitioning from laboratory curiosity to clinical reality.",
+    companies: ["Altos Labs", "Retro Biosciences", "Colossal Biosciences"],
+    signals: ["milestone", "funding"],
+    confidence: "medium",
+    date: "2025-01-11",
+    sector: "Biotech & Health"
+  },
+  {
+    id: 8,
+    title: "Data Centers Driving Nuclear and Grid Infrastructure Boom",
+    description: "NuScale data center consortium + Fervo Energy's record geothermal PPA + Amperon grid forecasting raise + Oklo's NRC milestone — the insatiable power demand from AI data centers is creating a cross-sector supercycle across nuclear, geothermal, and grid infrastructure.",
+    companies: ["NuScale Power", "Fervo Energy", "Amperon", "Oklo"],
+    signals: ["partnership", "contract", "funding", "regulatory"],
+    confidence: "high",
+    date: "2025-01-18",
+    sector: "Nuclear Energy"
+  },
+  {
+    id: 9,
+    title: "European Defense Tech Independence Movement",
+    description: "Helsing's $500M raise + Quantum-Systems drone scaling + Milrem Robotics ground platform expansion — European defense startups are raising unprecedented capital as NATO allies pursue sovereign autonomous capabilities independent of U.S. prime contractors.",
+    companies: ["Helsing", "Quantum-Systems", "Milrem Robotics"],
+    signals: ["funding", "contract", "milestone"],
+    confidence: "medium",
+    date: "2024-12-15",
+    sector: "Defense & Security"
+  },
+  {
+    id: 10,
+    title: "Hypersonic and Supersonic Dual-Use Convergence",
+    description: "Boom XB-1 breaking Mach 1 + Hermeus $325M USAF contract + Venus Aerospace engine test — commercial supersonic and military hypersonic programs are advancing in parallel with increasing technology crossover between civil and defense applications.",
+    companies: ["Boom Supersonic", "Hermeus", "Venus Aerospace"],
+    signals: ["milestone", "contract"],
+    confidence: "medium",
+    date: "2025-01-06",
+    sector: "Supersonic & Hypersonic"
+  },
+  {
+    id: 11,
+    title: "AI Foundation Model Spending Supercycle",
+    description: "Anthropic $2B raise + OpenAI o3 launch + Anysphere hitting $9B valuation + ElevenLabs Series C — AI foundation model companies and the tools built on them are absorbing unprecedented capital while shipping products at an accelerating pace.",
+    companies: ["Anthropic", "OpenAI", "Anysphere", "ElevenLabs"],
+    signals: ["funding", "product"],
+    confidence: "high",
+    date: "2025-01-20",
+    sector: "AI & Software"
+  },
+  {
+    id: 12,
+    title: "Grid-Scale Energy Storage Buildout Begins",
+    description: "Form Energy iron-air gigafactory groundbreaking + Antora thermal battery deployment + Redwood Materials $1B recycling expansion — long-duration energy storage is moving from pilot to industrial scale, critical for renewable grid reliability.",
+    companies: ["Form Energy", "Antora Energy", "Redwood Materials"],
+    signals: ["milestone", "funding"],
+    confidence: "high",
+    date: "2025-01-04",
+    sector: "Climate & Energy"
+  },
+  {
+    id: 13,
+    title: "Quantum Computing Error Correction Milestone Cluster",
+    description: "IonQ achieving 99.9% gate fidelity + QuEra 100-logical-qubit demo + PsiQuantum $940M government funding — multiple quantum computing approaches are hitting error correction thresholds simultaneously, signaling the field is closer to practical utility than skeptics believe.",
+    companies: ["IonQ", "QuEra Computing", "PsiQuantum"],
+    signals: ["milestone", "funding"],
+    confidence: "medium",
+    date: "2025-01-08",
+    sector: "Quantum Computing"
+  },
+  {
+    id: 14,
+    title: "Space Infrastructure Ecosystem Maturing",
+    description: "SpaceX full reusability + Vast commercial station + Varda in-orbit manufacturing + Turion debris removal — the space economy is building out critical infrastructure layers beyond launch, with commercial stations, manufacturing, and servicing reaching inflection points.",
+    companies: ["SpaceX", "Vast", "Varda Space Industries", "Turion Space"],
+    signals: ["milestone", "partnership", "funding"],
+    confidence: "high",
+    date: "2025-01-15",
+    sector: "Space & Aerospace"
+  },
+  {
+    id: 15,
+    title: "Autonomous Defense Manufacturing Pipeline",
+    description: "Hadrian doubling CNC factory capacity + Machina Labs raising for robotic forming + Gecko Robotics Navy inspection contract — a new class of defense-focused manufacturing startups is automating the industrial base needed to build next-gen weapons platforms at scale.",
+    companies: ["Hadrian", "Machina Labs", "Gecko Robotics"],
+    signals: ["milestone", "funding", "contract"],
+    confidence: "medium",
+    date: "2025-01-09",
+    sector: "Robotics & Manufacturing"
+  },
+];
+
+// =============================================================
+// EXPERT TAKES — Curated Domain Expert Assessments
+// =============================================================
+const EXPERT_TAKES = [
+  {
+    author: "Defense Tech Analyst",
+    company: "Anduril Industries",
+    text: "Anduril's Lattice platform creates genuine network effects in defense — once adopted by one service branch, adjacent units want interoperability. The $12B Series G isn't just growth capital, it's a signal that the defense primes' 20-year software moat is crumbling. Watch for NATO adoption as the next catalyst."
+  },
+  {
+    author: "Energy Systems Researcher",
+    company: "Commonwealth Fusion Systems",
+    text: "CFS's SPARC tokamak achieving net energy by 2027 would be the most significant physics milestone since the Manhattan Project. Their high-temperature superconducting magnets are already being commercialized for MRI and industrial applications — fusion success is almost a bonus at this point."
+  },
+  {
+    author: "Robotics VC Partner",
+    company: "Figure AI",
+    text: "The humanoid robotics race has five serious contenders, but Figure's BMW partnership gives them something others lack: a paying customer with a specific use case at scale. The challenge is the perception gap — demos look amazing, but 99.9% reliability in unstructured environments remains 3-5 years away."
+  },
+  {
+    author: "Space Industry Consultant",
+    company: "SpaceX",
+    text: "Starship changes the economics of everything beyond LEO. At $10M per 100-ton launch, space stations become construction projects, lunar bases become feasible, and Mars settlement enters the realm of expensive-but-possible. Every space company's business plan should be re-run with Starship pricing."
+  },
+  {
+    author: "AI Infrastructure Analyst",
+    company: "Anthropic",
+    text: "Anthropic's constitutional AI approach is quietly becoming the enterprise standard. As regulatory frameworks tighten globally, companies that baked in safety from day one will have a structural advantage. The $60B valuation prices in both the model capability and the trust infrastructure."
+  },
+  {
+    author: "Nuclear Policy Advisor",
+    company: "Oklo",
+    text: "Oklo's microreactor approach is the right architecture for the data center boom — modular, factory-built, deployable in 18 months vs. 10 years for traditional nuclear. The NRC licensing pathway they're pioneering will benefit every SMR company that follows. First-mover advantage in regulatory design."
+  },
+  {
+    author: "Manufacturing VC",
+    company: "Hadrian",
+    text: "Hadrian is solving the actual bottleneck in defense production: precision machining capacity. The US has lost 40% of its machine shops since 2000. Hadrian's fully automated CNC factories can produce flight-quality parts 10x faster. This is infrastructure the DoD desperately needs."
+  },
+  {
+    author: "Biotech Fund Manager",
+    company: "Altos Labs",
+    text: "Cellular reprogramming represents a paradigm shift from treating disease symptoms to resetting cellular age. Altos has assembled the most impressive scientific team since Bell Labs — Yamanaka, Izpisua Belmonte, Wolf Reik. The $3B war chest buys 10+ years of patient research that public markets won't fund."
+  }
+];

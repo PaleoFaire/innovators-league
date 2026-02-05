@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=10">
+    <link rel="stylesheet" href="styles.css?v=11">
 </head>
 <body>
     <!-- Navigation -->
@@ -407,6 +407,94 @@
         </div>
     </section>
 
+    <!-- Real-Time Intelligence Feed -->
+    <section class="intel-feed-section" id="intel-feed">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">REAL-TIME INTELLIGENCE</p>
+                <h2>Intelligence Feed</h2>
+                <p>Breaking developments, funding rounds, contract awards, and pattern-detected story leads across frontier tech.</p>
+            </div>
+            <div class="feed-tabs">
+                <button class="feed-tab active" data-feed="news">Latest News</button>
+                <button class="feed-tab" data-feed="stories">Story Leads</button>
+            </div>
+            <div class="feed-controls">
+                <select id="feed-category" class="lb-filter-select">
+                    <option value="all">Category: All</option>
+                    <option value="funding">Funding</option>
+                    <option value="milestone">Milestones</option>
+                    <option value="contract">Contracts</option>
+                    <option value="partnership">Partnerships</option>
+                    <option value="ipo">IPO / Exit</option>
+                    <option value="leadership">Leadership</option>
+                    <option value="product">Product</option>
+                    <option value="acquisition">Acquisition</option>
+                    <option value="regulatory">Regulatory</option>
+                </select>
+                <select id="feed-sector" class="lb-filter-select">
+                    <option value="all">Sector: All</option>
+                </select>
+                <select id="feed-impact" class="lb-filter-select">
+                    <option value="all">Impact: All</option>
+                    <option value="high">High Impact</option>
+                    <option value="medium">Medium Impact</option>
+                </select>
+            </div>
+            <div class="feed-panel" id="feed-news-panel"></div>
+            <div class="feed-panel" id="feed-stories-panel" style="display:none"></div>
+        </div>
+    </section>
+
+    <!-- Exportable Sector Reports -->
+    <section class="reports-section" id="sector-reports">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">EXPORTABLE REPORTS</p>
+                <h2>Sector Intelligence Reports</h2>
+                <p>Generate downloadable PDF reports with sector analysis, company rankings, funding trends, and competitive landscapes.</p>
+            </div>
+            <div class="reports-grid" id="reports-grid"></div>
+        </div>
+    </section>
+
+    <!-- Community Intelligence -->
+    <section class="community-section" id="community-intel">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">COMMUNITY INTELLIGENCE</p>
+                <h2>Community Insights</h2>
+                <p>Collective intelligence from analysts, founders, and investors. Discuss companies, share watchlists, and suggest corrections.</p>
+            </div>
+            <div class="community-layout">
+                <div class="community-discussions" id="community-discussions">
+                    <div class="giscus"></div>
+                </div>
+                <div class="community-sidebar">
+                    <div class="community-card">
+                        <h4>Shared Watchlists</h4>
+                        <p class="community-desc">Build and share themed watchlists with the community.</p>
+                        <div class="watchlist-builder">
+                            <input type="text" id="watchlist-name" placeholder="Watchlist name..." class="memo-key-input">
+                            <div class="watchlist-companies" id="watchlist-companies"></div>
+                            <button class="portfolio-action-btn" id="watchlist-share">📋 Generate Shareable Link</button>
+                        </div>
+                    </div>
+                    <div class="community-card">
+                        <h4>Suggest a Correction</h4>
+                        <p class="community-desc">Found outdated data? Help us improve.</p>
+                        <a href="https://github.com/PaleoFaire/innovators-league/issues/new?template=data-correction.md" target="_blank" rel="noopener" class="suggest-edit-btn">✏️ Open Correction Form</a>
+                    </div>
+                    <div class="community-card">
+                        <h4>Expert Takes</h4>
+                        <p class="community-desc">Curated 200-word assessments from domain experts.</p>
+                        <div id="expert-takes-list"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Founder Mafia Explorer -->
     <section class="mafia-section" id="mafia-explorer">
         <div class="container">
@@ -635,7 +723,23 @@
         </div>
     </footer>
 
-    <script src="data.js?v=10"></script>
-    <script src="app.js?v=10"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
+    <script src="data.js?v=11"></script>
+    <script src="app.js?v=11"></script>
+    <script src="https://giscus.app/client.js"
+        data-repo="PaleoFaire/innovators-league"
+        data-repo-id=""
+        data-category="General"
+        data-category-id=""
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_dimmed"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+    </script>
 </body>
 </html>
