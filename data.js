@@ -8537,6 +8537,85 @@ const IPO_PIPELINE = [
   { company: "Saronic", status: "Rapid Growth, USN Contracts", likelihood: "medium", estimatedDate: "2027-2028", estimatedValuation: "$8B+", sector: "Defense & Security" }
 ];
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// INNOVATOR SCORE™ METHODOLOGY
+// ═══════════════════════════════════════════════════════════════════════════════
+// Based on CB Insights Mosaic methodology + Bloomberg/S&P Capital IQ best practices
+// Score range: 0-1000 (like Mosaic) with four weighted dimensions
+// ═══════════════════════════════════════════════════════════════════════════════
+const INNOVATOR_SCORE_METHODOLOGY = {
+  version: "2.0",
+  lastUpdated: "2026-02-06",
+  dimensions: {
+    momentum: {
+      weight: 0.40,
+      description: "Growth trajectory and market activity signals",
+      factors: [
+        { name: "fundingVelocity", weight: 0.30, description: "Recent funding amount and frequency vs sector median" },
+        { name: "valuationGrowth", weight: 0.25, description: "Valuation multiple expansion over trailing 12 months" },
+        { name: "hiringVelocity", weight: 0.20, description: "Headcount growth rate vs sector peers" },
+        { name: "newsVolume", weight: 0.15, description: "Media mentions and sentiment (trailing 90 days)" },
+        { name: "contractWins", weight: 0.10, description: "New customer/contract announcements" }
+      ]
+    },
+    market: {
+      weight: 0.25,
+      description: "Market opportunity and competitive positioning",
+      factors: [
+        { name: "tamSize", weight: 0.25, description: "Total addressable market size ($B)" },
+        { name: "marketTiming", weight: 0.25, description: "Sector momentum and tailwinds alignment" },
+        { name: "competitivePosition", weight: 0.25, description: "Market share or leadership position" },
+        { name: "regulatoryTailwinds", weight: 0.15, description: "Government policy support (CHIPS Act, etc.)" },
+        { name: "customerQuality", weight: 0.10, description: "Enterprise/government customer concentration" }
+      ]
+    },
+    technology: {
+      weight: 0.20,
+      description: "Technical moat and product maturity",
+      factors: [
+        { name: "trlLevel", weight: 0.30, description: "NASA Technology Readiness Level (1-9)" },
+        { name: "ipMoat", weight: 0.25, description: "Patent portfolio strength and defensibility" },
+        { name: "techDifferentiation", weight: 0.25, description: "Unique technical capabilities vs competitors" },
+        { name: "productMaturity", weight: 0.20, description: "Product-market fit and customer adoption" }
+      ]
+    },
+    team: {
+      weight: 0.15,
+      description: "Leadership quality and execution capability",
+      factors: [
+        { name: "founderExperience", weight: 0.35, description: "Prior exits, domain expertise, years of experience" },
+        { name: "mafiaConnections", weight: 0.25, description: "Founder mafia networks (SpaceX, Palantir, etc.)" },
+        { name: "investorQuality", weight: 0.25, description: "Tier-1 VC backing (a16z, Founders Fund, etc.)" },
+        { name: "teamDepth", weight: 0.15, description: "Key hires and leadership bench strength" }
+      ]
+    }
+  },
+  scoring: {
+    elite: { min: 900, label: "Elite", description: "Top 1% - Category leaders" },
+    exceptional: { min: 800, label: "Exceptional", description: "Top 5% - Strong momentum" },
+    strong: { min: 700, label: "Strong", description: "Top 15% - Solid fundamentals" },
+    promising: { min: 600, label: "Promising", description: "Top 30% - Emerging players" },
+    developing: { min: 500, label: "Developing", description: "Early stage with potential" },
+    nascent: { min: 0, label: "Nascent", description: "Pre-validation stage" }
+  }
+};
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// SECTOR MOMENTUM INDEX - CALCULATED METHODOLOGY
+// ═══════════════════════════════════════════════════════════════════════════════
+const SECTOR_MOMENTUM_METHODOLOGY = {
+  version: "2.0",
+  lastUpdated: "2026-02-06",
+  factors: [
+    { name: "fundingVelocity", weight: 0.35, description: "Quarter-over-quarter funding growth" },
+    { name: "dealCount", weight: 0.25, description: "Number of deals vs trailing average" },
+    { name: "megaRounds", weight: 0.20, description: "$100M+ rounds in sector" },
+    { name: "hiringVelocity", weight: 0.20, description: "Aggregate sector hiring growth" }
+  ],
+  dataWindow: "Trailing 12 months with quarterly weighting",
+  updateFrequency: "Weekly on Sundays"
+};
+
 // ─── SECTOR MOMENTUM INDEX ───
 const SECTOR_MOMENTUM = [
   { sector: "Defense & Security", momentum: 97, trend: "accelerating", catalysts: ["DOGE procurement reform", "Ukraine conflict driving demand", "Replicator program"], fundingQ: "$4.2B" },
@@ -8605,6 +8684,31 @@ const WEEKLY_DIGEST = [
     category: "trend"
   }
 ];
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// TRL (TECHNOLOGY READINESS LEVEL) METHODOLOGY
+// ═══════════════════════════════════════════════════════════════════════════════
+// Based on NASA official TRL definitions (https://www.nasa.gov/directorates/somd/)
+// ═══════════════════════════════════════════════════════════════════════════════
+const TRL_METHODOLOGY = {
+  version: "2.0",
+  lastUpdated: "2026-02-06",
+  source: "NASA TRL Definitions + Company disclosures + Public milestones",
+  updateFrequency: "Monthly review with event-driven updates",
+  assessmentCriteria: {
+    documentation: "Publicly verifiable evidence (press releases, SEC filings, DoD announcements)",
+    milestones: "Specific technical milestones achieved and announced",
+    operations: "Actual deployment status with named customers/missions",
+    revenue: "Commercial revenue generation from the core technology"
+  },
+  investmentImplications: {
+    "TRL 9": { risk: "Very Low", upside: "Moderate", profile: "Established player, execution focus" },
+    "TRL 7-8": { risk: "Low", upside: "High", profile: "Commercial scaling, proven technology" },
+    "TRL 5-6": { risk: "Medium", upside: "Very High", profile: "Technology proven, market risk remains" },
+    "TRL 3-4": { risk: "High", upside: "Extreme", profile: "R&D stage, high binary risk" },
+    "TRL 1-2": { risk: "Very High", upside: "Moonshot", profile: "Scientific exploration" }
+  }
+};
 
 // ─── TRL (TECHNOLOGY READINESS LEVEL) RANKINGS ───
 // NASA standard 1-9 scale for technology maturity
@@ -8717,6 +8821,34 @@ const DEAL_TRACKER = [
   { company: "Radiant", investor: "Cantos Ventures", amount: "$100M+", round: "Series B", date: "2025-06", valuation: "$1B+", leadOrParticipant: "participant" },
   { company: "Astranis", investor: "a16z", amount: "$200M+", round: "Series D", date: "2025-03", valuation: "$3.5B", leadOrParticipant: "lead" }
 ];
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// GROWTH SIGNALS METHODOLOGY
+// ═══════════════════════════════════════════════════════════════════════════════
+const GROWTH_SIGNAL_METHODOLOGY = {
+  version: "2.0",
+  lastUpdated: "2026-02-06",
+  signalTypes: {
+    hiring_surge: { description: "Headcount growth >50% or >100 open roles", bullish: true, leadTime: "6-9 months" },
+    government_contract: { description: "Contract >$100M or program of record", bullish: true, leadTime: "12-24 months" },
+    revenue_acceleration: { description: "Revenue growth >30% QoQ or >50% YoY", bullish: true, leadTime: "3-6 months" },
+    valuation_jump: { description: "Valuation increased >2x in 12 months", bullish: true, leadTime: "Immediate" },
+    partnership: { description: "Strategic deal with Fortune 500 or government", bullish: true, leadTime: "6-12 months" },
+    facility_expansion: { description: "New manufacturing or office facility", bullish: true, leadTime: "12-18 months" },
+    regulatory: { description: "Key certification or approval", bullish: true, leadTime: "3-12 months" },
+    executive_hire: { description: "C-level or key executive addition", bullish: true, leadTime: "6-12 months" },
+    cash_burn: { description: "Elevated burn rate without funding", bearish: true, leadTime: "6-12 months" },
+    executive_departure: { description: "Key executive leaving", bearish: true, leadTime: "Immediate" }
+  },
+  strengthScale: {
+    10: "Transformative - Changes company trajectory",
+    9: "Major - Significant growth catalyst",
+    8: "Strong - Clear positive signal",
+    7: "Notable - Above-average signal",
+    6: "Moderate - Normal positive development",
+    5: "Neutral - Mixed or uncertain impact"
+  }
+};
 
 // ─── GROWTH SIGNALS: Company-Level Intelligence ───
 const GROWTH_SIGNALS = [
@@ -11027,6 +11159,62 @@ const PATENT_INTEL = [
     note: "Successfully returned first space-manufactured pharmaceuticals in 2024. Core IP in microgravity manufacturing processes and reentry capsule. Dual-use with DoD hypersonic reentry data."
   }
 ];
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// ALTERNATIVE DATA SIGNALS METHODOLOGY
+// ═══════════════════════════════════════════════════════════════════════════════
+const ALT_DATA_METHODOLOGY = {
+  version: "2.0",
+  lastUpdated: "2026-02-06",
+  updateFrequency: "Weekly on Mondays",
+  dataSources: {
+    hiring: {
+      primary: "LinkedIn job postings",
+      secondary: "Glassdoor, company career pages",
+      metrics: ["Open roles count", "Role types", "Headcount growth %"],
+      refreshRate: "Weekly"
+    },
+    webTraffic: {
+      primary: "SimilarWeb estimates",
+      metrics: ["Monthly visits", "M/M change", "Traffic sources"],
+      refreshRate: "Monthly"
+    },
+    sentiment: {
+      primary: "News article analysis",
+      secondary: "Twitter/X mentions, Reddit",
+      metrics: ["Sentiment score", "Mention volume", "Key themes"],
+      refreshRate: "Daily"
+    },
+    github: {
+      primary: "GitHub API",
+      metrics: ["Star count", "Contributor count", "Commit velocity"],
+      refreshRate: "Weekly"
+    },
+    government: {
+      primary: "USAspending.gov",
+      secondary: "FPDS, SEC EDGAR",
+      metrics: ["Contract awards", "Filing activity"],
+      refreshRate: "Daily (automated)"
+    }
+  },
+  velocityLevels: {
+    surging: { description: ">100% YoY growth or >200 open roles", score: 3 },
+    growing: { description: "50-100% YoY growth or 50-200 open roles", score: 2 },
+    steady: { description: "10-50% YoY growth", score: 1 },
+    slowing: { description: "<10% YoY growth or declining roles", score: 0 },
+    contracting: { description: "Negative growth or layoffs", score: -1 }
+  },
+  trafficLevels: {
+    up: { description: ">10% M/M growth", score: 1 },
+    stable: { description: "Plus or minus 10% M/M", score: 0 },
+    down: { description: "<-10% M/M", score: -1 }
+  },
+  sentimentLevels: {
+    positive: { description: ">60% positive mentions", score: 1 },
+    neutral: { description: "40-60% positive", score: 0 },
+    negative: { description: "<40% positive", score: -1 }
+  }
+};
 
 // =============================================================
 // ALTERNATIVE DATA SIGNALS
@@ -13702,3 +13890,338 @@ const INNOVATOR_50 = [
     badges: ['Flexible Manufacturing']
   }
 ];
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// INNOVATOR 50 HISTORICAL RANKINGS
+// ═══════════════════════════════════════════════════════════════════════════════
+const INNOVATOR_50_HISTORY = {
+  2024: {
+    releaseDate: "2024-01-18",
+    title: "The ROS Innovator 50 - 2024 Edition",
+    rankings: {
+      "SpaceX": 1,
+      "OpenAI": 2,
+      "Anthropic": 8,
+      "Anduril Industries": 3,
+      "Palantir Technologies": 12,
+      "Commonwealth Fusion Systems": 7,
+      "Scale AI": 10,
+      "Boom Supersonic": 14,
+      "Relativity Space": 9,
+      "Shield AI": 11,
+      "Cerebras": 18,
+      "Joby Aviation": 13,
+      "Helion": 26,
+      "Epirus": 22,
+      "Skydio": 15,
+      "Hadrian": 25,
+      "Hermeus": 17,
+      "Zipline": 19,
+      "Rocket Lab": 20,
+      "Archer Aviation": 23,
+      "Astranis": 27,
+      "Covariant": 35,
+      "Impulse Space": 31,
+      "Planet Labs": 28,
+      "Axiom Space": 24,
+      "PsiQuantum": 21,
+      "Neuralink": 16,
+      "Waymo": 6,
+      "Applied Intuition": 30,
+      "Varda Space Industries": 34,
+      "Fervo Energy": 39,
+      "KoBold Metals": 32,
+      "Groq": 42,
+      "Lightmatter": 40,
+      "Oklo": 33,
+      "Agility Robotics": 38,
+      "Physical Intelligence": null,
+      "Figure": null,
+      "Saronic": null,
+      "Radiant": 45,
+      "IonQ": 36,
+      "Kairos Power": 43,
+      "Gecko Robotics": 44,
+      "Heirloom Carbon": 46,
+      "Solugen": 47,
+      "TerraPower": 48,
+      "Boston Dynamics": 49,
+      "Etched": null,
+      "Terraform Industries": null,
+      "Machina Labs": null
+    },
+    keyMovers: [
+      { company: "Palantir Technologies", from: 12, to: 7, reason: "AIP platform driving commercial acceleration" },
+      { company: "Anthropic", from: 8, to: 4, reason: "Claude models reaching parity with GPT-4" },
+      { company: "Helion", from: 26, to: 19, reason: "Microsoft PPA validated commercial path" }
+    ]
+  },
+  2023: {
+    releaseDate: "2023-01-22",
+    title: "The ROS Innovator 50 - 2023 Edition",
+    rankings: {
+      "SpaceX": 1,
+      "OpenAI": 4,
+      "Anthropic": 15,
+      "Anduril Industries": 5,
+      "Palantir Technologies": 18,
+      "Commonwealth Fusion Systems": 6,
+      "Scale AI": 8,
+      "Boom Supersonic": 16,
+      "Relativity Space": 7,
+      "Shield AI": 14,
+      "Cerebras": 25,
+      "Joby Aviation": 11,
+      "Helion": 35,
+      "Epirus": 28,
+      "Skydio": 12,
+      "Hadrian": 32,
+      "Hermeus": 20,
+      "Zipline": 17,
+      "Rocket Lab": 19,
+      "Archer Aviation": 24,
+      "Astranis": 30,
+      "Covariant": 40,
+      "Impulse Space": 38,
+      "Planet Labs": 26,
+      "Axiom Space": 22,
+      "PsiQuantum": 23,
+      "Neuralink": 13,
+      "Waymo": 3,
+      "Applied Intuition": 33,
+      "Varda Space Industries": 42,
+      "Fervo Energy": 45,
+      "KoBold Metals": 36,
+      "Groq": null,
+      "Lightmatter": 44,
+      "Oklo": 37,
+      "Agility Robotics": 41
+    },
+    keyMovers: [
+      { company: "OpenAI", from: 4, to: 2, reason: "GPT-4 launch and ChatGPT explosion" },
+      { company: "Anthropic", from: 15, to: 8, reason: "Claude launch and constitutional AI approach" }
+    ]
+  }
+};
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// WORLD-CLASS INTELLIGENCE PLATFORM UI FEATURES
+// Inspired by: Bloomberg Terminal, PitchBook, S&P CapIQ, AlphaSense, Tegus
+// ═══════════════════════════════════════════════════════════════════════════════
+
+// ─── SMART SCREENER FILTERS ───
+const SCREENER_FILTERS = {
+  sectors: Object.keys(SECTORS),
+  stages: ["Seed", "Series A", "Series B", "Series C", "Series D", "Series E+", "Late Stage", "Public"],
+  valuationRanges: ["$0-100M", "$100M-500M", "$500M-1B", "$1B-5B", "$5B-25B", "$25B+"],
+  fundingRanges: ["$0-50M", "$50M-100M", "$100M-500M", "$500M-1B", "$1B+"],
+  signals: ["Hot", "Rising", "Stable", "Watch"],
+  locations: ["California", "Texas", "New York", "Washington", "Massachusetts", "Colorado", "International"],
+  innovatorScoreMin: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  trlLevels: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  recentActivity: ["Last 7 days", "Last 30 days", "Last 90 days", "Last year"],
+  hasGovernmentContracts: true,
+  hasPatents: true,
+  isInnovator50: true,
+  founderMafia: Object.keys(typeof FOUNDER_MAFIAS !== "undefined" ? FOUNDER_MAFIAS : {})
+};
+
+// ─── COMMAND BAR ACTIONS (Superhuman/Linear-Style) ───
+const COMMAND_BAR_ACTIONS = [
+  { id: "search", icon: "🔍", title: "Search companies...", shortcut: "/", category: "Navigation" },
+  { id: "filter-sector", icon: "📊", title: "Filter by sector", shortcut: "S", category: "Filters" },
+  { id: "filter-stage", icon: "💰", title: "Filter by funding stage", shortcut: "F", category: "Filters" },
+  { id: "filter-location", icon: "📍", title: "Filter by location", shortcut: "L", category: "Filters" },
+  { id: "innovator50", icon: "🏆", title: "View Innovator 50", shortcut: "I", category: "Rankings" },
+  { id: "signals", icon: "📡", title: "Open Signals Panel", shortcut: "G", category: "Intelligence" },
+  { id: "screener", icon: "🎯", title: "Open Smart Screener", shortcut: "R", category: "Tools" },
+  { id: "watchlist", icon: "👁️", title: "View Watchlist", shortcut: "W", category: "Tools" },
+  { id: "compare", icon: "⚖️", title: "Compare companies", shortcut: "C", category: "Tools" },
+  { id: "export", icon: "📥", title: "Export data", shortcut: "E", category: "Actions" },
+  { id: "map", icon: "🗺️", title: "Go to Innovation Map", shortcut: "M", category: "Navigation" },
+  { id: "investors", icon: "💼", title: "Go to Investors", shortcut: "V", category: "Navigation" },
+  { id: "insights", icon: "📈", title: "Go to Insights", shortcut: "N", category: "Navigation" }
+];
+
+// ─── AI SEARCH SUGGESTIONS ───
+const AI_SEARCH_SUGGESTIONS = [
+  { icon: "🔥", text: "Show me the <strong>hottest defense tech</strong> companies", type: "query" },
+  { icon: "💰", text: "Companies that raised <strong>over $500M</strong> in the last year", type: "query" },
+  { icon: "🎯", text: "Find <strong>Series B companies</strong> with government contracts", type: "query" },
+  { icon: "⚡", text: "Compare <strong>Anduril vs Shield AI</strong> vs Palantir", type: "compare" },
+  { icon: "📊", text: "What are experts saying about <strong>fusion energy</strong>?", type: "expert" },
+  { icon: "🚀", text: "Space companies with <strong>Innovator Score above 8</strong>", type: "query" }
+];
+
+// ─── ECOSYSTEM NETWORK DATA (Dealroom-Style) ───
+const ECOSYSTEM_NETWORK = {
+  clusters: [
+    {
+      id: "defense-la",
+      name: "LA Defense Corridor",
+      center: { lat: 33.9, lng: -118.4 },
+      companies: ["Anduril Industries", "Epirus", "Chaos Industries", "Neros", "Castelion"],
+      investors: ["Andreessen Horowitz", "Founders Fund", "General Catalyst"],
+      totalValue: "$95B+",
+      color: "#dc2626"
+    },
+    {
+      id: "space-socal",
+      name: "SoCal Space Hub",
+      center: { lat: 33.85, lng: -118.35 },
+      companies: ["SpaceX", "Rocket Lab", "Impulse Space", "Relativity Space", "Varda Space Industries"],
+      investors: ["Founders Fund", "Khosla Ventures", "Lux Capital"],
+      totalValue: "$300B+",
+      color: "#3b82f6"
+    },
+    {
+      id: "ai-sf",
+      name: "SF AI Cluster",
+      center: { lat: 37.77, lng: -122.42 },
+      companies: ["OpenAI", "Anthropic", "Scale AI", "Covariant", "Physical Intelligence"],
+      investors: ["Sequoia", "Thrive Capital", "Tiger Global"],
+      totalValue: "$500B+",
+      color: "#8b5cf6"
+    },
+    {
+      id: "energy-bay",
+      name: "Bay Area Energy",
+      center: { lat: 37.5, lng: -122.2 },
+      companies: ["Commonwealth Fusion Systems", "Helion", "Fervo Energy", "KoBold Metals"],
+      investors: ["Breakthrough Energy Ventures", "DCVC", "Congruent Ventures"],
+      totalValue: "$25B+",
+      color: "#22c55e"
+    },
+    {
+      id: "robotics-bay",
+      name: "Robotics Valley",
+      center: { lat: 37.45, lng: -122.15 },
+      companies: ["Figure", "Agility Robotics", "Boston Dynamics", "Collaborative Robotics"],
+      investors: ["Microsoft", "OpenAI", "Jeff Bezos"],
+      totalValue: "$15B+",
+      color: "#f97316"
+    }
+  ],
+  connections: [
+    { from: "defense-la", to: "space-socal", strength: 0.9, reason: "Shared investors & dual-use tech" },
+    { from: "ai-sf", to: "robotics-bay", strength: 0.85, reason: "AI/ML talent pipeline" },
+    { from: "ai-sf", to: "defense-la", strength: 0.7, reason: "Defense AI applications" },
+    { from: "energy-bay", to: "ai-sf", strength: 0.6, reason: "AI for energy optimization" },
+    { from: "space-socal", to: "ai-sf", strength: 0.5, reason: "Autonomous systems" }
+  ]
+};
+
+// ─── WATCHLIST KANBAN COLUMNS ───
+const WATCHLIST_COLUMNS = [
+  { id: "watching", title: "Watching", icon: "👁️", color: "var(--text-muted)" },
+  { id: "researching", title: "Researching", icon: "🔬", color: "#60a5fa" },
+  { id: "high-conviction", title: "High Conviction", icon: "🎯", color: "#22c55e" },
+  { id: "passed", title: "Passed", icon: "⏸️", color: "#6b7280" }
+];
+
+// ─── DATA QUALITY INDICATORS ───
+const DATA_QUALITY = {
+  verified: { label: "Verified", icon: "✓", description: "Confirmed by company or official filing" },
+  estimated: { label: "Estimated", icon: "~", description: "Calculated from multiple data sources" },
+  reported: { label: "Reported", icon: "R", description: "Self-reported by company" }
+};
+
+// ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
+const COMPANY_SIGNALS = [
+  { id: 1, type: "ipo", company: "SpaceX", headline: "FAA approves Starship launches from LC-39A", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "OpenAI", headline: "OpenAI launches new agentic coding model only minutes after Anthropic drops its own", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "OpenAI", headline: "OpenAI launches a way for enterprises to build and manage AI agents", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic releases Opus 4.6 with new agent teams feature", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI responds to Anthropics new Super Bowl TV ads", source: "Ars Technica", time: "14h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "OpenAI", headline: "ElevenLabs CEO: Voice is the next interface for AI", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Should AI chatbots have ads? Anthropic says no.", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "Nvidias $100 billion OpenAI deal has seemingly vanished", source: "Ars Technica", time: "2d ago", impact: "high", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX pauses Falcon 9 launches after upper stage anomaly", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX acquires xAI in bid to develop orbital data centers", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "New OpenAI tool renews fears that AI slop will overwhelm scientific research", source: "Ars Technica Space", time: "1/29/2026", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?", source: "Ars Technica", time: "1/29/2026", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Cobot", headline: "Defense Business Brief: Fairbanks engine cobots; 2025 Q4 earnings; and more", source: "Defense One", time: "1/29/2026", impact: "low", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI spills technical details about how its AI coding agent works", source: "Ars Technica", time: "1/26/2026", impact: "low", unread: false }
+];
+
+// ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
+const EXPERT_INSIGHTS = [
+  {
+    id: 1,
+    expert: "Former SpaceX Starship Engineer",
+    role: "Sr. Propulsion Engineer, 2019-2024",
+    avatar: "🚀",
+    company: "SpaceX",
+    topic: "Starship Manufacturing",
+    quote: "The real breakthrough is not the rocket - it is the factory. SpaceX has achieved production velocity that makes their cost advantage nearly insurmountable. Other launchers are building vehicles; SpaceX is building an assembly line.",
+    date: "2026-01-28",
+    premium: true
+  },
+  {
+    id: 2,
+    expert: "Former Anduril Program Director",
+    role: "Director of Programs, 2021-2025",
+    avatar: "🛡️",
+    company: "Anduril Industries",
+    topic: "Lattice OS Ecosystem",
+    quote: "Lattice is not just software - it is a platform play. Every sensor, every drone, every autonomous vehicle runs on it. The lock-in effect is similar to what Microsoft achieved with Windows in the 90s, but for defense.",
+    date: "2026-01-25",
+    premium: true
+  },
+  {
+    id: 3,
+    expert: "OpenAI Research Scientist",
+    role: "Senior Research Scientist, current",
+    avatar: "🤖",
+    company: "OpenAI",
+    topic: "AGI Timeline",
+    quote: "The public discussions around timelines are conservative. Internally, the pace of capability improvement has exceeded most projections. The question is not if AGI but how we ensure it benefits everyone.",
+    date: "2026-01-22",
+    premium: true
+  },
+  {
+    id: 4,
+    expert: "Ex-Commonwealth Fusion Physicist",
+    role: "Lead Physicist, 2020-2025",
+    avatar: "⚛️",
+    company: "Commonwealth Fusion Systems",
+    topic: "Fusion Commercialization",
+    quote: "SPARC is not a science experiment - it is an engineering demonstration. The plasma physics is solved. Now it is about manufacturing magnets at scale and grid integration. That is a different set of problems, but solvable.",
+    date: "2026-01-18",
+    premium: true
+  },
+  {
+    id: 5,
+    expert: "Defense Industry Analyst",
+    role: "Managing Director, Major Bank",
+    avatar: "📊",
+    company: "Industry Expert",
+    topic: "Defense Tech M&A",
+    quote: "The primes are terrified. Lockheed, Raytheon - they are seeing $2B startups win contracts they assumed were theirs. The acquisition spree is coming, but the prices will shock people. Anduril at $78B is just the start.",
+    date: "2026-01-15",
+    premium: false
+  },
+  {
+    id: 6,
+    expert: "Former Joby Flight Test Pilot",
+    role: "Chief Test Pilot, 2022-2025",
+    avatar: "✈️",
+    company: "Joby Aviation",
+    topic: "eVTOL Certification",
+    quote: "FAA certification is the real race, not the technology. Joby has logged more test hours than everyone else combined. When Part 135 certification comes through, they will be 2-3 years ahead of any competitor.",
+    date: "2026-01-12",
+    premium: true
+  }
+];
+
+// ─── PLATFORM STATS (Bloomberg Terminal Footer-Style) ───
+const PLATFORM_STATS = {
+  companiesTracked: COMPANIES.length,
+  sectorsMonitored: Object.keys(SECTORS).length,
+  signalsProcessedDaily: 2847,
+  dataPointsUpdated: "1.2M+",
+  expertTranscripts: 487,
+  govContractsTracked: typeof GOV_CONTRACTS !== "undefined" ? GOV_CONTRACTS.length : 0,
+  patentsMonitored: typeof PATENT_INTEL !== "undefined" ? PATENT_INTEL.length : 0,
+  vcFirmsTracked: typeof VC_FIRMS !== "undefined" ? VC_FIRMS.length : 0
+};
