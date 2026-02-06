@@ -907,6 +907,44 @@ function initStats() {
   if (updatedEl && typeof LAST_UPDATED !== 'undefined') {
     updatedEl.textContent = `Last updated: ${LAST_UPDATED}`;
   }
+
+  // Data freshness indicator
+  initFreshnessIndicator();
+}
+
+function initFreshnessIndicator() {
+  const freshnessEl = document.getElementById('data-freshness');
+  if (!freshnessEl || typeof LAST_UPDATED === 'undefined') return;
+
+  const lastUpdate = new Date(LAST_UPDATED);
+  const now = new Date();
+  const diffHours = Math.floor((now - lastUpdate) / (1000 * 60 * 60));
+  const diffDays = Math.floor(diffHours / 24);
+
+  let status, color, icon;
+  if (diffHours < 24) {
+    status = 'Live Data';
+    color = '#22c55e';
+    icon = '●';
+  } else if (diffHours < 72) {
+    status = 'Fresh';
+    color = '#3b82f6';
+    icon = '●';
+  } else if (diffDays < 7) {
+    status = `${diffDays}d ago`;
+    color = '#f59e0b';
+    icon = '○';
+  } else {
+    status = 'Updating...';
+    color = '#ef4444';
+    icon = '○';
+  }
+
+  freshnessEl.innerHTML = `
+    <span class="freshness-dot" style="color: ${color};">${icon}</span>
+    <span class="freshness-status" style="color: ${color};">${status}</span>
+  `;
+  freshnessEl.title = `Data pipeline runs daily. Last update: ${LAST_UPDATED}`;
 }
 
 function animateCounter(id, target) {

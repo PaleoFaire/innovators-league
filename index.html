@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=13">
+    <link rel="stylesheet" href="styles.css?v=14">
 </head>
 <body>
     <!-- Navigation -->
@@ -62,7 +62,10 @@
                     <span class="stat-label">Tracked Funding</span>
                 </div>
             </div>
-            <p class="last-updated" id="last-updated"></p>
+            <div class="data-freshness-container">
+                <div class="freshness-indicator" id="data-freshness"></div>
+                <p class="last-updated" id="last-updated"></p>
+            </div>
         </div>
     </header>
 
@@ -841,8 +844,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <script src="data.js?v=16"></script>
-    <script src="app.js?v=16"></script>
+    <script src="data.js?v=17"></script>
+    <script src="app.js?v=17"></script>
     <script src="https://giscus.app/client.js"
         data-repo="PaleoFaire/innovators-league"
         data-repo-id=""

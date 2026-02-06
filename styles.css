@@ -1938,11 +1938,46 @@ body {
   padding: 12px 0;
 }
 
-/* ─── LAST UPDATED ─── */
+/* ─── DATA FRESHNESS & LAST UPDATED ─── */
+.data-freshness-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.freshness-indicator {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  cursor: help;
+}
+
+.freshness-dot {
+  font-size: 10px;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.freshness-status {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 .last-updated {
   font-size: 11px;
   color: var(--text-muted);
-  margin-top: 8px;
 }
 
 /* ─── CARD SIGNAL & TBPN ROW ─── */
