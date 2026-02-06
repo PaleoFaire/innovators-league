@@ -63,7 +63,13 @@ jobs:
           js_array += "const COMPANY_SIGNALS = [\n"
 
           for i, s in enumerate(signals[:15]):
-              headline = s.get("title", "")[:120].replace('"', "'").replace('\n', ' ')
+              headline = s.get("title", "")[:120]
+              # Sanitize HTML entities and special characters
+              headline = headline.replace('&#8216;', "'").replace('&#8217;', "'")
+              headline = headline.replace('&#039;', "'").replace('&amp;', '&')
+              headline = headline.replace('"', '"').replace('"', '"')
+              headline = headline.replace("'", "'").replace("'", "'")
+              headline = headline.replace('"', "'").replace('\n', ' ')
               js_array += f'  {{ id: {i+1}, type: "{s.get("type", "news")}", '
               js_array += f'company: "{s.get("matchedCompany", "")}", '
               js_array += f'headline: "{headline}", '
