@@ -883,7 +883,17 @@ function shareCompany(companyName, btnEl) {
 
 // ─── APP INITIALIZATION ───
 document.addEventListener('DOMContentLoaded', () => {
-  initStats();
+  // Debug: Check if data loaded
+  console.log('🔍 Data check:', {
+    COMPANIES: typeof COMPANIES !== 'undefined' ? COMPANIES.length : 'undefined',
+    SECTORS: typeof SECTORS !== 'undefined' ? Object.keys(SECTORS).length : 'undefined'
+  });
+
+  try {
+    initStats();
+  } catch (e) {
+    console.error('initStats error:', e);
+  }
   initMap();
   initFilters();
   initAIQuery();
