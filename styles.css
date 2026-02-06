@@ -8626,6 +8626,28 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  min-height: 100px;
+  transition: all 0.2s;
+}
+
+.kanban-cards.drag-over {
+  background: rgba(255, 107, 44, 0.08);
+  border-radius: 8px;
+}
+
+.kanban-cards:empty::after {
+  content: 'Drop companies here';
+  display: block;
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-muted);
+  font-size: 12px;
+  font-style: italic;
+}
+
+.kanban-card.dragging {
+  opacity: 0.5;
+  transform: scale(0.95);
 }
 
 .kanban-card {

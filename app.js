@@ -5293,38 +5293,120 @@ function handleSignalClick(companyName) {
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
 function initExpertIntel() {
-  if (typeof EXPERT_INSIGHTS === 'undefined') return;
-
   const section = document.getElementById('expert-intel-section');
   if (!section) return;
 
   const grid = section.querySelector('.expert-grid');
   if (!grid) return;
 
-  grid.innerHTML = EXPERT_INSIGHTS.map(e => `
-    <div class="expert-card">
-      <div class="expert-card-header">
-        <div class="expert-avatar">${e.avatar}</div>
-        <div class="expert-info">
-          <h4>${e.expert}</h4>
-          <div class="expert-role">${e.role}</div>
+  // Combine EXPERT_INSIGHTS (premium) and EXPERT_TAKES (community) if available
+  let allInsights = [];
+
+  if (typeof EXPERT_INSIGHTS !== 'undefined') {
+    allInsights = [...EXPERT_INSIGHTS];
+  }
+
+  // Also add EXPERT_TAKES as community insights
+  if (typeof EXPERT_TAKES !== 'undefined') {
+    EXPERT_TAKES.forEach(take => {
+      allInsights.push({
+        expert: take.author,
+        role: 'Domain Expert',
+        avatar: getExpertAvatar(take.company),
+        company: take.company,
+        topic: take.company,
+        quote: take.text,
+        premium: false
+      });
+    });
+  }
+
+  if (allInsights.length === 0) return;
+
+  // Shuffle and pick 6 to display
+  let displayInsights = shuffleArray([...allInsights]).slice(0, 6);
+  let refreshCount = 0;
+
+  function getExpertAvatar(company) {
+    const companyData = COMPANIES.find(c => c.name === company);
+    if (companyData) {
+      const sectorInfo = SECTORS[companyData.sector];
+      return sectorInfo?.icon || '💡';
+    }
+    return '💡';
+  }
+
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  function renderInsights() {
+    grid.innerHTML = displayInsights.map(e => `
+      <div class="expert-card">
+        <div class="expert-card-header">
+          <div class="expert-avatar">${e.avatar}</div>
+          <div class="expert-info">
+            <h4>${e.expert}</h4>
+            <div class="expert-role">${e.role}</div>
+          </div>
+          ${e.premium ? '<span class="expert-badge">PREMIUM</span>' : '<span class="expert-badge" style="background: linear-gradient(135deg, #22c55e, #16a34a);">ANALYST</span>'}
         </div>
-        ${e.premium ? '<span class="expert-badge">PREMIUM</span>' : ''}
-      </div>
-      <div class="expert-quote">
-        <div class="expert-quote-text">${e.quote}</div>
-      </div>
-      <div class="expert-meta">
-        <div class="expert-topic">
-          <span>Topic:</span>
-          <span class="expert-topic-tag">${e.topic}</span>
+        <div class="expert-quote">
+          <div class="expert-quote-text">${e.quote}</div>
         </div>
-        <a href="#" class="expert-cta" onclick="openCompanyModal('${e.company}'); return false;">
-          View ${e.company} →
-        </a>
+        <div class="expert-meta">
+          <div class="expert-topic">
+            <span>Topic:</span>
+            <span class="expert-topic-tag">${e.topic}</span>
+          </div>
+          <a href="#" class="expert-cta" onclick="openCompanyModal('${e.company}'); return false;">
+            View ${e.company} →
+          </a>
+        </div>
       </div>
-    </div>
-  `).join('');
+    `).join('');
+  }
+
+  // Add refresh button to section header
+  const header = section.querySelector('.section-header');
+  if (header && !header.querySelector('.refresh-btn')) {
+    const refreshBtn = document.createElement('button');
+    refreshBtn.className = 'refresh-btn';
+    refreshBtn.innerHTML = '🔄 Refresh Insights';
+    refreshBtn.style.cssText = 'margin-top: 12px; padding: 8px 16px; background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 8px; color: var(--text-secondary); font-size: 12px; cursor: pointer; transition: all 0.15s;';
+    refreshBtn.onmouseover = () => { refreshBtn.style.borderColor = 'var(--accent)'; refreshBtn.style.color = 'var(--accent)'; };
+    refreshBtn.onmouseout = () => { refreshBtn.style.borderColor = 'var(--border)'; refreshBtn.style.color = 'var(--text-secondary)'; };
+    refreshBtn.onclick = () => {
+      displayInsights = shuffleArray([...allInsights]).slice(0, 6);
+      refreshCount++;
+      renderInsights();
+      refreshBtn.innerHTML = `✓ Refreshed (${refreshCount})`;
+      setTimeout(() => { refreshBtn.innerHTML = '🔄 Refresh Insights'; }, 1500);
+    };
+    header.appendChild(refreshBtn);
+  }
+
+  // Auto-refresh every 60 seconds if section is visible
+  let autoRefreshInterval;
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        autoRefreshInterval = setInterval(() => {
+          displayInsights = shuffleArray([...allInsights]).slice(0, 6);
+          renderInsights();
+        }, 60000); // Refresh every 60 seconds
+      } else {
+        clearInterval(autoRefreshInterval);
+      }
+    });
+  }, { threshold: 0.1 });
+  observer.observe(section);
+
+  renderInsights();
 }
 
 // ─── S&P CAPIQ-STYLE SMART SCREENER ───
@@ -5573,6 +5655,55 @@ function initProWatchlist() {
     const total = Object.values(watchlist).reduce((sum, arr) => sum + arr.length, 0);
     const countEl = section.querySelector('.watchlist-count');
     if (countEl) countEl.textContent = total;
+  }
+
+  // Global function to add company from input
+  window.addCompanyToWatchlist = () => {
+    const input = document.getElementById('watchlist-add-input');
+    if (!input || !input.value.trim()) return;
+
+    const searchTerm = input.value.trim().toLowerCase();
+    const company = COMPANIES.find(c => c.name.toLowerCase().includes(searchTerm));
+
+    if (company) {
+      const watchlist = getWatchlist();
+      if (!watchlist['watching']) watchlist['watching'] = [];
+      if (!watchlist['watching'].includes(company.name)) {
+        watchlist['watching'].push(company.name);
+        saveWatchlist(watchlist);
+        renderKanban();
+        updateWatchlistCount();
+        input.value = '';
+        // Show brief confirmation
+        input.placeholder = `✓ Added ${company.name}`;
+        setTimeout(() => { input.placeholder = 'Add company...'; }, 2000);
+      } else {
+        input.placeholder = 'Already in watchlist';
+        input.value = '';
+        setTimeout(() => { input.placeholder = 'Add company...'; }, 2000);
+      }
+    } else {
+      input.placeholder = 'Company not found';
+      input.value = '';
+      setTimeout(() => { input.placeholder = 'Add company...'; }, 2000);
+    }
+  };
+
+  // Global function to clear all watchlist
+  window.clearAllWatchlist = () => {
+    if (confirm('Clear all companies from your watchlist?')) {
+      localStorage.removeItem('til-pro-watchlist');
+      renderKanban();
+      updateWatchlistCount();
+    }
+  };
+
+  // Handle enter key on input
+  const addInput = document.getElementById('watchlist-add-input');
+  if (addInput) {
+    addInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') addCompanyToWatchlist();
+    });
   }
 
   renderKanban();

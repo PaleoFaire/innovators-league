@@ -8575,14 +8575,6 @@ const FOUNDER_MAFIAS = {
       { company: "Epirus", founders: "Defense network overlap with Palantir ecosystem" }
     ]
   },
-  "Stripe Mafia": {
-    icon: "💳",
-    color: "#6366f1",
-    description: "Former Stripe employees founding fintech and infrastructure companies",
-    companies: [
-      { company: "Flexport", founders: "Ryan Petersen (Stripe network)" }
-    ]
-  },
   "Google/DeepMind Alumni": {
     icon: "🧠",
     color: "#8b5cf6",

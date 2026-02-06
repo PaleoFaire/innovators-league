@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=17">
+    <link rel="stylesheet" href="styles.css?v=18">
 </head>
 <body>
     <!-- Navigation -->
@@ -138,15 +138,6 @@
             </div>
             <div class="market-pulse-grid" id="market-pulse-grid"></div>
         </div>
-    </section>
-
-    <!-- Weekly Intelligence Digest -->
-    <section class="digest-section" id="digest">
-        <div class="container">
-            <p class="section-eyebrow">THIS WEEK IN FRONTIER TECH</p>
-            <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 24px; margin: 8px 0 4px;">Intelligence Digest</h2>
-        </div>
-        <div class="digest-scroll" id="digest-scroll"></div>
     </section>
 
     <!-- Funding Tracker -->
@@ -824,18 +815,17 @@
                         <h2>👁️ Pro Watchlist</h2>
                         <span class="watchlist-count">0</span>
                     </div>
-                    <div class="watchlist-actions">
-                        <button class="screener-btn secondary" style="font-size: 12px; padding: 6px 12px;">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                            Set Alerts
+                    <div class="watchlist-actions" style="display: flex; gap: 12px; align-items: center;">
+                        <div class="watchlist-add-form" style="display: flex; gap: 8px;">
+                            <input type="text" id="watchlist-add-input" placeholder="Add company..." class="screener-filter-input" style="width: 180px; padding: 8px 12px; font-size: 13px;">
+                            <button onclick="addCompanyToWatchlist()" class="screener-btn primary" style="font-size: 12px; padding: 8px 14px;">+ Add</button>
+                        </div>
+                        <button onclick="clearAllWatchlist()" class="screener-btn secondary" style="font-size: 12px; padding: 6px 12px;">
+                            Clear All
                         </button>
                     </div>
                 </div>
-                <div class="watchlist-tabs">
-                    <button class="watchlist-tab active">Kanban View</button>
-                    <button class="watchlist-tab">List View</button>
-                    <button class="watchlist-tab">Alerts</button>
-                </div>
+                <p style="font-size: 12px; color: var(--text-muted); padding: 12px 24px 0; margin: 0;">Drag cards between columns to track your investment pipeline. Click any card to view company details.</p>
                 <div class="watchlist-kanban"></div>
             </div>
         </div>
@@ -961,22 +951,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <script src="data.js?v=21"></script>
-    <script src="app.js?v=19"></script>
-    <script src="https://giscus.app/client.js"
-        data-repo="PaleoFaire/innovators-league"
-        data-repo-id=""
-        data-category="General"
-        data-category-id=""
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="dark_dimmed"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-    </script>
+    <script src="data.js?v=22"></script>
+    <script src="app.js?v=20"></script>
 </body>
 </html>
