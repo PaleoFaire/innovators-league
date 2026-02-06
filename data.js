@@ -8601,6 +8601,330 @@ const INNOVATOR_SCORE_METHODOLOGY = {
 };
 
 // ═══════════════════════════════════════════════════════════════════════════════
+// MOSAIC SCORES - CB INSIGHTS STYLE 0-1000 SCORING
+// ═══════════════════════════════════════════════════════════════════════════════
+// Pre-computed scores using the INNOVATOR_SCORE_METHODOLOGY above
+// Object format for quick lookup by company name
+// ═══════════════════════════════════════════════════════════════════════════════
+const MOSAIC_SCORES = {
+  // ─── ELITE (900+) ───
+  "Anduril Industries": {
+    total: 962,
+    momentum: 98, market: 95, technology: 92, team: 98,
+    trend: "accelerating",
+    priorScore: 945,
+    breakdown: "Highest momentum score driven by $78B secondary valuation, $28B+ backlog, and 10,000+ employees. Elite team score from Palmer Luckey track record and Founders Fund/a16z backing."
+  },
+  "SpaceX": {
+    total: 958,
+    momentum: 96, market: 98, technology: 95, team: 95,
+    trend: "steady",
+    priorScore: 955,
+    breakdown: "Dominant market position in launch and satellite connectivity. TRL-9 across multiple product lines. Starship development driving future upside."
+  },
+  "Palantir": {
+    total: 945,
+    momentum: 95, market: 92, technology: 94, team: 96,
+    trend: "accelerating",
+    priorScore: 920,
+    breakdown: "AIP platform driving 50%+ YoY growth. $400B+ market cap validates market leadership. FedRAMP High opens government expansion."
+  },
+  "OpenAI": {
+    total: 938,
+    momentum: 99, market: 95, technology: 88, team: 90,
+    trend: "steady",
+    priorScore: 935,
+    breakdown: "Highest momentum from $40B raise at $300B valuation. Market leadership in foundation models. Technology score reflects competitive pressure from Anthropic, Google."
+  },
+  "Anthropic": {
+    total: 932,
+    momentum: 95, market: 94, technology: 92, team: 92,
+    trend: "accelerating",
+    priorScore: 905,
+    breakdown: "$183B valuation and $13B raise in 2025. Constitutional AI differentiation. Strong enterprise traction with Amazon, Google partnerships."
+  },
+
+  // ─── EXCEPTIONAL (800-899) ───
+  "Shield AI": {
+    total: 895,
+    momentum: 92, market: 88, technology: 90, team: 90,
+    trend: "accelerating",
+    priorScore: 870,
+    breakdown: "Hivemind autonomy platform in active military use. $5.6B valuation with L3Harris strategic investment. GPS-denied flight capability is key differentiator."
+  },
+  "Physical Intelligence": {
+    total: 888,
+    momentum: 94, market: 85, technology: 88, team: 90,
+    trend: "accelerating",
+    priorScore: 820,
+    breakdown: "$600M Series B at $5.6B valuation. Foundation models for robotics is emerging category. Bezos Expeditions lead validates market timing."
+  },
+  "Saronic": {
+    total: 882,
+    momentum: 95, market: 82, technology: 78, team: 88,
+    trend: "accelerating",
+    priorScore: 780,
+    breakdown: "Fastest-rising score in database. $4B valuation, $600M+ raised in 6 months. USN program of record for autonomous warships."
+  },
+  "Figure": {
+    total: 875,
+    momentum: 90, market: 88, technology: 82, team: 88,
+    trend: "accelerating",
+    priorScore: 850,
+    breakdown: "$39B valuation with Microsoft lead. Figure 02 in BMW factory deployment. Commercial humanoid race leader."
+  },
+  "Waymo": {
+    total: 868,
+    momentum: 85, market: 92, technology: 95, team: 78,
+    trend: "steady",
+    priorScore: 865,
+    breakdown: "Only TRL-9 autonomous driving at scale. $126B valuation. 15M+ driverless miles in SF, Phoenix, LA. Expansion to Austin and Atlanta."
+  },
+  "Radiant": {
+    total: 855,
+    momentum: 88, market: 85, technology: 82, team: 85,
+    trend: "accelerating",
+    priorScore: 820,
+    breakdown: "$465M raised. DoE Reactor Pilot Program selected. 20-reactor Equinix pre-order validates data center nuclear demand."
+  },
+  "Skild AI": {
+    total: 852,
+    momentum: 92, market: 82, technology: 80, team: 88,
+    trend: "accelerating",
+    priorScore: 780,
+    breakdown: "$1.4B Series C at $14B+ valuation. Scalable robot brain platform. Lightspeed and a16z backing."
+  },
+  "Scale AI": {
+    total: 845,
+    momentum: 82, market: 88, technology: 85, team: 88,
+    trend: "steady",
+    priorScore: 840,
+    breakdown: "Essential AI data infrastructure. Defense and commercial AI lab contracts. $13.8B valuation with strong unit economics."
+  },
+  "Epirus": {
+    total: 838,
+    momentum: 88, market: 85, technology: 85, team: 80,
+    trend: "accelerating",
+    priorScore: 800,
+    breakdown: "$550M+ raised. Leonidas directed energy is only cost-effective counter-drone solution. Multiple DoD branch contracts."
+  },
+  "Cerebras": {
+    total: 832,
+    momentum: 82, market: 85, technology: 90, team: 80,
+    trend: "steady",
+    priorScore: 828,
+    breakdown: "Wafer-scale AI chips in production. Condor Galaxy clusters deployed. Differentiated architecture vs NVIDIA."
+  },
+  "Hadrian": {
+    total: 825,
+    momentum: 85, market: 80, technology: 82, team: 85,
+    trend: "accelerating",
+    priorScore: 790,
+    breakdown: "$1.6B valuation, a16z-led Series C. Automated defense manufacturing fills critical gap. Revenue growing rapidly."
+  },
+  "Boom Supersonic": {
+    total: 815,
+    momentum: 78, market: 85, technology: 80, team: 82,
+    trend: "steady",
+    priorScore: 810,
+    breakdown: "XB-1 demonstrator flight-tested. Overture program advancing. Only commercial supersonic program at scale."
+  },
+  "Joby Aviation": {
+    total: 808,
+    momentum: 75, market: 82, technology: 85, team: 82,
+    trend: "steady",
+    priorScore: 805,
+    breakdown: "FAA certification flight testing. Toyota and Delta partnerships. Leading eVTOL certification race."
+  },
+
+  // ─── STRONG (700-799) ───
+  "Commonwealth Fusion Systems": {
+    total: 792,
+    momentum: 78, market: 82, technology: 80, team: 82,
+    trend: "accelerating",
+    priorScore: 770,
+    breakdown: "World-record HTS magnets achieved. SPARC reactor under construction. $2B+ raised. MIT spinout credibility."
+  },
+  "Helion": {
+    total: 788,
+    momentum: 80, market: 80, technology: 72, team: 88,
+    trend: "steady",
+    priorScore: 785,
+    breakdown: "$5.4B valuation with Sam Altman lead. 2028 demo target for Microsoft PPA. Non-thermal approach is unique."
+  },
+  "Rocket Lab": {
+    total: 785,
+    momentum: 72, market: 82, technology: 92, team: 78,
+    trend: "steady",
+    priorScore: 782,
+    breakdown: "TRL-9 Electron operational. Neutron development on track. Only SpaceX competitor with orbital track record."
+  },
+  "Relativity Space": {
+    total: 772,
+    momentum: 70, market: 78, technology: 78, team: 82,
+    trend: "steady",
+    priorScore: 768,
+    breakdown: "Terran R development continuing. 3D-printed rocket technology proven. Pivoted from small to medium-lift."
+  },
+  "Applied Intuition": {
+    total: 768,
+    momentum: 75, market: 78, technology: 78, team: 80,
+    trend: "steady",
+    priorScore: 762,
+    breakdown: "$15B+ valuation. Defense and automotive autonomy software. IPO candidate for 2026-2027."
+  },
+  "Oklo": {
+    total: 758,
+    momentum: 78, market: 78, technology: 72, team: 75,
+    trend: "accelerating",
+    priorScore: 720,
+    breakdown: "Publicly traded (NYSE: OKLO). Meta partnership for nuclear campus. Equinix power agreement. NRC progress."
+  },
+  "Bedrock Robotics": {
+    total: 755,
+    momentum: 88, market: 72, technology: 68, team: 78,
+    trend: "accelerating",
+    priorScore: 680,
+    breakdown: "Fastest valuation growth: $0 to $1.75B in under 2 years. Autonomous excavators. CapitalG-led Series B."
+  },
+  "Fervo Energy": {
+    total: 748,
+    momentum: 72, market: 78, technology: 78, team: 75,
+    trend: "steady",
+    priorScore: 745,
+    breakdown: "Enhanced geothermal delivering power to Nevada grid. Google PPA validates technology. Proven approach."
+  },
+  "Varda Space Industries": {
+    total: 742,
+    momentum: 75, market: 75, technology: 78, team: 75,
+    trend: "steady",
+    priorScore: 738,
+    breakdown: "First space-manufactured pharmaceuticals returned to Earth. Founders Fund-led $150M Series C. Dual-use with DoD."
+  },
+  "Impulse Space": {
+    total: 738,
+    momentum: 72, market: 75, technology: 75, team: 78,
+    trend: "steady",
+    priorScore: 732,
+    breakdown: "Orbital maneuvering vehicle demonstrated. SpaceX Mafia (Tom Mueller). In-space transportation market leader."
+  },
+  "Zipline": {
+    total: 732,
+    momentum: 70, market: 75, technology: 85, team: 72,
+    trend: "steady",
+    priorScore: 728,
+    breakdown: "TRL-8 drone delivery operational globally. Platform 2 launching. Hospital and logistics deployments."
+  },
+  "Collaborative Robotics": {
+    total: 725,
+    momentum: 78, market: 70, technology: 72, team: 75,
+    trend: "accelerating",
+    priorScore: 690,
+    breakdown: "Proxie cobots at Mayo Clinic, Maersk, DoD. $100M Series B from General Catalyst, Sequoia. Rapid deployment."
+  },
+  "Castelion": {
+    total: 718,
+    momentum: 80, market: 72, technology: 68, team: 72,
+    trend: "accelerating",
+    priorScore: 680,
+    breakdown: "$450M+ raised at $2.8B valuation. Blackbeard missile system. Hypersonic capability differentiation."
+  },
+  "Chaos Industries": {
+    total: 712,
+    momentum: 82, market: 70, technology: 68, team: 70,
+    trend: "accelerating",
+    priorScore: 660,
+    breakdown: "$785M across Series C & D. ASTRIA radar and Forterra partnership. Counter-drone radar leadership."
+  },
+
+  // ─── PROMISING (600-699) ───
+  "Hermeus": {
+    total: 695,
+    momentum: 70, market: 72, technology: 68, team: 72,
+    trend: "steady",
+    priorScore: 690,
+    breakdown: "Quarterhorse hypersonic demonstrator in testing. Air Force contracts. Mach 5+ target speed."
+  },
+  "Groq": {
+    total: 688,
+    momentum: 75, market: 72, technology: 70, team: 65,
+    trend: "accelerating",
+    priorScore: 650,
+    breakdown: "LPU chips enabling fastest LLM inference. $2.8B valuation. Cloud service launched."
+  },
+  "Astranis": {
+    total: 682,
+    momentum: 70, market: 72, technology: 72, team: 68,
+    trend: "steady",
+    priorScore: 678,
+    breakdown: "$3.5B valuation. MicroGEO satellites operational. a16z-led Series D."
+  },
+  "Lightmatter": {
+    total: 678,
+    momentum: 72, market: 70, technology: 72, team: 65,
+    trend: "steady",
+    priorScore: 672,
+    breakdown: "Photonic AI chips differentiated from silicon. $1.2B+ valuation. GV-led funding."
+  },
+  "Neros": {
+    total: 672,
+    momentum: 78, market: 68, technology: 65, team: 68,
+    trend: "accelerating",
+    priorScore: 620,
+    breakdown: "Americas leading FPV drone manufacturer. ~1,000 drones/month. US Armys primary FPV manufacturer."
+  },
+  "Pano AI": {
+    total: 668,
+    momentum: 72, market: 70, technology: 75, team: 62,
+    trend: "accelerating",
+    priorScore: 640,
+    breakdown: "Wildfire detection across 30M acres. 250+ agencies. TRL-7 with operational deployment."
+  },
+  "KoBold Metals": {
+    total: 662,
+    momentum: 68, market: 72, technology: 68, team: 65,
+    trend: "steady",
+    priorScore: 658,
+    breakdown: "AI exploration validated with Zambia lithium discovery. Bill Gates backing. Critical minerals play."
+  },
+  "Colossal Biosciences": {
+    total: 655,
+    momentum: 68, market: 68, technology: 62, team: 72,
+    trend: "steady",
+    priorScore: 650,
+    breakdown: "De-extinction genetic engineering. $150M+ raised. Mammoth and dodo projects advancing."
+  },
+  "Terraform Industries": {
+    total: 648,
+    momentum: 68, market: 68, technology: 62, team: 68,
+    trend: "steady",
+    priorScore: 642,
+    breakdown: "Atmospheric CO2 to synthetic fuel. Lab demonstration complete. Founders Fund backing."
+  },
+  "Neuralink": {
+    total: 642,
+    momentum: 72, market: 65, technology: 65, team: 68,
+    trend: "accelerating",
+    priorScore: 620,
+    breakdown: "$9.7B valuation. First human implant successful. FDA breakthrough device designation."
+  },
+  "AstroForge": {
+    total: 628,
+    momentum: 62, market: 68, technology: 55, team: 68,
+    trend: "steady",
+    priorScore: 625,
+    breakdown: "Asteroid mining technology in initial testing. Space Force interest for critical minerals."
+  },
+  "PsiQuantum": {
+    total: 622,
+    momentum: 58, market: 68, technology: 62, team: 65,
+    trend: "steady",
+    priorScore: 618,
+    breakdown: "Photonic quantum computing approach. $3.2B valuation. GlobalFoundries manufacturing partnership."
+  }
+};
+
+// ═══════════════════════════════════════════════════════════════════════════════
 // SECTOR MOMENTUM INDEX - CALCULATED METHODOLOGY
 // ═══════════════════════════════════════════════════════════════════════════════
 const SECTOR_MOMENTUM_METHODOLOGY = {
