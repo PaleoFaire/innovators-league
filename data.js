@@ -47,10 +47,10 @@ const SEC_FILINGS_LIVE = [
 const LAST_UPDATED = '2026-02-06';
 
 const SECTORS = {
-  'Defense & Security': { icon: '🛡️', color: '#dc2626', description: 'Autonomous drones, counter-drone systems, defense AI, and next-generation weapons platforms.', trend: 'Defense tech funding hit $25B in 2025. The Pentagon's Replicator initiative is accelerating autonomous systems procurement. Counter-drone is the hottest sub-sector.' },
+  'Defense & Security': { icon: '🛡️', color: '#dc2626', description: 'Autonomous drones, counter-drone systems, defense AI, and next-generation weapons platforms.', trend: 'Defense tech funding hit $25B in 2025. The Pentagon\'s Replicator initiative is accelerating autonomous systems procurement. Counter-drone is the hottest sub-sector.' },
   'Nuclear Energy': { icon: '⚛️', color: '#f59e0b', description: 'Small modular reactors, microreactors, nuclear fuel, and next-gen fission and fusion energy.', trend: 'Nuclear renaissance is real — NRC applications are at 20-year highs. Data center power demand is the unexpected catalyst driving SMR and microreactor timelines forward.' },
   'Space & Aerospace': { icon: '🚀', color: '#3b82f6', description: 'Orbital launch, satellite infrastructure, space manufacturing, and aerospace innovation.', trend: 'Launch costs continue to plummet. The real money is moving to in-orbit services, space manufacturing, and satellite constellations for defense and connectivity.' },
-  'Supersonic & Hypersonic': { icon: '✈️', color: '#6366f1', description: 'Supersonic jets, hypersonic vehicles, and next-generation propulsion systems.', trend: 'Boom Supersonic's Overture program is pushing toward certification. DoD hypersonic programs are driving dual-use propulsion innovation.' },
+  'Supersonic & Hypersonic': { icon: '✈️', color: '#6366f1', description: 'Supersonic jets, hypersonic vehicles, and next-generation propulsion systems.', trend: 'Boom Supersonic\'s Overture program is pushing toward certification. DoD hypersonic programs are driving dual-use propulsion innovation.' },
   'AI & Software': { icon: '🤖', color: '#8b5cf6', description: 'Artificial intelligence, robotics software, and autonomous systems.', trend: 'AI infrastructure spending exceeds $200B. The new battleground is AI agents and vertical-specific models. Open-source vs. closed-source race intensifies.' },
   'Robotics & Manufacturing': { icon: '🏭', color: '#14b8a6', description: 'Industrial robots, automated factories, and advanced manufacturing.', trend: 'Reshoring is creating massive demand for automated manufacturing. General-purpose humanoid robots are the next frontier with multiple companies racing to commercialize.' },
   'Biotech & Health': { icon: '🧬', color: '#ec4899', description: 'Longevity research, genomics, prosthetics, and life sciences.', trend: 'GLP-1 drugs are reshaping healthcare economics. AI-driven drug discovery is cutting timelines by 50%. Longevity science is moving from fringe to mainstream.' },
@@ -81,7 +81,7 @@ const COMPANIES = [
     valuation: '$78B+',
     rosLink: 'https://rationaloptimistsociety.substack.com/p/rational-optimist-awards-part-2',
     tags: ['autonomous drones', 'AI', 'defense', 'sensors'],
-    insight: 'Anduril's Lattice OS is becoming the de facto operating system for autonomous defense. Their vertical integration strategy mirrors early SpaceX — own the stack, own the margin. Watch for international expansion as Five Eyes allies seek US-made alternatives.',
+    insight: 'Anduril\'s Lattice OS is becoming the de facto operating system for autonomous defense. Their vertical integration strategy mirrors early SpaceX — own the stack, own the margin. Watch for international expansion as Five Eyes allies seek US-made alternatives.',
     signal: 'hot',
     scores: { team: 10, traction: 10, techMoat: 9, market: 9, momentum: 10 },
     competitors: ['Shield AI', 'Skydio', 'Chaos Industries'],
@@ -134,7 +134,7 @@ const COMPANIES = [
     valuation: '$1.35B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['directed energy', 'counter-drone', 'defense'],
-    insight: 'Directed energy is the only cost-effective answer to drone swarms — you can't spend a $1M missile on a $500 drone. Epirus's Leonidas changes the economics of air defense fundamentally.',
+    insight: 'Directed energy is the only cost-effective answer to drone swarms — you can\'t spend a $1M missile on a $500 drone. Epirus\'s Leonidas changes the economics of air defense fundamentally.',
     signal: 'hot',
     scores: { team: 8, traction: 8, techMoat: 9, market: 9, momentum: 9 },
     competitors: [],
@@ -155,7 +155,7 @@ const COMPANIES = [
     valuation: '$4.0B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['autonomous', 'naval', 'shipbuilding', 'defense'],
-    insight: 'Saronic's 'shipyard as startup' model is revolutionary — they're building autonomous naval vessels on software development timelines, not traditional shipbuilding cycles. The Navy desperately needs this speed.',
+    insight: 'Saronic\'s 'shipyard as startup' model is revolutionary — they\'re building autonomous naval vessels on software development timelines, not traditional shipbuilding cycles. The Navy desperately needs this speed.',
     signal: 'hot',
     scores: { team: 8, traction: 9, techMoat: 8, market: 9, momentum: 10 },
     competitors: [],
@@ -165,7 +165,7 @@ const COMPANIES = [
   {
     name: 'Neros',
     sector: 'Defense & Security',
-    description: 'America's leading FPV drone manufacturer. Produces ~1,000 drones monthly. Selected as US Army's primary FPV manufacturer for the Attritable Systems program. Delivered 6,000 Archer drones to Ukraine.',
+    description: 'America\'s leading FPV drone manufacturer. Produces ~1,000 drones monthly. Selected as US Army\'s primary FPV manufacturer for the Attritable Systems program. Delivered 6,000 Archer drones to Ukraine.',
     founder: 'Soren Monroe-Anderson, Olaf Hichwa',
     location: 'El Segundo, CA',
     state: 'CA',
@@ -251,7 +251,7 @@ const COMPANIES = [
     valuation: '$2.2B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['autonomous drones', 'public safety', 'defense'],
-    insight: 'Skydio's position as the only major US-made drone company is a regulatory moat that's becoming a fortress. As DJI bans spread, every US government agency needs a domestic alternative.',
+    insight: 'Skydio\'s position as the only major US-made drone company is a regulatory moat that\'s becoming a fortress. As DJI bans spread, every US government agency needs a domestic alternative.',
     signal: 'rising',
     scores: { team: 8, traction: 8, techMoat: 7, market: 9, momentum: 8 },
     competitors: ['Anduril Industries'],
@@ -323,7 +323,7 @@ const COMPANIES = [
     valuation: '$1.5B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['intelligence', 'analysis', 'defense', 'profitable'],
-    insight: 'Vannevar Labs is one of the few defense tech companies that's actually profitable. $80M+ ACV with DoD contracts shows real traction, not just hype.',
+    insight: 'Vannevar Labs is one of the few defense tech companies that\'s actually profitable. $80M+ ACV with DoD contracts shows real traction, not just hype.',
     signal: 'rising',
     scores: { team: 8, traction: 9, techMoat: 7, market: 9, momentum: 8 },
     competitors: ['Palantir', 'Primer AI'],
@@ -375,7 +375,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: 'https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings',
     tags: ['microreactor', 'nuclear', 'portable', 'defense'],
-    insight: 'Radiant's portable microreactor could be the most important energy product of the decade for defense. 1.2MW that fits on a truck and powers a forward operating base without fuel convoys — that's a game-changer.',
+    insight: 'Radiant\'s portable microreactor could be the most important energy product of the decade for defense. 1.2MW that fits on a truck and powers a forward operating base without fuel convoys — that\'s a game-changer.',
     signal: 'hot',
     scores: { team: 9, traction: 8, techMoat: 9, market: 9, momentum: 9 },
     competitors: ['Oklo', 'NuScale'],
@@ -472,7 +472,7 @@ const COMPANIES = [
     valuation: '$10B+ (market cap)',
     rosLink: 'https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings',
     tags: ['SMR', 'nuclear', 'data centers', 'Meta', 'public'],
-    insight: 'Oklo's Meta partnership is the validation signal — Big Tech is betting on nuclear for AI data center power. Being publicly traded gives them a capital advantage over private nuclear startups.',
+    insight: 'Oklo\'s Meta partnership is the validation signal — Big Tech is betting on nuclear for AI data center power. Being publicly traded gives them a capital advantage over private nuclear startups.',
     signal: 'rising',
     scores: { team: 8, traction: 7, techMoat: 7, market: 9, momentum: 8 },
     competitors: ['Radiant', 'NuScale'],
@@ -560,7 +560,7 @@ const COMPANIES = [
     valuation: '$800B',
     rosLink: 'https://rationaloptimistsociety.substack.com/p/rational-optimist-awards-part-2',
     tags: ['rockets', 'satellites', 'Starlink', 'space'],
-    insight: 'SpaceX isn't just a launch company — Starlink is becoming a $10B+ revenue business that funds the Mars mission. The vertical integration from engines to orbit to end-user connectivity is unprecedented in any industry.',
+    insight: 'SpaceX isn\'t just a launch company — Starlink is becoming a $10B+ revenue business that funds the Mars mission. The vertical integration from engines to orbit to end-user connectivity is unprecedented in any industry.',
     signal: 'established',
     scores: { team: 10, traction: 10, techMoat: 10, market: 10, momentum: 10 },
     competitors: ['Rocket Lab', 'Blue Origin'],
@@ -587,7 +587,7 @@ const COMPANIES = [
     valuation: '$45B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['rockets', 'satellites', 'launch'],
-    insight: 'Rocket Lab is the clear #2 in launch and pulling away. The $816M SDA contract proves they can compete for national security missions. Peter Beck's end-to-end space company vision is materializing.',
+    insight: 'Rocket Lab is the clear #2 in launch and pulling away. The $816M SDA contract proves they can compete for national security missions. Peter Beck\'s end-to-end space company vision is materializing.',
     signal: 'established',
     scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 9 },
     competitors: ['SpaceX'],
@@ -668,7 +668,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['rockets', 'launch', '3D printing'],
-    insight: 'Eric Schmidt's acquisition and pivot toward space-based data centers is a bold bet. If compute needs to move to orbit for energy or latency reasons, Relativity has the manufacturing tech to build it.',
+    insight: 'Eric Schmidt\'s acquisition and pivot toward space-based data centers is a bold bet. If compute needs to move to orbit for energy or latency reasons, Relativity has the manufacturing tech to build it.',
     signal: 'watch',
     scores: { team: 7, traction: 5, techMoat: 8, market: 8, momentum: 6 },
     competitors: ['SpaceX', 'Rocket Lab'],
@@ -708,7 +708,7 @@ const COMPANIES = [
   {
     name: 'Vast',
     sector: 'Space & Aerospace',
-    description: 'Building the world's first commercial space station. Haven Demo launched Nov 2025 on SpaceX rideshare. Haven-1 targeted for May 2026 launch. In-Q-Tel investment.',
+    description: 'Building the world\'s first commercial space station. Haven Demo launched Nov 2025 on SpaceX rideshare. Haven-1 targeted for May 2026 launch. In-Q-Tel investment.',
     founder: 'Max Haot, Jed McCaleb',
     location: 'Long Beach, CA',
     state: 'CA',
@@ -738,7 +738,7 @@ const COMPANIES = [
   {
     name: 'Astranis',
     sector: 'Space & Aerospace',
-    description: 'Small geostationary satellites that deliver affordable internet to underserved regions. MicroGEO satellites where fiber doesn't reach.',
+    description: 'Small geostationary satellites that deliver affordable internet to underserved regions. MicroGEO satellites where fiber doesn\'t reach.',
     founder: 'John Gedmark',
     location: 'San Francisco, CA',
     state: 'CA',
@@ -749,7 +749,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['GEO satellites', 'internet', 'connectivity'],
-    insight: 'Astranis's MicroGEO approach is clever — GEO satellites where Starlink's LEO constellation can't economically serve. Dedicated bandwidth for specific countries and regions is a defensible niche.',
+    insight: 'Astranis\'s MicroGEO approach is clever — GEO satellites where Starlink\'s LEO constellation can\'t economically serve. Dedicated bandwidth for specific countries and regions is a defensible niche.',
     signal: 'rising',
     scores: { team: 8, traction: 7, techMoat: 7, market: 8, momentum: 7 },
     competitors: [],
@@ -843,7 +843,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: 'https://rationaloptimistsociety.substack.com/p/dude-wheres-my-supersonic-jet',
     tags: ['hypersonic', 'Mach 5', 'military', 'aviation'],
-    insight: 'Hermeus's military-first strategy is smart — DoD will pay for Mach 5 capabilities that commercial aviation won't need for decades. The Chimera engine's turbine-to-ramjet transition is the key technical risk.',
+    insight: 'Hermeus\'s military-first strategy is smart — DoD will pay for Mach 5 capabilities that commercial aviation won\'t need for decades. The Chimera engine\'s turbine-to-ramjet transition is the key technical risk.',
     signal: 'rising',
     scores: { team: 8, traction: 7, techMoat: 9, market: 8, momentum: 8 },
     competitors: ['Boom Supersonic'],
@@ -936,7 +936,7 @@ const COMPANIES = [
     valuation: '$39B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['humanoid robots', 'AI', 'manufacturing'],
-    insight: 'Figure's $39B valuation makes it the most valuable humanoid robotics company in history. The OpenAI partnership gives them the best AI model integration of any robotics company. Commercial deployments at BMW validate the path.',
+    insight: 'Figure\'s $39B valuation makes it the most valuable humanoid robotics company in history. The OpenAI partnership gives them the best AI model integration of any robotics company. Commercial deployments at BMW validate the path.',
     signal: 'hot',
     scores: { team: 9, traction: 8, techMoat: 8, market: 10, momentum: 10 },
     competitors: ['Tesla Optimus', '1X', 'Apptronik'],
@@ -965,7 +965,7 @@ const COMPANIES = [
   {
     name: 'Field AI',
     sector: 'AI & Software',
-    description: 'General-purpose embodied AI foundation models for robots in complex industrial environments. $405M raised at $2B valuation. SoCal's own robotics lab to rival Bay Area.',
+    description: 'General-purpose embodied AI foundation models for robots in complex industrial environments. $405M raised at $2B valuation. SoCal\'s own robotics lab to rival Bay Area.',
     founder: 'Ali Agha',
     location: 'Irvine, CA',
     state: 'CA',
@@ -1006,7 +1006,7 @@ const COMPANIES = [
     valuation: '$400B+',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['data analytics', 'AI', 'defense', 'government'],
-    insight: 'Palantir's AIP platform is making LLMs usable in classified environments — a moat no other company can replicate at scale. The government-to-commercial flywheel is finally spinning. Now a $400B+ company.',
+    insight: 'Palantir\'s AIP platform is making LLMs usable in classified environments — a moat no other company can replicate at scale. The government-to-commercial flywheel is finally spinning. Now a $400B+ company.',
     signal: 'established',
     scores: { team: 9, traction: 10, techMoat: 10, market: 9, momentum: 9 },
     competitors: [],
@@ -1021,7 +1021,7 @@ const COMPANIES = [
   {
     name: 'Cognition',
     sector: 'AI & Software',
-    description: 'Building Devin, the world's first AI software engineer. Autonomous coding agent that can plan, write, debug, and deploy software end-to-end.',
+    description: 'Building Devin, the world\'s first AI software engineer. Autonomous coding agent that can plan, write, debug, and deploy software end-to-end.',
     founder: '',
     location: 'San Francisco, CA',
     state: 'CA',
@@ -1076,7 +1076,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['robotic manufacturing', 'metal forming', 'automotive'],
-    insight: 'Machina Labs' roboforming tech makes metal shaping as flexible as 3D printing but at production scale. The Toyota partnership validates the tech for automotive; the Air Force contract proves defense demand.',
+    insight: 'Machina Labs roboforming tech makes metal shaping as flexible as 3D printing but at production scale. The Toyota partnership validates the tech for automotive; the Air Force contract proves defense demand.',
     signal: 'rising',
     scores: { team: 8, traction: 7, techMoat: 8, market: 8, momentum: 8 },
     competitors: ['Hadrian'],
@@ -1357,7 +1357,7 @@ const COMPANIES = [
     valuation: '$5.4B',
     rosLink: 'https://rationaloptimistsociety.substack.com/p/ridley-are-we-finally-about-to-crack',
     tags: ['fusion', 'field-reversed', 'energy'],
-    insight: 'Helion's direct electricity conversion from fusion (no steam turbine) could be transformational if it works. The Microsoft PPA gives them a committed buyer and a deadline — the best combination for hard tech.',
+    insight: 'Helion\'s direct electricity conversion from fusion (no steam turbine) could be transformational if it works. The Microsoft PPA gives them a committed buyer and a deadline — the best combination for hard tech.',
     signal: 'rising',
     scores: { team: 8, traction: 7, techMoat: 9, market: 10, momentum: 8 },
     competitors: ['TAE Technologies', 'Xcimer Energy', 'Commonwealth Fusion'],
@@ -1372,7 +1372,7 @@ const COMPANIES = [
   {
     name: 'TAE Technologies',
     sector: 'Climate & Energy',
-    description: 'Field-reversed configuration fusion using proton-boron fuel. Partnered with Japan's NIFS. First proton-boron fusion in magnetically confined plasma.',
+    description: 'Field-reversed configuration fusion using proton-boron fuel. Partnered with Japan\'s NIFS. First proton-boron fusion in magnetically confined plasma.',
     founder: '',
     location: 'Foothill Ranch, CA',
     state: 'CA',
@@ -1479,7 +1479,7 @@ const COMPANIES = [
   {
     name: 'Zipline',
     sector: 'Drones & Autonomous',
-    description: 'World's most mature autonomous delivery system. Delivers 70% of Rwanda's blood supply. 120+ million autonomous miles flown. Walmart and Chipotle partnerships in Dallas.',
+    description: 'World\'s most mature autonomous delivery system. Delivers 70% of Rwanda\'s blood supply. 120+ million autonomous miles flown. Walmart and Chipotle partnerships in Dallas.',
     founder: '',
     location: 'South San Francisco, CA',
     state: 'CA',
@@ -1524,7 +1524,7 @@ const COMPANIES = [
   {
     name: 'Thoron',
     sector: 'Drones & Autonomous',
-    description: 'American drone manufacturer positioned as the alternative to China's DJI. Building the domestic commercial drone supply chain.',
+    description: 'American drone manufacturer positioned as the alternative to China\'s DJI. Building the domestic commercial drone supply chain.',
     founder: 'Thayne Kollmorgen',
     location: 'San Francisco, CA',
     state: 'CA',
@@ -1556,7 +1556,7 @@ const COMPANIES = [
   {
     name: 'Cerebras',
     sector: 'Chips & Semiconductors',
-    description: 'World's largest computer chips, dinner plate-sized with 4+ trillion transistors. Designed specifically for running AI models at unprecedented speed. Filed for IPO at $8.1B+ valuation with talks of $22B. Major Middle East and enterprise deals.',
+    description: 'World\'s largest computer chips, dinner plate-sized with 4+ trillion transistors. Designed specifically for running AI models at unprecedented speed. Filed for IPO at $8.1B+ valuation with talks of $22B. Major Middle East and enterprise deals.',
     founder: 'Andrew Feldman',
     location: 'Sunnyvale, CA',
     state: 'CA',
@@ -1567,7 +1567,7 @@ const COMPANIES = [
     valuation: '$8.1B+',
     rosLink: 'https://rationaloptimistsociety.substack.com/p/the-chip-rebellion-is-on',
     tags: ['AI chips', 'wafer-scale', 'semiconductors'],
-    insight: 'Cerebras' wafer-scale approach is the most radical chip architecture bet in the AI hardware race. If they IPO successfully at $22B+, it validates an entirely new computing paradigm beyond GPUs.',
+    insight: 'Cerebras wafer-scale approach is the most radical chip architecture bet in the AI hardware race. If they IPO successfully at $22B+, it validates an entirely new computing paradigm beyond GPUs.',
     signal: 'hot',
     scores: { team: 8, traction: 8, techMoat: 9, market: 9, momentum: 9 },
     competitors: ['NVIDIA', 'Etched', 'Groq'],
@@ -1895,7 +1895,7 @@ const COMPANIES = [
     valuation: '$29B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['AI data', 'training data', 'defense', 'ML'],
-    insight: 'Scale AI is the invisible infrastructure layer powering every major AI model. Their defense pivot with Scale Donovan is positioning them as the 'Palantir for AI data.' At $29B, they're priced for category dominance.',
+    insight: 'Scale AI is the invisible infrastructure layer powering every major AI model. Their defense pivot with Scale Donovan is positioning them as the 'Palantir for AI data.' At $29B, they\'re priced for category dominance.',
     signal: 'hot',
     scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 9 },
     competitors: ['Labelbox', 'Appen'],
@@ -2069,7 +2069,7 @@ const COMPANIES = [
   {
     name: 'Biofire',
     sector: 'Defense & Security',
-    description: 'Smart firearm technology with biometric safety systems. Building the world's safest personal defense weapon using fingerprint and facial recognition.',
+    description: 'Smart firearm technology with biometric safety systems. Building the world\'s safest personal defense weapon using fingerprint and facial recognition.',
     founder: 'Kai Kloepfer',
     location: 'Broomfield, CO',
     state: 'CO',
@@ -2101,7 +2101,7 @@ const COMPANIES = [
   {
     name: 'Aalyria',
     sector: 'Space & Aerospace',
-    description: 'Multi-domain mesh networking securing communications in contested environments. Originally developed at Google X as Project Loon's networking stack. Defense-grade satellite communications.',
+    description: 'Multi-domain mesh networking securing communications in contested environments. Originally developed at Google X as Project Loon\'s networking stack. Defense-grade satellite communications.',
     founder: '',
     location: 'Livermore, CA',
     state: 'CA',
@@ -2191,7 +2191,7 @@ const COMPANIES = [
   {
     name: 'Axiom Space',
     sector: 'Space & Aerospace',
-    description: 'Building the world's first commercial space station. Already attached commercial modules to ISS. Planning free-flying station by 2028. NASA selected Axiom for ISS successor.',
+    description: 'Building the world\'s first commercial space station. Already attached commercial modules to ISS. Planning free-flying station by 2028. NASA selected Axiom for ISS successor.',
     founder: 'Michael Suffredini',
     location: 'Houston, TX',
     state: 'TX',
@@ -2206,7 +2206,7 @@ const COMPANIES = [
   {
     name: 'Astrolab',
     sector: 'Space & Aerospace',
-    description: 'Building FLEX, a modular lunar rover designed to carry diverse payloads on the Moon's surface. Selected by NASA for Artemis program lunar logistics.',
+    description: 'Building FLEX, a modular lunar rover designed to carry diverse payloads on the Moon\'s surface. Selected by NASA for Artemis program lunar logistics.',
     founder: 'Jaret Matthews',
     location: 'Hawthorne, CA',
     state: 'CA',
@@ -2279,7 +2279,7 @@ const COMPANIES = [
     valuation: '$15B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['simulation', 'autonomous', 'AI'],
-    insight: 'Applied Intuition is becoming the default simulation platform for every company building autonomous systems. At $15B valuation, they're one of the most valuable enterprise AI companies. Defense applications are accelerating growth.',
+    insight: 'Applied Intuition is becoming the default simulation platform for every company building autonomous systems. At $15B valuation, they\'re one of the most valuable enterprise AI companies. Defense applications are accelerating growth.',
     signal: 'hot',
     scores: { team: 9, traction: 9, techMoat: 9, market: 9, momentum: 9 },
     competitors: [],
@@ -2288,7 +2288,7 @@ const COMPANIES = [
   {
     name: 'Anthropic',
     sector: 'AI & Software',
-    description: 'AI safety company building Claude, one of the world's leading large language models. $183B valuation (closed) with $350B round pending. $9B+ ARR. Focused on building reliable, interpretable, and steerable AI systems.',
+    description: 'AI safety company building Claude, one of the world\'s leading large language models. $183B valuation (closed) with $350B round pending. $9B+ ARR. Focused on building reliable, interpretable, and steerable AI systems.',
     founder: 'Dario Amodei, Daniela Amodei',
     location: 'San Francisco, CA',
     state: 'CA',
@@ -2299,7 +2299,7 @@ const COMPANIES = [
     valuation: '$183B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['AI safety', 'LLMs', 'Claude'],
-    insight: 'Anthropic's safety-first positioning is becoming a competitive advantage, not a constraint. Enterprise customers and governments increasingly prefer AI they can trust. The Constitutional AI approach is the moat. $9B+ ARR and $350B pending round signal category-defining trajectory.',
+    insight: 'Anthropic\'s safety-first positioning is becoming a competitive advantage, not a constraint. Enterprise customers and governments increasingly prefer AI they can trust. The Constitutional AI approach is the moat. $9B+ ARR and $350B pending round signal category-defining trajectory.',
     signal: 'hot',
     scores: { team: 10, traction: 10, techMoat: 9, market: 10, momentum: 10 },
     competitors: ['OpenAI', 'Mistral AI', 'Google DeepMind'],
@@ -2320,7 +2320,7 @@ const COMPANIES = [
     valuation: '$29.3B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['AI coding', 'IDE', 'developer tools'],
-    insight: 'Cursor has achieved what GitHub Copilot couldn't — making AI the primary driver of code creation, not just a suggestion engine. At $29.3B and $1B+ ARR with 9,900% YoY growth, it's the fastest-growing developer tool in history.',
+    insight: 'Cursor has achieved what GitHub Copilot couldn\'t — making AI the primary driver of code creation, not just a suggestion engine. At $29.3B and $1B+ ARR with 9,900% YoY growth, it\'s the fastest-growing developer tool in history.',
     signal: 'hot',
     scores: { team: 9, traction: 10, techMoat: 8, market: 10, momentum: 10 },
     competitors: ['Cognition', 'GitHub Copilot', 'Windsurf'],
@@ -2993,7 +2993,7 @@ const COMPANIES = [
   {
     name: 'Synthesis',
     sector: 'Consumer Tech',
-    description: 'AI-powered tutoring platform for children. Building the future of education with personalized AI tutors that adapt to each student's learning style and pace.',
+    description: 'AI-powered tutoring platform for children. Building the future of education with personalized AI tutors that adapt to each student\'s learning style and pace.',
     founder: '',
     location: 'Austin, TX',
     state: 'TX',
@@ -3008,7 +3008,7 @@ const COMPANIES = [
   {
     name: 'Atom Limbs',
     sector: 'Consumer Tech',
-    description: 'Building the world's most advanced prosthetic arm controlled by thought. Mind-controlled bionic limbs with human-like dexterity using non-invasive neural interfaces.',
+    description: 'Building the world\'s most advanced prosthetic arm controlled by thought. Mind-controlled bionic limbs with human-like dexterity using non-invasive neural interfaces.',
     founder: '',
     location: 'San Francisco, CA',
     state: 'CA',
@@ -3049,7 +3049,7 @@ const COMPANIES = [
   {
     name: 'Saildrone',
     sector: 'Defense & Security',
-    description: 'Autonomous wind and solar-powered ocean drones for maritime ISR, surveillance, ocean data collection, and climate monitoring. Operates the world's largest fleet of uncrewed surface vehicles.',
+    description: 'Autonomous wind and solar-powered ocean drones for maritime ISR, surveillance, ocean data collection, and climate monitoring. Operates the world\'s largest fleet of uncrewed surface vehicles.',
     founder: 'Richard Jenkins',
     location: 'Alameda, CA',
     state: 'CA',
@@ -3321,7 +3321,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: '',
     tags: ['fusion', 'inertial confinement', 'clean energy'],
-    insight: 'Pacific Fusion's $900M Series A is one of the largest ever for a fusion company. The milestone-based funding structure de-risks investor capital while allowing massive scale.',
+    insight: 'Pacific Fusion\'s $900M Series A is one of the largest ever for a fusion company. The milestone-based funding structure de-risks investor capital while allowing massive scale.',
     signal: 'hot',
     scores: { team: 9, traction: 5, techMoat: 9, market: 10, momentum: 9 },
     competitors: ['Helion', 'Commonwealth Fusion Systems'],
@@ -3547,7 +3547,7 @@ const COMPANIES = [
   {
     name: 'OpenAI',
     sector: 'AI & Software',
-    description: 'Creator of GPT series and ChatGPT. The world's leading frontier AI lab. $300B valuation (closed), targeting $830B in upcoming $100B round. Transitioned to for-profit capped entity. Reshaping every industry.',
+    description: 'Creator of GPT series and ChatGPT. The world\'s leading frontier AI lab. $300B valuation (closed), targeting $830B in upcoming $100B round. Transitioned to for-profit capped entity. Reshaping every industry.',
     founder: 'Sam Altman, Greg Brockman, Ilya Sutskever',
     location: 'San Francisco, CA',
     state: 'CA',
@@ -3558,7 +3558,7 @@ const COMPANIES = [
     valuation: '$300B+',
     rosLink: '',
     tags: ['AGI', 'LLM', 'ChatGPT', 'frontier AI'],
-    insight: 'OpenAI's $300B+ valuation and push toward $830B make it the most valuable private company in history. The SoftBank-led $40B round and upcoming $100B mega-round signal that AGI development is now a nation-state-level capital race.',
+    insight: 'OpenAI\'s $300B+ valuation and push toward $830B make it the most valuable private company in history. The SoftBank-led $40B round and upcoming $100B mega-round signal that AGI development is now a nation-state-level capital race.',
     signal: 'established',
     scores: { team: 10, traction: 10, techMoat: 9, market: 10, momentum: 10 },
     competitors: ['Anthropic', 'Mistral AI', 'Google DeepMind'],
@@ -3573,7 +3573,7 @@ const COMPANIES = [
   {
     name: 'Mistral AI',
     sector: 'AI & Software',
-    description: 'European frontier AI lab building open-weight and commercial large language models. France's AI champion competing with OpenAI and Anthropic.',
+    description: 'European frontier AI lab building open-weight and commercial large language models. France\'s AI champion competing with OpenAI and Anthropic.',
     founder: 'Arthur Mensch, Guillaume Lample, Timothée Lacroix',
     location: 'Paris, France',
     state: 'INT',
@@ -3599,7 +3599,7 @@ const COMPANIES = [
     valuation: '$2.8B',
     rosLink: '',
     tags: ['AI chips', 'inference', 'LPU'],
-    insight: 'Groq's LPU architecture delivers 10x faster inference than GPU-based systems. If inference costs determine AI economics (and they do), Groq could own the inference layer the way NVIDIA owns training.',
+    insight: 'Groq\'s LPU architecture delivers 10x faster inference than GPU-based systems. If inference costs determine AI economics (and they do), Groq could own the inference layer the way NVIDIA owns training.',
     signal: 'rising',
     scores: { team: 8, traction: 7, techMoat: 9, market: 9, momentum: 8 },
     competitors: ['Cerebras'],
@@ -3620,7 +3620,7 @@ const COMPANIES = [
     valuation: '$14B+',
     rosLink: '',
     tags: ['foundation model', 'robotics', 'AI'],
-    insight: 'Skild's $14B+ valuation makes it one of the most valuable robotics AI companies in the world. The CMU robotics pedigree and massive funding give them runway to compete head-to-head with Physical Intelligence and Figure AI.',
+    insight: 'Skild\'s $14B+ valuation makes it one of the most valuable robotics AI companies in the world. The CMU robotics pedigree and massive funding give them runway to compete head-to-head with Physical Intelligence and Figure AI.',
     signal: 'hot',
     scores: { team: 9, traction: 7, techMoat: 9, market: 10, momentum: 10 },
     competitors: ['Physical Intelligence', 'Figure AI', '1X'],
@@ -3642,7 +3642,7 @@ const COMPANIES = [
     valuation: '$10B+',
     rosLink: '',
     tags: ['AI data centers', 'energy', 'infrastructure'],
-    insight: 'Crusoe's pivot from Bitcoin mining to AI data centers was prescient. Managing Stargate's $500B buildout positions them at the center of AI infrastructure — the picks-and-shovels play of the AI era. Projected $2B revenue in 2026.',
+    insight: 'Crusoe\'s pivot from Bitcoin mining to AI data centers was prescient. Managing Stargate\'s $500B buildout positions them at the center of AI infrastructure — the picks-and-shovels play of the AI era. Projected $2B revenue in 2026.',
     signal: 'hot',
     scores: { team: 9, traction: 9, techMoat: 8, market: 10, momentum: 10 },
     competitors: [],
@@ -3663,7 +3663,7 @@ const COMPANIES = [
     valuation: '$3B+',
     rosLink: '',
     tags: ['voice AI', 'text-to-speech', 'audio'],
-    insight: 'ElevenLabs owns the voice AI market with a quality moat that keeps widening. At $11B valuation, they're pricing in a world where every piece of content is instantly available in every language — and that world is coming fast.',
+    insight: 'ElevenLabs owns the voice AI market with a quality moat that keeps widening. At $11B valuation, they\'re pricing in a world where every piece of content is instantly available in every language — and that world is coming fast.',
     signal: 'hot',
     scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 10 },
     competitors: [],
@@ -3956,7 +3956,7 @@ const COMPANIES = [
   {
     name: 'Redwood Materials',
     sector: 'Climate & Energy',
-    description: 'Battery recycling pioneer recovering lithium, cobalt, and nickel to create a closed-loop supply chain. Founded by Tesla's former CTO JB Straubel.',
+    description: 'Battery recycling pioneer recovering lithium, cobalt, and nickel to create a closed-loop supply chain. Founded by Tesla\'s former CTO JB Straubel.',
     founder: 'JB Straubel',
     location: 'Carson City, NV',
     state: 'NV',
@@ -4017,7 +4017,7 @@ const COMPANIES = [
     name: 'Impulse Labs',
     sector: 'Climate & Energy',
     description: 'Building battery-backed electric stoves that deliver instant, powerful cooking without gas. Electrifying the kitchen with 10kW battery-boosted induction.',
-    founder: 'Sam D'Amico',
+    founder: 'Sam D\'Amico',
     location: 'San Francisco, CA',
     state: 'CA',
     lat: 37.7749,
@@ -4130,7 +4130,7 @@ const COMPANIES = [
     name: 'PsiQuantum',
     sector: 'Chips & Semiconductors',
     description: 'Building a million-qubit photonic quantum computer in partnership with GlobalFoundries. Using standard semiconductor fabs to manufacture quantum chips at scale.',
-    founder: 'Jeremy O'Brien, Terry Rudolph, Mark Thompson, Pete Shadbolt',
+    founder: 'Jeremy O\'Brien, Terry Rudolph, Mark Thompson, Pete Shadbolt',
     location: 'Palo Alto, CA',
     state: 'CA',
     lat: 37.4419,
@@ -4349,7 +4349,7 @@ const COMPANIES = [
   {
     name: 'Running Tide',
     sector: 'Ocean & Maritime',
-    description: 'Ocean-based carbon removal using kelp cultivation and alkalinity enhancement. Leveraging the ocean's natural carbon sink at massive scale.',
+    description: 'Ocean-based carbon removal using kelp cultivation and alkalinity enhancement. Leveraging the ocean\'s natural carbon sink at massive scale.',
     founder: 'Marty Odlin',
     location: 'Portland, ME',
     state: 'ME',
@@ -4580,7 +4580,7 @@ const COMPANIES = [
   {
     name: 'Orbital Marine Power',
     sector: 'Ocean & Maritime',
-    description: 'Built the world's most powerful tidal turbine (O2), generating clean electricity from ocean tidal streams off Scotland.',
+    description: 'Built the world\'s most powerful tidal turbine (O2), generating clean electricity from ocean tidal streams off Scotland.',
     founder: 'Andrew Scott',
     location: 'Edinburgh, UK',
     state: 'UK',
@@ -4642,7 +4642,7 @@ const COMPANIES = [
   {
     name: 'Isar Aerospace',
     sector: 'Space & Aerospace',
-    description: 'Building Europe's answer to SpaceX — the Spectrum launch vehicle for cost-effective small and medium satellite launches. Backed by NATO Innovation Fund.',
+    description: 'Building Europe\'s answer to SpaceX — the Spectrum launch vehicle for cost-effective small and medium satellite launches. Backed by NATO Innovation Fund.',
     founder: 'Daniel Metzler',
     location: 'Munich, Germany',
     state: 'DE',
@@ -4672,7 +4672,7 @@ const COMPANIES = [
   {
     name: 'Proxima Fusion',
     sector: 'Nuclear Energy',
-    description: 'Building stellarator fusion power plants using quasi-isodynamic optimization. Spun out of Max Planck Institute. Europe's largest fusion raise.',
+    description: 'Building stellarator fusion power plants using quasi-isodynamic optimization. Spun out of Max Planck Institute. Europe\'s largest fusion raise.',
     founder: 'Francesco Sciortino',
     location: 'Munich, Germany',
     state: 'DE',
@@ -4702,7 +4702,7 @@ const COMPANIES = [
   {
     name: 'Rocket Factory Augsburg',
     sector: 'Space & Aerospace',
-    description: 'Developing the RFA One orbital launch vehicle for small satellite delivery. Selected for ESA's European Launcher Challenge.',
+    description: 'Developing the RFA One orbital launch vehicle for small satellite delivery. Selected for ESA\'s European Launcher Challenge.',
     founder: 'Jorn Spurmann',
     location: 'Augsburg, Germany',
     state: 'DE',
@@ -4717,7 +4717,7 @@ const COMPANIES = [
   {
     name: 'Black Semiconductor',
     sector: 'Chips & Semiconductors',
-    description: 'Developing graphene-based interconnects for next-generation semiconductor performance. One of Europe's largest deep tech raises.',
+    description: 'Developing graphene-based interconnects for next-generation semiconductor performance. One of Europe\'s largest deep tech raises.',
     founder: 'Daniel Neumaier',
     location: 'Aachen, Germany',
     state: 'DE',
@@ -4901,7 +4901,7 @@ const COMPANIES = [
   {
     name: 'H2 Green Steel',
     sector: 'Climate & Energy',
-    description: 'Building the world's first giga-scale green hydrogen steel plant in northern Sweden, cutting CO2 emissions by 95%.',
+    description: 'Building the world\'s first giga-scale green hydrogen steel plant in northern Sweden, cutting CO2 emissions by 95%.',
     founder: 'Henrik Henriksson',
     location: 'Boden, Sweden',
     state: 'SE',
@@ -4948,7 +4948,7 @@ const COMPANIES = [
   {
     name: 'ICEYE',
     sector: 'Space & Aerospace',
-    description: 'Operating the world's largest synthetic aperture radar satellite constellation for all-weather, day-and-night Earth observation.',
+    description: 'Operating the world\'s largest synthetic aperture radar satellite constellation for all-weather, day-and-night Earth observation.',
     founder: 'Rafal Modrzewski',
     location: 'Espoo, Finland',
     state: 'FI',
@@ -4963,7 +4963,7 @@ const COMPANIES = [
   {
     name: 'IQM Quantum Computers',
     sector: 'Quantum Computing',
-    description: 'Building superconducting quantum computers co-designed for specific applications. Europe's leading quantum hardware company.',
+    description: 'Building superconducting quantum computers co-designed for specific applications. Europe\'s leading quantum hardware company.',
     founder: 'Jan Goetz',
     location: 'Espoo, Finland',
     state: 'FI',
@@ -4995,7 +4995,7 @@ const COMPANIES = [
   {
     name: 'Climeworks',
     sector: 'Climate & Energy',
-    description: 'World leader in direct air carbon capture using modular CO2 collectors. Operating world's largest DAC plant in Iceland.',
+    description: 'World leader in direct air carbon capture using modular CO2 collectors. Operating world\'s largest DAC plant in Iceland.',
     founder: 'Christoph Gebald',
     location: 'Zurich, Switzerland',
     state: 'CH',
@@ -5074,7 +5074,7 @@ const COMPANIES = [
   {
     name: 'FREYR Battery',
     sector: 'Climate & Energy',
-    description: 'Building gigafactories for clean lithium-ion and sodium-ion battery cells in Norway's Arctic region.',
+    description: 'Building gigafactories for clean lithium-ion and sodium-ion battery cells in Norway\'s Arctic region.',
     founder: 'Tom Einar Jensen',
     location: 'Mo i Rana, Norway',
     state: 'NO',
@@ -5108,7 +5108,7 @@ const COMPANIES = [
   {
     name: 'PLD Space',
     sector: 'Space & Aerospace',
-    description: 'Building the MIURA family of launch vehicles. Successfully launched MIURA 1 suborbital rocket in 2023 — Europe's first private rocket launch.',
+    description: 'Building the MIURA family of launch vehicles. Successfully launched MIURA 1 suborbital rocket in 2023 — Europe\'s first private rocket launch.',
     founder: 'Raul Torres',
     location: 'Elche, Spain',
     state: 'ES',
@@ -5142,7 +5142,7 @@ const COMPANIES = [
   {
     name: 'Milrem Robotics',
     sector: 'Defense & Security',
-    description: 'Builds the THeMIS unmanned ground vehicle — Europe's leading military ground robot. Deployed in Ukraine conflict.',
+    description: 'Builds the THeMIS unmanned ground vehicle — Europe\'s leading military ground robot. Deployed in Ukraine conflict.',
     founder: 'Kuldar Vaarsi',
     location: 'Tallinn, Estonia',
     state: 'EE',
@@ -5157,7 +5157,7 @@ const COMPANIES = [
   {
     name: 'Skeleton Technologies',
     sector: 'Climate & Energy',
-    description: 'Ultracapacitor energy storage for automotive, grid, and defense applications. Europe's leading supercapacitor company.',
+    description: 'Ultracapacitor energy storage for automotive, grid, and defense applications. Europe\'s leading supercapacitor company.',
     founder: 'Taavi Madiberk',
     location: 'Tallinn, Estonia',
     state: 'EE',
@@ -5223,7 +5223,7 @@ const COMPANIES = [
     sector: 'Drones & Autonomous',
     description: 'Autonomous industrial drones and robotics for critical infrastructure security and inspection. Drone-in-a-box technology.',
     founder: 'Dor Abuhasira',
-    location: 'Modi'in, Israel',
+    location: 'Modi\'in, Israel',
     state: 'IL',
     lat: 31.8928,
     lng: 35.0104,
@@ -5360,7 +5360,7 @@ const COMPANIES = [
   {
     name: 'Rebellions',
     sector: 'Chips & Semiconductors',
-    description: 'Designs AI semiconductor chips (ATOM, REBEL) optimized for data center inference workloads. South Korea's first AI chip unicorn.',
+    description: 'Designs AI semiconductor chips (ATOM, REBEL) optimized for data center inference workloads. South Korea\'s first AI chip unicorn.',
     founder: 'Sunghyun Park',
     location: 'Seoul, South Korea',
     state: 'KR',
@@ -5407,7 +5407,7 @@ const COMPANIES = [
   {
     name: 'Skyroot Aerospace',
     sector: 'Space & Aerospace',
-    description: 'India's first private rocket company to reach space. Building Vikram-1 orbital launch vehicle. Largest privately-developed rocket stage in India.',
+    description: 'India\'s first private rocket company to reach space. Building Vikram-1 orbital launch vehicle. Largest privately-developed rocket stage in India.',
     founder: 'Pawan Kumar Chandana',
     location: 'Hyderabad, India',
     state: 'IN',
@@ -5422,7 +5422,7 @@ const COMPANIES = [
   {
     name: 'Agnikul Cosmos',
     sector: 'Space & Aerospace',
-    description: 'World's first flight of a single-piece 3D-printed rocket engine. Building customizable small launch vehicles from IIT Madras.',
+    description: 'World\'s first flight of a single-piece 3D-printed rocket engine. Building customizable small launch vehicles from IIT Madras.',
     founder: 'Srinath Ravichandran',
     location: 'Chennai, India',
     state: 'IN',
@@ -5452,7 +5452,7 @@ const COMPANIES = [
   {
     name: 'ideaForge',
     sector: 'Drones & Autonomous',
-    description: 'Designs and manufactures drones for defense, homeland security, and industrial applications. India's leading defense drone maker.',
+    description: 'Designs and manufactures drones for defense, homeland security, and industrial applications. India\'s leading defense drone maker.',
     founder: 'Ankit Mehta',
     location: 'Mumbai, India',
     state: 'IN',
@@ -5610,7 +5610,7 @@ const COMPANIES = [
   {
     name: 'Satellogic',
     sector: 'Space & Aerospace',
-    description: 'Builds sub-meter resolution Earth observation satellites at low cost. Latin America's leading satellite company. Publicly listed.',
+    description: 'Builds sub-meter resolution Earth observation satellites at low cost. Latin America\'s leading satellite company. Publicly listed.',
     founder: 'Emiliano Kargieman',
     location: 'Buenos Aires, Argentina',
     state: 'AR',
@@ -5698,7 +5698,7 @@ const COMPANIES = [
   {
     name: 'Kyutai',
     sector: 'AI & Software',
-    description: 'French AI research lab founded by billionaire Xavier Niel. Open-source-first approach to building frontier AI models. ~€300M in funding makes it one of Europe's best-funded AI labs.',
+    description: 'French AI research lab founded by billionaire Xavier Niel. Open-source-first approach to building frontier AI models. ~€300M in funding makes it one of Europe\'s best-funded AI labs.',
     founder: 'Xavier Niel',
     location: 'Paris, France',
     state: 'FR',
@@ -5758,7 +5758,7 @@ const COMPANIES = [
   {
     name: 'Dronamics',
     sector: 'Drones & Autonomous',
-    description: 'World's first cargo drone airline. Building large fixed-wing drones for middle-mile logistics, enabling same-day delivery across Europe at ground shipping costs.',
+    description: 'World\'s first cargo drone airline. Building large fixed-wing drones for middle-mile logistics, enabling same-day delivery across Europe at ground shipping costs.',
     founder: 'Svilen Rangelov',
     location: 'London, UK',
     state: 'UK',
@@ -6153,7 +6153,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: '',
     tags: ['vector database', 'AI infrastructure', 'serverless', 'search'],
-    insight: 'Turbopuffer is attacking the AI infrastructure layer with a serverless-first architecture that dramatically reduces cost versus incumbents. Simon Eskildsen's infrastructure pedigree from Shopify gives deep credibility.',
+    insight: 'Turbopuffer is attacking the AI infrastructure layer with a serverless-first architecture that dramatically reduces cost versus incumbents. Simon Eskildsen\'s infrastructure pedigree from Shopify gives deep credibility.',
     signal: 'stealth',
     scores: { team: 9, traction: 6, techMoat: 8, market: 9, momentum: 7 },
     competitors: [],
@@ -6187,7 +6187,7 @@ const COMPANIES = [
     name: 'Day.ai',
     sector: 'AI & Software',
     description: 'AI meeting intelligence platform that captures, summarizes, and acts on conversations. Builds a comprehensive relationship and context layer by integrating across calendar and communication tools.',
-    founder: 'Christopher O'Donnell',
+    founder: 'Christopher O\'Donnell',
     location: 'Boston, MA',
     state: 'MA',
     lat: 42.3601,
@@ -6197,7 +6197,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: '',
     tags: ['AI meetings', 'productivity', 'conversation intelligence', 'CRM'],
-    insight: 'Day.ai is betting that the real CRM is your calendar and conversations, not a database you manually update. Chris O'Donnell's HubSpot background gives deep insight into where traditional CRM fails knowledge workers.',
+    insight: 'Day.ai is betting that the real CRM is your calendar and conversations, not a database you manually update. Chris O\'Donnell\'s HubSpot background gives deep insight into where traditional CRM fails knowledge workers.',
     signal: 'stealth',
     scores: { team: 8, traction: 5, techMoat: 6, market: 8, momentum: 6 },
     competitors: ['Attio'],
@@ -6330,7 +6330,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: '',
     tags: ['composites manufacturing', '3D printing', 'aerospace', 'defense supply chain'],
-    insight: 'Primarily funded through SBIR/STTR government contracts — the ultimate validation. Developing radiation-shielded cubesats at 10-50x lower cost. Their automated composite manufacturing addresses one of aerospace's biggest supply chain bottlenecks.',
+    insight: 'Primarily funded through SBIR/STTR government contracts — the ultimate validation. Developing radiation-shielded cubesats at 10-50x lower cost. Their automated composite manufacturing addresses one of aerospace\'s biggest supply chain bottlenecks.',
     signal: 'watch',
     scores: { team: 7, traction: 6, techMoat: 8, market: 8, momentum: 6 },
     competitors: ['Arris Composites', 'Markforged'],
@@ -6440,7 +6440,7 @@ const COMPANIES = [
     valuation: '$500M+',
     rosLink: '',
     tags: ['wildfire detection', 'climate AI', 'public safety', 'computer vision'],
-    insight: 'Full-stack approach (hardware + AI + human verification + alerting) differentiates from satellite-only competitors. With California wildfires causing $10B+ in annual damage, Pano's early detection infrastructure is becoming essential public utility. $100M+ in booked revenue shows real demand.',
+    insight: 'Full-stack approach (hardware + AI + human verification + alerting) differentiates from satellite-only competitors. With California wildfires causing $10B+ in annual damage, Pano\'s early detection infrastructure is becoming essential public utility. $100M+ in booked revenue shows real demand.',
     signal: 'hot',
     scores: { team: 8, traction: 9, techMoat: 8, market: 9, momentum: 9 },
     competitors: ['ALERTCalifornia', 'Perimeter Solutions'],
@@ -6462,7 +6462,7 @@ const COMPANIES = [
     valuation: '$500M+',
     rosLink: '',
     tags: ['cobots', 'mobile manipulation', 'logistics automation', 'Amazon VP alumni'],
-    insight: 'Founded by Brad Porter, former Amazon VP of Robotics who led 10,000 people. When the guy who ran Amazon's robot army starts his own company, you pay attention. Backed by Sequoia, General Catalyst, and Khosla — the ultimate signal. Non-humanoid design is a bet that function trumps form.',
+    insight: 'Founded by Brad Porter, former Amazon VP of Robotics who led 10,000 people. When the guy who ran Amazon\'s robot army starts his own company, you pay attention. Backed by Sequoia, General Catalyst, and Khosla — the ultimate signal. Non-humanoid design is a bet that function trumps form.',
     signal: 'hot',
     scores: { team: 9, traction: 8, techMoat: 8, market: 9, momentum: 9 },
     competitors: ['Figure', 'Agility Robotics', 'Boston Dynamics'],
@@ -6484,7 +6484,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: '',
     tags: ['affordable robotics', 'RoboGPT', 'SMB automation', 'Y Combinator'],
-    insight: 'The 'Tesla of robotic arms' play — making automation affordable enough for the 98% of factories that can't afford a $100K Universal Robots setup. Natural language programming via RoboGPT is a genuinely novel interface. Y Combinator backed. Crossed $1M ARR.',
+    insight: 'The 'Tesla of robotic arms' play — making automation affordable enough for the 98% of factories that can\'t afford a $100K Universal Robots setup. Natural language programming via RoboGPT is a genuinely novel interface. Y Combinator backed. Crossed $1M ARR.',
     signal: 'watch',
     scores: { team: 7, traction: 6, techMoat: 7, market: 9, momentum: 7 },
     competitors: ['Universal Robots', 'FANUC', 'Franka Emika'],
@@ -6528,7 +6528,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: '',
     tags: ['ISRU', 'lunar mining', 'space propellant', 'SpaceX alumni', 'NASA'],
-    insight: 'If you can make fuel on the Moon, you fundamentally change the economics of deep space exploration. Starpath's ex-SpaceX team brings production engineering DNA to the most important unsolved problem in space logistics. NASA's Break the Ice Challenge win is credibility gold.',
+    insight: 'If you can make fuel on the Moon, you fundamentally change the economics of deep space exploration. Starpath\'s ex-SpaceX team brings production engineering DNA to the most important unsolved problem in space logistics. NASA\'s Break the Ice Challenge win is credibility gold.',
     signal: 'watch',
     scores: { team: 8, traction: 6, techMoat: 9, market: 8, momentum: 7 },
     competitors: ['Intuitive Machines', 'Astrobotic'],
@@ -7152,7 +7152,7 @@ const COMPANIES = [
     valuation: '$7B',
     rosLink: '',
     tags: ['LLM', 'enterprise AI', 'transformers', 'Canadian'],
-    insight: 'Cohere is Canada's answer to OpenAI for enterprise. Their focus on privacy and data sovereignty resonates with enterprise buyers wary of sending data to US cloud providers.',
+    insight: 'Cohere is Canada\'s answer to OpenAI for enterprise. Their focus on privacy and data sovereignty resonates with enterprise buyers wary of sending data to US cloud providers.',
     signal: 'hot',
     scores: { team: 10, traction: 9, techMoat: 9, market: 10, momentum: 9 },
     competitors: ['OpenAI', 'Anthropic', 'Google'],
@@ -7172,7 +7172,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: '',
     tags: ['autonomous trucks', 'simulation', 'AI', 'Canadian'],
-    insight: 'Waabi's simulation-first approach dramatically reduces the need for expensive real-world testing. Their Uber and Volvo partnerships provide clear path to commercialization.',
+    insight: 'Waabi\'s simulation-first approach dramatically reduces the need for expensive real-world testing. Their Uber and Volvo partnerships provide clear path to commercialization.',
     signal: 'rising',
     scores: { team: 9, traction: 7, techMoat: 9, market: 9, momentum: 8 },
     competitors: ['Aurora', 'TuSimple', 'Kodiak'],
@@ -7276,7 +7276,7 @@ const COMPANIES = [
   {
     name: 'GHGSat',
     sector: 'Space & Aerospace',
-    description: 'Operates the world's largest fleet of high-resolution satellites dedicated to methane monitoring. Serves ExxonMobil, Aramco, and UN organizations.',
+    description: 'Operates the world\'s largest fleet of high-resolution satellites dedicated to methane monitoring. Serves ExxonMobil, Aramco, and UN organizations.',
     founder: 'Stephane Germain',
     location: 'Montreal, Canada',
     country: 'Canada',
@@ -7296,7 +7296,7 @@ const COMPANIES = [
   {
     name: 'Reaction Dynamics',
     sector: 'Space & Aerospace',
-    description: 'Developing low-cost hybrid rocket technology for small satellite launches. Canada's most advanced rocket company with orbital launch planned for 2028.',
+    description: 'Developing low-cost hybrid rocket technology for small satellite launches. Canada\'s most advanced rocket company with orbital launch planned for 2028.',
     founder: 'Bachar Elzein',
     location: 'Montreal, Canada',
     country: 'Canada',
@@ -7335,7 +7335,7 @@ const COMPANIES = [
     name: 'Kinova Robotics',
     sector: 'Robotics & Manufacturing',
     description: 'Manufactures robotic arms for medical, assistive, research, and industrial applications. JACO assistive robot helps people with disabilities in 40+ countries.',
-    founder: 'Charles Deguire, Louis-Joseph L'Ecuyer',
+    founder: 'Charles Deguire, Louis-Joseph L\'Ecuyer',
     location: 'Montreal, Canada',
     country: 'Canada',
     lat: 45.5017,
@@ -7364,7 +7364,7 @@ const COMPANIES = [
     valuation: '$1B+',
     rosLink: '',
     tags: ['fusion energy', 'clean energy', 'Bezos-backed', 'Canadian'],
-    insight: 'General Fusion's unique compression approach sidesteps some of the materials challenges facing tokamak designs. The NASDAQ IPO will test public market appetite for fusion.',
+    insight: 'General Fusion\'s unique compression approach sidesteps some of the materials challenges facing tokamak designs. The NASDAQ IPO will test public market appetite for fusion.',
     signal: 'hot',
     scores: { team: 8, traction: 6, techMoat: 8, market: 10, momentum: 8 },
     competitors: ['Helion', 'Commonwealth Fusion Systems', 'TAE Technologies'],
@@ -7797,7 +7797,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Anduril Industries', 'Shield AI', 'Saronic', 'Physical Intelligence', 'Groq', 'Hadrian', 'Flock Safety', 'ElevenLabs'],
     signal: 'established',
     website: 'https://a16z.com',
-    insight: 'a16z's American Dynamism fund has become the most prominent capital allocator to hard tech defense and industrial startups. Katherine Boyle's thesis that 'building is a form of civic duty' has reshaped how Silicon Valley views government-adjacent sectors. Their portfolio reads like a who's-who of the defense tech renaissance.'
+    insight: 'a16z\'s American Dynamism fund has become the most prominent capital allocator to hard tech defense and industrial startups. Katherine Boyle\'s thesis that 'building is a form of civic duty' has reshaped how Silicon Valley views government-adjacent sectors. Their portfolio reads like a who\'s-who of the defense tech renaissance.'
   },
   {
     name: '8VC',
@@ -7812,7 +7812,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Epirus', 'Saronic', 'Hadrian', 'Joby Aviation', 'Saildrone'],
     signal: 'established',
     website: 'https://8vc.com',
-    insight: 'Joe Lonsdale's 8VC embodies the 'American Dynamism' ethos with a Texas twist. Their portfolio leans heavily into defense and industrial transformation, leveraging Lonsdale's Palantir network to source deals other VCs miss. Deep conviction in the defense tech thesis.'
+    insight: 'Joe Lonsdale\'s 8VC embodies the 'American Dynamism' ethos with a Texas twist. Their portfolio leans heavily into defense and industrial transformation, leveraging Lonsdale\'s Palantir network to source deals other VCs miss. Deep conviction in the defense tech thesis.'
   },
   {
     name: 'Founders Fund',
@@ -7827,7 +7827,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['SpaceX', 'Anduril Industries', 'Palantir', 'Relativity Space', 'Varda Space Industries'],
     signal: 'established',
     website: 'https://foundersfund.com',
-    insight: 'Founders Fund remains the intellectual center of contrarian hard tech investing. Peter Thiel's conviction that 'we live in a world of bits, not atoms' drove the fund's early SpaceX, Palantir, and Anduril bets. Trae Stephens and Delian Asparouhov now lead the defense tech thesis, having essentially created the category.'
+    insight: 'Founders Fund remains the intellectual center of contrarian hard tech investing. Peter Thiel\'s conviction that 'we live in a world of bits, not atoms' drove the fund\'s early SpaceX, Palantir, and Anduril bets. Trae Stephens and Delian Asparouhov now lead the defense tech thesis, having essentially created the category.'
   },
   {
     name: 'Khosla Ventures',
@@ -7842,7 +7842,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Helion Energy', 'Commonwealth Fusion Systems', 'OpenAI', 'Crusoe Energy'],
     signal: 'established',
     website: 'https://khoslaventures.com',
-    insight: 'Vinod Khosla's willingness to make 'black swan' bets sets his fund apart. Early OpenAI investor, fusion energy pioneer backer (Helion, CFS), and consistent contrarian — Khosla has built arguably the deepest deep tech portfolio in the world. His philosophy: 'My willingness to fail gives me the ability to succeed.''
+    insight: 'Vinod Khosla\'s willingness to make 'black swan' bets sets his fund apart. Early OpenAI investor, fusion energy pioneer backer (Helion, CFS), and consistent contrarian — Khosla has built arguably the deepest deep tech portfolio in the world. His philosophy: 'My willingness to fail gives me the ability to succeed.''
   },
   {
     name: 'Sequoia Capital',
@@ -7857,7 +7857,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['NVIDIA', 'Varda Space Industries', 'Wiz', 'Stripe'],
     signal: 'established',
     website: 'https://sequoiacap.com',
-    insight: 'Sequoia's institutional prestige is unmatched — backing Apple, Google, and NVIDIA. Their increasing tilt toward hard tech and defense under Shaun Maguire signals a seismic shift: when Sequoia allocates to a category, it validates the entire sector. Their 'Arc' long-term fund unlocks patient capital for frontier tech.'
+    insight: 'Sequoia\'s institutional prestige is unmatched — backing Apple, Google, and NVIDIA. Their increasing tilt toward hard tech and defense under Shaun Maguire signals a seismic shift: when Sequoia allocates to a category, it validates the entire sector. Their 'Arc' long-term fund unlocks patient capital for frontier tech.'
   },
   {
     name: 'DCVC (Data Collective)',
@@ -7872,7 +7872,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Oklo', 'Planet Labs', 'Saildrone'],
     signal: 'rising',
     website: 'https://dcvc.com',
-    insight: 'DCVC is one of the few funds that has been exclusively deep tech from inception, not as a recent pivot. Their 'computational + domain' thesis has produced standout returns. Rachel Slaybaugh's nuclear expertise gives them an edge in the nuclear energy renaissance.'
+    insight: 'DCVC is one of the few funds that has been exclusively deep tech from inception, not as a recent pivot. Their 'computational + domain' thesis has produced standout returns. Rachel Slaybaugh\'s nuclear expertise gives them an edge in the nuclear energy renaissance.'
   },
   {
     name: 'Eclipse Ventures',
@@ -7887,7 +7887,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Hadrian', 'Gecko Robotics', 'Machina Labs'],
     signal: 'rising',
     website: 'https://eclipse.vc',
-    insight: 'Eclipse's 'industrial transformation' focus means they see what consumer-tech VCs miss: the massive opportunity in modernizing America's industrial base. Their portfolio companies are literally rebuilding how things are manufactured, inspected, and maintained.'
+    insight: 'Eclipse\'s 'industrial transformation' focus means they see what consumer-tech VCs miss: the massive opportunity in modernizing America\'s industrial base. Their portfolio companies are literally rebuilding how things are manufactured, inspected, and maintained.'
   },
   {
     name: 'Playground Global',
@@ -7902,7 +7902,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Physical Intelligence', 'Essential AI'],
     signal: 'watch',
     website: 'https://playground.global',
-    insight: 'Andy Rubin (creator of Android) brings an operator's eye to deep tech investing. Playground's thesis on 'next-gen compute' gives them unique insight into the hardware-software interfaces that define platform shifts.'
+    insight: 'Andy Rubin (creator of Android) brings an operator\'s eye to deep tech investing. Playground\'s thesis on 'next-gen compute' gives them unique insight into the hardware-software interfaces that define platform shifts.'
   },
   {
     name: 'ARCH Venture Partners',
@@ -7917,7 +7917,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Illumina', 'Arzeda', 'Sana Biotechnology'],
     signal: 'established',
     website: 'https://archventure.com',
-    insight: 'ARCH's 40-year track record of university spin-outs is unmatched. They see technologies before they're companies. Robert Nelsen's ability to identify and commercialize fundamental science breakthroughs — from genomics to quantum — makes ARCH the bridge between lab and market.'
+    insight: 'ARCH\'s 40-year track record of university spin-outs is unmatched. They see technologies before they\'re companies. Robert Nelsen\'s ability to identify and commercialize fundamental science breakthroughs — from genomics to quantum — makes ARCH the bridge between lab and market.'
   },
   {
     name: 'Breakthrough Energy Ventures',
@@ -7926,13 +7926,13 @@ const VC_FIRMS = [
     flagshipFund: 'Breakthrough Energy Ventures II',
     founded: 2016,
     hq: 'Kirkland, WA',
-    thesis: 'Funding technologies that will lead to net-zero greenhouse gas emissions. Founded by Bill Gates and backed by a coalition of the world's most ambitious climate philanthropists. Patient capital for climate deep tech.',
+    thesis: 'Funding technologies that will lead to net-zero greenhouse gas emissions. Founded by Bill Gates and backed by a coalition of the world\'s most ambitious climate philanthropists. Patient capital for climate deep tech.',
     keyPartners: ['Carmichael Roberts', 'Eric Toone', 'Ann Mettler'],
     sectorFocus: ['Energy & Climate', 'Advanced Materials', 'Housing & Construction'],
     portfolioCompanies: ['Commonwealth Fusion Systems', 'Koloma', 'Form Energy'],
     signal: 'established',
     website: 'https://breakthroughenergy.org',
-    insight: 'BEV's coalition model — Gates, Bezos, Bloomberg, Masayoshi Son — provides not just capital but political cover for long-duration climate bets. Their 20-year fund timeline lets them back fusion, green hydrogen, and other technologies that require patient capital.'
+    insight: 'BEV\'s coalition model — Gates, Bezos, Bloomberg, Masayoshi Son — provides not just capital but political cover for long-duration climate bets. Their 20-year fund timeline lets them back fusion, green hydrogen, and other technologies that require patient capital.'
   },
   {
     name: 'SOSV',
@@ -7941,13 +7941,13 @@ const VC_FIRMS = [
     flagshipFund: 'IndieBio & HAX Accelerators',
     founded: 1995,
     hq: 'Princeton, NJ',
-    thesis: 'Accelerator-driven deep tech investing. Through IndieBio (biotech) and HAX (hardware), SOSV has built the world's largest multi-stage deep tech platform, graduating 2,000+ companies.',
-    keyPartners: ['Sean O'Sullivan', 'Arvind Gupta', 'Cyril Ebersweiler'],
+    thesis: 'Accelerator-driven deep tech investing. Through IndieBio (biotech) and HAX (hardware), SOSV has built the world\'s largest multi-stage deep tech platform, graduating 2,000+ companies.',
+    keyPartners: ['Sean O\'Sullivan', 'Arvind Gupta', 'Cyril Ebersweiler'],
     sectorFocus: ['Biotech & Health', 'Robotics & Manufacturing', 'Energy & Climate'],
     portfolioCompanies: ['Memphis Meats', 'Brinc Drones', 'Geltor'],
     signal: 'watch',
     website: 'https://sosv.com',
-    insight: 'SOSV's accelerator model (HAX for hardware, IndieBio for biotech) creates proprietary deal flow that traditional VCs can't access. They see 5,000+ applications per year and invest in 150+ companies annually, giving them unmatched pattern recognition in deep tech.'
+    insight: 'SOSV\'s accelerator model (HAX for hardware, IndieBio for biotech) creates proprietary deal flow that traditional VCs can\'t access. They see 5,000+ applications per year and invest in 150+ companies annually, giving them unmatched pattern recognition in deep tech.'
   },
   {
     name: 'Kleiner Perkins',
@@ -7962,7 +7962,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Figma', 'Ramp', 'Rippling'],
     signal: 'established',
     website: 'https://kleinerperkins.com',
-    insight: 'Kleiner Perkins invented venture-backed cleantech in the 2000s (before it was cool), endured the bust, and now brings hard-won lessons to the current deep tech cycle. Their institutional memory of what worked and didn't in capital-intensive tech is invaluable.'
+    insight: 'Kleiner Perkins invented venture-backed cleantech in the 2000s (before it was cool), endured the bust, and now brings hard-won lessons to the current deep tech cycle. Their institutional memory of what worked and didn\'t in capital-intensive tech is invaluable.'
   },
   {
     name: 'General Catalyst',
@@ -7977,7 +7977,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Stripe', 'Snap', 'Livongo'],
     signal: 'rising',
     website: 'https://generalcatalyst.com',
-    insight: 'GC's 'responsible innovation' thesis and healthcare transformation strategy — including acquiring a health system — represent a new model of VC involvement. Their deep tech allocation is growing rapidly, and their Cambridge roots give them MIT/Harvard deal flow.'
+    insight: 'GC\'s 'responsible innovation' thesis and healthcare transformation strategy — including acquiring a health system — represent a new model of VC involvement. Their deep tech allocation is growing rapidly, and their Cambridge roots give them MIT/Harvard deal flow.'
   },
   {
     name: 'Bold Capital Partners',
@@ -7986,13 +7986,13 @@ const VC_FIRMS = [
     flagshipFund: 'Bold Capital Fund II',
     founded: 2015,
     hq: 'Santa Monica, CA',
-    thesis: 'Investing in exponential technologies that are converging to transform industries. Peter Diamandis's thesis: technology is accelerating, abundance is inevitable, and the biggest opportunities lie at the intersection of AI, robotics, biotech, and quantum.',
+    thesis: 'Investing in exponential technologies that are converging to transform industries. Peter Diamandis\'s thesis: technology is accelerating, abundance is inevitable, and the biggest opportunities lie at the intersection of AI, robotics, biotech, and quantum.',
     keyPartners: ['Peter Diamandis', 'Anthony Saleh'],
     sectorFocus: ['AI & Software', 'Biotech & Health', 'Quantum Computing'],
     portfolioCompanies: ['Colossal Biosciences', 'Fountain Life'],
     signal: 'watch',
     website: 'https://boldcapital.com',
-    insight: 'Peter Diamandis's XPRIZE network and Singularity University connections give Bold Capital access to moonshot founders before anyone else. Their portfolio reflects Diamandis's 'abundance mindset' — backing technologies that seem impossible until they aren't.'
+    insight: 'Peter Diamandis\'s XPRIZE network and Singularity University connections give Bold Capital access to moonshot founders before anyone else. Their portfolio reflects Diamandis\'s 'abundance mindset' — backing technologies that seem impossible until they aren\'t.'
   },
   {
     name: 'Alumni Ventures',
@@ -8022,7 +8022,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Anduril Industries', 'Saronic', 'Saildrone', 'Collaborative Robotics', 'Multiply Labs', 'Zoox'],
     signal: 'established',
     website: 'https://luxcapital.com',
-    insight: 'Josh Wolfe's Lux Capital is the intellectual godfather of deep tech venture capital. His 'invest in the future that sci-fi promised' philosophy produced category-defining bets on Anduril, and his prolific Twitter/X presence makes Lux the most visible deep tech brand. Their ability to identify paradigm shifts before they're obvious — from defense autonomy to space manufacturing — is unmatched.'
+    insight: 'Josh Wolfe\'s Lux Capital is the intellectual godfather of deep tech venture capital. His 'invest in the future that sci-fi promised' philosophy produced category-defining bets on Anduril, and his prolific Twitter/X presence makes Lux the most visible deep tech brand. Their ability to identify paradigm shifts before they\'re obvious — from defense autonomy to space manufacturing — is unmatched.'
   },
   {
     name: 'Harpoon Ventures',
@@ -8037,7 +8037,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Solugen', 'Astranis', 'Castelion', 'Electroflow Technologies'],
     signal: 'rising',
     website: 'https://harpoon.vc',
-    insight: 'Larsen Jensen's journey from Olympic swimmer to Navy SEAL to VC gives Harpoon a rare edge: they understand both what operators need in the field AND what makes technology investable. Their dual-use focus — commercial products with defense applications — hits the sweet spot of the current defense tech cycle. 79 investments and 23 exits show consistent execution.'
+    insight: 'Larsen Jensen\'s journey from Olympic swimmer to Navy SEAL to VC gives Harpoon a rare edge: they understand both what operators need in the field AND what makes technology investable. Their dual-use focus — commercial products with defense applications — hits the sweet spot of the current defense tech cycle. 79 investments and 23 exits show consistent execution.'
   },
   {
     name: 'Lowercarbon Capital',
@@ -8052,7 +8052,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Commonwealth Fusion Systems', 'Pacific Fusion', 'Twelve', 'Heirloom Carbon', 'Antora Energy', 'Charm Industrial'],
     signal: 'established',
     website: 'https://lowercarbon.com',
-    insight: 'Chris Sacca built one of the most successful venture funds in history (early Uber, Twitter, Instagram) then went all-in on climate. Lowercarbon's $2B+ AUM and dedicated fusion fund make it the most capitalized pure-play climate deep tech investor. Their willingness to back nuclear fusion, ocean carbon removal, and other frontier climate tech gives them deal flow other funds can't access. The second fusion fund (2025) signals doubling down on the energy transition.'
+    insight: 'Chris Sacca built one of the most successful venture funds in history (early Uber, Twitter, Instagram) then went all-in on climate. Lowercarbon\'s $2B+ AUM and dedicated fusion fund make it the most capitalized pure-play climate deep tech investor. Their willingness to back nuclear fusion, ocean carbon removal, and other frontier climate tech gives them deal flow other funds can\'t access. The second fusion fund (2025) signals doubling down on the energy transition.'
   },
   {
     name: 'Cantos Ventures',
@@ -8061,13 +8061,13 @@ const VC_FIRMS = [
     flagshipFund: 'Cantos Fund III',
     founded: 2016,
     hq: 'San Francisco, CA',
-    thesis: 'First money in for 'near frontier' companies — deeply technical founders transforming the physical world in energy, defense, infrastructure, space, and advanced manufacturing. Willing to take technical risk that other VCs won't touch at the earliest stages.',
+    thesis: 'First money in for 'near frontier' companies — deeply technical founders transforming the physical world in energy, defense, infrastructure, space, and advanced manufacturing. Willing to take technical risk that other VCs won\'t touch at the earliest stages.',
     keyPartners: ['Ian Rountree'],
     sectorFocus: ['Climate & Energy', 'Defense & Security', 'Space & Aerospace'],
     portfolioCompanies: ['Astranis', 'Radiant', 'Castelion', 'Venus Aerospace', 'Atom Computing', 'Solugen', 'Twelve'],
     signal: 'rising',
     website: 'https://cantos.vc',
-    insight: 'Ian Rountree's Cantos is the quintessential 'first check' deep tech fund. By writing the earliest checks into companies like Radiant, Astranis, and Castelion — before anyone else was comfortable — Cantos has built one of the best seed-stage deep tech portfolios in existence. Their 68 investments have produced 3 unicorns and 8 exits. The 'near frontier' thesis perfectly captures the current moment: not sci-fi, but technologies that are technically risky and transformational.'
+    insight: 'Ian Rountree\'s Cantos is the quintessential 'first check' deep tech fund. By writing the earliest checks into companies like Radiant, Astranis, and Castelion — before anyone else was comfortable — Cantos has built one of the best seed-stage deep tech portfolios in existence. Their 68 investments have produced 3 unicorns and 8 exits. The 'near frontier' thesis perfectly captures the current moment: not sci-fi, but technologies that are technically risky and transformational.'
   },
   {
     name: 'Shield Capital',
@@ -8082,7 +8082,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Apex', 'Rebellion Defense', 'Snorkel AI', 'Hawkeye360', 'Elroy Air'],
     signal: 'hot',
     website: 'https://shieldcap.com',
-    insight: 'Shield Capital bridges the gap between Silicon Valley and the Pentagon like no other fund. Raj Shah's DIU experience means they understand government procurement, while their commercial VC approach ensures portfolio companies build real businesses. Three unicorns already — Apex, Rebellion, Snorkel AI.'
+    insight: 'Shield Capital bridges the gap between Silicon Valley and the Pentagon like no other fund. Raj Shah\'s DIU experience means they understand government procurement, while their commercial VC approach ensures portfolio companies build real businesses. Three unicorns already — Apex, Rebellion, Snorkel AI.'
   },
   {
     name: 'Decisive Point',
@@ -8097,7 +8097,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Firestorm Labs', 'Aurelius Systems', 'RISE Robotics', 'Asylon', 'Standard Nuclear'],
     signal: 'rising',
     website: 'https://www.decisivepoint.com',
-    insight: 'Decisive Point is the new guard of defense tech investing. Their hands-on approach to government acquisitions strategy separates them from generalist VCs who don't understand how to sell to DoD. The $140M Standard Nuclear lead shows they can write big checks when conviction is high.'
+    insight: 'Decisive Point is the new guard of defense tech investing. Their hands-on approach to government acquisitions strategy separates them from generalist VCs who don\'t understand how to sell to DoD. The $140M Standard Nuclear lead shows they can write big checks when conviction is high.'
   },
   {
     name: 'In-Q-Tel (IQT)',
@@ -8106,13 +8106,13 @@ const VC_FIRMS = [
     flagshipFund: 'In-Q-Tel',
     founded: 1999,
     hq: 'Arlington, VA',
-    thesis: 'The CIA's venture capital arm. Invests in technologies critical to national security — AI, quantum computing, cybersecurity, biotechnology, space systems. 800+ investments over 26 years.',
+    thesis: 'The CIA\'s venture capital arm. Invests in technologies critical to national security — AI, quantum computing, cybersecurity, biotechnology, space systems. 800+ investments over 26 years.',
     keyPartners: ['Institutional/Government'],
     sectorFocus: ['Defense & Security', 'AI & Software', 'Quantum Computing'],
     portfolioCompanies: ['Palantir', 'Keyhole (Google Earth)', 'Recorded Future', 'Databricks'],
     signal: 'established',
     website: 'https://www.iqt.org',
-    insight: 'In-Q-Tel's early Palantir investment is legendary — turning $2M into tens of billions. They invest in 32 companies on the NatSec 100 report. When IQT invests, it signals both commercial viability and government relevance. Global offices in London, Sydney, Singapore, Munich.'
+    insight: 'In-Q-Tel\'s early Palantir investment is legendary — turning $2M into tens of billions. They invest in 32 companies on the NatSec 100 report. When IQT invests, it signals both commercial viability and government relevance. Global offices in London, Sydney, Singapore, Munich.'
   },
   {
     name: 'Lockheed Martin Ventures',
@@ -8121,7 +8121,7 @@ const VC_FIRMS = [
     flagshipFund: 'Evergreen',
     founded: 2018,
     hq: 'Bethesda, MD',
-    thesis: 'Strategic investments in AI, autonomy, robotics, cybersecurity, quantum technologies, space, and advanced electronics. Access to Lockheed's engineering talent, R&D resources, and supply chain.',
+    thesis: 'Strategic investments in AI, autonomy, robotics, cybersecurity, quantum technologies, space, and advanced electronics. Access to Lockheed\'s engineering talent, R&D resources, and supply chain.',
     keyPartners: ['Chris Moran'],
     sectorFocus: ['Defense & Security', 'Space & Aerospace', 'Quantum Computing'],
     portfolioCompanies: ['Cambium Biomaterials', 'Mythic', 'CalypsoAI', 'D-Orbit'],
@@ -8151,7 +8151,7 @@ const VC_FIRMS = [
     flagshipFund: 'Seraphim Space Investment Trust (LSE: SSIT)',
     founded: 2006,
     hq: 'London, UK',
-    thesis: 'The world's first publicly listed SpaceTech investment vehicle. Investing across the entire space ecosystem from pre-seed to pre-IPO. 70+ space deals since 2000.',
+    thesis: 'The world\'s first publicly listed SpaceTech investment vehicle. Investing across the entire space ecosystem from pre-seed to pre-IPO. 70+ space deals since 2000.',
     keyPartners: ['Mark Boggett', 'James Bruegger'],
     sectorFocus: ['Space & Aerospace'],
     portfolioCompanies: ['AST SpaceMobile', 'Spire Global', 'Arqit Quantum', 'Astroscale', 'ispace'],
@@ -8187,7 +8187,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Boston Metal', 'Sublime Systems', 'Nitricity', 'Crusoe'],
     signal: 'established',
     website: 'https://www.energyimpactpartners.com',
-    insight: 'EIP's 80+ utility and corporate partners are a distribution superpower. They can facilitate pilot projects, commercial contracts, and strategic relationships that pure financial VCs cannot. $3B+ in facilitated contracts.'
+    insight: 'EIP\'s 80+ utility and corporate partners are a distribution superpower. They can facilitate pilot projects, commercial contracts, and strategic relationships that pure financial VCs cannot. $3B+ in facilitated contracts.'
   },
   {
     name: 'Bedrock Capital',
@@ -8196,13 +8196,13 @@ const VC_FIRMS = [
     flagshipFund: 'Bedrock Fund IV',
     founded: 2018,
     hq: 'San Francisco, CA',
-    thesis: 'Investing in 'narrative violations' — companies that challenge prevailing market assumptions. Multi-stage, industry-agnostic with notable defense and industrial positions.',
+    thesis: 'Investing in \'narrative violations\' — companies that challenge prevailing market assumptions. Multi-stage, industry-agnostic with notable defense and industrial positions.',
     keyPartners: ['Geoff Lewis', 'Eric Stromberg'],
     sectorFocus: ['Defense & Security', 'AI & Software', 'Fintech'],
     portfolioCompanies: ['OpenAI', 'Rippling', 'Flock Safety', 'Mach Industries', 'Epirus', 'Vercel'],
     signal: 'established',
     website: 'https://bedrockcap.com',
-    insight: 'Bedrock's 'narrative violations' thesis produced some legendary wins: early OpenAI, Flock Safety at $7.5B (2025). They're willing to bet against consensus — exactly what frontier tech requires. Grew from $127M in 2018 to $2B+ today.'
+    insight: 'Bedrock\'s \'narrative violations\' thesis produced some legendary wins: early OpenAI, Flock Safety at $7.5B (2025). They're willing to bet against consensus — exactly what frontier tech requires. Grew from $127M in 2018 to $2B+ today.'
   },
   {
     name: 'Radical Ventures',
@@ -8211,7 +8211,7 @@ const VC_FIRMS = [
     flagshipFund: 'Radical Ventures Fund IV',
     founded: 2017,
     hq: 'Toronto, Canada',
-    thesis: 'AI and machine learning, deep tech applications. Founded by Layer 6 AI entrepreneurs. Geoffrey Hinton is an investor. Eric Schmidt's family office is an LP.',
+    thesis: 'AI and machine learning, deep tech applications. Founded by Layer 6 AI entrepreneurs. Geoffrey Hinton is an investor. Eric Schmidt\'s family office is an LP.',
     keyPartners: ['Jordan Jacobs', 'Salim Teja', 'Dominic Barton'],
     sectorFocus: ['AI & Software', 'Robotics & Manufacturing'],
     portfolioCompanies: ['Cohere', 'WRITER', 'Latitude.ai', 'Waabi'],
@@ -8350,7 +8350,7 @@ const INNOVATOR_SCORES = {
     momentum: 98, market: 95, technology: 92, team: 98,
     trend: 'accelerating',
     priorScore: 945, // 30 days ago
-    breakdown: 'Highest momentum score driven by $78B secondary valuation, $28B+ backlog, and 10,000+ employees. Elite team score from Palmer Luckey's track record and Founders Fund/a16z backing.'
+    breakdown: 'Highest momentum score driven by $78B secondary valuation, $28B+ backlog, and 10,000+ employees. Elite team score from Palmer Luckey\'s track record and Founders Fund/a16z backing.'
   },
   'SpaceX': {
     total: 958,
@@ -8608,7 +8608,7 @@ const INNOVATOR_SCORES = {
     momentum: 78, market: 68, technology: 65, team: 68,
     trend: 'accelerating',
     priorScore: 620,
-    breakdown: 'America's leading FPV drone manufacturer. ~1,000 drones/month. US Army's primary FPV manufacturer.'
+    breakdown: 'America\'s leading FPV drone manufacturer. ~1,000 drones/month. US Army\'s primary FPV manufacturer.'
   },
   'Pano AI': {
     total: 668,
@@ -8700,7 +8700,7 @@ const SECTOR_MOMENTUM = [
     megaRounds: 8,
     catalysts: ['DOGE procurement reform', 'Ukraine conflict acceleration', 'Replicator program scaling', '$28B Anduril backlog'],
     topMovers: ['Saronic (+95)', 'Epirus (+38)', 'Chaos Industries (+52)'],
-    methodology: 'Highest sector momentum driven by 87% Y/Y funding growth and 8 mega-rounds in Q4. Anduril's $78B secondary valuation anchors sector.'
+    methodology: 'Highest sector momentum driven by 87% Y/Y funding growth and 8 mega-rounds in Q4. Anduril\'s $78B secondary valuation anchors sector.'
   },
   {
     sector: 'AI & Software',
@@ -8742,7 +8742,7 @@ const SECTOR_MOMENTUM = [
     megaRounds: 4,
     catalysts: ['Data center power demand', 'NRC reform acceleration', 'SMR deployment timelines', 'Big Tech nuclear PPAs'],
     topMovers: ['Oklo (+38)', 'Radiant (+35)', 'Valar Atomics (+28)'],
-    methodology: 'Data center power demand driving nuclear renaissance. 4 mega-rounds including Radiant's $300M Series D.'
+    methodology: 'Data center power demand driving nuclear renaissance. 4 mega-rounds including Radiant\'s $300M Series D.'
   },
   {
     sector: 'Space & Aerospace',
@@ -8917,10 +8917,10 @@ const SECTOR_MOMENTUM = [
 // ─── BREAKING NEWS TICKER ───
 const NEWS_TICKER = [
   { text: 'Morpheus raises $15 million in Series A+ round', time: '17h ago', priority: 'high' },
-  { text: 'Bedrock Robotics' $270M Series B paves the way for operator-less excavators', time: '1d ago', priority: 'high' },
+  { text: 'Bedrock Robotics $270M Series B paves the way for operator-less excavators', time: '1d ago', priority: 'high' },
   { text: 'Tomorrow.io banks $175 million for DeepSky weather constellation', time: '1h ago', priority: 'high' },
   { text: 'FAA approves Starship launches from LC-39A', time: '5h ago', priority: 'high' },
-  { text: 'Deep space, dim objects: Why asteroid mining caught the Space Force's eye', time: '14h ago', priority: 'medium' },
+  { text: 'Deep space, dim objects: Why asteroid mining caught the Space Force\'s eye', time: '14h ago', priority: 'medium' },
   { text: 'Satellite servicing startup Starfish taps Quindar for mission operations software', time: '14h ago', priority: 'medium' }
 ];
 
@@ -8936,7 +8936,7 @@ const WEEKLY_DIGEST = [
   {
     date: '2026-02-03',
     headline: 'Palantir Crosses $400B Market Cap',
-    summary: 'Palantir's AIP platform adoption drives market cap past $400B, making it the most valuable enterprise AI company. Government and commercial revenue both accelerating.',
+    summary: 'Palantir\'s AIP platform adoption drives market cap past $400B, making it the most valuable enterprise AI company. Government and commercial revenue both accelerating.',
     relatedCompanies: ['Palantir'],
     category: 'milestone'
   },
@@ -8966,7 +8966,7 @@ const WEEKLY_DIGEST = [
 // ═══════════════════════════════════════════════════════════════════════════════
 // TRL (TECHNOLOGY READINESS LEVEL) RANKINGS
 // ═══════════════════════════════════════════════════════════════════════════════
-// Based on NASA's official TRL definitions (https://www.nasa.gov/directorates/somd/)
+// Based on NASA\'s official TRL definitions (https://www.nasa.gov/directorates/somd/)
 // Each assessment includes:
 // - TRL level (1-9)
 // - Evidence basis for the assessment
@@ -9191,7 +9191,7 @@ const TRL_RANKINGS = [
     company: 'Cerebras',
     trl: 8,
     evidence: ['CS-3 wafer-scale chips in production', 'Condor Galaxy clusters deployed', 'Commercial revenue', 'Supercomputer installations'],
-    keyMilestone: 'World's largest AI chips in production customer installations',
+    keyMilestone: 'World\'s largest AI chips in production customer installations',
     priorTRL: 8,
     lastUpdated: '2026-02',
     assessmentNote: 'Wafer-scale AI chip technology is commercially validated and revenue-generating.'
@@ -9625,7 +9625,7 @@ const GROWTH_SIGNALS = [
     company: 'Saronic',
     signal: 'government_contract',
     headline: 'US Navy Program of Record',
-    detail: 'Selected as US Navy's autonomous surface warship program of record. First startup to achieve naval program of record status.',
+    detail: 'Selected as US Navy\'s autonomous surface warship program of record. First startup to achieve naval program of record status.',
     metric: 'Multi-billion dollar addressable program',
     strength: 10,
     date: '2026-01',
@@ -9866,7 +9866,7 @@ const GROWTH_SIGNALS = [
 // ─── SIGNAL TYPES: Growth Signal Definitions ───
 const SIGNAL_TYPES = {
   hiring_surge: { icon: '👥', label: 'Hiring Surge', description: 'Significant increase in open roles' },
-  government_contract: { icon: '🏛️', label: 'Gov't Contract', description: 'Major government contract awarded' },
+  government_contract: { icon: '🏛️', label: 'Gov Contract', description: 'Major government contract awarded' },
   revenue_acceleration: { icon: '📈', label: 'Revenue Growth', description: 'Significant revenue acceleration' },
   valuation_jump: { icon: '🚀', label: 'Valuation Jump', description: 'Major valuation increase' },
   facility_expansion: { icon: '🏗️', label: 'Facility Expansion', description: 'New facility or expansion' },
@@ -10128,7 +10128,7 @@ const REQUEST_FOR_STARTUPS = [
     title: 'Autonomous Drone Swarm Coordination',
     requestedBy: 'U.S. Department of Defense',
     sector: 'Defense & Security',
-    problem: 'Coordinating hundreds of autonomous drones in contested environments with degraded GPS and communications. Current systems can't scale beyond small formations.',
+    problem: 'Coordinating hundreds of autonomous drones in contested environments with degraded GPS and communications. Current systems can\'t scale beyond small formations.',
     bounty: 'Billions in procurement',
     urgency: 'critical',
     relatedCompanies: ['Shield AI', 'Anduril Industries', 'Skydio'],
@@ -10138,7 +10138,7 @@ const REQUEST_FOR_STARTUPS = [
     title: 'AI-Powered Power Grid Load Balancing',
     requestedBy: 'Major US Utilities / Data Center Operators',
     sector: 'Infrastructure & Logistics',
-    problem: 'Data centers are requesting 10-50GW of new power capacity. Current grid infrastructure can't handle the load. Need AI systems that can dynamically balance supply and demand in real-time.',
+    problem: 'Data centers are requesting 10-50GW of new power capacity. Current grid infrastructure can\'t handle the load. Need AI systems that can dynamically balance supply and demand in real-time.',
     bounty: '$100B+ market opportunity',
     urgency: 'critical',
     relatedCompanies: ['AiDash', 'Fervo Energy', 'Antora Energy'],
@@ -10188,7 +10188,7 @@ const REQUEST_FOR_STARTUPS = [
     title: 'Counter-UAS for Critical Infrastructure',
     requestedBy: 'FAA / DHS / Airport Operators',
     sector: 'Defense & Security',
-    problem: 'Unauthorized drones near airports and critical infrastructure are increasing 100%+ annually. Need automated detection, tracking, and neutralization that's safe in populated areas.',
+    problem: 'Unauthorized drones near airports and critical infrastructure are increasing 100%+ annually. Need automated detection, tracking, and neutralization that\'s safe in populated areas.',
     bounty: '$10B+ market',
     urgency: 'high',
     relatedCompanies: ['Epirus', 'Anduril Industries', 'Skydio'],
@@ -10992,7 +10992,7 @@ const GOV_CONTRACTS = [
     clearanceLevel: 'TS/SCI',
     contractMix: 'production, R&D, OTA',
     govRevenuePercent: '~90%+',
-    notes: 'Lattice OS is DoD's de facto autonomous C2 platform. Menlo Micro acquisition adds MEMS. Valued at ~$14B (2024).'
+    notes: 'Lattice OS is DoD\'s de facto autonomous C2 platform. Menlo Micro acquisition adds MEMS. Valued at ~$14B (2024).'
   },
   {
     id: 2,
@@ -11424,7 +11424,7 @@ const GOV_CONTRACTS = [
     clearanceLevel: 'Secret',
     contractMix: 'production, services',
     govRevenuePercent: '~80%+',
-    notes: 'Acquired by Axon (2024). Counter-UAS detection & airspace security. Now part of Axon's defense portfolio.'
+    notes: 'Acquired by Axon (2024). Counter-UAS detection & airspace security. Now part of Axon\'s defense portfolio.'
   },
   {
     id: 26,
@@ -11853,7 +11853,7 @@ const PATENT_INTEL = [
     ipMoatScore: 7,
     techAreas: ['Pulsed Fusion Reactors', 'Field-Reversed Configuration Plasma', 'Direct Energy Conversion'],
     notablePatents: ['Pulsed field-reversed configuration fusion reactor', 'Direct electricity extraction from fusion plasma without steam turbine'],
-    note: 'Helion's direct energy conversion approach is a key differentiator with strong IP protection. Microsoft PPA validates commercial viability of their approach.'
+    note: 'Helion\'s direct energy conversion approach is a key differentiator with strong IP protection. Microsoft PPA validates commercial viability of their approach.'
   },
   {
     company: 'Commonwealth Fusion Systems',
@@ -11953,7 +11953,7 @@ const PATENT_INTEL = [
     ipMoatScore: 7,
     techAreas: ['3D-Printed Rocket Manufacturing', 'Additive Manufacturing for Aerospace', 'Autonomous Rocket Factory'],
     notablePatents: ['Large-scale metal 3D printing for rocket structures (Stargate)', 'Automated quality inspection for additively manufactured aerospace components'],
-    note: 'Core IP is in Stargate - the world's largest metal 3D printer. Terran R (fully reusable) is next-gen vehicle. Pivot from Terran 1 to Terran R shows manufacturing IP flexibility.'
+    note: 'Core IP is in Stargate - the world\'s largest metal 3D printer. Terran R (fully reusable) is next-gen vehicle. Pivot from Terran 1 to Terran R shows manufacturing IP flexibility.'
   },
   {
     company: 'Rocket Lab',
@@ -12063,7 +12063,7 @@ const PATENT_INTEL = [
     ipMoatScore: 7,
     techAreas: ['Autonomous Surface Vessels', 'Ocean Data Collection Systems', 'Maritime ISR Platforms'],
     notablePatents: ['Wind and solar powered autonomous ocean vehicle', 'Distributed ocean sensing network using autonomous surface vessels'],
-    note: 'Operates world's largest fleet of autonomous ocean vehicles. Dual-use (climate data + defense ISR). Partnership with US Navy for maritime domain awareness.'
+    note: 'Operates world\'s largest fleet of autonomous ocean vehicles. Dual-use (climate data + defense ISR). Partnership with US Navy for maritime domain awareness.'
   },
   {
     company: 'Vast',
@@ -12113,7 +12113,7 @@ const PATENT_INTEL = [
     ipMoatScore: 3,
     techAreas: ['GPU Cloud Infrastructure', 'AI Compute Orchestration', 'Kubernetes for GPU Workloads'],
     notablePatents: ['GPU cluster orchestration for AI training workloads', 'Dynamic GPU resource allocation for inference serving'],
-    note: 'CoreWeave's moat is infrastructure scale and customer contracts rather than patents. Valued at $19B+. IP is primarily in orchestration software, not hardware. NVIDIA preferred partner.'
+    note: 'CoreWeave\'s moat is infrastructure scale and customer contracts rather than patents. Valued at $19B+. IP is primarily in orchestration software, not hardware. NVIDIA preferred partner.'
   },
   {
     company: 'Astranis',
@@ -12141,7 +12141,7 @@ const PATENT_INTEL = [
 // ALTERNATIVE DATA SIGNALS METHODOLOGY
 // ═══════════════════════════════════════════════════════════════════════════════
 // Alternative data provides leading indicators not captured in traditional metrics
-// These signals often predict company trajectory 6-12 months before it's visible
+// These signals often predict company trajectory 6-12 months before it\'s visible
 // in financials or press releases.
 //
 // DATA SOURCES:
@@ -12511,7 +12511,7 @@ const ALT_DATA_SIGNALS = [
     newsSentiment: 'positive',
     githubPresence: null,
     signalStrength: 8,
-    keySignal: 'US military's go-to American drone supplier amid China drone ban; X10 platform adoption across DoD branches signals defense revenue acceleration'
+    keySignal: 'US military\'s go-to American drone supplier amid China drone ban; X10 platform adoption across DoD branches signals defense revenue acceleration'
   },
   {
     company: 'Applied Intuition',
@@ -13293,7 +13293,7 @@ const NEWS_FEED = [
     source: 'Naval News',
     category: 'milestone',
     date: '2024-12-18',
-    summary: 'Saronic completed delivery of its first production autonomous surface vessel to the U.S. Navy, marking a major milestone in the company's push to scale unmanned maritime platforms.',
+    summary: 'Saronic completed delivery of its first production autonomous surface vessel to the U.S. Navy, marking a major milestone in the company\'s push to scale unmanned maritime platforms.',
     impact: 'high',
     sector: 'Defense & Security',
     url: '#'
@@ -13325,11 +13325,11 @@ const NEWS_FEED = [
   {
     id: 6,
     company: 'Helsing',
-    headline: 'Helsing raises $500M Series C to build Europe's sovereign defense AI stack',
+    headline: 'Helsing raises $500M Series C to build Europe\'s sovereign defense AI stack',
     source: 'Financial Times',
     category: 'funding',
     date: '2024-11-14',
-    summary: 'European defense AI firm Helsing closed a $500 million Series C round, making it one of Europe's most valuable defense startups as NATO allies increase sovereign tech spending.',
+    summary: 'European defense AI firm Helsing closed a $500 million Series C round, making it one of Europe\'s most valuable defense startups as NATO allies increase sovereign tech spending.',
     impact: 'high',
     sector: 'Defense & Security',
     url: '#'
@@ -13365,7 +13365,7 @@ const NEWS_FEED = [
     source: 'Wall Street Journal',
     category: 'contract',
     date: '2024-11-28',
-    summary: 'NATO selected Palantir's Artificial Intelligence Platform as the backbone for a new alliance-wide intelligence-sharing system, extending Palantir's footprint across all member nations.',
+    summary: 'NATO selected Palantir\'s Artificial Intelligence Platform as the backbone for a new alliance-wide intelligence-sharing system, extending Palantir\'s footprint across all member nations.',
     impact: 'high',
     sector: 'Defense & Security',
     url: '#'
@@ -13391,7 +13391,7 @@ const NEWS_FEED = [
     source: 'Reuters',
     category: 'regulatory',
     date: '2025-01-18',
-    summary: 'The Nuclear Regulatory Commission issued a design approval for Oklo's Aurora compact fast reactor, clearing a major regulatory hurdle and putting the company on track for first deployment by 2027.',
+    summary: 'The Nuclear Regulatory Commission issued a design approval for Oklo\'s Aurora compact fast reactor, clearing a major regulatory hurdle and putting the company on track for first deployment by 2027.',
     impact: 'high',
     sector: 'Nuclear Energy',
     url: '#'
@@ -13477,7 +13477,7 @@ const NEWS_FEED = [
     source: 'SpaceNews',
     category: 'milestone',
     date: '2025-01-15',
-    summary: 'SpaceX successfully caught both the Super Heavy booster and Starship upper stage using the launch tower's mechanical arms during the seventh integrated test flight, demonstrating full reusability.',
+    summary: 'SpaceX successfully caught both the Super Heavy booster and Starship upper stage using the launch tower\'s mechanical arms during the seventh integrated test flight, demonstrating full reusability.',
     impact: 'high',
     sector: 'Space & Aerospace',
     url: '#'
@@ -13513,7 +13513,7 @@ const NEWS_FEED = [
     source: 'Ars Technica',
     category: 'partnership',
     date: '2025-01-03',
-    summary: 'Vast announced its Haven-1 commercial space station module is on track for a 2026 launch aboard SpaceX's Falcon 9, with the first crewed mission planned shortly after orbital insertion.',
+    summary: 'Vast announced its Haven-1 commercial space station module is on track for a 2026 launch aboard SpaceX\'s Falcon 9, with the first crewed mission planned shortly after orbital insertion.',
     impact: 'medium',
     sector: 'Space & Aerospace',
     url: '#'
@@ -13575,7 +13575,7 @@ const NEWS_FEED = [
     source: 'Aviation Week',
     category: 'milestone',
     date: '2024-11-30',
-    summary: 'Boom Supersonic's XB-1 demonstrator aircraft broke the sound barrier in a test flight over the Mojave Desert, validating the aerodynamic design principles for the larger Overture airliner.',
+    summary: 'Boom Supersonic\'s XB-1 demonstrator aircraft broke the sound barrier in a test flight over the Mojave Desert, validating the aerodynamic design principles for the larger Overture airliner.',
     impact: 'high',
     sector: 'Supersonic & Hypersonic',
     url: '#'
@@ -13927,11 +13927,11 @@ const NEWS_FEED = [
   {
     id: 55,
     company: 'Heirloom Carbon',
-    headline: 'Heirloom Carbon opens world's largest direct air capture facility in Louisiana',
+    headline: 'Heirloom Carbon opens world\'s largest direct air capture facility in Louisiana',
     source: 'Washington Post',
     category: 'milestone',
     date: '2024-12-01',
-    summary: 'Heirloom Carbon Technologies opened the world's largest commercial direct air capture facility in Louisiana, capable of removing 20,000 tons of CO2 per year using its limestone-based process.',
+    summary: 'Heirloom Carbon Technologies opened the world\'s largest commercial direct air capture facility in Louisiana, capable of removing 20,000 tons of CO2 per year using its limestone-based process.',
     impact: 'high',
     sector: 'Climate & Energy',
     url: '#'
@@ -14103,7 +14103,7 @@ const NEWS_FEED = [
     source: 'Reuters',
     category: 'funding',
     date: '2024-12-26',
-    summary: 'Tenstorrent raised $400 million in a round led by Samsung to scale production of its RISC-V-based AI chips, positioning itself as the leading open-source alternative to Nvidia's proprietary ecosystem.',
+    summary: 'Tenstorrent raised $400 million in a round led by Samsung to scale production of its RISC-V-based AI chips, positioning itself as the leading open-source alternative to Nvidia\'s proprietary ecosystem.',
     impact: 'high',
     sector: 'Chips & Semiconductors',
     url: '#'
@@ -14112,7 +14112,7 @@ const NEWS_FEED = [
     id: 70,
     company: 'Astera Labs',
     headline: 'Astera Labs stock hits all-time high as AI connectivity demand surges',
-    source: 'Barron's',
+    source: 'Barron\'s',
     category: 'milestone',
     date: '2024-12-15',
     summary: 'Astera Labs shares reached an all-time high following strong quarterly results, driven by surging demand for its PCIe and CXL connectivity solutions that link GPUs in AI data centers.',
@@ -14245,7 +14245,7 @@ const NEWS_FEED = [
     source: 'Maritime Executive',
     category: 'milestone',
     date: '2024-12-05',
-    summary: 'Saildrone's autonomous surface vehicle fleet crossed 1 million cumulative nautical miles of ocean data collection, providing climate, weather, and maritime surveillance data to NOAA and Navy clients.',
+    summary: 'Saildrone\'s autonomous surface vehicle fleet crossed 1 million cumulative nautical miles of ocean data collection, providing climate, weather, and maritime surveillance data to NOAA and Navy clients.',
     impact: 'medium',
     sector: 'Ocean & Maritime',
     url: '#'
@@ -14306,7 +14306,7 @@ const STORY_LEADS = [
   {
     id: 1,
     title: 'Defense AI Convergence Accelerates',
-    description: 'Multiple signals converging: Anduril's massive $3B growth round + Shield AI's $680M USAF contract + Scale AI Pentagon data deal + Palantir NATO platform win suggest accelerating defense AI adoption across the entire Western alliance.',
+    description: 'Multiple signals converging: Anduril\'s massive $3B growth round + Shield AI\'s $680M USAF contract + Scale AI Pentagon data deal + Palantir NATO platform win suggest accelerating defense AI adoption across the entire Western alliance.',
     companies: ['Anduril Industries', 'Shield AI', 'Palantir', 'Scale AI'],
     signals: ['funding', 'contract', 'partnership'],
     confidence: 'high',
@@ -14346,7 +14346,7 @@ const STORY_LEADS = [
   {
     id: 5,
     title: 'AI Chip Architecture War Intensifies',
-    description: 'Cerebras filing for IPO + Etched raising for transformer ASICs + Lightmatter shipping photonic interconnects + Groq volume production + Tenstorrent's Samsung-backed open-source push — the post-GPU AI hardware ecosystem is materializing with multiple viable architectures.',
+    description: 'Cerebras filing for IPO + Etched raising for transformer ASICs + Lightmatter shipping photonic interconnects + Groq volume production + Tenstorrent\'s Samsung-backed open-source push — the post-GPU AI hardware ecosystem is materializing with multiple viable architectures.',
     companies: ['Cerebras', 'Etched', 'Lightmatter', 'Groq', 'Tenstorrent'],
     signals: ['ipo', 'funding', 'product', 'milestone'],
     confidence: 'high',
@@ -14376,7 +14376,7 @@ const STORY_LEADS = [
   {
     id: 8,
     title: 'Data Centers Driving Nuclear and Grid Infrastructure Boom',
-    description: 'NuScale data center consortium + Fervo Energy's record geothermal PPA + Amperon grid forecasting raise + Oklo's NRC milestone — the insatiable power demand from AI data centers is creating a cross-sector supercycle across nuclear, geothermal, and grid infrastructure.',
+    description: 'NuScale data center consortium + Fervo Energy\'s record geothermal PPA + Amperon grid forecasting raise + Oklo\'s NRC milestone — the insatiable power demand from AI data centers is creating a cross-sector supercycle across nuclear, geothermal, and grid infrastructure.',
     companies: ['NuScale Power', 'Fervo Energy', 'Amperon', 'Oklo'],
     signals: ['partnership', 'contract', 'funding', 'regulatory'],
     confidence: 'high',
@@ -14386,7 +14386,7 @@ const STORY_LEADS = [
   {
     id: 9,
     title: 'European Defense Tech Independence Movement',
-    description: 'Helsing's $500M raise + Quantum-Systems drone scaling + Milrem Robotics ground platform expansion — European defense startups are raising unprecedented capital as NATO allies pursue sovereign autonomous capabilities independent of U.S. prime contractors.',
+    description: 'Helsing\'s $500M raise + Quantum-Systems drone scaling + Milrem Robotics ground platform expansion — European defense startups are raising unprecedented capital as NATO allies pursue sovereign autonomous capabilities independent of U.S. prime contractors.',
     companies: ['Helsing', 'Quantum-Systems', 'Milrem Robotics'],
     signals: ['funding', 'contract', 'milestone'],
     confidence: 'medium',
@@ -14462,42 +14462,42 @@ const EXPERT_TAKES = [
   {
     author: 'Defense Tech Analyst',
     company: 'Anduril Industries',
-    text: 'Anduril's Lattice platform creates genuine network effects in defense — once adopted by one service branch, adjacent units want interoperability. The $12B Series G isn't just growth capital, it's a signal that the defense primes' 20-year software moat is crumbling. Watch for NATO adoption as the next catalyst.'
+    text: 'Anduril\'s Lattice platform creates genuine network effects in defense — once adopted by one service branch, adjacent units want interoperability. The $12B Series G isn\'t just growth capital, it\'s a signal that the defense primes' 20-year software moat is crumbling. Watch for NATO adoption as the next catalyst.'
   },
   {
     author: 'Energy Systems Researcher',
     company: 'Commonwealth Fusion Systems',
-    text: 'CFS's SPARC tokamak achieving net energy by 2027 would be the most significant physics milestone since the Manhattan Project. Their high-temperature superconducting magnets are already being commercialized for MRI and industrial applications — fusion success is almost a bonus at this point.'
+    text: 'CFS\'s SPARC tokamak achieving net energy by 2027 would be the most significant physics milestone since the Manhattan Project. Their high-temperature superconducting magnets are already being commercialized for MRI and industrial applications — fusion success is almost a bonus at this point.'
   },
   {
     author: 'Robotics VC Partner',
     company: 'Figure AI',
-    text: 'The humanoid robotics race has five serious contenders, but Figure's BMW partnership gives them something others lack: a paying customer with a specific use case at scale. The challenge is the perception gap — demos look amazing, but 99.9% reliability in unstructured environments remains 3-5 years away.'
+    text: 'The humanoid robotics race has five serious contenders, but Figure\'s BMW partnership gives them something others lack: a paying customer with a specific use case at scale. The challenge is the perception gap — demos look amazing, but 99.9% reliability in unstructured environments remains 3-5 years away.'
   },
   {
     author: 'Space Industry Consultant',
     company: 'SpaceX',
-    text: 'Starship changes the economics of everything beyond LEO. At $10M per 100-ton launch, space stations become construction projects, lunar bases become feasible, and Mars settlement enters the realm of expensive-but-possible. Every space company's business plan should be re-run with Starship pricing.'
+    text: 'Starship changes the economics of everything beyond LEO. At $10M per 100-ton launch, space stations become construction projects, lunar bases become feasible, and Mars settlement enters the realm of expensive-but-possible. Every space company\'s business plan should be re-run with Starship pricing.'
   },
   {
     author: 'AI Infrastructure Analyst',
     company: 'Anthropic',
-    text: 'Anthropic's constitutional AI approach is quietly becoming the enterprise standard. As regulatory frameworks tighten globally, companies that baked in safety from day one will have a structural advantage. The $60B valuation prices in both the model capability and the trust infrastructure.'
+    text: 'Anthropic\'s constitutional AI approach is quietly becoming the enterprise standard. As regulatory frameworks tighten globally, companies that baked in safety from day one will have a structural advantage. The $60B valuation prices in both the model capability and the trust infrastructure.'
   },
   {
     author: 'Nuclear Policy Advisor',
     company: 'Oklo',
-    text: 'Oklo's microreactor approach is the right architecture for the data center boom — modular, factory-built, deployable in 18 months vs. 10 years for traditional nuclear. The NRC licensing pathway they're pioneering will benefit every SMR company that follows. First-mover advantage in regulatory design.'
+    text: 'Oklo\'s microreactor approach is the right architecture for the data center boom — modular, factory-built, deployable in 18 months vs. 10 years for traditional nuclear. The NRC licensing pathway they\'re pioneering will benefit every SMR company that follows. First-mover advantage in regulatory design.'
   },
   {
     author: 'Manufacturing VC',
     company: 'Hadrian',
-    text: 'Hadrian is solving the actual bottleneck in defense production: precision machining capacity. The US has lost 40% of its machine shops since 2000. Hadrian's fully automated CNC factories can produce flight-quality parts 10x faster. This is infrastructure the DoD desperately needs.'
+    text: 'Hadrian is solving the actual bottleneck in defense production: precision machining capacity. The US has lost 40% of its machine shops since 2000. Hadrian\'s fully automated CNC factories can produce flight-quality parts 10x faster. This is infrastructure the DoD desperately needs.'
   },
   {
     author: 'Biotech Fund Manager',
     company: 'Altos Labs',
-    text: 'Cellular reprogramming represents a paradigm shift from treating disease symptoms to resetting cellular age. Altos has assembled the most impressive scientific team since Bell Labs — Yamanaka, Izpisua Belmonte, Wolf Reik. The $3B war chest buys 10+ years of patient research that public markets won't fund.'
+    text: 'Cellular reprogramming represents a paradigm shift from treating disease symptoms to resetting cellular age. Altos has assembled the most impressive scientific team since Bell Labs — Yamanaka, Izpisua Belmonte, Wolf Reik. The $3B war chest buys 10+ years of patient research that public markets won\'t fund.'
   }
 ];
 
@@ -15141,15 +15141,15 @@ const COMPANY_SIGNALS = [
   { id: 2, type: 'milestone', company: 'OpenAI', headline: 'OpenAI launches new agentic coding model only minutes after Anthropic drops its own', source: 'TechCrunch', time: '11h ago', impact: 'low', unread: true },
   { id: 3, type: 'milestone', company: 'OpenAI', headline: 'OpenAI launches a way for enterprises to build and manage AI agents', source: 'TechCrunch', time: '13h ago', impact: 'low', unread: true },
   { id: 4, type: 'news', company: 'Anthropic', headline: 'Anthropic releases Opus 4.6 with new 'agent teams'', source: 'TechCrunch', time: '14h ago', impact: 'low', unread: true },
-  { id: 5, type: 'news', company: 'OpenAI', headline: 'OpenAI is hoppin' mad about Anthropic's new Super Bowl TV ads', source: 'Ars Technica', time: '14h ago', impact: 'low', unread: true },
+  { id: 5, type: 'news', company: 'OpenAI', headline: 'OpenAI is hoppin mad about Anthropic\'s new Super Bowl TV ads', source: 'Ars Technica', time: '14h ago', impact: 'low', unread: true },
   { id: 6, type: 'hire', company: 'OpenAI', headline: 'ElevenLabs CEO: Voice is the next interface for AI', source: 'TechCrunch', time: '17h ago', impact: 'low', unread: false },
   { id: 7, type: 'news', company: 'Anthropic', headline: 'Should AI chatbots have ads? Anthropic says no.', source: 'Ars Technica', time: '1d ago', impact: 'low', unread: false },
-  { id: 8, type: 'news', company: 'OpenAI', headline: 'Nvidia's $100 billion OpenAI deal has seemingly vanished', source: 'Ars Technica', time: '2d ago', impact: 'high', unread: false },
+  { id: 8, type: 'news', company: 'OpenAI', headline: 'Nvidia\'s $100 billion OpenAI deal has seemingly vanished', source: 'Ars Technica', time: '2d ago', impact: 'high', unread: false },
   { id: 9, type: 'ipo', company: 'SpaceX', headline: 'SpaceX pauses Falcon 9 launches after upper stage anomaly', source: 'SpaceNews', time: '2d ago', impact: 'low', unread: false },
   { id: 10, type: 'ipo', company: 'SpaceX', headline: 'SpaceX acquires xAI in bid to develop orbital data centers', source: 'SpaceNews', time: '3d ago', impact: 'high', unread: false },
-  { id: 11, type: 'news', company: 'OpenAI', headline: 'New OpenAI tool renews fears that 'AI slop' will overwhelm scientific research', source: 'Ars Technica Space', time: '1/29/2026', impact: 'low', unread: false },
+  { id: 11, type: 'news', company: 'OpenAI', headline: 'New OpenAI tool renews fears that \'AI slop\' will overwhelm scientific research', source: 'Ars Technica Space', time: '1/29/2026', impact: 'low', unread: false },
   { id: 12, type: 'news', company: 'Anthropic', headline: 'Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?', source: 'Ars Technica', time: '1/29/2026', impact: 'low', unread: false },
-  { id: 13, type: 'news', company: 'Cobot', headline: 'Defense Business Brief: Fairbanks' engine cobots; 2025 Q4 earnings; and a bit more', source: 'Defense One', time: '1/29/2026', impact: 'low', unread: false },
+  { id: 13, type: 'news', company: 'Cobot', headline: 'Defense Business Brief: Fairbanks engine cobots; 2025 Q4 earnings; and a bit more', source: 'Defense One', time: '1/29/2026', impact: 'low', unread: false },
   { id: 14, type: 'news', company: 'OpenAI', headline: 'OpenAI spills technical details about how its AI coding agent works', source: 'Ars Technica', time: '1/26/2026', impact: 'low', unread: false },
 ];
 
