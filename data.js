@@ -90,7 +90,7 @@ const COMPANIES = [
       bear: 'Government procurement cycles slow adoption. Commercial applications remain limited. Key-person risk around Palmer Luckey.',
       risks: ['DoD budget politics', 'AI weapons regulation', 'Single-customer concentration', 'Key-person risk']
     },
-    recentEvent: { type: 'valuation', text: 'Secondary market valuation reaches $78B+, will 'definitely' go public', date: '2026-01' },
+    recentEvent: { type: 'valuation', text: 'Secondary market valuation reaches $78B+, will definitely go public', date: '2026-01' },
     tbpnMentioned: true,
     addedDate: '2024-06'
   },
