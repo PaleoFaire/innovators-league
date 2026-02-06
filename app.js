@@ -7,6 +7,23 @@ const US_STATES = new Set([
   'OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC'
 ]);
 
+// State code to full name mapping
+const STATE_NAMES = {
+  'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas',
+  'CA': 'California', 'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware',
+  'FL': 'Florida', 'GA': 'Georgia', 'HI': 'Hawaii', 'ID': 'Idaho',
+  'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa', 'KS': 'Kansas',
+  'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland',
+  'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi',
+  'MO': 'Missouri', 'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada',
+  'NH': 'New Hampshire', 'NJ': 'New Jersey', 'NM': 'New Mexico', 'NY': 'New York',
+  'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio', 'OK': 'Oklahoma',
+  'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
+  'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah',
+  'VT': 'Vermont', 'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia',
+  'WI': 'Wisconsin', 'WY': 'Wyoming', 'DC': 'Washington D.C.'
+};
+
 // Unambiguous international codes (no US state conflict)
 const INTL_CODES = {
   'UK': 'United Kingdom', 'GB': 'United Kingdom',
@@ -807,6 +824,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initStats();
   initMap();
   initFilters();
+  initAIQuery();
   renderCompanies(COMPANIES);
   renderSectors();
   initSearch();
@@ -818,7 +836,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initFeatured();
   initMovementTracker();
   initWeeklyDigest();
+  initAnomalyAlerts();
   initLeaderboard();
+  initEfficiencyLeaderboard();
   initTRLDashboard();
   initDealTracker();
   initGrowthSignals();
@@ -827,6 +847,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initRevenueTable();
   initRequestForStartups();
   initNewsTicker();
+  initInnovator50();
   initMarketPulse();
   initFundingTracker();
   initSectorMomentum();
@@ -1045,7 +1066,30 @@ function initFilters() {
     opt.textContent = country;
     countryFilter.appendChild(opt);
   });
-  countryFilter.addEventListener('change', applyFilters);
+  countryFilter.addEventListener('change', () => {
+    updateStateFilterVisibility();
+    applyFilters();
+  });
+
+  // State dropdown (US only)
+  const stateFilter = document.getElementById('state-filter');
+  const usStatesInData = new Set();
+  COMPANIES.forEach(c => {
+    if (US_STATES.has(c.state) && getCountry(c.state, c.location) === 'United States') {
+      usStatesInData.add(c.state);
+    }
+  });
+  const sortedStates = [...usStatesInData].sort((a, b) =>
+    (STATE_NAMES[a] || a).localeCompare(STATE_NAMES[b] || b)
+  );
+  sortedStates.forEach(code => {
+    const opt = document.createElement('option');
+    opt.value = code;
+    opt.textContent = STATE_NAMES[code] || code;
+    stateFilter.appendChild(opt);
+  });
+  stateFilter.addEventListener('change', applyFilters);
+  updateStateFilterVisibility();
 
   // Stage dropdown
   const stageFilter = document.getElementById('stage-filter');
@@ -1065,6 +1109,7 @@ function initFilters() {
 function applyFilters() {
   const sector = document.getElementById('sector-filter').value;
   const country = document.getElementById('country-filter').value;
+  const stateCode = document.getElementById('state-filter')?.value;
   const stage = document.getElementById('stage-filter').value;
   const sortBy = document.getElementById('sort-filter').value;
   const searchTerm = document.getElementById('search-input').value.toLowerCase();
@@ -1077,6 +1122,12 @@ function applyFilters() {
 
   if (country && country !== 'all') {
     filtered = filtered.filter(c => getCountry(c.state, c.location) === country);
+  }
+
+  if (stateCode && stateCode !== 'all') {
+    filtered = filtered.filter(c =>
+      c.state === stateCode && getCountry(c.state, c.location) === 'United States'
+    );
   }
 
   if (stage && stage !== 'all') {
@@ -1141,6 +1192,8 @@ function applyFilters() {
   else url.searchParams.delete('sector');
   if (country && country !== 'all') url.searchParams.set('country', country);
   else url.searchParams.delete('country');
+  if (stateCode && stateCode !== 'all') url.searchParams.set('state', stateCode);
+  else url.searchParams.delete('state');
   if (searchTerm) url.searchParams.set('q', searchTerm);
   else url.searchParams.delete('q');
   url.searchParams.delete('company');
@@ -1154,6 +1207,22 @@ function updateResultsCount(count) {
   const el = document.getElementById('results-count');
   if (el) {
     el.textContent = `Showing ${count} ${count === 1 ? 'company' : 'companies'}`;
+  }
+}
+
+function updateStateFilterVisibility() {
+  const countryFilter = document.getElementById('country-filter');
+  const stateFilterContainer = document.getElementById('state-filter-container');
+  const stateFilter = document.getElementById('state-filter');
+  const selectedCountry = countryFilter?.value;
+
+  if (stateFilterContainer) {
+    if (selectedCountry === 'all' || selectedCountry === 'United States') {
+      stateFilterContainer.style.display = 'block';
+    } else {
+      stateFilterContainer.style.display = 'none';
+      if (stateFilter) stateFilter.value = 'all';
+    }
   }
 }
 
@@ -1749,6 +1818,161 @@ function initLeaderboard() {
   renderLeaderboard();
 }
 
+// ─── CAPITAL EFFICIENCY LEADERBOARD ───
+function initEfficiencyLeaderboard() {
+  const grid = document.getElementById('efficiency-grid');
+  if (!grid) return;
+
+  // Populate sector dropdown
+  const sectorSelect = document.getElementById('eff-sector');
+  if (sectorSelect) {
+    const sectors = [...new Set(COMPANIES.map(c => c.sector))].sort();
+    sectors.forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s;
+      opt.textContent = s;
+      sectorSelect.appendChild(opt);
+    });
+  }
+
+  function renderEfficiencyLeaderboard() {
+    grid.innerHTML = '';
+    const metric = document.getElementById('eff-metric')?.value || 'valToFunding';
+    const stage = document.getElementById('eff-stage')?.value || 'all';
+    const sector = document.getElementById('eff-sector')?.value || 'all';
+    const countVal = document.getElementById('eff-count')?.value || '25';
+
+    // Filter companies with both valuation and funding data
+    let filtered = COMPANIES.filter(c => {
+      const val = parseValuation(c.valuation);
+      const raised = parseFunding(c.totalRaised);
+      return val > 0 && raised > 0;
+    });
+
+    // Stage filter
+    if (stage === 'early') {
+      filtered = filtered.filter(c =>
+        c.fundingStage === 'Seed' || c.fundingStage === 'Series A' || c.fundingStage === 'Series B'
+      );
+    } else if (stage === 'growth') {
+      filtered = filtered.filter(c =>
+        c.fundingStage === 'Series C' || c.fundingStage === 'Series D+' ||
+        c.fundingStage === 'Late Stage' || c.fundingStage === 'Pre-IPO'
+      );
+    }
+
+    // Sector filter
+    if (sector !== 'all') {
+      filtered = filtered.filter(c => c.sector === sector);
+    }
+
+    // Calculate efficiency metrics
+    filtered = filtered.map(c => {
+      const val = parseValuation(c.valuation);
+      const raised = parseFunding(c.totalRaised);
+      const efficiency = raised > 0 ? val / raised : 0;
+      return {
+        ...c,
+        _val: val,
+        _raised: raised,
+        _efficiency: efficiency
+      };
+    });
+
+    // Sort by efficiency (valuation to funding ratio)
+    filtered.sort((a, b) => b._efficiency - a._efficiency);
+
+    const totalCount = filtered.length;
+    const maxCount = countVal === 'all' ? filtered.length : parseInt(countVal);
+    filtered = filtered.slice(0, maxCount);
+
+    // Stats
+    const statsEl = document.getElementById('eff-stats');
+    if (statsEl) {
+      const avgEfficiency = filtered.length > 0
+        ? filtered.reduce((sum, c) => sum + c._efficiency, 0) / filtered.length
+        : 0;
+      const medianEfficiency = filtered.length > 0
+        ? filtered[Math.floor(filtered.length / 2)]._efficiency
+        : 0;
+      statsEl.innerHTML = `
+        <span class="lb-stat"><strong>${filtered.length}</strong> of ${totalCount} companies</span>
+        <span class="lb-stat">Avg Multiple: <strong>${avgEfficiency.toFixed(1)}x</strong></span>
+        <span class="lb-stat">Median: <strong>${medianEfficiency.toFixed(1)}x</strong></span>
+      `;
+    }
+
+    // Find max efficiency for bar scaling
+    const maxEfficiency = filtered.length > 0 ? filtered[0]._efficiency : 1;
+
+    // Sector benchmarks for context
+    const sectorBenchmarks = {
+      'Defense Technology': 8,
+      'Space Technology': 6,
+      'AI Infrastructure': 12,
+      'Autonomous Vehicles': 5,
+      'Energy & Fusion': 4,
+      'Robotics': 6,
+      'Aerospace & Aviation': 5,
+      'Quantum Computing': 3,
+      'Biotech': 4,
+      'Semiconductors': 7,
+      'Climate Tech': 5,
+      'Advanced Manufacturing': 6
+    };
+
+    filtered.forEach((c, i) => {
+      const rank = i + 1;
+      const rankClass = rank === 1 ? 'gold' : rank === 2 ? 'silver' : rank === 3 ? 'bronze' : 'normal';
+      const rankSymbol = rank <= 3 ? ['🥇','🥈','🥉'][rank - 1] : `#${rank}`;
+      const sectorInfo = SECTORS[c.sector] || { icon: '📦', color: '#6b7280' };
+      const barWidth = maxEfficiency > 0 ? (c._efficiency / maxEfficiency * 100) : 0;
+      const benchmark = sectorBenchmarks[c.sector] || 5;
+      const vsBenchmark = c._efficiency >= benchmark ? 'above' : 'below';
+      const benchmarkDiff = ((c._efficiency - benchmark) / benchmark * 100).toFixed(0);
+
+      const row = document.createElement('div');
+      row.className = 'efficiency-row';
+      row.innerHTML = `
+        <div class="leaderboard-rank ${rankClass}">${rankSymbol}</div>
+        <div class="leaderboard-company">
+          <span class="leaderboard-name">${c.name}</span>
+          <span class="leaderboard-sector">${sectorInfo.icon} ${c.sector}</span>
+        </div>
+        <div class="efficiency-multiple">
+          <span class="efficiency-value">${c._efficiency.toFixed(1)}x</span>
+          <span class="efficiency-benchmark ${vsBenchmark}">${vsBenchmark === 'above' ? '+' : ''}${benchmarkDiff}% vs sector</span>
+        </div>
+        <div class="leaderboard-bar">
+          <div class="leaderboard-bar-fill efficiency-bar" style="width: 0%"></div>
+        </div>
+        <div class="efficiency-details">
+          <span class="eff-val">${formatValuation(c._val)}</span>
+          <span class="eff-divider">/</span>
+          <span class="eff-raised">${formatValuation(c._raised)}</span>
+        </div>
+        <div class="leaderboard-stage">${c.fundingStage || ''}</div>
+      `;
+
+      row.addEventListener('click', () => openCompanyModal(c.name));
+      grid.appendChild(row);
+
+      // Animate bar
+      setTimeout(() => {
+        row.querySelector('.leaderboard-bar-fill').style.width = `${barWidth}%`;
+      }, 80 + i * 40);
+    });
+  }
+
+  // Attach event listeners
+  ['eff-metric', 'eff-stage', 'eff-sector', 'eff-count'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('change', renderEfficiencyLeaderboard);
+  });
+
+  renderEfficiencyLeaderboard();
+}
+
 // ─── ENHANCED COMPARE VIEW ───
 function openCompareView() {
   if (compareList.length < 2) return;
@@ -1758,6 +1982,15 @@ function openCompareView() {
 
   const cols = companies.length + 1;
   const gridCols = `180px repeat(${companies.length}, 1fr)`;
+
+  // Color palette for radar chart
+  const chartColors = [
+    { bg: 'rgba(255, 107, 44, 0.2)', border: '#ff6b2c' },
+    { bg: 'rgba(34, 197, 94, 0.2)', border: '#22c55e' },
+    { bg: 'rgba(96, 165, 250, 0.2)', border: '#60a5fa' },
+    { bg: 'rgba(168, 85, 247, 0.2)', border: '#a855f7' },
+    { bg: 'rgba(236, 72, 153, 0.2)', border: '#ec4899' }
+  ];
 
   const metrics = [
     { label: 'Sector', key: c => c.sector },
@@ -1776,6 +2009,24 @@ function openCompareView() {
     { label: 'Latest Event', key: c => c.recentEvent ? c.recentEvent.text : 'N/A' }
   ];
 
+  // Generate key differentiators
+  const differentiators = [];
+  const valMetrics = ['team', 'traction', 'techMoat', 'market', 'momentum'];
+  valMetrics.forEach(m => {
+    const vals = companies.map(c => c.scores ? c.scores[m] || 0 : 0);
+    const maxIdx = vals.indexOf(Math.max(...vals));
+    const minIdx = vals.indexOf(Math.min(...vals));
+    if (vals[maxIdx] - vals[minIdx] >= 2) {
+      differentiators.push({
+        metric: m.charAt(0).toUpperCase() + m.slice(1).replace(/([A-Z])/g, ' $1'),
+        leader: companies[maxIdx].name,
+        value: vals[maxIdx],
+        diff: vals[maxIdx] - vals[minIdx]
+      });
+    }
+  });
+  differentiators.sort((a, b) => b.diff - a.diff);
+
   const body = document.getElementById('modal-body');
   body.innerHTML = `
     <div style="margin-bottom: 20px;">
@@ -1784,7 +2035,40 @@ function openCompareView() {
       <p style="color: var(--text-muted); font-size: 14px;">Side-by-side analysis of ${companies.length} companies</p>
     </div>
 
-    <div class="compare-grid">
+    <!-- Radar Chart Section -->
+    <div class="compare-radar-section">
+      <h3 style="font-family: var(--font-display); font-size: 16px; color: var(--text-primary); margin-bottom: 16px;">Score Comparison</h3>
+      <div class="compare-radar-container">
+        <canvas id="compare-radar-chart" width="400" height="300"></canvas>
+      </div>
+      <div class="compare-legend">
+        ${companies.map((c, i) => `
+          <div class="compare-legend-item">
+            <span class="compare-legend-color" style="background: ${chartColors[i % chartColors.length].border}"></span>
+            <span class="compare-legend-name">${c.name}</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+
+    <!-- Key Differentiators -->
+    ${differentiators.length > 0 ? `
+    <div class="compare-differentiators">
+      <h3 style="font-family: var(--font-display); font-size: 16px; color: var(--text-primary); margin-bottom: 12px;">Key Differentiators</h3>
+      <div class="differentiator-grid">
+        ${differentiators.slice(0, 3).map(d => `
+          <div class="differentiator-card">
+            <span class="differentiator-metric">${d.metric}</span>
+            <span class="differentiator-leader">${d.leader}</span>
+            <span class="differentiator-value">${d.value}/10 (+${d.diff.toFixed(1)} lead)</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    ` : ''}
+
+    <!-- Metrics Table -->
+    <div class="compare-grid" style="margin-top: 24px;">
       <div class="compare-header-row" style="display: grid; grid-template-columns: ${gridCols};">
         <div class="compare-label">Metric</div>
         ${companies.map(c => {
@@ -1802,10 +2086,156 @@ function openCompareView() {
         </div>
       `).join('')}
     </div>
+
+    <!-- Share/Export -->
+    <div class="compare-actions-footer">
+      <button class="compare-share-btn" onclick="shareComparison()">Share Comparison</button>
+      <button class="compare-export-btn" onclick="exportComparisonPDF()">Export PDF</button>
+    </div>
   `;
 
   document.getElementById('modal-overlay').classList.add('active');
   document.body.style.overflow = 'hidden';
+
+  // Initialize radar chart after DOM is ready
+  setTimeout(() => {
+    const ctx = document.getElementById('compare-radar-chart');
+    if (ctx && typeof Chart !== 'undefined') {
+      new Chart(ctx, {
+        type: 'radar',
+        data: {
+          labels: ['Team', 'Traction', 'Tech Moat', 'Market', 'Momentum'],
+          datasets: companies.map((c, i) => ({
+            label: c.name,
+            data: c.scores ? [
+              c.scores.team || 0,
+              c.scores.traction || 0,
+              c.scores.techMoat || 0,
+              c.scores.market || 0,
+              c.scores.momentum || 0
+            ] : [0, 0, 0, 0, 0],
+            backgroundColor: chartColors[i % chartColors.length].bg,
+            borderColor: chartColors[i % chartColors.length].border,
+            borderWidth: 2,
+            pointBackgroundColor: chartColors[i % chartColors.length].border,
+            pointBorderColor: '#fff',
+            pointHoverBackgroundColor: '#fff',
+            pointHoverBorderColor: chartColors[i % chartColors.length].border
+          }))
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            r: {
+              beginAtZero: true,
+              max: 10,
+              ticks: {
+                stepSize: 2,
+                color: '#9ca3af',
+                backdropColor: 'transparent'
+              },
+              pointLabels: {
+                color: '#e5e7eb',
+                font: { family: "'Space Grotesk', sans-serif", size: 12, weight: 600 }
+              },
+              grid: { color: 'rgba(255,255,255,0.1)' },
+              angleLines: { color: 'rgba(255,255,255,0.1)' }
+            }
+          },
+          plugins: {
+            legend: { display: false }
+          }
+        }
+      });
+    }
+  }, 100);
+}
+
+// Share comparison URL
+function shareComparison() {
+  const url = new URL(window.location);
+  url.searchParams.set('compare', compareList.join(','));
+  navigator.clipboard.writeText(url.toString()).then(() => {
+    alert('Comparison URL copied to clipboard!');
+  });
+}
+
+// Export comparison to PDF
+function exportComparisonPDF() {
+  if (typeof jspdf === 'undefined') {
+    alert('PDF export not available');
+    return;
+  }
+
+  const companies = compareList.map(name => COMPANIES.find(c => c.name === name)).filter(Boolean);
+  const { jsPDF } = jspdf;
+  const doc = new jsPDF();
+
+  // Title
+  doc.setFontSize(20);
+  doc.setTextColor(255, 107, 44);
+  doc.text('Company Comparison', 20, 20);
+
+  doc.setFontSize(10);
+  doc.setTextColor(100);
+  doc.text('The Innovators League', 20, 28);
+  doc.text(new Date().toLocaleDateString(), 20, 34);
+
+  // Company names
+  doc.setFontSize(14);
+  doc.setTextColor(0);
+  let y = 50;
+  companies.forEach((c, i) => {
+    doc.text(`${i + 1}. ${c.name}`, 20, y);
+    doc.setFontSize(10);
+    doc.setTextColor(100);
+    doc.text(`${c.sector} | ${c.fundingStage || 'N/A'} | ${c.valuation || 'N/A'}`, 30, y + 6);
+    doc.setFontSize(14);
+    doc.setTextColor(0);
+    y += 18;
+  });
+
+  // Scores table
+  y += 10;
+  doc.setFontSize(12);
+  doc.text('Score Comparison', 20, y);
+  y += 10;
+
+  const scoreLabels = ['Team', 'Traction', 'Tech Moat', 'Market', 'Momentum', 'Average'];
+  doc.setFontSize(9);
+  doc.setTextColor(100);
+
+  // Header row
+  let x = 20;
+  doc.text('Metric', x, y);
+  companies.forEach((c, i) => {
+    x += 40;
+    doc.text(c.name.substring(0, 15), x, y);
+  });
+  y += 8;
+
+  doc.setTextColor(0);
+  scoreLabels.forEach(label => {
+    x = 20;
+    doc.text(label, x, y);
+    companies.forEach(c => {
+      x += 40;
+      let val = 'N/A';
+      if (c.scores) {
+        if (label === 'Average') {
+          val = getAverageScore(c.scores).toFixed(1);
+        } else {
+          const key = label.toLowerCase().replace(' ', '');
+          val = c.scores[key] ? c.scores[key].toString() : 'N/A';
+        }
+      }
+      doc.text(val, x, y);
+    });
+    y += 6;
+  });
+
+  doc.save('company-comparison.pdf');
 }
 
 // ─── SMOOTH SCROLL (runs after DOMContentLoaded via initSmoothScroll) ───
@@ -3244,6 +3674,644 @@ Structure with:
     generateBtn.disabled = false;
     generateBtn.textContent = '\u26a1 Generate Memo';
   });
+}
+
+// ═══════════════════════════════════════════════════════
+// AI QUERY INTERFACE — NATURAL LANGUAGE SEARCH
+// ═══════════════════════════════════════════════════════
+function initAIQuery() {
+  const queryInput = document.getElementById('ai-query-input');
+  const queryBtn = document.getElementById('ai-query-btn');
+  const resultDiv = document.getElementById('ai-query-result');
+
+  if (!queryInput || !queryBtn) return;
+
+  // Query suggestion chips
+  document.querySelectorAll('.ai-suggestion').forEach(chip => {
+    chip.addEventListener('click', () => {
+      queryInput.value = chip.dataset.query;
+      executeAIQuery(chip.dataset.query);
+    });
+  });
+
+  // Search button click
+  queryBtn.addEventListener('click', () => {
+    const query = queryInput.value.trim();
+    if (query) executeAIQuery(query);
+  });
+
+  // Enter key
+  queryInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const query = queryInput.value.trim();
+      if (query) executeAIQuery(query);
+    }
+  });
+
+  function executeAIQuery(query) {
+    // Parse the natural language query locally
+    const parsed = parseNaturalLanguageQuery(query);
+
+    // Show interpretation
+    if (resultDiv) {
+      resultDiv.style.display = 'block';
+      resultDiv.innerHTML = `
+        <div class="ai-query-interpretation">
+          <span class="ai-interpretation-label">Interpreted as:</span>
+          <span class="ai-interpretation-text">${parsed.explanation}</span>
+        </div>
+      `;
+    }
+
+    // Apply the parsed filters
+    applyParsedQuery(parsed);
+  }
+
+  function parseNaturalLanguageQuery(query) {
+    const q = query.toLowerCase();
+    const result = {
+      sector: null,
+      country: null,
+      state: null,
+      stage: null,
+      minFunding: null,
+      minValuation: null,
+      foundedAfter: null,
+      hasGovContracts: false,
+      searchTerm: null,
+      explanation: ''
+    };
+
+    const explanationParts = [];
+
+    // Sector detection
+    const sectorKeywords = {
+      'defense': 'Defense Technology',
+      'defence': 'Defense Technology',
+      'military': 'Defense Technology',
+      'space': 'Space Technology',
+      'aerospace': 'Aerospace & Aviation',
+      'aviation': 'Aerospace & Aviation',
+      'ai': 'AI Infrastructure',
+      'artificial intelligence': 'AI Infrastructure',
+      'robotics': 'Robotics',
+      'robot': 'Robotics',
+      'energy': 'Energy & Fusion',
+      'fusion': 'Energy & Fusion',
+      'nuclear': 'Energy & Fusion',
+      'autonomous': 'Autonomous Vehicles',
+      'self-driving': 'Autonomous Vehicles',
+      'semiconductor': 'Semiconductors',
+      'chip': 'Semiconductors',
+      'climate': 'Climate Tech',
+      'manufacturing': 'Advanced Manufacturing',
+      'biotech': 'Biotech',
+      'quantum': 'Quantum Computing'
+    };
+
+    for (const [keyword, sector] of Object.entries(sectorKeywords)) {
+      if (q.includes(keyword)) {
+        result.sector = sector;
+        explanationParts.push(`sector: ${sector}`);
+        break;
+      }
+    }
+
+    // State detection (US states)
+    const statePatterns = {
+      'california': 'CA', 'ca': 'CA',
+      'texas': 'TX', 'tx': 'TX',
+      'new york': 'NY', 'ny': 'NY',
+      'florida': 'FL', 'fl': 'FL',
+      'washington': 'WA', 'wa': 'WA',
+      'colorado': 'CO', 'co': 'CO',
+      'virginia': 'VA', 'va': 'VA',
+      'massachusetts': 'MA', 'ma': 'MA',
+      'arizona': 'AZ', 'az': 'AZ',
+      'ohio': 'OH',
+      'georgia': 'GA',
+      'michigan': 'MI',
+      'pennsylvania': 'PA',
+      'el segundo': 'CA',
+      'silicon valley': 'CA',
+      'san francisco': 'CA',
+      'los angeles': 'CA',
+      'austin': 'TX',
+      'seattle': 'WA',
+      'boston': 'MA',
+      'denver': 'CO'
+    };
+
+    for (const [pattern, stateCode] of Object.entries(statePatterns)) {
+      if (q.includes(pattern)) {
+        result.state = stateCode;
+        result.country = 'United States';
+        explanationParts.push(`state: ${STATE_NAMES[stateCode] || stateCode}`);
+        break;
+      }
+    }
+
+    // Country detection
+    if (!result.state) {
+      const countryPatterns = {
+        'united states': 'United States', 'usa': 'United States', 'us': 'United States', 'american': 'United States',
+        'united kingdom': 'United Kingdom', 'uk': 'United Kingdom', 'british': 'United Kingdom',
+        'germany': 'Germany', 'german': 'Germany',
+        'france': 'France', 'french': 'France',
+        'israel': 'Israel', 'israeli': 'Israel',
+        'canada': 'Canada', 'canadian': 'Canada'
+      };
+
+      for (const [pattern, country] of Object.entries(countryPatterns)) {
+        if (q.includes(pattern)) {
+          result.country = country;
+          explanationParts.push(`country: ${country}`);
+          break;
+        }
+      }
+    }
+
+    // Stage detection
+    const stagePatterns = {
+      'seed': 'Seed',
+      'series a': 'Series A',
+      'series b': 'Series B',
+      'series c': 'Series C',
+      'series d': 'Series D+',
+      'late stage': 'Late Stage',
+      'pre-ipo': 'Pre-IPO',
+      'public': 'Public',
+      'growth stage': ['Series B', 'Series C', 'Series D+', 'Late Stage'],
+      'early stage': ['Seed', 'Series A']
+    };
+
+    for (const [pattern, stage] of Object.entries(stagePatterns)) {
+      if (q.includes(pattern)) {
+        result.stage = stage;
+        explanationParts.push(`stage: ${Array.isArray(stage) ? stage.join(' or ') : stage}`);
+        break;
+      }
+    }
+
+    // Funding amount detection
+    const fundingMatch = q.match(/(?:over|more than|at least|>\s*)?\$?(\d+(?:\.\d+)?)\s*(billion|b|million|m)\s*(?:funding|raised)?/i);
+    if (fundingMatch) {
+      let amount = parseFloat(fundingMatch[1]);
+      const unit = fundingMatch[2].toLowerCase();
+      if (unit === 'billion' || unit === 'b') amount *= 1000000000;
+      else if (unit === 'million' || unit === 'm') amount *= 1000000;
+      result.minFunding = amount;
+      explanationParts.push(`min funding: $${formatValuation(amount)}`);
+    }
+
+    // Valuation detection
+    const valuationMatch = q.match(/(?:valuation|valued at|worth).*?(?:over|more than|at least)?\s*\$?(\d+(?:\.\d+)?)\s*(billion|b|million|m)/i);
+    if (valuationMatch) {
+      let amount = parseFloat(valuationMatch[1]);
+      const unit = valuationMatch[2].toLowerCase();
+      if (unit === 'billion' || unit === 'b') amount *= 1000000000;
+      else if (unit === 'million' || unit === 'm') amount *= 1000000;
+      result.minValuation = amount;
+      explanationParts.push(`min valuation: $${formatValuation(amount)}`);
+    }
+
+    // Unicorn detection
+    if (q.includes('unicorn')) {
+      result.minValuation = 1000000000;
+      explanationParts.push('valuation: $1B+ (unicorn)');
+    }
+
+    // Year founded detection
+    const yearMatch = q.match(/(?:founded|started|created)\s*(?:after|since|in)\s*(\d{4})/i);
+    if (yearMatch) {
+      result.foundedAfter = parseInt(yearMatch[1]);
+      explanationParts.push(`founded after: ${yearMatch[1]}`);
+    }
+
+    // Government contracts
+    if (q.includes('government') || q.includes('gov contract') || q.includes('gov-backed') || q.includes('federal') || q.includes('dod') || q.includes('defense contract')) {
+      result.hasGovContracts = true;
+      explanationParts.push('has government contracts');
+    }
+
+    result.explanation = explanationParts.length > 0
+      ? explanationParts.join(' | ')
+      : 'Showing all companies (no specific filters detected)';
+
+    return result;
+  }
+
+  function applyParsedQuery(parsed) {
+    // Set filters
+    if (parsed.sector) {
+      const sectorFilter = document.getElementById('sector-filter');
+      if (sectorFilter) {
+        // Find the matching option
+        const options = sectorFilter.options;
+        for (let i = 0; i < options.length; i++) {
+          if (options[i].value === parsed.sector) {
+            sectorFilter.value = parsed.sector;
+            break;
+          }
+        }
+      }
+      // Sync chips
+      document.querySelectorAll('.chip').forEach(c => {
+        c.classList.toggle('active', c.dataset.sector === parsed.sector);
+      });
+    }
+
+    if (parsed.country) {
+      const countryFilter = document.getElementById('country-filter');
+      if (countryFilter) countryFilter.value = parsed.country;
+    }
+
+    if (parsed.state) {
+      const stateFilter = document.getElementById('state-filter');
+      if (stateFilter) stateFilter.value = parsed.state;
+      updateStateFilterVisibility();
+    }
+
+    if (parsed.stage && !Array.isArray(parsed.stage)) {
+      const stageFilter = document.getElementById('stage-filter');
+      if (stageFilter) stageFilter.value = parsed.stage;
+    }
+
+    // Apply filters with additional constraints
+    let filtered = COMPANIES;
+
+    // Apply standard filters
+    if (parsed.sector) {
+      filtered = filtered.filter(c => c.sector === parsed.sector);
+    }
+    if (parsed.country) {
+      filtered = filtered.filter(c => getCountry(c.state, c.location) === parsed.country);
+    }
+    if (parsed.state) {
+      filtered = filtered.filter(c => c.state === parsed.state);
+    }
+    if (parsed.stage) {
+      if (Array.isArray(parsed.stage)) {
+        filtered = filtered.filter(c => parsed.stage.includes(c.fundingStage));
+      } else {
+        filtered = filtered.filter(c => c.fundingStage === parsed.stage);
+      }
+    }
+
+    // Additional filters
+    if (parsed.minFunding) {
+      filtered = filtered.filter(c => {
+        const raised = parseFunding(c.totalRaised);
+        return raised >= parsed.minFunding;
+      });
+    }
+
+    if (parsed.minValuation) {
+      filtered = filtered.filter(c => {
+        const val = parseValuation(c.valuation);
+        return val >= parsed.minValuation;
+      });
+    }
+
+    if (parsed.foundedAfter) {
+      filtered = filtered.filter(c => {
+        const founded = parseInt(c.founded);
+        return founded && founded >= parsed.foundedAfter;
+      });
+    }
+
+    if (parsed.hasGovContracts && typeof GOV_CONTRACTS !== 'undefined') {
+      const companiesWithContracts = new Set(GOV_CONTRACTS.map(c => c.company));
+      filtered = filtered.filter(c => companiesWithContracts.has(c.name));
+    }
+
+    // Render results
+    renderCompanies(filtered);
+    updateResultsCount(filtered.length);
+
+    // Scroll to results
+    document.getElementById('company-grid')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// ROS INNOVATOR 50 — ANNUAL RANKING
+// ═══════════════════════════════════════════════════════
+function initInnovator50() {
+  if (typeof INNOVATOR_50 === 'undefined' || typeof INNOVATOR_50_META === 'undefined') return;
+
+  const grid = document.getElementById('innovator50-grid');
+  if (!grid) return;
+
+  // Populate category filter
+  const categoryFilter = document.getElementById('i50-category');
+  if (categoryFilter) {
+    const categories = [...new Set(INNOVATOR_50.map(c => c.category))].sort();
+    categories.forEach(cat => {
+      const opt = document.createElement('option');
+      opt.value = cat;
+      opt.textContent = cat;
+      categoryFilter.appendChild(opt);
+    });
+  }
+
+  function renderInnovator50() {
+    const selectedCategory = document.getElementById('i50-category')?.value || 'all';
+
+    let items = [...INNOVATOR_50];
+    if (selectedCategory !== 'all') {
+      items = items.filter(i => i.category === selectedCategory);
+    }
+
+    grid.innerHTML = items.map((item, i) => {
+      const company = COMPANIES.find(c => c.name === item.company);
+      const sectorInfo = SECTORS[item.category] || { icon: '📦', color: '#6b7280' };
+
+      // Rank styling
+      const rankClass = item.rank === 1 ? 'gold' : item.rank === 2 ? 'silver' : item.rank === 3 ? 'bronze' : '';
+      const rankDisplay = item.rank <= 3 ? ['🥇', '🥈', '🥉'][item.rank - 1] : `#${item.rank}`;
+
+      // Movement indicator
+      let movement = '';
+      if (item.yoyChange === 'new') movement = '<span class="i50-movement new">NEW</span>';
+      else if (item.yoyChange === 'up') movement = '<span class="i50-movement up">↑</span>';
+      else if (item.yoyChange === 'down') movement = '<span class="i50-movement down">↓</span>';
+      else if (typeof item.yoyChange === 'number') {
+        const dir = item.yoyChange > 0 ? 'up' : 'down';
+        movement = `<span class="i50-movement ${dir}">${item.yoyChange > 0 ? '+' : ''}${item.yoyChange}</span>`;
+      }
+
+      // Badges
+      const badges = (item.badges || []).map(b =>
+        `<span class="i50-badge">${b}</span>`
+      ).join('');
+
+      // Valuation from main company data
+      const valuation = company?.valuation || '';
+
+      return `
+        <div class="i50-card ${rankClass}" onclick="openCompanyModal('${item.company.replace(/'/g, "\\'")}')">
+          <div class="i50-rank-section">
+            <div class="i50-rank ${rankClass}">${rankDisplay}</div>
+            ${movement}
+          </div>
+          <div class="i50-content">
+            <div class="i50-header">
+              <div class="i50-company-name">${item.company}</div>
+              <div class="i50-category" style="color: ${sectorInfo.color}">${sectorInfo.icon} ${item.category}</div>
+            </div>
+            <div class="i50-badges">${badges}</div>
+            <ul class="i50-highlights">
+              ${item.highlights.map(h => `<li>${h}</li>`).join('')}
+            </ul>
+            <div class="i50-thesis">${item.thesis}</div>
+            <div class="i50-footer">
+              ${valuation ? `<span class="i50-valuation">${valuation}</span>` : ''}
+              <button class="i50-share-single" onclick="event.stopPropagation(); shareInnovator50Entry(${item.rank}, '${item.company.replace(/'/g, "\\'")}')">Share</button>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // Add animation delays
+    document.querySelectorAll('.i50-card').forEach((card, i) => {
+      card.style.animationDelay = `${i * 0.05}s`;
+    });
+  }
+
+  // Category filter
+  if (categoryFilter) {
+    categoryFilter.addEventListener('change', renderInnovator50);
+  }
+
+  // Methodology button
+  const methodBtn = document.getElementById('i50-methodology-btn');
+  if (methodBtn) {
+    methodBtn.addEventListener('click', () => showInnovator50Methodology());
+  }
+
+  // Share button
+  const shareBtn = document.getElementById('i50-share-btn');
+  if (shareBtn) {
+    shareBtn.addEventListener('click', () => shareInnovator50());
+  }
+
+  // Nominate button
+  const nominateBtn = document.getElementById('i50-nominate-btn');
+  if (nominateBtn && INNOVATOR_50_META.nominateLink) {
+    nominateBtn.href = INNOVATOR_50_META.nominateLink;
+  }
+
+  renderInnovator50();
+}
+
+function showInnovator50Methodology() {
+  const meta = INNOVATOR_50_META;
+  const body = document.getElementById('modal-body');
+  body.innerHTML = `
+    <div class="i50-methodology-modal">
+      <span class="modal-sector-badge" style="background: linear-gradient(135deg, #ffd700, #ff6b2c); color: #000;">METHODOLOGY</span>
+      <h2 class="modal-company-name" style="margin-top: 12px;">${meta.title} — ${meta.year}</h2>
+      <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 20px;">Released ${new Date(meta.releaseDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
+
+      <div style="background: var(--bg-tertiary); border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+        <h3 style="font-size: 14px; font-weight: 600; color: var(--text-primary); margin-bottom: 12px;">About the Ranking</h3>
+        <p style="font-size: 14px; line-height: 1.7; color: var(--text-secondary);">${meta.methodology}</p>
+      </div>
+
+      <div style="margin-bottom: 20px;">
+        <h3 style="font-size: 14px; font-weight: 600; color: var(--text-primary); margin-bottom: 12px;">Selection Criteria</h3>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          ${meta.selectionCriteria.map(c => `
+            <li style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px;">
+              <span style="color: var(--accent); font-weight: 700;">✓</span>
+              <span style="font-size: 14px; color: var(--text-secondary);">${c}</span>
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+
+      <div style="text-align: center; padding-top: 20px; border-top: 1px solid var(--border);">
+        <p style="font-size: 12px; color: var(--text-muted);">Questions about the methodology? Contact us at research@rationaloptimistsociety.com</p>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('modal-overlay').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function shareInnovator50() {
+  const meta = INNOVATOR_50_META;
+  const text = `Check out The ROS Innovator 50 — ${meta.year} Edition. The definitive ranking of frontier technology's most promising companies.`;
+  const url = window.location.origin + window.location.pathname + '#innovator50';
+
+  if (navigator.share) {
+    navigator.share({ title: meta.title, text, url });
+  } else {
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+    window.open(twitterUrl, '_blank');
+  }
+}
+
+function shareInnovator50Entry(rank, company) {
+  const meta = INNOVATOR_50_META;
+  const text = `${company} is ranked #${rank} in The ROS Innovator 50 — ${meta.year} Edition.`;
+  const url = window.location.origin + window.location.pathname + `?highlight=${encodeURIComponent(company)}#innovator50`;
+
+  if (navigator.share) {
+    navigator.share({ title: `${company} — ROS Innovator 50`, text, url });
+  } else {
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+    window.open(twitterUrl, '_blank');
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// ANOMALY ALERT CARDS - "HOT THIS WEEK"
+// ═══════════════════════════════════════════════════════
+function initAnomalyAlerts() {
+  const grid = document.getElementById('anomaly-grid');
+  if (!grid) return;
+
+  // Detect companies with converging signals
+  function detectAnomalies() {
+    const anomalies = [];
+    const now = new Date();
+    const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+
+    COMPANIES.forEach(company => {
+      const signals = [];
+
+      // Check recent news/funding
+      if (typeof NEWS_FEED !== 'undefined') {
+        const recentNews = NEWS_FEED.filter(n =>
+          n.company === company.name &&
+          new Date(n.date) > thirtyDaysAgo
+        );
+        recentNews.forEach(n => {
+          if (n.category === 'funding') {
+            signals.push({ type: 'funding', text: n.headline, impact: n.impact, date: n.date });
+          } else if (n.category === 'contract') {
+            signals.push({ type: 'contract', text: n.headline, impact: n.impact, date: n.date });
+          } else if (n.category === 'milestone') {
+            signals.push({ type: 'milestone', text: n.headline, impact: n.impact, date: n.date });
+          } else if (n.category === 'partnership') {
+            signals.push({ type: 'partnership', text: n.headline, impact: n.impact, date: n.date });
+          }
+        });
+      }
+
+      // Check alt data signals (hiring velocity)
+      if (typeof ALT_DATA_SIGNALS !== 'undefined') {
+        const altData = ALT_DATA_SIGNALS.find(a => a.company === company.name);
+        if (altData) {
+          if (altData.hiringVelocity === 'surging') {
+            signals.push({ type: 'hiring', text: `Hiring velocity: ${altData.hiringVelocity}`, impact: 'high' });
+          } else if (altData.hiringVelocity === 'growing') {
+            signals.push({ type: 'hiring', text: `Hiring velocity: ${altData.hiringVelocity}`, impact: 'medium' });
+          }
+          if (altData.signalStrength >= 8) {
+            signals.push({ type: 'momentum', text: `Signal strength: ${altData.signalStrength}/10`, impact: 'high' });
+          }
+        }
+      }
+
+      // Check government contracts
+      if (typeof GOV_CONTRACTS !== 'undefined') {
+        const recentContracts = GOV_CONTRACTS.filter(c =>
+          c.company === company.name &&
+          c.date && new Date(c.date) > thirtyDaysAgo
+        );
+        recentContracts.forEach(c => {
+          signals.push({ type: 'govContract', text: `${c.agency}: ${c.type} - ${c.amount}`, impact: 'high', date: c.date });
+        });
+      }
+
+      // Check recent events on company
+      if (company.recentEvent && company.recentEvent.date) {
+        const eventDate = new Date(company.recentEvent.date);
+        if (eventDate > thirtyDaysAgo) {
+          signals.push({ type: 'event', text: company.recentEvent.text, impact: 'medium', date: company.recentEvent.date });
+        }
+      }
+
+      // Check if company has IPO signal
+      if (company.signal === 'IPO Filing' || company.signal === 'IPO Candidate') {
+        signals.push({ type: 'ipo', text: company.signal, impact: 'high' });
+      }
+
+      // Deduplicate signals by type
+      const uniqueTypes = [...new Set(signals.map(s => s.type))];
+
+      if (uniqueTypes.length >= 3) {
+        anomalies.push({
+          company,
+          signals,
+          uniqueSignalCount: uniqueTypes.length,
+          highImpactCount: signals.filter(s => s.impact === 'high').length,
+          score: uniqueTypes.length * 2 + signals.filter(s => s.impact === 'high').length
+        });
+      }
+    });
+
+    // Sort by score (descending)
+    return anomalies.sort((a, b) => b.score - a.score).slice(0, 8);
+  }
+
+  const anomalies = detectAnomalies();
+
+  if (anomalies.length === 0) {
+    grid.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-muted);">No significant signal convergence detected this period.</div>';
+    return;
+  }
+
+  const signalIcons = {
+    funding: { icon: '💰', label: 'Funding' },
+    contract: { icon: '📄', label: 'Contract' },
+    govContract: { icon: '🏛️', label: 'Gov Contract' },
+    milestone: { icon: '🎯', label: 'Milestone' },
+    hiring: { icon: '👥', label: 'Hiring' },
+    momentum: { icon: '📈', label: 'Momentum' },
+    partnership: { icon: '🤝', label: 'Partnership' },
+    event: { icon: '⚡', label: 'Event' },
+    ipo: { icon: '🔔', label: 'IPO Signal' }
+  };
+
+  grid.innerHTML = anomalies.map((a, i) => {
+    const sectorInfo = SECTORS[a.company.sector] || { icon: '📦', color: '#6b7280' };
+    const uniqueTypes = [...new Set(a.signals.map(s => s.type))];
+    const signalBadges = uniqueTypes.map(t => {
+      const info = signalIcons[t] || { icon: '📊', label: t };
+      return `<span class="anomaly-signal-badge">${info.icon} ${info.label}</span>`;
+    }).join('');
+
+    const latestSignal = a.signals[0];
+
+    return `
+      <div class="anomaly-card ${i < 3 ? 'top-anomaly' : ''}" onclick="openCompanyModal('${a.company.name.replace(/'/g, "\\'")}')">
+        <div class="anomaly-flame-badge">🔥 ${a.uniqueSignalCount} Signals</div>
+        <div class="anomaly-header">
+          <div class="anomaly-company">
+            <span class="anomaly-company-name">${a.company.name}</span>
+            <span class="anomaly-sector" style="color: ${sectorInfo.color}">${sectorInfo.icon} ${a.company.sector}</span>
+          </div>
+          ${a.company.valuation ? `<span class="anomaly-valuation">${a.company.valuation}</span>` : ''}
+        </div>
+        <div class="anomaly-signals">
+          ${signalBadges}
+        </div>
+        <div class="anomaly-summary">
+          ${latestSignal ? latestSignal.text : 'Multiple converging signals detected'}
+        </div>
+        <div class="anomaly-footer">
+          <span class="anomaly-impact ${a.highImpactCount >= 2 ? 'high' : 'medium'}">${a.highImpactCount} high-impact signals</span>
+          <span class="anomaly-action">View Details →</span>
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 // ═══════════════════════════════════════════════════════

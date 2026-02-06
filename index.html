@@ -72,6 +72,30 @@
         <div class="ticker-scroll" id="ticker-scroll"></div>
     </div>
 
+    <!-- ROS Innovator 50 -->
+    <section class="innovator50-section" id="innovator50">
+        <div class="container">
+            <div class="innovator50-header">
+                <div class="innovator50-badge">ANNUAL RANKING</div>
+                <h2 class="innovator50-title">The ROS Innovator 50</h2>
+                <p class="innovator50-subtitle">2025 Edition</p>
+                <p class="innovator50-desc">The definitive ranking of frontier technology's most promising companies. Based on proprietary analysis of technology moat, team pedigree, capital efficiency, and government traction.</p>
+            </div>
+            <div class="innovator50-controls">
+                <select id="i50-category" class="i50-filter">
+                    <option value="all">All Categories</option>
+                </select>
+                <button id="i50-methodology-btn" class="i50-btn-secondary">Methodology</button>
+                <button id="i50-share-btn" class="i50-btn-primary">Share Ranking</button>
+            </div>
+            <div class="innovator50-grid" id="innovator50-grid"></div>
+            <div class="innovator50-cta">
+                <p>Know a company that should be on next year's list?</p>
+                <a href="#" id="i50-nominate-btn" class="i50-nominate-btn">Nominate a Company</a>
+            </div>
+        </div>
+    </section>
+
     <!-- Market Pulse -->
     <section class="market-pulse-section" id="market-pulse">
         <div class="container">
@@ -90,6 +114,18 @@
             <h2 style="font-family: 'Space Grotesk', sans-serif; font-size: 24px; margin: 8px 0 4px;">Intelligence Digest</h2>
         </div>
         <div class="digest-scroll" id="digest-scroll"></div>
+    </section>
+
+    <!-- Anomaly Alert Cards -->
+    <section class="anomaly-section" id="anomaly-alerts">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">SIGNAL CONVERGENCE</p>
+                <h2>Hot This Week</h2>
+                <p>Companies with 3+ converging signals — funding, hiring, contracts, milestones — indicating inflection points.</p>
+            </div>
+            <div class="anomaly-grid" id="anomaly-grid"></div>
+        </div>
     </section>
 
     <!-- Funding Tracker -->
@@ -569,6 +605,40 @@
         </div>
     </section>
 
+    <!-- Capital Efficiency Leaderboard -->
+    <section class="efficiency-section" id="efficiency">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">CAPITAL EFFICIENCY</p>
+                <h2>Efficiency Champions</h2>
+                <p>Companies generating the most value per dollar raised. The most underrated metric in venture capital.</p>
+            </div>
+            <div class="efficiency-controls">
+                <div class="efficiency-filters">
+                    <select id="eff-metric" class="lb-filter-select">
+                        <option value="valToFunding">Valuation / Funding</option>
+                        <option value="multiple">Capital Multiple</option>
+                    </select>
+                    <select id="eff-sector" class="lb-filter-select">
+                        <option value="all">Sector: All</option>
+                    </select>
+                    <select id="eff-stage" class="lb-filter-select">
+                        <option value="all">Stage: All</option>
+                        <option value="early">Early Stage</option>
+                        <option value="growth">Growth Stage</option>
+                    </select>
+                    <select id="eff-count" class="lb-filter-select">
+                        <option value="25">Show: Top 25</option>
+                        <option value="50">Show: Top 50</option>
+                        <option value="all">Show: All</option>
+                    </select>
+                </div>
+                <div class="efficiency-stats" id="eff-stats"></div>
+            </div>
+            <div class="efficiency-grid" id="efficiency-grid"></div>
+        </div>
+    </section>
+
     <!-- Featured Innovators -->
     <section class="featured-section" id="featured">
         <div class="container">
@@ -619,6 +689,25 @@
                 <p id="results-count"></p>
             </div>
 
+            <!-- AI Query Interface -->
+            <div class="ai-query-section">
+                <div class="ai-query-header">
+                    <span class="ai-query-badge">AI-POWERED</span>
+                    <span class="ai-query-label">Natural Language Search</span>
+                </div>
+                <div class="ai-query-input-container">
+                    <input type="text" id="ai-query-input" class="ai-query-input" placeholder="Try: 'Defense companies in California with over $100M funding' or 'AI startups founded after 2020'">
+                    <button id="ai-query-btn" class="ai-query-btn">Search</button>
+                </div>
+                <div class="ai-query-suggestions">
+                    <span class="ai-suggestion" data-query="defense companies in California">Defense in CA</span>
+                    <span class="ai-suggestion" data-query="AI companies with over 1B valuation">AI Unicorns</span>
+                    <span class="ai-suggestion" data-query="space companies Series B or later">Space Growth Stage</span>
+                    <span class="ai-suggestion" data-query="robotics startups with government contracts">Gov-backed Robotics</span>
+                </div>
+                <div class="ai-query-result" id="ai-query-result" style="display: none;"></div>
+            </div>
+
             <!-- Filters -->
             <div class="filter-bar">
                 <div class="search-box">
@@ -633,6 +722,11 @@
                     <select id="country-filter" class="filter-select">
                         <option value="all">All Countries</option>
                     </select>
+                    <div id="state-filter-container" class="state-filter-container">
+                        <select id="state-filter" class="filter-select">
+                            <option value="all">All States</option>
+                        </select>
+                    </div>
                     <select id="stage-filter" class="filter-select">
                         <option value="all">All Stages</option>
                     </select>
@@ -724,8 +818,9 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
-    <script src="data.js?v=11"></script>
-    <script src="app.js?v=11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <script src="data.js?v=13"></script>
+    <script src="app.js?v=13"></script>
     <script src="https://giscus.app/client.js"
         data-repo="PaleoFaire/innovators-league"
         data-repo-id=""
