@@ -7130,7 +7130,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: '',
     tags: ['geothermal', 'AI exploration', 'clean energy'],
-    insight: 'Zanskar is the 'Kobold Metals for geothermal' — using AI to find hidden geothermal resources. The tech-enabled exploration model is proving out.',
+    insight: 'Zanskar is the Kobold Metals for geothermal — using AI to find hidden geothermal resources. The tech-enabled exploration model is proving out.',
     signal: 'rising',
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 8 },
     competitors: ['Fervo Energy', 'Sage Geosystems'],
