@@ -13585,12 +13585,12 @@ function getCompanyRankingHistory(companyName) {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-06
+// Last updated: 2026-02-06 07:53
 const COMPANY_SIGNALS = [
   { id: 1, type: "ipo", company: "SpaceX", headline: "FAA approves Starship launches from LC-39A", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
   { id: 2, type: "milestone", company: "OpenAI", headline: "OpenAI launches new agentic coding model only minutes after Anthropic drops its own", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
   { id: 3, type: "milestone", company: "OpenAI", headline: "OpenAI launches a way for enterprises to build and manage AI agents", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic releases Opus 4.6 with new &#8216;agent teams&#8217;", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic releases Opus 4.6 with new &#8216;agent teams&#8217;", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
   { id: 5, type: "news", company: "OpenAI", headline: "OpenAI is hoppin&#039; mad about Anthropic&#039;s new Super Bowl TV ads", source: "Ars Technica", time: "14h ago", impact: "low", unread: true },
   { id: 6, type: "hire", company: "OpenAI", headline: "ElevenLabs CEO: Voice is the next interface for AI", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "Anthropic", headline: "Should AI chatbots have ads? Anthropic says no.", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
