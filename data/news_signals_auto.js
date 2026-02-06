@@ -1,85 +1,129 @@
 // Auto-generated news signals
-// Last updated: 2026-02-06T14:29:04.935Z
+// Last updated: 2026-02-06T18:06:34.334Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1770388144935,
+    "id": 1770401194334,
+    "type": "funding",
+    "company": "Waymo",
+    "headline": "The Week’s 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings",
+    "source": "Crunchbase News",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-waymo-cerebras/"
+  },
+  {
+    "id": 1770401194335,
+    "type": "news",
+    "company": "Anthropic",
+    "headline": "The Only Thing Standing Between Humanity and AI Apocalypse Is … Claude?",
+    "source": "Wired",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.wired.com/story/the-only-thing-standing-between-humanity-and-ai-apocalypse-is-claude/"
+  },
+  {
+    "id": 1770401194336,
+    "type": "news",
+    "company": "Shield AI",
+    "headline": "Shield AI, ST Engineering join forces on fine-tuning drone swarms",
+    "source": "Defense News",
+    "time": "3h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.defensenews.com/unmanned/2026/02/06/shield-ai-st-engineering-join-forces-on-fine-tuning-drone-swarms/"
+  },
+  {
+    "id": 1770401194337,
     "type": "news",
     "company": "OpenAI",
     "headline": "The backlash over OpenAI&#8217;s decision to retire GPT-4o shows how dangerous AI companions can be",
     "source": "TechCrunch",
-    "time": "Just now",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/02/06/the-backlash-over-openais-decision-to-retire-gpt-4o-shows-how-dangerous-ai-companions-can-be/"
   },
   {
-    "id": 1770388144936,
+    "id": 1770401194338,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes",
     "source": "Ars Technica Space",
-    "time": "2h ago",
+    "time": "6h ago",
     "impact": "low",
     "unread": true,
     "link": "https://arstechnica.com/space/2026/02/rocket-report-spacex-probes-upper-stage-malfunction-starship-testing-resumes/"
   },
   {
-    "id": 1770388144937,
+    "id": 1770401194339,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Hits a Rough Patch In Washington, DC",
     "source": "Wired",
-    "time": "2h ago",
+    "time": "6h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.wired.com/story/waymo-hits-a-rough-patch-in-washington-dc/"
   },
   {
-    "id": 1770388144938,
+    "id": 1770401194340,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "FAA approves Starship launches from LC-39A",
+    "source": "SpaceNews",
+    "time": "18h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://spacenews.com/faa-approves-starship-launches-from-lc-39a/"
+  },
+  {
+    "id": 1770401194341,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI launches new agentic coding model only minutes after Anthropic drops its own",
     "source": "TechCrunch",
-    "time": "18h ago",
+    "time": "22h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/"
   },
   {
-    "id": 1770388144939,
+    "id": 1770401194342,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI launches a way for enterprises to build and manage AI agents",
     "source": "TechCrunch",
-    "time": "20h ago",
+    "time": "23h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://techcrunch.com/2026/02/05/openai-launches-a-way-for-enterprises-to-build-and-manage-ai-agents/"
   },
   {
-    "id": 1770388144940,
+    "id": 1770401194343,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic releases Opus 4.6 with new &#8216;agent teams&#8217;",
     "source": "TechCrunch",
-    "time": "20h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/"
   },
   {
-    "id": 1770388144941,
+    "id": 1770401194344,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI is hoppin&#039; mad about Anthropic&#039;s new Super Bowl TV ads",
     "source": "Ars Technica",
-    "time": "20h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/information-technology/2026/02/openai-is-hoppin-mad-about-anthropics-new-super-bowl-tv-ads/"
   },
   {
-    "id": 1770388144942,
+    "id": 1770401194345,
     "type": "news",
     "company": "Anthropic",
     "headline": "Should AI chatbots have ads? Anthropic says no.",
@@ -90,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/"
   },
   {
-    "id": 1770388144943,
+    "id": 1770401194346,
     "type": "news",
     "company": "OpenAI",
     "headline": "Nvidia&#039;s $100 billion OpenAI deal has seemingly vanished",
@@ -101,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/"
   },
   {
-    "id": 1770388144944,
+    "id": 1770401194347,
     "type": "news",
     "company": "OpenAI",
     "headline": "New OpenAI tool renews fears that “AI slop” will overwhelm scientific research",
@@ -112,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/ai/2026/01/new-openai-tool-renews-fears-that-ai-slop-will-overwhelm-scientific-research/"
   },
   {
-    "id": 1770388144945,
+    "id": 1770401194348,
     "type": "news",
     "company": "Anthropic",
     "headline": "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?",
@@ -123,18 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/information-technology/2026/01/does-anthropic-believe-its-ai-is-conscious-or-is-that-just-what-it-wants-claude-to-think/"
   },
   {
-    "id": 1770388144946,
-    "type": "news",
-    "company": "Cobot",
-    "headline": "Defense Business Brief: Fairbanks’ engine cobots; 2025 Q4 earnings; and a bit more",
-    "source": "Defense One",
-    "time": "1/29/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.defenseone.com/business/2026/01/defense-business-brief-fairbanks-engine-cobots-2025-q4-earnings-and-bit-more/411039/"
-  },
-  {
-    "id": 1770388144947,
+    "id": 1770401194349,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI spills technical details about how its AI coding agent works",

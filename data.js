@@ -14437,21 +14437,24 @@ const DATA_QUALITY = {
 };
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
+// Auto-generated real-time signals
+// Last updated: 2026-02-06 18:06
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "FAA approves Starship launches from LC-39A", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "OpenAI", headline: "OpenAI launches new agentic coding model only minutes after Anthropic drops its own", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "OpenAI", headline: "OpenAI launches a way for enterprises to build and manage AI agents", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic releases Opus 4.6 with new agent teams feature", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI responds to Anthropics new Super Bowl TV ads", source: "Ars Technica", time: "14h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "OpenAI", headline: "ElevenLabs CEO: Voice is the next interface for AI", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Should AI chatbots have ads? Anthropic says no.", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "Nvidias $100 billion OpenAI deal has seemingly vanished", source: "Ars Technica", time: "2d ago", impact: "high", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX pauses Falcon 9 launches after upper stage anomaly", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX acquires xAI in bid to develop orbital data centers", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "New OpenAI tool renews fears that AI slop will overwhelm scientific research", source: "Ars Technica Space", time: "1/29/2026", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?", source: "Ars Technica", time: "1/29/2026", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Cobot", headline: "Defense Business Brief: Fairbanks engine cobots; 2025 Q4 earnings; and more", source: "Defense One", time: "1/29/2026", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI spills technical details about how its AI coding agent works", source: "Ars Technica", time: "1/26/2026", impact: "low", unread: false }
+  { id: 1, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "The Only Thing Standing Between Humanity and AI Apocalypse Is ' Claude?", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "The backlash over OpenAI's decision to retire GPT-4o shows how dangerous AI companions can be", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Waymo", headline: "Waymo Hits a Rough Patch In Washington, DC", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "FAA approves Starship launches from LC-39A", source: "SpaceNews", time: "18h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "OpenAI", headline: "OpenAI launches new agentic coding model only minutes after Anthropic drops its own", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "OpenAI", headline: "OpenAI launches'a way for enterprises to build and'manage AI agents", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "Anthropic releases Opus 4.6 with new 'agent teams'", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI is hoppin' mad about Anthropic's new Super Bowl TV ads", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Should AI chatbots have ads? Anthropic says no.", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "Nvidia's $100 billion OpenAI deal has seemingly vanished", source: "Ars Technica", time: "2d ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "New OpenAI tool renews fears that 'AI slop' will overwhelm scientific research", source: "Ars Technica Space", time: "1/29/2026", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Anthropic", headline: "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?", source: "Ars Technica", time: "1/29/2026", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
