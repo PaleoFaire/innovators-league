@@ -506,33 +506,8 @@ function updateCompareBar() {
 }
 
 function showComparison() {
-  if (compareList.length < 2) return;
-
-  const companies = compareList.map(name => COMPANIES.find(c => c.name === name)).filter(Boolean);
-  const body = document.getElementById('modal-body');
-
-  body.innerHTML = `
-    <h2 style="margin-bottom: 24px; color: var(--accent);">Company Comparison</h2>
-    <div style="display: grid; grid-template-columns: repeat(${companies.length}, 1fr); gap: 20px;">
-      ${companies.map(c => {
-        const si = SECTORS[c.sector] || { color: '#6b7280', icon: '' };
-        return `<div style="padding: 20px; background: var(--bg-tertiary); border-radius: 12px; border: 1px solid var(--border);">
-          <div style="font-size: 12px; color: ${si.color}; margin-bottom: 8px;">${si.icon} ${c.sector}</div>
-          <h3 style="margin-bottom: 4px;">${c.name}</h3>
-          ${c.founder ? `<p style="color: var(--text-secondary); font-size: 13px; margin-bottom: 12px;">${c.founder}</p>` : ''}
-          <p style="color: var(--text-muted); font-size: 13px; margin-bottom: 16px;">${c.location}</p>
-          <div class="modal-stats">
-            ${c.fundingStage ? `<div class="modal-stat"><span class="modal-stat-label">Stage</span><span class="modal-stat-value">${c.fundingStage}</span></div>` : ''}
-            ${c.totalRaised ? `<div class="modal-stat"><span class="modal-stat-label">Raised</span><span class="modal-stat-value">${c.totalRaised}</span></div>` : ''}
-            ${c.valuation ? `<div class="modal-stat"><span class="modal-stat-label">Valuation</span><span class="modal-stat-value">${c.valuation}</span></div>` : ''}
-          </div>
-          <p style="color: var(--text-secondary); font-size: 13px; line-height: 1.6; margin-top: 12px;">${c.description.substring(0, 200)}${c.description.length > 200 ? '...' : ''}</p>
-        </div>`;
-      }).join('')}
-    </div>
-  `;
-
-  openModal();
+  // Redirect to enhanced comparison modal
+  openCompareView();
 }
 
 // ─── MODAL ───
@@ -1986,6 +1961,15 @@ function openCompareView() {
     { bg: 'rgba(236, 72, 153, 0.2)', border: '#ec4899' }
   ];
 
+  // Get Innovator Scores for each company
+  const innovatorScores = companies.map(c => {
+    if (typeof getInnovatorScore === 'function') {
+      return getInnovatorScore(c.name);
+    }
+    return null;
+  });
+
+  // Enhanced metrics including Innovator Score
   const metrics = [
     { label: 'Sector', key: c => c.sector },
     { label: 'Location', key: c => c.location },
@@ -2021,17 +2005,115 @@ function openCompareView() {
   });
   differentiators.sort((a, b) => b.diff - a.diff);
 
+  // Build Innovator Score comparison section
+  const hasInnovatorScores = innovatorScores.some(s => s !== null);
+  let innovatorScoreSection = '';
+  if (hasInnovatorScores) {
+    const tierColors = { elite: '#22c55e', strong: '#3b82f6', promising: '#f59e0b', early: '#6b7280' };
+    innovatorScoreSection = `
+      <div class="compare-iscore-section">
+        <h3 style="font-family: var(--font-display); font-size: 16px; color: var(--text-primary); margin-bottom: 16px;">Innovator Score™ Comparison</h3>
+        <div class="compare-iscore-grid" style="display: grid; grid-template-columns: repeat(${companies.length}, 1fr); gap: 16px;">
+          ${companies.map((c, i) => {
+            const score = innovatorScores[i];
+            if (!score) {
+              return `<div class="compare-iscore-card no-data"><span class="compare-iscore-name">${c.name}</span><span class="compare-iscore-na">No Score</span></div>`;
+            }
+            const tc = tierColors[score.tier] || '#6b7280';
+            return `
+              <div class="compare-iscore-card" style="border-color: ${tc}20;">
+                <div class="compare-iscore-header">
+                  <span class="compare-iscore-name">${c.name}</span>
+                  <span class="compare-iscore-tier" style="background: ${tc}20; color: ${tc};">${score.tier.toUpperCase()}</span>
+                </div>
+                <div class="compare-iscore-total" style="color: ${tc};">${score.composite.toFixed(0)}</div>
+                <div class="compare-iscore-dims">
+                  <div class="compare-iscore-dim"><span>Tech</span><span>${score.techMoat}/10</span></div>
+                  <div class="compare-iscore-dim"><span>Momentum</span><span>${score.momentum}/10</span></div>
+                  <div class="compare-iscore-dim"><span>Team</span><span>${score.teamPedigree}/10</span></div>
+                  <div class="compare-iscore-dim"><span>Market</span><span>${score.marketGravity}/10</span></div>
+                  <div class="compare-iscore-dim"><span>Efficiency</span><span>${score.capitalEfficiency}/10</span></div>
+                  <div class="compare-iscore-dim"><span>Gov</span><span>${score.govTraction}/10</span></div>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  // Build Patent/Alt Data comparison if available
+  let dataIntelSection = '';
+  const patentData = companies.map(c => typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => p.company === c.name) : null);
+  const altData = companies.map(c => typeof ALT_DATA_SIGNALS !== 'undefined' ? ALT_DATA_SIGNALS.find(a => a.company === c.name) : null);
+  const hasPatentData = patentData.some(p => p !== null);
+  const hasAltData = altData.some(a => a !== null);
+
+  if (hasPatentData || hasAltData) {
+    dataIntelSection = `
+      <div class="compare-intel-section">
+        <h3 style="font-family: var(--font-display); font-size: 16px; color: var(--text-primary); margin-bottom: 16px;">Data Intelligence</h3>
+        <div class="compare-intel-grid" style="display: grid; grid-template-columns: ${gridCols};">
+          ${hasPatentData ? `
+            <div class="compare-intel-row" style="display: grid; grid-template-columns: ${gridCols};">
+              <div class="compare-label">Patents</div>
+              ${patentData.map(p => `<div class="compare-value" style="text-align: center;">${p ? p.totalPatents : 'N/A'}</div>`).join('')}
+            </div>
+            <div class="compare-intel-row" style="display: grid; grid-template-columns: ${gridCols};">
+              <div class="compare-label">IP Moat Score</div>
+              ${patentData.map(p => {
+                if (!p) return '<div class="compare-value" style="text-align: center;">N/A</div>';
+                const color = p.ipMoatScore >= 8 ? '#22c55e' : p.ipMoatScore >= 6 ? '#f59e0b' : '#6b7280';
+                return `<div class="compare-value" style="text-align: center; color: ${color}; font-weight: 600;">${p.ipMoatScore}/10</div>`;
+              }).join('')}
+            </div>
+          ` : ''}
+          ${hasAltData ? `
+            <div class="compare-intel-row" style="display: grid; grid-template-columns: ${gridCols};">
+              <div class="compare-label">Hiring Velocity</div>
+              ${altData.map(a => {
+                if (!a) return '<div class="compare-value" style="text-align: center;">N/A</div>';
+                const hc = { surging: '#22c55e', growing: '#3b82f6', stable: '#f59e0b', declining: '#ef4444' };
+                return `<div class="compare-value" style="text-align: center; color: ${hc[a.hiringVelocity] || '#6b7280'};">${(a.hiringVelocity || '').toUpperCase()}</div>`;
+              }).join('')}
+            </div>
+            <div class="compare-intel-row" style="display: grid; grid-template-columns: ${gridCols};">
+              <div class="compare-label">Signal Strength</div>
+              ${altData.map(a => `<div class="compare-value" style="text-align: center;">${a ? a.signalStrength + '/10' : 'N/A'}</div>`).join('')}
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+  }
+
   const body = document.getElementById('modal-body');
   body.innerHTML = `
-    <div style="margin-bottom: 20px;">
-      <span class="modal-sector-badge" style="background: var(--accent-dim); color: var(--accent);">COMPARISON</span>
+    <div class="compare-modal-header">
+      <span class="modal-sector-badge" style="background: linear-gradient(135deg, var(--accent-dim), rgba(96, 165, 250, 0.1)); color: var(--accent);">⚖️ COMPARISON</span>
       <h2 class="modal-company-name">Company Comparison</h2>
       <p style="color: var(--text-muted); font-size: 14px;">Side-by-side analysis of ${companies.length} companies</p>
     </div>
 
+    <!-- Company Quick Cards -->
+    <div class="compare-quick-cards" style="display: grid; grid-template-columns: repeat(${companies.length}, 1fr); gap: 16px; margin-bottom: 24px;">
+      ${companies.map((c, i) => {
+        const sectorInfo = SECTORS[c.sector] || { color: '#6b7280', icon: '📦' };
+        return `
+          <div class="compare-quick-card" style="background: var(--bg-tertiary); border: 1px solid var(--border); border-radius: 12px; padding: 16px; border-left: 3px solid ${chartColors[i % chartColors.length].border};">
+            <div style="font-size: 11px; color: ${sectorInfo.color}; margin-bottom: 4px;">${sectorInfo.icon} ${c.sector}</div>
+            <div style="font-family: var(--font-display); font-weight: 700; font-size: 18px; color: var(--text-primary); margin-bottom: 4px;">${c.name}</div>
+            ${c.valuation ? `<div style="color: var(--accent); font-weight: 600; font-size: 14px;">${c.valuation}</div>` : ''}
+            <div style="color: var(--text-muted); font-size: 12px; margin-top: 8px;">${c.location}</div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+
     <!-- Radar Chart Section -->
     <div class="compare-radar-section">
-      <h3 style="font-family: var(--font-display); font-size: 16px; color: var(--text-primary); margin-bottom: 16px;">Score Comparison</h3>
+      <h3 style="font-family: var(--font-display); font-size: 16px; color: var(--text-primary); margin-bottom: 16px;">Intelligence Score Comparison</h3>
       <div class="compare-radar-container">
         <canvas id="compare-radar-chart" width="400" height="300"></canvas>
       </div>
@@ -2044,6 +2126,9 @@ function openCompareView() {
         `).join('')}
       </div>
     </div>
+
+    <!-- Innovator Score Section -->
+    ${innovatorScoreSection}
 
     <!-- Key Differentiators -->
     ${differentiators.length > 0 ? `
@@ -2061,15 +2146,16 @@ function openCompareView() {
     </div>
     ` : ''}
 
+    <!-- Data Intelligence Section -->
+    ${dataIntelSection}
+
     <!-- Metrics Table -->
     <div class="compare-grid" style="margin-top: 24px;">
       <div class="compare-header-row" style="display: grid; grid-template-columns: ${gridCols};">
         <div class="compare-label">Metric</div>
-        ${companies.map(c => {
-          const sectorInfo = SECTORS[c.sector] || { color: '#6b7280' };
+        ${companies.map((c, i) => {
           return `<div style="text-align: center;">
-            <div style="font-family: var(--font-display); font-weight: 700; font-size: 16px; color: var(--text-primary);">${c.name}</div>
-            <div style="font-size: 11px; color: ${sectorInfo.color};">${c.sector}</div>
+            <div style="font-family: var(--font-display); font-weight: 700; font-size: 14px; color: ${chartColors[i % chartColors.length].border};">${c.name}</div>
           </div>`;
         }).join('')}
       </div>
@@ -2083,13 +2169,33 @@ function openCompareView() {
 
     <!-- Share/Export -->
     <div class="compare-actions-footer">
-      <button class="compare-share-btn" onclick="shareComparison()">Share Comparison</button>
-      <button class="compare-export-btn" onclick="exportComparisonPDF()">Export PDF</button>
+      <button class="compare-share-btn" id="compare-share-btn">📋 Copy Link</button>
+      <button class="compare-export-btn" onclick="exportComparisonPDF()">📄 Export PDF</button>
     </div>
   `;
 
+  // Add share button functionality
+  document.getElementById('compare-share-btn')?.addEventListener('click', () => {
+    shareComparison();
+    const btn = document.getElementById('compare-share-btn');
+    if (btn) {
+      const original = btn.innerHTML;
+      btn.innerHTML = '✓ Copied!';
+      btn.style.background = '#22c55e';
+      setTimeout(() => {
+        btn.innerHTML = original;
+        btn.style.background = '';
+      }, 2000);
+    }
+  });
+
   document.getElementById('modal-overlay').classList.add('active');
   document.body.style.overflow = 'hidden';
+
+  // Update URL with comparison state
+  const url = new URL(window.location);
+  url.searchParams.set('compare', compareList.join(','));
+  window.history.replaceState({}, '', url);
 
   // Initialize radar chart after DOM is ready
   setTimeout(() => {
@@ -4041,14 +4147,74 @@ function initInnovator50() {
       const rankClass = item.rank === 1 ? 'gold' : item.rank === 2 ? 'silver' : item.rank === 3 ? 'bronze' : '';
       const rankDisplay = item.rank <= 3 ? ['🥇', '🥈', '🥉'][item.rank - 1] : `#${item.rank}`;
 
-      // Movement indicator
+      // Get historical movement from data
       let movement = '';
-      if (item.yoyChange === 'new') movement = '<span class="i50-movement new">NEW</span>';
-      else if (item.yoyChange === 'up') movement = '<span class="i50-movement up">↑</span>';
-      else if (item.yoyChange === 'down') movement = '<span class="i50-movement down">↓</span>';
-      else if (typeof item.yoyChange === 'number') {
-        const dir = item.yoyChange > 0 ? 'up' : 'down';
-        movement = `<span class="i50-movement ${dir}">${item.yoyChange > 0 ? '+' : ''}${item.yoyChange}</span>`;
+      let historyTooltip = '';
+      if (typeof INNOVATOR_50_HISTORY !== 'undefined') {
+        const history2024 = INNOVATOR_50_HISTORY[2024]?.rankings[item.company];
+        const history2023 = INNOVATOR_50_HISTORY[2023]?.rankings[item.company];
+
+        if (history2024 === null || history2024 === undefined) {
+          // New in 2025
+          movement = '<span class="i50-movement new" title="New to the list in 2025">NEW</span>';
+          historyTooltip = 'First appearance';
+        } else {
+          const change = history2024 - item.rank;
+          if (change > 0) {
+            movement = `<span class="i50-movement up" title="Up ${change} from #${history2024} in 2024">↑${change}</span>`;
+          } else if (change < 0) {
+            movement = `<span class="i50-movement down" title="Down ${Math.abs(change)} from #${history2024} in 2024">↓${Math.abs(change)}</span>`;
+          } else {
+            movement = `<span class="i50-movement same" title="Unchanged from 2024">—</span>`;
+          }
+
+          // Build history tooltip
+          const historyParts = [];
+          if (history2024) historyParts.push(`2024: #${history2024}`);
+          if (history2023) historyParts.push(`2023: #${history2023}`);
+          historyTooltip = historyParts.length > 0 ? historyParts.join(' | ') : '';
+        }
+      } else {
+        // Fallback to static yoyChange if no history data
+        if (item.yoyChange === 'new') movement = '<span class="i50-movement new">NEW</span>';
+        else if (item.yoyChange === 'up') movement = '<span class="i50-movement up">↑</span>';
+        else if (item.yoyChange === 'down') movement = '<span class="i50-movement down">↓</span>';
+        else if (typeof item.yoyChange === 'number') {
+          const dir = item.yoyChange > 0 ? 'up' : 'down';
+          movement = `<span class="i50-movement ${dir}">${item.yoyChange > 0 ? '+' : ''}${item.yoyChange}</span>`;
+        }
+      }
+
+      // Build historical ranking sparkline
+      let historySparkline = '';
+      if (typeof INNOVATOR_50_HISTORY !== 'undefined') {
+        const h2023 = INNOVATOR_50_HISTORY[2023]?.rankings[item.company];
+        const h2024 = INNOVATOR_50_HISTORY[2024]?.rankings[item.company];
+        const h2025 = item.rank;
+
+        const points = [];
+        if (h2023) points.push({ year: 2023, rank: h2023 });
+        if (h2024) points.push({ year: 2024, rank: h2024 });
+        points.push({ year: 2025, rank: h2025 });
+
+        if (points.length >= 2) {
+          historySparkline = `
+            <div class="i50-history" title="${historyTooltip}">
+              <span class="i50-history-label">History:</span>
+              ${points.map((p, idx) => {
+                const prev = points[idx - 1];
+                let arrow = '';
+                let color = '#6b7280';
+                if (prev) {
+                  if (p.rank < prev.rank) { arrow = '↑'; color = '#22c55e'; }
+                  else if (p.rank > prev.rank) { arrow = '↓'; color = '#ef4444'; }
+                  else { arrow = '→'; color = '#6b7280'; }
+                }
+                return `<span class="i50-history-point" style="color: ${color};">${arrow}${p.year.toString().slice(2)}: #${p.rank}</span>`;
+              }).join('')}
+            </div>
+          `;
+        }
       }
 
       // Badges
@@ -4070,6 +4236,7 @@ function initInnovator50() {
               <div class="i50-company-name">${item.company}</div>
               <div class="i50-category" style="color: ${sectorInfo.color}">${sectorInfo.icon} ${item.category}</div>
             </div>
+            ${historySparkline}
             <div class="i50-badges">${badges}</div>
             <ul class="i50-highlights">
               ${item.highlights.map(h => `<li>${h}</li>`).join('')}
@@ -4111,6 +4278,101 @@ function initInnovator50() {
   const nominateBtn = document.getElementById('i50-nominate-btn');
   if (nominateBtn && INNOVATOR_50_META.nominateLink) {
     nominateBtn.href = INNOVATOR_50_META.nominateLink;
+  }
+
+  // Year selector functionality
+  const yearBtns = document.querySelectorAll('.i50-year-btn');
+  yearBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      yearBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const year = parseInt(btn.dataset.year);
+      renderHistoricalRanking(year);
+    });
+  });
+
+  // Render historical ranking for a specific year
+  function renderHistoricalRanking(year) {
+    if (year === 2025) {
+      // Current year - use regular rendering
+      renderInnovator50();
+      return;
+    }
+
+    // Historical year - use INNOVATOR_50_HISTORY
+    if (typeof INNOVATOR_50_HISTORY === 'undefined' || !INNOVATOR_50_HISTORY[year]) {
+      grid.innerHTML = '<div class="i50-no-data">Historical data not available for ' + year + '</div>';
+      return;
+    }
+
+    const histData = INNOVATOR_50_HISTORY[year];
+    const rankings = histData.rankings;
+    const selectedCategory = document.getElementById('i50-category')?.value || 'all';
+
+    // Convert rankings object to sorted array
+    let items = Object.entries(rankings)
+      .filter(([company, rank]) => rank !== null)
+      .map(([company, rank]) => {
+        const companyData = COMPANIES.find(c => c.name === company);
+        return {
+          rank,
+          company,
+          category: companyData?.sector || 'Unknown',
+          valuation: companyData?.valuation || '',
+          description: companyData?.description?.substring(0, 150) || ''
+        };
+      })
+      .sort((a, b) => a.rank - b.rank);
+
+    if (selectedCategory !== 'all') {
+      items = items.filter(i => i.category === selectedCategory);
+    }
+
+    grid.innerHTML = `
+      <div class="i50-historical-header">
+        <span class="i50-historical-badge">${year} ARCHIVE</span>
+        <h3>${histData.title}</h3>
+        <p>Released ${new Date(histData.releaseDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
+      </div>
+      ${items.slice(0, 50).map((item, i) => {
+        const sectorInfo = SECTORS[item.category] || { icon: '📦', color: '#6b7280' };
+        const rankClass = item.rank === 1 ? 'gold' : item.rank === 2 ? 'silver' : item.rank === 3 ? 'bronze' : '';
+        const rankDisplay = item.rank <= 3 ? ['🥇', '🥈', '🥉'][item.rank - 1] : `#${item.rank}`;
+
+        // Check if company is still in 2025 list
+        const currentEntry = INNOVATOR_50.find(c => c.company === item.company);
+        let statusBadge = '';
+        if (currentEntry) {
+          const change = item.rank - currentEntry.rank;
+          if (change > 0) statusBadge = `<span class="i50-status-badge up">Now #${currentEntry.rank} (↑${change})</span>`;
+          else if (change < 0) statusBadge = `<span class="i50-status-badge down">Now #${currentEntry.rank} (↓${Math.abs(change)})</span>`;
+          else statusBadge = `<span class="i50-status-badge same">Still #${currentEntry.rank}</span>`;
+        } else {
+          statusBadge = `<span class="i50-status-badge dropped">Not in 2025</span>`;
+        }
+
+        return `
+          <div class="i50-card historical ${rankClass}" onclick="openCompanyModal('${item.company.replace(/'/g, "\\'")}')">
+            <div class="i50-rank-section">
+              <div class="i50-rank ${rankClass}">${rankDisplay}</div>
+            </div>
+            <div class="i50-content">
+              <div class="i50-header">
+                <div class="i50-company-name">${item.company}</div>
+                <div class="i50-category" style="color: ${sectorInfo.color}">${sectorInfo.icon} ${item.category}</div>
+              </div>
+              ${statusBadge}
+              ${item.valuation ? `<div class="i50-valuation">${item.valuation}</div>` : ''}
+            </div>
+          </div>
+        `;
+      }).join('')}
+    `;
+
+    // Add animation delays
+    document.querySelectorAll('.i50-card').forEach((card, i) => {
+      card.style.animationDelay = `${i * 0.03}s`;
+    });
   }
 
   renderInnovator50();

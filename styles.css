@@ -4143,6 +4143,307 @@ body {
   background: #e55a1c;
 }
 
+/* ─── ENHANCED COMPARISON MODAL ─── */
+.compare-modal-header {
+  margin-bottom: 20px;
+}
+
+.compare-quick-cards {
+  margin-bottom: 24px;
+}
+
+.compare-quick-card {
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.compare-quick-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Innovator Score Comparison Section */
+.compare-iscore-section {
+  margin: 24px 0;
+  padding: 20px;
+  background: var(--bg-tertiary);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.compare-iscore-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  transition: border-color 0.2s;
+}
+
+.compare-iscore-card:hover {
+  border-color: var(--border-hover);
+}
+
+.compare-iscore-card.no-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 180px;
+}
+
+.compare-iscore-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.compare-iscore-name {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.compare-iscore-tier {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.compare-iscore-total {
+  font-family: var(--font-display);
+  font-size: 42px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.compare-iscore-na {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.compare-iscore-dims {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.compare-iscore-dim {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--text-secondary);
+  padding: 4px 8px;
+  background: var(--bg-secondary);
+  border-radius: 4px;
+}
+
+.compare-iscore-dim span:last-child {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Data Intelligence Section */
+.compare-intel-section {
+  margin: 24px 0;
+  padding: 20px;
+  background: var(--bg-tertiary);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.compare-intel-row {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.compare-intel-row:last-child {
+  border-bottom: none;
+}
+
+/* ─── INNOVATOR 50 HISTORICAL TRACKING ─── */
+.i50-movement.same {
+  background: rgba(107, 114, 128, 0.15);
+  color: #6b7280;
+}
+
+.i50-history {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  padding: 8px 12px;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.i50-history-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+
+.i50-history-point {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  background: var(--bg-card);
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+/* Year selector for historical rankings */
+.i50-year-selector {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.i50-year-btn {
+  padding: 6px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.i50-year-btn:hover {
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+}
+
+.i50-year-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-text);
+}
+
+/* Enhanced movement indicators with numerical changes */
+.i50-movement {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  cursor: help;
+}
+
+.i50-movement.up {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+}
+
+.i50-movement.down {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+}
+
+.i50-movement.new {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 107, 44, 0.2));
+  color: #ffd700;
+  animation: newBadgePulse 2s ease-in-out infinite;
+}
+
+@keyframes newBadgePulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Historical Ranking View */
+.i50-historical-header {
+  text-align: center;
+  padding: 24px 0;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.i50-historical-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.i50-historical-header h3 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.i50-historical-header p {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.i50-card.historical {
+  opacity: 0.95;
+}
+
+.i50-card.historical:hover {
+  opacity: 1;
+}
+
+.i50-status-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+.i50-status-badge.up {
+  background: rgba(34, 197, 94, 0.12);
+  color: #22c55e;
+}
+
+.i50-status-badge.down {
+  background: rgba(239, 68, 68, 0.12);
+  color: #ef4444;
+}
+
+.i50-status-badge.same {
+  background: rgba(107, 114, 128, 0.12);
+  color: #6b7280;
+}
+
+.i50-status-badge.dropped {
+  background: rgba(156, 163, 175, 0.12);
+  color: #9ca3af;
+  font-style: italic;
+}
+
+.i50-no-data {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text-muted);
+  font-size: 15px;
+}
+
 /* ─── BLOOMBERG RESPONSIVE ─── */
 @media (max-width: 768px) {
   .funding-row {

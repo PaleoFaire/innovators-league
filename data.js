@@ -13427,3 +13427,156 @@ const INNOVATOR_50 = [
     badges: ['Flexible Manufacturing']
   }
 ];
+
+// ═══════════════════════════════════════════════════════
+// INNOVATOR 50 HISTORICAL DATA — Year-over-Year Tracking
+// ═══════════════════════════════════════════════════════
+
+const INNOVATOR_50_HISTORY = {
+  // Historical rankings by year - shows how companies have moved over time
+  2024: {
+    releaseDate: '2024-01-18',
+    title: 'The ROS Innovator 50 — 2024 Edition',
+    rankings: {
+      'SpaceX': 1,
+      'OpenAI': 2,
+      'Anthropic': 8,
+      'Anduril Industries': 3,
+      'Palantir Technologies': 12,
+      'Commonwealth Fusion Systems': 7,
+      'Scale AI': 10,
+      'Boom Supersonic': 14,
+      'Relativity Space': 9,
+      'Shield AI': 11,
+      'Cerebras': 18,
+      'Joby Aviation': 13,
+      'Helion': 26,
+      'Epirus': 22,
+      'Skydio': 15,
+      'Hadrian': 25,
+      'Hermeus': 17,
+      'Zipline': 19,
+      'Rocket Lab': 20,
+      'Archer Aviation': 23,
+      'Astranis': 27,
+      'Covariant': 35,
+      'Impulse Space': 31,
+      'Planet Labs': 28,
+      'Axiom Space': 24,
+      'PsiQuantum': 21,
+      'Neuralink': 16,
+      'Waymo': 6,
+      'Applied Intuition': 30,
+      'Varda Space Industries': 34,
+      'Fervo Energy': 39,
+      'KoBold Metals': 32,
+      'Groq': 42,
+      'Lightmatter': 40,
+      'Oklo': 33,
+      'Agility Robotics': 38,
+      'Physical Intelligence': null, // not ranked (new in 2025)
+      'Figure': null, // not ranked (new in 2025)
+      'Saronic': null, // not ranked (new in 2025)
+      'Radiant': 45,
+      'IonQ': 36,
+      'Kairos Power': 43,
+      'Gecko Robotics': 44,
+      'Heirloom Carbon': 46,
+      'Solugen': 47,
+      'TerraPower': 48,
+      'Boston Dynamics': 49,
+      'Etched': null, // not ranked (new in 2025)
+      'Terraform Industries': null, // not ranked (new in 2025)
+      'Machina Labs': null // not ranked (new in 2025)
+    },
+    keyMovers: [
+      { company: 'Palantir Technologies', from: 12, to: 7, reason: 'AIP platform driving commercial acceleration' },
+      { company: 'Anthropic', from: 8, to: 4, reason: 'Claude models reaching parity with GPT-4' },
+      { company: 'Helion', from: 26, to: 19, reason: 'Microsoft PPA validated commercial path' }
+    ]
+  },
+  2023: {
+    releaseDate: '2023-01-22',
+    title: 'The ROS Innovator 50 — 2023 Edition',
+    rankings: {
+      'SpaceX': 1,
+      'OpenAI': 4,
+      'Anthropic': 15,
+      'Anduril Industries': 5,
+      'Palantir Technologies': 18,
+      'Commonwealth Fusion Systems': 6,
+      'Scale AI': 8,
+      'Boom Supersonic': 16,
+      'Relativity Space': 7,
+      'Shield AI': 14,
+      'Cerebras': 25,
+      'Joby Aviation': 11,
+      'Helion': 35,
+      'Epirus': 28,
+      'Skydio': 12,
+      'Hadrian': 32,
+      'Hermeus': 20,
+      'Zipline': 17,
+      'Rocket Lab': 19,
+      'Archer Aviation': 24,
+      'Astranis': 30,
+      'Covariant': 40,
+      'Impulse Space': 38,
+      'Planet Labs': 26,
+      'Axiom Space': 22,
+      'PsiQuantum': 23,
+      'Neuralink': 13,
+      'Waymo': 3,
+      'Applied Intuition': 33,
+      'Varda Space Industries': 42,
+      'Fervo Energy': 45,
+      'KoBold Metals': 36,
+      'Groq': null, // not ranked
+      'Lightmatter': 44,
+      'Oklo': 37,
+      'Agility Robotics': 41
+    },
+    keyMovers: [
+      { company: 'OpenAI', from: 4, to: 2, reason: 'GPT-4 launch and ChatGPT explosion' },
+      { company: 'Anthropic', from: 15, to: 8, reason: 'Claude launch and constitutional AI approach' }
+    ]
+  }
+};
+
+// Generate movement indicators from historical data
+function getHistoricalMovement(companyName, currentRank, currentYear = 2025) {
+  const lastYear = INNOVATOR_50_HISTORY[currentYear - 1];
+  if (!lastYear || !lastYear.rankings) return null;
+
+  const previousRank = lastYear.rankings[companyName];
+  if (previousRank === null || previousRank === undefined) {
+    return { type: 'new', change: null };
+  }
+
+  const change = previousRank - currentRank; // positive = moved up
+  if (change > 0) {
+    return { type: 'up', change: change };
+  } else if (change < 0) {
+    return { type: 'down', change: change };
+  }
+  return { type: 'same', change: 0 };
+}
+
+// Get full ranking history for a company
+function getCompanyRankingHistory(companyName) {
+  const history = [];
+  const years = [2023, 2024, 2025];
+
+  years.forEach(year => {
+    if (year === 2025) {
+      const current = INNOVATOR_50.find(c => c.company === companyName);
+      if (current) {
+        history.push({ year, rank: current.rank });
+      }
+    } else if (INNOVATOR_50_HISTORY[year]?.rankings[companyName]) {
+      history.push({ year, rank: INNOVATOR_50_HISTORY[year].rankings[companyName] });
+    }
+  });
+
+  return history;
+}
