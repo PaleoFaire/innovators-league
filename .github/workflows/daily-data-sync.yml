@@ -129,6 +129,7 @@ jobs:
         run: |
           git add data.js data/
           git diff --staged --quiet || git commit -m "🤖 Auto-update: Daily data sync $(date +%Y-%m-%d)"
+          git pull --rebase origin main || true
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

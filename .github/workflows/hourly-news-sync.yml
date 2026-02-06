@@ -98,6 +98,7 @@ jobs:
         run: |
           git add data.js data/
           git diff --staged --quiet || git commit -m "🤖 Auto-update: News signals $(date +%Y-%m-%d\ %H:%M)"
+          git pull --rebase origin main || true
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
