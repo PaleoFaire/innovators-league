@@ -1194,7 +1194,7 @@ const COMPANIES = [
   {
     name: 'Retro Biosciences',
     sector: 'Biotech & Health',
-    description: 'Targeting three core aging 'bugs': toxic blood molecules, genetic errors, and cellular cleanup. RTR-242 drug targets autophagy. Sam Altman invested $180M.',
+    description: 'Targeting three core aging bugs: toxic blood molecules, genetic errors, and cellular cleanup. RTR-242 drug targets autophagy. Sam Altman invested $180M.',
     founder: '',
     location: 'Redwood City, CA',
     state: 'CA',
@@ -1402,7 +1402,7 @@ const COMPANIES = [
   {
     name: 'Quaise Energy',
     sector: 'Climate & Energy',
-    description: 'Laser-based 'energy drill' using millimeter waves to melt rock. Targeting 12-mile-deep wells. Founded at MIT nuclear fusion lab.',
+    description: 'Laser-based energy drill using millimeter waves to melt rock. Targeting 12-mile-deep wells. Founded at MIT nuclear fusion lab.',
     founder: '',
     location: 'Cambridge, MA',
     state: 'MA',
@@ -1591,7 +1591,7 @@ const COMPANIES = [
   {
     name: 'Extropic',
     sector: 'Chips & Semiconductors',
-    description: 'Thermodynamic computing chips that harness natural 'noise' as an energy source. Claims 10,000x energy efficiency improvement. Debuting TSUs in 2026.',
+    description: 'Thermodynamic computing chips that harness natural noise as an energy source. Claims 10,000x energy efficiency improvement. Debuting TSUs in 2026.',
     founder: 'Gill Verdon',
     location: 'San Francisco, CA',
     state: 'CA',
@@ -1653,7 +1653,7 @@ const COMPANIES = [
   {
     name: 'Cuby Technologies',
     sector: 'Housing & Construction',
-    description: 'Mobile Micro-Factories that manufacture homes from 'kits of parts.' Portable factories packed into ~122 shipping containers. First US factory in Las Vegas. FactoryOS software.',
+    description: 'Mobile Micro-Factories that manufacture homes from kits of parts. Portable factories packed into ~122 shipping containers. First US factory in Las Vegas. FactoryOS software.',
     founder: 'Aleks Gampel, Aleh Kandrashou',
     location: 'Las Vegas, NV',
     state: 'NV',
@@ -1895,7 +1895,7 @@ const COMPANIES = [
     valuation: '$29B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['AI data', 'training data', 'defense', 'ML'],
-    insight: 'Scale AI is the invisible infrastructure layer powering every major AI model. Their defense pivot with Scale Donovan is positioning them as the 'Palantir for AI data.' At $29B, they\'re priced for category dominance.',
+    insight: 'Scale AI is the invisible infrastructure layer powering every major AI model. Their defense pivot with Scale Donovan is positioning them as the Palantir for AI data. At $29B, they\'re priced for category dominance.',
     signal: 'hot',
     scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 9 },
     competitors: ['Labelbox', 'Appen'],
@@ -6275,7 +6275,7 @@ const COMPANIES = [
   {
     name: 'GrayMatter Robotics',
     sector: 'Robotics & Manufacturing',
-    description: 'Deploys AI-powered robotic cells using proprietary 'physics-informed AI' for complex surface finishing — sanding, grinding, polishing, spraying — in high-mix manufacturing. Robots self-program from task descriptions and operate 2-4x faster than manual labor.',
+    description: 'Deploys AI-powered robotic cells using proprietary physics-informed AI for complex surface finishing — sanding, grinding, polishing, spraying — in high-mix manufacturing. Robots self-program from task descriptions and operate 2-4x faster than manual labor.',
     founder: 'Ariyan Kabir & Brual Shah',
     location: 'Carson, CA',
     state: 'CA',
@@ -6451,7 +6451,7 @@ const COMPANIES = [
   {
     name: 'Collaborative Robotics',
     sector: 'Robotics & Manufacturing',
-    description: 'Builds 'Proxie,' a mobile manipulator cobot that carries 75 lb payloads and moves carts up to 1,500 lb. Deliberate non-humanoid design optimized for real-world utility. Clients include Mayo Clinic, Maersk, and US DoD.',
+    description: 'Builds Proxie, a mobile manipulator cobot that carries 75 lb payloads and moves carts up to 1,500 lb. Deliberate non-humanoid design optimized for real-world utility. Clients include Mayo Clinic, Maersk, and US DoD.',
     founder: 'Brad Porter',
     location: 'Santa Clara, CA',
     state: 'CA',
@@ -6484,7 +6484,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: '',
     tags: ['affordable robotics', 'RoboGPT', 'SMB automation', 'Y Combinator'],
-    insight: 'The 'Tesla of robotic arms' play — making automation affordable enough for the 98% of factories that can\'t afford a $100K Universal Robots setup. Natural language programming via RoboGPT is a genuinely novel interface. Y Combinator backed. Crossed $1M ARR.',
+    insight: 'The Tesla of robotic arms play — making automation affordable enough for the 98% of factories that can\'t afford a $100K Universal Robots setup. Natural language programming via RoboGPT is a genuinely novel interface. Y Combinator backed. Crossed $1M ARR.',
     signal: 'watch',
     scores: { team: 7, traction: 6, techMoat: 7, market: 9, momentum: 7 },
     competitors: ['Universal Robots', 'FANUC', 'Franka Emika'],
@@ -6495,7 +6495,7 @@ const COMPANIES = [
   {
     name: 'Trilobio',
     sector: 'Biotech & Health',
-    description: 'Fully automated robotic 'lab-in-a-box' platform for biologists, combining robotics, lab equipment, and no-code software to enable reproducible, rapid research in synthetic biology and life sciences.',
+    description: 'Fully automated robotic lab-in-a-box platform for biologists, combining robotics, lab equipment, and no-code software to enable reproducible, rapid research in synthetic biology and life sciences.',
     founder: 'Max Hensen & Grace Kim',
     location: 'San Francisco, CA',
     state: 'CA',
@@ -7141,7 +7141,7 @@ const COMPANIES = [
   {
     name: 'Cohere',
     sector: 'AI & Software',
-    description: 'Enterprise-focused AI company building custom LLMs for business applications. Founded by Google Brain alumni, including a co-author of the transformative 'Attention Is All You Need' paper.',
+    description: 'Enterprise-focused AI company building custom LLMs for business applications. Founded by Google Brain alumni, including a co-author of the transformative Attention Is All You Need paper.',
     founder: 'Aidan Gomez, Ivan Zhang, Nick Frosst',
     location: 'Toronto, Canada',
     country: 'Canada',
@@ -7692,7 +7692,7 @@ const COMPANIES = [
   {
     name: 'Osmo',
     sector: 'Consumer Tech',
-    description: 'First company to 'teleport' a scent digitally. Scent digitization and AI-powered fragrance creation. Giving computers a sense of smell using AI models for digital olfaction.',
+    description: 'First company to teleport a scent digitally. Scent digitization and AI-powered fragrance creation. Giving computers a sense of smell using AI models for digital olfaction.',
     founder: 'Alex Wiltschko',
     location: 'Cambridge, MA',
     state: 'MA',
@@ -7788,7 +7788,7 @@ const VC_FIRMS = [
     name: 'a16z (Andreessen Horowitz)',
     shortName: 'a16z',
     aum: '$42B+',
-    flagshipFund: 'American Dynamism',
+    flagshipFund: American Dynamism,
     founded: 2009,
     hq: 'Menlo Park, CA',
     thesis: 'Software is eating the world. American Dynamism backs founders building in defense, aerospace, public safety, housing, education, and manufacturing — sectors where technology can strengthen American resilience.',
@@ -7797,7 +7797,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Anduril Industries', 'Shield AI', 'Saronic', 'Physical Intelligence', 'Groq', 'Hadrian', 'Flock Safety', 'ElevenLabs'],
     signal: 'established',
     website: 'https://a16z.com',
-    insight: 'a16z\'s American Dynamism fund has become the most prominent capital allocator to hard tech defense and industrial startups. Katherine Boyle\'s thesis that 'building is a form of civic duty' has reshaped how Silicon Valley views government-adjacent sectors. Their portfolio reads like a who\'s-who of the defense tech renaissance.'
+    insight: 'a16z\'s American Dynamism fund has become the most prominent capital allocator to hard tech defense and industrial startups. Katherine Boyle\'s thesis that building is a form of civic duty has reshaped how Silicon Valley views government-adjacent sectors. Their portfolio reads like a who\'s-who of the defense tech renaissance.'
   },
   {
     name: '8VC',
@@ -7812,7 +7812,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Epirus', 'Saronic', 'Hadrian', 'Joby Aviation', 'Saildrone'],
     signal: 'established',
     website: 'https://8vc.com',
-    insight: 'Joe Lonsdale\'s 8VC embodies the 'American Dynamism' ethos with a Texas twist. Their portfolio leans heavily into defense and industrial transformation, leveraging Lonsdale\'s Palantir network to source deals other VCs miss. Deep conviction in the defense tech thesis.'
+    insight: 'Joe Lonsdale\'s 8VC embodies the American Dynamism ethos with a Texas twist. Their portfolio leans heavily into defense and industrial transformation, leveraging Lonsdale\'s Palantir network to source deals other VCs miss. Deep conviction in the defense tech thesis.'
   },
   {
     name: 'Founders Fund',
@@ -7827,7 +7827,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['SpaceX', 'Anduril Industries', 'Palantir', 'Relativity Space', 'Varda Space Industries'],
     signal: 'established',
     website: 'https://foundersfund.com',
-    insight: 'Founders Fund remains the intellectual center of contrarian hard tech investing. Peter Thiel\'s conviction that 'we live in a world of bits, not atoms' drove the fund\'s early SpaceX, Palantir, and Anduril bets. Trae Stephens and Delian Asparouhov now lead the defense tech thesis, having essentially created the category.'
+    insight: 'Founders Fund remains the intellectual center of contrarian hard tech investing. Peter Thiel\'s conviction that we live in a world of bits, not atoms drove the fund\'s early SpaceX, Palantir, and Anduril bets. Trae Stephens and Delian Asparouhov now lead the defense tech thesis, having essentially created the category.'
   },
   {
     name: 'Khosla Ventures',
@@ -7842,7 +7842,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Helion Energy', 'Commonwealth Fusion Systems', 'OpenAI', 'Crusoe Energy'],
     signal: 'established',
     website: 'https://khoslaventures.com',
-    insight: 'Vinod Khosla\'s willingness to make 'black swan' bets sets his fund apart. Early OpenAI investor, fusion energy pioneer backer (Helion, CFS), and consistent contrarian — Khosla has built arguably the deepest deep tech portfolio in the world. His philosophy: 'My willingness to fail gives me the ability to succeed.''
+    insight: 'Vinod Khosla\'s willingness to make black swan bets sets his fund apart. Early OpenAI investor, fusion energy pioneer backer (Helion, CFS), and consistent contrarian — Khosla has built arguably the deepest deep tech portfolio in the world. His philosophy: 'My willingness to fail gives me the ability to succeed.''
   },
   {
     name: 'Sequoia Capital',
@@ -7857,7 +7857,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['NVIDIA', 'Varda Space Industries', 'Wiz', 'Stripe'],
     signal: 'established',
     website: 'https://sequoiacap.com',
-    insight: 'Sequoia\'s institutional prestige is unmatched — backing Apple, Google, and NVIDIA. Their increasing tilt toward hard tech and defense under Shaun Maguire signals a seismic shift: when Sequoia allocates to a category, it validates the entire sector. Their 'Arc' long-term fund unlocks patient capital for frontier tech.'
+    insight: 'Sequoia\'s institutional prestige is unmatched — backing Apple, Google, and NVIDIA. Their increasing tilt toward hard tech and defense under Shaun Maguire signals a seismic shift: when Sequoia allocates to a category, it validates the entire sector. Their Arc long-term fund unlocks patient capital for frontier tech.'
   },
   {
     name: 'DCVC (Data Collective)',
@@ -7872,7 +7872,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Oklo', 'Planet Labs', 'Saildrone'],
     signal: 'rising',
     website: 'https://dcvc.com',
-    insight: 'DCVC is one of the few funds that has been exclusively deep tech from inception, not as a recent pivot. Their 'computational + domain' thesis has produced standout returns. Rachel Slaybaugh\'s nuclear expertise gives them an edge in the nuclear energy renaissance.'
+    insight: 'DCVC is one of the few funds that has been exclusively deep tech from inception, not as a recent pivot. Their computational + domain thesis has produced standout returns. Rachel Slaybaugh\'s nuclear expertise gives them an edge in the nuclear energy renaissance.'
   },
   {
     name: 'Eclipse Ventures',
@@ -7887,7 +7887,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Hadrian', 'Gecko Robotics', 'Machina Labs'],
     signal: 'rising',
     website: 'https://eclipse.vc',
-    insight: 'Eclipse\'s 'industrial transformation' focus means they see what consumer-tech VCs miss: the massive opportunity in modernizing America\'s industrial base. Their portfolio companies are literally rebuilding how things are manufactured, inspected, and maintained.'
+    insight: 'Eclipse\'s industrial transformation focus means they see what consumer-tech VCs miss: the massive opportunity in modernizing America\'s industrial base. Their portfolio companies are literally rebuilding how things are manufactured, inspected, and maintained.'
   },
   {
     name: 'Playground Global',
@@ -7902,7 +7902,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Physical Intelligence', 'Essential AI'],
     signal: 'watch',
     website: 'https://playground.global',
-    insight: 'Andy Rubin (creator of Android) brings an operator\'s eye to deep tech investing. Playground\'s thesis on 'next-gen compute' gives them unique insight into the hardware-software interfaces that define platform shifts.'
+    insight: 'Andy Rubin (creator of Android) brings an operator\'s eye to deep tech investing. Playground\'s thesis on next-gen compute gives them unique insight into the hardware-software interfaces that define platform shifts.'
   },
   {
     name: 'ARCH Venture Partners',
@@ -7977,7 +7977,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Stripe', 'Snap', 'Livongo'],
     signal: 'rising',
     website: 'https://generalcatalyst.com',
-    insight: 'GC\'s 'responsible innovation' thesis and healthcare transformation strategy — including acquiring a health system — represent a new model of VC involvement. Their deep tech allocation is growing rapidly, and their Cambridge roots give them MIT/Harvard deal flow.'
+    insight: 'GC\'s responsible innovation thesis and healthcare transformation strategy — including acquiring a health system — represent a new model of VC involvement. Their deep tech allocation is growing rapidly, and their Cambridge roots give them MIT/Harvard deal flow.'
   },
   {
     name: 'Bold Capital Partners',
@@ -8022,7 +8022,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['Anduril Industries', 'Saronic', 'Saildrone', 'Collaborative Robotics', 'Multiply Labs', 'Zoox'],
     signal: 'established',
     website: 'https://luxcapital.com',
-    insight: 'Josh Wolfe\'s Lux Capital is the intellectual godfather of deep tech venture capital. His 'invest in the future that sci-fi promised' philosophy produced category-defining bets on Anduril, and his prolific Twitter/X presence makes Lux the most visible deep tech brand. Their ability to identify paradigm shifts before they\'re obvious — from defense autonomy to space manufacturing — is unmatched.'
+    insight: 'Josh Wolfe\'s Lux Capital is the intellectual godfather of deep tech venture capital. His invest in the future that sci-fi promised philosophy produced category-defining bets on Anduril, and his prolific Twitter/X presence makes Lux the most visible deep tech brand. Their ability to identify paradigm shifts before they\'re obvious — from defense autonomy to space manufacturing — is unmatched.'
   },
   {
     name: 'Harpoon Ventures',
@@ -8061,13 +8061,13 @@ const VC_FIRMS = [
     flagshipFund: 'Cantos Fund III',
     founded: 2016,
     hq: 'San Francisco, CA',
-    thesis: 'First money in for 'near frontier' companies — deeply technical founders transforming the physical world in energy, defense, infrastructure, space, and advanced manufacturing. Willing to take technical risk that other VCs won\'t touch at the earliest stages.',
+    thesis: 'First money in for near frontier companies — deeply technical founders transforming the physical world in energy, defense, infrastructure, space, and advanced manufacturing. Willing to take technical risk that other VCs won\'t touch at the earliest stages.',
     keyPartners: ['Ian Rountree'],
     sectorFocus: ['Climate & Energy', 'Defense & Security', 'Space & Aerospace'],
     portfolioCompanies: ['Astranis', 'Radiant', 'Castelion', 'Venus Aerospace', 'Atom Computing', 'Solugen', 'Twelve'],
     signal: 'rising',
     website: 'https://cantos.vc',
-    insight: 'Ian Rountree\'s Cantos is the quintessential 'first check' deep tech fund. By writing the earliest checks into companies like Radiant, Astranis, and Castelion — before anyone else was comfortable — Cantos has built one of the best seed-stage deep tech portfolios in existence. Their 68 investments have produced 3 unicorns and 8 exits. The 'near frontier' thesis perfectly captures the current moment: not sci-fi, but technologies that are technically risky and transformational.'
+    insight: 'Ian Rountree\'s Cantos is the quintessential first check deep tech fund. By writing the earliest checks into companies like Radiant, Astranis, and Castelion — before anyone else was comfortable — Cantos has built one of the best seed-stage deep tech portfolios in existence. Their 68 investments have produced 3 unicorns and 8 exits. The near frontier thesis perfectly captures the current moment: not sci-fi, but technologies that are technically risky and transformational.'
   },
   {
     name: 'Shield Capital',
@@ -8257,7 +8257,7 @@ const IPO_PIPELINE = [
   { company: 'SpaceX', status: 'IPO Imminent — Targeting Mid-2026', likelihood: 'high', estimatedDate: 'Mid-2026', estimatedValuation: '$1.5T+', sector: 'Space & Aerospace' },
   { company: 'Cerebras', status: 'S-1 Filed, Targeting Q2 2026', likelihood: 'high', estimatedDate: 'Q2 2026', estimatedValuation: '$22B+', sector: 'Chips & Semiconductors' },
   { company: 'Databricks', status: 'IPO-Ready, CEO Confirmed', likelihood: 'high', estimatedDate: '2026', estimatedValuation: '$134B+', sector: 'AI & Software' },
-  { company: 'Anduril Industries', status: 'Will 'Definitely' Go Public — CEO', likelihood: 'high', estimatedDate: '2026-2027', estimatedValuation: '$78B+', sector: 'Defense & Security' },
+  { company: 'Anduril Industries', status: 'Will Definitely Go Public — CEO', likelihood: 'high', estimatedDate: '2026-2027', estimatedValuation: '$78B+', sector: 'Defense & Security' },
   { company: 'Applied Intuition', status: 'Likely Last Private Round', likelihood: 'medium', estimatedDate: '2026-2027', estimatedValuation: '$15B+', sector: 'AI & Software' },
   { company: 'Stripe', status: 'Heavily Speculated', likelihood: 'medium', estimatedDate: '2026-2027', estimatedValuation: '$129B+', sector: 'AI & Software' },
   { company: 'Shield AI', status: 'IPO Candidate', likelihood: 'medium', estimatedDate: '2027-2028', estimatedValuation: '$10B+', sector: 'Defense & Security' },
@@ -9615,7 +9615,7 @@ const GROWTH_SIGNALS = [
     company: 'Anduril Industries',
     signal: 'valuation_jump',
     headline: '$78B Secondary Market Valuation',
-    detail: 'Secondary market valuation reached $78B, up from $30.5B in 8 months. CEO confirmed company will 'definitely' go public.',
+    detail: 'Secondary market valuation reached $78B, up from $30.5B in 8 months. CEO confirmed company will definitely go public.',
     metric: '+156% valuation in 8 months',
     strength: 10,
     date: '2026-01',
@@ -14555,7 +14555,7 @@ const INNOVATOR_50 = [
     company: 'Anthropic',
     category: 'AI Infrastructure',
     highlights: ['Claude models competitive on key benchmarks', 'Constitutional AI approach to safety gaining adoption', '$8B+ in contracted cloud revenue from Amazon/Google'],
-    thesis: 'Anthropic has established itself as the 'safety-first' alternative at the frontier. Major cloud partnerships provide capital and distribution without giving up control. Claude is becoming the preferred model for enterprise applications requiring reliability.',
+    thesis: 'Anthropic has established itself as the safety-first alternative at the frontier. Major cloud partnerships provide capital and distribution without giving up control. Claude is becoming the preferred model for enterprise applications requiring reliability.',
     yoyChange: 'up',
     badges: ['Safety Leader']
   },
@@ -15147,7 +15147,7 @@ const COMPANY_SIGNALS = [
   { id: 8, type: "news", company: "OpenAI", headline: "Nvidia's $100 billion OpenAI deal has seemingly vanished", source: "Ars Technica", time: "2d ago", impact: "high", unread: false },
   { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX pauses Falcon 9 launches after upper stage anomaly", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX acquires xAI in bid to develop orbital data centers", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "New OpenAI tool renews fears that 'AI slop' will overwhelm scientific research", source: "Ars Technica Space", time: "1/29/2026", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "New OpenAI tool renews fears that AI slop will overwhelm scientific research", source: "Ars Technica Space", time: "1/29/2026", impact: "low", unread: false },
   { id: 12, type: "news", company: "Anthropic", headline: "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?", source: "Ars Technica", time: "1/29/2026", impact: "low", unread: false },
   { id: 13, type: "news", company: "Cobot", headline: "Defense Business Brief: Fairbanks' engine cobots; 2025 Q4 earnings; and a bit more", source: "Defense One", time: "1/29/2026", impact: "low", unread: false },
   { id: 14, type: "news", company: "OpenAI", headline: "OpenAI spills technical details about how its AI coding agent works", source: "Ars Technica", time: "1/26/2026", impact: "low", unread: false },
