@@ -144,7 +144,7 @@ const COMPANIES = [
   {
     name: 'Saronic',
     sector: 'Defense & Security',
-    description: 'Autonomous surface vessels built at shipyard scale. Vertically integrated 'shipyard as startup' producing autonomous boats for naval defense on rapid cycles. $4B valuation, $600M+ raised.',
+    description: 'Autonomous surface vessels built at shipyard scale. Vertically integrated shipyard-as-startup producing autonomous boats for naval defense on rapid cycles. $4B valuation, $600M+ raised.',
     founder: 'Dino Sarti',
     location: 'Austin, TX',
     state: 'TX',
@@ -155,7 +155,7 @@ const COMPANIES = [
     valuation: '$4.0B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['autonomous', 'naval', 'shipbuilding', 'defense'],
-    insight: 'Saronic\'s 'shipyard as startup' model is revolutionary — they\'re building autonomous naval vessels on software development timelines, not traditional shipbuilding cycles. The Navy desperately needs this speed.',
+    insight: 'Saronic\'s shipyard-as-startup model is revolutionary — they\'re building autonomous naval vessels on software development timelines, not traditional shipbuilding cycles. The Navy desperately needs this speed.',
     signal: 'hot',
     scores: { team: 8, traction: 9, techMoat: 8, market: 9, momentum: 10 },
     competitors: [],
@@ -1363,7 +1363,7 @@ const COMPANIES = [
     competitors: ['TAE Technologies', 'Xcimer Energy', 'Commonwealth Fusion'],
     thesis: {
       bull: 'First commercial fusion power by 2028. Microsoft PPA validates the technology path. Direct electricity generation (no steam turbine) is a breakthrough architecture.',
-      bear: 'Fusion has been '10 years away' for 60 years. Engineering challenges of sustained plasma confinement remain immense.',
+      bear: 'Fusion has been 10 years away for 60 years. Engineering challenges of sustained plasma confinement remain immense.',
       risks: ['Physics risk', 'Timeline risk', 'Capital intensity', 'Regulatory pathway for fusion']
     },
     recentEvent: { type: 'milestone', text: 'Advancing toward 2028 power generation target', date: '2025-10' },
@@ -3834,7 +3834,7 @@ const COMPANIES = [
   {
     name: 'Tempus AI',
     sector: 'Biotech & Health',
-    description: 'AI platform analyzing clinical and molecular data to personalize cancer treatment. One of the largest clinical and molecular datasets in the world. IPO'd in 2024.',
+    description: 'AI platform analyzing clinical and molecular data to personalize cancer treatment. One of the largest clinical and molecular datasets in the world. IPO in 2024.',
     founder: 'Eric Lefkofsky',
     location: 'Chicago, IL',
     state: 'IL',
@@ -6219,7 +6219,7 @@ const COMPANIES = [
     valuation: '',
     rosLink: '',
     tags: ['defense tech', 'advisory', 'venture', 'national security'],
-    insight: 'SHIELD operates at the critical junction between defense primes and startups. Jim Siders' network across DoD acquisition and venture makes this a key node in the defense tech ecosystem.',
+    insight: 'SHIELD operates at the critical junction between defense primes and startups. Jim Siders network across DoD acquisition and venture makes this a key node in the defense tech ecosystem.',
     signal: 'watch',
     scores: { team: 8, traction: 7, techMoat: 6, market: 8, momentum: 7 },
     competitors: [],
