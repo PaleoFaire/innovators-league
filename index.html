@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=12">
+    <link rel="stylesheet" href="styles.css?v=13">
 </head>
 <body>
     <!-- Navigation -->
@@ -72,6 +72,19 @@
         <div class="ticker-scroll" id="ticker-scroll"></div>
     </div>
 
+    <!-- Value Proposition Banner -->
+    <section class="value-prop-banner">
+        <div class="container">
+            <div class="value-prop-content">
+                <div class="value-prop-text">
+                    <span class="value-prop-badge">🔒 MEMBERS ONLY</span>
+                    <p><strong>Get the full picture.</strong> ROS members get weekly deep-dives, exclusive data exports, and direct access to founders.</p>
+                </div>
+                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="value-prop-cta">Join the Rational Optimist Society →</a>
+            </div>
+        </div>
+    </section>
+
     <!-- ROS Innovator 50 (Collapsible) -->
     <section class="innovator50-section" id="innovator50">
         <div class="container">
@@ -88,6 +101,9 @@
                     </div>
                 </button>
                 <div class="innovator50-accordion-content" id="i50-content" style="display: none;">
+                    <div class="innovator50-methodology-note">
+                        <strong>How We Rank:</strong> Companies scored across 6 dimensions — Technology Moat (25%), Momentum (25%), Team Pedigree (15%), Market Gravity (15%), Capital Efficiency (10%), Government Traction (10%). Rankings updated annually based on proprietary data and expert analysis.
+                    </div>
                     <div class="innovator50-controls">
                         <select id="i50-category" class="i50-filter">
                             <option value="all">All Categories</option>
@@ -169,6 +185,9 @@
                 <h2>Technology Readiness Levels</h2>
                 <p>NASA's 1-9 scale measuring how close each technology is to real-world deployment.</p>
             </div>
+            <div class="metric-methodology-box compact">
+                <p><strong>TRL Scale:</strong> 1-3 = Research phase | 4-6 = Development & testing | 7-8 = Demonstration | 9 = Operational at scale. Higher TRL = lower technical risk, but potentially less upside.</p>
+            </div>
             <div class="trl-legend" id="trl-legend"></div>
             <div class="trl-grid" id="trl-grid"></div>
         </div>
@@ -221,6 +240,18 @@
                 <p class="section-eyebrow">PROPRIETARY INTELLIGENCE</p>
                 <h2>Innovator Score&trade;</h2>
                 <p>Our proprietary composite metric ranking frontier tech companies across 6 dimensions. The definitive measure of startup potential.</p>
+            </div>
+            <div class="metric-methodology-box">
+                <h4>📊 How We Calculate Innovator Score</h4>
+                <p>Each company is scored 1-10 across six dimensions, then weighted to produce a composite score (0-100). Scores are updated quarterly based on:</p>
+                <ul>
+                    <li><strong>Technology Moat (25%):</strong> Patent portfolio, trade secrets, technical differentiation, and defensibility against competitors</li>
+                    <li><strong>Momentum (25%):</strong> Recent funding, partnerships, contracts, product launches, and growth trajectory</li>
+                    <li><strong>Team Pedigree (15%):</strong> Founder backgrounds, key hires, "mafia" connections (SpaceX, Palantir, etc.)</li>
+                    <li><strong>Market Gravity (15%):</strong> TAM size, market timing, regulatory tailwinds, and category leadership potential</li>
+                    <li><strong>Capital Efficiency (10%):</strong> Valuation relative to capital raised — value created per dollar invested</li>
+                    <li><strong>Gov't Traction (10%):</strong> Federal contracts, SBIR awards, agency relationships, and defense budget exposure</li>
+                </ul>
             </div>
             <div class="iscore-methodology">
                 <div class="iscore-dimension-legend">
@@ -275,6 +306,9 @@
                 <h2>Patent Intelligence &amp; IP Moat</h2>
                 <p>Patent portfolios, filing velocity, and IP moat analysis — the leading indicator of technology defensibility.</p>
             </div>
+            <div class="metric-methodology-box compact">
+                <p><strong>IP Moat Score (1-10):</strong> Combines patent count, filing velocity (patents/year), breadth of coverage, and strategic value of claims. Note: Some companies (e.g., SpaceX) rely on trade secrets rather than patents — their true IP moat exceeds patent data.</p>
+            </div>
             <div class="patent-grid" id="patent-grid"></div>
         </div>
     </section>
@@ -286,6 +320,9 @@
                 <p class="section-eyebrow">ALTERNATIVE DATA</p>
                 <h2>Alternative Signals Dashboard</h2>
                 <p>Hiring velocity, web traffic, news sentiment, and GitHub activity — the leading indicators that predict trajectory 6-12 months ahead.</p>
+            </div>
+            <div class="metric-methodology-box compact">
+                <p><strong>Signal Strength (1-10):</strong> Aggregates hiring velocity (LinkedIn data), web traffic trends, news sentiment analysis, and GitHub activity. "Surging" hiring + positive sentiment + traffic growth = high signal strength.</p>
             </div>
             <div class="alt-data-controls">
                 <select id="alt-sort" class="lb-filter-select">
@@ -330,6 +367,28 @@
             </div>
             <div class="network-info" id="network-info">
                 <p class="network-stats" id="network-stats"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mid-Page CTA -->
+    <section class="mid-cta-section">
+        <div class="container">
+            <div class="mid-cta-box">
+                <div class="mid-cta-content">
+                    <h3>🚀 Want deeper intelligence?</h3>
+                    <p>ROS members get weekly deep-dives, exclusive founder interviews, downloadable data exports, and early access to new features.</p>
+                    <div class="mid-cta-features">
+                        <span>✓ Weekly analysis newsletter</span>
+                        <span>✓ Founder network access</span>
+                        <span>✓ Data export tools</span>
+                        <span>✓ Private Discord community</span>
+                    </div>
+                </div>
+                <div class="mid-cta-actions">
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="mid-cta-btn secondary">Subscribe Free →</a>
+                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="mid-cta-btn primary">Join ROS →</a>
+                </div>
             </div>
         </div>
     </section>
@@ -782,8 +841,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <script src="data.js?v=15"></script>
-    <script src="app.js?v=15"></script>
+    <script src="data.js?v=16"></script>
+    <script src="app.js?v=16"></script>
     <script src="https://giscus.app/client.js"
         data-repo="PaleoFaire/innovators-league"
         data-repo-id=""

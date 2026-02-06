@@ -7001,9 +7001,187 @@ body {
   line-height: 1.5;
 }
 
+/* ─── VALUE PROPOSITION BANNER ─── */
+.value-prop-banner {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.02) 100%);
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+  padding: 12px 0;
+}
+.value-prop-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.value-prop-text {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+.value-prop-badge {
+  background: var(--accent);
+  color: var(--bg-primary);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.value-prop-cta {
+  background: var(--accent);
+  color: var(--bg-primary);
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.value-prop-cta:hover {
+  background: #fff;
+  transform: translateY(-1px);
+}
+
+/* ─── METRIC METHODOLOGY BOXES ─── */
+.metric-methodology-box {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+}
+.metric-methodology-box h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+.metric-methodology-box p {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+.metric-methodology-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.metric-methodology-box li {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.metric-methodology-box li strong {
+  color: var(--text-primary);
+}
+.metric-methodology-box.compact {
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+.metric-methodology-box.compact p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+/* ─── INNOVATOR 50 METHODOLOGY NOTE ─── */
+.innovator50-methodology-note {
+  background: rgba(255, 215, 0, 0.05);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+.innovator50-methodology-note strong {
+  color: var(--accent);
+}
+
+/* ─── MID-PAGE CTA ─── */
+.mid-cta-section {
+  padding: 40px 0;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.08) 0%, transparent 100%);
+}
+.mid-cta-box {
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: 16px;
+  padding: 32px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.mid-cta-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+.mid-cta-content p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  max-width: 500px;
+}
+.mid-cta-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.mid-cta-features span {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.mid-cta-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.mid-cta-btn {
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.15s;
+}
+.mid-cta-btn.primary {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+.mid-cta-btn.primary:hover {
+  background: #fff;
+  transform: translateY(-2px);
+}
+.mid-cta-btn.secondary {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+}
+.mid-cta-btn.secondary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* ─── PHASE 3 RESPONSIVE ─── */
 @media (max-width: 1024px) {
   .community-layout { grid-template-columns: 1fr; }
+  .metric-methodology-box ul { grid-template-columns: 1fr; }
+  .mid-cta-box { flex-direction: column; text-align: center; }
+  .mid-cta-content p { max-width: 100%; }
+  .mid-cta-features { justify-content: center; }
+  .mid-cta-actions { flex-direction: row; }
 }
 
 @media (max-width: 768px) {
@@ -7012,4 +7190,8 @@ body {
   .feed-controls { flex-direction: column; }
   .reports-grid { grid-template-columns: 1fr; }
   .community-layout { grid-template-columns: 1fr; }
+  .value-prop-content { flex-direction: column; text-align: center; }
+  .value-prop-text { flex-direction: column; }
+  .mid-cta-actions { flex-direction: column; }
+  .mid-cta-box { padding: 24px; }
 }
