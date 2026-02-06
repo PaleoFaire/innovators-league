@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=16">
+    <link rel="stylesheet" href="styles.css?v=17">
 </head>
 <body>
     <!-- Navigation -->
@@ -729,6 +729,118 @@
         <div id="innovators-map"></div>
     </section>
 
+    <!-- SMART SCREENER (S&P CapIQ-style) -->
+    <section class="screener-section" id="smart-screener">
+        <div class="container">
+            <div class="screener-container">
+                <div class="screener-header">
+                    <div class="screener-title">
+                        <h2>🎯 Smart Screener</h2>
+                        <span class="screener-pro-badge">PRO</span>
+                    </div>
+                    <div class="screener-actions">
+                        <button class="screener-btn secondary" onclick="clearScreenerFilters()">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                            Clear All
+                        </button>
+                        <button class="screener-btn primary" onclick="runScreener()">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5,3 19,12 5,21 5,3"/></svg>
+                            Run Screener
+                        </button>
+                    </div>
+                </div>
+                <div class="screener-filters">
+                    <div class="screener-filter">
+                        <label class="screener-filter-label">Sector</label>
+                        <select id="screener-sector" class="screener-filter-input"></select>
+                    </div>
+                    <div class="screener-filter">
+                        <label class="screener-filter-label">Funding Stage</label>
+                        <select id="screener-stage" class="screener-filter-input"></select>
+                    </div>
+                    <div class="screener-filter">
+                        <label class="screener-filter-label">Signal</label>
+                        <select class="screener-filter-input" onchange="if(this.value) addScreenerFilter('signal', 'Signal', this.value); this.value='';">
+                            <option value="">Any Signal</option>
+                            <option value="Hot">🔥 Hot</option>
+                            <option value="Rising">📈 Rising</option>
+                            <option value="Stable">💚 Stable</option>
+                        </select>
+                    </div>
+                    <div class="screener-filter">
+                        <label class="screener-filter-label">Location</label>
+                        <select class="screener-filter-input" onchange="if(this.value) addScreenerFilter('location', 'Location', this.value); this.value='';">
+                            <option value="">Any Location</option>
+                            <option value="California">California</option>
+                            <option value="Texas">Texas</option>
+                            <option value="New York">New York</option>
+                            <option value="Washington">Washington</option>
+                            <option value="Massachusetts">Massachusetts</option>
+                            <option value="Colorado">Colorado</option>
+                            <option value="International">International</option>
+                        </select>
+                    </div>
+                    <div class="screener-filter">
+                        <label class="screener-filter-label">Special Filters</label>
+                        <select class="screener-filter-input" onchange="if(this.value) addScreenerFilter(this.value, this.options[this.selectedIndex].text, 'Yes'); this.value='';">
+                            <option value="">Add Filter...</option>
+                            <option value="innovator50">Innovator 50</option>
+                            <option value="govContracts">Has Gov Contracts</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="screener-active-filters" style="display:none;"></div>
+                <div class="screener-results-header">
+                    <div class="screener-results-count"><strong>839</strong> companies match your criteria</div>
+                    <div class="screener-export-btns">
+                        <button class="screener-export-btn" onclick="exportCurrentView()">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                            Export CSV
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERT INTELLIGENCE (Tegus-style) -->
+    <section class="expert-intel-section" id="expert-intel-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">EXPERT INTELLIGENCE</p>
+                <h2>Industry Expert Insights</h2>
+                <p>Exclusive perspectives from insiders, former employees, and industry analysts — synthesized for investment decisions.</p>
+            </div>
+            <div class="expert-grid"></div>
+        </div>
+    </section>
+
+    <!-- PRO WATCHLIST (Crunchbase-style Kanban) -->
+    <section class="watchlist-section" id="pro-watchlist">
+        <div class="container">
+            <div class="watchlist-container">
+                <div class="watchlist-header">
+                    <div class="watchlist-title">
+                        <h2>👁️ Pro Watchlist</h2>
+                        <span class="watchlist-count">0</span>
+                    </div>
+                    <div class="watchlist-actions">
+                        <button class="screener-btn secondary" style="font-size: 12px; padding: 6px 12px;">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            Set Alerts
+                        </button>
+                    </div>
+                </div>
+                <div class="watchlist-tabs">
+                    <button class="watchlist-tab active">Kanban View</button>
+                    <button class="watchlist-tab">List View</button>
+                    <button class="watchlist-tab">Alerts</button>
+                </div>
+                <div class="watchlist-kanban"></div>
+            </div>
+        </div>
+    </section>
+
     <!-- Database Section -->
     <section id="companies" class="section">
         <div class="container">
@@ -849,8 +961,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <script src="data.js?v=20"></script>
-    <script src="app.js?v=18"></script>
+    <script src="data.js?v=21"></script>
+    <script src="app.js?v=19"></script>
     <script src="https://giscus.app/client.js"
         data-repo="PaleoFaire/innovators-league"
         data-repo-id=""

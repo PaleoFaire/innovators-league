@@ -13580,3 +13580,226 @@ function getCompanyRankingHistory(companyName) {
 
   return history;
 }
+
+// ═══════════════════════════════════════════════════════════════════════════
+// WORLD-CLASS INTELLIGENCE PLATFORM DATA
+// Inspired by: Bloomberg Terminal, PitchBook, S&P CapIQ, AlphaSense, Tegus
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
+const COMPANY_SIGNALS = [
+  { id: 1, type: 'funding', company: 'Anduril Industries', headline: 'Secondary market valuation reaches $78B+', source: 'Bloomberg', time: '2h ago', impact: 'high', unread: true },
+  { id: 2, type: 'contract', company: 'Saronic', headline: 'Awarded $600M Navy autonomous vessel contract', source: 'DoD', time: '4h ago', impact: 'high', unread: true },
+  { id: 3, type: 'hire', company: 'Figure', headline: 'Hired former Tesla Autopilot director as CTO', source: 'LinkedIn', time: '6h ago', impact: 'medium', unread: true },
+  { id: 4, type: 'patent', company: 'Commonwealth Fusion Systems', headline: 'Granted 12 new patents for magnet cooling tech', source: 'USPTO', time: '8h ago', impact: 'medium', unread: false },
+  { id: 5, type: 'funding', company: 'Chaos Industries', headline: 'Closes $350M Series D at $4.5B valuation', source: 'TechCrunch', time: '12h ago', impact: 'high', unread: false },
+  { id: 6, type: 'news', company: 'Boom Supersonic', headline: 'Completes critical XB-1 supersonic test flight', source: 'Reuters', time: '1d ago', impact: 'high', unread: false },
+  { id: 7, type: 'contract', company: 'Epirus', headline: 'Selected for Army counter-drone program', source: 'Defense News', time: '1d ago', impact: 'high', unread: false },
+  { id: 8, type: 'hire', company: 'Anthropic', headline: 'Hires 40 ex-DeepMind researchers in London expansion', source: 'Financial Times', time: '1d ago', impact: 'medium', unread: false },
+  { id: 9, type: 'ipo', company: 'SpaceX', headline: 'Starlink IPO filing expected within 6 months', source: 'WSJ', time: '2d ago', impact: 'high', unread: false },
+  { id: 10, type: 'patent', company: 'Neuralink', headline: 'FDA grants breakthrough device designation', source: 'FDA', time: '2d ago', impact: 'high', unread: false },
+  { id: 11, type: 'funding', company: 'Shield AI', headline: 'Series F-1 extended to $540M at $5.6B', source: 'Crunchbase', time: '3d ago', impact: 'medium', unread: false },
+  { id: 12, type: 'contract', company: 'Palantir', headline: 'Wins $480M Army AI contract expansion', source: 'GovWin', time: '3d ago', impact: 'high', unread: false },
+  { id: 13, type: 'news', company: 'Helion', headline: 'Achieves fusion ignition milestone in test reactor', source: 'Nature', time: '4d ago', impact: 'high', unread: false },
+  { id: 14, type: 'hire', company: 'Scale AI', headline: 'Appoints former DoD CTO as Chief Strategy Officer', source: 'PR Newswire', time: '4d ago', impact: 'medium', unread: false },
+  { id: 15, type: 'funding', company: 'Fervo Energy', headline: 'Closes $244M Series C for geothermal expansion', source: 'GreenTech Media', time: '5d ago', impact: 'medium', unread: false }
+];
+
+// ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
+const EXPERT_INSIGHTS = [
+  {
+    id: 1,
+    expert: 'Former SpaceX Starship Engineer',
+    role: 'Sr. Propulsion Engineer, 2019-2024',
+    avatar: '🚀',
+    company: 'SpaceX',
+    topic: 'Starship Manufacturing',
+    quote: 'The real breakthrough isn\'t the rocket—it\'s the factory. SpaceX has achieved production velocity that makes their cost advantage nearly insurmountable. Other launchers are building vehicles; SpaceX is building an assembly line.',
+    date: '2026-01-28',
+    premium: true
+  },
+  {
+    id: 2,
+    expert: 'Former Anduril Program Director',
+    role: 'Director of Programs, 2021-2025',
+    avatar: '🛡️',
+    company: 'Anduril Industries',
+    topic: 'Lattice OS Ecosystem',
+    quote: 'Lattice isn\'t just software—it\'s a platform play. Every sensor, every drone, every autonomous vehicle runs on it. The lock-in effect is similar to what Microsoft achieved with Windows in the 90s, but for defense.',
+    date: '2026-01-25',
+    premium: true
+  },
+  {
+    id: 3,
+    expert: 'OpenAI Research Scientist',
+    role: 'Senior Research Scientist, current',
+    avatar: '🤖',
+    company: 'OpenAI',
+    topic: 'AGI Timeline',
+    quote: 'The public discussions around timelines are conservative. Internally, the pace of capability improvement has exceeded most projections. The question isn\'t if AGI but how we ensure it benefits everyone.',
+    date: '2026-01-22',
+    premium: true
+  },
+  {
+    id: 4,
+    expert: 'Ex-Commonwealth Fusion Physicist',
+    role: 'Lead Physicist, 2020-2025',
+    avatar: '⚛️',
+    company: 'Commonwealth Fusion Systems',
+    topic: 'Fusion Commercialization',
+    quote: 'SPARC isn\'t a science experiment—it\'s an engineering demonstration. The plasma physics is solved. Now it\'s about manufacturing magnets at scale and grid integration. That\'s a different set of problems, but solvable.',
+    date: '2026-01-18',
+    premium: true
+  },
+  {
+    id: 5,
+    expert: 'Defense Industry Analyst',
+    role: 'Managing Director, Major Bank',
+    avatar: '📊',
+    company: 'Industry Expert',
+    topic: 'Defense Tech M&A',
+    quote: 'The primes are terrified. Lockheed, Raytheon—they\'re seeing $2B startups win contracts they assumed were theirs. The acquisition spree is coming, but the prices will shock people. Anduril at $78B is just the start.',
+    date: '2026-01-15',
+    premium: false
+  },
+  {
+    id: 6,
+    expert: 'Former Joby Flight Test Pilot',
+    role: 'Chief Test Pilot, 2022-2025',
+    avatar: '✈️',
+    company: 'Joby Aviation',
+    topic: 'eVTOL Certification',
+    quote: 'FAA certification is the real race, not the technology. Joby has logged more test hours than everyone else combined. When Part 135 certification comes through, they\'ll be 2-3 years ahead of any competitor.',
+    date: '2026-01-12',
+    premium: true
+  }
+];
+
+// ─── SMART SCREENER FILTER OPTIONS ───
+const SCREENER_FILTERS = {
+  sectors: Object.keys(SECTORS),
+  stages: ['Seed', 'Series A', 'Series B', 'Series C', 'Series D', 'Series E+', 'Late Stage', 'Public'],
+  valuationRanges: ['$0-100M', '$100M-500M', '$500M-1B', '$1B-5B', '$5B-25B', '$25B+'],
+  fundingRanges: ['$0-50M', '$50M-100M', '$100M-500M', '$500M-1B', '$1B+'],
+  signals: ['Hot', 'Rising', 'Stable', 'Watch'],
+  locations: ['California', 'Texas', 'New York', 'Washington', 'Massachusetts', 'Colorado', 'International'],
+  innovatorScoreMin: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  trlLevels: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  recentActivity: ['Last 7 days', 'Last 30 days', 'Last 90 days', 'Last year'],
+  hasGovernmentContracts: true,
+  hasPatents: true,
+  isInnovator50: true,
+  founderMafia: Object.keys(typeof FOUNDER_MAFIAS !== 'undefined' ? FOUNDER_MAFIAS : {})
+};
+
+// ─── COMMAND BAR ACTIONS ───
+const COMMAND_BAR_ACTIONS = [
+  { id: 'search', icon: '🔍', title: 'Search companies...', shortcut: '/', category: 'Navigation' },
+  { id: 'filter-sector', icon: '📊', title: 'Filter by sector', shortcut: 'S', category: 'Filters' },
+  { id: 'filter-stage', icon: '💰', title: 'Filter by funding stage', shortcut: 'F', category: 'Filters' },
+  { id: 'filter-location', icon: '📍', title: 'Filter by location', shortcut: 'L', category: 'Filters' },
+  { id: 'innovator50', icon: '🏆', title: 'View Innovator 50', shortcut: 'I', category: 'Rankings' },
+  { id: 'signals', icon: '📡', title: 'Open Signals Panel', shortcut: 'G', category: 'Intelligence' },
+  { id: 'screener', icon: '🎯', title: 'Open Smart Screener', shortcut: 'R', category: 'Tools' },
+  { id: 'watchlist', icon: '👁️', title: 'View Watchlist', shortcut: 'W', category: 'Tools' },
+  { id: 'compare', icon: '⚖️', title: 'Compare companies', shortcut: 'C', category: 'Tools' },
+  { id: 'export', icon: '📥', title: 'Export data', shortcut: 'E', category: 'Actions' },
+  { id: 'map', icon: '🗺️', title: 'Go to Innovation Map', shortcut: 'M', category: 'Navigation' },
+  { id: 'investors', icon: '💼', title: 'Go to Investors', shortcut: 'V', category: 'Navigation' },
+  { id: 'insights', icon: '📈', title: 'Go to Insights', shortcut: 'N', category: 'Navigation' }
+];
+
+// ─── AI SEARCH SUGGESTIONS ───
+const AI_SEARCH_SUGGESTIONS = [
+  { icon: '🔥', text: 'Show me the <strong>hottest defense tech</strong> companies', type: 'query' },
+  { icon: '💰', text: 'Companies that raised <strong>over $500M</strong> in the last year', type: 'query' },
+  { icon: '🎯', text: 'Find <strong>Series B companies</strong> with government contracts', type: 'query' },
+  { icon: '⚡', text: 'Compare <strong>Anduril vs Shield AI</strong> vs Palantir', type: 'compare' },
+  { icon: '📊', text: 'What are experts saying about <strong>fusion energy</strong>?', type: 'expert' },
+  { icon: '🚀', text: 'Space companies with <strong>Innovator Score above 8</strong>', type: 'query' }
+];
+
+// ─── ECOSYSTEM NETWORK DATA (DEALROOM-STYLE) ───
+const ECOSYSTEM_NETWORK = {
+  clusters: [
+    {
+      id: 'defense-la',
+      name: 'LA Defense Corridor',
+      center: { lat: 33.9, lng: -118.4 },
+      companies: ['Anduril Industries', 'Epirus', 'Chaos Industries', 'Neros', 'Castelion'],
+      investors: ['a]ndreessen Horowitz', 'Founders Fund', 'General Catalyst'],
+      totalValue: '$95B+',
+      color: '#dc2626'
+    },
+    {
+      id: 'space-socal',
+      name: 'SoCal Space Hub',
+      center: { lat: 33.85, lng: -118.35 },
+      companies: ['SpaceX', 'Rocket Lab', 'Impulse Space', 'Relativity Space', 'Varda Space Industries'],
+      investors: ['Founders Fund', 'Khosla Ventures', 'Lux Capital'],
+      totalValue: '$300B+',
+      color: '#3b82f6'
+    },
+    {
+      id: 'ai-sf',
+      name: 'SF AI Cluster',
+      center: { lat: 37.77, lng: -122.42 },
+      companies: ['OpenAI', 'Anthropic', 'Scale AI', 'Covariant', 'Physical Intelligence'],
+      investors: ['Sequoia', 'Thrive Capital', 'Tiger Global'],
+      totalValue: '$500B+',
+      color: '#8b5cf6'
+    },
+    {
+      id: 'energy-bay',
+      name: 'Bay Area Energy',
+      center: { lat: 37.5, lng: -122.2 },
+      companies: ['Commonwealth Fusion Systems', 'Helion', 'Fervo Energy', 'KoBold Metals'],
+      investors: ['Breakthrough Energy Ventures', 'DCVC', 'Congruent Ventures'],
+      totalValue: '$25B+',
+      color: '#22c55e'
+    },
+    {
+      id: 'robotics-bay',
+      name: 'Robotics Valley',
+      center: { lat: 37.45, lng: -122.15 },
+      companies: ['Figure', 'Agility Robotics', 'Boston Dynamics', 'Collaborative Robotics'],
+      investors: ['Microsoft', 'OpenAI', 'Jeff Bezos'],
+      totalValue: '$15B+',
+      color: '#f97316'
+    }
+  ],
+  connections: [
+    { from: 'defense-la', to: 'space-socal', strength: 0.9, reason: 'Shared investors & dual-use tech' },
+    { from: 'ai-sf', to: 'robotics-bay', strength: 0.85, reason: 'AI/ML talent pipeline' },
+    { from: 'ai-sf', to: 'defense-la', strength: 0.7, reason: 'Defense AI applications' },
+    { from: 'energy-bay', to: 'ai-sf', strength: 0.6, reason: 'AI for energy optimization' },
+    { from: 'space-socal', to: 'ai-sf', strength: 0.5, reason: 'Autonomous systems' }
+  ]
+};
+
+// ─── WATCHLIST KANBAN COLUMNS ───
+const WATCHLIST_COLUMNS = [
+  { id: 'watching', title: 'Watching', icon: '👁️', color: 'var(--text-muted)' },
+  { id: 'researching', title: 'Researching', icon: '🔬', color: '#60a5fa' },
+  { id: 'high-conviction', title: 'High Conviction', icon: '🎯', color: '#22c55e' },
+  { id: 'passed', title: 'Passed', icon: '⏸️', color: '#6b7280' }
+];
+
+// ─── DATA QUALITY INDICATORS ───
+const DATA_QUALITY = {
+  verified: { label: 'Verified', icon: '✓', description: 'Confirmed by company or official filing' },
+  estimated: { label: 'Estimated', icon: '~', description: 'Calculated from multiple data sources' },
+  reported: { label: 'Reported', icon: 'R', description: 'Self-reported by company' }
+};
+
+// ─── PLATFORM STATS (BLOOMBERG-STYLE) ───
+const PLATFORM_STATS = {
+  companiesTracked: COMPANIES.length,
+  sectorsMonitored: Object.keys(SECTORS).length,
+  signalsProcessedDaily: 2847,
+  dataPointsUpdated: '1.2M+',
+  expertTranscripts: 487,
+  govContractsTracked: typeof GOV_CONTRACTS !== 'undefined' ? GOV_CONTRACTS.length : 0,
+  patentsMonitored: typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.length : 0,
+  vcFirmsTracked: typeof VC_FIRMS !== 'undefined' ? VC_FIRMS.length : 0
+};

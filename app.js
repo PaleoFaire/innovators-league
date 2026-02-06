@@ -841,6 +841,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initURLState();
   initSmoothScroll();
   updateResultsCount(COMPANIES.length);
+
+  // Initialize world-class premium features
+  initPremiumFeatures();
 });
 
 // ─── STATS COUNTER ───
@@ -4922,4 +4925,783 @@ function initCommunityIntel() {
   });
 
   renderWatchlist();
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// WORLD-CLASS INTELLIGENCE PLATFORM FEATURES
+// Inspired by: Bloomberg Terminal, PitchBook, S&P CapIQ, AlphaSense, Tegus
+// ═══════════════════════════════════════════════════════════════════════════
+
+// ─── BLOOMBERG-STYLE COMMAND BAR (⌘K / Ctrl+K) ───
+function initCommandBar() {
+  // Create command bar overlay
+  const overlay = document.createElement('div');
+  overlay.className = 'command-bar-overlay';
+  overlay.id = 'command-bar-overlay';
+  overlay.innerHTML = `
+    <div class="command-bar">
+      <div class="command-bar-header">
+        <svg class="command-bar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+        </svg>
+        <input type="text" class="command-bar-input" id="command-bar-input" placeholder="Search companies, actions, or type a command..." autocomplete="off">
+        <div class="command-bar-kbd">
+          <kbd>ESC</kbd>
+        </div>
+      </div>
+      <div class="command-bar-results" id="command-bar-results"></div>
+      <div class="command-bar-footer">
+        <div class="command-bar-footer-tips">
+          <span class="command-bar-footer-tip"><kbd>↑</kbd><kbd>↓</kbd> navigate</span>
+          <span class="command-bar-footer-tip"><kbd>↵</kbd> select</span>
+          <span class="command-bar-footer-tip"><kbd>/</kbd> search</span>
+        </div>
+        <span>Powered by ROS Intelligence</span>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+
+  const input = document.getElementById('command-bar-input');
+  const results = document.getElementById('command-bar-results');
+  let selectedIndex = 0;
+  let currentResults = [];
+
+  function openCommandBar() {
+    overlay.classList.add('active');
+    input.value = '';
+    input.focus();
+    renderDefaultResults();
+  }
+
+  function closeCommandBar() {
+    overlay.classList.remove('active');
+    selectedIndex = 0;
+  }
+
+  function renderDefaultResults() {
+    if (typeof COMMAND_BAR_ACTIONS === 'undefined') return;
+
+    const grouped = {};
+    COMMAND_BAR_ACTIONS.forEach(action => {
+      if (!grouped[action.category]) grouped[action.category] = [];
+      grouped[action.category].push(action);
+    });
+
+    let html = '';
+    Object.entries(grouped).forEach(([category, actions]) => {
+      html += `<div class="command-bar-section">
+        <div class="command-bar-section-title">${category}</div>
+        ${actions.map((a, i) => `
+          <div class="command-bar-item" data-action="${a.id}" data-index="${i}">
+            <div class="command-bar-item-icon">${a.icon}</div>
+            <div class="command-bar-item-content">
+              <div class="command-bar-item-title">${a.title}</div>
+            </div>
+            <div class="command-bar-item-action"><kbd>${a.shortcut}</kbd></div>
+          </div>
+        `).join('')}
+      </div>`;
+    });
+    results.innerHTML = html;
+    currentResults = COMMAND_BAR_ACTIONS;
+  }
+
+  function renderSearchResults(query) {
+    if (!query) {
+      renderDefaultResults();
+      return;
+    }
+
+    const q = query.toLowerCase();
+
+    // Search companies
+    const matchedCompanies = COMPANIES.filter(c =>
+      c.name.toLowerCase().includes(q) ||
+      c.sector.toLowerCase().includes(q) ||
+      (c.tags && c.tags.some(t => t.toLowerCase().includes(q)))
+    ).slice(0, 8);
+
+    // Search actions
+    const matchedActions = typeof COMMAND_BAR_ACTIONS !== 'undefined'
+      ? COMMAND_BAR_ACTIONS.filter(a => a.title.toLowerCase().includes(q))
+      : [];
+
+    let html = '';
+
+    if (matchedCompanies.length > 0) {
+      html += `<div class="command-bar-section">
+        <div class="command-bar-section-title">Companies</div>
+        ${matchedCompanies.map((c, i) => {
+          const sectorInfo = SECTORS[c.sector] || { icon: '📦', color: '#6b7280' };
+          return `
+            <div class="command-bar-item" data-company="${c.name}" data-index="${i}">
+              <div class="command-bar-item-icon" style="background: ${sectorInfo.color}20;">${sectorInfo.icon}</div>
+              <div class="command-bar-item-content">
+                <div class="command-bar-item-title">${c.name}</div>
+                <div class="command-bar-item-meta">
+                  <span>${c.sector}</span>
+                  ${c.signal === 'hot' ? '<span class="command-bar-item-tag">HOT</span>' : ''}
+                  ${c.valuation ? `<span>${c.valuation}</span>` : ''}
+                </div>
+              </div>
+              <div class="command-bar-item-action">View →</div>
+            </div>
+          `;
+        }).join('')}
+      </div>`;
+    }
+
+    if (matchedActions.length > 0) {
+      html += `<div class="command-bar-section">
+        <div class="command-bar-section-title">Actions</div>
+        ${matchedActions.map((a, i) => `
+          <div class="command-bar-item" data-action="${a.id}" data-index="${i + matchedCompanies.length}">
+            <div class="command-bar-item-icon">${a.icon}</div>
+            <div class="command-bar-item-content">
+              <div class="command-bar-item-title">${a.title}</div>
+            </div>
+            <div class="command-bar-item-action"><kbd>${a.shortcut}</kbd></div>
+          </div>
+        `).join('')}
+      </div>`;
+    }
+
+    if (html === '') {
+      html = '<div class="command-bar-section"><div style="padding: 20px; text-align: center; color: var(--text-muted);">No results found</div></div>';
+    }
+
+    results.innerHTML = html;
+    currentResults = [...matchedCompanies, ...matchedActions];
+    selectedIndex = 0;
+    updateSelection();
+  }
+
+  function updateSelection() {
+    const items = results.querySelectorAll('.command-bar-item');
+    items.forEach((item, i) => {
+      item.classList.toggle('selected', i === selectedIndex);
+    });
+  }
+
+  function executeAction(actionId) {
+    closeCommandBar();
+    switch(actionId) {
+      case 'search':
+        document.getElementById('company-search')?.focus();
+        break;
+      case 'innovator50':
+        document.getElementById('innovator50')?.scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('i50-toggle')?.click();
+        break;
+      case 'signals':
+        toggleSignalsPanel();
+        break;
+      case 'screener':
+        document.getElementById('smart-screener')?.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'watchlist':
+        document.getElementById('pro-watchlist')?.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'map':
+        document.getElementById('map')?.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'investors':
+        window.location.href = 'investors.html';
+        break;
+      case 'insights':
+        window.location.href = 'visualizations.html';
+        break;
+      case 'export':
+        exportCurrentView();
+        break;
+      default:
+        const sector = Object.keys(SECTORS).find(s => actionId.includes(s.toLowerCase()));
+        if (sector) {
+          document.getElementById('sector-filter').value = sector;
+          applyFilters();
+        }
+    }
+  }
+
+  // Event listeners
+  input.addEventListener('input', (e) => {
+    renderSearchResults(e.target.value);
+  });
+
+  input.addEventListener('keydown', (e) => {
+    const items = results.querySelectorAll('.command-bar-item');
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      selectedIndex = Math.min(selectedIndex + 1, items.length - 1);
+      updateSelection();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      selectedIndex = Math.max(selectedIndex - 1, 0);
+      updateSelection();
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      const selected = items[selectedIndex];
+      if (selected) {
+        if (selected.dataset.company) {
+          closeCommandBar();
+          openCompanyModal(selected.dataset.company);
+        } else if (selected.dataset.action) {
+          executeAction(selected.dataset.action);
+        }
+      }
+    } else if (e.key === 'Escape') {
+      closeCommandBar();
+    }
+  });
+
+  results.addEventListener('click', (e) => {
+    const item = e.target.closest('.command-bar-item');
+    if (item) {
+      if (item.dataset.company) {
+        closeCommandBar();
+        openCompanyModal(item.dataset.company);
+      } else if (item.dataset.action) {
+        executeAction(item.dataset.action);
+      }
+    }
+  });
+
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) closeCommandBar();
+  });
+
+  // Global keyboard shortcut
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      openCommandBar();
+    }
+    // Quick shortcuts when command bar is closed
+    if (!overlay.classList.contains('active')) {
+      if (e.key === '/' && !e.target.matches('input, textarea')) {
+        e.preventDefault();
+        openCommandBar();
+      }
+    }
+  });
+
+  // Expose globally
+  window.openCommandBar = openCommandBar;
+  window.closeCommandBar = closeCommandBar;
+}
+
+// ─── PITCHBOOK-STYLE SIGNALS PANEL ───
+function initSignalsPanel() {
+  if (typeof COMPANY_SIGNALS === 'undefined') return;
+
+  // Create signals panel
+  const panel = document.createElement('div');
+  panel.className = 'signals-panel';
+  panel.id = 'signals-panel';
+  panel.innerHTML = `
+    <div class="signals-panel-header">
+      <div class="signals-panel-title">
+        <h3>Live Signals</h3>
+        <span class="signals-badge">${COMPANY_SIGNALS.filter(s => s.unread).length} NEW</span>
+      </div>
+      <button class="signals-panel-close" onclick="toggleSignalsPanel()">×</button>
+    </div>
+    <div class="signals-filters">
+      <button class="signal-filter-btn active" data-filter="all">All</button>
+      <button class="signal-filter-btn" data-filter="funding">💰 Funding</button>
+      <button class="signal-filter-btn" data-filter="contract">📋 Contracts</button>
+      <button class="signal-filter-btn" data-filter="hire">👔 Hires</button>
+      <button class="signal-filter-btn" data-filter="patent">📜 Patents</button>
+      <button class="signal-filter-btn" data-filter="news">📰 News</button>
+    </div>
+    <div class="signals-list" id="signals-list"></div>
+  `;
+  document.body.appendChild(panel);
+
+  // Add toggle button to nav
+  const navLinks = document.querySelector('.nav-links');
+  if (navLinks) {
+    const signalsBtn = document.createElement('button');
+    signalsBtn.className = 'signals-toggle-btn';
+    signalsBtn.innerHTML = `
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+      </svg>
+      Signals
+      <span class="signal-count">${COMPANY_SIGNALS.filter(s => s.unread).length}</span>
+    `;
+    signalsBtn.onclick = toggleSignalsPanel;
+    navLinks.insertBefore(signalsBtn, navLinks.querySelector('.nav-cta'));
+  }
+
+  renderSignals('all');
+
+  // Filter buttons
+  panel.querySelectorAll('.signal-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      panel.querySelectorAll('.signal-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderSignals(btn.dataset.filter);
+    });
+  });
+}
+
+function renderSignals(filter) {
+  const list = document.getElementById('signals-list');
+  if (!list || typeof COMPANY_SIGNALS === 'undefined') return;
+
+  const signals = filter === 'all'
+    ? COMPANY_SIGNALS
+    : COMPANY_SIGNALS.filter(s => s.type === filter);
+
+  const iconMap = {
+    funding: '💰',
+    contract: '📋',
+    hire: '👔',
+    patent: '📜',
+    news: '📰',
+    ipo: '🚀'
+  };
+
+  list.innerHTML = signals.map(s => `
+    <div class="signal-item ${s.unread ? 'unread' : ''}" onclick="handleSignalClick('${s.company}')">
+      <div class="signal-icon ${s.type}">${iconMap[s.type] || '📡'}</div>
+      <div class="signal-content">
+        <div class="signal-headline">
+          <span class="signal-company">${s.company}</span>: ${s.headline}
+        </div>
+        <div class="signal-meta">
+          <span class="signal-time">🕐 ${s.time}</span>
+          <span class="signal-source">via ${s.source}</span>
+          <span class="signal-impact ${s.impact}">${s.impact.toUpperCase()}</span>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function toggleSignalsPanel() {
+  const panel = document.getElementById('signals-panel');
+  if (panel) panel.classList.toggle('open');
+}
+
+function handleSignalClick(companyName) {
+  toggleSignalsPanel();
+  openCompanyModal(companyName);
+}
+
+// ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
+function initExpertIntel() {
+  if (typeof EXPERT_INSIGHTS === 'undefined') return;
+
+  const section = document.getElementById('expert-intel-section');
+  if (!section) return;
+
+  const grid = section.querySelector('.expert-grid');
+  if (!grid) return;
+
+  grid.innerHTML = EXPERT_INSIGHTS.map(e => `
+    <div class="expert-card">
+      <div class="expert-card-header">
+        <div class="expert-avatar">${e.avatar}</div>
+        <div class="expert-info">
+          <h4>${e.expert}</h4>
+          <div class="expert-role">${e.role}</div>
+        </div>
+        ${e.premium ? '<span class="expert-badge">PREMIUM</span>' : ''}
+      </div>
+      <div class="expert-quote">
+        <div class="expert-quote-text">${e.quote}</div>
+      </div>
+      <div class="expert-meta">
+        <div class="expert-topic">
+          <span>Topic:</span>
+          <span class="expert-topic-tag">${e.topic}</span>
+        </div>
+        <a href="#" class="expert-cta" onclick="openCompanyModal('${e.company}'); return false;">
+          View ${e.company} →
+        </a>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ─── S&P CAPIQ-STYLE SMART SCREENER ───
+function initSmartScreener() {
+  const section = document.getElementById('smart-screener');
+  if (!section) return;
+
+  const activeFilters = [];
+
+  function renderActiveFilters() {
+    const container = section.querySelector('.screener-active-filters');
+    if (!container) return;
+
+    if (activeFilters.length === 0) {
+      container.style.display = 'none';
+      return;
+    }
+
+    container.style.display = 'flex';
+    container.innerHTML = activeFilters.map((f, i) => `
+      <span class="screener-active-filter">
+        ${f.label}: ${f.value}
+        <button onclick="removeScreenerFilter(${i})">×</button>
+      </span>
+    `).join('');
+  }
+
+  function applyScreenerFilters() {
+    let filtered = [...COMPANIES];
+
+    activeFilters.forEach(f => {
+      switch(f.type) {
+        case 'sector':
+          filtered = filtered.filter(c => c.sector === f.value);
+          break;
+        case 'stage':
+          filtered = filtered.filter(c => c.fundingStage === f.value);
+          break;
+        case 'signal':
+          filtered = filtered.filter(c => c.signal === f.value.toLowerCase());
+          break;
+        case 'location':
+          if (f.value === 'International') {
+            filtered = filtered.filter(c => !US_STATES.has(c.state));
+          } else {
+            filtered = filtered.filter(c => c.location?.includes(f.value) || STATE_NAMES[c.state] === f.value);
+          }
+          break;
+        case 'innovator50':
+          if (typeof INNOVATOR_50 !== 'undefined') {
+            const i50Names = INNOVATOR_50.map(i => i.company);
+            filtered = filtered.filter(c => i50Names.includes(c.name));
+          }
+          break;
+        case 'govContracts':
+          if (typeof GOV_CONTRACTS !== 'undefined') {
+            const govCompanies = GOV_CONTRACTS.map(g => g.company);
+            filtered = filtered.filter(c => govCompanies.includes(c.name));
+          }
+          break;
+      }
+    });
+
+    // Update results count
+    const countEl = section.querySelector('.screener-results-count');
+    if (countEl) {
+      countEl.innerHTML = `<strong>${filtered.length}</strong> companies match your criteria`;
+    }
+
+    return filtered;
+  }
+
+  // Expose globally
+  window.addScreenerFilter = (type, label, value) => {
+    activeFilters.push({ type, label, value });
+    renderActiveFilters();
+    applyScreenerFilters();
+  };
+
+  window.removeScreenerFilter = (index) => {
+    activeFilters.splice(index, 1);
+    renderActiveFilters();
+    applyScreenerFilters();
+  };
+
+  window.clearScreenerFilters = () => {
+    activeFilters.length = 0;
+    renderActiveFilters();
+    applyScreenerFilters();
+  };
+
+  window.runScreener = () => {
+    const results = applyScreenerFilters();
+    // Apply to main company grid
+    renderCompanyCards(results);
+    document.getElementById('companies')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  // Initialize filter dropdowns
+  const sectorSelect = section.querySelector('#screener-sector');
+  const stageSelect = section.querySelector('#screener-stage');
+
+  if (sectorSelect) {
+    sectorSelect.innerHTML = '<option value="">Any Sector</option>' +
+      Object.keys(SECTORS).map(s => `<option value="${s}">${s}</option>`).join('');
+    sectorSelect.onchange = (e) => {
+      if (e.target.value) addScreenerFilter('sector', 'Sector', e.target.value);
+      e.target.value = '';
+    };
+  }
+
+  if (stageSelect && typeof SCREENER_FILTERS !== 'undefined') {
+    stageSelect.innerHTML = '<option value="">Any Stage</option>' +
+      SCREENER_FILTERS.stages.map(s => `<option value="${s}">${s}</option>`).join('');
+    stageSelect.onchange = (e) => {
+      if (e.target.value) addScreenerFilter('stage', 'Stage', e.target.value);
+      e.target.value = '';
+    };
+  }
+}
+
+// ─── CRUNCHBASE-STYLE WATCHLIST WITH KANBAN ───
+function initProWatchlist() {
+  const section = document.getElementById('pro-watchlist');
+  if (!section || typeof WATCHLIST_COLUMNS === 'undefined') return;
+
+  const kanban = section.querySelector('.watchlist-kanban');
+  if (!kanban) return;
+
+  // Get watchlist from localStorage
+  function getWatchlist() {
+    return JSON.parse(localStorage.getItem('til-pro-watchlist') || '{}');
+  }
+
+  function saveWatchlist(data) {
+    localStorage.setItem('til-pro-watchlist', JSON.stringify(data));
+  }
+
+  function renderKanban() {
+    const watchlist = getWatchlist();
+
+    kanban.innerHTML = WATCHLIST_COLUMNS.map(col => {
+      const companies = watchlist[col.id] || [];
+      return `
+        <div class="kanban-column" data-column="${col.id}">
+          <div class="kanban-column-header">
+            <div class="kanban-column-title">
+              <span>${col.icon}</span>
+              <h4>${col.title}</h4>
+              <span class="kanban-column-count">${companies.length}</span>
+            </div>
+          </div>
+          <div class="kanban-cards" data-column="${col.id}">
+            ${companies.map(name => {
+              const company = COMPANIES.find(c => c.name === name);
+              if (!company) return '';
+              return `
+                <div class="kanban-card" draggable="true" data-company="${name}">
+                  <div class="kanban-card-header">
+                    <span class="kanban-card-name">${name}</span>
+                    <span class="kanban-card-sector">${company.sector}</span>
+                  </div>
+                  <div class="kanban-card-meta">
+                    ${company.valuation ? `<span>💰 ${company.valuation}</span>` : ''}
+                    ${company.signal === 'hot' ? '<span class="kanban-card-signal">🔥 Hot</span>' : ''}
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // Add drag and drop
+    initKanbanDragDrop();
+  }
+
+  function initKanbanDragDrop() {
+    const cards = kanban.querySelectorAll('.kanban-card');
+    const columns = kanban.querySelectorAll('.kanban-cards');
+
+    cards.forEach(card => {
+      card.addEventListener('dragstart', (e) => {
+        e.dataTransfer.setData('text/plain', card.dataset.company);
+        card.classList.add('dragging');
+      });
+      card.addEventListener('dragend', () => {
+        card.classList.remove('dragging');
+      });
+      card.addEventListener('click', () => {
+        openCompanyModal(card.dataset.company);
+      });
+    });
+
+    columns.forEach(column => {
+      column.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        column.classList.add('drag-over');
+      });
+      column.addEventListener('dragleave', () => {
+        column.classList.remove('drag-over');
+      });
+      column.addEventListener('drop', (e) => {
+        e.preventDefault();
+        column.classList.remove('drag-over');
+        const companyName = e.dataTransfer.getData('text/plain');
+        const newColumn = column.dataset.column;
+        moveToColumn(companyName, newColumn);
+      });
+    });
+  }
+
+  function moveToColumn(companyName, columnId) {
+    const watchlist = getWatchlist();
+
+    // Remove from all columns
+    WATCHLIST_COLUMNS.forEach(col => {
+      if (watchlist[col.id]) {
+        watchlist[col.id] = watchlist[col.id].filter(n => n !== companyName);
+      }
+    });
+
+    // Add to new column
+    if (!watchlist[columnId]) watchlist[columnId] = [];
+    watchlist[columnId].push(companyName);
+
+    saveWatchlist(watchlist);
+    renderKanban();
+  }
+
+  // Add to watchlist function
+  window.addToWatchlist = (companyName, column = 'watching') => {
+    const watchlist = getWatchlist();
+    if (!watchlist[column]) watchlist[column] = [];
+    if (!watchlist[column].includes(companyName)) {
+      watchlist[column].push(companyName);
+      saveWatchlist(watchlist);
+      renderKanban();
+    }
+  };
+
+  // Update watchlist count in header
+  function updateWatchlistCount() {
+    const watchlist = getWatchlist();
+    const total = Object.values(watchlist).reduce((sum, arr) => sum + arr.length, 0);
+    const countEl = section.querySelector('.watchlist-count');
+    if (countEl) countEl.textContent = total;
+  }
+
+  renderKanban();
+  updateWatchlistCount();
+}
+
+// ─── BLOOMBERG-STYLE STATUS BAR ───
+function initNetworkStatusBar() {
+  const statusBar = document.createElement('div');
+  statusBar.className = 'network-status-bar';
+  statusBar.innerHTML = `
+    <div class="network-status-left">
+      <div class="network-status-item">
+        <span class="network-status-dot"></span>
+        <span>Live</span>
+      </div>
+      <div class="network-status-item">
+        <span>📊 ${typeof COMPANIES !== 'undefined' ? COMPANIES.length : 0} companies</span>
+      </div>
+      <div class="network-status-item">
+        <span>🔄 Updated ${typeof LAST_UPDATED !== 'undefined' ? LAST_UPDATED : 'today'}</span>
+      </div>
+      <div class="network-status-item">
+        <span>📡 ${typeof COMPANY_SIGNALS !== 'undefined' ? COMPANY_SIGNALS.length : 0} signals</span>
+      </div>
+    </div>
+    <div class="network-status-right">
+      <div class="network-kbd-hint">
+        <kbd>⌘</kbd><kbd>K</kbd> Quick search
+      </div>
+      <div class="network-kbd-hint">
+        <kbd>G</kbd> Signals
+      </div>
+    </div>
+  `;
+  document.body.appendChild(statusBar);
+
+  // Add padding to body to account for status bar
+  document.body.style.paddingBottom = '28px';
+}
+
+// ─── EXPORT CURRENT VIEW ───
+function exportCurrentView() {
+  const visibleCards = document.querySelectorAll('.company-card:not([style*="display: none"])');
+  const companies = [];
+
+  visibleCards.forEach(card => {
+    const name = card.querySelector('.card-name')?.textContent;
+    if (name) {
+      const company = COMPANIES.find(c => c.name === name);
+      if (company) companies.push(company);
+    }
+  });
+
+  if (companies.length === 0) {
+    alert('No companies to export. Apply some filters first.');
+    return;
+  }
+
+  // Create CSV
+  const headers = ['Name', 'Sector', 'Location', 'Funding Stage', 'Total Raised', 'Valuation', 'Signal', 'Founder'];
+  const rows = companies.map(c => [
+    c.name,
+    c.sector,
+    c.location,
+    c.fundingStage || '',
+    c.totalRaised || '',
+    c.valuation || '',
+    c.signal || '',
+    c.founder || ''
+  ]);
+
+  const csv = [headers.join(','), ...rows.map(r => r.map(v => `"${v}"`).join(','))].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `innovators-league-export-${new Date().toISOString().split('T')[0]}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ─── AI SEARCH ENHANCEMENT ───
+function initAISearch() {
+  const searchBox = document.getElementById('company-search');
+  if (!searchBox) return;
+
+  // Create AI badge
+  const wrapper = searchBox.parentElement;
+  if (wrapper && !wrapper.querySelector('.ai-search-badge')) {
+    const badge = document.createElement('span');
+    badge.className = 'ai-search-badge';
+    badge.innerHTML = `
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+      </svg>
+      AI
+    `;
+    wrapper.appendChild(badge);
+  }
+
+  // Enhanced search with natural language hints
+  const originalPlaceholder = searchBox.placeholder;
+  const aiPlaceholders = [
+    'Try: "defense companies with government contracts"',
+    'Try: "Series B+ companies in California"',
+    'Try: "hot companies in nuclear energy"',
+    'Try: "space companies valued over $1B"',
+    originalPlaceholder
+  ];
+
+  let placeholderIndex = 0;
+  setInterval(() => {
+    if (document.activeElement !== searchBox) {
+      placeholderIndex = (placeholderIndex + 1) % aiPlaceholders.length;
+      searchBox.placeholder = aiPlaceholders[placeholderIndex];
+    }
+  }, 4000);
+}
+
+// ─── INITIALIZE ALL PREMIUM FEATURES ───
+function initPremiumFeatures() {
+  initCommandBar();
+  initSignalsPanel();
+  initExpertIntel();
+  initSmartScreener();
+  initProWatchlist();
+  initNetworkStatusBar();
+  initAISearch();
+
+  console.log('🚀 Premium intelligence features initialized');
 }
