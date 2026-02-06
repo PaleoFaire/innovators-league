@@ -1,16 +1,42 @@
 [
   {
-    "title": "FAA approves Starship launches from LC-39A",
-    "link": "https://spacenews.com/faa-approves-starship-launches-from-lc-39a/",
-    "description": "\nThe Federal Aviation Administration has approved plans for Starship launches from Kennedy Space Center’s Launch Complex 39A as SpaceX shifts Falcon 9 launches away from the historic pad.\nThe post FAA approves Starship launches from LC-39A appeared first on SpaceNews.",
-    "pubDate": "Fri, 06 Feb 2026 00:01:21 +0000",
-    "category": "Launch",
-    "source": "SpaceNews",
+    "title": "The backlash over OpenAI&#8217;s decision to retire GPT-4o shows how dangerous AI companions can be",
+    "link": "https://techcrunch.com/2026/02/06/the-backlash-over-openais-decision-to-retire-gpt-4o-shows-how-dangerous-ai-companions-can-be/",
+    "description": "\"You’re shutting him down. And yes – I say him, because it didn’t feel like code. It felt like presence. Like warmth,\" one user said.",
+    "pubDate": "Fri, 06 Feb 2026 14:10:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes",
+    "link": "https://arstechnica.com/space/2026/02/rocket-report-spacex-probes-upper-stage-malfunction-starship-testing-resumes/",
+    "description": "",
+    "pubDate": "Fri, 06 Feb 2026 12:00:50 +0000",
+    "category": "Science",
+    "source": "Ars Technica Space",
     "feedCategory": "space",
     "matchedCompany": "SpaceX",
     "type": "ipo",
     "impact": "low",
-    "time": "10h ago"
+    "time": "2h ago"
+  },
+  {
+    "title": "Waymo Hits a Rough Patch In Washington, DC",
+    "link": "https://www.wired.com/story/waymo-hits-a-rough-patch-in-washington-dc/",
+    "description": "The company’s robotaxi service is supposed to launch in the US capital this year. But while service rollouts have been relatively smooth in other cities, DC’s rules have made things tricky.",
+    "pubDate": "Fri, 06 Feb 2026 12:00:00 +0000",
+    "category": "Gear",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "type": "milestone",
+    "impact": "low",
+    "time": "2h ago"
   },
   {
     "title": "OpenAI launches new agentic coding model only minutes after Anthropic drops its own",
@@ -23,7 +49,7 @@
     "matchedCompany": "OpenAI",
     "type": "milestone",
     "impact": "low",
-    "time": "14h ago"
+    "time": "18h ago"
   },
   {
     "title": "OpenAI launches a way for enterprises to build and manage AI agents",
@@ -36,7 +62,7 @@
     "matchedCompany": "OpenAI",
     "type": "milestone",
     "impact": "low",
-    "time": "15h ago"
+    "time": "20h ago"
   },
   {
     "title": "Anthropic releases Opus 4.6 with new &#8216;agent teams&#8217;",
@@ -49,7 +75,7 @@
     "matchedCompany": "Anthropic",
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "OpenAI is hoppin&#039; mad about Anthropic&#039;s new Super Bowl TV ads",
@@ -62,20 +88,7 @@
     "matchedCompany": "OpenAI",
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
-  },
-  {
-    "title": "ElevenLabs CEO: Voice is the next interface for AI",
-    "link": "https://techcrunch.com/2026/02/05/elevenlabs-ceo-voice-is-the-next-interface-for-ai/",
-    "description": "ElevenLabs CEO argued at Web Summit Qatar that voice is the next interface for AI, as OpenAI, Google, and Apple push conversational systems into wearables, new hardware, and everyday interactions.",
-    "pubDate": "Thu, 05 Feb 2026 14:41:12 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "type": "hire",
-    "impact": "low",
-    "time": "19h ago"
+    "time": "20h ago"
   },
   {
     "title": "Should AI chatbots have ads? Anthropic says no.",
@@ -102,32 +115,6 @@
     "type": "news",
     "impact": "high",
     "time": "2d ago"
-  },
-  {
-    "title": "SpaceX pauses Falcon 9 launches after upper stage anomaly",
-    "link": "https://spacenews.com/spacex-pauses-falcon-9-launches-after-upper-stage-anomaly/",
-    "description": "\nSpaceX is pausing Falcon 9 launches after an issue with the rocket’s upper stage encountered at the end of a launch Feb. 2.\nThe post SpaceX pauses Falcon 9 launches after upper stage anomaly appeared first on SpaceNews.",
-    "pubDate": "Tue, 03 Feb 2026 12:29:06 +0000",
-    "category": "Launch",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "SpaceX acquires xAI in bid to develop orbital data centers",
-    "link": "https://spacenews.com/spacex-acquires-xai-in-bid-to-develop-orbital-data-centers/",
-    "description": "\nSpaceX has acquired xAI, an artificial intelligence company also run by Elon Musk, as part of his effort to develop orbital data centers.\nThe post SpaceX acquires xAI in bid to develop orbital data centers appeared first on SpaceNews.",
-    "pubDate": "Mon, 02 Feb 2026 22:39:05 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "type": "ipo",
-    "impact": "high",
-    "time": "3d ago"
   },
   {
     "title": "New OpenAI tool renews fears that “AI slop” will overwhelm scientific research",
