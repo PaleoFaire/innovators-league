@@ -1,0 +1,41 @@
+name: Weekly Patent Sync
+
+on:
+  schedule:
+    # Run every Sunday at 8 AM UTC
+    - cron: '0 8 * * 0'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  sync-patents:
+    name: Sync USPTO Patents
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch USPTO patent data
+        run: python scripts/fetch_patents.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push changes
+        run: |
+          git add data/
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: Weekly patent sync $(date +%Y-%m-%d)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

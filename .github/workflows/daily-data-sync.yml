@@ -1,0 +1,131 @@
+name: Daily Data Sync
+
+on:
+  schedule:
+    # Run daily at 6 AM UTC (10 PM PST, 1 AM EST)
+    - cron: '0 6 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  sync-sec-filings:
+    name: Sync SEC Filings
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch SEC filings
+        run: python scripts/fetch_sec_filings.py
+
+      - name: Upload SEC data artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sec-data
+          path: data/
+          retention-days: 7
+
+  sync-gov-contracts:
+    name: Sync Government Contracts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch USAspending data
+        run: python scripts/fetch_usaspending.py
+
+      - name: Upload Gov Contracts artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gov-contracts-data
+          path: data/
+          retention-days: 7
+
+  sync-news:
+    name: Sync News Signals
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch RSS news
+        run: node scripts/aggregate_news.js
+
+      - name: Upload News artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-data
+          path: data/
+          retention-days: 7
+
+  merge-and-commit:
+    name: Merge Data and Commit
+    runs-on: ubuntu-latest
+    needs: [sync-sec-filings, sync-gov-contracts, sync-news]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download SEC data
+        uses: actions/download-artifact@v4
+        with:
+          name: sec-data
+          path: data/
+
+      - name: Download Gov Contracts data
+        uses: actions/download-artifact@v4
+        with:
+          name: gov-contracts-data
+          path: data/
+          merge-multiple: true
+
+      - name: Download News data
+        uses: actions/download-artifact@v4
+        with:
+          name: news-data
+          path: data/
+          merge-multiple: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Merge data into data.js
+        run: python scripts/merge_data.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push changes
+        run: |
+          git add data.js data/
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: Daily data sync $(date +%Y-%m-%d)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

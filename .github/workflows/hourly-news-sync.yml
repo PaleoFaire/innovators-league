@@ -1,0 +1,100 @@
+name: Hourly News Sync
+
+on:
+  schedule:
+    # Run every 4 hours
+    - cron: '0 */4 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  sync-news:
+    name: Sync News Signals
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch RSS news
+        run: node scripts/aggregate_news.js
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update COMPANY_SIGNALS in data.js
+        run: |
+          python3 << 'EOF'
+          import json
+          import re
+          from datetime import datetime
+          from pathlib import Path
+
+          # Read news data
+          news_path = Path("data/news_raw.json")
+          if not news_path.exists():
+              print("No news data found")
+              exit(0)
+
+          with open(news_path) as f:
+              signals = json.load(f)
+
+          if not signals:
+              print("No signals to update")
+              exit(0)
+
+          # Read data.js
+          with open("data.js") as f:
+              content = f.read()
+
+          # Generate new COMPANY_SIGNALS
+          js_array = "// Auto-generated real-time signals\n"
+          js_array += f"// Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}\n"
+          js_array += "const COMPANY_SIGNALS = [\n"
+
+          for i, s in enumerate(signals[:15]):
+              headline = s.get("title", "")[:120].replace('"', "'").replace('\n', ' ')
+              js_array += f'  {{ id: {i+1}, type: "{s.get("type", "news")}", '
+              js_array += f'company: "{s.get("matchedCompany", "")}", '
+              js_array += f'headline: "{headline}", '
+              js_array += f'source: "{s.get("source", "")}", '
+              js_array += f'time: "{s.get("time", "")}", '
+              js_array += f'impact: "{s.get("impact", "medium")}", '
+              js_array += f'unread: {"true" if i < 5 else "false"} }},\n'
+
+          js_array += "];"
+
+          # Replace in content
+          pattern = r'// Auto-generated real-time signals[\s\S]*?const COMPANY_SIGNALS = \[[\s\S]*?\];'
+          if re.search(pattern, content):
+              content = re.sub(pattern, js_array, content)
+          else:
+              pattern = r'const COMPANY_SIGNALS = \[[\s\S]*?\];'
+              if re.search(pattern, content):
+                  content = re.sub(pattern, js_array, content)
+
+          with open("data.js", "w") as f:
+              f.write(content)
+
+          print(f"Updated COMPANY_SIGNALS with {min(len(signals), 15)} items")
+          EOF
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push changes
+        run: |
+          git add data.js data/
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: News signals $(date +%Y-%m-%d\ %H:%M)"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
