@@ -896,7 +896,7 @@ const COMPANIES = [
     valuation: '$5.6B',
     rosLink: 'https://rationaloptimistsociety.substack.com/',
     tags: ['AI', 'robotics', 'foundation model'],
-    insight: 'Physical Intelligence is the leading contender for building the 'GPT of robots.' Their approach — a single generalist model controlling diverse robot hardware — could become the default AI layer for the entire robotics industry.',
+    insight: 'Physical Intelligence is the leading contender for building the GPT of robots. Their approach — a single generalist model controlling diverse robot hardware — could become the default AI layer for the entire robotics industry.',
     signal: 'hot',
     scores: { team: 9, traction: 7, techMoat: 9, market: 10, momentum: 9 },
     competitors: ['Skild AI', 'Figure AI'],
@@ -3609,7 +3609,7 @@ const COMPANIES = [
   {
     name: 'Skild AI',
     sector: 'AI & Software',
-    description: 'Foundation model for robotics — building a general-purpose robot brain that can control any robot for any task. $1.4B raised at $14B+ valuation. The 'GPT moment' for physical intelligence.',
+    description: 'Foundation model for robotics — building a general-purpose robot brain that can control any robot for any task. $1.4B raised at $14B+ valuation. The GPT moment for physical intelligence.',
     founder: 'Deepak Pathak, Abhinav Gupta',
     location: 'Pittsburgh, PA',
     state: 'PA',
