@@ -1740,21 +1740,6 @@ const COMPANIES = [
 
   // ─── CONSUMER TECH ───
   {
-    name: "Osmo Labs",
-    sector: "Consumer Tech",
-    description: "First company to 'teleport' a scent digitally. Scent digitization and AI-powered fragrance creation. Giving computers a sense of smell.",
-    founder: "Alex Wiltschko",
-    location: "New York, NY",
-    state: "NY",
-    lat: 40.7549,
-    lng: -73.9840,
-    fundingStage: "Series A",
-    totalRaised: "$60M+",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/p/the-rational-optimist-awards-2026",
-    tags: ["scent", "digital smell", "AI"]
-  },
-  {
     name: "Alpha School",
     sector: "Consumer Tech",
     description: "Revolutionary K-12 education with two-hour school days enabled by AI-powered personalized learning. Students consistently outperform traditional schools.",
@@ -7962,8 +7947,8 @@ const COMPANIES = [
   },
   {
     name: "Osmo",
-    sector: "Biotech & Health",
-    description: "Building AI models for digital olfaction to understand, digitize, and recreate scents.",
+    sector: "Consumer Tech",
+    description: "First company to teleport a scent digitally. Building AI models for digital olfaction to understand, digitize, and recreate scents. Giving computers a sense of smell.",
     founder: "Alex Wiltschko",
     location: "Cambridge, MA",
     state: "MA",
@@ -7972,7 +7957,8 @@ const COMPANIES = [
     fundingStage: "Series B",
     totalRaised: "$100M+",
     valuation: "",
-    tags: ["AI", "olfaction", "scent", "sensors"],
+    rosLink: "https://rationaloptimistsociety.substack.com/p/the-rational-optimist-awards-2026",
+    tags: ["AI", "olfaction", "scent", "sensors", "digital smell"],
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 8, market: 7, momentum: 7 },
     competitors: ["Aromyx", "Aryballe"],
