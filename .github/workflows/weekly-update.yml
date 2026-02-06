@@ -2,10 +2,9 @@ name: Automated Data Pipeline
 
 on:
   schedule:
-    # Daily quick update at 7:00 AM UTC (news + market pulse)
     - cron: '0 7 * * *'
-    # Weekly deep update every Monday at 8:00 AM UTC
     - cron: '0 8 * * 1'
+    - cron: '0 9 1 * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -17,6 +16,7 @@ on:
           - quick
           - standard
           - deep
+          - comprehensive
 
 permissions:
   contents: write
@@ -42,6 +42,8 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "mode=${{ inputs.mode || 'standard' }}" >> $GITHUB_OUTPUT
+          elif [ "$(date +%d)" = "01" ]; then
+            echo "mode=comprehensive" >> $GITHUB_OUTPUT
           elif [ "$(date +%u)" = "1" ]; then
             echo "mode=deep" >> $GITHUB_OUTPUT
           else
@@ -57,6 +59,8 @@ jobs:
             python scripts/update_data.py --quick
           elif [ "$MODE" = "deep" ]; then
             python scripts/update_data.py --deep
+          elif [ "$MODE" = "comprehensive" ]; then
+            python scripts/update_data.py --comprehensive
           else
             python scripts/update_data.py
           fi
@@ -72,15 +76,7 @@ jobs:
           git config user.name "Innovators League Bot"
           git config user.email "bot@innovatorsleague.com"
           git add data.js
-          git commit -m "chore: automated data update $(date +%Y-%m-%d) [${{ steps.mode.outputs.mode }}]
-
-          Automated pipeline update:
-          - Market pulse & stock data refresh
-          - News ticker update from RSS feeds
-          - Funding round detection
-          - LAST_UPDATED timestamp bump
-
-          Mode: ${{ steps.mode.outputs.mode }}"
+          git commit -m "chore: automated data update $(date +%Y-%m-%d) [${{ steps.mode.outputs.mode }}]"
           git push
 
       - name: Upload update report
