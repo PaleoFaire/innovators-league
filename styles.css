@@ -2488,7 +2488,196 @@ body {
   color: var(--accent);
 }
 
-/* ─── INNOVATION SCORE BADGE ─── */
+/* ═══════════════════════════════════════════════════════════════════════════════
+   INNOVATOR SCORE™ — World-Class Mosaic-Style Scoring (0-1000)
+   ═══════════════════════════════════════════════════════════════════════════════ */
+
+/* ─── INNOVATOR SCORE BADGE (New 0-1000 Scale) ─── */
+.innovator-score-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-family: var(--font-display);
+  cursor: help;
+  transition: all 0.2s ease;
+}
+
+.innovator-score-badge:hover {
+  transform: scale(1.05);
+}
+
+.innovator-score-badge.elite {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 165, 0, 0.2));
+  color: #FFD700;
+  border: 1px solid rgba(255, 215, 0, 0.4);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+}
+
+.innovator-score-badge.exceptional {
+  background: rgba(255, 107, 44, 0.15);
+  color: #FF6B2C;
+  border: 1px solid rgba(255, 107, 44, 0.35);
+}
+
+.innovator-score-badge.strong {
+  background: rgba(34, 197, 94, 0.12);
+  color: #22C55E;
+  border: 1px solid rgba(34, 197, 94, 0.25);
+}
+
+.innovator-score-badge.promising {
+  background: rgba(96, 165, 250, 0.12);
+  color: #60A5FA;
+  border: 1px solid rgba(96, 165, 250, 0.25);
+}
+
+.innovator-score-badge.developing {
+  background: rgba(168, 85, 247, 0.12);
+  color: #A855F7;
+  border: 1px solid rgba(168, 85, 247, 0.25);
+}
+
+.innovator-score-badge.nascent {
+  background: rgba(156, 163, 175, 0.12);
+  color: #9CA3AF;
+  border: 1px solid rgba(156, 163, 175, 0.25);
+}
+
+.innovator-score-badge .score-trend {
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+.innovator-score-badge .score-trend.accelerating {
+  color: #22C55E;
+}
+
+.innovator-score-badge .score-trend.decelerating {
+  color: #EF4444;
+}
+
+/* ─── INNOVATOR SCORE DETAIL PANEL ─── */
+.innovator-score-detail {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin: 12px 0;
+}
+
+.innovator-score-detail .score-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.innovator-score-detail .score-total {
+  font-size: 32px;
+  font-weight: 800;
+  font-family: var(--font-display);
+}
+
+.innovator-score-detail .score-total.elite { color: #FFD700; }
+.innovator-score-detail .score-total.exceptional { color: #FF6B2C; }
+.innovator-score-detail .score-total.strong { color: #22C55E; }
+.innovator-score-detail .score-total.promising { color: #60A5FA; }
+.innovator-score-detail .score-total.developing { color: #A855F7; }
+.innovator-score-detail .score-total.nascent { color: #9CA3AF; }
+
+.innovator-score-detail .score-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.innovator-score-detail .score-change {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin-left: auto;
+}
+
+.innovator-score-detail .score-change.positive {
+  background: rgba(34, 197, 94, 0.12);
+  color: #22C55E;
+}
+
+.innovator-score-detail .score-change.negative {
+  background: rgba(239, 68, 68, 0.12);
+  color: #EF4444;
+}
+
+.innovator-score-detail .score-change.neutral {
+  background: rgba(156, 163, 175, 0.12);
+  color: #9CA3AF;
+}
+
+/* ─── SCORE DIMENSION BARS ─── */
+.innovator-score-detail .score-dimensions {
+  display: grid;
+  gap: 10px;
+}
+
+.innovator-score-detail .score-dim {
+  display: grid;
+  grid-template-columns: 90px 1fr 40px;
+  align-items: center;
+  gap: 10px;
+}
+
+.innovator-score-detail .dim-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.innovator-score-detail .dim-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.innovator-score-detail .dim-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.innovator-score-detail .dim-fill.momentum { background: linear-gradient(90deg, #FF6B2C, #FF8147); }
+.innovator-score-detail .dim-fill.market { background: linear-gradient(90deg, #3B82F6, #60A5FA); }
+.innovator-score-detail .dim-fill.technology { background: linear-gradient(90deg, #22C55E, #4ADE80); }
+.innovator-score-detail .dim-fill.team { background: linear-gradient(90deg, #A855F7, #C084FC); }
+
+.innovator-score-detail .dim-value {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-align: right;
+  font-family: var(--font-display);
+}
+
+.innovator-score-detail .score-breakdown {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* ─── LEGACY INNOVATION SCORE BADGE ─── */
 .score-badge {
   display: inline-flex;
   align-items: center;
@@ -7512,6 +7701,135 @@ body {
 .metric-methodology-box.compact p {
   margin-bottom: 0;
   font-size: 12px;
+}
+
+/* ─── WORLD-CLASS METHODOLOGY BOX ─── */
+.metric-methodology-box.world-class {
+  background: linear-gradient(135deg, rgba(255, 107, 44, 0.05) 0%, var(--bg-tertiary) 100%);
+  border: 1px solid rgba(255, 107, 44, 0.2);
+  border-left: 4px solid var(--accent);
+  padding: 20px 24px;
+}
+
+.metric-methodology-box .methodology-tagline {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+.metric-methodology-box .methodology-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.metric-methodology-box .method-dimension {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  transition: all 0.2s;
+}
+
+.metric-methodology-box .method-dimension:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+.metric-methodology-box .method-dimension.momentum { border-top: 3px solid #FF6B2C; }
+.metric-methodology-box .method-dimension.market { border-top: 3px solid #3B82F6; }
+.metric-methodology-box .method-dimension.technology { border-top: 3px solid #22C55E; }
+.metric-methodology-box .method-dimension.team { border-top: 3px solid #A855F7; }
+
+.metric-methodology-box .method-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.metric-methodology-box .method-weight {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--accent);
+  background: rgba(255, 107, 44, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.metric-methodology-box .method-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.metric-methodology-box .method-dimension p {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.metric-methodology-box .score-tier-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0 12px;
+}
+
+.metric-methodology-box .tier-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-family: var(--font-display);
+}
+
+.metric-methodology-box .tier-badge.elite {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 165, 0, 0.15));
+  color: #FFD700;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.metric-methodology-box .tier-badge.exceptional {
+  background: rgba(255, 107, 44, 0.12);
+  color: #FF6B2C;
+  border: 1px solid rgba(255, 107, 44, 0.25);
+}
+
+.metric-methodology-box .tier-badge.strong {
+  background: rgba(34, 197, 94, 0.12);
+  color: #22C55E;
+  border: 1px solid rgba(34, 197, 94, 0.25);
+}
+
+.metric-methodology-box .tier-badge.promising {
+  background: rgba(96, 165, 250, 0.12);
+  color: #60A5FA;
+  border: 1px solid rgba(96, 165, 250, 0.25);
+}
+
+.metric-methodology-box .methodology-note {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .metric-methodology-box .methodology-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .metric-methodology-box .methodology-grid {
+    grid-template-columns: 1fr;
+  }
+  .metric-methodology-box .score-tier-legend {
+    flex-direction: column;
+  }
 }
 
 /* ─── INNOVATOR 50 METHODOLOGY NOTE ─── */

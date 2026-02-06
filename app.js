@@ -196,11 +196,97 @@ function renderSignalBadge(signal) {
   return `<span class="signal-badge ${s.class}">${s.icon} ${s.label}</span>`;
 }
 
-// ─── INNOVATION SCORE ───
+// ─── INNOVATOR SCORE™ (World-Class Mosaic-Style Scoring) ───
+// Uses the new INNOVATOR_SCORES object with 0-1000 scale
+
+function getInnovatorScore(companyName) {
+  if (typeof INNOVATOR_SCORES === 'undefined') return null;
+  return INNOVATOR_SCORES[companyName] || null;
+}
+
+function getInnovatorScoreLabel(score) {
+  if (!score) return { label: 'Unrated', class: 'unrated' };
+  const total = score.total || 0;
+  if (total >= 900) return { label: 'Elite', class: 'elite', icon: '👑' };
+  if (total >= 800) return { label: 'Exceptional', class: 'exceptional', icon: '🔥' };
+  if (total >= 700) return { label: 'Strong', class: 'strong', icon: '⚡' };
+  if (total >= 600) return { label: 'Promising', class: 'promising', icon: '📈' };
+  if (total >= 500) return { label: 'Developing', class: 'developing', icon: '🌱' };
+  return { label: 'Nascent', class: 'nascent', icon: '🔬' };
+}
+
+function renderInnovatorScoreBadge(companyName) {
+  const score = getInnovatorScore(companyName);
+  if (!score) {
+    // Fallback to old scoring system
+    return renderLegacyScoreBadge(companyName);
+  }
+  const { label, class: cls, icon } = getInnovatorScoreLabel(score);
+  const trendIcon = score.trend === 'accelerating' ? '↑' : score.trend === 'decelerating' ? '↓' : '→';
+  return `
+    <span class="innovator-score-badge ${cls}" title="${label}: ${score.total}/1000 | Momentum: ${score.momentum} | Market: ${score.market} | Tech: ${score.technology} | Team: ${score.team}">
+      ${icon} ${score.total} <span class="score-trend ${score.trend}">${trendIcon}</span>
+    </span>
+  `;
+}
+
+function renderInnovatorScoreDetail(companyName) {
+  const score = getInnovatorScore(companyName);
+  if (!score) return '';
+
+  const { label, class: cls } = getInnovatorScoreLabel(score);
+  const change = score.total - (score.priorScore || score.total);
+  const changeIcon = change > 0 ? '↑' : change < 0 ? '↓' : '→';
+  const changeClass = change > 0 ? 'positive' : change < 0 ? 'negative' : 'neutral';
+
+  return `
+    <div class="innovator-score-detail">
+      <div class="score-header">
+        <span class="score-total ${cls}">${score.total}</span>
+        <span class="score-label">${label}</span>
+        <span class="score-change ${changeClass}">${changeIcon} ${Math.abs(change)} (30d)</span>
+      </div>
+      <div class="score-dimensions">
+        <div class="score-dim" title="Growth trajectory and market activity">
+          <span class="dim-label">Momentum</span>
+          <div class="dim-bar"><div class="dim-fill momentum" style="width: ${score.momentum}%"></div></div>
+          <span class="dim-value">${score.momentum}</span>
+        </div>
+        <div class="score-dim" title="Market opportunity and positioning">
+          <span class="dim-label">Market</span>
+          <div class="dim-bar"><div class="dim-fill market" style="width: ${score.market}%"></div></div>
+          <span class="dim-value">${score.market}</span>
+        </div>
+        <div class="score-dim" title="Technical moat and product maturity">
+          <span class="dim-label">Technology</span>
+          <div class="dim-bar"><div class="dim-fill technology" style="width: ${score.technology}%"></div></div>
+          <span class="dim-value">${score.technology}</span>
+        </div>
+        <div class="score-dim" title="Leadership quality and execution">
+          <span class="dim-label">Team</span>
+          <div class="dim-bar"><div class="dim-fill team" style="width: ${score.team}%"></div></div>
+          <span class="dim-value">${score.team}</span>
+        </div>
+      </div>
+      ${score.breakdown ? `<div class="score-breakdown">${score.breakdown}</div>` : ''}
+    </div>
+  `;
+}
+
+// Legacy scoring fallback for companies without Innovator Score
 function getAverageScore(scores) {
   if (!scores) return 0;
   const vals = [scores.team, scores.traction, scores.techMoat, scores.market, scores.momentum].filter(v => v != null);
   return vals.length ? (vals.reduce((sum, v) => sum + v, 0) / vals.length) : 0;
+}
+
+function renderLegacyScoreBadge(companyName) {
+  const company = typeof COMPANIES !== 'undefined' ? COMPANIES.find(c => c.name === companyName) : null;
+  if (!company || !company.scores) return '';
+  const avg = getAverageScore(company.scores);
+  if (avg === 0) return '';
+  const cls = avg >= 8 ? 'high' : avg >= 6 ? 'mid' : 'low';
+  return `<span class="score-badge ${cls}">★ ${avg.toFixed(1)}</span>`;
 }
 
 function renderScoreBadge(scores) {
