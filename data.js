@@ -1,4 +1,45 @@
-const LAST_UPDATED = "2026-02-05";
+// Auto-updated SEC filings from EDGAR
+const SEC_FILINGS_LIVE = [
+  { company: "Palantir", form: "8-K", date: "2026-02-02", description: "8-K", isIPO: false, ticker: "PLTR" },
+  { company: "NuScale Power", form: "8-K", date: "2026-01-27", description: "8-K", isIPO: false, ticker: "SMR" },
+  { company: "Rocket Lab", form: "8-K", date: "2026-01-22", description: "8-K", isIPO: false, ticker: "RKLB" },
+  { company: "Rigetti Computing", form: "8-K", date: "2026-01-20", description: "FORM 8-K", isIPO: false, ticker: "RGTI" },
+  { company: "AST SpaceMobile", form: "8-K", date: "2026-01-16", description: "8-K", isIPO: false, ticker: "ASTS" },
+  { company: "Intuitive Machines", form: "8-K", date: "2026-01-09", description: "FORM 8-K", isIPO: false, ticker: "LUNR" },
+  { company: "Rigetti Computing", form: "8-K", date: "2026-01-09", description: "FORM 8-K", isIPO: false, ticker: "RGTI" },
+  { company: "Intuitive Machines", form: "8-K", date: "2025-12-22", description: "FORM 8-K", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "8-K", date: "2025-12-19", description: "FORM 8-K", isIPO: false, ticker: "LUNR" },
+  { company: "NuScale Power", form: "8-K", date: "2025-12-17", description: "8-K", isIPO: false, ticker: "SMR" },
+  { company: "NuScale Power", form: "DEF 14A", date: "2025-11-20", description: "DEF 14A", isIPO: false, ticker: "SMR" },
+  { company: "NuScale Power", form: "8-K", date: "2025-11-17", description: "8-K", isIPO: false, ticker: "SMR" },
+  { company: "Intuitive Machines", form: "10-Q", date: "2025-11-10", description: "10-Q", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "8-K", date: "2025-11-10", description: "FORM 8-K", isIPO: false, ticker: "LUNR" },
+  { company: "Rigetti Computing", form: "10-Q", date: "2025-11-10", description: "10-Q", isIPO: false, ticker: "RGTI" },
+  { company: "Rigetti Computing", form: "8-K", date: "2025-11-10", description: "8-K", isIPO: false, ticker: "RGTI" },
+  { company: "Archer Aviation", form: "10-Q", date: "2025-11-06", description: "10-Q", isIPO: false, ticker: "ACHR" },
+  { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2025-09-08", description: "FORM 10-Q", isIPO: false, ticker: "RXRX" },
+  { company: "Intuitive Machines", form: "8-K", date: "2025-08-27", description: "FORM 8-K", isIPO: false, ticker: "LUNR" },
+  { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2025-06-05", description: "FORM 10-Q", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2025-05-19", description: "FORM 10-Q", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "8-K", date: "2025-04-23", description: "FORM 8-K", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "10-K", date: "2025-01-27", description: "FORM 10-K", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2024-06-20", description: "FORM 10-Q", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2024-06-06", description: "FORM 10-Q", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "10-Q", date: "2024-05-14", description: "FORM 10-Q", isIPO: false, ticker: "RXRX" },
+  { company: "FREYR Battery", form: "8-K", date: "2024-01-02", description: "8-K", isIPO: false, ticker: "FREY" },
+  { company: "FREYR Battery", form: "8-K", date: "2023-12-18", description: "8-K", isIPO: false, ticker: "FREY" },
+  { company: "FREYR Battery", form: "8-K", date: "2023-12-07", description: "8-K", isIPO: false, ticker: "FREY" },
+  { company: "FREYR Battery", form: "8-K", date: "2023-11-27", description: "8-K", isIPO: false, ticker: "FREY" },
+  { company: "FREYR Battery", form: "8-K", date: "2023-11-15", description: "8-K", isIPO: false, ticker: "FREY" },
+  { company: "FREYR Battery", form: "10-Q", date: "2023-11-09", description: "10-Q", isIPO: false, ticker: "FREY" },
+  { company: "Planet Labs", form: "8-K", date: "2021-09-01", description: "FORM 8-K", isIPO: false, ticker: "PL" },
+  { company: "Planet Labs", form: "DEFA14A", date: "2021-08-30", description: "DEFA14A", isIPO: false, ticker: "PL" },
+  { company: "Planet Labs", form: "8-K", date: "2021-08-30", description: "FORM 8-K", isIPO: false, ticker: "PL" },
+  { company: "Planet Labs", form: "DEFA14A", date: "2021-08-23", description: "DEFA14A", isIPO: false, ticker: "PL" },
+  { company: "Planet Labs", form: "10-Q", date: "2021-08-16", description: "FORM 10-Q", isIPO: false, ticker: "PL" }
+];
+
+const LAST_UPDATED = "2026-02-06";
 
 const SECTORS = {
   "Defense & Security": { icon: "🛡️", color: "#dc2626", description: "Autonomous drones, counter-drone systems, defense AI, and next-generation weapons platforms.", trend: "Defense tech funding hit $25B in 2025. The Pentagon's Replicator initiative is accelerating autonomous systems procurement. Counter-drone is the hottest sub-sector." },
@@ -7912,14 +7953,12 @@ const SECTOR_MOMENTUM = [
 
 // ─── BREAKING NEWS TICKER ───
 const NEWS_TICKER = [
-  { text: "Waymo raises $16B at $126B valuation — largest autonomous driving round ever", time: "3d ago", priority: "high" },
-  { text: "SpaceX merges with xAI, targeting mid-2026 IPO at $1.5T+ valuation", time: "3d ago", priority: "high" },
-  { text: "Bedrock Robotics hits $1.75B valuation with $270M Series B for autonomous construction", time: "1d ago", priority: "high" },
-  { text: "Skild AI raises $1.4B at $14B valuation — robotics foundation model breakout", time: "3w ago", priority: "high" },
-  { text: "Cerebras re-files S-1, targeting Q2 2026 IPO on Nasdaq", time: "6w ago", priority: "medium" },
-  { text: "Boom Supersonic completes XB-1 program — broke sound barrier 6 times", time: "2w ago", priority: "medium" },
-  { text: "Anduril valued at $78B+ on secondary markets after $2.5B Series G", time: "7w ago", priority: "high" },
-  { text: "Figure AI valued at $39B after $1B+ Series C — humanoid robots at scale", time: "5m ago", priority: "medium" }
+  { text: "Morpheus raises $15 million in Series A+ round", time: "17h ago", priority: "high" },
+  { text: "Bedrock Robotics’ $270M Series B paves the way for operator-less excavators", time: "1d ago", priority: "high" },
+  { text: "Tomorrow.io banks $175 million for DeepSky weather constellation", time: "1h ago", priority: "high" },
+  { text: "FAA approves Starship launches from LC-39A", time: "5h ago", priority: "high" },
+  { text: "Deep space, dim objects: Why asteroid mining caught the Space Force’s eye", time: "14h ago", priority: "medium" },
+  { text: "Satellite servicing startup Starfish taps Quindar for mission operations software", time: "14h ago", priority: "medium" }
 ];
 
 // ─── WEEKLY INTELLIGENCE DIGEST ───
