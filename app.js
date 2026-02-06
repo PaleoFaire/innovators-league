@@ -319,7 +319,7 @@ function generateOnePager(companyName) {
 
       ${company.scores ? `
         <div class="section">
-          <h3>Intelligence Scores</h3>
+          <h3>Innovation Score <span style="font-size:11px;color:var(--text-muted);font-weight:400;margin-left:8px;">Avg of 5 dimensions (1-10 scale)</span></h3>
           <div class="score-row">
             <div class="score-item"><div class="score-num">${company.scores.team}</div><div class="score-lbl">Team</div></div>
             <div class="score-item"><div class="score-num">${company.scores.traction}</div><div class="score-lbl">Traction</div></div>
@@ -327,6 +327,7 @@ function generateOnePager(companyName) {
             <div class="score-item"><div class="score-num">${company.scores.market}</div><div class="score-lbl">Market</div></div>
             <div class="score-item"><div class="score-num">${company.scores.momentum}</div><div class="score-lbl">Momentum</div></div>
           </div>
+          <p style="font-size:11px;color:var(--text-muted);margin-top:12px;line-height:1.5;">Team = Founder pedigree & experience. Traction = Revenue, users, contracts. Tech Moat = Patents, defensibility. Market = TAM size & timing. Momentum = Recent growth signals.</p>
         </div>
       ` : ''}
 
@@ -1667,23 +1668,29 @@ function exportWatchlistCSV() {
 // ─── VALUATION LEADERBOARD ───
 function parseValuation(val) {
   if (!val) return 0;
-  const str = val.replace(/[^0-9.BMbmTt+]/g, '').toUpperCase();
-  let num = parseFloat(str);
+  // Extract number and unit (B/M/T) that appears immediately after
+  const match = val.match(/\$?([\d,.]+)\s*([BMTbmt])/);
+  if (!match) return 0;
+  const num = parseFloat(match[1].replace(/,/g, ''));
   if (isNaN(num)) return 0;
-  if (str.includes('T')) return num * 1000000000000;
-  if (str.includes('B')) return num * 1000000000;
-  if (str.includes('M')) return num * 1000000;
+  const unit = match[2].toUpperCase();
+  if (unit === 'T') return num * 1000000000000;
+  if (unit === 'B') return num * 1000000000;
+  if (unit === 'M') return num * 1000000;
   return num;
 }
 
 function parseFunding(val) {
   if (!val) return 0;
-  const str = val.replace(/[^0-9.BMbmTt+]/g, '').toUpperCase();
-  let num = parseFloat(str);
+  // Extract number and unit (B/M/T) that appears immediately after
+  const match = val.match(/\$?([\d,.]+)\s*([BMTbmt])/);
+  if (!match) return 0;
+  const num = parseFloat(match[1].replace(/,/g, ''));
   if (isNaN(num)) return 0;
-  if (str.includes('T')) return num * 1000000000000;
-  if (str.includes('B')) return num * 1000000000;
-  if (str.includes('M')) return num * 1000000;
+  const unit = match[2].toUpperCase();
+  if (unit === 'T') return num * 1000000000000;
+  if (unit === 'B') return num * 1000000000;
+  if (unit === 'M') return num * 1000000;
   return num;
 }
 
@@ -1837,8 +1844,6 @@ function initEfficiencyLeaderboard() {
 
   function renderEfficiencyLeaderboard() {
     grid.innerHTML = '';
-    const metric = document.getElementById('eff-metric')?.value || 'valToFunding';
-    const stage = document.getElementById('eff-stage')?.value || 'all';
     const sector = document.getElementById('eff-sector')?.value || 'all';
     const countVal = document.getElementById('eff-count')?.value || '25';
 
@@ -1848,18 +1853,6 @@ function initEfficiencyLeaderboard() {
       const raised = parseFunding(c.totalRaised);
       return val > 0 && raised > 0;
     });
-
-    // Stage filter
-    if (stage === 'early') {
-      filtered = filtered.filter(c =>
-        c.fundingStage === 'Seed' || c.fundingStage === 'Series A' || c.fundingStage === 'Series B'
-      );
-    } else if (stage === 'growth') {
-      filtered = filtered.filter(c =>
-        c.fundingStage === 'Series C' || c.fundingStage === 'Series D+' ||
-        c.fundingStage === 'Late Stage' || c.fundingStage === 'Pre-IPO'
-      );
-    }
 
     // Sector filter
     if (sector !== 'all') {
@@ -1886,40 +1879,8 @@ function initEfficiencyLeaderboard() {
     const maxCount = countVal === 'all' ? filtered.length : parseInt(countVal);
     filtered = filtered.slice(0, maxCount);
 
-    // Stats
-    const statsEl = document.getElementById('eff-stats');
-    if (statsEl) {
-      const avgEfficiency = filtered.length > 0
-        ? filtered.reduce((sum, c) => sum + c._efficiency, 0) / filtered.length
-        : 0;
-      const medianEfficiency = filtered.length > 0
-        ? filtered[Math.floor(filtered.length / 2)]._efficiency
-        : 0;
-      statsEl.innerHTML = `
-        <span class="lb-stat"><strong>${filtered.length}</strong> of ${totalCount} companies</span>
-        <span class="lb-stat">Avg Multiple: <strong>${avgEfficiency.toFixed(1)}x</strong></span>
-        <span class="lb-stat">Median: <strong>${medianEfficiency.toFixed(1)}x</strong></span>
-      `;
-    }
-
     // Find max efficiency for bar scaling
     const maxEfficiency = filtered.length > 0 ? filtered[0]._efficiency : 1;
-
-    // Sector benchmarks for context
-    const sectorBenchmarks = {
-      'Defense Technology': 8,
-      'Space Technology': 6,
-      'AI Infrastructure': 12,
-      'Autonomous Vehicles': 5,
-      'Energy & Fusion': 4,
-      'Robotics': 6,
-      'Aerospace & Aviation': 5,
-      'Quantum Computing': 3,
-      'Biotech': 4,
-      'Semiconductors': 7,
-      'Climate Tech': 5,
-      'Advanced Manufacturing': 6
-    };
 
     filtered.forEach((c, i) => {
       const rank = i + 1;
@@ -1927,9 +1888,6 @@ function initEfficiencyLeaderboard() {
       const rankSymbol = rank <= 3 ? ['🥇','🥈','🥉'][rank - 1] : `#${rank}`;
       const sectorInfo = SECTORS[c.sector] || { icon: '📦', color: '#6b7280' };
       const barWidth = maxEfficiency > 0 ? (c._efficiency / maxEfficiency * 100) : 0;
-      const benchmark = sectorBenchmarks[c.sector] || 5;
-      const vsBenchmark = c._efficiency >= benchmark ? 'above' : 'below';
-      const benchmarkDiff = ((c._efficiency - benchmark) / benchmark * 100).toFixed(0);
 
       const row = document.createElement('div');
       row.className = 'efficiency-row';
@@ -1941,17 +1899,15 @@ function initEfficiencyLeaderboard() {
         </div>
         <div class="efficiency-multiple">
           <span class="efficiency-value">${c._efficiency.toFixed(1)}x</span>
-          <span class="efficiency-benchmark ${vsBenchmark}">${vsBenchmark === 'above' ? '+' : ''}${benchmarkDiff}% vs sector</span>
         </div>
         <div class="leaderboard-bar">
           <div class="leaderboard-bar-fill efficiency-bar" style="width: 0%"></div>
         </div>
         <div class="efficiency-details">
           <span class="eff-val">${formatValuation(c._val)}</span>
-          <span class="eff-divider">/</span>
+          <span class="eff-divider">÷</span>
           <span class="eff-raised">${formatValuation(c._raised)}</span>
         </div>
-        <div class="leaderboard-stage">${c.fundingStage || ''}</div>
       `;
 
       row.addEventListener('click', () => openCompanyModal(c.name));
@@ -1965,7 +1921,7 @@ function initEfficiencyLeaderboard() {
   }
 
   // Attach event listeners
-  ['eff-metric', 'eff-stage', 'eff-sector', 'eff-count'].forEach(id => {
+  ['eff-sector', 'eff-count'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.addEventListener('change', renderEfficiencyLeaderboard);
   });
@@ -4002,6 +3958,22 @@ function initInnovator50() {
 
   const grid = document.getElementById('innovator50-grid');
   if (!grid) return;
+
+  // Accordion toggle functionality
+  const toggleBtn = document.getElementById('i50-toggle');
+  const content = document.getElementById('i50-content');
+  const expandText = toggleBtn?.querySelector('.i50-expand-text');
+  const chevron = toggleBtn?.querySelector('.i50-chevron');
+
+  if (toggleBtn && content) {
+    toggleBtn.addEventListener('click', () => {
+      const isExpanded = content.style.display !== 'none';
+      content.style.display = isExpanded ? 'none' : 'block';
+      if (expandText) expandText.textContent = isExpanded ? 'View Full Ranking' : 'Collapse';
+      if (chevron) chevron.style.transform = isExpanded ? '' : 'rotate(180deg)';
+      toggleBtn.classList.toggle('expanded', !isExpanded);
+    });
+  }
 
   // Populate category filter
   const categoryFilter = document.getElementById('i50-category');

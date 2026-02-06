@@ -2755,9 +2755,67 @@ body {
   pointer-events: none;
 }
 
+/* Accordion styles */
+.innovator50-accordion {
+  background: var(--bg-card);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.innovator50-accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s;
+}
+
+.innovator50-accordion-header:hover {
+  background: rgba(255, 215, 0, 0.05);
+}
+
+.innovator50-header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.innovator50-toggle-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffd700;
+}
+
+.i50-expand-text {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--font-display);
+}
+
+.i50-chevron {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s;
+}
+
+.innovator50-accordion-header.expanded .i50-chevron {
+  transform: rotate(180deg);
+}
+
+.innovator50-accordion-content {
+  padding: 0 32px 32px;
+}
+
 .innovator50-header {
-  text-align: center;
-  margin-bottom: 40px;
+  text-align: left;
+  margin-bottom: 0;
   position: relative;
 }
 
@@ -2775,28 +2833,20 @@ body {
 
 .innovator50-title {
   font-family: var(--font-display);
-  font-size: 42px;
+  font-size: 24px;
   font-weight: 800;
   background: linear-gradient(135deg, #ffd700 0%, #ff6b2c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 8px;
+  margin: 4px 0;
 }
 
 .innovator50-subtitle {
   font-family: var(--font-display);
-  font-size: 18px;
-  color: var(--text-secondary);
-  margin-bottom: 16px;
-}
-
-.innovator50-desc {
-  max-width: 600px;
-  margin: 0 auto;
   font-size: 14px;
-  line-height: 1.7;
-  color: var(--text-muted);
+  color: var(--text-secondary);
+  margin: 0;
 }
 
 .innovator50-controls {
@@ -6844,6 +6894,12 @@ body {
 /* ─── COMMUNITY INTELLIGENCE ─── */
 .community-section { padding: 60px 0; }
 
+.community-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
 .community-layout {
   display: grid;
   grid-template-columns: 1fr 320px;
@@ -6855,6 +6911,10 @@ body {
   border-radius: var(--radius-lg, 12px);
   padding: 20px;
   min-height: 400px;
+}
+
+.expert-takes-card {
+  grid-column: span 1;
 }
 .community-sidebar {
   display: flex;
