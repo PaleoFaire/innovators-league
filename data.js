@@ -15275,7 +15275,7 @@ const ECOSYSTEM_NETWORK = {
       name: 'LA Defense Corridor',
       center: { lat: 33.9, lng: -118.4 },
       companies: ['Anduril Industries', 'Epirus', 'Chaos Industries', 'Neros', 'Castelion'],
-      investors: ['a]ndreessen Horowitz', 'Founders Fund', 'General Catalyst'],
+      investors: ['Andreessen Horowitz', 'Founders Fund', 'General Catalyst'],
       totalValue: '$95B+',
       color: '#dc2626'
     },
