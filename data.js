@@ -10247,9 +10247,9 @@ const REQUEST_FOR_STARTUPS = [
 ];
 
 // =============================================================
-// INNOVATOR SCORE™ — Proprietary Composite Metric
+// INNOVATOR SCORE™ — Legacy Array Format (for backward compatibility)
 // =============================================================
-const INNOVATOR_SCORES = [
+const INNOVATOR_SCORES_LEGACY = [
   {
     company: "SpaceX",
     techMoat: 10,
