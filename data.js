@@ -8202,7 +8202,7 @@ const VC_FIRMS = [
     portfolioCompanies: ['OpenAI', 'Rippling', 'Flock Safety', 'Mach Industries', 'Epirus', 'Vercel'],
     signal: 'established',
     website: 'https://bedrockcap.com',
-    insight: 'Bedrock\'s \'narrative violations\' thesis produced some legendary wins: early OpenAI, Flock Safety at $7.5B (2025). They're willing to bet against consensus — exactly what frontier tech requires. Grew from $127M in 2018 to $2B+ today.'
+    insight: 'Bedrock\'s \'narrative violations\' thesis produced some legendary wins: early OpenAI, Flock Safety at $7.5B (2025). They\'re willing to bet against consensus — exactly what frontier tech requires. Grew from $127M in 2018 to $2B+ today.'
   },
   {
     name: 'Radical Ventures',
@@ -14462,7 +14462,7 @@ const EXPERT_TAKES = [
   {
     author: 'Defense Tech Analyst',
     company: 'Anduril Industries',
-    text: 'Anduril\'s Lattice platform creates genuine network effects in defense — once adopted by one service branch, adjacent units want interoperability. The $12B Series G isn\'t just growth capital, it\'s a signal that the defense primes' 20-year software moat is crumbling. Watch for NATO adoption as the next catalyst.'
+    text: 'Anduril\'s Lattice platform creates genuine network effects in defense — once adopted by one service branch, adjacent units want interoperability. The $12B Series G isn\'t just growth capital, it\'s a signal that the defense primes 20-year software moat is crumbling. Watch for NATO adoption as the next catalyst.'
   },
   {
     author: 'Energy Systems Researcher',
