@@ -597,7 +597,7 @@ const COMPANIES = [
   {
     name: 'Apex Space',
     sector: 'Space & Aerospace',
-    description: 'The 'Foxconn of satellite buses.' Standardized, configurable satellite platforms with transparent pricing. $45.9M Space Force contract. $400M in Series C+D funding. Producing 200+ satellites/year.',
+    description: 'The Foxconn of satellite buses. Standardized, configurable satellite platforms with transparent pricing. $45.9M Space Force contract. $400M in Series C+D funding. Producing 200+ satellites/year.',
     founder: 'Ian Cinnamon, Max Benassi',
     location: 'Playa Vista, CA',
     state: 'CA',
