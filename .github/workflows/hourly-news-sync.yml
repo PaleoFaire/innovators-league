@@ -65,11 +65,14 @@ jobs:
           for i, s in enumerate(signals[:15]):
               headline = s.get("title", "")[:120]
               # Sanitize HTML entities and special characters
+              # Replace all quote variants with safe single quotes
               headline = headline.replace('&#8216;', "'").replace('&#8217;', "'")
               headline = headline.replace('&#039;', "'").replace('&amp;', '&')
-              headline = headline.replace('"', '"').replace('"', '"')
-              headline = headline.replace("'", "'").replace("'", "'")
-              headline = headline.replace('"', "'").replace('\n', ' ')
+              headline = headline.replace('\u201c', "'").replace('\u201d', "'")  # Curly double quotes
+              headline = headline.replace('\u2018', "'").replace('\u2019', "'")  # Curly single quotes
+              headline = headline.replace('"', "'").replace('\n', ' ').replace('\r', ' ')
+              # Remove any other potentially problematic characters
+              headline = ''.join(c if ord(c) < 128 or c == "'" else "'" for c in headline)
               js_array += f'  {{ id: {i+1}, type: "{s.get("type", "news")}", '
               js_array += f'company: "{s.get("matchedCompany", "")}", '
               js_array += f'headline: "{headline}", '
