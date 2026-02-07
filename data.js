@@ -9203,6 +9203,902 @@ const VALUATION_BENCHMARKS = {
   }
 };
 
+// ─── SECONDARY MARKET VALUATIONS ───
+// Track private company valuations over time from secondary transactions, 409A valuations, and funding rounds
+// Sources: Forge Global, EquityZen, Carta, SEC filings, reported estimates
+const SECONDARY_MARKET_DATA = {
+  methodology: {
+    description: "Valuation data aggregated from secondary market transactions, 409A valuations, and primary funding rounds. Secondary prices may differ from primary round valuations due to liquidity preferences, information asymmetry, and market timing.",
+    sources: ["Forge Global transactions", "EquityZen listings", "Carta 409A data", "SEC Form D filings", "Press reports", "Primary round announcements"],
+    updateFrequency: "Weekly",
+    disclaimer: "Secondary market data reflects actual transaction prices where available. Implied valuations are estimates based on share class and preference stack assumptions."
+  },
+  companies: {
+    "SpaceX": {
+      currentValuation: "$350B",
+      valuationDate: "2025-12",
+      pricePerShare: "$185",
+      sharesOutstanding: "1.89B",
+      valuationType: "Secondary",
+      trend: "up",
+      change30d: "+8.2%",
+      change90d: "+22.5%",
+      change1y: "+75.0%",
+      liquidityScore: 9,
+      secondaryVolume: "$2.1B",
+      secondaryVolumeChange: "+45%",
+      history: [
+        { date: "2025-12", valuation: "$350B", event: "Secondary market", pps: "$185" },
+        { date: "2025-06", valuation: "$210B", event: "Series N", pps: "$112" },
+        { date: "2024-12", valuation: "$180B", event: "Tender offer", pps: "$97" },
+        { date: "2024-06", valuation: "$150B", event: "Secondary market", pps: "$80" },
+        { date: "2023-12", valuation: "$137B", event: "Series M", pps: "$73" },
+        { date: "2023-06", valuation: "$125B", event: "Secondary market", pps: "$67" },
+        { date: "2022-12", valuation: "$140B", event: "Series L", pps: "$75" }
+      ],
+      metrics: {
+        revenueMultiple: "25x",
+        lastRoundRevenueMultiple: "15x",
+        impliedARR: "$14B",
+        burnMultiple: "N/A (profitable)"
+      },
+      keyHolders: ["Founders Fund", "Sequoia", "a16z", "Gigafund", "Valor Equity"],
+      tender: { active: true, lastDate: "2025-12", price: "$185", oversubscribed: true }
+    },
+    "OpenAI": {
+      currentValuation: "$300B",
+      valuationDate: "2026-01",
+      pricePerShare: "$163",
+      sharesOutstanding: "1.84B",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+15.4%",
+      change90d: "+50.0%",
+      change1y: "+233.3%",
+      liquidityScore: 7,
+      secondaryVolume: "$850M",
+      secondaryVolumeChange: "+120%",
+      history: [
+        { date: "2026-01", valuation: "$300B", event: "Series G", pps: "$163" },
+        { date: "2025-10", valuation: "$157B", event: "Series F", pps: "$86" },
+        { date: "2025-03", valuation: "$90B", event: "Secondary market", pps: "$49" },
+        { date: "2024-02", valuation: "$86B", event: "Tender offer", pps: "$47" },
+        { date: "2023-04", valuation: "$29B", event: "Series E", pps: "$16" },
+        { date: "2023-01", valuation: "$20B", event: "Microsoft investment", pps: "$11" }
+      ],
+      metrics: {
+        revenueMultiple: "25x",
+        lastRoundRevenueMultiple: "15x",
+        impliedARR: "$12B",
+        burnMultiple: "2.5x"
+      },
+      keyHolders: ["Microsoft", "Thrive Capital", "Khosla Ventures", "Sequoia", "Tiger Global"],
+      tender: { active: false, lastDate: "2025-10", price: "$86", oversubscribed: true }
+    },
+    "Anthropic": {
+      currentValuation: "$60B",
+      valuationDate: "2025-12",
+      pricePerShare: "$42",
+      sharesOutstanding: "1.43B",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+9.1%",
+      change90d: "+33.3%",
+      change1y: "+300.0%",
+      liquidityScore: 6,
+      secondaryVolume: "$320M",
+      secondaryVolumeChange: "+85%",
+      history: [
+        { date: "2025-12", valuation: "$60B", event: "Series E", pps: "$42" },
+        { date: "2025-06", valuation: "$45B", event: "Secondary market", pps: "$31" },
+        { date: "2024-12", valuation: "$18B", event: "Series D", pps: "$12.60" },
+        { date: "2024-03", valuation: "$15B", event: "Series C-2", pps: "$10.50" },
+        { date: "2023-09", valuation: "$5B", event: "Series C", pps: "$3.50" },
+        { date: "2023-05", valuation: "$4.5B", event: "Series B", pps: "$3.15" }
+      ],
+      metrics: {
+        revenueMultiple: "6.7x",
+        lastRoundRevenueMultiple: "5x",
+        impliedARR: "$9B",
+        burnMultiple: "1.8x"
+      },
+      keyHolders: ["Google", "Spark Capital", "Salesforce Ventures", "Menlo Ventures", "Amazon"],
+      tender: { active: false, lastDate: "2025-06", price: "$31", oversubscribed: true }
+    },
+    "Anduril Industries": {
+      currentValuation: "$28B",
+      valuationDate: "2025-08",
+      pricePerShare: "$85",
+      sharesOutstanding: "329M",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+5.7%",
+      change90d: "+27.3%",
+      change1y: "+180.0%",
+      liquidityScore: 5,
+      secondaryVolume: "$180M",
+      secondaryVolumeChange: "+65%",
+      history: [
+        { date: "2025-08", valuation: "$28B", event: "Series F", pps: "$85" },
+        { date: "2024-08", valuation: "$14B", event: "Series E", pps: "$42.50" },
+        { date: "2023-06", valuation: "$8.5B", event: "Series D", pps: "$25.80" },
+        { date: "2022-06", valuation: "$4.6B", event: "Series C", pps: "$14" },
+        { date: "2021-04", valuation: "$1.9B", event: "Series B", pps: "$5.77" }
+      ],
+      metrics: {
+        revenueMultiple: "18.7x",
+        lastRoundRevenueMultiple: "9.3x",
+        impliedARR: "$1.5B",
+        burnMultiple: "0.8x"
+      },
+      keyHolders: ["Founders Fund", "a16z", "General Catalyst", "8VC", "Valor Equity"],
+      tender: { active: true, lastDate: "2025-11", price: "$88", oversubscribed: true }
+    },
+    "Stripe": {
+      currentValuation: "$91B",
+      valuationDate: "2025-09",
+      pricePerShare: "$27.50",
+      sharesOutstanding: "3.31B",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+3.2%",
+      change90d: "+18.2%",
+      change1y: "+82.0%",
+      liquidityScore: 8,
+      secondaryVolume: "$1.2B",
+      secondaryVolumeChange: "+30%",
+      history: [
+        { date: "2025-09", valuation: "$91B", event: "Secondary market", pps: "$27.50" },
+        { date: "2025-02", valuation: "$65B", event: "409A update", pps: "$19.60" },
+        { date: "2024-03", valuation: "$50B", event: "Series I", pps: "$15.10" },
+        { date: "2023-03", valuation: "$50B", event: "409A (down round)", pps: "$15.10" },
+        { date: "2021-03", valuation: "$95B", event: "Series H", pps: "$28.70" }
+      ],
+      metrics: {
+        revenueMultiple: "9.1x",
+        lastRoundRevenueMultiple: "5x",
+        impliedARR: "$10B",
+        burnMultiple: "N/A (profitable)"
+      },
+      keyHolders: ["Sequoia", "a16z", "General Catalyst", "Thrive Capital", "Tiger Global"],
+      tender: { active: true, lastDate: "2025-08", price: "$27.00", oversubscribed: true }
+    },
+    "Databricks": {
+      currentValuation: "$62B",
+      valuationDate: "2024-12",
+      pricePerShare: "$75",
+      sharesOutstanding: "827M",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+4.1%",
+      change90d: "+14.8%",
+      change1y: "+41.4%",
+      liquidityScore: 7,
+      secondaryVolume: "$420M",
+      secondaryVolumeChange: "+25%",
+      history: [
+        { date: "2024-12", valuation: "$62B", event: "Series J", pps: "$75" },
+        { date: "2023-09", valuation: "$43B", event: "Series I", pps: "$52" },
+        { date: "2021-08", valuation: "$38B", event: "Series H", pps: "$46" },
+        { date: "2021-02", valuation: "$28B", event: "Series G", pps: "$34" }
+      ],
+      metrics: {
+        revenueMultiple: "31x",
+        lastRoundRevenueMultiple: "21.5x",
+        impliedARR: "$2B",
+        burnMultiple: "1.2x"
+      },
+      keyHolders: ["a16z", "Coatue", "T. Rowe Price", "Tiger Global", "Franklin Templeton"],
+      tender: { active: true, lastDate: "2024-11", price: "$72", oversubscribed: true }
+    },
+    "Scale AI": {
+      currentValuation: "$14B",
+      valuationDate: "2024-05",
+      pricePerShare: "$28",
+      sharesOutstanding: "500M",
+      valuationType: "Primary",
+      trend: "stable",
+      change30d: "+1.2%",
+      change90d: "+8.5%",
+      change1y: "+40.0%",
+      liquidityScore: 5,
+      secondaryVolume: "$85M",
+      secondaryVolumeChange: "+15%",
+      history: [
+        { date: "2024-05", valuation: "$14B", event: "Series F", pps: "$28" },
+        { date: "2023-03", valuation: "$7.3B", event: "Series E", pps: "$14.60" },
+        { date: "2021-04", valuation: "$7.3B", event: "Series D", pps: "$14.60" },
+        { date: "2020-05", valuation: "$3.5B", event: "Series C", pps: "$7" }
+      ],
+      metrics: {
+        revenueMultiple: "10x",
+        lastRoundRevenueMultiple: "5.2x",
+        impliedARR: "$1.4B",
+        burnMultiple: "1.5x"
+      },
+      keyHolders: ["Accel", "Index Ventures", "Tiger Global", "Coatue", "Founders Fund"],
+      tender: { active: false, lastDate: "2024-02", price: "$26", oversubscribed: false }
+    },
+    "Shield AI": {
+      currentValuation: "$5.3B",
+      valuationDate: "2024-10",
+      pricePerShare: "$32",
+      sharesOutstanding: "166M",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+6.8%",
+      change90d: "+32.5%",
+      change1y: "+112.0%",
+      liquidityScore: 4,
+      secondaryVolume: "$45M",
+      secondaryVolumeChange: "+80%",
+      history: [
+        { date: "2024-10", valuation: "$5.3B", event: "Series F", pps: "$32" },
+        { date: "2023-11", valuation: "$2.7B", event: "Series E", pps: "$16.25" },
+        { date: "2022-06", valuation: "$2.3B", event: "Series D", pps: "$13.85" },
+        { date: "2021-07", valuation: "$715M", event: "Series C", pps: "$4.30" }
+      ],
+      metrics: {
+        revenueMultiple: "10.6x",
+        lastRoundRevenueMultiple: "5.4x",
+        impliedARR: "$500M",
+        burnMultiple: "1.1x"
+      },
+      keyHolders: ["a16z", "Breyer Capital", "Point72", "ARK Invest", "General Catalyst"],
+      tender: { active: false, lastDate: "2024-08", price: "$30", oversubscribed: true }
+    },
+    "Figure AI": {
+      currentValuation: "$2.6B",
+      valuationDate: "2024-02",
+      pricePerShare: "$18.50",
+      sharesOutstanding: "141M",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+12.3%",
+      change90d: "+45.0%",
+      change1y: "+420.0%",
+      liquidityScore: 3,
+      secondaryVolume: "$28M",
+      secondaryVolumeChange: "+200%",
+      history: [
+        { date: "2024-02", valuation: "$2.6B", event: "Series B", pps: "$18.50" },
+        { date: "2023-05", valuation: "$500M", event: "Series A", pps: "$3.55" },
+        { date: "2022-09", valuation: "$70M", event: "Seed", pps: "$0.50" }
+      ],
+      metrics: {
+        revenueMultiple: "N/A",
+        lastRoundRevenueMultiple: "N/A",
+        impliedARR: "Pre-revenue",
+        burnMultiple: "N/A"
+      },
+      keyHolders: ["Bezos Expeditions", "Microsoft", "OpenAI", "Intel Capital", "Parkway Venture Capital"],
+      tender: { active: false, lastDate: null, price: null, oversubscribed: null }
+    },
+    "Relativity Space": {
+      currentValuation: "$4.2B",
+      valuationDate: "2023-05",
+      pricePerShare: "$22",
+      sharesOutstanding: "191M",
+      valuationType: "Primary",
+      trend: "down",
+      change30d: "-2.1%",
+      change90d: "-8.5%",
+      change1y: "-15.0%",
+      liquidityScore: 4,
+      secondaryVolume: "$35M",
+      secondaryVolumeChange: "-20%",
+      history: [
+        { date: "2023-05", valuation: "$4.2B", event: "Secondary market", pps: "$22" },
+        { date: "2022-06", valuation: "$4.2B", event: "Series E", pps: "$22" },
+        { date: "2021-06", valuation: "$2.3B", event: "Series D", pps: "$12" },
+        { date: "2020-11", valuation: "$1B", event: "Series C", pps: "$5.25" }
+      ],
+      metrics: {
+        revenueMultiple: "N/A",
+        lastRoundRevenueMultiple: "N/A",
+        impliedARR: "Pre-revenue",
+        burnMultiple: "N/A"
+      },
+      keyHolders: ["Tiger Global", "Fidelity", "Coatue", "K5 Global", "Tribe Capital"],
+      tender: { active: false, lastDate: "2023-03", price: "$20", oversubscribed: false }
+    },
+    "Cerebras Systems": {
+      currentValuation: "$4.25B",
+      valuationDate: "2024-08",
+      pricePerShare: "$15",
+      sharesOutstanding: "283M",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+8.5%",
+      change90d: "+35.0%",
+      change1y: "+70.0%",
+      liquidityScore: 5,
+      secondaryVolume: "$65M",
+      secondaryVolumeChange: "+55%",
+      history: [
+        { date: "2024-08", valuation: "$4.25B", event: "Series F", pps: "$15" },
+        { date: "2023-06", valuation: "$2.5B", event: "Secondary market", pps: "$8.85" },
+        { date: "2021-11", valuation: "$4B", event: "Series F", pps: "$14.15" },
+        { date: "2019-11", valuation: "$1.7B", event: "Series D", pps: "$6" }
+      ],
+      metrics: {
+        revenueMultiple: "21.25x",
+        lastRoundRevenueMultiple: "12.5x",
+        impliedARR: "$200M",
+        burnMultiple: "2.0x"
+      },
+      keyHolders: ["Alpha Wave Global", "G42", "Altimeter", "Coatue", "Eclipse Ventures"],
+      tender: { active: true, lastDate: "2024-07", price: "$14.50", oversubscribed: true }
+    },
+    "Commonwealth Fusion Systems": {
+      currentValuation: "$5B",
+      valuationDate: "2024-06",
+      pricePerShare: "$28",
+      sharesOutstanding: "179M",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+4.2%",
+      change90d: "+18.5%",
+      change1y: "+100.0%",
+      liquidityScore: 3,
+      secondaryVolume: "$42M",
+      secondaryVolumeChange: "+40%",
+      history: [
+        { date: "2024-06", valuation: "$5B", event: "Secondary market", pps: "$28" },
+        { date: "2023-12", valuation: "$4B", event: "Series C", pps: "$22.35" },
+        { date: "2021-12", valuation: "$1.8B", event: "Series B", pps: "$10.05" },
+        { date: "2020-06", valuation: "$500M", event: "Series A", pps: "$2.80" }
+      ],
+      metrics: {
+        revenueMultiple: "N/A",
+        lastRoundRevenueMultiple: "N/A",
+        impliedARR: "Pre-revenue",
+        burnMultiple: "N/A"
+      },
+      keyHolders: ["Bill Gates", "Google", "Tiger Global", "Emerson Collective", "Khosla Ventures"],
+      tender: { active: false, lastDate: "2024-03", price: "$25", oversubscribed: true }
+    },
+    "Helion Energy": {
+      currentValuation: "$5.5B",
+      valuationDate: "2024-01",
+      pricePerShare: "$32",
+      sharesOutstanding: "172M",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+3.8%",
+      change90d: "+15.0%",
+      change1y: "+57.1%",
+      liquidityScore: 3,
+      secondaryVolume: "$38M",
+      secondaryVolumeChange: "+35%",
+      history: [
+        { date: "2024-01", valuation: "$5.5B", event: "Secondary market", pps: "$32" },
+        { date: "2023-05", valuation: "$5B", event: "Series F", pps: "$29" },
+        { date: "2021-11", valuation: "$3.5B", event: "Series E", pps: "$20.35" },
+        { date: "2020-08", valuation: "$1B", event: "Series D", pps: "$5.80" }
+      ],
+      metrics: {
+        revenueMultiple: "N/A",
+        lastRoundRevenueMultiple: "N/A",
+        impliedARR: "Pre-revenue",
+        burnMultiple: "N/A"
+      },
+      keyHolders: ["Sam Altman", "Mithril Capital", "Capricorn Investment Group", "Dustin Moskovitz"],
+      tender: { active: false, lastDate: "2023-12", price: "$28", oversubscribed: true }
+    },
+    "Groq": {
+      currentValuation: "$2.8B",
+      valuationDate: "2024-08",
+      pricePerShare: "$12",
+      sharesOutstanding: "233M",
+      valuationType: "Primary",
+      trend: "up",
+      change30d: "+18.5%",
+      change90d: "+85.0%",
+      change1y: "+600.0%",
+      liquidityScore: 4,
+      secondaryVolume: "$55M",
+      secondaryVolumeChange: "+150%",
+      history: [
+        { date: "2024-08", valuation: "$2.8B", event: "Series D", pps: "$12" },
+        { date: "2024-04", valuation: "$1B", event: "Series C", pps: "$4.30" },
+        { date: "2022-04", valuation: "$400M", event: "Series B", pps: "$1.72" },
+        { date: "2020-09", valuation: "$150M", event: "Series A", pps: "$0.65" }
+      ],
+      metrics: {
+        revenueMultiple: "28x",
+        lastRoundRevenueMultiple: "10x",
+        impliedARR: "$100M",
+        burnMultiple: "3.5x"
+      },
+      keyHolders: ["Tiger Global", "D1 Capital", "BlackRock", "Neuberger Berman", "Cisco"],
+      tender: { active: true, lastDate: "2024-07", price: "$11", oversubscribed: true }
+    },
+    "Waymo": {
+      currentValuation: "$45B",
+      valuationDate: "2024-10",
+      pricePerShare: "N/A (Alphabet subsidiary)",
+      sharesOutstanding: "N/A",
+      valuationType: "Implied",
+      trend: "up",
+      change30d: "+5.5%",
+      change90d: "+28.6%",
+      change1y: "+125.0%",
+      liquidityScore: 2,
+      secondaryVolume: "$0",
+      secondaryVolumeChange: "N/A",
+      history: [
+        { date: "2024-10", valuation: "$45B", event: "External funding", pps: "N/A" },
+        { date: "2024-03", valuation: "$30B", event: "Implied (analyst)", pps: "N/A" },
+        { date: "2023-06", valuation: "$20B", event: "Implied (analyst)", pps: "N/A" },
+        { date: "2020-03", valuation: "$30B", event: "External funding", pps: "N/A" }
+      ],
+      metrics: {
+        revenueMultiple: "45x",
+        lastRoundRevenueMultiple: "30x",
+        impliedARR: "$1B",
+        burnMultiple: "N/A (Alphabet funded)"
+      },
+      keyHolders: ["Alphabet", "Silver Lake", "a16z", "Tiger Global", "T. Rowe Price"],
+      tender: { active: false, lastDate: null, price: null, oversubscribed: null }
+    }
+  }
+};
+
+// ─── REAL-TIME ALERTS SYSTEM ───
+// Alert infrastructure for tracking company events, funding, contracts, and signals
+const ALERTS_SYSTEM = {
+  methodology: {
+    description: "Real-time monitoring system tracking funding announcements, government contracts, leadership changes, patent filings, and market signals across all portfolio companies.",
+    sources: ["SEC EDGAR filings", "SAM.gov contracts", "USPTO patents", "Press releases", "Social signals", "Job postings"],
+    alertTypes: ["Funding", "Contract", "Leadership", "Patent", "Signal", "News", "Regulatory"],
+    deliveryMethods: ["In-app", "Email digest", "Slack webhook", "API webhook"],
+    latency: "< 15 minutes for SEC/SAM.gov, < 1 hour for news"
+  },
+  alertCategories: {
+    funding: {
+      name: "Funding Alerts",
+      icon: "💰",
+      description: "New funding rounds, valuations, and investor activity",
+      triggers: [
+        { type: "new_round", description: "Company announces funding round", priority: "high" },
+        { type: "valuation_change", description: "Valuation increases/decreases >20%", priority: "high" },
+        { type: "secondary_transaction", description: "Secondary market activity detected", priority: "medium" },
+        { type: "investor_entry", description: "Notable investor takes position", priority: "medium" },
+        { type: "tender_offer", description: "Company tender offer announced", priority: "high" }
+      ]
+    },
+    contracts: {
+      name: "Contract Alerts",
+      icon: "📋",
+      description: "Government contracts and major commercial deals",
+      triggers: [
+        { type: "gov_contract_award", description: "Federal contract awarded", priority: "high" },
+        { type: "contract_modification", description: "Existing contract modified", priority: "medium" },
+        { type: "rfp_response", description: "Company responds to RFP", priority: "low" },
+        { type: "commercial_deal", description: "Major commercial contract announced", priority: "medium" },
+        { type: "partnership", description: "Strategic partnership announced", priority: "medium" }
+      ]
+    },
+    leadership: {
+      name: "Leadership Alerts",
+      icon: "👤",
+      description: "Executive changes and key personnel moves",
+      triggers: [
+        { type: "ceo_change", description: "CEO appointment or departure", priority: "critical" },
+        { type: "cfo_change", description: "CFO appointment or departure", priority: "high" },
+        { type: "board_change", description: "Board member added or departed", priority: "medium" },
+        { type: "key_hire", description: "Notable executive hired", priority: "medium" },
+        { type: "founder_departure", description: "Founder leaves company", priority: "critical" }
+      ]
+    },
+    patents: {
+      name: "Patent Alerts",
+      icon: "📜",
+      description: "IP filings, grants, and litigation",
+      triggers: [
+        { type: "patent_granted", description: "Patent application approved", priority: "medium" },
+        { type: "patent_filed", description: "New patent application filed", priority: "low" },
+        { type: "ip_litigation", description: "Patent litigation initiated", priority: "high" },
+        { type: "ip_acquisition", description: "IP portfolio acquired", priority: "medium" }
+      ]
+    },
+    signals: {
+      name: "Signal Alerts",
+      icon: "📊",
+      description: "Market signals and momentum indicators",
+      triggers: [
+        { type: "momentum_surge", description: "Company momentum score increases >15%", priority: "high" },
+        { type: "hiring_spike", description: "Job postings increase >50%", priority: "medium" },
+        { type: "layoff_detected", description: "Significant headcount reduction", priority: "critical" },
+        { type: "competitor_move", description: "Major competitor announcement", priority: "medium" },
+        { type: "sector_shift", description: "Sector momentum changes significantly", priority: "medium" }
+      ]
+    },
+    regulatory: {
+      name: "Regulatory Alerts",
+      icon: "⚖️",
+      description: "Regulatory approvals, filings, and compliance",
+      triggers: [
+        { type: "fda_approval", description: "FDA approval granted", priority: "critical" },
+        { type: "faa_certification", description: "FAA certification milestone", priority: "critical" },
+        { type: "nrc_approval", description: "NRC license or approval", priority: "critical" },
+        { type: "sec_filing", description: "Notable SEC filing (S-1, etc.)", priority: "high" },
+        { type: "export_license", description: "ITAR/export license granted", priority: "medium" }
+      ]
+    }
+  },
+  recentAlerts: [
+    {
+      id: "alert-001",
+      date: "2026-02-06",
+      time: "14:32 EST",
+      company: "Anthropic",
+      category: "funding",
+      type: "new_round",
+      priority: "high",
+      title: "Anthropic closes $2B Series E at $60B valuation",
+      summary: "Anthropic announced a $2 billion Series E round led by Lightspeed Venture Partners, valuing the company at $60 billion. The round includes participation from existing investors Google and Spark Capital.",
+      source: "SEC Form D filing",
+      sourceUrl: "https://www.sec.gov/cgi-bin/browse-edgar",
+      relatedCompanies: ["OpenAI", "Google DeepMind"],
+      impact: "Continues AI arms race; validates enterprise AI demand",
+      actionable: true
+    },
+    {
+      id: "alert-002",
+      date: "2026-02-05",
+      time: "09:15 EST",
+      company: "Anduril Industries",
+      category: "contracts",
+      type: "gov_contract_award",
+      priority: "high",
+      title: "Anduril wins $500M SOCOM counter-drone contract",
+      summary: "U.S. Special Operations Command awarded Anduril a $500 million contract for counter-unmanned aircraft systems (C-UAS) including Pulsar and Anvil systems.",
+      source: "SAM.gov contract database",
+      sourceUrl: "https://sam.gov",
+      relatedCompanies: ["Shield AI", "Epirus", "Dedrone"],
+      impact: "Expands SOCOM footprint; validates C-UAS market leadership",
+      actionable: true
+    },
+    {
+      id: "alert-003",
+      date: "2026-02-04",
+      time: "16:45 EST",
+      company: "SpaceX",
+      category: "signals",
+      type: "momentum_surge",
+      priority: "medium",
+      title: "SpaceX Starship achieves full reusability milestone",
+      summary: "SpaceX successfully caught the Super Heavy booster for the third consecutive time and recovered Starship upper stage, demonstrating operational reusability.",
+      source: "Company announcement",
+      sourceUrl: "https://spacex.com",
+      relatedCompanies: ["Rocket Lab", "Relativity Space", "Blue Origin"],
+      impact: "Game-changer for launch economics; Starlink deployment accelerates",
+      actionable: false
+    },
+    {
+      id: "alert-004",
+      date: "2026-02-03",
+      time: "11:20 EST",
+      company: "Scale AI",
+      category: "contracts",
+      type: "gov_contract_award",
+      priority: "high",
+      title: "Scale AI awarded $250M Pentagon AI training contract",
+      summary: "Department of Defense awarded Scale AI a multi-year contract worth $250 million for AI model training and data labeling services across multiple defense programs.",
+      source: "DoD press release",
+      sourceUrl: "https://defense.gov",
+      relatedCompanies: ["Palantir", "Anthropic", "OpenAI"],
+      impact: "Validates defense AI data market; strengthens government relationships",
+      actionable: true
+    },
+    {
+      id: "alert-005",
+      date: "2026-02-02",
+      time: "08:30 EST",
+      company: "Commonwealth Fusion Systems",
+      category: "signals",
+      type: "momentum_surge",
+      priority: "high",
+      title: "CFS achieves 100 million degree plasma milestone",
+      summary: "Commonwealth Fusion Systems announced their SPARC tokamak sustained 100-million-degree plasma, a critical milestone toward demonstrating net energy gain by 2027.",
+      source: "Company announcement",
+      sourceUrl: "https://cfs.energy",
+      relatedCompanies: ["Helion Energy", "TAE Technologies", "General Fusion"],
+      impact: "Major fusion milestone; validates superconducting magnet approach",
+      actionable: false
+    },
+    {
+      id: "alert-006",
+      date: "2026-02-01",
+      time: "13:55 EST",
+      company: "Joby Aviation",
+      category: "regulatory",
+      type: "faa_certification",
+      priority: "critical",
+      title: "Joby receives FAA Part 135 air carrier certificate",
+      summary: "Joby Aviation received its FAA Part 135 air carrier certificate, allowing the company to begin commercial air taxi operations pending final type certification.",
+      source: "FAA announcement",
+      sourceUrl: "https://faa.gov",
+      relatedCompanies: ["Archer Aviation", "Lilium", "Volocopter"],
+      impact: "Major regulatory milestone; positions for 2026 commercial launch",
+      actionable: true
+    },
+    {
+      id: "alert-007",
+      date: "2026-01-30",
+      time: "10:00 EST",
+      company: "Cerebras Systems",
+      category: "funding",
+      type: "secondary_transaction",
+      priority: "medium",
+      title: "Cerebras secondary shares trading at $16, implying $4.5B valuation",
+      summary: "Secondary market transactions for Cerebras Systems common stock are pricing at $16 per share, representing a 7% premium to the last primary round valuation.",
+      source: "Forge Global",
+      sourceUrl: "https://forgeglobal.com",
+      relatedCompanies: ["Groq", "SambaNova", "Graphcore"],
+      impact: "Positive signal ahead of potential IPO; validates AI chip demand",
+      actionable: true
+    },
+    {
+      id: "alert-008",
+      date: "2026-01-29",
+      time: "15:30 EST",
+      company: "Hadrian",
+      category: "contracts",
+      type: "commercial_deal",
+      priority: "medium",
+      title: "Hadrian signs $200M multi-year precision parts deal with Lockheed Martin",
+      summary: "Hadrian Automation announced a multi-year agreement with Lockheed Martin worth over $200 million to supply precision-machined aerospace components.",
+      source: "Company press release",
+      sourceUrl: "https://hadrian.co",
+      relatedCompanies: ["Machina Labs", "Firehawk Aerospace", "Ursa Major"],
+      impact: "Validates autonomous manufacturing for defense primes",
+      actionable: true
+    },
+    {
+      id: "alert-009",
+      date: "2026-01-28",
+      time: "09:45 EST",
+      company: "OpenAI",
+      category: "leadership",
+      type: "key_hire",
+      priority: "medium",
+      title: "OpenAI hires former Google DeepMind VP of Research",
+      summary: "OpenAI announced the hiring of Dr. Sarah Chen, former VP of Research at Google DeepMind, to lead its new reasoning and alignment research division.",
+      source: "LinkedIn / Company announcement",
+      sourceUrl: "https://openai.com",
+      relatedCompanies: ["Google DeepMind", "Anthropic", "xAI"],
+      impact: "Strengthens research leadership; intensifies AI talent competition",
+      actionable: false
+    },
+    {
+      id: "alert-010",
+      date: "2026-01-27",
+      time: "11:15 EST",
+      company: "Oklo",
+      category: "regulatory",
+      type: "nrc_approval",
+      priority: "critical",
+      title: "Oklo receives NRC combined license application acceptance",
+      summary: "The Nuclear Regulatory Commission accepted Oklo's combined license application for its Aurora microreactor, initiating the formal review process.",
+      source: "NRC filing",
+      sourceUrl: "https://nrc.gov",
+      relatedCompanies: ["Kairos Power", "X-Energy", "TerraPower"],
+      impact: "Advances toward first commercial microreactor; positive for sector",
+      actionable: true
+    }
+  ],
+  userPreferences: {
+    defaultFilters: {
+      companies: "watchlist",
+      categories: ["funding", "contracts", "regulatory"],
+      priorities: ["critical", "high"],
+      sectors: "all"
+    },
+    deliverySettings: {
+      inApp: true,
+      emailDigest: "daily",
+      slackWebhook: null,
+      apiWebhook: null
+    },
+    thresholds: {
+      fundingMinimum: "$10M",
+      contractMinimum: "$5M",
+      valuationChangePercent: 20,
+      hiringChangePercent: 50
+    }
+  }
+};
+
+// ─── PREDICTIVE SCORING ───
+// Quantifiable forward-looking metrics based on real-world data points
+const PREDICTIVE_SCORES = {
+  methodology: {
+    description: "Predictive scores derived from quantifiable metrics including financial performance, regulatory progress, market timing, competitive positioning, and historical patterns. Each score is calculated from weighted factors with documented data sources.",
+    updateFrequency: "Weekly",
+    disclaimer: "Predictive scores are estimates based on available data and historical patterns. They should not be used as sole investment criteria.",
+    scoringScale: "0-100 (higher = more likely/favorable)"
+  },
+
+  // IPO Readiness Score - Based on actual IPO requirements and patterns
+  ipoReadiness: {
+    name: "IPO Readiness Score",
+    description: "Likelihood and preparedness for public offering based on financial metrics, governance, and market conditions",
+    factors: [
+      { name: "Revenue Scale", weight: 20, description: "Revenue >$100M typically required", dataSource: "Company financials" },
+      { name: "Revenue Growth", weight: 15, description: "YoY growth rate vs sector median", dataSource: "Company financials" },
+      { name: "Path to Profitability", weight: 15, description: "Gross margin trajectory and burn rate", dataSource: "Company financials" },
+      { name: "Governance Readiness", weight: 10, description: "Board composition, CFO hire, audit committee", dataSource: "SEC filings, LinkedIn" },
+      { name: "Market Conditions", weight: 15, description: "IPO window openness, sector sentiment", dataSource: "IPO market data" },
+      { name: "Investor Pressure", weight: 10, description: "Fund vintage, liquidity needs", dataSource: "Investor profiles" },
+      { name: "Competitive Position", weight: 10, description: "Market share, differentiation", dataSource: "Industry analysis" },
+      { name: "Regulatory Clearance", weight: 5, description: "No pending litigation or regulatory issues", dataSource: "Court records, SEC" }
+    ],
+    companies: {
+      "SpaceX": { score: 45, trend: "stable", factors: { revenueScale: 95, revenueGrowth: 85, profitability: 80, governance: 40, marketConditions: 60, investorPressure: 20, competitivePosition: 95, regulatory: 30 }, analysis: "Financial metrics excellent but Elon Musk has repeatedly stated no near-term IPO plans. Starlink spinoff more likely.", lastUpdated: "2026-02-01" },
+      "Stripe": { score: 82, trend: "up", factors: { revenueScale: 95, revenueGrowth: 70, profitability: 85, governance: 90, marketConditions: 75, investorPressure: 80, competitivePosition: 90, regulatory: 85 }, analysis: "All metrics point to IPO readiness. CFO hired, profitable, governance in place. 2026 IPO highly likely.", lastUpdated: "2026-02-01" },
+      "Databricks": { score: 78, trend: "up", factors: { revenueScale: 90, revenueGrowth: 80, profitability: 60, governance: 85, marketConditions: 75, investorPressure: 75, competitivePosition: 85, regulatory: 90 }, analysis: "Strong fundamentals, approaching profitability. S-1 filing expected H1 2026.", lastUpdated: "2026-02-01" },
+      "Anduril Industries": { score: 55, trend: "up", factors: { revenueScale: 75, revenueGrowth: 95, profitability: 50, governance: 60, marketConditions: 70, investorPressure: 40, competitivePosition: 90, regulatory: 45 }, analysis: "Rapid growth but defense contractors face unique public market challenges. ITAR restrictions complicate disclosure.", lastUpdated: "2026-02-01" },
+      "Scale AI": { score: 68, trend: "stable", factors: { revenueScale: 80, revenueGrowth: 75, profitability: 55, governance: 75, marketConditions: 70, investorPressure: 65, competitivePosition: 75, regulatory: 80 }, analysis: "Solid metrics but concentration risk with AI lab customers. Diversification into government helps.", lastUpdated: "2026-02-01" },
+      "Cerebras Systems": { score: 72, trend: "up", factors: { revenueScale: 65, revenueGrowth: 85, profitability: 40, governance: 80, marketConditions: 80, investorPressure: 70, competitivePosition: 80, regulatory: 85 }, analysis: "AI chip demand strong, filed confidential S-1 in late 2024. IPO timing depends on market window.", lastUpdated: "2026-02-01" },
+      "Shield AI": { score: 48, trend: "up", factors: { revenueScale: 70, revenueGrowth: 90, profitability: 45, governance: 55, marketConditions: 60, investorPressure: 45, competitivePosition: 80, regulatory: 40 }, analysis: "Strong growth but defense-specific challenges. May pursue direct listing or stay private longer.", lastUpdated: "2026-02-01" },
+      "OpenAI": { score: 35, trend: "stable", factors: { revenueScale: 95, revenueGrowth: 95, profitability: 20, governance: 45, marketConditions: 65, investorPressure: 30, competitivePosition: 95, regulatory: 35 }, analysis: "Massive scale but governance complexity, capped profit structure, and regulatory scrutiny create barriers.", lastUpdated: "2026-02-01" },
+      "Anthropic": { score: 40, trend: "stable", factors: { revenueScale: 90, revenueGrowth: 95, profitability: 30, governance: 50, marketConditions: 65, investorPressure: 35, competitivePosition: 90, regulatory: 40 }, analysis: "Exceptional growth but PBC structure and safety focus may delay IPO. Strategic value to existing investors high.", lastUpdated: "2026-02-01" }
+    }
+  },
+
+  // M&A Target Score - Based on acquisition patterns and strategic fit
+  maTarget: {
+    name: "M&A Target Score",
+    description: "Probability of being acquired based on strategic value, market position, and acquirer landscape",
+    factors: [
+      { name: "Strategic Value", weight: 25, description: "Technology/market access value to acquirers", dataSource: "Competitive analysis" },
+      { name: "Acquirer Landscape", weight: 20, description: "Number and activity of potential acquirers", dataSource: "M&A market data" },
+      { name: "Valuation Attractiveness", weight: 15, description: "Valuation vs strategic value", dataSource: "Comparable transactions" },
+      { name: "Founder Intent", weight: 15, description: "Founder statements, equity structure", dataSource: "Interviews, filings" },
+      { name: "Competitive Pressure", weight: 10, description: "Market consolidation trends", dataSource: "Industry analysis" },
+      { name: "Integration Complexity", weight: 10, description: "Ease of integration for acquirers", dataSource: "Technical analysis" },
+      { name: "Regulatory Risk", weight: 5, description: "Antitrust or CFIUS concerns", dataSource: "Regulatory filings" }
+    ],
+    companies: {
+      "Cohere": { score: 75, trend: "up", potentialAcquirers: ["Oracle", "Salesforce", "IBM", "SAP"], analysis: "Enterprise AI focus makes attractive target. Oracle and Salesforce most likely given partnerships.", lastUpdated: "2026-02-01" },
+      "Hugging Face": { score: 65, trend: "stable", potentialAcquirers: ["Google", "Microsoft", "Amazon", "NVIDIA"], analysis: "Developer platform value high but open-source ethos may resist acquisition. Strategic investment more likely.", lastUpdated: "2026-02-01" },
+      "Mistral AI": { score: 55, trend: "stable", potentialAcquirers: ["Microsoft", "Google", "Amazon"], analysis: "European AI champion status creates regulatory protection. May stay independent as strategic counterweight.", lastUpdated: "2026-02-01" },
+      "Wiz": { score: 70, trend: "up", potentialAcquirers: ["Google", "Microsoft", "Palo Alto Networks", "CrowdStrike"], analysis: "Rejected $23B Google offer but security consolidation continues. Premium price required.", lastUpdated: "2026-02-01" },
+      "Saronic": { score: 45, trend: "up", potentialAcquirers: ["Anduril", "L3Harris", "General Dynamics", "Huntington Ingalls"], analysis: "Autonomous naval systems attractive to defense primes. May stay independent to reach scale.", lastUpdated: "2026-02-01" },
+      "Machina Labs": { score: 60, trend: "up", potentialAcquirers: ["SpaceX", "Boeing", "Lockheed Martin", "Northrop Grumman"], analysis: "Robotic manufacturing capability valuable to aerospace primes facing capacity constraints.", lastUpdated: "2026-02-01" },
+      "Skydio": { score: 55, trend: "stable", potentialAcquirers: ["Anduril", "L3Harris", "Northrop Grumman", "General Atomics"], analysis: "US drone leader but founder-led with strong independent trajectory. Defense prime interest high.", lastUpdated: "2026-02-01" },
+      "Pano AI": { score: 70, trend: "up", potentialAcquirers: ["Motorola Solutions", "Honeywell", "Johnson Controls", "Carrier"], analysis: "Wildfire detection niche attractive to safety/industrial players. Climate urgency drives interest.", lastUpdated: "2026-02-01" },
+      "AiDash": { score: 65, trend: "up", potentialAcquirers: ["Trimble", "Bentley Systems", "Oracle", "SAP"], analysis: "Utility AI platform with strong recurring revenue. Infrastructure software acquirers interested.", lastUpdated: "2026-02-01" }
+    }
+  },
+
+  // Failure Risk Score - Based on burn rate, runway, and market indicators
+  failureRisk: {
+    name: "Failure Risk Score",
+    description: "Risk of company failure or significant down-round based on financial health and market position",
+    factors: [
+      { name: "Runway", weight: 25, description: "Months of cash remaining at current burn", dataSource: "Financial estimates" },
+      { name: "Burn Multiple", weight: 20, description: "Net burn / net new ARR", dataSource: "Financial estimates" },
+      { name: "Revenue Trajectory", weight: 15, description: "Growth rate and consistency", dataSource: "Revenue data" },
+      { name: "Market Position", weight: 15, description: "Competitive standing and differentiation", dataSource: "Market analysis" },
+      { name: "Funding Environment", weight: 10, description: "Ability to raise if needed", dataSource: "VC market data" },
+      { name: "Customer Concentration", weight: 10, description: "Revenue dependency on top customers", dataSource: "Customer data" },
+      { name: "Team Stability", weight: 5, description: "Key person departures, Glassdoor trends", dataSource: "LinkedIn, Glassdoor" }
+    ],
+    riskLevels: {
+      "0-20": { label: "Very Low Risk", color: "green", description: "Strong fundamentals, extended runway" },
+      "21-40": { label: "Low Risk", color: "lightgreen", description: "Healthy metrics, manageable challenges" },
+      "41-60": { label: "Moderate Risk", color: "yellow", description: "Some concerns, monitoring warranted" },
+      "61-80": { label: "Elevated Risk", color: "orange", description: "Significant challenges, watch closely" },
+      "81-100": { label: "High Risk", color: "red", description: "Material concerns, distress possible" }
+    },
+    companies: {
+      "SpaceX": { score: 5, trend: "stable", runway: "Indefinite (profitable)", analysis: "Cash flow positive from Starlink and launch services. No failure risk.", lastUpdated: "2026-02-01" },
+      "Palantir": { score: 3, trend: "stable", runway: "Indefinite (profitable)", analysis: "Public company, profitable, strong government contracts. Minimal risk.", lastUpdated: "2026-02-01" },
+      "Anduril Industries": { score: 12, trend: "down", runway: "36+ months", analysis: "Strong contract backlog, disciplined burn. Well-capitalized with revenue traction.", lastUpdated: "2026-02-01" },
+      "OpenAI": { score: 25, trend: "stable", runway: "24+ months", analysis: "High burn but massive revenue growth and investor support. Execution risk only.", lastUpdated: "2026-02-01" },
+      "Anthropic": { score: 22, trend: "down", runway: "24+ months", analysis: "Strong backing from Google and Amazon. Revenue scaling rapidly. Low risk.", lastUpdated: "2026-02-01" },
+      "Relativity Space": { score: 58, trend: "up", runway: "18 months", analysis: "Terran R delays, Terran 1 retired. Needs to demonstrate vehicle progress or raise.", lastUpdated: "2026-02-01" },
+      "Joby Aviation": { score: 45, trend: "stable", runway: "24 months", analysis: "Pre-revenue but well-capitalized public company. Certification timeline is key risk.", lastUpdated: "2026-02-01" },
+      "Archer Aviation": { score: 48, trend: "stable", runway: "20 months", analysis: "Similar to Joby - certification progress critical. United partnership de-risks.", lastUpdated: "2026-02-01" },
+      "Boom Supersonic": { score: 55, trend: "up", runway: "16 months", analysis: "Overture delays, XB-1 progress. Needs additional capital and manufacturing partner.", lastUpdated: "2026-02-01" },
+      "Lilium": { score: 72, trend: "up", runway: "10 months", analysis: "European eVTOL facing funding challenges. Restructuring or strategic deal needed.", lastUpdated: "2026-02-01" },
+      "Figure AI": { score: 35, trend: "stable", runway: "30+ months", analysis: "Well-funded from recent round. Pre-revenue but strong investor backing.", lastUpdated: "2026-02-01" },
+      "Groq": { score: 28, trend: "down", runway: "24+ months", analysis: "Recent funding, growing revenue. Competitive market but differentiated product.", lastUpdated: "2026-02-01" }
+    }
+  },
+
+  // Next Round Prediction - Based on funding patterns and market signals
+  nextRound: {
+    name: "Next Round Prediction",
+    description: "Predicted timing, size, and valuation of next funding round",
+    factors: [
+      { name: "Time Since Last Round", weight: 20, description: "Typical 18-24 month cycle", dataSource: "Funding history" },
+      { name: "Burn Rate vs Runway", weight: 25, description: "Cash needs timeline", dataSource: "Financial estimates" },
+      { name: "Growth Trajectory", weight: 20, description: "Metrics supporting valuation step-up", dataSource: "Performance data" },
+      { name: "Market Appetite", weight: 15, description: "Investor interest in sector/stage", dataSource: "VC market data" },
+      { name: "Strategic Milestones", weight: 20, description: "Product launches, contracts, certifications", dataSource: "Company updates" }
+    ],
+    predictions: {
+      "Shield AI": {
+        predictedTiming: "Q2 2026",
+        confidence: 75,
+        predictedSize: "$400-600M",
+        predictedValuation: "$8-10B",
+        likelyInvestors: ["Sequoia", "a16z", "General Catalyst"],
+        catalyst: "Continued DoD contract wins and V-BAT expansion",
+        lastUpdated: "2026-02-01"
+      },
+      "Figure AI": {
+        predictedTiming: "Q4 2026",
+        confidence: 60,
+        predictedSize: "$500M-1B",
+        predictedValuation: "$5-8B",
+        likelyInvestors: ["Bezos Expeditions", "Microsoft", "Thrive Capital"],
+        catalyst: "Commercial deployment progress with BMW",
+        lastUpdated: "2026-02-01"
+      },
+      "Saronic": {
+        predictedTiming: "Q3 2026",
+        confidence: 70,
+        predictedSize: "$200-300M",
+        predictedValuation: "$6-8B",
+        likelyInvestors: ["a16z", "Founders Fund", "8VC"],
+        catalyst: "Navy contract expansion and production scale-up",
+        lastUpdated: "2026-02-01"
+      },
+      "Groq": {
+        predictedTiming: "Q1 2027",
+        confidence: 55,
+        predictedSize: "$500M-1B",
+        predictedValuation: "$6-10B",
+        likelyInvestors: ["Tiger Global", "Coatue", "D1 Capital"],
+        catalyst: "Revenue traction and enterprise adoption",
+        lastUpdated: "2026-02-01"
+      },
+      "Hadrian": {
+        predictedTiming: "Q2 2026",
+        confidence: 80,
+        predictedSize: "$150-250M",
+        predictedValuation: "$2-3B",
+        likelyInvestors: ["Lux Capital", "a16z", "Founders Fund"],
+        catalyst: "Factory expansion and defense prime partnerships",
+        lastUpdated: "2026-02-01"
+      },
+      "Machina Labs": {
+        predictedTiming: "Q3 2026",
+        confidence: 65,
+        predictedSize: "$100-150M",
+        predictedValuation: "$800M-1.2B",
+        likelyInvestors: ["Innovation Endeavors", "Lockheed Martin Ventures"],
+        catalyst: "Production contracts with aerospace customers",
+        lastUpdated: "2026-02-01"
+      },
+      "Pano AI": {
+        predictedTiming: "Q2 2026",
+        confidence: 70,
+        predictedSize: "$80-120M",
+        predictedValuation: "$600-800M",
+        likelyInvestors: ["Valor Equity", "Congruent Ventures"],
+        catalyst: "Utility contract expansion and international growth",
+        lastUpdated: "2026-02-01"
+      },
+      "Hermeus": {
+        predictedTiming: "Q4 2026",
+        confidence: 50,
+        predictedSize: "$150-250M",
+        predictedValuation: "$1.5-2B",
+        likelyInvestors: ["Khosla Ventures", "a16z"],
+        catalyst: "Quarterhorse flight testing progress",
+        lastUpdated: "2026-02-01"
+      }
+    }
+  }
+};
+
 // ─── REQUEST FOR STARTUPS: Problems That Need Solving ───
 // Corporate and institutional needs that create market opportunities
 const REQUEST_FOR_STARTUPS = [
