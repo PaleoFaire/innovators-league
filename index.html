@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=18">
+    <link rel="stylesheet" href="styles.css?v=19">
 </head>
 <body>
     <!-- Navigation -->
@@ -358,6 +358,90 @@
                 </select>
             </div>
             <div class="alt-data-grid" id="alt-data-grid"></div>
+        </div>
+    </section>
+
+    <!-- Secondary Market Valuations -->
+    <section class="secondary-market-section" id="secondary-market">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">PRIVATE MARKET INTELLIGENCE</p>
+                <h2>Secondary Market Valuations</h2>
+                <p>Real-time private company valuations from secondary transactions, tender offers, and funding rounds. Track valuation history and investor activity.</p>
+            </div>
+            <div class="metric-methodology-box compact">
+                <p><strong>Data Sources:</strong> Forge Global transactions, EquityZen listings, Carta 409A data, SEC Form D filings, press reports. Updated weekly. Secondary prices may differ from primary valuations due to liquidity preferences.</p>
+            </div>
+            <div class="secondary-controls">
+                <select id="secondary-sort" class="lb-filter-select">
+                    <option value="valuation">Sort: Valuation</option>
+                    <option value="change">Sort: 1Y Change</option>
+                    <option value="liquidity">Sort: Liquidity</option>
+                    <option value="name">Sort: A-Z</option>
+                </select>
+                <div class="secondary-legend">
+                    <span class="trend-indicator up">↑ Trending Up</span>
+                    <span class="trend-indicator down">↓ Trending Down</span>
+                    <span class="trend-indicator stable">→ Stable</span>
+                </div>
+            </div>
+            <div class="secondary-grid" id="secondary-grid"></div>
+        </div>
+    </section>
+
+    <!-- Real-Time Alerts -->
+    <section class="alerts-section" id="alerts-center">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">REAL-TIME INTELLIGENCE</p>
+                <h2>Alerts Center</h2>
+                <p>Live alerts on funding rounds, government contracts, leadership changes, and market signals across your watchlist.</p>
+            </div>
+            <div class="alerts-controls">
+                <div class="alert-filters">
+                    <button class="alert-filter active" data-category="all">All Alerts</button>
+                    <button class="alert-filter" data-category="funding">💰 Funding</button>
+                    <button class="alert-filter" data-category="contracts">📋 Contracts</button>
+                    <button class="alert-filter" data-category="leadership">👤 Leadership</button>
+                    <button class="alert-filter" data-category="regulatory">⚖️ Regulatory</button>
+                    <button class="alert-filter" data-category="signals">📊 Signals</button>
+                </div>
+                <div class="alert-priority-filter">
+                    <label><input type="checkbox" id="critical-only"> Critical & High Priority Only</label>
+                </div>
+            </div>
+            <div class="alerts-feed" id="alerts-feed"></div>
+            <div class="alerts-subscribe">
+                <div class="subscribe-box">
+                    <span class="subscribe-icon">🔔</span>
+                    <div class="subscribe-content">
+                        <strong>Get alerts delivered</strong>
+                        <p>Email digest, Slack integration, or API webhook available for ROS Pro members.</p>
+                    </div>
+                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="subscribe-btn">Enable Alerts →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Predictive Scoring -->
+    <section class="predictive-section" id="predictive-scores">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">FORWARD-LOOKING INTELLIGENCE</p>
+                <h2>Predictive Analytics</h2>
+                <p>Quantifiable forward-looking scores based on documented factors and real-world data. IPO readiness, M&A probability, and risk assessment.</p>
+            </div>
+            <div class="metric-methodology-box compact">
+                <p><strong>Methodology:</strong> Each score is derived from 5-8 weighted factors with documented data sources. Scores are updated weekly and should not be used as sole investment criteria.</p>
+            </div>
+            <div class="predictive-tabs">
+                <button class="predictive-tab active" data-tab="ipo">🔔 IPO Readiness</button>
+                <button class="predictive-tab" data-tab="ma">🎯 M&A Targets</button>
+                <button class="predictive-tab" data-tab="risk">⚠️ Failure Risk</button>
+                <button class="predictive-tab" data-tab="next-round">💰 Next Round</button>
+            </div>
+            <div class="predictive-content" id="predictive-content"></div>
         </div>
     </section>
 

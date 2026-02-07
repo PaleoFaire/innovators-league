@@ -928,6 +928,9 @@ document.addEventListener('DOMContentLoaded', () => {
   initGovContracts();
   initPatentIntel();
   initAltData();
+  initSecondaryMarket();
+  initAlertsCenter();
+  initPredictiveScoring();
   initNetworkGraph();
   initPortfolioBuilder();
   initAIMemo();
@@ -3180,6 +3183,443 @@ function initAltData() {
 
   renderAltData();
   document.getElementById('alt-sort')?.addEventListener('change', renderAltData);
+}
+
+// ═══════════════════════════════════════════════════════
+// SECONDARY MARKET VALUATIONS
+// ═══════════════════════════════════════════════════════
+function initSecondaryMarket() {
+  if (typeof SECONDARY_MARKET_DATA === 'undefined') return;
+
+  const grid = document.getElementById('secondary-grid');
+  if (!grid) return;
+
+  function renderSecondaryMarket() {
+    const sortBy = document.getElementById('secondary-sort')?.value || 'valuation';
+    const companies = Object.entries(SECONDARY_MARKET_DATA.companies);
+
+    // Sort companies
+    companies.sort((a, b) => {
+      const [, dataA] = a;
+      const [, dataB] = b;
+      switch (sortBy) {
+        case 'valuation':
+          return parseFloat(dataB.currentValuation.replace(/[$B]/g, '')) - parseFloat(dataA.currentValuation.replace(/[$B]/g, ''));
+        case 'change':
+          return parseFloat(dataB.change1y) - parseFloat(dataA.change1y);
+        case 'liquidity':
+          return dataB.liquidityScore - dataA.liquidityScore;
+        case 'name':
+          return a[0].localeCompare(b[0]);
+        default:
+          return 0;
+      }
+    });
+
+    grid.innerHTML = companies.map(([name, data]) => {
+      const trendClass = data.trend === 'up' ? 'positive' : data.trend === 'down' ? 'negative' : '';
+      const trendIcon = data.trend === 'up' ? '↑' : data.trend === 'down' ? '↓' : '→';
+
+      // Build mini chart from history
+      const maxVal = Math.max(...data.history.map(h => parseFloat(h.valuation.replace(/[$B]/g, ''))));
+      const chartBars = data.history.slice().reverse().map(h => {
+        const val = parseFloat(h.valuation.replace(/[$B]/g, ''));
+        const height = (val / maxVal) * 100;
+        return `<div class="chart-bar" style="height: ${height}%" data-value="${h.valuation} (${h.date})"></div>`;
+      }).join('');
+
+      // Liquidity dots
+      const liquidityDots = Array(10).fill(0).map((_, i) =>
+        `<div class="liquidity-dot ${i < data.liquidityScore ? 'filled' : ''}"></div>`
+      ).join('');
+
+      // Key holders (show first 3)
+      const holders = (data.keyHolders || []).slice(0, 3).map(h =>
+        `<span class="holder-tag">${h}</span>`
+      ).join('');
+
+      return `
+        <div class="secondary-card">
+          <div class="secondary-header">
+            <div class="secondary-company">${name}</div>
+            <div class="secondary-valuation">
+              <div class="value">${data.currentValuation}</div>
+              <div class="date">${data.valuationType} · ${data.valuationDate}</div>
+            </div>
+          </div>
+
+          <div class="secondary-metrics">
+            <div class="secondary-metric">
+              <div class="label">30D</div>
+              <div class="value ${parseFloat(data.change30d) >= 0 ? 'positive' : 'negative'}">${data.change30d}</div>
+            </div>
+            <div class="secondary-metric">
+              <div class="label">90D</div>
+              <div class="value ${parseFloat(data.change90d) >= 0 ? 'positive' : 'negative'}">${data.change90d}</div>
+            </div>
+            <div class="secondary-metric">
+              <div class="label">1Y</div>
+              <div class="value ${parseFloat(data.change1y) >= 0 ? 'positive' : 'negative'}">${data.change1y}</div>
+            </div>
+            <div class="secondary-metric">
+              <div class="label">Rev Multiple</div>
+              <div class="value">${data.metrics?.revenueMultiple || 'N/A'}</div>
+            </div>
+          </div>
+
+          <div class="secondary-chart">${chartBars}</div>
+
+          <div class="secondary-footer">
+            <div class="secondary-holders">${holders}</div>
+            <div class="liquidity-score">
+              <span>Liquidity:</span>
+              <div class="liquidity-bar">${liquidityDots}</div>
+            </div>
+          </div>
+
+          <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: center;">
+            <span class="tender-badge ${data.tender?.active ? 'active' : 'inactive'}">
+              ${data.tender?.active ? '● Tender Active' : 'No Active Tender'}
+            </span>
+            <span style="font-size: 11px; color: var(--text-muted);">
+              ${data.secondaryVolume ? `Vol: ${data.secondaryVolume}` : ''}
+            </span>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  renderSecondaryMarket();
+  document.getElementById('secondary-sort')?.addEventListener('change', renderSecondaryMarket);
+}
+
+// ═══════════════════════════════════════════════════════
+// REAL-TIME ALERTS CENTER
+// ═══════════════════════════════════════════════════════
+function initAlertsCenter() {
+  if (typeof ALERTS_SYSTEM === 'undefined') return;
+
+  const feed = document.getElementById('alerts-feed');
+  if (!feed) return;
+
+  let currentCategory = 'all';
+  let criticalOnly = false;
+
+  function renderAlerts() {
+    let alerts = ALERTS_SYSTEM.recentAlerts;
+
+    // Filter by category
+    if (currentCategory !== 'all') {
+      alerts = alerts.filter(a => a.category === currentCategory);
+    }
+
+    // Filter by priority
+    if (criticalOnly) {
+      alerts = alerts.filter(a => a.priority === 'critical' || a.priority === 'high');
+    }
+
+    feed.innerHTML = alerts.map(alert => {
+      const categoryIcon = {
+        funding: '💰',
+        contracts: '📋',
+        leadership: '👤',
+        regulatory: '⚖️',
+        signals: '📊',
+        patents: '📜'
+      }[alert.category] || '📌';
+
+      const relatedTags = (alert.relatedCompanies || []).slice(0, 3).map(c =>
+        `<span class="alert-tag">${c}</span>`
+      ).join('');
+
+      return `
+        <div class="alert-item priority-${alert.priority}">
+          <div class="alert-header">
+            <div class="alert-meta">
+              <span class="alert-category ${alert.category}">${categoryIcon} ${alert.category.toUpperCase()}</span>
+              <span class="alert-company">${alert.company}</span>
+            </div>
+            <div class="alert-timestamp">
+              <div>${alert.date}</div>
+              <div>${alert.time}</div>
+            </div>
+          </div>
+
+          <div class="alert-title">${alert.title}</div>
+          <div class="alert-summary">${alert.summary}</div>
+
+          <div class="alert-footer">
+            <div class="alert-tags">${relatedTags}</div>
+            <div class="alert-source">
+              Source: <a href="${alert.sourceUrl}" target="_blank" rel="noopener">${alert.source}</a>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    if (alerts.length === 0) {
+      feed.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-muted);">No alerts match your filters</div>';
+    }
+  }
+
+  // Category filter buttons
+  document.querySelectorAll('.alert-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.alert-filter').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentCategory = btn.dataset.category;
+      renderAlerts();
+    });
+  });
+
+  // Critical only checkbox
+  document.getElementById('critical-only')?.addEventListener('change', (e) => {
+    criticalOnly = e.target.checked;
+    renderAlerts();
+  });
+
+  renderAlerts();
+}
+
+// ═══════════════════════════════════════════════════════
+// PREDICTIVE SCORING
+// ═══════════════════════════════════════════════════════
+function initPredictiveScoring() {
+  if (typeof PREDICTIVE_SCORES === 'undefined') return;
+
+  const content = document.getElementById('predictive-content');
+  if (!content) return;
+
+  let currentTab = 'ipo';
+
+  function getScoreClass(score) {
+    if (score >= 80) return 'very-high';
+    if (score >= 60) return 'high';
+    if (score >= 40) return 'medium';
+    if (score >= 20) return 'low';
+    return 'very-low';
+  }
+
+  function getRiskClass(score) {
+    if (score <= 20) return 'risk-very-low';
+    if (score <= 40) return 'risk-low';
+    if (score <= 60) return 'risk-moderate';
+    if (score <= 80) return 'risk-elevated';
+    return 'risk-high';
+  }
+
+  function renderIPOReadiness() {
+    const companies = Object.entries(PREDICTIVE_SCORES.ipoReadiness.companies)
+      .sort((a, b) => b[1].score - a[1].score);
+
+    return `
+      <div class="predictive-grid">
+        ${companies.map(([name, data]) => {
+          const factors = Object.entries(data.factors).slice(0, 6);
+          return `
+            <div class="predictive-card">
+              <div class="predictive-header">
+                <div class="predictive-company">${name}</div>
+                <div class="predictive-score">
+                  <div class="score-circle ${getScoreClass(data.score)}">${data.score}</div>
+                  <div class="score-trend ${data.trend}">${data.trend === 'up' ? '↑ Rising' : data.trend === 'down' ? '↓ Falling' : '→ Stable'}</div>
+                </div>
+              </div>
+
+              <div class="predictive-factors">
+                ${factors.map(([factor, value]) => `
+                  <div class="factor-row">
+                    <span class="factor-name">${factor.replace(/([A-Z])/g, ' $1').trim()}</span>
+                    <div class="factor-bar"><div class="factor-fill" style="width: ${value}%"></div></div>
+                    <span class="factor-value">${value}</span>
+                  </div>
+                `).join('')}
+              </div>
+
+              <div class="predictive-analysis">${data.analysis}</div>
+
+              <div class="predictive-footer">
+                <span>Updated: ${data.lastUpdated}</span>
+                <span>IPO Readiness Score</span>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
+
+  function renderMATargets() {
+    const companies = Object.entries(PREDICTIVE_SCORES.maTarget.companies)
+      .sort((a, b) => b[1].score - a[1].score);
+
+    return `
+      <div class="predictive-grid">
+        ${companies.map(([name, data]) => {
+          const acquirers = (data.potentialAcquirers || []).map(a =>
+            `<span class="acquirer-tag">${a}</span>`
+          ).join('');
+
+          return `
+            <div class="predictive-card">
+              <div class="predictive-header">
+                <div class="predictive-company">${name}</div>
+                <div class="predictive-score">
+                  <div class="score-circle ${getScoreClass(data.score)}">${data.score}</div>
+                  <div class="score-trend ${data.trend}">${data.trend === 'up' ? '↑ Rising' : data.trend === 'down' ? '↓ Falling' : '→ Stable'}</div>
+                </div>
+              </div>
+
+              <div style="margin-bottom: 16px;">
+                <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 8px;">Potential Acquirers:</div>
+                <div class="acquirer-list">${acquirers}</div>
+              </div>
+
+              <div class="predictive-analysis">${data.analysis}</div>
+
+              <div class="predictive-footer">
+                <span>Updated: ${data.lastUpdated}</span>
+                <span>M&A Target Score</span>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
+
+  function renderFailureRisk() {
+    const companies = Object.entries(PREDICTIVE_SCORES.failureRisk.companies)
+      .sort((a, b) => b[1].score - a[1].score);
+
+    return `
+      <div class="predictive-grid">
+        ${companies.map(([name, data]) => {
+          const riskLevel = data.score <= 20 ? 'Very Low' :
+                           data.score <= 40 ? 'Low' :
+                           data.score <= 60 ? 'Moderate' :
+                           data.score <= 80 ? 'Elevated' : 'High';
+
+          return `
+            <div class="predictive-card">
+              <div class="predictive-header">
+                <div class="predictive-company">${name}</div>
+                <div class="predictive-score">
+                  <div class="score-circle ${getScoreClass(100 - data.score)}">${data.score}</div>
+                  <div class="score-trend ${data.trend === 'up' ? 'down' : data.trend === 'down' ? 'up' : 'stable'}">
+                    ${data.trend === 'up' ? '↑ Increasing' : data.trend === 'down' ? '↓ Decreasing' : '→ Stable'}
+                  </div>
+                </div>
+              </div>
+
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; padding: 12px; background: var(--bg-tertiary); border-radius: var(--radius-sm);">
+                <div>
+                  <div style="font-size: 11px; color: var(--text-muted);">RISK LEVEL</div>
+                  <div class="${getRiskClass(data.score)}" style="font-size: 16px; font-weight: 600;">${riskLevel}</div>
+                </div>
+                <div style="text-align: right;">
+                  <div style="font-size: 11px; color: var(--text-muted);">RUNWAY</div>
+                  <div style="font-size: 16px; font-weight: 600; color: var(--text-primary);">${data.runway}</div>
+                </div>
+              </div>
+
+              <div class="predictive-analysis">${data.analysis}</div>
+
+              <div class="predictive-footer">
+                <span>Updated: ${data.lastUpdated}</span>
+                <span>Failure Risk Score</span>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
+
+  function renderNextRound() {
+    const predictions = Object.entries(PREDICTIVE_SCORES.nextRound.predictions)
+      .sort((a, b) => b[1].confidence - a[1].confidence);
+
+    return `
+      <div class="predictive-grid">
+        ${predictions.map(([name, data]) => {
+          const confClass = data.confidence >= 70 ? 'high' : data.confidence >= 50 ? 'medium' : 'low';
+          const investors = (data.likelyInvestors || []).slice(0, 3).map(i =>
+            `<span class="holder-tag">${i}</span>`
+          ).join('');
+
+          return `
+            <div class="predictive-card">
+              <div class="predictive-header">
+                <div class="predictive-company">${name}</div>
+                <div class="predictive-score">
+                  <span class="confidence-badge ${confClass}">${data.confidence}% Confidence</span>
+                </div>
+              </div>
+
+              <div class="prediction-highlight">
+                <div class="prediction-item">
+                  <div class="label">Timing</div>
+                  <div class="value">${data.predictedTiming}</div>
+                </div>
+                <div class="prediction-item">
+                  <div class="label">Size</div>
+                  <div class="value">${data.predictedSize}</div>
+                </div>
+                <div class="prediction-item">
+                  <div class="label">Valuation</div>
+                  <div class="value">${data.predictedValuation}</div>
+                </div>
+              </div>
+
+              <div style="margin-bottom: 16px;">
+                <div style="font-size: 12px; color: var(--text-muted); margin-bottom: 8px;">Likely Investors:</div>
+                <div class="secondary-holders">${investors}</div>
+              </div>
+
+              <div class="predictive-analysis"><strong>Catalyst:</strong> ${data.catalyst}</div>
+
+              <div class="predictive-footer">
+                <span>Updated: ${data.lastUpdated}</span>
+                <span>Next Round Prediction</span>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
+
+  function renderTab() {
+    switch (currentTab) {
+      case 'ipo':
+        content.innerHTML = renderIPOReadiness();
+        break;
+      case 'ma':
+        content.innerHTML = renderMATargets();
+        break;
+      case 'risk':
+        content.innerHTML = renderFailureRisk();
+        break;
+      case 'next-round':
+        content.innerHTML = renderNextRound();
+        break;
+    }
+  }
+
+  // Tab switching
+  document.querySelectorAll('.predictive-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.predictive-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      currentTab = tab.dataset.tab;
+      renderTab();
+    });
+  });
+
+  renderTab();
 }
 
 // ═══════════════════════════════════════════════════════
