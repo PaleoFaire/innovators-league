@@ -87,7 +87,7 @@ const COMPANIES = [
     },
     recentEvent: { type: "valuation", text: "Secondary market valuation reaches $78B+, will 'definitely' go public", date: "2026-01" },
     tbpnMentioned: true,
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Shield AI",
@@ -113,7 +113,7 @@ const COMPANIES = [
       risks: ["High capital requirements", "Defense prime competition", "Regulatory approvals timeline"]
     },
     recentEvent: { type: "funding", text: "Series F-1 extended to $540M at $5.6B valuation", date: "2025-09" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Epirus",
@@ -134,7 +134,7 @@ const COMPANIES = [
     scores: { team: 8, traction: 8, techMoat: 9, market: 9, momentum: 9 },
     competitors: [],
     recentEvent: { type: "funding", text: "Total funding exceeds $550M for directed energy weapons production", date: "2026-01" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Saronic",
@@ -155,7 +155,7 @@ const COMPANIES = [
     scores: { team: 8, traction: 9, techMoat: 8, market: 9, momentum: 10 },
     competitors: [],
     recentEvent: { type: "funding", text: "Raised $600M+ at $4B valuation for autonomous naval vessel production", date: "2025-12" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Neros",
@@ -251,7 +251,7 @@ const COMPANIES = [
     scores: { team: 8, traction: 8, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Anduril Industries"],
     recentEvent: { type: "milestone", text: "Expanding defense and law enforcement contracts", date: "2025-08" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Allen Control Systems",
@@ -376,7 +376,7 @@ const COMPANIES = [
     competitors: ["Oklo", "NuScale"],
     recentEvent: { type: "funding", text: "$300M Series D for DOE Reactor Pilot Program", date: "2025-06" },
     tbpnMentioned: true,
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Aalo Atomics",
@@ -472,7 +472,7 @@ const COMPANIES = [
     scores: { team: 8, traction: 7, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Radiant", "NuScale"],
     recentEvent: { type: "partnership", text: "Meta partnership for Pike County nuclear campus", date: "2025-09" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Last Energy",
@@ -566,7 +566,7 @@ const COMPANIES = [
     },
     recentEvent: { type: "milestone", text: "Preparing for IPO at $1.5T valuation", date: "2025-12" },
     tbpnMentioned: true,
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Rocket Lab",
@@ -587,7 +587,7 @@ const COMPANIES = [
     scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 9 },
     competitors: ["SpaceX"],
     recentEvent: { type: "milestone", text: "Market cap tripled to $37B, SDA contract won", date: "2025-10" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Apex Space",
@@ -668,7 +668,7 @@ const COMPANIES = [
     scores: { team: 7, traction: 5, techMoat: 8, market: 8, momentum: 6 },
     competitors: ["SpaceX", "Rocket Lab"],
     recentEvent: { type: "milestone", text: "Eric Schmidt becomes CEO, pivots to space data centers", date: "2025-06" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Impulse Space",
@@ -749,7 +749,7 @@ const COMPANIES = [
     scores: { team: 8, traction: 7, techMoat: 7, market: 8, momentum: 7 },
     competitors: [],
     recentEvent: { type: "milestone", text: "Expanding MicroGEO constellation deployment", date: "2025-07" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Observable Space",
@@ -822,7 +822,7 @@ const COMPANIES = [
       risks: ["Certification risk", "Noise regulations", "Fuel economics", "Route restrictions"]
     },
     recentEvent: { type: "milestone", text: "XB-1 test flights progressing toward Overture design validation", date: "2025-09" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Hermeus",
@@ -843,7 +843,7 @@ const COMPANIES = [
     scores: { team: 8, traction: 7, techMoat: 9, market: 8, momentum: 8 },
     competitors: ["Boom Supersonic"],
     recentEvent: { type: "milestone", text: "First Quarterhorse test jet flew successfully", date: "2025-05" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Astro Mechanica",
@@ -1011,7 +1011,7 @@ const COMPANIES = [
       risks: ["Extreme valuation multiple", "Commercial customer churn", "Hyperscaler competition", "Political risk in government contracts"]
     },
     recentEvent: { type: "milestone", text: "Market cap surges past $400B driven by AIP platform and defense AI dominance", date: "2026-02" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Cognition",
@@ -1055,7 +1055,7 @@ const COMPANIES = [
     scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 9 },
     competitors: ["Machina Labs"],
     recentEvent: { type: "funding", text: "$260M Series C for Mesa AZ expansion", date: "2025-08" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Machina Labs",
@@ -1077,7 +1077,7 @@ const COMPANIES = [
     competitors: ["Hadrian"],
     recentEvent: { type: "partnership", text: "Toyota partnership for auto body panel manufacturing", date: "2025-07" },
     tbpnMentioned: true,
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "Formic",
@@ -1362,7 +1362,7 @@ const COMPANIES = [
       risks: ["Physics risk", "Timeline risk", "Capital intensity", "Regulatory pathway for fusion"]
     },
     recentEvent: { type: "milestone", text: "Advancing toward 2028 power generation target", date: "2025-10" },
-    addedDate: "2024-06"
+    addedDate: "2026-02"
   },
   {
     name: "TAE Technologies",
