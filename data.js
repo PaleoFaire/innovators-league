@@ -14648,16 +14648,16 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-07 13:56
+// Last updated: 2026-02-07 17:01
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Starlink", headline: "Moltbook, the Social Network for AI Agents, Exposed Real Humans' Data", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Cerebras", headline: "Benchmark raises $225M in special funds to double down on Cerebras", source: "TechCrunch", time: "8h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "From Svedka to Anthropic, brands make bold plays with AI in Super Bowl ads", source: "TechCrunch", time: "15h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "How Elon Musk is rewriting the rules on founder power", source: "TechCrunch", time: "19h ago", impact: "high", unread: true },
-  { id: 5, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "20h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "The Only Thing Standing Between Humanity and AI Apocalypse Is ' Claude?", source: "Wired", time: "21h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "23h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "The backlash over OpenAI's decision to retire GPT-4o shows how dangerous AI companions can be", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Starlink", headline: "Moltbook, the Social Network for AI Agents, Exposed Real Humans' Data", source: "Wired", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Cerebras", headline: "Benchmark raises $225M in special funds to double down on Cerebras", source: "TechCrunch", time: "11h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "From Svedka to Anthropic, brands make bold plays with AI in Super Bowl ads", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "How Elon Musk is rewriting the rules on founder power", source: "TechCrunch", time: "22h ago", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "23h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Anthropic", headline: "The Only Thing Standing Between Humanity and AI Apocalypse Is ' Claude?", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "The backlash over OpenAI's decision to retire GPT-4o shows how dangerous AI companions can be", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "milestone", company: "Waymo", headline: "Waymo Hits a Rough Patch In Washington, DC", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "ipo", company: "SpaceX", headline: "FAA approves Starship launches from LC-39A", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
