@@ -928,8 +928,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initGovContracts();
   initPatentIntel();
   initAltData();
-  initSecondaryMarket();
   initAlertsCenter();
+  initIntelligenceHub();
   initPredictiveScoring();
   initNetworkGraph();
   initPortfolioBuilder();
@@ -1935,6 +1935,27 @@ function initLeaderboard() {
   ['lb-sort', 'lb-stage', 'lb-sector', 'lb-count'].forEach(id => {
     const el = document.getElementById(id);
     if (el) el.addEventListener('change', renderLeaderboard);
+  });
+
+  // Ranking tab switching
+  const rankingTabs = document.querySelectorAll('.ranking-tab');
+  const valuationView = document.getElementById('valuation-view');
+  const efficiencyView = document.getElementById('efficiency-view');
+
+  rankingTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      rankingTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      const ranking = tab.dataset.ranking;
+      if (ranking === 'valuation') {
+        if (valuationView) valuationView.style.display = 'block';
+        if (efficiencyView) efficiencyView.style.display = 'none';
+      } else {
+        if (valuationView) valuationView.style.display = 'none';
+        if (efficiencyView) efficiencyView.style.display = 'block';
+      }
+    });
   });
 
   renderLeaderboard();
@@ -3186,115 +3207,6 @@ function initAltData() {
 }
 
 // ═══════════════════════════════════════════════════════
-// SECONDARY MARKET VALUATIONS
-// ═══════════════════════════════════════════════════════
-function initSecondaryMarket() {
-  if (typeof SECONDARY_MARKET_DATA === 'undefined') return;
-
-  const grid = document.getElementById('secondary-grid');
-  if (!grid) return;
-
-  function renderSecondaryMarket() {
-    const sortBy = document.getElementById('secondary-sort')?.value || 'valuation';
-    const companies = Object.entries(SECONDARY_MARKET_DATA.companies);
-
-    // Sort companies
-    companies.sort((a, b) => {
-      const [, dataA] = a;
-      const [, dataB] = b;
-      switch (sortBy) {
-        case 'valuation':
-          return parseFloat(dataB.currentValuation.replace(/[$B]/g, '')) - parseFloat(dataA.currentValuation.replace(/[$B]/g, ''));
-        case 'change':
-          return parseFloat(dataB.change1y) - parseFloat(dataA.change1y);
-        case 'liquidity':
-          return dataB.liquidityScore - dataA.liquidityScore;
-        case 'name':
-          return a[0].localeCompare(b[0]);
-        default:
-          return 0;
-      }
-    });
-
-    grid.innerHTML = companies.map(([name, data]) => {
-      const trendClass = data.trend === 'up' ? 'positive' : data.trend === 'down' ? 'negative' : '';
-      const trendIcon = data.trend === 'up' ? '↑' : data.trend === 'down' ? '↓' : '→';
-
-      // Build mini chart from history
-      const maxVal = Math.max(...data.history.map(h => parseFloat(h.valuation.replace(/[$B]/g, ''))));
-      const chartBars = data.history.slice().reverse().map(h => {
-        const val = parseFloat(h.valuation.replace(/[$B]/g, ''));
-        const height = (val / maxVal) * 100;
-        return `<div class="chart-bar" style="height: ${height}%" data-value="${h.valuation} (${h.date})"></div>`;
-      }).join('');
-
-      // Liquidity dots
-      const liquidityDots = Array(10).fill(0).map((_, i) =>
-        `<div class="liquidity-dot ${i < data.liquidityScore ? 'filled' : ''}"></div>`
-      ).join('');
-
-      // Key holders (show first 3)
-      const holders = (data.keyHolders || []).slice(0, 3).map(h =>
-        `<span class="holder-tag">${h}</span>`
-      ).join('');
-
-      return `
-        <div class="secondary-card">
-          <div class="secondary-header">
-            <div class="secondary-company">${name}</div>
-            <div class="secondary-valuation">
-              <div class="value">${data.currentValuation}</div>
-              <div class="date">${data.valuationType} · ${data.valuationDate}</div>
-            </div>
-          </div>
-
-          <div class="secondary-metrics">
-            <div class="secondary-metric">
-              <div class="label">30D</div>
-              <div class="value ${parseFloat(data.change30d) >= 0 ? 'positive' : 'negative'}">${data.change30d}</div>
-            </div>
-            <div class="secondary-metric">
-              <div class="label">90D</div>
-              <div class="value ${parseFloat(data.change90d) >= 0 ? 'positive' : 'negative'}">${data.change90d}</div>
-            </div>
-            <div class="secondary-metric">
-              <div class="label">1Y</div>
-              <div class="value ${parseFloat(data.change1y) >= 0 ? 'positive' : 'negative'}">${data.change1y}</div>
-            </div>
-            <div class="secondary-metric">
-              <div class="label">Rev Multiple</div>
-              <div class="value">${data.metrics?.revenueMultiple || 'N/A'}</div>
-            </div>
-          </div>
-
-          <div class="secondary-chart">${chartBars}</div>
-
-          <div class="secondary-footer">
-            <div class="secondary-holders">${holders}</div>
-            <div class="liquidity-score">
-              <span>Liquidity:</span>
-              <div class="liquidity-bar">${liquidityDots}</div>
-            </div>
-          </div>
-
-          <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: center;">
-            <span class="tender-badge ${data.tender?.active ? 'active' : 'inactive'}">
-              ${data.tender?.active ? '● Tender Active' : 'No Active Tender'}
-            </span>
-            <span style="font-size: 11px; color: var(--text-muted);">
-              ${data.secondaryVolume ? `Vol: ${data.secondaryVolume}` : ''}
-            </span>
-          </div>
-        </div>
-      `;
-    }).join('');
-  }
-
-  renderSecondaryMarket();
-  document.getElementById('secondary-sort')?.addEventListener('change', renderSecondaryMarket);
-}
-
-// ═══════════════════════════════════════════════════════
 // REAL-TIME ALERTS CENTER
 // ═══════════════════════════════════════════════════════
 function initAlertsCenter() {
@@ -3381,6 +3293,32 @@ function initAlertsCenter() {
   });
 
   renderAlerts();
+}
+
+// ═══════════════════════════════════════════════════════
+// INTELLIGENCE HUB (Tab Switching)
+// ═══════════════════════════════════════════════════════
+function initIntelligenceHub() {
+  const tabs = document.querySelectorAll('.intel-hub-tab');
+  const alertsPanel = document.getElementById('intel-alerts-panel');
+  const signalsPanel = document.getElementById('intel-signals-panel');
+  const newsPanel = document.getElementById('intel-news-panel');
+
+  if (!tabs.length) return;
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      // Update active state
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      // Show/hide panels
+      const intel = tab.dataset.intel;
+      if (alertsPanel) alertsPanel.style.display = intel === 'alerts' ? 'block' : 'none';
+      if (signalsPanel) signalsPanel.style.display = intel === 'signals' ? 'block' : 'none';
+      if (newsPanel) newsPanel.style.display = intel === 'news' ? 'block' : 'none';
+    });
+  });
 }
 
 // ═══════════════════════════════════════════════════════
@@ -4639,20 +4577,21 @@ function initAIQuery() {
 function initInnovator50() {
   if (typeof INNOVATOR_50 === 'undefined' || typeof INNOVATOR_50_META === 'undefined') return;
 
-  const grid = document.getElementById('innovator50-grid');
-  if (!grid) return;
+  const previewGrid = document.getElementById('innovator50-preview');
+  const fullGrid = document.getElementById('innovator50-grid');
+  if (!previewGrid && !fullGrid) return;
 
-  // Accordion toggle functionality
+  // Expand/collapse toggle
   const toggleBtn = document.getElementById('i50-toggle');
   const content = document.getElementById('i50-content');
-  const expandText = toggleBtn?.querySelector('.i50-expand-text');
+  const expandText = document.getElementById('i50-expand-text');
   const chevron = toggleBtn?.querySelector('.i50-chevron');
 
   if (toggleBtn && content) {
     toggleBtn.addEventListener('click', () => {
       const isExpanded = content.style.display !== 'none';
       content.style.display = isExpanded ? 'none' : 'block';
-      if (expandText) expandText.textContent = isExpanded ? 'View Full Ranking' : 'Collapse';
+      if (expandText) expandText.textContent = isExpanded ? 'View Full Top 50' : 'Show Less';
       if (chevron) chevron.style.transform = isExpanded ? '' : 'rotate(180deg)';
       toggleBtn.classList.toggle('expanded', !isExpanded);
     });
@@ -4670,6 +4609,44 @@ function initInnovator50() {
     });
   }
 
+  function renderI50Card(item) {
+    const company = COMPANIES.find(c => c.name === item.company);
+    const sectorInfo = SECTORS[item.category] || { icon: '📦', color: '#6b7280' };
+    const rankClass = item.rank === 1 ? 'gold' : item.rank === 2 ? 'silver' : item.rank === 3 ? 'bronze' : '';
+    const rankDisplay = item.rank <= 3 ? ['🥇', '🥈', '🥉'][item.rank - 1] : `#${item.rank}`;
+    const valuation = company?.valuation || '';
+
+    // Movement indicator
+    let movement = '';
+    if (item.yoyChange === 'new') movement = '<span class="i50-movement new">NEW</span>';
+    else if (item.yoyChange === 'up') movement = '<span class="i50-movement up">↑</span>';
+    else if (item.yoyChange === 'down') movement = '<span class="i50-movement down">↓</span>';
+
+    const badges = (item.badges || []).map(b => `<span class="i50-badge">${b}</span>`).join('');
+
+    return `
+      <div class="i50-card ${rankClass}" onclick="openCompanyModal('${item.company.replace(/'/g, "\\'")}')">
+        <div class="i50-rank-section">
+          <div class="i50-rank ${rankClass}">${rankDisplay}</div>
+          ${movement}
+        </div>
+        <div class="i50-content">
+          <div class="i50-header">
+            <div class="i50-company-name">${item.company}</div>
+            <div class="i50-category" style="color: ${sectorInfo.color}">${sectorInfo.icon} ${item.category}</div>
+          </div>
+          <div class="i50-badges">${badges}</div>
+          <ul class="i50-highlights">
+            ${item.highlights.slice(0, 2).map(h => `<li>${h}</li>`).join('')}
+          </ul>
+          <div class="i50-footer">
+            ${valuation ? `<span class="i50-valuation">${valuation}</span>` : ''}
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
   function renderInnovator50() {
     const selectedCategory = document.getElementById('i50-category')?.value || 'all';
 
@@ -4678,121 +4655,21 @@ function initInnovator50() {
       items = items.filter(i => i.category === selectedCategory);
     }
 
-    grid.innerHTML = items.map((item, i) => {
-      const company = COMPANIES.find(c => c.name === item.company);
-      const sectorInfo = SECTORS[item.category] || { icon: '📦', color: '#6b7280' };
+    // Render preview (top 10)
+    if (previewGrid) {
+      const previewItems = items.slice(0, 10);
+      previewGrid.innerHTML = previewItems.map(item => renderI50Card(item)).join('');
+    }
 
-      // Rank styling
-      const rankClass = item.rank === 1 ? 'gold' : item.rank === 2 ? 'silver' : item.rank === 3 ? 'bronze' : '';
-      const rankDisplay = item.rank <= 3 ? ['🥇', '🥈', '🥉'][item.rank - 1] : `#${item.rank}`;
-
-      // Get historical movement from data
-      let movement = '';
-      let historyTooltip = '';
-      if (typeof INNOVATOR_50_HISTORY !== 'undefined') {
-        const history2024 = INNOVATOR_50_HISTORY[2024]?.rankings[item.company];
-        const history2023 = INNOVATOR_50_HISTORY[2023]?.rankings[item.company];
-
-        if (history2024 === null || history2024 === undefined) {
-          // New in 2025
-          movement = '<span class="i50-movement new" title="New to the list in 2025">NEW</span>';
-          historyTooltip = 'First appearance';
-        } else {
-          const change = history2024 - item.rank;
-          if (change > 0) {
-            movement = `<span class="i50-movement up" title="Up ${change} from #${history2024} in 2024">↑${change}</span>`;
-          } else if (change < 0) {
-            movement = `<span class="i50-movement down" title="Down ${Math.abs(change)} from #${history2024} in 2024">↓${Math.abs(change)}</span>`;
-          } else {
-            movement = `<span class="i50-movement same" title="Unchanged from 2024">—</span>`;
-          }
-
-          // Build history tooltip
-          const historyParts = [];
-          if (history2024) historyParts.push(`2024: #${history2024}`);
-          if (history2023) historyParts.push(`2023: #${history2023}`);
-          historyTooltip = historyParts.length > 0 ? historyParts.join(' | ') : '';
-        }
-      } else {
-        // Fallback to static yoyChange if no history data
-        if (item.yoyChange === 'new') movement = '<span class="i50-movement new">NEW</span>';
-        else if (item.yoyChange === 'up') movement = '<span class="i50-movement up">↑</span>';
-        else if (item.yoyChange === 'down') movement = '<span class="i50-movement down">↓</span>';
-        else if (typeof item.yoyChange === 'number') {
-          const dir = item.yoyChange > 0 ? 'up' : 'down';
-          movement = `<span class="i50-movement ${dir}">${item.yoyChange > 0 ? '+' : ''}${item.yoyChange}</span>`;
-        }
-      }
-
-      // Build historical ranking sparkline
-      let historySparkline = '';
-      if (typeof INNOVATOR_50_HISTORY !== 'undefined') {
-        const h2023 = INNOVATOR_50_HISTORY[2023]?.rankings[item.company];
-        const h2024 = INNOVATOR_50_HISTORY[2024]?.rankings[item.company];
-        const h2025 = item.rank;
-
-        const points = [];
-        if (h2023) points.push({ year: 2023, rank: h2023 });
-        if (h2024) points.push({ year: 2024, rank: h2024 });
-        points.push({ year: 2025, rank: h2025 });
-
-        if (points.length >= 2) {
-          historySparkline = `
-            <div class="i50-history" title="${historyTooltip}">
-              <span class="i50-history-label">History:</span>
-              ${points.map((p, idx) => {
-                const prev = points[idx - 1];
-                let arrow = '';
-                let color = '#6b7280';
-                if (prev) {
-                  if (p.rank < prev.rank) { arrow = '↑'; color = '#22c55e'; }
-                  else if (p.rank > prev.rank) { arrow = '↓'; color = '#ef4444'; }
-                  else { arrow = '→'; color = '#6b7280'; }
-                }
-                return `<span class="i50-history-point" style="color: ${color};">${arrow}${p.year.toString().slice(2)}: #${p.rank}</span>`;
-              }).join('')}
-            </div>
-          `;
-        }
-      }
-
-      // Badges
-      const badges = (item.badges || []).map(b =>
-        `<span class="i50-badge">${b}</span>`
-      ).join('');
-
-      // Valuation from main company data
-      const valuation = company?.valuation || '';
-
-      return `
-        <div class="i50-card ${rankClass}" onclick="openCompanyModal('${item.company.replace(/'/g, "\\'")}')">
-          <div class="i50-rank-section">
-            <div class="i50-rank ${rankClass}">${rankDisplay}</div>
-            ${movement}
-          </div>
-          <div class="i50-content">
-            <div class="i50-header">
-              <div class="i50-company-name">${item.company}</div>
-              <div class="i50-category" style="color: ${sectorInfo.color}">${sectorInfo.icon} ${item.category}</div>
-            </div>
-            ${historySparkline}
-            <div class="i50-badges">${badges}</div>
-            <ul class="i50-highlights">
-              ${item.highlights.map(h => `<li>${h}</li>`).join('')}
-            </ul>
-            <div class="i50-thesis">${item.thesis}</div>
-            <div class="i50-footer">
-              ${valuation ? `<span class="i50-valuation">${valuation}</span>` : ''}
-              <button class="i50-share-single" onclick="event.stopPropagation(); shareInnovator50Entry(${item.rank}, '${item.company.replace(/'/g, "\\'")}')">Share</button>
-            </div>
-          </div>
-        </div>
-      `;
-    }).join('');
+    // Render full grid (11-50, since preview shows 1-10)
+    if (fullGrid) {
+      const remainingItems = items.slice(10);
+      fullGrid.innerHTML = remainingItems.map(item => renderI50Card(item)).join('');
+    }
 
     // Add animation delays
     document.querySelectorAll('.i50-card').forEach((card, i) => {
-      card.style.animationDelay = `${i * 0.05}s`;
+      card.style.animationDelay = `${i * 0.03}s`;
     });
   }
 

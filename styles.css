@@ -3018,14 +3018,92 @@ body {
 
 /* ─── ROS INNOVATOR 50 ─── */
 .innovator50-section {
-  padding: 64px 0;
+  padding: 80px 0;
   background: linear-gradient(180deg,
-    rgba(255, 215, 0, 0.08) 0%,
-    rgba(255, 107, 44, 0.04) 50%,
+    rgba(255, 215, 0, 0.1) 0%,
+    rgba(255, 107, 44, 0.05) 50%,
     transparent 100%);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
   position: relative;
   overflow: hidden;
+}
+
+/* Enhanced Hero Header */
+.innovator50-hero {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.innovator50-hero .innovator50-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #000;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.innovator50-hero .innovator50-title {
+  font-size: 42px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #FFD700, #FF6B2C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+
+.innovator50-hero .innovator50-subtitle {
+  font-size: 15px;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Preview Grid (Top 10) */
+.innovator50-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+/* Expand Button */
+.i50-expand-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 16px;
+  background: var(--bg-card);
+  border: 2px dashed rgba(255, 215, 0, 0.3);
+  border-radius: var(--radius);
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 24px;
+}
+
+.i50-expand-btn:hover {
+  background: rgba(255, 215, 0, 0.1);
+  border-color: rgba(255, 215, 0, 0.5);
+}
+
+.i50-expand-btn.expanded .i50-chevron {
+  transform: rotate(180deg);
+}
+
+/* Full Grid (11-50) */
+.innovator50-full {
+  animation: fadeIn 0.3s ease;
 }
 
 .innovator50-section::before {
@@ -3885,6 +3963,59 @@ body {
   padding: 48px 0;
   background: linear-gradient(180deg, rgba(255, 107, 44, 0.03) 0%, transparent 100%);
   border-bottom: 1px solid var(--border);
+}
+
+/* Ranking Tabs for consolidated leaderboard */
+.ranking-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.ranking-tab {
+  background: transparent;
+  border: none;
+  padding: 12px 24px;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  position: relative;
+  transition: color 0.2s;
+}
+
+.ranking-tab:hover {
+  color: var(--text-secondary);
+}
+
+.ranking-tab.active {
+  color: var(--accent);
+}
+
+.ranking-tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+}
+
+.ranking-view {
+  animation: fadeIn 0.2s ease;
+}
+
+.efficiency-explainer {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--accent);
 }
 
 .leaderboard-controls {
@@ -9494,6 +9625,69 @@ body {
    ALERTS CENTER SECTION
    ═══════════════════════════════════════════════════════════════════════════ */
 
+/* ═══════════════════════════════════════════════════════
+   INTELLIGENCE HUB (Consolidated Alerts/Signals/News)
+   ═══════════════════════════════════════════════════════ */
+.intelligence-hub-section {
+  padding: 80px 0;
+  background: var(--bg-secondary);
+}
+
+.intel-hub-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+  border-bottom: 2px solid var(--border);
+}
+
+.intel-hub-tab {
+  background: transparent;
+  border: none;
+  padding: 14px 28px;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.intel-hub-tab:hover {
+  color: var(--text-secondary);
+  background: rgba(255, 107, 44, 0.05);
+}
+
+.intel-hub-tab.active {
+  color: var(--accent);
+  background: rgba(255, 107, 44, 0.08);
+}
+
+.intel-hub-tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+}
+
+.intel-hub-panel {
+  animation: fadeIn 0.2s ease;
+}
+
+.panel-explainer {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--accent);
+}
+
+/* Keep existing alerts styles */
 .alerts-section {
   padding: 80px 0;
   background: var(--bg-secondary);

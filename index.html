@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=19">
+    <link rel="stylesheet" href="styles.css?v=20">
 </head>
 <body>
     <!-- Navigation -->
@@ -91,40 +91,35 @@
     <!-- ROS Innovator 50 (Collapsible) -->
     <section class="innovator50-section" id="innovator50">
         <div class="container">
-            <div class="innovator50-accordion">
-                <button class="innovator50-accordion-header" id="i50-toggle">
-                    <div class="innovator50-header-content">
-                        <div class="innovator50-badge">ANNUAL RANKING</div>
-                        <h2 class="innovator50-title">The ROS Innovator 50</h2>
-                        <p class="innovator50-subtitle">2025 Edition — The definitive ranking of frontier tech's most promising companies</p>
-                    </div>
-                    <div class="innovator50-toggle-icon">
-                        <span class="i50-expand-text">View Full Ranking</span>
-                        <svg class="i50-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-                    </div>
-                </button>
-                <div class="innovator50-accordion-content" id="i50-content" style="display: none;">
-                    <div class="innovator50-methodology-note">
-                        <strong>How We Rank:</strong> Companies scored across 6 dimensions — Technology Moat (25%), Momentum (25%), Team Pedigree (15%), Market Gravity (15%), Capital Efficiency (10%), Government Traction (10%). Rankings updated annually based on proprietary data and expert analysis.
-                    </div>
-                    <div class="innovator50-controls">
-                        <div class="i50-year-selector">
-                            <button class="i50-year-btn active" data-year="2025">2025</button>
-                            <button class="i50-year-btn" data-year="2024">2024</button>
-                            <button class="i50-year-btn" data-year="2023">2023</button>
-                        </div>
-                        <select id="i50-category" class="i50-filter">
-                            <option value="all">All Categories</option>
-                        </select>
-                        <button id="i50-methodology-btn" class="i50-btn-secondary">Methodology</button>
-                        <button id="i50-share-btn" class="i50-btn-primary">Share Ranking</button>
-                    </div>
-                    <div class="innovator50-grid" id="innovator50-grid"></div>
-                    <div class="innovator50-cta">
-                        <p>Know a company that should be on next year's list?</p>
-                        <a href="#" id="i50-nominate-btn" class="i50-nominate-btn">Nominate a Company</a>
-                    </div>
+            <div class="innovator50-hero">
+                <div class="innovator50-badge">🏆 2025 ANNUAL RANKING</div>
+                <h2 class="innovator50-title">The ROS Innovator 50</h2>
+                <p class="innovator50-subtitle">The definitive ranking of frontier tech's most promising companies — scored across Technology Moat, Momentum, Team Pedigree, Market Gravity, Capital Efficiency, and Government Traction.</p>
+            </div>
+            <div class="innovator50-controls">
+                <div class="i50-year-selector">
+                    <button class="i50-year-btn active" data-year="2025">2025</button>
+                    <button class="i50-year-btn" data-year="2024">2024</button>
                 </div>
+                <select id="i50-category" class="i50-filter">
+                    <option value="all">All Categories</option>
+                </select>
+                <button id="i50-share-btn" class="i50-btn-primary">Share Ranking</button>
+            </div>
+            <!-- Top 10 Preview (always visible) -->
+            <div class="innovator50-preview" id="innovator50-preview"></div>
+            <!-- Expand/Collapse Button -->
+            <button class="i50-expand-btn" id="i50-toggle">
+                <span id="i50-expand-text">View Full Top 50</span>
+                <svg class="i50-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <!-- Full Grid (hidden by default) -->
+            <div class="innovator50-full" id="i50-content" style="display: none;">
+                <div class="innovator50-grid" id="innovator50-grid"></div>
+            </div>
+            <div class="innovator50-cta">
+                <p>Know a company that should be on next year's list?</p>
+                <a href="https://github.com/PaleoFaire/innovators-league/issues/new" target="_blank" rel="noopener" class="i50-nominate-btn">Nominate a Company</a>
             </div>
         </div>
     </section>
@@ -209,17 +204,6 @@
     </section>
 
     <!-- Growth Signals Dashboard -->
-    <section class="growth-signals-section" id="growth-signals">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">INTELLIGENCE SIGNALS</p>
-                <h2>Growth Signals</h2>
-                <p>Real-time intelligence on hiring surges, contracts, breakthroughs, and revenue acceleration.</p>
-            </div>
-            <div class="signals-grid" id="signals-grid"></div>
-        </div>
-    </section>
-
     <!-- Market Map -->
     <section class="market-map-section" id="market-map">
         <div class="container">
@@ -340,83 +324,69 @@
     </section>
 
     <!-- Alternative Data Signals -->
-    <section class="alt-data-section" id="alt-data">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">ALTERNATIVE DATA</p>
-                <h2>Alternative Signals Dashboard</h2>
-                <p>Hiring velocity, web traffic, news sentiment, and GitHub activity — the leading indicators that predict trajectory 6-12 months ahead.</p>
-            </div>
-            <div class="metric-methodology-box compact">
-                <p><strong>Signal Strength (1-10):</strong> Aggregates hiring velocity (LinkedIn data), web traffic trends, news sentiment analysis, and GitHub activity. "Surging" hiring + positive sentiment + traffic growth = high signal strength.</p>
-            </div>
-            <div class="alt-data-controls">
-                <select id="alt-sort" class="lb-filter-select">
-                    <option value="strength">Sort: Signal Strength</option>
-                    <option value="hiring">Sort: Hiring Velocity</option>
-                    <option value="name">Sort: A-Z</option>
-                </select>
-            </div>
-            <div class="alt-data-grid" id="alt-data-grid"></div>
-        </div>
-    </section>
-
-    <!-- Secondary Market Valuations -->
-    <section class="secondary-market-section" id="secondary-market">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">PRIVATE MARKET INTELLIGENCE</p>
-                <h2>Secondary Market Valuations</h2>
-                <p>Real-time private company valuations from secondary transactions, tender offers, and funding rounds. Track valuation history and investor activity.</p>
-            </div>
-            <div class="metric-methodology-box compact">
-                <p><strong>Data Sources:</strong> Forge Global transactions, EquityZen listings, Carta 409A data, SEC Form D filings, press reports. Updated weekly. Secondary prices may differ from primary valuations due to liquidity preferences.</p>
-            </div>
-            <div class="secondary-controls">
-                <select id="secondary-sort" class="lb-filter-select">
-                    <option value="valuation">Sort: Valuation</option>
-                    <option value="change">Sort: 1Y Change</option>
-                    <option value="liquidity">Sort: Liquidity</option>
-                    <option value="name">Sort: A-Z</option>
-                </select>
-                <div class="secondary-legend">
-                    <span class="trend-indicator up">↑ Trending Up</span>
-                    <span class="trend-indicator down">↓ Trending Down</span>
-                    <span class="trend-indicator stable">→ Stable</span>
-                </div>
-            </div>
-            <div class="secondary-grid" id="secondary-grid"></div>
-        </div>
-    </section>
-
-    <!-- Real-Time Alerts -->
-    <section class="alerts-section" id="alerts-center">
+    <!-- Unified Intelligence Hub -->
+    <section class="intelligence-hub-section" id="intelligence-hub">
         <div class="container">
             <div class="section-header">
                 <p class="section-eyebrow">REAL-TIME INTELLIGENCE</p>
-                <h2>Alerts Center</h2>
-                <p>Live alerts on funding rounds, government contracts, leadership changes, and market signals across your watchlist.</p>
+                <h2>Intelligence Hub</h2>
+                <p>Live alerts, alternative signals, and breaking news — all the intelligence you need in one place.</p>
             </div>
-            <div class="alerts-controls">
-                <div class="alert-filters">
-                    <button class="alert-filter active" data-category="all">All Alerts</button>
-                    <button class="alert-filter" data-category="funding">💰 Funding</button>
-                    <button class="alert-filter" data-category="contracts">📋 Contracts</button>
-                    <button class="alert-filter" data-category="leadership">👤 Leadership</button>
-                    <button class="alert-filter" data-category="regulatory">⚖️ Regulatory</button>
-                    <button class="alert-filter" data-category="signals">📊 Signals</button>
-                </div>
-                <div class="alert-priority-filter">
-                    <label><input type="checkbox" id="critical-only"> Critical & High Priority Only</label>
-                </div>
+            <!-- Intelligence Hub Tabs -->
+            <div class="intel-hub-tabs">
+                <button class="intel-hub-tab active" data-intel="alerts">🔔 Alerts</button>
+                <button class="intel-hub-tab" data-intel="signals">📊 Signal Strength</button>
+                <button class="intel-hub-tab" data-intel="news">📰 News Feed</button>
             </div>
-            <div class="alerts-feed" id="alerts-feed"></div>
+            <!-- Alerts Panel -->
+            <div class="intel-hub-panel" id="intel-alerts-panel">
+                <div class="alerts-controls">
+                    <div class="alert-filters">
+                        <button class="alert-filter active" data-category="all">All</button>
+                        <button class="alert-filter" data-category="funding">💰 Funding</button>
+                        <button class="alert-filter" data-category="contracts">📋 Contracts</button>
+                        <button class="alert-filter" data-category="leadership">👤 Leadership</button>
+                        <button class="alert-filter" data-category="signals">📊 Signals</button>
+                    </div>
+                    <label class="alert-priority-filter"><input type="checkbox" id="critical-only"> High Priority Only</label>
+                </div>
+                <div class="alerts-feed" id="alerts-feed"></div>
+            </div>
+            <!-- Signals Panel -->
+            <div class="intel-hub-panel" id="intel-signals-panel" style="display: none;">
+                <p class="panel-explainer">Signal Strength aggregates hiring velocity, web traffic, news sentiment, and GitHub activity. Higher = stronger momentum.</p>
+                <div class="alt-data-controls">
+                    <select id="alt-sort" class="lb-filter-select">
+                        <option value="strength">Sort: Signal Strength</option>
+                        <option value="hiring">Sort: Hiring Velocity</option>
+                        <option value="name">Sort: A-Z</option>
+                    </select>
+                </div>
+                <div class="alt-data-grid" id="alt-data-grid"></div>
+            </div>
+            <!-- News Panel -->
+            <div class="intel-hub-panel" id="intel-news-panel" style="display: none;">
+                <div class="feed-controls">
+                    <select id="feed-category" class="lb-filter-select">
+                        <option value="all">All Categories</option>
+                        <option value="funding">Funding</option>
+                        <option value="contract">Contracts</option>
+                        <option value="milestone">Milestones</option>
+                        <option value="ipo">IPO / Exit</option>
+                    </select>
+                    <select id="feed-sector" class="lb-filter-select">
+                        <option value="all">All Sectors</option>
+                    </select>
+                </div>
+                <div class="feed-panel" id="feed-news-panel"></div>
+            </div>
+            <!-- Subscribe CTA -->
             <div class="alerts-subscribe">
                 <div class="subscribe-box">
                     <span class="subscribe-icon">🔔</span>
                     <div class="subscribe-content">
-                        <strong>Get alerts delivered</strong>
-                        <p>Email digest, Slack integration, or API webhook available for ROS Pro members.</p>
+                        <strong>Get intelligence delivered</strong>
+                        <p>Email digest, Slack integration, or API webhook for ROS Pro members.</p>
                     </div>
                     <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="subscribe-btn">Enable Alerts →</a>
                 </div>
@@ -609,45 +579,6 @@
         </div>
     </section>
 
-    <!-- Real-Time Intelligence Feed -->
-    <section class="intel-feed-section" id="intel-feed">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">REAL-TIME INTELLIGENCE</p>
-                <h2>Intelligence Feed</h2>
-                <p>Breaking developments, funding rounds, contract awards, and pattern-detected story leads across frontier tech.</p>
-            </div>
-            <div class="feed-tabs">
-                <button class="feed-tab active" data-feed="news">Latest News</button>
-                <button class="feed-tab" data-feed="stories">Story Leads</button>
-            </div>
-            <div class="feed-controls">
-                <select id="feed-category" class="lb-filter-select">
-                    <option value="all">Category: All</option>
-                    <option value="funding">Funding</option>
-                    <option value="milestone">Milestones</option>
-                    <option value="contract">Contracts</option>
-                    <option value="partnership">Partnerships</option>
-                    <option value="ipo">IPO / Exit</option>
-                    <option value="leadership">Leadership</option>
-                    <option value="product">Product</option>
-                    <option value="acquisition">Acquisition</option>
-                    <option value="regulatory">Regulatory</option>
-                </select>
-                <select id="feed-sector" class="lb-filter-select">
-                    <option value="all">Sector: All</option>
-                </select>
-                <select id="feed-impact" class="lb-filter-select">
-                    <option value="all">Impact: All</option>
-                    <option value="high">High Impact</option>
-                    <option value="medium">Medium Impact</option>
-                </select>
-            </div>
-            <div class="feed-panel" id="feed-news-panel"></div>
-            <div class="feed-panel" id="feed-stories-panel" style="display:none"></div>
-        </div>
-    </section>
-
     <!-- Exportable Sector Reports -->
     <section class="reports-section" id="sector-reports">
         <div class="container">
@@ -728,65 +659,66 @@
         </div>
     </section>
 
-    <!-- Valuation Leaderboard -->
+    <!-- Unified Rankings Hub -->
     <section class="leaderboard-section" id="leaderboard">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">VALUATION RANKINGS</p>
-                <h2>Valuation Leaderboard</h2>
-                <p>Private and public frontier tech companies ranked by latest valuation. Customize filters to build your own view.</p>
+                <p class="section-eyebrow">RANKINGS</p>
+                <h2>Company Rankings</h2>
+                <p>The most valuable and capital-efficient frontier tech companies.</p>
             </div>
-            <div class="leaderboard-controls">
-                <div class="leaderboard-filters">
-                    <select id="lb-sort" class="lb-filter-select">
-                        <option value="valuation">Sort: Valuation</option>
-                        <option value="score">Sort: Innovation Score</option>
-                        <option value="funding">Sort: Total Raised</option>
-                        <option value="name">Sort: A-Z</option>
-                    </select>
-                    <select id="lb-stage" class="lb-filter-select">
-                        <option value="all">Stage: All</option>
-                        <option value="private">Private Only</option>
-                        <option value="public">Public Only</option>
-                        <option value="pre-ipo">Pre-IPO</option>
-                    </select>
-                    <select id="lb-sector" class="lb-filter-select">
-                        <option value="all">Sector: All</option>
-                    </select>
-                    <select id="lb-count" class="lb-filter-select">
-                        <option value="25">Show: Top 25</option>
-                        <option value="50">Show: Top 50</option>
-                        <option value="100">Show: Top 100</option>
-                        <option value="all">Show: All</option>
-                    </select>
+            <!-- Ranking Type Tabs -->
+            <div class="ranking-tabs">
+                <button class="ranking-tab active" data-ranking="valuation">By Valuation</button>
+                <button class="ranking-tab" data-ranking="efficiency">By Capital Efficiency</button>
+            </div>
+            <!-- Valuation View -->
+            <div class="ranking-view" id="valuation-view">
+                <div class="leaderboard-controls">
+                    <div class="leaderboard-filters">
+                        <select id="lb-sort" class="lb-filter-select">
+                            <option value="valuation">Sort: Valuation</option>
+                            <option value="score">Sort: Innovation Score</option>
+                            <option value="funding">Sort: Total Raised</option>
+                            <option value="name">Sort: A-Z</option>
+                        </select>
+                        <select id="lb-stage" class="lb-filter-select">
+                            <option value="all">Stage: All</option>
+                            <option value="private">Private Only</option>
+                            <option value="public">Public Only</option>
+                            <option value="pre-ipo">Pre-IPO</option>
+                        </select>
+                        <select id="lb-sector" class="lb-filter-select">
+                            <option value="all">Sector: All</option>
+                        </select>
+                        <select id="lb-count" class="lb-filter-select">
+                            <option value="25">Show: Top 25</option>
+                            <option value="50">Show: Top 50</option>
+                            <option value="100">Show: Top 100</option>
+                            <option value="all">Show: All</option>
+                        </select>
+                    </div>
+                    <div class="leaderboard-stats" id="lb-stats"></div>
                 </div>
-                <div class="leaderboard-stats" id="lb-stats"></div>
+                <div class="leaderboard-grid" id="leaderboard-grid"></div>
             </div>
-            <div class="leaderboard-grid" id="leaderboard-grid"></div>
-        </div>
-    </section>
-
-    <!-- Capital Efficiency Leaderboard -->
-    <section class="efficiency-section" id="efficiency">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">CAPITAL EFFICIENCY</p>
-                <h2>Capital Efficiency Ranking</h2>
-                <p>Valuation ÷ Total Raised = Capital Multiple. Higher is better. Companies creating the most value per dollar invested.</p>
-            </div>
-            <div class="efficiency-controls">
-                <div class="efficiency-filters">
-                    <select id="eff-sector" class="lb-filter-select">
-                        <option value="all">All Sectors</option>
-                    </select>
-                    <select id="eff-count" class="lb-filter-select">
-                        <option value="25">Top 25</option>
-                        <option value="50">Top 50</option>
-                        <option value="all">All</option>
-                    </select>
+            <!-- Efficiency View -->
+            <div class="ranking-view" id="efficiency-view" style="display: none;">
+                <p class="efficiency-explainer">Capital Multiple = Valuation ÷ Total Raised. Higher is better.</p>
+                <div class="efficiency-controls">
+                    <div class="efficiency-filters">
+                        <select id="eff-sector" class="lb-filter-select">
+                            <option value="all">All Sectors</option>
+                        </select>
+                        <select id="eff-count" class="lb-filter-select">
+                            <option value="25">Top 25</option>
+                            <option value="50">Top 50</option>
+                            <option value="all">All</option>
+                        </select>
+                    </div>
                 </div>
+                <div class="efficiency-grid" id="efficiency-grid"></div>
             </div>
-            <div class="efficiency-grid" id="efficiency-grid"></div>
         </div>
     </section>
 
@@ -906,17 +838,6 @@
     </section>
 
     <!-- EXPERT INTELLIGENCE (Tegus-style) -->
-    <section class="expert-intel-section" id="expert-intel-section">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">EXPERT INTELLIGENCE</p>
-                <h2>Industry Expert Insights</h2>
-                <p>Exclusive perspectives from insiders, former employees, and industry analysts — synthesized for investment decisions.</p>
-            </div>
-            <div class="expert-grid"></div>
-        </div>
-    </section>
-
     <!-- PRO WATCHLIST (Crunchbase-style Kanban) -->
     <section class="watchlist-section" id="pro-watchlist">
         <div class="container">
@@ -1063,6 +984,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <script src="data.js?v=47"></script>
-    <script src="app.js?v=47"></script>
+    <script src="app.js?v=48"></script>
 </body>
 </html>
