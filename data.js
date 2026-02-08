@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
 // Auto-updated SEC filings from EDGAR
 // Last updated: 2026-02-07
+// Auto-updated SEC filings from EDGAR
+// Last updated: 2026-02-08
 const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-02-04", description: "xslF345X05/wk-form4_1770254739.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-02-04", description: "xslF345X05/wk-form4_1770254378.xml", isIPO: false, ticker: "PLTR" },
@@ -44,7 +46,7 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "8-K", date: "2026-01-16", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
 ];
 
-const LAST_UPDATED = "2026-02-07";
+const LAST_UPDATED = "2026-02-08";
 
 const SECTORS = {
   "Defense & Security": { icon: "🛡️", color: "#dc2626", description: "Autonomous drones, counter-drone systems, defense AI, and next-generation weapons platforms.", trend: "Defense tech funding hit $25B in 2025. The Pentagon's Replicator initiative is accelerating autonomous systems procurement. Counter-drone is the hottest sub-sector." },
@@ -14649,22 +14651,24 @@ const DATA_QUALITY = {
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
 // Last updated: 2026-02-08 05:19
+// Auto-generated real-time signals
+// Last updated: 2026-02-08
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Falcon 9 returns to flight after upper stage engine investigation", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX IPO could drive investor interest in other space companies", source: "SpaceNews", time: "8h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Starlink", headline: "Moltbook, the Social Network for AI Agents, Exposed Real Humans' Data", source: "Wired", time: "17h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Cerebras", headline: "Benchmark raises $225M in special funds to double down on Cerebras", source: "TechCrunch", time: "23h ago", impact: "medium", unread: true },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "Falcon 9 returns to flight after upper stage engine investigation", source: "SpaceNews", time: "9h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX IPO could drive investor interest in other space companies", source: "SpaceNews", time: "11h ago", impact: "high", unread: true },
+  { id: 3, type: "news", company: "Starlink", headline: "Moltbook, the Social Network for AI Agents, Exposed Real Humans’ Data", source: "Wired", time: "20h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Cerebras", headline: "Benchmark raises $225M in special funds to double down on Cerebras", source: "TechCrunch", time: "1d ago", impact: "medium", unread: true },
   { id: 5, type: "news", company: "OpenAI", headline: "From Svedka to Anthropic, brands make bold plays with AI in Super Bowl ads", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "How Elon Musk is rewriting the rules on founder power", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "The Only Thing Standing Between Humanity and AI Apocalypse Is ' Claude?", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Waymo", headline: "The Week’s 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "The Only Thing Standing Between Humanity and AI Apocalypse Is … Claude?", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "milestone", company: "Waymo", headline: "Waymo Hits a Rough Patch In Washington, DC", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "SpaceX", headline: "FAA approves Starship launches from LC-39A", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI is hoppin' mad about Anthropic's new Super Bowl TV ads", source: "Ars Technica", time: "2d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI is hoppin&#039; mad about Anthropic&#039;s new Super Bowl TV ads", source: "Ars Technica", time: "2d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Anthropic", headline: "Should AI chatbots have ads? Anthropic says no.", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "Nvidia's $100 billion OpenAI deal has seemingly vanished", source: "Ars Technica", time: "4d ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "Nvidia&#039;s $100 billion OpenAI deal has seemingly vanished", source: "Ars Technica", time: "4d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
