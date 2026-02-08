@@ -1,41 +1,41 @@
 // Auto-generated news signals
-// Last updated: 2026-02-08T17:01:55.303Z
+// Last updated: 2026-02-08T20:57:43.168Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1770570115303,
+    "id": 1770584263168,
     "type": "news",
     "company": "OpenAI",
     "headline": "From Svedka to Anthropic, brands make bold plays with AI in Super Bowl ads",
     "source": "TechCrunch",
-    "time": "Just now",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/02/08/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/"
   },
   {
-    "id": 1770570115304,
+    "id": 1770584263169,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Falcon 9 returns to flight after upper stage engine investigation",
     "source": "SpaceNews",
-    "time": "18h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/falcon-9-returns-to-flight-after-upper-stage-engine-investigation/"
   },
   {
-    "id": 1770570115305,
+    "id": 1770584263170,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX IPO could drive investor interest in other space companies",
     "source": "SpaceNews",
-    "time": "20h ago",
+    "time": "1d ago",
     "impact": "high",
     "unread": true,
     "link": "https://spacenews.com/spacex-ipo-could-drive-investor-interest-in-other-space-companies/"
   },
   {
-    "id": 1770570115306,
+    "id": 1770584263171,
     "type": "news",
     "company": "Starlink",
     "headline": "Moltbook, the Social Network for AI Agents, Exposed Real Humans’ Data",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/security-news-this-week-moltbook-the-social-network-for-ai-agents-exposed-real-humans-data/"
   },
   {
-    "id": 1770570115307,
+    "id": 1770584263172,
     "type": "funding",
     "company": "Cerebras",
     "headline": "Benchmark raises $225M in special funds to double down on Cerebras",
@@ -57,29 +57,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/02/06/benchmark-raises-225m-in-special-funds-to-double-down-on-cerebras/"
   },
   {
-    "id": 1770570115308,
+    "id": 1770584263173,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "How Elon Musk is rewriting the rules on founder power",
     "source": "TechCrunch",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/video/how-elon-musk-is-rewriting-the-rules-on-founder-power/"
   },
   {
-    "id": 1770570115309,
+    "id": 1770584263174,
     "type": "funding",
     "company": "Waymo",
     "headline": "The Week’s 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings",
     "source": "Crunchbase News",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "low",
     "unread": false,
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-waymo-cerebras/"
   },
   {
-    "id": 1770570115310,
+    "id": 1770584263175,
     "type": "news",
     "company": "Anthropic",
     "headline": "The Only Thing Standing Between Humanity and AI Apocalypse Is … Claude?",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/the-only-thing-standing-between-humanity-and-ai-apocalypse-is-claude/"
   },
   {
-    "id": 1770570115311,
+    "id": 1770584263176,
     "type": "news",
     "company": "Shield AI",
     "headline": "Shield AI, ST Engineering join forces on fine-tuning drone swarms",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/unmanned/2026/02/06/shield-ai-st-engineering-join-forces-on-fine-tuning-drone-swarms/"
   },
   {
-    "id": 1770570115312,
+    "id": 1770584263177,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/02/rocket-report-spacex-probes-upper-stage-malfunction-starship-testing-resumes/"
   },
   {
-    "id": 1770570115313,
+    "id": 1770584263178,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Hits a Rough Patch In Washington, DC",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/waymo-hits-a-rough-patch-in-washington-dc/"
   },
   {
-    "id": 1770570115314,
+    "id": 1770584263179,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "FAA approves Starship launches from LC-39A",
@@ -134,18 +134,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/faa-approves-starship-launches-from-lc-39a/"
   },
   {
-    "id": 1770570115315,
+    "id": 1770584263180,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI is hoppin&#039; mad about Anthropic&#039;s new Super Bowl TV ads",
     "source": "Ars Technica",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/information-technology/2026/02/openai-is-hoppin-mad-about-anthropics-new-super-bowl-tv-ads/"
   },
   {
-    "id": 1770570115316,
+    "id": 1770584263181,
     "type": "news",
     "company": "Anthropic",
     "headline": "Should AI chatbots have ads? Anthropic says no.",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/"
   },
   {
-    "id": 1770570115317,
+    "id": 1770584263182,
     "type": "news",
     "company": "OpenAI",
     "headline": "Nvidia&#039;s $100 billion OpenAI deal has seemingly vanished",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/"
   },
   {
-    "id": 1770570115318,
+    "id": 1770584263183,
     "type": "news",
     "company": "OpenAI",
     "headline": "New OpenAI tool renews fears that “AI slop” will overwhelm scientific research",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/ai/2026/01/new-openai-tool-renews-fears-that-ai-slop-will-overwhelm-scientific-research/"
   },
   {
-    "id": 1770570115319,
+    "id": 1770584263184,
     "type": "news",
     "company": "Anthropic",
     "headline": "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/information-technology/2026/01/does-anthropic-believe-its-ai-is-conscious-or-is-that-just-what-it-wants-claude-to-think/"
   },
   {
-    "id": 1770570115320,
+    "id": 1770584263185,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI spills technical details about how its AI coding agent works",
