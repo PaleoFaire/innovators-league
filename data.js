@@ -8704,13 +8704,14 @@ const SECTOR_MOMENTUM = [
 
 // ─── BREAKING NEWS TICKER ───
 const NEWS_TICKER = [
-  { text: "Bedrock Robotics’ $270M Series B paves the way for operator-less excavators", time: "2d ago", priority: "high" },
-  { text: "How Elon Musk is rewriting the rules on founder power", time: "13h ago", priority: "high" },
-  { text: "Tomorrow.io banks $175 million for DeepSky weather constellation", time: "1d ago", priority: "high" },
-  { text: "Army’s new space career field won’t ‘encroach’ on Space Force: Official", time: "13h ago", priority: "medium" },
-  { text: "Over the moon and under the radar", time: "19h ago", priority: "medium" },
-  { text: "Deep space, dim objects: Why asteroid mining caught the Space Force’s eye", time: "1d ago", priority: "medium" },
-  { text: "First spacewalk of mission begins tonight", time: "6539d ago", priority: "medium" }
+  { text: "SpaceX IPO could drive investor interest in other space companies", time: "11h ago", priority: "high" },
+  { text: "Bedrock Robotics’ $270M Series B paves the way for operator-less excavators", time: "3d ago", priority: "high" },
+  { text: "Falcon 9 returns to flight after upper stage engine investigation", time: "9h ago", priority: "high" },
+  { text: "How Elon Musk is rewriting the rules on founder power", time: "1d ago", priority: "high" },
+  { text: "Tomorrow.io banks $175 million for DeepSky weather constellation", time: "2d ago", priority: "high" },
+  { text: "Army’s new space career field won’t ‘encroach’ on Space Force: Official", time: "1d ago", priority: "medium" },
+  { text: "Over the moon and under the radar", time: "1d ago", priority: "medium" },
+  { text: "First spacewalk of mission begins tonight", time: "6540d ago", priority: "medium" }
 ];
 
 // ─── WEEKLY INTELLIGENCE DIGEST ───
