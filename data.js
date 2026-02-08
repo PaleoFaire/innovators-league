@@ -14651,19 +14651,19 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-08 09:03
+// Last updated: 2026-02-08 13:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Falcon 9 returns to flight after upper stage engine investigation", source: "SpaceNews", time: "10h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX IPO could drive investor interest in other space companies", source: "SpaceNews", time: "12h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Starlink", headline: "Moltbook, the Social Network for AI Agents, Exposed Real Humans' Data", source: "Wired", time: "21h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "Falcon 9 returns to flight after upper stage engine investigation", source: "SpaceNews", time: "15h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX IPO could drive investor interest in other space companies", source: "SpaceNews", time: "17h ago", impact: "high", unread: true },
+  { id: 3, type: "news", company: "Starlink", headline: "Moltbook, the Social Network for AI Agents, Exposed Real Humans' Data", source: "Wired", time: "1d ago", impact: "low", unread: true },
   { id: 4, type: "funding", company: "Cerebras", headline: "Benchmark raises $225M in special funds to double down on Cerebras", source: "TechCrunch", time: "1d ago", impact: "medium", unread: true },
   { id: 5, type: "news", company: "OpenAI", headline: "From Svedka to Anthropic, brands make bold plays with AI in Super Bowl ads", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "ipo", company: "SpaceX", headline: "How Elon Musk is rewriting the rules on founder power", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
   { id: 7, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "Anthropic", headline: "The Only Thing Standing Between Humanity and AI Apocalypse Is ' Claude?", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Waymo", headline: "Waymo Hits a Rough Patch In Washington, DC", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "2d ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Waymo", headline: "Waymo Hits a Rough Patch In Washington, DC", source: "Wired", time: "2d ago", impact: "low", unread: false },
   { id: 12, type: "ipo", company: "SpaceX", headline: "FAA approves Starship launches from LC-39A", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "OpenAI", headline: "OpenAI is hoppin' mad about Anthropic's new Super Bowl TV ads", source: "Ars Technica", time: "2d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Anthropic", headline: "Should AI chatbots have ads? Anthropic says no.", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
