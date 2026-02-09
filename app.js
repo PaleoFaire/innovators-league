@@ -943,6 +943,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initialize world-class premium features
   initPremiumFeatures();
+
+  // PILLAR 1: Add section timestamps for data freshness visibility
+  initSectionTimestamps();
 });
 
 // ─── STATS COUNTER ───
@@ -1022,6 +1025,66 @@ function initFreshnessIndicator() {
     <span class="freshness-status" style="color: ${color};">${status}</span>
   `;
   freshnessEl.title = `Data pipeline runs daily. Last update: ${LAST_UPDATED}`;
+
+  // Add detailed data sources tooltip
+  if (typeof DATA_SOURCES !== 'undefined') {
+    const tooltip = Object.entries(DATA_SOURCES)
+      .map(([key, data]) => `${key}: ${data.lastUpdated} (${data.frequency})`)
+      .join('\n');
+    freshnessEl.title = tooltip;
+  }
+}
+
+// Display section-specific timestamps
+function addSectionTimestamp(sectionId, dataSourceKey) {
+  if (typeof DATA_SOURCES === 'undefined') return;
+  const section = document.getElementById(sectionId);
+  if (!section) return;
+
+  const source = DATA_SOURCES[dataSourceKey];
+  if (!source) return;
+
+  const header = section.querySelector('.section-header');
+  if (!header) return;
+
+  // Check if timestamp already exists
+  if (header.querySelector('.section-timestamp')) return;
+
+  const timestamp = document.createElement('div');
+  timestamp.className = 'section-timestamp';
+  timestamp.innerHTML = `<span class="timestamp-dot">●</span> Updated ${source.lastUpdated} · ${source.frequency}`;
+  header.appendChild(timestamp);
+}
+
+// Initialize all section timestamps for data freshness visibility
+function initSectionTimestamps() {
+  // Map section IDs to their data source keys
+  // These show when each type of data was last refreshed
+  const sectionMappings = {
+    // News & Signals (RSS feeds, every 4 hours)
+    'intelligence-hub': 'news',
+    'market-pulse': 'news',
+
+    // Government & Regulatory (Daily automated updates)
+    'gov-contracts': 'govContracts',
+    'patent-intel': 'patents',
+
+    // Funding & Deals (Daily from press releases)
+    'funding-tracker': 'fundingRounds',
+    'deal-tracker': 'fundingRounds',
+
+    // Company Database (Daily + Manual enrichment)
+    'companies': 'companies',
+    'leaderboard': 'companies',
+    'innovator-scores': 'companies'
+  };
+
+  // Apply timestamps to each section that has a .section-header
+  Object.entries(sectionMappings).forEach(([sectionId, dataSourceKey]) => {
+    addSectionTimestamp(sectionId, dataSourceKey);
+  });
+
+  console.log('📊 Section timestamps initialized for', Object.keys(sectionMappings).length, 'sections');
 }
 
 function animateCounter(id, target) {

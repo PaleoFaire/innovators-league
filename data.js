@@ -46,7 +46,17 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "8-K", date: "2026-01-16", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
 ];
 
-const LAST_UPDATED = "2026-02-08";
+const LAST_UPDATED = "2026-02-09";
+
+// Data source freshness tracking
+const DATA_SOURCES = {
+  companies: { lastUpdated: "2026-02-09", source: "Manual + Automated", frequency: "Daily" },
+  news: { lastUpdated: "2026-02-09", source: "RSS Aggregation", frequency: "Every 4 hours" },
+  secFilings: { lastUpdated: "2026-02-06", source: "SEC EDGAR API", frequency: "Daily" },
+  govContracts: { lastUpdated: "2026-02-06", source: "SAM.gov + USAspending", frequency: "Daily" },
+  patents: { lastUpdated: "2026-02-06", source: "USPTO PatentsView", frequency: "Weekly" },
+  fundingRounds: { lastUpdated: "2026-02-08", source: "Press releases + Crunchbase", frequency: "Daily" }
+};
 
 const SECTORS = {
   "Defense & Security": { icon: "🛡️", color: "#dc2626", description: "Autonomous drones, counter-drone systems, defense AI, and next-generation weapons platforms.", trend: "Defense tech funding hit $25B in 2025. The Pentagon's Replicator initiative is accelerating autonomous systems procurement. Counter-drone is the hottest sub-sector." },
