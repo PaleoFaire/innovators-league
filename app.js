@@ -635,6 +635,7 @@ function openCompanyModal(companyName) {
     </div>
     <h2 class="modal-company-name">${company.name} ${renderSignalBadge(company.signal)}</h2>
     ${company.founder ? `<p class="modal-founder">${company.founder}</p>` : ''}
+    ${renderFounderConnectionBadge(company.name)}
     <p class="modal-location">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
       ${company.location} &middot; ${country}
@@ -652,6 +653,8 @@ function openCompanyModal(companyName) {
         ${company.insight}
       </div>
     ` : ''}
+
+    ${renderFounderQuote(company.name)}
 
     ${renderRadarChart(company.scores)}
 
@@ -946,6 +949,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // PILLAR 1: Add section timestamps for data freshness visibility
   initSectionTimestamps();
+
+  // PILLAR 3: Initialize From the Source section
+  initFromTheSource();
 });
 
 // ─── STATS COUNTER ───
@@ -1085,6 +1091,87 @@ function initSectionTimestamps() {
   });
 
   console.log('📊 Section timestamps initialized for', Object.keys(sectionMappings).length, 'sections');
+}
+
+// ═══════════════════════════════════════════════════════
+// PILLAR 3: FROM THE SOURCE — Founder Insights
+// ═══════════════════════════════════════════════════════
+function initFromTheSource() {
+  if (typeof FROM_THE_SOURCE === 'undefined') {
+    console.log('📝 FROM_THE_SOURCE data not found');
+    return;
+  }
+
+  const grid = document.getElementById('from-source-grid');
+  if (!grid) return;
+
+  const typeLabels = {
+    interview: '🎙️ Interview',
+    insight: '💡 Insight',
+    tripReport: '✈️ Trip Report'
+  };
+
+  const cards = FROM_THE_SOURCE.map(item => {
+    const typeLabel = typeLabels[item.type] || '📄 Article';
+    const premiumClass = item.premium ? 'premium' : '';
+
+    return `
+      <div class="from-source-card ${premiumClass}" onclick="openCompanyModal('${item.company.replace(/'/g, "\\'")}')">
+        <div class="from-source-type ${item.type}">${typeLabel}</div>
+        <h3 class="from-source-headline">${item.headline}</h3>
+        <div class="from-source-founder">
+          <span>${item.founder}, ${item.title}</span>
+          <span>•</span>
+          <span class="company">${item.company}</span>
+        </div>
+        <p class="from-source-summary">${item.summary}</p>
+        ${item.pullQuote ? `<div class="from-source-quote">${item.pullQuote}</div>` : ''}
+        <div class="from-source-topics">
+          ${item.topics.map(t => `<span class="from-source-topic">${t}</span>`).join('')}
+        </div>
+        <div class="from-source-date">${item.date}</div>
+      </div>
+    `;
+  }).join('');
+
+  grid.innerHTML = cards;
+  console.log('🎙️ From the Source initialized with', FROM_THE_SOURCE.length, 'items');
+}
+
+// Get founder connection data for a company
+function getFounderConnection(companyName) {
+  if (typeof FOUNDER_CONNECTIONS === 'undefined') return null;
+  return FOUNDER_CONNECTIONS[companyName] || null;
+}
+
+// Render founder connection badge for company modals
+function renderFounderConnectionBadge(companyName) {
+  const connection = getFounderConnection(companyName);
+  if (!connection) return '';
+
+  if (connection.metFounder) {
+    return `
+      <div class="founder-connection-badge met">
+        <span class="connection-icon">🤝</span>
+        <span>ROS has met with this founder</span>
+      </div>
+    `;
+  }
+
+  return '';
+}
+
+// Render exclusive founder quote for company modals
+function renderFounderQuote(companyName) {
+  const connection = getFounderConnection(companyName);
+  if (!connection || !connection.exclusiveQuote) return '';
+
+  return `
+    <div class="founder-exclusive-quote">
+      <div class="quote-label">💎 Exclusive Quote</div>
+      <div class="quote-text">"${connection.exclusiveQuote}"</div>
+    </div>
+  `;
 }
 
 function animateCounter(id, target) {

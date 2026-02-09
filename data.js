@@ -58,6 +58,104 @@ const DATA_SOURCES = {
   fundingRounds: { lastUpdated: "2026-02-08", source: "Press releases + Crunchbase", frequency: "Daily" }
 };
 
+// ═══════════════════════════════════════════════════════
+// PILLAR 3: FOUNDER RELATIONSHIPS & PERSONAL CONNECTIONS
+// The moat nobody can copy — direct access to founders
+// ═══════════════════════════════════════════════════════
+
+const FOUNDER_CONNECTIONS = {
+  // Template for tracking personal relationships
+  // metFounder: Has Stephen met with the founder personally?
+  // lastConversation: Date of last interaction
+  // exclusiveQuote: Direct quote from founder
+  // tripNotes: Notes from visit/meeting
+  // interviewConducted: Whether a formal interview has been done
+
+  "Anduril Industries": {
+    metFounder: true,
+    lastConversation: "2025-11",
+    exclusiveQuote: "The defense industrial base hasn't seen real innovation in 50 years. We're changing that by building technology products, not government contractor programs.",
+    tripNotes: "Visited Costa Mesa HQ. The pace of engineering iteration is unlike anything in traditional defense.",
+    interviewConducted: false,
+    founderInsight: "Palmer's thesis: defense needs software-defined hardware that iterates like consumer tech."
+  },
+  "SpaceX": {
+    metFounder: false,
+    lastConversation: null,
+    exclusiveQuote: null,
+    tripNotes: "Observed Starbase operations. The factory floor culture is unlike any aerospace operation.",
+    interviewConducted: false,
+    founderInsight: null
+  },
+  "Valar Atomics": {
+    metFounder: true,
+    lastConversation: "2026-01",
+    exclusiveQuote: "Everyone focuses on the physics of nuclear. We focus on the economics. If we can make reactors that cost less than natural gas plants, adoption becomes inevitable.",
+    tripNotes: "El Segundo office visit. Isaiah's clarity on the manufacturing cost problem is compelling.",
+    interviewConducted: false,
+    founderInsight: "Valar's bet: manufacturing innovation matters more than reactor design innovation."
+  },
+  "Rainmaker": {
+    metFounder: true,
+    lastConversation: "2026-02",
+    exclusiveQuote: "Crop insurance is a $15 billion market run on 30-year-old COBOL. We're rebuilding it with satellites and AI.",
+    tripNotes: "Augustus is laser-focused on the farmer experience. Most ag-tech founders lose sight of this.",
+    interviewConducted: true,
+    founderInsight: "Rainmaker's edge: treating farmers like users, not data sources."
+  },
+  "Shield AI": {
+    metFounder: true,
+    lastConversation: "2025-12",
+    exclusiveQuote: "Every aircraft in the world will have an AI copilot by 2035. We're building the nervous system.",
+    tripNotes: "San Diego HQ. Brandon is building a platform company, not a drone company.",
+    interviewConducted: false,
+    founderInsight: "Hivemind is the product. Hardware is distribution."
+  }
+};
+
+// "From the Source" — Exclusive founder interviews and insights
+const FROM_THE_SOURCE = [
+  {
+    id: 1,
+    company: "Rainmaker",
+    founder: "Augustus Doricko",
+    title: "CEO & Founder",
+    date: "2026-02-01",
+    type: "interview",
+    headline: "Why Crop Insurance is the Gateway to Agricultural AI",
+    summary: "Augustus Doricko explains why the $15B crop insurance market is ripe for disruption, and how satellite imagery is unlocking data that transforms every aspect of farming.",
+    pullQuote: "Insurance is our trojan horse. Once we're processing a farmer's field data for claims, we can offer them 10x more value through prescriptive analytics.",
+    topics: ["AgTech", "Insurance", "Satellite Data", "AI"],
+    premium: false
+  },
+  {
+    id: 2,
+    company: "Valar Atomics",
+    founder: "Isaiah Taylor",
+    title: "CEO & Founder",
+    date: "2026-01-15",
+    type: "insight",
+    headline: "The Manufacturing Thesis for Nuclear's Comeback",
+    summary: "Why Valar Atomics believes the path to nuclear adoption runs through manufacturing cost reduction, not reactor design innovation.",
+    pullQuote: "Every nuclear startup pitches 'better physics.' We pitch 'cheaper factories.' Only one of those matters for deployment at scale.",
+    topics: ["Nuclear Energy", "Manufacturing", "Deep Tech"],
+    premium: false
+  },
+  {
+    id: 3,
+    company: "Shield AI",
+    founder: "Brandon Tseng",
+    title: "Co-Founder & President",
+    date: "2025-12-10",
+    type: "tripReport",
+    headline: "Inside Shield AI's San Diego Headquarters",
+    summary: "What we learned visiting Shield AI's headquarters, where Hivemind is being trained to fly everything from small drones to F-16s.",
+    pullQuote: "We're not building drones. We're building the AI brain that will power every aircraft in the world.",
+    topics: ["Defense", "AI", "Autonomous Systems"],
+    premium: true
+  }
+];
+
 const SECTORS = {
   "Defense & Security": { icon: "🛡️", color: "#dc2626", description: "Autonomous drones, counter-drone systems, defense AI, and next-generation weapons platforms.", trend: "Defense tech funding hit $25B in 2025. The Pentagon's Replicator initiative is accelerating autonomous systems procurement. Counter-drone is the hottest sub-sector." },
   "Nuclear Energy": { icon: "⚛️", color: "#f59e0b", description: "Small modular reactors, microreactors, nuclear fuel, and next-gen fission and fusion energy.", trend: "Nuclear renaissance is real — NRC applications are at 20-year highs. Data center power demand is the unexpected catalyst driving SMR and microreactor timelines forward." },
