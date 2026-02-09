@@ -3064,6 +3064,103 @@ body {
   line-height: 1.6;
 }
 
+/* ROS Brand Tag — PILLAR 2 */
+.ros-brand-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 107, 44, 0.1) 100%);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: 24px;
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.ros-tag-icon {
+  font-size: 16px;
+}
+
+.ros-tag-text strong {
+  color: #ffd700;
+  font-weight: 600;
+}
+
+/* Tier Access Banner — PILLAR 2 */
+.tier-access-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 24px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin: 24px 0;
+}
+
+.tier-access-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.tier-access-item:hover {
+  transform: translateY(-2px);
+}
+
+.tier-icon {
+  font-size: 18px;
+}
+
+.tier-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.tier-desc {
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 2px 8px;
+  background: var(--bg-tertiary);
+  border-radius: 4px;
+}
+
+.tier-free .tier-label {
+  color: #22c55e;
+}
+
+.tier-pro .tier-label {
+  color: #3b82f6;
+}
+
+.tier-premium .tier-label {
+  color: #ffd700;
+}
+
+.tier-divider {
+  width: 1px;
+  height: 32px;
+  background: var(--border);
+}
+
+@media (max-width: 768px) {
+  .tier-access-banner {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .tier-divider {
+    width: 80%;
+    height: 1px;
+  }
+}
+
 /* Preview Grid (Top 10) */
 .innovator50-preview {
   display: grid;
