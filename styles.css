@@ -3412,6 +3412,254 @@ body {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════
+   PRIVATE COMMUNITY — PILLAR 4: The Only Defensible Moat
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.private-community-section {
+  padding: 80px 0;
+  background: linear-gradient(180deg, rgba(255, 215, 0, 0.03) 0%, rgba(255, 107, 44, 0.03) 50%, transparent 100%);
+  border-bottom: 1px solid var(--border);
+}
+
+.private-community-hero {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.pc-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 107, 44, 0.15));
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #ffd700;
+  margin-bottom: 16px;
+}
+
+.pc-title {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.pc-subtitle {
+  font-size: 16px;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pc-tiers-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.pc-tier-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.pc-tier-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+.pc-tier-card.featured {
+  border-color: #ffd700;
+  background: linear-gradient(180deg, rgba(255, 215, 0, 0.05) 0%, var(--bg-card) 100%);
+}
+
+.pc-tier-featured-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 16px;
+  background: linear-gradient(135deg, #ffd700, #f59e0b);
+  color: #000;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  border-radius: 12px;
+}
+
+.pc-tier-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.pc-tier-icon {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.pc-tier-name {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.pc-tier-price {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.pc-tier-period {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.pc-tier-desc {
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.pc-tier-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.pc-tier-benefits li {
+  padding: 8px 0;
+  padding-left: 24px;
+  position: relative;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.pc-tier-benefits li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #22c55e;
+  font-weight: 700;
+}
+
+.pc-tier-btn {
+  display: block;
+  text-align: center;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.pc-tier-btn.founder-btn {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  color: #fff;
+}
+
+.pc-tier-btn.investor-btn {
+  background: linear-gradient(135deg, #ffd700, #f59e0b);
+  color: #000;
+}
+
+.pc-tier-btn.analyst-btn {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.pc-tier-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Slack Preview */
+.pc-slack-preview {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.pc-slack-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 20px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+.pc-slack-logo {
+  font-size: 20px;
+}
+
+.pc-slack-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.pc-slack-channels {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pc-channel {
+  padding: 8px 12px;
+  background: var(--bg-tertiary);
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: var(--font-mono);
+  color: var(--text-secondary);
+  transition: all 0.15s;
+}
+
+.pc-channel:hover {
+  background: rgba(255, 107, 44, 0.1);
+  color: var(--accent);
+}
+
+@media (max-width: 1024px) {
+  .pc-tiers-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pc-tier-card.featured {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .pc-title {
+    font-size: 28px;
+  }
+}
+
 /* Preview Grid (Top 10) */
 .innovator50-preview {
   display: grid;

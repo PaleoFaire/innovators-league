@@ -156,6 +156,79 @@ const FROM_THE_SOURCE = [
   }
 ];
 
+// ═══════════════════════════════════════════════════════
+// PILLAR 4: PRIVATE COMMUNITY STRUCTURE
+// The only defensible moat — founders + investors in one place
+// ═══════════════════════════════════════════════════════
+
+const COMMUNITY_TIERS = {
+  founder: {
+    name: "Founder Tier",
+    price: "Free",
+    icon: "🚀",
+    eligibility: "Verified founders of ROS 200 companies",
+    benefits: [
+      "Free listing in the ROS Database",
+      "Access to investor introductions",
+      "Quarterly investor calls",
+      "Feature rotation in newsletter",
+      "Slack community access"
+    ],
+    slackAccess: "full",
+    applyUrl: "https://www.rationaloptimistsociety.com/founders"
+  },
+  investor: {
+    name: "Investor Tier",
+    price: "$10,000/year",
+    icon: "💰",
+    eligibility: "VCs, family offices, and angels",
+    benefits: [
+      "Direct founder access",
+      "Deal flow channel",
+      "Monthly expert calls",
+      "Custom research requests",
+      "Full database API access",
+      "Priority support"
+    ],
+    slackAccess: "full",
+    applyUrl: "https://www.rationaloptimistsociety.com/investors"
+  },
+  analyst: {
+    name: "Analyst Tier",
+    price: "$5,000/year",
+    icon: "📊",
+    eligibility: "Journalists, consultants, and researchers",
+    benefits: [
+      "Full database access",
+      "Exportable reports",
+      "Slack read-only access",
+      "Weekly intel briefs",
+      "Citation rights"
+    ],
+    slackAccess: "readonly",
+    applyUrl: "https://www.rationaloptimistsociety.com/analysts"
+  }
+};
+
+const SLACK_CHANNELS = [
+  { name: "announcements", description: "ROS team only", access: "all" },
+  { name: "general", description: "Community discussion", access: "all" },
+  { name: "deal-flow", description: "Investment opportunities (founders post)", access: "investors" },
+  { name: "due-diligence", description: "Investor questions (private)", access: "investors" },
+  { name: "defense-tech", description: "Sector discussion", access: "all" },
+  { name: "nuclear", description: "Sector discussion", access: "all" },
+  { name: "space", description: "Sector discussion", access: "all" },
+  { name: "ai-robotics", description: "Sector discussion", access: "all" },
+  { name: "introductions", description: "New member intros", access: "all" },
+  { name: "events", description: "Meetups, conferences", access: "all" }
+];
+
+const COMMUNITY_EVENTS = [
+  { type: "virtual", name: "Quarterly Founder Showcase", frequency: "Quarterly", description: "Featured founders pitch to investor members" },
+  { type: "dinner", name: "Regional Dinners", frequency: "Quarterly", description: "NYC, SF, Austin, LA — intimate founder-investor meetups" },
+  { type: "summit", name: "ROS Summit", frequency: "Annual", description: "The annual gathering of the ROS community" }
+];
+
 const SECTORS = {
   "Defense & Security": { icon: "🛡️", color: "#dc2626", description: "Autonomous drones, counter-drone systems, defense AI, and next-generation weapons platforms.", trend: "Defense tech funding hit $25B in 2025. The Pentagon's Replicator initiative is accelerating autonomous systems procurement. Counter-drone is the hottest sub-sector." },
   "Nuclear Energy": { icon: "⚛️", color: "#f59e0b", description: "Small modular reactors, microreactors, nuclear fuel, and next-gen fission and fusion energy.", trend: "Nuclear renaissance is real — NRC applications are at 20-year highs. Data center power demand is the unexpected catalyst driving SMR and microreactor timelines forward." },
