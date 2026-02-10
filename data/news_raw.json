@@ -1,6 +1,32 @@
 [
   {
-    "title": "OpenAI Abandons “io” Branding for Its AI Hardware",
+    "title": "ChatGPT will be available to 3 million military users on GenAI.mil",
+    "link": "https://breakingdefense.com/2026/02/chatgpt-will-be-available-to-3-million-military-users-on-genai-mil/",
+    "description": "OpenAI’s ChatGPT joins xAI’s Grok and Google Gemini on the two-month old website, which now claims 1.1 million unique users and rising across the Department of Defense.",
+    "pubDate": "Tue, 10 Feb 2026 19:30:00 +0000",
+    "category": "Networks & Digital Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "OpenAI",
+    "type": "news",
+    "impact": "medium",
+    "time": "Just now"
+  },
+  {
+    "title": "Spaceium demonstrates refueling actuator in orbit",
+    "link": "https://spacenews.com/spaceium-demonstrates-refueling-actuator-in-orbit/",
+    "description": "\nSAN FRANCISCO – Spaceium, a startup planning to establish a network of in-space refueling and repair stations, demonstrated the actuator for its robotic arm in space.   Extensive testing of Spaceium’s actuator, which flew on Transporter-15, the SpaceX Falcon 9 rideshare launched in November, confir",
+    "pubDate": "Tue, 10 Feb 2026 17:01:00 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "type": "ipo",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "OpenAI Abandons ‘io’ Branding for Its AI Hardware",
     "link": "https://www.wired.com/story/openai-drops-io-branding-hardware-devices/",
     "description": "A court filing in a trademark lawsuit reveals OpenAI won't use the name “io” for its AI hardware device, which isn't expected to ship until 2027.",
     "pubDate": "Tue, 10 Feb 2026 05:45:16 +0000",
@@ -10,59 +36,20 @@
     "matchedCompany": "OpenAI",
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "14h ago"
   },
   {
-    "title": "Waymo is testing driverless robotaxis in Nashville",
-    "link": "https://techcrunch.com/2026/02/09/waymo-is-testing-driverless-robotaxis-in-nashville/",
-    "description": "This is the typical next step before it launches a commercial service.",
-    "pubDate": "Mon, 09 Feb 2026 22:59:55 +0000",
-    "category": "TC",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Waymo",
-    "type": "milestone",
+    "title": "Musk says SpaceX focus is on the moon rather than Mars",
+    "link": "https://spacenews.com/musk-says-spacex-focus-is-on-the-moon-rather-than-mars/",
+    "description": "\nA little more than a year after dismissing the moon as a “distraction,” Elon Musk says SpaceX will focus on lunar settlement before sending humans to Mars.\nThe post Musk says SpaceX focus is on the moon rather than Mars appeared first on SpaceNews.",
+    "pubDate": "Mon, 09 Feb 2026 22:55:18 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "type": "ipo",
     "impact": "low",
-    "time": "16h ago"
-  },
-  {
-    "title": "Anthropic&#8217;s India expansion collides with a local company that already had the name",
-    "link": "https://techcrunch.com/2026/02/09/anthropics-india-expansion-collides-with-a-local-company-that-already-had-the-name/",
-    "description": "India's Anthropic Software has taken the U.S. AI giant to court over a name dispute.",
-    "pubDate": "Mon, 09 Feb 2026 21:01:41 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "type": "news",
-    "impact": "medium",
-    "time": "18h ago"
-  },
-  {
-    "title": "ChatGPT rolls out ads",
-    "link": "https://techcrunch.com/2026/02/09/chatgpt-rolls-out-ads/",
-    "description": "OpenAI faced a backlash late last year when it tested app suggestions that looked like unwanted ads. Still, the AI company needs to generate revenue from its popular chatbot to cover the costs of developing its technology and growing the business.",
-    "pubDate": "Mon, 09 Feb 2026 20:15:26 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "type": "milestone",
-    "impact": "low",
-    "time": "19h ago"
-  },
-  {
-    "title": "Rafael joins Lockheed, Boeing-Anduril team for second IFPC Inc 2 interceptor competition",
-    "link": "https://breakingdefense.com/2026/02/rafael-joins-lockheed-boeing-anduril-team-for-second-ifpc-inc-2-competition/",
-    "description": "Today’s announcement comes more than two years after the Army began hunting for a second interceptor for its developmental IFPC Inc 2 launcher. ",
-    "pubDate": "Mon, 09 Feb 2026 17:36:46 +0000",
-    "category": "Land Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Anduril",
-    "type": "milestone",
-    "impact": "low",
-    "time": "22h ago"
+    "time": "20h ago"
   },
   {
     "title": "This Startup Thinks It Can Make Rocket Fuel From Water. Stop Laughing",
@@ -76,6 +63,32 @@
     "type": "ipo",
     "impact": "low",
     "time": "1d ago"
+  },
+  {
+    "title": "Falcon 9 returns to flight after upper stage engine investigation",
+    "link": "https://spacenews.com/falcon-9-returns-to-flight-after-upper-stage-engine-investigation/",
+    "description": "\nA Falcon 9 launched a batch of Starlink satellites on Feb. 7 after SpaceX completed an investigation into an engine malfunction during the rocket’s previous launch five days earlier.\nThe post Falcon 9 returns to flight after upper stage engine investigation appeared first on SpaceNews.",
+    "pubDate": "Sat, 07 Feb 2026 22:14:02 +0000",
+    "category": "Launch",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "SpaceX IPO could drive investor interest in other space companies",
+    "link": "https://spacenews.com/spacex-ipo-could-drive-investor-interest-in-other-space-companies/",
+    "description": "\nAn investor in two space companies that went public in the past year said an upcoming SpaceX IPO could generate new investor interest while also triggering a wave of consolidation.\nThe post SpaceX IPO could drive investor interest in other space companies appeared first on SpaceNews.",
+    "pubDate": "Sat, 07 Feb 2026 20:46:06 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "type": "ipo",
+    "impact": "high",
+    "time": "2d ago"
   },
   {
     "title": "Moltbook, the Social Network for AI Agents, Exposed Real Humans’ Data",
@@ -101,7 +114,7 @@
     "matchedCompany": "Waymo",
     "type": "funding",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Shield AI, ST Engineering join forces on fine-tuning drone swarms",
@@ -140,7 +153,7 @@
     "matchedCompany": "OpenAI",
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "Should AI chatbots have ads? Anthropic says no.",
