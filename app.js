@@ -5064,7 +5064,7 @@ function initAIQuery() {
     }
 
     // Funding amount detection
-    const fundingMatch = q.match(/(?:over|more than|at least|>\s*)?$?(\d+(?:\.\d+)?)\s*(billion|b|million|m)\s*(?:funding|raised)?/i);
+    const fundingMatch = q.match(/(?:over|more than|at least|>\s*)?\$?(\d+(?:\.\d+)?)\s*(billion|b|million|m)\s*(?:funding|raised)?/i);
     if (fundingMatch) {
       let amount = parseFloat(fundingMatch[1]);
       const unit = fundingMatch[2].toLowerCase();
@@ -5075,7 +5075,7 @@ function initAIQuery() {
     }
 
     // Valuation detection
-    const valuationMatch = q.match(/(?:valuation|valued at|worth).*?(?:over|more than|at least)?\s*$?(\d+(?:\.\d+)?)\s*(billion|b|million|m)/i);
+    const valuationMatch = q.match(/(?:valuation|valued at|worth).*?(?:over|more than|at least)?\s*\$?(\d+(?:\.\d+)?)\s*(billion|b|million|m)/i);
     if (valuationMatch) {
       let amount = parseFloat(valuationMatch[1]);
       const unit = valuationMatch[2].toLowerCase();
