@@ -9148,14 +9148,14 @@ const SECTOR_MOMENTUM = [
 
 // ─── BREAKING NEWS TICKER ───
 const NEWS_TICKER = [
-  { text: "SpaceX IPO could drive investor interest in other space companies", time: "1d ago", priority: "high" },
-  { text: "Bedrock Robotics’ $270M Series B paves the way for operator-less excavators", time: "4d ago", priority: "high" },
-  { text: "Falcon 9 returns to flight after upper stage engine investigation", time: "1d ago", priority: "high" },
-  { text: "What the SpaceX acquisition of xAI means for industrial robotics", time: "20h ago", priority: "high" },
-  { text: "How Elon Musk is rewriting the rules on founder power", time: "2d ago", priority: "high" },
-  { text: "Tomorrow.io banks $175 million for DeepSky weather constellation", time: "3d ago", priority: "high" },
-  { text: "Army’s new space career field won’t ‘encroach’ on Space Force: Official", time: "2d ago", priority: "medium" },
-  { text: "Over the moon and under the radar", time: "2d ago", priority: "medium" }
+  { text: "SpaceX IPO could drive investor interest in other space companies", time: "2d ago", priority: "high" },
+  { text: "Bedrock Robotics’ $270M Series B paves the way for operator-less excavators", time: "5d ago", priority: "high" },
+  { text: "Falcon 9 returns to flight after upper stage engine investigation", time: "2d ago", priority: "high" },
+  { text: "What the SpaceX acquisition of xAI means for industrial robotics", time: "1d ago", priority: "high" },
+  { text: "Musk says SpaceX focus is on the moon rather than Mars", time: "11h ago", priority: "high" },
+  { text: "Anthropic closes in on $20B round", time: "16h ago", priority: "medium" },
+  { text: "Space Force buys second Otter spacecraft to power satellites on orbit", time: "12h ago", priority: "medium" },
+  { text: "Rafael joins Lockheed, Boeing-Anduril team for second IFPC Inc 2 interceptor competition", time: "16h ago", priority: "medium" }
 ];
 
 // ─── WEEKLY INTELLIGENCE DIGEST ───
