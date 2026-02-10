@@ -15095,23 +15095,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-10 11:15
+// Last updated: 2026-02-10 15:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI Abandons 'io' Branding for Its AI Hardware", source: "Wired", time: "5h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Waymo", headline: "Waymo is testing driverless robotaxis in Nashville", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Musk says SpaceX focus is on the moon rather than Mars", source: "SpaceNews", time: "12h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic's India expansion collides with a local company that already had the name", source: "TechCrunch", time: "14h ago", impact: "medium", unread: true },
-  { id: 5, type: "milestone", company: "OpenAI", headline: "ChatGPT rolls out ads", source: "TechCrunch", time: "15h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Anthropic", headline: "Anthropic closes in on $20B round", source: "TechCrunch", time: "17h ago", impact: "high", unread: false },
-  { id: 7, type: "milestone", company: "Anduril", headline: "Rafael joins Lockheed, Boeing-Anduril team for second IFPC Inc 2 interceptor competition", source: "Breaking Defense", time: "17h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "This Startup Thinks It Can Make Rocket Fuel From Water. Stop Laughing", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "Falcon 9 returns to flight after upper stage engine investigation", source: "SpaceNews", time: "2d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX IPO could drive investor interest in other space companies", source: "SpaceNews", time: "2d ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "Starlink", headline: "Moltbook, the Social Network for AI Agents, Exposed Real Humans' Data", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "The Only Thing Standing Between Humanity and AI Apocalypse Is ' Claude?", source: "Wired", time: "3d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "3d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "3d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI Abandons 'io' Branding for Its AI Hardware", source: "Wired", time: "10h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Waymo", headline: "Waymo is testing driverless robotaxis in Nashville", source: "TechCrunch", time: "16h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic's India expansion collides with a local company that already had the name", source: "TechCrunch", time: "18h ago", impact: "medium", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "ChatGPT rolls out ads", source: "TechCrunch", time: "19h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Anduril", headline: "Rafael joins Lockheed, Boeing-Anduril team for second IFPC Inc 2 interceptor competition", source: "Breaking Defense", time: "22h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "This Startup Thinks It Can Make Rocket Fuel From Water. Stop Laughing", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Starlink", headline: "Moltbook, the Social Network for AI Agents, Exposed Real Humans' Data", source: "Wired", time: "3d ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "3d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "4d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "4d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI is hoppin' mad about Anthropic's new Super Bowl TV ads", source: "Ars Technica", time: "4d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Should AI chatbots have ads? Anthropic says no.", source: "Ars Technica", time: "5d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "Nvidia's $100 billion OpenAI deal has seemingly vanished", source: "Ars Technica", time: "6d ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "New OpenAI tool renews fears that 'AI slop' will overwhelm scientific research", source: "Ars Technica Space", time: "1/29/2026", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Anthropic", headline: "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?", source: "Ars Technica", time: "1/29/2026", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
