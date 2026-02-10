@@ -2232,7 +2232,7 @@ function exportWatchlistCSV() {
 function parseValuation(val) {
   if (!val) return 0;
   // Extract number and unit (B/M/T) that appears immediately after
-  const match = val.match(/$?([\d,.]+)\s*([BMTbmt])/);
+  const match = val.match(/\$?([\d,.]+)\s*([BMTbmt])/);
   if (!match) return 0;
   const num = parseFloat(match[1].replace(/,/g, ''));
   if (isNaN(num)) return 0;
@@ -2246,7 +2246,7 @@ function parseValuation(val) {
 function parseFunding(val) {
   if (!val) return 0;
   // Extract number and unit (B/M/T) that appears immediately after
-  const match = val.match(/$?([\d,.]+)\s*([BMTbmt])/);
+  const match = val.match(/\$?([\d,.]+)\s*([BMTbmt])/);
   if (!match) return 0;
   const num = parseFloat(match[1].replace(/,/g, ''));
   if (isNaN(num)) return 0;
@@ -3287,7 +3287,7 @@ function initRevenueTable() {
 
   const sorted = [...REVENUE_INTEL].sort((a, b) => {
     const parseRev = (r) => {
-      const m = r.match(/$?([\d.]+)(B|M|T)/);
+      const m = r.match(/\$?([\d.]+)(B|M|T)/);
       if (!m) return 0;
       const val = parseFloat(m[1]);
       if (m[2] === 'T') return val * 1000;
