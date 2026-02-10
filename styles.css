@@ -4762,6 +4762,52 @@ body {
 .pulse-change.up { color: #22C55E; }
 .pulse-change.down { color: #EF4444; }
 
+/* ─── CAPITAL FLOWS (Combined Funding + Deals) ─── */
+.capital-flows-section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.capital-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
+}
+
+.capital-tab {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.capital-tab:hover {
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+}
+
+.capital-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+}
+
+.capital-panel {
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 /* ─── FUNDING TRACKER ─── */
 .funding-tracker-section {
   padding: 60px 0;

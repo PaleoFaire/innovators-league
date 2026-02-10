@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=24">
+    <link rel="stylesheet" href="styles.css?v=25">
 </head>
 <body>
     <!-- Navigation — Redesigned around 3 Workflows -->
@@ -192,15 +192,28 @@
         </div>
     </section>
 
-    <!-- Funding Tracker -->
-    <section class="funding-tracker-section" id="funding-tracker">
+    <!-- Capital Flows (Combined Funding + Deal Tracker) -->
+    <section class="capital-flows-section" id="capital-flows">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">CAPITAL FLOWS</p>
-                <h2>Funding Tracker</h2>
-                <p>The latest funding rounds across frontier tech — updated weekly.</p>
+                <p class="section-eyebrow">CAPITAL INTELLIGENCE</p>
+                <h2>Capital Flows</h2>
+                <p>Who invested, when, and how much — the definitive record of frontier tech capital.</p>
             </div>
-            <div class="funding-tracker-grid" id="funding-tracker-grid"></div>
+            <div class="capital-tabs">
+                <button class="capital-tab active" data-tab="funding">Funding Rounds</button>
+                <button class="capital-tab" data-tab="deals">Deal Flow</button>
+            </div>
+            <div class="capital-panel" id="funding-panel" data-panel="funding">
+                <div class="funding-tracker-grid" id="funding-tracker-grid"></div>
+            </div>
+            <div class="capital-panel" id="deals-panel" data-panel="deals" style="display: none;">
+                <div class="deal-filter-bar">
+                    <button class="deal-filter active" data-filter="all">All Deals</button>
+                    <button class="deal-filter" data-filter="lead">Lead Investors Only</button>
+                </div>
+                <div class="deal-grid" id="deal-grid"></div>
+            </div>
         </div>
     </section>
 
@@ -244,21 +257,6 @@
         </div>
     </section>
 
-    <!-- Deal Tracker -->
-    <section class="deal-tracker-section" id="deal-tracker">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">CAPITAL INTELLIGENCE</p>
-                <h2>Deal Tracker</h2>
-                <p>Who invested, when, and how much — the definitive record of frontier tech capital flows.</p>
-            </div>
-            <div class="deal-filter-bar">
-                <button class="deal-filter active" data-filter="all">All Deals</button>
-                <button class="deal-filter" data-filter="lead">Lead Investors Only</button>
-            </div>
-            <div class="deal-grid" id="deal-grid"></div>
-        </div>
-    </section>
 
     <!-- Growth Signals Dashboard -->
     <!-- Market Map -->
@@ -1169,7 +1167,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <script src="data.js?v=56"></script>
-    <script src="app.js?v=56"></script>
+    <script src="data.js?v=57"></script>
+    <script src="app.js?v=57"></script>
 </body>
 </html>

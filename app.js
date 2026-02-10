@@ -971,6 +971,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initEfficiencyLeaderboard();
   initTRLDashboard();
   initDealTracker();
+  initCapitalFlowsTabs();
   initGrowthSignals();
   initMarketMap();
   initMafiaExplorer();
@@ -2957,6 +2958,33 @@ function initMarketPulse() {
     `;
     card.addEventListener('click', () => openCompanyModal(stock.name));
     grid.appendChild(card);
+  });
+}
+
+// ─── CAPITAL FLOWS TABS ───
+function initCapitalFlowsTabs() {
+  const tabs = document.querySelectorAll('.capital-tab');
+  const panels = document.querySelectorAll('.capital-panel');
+
+  if (tabs.length === 0) return;
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const targetTab = tab.dataset.tab;
+
+      // Update tab states
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      // Update panel visibility
+      panels.forEach(panel => {
+        if (panel.dataset.panel === targetTab) {
+          panel.style.display = 'block';
+        } else {
+          panel.style.display = 'none';
+        }
+      });
+    });
   });
 }
 
