@@ -886,16 +886,11 @@ function shareCompany(companyName, btnEl) {
 
 // ─── APP INITIALIZATION ───
 document.addEventListener('DOMContentLoaded', () => {
-  // Debug: Check if data loaded
-  console.log('🔍 Data check:', {
-    COMPANIES: typeof COMPANIES !== 'undefined' ? COMPANIES.length : 'undefined',
-    SECTORS: typeof SECTORS !== 'undefined' ? Object.keys(SECTORS).length : 'undefined'
-  });
-
+  // Initialize stats with error boundary
   try {
     initStats();
   } catch (e) {
-    console.error('initStats error:', e);
+    // Stats init failed silently - non-critical
   }
   initMap();
   initFilters();
@@ -1089,8 +1084,6 @@ function initSectionTimestamps() {
   Object.entries(sectionMappings).forEach(([sectionId, dataSourceKey]) => {
     addSectionTimestamp(sectionId, dataSourceKey);
   });
-
-  console.log('📊 Section timestamps initialized for', Object.keys(sectionMappings).length, 'sections');
 }
 
 // ═══════════════════════════════════════════════════════
@@ -1098,7 +1091,6 @@ function initSectionTimestamps() {
 // ═══════════════════════════════════════════════════════
 function initFromTheSource() {
   if (typeof FROM_THE_SOURCE === 'undefined') {
-    console.log('📝 FROM_THE_SOURCE data not found');
     return;
   }
 
@@ -1135,7 +1127,6 @@ function initFromTheSource() {
   }).join('');
 
   grid.innerHTML = cards;
-  console.log('🎙️ From the Source initialized with', FROM_THE_SOURCE.length, 'items');
 }
 
 // Get founder connection data for a company
@@ -1373,14 +1364,22 @@ function initFilters() {
 }
 
 function applyFilters() {
-  const sector = document.getElementById('sector-filter').value;
-  const country = document.getElementById('country-filter').value;
-  const stateCode = document.getElementById('state-filter')?.value;
-  const stage = document.getElementById('stage-filter').value;
-  const sortBy = document.getElementById('sort-filter').value;
-  const searchTerm = document.getElementById('search-input').value.toLowerCase();
+  // Safe element access with null checks
+  const sectorEl = document.getElementById('sector-filter');
+  const countryEl = document.getElementById('country-filter');
+  const stateEl = document.getElementById('state-filter');
+  const stageEl = document.getElementById('stage-filter');
+  const sortEl = document.getElementById('sort-filter');
+  const searchEl = document.getElementById('search-input');
 
-  let filtered = COMPANIES;
+  const sector = sectorEl?.value || 'all';
+  const country = countryEl?.value || 'all';
+  const stateCode = stateEl?.value || 'all';
+  const stage = stageEl?.value || 'all';
+  const sortBy = sortEl?.value || 'name';
+  const searchTerm = (searchEl?.value || '').toLowerCase();
+
+  let filtered = COMPANIES || [];
 
   if (sector && sector !== 'all') {
     filtered = filtered.filter(c => c.sector === sector);
@@ -1403,11 +1402,11 @@ function applyFilters() {
   if (searchTerm) {
     filtered = filtered.filter(c =>
       c.name.toLowerCase().includes(searchTerm) ||
-      c.description.toLowerCase().includes(searchTerm) ||
+      (c.description && c.description.toLowerCase().includes(searchTerm)) ||
       (c.founder && c.founder.toLowerCase().includes(searchTerm)) ||
-      c.location.toLowerCase().includes(searchTerm) ||
-      c.sector.toLowerCase().includes(searchTerm) ||
-      c.tags.some(t => t.toLowerCase().includes(searchTerm)) ||
+      (c.location && c.location.toLowerCase().includes(searchTerm)) ||
+      (c.sector && c.sector.toLowerCase().includes(searchTerm)) ||
+      (c.tags && c.tags.some(t => t.toLowerCase().includes(searchTerm))) ||
       getCountry(c.state, c.location).toLowerCase().includes(searchTerm)
     );
   }
@@ -1466,7 +1465,9 @@ function applyFilters() {
   window.history.replaceState({}, '', url);
 
   const noResults = document.getElementById('no-results');
-  noResults.style.display = filtered.length === 0 ? 'block' : 'none';
+  if (noResults) {
+    noResults.style.display = filtered.length === 0 ? 'block' : 'none';
+  }
 }
 
 function updateResultsCount(count) {
@@ -1495,6 +1496,7 @@ function updateStateFilterVisibility() {
 // ─── SEARCH ───
 function initSearch() {
   const input = document.getElementById('search-input');
+  if (!input) return;
   let debounce;
 
   input.addEventListener('input', () => {
@@ -1713,6 +1715,7 @@ function renderSearchResults(results, dropdown) {
 // ─── RENDER COMPANIES ───
 function renderCompanies(companies) {
   const grid = document.getElementById('company-grid');
+  if (!grid) return;
   grid.innerHTML = '';
 
   companies.forEach((company, i) => {
@@ -1762,7 +1765,7 @@ function renderCompanies(companies) {
       ${metaItems.length ? `<div class="card-meta">${metaItems.join('')}</div>` : ''}
       <p class="card-description">${company.description}</p>
       <div class="card-tags">
-        ${company.tags.slice(0, 3).map(t => `<span class="tag">${t}</span>`).join('')}
+        ${(company.tags || []).slice(0, 3).map(t => `<span class="tag">${t}</span>`).join('')}
       </div>
       <div class="card-footer">
         ${company.rosLink ? `<a href="${company.rosLink}" target="_blank" rel="noopener" class="card-link" onclick="event.stopPropagation();">
@@ -1787,6 +1790,7 @@ function renderCompanies(companies) {
 // ─── RENDER SECTORS ───
 function renderSectors() {
   const grid = document.getElementById('sectors-grid');
+  if (!grid || typeof SECTORS === 'undefined') return;
 
   Object.entries(SECTORS).forEach(([name, info]) => {
     const count = COMPANIES.filter(c => c.sector === name).length;
@@ -6623,6 +6627,4 @@ function initPremiumFeatures() {
   initProWatchlist();
   initNetworkStatusBar();
   initAISearch();
-
-  console.log('🚀 Premium intelligence features initialized');
 }
