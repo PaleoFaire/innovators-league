@@ -2232,7 +2232,7 @@ function exportWatchlistCSV() {
 function parseValuation(val) {
   if (!val) return 0;
   // Extract number and unit (B/M/T) that appears immediately after
-  const match = val.match(/\$?([\d,.]+)\s*([BMTbmt])/);
+  const match = val.match(/$?([\d,.]+)\s*([BMTbmt])/);
   if (!match) return 0;
   const num = parseFloat(match[1].replace(/,/g, ''));
   if (isNaN(num)) return 0;
@@ -2246,7 +2246,7 @@ function parseValuation(val) {
 function parseFunding(val) {
   if (!val) return 0;
   // Extract number and unit (B/M/T) that appears immediately after
-  const match = val.match(/\$?([\d,.]+)\s*([BMTbmt])/);
+  const match = val.match(/$?([\d,.]+)\s*([BMTbmt])/);
   if (!match) return 0;
   const num = parseFloat(match[1].replace(/,/g, ''));
   if (isNaN(num)) return 0;
@@ -3287,7 +3287,7 @@ function initRevenueTable() {
 
   const sorted = [...REVENUE_INTEL].sort((a, b) => {
     const parseRev = (r) => {
-      const m = r.match(/\$?([\d.]+)(B|M|T)/);
+      const m = r.match(/$?([\d.]+)(B|M|T)/);
       if (!m) return 0;
       const val = parseFloat(m[1]);
       if (m[2] === 'T') return val * 1000;
@@ -5064,7 +5064,7 @@ function initAIQuery() {
     }
 
     // Funding amount detection
-    const fundingMatch = q.match(/(?:over|more than|at least|>\s*)?\$?(\d+(?:\.\d+)?)\s*(billion|b|million|m)\s*(?:funding|raised)?/i);
+    const fundingMatch = q.match(/(?:over|more than|at least|>\s*)?$?(\d+(?:\.\d+)?)\s*(billion|b|million|m)\s*(?:funding|raised)?/i);
     if (fundingMatch) {
       let amount = parseFloat(fundingMatch[1]);
       const unit = fundingMatch[2].toLowerCase();
@@ -5075,7 +5075,7 @@ function initAIQuery() {
     }
 
     // Valuation detection
-    const valuationMatch = q.match(/(?:valuation|valued at|worth).*?(?:over|more than|at least)?\s*\$?(\d+(?:\.\d+)?)\s*(billion|b|million|m)/i);
+    const valuationMatch = q.match(/(?:valuation|valued at|worth).*?(?:over|more than|at least)?\s*$?(\d+(?:\.\d+)?)\s*(billion|b|million|m)/i);
     if (valuationMatch) {
       let amount = parseFloat(valuationMatch[1]);
       const unit = valuationMatch[2].toLowerCase();
@@ -6053,59 +6053,59 @@ function initHistoricalTracking() {
 
     const pathD = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`).join(' ');
 
-    chartContainer.innerHTML = \`
-      <svg width="\${width}" height="\${height}" class="historical-svg">
+    chartContainer.innerHTML = `
+      <svg width="${width}" height="${height}" class="historical-svg">
         <!-- Grid lines -->
-        \${[0, 0.25, 0.5, 0.75, 1].map(pct => {
+        ${[0, 0.25, 0.5, 0.75, 1].map(pct => {
           const y = padding.top + (1 - pct) * chartHeight;
           const val = minValue + pct * range;
-          return \`
-            <line x1="\${padding.left}" y1="\${y}" x2="\${width - padding.right}" y2="\${y}" stroke="var(--border)" stroke-dasharray="4"/>
-            <text x="\${padding.left - 10}" y="\${y + 4}" fill="var(--text-muted)" font-size="11" text-anchor="end">\${formatValue(val.toFixed(1))}</text>
-          \`;
+          return `
+            <line x1="${padding.left}" y1="${y}" x2="${width - padding.right}" y2="${y}" stroke="var(--border)" stroke-dasharray="4"/>
+            <text x="${padding.left - 10}" y="${y + 4}" fill="var(--text-muted)" font-size="11" text-anchor="end">${formatValue(val.toFixed(1))}</text>
+          `;
         }).join('')}
 
         <!-- Axis labels -->
-        <text x="\${padding.left + chartWidth / 2}" y="\${height - 10}" fill="var(--text-muted)" font-size="12" text-anchor="middle">Time</text>
-        <text x="15" y="\${padding.top + chartHeight / 2}" fill="var(--text-muted)" font-size="12" text-anchor="middle" transform="rotate(-90, 15, \${padding.top + chartHeight / 2})">\${yLabel}</text>
+        <text x="${padding.left + chartWidth / 2}" y="${height - 10}" fill="var(--text-muted)" font-size="12" text-anchor="middle">Time</text>
+        <text x="15" y="${padding.top + chartHeight / 2}" fill="var(--text-muted)" font-size="12" text-anchor="middle" transform="rotate(-90, 15, ${padding.top + chartHeight / 2})">${yLabel}</text>
 
         <!-- Line path -->
-        <path d="\${pathD}" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="${pathD}" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
         <!-- Data points -->
-        \${points.map(p => \`
-          <circle cx="\${p.x}" cy="\${p.y}" r="6" fill="var(--accent)" stroke="var(--bg)" stroke-width="2"/>
-          <text x="\${p.x}" y="\${p.y - 15}" fill="var(--text-primary)" font-size="11" text-anchor="middle" font-weight="600">\${formatValue(p.val)}</text>
-        \`).join('')}
+        ${points.map(p => `
+          <circle cx="${p.x}" cy="${p.y}" r="6" fill="var(--accent)" stroke="var(--bg)" stroke-width="2"/>
+          <text x="${p.x}" y="${p.y - 15}" fill="var(--text-primary)" font-size="11" text-anchor="middle" font-weight="600">${formatValue(p.val)}</text>
+        `).join('')}
 
         <!-- X axis labels -->
-        \${points.map(p => \`
-          <text x="\${p.x}" y="\${height - padding.bottom + 20}" fill="var(--text-muted)" font-size="10" text-anchor="middle">\${p.date}</text>
-          <text x="\${p.x}" y="\${height - padding.bottom + 35}" fill="var(--text-secondary)" font-size="9" text-anchor="middle">\${p.event || ''}</text>
-        \`).join('')}
+        ${points.map(p => `
+          <text x="${p.x}" y="${height - padding.bottom + 20}" fill="var(--text-muted)" font-size="10" text-anchor="middle">${p.date}</text>
+          <text x="${p.x}" y="${height - padding.bottom + 35}" fill="var(--text-secondary)" font-size="9" text-anchor="middle">${p.event || ''}</text>
+        `).join('')}
       </svg>
-    \`;
+    `;
 
     // Render timeline below
     if (timelineContainer) {
-      timelineContainer.innerHTML = \`
+      timelineContainer.innerHTML = `
         <div class="historical-timeline-header">
-          <h4>\${company} Timeline</h4>
+          <h4>${company} Timeline</h4>
         </div>
         <div class="historical-timeline-events">
-          \${chartData.map(d => {
+          ${chartData.map(d => {
             const val = d.value || d.cumulative || d.count;
-            return \`
+            return `
               <div class="timeline-event">
-                <span class="timeline-date">\${d.date}</span>
+                <span class="timeline-date">${d.date}</span>
                 <span class="timeline-marker"></span>
-                <span class="timeline-label">\${d.event || d.round || 'Update'}</span>
-                <span class="timeline-value">\${formatValue(val)}</span>
+                <span class="timeline-label">${d.event || d.round || 'Update'}</span>
+                <span class="timeline-value">${formatValue(val)}</span>
               </div>
-            \`;
+            `;
           }).join('')}
         </div>
-      \`;
+      `;
     }
   }
 
