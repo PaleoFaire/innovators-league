@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=20">
+    <link rel="stylesheet" href="styles.css?v=21">
 </head>
 <body>
     <!-- Navigation — Redesigned around 3 Workflows -->
@@ -71,9 +71,10 @@
             <h1 class="hero-title">Frontier tech intelligence you can use tomorrow.</h1>
             <p class="hero-subtitle"><span id="company-count-inline">460+</span> companies across defense, space, energy, biotech, and robotics &mdash; ranked, tracked, and explained.</p>
             <div class="hero-actions">
-                <a href="#map" class="hero-btn primary">🗺️ Explore the Map</a>
-                <a href="#innovator50" class="hero-btn secondary">🏆 See the ROS 50</a>
+                <a href="#enterprise" class="hero-btn primary">See Who This Is For →</a>
+                <a href="#private-community" class="hero-btn secondary">View Pricing</a>
             </div>
+            <p class="hero-trust-line">Trusted by VCs, defense primes, and corporate strategy teams</p>
             <div class="hero-stats">
                 <div class="stat">
                     <span class="stat-number" id="company-count">0</span>
@@ -108,15 +109,189 @@
         <div class="ticker-scroll" id="ticker-scroll"></div>
     </div>
 
-    <!-- Value Proposition Banner -->
-    <section class="value-prop-banner">
+    <!-- Enterprise Value Proposition -->
+    <section class="enterprise-value-section" id="enterprise">
         <div class="container">
-            <div class="value-prop-content">
-                <div class="value-prop-text">
-                    <span class="value-prop-badge">🔒 MEMBERS ONLY</span>
-                    <p><strong>Get the full picture.</strong> ROS members get weekly deep-dives, exclusive data exports, and direct access to founders.</p>
+            <div class="enterprise-header">
+                <p class="section-eyebrow">WHO THIS IS FOR</p>
+                <h2>Intelligence That Pays for Itself</h2>
+                <p class="enterprise-subtitle">The Innovators League delivers decision-grade intelligence to organizations that can't afford blind spots in frontier tech.</p>
+            </div>
+
+            <!-- Persona Cards -->
+            <div class="persona-grid">
+                <!-- Defense & Procurement -->
+                <div class="persona-card defense">
+                    <div class="persona-icon">🛡️</div>
+                    <h3>Defense & Procurement</h3>
+                    <p class="persona-role">DoD Program Managers, DIU Scouts, Defense Primes</p>
+                    <div class="persona-question">"Which companies can actually deliver on a $50M contract?"</div>
+                    <ul class="persona-value">
+                        <li><span class="check">✓</span> Contractor Readiness Scores (TRL + SBIR + Past Performance)</li>
+                        <li><span class="check">✓</span> Agency-to-company contract mapping</li>
+                        <li><span class="check">✓</span> Budget signal alerts tied to technology areas</li>
+                        <li><span class="check">✓</span> Supply chain risk visibility</li>
+                    </ul>
+                    <div class="persona-roi">
+                        <span class="roi-label">Comparable:</span>
+                        <span class="roi-value">GovWin IQ ($45K/yr)</span>
+                    </div>
                 </div>
-                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="value-prop-cta">Join the Rational Optimist Society →</a>
+
+                <!-- VCs & Investors -->
+                <div class="persona-card investor featured">
+                    <div class="persona-featured-badge">MOST POPULAR</div>
+                    <div class="persona-icon">💰</div>
+                    <h3>VCs & Investors</h3>
+                    <p class="persona-role">Frontier-Focused Funds, Family Offices, Angels</p>
+                    <div class="persona-question">"How do I find deals before my competitors?"</div>
+                    <ul class="persona-value">
+                        <li><span class="check">✓</span> Proprietary Innovator Score™ rankings</li>
+                        <li><span class="check">✓</span> Network graph revealing hidden connections</li>
+                        <li><span class="check">✓</span> Signal alerts: funding + hiring + contracts</li>
+                        <li><span class="check">✓</span> Portfolio monitoring & scenario modeling</li>
+                    </ul>
+                    <div class="persona-roi">
+                        <span class="roi-label">Comparable:</span>
+                        <span class="roi-value">Dealroom ($20K/yr) + Affinity ($4.6K/yr)</span>
+                    </div>
+                </div>
+
+                <!-- Corporate M&A -->
+                <div class="persona-card corpdev">
+                    <div class="persona-icon">🏢</div>
+                    <h3>Corporate Development</h3>
+                    <p class="persona-role">M&A Teams, Ventures Arms, Strategy</p>
+                    <div class="persona-question">"Who should we acquire before our competitors do?"</div>
+                    <ul class="persona-value">
+                        <li><span class="check">✓</span> Patent intelligence & IP moat analysis</li>
+                        <li><span class="check">✓</span> M&A probability scores</li>
+                        <li><span class="check">✓</span> Competitive landscape mapping</li>
+                        <li><span class="check">✓</span> Technology overlap detection</li>
+                    </ul>
+                    <div class="persona-roi">
+                        <span class="roi-label">Comparable:</span>
+                        <span class="roi-value">PitchBook ($20K/yr) + CB Insights ($15K/yr)</span>
+                    </div>
+                </div>
+
+                <!-- Analysts & Research -->
+                <div class="persona-card analyst">
+                    <div class="persona-icon">📊</div>
+                    <h3>Research & Analysis</h3>
+                    <p class="persona-role">Equity Research, Consultants, Journalists</p>
+                    <div class="persona-question">"How do I produce sector reports faster than competitors?"</div>
+                    <ul class="persona-value">
+                        <li><span class="check">✓</span> AI-generated investment memos</li>
+                        <li><span class="check">✓</span> Exportable sector intelligence PDFs</li>
+                        <li><span class="check">✓</span> Comparative analysis tools</li>
+                        <li><span class="check">✓</span> Valuation benchmarks & comps</li>
+                    </ul>
+                    <div class="persona-roi">
+                        <span class="roi-label">Comparable:</span>
+                        <span class="roi-value">AlphaSense ($50K/yr)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ROI Calculator -->
+            <div class="roi-calculator">
+                <div class="roi-calc-header">
+                    <h3>💡 The Math Is Simple</h3>
+                </div>
+                <div class="roi-calc-grid">
+                    <div class="roi-calc-item">
+                        <span class="roi-calc-number">1</span>
+                        <span class="roi-calc-text">missed deal or bad vendor = <strong>$500K+ cost</strong></span>
+                    </div>
+                    <div class="roi-calc-item">
+                        <span class="roi-calc-number">1</span>
+                        <span class="roi-calc-text">early signal = <strong>6-month head start</strong></span>
+                    </div>
+                    <div class="roi-calc-item">
+                        <span class="roi-calc-number">10</span>
+                        <span class="roi-calc-text">hours saved per week = <strong>$50K+ in analyst time</strong></span>
+                    </div>
+                </div>
+                <p class="roi-calc-conclusion">At $25K/year, TIL pays for itself with <strong>one good decision</strong>.</p>
+            </div>
+
+            <!-- Social Proof -->
+            <div class="social-proof">
+                <p class="proof-label">Trusted by teams at</p>
+                <div class="proof-logos">
+                    <span class="proof-logo">Defense Primes</span>
+                    <span class="proof-divider">•</span>
+                    <span class="proof-logo">Tier 1 VCs</span>
+                    <span class="proof-divider">•</span>
+                    <span class="proof-logo">Fortune 500 Strategy</span>
+                    <span class="proof-divider">•</span>
+                    <span class="proof-logo">Government Agencies</span>
+                </div>
+            </div>
+
+            <!-- Enterprise CTA -->
+            <div class="enterprise-cta">
+                <a href="#private-community" class="enterprise-cta-btn primary">View Pricing & Plans →</a>
+                <a href="mailto:enterprise@rationaloptimistsociety.com" class="enterprise-cta-btn secondary">Request Enterprise Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Killer Features Showcase -->
+    <section class="killer-features-section" id="killer-features">
+        <div class="container">
+            <div class="killer-header">
+                <p class="section-eyebrow">WHAT MAKES THIS WORTH $25K+</p>
+                <h2>Intelligence You Can't Get Anywhere Else</h2>
+            </div>
+
+            <div class="killer-grid">
+                <div class="killer-feature">
+                    <div class="killer-icon">🎯</div>
+                    <h3>Innovator Score™</h3>
+                    <p>Our proprietary 0-1000 composite metric — the "Mosaic Score" for frontier tech. Scored across Momentum, Market, Technology, and Team.</p>
+                    <div class="killer-proof">CB Insights charges $15K/yr for their Mosaic Score. Ours is more tailored to frontier tech.</div>
+                </div>
+
+                <div class="killer-feature">
+                    <div class="killer-icon">🏛️</div>
+                    <h3>Government Contract Intelligence</h3>
+                    <p>Contract awards, SBIR status, agency relationships, and budget signals mapped directly to 460+ frontier tech startups.</p>
+                    <div class="killer-proof">GovWin IQ charges $45K/yr. We aggregate it for free.</div>
+                </div>
+
+                <div class="killer-feature">
+                    <div class="killer-icon">🔬</div>
+                    <h3>Patent & IP Moat Analysis</h3>
+                    <p>Patent portfolios, filing velocity, and IP defensibility scores. The leading indicator of technology moats.</p>
+                    <div class="killer-proof">PatSnap charges $10K+/yr. We surface the key insights.</div>
+                </div>
+
+                <div class="killer-feature">
+                    <div class="killer-icon">🕸️</div>
+                    <h3>Network Graph</h3>
+                    <p>Interactive visualization of relationships between companies, investors, and key people. Find hidden connections instantly.</p>
+                    <div class="killer-proof">Affinity CRM charges $4.6K/user/yr for relationship intelligence.</div>
+                </div>
+
+                <div class="killer-feature">
+                    <div class="killer-icon">📊</div>
+                    <h3>Predictive Analytics</h3>
+                    <p>IPO readiness, M&A probability, failure risk, and next-round predictions based on documented signals.</p>
+                    <div class="killer-proof">No competitor offers this for private frontier tech companies.</div>
+                </div>
+
+                <div class="killer-feature">
+                    <div class="killer-icon">🤖</div>
+                    <h3>AI Investment Memos</h3>
+                    <p>Generate institutional-quality investment memos in seconds using our structured data + your own API key.</p>
+                    <div class="killer-proof">AlphaSense charges $50K/yr for AI-powered analysis.</div>
+                </div>
+            </div>
+
+            <div class="killer-cta">
+                <p>All of this in one platform. No $100K+ annual subscriptions.</p>
             </div>
         </div>
     </section>
@@ -696,70 +871,108 @@
         </div>
     </section>
 
-    <!-- Private Community — PILLAR 4 -->
+    <!-- Enterprise Pricing — PILLAR 4 -->
     <section class="private-community-section" id="private-community">
         <div class="container">
             <div class="private-community-hero">
-                <div class="pc-badge">🔒 INVITE ONLY</div>
-                <h2 class="pc-title">The ROS Intelligence Community</h2>
-                <p class="pc-subtitle">A curated network of founders building the future and investors funding it. The only defensible moat.</p>
+                <div class="pc-badge">ENTERPRISE INTELLIGENCE</div>
+                <h2 class="pc-title">Pricing That Scales With Your Mission</h2>
+                <p class="pc-subtitle">From individual analysts to enterprise teams. Every tier includes the intelligence infrastructure that justifies 10x the cost.</p>
             </div>
 
-            <div class="pc-tiers-grid">
-                <!-- Founder Tier -->
-                <div class="pc-tier-card founder">
-                    <div class="pc-tier-header">
-                        <span class="pc-tier-icon">🚀</span>
-                        <h3 class="pc-tier-name">Founder Tier</h3>
-                        <span class="pc-tier-price">Free</span>
-                    </div>
-                    <p class="pc-tier-desc">For verified founders of ROS 200 companies</p>
-                    <ul class="pc-tier-benefits">
-                        <li>Free listing in the ROS Database</li>
-                        <li>Access to investor introductions</li>
-                        <li>Quarterly investor calls</li>
-                        <li>Feature rotation in newsletter</li>
-                        <li>Slack community access</li>
-                    </ul>
-                    <a href="https://www.rationaloptimistsociety.com/founders" target="_blank" rel="noopener" class="pc-tier-btn founder-btn">Apply as Founder</a>
-                </div>
-
-                <!-- Investor Tier -->
-                <div class="pc-tier-card investor featured">
-                    <div class="pc-tier-featured-badge">MOST POPULAR</div>
-                    <div class="pc-tier-header">
-                        <span class="pc-tier-icon">💰</span>
-                        <h3 class="pc-tier-name">Investor Tier</h3>
-                        <span class="pc-tier-price">$10K<span class="pc-tier-period">/year</span></span>
-                    </div>
-                    <p class="pc-tier-desc">For VCs, family offices, and angels</p>
-                    <ul class="pc-tier-benefits">
-                        <li>Direct founder access</li>
-                        <li>Deal flow channel</li>
-                        <li>Monthly expert calls</li>
-                        <li>Custom research requests</li>
-                        <li>Full database API access</li>
-                        <li>Priority support</li>
-                    </ul>
-                    <a href="https://www.rationaloptimistsociety.com/investors" target="_blank" rel="noopener" class="pc-tier-btn investor-btn">Join as Investor</a>
-                </div>
-
+            <div class="pc-tiers-grid enterprise-tiers">
                 <!-- Analyst Tier -->
                 <div class="pc-tier-card analyst">
                     <div class="pc-tier-header">
                         <span class="pc-tier-icon">📊</span>
-                        <h3 class="pc-tier-name">Analyst Tier</h3>
+                        <h3 class="pc-tier-name">Analyst</h3>
                         <span class="pc-tier-price">$5K<span class="pc-tier-period">/year</span></span>
                     </div>
-                    <p class="pc-tier-desc">For journalists, consultants, and researchers</p>
+                    <p class="pc-tier-desc">Individual researchers, consultants, journalists</p>
                     <ul class="pc-tier-benefits">
-                        <li>Full database access</li>
-                        <li>Exportable reports</li>
-                        <li>Slack read-only access</li>
-                        <li>Weekly intel briefs</li>
-                        <li>Citation rights</li>
+                        <li><strong>Full database access</strong> (460+ companies)</li>
+                        <li>Innovator Score™ rankings</li>
+                        <li>Exportable PDF reports</li>
+                        <li>Weekly intelligence briefs</li>
+                        <li>API access (100 calls/day)</li>
+                        <li>Email support</li>
                     </ul>
-                    <a href="https://www.rationaloptimistsociety.com/analysts" target="_blank" rel="noopener" class="pc-tier-btn analyst-btn">Join as Analyst</a>
+                    <div class="pc-tier-compare">
+                        <span>Replaces:</span> Crunchbase Pro ($5K) + manual research
+                    </div>
+                    <a href="mailto:analyst@rationaloptimistsociety.com?subject=Analyst%20Tier%20Inquiry" class="pc-tier-btn analyst-btn">Get Started →</a>
+                </div>
+
+                <!-- Professional Tier -->
+                <div class="pc-tier-card investor featured">
+                    <div class="pc-tier-featured-badge">BEST VALUE</div>
+                    <div class="pc-tier-header">
+                        <span class="pc-tier-icon">💼</span>
+                        <h3 class="pc-tier-name">Professional</h3>
+                        <span class="pc-tier-price">$15K<span class="pc-tier-period">/year</span></span>
+                    </div>
+                    <p class="pc-tier-desc">VCs, corp dev teams, family offices (1-5 seats)</p>
+                    <ul class="pc-tier-benefits">
+                        <li><strong>Everything in Analyst, plus:</strong></li>
+                        <li>Government contract intelligence</li>
+                        <li>Patent & IP moat analysis</li>
+                        <li>Network graph explorer</li>
+                        <li>AI investment memo generator</li>
+                        <li>Portfolio builder & scenarios</li>
+                        <li>Signal alerts (email + Slack)</li>
+                        <li>Founder/investor intro requests</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <div class="pc-tier-compare">
+                        <span>Replaces:</span> Dealroom ($20K) + PitchBook ($20K)
+                    </div>
+                    <a href="mailto:pro@rationaloptimistsociety.com?subject=Professional%20Tier%20Inquiry" class="pc-tier-btn investor-btn">Request Demo →</a>
+                </div>
+
+                <!-- Enterprise Tier -->
+                <div class="pc-tier-card enterprise">
+                    <div class="pc-tier-header">
+                        <span class="pc-tier-icon">🏢</span>
+                        <h3 class="pc-tier-name">Enterprise</h3>
+                        <span class="pc-tier-price">$50K+<span class="pc-tier-period">/year</span></span>
+                    </div>
+                    <p class="pc-tier-desc">Defense primes, large funds, government agencies</p>
+                    <ul class="pc-tier-benefits">
+                        <li><strong>Everything in Professional, plus:</strong></li>
+                        <li>Unlimited seats</li>
+                        <li>Custom data integrations</li>
+                        <li>Dedicated account manager</li>
+                        <li>Custom research projects</li>
+                        <li>White-label reports</li>
+                        <li>On-site training</li>
+                        <li>SLA & security review</li>
+                        <li>Quarterly strategy calls</li>
+                    </ul>
+                    <div class="pc-tier-compare">
+                        <span>Replaces:</span> GovWin IQ ($45K) + CB Insights ($15K) + AlphaSense ($50K)
+                    </div>
+                    <a href="mailto:enterprise@rationaloptimistsociety.com?subject=Enterprise%20Inquiry" class="pc-tier-btn enterprise-btn">Contact Sales →</a>
+                </div>
+
+                <!-- Founder Tier -->
+                <div class="pc-tier-card founder">
+                    <div class="pc-tier-header">
+                        <span class="pc-tier-icon">🚀</span>
+                        <h3 class="pc-tier-name">Founder</h3>
+                        <span class="pc-tier-price">Free</span>
+                    </div>
+                    <p class="pc-tier-desc">Verified founders of tracked companies</p>
+                    <ul class="pc-tier-benefits">
+                        <li>Company profile in database</li>
+                        <li>Investor introduction requests</li>
+                        <li>Newsletter feature rotation</li>
+                        <li>Private Slack community</li>
+                        <li>Quarterly investor calls</li>
+                    </ul>
+                    <div class="pc-tier-compare">
+                        <span>Requirement:</span> Must be in ROS 200
+                    </div>
+                    <a href="mailto:founders@rationaloptimistsociety.com?subject=Founder%20Application" class="pc-tier-btn founder-btn">Apply →</a>
                 </div>
             </div>
 
@@ -1142,7 +1355,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <script src="data.js?v=47"></script>
-    <script src="app.js?v=48"></script>
+    <script src="data.js?v=48"></script>
+    <script src="app.js?v=49"></script>
 </body>
 </html>
