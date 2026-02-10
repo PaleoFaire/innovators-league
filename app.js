@@ -5700,6 +5700,7 @@ function initIntelFeed() {
   }
 
   function renderStoryLeads() {
+    if (!storiesPanel) return;
     if (typeof STORY_LEADS === 'undefined') { storiesPanel.innerHTML = ''; return; }
     storiesPanel.innerHTML = STORY_LEADS.map(s => `
       <div class="story-lead-card">
