@@ -995,6 +995,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initIntelFeed();
   initSectorReports();
   initCommunityIntel();
+  initHistoricalTracking();
   initURLState();
   initSmoothScroll();
   updateResultsCount(COMPANIES.length);
@@ -3456,6 +3457,7 @@ function getInnovatorScore(companyName) {
 // ═══════════════════════════════════════════════════════════════
 function initGovContracts() {
   if (typeof GOV_CONTRACTS === 'undefined') return;
+  const readinessPanel = document.getElementById('gov-readiness-panel');
   const contractsPanel = document.getElementById('gov-contracts-panel');
   const budgetPanel = document.getElementById('gov-budget-panel');
   const heatmapPanel = document.getElementById('gov-heatmap-panel');
@@ -3467,11 +3469,69 @@ function initGovContracts() {
       document.querySelectorAll('.gov-tab').forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       const tabName = tab.dataset.tab;
+      if (readinessPanel) readinessPanel.style.display = tabName === 'readiness' ? '' : 'none';
       contractsPanel.style.display = tabName === 'contracts' ? '' : 'none';
       budgetPanel.style.display = tabName === 'budget' ? '' : 'none';
       heatmapPanel.style.display = tabName === 'heatmap' ? '' : 'none';
     });
   });
+
+  // Contractor Readiness Panel
+  if (typeof CONTRACTOR_READINESS !== 'undefined' && readinessPanel) {
+    const sorted = [...CONTRACTOR_READINESS].sort((a, b) => b.readinessScore - a.readinessScore);
+    readinessPanel.innerHTML = `
+      <div class="readiness-explainer">
+        <p><strong>Contractor Readiness Score (0-100):</strong> Composite metric combining TRL level, SBIR phase, security clearances, CMMC certification, past performance ratings, and facility clearance status. Higher scores indicate lower procurement risk.</p>
+      </div>
+      <div class="readiness-grid">
+        ${sorted.map(c => {
+          const scoreColor = c.readinessScore >= 90 ? '#22c55e' : c.readinessScore >= 75 ? '#3b82f6' : c.readinessScore >= 60 ? '#f59e0b' : '#ef4444';
+          const scoreTier = c.readinessScore >= 90 ? 'PRIME' : c.readinessScore >= 75 ? 'READY' : c.readinessScore >= 60 ? 'DEVELOPING' : 'EARLY';
+          return `
+            <div class="readiness-card" onclick="openCompanyModal('${c.company.replace(/'/g, "\\'")}')">
+              <div class="readiness-header">
+                <span class="readiness-company">${c.company}</span>
+                <div class="readiness-score-badge" style="background: ${scoreColor}">
+                  <span class="readiness-score-num">${c.readinessScore}</span>
+                  <span class="readiness-score-tier">${scoreTier}</span>
+                </div>
+              </div>
+              <div class="readiness-metrics">
+                <div class="readiness-metric">
+                  <span class="readiness-label">TRL</span>
+                  <span class="readiness-value">${c.trlLevel}/9</span>
+                </div>
+                <div class="readiness-metric">
+                  <span class="readiness-label">SBIR</span>
+                  <span class="readiness-value">${c.sbirPhase}</span>
+                </div>
+                <div class="readiness-metric">
+                  <span class="readiness-label">Clearance</span>
+                  <span class="readiness-value">${c.clearanceLevel}</span>
+                </div>
+                <div class="readiness-metric">
+                  <span class="readiness-label">CMMC</span>
+                  <span class="readiness-value">Level ${c.cmmcLevel}</span>
+                </div>
+              </div>
+              <div class="readiness-performance">
+                <span class="perf-label">Past Performance:</span>
+                <span class="perf-contracts">${c.pastPerformance.contractsCompleted} contracts</span>
+                <span class="perf-ontime">${c.pastPerformance.onTimeRate}% on-time</span>
+                <span class="perf-rating">★ ${c.pastPerformance.avgRating}</span>
+              </div>
+              <div class="readiness-agencies">
+                ${c.keyAgencies.map(a => `<span class="gov-agency-tag">${a}</span>`).join('')}
+              </div>
+              <div class="readiness-factors">
+                ${c.readinessFactors.map(f => `<span class="readiness-factor">✓ ${f}</span>`).join('')}
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
 
   // Filter out duplicates
   const contracts = GOV_CONTRACTS.filter(c => !c.notes?.includes('DUPLICATE'));
@@ -3977,6 +4037,126 @@ function initPredictiveScoring() {
     `;
   }
 
+  function renderDealFlowSignals() {
+    if (typeof DEAL_FLOW_SIGNALS === 'undefined') {
+      return '<div style="text-align: center; padding: 40px; color: var(--text-muted);">Deal flow data loading...</div>';
+    }
+
+    const sorted = [...DEAL_FLOW_SIGNALS].sort((a, b) => b.probability - a.probability);
+
+    return `
+      <div class="deal-flow-explainer" style="background: var(--bg-tertiary); padding: 16px; border-radius: var(--radius); margin-bottom: 24px;">
+        <p><strong>Deal Flow Signals:</strong> Pre-raise indicators predicting which companies will raise in the next 6 months. Based on hiring patterns, runway estimates, milestone achievements, and investor activity.</p>
+      </div>
+      <div class="predictive-grid">
+        ${sorted.map(d => {
+          const probColor = d.probability >= 80 ? '#22c55e' : d.probability >= 60 ? '#3b82f6' : '#f59e0b';
+          return `
+            <div class="predictive-card deal-flow-card">
+              <div class="predictive-header">
+                <div class="predictive-company" onclick="openCompanyModal('${d.company.replace(/'/g, "\\'")}')" style="cursor: pointer;">${d.company}</div>
+                <div class="deal-prob-badge" style="background: ${probColor}">
+                  <span class="deal-prob-num">${d.probability}%</span>
+                  <span class="deal-prob-label">Probability</span>
+                </div>
+              </div>
+              <div class="deal-prediction-row">
+                <div class="deal-pred-item">
+                  <span class="deal-pred-label">Round</span>
+                  <span class="deal-pred-value">${d.expectedRound}</span>
+                </div>
+                <div class="deal-pred-item">
+                  <span class="deal-pred-label">Amount</span>
+                  <span class="deal-pred-value">${d.expectedAmount}</span>
+                </div>
+                <div class="deal-pred-item">
+                  <span class="deal-pred-label">Timing</span>
+                  <span class="deal-pred-value">${d.expectedTiming}</span>
+                </div>
+              </div>
+              <div class="deal-signals">
+                <div class="deal-signals-label">Signal Breakdown:</div>
+                ${d.signals.map(s => `
+                  <div class="deal-signal-row">
+                    <span class="deal-signal-type">${s.type}</span>
+                    <span class="deal-signal-desc">${s.description}</span>
+                    <div class="deal-signal-weight">
+                      <div class="deal-signal-bar" style="width: ${s.weight}%"></div>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+              <div class="deal-leads">
+                <span class="deal-leads-label">Potential Leads:</span>
+                ${d.potentialLeads.map(l => `<span class="deal-lead-tag">${l}</span>`).join('')}
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
+
+  function renderMAComps() {
+    if (typeof MA_COMPS === 'undefined') {
+      return '<div style="text-align: center; padding: 40px; color: var(--text-muted);">M&A comps data loading...</div>';
+    }
+
+    return `
+      <div class="ma-comps-explainer" style="background: var(--bg-tertiary); padding: 16px; border-radius: var(--radius); margin-bottom: 24px;">
+        <p><strong>M&A Comparables:</strong> Historical acquisition data for valuation benchmarking. EV/Revenue and EV/Funding multiples help assess fair value for acquisition targets.</p>
+      </div>
+      <div class="ma-comps-table-wrapper">
+        <table class="ma-comps-table">
+          <thead>
+            <tr>
+              <th>Target</th>
+              <th>Acquirer</th>
+              <th>Sector</th>
+              <th>Year</th>
+              <th>Deal Value</th>
+              <th>EV/Rev</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${MA_COMPS.map(c => {
+              const typeClass = c.type === 'Completed' ? 'comp-completed' : c.type === 'Rumored' ? 'comp-rumored' : 'comp-pending';
+              return `
+                <tr class="${typeClass}">
+                  <td class="comp-target">${c.target}</td>
+                  <td class="comp-acquirer">${c.acquirer}</td>
+                  <td class="comp-sector">${c.sector}</td>
+                  <td>${c.year}</td>
+                  <td class="comp-value">${c.dealValue || 'N/A'}</td>
+                  <td class="comp-multiple">${c.evRevenue !== 'N/A' ? c.evRevenue + 'x' : 'N/A'}</td>
+                  <td><span class="comp-type-badge ${typeClass}">${c.type}</span></td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+      </div>
+      <div class="ma-comps-summary" style="margin-top: 24px; padding: 20px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);">
+        <h4 style="margin-bottom: 12px; color: var(--text-primary);">Sector Multiples Summary</h4>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+          <div>
+            <div style="font-size: 12px; color: var(--text-muted);">Defense & Security</div>
+            <div style="font-size: 20px; font-weight: 700; color: var(--accent);">5-15x Revenue</div>
+          </div>
+          <div>
+            <div style="font-size: 12px; color: var(--text-muted);">Space & Aerospace</div>
+            <div style="font-size: 20px; font-weight: 700; color: var(--accent);">2-5x Revenue</div>
+          </div>
+          <div>
+            <div style="font-size: 12px; color: var(--text-muted);">AI & Software</div>
+            <div style="font-size: 20px; font-weight: 700; color: var(--accent);">10-20x Revenue</div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
   function renderTab() {
     switch (currentTab) {
       case 'ipo':
@@ -3984,6 +4164,12 @@ function initPredictiveScoring() {
         break;
       case 'ma':
         content.innerHTML = renderMATargets();
+        break;
+      case 'ma-comps':
+        content.innerHTML = renderMAComps();
+        break;
+      case 'deal-flow':
+        content.innerHTML = renderDealFlowSignals();
         break;
       case 'risk':
         content.innerHTML = renderFailureRisk();
@@ -5785,6 +5971,152 @@ function initCommunityIntel() {
   });
 
   renderWatchlist();
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// HISTORICAL TRACKING (Time-Series Intelligence)
+// ═══════════════════════════════════════════════════════════════════════════
+function initHistoricalTracking() {
+  if (typeof HISTORICAL_TRACKING === 'undefined') return;
+
+  const companySelect = document.getElementById('historical-company');
+  const metricSelect = document.getElementById('historical-metric');
+  const chartContainer = document.getElementById('historical-chart');
+  const timelineContainer = document.getElementById('historical-timeline');
+
+  if (!companySelect || !chartContainer) return;
+
+  // Populate company dropdown
+  const companies = Object.keys(HISTORICAL_TRACKING);
+  companies.forEach(name => {
+    const opt = document.createElement('option');
+    opt.value = name;
+    opt.textContent = name;
+    companySelect.appendChild(opt);
+  });
+
+  function renderChart() {
+    const company = companySelect.value;
+    const metric = metricSelect?.value || 'valuation';
+
+    if (!company || !HISTORICAL_TRACKING[company]) {
+      chartContainer.innerHTML = '<div class="historical-placeholder">Select a company to view historical data</div>';
+      if (timelineContainer) timelineContainer.innerHTML = '';
+      return;
+    }
+
+    const data = HISTORICAL_TRACKING[company];
+    let chartData, yLabel, formatValue;
+
+    switch (metric) {
+      case 'valuation':
+        chartData = data.valuations || [];
+        yLabel = 'Valuation ($B)';
+        formatValue = v => '$' + v + 'B';
+        break;
+      case 'funding':
+        chartData = data.funding || [];
+        yLabel = 'Cumulative Funding ($B)';
+        formatValue = v => '$' + v + 'B';
+        break;
+      case 'headcount':
+        chartData = data.headcount || [];
+        yLabel = 'Employees';
+        formatValue = v => v.toLocaleString();
+        break;
+    }
+
+    if (chartData.length === 0) {
+      chartContainer.innerHTML = '<div class="historical-placeholder">No data available for this metric</div>';
+      return;
+    }
+
+    // Calculate chart dimensions
+    const maxValue = Math.max(...chartData.map(d => d.value || d.cumulative || d.count));
+    const minValue = Math.min(...chartData.map(d => d.value || d.cumulative || d.count));
+    const range = maxValue - minValue || 1;
+
+    // Create SVG chart
+    const width = chartContainer.clientWidth || 800;
+    const height = 300;
+    const padding = { top: 20, right: 60, bottom: 60, left: 80 };
+    const chartWidth = width - padding.left - padding.right;
+    const chartHeight = height - padding.top - padding.bottom;
+
+    // Build points for line chart
+    const points = chartData.map((d, i) => {
+      const x = padding.left + (i / (chartData.length - 1 || 1)) * chartWidth;
+      const val = d.value || d.cumulative || d.count;
+      const y = padding.top + chartHeight - ((val - minValue) / range) * chartHeight;
+      return { x, y, val, date: d.date, event: d.event || d.round };
+    });
+
+    const pathD = points.map((p, i) => `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`).join(' ');
+
+    chartContainer.innerHTML = \`
+      <svg width="\${width}" height="\${height}" class="historical-svg">
+        <!-- Grid lines -->
+        \${[0, 0.25, 0.5, 0.75, 1].map(pct => {
+          const y = padding.top + (1 - pct) * chartHeight;
+          const val = minValue + pct * range;
+          return \`
+            <line x1="\${padding.left}" y1="\${y}" x2="\${width - padding.right}" y2="\${y}" stroke="var(--border)" stroke-dasharray="4"/>
+            <text x="\${padding.left - 10}" y="\${y + 4}" fill="var(--text-muted)" font-size="11" text-anchor="end">\${formatValue(val.toFixed(1))}</text>
+          \`;
+        }).join('')}
+
+        <!-- Axis labels -->
+        <text x="\${padding.left + chartWidth / 2}" y="\${height - 10}" fill="var(--text-muted)" font-size="12" text-anchor="middle">Time</text>
+        <text x="15" y="\${padding.top + chartHeight / 2}" fill="var(--text-muted)" font-size="12" text-anchor="middle" transform="rotate(-90, 15, \${padding.top + chartHeight / 2})">\${yLabel}</text>
+
+        <!-- Line path -->
+        <path d="\${pathD}" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <!-- Data points -->
+        \${points.map(p => \`
+          <circle cx="\${p.x}" cy="\${p.y}" r="6" fill="var(--accent)" stroke="var(--bg)" stroke-width="2"/>
+          <text x="\${p.x}" y="\${p.y - 15}" fill="var(--text-primary)" font-size="11" text-anchor="middle" font-weight="600">\${formatValue(p.val)}</text>
+        \`).join('')}
+
+        <!-- X axis labels -->
+        \${points.map(p => \`
+          <text x="\${p.x}" y="\${height - padding.bottom + 20}" fill="var(--text-muted)" font-size="10" text-anchor="middle">\${p.date}</text>
+          <text x="\${p.x}" y="\${height - padding.bottom + 35}" fill="var(--text-secondary)" font-size="9" text-anchor="middle">\${p.event || ''}</text>
+        \`).join('')}
+      </svg>
+    \`;
+
+    // Render timeline below
+    if (timelineContainer) {
+      timelineContainer.innerHTML = \`
+        <div class="historical-timeline-header">
+          <h4>\${company} Timeline</h4>
+        </div>
+        <div class="historical-timeline-events">
+          \${chartData.map(d => {
+            const val = d.value || d.cumulative || d.count;
+            return \`
+              <div class="timeline-event">
+                <span class="timeline-date">\${d.date}</span>
+                <span class="timeline-marker"></span>
+                <span class="timeline-label">\${d.event || d.round || 'Update'}</span>
+                <span class="timeline-value">\${formatValue(val)}</span>
+              </div>
+            \`;
+          }).join('')}
+        </div>
+      \`;
+    }
+  }
+
+  companySelect.addEventListener('change', renderChart);
+  metricSelect?.addEventListener('change', renderChart);
+
+  // Initial render with first company
+  if (companies.length > 0) {
+    companySelect.value = companies[0];
+    renderChart();
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════

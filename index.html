@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=20">
+    <link rel="stylesheet" href="styles.css?v=22">
 </head>
 <body>
     <!-- Navigation — Redesigned around 3 Workflows -->
@@ -355,11 +355,13 @@
                 <p>Federal contract awards, SBIR status, agency relationships, and defense budget signals mapped to frontier tech startups.</p>
             </div>
             <div class="gov-tabs">
-                <button class="gov-tab active" data-tab="contracts">Contract Awards</button>
+                <button class="gov-tab active" data-tab="readiness">🎯 Contractor Readiness</button>
+                <button class="gov-tab" data-tab="contracts">Contract Awards</button>
                 <button class="gov-tab" data-tab="budget">Budget Signals</button>
                 <button class="gov-tab" data-tab="heatmap">Agency Heatmap</button>
             </div>
-            <div class="gov-panel" id="gov-contracts-panel"></div>
+            <div class="gov-panel" id="gov-readiness-panel"></div>
+            <div class="gov-panel" id="gov-contracts-panel" style="display:none"></div>
             <div class="gov-panel" id="gov-budget-panel" style="display:none"></div>
             <div class="gov-panel" id="gov-heatmap-panel" style="display:none"></div>
         </div>
@@ -465,6 +467,8 @@
             <div class="predictive-tabs">
                 <button class="predictive-tab active" data-tab="ipo">🔔 IPO Readiness</button>
                 <button class="predictive-tab" data-tab="ma">🎯 M&A Targets</button>
+                <button class="predictive-tab" data-tab="ma-comps">📊 M&A Comps</button>
+                <button class="predictive-tab" data-tab="deal-flow">🚀 Deal Flow Signals</button>
                 <button class="predictive-tab" data-tab="risk">⚠️ Failure Risk</button>
                 <button class="predictive-tab" data-tab="next-round">💰 Next Round</button>
             </div>
@@ -791,6 +795,29 @@
                 <p>The alumni networks producing disproportionate startup founders — SpaceX, Palantir, Google, Amazon, and more.</p>
             </div>
             <div class="mafia-grid" id="mafia-grid"></div>
+        </div>
+    </section>
+
+    <!-- Historical Tracking -->
+    <section class="historical-section" id="historical-tracking">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">TIME-SERIES INTELLIGENCE</p>
+                <h2>Historical Tracking</h2>
+                <p>Valuation progression, funding trajectory, and growth metrics over time. See how companies evolved.</p>
+            </div>
+            <div class="historical-controls">
+                <select id="historical-company" class="lb-filter-select">
+                    <option value="">Select a company...</option>
+                </select>
+                <select id="historical-metric" class="lb-filter-select">
+                    <option value="valuation">Valuation Over Time</option>
+                    <option value="funding">Cumulative Funding</option>
+                    <option value="headcount">Headcount Growth</option>
+                </select>
+            </div>
+            <div class="historical-chart-container" id="historical-chart"></div>
+            <div class="historical-timeline" id="historical-timeline"></div>
         </div>
     </section>
 
@@ -1142,7 +1169,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <script src="data.js?v=47"></script>
-    <script src="app.js?v=48"></script>
+    <script src="data.js?v=49"></script>
+    <script src="app.js?v=50"></script>
 </body>
 </html>

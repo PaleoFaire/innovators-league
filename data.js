@@ -15179,6 +15179,390 @@ const EXPERT_INSIGHTS = [
   }
 ];
 
+// ─── CONTRACTOR READINESS SCORES ───
+// Composite score for defense procurement: TRL + SBIR + Clearance + Past Performance
+const CONTRACTOR_READINESS = [
+  {
+    company: "Anduril Industries",
+    readinessScore: 95,
+    trlLevel: 9,
+    sbirPhase: "Graduated",
+    clearanceLevel: "TS/SCI",
+    facilityCleared: true,
+    pastPerformance: { contractsCompleted: 47, onTimeRate: 96, avgRating: 4.8 },
+    cmmcLevel: 3,
+    itarCompliant: true,
+    keyAgencies: ["SOCOM", "Army", "Navy", "USMC", "DHS"],
+    readinessFactors: ["Production-ready systems", "Proven DoD track record", "Cleared workforce"]
+  },
+  {
+    company: "Shield AI",
+    readinessScore: 88,
+    trlLevel: 8,
+    sbirPhase: "Phase III",
+    clearanceLevel: "TS/SCI",
+    facilityCleared: true,
+    pastPerformance: { contractsCompleted: 23, onTimeRate: 91, avgRating: 4.5 },
+    cmmcLevel: 2,
+    itarCompliant: true,
+    keyAgencies: ["Air Force", "DARPA", "DIU"],
+    readinessFactors: ["Combat-tested autonomy", "Strong hiring from defense", "V-BAT proven"]
+  },
+  {
+    company: "Palantir",
+    readinessScore: 98,
+    trlLevel: 9,
+    sbirPhase: "N/A (Public)",
+    clearanceLevel: "TS/SCI",
+    facilityCleared: true,
+    pastPerformance: { contractsCompleted: 200, onTimeRate: 94, avgRating: 4.7 },
+    cmmcLevel: 3,
+    itarCompliant: true,
+    keyAgencies: ["CIA", "NSA", "Army", "CDC", "NHS"],
+    readinessFactors: ["Foundry deployed across DoD", "FedRAMP High", "Massive cleared workforce"]
+  },
+  {
+    company: "SpaceX",
+    readinessScore: 99,
+    trlLevel: 9,
+    sbirPhase: "Graduated",
+    clearanceLevel: "TS/SCI",
+    facilityCleared: true,
+    pastPerformance: { contractsCompleted: 150, onTimeRate: 98, avgRating: 4.9 },
+    cmmcLevel: 3,
+    itarCompliant: true,
+    keyAgencies: ["Space Force", "NRO", "NASA", "DoD"],
+    readinessFactors: ["Launch heritage", "Starlink operational", "Starshield classified"]
+  },
+  {
+    company: "Rocket Lab",
+    readinessScore: 91,
+    trlLevel: 9,
+    sbirPhase: "Graduated",
+    clearanceLevel: "Secret",
+    facilityCleared: true,
+    pastPerformance: { contractsCompleted: 45, onTimeRate: 93, avgRating: 4.6 },
+    cmmcLevel: 2,
+    itarCompliant: true,
+    keyAgencies: ["Space Force", "NRO", "DARPA"],
+    readinessFactors: ["Proven launch record", "Neutron in development", "Space systems integration"]
+  },
+  {
+    company: "Rebellion Defense",
+    readinessScore: 82,
+    trlLevel: 7,
+    sbirPhase: "Phase II",
+    clearanceLevel: "TS/SCI",
+    facilityCleared: true,
+    pastPerformance: { contractsCompleted: 12, onTimeRate: 88, avgRating: 4.3 },
+    cmmcLevel: 2,
+    itarCompliant: true,
+    keyAgencies: ["DoD", "Air Force", "DIU"],
+    readinessFactors: ["AI/ML focus", "Strong policy team", "Growing cleared workforce"]
+  },
+  {
+    company: "Hermeus",
+    readinessScore: 72,
+    trlLevel: 5,
+    sbirPhase: "Phase II",
+    clearanceLevel: "Secret",
+    facilityCleared: true,
+    pastPerformance: { contractsCompleted: 5, onTimeRate: 85, avgRating: 4.2 },
+    cmmcLevel: 1,
+    itarCompliant: true,
+    keyAgencies: ["Air Force", "DARPA"],
+    readinessFactors: ["Hypersonic engine testing", "Air Force partnership", "Early stage but progressing"]
+  },
+  {
+    company: "Saronic",
+    readinessScore: 68,
+    trlLevel: 6,
+    sbirPhase: "Phase I",
+    clearanceLevel: "Secret",
+    facilityCleared: false,
+    pastPerformance: { contractsCompleted: 3, onTimeRate: 100, avgRating: 4.5 },
+    cmmcLevel: 1,
+    itarCompliant: true,
+    keyAgencies: ["Navy", "DARPA"],
+    readinessFactors: ["Autonomous vessels", "Strong Navy interest", "Early but promising"]
+  }
+];
+
+// ─── DEAL FLOW SIGNALS ───
+// Pre-raise indicators: companies likely to raise in next 6 months
+const DEAL_FLOW_SIGNALS = [
+  {
+    company: "Varda Space",
+    probability: 92,
+    expectedRound: "Series C",
+    expectedAmount: "$150-200M",
+    expectedTiming: "Q2 2026",
+    signals: [
+      { type: "hiring", description: "Added 15 roles including CFO search", weight: 25 },
+      { type: "milestone", description: "2nd manufacturing capsule returned", weight: 30 },
+      { type: "runway", description: "~18 months runway remaining", weight: 20 },
+      { type: "investor", description: "Founders Fund partner increased engagement", weight: 25 }
+    ],
+    potentialLeads: ["Founders Fund", "Khosla Ventures", "Lux Capital"]
+  },
+  {
+    company: "Hermeus",
+    probability: 85,
+    expectedRound: "Series C",
+    expectedAmount: "$200-300M",
+    expectedTiming: "Q1-Q2 2026",
+    signals: [
+      { type: "contract", description: "Air Force Quarterhorse contract expansion", weight: 30 },
+      { type: "hiring", description: "VP Finance and Corp Dev added", weight: 20 },
+      { type: "technical", description: "Chimera engine test success", weight: 30 },
+      { type: "investor", description: "Sam Altman follow-on rumored", weight: 20 }
+    ],
+    potentialLeads: ["Khosla Ventures", "a]6z", "Sam Altman"]
+  },
+  {
+    company: "Saronic",
+    probability: 78,
+    expectedRound: "Series B",
+    expectedAmount: "$80-120M",
+    expectedTiming: "Q2 2026",
+    signals: [
+      { type: "contract", description: "Navy contract win imminent", weight: 35 },
+      { type: "hiring", description: "Aggressive engineering hiring", weight: 20 },
+      { type: "partnership", description: "L3Harris collaboration", weight: 25 },
+      { type: "runway", description: "~12 months runway", weight: 20 }
+    ],
+    potentialLeads: ["a]6z", "Founders Fund", "8VC"]
+  },
+  {
+    company: "Valar Atomics",
+    probability: 88,
+    expectedRound: "Series B",
+    expectedAmount: "$100-150M",
+    expectedTiming: "Q2 2026",
+    signals: [
+      { type: "regulatory", description: "NRC pre-application meeting completed", weight: 25 },
+      { type: "partnership", description: "Manufacturing partner announced", weight: 30 },
+      { type: "hiring", description: "Nuclear ops team scaling", weight: 20 },
+      { type: "investor", description: "a]6z deep dive completed", weight: 25 }
+    ],
+    potentialLeads: ["a]6z", "Lux Capital", "Breakthrough Energy"]
+  },
+  {
+    company: "Bedrock Robotics",
+    probability: 75,
+    expectedRound: "Series C",
+    expectedAmount: "$200-250M",
+    expectedTiming: "Q3 2026",
+    signals: [
+      { type: "revenue", description: "ARR growth 3x YoY", weight: 30 },
+      { type: "expansion", description: "New construction verticals", weight: 25 },
+      { type: "hiring", description: "Field ops scaling", weight: 20 },
+      { type: "milestone", description: "1000th excavator deployed", weight: 25 }
+    ],
+    potentialLeads: ["Tiger Global", "Coatue", "a]6z"]
+  }
+];
+
+// ─── M&A COMPS DATABASE ───
+// Historical acquisition data for valuation comparables
+const MA_COMPS = [
+  {
+    target: "Blue Origin (Engine Division)",
+    acquirer: "Hypothetical",
+    sector: "Space & Aerospace",
+    year: "N/A",
+    evRevenue: "N/A",
+    evFunding: "N/A",
+    notes: "Reference only - Blue Origin remains private",
+    type: "Comparable"
+  },
+  {
+    target: "Harvest Technologies",
+    acquirer: "Anduril Industries",
+    sector: "Defense & Security",
+    year: 2024,
+    dealValue: "$200M",
+    evRevenue: 8.5,
+    evFunding: 4.2,
+    notes: "Drone swarm technology acquisition",
+    type: "Completed"
+  },
+  {
+    target: "Terran Orbital",
+    acquirer: "Lockheed Martin",
+    sector: "Space & Aerospace",
+    year: 2024,
+    dealValue: "$450M",
+    evRevenue: 3.2,
+    evFunding: 2.8,
+    notes: "Satellite manufacturing capability",
+    type: "Completed"
+  },
+  {
+    target: "Maxar Technologies",
+    acquirer: "Advent International",
+    sector: "Space & Aerospace",
+    year: 2023,
+    dealValue: "$6.4B",
+    evRevenue: 3.5,
+    evFunding: "N/A (Public)",
+    notes: "Earth observation and satellite imagery",
+    type: "Completed"
+  },
+  {
+    target: "Aerojet Rocketdyne",
+    acquirer: "L3Harris",
+    sector: "Space & Aerospace",
+    year: 2023,
+    dealValue: "$4.7B",
+    evRevenue: 2.1,
+    evFunding: "N/A (Public)",
+    notes: "Rocket propulsion systems",
+    type: "Completed"
+  },
+  {
+    target: "Menlo Micro",
+    acquirer: "Anduril Industries",
+    sector: "Defense & Security",
+    year: 2024,
+    dealValue: "$325M",
+    evRevenue: 15.0,
+    evFunding: 5.4,
+    notes: "MEMS switch technology for RF systems",
+    type: "Completed"
+  },
+  {
+    target: "Kratos Defense",
+    acquirer: "Pending",
+    sector: "Defense & Security",
+    year: "2026E",
+    dealValue: "$2-3B (Est)",
+    evRevenue: 2.5,
+    evFunding: "N/A (Public)",
+    notes: "Drone targets and space systems - rumored target",
+    type: "Rumored"
+  },
+  {
+    target: "Planet Labs",
+    acquirer: "Google (Rumored)",
+    sector: "Space & Aerospace",
+    year: "TBD",
+    dealValue: "$3-4B (Est)",
+    evRevenue: 5.0,
+    evFunding: "N/A (Public)",
+    notes: "Earth observation constellation - recurring speculation",
+    type: "Rumored"
+  }
+];
+
+// ─── HISTORICAL TRACKING DATA ───
+// Time-series valuation and funding data for key companies
+const HISTORICAL_TRACKING = {
+  "Anduril Industries": {
+    valuations: [
+      { date: "2019-09", value: 1.0, event: "Series B" },
+      { date: "2020-07", value: 1.9, event: "Series C" },
+      { date: "2021-06", value: 4.6, event: "Series D" },
+      { date: "2022-12", value: 8.5, event: "Series E" },
+      { date: "2024-08", value: 14.0, event: "Series F" }
+    ],
+    funding: [
+      { date: "2018-06", cumulative: 0.041, round: "Seed" },
+      { date: "2019-09", cumulative: 0.15, round: "Series B" },
+      { date: "2020-07", cumulative: 0.45, round: "Series C" },
+      { date: "2021-06", cumulative: 0.93, round: "Series D" },
+      { date: "2022-12", cumulative: 2.3, round: "Series E" },
+      { date: "2024-08", cumulative: 3.7, round: "Series F" }
+    ],
+    headcount: [
+      { date: "2019-01", count: 150 },
+      { date: "2020-01", count: 400 },
+      { date: "2021-01", count: 800 },
+      { date: "2022-01", count: 1500 },
+      { date: "2023-01", count: 2200 },
+      { date: "2024-01", count: 3000 },
+      { date: "2025-01", count: 3500 }
+    ]
+  },
+  "SpaceX": {
+    valuations: [
+      { date: "2015-01", value: 12, event: "Series G" },
+      { date: "2017-07", value: 21, event: "Series H" },
+      { date: "2019-05", value: 33, event: "Series I" },
+      { date: "2020-08", value: 46, event: "Series J" },
+      { date: "2021-02", value: 74, event: "Series K" },
+      { date: "2022-05", value: 127, event: "Series L" },
+      { date: "2024-06", value: 210, event: "Tender" },
+      { date: "2024-12", value: 350, event: "Latest" }
+    ],
+    funding: [
+      { date: "2015-01", cumulative: 1.2, round: "Series G" },
+      { date: "2017-07", cumulative: 1.9, round: "Series H" },
+      { date: "2019-05", cumulative: 2.9, round: "Series I" },
+      { date: "2020-08", cumulative: 4.8, round: "Series J" },
+      { date: "2021-02", cumulative: 6.6, round: "Series K" },
+      { date: "2022-05", cumulative: 8.8, round: "Series L" },
+      { date: "2024-06", cumulative: 10.0, round: "Tender" }
+    ],
+    headcount: [
+      { date: "2015-01", count: 4500 },
+      { date: "2017-01", count: 6000 },
+      { date: "2019-01", count: 8000 },
+      { date: "2021-01", count: 10000 },
+      { date: "2023-01", count: 12000 },
+      { date: "2025-01", count: 14000 }
+    ]
+  },
+  "Shield AI": {
+    valuations: [
+      { date: "2019-09", value: 0.1, event: "Seed" },
+      { date: "2020-11", value: 0.35, event: "Series A" },
+      { date: "2021-07", value: 1.0, event: "Series B" },
+      { date: "2022-06", value: 2.3, event: "Series C" },
+      { date: "2023-11", value: 2.8, event: "Series D" },
+      { date: "2024-07", value: 3.5, event: "Series E" }
+    ],
+    funding: [
+      { date: "2019-09", cumulative: 0.01, round: "Seed" },
+      { date: "2020-11", cumulative: 0.05, round: "Series A" },
+      { date: "2021-07", cumulative: 0.15, round: "Series B" },
+      { date: "2022-06", cumulative: 0.4, round: "Series C" },
+      { date: "2023-11", cumulative: 0.6, round: "Series D" },
+      { date: "2024-07", cumulative: 0.95, round: "Series E" }
+    ],
+    headcount: [
+      { date: "2020-01", count: 50 },
+      { date: "2021-01", count: 150 },
+      { date: "2022-01", count: 350 },
+      { date: "2023-01", count: 550 },
+      { date: "2024-01", count: 800 },
+      { date: "2025-01", count: 1000 }
+    ]
+  },
+  "Rocket Lab": {
+    valuations: [
+      { date: "2017-03", value: 1.0, event: "Series D" },
+      { date: "2019-11", value: 1.4, event: "Series E" },
+      { date: "2021-08", value: 4.1, event: "SPAC" },
+      { date: "2024-01", value: 8.0, event: "Public" },
+      { date: "2025-01", value: 14.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2015-03", cumulative: 0.025, round: "Series A" },
+      { date: "2017-03", cumulative: 0.15, round: "Series D" },
+      { date: "2019-11", cumulative: 0.29, round: "Series E" },
+      { date: "2021-08", cumulative: 0.78, round: "SPAC" }
+    ],
+    headcount: [
+      { date: "2018-01", count: 200 },
+      { date: "2020-01", count: 500 },
+      { date: "2022-01", count: 1000 },
+      { date: "2024-01", count: 1800 },
+      { date: "2025-01", count: 2200 }
+    ]
+  }
+};
+
 // ─── PLATFORM STATS (Bloomberg Terminal Footer-Style) ───
 const PLATFORM_STATS = {
   companiesTracked: COMPANIES.length,
@@ -15188,5 +15572,6 @@ const PLATFORM_STATS = {
   expertTranscripts: 487,
   govContractsTracked: typeof GOV_CONTRACTS !== "undefined" ? GOV_CONTRACTS.length : 0,
   patentsMonitored: typeof PATENT_INTEL !== "undefined" ? PATENT_INTEL.length : 0,
-  vcFirmsTracked: typeof VC_FIRMS !== "undefined" ? VC_FIRMS.length : 0
+  vcFirmsTracked: typeof VC_FIRMS !== "undefined" ? VC_FIRMS.length : 0,
+  contractorReadinessTracked: typeof CONTRACTOR_READINESS !== "undefined" ? CONTRACTOR_READINESS.length : 0
 };
