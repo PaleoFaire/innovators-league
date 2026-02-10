@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=22">
+    <link rel="stylesheet" href="styles.css?v=23">
 </head>
 <body>
     <!-- Navigation — Redesigned around 3 Workflows -->
@@ -36,16 +36,15 @@
                     <a href="#map">Interactive Map</a>
                     <a href="#companies">Company Database</a>
                     <a href="#innovator50">ROS 50 Rankings</a>
-                    <a href="#sectors">Sector Intel</a>
+                    <a href="#momentum">Sector Intel</a>
                 </div>
             </div>
             <div class="nav-dropdown">
                 <a href="#intelligence-hub" class="nav-link-main">📡 Track</a>
                 <div class="nav-dropdown-content">
                     <a href="#intelligence-hub">Alerts & Signals</a>
-                    <a href="#funding-tracker">Funding Tracker</a>
+                    <a href="#capital-flows">Capital Flows</a>
                     <a href="#movements">Weekly Movement</a>
-                    <a href="#deal-tracker">Deal Flow</a>
                 </div>
             </div>
             <div class="nav-dropdown">
@@ -192,15 +191,24 @@
         </div>
     </section>
 
-    <!-- Funding Tracker -->
-    <section class="funding-tracker-section" id="funding-tracker">
+    <!-- Capital Flows (Merged: Funding Tracker + Deal Tracker) -->
+    <section class="capital-flows-section" id="capital-flows">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">CAPITAL FLOWS</p>
-                <h2>Funding Tracker</h2>
-                <p>The latest funding rounds across frontier tech — updated weekly.</p>
+                <p class="section-eyebrow">CAPITAL INTELLIGENCE</p>
+                <h2>Capital Flows</h2>
+                <p>Funding rounds, investor activity, and deal flow — the definitive record of frontier tech capital.</p>
             </div>
-            <div class="funding-tracker-grid" id="funding-tracker-grid"></div>
+            <div class="capital-tabs">
+                <button class="capital-tab active" data-view="rounds">💰 Recent Rounds</button>
+                <button class="capital-tab" data-view="deals">🤝 Deal Activity</button>
+            </div>
+            <div class="capital-filters">
+                <button class="deal-filter active" data-filter="all">All Deals</button>
+                <button class="deal-filter" data-filter="lead">Lead Investors Only</button>
+            </div>
+            <div class="capital-panel" id="capital-rounds-panel"></div>
+            <div class="capital-panel" id="capital-deals-panel" style="display:none"></div>
         </div>
     </section>
 
@@ -216,17 +224,7 @@
         </div>
     </section>
 
-    <!-- IPO & Exit Pipeline -->
-    <section class="ipo-section" id="ipo-pipeline">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">EXIT PIPELINE</p>
-                <h2>IPO & Exit Tracker</h2>
-                <p>Companies approaching public markets and major liquidity events.</p>
-            </div>
-            <div class="ipo-grid" id="ipo-grid"></div>
-        </div>
-    </section>
+    <!-- (IPO Pipeline moved to Predictive Analytics - IPO Readiness tab) -->
 
     <!-- TRL Rankings Dashboard -->
     <section class="trl-section" id="trl-rankings">
@@ -244,23 +242,7 @@
         </div>
     </section>
 
-    <!-- Deal Tracker -->
-    <section class="deal-tracker-section" id="deal-tracker">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">CAPITAL INTELLIGENCE</p>
-                <h2>Deal Tracker</h2>
-                <p>Who invested, when, and how much — the definitive record of frontier tech capital flows.</p>
-            </div>
-            <div class="deal-filter-bar">
-                <button class="deal-filter active" data-filter="all">All Deals</button>
-                <button class="deal-filter" data-filter="lead">Lead Investors Only</button>
-            </div>
-            <div class="deal-grid" id="deal-grid"></div>
-        </div>
-    </section>
-
-    <!-- Growth Signals Dashboard -->
+    <!-- (Deal Tracker merged into Capital Flows above) -->
     <!-- Market Map -->
     <section class="market-map-section" id="market-map">
         <div class="container">
@@ -668,33 +650,24 @@
         </div>
     </section>
 
-    <!-- Community Intelligence -->
+    <!-- Community Intelligence (Watchlist moved to Pro Watchlist Kanban) -->
     <section class="community-section" id="community-intel">
         <div class="container">
             <div class="section-header">
                 <p class="section-eyebrow">COMMUNITY</p>
-                <h2>Expert Takes & Watchlists</h2>
-                <p>Curated insights from analysts and investors. Build and share watchlists.</p>
+                <h2>Expert Takes & Feedback</h2>
+                <p>Curated insights from domain experts and ways to improve the database.</p>
             </div>
-            <div class="community-grid">
-                <div class="community-card">
-                    <h4>Your Watchlist</h4>
-                    <p class="community-desc">Bookmark companies to build your watchlist, then share it.</p>
-                    <div class="watchlist-builder">
-                        <input type="text" id="watchlist-name" placeholder="Watchlist name..." class="memo-key-input">
-                        <div class="watchlist-companies" id="watchlist-companies"></div>
-                        <button class="portfolio-action-btn" id="watchlist-share">📋 Generate Shareable Link</button>
-                    </div>
+            <div class="community-grid" style="grid-template-columns: 1fr 1fr;">
+                <div class="community-card expert-takes-card">
+                    <h4>Expert Takes</h4>
+                    <p class="community-desc">200-word assessments from domain experts.</p>
+                    <div id="expert-takes-list"></div>
                 </div>
                 <div class="community-card">
                     <h4>Suggest a Correction</h4>
                     <p class="community-desc">Found outdated data? Help us improve the database.</p>
                     <a href="https://github.com/PaleoFaire/innovators-league/issues/new" target="_blank" rel="noopener" class="suggest-edit-btn">✏️ Submit Correction</a>
-                </div>
-                <div class="community-card expert-takes-card">
-                    <h4>Expert Takes</h4>
-                    <p class="community-desc">200-word assessments from domain experts.</p>
-                    <div id="expert-takes-list"></div>
                 </div>
             </div>
         </div>
@@ -1106,17 +1079,7 @@
         </div>
     </section>
 
-    <!-- Sectors Overview -->
-    <section id="sectors" class="section sectors-section">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">SECTOR INTELLIGENCE</p>
-                <h2>Sectors</h2>
-                <p>The industries being reinvented by the world's boldest founders.</p>
-            </div>
-            <div class="sectors-grid" id="sectors-grid"></div>
-        </div>
-    </section>
+    <!-- (Sectors moved to Sector Momentum Index + Company Database filters) -->
 
     <!-- Company Modal -->
     <div class="modal-overlay" id="modal-overlay">
@@ -1155,8 +1118,8 @@
                     <h4>Navigate</h4>
                     <a href="#map">Innovation Map</a>
                     <a href="#companies">Intelligence Database</a>
-                    <a href="#movements">Signals</a>
-                    <a href="#sectors">Sectors</a>
+                    <a href="#capital-flows">Capital Flows</a>
+                    <a href="#momentum">Sector Momentum</a>
                     <a href="investors.html">Investors</a>
                     <a href="visualizations.html">Insights</a>
                 </div>
@@ -1170,6 +1133,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <script src="data.js?v=49"></script>
-    <script src="app.js?v=50"></script>
+    <script src="app.js?v=51"></script>
 </body>
 </html>

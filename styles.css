@@ -4852,6 +4852,52 @@ body {
   color: var(--accent);
 }
 
+/* ─── CAPITAL FLOWS (Merged Funding + Deals) ─── */
+.capital-flows-section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.capital-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.capital-tab {
+  padding: 10px 24px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: 'Inter', sans-serif;
+}
+
+.capital-tab:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.capital-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #000;
+}
+
+.capital-filters {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.capital-panel {
+  animation: fadeIn 0.3s ease;
+}
+
 /* ─── SECTOR MOMENTUM INDEX ─── */
 .momentum-section {
   padding: 60px 0;
