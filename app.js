@@ -884,8 +884,68 @@ function shareCompany(companyName, btnEl) {
   }
 }
 
+// ─── LOADING SKELETON UTILITIES ───
+function showLoadingSkeletons() {
+  // Add skeleton loaders to key grids
+  const grids = [
+    { id: 'company-grid', count: 6, type: 'card' },
+    { id: 'innovator50-preview', count: 3, type: 'card' },
+    { id: 'funding-tracker-grid', count: 5, type: 'row' },
+    { id: 'movement-grid', count: 5, type: 'row' }
+  ];
+
+  grids.forEach(({ id, count, type }) => {
+    const grid = document.getElementById(id);
+    if (!grid) return;
+
+    const skeletonClass = type === 'card' ? 'skeleton-card' : 'skeleton-row';
+    const containerClass = type === 'card' ? 'loading-grid' : 'loading-list';
+
+    grid.innerHTML = `<div class="loading-container ${containerClass}">
+      ${Array(count).fill(`<div class="skeleton ${skeletonClass}"></div>`).join('')}
+    </div>`;
+  });
+}
+
+function hideLoadingSkeletons() {
+  document.querySelectorAll('.loading-container').forEach(el => {
+    el.classList.add('loaded');
+    setTimeout(() => el.remove(), 300);
+  });
+}
+
+function updateDataFreshness() {
+  const freshnessEl = document.getElementById('data-freshness');
+  const lastUpdatedEl = document.getElementById('last-updated');
+
+  if (!freshnessEl || !lastUpdatedEl) return;
+
+  if (typeof DATA_SOURCES !== 'undefined') {
+    const companyDate = new Date(DATA_SOURCES.companies?.lastUpdated || '2020-01-01');
+    const now = new Date();
+    const daysSinceUpdate = Math.floor((now - companyDate) / (1000 * 60 * 60 * 24));
+
+    let freshnessClass = 'fresh';
+    let freshnessText = 'Data is fresh';
+
+    if (daysSinceUpdate > 7) {
+      freshnessClass = 'old';
+      freshnessText = 'Data needs refresh';
+    } else if (daysSinceUpdate > 3) {
+      freshnessClass = 'stale';
+      freshnessText = 'Data is slightly stale';
+    }
+
+    freshnessEl.innerHTML = `<span class="freshness-dot ${freshnessClass}"></span>${freshnessText}`;
+    lastUpdatedEl.textContent = `Last updated: ${DATA_SOURCES.companies?.lastUpdated || 'Unknown'}`;
+  }
+}
+
 // ─── APP INITIALIZATION ───
 document.addEventListener('DOMContentLoaded', () => {
+  // Show loading skeletons immediately
+  showLoadingSkeletons();
+
   // Initialize stats with error boundary
   try {
     initStats();
@@ -947,6 +1007,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // PILLAR 3: Initialize From the Source section
   initFromTheSource();
+
+  // Hide loading skeletons after all content is loaded
+  hideLoadingSkeletons();
+
+  // Update data freshness indicator
+  updateDataFreshness();
 });
 
 // ─── STATS COUNTER ───
