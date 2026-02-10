@@ -14,20 +14,49 @@
     <link rel="stylesheet" href="styles.css?v=20">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation — Redesigned around 3 Workflows -->
     <nav class="nav">
         <div class="nav-brand">
             <div class="nav-logo">ROS</div>
             <span class="nav-title">THE INNOVATORS LEAGUE</span>
         </div>
+        <!-- Global Search Bar -->
+        <div class="nav-search">
+            <svg class="nav-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="global-search" placeholder="Search companies, sectors, investors..." autocomplete="off">
+            <div class="search-results-dropdown" id="search-results-dropdown"></div>
+        </div>
+        <!-- Workflow-Based Navigation -->
         <div class="nav-links">
-            <a href="#map">Map</a>
-            <a href="#companies">Intelligence</a>
-            <a href="#movements">Signals</a>
-            <a href="#sectors">Sectors</a>
-            <a href="investors.html">Investors</a>
-            <a href="visualizations.html">Insights</a>
-            <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
+            <div class="nav-dropdown">
+                <a href="#map" class="nav-link-main">🗺️ Discover</a>
+                <div class="nav-dropdown-content">
+                    <a href="#map">Interactive Map</a>
+                    <a href="#companies">Company Database</a>
+                    <a href="#innovator50">ROS 50 Rankings</a>
+                    <a href="#sectors">Sector Intel</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <a href="#intelligence-hub" class="nav-link-main">📡 Track</a>
+                <div class="nav-dropdown-content">
+                    <a href="#intelligence-hub">Alerts & Signals</a>
+                    <a href="#funding-tracker">Funding Tracker</a>
+                    <a href="#movements">Weekly Movement</a>
+                    <a href="#deal-tracker">Deal Flow</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <a href="#portfolio-builder" class="nav-link-main">🎯 Decide</a>
+                <div class="nav-dropdown-content">
+                    <a href="#portfolio-builder">Portfolio Builder</a>
+                    <a href="#ai-memo">AI Investment Memo</a>
+                    <a href="#predictive-scores">Predictive Analytics</a>
+                    <a href="investors.html">Investor Directory</a>
+                </div>
+            </div>
             <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
         </div>
         <button class="mobile-menu-btn" aria-label="Menu">
@@ -35,12 +64,16 @@
         </button>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section — Value-First Messaging -->
     <header class="hero">
         <div class="hero-content">
             <p class="hero-eyebrow">RATIONAL OPTIMIST SOCIETY</p>
-            <h1 class="hero-title">The Innovators League</h1>
-            <p class="hero-subtitle">The definitive intelligence database of the world's most ambitious startups &mdash; mapped, assessed, and tracked by the founders building the future.</p>
+            <h1 class="hero-title">Frontier tech intelligence you can use tomorrow.</h1>
+            <p class="hero-subtitle"><span id="company-count-inline">460+</span> companies across defense, space, energy, biotech, and robotics &mdash; ranked, tracked, and explained.</p>
+            <div class="hero-actions">
+                <a href="#map" class="hero-btn primary">🗺️ Explore the Map</a>
+                <a href="#innovator50" class="hero-btn secondary">🏆 See the ROS 50</a>
+            </div>
             <div class="hero-stats">
                 <div class="stat">
                     <span class="stat-number" id="company-count">0</span>

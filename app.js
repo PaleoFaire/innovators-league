@@ -1503,6 +1503,211 @@ function initSearch() {
       applyFilters();
     }, 200);
   });
+
+  // Initialize global search in header
+  initGlobalSearch();
+}
+
+// ─── GLOBAL SEARCH (Header Search Bar) ───
+function initGlobalSearch() {
+  const searchInput = document.getElementById('global-search');
+  const dropdown = document.getElementById('search-results-dropdown');
+  if (!searchInput || !dropdown) return;
+
+  let debounceTimer;
+
+  searchInput.addEventListener('input', (e) => {
+    clearTimeout(debounceTimer);
+    const query = e.target.value.trim().toLowerCase();
+
+    if (query.length < 2) {
+      dropdown.classList.remove('active');
+      return;
+    }
+
+    debounceTimer = setTimeout(() => {
+      const results = performGlobalSearch(query);
+      renderSearchResults(results, dropdown);
+    }, 150);
+  });
+
+  // Close dropdown on click outside
+  document.addEventListener('click', (e) => {
+    if (!searchInput.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.classList.remove('active');
+    }
+  });
+
+  // Keyboard navigation
+  searchInput.addEventListener('keydown', (e) => {
+    const items = dropdown.querySelectorAll('.search-result-item');
+    const activeItem = dropdown.querySelector('.search-result-item.active');
+    let activeIndex = Array.from(items).indexOf(activeItem);
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      if (activeIndex < items.length - 1) {
+        items[activeIndex]?.classList.remove('active');
+        items[activeIndex + 1]?.classList.add('active');
+        items[activeIndex + 1]?.scrollIntoView({ block: 'nearest' });
+      }
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      if (activeIndex > 0) {
+        items[activeIndex]?.classList.remove('active');
+        items[activeIndex - 1]?.classList.add('active');
+        items[activeIndex - 1]?.scrollIntoView({ block: 'nearest' });
+      }
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      const selected = dropdown.querySelector('.search-result-item.active');
+      if (selected) selected.click();
+    } else if (e.key === 'Escape') {
+      dropdown.classList.remove('active');
+      searchInput.blur();
+    }
+  });
+}
+
+function performGlobalSearch(query) {
+  const results = { companies: [], sectors: [], investors: [] };
+  const maxResults = 5;
+
+  // Search companies
+  if (typeof COMPANIES !== 'undefined') {
+    const companyMatches = COMPANIES.filter(c => {
+      const searchStr = `${c.name} ${c.sector} ${c.location} ${c.founder || ''}`.toLowerCase();
+      return searchStr.includes(query);
+    }).slice(0, maxResults);
+
+    results.companies = companyMatches.map(c => ({
+      type: 'company',
+      name: c.name,
+      meta: c.sector,
+      icon: SECTORS[c.sector]?.icon || '🏢',
+      action: () => openModal(c.name)
+    }));
+  }
+
+  // Search sectors
+  if (typeof SECTORS !== 'undefined') {
+    const sectorMatches = Object.entries(SECTORS).filter(([name, info]) => {
+      const searchStr = `${name} ${info.description || ''}`.toLowerCase();
+      return searchStr.includes(query);
+    }).slice(0, 3);
+
+    results.sectors = sectorMatches.map(([name, info]) => ({
+      type: 'sector',
+      name: name,
+      meta: `${COMPANIES.filter(c => c.sector === name).length} companies`,
+      icon: info.icon || '📊',
+      action: () => {
+        document.getElementById('sector-filter').value = name;
+        applyFilters();
+        document.getElementById('companies').scrollIntoView({ behavior: 'smooth' });
+      }
+    }));
+  }
+
+  // Search investors/VCs
+  if (typeof VC_FIRMS !== 'undefined') {
+    const vcMatches = VC_FIRMS.filter(v => {
+      const searchStr = `${v.name} ${v.shortName || ''} ${v.thesis || ''}`.toLowerCase();
+      return searchStr.includes(query);
+    }).slice(0, 3);
+
+    results.investors = vcMatches.map(v => ({
+      type: 'investor',
+      name: v.shortName || v.name,
+      meta: v.focusSectors?.slice(0, 2).join(', ') || 'Investor',
+      icon: '💰',
+      action: () => {
+        window.location.href = 'investors.html';
+      }
+    }));
+  }
+
+  return results;
+}
+
+function renderSearchResults(results, dropdown) {
+  const allResults = [...results.companies, ...results.sectors, ...results.investors];
+
+  if (allResults.length === 0) {
+    dropdown.innerHTML = '<div class="search-no-results">No results found</div>';
+    dropdown.classList.add('active');
+    return;
+  }
+
+  let html = '';
+
+  if (results.companies.length > 0) {
+    html += '<div class="search-results-section"><div class="search-section-title">Companies</div>';
+    results.companies.forEach((r, i) => {
+      html += `
+        <div class="search-result-item ${i === 0 ? 'active' : ''}" data-index="${i}">
+          <div class="search-result-icon">${r.icon}</div>
+          <div class="search-result-content">
+            <div class="search-result-name">${r.name}</div>
+            <div class="search-result-meta">${r.meta}</div>
+          </div>
+          <span class="search-result-type">Company</span>
+        </div>
+      `;
+    });
+    html += '</div>';
+  }
+
+  if (results.sectors.length > 0) {
+    html += '<div class="search-results-section"><div class="search-section-title">Sectors</div>';
+    results.sectors.forEach(r => {
+      html += `
+        <div class="search-result-item">
+          <div class="search-result-icon">${r.icon}</div>
+          <div class="search-result-content">
+            <div class="search-result-name">${r.name}</div>
+            <div class="search-result-meta">${r.meta}</div>
+          </div>
+          <span class="search-result-type" style="background: rgba(96, 165, 250, 0.15); color: #60a5fa;">Sector</span>
+        </div>
+      `;
+    });
+    html += '</div>';
+  }
+
+  if (results.investors.length > 0) {
+    html += '<div class="search-results-section"><div class="search-section-title">Investors</div>';
+    results.investors.forEach(r => {
+      html += `
+        <div class="search-result-item">
+          <div class="search-result-icon">${r.icon}</div>
+          <div class="search-result-content">
+            <div class="search-result-name">${r.name}</div>
+            <div class="search-result-meta">${r.meta}</div>
+          </div>
+          <span class="search-result-type" style="background: rgba(34, 197, 94, 0.15); color: #22c55e;">Investor</span>
+        </div>
+      `;
+    });
+    html += '</div>';
+  }
+
+  dropdown.innerHTML = html;
+  dropdown.classList.add('active');
+
+  // Attach click handlers
+  const items = dropdown.querySelectorAll('.search-result-item');
+  const allResultsFlat = [...results.companies, ...results.sectors, ...results.investors];
+
+  items.forEach((item, idx) => {
+    item.addEventListener('click', () => {
+      if (allResultsFlat[idx]?.action) {
+        allResultsFlat[idx].action();
+      }
+      dropdown.classList.remove('active');
+      document.getElementById('global-search').value = '';
+    });
+  });
 }
 
 // ─── RENDER COMPANIES ───
@@ -1800,16 +2005,38 @@ function initScrollAnimations() {
 function initMobileMenu() {
   const btn = document.querySelector('.mobile-menu-btn');
   const links = document.querySelector('.nav-links');
+  if (!btn || !links) return;
 
   btn.addEventListener('click', () => {
     links.classList.toggle('open');
     btn.classList.toggle('open');
   });
 
-  links.querySelectorAll('a').forEach(a => {
+  // Handle dropdown toggles on mobile
+  const dropdowns = links.querySelectorAll('.nav-dropdown');
+  dropdowns.forEach(dropdown => {
+    const mainLink = dropdown.querySelector('.nav-link-main');
+    if (mainLink) {
+      mainLink.addEventListener('click', (e) => {
+        // On mobile, toggle dropdown instead of navigating
+        if (window.innerWidth <= 768) {
+          e.preventDefault();
+          dropdown.classList.toggle('open');
+          // Close other dropdowns
+          dropdowns.forEach(d => {
+            if (d !== dropdown) d.classList.remove('open');
+          });
+        }
+      });
+    }
+  });
+
+  // Close menu when clicking a final link (not a dropdown toggle)
+  links.querySelectorAll('.nav-dropdown-content a, .nav-cta').forEach(a => {
     a.addEventListener('click', () => {
       links.classList.remove('open');
       btn.classList.remove('open');
+      dropdowns.forEach(d => d.classList.remove('open'));
     });
   });
 }
