@@ -970,7 +970,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initLeaderboard();
   initEfficiencyLeaderboard();
   initTRLDashboard();
-  initCapitalFlows();
+  initDealTracker();
   initGrowthSignals();
   initMarketMap();
   initMafiaExplorer();
@@ -979,6 +979,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initNewsTicker();
   initInnovator50();
   initMarketPulse();
+  initFundingTracker();
   initSectorMomentum();
   initIPOPipeline();
   initInnovatorScores();
@@ -2990,112 +2991,6 @@ function initFundingTracker() {
     `;
     row.addEventListener('click', () => openCompanyModal(round.company));
     grid.appendChild(row);
-  });
-}
-
-// ─── CAPITAL FLOWS (Merged Funding Tracker + Deal Tracker) ───
-function initCapitalFlows() {
-  const roundsPanel = document.getElementById('capital-rounds-panel');
-  const dealsPanel = document.getElementById('capital-deals-panel');
-
-  if (!roundsPanel || !dealsPanel) return;
-
-  // Render Funding Rounds (Recent Rounds tab)
-  if (typeof FUNDING_TRACKER !== 'undefined') {
-    const header = document.createElement('div');
-    header.className = 'funding-row funding-row-header';
-    header.innerHTML = `
-      <span>Company</span>
-      <span>Amount</span>
-      <span>Stage</span>
-      <span>Lead Investor</span>
-      <span>Valuation</span>
-      <span>Date</span>
-    `;
-    roundsPanel.appendChild(header);
-
-    FUNDING_TRACKER.forEach(round => {
-      const row = document.createElement('div');
-      row.className = 'funding-row';
-      row.innerHTML = `
-        <span class="funding-company">${round.company}</span>
-        <span class="funding-amount">${round.amount}</span>
-        <span><span class="funding-stage-tag">${round.stage}</span></span>
-        <span class="funding-lead">${round.lead}</span>
-        <span class="funding-val">${round.valuation}</span>
-        <span class="funding-date">${round.date}</span>
-      `;
-      row.addEventListener('click', () => openCompanyModal(round.company));
-      roundsPanel.appendChild(row);
-    });
-  }
-
-  // Render Deal Activity (Deals tab)
-  function renderDeals(filter) {
-    dealsPanel.innerHTML = '';
-    if (typeof DEAL_TRACKER === 'undefined') return;
-
-    const deals = filter === 'lead'
-      ? DEAL_TRACKER.filter(d => d.leadOrParticipant === 'lead')
-      : DEAL_TRACKER;
-
-    // Sort by date descending
-    deals.sort((a, b) => b.date.localeCompare(a.date));
-
-    // Header
-    const header = document.createElement('div');
-    header.className = 'deal-row deal-header';
-    header.innerHTML = `
-      <div class="deal-cell deal-company-col">Company</div>
-      <div class="deal-cell deal-investor-col">Investor</div>
-      <div class="deal-cell deal-amount-col">Amount</div>
-      <div class="deal-cell deal-round-col">Round</div>
-      <div class="deal-cell deal-val-col">Valuation</div>
-      <div class="deal-cell deal-date-col">Date</div>
-      <div class="deal-cell deal-role-col">Role</div>
-    `;
-    dealsPanel.appendChild(header);
-
-    deals.forEach((deal, i) => {
-      const row = document.createElement('div');
-      row.className = 'deal-row';
-      row.style.animationDelay = `${i * 30}ms`;
-      const isLead = deal.leadOrParticipant === 'lead';
-      row.innerHTML = `
-        <div class="deal-cell deal-company-col"><span class="deal-company-link" onclick="openCompanyModal('${deal.company}')">${deal.company}</span></div>
-        <div class="deal-cell deal-investor-col">${deal.investor}</div>
-        <div class="deal-cell deal-amount-col" style="color:var(--accent);font-weight:600;">${deal.amount}</div>
-        <div class="deal-cell deal-round-col">${deal.round}</div>
-        <div class="deal-cell deal-val-col">${deal.valuation || '—'}</div>
-        <div class="deal-cell deal-date-col">${deal.date}</div>
-        <div class="deal-cell deal-role-col"><span class="deal-role ${isLead ? 'deal-role-lead' : ''}">${isLead ? '★ Lead' : 'Participant'}</span></div>
-      `;
-      dealsPanel.appendChild(row);
-    });
-  }
-
-  // Initial render
-  renderDeals('all');
-
-  // Tab switching
-  document.querySelectorAll('.capital-tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-      document.querySelectorAll('.capital-tab').forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-
-      const view = tab.dataset.view;
-      roundsPanel.style.display = view === 'rounds' ? 'block' : 'none';
-      dealsPanel.style.display = view === 'deals' ? 'block' : 'none';
-    });
-  });
-
-  // Deal filter buttons (for deals tab)
-  document.querySelectorAll('.deal-filter').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.deal-filter').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      renderDeals(btn.dataset.filter);
-    });
   });
 }
 
