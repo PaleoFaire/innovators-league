@@ -7,6 +7,8 @@
 // Last updated: 2026-02-09
 // Auto-updated SEC filings from EDGAR
 // Last updated: 2026-02-10
+// Auto-updated SEC filings from EDGAR
+// Last updated: 2026-02-11
 const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-02-04", description: "xslF345X05/wk-form4_1770254739.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-02-04", description: "xslF345X05/wk-form4_1770254378.xml", isIPO: false, ticker: "PLTR" },
@@ -50,7 +52,7 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "8-K", date: "2026-01-16", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
 ];
 
-const LAST_UPDATED = "2026-02-10";
+const LAST_UPDATED = "2026-02-11";
 
 // Data source freshness tracking
 const DATA_SOURCES = {
@@ -15100,20 +15102,22 @@ const DATA_QUALITY = {
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
 // Last updated: 2026-02-11 05:46
+// Auto-generated real-time signals
+// Last updated: 2026-02-11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI policy exec who opposed chatbot's &#8220;adult mode&#8221; reportedly fired on discrimination claim", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX's next-gen Super Heavy booster aces four days of &quot;cryoproof&quot; testing", source: "Ars Technica Space", time: "6h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Boston Dynamics", headline: "Boston Dynamics CEO'Robert Playter'steps'down after 30 years at the company", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Palantir", headline: "Palantir CEO Alex Karp Recorded a Video About ICE for His Employees", source: "Wired", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "ChatGPT will be available to 3 million military users on GenAI.mil", source: "Breaking Defense", time: "10h ago", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Spaceium demonstrates refueling actuator in orbit", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI Abandons 'io' Branding for Its AI Hardware", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI policy exec who opposed chatbot&#8217;s &#8220;adult mode&#8221; reportedly fired on discrimination claim", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX&#039;s next-gen Super Heavy booster aces four days of &quot;cryoproof&quot; testing", source: "Ars Technica Space", time: "8h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Boston Dynamics", headline: "Boston Dynamics CEO Robert Playter steps down after 30 years at the company", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Palantir", headline: "Palantir CEO Alex Karp Recorded a Video About ICE for His Employees", source: "Wired", time: "12h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "ChatGPT will be available to 3 million military users on GenAI.mil", source: "Breaking Defense", time: "12h ago", impact: "medium", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Spaceium demonstrates refueling actuator in orbit", source: "SpaceNews", time: "15h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI Abandons ‘io’ Branding for Its AI Hardware", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "ipo", company: "SpaceX", headline: "Musk says SpaceX focus is on the moon rather than Mars", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "ipo", company: "SpaceX", headline: "This Startup Thinks It Can Make Rocket Fuel From Water. Stop Laughing", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "Falcon 9 returns to flight after upper stage engine investigation", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
   { id: 11, type: "ipo", company: "SpaceX", headline: "SpaceX IPO could drive investor interest in other space companies", source: "SpaceNews", time: "3d ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Starlink", headline: "Moltbook, the Social Network for AI Agents, Exposed Real Humans' Data", source: "Wired", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "4d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Starlink", headline: "Moltbook, the Social Network for AI Agents, Exposed Real Humans’ Data", source: "Wired", time: "3d ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Waymo", headline: "The Week’s 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "4d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "4d ago", impact: "low", unread: false },
   { id: 15, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "4d ago", impact: "low", unread: false },
 ];
