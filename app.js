@@ -5895,13 +5895,22 @@ function initIntelFeed() {
     newsPanel.innerHTML = items.length === 0
       ? '<div style="padding:30px; text-align:center; color:var(--text-muted)">No news items match your filters.</div>'
       : items.map(n => `
-        <div class="feed-item">
+        <div class="feed-item ${n.rosAnalysis ? 'has-analysis' : ''}">
           <div class="feed-date">${formatFeedDate(n.date)}</div>
           <div class="feed-content">
             <div class="feed-headline">
               <span class="feed-company-link" onclick="openCompanyModal('${(n.company || '').replace(/'/g, "\\'")}')">${n.company}</span>: ${n.headline}
             </div>
             <div class="feed-summary">${n.summary || ''}</div>
+            ${n.rosAnalysis ? `
+              <div class="feed-ros-analysis">
+                <div class="ros-analysis-header">
+                  <span class="ros-analysis-badge">💡 ROS Analysis</span>
+                  ${n.analysisAuthor ? `<span class="ros-analysis-author">by ${n.analysisAuthor}</span>` : ''}
+                </div>
+                <div class="ros-analysis-text">${n.rosAnalysis}</div>
+              </div>
+            ` : ''}
             <div class="feed-meta">
               <span class="feed-category-tag ${n.category}">${n.category}</span>
               <span class="feed-source">${n.source || ''}</span>

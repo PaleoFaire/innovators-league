@@ -13155,7 +13155,9 @@ const NEWS_FEED = [
     summary: "Anduril Industries raised $3 billion in a growth equity round, valuing the defense tech startup at $28 billion. The capital will fund a new autonomous weapons manufacturing facility and international expansion.",
     impact: "high",
     sector: "Defense & Security",
-    url: "#"
+    url: "#",
+    rosAnalysis: "This round cements Anduril as the clear leader in the defense tech insurgent wave. The $28B valuation implies the market believes Lattice OS can become the operating system for autonomous defense — similar to how iOS dominates mobile. Watch for M&A activity as they acquire point solutions to integrate into their platform.",
+    analysisAuthor: "ROS Editorial"
   },
   {
     id: 2,
@@ -13167,7 +13169,9 @@ const NEWS_FEED = [
     summary: "The U.S. Air Force selected Shield AI for a $680 million contract to develop and deploy autonomous fighter jet capabilities using its Hivemind AI pilot software.",
     impact: "high",
     sector: "Defense & Security",
-    url: "#"
+    url: "#",
+    rosAnalysis: "This is the validation Shield AI needed. Hivemind on fighter jets means the platform is proven at the highest performance tier. If they can make any airframe autonomous in GPS-denied environments, they become the 'Android' of military aviation. The Tseng brothers' Navy SEAL background gives them unique credibility with operators.",
+    analysisAuthor: "ROS Editorial"
   },
   {
     id: 3,
