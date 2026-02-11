@@ -9150,14 +9150,14 @@ const SECTOR_MOMENTUM = [
 
 // ─── BREAKING NEWS TICKER ───
 const NEWS_TICKER = [
-  { text: "SpaceX IPO could drive investor interest in other space companies", time: "2d ago", priority: "high" },
-  { text: "Bedrock Robotics’ $270M Series B paves the way for operator-less excavators", time: "5d ago", priority: "high" },
-  { text: "Falcon 9 returns to flight after upper stage engine investigation", time: "2d ago", priority: "high" },
-  { text: "What the SpaceX acquisition of xAI means for industrial robotics", time: "1d ago", priority: "high" },
-  { text: "Musk says SpaceX focus is on the moon rather than Mars", time: "11h ago", priority: "high" },
-  { text: "Anthropic closes in on $20B round", time: "16h ago", priority: "medium" },
-  { text: "Space Force buys second Otter spacecraft to power satellites on orbit", time: "12h ago", priority: "medium" },
-  { text: "Rafael joins Lockheed, Boeing-Anduril team for second IFPC Inc 2 interceptor competition", time: "16h ago", priority: "medium" }
+  { text: "SpaceX IPO could drive investor interest in other space companies", time: "3d ago", priority: "high" },
+  { text: "Vega raises $120M Series B to rethink how enterprises detect cyber threats", time: "17h ago", priority: "high" },
+  { text: "Falcon 9 returns to flight after upper stage engine investigation", time: "3d ago", priority: "high" },
+  { text: "What the SpaceX acquisition of xAI means for industrial robotics", time: "2d ago", priority: "high" },
+  { text: "Gen AI Video Startup Runway Raises $315M Led By General Atlantic At $5.3B Valuation", time: "19h ago", priority: "high" },
+  { text: "With co-founders leaving and an IPO looming, Elon Musk turns talk to the moon", time: "4h ago", priority: "high" },
+  { text: "Spaceium demonstrates refueling actuator in orbit", time: "16h ago", priority: "high" },
+  { text: "In The Era Of Unicorn Valuation Escalation, A Trillion Dollars Isn’t What It Used To Be", time: "21h ago", priority: "medium" }
 ];
 
 // ─── WEEKLY INTELLIGENCE DIGEST ───
