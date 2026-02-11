@@ -15101,23 +15101,22 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-11 19:39
+// Last updated: 2026-02-11 21:52
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "How much is vertical integration squeezing the smallsat opportunity?", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Apptronik", headline: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", source: "Crunchbase News", time: "5h ago", impact: "medium", unread: true },
-  { id: 3, type: "funding", company: "Apptronik", headline: "Humanoid robot startup Apptronik has now raised $935M at a $5B+ valuation", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "AI Industry Rivals Are Teaming Up on a Startup Accelerator", source: "Wired", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX's next-gen Super Heavy booster aces four days of &quot;cryoproof&quot; testing", source: "Ars Technica Space", time: "20h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Palantir", headline: "Palantir CEO Alex Karp Recorded a Video About ICE for His Employees", source: "Wired", time: "23h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "ChatGPT will be available to 3 million military users on GenAI.mil", source: "Breaking Defense", time: "1d ago", impact: "medium", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "Spaceium demonstrates refueling actuator in orbit", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI Abandons 'io' Branding for Its AI Hardware", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "Musk says SpaceX focus is on the moon rather than Mars", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "This Startup Thinks It Can Make Rocket Fuel From Water. Stop Laughing", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "Falcon 9 returns to flight after upper stage engine investigation", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "5d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "5d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "5d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI researcher quits over ChatGPT ads, warns of &quot;Facebook&quot; path", source: "Ars Technica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Apptronik", headline: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", source: "Crunchbase News", time: "7h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "AI Industry Rivals Are Teaming Up on a Startup Accelerator", source: "Wired", time: "10h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX's next-gen Super Heavy booster aces four days of &quot;cryoproof&quot; testing", source: "Ars Technica Space", time: "22h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Palantir", headline: "Palantir CEO Alex Karp Recorded a Video About ICE for His Employees", source: "Wired", time: "1d ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "ChatGPT will be available to 3 million military users on GenAI.mil", source: "Breaking Defense", time: "1d ago", impact: "medium", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI Abandons 'io' Branding for Its AI Hardware", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "5d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "5d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "5d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI is hoppin' mad about Anthropic's new Super Bowl TV ads", source: "Ars Technica", time: "6d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Should AI chatbots have ads? Anthropic says no.", source: "Ars Technica", time: "2/4/2026", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "Nvidia's $100 billion OpenAI deal has seemingly vanished", source: "Ars Technica", time: "2/3/2026", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?", source: "Ars Technica", time: "1/29/2026", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
