@@ -609,6 +609,169 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
+// ─── PARTNER PORTAL ───
+function openPartnerPortal(formType) {
+  const overlay = document.getElementById('partner-portal-overlay');
+  const body = document.getElementById('partner-portal-body');
+
+  if (formType === 'nominate') {
+    body.innerHTML = `
+      <div class="partner-portal-header">
+        <h2>🏆 Nominate a Company</h2>
+        <p>Know a frontier tech company that deserves recognition? Tell us about them.</p>
+      </div>
+      <form class="partner-form" onsubmit="submitPartnerForm(event, 'nomination')">
+        <div class="form-group">
+          <label>Company Name *</label>
+          <input type="text" name="company" required placeholder="e.g., Anduril Industries">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Sector *</label>
+            <select name="sector" required>
+              <option value="">Select sector...</option>
+              <option value="Defense & Security">Defense & Security</option>
+              <option value="Space & Aerospace">Space & Aerospace</option>
+              <option value="AI & Software">AI & Software</option>
+              <option value="Climate & Energy">Climate & Energy</option>
+              <option value="Biotech & Health">Biotech & Health</option>
+              <option value="Robotics & Manufacturing">Robotics & Manufacturing</option>
+              <option value="Transportation">Transportation</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Stage</label>
+            <select name="stage">
+              <option value="">Select stage...</option>
+              <option value="Seed">Seed</option>
+              <option value="Series A">Series A</option>
+              <option value="Series B">Series B</option>
+              <option value="Series C+">Series C+</option>
+              <option value="Public">Public</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Website</label>
+          <input type="url" name="website" placeholder="https://...">
+        </div>
+        <div class="form-group">
+          <label>Why should they be included? *</label>
+          <textarea name="reason" required placeholder="What makes this company innovative? What are they building?"></textarea>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="submitter_name" placeholder="Optional">
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="submitter_email" placeholder="Optional">
+          </div>
+        </div>
+        <button type="submit" class="form-submit-btn">Submit Nomination</button>
+      </form>
+    `;
+  } else if (formType === 'correction') {
+    body.innerHTML = `
+      <div class="partner-portal-header">
+        <h2>✏️ Submit a Correction</h2>
+        <p>Found outdated or incorrect data? Help us keep the database accurate.</p>
+      </div>
+      <form class="partner-form" onsubmit="submitPartnerForm(event, 'correction')">
+        <div class="form-group">
+          <label>Company Name *</label>
+          <input type="text" name="company" required placeholder="Which company needs correction?">
+        </div>
+        <div class="form-group">
+          <label>What needs to be corrected? *</label>
+          <select name="field" required>
+            <option value="">Select field...</option>
+            <option value="valuation">Valuation</option>
+            <option value="funding">Funding Amount</option>
+            <option value="headcount">Headcount</option>
+            <option value="location">Location/HQ</option>
+            <option value="description">Description</option>
+            <option value="founders">Founders</option>
+            <option value="investors">Investors</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Correct Information *</label>
+          <textarea name="correction" required placeholder="What is the correct information? Please include a source if available."></textarea>
+        </div>
+        <div class="form-group">
+          <label>Source URL</label>
+          <input type="url" name="source" placeholder="Link to source (Crunchbase, news article, etc.)">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="submitter_name" placeholder="Optional">
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="submitter_email" placeholder="For follow-up questions">
+          </div>
+        </div>
+        <button type="submit" class="form-submit-btn">Submit Correction</button>
+      </form>
+    `;
+  }
+
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closePartnerPortal() {
+  const overlay = document.getElementById('partner-portal-overlay');
+  overlay.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function submitPartnerForm(event, type) {
+  event.preventDefault();
+  const form = event.target;
+  const formData = new FormData(form);
+  const data = Object.fromEntries(formData.entries());
+  data.type = type;
+  data.timestamp = new Date().toISOString();
+
+  // Store submissions locally (in real app, would send to backend)
+  const submissions = JSON.parse(localStorage.getItem('til-submissions') || '[]');
+  submissions.push(data);
+  localStorage.setItem('til-submissions', JSON.stringify(submissions));
+
+  // Show success message
+  const body = document.getElementById('partner-portal-body');
+  body.innerHTML = `
+    <div class="form-success">
+      <div class="form-success-icon">✅</div>
+      <h3>Thank you!</h3>
+      <p>${type === 'nomination' ? 'Your nomination has been submitted. Our team will review it shortly.' : 'Your correction has been submitted. We appreciate your help keeping our data accurate.'}</p>
+      <button class="form-submit-btn" onclick="closePartnerPortal()" style="margin-top: 24px;">Close</button>
+    </div>
+  `;
+}
+
+// Initialize Partner Portal close handlers
+document.addEventListener('DOMContentLoaded', () => {
+  const portalOverlay = document.getElementById('partner-portal-overlay');
+  const portalClose = document.getElementById('partner-portal-close');
+
+  if (portalClose) {
+    portalClose.addEventListener('click', closePartnerPortal);
+  }
+
+  if (portalOverlay) {
+    portalOverlay.addEventListener('click', (e) => {
+      if (e.target === portalOverlay) closePartnerPortal();
+    });
+  }
+});
+
 function openCompanyModal(companyName) {
   const company = COMPANIES.find(c => c.name === companyName);
   if (!company) return;
@@ -629,23 +792,47 @@ function openCompanyModal(companyName) {
     .filter(Boolean);
 
   const body = document.getElementById('modal-body');
+
+  // Get last funding round from FUNDING_TRACKER if available
+  const lastRound = typeof FUNDING_TRACKER !== 'undefined'
+    ? FUNDING_TRACKER.find(f => f.company === company.name)
+    : null;
+
+  // Get key investors from DEAL_TRACKER if available
+  const investors = typeof DEAL_TRACKER !== 'undefined'
+    ? [...new Set(DEAL_TRACKER.filter(d => d.company === company.name).map(d => d.investor))].slice(0, 5)
+    : [];
+
   body.innerHTML = `
     <div class="modal-sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border: 1px solid ${sectorInfo.color}30;">
       ${sectorInfo.icon} ${company.sector}
     </div>
     <h2 class="modal-company-name">${company.name} ${renderSignalBadge(company.signal)}</h2>
-    ${company.founder ? `<p class="modal-founder">${company.founder}</p>` : ''}
+    ${company.founder ? `<p class="modal-founder">Founded by ${company.founder}</p>` : ''}
     ${renderFounderConnectionBadge(company.name)}
-    <p class="modal-location">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      ${company.location} &middot; ${country}
-    </p>
+
+    <div class="modal-meta-row">
+      <p class="modal-location">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        ${company.location} &middot; ${country}
+      </p>
+      ${company.founded ? `<span class="modal-founded">Est. ${company.founded}</span>` : ''}
+      ${company.employees ? `<span class="modal-employees">👥 ${company.employees} employees</span>` : ''}
+    </div>
 
     <div class="modal-stats">
       ${company.fundingStage ? `<div class="modal-stat"><span class="modal-stat-label">Stage</span><span class="modal-stat-value">${company.fundingStage}</span></div>` : ''}
-      ${company.totalRaised ? `<div class="modal-stat"><span class="modal-stat-label">Raised</span><span class="modal-stat-value">${company.totalRaised}</span></div>` : ''}
+      ${company.totalRaised ? `<div class="modal-stat"><span class="modal-stat-label">Total Raised</span><span class="modal-stat-value">${company.totalRaised}</span></div>` : ''}
       ${company.valuation ? `<div class="modal-stat"><span class="modal-stat-label">Valuation</span><span class="modal-stat-value">${company.valuation}</span></div>` : ''}
+      ${lastRound ? `<div class="modal-stat"><span class="modal-stat-label">Last Round</span><span class="modal-stat-value">${lastRound.amount} (${lastRound.date})</span></div>` : ''}
     </div>
+
+    ${investors.length > 0 ? `
+      <div class="modal-investors">
+        <span class="modal-investors-label">Key Investors:</span>
+        <span class="modal-investors-list">${investors.join(', ')}</span>
+      </div>
+    ` : ''}
 
     ${company.insight ? `
       <div class="modal-insight">

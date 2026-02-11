@@ -1660,6 +1660,128 @@ body {
   padding: 40px;
 }
 
+/* ─── PARTNER PORTAL MODAL ─── */
+.partner-portal-modal {
+  max-width: 560px;
+}
+
+.partner-portal-body {
+  padding: 40px;
+}
+
+.partner-portal-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.partner-portal-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.partner-portal-header p {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.partner-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 12px 16px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 14px;
+  transition: all var(--transition);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-dim);
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-submit-btn {
+  margin-top: 12px;
+  padding: 14px 24px;
+  background: var(--accent);
+  color: var(--accent-text);
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.form-submit-btn:hover {
+  background: var(--accent-hover);
+  transform: translateY(-1px);
+}
+
+.form-submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.form-success {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.form-success-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.form-success h3 {
+  font-size: 20px;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.form-success p {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
 .modal-sector-badge {
   display: inline-block;
   font-size: 11px;
@@ -1692,7 +1814,38 @@ body {
   gap: 6px;
   font-size: 14px;
   color: var(--text-muted);
+}
+
+.modal-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
   margin-bottom: 20px;
+}
+
+.modal-founded,
+.modal-employees {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.modal-investors {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.modal-investors-label {
+  color: var(--text-muted);
+  margin-right: 8px;
+}
+
+.modal-investors-list {
+  color: var(--text-secondary);
 }
 
 .modal-stats {
@@ -1924,6 +2077,73 @@ body {
 
 .compare-clear:hover {
   color: var(--text-primary);
+}
+
+/* ─── DATA METHODOLOGY SECTION ─── */
+.methodology-section {
+  padding: 80px 0;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border);
+}
+
+.methodology-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.methodology-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+
+.methodology-card h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.methodology-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.methodology-card li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  padding-left: 16px;
+  position: relative;
+}
+
+.methodology-card li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.methodology-card li strong {
+  color: var(--text-primary);
+}
+
+.methodology-cta {
+  text-align: center;
+  padding: 32px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.methodology-cta p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
 }
 
 /* ─── FOOTER ─── */
@@ -8981,6 +9201,7 @@ body {
 .metric-methodology-box .method-dimension.market { border-top: 3px solid #3B82F6; }
 .metric-methodology-box .method-dimension.technology { border-top: 3px solid #22C55E; }
 .metric-methodology-box .method-dimension.team { border-top: 3px solid #A855F7; }
+.metric-methodology-box .method-dimension.geopolitical { border-top: 3px solid #F59E0B; }
 
 .metric-methodology-box .method-header {
   display: flex;
