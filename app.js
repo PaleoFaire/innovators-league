@@ -772,6 +772,17 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+// Navigate to full company profile page
+function openCompanyProfile(companyName) {
+  const encodedName = encodeURIComponent(companyName);
+  window.location.href = `company.html?name=${encodedName}`;
+}
+
+// Get company profile URL (for links)
+function getCompanyProfileUrl(companyName) {
+  return `company.html?name=${encodeURIComponent(companyName)}`;
+}
+
 function openCompanyModal(companyName) {
   const company = COMPANIES.find(c => c.name === companyName);
   if (!company) return;
@@ -994,9 +1005,12 @@ function openCompanyModal(companyName) {
     })()}
 
     <div class="modal-actions">
-      ${company.rosLink ? `<a href="${company.rosLink}" target="_blank" rel="noopener" class="modal-action-btn primary">
-        Read Coverage
+      <a href="${getCompanyProfileUrl(company.name)}" class="modal-action-btn primary">
+        📊 Full Profile
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+      </a>
+      ${company.rosLink ? `<a href="${company.rosLink}" target="_blank" rel="noopener" class="modal-action-btn">
+        Read Coverage
       </a>` : ''}
       ${getCompanyWebsite(company.name) ? `<a href="${getCompanyWebsite(company.name)}" target="_blank" rel="noopener" class="modal-action-btn">
         🌐 Website
@@ -3673,6 +3687,7 @@ function getInnovatorScore(companyName) {
 function initGovContracts() {
   if (typeof GOV_CONTRACTS === 'undefined') return;
   const readinessPanel = document.getElementById('gov-readiness-panel');
+  const demandPanel = document.getElementById('gov-demand-panel');
   const contractsPanel = document.getElementById('gov-contracts-panel');
   const budgetPanel = document.getElementById('gov-budget-panel');
   const heatmapPanel = document.getElementById('gov-heatmap-panel');
@@ -3685,11 +3700,17 @@ function initGovContracts() {
       tab.classList.add('active');
       const tabName = tab.dataset.tab;
       if (readinessPanel) readinessPanel.style.display = tabName === 'readiness' ? '' : 'none';
+      if (demandPanel) demandPanel.style.display = tabName === 'demand' ? '' : 'none';
       contractsPanel.style.display = tabName === 'contracts' ? '' : 'none';
       budgetPanel.style.display = tabName === 'budget' ? '' : 'none';
       heatmapPanel.style.display = tabName === 'heatmap' ? '' : 'none';
     });
   });
+
+  // Government Demand Tracker Panel
+  if (typeof GOV_DEMAND_TRACKER !== 'undefined' && demandPanel) {
+    renderGovDemandTracker(demandPanel);
+  }
 
   // Contractor Readiness Panel
   if (typeof CONTRACTOR_READINESS !== 'undefined' && readinessPanel) {
@@ -3831,6 +3852,91 @@ function initGovContracts() {
     html += '</tbody></table></div>';
     heatmapPanel.innerHTML = html;
   }
+}
+
+// ═══════════════════════════════════════════════════════════════
+// GOVERNMENT DEMAND TRACKER
+// What the government WANTS — live opportunities
+// ═══════════════════════════════════════════════════════════════
+function renderGovDemandTracker(panel) {
+  if (!panel || typeof GOV_DEMAND_TRACKER === 'undefined') return;
+
+  const summary = typeof GOV_DEMAND_SUMMARY !== 'undefined' ? GOV_DEMAND_SUMMARY : {};
+  const sorted = [...GOV_DEMAND_TRACKER].sort((a, b) => {
+    const priorityOrder = { 'Critical': 0, 'High': 1, 'Medium': 2, 'Low': 3 };
+    return (priorityOrder[a.priority] || 3) - (priorityOrder[b.priority] || 3);
+  });
+
+  panel.innerHTML = `
+    <div class="gov-demand-header">
+      <div class="gov-demand-summary">
+        <div class="demand-stat">
+          <span class="demand-stat-value">${summary.totalOpportunities || sorted.length}</span>
+          <span class="demand-stat-label">Active Opportunities</span>
+        </div>
+        <div class="demand-stat">
+          <span class="demand-stat-value">${summary.totalValue || '$500M+'}</span>
+          <span class="demand-stat-label">Total Value</span>
+        </div>
+        <div class="demand-stat">
+          <span class="demand-stat-value" style="color:#ef4444;">${summary.criticalPriority || 3}</span>
+          <span class="demand-stat-label">Critical Priority</span>
+        </div>
+      </div>
+      <div class="demand-hot-areas">
+        <span class="demand-hot-label">🔥 Hot Areas:</span>
+        ${(summary.hottestAreas || ['Counter-drone', 'Nuclear', 'Autonomy']).map(a => `<span class="demand-hot-tag">${a}</span>`).join('')}
+      </div>
+    </div>
+
+    <div class="gov-demand-grid">
+      ${sorted.map(opp => {
+        const priorityColor = opp.priority === 'Critical' ? '#ef4444' : opp.priority === 'High' ? '#f59e0b' : '#6b7280';
+        const daysUntilDeadline = opp.deadline !== 'Rolling' ? Math.ceil((new Date(opp.deadline) - new Date()) / (1000 * 60 * 60 * 24)) : null;
+        const urgencyClass = daysUntilDeadline && daysUntilDeadline < 30 ? 'urgent' : daysUntilDeadline && daysUntilDeadline < 60 ? 'soon' : '';
+
+        return `
+          <div class="gov-demand-card ${urgencyClass}">
+            <div class="demand-card-header">
+              <span class="demand-priority" style="background:${priorityColor}20; color:${priorityColor}; border:1px solid ${priorityColor}40;">
+                ${opp.priority}
+              </span>
+              <span class="demand-agency">${opp.agency}</span>
+            </div>
+            <h4 class="demand-title">${opp.title}</h4>
+            <div class="demand-meta">
+              <span class="demand-type">${opp.type}</span>
+              <span class="demand-value">${opp.value}</span>
+            </div>
+            <p class="demand-description">${opp.description}</p>
+            <div class="demand-tech-areas">
+              ${(opp.techAreas || []).map(t => `<span class="demand-tech-tag">${t}</span>`).join('')}
+            </div>
+            <div class="demand-deadline ${urgencyClass}">
+              <span class="deadline-icon">📅</span>
+              <span class="deadline-text">
+                ${opp.deadline === 'Rolling' ? 'Rolling submissions' : `Deadline: ${opp.deadline}`}
+                ${daysUntilDeadline ? `<span class="days-left">(${daysUntilDeadline} days)</span>` : ''}
+              </span>
+            </div>
+            ${opp.relevantCompanies && opp.relevantCompanies.length > 0 ? `
+              <div class="demand-relevant">
+                <span class="relevant-label">Relevant Companies:</span>
+                <div class="relevant-companies">
+                  ${opp.relevantCompanies.map(c => `<span class="relevant-company" onclick="openCompanyModal('${c.replace(/'/g, "\\'")}')">${c}</span>`).join('')}
+                </div>
+              </div>
+            ` : ''}
+            ${opp.source ? `<a href="${opp.source}" target="_blank" rel="noopener" class="demand-source-link">View Source →</a>` : ''}
+          </div>
+        `;
+      }).join('')}
+    </div>
+
+    <div class="gov-demand-footer">
+      <p class="demand-disclaimer">Data sourced from SAM.gov, agency BAAs, SBIR.gov, and official announcements. Last updated: ${typeof DATA_SOURCES !== 'undefined' ? DATA_SOURCES.govContracts?.lastUpdated : 'Unknown'}</p>
+    </div>
+  `;
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -4640,6 +4746,203 @@ function initNetworkGraph() {
   if (statsEl) {
     statsEl.textContent = `${nodes.length} nodes \u00b7 ${edges.length} connections \u00b7 ${nodes.filter(n => n.type === 'company').length} companies \u00b7 ${nodes.filter(n => n.type === 'investor').length} investors \u00b7 ${nodes.filter(n => n.type === 'person').length} people`;
   }
+
+  // Degrees of Separation feature
+  initDegreesOfSeparation(nodes, edges, node, link, simulation);
+
+  // Export feature
+  const exportBtn = document.getElementById('network-export-btn');
+  if (exportBtn) {
+    exportBtn.addEventListener('click', () => {
+      exportNetworkAsPNG(container);
+    });
+  }
+}
+
+// ─── DEGREES OF SEPARATION ───
+function initDegreesOfSeparation(nodes, edges, nodeSelection, linkSelection, simulation) {
+  const modal = document.getElementById('degrees-modal');
+  const btn = document.getElementById('degrees-btn');
+  const closeBtn = document.getElementById('degrees-close-btn');
+  const findBtn = document.getElementById('degrees-find-btn');
+  const fromInput = document.getElementById('degrees-from');
+  const toInput = document.getElementById('degrees-to');
+  const resultDiv = document.getElementById('degrees-result');
+  const fromList = document.getElementById('degrees-from-list');
+  const toList = document.getElementById('degrees-to-list');
+
+  if (!modal || !btn) return;
+
+  // Populate datalists
+  const nodeLabels = nodes.map(n => n.label).sort();
+  if (fromList && toList) {
+    const options = nodeLabels.map(l => `<option value="${l}">`).join('');
+    fromList.innerHTML = options;
+    toList.innerHTML = options;
+  }
+
+  // Open modal
+  btn.addEventListener('click', () => {
+    modal.style.display = 'flex';
+  });
+
+  // Close modal
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+      resultDiv.style.display = 'none';
+      // Reset highlighting
+      nodeSelection.classed('dimmed', false).classed('highlighted', false).classed('path-node', false);
+      linkSelection.classed('dimmed', false).classed('path-edge', false);
+    });
+  }
+
+  // Find path
+  if (findBtn) {
+    findBtn.addEventListener('click', () => {
+      const fromLabel = fromInput.value.trim();
+      const toLabel = toInput.value.trim();
+
+      if (!fromLabel || !toLabel) {
+        resultDiv.innerHTML = '<p class="degrees-error">Please enter both entities.</p>';
+        resultDiv.style.display = 'block';
+        return;
+      }
+
+      const fromNode = nodes.find(n => n.label.toLowerCase() === fromLabel.toLowerCase());
+      const toNode = nodes.find(n => n.label.toLowerCase() === toLabel.toLowerCase());
+
+      if (!fromNode || !toNode) {
+        resultDiv.innerHTML = '<p class="degrees-error">One or both entities not found in the network.</p>';
+        resultDiv.style.display = 'block';
+        return;
+      }
+
+      // BFS to find shortest path
+      const path = findShortestPath(fromNode.id, toNode.id, nodes, edges);
+
+      if (!path) {
+        resultDiv.innerHTML = `<p class="degrees-error">No path found between ${fromLabel} and ${toLabel}.</p>`;
+        resultDiv.style.display = 'block';
+        return;
+      }
+
+      // Display result
+      const nodeMap = {};
+      nodes.forEach(n => { nodeMap[n.id] = n; });
+
+      let html = `
+        <div class="degrees-success">
+          <p class="degrees-count"><strong>${path.length - 1}</strong> degree${path.length - 1 !== 1 ? 's' : ''} of separation</p>
+          <div class="degrees-path">
+      `;
+
+      path.forEach((nodeId, i) => {
+        const n = nodeMap[nodeId];
+        const isLast = i === path.length - 1;
+        html += `
+          <span class="path-node-chip ${n.type}">${n.label}</span>
+          ${!isLast ? '<span class="path-arrow">→</span>' : ''}
+        `;
+      });
+
+      html += '</div></div>';
+      resultDiv.innerHTML = html;
+      resultDiv.style.display = 'block';
+
+      // Highlight path in graph
+      const pathSet = new Set(path);
+      nodeSelection.classed('dimmed', n => !pathSet.has(n.id));
+      nodeSelection.classed('path-node', n => pathSet.has(n.id));
+
+      // Highlight edges in path
+      const pathEdges = new Set();
+      for (let i = 0; i < path.length - 1; i++) {
+        pathEdges.add(`${path[i]}-${path[i + 1]}`);
+        pathEdges.add(`${path[i + 1]}-${path[i]}`);
+      }
+
+      linkSelection.classed('dimmed', l => {
+        const src = typeof l.source === 'object' ? l.source.id : l.source;
+        const tgt = typeof l.target === 'object' ? l.target.id : l.target;
+        return !pathEdges.has(`${src}-${tgt}`);
+      });
+      linkSelection.classed('path-edge', l => {
+        const src = typeof l.source === 'object' ? l.source.id : l.source;
+        const tgt = typeof l.target === 'object' ? l.target.id : l.target;
+        return pathEdges.has(`${src}-${tgt}`);
+      });
+    });
+  }
+}
+
+function findShortestPath(startId, endId, nodes, edges) {
+  // BFS implementation
+  const queue = [[startId]];
+  const visited = new Set([startId]);
+
+  // Build adjacency list
+  const adj = {};
+  nodes.forEach(n => { adj[n.id] = []; });
+  edges.forEach(e => {
+    const src = typeof e.source === 'object' ? e.source.id : e.source;
+    const tgt = typeof e.target === 'object' ? e.target.id : e.target;
+    if (adj[src]) adj[src].push(tgt);
+    if (adj[tgt]) adj[tgt].push(src);
+  });
+
+  while (queue.length > 0) {
+    const path = queue.shift();
+    const current = path[path.length - 1];
+
+    if (current === endId) {
+      return path;
+    }
+
+    for (const neighbor of (adj[current] || [])) {
+      if (!visited.has(neighbor)) {
+        visited.add(neighbor);
+        queue.push([...path, neighbor]);
+      }
+    }
+  }
+
+  return null; // No path found
+}
+
+function exportNetworkAsPNG(container) {
+  const svgEl = container.querySelector('svg');
+  if (!svgEl) return;
+
+  // Clone SVG and add white background
+  const clone = svgEl.cloneNode(true);
+  clone.style.backgroundColor = '#1a1a2e';
+
+  const serializer = new XMLSerializer();
+  const svgStr = serializer.serializeToString(clone);
+  const svgBlob = new Blob([svgStr], { type: 'image/svg+xml;charset=utf-8' });
+  const url = URL.createObjectURL(svgBlob);
+
+  const img = new Image();
+  img.onload = () => {
+    const canvas = document.createElement('canvas');
+    canvas.width = svgEl.clientWidth * 2;
+    canvas.height = svgEl.clientHeight * 2;
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#1a1a2e';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.scale(2, 2);
+    ctx.drawImage(img, 0, 0);
+
+    canvas.toBlob(blob => {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `network-graph-${new Date().toISOString().split('T')[0]}.png`;
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+  };
+  img.src = url;
 }
 
 // ═══════════════════════════════════════════════════════
@@ -7250,4 +7553,300 @@ function initPremiumFeatures() {
   initProWatchlist();
   initNetworkStatusBar();
   initAISearch();
+  initAIAssistant();
+}
+
+// ═══════════════════════════════════════════════════════
+// AI RESEARCH ASSISTANT
+// ═══════════════════════════════════════════════════════
+
+function initAIAssistant() {
+  const fab = document.getElementById('ai-assistant-fab');
+  const panel = document.getElementById('ai-assistant-panel');
+  const closeBtn = document.getElementById('ai-panel-close');
+  const input = document.getElementById('ai-input');
+  const sendBtn = document.getElementById('ai-send-btn');
+  const chatContainer = document.getElementById('ai-chat');
+  const suggestionBtns = document.querySelectorAll('.ai-suggestion-btn');
+  const settingsBtn = document.getElementById('ai-settings-btn');
+  const settingsModal = document.getElementById('ai-settings-modal');
+  const saveKeyBtn = document.getElementById('ai-save-key-btn');
+  const cancelSettingsBtn = document.getElementById('ai-cancel-settings-btn');
+
+  if (!fab || !panel) return;
+
+  // Toggle panel
+  fab.addEventListener('click', () => {
+    const isVisible = panel.style.display !== 'none';
+    panel.style.display = isVisible ? 'none' : 'flex';
+    fab.style.display = isVisible ? 'flex' : 'none';
+    if (!isVisible && input) {
+      input.focus();
+    }
+  });
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      panel.style.display = 'none';
+      fab.style.display = 'flex';
+    });
+  }
+
+  // Suggestion buttons
+  suggestionBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const query = btn.dataset.query;
+      if (query) {
+        handleAIQuery(query, chatContainer);
+      }
+    });
+  });
+
+  // Send button
+  if (sendBtn && input) {
+    sendBtn.addEventListener('click', () => {
+      const query = input.value.trim();
+      if (query) {
+        handleAIQuery(query, chatContainer);
+        input.value = '';
+      }
+    });
+
+    // Enter key
+    input.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        const query = input.value.trim();
+        if (query) {
+          handleAIQuery(query, chatContainer);
+          input.value = '';
+        }
+      }
+    });
+  }
+
+  // Settings modal
+  if (settingsBtn && settingsModal) {
+    settingsBtn.addEventListener('click', () => {
+      settingsModal.style.display = 'flex';
+      const keyInput = document.getElementById('anthropic-api-key');
+      if (keyInput) {
+        keyInput.value = localStorage.getItem('anthropic_api_key') || '';
+      }
+    });
+
+    if (cancelSettingsBtn) {
+      cancelSettingsBtn.addEventListener('click', () => {
+        settingsModal.style.display = 'none';
+      });
+    }
+
+    if (saveKeyBtn) {
+      saveKeyBtn.addEventListener('click', () => {
+        const keyInput = document.getElementById('anthropic-api-key');
+        if (keyInput && keyInput.value.trim()) {
+          localStorage.setItem('anthropic_api_key', keyInput.value.trim());
+          settingsModal.style.display = 'none';
+          showNotification('API key saved! AI responses will now use Claude.');
+        }
+      });
+    }
+
+    // Close on click outside
+    settingsModal.addEventListener('click', (e) => {
+      if (e.target === settingsModal) {
+        settingsModal.style.display = 'none';
+      }
+    });
+  }
+}
+
+function handleAIQuery(query, chatContainer) {
+  if (!chatContainer) return;
+
+  // Add user message
+  const userMsg = document.createElement('div');
+  userMsg.className = 'ai-message user';
+  userMsg.textContent = query;
+  chatContainer.appendChild(userMsg);
+
+  // Add loading message
+  const loadingMsg = document.createElement('div');
+  loadingMsg.className = 'ai-message assistant loading';
+  loadingMsg.innerHTML = '<div class="ai-typing-indicator"><span></span><span></span><span></span></div>';
+  chatContainer.appendChild(loadingMsg);
+  chatContainer.scrollTop = chatContainer.scrollHeight;
+
+  // Check if we have an API key
+  const apiKey = localStorage.getItem('anthropic_api_key');
+
+  if (apiKey) {
+    // Use Claude API
+    callClaudeAPI(query, apiKey)
+      .then(response => {
+        loadingMsg.remove();
+        const assistantMsg = document.createElement('div');
+        assistantMsg.className = 'ai-message assistant';
+        assistantMsg.innerHTML = response;
+        chatContainer.appendChild(assistantMsg);
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+      })
+      .catch(error => {
+        loadingMsg.remove();
+        const errorMsg = document.createElement('div');
+        errorMsg.className = 'ai-message assistant';
+        errorMsg.innerHTML = `<span style="color:#ef4444;">Error: ${error.message}</span><br><br>Try checking your API key in settings.`;
+        chatContainer.appendChild(errorMsg);
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+      });
+  } else {
+    // Generate response from local data
+    setTimeout(() => {
+      loadingMsg.remove();
+      const response = generateLocalAIResponse(query);
+      const assistantMsg = document.createElement('div');
+      assistantMsg.className = 'ai-message assistant';
+      assistantMsg.innerHTML = response;
+      chatContainer.appendChild(assistantMsg);
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+    }, 800);
+  }
+}
+
+async function callClaudeAPI(query, apiKey) {
+  // Build context from our data
+  const context = buildAIContext();
+
+  const response = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'x-api-key': apiKey,
+      'anthropic-version': '2023-06-01',
+      'anthropic-dangerous-direct-browser-access': 'true'
+    },
+    body: JSON.stringify({
+      model: 'claude-3-haiku-20240307',
+      max_tokens: 1024,
+      system: `You are an AI research assistant for The Innovators League, a frontier technology intelligence platform. You have access to a database of ${COMPANIES.length}+ companies across defense, space, energy, biotech, and robotics sectors.
+
+Answer questions about companies, sectors, funding, and investment opportunities. Be concise but insightful. Use the provided data context.
+
+${context}`,
+      messages: [
+        { role: 'user', content: query }
+      ]
+    })
+  });
+
+  if (!response.ok) {
+    const error = await response.json();
+    throw new Error(error.error?.message || 'API request failed');
+  }
+
+  const data = await response.json();
+  return formatClaudeResponse(data.content[0].text);
+}
+
+function buildAIContext() {
+  // Build a summary context from available data
+  const topCompanies = COMPANIES.slice(0, 20).map(c => `${c.name} (${c.sector}, ${c.valuation || c.totalRaised || 'private'})`).join(', ');
+
+  const sectorSummary = Object.keys(SECTORS).map(s => {
+    const count = COMPANIES.filter(c => c.sector === s).length;
+    return `${s}: ${count} companies`;
+  }).join('; ');
+
+  const hotSignals = COMPANIES.filter(c => c.signal === 'hot').slice(0, 5).map(c => c.name).join(', ');
+
+  return `
+TOP COMPANIES: ${topCompanies}
+
+SECTORS: ${sectorSummary}
+
+HOT SIGNALS: ${hotSignals}
+
+Note: Provide specific company names and data when answering. Keep responses under 200 words.`;
+}
+
+function formatClaudeResponse(text) {
+  // Convert markdown-style formatting to HTML
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.*?)\*/g, '<em>$1</em>')
+    .replace(/\n/g, '<br>')
+    .replace(/- /g, '• ');
+}
+
+function generateLocalAIResponse(query) {
+  const lowerQuery = query.toLowerCase();
+
+  // Pattern matching for common queries
+  if (lowerQuery.includes('defense') || lowerQuery.includes('government') || lowerQuery.includes('gov')) {
+    const defenseCompanies = COMPANIES.filter(c => c.sector === 'Defense & Security').slice(0, 5);
+    return `<strong>Top Defense Companies:</strong><br><br>` +
+      defenseCompanies.map(c => `• <strong>${c.name}</strong> - ${c.valuation || c.totalRaised || 'Private'}<br>${c.description?.split('.')[0]}.`).join('<br><br>') +
+      `<br><br><em>Configure API key for detailed analysis.</em>`;
+  }
+
+  if (lowerQuery.includes('nuclear') || lowerQuery.includes('energy')) {
+    const nuclearCompanies = COMPANIES.filter(c => c.sector === 'Nuclear Energy' || c.sector === 'Climate & Energy').slice(0, 5);
+    return `<strong>Nuclear & Energy Companies:</strong><br><br>` +
+      nuclearCompanies.map(c => `• <strong>${c.name}</strong> - ${c.valuation || c.totalRaised || 'Private'}`).join('<br>') +
+      `<br><br><em>Configure API key for funding stage analysis.</em>`;
+  }
+
+  if (lowerQuery.includes('compare')) {
+    const companyNames = COMPANIES.map(c => c.name.toLowerCase());
+    const matches = companyNames.filter(name => lowerQuery.includes(name.split(' ')[0].toLowerCase()));
+    if (matches.length >= 2) {
+      return `To compare companies in detail, configure your API key in settings. I can then provide side-by-side analysis of valuation, funding, team, and competitive positioning.`;
+    }
+  }
+
+  if (lowerQuery.includes('ip') || lowerQuery.includes('moat') || lowerQuery.includes('patent')) {
+    const patentCompanies = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.slice(0, 5) : [];
+    if (patentCompanies.length > 0) {
+      return `<strong>Companies with Strongest IP Moats:</strong><br><br>` +
+        patentCompanies.map(p => `• <strong>${p.company}</strong> - ${p.totalPatents} patents, IP Score: ${p.ipMoatScore}/10`).join('<br>') +
+        `<br><br><em>IP moat measures patent portfolio strength and defensibility.</em>`;
+    }
+  }
+
+  if (lowerQuery.includes('space') || lowerQuery.includes('aerospace')) {
+    const spaceCompanies = COMPANIES.filter(c => c.sector === 'Space & Aerospace').slice(0, 5);
+    return `<strong>Space & Aerospace Leaders:</strong><br><br>` +
+      spaceCompanies.map(c => `• <strong>${c.name}</strong> - ${c.valuation || c.totalRaised || 'Private'}`).join('<br>');
+  }
+
+  // Default response
+  return `I can help you research frontier tech companies. Try asking about:<br><br>` +
+    `• <strong>Sectors:</strong> "Show me defense companies" or "Nuclear startups"<br>` +
+    `• <strong>Comparisons:</strong> "Compare Anduril vs Shield AI"<br>` +
+    `• <strong>Analysis:</strong> "Which companies have strongest IP moats?"<br>` +
+    `• <strong>Funding:</strong> "Series B+ companies in space"<br><br>` +
+    `<em>For advanced AI analysis, configure your Anthropic API key in settings.</em>`;
+}
+
+function showNotification(message) {
+  const notification = document.createElement('div');
+  notification.style.cssText = `
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--accent);
+    color: #000;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    z-index: 10000;
+    animation: slideUp 0.3s ease;
+  `;
+  notification.textContent = message;
+  document.body.appendChild(notification);
+
+  setTimeout(() => {
+    notification.style.animation = 'slideDown 0.3s ease';
+    setTimeout(() => notification.remove(), 300);
+  }, 3000);
 }

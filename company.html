@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile | The Innovators League</title>
+    <meta name="description" content="Comprehensive company intelligence and due diligence data from The Innovators League.">
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Company Profile | The Innovators League">
+    <meta property="og:description" content="Comprehensive company intelligence and due diligence data.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Innovators League">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Company Profile | The Innovators League">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css?v=28">
+    <link rel="stylesheet" href="company-profile.css?v=1">
+</head>
+<body class="company-profile-page">
+    <!-- Minimal Navigation -->
+    <nav class="nav nav-minimal">
+        <div class="nav-brand">
+            <a href="index.html" class="nav-logo-link">
+                <div class="nav-logo">ROS</div>
+                <span class="nav-title">THE INNOVATORS LEAGUE</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-back-btn">← Back to Database</a>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+    </nav>
+
+    <!-- Company Profile Content -->
+    <main class="company-profile" id="company-profile">
+        <!-- Loading State -->
+        <div class="profile-loading" id="profile-loading">
+            <div class="loading-spinner"></div>
+            <p>Loading company intelligence...</p>
+        </div>
+
+        <!-- Error State -->
+        <div class="profile-error" id="profile-error" style="display:none;">
+            <h2>Company Not Found</h2>
+            <p>We couldn't find a company with that name in our database.</p>
+            <a href="index.html" class="btn-primary">Browse All Companies</a>
+        </div>
+
+        <!-- Company Profile Content (populated by JS) -->
+        <div class="profile-content" id="profile-content" style="display:none;">
+
+            <!-- SECTION A: Executive Summary (One Screen) -->
+            <section class="profile-hero" id="profile-hero">
+                <!-- Populated by JS -->
+            </section>
+
+            <!-- SECTION B: Evidence-Backed Traction -->
+            <section class="profile-section profile-traction" id="profile-traction">
+                <h2 class="section-title">
+                    <span class="section-icon">📈</span>
+                    Evidence-Backed Traction
+                </h2>
+                <div class="traction-grid" id="traction-grid">
+                    <!-- Funding History -->
+                    <div class="traction-card" id="funding-history-card">
+                        <h3>Funding History</h3>
+                        <div id="funding-history"></div>
+                    </div>
+
+                    <!-- Government Contracts -->
+                    <div class="traction-card" id="contracts-card">
+                        <h3>Government Contracts</h3>
+                        <div id="contracts-list"></div>
+                    </div>
+
+                    <!-- Hiring Trend -->
+                    <div class="traction-card" id="hiring-card">
+                        <h3>Hiring Trend</h3>
+                        <div id="hiring-chart-container">
+                            <canvas id="hiring-chart"></canvas>
+                        </div>
+                        <div id="hiring-details"></div>
+                    </div>
+
+                    <!-- Product Milestones -->
+                    <div class="traction-card" id="milestones-card">
+                        <h3>Product Milestones</h3>
+                        <div id="milestones-timeline"></div>
+                    </div>
+
+                    <!-- Revenue Intelligence -->
+                    <div class="traction-card" id="revenue-card">
+                        <h3>Revenue / ARR</h3>
+                        <div id="revenue-intel"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION C: Competitive Context -->
+            <section class="profile-section profile-competitive" id="profile-competitive">
+                <h2 class="section-title">
+                    <span class="section-icon">🎯</span>
+                    Competitive Context
+                </h2>
+                <div class="competitive-grid" id="competitive-grid">
+                    <!-- Competitor Set -->
+                    <div class="competitive-card" id="competitors-card">
+                        <h3>Competitor Set</h3>
+                        <div id="competitors-list"></div>
+                    </div>
+
+                    <!-- Why They Win/Lose -->
+                    <div class="competitive-card" id="thesis-card">
+                        <h3>Investment Thesis</h3>
+                        <div id="thesis-content"></div>
+                    </div>
+
+                    <!-- Moat Evidence -->
+                    <div class="competitive-card moat-card" id="moat-card">
+                        <h3>Moat Evidence</h3>
+                        <div id="moat-content"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION D: Deep Intelligence -->
+            <section class="profile-section profile-intelligence" id="profile-intelligence">
+                <h2 class="section-title">
+                    <span class="section-icon">🔬</span>
+                    Deep Intelligence
+                </h2>
+                <div class="intelligence-grid" id="intelligence-grid">
+                    <!-- Patent Intelligence -->
+                    <div class="intel-card" id="patent-intel-card">
+                        <h3>Patent Portfolio</h3>
+                        <div id="patent-intel"></div>
+                    </div>
+
+                    <!-- Alternative Data Signals -->
+                    <div class="intel-card" id="alt-data-card">
+                        <h3>Alternative Data Signals</h3>
+                        <div id="alt-data"></div>
+                    </div>
+
+                    <!-- Founder Network -->
+                    <div class="intel-card" id="founder-network-card">
+                        <h3>Founder Network</h3>
+                        <div id="founder-network"></div>
+                    </div>
+
+                    <!-- News & Sentiment -->
+                    <div class="intel-card" id="news-card">
+                        <h3>Recent News</h3>
+                        <div id="news-feed"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Actions Bar -->
+            <section class="profile-actions" id="profile-actions">
+                <div class="actions-container">
+                    <button class="action-btn primary" id="btn-save">
+                        <span class="btn-icon">☆</span> Save to Watchlist
+                    </button>
+                    <button class="action-btn" id="btn-share">
+                        <span class="btn-icon">↗</span> Share Profile
+                    </button>
+                    <button class="action-btn" id="btn-export">
+                        <span class="btn-icon">📄</span> Export PDF
+                    </button>
+                    <button class="action-btn" id="btn-compare">
+                        <span class="btn-icon">⚖️</span> Compare
+                    </button>
+                    <a class="action-btn" id="btn-website" href="#" target="_blank" rel="noopener">
+                        <span class="btn-icon">🌐</span> Visit Website
+                    </a>
+                </div>
+            </section>
+
+            <!-- Related Companies -->
+            <section class="profile-section profile-related" id="profile-related">
+                <h2 class="section-title">
+                    <span class="section-icon">🔗</span>
+                    Related Companies
+                </h2>
+                <div class="related-grid" id="related-grid">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- Data Attribution -->
+            <section class="profile-attribution">
+                <div class="attribution-content">
+                    <p class="attribution-text">
+                        <strong>Data Sources:</strong> SEC EDGAR, SAM.gov, USPTO, Crunchbase, press releases, and proprietary ROS research.
+                    </p>
+                    <p class="attribution-updated" id="attribution-updated">
+                        Last updated: --
+                    </p>
+                    <button class="correction-btn" onclick="openPartnerPortal('correction')">
+                        📝 Submit a Correction
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- AI Research Assistant -->
+    <div class="ai-assistant-fab" id="ai-assistant-fab" title="Ask AI about this company">
+        <span class="ai-icon">🤖</span>
+    </div>
+
+    <!-- AI Assistant Panel -->
+    <div class="ai-assistant-panel" id="ai-assistant-panel" style="display:none;">
+        <div class="ai-panel-header">
+            <h3>🤖 AI Research Assistant</h3>
+            <button class="ai-panel-close" id="ai-panel-close">×</button>
+        </div>
+        <div class="ai-panel-body">
+            <div class="ai-suggestions">
+                <p class="ai-suggestions-label">Suggested questions:</p>
+                <button class="ai-suggestion-btn" data-query="summarize">Summarize this company</button>
+                <button class="ai-suggestion-btn" data-query="bull-case">What's the bull case?</button>
+                <button class="ai-suggestion-btn" data-query="bear-case">What's the bear case?</button>
+                <button class="ai-suggestion-btn" data-query="competitors">How do they compare to competitors?</button>
+                <button class="ai-suggestion-btn" data-query="risks">What are the key risks?</button>
+            </div>
+            <div class="ai-chat" id="ai-chat">
+                <!-- Chat messages will appear here -->
+            </div>
+            <div class="ai-input-container">
+                <input type="text" id="ai-input" placeholder="Ask anything about this company..." autocomplete="off">
+                <button id="ai-send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="data.js?v=61"></script>
+    <script src="app.js?v=61"></script>
+    <script src="company-profile.js?v=1"></script>
+</body>
+</html>

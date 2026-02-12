@@ -235,6 +235,163 @@ const COMMUNITY_EVENTS = [
   { type: "summit", name: "ROS Summit", frequency: "Annual", description: "The annual gathering of the ROS community" }
 ];
 
+// ═══════════════════════════════════════════════════════
+// GOVERNMENT DEMAND TRACKER
+// What the government WANTS — RFPs, BAAs, SBIR topics
+// ═══════════════════════════════════════════════════════
+
+const GOV_DEMAND_TRACKER = [
+  {
+    id: "DIU-AA-001",
+    title: "Autonomous Counter-UAS Systems",
+    agency: "Defense Innovation Unit (DIU)",
+    type: "Other Transaction (OT)",
+    deadline: "2026-03-15",
+    value: "$50M-$100M",
+    priority: "Critical",
+    description: "DIU seeking autonomous systems capable of detecting, tracking, and neutralizing small UAS threats in GPS-denied environments. Emphasis on low cost-per-engagement.",
+    techAreas: ["Counter-drone", "Autonomous systems", "Electronic warfare"],
+    relevantCompanies: ["Anduril Industries", "Epirus", "Allen Control Systems", "Chaos Industries"],
+    source: "https://www.diu.mil/",
+    posted: "2026-01-15"
+  },
+  {
+    id: "AFWERX-2026-001",
+    title: "Next-Gen Hypersonic Propulsion",
+    agency: "AFWERX / Air Force",
+    type: "SBIR Phase III",
+    deadline: "2026-04-01",
+    value: "$25M",
+    priority: "High",
+    description: "Seeking innovative hypersonic propulsion solutions for air-breathing vehicles. Focus on scramjet technology improvements and thermal management.",
+    techAreas: ["Hypersonic", "Propulsion", "Aerospace"],
+    relevantCompanies: ["Hermeus", "Venus Aerospace", "Castelion"],
+    source: "https://afwerx.com/",
+    posted: "2026-01-20"
+  },
+  {
+    id: "DARPA-HR001126S0001",
+    title: "AI-Enabled Autonomous Naval Vessels",
+    agency: "DARPA",
+    type: "Broad Agency Announcement (BAA)",
+    deadline: "Rolling",
+    value: "Up to $75M",
+    priority: "Critical",
+    description: "Research into fully autonomous naval surface vessels with swarm coordination capabilities. Multi-domain awareness and edge AI processing required.",
+    techAreas: ["Maritime autonomy", "AI/ML", "Swarm intelligence"],
+    relevantCompanies: ["Saronic", "Saildrone", "Shield AI", "Anduril Industries"],
+    source: "https://www.darpa.mil/",
+    posted: "2025-12-01"
+  },
+  {
+    id: "DOE-NE-2026-001",
+    title: "Advanced Microreactor Fuel Development",
+    agency: "Department of Energy (DOE)",
+    type: "Funding Opportunity Announcement (FOA)",
+    deadline: "2026-05-30",
+    value: "$40M",
+    priority: "High",
+    description: "Development of HALEU fuel fabrication capabilities for next-generation microreactors. Focus on TRISO fuel forms and manufacturing scalability.",
+    techAreas: ["Nuclear fuel", "HALEU", "Manufacturing"],
+    relevantCompanies: ["Oklo", "Radiant", "Kairos Power", "Valar Atomics"],
+    source: "https://www.energy.gov/ne",
+    posted: "2026-01-10"
+  },
+  {
+    id: "ARMY-SBIR-2026-Q1",
+    title: "Soldier-Portable Directed Energy",
+    agency: "U.S. Army",
+    type: "SBIR Topic",
+    deadline: "2026-02-28",
+    value: "$2M Phase II",
+    priority: "Medium",
+    description: "Man-portable directed energy systems for counter-drone and counter-electronics missions. Weight under 20 lbs, battery-powered operation.",
+    techAreas: ["Directed energy", "Portable systems", "Counter-drone"],
+    relevantCompanies: ["Epirus"],
+    source: "https://www.sbir.gov/",
+    posted: "2026-01-05"
+  },
+  {
+    id: "NAVY-BAA-N00014",
+    title: "Undersea Autonomous Systems",
+    agency: "Office of Naval Research (ONR)",
+    type: "BAA",
+    deadline: "2026-06-30",
+    value: "$60M",
+    priority: "High",
+    description: "Advanced autonomous underwater vehicles for ISR, mine countermeasures, and anti-submarine warfare. Extended endurance and deep-ocean capability required.",
+    techAreas: ["AUV", "Undersea warfare", "Autonomy"],
+    relevantCompanies: ["Anduril Industries", "Bedrock Ocean Exploration"],
+    source: "https://www.onr.navy.mil/",
+    posted: "2025-11-15"
+  },
+  {
+    id: "USSF-2026-SATCOM",
+    title: "Resilient Space Communications",
+    agency: "U.S. Space Force",
+    type: "Request for Prototype Proposal",
+    deadline: "2026-03-31",
+    value: "$100M+",
+    priority: "Critical",
+    description: "Proliferated LEO constellation for secure military communications. Emphasis on rapid reconstitution, anti-jam capabilities, and ground segment integration.",
+    techAreas: ["Satellite communications", "LEO constellation", "Space resilience"],
+    relevantCompanies: ["SpaceX", "Astranis", "Planet Labs", "Muon Space"],
+    source: "https://www.spaceforce.mil/",
+    posted: "2026-01-25"
+  },
+  {
+    id: "DIU-2026-HUMANOID",
+    title: "Logistics Support Robotics",
+    agency: "Defense Innovation Unit (DIU)",
+    type: "Commercial Solutions Opening (CSO)",
+    deadline: "2026-04-15",
+    value: "$30M",
+    priority: "Medium",
+    description: "General-purpose robotics for military logistics, maintenance, and resupply operations. Interest in humanoid form factors for human-designed environments.",
+    techAreas: ["Robotics", "Humanoid", "Logistics"],
+    relevantCompanies: ["Figure", "Apptronik", "Agility Robotics", "Physical Intelligence"],
+    source: "https://www.diu.mil/",
+    posted: "2026-02-01"
+  },
+  {
+    id: "DHS-SBIR-2026-BORDER",
+    title: "Autonomous Border Surveillance",
+    agency: "Department of Homeland Security (DHS)",
+    type: "SBIR Topic",
+    deadline: "2026-03-10",
+    value: "$3M Phase II",
+    priority: "Medium",
+    description: "Long-endurance autonomous systems for border surveillance and detection. Emphasis on sensor fusion, edge processing, and communication in denied environments.",
+    techAreas: ["Surveillance", "Border security", "Autonomous systems"],
+    relevantCompanies: ["Anduril Industries", "Skydio", "Saildrone"],
+    source: "https://www.dhs.gov/science-and-technology/sbir",
+    posted: "2026-01-18"
+  },
+  {
+    id: "NASA-ARTEMIS-POWER",
+    title: "Lunar Surface Power Systems",
+    agency: "NASA",
+    type: "Announcement of Collaborative Opportunity",
+    deadline: "2026-05-15",
+    value: "$50M",
+    priority: "High",
+    description: "Fission power systems for sustained lunar surface operations. 40 kWe continuous output target. Flight demonstration pathway within 5 years.",
+    techAreas: ["Space nuclear", "Lunar systems", "Power generation"],
+    relevantCompanies: ["Radiant", "Oklo", "Zeno Power"],
+    source: "https://www.nasa.gov/",
+    posted: "2026-02-05"
+  }
+];
+
+const GOV_DEMAND_SUMMARY = {
+  totalOpportunities: 10,
+  totalValue: "$500M+",
+  criticalPriority: 3,
+  highPriority: 4,
+  topAgencies: ["DIU", "DARPA", "DOE", "USSF", "Navy"],
+  hottestAreas: ["Counter-drone", "Autonomous systems", "Nuclear", "Hypersonic", "Space"]
+};
+
 const SECTORS = {
   "Defense & Security": { icon: "🛡️", color: "#dc2626", description: "Autonomous drones, counter-drone systems, defense AI, and next-generation weapons platforms.", trend: "Defense tech funding hit $25B in 2025. The Pentagon's Replicator initiative is accelerating autonomous systems procurement. Counter-drone is the hottest sub-sector." },
   "Nuclear Energy": { icon: "⚛️", color: "#f59e0b", description: "Small modular reactors, microreactors, nuclear fuel, and next-gen fission and fusion energy.", trend: "Nuclear renaissance is real — NRC applications are at 20-year highs. Data center power demand is the unexpected catalyst driving SMR and microreactor timelines forward." },

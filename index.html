@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=27">
+    <link rel="stylesheet" href="styles.css?v=28">
 </head>
 <body>
     <!-- Navigation — Redesigned around 3 Workflows -->
@@ -360,11 +360,13 @@
             </div>
             <div class="gov-tabs">
                 <button class="gov-tab active" data-tab="readiness">🎯 Contractor Readiness</button>
+                <button class="gov-tab" data-tab="demand">🔥 Gov Demand Tracker</button>
                 <button class="gov-tab" data-tab="contracts">Contract Awards</button>
                 <button class="gov-tab" data-tab="budget">Budget Signals</button>
                 <button class="gov-tab" data-tab="heatmap">Agency Heatmap</button>
             </div>
             <div class="gov-panel" id="gov-readiness-panel"></div>
+            <div class="gov-panel" id="gov-demand-panel" style="display:none"></div>
             <div class="gov-panel" id="gov-contracts-panel" style="display:none"></div>
             <div class="gov-panel" id="gov-budget-panel" style="display:none"></div>
             <div class="gov-panel" id="gov-heatmap-panel" style="display:none"></div>
@@ -497,13 +499,47 @@
                     <button class="network-filter" data-edge="founder">Founders</button>
                     <button class="network-filter" data-edge="board">Board</button>
                 </div>
-                <div class="network-search">
-                    <input type="text" id="network-search" placeholder="Search node...">
+                <div class="network-tools">
+                    <div class="network-search">
+                        <input type="text" id="network-search" placeholder="Search node...">
+                    </div>
+                    <div class="network-degrees">
+                        <button class="network-degrees-btn" id="degrees-btn" title="Find path between two companies">
+                            🔗 Degrees of Separation
+                        </button>
+                    </div>
+                    <button class="network-export-btn" id="network-export-btn" title="Export as PNG">
+                        📷 Export
+                    </button>
                 </div>
                 <div class="network-legend">
                     <span class="network-legend-item"><span class="legend-dot" style="background:#FF6B2C"></span>Company</span>
                     <span class="network-legend-item"><span class="legend-dot" style="background:#f59e0b"></span>Investor</span>
                     <span class="network-legend-item"><span class="legend-dot" style="background:#8b5cf6"></span>Person</span>
+                </div>
+            </div>
+            <!-- Degrees of Separation Modal -->
+            <div class="degrees-modal" id="degrees-modal" style="display:none;">
+                <div class="degrees-modal-content">
+                    <h4>🔗 Find Degrees of Separation</h4>
+                    <p>Discover the shortest path between any two entities in the network.</p>
+                    <div class="degrees-inputs">
+                        <div class="degrees-input-group">
+                            <label>From:</label>
+                            <input type="text" id="degrees-from" placeholder="e.g., Anduril Industries" list="degrees-from-list">
+                            <datalist id="degrees-from-list"></datalist>
+                        </div>
+                        <div class="degrees-input-group">
+                            <label>To:</label>
+                            <input type="text" id="degrees-to" placeholder="e.g., SpaceX" list="degrees-to-list">
+                            <datalist id="degrees-to-list"></datalist>
+                        </div>
+                    </div>
+                    <div class="degrees-actions">
+                        <button class="degrees-find-btn" id="degrees-find-btn">Find Path</button>
+                        <button class="degrees-close-btn" id="degrees-close-btn">Close</button>
+                    </div>
+                    <div class="degrees-result" id="degrees-result" style="display:none;"></div>
                 </div>
             </div>
             <div class="network-canvas-wrapper">
@@ -1205,6 +1241,56 @@
         </div>
     </section>
 
+    <!-- AI Research Assistant FAB -->
+    <div class="ai-assistant-fab" id="ai-assistant-fab" title="AI Research Assistant">
+        <span class="ai-fab-icon">🤖</span>
+    </div>
+
+    <!-- AI Research Assistant Panel -->
+    <div class="ai-assistant-panel" id="ai-assistant-panel" style="display:none;">
+        <div class="ai-panel-header">
+            <h3>🤖 AI Research Assistant</h3>
+            <button class="ai-panel-close" id="ai-panel-close">&times;</button>
+        </div>
+        <div class="ai-panel-body">
+            <div class="ai-welcome">
+                <p>Ask me anything about frontier tech companies, sectors, or investments.</p>
+            </div>
+            <div class="ai-suggestions">
+                <p class="ai-suggestions-label">Try asking:</p>
+                <button class="ai-suggestion-btn" data-query="Which defense companies have the highest government traction?">Defense + Gov traction</button>
+                <button class="ai-suggestion-btn" data-query="Compare Anduril vs Shield AI">Compare companies</button>
+                <button class="ai-suggestion-btn" data-query="What nuclear startups are raising Series B or later?">Nuclear funding</button>
+                <button class="ai-suggestion-btn" data-query="Which companies have the strongest IP moats?">IP moat analysis</button>
+            </div>
+            <div class="ai-chat" id="ai-chat"></div>
+            <div class="ai-input-container">
+                <input type="text" id="ai-input" placeholder="Ask about any company, sector, or trend..." autocomplete="off">
+                <button id="ai-send-btn">→</button>
+            </div>
+            <div class="ai-settings">
+                <button class="ai-settings-btn" id="ai-settings-btn">⚙️ Configure API Key</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Settings Modal -->
+    <div class="ai-settings-modal" id="ai-settings-modal" style="display:none;">
+        <div class="ai-settings-content">
+            <h3>AI Configuration</h3>
+            <p>To enable advanced AI analysis, enter your Anthropic API key. Your key is stored locally and never sent to our servers.</p>
+            <div class="ai-key-input">
+                <label for="anthropic-api-key">Anthropic API Key</label>
+                <input type="password" id="anthropic-api-key" placeholder="sk-ant-...">
+            </div>
+            <div class="ai-settings-actions">
+                <button class="ai-save-key-btn" id="ai-save-key-btn">Save Key</button>
+                <button class="ai-cancel-btn" id="ai-cancel-settings-btn">Cancel</button>
+            </div>
+            <p class="ai-key-note">Don't have a key? <a href="https://console.anthropic.com/" target="_blank" rel="noopener">Get one from Anthropic</a></p>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -1238,7 +1324,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <script src="data.js?v=60"></script>
-    <script src="app.js?v=60"></script>
+    <script src="data.js?v=62"></script>
+    <script src="app.js?v=62"></script>
 </body>
 </html>
