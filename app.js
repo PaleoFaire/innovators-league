@@ -1488,6 +1488,14 @@ function animateCounterWithPrefix(id, target, prefix, suffix) {
 
 // ─── MAP ───
 function initMap() {
+  // Check if Leaflet is available
+  if (typeof L === 'undefined') {
+    console.log('Leaflet not loaded, skipping map initialization');
+    return;
+  }
+  const mapEl = document.getElementById('innovators-map');
+  if (!mapEl) return;
+
   const map = L.map('innovators-map', {
     center: [25, 0],
     zoom: 2,
