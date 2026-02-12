@@ -1,85 +1,63 @@
 // Auto-generated news signals
-// Last updated: 2026-02-12T10:29:40.707Z
+// Last updated: 2026-02-12T15:08:13.583Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1770892180707,
+    "id": 1770908893583,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX takes down Dragon crew arm, giving Starship a leg up in Florida",
     "source": "Ars Technica Space",
-    "time": "8h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": true,
     "link": "https://arstechnica.com/space/2026/02/heres-why-americas-most-historic-launch-pad-is-getting-yet-another-facelift/"
   },
   {
-    "id": 1770892180708,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX IPO may suck oxygen from market before unleashing broad capital surge",
-    "source": "SpaceNews",
-    "time": "11h ago",
-    "impact": "high",
-    "unread": true,
-    "link": "https://spacenews.com/spacex-ipo-may-suck-oxygen-from-market-before-unleashing-broad-capital-surge/"
-  },
-  {
-    "id": 1770892180709,
+    "id": 1770908893584,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI disbands mission alignment team",
     "source": "TechCrunch",
-    "time": "12h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/"
   },
   {
-    "id": 1770892180710,
+    "id": 1770908893585,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI researcher quits over ChatGPT ads, warns of &quot;Facebook&quot; path",
     "source": "Ars Technica",
-    "time": "13h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": true,
     "link": "https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/"
   },
   {
-    "id": 1770892180711,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "How much is vertical integration squeezing the smallsat opportunity?",
-    "source": "SpaceNews",
-    "time": "17h ago",
-    "impact": "low",
-    "unread": true,
-    "link": "https://spacenews.com/how-much-is-vertical-integration-squeezing-the-smallsat-opportunity/"
-  },
-  {
-    "id": 1770892180712,
+    "id": 1770908893586,
     "type": "funding",
     "company": "Apptronik",
     "headline": "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo",
     "source": "Crunchbase News",
-    "time": "20h ago",
+    "time": "1d ago",
     "impact": "medium",
-    "unread": false,
+    "unread": true,
     "link": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/"
   },
   {
-    "id": 1770892180713,
+    "id": 1770908893587,
     "type": "news",
     "company": "OpenAI",
     "headline": "AI Industry Rivals Are Teaming Up on a Startup Accelerator",
     "source": "Wired",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
-    "unread": false,
+    "unread": true,
     "link": "https://www.wired.com/story/ai-industry-rivals-are-teaming-up-on-a-startup-accelerator/"
   },
   {
-    "id": 1770892180714,
+    "id": 1770908893588,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX&#039;s next-gen Super Heavy booster aces four days of &quot;cryoproof&quot; testing",
@@ -90,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/02/spacexs-starbase-is-coming-alive-again-after-a-lull-in-starship-testing/"
   },
   {
-    "id": 1770892180715,
+    "id": 1770908893589,
     "type": "hire",
     "company": "Palantir",
     "headline": "Palantir CEO Alex Karp Recorded a Video About ICE for His Employees",
@@ -101,18 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/palantir-ceo-alex-karp-employee-questions-on-ice/"
   },
   {
-    "id": 1770892180716,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "OpenAI Abandons ‘io’ Branding for Its AI Hardware",
-    "source": "Wired",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.wired.com/story/openai-drops-io-branding-hardware-devices/"
-  },
-  {
-    "id": 1770892180717,
+    "id": 1770908893590,
     "type": "funding",
     "company": "Waymo",
     "headline": "The Week’s 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings",
@@ -123,29 +90,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-waymo-cerebras/"
   },
   {
-    "id": 1770892180718,
+    "id": 1770908893591,
     "type": "news",
     "company": "Shield AI",
     "headline": "Shield AI, ST Engineering join forces on fine-tuning drone swarms",
     "source": "Defense News",
-    "time": "5d ago",
+    "time": "6d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defensenews.com/unmanned/2026/02/06/shield-ai-st-engineering-join-forces-on-fine-tuning-drone-swarms/"
   },
   {
-    "id": 1770892180719,
+    "id": 1770908893592,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes",
     "source": "Ars Technica Space",
-    "time": "5d ago",
+    "time": "6d ago",
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/space/2026/02/rocket-report-spacex-probes-upper-stage-malfunction-starship-testing-resumes/"
   },
   {
-    "id": 1770892180720,
+    "id": 1770908893593,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI is hoppin&#039; mad about Anthropic&#039;s new Super Bowl TV ads",
@@ -156,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/information-technology/2026/02/openai-is-hoppin-mad-about-anthropics-new-super-bowl-tv-ads/"
   },
   {
-    "id": 1770892180721,
+    "id": 1770908893594,
     "type": "news",
     "company": "Anthropic",
     "headline": "Should AI chatbots have ads? Anthropic says no.",
@@ -167,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/"
   },
   {
-    "id": 1770892180722,
+    "id": 1770908893595,
     "type": "news",
     "company": "OpenAI",
     "headline": "Nvidia&#039;s $100 billion OpenAI deal has seemingly vanished",
@@ -178,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/"
   },
   {
-    "id": 1770892180723,
+    "id": 1770908893596,
     "type": "news",
     "company": "Anthropic",
     "headline": "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?",

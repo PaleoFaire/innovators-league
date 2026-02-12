@@ -15343,23 +15343,22 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-12 10:29
+// Last updated: 2026-02-12 15:08
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX takes down Dragon crew arm, giving Starship a leg up in Florida", source: "Ars Technica Space", time: "8h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX IPO may suck oxygen from market before unleashing broad capital surge", source: "SpaceNews", time: "11h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI disbands mission alignment team", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI researcher quits over ChatGPT ads, warns of &quot;Facebook&quot; path", source: "Ars Technica", time: "13h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "How much is vertical integration squeezing the smallsat opportunity?", source: "SpaceNews", time: "17h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Apptronik", headline: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", source: "Crunchbase News", time: "20h ago", impact: "medium", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "AI Industry Rivals Are Teaming Up on a Startup Accelerator", source: "Wired", time: "23h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX's next-gen Super Heavy booster aces four days of &quot;cryoproof&quot; testing", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "Palantir", headline: "Palantir CEO Alex Karp Recorded a Video About ICE for His Employees", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI Abandons 'io' Branding for Its AI Hardware", source: "Wired", time: "2d ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "5d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "5d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "5d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI is hoppin' mad about Anthropic's new Super Bowl TV ads", source: "Ars Technica", time: "6d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Anthropic", headline: "Should AI chatbots have ads? Anthropic says no.", source: "Ars Technica", time: "2/4/2026", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX takes down Dragon crew arm, giving Starship a leg up in Florida", source: "Ars Technica Space", time: "12h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI disbands mission alignment team", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI researcher quits over ChatGPT ads, warns of &quot;Facebook&quot; path", source: "Ars Technica", time: "18h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Apptronik", headline: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", source: "Crunchbase News", time: "1d ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "AI Industry Rivals Are Teaming Up on a Startup Accelerator", source: "Wired", time: "1d ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX's next-gen Super Heavy booster aces four days of &quot;cryoproof&quot; testing", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Palantir", headline: "Palantir CEO Alex Karp Recorded a Video About ICE for His Employees", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Waymo", headline: "The Week's 10 Biggest Funding Rounds: Waymo Leads An AI-Driven Lineup Of Large Financings", source: "Crunchbase News", time: "5d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Shield AI", headline: "Shield AI, ST Engineering join forces on fine-tuning drone swarms", source: "Defense News", time: "6d ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes", source: "Ars Technica Space", time: "6d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI is hoppin' mad about Anthropic's new Super Bowl TV ads", source: "Ars Technica", time: "6d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Should AI chatbots have ads? Anthropic says no.", source: "Ars Technica", time: "2/4/2026", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "Nvidia's $100 billion OpenAI deal has seemingly vanished", source: "Ars Technica", time: "2/3/2026", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?", source: "Ars Technica", time: "1/29/2026", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
