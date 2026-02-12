@@ -607,15 +607,40 @@
                         </div>
                         <div class="portfolio-metrics-row" id="portfolio-metrics"></div>
                         <div class="portfolio-scenarios" id="portfolio-scenarios">
-                            <h4>Scenario Simulator</h4>
+                            <h4>🎯 What-If Scenario Simulator</h4>
+                            <p class="scenario-description" id="scenario-description" style="font-size:12px;color:var(--text-muted);margin-bottom:12px">See how macro events impact your portfolio</p>
                             <div class="scenario-controls">
                                 <select id="scenario-select" class="lb-filter-select">
-                                    <option value="defense-up">Defense Budget +15%</option>
-                                    <option value="defense-down">Defense Budget −10%</option>
-                                    <option value="ai-boom">AI Investment Boom</option>
-                                    <option value="space-race">Space Race Acceleration</option>
-                                    <option value="climate-push">Climate Policy Push</option>
-                                    <option value="recession">Recession Scenario</option>
+                                    <optgroup label="🌐 Geopolitical">
+                                        <option value="defense-up">Defense Budget +15%</option>
+                                        <option value="defense-down">Defense Budget −10%</option>
+                                        <option value="china-tensions">US-China Tech Decoupling</option>
+                                        <option value="nato-expansion">NATO Modernization Push</option>
+                                    </optgroup>
+                                    <optgroup label="🤖 Technology">
+                                        <option value="ai-boom">AI Investment Boom</option>
+                                        <option value="ai-regulation">AI Regulation Wave</option>
+                                        <option value="quantum-breakthrough">Quantum Breakthrough</option>
+                                    </optgroup>
+                                    <optgroup label="🚀 Space">
+                                        <option value="space-race">Space Race Acceleration</option>
+                                        <option value="starlink-dominance">LEO Constellation Wars</option>
+                                    </optgroup>
+                                    <optgroup label="⚡ Energy">
+                                        <option value="climate-push">Climate Policy Push</option>
+                                        <option value="nuclear-renaissance">Nuclear Renaissance</option>
+                                        <option value="fusion-breakthrough">Fusion Ignition Achieved</option>
+                                        <option value="oil-shock">Oil Price Spike ($150/bbl)</option>
+                                    </optgroup>
+                                    <optgroup label="📈 Economic">
+                                        <option value="recession">Recession Scenario</option>
+                                        <option value="rate-cuts">Fed Rate Cuts (200bp)</option>
+                                        <option value="ipo-window">IPO Window Opens</option>
+                                    </optgroup>
+                                    <optgroup label="📋 Regulatory">
+                                        <option value="chips-act-boost">CHIPS Act Phase 2</option>
+                                        <option value="fda-fast-track">FDA Accelerated Approvals</option>
+                                    </optgroup>
                                 </select>
                                 <button class="scenario-run-btn" id="scenario-run">Run Scenario</button>
                             </div>
@@ -1324,7 +1349,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <script src="data.js?v=63"></script>
-    <script src="app.js?v=63"></script>
+    <script src="data.js?v=64"></script>
+    <script src="app.js?v=64"></script>
 </body>
 </html>

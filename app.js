@@ -5124,12 +5124,120 @@ function initPortfolioBuilder() {
       }
 
       const scenarioConfig = {
-        'defense-up': { label: 'Defense Budget +15%', sectors: { 'Defense & Security': 3, 'Space & Aerospace': 2, 'Advanced Manufacturing': 1, 'Cybersecurity': 2 }, default: 0 },
-        'defense-down': { label: 'Defense Budget \u221210%', sectors: { 'Defense & Security': -2, 'Space & Aerospace': -1 }, default: 0 },
-        'ai-boom': { label: 'AI Investment Boom', sectors: { 'Artificial Intelligence': 3, 'Robotics & Automation': 2, 'Cybersecurity': 1, 'Advanced Manufacturing': 1 }, default: 0 },
-        'space-race': { label: 'Space Race Acceleration', sectors: { 'Space & Aerospace': 3, 'Defense & Security': 1, 'Advanced Manufacturing': 1 }, default: 0 },
-        'climate-push': { label: 'Climate Policy Push', sectors: { 'Energy & Fusion': 3, 'Climate & Carbon': 3, 'Sustainable Materials': 2, 'Next-Gen Mobility': 1 }, default: 0 },
-        'recession': { label: 'Recession Scenario', sectors: { 'Defense & Security': 1, 'Cybersecurity': 0 }, default: -2 }
+        // Geopolitical scenarios
+        'defense-up': {
+          label: 'Defense Budget +15%',
+          description: 'Major geopolitical tensions drive increased defense spending',
+          sectors: { 'Defense & Security': 3, 'Space & Aerospace': 2, 'Advanced Manufacturing': 1, 'Cybersecurity': 2, 'Autonomous Systems': 2 },
+          default: 0
+        },
+        'defense-down': {
+          label: 'Defense Budget −10%',
+          description: 'Peace dividend scenario with reduced military spending',
+          sectors: { 'Defense & Security': -2, 'Space & Aerospace': -1, 'Cybersecurity': -1 },
+          default: 0
+        },
+        'china-tensions': {
+          label: 'US-China Tech Decoupling',
+          description: 'Accelerated reshoring and supply chain security focus',
+          sectors: { 'Advanced Manufacturing': 3, 'Semiconductors': 3, 'Defense & Security': 2, 'Cybersecurity': 2, 'Robotics & Automation': 2 },
+          default: 0
+        },
+        'nato-expansion': {
+          label: 'NATO Modernization Push',
+          description: 'Allied nations increase defense tech procurement',
+          sectors: { 'Defense & Security': 3, 'Cybersecurity': 2, 'Space & Aerospace': 2, 'Autonomous Systems': 2 },
+          default: 0
+        },
+        // Technology scenarios
+        'ai-boom': {
+          label: 'AI Investment Boom',
+          description: 'Generative AI drives massive enterprise adoption',
+          sectors: { 'Artificial Intelligence': 3, 'Robotics & Automation': 2, 'Cybersecurity': 1, 'Advanced Manufacturing': 1, 'BioTech & HealthTech': 1 },
+          default: 0
+        },
+        'ai-regulation': {
+          label: 'AI Regulation Wave',
+          description: 'Strict AI safety regulations slow commercial deployment',
+          sectors: { 'Artificial Intelligence': -2, 'Robotics & Automation': -1, 'Defense & Security': 1 },
+          default: 0
+        },
+        'quantum-breakthrough': {
+          label: 'Quantum Computing Breakthrough',
+          description: 'Practical quantum advantage achieved earlier than expected',
+          sectors: { 'Quantum Computing': 3, 'Cybersecurity': 2, 'BioTech & HealthTech': 2, 'FinTech & Infrastructure': 1 },
+          default: 0
+        },
+        // Space scenarios
+        'space-race': {
+          label: 'Space Race Acceleration',
+          description: 'Lunar and Mars programs drive commercial space boom',
+          sectors: { 'Space & Aerospace': 3, 'Defense & Security': 1, 'Advanced Manufacturing': 1, 'Advanced Materials': 1 },
+          default: 0
+        },
+        'starlink-dominance': {
+          label: 'LEO Constellation Wars',
+          description: 'Satellite internet competition intensifies',
+          sectors: { 'Space & Aerospace': 2, 'Telecommunications': 2 },
+          default: 0
+        },
+        // Energy scenarios
+        'climate-push': {
+          label: 'Climate Policy Push',
+          description: 'Major climate legislation drives clean energy investment',
+          sectors: { 'Nuclear Energy': 3, 'Climate & Energy': 3, 'Advanced Materials': 2, 'Next-Gen Mobility': 1 },
+          default: 0
+        },
+        'nuclear-renaissance': {
+          label: 'Nuclear Renaissance',
+          description: 'SMRs gain regulatory approval and utility adoption',
+          sectors: { 'Nuclear Energy': 3, 'Climate & Energy': 2, 'Advanced Manufacturing': 1 },
+          default: 0
+        },
+        'fusion-breakthrough': {
+          label: 'Fusion Ignition Achieved',
+          description: 'Commercial fusion timeline accelerates dramatically',
+          sectors: { 'Nuclear Energy': 3, 'Climate & Energy': 2, 'Advanced Materials': 1 },
+          default: 0
+        },
+        'oil-shock': {
+          label: 'Oil Price Spike ($150/bbl)',
+          description: 'Energy crisis accelerates alternative energy adoption',
+          sectors: { 'Nuclear Energy': 2, 'Climate & Energy': 2, 'Next-Gen Mobility': 2, 'Space & Aerospace': -1 },
+          default: -1
+        },
+        // Economic scenarios
+        'recession': {
+          label: 'Recession Scenario',
+          description: 'Economic downturn reduces VC funding and enterprise spend',
+          sectors: { 'Defense & Security': 1, 'Cybersecurity': 0, 'BioTech & HealthTech': 0 },
+          default: -2
+        },
+        'rate-cuts': {
+          label: 'Fed Rate Cuts (200bp)',
+          description: 'Lower rates boost growth equity valuations',
+          sectors: { 'Space & Aerospace': 2, 'Artificial Intelligence': 2, 'BioTech & HealthTech': 1 },
+          default: 1
+        },
+        'ipo-window': {
+          label: 'IPO Window Opens',
+          description: 'Public markets receptive to tech IPOs',
+          sectors: { 'Space & Aerospace': 2, 'Artificial Intelligence': 2, 'Defense & Security': 2, 'BioTech & HealthTech': 1 },
+          default: 1
+        },
+        // Regulatory scenarios
+        'chips-act-boost': {
+          label: 'CHIPS Act Phase 2',
+          description: 'Additional $50B+ in semiconductor manufacturing incentives',
+          sectors: { 'Semiconductors': 3, 'Advanced Manufacturing': 2, 'Robotics & Automation': 1 },
+          default: 0
+        },
+        'fda-fast-track': {
+          label: 'FDA Accelerated Approvals',
+          description: 'Biotech regulatory streamlining increases',
+          sectors: { 'BioTech & HealthTech': 3, 'Artificial Intelligence': 1 },
+          default: 0
+        }
       };
 
       const config = scenarioConfig[scenario] || scenarioConfig['defense-up'];
@@ -5143,8 +5251,38 @@ function initPortfolioBuilder() {
         return { name: c.name, impact: totalImpact, impactClass, impactLabel, sector: c.sector };
       }).sort((a, b) => b.impact - a.impact);
 
+      // Calculate portfolio-wide impact
+      const avgImpact = results.reduce((sum, r) => sum + r.impact, 0) / results.length;
+      const positiveCount = results.filter(r => r.impact > 0).length;
+      const negativeCount = results.filter(r => r.impact < 0).length;
+      const neutralCount = results.filter(r => r.impact === 0).length;
+
+      const portfolioSentiment = avgImpact > 1 ? 'Strong Tailwind' : avgImpact > 0 ? 'Mild Tailwind' : avgImpact < -1 ? 'Strong Headwind' : avgImpact < 0 ? 'Mild Headwind' : 'Neutral';
+      const sentimentColor = avgImpact > 0 ? '#22c55e' : avgImpact < 0 ? '#ef4444' : '#f59e0b';
+
       document.getElementById('scenario-results').innerHTML = `
-        <p style="margin-bottom:12px; font-size:13px; color:var(--text-muted)">Scenario: <strong style="color:var(--text-primary)">${config.label}</strong></p>
+        <div style="margin-bottom:16px;padding:12px;background:rgba(255,255,255,0.05);border-radius:8px;">
+          <p style="margin:0 0 6px;font-size:14px;"><strong style="color:var(--text-primary)">${config.label}</strong></p>
+          <p style="margin:0 0 10px;font-size:12px;color:var(--text-muted)">${config.description || ''}</p>
+          <div style="display:flex;gap:16px;flex-wrap:wrap;">
+            <div style="text-align:center;">
+              <div style="font-size:20px;font-weight:700;color:${sentimentColor}">${portfolioSentiment}</div>
+              <div style="font-size:11px;color:var(--text-muted)">Portfolio Impact</div>
+            </div>
+            <div style="text-align:center;">
+              <div style="font-size:18px;font-weight:600;color:#22c55e">${positiveCount}</div>
+              <div style="font-size:11px;color:var(--text-muted)">Tailwinds</div>
+            </div>
+            <div style="text-align:center;">
+              <div style="font-size:18px;font-weight:600;color:#ef4444">${negativeCount}</div>
+              <div style="font-size:11px;color:var(--text-muted)">Headwinds</div>
+            </div>
+            <div style="text-align:center;">
+              <div style="font-size:18px;font-weight:600;color:#f59e0b">${neutralCount}</div>
+              <div style="font-size:11px;color:var(--text-muted)">Neutral</div>
+            </div>
+          </div>
+        </div>
         ${results.map(r => `
           <div class="scenario-result-item">
             <span class="scenario-company">${r.name} <span style="font-size:11px;color:var(--text-muted)">${r.sector}</span></span>
@@ -7827,12 +7965,310 @@ function generateLocalAIResponse(query) {
   }
 
   // Default response
+  // Check if this is a filter query
+  const filterResult = parseNaturalLanguageFilter(query);
+  if (filterResult.isFilterQuery) {
+    return filterResult.response;
+  }
+
   return `I can help you research frontier tech companies. Try asking about:<br><br>` +
     `• <strong>Sectors:</strong> "Show me defense companies" or "Nuclear startups"<br>` +
     `• <strong>Comparisons:</strong> "Compare Anduril vs Shield AI"<br>` +
     `• <strong>Analysis:</strong> "Which companies have strongest IP moats?"<br>` +
-    `• <strong>Funding:</strong> "Series B+ companies in space"<br><br>` +
+    `• <strong>Filtering:</strong> "Show me Series B defense companies in California"<br>` +
+    `• <strong>Funding:</strong> "Companies that raised over $100M"<br><br>` +
     `<em>For advanced AI analysis, configure your Anthropic API key in settings.</em>`;
+}
+
+// ═══════════════════════════════════════════════════════
+// AI QUERY INTERFACE - NATURAL LANGUAGE TO FILTERS
+// Translates queries like "defense companies in California"
+// ═══════════════════════════════════════════════════════
+
+function parseNaturalLanguageFilter(query) {
+  const lowerQuery = query.toLowerCase();
+
+  // Keywords that indicate filter intent
+  const filterKeywords = ['show', 'find', 'list', 'filter', 'search', 'companies in', 'startups in', 'with', 'that have', 'over', 'under', 'more than', 'less than'];
+  const hasFilterIntent = filterKeywords.some(k => lowerQuery.includes(k));
+
+  if (!hasFilterIntent) {
+    return { isFilterQuery: false };
+  }
+
+  // Extract filters from query
+  const extractedFilters = {
+    sector: null,
+    state: null,
+    country: null,
+    stage: null,
+    minFunding: null,
+    maxFunding: null,
+    hasGovContracts: false
+  };
+
+  // Sector mapping
+  const sectorMap = {
+    'defense': 'Defense & Security',
+    'security': 'Defense & Security',
+    'military': 'Defense & Security',
+    'space': 'Space & Aerospace',
+    'aerospace': 'Space & Aerospace',
+    'rocket': 'Space & Aerospace',
+    'satellite': 'Space & Aerospace',
+    'nuclear': 'Nuclear Energy',
+    'fusion': 'Nuclear Energy',
+    'energy': 'Climate & Energy',
+    'climate': 'Climate & Energy',
+    'ai': 'Artificial Intelligence',
+    'artificial intelligence': 'Artificial Intelligence',
+    'machine learning': 'Artificial Intelligence',
+    'robotics': 'Robotics & Automation',
+    'automation': 'Robotics & Automation',
+    'robot': 'Robotics & Automation',
+    'biotech': 'BioTech & HealthTech',
+    'healthcare': 'BioTech & HealthTech',
+    'health': 'BioTech & HealthTech',
+    'quantum': 'Quantum Computing',
+    'cyber': 'Cybersecurity',
+    'cybersecurity': 'Cybersecurity',
+    'manufacturing': 'Advanced Manufacturing',
+    'materials': 'Advanced Materials',
+    'fintech': 'FinTech & Infrastructure',
+    'evtol': 'Next-Gen Mobility',
+    'mobility': 'Next-Gen Mobility',
+    'autonomous': 'Autonomous Systems'
+  };
+
+  // State mapping
+  const stateMap = {
+    'california': 'CA', 'ca': 'CA',
+    'texas': 'TX', 'tx': 'TX',
+    'new york': 'NY', 'ny': 'NY',
+    'virginia': 'VA', 'va': 'VA',
+    'colorado': 'CO', 'co': 'CO',
+    'washington': 'WA', 'wa': 'WA',
+    'florida': 'FL', 'fl': 'FL',
+    'massachusetts': 'MA', 'ma': 'MA',
+    'maryland': 'MD', 'md': 'MD',
+    'arizona': 'AZ', 'az': 'AZ',
+    'ohio': 'OH', 'oh': 'OH',
+    'pennsylvania': 'PA', 'pa': 'PA',
+    'georgia': 'GA', 'ga': 'GA',
+    'north carolina': 'NC', 'nc': 'NC',
+    'michigan': 'MI', 'mi': 'MI',
+    'illinois': 'IL', 'il': 'IL',
+    'new jersey': 'NJ', 'nj': 'NJ',
+    'dc': 'DC', 'washington dc': 'DC', 'd.c.': 'DC'
+  };
+
+  // Stage mapping
+  const stageMap = {
+    'seed': 'Seed',
+    'series a': 'Series A',
+    'series b': 'Series B',
+    'series c': 'Series C',
+    'series d': 'Series D+',
+    'series d+': 'Series D+',
+    'late stage': 'Late Stage',
+    'public': 'Public',
+    'ipo': 'Public'
+  };
+
+  // Extract sector
+  for (const [keyword, sector] of Object.entries(sectorMap)) {
+    if (lowerQuery.includes(keyword)) {
+      extractedFilters.sector = sector;
+      break;
+    }
+  }
+
+  // Extract state
+  for (const [keyword, state] of Object.entries(stateMap)) {
+    if (lowerQuery.includes(keyword)) {
+      extractedFilters.state = state;
+      extractedFilters.country = 'United States';
+      break;
+    }
+  }
+
+  // Extract stage
+  for (const [keyword, stage] of Object.entries(stageMap)) {
+    if (lowerQuery.includes(keyword)) {
+      extractedFilters.stage = stage;
+      break;
+    }
+  }
+
+  // Extract funding amounts
+  const fundingPatterns = [
+    /over \$?(\d+(?:\.\d+)?)\s*(m|million|b|billion)/i,
+    /more than \$?(\d+(?:\.\d+)?)\s*(m|million|b|billion)/i,
+    /raised \$?(\d+(?:\.\d+)?)\s*(m|million|b|billion)/i,
+    /\$?(\d+(?:\.\d+)?)\s*(m|million|b|billion)\+/i
+  ];
+
+  for (const pattern of fundingPatterns) {
+    const match = lowerQuery.match(pattern);
+    if (match) {
+      let amount = parseFloat(match[1]);
+      const unit = match[2].toLowerCase();
+      if (unit === 'b' || unit === 'billion') {
+        amount *= 1000000000;
+      } else {
+        amount *= 1000000;
+      }
+      extractedFilters.minFunding = amount;
+      break;
+    }
+  }
+
+  // Check for government contract requirement
+  if (lowerQuery.includes('government') || lowerQuery.includes('gov contract') || lowerQuery.includes('federal') || lowerQuery.includes('dod') || lowerQuery.includes('defense contract')) {
+    extractedFilters.hasGovContracts = true;
+  }
+
+  // Apply filters and get results
+  let filtered = [...COMPANIES];
+
+  if (extractedFilters.sector) {
+    filtered = filtered.filter(c => c.sector === extractedFilters.sector);
+  }
+
+  if (extractedFilters.state) {
+    filtered = filtered.filter(c => c.state === extractedFilters.state);
+  }
+
+  if (extractedFilters.stage) {
+    filtered = filtered.filter(c => {
+      if (!c.stage) return false;
+      if (extractedFilters.stage === 'Series D+') {
+        return ['Series D', 'Series D+', 'Series E', 'Series F', 'Late Stage'].some(s => c.stage?.includes(s));
+      }
+      return c.stage?.includes(extractedFilters.stage);
+    });
+  }
+
+  if (extractedFilters.minFunding) {
+    filtered = filtered.filter(c => {
+      const funding = parseFundingAmount(c.totalRaised || c.funding);
+      return funding >= extractedFilters.minFunding;
+    });
+  }
+
+  if (extractedFilters.hasGovContracts && typeof GOV_CONTRACTS !== 'undefined') {
+    const govCompanyNames = new Set(GOV_CONTRACTS.map(g => g.company));
+    filtered = filtered.filter(c => govCompanyNames.has(c.name));
+  }
+
+  // Generate response
+  if (filtered.length === 0) {
+    return {
+      isFilterQuery: true,
+      response: `No companies found matching your criteria. Try adjusting your filters.<br><br>` +
+        `<strong>Applied filters:</strong><br>` +
+        (extractedFilters.sector ? `• Sector: ${extractedFilters.sector}<br>` : '') +
+        (extractedFilters.state ? `• State: ${extractedFilters.state}<br>` : '') +
+        (extractedFilters.stage ? `• Stage: ${extractedFilters.stage}<br>` : '') +
+        (extractedFilters.minFunding ? `• Min Funding: $${(extractedFilters.minFunding / 1000000).toFixed(0)}M<br>` : '')
+    };
+  }
+
+  // Build applied filters message and apply to main UI
+  const appliedFiltersMsg = [];
+  if (extractedFilters.sector) appliedFiltersMsg.push(`Sector: ${extractedFilters.sector}`);
+  if (extractedFilters.state) appliedFiltersMsg.push(`State: ${extractedFilters.state}`);
+  if (extractedFilters.stage) appliedFiltersMsg.push(`Stage: ${extractedFilters.stage}`);
+  if (extractedFilters.minFunding) appliedFiltersMsg.push(`Min Funding: $${(extractedFilters.minFunding / 1000000).toFixed(0)}M`);
+  if (extractedFilters.hasGovContracts) appliedFiltersMsg.push('Has Gov Contracts');
+
+  // Apply filters to the main database UI
+  applyAIFilters(extractedFilters);
+
+  // Show top results
+  const topResults = filtered.slice(0, 8);
+
+  return {
+    isFilterQuery: true,
+    response: `<strong>Found ${filtered.length} companies</strong> matching your query:<br>` +
+      `<span style="color:var(--text-muted);font-size:12px">${appliedFiltersMsg.join(' • ')}</span><br><br>` +
+      topResults.map(c => {
+        const iscore = getInnovatorScore(c.name);
+        const score = iscore ? `<span style="color:${iscore.tier === 'elite' ? '#22c55e' : iscore.tier === 'strong' ? '#3b82f6' : '#f59e0b'}">${iscore.composite.toFixed(0)} IS™</span>` : '';
+        return `<div style="cursor:pointer;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.1)" onclick="openCompanyModal('${c.name.replace(/'/g, "\\'")}')">` +
+          `<strong>${c.name}</strong> ${score}<br>` +
+          `<span style="font-size:12px;color:var(--text-muted)">${c.sector} • ${c.state || ''} • ${c.totalRaised || c.valuation || ''}</span>` +
+          `</div>`;
+      }).join('') +
+      (filtered.length > 8 ? `<br><em style="color:var(--accent)">+${filtered.length - 8} more results in the database below</em>` : '') +
+      `<br><br><button onclick="scrollToDatabase()" style="background:var(--accent);color:#000;border:none;padding:8px 16px;border-radius:6px;cursor:pointer;font-weight:500">View All ${filtered.length} Results ↓</button>`
+  };
+}
+
+function parseFundingAmount(fundingStr) {
+  if (!fundingStr) return 0;
+  const str = fundingStr.toString().toLowerCase().replace(/[,$]/g, '');
+
+  const match = str.match(/([\d.]+)\s*(b|billion|m|million|k|thousand)?/);
+  if (!match) return 0;
+
+  let amount = parseFloat(match[1]);
+  const unit = match[2] || 'm';
+
+  if (unit === 'b' || unit === 'billion') {
+    amount *= 1000000000;
+  } else if (unit === 'm' || unit === 'million') {
+    amount *= 1000000;
+  } else if (unit === 'k' || unit === 'thousand') {
+    amount *= 1000;
+  }
+
+  return amount;
+}
+
+function applyAIFilters(filters) {
+  // Set filter dropdowns to match AI query
+  if (filters.sector) {
+    const sectorFilter = document.getElementById('sector-filter');
+    if (sectorFilter) {
+      const option = Array.from(sectorFilter.options).find(o => o.value === filters.sector);
+      if (option) sectorFilter.value = filters.sector;
+    }
+  }
+
+  if (filters.country) {
+    const countryFilter = document.getElementById('country-filter');
+    if (countryFilter) countryFilter.value = filters.country;
+  }
+
+  if (filters.state) {
+    const stateFilter = document.getElementById('state-filter');
+    const stateContainer = document.getElementById('state-filter-container');
+    if (stateFilter) {
+      stateFilter.value = filters.state;
+    }
+    if (stateContainer) {
+      stateContainer.style.display = 'block';
+    }
+  }
+
+  if (filters.stage) {
+    const stageFilter = document.getElementById('stage-filter');
+    if (stageFilter) {
+      const option = Array.from(stageFilter.options).find(o => o.value === filters.stage || o.textContent.includes(filters.stage));
+      if (option) stageFilter.value = option.value;
+    }
+  }
+
+  // Trigger filter application
+  applyFilters();
+}
+
+function scrollToDatabase() {
+  const databaseSection = document.getElementById('database') || document.getElementById('company-grid');
+  if (databaseSection) {
+    databaseSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
 
 function showNotification(message) {
