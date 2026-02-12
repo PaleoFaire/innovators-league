@@ -9392,14 +9392,14 @@ const SECTOR_MOMENTUM = [
 
 // ─── BREAKING NEWS TICKER ───
 const NEWS_TICKER = [
-  { text: "SpaceX IPO could drive investor interest in other space companies", time: "3d ago", priority: "high" },
-  { text: "Vega raises $120M Series B to rethink how enterprises detect cyber threats", time: "17h ago", priority: "high" },
-  { text: "Falcon 9 returns to flight after upper stage engine investigation", time: "3d ago", priority: "high" },
-  { text: "What the SpaceX acquisition of xAI means for industrial robotics", time: "2d ago", priority: "high" },
-  { text: "Gen AI Video Startup Runway Raises $315M Led By General Atlantic At $5.3B Valuation", time: "19h ago", priority: "high" },
-  { text: "With co-founders leaving and an IPO looming, Elon Musk turns talk to the moon", time: "4h ago", priority: "high" },
-  { text: "Spaceium demonstrates refueling actuator in orbit", time: "16h ago", priority: "high" },
-  { text: "In The Era Of Unicorn Valuation Escalation, A Trillion Dollars Isn’t What It Used To Be", time: "21h ago", priority: "medium" }
+  { text: "SpaceX IPO may suck oxygen from market before unleashing broad capital surge", time: "10h ago", priority: "high" },
+  { text: "How much is vertical integration squeezing the smallsat opportunity?", time: "16h ago", priority: "high" },
+  { text: "Stoke Space adds $350 million to Series D round", time: "20h ago", priority: "high" },
+  { text: "What the SpaceX acquisition of xAI means for industrial robotics", time: "3d ago", priority: "high" },
+  { text: "Exclusive: Winn.ai Raises $18M Series A For AI-Powered Real-Time Sales Assistant", time: "21h ago", priority: "high" },
+  { text: "Gen AI Video Startup Runway Raises $315M Led By General Atlantic At $5.3B Valuation", time: "1d ago", priority: "high" },
+  { text: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", time: "19h ago", priority: "high" },
+  { text: "Integrate Raises $17M to Commercialize the World’s First Ultra-Secure Project Management Platform for Classified Programs", time: "12h ago", priority: "medium" }
 ];
 
 // ─── WEEKLY INTELLIGENCE DIGEST ───
