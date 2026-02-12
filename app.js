@@ -1,3 +1,16 @@
+// ─── UTILITY FUNCTIONS ───
+function debounce(func, wait) {
+  let timeout;
+  return function executedFunction(...args) {
+    const later = () => {
+      clearTimeout(timeout);
+      func(...args);
+    };
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+  };
+}
+
 // ─── COUNTRY MAPPING ───
 // US state codes
 const US_STATES = new Set([
@@ -1153,6 +1166,10 @@ document.addEventListener('DOMContentLoaded', () => {
   } catch (e) {
     // Stats init failed silently - non-critical
   }
+
+  // Initialize the new Discovery Hub (map + database tabs)
+  initDiscoveryHub();
+
   initMap();
   initFilters();
   initAIQuery();
@@ -1484,6 +1501,327 @@ function animateCounterWithPrefix(id, target, prefix, suffix) {
     }
   });
   observer.observe(el);
+}
+
+// ─── DISCOVERY HUB (New unified map + database tabs) ───
+let discoveryMap = null;
+let discoveryViewLimit = 24;
+
+function initDiscoveryHub() {
+  const tabs = document.querySelectorAll('.discovery-tab');
+  const views = document.querySelectorAll('.discovery-view');
+
+  if (!tabs.length) return;
+
+  // Tab switching
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const targetView = tab.dataset.view;
+
+      // Update tabs
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      // Update views
+      views.forEach(v => {
+        v.style.display = 'none';
+        v.classList.remove('active');
+      });
+
+      const viewEl = document.getElementById(`discovery-${targetView}-view`);
+      if (viewEl) {
+        viewEl.style.display = 'block';
+        viewEl.classList.add('active');
+      }
+
+      // Initialize map if switching to map view and not yet initialized
+      if (targetView === 'map' && !discoveryMap) {
+        initDiscoveryMap();
+      }
+
+      // Initialize database view if switching to it
+      if (targetView === 'database') {
+        initDiscoveryDatabase();
+      }
+    });
+  });
+
+  // Initialize the default view (map)
+  initDiscoveryMap();
+  initDiscoveryDatabaseFilters();
+
+  // Update map stats
+  updateMapStats();
+}
+
+function initDiscoveryMap() {
+  if (typeof L === 'undefined') {
+    console.log('Leaflet not loaded, skipping discovery map');
+    return;
+  }
+
+  const mapEl = document.getElementById('innovators-map-primary');
+  if (!mapEl || discoveryMap) return;
+
+  discoveryMap = L.map('innovators-map-primary', {
+    center: [25, 0],
+    zoom: 2,
+    minZoom: 2,
+    maxZoom: 12,
+    scrollWheelZoom: true,
+    zoomControl: true
+  });
+
+  // Dark tile layer
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap &copy; CARTO',
+    maxZoom: 19
+  }).addTo(discoveryMap);
+
+  // Add markers for all companies
+  COMPANIES.forEach(company => {
+    if (!company.lat || !company.lng) return;
+
+    const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
+
+    const markerHtml = `<div class="custom-marker" style="background:${sectorInfo.color};">
+      <span class="marker-icon">${sectorInfo.icon}</span>
+    </div>`;
+
+    const icon = L.divIcon({
+      html: markerHtml,
+      className: 'marker-container',
+      iconSize: [28, 28],
+      iconAnchor: [14, 14]
+    });
+
+    const marker = L.marker([company.lat, company.lng], { icon });
+
+    const popupContent = `
+      <div class="map-popup">
+        <div class="popup-sector" style="color:${sectorInfo.color}">${sectorInfo.icon} ${company.sector}</div>
+        <h3>${company.name}</h3>
+        ${company.founder ? `<p class="popup-founder">${company.founder}</p>` : ''}
+        <p class="popup-location">${company.location}</p>
+        <p class="popup-desc">${company.description.substring(0, 140)}...</p>
+        <button class="popup-link" onclick="openCompanyModal('${company.name.replace(/'/g, "\\'")}')">View Details &rarr;</button>
+      </div>
+    `;
+
+    marker.bindPopup(popupContent, { maxWidth: 300 });
+    marker.addTo(discoveryMap);
+  });
+}
+
+function updateMapStats() {
+  const mapCompanyCount = document.getElementById('map-company-count');
+  const mapCountryCount = document.getElementById('map-country-count');
+
+  if (mapCompanyCount) {
+    mapCompanyCount.textContent = COMPANIES.length;
+  }
+
+  if (mapCountryCount) {
+    const countries = new Set(COMPANIES.map(c => getCountry(c.state, c.location)));
+    mapCountryCount.textContent = countries.size;
+  }
+}
+
+function initDiscoveryDatabaseFilters() {
+  const sectorFilter = document.getElementById('discovery-sector-filter');
+  const stageFilter = document.getElementById('discovery-stage-filter');
+  const chipsContainer = document.getElementById('discovery-chips');
+
+  // Populate sector filter
+  if (sectorFilter) {
+    Object.keys(SECTORS).sort().forEach(sector => {
+      const opt = document.createElement('option');
+      opt.value = sector;
+      opt.textContent = sector;
+      sectorFilter.appendChild(opt);
+    });
+
+    sectorFilter.addEventListener('change', () => renderDiscoveryGrid());
+  }
+
+  // Populate stage filter
+  if (stageFilter) {
+    const stages = ['Seed', 'Series A', 'Series B', 'Series C', 'Series D+', 'Public'];
+    stages.forEach(stage => {
+      const opt = document.createElement('option');
+      opt.value = stage;
+      opt.textContent = stage;
+      stageFilter.appendChild(opt);
+    });
+
+    stageFilter.addEventListener('change', () => renderDiscoveryGrid());
+  }
+
+  // Populate sector chips
+  if (chipsContainer) {
+    const allChip = document.createElement('button');
+    allChip.className = 'chip active';
+    allChip.dataset.sector = 'all';
+    allChip.textContent = 'All';
+    allChip.addEventListener('click', () => {
+      document.querySelectorAll('.filter-chips-inline .chip').forEach(c => c.classList.remove('active'));
+      allChip.classList.add('active');
+      if (sectorFilter) sectorFilter.value = 'all';
+      renderDiscoveryGrid();
+    });
+    chipsContainer.appendChild(allChip);
+
+    // Top 6 sectors by company count
+    const sectorCounts = {};
+    COMPANIES.forEach(c => {
+      sectorCounts[c.sector] = (sectorCounts[c.sector] || 0) + 1;
+    });
+    const topSectors = Object.entries(sectorCounts)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 6)
+      .map(([s]) => s);
+
+    topSectors.forEach(sector => {
+      const chip = document.createElement('button');
+      chip.className = 'chip';
+      chip.dataset.sector = sector;
+      chip.textContent = SECTORS[sector]?.icon + ' ' + sector;
+      chip.addEventListener('click', () => {
+        document.querySelectorAll('.filter-chips-inline .chip').forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        if (sectorFilter) sectorFilter.value = sector;
+        renderDiscoveryGrid();
+      });
+      chipsContainer.appendChild(chip);
+    });
+  }
+
+  // Search
+  const searchInput = document.getElementById('discovery-search');
+  if (searchInput) {
+    searchInput.addEventListener('input', debounce(() => renderDiscoveryGrid(), 200));
+  }
+
+  // Sort
+  const sortSelect = document.getElementById('discovery-sort');
+  if (sortSelect) {
+    sortSelect.addEventListener('change', () => renderDiscoveryGrid());
+  }
+
+  // Load more button
+  const loadMoreBtn = document.getElementById('discovery-load-more');
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', () => {
+      discoveryViewLimit += 24;
+      renderDiscoveryGrid();
+    });
+  }
+}
+
+function initDiscoveryDatabase() {
+  renderDiscoveryGrid();
+}
+
+function renderDiscoveryGrid() {
+  const grid = document.getElementById('discovery-grid');
+  const loadMoreBtn = document.getElementById('discovery-load-more');
+  if (!grid) return;
+
+  let filtered = [...COMPANIES];
+
+  // Filter by search
+  const searchVal = document.getElementById('discovery-search')?.value?.toLowerCase() || '';
+  if (searchVal) {
+    filtered = filtered.filter(c =>
+      c.name.toLowerCase().includes(searchVal) ||
+      c.description?.toLowerCase().includes(searchVal) ||
+      c.founder?.toLowerCase().includes(searchVal) ||
+      c.sector?.toLowerCase().includes(searchVal)
+    );
+  }
+
+  // Filter by sector
+  const sectorVal = document.getElementById('discovery-sector-filter')?.value || 'all';
+  if (sectorVal !== 'all') {
+    filtered = filtered.filter(c => c.sector === sectorVal);
+  }
+
+  // Filter by stage
+  const stageVal = document.getElementById('discovery-stage-filter')?.value || 'all';
+  if (stageVal !== 'all') {
+    filtered = filtered.filter(c => c.fundingStage === stageVal);
+  }
+
+  // Sort
+  const sortVal = document.getElementById('discovery-sort')?.value || 'score';
+  if (sortVal === 'score') {
+    filtered.sort((a, b) => {
+      const scoreA = getInnovatorScore(a.name)?.total || getAverageScore(a.scores) * 100 || 0;
+      const scoreB = getInnovatorScore(b.name)?.total || getAverageScore(b.scores) * 100 || 0;
+      return scoreB - scoreA;
+    });
+  } else if (sortVal === 'name') {
+    filtered.sort((a, b) => a.name.localeCompare(b.name));
+  } else if (sortVal === 'recent') {
+    filtered.sort((a, b) => {
+      const dateA = a.addedDate ? new Date(a.addedDate) : new Date(0);
+      const dateB = b.addedDate ? new Date(b.addedDate) : new Date(0);
+      return dateB - dateA;
+    });
+  }
+
+  // Limit
+  const displayCompanies = filtered.slice(0, discoveryViewLimit);
+
+  // Render
+  grid.innerHTML = displayCompanies.map(c => renderCompanyCardHTML(c)).join('');
+
+  // Show/hide load more button
+  if (loadMoreBtn) {
+    loadMoreBtn.style.display = filtered.length > discoveryViewLimit ? 'inline-block' : 'none';
+  }
+}
+
+function switchDiscoveryTab(view) {
+  const tab = document.querySelector(`.discovery-tab[data-view="${view}"]`);
+  if (tab) tab.click();
+}
+
+function renderCompanyCardHTML(company) {
+  const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
+  const saved = isBookmarked(company.name);
+  const score = getInnovatorScore(company.name);
+  let scoreDisplay = '';
+  if (score && score.total) {
+    scoreDisplay = `<span class="card-score elite">${score.total}</span>`;
+  } else if (company.scores) {
+    const badge = renderScoreBadge(company.scores);
+    if (badge) scoreDisplay = badge;
+  }
+
+  return `
+    <div class="company-card" data-name="${company.name}" onclick="openCompanyModal('${company.name.replace(/'/g, "\\'")}')">
+      <div class="card-header">
+        <div class="card-sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border-color:${sectorInfo.color}30;">
+          ${sectorInfo.icon} ${company.sector}
+        </div>
+        <button class="bookmark-btn ${saved ? 'saved' : ''}" onclick="event.stopPropagation(); toggleBookmark('${company.name.replace(/'/g, "\\'")}')" title="${saved ? 'Remove from watchlist' : 'Add to watchlist'}">
+          ${saved ? '★' : '☆'}
+        </button>
+      </div>
+      <h3 class="card-title">${company.name}</h3>
+      ${company.founder ? `<p class="card-founder">${company.founder}</p>` : ''}
+      <p class="card-description">${company.description.substring(0, 100)}...</p>
+      <div class="card-meta">
+        <span class="card-location">${company.location}</span>
+        ${company.fundingStage ? `<span class="card-stage">${company.fundingStage}</span>` : ''}
+      </div>
+      <div class="card-footer">
+        ${renderSignalBadge(company.signal)}
+        ${scoreDisplay}
+      </div>
+    </div>
+  `;
 }
 
 // ─── MAP ───

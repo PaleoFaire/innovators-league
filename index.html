@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=28">
+    <link rel="stylesheet" href="styles.css?v=29">
 </head>
 <body>
     <!-- Navigation — Redesigned around 3 Workflows -->
@@ -31,10 +31,10 @@
         <!-- Workflow-Based Navigation -->
         <div class="nav-links">
             <div class="nav-dropdown">
-                <a href="#map" class="nav-link-main">🗺️ Discover</a>
+                <a href="#discovery-hub" class="nav-link-main">🗺️ Discover</a>
                 <div class="nav-dropdown-content">
-                    <a href="#map">Interactive Map</a>
-                    <a href="#companies">Company Database</a>
+                    <a href="#discovery-hub">Interactive Map</a>
+                    <a href="#discovery-hub" onclick="switchDiscoveryTab('database')">Company Database</a>
                     <a href="#innovator50">ROS 50 Rankings</a>
                     <a href="#sectors">Sector Intel</a>
                 </div>
@@ -70,7 +70,7 @@
             <h1 class="hero-title">Frontier tech intelligence you can use tomorrow.</h1>
             <p class="hero-subtitle"><span id="company-count-inline">460+</span> companies across defense, space, energy, biotech, and robotics &mdash; ranked, tracked, and explained.</p>
             <div class="hero-actions">
-                <a href="#map" class="hero-btn primary">🗺️ Explore the Map</a>
+                <a href="#discovery-hub" class="hero-btn primary">🗺️ Explore the Map</a>
                 <a href="#innovator50" class="hero-btn secondary">🏆 See the ROS 50</a>
             </div>
             <div class="hero-stats">
@@ -107,8 +107,92 @@
         <div class="ticker-scroll" id="ticker-scroll"></div>
     </div>
 
-    <!-- Value Proposition Banner -->
-    <section class="value-prop-banner">
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         TIER 1: PRIMARY DISCOVERY — The first thing users want to do
+         ═══════════════════════════════════════════════════════════════════════ -->
+
+    <!-- Discovery Hub: Map + Database Tabs -->
+    <section id="discovery-hub" class="discovery-hub-section">
+        <div class="container">
+            <div class="discovery-tabs">
+                <button class="discovery-tab active" data-view="map">
+                    <span class="tab-icon">🗺️</span>
+                    <span class="tab-label">Interactive Map</span>
+                </button>
+                <button class="discovery-tab" data-view="database">
+                    <span class="tab-icon">📊</span>
+                    <span class="tab-label">Company Database</span>
+                </button>
+                <button class="discovery-tab" data-view="screener">
+                    <span class="tab-icon">🎯</span>
+                    <span class="tab-label">Smart Screener</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Map View (Default) -->
+        <div class="discovery-view active" id="discovery-map-view">
+            <div id="innovators-map-primary"></div>
+            <div class="map-overlay-stats">
+                <div class="map-stat">
+                    <span class="map-stat-number" id="map-company-count">0</span>
+                    <span class="map-stat-label">Companies</span>
+                </div>
+                <div class="map-stat">
+                    <span class="map-stat-number" id="map-country-count">0</span>
+                    <span class="map-stat-label">Countries</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Database View -->
+        <div class="discovery-view" id="discovery-database-view" style="display: none;">
+            <div class="container">
+                <!-- Filters (inline) -->
+                <div class="filter-bar-inline">
+                    <div class="search-box-inline">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                        <input type="text" id="discovery-search" placeholder="Search companies, founders, technologies...">
+                    </div>
+                    <select id="discovery-sector-filter" class="filter-select-inline">
+                        <option value="all">All Sectors</option>
+                    </select>
+                    <select id="discovery-stage-filter" class="filter-select-inline">
+                        <option value="all">All Stages</option>
+                    </select>
+                    <select id="discovery-sort" class="filter-select-inline">
+                        <option value="score">Highest Rated</option>
+                        <option value="name">A-Z</option>
+                        <option value="recent">Recent Activity</option>
+                    </select>
+                </div>
+
+                <!-- Sector Chips -->
+                <div class="filter-chips-inline" id="discovery-chips"></div>
+
+                <!-- Company Grid -->
+                <div class="company-grid-inline" id="discovery-grid"></div>
+
+                <div class="discovery-load-more">
+                    <button class="load-more-btn" id="discovery-load-more">Load More Companies</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Screener View -->
+        <div class="discovery-view" id="discovery-screener-view" style="display: none;">
+            <div class="container">
+                <div class="screener-inline">
+                    <p class="screener-intro">Build custom filters to find exactly the companies you're looking for.</p>
+                    <div class="screener-filters-inline" id="screener-filters-inline"></div>
+                    <div class="screener-results-inline" id="screener-results-inline"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition Banner (Slimmer) -->
+    <section class="value-prop-banner slim">
         <div class="container">
             <div class="value-prop-content">
                 <div class="value-prop-text">
@@ -119,6 +203,10 @@
             </div>
         </div>
     </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         TIER 2: RANKINGS & HIGHLIGHTS — What's hot right now
+         ═══════════════════════════════════════════════════════════════════════ -->
 
     <!-- ROS Innovator 50 — The Centerpiece (PILLAR 2) -->
     <section class="innovator50-section" id="innovator50">
@@ -180,7 +268,11 @@
         </div>
     </section>
 
-    <!-- Market Pulse -->
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         TIER 3: MARKET ACTIVITY — What's happening now
+         ═══════════════════════════════════════════════════════════════════════ -->
+
+    <!-- Market Pulse (Live Stocks) -->
     <section class="market-pulse-section" id="market-pulse">
         <div class="container">
             <div class="market-pulse-header">
@@ -190,6 +282,10 @@
             <div class="market-pulse-grid" id="market-pulse-grid"></div>
         </div>
     </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         TIER 4: CAPITAL & FUNDING — Money movement
+         ═══════════════════════════════════════════════════════════════════════ -->
 
     <!-- Capital Flows (Combined Funding + Deal Tracker) -->
     <section class="capital-flows-section" id="capital-flows">
@@ -1002,17 +1098,8 @@
         </div>
     </section>
 
-    <!-- Map Section -->
-    <section id="map" class="section map-section">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">GLOBAL PRESENCE</p>
-                <h2>Innovation Map</h2>
-                <p>Every pin is a company reshaping an industry. Click to explore.</p>
-            </div>
-        </div>
-        <div id="innovators-map"></div>
-    </section>
+    <!-- Map Section Anchor (redirects to Discovery Hub) -->
+    <div id="map" style="scroll-margin-top: 80px;"></div>
 
     <!-- SMART SCREENER (S&P CapIQ-style) -->
     <section class="screener-section" id="smart-screener">
@@ -1349,7 +1436,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-    <script src="data.js?v=64"></script>
-    <script src="app.js?v=64"></script>
+    <script src="data.js?v=65"></script>
+    <script src="app.js?v=65"></script>
 </body>
 </html>
