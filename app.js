@@ -1507,47 +1507,8 @@ let discoveryMap = null;
 let discoveryViewLimit = 24;
 
 function initDiscoveryHub() {
-  const tabs = document.querySelectorAll('.discovery-tab');
-  const views = document.querySelectorAll('.discovery-view');
-
-  if (!tabs.length) return;
-
-  // Tab switching
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      const targetView = tab.dataset.view;
-
-      // Update tabs
-      tabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-
-      // Update views
-      views.forEach(v => {
-        v.style.display = 'none';
-        v.classList.remove('active');
-      });
-
-      const viewEl = document.getElementById(`discovery-${targetView}-view`);
-      if (viewEl) {
-        viewEl.style.display = 'block';
-        viewEl.classList.add('active');
-      }
-
-      // Initialize map if switching to map view and not yet initialized
-      if (targetView === 'map' && !discoveryMap) {
-        initDiscoveryMap();
-      }
-
-      // Initialize database view if switching to it
-      if (targetView === 'database') {
-        initDiscoveryDatabase();
-      }
-    });
-  });
-
-  // Initialize the default view (map)
+  // Initialize the map directly (no tabs anymore - map is always visible)
   initDiscoveryMap();
-  initDiscoveryDatabaseFilters();
 
   // Update map stats
   updateMapStats();
@@ -2168,65 +2129,80 @@ function initSearch() {
 function initGlobalSearch() {
   const searchInput = document.getElementById('global-search');
   const dropdown = document.getElementById('search-results-dropdown');
-  const aiPanel = document.getElementById('ai-assistant-panel');
-  const aiFab = document.getElementById('ai-assistant-fab');
-  const aiInput = document.getElementById('ai-input');
 
   if (!searchInput) return;
 
-  // Make the global search bar trigger the AI Research Assistant
-  searchInput.addEventListener('focus', () => {
-    // Open AI panel
-    if (aiPanel && aiFab) {
-      aiPanel.style.display = 'flex';
-      aiFab.style.display = 'none';
-      // Focus the AI input after a brief delay
-      setTimeout(() => {
-        if (aiInput) {
-          // Transfer any typed text to AI input
-          if (searchInput.value.trim()) {
-            aiInput.value = searchInput.value;
-          }
-          aiInput.focus();
-        }
-      }, 100);
-      // Clear and blur the nav search
-      searchInput.value = '';
-      searchInput.blur();
+  let debounceTimer;
+
+  // Show search results as user types
+  searchInput.addEventListener('input', (e) => {
+    clearTimeout(debounceTimer);
+    const query = e.target.value.trim().toLowerCase();
+
+    if (query.length < 2) {
+      if (dropdown) dropdown.classList.remove('active');
+      return;
     }
+
+    debounceTimer = setTimeout(() => {
+      const results = performGlobalSearch(query);
+      renderSearchResults(results, dropdown);
+    }, 150);
   });
 
-  // Also handle click in case focus doesn't fire
-  searchInput.addEventListener('click', (e) => {
-    if (aiPanel && aiFab) {
-      e.preventDefault();
-      aiPanel.style.display = 'flex';
-      aiFab.style.display = 'none';
-      setTimeout(() => {
-        if (aiInput) aiInput.focus();
-      }, 100);
-      searchInput.blur();
-    }
-  });
-
-  // Keep Enter key behavior for quick natural language queries
+  // Handle Enter key - execute search or open AI assistant
   searchInput.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' && searchInput.value.trim()) {
       e.preventDefault();
       const query = searchInput.value.trim();
-      // Open AI panel and submit query
-      if (aiPanel && aiFab) {
+
+      // Try to open AI panel for natural language queries
+      const aiPanel = document.getElementById('ai-assistant-panel');
+      const aiFab = document.getElementById('ai-assistant-fab');
+      const chatContainer = document.getElementById('ai-chat');
+
+      if (aiPanel && chatContainer) {
         aiPanel.style.display = 'flex';
-        aiFab.style.display = 'none';
-        const chatContainer = document.getElementById('ai-chat');
-        if (chatContainer) {
-          handleAIQuery(query, chatContainer);
-        }
+        if (aiFab) aiFab.style.display = 'none';
+        handleAIQuery(query, chatContainer);
         searchInput.value = '';
+        if (dropdown) dropdown.classList.remove('active');
         searchInput.blur();
+      } else {
+        // Fallback: scroll to first result or company section
+        const results = performGlobalSearch(query.toLowerCase());
+        if (results.companies.length > 0) {
+          openCompanyModal(results.companies[0].name);
+          searchInput.value = '';
+          if (dropdown) dropdown.classList.remove('active');
+        }
       }
     } else if (e.key === 'Escape') {
+      if (dropdown) dropdown.classList.remove('active');
       searchInput.blur();
+    } else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      // Navigate dropdown results
+      if (dropdown && dropdown.classList.contains('active')) {
+        e.preventDefault();
+        const items = dropdown.querySelectorAll('.search-result-item');
+        const activeItem = dropdown.querySelector('.search-result-item.active');
+        let activeIndex = Array.from(items).indexOf(activeItem);
+
+        if (e.key === 'ArrowDown' && activeIndex < items.length - 1) {
+          items[activeIndex]?.classList.remove('active');
+          items[activeIndex + 1]?.classList.add('active');
+        } else if (e.key === 'ArrowUp' && activeIndex > 0) {
+          items[activeIndex]?.classList.remove('active');
+          items[activeIndex - 1]?.classList.add('active');
+        }
+      }
+    }
+  });
+
+  // Close dropdown on click outside
+  document.addEventListener('click', (e) => {
+    if (dropdown && !searchInput.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.classList.remove('active');
     }
   });
 }
@@ -2247,7 +2223,7 @@ function performGlobalSearch(query) {
       name: c.name,
       meta: c.sector,
       icon: SECTORS[c.sector]?.icon || '🏢',
-      action: () => openModal(c.name)
+      action: () => openCompanyModal(c.name)
     }));
   }
 
