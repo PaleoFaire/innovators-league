@@ -10076,14 +10076,14 @@ const SECTOR_MOMENTUM = [
 
 // ─── BREAKING NEWS TICKER ───
 const NEWS_TICKER = [
-  { text: "SpaceX IPO may suck oxygen from market before unleashing broad capital surge", time: "10h ago", priority: "high" },
-  { text: "How much is vertical integration squeezing the smallsat opportunity?", time: "16h ago", priority: "high" },
-  { text: "Stoke Space adds $350 million to Series D round", time: "20h ago", priority: "high" },
-  { text: "What the SpaceX acquisition of xAI means for industrial robotics", time: "3d ago", priority: "high" },
-  { text: "Exclusive: Winn.ai Raises $18M Series A For AI-Powered Real-Time Sales Assistant", time: "21h ago", priority: "high" },
-  { text: "Gen AI Video Startup Runway Raises $315M Led By General Atlantic At $5.3B Valuation", time: "1d ago", priority: "high" },
-  { text: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", time: "19h ago", priority: "high" },
-  { text: "Integrate Raises $17M to Commercialize the World’s First Ultra-Secure Project Management Platform for Classified Programs", time: "12h ago", priority: "medium" }
+  { text: "SpaceX IPO may suck oxygen from market before unleashing broad capital surge", time: "1d ago", priority: "high" },
+  { text: "Musk needed a new vision for SpaceX and xAI. He landed on Moonbase Alpha.", time: "11h ago", priority: "high" },
+  { text: "What the SpaceX acquisition of xAI means for industrial robotics", time: "4d ago", priority: "high" },
+  { text: "Exclusive: Winn.ai Raises $18M Series A For AI-Powered Real-Time Sales Assistant", time: "1d ago", priority: "high" },
+  { text: "Gen AI Video Startup Runway Raises $315M Led By General Atlantic At $5.3B Valuation", time: "2d ago", priority: "high" },
+  { text: "Launch companies debate how to compete against SpaceX", time: "21h ago", priority: "high" },
+  { text: "Anthropic Raises $30B At $380B Valuation In Second-Largest Venture Funding Deal Of All Time", time: "12h ago", priority: "high" },
+  { text: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", time: "1d ago", priority: "high" }
 ];
 
 // ─── WEEKLY INTELLIGENCE DIGEST ───
