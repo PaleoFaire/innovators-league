@@ -1189,7 +1189,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // initEfficiencyLeaderboard(); // Removed - Rankings section removed
   initTRLDashboard();
   initDealTracker();
-  // initCapitalFlowsTabs(); // Removed - Simplified to Deal Flow only
+  initCapitalFlowsTabs(); // Re-enabled for Deal Flow + Revenue Tracker tabs
   initGrowthSignals();
   initMarketMap();
   initMafiaExplorer();
@@ -3544,12 +3544,12 @@ function initCapitalFlowsTabs() {
       tabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
 
-      // Update panel visibility
+      // Update panel visibility using classes
       panels.forEach(panel => {
         if (panel.dataset.panel === targetTab) {
-          panel.style.display = 'block';
+          panel.classList.add('active');
         } else {
-          panel.style.display = 'none';
+          panel.classList.remove('active');
         }
       });
     });

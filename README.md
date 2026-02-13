@@ -2,7 +2,7 @@
 
 **Frontier tech intelligence you can use tomorrow.**
 
-460+ companies across defense, space, energy, biotech, and robotics — ranked, tracked, and explained.
+500 companies across defense, space, energy, biotech, and robotics — ranked, tracked, and explained.
 
 ## Data Pipeline Status
 

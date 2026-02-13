@@ -5020,7 +5020,12 @@ body {
 }
 
 .capital-panel {
+  display: none;
   animation: fadeIn 0.2s ease;
+}
+
+.capital-panel.active {
+  display: block;
 }
 
 @keyframes fadeIn {

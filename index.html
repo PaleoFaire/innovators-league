@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=32">
+    <link rel="stylesheet" href="styles.css?v=33">
 </head>
 <body>
     <!-- Navigation — 5 Key Tabs -->
@@ -47,7 +47,7 @@
         <div class="hero-content">
             <p class="hero-eyebrow">RATIONAL OPTIMIST SOCIETY</p>
             <h1 class="hero-title">Frontier tech intelligence you can use tomorrow.</h1>
-            <p class="hero-subtitle"><span id="company-count-inline">460+</span> companies across defense, space, energy, biotech, and robotics &mdash; ranked, tracked, and explained.</p>
+            <p class="hero-subtitle"><span id="company-count-inline">500</span> companies across defense, space, energy, biotech, and robotics &mdash; ranked, tracked, and explained.</p>
             <div class="hero-actions">
                 <a href="#discovery-hub" class="hero-btn primary">🗺️ Explore the Map</a>
                 <a href="#innovator50" class="hero-btn secondary">🏆 See the ROS 50</a>
@@ -92,7 +92,7 @@
             <div class="section-header">
                 <p class="section-eyebrow">GLOBAL INTELLIGENCE</p>
                 <h2>Innovation Map</h2>
-                <p>460+ frontier tech companies across defense, space, energy, biotech, and robotics — mapped worldwide.</p>
+                <p>500 frontier tech companies across defense, space, energy, biotech, and robotics — mapped worldwide.</p>
             </div>
         </div>
 
@@ -267,19 +267,32 @@
          TIER 4: CAPITAL & FUNDING — Money movement
          ═══════════════════════════════════════════════════════════════════════ -->
 
-    <!-- Capital Flows (Deal Tracker) -->
+    <!-- Capital Flows (Deal Tracker + Revenue) -->
     <section class="capital-flows-section" id="capital-flows">
         <div class="container">
             <div class="section-header">
                 <p class="section-eyebrow">CAPITAL INTELLIGENCE</p>
-                <h2>Deal Flow</h2>
-                <p>Who invested, when, and how much — the definitive record of frontier tech capital.</p>
+                <h2>Deal Flow & Revenue</h2>
+                <p>Who invested, when, and how much — plus revenue figures for companies with public data.</p>
             </div>
-            <div class="capital-panel" id="deals-panel" data-panel="deals">
+
+            <!-- Capital Intelligence Tabs -->
+            <div class="capital-tabs">
+                <button class="capital-tab active" data-tab="deals">💰 Deal Flow</button>
+                <button class="capital-tab" data-tab="revenue">📈 Revenue Tracker</button>
+            </div>
+
+            <!-- Deal Flow Panel -->
+            <div class="capital-panel active" id="deals-panel" data-panel="deals">
                 <div class="deal-filter-bar">
                     <button class="deal-filter active" data-filter="all">All Deals</button>
                 </div>
                 <div class="deal-grid" id="deal-grid"></div>
+            </div>
+
+            <!-- Revenue Tracker Panel -->
+            <div class="capital-panel" id="revenue-panel" data-panel="revenue">
+                <div class="revenue-grid-container" id="revenue-grid"></div>
             </div>
         </div>
     </section>
@@ -870,18 +883,6 @@
             </div>
             <div class="historical-chart-container" id="historical-chart"></div>
             <div class="historical-timeline" id="historical-timeline"></div>
-        </div>
-    </section>
-
-    <!-- Revenue Intelligence -->
-    <section class="revenue-section" id="revenue-intel">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">FINANCIAL INTELLIGENCE</p>
-                <h2>Revenue Tracker</h2>
-                <p>Revenue figures and growth rates for companies where data is publicly available or credibly reported.</p>
-            </div>
-            <div class="revenue-grid-container" id="revenue-grid"></div>
         </div>
     </section>
 
