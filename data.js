@@ -15343,23 +15343,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-12 21:50
+// Last updated: 2026-02-13 05:14
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Axiom Space", headline: "Axiom Space raises additional $350 million", source: "SpaceNews", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "funding", company: "Anthropic", headline: "Anthropic Raises $30B At $380B Valuation In Second-Largest Venture Funding Deal Of All Time", source: "Crunchbase News", time: "1h ago", impact: "high", unread: true },
-  { id: 3, type: "funding", company: "OpenAI", headline: "Anthropic raises another $30B in Series G, with a new value of $380B", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "Waymo", headline: "Waymo Asks the DC Public to Pressure Their City Officials", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI's President Gave Millions to Trump. He Says It's for Humanity", source: "Wired", time: "2h ago", impact: "medium", unread: true },
-  { id: 6, type: "milestone", company: "OpenAI", headline: "A new version of OpenAI's Codex is powered by a new dedicated chip", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Launch companies debate how to compete against SpaceX", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX takes down Dragon crew arm, giving Starship a leg up in Florida", source: "Ars Technica Space", time: "19h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX IPO may suck oxygen from market before unleashing broad capital surge", source: "SpaceNews", time: "23h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "OpenAI disbands mission alignment team", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Waymo", headline: "Waymo is asking DoorDash drivers to shut the doors of its self-driving cars", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips", source: "Ars Technica", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Palantir", headline: "'Uncanny Valley': ICE's Secret Expansion Plans, Palantir Workers' Ethical Concerns, and AI Assistants", source: "Wired", time: "7h ago", impact: "medium", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Musk needed a new vision for SpaceX and xAI. He landed on Moonbase Alpha.", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Anthropic", headline: "Anthropic Raises $30B At $380B Valuation In Second-Largest Venture Funding Deal Of All Time", source: "Crunchbase News", time: "8h ago", impact: "high", unread: true },
+  { id: 6, type: "funding", company: "OpenAI", headline: "Anthropic raises another $30B in Series G, with a new value of $380B", source: "TechCrunch", time: "8h ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "Waymo", headline: "Waymo Asks the DC Public to Pressure Their City Officials", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI's President Gave Millions to Trump. He Says It's for Humanity", source: "Wired", time: "10h ago", impact: "medium", unread: false },
+  { id: 9, type: "milestone", company: "OpenAI", headline: "A new version of OpenAI's Codex is powered by a new dedicated chip", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX takes down Dragon crew arm, giving Starship a leg up in Florida", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "OpenAI", headline: "OpenAI researcher quits over ChatGPT ads, warns of &quot;Facebook&quot; path", source: "Ars Technica", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "How much is vertical integration squeezing the smallsat opportunity?", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Apptronik", headline: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", source: "Crunchbase News", time: "1d ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "AI Industry Rivals Are Teaming Up on a Startup Accelerator", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX's next-gen Super Heavy booster aces four days of &quot;cryoproof&quot; testing", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Apptronik", headline: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", source: "Crunchbase News", time: "1d ago", impact: "medium", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "AI Industry Rivals Are Teaming Up on a Startup Accelerator", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX's next-gen Super Heavy booster aces four days of &quot;cryoproof&quot; testing", source: "Ars Technica Space", time: "2d ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Palantir", headline: "Palantir CEO Alex Karp Recorded a Video About ICE for His Employees", source: "Wired", time: "2d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
