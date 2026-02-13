@@ -2168,58 +2168,64 @@ function initSearch() {
 function initGlobalSearch() {
   const searchInput = document.getElementById('global-search');
   const dropdown = document.getElementById('search-results-dropdown');
-  if (!searchInput || !dropdown) return;
+  const aiPanel = document.getElementById('ai-assistant-panel');
+  const aiFab = document.getElementById('ai-assistant-fab');
+  const aiInput = document.getElementById('ai-input');
 
-  let debounceTimer;
+  if (!searchInput) return;
 
-  searchInput.addEventListener('input', (e) => {
-    clearTimeout(debounceTimer);
-    const query = e.target.value.trim().toLowerCase();
-
-    if (query.length < 2) {
-      dropdown.classList.remove('active');
-      return;
+  // Make the global search bar trigger the AI Research Assistant
+  searchInput.addEventListener('focus', () => {
+    // Open AI panel
+    if (aiPanel && aiFab) {
+      aiPanel.style.display = 'flex';
+      aiFab.style.display = 'none';
+      // Focus the AI input after a brief delay
+      setTimeout(() => {
+        if (aiInput) {
+          // Transfer any typed text to AI input
+          if (searchInput.value.trim()) {
+            aiInput.value = searchInput.value;
+          }
+          aiInput.focus();
+        }
+      }, 100);
+      // Clear and blur the nav search
+      searchInput.value = '';
+      searchInput.blur();
     }
-
-    debounceTimer = setTimeout(() => {
-      const results = performGlobalSearch(query);
-      renderSearchResults(results, dropdown);
-    }, 150);
   });
 
-  // Close dropdown on click outside
-  document.addEventListener('click', (e) => {
-    if (!searchInput.contains(e.target) && !dropdown.contains(e.target)) {
-      dropdown.classList.remove('active');
+  // Also handle click in case focus doesn't fire
+  searchInput.addEventListener('click', (e) => {
+    if (aiPanel && aiFab) {
+      e.preventDefault();
+      aiPanel.style.display = 'flex';
+      aiFab.style.display = 'none';
+      setTimeout(() => {
+        if (aiInput) aiInput.focus();
+      }, 100);
+      searchInput.blur();
     }
   });
 
-  // Keyboard navigation
+  // Keep Enter key behavior for quick natural language queries
   searchInput.addEventListener('keydown', (e) => {
-    const items = dropdown.querySelectorAll('.search-result-item');
-    const activeItem = dropdown.querySelector('.search-result-item.active');
-    let activeIndex = Array.from(items).indexOf(activeItem);
-
-    if (e.key === 'ArrowDown') {
+    if (e.key === 'Enter' && searchInput.value.trim()) {
       e.preventDefault();
-      if (activeIndex < items.length - 1) {
-        items[activeIndex]?.classList.remove('active');
-        items[activeIndex + 1]?.classList.add('active');
-        items[activeIndex + 1]?.scrollIntoView({ block: 'nearest' });
+      const query = searchInput.value.trim();
+      // Open AI panel and submit query
+      if (aiPanel && aiFab) {
+        aiPanel.style.display = 'flex';
+        aiFab.style.display = 'none';
+        const chatContainer = document.getElementById('ai-chat');
+        if (chatContainer) {
+          handleAIQuery(query, chatContainer);
+        }
+        searchInput.value = '';
+        searchInput.blur();
       }
-    } else if (e.key === 'ArrowUp') {
-      e.preventDefault();
-      if (activeIndex > 0) {
-        items[activeIndex]?.classList.remove('active');
-        items[activeIndex - 1]?.classList.add('active');
-        items[activeIndex - 1]?.scrollIntoView({ block: 'nearest' });
-      }
-    } else if (e.key === 'Enter') {
-      e.preventDefault();
-      const selected = dropdown.querySelector('.search-result-item.active');
-      if (selected) selected.click();
     } else if (e.key === 'Escape') {
-      dropdown.classList.remove('active');
       searchInput.blur();
     }
   });

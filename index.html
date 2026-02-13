@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=30">
+    <link rel="stylesheet" href="styles.css?v=31">
 </head>
 <body>
-    <!-- Navigation — Redesigned around 3 Workflows -->
+    <!-- Navigation — 5 Key Tabs -->
     <nav class="nav">
         <div class="nav-brand">
             <div class="nav-logo">ROS</div>
@@ -25,36 +25,16 @@
             <svg class="nav-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
             </svg>
-            <input type="text" id="global-search" placeholder="Search companies, sectors, investors..." autocomplete="off">
+            <input type="text" id="global-search" placeholder="Ask anything about frontier tech companies..." autocomplete="off">
             <div class="search-results-dropdown" id="search-results-dropdown"></div>
         </div>
-        <!-- Workflow-Based Navigation -->
+        <!-- 5 Key Tabs Navigation -->
         <div class="nav-links">
-            <div class="nav-dropdown">
-                <a href="#discovery-hub" class="nav-link-main">🗺️ Discover</a>
-                <div class="nav-dropdown-content">
-                    <a href="#discovery-hub">Interactive Map</a>
-                    <a href="#discovery-hub" onclick="switchDiscoveryTab('database')">Company Database</a>
-                    <a href="#innovator50">ROS 50 Rankings</a>
-                    <a href="#sectors">Sector Intel</a>
-                </div>
-            </div>
-            <div class="nav-dropdown">
-                <a href="#intelligence-hub" class="nav-link-main">📡 Track</a>
-                <div class="nav-dropdown-content">
-                    <a href="#intelligence-hub">Alerts & Signals</a>
-                    <a href="#capital-flows">Capital Flows</a>
-                    <a href="#movements">Weekly Movement</a>
-                </div>
-            </div>
-            <div class="nav-dropdown">
-                <a href="#portfolio-builder" class="nav-link-main">🎯 Decide</a>
-                <div class="nav-dropdown-content">
-                    <a href="#portfolio-builder">Portfolio Builder</a>
-                    <a href="#predictive-scores">Predictive Analytics</a>
-                    <a href="investors.html">Investor Directory</a>
-                </div>
-            </div>
+            <a href="#discovery-hub" class="nav-link">🗺️ Map</a>
+            <a href="#discovery-hub" onclick="switchDiscoveryTab('database'); return false;" class="nav-link">📊 Database</a>
+            <a href="#innovator50" class="nav-link">🏆 ROS 50</a>
+            <a href="visualizations.html" class="nav-link">📈 Insights</a>
+            <a href="investors.html" class="nav-link">💰 Investors</a>
             <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
         </div>
         <button class="mobile-menu-btn" aria-label="Menu">
@@ -391,10 +371,11 @@
             </div>
             <div class="iscore-methodology">
                 <div class="iscore-dimension-legend">
-                    <span class="iscore-dim" data-dim="momentum"><span class="iscore-dim-dot" style="background:#FF6B2C"></span>Momentum <small>40%</small></span>
-                    <span class="iscore-dim" data-dim="market"><span class="iscore-dim-dot" style="background:#3b82f6"></span>Market <small>25%</small></span>
-                    <span class="iscore-dim" data-dim="technology"><span class="iscore-dim-dot" style="background:#22c55e"></span>Technology <small>20%</small></span>
-                    <span class="iscore-dim" data-dim="team"><span class="iscore-dim-dot" style="background:#8b5cf6"></span>Team <small>15%</small></span>
+                    <span class="iscore-dim" data-dim="capitalMomentum"><span class="iscore-dim-dot" style="background:#FF6B2C"></span>Capital Momentum <small>25%</small></span>
+                    <span class="iscore-dim" data-dim="govTraction"><span class="iscore-dim-dot" style="background:#3b82f6"></span>Gov Traction <small>25%</small></span>
+                    <span class="iscore-dim" data-dim="techMoat"><span class="iscore-dim-dot" style="background:#22c55e"></span>Technical Moat <small>20%</small></span>
+                    <span class="iscore-dim" data-dim="operatorDNA"><span class="iscore-dim-dot" style="background:#8b5cf6"></span>Operator DNA <small>15%</small></span>
+                    <span class="iscore-dim" data-dim="strategicAlignment"><span class="iscore-dim-dot" style="background:#f59e0b"></span>Strategic Align <small>15%</small></span>
                 </div>
             </div>
             <div class="iscore-controls">
@@ -549,7 +530,7 @@
     <section class="network-section" id="network-graph">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">RELATIONSHIP INTELLIGENCE — YOUR #1 MOAT</p>
+                <p class="section-eyebrow">RELATIONSHIP INTELLIGENCE</p>
                 <h2>Network Graph</h2>
                 <p>Click any node to see the full relationship chain. Who invested in whom, which founders came from the same companies, and hidden board connections that explain deal flow.</p>
             </div>
@@ -1179,6 +1160,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <script src="data.js?v=65"></script>
-    <script src="app.js?v=65"></script>
+    <script src="app.js?v=66"></script>
 </body>
 </html>
