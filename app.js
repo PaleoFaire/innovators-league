@@ -1181,15 +1181,15 @@ document.addEventListener('DOMContentLoaded', () => {
   initModal();
   initCompare();
   initKeyboard();
-  initFeatured();
+  // initFeatured(); // Removed - Featured Innovators section removed
   initMovementTracker();
   initWeeklyDigest();
   initAnomalyAlerts();
-  initLeaderboard();
-  initEfficiencyLeaderboard();
+  // initLeaderboard(); // Removed - Rankings section removed
+  // initEfficiencyLeaderboard(); // Removed - Rankings section removed
   initTRLDashboard();
   initDealTracker();
-  initCapitalFlowsTabs();
+  // initCapitalFlowsTabs(); // Removed - Simplified to Deal Flow only
   initGrowthSignals();
   initMarketMap();
   initMafiaExplorer();
@@ -1197,8 +1197,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initRequestForStartups();
   initNewsTicker();
   initInnovator50();
-  initMarketPulse();
-  initFundingTracker();
+  // initMarketPulse(); // Removed - Market Pulse section removed
+  // initFundingTracker(); // Removed - Using Deal Flow only
   initSectorMomentum();
   initIPOPipeline();
   initInnovatorScores();
@@ -1210,10 +1210,10 @@ document.addEventListener('DOMContentLoaded', () => {
   initPredictiveScoring();
   initNetworkGraph();
   initPortfolioBuilder();
-  initAIMemo();
+  // initAIMemo(); // Removed - Editorial Analysis section removed
   initIntelFeed();
-  initSectorReports();
-  initCommunityIntel();
+  // initSectorReports(); // Removed - Exportable Reports section removed
+  // initCommunityIntel(); // Removed - Community section removed
   initHistoricalTracking();
   initURLState();
   initSmoothScroll();
@@ -1225,8 +1225,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // PILLAR 1: Add section timestamps for data freshness visibility
   initSectionTimestamps();
 
-  // PILLAR 3: Initialize From the Source section
-  initFromTheSource();
+  // initFromTheSource(); // Removed - From the Source section removed
 
   // Hide loading skeletons after all content is loaded
   hideLoadingSkeletons();
@@ -1974,6 +1973,18 @@ function initFilters() {
   });
   stageFilter.addEventListener('change', applyFilters);
 
+  // Signal filter
+  const signalFilter = document.getElementById('signal-filter');
+  if (signalFilter) {
+    signalFilter.addEventListener('change', applyFilters);
+  }
+
+  // Special filter
+  const specialFilter = document.getElementById('special-filter');
+  if (specialFilter) {
+    specialFilter.addEventListener('change', applyFilters);
+  }
+
   // Sort dropdown
   document.getElementById('sort-filter').addEventListener('change', applyFilters);
 }
@@ -1984,6 +1995,8 @@ function applyFilters() {
   const countryEl = document.getElementById('country-filter');
   const stateEl = document.getElementById('state-filter');
   const stageEl = document.getElementById('stage-filter');
+  const signalEl = document.getElementById('signal-filter');
+  const specialEl = document.getElementById('special-filter');
   const sortEl = document.getElementById('sort-filter');
   const searchEl = document.getElementById('search-input');
 
@@ -1991,6 +2004,8 @@ function applyFilters() {
   const country = countryEl?.value || 'all';
   const stateCode = stateEl?.value || 'all';
   const stage = stageEl?.value || 'all';
+  const signal = signalEl?.value || 'all';
+  const special = specialEl?.value || 'all';
   const sortBy = sortEl?.value || 'name';
   const searchTerm = (searchEl?.value || '').toLowerCase();
 
@@ -2012,6 +2027,30 @@ function applyFilters() {
 
   if (stage && stage !== 'all') {
     filtered = filtered.filter(c => c.fundingStage === stage);
+  }
+
+  // Signal filter
+  if (signal && signal !== 'all') {
+    filtered = filtered.filter(c => {
+      const companySignal = (c.signal || '').toLowerCase();
+      return companySignal === signal.toLowerCase();
+    });
+  }
+
+  // Special filters
+  if (special && special !== 'all') {
+    if (special === 'innovator50') {
+      // Filter for Innovator 50 companies
+      const innovator50Names = (typeof INNOVATOR_50 !== 'undefined' ? INNOVATOR_50 : []).map(i => i.company || i.name);
+      filtered = filtered.filter(c => innovator50Names.includes(c.name));
+    } else if (special === 'govContracts') {
+      // Filter for companies with government contracts
+      const govCompanyNames = (typeof GOV_CONTRACTS !== 'undefined' ? GOV_CONTRACTS : []).map(g => g.company);
+      filtered = filtered.filter(c => govCompanyNames.includes(c.name));
+    } else if (special === 'recentFunding') {
+      // Filter for companies with recent funding (has recentEvent with funding)
+      filtered = filtered.filter(c => c.recentEvent && c.recentEvent.type === 'funding');
+    }
   }
 
   if (searchTerm) {

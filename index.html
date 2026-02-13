@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=29">
+    <link rel="stylesheet" href="styles.css?v=30">
 </head>
 <body>
     <!-- Navigation — Redesigned around 3 Workflows -->
@@ -51,7 +51,6 @@
                 <a href="#portfolio-builder" class="nav-link-main">🎯 Decide</a>
                 <div class="nav-dropdown-content">
                     <a href="#portfolio-builder">Portfolio Builder</a>
-                    <a href="#ros-verdict">The ROS Verdict</a>
                     <a href="#predictive-scores">Predictive Analytics</a>
                     <a href="investors.html">Investor Directory</a>
                 </div>
@@ -94,10 +93,6 @@
                     <span class="stat-label">Tracked Funding</span>
                 </div>
             </div>
-            <div class="data-freshness-container">
-                <div class="freshness-indicator" id="data-freshness"></div>
-                <p class="last-updated" id="last-updated"></p>
-            </div>
         </div>
     </header>
 
@@ -122,10 +117,6 @@
                 <button class="discovery-tab" data-view="database">
                     <span class="tab-icon">📊</span>
                     <span class="tab-label">Company Database</span>
-                </button>
-                <button class="discovery-tab" data-view="screener">
-                    <span class="tab-icon">🎯</span>
-                    <span class="tab-label">Smart Screener</span>
                 </button>
             </div>
         </div>
@@ -179,16 +170,6 @@
             </div>
         </div>
 
-        <!-- Screener View -->
-        <div class="discovery-view" id="discovery-screener-view" style="display: none;">
-            <div class="container">
-                <div class="screener-inline">
-                    <p class="screener-intro">Build custom filters to find exactly the companies you're looking for.</p>
-                    <div class="screener-filters-inline" id="screener-filters-inline"></div>
-                    <div class="screener-results-inline" id="screener-results-inline"></div>
-                </div>
-            </div>
-        </div>
     </section>
 
     <!-- Value Proposition Banner (Slimmer) -->
@@ -272,37 +253,20 @@
          TIER 3: MARKET ACTIVITY — What's happening now
          ═══════════════════════════════════════════════════════════════════════ -->
 
-    <!-- Market Pulse (Live Stocks) -->
-    <section class="market-pulse-section" id="market-pulse">
-        <div class="container">
-            <div class="market-pulse-header">
-                <p class="section-eyebrow">MARKET PULSE</p>
-                <span class="pulse-live-dot"></span>
-            </div>
-            <div class="market-pulse-grid" id="market-pulse-grid"></div>
-        </div>
-    </section>
 
     <!-- ═══════════════════════════════════════════════════════════════════════
          TIER 4: CAPITAL & FUNDING — Money movement
          ═══════════════════════════════════════════════════════════════════════ -->
 
-    <!-- Capital Flows (Combined Funding + Deal Tracker) -->
+    <!-- Capital Flows (Deal Tracker) -->
     <section class="capital-flows-section" id="capital-flows">
         <div class="container">
             <div class="section-header">
                 <p class="section-eyebrow">CAPITAL INTELLIGENCE</p>
-                <h2>Capital Flows</h2>
+                <h2>Deal Flow</h2>
                 <p>Who invested, when, and how much — the definitive record of frontier tech capital.</p>
             </div>
-            <div class="capital-tabs">
-                <button class="capital-tab active" data-tab="funding">Funding Rounds</button>
-                <button class="capital-tab" data-tab="deals">Deal Flow</button>
-            </div>
-            <div class="capital-panel" id="funding-panel" data-panel="funding">
-                <div class="funding-tracker-grid" id="funding-tracker-grid"></div>
-            </div>
-            <div class="capital-panel" id="deals-panel" data-panel="deals" style="display: none;">
+            <div class="capital-panel" id="deals-panel" data-panel="deals">
                 <div class="deal-filter-bar">
                     <button class="deal-filter active" data-filter="all">All Deals</button>
                     <button class="deal-filter" data-filter="lead">Lead Investors Only</button>
@@ -319,6 +283,9 @@
                 <p class="section-eyebrow">SECTOR INTELLIGENCE</p>
                 <h2>Sector Momentum Index</h2>
                 <p>Real-time momentum scores across all frontier tech sectors.</p>
+            </div>
+            <div class="metric-methodology-box compact">
+                <p><strong>Methodology:</strong> Each sector's momentum score (0-100) is calculated from 5 weighted factors: <strong>Funding Velocity</strong> (30%) — rate of new capital entering the sector over trailing 90 days; <strong>Deal Count</strong> (20%) — number of disclosed funding rounds; <strong>Median Round Size Growth</strong> (15%) — change in typical deal size vs. prior quarter; <strong>New Company Formation</strong> (15%) — startups founded or emerging from stealth; <strong>Signal Strength</strong> (20%) — aggregate of hiring velocity, news sentiment, and patent filings across sector companies. Scores update weekly.</p>
             </div>
             <div class="momentum-grid" id="momentum-grid"></div>
         </div>
@@ -584,17 +551,9 @@
             <div class="section-header">
                 <p class="section-eyebrow">RELATIONSHIP INTELLIGENCE — YOUR #1 MOAT</p>
                 <h2>Network Graph</h2>
-                <p>Click any node to see the full relationship chain. Who invested in whom, which founders came from the same companies, and hidden board connections that explain deal flow. The kind of mapping PitchBook charges $40K/year for.</p>
+                <p>Click any node to see the full relationship chain. Who invested in whom, which founders came from the same companies, and hidden board connections that explain deal flow.</p>
             </div>
             <div class="network-controls">
-                <div class="network-filters">
-                    <button class="network-filter active" data-edge="all">All Connections</button>
-                    <button class="network-filter" data-edge="investment">Investments</button>
-                    <button class="network-filter" data-edge="mafia">Mafia Links</button>
-                    <button class="network-filter" data-edge="co-investor">Co-Investors</button>
-                    <button class="network-filter" data-edge="founder">Founders</button>
-                    <button class="network-filter" data-edge="board">Board</button>
-                </div>
                 <div class="network-tools">
                     <div class="network-search">
                         <input type="text" id="network-search" placeholder="Search node...">
@@ -712,30 +671,52 @@
                                         <option value="defense-down">Defense Budget −10%</option>
                                         <option value="china-tensions">US-China Tech Decoupling</option>
                                         <option value="nato-expansion">NATO Modernization Push</option>
+                                        <option value="ukraine-rebuild">Ukraine Reconstruction ($500B)</option>
+                                        <option value="indo-pacific">Indo-Pacific Security Push</option>
                                     </optgroup>
                                     <optgroup label="🤖 Technology">
                                         <option value="ai-boom">AI Investment Boom</option>
                                         <option value="ai-regulation">AI Regulation Wave</option>
                                         <option value="quantum-breakthrough">Quantum Breakthrough</option>
+                                        <option value="robotics-boom">Robotics Manufacturing Boom</option>
+                                        <option value="autonomous-vehicles">Autonomous Vehicles Approved</option>
+                                        <option value="ai-chip-shortage">AI Chip Shortage Intensifies</option>
                                     </optgroup>
                                     <optgroup label="🚀 Space">
                                         <option value="space-race">Space Race Acceleration</option>
                                         <option value="starlink-dominance">LEO Constellation Wars</option>
+                                        <option value="moon-economy">Artemis Moon Economy</option>
+                                        <option value="space-tourism">Space Tourism Takes Off</option>
+                                        <option value="asteroid-mining">Asteroid Mining Breakthrough</option>
                                     </optgroup>
                                     <optgroup label="⚡ Energy">
                                         <option value="climate-push">Climate Policy Push</option>
                                         <option value="nuclear-renaissance">Nuclear Renaissance</option>
                                         <option value="fusion-breakthrough">Fusion Ignition Achieved</option>
                                         <option value="oil-shock">Oil Price Spike ($150/bbl)</option>
+                                        <option value="grid-crisis">Grid Infrastructure Crisis</option>
+                                        <option value="ev-mandate">EV Mandate Acceleration</option>
+                                        <option value="hydrogen-economy">Hydrogen Economy Emerges</option>
                                     </optgroup>
                                     <optgroup label="📈 Economic">
                                         <option value="recession">Recession Scenario</option>
                                         <option value="rate-cuts">Fed Rate Cuts (200bp)</option>
                                         <option value="ipo-window">IPO Window Opens</option>
+                                        <option value="inflation-spike">Inflation Spike (8%+)</option>
+                                        <option value="venture-winter">Venture Funding Winter</option>
+                                        <option value="ma-wave">M&A Wave (Big Tech Acquirers)</option>
                                     </optgroup>
                                     <optgroup label="📋 Regulatory">
                                         <option value="chips-act-boost">CHIPS Act Phase 2</option>
                                         <option value="fda-fast-track">FDA Accelerated Approvals</option>
+                                        <option value="export-controls">Export Controls Tightened</option>
+                                        <option value="antitrust-wave">Antitrust Enforcement Wave</option>
+                                        <option value="carbon-tax">Carbon Tax Implementation</option>
+                                    </optgroup>
+                                    <optgroup label="🧬 Biotech">
+                                        <option value="biotech-breakthrough">Major Biotech Breakthrough</option>
+                                        <option value="pandemic-prep">Pandemic Preparedness Push</option>
+                                        <option value="longevity-boom">Longevity Research Boom</option>
                                     </optgroup>
                                 </select>
                                 <button class="scenario-run-btn" id="scenario-run">Run Scenario</button>
@@ -752,114 +733,9 @@
         </div>
     </section>
 
-    <!-- The ROS Verdict -->
-    <section class="memo-section" id="ros-verdict">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">EDITORIAL ANALYSIS</p>
-                <h2>The ROS Verdict</h2>
-                <p>Our editorial team's take on each company — combining data analysis with human insight. Generate custom deep-dives using your own AI key.</p>
-            </div>
-            <div class="memo-layout">
-                <div class="memo-config">
-                    <div class="memo-config-group">
-                        <label>Select Company</label>
-                        <select id="memo-company" class="lb-filter-select">
-                            <option value="">Choose a company...</option>
-                        </select>
-                    </div>
-                    <div class="memo-config-group">
-                        <label>Verdict Type</label>
-                        <select id="memo-type" class="lb-filter-select">
-                            <option value="investment">The Full Verdict</option>
-                            <option value="competitive">Competitive Moat Analysis</option>
-                            <option value="sector">Sector Context Brief</option>
-                            <option value="risk">Bull/Bear Case</option>
-                        </select>
-                    </div>
-                    <div class="memo-config-group">
-                        <label>AI Provider</label>
-                        <select id="memo-provider" class="lb-filter-select">
-                            <option value="anthropic">Anthropic (Claude)</option>
-                            <option value="openai">OpenAI (GPT-4)</option>
-                        </select>
-                    </div>
-                    <div class="memo-config-group">
-                        <label>API Key <span class="memo-key-note">(stored locally, never sent to our servers)</span></label>
-                        <input type="password" id="memo-api-key" placeholder="sk-... or your API key" class="memo-key-input">
-                    </div>
-                    <button class="memo-generate-btn" id="memo-generate">⚡ Generate Verdict</button>
-                </div>
-                <div class="memo-output" id="memo-output">
-                    <div class="memo-placeholder">
-                        <div class="memo-placeholder-icon">⚖️</div>
-                        <p>Select a company to generate The ROS Verdict — our editorial team's analytical framework applied to any company in the database.</p>
-                        <p class="memo-placeholder-sub">Powered by AI + our proprietary scoring methodology. Your API key is stored locally.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Exportable Sector Reports -->
-    <section class="reports-section" id="sector-reports">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">EXPORTABLE REPORTS</p>
-                <h2>Sector Intelligence Reports</h2>
-                <p>Generate downloadable PDF reports with sector analysis, company rankings, funding trends, and competitive landscapes.</p>
-            </div>
-            <div class="reports-grid" id="reports-grid"></div>
-        </div>
-    </section>
 
-    <!-- From the Source — PILLAR 3 -->
-    <section class="from-source-section" id="from-the-source">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">🎙️ FROM THE SOURCE</p>
-                <h2>Direct from Founders</h2>
-                <p>Exclusive insights, interviews, and trip reports from the founders building the future. The intelligence you can't get anywhere else.</p>
-            </div>
-            <div class="from-source-grid" id="from-source-grid"></div>
-            <div class="from-source-cta">
-                <p>Want access to all founder interviews and exclusive insights?</p>
-                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="from-source-btn">Join ROS Premium →</a>
-            </div>
-        </div>
-    </section>
 
-    <!-- Community Intelligence -->
-    <section class="community-section" id="community-intel">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">COMMUNITY</p>
-                <h2>Expert Takes & Watchlists</h2>
-                <p>Curated insights from analysts and investors. Build and share watchlists.</p>
-            </div>
-            <div class="community-grid">
-                <div class="community-card">
-                    <h4>Your Watchlist</h4>
-                    <p class="community-desc">Bookmark companies to build your watchlist, then share it.</p>
-                    <div class="watchlist-builder">
-                        <input type="text" id="watchlist-name" placeholder="Watchlist name..." class="memo-key-input">
-                        <div class="watchlist-companies" id="watchlist-companies"></div>
-                        <button class="portfolio-action-btn" id="watchlist-share">📋 Generate Shareable Link</button>
-                    </div>
-                </div>
-                <div class="community-card">
-                    <h4>Suggest a Correction</h4>
-                    <p class="community-desc">Found outdated data? Help us improve the database.</p>
-                    <button class="suggest-edit-btn" onclick="openPartnerPortal('correction')">✏️ Submit Correction</button>
-                </div>
-                <div class="community-card expert-takes-card">
-                    <h4>Expert Takes</h4>
-                    <p class="community-desc">200-word assessments from domain experts.</p>
-                    <div id="expert-takes-list"></div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Private Community — PILLAR 4 -->
     <section class="private-community-section" id="private-community">
@@ -1006,77 +882,7 @@
         </div>
     </section>
 
-    <!-- Unified Rankings Hub -->
-    <section class="leaderboard-section" id="leaderboard">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">RANKINGS</p>
-                <h2>Company Rankings</h2>
-                <p>The most valuable and capital-efficient frontier tech companies.</p>
-            </div>
-            <!-- Ranking Type Tabs -->
-            <div class="ranking-tabs">
-                <button class="ranking-tab active" data-ranking="valuation">By Valuation</button>
-                <button class="ranking-tab" data-ranking="efficiency">By Capital Efficiency</button>
-            </div>
-            <!-- Valuation View -->
-            <div class="ranking-view" id="valuation-view">
-                <div class="leaderboard-controls">
-                    <div class="leaderboard-filters">
-                        <select id="lb-sort" class="lb-filter-select">
-                            <option value="valuation">Sort: Valuation</option>
-                            <option value="score">Sort: Innovation Score</option>
-                            <option value="funding">Sort: Total Raised</option>
-                            <option value="name">Sort: A-Z</option>
-                        </select>
-                        <select id="lb-stage" class="lb-filter-select">
-                            <option value="all">Stage: All</option>
-                            <option value="private">Private Only</option>
-                            <option value="public">Public Only</option>
-                            <option value="pre-ipo">Pre-IPO</option>
-                        </select>
-                        <select id="lb-sector" class="lb-filter-select">
-                            <option value="all">Sector: All</option>
-                        </select>
-                        <select id="lb-count" class="lb-filter-select">
-                            <option value="25">Show: Top 25</option>
-                            <option value="50">Show: Top 50</option>
-                            <option value="100">Show: Top 100</option>
-                            <option value="all">Show: All</option>
-                        </select>
-                    </div>
-                    <div class="leaderboard-stats" id="lb-stats"></div>
-                </div>
-                <div class="leaderboard-grid" id="leaderboard-grid"></div>
-            </div>
-            <!-- Efficiency View -->
-            <div class="ranking-view" id="efficiency-view" style="display: none;">
-                <p class="efficiency-explainer">Capital Multiple = Valuation ÷ Total Raised. Higher is better.</p>
-                <div class="efficiency-controls">
-                    <div class="efficiency-filters">
-                        <select id="eff-sector" class="lb-filter-select">
-                            <option value="all">All Sectors</option>
-                        </select>
-                        <select id="eff-count" class="lb-filter-select">
-                            <option value="25">Top 25</option>
-                            <option value="50">Top 50</option>
-                            <option value="all">All</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="efficiency-grid" id="efficiency-grid"></div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Featured Innovators -->
-    <section class="featured-section" id="featured">
-        <div class="container">
-            <p class="section-eyebrow">SPOTLIGHT</p>
-            <h2 class="featured-title">Featured Innovators</h2>
-        </div>
-        <div class="featured-scroll" id="featured-scroll"></div>
-    </section>
 
     <!-- Movement Tracker -->
     <section class="movement-section" id="movements">
@@ -1088,7 +894,6 @@
             </div>
             <div class="movement-tabs">
                 <button class="movement-tab active" data-type="all">All</button>
-                <button class="movement-tab" data-type="funding">Recently Funded</button>
                 <button class="movement-tab" data-type="milestone">Milestones</button>
                 <button class="movement-tab" data-type="launch">Launches</button>
                 <button class="movement-tab" data-type="partnership">Partnerships</button>
@@ -1101,81 +906,6 @@
     <!-- Map Section Anchor (redirects to Discovery Hub) -->
     <div id="map" style="scroll-margin-top: 80px;"></div>
 
-    <!-- SMART SCREENER (S&P CapIQ-style) -->
-    <section class="screener-section" id="smart-screener">
-        <div class="container">
-            <div class="screener-container">
-                <div class="screener-header">
-                    <div class="screener-title">
-                        <h2>🎯 Smart Screener</h2>
-                        <span class="screener-pro-badge">PRO</span>
-                    </div>
-                    <div class="screener-actions">
-                        <button class="screener-btn secondary" onclick="clearScreenerFilters()">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
-                            Clear All
-                        </button>
-                        <button class="screener-btn primary" onclick="runScreener()">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5,3 19,12 5,21 5,3"/></svg>
-                            Run Screener
-                        </button>
-                    </div>
-                </div>
-                <div class="screener-filters">
-                    <div class="screener-filter">
-                        <label class="screener-filter-label">Sector</label>
-                        <select id="screener-sector" class="screener-filter-input"></select>
-                    </div>
-                    <div class="screener-filter">
-                        <label class="screener-filter-label">Funding Stage</label>
-                        <select id="screener-stage" class="screener-filter-input"></select>
-                    </div>
-                    <div class="screener-filter">
-                        <label class="screener-filter-label">Signal</label>
-                        <select class="screener-filter-input" onchange="if(this.value) addScreenerFilter('signal', 'Signal', this.value); this.value='';">
-                            <option value="">Any Signal</option>
-                            <option value="Hot">🔥 Hot</option>
-                            <option value="Rising">📈 Rising</option>
-                            <option value="Stable">💚 Stable</option>
-                        </select>
-                    </div>
-                    <div class="screener-filter">
-                        <label class="screener-filter-label">Location</label>
-                        <select class="screener-filter-input" onchange="if(this.value) addScreenerFilter('location', 'Location', this.value); this.value='';">
-                            <option value="">Any Location</option>
-                            <option value="California">California</option>
-                            <option value="Texas">Texas</option>
-                            <option value="New York">New York</option>
-                            <option value="Washington">Washington</option>
-                            <option value="Massachusetts">Massachusetts</option>
-                            <option value="Colorado">Colorado</option>
-                            <option value="International">International</option>
-                        </select>
-                    </div>
-                    <div class="screener-filter">
-                        <label class="screener-filter-label">Special Filters</label>
-                        <select class="screener-filter-input" onchange="if(this.value) addScreenerFilter(this.value, this.options[this.selectedIndex].text, 'Yes'); this.value='';">
-                            <option value="">Add Filter...</option>
-                            <option value="innovator50">Innovator 50</option>
-                            <option value="govContracts">Has Gov Contracts</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="screener-active-filters" style="display:none;"></div>
-                <div class="screener-results-header">
-                    <div class="screener-results-count"><strong>839</strong> companies match your criteria</div>
-                    <div class="screener-export-btns">
-                        <button class="screener-export-btn" onclick="exportCurrentView()">
-                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
-                            Export CSV
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- EXPERT INTELLIGENCE (Tegus-style) -->
     <!-- PRO WATCHLIST (Crunchbase-style Kanban) -->
     <section class="watchlist-section" id="pro-watchlist">
         <div class="container">
@@ -1232,12 +962,24 @@
                     <select id="stage-filter" class="filter-select">
                         <option value="all">All Stages</option>
                     </select>
+                    <select id="signal-filter" class="filter-select">
+                        <option value="all">All Signals</option>
+                        <option value="hot">🔥 Hot</option>
+                        <option value="rising">📈 Rising</option>
+                        <option value="established">💚 Established</option>
+                    </select>
+                    <select id="special-filter" class="filter-select">
+                        <option value="all">Special Filters</option>
+                        <option value="innovator50">🏆 ROS Innovator 50</option>
+                        <option value="govContracts">🏛️ Has Gov Contracts</option>
+                        <option value="recentFunding">💰 Recently Funded</option>
+                    </select>
                     <select id="sort-filter" class="filter-select">
+                        <option value="score">Sort: Highest Rated</option>
                         <option value="name">Sort: A-Z</option>
                         <option value="name-desc">Sort: Z-A</option>
                         <option value="sector">Sort: Sector</option>
                         <option value="signal">Sort: Signal Strength</option>
-                        <option value="score">Sort: Highest Rated</option>
                         <option value="recent">Sort: Recent Activity</option>
                         <option value="saved">Sort: Saved First</option>
                     </select>
