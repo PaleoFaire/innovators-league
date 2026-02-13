@@ -278,13 +278,81 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
     </div>
 </section>
 
+<!-- NEW VISUALIZATIONS -->
+
+<!-- Score Radar Charts -->
+<section class="viz-section" id="score-radar">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <p class="section-eyebrow">COMPANY PROFILES</p>
+            <h2>Innovation Score Radar</h2>
+            <p>6-dimensional company profiles — compare tech moat, momentum, team pedigree, market gravity, capital efficiency, and gov traction.</p>
+        </div>
+        <div class="radar-controls" style="display:flex;gap:16px;margin-bottom:24px;flex-wrap:wrap;">
+            <select id="radar-company-1" class="viz-select" style="flex:1;min-width:200px;padding:12px;background:var(--bg-t);color:var(--text);border:1px solid var(--border);border-radius:8px;font-size:14px;"></select>
+            <select id="radar-company-2" class="viz-select" style="flex:1;min-width:200px;padding:12px;background:var(--bg-t);color:var(--text);border:1px solid var(--border);border-radius:8px;font-size:14px;"></select>
+            <select id="radar-company-3" class="viz-select" style="flex:1;min-width:200px;padding:12px;background:var(--bg-t);color:var(--text);border:1px solid var(--border);border-radius:8px;font-size:14px;"></select>
+        </div>
+        <div id="radar-chart" style="width:100%;max-width:600px;margin:0 auto;aspect-ratio:1;position:relative;"></div>
+        <div id="radar-legend" style="display:flex;justify-content:center;gap:24px;margin-top:24px;flex-wrap:wrap;"></div>
+    </div>
+</section>
+
+<!-- Growth Signal Heat Timeline -->
+<section class="viz-section" id="signal-timeline" style="background:var(--bg-s);">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <p class="section-eyebrow">SIGNAL VELOCITY</p>
+            <h2>Growth Signal Timeline</h2>
+            <p>Recent momentum signals across the frontier tech landscape — hiring surges, contracts, breakthroughs, and more.</p>
+        </div>
+        <div id="signal-timeline-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;"></div>
+    </div>
+</section>
+
+<!-- Founder Mafia Networks -->
+<section class="viz-section" id="mafia-network">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <p class="section-eyebrow">TALENT NETWORKS</p>
+            <h2>Founder Mafia Networks</h2>
+            <p>Elite alumni networks producing disproportionate startup founders — SpaceX, Palantir, Google, and more.</p>
+        </div>
+        <div id="mafia-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px;"></div>
+    </div>
+</section>
+
+<!-- Revenue vs Valuation Efficiency -->
+<section class="viz-section" id="efficiency" style="background:var(--bg-s);">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <p class="section-eyebrow">CAPITAL EFFICIENCY</p>
+            <h2>Revenue vs Valuation</h2>
+            <p>Identifying over/undervalued companies based on revenue-to-valuation multiples. Higher efficiency = stronger business fundamentals.</p>
+        </div>
+        <div id="efficiency-chart" style="display:flex;flex-direction:column;gap:12px;"></div>
+    </div>
+</section>
+
+<!-- Government Opportunity Tracker -->
+<section class="viz-section" id="gov-opportunities">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <p class="section-eyebrow">GOVERNMENT DEMAND</p>
+            <h2>Open Opportunities</h2>
+            <p>Active RFPs, BAAs, and SBIRs from defense and government agencies — matched to relevant frontier tech companies.</p>
+        </div>
+        <div id="gov-tracker-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(350px,1fr));gap:16px;"></div>
+    </div>
+</section>
+
 <footer class="footer">
     <div class="container">
         <p>&copy; 2026 <a href="https://www.rationaloptimistsociety.com" target="_blank">Rational Optimist Society</a> &middot; <a href="index.html">Back to Database</a></p>
     </div>
 </footer>
 
-<script src="data.js?v=30"></script>
+<script src="data.js?v=32"></script>
 <script>
 // ─── COUNTRY HELPER (matches app.js logic) ───
 const INTL_CODES_VIZ = {
@@ -585,6 +653,240 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
     `;
     caBars.appendChild(row);
     setTimeout(() => { row.querySelector('.bar-fill').style.width = pct+'%'; }, 400);
+  });
+})();
+
+// ─── 7. SCORE RADAR CHARTS ───
+(function() {
+  if (typeof INNOVATOR_SCORES === 'undefined') return;
+
+  const dimensions = ['techMoat', 'momentum', 'teamPedigree', 'marketGravity', 'capitalEfficiency', 'govTraction'];
+  const dimLabels = { techMoat: 'Tech Moat', momentum: 'Momentum', teamPedigree: 'Team', marketGravity: 'Market', capitalEfficiency: 'Efficiency', govTraction: 'Gov Traction' };
+  const colors = ['#FF6B2C', '#3b82f6', '#22c55e'];
+
+  const companies = INNOVATOR_SCORES.filter(s => s.composite >= 70).slice(0, 20);
+
+  // Populate dropdowns
+  const selects = [document.getElementById('radar-company-1'), document.getElementById('radar-company-2'), document.getElementById('radar-company-3')];
+  selects.forEach((sel, i) => {
+    sel.innerHTML = '<option value="">Select Company ' + (i+1) + '</option>' +
+      companies.map(c => '<option value="' + c.company + '">' + c.company + ' (' + c.composite + ')</option>').join('');
+    if (companies[i]) sel.value = companies[i].company;
+    sel.addEventListener('change', renderRadar);
+  });
+
+  function renderRadar() {
+    const chart = document.getElementById('radar-chart');
+    const legend = document.getElementById('radar-legend');
+    const selected = selects.map(s => companies.find(c => c.company === s.value)).filter(Boolean);
+
+    if (!selected.length) {
+      chart.innerHTML = '<p style="text-align:center;color:var(--text-m);padding:60px;">Select companies to compare</p>';
+      legend.innerHTML = '';
+      return;
+    }
+
+    const size = Math.min(chart.clientWidth, 500);
+    const cx = size / 2, cy = size / 2, r = size * 0.38;
+
+    let svg = '<svg width="' + size + '" height="' + size + '" style="display:block;margin:0 auto;">';
+
+    // Draw grid circles
+    for (let i = 1; i <= 5; i++) {
+      const pr = r * (i / 5);
+      svg += '<circle cx="' + cx + '" cy="' + cy + '" r="' + pr + '" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>';
+    }
+
+    // Draw axes
+    dimensions.forEach((dim, i) => {
+      const angle = (Math.PI * 2 * i / dimensions.length) - Math.PI / 2;
+      const x2 = cx + r * Math.cos(angle);
+      const y2 = cy + r * Math.sin(angle);
+      svg += '<line x1="' + cx + '" y1="' + cy + '" x2="' + x2 + '" y2="' + y2 + '" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>';
+      const lx = cx + (r + 24) * Math.cos(angle);
+      const ly = cy + (r + 24) * Math.sin(angle);
+      svg += '<text x="' + lx + '" y="' + ly + '" text-anchor="middle" dominant-baseline="middle" fill="rgba(255,255,255,0.5)" font-size="11" font-family="Inter">' + dimLabels[dim] + '</text>';
+    });
+
+    // Draw company polygons
+    selected.forEach((comp, ci) => {
+      const points = dimensions.map((dim, i) => {
+        const val = comp[dim] || 5;
+        const pr = r * (val / 10);
+        const angle = (Math.PI * 2 * i / dimensions.length) - Math.PI / 2;
+        return (cx + pr * Math.cos(angle)) + ',' + (cy + pr * Math.sin(angle));
+      }).join(' ');
+      svg += '<polygon points="' + points + '" fill="' + colors[ci] + '22" stroke="' + colors[ci] + '" stroke-width="2"/>';
+
+      // Draw dots
+      dimensions.forEach((dim, i) => {
+        const val = comp[dim] || 5;
+        const pr = r * (val / 10);
+        const angle = (Math.PI * 2 * i / dimensions.length) - Math.PI / 2;
+        const px = cx + pr * Math.cos(angle);
+        const py = cy + pr * Math.sin(angle);
+        svg += '<circle cx="' + px + '" cy="' + py + '" r="4" fill="' + colors[ci] + '"/>';
+      });
+    });
+
+    svg += '</svg>';
+    chart.innerHTML = svg;
+
+    // Legend
+    legend.innerHTML = selected.map((c, i) =>
+      '<div style="display:flex;align-items:center;gap:8px;"><span style="width:16px;height:16px;background:' + colors[i] + ';border-radius:50%;"></span><span style="font-size:14px;font-weight:600;">' + c.company + '</span><span style="font-size:12px;color:var(--text-m);">(' + c.composite + ')</span></div>'
+    ).join('');
+  }
+
+  renderRadar();
+})();
+
+// ─── 8. GROWTH SIGNAL TIMELINE ───
+(function() {
+  if (typeof GROWTH_SIGNALS === 'undefined') return;
+
+  const grid = document.getElementById('signal-timeline-grid');
+  const signalIcons = {
+    hiring_surge: '👥', government_contract: '🏛️', revenue_acceleration: '💰',
+    valuation_jump: '📈', facility_expansion: '🏗️', product_launch: '🚀',
+    technical_breakthrough: '⚡', regulatory_progress: '✅', customer_win: '🎯',
+    market_expansion: '🌍', partnership: '🤝', discovery: '🔬'
+  };
+
+  const signals = GROWTH_SIGNALS.slice(0, 12);
+
+  signals.forEach(sig => {
+    const card = document.createElement('div');
+    card.style.cssText = 'background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;transition:border-color .2s;';
+    card.onmouseenter = () => card.style.borderColor = 'var(--border-hover)';
+    card.onmouseleave = () => card.style.borderColor = 'var(--border)';
+
+    const strengthColor = sig.strength === 'strong' ? '#22c55e' : sig.strength === 'medium' ? '#f59e0b' : '#6b7280';
+
+    card.innerHTML = `
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+        <span style="font-size:24px;">${signalIcons[sig.signal] || '📊'}</span>
+        <span style="font-size:11px;padding:4px 10px;background:${strengthColor}22;color:${strengthColor};border-radius:20px;font-weight:600;text-transform:uppercase;">${sig.strength}</span>
+      </div>
+      <div style="font-size:16px;font-weight:700;color:var(--text);margin-bottom:6px;">${sig.company}</div>
+      <div style="font-size:13px;color:var(--text-s);margin-bottom:10px;">${sig.detail}</div>
+      <div style="font-size:11px;color:var(--text-m);">${sig.date}</div>
+    `;
+    grid.appendChild(card);
+  });
+})();
+
+// ─── 9. FOUNDER MAFIA NETWORKS ───
+(function() {
+  if (typeof FOUNDER_MAFIAS === 'undefined') return;
+
+  const grid = document.getElementById('mafia-grid');
+  const mafiaColors = { 'SpaceX Mafia': '#FF6B2C', 'Palantir Mafia': '#8b5cf6', 'PayPal Mafia': '#3b82f6', 'Google Mafia': '#22c55e', 'Stripe Mafia': '#6366f1', 'Meta Mafia': '#0ea5e9' };
+
+  Object.entries(FOUNDER_MAFIAS).forEach(([name, data]) => {
+    const color = mafiaColors[name] || '#f59e0b';
+    const card = document.createElement('div');
+    card.style.cssText = 'background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:24px;';
+
+    card.innerHTML = `
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+        <div style="width:40px;height:40px;background:${color}22;border-radius:50%;display:flex;align-items:center;justify-content:center;">
+          <span style="font-size:20px;">${data.icon || '🚀'}</span>
+        </div>
+        <div>
+          <div style="font-size:16px;font-weight:700;color:var(--text);">${name}</div>
+          <div style="font-size:12px;color:var(--text-m);">${data.description?.slice(0,50) || 'Elite founder network'}...</div>
+        </div>
+      </div>
+      <div style="font-size:11px;color:var(--text-m);margin-bottom:12px;text-transform:uppercase;letter-spacing:1px;">Companies Founded:</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;">
+        ${(data.companies || []).slice(0, 6).map(c =>
+          '<span style="font-size:12px;padding:4px 10px;background:' + color + '15;color:' + color + ';border-radius:16px;font-weight:500;">' + c.company + '</span>'
+        ).join('')}
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+})();
+
+// ─── 10. REVENUE VS VALUATION EFFICIENCY ───
+(function() {
+  if (typeof REVENUE_INTEL === 'undefined') return;
+
+  const chart = document.getElementById('efficiency-chart');
+
+  const data = REVENUE_INTEL.map(r => {
+    const company = COMPANIES.find(c => c.name === r.company);
+    const valNum = company?.valuation ? parseVal(company.valuation) : 0;
+    const revStr = r.revenue.replace(/[^0-9.BMK]/g, '');
+    let revNum = parseFloat(revStr.replace(/[^0-9.]/g, '')) || 0;
+    if (revStr.includes('B')) revNum *= 1;
+    else if (revStr.includes('M')) revNum /= 1000;
+
+    return {
+      company: r.company,
+      revenue: r.revenue,
+      valuation: company?.valuation || 'N/A',
+      growth: r.growth,
+      valNum,
+      revNum,
+      efficiency: valNum > 0 ? (revNum / valNum * 100).toFixed(1) : 0
+    };
+  }).filter(d => d.valNum > 0 && d.revNum > 0).sort((a, b) => b.efficiency - a.efficiency);
+
+  const maxEff = Math.max(...data.map(d => parseFloat(d.efficiency)));
+
+  data.forEach(d => {
+    const pct = (parseFloat(d.efficiency) / maxEff * 100);
+    const effColor = parseFloat(d.efficiency) > 30 ? '#22c55e' : parseFloat(d.efficiency) > 15 ? '#f59e0b' : '#ef4444';
+
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex;align-items:center;gap:16px;padding:12px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;';
+    row.innerHTML = `
+      <div style="width:180px;flex-shrink:0;">
+        <div style="font-size:14px;font-weight:600;color:var(--text);">${d.company}</div>
+        <div style="font-size:11px;color:var(--text-m);">${d.revenue} rev / ${d.valuation} val</div>
+      </div>
+      <div style="flex:1;height:24px;background:var(--bg-t);border-radius:6px;overflow:hidden;">
+        <div style="height:100%;width:${pct}%;background:${effColor};border-radius:6px;transition:width .6s;"></div>
+      </div>
+      <div style="width:80px;text-align:right;">
+        <div style="font-size:16px;font-weight:700;color:${effColor};">${d.efficiency}%</div>
+        <div style="font-size:10px;color:var(--text-m);">${d.growth}</div>
+      </div>
+    `;
+    chart.appendChild(row);
+  });
+})();
+
+// ─── 11. GOVERNMENT OPPORTUNITY TRACKER ───
+(function() {
+  if (typeof GOV_DEMAND_TRACKER === 'undefined') return;
+
+  const grid = document.getElementById('gov-tracker-grid');
+  const agencyColors = { 'DoD': '#FF6B2C', 'DARPA': '#8b5cf6', 'NASA': '#3b82f6', 'DOE': '#22c55e', 'Air Force': '#60a5fa', 'Navy': '#0ea5e9', 'Army': '#84cc16' };
+
+  GOV_DEMAND_TRACKER.slice(0, 8).forEach(opp => {
+    const color = agencyColors[opp.agency] || '#f59e0b';
+    const priorityColor = opp.priority === 'high' ? '#ef4444' : opp.priority === 'medium' ? '#f59e0b' : '#22c55e';
+
+    const card = document.createElement('div');
+    card.style.cssText = 'background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;';
+
+    card.innerHTML = `
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+        <span style="font-size:12px;padding:4px 10px;background:${color}22;color:${color};border-radius:4px;font-weight:600;">${opp.agency}</span>
+        <span style="font-size:11px;padding:3px 8px;background:${priorityColor}22;color:${priorityColor};border-radius:12px;font-weight:500;">${opp.priority} priority</span>
+      </div>
+      <div style="font-size:15px;font-weight:700;color:var(--text);margin-bottom:8px;line-height:1.3;">${opp.title}</div>
+      <div style="font-size:12px;color:var(--text-s);margin-bottom:12px;">${opp.description?.slice(0, 100) || 'Government opportunity'}...</div>
+      <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-m);">
+        <span>📋 ${opp.type}</span>
+        <span>💰 ${opp.value || 'TBD'}</span>
+        <span>⏰ ${opp.deadline || 'Open'}</span>
+      </div>
+    `;
+    grid.appendChild(card);
   });
 })();
 

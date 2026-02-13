@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=31">
+    <link rel="stylesheet" href="styles.css?v=32">
 </head>
 <body>
     <!-- Navigation — 5 Key Tabs -->
@@ -31,7 +31,7 @@
         <!-- 5 Key Tabs Navigation -->
         <div class="nav-links">
             <a href="#discovery-hub" class="nav-link">🗺️ Map</a>
-            <a href="#discovery-hub" onclick="switchDiscoveryTab('database'); return false;" class="nav-link">📊 Database</a>
+            <a href="#companies" class="nav-link">📊 Database</a>
             <a href="#innovator50" class="nav-link">🏆 ROS 50</a>
             <a href="visualizations.html" class="nav-link">📈 Insights</a>
             <a href="investors.html" class="nav-link">💰 Investors</a>
@@ -86,22 +86,17 @@
          TIER 1: PRIMARY DISCOVERY — The first thing users want to do
          ═══════════════════════════════════════════════════════════════════════ -->
 
-    <!-- Discovery Hub: Map + Database Tabs -->
+    <!-- Innovation Map Section -->
     <section id="discovery-hub" class="discovery-hub-section">
         <div class="container">
-            <div class="discovery-tabs">
-                <button class="discovery-tab active" data-view="map">
-                    <span class="tab-icon">🗺️</span>
-                    <span class="tab-label">Interactive Map</span>
-                </button>
-                <button class="discovery-tab" data-view="database">
-                    <span class="tab-icon">📊</span>
-                    <span class="tab-label">Company Database</span>
-                </button>
+            <div class="section-header">
+                <p class="section-eyebrow">GLOBAL INTELLIGENCE</p>
+                <h2>Innovation Map</h2>
+                <p>460+ frontier tech companies across defense, space, energy, biotech, and robotics — mapped worldwide.</p>
             </div>
         </div>
 
-        <!-- Map View (Default) -->
+        <!-- Map View -->
         <div class="discovery-view active" id="discovery-map-view">
             <div id="innovators-map-primary"></div>
             <div class="map-overlay-stats">
@@ -115,41 +110,75 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <!-- Database View -->
-        <div class="discovery-view" id="discovery-database-view" style="display: none;">
-            <div class="container">
-                <!-- Filters (inline) -->
-                <div class="filter-bar-inline">
-                    <div class="search-box-inline">
-                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                        <input type="text" id="discovery-search" placeholder="Search companies, founders, technologies...">
-                    </div>
-                    <select id="discovery-sector-filter" class="filter-select-inline">
+    <!-- Company Database Section (Full-Featured) -->
+    <section id="companies" class="section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">INTELLIGENCE DATABASE</p>
+                <h2>Company Database</h2>
+                <p id="results-count"></p>
+            </div>
+
+            <!-- Filters -->
+            <div class="filter-bar">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="text" id="search-input" placeholder="Search companies, founders, technologies...">
+                    <span class="keyboard-hint">/</span>
+                </div>
+                <div class="filter-dropdowns">
+                    <select id="sector-filter" class="filter-select">
                         <option value="all">All Sectors</option>
                     </select>
-                    <select id="discovery-stage-filter" class="filter-select-inline">
+                    <select id="country-filter" class="filter-select">
+                        <option value="all">All Countries</option>
+                    </select>
+                    <div id="state-filter-container" class="state-filter-container">
+                        <select id="state-filter" class="filter-select">
+                            <option value="all">All States</option>
+                        </select>
+                    </div>
+                    <select id="stage-filter" class="filter-select">
                         <option value="all">All Stages</option>
                     </select>
-                    <select id="discovery-sort" class="filter-select-inline">
-                        <option value="score">Highest Rated</option>
-                        <option value="name">A-Z</option>
-                        <option value="recent">Recent Activity</option>
+                    <select id="signal-filter" class="filter-select">
+                        <option value="all">All Signals</option>
+                        <option value="hot">🔥 Hot</option>
+                        <option value="rising">📈 Rising</option>
+                        <option value="established">💚 Established</option>
                     </select>
-                </div>
-
-                <!-- Sector Chips -->
-                <div class="filter-chips-inline" id="discovery-chips"></div>
-
-                <!-- Company Grid -->
-                <div class="company-grid-inline" id="discovery-grid"></div>
-
-                <div class="discovery-load-more">
-                    <button class="load-more-btn" id="discovery-load-more">Load More Companies</button>
+                    <select id="special-filter" class="filter-select">
+                        <option value="all">Special Filters</option>
+                        <option value="innovator50">🏆 ROS Innovator 50</option>
+                        <option value="govContracts">🏛️ Has Gov Contracts</option>
+                        <option value="recentFunding">💰 Recently Funded</option>
+                    </select>
+                    <select id="sort-filter" class="filter-select">
+                        <option value="score">Sort: Highest Rated</option>
+                        <option value="name">Sort: A-Z</option>
+                        <option value="name-desc">Sort: Z-A</option>
+                        <option value="sector">Sort: Sector</option>
+                        <option value="signal">Sort: Signal Strength</option>
+                        <option value="recent">Sort: Recent Activity</option>
+                        <option value="saved">Sort: Saved First</option>
+                    </select>
+                    <button onclick="exportWatchlistCSV()" class="filter-select" style="cursor:pointer; background:var(--bg-tertiary); color:var(--text-secondary); border:1px solid var(--border); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif;">Export CSV</button>
                 </div>
             </div>
-        </div>
 
+            <!-- Sector Chips (quick filter) -->
+            <div class="filter-chips" id="filter-chips">
+                <button class="chip active" data-sector="all">All</button>
+            </div>
+
+            <!-- Company Grid -->
+            <div class="company-grid" id="company-grid"></div>
+            <div class="no-results" id="no-results" style="display:none;">
+                <p>No companies match your filters. Try adjusting your search.</p>
+            </div>
+        </div>
     </section>
 
     <!-- Value Proposition Banner (Slimmer) -->
@@ -249,7 +278,6 @@
             <div class="capital-panel" id="deals-panel" data-panel="deals">
                 <div class="deal-filter-bar">
                     <button class="deal-filter active" data-filter="all">All Deals</button>
-                    <button class="deal-filter" data-filter="lead">Lead Investors Only</button>
                 </div>
                 <div class="deal-grid" id="deal-grid"></div>
             </div>
@@ -439,13 +467,13 @@
             <div class="section-header">
                 <p class="section-eyebrow">REAL-TIME INTELLIGENCE</p>
                 <h2>Intelligence Hub</h2>
-                <p>Live alerts, alternative signals, and breaking news — all the intelligence you need in one place.</p>
+                <p>Live alerts, growth signals, news, and movement tracking — all the intelligence you need in one place.</p>
             </div>
             <!-- Intelligence Hub Tabs -->
             <div class="intel-hub-tabs">
                 <button class="intel-hub-tab active" data-intel="alerts">🔔 Alerts</button>
-                <button class="intel-hub-tab" data-intel="signals">📊 Signal Strength</button>
-                <button class="intel-hub-tab" data-intel="news">📰 News Feed</button>
+                <button class="intel-hub-tab" data-intel="signals">📊 Signals & News</button>
+                <button class="intel-hub-tab" data-intel="movements">🔄 Movement Tracker</button>
             </div>
             <!-- Alerts Panel -->
             <div class="intel-hub-panel" id="intel-alerts-panel">
@@ -461,7 +489,7 @@
                 </div>
                 <div class="alerts-feed" id="alerts-feed"></div>
             </div>
-            <!-- Signals Panel -->
+            <!-- Signals & News Panel (Combined) -->
             <div class="intel-hub-panel" id="intel-signals-panel" style="display: none;">
                 <p class="panel-explainer">Signal Strength aggregates hiring velocity, web traffic, news sentiment, and GitHub activity. Higher = stronger momentum.</p>
                 <div class="alt-data-controls">
@@ -470,12 +498,6 @@
                         <option value="hiring">Sort: Hiring Velocity</option>
                         <option value="name">Sort: A-Z</option>
                     </select>
-                </div>
-                <div class="alt-data-grid" id="alt-data-grid"></div>
-            </div>
-            <!-- News Panel -->
-            <div class="intel-hub-panel" id="intel-news-panel" style="display: none;">
-                <div class="feed-controls">
                     <select id="feed-category" class="lb-filter-select">
                         <option value="all">All Categories</option>
                         <option value="funding">Funding</option>
@@ -487,7 +509,19 @@
                         <option value="all">All Sectors</option>
                     </select>
                 </div>
-                <div class="feed-panel" id="feed-news-panel"></div>
+                <div class="alt-data-grid" id="alt-data-grid"></div>
+                <div class="feed-panel" id="feed-news-panel" style="margin-top: 24px;"></div>
+            </div>
+            <!-- Movement Tracker Panel -->
+            <div class="intel-hub-panel" id="intel-movements-panel" style="display: none;">
+                <div class="movement-tabs">
+                    <button class="movement-tab active" data-type="all">All</button>
+                    <button class="movement-tab" data-type="milestone">Milestones</button>
+                    <button class="movement-tab" data-type="launch">Launches</button>
+                    <button class="movement-tab" data-type="partnership">Partnerships</button>
+                    <button class="movement-tab" data-type="new">New Additions</button>
+                </div>
+                <div class="movement-grid" id="movement-grid"></div>
             </div>
             <!-- Subscribe CTA -->
             <div class="alerts-subscribe">
@@ -866,24 +900,6 @@
 
 
     <!-- Movement Tracker -->
-    <section class="movement-section" id="movements">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">WEEKLY INTELLIGENCE</p>
-                <h2>Movement Tracker</h2>
-                <p>Real-time signals across the frontier tech landscape.</p>
-            </div>
-            <div class="movement-tabs">
-                <button class="movement-tab active" data-type="all">All</button>
-                <button class="movement-tab" data-type="milestone">Milestones</button>
-                <button class="movement-tab" data-type="launch">Launches</button>
-                <button class="movement-tab" data-type="partnership">Partnerships</button>
-                <button class="movement-tab" data-type="new">New Additions</button>
-            </div>
-            <div class="movement-grid" id="movement-grid"></div>
-        </div>
-    </section>
-
     <!-- Map Section Anchor (redirects to Discovery Hub) -->
     <div id="map" style="scroll-margin-top: 80px;"></div>
 
@@ -913,74 +929,6 @@
     </section>
 
     <!-- Database Section -->
-    <section id="companies" class="section">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">INTELLIGENCE DATABASE</p>
-                <h2>Company Database</h2>
-                <p id="results-count"></p>
-            </div>
-
-            <!-- Filters -->
-            <div class="filter-bar">
-                <div class="search-box">
-                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                    <input type="text" id="search-input" placeholder="Search companies, founders, technologies...">
-                    <span class="keyboard-hint">/</span>
-                </div>
-                <div class="filter-dropdowns">
-                    <select id="sector-filter" class="filter-select">
-                        <option value="all">All Sectors</option>
-                    </select>
-                    <select id="country-filter" class="filter-select">
-                        <option value="all">All Countries</option>
-                    </select>
-                    <div id="state-filter-container" class="state-filter-container">
-                        <select id="state-filter" class="filter-select">
-                            <option value="all">All States</option>
-                        </select>
-                    </div>
-                    <select id="stage-filter" class="filter-select">
-                        <option value="all">All Stages</option>
-                    </select>
-                    <select id="signal-filter" class="filter-select">
-                        <option value="all">All Signals</option>
-                        <option value="hot">🔥 Hot</option>
-                        <option value="rising">📈 Rising</option>
-                        <option value="established">💚 Established</option>
-                    </select>
-                    <select id="special-filter" class="filter-select">
-                        <option value="all">Special Filters</option>
-                        <option value="innovator50">🏆 ROS Innovator 50</option>
-                        <option value="govContracts">🏛️ Has Gov Contracts</option>
-                        <option value="recentFunding">💰 Recently Funded</option>
-                    </select>
-                    <select id="sort-filter" class="filter-select">
-                        <option value="score">Sort: Highest Rated</option>
-                        <option value="name">Sort: A-Z</option>
-                        <option value="name-desc">Sort: Z-A</option>
-                        <option value="sector">Sort: Sector</option>
-                        <option value="signal">Sort: Signal Strength</option>
-                        <option value="recent">Sort: Recent Activity</option>
-                        <option value="saved">Sort: Saved First</option>
-                    </select>
-                    <button onclick="exportWatchlistCSV()" class="filter-select" style="cursor:pointer; background:var(--bg-tertiary); color:var(--text-secondary); border:1px solid var(--border); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif;">Export CSV</button>
-                </div>
-            </div>
-
-            <!-- Sector Chips (quick filter) -->
-            <div class="filter-chips" id="filter-chips">
-                <button class="chip active" data-sector="all">All</button>
-            </div>
-
-            <!-- Company Grid -->
-            <div class="company-grid" id="company-grid"></div>
-            <div class="no-results" id="no-results" style="display:none;">
-                <p>No companies match your filters. Try adjusting your search.</p>
-            </div>
-        </div>
-    </section>
-
     <!-- Sectors Overview -->
     <section id="sectors" class="section sectors-section">
         <div class="container">
@@ -1160,6 +1108,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <script src="data.js?v=65"></script>
-    <script src="app.js?v=66"></script>
+    <script src="app.js?v=67"></script>
 </body>
 </html>

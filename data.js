@@ -15813,6 +15813,358 @@ const HISTORICAL_TRACKING = {
       { date: "2024-01", count: 1800 },
       { date: "2025-01", count: 2200 }
     ]
+  },
+  "Palantir": {
+    valuations: [
+      { date: "2015-01", value: 20.0, event: "Private" },
+      { date: "2018-01", value: 15.0, event: "Down Round" },
+      { date: "2020-09", value: 22.0, event: "DPO" },
+      { date: "2023-01", value: 40.0, event: "AI Rally" },
+      { date: "2024-06", value: 65.0, event: "Defense Growth" },
+      { date: "2025-01", value: 200.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2010-01", cumulative: 0.5, round: "Series C" },
+      { date: "2013-01", cumulative: 1.2, round: "Series E" },
+      { date: "2015-01", cumulative: 2.0, round: "Series G" },
+      { date: "2018-01", cumulative: 2.5, round: "Series H" }
+    ],
+    headcount: [
+      { date: "2015-01", count: 1500 },
+      { date: "2018-01", count: 2500 },
+      { date: "2020-01", count: 2800 },
+      { date: "2022-01", count: 3500 },
+      { date: "2024-01", count: 4000 },
+      { date: "2025-01", count: 4500 }
+    ]
+  },
+  "OpenAI": {
+    valuations: [
+      { date: "2019-07", value: 1.0, event: "Microsoft Investment" },
+      { date: "2021-01", value: 14.0, event: "Growth Round" },
+      { date: "2023-01", value: 29.0, event: "Post-ChatGPT" },
+      { date: "2023-10", value: 86.0, event: "Tender" },
+      { date: "2024-10", value: 157.0, event: "Series X" },
+      { date: "2025-01", value: 300.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2019-07", cumulative: 1.0, round: "Microsoft" },
+      { date: "2021-01", cumulative: 2.0, round: "Growth" },
+      { date: "2023-01", cumulative: 13.0, round: "Microsoft II" },
+      { date: "2024-10", cumulative: 19.6, round: "Series X" }
+    ],
+    headcount: [
+      { date: "2020-01", count: 120 },
+      { date: "2022-01", count: 375 },
+      { date: "2023-01", count: 600 },
+      { date: "2024-01", count: 1200 },
+      { date: "2025-01", count: 2000 }
+    ]
+  },
+  "Anthropic": {
+    valuations: [
+      { date: "2021-05", value: 0.5, event: "Seed" },
+      { date: "2022-04", value: 4.1, event: "Series B" },
+      { date: "2023-05", value: 4.5, event: "Google Investment" },
+      { date: "2023-10", value: 20.0, event: "Amazon Deal" },
+      { date: "2024-09", value: 60.0, event: "Growth" },
+      { date: "2025-01", value: 183.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2021-05", cumulative: 0.124, round: "Seed" },
+      { date: "2022-04", cumulative: 0.58, round: "Series B" },
+      { date: "2023-05", cumulative: 1.3, round: "Google" },
+      { date: "2023-10", cumulative: 5.3, round: "Amazon" },
+      { date: "2024-09", cumulative: 9.7, round: "Series D" }
+    ],
+    headcount: [
+      { date: "2021-01", count: 50 },
+      { date: "2022-01", count: 150 },
+      { date: "2023-01", count: 350 },
+      { date: "2024-01", count: 600 },
+      { date: "2025-01", count: 1000 }
+    ]
+  },
+  "Figure AI": {
+    valuations: [
+      { date: "2023-03", value: 0.5, event: "Series A" },
+      { date: "2024-02", value: 2.6, event: "Series B" },
+      { date: "2024-08", value: 10.0, event: "Growth" },
+      { date: "2025-01", value: 39.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2023-03", cumulative: 0.07, round: "Series A" },
+      { date: "2024-02", cumulative: 0.75, round: "Series B" },
+      { date: "2024-08", cumulative: 1.5, round: "Growth" }
+    ],
+    headcount: [
+      { date: "2023-01", count: 20 },
+      { date: "2024-01", count: 150 },
+      { date: "2025-01", count: 450 }
+    ]
+  },
+  "Helion": {
+    valuations: [
+      { date: "2021-11", value: 3.0, event: "Series E" },
+      { date: "2023-05", value: 5.0, event: "Microsoft PPA" },
+      { date: "2024-06", value: 5.4, event: "Current" }
+    ],
+    funding: [
+      { date: "2015-01", cumulative: 0.012, round: "Seed" },
+      { date: "2018-01", cumulative: 0.04, round: "Series A" },
+      { date: "2021-11", cumulative: 0.58, round: "Series E" },
+      { date: "2024-01", cumulative: 0.6, round: "Grants" }
+    ],
+    headcount: [
+      { date: "2020-01", count: 50 },
+      { date: "2022-01", count: 150 },
+      { date: "2024-01", count: 300 },
+      { date: "2025-01", count: 400 }
+    ]
+  },
+  "Commonwealth Fusion Systems": {
+    valuations: [
+      { date: "2021-12", value: 5.0, event: "Series B" },
+      { date: "2023-06", value: 8.0, event: "Growth" },
+      { date: "2024-12", value: 12.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2018-01", cumulative: 0.115, round: "Seed" },
+      { date: "2021-12", cumulative: 2.0, round: "Series B" },
+      { date: "2024-01", cumulative: 2.2, round: "DOE Grant" }
+    ],
+    headcount: [
+      { date: "2019-01", count: 100 },
+      { date: "2021-01", count: 250 },
+      { date: "2023-01", count: 500 },
+      { date: "2025-01", count: 700 }
+    ]
+  },
+  "Boom Supersonic": {
+    valuations: [
+      { date: "2020-09", value: 1.0, event: "Series A" },
+      { date: "2022-01", value: 1.5, event: "Series B" },
+      { date: "2024-03", value: 4.0, event: "Series C" }
+    ],
+    funding: [
+      { date: "2017-01", cumulative: 0.051, round: "Seed" },
+      { date: "2020-09", cumulative: 0.27, round: "Series A" },
+      { date: "2022-01", cumulative: 0.47, round: "Series B" },
+      { date: "2024-03", cumulative: 0.77, round: "Series C" }
+    ],
+    headcount: [
+      { date: "2018-01", count: 50 },
+      { date: "2020-01", count: 150 },
+      { date: "2022-01", count: 300 },
+      { date: "2024-01", count: 500 },
+      { date: "2025-01", count: 600 }
+    ]
+  },
+  "Hadrian": {
+    valuations: [
+      { date: "2022-01", value: 0.2, event: "Seed" },
+      { date: "2023-06", value: 0.6, event: "Series A" },
+      { date: "2024-08", value: 1.6, event: "Series B" }
+    ],
+    funding: [
+      { date: "2022-01", cumulative: 0.015, round: "Seed" },
+      { date: "2023-06", cumulative: 0.055, round: "Series A" },
+      { date: "2024-08", cumulative: 0.245, round: "Series B" }
+    ],
+    headcount: [
+      { date: "2022-01", count: 20 },
+      { date: "2023-01", count: 100 },
+      { date: "2024-01", count: 250 },
+      { date: "2025-01", count: 400 }
+    ]
+  },
+  "Saronic": {
+    valuations: [
+      { date: "2022-06", value: 0.1, event: "Seed" },
+      { date: "2023-11", value: 0.8, event: "Series A" },
+      { date: "2024-09", value: 4.0, event: "Series B" }
+    ],
+    funding: [
+      { date: "2022-06", cumulative: 0.012, round: "Seed" },
+      { date: "2023-11", cumulative: 0.067, round: "Series A" },
+      { date: "2024-09", cumulative: 0.242, round: "Series B" }
+    ],
+    headcount: [
+      { date: "2022-06", count: 10 },
+      { date: "2023-06", count: 50 },
+      { date: "2024-06", count: 150 },
+      { date: "2025-01", count: 250 }
+    ]
+  },
+  "Scale AI": {
+    valuations: [
+      { date: "2019-08", value: 1.0, event: "Series B" },
+      { date: "2021-04", value: 7.3, event: "Series E" },
+      { date: "2024-05", value: 14.0, event: "Series F" },
+      { date: "2025-01", value: 29.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2018-01", cumulative: 0.018, round: "Seed" },
+      { date: "2019-08", cumulative: 0.122, round: "Series B" },
+      { date: "2021-04", cumulative: 0.477, round: "Series E" },
+      { date: "2024-05", cumulative: 1.5, round: "Series F" }
+    ],
+    headcount: [
+      { date: "2019-01", count: 100 },
+      { date: "2021-01", count: 400 },
+      { date: "2023-01", count: 600 },
+      { date: "2024-01", count: 700 },
+      { date: "2025-01", count: 800 }
+    ]
+  },
+  "Cerebras": {
+    valuations: [
+      { date: "2019-11", value: 1.6, event: "Series C" },
+      { date: "2021-11", value: 4.0, event: "Series F" },
+      { date: "2024-08", value: 8.1, event: "Current" }
+    ],
+    funding: [
+      { date: "2017-01", cumulative: 0.027, round: "Series A" },
+      { date: "2019-11", cumulative: 0.475, round: "Series C" },
+      { date: "2021-11", cumulative: 0.72, round: "Series F" }
+    ],
+    headcount: [
+      { date: "2018-01", count: 50 },
+      { date: "2020-01", count: 200 },
+      { date: "2022-01", count: 350 },
+      { date: "2024-01", count: 500 },
+      { date: "2025-01", count: 600 }
+    ]
+  },
+  "Applied Intuition": {
+    valuations: [
+      { date: "2020-08", value: 1.25, event: "Series B" },
+      { date: "2021-10", value: 3.6, event: "Series C" },
+      { date: "2024-01", value: 6.0, event: "Series D" },
+      { date: "2025-01", value: 15.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2018-01", cumulative: 0.022, round: "Seed" },
+      { date: "2020-08", cumulative: 0.112, round: "Series B" },
+      { date: "2021-10", cumulative: 0.262, round: "Series C" },
+      { date: "2024-01", cumulative: 0.412, round: "Series D" }
+    ],
+    headcount: [
+      { date: "2019-01", count: 30 },
+      { date: "2021-01", count: 150 },
+      { date: "2023-01", count: 400 },
+      { date: "2025-01", count: 700 }
+    ]
+  },
+  "Fervo Energy": {
+    valuations: [
+      { date: "2022-08", value: 0.4, event: "Series B" },
+      { date: "2024-01", value: 1.5, event: "Series C" },
+      { date: "2025-01", value: 3.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2020-01", cumulative: 0.028, round: "Seed" },
+      { date: "2022-08", cumulative: 0.166, round: "Series B" },
+      { date: "2024-01", cumulative: 0.486, round: "Series C" }
+    ],
+    headcount: [
+      { date: "2020-01", count: 15 },
+      { date: "2022-01", count: 80 },
+      { date: "2024-01", count: 200 },
+      { date: "2025-01", count: 350 }
+    ]
+  },
+  "Redwood Materials": {
+    valuations: [
+      { date: "2021-07", value: 3.7, event: "Series C" },
+      { date: "2023-02", value: 5.0, event: "Series D" },
+      { date: "2025-01", value: 7.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2020-01", cumulative: 0.04, round: "Series A" },
+      { date: "2021-07", cumulative: 0.79, round: "Series C" },
+      { date: "2023-02", cumulative: 1.79, round: "Series D" }
+    ],
+    headcount: [
+      { date: "2020-01", count: 50 },
+      { date: "2022-01", count: 400 },
+      { date: "2024-01", count: 1200 },
+      { date: "2025-01", count: 1800 }
+    ]
+  },
+  "Joby Aviation": {
+    valuations: [
+      { date: "2020-01", value: 2.6, event: "Series C" },
+      { date: "2021-08", value: 6.6, event: "SPAC" },
+      { date: "2024-01", value: 4.5, event: "Public" },
+      { date: "2025-01", value: 8.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2018-01", cumulative: 0.13, round: "Series B" },
+      { date: "2020-01", cumulative: 0.72, round: "Series C" },
+      { date: "2021-08", cumulative: 1.6, round: "SPAC" }
+    ],
+    headcount: [
+      { date: "2019-01", count: 200 },
+      { date: "2021-01", count: 700 },
+      { date: "2023-01", count: 1400 },
+      { date: "2025-01", count: 2000 }
+    ]
+  },
+  "Zipline": {
+    valuations: [
+      { date: "2019-05", value: 1.2, event: "Series C" },
+      { date: "2021-07", value: 2.75, event: "Series E" },
+      { date: "2024-01", value: 4.5, event: "Current" }
+    ],
+    funding: [
+      { date: "2016-01", cumulative: 0.025, round: "Series A" },
+      { date: "2019-05", cumulative: 0.24, round: "Series C" },
+      { date: "2021-07", cumulative: 0.64, round: "Series E" }
+    ],
+    headcount: [
+      { date: "2018-01", count: 200 },
+      { date: "2020-01", count: 500 },
+      { date: "2022-01", count: 1200 },
+      { date: "2024-01", count: 2500 },
+      { date: "2025-01", count: 3500 }
+    ]
+  },
+  "Waymo": {
+    valuations: [
+      { date: "2020-03", value: 30.0, event: "First External" },
+      { date: "2021-06", value: 30.0, event: "Series A" },
+      { date: "2024-07", value: 45.0, event: "Series B" },
+      { date: "2025-01", value: 126.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2020-03", cumulative: 2.25, round: "First External" },
+      { date: "2021-06", cumulative: 4.75, round: "Series A" },
+      { date: "2024-07", cumulative: 10.25, round: "Series B" }
+    ],
+    headcount: [
+      { date: "2019-01", count: 1500 },
+      { date: "2021-01", count: 2000 },
+      { date: "2023-01", count: 2500 },
+      { date: "2025-01", count: 3000 }
+    ]
+  },
+  "KoBold Metals": {
+    valuations: [
+      { date: "2022-02", value: 1.0, event: "Series B" },
+      { date: "2024-06", value: 2.0, event: "Series C" }
+    ],
+    funding: [
+      { date: "2019-01", cumulative: 0.01, round: "Seed" },
+      { date: "2022-02", cumulative: 0.2, round: "Series B" },
+      { date: "2024-06", cumulative: 0.54, round: "Series C" }
+    ],
+    headcount: [
+      { date: "2020-01", count: 30 },
+      { date: "2022-01", count: 100 },
+      { date: "2024-01", count: 250 },
+      { date: "2025-01", count: 350 }
+    ]
   }
 };
 

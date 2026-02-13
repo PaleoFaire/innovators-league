@@ -4521,7 +4521,7 @@ function initIntelligenceHub() {
   const tabs = document.querySelectorAll('.intel-hub-tab');
   const alertsPanel = document.getElementById('intel-alerts-panel');
   const signalsPanel = document.getElementById('intel-signals-panel');
-  const newsPanel = document.getElementById('intel-news-panel');
+  const movementsPanel = document.getElementById('intel-movements-panel');
 
   if (!tabs.length) return;
 
@@ -4535,7 +4535,7 @@ function initIntelligenceHub() {
       const intel = tab.dataset.intel;
       if (alertsPanel) alertsPanel.style.display = intel === 'alerts' ? 'block' : 'none';
       if (signalsPanel) signalsPanel.style.display = intel === 'signals' ? 'block' : 'none';
-      if (newsPanel) newsPanel.style.display = intel === 'news' ? 'block' : 'none';
+      if (movementsPanel) movementsPanel.style.display = intel === 'movements' ? 'block' : 'none';
     });
   });
 }
