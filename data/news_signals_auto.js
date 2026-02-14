@@ -1,74 +1,74 @@
 // Auto-generated news signals
-// Last updated: 2026-02-14T09:03:23.899Z
+// Last updated: 2026-02-14T13:56:27.962Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1771059803899,
+    "id": 1771077387962,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Is Nuking Its 4o Model. China’s ChatGPT Fans Aren’t OK",
     "source": "Wired",
-    "time": "11h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/openai-nuking-4o-model-china-chatgpt-fans-arent-ok/"
   },
   {
-    "id": 1771059803900,
+    "id": 1771077387963,
     "type": "news",
     "company": "OpenAI",
     "headline": "Why top talent is walking away from OpenAI and xAI",
     "source": "TechCrunch",
-    "time": "12h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/video/why-top-talent-is-walking-away-from-openai-and-xai/"
   },
   {
-    "id": 1771059803901,
+    "id": 1771077387964,
     "type": "funding",
     "company": "Anthropic",
     "headline": "The Week’s 10 Biggest Funding Rounds: Anthropic Leads In A Big Week For Giant Rounds",
     "source": "Crunchbase News",
-    "time": "13h ago",
+    "time": "18h ago",
     "impact": "high",
     "unread": true,
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-anthropic-leads-ai-robotics/"
   },
   {
-    "id": 1771059803902,
+    "id": 1771077387965,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI removes access to sycophancy-prone GPT-4o model",
     "source": "TechCrunch",
-    "time": "14h ago",
+    "time": "19h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/02/13/openai-removes-access-to-sycophancy-prone-gpt-4o-model/"
   },
   {
-    "id": 1771059803903,
+    "id": 1771077387966,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic&#8217;s Super Bowl ads mocking AI with ads helped push Claude&#8217;s app into the top 10",
     "source": "TechCrunch",
-    "time": "15h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/02/13/anthropics-super-bowl-ads-mocking-ai-with-ads-helped-push-claudes-app-into-the-top-10/"
   },
   {
-    "id": 1771059803904,
+    "id": 1771077387967,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "Cohere&#8217;s $240M year sets stage for IPO",
     "source": "TechCrunch",
-    "time": "18h ago",
+    "time": "22h ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/02/13/coheres-240m-year-sets-stage-for-ipo/"
   },
   {
-    "id": 1771059803905,
+    "id": 1771077387968,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/"
   },
   {
-    "id": 1771059803906,
+    "id": 1771077387969,
     "type": "news",
     "company": "Palantir",
     "headline": "‘Uncanny Valley’: ICE’s Secret Expansion Plans, Palantir Workers’ Ethical Concerns, and AI Assistants",
@@ -90,7 +90,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/uncanny-valley-podcast-ice-expansion-palantir-workers-ethical-concerns-openclaw-ai-assistants/"
   },
   {
-    "id": 1771059803907,
+    "id": 1771077387970,
+    "type": "funding",
+    "company": "Axiom Space",
+    "headline": "Axiom Space raises additional $350 million",
+    "source": "SpaceNews",
+    "time": "1d ago",
+    "impact": "medium",
+    "unread": false,
+    "link": "https://spacenews.com/axiom-space-raises-additional-350-million/"
+  },
+  {
+    "id": 1771077387971,
     "type": "funding",
     "company": "Anthropic",
     "headline": "Anthropic Raises $30B At $380B Valuation In Second-Largest Venture Funding Deal Of All Time",
@@ -101,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/ai/anthropic-raises-30b-second-largest-deal-all-time/"
   },
   {
-    "id": 1771059803908,
+    "id": 1771077387972,
     "type": "ipo",
     "company": "Waymo",
     "headline": "Waymo Asks the DC Public to Pressure Their City Officials",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/waymo-asks-the-dc-public-to-pressure-their-city-officials/"
   },
   {
-    "id": 1771059803909,
+    "id": 1771077387973,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI’s President Gave Millions to Trump. He Says It’s for Humanity",
@@ -123,7 +134,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-president-greg-brockman-political-donations-trump-humanity/"
   },
   {
-    "id": 1771059803910,
+    "id": 1771077387974,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "Launch companies debate how to compete against SpaceX",
+    "source": "SpaceNews",
+    "time": "2d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://spacenews.com/launch-companies-debate-how-to-compete-against-spacex/"
+  },
+  {
+    "id": 1771077387975,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX takes down Dragon crew arm, giving Starship a leg up in Florida",
@@ -134,7 +156,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/02/heres-why-americas-most-historic-launch-pad-is-getting-yet-another-facelift/"
   },
   {
-    "id": 1771059803911,
+    "id": 1771077387976,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "SpaceX IPO may suck oxygen from market before unleashing broad capital surge",
+    "source": "SpaceNews",
+    "time": "2d ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://spacenews.com/spacex-ipo-may-suck-oxygen-from-market-before-unleashing-broad-capital-surge/"
+  },
+  {
+    "id": 1771077387977,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI researcher quits over ChatGPT ads, warns of &quot;Facebook&quot; path",
@@ -145,7 +178,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/"
   },
   {
-    "id": 1771059803912,
+    "id": 1771077387978,
+    "type": "ipo",
+    "company": "SpaceX",
+    "headline": "How much is vertical integration squeezing the smallsat opportunity?",
+    "source": "SpaceNews",
+    "time": "2d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://spacenews.com/how-much-is-vertical-integration-squeezing-the-smallsat-opportunity/"
+  },
+  {
+    "id": 1771077387979,
     "type": "funding",
     "company": "Apptronik",
     "headline": "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo",
@@ -156,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/"
   },
   {
-    "id": 1771059803913,
+    "id": 1771077387980,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX&#039;s next-gen Super Heavy booster aces four days of &quot;cryoproof&quot; testing",
@@ -167,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/02/spacexs-starbase-is-coming-alive-again-after-a-lull-in-starship-testing/"
   },
   {
-    "id": 1771059803914,
+    "id": 1771077387981,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Rocket Report: SpaceX probes upper stage malfunction; Starship testing resumes",
@@ -176,49 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/space/2026/02/rocket-report-spacex-probes-upper-stage-malfunction-starship-testing-resumes/"
-  },
-  {
-    "id": 1771059803915,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "OpenAI is hoppin&#039; mad about Anthropic&#039;s new Super Bowl TV ads",
-    "source": "Ars Technica",
-    "time": "2/5/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://arstechnica.com/information-technology/2026/02/openai-is-hoppin-mad-about-anthropics-new-super-bowl-tv-ads/"
-  },
-  {
-    "id": 1771059803916,
-    "type": "news",
-    "company": "Anthropic",
-    "headline": "Should AI chatbots have ads? Anthropic says no.",
-    "source": "Ars Technica",
-    "time": "2/4/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/"
-  },
-  {
-    "id": 1771059803917,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "Nvidia&#039;s $100 billion OpenAI deal has seemingly vanished",
-    "source": "Ars Technica",
-    "time": "2/3/2026",
-    "impact": "high",
-    "unread": false,
-    "link": "https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/"
-  },
-  {
-    "id": 1771059803918,
-    "type": "news",
-    "company": "Anthropic",
-    "headline": "Does Anthropic believe its AI is conscious, or is that just what it wants Claude to think?",
-    "source": "Ars Technica",
-    "time": "1/29/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://arstechnica.com/information-technology/2026/01/does-anthropic-believe-its-ai-is-conscious-or-is-that-just-what-it-wants-claude-to-think/"
   }
 ];
