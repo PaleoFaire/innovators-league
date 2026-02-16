@@ -1,5 +1,5 @@
 // Auto-updated GitHub releases
-// Last updated: 2026-02-16 09:20:16 UTC
+// Last updated: 2026-02-16 05:42:57 UTC
 const GITHUB_RELEASES = [
   { company: "LangChain", repo: "langchain-ai/langchain", tag: "langchain-openrouter==0.0.2", name: "langchain-openrouter==0.0.2", date: "2026-02-15", category: "AI" },
   { company: "LangChain", repo: "langchain-ai/langchain", tag: "langchain-core==1.2.13", name: "langchain-core==1.2.13", date: "2026-02-15", category: "AI" },
