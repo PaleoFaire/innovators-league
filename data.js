@@ -15817,176 +15817,978 @@ const INNOVATOR_50 = [
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// INNOVATOR 50 HISTORICAL RANKINGS
+// INNOVATOR 50 HISTORICAL RANKINGS — FULL DATA
+// Each year has complete ranking data with highlights and thesis,
+// historically accurate to what was true at the time of release.
 // ═══════════════════════════════════════════════════════════════════════════════
+
+// 2025 INNOVATOR 50 — Released January 2025
+// Context: Defense tech acceleration, humanoid robots emerging, AI infrastructure boom
+const INNOVATOR_50_2025 = [
+  {
+    rank: 1,
+    company: 'SpaceX',
+    category: 'Space Technology',
+    highlights: ['Starship achieving orbital velocity', '$350B+ valuation', '90% of global launch mass to orbit'],
+    thesis: 'SpaceX remains the undisputed leader in space. Starship\'s rapid iteration cadence is unmatched. The Starlink revenue engine funds increasingly ambitious Mars architecture.',
+    yoyChange: 'same',
+    badges: ['Undisputed #1']
+  },
+  {
+    rank: 2,
+    company: 'OpenAI',
+    category: 'AI & Software',
+    highlights: ['GPT-4o and voice mode launch', '$150B valuation', 'ChatGPT reaches 200M weekly users'],
+    thesis: 'OpenAI defined the AI paradigm and continues to push capabilities. GPT-4o multimodal and voice mode represent the next interface evolution. Enterprise adoption accelerating.',
+    yoyChange: 'same',
+    badges: ['AI Leader']
+  },
+  {
+    rank: 3,
+    company: 'Anduril Industries',
+    category: 'Defense Technology',
+    highlights: ['$14B valuation reached', 'Roadrunner interceptor in production', 'Multiple billion-dollar contract wins'],
+    thesis: 'Anduril is building the defense-tech platform company. Lattice OS as the connective tissue, hardware products delivering real capability. Palmer\'s vision manifesting.',
+    yoyChange: 'same',
+    badges: ['Defense Leader']
+  },
+  {
+    rank: 4,
+    company: 'Anthropic',
+    category: 'AI & Software',
+    highlights: ['Claude 3 family launch', '$18B valuation', 'Constitutional AI approach gaining enterprise trust'],
+    thesis: 'Anthropic\'s safety-focused approach is winning enterprise customers. Claude 3 Opus matched GPT-4 capabilities. Amazon partnership provides distribution and compute.',
+    yoyChange: 'same',
+    badges: ['Safety Leader']
+  },
+  {
+    rank: 5,
+    company: 'Figure AI',
+    category: 'Robotics',
+    highlights: ['$2.6B valuation in Series B', 'BMW manufacturing partnership announced', 'OpenAI integration for robot intelligence'],
+    thesis: 'Figure emerged from stealth as the humanoid robotics frontrunner. BMW deployment puts them ahead of competitors. OpenAI partnership is a massive differentiator.',
+    yoyChange: 'new',
+    badges: ['Breakout Star', 'Rising Fast']
+  },
+  {
+    rank: 6,
+    company: 'Shield AI',
+    category: 'Defense Technology',
+    highlights: ['$2.8B valuation', 'V-BAT teams deployed operationally', 'Hivemind expanding to crewed aircraft'],
+    thesis: 'Shield AI\'s Hivemind is proving itself in real operations. The platform approach — software that works across any airframe — is the right strategy. Combat-validated technology.',
+    yoyChange: 'up',
+    badges: ['Combat Proven']
+  },
+  {
+    rank: 7,
+    company: 'Palantir Technologies',
+    category: 'AI & Software',
+    highlights: ['AIP bootcamps driving enterprise adoption', 'Stock at multi-year highs', 'Government + commercial flywheel'],
+    thesis: 'Palantir cracked the enterprise AI code with AIP. Bootcamp model converts skeptics to multi-year contracts. Government foundation with commercial acceleration.',
+    yoyChange: 'up',
+    badges: ['Public Company Winner']
+  },
+  {
+    rank: 8,
+    company: 'Commonwealth Fusion Systems',
+    category: 'Energy & Fusion',
+    highlights: ['SPARC construction progressing', '$2B+ raised', 'HTS magnets proven at 20 Tesla'],
+    thesis: 'CFS has the clearest path to commercial fusion. High-temperature superconducting magnets are the enabling breakthrough. MIT pedigree and serious engineering execution.',
+    yoyChange: 'same',
+    badges: ['Fusion Leader']
+  },
+  {
+    rank: 9,
+    company: 'Boom Supersonic',
+    category: 'Aerospace & Aviation',
+    highlights: ['XB-1 first flight achieved', 'Overture moving to production design', 'Major airline commitments secured'],
+    thesis: 'Boom achieved first flight of XB-1 demonstrator — a major milestone. Supersonic passenger flight is returning. Airline orders provide demand signal.',
+    yoyChange: 'up',
+    badges: ['Milestone Achieved']
+  },
+  {
+    rank: 10,
+    company: 'Relativity Space',
+    category: 'Space Technology',
+    highlights: ['Terran R development accelerating', '3D printing at unprecedented scale', '$4.2B valuation'],
+    thesis: 'Relativity\'s bet on 3D-printed rockets is paying off. Terran R positions them for medium-lift reusable market. Factory approach could transform space manufacturing.',
+    yoyChange: 'same',
+    badges: ['Manufacturing Innovation']
+  },
+  {
+    rank: 11,
+    company: 'Cerebras',
+    category: 'Semiconductors',
+    highlights: ['CS-3 cluster shipping', 'Wafer-scale chips at 4 trillion transistors', 'AI training benchmarks achieved'],
+    thesis: 'Cerebras is proving wafer-scale compute works. CS-3 cluster demonstrates competitive training performance. Unique architecture finding its market.',
+    yoyChange: 'up',
+    badges: ['Chip Innovation']
+  },
+  {
+    rank: 12,
+    company: 'Scale AI',
+    category: 'AI & Software',
+    highlights: ['$14B valuation', 'Essential RLHF data provider', 'Government contracts growing'],
+    thesis: 'Scale evolved from data labeling to AI infrastructure. RLHF datasets are inputs to every frontier model. Government business diversifies revenue.',
+    yoyChange: 'same',
+    badges: ['AI Infrastructure']
+  },
+  {
+    rank: 13,
+    company: 'Saronic',
+    category: 'Defense Technology',
+    highlights: ['$1.5B valuation achieved', 'Autonomous surface vessels to Navy', 'Replicator program selection'],
+    thesis: 'Saronic emerged as the autonomous maritime leader. Fastest timeline from founding to defense delivery. Navy needs these capabilities urgently.',
+    yoyChange: 'new',
+    badges: ['Rising Star', 'Speed Record']
+  },
+  {
+    rank: 14,
+    company: 'Joby Aviation',
+    category: 'Aerospace & Aviation',
+    highlights: ['FAA certification advancing', 'Manufacturing facility operational', 'United Airlines partnership'],
+    thesis: 'Joby leads eVTOL in certification progress. Toyota manufacturing expertise applied. Commercial operations approaching reality.',
+    yoyChange: 'same',
+    badges: ['Certification Leader']
+  },
+  {
+    rank: 15,
+    company: 'Epirus',
+    category: 'Defense Technology',
+    highlights: ['Leonidas deployed to CENTCOM', '$550M+ raised', 'Directed energy scaling'],
+    thesis: 'Epirus deployed directed-energy to combat theater. Only cost-effective counter-drone solution. Economics are transformative for air defense.',
+    yoyChange: 'up',
+    badges: ['Combat Deployed']
+  },
+  {
+    rank: 16,
+    company: 'Waymo',
+    category: 'Autonomous Vehicles',
+    highlights: ['Robotaxi service expanding', 'Phoenix, SF, LA operations', 'Millions of autonomous miles'],
+    thesis: 'Waymo proved robotaxis work at scale. Despite Alphabet ownership, they\'re the autonomy leader. Real service, real customers, real miles.',
+    yoyChange: 'down',
+    badges: ['AV Leader']
+  },
+  {
+    rank: 17,
+    company: 'Skydio',
+    category: 'Defense Technology',
+    highlights: ['X10 gaining market share', 'American-made drone advantage', 'Government contracts accelerating'],
+    thesis: 'Skydio is the American answer to DJI. X10 platform competitive on capabilities. Autonomy software is genuine differentiator.',
+    yoyChange: 'same',
+    badges: ['American Made']
+  },
+  {
+    rank: 18,
+    company: 'Hadrian',
+    category: 'Advanced Manufacturing',
+    highlights: ['$500M+ raised', 'Automated CNC factories scaling', 'DoD manufacturing contracts'],
+    thesis: 'Hadrian addresses the precision machining bottleneck. Defense production needs this capacity. Fully automated factories are the solution.',
+    yoyChange: 'up',
+    badges: ['Manufacturing']
+  },
+  {
+    rank: 19,
+    company: 'Helion',
+    category: 'Energy & Fusion',
+    highlights: ['Microsoft PPA signed', 'Polaris prototype advancing', 'Direct electricity conversion approach'],
+    thesis: 'Helion signed the first commercial fusion power agreement. Microsoft PPA validates commercial path. Aggressive timeline with real progress.',
+    yoyChange: 'up',
+    badges: ['First PPA']
+  },
+  {
+    rank: 20,
+    company: 'Hermeus',
+    category: 'Aerospace & Aviation',
+    highlights: ['Quarterhorse flight testing', 'Air Force contracts secured', 'Chimera engine development'],
+    thesis: 'Hermeus is building practical hypersonic aircraft. Incremental approach reduces risk. Air Force is paying attention.',
+    yoyChange: 'same',
+    badges: ['Hypersonic']
+  },
+  {
+    rank: 21,
+    company: 'Groq',
+    category: 'Semiconductors',
+    highlights: ['LPU inference leadership', 'GroqCloud API launched', 'Fastest inference benchmarks'],
+    thesis: 'Groq owns inference speed. As AI shifts to deployment, inference matters more. LPU architecture is purpose-built.',
+    yoyChange: 'up',
+    badges: ['Inference King']
+  },
+  {
+    rank: 22,
+    company: 'Rocket Lab',
+    category: 'Space Technology',
+    highlights: ['Electron most-launched US rocket', 'Neutron development progressing', 'Space systems revenue growing'],
+    thesis: 'Rocket Lab is the reliable small-launch leader. Neutron expands addressable market. Space systems business adds diversification.',
+    yoyChange: 'same',
+    badges: ['Launch Reliability']
+  },
+  {
+    rank: 23,
+    company: 'Zipline',
+    category: 'Aerospace & Aviation',
+    highlights: ['Platform 2 home delivery', 'US expansion accelerating', 'More autonomous hours than anyone'],
+    thesis: 'Zipline has more autonomous flight experience than any competitor. Platform 2 enables new delivery use cases. Scaling beyond medical.',
+    yoyChange: 'same',
+    badges: ['Operational Scale']
+  },
+  {
+    rank: 24,
+    company: 'Astranis',
+    category: 'Space Technology',
+    highlights: ['MicroGEO constellation growing', 'Commercial operations proven', 'Unit economics validated'],
+    thesis: 'Astranis created the MicroGEO category. Small GEO satellites for targeted connectivity. First commercial operations successful.',
+    yoyChange: 'same',
+    badges: ['Category Creator']
+  },
+  {
+    rank: 25,
+    company: 'Castelion',
+    category: 'Defense Technology',
+    highlights: ['Hypersonic target systems delivered', 'SpaceX iteration speed applied', 'DoD contracts secured'],
+    thesis: 'Castelion brings SpaceX discipline to missiles. Fastest timeline to hypersonic test. The team executes.',
+    yoyChange: 'up',
+    badges: ['SpaceX Mafia']
+  },
+  {
+    rank: 26,
+    company: 'Varda Space Industries',
+    category: 'Space Technology',
+    highlights: ['First commercial reentry achieved', 'Space manufacturing proven', 'Pharmaceutical production in orbit'],
+    thesis: 'Varda proved space manufacturing works. Launch, produce, return — end to end. First of a new industry.',
+    yoyChange: 'up',
+    badges: ['Space Manufacturing']
+  },
+  {
+    rank: 27,
+    company: 'Applied Intuition',
+    category: 'Autonomous Vehicles',
+    highlights: ['$6B valuation', 'OEM and Tier 1 customers', 'Simulation platform leadership'],
+    thesis: 'Applied Intuition is picks-and-shovels for autonomy. They win regardless of which AV company succeeds. Growing customer base.',
+    yoyChange: 'same',
+    badges: ['Picks & Shovels']
+  },
+  {
+    rank: 28,
+    company: 'Oklo',
+    category: 'Nuclear Energy',
+    highlights: ['SPAC completed', 'Microreactor development advancing', 'Data center power demand signal'],
+    thesis: 'Oklo is building microreactors for data centers. SPAC provided capital for deployment. Sam Altman involvement signals AI-nuclear convergence.',
+    yoyChange: 'up',
+    badges: ['Nuclear Renaissance']
+  },
+  {
+    rank: 29,
+    company: 'Impulse Space',
+    category: 'Space Technology',
+    highlights: ['Successful orbital missions', 'Tom Mueller leadership', 'Growing manifest'],
+    thesis: 'Impulse is the last-mile delivery for space. Orbital transfer extends any launch vehicle. SpaceX propulsion pedigree.',
+    yoyChange: 'same',
+    badges: ['SpaceX Mafia']
+  },
+  {
+    rank: 30,
+    company: 'Agility Robotics',
+    category: 'Robotics',
+    highlights: ['Amazon pilot underway', 'RoboFab facility operational', 'Digit purpose-built for logistics'],
+    thesis: 'Agility has the most practical humanoid approach. Built for warehouses, not demos. Amazon pilot validates demand.',
+    yoyChange: 'same',
+    badges: ['Enterprise Focus']
+  },
+  {
+    rank: 31,
+    company: 'Archer Aviation',
+    category: 'Aerospace & Aviation',
+    highlights: ['FAA progress continuing', 'Stellantis manufacturing partnership', 'United Airlines commitment'],
+    thesis: 'Archer is neck-and-neck with Joby. Stellantis brings automotive manufacturing scale. Certification progress continuing.',
+    yoyChange: 'same',
+    badges: ['eVTOL Contender']
+  },
+  {
+    rank: 32,
+    company: 'Lightmatter',
+    category: 'Semiconductors',
+    highlights: ['Passage chiplets shipping', 'Photonic interconnects validated', 'Hyperscaler customers'],
+    thesis: 'Lightmatter solves the interconnect bottleneck. Photonics beats copper at AI scale. Shipping real products.',
+    yoyChange: 'up',
+    badges: ['Photonics Pioneer']
+  },
+  {
+    rank: 33,
+    company: 'Planet Labs',
+    category: 'Space Technology',
+    highlights: ['Daily Earth imaging at scale', 'Government and commercial revenue', 'Largest imaging constellation'],
+    thesis: 'Planet has unique global imaging assets. Daily coverage of entire Earth. Diverse applications across sectors.',
+    yoyChange: 'same',
+    badges: ['Data Asset']
+  },
+  {
+    rank: 34,
+    company: 'Radiant',
+    category: 'Nuclear Energy',
+    highlights: ['Portable microreactor development', 'SpaceX alumni founding team', 'DoD interest growing'],
+    thesis: 'Radiant is building truly portable nuclear. Military forward bases need this. SpaceX iteration applied to nuclear.',
+    yoyChange: 'up',
+    badges: ['Portable Nuclear']
+  },
+  {
+    rank: 35,
+    company: 'Saildrone',
+    category: 'Defense & Maritime',
+    highlights: ['Largest autonomous fleet operating', 'Navy contracts expanding', 'Persistent ocean surveillance'],
+    thesis: 'Saildrone has fleet scale no one else has. Wind-powered endurance is unlimited. Navy sees the value.',
+    yoyChange: 'same',
+    badges: ['Fleet Scale']
+  },
+  {
+    rank: 36,
+    company: 'KoBold Metals',
+    category: 'Climate Tech',
+    highlights: ['Zambia copper discovery', 'AI exploration validated', 'Gates and Bezos backing'],
+    thesis: 'KoBold proved AI mineral exploration works. Major copper discovery validates approach. Critical for supply chain.',
+    yoyChange: 'same',
+    badges: ['AI for Resources']
+  },
+  {
+    rank: 37,
+    company: 'Covariant',
+    category: 'Robotics',
+    highlights: ['RFM-1 foundation model', 'Warehouse deployments at scale', 'Picking robots working'],
+    thesis: 'Covariant has robots working in real warehouses. Foundation model approach could generalize. Commercial traction validated.',
+    yoyChange: 'same',
+    badges: ['Deployed at Scale']
+  },
+  {
+    rank: 38,
+    company: 'Fervo Energy',
+    category: 'Climate Tech',
+    highlights: ['Project Red operational', 'Google PPA secured', 'Enhanced geothermal proven'],
+    thesis: 'Fervo proved enhanced geothermal at scale. Project Red delivering clean baseload. Google provides demand signal.',
+    yoyChange: 'up',
+    badges: ['Geothermal Leader']
+  },
+  {
+    rank: 39,
+    company: 'Apptronik',
+    category: 'Robotics',
+    highlights: ['Apollo humanoid unveiled', 'NASA heritage', 'Mercedes pilot program'],
+    thesis: 'Apptronik brings NASA robotics heritage to commercial. Apollo designed for real work. Enterprise pilots underway.',
+    yoyChange: 'new',
+    badges: ['NASA Heritage']
+  },
+  {
+    rank: 40,
+    company: 'Kairos Power',
+    category: 'Nuclear Energy',
+    highlights: ['Hermes reactor construction', 'Google partnership announced', 'Molten salt approach'],
+    thesis: 'Kairos has reactor steel in the ground. Google partnership for data center power. Real construction progress.',
+    yoyChange: 'same',
+    badges: ['Construction Phase']
+  },
+  {
+    rank: 41,
+    company: 'Gecko Robotics',
+    category: 'Robotics',
+    highlights: ['Wall-climbing inspection robots', 'Enterprise contracts growing', 'Critical infrastructure access'],
+    thesis: 'Gecko robots go where humans can\'t. Industrial inspection at scale. Expanding beyond oil and gas.',
+    yoyChange: 'same',
+    badges: ['Inspection Leader']
+  },
+  {
+    rank: 42,
+    company: 'Heirloom Carbon',
+    category: 'Climate Tech',
+    highlights: ['Direct air capture operating', 'Microsoft purchase agreement', 'Limestone approach scaling'],
+    thesis: 'Heirloom has a simpler chemistry for DAC. Microsoft and others buying credits. Lower cost path possible.',
+    yoyChange: 'same',
+    badges: ['Carbon Removal']
+  },
+  {
+    rank: 43,
+    company: 'Solugen',
+    category: 'Climate Tech',
+    highlights: ['Houston facility operational', 'Bio-based chemical production', 'Carbon-negative manufacturing'],
+    thesis: 'Solugen makes chemicals without petroleum. Production at scale proven. Growing product portfolio.',
+    yoyChange: 'same',
+    badges: ['Bio-Manufacturing']
+  },
+  {
+    rank: 44,
+    company: 'TerraPower',
+    category: 'Nuclear Energy',
+    highlights: ['Natrium reactor progressing', 'Wyoming site construction', 'Gates backing ensures capital'],
+    thesis: 'TerraPower has the furthest-along US advanced reactor. Wyoming construction progressing. Gates ensures long runway.',
+    yoyChange: 'same',
+    badges: ['Advanced Nuclear']
+  },
+  {
+    rank: 45,
+    company: 'Boston Dynamics',
+    category: 'Robotics',
+    highlights: ['Spot deployed widely', 'New Atlas humanoid revealed', 'Hyundai manufacturing scale'],
+    thesis: 'Boston Dynamics has the most capable robots. Spot is actually deployed. New Atlas shows continued innovation.',
+    yoyChange: 'same',
+    badges: ['Capability Leader']
+  },
+  {
+    rank: 46,
+    company: 'Venus Aerospace',
+    category: 'Aerospace & Aviation',
+    highlights: ['Rotating detonation engine tests', 'Mach 9 target', 'Hypersonic cargo/passenger vision'],
+    thesis: 'Venus is attempting the fastest aircraft ever. Detonation engine tests showing progress. Ambitious timeline.',
+    yoyChange: 'new',
+    badges: ['Moonshot']
+  },
+  {
+    rank: 47,
+    company: 'Axiom Space',
+    category: 'Space Technology',
+    highlights: ['Commercial missions to ISS', 'Station module development', 'Post-ISS commercial station'],
+    thesis: 'Axiom is building the commercial successor to ISS. Already operating missions. Station modules in development.',
+    yoyChange: 'down',
+    badges: ['Commercial Station']
+  },
+  {
+    rank: 48,
+    company: 'Neuralink',
+    category: 'Biotech & Health',
+    highlights: ['First human implant successful', 'BCI demonstration working', 'FDA breakthrough device'],
+    thesis: 'Neuralink achieved first human implant. Brain-computer interface working in patient. Medical applications emerging.',
+    yoyChange: 'down',
+    badges: ['BCI Pioneer']
+  },
+  {
+    rank: 49,
+    company: 'PsiQuantum',
+    category: 'Quantum Computing',
+    highlights: ['$450M GlobalFoundries deal', 'Photonic quantum approach', 'Manufacturing at scale path'],
+    thesis: 'PsiQuantum bet on photonic quantum. GlobalFoundries partnership for manufacturing. Different approach to scaling.',
+    yoyChange: 'down',
+    badges: ['Quantum Contender']
+  },
+  {
+    rank: 50,
+    company: 'Machina Labs',
+    category: 'Advanced Manufacturing',
+    highlights: ['Robotic sheet metal forming', 'NASA and DoD contracts', 'Flexible manufacturing'],
+    thesis: 'Machina enables manufacturing without hard tooling. NASA and DoD contracts validate capability. Could transform prototyping.',
+    yoyChange: 'new',
+    badges: ['Flexible Manufacturing']
+  }
+];
+
+// 2024 INNOVATOR 50 — Released January 2024
+// Context: Post-ChatGPT AI boom, defense tech emerging, fusion breakthroughs
+const INNOVATOR_50_2024 = [
+  {
+    rank: 1,
+    company: 'SpaceX',
+    category: 'Space Technology',
+    highlights: ['Starship first orbital attempt', '$180B valuation', 'Starlink profitability achieved'],
+    thesis: 'SpaceX continues to define the frontier. Starship flew to space, even if it didn\'t complete the mission. Starlink is profitable. Falcon 9 is the workhorse of humanity.',
+    yoyChange: 'same',
+    badges: ['Undisputed #1']
+  },
+  {
+    rank: 2,
+    company: 'OpenAI',
+    category: 'AI & Software',
+    highlights: ['GPT-4 launch revolutionized AI', '$90B valuation', '100M+ weekly ChatGPT users'],
+    thesis: 'OpenAI changed the world with ChatGPT. GPT-4 established new capability frontier. Enterprise revenue accelerating. Microsoft partnership is a moat.',
+    yoyChange: 'up',
+    badges: ['AI Revolution']
+  },
+  {
+    rank: 3,
+    company: 'Anduril Industries',
+    category: 'Defense Technology',
+    highlights: ['$8B valuation milestone', 'Lattice OS platform maturing', 'Major contract wins'],
+    thesis: 'Anduril is proving the defense-tech model works. Lattice OS as the integration layer is brilliant. Contract momentum accelerating.',
+    yoyChange: 'up',
+    badges: ['Defense Tech Leader']
+  },
+  {
+    rank: 4,
+    company: 'Waymo',
+    category: 'Autonomous Vehicles',
+    highlights: ['Robotaxi service in Phoenix, SF', 'Millions of driverless miles', 'No safety driver operations'],
+    thesis: 'Waymo proved robotaxis work. Actually operating, actually driverless. The reference implementation for autonomous vehicles.',
+    yoyChange: 'up',
+    badges: ['AV Pioneer']
+  },
+  {
+    rank: 5,
+    company: 'Anthropic',
+    category: 'AI & Software',
+    highlights: ['Claude 2 competitive with GPT-4', '$4B Google investment', 'Constitutional AI approach'],
+    thesis: 'Anthropic emerged as the credible OpenAI competitor. Claude 2 is genuinely good. Safety-focused approach resonates with enterprise.',
+    yoyChange: 'up',
+    badges: ['Safety-First AI']
+  },
+  {
+    rank: 6,
+    company: 'Commonwealth Fusion Systems',
+    category: 'Energy & Fusion',
+    highlights: ['$1.8B Series B closed', 'SPARC design finalized', '20 Tesla magnet achievement'],
+    thesis: 'CFS demonstrated the breakthrough magnet technology. SPARC is on track. The most credible fusion timeline exists here.',
+    yoyChange: 'same',
+    badges: ['Fusion Breakthrough']
+  },
+  {
+    rank: 7,
+    company: 'Relativity Space',
+    category: 'Space Technology',
+    highlights: ['Terran 1 first launch', '3D-printed rocket reached space', 'Terran R development announced'],
+    thesis: 'Relativity proved a 3D-printed rocket can reach space. Terran 1 launch was a milestone. Terran R targets serious market.',
+    yoyChange: 'up',
+    badges: ['3D Printing Pioneer']
+  },
+  {
+    rank: 8,
+    company: 'Scale AI',
+    category: 'AI & Software',
+    highlights: ['$7.3B valuation', 'Essential data labeling for AI', 'Government business growing'],
+    thesis: 'Scale is infrastructure for the AI boom. Every frontier model needs their data. Government diversifies revenue.',
+    yoyChange: 'same',
+    badges: ['AI Infrastructure']
+  },
+  {
+    rank: 9,
+    company: 'Shield AI',
+    category: 'Defense Technology',
+    highlights: ['$2.3B valuation', 'Hivemind AI proving itself', 'V-BAT operational deployment'],
+    thesis: 'Shield AI\'s Hivemind works in GPS-denied environments. Real operational deployment. Platform approach is right strategy.',
+    yoyChange: 'up',
+    badges: ['Autonomous Flight']
+  },
+  {
+    rank: 10,
+    company: 'Palantir Technologies',
+    category: 'AI & Software',
+    highlights: ['AIP platform launched', 'Stock recovery underway', 'Bootcamp conversion model'],
+    thesis: 'Palantir finally cracked enterprise with AIP. Bootcamp model converts skeptics. Government base provides stability.',
+    yoyChange: 'up',
+    badges: ['Enterprise AI']
+  },
+  {
+    rank: 11,
+    company: 'Joby Aviation',
+    category: 'Aerospace & Aviation',
+    highlights: ['FAA certification progress', 'Manufacturing facility scaling', 'United Airlines partnership'],
+    thesis: 'Joby leads eVTOL certification progress. Real aircraft, real testing, real path to market. Toyota brings manufacturing expertise.',
+    yoyChange: 'same',
+    badges: ['eVTOL Leader']
+  },
+  {
+    rank: 12,
+    company: 'Boom Supersonic',
+    category: 'Aerospace & Aviation',
+    highlights: ['XB-1 rollout complete', 'Engine testing progressing', 'Airline commitments secured'],
+    thesis: 'Boom is bringing back supersonic passenger flight. XB-1 is real hardware. Major airline orders provide demand signal.',
+    yoyChange: 'same',
+    badges: ['Supersonic Revival']
+  },
+  {
+    rank: 13,
+    company: 'Neuralink',
+    category: 'Biotech & Health',
+    highlights: ['FDA approval for human trials', 'N1 implant refined', 'Surgical robot advancing'],
+    thesis: 'Neuralink received FDA approval for human trials. Brain-computer interface technology is real. Medical applications first.',
+    yoyChange: 'up',
+    badges: ['BCI Pioneer']
+  },
+  {
+    rank: 14,
+    company: 'Skydio',
+    category: 'Defense Technology',
+    highlights: ['X10 enterprise drone launched', 'Government market share growing', 'American-made advantage'],
+    thesis: 'Skydio is the American drone answer. X10 competes on capability with DJI. Government customers need domestic supply.',
+    yoyChange: 'same',
+    badges: ['American Drone Leader']
+  },
+  {
+    rank: 15,
+    company: 'Hermeus',
+    category: 'Aerospace & Aviation',
+    highlights: ['Air Force contracts secured', 'Quarterhorse development', 'Chimera engine testing'],
+    thesis: 'Hermeus is building reusable hypersonic aircraft. Turbine-based combined cycle approach. Air Force is funding development.',
+    yoyChange: 'same',
+    badges: ['Hypersonic Pioneer']
+  },
+  {
+    rank: 16,
+    company: 'Cerebras',
+    category: 'Semiconductors',
+    highlights: ['CS-2 systems shipping', 'Wafer-scale proven at scale', 'AI training customers'],
+    thesis: 'Cerebras proved wafer-scale chips work. CS-2 is shipping to real customers. Unique approach in the AI chip wars.',
+    yoyChange: 'up',
+    badges: ['Wafer-Scale Pioneer']
+  },
+  {
+    rank: 17,
+    company: 'Zipline',
+    category: 'Aerospace & Aviation',
+    highlights: ['Platform 2 development', 'US operations expanding', 'Africa operations at scale'],
+    thesis: 'Zipline has the most autonomous flight experience anywhere. Africa operations prove the model. US expansion underway.',
+    yoyChange: 'same',
+    badges: ['Drone Delivery Leader']
+  },
+  {
+    rank: 18,
+    company: 'Rocket Lab',
+    category: 'Space Technology',
+    highlights: ['Electron reliability proven', 'Neutron development started', 'Space systems acquisitions'],
+    thesis: 'Rocket Lab is the reliable workhorse of small launch. Electron keeps flying. Neutron targets larger market.',
+    yoyChange: 'same',
+    badges: ['Launch Reliability']
+  },
+  {
+    rank: 19,
+    company: 'Epirus',
+    category: 'Defense Technology',
+    highlights: ['Leonidas system maturing', 'Counter-drone demand surging', 'Government contracts growing'],
+    thesis: 'Epirus has the directed-energy answer to drones. Cost-per-shot economics are transformative. Demand is exploding.',
+    yoyChange: 'up',
+    badges: ['Directed Energy']
+  },
+  {
+    rank: 20,
+    company: 'PsiQuantum',
+    category: 'Quantum Computing',
+    highlights: ['GlobalFoundries partnership', 'Photonic approach scaling', '$700M+ raised'],
+    thesis: 'PsiQuantum bet on photonic quantum computing. GlobalFoundries partnership enables manufacturing at scale.',
+    yoyChange: 'same',
+    badges: ['Quantum Computing']
+  },
+  {
+    rank: 21,
+    company: 'Archer Aviation',
+    category: 'Aerospace & Aviation',
+    highlights: ['FAA certification advancing', 'Stellantis manufacturing deal', 'United Airlines commitment'],
+    thesis: 'Archer is in close race with Joby. Stellantis partnership brings manufacturing expertise. Certification progress continuing.',
+    yoyChange: 'same',
+    badges: ['eVTOL Contender']
+  },
+  {
+    rank: 22,
+    company: 'Axiom Space',
+    category: 'Space Technology',
+    highlights: ['Ax-2 mission completed', 'Commercial station development', 'Post-ISS positioning'],
+    thesis: 'Axiom is executing commercial space station missions. Building for the post-ISS future. Real revenue from real missions.',
+    yoyChange: 'same',
+    badges: ['Commercial Station']
+  },
+  {
+    rank: 23,
+    company: 'Hadrian',
+    category: 'Advanced Manufacturing',
+    highlights: ['$200M+ raised', 'Automated CNC approach', 'Defense production focus'],
+    thesis: 'Hadrian is addressing the machining capacity crisis. Automated factories for defense parts. Critical infrastructure play.',
+    yoyChange: 'up',
+    badges: ['Manufacturing']
+  },
+  {
+    rank: 24,
+    company: 'Helion',
+    category: 'Energy & Fusion',
+    highlights: ['Polaris prototype announced', 'Microsoft PPA signed', 'Direct electricity conversion'],
+    thesis: 'Helion signed first commercial fusion PPA with Microsoft. Bold timeline. Different approach than tokamaks.',
+    yoyChange: 'up',
+    badges: ['Fusion Contender']
+  },
+  {
+    rank: 25,
+    company: 'Planet Labs',
+    category: 'Space Technology',
+    highlights: ['Daily global imaging', 'Government contracts stable', 'Commercial applications growing'],
+    thesis: 'Planet images the entire Earth daily. Unique data asset for many applications. Revenue diversifying.',
+    yoyChange: 'same',
+    badges: ['Earth Observation']
+  },
+  {
+    rank: 26,
+    company: 'Astranis',
+    category: 'Space Technology',
+    highlights: ['First satellite operational', 'MicroGEO category created', 'Commercial service launched'],
+    thesis: 'Astranis created MicroGEO — small satellites in geostationary orbit. First commercial operations underway.',
+    yoyChange: 'up',
+    badges: ['Category Creator']
+  },
+  {
+    rank: 27,
+    company: 'Applied Intuition',
+    category: 'Autonomous Vehicles',
+    highlights: ['$6B valuation achieved', 'Simulation platform leadership', 'OEM customer growth'],
+    thesis: 'Applied Intuition sells picks and shovels to AV. Simulation and development tools. Wins regardless of which AV companies succeed.',
+    yoyChange: 'up',
+    badges: ['AV Infrastructure']
+  },
+  {
+    rank: 28,
+    company: 'Impulse Space',
+    category: 'Space Technology',
+    highlights: ['First missions launched', 'Tom Mueller credibility', 'Orbital transfer vehicles'],
+    thesis: 'Impulse extends launch capability with orbital transfer. Tom Mueller from SpaceX brings propulsion credibility.',
+    yoyChange: 'new',
+    badges: ['SpaceX Mafia']
+  },
+  {
+    rank: 29,
+    company: 'Varda Space Industries',
+    category: 'Space Technology',
+    highlights: ['First capsule manufactured in space', 'Reentry capability demonstrated', 'Pharmaceutical production'],
+    thesis: 'Varda demonstrated space manufacturing works. First commercial reentry capsule. New industry emerging.',
+    yoyChange: 'up',
+    badges: ['Space Manufacturing']
+  },
+  {
+    rank: 30,
+    company: 'IonQ',
+    category: 'Quantum Computing',
+    highlights: ['Public company (SPAC)', 'Trapped ion approach', 'Commercial quantum systems'],
+    thesis: 'IonQ is a public pure-play quantum computing company. Trapped ion approach showing promise. Revenue growing.',
+    yoyChange: 'same',
+    badges: ['Quantum Public']
+  },
+  {
+    rank: 31,
+    company: 'KoBold Metals',
+    category: 'Climate Tech',
+    highlights: ['AI mineral exploration', 'Major investors backing', 'Discovery pipeline building'],
+    thesis: 'KoBold applies AI to find battery metals. Gates and Bezos backing. Critical for supply chain security.',
+    yoyChange: 'same',
+    badges: ['Resource Discovery']
+  },
+  {
+    rank: 32,
+    company: 'Oklo',
+    category: 'Nuclear Energy',
+    highlights: ['SPAC merger announced', 'Microreactor approach', 'NRC engagement continuing'],
+    thesis: 'Oklo is building microreactors for distributed power. SPAC provides capital. Regulatory path advancing.',
+    yoyChange: 'same',
+    badges: ['Advanced Nuclear']
+  },
+  {
+    rank: 33,
+    company: 'Covariant',
+    category: 'Robotics',
+    highlights: ['AI for robot picking', 'Warehouse deployments', 'Foundation model approach'],
+    thesis: 'Covariant has AI-powered picking robots in production. Real deployments, real customers. Foundation model could generalize.',
+    yoyChange: 'same',
+    badges: ['Robot AI']
+  },
+  {
+    rank: 34,
+    company: 'Agility Robotics',
+    category: 'Robotics',
+    highlights: ['Digit purpose-built for logistics', 'Amazon interest', 'Factory production planning'],
+    thesis: 'Agility built a humanoid for practical work. Logistics focus is pragmatic. Amazon shows enterprise interest.',
+    yoyChange: 'same',
+    badges: ['Humanoid Practical']
+  },
+  {
+    rank: 35,
+    company: 'Fervo Energy',
+    category: 'Climate Tech',
+    highlights: ['Project Red development', 'Enhanced geothermal approach', 'Oil & gas drilling applied'],
+    thesis: 'Fervo applies horizontal drilling to geothermal. Project Red demonstrates the approach. Clean baseload potential.',
+    yoyChange: 'up',
+    badges: ['Geothermal Innovation']
+  },
+  {
+    rank: 36,
+    company: 'Lightmatter',
+    category: 'Semiconductors',
+    highlights: ['Photonic chips for AI', 'Interconnect focus', 'Datacenter applications'],
+    thesis: 'Lightmatter uses light for AI chip interconnects. Addresses bandwidth bottleneck. Novel approach gaining traction.',
+    yoyChange: 'up',
+    badges: ['Photonics']
+  },
+  {
+    rank: 37,
+    company: 'Saildrone',
+    category: 'Defense & Maritime',
+    highlights: ['Autonomous fleet operating', 'Navy interest growing', 'Ocean data collection'],
+    thesis: 'Saildrone has the largest autonomous ocean fleet. Military and scientific applications. Growing government interest.',
+    yoyChange: 'same',
+    badges: ['Ocean Autonomy']
+  },
+  {
+    rank: 38,
+    company: 'Kairos Power',
+    category: 'Nuclear Energy',
+    highlights: ['Hermes reactor development', 'Molten salt approach', 'NRC construction permit'],
+    thesis: 'Kairos has NRC permit for demonstration reactor. Molten salt technology enables safety features. Real progress.',
+    yoyChange: 'same',
+    badges: ['Advanced Reactor']
+  },
+  {
+    rank: 39,
+    company: 'Gecko Robotics',
+    category: 'Robotics',
+    highlights: ['Wall-climbing robots deployed', 'Industrial inspection', 'Enterprise customers'],
+    thesis: 'Gecko robots inspect infrastructure humans can\'t access. Growing enterprise customer base. Practical robotics.',
+    yoyChange: 'same',
+    badges: ['Inspection Robots']
+  },
+  {
+    rank: 40,
+    company: 'Radiant',
+    category: 'Nuclear Energy',
+    highlights: ['Portable reactor development', 'SpaceX founders involved', 'Military applications'],
+    thesis: 'Radiant is building portable nuclear reactors. SpaceX alumni applying iteration approach. Military forward base applications.',
+    yoyChange: 'new',
+    badges: ['Portable Nuclear']
+  },
+  {
+    rank: 41,
+    company: 'Heirloom Carbon',
+    category: 'Climate Tech',
+    highlights: ['Direct air capture operating', 'Limestone approach', 'Carbon credit buyers'],
+    thesis: 'Heirloom captures CO2 with simpler chemistry. Lower cost potential than competitors. Corporate buyers emerging.',
+    yoyChange: 'same',
+    badges: ['Carbon Capture']
+  },
+  {
+    rank: 42,
+    company: 'Solugen',
+    category: 'Climate Tech',
+    highlights: ['Bio-manufacturing at scale', 'Houston facility', 'Chemical production'],
+    thesis: 'Solugen makes chemicals biologically. Houston facility demonstrates scale. Carbon-negative production.',
+    yoyChange: 'same',
+    badges: ['Bio-Manufacturing']
+  },
+  {
+    rank: 43,
+    company: 'TerraPower',
+    category: 'Nuclear Energy',
+    highlights: ['Natrium development continuing', 'Wyoming site selected', 'Gates backing'],
+    thesis: 'TerraPower has Gates funding and Wyoming site. Natrium reactor development progressing. Long-term commitment.',
+    yoyChange: 'same',
+    badges: ['Advanced Nuclear']
+  },
+  {
+    rank: 44,
+    company: 'Boston Dynamics',
+    category: 'Robotics',
+    highlights: ['Spot widely deployed', 'Atlas demonstrations', 'Hyundai ownership'],
+    thesis: 'Boston Dynamics has the most capable robots. Spot is actually deployed for work. Hyundai brings manufacturing scale.',
+    yoyChange: 'same',
+    badges: ['Robot Capability']
+  },
+  {
+    rank: 45,
+    company: 'Groq',
+    category: 'Semiconductors',
+    highlights: ['LPU architecture shipping', 'Inference optimization', 'Speed benchmarks'],
+    thesis: 'Groq designed chips specifically for inference. Fastest inference performance. As AI deploys, inference matters more.',
+    yoyChange: 'new',
+    badges: ['Inference Hardware']
+  },
+  {
+    rank: 46,
+    company: 'Castelion',
+    category: 'Defense Technology',
+    highlights: ['Hypersonic targets developed', 'SpaceX iteration approach', 'DoD contracts'],
+    thesis: 'Castelion brings SpaceX speed to missiles. Hypersonic target systems delivered. Team executing fast.',
+    yoyChange: 'new',
+    badges: ['SpaceX Mafia']
+  },
+  {
+    rank: 47,
+    company: 'Twelve',
+    category: 'Climate Tech',
+    highlights: ['CO2 to chemicals', 'E-fuels development', 'Industrial applications'],
+    thesis: 'Twelve converts CO2 to useful chemicals. Industrial applications emerging. Different approach to carbon utilization.',
+    yoyChange: 'new',
+    badges: ['Carbon Utilization']
+  },
+  {
+    rank: 48,
+    company: 'Aurora Innovation',
+    category: 'Autonomous Vehicles',
+    highlights: ['Self-driving trucks', 'Texas operations', 'Freight focus'],
+    thesis: 'Aurora focused on trucking instead of robotaxis. Texas operations advancing. Freight is practical first market.',
+    yoyChange: 'down',
+    badges: ['AV Trucking']
+  },
+  {
+    rank: 49,
+    company: 'Nuro',
+    category: 'Autonomous Vehicles',
+    highlights: ['Delivery robots deployed', 'Retail partnerships', 'Last-mile focus'],
+    thesis: 'Nuro chose delivery instead of passengers. Lower stakes, faster deployment. Retail partnerships growing.',
+    yoyChange: 'down',
+    badges: ['Delivery Robots']
+  },
+  {
+    rank: 50,
+    company: 'Redwood Materials',
+    category: 'Climate Tech',
+    highlights: ['Battery recycling at scale', 'Straubel from Tesla', 'Circular economy play'],
+    thesis: 'Redwood recycles batteries to recover materials. JB Straubel from Tesla leads. Circular economy for EVs.',
+    yoyChange: 'new',
+    badges: ['Battery Recycling']
+  }
+];
+
+// Legacy simple rankings for backwards compatibility
 const INNOVATOR_50_HISTORY = {
   2025: {
     releaseDate: "2025-01-15",
     title: "The ROS Innovator 50 - 2025 Edition",
-    note: "Last edition to include household names before 2026's Under-the-Radar focus",
-    rankings: {
-      "SpaceX": 1,
-      "OpenAI": 2,
-      "Anduril Industries": 3,
-      "Anthropic": 4,
-      "Figure AI": 5,
-      "Shield AI": 6,
-      "Palantir Technologies": 7,
-      "Commonwealth Fusion Systems": 8,
-      "Boom Supersonic": 9,
-      "Relativity Space": 10,
-      "Cerebras": 11,
-      "Scale AI": 12,
-      "Saronic": 13,
-      "Joby Aviation": 14,
-      "Epirus": 15,
-      "Skydio": 16,
-      "Hadrian": 17,
-      "Hermeus": 18,
-      "Helion": 19,
-      "Zipline": 20,
-      "Groq": 21,
-      "Astranis": 22,
-      "Rocket Lab": 23,
-      "Physical Intelligence": 24,
-      "Castelion": 25,
-      "Varda Space Industries": 26,
-      "Oklo": 27,
-      "Applied Intuition": 28,
-      "Impulse Space": 29,
-      "Agility Robotics": 30,
-      "Archer Aviation": 31,
-      "Lightmatter": 32,
-      "Planet Labs": 33,
-      "Venus Aerospace": 34,
-      "Saildrone": 35,
-      "Radiant": 36,
-      "KoBold Metals": 37,
-      "Covariant": 38,
-      "Waymo": 39,
-      "Apptronik": 40,
-      "Fervo Energy": 41,
-      "Etched": 42,
-      "Kairos Power": 43,
-      "Gecko Robotics": 44,
-      "Heirloom Carbon": 45,
-      "Solugen": 46,
-      "TerraPower": 47,
-      "Terraform Industries": 48,
-      "Boston Dynamics": 49,
-      "Machina Labs": 50
-    },
+    subtitle: "The AI & Defense Acceleration Year",
+    methodology: "Our 2025 ranking captures a pivotal moment: AI companies at unprecedented scale, defense tech proving itself in real operations, and humanoid robots emerging as a viable category. We evaluated companies on Technology Moat, Momentum, Team Pedigree, Capital Efficiency, and Government Traction.",
+    fullRankings: INNOVATOR_50_2025,
+    rankings: Object.fromEntries(INNOVATOR_50_2025.map(c => [c.company, c.rank])),
     keyMovers: [
-      { company: "Saronic", from: null, to: 13, reason: "Fastest defense startup to reach $4B valuation" },
-      { company: "Physical Intelligence", from: null, to: 24, reason: "$5.6B valuation in first year of existence" },
-      { company: "Figure AI", from: null, to: 5, reason: "$39B valuation — humanoid robotics breakout" }
+      { company: "Figure AI", from: null, to: 5, reason: "Emerged as humanoid robotics leader with $2.6B raise and BMW partnership" },
+      { company: "Saronic", from: null, to: 13, reason: "Fastest defense startup to deliver hardware to Navy" },
+      { company: "Boom Supersonic", from: 12, to: 9, reason: "XB-1 first flight achieved — major milestone" }
     ]
   },
   2024: {
     releaseDate: "2024-01-18",
     title: "The ROS Innovator 50 - 2024 Edition",
-    rankings: {
-      "SpaceX": 1,
-      "OpenAI": 2,
-      "Anthropic": 8,
-      "Anduril Industries": 3,
-      "Palantir Technologies": 12,
-      "Commonwealth Fusion Systems": 7,
-      "Scale AI": 10,
-      "Boom Supersonic": 14,
-      "Relativity Space": 9,
-      "Shield AI": 11,
-      "Cerebras": 18,
-      "Joby Aviation": 13,
-      "Helion": 26,
-      "Epirus": 22,
-      "Skydio": 15,
-      "Hadrian": 25,
-      "Hermeus": 17,
-      "Zipline": 19,
-      "Rocket Lab": 20,
-      "Archer Aviation": 23,
-      "Astranis": 27,
-      "Covariant": 35,
-      "Impulse Space": 31,
-      "Planet Labs": 28,
-      "Axiom Space": 24,
-      "PsiQuantum": 21,
-      "Neuralink": 16,
-      "Waymo": 6,
-      "Applied Intuition": 30,
-      "Varda Space Industries": 34,
-      "Fervo Energy": 39,
-      "KoBold Metals": 32,
-      "Groq": 42,
-      "Lightmatter": 40,
-      "Oklo": 33,
-      "Agility Robotics": 38,
-      "Physical Intelligence": null,
-      "Figure AI": null,
-      "Saronic": null,
-      "Radiant": 45,
-      "IonQ": 36,
-      "Kairos Power": 43,
-      "Gecko Robotics": 44,
-      "Heirloom Carbon": 46,
-      "Solugen": 47,
-      "TerraPower": 48,
-      "Boston Dynamics": 49,
-      "Etched": null,
-      "Terraform Industries": null,
-      "Machina Labs": null
-    },
+    subtitle: "The Post-ChatGPT World",
+    methodology: "Our 2024 ranking reflects the transformative impact of GPT-4 and ChatGPT on the technology landscape. We saw AI companies surge, defense tech gain momentum from global conflicts, and space continue to mature. Rankings based on Technology Moat, Momentum, Team Pedigree, Capital Efficiency, and Government Traction.",
+    fullRankings: INNOVATOR_50_2024,
+    rankings: Object.fromEntries(INNOVATOR_50_2024.map(c => [c.company, c.rank])),
     keyMovers: [
-      { company: "Palantir Technologies", from: 12, to: 7, reason: "AIP platform driving commercial acceleration" },
-      { company: "Anthropic", from: 8, to: 4, reason: "Claude models reaching parity with GPT-4" },
-      { company: "Helion", from: 26, to: 19, reason: "Microsoft PPA validated commercial path" }
+      { company: "OpenAI", from: 4, to: 2, reason: "GPT-4 and ChatGPT changed the world" },
+      { company: "Anthropic", from: 8, to: 5, reason: "Claude 2 competitive with GPT-4, Google investment" },
+      { company: "Relativity Space", from: 9, to: 7, reason: "Terran 1 reached space — first 3D-printed rocket" }
     ]
   },
   2023: {
     releaseDate: "2023-01-22",
     title: "The ROS Innovator 50 - 2023 Edition",
+    subtitle: "Pre-AI Explosion",
+    methodology: "Our 2023 ranking preceded the ChatGPT revolution but captured the brewing AI momentum and continued space and defense innovation.",
     rankings: {
       "SpaceX": 1,
-      "OpenAI": 4,
-      "Anthropic": 15,
-      "Anduril Industries": 5,
-      "Palantir Technologies": 18,
-      "Commonwealth Fusion Systems": 6,
-      "Scale AI": 8,
-      "Boom Supersonic": 16,
-      "Relativity Space": 7,
-      "Shield AI": 14,
-      "Cerebras": 25,
-      "Joby Aviation": 11,
-      "Helion": 35,
-      "Epirus": 28,
-      "Skydio": 12,
-      "Hadrian": 32,
-      "Hermeus": 20,
-      "Zipline": 17,
-      "Rocket Lab": 19,
-      "Archer Aviation": 24,
-      "Astranis": 30,
-      "Covariant": 40,
-      "Impulse Space": 38,
-      "Planet Labs": 26,
-      "Axiom Space": 22,
-      "PsiQuantum": 23,
-      "Neuralink": 13,
-      "Waymo": 3,
-      "Applied Intuition": 33,
-      "Varda Space Industries": 42,
-      "Fervo Energy": 45,
-      "KoBold Metals": 36,
-      "Groq": null,
-      "Lightmatter": 44,
-      "Oklo": 37,
-      "Agility Robotics": 41
+      "Waymo": 2,
+      "OpenAI": 3,
+      "Anduril Industries": 4,
+      "Commonwealth Fusion Systems": 5,
+      "Relativity Space": 6,
+      "Scale AI": 7,
+      "Anthropic": 8,
+      "Joby Aviation": 9,
+      "Skydio": 10,
+      "Neuralink": 11,
+      "Shield AI": 12,
+      "Boom Supersonic": 13,
+      "Rocket Lab": 14,
+      "Palantir Technologies": 15,
+      "Zipline": 16,
+      "Hermeus": 17,
+      "Cerebras": 18,
+      "Archer Aviation": 19,
+      "PsiQuantum": 20
     },
     keyMovers: [
-      { company: "OpenAI", from: 4, to: 2, reason: "GPT-4 launch and ChatGPT explosion" },
-      { company: "Anthropic", from: 15, to: 8, reason: "Claude launch and constitutional AI approach" }
+      { company: "OpenAI", from: 6, to: 3, reason: "ChatGPT launched in late 2022 — world-changing" }
     ]
   }
 };

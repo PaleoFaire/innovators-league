@@ -6399,86 +6399,125 @@ function initInnovator50() {
 
   // Render historical ranking for a specific year
   function renderHistoricalRanking(year) {
+    // Update the header badge and subtitle based on year
+    const badge = document.querySelector('.innovator50-badge');
+    const subtitle = document.getElementById('i50-subtitle');
+
     if (year === 2026) {
       // Current year - use regular rendering
+      if (badge) badge.textContent = '🏆 2026 ANNUAL RANKING';
+      if (subtitle) subtitle.textContent = "The Under-the-Radar Edition — 50 frontier tech companies you should be watching that you probably haven't heard of yet. No SpaceX. No OpenAI. No Anthropic.";
       renderInnovator50();
       return;
     }
 
     // Historical year - use INNOVATOR_50_HISTORY
     if (typeof INNOVATOR_50_HISTORY === 'undefined' || !INNOVATOR_50_HISTORY[year]) {
-      grid.innerHTML = '<div class="i50-no-data">Historical data not available for ' + year + '</div>';
+      if (previewGrid) previewGrid.innerHTML = '';
+      if (fullGrid) fullGrid.innerHTML = '<div class="i50-no-data">Historical data not available for ' + year + '</div>';
       return;
     }
 
     const histData = INNOVATOR_50_HISTORY[year];
-    const rankings = histData.rankings;
+
+    // Update header for historical year
+    if (badge) badge.textContent = `📜 ${year} ARCHIVE`;
+    if (subtitle) subtitle.textContent = histData.subtitle || histData.methodology?.substring(0, 150) + '...';
+
     const selectedCategory = document.getElementById('i50-category')?.value || 'all';
 
-    // Convert rankings object to sorted array
-    let items = Object.entries(rankings)
-      .filter(([company, rank]) => rank !== null)
-      .map(([company, rank]) => {
-        const companyData = COMPANIES.find(c => c.name === company);
-        return {
-          rank,
-          company,
-          category: companyData?.sector || 'Unknown',
-          valuation: companyData?.valuation || '',
-          description: companyData?.description?.substring(0, 150) || ''
-        };
-      })
-      .sort((a, b) => a.rank - b.rank);
+    // Use full rankings if available, otherwise convert simple rankings
+    let items;
+    if (histData.fullRankings) {
+      items = [...histData.fullRankings];
+    } else {
+      // Fallback to simple rankings object
+      items = Object.entries(histData.rankings)
+        .filter(([company, rank]) => rank !== null)
+        .map(([company, rank]) => {
+          const companyData = COMPANIES.find(c => c.name === company);
+          return {
+            rank,
+            company,
+            category: companyData?.sector || 'Unknown',
+            highlights: [companyData?.description?.substring(0, 80) || ''],
+            thesis: companyData?.description || '',
+            yoyChange: 'same',
+            badges: []
+          };
+        })
+        .sort((a, b) => a.rank - b.rank);
+    }
 
     if (selectedCategory !== 'all') {
       items = items.filter(i => i.category === selectedCategory);
     }
 
-    grid.innerHTML = `
-      <div class="i50-historical-header">
-        <span class="i50-historical-badge">${year} ARCHIVE</span>
-        <h3>${histData.title}</h3>
-        <p>Released ${new Date(histData.releaseDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
-      </div>
-      ${items.slice(0, 50).map((item, i) => {
-        const sectorInfo = SECTORS[item.category] || { icon: '📦', color: '#6b7280' };
-        const rankClass = item.rank === 1 ? 'gold' : item.rank === 2 ? 'silver' : item.rank === 3 ? 'bronze' : '';
-        const rankDisplay = item.rank <= 3 ? ['🥇', '🥈', '🥉'][item.rank - 1] : `#${item.rank}`;
+    // Render preview (top 10)
+    if (previewGrid) {
+      const previewItems = items.slice(0, 10);
+      previewGrid.innerHTML = previewItems.map(item => renderHistoricalCard(item, year)).join('');
+    }
 
-        // Check if company is still in 2025 list
-        const currentEntry = INNOVATOR_50.find(c => c.company === item.company);
-        let statusBadge = '';
-        if (currentEntry) {
-          const change = item.rank - currentEntry.rank;
-          if (change > 0) statusBadge = `<span class="i50-status-badge up">Now #${currentEntry.rank} (↑${change})</span>`;
-          else if (change < 0) statusBadge = `<span class="i50-status-badge down">Now #${currentEntry.rank} (↓${Math.abs(change)})</span>`;
-          else statusBadge = `<span class="i50-status-badge same">Still #${currentEntry.rank}</span>`;
-        } else {
-          statusBadge = `<span class="i50-status-badge dropped">Not in 2025</span>`;
-        }
-
-        return `
-          <div class="i50-card historical ${rankClass}" onclick="openCompanyModal('${item.company.replace(/'/g, "\\'")}')">
-            <div class="i50-rank-section">
-              <div class="i50-rank ${rankClass}">${rankDisplay}</div>
-            </div>
-            <div class="i50-content">
-              <div class="i50-header">
-                <div class="i50-company-name">${item.company}</div>
-                <div class="i50-category" style="color: ${sectorInfo.color}">${sectorInfo.icon} ${item.category}</div>
-              </div>
-              ${statusBadge}
-              ${item.valuation ? `<div class="i50-valuation">${item.valuation}</div>` : ''}
-            </div>
-          </div>
-        `;
-      }).join('')}
-    `;
+    // Render full grid (11-50)
+    if (fullGrid) {
+      const remainingItems = items.slice(10, 50);
+      fullGrid.innerHTML = remainingItems.map(item => renderHistoricalCard(item, year)).join('');
+    }
 
     // Add animation delays
     document.querySelectorAll('.i50-card').forEach((card, i) => {
       card.style.animationDelay = `${i * 0.03}s`;
     });
+  }
+
+  // Render a historical card with full data
+  function renderHistoricalCard(item, year) {
+    const sectorInfo = SECTORS[item.category] || { icon: '📦', color: '#6b7280' };
+    const rankClass = item.rank === 1 ? 'gold' : item.rank === 2 ? 'silver' : item.rank === 3 ? 'bronze' : '';
+    const rankDisplay = item.rank <= 3 ? ['🥇', '🥈', '🥉'][item.rank - 1] : `#${item.rank}`;
+
+    // Check if company is still in 2026 list
+    const currentEntry = INNOVATOR_50.find(c => c.company === item.company);
+    let statusBadge = '';
+    if (currentEntry) {
+      const change = item.rank - currentEntry.rank;
+      if (change > 0) statusBadge = `<span class="i50-status-badge up">Now #${currentEntry.rank} in 2026</span>`;
+      else if (change < 0) statusBadge = `<span class="i50-status-badge down">Now #${currentEntry.rank} in 2026</span>`;
+      else statusBadge = `<span class="i50-status-badge same">Still #${currentEntry.rank} in 2026</span>`;
+    } else {
+      statusBadge = `<span class="i50-status-badge dropped">Not in 2026 list</span>`;
+    }
+
+    // Movement indicator from yoyChange
+    let movement = '';
+    if (item.yoyChange === 'new') movement = '<span class="i50-movement new">NEW</span>';
+    else if (item.yoyChange === 'up') movement = '<span class="i50-movement up">↑</span>';
+    else if (item.yoyChange === 'down') movement = '<span class="i50-movement down">↓</span>';
+
+    const badges = (item.badges || []).map(b => `<span class="i50-badge">${b}</span>`).join('');
+
+    return `
+      <div class="i50-card historical ${rankClass}" onclick="openCompanyModal('${item.company.replace(/'/g, "\\'")}')">
+        <div class="i50-rank-section">
+          <div class="i50-rank ${rankClass}">${rankDisplay}</div>
+          ${movement}
+        </div>
+        <div class="i50-content">
+          <div class="i50-header">
+            <div class="i50-company-name">${item.company}</div>
+            <div class="i50-category" style="color: ${sectorInfo.color}">${sectorInfo.icon} ${item.category}</div>
+          </div>
+          <div class="i50-badges">${badges}</div>
+          <ul class="i50-highlights">
+            ${(item.highlights || []).slice(0, 2).map(h => `<li>${h}</li>`).join('')}
+          </ul>
+          <div class="i50-footer">
+            ${statusBadge}
+          </div>
+        </div>
+      </div>
+    `;
   }
 
   renderInnovator50();
