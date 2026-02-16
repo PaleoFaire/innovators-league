@@ -17639,23 +17639,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-16 14:32
+// Last updated: 2026-02-16 17:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Flexport", headline: "Flapping Airplanes on the future of AI: 'We want to try really radically different things'", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Standard Nuclear", headline: "The space nuclear power bottleneck ' and how to fix it", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Kyutai", headline: "After all the hype, some AI experts don't think OpenClaw is all that exciting", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Together AI", headline: "Inside the App Where Queer Gooners Run Free", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "All the important news from the ongoing India AI Impact Summit", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Xcimer Energy", headline: "Makers Are Building Back Against ICE", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Scale AI", headline: "As AI data centers hit power limits, Peak XV backs Indian startup C2i to fix the bottleneck", source: "TechCrunch", time: "13h ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "The Boring Company", headline: "Blackstone backs Neysa in up to $1.2B financing as India pushes to build domestic AI infrastructure", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Osmo", headline: "Isaacman planning to meet with head of Roscosmos", source: "SpaceNews", time: "14h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "OpenClaw creator Peter Steinberger joins OpenAI", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Anthropic", headline: "Anthropic and the Pentagon are reportedly arguing over Claude usage", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "OpenAI", headline: "India has 100M weekly active ChatGPT users, Sam Altman says", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Turbopuffer", headline: "The enterprise AI land grab is on. Glean is building the layer beneath the interface.", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Turbopuffer", headline: "&quot;It ain't no unicorn&quot;: These researchers have interviewed 130 Bigfoot hunters", source: "Ars Technica Space", time: "21h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Rivian", headline: "TechCrunch Mobility: Rivian's savior", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Andrenam", headline: "Saudi Arabia buys C-27 cargo planes fitted for armed maritime patrols", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Vannevar Labs", headline: "How Ricursive Intelligence raised $335M at a $4B valuation in 4 months", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 3, type: "ipo", company: "Vast", headline: "NASA work on several programs pending responses to White House executive order", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Flexport", headline: "Flapping Airplanes on the future of AI: 'We want to try really radically different things'", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Standard Nuclear", headline: "The space nuclear power bottleneck ' and how to fix it", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Kyutai", headline: "After all the hype, some AI experts don't think OpenClaw is all that exciting", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Together AI", headline: "Inside the App Where Queer Gooners Run Free", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "All the important news from the ongoing India AI Impact Summit", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Xcimer Energy", headline: "Makers Are Building Back Against ICE", source: "Wired", time: "7h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Scale AI", headline: "As AI data centers hit power limits, Peak XV backs Indian startup C2i to fix the bottleneck", source: "TechCrunch", time: "16h ago", impact: "medium", unread: false },
+  { id: 11, type: "news", company: "The Boring Company", headline: "Blackstone backs Neysa in up to $1.2B financing as India pushes to build domestic AI infrastructure", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Osmo", headline: "Isaacman planning to meet with head of Roscosmos", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "OpenClaw creator Peter Steinberger joins OpenAI", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Anthropic", headline: "Anthropic and the Pentagon are reportedly arguing over Claude usage", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "OpenAI", headline: "India has 100M weekly active ChatGPT users, Sam Altman says", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
