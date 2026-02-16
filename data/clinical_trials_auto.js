@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-02-16 09:37:43 UTC
+// Last updated: 2026-02-16 05:42:43 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT06207032", title: "TEMPUS ARIES: A Biobank Registry Platform Study in Oncology", status: "RECRUITING", phase: "N/A", sponsor: "Tempus AI", conditions: "Cancer", enrollment: 500, lastUpdated: "2026-02-13" },
   { nctId: "NCT04981119", title: "Solid Tumor Analysis for HLA Loss of Heterozygosity (LOH) and Apheresis for CAR ", status: "RECRUITING", phase: "N/A", sponsor: "A2 Biotherapeutics Inc.", conditions: "Solid Tumor, Adult, Colorectal Cancer, Non Small C", enrollment: 200, lastUpdated: "2026-02-13" },
