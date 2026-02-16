@@ -30,6 +30,9 @@ function initJobs() {
         // Render sector stats
         renderSectorStats();
 
+        // Render Hiring Intelligence Dashboard
+        renderHiringIntelligence();
+
         // Render initial jobs
         renderJobs();
     } else {
@@ -125,6 +128,123 @@ function renderSectorStats() {
             <div class="jobs-stat-label">${sectorNames[sector] || sector} Jobs</div>
         </div>
     `).join('');
+}
+
+function renderHiringIntelligence() {
+    const stats = typeof JOBS_STATS !== 'undefined' ? JOBS_STATS : { byCompany: {}, bySector: {} };
+
+    // Top Hiring Leaders
+    const leadersContainer = document.getElementById('hiring-leaders');
+    if (leadersContainer) {
+        const topCompanies = Object.entries(stats.byCompany)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 6);
+
+        const avgJobsPerCompany = Math.round(
+            Object.values(stats.byCompany).reduce((a, b) => a + b, 0) /
+            Object.keys(stats.byCompany).length
+        );
+
+        leadersContainer.innerHTML = topCompanies.map(([company, count], idx) => {
+            const isAboveAvg = count > avgJobsPerCompany * 2;
+            const growthLabel = isAboveAvg ? '🔥 Hypergrowth' : count > avgJobsPerCompany ? '📈 Growing' : '➡️ Stable';
+            const badges = ['🥇', '🥈', '🥉', '4️⃣', '5️⃣', '6️⃣'];
+
+            return `
+                <div style="background:linear-gradient(135deg,rgba(255,255,255,0.03) 0%,rgba(255,255,255,0.01) 100%);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:1.25rem;cursor:pointer;transition:all 0.2s;" onclick="filterByCompany('${company}')">
+                    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.75rem;">
+                        <span style="font-size:1.5rem;">${badges[idx]}</span>
+                        <span style="font-size:0.7rem;padding:4px 8px;background:${isAboveAvg ? 'rgba(34,197,94,0.15)' : 'rgba(255,140,0,0.1)'};color:${isAboveAvg ? '#22c55e' : 'var(--accent-orange)'};border-radius:4px;font-weight:600;">${growthLabel}</span>
+                    </div>
+                    <div style="font-size:1rem;font-weight:700;color:var(--text-primary);margin-bottom:0.25rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${company}</div>
+                    <div style="font-family:'Space Grotesk',sans-serif;font-size:1.75rem;font-weight:800;color:var(--accent-orange);">${count}</div>
+                    <div style="font-size:0.75rem;color:var(--text-secondary);">open positions</div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    // Sector Hiring Bars
+    const sectorBarsContainer = document.getElementById('sector-hiring-bars');
+    if (sectorBarsContainer) {
+        const sectorData = Object.entries(stats.bySector)
+            .filter(([sector]) => !['tech'].includes(sector.toLowerCase()))
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 8);
+
+        const maxJobs = sectorData[0]?.[1] || 1;
+
+        sectorBarsContainer.innerHTML = sectorData.map(([sector, count]) => {
+            const percentage = Math.round((count / maxJobs) * 100);
+            const sectorColors = {
+                'Space & Aerospace': '#3b82f6',
+                'Defense & Security': '#ef4444',
+                'AI & Software': '#8b5cf6',
+                'Nuclear Energy': '#22c55e',
+                'Robotics & Manufacturing': '#f59e0b',
+                'Chips & Semiconductors': '#06b6d4',
+                'Climate & Energy': '#10b981',
+                'Drones & Autonomous': '#f97316',
+                'Biotech & Health': '#ec4899',
+                'Quantum Computing': '#6366f1'
+            };
+            const color = sectorColors[sector] || '#6b7280';
+
+            return `
+                <div style="display:flex;align-items:center;gap:12px;">
+                    <div style="width:160px;font-size:0.85rem;color:var(--text-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${sector}</div>
+                    <div style="flex:1;height:24px;background:rgba(255,255,255,0.05);border-radius:4px;overflow:hidden;">
+                        <div style="width:${percentage}%;height:100%;background:${color};border-radius:4px;transition:width 0.5s ease;"></div>
+                    </div>
+                    <div style="width:60px;text-align:right;font-weight:700;color:var(--text-primary);">${count.toLocaleString()}</div>
+                </div>
+            `;
+        }).join('');
+    }
+
+    // Hiring Insights
+    const insightsContainer = document.getElementById('hiring-insights');
+    if (insightsContainer) {
+        const totalJobs = Object.values(stats.byCompany).reduce((a, b) => a + b, 0);
+        const companiesHiring = Object.keys(stats.byCompany).length;
+        const avgPerCompany = Math.round(totalJobs / companiesHiring);
+        const remoteJobs = stats.remoteJobs || allJobs.filter(j => j.remote).length;
+        const remotePercent = Math.round((remoteJobs / totalJobs) * 100);
+
+        // Find fastest growing sector (highest job count)
+        const topSector = Object.entries(stats.bySector)
+            .filter(([s]) => s !== 'tech')
+            .sort((a, b) => b[1] - a[1])[0];
+
+        insightsContainer.innerHTML = `
+            <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:1.25rem;text-align:center;">
+                <div style="font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Avg Jobs per Company</div>
+                <div style="font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:800;color:var(--text-primary);">${avgPerCompany}</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:1.25rem;text-align:center;">
+                <div style="font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Remote Positions</div>
+                <div style="font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:800;color:#22c55e;">${remotePercent}%</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:1.25rem;text-align:center;">
+                <div style="font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Hottest Sector</div>
+                <div style="font-family:'Space Grotesk',sans-serif;font-size:1rem;font-weight:700;color:var(--accent-orange);line-height:1.3;">${topSector ? topSector[0] : 'N/A'}</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:1.25rem;text-align:center;">
+                <div style="font-size:0.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Companies Hiring</div>
+                <div style="font-family:'Space Grotesk',sans-serif;font-size:2rem;font-weight:800;color:#3b82f6;">${companiesHiring}</div>
+            </div>
+        `;
+    }
+}
+
+function filterByCompany(company) {
+    const companyFilter = document.getElementById('company-filter');
+    if (companyFilter) {
+        companyFilter.value = company;
+        currentPage = 1;
+        applyFilters();
+        scrollToJobs();
+    }
 }
 
 function setupEventListeners() {
