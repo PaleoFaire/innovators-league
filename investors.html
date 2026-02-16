@@ -19,10 +19,11 @@
         </div>
         <div class="nav-links">
             <a href="index.html#discovery-hub" class="nav-link">🗺️ Map</a>
-            <a href="index.html#discovery-hub" class="nav-link">📊 Database</a>
+            <a href="index.html#companies" class="nav-link">📊 Database</a>
             <a href="index.html#innovator50" class="nav-link">🏆 ROS 50</a>
             <a href="visualizations.html" class="nav-link">📈 Insights</a>
             <a href="investors.html" class="nav-link active">💰 Investors</a>
+            <a href="jobs.html" class="nav-link">💼 Jobs</a>
             <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
         </div>
         <button class="mobile-menu-btn" aria-label="Menu">
@@ -87,15 +88,47 @@
         </div>
     </section>
 
-    <!-- Co-Investment Network -->
+    <!-- Active Deployers -->
+    <section class="section active-deployers-section" id="active-deployers">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">RECENT ACTIVITY</p>
+                <h2>Active Deployers</h2>
+                <p>VCs with the most recent deal activity — who's actively deploying capital right now.</p>
+            </div>
+            <div class="active-deployers-grid" id="active-deployers-grid"></div>
+        </div>
+    </section>
+
+    <!-- Co-Investment Network Graph -->
     <section class="section co-invest-section" id="co-invest">
         <div class="container">
             <div class="section-header">
                 <p class="section-eyebrow">NETWORK ANALYSIS</p>
-                <h2>Co-Investment Overlap</h2>
-                <p>Which VCs share portfolio companies — revealing syndication patterns and conviction clusters.</p>
+                <h2>Co-Investment Network</h2>
+                <p>Visualizing syndication patterns — which VCs consistently invest together.</p>
+            </div>
+            <div class="co-invest-graph-container">
+                <div class="co-invest-graph" id="co-invest-graph"></div>
+                <div class="co-invest-legend">
+                    <div class="legend-item"><span class="legend-dot" style="background: var(--accent);"></span> VC Firm</div>
+                    <div class="legend-item"><span class="legend-line"></span> Co-investments</div>
+                    <div class="legend-note">Click a node to highlight connections. Drag to explore.</div>
+                </div>
             </div>
             <div class="overlap-matrix" id="overlap-matrix"></div>
+        </div>
+    </section>
+
+    <!-- Follow-On Patterns -->
+    <section class="section follow-on-section" id="follow-on">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">SYNDICATION INTELLIGENCE</p>
+                <h2>Follow-On Investment Patterns</h2>
+                <p>When one VC leads, who follows? Revealing the trust networks in deep tech investing.</p>
+            </div>
+            <div class="follow-on-grid" id="follow-on-grid"></div>
         </div>
     </section>
 
