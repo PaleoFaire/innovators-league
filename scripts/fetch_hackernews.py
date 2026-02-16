@@ -3,6 +3,7 @@
 Hacker News API Fetcher
 Tracks startup buzz and tech community discussions.
 Uses the free Firebase Hacker News API - no key required, no rate limits.
+Now uses master company list for 450+ company coverage.
 """
 
 import json
@@ -12,32 +13,42 @@ from pathlib import Path
 import time
 import re
 
-# Companies to track mentions
-TRACKED_COMPANIES = [
-    # Defense Tech
-    "Anduril", "Shield AI", "Palantir", "Saronic", "Hadrian", "Epirus",
-    "Skydio", "Hermeus", "Castelion", "Vannevar",
+# Load master company list
+def load_master_companies():
+    """Load company names and aliases from the JS master list."""
+    script_dir = Path(__file__).parent
+    master_list_path = script_dir / "company_master_list.js"
 
-    # Space
-    "SpaceX", "Starlink", "Rocket Lab", "Relativity Space", "Astra",
-    "Planet Labs", "Varda Space", "Impulse Space", "Stoke Space",
-    "Astranis", "Firefly Aerospace", "Blue Origin", "Sierra Space",
+    companies = []
+    if master_list_path.exists():
+        content = master_list_path.read_text()
+        # Simple regex extraction of company names and aliases
+        pattern = r'\{\s*name:\s*"([^"]+)",\s*aliases:\s*\[([^\]]*)\]'
+        for match in re.finditer(pattern, content):
+            name = match.group(1)
+            aliases_str = match.group(2)
+            aliases = [a.strip().strip('"') for a in aliases_str.split(',') if a.strip()]
+            companies.append({
+                'name': name,
+                'aliases': aliases,
+                'search_terms': [name] + aliases
+            })
 
-    # Nuclear
-    "Oklo", "NuScale", "Kairos Power", "Commonwealth Fusion", "Helion",
-    "TAE Technologies", "Radiant Nuclear", "TerraPower", "X-energy",
+    return companies
 
-    # AI/Robotics
-    "OpenAI", "Anthropic", "Figure AI", "Physical Intelligence",
-    "Covariant", "Agility Robotics", "Boston Dynamics", "1X Technologies",
-    "Groq", "Cerebras", "Mistral", "Cohere",
+# Load company list at module level
+MASTER_COMPANIES = load_master_companies()
 
-    # Quantum
-    "IonQ", "Rigetti", "D-Wave", "PsiQuantum", "Atom Computing",
+# Build tracked companies list from master
+def get_tracked_companies():
+    """Get all company names for tracking."""
+    if MASTER_COMPANIES:
+        return [c['name'] for c in MASTER_COMPANIES]
+    else:
+        # Fallback
+        return ["Anduril", "SpaceX", "OpenAI", "Anthropic", "Tesla"]
 
-    # Biotech
-    "Recursion", "Ginkgo Bioworks", "Mammoth Biosciences",
-]
+TRACKED_COMPANIES = get_tracked_companies()
 
 # Technology keywords to track
 TECH_KEYWORDS = [
@@ -45,9 +56,31 @@ TECH_KEYWORDS = [
     "hypersonic", "small modular reactor", "fusion reactor",
     "quantum computer", "LLM", "foundation model",
     "SBIR", "DARPA", "defense tech", "space startup",
+    "nuclear fusion", "AGI", "robotics", "space launch",
 ]
 
 HN_API_BASE = "https://hacker-news.firebaseio.com/v0"
+
+def mentions_company(text):
+    """Check if text mentions any tracked company (with alias support)."""
+    text_lower = text.lower()
+    matches = []
+
+    if MASTER_COMPANIES:
+        for company in MASTER_COMPANIES:
+            if company['name'].lower() in text_lower:
+                matches.append(company['name'])
+                continue
+            for alias in company['aliases']:
+                if len(alias) >= 4 and alias.lower() in text_lower:
+                    matches.append(company['name'])
+                    break
+    else:
+        for company in TRACKED_COMPANIES:
+            if company.lower() in text_lower:
+                matches.append(company)
+
+    return list(set(matches))
 
 def fetch_top_stories(limit=100):
     """Fetch top story IDs."""
@@ -94,7 +127,7 @@ def fetch_story(story_id):
     return None
 
 def search_stories(story_ids, batch_size=50):
-    """Fetch and filter stories for relevant mentions."""
+    """Fetch and filter stories for relevant mentions (now with 450+ companies)."""
     relevant_stories = []
 
     for i, story_id in enumerate(story_ids[:batch_size]):
@@ -106,18 +139,16 @@ def search_stories(story_ids, batch_size=50):
         url = story.get("url", "")
         text = story.get("text", "") or ""
 
-        combined_text = f"{title} {url} {text}".lower()
+        combined_text = f"{title} {url} {text}"
 
-        # Check for company mentions
-        matched_companies = []
-        for company in TRACKED_COMPANIES:
-            if company.lower() in combined_text:
-                matched_companies.append(company)
+        # Check for company mentions using master list with aliases
+        matched_companies = mentions_company(combined_text)
 
         # Check for keyword mentions
+        combined_lower = combined_text.lower()
         matched_keywords = []
         for keyword in TECH_KEYWORDS:
-            if keyword.lower() in combined_text:
+            if keyword.lower() in combined_lower:
                 matched_keywords.append(keyword)
 
         if matched_companies or matched_keywords:
@@ -219,7 +250,8 @@ def main():
     print("=" * 60)
     print("Hacker News Startup Buzz Tracker")
     print("=" * 60)
-    print(f"Tracking {len(TRACKED_COMPANIES)} companies")
+    print(f"Master company list: {len(MASTER_COMPANIES)} companies loaded")
+    print(f"Tracking {len(TRACKED_COMPANIES)} companies (names)")
     print(f"Tracking {len(TECH_KEYWORDS)} tech keywords")
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)

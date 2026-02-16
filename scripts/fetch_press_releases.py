@@ -3,6 +3,7 @@
 Press Release Aggregator
 Fetches press releases from PR Newswire and GlobeNewswire RSS feeds.
 Completely free - uses public RSS feeds.
+Now uses master company list for 450+ company coverage.
 """
 
 import json
@@ -13,6 +14,34 @@ from pathlib import Path
 import time
 import re
 from html import unescape
+
+# Load master company list
+def load_master_companies():
+    """Load company names and aliases from the JS master list."""
+    script_dir = Path(__file__).parent
+    master_list_path = script_dir / "company_master_list.js"
+
+    companies = []
+    if master_list_path.exists():
+        content = master_list_path.read_text()
+        # Simple regex extraction of company names and aliases
+        import re
+        # Match: { name: "...", aliases: [...], ...
+        pattern = r'\{\s*name:\s*"([^"]+)",\s*aliases:\s*\[([^\]]*)\]'
+        for match in re.finditer(pattern, content):
+            name = match.group(1)
+            aliases_str = match.group(2)
+            aliases = [a.strip().strip('"') for a in aliases_str.split(',') if a.strip()]
+            companies.append({
+                'name': name,
+                'aliases': aliases,
+                'search_terms': [name] + aliases
+            })
+
+    return companies
+
+# Load company list at module level
+MASTER_COMPANIES = load_master_companies()
 
 # PR Newswire RSS feeds by industry
 PR_NEWSWIRE_FEEDS = {
@@ -27,37 +56,25 @@ GLOBENEWSWIRE_FEEDS = {
     "all": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20Releases",
 }
 
-# Companies to track
-TRACKED_COMPANIES = [
-    # Defense
-    "Anduril", "Shield AI", "Palantir", "Saronic", "Hadrian", "Epirus",
-    "Skydio", "Kratos", "L3Harris", "Northrop Grumman", "Raytheon",
-    "Lockheed Martin", "General Dynamics", "BAE Systems",
+# Build TRACKED_COMPANIES from master list (450+ companies with aliases)
+def get_tracked_companies():
+    """Get all company names and aliases for tracking."""
+    if MASTER_COMPANIES:
+        all_terms = []
+        for company in MASTER_COMPANIES:
+            all_terms.append(company['name'])
+            # Only add aliases that are 4+ chars to avoid false matches
+            all_terms.extend([a for a in company['aliases'] if len(a) >= 4])
+        return list(set(all_terms))
+    else:
+        # Fallback to basic list if master list not found
+        return [
+            "Anduril", "Shield AI", "Palantir", "SpaceX", "Rocket Lab",
+            "OpenAI", "Anthropic", "Figure AI", "Oklo", "Helion",
+            "Commonwealth Fusion", "Tesla", "Nvidia", "AMD"
+        ]
 
-    # Space
-    "SpaceX", "Rocket Lab", "Relativity Space", "Firefly",
-    "Planet Labs", "Spire Global", "Maxar", "Astranis",
-    "Intuitive Machines", "Astrobotic", "Sierra Space", "Axiom Space",
-    "Blue Origin", "Virgin Galactic", "Redwire",
-
-    # Nuclear
-    "Oklo", "NuScale", "Kairos Power", "TerraPower", "X-energy",
-    "Commonwealth Fusion", "Helion", "TAE Technologies",
-    "Westinghouse", "Centrus Energy",
-
-    # AI/Robotics
-    "OpenAI", "Anthropic", "Figure AI", "Covariant",
-    "Agility Robotics", "Boston Dynamics", "Nvidia", "AMD",
-    "Cerebras", "Groq", "Scale AI",
-
-    # Quantum
-    "IonQ", "Rigetti", "D-Wave", "IBM Quantum",
-    "Google Quantum", "Honeywell Quantum",
-
-    # Biotech
-    "Recursion", "Ginkgo Bioworks", "Illumina", "Exact Sciences",
-    "Moderna", "BioNTech", "CRISPR Therapeutics", "Intellia",
-]
+TRACKED_COMPANIES = get_tracked_companies()
 
 # Keywords for categorization
 CATEGORY_KEYWORDS = {
@@ -102,26 +119,49 @@ def parse_rss_feed(url, source):
         return []
 
 def filter_relevant_releases(items):
-    """Filter press releases for tracked companies."""
+    """Filter press releases for tracked companies using master list."""
     relevant = []
 
     for item in items:
         text = (item.get("title", "") + " " + item.get("description", "")).lower()
 
-        # Find matching companies
+        # Find matching companies from master list
         matched_companies = []
-        for company in TRACKED_COMPANIES:
-            if company.lower() in text:
-                matched_companies.append(company)
+        matched_sectors = set()
+
+        if MASTER_COMPANIES:
+            for company in MASTER_COMPANIES:
+                # Check company name
+                if company['name'].lower() in text:
+                    matched_companies.append(company['name'])
+                    continue
+                # Check aliases (4+ chars only)
+                for alias in company['aliases']:
+                    if len(alias) >= 4 and alias.lower() in text:
+                        matched_companies.append(company['name'])
+                        break
+        else:
+            # Fallback to simple matching
+            for company in TRACKED_COMPANIES:
+                if company.lower() in text:
+                    matched_companies.append(company)
 
         if matched_companies:
+            # Remove duplicates while preserving order
+            seen = set()
+            unique_companies = []
+            for c in matched_companies:
+                if c not in seen:
+                    seen.add(c)
+                    unique_companies.append(c)
+
             # Categorize the release
             categories = []
             for cat, keywords in CATEGORY_KEYWORDS.items():
                 if any(kw.lower() in text for kw in keywords):
                     categories.append(cat)
 
-            item["companies"] = matched_companies
+            item["companies"] = unique_companies
             item["categories"] = categories
             relevant.append(item)
 
@@ -210,7 +250,8 @@ def main():
     print("=" * 60)
     print("Press Release Aggregator")
     print("=" * 60)
-    print(f"Tracking {len(TRACKED_COMPANIES)} companies")
+    print(f"Master company list: {len(MASTER_COMPANIES)} companies loaded")
+    print(f"Search terms: {len(TRACKED_COMPANIES)} (including aliases)")
     print(f"Fetching from {len(PR_NEWSWIRE_FEEDS) + len(GLOBENEWSWIRE_FEEDS)} RSS feeds")
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)

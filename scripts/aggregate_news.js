@@ -2,12 +2,16 @@
 /**
  * RSS News Aggregator for The Innovators League
  * Fetches news from multiple RSS feeds and filters for tracked companies.
+ * Now using MASTER_COMPANY_LIST for 450+ company coverage.
  */
 
 const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+
+// Import the master company list (450+ companies with aliases)
+const { MASTER_COMPANY_LIST, mentionsCompany, getAllSearchTerms, getStats } = require('./company_master_list.js');
 
 // RSS feeds to monitor
 const RSS_FEEDS = [
@@ -33,43 +37,8 @@ const RSS_FEEDS = [
   { name: 'Crunchbase News', url: 'https://news.crunchbase.com/feed/', category: 'funding' },
 ];
 
-// Companies to track (keywords for matching)
-const TRACKED_COMPANIES = [
-  // Defense & Security
-  'Anduril', 'Shield AI', 'Palantir', 'Epirus', 'Saronic', 'Skydio',
-  'Chaos Industries', 'Castelion', 'Hadrian', 'Vannevar Labs', 'Rebellion Defense',
-
-  // Space & Aerospace
-  'SpaceX', 'Starlink', 'Starship', 'Rocket Lab', 'Relativity Space',
-  'Axiom Space', 'Sierra Space', 'Planet Labs', 'Varda Space', 'Impulse Space',
-  'Boom Supersonic', 'Hermeus', 'Venus Aerospace', 'Astranis', 'Muon Space',
-
-  // Nuclear & Energy
-  'Commonwealth Fusion', 'Helion Energy', 'Oklo', 'Kairos Power', 'TerraPower',
-  'NuScale', 'Fervo Energy', 'Koloma', 'Antora Energy', 'Form Energy',
-
-  // AI & Software
-  'OpenAI', 'Anthropic', 'Scale AI', 'Covariant', 'Physical Intelligence',
-  'Groq', 'Cerebras', 'Etched', 'Lightmatter',
-
-  // Robotics
-  'Figure AI', 'Boston Dynamics', 'Agility Robotics', 'Apptronik',
-  'Collaborative Robotics', 'Cobot', '1X Technologies',
-
-  // Quantum
-  'PsiQuantum', 'IonQ', 'Rigetti', 'Atom Computing',
-
-  // Biotech
-  'Neuralink', 'Colossal Biosciences', 'Altos Labs', 'Retro Biosciences',
-  'Ginkgo Bioworks',
-
-  // Transportation
-  'Joby Aviation', 'Archer Aviation', 'Lilium', 'Zipline', 'Waymo', 'Zoox',
-  'Applied Intuition', 'Aurora Innovation',
-
-  // Other frontier tech
-  'Flexport', 'Hadrian', 'ICON Technology', 'Mighty Buildings',
-];
+// Companies are now tracked via MASTER_COMPANY_LIST (450+ companies with aliases)
+// This gives us ~6x better coverage than the previous 72 hardcoded companies
 
 // Simple XML parser for RSS
 function parseRSS(xml) {
@@ -151,16 +120,22 @@ function fetchFeed(feed) {
   });
 }
 
-// Check if article mentions a tracked company
+// Check if article mentions a tracked company (now uses MASTER_COMPANY_LIST with aliases)
 function mentionsTrackedCompany(article) {
-  const text = `${article.title} ${article.description}`.toLowerCase();
+  const text = `${article.title} ${article.description}`;
+  const matches = mentionsCompany(text);
 
-  for (const company of TRACKED_COMPANIES) {
-    if (text.includes(company.toLowerCase())) {
-      return company;
-    }
+  if (matches.length > 0) {
+    // Return the first matched company name
+    return matches[0].name;
   }
   return null;
+}
+
+// Get all matched companies for an article (for multi-company articles)
+function getAllMatchedCompanies(article) {
+  const text = `${article.title} ${article.description}`;
+  return mentionsCompany(text);
 }
 
 // Categorize article type
@@ -220,10 +195,13 @@ function formatRelativeTime(dateStr) {
 }
 
 async function main() {
+  const stats = getStats();
   console.log('='.repeat(60));
   console.log('RSS News Aggregator for The Innovators League');
   console.log('='.repeat(60));
-  console.log(`Monitoring ${RSS_FEEDS.length} feeds for ${TRACKED_COMPANIES.length} companies`);
+  console.log(`Monitoring ${RSS_FEEDS.length} feeds for ${stats.totalCompanies} companies`);
+  console.log(`Search terms: ${stats.totalSearchTerms} (including aliases)`);
+  console.log(`Sectors covered: ${stats.sectors.join(', ')}`);
   console.log(`Date: ${new Date().toISOString()}`);
   console.log('='.repeat(60));
 
@@ -245,14 +223,16 @@ async function main() {
 
   console.log(`\nTotal articles fetched: ${allArticles.length}`);
 
-  // Filter for tracked companies
+  // Filter for tracked companies (now checking 450+ companies with aliases)
   const relevantArticles = [];
   for (const article of allArticles) {
-    const company = mentionsTrackedCompany(article);
-    if (company) {
+    const matches = getAllMatchedCompanies(article);
+    if (matches.length > 0) {
       relevantArticles.push({
         ...article,
-        matchedCompany: company,
+        matchedCompany: matches[0].name,
+        matchedCompanies: matches.map(m => m.name),
+        sectors: [...new Set(matches.map(m => m.sector))],
         type: categorizeArticle(article),
         impact: estimateImpact(article),
         time: formatRelativeTime(article.pubDate)

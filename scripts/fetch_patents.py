@@ -3,65 +3,68 @@
 USPTO PatentsView Patent Fetcher
 Fetches patent data for companies tracked in The Innovators League.
 Free API - no key required.
+Now uses master company list for 450+ company coverage.
 """
 
 import json
 import requests
+import re
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# Companies to track for patents (using assignee names)
-TRACKED_ASSIGNEES = [
-    # Defense & Security
-    ("Anduril Industries", ["Anduril Industries", "Anduril Industries Inc"]),
-    ("Shield AI", ["Shield AI", "Shield AI Inc"]),
-    ("Palantir", ["Palantir Technologies", "Palantir Technologies Inc"]),
-    ("Epirus", ["Epirus Inc", "Epirus"]),
-    ("Skydio", ["Skydio Inc", "Skydio"]),
+# Load master company list and generate assignee variants
+def load_master_companies():
+    """Load company names from master list and generate USPTO assignee variants."""
+    script_dir = Path(__file__).parent
+    master_list_path = script_dir / "company_master_list.js"
 
-    # Space & Aerospace
-    ("SpaceX", ["Space Exploration Technologies Corp", "SpaceX"]),
-    ("Rocket Lab", ["Rocket Lab USA", "Rocket Lab"]),
-    ("Relativity Space", ["Relativity Space Inc", "Relativity Space"]),
-    ("Planet Labs", ["Planet Labs Inc", "Planet Labs PBC"]),
-    ("Axiom Space", ["Axiom Space Inc", "Axiom Space"]),
-    ("Boom Supersonic", ["Boom Technology", "Boom Supersonic"]),
-    ("Hermeus", ["Hermeus Corporation", "Hermeus"]),
+    assignees = []
+    if master_list_path.exists():
+        content = master_list_path.read_text()
+        pattern = r'\{\s*name:\s*"([^"]+)",\s*aliases:\s*\[([^\]]*)\]'
+        for match in re.finditer(pattern, content):
+            name = match.group(1)
+            aliases_str = match.group(2)
+            aliases = [a.strip().strip('"') for a in aliases_str.split(',') if a.strip()]
 
-    # Nuclear & Energy
-    ("Commonwealth Fusion Systems", ["Commonwealth Fusion Systems", "CFS"]),
-    ("Helion", ["Helion Energy", "Helion Energy Inc"]),
-    ("Oklo", ["Oklo Inc", "Oklo"]),
-    ("Kairos Power", ["Kairos Power LLC", "Kairos Power"]),
-    ("TerraPower", ["TerraPower LLC", "TerraPower"]),
-    ("NuScale Power", ["NuScale Power", "NuScale Power LLC"]),
-    ("Fervo Energy", ["Fervo Energy", "Fervo Energy Inc"]),
+            # Generate USPTO assignee name variants
+            variants = [name]
 
-    # AI & Software
-    ("OpenAI", ["OpenAI", "OpenAI Inc", "OpenAI LP"]),
-    ("Anthropic", ["Anthropic", "Anthropic PBC"]),
-    ("Scale AI", ["Scale AI Inc", "Scale AI"]),
-    ("Covariant", ["Covariant AI", "Covariant Inc"]),
-    ("Physical Intelligence", ["Physical Intelligence", "PI"]),
+            # Add common corporate suffixes
+            for base in [name] + [a for a in aliases if len(a) > 5]:
+                variants.extend([
+                    base,
+                    f"{base} Inc",
+                    f"{base}, Inc.",
+                    f"{base} LLC",
+                    f"{base} Corp",
+                    f"{base} Corporation",
+                ])
 
-    # Robotics
-    ("Figure AI", ["Figure AI", "Figure AI Inc"]),
-    ("Boston Dynamics", ["Boston Dynamics", "Boston Dynamics Inc"]),
-    ("Agility Robotics", ["Agility Robotics", "Agility Robotics Inc"]),
-    ("Apptronik", ["Apptronik", "Apptronik Inc"]),
+            # Remove duplicates while preserving order
+            seen = set()
+            unique_variants = []
+            for v in variants:
+                if v.lower() not in seen and len(v) > 3:
+                    seen.add(v.lower())
+                    unique_variants.append(v)
 
-    # Chips & Quantum
-    ("Cerebras", ["Cerebras Systems", "Cerebras Systems Inc"]),
-    ("Groq", ["Groq Inc", "Groq"]),
-    ("PsiQuantum", ["PsiQuantum Corp", "PsiQuantum"]),
-    ("IonQ", ["IonQ Inc", "IonQ"]),
-    ("Rigetti", ["Rigetti Computing", "Rigetti & Co"]),
+            assignees.append((name, unique_variants[:8]))  # Limit variants
 
-    # Biotech
-    ("Neuralink", ["Neuralink Corp", "Neuralink"]),
-    ("Colossal Biosciences", ["Colossal Biosciences", "Colossal"]),
-    ("Ginkgo Bioworks", ["Ginkgo Bioworks", "Ginkgo Bioworks Inc"]),
-]
+    return assignees
+
+# Load from master list
+TRACKED_ASSIGNEES = load_master_companies()
+
+# Fallback if master list not found
+if not TRACKED_ASSIGNEES:
+    TRACKED_ASSIGNEES = [
+        ("SpaceX", ["Space Exploration Technologies Corp", "SpaceX"]),
+        ("Anduril Industries", ["Anduril Industries", "Anduril Industries Inc"]),
+        ("OpenAI", ["OpenAI", "OpenAI Inc", "OpenAI LP"]),
+        ("Anthropic", ["Anthropic", "Anthropic PBC"]),
+        ("Palantir", ["Palantir Technologies", "Palantir Technologies Inc"]),
+    ]
 
 PATENTSVIEW_API = "https://api.patentsview.org/patents/query"
 
@@ -113,13 +116,22 @@ def fetch_patents_for_assignee(assignee_names, from_date=None):
         print(f"  Error: {e}")
         return None
 
-def fetch_all_patents():
-    """Fetch patents for all tracked companies."""
+def fetch_all_patents(max_companies=100):
+    """Fetch patents for tracked companies (with rate limiting)."""
     all_patents = []
+    import time
 
-    for company_name, assignee_variants in TRACKED_ASSIGNEES:
-        print(f"Fetching patents for: {company_name}")
+    # Limit to prevent rate limiting issues
+    companies_to_fetch = TRACKED_ASSIGNEES[:max_companies]
+
+    for i, (company_name, assignee_variants) in enumerate(companies_to_fetch):
+        print(f"[{i+1}/{len(companies_to_fetch)}] Fetching patents for: {company_name}")
         result = fetch_patents_for_assignee(assignee_variants)
+
+        # Rate limiting - pause every 10 requests
+        if (i + 1) % 10 == 0:
+            print("  (pausing for rate limiting...)")
+            time.sleep(2)
 
         if result and "patents" in result and result["patents"]:
             patents = result["patents"]
@@ -249,8 +261,10 @@ def main():
     print("=" * 60)
     print("USPTO PatentsView Patent Fetcher")
     print("=" * 60)
-    print(f"Tracking {len(TRACKED_ASSIGNEES)} companies")
+    print(f"Master company list: {len(TRACKED_ASSIGNEES)} companies loaded")
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("=" * 60)
+    print("Note: API rate limits apply - fetching top priority companies first")
     print("=" * 60)
 
     # Fetch all patents
