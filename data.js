@@ -19,6 +19,8 @@
 // Last updated: 2026-02-15
 // Auto-updated SEC filings from EDGAR
 // Last updated: 2026-02-16
+// Auto-updated SEC filings from EDGAR
+// Last updated: 2026-02-16
 const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-02-04", description: "xslF345X05/wk-form4_1770254739.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-02-04", description: "xslF345X05/wk-form4_1770254378.xml", isIPO: false, ticker: "PLTR" },
@@ -17638,22 +17640,24 @@ const DATA_QUALITY = {
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
 // Last updated: 2026-02-16 05:45
+// Auto-generated real-time signals
+// Last updated: 2026-02-16
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenClaw creator Peter Steinberger joins OpenAI", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Anthropic", headline: "Anthropic and the Pentagon are reportedly arguing over Claude usage", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "OpenAI", headline: "India has 100M weekly active ChatGPT users, Sam Altman says", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Is Nuking Its 4o Model. China's ChatGPT Fans Aren't OK", source: "Wired", time: "2d ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Anthropic", headline: "The Week's 10 Biggest Funding Rounds: Anthropic Leads In A Big Week For Giant Rounds", source: "Crunchbase News", time: "2d ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips", source: "Ars Technica", time: "3d ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Palantir", headline: "'Uncanny Valley': ICE's Secret Expansion Plans, Palantir Workers' Ethical Concerns, and AI Assistants", source: "Wired", time: "3d ago", impact: "medium", unread: false },
-  { id: 8, type: "funding", company: "Axiom Space", headline: "Axiom Space raises additional $350 million", source: "SpaceNews", time: "3d ago", impact: "medium", unread: false },
-  { id: 9, type: "funding", company: "Anthropic", headline: "Anthropic Raises $30B At $380B Valuation In Second-Largest Venture Funding Deal Of All Time", source: "Crunchbase News", time: "3d ago", impact: "high", unread: false },
-  { id: 10, type: "ipo", company: "Waymo", headline: "Waymo Asks the DC Public to Pressure Their City Officials", source: "Wired", time: "3d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI's President Gave Millions to Trump. He Says It's for Humanity", source: "Wired", time: "3d ago", impact: "medium", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "Launch companies debate how to compete against SpaceX", source: "SpaceNews", time: "3d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX takes down Dragon crew arm, giving Starship a leg up in Florida", source: "Ars Technica Space", time: "4d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX IPO may suck oxygen from market before unleashing broad capital surge", source: "SpaceNews", time: "4d ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "OpenAI researcher quits over ChatGPT ads, warns of &quot;Facebook&quot; path", source: "Ars Technica", time: "4d ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Scale AI", headline: "As AI data centers hit power limits, Peak XV backs Indian startup C2i to fix the bottleneck", source: "TechCrunch", time: "7h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "The Boring Company", headline: "Blackstone backs Neysa in up to $1.2B financing as India pushes to build domestic AI infrastructure", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Osmo", headline: "Isaacman planning to meet with head of Roscosmos", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenClaw creator Peter Steinberger joins OpenAI", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
+  { id: 5, type: "contract", company: "Anthropic", headline: "Anthropic and the Pentagon are reportedly arguing over Claude usage", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "OpenAI", headline: "India has 100M weekly active ChatGPT users, Sam Altman says", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Turbopuffer", headline: "The enterprise AI land grab is on. Glean is building the layer beneath the interface.", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Turbopuffer", headline: "&quot;It ain&#039;t no unicorn&quot;: These researchers have interviewed 130 Bigfoot hunters", source: "Ars Technica Space", time: "14h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Rivian", headline: "TechCrunch Mobility: Rivian&#8217;s savior", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Reveal Technology", headline: "What the Epstein files reveal about EV startups and Silicon Valley", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Runway", headline: "Hollywood isn&#8217;t happy about the new Seedance 2.0 video generator", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Osmo", headline: "The Best Samsung Phones of 2026, Tested and Reviewed", source: "Wired", time: "20h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Turbopuffer", headline: "Google’s AI Overviews Can Scam You. Here’s How to Stay Safe", source: "Wired", time: "20h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Hubble Network", headline: "CurrentBody LED Hair Growth Helmet Review: Baby Hairs Abound (2026)", source: "Wired", time: "20h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Durin", headline: "AI, Fancy Footwear, and All the Other Gear Powering Olympic Bobsledding", source: "Wired", time: "21h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
