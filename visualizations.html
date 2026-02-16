@@ -335,6 +335,68 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
     </div>
 </section>
 
+<!-- Sector Momentum Dashboard -->
+<section class="viz-section" id="sector-momentum" style="background:linear-gradient(135deg, rgba(255,107,44,0.03) 0%, transparent 100%);">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <p class="section-eyebrow">MARKET DYNAMICS</p>
+            <h2>Sector Momentum Dashboard</h2>
+            <p>Real-time momentum scores across frontier tech sectors — tracking funding velocity, regulatory progress, and breakout catalysts.</p>
+        </div>
+
+        <!-- Momentum Stats -->
+        <div id="momentum-stats" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:32px;"></div>
+
+        <!-- Momentum Bars -->
+        <div id="momentum-bars" style="display:flex;flex-direction:column;gap:16px;margin-bottom:32px;"></div>
+
+        <!-- Catalysts Grid -->
+        <div style="margin-top:32px;">
+            <h3 style="font-size:16px;font-weight:700;margin-bottom:16px;font-family:'Space Grotesk',sans-serif;color:var(--text);">🔥 Key Catalysts by Sector</h3>
+            <div id="catalysts-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Patent & IP Moat Tracker -->
+<section class="viz-section" id="patent-tracker">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <p class="section-eyebrow">INTELLECTUAL PROPERTY</p>
+            <h2>Patent & IP Moat Tracker</h2>
+            <p>Deep analysis of patent portfolios, filing velocity, and technology moats across frontier tech companies.</p>
+        </div>
+
+        <!-- Patent Stats Banner -->
+        <div id="patent-stats" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;margin-bottom:24px;"></div>
+
+        <!-- Filters -->
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:24px;">
+            <select id="patent-moat-filter" style="padding:8px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:14px;">
+                <option value="all">All IP Moat Scores</option>
+                <option value="high">High Moat (8+)</option>
+                <option value="medium">Medium Moat (6-7)</option>
+                <option value="building">Building Moat (≤5)</option>
+            </select>
+            <select id="patent-velocity-filter" style="padding:8px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:14px;">
+                <option value="all">All Velocities</option>
+                <option value="accelerating">Accelerating</option>
+                <option value="steady">Steady</option>
+            </select>
+            <select id="patent-sort" style="padding:8px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:14px;">
+                <option value="patents">Sort by Patent Count</option>
+                <option value="moat">Sort by IP Moat Score</option>
+                <option value="velocity">Sort by Filing Velocity</option>
+            </select>
+        </div>
+
+        <!-- Patent Cards Grid -->
+        <div id="patent-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:20px;"></div>
+
+        <p style="text-align:center;font-size:12px;color:var(--text-m);margin-top:24px;">Data from USPTO PatentsView API and company filings</p>
+    </div>
+</section>
+
 <!-- Government Opportunity Tracker -->
 <section class="viz-section" id="gov-opportunities">
     <div class="container">
@@ -882,7 +944,264 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
   });
 })();
 
-// ─── 11. GOVERNMENT OPPORTUNITY TRACKER (ENHANCED) ───
+// ─── 11. SECTOR MOMENTUM DASHBOARD ───
+(function() {
+  if (typeof SECTOR_MOMENTUM === 'undefined') return;
+
+  const statsContainer = document.getElementById('momentum-stats');
+  const barsContainer = document.getElementById('momentum-bars');
+  const catalystsGrid = document.getElementById('catalysts-grid');
+
+  // Calculate stats
+  const avgMomentum = Math.round(SECTOR_MOMENTUM.reduce((a, s) => a + s.momentum, 0) / SECTOR_MOMENTUM.length);
+  const accelerating = SECTOR_MOMENTUM.filter(s => s.trend === 'accelerating').length;
+  const totalFunding = SECTOR_MOMENTUM.reduce((a, s) => {
+    const val = parseFloat(s.fundingQ?.replace(/[^0-9.]/g, '')) || 0;
+    return a + val;
+  }, 0);
+  const hottest = SECTOR_MOMENTUM.reduce((a, b) => a.momentum > b.momentum ? a : b);
+
+  // Render stats
+  statsContainer.innerHTML = `
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;">
+      <div style="font-family:'Space Grotesk',sans-serif;font-size:32px;font-weight:800;color:var(--accent);">${avgMomentum}</div>
+      <div style="font-size:12px;color:var(--text-m);text-transform:uppercase;letter-spacing:1px;">Avg Momentum</div>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;">
+      <div style="font-family:'Space Grotesk',sans-serif;font-size:32px;font-weight:800;color:#22c55e;">${accelerating}</div>
+      <div style="font-size:12px;color:var(--text-m);text-transform:uppercase;letter-spacing:1px;">Accelerating</div>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;">
+      <div style="font-family:'Space Grotesk',sans-serif;font-size:32px;font-weight:800;color:#3b82f6;">$${totalFunding.toFixed(1)}B</div>
+      <div style="font-size:12px;color:var(--text-m);text-transform:uppercase;letter-spacing:1px;">Quarterly Funding</div>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;">
+      <div style="font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:800;color:#f59e0b;">${hottest.sector}</div>
+      <div style="font-size:12px;color:var(--text-m);text-transform:uppercase;letter-spacing:1px;">Hottest Sector</div>
+    </div>
+  `;
+
+  // Momentum colors
+  const getMomentumColor = (m) => {
+    if (m >= 90) return '#22c55e';
+    if (m >= 75) return '#84cc16';
+    if (m >= 60) return '#f59e0b';
+    if (m >= 45) return '#fb923c';
+    return '#6b7280';
+  };
+
+  const getTrendIcon = (t) => {
+    if (t === 'accelerating') return '🚀';
+    if (t === 'rising') return '📈';
+    return '→';
+  };
+
+  // Render momentum bars
+  SECTOR_MOMENTUM.forEach((sector, i) => {
+    const color = getMomentumColor(sector.momentum);
+    const trendIcon = getTrendIcon(sector.trend);
+    const trendColor = sector.trend === 'accelerating' ? '#22c55e' : sector.trend === 'rising' ? '#f59e0b' : '#6b7280';
+
+    const row = document.createElement('div');
+    row.style.cssText = 'display:flex;align-items:center;gap:16px;padding:12px 16px;background:var(--bg-card);border:1px solid var(--border);border-radius:10px;transition:all 0.2s;cursor:pointer;';
+    row.onmouseenter = () => row.style.borderColor = 'var(--accent)';
+    row.onmouseleave = () => row.style.borderColor = 'var(--border)';
+
+    row.innerHTML = `
+      <div style="width:180px;flex-shrink:0;">
+        <div style="font-size:14px;font-weight:600;color:var(--text);">${sector.sector}</div>
+        <div style="font-size:11px;color:${trendColor};font-weight:500;">${trendIcon} ${sector.trend}</div>
+      </div>
+      <div style="flex:1;height:28px;background:var(--bg-t);border-radius:6px;overflow:hidden;position:relative;">
+        <div style="height:100%;width:0;background:linear-gradient(90deg,${color}88,${color});border-radius:6px;transition:width 1s cubic-bezier(.4,0,.2,1);display:flex;align-items:center;justify-content:flex-end;padding-right:12px;" class="momentum-fill" data-width="${sector.momentum}">
+          <span style="font-size:13px;font-weight:700;color:#fff;">${sector.momentum}</span>
+        </div>
+      </div>
+      <div style="width:80px;text-align:right;">
+        <div style="font-size:14px;font-weight:700;color:#22c55e;">${sector.fundingQ}</div>
+        <div style="font-size:10px;color:var(--text-m);">Q Funding</div>
+      </div>
+    `;
+
+    barsContainer.appendChild(row);
+
+    // Animate bar
+    setTimeout(() => {
+      row.querySelector('.momentum-fill').style.width = sector.momentum + '%';
+    }, 100 + i * 50);
+  });
+
+  // Render catalysts grid
+  SECTOR_MOMENTUM.slice(0, 6).forEach(sector => {
+    const color = getMomentumColor(sector.momentum);
+    const card = document.createElement('div');
+    card.style.cssText = 'background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;transition:all 0.2s;';
+    card.onmouseenter = () => card.style.borderColor = color;
+    card.onmouseleave = () => card.style.borderColor = 'var(--border)';
+
+    card.innerHTML = `
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+        <span style="font-size:14px;font-weight:700;color:var(--text);">${sector.sector}</span>
+        <span style="font-size:20px;font-weight:800;color:${color};">${sector.momentum}</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;">
+        ${sector.catalysts.map(c => `<span style="font-size:11px;padding:4px 10px;background:${color}15;color:${color};border-radius:4px;font-weight:500;">${c}</span>`).join('')}
+      </div>
+    `;
+    catalystsGrid.appendChild(card);
+  });
+})();
+
+// ─── 12. PATENT & IP MOAT TRACKER ───
+(function() {
+  if (typeof PATENT_INTEL === 'undefined') return;
+
+  const statsContainer = document.getElementById('patent-stats');
+  const patentGrid = document.getElementById('patent-grid');
+  const moatFilter = document.getElementById('patent-moat-filter');
+  const velocityFilter = document.getElementById('patent-velocity-filter');
+  const sortSelect = document.getElementById('patent-sort');
+
+  // Calculate stats
+  const totalPatents = PATENT_INTEL.reduce((a, p) => a + p.totalPatents, 0);
+  const avgMoat = (PATENT_INTEL.reduce((a, p) => a + p.ipMoatScore, 0) / PATENT_INTEL.length).toFixed(1);
+  const acceleratingCount = PATENT_INTEL.filter(p => p.velocityTrend === 'accelerating').length;
+  const topPatentHolder = PATENT_INTEL.reduce((a, b) => a.totalPatents > b.totalPatents ? a : b);
+
+  // Render stats
+  statsContainer.innerHTML = `
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;">
+      <div style="font-family:'Space Grotesk',sans-serif;font-size:32px;font-weight:800;color:var(--accent);">${totalPatents.toLocaleString()}</div>
+      <div style="font-size:12px;color:var(--text-m);text-transform:uppercase;letter-spacing:1px;">Total Patents</div>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;">
+      <div style="font-family:'Space Grotesk',sans-serif;font-size:32px;font-weight:800;color:#22c55e;">${avgMoat}</div>
+      <div style="font-size:12px;color:var(--text-m);text-transform:uppercase;letter-spacing:1px;">Avg IP Moat Score</div>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;">
+      <div style="font-family:'Space Grotesk',sans-serif;font-size:32px;font-weight:800;color:#3b82f6;">${acceleratingCount}</div>
+      <div style="font-size:12px;color:var(--text-m);text-transform:uppercase;letter-spacing:1px;">Accelerating Filers</div>
+    </div>
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;text-align:center;">
+      <div style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:800;color:#f59e0b;">${topPatentHolder.company}</div>
+      <div style="font-size:12px;color:var(--text-m);text-transform:uppercase;letter-spacing:1px;">Top Patent Holder</div>
+    </div>
+  `;
+
+  // IP Moat score colors
+  const getMoatColor = (score) => {
+    if (score >= 9) return '#22c55e';
+    if (score >= 7) return '#84cc16';
+    if (score >= 5) return '#f59e0b';
+    return '#ef4444';
+  };
+
+  const getMoatLabel = (score) => {
+    if (score >= 9) return 'Fortress';
+    if (score >= 7) return 'Strong';
+    if (score >= 5) return 'Building';
+    return 'Emerging';
+  };
+
+  function renderPatents() {
+    const moatValue = moatFilter.value;
+    const velocityValue = velocityFilter.value;
+    const sortValue = sortSelect.value;
+
+    let filtered = PATENT_INTEL.filter(p => {
+      if (moatValue === 'high' && p.ipMoatScore < 8) return false;
+      if (moatValue === 'medium' && (p.ipMoatScore < 6 || p.ipMoatScore >= 8)) return false;
+      if (moatValue === 'building' && p.ipMoatScore > 5) return false;
+      if (velocityValue !== 'all' && p.velocityTrend !== velocityValue) return false;
+      return true;
+    });
+
+    // Sort
+    if (sortValue === 'moat') {
+      filtered.sort((a, b) => b.ipMoatScore - a.ipMoatScore);
+    } else if (sortValue === 'velocity') {
+      const velOrder = { 'accelerating': 3, 'steady': 2, 'slowing': 1 };
+      filtered.sort((a, b) => (velOrder[b.velocityTrend] || 0) - (velOrder[a.velocityTrend] || 0));
+    } else {
+      filtered.sort((a, b) => b.totalPatents - a.totalPatents);
+    }
+
+    patentGrid.innerHTML = '';
+
+    filtered.forEach(patent => {
+      const moatColor = getMoatColor(patent.ipMoatScore);
+      const moatLabel = getMoatLabel(patent.ipMoatScore);
+      const velColor = patent.velocityTrend === 'accelerating' ? '#22c55e' : '#6b7280';
+      const velIcon = patent.velocityTrend === 'accelerating' ? '🚀' : '→';
+
+      const card = document.createElement('div');
+      card.style.cssText = 'background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:24px;transition:all 0.2s;';
+      card.onmouseenter = () => card.style.borderColor = moatColor;
+      card.onmouseleave = () => card.style.borderColor = 'var(--border)';
+
+      card.innerHTML = `
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;">
+          <div>
+            <div style="font-size:18px;font-weight:700;color:var(--text);">${patent.company}</div>
+            <div style="font-size:12px;color:${velColor};">${velIcon} ${patent.velocityTrend} (${patent.velocity})</div>
+          </div>
+          <div style="text-align:right;">
+            <div style="font-size:28px;font-weight:800;color:${moatColor};">${patent.ipMoatScore}</div>
+            <div style="font-size:10px;color:var(--text-m);text-transform:uppercase;">${moatLabel} Moat</div>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;padding:16px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);margin-bottom:16px;">
+          <div style="text-align:center;">
+            <div style="font-size:24px;font-weight:800;color:var(--accent);">${patent.totalPatents.toLocaleString()}</div>
+            <div style="font-size:11px;color:var(--text-m);">Total Patents</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:24px;font-weight:800;color:#3b82f6;">${patent.velocity}</div>
+            <div style="font-size:11px;color:var(--text-m);">Annual Velocity</div>
+          </div>
+        </div>
+
+        <div style="margin-bottom:16px;">
+          <div style="font-size:11px;color:var(--text-m);margin-bottom:8px;text-transform:uppercase;letter-spacing:1px;">🔬 Technology Areas</div>
+          <div style="display:flex;flex-wrap:wrap;gap:6px;">
+            ${patent.techAreas.map(t => `<span style="font-size:11px;padding:4px 10px;background:rgba(255,107,44,0.1);color:var(--accent);border-radius:4px;font-weight:500;">${t}</span>`).join('')}
+          </div>
+        </div>
+
+        ${patent.notablePatents && patent.notablePatents.length > 0 ? `
+          <div style="margin-bottom:16px;">
+            <div style="font-size:11px;color:var(--text-m);margin-bottom:8px;text-transform:uppercase;letter-spacing:1px;">📄 Notable Patents</div>
+            <ul style="font-size:12px;color:var(--text-s);margin:0;padding-left:16px;line-height:1.6;">
+              ${patent.notablePatents.slice(0, 2).map(p => `<li>${p}</li>`).join('')}
+            </ul>
+          </div>
+        ` : ''}
+
+        ${patent.note ? `
+          <div style="font-size:11px;color:var(--text-m);line-height:1.5;padding:12px;background:rgba(255,255,255,0.02);border-radius:8px;border-left:3px solid ${moatColor};">
+            💡 ${patent.note.slice(0, 200)}${patent.note.length > 200 ? '...' : ''}
+          </div>
+        ` : ''}
+      `;
+
+      patentGrid.appendChild(card);
+    });
+
+    if (filtered.length === 0) {
+      patentGrid.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-m);grid-column:1/-1;">No patents match your filters.</div>';
+    }
+  }
+
+  // Event listeners
+  moatFilter.addEventListener('change', renderPatents);
+  velocityFilter.addEventListener('change', renderPatents);
+  sortSelect.addEventListener('change', renderPatents);
+
+  renderPatents();
+})();
+
+// ─── 13. GOVERNMENT OPPORTUNITY TRACKER (ENHANCED) ───
 (function() {
   if (typeof GOV_DEMAND_TRACKER === 'undefined') return;
 
