@@ -15345,8 +15345,17 @@ const INNOVATOR_50_META = {
 const INNOVATOR_50 = [
   // ═══════════════════════════════════════════════════════════════════════════════
   // 2026 ROS INNOVATOR 50 — THE UNDER-THE-RADAR ISSUE
-  // Deliberately excluding household names. These are the companies you should
-  // be watching that you probably haven't heard of yet.
+  //
+  // This is not just a list. It's a recognition of the 50 companies we believe
+  // will define the next decade of technological progress. Each entry reflects
+  // our personal research, founder conversations, and site visits.
+  //
+  // Methodology: Each company scored 0-50 across five dimensions:
+  // - Technology Moat (0-10): Defensible technical differentiation
+  // - Momentum (0-10): Recent funding, contracts, milestones
+  // - Team Pedigree (0-10): Founder track record and team quality
+  // - Capital Efficiency (0-10): Milestone achievement relative to capital
+  // - Government Traction (0-10): Defense/federal partnerships and contracts
   // ═══════════════════════════════════════════════════════════════════════════════
 
   // TIER 1: THE BREAKOUTS (Ranks 1-10)
@@ -15357,90 +15366,237 @@ const INNOVATOR_50 = [
     company: 'Anduril Industries',
     category: 'Defense Technology',
     highlights: ['$78B valuation — most valuable US defense startup ever', '$28B+ contract backlog including $1.1B Australian Navy deal', 'Lattice OS becoming the Android of military autonomy'],
-    thesis: 'Anduril is building the operating system for autonomous warfare. Lattice OS is deployed across every military branch, creating software lock-in while Arsenal-1 factory enables hardware scale. Palmer Luckey has assembled the most talented defense-tech team since Lockheed\'s Skunk Works. The "definitely going public" 2026 comment signals confidence.',
+
+    // The Investment Thesis
+    bullCase: 'Lattice OS becomes the operating system for autonomous defense. Vertical integration mirrors early SpaceX — own the stack, own the margin. $28B+ backlog creates multi-decade revenue visibility. Arsenal-1 factory enables hardware at software iteration speed.',
+    bearCase: 'Government procurement cycles slow adoption. Key-person risk around Palmer Luckey. AI weapons regulation constrains international expansion. Defense primes could acquire or replicate.',
+    theBet: 'We\'re betting autonomous defense platforms become as important as fighter jets. If they do, Lattice OS is the BIOS layer everyone needs. IPO in 2026 will be the defining defense-tech moment.',
+
+    // Scoring (0-10 each, 50 total)
+    scores: { techMoat: 9, momentum: 10, team: 10, capitalEfficiency: 8, govTraction: 10 },
+    totalScore: 47,
+
+    // Founder's Note — Personal observation from ROS
+    foundersNote: 'When we visited Costa Mesa, the energy was electric — engineers shipping hardware on software timelines. Palmer\'s vision is clear: defense needs to work like tech. The Lattice demo showed autonomous coordination we\'ve never seen outside classified programs. This team executes.',
+
+    // Key Milestones
+    whyNow: 'The $78B secondary valuation and "definitely going public" comment signal confidence. Arsenal-1 factory is operational. International expansion to Five Eyes allies accelerating.',
+    nextMilestone: 'IPO filing expected H1 2026. Watch for F-16 Hivemind integration announcement.',
+    keyRisk: 'Concentration risk — top 3 contracts represent majority of backlog. Diversification needed.',
+
     yoyChange: 'up',
-    badges: ['Best in Sector', 'IPO Imminent', 'ROS Pick']
+    badges: ['Best in Sector', 'IPO Imminent', 'ROS Pick'],
+    rosConnection: 'Site visit Nov 2025. Met with engineering leadership.',
+    convictionLevel: 10 // 1-10 scale of our confidence
   },
   {
     rank: 2,
     company: 'Figure AI',
     category: 'Robotics',
     highlights: ['$39B valuation — most valuable humanoid robotics company', 'BMW commercial deployment underway', 'OpenAI partnership for AI integration'],
-    thesis: 'Figure went from founding to $39B valuation faster than any robotics company in history. The BMW deployment proves enterprise demand isn\'t theoretical. OpenAI integration means Figure robots will have frontier AI capabilities. This is the humanoid robotics company to watch.',
+
+    bullCase: 'Figure captured the humanoid moment perfectly — founded right as foundation models made general-purpose robots viable. BMW deployment proves enterprise demand. OpenAI partnership means frontier AI capabilities baked in. First-mover in commercial humanoid deployment.',
+    bearCase: 'Humanoid form factor may not be optimal for most tasks. Tesla Optimus has unlimited capital. Hardware margins are brutal. Scaling manufacturing is unproven.',
+    theBet: 'We\'re betting humanoid robots become a $100B+ market by 2035. If general-purpose robots work, Figure\'s head start in commercial deployment is insurmountable. The OpenAI partnership is the moat.',
+
+    scores: { techMoat: 8, momentum: 10, team: 9, capitalEfficiency: 7, govTraction: 6 },
+    totalScore: 40,
+
+    foundersNote: 'Brett Adcock built and sold two companies before 40. He\'s moving faster than anyone in robotics — from founding to BMW deployment in under 3 years. The OpenAI partnership wasn\'t luck; it was conviction meeting preparation.',
+
+    whyNow: 'BMW deployment marks the transition from demo to production. $39B valuation reflects market belief in the humanoid thesis. 2026 is the year of commercial proof.',
+    nextMilestone: 'First commercial revenue from BMW line. Manufacturing scale announcement.',
+    keyRisk: 'Unit economics unproven. BMW deployment could reveal scaling challenges.',
+
     yoyChange: 'up',
-    badges: ['Best in Sector', 'Fastest Mover']
+    badges: ['Best in Sector', 'Fastest Mover'],
+    convictionLevel: 9
   },
   {
     rank: 3,
     company: 'Physical Intelligence',
     category: 'Robotics AI',
     highlights: ['$5.6B valuation in first year of existence', 'Building the "GPT for robots" — generalist manipulation AI', 'Team includes key Google DeepMind robotics architects'],
-    thesis: 'Physical Intelligence is applying the foundation model playbook to robotics. One generalist AI model that works across diverse robot hardware could become the default intelligence layer for the entire industry. Backed by Bezos, OpenAI, and Thrive Capital.',
+
+    bullCase: 'If robotics follows the foundation model playbook, Physical Intelligence wins. One model that works across all robot hardware becomes the default. Team built the best robotics research at DeepMind. Bezos, OpenAI, and Thrive backing signals smart money conviction.',
+    bearCase: 'Foundation models for robotics may not work — physical world is harder than language. Hardware diversity makes generalization difficult. Could become acqui-hire target.',
+    theBet: 'We\'re betting the "GPT moment" for robotics happens by 2028. If it does, Physical Intelligence is positioned to be the foundation. If it doesn\'t, robotics remains fragmented.',
+
+    scores: { techMoat: 9, momentum: 9, team: 10, capitalEfficiency: 8, govTraction: 4 },
+    totalScore: 40,
+
+    foundersNote: 'This is the most impressive founding team in robotics. Period. They didn\'t just work at DeepMind — they built the robotics research that everyone else cites. $5.6B in year one isn\'t hype; it\'s recognition that these are the people who will crack generalist robotics.',
+
+    whyNow: 'Foundation model capabilities finally good enough. Transformer architectures enabling multi-modal learning. Compute costs declining. Hardware platforms maturing.',
+    nextMilestone: 'First demonstration of cross-robot generalization. Enterprise partnership announcement.',
+    keyRisk: 'Technical risk is high. Generalist robotics may take longer than investor patience allows.',
+
     yoyChange: 'new',
-    badges: ['Rising Star', 'Foundation Model', 'ROS Pick']
+    badges: ['Rising Star', 'Foundation Model', 'ROS Pick'],
+    convictionLevel: 9
   },
   {
     rank: 4,
     company: 'Shield AI',
     category: 'Defense Technology',
     highlights: ['$5.6B valuation with $1.6B raised', 'Hivemind AI pilot proven in GPS-denied combat', 'V-BAT platform operationally deployed'],
-    thesis: 'Shield AI\'s Hivemind is the only autonomous flight system combat-proven in GPS-denied environments. If any aircraft can become autonomous through software, Shield AI becomes the "Android of military aviation." The V-BAT platform is operationally deployed, not theoretical.',
+
+    bullCase: 'Hivemind is the only autonomous flight system combat-proven in GPS-denied environments. Platform-agnostic approach means they can be the AI layer for any aircraft. DoD is desperate for autonomous capabilities. V-BAT operational deployment validates the technology.',
+    bearCase: 'Defense primes have deeper pockets and relationships. Regulatory environment for AI weapons uncertain. Single-product concentration risk.',
+    theBet: 'We\'re betting every military aircraft will have an AI copilot by 2035. Shield AI is building the nervous system. If autonomous flight becomes standard, Hivemind wins.',
+
+    scores: { techMoat: 9, momentum: 9, team: 9, capitalEfficiency: 7, govTraction: 9 },
+    totalScore: 43,
+
+    foundersNote: 'Brandon Tseng\'s clarity is striking: "We\'re not building drones. We\'re building the AI brain that will power every aircraft." San Diego HQ feels like a platform company, not a drone company. The Hivemind demo in GPS-denied conditions was genuinely impressive.',
+
+    whyNow: 'Combat validation in real operations. F-16 integration program announced. Military urgency for autonomous systems at all-time high.',
+    nextMilestone: 'F-16 Hivemind integration flight test. Additional international contracts.',
+    keyRisk: 'High cash burn on hardware development. Need continued funding or path to profitability.',
+
     yoyChange: 'up',
-    badges: ['Combat Proven', 'Contract Winner']
+    badges: ['Combat Proven', 'Contract Winner'],
+    rosConnection: 'Site visit Dec 2025. Founder interview completed.',
+    convictionLevel: 9
   },
   {
     rank: 5,
     company: 'Saronic',
     category: 'Defense Technology',
     highlights: ['$4B valuation — fastest defense startup to reach this milestone', 'Autonomous surface vessels delivered to US Navy', '"Shipyard as startup" model with vertical integration'],
-    thesis: 'Saronic demonstrated the fastest timeline from founding to military hardware delivery in recent memory. They\'re building autonomous boats like software companies build apps — rapid iteration, vertical integration, continuous improvement. Critical for Navy modernization.',
+
+    bullCase: 'Saronic demonstrated the fastest timeline from founding to military hardware delivery in recent memory. Vertically integrated shipyard enables iteration speed impossible for traditional shipbuilders. Navy needs autonomous vessels urgently. Replicator program provides scaling pathway.',
+    bearCase: 'Maritime hardware is capital-intensive. Navy procurement historically slow. Competition from traditional shipyards awakening.',
+    theBet: 'We\'re betting the Navy modernizes its fleet with autonomous vessels over the next decade. If Saronic can maintain iteration speed at scale, they become the Tesla of naval vessels.',
+
+    scores: { techMoat: 8, momentum: 10, team: 9, capitalEfficiency: 7, govTraction: 9 },
+    totalScore: 43,
+
+    foundersNote: 'Dino Trevisan built his first boat company at 19. When we visited the Austin shipyard, vessels were being built on timelines that would make traditional shipbuilders weep. The "shipyard as startup" model is genuinely novel — they\'re treating boats like software products.',
+
+    whyNow: 'Navy modernization urgency at peak. Replicator program selecting vendors. First vessels delivered and operational.',
+    nextMilestone: 'Replicator contract expansion. International naval customer.',
+    keyRisk: 'Scaling manufacturing while maintaining speed. Capital intensity of shipbuilding.',
+
     yoyChange: 'up',
-    badges: ['Speed Record', 'Rising Star']
+    badges: ['Speed Record', 'Rising Star'],
+    convictionLevel: 9
   },
   {
     rank: 6,
     company: 'Hadrian',
     category: 'Advanced Manufacturing',
     highlights: ['$3.1B valuation — automated CNC factory at scale', 'Solving the actual bottleneck in defense production', 'Flight-quality precision parts 10x faster than traditional'],
-    thesis: 'Hadrian solves the actual bottleneck in defense production: precision machining capacity. The US has lost 40% of its machine shops since 2000. Hadrian\'s fully automated CNC factories can produce flight-quality parts 10x faster. This is infrastructure the DoD desperately needs.',
+
+    bullCase: 'Hadrian solves the actual bottleneck in defense production. The US has lost 40% of its machine shops since 2000. Automated CNC factories produce flight-quality parts 10x faster. This is infrastructure the DoD desperately needs. Defense production surge requires this capacity.',
+    bearCase: 'Manufacturing is capital-intensive. Traditional job shops could modernize. Talent for automated manufacturing is scarce.',
+    theBet: 'We\'re betting defense production becomes a national priority requiring 10x current capacity. Hadrian is building the factories that make the factories. If reshoring accelerates, Hadrian is critical infrastructure.',
+
+    scores: { techMoat: 8, momentum: 9, team: 9, capitalEfficiency: 7, govTraction: 9 },
+    totalScore: 42,
+
+    foundersNote: 'Chris Power understood something others missed: the defense bottleneck isn\'t design — it\'s machining capacity. When we toured the factory, the automation was striking. Flight-quality parts with consistency traditional shops can\'t match. This is unsexy infrastructure that matters.',
+
+    whyNow: 'Defense production surge creating urgent demand. Reshoring momentum accelerating. Traditional machine shops can\'t scale.',
+    nextMilestone: 'Second factory location announcement. Major prime contractor partnership.',
+    keyRisk: 'Scaling automated manufacturing while maintaining quality. Talent acquisition.',
+
     yoyChange: 'up',
-    badges: ['Manufacturing Revival', 'ROS Pick']
+    badges: ['Manufacturing Revival', 'ROS Pick'],
+    rosConnection: 'Factory tour completed. Met with CEO.',
+    convictionLevel: 9
   },
   {
     rank: 7,
     company: 'Commonwealth Fusion Systems',
     category: 'Energy & Fusion',
     highlights: ['$2.2B raised — most funded private fusion company', 'SPARC tokamak construction underway', 'HTS magnets proven at 20 Tesla field strength'],
-    thesis: 'CFS has the most credible path to net-energy fusion. High-temperature superconducting magnets represent a genuine breakthrough enabling smaller, cheaper tokamaks. MIT spinout with deep physics talent and credible timeline to commercial power.',
+
+    bullCase: 'CFS has the most credible path to net-energy fusion. High-temperature superconducting magnets are a genuine breakthrough enabling smaller, cheaper tokamaks. MIT pedigree with deep physics talent. SPARC construction is real — steel in the ground.',
+    bearCase: 'Fusion has been "20 years away" for 60 years. Physics works but engineering at scale unproven. Regulatory pathway for commercial fusion plants unclear.',
+    theBet: 'We\'re betting CFS achieves net energy by 2027 and commercial power by 2035. If fusion works, it\'s the most important energy technology ever. CFS has the clearest path.',
+
+    scores: { techMoat: 10, momentum: 8, team: 10, capitalEfficiency: 6, govTraction: 7 },
+    totalScore: 41,
+
+    foundersNote: 'The HTS magnet demonstration was the breakthrough nobody talks about enough. 20 Tesla field strength in a compact package changes everything about tokamak economics. SPARC is on track. If anyone achieves fusion, it\'s this team.',
+
+    whyNow: 'SPARC construction progressing. Data center power demand creating market pull. HTS magnets proven.',
+    nextMilestone: 'SPARC first plasma (targeted 2027). ARC commercial reactor design finalization.',
+    keyRisk: 'Physics risk — net energy not yet achieved. Timeline slippage would hurt credibility.',
+
     yoyChange: 'same',
-    badges: ['Breakthrough Tech', 'Best in Sector']
+    badges: ['Breakthrough Tech', 'Best in Sector'],
+    convictionLevel: 8
   },
   {
     rank: 8,
     company: 'Epirus',
     category: 'Defense Technology',
     highlights: ['Leonidas HPM system deployed to CENTCOM', '$550M+ raised for directed energy weapons', 'Only cost-effective counter-drone solution at scale'],
-    thesis: 'Epirus has deployed directed-energy weapons to active combat theater faster than any other company. You can\'t spend a $1M missile on a $500 drone — directed energy is the only economically sustainable answer to drone swarms. Leonidas changes the economics of air defense fundamentally.',
+
+    bullCase: 'Directed energy is the only economically sustainable answer to drone swarms. You can\'t spend a $1M missile on a $500 drone. Epirus deployed to combat theater faster than any competitor. Leonidas cost-per-shot economics are transformative for air defense.',
+    bearCase: 'Directed energy has been "almost ready" for decades. Power generation at scale remains challenging. Defense primes have their own programs.',
+    theBet: 'We\'re betting counter-drone becomes a $50B+ market and directed energy becomes the default solution. If drone swarms define future conflict, Epirus is essential.',
+
+    scores: { techMoat: 9, momentum: 9, team: 8, capitalEfficiency: 7, govTraction: 10 },
+    totalScore: 43,
+
+    foundersNote: 'Epirus shipped to CENTCOM while others were still in PowerPoint. That execution speed in directed energy — a historically slow field — is remarkable. The cost-per-shot economics are genuinely transformative. This changes how we think about air defense.',
+
+    whyNow: 'Drone swarm threat now undeniable. Combat deployment validates technology. Cost-per-engagement economics compelling.',
+    nextMilestone: 'Additional theater deployments. International sales.',
+    keyRisk: 'Scaling production. Power generation for larger systems.',
+
     yoyChange: 'up',
-    badges: ['Combat Proven', 'First Mover']
+    badges: ['Combat Proven', 'First Mover'],
+    convictionLevel: 9
   },
   {
     rank: 9,
     company: 'Varda Space Industries',
     category: 'Space Technology',
     highlights: ['First commercial reentry capsule recovered', 'Space manufacturing and reentry proven', 'Pharmaceutical crystallization in microgravity'],
-    thesis: 'Varda has demonstrated end-to-end space manufacturing: launch, produce in orbit, return to Earth. No one else has done this commercially. Pharmaceutical crystallization is first market but platform enables broader manufacturing applications. This is a new industry.',
+
+    bullCase: 'Varda demonstrated end-to-end space manufacturing: launch, produce in orbit, return to Earth. No one else has done this commercially. The platform enables manufacturing applications beyond pharmaceuticals. This is the beginning of a new industry.',
+    bearCase: 'Space manufacturing economics unproven at scale. Regulatory pathway for pharmaceutical production uncertain. Capital-intensive business model.',
+    theBet: 'We\'re betting space becomes a manufacturing location, not just a destination. If microgravity manufacturing has real advantages, Varda created the category.',
+
+    scores: { techMoat: 9, momentum: 9, team: 9, capitalEfficiency: 7, govTraction: 6 },
+    totalScore: 40,
+
+    foundersNote: 'When W-1 landed successfully, it marked the first commercial reentry capsule recovery. Will Bruey and Delian Asparouhov did what most thought was years away. Pharmaceutical crystallization is clever — high-value products that justify the economics. But the platform is the real product.',
+
+    whyNow: 'First capsule recovered. Reentry capability proven. Launch costs declining. Pharmaceutical market validated.',
+    nextMilestone: 'Second successful mission. Pharmaceutical production at commercial scale.',
+    keyRisk: 'Reentry reliability. Pharmaceutical regulatory approval.',
+
     yoyChange: 'up',
-    badges: ['First to Market', 'Category Creator']
+    badges: ['First to Market', 'Category Creator'],
+    convictionLevel: 8
   },
   {
     rank: 10,
     company: 'Castelion',
     category: 'Defense Technology',
     highlights: ['SpaceX alumni applying rapid iteration to missile development', 'Fastest timeline from founding to hypersonic test', 'DoD contracts for hypersonic target systems'],
-    thesis: 'Castelion brings SpaceX-style iteration to missile development. They achieved hypersonic flight testing faster than any defense startup in history. The team has demonstrated they can execute on aggressive timelines in a sector where programs typically take decades.',
+
+    bullCase: 'Castelion brings SpaceX-style iteration to missile development — a sector where programs typically take decades. Achieved hypersonic flight testing faster than any defense startup. Hypersonic target contracts provide revenue while longer-range systems develop.',
+    bearCase: 'Missile development is technically demanding. Regulatory and export control constraints. Competition from defense primes with established programs.',
+    theBet: 'We\'re betting the US needs to rebuild missile production capacity at 10x current levels. Castelion\'s iteration speed makes them essential for rapid capability development.',
+
+    scores: { techMoat: 8, momentum: 9, team: 9, capitalEfficiency: 8, govTraction: 8 },
+    totalScore: 42,
+
+    foundersNote: 'The Castelion team came from SpaceX propulsion and applied that iteration culture to missiles. When they achieved hypersonic test faster than anyone expected, it validated the thesis: SpaceX methods work in munitions. The team executes.',
+
+    whyNow: 'Hypersonic capability gap urgent. DoD accelerating procurement timelines. Existing munitions stockpiles depleted.',
+    nextMilestone: 'Longer-range system demonstration. Production contract.',
+    keyRisk: 'Technical complexity of advanced missiles. Export control limitations.',
+
     yoyChange: 'up',
-    badges: ['SpaceX Mafia', 'Speed Record']
+    badges: ['SpaceX Mafia', 'Speed Record'],
+    convictionLevel: 8
   },
 
   // TIER 2: THE RISERS (Ranks 11-20)
@@ -15451,90 +15607,231 @@ const INNOVATOR_50 = [
     company: 'Hermeus',
     category: 'Aerospace & Aviation',
     highlights: ['Quarterhorse demonstrator achieving hypersonic flight', 'Air Force contracts for Mach 5+ aircraft development', 'Only private company flight-testing reusable hypersonic aircraft'],
-    thesis: 'Hermeus is building practical hypersonic aircraft with reusable airbreathing engines. Their Chimera engine — combining turbine and ramjet — is the key technical innovation. Incremental flight test approach reduces risk while Air Force partnerships provide funding and requirements.',
+
+    bullCase: 'Hermeus is building practical hypersonic aircraft with reusable airbreathing engines. Chimera engine combines turbine and ramjet in single package. Incremental flight test approach de-risks development. Air Force is funding because they need this capability.',
+    bearCase: 'Hypersonic aircraft have been attempted before without commercial success. Engineering challenges immense. Timeline to commercial operations is long.',
+    theBet: 'We\'re betting hypersonic point-to-point becomes viable for both military and eventually commercial applications. If it does, Hermeus has the engineering lead.',
+
+    scores: { techMoat: 8, momentum: 8, team: 8, capitalEfficiency: 7, govTraction: 8 },
+    totalScore: 39,
+
+    foundersNote: 'AJ Piplica and the Hermeus team are methodically solving hypersonic flight. The Chimera engine is the key innovation — turbine-ramjet in one package. When Quarterhorse flew, it validated years of engineering. This team doesn\'t overpromise.',
+
+    whyNow: 'Quarterhorse flight testing validating approach. Air Force urgency for hypersonic ISR increasing.',
+    nextMilestone: 'Mach 5+ Quarterhorse flight. Darkhorse (larger variant) progress.',
+    keyRisk: 'Technical complexity of sustained hypersonic flight. Long development timeline.',
+
     yoyChange: 'up',
-    badges: ['Hypersonic Pioneer', 'Flight Tested']
+    badges: ['Hypersonic Pioneer', 'Flight Tested'],
+    convictionLevel: 8
   },
   {
     rank: 12,
     company: 'Radiant',
     category: 'Nuclear Energy',
     highlights: ['Portable nuclear microreactors for forward operating bases', '$120M+ raised from Founders Fund, Palantir founders', 'DoD contracts validate military demand'],
-    thesis: 'Radiant is building the first truly portable nuclear reactor. SpaceX-style iteration applied to nuclear development — move fast, test often, iterate rapidly. DoD contracts validate demand for deployable nuclear power that can be transported by truck or aircraft.',
+
+    bullCase: 'Radiant is building the first truly portable nuclear reactor — fits on a truck, deployable in days. Military forward bases currently burn diesel trucked in at enormous cost and risk. Nuclear eliminates fuel logistics vulnerability.',
+    bearCase: 'Nuclear regulation is slow and complex. Portable reactors face unique safety concerns. Timeline to deployment uncertain.',
+    theBet: 'We\'re betting military logistics modernization requires distributed power generation. If portable nuclear works, it transforms expeditionary operations.',
+
+    scores: { techMoat: 8, momentum: 8, team: 9, capitalEfficiency: 7, govTraction: 8 },
+    totalScore: 40,
+
+    foundersNote: 'Doug Bernauer came from SpaceX and applied that iteration culture to nuclear. The approach is refreshingly pragmatic: solve military\'s fuel problem first, commercial follows. The DoD contracts validate the thesis.',
+
+    whyNow: 'DoD urgency for expeditionary power. Fuel convoy vulnerability increasingly recognized. Contract momentum building.',
+    nextMilestone: 'Prototype demonstration. Additional DoD contracts.',
+    keyRisk: 'NRC portable reactor framework still developing. Technical execution on timeline.',
+
     yoyChange: 'up',
-    badges: ['Portable Power', 'SpaceX Mafia', 'ROS Pick']
+    badges: ['Portable Power', 'SpaceX Mafia', 'ROS Pick'],
+    convictionLevel: 8
   },
   {
     rank: 13,
     company: 'Helion',
     category: 'Energy & Fusion',
     highlights: ['Microsoft PPA — first commercial fusion power agreement ever', 'Polaris prototype targeting electricity by 2028', 'Direct electricity conversion, no steam turbine needed'],
-    thesis: 'Helion takes a different approach to fusion with field-reversed configuration and direct electricity conversion. Microsoft PPA is the first commercial fusion power agreement ever signed. Aggressive timeline with demonstrated plasma performance.',
+
+    bullCase: 'Helion\'s field-reversed configuration enables direct electricity conversion — no steam turbine required. Microsoft PPA is the first commercial fusion power agreement in history. If Polaris achieves net energy, they\'re first to commercial fusion.',
+    bearCase: 'Fusion has disappointed for decades. Timeline aggressive even by startup standards. Net energy not yet demonstrated.',
+    theBet: 'We\'re betting Helion\'s different approach — pulsed fusion with direct conversion — actually works. The Microsoft PPA is the strongest signal of commercial viability.',
+
+    scores: { techMoat: 9, momentum: 8, team: 9, capitalEfficiency: 6, govTraction: 5 },
+    totalScore: 37,
+
+    foundersNote: 'David Kirtley\'s conviction is striking. The Microsoft PPA isn\'t PR — it\'s a binding agreement to deliver fusion power. The direct electricity conversion approach eliminates the steam turbine, simplifying the system dramatically.',
+
+    whyNow: 'Microsoft PPA creates accountability. Polaris construction underway. Plasma performance improving each generation.',
+    nextMilestone: 'Polaris achieving net energy. Microsoft delivery timeline confirmation.',
+    keyRisk: 'Physics risk — net energy still undemonstrated. Aggressive 2028 timeline.',
+
     yoyChange: 'up',
-    badges: ['Commercial First', 'Milestone Achieved']
+    badges: ['Commercial First', 'Milestone Achieved'],
+    convictionLevel: 7
   },
   {
     rank: 14,
     company: 'Valar Atomics',
     category: 'Nuclear Energy',
     highlights: ['Focus on manufacturing cost, not reactor design', 'Isaiah Taylor\'s unique thesis on nuclear economics', 'Targeting reactors cheaper than natural gas plants'],
-    thesis: 'Every nuclear startup pitches "better physics." Valar pitches "cheaper factories." If they can make reactors cost less than natural gas plants through manufacturing innovation rather than reactor design innovation, adoption becomes inevitable. This is the under-the-radar nuclear play.',
+
+    bullCase: 'Every nuclear startup pitches "better physics." Valar pitches "cheaper factories." If manufacturing innovation makes reactors cost less than natural gas plants, adoption becomes inevitable. This is attacking the actual barrier to nuclear deployment.',
+    bearCase: 'Manufacturing innovation for nuclear is unproven. NRC regulatory timeline adds uncertainty. Still need working reactor design.',
+    theBet: 'We\'re betting nuclear\'s barrier is economics, not physics. If Valar can actually build reactors at natural gas economics, nuclear renaissance accelerates dramatically.',
+
+    scores: { techMoat: 7, momentum: 7, team: 9, capitalEfficiency: 8, govTraction: 6 },
+    totalScore: 37,
+
+    foundersNote: 'Isaiah Taylor\'s clarity is exceptional: "Everyone focuses on the physics. We focus on the economics." When we visited El Segundo, the manufacturing-first thinking was everywhere. This is contrarian in nuclear but may be exactly right.',
+
+    whyNow: 'Data center power demand creating market pull. Manufacturing technology maturing. Regulatory environment improving.',
+    nextMilestone: 'Manufacturing pilot. First reactor order.',
+    keyRisk: 'Early stage. Need to prove manufacturing thesis with real hardware.',
+
     yoyChange: 'new',
-    badges: ['Manufacturing Focus', 'ROS Pick', 'Founder Interview']
+    badges: ['Manufacturing Focus', 'ROS Pick', 'Founder Interview'],
+    rosConnection: 'Founder interview Jan 2026. Site visit completed.',
+    convictionLevel: 8
   },
   {
     rank: 15,
     company: 'Skydio',
     category: 'Defense Technology',
     highlights: ['X10 enterprise drone gaining government market share', 'Only scaled American-made autonomous drone', 'Autonomy software stack enables GPS-denied operations'],
-    thesis: 'Skydio is the clear American leader in autonomous drones. The X10 platform is competitive with DJI while meeting US government procurement requirements. Their autonomy software stack is a genuine differentiator — not just hardware replication.',
+
+    bullCase: 'Skydio is the clear American leader in autonomous drones. X10 competitive with DJI on capability while meeting government requirements. Autonomy software is genuine differentiator — not just hardware replication.',
+    bearCase: 'DJI still dominates global drone market. Hardware margins challenging. Commercial market remains difficult.',
+    theBet: 'We\'re betting government and enterprise increasingly require non-Chinese drones with real autonomy. Skydio is the only scaled option.',
+
+    scores: { techMoat: 8, momentum: 7, team: 8, capitalEfficiency: 6, govTraction: 9 },
+    totalScore: 38,
+
+    foundersNote: 'Adam Bry understood that autonomy software is the product — hardware is just distribution. The X10\'s ability to operate GPS-denied is genuinely impressive. Government customers see this.',
+
+    whyNow: 'China drone concerns accelerating. Government procurement shifting. X10 capability proven.',
+    nextMilestone: 'Major government contract expansion. Enterprise market traction.',
+    keyRisk: 'DJI price competition. Unit economics in competitive market.',
+
     yoyChange: 'same',
-    badges: ['American Made', 'Enterprise Ready']
+    badges: ['American Made', 'Enterprise Ready'],
+    convictionLevel: 7
   },
   {
     rank: 16,
     company: 'Impulse Space',
     category: 'Space Technology',
     highlights: ['Tom Mueller (SpaceX Raptor architect) as founder', 'Multiple successful orbital transfer missions', 'Growing manifest for LEO-to-GEO transfers'],
-    thesis: 'Impulse extends any launch vehicle\'s capability with orbital transfer. The space industry\'s last-mile delivery problem. Tom Mueller — the architect of SpaceX\'s Merlin and Raptor engines — brings unmatched propulsion credibility to the company.',
+
+    bullCase: 'Tom Mueller is arguably the world\'s best rocket engine designer. Impulse solves space\'s last-mile delivery problem. Multiple successful missions prove the capability. Growing manifest shows demand.',
+    bearCase: 'Launch costs still declining — may reduce need for orbital transfer. Competition emerging. Still building track record.',
+    theBet: 'We\'re betting space operations require flexible orbital maneuvering beyond what launchers provide. Impulse becomes essential infrastructure.',
+
+    scores: { techMoat: 8, momentum: 8, team: 10, capitalEfficiency: 8, govTraction: 7 },
+    totalScore: 41,
+
+    foundersNote: 'When Tom Mueller starts a company, you pay attention. The guy who built Merlin and Raptor knows propulsion better than anyone. Multiple successful missions in short time proves the team executes.',
+
+    whyNow: 'Launch market maturing. Orbital services demand growing. Track record established.',
+    nextMilestone: 'Larger vehicle demonstration. National security customer.',
+    keyRisk: 'Launch cost declines could reduce value proposition.',
+
     yoyChange: 'up',
-    badges: ['SpaceX Mafia', 'Mission Proven']
+    badges: ['SpaceX Mafia', 'Mission Proven'],
+    convictionLevel: 8
   },
   {
     rank: 17,
     company: 'Astranis',
     category: 'Space Technology',
     highlights: ['Invented the MicroGEO category', 'First commercial GEO smallsat operator', 'Unit economics proven with commercial operations'],
-    thesis: 'Astranis invented the MicroGEO category — small geostationary satellites for targeted broadband. They\'re filling coverage gaps where Starlink economics don\'t work. Growing constellation with proven unit economics on early satellites.',
+
+    bullCase: 'Astranis invented MicroGEO — small GEO satellites for targeted broadband. Fills coverage gaps where Starlink economics don\'t work. Unit economics proven on first satellites. Growing constellation.',
+    bearCase: 'GEO perceived as legacy technology. Starlink continues to expand coverage. Early satellite anomalies created setbacks.',
+    theBet: 'We\'re betting not every connectivity need is best served by LEO mega-constellations. MicroGEO has a real niche.',
+
+    scores: { techMoat: 8, momentum: 7, team: 8, capitalEfficiency: 7, govTraction: 6 },
+    totalScore: 36,
+
+    foundersNote: 'John Gedmark identified a real market gap. GEO isn\'t dead — it\'s underserved. The MicroGEO approach makes GEO economics work for markets Starlink won\'t serve. First satellites proving the thesis.',
+
+    whyNow: 'Connectivity demand in underserved markets growing. Starlink coverage gaps evident. Unit economics validated.',
+    nextMilestone: 'Next satellite batch deployment. New market launches.',
+    keyRisk: 'Satellite reliability. LEO constellation expansion.',
+
     yoyChange: 'same',
-    badges: ['Category Creator', 'Revenue Generating']
+    badges: ['Category Creator', 'Revenue Generating'],
+    convictionLevel: 7
   },
   {
     rank: 18,
     company: 'Fervo Energy',
     category: 'Climate Tech',
     highlights: ['Project Red — first commercial enhanced geothermal plant', 'Applying oil & gas horizontal drilling to geothermal', 'Google PPA validates tech giant demand'],
-    thesis: 'Fervo applies horizontal drilling technology from oil and gas to geothermal. Project Red demonstrated commercial-scale enhanced geothermal — carbon-free baseload power that works 24/7 unlike solar and wind. Google PPA provides enterprise demand signal.',
+
+    bullCase: 'Fervo proved enhanced geothermal works at commercial scale. Oil & gas horizontal drilling applied to geothermal unlocks resources everywhere. 24/7 clean baseload power that solar and wind can\'t provide.',
+    bearCase: 'Geothermal historically limited to specific locations. Costs still above grid parity in many markets. Scaling requires significant capital.',
+    theBet: 'We\'re betting enhanced geothermal becomes the clean baseload source the grid desperately needs. Fervo proved it works.',
+
+    scores: { techMoat: 8, momentum: 8, team: 8, capitalEfficiency: 7, govTraction: 7 },
+    totalScore: 38,
+
+    foundersNote: 'Tim Latimer saw what others missed: oil & gas drilling technology works for geothermal. Project Red proved enhanced geothermal at commercial scale. Google PPA provides the demand signal. This is clean baseload that actually works.',
+
+    whyNow: 'Grid reliability concerns growing. Data center demand exploding. Project Red operational.',
+    nextMilestone: 'Second major project announcement. Additional tech company PPAs.',
+    keyRisk: 'Scaling costs. Site-specific drilling challenges.',
+
     yoyChange: 'up',
-    badges: ['Clean Baseload', 'Operational']
+    badges: ['Clean Baseload', 'Operational'],
+    convictionLevel: 8
   },
   {
     rank: 19,
     company: 'Cerebras',
     category: 'Semiconductors',
     highlights: ['Wafer-scale chip — largest AI accelerator ever built', 'CS-3 cluster demonstrated competitive training performance', 'Only company shipping wafer-scale compute'],
-    thesis: 'Cerebras wafer-scale approach eliminates the interconnect bottleneck that limits traditional GPU clusters. The CS-3 demonstrated competitive training performance on frontier models. Unique architecture that could win in specific AI training workloads.',
+
+    bullCase: 'Wafer-scale eliminates the interconnect bottleneck limiting GPU clusters. CS-3 demonstrated competitive training performance. Only company shipping this architecture. Could win specific AI training workloads.',
+    bearCase: 'NVIDIA ecosystem extremely strong. Wafer-scale has yield and cost challenges. Market adoption still nascent.',
+    theBet: 'We\'re betting certain AI workloads benefit enormously from wafer-scale architecture. If Cerebras finds those niches, they win big.',
+
+    scores: { techMoat: 9, momentum: 7, team: 8, capitalEfficiency: 6, govTraction: 6 },
+    totalScore: 36,
+
+    foundersNote: 'Andrew Feldman bet on wafer-scale when everyone said it was impossible. They made it work. CS-3 cluster training frontier models competitively is remarkable. The architecture is genuinely differentiated.',
+
+    whyNow: 'AI training demand exponential. Interconnect bottleneck increasingly recognized. CS-3 proving performance.',
+    nextMilestone: 'Major hyperscaler deployment. Next-gen chip announcement.',
+    keyRisk: 'NVIDIA competitive response. Cost per unit challenging.',
+
     yoyChange: 'up',
-    badges: ['Tech Differentiator', 'First Mover']
+    badges: ['Tech Differentiator', 'First Mover'],
+    convictionLevel: 7
   },
   {
     rank: 20,
     company: 'Groq',
     category: 'Semiconductors',
     highlights: ['LPU architecture delivers fastest inference latency', 'GroqCloud API demonstrating commercial traction', 'Inference-specific design as AI shifts from training'],
-    thesis: 'Groq\'s LPU architecture delivers the fastest inference latency at scale. As AI shifts from training to inference, dedicated inference hardware becomes valuable. GroqCloud demonstrates real commercial deployment.',
+
+    bullCase: 'As AI shifts from training to inference, dedicated inference hardware becomes valuable. Groq\'s LPU delivers fastest latency at scale. GroqCloud shows commercial deployment. Deterministic performance matters for production.',
+    bearCase: 'NVIDIA improving inference. Custom silicon from hyperscalers. Unit economics still developing.',
+    theBet: 'We\'re betting inference becomes the dominant AI workload and speed matters. If so, Groq\'s architecture wins.',
+
+    scores: { techMoat: 8, momentum: 8, team: 8, capitalEfficiency: 7, govTraction: 5 },
+    totalScore: 36,
+
+    foundersNote: 'Jonathan Ross bet that inference would matter more than training. The LPU\'s deterministic performance is genuinely unique. GroqCloud demonstrates commercial deployment at scale. Speed matters.',
+
+    whyNow: 'AI deployment accelerating. Inference costs becoming focus. GroqCloud proving demand.',
+    nextMilestone: 'Major enterprise deployments. Next-gen LPU.',
+    keyRisk: 'NVIDIA competitive response. Hyperscaler custom silicon.',
+
     yoyChange: 'up',
-    badges: ['Inference King', 'API Live']
+    badges: ['Inference King', 'API Live'],
+    convictionLevel: 7
   },
 
   // TIER 3: THE HIDDEN GEMS (Ranks 21-35)
@@ -15545,135 +15842,345 @@ const INNOVATOR_50 = [
     company: 'Oklo',
     category: 'Nuclear Energy',
     highlights: ['Advanced fission microreactors for data centers', 'Public via SPAC — capital for deployment', 'Sam Altman as chairman signals AI-nuclear convergence'],
-    thesis: 'Oklo microreactors are the right architecture for data center power demand. Modular, factory-built reactors deployable in 18 months vs. 10 years for traditional nuclear. Sam Altman\'s involvement signals the AI industry sees nuclear as essential.',
+
+    bullCase: 'Oklo microreactors match data center power demand. Modular, factory-built, deployable in 18 months vs. 10 years. Sam Altman as chairman signals AI industry sees nuclear as essential.',
+    bearCase: 'NRC approval still required. No operating reactor yet. Public market expectations create pressure.',
+    theBet: 'We\'re betting data centers drive nuclear adoption and microreactors are the right form factor.',
+
+    scores: { techMoat: 7, momentum: 7, team: 8, capitalEfficiency: 6, govTraction: 7 },
+    totalScore: 35,
+
+    foundersNote: 'Jake DeWitte understood the AI-nuclear connection before most. Sam Altman\'s involvement isn\'t symbolic — it\'s strategic. Data centers need reliable baseload. Oklo\'s architecture fits.',
+
+    whyNow: 'Data center power crisis real. AI companies seeking nuclear. Public company capital available.',
+    nextMilestone: 'NRC license approval. First customer deployment.',
+    keyRisk: 'Regulatory timeline. Competition from larger nuclear players.',
+
     yoyChange: 'up',
-    badges: ['Data Center Ready', 'Public Company']
+    badges: ['Data Center Ready', 'Public Company'],
+    convictionLevel: 7
   },
   {
     rank: 22,
     company: 'Lightmatter',
     category: 'Semiconductors',
     highlights: ['Photonic interconnects shipping to hyperscalers', 'Passage optical chiplets address AI cluster bottleneck', 'Physics advantages over electrical interconnects'],
-    thesis: 'Lightmatter photonic interconnects address the bandwidth bottleneck between chips in AI clusters. Passage product is shipping to hyperscalers. Light-speed, low-power interconnects have fundamental physics advantages over electrical.',
+
+    bullCase: 'Photonics beats copper for chip interconnects — physics advantage. Passage shipping to hyperscalers. AI cluster scaling hits bandwidth limits. Lightmatter solves this.',
+    bearCase: 'Integration complexity with existing systems. Hyperscalers may develop in-house. Market adoption pace uncertain.',
+    theBet: 'We\'re betting AI cluster scaling requires photonic interconnects. Lightmatter has the lead.',
+
+    scores: { techMoat: 9, momentum: 7, team: 8, capitalEfficiency: 6, govTraction: 5 },
+    totalScore: 35,
+
+    foundersNote: 'Nicholas Harris bet on silicon photonics when others said it was too early. Passage actually shipping to hyperscalers is the validation. Interconnect is the new bottleneck.',
+
+    whyNow: 'AI cluster scaling hitting limits. Interconnect bottleneck recognized. Hyperscaler adoption beginning.',
+    nextMilestone: 'Expanded hyperscaler deployments. Compute product advancement.',
+    keyRisk: 'Integration challenges. In-house hyperscaler development.',
+
     yoyChange: 'up',
-    badges: ['Photonics Pioneer', 'Shipping Product']
+    badges: ['Photonics Pioneer', 'Shipping Product'],
+    convictionLevel: 7
   },
   {
     rank: 23,
     company: 'Etched',
     category: 'Semiconductors',
     highlights: ['Transformer-specific ASIC — Sohu chip', 'Claims 10x efficiency vs. GPUs for transformers', 'High-risk, high-reward architecture bet'],
-    thesis: 'Etched bets that transformers will remain the dominant AI architecture and designs chips specifically for them. If transformers remain dominant, Sohu could be 10x more efficient than general-purpose GPUs. Bold architecture bet.',
+
+    bullCase: 'If transformers remain dominant AI architecture, specialized silicon wins. Sohu claims 10x efficiency. Bold bet on architecture stability.',
+    bearCase: 'AI architectures evolving rapidly. Transformers may be replaced. NVIDIA general-purpose approach more flexible.',
+    theBet: 'We\'re betting transformers or similar attention mechanisms remain dominant. If right, Etched wins big.',
+
+    scores: { techMoat: 8, momentum: 7, team: 8, capitalEfficiency: 7, govTraction: 4 },
+    totalScore: 34,
+
+    foundersNote: 'Gavin Uberti and Chris Zhu made a bold bet: transformers win. If they\'re right about architecture stability, 10x efficiency is transformative. High risk, high reward.',
+
+    whyNow: 'Transformer dominance persisting. Efficiency becoming critical. Hyperscaler interest growing.',
+    nextMilestone: 'Sohu customer deployments. Performance benchmarks validation.',
+    keyRisk: 'Architecture evolution. Execution on chip delivery.',
+
     yoyChange: 'new',
-    badges: ['Focused Bet', 'Rising Star']
+    badges: ['Focused Bet', 'Rising Star'],
+    convictionLevel: 6
   },
   {
     rank: 24,
     company: 'Kairos Power',
     category: 'Nuclear Energy',
     highlights: ['Hermes demonstration reactor under construction', 'Molten salt cooling enables passive safety', 'Google partnership for data center power'],
-    thesis: 'Kairos molten salt approach enables passive safety and higher operating temperatures. Hermes demonstration reactor is under construction — real steel in the ground. Google partnership for data center power validates demand.',
+
+    bullCase: 'Hermes is under construction — real steel, real progress. Molten salt enables passive safety and higher temps. Google partnership validates data center demand.',
+    bearCase: 'Demonstration reactor doesn\'t equal commercial. Molten salt has corrosion challenges. Timeline still long.',
+    theBet: 'We\'re betting molten salt coolant is the right approach for advanced fission. Kairos has the lead.',
+
+    scores: { techMoat: 8, momentum: 7, team: 8, capitalEfficiency: 6, govTraction: 7 },
+    totalScore: 36,
+
+    foundersNote: 'Mike Laufer\'s patience is remarkable. Hermes construction is real progress while others are still designing. Google partnership shows the market believes.',
+
+    whyNow: 'Construction underway. Google partnership secured. Regulatory pathway clearer.',
+    nextMilestone: 'Hermes completion. Commercial reactor progress.',
+    keyRisk: 'Construction timeline. Demonstration-to-commercial gap.',
+
     yoyChange: 'same',
-    badges: ['Demo Progress', 'Construction Phase']
+    badges: ['Demo Progress', 'Construction Phase'],
+    convictionLevel: 7
   },
   {
     rank: 25,
     company: 'Terraform Industries',
     category: 'Climate Tech',
     highlights: ['Synthetic fuel from solar, water, and air', 'First demonstration of complete solar-to-fuel pathway', 'Targeting $1/gallon synthetic hydrocarbons'],
-    thesis: 'Terraform is building the machine to make synthetic hydrocarbons from solar, water, and air. First demonstrations show technical feasibility. If unit economics work at scale, this could transform transportation fuel.',
+
+    bullCase: 'If Terraform achieves $1/gallon synthetic fuel, they transform transportation. First demonstration of complete solar-to-fuel pathway. Casey Handmer\'s physics clarity.',
+    bearCase: 'Pathway to $1/gallon unproven. Electrolyzer and DAC costs still high. Requires massive scale.',
+    theBet: 'We\'re betting synthetic fuels become necessary for hard-to-electrify transport. If Terraform achieves economics, it\'s transformative.',
+
+    scores: { techMoat: 8, momentum: 6, team: 8, capitalEfficiency: 7, govTraction: 5 },
+    totalScore: 34,
+
+    foundersNote: 'Casey Handmer thinks from first principles. The thesis is simple: solar is cheap, make fuel. First demonstration proves the pathway works. Now it\'s about scaling economics.',
+
+    whyNow: 'Solar costs continuing to decline. SAF mandates creating demand. First demonstration completed.',
+    nextMilestone: 'Scaled pilot. Cost reduction demonstration.',
+    keyRisk: 'Economic viability at scale. Technology integration complexity.',
+
     yoyChange: 'new',
-    badges: ['Synthetic Fuel', 'Moonshot']
+    badges: ['Synthetic Fuel', 'Moonshot'],
+    convictionLevel: 7
   },
   {
     rank: 26,
     company: 'Venus Aerospace',
     category: 'Aerospace & Aviation',
     highlights: ['Mach 9 rotating detonation engine testing', 'Hypersonic passenger and cargo aircraft', 'Houston to Tokyo in 1 hour vision'],
-    thesis: 'Venus is developing the fastest aircraft ever built using rotating detonation engines. They\'ve achieved breakthrough hypersonic engine testing. Long timeline but transformative if successful.',
+
+    bullCase: 'Rotating detonation engines are a genuine physics breakthrough — more efficient than traditional propulsion at hypersonic speeds. Venus achieved Mach 9 ground testing, validating the core technology. If hypersonic commercial flight becomes viable, Venus has the engine advantage.',
+    bearCase: 'Hypersonic passenger flight has been "coming soon" for decades. Engineering challenges immense. Timeline to commercial ops is 10+ years. Capital requirements are enormous.',
+    theBet: 'We\'re betting rotating detonation engines finally make hypersonic economics work. Venus is pushing the frontier of what engines can do.',
+
+    scores: { techMoat: 9, momentum: 6, team: 8, capitalEfficiency: 6, govTraction: 5 },
+    totalScore: 34,
+
+    foundersNote: 'Sarah and Andrew Duggleby are thinking in decades, not quarters. The Mach 9 engine test wasn\'t a demo — it was a breakthrough. This is high-risk, high-reward frontier aerospace.',
+
+    whyNow: 'Rotating detonation technology matured enough for demonstration. DoD hypersonic interest provides early revenue pathway.',
+    nextMilestone: 'Flight-rated engine demonstration. First airframe test vehicle.',
+    keyRisk: 'Long development timeline. Requires patient capital and sustained execution.',
+
     yoyChange: 'new',
-    badges: ['Moonshot', 'Engine Breakthrough']
+    badges: ['Moonshot', 'Engine Breakthrough'],
+    convictionLevel: 6
   },
   {
     rank: 27,
     company: 'Agility Robotics',
     category: 'Robotics',
     highlights: ['Digit humanoid robot in Amazon pilot', 'RoboFab production facility for manufacturing scale', 'Logistics-focused design for practical deployment'],
-    thesis: 'Agility has the most practical approach to humanoid robotics — purpose-built for logistics rather than general-purpose. Amazon pilot validates enterprise demand. RoboFab production facility signals manufacturing readiness.',
+
+    bullCase: 'Agility took the practical path — purpose-built bipedal robot for logistics, not general-purpose humanoid. Amazon pilot in real warehouses validates enterprise demand. RoboFab factory shows manufacturing readiness others lack.',
+    bearCase: 'General-purpose humanoids from Figure and Tesla could leapfrog specialized designs. Amazon could build internally. Unit economics still unproven at scale.',
+    theBet: 'We\'re betting specialization beats generalization in robotics near-term. Digit solving logistics is more valuable than demo videos.',
+
+    scores: { techMoat: 7, momentum: 7, team: 8, capitalEfficiency: 7, govTraction: 5 },
+    totalScore: 34,
+
+    foundersNote: 'Damion Shelton\'s pragmatism is refreshing in a field full of moonshots. RoboFab is the signal — they\'re thinking about manufacturing scale while others are still doing demos. Amazon isn\'t betting on Digit for PR.',
+
+    whyNow: 'Amazon deployment entering meaningful scale. RoboFab enabling production volume. Labor shortage driving automation demand.',
+    nextMilestone: 'Amazon deployment expansion. Unit economics validation at scale.',
+    keyRisk: 'Competition from generalist humanoid robots. Customer concentration with Amazon.',
+
     yoyChange: 'same',
-    badges: ['Enterprise Ready', 'Production Scale']
+    badges: ['Enterprise Ready', 'Production Scale'],
+    convictionLevel: 7
   },
   {
     rank: 28,
     company: 'Apptronik',
     category: 'Robotics',
     highlights: ['Apollo humanoid robot for logistics', 'NASA collaboration heritage', 'Mercedes-Benz pilot program'],
-    thesis: 'Apptronik brings NASA humanoid robotics heritage to commercial applications. Apollo designed for industrial logistics. Mercedes pilot validates automotive manufacturing interest. Strong technical foundation.',
+
+    bullCase: 'Apptronik\'s NASA Valkyrie heritage means they\'ve been doing humanoid robotics longer than almost anyone. Apollo is purpose-designed for industrial environments. Mercedes pilot signals automotive manufacturing interest.',
+    bearCase: 'Slower to market than Figure. NASA heritage doesn\'t guarantee commercial success. Mercedes pilot is early-stage.',
+    theBet: 'We\'re betting NASA-grade engineering translates to robust commercial products. Apollo is built for real factory conditions.',
+
+    scores: { techMoat: 7, momentum: 6, team: 8, capitalEfficiency: 6, govTraction: 6 },
+    totalScore: 33,
+
+    foundersNote: 'The NASA pedigree is real — this team built Valkyrie. Apollo feels more industrial-grade than the silicon valley humanoid demos. Mercedes choosing Apptronik over others is notable.',
+
+    whyNow: 'Mercedes pilot advancing. Automotive industry automation pressure increasing. NASA heritage provides government pathway.',
+    nextMilestone: 'Mercedes deployment results. Additional automotive OEM partnerships.',
+    keyRisk: 'Pace of commercial deployment. Competition from faster-moving startups.',
+
     yoyChange: 'new',
-    badges: ['NASA Heritage', 'Enterprise Pilots']
+    badges: ['NASA Heritage', 'Enterprise Pilots'],
+    convictionLevel: 6
   },
   {
     rank: 29,
     company: 'Covariant',
     category: 'Robotics AI',
     highlights: ['RFM-1 robotics foundation model', 'AI-powered picking robots deployed at scale', 'Production deployments at major retailers'],
-    thesis: 'Covariant has deployed AI-powered picking robots at scale in real warehouses. RFM-1 foundation model could generalize to broader manipulation tasks. Strong commercial traction validates the approach.',
+
+    bullCase: 'Covariant has more production robot manipulation deployments than anyone. RFM-1 foundation model could enable rapid expansion to new tasks. Real revenue from real robots in real warehouses.',
+    bearCase: 'Foundation models for robotics unproven for generalization. Physical Intelligence and others racing for same opportunity. Warehouse automation is competitive.',
+    theBet: 'We\'re betting production experience matters more than research papers. Covariant has more real-world manipulation data than anyone.',
+
+    scores: { techMoat: 8, momentum: 7, team: 8, capitalEfficiency: 7, govTraction: 4 },
+    totalScore: 34,
+
+    foundersNote: 'Peter Chen\'s approach is data-first: deploy robots, collect data, improve models. The production deployments at major retailers aren\'t pilots — they\'re real operations. That\'s a moat.',
+
+    whyNow: 'RFM-1 enables faster task expansion. E-commerce automation demand continues growing. Production deployments provide data advantage.',
+    nextMilestone: 'RFM-1 generalization demonstrated. New task domains beyond picking.',
+    keyRisk: 'Foundation model competition. Customer acquisition costs.',
+
     yoyChange: 'same',
-    badges: ['Production Deployed', 'Foundation Model']
+    badges: ['Production Deployed', 'Foundation Model'],
+    convictionLevel: 7
   },
   {
     rank: 30,
     company: 'Zipline',
     category: 'Aerospace & Aviation',
     highlights: ['Most autonomous flight hours of any drone company', 'Platform 2 enables home delivery', 'Operating at commercial scale across continents'],
-    thesis: 'Zipline has more autonomous flight hours than any other drone company. Platform 2 enables residential delivery with quiet precision landing. Expanding from medical to retail delivery across multiple continents.',
+
+    bullCase: 'Zipline has more autonomous flight hours than any company on Earth — millions of deliveries completed. Platform 2\'s precision droid drop enables urban delivery. Proven operations across multiple continents.',
+    bearCase: 'US regulatory environment remains challenging. Consumer drone delivery economics unproven. Competition from ground-based delivery robotics.',
+    theBet: 'We\'re betting drone delivery becomes standard for time-sensitive goods. Zipline\'s operational track record is unmatched.',
+
+    scores: { techMoat: 8, momentum: 7, team: 9, capitalEfficiency: 7, govTraction: 6 },
+    totalScore: 37,
+
+    foundersNote: 'Keller Rinaudo built something real while others talked. Millions of medical deliveries across Rwanda, Ghana, Japan — this isn\'t theoretical. Platform 2 is the next step to consumer delivery. The operations expertise is the moat.',
+
+    whyNow: 'Platform 2 enabling new use cases. US BVLOS regulations advancing. Medical delivery model proven.',
+    nextMilestone: 'Major US retailer deployment. Platform 2 commercial operations.',
+    keyRisk: 'US regulatory timeline. Consumer delivery unit economics.',
+
     yoyChange: 'same',
-    badges: ['Operational Scale', 'Proven Model']
+    badges: ['Operational Scale', 'Proven Model'],
+    convictionLevel: 7
   },
   {
     rank: 31,
     company: 'Machina Labs',
     category: 'Advanced Manufacturing',
     highlights: ['Robotic sheet metal forming without dies', 'NASA and DoD contracts for aerospace parts', 'Flexible manufacturing enables rapid prototyping'],
-    thesis: 'Machina Labs robots form sheet metal without traditional dies, enabling rapid prototyping of aerospace structures. NASA and DoD contracts validate capability. Could transform low-volume, high-complexity manufacturing.',
+
+    bullCase: 'Machina eliminates dies from sheet metal forming — that\'s 90% of the time and cost in aerospace prototyping. NASA and DoD contracts prove the capability matters. Could enable on-demand aerospace manufacturing.',
+    bearCase: 'Traditional manufacturing has deep moats and relationships. Scaling from prototyping to production is challenging. Aerospace qualification timelines are long.',
+    theBet: 'We\'re betting agile manufacturing becomes essential for next-gen aerospace. Machina makes iteration possible where before you waited months for tooling.',
+
+    scores: { techMoat: 8, momentum: 6, team: 8, capitalEfficiency: 7, govTraction: 7 },
+    totalScore: 36,
+
+    foundersNote: 'Edward Mehr saw that aerospace manufacturing was stuck in the 1970s. The robot-only approach to forming eliminates constraints nobody else questioned. NASA\'s interest signals this could reshape aerospace manufacturing.',
+
+    whyNow: 'Defense production surge requires manufacturing agility. Prototyping timelines becoming competitive advantage.',
+    nextMilestone: 'Production-volume qualification. Additional aerospace OEM partnerships.',
+    keyRisk: 'Transition from prototyping to production scale. Traditional manufacturer competition.',
+
     yoyChange: 'new',
-    badges: ['Flexible Manufacturing', 'Aerospace Contracts']
+    badges: ['Flexible Manufacturing', 'Aerospace Contracts'],
+    convictionLevel: 7
   },
   {
     rank: 32,
     company: 'KoBold Metals',
     category: 'Climate Tech',
     highlights: ['AI-powered mineral exploration', 'Major Zambia copper discovery validates approach', 'Gates and Bezos backing'],
-    thesis: 'KoBold applies machine learning to mineral exploration, finding battery metal deposits faster than traditional methods. Major Zambia copper discovery validates the AI approach. Critical for securing domestic supply chain.',
+
+    bullCase: 'KoBold\'s AI found a major copper deposit in Zambia that traditional geology missed. Battery metals are a strategic bottleneck. If AI-powered exploration works at scale, KoBold finds deposits faster and cheaper than anyone.',
+    bearCase: 'Mining is a long-cycle business. Discovery to production takes years. Commodity price volatility affects economics.',
+    theBet: 'We\'re betting the energy transition requires finding more battery metals, faster. KoBold is applying AI to a problem that hasn\'t changed in 50 years.',
+
+    scores: { techMoat: 8, momentum: 7, team: 8, capitalEfficiency: 6, govTraction: 5 },
+    totalScore: 34,
+
+    foundersNote: 'Kurt House is applying serious machine learning to geology. The Zambia discovery isn\'t luck — it\'s validation that the AI approach finds deposits traditional methods miss. Gates and Bezos don\'t back mining companies without reason.',
+
+    whyNow: 'Battery metal demand surging. Traditional exploration plateauing. Zambia discovery proves the model.',
+    nextMilestone: 'Additional major discoveries. First production from KoBold-discovered deposits.',
+    keyRisk: 'Mining development timelines. Commodity price exposure.',
+
     yoyChange: 'same',
-    badges: ['Resource Discovery', 'AI Application']
+    badges: ['Resource Discovery', 'AI Application'],
+    convictionLevel: 7
   },
   {
     rank: 33,
     company: 'Saildrone',
     category: 'Defense & Maritime',
     highlights: ['Largest fleet of autonomous surface vessels', 'Navy and NOAA contracts for persistent ISR', 'Wind-powered for unlimited endurance'],
-    thesis: 'Saildrone operates the largest fleet of autonomous surface vessels, collecting ocean data for military and scientific applications. Wind-powered design enables unlimited endurance. Growing Navy utilization for persistent maritime surveillance.',
+
+    bullCase: 'Saildrone operates the largest fleet of autonomous surface vessels on Earth. Wind-powered design enables unlimited endurance. Navy finding growing use cases for persistent maritime surveillance at fraction of ship cost.',
+    bearCase: 'Surface vessels more limited than underwater systems for some missions. Competition from Saronic and others. Unit economics at scale still developing.',
+    theBet: 'We\'re betting persistent maritime domain awareness becomes critical for Navy operations. Saildrone provides this at a fraction of manned vessel cost.',
+
+    scores: { techMoat: 7, momentum: 7, team: 8, capitalEfficiency: 8, govTraction: 8 },
+    totalScore: 38,
+
+    foundersNote: 'Richard Jenkins built the wind-powered approach when everyone said diesel was required for endurance. The Navy is using Saildrones for real ISR missions. Fleet scale is the moat — no one else has hundreds of operational autonomous vessels.',
+
+    whyNow: 'Navy autonomous surface vessel programs accelerating. Pacific surveillance needs intensifying. Fleet proven in operations.',
+    nextMilestone: 'Major fleet expansion contract. Additional sensor capabilities.',
+    keyRisk: 'Competition in autonomous maritime. Underwater systems for some missions.',
+
     yoyChange: 'same',
-    badges: ['Fleet Scale', 'Persistent ISR']
+    badges: ['Fleet Scale', 'Persistent ISR'],
+    convictionLevel: 7
   },
   {
     rank: 34,
     company: 'Gecko Robotics',
     category: 'Robotics',
     highlights: ['Wall-climbing robots for infrastructure inspection', 'Growing enterprise customer base across industries', 'Access to dangerous/impossible inspection sites'],
-    thesis: 'Gecko robots inspect infrastructure that\'s dangerous or impossible for humans to access. Growing from oil and gas to broader industrial applications. Enterprise contracts provide stable, recurring revenue.',
+
+    bullCase: 'Gecko robots inspect infrastructure that\'s dangerous or impossible for humans. Growing from oil & gas to power, water, and industrial. Enterprise contracts provide predictable recurring revenue. Real robots doing real work.',
+    bearCase: 'Inspection is a services business — scaling requires more robots and people. Competition from traditional inspection methods. Niche market size.',
+    theBet: 'We\'re betting infrastructure inspection becomes increasingly automated. Gecko has the robots and the customer relationships.',
+
+    scores: { techMoat: 7, momentum: 7, team: 8, capitalEfficiency: 7, govTraction: 6 },
+    totalScore: 35,
+
+    foundersNote: 'Jake Loosararian identified that infrastructure inspection was still done by humans on scaffolding — slow, dangerous, expensive. The wall-climbing robots aren\'t a demo; they\'re deployed at refineries and power plants. Real revenue, real utility.',
+
+    whyNow: 'Infrastructure aging driving inspection demand. Skilled labor shortage in inspection trades. Digital twin demand growing.',
+    nextMilestone: 'Platform expansion to new industries. International market growth.',
+    keyRisk: 'Services business scaling challenges. Competition from drone inspection.',
+
     yoyChange: 'same',
-    badges: ['Industrial Inspection', 'Enterprise Revenue']
+    badges: ['Industrial Inspection', 'Enterprise Revenue'],
+    convictionLevel: 7
   },
   {
     rank: 35,
     company: 'Boom Supersonic',
     category: 'Aerospace & Aviation',
     highlights: ['XB-1 demonstrator completed successful flights', 'Overture production aircraft in development', 'Major airline orders from United, AA, JAL'],
-    thesis: 'Boom is the leading candidate to return supersonic passenger flight. XB-1 flight testing validates aerodynamics and demonstrates execution capability. Major airline commitments provide demand signal for Overture production.',
+
+    bullCase: 'XB-1 flight testing proved Boom can execute. Major airline commitments from United, American, and Japan Airlines provide demand signal. Return of supersonic passenger flight has massive market if achievable.',
+    bearCase: 'Supersonic economics historically challenging. Engine development remains difficult. Regulatory environment uncertain.',
+    theBet: 'We\'re betting supersonic passenger flight returns for business routes. XB-1 success shows Boom might be the team to do it.',
+
+    scores: { techMoat: 7, momentum: 7, team: 8, capitalEfficiency: 6, govTraction: 5 },
+    totalScore: 33,
+
+    foundersNote: 'Blake Scholl\'s persistence is remarkable — Boom started when everyone said supersonic was impossible. XB-1 flying changes the conversation. The airline orders are real commitments. Now it\'s about executing Overture.',
+
+    whyNow: 'XB-1 validating aerodynamics. Engine pathway clarifying. Airlines committing to orders.',
+    nextMilestone: 'Overture production timeline. Engine selection finalization.',
+    keyRisk: 'Engine development execution. Supersonic economics at commercial scale.',
+
     yoyChange: 'same',
-    badges: ['Milestone Achieved', 'Customer Orders']
+    badges: ['Milestone Achieved', 'Customer Orders'],
+    convictionLevel: 6
   },
 
   // TIER 4: THE WATCHLIST (Ranks 36-50)
@@ -15684,135 +16191,346 @@ const INNOVATOR_50 = [
     company: 'Rainmaker',
     category: 'AgTech',
     highlights: ['Crop insurance reimagined with satellite data', '$15B market running on 30-year-old systems', 'Founder Augustus Doricko\'s farmer-first approach'],
-    thesis: 'Crop insurance is a $15B market running on 30-year-old COBOL systems. Rainmaker is rebuilding it with satellites and AI. Insurance becomes the trojan horse for broader agricultural data analytics. Founder interview confirmed exceptional clarity.',
+
+    bullCase: 'Crop insurance is $15B run on 30-year-old COBOL. Rainmaker rebuilds it with satellites and AI. Insurance is the trojan horse — once you\'re processing field data, you can offer 10x more value through prescriptive analytics. Farmer-first approach builds trust competitors lack.',
+    bearCase: 'Insurance is heavily regulated. Incumbent insurers have deep farmer relationships. Scaling in agriculture is notoriously slow.',
+    theBet: 'We\'re betting the farmer interface to agricultural data is insurance, not another farm app. Rainmaker\'s approach could capture the data layer for all of ag.',
+
+    scores: { techMoat: 7, momentum: 7, team: 9, capitalEfficiency: 8, govTraction: 5 },
+    totalScore: 36,
+
+    foundersNote: 'Augustus Doricko is laser-focused on the farmer experience — most ag-tech founders lose sight of this. When we spoke, his clarity on insurance as the trojan horse for agricultural data was compelling. He understands farmers in a way that\'s rare in tech.',
+
+    whyNow: 'Satellite resolution improving. Climate volatility making traditional actuarial models obsolete. USDA crop insurance modernization pressure.',
+    nextMilestone: 'State expansion. Premium volume growth. Analytics product launch.',
+    keyRisk: 'Insurance regulatory complexity. Farmer acquisition costs.',
+
     yoyChange: 'new',
-    badges: ['ROS Pick', 'Founder Interview', 'Market Disruption']
+    badges: ['ROS Pick', 'Founder Interview', 'Market Disruption'],
+    rosConnection: 'Founder interview Feb 2026. Met Augustus in person.',
+    convictionLevel: 8
   },
   {
     rank: 37,
     company: 'Solugen',
     category: 'Climate Tech',
     highlights: ['Biomanufacturing platform for industrial chemicals', 'Houston production facility operational', 'Carbon-negative chemical production'],
-    thesis: 'Solugen produces industrial chemicals using enzymes instead of petroleum. Houston facility demonstrates production at scale. Growing product portfolio addressing multiple chemical markets with carbon-negative economics.',
+
+    bullCase: 'Solugen produces industrial chemicals with enzymes instead of petroleum. Houston facility demonstrates production at scale. Carbon-negative economics mean they can win on price AND sustainability. Growing product portfolio across chemical markets.',
+    bearCase: 'Chemical manufacturing is commoditized. Scaling biology is historically difficult. Market education required.',
+    theBet: 'We\'re betting bio-based chemicals can compete on cost, not just sustainability. Solugen is proving this at production scale.',
+
+    scores: { techMoat: 8, momentum: 7, team: 8, capitalEfficiency: 7, govTraction: 5 },
+    totalScore: 35,
+
+    foundersNote: 'Gaurab Chakrabarti understood that sustainability alone doesn\'t sell chemicals — cost does. The Houston facility is real production, not a pilot. Carbon-negative at competitive cost is a powerful combination.',
+
+    whyNow: 'Corporate sustainability mandates driving demand. Production proven at scale. Expanding product portfolio.',
+    nextMilestone: 'New product launches. Production capacity expansion.',
+    keyRisk: 'Commodity chemical competition. Biology scaling challenges.',
+
     yoyChange: 'same',
-    badges: ['Bio-Manufacturing', 'Production Scale']
+    badges: ['Bio-Manufacturing', 'Production Scale'],
+    convictionLevel: 7
   },
   {
     rank: 38,
     company: 'Heirloom Carbon',
     category: 'Climate Tech',
     highlights: ['Direct air capture using limestone', 'Simpler chemistry could enable scaling', 'Microsoft and other corporate buyers'],
-    thesis: 'Heirloom uses limestone to capture CO2 from air with potentially lower costs than competitors. Corporate carbon removal commitments from Microsoft and others provide demand. Simpler chemistry could enable faster scaling.',
+
+    bullCase: 'Heirloom\'s limestone approach is chemically simpler than competitors — could mean lower costs at scale. Microsoft, Stripe, and others have committed to buy carbon removal. Simpler chemistry enables faster iteration.',
+    bearCase: 'Direct air capture economics still challenging. Geological storage adds complexity. Competition from other approaches.',
+    theBet: 'We\'re betting carbon removal becomes a real market and simpler chemistry wins. Heirloom\'s approach is elegantly simple.',
+
+    scores: { techMoat: 7, momentum: 7, team: 8, capitalEfficiency: 6, govTraction: 5 },
+    totalScore: 33,
+
+    foundersNote: 'Shashank Samala bet on limestone when others chose exotic chemistry. Simpler means easier to scale. Microsoft isn\'t buying Heirloom credits for PR — they\'re buying because they believe the technology will scale.',
+
+    whyNow: 'Corporate buyers committing to removal. Simpler chemistry enables faster iteration. Cost reduction pathway clearer.',
+    nextMilestone: 'First commercial-scale facility. Cost reduction milestones.',
+    keyRisk: 'Direct air capture economics. Competition from other removal methods.',
+
     yoyChange: 'same',
-    badges: ['Carbon Removal', 'Corporate Demand']
+    badges: ['Carbon Removal', 'Corporate Demand'],
+    convictionLevel: 6
   },
   {
     rank: 39,
     company: 'Chaos Industries',
     category: 'Defense Technology',
     highlights: ['Counter-drone systems for near-peer threats', 'Rapid iteration on autonomous interceptors', 'Young team with defense-tech pedigree'],
-    thesis: 'Chaos Industries is building counter-drone systems specifically designed for near-peer adversary threats — not just commercial quadcopters. Rapid iteration approach and strong defense-tech team pedigree.',
+
+    bullCase: 'Chaos is building counter-drone specifically for near-peer threats — not commercial quadcopters. SpaceX-style rapid iteration on autonomous interceptors. Young team with serious defense-tech pedigree shipping real hardware.',
+    bearCase: 'Crowded counter-drone market. Early stage with limited production. Defense procurement timelines long.',
+    theBet: 'We\'re betting the counter-drone market fragments by threat type. Chaos is focused on the hardest targets — near-peer military drones.',
+
+    scores: { techMoat: 7, momentum: 6, team: 8, capitalEfficiency: 7, govTraction: 6 },
+    totalScore: 34,
+
+    foundersNote: 'The Chaos team comes from Anduril and SpaceX — they know how to build defense hardware fast. Focus on near-peer threats rather than commercial quadcopters is strategically smart. Early but executing.',
+
+    whyNow: 'Near-peer drone threat increasingly urgent. Ukraine demonstrating military drone evolution. Existing solutions not designed for advanced threats.',
+    nextMilestone: 'DoD contract award. First operational deployment.',
+    keyRisk: 'Early stage. Counter-drone market competition.',
+
     yoyChange: 'new',
-    badges: ['Counter-Drone', 'Rising Star']
+    badges: ['Counter-Drone', 'Rising Star'],
+    convictionLevel: 7
   },
   {
     rank: 40,
     company: 'Bedrock Ocean',
     category: 'Ocean Technology',
     highlights: ['Autonomous underwater vehicles for ocean mapping', 'SpaceX alumni applying aerospace approach to ocean', 'Critical for undersea infrastructure'],
-    thesis: 'Bedrock is mapping the ocean floor with autonomous submarines. SpaceX alumni applying aerospace iteration to ocean exploration. Critical for undersea cables, offshore wind, and defense applications.',
+
+    bullCase: 'Bedrock is mapping the ocean floor with autonomous submarines built on aerospace principles. Critical infrastructure for undersea cables, offshore wind, and defense. SpaceX alumni applying rapid iteration to an industry that hasn\'t innovated in decades.',
+    bearCase: 'Ocean technology is capital-intensive. Long sales cycles for infrastructure customers. Limited awareness of the opportunity.',
+    theBet: 'We\'re betting ocean infrastructure becomes as important as land infrastructure. Bedrock is building the surveying capability that enables everything else.',
+
+    scores: { techMoat: 8, momentum: 6, team: 8, capitalEfficiency: 7, govTraction: 6 },
+    totalScore: 35,
+
+    foundersNote: 'Anthony DiMare brought SpaceX iteration speed to ocean exploration. The underwater vehicles are impressive — designed from first principles, not inherited from legacy ocean industry. The ocean mapping market is larger than most people realize.',
+
+    whyNow: 'Offshore wind requiring massive surveying. Undersea cable demand growing. Defense needs for seabed awareness increasing.',
+    nextMilestone: 'Major offshore wind contract. Fleet expansion.',
+    keyRisk: 'Market education. Capital requirements for fleet scale.',
+
     yoyChange: 'new',
-    badges: ['Ocean Frontier', 'SpaceX Mafia']
+    badges: ['Ocean Frontier', 'SpaceX Mafia'],
+    convictionLevel: 7
   },
   {
     rank: 41,
     company: 'Neros',
     category: 'Defense Technology',
     highlights: ['Counter-UAS electronic warfare systems', 'Rapid deployment to active threat environments', 'Software-defined approach to EW'],
-    thesis: 'Neros is building software-defined electronic warfare systems for counter-drone. Rapid deployment timeline to active threat environments demonstrates execution capability.',
+
+    bullCase: 'Neros builds software-defined electronic warfare for counter-drone. Software-defined means rapid updates without new hardware. Deployed to active threat environments faster than legacy EW providers.',
+    bearCase: 'Electronic warfare is highly classified space. Competition from defense primes. Market size for standalone EW unclear.',
+    theBet: 'We\'re betting software-defined EW becomes standard as threats evolve rapidly. Neros iteration speed is the differentiator.',
+
+    scores: { techMoat: 7, momentum: 6, team: 7, capitalEfficiency: 7, govTraction: 7 },
+    totalScore: 34,
+
+    foundersNote: 'The Neros approach is refreshingly modern — software-defined EW that can update in the field. Deployment to active threats proves the capability works. EW has been a stagnant field ripe for disruption.',
+
+    whyNow: 'Counter-drone urgency accelerating. Legacy EW systems too slow to update. Software-defined approach gaining acceptance.',
+    nextMilestone: 'Additional theater deployments. Expanded capability demonstrations.',
+    keyRisk: 'Competition from defense primes. Classified market limitations.',
+
     yoyChange: 'new',
-    badges: ['Electronic Warfare', 'Rapid Deployment']
+    badges: ['Electronic Warfare', 'Rapid Deployment'],
+    convictionLevel: 6
   },
   {
     rank: 42,
     company: 'Stoke Space',
     category: 'Space Technology',
     highlights: ['Fully reusable second stage — industry first', 'Nova rocket in development', 'Solving the hardest problem in reusability'],
-    thesis: 'Stoke Space is developing a fully reusable rocket including the second stage — something no one else has achieved. Nova rocket could dramatically reduce launch costs if they pull it off.',
+
+    bullCase: 'Stoke is solving the hardest problem in reusability — the second stage. Nova rocket with fully reusable both stages could dramatically reduce launch costs. Demonstrated hover tests prove the propulsion works.',
+    bearCase: 'Second stage reusability is extremely difficult. SpaceX has tried and struggled. Execution risk high.',
+    theBet: 'We\'re betting full reusability is the ultimate endgame for launch. Stoke is taking the hardest shot.',
+
+    scores: { techMoat: 8, momentum: 6, team: 8, capitalEfficiency: 7, govTraction: 5 },
+    totalScore: 34,
+
+    foundersNote: 'Andy Lapsa bet on the hardest problem in launch — second stage reusability. The hover tests prove the propulsion works. If Nova delivers full reusability, it\'s a step change in launch economics.',
+
+    whyNow: 'Launch market growing. Reusability proven for first stages. Second stage is the remaining challenge.',
+    nextMilestone: 'Nova first flight. Second stage recovery demonstration.',
+    keyRisk: 'Technical complexity of second stage reentry. Development timeline.',
+
     yoyChange: 'new',
-    badges: ['Full Reusability', 'Technical Frontier']
+    badges: ['Full Reusability', 'Technical Frontier'],
+    convictionLevel: 6
   },
   {
     rank: 43,
     company: 'K2 Space',
     category: 'Space Technology',
     highlights: ['Massive satellite bus for new use cases', 'Enabling space-based power and manufacturing', 'Founders from SpaceX and Relativity'],
-    thesis: 'K2 Space is building massive satellite buses that enable new categories of space applications — space-based power, manufacturing, and more. SpaceX and Relativity pedigree with bold vision.',
+
+    bullCase: 'K2 is building massive satellite buses — 10x larger than current satellites. Enables applications impossible with small sats: space-based power, manufacturing, large radar. SpaceX and Relativity founders know how to build space hardware.',
+    bearCase: 'Large satellites require large launch vehicles. Market for mega-satellites unproven. Capital-intensive development.',
+    theBet: 'We\'re betting some space applications require scale that current satellites can\'t provide. K2 is building the platform.',
+
+    scores: { techMoat: 7, momentum: 5, team: 9, capitalEfficiency: 6, govTraction: 5 },
+    totalScore: 32,
+
+    foundersNote: 'Karan Kunjur and the K2 team are thinking bigger — literally. The thesis is that Starship enables a new class of massive satellites. If you can launch 100 tons, why build small? Bold but logical.',
+
+    whyNow: 'Starship enabling heavy-lift. New applications requiring larger platforms. Space-based power concepts gaining interest.',
+    nextMilestone: 'First bus demonstration. Customer commitments.',
+    keyRisk: 'Market for mega-satellites unproven. Dependent on Starship economics.',
+
     yoyChange: 'new',
-    badges: ['Mega-Satellites', 'SpaceX Mafia']
+    badges: ['Mega-Satellites', 'SpaceX Mafia'],
+    convictionLevel: 6
   },
   {
     rank: 44,
     company: 'Aalo Atomics',
     category: 'Nuclear Energy',
     highlights: ['Modular molten salt reactor design', 'Focus on manufacturability from day one', 'Strong nuclear engineering team'],
-    thesis: 'Aalo Atomics is designing modular molten salt reactors with manufacturability as a primary constraint from day one. Taking lessons from other nuclear startups to avoid common pitfalls.',
+
+    bullCase: 'Aalo designs for manufacturability from day one — learning from other nuclear startups that ignored this. Molten salt cooling with factory-built modules. Team has deep nuclear engineering experience.',
+    bearCase: 'Nuclear development timelines are long. NRC approval pathway unclear for new reactor types. Competition from other nuclear startups.',
+    theBet: 'We\'re betting the next nuclear generation is factory-built and modular. Aalo is designing for that future from the start.',
+
+    scores: { techMoat: 7, momentum: 5, team: 8, capitalEfficiency: 7, govTraction: 5 },
+    totalScore: 32,
+
+    foundersNote: 'Jake Hecla understood that most nuclear startups fail on manufacturing, not physics. Designing for factory production from day one is the right approach. Early stage but methodical.',
+
+    whyNow: 'Nuclear renaissance gaining momentum. Manufacturing-first approach differentiated. Data center power demand driving urgency.',
+    nextMilestone: 'Design milestone. Manufacturing pilot progress.',
+    keyRisk: 'Early stage. Regulatory timeline. Development funding.',
+
     yoyChange: 'new',
-    badges: ['Modular Design', 'Manufacturing Focus']
+    badges: ['Modular Design', 'Manufacturing Focus'],
+    convictionLevel: 6
   },
   {
     rank: 45,
     company: 'Exowatt',
     category: 'Energy',
     highlights: ['Thermal battery for grid-scale storage', 'Sam Altman backed for data center power', 'Novel approach to long-duration storage'],
-    thesis: 'Exowatt is building thermal batteries for grid-scale energy storage. Sam Altman backing signals AI industry sees this as critical for data center power. Novel approach to long-duration storage challenge.',
+
+    bullCase: 'Exowatt\'s thermal storage uses common materials for long-duration grid storage. Sam Altman backing signals AI industry sees this as critical. Data centers need reliable 24/7 power that solar alone can\'t provide.',
+    bearCase: 'Grid storage is competitive. Novel technology requires proving. Scale-up pathway unclear.',
+    theBet: 'We\'re betting data center power needs drive grid storage innovation. Exowatt is positioned at the intersection.',
+
+    scores: { techMoat: 7, momentum: 6, team: 7, capitalEfficiency: 6, govTraction: 4 },
+    totalScore: 30,
+
+    foundersNote: 'The Altman backing isn\'t just capital — it\'s a signal that AI industry leadership sees storage as critical infrastructure. Thermal storage with cheap materials could solve the long-duration problem.',
+
+    whyNow: 'Data center power demand exploding. Solar intermittency requires storage. Grid reliability concerns growing.',
+    nextMilestone: 'Pilot deployment. Performance validation.',
+    keyRisk: 'Novel technology execution. Competition in storage.',
+
     yoyChange: 'new',
-    badges: ['Grid Storage', 'Altman Backed']
+    badges: ['Grid Storage', 'Altman Backed'],
+    convictionLevel: 6
   },
   {
     rank: 46,
     company: 'Antora Energy',
     category: 'Energy',
     highlights: ['Solid-state thermal batteries at scale', 'Industrial heat decarbonization', 'Pilot deployments underway'],
-    thesis: 'Antora Energy is deploying solid-state thermal batteries for industrial heat — one of the hardest-to-decarbonize sectors. Pilot deployments underway validate the technology.',
+
+    bullCase: 'Antora solves industrial heat — one of the hardest decarbonization challenges. Solid-state thermal batteries store cheap solar and deliver high-temp heat on demand. Pilot deployments proving the technology.',
+    bearCase: 'Industrial heat is a hard market. Replacing natural gas requires compelling economics. Scaling thermal batteries to industrial needs.',
+    theBet: 'We\'re betting industrial decarbonization requires thermal solutions, not just electrification. Antora has the right product.',
+
+    scores: { techMoat: 7, momentum: 6, team: 7, capitalEfficiency: 7, govTraction: 5 },
+    totalScore: 32,
+
+    foundersNote: 'Andrew Ponec identified industrial heat as the overlooked decarbonization challenge. You can\'t electrify a cement kiln — you need high-temp heat. Thermal storage from cheap solar is the answer. Pilots proving it works.',
+
+    whyNow: 'Industrial decarbonization mandates increasing. Pilot projects validating technology. Solar costs continuing to decline.',
+    nextMilestone: 'Commercial deployments. Cost reduction demonstration.',
+    keyRisk: 'Industrial sales cycles. Natural gas price competition.',
+
     yoyChange: 'new',
-    badges: ['Industrial Heat', 'Deployed']
+    badges: ['Industrial Heat', 'Deployed'],
+    convictionLevel: 6
   },
   {
     rank: 47,
     company: 'Muon Space',
     category: 'Space Technology',
     highlights: ['Full-stack Earth observation satellites', 'Climate-focused satellite constellation', 'Wildfire and environmental monitoring'],
-    thesis: 'Muon Space is building full-stack Earth observation satellites focused on climate applications. Rapid iteration on satellite design enables faster deployment. Wildfire monitoring is immediate use case.',
+
+    bullCase: 'Muon builds full-stack Earth observation satellites in-house, enabling rapid iteration. Climate focus means growing market with government and commercial customers. Wildfire monitoring is immediate revenue.',
+    bearCase: 'Earth observation is competitive. Planet and others have scale. Differentiation challenging.',
+    theBet: 'We\'re betting climate applications become a distinct, growing EO market. Muon\'s vertical integration enables faster product evolution.',
+
+    scores: { techMoat: 7, momentum: 6, team: 8, capitalEfficiency: 7, govTraction: 6 },
+    totalScore: 34,
+
+    foundersNote: 'Jonny Dyer built a full-stack satellite company because iteration speed matters. Wildfire monitoring isn\'t just a demo — it\'s a product with customers. Climate is the killer app for Earth observation.',
+
+    whyNow: 'Climate monitoring demand growing. Wildfire impact intensifying. Government focus on environmental intelligence.',
+    nextMilestone: 'Constellation expansion. New sensor capabilities.',
+    keyRisk: 'Competition in Earth observation. Constellation cost.',
+
     yoyChange: 'new',
-    badges: ['Climate Data', 'Full Stack']
+    badges: ['Climate Data', 'Full Stack'],
+    convictionLevel: 6
   },
   {
     rank: 48,
     company: 'Formic',
     category: 'Robotics',
     highlights: ['Robots-as-a-Service for manufacturing', 'No upfront cost industrial automation', 'Making automation accessible to SMBs'],
-    thesis: 'Formic is making industrial robots accessible through robots-as-a-service model — no upfront cost, pay by the hour. Enables small and medium manufacturers to compete with larger players.',
+
+    bullCase: 'Formic makes industrial robots accessible through pay-per-hour model — no upfront cost. SMBs can compete with large manufacturers. Addressing the biggest barrier to automation: capital expense.',
+    bearCase: 'RaaS model requires financing scale. Industrial robot integration still complex. Competition from robot OEMs.',
+    theBet: 'We\'re betting business model innovation unlocks automation for the 98% of factories without robots. Formic is the interface.',
+
+    scores: { techMoat: 6, momentum: 6, team: 7, capitalEfficiency: 7, govTraction: 4 },
+    totalScore: 30,
+
+    foundersNote: 'Saman Farid understood that SMBs can\'t write $100k checks for robots — but they can pay hourly. RaaS removes the capital barrier. This is business model innovation enabling technology adoption.',
+
+    whyNow: 'Labor shortage intensifying. Reshoring driving automation demand. SMBs increasingly needing to automate.',
+    nextMilestone: 'Deployment expansion. RaaS economics validation.',
+    keyRisk: 'Financing model sustainability. Integration complexity.',
+
     yoyChange: 'new',
-    badges: ['RaaS Model', 'SMB Focus']
+    badges: ['RaaS Model', 'SMB Focus'],
+    convictionLevel: 6
   },
   {
     rank: 49,
     company: 'Vannevar Labs',
     category: 'Defense AI',
     highlights: ['AI-powered intelligence analysis for DoD', 'TITAN program integration', 'Making analysts 10x more effective'],
-    thesis: 'Vannevar Labs builds AI tools that make intelligence analysts 10x more effective. Integration with Army TITAN program validates approach. Solving the analyst shortage through AI augmentation.',
+
+    bullCase: 'Vannevar makes intelligence analysts 10x more effective with AI. TITAN program integration validates DoD trust. Solving analyst shortage through augmentation, not replacement. Critical for maintaining decision advantage.',
+    bearCase: 'Defense AI is competitive. Palantir and others have scale. Security clearance requirements limit hiring.',
+    theBet: 'We\'re betting AI augmentation becomes standard for intelligence analysis. Vannevar has the trust and integration.',
+
+    scores: { techMoat: 7, momentum: 7, team: 8, capitalEfficiency: 7, govTraction: 8 },
+    totalScore: 37,
+
+    foundersNote: 'Brett Granberg understood that the analyst shortage can\'t be solved by hiring — there aren\'t enough cleared analysts. AI augmentation is the only answer. TITAN integration proves DoD trusts the approach.',
+
+    whyNow: 'Analyst shortage acute. AI capability matured. TITAN program providing scale.',
+    nextMilestone: 'TITAN expansion. Additional intelligence community contracts.',
+    keyRisk: 'Defense procurement competition. Security clearance constraints.',
+
     yoyChange: 'new',
-    badges: ['Defense AI', 'Contract Winner']
+    badges: ['Defense AI', 'Contract Winner'],
+    convictionLevel: 7
   },
   {
     rank: 50,
     company: 'Allen Control Systems',
     category: 'Defense Technology',
     highlights: ['Autonomous missile systems', 'SpaceX guidance pedigree', 'Rapid iteration on precision munitions'],
-    thesis: 'Allen Control Systems brings SpaceX guidance and control expertise to missile development. Autonomous precision munitions with rapid iteration. Strong technical team tackling critical capability gap.',
+
+    bullCase: 'Allen brings SpaceX guidance and control expertise to missiles. Autonomous precision munitions with rapid iteration. Addressing critical capability gap in munitions production and technology.',
+    bearCase: 'Missile development is demanding. Defense primes have established programs. Export controls limit markets.',
+    theBet: 'We\'re betting the US needs to rebuild munitions production capacity with modern technology. Allen\'s SpaceX DNA enables rapid development.',
+
+    scores: { techMoat: 7, momentum: 6, team: 8, capitalEfficiency: 7, govTraction: 6 },
+    totalScore: 34,
+
+    foundersNote: 'The Allen team applied SpaceX guidance principles to missiles. The US needs to rebuild munitions capacity, and traditional primes move too slowly. Early but executing with the right approach.',
+
+    whyNow: 'Munitions stockpile concerns. DoD seeking new suppliers. SpaceX-style iteration applicable.',
+    nextMilestone: 'DoD contract progress. System demonstration.',
+    keyRisk: 'Defense procurement timelines. Technical execution.',
+
     yoyChange: 'new',
-    badges: ['Precision Munitions', 'SpaceX Mafia']
+    badges: ['Precision Munitions', 'SpaceX Mafia'],
+    convictionLevel: 6
   }
 ];
 

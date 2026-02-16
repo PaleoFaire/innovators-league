@@ -6314,15 +6314,35 @@ function initInnovator50() {
 
     const badges = (item.badges || []).map(b => `<span class="i50-badge">${b}</span>`).join('');
 
+    // Score display (if available)
+    let scoreDisplay = '';
+    if (item.totalScore) {
+      const scoreColor = item.totalScore >= 45 ? '#22c55e' : item.totalScore >= 40 ? '#3b82f6' : item.totalScore >= 35 ? '#f59e0b' : '#6b7280';
+      scoreDisplay = `<span class="i50-score" style="color: ${scoreColor}" title="ROS Score: ${item.totalScore}/50">${item.totalScore}/50</span>`;
+    }
+
+    // Conviction indicator (if available)
+    let convictionDisplay = '';
+    if (item.convictionLevel) {
+      const level = item.convictionLevel >= 9 ? 'high' : item.convictionLevel >= 7 ? 'medium' : 'standard';
+      convictionDisplay = `<span class="i50-conviction ${level}" title="ROS Conviction: ${item.convictionLevel}/10">⚡</span>`;
+    }
+
+    // ROS Connection indicator
+    let rosConnection = '';
+    if (item.rosConnection) {
+      rosConnection = '<span class="i50-ros-connection" title="ROS has direct connection">🤝</span>';
+    }
+
     return `
-      <div class="i50-card ${rankClass}" onclick="openCompanyModal('${item.company.replace(/'/g, "\\'")}')">
+      <div class="i50-card ${rankClass}" onclick="showInnovator50Detail('${item.company.replace(/'/g, "\\'")}')">
         <div class="i50-rank-section">
           <div class="i50-rank ${rankClass}">${rankDisplay}</div>
           ${movement}
         </div>
         <div class="i50-content">
           <div class="i50-header">
-            <div class="i50-company-name">${item.company}</div>
+            <div class="i50-company-name">${item.company} ${rosConnection}</div>
             <div class="i50-category" style="color: ${sectorInfo.color}">${sectorInfo.icon} ${item.category}</div>
           </div>
           <div class="i50-badges">${badges}</div>
@@ -6330,12 +6350,126 @@ function initInnovator50() {
             ${item.highlights.slice(0, 2).map(h => `<li>${h}</li>`).join('')}
           </ul>
           <div class="i50-footer">
+            ${scoreDisplay}
+            ${convictionDisplay}
             ${valuation ? `<span class="i50-valuation">${valuation}</span>` : ''}
           </div>
         </div>
       </div>
     `;
   }
+
+  // Show detailed Innovator 50 modal with bull/bear case, founder's note, etc.
+  window.showInnovator50Detail = function(companyName) {
+    const item = INNOVATOR_50.find(c => c.company === companyName);
+    if (!item) {
+      openCompanyModal(companyName);
+      return;
+    }
+
+    const company = COMPANIES.find(c => c.name === companyName);
+    const sectorInfo = SECTORS[item.category] || { icon: '📦', color: '#6b7280' };
+    const rankDisplay = item.rank <= 3 ? ['🥇', '🥈', '🥉'][item.rank - 1] : `#${item.rank}`;
+
+    const modal = document.getElementById('modal-body');
+    if (!modal) {
+      openCompanyModal(companyName);
+      return;
+    }
+
+    // Build score breakdown if available
+    let scoreBreakdown = '';
+    if (item.scores) {
+      scoreBreakdown = `
+        <div class="i50-detail-scores">
+          <h4>ROS Score Breakdown</h4>
+          <div class="score-grid">
+            <div class="score-item"><span class="score-label">Tech Moat</span><span class="score-value">${item.scores.techMoat}/10</span></div>
+            <div class="score-item"><span class="score-label">Momentum</span><span class="score-value">${item.scores.momentum}/10</span></div>
+            <div class="score-item"><span class="score-label">Team</span><span class="score-value">${item.scores.team}/10</span></div>
+            <div class="score-item"><span class="score-label">Capital Efficiency</span><span class="score-value">${item.scores.capitalEfficiency}/10</span></div>
+            <div class="score-item"><span class="score-label">Gov Traction</span><span class="score-value">${item.scores.govTraction}/10</span></div>
+            <div class="score-total"><span class="score-label">Total</span><span class="score-value">${item.totalScore}/50</span></div>
+          </div>
+        </div>
+      `;
+    }
+
+    // Build bull/bear/bet section if available
+    let investmentThesis = '';
+    if (item.bullCase || item.bearCase || item.theBet) {
+      investmentThesis = `
+        <div class="i50-detail-thesis">
+          <h4>Investment Thesis</h4>
+          ${item.bullCase ? `<div class="thesis-section bull"><span class="thesis-label">🟢 Bull Case</span><p>${item.bullCase}</p></div>` : ''}
+          ${item.bearCase ? `<div class="thesis-section bear"><span class="thesis-label">🔴 Bear Case</span><p>${item.bearCase}</p></div>` : ''}
+          ${item.theBet ? `<div class="thesis-section bet"><span class="thesis-label">🎯 The Bet</span><p>${item.theBet}</p></div>` : ''}
+        </div>
+      `;
+    }
+
+    // Founder's note if available
+    let foundersNote = '';
+    if (item.foundersNote) {
+      foundersNote = `
+        <div class="i50-detail-note">
+          <h4>📝 Founder's Note</h4>
+          <blockquote>"${item.foundersNote}"</blockquote>
+          <span class="note-attribution">— ROS Research Team</span>
+        </div>
+      `;
+    }
+
+    // Milestones section
+    let milestones = '';
+    if (item.whyNow || item.nextMilestone || item.keyRisk) {
+      milestones = `
+        <div class="i50-detail-milestones">
+          ${item.whyNow ? `<div class="milestone-item"><span class="milestone-label">Why Now</span><p>${item.whyNow}</p></div>` : ''}
+          ${item.nextMilestone ? `<div class="milestone-item"><span class="milestone-label">Next Milestone</span><p>${item.nextMilestone}</p></div>` : ''}
+          ${item.keyRisk ? `<div class="milestone-item"><span class="milestone-label">Key Risk</span><p>${item.keyRisk}</p></div>` : ''}
+        </div>
+      `;
+    }
+
+    modal.innerHTML = `
+      <div class="i50-detail-modal">
+        <div class="i50-detail-header">
+          <div class="i50-detail-rank ${item.rank <= 3 ? ['gold', 'silver', 'bronze'][item.rank - 1] : ''}">${rankDisplay}</div>
+          <div class="i50-detail-title">
+            <h2>${item.company}</h2>
+            <span class="i50-detail-category" style="color: ${sectorInfo.color}">${sectorInfo.icon} ${item.category}</span>
+          </div>
+          ${item.convictionLevel ? `<div class="i50-detail-conviction">Conviction: ${item.convictionLevel}/10</div>` : ''}
+        </div>
+
+        <div class="i50-detail-badges">
+          ${(item.badges || []).map(b => `<span class="i50-badge">${b}</span>`).join('')}
+        </div>
+
+        <div class="i50-detail-highlights">
+          <h4>Key Highlights</h4>
+          <ul>
+            ${item.highlights.map(h => `<li>${h}</li>`).join('')}
+          </ul>
+        </div>
+
+        ${scoreBreakdown}
+        ${investmentThesis}
+        ${foundersNote}
+        ${milestones}
+
+        ${item.rosConnection ? `<div class="i50-ros-badge">🤝 ROS Direct Connection: ${item.rosConnection}</div>` : ''}
+
+        <div class="i50-detail-actions">
+          <button onclick="openCompanyModal('${companyName.replace(/'/g, "\\'")}')">View Full Company Profile</button>
+        </div>
+      </div>
+    `;
+
+    document.getElementById('company-modal').classList.add('active');
+    document.getElementById('modal-overlay').classList.add('active');
+  };
 
   function renderInnovator50() {
     const selectedCategory = document.getElementById('i50-category')?.value || 'all';
