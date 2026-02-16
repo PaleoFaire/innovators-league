@@ -6399,7 +6399,7 @@ function initInnovator50() {
 
   // Render historical ranking for a specific year
   function renderHistoricalRanking(year) {
-    if (year === 2025) {
+    if (year === 2026) {
       // Current year - use regular rendering
       renderInnovator50();
       return;
