@@ -1,0 +1,130 @@
+name: Weekly Extended Data Sync
+
+on:
+  schedule:
+    # Run every Sunday at 9 AM UTC (after patent sync)
+    - cron: '0 9 * * 0'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-insider-trading:
+    name: Sync SEC Form 4 Insider Trading
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch insider trading data
+        run: python scripts/fetch_insider_trading.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: insider-data
+          path: data/
+          retention-days: 7
+
+  sync-fda-approvals:
+    name: Sync FDA Approvals
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch FDA data
+        run: python scripts/fetch_fda_approvals.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: fda-data
+          path: data/
+          retention-days: 7
+
+  sync-github-releases:
+    name: Sync GitHub Releases
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch GitHub releases
+        run: python scripts/fetch_github_releases.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-releases-data
+          path: data/
+          retention-days: 7
+
+  merge-and-commit:
+    name: Merge Extended Data and Commit
+    runs-on: ubuntu-latest
+    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download insider data
+        uses: actions/download-artifact@v4
+        with:
+          name: insider-data
+          path: data/
+
+      - name: Download FDA data
+        uses: actions/download-artifact@v4
+        with:
+          name: fda-data
+          path: data/
+          merge-multiple: true
+
+      - name: Download GitHub releases data
+        uses: actions/download-artifact@v4
+        with:
+          name: github-releases-data
+          path: data/
+          merge-multiple: true
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push changes
+        run: |
+          git add data/
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: Weekly extended sync (FDA, Insider, GitHub) $(date +%Y-%m-%d)"
+          git pull --rebase origin main || true
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
