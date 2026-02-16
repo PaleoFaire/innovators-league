@@ -17639,25 +17639,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-16 05:45
-// Auto-generated real-time signals
-// Last updated: 2026-02-16
+// Last updated: 2026-02-16 10:35
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Scale AI", headline: "As AI data centers hit power limits, Peak XV backs Indian startup C2i to fix the bottleneck", source: "TechCrunch", time: "7h ago", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "The Boring Company", headline: "Blackstone backs Neysa in up to $1.2B financing as India pushes to build domestic AI infrastructure", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Osmo", headline: "Isaacman planning to meet with head of Roscosmos", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenClaw creator Peter Steinberger joins OpenAI", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Anthropic", headline: "Anthropic and the Pentagon are reportedly arguing over Claude usage", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "OpenAI", headline: "India has 100M weekly active ChatGPT users, Sam Altman says", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Turbopuffer", headline: "The enterprise AI land grab is on. Glean is building the layer beneath the interface.", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Turbopuffer", headline: "&quot;It ain&#039;t no unicorn&quot;: These researchers have interviewed 130 Bigfoot hunters", source: "Ars Technica Space", time: "14h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Rivian", headline: "TechCrunch Mobility: Rivian&#8217;s savior", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Reveal Technology", headline: "What the Epstein files reveal about EV startups and Silicon Valley", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Runway", headline: "Hollywood isn&#8217;t happy about the new Seedance 2.0 video generator", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Osmo", headline: "The Best Samsung Phones of 2026, Tested and Reviewed", source: "Wired", time: "20h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Turbopuffer", headline: "Google’s AI Overviews Can Scam You. Here’s How to Stay Safe", source: "Wired", time: "20h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Hubble Network", headline: "CurrentBody LED Hair Growth Helmet Review: Baby Hairs Abound (2026)", source: "Wired", time: "20h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Durin", headline: "AI, Fancy Footwear, and All the Other Gear Powering Olympic Bobsledding", source: "Wired", time: "21h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Xcimer Energy", headline: "Makers Are Building Back Against ICE", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Scale AI", headline: "As AI data centers hit power limits, Peak XV backs Indian startup C2i to fix the bottleneck", source: "TechCrunch", time: "9h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "The Boring Company", headline: "Blackstone backs Neysa in up to $1.2B financing as India pushes to build domestic AI infrastructure", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Osmo", headline: "Isaacman planning to meet with head of Roscosmos", source: "SpaceNews", time: "10h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenClaw creator Peter Steinberger joins OpenAI", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Anthropic", headline: "Anthropic and the Pentagon are reportedly arguing over Claude usage", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "OpenAI", headline: "India has 100M weekly active ChatGPT users, Sam Altman says", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "Turbopuffer", headline: "The enterprise AI land grab is on. Glean is building the layer beneath the interface.", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Turbopuffer", headline: "&quot;It ain't no unicorn&quot;: These researchers have interviewed 130 Bigfoot hunters", source: "Ars Technica Space", time: "17h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Rivian", headline: "TechCrunch Mobility: Rivian's savior", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Reveal Technology", headline: "What the Epstein files reveal about EV startups and Silicon Valley", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Runway", headline: "Hollywood isn't happy about the new Seedance 2.0 video generator", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Osmo", headline: "The Best Samsung Phones of 2026, Tested and Reviewed", source: "Wired", time: "22h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Turbopuffer", headline: "Google's AI Overviews Can Scam You. Here's How to Stay Safe", source: "Wired", time: "23h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Hubble Network", headline: "CurrentBody LED Hair Growth Helmet Review: Baby Hairs Abound (2026)", source: "Wired", time: "23h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
