@@ -1,0 +1,244 @@
+name: Comprehensive Data Sync
+
+# This workflow runs all data fetchers across multiple schedules
+# Daily: News signals, press releases, HN buzz, SEC filings, contracts
+# Weekly: Research papers, clinical trials, patents, grants, regulatory
+
+on:
+  schedule:
+    # Daily at 7 AM UTC - High-frequency sources
+    - cron: '0 7 * * *'
+    # Weekly on Monday at 8 AM UTC - Research sources
+    - cron: '0 8 * * 1'
+
+  workflow_dispatch:
+    inputs:
+      sync_type:
+        description: 'Type of sync to run'
+        required: true
+        default: 'daily'
+        type: choice
+        options:
+          - daily
+          - weekly
+          - all
+
+permissions:
+  contents: write
+
+jobs:
+  # ═══════════════════════════════════════════════════════════
+  # DAILY SOURCES - Run every day
+  # ═══════════════════════════════════════════════════════════
+
+  sync-hackernews:
+    name: Sync Hacker News Buzz
+    runs-on: ubuntu-latest
+    if: github.event.inputs.sync_type != 'weekly'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_hackernews.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hackernews-data
+          path: data/
+          retention-days: 7
+
+  sync-press-releases:
+    name: Sync Press Releases
+    runs-on: ubuntu-latest
+    if: github.event.inputs.sync_type != 'weekly'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_press_releases.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: press-releases-data
+          path: data/
+          retention-days: 7
+
+  sync-federal-register:
+    name: Sync Federal Register
+    runs-on: ubuntu-latest
+    if: github.event.inputs.sync_type != 'weekly'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_federal_register.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: federal-register-data
+          path: data/
+          retention-days: 7
+
+  # ═══════════════════════════════════════════════════════════
+  # WEEKLY SOURCES - Run once a week (Monday)
+  # ═══════════════════════════════════════════════════════════
+
+  sync-arxiv:
+    name: Sync arXiv Research Papers
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_arxiv_research.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-data
+          path: data/
+          retention-days: 7
+
+  sync-clinical-trials:
+    name: Sync Clinical Trials
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_clinical_trials.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clinical-trials-data
+          path: data/
+          retention-days: 7
+
+  sync-nsf-grants:
+    name: Sync NSF Research Grants
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_nsf_grants.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nsf-grants-data
+          path: data/
+          retention-days: 7
+
+  sync-doe-energy:
+    name: Sync DOE Energy Programs
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_doe_energy.py
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doe-energy-data
+          path: data/
+          retention-days: 7
+
+  sync-nasa:
+    name: Sync NASA TechPort Projects
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_nasa_techport.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nasa-data
+          path: data/
+          retention-days: 7
+
+  # ═══════════════════════════════════════════════════════════
+  # MERGE AND COMMIT - Runs after all fetchers complete
+  # ═══════════════════════════════════════════════════════════
+
+  merge-daily-data:
+    name: Merge Daily Data
+    runs-on: ubuntu-latest
+    needs: [sync-hackernews, sync-press-releases, sync-federal-register]
+    if: always() && github.event.inputs.sync_type != 'weekly'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: downloaded-data/
+          merge-multiple: true
+
+      - name: Copy data files
+        run: |
+          mkdir -p data/
+          cp -r downloaded-data/* data/ 2>/dev/null || true
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push
+        run: |
+          git add data/
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: Daily data sync (HN, PR, Fed Reg) $(date +%Y-%m-%d)"
+          git pull --rebase origin main || true
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  merge-weekly-data:
+    name: Merge Weekly Data
+    runs-on: ubuntu-latest
+    needs: [sync-arxiv, sync-clinical-trials, sync-nsf-grants, sync-doe-energy, sync-nasa]
+    if: always() && (github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all')
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: downloaded-data/
+          merge-multiple: true
+
+      - name: Copy data files
+        run: |
+          mkdir -p data/
+          cp -r downloaded-data/* data/ 2>/dev/null || true
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push
+        run: |
+          git add data/
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: Weekly research sync (arXiv, Trials, NSF, DOE, NASA) $(date +%Y-%m-%d)"
+          git pull --rebase origin main || true
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
