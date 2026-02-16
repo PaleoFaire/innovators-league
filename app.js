@@ -1514,6 +1514,31 @@ function initDiscoveryHub() {
   updateMapStats();
 }
 
+// Helper function to group companies by location and calculate offsets
+function getCompanyLocationGroups(companies) {
+  const locationGroups = {};
+  companies.forEach(company => {
+    if (!company.lat || !company.lng) return;
+    const key = `${company.lat.toFixed(4)},${company.lng.toFixed(4)}`;
+    if (!locationGroups[key]) {
+      locationGroups[key] = [];
+    }
+    locationGroups[key].push(company);
+  });
+  return locationGroups;
+}
+
+function getMarkerOffset(index, groupSize) {
+  if (groupSize <= 1) return { lat: 0, lng: 0 };
+  // Use golden angle spiral for nice distribution
+  const angle = (index * 137.5) * (Math.PI / 180);
+  const radius = 0.02 + (index * 0.015);
+  return {
+    lat: radius * Math.cos(angle),
+    lng: radius * Math.sin(angle)
+  };
+}
+
 function initDiscoveryMap() {
   if (typeof L === 'undefined') {
     console.log('Leaflet not loaded, skipping discovery map');
@@ -1538,38 +1563,42 @@ function initDiscoveryMap() {
     maxZoom: 19
   }).addTo(discoveryMap);
 
-  // Add markers for all companies
-  COMPANIES.forEach(company => {
-    if (!company.lat || !company.lng) return;
+  // Group companies by location to handle overlaps
+  const locationGroups = getCompanyLocationGroups(COMPANIES);
 
-    const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
+  // Add markers with offset for overlapping locations
+  Object.values(locationGroups).forEach(group => {
+    group.forEach((company, index) => {
+      const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
+      const offset = getMarkerOffset(index, group.length);
 
-    const markerHtml = `<div class="custom-marker" style="background:${sectorInfo.color};">
-      <span class="marker-icon">${sectorInfo.icon}</span>
-    </div>`;
+      const markerHtml = `<div class="custom-marker" style="background:${sectorInfo.color};">
+        <span class="marker-icon">${sectorInfo.icon}</span>
+      </div>`;
 
-    const icon = L.divIcon({
-      html: markerHtml,
-      className: 'marker-container',
-      iconSize: [28, 28],
-      iconAnchor: [14, 14]
+      const icon = L.divIcon({
+        html: markerHtml,
+        className: 'marker-container',
+        iconSize: [28, 28],
+        iconAnchor: [14, 14]
+      });
+
+      const marker = L.marker([company.lat + offset.lat, company.lng + offset.lng], { icon });
+
+      const popupContent = `
+        <div class="map-popup">
+          <div class="popup-sector" style="color:${sectorInfo.color}">${sectorInfo.icon} ${company.sector}</div>
+          <h3>${company.name}</h3>
+          ${company.founder ? `<p class="popup-founder">${company.founder}</p>` : ''}
+          <p class="popup-location">${company.location}</p>
+          <p class="popup-desc">${company.description.substring(0, 140)}...</p>
+          <button class="popup-link" onclick="openCompanyModal('${company.name.replace(/'/g, "\\'")}')">View Details &rarr;</button>
+        </div>
+      `;
+
+      marker.bindPopup(popupContent, { maxWidth: 300 });
+      marker.addTo(discoveryMap);
     });
-
-    const marker = L.marker([company.lat, company.lng], { icon });
-
-    const popupContent = `
-      <div class="map-popup">
-        <div class="popup-sector" style="color:${sectorInfo.color}">${sectorInfo.icon} ${company.sector}</div>
-        <h3>${company.name}</h3>
-        ${company.founder ? `<p class="popup-founder">${company.founder}</p>` : ''}
-        <p class="popup-location">${company.location}</p>
-        <p class="popup-desc">${company.description.substring(0, 140)}...</p>
-        <button class="popup-link" onclick="openCompanyModal('${company.name.replace(/'/g, "\\'")}')">View Details &rarr;</button>
-      </div>
-    `;
-
-    marker.bindPopup(popupContent, { maxWidth: 300 });
-    marker.addTo(discoveryMap);
   });
 }
 
@@ -1809,37 +1838,42 @@ function initMap() {
     maxZoom: 19
   }).addTo(map);
 
-  COMPANIES.forEach(company => {
-    if (!company.lat || !company.lng) return;
+  // Group companies by location to handle overlaps
+  const locationGroups = getCompanyLocationGroups(COMPANIES);
 
-    const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
+  // Add markers with offset for overlapping locations
+  Object.values(locationGroups).forEach(group => {
+    group.forEach((company, index) => {
+      const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
+      const offset = getMarkerOffset(index, group.length);
 
-    const markerHtml = `<div class="custom-marker" style="background:${sectorInfo.color};">
-      <span class="marker-icon">${sectorInfo.icon}</span>
-    </div>`;
+      const markerHtml = `<div class="custom-marker" style="background:${sectorInfo.color};">
+        <span class="marker-icon">${sectorInfo.icon}</span>
+      </div>`;
 
-    const icon = L.divIcon({
-      html: markerHtml,
-      className: 'marker-container',
-      iconSize: [28, 28],
-      iconAnchor: [14, 14]
+      const icon = L.divIcon({
+        html: markerHtml,
+        className: 'marker-container',
+        iconSize: [28, 28],
+        iconAnchor: [14, 14]
+      });
+
+      const marker = L.marker([company.lat + offset.lat, company.lng + offset.lng], { icon });
+
+      const popupContent = `
+        <div class="map-popup">
+          <div class="popup-sector" style="color:${sectorInfo.color}">${sectorInfo.icon} ${company.sector}</div>
+          <h3>${company.name}</h3>
+          ${company.founder ? `<p class="popup-founder">${company.founder}</p>` : ''}
+          <p class="popup-location">${company.location}</p>
+          <p class="popup-desc">${company.description.substring(0, 140)}...</p>
+          <button class="popup-link" onclick="openCompanyModal('${company.name.replace(/'/g, "\\'")}')">View Details &rarr;</button>
+        </div>
+      `;
+
+      marker.bindPopup(popupContent, { maxWidth: 300 });
+      marker.addTo(map);
     });
-
-    const marker = L.marker([company.lat, company.lng], { icon });
-
-    const popupContent = `
-      <div class="map-popup">
-        <div class="popup-sector" style="color:${sectorInfo.color}">${sectorInfo.icon} ${company.sector}</div>
-        <h3>${company.name}</h3>
-        ${company.founder ? `<p class="popup-founder">${company.founder}</p>` : ''}
-        <p class="popup-location">${company.location}</p>
-        <p class="popup-desc">${company.description.substring(0, 140)}...</p>
-        <button class="popup-link" onclick="openCompanyModal('${company.name.replace(/'/g, "\\'")}')">View Details &rarr;</button>
-      </div>
-    `;
-
-    marker.bindPopup(popupContent, { maxWidth: 300 });
-    marker.addTo(map);
   });
 }
 
