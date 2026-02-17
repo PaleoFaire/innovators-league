@@ -1,0 +1,115 @@
+{
+  "totalMarketCap": "$0.0B",
+  "companiesTracked": 20,
+  "sectorPerformance": {
+    "ai": {
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -3.3,
+      "count": 1
+    },
+    "space": {
+      "gainers": 1,
+      "losers": 4,
+      "avg_change": -9.14,
+      "count": 5
+    },
+    "autonomous": {
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -6.57,
+      "count": 2
+    },
+    "nuclear": {
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -7.61,
+      "count": 1
+    },
+    "climate": {
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -8.74,
+      "count": 1
+    },
+    "quantum": {
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.58,
+      "count": 3
+    },
+    "biotech": {
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -8.85,
+      "count": 2
+    },
+    "transportation": {
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 10.67,
+      "count": 2
+    },
+    "chips": {
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -8.61,
+      "count": 3
+    }
+  },
+  "topGainers": [
+    [
+      "RIVN",
+      "Rivian",
+      19.8
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      1.54
+    ],
+    [
+      "PL",
+      "Planet Labs",
+      0.72
+    ],
+    [
+      "AMD",
+      "AMD",
+      -0.54
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      -1.42
+    ]
+  ],
+  "topLosers": [
+    [
+      "RGTI",
+      "Rigetti Computing",
+      -9.15
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -12.31
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -12.78
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -18.94
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      -23.86
+    ]
+  ],
+  "lastUpdated": "2026-02-16 10:44:16"
+}

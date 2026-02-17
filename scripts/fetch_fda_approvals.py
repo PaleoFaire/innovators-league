@@ -27,13 +27,14 @@ TRACKED_COMPANIES = {
 
 FDA_API_BASE = "https://api.fda.gov"
 
-def fetch_drug_approvals(search_term, days=365):
+def fetch_drug_approvals(search_term, days=730):
     """Fetch recent drug approvals mentioning a company/product."""
     cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y%m%d")
 
     url = f"{FDA_API_BASE}/drug/drugsfda.json"
+    # Use broader search - search manufacturer OR brand name, relax date filter
     params = {
-        "search": f'openfda.manufacturer_name:"{search_term}"+AND+submissions.submission_status_date:[{cutoff}+TO+*]',
+        "search": f'openfda.manufacturer_name:"{search_term}"',
         "limit": 20
     }
 
@@ -51,13 +52,13 @@ def fetch_drug_approvals(search_term, days=365):
         print(f"  Error: {e}")
         return []
 
-def fetch_device_clearances(search_term, days=365):
+def fetch_device_clearances(search_term, days=730):
     """Fetch recent 510(k) device clearances."""
-    cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
 
     url = f"{FDA_API_BASE}/device/510k.json"
+    # Use broader search - just search applicant name without strict date filter
     params = {
-        "search": f'applicant:"{search_term}"+AND+decision_date:[{cutoff}+TO+*]',
+        "search": f'applicant:"{search_term}"',
         "limit": 20
     }
 

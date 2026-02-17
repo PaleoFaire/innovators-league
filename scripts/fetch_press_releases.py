@@ -131,13 +131,23 @@ def filter_relevant_releases(items):
 
         if MASTER_COMPANIES:
             for company in MASTER_COMPANIES:
-                # Check company name
-                if company['name'].lower() in text:
-                    matched_companies.append(company['name'])
-                    continue
+                # Check company name (use word boundary-like matching for short names)
+                name_lower = company['name'].lower()
+                if len(name_lower) >= 6:
+                    # Longer names: substring match is fine
+                    if name_lower in text:
+                        matched_companies.append(company['name'])
+                        continue
+                else:
+                    # Short names (e.g., "Oklo", "Vast"): need word boundaries
+                    if re.search(r'\b' + re.escape(name_lower) + r'\b', text):
+                        matched_companies.append(company['name'])
+                        continue
+
                 # Check aliases (4+ chars only)
                 for alias in company['aliases']:
-                    if len(alias) >= 4 and alias.lower() in text:
+                    alias_lower = alias.lower()
+                    if len(alias) >= 4 and alias_lower in text:
                         matched_companies.append(company['name'])
                         break
         else:

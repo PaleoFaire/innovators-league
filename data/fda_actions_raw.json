@@ -1,1 +1,810 @@
-[]
+[
+  {
+    "company": "Tempus AI",
+    "type": "device_510k",
+    "product": "Tempus ECG-AF",
+    "date": "2024-06-21",
+    "status": "SESE",
+    "k_number": "K233549"
+  },
+  {
+    "company": "Tempus AI",
+    "type": "device_510k",
+    "product": "xR IVD",
+    "date": "2025-09-19",
+    "status": "SESE",
+    "k_number": "K241868"
+  },
+  {
+    "company": "Tempus AI",
+    "type": "device_510k",
+    "product": "Tempus ECG-Low EF",
+    "date": "2025-07-15",
+    "status": "SESE",
+    "k_number": "K250119"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe Personal Genome Service (PGS) Genetic Health Risk Test for Hereditary Thrombophilia",
+    "date": "2017-04-06",
+    "status": "DENG",
+    "k_number": "DEN160026"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe PGS Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)",
+    "date": "2018-03-06",
+    "status": "DENG",
+    "k_number": "DEN170046"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23ANDME PERSONAL GENOME SERVICE (HEREINAFTER KNOWN AS PGS)",
+    "date": "2015-02-19",
+    "status": "DENG",
+    "k_number": "DEN140044"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe PGS Genetic Risk Report for Hereditary Prostate Cancer (HOXB13-Related)",
+    "date": "2022-01-06",
+    "status": "SESE",
+    "k_number": "K211499"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe Personal Genome Service (PGS) Pharmacogenetic Reports",
+    "date": "2020-08-17",
+    "status": "SESE",
+    "k_number": "K193492"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe\u00ae Personal Genome Service\u00ae (PGS\u00ae) Genetic Health Risk Report for BRCA1/BRCA2 (Selected Variants)",
+    "date": "2023-08-31",
+    "status": "SESE",
+    "k_number": "K223597"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe Personal Genome Service (PGS) Pharmacogenetic Reports",
+    "date": "2022-10-26",
+    "status": "SESE",
+    "k_number": "K221885"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "MUTYH-Associated Polyposis (MAP)",
+    "date": "2019-01-18",
+    "status": "SESE",
+    "k_number": "K182784"
+  },
+  {
+    "company": "23andMe",
+    "type": "device_510k",
+    "product": "23andMe Personal Genome Service (PGS) Pharmacogenetic Reports",
+    "date": "2018-10-31",
+    "status": "DENG",
+    "k_number": "DEN180028"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "ILLUMINA VERNCODE GENOTYPING TEST FOR FACOR V AND FACTOR II",
+    "date": "2010-04-28",
+    "status": "SESE",
+    "k_number": "K093129"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "ILLUMINA MISEQDX PLATFORM",
+    "date": "2013-11-19",
+    "status": "DENG",
+    "k_number": "DEN130011"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "ILLUMINA MISEQDX  CYSTIC FIBROSIS 139-VARIANT ASSAY",
+    "date": "2013-11-19",
+    "status": "SESE",
+    "k_number": "K124006"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "MISEQDX UNIVERSAL KIT 1.0",
+    "date": "2013-11-19",
+    "status": "DENG",
+    "k_number": "DEN130042"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "ILLUMINA BEADXPRESS SYSTEM",
+    "date": "2010-04-28",
+    "status": "SESE",
+    "k_number": "K093128"
+  },
+  {
+    "company": "Illumina",
+    "type": "device_510k",
+    "product": "ILLUMINA MISEQDX CYSTIC FIBROSIS CLINICAL SEQUENCING ASSAY",
+    "date": "2013-11-19",
+    "status": "SESE",
+    "k_number": "K132750"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "SINGLE-SITE MEDIUM-LARGE CLIP APPLIER, SINGLE-SITE CADIERE GRASPER, SINGLE-SITE FUNDUS GRASPER, SINGLE-SITE CROCODILE",
+    "date": "2012-04-30",
+    "status": "SESU",
+    "k_number": "K120215"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "IRISeg",
+    "date": "2025-12-16",
+    "status": "SESE",
+    "k_number": "K251763"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "INTUITIVE SURGICAL ENDOSCOPIC INSTRUMENTS, INTUITIVE SURGICAL ENDOSCOPIC INSTRUMENT CONTROL SYSTEM",
+    "date": "2000-07-11",
+    "status": "SESE",
+    "k_number": "K990144"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "Intuitive Surgical EndoWrist Vessel Sealer Extend",
+    "date": "2018-04-26",
+    "status": "SESE",
+    "k_number": "K173337"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "INTUITIVE SURGICAL MONARCH LAPAROSCOPIC MANIPULATOR",
+    "date": "1997-07-31",
+    "status": "SESE",
+    "k_number": "K965001"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci X/Xi 8mm Endoscope Plus, 0, da Vinci X/Xi 8mm Endoscope Plus, 30",
+    "date": "2019-07-26",
+    "status": "SESE",
+    "k_number": "K191736"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci S/Si (IS2000/IS3000) 5mm and 8mm Reusable Instruments, da Vinci Xi/X (IS4000/IS4200) 8mm Reusable Instruments",
+    "date": "2021-02-10",
+    "status": "SESE",
+    "k_number": "K203632"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "SureForm 60 and SureForm 60 Reloads",
+    "date": "2018-07-05",
+    "status": "SESE",
+    "k_number": "K173721"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci SP Firefly Imaging System",
+    "date": "2025-08-28",
+    "status": "SESE",
+    "k_number": "K252350"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "Universal Seal (5-12 mm)",
+    "date": "2023-07-05",
+    "status": "SESE",
+    "k_number": "K231358"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci Xi Surgical System, da Vinci X Surgical System",
+    "date": "2018-04-23",
+    "status": "SESE",
+    "k_number": "K173842"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "5MM/8MM HARMONIC ACE(TM) CURVED SHEARS, DISPOSABLE HARMONIC ACE(TM) INSERT, DISPOSABLE HARMONIC(TM) CURVED SHEARS INSERT",
+    "date": "2011-09-29",
+    "status": "SESE",
+    "k_number": "K112584"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "da Vinci SP Surgical System, EndoWrist SP Instruments, and Accessories",
+    "date": "2018-05-31",
+    "status": "SESU",
+    "k_number": "K173906"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "Intuitive Surgical Vessel Sealer Extend",
+    "date": "2018-12-11",
+    "status": "SESE",
+    "k_number": "K183107"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "ENDOSCOPE STERILIZATION TRAY",
+    "date": "2014-08-01",
+    "status": "SESE",
+    "k_number": "K133942"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "DA VINCI FIREFLY IMAGING SYSTEM",
+    "date": "2014-08-12",
+    "status": "SESE",
+    "k_number": "K141077"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "EndoWrist 5mm Thoracic Grasper",
+    "date": "2018-05-31",
+    "status": "SESE",
+    "k_number": "K173415"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "INTUITIVE SURGICAL ENDOWRIST STABILIZER, MODEL 420182",
+    "date": "2006-04-10",
+    "status": "SESE",
+    "k_number": "K060391"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "IS4000 Small Clip Applier, IS4000 Long Bipolar Forceps",
+    "date": "2015-04-29",
+    "status": "SESE",
+    "k_number": "K150837"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "Universal Cannula Seal (5-12 mm)",
+    "date": "2018-07-27",
+    "status": "SESE",
+    "k_number": "K181395"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "NOVA CORDLESS CURING LIGHT",
+    "date": "2000-03-27",
+    "status": "SESE",
+    "k_number": "K000393"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "DAVINCI RECONFIGURABLE LAPAROSCOPIC SURGICAL INSTRUMENTS",
+    "date": "1994-02-04",
+    "status": "SESE",
+    "k_number": "K935999"
+  },
+  {
+    "company": "Intuitive Surgical",
+    "type": "device_510k",
+    "product": "DAVINCI CHOLANGIOGRAM DELIVERY DEVICE",
+    "date": "1993-12-23",
+    "status": "SESE",
+    "k_number": "K934739"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MEDTRONIC MINIMED PARADIGM POLYFIN QR, MODEL MMT 312L AND 312S",
+    "date": "2003-08-19",
+    "status": "SESE",
+    "k_number": "K031917"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "ATLANTIS ANTERIOR CERVICAL PLATE SYSTEM, TRANSLATIONAL PLATE",
+    "date": "2007-02-23",
+    "status": "SESE",
+    "k_number": "K063100"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "VERTEX RECONSTRUCTION SYSTEM",
+    "date": "2012-12-18",
+    "status": "SESE",
+    "k_number": "K123568"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "ORION ANTERIOR CERVICAL PLATING SYSTEM",
+    "date": "2004-10-07",
+    "status": "SESE",
+    "k_number": "K042499"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "Sprinter Legend Rapid Exchange Balloon Dilatation Catheter",
+    "date": "2026-01-17",
+    "status": "SESE",
+    "k_number": "K251970"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MEDTRONIC SPINAL CORD STIMULATION AND PERIPHERAL NERVE STIMULATION SYSTEMS FOR PAIN RELIEF",
+    "date": "2001-06-22",
+    "status": "SESE",
+    "k_number": "K011584"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MODEL 6208,6209,6210,6211,6212,6214 (PLI'S)",
+    "date": "1989-01-30",
+    "status": "SESE",
+    "k_number": "K890045"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "CD Horizon\u0099 Spinal System",
+    "date": "2019-01-11",
+    "status": "SESE",
+    "k_number": "K182928"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "SPINAL MESH SYSTEM",
+    "date": "2001-12-27",
+    "status": "SESE",
+    "k_number": "K011406"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "CLOTRAC HEPARINASE TEST CARTIDGE (HTC) COAGULATION CONTROL",
+    "date": "2010-12-03",
+    "status": "SESE",
+    "k_number": "K103314"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MEDTRONIC MODEL 9408 TELETRACE TRANSMIT",
+    "date": "1979-11-21",
+    "status": "SESE",
+    "k_number": "K792246"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "LIFEPAK 12, 20, 500, CR PLUS",
+    "date": "2003-11-06",
+    "status": "SESE",
+    "k_number": "K033275"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MEDTRONIC TWIST LOCK ANCHOR (PARTNUMBER 103953/3550TLA)",
+    "date": "1998-02-06",
+    "status": "SESE",
+    "k_number": "K972906"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MODIFIED MODEL 9431 TELETRACE TRANSMITTER",
+    "date": "1987-07-21",
+    "status": "SESE",
+    "k_number": "K872246"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MEDTRONIC MODEL 3487A PISCES-QUAD LEAD",
+    "date": "1993-03-18",
+    "status": "SESE",
+    "k_number": "K923931"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "CARDIOBLATE MAPS SURGICAL MAPPING, ABLATION, PACING AND SENSING DEVICE, MODEL 49205",
+    "date": "2009-06-16",
+    "status": "SESE",
+    "k_number": "K090721"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "CD Horizon Spinal System",
+    "date": "2020-09-08",
+    "status": "SESE",
+    "k_number": "K202328"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MINIMED III INFUSION PUMP & UNI-SET ADMIN SET",
+    "date": "1988-02-11",
+    "status": "SESE",
+    "k_number": "K874564"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "AVIVO Mobile Patient Management (MPM) System",
+    "date": "2016-03-30",
+    "status": "SESE",
+    "k_number": "K153160"
+  },
+  {
+    "company": "Medtronic",
+    "type": "device_510k",
+    "product": "MEDTRONIC MINIMED COUNTACH INFUSION SET, MODEL 313",
+    "date": "2003-10-28",
+    "status": "SESE",
+    "k_number": "K032485"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "TDX REA URIC ACID",
+    "date": "1984-05-31",
+    "status": "SESE",
+    "k_number": "K841702"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "SELFX XPERT BILIARY STENT, MODELS EX8L2005, EX8L3005, EX8L4005, EX8L2006, EX8L3006, EX8L4006, EX8S2005, AND EX8S3005",
+    "date": "2003-12-10",
+    "status": "SESU",
+    "k_number": "K033537"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "IVEX-HP PEDIATRIC EXTENSION SET-SL",
+    "date": "1982-07-30",
+    "status": "SESE",
+    "k_number": "K821013"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "CHEMO DISPENSING PIN, MODEL 12495",
+    "date": "2003-01-13",
+    "status": "SESE",
+    "k_number": "K024239"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "FOX SV PTA CATHETER",
+    "date": "2006-10-17",
+    "status": "SESE",
+    "k_number": "K062843"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "DUAL WAVELENGTH PHOTOMETER, 1177",
+    "date": "1977-12-20",
+    "status": "SESE",
+    "k_number": "K771909"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "AXSYM ULTRASENSITIVE HTSH",
+    "date": "1994-06-21",
+    "status": "SESE",
+    "k_number": "K934410"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "A-GENT LIQUID AMYLASE",
+    "date": "1987-11-23",
+    "status": "SESE",
+    "k_number": "K873944"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "HTSH RIA HUMAN THYROID HORMONE RIA",
+    "date": "1977-08-03",
+    "status": "SESE",
+    "k_number": "K771235"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "POLYCATH-H CATHETER",
+    "date": "1986-04-07",
+    "status": "SESE",
+    "k_number": "K854308"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "IGA",
+    "date": "1998-11-04",
+    "status": "SESE",
+    "k_number": "K983359"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "TDX PHENCYCLIDINE II ASSAY",
+    "date": "1990-04-25",
+    "status": "SESE",
+    "k_number": "K900940"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ABBOTT LIFECARE (R) 5000, PUMP SYSTEM",
+    "date": "1987-02-06",
+    "status": "SESE",
+    "k_number": "K865058"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "RECEPTAL SAF-GARD(TM) SYSTEM",
+    "date": "1989-03-17",
+    "status": "SESD",
+    "k_number": "K885208"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "MODIFICATION TO SYRINGE PREFILLED WITH 0.9% SODIUM CHLORIDE",
+    "date": "2000-07-27",
+    "status": "SESE",
+    "k_number": "K001616"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "AXSYM ULTRASENSITIVE HTSH II",
+    "date": "1995-06-29",
+    "status": "SESE",
+    "k_number": "K952148"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "REVISED LABELING FOR OPIATES",
+    "date": "1987-11-23",
+    "status": "SESE",
+    "k_number": "K874485"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "C3",
+    "date": "1998-11-04",
+    "status": "SESE",
+    "k_number": "K983441"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ABBOTT IMX TOXO IGM POSITIVE CONTROL",
+    "date": "1991-11-29",
+    "status": "SESE",
+    "k_number": "K913106"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ABBOTT ACCLAIM ENCORE STANDARD TUBING PUMP",
+    "date": "2000-07-20",
+    "status": "SESE",
+    "k_number": "K002126"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "TDX REA URIC ACID",
+    "date": "1984-05-31",
+    "status": "SESE",
+    "k_number": "K841702"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "SELFX XPERT BILIARY STENT, MODELS EX8L2005, EX8L3005, EX8L4005, EX8L2006, EX8L3006, EX8L4006, EX8S2005, AND EX8S3005",
+    "date": "2003-12-10",
+    "status": "SESU",
+    "k_number": "K033537"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "IVEX-HP PEDIATRIC EXTENSION SET-SL",
+    "date": "1982-07-30",
+    "status": "SESE",
+    "k_number": "K821013"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "CHEMO DISPENSING PIN, MODEL 12495",
+    "date": "2003-01-13",
+    "status": "SESE",
+    "k_number": "K024239"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "FOX SV PTA CATHETER",
+    "date": "2006-10-17",
+    "status": "SESE",
+    "k_number": "K062843"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "FREESTYLE PRECISION PRO BLOOD GLUCOSE AND B-KETONE MONITORING SYSTEM",
+    "date": "2013-06-27",
+    "status": "SESE",
+    "k_number": "K130094"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "DUAL WAVELENGTH PHOTOMETER, 1177",
+    "date": "1977-12-20",
+    "status": "SESE",
+    "k_number": "K771909"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "FreeStyle Precision Neo H Blood Glucose Monitoring System",
+    "date": "2016-02-19",
+    "status": "SESE",
+    "k_number": "K153330"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "AXSYM ULTRASENSITIVE HTSH",
+    "date": "1994-06-21",
+    "status": "SESE",
+    "k_number": "K934410"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "A-GENT LIQUID AMYLASE",
+    "date": "1987-11-23",
+    "status": "SESE",
+    "k_number": "K873944"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "i-STAT CG8+ cartridge with the i-STAT 1 System",
+    "date": "2023-07-28",
+    "status": "SESE",
+    "k_number": "K223710"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "HTSH RIA HUMAN THYROID HORMONE RIA",
+    "date": "1977-08-03",
+    "status": "SESE",
+    "k_number": "K771235"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "POLYCATH-H CATHETER",
+    "date": "1986-04-07",
+    "status": "SESE",
+    "k_number": "K854308"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "IGA",
+    "date": "1998-11-04",
+    "status": "SESE",
+    "k_number": "K983359"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "TDX PHENCYCLIDINE II ASSAY",
+    "date": "1990-04-25",
+    "status": "SESE",
+    "k_number": "K900940"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "FREESTYLE PRECISION PRO BLOOD GLUCOSE AND B-KETONE MONITORING SYSTEM",
+    "date": "2013-12-24",
+    "status": "SESE",
+    "k_number": "K132511"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "COMPACT INTUITIV Multiple-Use Pack",
+    "date": "2015-09-02",
+    "status": "SESE",
+    "k_number": "K151783"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "ABBOTT LIFECARE (R) 5000, PUMP SYSTEM",
+    "date": "1987-02-06",
+    "status": "SESE",
+    "k_number": "K865058"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "RECEPTAL SAF-GARD(TM) SYSTEM",
+    "date": "1989-03-17",
+    "status": "SESD",
+    "k_number": "K885208"
+  },
+  {
+    "company": "Abbott",
+    "type": "device_510k",
+    "product": "MODIFICATION TO SYRINGE PREFILLED WITH 0.9% SODIUM CHLORIDE",
+    "date": "2000-07-27",
+    "status": "SESE",
+    "k_number": "K001616"
+  }
+]

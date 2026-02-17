@@ -29,6 +29,8 @@ jobs:
 
       - name: Fetch USPTO patent data
         run: python scripts/fetch_patents.py
+        env:
+          PATENTSVIEW_API_KEY: ${{ secrets.PATENTSVIEW_API_KEY }}
 
       - name: Configure Git
         run: |

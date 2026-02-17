@@ -48,7 +48,7 @@ SEC_HEADERS = {
     "Accept": "application/json"
 }
 
-def fetch_form4_filings(cik, ticker, company_name, days=60):
+def fetch_form4_filings(cik, ticker, company_name, days=90):
     """Fetch Form 4 filings for a company."""
     cik_padded = cik.lstrip("0").zfill(10)
     url = f"{SEC_API_BASE}/submissions/CIK{cik_padded}.json"
@@ -88,35 +88,69 @@ def fetch_form4_filings(cik, ticker, company_name, days=60):
         print(f"  Error: {e}")
         return []
 
-def parse_form4_xml(cik, accession):
+def parse_form4_xml(cik, accession, document=""):
     """Parse a Form 4 XML filing to extract transaction details."""
     cik_padded = cik.lstrip("0").zfill(10)
     accession_clean = accession.replace("-", "")
 
-    url = f"{SEC_API_BASE}/Archives/edgar/data/{cik_padded}/{accession_clean}/primary_doc.xml"
+    # Build the URL - use www.sec.gov (not data.sec.gov) for XML filings
+    # Strip XSL transform prefix (e.g., "xslF345X05/wk-form4.xml" -> "wk-form4.xml")
+    # Use CIK without leading zeros for www.sec.gov paths
+    cik_trimmed = cik.lstrip("0")
+    sec_www = "https://www.sec.gov"
+
+    if document:
+        doc_name = document.split("/")[-1] if "/" in document else document
+        url = f"{sec_www}/Archives/edgar/data/{cik_trimmed}/{accession_clean}/{doc_name}"
+    else:
+        url = f"{sec_www}/Archives/edgar/data/{cik_trimmed}/{accession_clean}/primary_doc.xml"
 
     try:
         response = requests.get(url, headers=SEC_HEADERS, timeout=30)
         if response.status_code != 200:
-            return None
+            # Try alternate URL patterns
+            alt_urls = [
+                f"{sec_www}/Archives/edgar/data/{cik_trimmed}/{accession_clean}/primary_doc.xml",
+                f"{SEC_API_BASE}/Archives/edgar/data/{cik_padded}/{accession_clean}/primary_doc.xml",
+            ]
+            for alt_url in alt_urls:
+                if alt_url == url:
+                    continue
+                response = requests.get(alt_url, headers=SEC_HEADERS, timeout=30)
+                if response.status_code == 200:
+                    break
+            else:
+                return None
 
-        # Parse XML
-        root = ET.fromstring(response.content)
-        ns = {'': 'http://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321655&type=4&dateb=&owner=include&count=40'}
+        # Parse XML - strip namespaces to handle various Form 4 formats
+        content = response.content
+        # Remove XML namespace declarations that cause parsing issues
+        content_str = content.decode('utf-8', errors='replace')
+        content_str = re.sub(r'\sxmlns[^"]*"[^"]*"', '', content_str)
+        content_str = re.sub(r'\sxmlns=[^"]*"[^"]*"', '', content_str)
 
-        # Extract reporting owner
+        root = ET.fromstring(content_str.encode('utf-8'))
+
+        # Extract reporting owner - use tag local name matching
         owner_name = ""
         officer_title = ""
-        for owner in root.iter():
-            if 'rptOwnerName' in owner.tag:
-                owner_name = owner.text or ""
-            if 'officerTitle' in owner.tag:
-                officer_title = owner.text or ""
+
+        def local_tag(tag):
+            """Get local tag name without namespace."""
+            return tag.split('}')[-1] if '}' in tag else tag
+
+        for elem in root.iter():
+            tag = local_tag(elem.tag)
+            if tag == 'rptOwnerName':
+                owner_name = elem.text or ""
+            elif tag == 'officerTitle':
+                officer_title = elem.text or ""
 
         # Extract transactions
         transactions = []
-        for trans in root.iter():
-            if 'nonDerivativeTransaction' in trans.tag or 'derivativeTransaction' in trans.tag:
+        for elem in root.iter():
+            tag = local_tag(elem.tag)
+            if tag in ('nonDerivativeTransaction', 'derivativeTransaction'):
                 tx = {
                     "owner": owner_name,
                     "title": officer_title,
@@ -124,8 +158,10 @@ def parse_form4_xml(cik, accession):
                     "shares": 0,
                     "price": 0,
                 }
-                for child in trans:
-                    if 'transactionCode' in child.tag:
+                # Walk all descendants of the transaction element
+                for child in elem.iter():
+                    child_tag = local_tag(child.tag)
+                    if child_tag == 'transactionCode':
                         code = child.text or ""
                         tx["type"] = {
                             "P": "Purchase",
@@ -133,21 +169,22 @@ def parse_form4_xml(cik, accession):
                             "A": "Grant",
                             "D": "Disposition",
                             "M": "Exercise",
-                            "G": "Gift"
+                            "G": "Gift",
+                            "F": "Tax Withholding",
                         }.get(code, code)
-                    if 'transactionShares' in child.tag:
-                        for val in child:
-                            if 'value' in val.tag:
+                    elif child_tag == 'transactionShares':
+                        for val in child.iter():
+                            if local_tag(val.tag) == 'value' and val.text:
                                 try:
-                                    tx["shares"] = int(float(val.text or 0))
-                                except:
+                                    tx["shares"] = int(float(val.text))
+                                except (ValueError, TypeError):
                                     pass
-                    if 'transactionPricePerShare' in child.tag:
-                        for val in child:
-                            if 'value' in val.tag:
+                    elif child_tag == 'transactionPricePerShare':
+                        for val in child.iter():
+                            if local_tag(val.tag) == 'value' and val.text:
                                 try:
-                                    tx["price"] = float(val.text or 0)
-                                except:
+                                    tx["price"] = float(val.text)
+                                except (ValueError, TypeError):
                                     pass
                 if tx["type"]:
                     transactions.append(tx)
@@ -170,7 +207,7 @@ def fetch_all_insider_transactions():
             print(f"  Found {len(filings)} Form 4 filings")
 
             for filing in filings[:5]:  # Parse top 5 most recent
-                transactions = parse_form4_xml(info["cik"], filing["accession"])
+                transactions = parse_form4_xml(info["cik"], filing["accession"], filing.get("document", ""))
                 if transactions:
                     for tx in transactions:
                         all_transactions.append({

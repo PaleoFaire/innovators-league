@@ -35,50 +35,74 @@ TRACKED_COMPANIES = [
 
 NASA_TECHPORT_BASE = "https://techport.nasa.gov/api"
 
-def fetch_recent_projects(days=180):
+def fetch_recent_projects(days=365):
     """Fetch recently updated NASA technology projects."""
-    url = f"{NASA_TECHPORT_BASE}/projects"
-
-    # Get project IDs updated in the last N days
     cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
 
     try:
-        # First get list of all project IDs
-        response = requests.get(url, timeout=30)
+        # Use the updatedSince parameter to filter to recently updated projects
+        url = f"{NASA_TECHPORT_BASE}/projects"
+        params = {"updatedSince": cutoff}
+        headers = {"Accept": "application/json"}
+
+        print(f"Fetching projects updated since {cutoff}...")
+        response = requests.get(url, params=params, headers=headers, timeout=60)
+
         if response.status_code != 200:
             print(f"Error fetching project list: {response.status_code}")
-            return []
+            # Fallback: try without filter
+            response = requests.get(url, headers=headers, timeout=60)
+            if response.status_code != 200:
+                print(f"Fallback also failed: {response.status_code}")
+                return []
 
-        project_ids = response.json().get("projects", [])
-        print(f"Found {len(project_ids)} total projects")
+        data = response.json()
+
+        # Handle different response formats
+        project_ids = []
+        if isinstance(data, dict):
+            project_ids = data.get("projects", data.get("project", []))
+            if isinstance(project_ids, dict):
+                project_ids = project_ids.get("id", [])
+        elif isinstance(data, list):
+            project_ids = data
+
+        # Flatten if nested
+        if project_ids and isinstance(project_ids[0], dict):
+            project_ids = [p.get("projectId", p.get("id", "")) for p in project_ids]
+
+        print(f"Found {len(project_ids)} project IDs")
 
         # Fetch details for recent projects (sample to avoid rate limits)
         projects = []
-        for pid in project_ids[:100]:  # Sample first 100
+        for pid in project_ids[:150]:  # Sample first 150
+            if not pid:
+                continue
             project_url = f"{NASA_TECHPORT_BASE}/projects/{pid}"
             try:
-                resp = requests.get(project_url, timeout=30)
+                resp = requests.get(project_url, headers=headers, timeout=30)
                 if resp.status_code == 200:
-                    data = resp.json().get("project", {})
-
-                    # Check if recently updated
-                    last_updated = data.get("lastUpdated", "")
-                    if last_updated and last_updated >= cutoff:
-                        projects.append({
-                            "id": pid,
-                            "title": data.get("title", ""),
-                            "description": (data.get("description", "") or "")[:500],
-                            "status": data.get("status", ""),
-                            "startDate": data.get("startDateString", ""),
-                            "endDate": data.get("endDateString", ""),
-                            "lastUpdated": last_updated,
-                            "center": data.get("leadOrganization", {}).get("organizationName", ""),
-                            "technologyArea": data.get("primaryTaxonomyNodes", [{}])[0].get("taxonomyNodeName", "") if data.get("primaryTaxonomyNodes") else "",
-                            "partners": [p.get("organizationName", "") for p in data.get("supportingOrganizations", [])],
-                            "website": data.get("website", ""),
-                        })
-                time.sleep(0.2)  # Rate limiting
+                    resp_data = resp.json()
+                    proj = resp_data.get("project", resp_data)
+                    if isinstance(proj, dict):
+                        title = proj.get("title", "")
+                        if title:
+                            projects.append({
+                                "id": pid,
+                                "title": title,
+                                "description": (proj.get("description", "") or "")[:500],
+                                "status": proj.get("statusDescription", proj.get("status", "")),
+                                "startDate": proj.get("startDateString", proj.get("startDate", "")),
+                                "endDate": proj.get("endDateString", proj.get("endDate", "")),
+                                "lastUpdated": proj.get("lastUpdated", ""),
+                                "center": (proj.get("leadOrganization") or {}).get("organizationName", ""),
+                                "technologyArea": proj.get("primaryTaxonomyNodes", [{}])[0].get("taxonomyNodeName", "") if proj.get("primaryTaxonomyNodes") else "",
+                                "partners": [p.get("organizationName", "") for p in (proj.get("supportingOrganizations") or [])],
+                                "website": proj.get("website", ""),
+                            })
+                time.sleep(0.3)  # Rate limiting
             except Exception as e:
+                print(f"  Error fetching project {pid}: {e}")
                 continue
 
         return projects

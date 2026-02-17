@@ -2,13 +2,15 @@
 """
 USPTO PatentsView Patent Fetcher
 Fetches patent data for companies tracked in The Innovators League.
-Free API - no key required.
-Now uses master company list for 450+ company coverage.
+Uses the PatentSearch API v2 (search.patentsview.org).
+API key required - get one at https://patentsview-support.atlassian.net/servicedesk/customer/portal/1
+Falls back to assignee-based text search if no key is available.
 """
 
 import json
 import requests
 import re
+import os
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -66,16 +68,18 @@ if not TRACKED_ASSIGNEES:
         ("Palantir", ["Palantir Technologies", "Palantir Technologies Inc"]),
     ]
 
-PATENTSVIEW_API = "https://api.patentsview.org/patents/query"
+# New PatentSearch API v2 endpoint (old api.patentsview.org is 410 Gone)
+PATENTSVIEW_API = "https://search.patentsview.org/api/v1/patent/"
+PATENTSVIEW_API_KEY = os.environ.get("PATENTSVIEW_API_KEY", "")
 
 def fetch_patents_for_assignee(assignee_names, from_date=None):
-    """Fetch patents for a specific assignee."""
+    """Fetch patents for a specific assignee using PatentSearch API v2."""
     if from_date is None:
         from_date = (datetime.now() - timedelta(days=730)).strftime("%Y-%m-%d")  # Last 2 years
 
     # Build OR query for multiple assignee name variants
     assignee_queries = [
-        {"_contains": {"assignee_organization": name}}
+        {"_contains": {"assignees.assignee_organization": name}}
         for name in assignee_names
     ]
 
@@ -89,25 +93,30 @@ def fetch_patents_for_assignee(assignee_names, from_date=None):
     params = {
         "q": json.dumps(query),
         "f": json.dumps([
-            "patent_number",
+            "patent_id",
             "patent_title",
             "patent_date",
             "patent_type",
             "patent_abstract",
-            "assignee_organization",
-            "inventor_first_name",
-            "inventor_last_name",
-            "cpc_group_id",
-            "cpc_group_title"
+            "assignees.assignee_organization",
+            "inventors.inventor_name_first",
+            "inventors.inventor_name_last",
+            "cpc_current.cpc_group_id",
+            "cpc_current.cpc_group_title"
         ]),
-        "o": json.dumps({"per_page": 100}),
+        "o": json.dumps({"size": 100}),
         "s": json.dumps([{"patent_date": "desc"}])
     }
+
+    headers = {}
+    if PATENTSVIEW_API_KEY:
+        headers["X-Api-Key"] = PATENTSVIEW_API_KEY
 
     try:
         response = requests.get(
             PATENTSVIEW_API,
             params=params,
+            headers=headers,
             timeout=30
         )
         response.raise_for_status()
@@ -121,6 +130,13 @@ def fetch_all_patents(max_companies=100):
     all_patents = []
     import time
 
+    if not PATENTSVIEW_API_KEY:
+        print("WARNING: No PATENTSVIEW_API_KEY set. The PatentSearch API v2 requires an API key.")
+        print("Get a free key at: https://patentsview-support.atlassian.net/servicedesk/customer/portal/1")
+        print("Set it as: export PATENTSVIEW_API_KEY=your_key_here")
+        print("Or add it as a GitHub Actions secret.")
+        print("Attempting requests without key (may fail)...\n")
+
     # Limit to prevent rate limiting issues
     companies_to_fetch = TRACKED_ASSIGNEES[:max_companies]
 
@@ -128,36 +144,36 @@ def fetch_all_patents(max_companies=100):
         print(f"[{i+1}/{len(companies_to_fetch)}] Fetching patents for: {company_name}")
         result = fetch_patents_for_assignee(assignee_variants)
 
-        # Rate limiting - pause every 10 requests
+        # Rate limiting - 45 requests/minute limit, pause every 10 requests
         if (i + 1) % 10 == 0:
             print("  (pausing for rate limiting...)")
-            time.sleep(2)
+            time.sleep(15)
 
         if result and "patents" in result and result["patents"]:
             patents = result["patents"]
             print(f"  Found {len(patents)} patents")
 
             for patent in patents:
-                # Extract CPC codes (technology categories)
+                # Extract CPC codes (technology categories) - v2 field names
                 cpc_codes = []
-                if patent.get("cpcs"):
+                if patent.get("cpc_current"):
                     cpc_codes = list(set([
                         cpc.get("cpc_group_id", "")[:4]
-                        for cpc in patent["cpcs"]
+                        for cpc in patent["cpc_current"]
                         if cpc.get("cpc_group_id")
                     ]))[:3]
 
-                # Extract inventor names
+                # Extract inventor names - v2 field names
                 inventors = []
                 if patent.get("inventors"):
                     inventors = [
-                        f"{inv.get('inventor_first_name', '')} {inv.get('inventor_last_name', '')}".strip()
+                        f"{inv.get('inventor_name_first', '')} {inv.get('inventor_name_last', '')}".strip()
                         for inv in patent["inventors"][:3]
                     ]
 
                 patent_data = {
                     "company": company_name,
-                    "patentNumber": patent.get("patent_number", ""),
+                    "patentNumber": patent.get("patent_id", ""),
                     "title": patent.get("patent_title", ""),
                     "date": patent.get("patent_date", ""),
                     "type": patent.get("patent_type", ""),
