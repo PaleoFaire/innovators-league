@@ -14583,6 +14583,49 @@ body {
 }
 .gate-cta-btn:hover { opacity: 0.9; }
 
+/* ─── Investor Gate Banner ─── */
+.investor-gate-banner {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 24px 32px 24px;
+}
+.investor-gate-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 28px;
+  background: linear-gradient(135deg, rgba(255,107,44,0.08) 0%, rgba(255,107,44,0.02) 100%);
+  border: 1px solid rgba(255,107,44,0.25);
+  border-radius: 12px;
+}
+.investor-gate-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+.investor-gate-content strong {
+  font-size: 15px;
+  color: var(--text);
+}
+.investor-gate-content p {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 2px 0 0 0;
+}
+.investor-gate-content .gate-cta-btn {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+@media (max-width: 768px) {
+  .investor-gate-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+  .investor-gate-content .gate-cta-btn {
+    margin-left: 0;
+  }
+}
+
 /* ─── Saved Searches Bar ─── */
 .saved-searches-bar {
   display: flex;

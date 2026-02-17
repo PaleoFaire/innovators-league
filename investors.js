@@ -18,12 +18,8 @@ function parseAUM(aum) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Auth gate — require login for investor intelligence
   function initInvestorsPage() {
-    if (typeof TILAuth !== 'undefined' && !TILAuth.isLoggedIn()) {
-      showInvestorAuthGate();
-      return;
-    }
+    // Always render all content first
     initVCStats();
     initVCFilters();
     renderVCCards(VC_FIRMS);
@@ -35,20 +31,34 @@ document.addEventListener('DOMContentLoaded', () => {
     initVCModal();
     initVCMobileMenu();
     initVCSearch();
+
+    // Then apply visual gate if not logged in
+    if (typeof TILAuth !== 'undefined' && !TILAuth.isLoggedIn()) {
+      showInvestorAuthGate();
+    }
   }
 
   function showInvestorAuthGate() {
-    const sections = document.querySelectorAll('#vc-section, #active-deployers, #co-invest, #follow-on, #capital-flow');
-    sections.forEach(s => {
-      s.classList.add('section-gated');
-    });
-    // Add CTA overlay to the first section
+    // Gate deeper sections — leave main VC grid visible as a teaser
+    const gatedSections = document.querySelectorAll('#active-deployers, #co-invest, #follow-on, #capital-flow');
+    gatedSections.forEach(s => s.classList.add('section-gated'));
+
+    // Add sign-in CTA between free content and gated content
     const vcSection = document.getElementById('vc-section');
     if (vcSection) {
       const cta = document.createElement('div');
-      cta.className = 'section-gate-cta';
-      cta.innerHTML = '<button class="gate-cta-btn" onclick="TILAuth.showAuthModal()">🔒 Sign in free to access Investor Intelligence</button>';
-      vcSection.appendChild(cta);
+      cta.className = 'investor-gate-banner';
+      cta.innerHTML = `
+        <div class="investor-gate-content">
+          <span class="investor-gate-icon">🔒</span>
+          <div>
+            <strong>Sign in free to unlock full Investor Intelligence</strong>
+            <p>Co-investment networks, follow-on patterns, capital flow analysis and more.</p>
+          </div>
+          <button class="gate-cta-btn" onclick="TILAuth.showAuthModal()">Sign In Free</button>
+        </div>
+      `;
+      vcSection.insertAdjacentElement('afterend', cta);
     }
   }
 
@@ -56,17 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('til-auth-change', (e) => {
     if (e.detail?.user) {
       document.querySelectorAll('.section-gated').forEach(s => s.classList.remove('section-gated'));
-      document.querySelectorAll('.section-gate-cta').forEach(c => c.remove());
-      initVCStats();
-      initVCFilters();
-      renderVCCards(VC_FIRMS);
-      renderActiveDeployers();
-      renderCoInvestGraph();
-      renderOverlapMatrix();
-      renderFollowOnPatterns();
-      renderSectorCapital();
-      initVCModal();
-      initVCSearch();
+      document.querySelectorAll('.investor-gate-banner').forEach(c => c.remove());
     }
   });
 
