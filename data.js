@@ -9282,7 +9282,7 @@ const VC_FIRMS = [
     signal: "rising",
     website: "https://eclipse.vc",
     insight: "Eclipse's 'industrial transformation' focus means they see what consumer-tech VCs miss: the massive opportunity in modernizing America's industrial base. Their portfolio companies are literally rebuilding how things are manufactured, inspected, and maintained."
-  }
+  },
   {
     name: "General Catalyst",
     shortName: "GC",
@@ -9297,7 +9297,7 @@ const VC_FIRMS = [
     signal: "rising",
     website: "https://generalcatalyst.com",
     insight: "GC's 'responsible innovation' thesis and healthcare transformation strategy — including acquiring a health system — represent a new model of VC involvement. Their deep tech allocation is growing rapidly, and their Cambridge roots give them MIT/Harvard deal flow."
-  }
+  },
   {
     name: "Alumni Ventures",
     shortName: "Alumni Ventures",
@@ -9387,7 +9387,7 @@ const VC_FIRMS = [
     signal: "hot",
     website: "https://shieldcap.com",
     insight: "Shield Capital bridges the gap between Silicon Valley and the Pentagon like no other fund. Raj Shah's DIU experience means they understand government procurement, while their commercial VC approach ensures portfolio companies build real businesses. Three unicorns already — Apex, Rebellion, Snorkel AI."
-  }
+  },
   {
     name: "Bedrock Capital",
     shortName: "Bedrock",
