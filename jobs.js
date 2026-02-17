@@ -468,5 +468,6 @@ function debounce(func, wait) {
 
 // Mobile menu
 document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
-    document.querySelector('.nav-links')?.classList.toggle('active');
+    document.querySelector('.nav-links')?.classList.toggle('open');
+    this.classList.toggle('open');
 });

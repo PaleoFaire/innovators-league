@@ -1189,9 +1189,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initialize all sections with error isolation
   safeInit(initDiscoveryHub);
-  safeInit(initMap);
   safeInit(initFilters);
-  safeInit(initAIQuery);
   safeInit(() => renderCompanies(COMPANIES), 'renderCompanies');
   safeInit(renderSectors);
   safeInit(initSearch);
@@ -1201,12 +1199,9 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initCompare);
   safeInit(initKeyboard);
   safeInit(initMovementTracker);
-  safeInit(initWeeklyDigest);
-  safeInit(initAnomalyAlerts);
   safeInit(initTRLDashboard);
   safeInit(initDealTracker);
   safeInit(initCapitalFlowsTabs);
-  safeInit(initGrowthSignals);
   safeInit(initMarketMap);
   safeInit(initMafiaExplorer);
   safeInit(initRevenueTable);

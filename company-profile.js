@@ -105,7 +105,7 @@
   function renderHeroSection(company) {
     const container = document.getElementById('profile-hero');
     const sectorInfo = typeof SECTORS !== 'undefined' ? SECTORS[company.sector] : { icon: '🏢', color: '#6b7280' };
-    const innovatorScore = typeof INNOVATOR_SCORES !== 'undefined' ? INNOVATOR_SCORES[company.name] : null;
+    const innovatorScore = typeof INNOVATOR_SCORES !== 'undefined' ? INNOVATOR_SCORES.find(s => s.company === company.name) : null;
     const country = getCountryFromLocation(company);
 
     // Get score tier info
@@ -1037,8 +1037,8 @@
     }
 
     container.innerHTML = related.map(c => {
-      const score = typeof INNOVATOR_SCORES !== 'undefined' ? INNOVATOR_SCORES[c.name] : null;
-      const scoreValue = score?.composite?.toFixed(0) || score?.total || '--';
+      const score = typeof INNOVATOR_SCORES !== 'undefined' ? INNOVATOR_SCORES.find(s => s.company === c.name) : null;
+      const scoreValue = score?.composite?.toFixed(0) || '--';
 
       return `
         <a href="company.html?slug=${profileSlug(c.name)}" class="related-card">
@@ -1232,7 +1232,7 @@
     // In production, this would call the Claude API
     // For now, generate intelligent responses from available data
 
-    const score = typeof INNOVATOR_SCORES !== 'undefined' ? INNOVATOR_SCORES[company.name] : null;
+    const score = typeof INNOVATOR_SCORES !== 'undefined' ? INNOVATOR_SCORES.find(s => s.company === company.name) : null;
     const patent = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => p.company === company.name) : null;
     const altData = typeof ALT_DATA_SIGNALS !== 'undefined' ? ALT_DATA_SIGNALS.find(a => a.company === company.name) : null;
 
