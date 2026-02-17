@@ -17407,23 +17407,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-17 18:37
+// Last updated: 2026-02-17 21:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Durin", headline: "Venezuela operation relied on little-known cyber center, official says", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Terraform Industries", headline: "New Jersey Promotes Solar To Lower Utility Bills", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Vannevar Labs", headline: "XAI Launches Grok 4.20 , 4 AI Agents Collaborating. Estimated ELO 1505-1535", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic releases Sonnet 4.6", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Cover", headline: "China's Space Epoch raises new funding, targets 2026 launch and recovery attempt", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "news", company: "The Boring Company", headline: "Mistral AI buys Koyeb in first acquisition to back its cloud ambitions", source: "TechCrunch", time: "1h ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "SpaceX", headline: "SpaceX vets raise $50M Series A for data center links", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "The Boring Company", headline: "Running AI models is turning into a memory game", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Vayu Robotics", headline: "Will The MiBot Work In Amsterdam? Here's A Biased Comparison", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Flexport", headline: "Electric Trucking: Why Ecosystem Readiness Matters In South Africa", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Palantir", headline: "European Parliament blocks AI on lawmakers' devices, citing security risks", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Durin", headline: "VinFast: From California Dreaming To Midwest Reality", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Vannevar Labs", headline: "SatVu to expand thermal imaging constellation with NATO-backed funds", source: "SpaceNews", time: "2h ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "Ample", headline: "Electricity Prices Decreased In South Australia Because Of Clean Renewables", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "PLD Space", headline: "Global leaders meet at Space-Comm Expo in London to accelerate future of European space industry", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Andrenam", headline: "Trump admin pushes Maritime Prosperity Zones in new action proposal", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Longshot Space", headline: "LongShot program eyes new target for early flight tests", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Turbopuffer", headline: "Meta's own research found parental supervision doesn't really help curb teens' compulsive social media", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Durin", headline: "US Air Force sees early 2030s rollout for revamped Sentinel nuclear missile", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Diode", headline: "Apple is reportedly cooking up a trio of AI wearables", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Agility Robotics", headline: "Grok 4.20 Analyzes Macrohard Emulated Digital Humans", source: "Next Big Future", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Galvanick", headline: "Meta and Other Tech Companies Ban OpenClaw Over Cybersecurity Concerns", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Vannevar Labs", headline: "Estimating Surface Heating of an Atmospheric Reentry Vehicle With Simulation", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Turbopuffer", headline: "AI Models Specializations and Moving to Parallel and Many Agent Systems", source: "Next Big Future", time: "2h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Cohere", headline: "The Curling Controversy at the Winter Olympics Isn't What You Think", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Scale AI", headline: "Climactic launches hybrid fund to get startups through the 'valley of death'", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Arc Boats", headline: "Australia invests $2.75 billion in AUKUS submarine yard", source: "Breaking Defense", time: "3h ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Etched", headline: "HOW THE XAI GROK 4.20 AGENTS WORK", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Durin", headline: "Venezuela operation relied on little-known cyber center, official says", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Terraform Industries", headline: "New Jersey Promotes Solar To Lower Utility Bills", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
