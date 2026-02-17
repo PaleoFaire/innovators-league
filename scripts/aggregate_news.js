@@ -13,28 +13,37 @@ const path = require('path');
 // Import the master company list (450+ companies with aliases)
 const { MASTER_COMPANY_LIST, mentionsCompany, getAllSearchTerms, getStats } = require('./company_master_list.js');
 
-// RSS feeds to monitor
+// RSS feeds to monitor (18 total feeds for comprehensive coverage)
 const RSS_FEEDS = [
   // Tech General
   { name: 'TechCrunch', url: 'https://techcrunch.com/feed/', category: 'tech' },
   { name: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed/', category: 'ai' },
   { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', category: 'tech' },
   { name: 'Wired', url: 'https://www.wired.com/feed/rss', category: 'tech' },
+  { name: 'MIT Tech Review', url: 'https://www.technologyreview.com/feed/', category: 'tech' },
+  { name: 'IEEE Spectrum', url: 'https://spectrum.ieee.org/feeds/feed.rss', category: 'tech' },
+  { name: 'The Verge Tech', url: 'https://www.theverge.com/rss/tech/index.xml', category: 'tech' },
 
-  // Defense
+  // Defense & Security
   { name: 'Defense News', url: 'https://www.defensenews.com/arc/outboundfeeds/rss/', category: 'defense' },
   { name: 'Breaking Defense', url: 'https://breakingdefense.com/feed/', category: 'defense' },
   { name: 'Defense One', url: 'https://www.defenseone.com/rss/all/', category: 'defense' },
+  { name: 'War on the Rocks', url: 'https://warontherocks.com/feed/', category: 'defense' },
 
   // Space
   { name: 'SpaceNews', url: 'https://spacenews.com/feed/', category: 'space' },
   { name: 'Ars Technica Space', url: 'https://feeds.arstechnica.com/arstechnica/science', category: 'space' },
 
-  // Energy
+  // Energy & Climate
   { name: 'Canary Media', url: 'https://www.canarymedia.com/feed', category: 'energy' },
+  { name: 'CleanTechnica', url: 'https://cleantechnica.com/feed/', category: 'energy' },
+  { name: 'Nuclear Newswire', url: 'https://www.ans.org/news/rss/', category: 'nuclear' },
 
   // Startups & VC
   { name: 'Crunchbase News', url: 'https://news.crunchbase.com/feed/', category: 'funding' },
+
+  // Future Tech
+  { name: 'Next Big Future', url: 'https://www.nextbigfuture.com/feed', category: 'tech' },
 ];
 
 // Companies are now tracked via MASTER_COMPANY_LIST (450+ companies with aliases)

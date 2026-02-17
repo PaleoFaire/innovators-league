@@ -32,7 +32,14 @@
         </div>
         <div class="nav-links">
             <a href="index.html" class="nav-back-btn">← Back to Database</a>
-            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            <div class="nav-auth" id="nav-auth">
+                <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            </div>
+            <div class="nav-user" id="nav-user" style="display:none;">
+                <span class="nav-user-email" id="nav-user-email"></span>
+                <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+            </div>
         </div>
     </nav>
 
@@ -161,6 +168,46 @@
                 </div>
             </section>
 
+            <!-- SECTION E: Market & Regulatory Intelligence -->
+            <section class="profile-section profile-market-intel" id="profile-market-intel" style="display:none;">
+                <h2 class="section-title">
+                    <span class="section-icon">📊</span>
+                    Market & Regulatory Intelligence
+                    <span class="section-timestamp" id="market-intel-updated"></span>
+                </h2>
+                <div class="market-intel-grid" id="market-intel-grid">
+                    <!-- Stock Price (public companies only) -->
+                    <div class="intel-card market-card" id="stock-price-card" style="display:none;">
+                        <h3>Stock Price <span class="section-timestamp" id="stock-updated"></span></h3>
+                        <div id="stock-price-content"></div>
+                    </div>
+
+                    <!-- SEC Filings (public companies only) -->
+                    <div class="intel-card market-card" id="sec-filings-card" style="display:none;">
+                        <h3>SEC Filings <span class="section-timestamp" id="sec-updated"></span></h3>
+                        <div id="sec-filings-content"></div>
+                    </div>
+
+                    <!-- Insider Transactions -->
+                    <div class="intel-card market-card" id="insider-transactions-card" style="display:none;">
+                        <h3>Insider Transactions <span class="section-timestamp" id="insider-updated"></span></h3>
+                        <div id="insider-transactions-content"></div>
+                    </div>
+
+                    <!-- Sector Momentum -->
+                    <div class="intel-card market-card" id="sector-momentum-card" style="display:none;">
+                        <h3>Sector Momentum</h3>
+                        <div id="sector-momentum-content"></div>
+                    </div>
+
+                    <!-- Government Demand Pipeline -->
+                    <div class="intel-card market-card" id="gov-demand-card" style="display:none;">
+                        <h3>Government Demand Pipeline</h3>
+                        <div id="gov-demand-content"></div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Actions Bar -->
             <section class="profile-actions" id="profile-actions">
                 <div class="actions-container">
@@ -241,8 +288,13 @@
     </div>
 
     <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="auth.js?v=1"></script>
     <script src="data.js?v=63"></script>
+    <script src="data/stocks_auto.js?v=1"></script>
+    <script src="data/insider_transactions_auto.js?v=1"></script>
+    <script src="data/news_signals_auto.js?v=1"></script>
     <script src="app.js?v=63"></script>
-    <script src="company-profile.js?v=3"></script>
+    <script src="company-profile.js?v=4"></script>
 </body>
 </html>

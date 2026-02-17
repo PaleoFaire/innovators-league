@@ -36,7 +36,14 @@
             <a href="visualizations.html" class="nav-link">📈 Insights</a>
             <a href="investors.html" class="nav-link">💰 Investors</a>
             <a href="jobs.html" class="nav-link">💼 Jobs</a>
-            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            <div class="nav-auth" id="nav-auth">
+                <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            </div>
+            <div class="nav-user" id="nav-user" style="display:none;">
+                <span class="nav-user-email" id="nav-user-email"></span>
+                <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+            </div>
         </div>
         <button class="mobile-menu-btn" aria-label="Menu">
             <span></span><span></span><span></span>
@@ -166,7 +173,14 @@
                         <option value="saved">Sort: Saved First</option>
                     </select>
                     <button onclick="exportWatchlistCSV()" class="filter-select" style="cursor:pointer; background:var(--bg-tertiary); color:var(--text-secondary); border:1px solid var(--border); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif;">Export CSV</button>
+                    <button onclick="saveCurrentSearch()" class="filter-select save-search-btn" style="cursor:pointer; background:rgba(255,107,44,0.1); color:#FF6B2C; border:1px solid rgba(255,107,44,0.3); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif; font-weight:600;">&#128190; Save Search</button>
                 </div>
+            </div>
+
+            <!-- Saved Searches Bar -->
+            <div class="saved-searches-bar" id="saved-searches-bar" style="display:none;">
+                <span class="saved-searches-label">Saved:</span>
+                <div class="saved-searches-list" id="saved-searches-list"></div>
             </div>
 
             <!-- Sector Chips (quick filter) -->
@@ -538,15 +552,46 @@
                 </div>
                 <div class="movement-grid" id="movement-grid"></div>
             </div>
-            <!-- Subscribe CTA -->
-            <div class="alerts-subscribe">
-                <div class="subscribe-box">
-                    <span class="subscribe-icon">🔔</span>
-                    <div class="subscribe-content">
-                        <strong>Get intelligence delivered</strong>
-                        <p>Email digest, Slack integration, or API webhook for ROS Pro members.</p>
+            <!-- Alert Preferences Panel -->
+            <div class="alert-preferences-panel" id="alert-preferences-panel">
+                <div class="alert-prefs-header">
+                    <span class="alert-prefs-icon">&#9881;</span>
+                    <div>
+                        <strong>Alert Preferences</strong>
+                        <p>Customize which alerts you see. Sign in to save across sessions.</p>
                     </div>
-                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="subscribe-btn">Enable Alerts →</a>
+                </div>
+                <div class="alert-prefs-body">
+                    <div class="alert-prefs-section" id="alert-prefs-categories">
+                        <label class="alert-pref-label">Categories:</label>
+                        <div class="alert-pref-checks">
+                            <label><input type="checkbox" value="funding" checked> Funding</label>
+                            <label><input type="checkbox" value="contracts" checked> Contracts</label>
+                            <label><input type="checkbox" value="leadership"> Leadership</label>
+                            <label><input type="checkbox" value="signals" checked> Signals</label>
+                            <label><input type="checkbox" value="regulatory"> Regulatory</label>
+                            <label><input type="checkbox" value="patents"> Patents</label>
+                        </div>
+                    </div>
+                    <div class="alert-prefs-section">
+                        <label class="alert-pref-label">Minimum Priority:</label>
+                        <select id="alert-pref-threshold" class="alert-pref-select">
+                            <option value="all">All Alerts</option>
+                            <option value="low">Low+</option>
+                            <option value="medium" selected>Medium+</option>
+                            <option value="high">High+</option>
+                            <option value="critical">Critical Only</option>
+                        </select>
+                    </div>
+                    <div class="alert-prefs-section alert-prefs-email">
+                        <label><input type="checkbox" id="alert-pref-email-toggle"> Email Digest</label>
+                        <select id="alert-pref-frequency" class="alert-pref-select" style="margin-left:12px;">
+                            <option value="daily">Daily</option>
+                            <option value="weekly">Weekly</option>
+                        </select>
+                        <span class="alert-pref-coming-soon">Coming Soon</span>
+                    </div>
+                    <button onclick="saveAlertPreferences()" class="alert-pref-save-btn">Save Preferences</button>
                 </div>
             </div>
         </div>
@@ -944,6 +989,62 @@
         </div>
     </section>
 
+    <!-- Auth Modal -->
+    <div class="modal-overlay auth-modal-overlay" id="auth-modal-overlay" style="display:none;">
+        <div class="modal-content auth-modal">
+            <button class="modal-close" id="auth-modal-close" aria-label="Close">&times;</button>
+            <div class="auth-modal-header">
+                <div class="auth-logo">ROS</div>
+                <h2>The Innovators League</h2>
+                <p>Access the definitive frontier tech intelligence platform.</p>
+            </div>
+            <div class="auth-error" id="auth-error" style="display:none;"></div>
+            <div class="auth-tabs">
+                <button class="auth-tab active" data-tab="login">Sign In</button>
+                <button class="auth-tab" data-tab="signup">Create Account</button>
+            </div>
+            <div class="auth-panel" id="auth-login-panel">
+                <button class="auth-google-btn" id="auth-google-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                    Continue with Google
+                </button>
+                <div class="auth-divider"><span>or</span></div>
+                <form id="auth-login-form">
+                    <div class="auth-field">
+                        <input type="email" id="auth-email" placeholder="Email address" required autocomplete="email">
+                    </div>
+                    <div class="auth-field">
+                        <input type="password" id="auth-password" placeholder="Password" required autocomplete="current-password">
+                    </div>
+                    <button type="submit" class="auth-submit-btn">Sign In</button>
+                    <a href="#" class="auth-forgot-link" id="auth-forgot-password">Forgot password?</a>
+                </form>
+            </div>
+            <div class="auth-panel" id="auth-signup-panel" style="display:none;">
+                <button class="auth-google-btn" onclick="TILAuth.signInWithGoogle()">
+                    <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                    Continue with Google
+                </button>
+                <div class="auth-divider"><span>or</span></div>
+                <form id="auth-signup-form">
+                    <div class="auth-field">
+                        <input type="email" id="auth-signup-email" placeholder="Email address" required autocomplete="email">
+                    </div>
+                    <div class="auth-field">
+                        <input type="password" id="auth-signup-password" placeholder="Password (6+ characters)" required autocomplete="new-password" minlength="6">
+                    </div>
+                    <div class="auth-field">
+                        <input type="password" id="auth-signup-confirm" placeholder="Confirm password" required autocomplete="new-password">
+                    </div>
+                    <button type="submit" class="auth-submit-btn">Create Account</button>
+                </form>
+            </div>
+            <div class="auth-footer">
+                <p>By signing in, you agree to our Terms of Service and Privacy Policy.</p>
+            </div>
+        </div>
+    </div>
+
     <!-- Company Modal -->
     <div class="modal-overlay" id="modal-overlay">
         <div class="modal-content" id="modal-content">
@@ -1110,6 +1211,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="auth.js?v=1"></script>
     <script src="data.js?v=33"></script>
     <script src="app.js?v=68"></script>
 </body>

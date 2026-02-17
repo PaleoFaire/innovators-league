@@ -12,19 +12,24 @@
 
   // ─── INITIALIZATION ───
   document.addEventListener('DOMContentLoaded', function() {
-    initCompanyProfile();
-    initAIAssistant();
+    // Wait for auth to be ready before initializing
+    if (typeof TILAuth !== 'undefined' && TILAuth.onReady) {
+      TILAuth.onReady(function() {
+        initCompanyProfile();
+        initAIAssistant();
+      });
+    } else {
+      // Fallback if auth not loaded
+      initCompanyProfile();
+      initAIAssistant();
+    }
   });
 
   function initCompanyProfile() {
-    // Get company from URL parameter
+    // Get company from URL parameter — support slug, name, and company params
     const urlParams = new URLSearchParams(window.location.search);
+    const slug = urlParams.get('slug');
     const companyName = urlParams.get('name') || urlParams.get('company');
-
-    if (!companyName) {
-      showError();
-      return;
-    }
 
     // Find company in database
     if (typeof COMPANIES === 'undefined') {
@@ -33,14 +38,28 @@
       return;
     }
 
-    currentCompany = COMPANIES.find(c =>
-      c.name.toLowerCase() === companyName.toLowerCase() ||
-      c.name.toLowerCase().replace(/\s+/g, '-') === companyName.toLowerCase()
-    );
+    // Resolve company from slug or name
+    if (slug) {
+      currentCompany = COMPANIES.find(c => profileSlug(c.name) === slug.toLowerCase());
+    } else if (companyName) {
+      currentCompany = COMPANIES.find(c =>
+        c.name.toLowerCase() === companyName.toLowerCase() ||
+        c.name.toLowerCase().replace(/\s+/g, '-') === companyName.toLowerCase()
+      );
+    }
 
     if (!currentCompany) {
       showError();
       return;
+    }
+
+    // Auth gate: if not logged in and company not in ROS 50, redirect
+    if (typeof TILAuth !== 'undefined' && !TILAuth.isLoggedIn()) {
+      const isROS50 = typeof isInROS50 === 'function' ? isInROS50(currentCompany.name) : false;
+      if (!isROS50) {
+        window.location.href = 'index.html?auth=required';
+        return;
+      }
     }
 
     // Update page title and meta
@@ -52,6 +71,7 @@
     renderTractionSection(currentCompany);
     renderCompetitiveSection(currentCompany);
     renderIntelligenceSection(currentCompany);
+    renderMarketIntelSection(currentCompany);
     renderRelatedSection(currentCompany);
     initActionButtons(currentCompany);
 
@@ -470,7 +490,7 @@
           <p style="font-size:13px; color:var(--text-muted); margin-bottom:12px;">Sector peers:</p>
           <div class="competitor-grid">
             ${sectorPeers.map(c => `
-              <a href="company.html?name=${encodeURIComponent(c.name)}" class="competitor-chip">
+              <a href="company.html?slug=${profileSlug(c.name)}" class="competitor-chip">
                 ${c.name}
               </a>
             `).join('')}
@@ -485,7 +505,7 @@
     container.innerHTML = `
       <div class="competitor-grid">
         ${competitors.map(c => `
-          <a href="company.html?name=${encodeURIComponent(c.name)}" class="competitor-chip">
+          <a href="company.html?slug=${profileSlug(c.name)}" class="competitor-chip">
             ${c.name}
             ${c.valuation ? `<span style="color:var(--text-muted); font-size:11px;">${c.valuation}</span>` : ''}
           </a>
@@ -726,6 +746,279 @@
   }
 
   // ═══════════════════════════════════════════════════════
+  // SECTION E: MARKET & REGULATORY INTELLIGENCE
+  // ═══════════════════════════════════════════════════════
+
+  function renderMarketIntelSection(company) {
+    const section = document.getElementById('profile-market-intel');
+    if (!section) return;
+
+    let hasData = false;
+
+    hasData = renderStockPrice(company) || hasData;
+    hasData = renderSECFilings(company) || hasData;
+    hasData = renderInsiderTrading(company) || hasData;
+    hasData = renderSectorMomentumContext(company) || hasData;
+    hasData = renderGovDemandMatch(company) || hasData;
+
+    if (hasData) {
+      section.style.display = 'block';
+      const ts = document.getElementById('market-intel-updated');
+      if (ts) ts.textContent = 'Updated: ' + new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    }
+  }
+
+  function renderStockPrice(company) {
+    const card = document.getElementById('stock-price-card');
+    const container = document.getElementById('stock-price-content');
+    if (!card || !container) return false;
+
+    // Find stock data — check STOCK_PRICES object by matching company name
+    if (typeof STOCK_PRICES === 'undefined') return false;
+
+    let stockData = null;
+    for (const [ticker, data] of Object.entries(STOCK_PRICES)) {
+      if (data.company && company.name.toLowerCase().includes(data.company.toLowerCase())) {
+        stockData = data;
+        break;
+      }
+    }
+
+    // Also try matching by ticker in company data
+    if (!stockData && company.ticker) {
+      stockData = STOCK_PRICES[company.ticker];
+    }
+
+    if (!stockData) return false;
+
+    const isPositive = stockData.changePercent >= 0;
+    const changeClass = isPositive ? 'positive' : 'negative';
+    const changeIcon = isPositive ? '▲' : '▼';
+
+    // Mini sparkline SVG
+    let sparklineSVG = '';
+    if (stockData.sparkline && stockData.sparkline.length > 1) {
+      const min = Math.min(...stockData.sparkline);
+      const max = Math.max(...stockData.sparkline);
+      const range = max - min || 1;
+      const w = 200, h = 50;
+      const points = stockData.sparkline.map((v, i) => {
+        const x = (i / (stockData.sparkline.length - 1)) * w;
+        const y = h - ((v - min) / range) * h;
+        return `${x},${y}`;
+      }).join(' ');
+      const color = isPositive ? '#22c55e' : '#ef4444';
+      sparklineSVG = `
+        <svg viewBox="0 0 ${w} ${h}" class="stock-sparkline" preserveAspectRatio="none">
+          <polyline points="${points}" fill="none" stroke="${color}" stroke-width="2"/>
+        </svg>
+      `;
+    }
+
+    card.style.display = 'block';
+    const ts = document.getElementById('stock-updated');
+    if (ts) ts.textContent = stockData.lastUpdated ? stockData.lastUpdated.split(' ')[0] : '';
+
+    container.innerHTML = `
+      <div class="stock-summary">
+        <div class="stock-ticker">${stockData.ticker} · ${stockData.exchange || 'NYSE'}</div>
+        <div class="stock-price-large">$${stockData.price.toFixed(2)}</div>
+        <div class="stock-change ${changeClass}">
+          ${changeIcon} ${Math.abs(stockData.change).toFixed(2)} (${Math.abs(stockData.changePercent).toFixed(2)}%)
+        </div>
+        ${sparklineSVG}
+        <div class="stock-details-grid">
+          <div class="stock-detail">
+            <span class="stock-detail-label">Day Range</span>
+            <span class="stock-detail-value">$${stockData.dayLow?.toFixed(2) || '--'} — $${stockData.dayHigh?.toFixed(2) || '--'}</span>
+          </div>
+          <div class="stock-detail">
+            <span class="stock-detail-label">52-Week Range</span>
+            <span class="stock-detail-value">$${stockData.fiftyTwoWeekLow?.toFixed(2) || '--'} — $${stockData.fiftyTwoWeekHigh?.toFixed(2) || '--'}</span>
+          </div>
+          <div class="stock-detail">
+            <span class="stock-detail-label">Volume</span>
+            <span class="stock-detail-value">${stockData.volume ? stockData.volume.toLocaleString() : '--'}</span>
+          </div>
+          ${stockData.marketCap && stockData.marketCap !== 'N/A' ? `
+            <div class="stock-detail">
+              <span class="stock-detail-label">Market Cap</span>
+              <span class="stock-detail-value">${stockData.marketCap}</span>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+    return true;
+  }
+
+  function renderSECFilings(company) {
+    const card = document.getElementById('sec-filings-card');
+    const container = document.getElementById('sec-filings-content');
+    if (!card || !container) return false;
+
+    // Check both local sec_filings_auto.js data and data.js SEC_FILINGS_LIVE
+    let filings = [];
+    if (typeof SEC_FILINGS_LIVE !== 'undefined') {
+      filings = SEC_FILINGS_LIVE.filter(f =>
+        f.company && company.name.toLowerCase().includes(f.company.toLowerCase().split(' ')[0])
+      ).slice(0, 8);
+    }
+
+    if (filings.length === 0) return false;
+
+    card.style.display = 'block';
+    const ts = document.getElementById('sec-updated');
+    if (ts && filings[0]?.date) ts.textContent = filings[0].date;
+
+    container.innerHTML = `
+      <div class="filings-list">
+        ${filings.map(f => {
+          const formClass = f.form === '10-K' || f.form === '10-Q' ? 'form-major' : f.form === '8-K' ? 'form-event' : 'form-insider';
+          const formIcon = f.form === '10-K' ? '📊' : f.form === '10-Q' ? '📈' : f.form === '8-K' ? '📰' : f.form === '4' ? '👤' : '📄';
+          return `
+            <div class="filing-item">
+              <span class="filing-form ${formClass}">${formIcon} ${f.form}</span>
+              <span class="filing-company">${f.company}</span>
+              <span class="filing-date">${formatDate(f.date)}</span>
+              ${f.ticker ? `<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${f.ticker}&type=&dateb=&owner=include&count=10" target="_blank" rel="noopener" class="filing-link">EDGAR →</a>` : ''}
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+    return true;
+  }
+
+  function renderInsiderTrading(company) {
+    const card = document.getElementById('insider-transactions-card');
+    const container = document.getElementById('insider-transactions-content');
+    if (!card || !container) return false;
+
+    if (typeof INSIDER_TRANSACTIONS === 'undefined' || INSIDER_TRANSACTIONS.length === 0) return false;
+
+    const transactions = INSIDER_TRANSACTIONS.filter(t =>
+      t.company && company.name.toLowerCase().includes(t.company.toLowerCase().split(' ')[0])
+    ).slice(0, 8);
+
+    if (transactions.length === 0) return false;
+
+    card.style.display = 'block';
+    const ts = document.getElementById('insider-updated');
+    if (ts && transactions[0]?.date) ts.textContent = transactions[0].date;
+
+    container.innerHTML = `
+      <div class="insider-list">
+        ${transactions.map(t => {
+          const isBuy = (t.type || '').toLowerCase().includes('buy') || (t.type || '').toLowerCase().includes('purchase');
+          const typeClass = isBuy ? 'insider-buy' : 'insider-sell';
+          const typeIcon = isBuy ? '🟢' : '🔴';
+          return `
+            <div class="insider-item ${typeClass}">
+              <div class="insider-name">${t.insiderName || t.insider || 'Insider'}</div>
+              <div class="insider-details">
+                <span class="insider-type">${typeIcon} ${t.type || 'Transaction'}</span>
+                ${t.shares ? `<span class="insider-shares">${parseInt(t.shares).toLocaleString()} shares</span>` : ''}
+                ${t.price ? `<span class="insider-price">@ $${parseFloat(t.price).toFixed(2)}</span>` : ''}
+              </div>
+              <div class="insider-date">${formatDate(t.date)}</div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+    return true;
+  }
+
+  function renderSectorMomentumContext(company) {
+    const card = document.getElementById('sector-momentum-card');
+    const container = document.getElementById('sector-momentum-content');
+    if (!card || !container) return false;
+
+    if (typeof SECTOR_MOMENTUM === 'undefined') return false;
+
+    const sectorData = SECTOR_MOMENTUM.find(s =>
+      s.sector === company.sector || s.sector.toLowerCase().includes(company.sector?.toLowerCase().split(' ')[0] || '')
+    );
+
+    if (!sectorData) return false;
+
+    card.style.display = 'block';
+
+    const momentumClass = sectorData.momentum >= 85 ? 'momentum-high' : sectorData.momentum >= 70 ? 'momentum-mid' : 'momentum-low';
+    const trendIcon = sectorData.trend === 'accelerating' ? '🚀' : sectorData.trend === 'steady' ? '→' : '↘️';
+
+    container.innerHTML = `
+      <div class="sector-momentum-display">
+        <div class="momentum-score-container">
+          <div class="momentum-score-ring ${momentumClass}">
+            <span class="momentum-score-value">${sectorData.momentum}</span>
+            <span class="momentum-score-max">/100</span>
+          </div>
+          <div class="momentum-meta">
+            <span class="momentum-trend">${trendIcon} ${(sectorData.trend || 'unknown').charAt(0).toUpperCase() + (sectorData.trend || '').slice(1)}</span>
+            ${sectorData.fundingQ ? `<span class="momentum-funding">${sectorData.fundingQ} this quarter</span>` : ''}
+          </div>
+        </div>
+        ${sectorData.catalysts && sectorData.catalysts.length > 0 ? `
+          <div class="momentum-catalysts">
+            <span class="catalyst-label">Key Catalysts</span>
+            <div class="catalyst-tags">
+              ${sectorData.catalysts.map(c => `<span class="catalyst-tag">${c}</span>`).join('')}
+            </div>
+          </div>
+        ` : ''}
+      </div>
+    `;
+    return true;
+  }
+
+  function renderGovDemandMatch(company) {
+    const card = document.getElementById('gov-demand-card');
+    const container = document.getElementById('gov-demand-content');
+    if (!card || !container) return false;
+
+    if (typeof GOV_DEMAND_TRACKER === 'undefined') return false;
+
+    // Match by relevantCompanies or techAreas
+    const demands = GOV_DEMAND_TRACKER.filter(d => {
+      if (!d) return false;
+      const companyMatch = (d.relevantCompanies || []).some(c => c.toLowerCase() === company.name.toLowerCase());
+      const techMatch = (d.techAreas || []).some(t => {
+        if (!company.sector) return false;
+        const sectorKey = company.sector.toLowerCase();
+        return sectorKey.includes(t.toLowerCase().split(' ')[0]) || t.toLowerCase().includes(sectorKey.split(' ')[0]);
+      });
+      return companyMatch || techMatch;
+    }).slice(0, 5);
+
+    if (demands.length === 0) return false;
+
+    card.style.display = 'block';
+
+    container.innerHTML = `
+      <div class="demand-list">
+        ${demands.map(d => {
+          const priorityClass = (d.priority || '').toLowerCase() === 'critical' ? 'priority-critical' :
+                                (d.priority || '').toLowerCase() === 'high' ? 'priority-high' : 'priority-medium';
+          return `
+            <div class="demand-item">
+              <div class="demand-header">
+                <span class="demand-agency">${d.agency || 'Government'}</span>
+                <span class="demand-priority ${priorityClass}">${d.priority || 'Medium'}</span>
+              </div>
+              <div class="demand-tech">${d.title || d.techAreas?.join(', ') || 'Technology Area'}</div>
+              ${d.value ? `<div class="demand-value">${d.value}</div>` : ''}
+              ${d.deadline ? `<div class="demand-timeline">Deadline: ${d.deadline}</div>` : ''}
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+    return true;
+  }
+
+  // ═══════════════════════════════════════════════════════
   // RELATED COMPANIES
   // ═══════════════════════════════════════════════════════
 
@@ -748,7 +1041,7 @@
       const scoreValue = score?.composite?.toFixed(0) || score?.total || '--';
 
       return `
-        <a href="company.html?name=${encodeURIComponent(c.name)}" class="related-card">
+        <a href="company.html?slug=${profileSlug(c.name)}" class="related-card">
           <div class="related-card-header">
             <span class="related-card-name">${c.name}</span>
             <span class="related-card-score">${scoreValue}</span>
@@ -984,6 +1277,11 @@
   // ═══════════════════════════════════════════════════════
   // UTILITY FUNCTIONS
   // ═══════════════════════════════════════════════════════
+
+  function profileSlug(name) {
+    if (typeof companyToSlug === 'function') return companyToSlug(name);
+    return name.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+  }
 
   function formatDate(dateStr) {
     if (!dateStr) return '';

@@ -1365,3 +1365,412 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* ═══════════════════════════════════════════════════════
+   SECTION E: MARKET & REGULATORY INTELLIGENCE
+   ═══════════════════════════════════════════════════════ */
+
+.market-intel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.market-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.section-timestamp {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-muted);
+  opacity: 0.7;
+  margin-left: auto;
+}
+
+/* Stock Price */
+.stock-summary {
+  text-align: center;
+}
+
+.stock-ticker {
+  font-size: 12px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.stock-price-large {
+  font-size: 42px;
+  font-weight: 800;
+  font-family: 'Space Grotesk', sans-serif;
+  color: var(--text);
+  line-height: 1.1;
+}
+
+.stock-change {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 8px 0 16px 0;
+}
+
+.stock-change.positive {
+  background: #22c55e20;
+  color: #22c55e;
+}
+
+.stock-change.negative {
+  background: #ef444420;
+  color: #ef4444;
+}
+
+.stock-sparkline {
+  width: 100%;
+  height: 50px;
+  margin: 12px 0;
+}
+
+.stock-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+
+.stock-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  background: var(--bg);
+  border-radius: 6px;
+}
+
+.stock-detail-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stock-detail-value {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-top: 2px;
+}
+
+/* SEC Filings */
+.filings-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.filing-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--bg);
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.filing-form {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  min-width: 60px;
+}
+
+.filing-form.form-major {
+  color: #3b82f6;
+}
+
+.filing-form.form-event {
+  color: #f59e0b;
+}
+
+.filing-form.form-insider {
+  color: #8b5cf6;
+}
+
+.filing-company {
+  flex: 1;
+  color: var(--text);
+  font-size: 12px;
+}
+
+.filing-date {
+  font-size: 11px;
+  color: var(--text-muted);
+  min-width: 60px;
+  text-align: right;
+}
+
+.filing-link {
+  font-size: 11px;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.filing-link:hover {
+  text-decoration: underline;
+}
+
+/* Insider Transactions */
+.insider-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.insider-item {
+  padding: 12px;
+  background: var(--bg);
+  border-radius: 8px;
+  border-left: 3px solid var(--border);
+}
+
+.insider-item.insider-buy {
+  border-left-color: #22c55e;
+}
+
+.insider-item.insider-sell {
+  border-left-color: #ef4444;
+}
+
+.insider-name {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.insider-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.insider-type {
+  font-weight: 500;
+}
+
+.insider-date {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* Sector Momentum */
+.sector-momentum-display {
+  text-align: center;
+}
+
+.momentum-score-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+
+.momentum-score-ring {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid var(--border);
+}
+
+.momentum-score-ring.momentum-high {
+  border-color: #22c55e;
+  background: #22c55e10;
+}
+
+.momentum-score-ring.momentum-mid {
+  border-color: #f59e0b;
+  background: #f59e0b10;
+}
+
+.momentum-score-ring.momentum-low {
+  border-color: #6b7280;
+  background: #6b728010;
+}
+
+.momentum-score-value {
+  font-size: 32px;
+  font-weight: 800;
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 1;
+}
+
+.momentum-score-ring.momentum-high .momentum-score-value { color: #22c55e; }
+.momentum-score-ring.momentum-mid .momentum-score-value { color: #f59e0b; }
+.momentum-score-ring.momentum-low .momentum-score-value { color: #6b7280; }
+
+.momentum-score-max {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.momentum-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+}
+
+.momentum-trend {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.momentum-funding {
+  font-size: 13px;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.momentum-catalysts {
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  text-align: left;
+}
+
+.catalyst-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.catalyst-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.catalyst-tag {
+  display: inline-block;
+  padding: 4px 10px;
+  background: rgba(255, 107, 44, 0.1);
+  border: 1px solid rgba(255, 107, 44, 0.2);
+  color: var(--accent);
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Government Demand */
+.demand-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.demand-item {
+  padding: 12px;
+  background: var(--bg);
+  border-radius: 8px;
+}
+
+.demand-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.demand-agency {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.demand-priority {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.demand-priority.priority-critical {
+  background: #dc262620;
+  color: #dc2626;
+}
+
+.demand-priority.priority-high {
+  background: #f59e0b20;
+  color: #f59e0b;
+}
+
+.demand-priority.priority-medium {
+  background: #3b82f620;
+  color: #3b82f6;
+}
+
+.demand-tech {
+  font-size: 13px;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.demand-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.demand-timeline {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* No Data */
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+/* ─── Section E Responsive ─── */
+@media (max-width: 768px) {
+  .market-intel-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stock-details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .momentum-score-container {
+    flex-direction: column;
+  }
+
+  .momentum-meta {
+    text-align: center;
+  }
+}

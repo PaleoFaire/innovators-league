@@ -1,3 +1,24 @@
+// ─── AUTH HELPERS ───
+function isInROS50(companyName) {
+  if (typeof INNOVATOR_50 === 'undefined') return false;
+  return INNOVATOR_50.some(i => i.company === companyName);
+}
+
+// ─── SLUG HELPERS ───
+function companyToSlug(name) {
+  return name.toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function slugToCompanyName(slug) {
+  if (!slug || typeof COMPANIES === 'undefined') return null;
+  const match = COMPANIES.find(c => companyToSlug(c.name) === slug);
+  return match ? match.name : null;
+}
+
 // ─── UTILITY FUNCTIONS ───
 function debounce(func, wait) {
   let timeout;
@@ -787,16 +808,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Navigate to full company profile page
 function openCompanyProfile(companyName) {
-  const encodedName = encodeURIComponent(companyName);
-  window.location.href = `company.html?name=${encodedName}`;
+  window.location.href = `company.html?slug=${companyToSlug(companyName)}`;
 }
 
 // Get company profile URL (for links)
 function getCompanyProfileUrl(companyName) {
-  return `company.html?name=${encodeURIComponent(companyName)}`;
+  return `company.html?slug=${companyToSlug(companyName)}`;
 }
 
 function openCompanyModal(companyName) {
+  // Auth gate: require sign-in for non-ROS-50 companies
+  if (typeof TILAuth !== 'undefined' && !TILAuth.isLoggedIn() && !isInROS50(companyName)) {
+    TILAuth.showAuthModal();
+    return;
+  }
+
   const company = COMPANIES.find(c => c.name === companyName);
   if (!company) return;
 
@@ -1778,6 +1804,32 @@ function switchDiscoveryTab(view) {
 
 function renderCompanyCardHTML(company) {
   const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
+  const isAuthed = typeof TILAuth !== 'undefined' ? TILAuth.isLoggedIn() : true;
+  const isROS50 = isInROS50(company.name);
+
+  // Show locked card for non-ROS-50 companies when not logged in
+  if (!isAuthed && !isROS50) {
+    return `
+      <div class="company-card company-card-locked" data-name="${company.name}" onclick="TILAuth.showAuthModal()">
+        <div class="card-header">
+          <div class="card-sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border-color:${sectorInfo.color}30;">
+            ${sectorInfo.icon} ${company.sector}
+          </div>
+          <span class="card-lock-icon">&#128274;</span>
+        </div>
+        <h3 class="card-title">${company.name}</h3>
+        <p class="card-description card-blurred">Sign in to view full company intelligence, scores, and investment thesis.</p>
+        <div class="card-meta">
+          <span class="card-location">${company.location}</span>
+        </div>
+        <div class="card-footer">
+          ${renderSignalBadge(company.signal)}
+          <span class="card-cta-small">Sign in free &rarr;</span>
+        </div>
+      </div>
+    `;
+  }
+
   const saved = isBookmarked(company.name);
   const score = getInnovatorScore(company.name);
   let scoreDisplay = '';
@@ -4918,8 +4970,178 @@ function initPredictiveScoring() {
 // ═══════════════════════════════════════════════════════
 // PHASE 2: INTERACTIVE NETWORK GRAPH (D3.js)
 // ═══════════════════════════════════════════════════════
+
+// Auto-generate network data from COMPANIES, VC_FIRMS, DEAL_TRACKER
+function generateNetworkData() {
+  const nodes = [];
+  const edges = [];
+  const nodeIds = new Set();
+
+  // Sector color mapping for clustering
+  const sectorColors = {
+    'defense': '#ff6b35', 'space': '#3b82f6', 'ai': '#8b5cf6',
+    'robotics': '#f59e0b', 'nuclear': '#10b981', 'climate': '#06b6d4',
+    'biotech': '#ec4899', 'autonomous': '#f97316', 'quantum': '#6366f1',
+    'chips': '#22c55e', 'manufacturing': '#eab308'
+  };
+
+  // 1. Add company nodes from COMPANIES array (limit to top companies by sector for performance)
+  const companyLimit = 200; // Limit for performance
+  const companiesBySector = {};
+
+  if (typeof COMPANIES !== 'undefined') {
+    COMPANIES.forEach(c => {
+      if (!companiesBySector[c.sector]) companiesBySector[c.sector] = [];
+      companiesBySector[c.sector].push(c);
+    });
+
+    // Take top companies per sector (prioritize by valuation/activity)
+    let addedCount = 0;
+    Object.entries(companiesBySector).forEach(([sector, companies]) => {
+      // Sort by presence in DEAL_TRACKER, then alphabetically
+      companies.sort((a, b) => {
+        const aDeals = typeof DEAL_TRACKER !== 'undefined' ? DEAL_TRACKER.filter(d => d.company === a.name).length : 0;
+        const bDeals = typeof DEAL_TRACKER !== 'undefined' ? DEAL_TRACKER.filter(d => d.company === b.name).length : 0;
+        return bDeals - aDeals || a.name.localeCompare(b.name);
+      });
+
+      const perSector = Math.ceil(companyLimit / Object.keys(companiesBySector).length);
+      companies.slice(0, perSector).forEach(c => {
+        if (addedCount < companyLimit) {
+          const nodeId = `company-${c.name}`;
+          if (!nodeIds.has(nodeId)) {
+            nodes.push({
+              id: nodeId,
+              label: c.name,
+              type: 'company',
+              sector: c.sector,
+              sectorColor: sectorColors[c.sector] || '#666'
+            });
+            nodeIds.add(nodeId);
+            addedCount++;
+          }
+        }
+      });
+    });
+  }
+
+  // 2. Add investor nodes from VC_FIRMS
+  if (typeof VC_FIRMS !== 'undefined') {
+    VC_FIRMS.forEach(vc => {
+      const nodeId = `investor-${vc.shortName}`;
+      if (!nodeIds.has(nodeId)) {
+        nodes.push({
+          id: nodeId,
+          label: vc.shortName,
+          type: 'investor',
+          aum: vc.aum,
+          investmentCount: vc.portfolioCompanies.length
+        });
+        nodeIds.add(nodeId);
+      }
+
+      // Add investment edges from portfolio
+      vc.portfolioCompanies.forEach(companyName => {
+        const companyNodeId = `company-${companyName}`;
+        if (nodeIds.has(companyNodeId)) {
+          edges.push({
+            source: nodeId,
+            target: companyNodeId,
+            type: 'investment',
+            detail: 'Portfolio company'
+          });
+        }
+      });
+    });
+  }
+
+  // 3. Add investment edges from DEAL_TRACKER
+  if (typeof DEAL_TRACKER !== 'undefined') {
+    DEAL_TRACKER.forEach(deal => {
+      const investorId = `investor-${deal.investor}`;
+      const companyId = `company-${deal.company}`;
+
+      // Add investor node if not exists (for investors not in VC_FIRMS)
+      if (!nodeIds.has(investorId)) {
+        nodes.push({
+          id: investorId,
+          label: deal.investor,
+          type: 'investor',
+          investmentCount: DEAL_TRACKER.filter(d => d.investor === deal.investor).length
+        });
+        nodeIds.add(investorId);
+      }
+
+      // Add company node if not exists
+      if (!nodeIds.has(companyId)) {
+        const company = typeof COMPANIES !== 'undefined' ? COMPANIES.find(c => c.name === deal.company) : null;
+        nodes.push({
+          id: companyId,
+          label: deal.company,
+          type: 'company',
+          sector: company?.sector || 'unknown',
+          sectorColor: sectorColors[company?.sector] || '#666'
+        });
+        nodeIds.add(companyId);
+      }
+
+      // Add investment edge (avoid duplicates)
+      const existingEdge = edges.find(e => e.source === investorId && e.target === companyId);
+      if (!existingEdge) {
+        edges.push({
+          source: investorId,
+          target: companyId,
+          type: 'investment',
+          detail: `${deal.round} - ${deal.amount}`
+        });
+      }
+    });
+  }
+
+  // 4. Add co-investment edges between VCs that share portfolio companies
+  if (typeof VC_FIRMS !== 'undefined') {
+    for (let i = 0; i < VC_FIRMS.length; i++) {
+      for (let j = i + 1; j < VC_FIRMS.length; j++) {
+        const shared = VC_FIRMS[i].portfolioCompanies.filter(c =>
+          VC_FIRMS[j].portfolioCompanies.includes(c)
+        );
+        if (shared.length >= 2) { // Only show strong co-investment relationships
+          edges.push({
+            source: `investor-${VC_FIRMS[i].shortName}`,
+            target: `investor-${VC_FIRMS[j].shortName}`,
+            type: 'co-investor',
+            detail: `${shared.length} shared investments`,
+            weight: shared.length
+          });
+        }
+      }
+    }
+  }
+
+  // 5. Add founder/people nodes and connections (from NETWORK_GRAPH if available)
+  if (typeof NETWORK_GRAPH !== 'undefined') {
+    NETWORK_GRAPH.nodes.filter(n => n.type === 'person').forEach(person => {
+      if (!nodeIds.has(person.id)) {
+        nodes.push(person);
+        nodeIds.add(person.id);
+      }
+    });
+
+    // Add founder/mafia edges
+    NETWORK_GRAPH.edges.filter(e => e.type === 'founder' || e.type === 'mafia').forEach(edge => {
+      if (nodeIds.has(edge.source) && nodeIds.has(edge.target)) {
+        edges.push(edge);
+      }
+    });
+  }
+
+  console.log(`Network Graph: ${nodes.length} nodes, ${edges.length} edges (auto-generated)`);
+
+  return { nodes, edges };
+}
+
 function initNetworkGraph() {
-  if (typeof NETWORK_GRAPH === 'undefined' || typeof d3 === 'undefined') return;
+  if (typeof d3 === 'undefined') return;
 
   const container = document.getElementById('network-canvas');
   if (!container) return;
@@ -4942,15 +5164,12 @@ function initNetworkGraph() {
     g.attr('transform', e.transform);
   }));
 
+  // Auto-generate nodes and edges from COMPANIES, VC_FIRMS, DEAL_TRACKER
+  const { nodes, edges } = generateNetworkData();
+
   // Build node/edge maps
   const nodeMap = {};
-  NETWORK_GRAPH.nodes.forEach(n => { nodeMap[n.id] = { ...n }; });
-
-  // Filter edges to only include those with valid nodes
-  let edges = NETWORK_GRAPH.edges.filter(e => nodeMap[e.source] && nodeMap[e.target]);
-  let nodes = NETWORK_GRAPH.nodes.filter(n => {
-    return edges.some(e => e.source === n.id || e.target === n.id);
-  });
+  nodes.forEach(n => { nodeMap[n.id] = { ...n }; });
 
   // Color scheme
   const typeColors = {
@@ -8859,4 +9078,201 @@ function showNotification(message) {
     notification.style.animation = 'slideDown 0.3s ease';
     setTimeout(() => notification.remove(), 300);
   }, 3000);
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// SAVED SEARCHES + ALERT PREFERENCES (Supabase-backed)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+// ─── SAVED SEARCHES ───
+
+async function saveCurrentSearch() {
+  if (typeof TILAuth === 'undefined' || !TILAuth.isLoggedIn()) {
+    if (typeof TILAuth !== 'undefined') TILAuth.showAuthModal();
+    return;
+  }
+
+  const filters = {
+    search: document.getElementById('search-input')?.value || '',
+    sector: document.getElementById('sector-filter')?.value || 'all',
+    country: document.getElementById('country-filter')?.value || 'all',
+    state: document.getElementById('state-filter')?.value || 'all',
+    stage: document.getElementById('stage-filter')?.value || 'all',
+    signal: document.getElementById('signal-filter')?.value || 'all',
+    special: document.getElementById('special-filter')?.value || 'all',
+    sort: document.getElementById('sort-filter')?.value || 'score'
+  };
+
+  // Check if any filter is actually applied
+  const hasFilter = Object.entries(filters).some(([k, v]) => k === 'search' ? v.length > 0 : v !== 'all');
+  if (!hasFilter) {
+    showNotification('Apply some filters first, then save.');
+    return;
+  }
+
+  const name = prompt('Name this search (e.g., "Defense Series B+"):');
+  if (!name || !name.trim()) return;
+
+  const client = TILAuth.getClient();
+  if (!client) { showNotification('Not connected. Try again.'); return; }
+
+  const { error } = await client
+    .from('saved_searches')
+    .insert({
+      user_id: TILAuth.getUser().id,
+      name: name.trim(),
+      filters: filters
+    });
+
+  if (error) {
+    console.error('[SavedSearch] Error:', error);
+    showNotification('Failed to save search. Try again.');
+  } else {
+    showNotification('Search saved!');
+    loadSavedSearches();
+  }
+}
+
+async function loadSavedSearches() {
+  const bar = document.getElementById('saved-searches-bar');
+  const list = document.getElementById('saved-searches-list');
+  if (!bar || !list) return;
+
+  if (typeof TILAuth === 'undefined' || !TILAuth.isLoggedIn()) {
+    bar.style.display = 'none';
+    return;
+  }
+
+  const client = TILAuth.getClient();
+  if (!client) return;
+
+  try {
+    const { data, error } = await client
+      .from('saved_searches')
+      .select('*')
+      .eq('user_id', TILAuth.getUser().id)
+      .order('created_at', { ascending: false });
+
+    if (error || !data || data.length === 0) {
+      bar.style.display = 'none';
+      return;
+    }
+
+    list.innerHTML = data.map(s => {
+      const filtersJson = JSON.stringify(s.filters).replace(/"/g, '&quot;');
+      return `
+        <button class="saved-search-chip" onclick="applySavedSearch(${filtersJson})" title="${s.name}">
+          ${s.name}
+          <span class="saved-search-delete" onclick="event.stopPropagation(); deleteSavedSearch('${s.id}')">&times;</span>
+        </button>
+      `;
+    }).join('');
+
+    bar.style.display = 'flex';
+  } catch (e) {
+    console.error('[SavedSearch] Load error:', e);
+  }
+}
+
+function applySavedSearch(filters) {
+  if (!filters) return;
+  const setVal = (id, val) => { const el = document.getElementById(id); if (el) el.value = val || 'all'; };
+  if (filters.search) {
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) searchInput.value = filters.search;
+  }
+  setVal('sector-filter', filters.sector);
+  setVal('country-filter', filters.country);
+  setVal('state-filter', filters.state);
+  setVal('stage-filter', filters.stage);
+  setVal('signal-filter', filters.signal);
+  setVal('special-filter', filters.special);
+  setVal('sort-filter', filters.sort);
+
+  // Trigger filter application
+  if (typeof applyFilters === 'function') applyFilters();
+  else if (typeof renderCompanyGrid === 'function') renderCompanyGrid();
+  showNotification('Search applied!');
+}
+
+async function deleteSavedSearch(id) {
+  if (typeof TILAuth === 'undefined' || !TILAuth.isLoggedIn()) return;
+  const client = TILAuth.getClient();
+  if (!client) return;
+
+  await client.from('saved_searches').delete().eq('id', id);
+  loadSavedSearches();
+  showNotification('Search deleted.');
+}
+
+// ─── ALERT PREFERENCES ───
+
+async function saveAlertPreferences() {
+  if (typeof TILAuth === 'undefined' || !TILAuth.isLoggedIn()) {
+    if (typeof TILAuth !== 'undefined') TILAuth.showAuthModal();
+    return;
+  }
+
+  const client = TILAuth.getClient();
+  if (!client) return;
+
+  const categories = [...document.querySelectorAll('#alert-prefs-categories input:checked')].map(i => i.value);
+  const prefs = {
+    user_id: TILAuth.getUser().id,
+    categories: categories,
+    priority_threshold: document.getElementById('alert-pref-threshold')?.value || 'all',
+    email_enabled: document.getElementById('alert-pref-email-toggle')?.checked || false,
+    email_frequency: document.getElementById('alert-pref-frequency')?.value || 'daily',
+    updated_at: new Date().toISOString()
+  };
+
+  const { error } = await client
+    .from('alert_preferences')
+    .upsert(prefs, { onConflict: 'user_id' });
+
+  if (error) {
+    console.error('[AlertPrefs] Save error:', error);
+    showNotification('Failed to save preferences.');
+  } else {
+    showNotification('Alert preferences saved!');
+  }
+}
+
+async function loadAlertPreferences() {
+  if (typeof TILAuth === 'undefined' || !TILAuth.isLoggedIn()) return;
+
+  const client = TILAuth.getClient();
+  if (!client) return;
+
+  try {
+    const { data, error } = await client
+      .from('alert_preferences')
+      .select('*')
+      .eq('user_id', TILAuth.getUser().id)
+      .single();
+
+    if (error || !data) return;
+
+    // Apply saved preferences to the UI
+    if (data.categories && data.categories.length > 0) {
+      document.querySelectorAll('#alert-prefs-categories input').forEach(input => {
+        input.checked = data.categories.includes(input.value);
+      });
+    }
+
+    const threshold = document.getElementById('alert-pref-threshold');
+    if (threshold && data.priority_threshold) threshold.value = data.priority_threshold;
+
+    const emailToggle = document.getElementById('alert-pref-email-toggle');
+    if (emailToggle) emailToggle.checked = data.email_enabled || false;
+
+    const frequency = document.getElementById('alert-pref-frequency');
+    if (frequency && data.email_frequency) frequency.value = data.email_frequency;
+
+    // Show preferences panel if user is logged in
+    const prefsPanel = document.getElementById('alert-preferences-panel');
+    if (prefsPanel) prefsPanel.style.display = 'block';
+  } catch (e) {
+    console.error('[AlertPrefs] Load error:', e);
+  }
 }

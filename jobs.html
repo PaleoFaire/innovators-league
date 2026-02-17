@@ -240,7 +240,14 @@
             <a href="visualizations.html" class="nav-link">📈 Insights</a>
             <a href="investors.html" class="nav-link">💰 Investors</a>
             <a href="jobs.html" class="nav-link active">💼 Jobs</a>
-            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            <div class="nav-auth" id="nav-auth">
+                <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            </div>
+            <div class="nav-user" id="nav-user" style="display:none;">
+                <span class="nav-user-email" id="nav-user-email"></span>
+                <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+            </div>
         </div>
         <button class="mobile-menu-btn" aria-label="Menu">
             <span></span><span></span><span></span>
@@ -396,6 +403,8 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="auth.js?v=1"></script>
     <script src="data.js?v=30"></script>
     <script src="data/jobs_auto.js?v=1"></script>
     <script src="jobs.js?v=1"></script>

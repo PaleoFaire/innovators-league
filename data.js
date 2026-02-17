@@ -18461,6 +18461,189 @@ const HISTORICAL_TRACKING = {
       { date: "2024-01", count: 250 },
       { date: "2025-01", count: 350 }
     ]
+  },
+  "Varda Space Industries": {
+    valuations: [
+      { date: "2021-12", value: 0.2, event: "Seed" },
+      { date: "2023-06", value: 0.5, event: "Series A" },
+      { date: "2024-11", value: 1.5, event: "Series B" }
+    ],
+    funding: [
+      { date: "2021-12", cumulative: 0.042, round: "Seed" },
+      { date: "2023-06", cumulative: 0.095, round: "Series A" },
+      { date: "2024-11", cumulative: 0.245, round: "Series B" }
+    ],
+    headcount: [
+      { date: "2022-01", count: 15 },
+      { date: "2023-01", count: 50 },
+      { date: "2024-01", count: 120 },
+      { date: "2025-01", count: 180 }
+    ]
+  },
+  "Relativity Space": {
+    valuations: [
+      { date: "2020-11", value: 2.3, event: "Series D" },
+      { date: "2021-06", value: 4.2, event: "Series E" },
+      { date: "2022-06", value: 4.2, event: "Flat" },
+      { date: "2024-01", value: 5.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2017-01", cumulative: 0.01, round: "Seed" },
+      { date: "2019-10", cumulative: 0.19, round: "Series C" },
+      { date: "2020-11", cumulative: 0.53, round: "Series D" },
+      { date: "2021-06", cumulative: 1.18, round: "Series E" }
+    ],
+    headcount: [
+      { date: "2019-01", count: 100 },
+      { date: "2021-01", count: 500 },
+      { date: "2023-01", count: 1000 },
+      { date: "2024-01", count: 800 },
+      { date: "2025-01", count: 750 }
+    ]
+  },
+  "Vast": {
+    valuations: [
+      { date: "2023-05", value: 1.0, event: "Series A" },
+      { date: "2024-08", value: 2.5, event: "Series B" },
+      { date: "2025-01", value: 4.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2021-01", cumulative: 0.05, round: "Seed" },
+      { date: "2023-05", cumulative: 0.15, round: "Series A" },
+      { date: "2024-08", cumulative: 0.45, round: "Series B" }
+    ],
+    headcount: [
+      { date: "2022-01", count: 40 },
+      { date: "2023-01", count: 150 },
+      { date: "2024-01", count: 350 },
+      { date: "2025-01", count: 500 }
+    ]
+  },
+  "Oklo": {
+    valuations: [
+      { date: "2022-07", value: 0.85, event: "Series A" },
+      { date: "2024-05", value: 0.85, event: "SPAC" },
+      { date: "2024-12", value: 4.0, event: "Public" },
+      { date: "2025-01", value: 6.5, event: "Current" }
+    ],
+    funding: [
+      { date: "2020-01", cumulative: 0.015, round: "Seed" },
+      { date: "2022-07", cumulative: 0.075, round: "Series A" },
+      { date: "2024-05", cumulative: 0.307, round: "SPAC" }
+    ],
+    headcount: [
+      { date: "2020-01", count: 20 },
+      { date: "2022-01", count: 50 },
+      { date: "2024-01", count: 120 },
+      { date: "2025-01", count: 180 }
+    ]
+  },
+  "TerraPower": {
+    valuations: [
+      { date: "2021-08", value: 3.0, event: "DOE Award" },
+      { date: "2023-06", value: 5.0, event: "Growth" },
+      { date: "2024-12", value: 10.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2016-01", cumulative: 0.5, round: "Early Stage" },
+      { date: "2021-08", cumulative: 1.0, round: "DOE Award" },
+      { date: "2024-01", cumulative: 2.1, round: "Growth" }
+    ],
+    headcount: [
+      { date: "2018-01", count: 100 },
+      { date: "2021-01", count: 300 },
+      { date: "2023-01", count: 600 },
+      { date: "2025-01", count: 900 }
+    ]
+  },
+  "X-Energy": {
+    valuations: [
+      { date: "2022-03", value: 1.8, event: "SPAC" },
+      { date: "2024-01", value: 2.5, event: "Public" },
+      { date: "2025-01", value: 4.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2018-01", cumulative: 0.05, round: "Series A" },
+      { date: "2020-01", cumulative: 0.15, round: "Series B" },
+      { date: "2022-03", cumulative: 0.55, round: "SPAC" }
+    ],
+    headcount: [
+      { date: "2019-01", count: 50 },
+      { date: "2021-01", count: 200 },
+      { date: "2023-01", count: 450 },
+      { date: "2025-01", count: 700 }
+    ]
+  },
+  "1X Technologies": {
+    valuations: [
+      { date: "2023-03", value: 0.5, event: "Series A2" },
+      { date: "2024-01", value: 1.0, event: "Series B" },
+      { date: "2025-01", value: 2.5, event: "Current" }
+    ],
+    funding: [
+      { date: "2021-01", cumulative: 0.01, round: "Seed" },
+      { date: "2023-03", cumulative: 0.125, round: "Series A2" },
+      { date: "2024-01", cumulative: 0.225, round: "Series B" }
+    ],
+    headcount: [
+      { date: "2022-01", count: 30 },
+      { date: "2023-01", count: 80 },
+      { date: "2024-01", count: 150 },
+      { date: "2025-01", count: 250 }
+    ]
+  },
+  "Agility Robotics": {
+    valuations: [
+      { date: "2022-04", value: 0.4, event: "Series B" },
+      { date: "2024-04", value: 1.5, event: "Series C" }
+    ],
+    funding: [
+      { date: "2019-01", cumulative: 0.02, round: "Series A" },
+      { date: "2022-04", cumulative: 0.17, round: "Series B" },
+      { date: "2024-04", cumulative: 0.48, round: "Series C" }
+    ],
+    headcount: [
+      { date: "2020-01", count: 40 },
+      { date: "2022-01", count: 120 },
+      { date: "2024-01", count: 300 },
+      { date: "2025-01", count: 450 }
+    ]
+  },
+  "Colossal Biosciences": {
+    valuations: [
+      { date: "2021-09", value: 0.2, event: "Seed" },
+      { date: "2022-09", value: 0.6, event: "Series A" },
+      { date: "2024-06", value: 1.5, event: "Series B" }
+    ],
+    funding: [
+      { date: "2021-09", cumulative: 0.015, round: "Seed" },
+      { date: "2022-09", cumulative: 0.075, round: "Series A" },
+      { date: "2024-06", cumulative: 0.225, round: "Series B" }
+    ],
+    headcount: [
+      { date: "2021-09", count: 10 },
+      { date: "2023-01", count: 50 },
+      { date: "2024-01", count: 100 },
+      { date: "2025-01", count: 150 }
+    ]
+  },
+  "Mammoth Biosciences": {
+    valuations: [
+      { date: "2021-06", value: 1.0, event: "Series C" },
+      { date: "2022-09", value: 2.0, event: "Series D" },
+      { date: "2024-01", value: 3.0, event: "Current" }
+    ],
+    funding: [
+      { date: "2018-01", cumulative: 0.023, round: "Series A" },
+      { date: "2021-06", cumulative: 0.195, round: "Series C" },
+      { date: "2022-09", cumulative: 0.395, round: "Series D" }
+    ],
+    headcount: [
+      { date: "2019-01", count: 20 },
+      { date: "2021-01", count: 80 },
+      { date: "2023-01", count: 180 },
+      { date: "2025-01", count: 280 }
+    ]
   }
 };
 
