@@ -1,28 +1,4 @@
-// Auto-updated SEC filings from EDGAR
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-07
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-08
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-09
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-10
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-11
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-12
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-13
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-14
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-15
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-16
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-16
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-17
+// Auto-updated SEC filings from EDGAR — Last updated: 2026-02-17
 const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-02-04", description: "xslF345X05/wk-form4_1770254739.xml", isIPO: false, ticker: "PLTR" },
   { company: "Palantir Technologies", form: "4", date: "2026-02-04", description: "xslF345X05/wk-form4_1770254378.xml", isIPO: false, ticker: "PLTR" },
@@ -17430,8 +17406,7 @@ const DATA_QUALITY = {
 };
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
-// Auto-generated real-time signals
-// Last updated: 2026-02-17 10:32
+// Auto-generated real-time signals — Last updated: 2026-02-17 10:32
 const COMPANY_SIGNALS = [
   { id: 1, type: "news", company: "Collaborative Robotics", headline: "Australia prepares for next batch of 'Ghost Bat' warplane buddy drones", source: "Defense News", time: "Just now", impact: "low", unread: true },
   { id: 2, type: "milestone", company: "Cohere", headline: "Cohere launches a family of open multilingual models", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },

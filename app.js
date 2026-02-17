@@ -230,36 +230,29 @@ function renderSignalBadge(signal) {
   return `<span class="signal-badge ${s.class}">${s.icon} ${s.label}</span>`;
 }
 
-// ─── INNOVATOR SCORE™ (World-Class Mosaic-Style Scoring) ───
-// Uses the new INNOVATOR_SCORES object with 0-1000 scale
-
-function getInnovatorScore(companyName) {
-  if (typeof INNOVATOR_SCORES === 'undefined') return null;
-  return INNOVATOR_SCORES[companyName] || null;
-}
+// ─── INNOVATOR SCORE™ (Frontier Index — 6-dimension, 0-100 composite) ───
+// Data: INNOVATOR_SCORES array with fields: company, techMoat, momentum,
+//   teamPedigree, marketGravity, capitalEfficiency, govTraction, composite, tier, note
 
 function getInnovatorScoreLabel(score) {
   if (!score) return { label: 'Unrated', class: 'unrated' };
-  const total = score.total || 0;
-  if (total >= 900) return { label: 'Elite', class: 'elite', icon: '👑' };
-  if (total >= 800) return { label: 'Exceptional', class: 'exceptional', icon: '🔥' };
-  if (total >= 700) return { label: 'Strong', class: 'strong', icon: '⚡' };
-  if (total >= 600) return { label: 'Promising', class: 'promising', icon: '📈' };
-  if (total >= 500) return { label: 'Developing', class: 'developing', icon: '🌱' };
-  return { label: 'Nascent', class: 'nascent', icon: '🔬' };
+  const c = score.composite || 0;
+  if (c >= 90) return { label: 'Elite', class: 'elite', icon: '👑' };
+  if (c >= 75) return { label: 'Strong', class: 'strong', icon: '🔥' };
+  if (c >= 60) return { label: 'Promising', class: 'promising', icon: '⚡' };
+  if (c >= 45) return { label: 'Developing', class: 'developing', icon: '📈' };
+  return { label: 'Early', class: 'early', icon: '🔬' };
 }
 
 function renderInnovatorScoreBadge(companyName) {
   const score = getInnovatorScore(companyName);
   if (!score) {
-    // Fallback to old scoring system
     return renderLegacyScoreBadge(companyName);
   }
   const { label, class: cls, icon } = getInnovatorScoreLabel(score);
-  const trendIcon = score.trend === 'accelerating' ? '↑' : score.trend === 'decelerating' ? '↓' : '→';
   return `
-    <span class="innovator-score-badge ${cls}" title="${label}: ${score.total}/1000 | Momentum: ${score.momentum} | Market: ${score.market} | Tech: ${score.technology} | Team: ${score.team}">
-      ${icon} ${score.total} <span class="score-trend ${score.trend}">${trendIcon}</span>
+    <span class="innovator-score-badge ${cls}" title="${label}: ${score.composite.toFixed(0)}/100 | Tech Moat: ${score.techMoat}/10 | Momentum: ${score.momentum}/10 | Team: ${score.teamPedigree}/10 | Market: ${score.marketGravity}/10">
+      ${icon} ${score.composite.toFixed(0)} <span class="score-trend">${score.tier}</span>
     </span>
   `;
 }
@@ -269,40 +262,36 @@ function renderInnovatorScoreDetail(companyName) {
   if (!score) return '';
 
   const { label, class: cls } = getInnovatorScoreLabel(score);
-  const change = score.total - (score.priorScore || score.total);
-  const changeIcon = change > 0 ? '↑' : change < 0 ? '↓' : '→';
-  const changeClass = change > 0 ? 'positive' : change < 0 ? 'negative' : 'neutral';
 
   return `
     <div class="innovator-score-detail">
       <div class="score-header">
-        <span class="score-total ${cls}">${score.total}</span>
+        <span class="score-total ${cls}">${score.composite.toFixed(0)}</span>
         <span class="score-label">${label}</span>
-        <span class="score-change ${changeClass}">${changeIcon} ${Math.abs(change)} (30d)</span>
       </div>
       <div class="score-dimensions">
+        <div class="score-dim" title="Technical moat and defensibility">
+          <span class="dim-label">Tech Moat</span>
+          <div class="dim-bar"><div class="dim-fill momentum" style="width: ${score.techMoat * 10}%"></div></div>
+          <span class="dim-value">${score.techMoat}/10</span>
+        </div>
         <div class="score-dim" title="Growth trajectory and market activity">
           <span class="dim-label">Momentum</span>
-          <div class="dim-bar"><div class="dim-fill momentum" style="width: ${score.momentum}%"></div></div>
-          <span class="dim-value">${score.momentum}</span>
-        </div>
-        <div class="score-dim" title="Market opportunity and positioning">
-          <span class="dim-label">Market</span>
-          <div class="dim-bar"><div class="dim-fill market" style="width: ${score.market}%"></div></div>
-          <span class="dim-value">${score.market}</span>
-        </div>
-        <div class="score-dim" title="Technical moat and product maturity">
-          <span class="dim-label">Technology</span>
-          <div class="dim-bar"><div class="dim-fill technology" style="width: ${score.technology}%"></div></div>
-          <span class="dim-value">${score.technology}</span>
+          <div class="dim-bar"><div class="dim-fill market" style="width: ${score.momentum * 10}%"></div></div>
+          <span class="dim-value">${score.momentum}/10</span>
         </div>
         <div class="score-dim" title="Leadership quality and execution">
           <span class="dim-label">Team</span>
-          <div class="dim-bar"><div class="dim-fill team" style="width: ${score.team}%"></div></div>
-          <span class="dim-value">${score.team}</span>
+          <div class="dim-bar"><div class="dim-fill team" style="width: ${score.teamPedigree * 10}%"></div></div>
+          <span class="dim-value">${score.teamPedigree}/10</span>
+        </div>
+        <div class="score-dim" title="Market opportunity and positioning">
+          <span class="dim-label">Market</span>
+          <div class="dim-bar"><div class="dim-fill technology" style="width: ${score.marketGravity * 10}%"></div></div>
+          <span class="dim-value">${score.marketGravity}/10</span>
         </div>
       </div>
-      ${score.breakdown ? `<div class="score-breakdown">${score.breakdown}</div>` : ''}
+      ${score.note ? `<div class="score-breakdown">${score.note}</div>` : ''}
     </div>
   `;
 }
@@ -1759,8 +1748,8 @@ function renderDiscoveryGrid() {
   const sortVal = document.getElementById('discovery-sort')?.value || 'score';
   if (sortVal === 'score') {
     filtered.sort((a, b) => {
-      const scoreA = getInnovatorScore(a.name)?.total || getAverageScore(a.scores) * 100 || 0;
-      const scoreB = getInnovatorScore(b.name)?.total || getAverageScore(b.scores) * 100 || 0;
+      const scoreA = getInnovatorScore(a.name)?.composite || getAverageScore(a.scores) * 100 || 0;
+      const scoreB = getInnovatorScore(b.name)?.composite || getAverageScore(b.scores) * 100 || 0;
       return scoreB - scoreA;
     });
   } else if (sortVal === 'name') {
@@ -1821,8 +1810,8 @@ function renderCompanyCardHTML(company) {
   const saved = isBookmarked(company.name);
   const score = getInnovatorScore(company.name);
   let scoreDisplay = '';
-  if (score && score.total) {
-    scoreDisplay = `<span class="card-score elite">${score.total}</span>`;
+  if (score && score.composite) {
+    scoreDisplay = `<span class="card-score elite">${score.composite.toFixed(0)}</span>`;
   } else if (company.scores) {
     const badge = renderScoreBadge(company.scores);
     if (badge) scoreDisplay = badge;

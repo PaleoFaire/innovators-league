@@ -164,9 +164,12 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
         <div class="nav-logo">ROS</div>
         <span class="nav-title">THE INNOVATORS LEAGUE</span>
     </div>
+    <button class="mobile-menu-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+    </button>
     <div class="nav-links">
         <a href="index.html#discovery-hub" class="nav-link">🗺️ Map</a>
-        <a href="index.html#discovery-hub" class="nav-link">📊 Database</a>
+        <a href="index.html#companies" class="nav-link">📊 Database</a>
         <a href="index.html#innovator50" class="nav-link">🏆 ROS 50</a>
         <a href="visualizations.html" class="nav-link active">📈 Insights</a>
         <a href="investors.html" class="nav-link">💰 Investors</a>
@@ -297,6 +300,18 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
 <script src="auth.js?v=20260217"></script>
 <script src="data.js?v=20260217"></script>
 <script>
+// ─── MOBILE MENU ───
+(function() {
+  const btn = document.querySelector('.mobile-menu-btn');
+  const links = document.querySelector('.nav-links');
+  if (btn && links) {
+    btn.addEventListener('click', () => {
+      links.classList.toggle('open');
+      btn.classList.toggle('open');
+    });
+  }
+})();
+
 // ─── COUNTRY HELPER (matches app.js logic) ───
 const INTL_CODES_VIZ = {
   'UK':'United Kingdom','GB':'United Kingdom','FR':'France','SE':'Sweden','FI':'Finland',
