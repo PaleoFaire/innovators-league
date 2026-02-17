@@ -17431,25 +17431,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-17 05:14
-// Auto-generated real-time signals
-// Last updated: 2026-02-17
+// Last updated: 2026-02-17 10:32
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "The Boring Company", headline: "The Small English Town Swept Up in the Global AI Arms Race", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Durin", headline: "XPENG Demonstrates Real-World AI Driving To Global Delegates At UN Vehicle Regulation Harmonization Forum In China", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Terraform Industries", headline: "The Evolution of the US Floating Solar Industry", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "DIRAC", headline: "More Economic Multipliers on Investment for GDP Impact", source: "Next Big Future", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Flexport", headline: "It Isn’t That Simple: Why &#8220;Free Trade&#8221; Needs A New Playbook", source: "CleanTechnica", time: "11h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Andrenam", headline: "The End Game Economics of Maritime Fuels", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Focused Energy", headline: "The Highlander BEV: Toyota&#8217;s Missing Debut at the 2026 Chicago Auto Show", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Waymo", headline: "Waymo Losses About $5 Billion", source: "Next Big Future", time: "12h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Endurosat", headline: "Have money, will travel: a16z&#8217;s hunt for the next European unicorn", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Andrenam", headline: "Saudi Arabia buys C-27 cargo planes fitted for armed maritime patrols", source: "Defense News", time: "14h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Terraform Industries", headline: "A fluid can store solar energy and then release it as heat months later", source: "Ars Technica Space", time: "14h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Vannevar Labs", headline: "How Ricursive Intelligence raised $335M at a $4B valuation in 4 months", source: "TechCrunch", time: "15h ago", impact: "high", unread: false },
-  { id: 13, type: "hire", company: "Rivian", headline: "Jay Leno Drives A Slate Pickup Truck (Video)", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Karman Industries", headline: "Heat Pump Water Heaters Can Save Over $500/Year On Utility Bills", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Vast", headline: "NASA work on several programs pending responses to White House executive order", source: "SpaceNews", time: "15h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Collaborative Robotics", headline: "Australia prepares for next batch of 'Ghost Bat' warplane buddy drones", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Cohere", headline: "Cohere launches a family of open multilingual models", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Capella Space", headline: "Leonardo funding development of Earth observation constellation", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Vannevar Labs", headline: "Recalibrating U.S. Intelligence Strategy for an Uncertain Global Order", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Airship Industries", headline: "Panama's Hidden Chokepoint: Tocumen and the Convergence of Mobility Power", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "The Boring Company", headline: "The Small English Town Swept Up in the Global AI Arms Race", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Durin", headline: "XPENG Demonstrates Real-World AI Driving To Global Delegates At UN Vehicle Regulation Harmonization Forum In China", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Terraform Industries", headline: "The Evolution of the US Floating Solar Industry", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "DIRAC", headline: "More Economic Multipliers on Investment for GDP Impact", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Flexport", headline: "It Isn't That Simple: Why &#8220;Free Trade&#8221; Needs A New Playbook", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Andrenam", headline: "The End Game Economics of Maritime Fuels", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Focused Energy", headline: "The Highlander BEV: Toyota's Missing Debut at the 2026 Chicago Auto Show", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Waymo", headline: "Waymo Losses About $5 Billion", source: "Next Big Future", time: "14h ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Endurosat", headline: "Have money, will travel: a16z's hunt for the next European unicorn", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Andrenam", headline: "Saudi Arabia buys C-27 cargo planes fitted for armed maritime patrols", source: "Defense News", time: "16h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
