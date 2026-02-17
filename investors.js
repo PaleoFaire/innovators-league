@@ -19,18 +19,22 @@ function parseAUM(aum) {
 
 document.addEventListener('DOMContentLoaded', () => {
   function initInvestorsPage() {
+    function safeInit(fn, name) {
+      try { fn(); } catch (e) { console.error('[Investors] ' + (name || fn.name) + ' failed:', e); }
+    }
+
     // Always render all content first
-    initVCStats();
-    initVCFilters();
-    renderVCCards(VC_FIRMS);
-    renderActiveDeployers();
-    renderCoInvestGraph();
-    renderOverlapMatrix();
-    renderFollowOnPatterns();
-    renderSectorCapital();
-    initVCModal();
-    initVCMobileMenu();
-    initVCSearch();
+    safeInit(initVCStats);
+    safeInit(initVCFilters);
+    safeInit(() => renderVCCards(VC_FIRMS), 'renderVCCards');
+    safeInit(renderActiveDeployers);
+    safeInit(renderCoInvestGraph);
+    safeInit(renderOverlapMatrix);
+    safeInit(renderFollowOnPatterns);
+    safeInit(renderSectorCapital);
+    safeInit(initVCModal);
+    safeInit(initVCMobileMenu);
+    safeInit(initVCSearch);
 
     // Then apply visual gate if not logged in
     if (typeof TILAuth !== 'undefined' && !TILAuth.isLoggedIn()) {

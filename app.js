@@ -1193,70 +1193,58 @@ document.addEventListener('DOMContentLoaded', () => {
     // Stats init failed silently - non-critical
   }
 
-  // Initialize the new Discovery Hub (map + database tabs)
-  initDiscoveryHub();
+  // Safe init helper — prevents one broken section from taking down the page
+  function safeInit(fn, name) {
+    try { fn(); } catch (e) { console.error('[TIL] ' + (name || fn.name) + ' failed:', e); }
+  }
 
-  initMap();
-  initFilters();
-  initAIQuery();
-  renderCompanies(COMPANIES);
-  renderSectors();
-  initSearch();
-  initScrollAnimations();
-  initMobileMenu();
-  initModal();
-  initCompare();
-  initKeyboard();
-  // initFeatured(); // Removed - Featured Innovators section removed
-  initMovementTracker();
-  initWeeklyDigest();
-  initAnomalyAlerts();
-  // initLeaderboard(); // Removed - Rankings section removed
-  // initEfficiencyLeaderboard(); // Removed - Rankings section removed
-  initTRLDashboard();
-  initDealTracker();
-  initCapitalFlowsTabs(); // Re-enabled for Deal Flow + Revenue Tracker tabs
-  initGrowthSignals();
-  initMarketMap();
-  initMafiaExplorer();
-  initRevenueTable();
-  initRequestForStartups();
-  initNewsTicker();
-  initInnovator50();
-  // initMarketPulse(); // Removed - Market Pulse section removed
-  // initFundingTracker(); // Removed - Using Deal Flow only
-  initSectorMomentum();
-  initIPOPipeline();
-  initInnovatorScores();
-  initGovContracts();
-  initPatentIntel();
-  initAltData();
-  initAlertsCenter();
-  initIntelligenceHub();
-  initPredictiveScoring();
-  initNetworkGraph();
-  initPortfolioBuilder();
-  // initAIMemo(); // Removed - Editorial Analysis section removed
-  initIntelFeed();
-  // initSectorReports(); // Removed - Exportable Reports section removed
-  // initCommunityIntel(); // Removed - Community section removed
-  initHistoricalTracking();
-  initURLState();
-  initSmoothScroll();
-  updateResultsCount(COMPANIES.length);
+  // Initialize all sections with error isolation
+  safeInit(initDiscoveryHub);
+  safeInit(initMap);
+  safeInit(initFilters);
+  safeInit(initAIQuery);
+  safeInit(() => renderCompanies(COMPANIES), 'renderCompanies');
+  safeInit(renderSectors);
+  safeInit(initSearch);
+  safeInit(initScrollAnimations);
+  safeInit(initMobileMenu);
+  safeInit(initModal);
+  safeInit(initCompare);
+  safeInit(initKeyboard);
+  safeInit(initMovementTracker);
+  safeInit(initWeeklyDigest);
+  safeInit(initAnomalyAlerts);
+  safeInit(initTRLDashboard);
+  safeInit(initDealTracker);
+  safeInit(initCapitalFlowsTabs);
+  safeInit(initGrowthSignals);
+  safeInit(initMarketMap);
+  safeInit(initMafiaExplorer);
+  safeInit(initRevenueTable);
+  safeInit(initRequestForStartups);
+  safeInit(initNewsTicker);
+  safeInit(initInnovator50);
+  safeInit(initSectorMomentum);
+  safeInit(initIPOPipeline);
+  safeInit(initInnovatorScores);
+  safeInit(initGovContracts);
+  safeInit(initPatentIntel);
+  safeInit(initAltData);
+  safeInit(initAlertsCenter);
+  safeInit(initIntelligenceHub);
+  safeInit(initPredictiveScoring);
+  safeInit(initNetworkGraph);
+  safeInit(initPortfolioBuilder);
+  safeInit(initIntelFeed);
+  safeInit(initHistoricalTracking);
+  safeInit(initURLState);
+  safeInit(initSmoothScroll);
+  safeInit(() => updateResultsCount(COMPANIES.length), 'updateResultsCount');
+  safeInit(initPremiumFeatures);
+  safeInit(initSectionTimestamps);
 
-  // Initialize world-class premium features
-  initPremiumFeatures();
-
-  // PILLAR 1: Add section timestamps for data freshness visibility
-  initSectionTimestamps();
-
-  // initFromTheSource(); // Removed - From the Source section removed
-
-  // Hide loading skeletons after all content is loaded
+  // Always hide loading skeletons and update freshness, even if some inits failed
   hideLoadingSkeletons();
-
-  // Update data freshness indicator
   updateDataFreshness();
 });
 
