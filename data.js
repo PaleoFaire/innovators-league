@@ -10086,14 +10086,14 @@ const SECTOR_MOMENTUM = [
 
 // ─── BREAKING NEWS TICKER ───
 const NEWS_TICKER = [
-  { text: "The Week’s 10 Biggest Funding Rounds: Anthropic Leads In A Big Week For Giant Rounds", time: "1d ago", priority: "high" },
-  { text: "SpaceX IPO may suck oxygen from market before unleashing broad capital surge", time: "3d ago", priority: "high" },
-  { text: "China’s iSpace launch firm raises record $729 million for reusable rockets", time: "1d ago", priority: "high" },
-  { text: "Exclusive: Winn.ai Raises $18M Series A For AI-Powered Real-Time Sales Assistant", time: "3d ago", priority: "high" },
-  { text: "Launch companies debate how to compete against SpaceX", time: "2d ago", priority: "high" },
-  { text: "Anthropic Raises $30B At $380B Valuation In Second-Largest Venture Funding Deal Of All Time", time: "2d ago", priority: "high" },
-  { text: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", time: "3d ago", priority: "high" },
-  { text: "Axiom Space raises additional $350 million", time: "2d ago", priority: "medium" }
+  { text: "The Week’s 10 Biggest Funding Rounds: Anthropic Leads In A Big Week For Giant Rounds", time: "3d ago", priority: "high" },
+  { text: "China’s iSpace launch firm raises record $729 million for reusable rockets", time: "3d ago", priority: "high" },
+  { text: "Exclusive: Winn.ai Raises $18M Series A For AI-Powered Real-Time Sales Assistant", time: "5d ago", priority: "high" },
+  { text: "Launch companies debate how to compete against SpaceX", time: "4d ago", priority: "high" },
+  { text: "Anthropic Raises $30B At $380B Valuation In Second-Largest Venture Funding Deal Of All Time", time: "4d ago", priority: "high" },
+  { text: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", time: "5d ago", priority: "high" },
+  { text: "How Ricursive Intelligence raised $335M at a $4B valuation in 4 months", time: "16h ago", priority: "medium" },
+  { text: "Axiom Space raises additional $350 million", time: "4d ago", priority: "medium" }
 ];
 
 // ─── WEEKLY INTELLIGENCE DIGEST ───
