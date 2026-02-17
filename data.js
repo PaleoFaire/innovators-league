@@ -17639,23 +17639,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-16 21:00
+// Last updated: 2026-02-17 05:14
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Endurosat", headline: "Have money, will travel: a16z's hunt for the next European unicorn", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Andrenam", headline: "Saudi Arabia buys C-27 cargo planes fitted for armed maritime patrols", source: "Defense News", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Terraform Industries", headline: "A fluid can store solar energy and then release it as heat months later", source: "Ars Technica Space", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Vannevar Labs", headline: "How Ricursive Intelligence raised $335M at a $4B valuation in 4 months", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "Vast", headline: "NASA work on several programs pending responses to White House executive order", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Flexport", headline: "Flapping Airplanes on the future of AI: 'We want to try really radically different things'", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Standard Nuclear", headline: "The space nuclear power bottleneck ' and how to fix it", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Kyutai", headline: "After all the hype, some AI experts don't think OpenClaw is all that exciting", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Together AI", headline: "Inside the App Where Queer Gooners Run Free", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "All the important news from the ongoing India AI Impact Summit", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Xcimer Energy", headline: "Makers Are Building Back Against ICE", source: "Wired", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Scale AI", headline: "As AI data centers hit power limits, Peak XV backs Indian startup C2i to fix the bottleneck", source: "TechCrunch", time: "20h ago", impact: "medium", unread: false },
-  { id: 13, type: "news", company: "The Boring Company", headline: "Blackstone backs Neysa in up to $1.2B financing as India pushes to build domestic AI infrastructure", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Osmo", headline: "Isaacman planning to meet with head of Roscosmos", source: "SpaceNews", time: "20h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "OpenClaw creator Peter Steinberger joins OpenAI", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Durin", headline: "XPENG Demonstrates Real-World AI Driving To Global Delegates At UN Vehicle Regulation Harmonization Forum In China", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Terraform Industries", headline: "The Evolution of the US Floating Solar Industry", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "DIRAC", headline: "More Economic Multipliers on Investment for GDP Impact", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Flexport", headline: "It Isn't That Simple: Why &#8220;Free Trade&#8221; Needs A New Playbook", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Andrenam", headline: "The End Game Economics of Maritime Fuels", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Focused Energy", headline: "The Highlander BEV: Toyota's Missing Debut at the 2026 Chicago Auto Show", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Waymo", headline: "Waymo Losses About $5 Billion", source: "Next Big Future", time: "9h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "Endurosat", headline: "Have money, will travel: a16z's hunt for the next European unicorn", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Andrenam", headline: "Saudi Arabia buys C-27 cargo planes fitted for armed maritime patrols", source: "Defense News", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Terraform Industries", headline: "A fluid can store solar energy and then release it as heat months later", source: "Ars Technica Space", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Vannevar Labs", headline: "How Ricursive Intelligence raised $335M at a $4B valuation in 4 months", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
+  { id: 12, type: "hire", company: "Rivian", headline: "Jay Leno Drives A Slate Pickup Truck (Video)", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Karman Industries", headline: "Heat Pump Water Heaters Can Save Over $500/Year On Utility Bills", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Vast", headline: "NASA work on several programs pending responses to White House executive order", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Neros", headline: "The Full Spectrum of Victory", source: "War on the Rocks", time: "13h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
