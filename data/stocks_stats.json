@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -3.3,
+      "avg_change": -8.26,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 4,
-      "avg_change": -9.14,
+      "gainers": 0,
+      "losers": 5,
+      "avg_change": -14.91,
       "count": 5
     },
     "autonomous": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -6.57,
+      "avg_change": -8.96,
       "count": 2
     },
     "nuclear": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -7.61,
+      "avg_change": -13.7,
       "count": 1
     },
     "climate": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -8.74,
+      "avg_change": -18.43,
       "count": 1
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.58,
+      "avg_change": -8.1,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -8.85,
+      "avg_change": -10.45,
       "count": 2
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 10.67,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": 8.32,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.61,
+      "avg_change": -14.24,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "RIVN",
       "Rivian",
-      19.8
+      17.97
     ],
     [
       "TSLA",
       "Tesla",
-      1.54
-    ],
-    [
-      "PL",
-      "Planet Labs",
-      0.72
-    ],
-    [
-      "AMD",
-      "AMD",
-      -0.54
+      -1.33
     ],
     [
       "NVDA",
       "NVIDIA",
-      -1.42
+      -4.0
+    ],
+    [
+      "AMD",
+      "AMD",
+      -5.29
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      -5.31
     ]
   ],
   "topLosers": [
     [
-      "RGTI",
-      "Rigetti Computing",
-      -9.15
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -12.31
-    ],
-    [
       "SATL",
       "Satellogic",
-      -12.78
+      -14.99
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      -17.38
+    ],
+    [
+      "QS",
+      "QuantumScape",
+      -18.43
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -18.94
+      -21.46
     ],
     [
       "ALAB",
       "Astera Labs",
-      -23.86
+      -33.44
     ]
   ],
-  "lastUpdated": "2026-02-17 08:04:38"
+  "lastUpdated": "2026-02-17 14:37:43"
 }
