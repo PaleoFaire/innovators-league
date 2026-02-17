@@ -17660,7 +17660,7 @@ const DEAL_FLOW_SIGNALS = [
       { type: "technical", description: "Chimera engine test success", weight: 30 },
       { type: "investor", description: "Sam Altman follow-on rumored", weight: 20 }
     ],
-    potentialLeads: ["Khosla Ventures", "a]6z", "Sam Altman"]
+    potentialLeads: ["Khosla Ventures", "a16z", "Sam Altman"]
   },
   {
     company: "Saronic",
@@ -17674,7 +17674,7 @@ const DEAL_FLOW_SIGNALS = [
       { type: "partnership", description: "L3Harris collaboration", weight: 25 },
       { type: "runway", description: "~12 months runway", weight: 20 }
     ],
-    potentialLeads: ["a]6z", "Founders Fund", "8VC"]
+    potentialLeads: ["a16z", "Founders Fund", "8VC"]
   },
   {
     company: "Valar Atomics",
@@ -17686,9 +17686,9 @@ const DEAL_FLOW_SIGNALS = [
       { type: "regulatory", description: "NRC pre-application meeting completed", weight: 25 },
       { type: "partnership", description: "Manufacturing partner announced", weight: 30 },
       { type: "hiring", description: "Nuclear ops team scaling", weight: 20 },
-      { type: "investor", description: "a]6z deep dive completed", weight: 25 }
+      { type: "investor", description: "a16z deep dive completed", weight: 25 }
     ],
-    potentialLeads: ["a]6z", "Lux Capital", "Breakthrough Energy"]
+    potentialLeads: ["a16z", "Lux Capital", "Breakthrough Energy"]
   },
   {
     company: "Bedrock Robotics",
@@ -17702,7 +17702,7 @@ const DEAL_FLOW_SIGNALS = [
       { type: "hiring", description: "Field ops scaling", weight: 20 },
       { type: "milestone", description: "1000th excavator deployed", weight: 25 }
     ],
-    potentialLeads: ["Tiger Global", "Coatue", "a]6z"]
+    potentialLeads: ["Tiger Global", "Coatue", "a16z"]
   }
 ];
 
