@@ -17407,23 +17407,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-17 14:37
+// Last updated: 2026-02-17 18:37
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "The Boring Company", headline: "India bids to attract over $200B in AI infrastructure investment by 2028", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "Andromeda Surgical", headline: "SpendRule raises $2M, emerges from stealth to help hospitals track spending", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Cape", headline: "Inside the Homeland Security Forum Where ICE Agents Talk Shit About Other Agents", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Attio", headline: "Tesla's Change in Market Share in 13 European Countries", source: "CleanTechnica", time: "Just now", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Scale AI", headline: "Adani pledges $100B to build AI data centers as India seeks bigger role in the global AI race", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 6, type: "ipo", company: "Array Labs", headline: "Sateliot to launch satellites with PLD Space", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "As AI jitters rattle IT stocks, Infosys partners with Anthropic to build 'enterprise-grade' AI agents", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "Auterion", headline: "The Simplest Android App for Scanning Documents", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Agility Robotics", headline: "AI Digital Twins Are Helping People Manage Diabetes and Obesity", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Collaborative Robotics", headline: "Australia prepares for next batch of 'Ghost Bat' warplane buddy drones", source: "Defense News", time: "4h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Cohere", headline: "Cohere launches a family of open multilingual models", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Capella Space", headline: "Leonardo funding development of Earth observation constellation", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Vannevar Labs", headline: "Recalibrating U.S. Intelligence Strategy for an Uncertain Global Order", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Airship Industries", headline: "Panama's Hidden Chokepoint: Tocumen and the Convergence of Mobility Power", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "The Boring Company", headline: "The Small English Town Swept Up in the Global AI Arms Race", source: "Wired", time: "7h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Durin", headline: "Venezuela operation relied on little-known cyber center, official says", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Terraform Industries", headline: "New Jersey Promotes Solar To Lower Utility Bills", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Vannevar Labs", headline: "XAI Launches Grok 4.20 , 4 AI Agents Collaborating. Estimated ELO 1505-1535", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic releases Sonnet 4.6", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Cover", headline: "China's Space Epoch raises new funding, targets 2026 launch and recovery attempt", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 6, type: "news", company: "The Boring Company", headline: "Mistral AI buys Koyeb in first acquisition to back its cloud ambitions", source: "TechCrunch", time: "1h ago", impact: "high", unread: false },
+  { id: 7, type: "funding", company: "SpaceX", headline: "SpaceX vets raise $50M Series A for data center links", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "The Boring Company", headline: "Running AI models is turning into a memory game", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Vayu Robotics", headline: "Will The MiBot Work In Amsterdam? Here's A Biased Comparison", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "Flexport", headline: "Electric Trucking: Why Ecosystem Readiness Matters In South Africa", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Palantir", headline: "European Parliament blocks AI on lawmakers' devices, citing security risks", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Durin", headline: "VinFast: From California Dreaming To Midwest Reality", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Vannevar Labs", headline: "SatVu to expand thermal imaging constellation with NATO-backed funds", source: "SpaceNews", time: "2h ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "Ample", headline: "Electricity Prices Decreased In South Australia Because Of Clean Renewables", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "PLD Space", headline: "Global leaders meet at Space-Comm Expo in London to accelerate future of European space industry", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
