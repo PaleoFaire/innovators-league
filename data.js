@@ -17409,23 +17409,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-18 10:28
+// Last updated: 2026-02-18 14:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Palantir", headline: "China Now Finds Itself in al-Qaeda's Crosshairs", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "U.S. court bars OpenAI from using 'Cameo'", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Lumina Vehicles", headline: "Ford Hypes &#8220;Bounty&#8221; Culture and UEV Platform", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Cuby Technologies", headline: "Environmental Groups Sue DOE Over Approval of CP2 LNG Export Application", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Waymo", headline: "Waymo's Remote Operations Strategy Highlights Why the Philippines is a Critical Hub", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Array Labs", headline: "DOD eyes commercial satellites that can spy on other satellites", source: "Defense News", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Alpha School", headline: "To Chinese Clean Tech Companies: ''''", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Vannevar Labs", headline: "No, Claude Is Not Conscious", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Palantir", headline: "Intellexa's Predator spyware used to hack iPhone of journalist in Angola, research says", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Claros", headline: "Ford turns to F1 and bounties to build a $30,000 electric truck", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Lightmatter", headline: "Simera Sense to offer larger cameras and enhanced autonomy", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "Waymo Looking to Buy 50,000 Hyundai Ioniq 5 Robotaxis for $2.5 Billion", source: "CleanTechnica", time: "11h ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Andrenam", headline: "Trump admin pushes Maritime Prosperity Zones in new action proposal", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Longshot Space", headline: "LongShot program eyes new target for early flight tests", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Turbopuffer", headline: "Meta's own research found parental supervision doesn't really help curb teens' compulsive social media", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Alpha School", headline: "OpenAI pushes into higher education as India seeks to scale AI skills", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Dunia", headline: "World Labs lands $200M from Autodesk to bring world models into 3D workflows", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 3, type: "milestone", company: "The Boring Company", headline: "Why GPS III, and what comes after it, still falls short in modern war", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Figure AI", headline: "Volkswagen Launches The All-New Caravelle PHEV In South Africa", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Agility Robotics", headline: "Digital Savings Startup Vestwell Lands $385M, Doubles Valuation", source: "Crunchbase News", time: "1h ago", impact: "medium", unread: true },
+  { id: 6, type: "funding", company: "Scale AI", headline: "Heron Power raises $140M to ramp production of grid-altering tech", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
+  { id: 7, type: "ipo", company: "Vannevar Labs", headline: "Vantor partners with Google AI to automate intelligence reports for government agencies", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Auterion", headline: "Indian AI lab Sarvam's new models are a major bet on the viability of open-source AI", source: "TechCrunch", time: "1h ago", impact: "high", unread: false },
+  { id: 9, type: "funding", company: "Astera Labs", headline: "DG Matrix raises $60M to make data center power smarter", source: "TechCrunch", time: "2h ago", impact: "medium", unread: false },
+  { id: 10, type: "funding", company: "SpaceX", headline: "SpaceX unveils space traffic management system", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Figure AI", headline: "Why Olympic Choreographer Beno't Richaud Went Viral Just for Changing Jackets", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Osmo", headline: "UK caps launch liability in timely boost for nascent domestic market", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Cover", headline: "Landspace targets Q2 for next Zhuque-3 orbital launch and recovery attempt", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "Deterrence", headline: "Apache helicopters downed drones in air-to-air combat with 30mm proximity ammo", source: "Defense News", time: "3h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Turbopuffer", headline: "Are Mushroom Supplements Worth Taking? (2026)", source: "Wired", time: "3h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
