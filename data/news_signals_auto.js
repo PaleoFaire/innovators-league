@@ -1,224 +1,224 @@
 // Auto-generated news signals
-// Last updated: 2026-02-18T18:08:08.688Z
+// Last updated: 2026-02-18T21:51:41.456Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1771438088688,
-    "type": "news",
-    "company": "Dunia",
-    "headline": "World Labs lands $1B, with $200M from Autodesk, to bring world models into 3D workflows",
+    "id": 1771451501456,
+    "type": "funding",
+    "company": "Physical Intelligence",
+    "headline": "Is your startup&#8217;s check engine light on? Google Cloud&#8217;s VP explains what to do",
     "source": "TechCrunch",
     "time": "Just now",
-    "impact": "high",
+    "impact": "low",
     "unread": true,
-    "link": "https://techcrunch.com/2026/02/18/world-labs-lands-200m-from-autodesk-to-bring-world-models-into-3d-workflows/"
+    "link": "https://techcrunch.com/video/is-your-startups-check-engine-light-on-google-clouds-vp-explains-what-to-do/"
   },
   {
-    "id": 1771438088689,
+    "id": 1771451501457,
     "type": "news",
-    "company": "Saronic",
-    "headline": "Defense Business Brief: Saronic in San Diego; Zumwalts + battleships; SECNAV’s take on ship maintenance",
-    "source": "Defense One",
+    "company": "Delian Alliance Industries",
+    "headline": "Navy weighs creating robotic autonomous systems commander amid unmanned push",
+    "source": "Breaking Defense",
     "time": "Just now",
     "impact": "low",
     "unread": true,
-    "link": "https://www.defenseone.com/business/2026/02/defense-business-brief-saronic-san-diego-zumwalts-battleships-secnavs-take-ship-maintenance/411489/"
+    "link": "https://breakingdefense.com/2026/02/navy-weighs-creating-robotic-autonomous-systems-commander-amid-unmanned-push/"
   },
   {
-    "id": 1771438088690,
-    "type": "news",
-    "company": "Neros",
-    "headline": "Envoys signal no breakthrough on bridging Russia and Ukraine’s military, political differences",
-    "source": "Defense News",
-    "time": "Just now",
-    "impact": "low",
-    "unread": true,
-    "link": "https://www.defensenews.com/flashpoints/ukraine/2026/02/18/envoys-signal-no-breakthrough-on-bridging-russia-and-ukraines-military-political-differences/"
-  },
-  {
-    "id": 1771438088691,
-    "type": "news",
-    "company": "Vast",
-    "headline": "A Vast Trove of Exposed Social Security Numbers May Put Millions at Risk of Identity Theft",
-    "source": "Wired",
-    "time": "Just now",
-    "impact": "high",
-    "unread": true,
-    "link": "https://www.wired.com/story/a-mega-trove-of-exposed-social-security-numbers-underscores-critical-identity-theft-risks/"
-  },
-  {
-    "id": 1771438088692,
+    "id": 1771451501458,
     "type": "milestone",
-    "company": "Ulysses Eco",
-    "headline": "XAI Grok 4.20 Makes Scheduling Repeated Monitoring Easy for Up to 200 Queries",
-    "source": "Next Big Future",
+    "company": "Altos Labs",
+    "headline": "A startup called Germ becomes the first private messenger that launches directly from Bluesky&#8217;s app",
+    "source": "TechCrunch",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/02/18/a-startup-called-germ-becomes-the-first-private-messenger-that-launches-directly-from-blueskys-app/"
+  },
+  {
+    "id": 1771451501459,
+    "type": "news",
+    "company": "Runway",
+    "headline": "An Electric Chevy BrightDrop Van For 50% Off?",
+    "source": "CleanTechnica",
     "time": "1h ago",
     "impact": "low",
     "unread": true,
-    "link": "https://www.nextbigfuture.com/2026/02/xai-grok-4-20-makes-scheduling-repeated-monitoring-easy-for-up-to-200-queries.html"
+    "link": "https://cleantechnica.com/2026/02/18/an-electric-chevy-brightdrop-van-for-50-off/"
   },
   {
-    "id": 1771438088693,
+    "id": 1771451501460,
     "type": "news",
-    "company": "Andrenam",
-    "headline": "Saudi Arabia expands naval capabilities with four C-27J maritime patrol aircraft",
+    "company": "Array Labs",
+    "headline": "DIU wants commercially developed imagery satellites for on-orbit spying",
     "source": "Breaking Defense",
     "time": "1h ago",
     "impact": "low",
-    "unread": false,
-    "link": "https://breakingdefense.com/2026/02/saudi-arabia-expands-naval-capabilities-with-four-c-27j-maritime-patrol-aircraft/"
+    "unread": true,
+    "link": "https://breakingdefense.com/2026/02/diu-wants-commercially-developed-imagery-satellites-for-on-orbit-spying/"
   },
   {
-    "id": 1771438088694,
+    "id": 1771451501461,
     "type": "news",
-    "company": "Ada",
-    "headline": "The D Brief: Sentinel’s progress; Buildup near Iran; Canada’s decoupling plan; Russia targets Ukrainian energy; And a bi",
+    "company": "The Boring Company",
+    "headline": "The Hydrogen Workshop Transit Agencies Actually Need",
+    "source": "CleanTechnica",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://cleantechnica.com/2026/02/18/the-hydrogen-workshop-transit-agencies-actually-need/"
+  },
+  {
+    "id": 1771451501462,
+    "type": "contract",
+    "company": "Turbopuffer",
+    "headline": "The Pentagon says it’s getting its AI providers on ‘the same baseline’",
     "source": "Defense One",
-    "time": "1h ago",
+    "time": "2h ago",
     "impact": "low",
     "unread": false,
-    "link": "https://www.defenseone.com/threats/2026/02/the-d-brief-february-18-2026/411498/"
+    "link": "https://www.defenseone.com/technology/2026/02/pentagon-says-its-getting-its-ai-providers-same-baseline/411506/"
   },
   {
-    "id": 1771438088695,
-    "type": "news",
-    "company": "ElevenLabs",
-    "headline": "Audible&#8217;s new &#8216;Read &#038; Listen&#8217; feature syncs your Kindle ebooks with audiobooks",
-    "source": "TechCrunch",
-    "time": "1h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/02/18/audibles-new-read-listen-feature-syncs-your-kindle-ebooks-with-audiobooks/"
-  },
-  {
-    "id": 1771438088696,
-    "type": "milestone",
-    "company": "Vertical Aerospace",
-    "headline": "X continues to bet on vertical video with its latest update",
-    "source": "TechCrunch",
-    "time": "1h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/02/18/x-continues-to-bet-on-vertical-video-with-its-latest-update/"
-  },
-  {
-    "id": 1771438088697,
-    "type": "news",
-    "company": "Rainmaker",
-    "headline": "Battle Over Colorado River Water Ends In A Draw",
-    "source": "CleanTechnica",
-    "time": "1h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://cleantechnica.com/2026/02/18/battle-over-colorado-river-water-ends-in-a-draw/"
-  },
-  {
-    "id": 1771438088698,
-    "type": "hire",
-    "company": "Impulse Labs",
-    "headline": "Ring and Kidde’s Newest Smoke Detector Is Here, and It’s Battery Powered (2026)",
-    "source": "Wired",
-    "time": "1h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.wired.com/story/kidde-ring-new-smoke-alarm-2026/"
-  },
-  {
-    "id": 1771438088699,
-    "type": "hire",
-    "company": "Waymo",
-    "headline": "Uber Putting $100 Million into EV Charging for Robotaxis",
-    "source": "CleanTechnica",
+    "id": 1771451501463,
+    "type": "funding",
+    "company": "Arc Boats",
+    "headline": "Marines aim to be CJACD2 &#8216;fast follower&#8217; with Dynamis Series of C2 experiments",
+    "source": "Breaking Defense",
     "time": "2h ago",
     "impact": "medium",
     "unread": false,
-    "link": "https://cleantechnica.com/2026/02/18/uber-putting-100-million-into-ev-charging-for-robotaxis/"
+    "link": "https://breakingdefense.com/2026/02/marines-aim-to-be-cjacd2-fast-follower-with-dynamis-series-of-c2-experiments/"
   },
   {
-    "id": 1771438088700,
+    "id": 1771451501464,
     "type": "news",
-    "company": "Zipline",
-    "headline": "Google DeepMind wants to know if chatbots are just virtue signaling",
-    "source": "MIT Tech Review",
-    "time": "2h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/"
-  },
-  {
-    "id": 1771438088701,
-    "type": "news",
-    "company": "Runway",
-    "headline": "Google adds music-generation capabilities to the Gemini app",
+    "company": "Cover",
+    "headline": "SeatGeek and Spotify team up to offer concert ticket sales inside the music platform",
     "source": "TechCrunch",
     "time": "2h ago",
-    "impact": "low",
+    "impact": "medium",
     "unread": false,
-    "link": "https://techcrunch.com/2026/02/18/google-adds-music-generation-capabilities-to-the-gemini-app/"
+    "link": "https://techcrunch.com/2026/02/18/seatgeek-and-spotify-team-up-to-offer-concert-ticket-sales-inside-the-music-platform/"
   },
   {
-    "id": 1771438088702,
+    "id": 1771451501465,
     "type": "news",
-    "company": "Planet Labs",
-    "headline": "Big Tech Says Generative AI Will Save the Planet. It Doesn’t Offer Much Proof",
-    "source": "Wired",
+    "company": "Photonic Inc",
+    "headline": "Microsoft&#039;s new 10,000-year data storage medium: glass",
+    "source": "Ars Technica Space",
     "time": "2h ago",
     "impact": "low",
     "unread": false,
-    "link": "https://www.wired.com/story/big-tech-says-generative-ai-will-save-the-planet-it-doesnt-offer-much-proof/"
+    "link": "https://arstechnica.com/science/2026/02/microsofts-new-10000-year-data-storage-medium-glass/"
   },
   {
-    "id": 1771438088703,
-    "type": "hire",
-    "company": "Rocket Lab",
-    "headline": "Tomorrow’s Smart Pills Will Deliver Drugs and Take Biopsies",
+    "id": 1771451501466,
+    "type": "milestone",
+    "company": "Recursion Pharmaceuticals",
+    "headline": "IEEE Course Improves Engineers’ Writing Skills",
     "source": "IEEE Spectrum",
     "time": "2h ago",
     "impact": "low",
     "unread": false,
-    "link": "https://spectrum.ieee.org/ingestible-electronics"
+    "link": "https://spectrum.ieee.org/ieee-course-technical-writing"
   },
   {
-    "id": 1771438088704,
+    "id": 1771451501467,
     "type": "news",
-    "company": "Photonic Inc",
-    "headline": "This former Microsoft PM thinks she can unseat CyberArk in 18 months",
-    "source": "TechCrunch",
-    "time": "3h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/02/18/the-former-microsoft-pm-who-thinks-she-can-unseat-cyberark-in-18-months/"
-  },
-  {
-    "id": 1771438088705,
-    "type": "milestone",
-    "company": "Reveal Technology",
-    "headline": "SCOPA exec details Saudi firm&#8217;s relaunch, reveals ambitious aims",
+    "company": "Ada",
+    "headline": "Canada is still interested in Golden Dome. What can it bring &#8211; and how could it fall apart?",
     "source": "Breaking Defense",
     "time": "3h ago",
     "impact": "low",
     "unread": false,
-    "link": "https://breakingdefense.com/2026/02/scopa-exec-details-saudi-firms-relaunch-reveals-ambitious-aims/"
+    "link": "https://breakingdefense.com/2026/02/canada-golden-dome-trump-missile-defense-norad/"
   },
   {
-    "id": 1771438088706,
+    "id": 1771451501468,
     "type": "news",
-    "company": "Ada",
-    "headline": "Microsoft says Office bug exposed customers&#8217; confidential emails to Copilot AI",
+    "company": "Naarea",
+    "headline": "Mastodon, a decentralized alternative to X, plans to target creators with new features",
     "source": "TechCrunch",
     "time": "3h ago",
     "impact": "low",
     "unread": false,
-    "link": "https://techcrunch.com/2026/02/18/microsoft-says-office-bug-exposed-customers-confidential-emails-to-copilot-ai/"
+    "link": "https://techcrunch.com/2026/02/18/mastodon-a-decentralized-alternative-to-x-plans-to-target-creators-with-new-features/"
   },
   {
-    "id": 1771438088707,
+    "id": 1771451501469,
     "type": "news",
-    "company": "Alpha School",
-    "headline": "OpenAI pushes into higher education as India seeks to scale AI skills",
+    "company": "Figure AI",
+    "headline": "Data breach at fintech giant Figure affects close to a million customers",
     "source": "TechCrunch",
     "time": "3h ago",
     "impact": "medium",
     "unread": false,
-    "link": "https://techcrunch.com/2026/02/18/openai-pushes-into-higher-education-as-india-seeks-to-scale-ai-skills/"
+    "link": "https://techcrunch.com/2026/02/18/data-breach-at-fintech-giant-figure-affects-close-to-a-million-customers/"
+  },
+  {
+    "id": 1771451501470,
+    "type": "news",
+    "company": "Dunia",
+    "headline": "World Labs lands $1B, with $200M from Autodesk, to bring world models into 3D workflows",
+    "source": "TechCrunch",
+    "time": "3h ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://techcrunch.com/2026/02/18/world-labs-lands-200m-from-autodesk-to-bring-world-models-into-3d-workflows/"
+  },
+  {
+    "id": 1771451501471,
+    "type": "news",
+    "company": "Saronic",
+    "headline": "Defense Business Brief: Saronic in San Diego; Zumwalts + battleships; SECNAV’s take on ship maintenance",
+    "source": "Defense One",
+    "time": "3h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.defenseone.com/business/2026/02/defense-business-brief-saronic-san-diego-zumwalts-battleships-secnavs-take-ship-maintenance/411489/"
+  },
+  {
+    "id": 1771451501472,
+    "type": "news",
+    "company": "Neros",
+    "headline": "Envoys signal no breakthrough on bridging Russia and Ukraine’s military, political differences",
+    "source": "Defense News",
+    "time": "3h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.defensenews.com/flashpoints/ukraine/2026/02/18/envoys-signal-no-breakthrough-on-bridging-russia-and-ukraines-military-political-differences/"
+  },
+  {
+    "id": 1771451501473,
+    "type": "news",
+    "company": "Vast",
+    "headline": "A Vast Trove of Exposed Social Security Numbers May Put Millions at Risk of Identity Theft",
+    "source": "Wired",
+    "time": "4h ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://www.wired.com/story/a-mega-trove-of-exposed-social-security-numbers-underscores-critical-identity-theft-risks/"
+  },
+  {
+    "id": 1771451501474,
+    "type": "milestone",
+    "company": "Ulysses Eco",
+    "headline": "XAI Grok 4.20 Makes Scheduling Repeated Monitoring Easy for Up to 200 Queries",
+    "source": "Next Big Future",
+    "time": "4h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.nextbigfuture.com/2026/02/xai-grok-4-20-makes-scheduling-repeated-monitoring-easy-for-up-to-200-queries.html"
+  },
+  {
+    "id": 1771451501475,
+    "type": "news",
+    "company": "Andrenam",
+    "headline": "Saudi Arabia expands naval capabilities with four C-27J maritime patrol aircraft",
+    "source": "Breaking Defense",
+    "time": "5h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://breakingdefense.com/2026/02/saudi-arabia-expands-naval-capabilities-with-four-c-27j-maritime-patrol-aircraft/"
   }
 ];
