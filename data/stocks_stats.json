@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.71,
+      "avg_change": -2.91,
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 5,
-      "avg_change": -6.57,
+      "gainers": 2,
+      "losers": 3,
+      "avg_change": -3.08,
       "count": 5
     },
     "autonomous": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.0,
+      "avg_change": -2.58,
       "count": 2
     },
     "nuclear": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -3.08,
+      "avg_change": -4.71,
       "count": 1
     },
     "climate": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -21.25,
+      "avg_change": -19.69,
       "count": 1
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.88,
+      "avg_change": -6.9,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -11.03,
+      "avg_change": -6.05,
       "count": 2
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 4.88,
+      "avg_change": 2.47,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.48,
+      "avg_change": -12.22,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "RIVN",
       "Rivian",
-      13.1
-    ],
-    [
-      "NVDA",
-      "NVIDIA",
-      -0.12
+      8.32
     ],
     [
       "PL",
       "Planet Labs",
-      -1.32
+      4.56
     ],
     [
       "RKLB",
       "Rocket Lab",
-      -1.35
+      2.57
     ],
     [
       "TEM",
       "Tempus AI",
-      -1.54
+      -0.28
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      -0.68
     ]
   ],
   "topLosers": [
     [
       "QBTS",
       "D-Wave Quantum",
-      -10.86
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -14.05
+      -8.41
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      -20.52
+      -11.82
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -12.65
     ],
     [
       "QS",
       "QuantumScape",
-      -21.25
+      -19.69
     ],
     [
       "ALAB",
       "Astera Labs",
-      -31.89
+      -28.8
     ]
   ],
-  "lastUpdated": "2026-02-18 14:36:42"
+  "lastUpdated": "2026-02-18 20:01:14"
 }
