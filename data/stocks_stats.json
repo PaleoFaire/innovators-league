@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -6.92,
+      "avg_change": -2.71,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 5,
-      "avg_change": -13.28,
+      "avg_change": -6.57,
       "count": 5
     },
     "autonomous": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -7.0,
+      "avg_change": -4.0,
       "count": 2
     },
     "nuclear": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -9.87,
+      "avg_change": -3.08,
       "count": 1
     },
     "climate": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -21.48,
+      "avg_change": -21.25,
       "count": 1
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.3,
+      "avg_change": -8.88,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -10.53,
+      "avg_change": -11.03,
       "count": 2
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 5.26,
+      "avg_change": 4.88,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -14.25,
+      "avg_change": -13.48,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "RIVN",
       "Rivian",
-      12.12
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      -1.6
+      13.1
     ],
     [
       "NVDA",
       "NVIDIA",
-      -2.67
+      -0.12
     ],
     [
-      "AMD",
-      "AMD",
-      -5.98
+      "PL",
+      "Planet Labs",
+      -1.32
     ],
     [
-      "IONQ",
-      "IonQ",
-      -6.48
+      "RKLB",
+      "Rocket Lab",
+      -1.35
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      -1.54
     ]
   ],
   "topLosers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      -14.55
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      -17.77
+      "QBTS",
+      "D-Wave Quantum",
+      -10.86
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -18.69
+      -14.05
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -20.52
     ],
     [
       "QS",
       "QuantumScape",
-      -21.48
+      -21.25
     ],
     [
       "ALAB",
       "Astera Labs",
-      -34.09
+      -31.89
     ]
   ],
-  "lastUpdated": "2026-02-18 08:03:07"
+  "lastUpdated": "2026-02-18 14:36:42"
 }
