@@ -17409,23 +17409,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-18 14:36
+// Last updated: 2026-02-18 18:08
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Alpha School", headline: "OpenAI pushes into higher education as India seeks to scale AI skills", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Dunia", headline: "World Labs lands $200M from Autodesk to bring world models into 3D workflows", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 3, type: "milestone", company: "The Boring Company", headline: "Why GPS III, and what comes after it, still falls short in modern war", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Figure AI", headline: "Volkswagen Launches The All-New Caravelle PHEV In South Africa", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Agility Robotics", headline: "Digital Savings Startup Vestwell Lands $385M, Doubles Valuation", source: "Crunchbase News", time: "1h ago", impact: "medium", unread: true },
-  { id: 6, type: "funding", company: "Scale AI", headline: "Heron Power raises $140M to ramp production of grid-altering tech", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
-  { id: 7, type: "ipo", company: "Vannevar Labs", headline: "Vantor partners with Google AI to automate intelligence reports for government agencies", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Auterion", headline: "Indian AI lab Sarvam's new models are a major bet on the viability of open-source AI", source: "TechCrunch", time: "1h ago", impact: "high", unread: false },
-  { id: 9, type: "funding", company: "Astera Labs", headline: "DG Matrix raises $60M to make data center power smarter", source: "TechCrunch", time: "2h ago", impact: "medium", unread: false },
-  { id: 10, type: "funding", company: "SpaceX", headline: "SpaceX unveils space traffic management system", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Figure AI", headline: "Why Olympic Choreographer Beno't Richaud Went Viral Just for Changing Jackets", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Osmo", headline: "UK caps launch liability in timely boost for nascent domestic market", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Cover", headline: "Landspace targets Q2 for next Zhuque-3 orbital launch and recovery attempt", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Deterrence", headline: "Apache helicopters downed drones in air-to-air combat with 30mm proximity ammo", source: "Defense News", time: "3h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Turbopuffer", headline: "Are Mushroom Supplements Worth Taking? (2026)", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Dunia", headline: "World Labs lands $1B, with $200M from Autodesk, to bring world models into 3D workflows", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "news", company: "Saronic", headline: "Defense Business Brief: Saronic in San Diego; Zumwalts + battleships; SECNAV's take on ship maintenance", source: "Defense One", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Neros", headline: "Envoys signal no breakthrough on bridging Russia and Ukraine's military, political differences", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Vast", headline: "A Vast Trove of Exposed Social Security Numbers May Put Millions at Risk of Identity Theft", source: "Wired", time: "Just now", impact: "high", unread: true },
+  { id: 5, type: "milestone", company: "Ulysses Eco", headline: "XAI Grok 4.20 Makes Scheduling Repeated Monitoring Easy for Up to 200 Queries", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Andrenam", headline: "Saudi Arabia expands naval capabilities with four C-27J maritime patrol aircraft", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Ada", headline: "The D Brief: Sentinel's progress; Buildup near Iran; Canada's decoupling plan; Russia targets Ukrainian energy; And a bi", source: "Defense One", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "ElevenLabs", headline: "Audible's new 'Read &#038; Listen' feature syncs your Kindle ebooks with audiobooks", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Vertical Aerospace", headline: "X continues to bet on vertical video with its latest update", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Rainmaker", headline: "Battle Over Colorado River Water Ends In A Draw", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Impulse Labs", headline: "Ring and Kidde's Newest Smoke Detector Is Here, and It's Battery Powered (2026)", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Waymo", headline: "Uber Putting $100 Million into EV Charging for Robotaxis", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: false },
+  { id: 13, type: "news", company: "Zipline", headline: "Google DeepMind wants to know if chatbots are just virtue signaling", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Runway", headline: "Google adds music-generation capabilities to the Gemini app", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Planet Labs", headline: "Big Tech Says Generative AI Will Save the Planet. It Doesn't Offer Much Proof", source: "Wired", time: "2h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
