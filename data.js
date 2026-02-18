@@ -9854,14 +9854,14 @@ const SECTOR_MOMENTUM = [
 
 // ─── BREAKING NEWS TICKER ───
 const NEWS_TICKER = [
-  { text: "The Week’s 10 Biggest Funding Rounds: Anthropic Leads In A Big Week For Giant Rounds", time: "3d ago", priority: "high" },
-  { text: "China’s iSpace launch firm raises record $729 million for reusable rockets", time: "3d ago", priority: "high" },
-  { text: "Exclusive: Winn.ai Raises $18M Series A For AI-Powered Real-Time Sales Assistant", time: "5d ago", priority: "high" },
-  { text: "Launch companies debate how to compete against SpaceX", time: "4d ago", priority: "high" },
-  { text: "Anthropic Raises $30B At $380B Valuation In Second-Largest Venture Funding Deal Of All Time", time: "4d ago", priority: "high" },
-  { text: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", time: "5d ago", priority: "high" },
-  { text: "How Ricursive Intelligence raised $335M at a $4B valuation in 4 months", time: "16h ago", priority: "medium" },
-  { text: "Axiom Space raises additional $350 million", time: "4d ago", priority: "medium" }
+  { text: "The Week’s 10 Biggest Funding Rounds: Anthropic Leads In A Big Week For Giant Rounds", time: "4d ago", priority: "high" },
+  { text: "SpaceX vets raise $50M Series A for data center links", time: "16h ago", priority: "high" },
+  { text: "SatVu to expand thermal imaging constellation with NATO-backed funds", time: "17h ago", priority: "high" },
+  { text: "China’s iSpace launch firm raises record $729 million for reusable rockets", time: "4d ago", priority: "high" },
+  { text: "Anthropic Raises $30B At $380B Valuation In Second-Largest Venture Funding Deal Of All Time", time: "5d ago", priority: "high" },
+  { text: "Amid Record Robotics Funding, Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo", time: "6d ago", priority: "high" },
+  { text: "‘Why Not?’ How Sales Automation Unicorn Clay Uses Tender Offers To Reward Employees Without An Exit In Sight", time: "5d ago", priority: "medium" },
+  { text: "Simera Sense to offer larger cameras and enhanced autonomy", time: "10h ago", priority: "medium" }
 ];
 
 // ─── WEEKLY INTELLIGENCE DIGEST ───
