@@ -17449,23 +17449,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-19 18:35
+// Last updated: 2026-02-19 21:04
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Day.ai", headline: "As browser wars heat up, Chrome adds new productivity features", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Cape", headline: "BONUS In Brief: Vibes Out of Munich", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Armada", headline: "US military assets flock to Middle East amid Iran standoff", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Turbopuffer", headline: "Reddit is testing a new AI search feature for shopping", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Anthropic", headline: "Pentagon CTO says it's 'not democratic' for Anthropic to limit military use of Claude AI", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Palantir", headline: "DHS Opens a Billion-Dollar Tab With Palantir", source: "Wired", time: "1h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Waymo", headline: "New York hits the brakes on robotaxi expansion plan", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
-  { id: 8, type: "milestone", company: "Photonic Inc", headline: "Microsoft has a new plan to prove what's real and what's AI online", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Terraform Industries", headline: "Battery Storage System Replaces Wastewater Facility Diesel Generator", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "SpaceX", headline: "Making Clavius MoonBase for Real", source: "Next Big Future", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "DIRAC", headline: "A US Sodium-Ion Battery Maker Challenges Powerwall For Home Energy Storage, And More", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Earth AI", headline: "Creating new demand in the nascent orbital economy", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "OpenAI", headline: "OpenAI reportedly finalizing $100B deal at more than $850B valuation", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "Ada", headline: "Navy seeks new anti-radar missile compatible with F-18, F-35 aircraft", source: "Defense News", time: "3h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Waymo", headline: "The First Tesla Sub-$30,000 Cybercab Will be Sold to Marques Brownlee", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Mach Industries", headline: "SLS Second Wet Rehearsal Going Well", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Reveal Technology", headline: "Donald Trump Jr.'s Private DC Club Has Mysterious Ties to an Ex-Cop With a Controversial Past", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Runway", headline: "YouTube's latest experiment brings its conversational AI tool to TVs", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Agility Robotics", headline: "Toyota hires seven Agility humanoid robots for Canadian factory", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Matic Robotics", headline: "'Pew Pew': The Chinese Companies Marketing Anti-Drone Weapons on TikTok", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Conductor Quantum", headline: "The boys' club no one was supposed to write about", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Apptronik", headline: "Tesla Market Cap More Than Market Cap of Toyota, BYD, GM, Ford, Hyundai, Kia, Mercedes-Benz, Stellantis, Geely, Ferrari,", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX's Starbase city is getting its own court", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Fervo Energy", headline: "IEA Focus On Clean Energy Gives US Officials Heartburn", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Runway", headline: "An Electric Chevy BrightDrop Van For 50% Off?", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Rainmaker", headline: "Upgrade Your Computer Speakers With These Discounted Edifier M60s", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Cape", headline: "SatVu, GMV latest space firms to benefit from Europe's new milspace focus", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Destinus", headline: "Green NGOs &#038; Renewable Fuel Producers: Commission Must Resist Pressure to Reopen the Rules Governing Renewable Hydr", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Turbopuffer", headline: "Perplexity's Retreat From Ads Signals a Bigger Strategic Shift", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "Shield AI", headline: "SpaceX and Blue Origin abruptly shift priorities amid US Golden Dome push", source: "Defense News", time: "2h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
