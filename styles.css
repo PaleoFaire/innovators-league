@@ -761,6 +761,26 @@ body {
   background: linear-gradient(180deg, transparent 0%, var(--border-hover) 50%, transparent 100%);
 }
 
+/* ─── SHOW MORE BUTTON ─── */
+.show-more-btn {
+  display: block;
+  margin: 32px auto 0;
+  padding: 12px 32px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.8);
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.show-more-btn:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: var(--accent);
+  color: var(--text-primary);
+}
+
 /* ─── SECTIONS ─── */
 .section {
   padding: 72px 0;

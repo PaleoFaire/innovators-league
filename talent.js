@@ -1,7 +1,7 @@
 // ─── FRONTIER TECH TALENT GRAPH ───
 
-document.addEventListener('DOMContentLoaded', () => {
-  function initTalentPage() {
+(function() {
+  function initTalentPageInner() {
     function safeInit(name, fn) {
       try { fn(); } catch (e) { console.error('[Talent] ' + name + ' failed:', e); }
     }
@@ -487,10 +487,21 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  // ── Expose global initTalentPage ──
+  window.initTalentPage = function() {
+    if (typeof TILAuth !== 'undefined' && TILAuth.onReady) {
+      TILAuth.onReady(initTalentPageInner);
+    } else {
+      initTalentPageInner();
+    }
+  };
+
   // ── Boot ──
-  if (typeof TILAuth !== 'undefined' && TILAuth.onReady) {
-    TILAuth.onReady(initTalentPage);
-  } else {
-    initTalentPage();
-  }
-});
+  // If on merged page (tab-talent exists), don't auto-init — wait for tab click.
+  // If standalone page (no tab-talent), init normally on DOMContentLoaded.
+  document.addEventListener('DOMContentLoaded', function() {
+    if (!document.getElementById('tab-talent')) {
+      window.initTalentPage();
+    }
+  });
+})();

@@ -12,7 +12,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="lib/d3.v7.min.js"></script>
     <script>if(typeof d3==='undefined'){document.write('<script src="https://d3js.org/d3.v7.min.js"><\/script>');console.warn('D3 loaded from CDN fallback');}</script>
-    <link rel="stylesheet" href="styles.css?v=20260219e">
+    <link rel="stylesheet" href="styles.css?v=20260219f">
 </head>
 <body>
     <!-- Navigation — 5 Key Tabs -->
@@ -32,9 +32,8 @@
         <div class="nav-links">
             <a href="visualizations.html" class="nav-link">📈 Insights</a>
             <a href="investors.html" class="nav-link">💰 Investors</a>
-            <a href="jobs.html" class="nav-link">💼 Jobs</a>
+            <a href="jobs.html" class="nav-link">💼 Jobs & Talent</a>
             <a href="valuations.html" class="nav-link">💎 Valuations</a>
-            <a href="talent.html" class="nav-link">🧬 Talent</a>
             <a href="govradar.html" class="nav-link">📡 Gov Radar</a>
             <a href="regulatory.html" class="nav-link">🏛️ Regulatory</a>
             <div class="nav-auth" id="nav-auth">
@@ -50,17 +49,6 @@
             <span></span><span></span><span></span>
         </button>
     </nav>
-
-    <!-- Section Navigator — In-page scroll links for index.html sections -->
-    <div class="section-navigator" id="section-navigator">
-        <div class="section-nav-inner">
-            <a href="#discovery-hub" class="section-nav-link">🗺️ Map</a>
-            <a href="#companies" class="section-nav-link">📊 Database</a>
-            <a href="#innovator50" class="section-nav-link">🏆 ROS 50</a>
-            <a href="#intelligence-hub" class="section-nav-link">📊 Signals</a>
-            <a href="#sectors" class="section-nav-link">🏗️ Sectors</a>
-        </div>
-    </div>
 
     <!-- Hero Section — Value-First Messaging -->
     <header class="hero">
@@ -460,29 +448,6 @@
                 </select>
             </div>
             <div class="iscore-grid" id="iscore-grid"></div>
-        </div>
-    </section>
-
-    <!-- Government Contract Intelligence -->
-    <section class="gov-contracts-section" id="gov-contracts">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">GOVERNMENT INTELLIGENCE</p>
-                <h2>Contract Intelligence</h2>
-                <p>Federal contract awards, SBIR status, agency relationships, and defense budget signals mapped to frontier tech startups.</p>
-            </div>
-            <div class="gov-tabs">
-                <button class="gov-tab active" data-tab="readiness">🎯 Contractor Readiness</button>
-                <button class="gov-tab" data-tab="demand">🔥 Gov Demand Tracker</button>
-                <button class="gov-tab" data-tab="contracts">Contract Awards</button>
-                <button class="gov-tab" data-tab="budget">Budget Signals</button>
-                <button class="gov-tab" data-tab="heatmap">Agency Heatmap</button>
-            </div>
-            <div class="gov-panel" id="gov-readiness-panel"></div>
-            <div class="gov-panel" id="gov-demand-panel" style="display:none"></div>
-            <div class="gov-panel" id="gov-contracts-panel" style="display:none"></div>
-            <div class="gov-panel" id="gov-budget-panel" style="display:none"></div>
-            <div class="gov-panel" id="gov-heatmap-panel" style="display:none"></div>
         </div>
     </section>
 
@@ -1172,9 +1137,8 @@
                     <h4>Navigate</h4>
                     <a href="visualizations.html">Insights</a>
                     <a href="investors.html">Investors</a>
-                    <a href="jobs.html">Jobs</a>
+                    <a href="jobs.html">Jobs & Talent</a>
                     <a href="valuations.html">Valuations</a>
-                    <a href="talent.html">Talent</a>
                     <a href="govradar.html">Gov Radar</a>
                     <a href="regulatory.html">Regulatory</a>
                 </div>
@@ -1187,17 +1151,17 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="auth.js?v=20260219e"></script>
-    <script src="data.js?v=20260219e"></script>
-    <script src="data/stocks_auto.js?v=20260219e"></script>
-    <script src="data/sec_filings_auto.js?v=20260219e"></script>
-    <script src="data/gov_contracts_auto.js?v=20260219e"></script>
-    <script src="data/patent_intel_auto.js?v=20260219e"></script>
-    <script src="data/hackernews_buzz_auto.js?v=20260219e"></script>
-    <script src="data/press_releases_auto.js?v=20260219e"></script>
-    <script src="data/github_releases_auto.js?v=20260219e"></script>
-    <script src="data/federal_register_auto.js?v=20260219e"></script>
-    <script src="data/doe_programs_auto.js?v=20260219e"></script>
-    <script src="app.js?v=20260219e"></script>
+    <script src="auth.js?v=20260219f"></script>
+    <script src="data.js?v=20260219f"></script>
+    <script src="data/stocks_auto.js?v=20260219f"></script>
+    <script src="data/sec_filings_auto.js?v=20260219f"></script>
+    <script src="data/gov_contracts_auto.js?v=20260219f"></script>
+    <script src="data/patent_intel_auto.js?v=20260219f"></script>
+    <script src="data/hackernews_buzz_auto.js?v=20260219f"></script>
+    <script src="data/press_releases_auto.js?v=20260219f"></script>
+    <script src="data/github_releases_auto.js?v=20260219f"></script>
+    <script src="data/federal_register_auto.js?v=20260219f"></script>
+    <script src="data/doe_programs_auto.js?v=20260219f"></script>
+    <script src="app.js?v=20260219f"></script>
 </body>
 </html>

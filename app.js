@@ -4265,7 +4265,20 @@ function initPatentIntel() {
     });
   }
 
-  grid.innerHTML = allCards.join('');
+  // Show top 20 initially, with "Show More" button
+  var PATENT_INITIAL = 20;
+  grid.innerHTML = allCards.slice(0, PATENT_INITIAL).join('');
+
+  if (allCards.length > PATENT_INITIAL) {
+    var showMoreBtn = document.createElement('button');
+    showMoreBtn.className = 'show-more-btn';
+    showMoreBtn.textContent = 'Show All ' + allCards.length + ' Patents';
+    showMoreBtn.addEventListener('click', function() {
+      grid.innerHTML = allCards.join('');
+      showMoreBtn.remove();
+    });
+    grid.after(showMoreBtn);
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════
