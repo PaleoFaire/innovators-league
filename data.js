@@ -1801,7 +1801,7 @@ const COMPANIES = [
     name: "Captura",
     sector: "Climate & Energy",
     description: "Ocean-based carbon removal technology. Uses electrochemical process to capture CO2 from seawater, which absorbs 30% of atmospheric carbon.",
-    founder: "Gaurav Sant, Dante Simonetti",
+    founder: "Harry Atwater, CX Xiang",
     location: "Los Angeles, CA",
     state: "CA",
     lat: 34.0522,
