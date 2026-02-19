@@ -53,14 +53,7 @@
       return;
     }
 
-    // Auth gate: if not logged in and company not in ROS 50, redirect
-    if (typeof TILAuth !== 'undefined' && !TILAuth.isLoggedIn()) {
-      const isROS50 = typeof isInROS50 === 'function' ? isInROS50(currentCompany.name) : false;
-      if (!isROS50) {
-        window.location.href = 'index.html?auth=required';
-        return;
-      }
-    }
+    // Auth gating disabled — all company profiles open while site is pre-launch
 
     // Update page title and meta
     document.title = `${currentCompany.name} | The Innovators League`;

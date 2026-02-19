@@ -806,12 +806,7 @@ function getCompanyProfileUrl(companyName) {
 }
 
 function openCompanyModal(companyName) {
-  // Auth gate: require sign-in for non-ROS-50 companies
-  if (typeof TILAuth !== 'undefined' && !TILAuth.isLoggedIn() && !isInROS50(companyName)) {
-    TILAuth.showAuthModal();
-    return;
-  }
-
+  // Auth gating disabled — all companies open while site is pre-launch
   const company = COMPANIES.find(c => c.name === companyName);
   if (!company) return;
 
@@ -1799,32 +1794,8 @@ function switchDiscoveryTab(view) {
 
 function renderCompanyCardHTML(company) {
   const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
-  const isAuthed = typeof TILAuth !== 'undefined' ? TILAuth.isLoggedIn() : true;
-  const isROS50 = isInROS50(company.name);
 
-  // Show locked card for non-ROS-50 companies when not logged in
-  if (!isAuthed && !isROS50) {
-    return `
-      <div class="company-card company-card-locked" data-name="${company.name}" onclick="TILAuth.showAuthModal()">
-        <div class="card-header">
-          <div class="card-sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border-color:${sectorInfo.color}30;">
-            ${sectorInfo.icon} ${company.sector}
-          </div>
-          <span class="card-lock-icon">&#128274;</span>
-        </div>
-        <h3 class="card-title">${company.name}</h3>
-        <p class="card-description card-blurred">Sign in to view full company intelligence, scores, and investment thesis.</p>
-        <div class="card-meta">
-          <span class="card-location">${company.location}</span>
-        </div>
-        <div class="card-footer">
-          ${renderSignalBadge(company.signal)}
-          <span class="card-cta-small">Sign in free &rarr;</span>
-        </div>
-      </div>
-    `;
-  }
-
+  // All cards fully visible — no auth gating while site is pre-launch
   const saved = isBookmarked(company.name);
   const score = getInnovatorScore(company.name);
   let scoreDisplay = '';

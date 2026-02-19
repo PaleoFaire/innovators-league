@@ -36,10 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     safeInit(initVCMobileMenu);
     safeInit(initVCSearch);
 
-    // Then apply visual gate if not logged in
-    if (typeof TILAuth !== 'undefined' && !TILAuth.isLoggedIn()) {
-      showInvestorAuthGate();
-    }
+    // Auth gating disabled — all investor data open while site is pre-launch
   }
 
   function showInvestorAuthGate() {

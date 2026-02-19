@@ -210,34 +210,13 @@ const TILAuth = (function() {
   // ═══ SECTION GATING ═══
 
   function updateGating() {
+    // ── All gating disabled — site is fully open while not yet live ──
     GATED_SECTION_IDS.forEach(id => {
       const section = document.getElementById(id);
       if (!section) return;
-
-      if (currentUser) {
-        section.classList.remove('section-gated');
-        // Remove gate CTA if it exists
-        const cta = section.querySelector('.section-gate-cta');
-        if (cta) cta.remove();
-      } else {
-        if (!section.classList.contains('section-gated')) {
-          section.classList.add('section-gated');
-          // Add gate CTA overlay if not already present
-          if (!section.querySelector('.section-gate-cta')) {
-            const ctaDiv = document.createElement('div');
-            ctaDiv.className = 'section-gate-cta';
-            ctaDiv.innerHTML = `
-              <div class="gate-cta-content">
-                <span class="gate-lock-icon">&#128274;</span>
-                <h3>Sign in to access this intelligence</h3>
-                <p>Create a free account to unlock the full Innovators League database.</p>
-                <button class="gate-cta-btn" onclick="TILAuth.showAuthModal()">Sign In Free</button>
-              </div>
-            `;
-            section.appendChild(ctaDiv);
-          }
-        }
-      }
+      section.classList.remove('section-gated');
+      const cta = section.querySelector('.section-gate-cta');
+      if (cta) cta.remove();
     });
 
     // Also re-render company grid if function exists and we're on main page

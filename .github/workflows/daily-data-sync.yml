@@ -117,7 +117,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Merge data into data.js
+      - name: Install Python dependencies
+        run: pip install requests
+
+      - name: Extract deal flow from news
+        run: python scripts/fetch_deals.py
+
+      - name: Calculate sector momentum scores
+        run: python scripts/calc_sector_momentum.py
+
+      - name: Merge all data into data.js
         run: python scripts/merge_data.py
 
       - name: Configure Git

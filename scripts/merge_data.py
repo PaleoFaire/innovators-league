@@ -163,6 +163,80 @@ def update_gov_contracts(data_js_content):
     return data_js_content
 
 
+def update_deal_tracker(data_js_content):
+    """Update DEAL_TRACKER in data.js with fresh deal data."""
+    deals = load_json("deals_auto.json")
+    if not deals:
+        print("No deals data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(deals)} deal records...")
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = "// Auto-updated deal flow from RSS + Crunchbase\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "const DEAL_TRACKER = [\n"
+
+    for d in deals:
+        company = d.get("company", "").replace('"', "'")
+        investor = d.get("investor", "").replace('"', "'")
+        amount = d.get("amount", "").replace('"', "'")
+        rnd = d.get("round", "").replace('"', "'")
+        date = d.get("date", "")
+        valuation = d.get("valuation", "").replace('"', "'")
+        role = d.get("leadOrParticipant", "lead")
+        js_array += f'  {{ company: "{company}", investor: "{investor}", amount: "{amount}", '
+        js_array += f'round: "{rnd}", date: "{date}", valuation: "{valuation}", '
+        js_array += f'leadOrParticipant: "{role}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'const DEAL_TRACKER = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, js_array, data_js_content)
+        print("  Updated DEAL_TRACKER")
+    else:
+        print("  DEAL_TRACKER not found in data.js")
+
+    return data_js_content
+
+
+def update_sector_momentum(data_js_content):
+    """Update SECTOR_MOMENTUM in data.js with calculated scores."""
+    momentum = load_json("sector_momentum_auto.json")
+    if not momentum:
+        print("No sector momentum data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(momentum)} sector momentum scores...")
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = "// Auto-calculated sector momentum scores\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "// Methodology: Funding velocity (35%) + News frequency (25%) + Hiring velocity (20%) + Market sentiment (20%)\n"
+    js_array += "const SECTOR_MOMENTUM = [\n"
+
+    for s in momentum:
+        sector = s.get("sector", "").replace('"', "'")
+        score = s.get("momentum", 50)
+        trend = s.get("trend", "steady")
+        catalysts = json.dumps(s.get("catalysts", []))
+        funding_q = s.get("fundingQ", "$0M").replace('"', "'")
+        js_array += f'  {{ sector: "{sector}", momentum: {score}, trend: "{trend}", '
+        js_array += f'catalysts: {catalysts}, fundingQ: "{funding_q}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const SECTOR_MOMENTUM = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, js_array, data_js_content)
+        print("  Updated SECTOR_MOMENTUM")
+    else:
+        print("  SECTOR_MOMENTUM not found in data.js")
+
+    return data_js_content
+
+
 def update_last_updated(data_js_content):
     """Update the LAST_UPDATED timestamp."""
     today = datetime.now().strftime("%Y-%m-%d")
@@ -208,6 +282,8 @@ def main():
     data_js_content = update_sec_filings(data_js_content)
     data_js_content = update_company_signals(data_js_content)
     data_js_content = update_gov_contracts(data_js_content)
+    data_js_content = update_deal_tracker(data_js_content)
+    data_js_content = update_sector_momentum(data_js_content)
     data_js_content = update_last_updated(data_js_content)
 
     # Validate before writing
