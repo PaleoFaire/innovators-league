@@ -17449,23 +17449,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-19 14:42
+// Last updated: 2026-02-19 18:35
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Chaos Industries", headline: "This former Big Tech engineers are using AI to navigate Trump's trade chaos", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Auterion", headline: "For open-source programs, AI coding tools are a mixed blessing", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Fervo Energy", headline: "Mechanical Reality Is Catching Up To ICE Pickups", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Anthropic", headline: "Altman and Amodei share a moment of awkwardness at India's big AI summit", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Arc Boats", headline: "China's nuclear submarine production rate surpasses that of US: Report", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Arc Boats", headline: "The Download: autonomous narco submarines, and virtue signaling chatbots", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Figure AI", headline: "Best Unlimited Phone Plan: T-Mobile, AT&T, Verizon Compared (2026)", source: "Wired", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Endurosat", headline: "Airbus open to two-fighter option for FCAS to keep program alive", source: "Defense News", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Xcimer Energy", headline: "Freeform raises $67M Series B to scale up laser AI manufacturing", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Deterrence", headline: "US-led artillery drill combines NATO nations' firepower for mass effect", source: "Defense News", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Built Robotics", headline: "Innovation Is A Game Of Two Halves", source: "Crunchbase News", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Vannevar Labs", headline: "Crunchbase Data: The AI Boom Has Drastically Changed Who's Funding The Hottest Companies In 2025 Vs. 2021", source: "Crunchbase News", time: "2h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Scale AI", headline: "Reliance unveils $110B AI investment plan as India ramps up tech ambitions", source: "TechCrunch", time: "3h ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "Conductor Quantum", headline: "Inside the Gay Tech Mafia", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Captura", headline: "How uncrewed narco subs could transform the Colombian drug trade", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Day.ai", headline: "As browser wars heat up, Chrome adds new productivity features", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Cape", headline: "BONUS In Brief: Vibes Out of Munich", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Armada", headline: "US military assets flock to Middle East amid Iran standoff", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Turbopuffer", headline: "Reddit is testing a new AI search feature for shopping", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "contract", company: "Anthropic", headline: "Pentagon CTO says it's 'not democratic' for Anthropic to limit military use of Claude AI", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Palantir", headline: "DHS Opens a Billion-Dollar Tab With Palantir", source: "Wired", time: "1h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Waymo", headline: "New York hits the brakes on robotaxi expansion plan", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
+  { id: 8, type: "milestone", company: "Photonic Inc", headline: "Microsoft has a new plan to prove what's real and what's AI online", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Terraform Industries", headline: "Battery Storage System Replaces Wastewater Facility Diesel Generator", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "SpaceX", headline: "Making Clavius MoonBase for Real", source: "Next Big Future", time: "2h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "DIRAC", headline: "A US Sodium-Ion Battery Maker Challenges Powerwall For Home Energy Storage, And More", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Earth AI", headline: "Creating new demand in the nascent orbital economy", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "OpenAI", headline: "OpenAI reportedly finalizing $100B deal at more than $850B valuation", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Ada", headline: "Navy seeks new anti-radar missile compatible with F-18, F-35 aircraft", source: "Defense News", time: "3h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "The First Tesla Sub-$30,000 Cybercab Will be Sold to Marques Brownlee", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
