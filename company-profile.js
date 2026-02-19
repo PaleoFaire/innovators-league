@@ -16,12 +16,10 @@
     if (typeof TILAuth !== 'undefined' && TILAuth.onReady) {
       TILAuth.onReady(function() {
         initCompanyProfile();
-        initAIAssistant();
       });
     } else {
       // Fallback if auth not loaded
       initCompanyProfile();
-      initAIAssistant();
     }
   });
 
@@ -127,6 +125,9 @@
             </span>
             ${company.signal ? `<span class="signal-badge-large ${company.signal}">${getSignalIcon(company.signal)} ${company.signal.toUpperCase()}</span>` : ''}
             ${company.tbpnMentioned ? '<span class="signal-badge-large" style="background:#22c55e15; color:#22c55e; border:1px solid #22c55e40;">✓ TBPN Featured</span>' : ''}
+          </div>
+          <div class="company-logo-icon" style="width:72px; height:72px; border-radius:16px; background:${sectorInfo.color}20; border:2px solid ${sectorInfo.color}40; display:flex; align-items:center; justify-content:center; font-size:36px; margin:12px 0;">
+            ${sectorInfo.icon}
           </div>
           <h1 class="company-name-large">${company.name}</h1>
           <p class="company-oneliner">${oneLiner}</p>
@@ -1398,165 +1399,10 @@
       });
     }
 
-    // Export button
-    const exportBtn = document.getElementById('btn-export');
-    if (exportBtn) {
-      exportBtn.addEventListener('click', () => {
-        if (typeof generateOnePager === 'function') {
-          generateOnePager(company.name);
-        } else {
-          alert('PDF export coming soon!');
-        }
-      });
-    }
-
     // Update attribution
     const attrUpdated = document.getElementById('attribution-updated');
     if (attrUpdated && typeof DATA_SOURCES !== 'undefined') {
       attrUpdated.textContent = `Last updated: ${DATA_SOURCES.companies?.lastUpdated || 'Unknown'}`;
-    }
-  }
-
-  // ═══════════════════════════════════════════════════════
-  // AI RESEARCH ASSISTANT
-  // ═══════════════════════════════════════════════════════
-
-  function initAIAssistant() {
-    const fab = document.getElementById('ai-assistant-fab');
-    const panel = document.getElementById('ai-assistant-panel');
-    const closeBtn = document.getElementById('ai-panel-close');
-    const input = document.getElementById('ai-input');
-    const sendBtn = document.getElementById('ai-send-btn');
-    const chatContainer = document.getElementById('ai-chat');
-    const suggestionBtns = document.querySelectorAll('.ai-suggestion-btn');
-
-    if (!fab || !panel) return;
-
-    // Toggle panel
-    fab.addEventListener('click', () => {
-      panel.style.display = panel.style.display === 'none' ? 'flex' : 'none';
-      fab.style.display = panel.style.display === 'none' ? 'flex' : 'none';
-      if (panel.style.display !== 'none') {
-        input.focus();
-      }
-    });
-
-    closeBtn.addEventListener('click', () => {
-      panel.style.display = 'none';
-      fab.style.display = 'flex';
-    });
-
-    // Suggestion buttons
-    suggestionBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const query = btn.dataset.query;
-        handleAIQuery(query, chatContainer);
-      });
-    });
-
-    // Send button
-    sendBtn.addEventListener('click', () => {
-      const query = input.value.trim();
-      if (query) {
-        handleAIQuery(query, chatContainer);
-        input.value = '';
-      }
-    });
-
-    // Enter key
-    input.addEventListener('keypress', (e) => {
-      if (e.key === 'Enter') {
-        const query = input.value.trim();
-        if (query) {
-          handleAIQuery(query, chatContainer);
-          input.value = '';
-        }
-      }
-    });
-  }
-
-  function handleAIQuery(query, chatContainer) {
-    if (!currentCompany) return;
-
-    // Add user message
-    const userMsg = document.createElement('div');
-    userMsg.className = 'ai-message user';
-    userMsg.textContent = getQueryDisplayText(query);
-    chatContainer.appendChild(userMsg);
-
-    // Add loading message
-    const loadingMsg = document.createElement('div');
-    loadingMsg.className = 'ai-message assistant loading';
-    loadingMsg.innerHTML = '<div class="ai-typing-indicator"><span></span><span></span><span></span></div>';
-    chatContainer.appendChild(loadingMsg);
-    chatContainer.scrollTop = chatContainer.scrollHeight;
-
-    // Generate response (using local data - in production would call Claude API)
-    setTimeout(() => {
-      loadingMsg.remove();
-      const response = generateAIResponse(query, currentCompany);
-      const assistantMsg = document.createElement('div');
-      assistantMsg.className = 'ai-message assistant';
-      assistantMsg.innerHTML = response;
-      chatContainer.appendChild(assistantMsg);
-      chatContainer.scrollTop = chatContainer.scrollHeight;
-    }, 1000);
-  }
-
-  function getQueryDisplayText(query) {
-    const queryMap = {
-      'summarize': 'Summarize this company',
-      'bull-case': "What's the bull case?",
-      'bear-case': "What's the bear case?",
-      'competitors': 'How do they compare to competitors?',
-      'risks': 'What are the key risks?'
-    };
-    return queryMap[query] || query;
-  }
-
-  function generateAIResponse(query, company) {
-    // In production, this would call the Claude API
-    // For now, generate intelligent responses from available data
-
-    const score = typeof INNOVATOR_SCORES !== 'undefined' ? INNOVATOR_SCORES.find(s => s.company === company.name) : null;
-    const patent = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => p.company === company.name) : null;
-    const altData = typeof ALT_DATA_SIGNALS !== 'undefined' ? ALT_DATA_SIGNALS.find(a => a.company === company.name) : null;
-
-    switch (query) {
-      case 'summarize':
-        return `<strong>${company.name}</strong> is a ${company.sector} company ${company.location ? `based in ${company.location}` : ''}. ${company.description?.split('.').slice(0, 2).join('.')}.<br><br>` +
-          `${company.valuation ? `<strong>Valuation:</strong> ${company.valuation}<br>` : ''}` +
-          `${company.totalRaised ? `<strong>Total Raised:</strong> ${company.totalRaised}<br>` : ''}` +
-          `${score ? `<strong>Frontier Index:</strong> ${score.composite?.toFixed(0) || score.total}/100` : ''}`;
-
-      case 'bull-case':
-        return company.thesis?.bull || `The bull case for ${company.name} centers on their position in the ${company.sector} sector. ${company.insight || 'Further analysis pending.'}`;
-
-      case 'bear-case':
-        return company.thesis?.bear || `Key concerns for ${company.name} include market competition and execution risk. ${company.thesis?.risks ? 'Specific risks: ' + company.thesis.risks.join(', ') : ''}`;
-
-      case 'competitors':
-        const competitors = company.competitors || [];
-        if (competitors.length > 0) {
-          return `${company.name} competes with: <strong>${competitors.join(', ')}</strong>.<br><br>` +
-            `${company.insight || 'Competitive positioning analysis pending.'}`;
-        }
-        return `No direct competitors identified in our database. ${company.name} operates in the ${company.sector} sector.`;
-
-      case 'risks':
-        if (company.thesis?.risks && company.thesis.risks.length > 0) {
-          return `<strong>Key risks for ${company.name}:</strong><br><br>` +
-            company.thesis.risks.map(r => `• ${r}`).join('<br>');
-        }
-        return `Risk assessment for ${company.name} is pending. General sector risks in ${company.sector} include regulatory changes, market competition, and execution risk.`;
-
-      default:
-        return `I can help you analyze ${company.name}. Try asking about:<br>` +
-          `• Company summary<br>` +
-          `• Bull/bear case<br>` +
-          `• Competitive landscape<br>` +
-          `• Key risks<br><br>` +
-          `<em>Note: For more detailed AI analysis, configure your API key in settings.</em>`;
     }
   }
 

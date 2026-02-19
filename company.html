@@ -18,8 +18,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="styles.css?v=20260219b">
-    <link rel="stylesheet" href="company-profile.css?v=20260219b">
+    <link rel="stylesheet" href="styles.css?v=20260219c">
+    <link rel="stylesheet" href="company-profile.css?v=20260219c">
 </head>
 <body class="company-profile-page">
     <!-- Minimal Navigation -->
@@ -259,9 +259,6 @@
                     <button class="action-btn" id="btn-share">
                         <span class="btn-icon">↗</span> Share Profile
                     </button>
-                    <button class="action-btn" id="btn-export">
-                        <span class="btn-icon">📄</span> Export PDF
-                    </button>
                     <button class="action-btn" id="btn-compare">
                         <span class="btn-icon">⚖️</span> Compare
                     </button>
@@ -299,53 +296,24 @@
         </div>
     </main>
 
-    <!-- AI Research Assistant -->
-    <div class="ai-assistant-fab" id="ai-assistant-fab" title="Ask AI about this company">
-        <span class="ai-icon">🤖</span>
-    </div>
-
-    <!-- AI Assistant Panel -->
-    <div class="ai-assistant-panel" id="ai-assistant-panel" style="display:none;">
-        <div class="ai-panel-header">
-            <h3>🤖 AI Research Assistant</h3>
-            <button class="ai-panel-close" id="ai-panel-close">×</button>
-        </div>
-        <div class="ai-panel-body">
-            <div class="ai-suggestions">
-                <p class="ai-suggestions-label">Suggested questions:</p>
-                <button class="ai-suggestion-btn" data-query="summarize">Summarize this company</button>
-                <button class="ai-suggestion-btn" data-query="bull-case">What's the bull case?</button>
-                <button class="ai-suggestion-btn" data-query="bear-case">What's the bear case?</button>
-                <button class="ai-suggestion-btn" data-query="competitors">How do they compare to competitors?</button>
-                <button class="ai-suggestion-btn" data-query="risks">What are the key risks?</button>
-            </div>
-            <div class="ai-chat" id="ai-chat">
-                <!-- Chat messages will appear here -->
-            </div>
-            <div class="ai-input-container">
-                <input type="text" id="ai-input" placeholder="Ask anything about this company..." autocomplete="off">
-                <button id="ai-send-btn">Send</button>
-            </div>
-        </div>
-    </div>
-
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="auth.js?v=20260219bb"></script>
-    <script src="data.js?v=20260219b"></script>
-    <script src="data/stocks_auto.js?v=20260219b"></script>
-    <script src="data/insider_transactions_auto.js?v=20260219b"></script>
-    <script src="data/news_signals_auto.js?v=20260219b"></script>
-    <script src="data/patent_intel_auto.js?v=20260219b"></script>
-    <script src="data/github_releases_auto.js?v=20260219b"></script>
-    <script src="data/arxiv_papers_auto.js?v=20260219b"></script>
-    <script src="data/clinical_trials_auto.js?v=20260219b"></script>
-    <script src="data/fda_actions_auto.js?v=20260219b"></script>
-    <script src="data/hackernews_buzz_auto.js?v=20260219b"></script>
-    <script src="data/federal_register_auto.js?v=20260219b"></script>
-    <script src="data/doe_programs_auto.js?v=20260219b"></script>
-    <script src="data/press_releases_auto.js?v=20260219b"></script>
-    <script src="app.js?v=20260219b"></script>
-    <script src="company-profile.js?v=20260219b"></script>
+    <script src="auth.js?v=20260219c"></script>
+    <script src="data.js?v=20260219c"></script>
+    <script src="data/sec_filings_auto.js?v=20260219c"></script>
+    <script src="data/stocks_auto.js?v=20260219c"></script>
+    <script src="data/insider_transactions_auto.js?v=20260219c"></script>
+    <script src="data/news_signals_auto.js?v=20260219c"></script>
+    <script src="data/patent_intel_auto.js?v=20260219c"></script>
+    <script src="data/github_releases_auto.js?v=20260219c"></script>
+    <script src="data/arxiv_papers_auto.js?v=20260219c"></script>
+    <script src="data/clinical_trials_auto.js?v=20260219c"></script>
+    <script src="data/fda_actions_auto.js?v=20260219c"></script>
+    <script src="data/hackernews_buzz_auto.js?v=20260219c"></script>
+    <script src="data/federal_register_auto.js?v=20260219c"></script>
+    <script src="data/doe_programs_auto.js?v=20260219c"></script>
+    <script src="data/press_releases_auto.js?v=20260219c"></script>
+    <script src="app.js?v=20260219c"></script>
+    <script src="company-profile.js?v=20260219c"></script>
 </body>
 </html>

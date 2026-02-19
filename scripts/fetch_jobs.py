@@ -294,7 +294,7 @@ DIRECT_CAREER_PAGES = [
 
 def fetch_greenhouse_jobs(company_name, board_token):
     """Fetch jobs from Greenhouse public API."""
-    url = f"https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs"
+    url = f"https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs?pay_transparency=true"
 
     try:
         response = requests.get(url, timeout=15)
@@ -307,6 +307,20 @@ def fetch_greenhouse_jobs(company_name, board_token):
                 departments = job.get("departments", [])
                 department = departments[0].get("name", "General") if departments else "General"
 
+                # Extract salary/pay transparency data
+                pay_ranges = job.get("pay_input_ranges", [])
+                salary_min = None
+                salary_max = None
+                salary_currency = None
+                if pay_ranges:
+                    first_range = pay_ranges[0]
+                    min_cents = first_range.get("min_cents", 0)
+                    max_cents = first_range.get("max_cents", 0)
+                    if min_cents or max_cents:
+                        salary_min = min_cents // 100 if min_cents else None
+                        salary_max = max_cents // 100 if max_cents else None
+                        salary_currency = first_range.get("currency_type", "USD")
+
                 jobs.append({
                     "id": f"gh-{board_token}-{job.get('id')}",
                     "company": company_name,
@@ -318,7 +332,10 @@ def fetch_greenhouse_jobs(company_name, board_token):
                     "url": job.get("absolute_url", ""),
                     "remote": remote,
                     "sector": COMPANY_SECTORS.get(company_name, "tech"),
-                    "source": "greenhouse"
+                    "source": "greenhouse",
+                    "salaryMin": salary_min,
+                    "salaryMax": salary_max,
+                    "salaryCurrency": salary_currency
                 })
             return jobs
         return []
@@ -555,6 +572,8 @@ def aggregate_stats(jobs):
 
         if job["remote"]:
             stats["remoteJobs"] += 1
+
+    stats["jobsWithSalary"] = sum(1 for j in jobs if j.get("salaryMin") or j.get("salaryMax"))
 
     return stats
 

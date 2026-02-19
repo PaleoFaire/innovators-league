@@ -10,8 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="styles.css?v=20260219b">
+    <script src="lib/d3.v7.min.js"></script>
+    <script>if(typeof d3==='undefined'){document.write('<script src="https://d3js.org/d3.v7.min.js"><\/script>');console.warn('D3 loaded from CDN fallback');}</script>
+    <link rel="stylesheet" href="styles.css?v=20260219c">
 </head>
 <body>
     <!-- Navigation — 5 Key Tabs -->
@@ -1142,56 +1143,6 @@
         </div>
     </section>
 
-    <!-- AI Research Assistant FAB -->
-    <div class="ai-assistant-fab" id="ai-assistant-fab" title="AI Research Assistant">
-        <span class="ai-fab-icon">🤖</span>
-    </div>
-
-    <!-- AI Research Assistant Panel -->
-    <div class="ai-assistant-panel" id="ai-assistant-panel" style="display:none;">
-        <div class="ai-panel-header">
-            <h3>🤖 AI Research Assistant</h3>
-            <button class="ai-panel-close" id="ai-panel-close">&times;</button>
-        </div>
-        <div class="ai-panel-body">
-            <div class="ai-welcome">
-                <p>Ask me anything about frontier tech companies, sectors, or investments.</p>
-            </div>
-            <div class="ai-suggestions">
-                <p class="ai-suggestions-label">Try asking:</p>
-                <button class="ai-suggestion-btn" data-query="Which defense companies have the highest government traction?">Defense + Gov traction</button>
-                <button class="ai-suggestion-btn" data-query="Compare Anduril vs Shield AI">Compare companies</button>
-                <button class="ai-suggestion-btn" data-query="What nuclear startups are raising Series B or later?">Nuclear funding</button>
-                <button class="ai-suggestion-btn" data-query="Which companies have the strongest IP moats?">IP moat analysis</button>
-            </div>
-            <div class="ai-chat" id="ai-chat"></div>
-            <div class="ai-input-container">
-                <input type="text" id="ai-input" placeholder="Ask about any company, sector, or trend..." autocomplete="off">
-                <button id="ai-send-btn">→</button>
-            </div>
-            <div class="ai-settings">
-                <button class="ai-settings-btn" id="ai-settings-btn">⚙️ Configure API Key</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- AI Settings Modal -->
-    <div class="ai-settings-modal" id="ai-settings-modal" style="display:none;">
-        <div class="ai-settings-content">
-            <h3>AI Configuration</h3>
-            <p>To enable advanced AI analysis, enter your Anthropic API key. Your key is stored locally and never sent to our servers.</p>
-            <div class="ai-key-input">
-                <label for="anthropic-api-key">Anthropic API Key</label>
-                <input type="password" id="anthropic-api-key" placeholder="sk-ant-...">
-            </div>
-            <div class="ai-settings-actions">
-                <button class="ai-save-key-btn" id="ai-save-key-btn">Save Key</button>
-                <button class="ai-cancel-btn" id="ai-cancel-settings-btn">Cancel</button>
-            </div>
-            <p class="ai-key-note">Don't have a key? <a href="https://console.anthropic.com/" target="_blank" rel="noopener">Get one from Anthropic</a></p>
-        </div>
-    </div>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -1223,20 +1174,19 @@
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="auth.js?v=20260219bb"></script>
-    <script src="data.js?v=20260219b"></script>
-    <script src="data/stocks_auto.js?v=20260219b"></script>
-    <script src="data/sec_filings_auto.js?v=20260219b"></script>
-    <script src="data/gov_contracts_auto.js?v=20260219b"></script>
-    <script src="data/patent_intel_auto.js?v=20260219b"></script>
-    <script src="data/hackernews_buzz_auto.js?v=20260219b"></script>
-    <script src="data/press_releases_auto.js?v=20260219b"></script>
-    <script src="data/github_releases_auto.js?v=20260219b"></script>
-    <script src="data/federal_register_auto.js?v=20260219b"></script>
-    <script src="data/doe_programs_auto.js?v=20260219b"></script>
-    <script src="app.js?v=20260219b"></script>
+    <script src="auth.js?v=20260219c"></script>
+    <script src="data.js?v=20260219c"></script>
+    <script src="data/stocks_auto.js?v=20260219c"></script>
+    <script src="data/sec_filings_auto.js?v=20260219c"></script>
+    <script src="data/gov_contracts_auto.js?v=20260219c"></script>
+    <script src="data/patent_intel_auto.js?v=20260219c"></script>
+    <script src="data/hackernews_buzz_auto.js?v=20260219c"></script>
+    <script src="data/press_releases_auto.js?v=20260219c"></script>
+    <script src="data/github_releases_auto.js?v=20260219c"></script>
+    <script src="data/federal_register_auto.js?v=20260219c"></script>
+    <script src="data/doe_programs_auto.js?v=20260219c"></script>
+    <script src="app.js?v=20260219c"></script>
 </body>
 </html>

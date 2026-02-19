@@ -1,48 +1,7 @@
-// Auto-updated SEC filings from EDGAR — Last updated: 2026-02-17
-// Auto-updated SEC filings from EDGAR
-// Last updated: 2026-02-18
-const SEC_FILINGS_LIVE = [
-  { company: "Palantir Technologies", form: "4", date: "2026-02-04", description: "xslF345X05/wk-form4_1770254739.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2026-02-04", description: "xslF345X05/wk-form4_1770254378.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "8-K", date: "2026-02-02", description: "pltr-20260202.htm", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2026-01-06", description: "xslF345X05/wk-form4_1767748866.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2026-01-06", description: "xslF345X05/wk-form4_1767748121.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2026-01-06", description: "xslF345X05/wk-form4_1767748047.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2025-12-16", description: "xslF345X05/wk-form4_1765934176.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2025-12-03", description: "xslF345X05/wk-form4_1764810142.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2025-11-24", description: "xslF345X05/wk-form4_1764033425.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2025-11-24", description: "xslF345X05/wk-form4_1764033361.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2025-11-24", description: "xslF345X05/wk-form4_1764033281.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2025-11-24", description: "xslF345X05/wk-form4_1764033188.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2025-11-24", description: "xslF345X05/wk-form4_1764033127.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Palantir Technologies", form: "4", date: "2025-11-24", description: "xslF345X05/wk-form4_1764032990.xml", isIPO: false, ticker: "PLTR" },
-  { company: "Rocket Lab", form: "4", date: "2026-01-22", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "8-K", date: "2026-01-22", description: "rklb-20260121.htm", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-01-15", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-01-06", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2026-01-06", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-12-30", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-12-30", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-12-30", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-12-23", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-12-22", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-12-22", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "8-K", date: "2025-12-19", description: "rklb-20251217.htm", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-12-18", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-12-16", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-12-16", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-12-05", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-11-26", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-11-26", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-11-25", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-11-25", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-11-25", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-11-25", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "4", date: "2025-11-21", description: "xslF345X05/edgardoc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "10-Q", date: "2025-11-10", description: "rklb-20250930.htm", isIPO: false, ticker: "RKLB" },
-  { company: "Rocket Lab", form: "8-K", date: "2025-11-10", description: "rklb-20251107.htm", isIPO: false, ticker: "RKLB" },
-  { company: "AST SpaceMobile", form: "8-K", date: "2026-01-16", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
-];
+// SEC filings now loaded from data/sec_filings_auto.js to avoid duplicate const declaration
+// (SEC_FILINGS_LIVE was previously declared here AND in data/sec_filings_auto.js, causing SyntaxError)
+
+// Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
 const LAST_UPDATED = "2026-02-18";
 
@@ -778,7 +737,7 @@ const COMPANIES = [
     lng: -122.2416,
     fundingStage: "Late Stage",
     totalRaised: "$500M+",
-    valuation: "",
+    valuation: "$1.6B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
     tags: ["SMR", "nuclear", "molten salt", "Google"]
   },
@@ -792,8 +751,8 @@ const COMPANIES = [
     lat: 39.0840,
     lng: -77.1528,
     fundingStage: "Late Stage",
-    totalRaised: "$500M+",
-    valuation: "",
+    totalRaised: "$1.1B+",
+    valuation: "$2B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
     tags: ["SMR", "nuclear", "data centers", "Amazon"]
   },
@@ -858,8 +817,8 @@ const COMPANIES = [
     lat: 47.6101,
     lng: -122.2015,
     fundingStage: "Late Stage",
-    totalRaised: "$1B+",
-    valuation: "",
+    totalRaised: "$1.7B+",
+    valuation: "$4B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
     tags: ["SMR", "nuclear", "Natrium"]
   },
@@ -965,7 +924,7 @@ const COMPANIES = [
     lng: -118.1937,
     fundingStage: "Public",
     totalRaised: "",
-    valuation: "$45B",
+    valuation: "$37B+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["rockets", "satellites", "launch"],
     insight: "Rocket Lab is the clear #2 in launch and pulling away. The $816M SDA contract proves they can compete for national security missions. Peter Beck's end-to-end space company vision is materializing.",
@@ -1001,7 +960,7 @@ const COMPANIES = [
     lng: -118.4160,
     fundingStage: "Series C",
     totalRaised: "$187M+",
-    valuation: "",
+    valuation: "$500M+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-rational-optimist-awards-2026",
     tags: ["space manufacturing", "pharmaceuticals", "re-entry"]
   },
@@ -1046,7 +1005,7 @@ const COMPANIES = [
     lng: -118.1940,
     fundingStage: "Late Stage",
     totalRaised: "$1.3B+",
-    valuation: "",
+    valuation: "$4.2B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["rockets", "launch", "3D printing"],
     insight: "Eric Schmidt's acquisition and pivot toward space-based data centers is a bold bet. If compute needs to move to orbit for energy or latency reasons, Relativity has the manufacturing tech to build it.",
@@ -1067,7 +1026,7 @@ const COMPANIES = [
     lng: -118.3884,
     fundingStage: "Series C",
     totalRaised: "$300M+",
-    valuation: "",
+    valuation: "$1.8B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["orbital transfer", "satellite buses", "space"]
   },
@@ -1097,7 +1056,7 @@ const COMPANIES = [
     lng: -118.1942,
     fundingStage: "Private",
     totalRaised: "$300M+",
-    valuation: "",
+    valuation: "$2B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["space station", "commercial space", "LEO"]
   },
@@ -1161,9 +1120,9 @@ const COMPANIES = [
     state: "TX",
     lat: 30.5052,
     lng: -97.8203,
-    fundingStage: "Late Stage",
+    fundingStage: "Public",
     totalRaised: "$300M+",
-    valuation: "",
+    valuation: "$4B+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["rockets", "small launch", "space"]
   },
@@ -1221,7 +1180,7 @@ const COMPANIES = [
     lng: -84.3880,
     fundingStage: "Series C",
     totalRaised: "$200M+",
-    valuation: "",
+    valuation: "$1B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/dude-wheres-my-supersonic-jet",
     tags: ["hypersonic", "Mach 5", "military", "aviation"],
     insight: "Hermeus's military-first strategy is smart — DoD will pay for Mach 5 capabilities that commercial aviation won't need for decades. The Chimera engine's turbine-to-ramjet transition is the key technical risk.",
@@ -1733,7 +1692,7 @@ const COMPANIES = [
     lng: -71.6133,
     fundingStage: "Late Stage",
     totalRaised: "$3B",
-    valuation: "",
+    valuation: "$5B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/ridley-are-we-finally-about-to-crack",
     tags: ["fusion", "tokamak", "superconductors"]
   },
@@ -1804,7 +1763,7 @@ const COMPANIES = [
     lng: -117.6611,
     fundingStage: "Late Stage",
     totalRaised: "$1.2B+",
-    valuation: "",
+    valuation: "$6B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/ridley-are-we-finally-about-to-crack",
     tags: ["fusion", "proton-boron", "energy"]
   },
@@ -1926,7 +1885,7 @@ const COMPANIES = [
     lng: -122.0308,
     fundingStage: "Public",
     totalRaised: "$2B+",
-    valuation: "",
+    valuation: "$10B+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["eVTOL", "air taxi", "electric aviation"]
   },
@@ -1988,7 +1947,7 @@ const COMPANIES = [
     lng: -122.0363,
     fundingStage: "Pre-IPO",
     totalRaised: "$700M+",
-    valuation: "$8.1B+",
+    valuation: "$23B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-chip-rebellion-is-on",
     tags: ["AI chips", "wafer-scale", "semiconductors"],
     insight: "Cerebras' wafer-scale approach is the most radical chip architecture bet in the AI hardware race. If they IPO successfully at $22B+, it validates an entirely new computing paradigm beyond GPUs.",
@@ -2608,7 +2567,7 @@ const COMPANIES = [
     lng: -122.2348,
     fundingStage: "Late Stage",
     totalRaised: "$10B+",
-    valuation: "",
+    valuation: "$30B+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["rockets", "launch", "lunar lander", "space"]
   },
@@ -2623,7 +2582,7 @@ const COMPANIES = [
     lng: -95.3698,
     fundingStage: "Late Stage",
     totalRaised: "$500M+",
-    valuation: "",
+    valuation: "$2.5B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["space station", "commercial space", "NASA"]
   },
@@ -2839,7 +2798,7 @@ const COMPANIES = [
     lng: -122.4194,
     fundingStage: "Series B",
     totalRaised: "$125M+",
-    valuation: "",
+    valuation: "$800M+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["humanoid robot", "AI", "home robotics"]
   },
@@ -3023,7 +2982,7 @@ const COMPANIES = [
     lng: -71.0995,
     fundingStage: "Late Stage",
     totalRaised: "$800M+",
-    valuation: "",
+    valuation: "$3.5B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["iron-air battery", "grid storage", "100-hour"]
   },
@@ -3556,7 +3515,7 @@ const COMPANIES = [
     lng: -104.8214,
     fundingStage: "Series B",
     totalRaised: "$100M+",
-    valuation: "",
+    valuation: "$1.5B",
     rosLink: "",
     tags: ["space domain awareness", "defense", "satellites"]
   },
@@ -3676,9 +3635,9 @@ const COMPANIES = [
     state: "WA",
     lat: 47.9790,
     lng: -122.2021,
-    fundingStage: "Series C",
-    totalRaised: "$200M+",
-    valuation: "",
+    fundingStage: "Series D",
+    totalRaised: "$330M+",
+    valuation: "$1B",
     rosLink: "",
     tags: ["fusion", "Z-pinch", "clean energy"]
   },
@@ -3692,8 +3651,8 @@ const COMPANIES = [
     lat: 49.1666,
     lng: -123.1336,
     fundingStage: "Late Stage",
-    totalRaised: "$300M+",
-    valuation: "",
+    totalRaised: "$500M+",
+    valuation: "$425M",
     rosLink: "",
     tags: ["fusion", "magnetized target", "clean energy"]
   },
@@ -3708,7 +3667,7 @@ const COMPANIES = [
     lng: -89.4012,
     fundingStage: "Series B",
     totalRaised: "$100M+",
-    valuation: "",
+    valuation: "$200M+",
     rosLink: "",
     tags: ["fusion", "stellarator", "HTS magnets"]
   },
@@ -3795,7 +3754,7 @@ const COMPANIES = [
     lng: -122.2348,
     fundingStage: "Series B",
     totalRaised: "$175M+",
-    valuation: "",
+    valuation: "$1B",
     rosLink: "",
     tags: ["launch", "reusable rocket", "space"]
   },
@@ -3840,7 +3799,7 @@ const COMPANIES = [
     lng: -122.4194,
     fundingStage: "Public",
     totalRaised: "$700M+",
-    valuation: "",
+    valuation: "$7B+",
     rosLink: "",
     tags: ["Earth observation", "satellites", "geospatial"]
   },
@@ -3855,7 +3814,7 @@ const COMPANIES = [
     lng: 139.6503,
     fundingStage: "Public",
     totalRaised: "$400M+",
-    valuation: "",
+    valuation: "$900M",
     rosLink: "",
     tags: ["space debris", "on-orbit servicing", "sustainability"]
   },
@@ -4020,7 +3979,7 @@ const COMPANIES = [
     lng: 2.3522,
     fundingStage: "Series B",
     totalRaised: "$1B+",
-    valuation: "$6B",
+    valuation: "$14B",
     rosLink: "",
     tags: ["LLM", "open-source AI", "frontier AI"]
   },
@@ -4236,7 +4195,7 @@ const COMPANIES = [
     lng: -111.8910,
     fundingStage: "Public",
     totalRaised: "$1B+",
-    valuation: "",
+    valuation: "$1.8B",
     rosLink: "",
     tags: ["AI drug discovery", "biotech", "machine learning"]
   },
@@ -4403,7 +4362,7 @@ const COMPANIES = [
     lng: -119.7674,
     fundingStage: "Series D",
     totalRaised: "$1B+",
-    valuation: "$5B",
+    valuation: "$6B+",
     rosLink: "",
     tags: ["battery recycling", "lithium", "circular economy"]
   },
@@ -4525,7 +4484,7 @@ const COMPANIES = [
     lng: -121.8863,
     fundingStage: "Public",
     totalRaised: "$1.5B+",
-    valuation: "",
+    valuation: "$5B",
     rosLink: "",
     tags: ["eVTOL", "air taxi", "urban air mobility"]
   },
@@ -4719,7 +4678,7 @@ const COMPANIES = [
     lng: -76.9369,
     fundingStage: "Public",
     totalRaised: "$600M+",
-    valuation: "",
+    valuation: "$11B+",
     rosLink: "",
     tags: ["trapped-ion", "quantum computing", "public"]
   },
@@ -4734,7 +4693,7 @@ const COMPANIES = [
     lng: -122.2727,
     fundingStage: "Public",
     totalRaised: "$300M+",
-    valuation: "",
+    valuation: "$5.5B",
     rosLink: "",
     tags: ["superconducting", "quantum computing", "cloud"]
   },
@@ -8058,9 +8017,9 @@ const COMPANIES = [
     state: "CA",
     lat: 37.7749,
     lng: -122.4194,
-    fundingStage: "Series A",
-    totalRaised: "$100M+",
-    valuation: "",
+    fundingStage: "Series B",
+    totalRaised: "$534M",
+    valuation: "$3.3B",
     tags: ["AI", "infrastructure", "open-source"],
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 7, market: 9, momentum: 8 },
@@ -8221,6 +8180,7 @@ const COMPANIES = [
 
   {
     name: "KLIR Sky",
+    founder: "Nicholas Upchurch",
     sector: "Climate Tech",
     description: "Carbon capture technology that freezes smokestack emissions to cryogenic temperatures, separating valuable gases (CO2, Oxygen, Nitrogen, Methane, Hydrogen) for sale into industrial markets.",
     thesis: "Turns pollution into profit. Integrates for free and splits revenue with smokestack owners - sometimes making more money than the original business.",
@@ -8244,6 +8204,7 @@ const COMPANIES = [
   },
   {
     name: "Cresilon",
+    founder: "Joe Landolina",
     sector: "Medical Devices",
     description: "Makers of Traumagel, an algae- and fungi-based hemostatic gel that stops moderate to severe bleeding within seconds. FDA-cleared for first responders.",
     thesis: "Revolutionizing trauma care with a flowable gel that finds its way to bleeding sites, safer and more effective than gauze packing.",
@@ -8267,6 +8228,7 @@ const COMPANIES = [
   },
   {
     name: "FlyBy Robotics",
+    founder: "Jason Lu & Cat Orman",
     sector: "Defense & Security",
     description: "Building low-cost drone swarms for military applications. Proving that quantity has a quality all its own with $2,000 drones vs $200,000 military alternatives.",
     thesis: "The SpaceX approach to defense: fast, cheap, scalable drone swarms using consumer-grade electronics to overwhelm adversaries.",
@@ -8290,6 +8252,7 @@ const COMPANIES = [
   },
   {
     name: "Ulysses Robotics",
+    founder: "Akhil Voorakkara & Jamie Wedderburn",
     sector: "Robotics & Manufacturing",
     description: "Ocean robotics company building autonomous underwater systems for the new ocean frontier.",
     thesis: "The ocean is the next frontier - underwater autonomy for exploration, resource extraction, and infrastructure.",
@@ -8334,6 +8297,7 @@ const COMPANIES = [
   },
   {
     name: "Cuby",
+    founder: "Aleh Kandrashou & Aleksandr Gampel",
     sector: "Construction Tech",
     description: "Modular housing technology company revolutionizing home construction with prefabricated, affordable housing solutions.",
     thesis: "Solving the housing crisis through manufacturing innovation - homes built like products, not projects.",
@@ -8361,6 +8325,7 @@ const COMPANIES = [
 
   {
     name: "White Stork",
+    founder: "Eric Schmidt",
     sector: "Defense & Security",
     description: "Eric Schmidt-backed AI-powered autonomous drones for target identification and military applications. Actively deployed aiding Ukraine's defense efforts.",
     thesis: "Ex-Google CEO's bet on AI-first defense drones. Combining Silicon Valley AI with real-world military deployment.",
@@ -8384,6 +8349,7 @@ const COMPANIES = [
   },
   {
     name: "Parry Labs",
+    founder: "John Parkes",
     sector: "Defense & Security",
     description: "Digital systems integration for Department of Defense. Modernizing legacy defense infrastructure with modern software and hardware integration. $80M raised in 2024.",
     thesis: "The unsexy but critical work of connecting legacy DoD systems with modern capabilities. Digital backbone of defense modernization.",
@@ -8407,6 +8373,7 @@ const COMPANIES = [
   },
   {
     name: "Fortem Technologies",
+    founder: "Timothy Bean",
     sector: "Defense & Security",
     description: "Counter-UAV systems including the DroneHunter autonomous interceptor drone. Detects, tracks, and neutralizes hostile drones. $39.7M in funding.",
     thesis: "As drones proliferate, counter-drone becomes critical. DroneHunter physically captures hostile drones with nets.",
@@ -8429,6 +8396,7 @@ const COMPANIES = [
   },
   {
     name: "Hexium",
+    founder: "Charlie Jarrott & Jacob Peterson",
     sector: "Nuclear Energy",
     description: "Atomic Vapor Laser Isotope Separation (AVLIS) for lithium isotope enrichment. Clean, scalable approach to nuclear fuel production using laser technology.",
     thesis: "Novel approach to isotope separation that could accelerate nuclear fuel availability for the SMR renaissance.",
@@ -8451,6 +8419,7 @@ const COMPANIES = [
   },
   {
     name: "General Galactic",
+    founder: "Halen Mattison & Luke Neise",
     sector: "Climate Tech",
     description: "Creating sustainable hydrocarbon fuels - fossil-free natural gas for Earth and future Mars fuel stations. Turning captured CO2 into usable fuels.",
     thesis: "The path to net-zero isn't eliminating hydrocarbons - it's making them sustainably. Future fuel infrastructure for both Earth and space.",
@@ -8473,6 +8442,7 @@ const COMPANIES = [
   },
   {
     name: "Ares Industries",
+    founder: "Andrew Hessick",
     sector: "Defense & Security",
     description: "Next-generation precision-guided munitions and missile systems designed for rapid production and modern warfare requirements.",
     thesis: "The US military's aging munitions stockpile needs a modern refresh — Ares is building software-defined weapons that can be manufactured at scale.",
@@ -8495,6 +8465,7 @@ const COMPANIES = [
   },
   {
     name: "Starcloud",
+    founder: "Philip Johnston",
     sector: "Space Systems",
     description: "Space-based cloud computing infrastructure. Deploying data centers in orbit to provide ultra-low latency computing for global applications.",
     thesis: "Edge computing's final frontier is space — Starcloud's orbital data centers will enable latency-sensitive applications that terrestrial infrastructure cannot support.",
@@ -8517,6 +8488,7 @@ const COMPANIES = [
   },
   {
     name: "Steady Energy",
+    founder: "Tommi Nyman",
     sector: "Energy & Climate",
     description: "Small modular reactor (SMR) company focused on compact, factory-built nuclear reactors for industrial and grid applications.",
     thesis: "Nuclear is the only proven path to baseload clean energy — Steady Energy's SMR design prioritizes manufacturability and rapid deployment.",
@@ -8539,6 +8511,7 @@ const COMPANIES = [
   },
   {
     name: "CarbonCapture Inc.",
+    founder: "Adrian Corless",
     sector: "Energy & Climate",
     description: "Direct air capture (DAC) technology using modular, mass-manufactured systems to remove CO2 from the atmosphere.",
     thesis: "DAC will be essential for hitting climate targets — CarbonCapture's modular approach enables faster scaling than megaproject competitors.",
@@ -8561,6 +8534,7 @@ const COMPANIES = [
   },
   {
     name: "Kyten Technologies",
+    founder: "Lucas Maddox & Cooper McBride",
     sector: "Advanced Materials",
     description: "High-performance carbon nanotube manufacturing for aerospace, defense, and industrial applications. Focus on structural materials.",
     thesis: "Carbon nanotubes promise revolutionary material properties but have been stuck in labs — Kyten has cracked scalable, affordable production.",
@@ -8583,6 +8557,7 @@ const COMPANIES = [
   },
   {
     name: "Graphyte",
+    founder: "Barclay Rogers",
     sector: "Energy & Climate",
     description: "Carbon removal through biomass carbon storage. Converts plant waste into stable carbon blocks for permanent underground storage.",
     thesis: "Nature already captures billions of tons of CO2 through photosynthesis — Graphyte's innovation is making that carbon permanent.",
@@ -8605,6 +8580,7 @@ const COMPANIES = [
   },
   {
     name: "Celero Communications",
+    founder: "Nariman Yousefi & Oscar Agazzi",
     sector: "Space Systems",
     description: "Direct-to-device satellite communications for smartphones. Enabling global connectivity without ground infrastructure.",
     thesis: "True global connectivity requires eliminating dead zones — Celero's D2D tech makes any smartphone a satellite phone.",
@@ -8627,6 +8603,7 @@ const COMPANIES = [
   },
   {
     name: "Zeta Surgical",
+    founder: "Jose Amich & Raahil Sha",
     sector: "BioTech & Health",
     description: "AI-powered surgical navigation and robotic systems for neurosurgery. Enabling minimally invasive brain procedures.",
     thesis: "Neurosurgery requires superhuman precision — Zeta's AI guidance makes complex brain procedures safer and more accessible.",
@@ -8649,6 +8626,7 @@ const COMPANIES = [
   },
   {
     name: "Electric Hydrogen",
+    founder: "Raffi Garabedian & David Eaglesham",
     sector: "Energy & Climate",
     description: "Industrial-scale green hydrogen production systems. Building efficient electrolyzers for heavy industry decarbonization.",
     thesis: "Green hydrogen is the key to decarbonizing steel, ammonia, and shipping — Electric Hydrogen's electrolyzers make the economics work.",
@@ -8671,6 +8649,7 @@ const COMPANIES = [
   },
   {
     name: "Tenna Systems",
+    founder: "Avner Bendheim & Gabriel Bendheim",
     sector: "Defense & Security",
     description: "Software platform that transforms existing sensor data into real-time maps of the radio-frequency domain, protecting against jamming and spoofing.",
     thesis: "Electronic warfare is the invisible battleground — Tenna's RF spectrum mapping gives warfighters situational awareness in contested electromagnetic environments.",
@@ -8693,6 +8672,7 @@ const COMPANIES = [
   },
   {
     name: "Vatn Systems",
+    founder: "Nelson Mills",
     sector: "Defense & Security",
     description: "Builds scalable autonomous underwater vehicles (AUVs) for US Navy and allied undersea warfare requirements.",
     thesis: "The undersea domain is becoming contested — Vatn's AUVs provide persistent, affordable ISR and strike capabilities beneath the waves.",
@@ -8715,6 +8695,7 @@ const COMPANIES = [
   },
   {
     name: "Hubble Network",
+    founder: "Alex Haro & Ben Wild",
     sector: "Space Systems",
     description: "Building a global satellite network that any Bluetooth-enabled device can connect to directly, demonstrated first Bluetooth-to-satellite link over 600km.",
     thesis: "True global IoT connectivity requires no new hardware — Hubble makes the billions of existing Bluetooth devices space-connected.",
@@ -8737,6 +8718,7 @@ const COMPANIES = [
   },
   {
     name: "Sage Geosystems",
+    founder: "Cindy Taff & Lance Cook",
     sector: "Energy & Climate",
     description: "Developed EarthStore, a Geopressured Geothermal System that harvests energy from pressurized water stored deep underground for dispatchable power and storage.",
     thesis: "Geothermal doesn't have to be limited to volcanic regions — Sage unlocks Earth's heat anywhere using oil & gas drilling expertise.",
@@ -8759,6 +8741,7 @@ const COMPANIES = [
   },
   {
     name: "Fourth Power",
+    founder: "Arvin Shmilovich",
     sector: "Energy & Climate",
     description: "Thermal energy storage using 2400°C liquid tin as heat transfer fluid, storing energy in carbon blocks and converting back via thermophotovoltaics.",
     thesis: "Ultra-high temperature thermal storage unlocks unprecedented energy density — Fourth Power's liquid metal approach pushes physics boundaries.",
@@ -8781,6 +8764,7 @@ const COMPANIES = [
   },
   {
     name: "Asimov",
+    founder: "Alec Nielsen & Aaron Saunders",
     sector: "BioTech & Health",
     description: "Builds tools for designing living systems, providing cell lines, genetic design software, and engineered genetic systems for advanced therapeutics manufacturing.",
     thesis: "Biology is becoming programmable — Asimov's genetic circuit design tools make cell engineering predictable and scalable.",
@@ -8803,6 +8787,7 @@ const COMPANIES = [
   },
   {
     name: "Cemvita Factory",
+    founder: "Moji Karimi",
     sector: "Energy & Climate",
     description: "Creates custom synthetic microbes that absorb CO2 and convert it into industrial chemicals like bio-ethylene using only CO2, water, and light.",
     thesis: "Biology can replace petrochemistry — Cemvita's engineered microbes turn emissions into valuable feedstocks.",
@@ -8825,6 +8810,7 @@ const COMPANIES = [
   },
   {
     name: "Q-CTRL",
+    founder: "Michael Biercuk",
     sector: "Quantum & Computing",
     description: "Develops AI-powered quantum infrastructure software that improves quantum computer and quantum sensor performance; embedded in IBM Quantum.",
     thesis: "Quantum hardware is error-prone — Q-CTRL's control software makes today's noisy qubits actually useful.",
@@ -8847,6 +8833,7 @@ const COMPANIES = [
   },
   {
     name: "Hidden Level",
+    founder: "John DeWaal",
     sector: "Defense & Security",
     description: "Develops passive radar and RF sensing technology to detect drones and aircraft threats, protecting critical infrastructure and national security.",
     thesis: "Active radar broadcasts your position — Hidden Level's passive sensing detects threats without revealing the defender.",
@@ -8869,6 +8856,7 @@ const COMPANIES = [
   },
   {
     name: "ClearSpace",
+    founder: "Luc Piguet",
     sector: "Space Systems",
     description: "Developing active debris removal spacecraft; contracted by ESA for the world's first debris removal mission (ClearSpace-1) in 2026.",
     thesis: "Space sustainability requires debris removal — ClearSpace is building the garbage trucks of orbit.",
@@ -8891,6 +8879,7 @@ const COMPANIES = [
   },
   {
     name: "Profluent",
+    founder: "Ali Madani",
     sector: "BioTech & Health",
     description: "Uses AI and large language models for de novo protein design, making biology programmable for therapeutics and industrial applications.",
     thesis: "LLMs learned language — now they're learning the language of life. Profluent generates novel proteins that nature never imagined.",
@@ -8913,6 +8902,7 @@ const COMPANIES = [
   },
   {
     name: "Fairmat",
+    founder: "Benjamin Saada",
     sector: "Advanced Materials",
     description: "Uses AI-driven robotics to recycle carbon fiber composites nearly infinitely, turning aerospace/automotive waste into engineered materials.",
     thesis: "Carbon fiber is too valuable to landfill — Fairmat's recycling unlocks circular economy for advanced composites.",
@@ -8935,6 +8925,7 @@ const COMPANIES = [
   },
   {
     name: "Infleqtion",
+    founder: "Dana Anderson",
     sector: "Quantum & Computing",
     description: "Develops atom-based quantum sensors including precision atomic clocks (100x more accurate than legacy systems), inertial navigation, and RF receivers for GPS-denied environments.",
     thesis: "Quantum sensing is here now — Infleqtion's atomic sensors deliver military-grade precision for navigation, timing, and communications.",
@@ -8957,6 +8948,7 @@ const COMPANIES = [
   },
   {
     name: "Elroy Air",
+    founder: "David Merrill & Clint Cope",
     sector: "Autonomous Systems",
     description: "Building the Chaparral, a hybrid-electric autonomous VTOL cargo drone capable of carrying 300-500 lbs over 300 miles for military resupply and disaster relief.",
     thesis: "Last-mile logistics in contested or disaster zones need autonomous aerial delivery — Elroy's Chaparral fills the gap.",
@@ -8979,6 +8971,7 @@ const COMPANIES = [
   },
   {
     name: "Solid Power",
+    founder: "Doug Campbell",
     sector: "Energy & Climate",
     description: "Developing sulfide-based solid-state battery technology for EVs; partnership with BMW for battery cell testing in production vehicles.",
     thesis: "Solid-state batteries promise safer, denser energy storage — Solid Power is scaling the technology with major automotive partners.",
@@ -9001,6 +8994,7 @@ const COMPANIES = [
   },
   {
     name: "Rain AI",
+    founder: "Gordon Wilson",
     sector: "Quantum & Computing",
     description: "Building brain-inspired neuromorphic processing units (NPUs) for energy-efficient AI inference, offering 100x energy efficiency gains over GPUs.",
     thesis: "AI's energy demands are unsustainable — Rain's neuromorphic chips bring brain-like efficiency to AI compute.",
@@ -9023,6 +9017,7 @@ const COMPANIES = [
   },
   {
     name: "Twelve Labs",
+    founder: "Jae Lee & Aiden Lee",
     sector: "AI & Software",
     description: "Multimodal AI foundation models for video understanding. Enables semantic search, classification, and generation from video content.",
     thesis: "Video is the largest untapped data source — Twelve Labs' foundation models make video as searchable and actionable as text.",
@@ -9045,6 +9040,7 @@ const COMPANIES = [
   },
   {
     name: "Kolena",
+    founder: "Mohamed Elgendy",
     sector: "AI & Software",
     description: "Machine learning testing and validation platform. Enables systematic evaluation of AI models for safety-critical applications.",
     thesis: "AI can't be deployed in critical applications without rigorous testing — Kolena makes ML validation systematic and auditable.",
@@ -9067,6 +9063,7 @@ const COMPANIES = [
   },
   {
     name: "Modal",
+    founder: "Erik Bernhardsson & Akshat Bubna",
     sector: "AI & Software",
     description: "Serverless cloud infrastructure for AI/ML workloads. Run any code in the cloud with zero configuration, optimized for GPU-intensive tasks.",
     thesis: "AI teams waste too much time on infrastructure — Modal abstracts away the complexity so engineers can focus on models.",
@@ -9089,6 +9086,7 @@ const COMPANIES = [
   },
   {
     name: "Terran Orbital",
+    founder: "Marc Bell & Daniel Oran",
     sector: "Space Systems",
     description: "End-to-end satellite solutions company manufacturing small satellites and providing space-based services for defense and commercial customers.",
     thesis: "Small satellites are democratizing access to space — Terran Orbital's vertically integrated approach delivers faster, cheaper capabilities.",
@@ -9111,6 +9109,7 @@ const COMPANIES = [
   },
   {
     name: "Skyrora",
+    founder: "Volodymyr Levykin",
     sector: "Space Systems",
     description: "UK-based launch vehicle company developing the Skyrora XL rocket for small satellite launches from Scotland.",
     thesis: "Europe needs sovereign launch capability — Skyrora brings responsive space access to the UK and broader European market.",
@@ -9133,6 +9132,7 @@ const COMPANIES = [
   },
   {
     name: "Orbion Space Technology",
+    founder: "Brad King",
     sector: "Space Systems",
     description: "Hall-effect plasma thrusters for small satellite propulsion. Enabling precise orbital maneuvering and deorbiting for LEO constellations.",
     thesis: "Small satellites need efficient propulsion — Orbion's plasma thrusters extend mission life and enable new orbital capabilities.",
@@ -9388,10 +9388,10 @@ const VC_FIRMS = [
 const MARKET_PULSE = [
   { name: "Palantir", ticker: "PLTR", valuation: "$400B+", change: "+2.4%", trend: "up", sector: "AI & Software" },
   { name: "NVIDIA", ticker: "NVDA", valuation: "$3.2T+", change: "+1.1%", trend: "up", sector: "Chips & Semiconductors" },
-  { name: "Rocket Lab", ticker: "RKLB", valuation: "$14B+", change: "+3.2%", trend: "up", sector: "Space & Aerospace" },
-  { name: "Joby Aviation", ticker: "JOBY", valuation: "$8B+", change: "-0.8%", trend: "down", sector: "Transportation" },
+  { name: "Rocket Lab", ticker: "RKLB", valuation: "$37B+", change: "+3.2%", trend: "up", sector: "Space & Aerospace" },
+  { name: "Joby Aviation", ticker: "JOBY", valuation: "$10B+", change: "-0.8%", trend: "down", sector: "Transportation" },
   { name: "Archer Aviation", ticker: "ACHR", valuation: "$5B+", change: "+1.7%", trend: "up", sector: "Transportation" },
-  { name: "Planet Labs", ticker: "PL", valuation: "$2.5B+", change: "+0.5%", trend: "up", sector: "Space & Aerospace" },
+  { name: "Planet Labs", ticker: "PL", valuation: "$7B+", change: "+0.5%", trend: "up", sector: "Space & Aerospace" },
   { name: "Intuitive Machines", ticker: "LUNR", valuation: "$3.8B+", change: "+4.1%", trend: "up", sector: "Space & Aerospace" },
   { name: "Kratos Defense", ticker: "KTOS", valuation: "$5B+", change: "+0.9%", trend: "up", sector: "Defense & Security" }
 ];
@@ -9404,7 +9404,7 @@ const FUNDING_TRACKER = [
   { company: "Anduril Industries", amount: "$2.5B", stage: "Series G", date: "2025-06", sector: "Defense & Security", lead: "Founders Fund", valuation: "$30.5B" },
   { company: "Figure AI", amount: "$1B+", stage: "Series C", date: "2025-09", sector: "Robotics & Manufacturing", lead: "Parkway VC", valuation: "$39B" },
   { company: "Physical Intelligence", amount: "$600M", stage: "Series B", date: "2025-11", sector: "Robotics & Manufacturing", lead: "CapitalG", valuation: "$5.6B" },
-  { company: "Cerebras", amount: "$1.1B", stage: "Series G", date: "2025-09", sector: "Chips & Semiconductors", lead: "Fidelity", valuation: "$8.1B" },
+  { company: "Cerebras", amount: "$1B", stage: "Series H", date: "2026-02", sector: "Chips & Semiconductors", lead: "Tiger Global", valuation: "$23B" },
   { company: "Saronic", amount: "$600M", stage: "Series C", date: "2025-02", sector: "Defense & Security", lead: "Elad Gil", valuation: "$4B" },
   { company: "Applied Intuition", amount: "$600M", stage: "Series F", date: "2025-06", sector: "AI & Software", lead: "BlackRock, Kleiner Perkins", valuation: "$15B" },
   { company: "Shield AI", amount: "$540M", stage: "Series F-1", date: "2025-03", sector: "Defense & Security", lead: "Multiple", valuation: "$5.3B" },
@@ -10268,30 +10268,62 @@ const FOUNDER_MAFIAS = {
 // ─── REVENUE INTELLIGENCE ───
 // Revenue figures where publicly available or credibly reported
 const REVENUE_INTEL = [
-  { company: "Palantir", revenue: "$2.8B+", period: "2025 Annual", growth: "30%+ YoY", source: "Public filings (NYSE: PLTR)" },
-  { company: "SpaceX", revenue: "$14B+", period: "2025 Est.", growth: "40%+ YoY", source: "Starlink + launch revenue estimates" },
-  { company: "Anduril Industries", revenue: "$1.5B+", period: "2025 Est.", growth: "100%+ YoY", source: "Reported estimates" },
-  { company: "Anthropic", revenue: "$9B+", period: "2025 ARR", growth: "200%+ YoY", source: "Reported estimates" },
-  { company: "OpenAI", revenue: "$12B+", period: "2025 ARR", growth: "100%+ YoY", source: "Reported estimates" },
-  { company: "Anysphere", revenue: "$1B+", period: "2025 ARR", growth: "9,900%+ YoY", source: "Reported estimates" },
-  { company: "Scale AI", revenue: "$1.4B+", period: "2025 ARR", growth: "80%+ YoY", source: "Reported estimates" },
-  { company: "Crusoe Energy", revenue: "$1B+", period: "2025 Est.", growth: "300%+ YoY", source: "Reported estimates" },
-  { company: "Flexport", revenue: "$3B+", period: "2025 Est.", growth: "25%+ YoY", source: "Reported estimates" },
-  { company: "NVIDIA", revenue: "$130B+", period: "FY2025", growth: "115%+ YoY", source: "Public filings (NASDAQ: NVDA)" },
-  { company: "Rocket Lab", revenue: "$450M+", period: "2025 Est.", growth: "40%+ YoY", source: "Public filings (NASDAQ: RKLB)" },
-  { company: "Planet Labs", revenue: "$240M+", period: "2025 Est.", growth: "15%+ YoY", source: "Public filings (NYSE: PL)" },
-  { company: "Joby Aviation", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Public filings (NYSE: JOBY)" },
-  { company: "Archer Aviation", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Public filings (NYSE: ACHR)" },
-  { company: "Pano AI", revenue: "$100M+", period: "Booked Revenue", growth: "100%+ YoY", source: "Company announcement" },
-  { company: "AiDash", revenue: "$50M+", period: "2025 ARR Est.", growth: "100%+ YoY", source: "Company announcement" },
-  { company: "Hadrian", revenue: "$100M+", period: "2025 Est.", growth: "200%+ YoY", source: "Reported estimates" },
-  { company: "Shield AI", revenue: "$500M+", period: "2025 Est.", growth: "100%+ YoY", source: "Reported estimates" },
-  { company: "Boom Supersonic", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Pre-certification" },
-  { company: "Waymo", revenue: "$1B+", period: "2025 Est.", growth: "300%+ YoY", source: "Reported estimates" },
-  { company: "Cerebras", revenue: "$200M+", period: "2025 Est.", growth: "150%+ YoY", source: "Reported estimates" },
-  { company: "Zipline", revenue: "$300M+", period: "2025 Est.", growth: "50%+ YoY", source: "Reported estimates" },
-  { company: "Skydio", revenue: "$300M+", period: "2025 Est.", growth: "80%+ YoY", source: "Reported estimates" },
-  { company: "Saronic", revenue: "$50M+", period: "2025 Est.", growth: "500%+ YoY", source: "Early revenue stage" }
+  // ── Existing entries (updated where newer data available) ──
+  { company: "Palantir", revenue: "$4.5B", period: "FY2025", growth: "+56% YoY", source: "Public filings (NASDAQ: PLTR)", lastUpdated: "2026-02-19" },
+  { company: "SpaceX", revenue: "$14B+", period: "2025 Est.", growth: "+40% YoY", source: "Starlink + launch revenue estimates", lastUpdated: "2026-02-19" },
+  { company: "Anduril Industries", revenue: "$1.5B+", period: "2025 Est.", growth: "+100% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Anthropic", revenue: "$9B+", period: "2025 ARR", growth: "+200% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "OpenAI", revenue: "$12B+", period: "2025 ARR", growth: "+100% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Anysphere", revenue: "$1B+", period: "2025 ARR", growth: "+9,900% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Scale AI", revenue: "$1.4B+", period: "2025 ARR", growth: "+80% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Crusoe Energy", revenue: "$1B+", period: "2025 Est.", growth: "+300% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Flexport", revenue: "$3B+", period: "2025 Est.", growth: "+25% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "NVIDIA", revenue: "$130B+", period: "FY2025", growth: "+115% YoY", source: "Public filings (NASDAQ: NVDA)", lastUpdated: "2026-02-19" },
+  { company: "Rocket Lab", revenue: "$590M+", period: "FY2025 Est.", growth: "+35% YoY", source: "Public filings (NASDAQ: RKLB)", lastUpdated: "2026-02-19" },
+  { company: "Planet Labs", revenue: "$244M", period: "FY2025", growth: "+11% YoY", source: "Public filings (NYSE: PL)", lastUpdated: "2026-02-19" },
+  { company: "Joby Aviation", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Public filings (NYSE: JOBY)", lastUpdated: "2026-02-19" },
+  { company: "Archer Aviation", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Public filings (NYSE: ACHR)", lastUpdated: "2026-02-19" },
+  { company: "Pano AI", revenue: "$100M+", period: "Booked Revenue", growth: "+100% YoY", source: "Company announcement", lastUpdated: "2026-02-19" },
+  { company: "AiDash", revenue: "$50M+", period: "2025 ARR Est.", growth: "+100% YoY", source: "Company announcement", lastUpdated: "2026-02-19" },
+  { company: "Hadrian", revenue: "$100M+", period: "2025 Est.", growth: "+200% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Shield AI", revenue: "$500M+", period: "2025 Est.", growth: "+100% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Boom Supersonic", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Pre-certification", lastUpdated: "2026-02-19" },
+  { company: "Waymo", revenue: "$1B+", period: "2025 Est.", growth: "+300% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Cerebras", revenue: "$200M+", period: "2025 Est.", growth: "+150% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Zipline", revenue: "$300M+", period: "2025 Est.", growth: "+50% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Skydio", revenue: "$300M+", period: "2025 Est.", growth: "+80% YoY", source: "Reported estimates", lastUpdated: "2026-02-19" },
+  { company: "Saronic", revenue: "$50M+", period: "2025 Est.", growth: "+500% YoY", source: "Early revenue stage", lastUpdated: "2026-02-19" },
+  // ── Public companies added 2026-02-19 ──
+  { company: "Rivian", revenue: "$5.4B", period: "FY2025", growth: "+8% YoY", source: "Public filings (NASDAQ: RIVN)", lastUpdated: "2026-02-19" },
+  { company: "Tempus AI", revenue: "$1.3B", period: "FY2025 Est.", growth: "+80% YoY", source: "Public filings (NASDAQ: TEM)", lastUpdated: "2026-02-19" },
+  { company: "Astera Labs", revenue: "$853M", period: "FY2025", growth: "+115% YoY", source: "Public filings (NASDAQ: ALAB)", lastUpdated: "2026-02-19" },
+  { company: "IonQ", revenue: "$106M–$110M", period: "FY2025 Est.", growth: "+90% YoY", source: "Public filings (NYSE: IONQ)", lastUpdated: "2026-02-19" },
+  { company: "D-Wave Quantum", revenue: "$24M", period: "2025 TTM", growth: "+156% YoY", source: "Public filings (NYSE: QBTS)", lastUpdated: "2026-02-19" },
+  { company: "Rigetti Computing", revenue: "$7.5M", period: "2025 TTM", growth: "-37% YoY", source: "Public filings (NASDAQ: RGTI)", lastUpdated: "2026-02-19" },
+  { company: "NuScale Power", revenue: "$64M", period: "2025 TTM", growth: "+766% YoY", source: "Public filings (NYSE: SMR)", lastUpdated: "2026-02-19" },
+  { company: "Oklo", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Public filings (NYSE: OKLO)", lastUpdated: "2026-02-19" },
+  { company: "Nano Nuclear Energy", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Public filings (NASDAQ: NNE)", lastUpdated: "2026-02-19" },
+  { company: "QuantumScape", revenue: "$12.8M", period: "Q3 2025", growth: "First Revenue", source: "Public filings (NASDAQ: QS)", lastUpdated: "2026-02-19" },
+  { company: "Solid Power", revenue: "$18M", period: "2025 YTD (9mo)", growth: "N/A", source: "Public filings (NASDAQ: SLDP)", lastUpdated: "2026-02-19" },
+  { company: "Recursion Pharmaceuticals", revenue: "$59M", period: "FY2024", growth: "+32% YoY", source: "Public filings (NASDAQ: RXRX)", lastUpdated: "2026-02-19" },
+  { company: "Oxford Nanopore Technologies", revenue: "$290M", period: "FY2025 Est.", growth: "+22% YoY", source: "Public filings (LSE: ONT)", lastUpdated: "2026-02-19" },
+  { company: "Intuitive Machines", revenue: "$275M", period: "FY2025 Est.", growth: "+80% YoY", source: "Public filings (NASDAQ: LUNR)", lastUpdated: "2026-02-19" },
+  { company: "Aurora Innovation", revenue: "$3M", period: "FY2025", growth: "First Revenue", source: "Public filings (NASDAQ: AUR)", lastUpdated: "2026-02-19" },
+  { company: "Firefly Aerospace", revenue: "$133M–$145M", period: "FY2025 Est.", growth: "+100% YoY", source: "Public filings (NASDAQ: FLY)", lastUpdated: "2026-02-19" },
+  { company: "AST SpaceMobile", revenue: "$19M", period: "2025 TTM", growth: "+641% YoY", source: "Public filings (NASDAQ: ASTS)", lastUpdated: "2026-02-19" },
+  { company: "LanzaTech", revenue: "$41M", period: "2025 TTM", growth: "-40% YoY", source: "Public filings (NASDAQ: LNZA)", lastUpdated: "2026-02-19" },
+  { company: "FREYR Battery", revenue: "Early Revenue", period: "2025", growth: "N/A", source: "Public filings (NYSE: FREY)", lastUpdated: "2026-02-19" },
+  { company: "DroneShield", revenue: "A$200M+", period: "FY2025 Est.", growth: "+300% YoY", source: "Public filings (ASX: DRO)", lastUpdated: "2026-02-19" },
+  { company: "Satellogic", revenue: "$14M", period: "2025 TTM", growth: "+1% YoY", source: "Public filings (NASDAQ: SATL)", lastUpdated: "2026-02-19" },
+  { company: "Vertical Aerospace", revenue: "Pre-Revenue", period: "2025", growth: "N/A", source: "Public filings (NYSE: EVTL)", lastUpdated: "2026-02-19" },
+  { company: "Terran Orbital", revenue: "$30M", period: "Latest Quarter", growth: "-38% YoY", source: "Public filings (NYSE: LLAP)", lastUpdated: "2026-02-19" },
+  { company: "D-Orbit", revenue: "$20M+", period: "2025 Est.", growth: "+100% YoY", source: "Company estimates", lastUpdated: "2026-02-19" },
+  { company: "Rainbow Robotics", revenue: "$23M", period: "2025 TTM", growth: "+113% YoY", source: "Public filings (KOSDAQ: 277810)", lastUpdated: "2026-02-19" },
+  { company: "ideaForge", revenue: "$13M", period: "FY2025 TTM", growth: "-50% YoY", source: "Public filings (NSE: IDEAFORGE)", lastUpdated: "2026-02-19" },
+  { company: "ispace", revenue: "$32M", period: "FY2025", growth: "+101% YoY", source: "Public filings (TYO: 9348)", lastUpdated: "2026-02-19" },
+  { company: "Astroscale", revenue: "$29M", period: "2025 TTM", growth: "+50% YoY", source: "Public filings (TYO: 186A)", lastUpdated: "2026-02-19" },
+  // ── Private companies with known revenue added 2026-02-19 ──
+  { company: "Databricks", revenue: "$5.4B", period: "2025 ARR", growth: "+65% YoY", source: "Company announcement", lastUpdated: "2026-02-19" }
 ];
 
 // ─── VALUATION MULTIPLES BY SECTOR & STAGE ───
@@ -13374,7 +13406,7 @@ const NETWORK_GRAPH = {
 
     // Space & Aerospace
     { id: "company-SpaceX", label: "SpaceX", type: "company", sector: "Space & Aerospace", valuation: "$800B" },
-    { id: "company-Rocket Lab", label: "Rocket Lab", type: "company", sector: "Space & Aerospace", valuation: "$45B" },
+    { id: "company-Rocket Lab", label: "Rocket Lab", type: "company", sector: "Space & Aerospace", valuation: "$37B+" },
     { id: "company-Relativity Space", label: "Relativity Space", type: "company", sector: "Space & Aerospace", valuation: "" },
     { id: "company-Varda Space Industries", label: "Varda Space Industries", type: "company", sector: "Space & Aerospace", valuation: "" },
     { id: "company-Impulse Space", label: "Impulse Space", type: "company", sector: "Space & Aerospace", valuation: "" },
@@ -13382,7 +13414,7 @@ const NETWORK_GRAPH = {
     { id: "company-Vast", label: "Vast", type: "company", sector: "Space & Aerospace", valuation: "" },
     { id: "company-K2 Space", label: "K2 Space", type: "company", sector: "Space & Aerospace", valuation: "" },
     { id: "company-Apex Space", label: "Apex Space", type: "company", sector: "Space & Aerospace", valuation: "$1B+" },
-    { id: "company-Blue Origin", label: "Blue Origin", type: "company", sector: "Space & Aerospace", valuation: "" },
+    { id: "company-Blue Origin", label: "Blue Origin", type: "company", sector: "Space & Aerospace", valuation: "$30B+" },
     { id: "company-Axiom Space", label: "Axiom Space", type: "company", sector: "Space & Aerospace", valuation: "" },
     { id: "company-Planet Labs", label: "Planet Labs", type: "company", sector: "Space & Aerospace", valuation: "" },
     { id: "company-AstroForge", label: "AstroForge", type: "company", sector: "Space & Aerospace", valuation: "" },
@@ -13446,7 +13478,7 @@ const NETWORK_GRAPH = {
     { id: "company-KoBold Metals", label: "KoBold Metals", type: "company", sector: "Climate & Energy", valuation: "$2B+" },
     { id: "company-Heirloom Carbon", label: "Heirloom Carbon", type: "company", sector: "Climate & Energy", valuation: "" },
     { id: "company-Twelve", label: "Twelve", type: "company", sector: "Climate & Energy", valuation: "" },
-    { id: "company-Redwood Materials", label: "Redwood Materials", type: "company", sector: "Climate & Energy", valuation: "$5B" },
+    { id: "company-Redwood Materials", label: "Redwood Materials", type: "company", sector: "Climate & Energy", valuation: "$6B+" },
     { id: "company-Antora Energy", label: "Antora Energy", type: "company", sector: "Climate & Energy", valuation: "" },
     { id: "company-Form Energy", label: "Form Energy", type: "company", sector: "Climate & Energy", valuation: "" },
     { id: "company-Charm Industrial", label: "Charm Industrial", type: "company", sector: "Climate & Energy", valuation: "" },
@@ -13459,7 +13491,7 @@ const NETWORK_GRAPH = {
     { id: "company-Aurora Innovation", label: "Aurora Innovation", type: "company", sector: "Drones & Autonomous", valuation: "" },
 
     // Chips & Semiconductors
-    { id: "company-Cerebras", label: "Cerebras", type: "company", sector: "Chips & Semiconductors", valuation: "$8.1B+" },
+    { id: "company-Cerebras", label: "Cerebras", type: "company", sector: "Chips & Semiconductors", valuation: "$23B" },
     { id: "company-Etched", label: "Etched", type: "company", sector: "Chips & Semiconductors", valuation: "$5B" },
     { id: "company-Lightmatter", label: "Lightmatter", type: "company", sector: "Chips & Semiconductors", valuation: "" },
     { id: "company-PsiQuantum", label: "PsiQuantum", type: "company", sector: "Chips & Semiconductors", valuation: "$3.1B" },

@@ -27,6 +27,12 @@ function initJobs() {
         // Populate company filter
         populateCompanyFilter();
 
+        // Populate location filter dynamically
+        populateLocationFilter();
+
+        // Populate sector filter dynamically
+        populateSectorFilter();
+
         // Render sector stats
         renderSectorStats();
 
@@ -95,6 +101,125 @@ function populateCompanyFilter() {
         option.value = company;
         option.textContent = company;
         companyFilter.appendChild(option);
+    });
+}
+
+// Metro area definitions for location grouping
+const METRO_AREAS = {
+    'sf-bay': {
+        label: 'San Francisco Bay Area',
+        terms: ['san francisco', 'bay area', 'palo alto', 'mountain view', 'sunnyvale', 'menlo park', 'redwood city', 'san mateo', 'cupertino', 'santa clara', 'san jose', 'fremont', 'milpitas', 'south san francisco', 'oakland', 'berkeley', 'emeryville']
+    },
+    'la-socal': {
+        label: 'Los Angeles / SoCal',
+        terms: ['los angeles', 'costa mesa', 'el segundo', 'irvine', 'long beach', 'torrance', 'pasadena', 'anaheim', 'santa monica', 'hawthorne', 'inglewood', 'huntington beach', 'fullerton', 'orange county']
+    },
+    'nyc': {
+        label: 'New York City',
+        terms: ['new york', 'manhattan', 'brooklyn', 'nyc']
+    },
+    'seattle': {
+        label: 'Seattle / Pacific NW',
+        terms: ['seattle', 'redmond', 'bellevue', 'kirkland', 'kent', 'tacoma']
+    },
+    'austin': {
+        label: 'Austin, TX',
+        terms: ['austin']
+    },
+    'boston': {
+        label: 'Boston / New England',
+        terms: ['boston', 'cambridge', 'lexington', 'waltham', 'bedford', 'burlington, ma', 'massachusetts']
+    },
+    'dc-nova': {
+        label: 'Washington DC / NoVA',
+        terms: ['washington', 'arlington', 'mclean', 'reston', 'tysons', 'chantilly', 'herndon', 'district of columbia', 'columbia, md', 'baltimore', 'bethesda', 'annapolis junction']
+    },
+    'denver': {
+        label: 'Denver / Colorado',
+        terms: ['denver', 'boulder', 'colorado springs', 'aurora, co', 'colorado']
+    },
+    'texas-other': {
+        label: 'Texas (Other)',
+        terms: ['houston', 'dallas', 'san antonio', 'fort worth', 'plano', 'bastrop', 'starbase', 'mcgregor', 'midland, texas']
+    },
+    'florida': {
+        label: 'Florida',
+        terms: ['cape canaveral', 'orlando', 'miami', 'tampa', 'jacksonville', 'merritt island', 'cocoa beach', 'melbourne, fl', 'florida']
+    },
+    'pittsburgh': {
+        label: 'Pittsburgh, PA',
+        terms: ['pittsburgh']
+    },
+    'atlanta': {
+        label: 'Atlanta, GA',
+        terms: ['atlanta']
+    },
+    'intl': {
+        label: '🌍 International',
+        terms: ['germany', 'japan', 'australia', 'uk', 'united kingdom', 'canada', 'france', 'new zealand', 'israel', 'india', 'south korea', 'singapore', 'luxembourg']
+    }
+};
+
+function populateLocationFilter() {
+    const locationFilter = document.getElementById('location-filter');
+    if (!locationFilter) return;
+
+    // Count jobs per metro area
+    const metroCounts = {};
+    allJobs.forEach(job => {
+        const loc = (job.location || '').toLowerCase();
+        for (const [key, metro] of Object.entries(METRO_AREAS)) {
+            if (metro.terms.some(term => loc.includes(term))) {
+                metroCounts[key] = (metroCounts[key] || 0) + 1;
+                break;
+            }
+        }
+    });
+
+    // Add metro areas with jobs, sorted by count
+    const sortedMetros = Object.entries(metroCounts)
+        .sort((a, b) => b[1] - a[1]);
+
+    sortedMetros.forEach(([key, count]) => {
+        const option = document.createElement('option');
+        option.value = key;
+        option.textContent = `${METRO_AREAS[key].label} (${count.toLocaleString()})`;
+        locationFilter.appendChild(option);
+    });
+}
+
+// Sector normalization map (handles inconsistent data)
+const SECTOR_NORMALIZE = {
+    'BioTech & Health': 'Biotech & Health',
+    'Energy & Climate': 'Climate & Energy',
+    'Space Systems': 'Space & Aerospace',
+    'tech': 'AI & Software',
+    'Transportation': 'Drones & Autonomous'
+};
+
+function populateSectorFilter() {
+    const sectorFilter = document.getElementById('sector-filter');
+    if (!sectorFilter) return;
+
+    // Count jobs per normalized sector
+    const sectorCounts = {};
+    allJobs.forEach(job => {
+        const raw = job.sector || '';
+        const normalized = SECTOR_NORMALIZE[raw] || raw;
+        if (normalized) {
+            sectorCounts[normalized] = (sectorCounts[normalized] || 0) + 1;
+        }
+    });
+
+    // Sort by count descending
+    const sorted = Object.entries(sectorCounts)
+        .sort((a, b) => b[1] - a[1]);
+
+    sorted.forEach(([sector, count]) => {
+        const option = document.createElement('option');
+        option.value = sector;
+        option.textContent = `${sector} (${count.toLocaleString()})`;
+        sectorFilter.appendChild(option);
     });
 }
 
@@ -258,7 +383,7 @@ function setupEventListeners() {
     }
 
     // Filters
-    ['sector-filter', 'location-filter', 'company-filter', 'sort-filter'].forEach(id => {
+    ['sector-filter', 'location-filter', 'company-filter', 'sort-filter', 'salary-filter'].forEach(id => {
         const element = document.getElementById(id);
         if (element) {
             element.addEventListener('change', () => {
@@ -302,6 +427,7 @@ function applyFilters() {
     const locationFilter = document.getElementById('location-filter')?.value || 'all';
     const companyFilter = document.getElementById('company-filter')?.value || 'all';
     const sortFilter = document.getElementById('sort-filter')?.value || 'recent';
+    const salaryOnly = document.getElementById('salary-filter')?.checked || false;
 
     // Get active quick filters
     const activeQuickFilters = Array.from(document.querySelectorAll('.filter-tag.active'))
@@ -314,27 +440,28 @@ function applyFilters() {
             if (!searchText.includes(searchQuery)) return false;
         }
 
-        // Sector
-        if (sectorFilter !== 'all' && job.sector !== sectorFilter) return false;
+        // Sector (normalize before comparing)
+        if (sectorFilter !== 'all') {
+            const normalizedJobSector = SECTOR_NORMALIZE[job.sector] || job.sector;
+            if (normalizedJobSector !== sectorFilter) return false;
+        }
 
         // Location
         if (locationFilter !== 'all') {
-            if (locationFilter === 'remote' && !job.remote) return false;
-            if (locationFilter === 'sf' && !job.location.toLowerCase().includes('san francisco') &&
-                !job.location.toLowerCase().includes('bay area') &&
-                !job.location.toLowerCase().includes('palo alto') &&
-                !job.location.toLowerCase().includes('mountain view')) return false;
-            if (locationFilter === 'la' && !job.location.toLowerCase().includes('los angeles') &&
-                !job.location.toLowerCase().includes('costa mesa') &&
-                !job.location.toLowerCase().includes('el segundo')) return false;
-            if (locationFilter === 'nyc' && !job.location.toLowerCase().includes('new york')) return false;
-            if (locationFilter === 'seattle' && !job.location.toLowerCase().includes('seattle')) return false;
-            if (locationFilter === 'austin' && !job.location.toLowerCase().includes('austin')) return false;
-            if (locationFilter === 'boston' && !job.location.toLowerCase().includes('boston')) return false;
+            if (locationFilter === 'remote') {
+                if (!job.remote) return false;
+            } else if (METRO_AREAS[locationFilter]) {
+                const loc = (job.location || '').toLowerCase();
+                const metro = METRO_AREAS[locationFilter];
+                if (!metro.terms.some(term => loc.includes(term))) return false;
+            }
         }
 
         // Company
         if (companyFilter !== 'all' && job.company !== companyFilter) return false;
+
+        // Salary filter
+        if (salaryOnly && !job.salaryMin && !job.salaryMax) return false;
 
         // Quick filters (department/title keywords)
         if (activeQuickFilters.length > 0) {
@@ -359,6 +486,20 @@ function applyFilters() {
     }
 
     renderJobs();
+}
+
+function formatSalary(job) {
+    if (!job.salaryMin && !job.salaryMax) return '';
+    const fmt = (v) => {
+        if (v >= 1000000) return `$${(v/1000000).toFixed(1)}M`;
+        if (v >= 1000) return `$${Math.round(v/1000)}K`;
+        return `$${v}`;
+    };
+    const currency = job.salaryCurrency && job.salaryCurrency !== 'USD' ? ` ${job.salaryCurrency}` : '';
+    if (job.salaryMin && job.salaryMax) return `${fmt(job.salaryMin)} - ${fmt(job.salaryMax)}${currency}`;
+    if (job.salaryMin) return `${fmt(job.salaryMin)}+${currency}`;
+    if (job.salaryMax) return `Up to ${fmt(job.salaryMax)}${currency}`;
+    return '';
 }
 
 function renderJobs() {
@@ -391,6 +532,7 @@ function renderJobs() {
                     <span>🏢 ${escapeHtml(job.department)}</span>
                     ${job.posted ? `<span>📅 ${formatDate(job.posted)}</span>` : ''}
                 </div>
+                ${formatSalary(job) ? `<div class="job-salary" style="color:#22c55e; font-weight:600; font-size:13px;">💰 ${formatSalary(job)}</div>` : ''}
             </div>
             <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.5rem;">
                 <div class="job-badges">
