@@ -17434,23 +17434,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-18 21:51
+// Last updated: 2026-02-19 05:14
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Physical Intelligence", headline: "Is your startup's check engine light on? Google Cloud's VP explains what to do", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Delian Alliance Industries", headline: "Navy weighs creating robotic autonomous systems commander amid unmanned push", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Altos Labs", headline: "A startup called Germ becomes the first private messenger that launches directly from Bluesky's app", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Runway", headline: "An Electric Chevy BrightDrop Van For 50% Off?", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Array Labs", headline: "DIU wants commercially developed imagery satellites for on-orbit spying", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "The Boring Company", headline: "The Hydrogen Workshop Transit Agencies Actually Need", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Turbopuffer", headline: "The Pentagon says it's getting its AI providers on 'the same baseline'", source: "Defense One", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Arc Boats", headline: "Marines aim to be CJACD2 'fast follower' with Dynamis Series of C2 experiments", source: "Breaking Defense", time: "2h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Cover", headline: "SeatGeek and Spotify team up to offer concert ticket sales inside the music platform", source: "TechCrunch", time: "2h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Photonic Inc", headline: "Microsoft's new 10,000-year data storage medium: glass", source: "Ars Technica Space", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Recursion Pharmaceuticals", headline: "IEEE Course Improves Engineers' Writing Skills", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Ada", headline: "Canada is still interested in Golden Dome. What can it bring &#8211; and how could it fall apart?", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Naarea", headline: "Mastodon, a decentralized alternative to X, plans to target creators with new features", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Figure AI", headline: "Data breach at fintech giant Figure affects close to a million customers", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Dunia", headline: "World Labs lands $1B, with $200M from Autodesk, to bring world models into 3D workflows", source: "TechCrunch", time: "3h ago", impact: "high", unread: false },
+  { id: 1, type: "news", company: "Fervo Energy", headline: "IEA Focus On Clean Energy Gives US Officials Heartburn", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI deepens India push with Pine Labs fintech partnership", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Claros", headline: "Oregon Adopts New Building Codes to Reduce Energy Costs and Increase Energy Efficiency in Newly Constructed Homes", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Destinus", headline: "Green NGOs &#038; Renewable Fuel Producers: Commission Must Resist Pressure to Reopen the Rules Governing Renewable Hydr", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Apptronik", headline: "Tesla Market Cap More Than Market Cap of Toyota, BYD, GM, Ford, Hyundai, Kia, Mercedes-Benz, Stellantis, Geely, Ferrari,", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Exosonic", headline: "Air Force One will be painted red, white and blue as Trump has hinted, US military says", source: "Defense News", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Claros", headline: "ELON Secret Weapon GROK 4.20 Make 4 Million Tesla Cars into 100 Million Digital Workers", source: "Next Big Future", time: "5h ago", impact: "medium", unread: false },
+  { id: 8, type: "milestone", company: "Applied Intuition", headline: "XAI Grok 4.20 is a Big Improvement Practical coding, Simulations and Real World Agentic Tasks", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Fortera", headline: "Sentinel ICBM program hit by software delays, Minuteman extension risks: GAO", source: "Defense News", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "The Boring Company", headline: "The Fire Horse Energy Transition &#038; Creative Destruction", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Durin", headline: "Etsy sells secondhand clothing marketplace Depop to eBay for $1.2B", source: "TechCrunch", time: "6h ago", impact: "high", unread: false },
+  { id: 12, type: "hire", company: "Reveal Technology", headline: "Elon Musk Says Tesla Will Sell Cybercab to Customers for $30,000 or Less This Year", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "Field AI", headline: "Pentagon seeks commercially built GEO spy satellites", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Physical Intelligence", headline: "Is your startup's check engine light on? Google Cloud's VP explains what to do", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Delian Alliance Industries", headline: "Navy weighs creating robotic autonomous systems commander amid unmanned push", source: "Breaking Defense", time: "8h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
