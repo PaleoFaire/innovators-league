@@ -12,7 +12,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="lib/d3.v7.min.js"></script>
     <script>if(typeof d3==='undefined'){document.write('<script src="https://d3js.org/d3.v7.min.js"><\/script>');console.warn('D3 loaded from CDN fallback');}</script>
-    <link rel="stylesheet" href="styles.css?v=20260219d">
+    <link rel="stylesheet" href="styles.css?v=20260219e">
 </head>
 <body>
     <!-- Navigation — 5 Key Tabs -->
@@ -29,11 +29,7 @@
             <input type="text" id="global-search" placeholder="Search companies, sectors, investors..." autocomplete="off">
             <div class="search-results-dropdown" id="search-results-dropdown"></div>
         </div>
-        <!-- 5 Key Tabs Navigation -->
         <div class="nav-links">
-            <a href="#discovery-hub" class="nav-link">🗺️ Map</a>
-            <a href="#companies" class="nav-link">📊 Database</a>
-            <a href="#innovator50" class="nav-link">🏆 ROS 50</a>
             <a href="visualizations.html" class="nav-link">📈 Insights</a>
             <a href="investors.html" class="nav-link">💰 Investors</a>
             <a href="jobs.html" class="nav-link">💼 Jobs</a>
@@ -54,6 +50,17 @@
             <span></span><span></span><span></span>
         </button>
     </nav>
+
+    <!-- Section Navigator — In-page scroll links for index.html sections -->
+    <div class="section-navigator" id="section-navigator">
+        <div class="section-nav-inner">
+            <a href="#discovery-hub" class="section-nav-link">🗺️ Map</a>
+            <a href="#companies" class="section-nav-link">📊 Database</a>
+            <a href="#innovator50" class="section-nav-link">🏆 ROS 50</a>
+            <a href="#intelligence-hub" class="section-nav-link">📊 Signals</a>
+            <a href="#sectors" class="section-nav-link">🏗️ Sectors</a>
+        </div>
+    </div>
 
     <!-- Hero Section — Value-First Messaging -->
     <header class="hero">
@@ -1163,12 +1170,9 @@
                 </div>
                 <div class="footer-links">
                     <h4>Navigate</h4>
-                    <a href="#map">Innovation Map</a>
-                    <a href="#companies">Intelligence Database</a>
-                    <a href="#intelligence-hub">Signals</a>
-                    <a href="#sectors">Sectors</a>
-                    <a href="investors.html">Investors</a>
                     <a href="visualizations.html">Insights</a>
+                    <a href="investors.html">Investors</a>
+                    <a href="jobs.html">Jobs</a>
                     <a href="valuations.html">Valuations</a>
                     <a href="talent.html">Talent</a>
                     <a href="govradar.html">Gov Radar</a>
@@ -1183,17 +1187,17 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="auth.js?v=20260219d"></script>
-    <script src="data.js?v=20260219d"></script>
-    <script src="data/stocks_auto.js?v=20260219d"></script>
-    <script src="data/sec_filings_auto.js?v=20260219d"></script>
-    <script src="data/gov_contracts_auto.js?v=20260219d"></script>
-    <script src="data/patent_intel_auto.js?v=20260219d"></script>
-    <script src="data/hackernews_buzz_auto.js?v=20260219d"></script>
-    <script src="data/press_releases_auto.js?v=20260219d"></script>
-    <script src="data/github_releases_auto.js?v=20260219d"></script>
-    <script src="data/federal_register_auto.js?v=20260219d"></script>
-    <script src="data/doe_programs_auto.js?v=20260219d"></script>
-    <script src="app.js?v=20260219d"></script>
+    <script src="auth.js?v=20260219e"></script>
+    <script src="data.js?v=20260219e"></script>
+    <script src="data/stocks_auto.js?v=20260219e"></script>
+    <script src="data/sec_filings_auto.js?v=20260219e"></script>
+    <script src="data/gov_contracts_auto.js?v=20260219e"></script>
+    <script src="data/patent_intel_auto.js?v=20260219e"></script>
+    <script src="data/hackernews_buzz_auto.js?v=20260219e"></script>
+    <script src="data/press_releases_auto.js?v=20260219e"></script>
+    <script src="data/github_releases_auto.js?v=20260219e"></script>
+    <script src="data/federal_register_auto.js?v=20260219e"></script>
+    <script src="data/doe_programs_auto.js?v=20260219e"></script>
+    <script src="app.js?v=20260219e"></script>
 </body>
 </html>

@@ -222,12 +222,12 @@ body {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
 .nav-links a {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--text-secondary);
   text-decoration: none;

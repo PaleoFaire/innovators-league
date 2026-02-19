@@ -34,6 +34,7 @@ function initValuations() {
   safeInit('initIPOTracker', initIPOTracker);
   safeInit('initMAComps', initMAComps);
   safeInit('initDealSignals', initDealSignals);
+  safeInit('initSectionObserver', initSectionObserver);
 }
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -563,4 +564,23 @@ function initDealSignals() {
       </div>
     `;
   }).join('');
+}
+
+// ─── SECTION HEADER VISIBILITY OBSERVER ───
+function initSectionObserver() {
+  const headers = document.querySelectorAll('.section-header');
+  if (!headers.length) return;
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    headers.forEach(h => observer.observe(h));
+  } else {
+    headers.forEach(h => h.classList.add('visible'));
+  }
 }

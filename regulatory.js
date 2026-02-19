@@ -646,6 +646,7 @@ document.addEventListener('DOMContentLoaded', () => {
     safeInit('FedRegisterMonitor', initFedRegisterMonitor);
     safeInit('ClinicalTrials', initClinicalTrials);
     safeInit('MobileMenu', initRegMobileMenu);
+    safeInit('SectionObserver', initSectionObserver);
   }
 
   if (typeof TILAuth !== 'undefined' && TILAuth.onReady) {
@@ -1438,5 +1439,24 @@ function formatDate(dateStr) {
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   } catch (e) {
     return dateStr;
+  }
+}
+
+// ─── SECTION HEADER VISIBILITY OBSERVER ───
+function initSectionObserver() {
+  const headers = document.querySelectorAll('.section-header');
+  if (!headers.length) return;
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    headers.forEach(h => observer.observe(h));
+  } else {
+    headers.forEach(h => h.classList.add('visible'));
   }
 }

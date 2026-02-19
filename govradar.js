@@ -164,6 +164,7 @@ function initGovRadar() {
   safeInit('agencySpending', initAgencySpending);
   safeInit('companyMatch', initCompanyMatch);
   safeInit('mobileMenu', initGovMobileMenu);
+  safeInit('sectionObserver', initSectionObserver);
 }
 
 // ─── DOMContentLoaded + Auth ───
@@ -750,4 +751,23 @@ function initGovMobileMenu() {
       btn.classList.remove('open');
     });
   });
+}
+
+// ─── SECTION HEADER VISIBILITY OBSERVER ───
+function initSectionObserver() {
+  var headers = document.querySelectorAll('.section-header');
+  if (!headers.length) return;
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    headers.forEach(function(h) { observer.observe(h); });
+  } else {
+    headers.forEach(function(h) { h.classList.add('visible'); });
+  }
 }

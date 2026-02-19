@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     safeInit(initVCModal);
     safeInit(initVCMobileMenu);
     safeInit(initVCSearch);
+    safeInit(initSectionObserver, 'initSectionObserver');
 
     // Auth gating disabled — all investor data open while site is pre-launch
   }
@@ -828,4 +829,23 @@ function initVCMobileMenu() {
       btn.classList.remove('open');
     });
   });
+}
+
+// ─── SECTION HEADER VISIBILITY OBSERVER ───
+function initSectionObserver() {
+  const headers = document.querySelectorAll('.section-header');
+  if (!headers.length) return;
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    headers.forEach(h => observer.observe(h));
+  } else {
+    headers.forEach(h => h.classList.add('visible'));
+  }
 }
