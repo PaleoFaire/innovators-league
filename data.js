@@ -17449,23 +17449,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-19 10:27
+// Last updated: 2026-02-19 14:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Attio", headline: "BAE says its Eurofighter pipeline is filled until first GCAP assembly", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "ispace", headline: "Japan's ispace warns of delays in new lunar lander engine", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Asylon Robotics", headline: "How to Organize Safely in the Age of Surveillance", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Hadrian", headline: "Boeing moves its defense HQ back to St. Louis", source: "Defense One", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Databricks", headline: "What it takes to make agentic AI work in retail", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Chaos Industries", headline: "From integration chaos to digital clarity: Nutrien Ag Solutions' post-acquisition reset", source: "MIT Tech Review", time: "1h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Scale AI", headline: "OpenAI taps Tata for 100MW AI data center capacity in India, eyes 1GW", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Fervo Energy", headline: "IEA Focus On Clean Energy Gives US Officials Heartburn", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI deepens India push with Pine Labs fintech partnership", source: "TechCrunch", time: "6h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Claros", headline: "Oregon Adopts New Building Codes to Reduce Energy Costs and Increase Energy Efficiency in Newly Constructed Homes", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Destinus", headline: "Green NGOs &#038; Renewable Fuel Producers: Commission Must Resist Pressure to Reopen the Rules Governing Renewable Hydr", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Apptronik", headline: "Tesla Market Cap More Than Market Cap of Toyota, BYD, GM, Ford, Hyundai, Kia, Mercedes-Benz, Stellantis, Geely, Ferrari,", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Exosonic", headline: "Air Force One will be painted red, white and blue as Trump has hinted, US military says", source: "Defense News", time: "9h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Claros", headline: "ELON Secret Weapon GROK 4.20 Make 4 Million Tesla Cars into 100 Million Digital Workers", source: "Next Big Future", time: "10h ago", impact: "medium", unread: false },
-  { id: 15, type: "milestone", company: "Applied Intuition", headline: "XAI Grok 4.20 is a Big Improvement Practical coding, Simulations and Real World Agentic Tasks", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Chaos Industries", headline: "This former Big Tech engineers are using AI to navigate Trump's trade chaos", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Auterion", headline: "For open-source programs, AI coding tools are a mixed blessing", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Fervo Energy", headline: "Mechanical Reality Is Catching Up To ICE Pickups", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Anthropic", headline: "Altman and Amodei share a moment of awkwardness at India's big AI summit", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Arc Boats", headline: "China's nuclear submarine production rate surpasses that of US: Report", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Arc Boats", headline: "The Download: autonomous narco submarines, and virtue signaling chatbots", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Figure AI", headline: "Best Unlimited Phone Plan: T-Mobile, AT&T, Verizon Compared (2026)", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Endurosat", headline: "Airbus open to two-fighter option for FCAS to keep program alive", source: "Defense News", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Xcimer Energy", headline: "Freeform raises $67M Series B to scale up laser AI manufacturing", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Deterrence", headline: "US-led artillery drill combines NATO nations' firepower for mass effect", source: "Defense News", time: "2h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Built Robotics", headline: "Innovation Is A Game Of Two Halves", source: "Crunchbase News", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Vannevar Labs", headline: "Crunchbase Data: The AI Boom Has Drastically Changed Who's Funding The Hottest Companies In 2025 Vs. 2021", source: "Crunchbase News", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Scale AI", headline: "Reliance unveils $110B AI investment plan as India ramps up tech ambitions", source: "TechCrunch", time: "3h ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Conductor Quantum", headline: "Inside the Gay Tech Mafia", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Captura", headline: "How uncrewed narco subs could transform the Colombian drug trade", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
