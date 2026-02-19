@@ -126,6 +126,21 @@ jobs:
       - name: Calculate sector momentum scores
         run: python scripts/calc_sector_momentum.py
 
+      - name: Detect IPO pipeline (SEC S-1 filings)
+        run: python scripts/fetch_ipo_pipeline.py
+
+      - name: Fetch revenue intel (SEC XBRL)
+        run: python scripts/fetch_revenue_intel.py
+
+      - name: Calculate growth signals
+        run: python scripts/calc_growth_signals.py
+
+      - name: Calculate funding tracker summaries
+        run: python scripts/calc_funding_tracker.py
+
+      - name: Calculate valuation benchmarks
+        run: python scripts/calc_valuation_benchmarks.py
+
       - name: Merge all data into data.js
         run: python scripts/merge_data.py
 

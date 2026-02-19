@@ -237,6 +237,180 @@ def update_sector_momentum(data_js_content):
     return data_js_content
 
 
+def update_ipo_pipeline(data_js_content):
+    """Update IPO_PIPELINE in data.js."""
+    pipeline = load_json("ipo_pipeline_auto.json")
+    if not pipeline:
+        print("No IPO pipeline data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(pipeline)} IPO pipeline entries...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-updated IPO pipeline — Last updated: {today}\n"
+    js_array += "const IPO_PIPELINE = [\n"
+
+    for e in pipeline:
+        company = e.get("company", "").replace('"', "'")
+        status = e.get("status", "").replace('"', "'")
+        likelihood = e.get("likelihood", "medium")
+        est_date = e.get("estimatedDate", "").replace('"', "'")
+        est_val = e.get("estimatedValuation", "").replace('"', "'")
+        sector = e.get("sector", "").replace('"', "'")
+        js_array += f'  {{ company: "{company}", status: "{status}", likelihood: "{likelihood}", '
+        js_array += f'estimatedDate: "{est_date}", estimatedValuation: "{est_val}", sector: "{sector}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'const IPO_PIPELINE = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, js_array, data_js_content)
+        print("  Updated IPO_PIPELINE")
+    else:
+        print("  IPO_PIPELINE not found in data.js")
+
+    return data_js_content
+
+
+def update_revenue_intel(data_js_content):
+    """Update REVENUE_INTEL in data.js."""
+    revenue = load_json("revenue_intel_auto.json")
+    if not revenue:
+        print("No revenue intel data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(revenue)} revenue entries...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-updated revenue intelligence — Last updated: {today}\n"
+    js_array += "const REVENUE_INTEL = [\n"
+
+    for r in revenue:
+        company = r.get("company", "").replace('"', "'")
+        rev = r.get("revenue", "").replace('"', "'")
+        period = r.get("period", "").replace('"', "'")
+        growth = r.get("growth", "").replace('"', "'")
+        source = r.get("source", "").replace('"', "'")
+        js_array += f'  {{ company: "{company}", revenue: "{rev}", '
+        js_array += f'period: "{period}", growth: "{growth}", source: "{source}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'const REVENUE_INTEL = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, js_array, data_js_content)
+        print("  Updated REVENUE_INTEL")
+    else:
+        print("  REVENUE_INTEL not found in data.js")
+
+    return data_js_content
+
+
+def update_growth_signals(data_js_content):
+    """Update GROWTH_SIGNALS in data.js."""
+    signals = load_json("growth_signals_auto.json")
+    if not signals:
+        print("No growth signals data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(signals)} growth signals...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-calculated growth signals — Last updated: {today}\n"
+    js_array += "const GROWTH_SIGNALS = [\n"
+
+    for s in signals[:100]:  # Cap at 100
+        company = s.get("company", "").replace('"', "'")
+        sig_type = s.get("type", "").replace('"', "'")
+        detail = s.get("detail", "").replace('"', "'")
+        strength = s.get("strength", 0)
+        date = s.get("date", today)
+        js_array += f'  {{ company: "{company}", type: "{sig_type}", '
+        js_array += f'detail: "{detail}", strength: {strength}, date: "{date}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const GROWTH_SIGNALS = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, js_array, data_js_content)
+        print("  Updated GROWTH_SIGNALS")
+    else:
+        print("  GROWTH_SIGNALS not found in data.js")
+
+    return data_js_content
+
+
+def update_funding_tracker(data_js_content):
+    """Update FUNDING_TRACKER in data.js."""
+    tracker = load_json("funding_tracker_auto.json")
+    if not tracker:
+        print("No funding tracker data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(tracker)} funding tracker entries...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-calculated funding tracker — Last updated: {today}\n"
+    js_array += "const FUNDING_TRACKER = [\n"
+
+    for t in tracker:
+        company = t.get("company", "").replace('"', "'")
+        total = t.get("totalRaised", "").replace('"', "'")
+        last_round = t.get("lastRound", "").replace('"', "'")
+        last_amount = t.get("lastRoundAmount", "").replace('"', "'")
+        last_date = t.get("lastRoundDate", "")
+        valuation = t.get("valuation", "").replace('"', "'")
+        investors = json.dumps(t.get("leadInvestors", []))
+        js_array += f'  {{ company: "{company}", totalRaised: "{total}", '
+        js_array += f'lastRound: "{last_round}", lastRoundAmount: "{last_amount}", '
+        js_array += f'lastRoundDate: "{last_date}", valuation: "{valuation}", '
+        js_array += f'leadInvestors: {investors} }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const FUNDING_TRACKER = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, js_array, data_js_content)
+        print("  Updated FUNDING_TRACKER")
+    else:
+        print("  FUNDING_TRACKER not found in data.js")
+
+    return data_js_content
+
+
+def update_valuation_benchmarks(data_js_content):
+    """Update VALUATION_BENCHMARKS in data.js."""
+    benchmarks = load_json("valuation_benchmarks_auto.json")
+    if not benchmarks:
+        print("No valuation benchmarks data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(benchmarks)} valuation benchmarks...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-calculated valuation benchmarks — Last updated: {today}\n"
+    js_array += "const VALUATION_BENCHMARKS = [\n"
+
+    for b in benchmarks:
+        company = b.get("company", "").replace('"', "'")
+        val = b.get("valuation", "N/A").replace('"', "'")
+        val_raw = b.get("valuationRaw", 0)
+        source = b.get("source", "").replace('"', "'")
+        ticker = b.get("ticker") or ""
+        day_change = b.get("dayChange") or ""
+        rev_mult = b.get("revenueMultiple", "")
+        revenue = b.get("revenue", "").replace('"', "'")
+        js_array += f'  {{ company: "{company}", valuation: "{val}", valuationRaw: {val_raw}, '
+        js_array += f'source: "{source}", ticker: "{ticker}", dayChange: "{day_change}", '
+        js_array += f'revenueMultiple: "{rev_mult}", revenue: "{revenue}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const VALUATION_BENCHMARKS = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, js_array, data_js_content)
+        print("  Updated VALUATION_BENCHMARKS")
+    else:
+        print("  VALUATION_BENCHMARKS not found in data.js")
+
+    return data_js_content
+
+
 def update_last_updated(data_js_content):
     """Update the LAST_UPDATED timestamp."""
     today = datetime.now().strftime("%Y-%m-%d")
@@ -278,12 +452,17 @@ def main():
 
     original_length = len(data_js_content)
 
-    # Apply updates
+    # Apply updates — each function is safe to skip if data file doesn't exist
     data_js_content = update_sec_filings(data_js_content)
     data_js_content = update_company_signals(data_js_content)
     data_js_content = update_gov_contracts(data_js_content)
     data_js_content = update_deal_tracker(data_js_content)
     data_js_content = update_sector_momentum(data_js_content)
+    data_js_content = update_ipo_pipeline(data_js_content)
+    data_js_content = update_revenue_intel(data_js_content)
+    data_js_content = update_growth_signals(data_js_content)
+    data_js_content = update_funding_tracker(data_js_content)
+    data_js_content = update_valuation_benchmarks(data_js_content)
     data_js_content = update_last_updated(data_js_content)
 
     # Validate before writing
