@@ -1,0 +1,165 @@
+// Auto-generated 2026-02-19 08:39
+const CONGRESS_BILLS_AUTO = [
+  {
+    "billNumber": "S4500",
+    "title": "Defense Industrial Base Resilience Act",
+    "congress": 119,
+    "chamber": "Senate",
+    "introducedDate": "2025-10-01",
+    "latestAction": "Armed Services Committee markup",
+    "latestActionDate": "2025-12-01",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4500",
+    "sectors": [
+      "defense",
+      "semiconductor"
+    ],
+    "relevance": "high",
+    "impact": "Requires domestic sourcing for critical defense components. Expands SBIR/STTR for defense startups."
+  },
+  {
+    "billNumber": "S3200",
+    "title": "Quantum Network Infrastructure Act",
+    "congress": 119,
+    "chamber": "Senate",
+    "introducedDate": "2025-08-15",
+    "latestAction": "Committee hearing scheduled",
+    "latestActionDate": "2025-11-01",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3200",
+    "sectors": [
+      "quantum",
+      "cyber"
+    ],
+    "relevance": "medium",
+    "impact": "Funds quantum networking R&D. Establishes post-quantum cryptography transition timeline for federal agencies."
+  },
+  {
+    "billNumber": "HR5100",
+    "title": "Fusion Energy Innovation Act",
+    "congress": 119,
+    "chamber": "House",
+    "introducedDate": "2025-07-01",
+    "latestAction": "Passed House",
+    "latestActionDate": "2025-10-15",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5100",
+    "sectors": [
+      "nuclear",
+      "energy"
+    ],
+    "relevance": "high",
+    "impact": "Creates regulatory framework for fusion energy. $500M in DOE fusion research funding. Benefits Commonwealth Fusion, TAE Technologies."
+  },
+  {
+    "billNumber": "HR4346",
+    "title": "CHIPS and Science Act Extension",
+    "congress": 119,
+    "chamber": "House",
+    "introducedDate": "2025-06-01",
+    "latestAction": "Markup in Science, Space, and Technology Committee",
+    "latestActionDate": "2025-09-10",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4346",
+    "sectors": [
+      "semiconductor",
+      "ai",
+      "quantum"
+    ],
+    "relevance": "high",
+    "impact": "Extends semiconductor incentives. Adds quantum computing and AI R&D funding provisions."
+  },
+  {
+    "billNumber": "HR6001",
+    "title": "Autonomous Vehicle Safety Act",
+    "congress": 119,
+    "chamber": "House",
+    "introducedDate": "2025-09-01",
+    "latestAction": "Referred to Energy and Commerce Committee",
+    "latestActionDate": "2025-09-01",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6001",
+    "sectors": [
+      "ai"
+    ],
+    "relevance": "medium",
+    "impact": "Federal framework for autonomous vehicle deployment. Preempts state regulations. Benefits Aurora, Waymo."
+  },
+  {
+    "billNumber": "HR3684",
+    "title": "Commercial Space Launch Competitiveness Act Amendments",
+    "congress": 119,
+    "chamber": "House",
+    "introducedDate": "2025-05-10",
+    "latestAction": "Subcommittee markup completed",
+    "latestActionDate": "2025-08-01",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3684",
+    "sectors": [
+      "space"
+    ],
+    "relevance": "medium",
+    "impact": "Updates commercial space regulations. Extends launch liability provisions. Benefits SpaceX, Rocket Lab, Relativity."
+  },
+  {
+    "billNumber": "HR2670",
+    "title": "National Defense Authorization Act for Fiscal Year 2026",
+    "congress": 119,
+    "chamber": "House",
+    "introducedDate": "2025-04-01",
+    "latestAction": "Passed House with amendments",
+    "latestActionDate": "2025-07-14",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2670",
+    "sectors": [
+      "defense",
+      "space",
+      "ai",
+      "cyber"
+    ],
+    "relevance": "high",
+    "impact": "Primary defense authorization \u2014 sets R&D priorities, procurement ceilings, and technology investment mandates for DoD."
+  },
+  {
+    "billNumber": "S1260",
+    "title": "United States Innovation and Competition Act Reauthorization",
+    "congress": 119,
+    "chamber": "Senate",
+    "introducedDate": "2025-04-20",
+    "latestAction": "Committee hearing held",
+    "latestActionDate": "2025-06-15",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1260",
+    "sectors": [
+      "ai",
+      "quantum",
+      "semiconductor",
+      "biotech"
+    ],
+    "relevance": "high",
+    "impact": "Reauthorizes NSF technology directorate funding. Expands critical technology research programs."
+  },
+  {
+    "billNumber": "S2226",
+    "title": "ADVANCE Act \u2014 Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy",
+    "congress": 119,
+    "chamber": "Senate",
+    "introducedDate": "2025-03-15",
+    "latestAction": "Referred to Committee on Environment and Public Works",
+    "latestActionDate": "2025-03-15",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2226",
+    "sectors": [
+      "nuclear",
+      "energy"
+    ],
+    "relevance": "high",
+    "impact": "Streamlines NRC licensing for advanced reactors. Direct benefit to Oklo, Kairos Power, TerraPower, X-energy."
+  },
+  {
+    "billNumber": "S987",
+    "title": "AI Accountability Act",
+    "congress": 119,
+    "chamber": "Senate",
+    "introducedDate": "2025-03-01",
+    "latestAction": "Referred to Committee on Commerce, Science, and Transportation",
+    "latestActionDate": "2025-03-01",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/987",
+    "sectors": [
+      "ai"
+    ],
+    "relevance": "high",
+    "impact": "Establishes AI impact assessment requirements for federal agencies. Affects Palantir, Anduril, Scale AI."
+  }
+];

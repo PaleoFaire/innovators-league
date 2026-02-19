@@ -173,6 +173,74 @@ jobs:
           path: data/
           retention-days: 7
 
+  sync-congress-bills:
+    name: Sync Congress Bills
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_congress_bills.py
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: congress-bills-data
+          path: data/
+          retention-days: 7
+
+  sync-sbir-topics:
+    name: Sync SBIR/STTR Topics
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_sbir_topics.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sbir-topics-data
+          path: data/
+          retention-days: 7
+
+  sync-nrc-licensing:
+    name: Sync NRC Licensing
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/fetch_nrc_licensing.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nrc-licensing-data
+          path: data/
+          retention-days: 7
+
+  sync-faa-certification:
+    name: Sync FAA Certification
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/fetch_faa_certification.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: faa-certification-data
+          path: data/
+          retention-days: 7
+
   # ═══════════════════════════════════════════════════════════
   # MERGE AND COMMIT - Runs after all fetchers complete
   # ═══════════════════════════════════════════════════════════
@@ -213,7 +281,7 @@ jobs:
   merge-weekly-data:
     name: Merge Weekly Data
     runs-on: ubuntu-latest
-    needs: [sync-arxiv, sync-clinical-trials, sync-nsf-grants, sync-doe-energy, sync-nasa]
+    needs: [sync-arxiv, sync-clinical-trials, sync-nsf-grants, sync-doe-energy, sync-nasa, sync-congress-bills, sync-sbir-topics, sync-nrc-licensing, sync-faa-certification]
     if: always() && (github.event.schedule == '0 8 * * 1' || github.event.inputs.sync_type == 'weekly' || github.event.inputs.sync_type == 'all')
     steps:
       - uses: actions/checkout@v4

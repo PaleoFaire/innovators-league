@@ -1,0 +1,200 @@
+// Auto-generated 2026-02-19 08:39
+const SBIR_TOPICS_AUTO = [
+  {
+    "id": "DOD-SBIR-2026-006",
+    "title": "Counter-UAS Detection and Neutralization",
+    "agency": "Department of Defense",
+    "type": "SBIR",
+    "phase": "Phase II",
+    "openDate": "2025-09-01",
+    "closeDate": "2026-01-31",
+    "award": "$1.75M",
+    "sectors": [
+      "defense",
+      "robotics"
+    ],
+    "relevantCompanies": [
+      "Anduril Industries",
+      "Shield AI",
+      "Skydio"
+    ],
+    "description": "Scalable C-UAS solutions for base defense and expeditionary operations."
+  },
+  {
+    "id": "DOD-SBIR-2026-010",
+    "title": "Hypersonic Vehicle Materials and Thermal Protection",
+    "agency": "Department of Defense",
+    "type": "SBIR",
+    "phase": "Phase II",
+    "openDate": "2025-10-01",
+    "closeDate": "2026-02-15",
+    "award": "$1.5M",
+    "sectors": [
+      "defense",
+      "advanced_materials"
+    ],
+    "relevantCompanies": [
+      "Hermeus",
+      "Ursa Major"
+    ],
+    "description": "Advanced materials for thermal protection systems on hypersonic flight vehicles."
+  },
+  {
+    "id": "DOE-SBIR-2026-003",
+    "title": "Advanced Nuclear Fuel Manufacturing",
+    "agency": "Department of Energy",
+    "type": "SBIR",
+    "phase": "Phase II",
+    "openDate": "2025-10-15",
+    "closeDate": "2026-02-28",
+    "award": "$1.5M",
+    "sectors": [
+      "nuclear",
+      "energy"
+    ],
+    "relevantCompanies": [
+      "Oklo",
+      "Kairos Power",
+      "TerraPower",
+      "X-energy"
+    ],
+    "description": "Innovative manufacturing processes for HALEU and advanced nuclear fuels."
+  },
+  {
+    "id": "DOD-SBIR-2026-001",
+    "title": "AI-Enabled Electronic Warfare Systems",
+    "agency": "Department of Defense",
+    "type": "SBIR",
+    "phase": "Phase I",
+    "openDate": "2025-11-01",
+    "closeDate": "2026-03-15",
+    "award": "$250K",
+    "sectors": [
+      "defense",
+      "ai"
+    ],
+    "relevantCompanies": [
+      "Anduril Industries",
+      "Shield AI",
+      "Palantir"
+    ],
+    "description": "Develop AI/ML approaches for real-time electronic warfare signal classification and response."
+  },
+  {
+    "id": "NSF-SBIR-2026-005",
+    "title": "Quantum Error Correction Hardware",
+    "agency": "National Science Foundation",
+    "type": "SBIR",
+    "phase": "Phase I",
+    "openDate": "2025-11-15",
+    "closeDate": "2026-03-30",
+    "award": "$275K",
+    "sectors": [
+      "quantum"
+    ],
+    "relevantCompanies": [
+      "IonQ",
+      "Rigetti Computing",
+      "PsiQuantum",
+      "Atom Computing"
+    ],
+    "description": "Hardware-level quantum error correction approaches for fault-tolerant quantum computing."
+  },
+  {
+    "id": "DHS-SBIR-2026-008",
+    "title": "AI-Powered Cybersecurity for Critical Infrastructure",
+    "agency": "Department of Homeland Security",
+    "type": "SBIR",
+    "phase": "Phase I",
+    "openDate": "2025-12-15",
+    "closeDate": "2026-03-31",
+    "award": "$200K",
+    "sectors": [
+      "cyber",
+      "ai"
+    ],
+    "relevantCompanies": [
+      "Palantir",
+      "Scale AI"
+    ],
+    "description": "Machine learning approaches for detecting and responding to cyber threats targeting energy and water infrastructure."
+  },
+  {
+    "id": "NASA-STTR-2026-002",
+    "title": "Advanced In-Space Propulsion Technologies",
+    "agency": "National Aeronautics and Space Administration",
+    "type": "STTR",
+    "phase": "Phase I",
+    "openDate": "2025-12-01",
+    "closeDate": "2026-04-01",
+    "award": "$150K",
+    "sectors": [
+      "space"
+    ],
+    "relevantCompanies": [
+      "SpaceX",
+      "Rocket Lab",
+      "Relativity Space",
+      "Firefly Aerospace"
+    ],
+    "description": "Novel propulsion concepts for cislunar operations and deep space missions."
+  },
+  {
+    "id": "DOE-STTR-2026-007",
+    "title": "Compact Fusion Pilot Plant Technologies",
+    "agency": "Department of Energy",
+    "type": "STTR",
+    "phase": "Phase I",
+    "openDate": "2026-01-01",
+    "closeDate": "2026-04-15",
+    "award": "$200K",
+    "sectors": [
+      "nuclear",
+      "energy"
+    ],
+    "relevantCompanies": [
+      "Commonwealth Fusion",
+      "TAE Technologies"
+    ],
+    "description": "Component technologies for compact fusion pilot plants targeting net energy by 2030."
+  },
+  {
+    "id": "DOD-SBIR-2026-004",
+    "title": "Autonomous Swarm Systems for Maritime Operations",
+    "agency": "Department of Defense",
+    "type": "SBIR",
+    "phase": "Phase I",
+    "openDate": "2026-01-15",
+    "closeDate": "2026-05-01",
+    "award": "$250K",
+    "sectors": [
+      "defense",
+      "robotics",
+      "ai"
+    ],
+    "relevantCompanies": [
+      "Saronic",
+      "Shield AI",
+      "Anduril Industries"
+    ],
+    "description": "Develop coordinated autonomous systems for naval surface and undersea operations."
+  },
+  {
+    "id": "NASA-SBIR-2026-009",
+    "title": "Synthetic Biology for Space Life Support",
+    "agency": "National Aeronautics and Space Administration",
+    "type": "SBIR",
+    "phase": "Phase I",
+    "openDate": "2026-02-01",
+    "closeDate": "2026-05-15",
+    "award": "$150K",
+    "sectors": [
+      "biotech",
+      "space"
+    ],
+    "relevantCompanies": [
+      "Ginkgo Bioworks"
+    ],
+    "description": "Engineered biological systems for air revitalization and waste processing in long-duration space missions."
+  }
+];

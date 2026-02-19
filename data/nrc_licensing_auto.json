@@ -1,0 +1,268 @@
+[
+  {
+    "company": "Oklo",
+    "docketNumber": "05200049",
+    "reactorType": "Fast Reactor (Aurora)",
+    "status": "Combined License Application Under Review",
+    "milestones": [
+      {
+        "date": "2022-01-01",
+        "event": "Initial Application Submitted",
+        "status": "completed"
+      },
+      {
+        "date": "2024-03-01",
+        "event": "Application Resubmitted (Enhanced)",
+        "status": "completed"
+      },
+      {
+        "date": "2025-06-01",
+        "event": "NRC Acceptance Review Complete",
+        "status": "completed"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Safety Evaluation Report Draft",
+        "status": "in_progress"
+      },
+      {
+        "date": "2027-12-01",
+        "event": "Combined License Decision",
+        "status": "pending"
+      }
+    ],
+    "progressPercent": 60,
+    "currentMilestone": "Safety Evaluation Report Draft",
+    "note": "",
+    "lastUpdated": "2026-02-19"
+  },
+  {
+    "company": "Kairos Power",
+    "docketNumber": "05000611",
+    "reactorType": "Fluoride Salt-Cooled High-Temperature Reactor",
+    "status": "Construction Permit Under Review",
+    "milestones": [
+      {
+        "date": "2023-09-29",
+        "event": "Construction Permit Application Filed (Hermes)",
+        "status": "completed"
+      },
+      {
+        "date": "2024-12-17",
+        "event": "NRC Construction Permit Issued for Hermes Test Reactor",
+        "status": "completed"
+      },
+      {
+        "date": "2025-06-01",
+        "event": "Construction Begun at Oak Ridge",
+        "status": "completed"
+      },
+      {
+        "date": "2027-01-01",
+        "event": "Hermes Test Reactor Operational",
+        "status": "pending"
+      },
+      {
+        "date": "2028-01-01",
+        "event": "Hermes 2 Commercial Application",
+        "status": "pending"
+      }
+    ],
+    "progressPercent": 60,
+    "currentMilestone": "N/A",
+    "note": "",
+    "lastUpdated": "2026-02-19"
+  },
+  {
+    "company": "TerraPower",
+    "docketNumber": "05000612",
+    "reactorType": "Natrium Sodium-Cooled Fast Reactor",
+    "status": "Construction Permit Application Submitted",
+    "milestones": [
+      {
+        "date": "2024-03-01",
+        "event": "Construction Permit Application Filed (Kemmerer, WY)",
+        "status": "completed"
+      },
+      {
+        "date": "2024-06-01",
+        "event": "DOE Cost Share Agreement Finalized",
+        "status": "completed"
+      },
+      {
+        "date": "2025-01-01",
+        "event": "NRC Review Initiated",
+        "status": "completed"
+      },
+      {
+        "date": "2026-06-01",
+        "event": "Construction Permit Expected",
+        "status": "in_progress"
+      },
+      {
+        "date": "2030-01-01",
+        "event": "First Commercial Operation",
+        "status": "pending"
+      }
+    ],
+    "progressPercent": 60,
+    "currentMilestone": "Construction Permit Expected",
+    "note": "",
+    "lastUpdated": "2026-02-19"
+  },
+  {
+    "company": "Centrus Energy",
+    "docketNumber": "07007004",
+    "reactorType": "HALEU Production (Uranium Enrichment)",
+    "status": "Operating License Active",
+    "milestones": [
+      {
+        "date": "2023-10-01",
+        "event": "HALEU Production Begun (Piketon, OH)",
+        "status": "completed"
+      },
+      {
+        "date": "2024-06-01",
+        "event": "First HALEU Delivered to DOE",
+        "status": "completed"
+      },
+      {
+        "date": "2025-01-01",
+        "event": "Production Scale-Up Phase",
+        "status": "in_progress"
+      },
+      {
+        "date": "2026-01-01",
+        "event": "Full-Scale HALEU Production",
+        "status": "pending"
+      }
+    ],
+    "progressPercent": 50,
+    "currentMilestone": "Production Scale-Up Phase",
+    "note": "",
+    "lastUpdated": "2026-02-19"
+  },
+  {
+    "company": "Helion Energy",
+    "docketNumber": "N/A",
+    "reactorType": "Field-Reversed Configuration Fusion",
+    "status": "Pre-Regulatory Framework",
+    "milestones": [
+      {
+        "date": "2024-01-01",
+        "event": "Polaris Prototype Construction",
+        "status": "completed"
+      },
+      {
+        "date": "2025-06-01",
+        "event": "Polaris Testing Phase",
+        "status": "in_progress"
+      },
+      {
+        "date": "2028-01-01",
+        "event": "First Commercial Fusion Plant",
+        "status": "pending"
+      }
+    ],
+    "progressPercent": 33,
+    "currentMilestone": "Polaris Testing Phase",
+    "note": "PPA signed with Microsoft for fusion electricity delivery by 2028.",
+    "lastUpdated": "2026-02-19"
+  },
+  {
+    "company": "NuScale Power",
+    "docketNumber": "05200048",
+    "reactorType": "Small Modular Reactor (SMR)",
+    "status": "Design Certification Approved",
+    "milestones": [
+      {
+        "date": "2023-01-19",
+        "event": "Design Certification Rule Issued",
+        "status": "completed"
+      },
+      {
+        "date": "2024-01-01",
+        "event": "COLA Application Review (Idaho)",
+        "status": "in_progress"
+      },
+      {
+        "date": "2027-01-01",
+        "event": "Combined License Expected",
+        "status": "pending"
+      },
+      {
+        "date": "2030-01-01",
+        "event": "First Commercial Operation",
+        "status": "pending"
+      }
+    ],
+    "progressPercent": 25,
+    "currentMilestone": "COLA Application Review (Idaho)",
+    "note": "",
+    "lastUpdated": "2026-02-19"
+  },
+  {
+    "company": "X-energy",
+    "docketNumber": "05200050",
+    "reactorType": "Xe-100 High-Temperature Gas Reactor",
+    "status": "Pre-Application Engagement",
+    "milestones": [
+      {
+        "date": "2023-01-01",
+        "event": "Pre-Application Meetings with NRC",
+        "status": "completed"
+      },
+      {
+        "date": "2025-01-01",
+        "event": "Design Certification Application Expected",
+        "status": "in_progress"
+      },
+      {
+        "date": "2027-01-01",
+        "event": "Design Certification Review",
+        "status": "pending"
+      },
+      {
+        "date": "2029-01-01",
+        "event": "First Plant Operational (Dow Chemical Site)",
+        "status": "pending"
+      }
+    ],
+    "progressPercent": 25,
+    "currentMilestone": "Design Certification Application Expected",
+    "note": "",
+    "lastUpdated": "2026-02-19"
+  },
+  {
+    "company": "Commonwealth Fusion Systems",
+    "docketNumber": "N/A",
+    "reactorType": "SPARC Tokamak Fusion",
+    "status": "Pre-Regulatory Framework",
+    "milestones": [
+      {
+        "date": "2025-01-01",
+        "event": "SPARC Construction Ongoing (Devens, MA)",
+        "status": "in_progress"
+      },
+      {
+        "date": "2026-01-01",
+        "event": "First Plasma Expected",
+        "status": "pending"
+      },
+      {
+        "date": "2027-01-01",
+        "event": "Net Energy Demonstration",
+        "status": "pending"
+      },
+      {
+        "date": "2030-01-01",
+        "event": "ARC Commercial Plant Licensing",
+        "status": "pending"
+      }
+    ],
+    "progressPercent": 0,
+    "currentMilestone": "SPARC Construction Ongoing (Devens, MA)",
+    "note": "Fusion regulation framework still being developed by NRC. Not under traditional fission licensing.",
+    "lastUpdated": "2026-02-19"
+  }
+]

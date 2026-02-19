@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Demand Radar | The Innovators League</title>
+    <meta name="description" content="Predictive contract intelligence — tracking federal spending, agency demand signals, and government opportunities across frontier technology.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260219d">
+    <style>
+        /* ─── GOV RADAR PAGE STYLES ─── */
+
+        .govradar-hero {
+            background: linear-gradient(135deg, #0a0f1a 0%, #0d1f3c 40%, #132a4a 70%, #0a2540 100%);
+        }
+
+        /* Demand Heatmap */
+        .heatmap-container {
+            overflow-x: auto;
+            margin-top: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.06);
+            background: rgba(255,255,255,0.02);
+        }
+        .heatmap-grid {
+            display: grid;
+            gap: 2px;
+            min-width: 700px;
+            padding: 1rem;
+        }
+        .heatmap-cell {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.9);
+            min-height: 36px;
+            transition: transform 0.15s, box-shadow 0.15s;
+            cursor: default;
+            position: relative;
+        }
+        .heatmap-cell:hover {
+            transform: scale(1.05);
+            z-index: 2;
+            box-shadow: 0 0 12px rgba(59,130,246,0.4);
+        }
+        .heatmap-header {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.5);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 4px;
+        }
+        .heatmap-row-label {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.7);
+            display: flex;
+            align-items: center;
+            padding-right: 8px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .heatmap-legend {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1rem;
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.5);
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+        .heatmap-legend-swatch {
+            width: 16px;
+            height: 16px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+
+        /* Opportunities Board */
+        .opp-filters {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+        .opp-filter-select {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.85rem;
+            cursor: pointer;
+            min-width: 160px;
+        }
+        .opp-filter-select:focus {
+            outline: none;
+            border-color: var(--accent, #3b82f6);
+        }
+        .opp-filter-select option {
+            background: #1a1a2e;
+            color: #fff;
+        }
+        .opp-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 1rem;
+        }
+        .opp-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .opp-card:hover {
+            border-color: rgba(59,130,246,0.3);
+            transform: translateY(-2px);
+        }
+        .opp-card-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+        .opp-type-badge {
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 3px 8px;
+            border-radius: 4px;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .opp-type-ot { background: rgba(139,92,246,0.2); color: #a78bfa; }
+        .opp-type-sbir { background: rgba(59,130,246,0.2); color: #60a5fa; }
+        .opp-type-baa { background: rgba(236,72,153,0.2); color: #f472b6; }
+        .opp-type-rfi { background: rgba(245,158,11,0.2); color: #fbbf24; }
+        .opp-type-default { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.7); }
+        .opp-priority-badge {
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 2px 6px;
+            border-radius: 3px;
+            white-space: nowrap;
+        }
+        .priority-critical { background: rgba(239,68,68,0.2); color: #f87171; }
+        .priority-high { background: rgba(245,158,11,0.2); color: #fbbf24; }
+        .priority-medium { background: rgba(59,130,246,0.2); color: #60a5fa; }
+        .priority-low { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.5); }
+        .opp-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 0.25rem;
+            line-height: 1.3;
+        }
+        .opp-agency {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.5);
+            margin-bottom: 0.5rem;
+        }
+        .opp-desc {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.45);
+            line-height: 1.5;
+            margin-bottom: 0.75rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .opp-meta {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .opp-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            color: #22c55e;
+            font-size: 0.9rem;
+        }
+        .opp-deadline {
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .deadline-urgent { background: rgba(239,68,68,0.15); color: #f87171; }
+        .deadline-soon { background: rgba(245,158,11,0.15); color: #fbbf24; }
+        .deadline-normal { background: rgba(34,197,94,0.15); color: #4ade80; }
+        .deadline-passed { background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.3); }
+        .opp-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            margin-bottom: 0.5rem;
+        }
+        .opp-tag {
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 3px;
+            background: rgba(59,130,246,0.1);
+            color: rgba(59,130,246,0.8);
+            white-space: nowrap;
+        }
+        .opp-tag.company-tag {
+            background: rgba(139,92,246,0.1);
+            color: rgba(139,92,246,0.8);
+        }
+
+        /* Contractor Readiness */
+        .readiness-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1rem;
+        }
+        .readiness-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: border-color 0.2s;
+        }
+        .readiness-card:hover {
+            border-color: rgba(59,130,246,0.3);
+        }
+        .readiness-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        .readiness-company {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: #fff;
+        }
+        .readiness-score-badge {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+        .readiness-bar-track {
+            width: 100%;
+            height: 8px;
+            background: rgba(255,255,255,0.06);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+        .readiness-bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 1s ease-out;
+        }
+        .readiness-meta {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+        }
+        .readiness-meta-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.15rem;
+        }
+        .readiness-meta-label {
+            color: rgba(255,255,255,0.4);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        .readiness-meta-value {
+            color: rgba(255,255,255,0.85);
+            font-weight: 600;
+        }
+        .readiness-factors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            margin-top: 0.75rem;
+        }
+        .readiness-factor {
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 3px;
+            background: rgba(34,197,94,0.1);
+            color: rgba(34,197,94,0.8);
+        }
+
+        /* Budget Signals */
+        .budget-bars {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .budget-bar-item {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 10px;
+            padding: 1rem 1.25rem;
+        }
+        .budget-bar-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .budget-category {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: #fff;
+        }
+        .budget-amount {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            color: rgba(255,255,255,0.8);
+            font-size: 0.95rem;
+        }
+        .budget-change-badge {
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .budget-change-positive { background: rgba(34,197,94,0.15); color: #4ade80; }
+        .budget-change-negative { background: rgba(239,68,68,0.15); color: #f87171; }
+        .budget-bar-track {
+            width: 100%;
+            height: 10px;
+            background: rgba(255,255,255,0.04);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .budget-bar-fill {
+            height: 100%;
+            border-radius: 5px;
+            transition: width 1.2s ease-out;
+        }
+        .budget-bar-desc {
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.35);
+            margin-top: 0.5rem;
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .budget-beneficiaries {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            margin-top: 0.5rem;
+        }
+        .budget-beneficiary {
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 3px;
+            background: rgba(139,92,246,0.1);
+            color: rgba(139,92,246,0.8);
+        }
+
+        /* Federal Register Feed */
+        .fedreg-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 0.75rem;
+        }
+        .fedreg-card {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 10px;
+            padding: 1rem;
+            transition: border-color 0.2s;
+        }
+        .fedreg-card:hover {
+            border-color: rgba(59,130,246,0.25);
+        }
+        .fedreg-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .fedreg-type-badge {
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            padding: 2px 6px;
+            border-radius: 3px;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .fedreg-type-rule { background: rgba(239,68,68,0.15); color: #f87171; }
+        .fedreg-type-proposed { background: rgba(245,158,11,0.15); color: #fbbf24; }
+        .fedreg-type-notice { background: rgba(59,130,246,0.15); color: #60a5fa; }
+        .fedreg-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.85);
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .fedreg-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.4);
+        }
+        .fedreg-date {
+            font-weight: 500;
+        }
+
+        /* Agency Spending Dashboard */
+        .agency-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .agency-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: border-color 0.2s;
+        }
+        .agency-card:hover {
+            border-color: rgba(59,130,246,0.3);
+        }
+        .agency-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            color: #fff;
+            margin-bottom: 0.5rem;
+        }
+        .agency-stat {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.4rem;
+        }
+        .agency-stat-label {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.45);
+        }
+        .agency-stat-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            color: #22c55e;
+            font-size: 0.9rem;
+        }
+        .agency-companies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            margin-top: 0.5rem;
+        }
+        .agency-company-tag {
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 3px;
+            background: rgba(255,255,255,0.06);
+            color: rgba(255,255,255,0.55);
+        }
+
+        /* Company Match */
+        .match-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 1rem;
+        }
+        .match-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: border-color 0.2s;
+        }
+        .match-card:hover {
+            border-color: rgba(139,92,246,0.3);
+        }
+        .match-company-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: #fff;
+            margin-bottom: 0.25rem;
+        }
+        .match-count {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.45);
+            margin-bottom: 0.75rem;
+        }
+        .match-opp-list {
+            display: none;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+        }
+        .match-opp-list.expanded {
+            display: flex;
+        }
+        .match-opp-item {
+            padding: 0.5rem 0.75rem;
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 6px;
+            font-size: 0.8rem;
+        }
+        .match-opp-item-title {
+            color: rgba(255,255,255,0.8);
+            font-weight: 600;
+            margin-bottom: 0.15rem;
+        }
+        .match-opp-item-meta {
+            color: rgba(255,255,255,0.4);
+            font-size: 0.7rem;
+        }
+        .match-toggle {
+            background: rgba(59,130,246,0.1);
+            border: 1px solid rgba(59,130,246,0.2);
+            color: #60a5fa;
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-family: 'Inter', sans-serif;
+        }
+        .match-toggle:hover {
+            background: rgba(59,130,246,0.2);
+        }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: rgba(255,255,255,0.35);
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .opp-grid { grid-template-columns: 1fr; }
+            .readiness-grid { grid-template-columns: 1fr; }
+            .fedreg-grid { grid-template-columns: 1fr; }
+            .agency-grid { grid-template-columns: 1fr; }
+            .match-grid { grid-template-columns: 1fr; }
+            .opp-filters { flex-direction: column; }
+            .opp-filter-select { width: 100%; }
+            .readiness-meta { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html#discovery-hub" class="nav-link">🗺️ Map</a>
+            <a href="index.html#companies" class="nav-link">📊 Database</a>
+            <a href="index.html#innovator50" class="nav-link">🏆 ROS 50</a>
+            <a href="visualizations.html" class="nav-link">📈 Insights</a>
+            <a href="investors.html" class="nav-link">💰 Investors</a>
+            <a href="jobs.html" class="nav-link">💼 Jobs</a>
+            <a href="valuations.html" class="nav-link">💎 Valuations</a>
+            <a href="talent.html" class="nav-link">🧬 Talent</a>
+            <a href="govradar.html" class="nav-link active">📡 Gov Radar</a>
+            <a href="regulatory.html" class="nav-link">🏛️ Regulatory</a>
+            <div class="nav-auth" id="nav-auth">
+                <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            </div>
+            <div class="nav-user" id="nav-user" style="display:none;">
+                <span class="nav-user-email" id="nav-user-email"></span>
+                <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+            </div>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero govradar-hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow">GOVERNMENT INTELLIGENCE</p>
+            <h1 class="hero-title">Government Demand Radar</h1>
+            <p class="hero-subtitle">Predictive contract intelligence — tracking federal spending, agency demand signals, and government opportunities across frontier technology.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="gov-opp-count">0</span>
+                    <span class="stat-label">Active Opportunities</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="gov-pipeline-value">$0</span>
+                    <span class="stat-label">Pipeline Value</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="gov-agencies">0</span>
+                    <span class="stat-label">Agencies Tracked</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Demand Heatmap -->
+    <section class="section" id="demand-heatmap">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">DEMAND SIGNALS</p>
+                <h2>Technology x Agency Heatmap</h2>
+                <p>Where government demand concentrates — tech areas mapped against agencies by opportunity count.</p>
+            </div>
+            <div class="heatmap-container" id="heatmap-container"></div>
+        </div>
+    </section>
+
+    <!-- Active Opportunities Board -->
+    <section class="section" id="opportunities">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">LIVE OPPORTUNITIES</p>
+                <h2>Active Opportunities Board</h2>
+                <p>Current government opportunities with deadline countdowns, filterable by agency, tech area, and priority.</p>
+            </div>
+            <div class="opp-filters" id="opp-filters"></div>
+            <div class="opp-grid" id="opp-grid"></div>
+        </div>
+    </section>
+
+    <!-- Contractor Readiness Rankings -->
+    <section class="section" id="contractor-readiness">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">READINESS ASSESSMENT</p>
+                <h2>Contractor Readiness Rankings</h2>
+                <p>Government contracting readiness scores — clearances, past performance, CMMC levels, and capability assessments.</p>
+            </div>
+            <div class="readiness-grid" id="readiness-grid"></div>
+        </div>
+    </section>
+
+    <!-- Budget Signals -->
+    <section class="section" id="budget-signals">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">FY2026 BUDGET ANALYSIS</p>
+                <h2>Budget Signals</h2>
+                <p>Federal budget allocation trends — where spending is accelerating across defense and technology categories.</p>
+            </div>
+            <div class="budget-bars" id="budget-bars"></div>
+        </div>
+    </section>
+
+    <!-- Federal Register Feed -->
+    <section class="section" id="fed-register">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">REGULATORY FEED</p>
+                <h2>Federal Register Feed</h2>
+                <p>Latest rules, proposed rules, and notices affecting frontier technology sectors.</p>
+            </div>
+            <div class="fedreg-grid" id="fedreg-grid"></div>
+        </div>
+    </section>
+
+    <!-- Agency Spending Dashboard -->
+    <section class="section" id="agency-spending">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">CONTRACT INTELLIGENCE</p>
+                <h2>Agency Spending Dashboard</h2>
+                <p>Top federal agencies by contract volume with tracked companies — aggregated from USAspending data.</p>
+            </div>
+            <div class="agency-grid" id="agency-grid"></div>
+        </div>
+    </section>
+
+    <!-- Company-Opportunity Match -->
+    <section class="section" id="company-match">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">OPPORTUNITY MATCHING</p>
+                <h2>Company &harr; Opportunity Match</h2>
+                <p>Reverse index — which companies map to which government opportunities based on capability alignment.</p>
+            </div>
+            <div class="match-grid" id="match-grid"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">THE INNOVATORS LEAGUE</div>
+                    <p>A project of the Rational Optimist Society. We celebrate human achievement, technological progress, and the entrepreneurs building a better future.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>ROS</h4>
+                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener">Main Site</a>
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
+                    <a href="https://x.com/RationalOptSoc" target="_blank" rel="noopener">X / Twitter</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <a href="index.html#discovery-hub">Innovation Map</a>
+                    <a href="index.html#companies">Intelligence Database</a>
+                    <a href="index.html#intelligence-hub">Signals</a>
+                    <a href="index.html#sectors">Sectors</a>
+                    <a href="investors.html">Investors</a>
+                    <a href="visualizations.html">Insights</a>
+                    <a href="valuations.html">Valuations</a>
+                    <a href="talent.html">Talent</a>
+                    <a href="govradar.html">Gov Radar</a>
+                    <a href="regulatory.html">Regulatory</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rational Optimist Society &middot; The Innovators League</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="auth.js?v=20260219d"></script>
+    <script src="data.js?v=20260219d"></script>
+    <script src="data/gov_contracts_auto.js?v=20260219d"></script>
+    <script src="data/federal_register_auto.js?v=20260219d"></script>
+    <script src="data/doe_programs_auto.js?v=20260219d"></script>
+    <script src="data/nsf_awards_auto.js?v=20260219d"></script>
+    <script src="govradar.js?v=20260219d"></script>
+</body>
+</html>

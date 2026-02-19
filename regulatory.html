@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Investor Intelligence | The Innovators League</title>
-    <meta name="description" content="Deep tech venture capital intelligence — the firms, partners, and capital flows shaping the frontier technology landscape.">
+    <title>Regulatory Intelligence | The Innovators League</title>
+    <meta name="description" content="Track FDA, NRC, FAA, and DOE certification pathways — every regulatory milestone affecting frontier technology companies.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css?v=20260219d">
 </head>
 <body>
-    <!-- Navigation — 5 Key Tabs -->
+    <!-- Navigation -->
     <nav class="nav">
         <div class="nav-brand">
             <div class="nav-logo">ROS</div>
@@ -22,12 +22,12 @@
             <a href="index.html#companies" class="nav-link">📊 Database</a>
             <a href="index.html#innovator50" class="nav-link">🏆 ROS 50</a>
             <a href="visualizations.html" class="nav-link">📈 Insights</a>
-            <a href="investors.html" class="nav-link active">💰 Investors</a>
+            <a href="investors.html" class="nav-link">💰 Investors</a>
             <a href="jobs.html" class="nav-link">💼 Jobs</a>
             <a href="valuations.html" class="nav-link">💎 Valuations</a>
             <a href="talent.html" class="nav-link">🧬 Talent</a>
             <a href="govradar.html" class="nav-link">📡 Gov Radar</a>
-            <a href="regulatory.html" class="nav-link">🏛️ Regulatory</a>
+            <a href="regulatory.html" class="nav-link active">🏛️ Regulatory</a>
             <div class="nav-auth" id="nav-auth">
                 <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
                 <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
@@ -43,125 +43,105 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero investor-hero">
+    <header class="hero regulatory-hero">
         <div class="hero-content">
-            <p class="hero-eyebrow">CAPITAL INTELLIGENCE</p>
-            <h1 class="hero-title">Investor Intelligence</h1>
-            <p class="hero-subtitle">The venture capital firms and partners deploying capital into deep tech, defense, and frontier technology — mapped, profiled, and cross-referenced.</p>
+            <p class="hero-eyebrow">REGULATORY INTELLIGENCE</p>
+            <h1 class="hero-title">Regulatory Intelligence</h1>
+            <p class="hero-subtitle">Track FDA, NRC, FAA, and DOE certification pathways — every regulatory milestone affecting frontier technology companies.</p>
             <div class="hero-stats">
                 <div class="stat">
-                    <span class="stat-number" id="vc-count">0</span>
-                    <span class="stat-label">VC Firms</span>
+                    <span class="stat-number" id="reg-actions-count">0</span>
+                    <span class="stat-label">Regulatory Actions</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
-                    <span class="stat-number" id="total-aum">0</span>
-                    <span class="stat-label">Combined AUM</span>
+                    <span class="stat-number" id="reg-companies">0</span>
+                    <span class="stat-label">Companies Monitored</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
-                    <span class="stat-number" id="portfolio-count">0</span>
-                    <span class="stat-label">Portfolio Links</span>
+                    <span class="stat-number" id="reg-agencies">0</span>
+                    <span class="stat-label">Agencies Tracked</span>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Filters -->
-    <section class="section" id="vc-section">
+    <!-- Regulatory Timeline -->
+    <section class="section" id="reg-timeline">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">DEEP TECH CAPITAL</p>
-                <h2>Venture Capital Firms</h2>
-                <p>The investors deploying billions into frontier technology.</p>
+                <p class="section-eyebrow">CHRONOLOGICAL FEED</p>
+                <h2>Regulatory Timeline</h2>
+                <p>Unified feed of FDA actions, Federal Register entries, clinical trials, and DOE programs — newest first.</p>
             </div>
-
-            <div class="filter-bar">
-                <div class="search-box">
-                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                    <input type="text" id="vc-search" placeholder="Search firms, partners, portfolio companies...">
-                </div>
-                <div class="filter-dropdowns">
-                    <select id="vc-sector-filter" class="filter-select">
-                        <option value="all">All Sectors</option>
-                    </select>
-                    <select id="vc-sort" class="filter-select">
-                        <option value="aum">Sort: AUM (High→Low)</option>
-                        <option value="name">Sort: A-Z</option>
-                        <option value="founded">Sort: Established First</option>
-                        <option value="portfolio">Sort: Portfolio Size</option>
-                    </select>
-                </div>
+            <div class="reg-timeline-list" id="reg-timeline-list"></div>
+            <div class="reg-timeline-more" id="reg-timeline-more" style="display:none;">
+                <button class="btn-load-more" id="btn-load-more-timeline">Load More</button>
             </div>
-
-            <!-- VC Cards Grid -->
-            <div class="vc-grid" id="vc-grid"></div>
         </div>
     </section>
 
-    <!-- Active Deployers -->
-    <section class="section active-deployers-section" id="active-deployers">
+    <!-- FDA Pathway Tracker -->
+    <section class="section" id="fda-tracker">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">RECENT ACTIVITY</p>
-                <h2>Active Deployers</h2>
-                <p>VCs with the most recent deal activity — who's actively deploying capital right now.</p>
+                <p class="section-eyebrow">FDA PATHWAYS</p>
+                <h2>FDA Pathway Tracker</h2>
+                <p>Pipeline visualization for biotech companies navigating FDA device and drug approvals.</p>
             </div>
-            <div class="active-deployers-grid" id="active-deployers-grid"></div>
+            <div class="fda-tracker-grid" id="fda-tracker-grid"></div>
         </div>
     </section>
 
-    <!-- Co-Investment Network Graph -->
-    <section class="section co-invest-section" id="co-invest">
+    <!-- Agency Overview -->
+    <section class="section" id="agency-overview">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">NETWORK ANALYSIS</p>
-                <h2>Co-Investment Network</h2>
-                <p>Visualizing syndication patterns — which VCs consistently invest together.</p>
+                <p class="section-eyebrow">AGENCY PROFILES</p>
+                <h2>Agency Overview</h2>
+                <p>Key federal agencies shaping the regulatory landscape for frontier technology.</p>
             </div>
-            <div class="co-invest-graph-container">
-                <div class="co-invest-graph" id="co-invest-graph"></div>
-                <div class="co-invest-legend">
-                    <div class="legend-item"><span class="legend-dot" style="background: var(--accent);"></span> VC Firm</div>
-                    <div class="legend-item"><span class="legend-line"></span> Co-investments</div>
-                    <div class="legend-note">Click a node to highlight connections. Drag to explore.</div>
-                </div>
-            </div>
-            <div class="overlap-matrix" id="overlap-matrix"></div>
+            <div class="agency-overview-grid" id="agency-overview-grid"></div>
         </div>
     </section>
 
-    <!-- Follow-On Patterns -->
-    <section class="section follow-on-section" id="follow-on">
+    <!-- Regulatory Risk Heatmap -->
+    <section class="section" id="reg-risk">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">SYNDICATION INTELLIGENCE</p>
-                <h2>Follow-On Investment Patterns</h2>
-                <p>When one VC leads, who follows? Revealing the trust networks in deep tech investing.</p>
+                <p class="section-eyebrow">RISK ASSESSMENT</p>
+                <h2>Regulatory Risk Heatmap</h2>
+                <p>Per-sector regulatory exposure and risk levels based on agency activity and compliance burden.</p>
             </div>
-            <div class="follow-on-grid" id="follow-on-grid"></div>
+            <div class="reg-risk-grid" id="reg-risk-grid"></div>
         </div>
     </section>
 
-    <!-- Sector Capital Flow -->
-    <section class="section" id="capital-flow">
+    <!-- Federal Register Monitor -->
+    <section class="section" id="fed-register-monitor">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">CAPITAL ALLOCATION</p>
-                <h2>Capital by Sector</h2>
-                <p>Where the smart money is flowing — sector-level VC concentration analysis.</p>
+                <p class="section-eyebrow">FEDERAL REGISTER</p>
+                <h2>Federal Register Monitor</h2>
+                <p>Latest Federal Register entries with sector tagging and agency filtering.</p>
             </div>
-            <div class="sector-capital-grid" id="sector-capital-grid"></div>
+            <div class="fed-register-filters" id="fed-register-filters"></div>
+            <div class="fed-register-grid" id="fed-register-grid"></div>
         </div>
     </section>
 
-    <!-- VC Detail Modal -->
-    <div class="modal-overlay" id="vc-modal-overlay">
-        <div class="modal-content" id="vc-modal-content">
-            <button class="modal-close" id="vc-modal-close" aria-label="Close modal">&times;</button>
-            <div class="modal-body" id="vc-modal-body"></div>
+    <!-- Clinical Trials Dashboard -->
+    <section class="section" id="clinical-trials">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">CLINICAL TRIALS</p>
+                <h2>Clinical Trials Dashboard</h2>
+                <p>Active clinical trials from ClinicalTrials.gov grouped by company and phase.</p>
+            </div>
+            <div class="clinical-trials-grid" id="clinical-trials-grid"></div>
         </div>
-    </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -200,6 +180,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="auth.js?v=20260219d"></script>
     <script src="data.js?v=20260219d"></script>
-    <script src="investors.js?v=20260219d"></script>
+    <script src="data/federal_register_auto.js?v=20260219d"></script>
+    <script src="data/fda_actions_auto.js?v=20260219d"></script>
+    <script src="data/clinical_trials_auto.js?v=20260219d"></script>
+    <script src="data/doe_programs_auto.js?v=20260219d"></script>
+    <script src="regulatory.js?v=20260219d"></script>
 </body>
 </html>
