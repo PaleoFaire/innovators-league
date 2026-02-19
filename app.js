@@ -1320,6 +1320,26 @@ function initFreshnessIndicator() {
 }
 
 // Display section-specific timestamps
+function resolveDataSourceDate(key) {
+  // Auto-resolve dates from live data when DATA_SOURCES has "auto"
+  const today = new Date().toISOString().slice(0, 10);
+  try {
+    if (key === 'news' && typeof COMPANY_SIGNALS !== 'undefined' && COMPANY_SIGNALS.length > 0) return today;
+    if (key === 'secFilings' && typeof SEC_FILINGS_LIVE !== 'undefined' && SEC_FILINGS_LIVE.length > 0) {
+      return SEC_FILINGS_LIVE[0]?.date || today;
+    }
+    if (key === 'govContracts' && typeof GOV_CONTRACTS_AUTO !== 'undefined' && GOV_CONTRACTS_AUTO.length > 0) {
+      return GOV_CONTRACTS_AUTO[0]?.lastUpdated || today;
+    }
+    if (key === 'stocks' && typeof STOCK_PRICES !== 'undefined' && Object.keys(STOCK_PRICES).length > 0) {
+      const first = Object.values(STOCK_PRICES)[0];
+      return first?.lastUpdated?.slice(0, 10) || today;
+    }
+    if (key === 'patents' && typeof PATENT_INTEL !== 'undefined' && PATENT_INTEL.length > 0) return today;
+  } catch(e) { /* ignore */ }
+  return today;
+}
+
 function addSectionTimestamp(sectionId, dataSourceKey) {
   if (typeof DATA_SOURCES === 'undefined') return;
   const section = document.getElementById(sectionId);
@@ -1334,9 +1354,12 @@ function addSectionTimestamp(sectionId, dataSourceKey) {
   // Check if timestamp already exists
   if (header.querySelector('.section-timestamp')) return;
 
+  // Resolve "auto" dates from live data
+  const dateStr = source.lastUpdated === 'auto' ? resolveDataSourceDate(dataSourceKey) : source.lastUpdated;
+
   const timestamp = document.createElement('div');
   timestamp.className = 'section-timestamp';
-  timestamp.innerHTML = `<span class="timestamp-dot">●</span> Updated ${source.lastUpdated} · ${source.frequency}`;
+  timestamp.innerHTML = `<span class="timestamp-dot">●</span> Updated ${dateStr} · ${source.frequency}`;
   header.appendChild(timestamp);
 }
 
@@ -1832,6 +1855,7 @@ function renderCompanyCardHTML(company) {
       <div class="card-footer">
         ${renderSignalBadge(company.signal)}
         ${scoreDisplay}
+        <a href="company.html?slug=${companyToSlug(company.name)}" class="card-profile-link" onclick="event.stopPropagation()" title="View full company profile">Profile &rarr;</a>
       </div>
     </div>
   `;
@@ -3550,9 +3574,22 @@ function initSmoothScroll() {
 // ─── BREAKING NEWS TICKER ───
 function initNewsTicker() {
   const scroll = document.getElementById('ticker-scroll');
-  if (!scroll || typeof NEWS_TICKER === 'undefined') return;
+  if (!scroll) return;
 
-  NEWS_TICKER.forEach((item, i) => {
+  // Prefer live COMPANY_SIGNALS (auto-updated every 4 hours), fallback to static NEWS_TICKER
+  let items = [];
+  if (typeof COMPANY_SIGNALS !== 'undefined' && COMPANY_SIGNALS.length > 0) {
+    items = COMPANY_SIGNALS.map(s => ({
+      text: s.headline || s.text || '',
+      time: s.time || '',
+      priority: s.impact || s.priority || 'medium'
+    }));
+  } else if (typeof NEWS_TICKER !== 'undefined') {
+    items = NEWS_TICKER;
+  }
+  if (items.length === 0) return;
+
+  items.forEach((item, i) => {
     if (i > 0) {
       const divider = document.createElement('span');
       divider.className = 'ticker-divider';
@@ -3569,9 +3606,32 @@ function initNewsTicker() {
 // ─── MARKET PULSE ───
 function initMarketPulse() {
   const grid = document.getElementById('market-pulse-grid');
-  if (!grid || typeof MARKET_PULSE === 'undefined') return;
+  if (!grid) return;
 
-  MARKET_PULSE.forEach(stock => {
+  // Prefer live STOCK_PRICES (auto-updated every 6 hours), fallback to static MARKET_PULSE
+  let stocks = [];
+  if (typeof STOCK_PRICES !== 'undefined' && Object.keys(STOCK_PRICES).length > 0) {
+    // STOCK_PRICES is an object keyed by ticker
+    const trackedTickers = ['PLTR', 'NVDA', 'RKLB', 'JOBY', 'ACHR', 'PL', 'LUNR', 'IONQ', 'OKLO', 'RXRX'];
+    stocks = trackedTickers
+      .filter(t => STOCK_PRICES[t])
+      .map(t => {
+        const s = STOCK_PRICES[t];
+        const pct = s.changePercent || 0;
+        return {
+          name: s.company,
+          ticker: t,
+          valuation: s.marketCap || 'N/A',
+          change: (pct >= 0 ? '+' : '') + pct.toFixed(1) + '%',
+          trend: pct >= 0 ? 'up' : 'down'
+        };
+      });
+  } else if (typeof MARKET_PULSE !== 'undefined') {
+    stocks = MARKET_PULSE;
+  }
+  if (stocks.length === 0) return;
+
+  stocks.forEach(stock => {
     const card = document.createElement('div');
     card.className = 'pulse-card';
     card.innerHTML = `

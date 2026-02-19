@@ -126,6 +126,43 @@ def update_company_signals(data_js_content):
 
     return data_js_content
 
+def update_gov_contracts(data_js_content):
+    """Update GOV_CONTRACTS in data.js with fresh USAspending data."""
+    contracts = load_json("gov_contracts_aggregated.json")
+    if not contracts:
+        print("No gov contracts data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(contracts)} gov contract records...")
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = "// Auto-updated government contracts from USAspending\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "const GOV_CONTRACTS = [\n"
+
+    for c in contracts:
+        company = c.get("company", "").replace('"', "'")
+        total_val = c.get("totalGovValue", "$0").replace('"', "'")
+        count = c.get("contractCount", 0)
+        agencies = json.dumps(c.get("agencies", []))
+        last_updated = c.get("lastUpdated", today)
+        js_array += f'  {{ company: "{company}", totalGovValue: "{total_val}", '
+        js_array += f'contractCount: {count}, agencies: {agencies}, '
+        js_array += f'lastUpdated: "{last_updated}" }},\n'
+
+    js_array += "];"
+
+    # Replace existing GOV_CONTRACTS (but not GOV_CONTRACTS_AUTO)
+    pattern = r'const GOV_CONTRACTS = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, js_array, data_js_content)
+        print("  Updated GOV_CONTRACTS")
+    else:
+        print("  GOV_CONTRACTS not found in data.js")
+
+    return data_js_content
+
+
 def update_last_updated(data_js_content):
     """Update the LAST_UPDATED timestamp."""
     today = datetime.now().strftime("%Y-%m-%d")
@@ -137,6 +174,18 @@ def update_last_updated(data_js_content):
         print(f"  Updated LAST_UPDATED to {today}")
 
     return data_js_content
+
+
+def validate_js_syntax(content):
+    """Basic validation: check for missing commas between objects in arrays."""
+    issues = list(re.finditer(r'\}\s*\n\s*\{', content))
+    if issues:
+        for i in issues:
+            line = content[:i.start()].count('\n') + 1
+            print(f"  WARNING: Possible missing comma at line ~{line}")
+        return False
+    return True
+
 
 def main():
     print("=" * 60)
@@ -158,7 +207,15 @@ def main():
     # Apply updates
     data_js_content = update_sec_filings(data_js_content)
     data_js_content = update_company_signals(data_js_content)
+    data_js_content = update_gov_contracts(data_js_content)
     data_js_content = update_last_updated(data_js_content)
+
+    # Validate before writing
+    print("\nValidating JS syntax...")
+    if validate_js_syntax(data_js_content):
+        print("  No syntax issues detected")
+    else:
+        print("  WARNING: Potential syntax issues found — review data.js manually")
 
     # Write updated data.js
     with open(DATA_JS_PATH, 'w') as f:

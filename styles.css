@@ -1460,6 +1460,25 @@ body {
   margin-top: auto;
   padding-top: 12px;
   border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.card-profile-link {
+  margin-left: auto;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  transition: color 0.2s;
+}
+.card-profile-link:hover {
+  color: var(--accent-bright, #60a5fa);
+  text-decoration: underline;
 }
 
 .card-actions-top {

@@ -46,14 +46,15 @@ const SEC_FILINGS_LIVE = [
 
 const LAST_UPDATED = "2026-02-18";
 
-// Data source freshness tracking
+// Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
-  companies: { lastUpdated: "2026-02-09", source: "Manual + Automated", frequency: "Daily" },
-  news: { lastUpdated: "2026-02-09", source: "RSS Aggregation", frequency: "Every 4 hours" },
-  secFilings: { lastUpdated: "2026-02-06", source: "SEC EDGAR API", frequency: "Daily" },
-  govContracts: { lastUpdated: "2026-02-06", source: "SAM.gov + USAspending", frequency: "Daily" },
-  patents: { lastUpdated: "2026-02-06", source: "USPTO PatentsView", frequency: "Weekly" },
-  fundingRounds: { lastUpdated: "2026-02-08", source: "Press releases + Crunchbase", frequency: "Daily" }
+  companies: { lastUpdated: "auto", source: "Manual + Automated", frequency: "Daily" },
+  news: { lastUpdated: "auto", source: "RSS Aggregation", frequency: "Every 4 hours" },
+  secFilings: { lastUpdated: "auto", source: "SEC EDGAR API", frequency: "Daily" },
+  govContracts: { lastUpdated: "auto", source: "SAM.gov + USAspending", frequency: "Daily" },
+  patents: { lastUpdated: "auto", source: "USPTO PatentsView", frequency: "Weekly" },
+  stocks: { lastUpdated: "auto", source: "Yahoo Finance", frequency: "Every 6 hours" },
+  fundingRounds: { lastUpdated: "auto", source: "Press releases + Crunchbase", frequency: "Weekly" }
 };
 
 // ═══════════════════════════════════════════════════════
