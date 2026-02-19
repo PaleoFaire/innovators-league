@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.96,
+      "avg_change": -2.03,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -2.16,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": -0.64,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 0.71,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 1.5,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.83,
+      "avg_change": -6.85,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -14.04,
+      "avg_change": -10.39,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.54,
+      "avg_change": -3.63,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -2.55,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 1.62,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 2.34,
+      "avg_change": 0.77,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.91,
+      "avg_change": -6.04,
       "count": 3
     }
   },
   "topGainers": [
+    [
+      "TEM",
+      "Tempus AI",
+      9.89
+    ],
     [
       "9348.T",
       "ispace",
       9.31
     ],
     [
-      "RIVN",
-      "Rivian",
-      7.95
-    ],
-    [
       "AUR",
       "Aurora Innovation",
-      6.28
+      8.14
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      4.51
+      "RIVN",
+      "Rivian",
+      7.05
     ],
     [
       "PL",
       "Planet Labs",
-      4.17
+      6.06
     ]
   ],
   "topLosers": [
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -12.3
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -15.13
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -15.17
-    ],
-    [
-      "QS",
-      "QuantumScape",
-      -20.02
+      "SLDP",
+      "Solid Power",
+      -9.9
     ],
     [
       "ALAB",
       "Astera Labs",
-      -29.14
+      -10.44
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -12.14
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -14.0
+    ],
+    [
+      "QS",
+      "QuantumScape",
+      -19.44
     ]
   ],
-  "lastUpdated": "2026-02-19 08:02:39"
+  "lastUpdated": "2026-02-19 14:40:06"
 }
