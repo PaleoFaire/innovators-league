@@ -8846,7 +8846,7 @@ const COMPANIES = [
   },
   {
     name: "Hidden Level",
-    founder: "John DeWaal",
+    founder: "Jeff Cole, Gary Dominicos",
     sector: "Defense & Security",
     description: "Develops passive radar and RF sensing technology to detect drones and aircraft threats, protecting critical infrastructure and national security.",
     thesis: "Active radar broadcasts your position — Hidden Level's passive sensing detects threats without revealing the defender.",
