@@ -503,6 +503,7 @@
                 <button class="intel-hub-tab active" data-intel="alerts">🔔 Alerts</button>
                 <button class="intel-hub-tab" data-intel="signals">📊 Signals & News</button>
                 <button class="intel-hub-tab" data-intel="movements">🔄 Movement Tracker</button>
+                <button class="intel-hub-tab" data-intel="community">🌐 Community & Regulatory</button>
             </div>
             <!-- Alerts Panel -->
             <div class="intel-hub-panel" id="intel-alerts-panel">
@@ -551,6 +552,19 @@
                     <button class="movement-tab" data-type="new">New Additions</button>
                 </div>
                 <div class="movement-grid" id="movement-grid"></div>
+            </div>
+            <!-- Community & Regulatory Panel -->
+            <div class="intel-hub-panel" id="intel-community-panel" style="display: none;">
+                <div class="community-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+                    <div>
+                        <h3 style="font-size:14px;font-weight:600;margin-bottom:12px;color:var(--text-primary);">Hacker News Buzz</h3>
+                        <div id="hn-buzz-feed" style="display:flex;flex-direction:column;gap:8px;"></div>
+                    </div>
+                    <div>
+                        <h3 style="font-size:14px;font-weight:600;margin-bottom:12px;color:var(--text-primary);">Federal Register & Press</h3>
+                        <div id="regulatory-press-feed" style="display:flex;flex-direction:column;gap:8px;"></div>
+                    </div>
+                </div>
             </div>
             <!-- Alert Preferences Panel -->
             <div class="alert-preferences-panel" id="alert-preferences-panel">
@@ -1218,6 +1232,11 @@
     <script src="data/sec_filings_auto.js?v=20260219"></script>
     <script src="data/gov_contracts_auto.js?v=20260219"></script>
     <script src="data/patent_intel_auto.js?v=20260219"></script>
+    <script src="data/hackernews_buzz_auto.js?v=20260219"></script>
+    <script src="data/press_releases_auto.js?v=20260219"></script>
+    <script src="data/github_releases_auto.js?v=20260219"></script>
+    <script src="data/federal_register_auto.js?v=20260219"></script>
+    <script src="data/doe_programs_auto.js?v=20260219"></script>
     <script src="app.js?v=20260219"></script>
 </body>
 </html>

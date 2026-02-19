@@ -593,45 +593,83 @@
     renderAltData(company);
     renderFounderNetwork(company);
     renderNewsFeed(company);
+    renderGitHubReleases(company);
+    renderResearchPapers(company);
+    renderClinicalTrials(company);
+    renderFDAActions(company);
+    renderHNBuzz(company);
+    renderRegulatoryFeed(company);
+    renderGovPrograms(company);
   }
 
   function renderPatentIntel(company) {
     const container = document.getElementById('patent-intel');
 
+    // Check editorial data first, then fall back to live USPTO data
     const patent = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => p.company === company.name) : null;
+    const livePatent = typeof PATENT_INTEL_AUTO !== 'undefined' ? PATENT_INTEL_AUTO.find(p => p.company === company.name) : null;
 
-    if (!patent) {
+    if (!patent && !livePatent) {
       container.innerHTML = '<div class="no-data"><p>No patent data available</p></div>';
       return;
     }
 
-    const moatClass = patent.ipMoatScore >= 7 ? 'high' : patent.ipMoatScore >= 5 ? 'mid' : 'low';
+    if (patent) {
+      // Use editorial data (has IP moat score, tech areas, velocity)
+      const moatClass = patent.ipMoatScore >= 7 ? 'high' : patent.ipMoatScore >= 5 ? 'mid' : 'low';
+      const liveCount = livePatent ? livePatent.patentCount : null;
 
-    container.innerHTML = `
-      <div class="patent-stats">
-        <div class="patent-stat">
-          <div class="patent-stat-value">${patent.totalPatents}</div>
-          <div class="patent-stat-label">Patents</div>
+      container.innerHTML = `
+        <div class="patent-stats">
+          <div class="patent-stat">
+            <div class="patent-stat-value">${liveCount || patent.totalPatents}</div>
+            <div class="patent-stat-label">Patents${liveCount ? ' (USPTO)' : ''}</div>
+          </div>
+          <div class="patent-stat">
+            <div class="patent-stat-value">${patent.velocity}</div>
+            <div class="patent-stat-label">Filing Rate</div>
+          </div>
+          <div class="patent-stat">
+            <div class="patent-stat-value" style="color:${moatClass === 'high' ? '#22c55e' : moatClass === 'mid' ? '#f59e0b' : '#6b7280'};">${patent.trend || '→'}</div>
+            <div class="patent-stat-label">Trend</div>
+          </div>
         </div>
-        <div class="patent-stat">
-          <div class="patent-stat-value">${patent.velocity}</div>
-          <div class="patent-stat-label">Filing Rate</div>
+        <div class="ip-moat-score">
+          <span class="ip-moat-label">IP Moat Score</span>
+          <span class="ip-moat-value ${moatClass}">${patent.ipMoatScore}/10</span>
         </div>
-        <div class="patent-stat">
-          <div class="patent-stat-value" style="color:${moatClass === 'high' ? '#22c55e' : moatClass === 'mid' ? '#f59e0b' : '#6b7280'};">${patent.trend || '→'}</div>
-          <div class="patent-stat-label">Trend</div>
+        ${patent.techAreas && patent.techAreas.length > 0 ? `
+          <div class="patent-areas">
+            ${patent.techAreas.map(t => `<span class="patent-area-tag">${t}</span>`).join('')}
+          </div>
+        ` : ''}
+      `;
+    } else {
+      // Live USPTO data only (no editorial score)
+      const areas = (livePatent.technologyAreas || []).slice(0, 5);
+      container.innerHTML = `
+        <div class="patent-stats">
+          <div class="patent-stat">
+            <div class="patent-stat-value">${livePatent.patentCount}</div>
+            <div class="patent-stat-label">Patents (USPTO)</div>
+          </div>
+          <div class="patent-stat">
+            <div class="patent-stat-value">${areas.length}</div>
+            <div class="patent-stat-label">Tech Areas</div>
+          </div>
+          <div class="patent-stat">
+            <div class="patent-stat-value">${livePatent.latestPatentDate || 'N/A'}</div>
+            <div class="patent-stat-label">Latest Filing</div>
+          </div>
         </div>
-      </div>
-      <div class="ip-moat-score">
-        <span class="ip-moat-label">IP Moat Score</span>
-        <span class="ip-moat-value ${moatClass}">${patent.ipMoatScore}/10</span>
-      </div>
-      ${patent.techAreas && patent.techAreas.length > 0 ? `
-        <div class="patent-areas">
-          ${patent.techAreas.map(t => `<span class="patent-area-tag">${t}</span>`).join('')}
-        </div>
-      ` : ''}
-    `;
+        ${areas.length > 0 ? `
+          <div class="patent-areas">
+            ${areas.map(t => `<span class="patent-area-tag">${t}</span>`).join('')}
+          </div>
+        ` : ''}
+        <p style="font-size:11px;color:var(--text-muted);margin-top:8px;">Source: USPTO PatentsView API</p>
+      `;
+    }
   }
 
   function renderAltData(company) {
@@ -733,6 +771,258 @@
             <div class="news-title">${n.headline}</div>
             ${n.source ? `<div class="news-source">${n.source}</div>` : ''}
           </a>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  // ── GitHub Releases (for open-source / dev-tools companies) ──
+  function renderGitHubReleases(company) {
+    const card = document.getElementById('github-releases-card');
+    const container = document.getElementById('github-releases');
+    if (!card || !container) return;
+
+    const releases = typeof GITHUB_RELEASES !== 'undefined'
+      ? GITHUB_RELEASES.filter(r => r.company === company.name).slice(0, 8)
+      : [];
+
+    if (releases.length === 0) return; // Keep card hidden
+
+    card.style.display = '';
+    container.innerHTML = `
+      <div class="news-list">
+        ${releases.map(r => `
+          <div class="news-item" style="cursor:default;">
+            <div class="news-date">${r.date || ''}</div>
+            <div class="news-title" style="font-family:monospace;font-size:12px;">${r.tag}</div>
+            <div class="news-source">${r.repo}</div>
+          </div>
+        `).join('')}
+      </div>
+      <p style="font-size:11px;color:var(--text-muted);margin-top:8px;">Source: GitHub API</p>
+    `;
+  }
+
+  // ── Research Papers (arXiv — AI, robotics, quantum, etc.) ──
+  function renderResearchPapers(company) {
+    const card = document.getElementById('research-papers-card');
+    const container = document.getElementById('research-papers');
+    if (!card || !container) return;
+
+    if (typeof ARXIV_PAPERS === 'undefined') return;
+
+    const nameLower = company.name.toLowerCase();
+    const papers = ARXIV_PAPERS.filter(p => {
+      const text = `${p.title} ${p.authors || ''}`.toLowerCase();
+      return text.includes(nameLower);
+    }).slice(0, 6);
+
+    // Also show sector-relevant papers if company has few direct matches
+    const sectorPapers = papers.length < 3 && company.sector
+      ? ARXIV_PAPERS.filter(p => (p.sectors || '').includes(company.sector.toLowerCase())).slice(0, 4)
+      : [];
+
+    const allPapers = papers.length > 0 ? papers : sectorPapers;
+    if (allPapers.length === 0) return;
+
+    card.style.display = '';
+    const label = papers.length > 0 ? 'Company-related' : 'Sector research';
+    container.innerHTML = `
+      <p style="font-size:11px;color:var(--text-muted);margin-bottom:8px;">${label} papers from arXiv</p>
+      <div class="news-list">
+        ${allPapers.map(p => `
+          <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener" class="news-item">
+            <div class="news-date">${p.published || ''}</div>
+            <div class="news-title" style="font-size:12px;">${(p.title || '').substring(0, 100)}</div>
+            <div class="news-source">${p.category || ''}</div>
+          </a>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  // ── Clinical Trials (biotech / medtech companies) ──
+  function renderClinicalTrials(company) {
+    const card = document.getElementById('clinical-trials-card');
+    const container = document.getElementById('clinical-trials');
+    if (!card || !container) return;
+
+    if (typeof CLINICAL_TRIALS === 'undefined') return;
+
+    const nameLower = company.name.toLowerCase();
+    const trials = CLINICAL_TRIALS.filter(t => {
+      const text = `${t.sponsor || ''} ${t.title || ''}`.toLowerCase();
+      return text.includes(nameLower);
+    }).slice(0, 6);
+
+    if (trials.length === 0) return;
+
+    const statusColors = { RECRUITING: '#22c55e', COMPLETED: '#3b82f6', NOT_YET_RECRUITING: '#f59e0b', ACTIVE_NOT_RECRUITING: '#6b7280' };
+
+    card.style.display = '';
+    container.innerHTML = `
+      <div class="news-list">
+        ${trials.map(t => {
+          const color = statusColors[t.status] || '#6b7280';
+          return `
+            <a href="https://clinicaltrials.gov/study/${t.nctId}" target="_blank" rel="noopener" class="news-item">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+                <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:${color}15;color:${color};font-weight:600;">${(t.status || '').replace(/_/g, ' ')}</span>
+                ${t.phase && t.phase !== 'N/A' ? `<span style="font-size:10px;color:var(--text-muted);">${t.phase}</span>` : ''}
+              </div>
+              <div class="news-title" style="font-size:12px;">${(t.title || '').substring(0, 100)}</div>
+              <div class="news-source">Enrollment: ${t.enrollment || 'N/A'} &middot; ${t.lastUpdated || ''}</div>
+            </a>
+          `;
+        }).join('')}
+      </div>
+      <p style="font-size:11px;color:var(--text-muted);margin-top:8px;">Source: ClinicalTrials.gov</p>
+    `;
+  }
+
+  // ── FDA Actions (biotech / medtech / pharma) ──
+  function renderFDAActions(company) {
+    const card = document.getElementById('fda-actions-card');
+    const container = document.getElementById('fda-actions');
+    if (!card || !container) return;
+
+    if (typeof FDA_ACTIONS === 'undefined') return;
+
+    const actions = FDA_ACTIONS.filter(a => a.company === company.name).slice(0, 8);
+    if (actions.length === 0) return;
+
+    card.style.display = '';
+    container.innerHTML = `
+      <div class="news-list">
+        ${actions.map(a => `
+          <div class="news-item" style="cursor:default;">
+            <div class="news-date">${a.date || ''}</div>
+            <div class="news-title" style="font-size:12px;">${a.product || ''}</div>
+            <div class="news-source">${a.type === 'device_510k' ? '510(k) Clearance' : a.type || ''} &middot; ${a.status || ''}</div>
+          </div>
+        `).join('')}
+      </div>
+      <p style="font-size:11px;color:var(--text-muted);margin-top:8px;">Source: FDA openFDA</p>
+    `;
+  }
+
+  // ── Hacker News Buzz ──
+  function renderHNBuzz(company) {
+    const card = document.getElementById('hn-buzz-card');
+    const container = document.getElementById('hn-buzz');
+    if (!card || !container) return;
+
+    if (typeof HN_BUZZ === 'undefined') return;
+
+    const nameLower = company.name.toLowerCase();
+    const stories = HN_BUZZ.filter(h => {
+      const companies = (h.companies || '').toLowerCase();
+      return companies.includes(nameLower);
+    }).slice(0, 6);
+
+    if (stories.length === 0) return;
+
+    card.style.display = '';
+    container.innerHTML = `
+      <div class="news-list">
+        ${stories.map(h => `
+          <a href="https://news.ycombinator.com/item?id=${h.id}" target="_blank" rel="noopener" class="news-item">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+              <span style="font-size:11px;font-weight:600;color:var(--accent);">${h.score} pts</span>
+              <span style="font-size:11px;color:var(--text-muted);">${h.comments} comments</span>
+            </div>
+            <div class="news-title" style="font-size:12px;">${h.title}</div>
+            <div class="news-source">${h.date || ''}</div>
+          </a>
+        `).join('')}
+      </div>
+      <p style="font-size:11px;color:var(--text-muted);margin-top:8px;">Source: Hacker News</p>
+    `;
+  }
+
+  // ── Federal Register / Regulatory Activity ──
+  function renderRegulatoryFeed(company) {
+    const card = document.getElementById('regulatory-card');
+    const container = document.getElementById('regulatory-feed');
+    if (!card || !container) return;
+
+    if (typeof FEDERAL_REGISTER === 'undefined') return;
+
+    // Match by sector keywords
+    const sectorLower = (company.sector || '').toLowerCase();
+    const docs = FEDERAL_REGISTER.filter(d => {
+      const sectors = (d.sectors || '').toLowerCase();
+      return sectors.includes(sectorLower) || (d.significant === true);
+    }).slice(0, 6);
+
+    if (docs.length === 0) return;
+
+    const typeColors = { Rule: '#22c55e', 'Proposed Rule': '#f59e0b', Notice: '#3b82f6' };
+
+    card.style.display = '';
+    container.innerHTML = `
+      <p style="font-size:11px;color:var(--text-muted);margin-bottom:8px;">Sector-relevant federal documents</p>
+      <div class="news-list">
+        ${docs.map(d => {
+          const color = typeColors[d.type] || '#6b7280';
+          return `
+            <a href="https://www.federalregister.gov/documents/${d.docNum}" target="_blank" rel="noopener" class="news-item">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+                <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:${color}15;color:${color};font-weight:600;">${d.type || ''}</span>
+                <span style="font-size:10px;color:var(--text-muted);">${d.date || ''}</span>
+              </div>
+              <div class="news-title" style="font-size:12px;">${(d.title || '').substring(0, 100)}</div>
+              <div class="news-source">${d.agencies || ''}</div>
+            </a>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
+
+  // ── Government Programs (DOE, NASA — energy/space/defense) ──
+  function renderGovPrograms(company) {
+    const card = document.getElementById('gov-programs-card');
+    const container = document.getElementById('gov-programs');
+    if (!card || !container) return;
+
+    const programs = [];
+
+    // DOE programs
+    if (typeof DOE_PROGRAMS !== 'undefined') {
+      DOE_PROGRAMS.forEach(p => {
+        if ((p.companies || '').toLowerCase().includes(company.name.toLowerCase())) {
+          programs.push({ ...p, source: 'DOE' });
+        }
+      });
+    }
+
+    // NASA projects (may be empty)
+    if (typeof NASA_PROJECTS !== 'undefined') {
+      NASA_PROJECTS.forEach(p => {
+        if ((p.companies || '').toLowerCase().includes(company.name.toLowerCase())) {
+          programs.push({ ...p, source: 'NASA' });
+        }
+      });
+    }
+
+    if (programs.length === 0) return;
+
+    card.style.display = '';
+    container.innerHTML = `
+      <div class="news-list">
+        ${programs.map(p => `
+          <div class="news-item" style="cursor:default;">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+              <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:#3b82f615;color:#3b82f6;font-weight:600;">${p.source}</span>
+              <span style="font-size:10px;color:var(--text-muted);">${p.status || ''}</span>
+            </div>
+            <div class="news-title" style="font-size:12px;">${p.program || p.title || ''}</div>
+            <div class="news-source">
+              ${p.funding ? `Funding: ${p.funding}` : ''}
+              ${p.agency ? ` &middot; ${p.agency}` : ''}
+            </div>
+          </div>
         `).join('')}
       </div>
     `;

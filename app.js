@@ -4399,44 +4399,95 @@ function renderGovDemandTracker(panel) {
 // PATENT INTELLIGENCE & IP MOAT
 // ═══════════════════════════════════════════════════════════════
 function initPatentIntel() {
-  if (typeof PATENT_INTEL === 'undefined') return;
+  if (typeof PATENT_INTEL === 'undefined' && typeof PATENT_INTEL_AUTO === 'undefined') return;
   const grid = document.getElementById('patent-grid');
   if (!grid) return;
 
-  const sorted = [...PATENT_INTEL].sort((a, b) => (b.ipMoatScore || 0) - (a.ipMoatScore || 0));
+  // Merge editorial PATENT_INTEL with live PATENT_INTEL_AUTO
+  const editorialCompanies = new Set();
+  const allCards = [];
 
-  grid.innerHTML = sorted.map(p => {
-    const moatColor = p.ipMoatScore >= 8 ? '#22c55e' : p.ipMoatScore >= 6 ? '#f59e0b' : '#6b7280';
-    const moatLabel = p.ipMoatScore >= 8 ? 'HIGH' : p.ipMoatScore >= 6 ? 'MID' : 'LOW';
-    return `
-      <div class="patent-card" onclick="openCompanyModal('${(p.company || '').replace(/'/g, "\\'")}')">
-        <div class="patent-card-header">
-          <span class="patent-company">${p.company}</span>
-          <span class="patent-ip-score" style="background:${moatColor}15; color:${moatColor}; border:1px solid ${moatColor}40;">
-            IP: ${p.ipMoatScore}/10 · ${moatLabel}
-          </span>
-        </div>
-        <div class="patent-stats">
-          <div class="patent-stat">
-            <span class="patent-stat-value">${p.totalPatents}</span>
-            <span class="patent-stat-label">Patents</span>
+  // Editorial entries first (have IP moat scores)
+  if (typeof PATENT_INTEL !== 'undefined') {
+    const sorted = [...PATENT_INTEL].sort((a, b) => (b.ipMoatScore || 0) - (a.ipMoatScore || 0));
+    sorted.forEach(p => {
+      editorialCompanies.add(p.company);
+      // Overlay live patent count if available
+      const live = typeof PATENT_INTEL_AUTO !== 'undefined' ? PATENT_INTEL_AUTO.find(lp => lp.company === p.company) : null;
+      const patentCount = live ? live.patentCount : p.totalPatents;
+
+      const moatColor = p.ipMoatScore >= 8 ? '#22c55e' : p.ipMoatScore >= 6 ? '#f59e0b' : '#6b7280';
+      const moatLabel = p.ipMoatScore >= 8 ? 'HIGH' : p.ipMoatScore >= 6 ? 'MID' : 'LOW';
+      allCards.push(`
+        <div class="patent-card" onclick="openCompanyModal('${(p.company || '').replace(/'/g, "\\'")}')">
+          <div class="patent-card-header">
+            <span class="patent-company">${p.company}</span>
+            <span class="patent-ip-score" style="background:${moatColor}15; color:${moatColor}; border:1px solid ${moatColor}40;">
+              IP: ${p.ipMoatScore}/10 · ${moatLabel}
+            </span>
           </div>
-          <div class="patent-stat">
-            <span class="patent-stat-value">${p.velocity}</span>
-            <span class="patent-stat-label">Filing Rate</span>
+          <div class="patent-stats">
+            <div class="patent-stat">
+              <span class="patent-stat-value">${patentCount}</span>
+              <span class="patent-stat-label">Patents${live ? ' (USPTO)' : ''}</span>
+            </div>
+            <div class="patent-stat">
+              <span class="patent-stat-value">${p.velocity}</span>
+              <span class="patent-stat-label">Filing Rate</span>
+            </div>
+            <div class="patent-stat">
+              <span class="patent-stat-value patent-trend-${p.velocityTrend}">${p.velocityTrend === 'accelerating' ? '↑ Accel.' : p.velocityTrend === 'steady' ? '→ Steady' : '↓ Slow'}</span>
+              <span class="patent-stat-label">Trend</span>
+            </div>
           </div>
-          <div class="patent-stat">
-            <span class="patent-stat-value patent-trend-${p.velocityTrend}">${p.velocityTrend === 'accelerating' ? '↑ Accel.' : p.velocityTrend === 'steady' ? '→ Steady' : '↓ Slow'}</span>
-            <span class="patent-stat-label">Trend</span>
+          <div class="patent-tech-areas">
+            ${(p.techAreas || []).map(t => `<span class="patent-tech-tag">${t}</span>`).join('')}
+          </div>
+          <p class="patent-note">${p.note || ''}</p>
+        </div>
+      `);
+    });
+  }
+
+  // Add live-only companies (from PATENT_INTEL_AUTO but not in editorial list)
+  if (typeof PATENT_INTEL_AUTO !== 'undefined') {
+    const liveOnly = PATENT_INTEL_AUTO
+      .filter(p => !editorialCompanies.has(p.company) && p.patentCount > 0)
+      .sort((a, b) => b.patentCount - a.patentCount);
+
+    liveOnly.forEach(p => {
+      const areas = (p.technologyAreas || []).slice(0, 4);
+      allCards.push(`
+        <div class="patent-card" onclick="openCompanyModal('${(p.company || '').replace(/'/g, "\\'")}')">
+          <div class="patent-card-header">
+            <span class="patent-company">${p.company}</span>
+            <span class="patent-ip-score" style="background:#3b82f615; color:#3b82f6; border:1px solid #3b82f640;">
+              USPTO Live
+            </span>
+          </div>
+          <div class="patent-stats">
+            <div class="patent-stat">
+              <span class="patent-stat-value">${p.patentCount}</span>
+              <span class="patent-stat-label">Patents</span>
+            </div>
+            <div class="patent-stat">
+              <span class="patent-stat-value">${areas.length}</span>
+              <span class="patent-stat-label">Tech Areas</span>
+            </div>
+            <div class="patent-stat">
+              <span class="patent-stat-value">${p.latestPatentDate || 'N/A'}</span>
+              <span class="patent-stat-label">Latest</span>
+            </div>
+          </div>
+          <div class="patent-tech-areas">
+            ${areas.map(t => `<span class="patent-tech-tag">${t}</span>`).join('')}
           </div>
         </div>
-        <div class="patent-tech-areas">
-          ${(p.techAreas || []).map(t => `<span class="patent-tech-tag">${t}</span>`).join('')}
-        </div>
-        <p class="patent-note">${p.note || ''}</p>
-      </div>
-    `;
-  }).join('');
+      `);
+    });
+  }
+
+  grid.innerHTML = allCards.join('');
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -4587,6 +4638,7 @@ function initIntelligenceHub() {
   const alertsPanel = document.getElementById('intel-alerts-panel');
   const signalsPanel = document.getElementById('intel-signals-panel');
   const movementsPanel = document.getElementById('intel-movements-panel');
+  const communityPanel = document.getElementById('intel-community-panel');
 
   if (!tabs.length) return;
 
@@ -4601,8 +4653,88 @@ function initIntelligenceHub() {
       if (alertsPanel) alertsPanel.style.display = intel === 'alerts' ? 'block' : 'none';
       if (signalsPanel) signalsPanel.style.display = intel === 'signals' ? 'block' : 'none';
       if (movementsPanel) movementsPanel.style.display = intel === 'movements' ? 'block' : 'none';
+      if (communityPanel) communityPanel.style.display = intel === 'community' ? 'block' : 'none';
     });
   });
+
+  // Populate Community & Regulatory panel
+  populateCommunityPanel();
+}
+
+function populateCommunityPanel() {
+  // HN Buzz feed
+  const hnFeed = document.getElementById('hn-buzz-feed');
+  if (hnFeed && typeof HN_BUZZ !== 'undefined' && HN_BUZZ.length > 0) {
+    hnFeed.innerHTML = HN_BUZZ.slice(0, 10).map(h => `
+      <a href="https://news.ycombinator.com/item?id=${h.id}" target="_blank" rel="noopener"
+         style="display:block;padding:10px 12px;background:var(--bg-secondary);border-radius:8px;border:1px solid var(--border);text-decoration:none;transition:border-color 0.2s;">
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+          <span style="font-size:12px;font-weight:700;color:var(--accent);min-width:40px;">${h.score} pts</span>
+          <span style="font-size:11px;color:var(--text-muted);">${h.comments} comments</span>
+          ${h.companies ? `<span style="font-size:10px;padding:2px 6px;border-radius:4px;background:var(--accent)15;color:var(--accent);font-weight:600;">${h.companies}</span>` : ''}
+        </div>
+        <div style="font-size:13px;color:var(--text-primary);line-height:1.4;">${(h.title || '').substring(0, 100)}</div>
+        <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">${h.date || ''}</div>
+      </a>
+    `).join('');
+  } else if (hnFeed) {
+    hnFeed.innerHTML = '<p style="color:var(--text-muted);font-size:13px;">No Hacker News data available</p>';
+  }
+
+  // Federal Register + Press Releases feed
+  const regFeed = document.getElementById('regulatory-press-feed');
+  if (!regFeed) return;
+
+  const items = [];
+
+  // Add Federal Register docs
+  if (typeof FEDERAL_REGISTER !== 'undefined') {
+    FEDERAL_REGISTER.slice(0, 6).forEach(d => {
+      const typeColors = { Rule: '#22c55e', 'Proposed Rule': '#f59e0b', Notice: '#3b82f6' };
+      const color = typeColors[d.type] || '#6b7280';
+      items.push({
+        date: d.date || '',
+        html: `
+          <a href="https://www.federalregister.gov/documents/${d.docNum}" target="_blank" rel="noopener"
+             style="display:block;padding:10px 12px;background:var(--bg-secondary);border-radius:8px;border:1px solid var(--border);text-decoration:none;">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+              <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:${color}15;color:${color};font-weight:600;">${d.type || ''}</span>
+              <span style="font-size:10px;color:var(--text-muted);">${d.date || ''}</span>
+            </div>
+            <div style="font-size:12px;color:var(--text-primary);line-height:1.4;">${(d.title || '').substring(0, 90)}</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">${d.agencies || ''}</div>
+          </a>
+        `
+      });
+    });
+  }
+
+  // Add Press Releases
+  if (typeof PRESS_RELEASES !== 'undefined') {
+    PRESS_RELEASES.slice(0, 5).forEach(p => {
+      items.push({
+        date: p.date || '',
+        html: `
+          <div style="display:block;padding:10px 12px;background:var(--bg-secondary);border-radius:8px;border:1px solid var(--border);">
+            <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
+              <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:#8b5cf615;color:#8b5cf6;font-weight:600;">PR</span>
+              ${p.companies ? `<span style="font-size:10px;color:var(--text-muted);">${p.companies}</span>` : ''}
+            </div>
+            <div style="font-size:12px;color:var(--text-primary);line-height:1.4;">${(p.title || '').substring(0, 90)}</div>
+            <div style="font-size:11px;color:var(--text-muted);margin-top:4px;">${p.source || ''}</div>
+          </div>
+        `
+      });
+    });
+  }
+
+  if (items.length > 0) {
+    // Interleave by date
+    items.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    regFeed.innerHTML = items.slice(0, 10).map(i => i.html).join('');
+  } else {
+    regFeed.innerHTML = '<p style="color:var(--text-muted);font-size:13px;">No regulatory or press data available</p>';
+  }
 }
 
 // ═══════════════════════════════════════════════════════
