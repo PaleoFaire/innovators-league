@@ -26,17 +26,19 @@ function safeInit(name, fn) {
 }
 
 // ─── DATA HELPERS ───
-function getDataSafe(name) {
-  if (typeof window[name] !== 'undefined' && Array.isArray(window[name])) {
-    return window[name];
-  }
-  return [];
+// Note: const declarations don't attach to window, so use typeof checks directly
+function getFDAActions() {
+  return (typeof FDA_ACTIONS !== 'undefined' && Array.isArray(FDA_ACTIONS)) ? FDA_ACTIONS : [];
 }
-
-function getFDAActions() { return getDataSafe('FDA_ACTIONS'); }
-function getFedRegister() { return getDataSafe('FEDERAL_REGISTER'); }
-function getClinicalTrials() { return getDataSafe('CLINICAL_TRIALS'); }
-function getDOEPrograms() { return getDataSafe('DOE_PROGRAMS'); }
+function getFedRegister() {
+  return (typeof FEDERAL_REGISTER !== 'undefined' && Array.isArray(FEDERAL_REGISTER)) ? FEDERAL_REGISTER : [];
+}
+function getClinicalTrials() {
+  return (typeof CLINICAL_TRIALS !== 'undefined' && Array.isArray(CLINICAL_TRIALS)) ? CLINICAL_TRIALS : [];
+}
+function getDOEPrograms() {
+  return (typeof DOE_PROGRAMS !== 'undefined' && Array.isArray(DOE_PROGRAMS)) ? DOE_PROGRAMS : [];
+}
 
 function getCompanies() {
   if (typeof COMPANIES !== 'undefined' && Array.isArray(COMPANIES)) return COMPANIES;

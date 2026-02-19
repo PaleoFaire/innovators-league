@@ -3870,6 +3870,7 @@ function initInnovatorScores() {
     });
 
     grid.innerHTML = '';
+    var FRONTIER_INITIAL = 20;
     filtered.forEach((s, i) => {
       const tierColors = { elite: '#22c55e', strong: '#3b82f6', promising: '#f59e0b', early: '#6b7280' };
       const tierLabels = { elite: 'ELITE', strong: 'STRONG', promising: 'PROMISING', early: 'EARLY' };
@@ -3877,6 +3878,7 @@ function initInnovatorScores() {
       const row = document.createElement('div');
       row.className = 'iscore-row';
       row.style.cursor = 'pointer';
+      if (i >= FRONTIER_INITIAL) row.style.display = 'none';
       row.onclick = () => openCompanyModal(s.company);
 
       const rankBadge = i < 3 ? ['🥇','🥈','🥉'][i] : `#${i + 1}`;
@@ -3902,6 +3904,22 @@ function initInnovatorScores() {
       `;
       grid.appendChild(row);
     });
+
+    // Remove existing show-more button if any (from previous render)
+    var existingBtn = grid.parentElement.querySelector('.show-more-btn');
+    if (existingBtn) existingBtn.remove();
+
+    // Add "Show All" button if there are hidden rows
+    if (filtered.length > FRONTIER_INITIAL) {
+      var showMoreBtn = document.createElement('button');
+      showMoreBtn.className = 'show-more-btn';
+      showMoreBtn.textContent = 'Show All ' + filtered.length + ' Companies';
+      showMoreBtn.addEventListener('click', function() {
+        grid.querySelectorAll('.iscore-row').forEach(function(r) { r.style.display = ''; });
+        showMoreBtn.remove();
+      });
+      grid.after(showMoreBtn);
+    }
   }
 
   renderScores();
