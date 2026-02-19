@@ -151,7 +151,7 @@
       <div class="hero-stats-grid">
         ${company.fundingStage ? `<div class="hero-stat"><div class="hero-stat-value">${company.fundingStage}</div><div class="hero-stat-label">Stage</div></div>` : ''}
         ${company.totalRaised ? `<div class="hero-stat"><div class="hero-stat-value">${company.totalRaised}</div><div class="hero-stat-label">Total Raised</div></div>` : ''}
-        ${company.valuation ? `<div class="hero-stat"><div class="hero-stat-value">${company.valuation}</div><div class="hero-stat-label">Valuation</div></div>` : ''}
+        ${company.valuation ? `<div class="hero-stat"><div class="hero-stat-value">${company.valuation}</div><div class="hero-stat-label">Valuation</div></div>` : `<div class="hero-stat"><div class="hero-stat-value" style="font-size:14px; color:var(--text-muted);">Undisclosed</div><div class="hero-stat-label">Valuation</div></div>`}
         ${company.employees ? `<div class="hero-stat"><div class="hero-stat-value">${company.employees}</div><div class="hero-stat-label">Employees</div></div>` : ''}
         ${getTRL(company) ? `<div class="hero-stat"><div class="hero-stat-value">TRL ${getTRL(company)}</div><div class="hero-stat-label">Tech Readiness</div></div>` : ''}
       </div>
@@ -409,7 +409,8 @@
     }
 
     if (milestones.length === 0) {
-      container.innerHTML = '<div class="no-data"><p>No milestones recorded</p></div>';
+      const card = document.getElementById('milestones-card');
+      if (card) card.style.display = 'none';
       return;
     }
 
@@ -490,7 +491,8 @@
           </div>
         `;
       } else {
-        container.innerHTML = '<div class="no-data"><p>No competitors identified</p></div>';
+        const card = document.getElementById('competitors-card');
+        if (card) card.style.display = 'none';
       }
       return;
     }
@@ -511,7 +513,8 @@
     const container = document.getElementById('thesis-content');
 
     if (!company.thesis) {
-      container.innerHTML = '<div class="no-data"><p>Investment thesis pending</p></div>';
+      const card = document.getElementById('thesis-card');
+      if (card) card.style.display = 'none';
       return;
     }
 

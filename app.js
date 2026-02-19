@@ -1372,13 +1372,28 @@ function initSectionTimestamps() {
     'patent-intel': 'patents',
 
     // Funding & Deals (Daily from press releases)
+    'capital-flows': 'fundingRounds',
     'funding-tracker': 'fundingRounds',
     'deal-tracker': 'fundingRounds',
 
     // Company Database (Daily + Manual enrichment)
     'companies': 'companies',
     'leaderboard': 'companies',
-    'innovator-scores': 'companies'
+    'innovator-scores': 'companies',
+
+    // Market & Sector Intelligence (Weekly)
+    'momentum': 'companies',
+    'ipo-pipeline': 'secFilings',
+    'trl-rankings': 'companies',
+    'market-map': 'companies',
+    'predictive-scores': 'companies',
+    'network-graph': 'companies',
+    'mafia-explorer': 'companies',
+    'historical-tracking': 'companies',
+    'request-for-startups': 'companies',
+
+    // Stock data (Every 6 hours)
+    'stock-intel': 'stocks'
   };
 
   // Apply timestamps to each section that has a .section-header
@@ -7531,7 +7546,9 @@ function initCommunityIntel() {
       </div>
     `).join('');
   } else if (expertList) {
-    expertList.innerHTML = '<p style="font-size:12px; color:var(--text-muted);">Expert takes coming soon. Want to contribute? <a href="https://github.com/PaleoFaire/innovators-league/issues/new" target="_blank" style="color:var(--accent)">Submit yours</a></p>';
+    // Hide expert takes section entirely when no data
+    const expertSection = expertList.closest('.community-section') || expertList.parentElement;
+    if (expertSection) expertSection.style.display = 'none';
   }
 
   // Shared watchlist builder — reuses bookmarks
