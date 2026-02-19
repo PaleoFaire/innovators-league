@@ -49,6 +49,24 @@ PUBLIC_COMPANIES = [
     # Major Tech (for context/comparison)
     ("NVIDIA", "NVDA"),
     ("AMD", "AMD"),
+    # Public companies - New additions
+    ("Aurora Innovation", "AUR"),
+    ("D-Orbit", "DOBT"),
+    ("FREYR Battery", "FREY"),
+    ("LanzaTech", "LNZA"),
+    ("Nano Nuclear Energy", "NNE"),
+    ("NuScale Power", "SMR"),
+    ("Solid Power", "SLDP"),
+    ("Vertical Aerospace", "EVTL"),
+    ("Firefly Aerospace", "ASTR"),
+    # International tickers (Yahoo Finance format)
+    ("Astroscale", "ASRHF"),
+    ("DroneShield", "DRSHF"),
+    ("Oxford Nanopore Technologies", "ONT.L"),
+    ("Rainbow Robotics", "277810.KQ"),
+    ("ideaForge", "IDEAFORGE.NS"),
+    ("ispace", "9348.T"),
+
     ("Tesla", "TSLA"),
 ]
 
@@ -167,7 +185,12 @@ def calculate_portfolio_stats(stocks):
         "IONQ": "quantum", "RGTI": "quantum", "QBTS": "quantum",
         "RXRX": "biotech", "TEM": "biotech",
         "RIVN": "transportation", "ALAB": "chips",
-        "NVDA": "chips", "AMD": "chips", "TSLA": "transportation"
+        "NVDA": "chips", "AMD": "chips", "TSLA": "transportation",
+        "AUR": "autonomous", "DOBT": "space", "FREY": "climate", "LNZA": "climate",
+        "NNE": "nuclear", "SMR": "nuclear", "SLDP": "climate", "EVTL": "autonomous",
+        "ASTR": "space", "ASRHF": "space", "DRSHF": "autonomous",
+        "ONT.L": "biotech", "277810.KQ": "autonomous", "IDEAFORGE.NS": "autonomous",
+        "9348.T": "space"
     }
 
     sector_performance = {}

@@ -35,6 +35,27 @@ TRACKED_COMPANIES = [
 
 NASA_TECHPORT_BASE = "https://techport.nasa.gov/api"
 
+def fetch_with_retry(url, headers=None, params=None, max_retries=3, timeout=30):
+    """Fetch URL with retry logic and exponential backoff."""
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=headers, params=params, timeout=timeout)
+            if response.status_code == 429:
+                wait = (2 ** attempt) * 5
+                print(f"  Rate limited (429), waiting {wait}s (attempt {attempt+1}/{max_retries})...")
+                time.sleep(wait)
+                continue
+            response.raise_for_status()
+            return response
+        except requests.exceptions.RequestException as e:
+            print(f"  Request failed (attempt {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+    print(f"  All {max_retries} attempts failed for {url}")
+    return None
+
+
+
 def fetch_recent_projects(days=365):
     """Fetch recently updated NASA technology projects."""
     cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
@@ -46,14 +67,14 @@ def fetch_recent_projects(days=365):
         headers = {"Accept": "application/json"}
 
         print(f"Fetching projects updated since {cutoff}...")
-        response = requests.get(url, params=params, headers=headers, timeout=60)
+        response = fetch_with_retry(url, headers=headers, params=params, timeout=60)
 
-        if response.status_code != 200:
-            print(f"Error fetching project list: {response.status_code}")
+        if response is None or response.status_code != 200:
+            print(f"Error fetching project list, trying fallback...")
             # Fallback: try without filter
-            response = requests.get(url, headers=headers, timeout=60)
-            if response.status_code != 200:
-                print(f"Fallback also failed: {response.status_code}")
+            response = fetch_with_retry(url, headers=headers, timeout=60)
+            if response is None or response.status_code != 200:
+                print(f"Fallback also failed")
                 return []
 
         data = response.json()
@@ -80,8 +101,8 @@ def fetch_recent_projects(days=365):
                 continue
             project_url = f"{NASA_TECHPORT_BASE}/projects/{pid}"
             try:
-                resp = requests.get(project_url, headers=headers, timeout=30)
-                if resp.status_code == 200:
+                resp = fetch_with_retry(project_url, headers=headers)
+                if resp is not None and resp.status_code == 200:
                     resp_data = resp.json()
                     proj = resp_data.get("project", resp_data)
                     if isinstance(proj, dict):

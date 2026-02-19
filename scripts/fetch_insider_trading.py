@@ -48,45 +48,62 @@ SEC_HEADERS = {
     "Accept": "application/json"
 }
 
+
+def fetch_with_retry(url, headers, max_retries=3, timeout=30):
+    """Fetch URL with retry logic and exponential backoff."""
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=timeout)
+            if response.status_code == 429:
+                wait = (2 ** attempt) * 5
+                print(f"  Rate limited (429), waiting {wait}s (attempt {attempt+1}/{max_retries})...")
+                time.sleep(wait)
+                continue
+            response.raise_for_status()
+            return response
+        except requests.exceptions.RequestException as e:
+            print(f"  Request failed (attempt {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+    print(f"  All {max_retries} attempts failed for {url}")
+    return None
+
 def fetch_form4_filings(cik, ticker, company_name, days=90):
     """Fetch Form 4 filings for a company."""
     cik_padded = cik.lstrip("0").zfill(10)
     url = f"{SEC_API_BASE}/submissions/CIK{cik_padded}.json"
 
-    try:
-        response = requests.get(url, headers=SEC_HEADERS, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-
-        filings = []
-        recent_filings = data.get("filings", {}).get("recent", {})
-
-        if not recent_filings:
-            return []
-
-        forms = recent_filings.get("form", [])
-        dates = recent_filings.get("filingDate", [])
-        accession_numbers = recent_filings.get("accessionNumber", [])
-        primary_docs = recent_filings.get("primaryDocument", [])
-
-        cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
-
-        for i in range(min(len(forms), 100)):
-            if forms[i] == "4" and dates[i] >= cutoff:
-                filings.append({
-                    "ticker": ticker,
-                    "company": company_name,
-                    "form": "4",
-                    "date": dates[i],
-                    "accession": accession_numbers[i] if i < len(accession_numbers) else "",
-                    "document": primary_docs[i] if i < len(primary_docs) else "",
-                })
-
-        return filings
-
-    except requests.exceptions.RequestException as e:
-        print(f"  Error: {e}")
+    response = fetch_with_retry(url, SEC_HEADERS)
+    if response is None:
         return []
+
+    data = response.json()
+
+    filings = []
+    recent_filings = data.get("filings", {}).get("recent", {})
+
+    if not recent_filings:
+        return []
+
+    forms = recent_filings.get("form", [])
+    dates = recent_filings.get("filingDate", [])
+    accession_numbers = recent_filings.get("accessionNumber", [])
+    primary_docs = recent_filings.get("primaryDocument", [])
+
+    cutoff = (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d")
+
+    for i in range(min(len(forms), 100)):
+        if forms[i] == "4" and dates[i] >= cutoff:
+            filings.append({
+                "ticker": ticker,
+                "company": company_name,
+                "form": "4",
+                "date": dates[i],
+                "accession": accession_numbers[i] if i < len(accession_numbers) else "",
+                "document": primary_docs[i] if i < len(primary_docs) else "",
+            })
+
+    return filings
 
 def parse_form4_xml(cik, accession, document=""):
     """Parse a Form 4 XML filing to extract transaction details."""
@@ -106,8 +123,8 @@ def parse_form4_xml(cik, accession, document=""):
         url = f"{sec_www}/Archives/edgar/data/{cik_trimmed}/{accession_clean}/primary_doc.xml"
 
     try:
-        response = requests.get(url, headers=SEC_HEADERS, timeout=30)
-        if response.status_code != 200:
+        response = fetch_with_retry(url, SEC_HEADERS)
+        if response is None or response.status_code != 200:
             # Try alternate URL patterns
             alt_urls = [
                 f"{sec_www}/Archives/edgar/data/{cik_trimmed}/{accession_clean}/primary_doc.xml",
@@ -116,8 +133,8 @@ def parse_form4_xml(cik, accession, document=""):
             for alt_url in alt_urls:
                 if alt_url == url:
                     continue
-                response = requests.get(alt_url, headers=SEC_HEADERS, timeout=30)
-                if response.status_code == 200:
+                response = fetch_with_retry(alt_url, SEC_HEADERS)
+                if response is not None and response.status_code == 200:
                     break
             else:
                 return None

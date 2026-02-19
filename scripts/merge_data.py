@@ -411,6 +411,125 @@ def update_valuation_benchmarks(data_js_content):
     return data_js_content
 
 
+def update_innovator_scores(data_js_content):
+    """Update INNOVATOR_SCORES in data.js with auto-calculated scores."""
+    scores = load_json("innovator_scores_auto.json")
+    if not scores:
+        print("No innovator scores data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(scores)} innovator scores...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Frontier Index™ scores — Last updated: {today}\n"
+    js_array += "const INNOVATOR_SCORES = [\n"
+
+    for s in scores:
+        company = s.get("company", "").replace('"', '\\"')
+        note = s.get("note", "").replace('"', '\\"')
+        js_array += f'  {{ company: "{company}", '
+        js_array += f'techMoat: {s.get("techMoat", 5)}, '
+        js_array += f'momentum: {s.get("momentum", 5)}, '
+        js_array += f'teamPedigree: {s.get("teamPedigree", 5)}, '
+        js_array += f'marketGravity: {s.get("marketGravity", 5)}, '
+        js_array += f'capitalEfficiency: {s.get("capitalEfficiency", 5)}, '
+        js_array += f'govTraction: {s.get("govTraction", 2)}, '
+        js_array += f'composite: {s.get("composite", 50.0)}, '
+        js_array += f'tier: "{s.get("tier", "early")}", '
+        js_array += f'note: "{note}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const INNOVATOR_SCORES = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, js_array, data_js_content)
+        print(f"  Updated INNOVATOR_SCORES ({len(scores)} companies)")
+    else:
+        print("  INNOVATOR_SCORES not found in data.js")
+
+    return data_js_content
+
+
+def update_predictive_scores(data_js_content):
+    """Update PREDICTIVE_SCORES in data.js with auto-calculated predictions."""
+    scores = load_json("predictive_scores_auto.json")
+    if not scores:
+        print("No predictive scores data found, skipping...")
+        return data_js_content
+
+    # Read existing curated PREDICTIVE_SCORES to preserve methodology and curated entries
+    ps_match = re.search(r'const PREDICTIVE_SCORES = \{([\s\S]*?)\n\};', data_js_content)
+    if not ps_match:
+        print("  PREDICTIVE_SCORES not found in data.js, skipping...")
+        return data_js_content
+
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    # Helper to format a companies dict as JS
+    def format_companies(companies_dict):
+        if not companies_dict:
+            return ""
+        lines = []
+        for name, data in companies_dict.items():
+            name_escaped = name.replace('"', '\\"')
+            score = data.get("score", 50)
+            trend = data.get("trend", "stable")
+            analysis = data.get("analysis", "").replace('"', '\\"')
+            last_updated = data.get("lastUpdated", today)
+
+            if "factors" in data:
+                factors_parts = []
+                for fk, fv in data["factors"].items():
+                    factors_parts.append(f"{fk}: {fv}")
+                factors_str = "{ " + ", ".join(factors_parts) + " }"
+                lines.append(f'      "{name_escaped}": {{ score: {score}, trend: "{trend}", '
+                           f'factors: {factors_str}, '
+                           f'analysis: "{analysis}", lastUpdated: "{last_updated}" }},')
+            elif "runway" in data:
+                runway = data.get("runway", "Unknown")
+                lines.append(f'      "{name_escaped}": {{ score: {score}, trend: "{trend}", '
+                           f'runway: "{runway}", '
+                           f'analysis: "{analysis}", lastUpdated: "{last_updated}" }},')
+            elif "predictedTiming" in data:
+                timing = data.get("predictedTiming", "TBD")
+                confidence = data.get("confidence", 50)
+                size = data.get("predictedSize", "TBD").replace('"', '\\"')
+                val = data.get("predictedValuation", "TBD").replace('"', '\\"')
+                catalyst = data.get("catalyst", "").replace('"', '\\"')
+                lines.append(f'      "{name_escaped}": {{ predictedTiming: "{timing}", '
+                           f'confidence: {confidence}, predictedSize: "{size}", '
+                           f'predictedValuation: "{val}", likelyInvestors: [], '
+                           f'catalyst: "{catalyst}", lastUpdated: "{last_updated}" }},')
+            else:
+                lines.append(f'      "{name_escaped}": {{ score: {score}, trend: "{trend}", '
+                           f'analysis: "{analysis}", lastUpdated: "{last_updated}" }},')
+        return "\n".join(lines)
+
+    # Merge auto scores with curated (curated already excluded from auto output)
+    # We need to inject auto companies into each category's companies block
+    categories = ["ipoReadiness", "maTarget", "failureRisk", "nextRound"]
+
+    for category in categories:
+        auto_companies = scores.get(category, {})
+        if not auto_companies:
+            continue
+
+        auto_js = format_companies(auto_companies)
+        if not auto_js:
+            continue
+
+        # Find the companies: { ... } block for this category and append auto entries
+        cat_pattern = rf'({category}:\s*\{{[\s\S]*?companies:\s*\{{)([\s\S]*?)(\n\s*\}}\s*\}})'
+        cat_match = re.search(cat_pattern, data_js_content)
+        if cat_match:
+            existing = cat_match.group(2).rstrip().rstrip(",")
+            combined = existing + ",\n" + auto_js if existing.strip() else auto_js
+            replacement = cat_match.group(1) + "\n" + combined + cat_match.group(3)
+            data_js_content = data_js_content[:cat_match.start()] + replacement + data_js_content[cat_match.end():]
+            print(f"  Updated {category}: +{len(auto_companies)} auto entries")
+
+    return data_js_content
+
+
 def update_last_updated(data_js_content):
     """Update the LAST_UPDATED timestamp."""
     today = datetime.now().strftime("%Y-%m-%d")
@@ -463,6 +582,8 @@ def main():
     data_js_content = update_growth_signals(data_js_content)
     data_js_content = update_funding_tracker(data_js_content)
     data_js_content = update_valuation_benchmarks(data_js_content)
+    data_js_content = update_innovator_scores(data_js_content)
+    data_js_content = update_predictive_scores(data_js_content)
     data_js_content = update_last_updated(data_js_content)
 
     # Validate before writing

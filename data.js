@@ -3613,6 +3613,7 @@ const COMPANIES = [
   // ─── NUCLEAR ENERGY (new) ───
   {
     name: "NuScale Power",
+    ticker: "SMR",
     sector: "Nuclear Energy",
     description: "First SMR design to receive NRC approval in the US. Developing the VOYGR light-water small modular reactor. Publicly traded pioneer in commercial SMR deployment.",
     founder: "José Reyes, Paul Lorenzini",
@@ -3688,6 +3689,7 @@ const COMPANIES = [
   },
   {
     name: "Nano Nuclear Energy",
+    ticker: "NNE",
     sector: "Nuclear Energy",
     description: "Developing ultra-small portable nuclear reactors (ZEUS and ODIN designs) and nuclear fuel transportation services. Publicly traded (NASDAQ: NNE).",
     founder: "Jay Jiang Yu",
@@ -3805,6 +3807,7 @@ const COMPANIES = [
   },
   {
     name: "Astroscale",
+    ticker: "ASRHF",
     sector: "Space & Aerospace",
     description: "Leading space debris removal and on-orbit servicing company. Demonstrated proximity operations in orbit. Critical to sustainable space operations.",
     founder: "Nobu Okada",
@@ -4445,6 +4448,7 @@ const COMPANIES = [
   // ─── DRONES & AUTONOMOUS (new) ───
   {
     name: "Aurora Innovation",
+    ticker: "AUR",
     sector: "Drones & Autonomous",
     description: "Self-driving truck technology company. Building the Aurora Driver for autonomous long-haul trucking, partnered with Continental, FedEx, and major carriers.",
     founder: "Chris Urmson, Sterling Anderson, Drew Bagnell",
@@ -4932,6 +4936,7 @@ const COMPANIES = [
   },
   {
     name: "Vertical Aerospace",
+    ticker: "EVTL",
     sector: "Transportation",
     description: "Transforming urban mobility with the VX4 electric vertical take-off and landing air taxi for zero-emission regional flights.",
     founder: "Stephen Fitzpatrick",
@@ -4947,6 +4952,7 @@ const COMPANIES = [
   },
   {
     name: "Oxford Nanopore Technologies",
+    ticker: "ONT.L",
     sector: "Biotech & Health",
     description: "Invented nanopore-based DNA/RNA sequencing technology enabling real-time, portable genomic analysis anywhere in the world.",
     founder: "Gordon Sanghera",
@@ -5486,6 +5492,7 @@ const COMPANIES = [
   // --- NORWAY ---
   {
     name: "FREYR Battery",
+    ticker: "FREY",
     sector: "Climate & Energy",
     description: "Building gigafactories for clean lithium-ion and sodium-ion battery cells in Norway's Arctic region.",
     founder: "Tom Einar Jensen",
@@ -5537,6 +5544,7 @@ const COMPANIES = [
   // --- ITALY ---
   {
     name: "D-Orbit",
+    ticker: "DOBT",
     sector: "Space & Aerospace",
     description: "In-space logistics and transportation, deploying satellites precisely using their ION Satellite Carrier vehicle.",
     founder: "Luca Rossettini",
@@ -5695,6 +5703,7 @@ const COMPANIES = [
   // --- JAPAN ---
   {
     name: "ispace",
+    ticker: "9348.T",
     sector: "Space & Aerospace",
     description: "Lunar exploration company building landers and rovers for payload delivery to the Moon. Publicly listed on Tokyo Stock Exchange.",
     founder: "Takeshi Hakamada",
@@ -5802,6 +5811,7 @@ const COMPANIES = [
   },
   {
     name: "Rainbow Robotics",
+    ticker: "277810.KQ",
     sector: "Robotics & Manufacturing",
     description: "Builds collaborative robots and humanoid robots from KAIST HUBO lineage. Partnered with Hyundai. Publicly listed.",
     founder: "KAIST Spinout",
@@ -5864,6 +5874,7 @@ const COMPANIES = [
   },
   {
     name: "ideaForge",
+    ticker: "IDEAFORGE.NS",
     sector: "Drones & Autonomous",
     description: "Designs and manufactures drones for defense, homeland security, and industrial applications. India's leading defense drone maker.",
     founder: "Ankit Mehta",
@@ -5973,6 +5984,7 @@ const COMPANIES = [
   },
   {
     name: "DroneShield",
+    ticker: "DRSHF",
     sector: "Defense & Security",
     description: "Counter-drone defense technology including RF detection and jamming systems. Publicly listed, major military contracts globally.",
     founder: "Oleg Vornik",
@@ -7918,6 +7930,7 @@ const COMPANIES = [
   },
   {
     name: "LanzaTech",
+    ticker: "LNZA",
     sector: "Climate & Energy",
     description: "Carbon capture and transformation technology converting industrial emissions and waste gases into sustainable fuels and chemicals.",
     founder: "Sean Simpson, Richard Forster",
@@ -8971,6 +8984,7 @@ const COMPANIES = [
   },
   {
     name: "Solid Power",
+    ticker: "SLDP",
     founder: "Doug Campbell",
     sector: "Energy & Climate",
     description: "Developing sulfide-based solid-state battery technology for EVs; partnership with BMW for battery cell testing in production vehicles.",
@@ -9086,6 +9100,7 @@ const COMPANIES = [
   },
   {
     name: "Terran Orbital",
+    ticker: "LLAP",
     founder: "Marc Bell & Daniel Oran",
     sector: "Space Systems",
     description: "End-to-end satellite solutions company manufacturing small satellites and providing space-based services for defense and commercial customers.",

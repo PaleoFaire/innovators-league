@@ -58,6 +58,18 @@ TRACKED_TICKERS = {
     # 3D Printing / Manufacturing
     "DM": {"name": "Desktop Metal", "cik": "0001754820"},
     "XONE": {"name": "ExOne", "cik": "0001561627"},
+    # New additions
+    "AUR": {"name": "Aurora Innovation", "cik": "0001828108"},
+    "DOBT": {"name": "D-Orbit", "cik": "0001819131"},
+    "LNZA": {"name": "LanzaTech", "cik": "0001826667"},
+    "NNE": {"name": "Nano Nuclear Energy", "cik": "0001955473"},
+    "SLDP": {"name": "Solid Power", "cik": "0001854795"},
+    "EVTL": {"name": "Vertical Aerospace", "cik": "0001819584"},
+    "TEM": {"name": "Tempus AI", "cik": "0001786842"},
+    "RIVN": {"name": "Rivian", "cik": "0001874178"},
+    "ALAB": {"name": "Astera Labs", "cik": "0001857853"},
+    "SATL": {"name": "Satellogic", "cik": "0001854275"},
+    "ASTR": {"name": "Firefly Aerospace", "cik": "0001819012"},
 }
 
 # Filing types to track
@@ -69,6 +81,26 @@ SEC_HEADERS = {
     "Accept": "application/json"
 }
 
+
+def fetch_with_retry(url, headers, max_retries=3, timeout=30):
+    """Fetch URL with retry logic and exponential backoff."""
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=timeout)
+            if response.status_code == 429:
+                wait = (2 ** attempt) * 5
+                print(f"  Rate limited (429), waiting {wait}s (attempt {attempt+1}/{max_retries})...")
+                time.sleep(wait)
+                continue
+            response.raise_for_status()
+            return response
+        except requests.exceptions.RequestException as e:
+            print(f"  Request failed (attempt {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+    print(f"  All {max_retries} attempts failed for {url}")
+    return None
+
 def fetch_company_filings(cik, ticker_info):
     """Fetch recent filings for a company by CIK."""
     # Ensure CIK is 10 digits with leading zeros
@@ -76,40 +108,37 @@ def fetch_company_filings(cik, ticker_info):
 
     url = f"{SEC_API_BASE}/submissions/CIK{cik_padded}.json"
 
-    try:
-        response = requests.get(url, headers=SEC_HEADERS, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-
-        filings = []
-        recent_filings = data.get("filings", {}).get("recent", {})
-
-        if not recent_filings:
-            return []
-
-        forms = recent_filings.get("form", [])
-        dates = recent_filings.get("filingDate", [])
-        descriptions = recent_filings.get("primaryDocument", [])
-        accession_numbers = recent_filings.get("accessionNumber", [])
-
-        for i in range(min(len(forms), 50)):  # Last 50 filings
-            form = forms[i]
-            if form in IMPORTANT_FORMS:
-                filings.append({
-                    "company": ticker_info["name"],
-                    "ticker": "",  # Will be filled in by caller
-                    "form": form,
-                    "date": dates[i] if i < len(dates) else "",
-                    "description": descriptions[i] if i < len(descriptions) else form,
-                    "accessionNumber": accession_numbers[i] if i < len(accession_numbers) else "",
-                    "isIPO": form in ["S-1", "S-1/A", "424B4"]
-                })
-
-        return filings
-
-    except requests.exceptions.RequestException as e:
-        print(f"  Error: {e}")
+    response = fetch_with_retry(url, SEC_HEADERS)
+    if response is None:
         return []
+
+    data = response.json()
+
+    filings = []
+    recent_filings = data.get("filings", {}).get("recent", {})
+
+    if not recent_filings:
+        return []
+
+    forms = recent_filings.get("form", [])
+    dates = recent_filings.get("filingDate", [])
+    descriptions = recent_filings.get("primaryDocument", [])
+    accession_numbers = recent_filings.get("accessionNumber", [])
+
+    for i in range(min(len(forms), 50)):  # Last 50 filings
+        form = forms[i]
+        if form in IMPORTANT_FORMS:
+            filings.append({
+                "company": ticker_info["name"],
+                "ticker": "",  # Will be filled in by caller
+                "form": form,
+                "date": dates[i] if i < len(dates) else "",
+                "description": descriptions[i] if i < len(descriptions) else form,
+                "accessionNumber": accession_numbers[i] if i < len(accession_numbers) else "",
+                "isIPO": form in ["S-1", "S-1/A", "424B4"]
+            })
+
+    return filings
 
 def fetch_all_filings():
     """Fetch filings for all tracked companies."""

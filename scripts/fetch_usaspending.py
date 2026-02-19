@@ -9,6 +9,7 @@ import json
 import requests
 from datetime import datetime, timedelta
 from pathlib import Path
+import time
 
 # Companies to track for government contracts
 TRACKED_COMPANIES = [
@@ -67,6 +68,29 @@ TRACKED_COMPANIES = [
 
 USASPENDING_API = "https://api.usaspending.gov/api/v2"
 
+
+def fetch_with_retry(url, headers=None, json_payload=None, method="get", max_retries=3, timeout=30):
+    """Fetch URL with retry logic and exponential backoff."""
+    for attempt in range(max_retries):
+        try:
+            if method == "post":
+                response = requests.post(url, json=json_payload, headers=headers, timeout=timeout)
+            else:
+                response = requests.get(url, headers=headers, timeout=timeout)
+            if response.status_code == 429:
+                wait = (2 ** attempt) * 5
+                print(f"  Rate limited (429), waiting {wait}s (attempt {attempt+1}/{max_retries})...")
+                time.sleep(wait)
+                continue
+            response.raise_for_status()
+            return response
+        except requests.exceptions.RequestException as e:
+            print(f"  Request failed (attempt {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+    print(f"  All {max_retries} attempts failed for {url}")
+    return None
+
 def fetch_contracts_for_company(company_name, start_date=None):
     """Fetch federal contracts for a specific company."""
     if start_date is None:
@@ -102,18 +126,16 @@ def fetch_contracts_for_company(company_name, start_date=None):
         "order": "desc"
     }
 
-    try:
-        response = requests.post(
-            f"{USASPENDING_API}/search/spending_by_award/",
-            json=payload,
-            headers={"Content-Type": "application/json"},
-            timeout=30
-        )
-        response.raise_for_status()
-        return response.json()
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching contracts for {company_name}: {e}")
+    response = fetch_with_retry(
+        f"{USASPENDING_API}/search/spending_by_award/",
+        headers={"Content-Type": "application/json"},
+        json_payload=payload,
+        method="post"
+    )
+    if response is None:
+        print(f"Error fetching contracts for {company_name}: all retries failed")
         return None
+    return response.json()
 
 def fetch_all_contracts():
     """Fetch contracts for all tracked companies."""
