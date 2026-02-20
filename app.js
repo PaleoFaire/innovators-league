@@ -1109,6 +1109,10 @@ function initStats() {
   animateCounter('sector-count', sectorCount);
   animateCounter('country-count', countryCount);
 
+  // Update inline hero subtitle count dynamically
+  const inlineCount = document.getElementById('company-count-inline');
+  if (inlineCount) inlineCount.textContent = companyCount;
+
   // Format funding as $XXB+
   const fundingEl = document.getElementById('funding-count');
   if (fundingEl) {
