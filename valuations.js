@@ -34,6 +34,7 @@ function initValuations() {
   safeInit('initIPOTracker', initIPOTracker);
   safeInit('initMAComps', initMAComps);
   safeInit('initDealSignals', initDealSignals);
+  safeInit('initCapitalHeatmap', initCapitalHeatmap);
   safeInit('initSectionObserver', initSectionObserver);
 }
 
@@ -564,6 +565,235 @@ function initDealSignals() {
       </div>
     `;
   }).join('');
+}
+
+// ─── 8. Capital Flow Heatmap ──────────────────────────────────────────────────
+
+/** Normalize sector strings to canonical SECTORS keys */
+function normalizeSector(sector) {
+  if (!sector) return 'Other';
+  const s = sector.trim();
+  // Direct match
+  if (typeof SECTORS !== 'undefined' && SECTORS[s]) return s;
+  // Known variants → canonical
+  const map = {
+    'BioTech & Health': 'Biotech & Health',
+    'Climate Tech': 'Climate & Energy',
+    'Energy & Climate': 'Climate & Energy',
+    'Construction Tech': 'Housing & Construction',
+    'Quantum & Computing': 'Quantum Computing',
+    'Robotics & AI': 'Robotics & Manufacturing',
+    'Semiconductors': 'Chips & Semiconductors',
+    'Space Systems': 'Space & Aerospace',
+    'Autonomous Systems': 'Drones & Autonomous',
+    'Advanced Materials': 'Climate & Energy',
+    'Medical Devices': 'Biotech & Health'
+  };
+  return map[s] || s;
+}
+
+/** Normalize funding stage strings to 7 column buckets */
+function normalizeFundingStage(stage) {
+  if (!stage) return 'Other';
+  const s = stage.trim().toLowerCase();
+  if (s === 'pre-seed' || s === 'seed') return 'Seed';
+  if (s === 'series a' || s === 'early stage') return 'Series A';
+  if (s.startsWith('series b')) return 'Series B';
+  if (s === 'series c') return 'Series C';
+  if (s === 'series d' || s === 'series e' || s === 'series f' || s === 'series g') return 'Series D+';
+  if (s === 'growth' || s === 'late stage' || s === 'pre-ipo' || s === 'private' || s === 'profitable' || s === 'bootstrapped' || s === 'fund') return 'Late / Growth';
+  if (s === 'public' || s.startsWith('public') || s.startsWith('acquired') || s.includes('subsidiary') || s.startsWith('government')) return 'Public / Other';
+  return 'Other';
+}
+
+function initCapitalHeatmap() {
+  const statsEl = document.getElementById('cap-heatmap-stats');
+  const wrapperEl = document.getElementById('cap-heatmap-wrapper');
+  const velocityEl = document.getElementById('cap-velocity-grid');
+  if (!wrapperEl) return;
+  if (typeof COMPANIES === 'undefined' || !Array.isArray(COMPANIES)) return;
+
+  // ── Stage columns (ordered)
+  const stageCols = ['Seed', 'Series A', 'Series B', 'Series C', 'Series D+', 'Late / Growth', 'Public / Other'];
+
+  // ── Aggregate capital into matrix[sector][stage]
+  var matrix = {};       // sector → { stage → { total, count, companies[] } }
+  var sectorTotals = {}; // sector → total capital
+  var grandTotal = 0;
+  var totalCompanies = 0;
+
+  COMPANIES.forEach(function(c) {
+    var raised = parseValuation(c.totalRaised);
+    if (raised <= 0) raised = parseValuation(c.valuation); // fallback to valuation
+    if (raised <= 0) return; // skip if no capital data
+
+    var sector = normalizeSector(c.sector);
+    var stage = normalizeFundingStage(c.fundingStage);
+
+    // Merge 'Other' stage into 'Public / Other'
+    if (stage === 'Other') stage = 'Public / Other';
+
+    if (!matrix[sector]) matrix[sector] = {};
+    if (!matrix[sector][stage]) matrix[sector][stage] = { total: 0, count: 0, companies: [] };
+
+    matrix[sector][stage].total += raised;
+    matrix[sector][stage].count += 1;
+    if (matrix[sector][stage].companies.length < 5) {
+      matrix[sector][stage].companies.push({ name: c.name, raised: raised });
+    }
+
+    sectorTotals[sector] = (sectorTotals[sector] || 0) + raised;
+    grandTotal += raised;
+    totalCompanies++;
+  });
+
+  // ── Sort sectors by total capital descending
+  var sortedSectors = Object.keys(sectorTotals).sort(function(a, b) {
+    return sectorTotals[b] - sectorTotals[a];
+  });
+
+  // ── Find max cell value for heat scaling
+  var maxCellTotal = 0;
+  sortedSectors.forEach(function(sector) {
+    stageCols.forEach(function(stage) {
+      var cell = matrix[sector] && matrix[sector][stage];
+      if (cell && cell.total > maxCellTotal) maxCellTotal = cell.total;
+    });
+  });
+
+  // ── Render summary stats banner
+  if (statsEl) {
+    var hotSector = sortedSectors[0] || 'N/A';
+    var hotIcon = getSectorIcon(hotSector);
+    statsEl.innerHTML =
+      '<div class="cap-stat-card">' +
+        '<div class="cap-stat-value">' + formatValue(grandTotal) + '</div>' +
+        '<div class="cap-stat-label">Total Tracked Capital</div>' +
+      '</div>' +
+      '<div class="cap-stat-card">' +
+        '<div class="cap-stat-value">' + totalCompanies + '</div>' +
+        '<div class="cap-stat-label">Companies with Data</div>' +
+      '</div>' +
+      '<div class="cap-stat-card">' +
+        '<div class="cap-stat-value">' + sortedSectors.length + '</div>' +
+        '<div class="cap-stat-label">Sectors</div>' +
+      '</div>' +
+      '<div class="cap-stat-card">' +
+        '<div class="cap-stat-value">' + hotIcon + ' ' + hotSector + '</div>' +
+        '<div class="cap-stat-label">Highest Concentration</div>' +
+      '</div>';
+  }
+
+  // ── Render CSS grid heatmap
+  var gridHtml = '';
+
+  // Header row: empty corner + stage labels
+  gridHtml += '<div class="cap-hm-corner"></div>';
+  stageCols.forEach(function(stage) {
+    gridHtml += '<div class="cap-hm-col-header">' + stage + '</div>';
+  });
+
+  // Data rows
+  sortedSectors.forEach(function(sector) {
+    var icon = getSectorIcon(sector);
+    var color = getSectorColor(sector);
+    gridHtml += '<div class="cap-hm-row-label" style="border-left: 3px solid ' + color + ';">' +
+      '<span class="cap-hm-row-icon">' + icon + '</span>' +
+      '<span class="cap-hm-row-name">' + sector + '</span>' +
+    '</div>';
+
+    stageCols.forEach(function(stage) {
+      var cell = matrix[sector] && matrix[sector][stage];
+      if (cell && cell.total > 0) {
+        var intensity = 0.08 + (cell.total / maxCellTotal) * 0.77;
+        var bgColor = 'rgba(255,107,44,' + intensity.toFixed(2) + ')';
+        var textColor = intensity > 0.5 ? '#fff' : 'var(--text-primary)';
+        // Tooltip: top companies in this cell
+        var tipCompanies = cell.companies.sort(function(a, b) { return b.raised - a.raised; })
+          .map(function(co) { return co.name + ' (' + formatValue(co.raised) + ')'; }).join(', ');
+        var tooltip = sector + ' · ' + stage + ': ' + formatValue(cell.total) + ' across ' + cell.count + ' companies. Top: ' + tipCompanies;
+
+        gridHtml += '<div class="cap-hm-cell" style="background:' + bgColor + '; color:' + textColor + ';" title="' + tooltip.replace(/"/g, '&quot;') + '">' +
+          '<div class="cap-hm-cell-amount">' + formatValue(cell.total) + '</div>' +
+          '<div class="cap-hm-cell-count">' + cell.count + ' co' + (cell.count !== 1 ? 's' : '') + '</div>' +
+        '</div>';
+      } else {
+        gridHtml += '<div class="cap-hm-cell cap-hm-empty">—</div>';
+      }
+    });
+  });
+
+  wrapperEl.innerHTML =
+    '<div class="cap-heatmap-grid" style="grid-template-columns: 160px repeat(' + stageCols.length + ', 1fr); grid-template-rows: auto repeat(' + sortedSectors.length + ', auto);">' +
+      gridHtml +
+    '</div>' +
+    '<div class="cap-heatmap-legend">' +
+      '<span class="cap-legend-label">Low</span>' +
+      '<div class="cap-legend-bar"></div>' +
+      '<span class="cap-legend-label">High</span>' +
+    '</div>';
+
+  // ── Render velocity cards (one per sector)
+  if (velocityEl) {
+    var velocityHtml = '';
+    sortedSectors.forEach(function(sector) {
+      var icon = getSectorIcon(sector);
+      var color = getSectorColor(sector);
+      var total = sectorTotals[sector];
+      var count = 0;
+      var largestCo = { name: 'N/A', raised: 0 };
+
+      // Aggregate per-sector stats
+      stageCols.forEach(function(stage) {
+        var cell = matrix[sector] && matrix[sector][stage];
+        if (cell) {
+          count += cell.count;
+          cell.companies.forEach(function(co) {
+            if (co.raised > largestCo.raised) largestCo = co;
+          });
+        }
+      });
+
+      var avgRaised = count > 0 ? total / count : 0;
+
+      // Find dominant thesis cluster for this sector
+      var thesisCounts = {};
+      COMPANIES.forEach(function(c) {
+        if (normalizeSector(c.sector) === sector && c.thesisCluster) {
+          thesisCounts[c.thesisCluster] = (thesisCounts[c.thesisCluster] || 0) + 1;
+        }
+      });
+      var dominantThesis = 'N/A';
+      var maxThesisCount = 0;
+      Object.keys(thesisCounts).forEach(function(t) {
+        if (thesisCounts[t] > maxThesisCount) {
+          maxThesisCount = thesisCounts[t];
+          dominantThesis = t;
+        }
+      });
+
+      // Pct of grand total
+      var pctOfTotal = grandTotal > 0 ? ((total / grandTotal) * 100).toFixed(1) : '0';
+
+      velocityHtml +=
+        '<div class="cap-velocity-card">' +
+          '<div class="cap-vel-header" style="border-left: 4px solid ' + color + ';">' +
+            '<span class="cap-vel-icon">' + icon + '</span>' +
+            '<span class="cap-vel-name">' + sector + '</span>' +
+            '<span class="cap-vel-pct">' + pctOfTotal + '%</span>' +
+          '</div>' +
+          '<div class="cap-vel-total">' + formatValue(total) + '</div>' +
+          '<div class="cap-vel-stats">' +
+            '<div class="cap-vel-stat"><strong>' + count + '</strong> companies</div>' +
+            '<div class="cap-vel-stat"><strong>' + formatValue(avgRaised) + '</strong> avg raised</div>' +
+            '<div class="cap-vel-stat"><strong>' + largestCo.name + '</strong> largest (' + formatValue(largestCo.raised) + ')</div>' +
+          '</div>' +
+          '<div class="cap-vel-thesis">Dominant Thesis: <strong>' + dominantThesis + '</strong></div>' +
+        '</div>';
+    });
+
+    velocityEl.innerHTML = velocityHtml;
+  }
 }
 
 // ─── SECTION HEADER VISIBILITY OBSERVER ───

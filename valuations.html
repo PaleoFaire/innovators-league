@@ -670,6 +670,220 @@
             font-size: 0.95rem;
         }
 
+        /* ── Capital Flow Heatmap ── */
+        .cap-heatmap-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .cap-stat-card {
+            background: linear-gradient(135deg, rgba(255,107,44,0.08) 0%, rgba(255,107,44,0.02) 100%);
+            border: 1px solid rgba(255,107,44,0.2);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .cap-stat-number {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #FF6B2C;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .cap-stat-label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        .cap-heatmap-wrapper {
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: rgba(0,0,0,0.15);
+        }
+
+        .cap-heatmap-grid {
+            display: grid;
+            grid-template-columns: 160px repeat(7, 1fr);
+            gap: 2px;
+            padding: 1rem;
+            min-width: 700px;
+        }
+
+        .cap-hm-corner {
+            padding: 8px;
+        }
+
+        .cap-hm-col-header {
+            padding: 8px 4px;
+            text-align: center;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+        }
+
+        .cap-hm-row-label {
+            padding: 8px 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            white-space: nowrap;
+        }
+
+        .cap-hm-row-icon {
+            font-size: 14px;
+        }
+
+        .cap-hm-cell {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 54px;
+            border-radius: 6px;
+            padding: 6px 4px;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            cursor: default;
+        }
+
+        .cap-hm-cell:hover {
+            transform: scale(1.08);
+            box-shadow: 0 4px 12px rgba(255,107,44,0.3);
+            z-index: 2;
+            position: relative;
+        }
+
+        .cap-hm-cell-amount {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .cap-hm-cell-count {
+            font-size: 0.6rem;
+            color: rgba(255,255,255,0.6);
+            margin-top: 1px;
+        }
+
+        .cap-hm-cell.empty {
+            background: rgba(255,255,255,0.02);
+        }
+
+        .cap-hm-cell.empty .cap-hm-cell-amount {
+            color: var(--text-muted);
+            font-size: 0.65rem;
+        }
+
+        .cap-heatmap-legend {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        .cap-legend-bar {
+            width: 120px;
+            height: 8px;
+            border-radius: 4px;
+            background: linear-gradient(to right, rgba(255,107,44,0.08), rgba(255,107,44,0.85));
+        }
+
+        /* Velocity Cards */
+        .cap-velocity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .cap-velocity-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: border-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .cap-velocity-card:hover {
+            border-color: rgba(255,107,44,0.4);
+            transform: translateY(-2px);
+        }
+
+        .cap-vel-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .cap-vel-icon {
+            font-size: 20px;
+        }
+
+        .cap-vel-sector {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .cap-vel-total {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #FF6B2C;
+            margin-bottom: 0.75rem;
+        }
+
+        .cap-vel-stats {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .cap-vel-stat {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.78rem;
+        }
+
+        .cap-vel-stat-label {
+            color: var(--text-muted);
+        }
+
+        .cap-vel-stat-value {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .cap-vel-cluster {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 3px 8px;
+            background: rgba(139, 92, 246, 0.15);
+            color: #a78bfa;
+            border-radius: 8px;
+            font-size: 0.65rem;
+            font-weight: 600;
+        }
+
         @media (max-width: 768px) {
             .sector-val-grid {
                 grid-template-columns: 1fr;
@@ -689,6 +903,12 @@
             .ou-legend {
                 flex-direction: column;
                 gap: 0.75rem;
+            }
+            .cap-velocity-grid {
+                grid-template-columns: 1fr;
+            }
+            .cap-heatmap-grid {
+                min-width: 650px;
             }
         }
     </style>
@@ -755,6 +975,20 @@
                 <p>Median valuations and deal activity across 8 key sectors, broken down by funding stage.</p>
             </div>
             <div class="sector-val-grid" id="sector-val-grid"></div>
+        </div>
+    </section>
+
+    <!-- Capital Flow Heatmap -->
+    <section class="section" id="capital-heatmap" style="background: linear-gradient(135deg, rgba(255,107,44,0.04) 0%, rgba(0,0,0,0) 60%);">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">CAPITAL CONCENTRATION</p>
+                <h2>Capital Flow Heatmap</h2>
+                <p>Where tracked capital concentrates — total raised across 500+ companies by sector and funding stage.</p>
+            </div>
+            <div class="cap-heatmap-stats" id="cap-heatmap-stats"></div>
+            <div class="cap-heatmap-wrapper" id="cap-heatmap-wrapper"></div>
+            <div class="cap-velocity-grid" id="cap-velocity-grid"></div>
         </div>
     </section>
 
@@ -945,6 +1179,6 @@
     <script src="auth.js?v=20260219z"></script>
     <script src="data.js?v=20260220j"></script>
     <script src="data/stocks_auto.js?v=20260219z"></script>
-    <script src="valuations.js?v=20260219z"></script>
+    <script src="valuations.js?v=20260220m"></script>
 </body>
 </html>
