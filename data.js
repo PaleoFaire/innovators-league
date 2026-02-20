@@ -18834,23 +18834,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-20 05:08
+// Last updated: 2026-02-20 10:04
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "DIRAC", headline: "A US Sodium-Ion Battery Maker Challenges Powerwall For Home Energy Storage, And More", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Terraform Industries", headline: "The War Against Solar Power Is Doomed To Fail, Part Infinity", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Fervo Energy", headline: "Enhanced Geothermal Systems Could Expand Geothermal Power Generation", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Rainmaker", headline: "Sierra Club Report: PFAS Found in Nearly All Alabama's Waterways", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Terraform Industries", headline: "Solar Power Used To Charge An EV In The Sub-Arctic", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Kela", headline: "Jeffrey Epstein's Ties to CBP Agents Sparked a DOJ Probe", source: "Wired", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Terraform Industries", headline: "Coloradans Push Back On Trump Trying To Force Coal On Them", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Diode", headline: "A $10K Bounty Awaits Anyone Who Can Hack Ring Cameras to Stop Sharing Data With Amazon", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Impulse Labs", headline: "FAW Begins Testing Semi-Solid-State Battery With 500 Wh/kg Energy Density", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Karman Industries", headline: "Germany's Bid To Double Hydrogen Fuel Targets Ignores Operator Demand And Cost Signals", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Apptronik", headline: "Tesla's Huge Market Cap ' Reader Thoughts", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "Xtend", headline: "Second and last chance for innovators to win scaling perks: Belden extends nomination window", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Attio", headline: "Cellebrite cut off Serbia citing abuse of its phone unlocking tools. Why not others?", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Figure AI", headline: "Google says its AI systems helped deter Play Store malware in 2025", source: "TechCrunch", time: "7h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Anthropic", headline: "Anthropic Could Pass OpenAI in Revenue Runrate within 5 Months", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Turbopuffer", headline: "Leading US Research Lab Appears to Be Squeezing Out Foreign Scientists", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Durin", headline: "The Olympics and Politics Are More Intertwined Than Ever. Maybe That's a Good Thing", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Cape", headline: "Estonia begins buying hundreds of pop-up bunkers to fortify border with Russia", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Cuby Technologies", headline: "US Navy taps Fincantieri to build Marine Corps landing vessels", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Durin", headline: "Iran and the Gulf: Why Hedging Is No Longer Enough", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Ample", headline: "Tesla Receives FCC Waiver for Cybercab Wireless Charging System", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Orbital Marine Power", headline: "Trump GOP: Forget Progress, Back to the Caves!", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "DIRAC", headline: "A US Sodium-Ion Battery Maker Challenges Powerwall For Home Energy Storage, And More", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Terraform Industries", headline: "The War Against Solar Power Is Doomed To Fail, Part Infinity", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Fervo Energy", headline: "Enhanced Geothermal Systems Could Expand Geothermal Power Generation", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Rainmaker", headline: "Sierra Club Report: PFAS Found in Nearly All Alabama's Waterways", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Terraform Industries", headline: "Solar Power Used To Charge An EV In The Sub-Arctic", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Kela", headline: "Jeffrey Epstein's Ties to CBP Agents Sparked a DOJ Probe", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Terraform Industries", headline: "Coloradans Push Back On Trump Trying To Force Coal On Them", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Diode", headline: "A $10K Bounty Awaits Anyone Who Can Hack Ring Cameras to Stop Sharing Data With Amazon", source: "Wired", time: "8h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
