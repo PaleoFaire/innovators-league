@@ -1075,6 +1075,7 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initSmoothScroll);
   safeInit(() => updateResultsCount(COMPANIES.length), 'updateResultsCount');
   safeInit(initPremiumFeatures);
+  safeInit(initThesisCollision);
   safeInit(initSectionTimestamps);
 
   // Always hide loading skeletons and update freshness, even if some inits failed
@@ -8069,4 +8070,272 @@ async function loadAlertPreferences() {
   } catch (e) {
     console.error('[AlertPrefs] Load error:', e);
   }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════
+// THESIS COLLISION DETECTOR
+// ═══════════════════════════════════════════════════════════════════════════
+
+function initThesisCollision() {
+  const mapContainer = document.getElementById('thesis-collision-map');
+  const detailPanel = document.getElementById('thesis-detail-panel');
+  const searchInput = document.getElementById('thesis-search');
+  const chipContainer = document.getElementById('thesis-filter-chips');
+
+  if (!mapContainer || typeof COMPANIES === 'undefined') return;
+
+  // Cluster color palette — grouped by domain
+  const DOMAIN_COLORS = {
+    'ai': '#6366f1',        // indigo
+    'autonomy': '#ef4444',  // red
+    'battery': '#22c55e',   // green
+    'biotech': '#ec4899',   // pink
+    'brain': '#a855f7',     // purple
+    'carbon': '#14b8a6',    // teal
+    'cement': '#78716c',    // stone
+    'chiplet': '#f59e0b',   // amber
+    'construction': '#78716c',
+    'consumer': '#8b5cf6',  // violet
+    'data': '#3b82f6',      // blue
+    'defense': '#dc2626',   // red-dark
+    'electrolysis': '#10b981',
+    'energy': '#f97316',    // orange
+    'evtol': '#06b6d4',     // cyan
+    'fusion': '#f43f5e',    // rose
+    'geothermal': '#d97706',
+    'green': '#16a34a',
+    'humanoid': '#7c3aed',  // violet-dark
+    'inspection': '#64748b',
+    'logistics': '#0ea5e9', // sky
+    'manufacturing': '#b45309',
+    'maritime': '#0891b2',  // cyan-dark
+    'medical': '#db2777',
+    'nuclear': '#eab308',   // yellow
+    'quantum': '#8b5cf6',   // violet
+    'robotics': '#7c3aed',
+    'satellite': '#2563eb', // blue-dark
+    'semiconductor': '#f59e0b',
+    'space': '#3b82f6',
+    'supersonic': '#ef4444',
+    'synfuels': '#84cc16',  // lime
+    'transport': '#06b6d4',
+  };
+
+  function getClusterColor(clusterId) {
+    const domain = clusterId.split('-')[0];
+    return DOMAIN_COLORS[domain] || '#FF6B2C';
+  }
+
+  // Build cluster data from COMPANIES
+  const clusters = {};
+  COMPANIES.forEach(company => {
+    const cluster = company.thesisCluster;
+    if (!cluster) return;
+    if (!clusters[cluster]) {
+      clusters[cluster] = {
+        id: cluster,
+        companies: [],
+        totalRaised: 0,
+      };
+    }
+    clusters[cluster].companies.push(company);
+
+    // Parse funding
+    const raised = company.totalRaised || '';
+    const match = raised.match(/([\d.]+)\s*(B|M|K)/i);
+    if (match) {
+      let val = parseFloat(match[1]);
+      if (match[2].toUpperCase() === 'B') val *= 1000;
+      else if (match[2].toUpperCase() === 'K') val /= 1000;
+      clusters[cluster].totalRaised += val;
+    }
+  });
+
+  // Convert to sorted array
+  const clusterArray = Object.values(clusters)
+    .sort((a, b) => b.companies.length - a.companies.length);
+
+  // Domain filter chips
+  const domains = new Set();
+  clusterArray.forEach(c => {
+    const domain = c.id.split('-')[0];
+    domains.add(domain);
+  });
+
+  const domainLabels = {
+    'ai': 'AI & Software',
+    'autonomy': 'Autonomy & Drones',
+    'battery': 'Batteries',
+    'biotech': 'Biotech',
+    'brain': 'Brain-Computer',
+    'carbon': 'Carbon Capture',
+    'cement': 'Green Cement',
+    'chiplet': 'Chip Packaging',
+    'construction': 'Construction',
+    'consumer': 'Consumer',
+    'data': 'Data Centers',
+    'defense': 'Defense',
+    'electrolysis': 'Green Hydrogen',
+    'energy': 'Energy Storage',
+    'evtol': 'eVTOL',
+    'fusion': 'Fusion',
+    'geothermal': 'Geothermal',
+    'green': 'Green Metals',
+    'humanoid': 'Humanoid Robots',
+    'inspection': 'Inspection',
+    'logistics': 'Logistics',
+    'manufacturing': 'Manufacturing',
+    'maritime': 'Maritime',
+    'medical': 'Medical',
+    'nuclear': 'Nuclear',
+    'quantum': 'Quantum',
+    'robotics': 'Robotics',
+    'satellite': 'Satellites',
+    'semiconductor': 'Semiconductors',
+    'space': 'Space',
+    'supersonic': 'Supersonic',
+    'synfuels': 'Synthetic Fuels',
+    'transport': 'Transport',
+  };
+
+  let activeFilter = null;
+
+  // Render filter chips
+  if (chipContainer) {
+    const sortedDomains = [...domains].sort();
+    sortedDomains.forEach(domain => {
+      const chip = document.createElement('button');
+      chip.className = 'thesis-filter-chip';
+      chip.textContent = domainLabels[domain] || domain;
+      chip.dataset.domain = domain;
+      chip.style.borderColor = DOMAIN_COLORS[domain] || '#333';
+      chip.addEventListener('click', () => {
+        if (activeFilter === domain) {
+          activeFilter = null;
+          chip.classList.remove('active');
+        } else {
+          activeFilter = domain;
+          chipContainer.querySelectorAll('.thesis-filter-chip').forEach(c => c.classList.remove('active'));
+          chip.classList.add('active');
+        }
+        filterClusters();
+      });
+      chipContainer.appendChild(chip);
+    });
+  }
+
+  // Format cluster label from ID
+  function formatLabel(id) {
+    return id.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  }
+
+  // Render cluster cards
+  function renderClusters(filtered) {
+    mapContainer.innerHTML = '';
+    (filtered || clusterArray).forEach(cluster => {
+      const color = getClusterColor(cluster.id);
+      const card = document.createElement('div');
+      card.className = 'thesis-cluster-card';
+      card.style.setProperty('--cluster-color', color);
+      card.dataset.clusterId = cluster.id;
+
+      const fundingStr = cluster.totalRaised >= 1000
+        ? `$${(cluster.totalRaised / 1000).toFixed(0)}B+`
+        : `$${cluster.totalRaised.toFixed(0)}M`;
+
+      const previewNames = cluster.companies.slice(0, 4).map(c => c.name).join(', ');
+      const more = cluster.companies.length > 4 ? ` +${cluster.companies.length - 4} more` : '';
+
+      card.innerHTML = `
+        <div class="thesis-cluster-count">${cluster.companies.length}</div>
+        <div class="thesis-cluster-count-label">companies</div>
+        <div class="thesis-cluster-name">${formatLabel(cluster.id)}</div>
+        <div class="thesis-cluster-companies-preview">${previewNames}${more}</div>
+      `;
+
+      card.addEventListener('click', () => showClusterDetail(cluster));
+      mapContainer.appendChild(card);
+    });
+  }
+
+  // Show cluster detail panel
+  function showClusterDetail(cluster) {
+    const titleEl = document.getElementById('thesis-detail-title');
+    const countEl = document.getElementById('thesis-detail-count');
+    const companiesEl = document.getElementById('thesis-detail-companies');
+
+    if (!titleEl || !countEl || !companiesEl || !detailPanel) return;
+
+    titleEl.textContent = formatLabel(cluster.id);
+    countEl.textContent = `${cluster.companies.length} companies`;
+
+    // Sort by signal strength
+    const signalOrder = { 'hot': 0, 'rising': 1, 'established': 2, 'early': 3, 'stealth': 4 };
+    const sorted = [...cluster.companies].sort((a, b) =>
+      (signalOrder[a.signal] || 5) - (signalOrder[b.signal] || 5)
+    );
+
+    companiesEl.innerHTML = sorted.map(company => {
+      const stage = company.fundingStage || company.stage || '';
+      const raised = company.totalRaised || '';
+      const location = company.location || '';
+      const approach = company.techApproach || company.description || '';
+      const signalEmoji = { hot: '🔥', rising: '📈', established: '💚', early: '🌱', stealth: '👻' };
+      const emoji = signalEmoji[company.signal] || '';
+
+      return `
+        <div class="thesis-company-card" onclick="window.location.href='company.html?c=${encodeURIComponent(company.name)}'">
+          <div class="thesis-company-name">${emoji} ${company.name}</div>
+          <div class="thesis-company-meta">${stage} ${raised ? '| ' + raised : ''} ${location ? '| ' + location : ''}</div>
+          <div class="thesis-company-approach">${approach}</div>
+        </div>
+      `;
+    }).join('');
+
+    detailPanel.style.display = 'block';
+    detailPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+
+    // Highlight the selected card
+    mapContainer.querySelectorAll('.thesis-cluster-card').forEach(card => {
+      card.style.opacity = card.dataset.clusterId === cluster.id ? '1' : '0.4';
+    });
+  }
+
+  // Close detail panel
+  const closeBtn = document.getElementById('thesis-detail-close');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      detailPanel.style.display = 'none';
+      mapContainer.querySelectorAll('.thesis-cluster-card').forEach(card => {
+        card.style.opacity = '1';
+      });
+    });
+  }
+
+  // Filter clusters by search and domain
+  function filterClusters() {
+    const searchTerm = (searchInput ? searchInput.value : '').toLowerCase();
+    const cards = mapContainer.querySelectorAll('.thesis-cluster-card');
+
+    cards.forEach(card => {
+      const id = card.dataset.clusterId;
+      const domain = id.split('-')[0];
+      const label = formatLabel(id).toLowerCase();
+      const cluster = clusters[id];
+      const companyNames = cluster ? cluster.companies.map(c => c.name.toLowerCase()).join(' ') : '';
+
+      const matchesSearch = !searchTerm || label.includes(searchTerm) || id.includes(searchTerm) || companyNames.includes(searchTerm);
+      const matchesDomain = !activeFilter || domain === activeFilter;
+
+      card.classList.toggle('hidden', !(matchesSearch && matchesDomain));
+    });
+  }
+
+  // Search input
+  if (searchInput) {
+    searchInput.addEventListener('input', filterClusters);
+  }
+
+  // Initial render
+  renderClusters();
 }

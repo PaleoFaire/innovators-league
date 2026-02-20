@@ -378,7 +378,9 @@ const COMPANIES = [
     totalRaised: "$2.5B+",
     valuation: "$78B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/rational-optimist-awards-part-2",
-    tags: ["autonomous drones", "AI", "defense", "sensors"],
+        thesisCluster: "autonomy-drone-military",
+    techApproach: "Lattice autonomous OS networking sensors, drones, and weapons into AI-coordinated defense systems at machine speed",
+tags: ["autonomous drones", "AI", "defense", "sensors"],
     insight: "Anduril's Lattice OS is becoming the de facto operating system for autonomous defense. Their vertical integration strategy mirrors early SpaceX — own the stack, own the margin. Watch for international expansion as Five Eyes allies seek US-made alternatives.",
     signal: "hot",
     scores: { team: 10, traction: 10, techMoat: 9, market: 9, momentum: 10 },
@@ -390,7 +392,9 @@ const COMPANIES = [
     },
     recentEvent: { type: "valuation", text: "Secondary market valuation reaches $78B+, will 'definitely' go public", date: "2026-01" },
     tbpnMentioned: true,
-    addedDate: "2026-02"
+        thesisCluster: "autonomy-drone-military",
+    techApproach: "Lattice autonomous operating system networking sensors, drones, and weapons into AI-coordinated defense systems at machine speed",
+addedDate: "2026-02"
   },
   {
     name: "Shield AI",
@@ -405,7 +409,9 @@ const COMPANIES = [
     totalRaised: "$1.6B+",
     valuation: "$5.6B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["autonomy", "AI", "swarm", "defense"],
+        thesisCluster: "autonomy-drone-military",
+    techApproach: "Hivemind autonomy software enabling drone swarms to fly and fight without GPS or communications in contested environments",
+tags: ["autonomy", "AI", "swarm", "defense"],
     insight: "Hivemind is the real product — the airframes are just the delivery mechanism. If Shield AI can make any aircraft autonomous in GPS-denied environments, they become the Android of military aviation.",
     signal: "hot",
     scores: { team: 9, traction: 9, techMoat: 9, market: 9, momentum: 9 },
@@ -416,6 +422,8 @@ const COMPANIES = [
       risks: ["High capital requirements", "Defense prime competition", "Regulatory approvals timeline"]
     },
     recentEvent: { type: "funding", text: "Series F-1 extended to $540M at $5.6B valuation", date: "2025-09" },
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Hivemind autonomous piloting software enabling drone swarms to fly, fight, and collaborate without GPS or communications",
     addedDate: "2026-02"
   },
   {
@@ -437,6 +445,8 @@ const COMPANIES = [
     scores: { team: 8, traction: 8, techMoat: 9, market: 9, momentum: 9 },
     competitors: [],
     recentEvent: { type: "funding", text: "Total funding exceeds $550M for directed energy weapons production", date: "2026-01" },
+    thesisCluster: "autonomy-counter-drone",
+    techApproach: "High-power microwave directed energy weapon (Leonidas) disabling drone electronics at range with software-defined beam steering",
     addedDate: "2026-02"
   },
   {
@@ -458,6 +468,8 @@ const COMPANIES = [
     scores: { team: 8, traction: 9, techMoat: 8, market: 9, momentum: 10 },
     competitors: [],
     recentEvent: { type: "funding", text: "Raised $600M+ at $4B valuation for autonomous naval vessel production", date: "2025-12" },
+    thesisCluster: "autonomy-maritime",
+    techApproach: "Autonomous surface vessels built at shipyard scale using vertical integration for rapid production of unmanned naval platforms",
     addedDate: "2026-02"
   },
   {
@@ -473,6 +485,8 @@ const COMPANIES = [
     totalRaised: "$110M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-rational-optimist-awards-2026",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "High-volume FPV drone manufacturing producing 1,000+ combat drones monthly with optimized supply chains for rapid deployment",
     tags: ["FPV drones", "manufacturing", "defense", "Ukraine"]
   },
   {
@@ -488,6 +502,8 @@ const COMPANIES = [
     totalRaised: "$785M+",
     valuation: "$4.5B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-counter-drone",
+    techApproach: "Coherent distributed networking radar using multiple nodes for counter-drone detection and tracking with no single point of failure",
     tags: ["radar", "counter-drone", "defense"]
   },
   {
@@ -503,6 +519,8 @@ const COMPANIES = [
     totalRaised: "$450M+",
     valuation: "$2.8B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "defense-munitions-energetics",
+    techApproach: "Rapidly iterated hypersonic missile development using commercial aerospace practices to compress design cycles from years to months",
     tags: ["hypersonic", "missiles", "defense"]
   },
   {
@@ -518,6 +536,8 @@ const COMPANIES = [
     totalRaised: "$31M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Advanced RF sensing for battlefield situational awareness including Vadris drone detection and electronic warfare systems",
     tags: ["electronic warfare", "RF sensing", "drones", "defense"]
   },
   {
@@ -533,7 +553,9 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["sensors", "integration", "autonomous", "defense"]
+        thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Unified sensor-to-effector data integration platform connecting diverse battlefield sensors into a common operational picture",
+tags: ["sensors", "integration", "autonomous", "defense"]
   },
   {
     name: "Skydio",
@@ -554,6 +576,10 @@ const COMPANIES = [
     scores: { team: 8, traction: 8, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Anduril Industries"],
     recentEvent: { type: "milestone", text: "Expanding defense and law enforcement contracts", date: "2025-08" },
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Unified sensor-to-effector data integration platform connecting diverse battlefield sensors into a common operational picture",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Autonomous AI-powered drones with obstacle avoidance and visual SLAM navigation — the only major US-made drone manufacturer",
     addedDate: "2026-02"
   },
   {
@@ -575,6 +601,8 @@ const COMPANIES = [
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 9 },
     competitors: ["Epirus", "Anduril"],
     recentEvent: { type: "funding", text: "$30M Series A led by Craft Ventures", date: "2025-03" },
+    thesisCluster: "defense-munitions-energetics",
+    techApproach: "Bullfrog autonomous gun turret achieving $10 cost-per-kill against drones using AI targeting and commodity ammunition",
     addedDate: "2025-06"
   },
   {
@@ -590,6 +618,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "defense-munitions-energetics",
+    techApproach: "Advanced propulsion and energetics for defense applications including solid rocket motors and munitions at startup speed",
     tags: ["missiles", "propulsion", "energetics", "defense"]
   },
   {
@@ -605,7 +635,9 @@ const COMPANIES = [
     totalRaised: "$10M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["maritime", "acoustic", "sensing", "defense"]
+        thesisCluster: "autonomy-maritime",
+    techApproach: "AI-powered distributed acoustic sensing for underwater and surface maritime security using networked hydrophone arrays",
+tags: ["maritime", "acoustic", "sensing", "defense"]
   },
   {
     name: "Vannevar Labs",
@@ -625,6 +657,10 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 9, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Palantir", "Primer AI"],
+    thesisCluster: "autonomy-maritime",
+    techApproach: "AI-powered distributed acoustic sensing for underwater and surface maritime security using networked hydrophone arrays",
+    thesisCluster: "ai-defense-intelligence",
+    techApproach: "Intelligence analysis and sensing platforms for DoD using NLP and ML to process classified and open-source data streams",
     addedDate: "2025-06"
   },
   {
@@ -640,6 +676,8 @@ const COMPANIES = [
     totalRaised: "$64M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-maritime",
+    techApproach: "Mass-producible 100ft-class unmanned ships for naval endurance missions requiring minimal human oversight over weeks",
     tags: ["autonomous ships", "naval", "defense"]
   },
 
@@ -657,7 +695,9 @@ const COMPANIES = [
     totalRaised: "$149M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
-    tags: ["SMR", "nuclear", "data centers", "energy"]
+        thesisCluster: "nuclear-microreactor",
+    techApproach: "First startup to split the atom with its own reactor core, building gas-cooled microreactors for distributed power",
+tags: ["SMR", "nuclear", "data centers", "energy"]
   },
   {
     name: "Radiant",
@@ -679,6 +719,10 @@ const COMPANIES = [
     competitors: ["Oklo", "NuScale"],
     recentEvent: { type: "funding", text: "$300M Series D for DOE Reactor Pilot Program", date: "2025-06" },
     tbpnMentioned: true,
+    thesisCluster: "nuclear-microreactor",
+    techApproach: "First startup to split the atom with its own reactor core, building gas-cooled microreactors for distributed power generation",
+    thesisCluster: "nuclear-microreactor",
+    techApproach: "Portable 1.2MW nuclear microreactors for off-grid and austere environments using helium-cooled TRISO fuel technology",
     addedDate: "2026-02"
   },
   {
@@ -694,6 +738,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
+    thesisCluster: "nuclear-microreactor",
+    techApproach: "Pragmatic microreactor design using existing fuel types and supply chains to accelerate deployment without novel fuel development",
     tags: ["SMR", "nuclear", "data centers"]
   },
   {
@@ -709,6 +755,8 @@ const COMPANIES = [
     totalRaised: "$96M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
+    thesisCluster: "nuclear-microreactor",
+    techApproach: "Kilowatt-scale micro-fission reactors using heat pipe technology for defense and space power in remote locations",
     tags: ["microreactor", "nuclear", "defense", "space"]
   },
   {
@@ -724,6 +772,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "nuclear-services-fuel",
+    techApproach: "Rebuilding American uranium enrichment capacity using centrifuge technology for HALEU fuel production for advanced reactors",
     tags: ["uranium", "enrichment", "nuclear fuel", "HALEU"]
   },
   {
@@ -739,6 +789,8 @@ const COMPANIES = [
     totalRaised: "$500M+",
     valuation: "$1.6B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
+    thesisCluster: "nuclear-msr",
+    techApproach: "Fluoride salt-cooled high-temperature reactor using TRISO fuel pebbles in molten fluoride salt for intrinsically safe operation",
     tags: ["SMR", "nuclear", "molten salt", "Google"]
   },
   {
@@ -754,7 +806,9 @@ const COMPANIES = [
     totalRaised: "$1.1B+",
     valuation: "$2B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
-    tags: ["SMR", "nuclear", "data centers", "Amazon"]
+        thesisCluster: "nuclear-smr-advanced",
+    techApproach: "Xe-100 pebble bed HTGR producing 80MW with TRISO fuel, modular design for AI data centers with Amazon partnership",
+tags: ["SMR", "nuclear", "data centers", "Amazon"]
   },
   {
     name: "Oklo",
@@ -775,6 +829,10 @@ const COMPANIES = [
     scores: { team: 8, traction: 7, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Radiant", "NuScale"],
     recentEvent: { type: "partnership", text: "Meta partnership for Pike County nuclear campus", date: "2025-09" },
+    thesisCluster: "nuclear-smr-advanced",
+    techApproach: "Xe-100 pebble bed HTGR producing 80MW with TRISO fuel, modular design for AI data centers with Amazon partnership",
+    thesisCluster: "nuclear-microreactor",
+    techApproach: "Aurora fast fission microreactor and nuclear campus concept with waste-to-fuel recycling and Meta/Equinix data center partnerships",
     addedDate: "2026-02"
   },
   {
@@ -790,6 +848,8 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
+    thesisCluster: "nuclear-microreactor",
+    techApproach: "Standardized microreactors deployed in containerized format for rapid installation with power purchase agreements",
     tags: ["microreactor", "nuclear", "UK", "data centers"]
   },
   {
@@ -805,7 +865,9 @@ const COMPANIES = [
     totalRaised: "$30M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
-    tags: ["underground", "nuclear", "borehole"]
+        thesisCluster: "nuclear-microreactor",
+    techApproach: "Underground microreactors deployed in one-mile-deep boreholes using natural geology as containment and shielding",
+tags: ["underground", "nuclear", "borehole"]
   },
   {
     name: "TerraPower",
@@ -820,7 +882,9 @@ const COMPANIES = [
     totalRaised: "$1.7B+",
     valuation: "$4B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
-    tags: ["SMR", "nuclear", "Natrium"]
+        thesisCluster: "nuclear-smr-advanced",
+    techApproach: "Natrium sodium-cooled fast reactor with integrated molten salt energy storage for load-following grid applications",
+tags: ["SMR", "nuclear", "Natrium"]
   },
   {
     name: "Standard Nuclear",
@@ -840,6 +904,12 @@ const COMPANIES = [
     scores: { team: 7, traction: 6, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Oklo", "Radiant", "X-Energy"],
     recentEvent: { type: "funding", text: "$140M Series A led by Decisive Point", date: "2026-01" },
+    thesisCluster: "nuclear-microreactor",
+    techApproach: "Underground microreactors deployed in one-mile-deep boreholes using natural geology as containment and shielding",
+    thesisCluster: "nuclear-smr-advanced",
+    techApproach: "Natrium sodium-cooled fast reactor with integrated molten salt energy storage for load-following grid applications",
+    thesisCluster: "nuclear-services-fuel",
+    techApproach: "Standardized advanced reactor deployment using proven designs and streamlined licensing for rapid nuclear buildout",
     addedDate: "2025-06"
   },
   {
@@ -861,6 +931,8 @@ const COMPANIES = [
     scores: { team: 8, traction: 6, techMoat: 6, market: 9, momentum: 8 },
     competitors: ["Oklo", "X-Energy", "Standard Nuclear"],
     tbpnMentioned: true,
+    thesisCluster: "nuclear-services-fuel",
+    techApproach: "Proven AP1000 reactor deployment philosophy building on existing certified designs rather than inventing new reactor concepts",
     addedDate: "2026-02"
   },
   {
@@ -882,6 +954,8 @@ const COMPANIES = [
     scores: { team: 7, traction: 5, techMoat: 8, market: 8, momentum: 7 },
     competitors: ["TerraPower"],
     tbpnMentioned: true,
+    thesisCluster: "nuclear-msr",
+    techApproach: "Molten salt fast reactor technology for recycling nuclear waste into fuel, turning liability into clean energy resource",
     addedDate: "2026-02"
   },
 
@@ -899,7 +973,9 @@ const COMPANIES = [
     totalRaised: "$10B+",
     valuation: "$800B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/rational-optimist-awards-part-2",
-    tags: ["rockets", "satellites", "Starlink", "space"],
+        thesisCluster: "space-launch-large",
+    techApproach: "Falcon 9 reusable orbital vehicle with 165 launches in 2025, plus Starship super heavy-lift for Mars colonization",
+tags: ["rockets", "satellites", "Starlink", "space"],
     insight: "SpaceX isn't just a launch company — Starlink is becoming a $10B+ revenue business that funds the Mars mission. The vertical integration from engines to orbit to end-user connectivity is unprecedented in any industry.",
     signal: "established",
     scores: { team: 10, traction: 10, techMoat: 10, market: 10, momentum: 10 },
@@ -911,6 +987,8 @@ const COMPANIES = [
     },
     recentEvent: { type: "milestone", text: "Preparing for IPO at $1.5T valuation", date: "2025-12" },
     tbpnMentioned: true,
+    thesisCluster: "space-launch-large",
+    techApproach: "Falcon 9 reusable orbital launch vehicle with 165 launches in 2025, plus Starship super heavy-lift vehicle for Mars colonization",
     addedDate: "2026-02"
   },
   {
@@ -932,6 +1010,8 @@ const COMPANIES = [
     scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 9 },
     competitors: ["SpaceX"],
     recentEvent: { type: "milestone", text: "Market cap tripled to $37B, SDA contract won", date: "2025-10" },
+    thesisCluster: "space-launch-large",
+    techApproach: "Electron small launch vehicle plus Neutron medium-lift, only company besides SpaceX with proven reusable orbital launch capability",
     addedDate: "2026-02"
   },
   {
@@ -947,6 +1027,8 @@ const COMPANIES = [
     totalRaised: "$400M+",
     valuation: "$1B+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-satellites-buses",
+    techApproach: "Standardized, configurable satellite bus platform — the Foxconn of space — enabling rapid, low-cost satellite manufacturing",
     tags: ["satellite buses", "manufacturing", "space"]
   },
   {
@@ -962,6 +1044,8 @@ const COMPANIES = [
     totalRaised: "$187M+",
     valuation: "$500M+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-rational-optimist-awards-2026",
+    thesisCluster: "space-habitats-manufacturing",
+    techApproach: "Microgravity pharmaceutical manufacturing on autonomous capsules that process drugs in orbit and return them via reentry",
     tags: ["space manufacturing", "pharmaceuticals", "re-entry"]
   },
   {
@@ -977,6 +1061,8 @@ const COMPANIES = [
     totalRaised: "$55M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-rational-optimist-awards-2026",
+    thesisCluster: "space-lunar-planetary",
+    techApproach: "Asteroid mining targeting platinum-group metals using autonomous spacecraft for resource extraction in deep space",
     tags: ["asteroid mining", "platinum", "space resources"]
   },
   {
@@ -992,7 +1078,9 @@ const COMPANIES = [
     totalRaised: "$20M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["reflected sunlight", "satellites", "space"]
+        thesisCluster: "space-solar-power",
+    techApproach: "Constellation of reflective satellites redirecting targeted sunlight to solar farms for extended energy harvesting hours",
+tags: ["reflected sunlight", "satellites", "space"]
   },
   {
     name: "Relativity Space",
@@ -1013,6 +1101,10 @@ const COMPANIES = [
     scores: { team: 7, traction: 5, techMoat: 8, market: 8, momentum: 6 },
     competitors: ["SpaceX", "Rocket Lab"],
     recentEvent: { type: "milestone", text: "Eric Schmidt becomes CEO, pivots to space data centers", date: "2025-06" },
+    thesisCluster: "space-solar-power",
+    techApproach: "Constellation of lightweight reflective satellites redirecting targeted sunlight to solar farms for extended energy harvesting hours",
+    thesisCluster: "space-launch-large",
+    techApproach: "3D-printed Terran R heavy-lift launch vehicle using robotic additive manufacturing to minimize part count and production time",
     addedDate: "2026-02"
   },
   {
@@ -1028,6 +1120,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "$1.8B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-propulsion-engines",
+    techApproach: "Orbital kickstage and maneuvering vehicles providing precise last-mile payload delivery and in-space transportation services",
     tags: ["orbital transfer", "satellite buses", "space"]
   },
   {
@@ -1043,6 +1137,8 @@ const COMPANIES = [
     totalRaised: "$360M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-satellites-buses",
+    techApproach: "Mega-class satellite buses leveraging cheap heavy-lift launch to build larger, more capable satellites at lower cost per capability",
     tags: ["large satellites", "heavy-lift", "space"]
   },
   {
@@ -1058,6 +1154,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "$2B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-habitats-manufacturing",
+    techApproach: "Haven commercial space station — first privately developed orbital habitat for research, manufacturing, and space tourism",
     tags: ["space station", "commercial space", "LEO"]
   },
   {
@@ -1073,7 +1171,9 @@ const COMPANIES = [
     totalRaised: "$30M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["ground stations", "satellite comms", "space"]
+        thesisCluster: "space-ground-comms",
+    techApproach: "Phased array ground station network for high-throughput satellite data downlink using electronically steered antennas",
+tags: ["ground stations", "satellite comms", "space"]
   },
   {
     name: "Astranis",
@@ -1094,6 +1194,10 @@ const COMPANIES = [
     scores: { team: 8, traction: 7, techMoat: 7, market: 8, momentum: 7 },
     competitors: [],
     recentEvent: { type: "milestone", text: "Expanding MicroGEO constellation deployment", date: "2025-07" },
+    thesisCluster: "space-ground-comms",
+    techApproach: "Phased array ground station network for high-throughput satellite data downlink using electronically steered antennas",
+    thesisCluster: "space-satellites-buses",
+    techApproach: "Small geostationary satellites delivering dedicated, affordable internet bandwidth to underserved regions worldwide",
     addedDate: "2026-02"
   },
   {
@@ -1109,6 +1213,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-ground-comms",
+    techApproach: "Ground-based telescope systems and space optics for space domain awareness, tracking objects in orbit from Earth",
     tags: ["telescopes", "space awareness", "optics"]
   },
   {
@@ -1124,6 +1230,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "$4B+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-launch-large",
+    techApproach: "Alpha small launch vehicle and Miranda lunar lander providing responsive launch services for government and commercial missions",
     tags: ["rockets", "small launch", "space"]
   },
   {
@@ -1139,6 +1247,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-lunar-planetary",
+    techApproach: "Lunar lander and services company — first American company to land on the Moon since Apollo via Nova-C lander",
     tags: ["Moon", "lunar lander", "NASA"]
   },
 
@@ -1156,7 +1266,9 @@ const COMPANIES = [
     totalRaised: "$700M+",
     valuation: "$1.5B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/dude-wheres-my-supersonic-jet",
-    tags: ["supersonic", "aviation", "commercial jets"],
+        thesisCluster: "supersonic-hypersonic-transport",
+    techApproach: "Overture Mach 1.7 supersonic airliner using sustainable aviation fuel for trans-oceanic routes at twice the speed of sound",
+tags: ["supersonic", "aviation", "commercial jets"],
     insight: "Boom is betting that proprietary engines (Symphony) are the unlock — no one else is building a purpose-built supersonic commercial engine. 130+ airline orders suggest real demand if they can deliver on certification.",
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 8, momentum: 7 },
@@ -1167,6 +1279,8 @@ const COMPANIES = [
       risks: ["Certification risk", "Noise regulations", "Fuel economics", "Route restrictions"]
     },
     recentEvent: { type: "milestone", text: "XB-1 test flights progressing toward Overture design validation", date: "2025-09" },
+    thesisCluster: "supersonic-hypersonic-transport",
+    techApproach: "Overture Mach 1.7 commercial supersonic airliner using four turbojet engines and sustainable aviation fuel for trans-oceanic routes",
     addedDate: "2026-02"
   },
   {
@@ -1188,6 +1302,8 @@ const COMPANIES = [
     scores: { team: 8, traction: 7, techMoat: 9, market: 8, momentum: 8 },
     competitors: ["Boom Supersonic"],
     recentEvent: { type: "milestone", text: "First Quarterhorse test jet flew successfully", date: "2025-05" },
+    thesisCluster: "supersonic-hypersonic-transport",
+    techApproach: "Mach 5+ hypersonic jet with hybrid Chimera engine transitioning from turbofan to ramjet for hypersonic commercial and military flight",
     addedDate: "2026-02"
   },
   {
@@ -1204,6 +1320,8 @@ const COMPANIES = [
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/dude-wheres-my-supersonic-jet",
     investors: ["Pioneer Fund", "Alumni Ventures", "a16z", "Lowercarbon Capital", "United Airlines"],
+    thesisCluster: "supersonic-hypersonic-transport",
+    techApproach: "Electric Adaptive Engine using electromagnetic compression to transition from subsonic turbofan to supersonic ramjet in a single powerplant",
     tags: ["supersonic", "electric engine", "adaptive", "aviation", "space launch", "Y Combinator W24"],
     recentEvent: { type: "milestone", text: "Y Combinator Winter 2024 cohort, dual-use supersonic/space launch strategy", date: "2024-03" }
   },
@@ -1220,6 +1338,8 @@ const COMPANIES = [
     totalRaised: "$44M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "supersonic-hypersonic-transport",
+    techApproach: "Mach 9+ hypersonic vehicles using rotating detonation engines for both commercial point-to-point transport and defense applications",
     tags: ["hypersonic", "Mach 9", "aviation"]
   },
 
@@ -1237,6 +1357,8 @@ const COMPANIES = [
     totalRaised: "$600M+",
     valuation: "$5.6B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-robotics-embodied",
+    techApproach: "Foundation models trained on diverse robot data enabling any robot to perform complex physical tasks through a universal AI brain",
     tags: ["AI", "robotics", "foundation model"],
     insight: "Physical Intelligence is the leading contender for building the 'GPT of robots.' Their approach — a single generalist model controlling diverse robot hardware — could become the default AI layer for the entire robotics industry.",
     signal: "hot",
@@ -1257,6 +1379,8 @@ const COMPANIES = [
     totalRaised: "$16B+",
     valuation: "$126B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/rational-optimist-awards-part-2",
+    thesisCluster: "ai-autonomous-driving",
+    techApproach: "Lidar + camera + radar sensor fusion with end-to-end ML driving stack, trained on billions of real-world miles",
     tags: ["autonomous vehicles", "robotaxi", "AI"],
     insight: "Waymo is the clear autonomous driving leader with the most miles driven and highest safety record. The $16B raise and $126B valuation signal Alphabet is treating this as a standalone mega-business, not a research project.",
     signal: "established",
@@ -1277,6 +1401,8 @@ const COMPANIES = [
     totalRaised: "$1.8B+",
     valuation: "$39B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "humanoid-robotics",
+    techApproach: "General-purpose humanoid robots combining LLM reasoning with learned motor control for warehouse and industrial tasks",
     tags: ["humanoid robots", "AI", "manufacturing"],
     insight: "Figure's $39B valuation makes it the most valuable humanoid robotics company in history. The OpenAI partnership gives them the best AI model integration of any robotics company. Commercial deployments at BMW validate the path.",
     signal: "hot",
@@ -1297,6 +1423,8 @@ const COMPANIES = [
     totalRaised: "$1.3B+",
     valuation: "$9.7B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/rational-optimist-awards-part-2",
+    thesisCluster: "brain-computer-interface",
+    techApproach: "Implantable 1,024-electrode brain-computer interface using custom ASIC for high-bandwidth neural signal processing",
     tags: ["BCI", "neuroscience", "AI", "implants"],
     insight: "Neuralink is pushing BCI from research lab to high-volume production. The $9.7B valuation and ARK/Sequoia backing signal conviction that brain-computer interfaces will become mainstream medical devices.",
     signal: "rising",
@@ -1317,6 +1445,8 @@ const COMPANIES = [
     totalRaised: "$405M",
     valuation: "$2B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-robotics-embodied",
+    techApproach: "Embodied AI foundation models enabling autonomous robot operation in unstructured industrial environments without pre-mapping",
     tags: ["embodied AI", "robotics", "foundation models"]
   },
   {
@@ -1332,6 +1462,8 @@ const COMPANIES = [
     totalRaised: "$75M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-saas-enterprise",
+    techApproach: "Engineering observability platform for hardware testing and reliability, replacing spreadsheets with real-time test data analytics",
     tags: ["engineering", "observability", "testing"]
   },
   {
@@ -1347,7 +1479,9 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "$400B+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["data analytics", "AI", "defense", "government"],
+        thesisCluster: "ai-saas-enterprise",
+    techApproach: "Ontology-based data platform mapping real-world entities and relationships for government and enterprise decision intelligence",
+tags: ["data analytics", "AI", "defense", "government"],
     insight: "Palantir's AIP platform is making LLMs usable in classified environments — a moat no other company can replicate at scale. The government-to-commercial flywheel is finally spinning. Now a $400B+ company.",
     signal: "established",
     scores: { team: 9, traction: 10, techMoat: 10, market: 9, momentum: 9 },
@@ -1358,6 +1492,8 @@ const COMPANIES = [
       risks: ["Extreme valuation multiple", "Commercial customer churn", "Hyperscaler competition", "Political risk in government contracts"]
     },
     recentEvent: { type: "milestone", text: "Market cap surges past $400B driven by AIP platform and defense AI dominance", date: "2026-02" },
+    thesisCluster: "ai-saas-enterprise",
+    techApproach: "Ontology-based data integration platform mapping real-world entities and relationships for government and enterprise decision-making",
     addedDate: "2026-02"
   },
   {
@@ -1379,6 +1515,8 @@ const COMPANIES = [
     scores: { team: 8, traction: 7, techMoat: 7, market: 10, momentum: 9 },
     competitors: ["Anysphere"],
     recentEvent: { type: "funding", text: "$175M Series A for autonomous coding agent", date: "2025-06" },
+    thesisCluster: "ai-code-generation",
+    techApproach: "Devin autonomous AI software engineer capable of end-to-end coding, debugging, and deployment with minimal human supervision",
     addedDate: "2025-01"
   },
 
@@ -1402,6 +1540,8 @@ const COMPANIES = [
     scores: { team: 9, traction: 9, techMoat: 8, market: 9, momentum: 9 },
     competitors: ["Machina Labs"],
     recentEvent: { type: "funding", text: "$260M Series C for Mesa AZ expansion", date: "2025-08" },
+    thesisCluster: "manufacturing-reshoring",
+    techApproach: "Software-defined automated factories producing high-precision CNC machined parts for aerospace and defense with 10x faster turnaround",
     addedDate: "2026-02"
   },
   {
@@ -1424,6 +1564,8 @@ const COMPANIES = [
     competitors: ["Hadrian"],
     recentEvent: { type: "partnership", text: "Toyota partnership for auto body panel manufacturing", date: "2025-07" },
     tbpnMentioned: true,
+    thesisCluster: "manufacturing-reshoring",
+    techApproach: "Giant robotic arms performing AI-controlled metal forming, replacing expensive dies with flexible roboforming for rapid prototyping",
     addedDate: "2026-02"
   },
   {
@@ -1444,6 +1586,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 7, market: 8, momentum: 7 },
     tbpnMentioned: true,
+    thesisCluster: "manufacturing-reshoring",
+    techApproach: "Anti-software software generating optimized assembly instructions for industrial manufacturing from 3D models automatically",
     addedDate: "2026-02"
   },
   {
@@ -1459,6 +1603,8 @@ const COMPANIES = [
     totalRaised: "$56M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Robots-as-a-service making industrial automation accessible to SMEs through zero-upfront-cost robotic cell leasing",
     tags: ["robots-as-a-service", "manufacturing", "automation"]
   },
   {
@@ -1474,6 +1620,8 @@ const COMPANIES = [
     totalRaised: "$5M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "manufacturing-reshoring",
+    techApproach: "Automated foundry using robotics and materials science for investment casting of complex metal components at startup speed",
     tags: ["casting", "foundry", "robotics", "manufacturing"]
   },
   {
@@ -1489,6 +1637,8 @@ const COMPANIES = [
     totalRaised: "$25M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "manufacturing-reshoring",
+    techApproach: "Software-defined wire harness manufacturing using robotic automation to produce complex wiring for aerospace and defense",
     tags: ["wire harnesses", "manufacturing", "software-defined"]
   },
   {
@@ -1504,6 +1654,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "manufacturing-reshoring",
+    techApproach: "Critical actuation and motion control components for aviation and defense using precision-engineered electromechanical systems",
     tags: ["actuation", "motion control", "aviation"]
   },
   {
@@ -1519,6 +1671,8 @@ const COMPANIES = [
     totalRaised: "$600M+",
     valuation: "$2.3B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "additive-manufacturing",
+    techApproach: "End-to-end additive manufacturing platform producing topology-optimized automotive and aerospace structures via metal 3D printing",
     tags: ["additive manufacturing", "automotive", "defense"]
   },
   {
@@ -1534,6 +1688,8 @@ const COMPANIES = [
     totalRaised: "$76.5M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "manufacturing-reshoring",
+    techApproach: "Acquiring and modernizing legacy aerospace component suppliers through technology upgrades and operational improvements",
     tags: ["acquisitions", "aerospace components", "manufacturing"]
   },
 
@@ -1551,6 +1707,8 @@ const COMPANIES = [
     totalRaised: "$3B",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/cracking-the-methuselah-code",
+    thesisCluster: "biotech-cell-reprogramming",
+    techApproach: "Cell reprogramming using Yamanaka factors to reverse biological aging, backed by $3B to turn rejuvenation research into therapies",
     tags: ["longevity", "cell reprogramming", "aging"]
   },
   {
@@ -1566,6 +1724,8 @@ const COMPANIES = [
     totalRaised: "$180M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/cracking-the-methuselah-code",
+    thesisCluster: "biotech-cell-reprogramming",
+    techApproach: "Targeting three core aging mechanisms: toxic blood molecules, genetic errors, and cellular senescence through combined interventions",
     tags: ["longevity", "aging", "autophagy"]
   },
   {
@@ -1581,6 +1741,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/cracking-the-methuselah-code",
+    thesisCluster: "biotech-cell-reprogramming",
+    techApproach: "Epigenetic reprogramming using safe transcription factor combinations to reverse age-related cellular decline without full dedifferentiation",
     tags: ["longevity", "epigenetics", "AI"]
   },
   {
@@ -1596,6 +1758,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/ridley-america-recharged-my-optimism",
+    thesisCluster: "brain-computer-interface",
+    techApproach: "AI-powered prosthetic arms with 26 degrees of finger freedom using LLMs to interpret neural signals for natural hand control",
     tags: ["prosthetics", "AI", "bionics"]
   },
   {
@@ -1611,6 +1775,8 @@ const COMPANIES = [
     totalRaised: "$600M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "biotech-crispr-genomics",
+    techApproach: "Next-gen CRISPR gene editing using novel Cas proteins for programmable diagnostics and therapeutics with improved precision",
     tags: ["CRISPR", "gene editing", "diagnostics"]
   },
   {
@@ -1626,6 +1792,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "biotech-crispr-genomics",
+    techApproach: "Full genome screening platform offering affordable genomic sequencing with AI-driven risk interpretation for preventive medicine",
     tags: ["genomics", "disease risk", "screening"]
   },
   {
@@ -1641,7 +1809,9 @@ const COMPANIES = [
     totalRaised: "$25M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["genomics", "embryo screening", "reproductive"]
+        thesisCluster: "biotech-crispr-genomics",
+    techApproach: "Embryo screening using polygenic risk scores to help IVF parents select embryos with lower disease risk",
+tags: ["genomics", "embryo screening", "reproductive"]
   },
   {
     name: "Herasight",
@@ -1662,6 +1832,10 @@ const COMPANIES = [
     scores: { team: 7, traction: 6, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Orchid", "Nucleus Genomics"],
     tbpnMentioned: true,
+    thesisCluster: "biotech-crispr-genomics",
+    techApproach: "Embryo screening using polygenic risk scores to help IVF parents select embryos with lower disease risk across multiple conditions",
+    thesisCluster: "biotech-crispr-genomics",
+    techApproach: "Polygenic embryo screening using whole-genome sequencing and AI analysis for IVF embryo selection with comprehensive trait coverage",
     addedDate: "2026-02"
   },
 
@@ -1679,6 +1853,8 @@ const COMPANIES = [
     totalRaised: "$26M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "synfuels-solar",
+    techApproach: "Modular synthetic natural gas from solar power and atmospheric CO2 using low-cost electrolysis and Sabatier methanation",
     tags: ["synthetic fuel", "carbon capture", "solar"]
   },
   {
@@ -1694,6 +1870,8 @@ const COMPANIES = [
     totalRaised: "$3B",
     valuation: "$5B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/ridley-are-we-finally-about-to-crack",
+    thesisCluster: "fusion-magnetic-confinement",
+    techApproach: "Compact tokamak fusion using high-temperature superconducting (HTS) REBCO magnets enabling 20x stronger magnetic fields",
     tags: ["fusion", "tokamak", "superconductors"]
   },
   {
@@ -1709,6 +1887,8 @@ const COMPANIES = [
     totalRaised: "$430M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/how-many-lives-will-this-ai-model",
+    thesisCluster: "geothermal-next-gen",
+    techApproach: "Enhanced geothermal using horizontal directional drilling borrowed from oil industry to access hot rock anywhere on Earth",
     tags: ["geothermal", "drilling", "clean energy"]
   },
   {
@@ -1724,6 +1904,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/ridley-are-we-finally-about-to-crack",
+    thesisCluster: "fusion-inertial-laser",
+    techApproach: "Massive excimer laser arrays for inertial confinement fusion, scaling NIF-style approach with cheaper, more efficient laser technology",
     tags: ["fusion", "laser", "inertial confinement"]
   },
   {
@@ -1739,7 +1921,9 @@ const COMPANIES = [
     totalRaised: "$425M+",
     valuation: "$5.4B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/ridley-are-we-finally-about-to-crack",
-    tags: ["fusion", "field-reversed", "energy"],
+        thesisCluster: "fusion-magnetic-confinement",
+    techApproach: "Field-reversed configuration plasma fusion with direct electricity conversion bypassing steam turbines for efficient power",
+tags: ["fusion", "field-reversed", "energy"],
     insight: "Helion's direct electricity conversion from fusion (no steam turbine) could be transformational if it works. The Microsoft PPA gives them a committed buyer and a deadline — the best combination for hard tech.",
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 9, market: 10, momentum: 8 },
@@ -1750,6 +1934,8 @@ const COMPANIES = [
       risks: ["Physics risk", "Timeline risk", "Capital intensity", "Regulatory pathway for fusion"]
     },
     recentEvent: { type: "milestone", text: "Advancing toward 2028 power generation target", date: "2025-10" },
+    thesisCluster: "fusion-magnetic-confinement",
+    techApproach: "Field-reversed configuration plasma fusion with direct electricity conversion bypassing steam turbines for 95% efficient power output",
     addedDate: "2026-02"
   },
   {
@@ -1765,6 +1951,8 @@ const COMPANIES = [
     totalRaised: "$1.2B+",
     valuation: "$6B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/ridley-are-we-finally-about-to-crack",
+    thesisCluster: "fusion-magnetic-confinement",
+    techApproach: "Field-reversed configuration using advanced proton-boron (p-B11) aneutronic fuel producing charged particles instead of neutrons",
     tags: ["fusion", "proton-boron", "energy"]
   },
   {
@@ -1780,6 +1968,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/how-many-lives-will-this-ai-model",
+    thesisCluster: "geothermal-next-gen",
+    techApproach: "Supercritical geothermal drilling accessing 400+ degree rock for 10x energy density versus conventional geothermal wells",
     tags: ["geothermal", "supercritical", "energy"]
   },
   {
@@ -1795,6 +1985,8 @@ const COMPANIES = [
     totalRaised: "$75M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/how-many-lives-will-this-ai-model",
+    thesisCluster: "geothermal-next-gen",
+    techApproach: "Millimeter-wave drilling using gyrotron beams to vaporize rock to 20km depth, accessing unlimited geothermal heat anywhere",
     tags: ["geothermal", "deep drilling", "millimeter wave"]
   },
   {
@@ -1810,6 +2002,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "carbon-capture-utilization",
+    techApproach: "Ocean-based electrochemical carbon capture using seawater electrodialysis to remove CO2 while generating clean hydrogen",
     tags: ["carbon capture", "ocean", "climate"]
   },
   {
@@ -1825,6 +2019,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "battery-infrastructure",
+    techApproach: "Virtual power plants using distributed battery storage to provide grid services, turning home batteries into grid infrastructure",
     tags: ["virtual power plant", "batteries", "energy"]
   },
   {
@@ -1840,6 +2036,8 @@ const COMPANIES = [
     totalRaised: "$7.5M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "electrolysis-green-hydrogen",
+    techApproach: "Industrial heat pumps using rocket turbomachinery engineering to replace fossil fuel burners in manufacturing processes",
     tags: ["heat pumps", "industrial", "decarbonization"]
   },
   {
@@ -1855,6 +2053,8 @@ const COMPANIES = [
     totalRaised: "$9.75M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "data-center-infrastructure",
+    techApproach: "Integrated power management technology for data centers using proprietary voltage regulation to maximize energy efficiency",
     tags: ["power management", "data centers", "efficiency"]
   },
 
@@ -1872,6 +2072,8 @@ const COMPANIES = [
     totalRaised: "$600M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-rational-optimist-awards-2026",
+    thesisCluster: "autonomy-delivery-logistics",
+    techApproach: "Autonomous delivery drones operating at national scale using fixed-wing aircraft with precision payload drop from altitude",
     tags: ["delivery drones", "medical", "autonomous"]
   },
   {
@@ -1887,6 +2089,8 @@ const COMPANIES = [
     totalRaised: "$2B+",
     valuation: "$10B+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "evtol-air-taxi",
+    techApproach: "Electric vertical takeoff and landing air taxi using tilting propellers for quiet, zero-emission urban air mobility service",
     tags: ["eVTOL", "air taxi", "electric aviation"]
   },
   {
@@ -1902,6 +2106,8 @@ const COMPANIES = [
     totalRaised: "$25M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-delivery-logistics",
+    techApproach: "Drone-enabled cloud seeding using autonomous aircraft to deploy silver iodide for targeted precipitation enhancement",
     tags: ["cloud seeding", "weather modification", "water"]
   },
   {
@@ -1917,6 +2123,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "US-manufactured drones positioned as domestic alternative to Chinese DJI for commercial, government, and defense applications",
     tags: ["commercial drones", "DJI alternative", "manufacturing"]
   },
   {
@@ -1932,6 +2140,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-delivery-logistics",
+    techApproach: "Next-generation blimp and airship technology for heavy cargo transport, surveillance, and communications relay at low cost",
     tags: ["airships", "blimps", "cargo"]
   },
 
@@ -1949,6 +2159,8 @@ const COMPANIES = [
     totalRaised: "$700M+",
     valuation: "$23B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-chip-rebellion-is-on",
+    thesisCluster: "ai-hardware-inference",
+    techApproach: "Wafer-scale AI chip with 4+ trillion transistors on a single dinner-plate-sized die, eliminating memory bandwidth bottlenecks",
     tags: ["AI chips", "wafer-scale", "semiconductors"],
     insight: "Cerebras' wafer-scale approach is the most radical chip architecture bet in the AI hardware race. If they IPO successfully at $22B+, it validates an entirely new computing paradigm beyond GPUs.",
     signal: "hot",
@@ -1969,6 +2181,8 @@ const COMPANIES = [
     totalRaised: "$125M+",
     valuation: "$5B",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-chip-rebellion-is-on",
+    thesisCluster: "ai-hardware-inference",
+    techApproach: "Transformer-specific ASIC with architecture burned into silicon, delivering 10x performance per watt vs. GPUs for inference",
     tags: ["AI chips", "ASIC", "inference"]
   },
   {
@@ -1984,6 +2198,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-chip-rebellion-is-on",
+    thesisCluster: "ai-hardware-inference",
+    techApproach: "Thermodynamic computing using physical noise as computational resource, harnessing natural analog processes for generative AI",
     tags: ["thermodynamic computing", "AI chips", "energy efficient"]
   },
   {
@@ -1999,6 +2215,8 @@ const COMPANIES = [
     totalRaised: "$420M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-chip-rebellion-is-on",
+    thesisCluster: "data-center-infrastructure",
+    techApproach: "Photonic interconnects replacing copper with fiber-optic data pathways between chips, enabling 100x bandwidth at lower power",
     tags: ["photonic interconnects", "optical", "chips"]
   },
   {
@@ -2014,6 +2232,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-chip-rebellion-is-on",
+    thesisCluster: "semiconductor-advanced-materials",
+    techApproach: "X-ray lithography enabling sub-1nm chip patterning without EUV, using shorter wavelength light for more precise transistor printing",
     tags: ["lithography", "X-ray", "chipmaking"]
   },
   {
@@ -2029,6 +2249,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-chip-rebellion-is-on",
+    thesisCluster: "semiconductor-advanced-materials",
+    techApproach: "2D semiconductor using Molybdenum Disulfide (MoS2) instead of silicon for transistors, enabling continued Moore\'s Law scaling",
     tags: ["2D materials", "MoS2", "5G", "semiconductors"]
   },
 
@@ -2046,6 +2268,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-american-dream-needs-a-factory",
+    thesisCluster: "construction-modular",
+    techApproach: "Mobile micro-factories manufacturing homes from kits of parts using portable factory equipment for on-site construction",
     tags: ["modular homes", "micro-factory", "construction"]
   },
   {
@@ -2061,6 +2285,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "construction-modular",
+    techApproach: "Factory-manufactured panel-based modular construction producing custom homes from precision-engineered components",
     tags: ["modular homes", "panel-based", "construction"]
   },
 
@@ -2078,6 +2304,8 @@ const COMPANIES = [
     totalRaised: "$675M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/ridley-america-recharged-my-optimism",
+    thesisCluster: "logistics-supply-chain",
+    techApproach: "Underground transit tunnels using custom tunnel boring machines for urban transportation and hyperlogistics networks",
     tags: ["tunneling", "transit", "infrastructure"]
   },
   {
@@ -2093,6 +2321,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "logistics-supply-chain",
+    techApproach: "Underground hyperlogistics using small-diameter pneumatic tubes for automated last-mile package delivery beneath city streets",
     tags: ["underground delivery", "logistics", "infrastructure"]
   },
   {
@@ -2108,6 +2338,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "maritime-electric-transport",
+    techApproach: "Electric hydrofoil boats flying above water on computer-controlled foils for zero-wake, energy-efficient maritime transport",
     tags: ["electric boats", "hydrofoil", "maritime"]
   },
   {
@@ -2123,6 +2355,8 @@ const COMPANIES = [
     totalRaised: "$70M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "maritime-electric-transport",
+    techApproach: "High-performance electric boats combining advanced battery technology with luxury marine design for emission-free boating",
     tags: ["electric boats", "marine", "batteries"]
   },
 
@@ -2140,6 +2374,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/the-rational-optimist-awards-2026",
+    thesisCluster: "consumer-hardware",
+    techApproach: "AI-powered K-12 education with two-hour school days using personalized learning algorithms to accelerate student mastery",
     tags: ["education", "AI", "school"]
   },
   {
@@ -2155,6 +2391,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/p/rational-optimist-awards-part-2",
+    thesisCluster: "inspection-quality-robots",
+    techApproach: "Autonomous robot vacuum using AI computer vision mapping and navigation for efficient, intelligent home cleaning",
     tags: ["robot vacuum", "AI", "consumer"]
   },
   {
@@ -2170,6 +2408,8 @@ const COMPANIES = [
     totalRaised: "$2.3B+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "logistics-supply-chain",
+    techApproach: "Technology-driven freight forwarding using ML to optimize shipping routes, customs clearance, and supply chain visibility",
     tags: ["logistics", "freight", "trade"]
   },
   {
@@ -2185,6 +2425,8 @@ const COMPANIES = [
     totalRaised: "$22M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "robotics-agriculture",
+    techApproach: "Robotic fish processing using computer vision and precision robotics to automate ikejime technique for premium quality seafood",
     tags: ["robotics", "fish processing", "food tech"]
   },
   {
@@ -2200,6 +2442,8 @@ const COMPANIES = [
     totalRaised: "$24M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "consumer-hardware",
+    techApproach: "Modern portable desalination and water filtration using advanced membrane technology, designed by ex-SpaceX engineers",
     tags: ["desalination", "water", "filtration"]
   },
   {
@@ -2215,6 +2459,8 @@ const COMPANIES = [
     totalRaised: "$5M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "consumer-hardware",
+    techApproach: "Underground magnetic field detection for utility locating using novel magnetometer arrays to map buried infrastructure",
     tags: ["utility locating", "underground", "mapping"]
   },
 
@@ -2232,6 +2478,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-ground-vehicles",
+    techApproach: "AI-powered autonomous ground vehicles for military logistics in GPS-denied, contested environments using perception AI",
     tags: ["autonomous vehicles", "military", "defense"]
   },
   {
@@ -2247,6 +2495,8 @@ const COMPANIES = [
     totalRaised: "$70M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Open-source PX4 drone operating system providing interoperable autonomy software across allied defense drone platforms",
     tags: ["drone software", "open-source", "defense"]
   },
   {
@@ -2262,6 +2512,8 @@ const COMPANIES = [
     totalRaised: "$25M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "defense-munitions-energetics",
+    techApproach: "3D-printed hybrid rocket engines with customizable thrust profiles for missile and launch vehicle applications",
     tags: ["rocket engines", "3D printing", "propulsion", "defense"]
   },
   {
@@ -2277,6 +2529,8 @@ const COMPANIES = [
     totalRaised: "$1.6B+",
     valuation: "$29B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "AI data infrastructure providing high-quality labeled training data and evaluation tools for defense and enterprise ML models",
     tags: ["AI data", "training data", "defense", "ML"],
     insight: "Scale AI is the invisible infrastructure layer powering every major AI model. Their defense pivot with Scale Donovan is positioning them as the 'Palantir for AI data.' At $29B, they're priced for category dominance.",
     signal: "hot",
@@ -2297,6 +2551,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-defense-intelligence",
+    techApproach: "Farsight AI-powered battlefield intelligence fusing multi-sensor data into real-time tactical situational awareness displays",
     tags: ["battlefield AI", "intelligence", "defense"]
   },
   {
@@ -2312,6 +2568,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Continuous OT/ICS cyber threat detection using ML to monitor industrial control systems in critical infrastructure",
     tags: ["cybersecurity", "critical infrastructure", "OT security"]
   },
   {
@@ -2327,6 +2585,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-counter-drone",
+    techApproach: "Counter-drone RF detection and mitigation using software-defined radio to detect, track, and neutralize rogue drones",
     tags: ["counter-drone", "RF detection", "defense"]
   },
   {
@@ -2342,6 +2602,8 @@ const COMPANIES = [
     totalRaised: "$15M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "AI-driven real-time RF sensing for electronic warfare, mapping the electromagnetic spectrum for signal detection and jamming",
     tags: ["electronic warfare", "RF sensing", "AI"]
   },
   {
@@ -2357,6 +2619,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-counter-drone",
+    techApproach: "Laser-based point-defense systems using directed energy for counter-drone and counter-missile intercept at speed of light",
     tags: ["directed energy", "laser", "counter-drone", "defense"]
   },
   {
@@ -2372,6 +2636,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Micro-drone swarm technology for indoor and GPS-denied operations using autonomous coordination in complex environments",
     tags: ["micro-drones", "swarm", "autonomous", "defense"]
   },
   {
@@ -2387,6 +2653,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "defense-munitions-energetics",
+    techApproach: "Software-defined munitions manufacturing automating production at scale to rebuild American ammunition industrial capacity",
     tags: ["munitions", "manufacturing", "defense"]
   },
   {
@@ -2402,6 +2670,8 @@ const COMPANIES = [
     totalRaised: "$5M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Next-generation night vision and low-light imaging using advanced sensor technology for enhanced battlefield visibility",
     tags: ["night vision", "sensors", "imaging", "defense"]
   },
   {
@@ -2417,6 +2687,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-counter-drone",
+    techApproach: "AI-powered auto-aiming counter-drone systems for infantry soldiers, enabling precise drone engagement with standard weapons",
     tags: ["counter-drone", "infantry", "AI", "defense"]
   },
   {
@@ -2432,6 +2704,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-defense-intelligence",
+    techApproach: "TyrOS military logistics AI operating system for asset tracking, personnel management, and operational planning",
     tags: ["logistics", "AI", "defense"]
   },
   {
@@ -2447,6 +2721,8 @@ const COMPANIES = [
     totalRaised: "$15M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Scalable autonomous products for defense and industrial applications through OEM partnerships and modular platforms",
     tags: ["autonomous", "modular", "defense"]
   },
   {
@@ -2462,6 +2738,8 @@ const COMPANIES = [
     totalRaised: "$35M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Biometric smart firearm technology using fingerprint and facial recognition to prevent unauthorized weapon discharge",
     tags: ["smart firearms", "biometric", "safety"]
   },
   {
@@ -2477,6 +2755,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Mission-adaptable autonomous aerial vehicles at one-fifth traditional cost using modular payloads and AI autonomy",
     tags: ["drones", "autonomous", "low-cost", "defense"]
   },
 
@@ -2494,6 +2774,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-ground-comms",
+    techApproach: "Multi-domain mesh networking using Tightbeam laser communications and Spacetime orchestration for contested environment connectivity",
     tags: ["mesh networking", "satellite comms", "defense"]
   },
   {
@@ -2509,6 +2791,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-ground-comms",
+    techApproach: "End-to-end RF technology for satellite communications including antennas, modems, and ground systems for real-time data links",
     tags: ["RF", "satellite comms", "aerospace"]
   },
   {
@@ -2524,6 +2808,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-debris-servicing",
+    techApproach: "Space debris removal and orbital awareness using autonomous spacecraft for proximity operations and object characterization",
     tags: ["space debris", "orbital servicing", "space"]
   },
   {
@@ -2539,6 +2825,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "High-resolution SAR satellite imaging cutting through clouds and darkness for persistent all-weather Earth observation",
     tags: ["SAR", "satellite imaging", "intelligence"]
   },
   {
@@ -2554,6 +2842,8 @@ const COMPANIES = [
     totalRaised: "$130M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "Very low Earth orbit satellites delivering unprecedented 10cm-resolution optical imagery from extremely close orbital altitudes",
     tags: ["VLEO", "satellite imagery", "space"]
   },
   {
@@ -2569,6 +2859,8 @@ const COMPANIES = [
     totalRaised: "$10B+",
     valuation: "$30B+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-launch-large",
+    techApproach: "New Shepard suborbital and New Glenn orbital launch vehicles plus Blue Moon lunar lander for cislunar transportation",
     tags: ["rockets", "launch", "lunar lander", "space"]
   },
   {
@@ -2584,6 +2876,8 @@ const COMPANIES = [
     totalRaised: "$500M+",
     valuation: "$2.5B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-habitats-manufacturing",
+    techApproach: "Commercial space station development with attached ISS modules transitioning to free-flying station for research and manufacturing",
     tags: ["space station", "commercial space", "NASA"]
   },
   {
@@ -2599,6 +2893,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-lunar-planetary",
+    techApproach: "FLEX modular lunar rover designed for diverse payload transport and operations on the Moon\'s surface",
     tags: ["lunar rover", "Moon", "space"]
   },
   {
@@ -2614,6 +2910,8 @@ const COMPANIES = [
     totalRaised: "$15M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "Satellite constellation for 3D mapping of the entire Earth from space using stereoscopic imaging from multiple angles",
     tags: ["3D mapping", "radar", "satellite"]
   },
   {
@@ -2629,6 +2927,8 @@ const COMPANIES = [
     totalRaised: "$55M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "data-center-infrastructure",
+    techApproach: "Satellite-connected, rapidly deployable AI data centers for off-grid locations using modular, containerized computing infrastructure",
     tags: ["edge computing", "satellite", "data centers"]
   },
   {
@@ -2644,6 +2944,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-solar-power",
+    techApproach: "Space-based solar power using LEO satellites with infrared laser power beaming to ground receivers for 24/7 clean energy",
     tags: ["space solar", "power beaming", "energy"]
   },
 
@@ -2661,6 +2963,8 @@ const COMPANIES = [
     totalRaised: "$700M+",
     valuation: "$15B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-autonomous-driving",
+    techApproach: "Simulation-first platform generating synthetic driving scenarios at scale for autonomous vehicle development and validation",
     tags: ["simulation", "autonomous", "AI"],
     insight: "Applied Intuition is becoming the default simulation platform for every company building autonomous systems. At $15B valuation, they're one of the most valuable enterprise AI companies. Defense applications are accelerating growth.",
     signal: "hot",
@@ -2687,6 +2991,8 @@ const COMPANIES = [
     scores: { team: 10, traction: 10, techMoat: 9, market: 10, momentum: 10 },
     competitors: ["OpenAI", "Mistral AI", "Google DeepMind"],
     recentEvent: { type: "funding", text: "Raising $10B at $350B valuation — $183B Series F closed Sep 2025", date: "2026-01" },
+    thesisCluster: "ai-foundation-models",
+    techApproach: "Constitutional AI approach training large language models with built-in safety constraints through RLHF and interpretability research",
     addedDate: "2025-01"
   },
   {
@@ -2708,6 +3014,8 @@ const COMPANIES = [
     scores: { team: 9, traction: 10, techMoat: 8, market: 10, momentum: 10 },
     competitors: ["Cognition", "GitHub Copilot", "Windsurf"],
     recentEvent: { type: "funding", text: "$2.3B Series D at $29.3B valuation — $1B+ ARR", date: "2025-11" },
+    thesisCluster: "ai-code-generation",
+    techApproach: "Cursor AI-powered code editor using frontier models for inline code generation, understanding, and refactoring in real-time",
     addedDate: "2025-01"
   },
   {
@@ -2723,6 +3031,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-weather-earth",
+    techApproach: "AI decision intelligence optimizing complex operations and logistics through real-time data synthesis and predictive modeling",
     tags: ["AI", "logistics", "aviation"]
   },
   {
@@ -2738,6 +3048,8 @@ const COMPANIES = [
     totalRaised: "$15M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-weather-earth",
+    techApproach: "Physics-informed AI weather models delivering 50% more accurate forecasts than traditional numerical weather prediction",
     tags: ["AI", "weather forecasting", "meteorology"]
   },
   {
@@ -2753,6 +3065,8 @@ const COMPANIES = [
     totalRaised: "$15M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-weather-earth",
+    techApproach: "AI copilot for commercial aviation providing real-time flight optimization, safety monitoring, and autonomous flight assistance",
     tags: ["aviation AI", "autonomous flight", "safety"]
   },
 
@@ -2770,6 +3084,8 @@ const COMPANIES = [
     totalRaised: "$179M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "humanoid-robotics",
+    techApproach: "Digit bipedal robot designed for warehouse logistics, first humanoid deployed commercially for repetitive material handling tasks",
     tags: ["humanoid robot", "warehouse", "logistics"]
   },
   {
@@ -2785,6 +3101,8 @@ const COMPANIES = [
     totalRaised: "$75M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "humanoid-robotics",
+    techApproach: "Apollo general-purpose humanoid robot for manufacturing and logistics using modular actuators and whole-body AI control",
     tags: ["humanoid robot", "manufacturing", "Mercedes"]
   },
   {
@@ -2800,6 +3118,8 @@ const COMPANIES = [
     totalRaised: "$125M+",
     valuation: "$800M+",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "humanoid-robotics",
+    techApproach: "NEO humanoid robot for home and commercial use, backed by OpenAI, using learned behaviors from simulation and teleoperation",
     tags: ["humanoid robot", "AI", "home robotics"]
   },
   {
@@ -2815,6 +3135,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "manufacturing-reshoring",
+    techApproach: "Software-defined manufacturing bringing AI intelligence to factory robot cells through automated vision inspection and assembly",
     tags: ["factory automation", "software manufacturing", "AI"]
   },
   {
@@ -2830,6 +3152,8 @@ const COMPANIES = [
     totalRaised: "$25M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "manufacturing-reshoring",
+    techApproach: "AI-powered tool and die manufacturing modernizing the most critical bottleneck in American industrial production",
     tags: ["tool and die", "AI manufacturing", "precision"]
   },
   {
@@ -2845,6 +3169,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "manufacturing-reshoring",
+    techApproach: "Vertically integrated American manufacturing revival combining AI, automation, and reshoring of critical production capabilities",
     tags: ["reshoring", "manufacturing", "defense"]
   },
   {
@@ -2860,6 +3186,8 @@ const COMPANIES = [
     totalRaised: "$180M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "AI-powered recycling robots using computer vision to sort waste materials at superhuman speed and accuracy for circular economy",
     tags: ["recycling", "AI", "robotics", "waste"]
   },
   {
@@ -2875,6 +3203,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "additive-manufacturing",
+    techApproach: "AI-automated circuit board design reducing PCB development time from weeks to hours through generative layout optimization",
     tags: ["PCB design", "AI automation", "hardware"]
   },
   {
@@ -2890,6 +3220,8 @@ const COMPANIES = [
     totalRaised: "$15M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "additive-manufacturing",
+    techApproach: "Fully automated PCB layout using AI constraint satisfaction to produce optimal circuit board designs without human engineers",
     tags: ["PCB layout", "AI automation", "hardware"]
   },
 
@@ -2907,6 +3239,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "brain-computer-interface",
+    techApproach: "Brain-computer interfaces and organ preservation using advanced neural recording and optogenetic stimulation technologies",
     tags: ["BCI", "organ preservation", "neuroscience"]
   },
   {
@@ -2922,6 +3256,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "medical-devices-surgical",
+    techApproach: "Autonomous surgical robots using AI vision and machine learning to perform precise procedures with reduced human intervention",
     tags: ["surgical robots", "AI", "healthcare"]
   },
 
@@ -2939,6 +3275,8 @@ const COMPANIES = [
     totalRaised: "$400M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "green-steel-metals",
+    techApproach: "Biomanufactured chemicals replacing petroleum feedstocks using engineered enzymes to produce hydrogen peroxide and organic acids",
     tags: ["biomanufacturing", "green chemistry", "industrial"]
   },
   {
@@ -2954,6 +3292,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "data-center-infrastructure",
+    techApproach: "Off-grid modular energy systems combining solar thermal storage with natural gas for AI data center power independence",
     tags: ["solar thermal", "data centers", "off-grid"]
   },
   {
@@ -2969,6 +3309,8 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "energy-storage-thermal-gravity",
+    techApproach: "Thermal energy storage in solid carbon blocks heated to 2400C by renewable electricity, delivering industrial heat on demand",
     tags: ["thermal storage", "industrial heat", "energy"]
   },
   {
@@ -2984,6 +3326,8 @@ const COMPANIES = [
     totalRaised: "$800M+",
     valuation: "$3.5B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "battery-advanced-chemistry",
+    techApproach: "Iron-air batteries enabling 100-hour energy storage using reversible rusting of iron pellets for multi-day grid storage",
     tags: ["iron-air battery", "grid storage", "100-hour"]
   },
   {
@@ -2999,6 +3343,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "cement-green",
+    techApproach: "Carbon-negative cement using calcium silicate rock instead of limestone, eliminating the 8% of global CO2 from cement production",
     tags: ["green cement", "decarbonization", "construction"]
   },
   {
@@ -3014,6 +3360,8 @@ const COMPANIES = [
     totalRaised: "$350M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "green-steel-metals",
+    techApproach: "Molten oxide electrolysis producing green steel using electricity instead of coal, eliminating carbon from steelmaking entirely",
     tags: ["green steel", "electrolysis", "decarbonization"]
   },
   {
@@ -3029,6 +3377,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "fusion-alternative",
+    techApproach: "Compact modular micro-fusion using magnetized target approach in devices small enough to power individual buildings or vehicles",
     tags: ["fusion", "compact", "modular"]
   },
   {
@@ -3044,6 +3394,8 @@ const COMPANIES = [
     totalRaised: "$15M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "geothermal-next-gen",
+    techApproach: "Next-gen geothermal HVAC using advanced underground heat exchange for building heating and cooling without fossil fuels",
     tags: ["geothermal", "HVAC", "heating cooling"]
   },
   {
@@ -3059,6 +3411,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "carbon-capture-utilization",
+    techApproach: "Biomass carbon removal converting agricultural waste into durable carbon materials while permanently sequestering CO2",
     tags: ["carbon removal", "biomass", "sequestration"]
   },
   {
@@ -3074,6 +3428,8 @@ const COMPANIES = [
     totalRaised: "$5M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "geothermal-next-gen",
+    techApproach: "Seafloor geothermal energy extraction tapping vast thermal resources beneath the ocean floor for baseload clean power",
     tags: ["geothermal", "ocean", "seafloor"]
   },
   {
@@ -3089,6 +3445,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Encrypted resilient mobile networks providing secure communications for defense and civilian use against interception",
     tags: ["encrypted comms", "mobile network", "security"]
   },
   {
@@ -3104,6 +3462,8 @@ const COMPANIES = [
     totalRaised: "$25M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "green-steel-metals",
+    techApproach: "Electrochemical refining for critical minerals producing battery-grade lithium, nickel, and cobalt without traditional acid leaching",
     tags: ["critical minerals", "lithium", "electrochemistry"]
   },
 
@@ -3121,6 +3481,8 @@ const COMPANIES = [
     totalRaised: "$60M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-delivery-logistics",
+    techApproach: "Drone delivery service operating 250,000+ commercial deliveries in Ireland using autonomous last-mile aerial delivery",
     tags: ["delivery drones", "commercial", "logistics"]
   },
   {
@@ -3136,6 +3498,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-delivery-logistics",
+    techApproach: "Autonomous wildfire defense systems deploying drones and sensors for early detection, containment, and suppression coordination",
     tags: ["wildfire", "autonomous", "defense"]
   },
   {
@@ -3151,6 +3515,8 @@ const COMPANIES = [
     totalRaised: "$15M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "inspection-quality-robots",
+    techApproach: "Autonomous drone-in-a-box security systems providing continuous perimeter surveillance without human pilot operators",
     tags: ["security drones", "autonomous", "surveillance"]
   },
 
@@ -3168,6 +3534,8 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "quantum-neutral-atom",
+    techApproach: "Neutral atom quantum computing trapping individual atoms in optical tweezers, demonstrated 1,000+ qubit arrays",
     tags: ["quantum computing", "neutral atoms", "qubits"]
   },
   {
@@ -3183,6 +3551,8 @@ const COMPANIES = [
     totalRaised: "$15M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "chiplet-packaging-foundry",
+    techApproach: "Rapid-prototyping semiconductor fab reducing chip development from months to days for defense and specialty applications",
     tags: ["semiconductor fab", "rapid prototyping", "chips"]
   },
   {
@@ -3198,6 +3568,8 @@ const COMPANIES = [
     totalRaised: "$25M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "semiconductor-advanced-materials",
+    techApproach: "Atomic-scale MEMS building programmable matter and nanoelectromechanical systems at the level of individual atoms",
     tags: ["MEMS", "nanoscale", "atomic precision"]
   },
 
@@ -3215,6 +3587,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-maritime",
+    techApproach: "Autonomous underwater vehicles using advanced sonar for high-resolution seafloor mapping — building the Google Maps of the ocean",
     tags: ["ocean mapping", "AUV", "seafloor"]
   },
   {
@@ -3230,6 +3604,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "autonomy-maritime",
+    techApproach: "Autonomous underwater vehicles for defense and commercial applications with emphasis on mass-producible AUV platforms",
     tags: ["AUV", "underwater", "defense"]
   },
   {
@@ -3245,6 +3621,8 @@ const COMPANIES = [
     totalRaised: "$5M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "maritime-electric-transport",
+    techApproach: "Autonomous wind-powered cargo vessels using modern wing sail technology for zero-emission trans-oceanic freight shipping",
     tags: ["autonomous ships", "wind-powered", "cargo"]
   },
 
@@ -3262,6 +3640,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "quantum-sensors-software",
+    techApproach: "Silicon-based quantum computing making qubits on standard CMOS chips for compatibility with existing semiconductor manufacturing",
     tags: ["quantum computing", "silicon", "semiconductor"]
   },
 
@@ -3279,6 +3659,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-saas-enterprise",
+    techApproach: "AI-powered energy grid forecasting using ML to predict electricity demand, generation, and pricing in real-time",
     tags: ["grid analytics", "AI", "energy forecasting"]
   },
   {
@@ -3294,6 +3676,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "battery-infrastructure",
+    techApproach: "Modular battery swapping for EVs replacing entire battery packs in under 5 minutes using standardized swappable modules",
     tags: ["battery swap", "EV", "charging"]
   },
   {
@@ -3309,6 +3693,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "logistics-supply-chain",
+    techApproach: "Digital infrastructure development platform automating permitting, project management, and construction coordination",
     tags: ["construction tech", "infrastructure", "software"]
   },
   {
@@ -3324,6 +3710,8 @@ const COMPANIES = [
     totalRaised: "$5M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "robotics-construction-mining",
+    techApproach: "Automated drill rigs for infrastructure and mining bringing autonomous precision drilling to reduce cost and improve safety",
     tags: ["autonomous drilling", "mining", "infrastructure"]
   },
   {
@@ -3339,6 +3727,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "evtol-air-taxi",
+    techApproach: "Flight software development platform accelerating certification and deployment of autonomous aircraft software systems",
     tags: ["flight software", "aerospace", "certification"]
   },
   {
@@ -3354,6 +3744,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "logistics-supply-chain",
+    techApproach: "AI-powered supply chain automation for defense logistics optimizing procurement, inventory, and distribution workflows",
     tags: ["supply chain", "AI", "logistics"]
   },
 
@@ -3371,6 +3763,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "consumer-hardware",
+    techApproach: "E-ink and LivePaper display computers designed around human circadian biology, reducing eye strain and improving focus",
     tags: ["e-ink", "humane tech", "computers"]
   },
   {
@@ -3386,6 +3780,8 @@ const COMPANIES = [
     totalRaised: "$25M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "consumer-hardware",
+    techApproach: "AI-powered tutoring platform using game-based learning and personalized AI instruction for STEM education",
     tags: ["AI tutoring", "education", "kids"]
   },
   {
@@ -3401,6 +3797,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "brain-computer-interface",
+    techApproach: "Mind-controlled prosthetic arms using neural interfaces to enable natural, intuitive control of artificial limbs",
     tags: ["prosthetics", "bionics", "neural interface"]
   },
 
@@ -3427,6 +3825,8 @@ const COMPANIES = [
     totalRaised: "$750M+",
     valuation: "$5.5B",
     rosLink: "",
+    thesisCluster: "ai-defense-intelligence",
+    techApproach: "European defense AI building ML-powered military decision systems for NATO allies with focus on data sovereignty",
     tags: ["defense AI", "NATO", "military intelligence"]
   },
   {
@@ -3442,6 +3842,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "autonomy-maritime",
+    techApproach: "Autonomous wind and solar-powered ocean drones for persistent maritime ISR covering thousands of ocean square miles",
     tags: ["autonomous vessels", "maritime", "ISR", "ocean data"]
   },
   {
@@ -3457,6 +3859,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "autonomy-ground-vehicles",
+    techApproach: "Autonomous off-road ground vehicle technology for military resupply using terrain-adaptive perception and planning AI",
     tags: ["autonomous ground vehicles", "military logistics", "defense"]
   },
   {
@@ -3472,7 +3876,9 @@ const COMPANIES = [
     totalRaised: "$90M+",
     valuation: "",
     rosLink: "",
-    tags: ["defense software", "DoD", "platform"]
+        thesisCluster: "ai-defense-intelligence",
+    techApproach: "Game Warden platform accelerating deployment of commercial software into DoD classified environments",
+tags: ["defense software", "DoD", "platform"]
   },
   {
     name: "Rebellion Defense",
@@ -3487,6 +3893,8 @@ const COMPANIES = [
     totalRaised: "$250M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "ai-defense-intelligence",
+    techApproach: "AI-powered decision support software for military planning using ML to process intelligence and accelerate OODA loops",
     tags: ["military AI", "defense software", "intelligence"]
   },
   {
@@ -3502,6 +3910,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "ai-defense-intelligence",
+    techApproach: "NLP platform for intelligence analysis processing massive text volumes in 100+ languages for real-time threat assessment",
     tags: ["NLP", "intelligence analysis", "defense AI"]
   },
   {
@@ -3517,6 +3927,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "$1.5B",
     rosLink: "",
+    thesisCluster: "space-ground-comms",
+    techApproach: "Space domain awareness satellites and software for tracking, characterizing, and predicting orbital object behavior",
     tags: ["space domain awareness", "defense", "satellites"]
   },
   {
@@ -3532,6 +3944,8 @@ const COMPANIES = [
     totalRaised: "$250M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "ai-autonomous-driving",
+    techApproach: "Autonomous trucking technology for both commercial long-haul and military logistics using modular self-driving systems",
     tags: ["autonomous trucking", "military vehicles", "dual-use"]
   },
   {
@@ -3547,6 +3961,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "GPS-denied drone navigation using visual-inertial odometry and terrain matching for autonomous operations in contested airspace",
     tags: ["GPS-denied", "drone navigation", "defense"]
   },
   {
@@ -3562,6 +3978,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "autonomy-ground-vehicles",
+    techApproach: "Autonomous AI-powered robotic defense systems designed for perimeter security and asset protection in military contexts",
     tags: ["counter-drone", "autonomous defense", "robotics"]
   },
   {
@@ -3577,6 +3995,8 @@ const COMPANIES = [
     totalRaised: "$500M+",
     valuation: "$7.5B",
     rosLink: "",
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "AI-powered license plate readers and surveillance camera network using edge ML for public safety and law enforcement",
     tags: ["public safety", "AI cameras", "law enforcement"]
   },
   {
@@ -3592,6 +4012,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Next-generation autonomous aerial defense drones optimized for contested environments and rapid deployability",
     tags: ["defense drones", "military", "autonomous"]
   },
   {
@@ -3607,6 +4029,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "medical-devices-surgical",
+    techApproach: "Battlefield biotech developing rapid-deployment medical interventions and trauma treatment technologies for military medicine",
     tags: ["military biotech", "defense medicine", "battlefield"]
   },
 
@@ -3625,6 +4049,8 @@ const COMPANIES = [
     totalRaised: "$600M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "nuclear-smr-advanced",
+    techApproach: "VOYGR light water SMR — first SMR design to receive NRC certification, scaling proven PWR technology to smaller modules",
     tags: ["SMR", "nuclear", "NRC approved", "clean energy"]
   },
   {
@@ -3640,6 +4066,8 @@ const COMPANIES = [
     totalRaised: "$330M+",
     valuation: "$1B",
     rosLink: "",
+    thesisCluster: "fusion-alternative",
+    techApproach: "Sheared-flow-stabilized Z-pinch fusion requiring no expensive superconducting magnets or lasers for simpler plasma containment",
     tags: ["fusion", "Z-pinch", "clean energy"]
   },
   {
@@ -3655,6 +4083,8 @@ const COMPANIES = [
     totalRaised: "$500M+",
     valuation: "$425M",
     rosLink: "",
+    thesisCluster: "fusion-alternative",
+    techApproach: "Magnetized target fusion using mechanical compression with liquid metal pistons to squeeze plasma to fusion conditions",
     tags: ["fusion", "magnetized target", "clean energy"]
   },
   {
@@ -3670,7 +4100,9 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "$200M+",
     rosLink: "",
-    tags: ["fusion", "stellarator", "HTS magnets"]
+        thesisCluster: "fusion-magnetic-confinement",
+    techApproach: "Optimized stellarator fusion using 3D-printed HTS magnets and AI-designed plasma geometry for steady-state operation",
+tags: ["fusion", "stellarator", "HTS magnets"]
   },
   {
     name: "Focused Energy",
@@ -3685,7 +4117,9 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "",
-    tags: ["fusion", "inertial confinement", "laser"]
+        thesisCluster: "fusion-inertial-laser",
+    techApproach: "Laser-driven inertial fusion building on NIF ignition breakthrough with improved target physics and laser efficiency",
+tags: ["fusion", "inertial confinement", "laser"]
   },
   {
     name: "Nano Nuclear Energy",
@@ -3705,6 +4139,10 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Radiant", "Oklo"],
+    thesisCluster: "fusion-magnetic-confinement",
+    techApproach: "Optimized stellarator fusion using advanced 3D-printed HTS magnets and AI-designed plasma geometry for steady-state operation",
+    thesisCluster: "fusion-inertial-laser",
+    techApproach: "Laser-driven inertial fusion energy building on NIF ignition breakthrough with improved target physics and laser efficiency",
     addedDate: "2025-06"
   },
   {
@@ -3726,6 +4164,8 @@ const COMPANIES = [
     scores: { team: 9, traction: 5, techMoat: 9, market: 10, momentum: 9 },
     competitors: ["Helion", "Commonwealth Fusion Systems"],
     recentEvent: { type: "funding", text: "$900M Series A from General Catalyst", date: "2025-04" },
+    thesisCluster: "fusion-inertial-laser",
+    techApproach: "Next-gen inertial confinement fusion for commercial power using massive pulsed power and advanced target fabrication",
     addedDate: "2025-06"
   },
   {
@@ -3741,6 +4181,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "fusion-alternative",
+    techApproach: "Pulsed power devices for nuclear effects testing — first fusion company to sell a product generating fusion revenue",
     tags: ["fusion", "pulsed power", "defense"]
   },
 
@@ -3758,6 +4200,8 @@ const COMPANIES = [
     totalRaised: "$175M+",
     valuation: "$1B",
     rosLink: "",
+    thesisCluster: "space-launch-large",
+    techApproach: "Fully reusable rocket with revolutionary reusable second stage using differential throttling ring of engines for propulsive landing",
     tags: ["launch", "reusable rocket", "space"]
   },
   {
@@ -3773,6 +4217,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "SAR satellite constellation providing sub-0.5m resolution all-weather imaging with rapid revisit for defense and commercial clients",
     tags: ["SAR", "satellites", "Earth observation"]
   },
   {
@@ -3788,6 +4234,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "Multi-sensor climate monitoring satellites combining multiple instruments per spacecraft for comprehensive environmental data collection",
     tags: ["climate satellites", "weather", "Earth observation"]
   },
   {
@@ -3803,6 +4251,8 @@ const COMPANIES = [
     totalRaised: "$700M+",
     valuation: "$7B+",
     rosLink: "",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "World\'s largest Earth-imaging satellite fleet capturing the entire planet daily at 3m resolution for change detection",
     tags: ["Earth observation", "satellites", "geospatial"]
   },
   {
@@ -3819,6 +4269,8 @@ const COMPANIES = [
     totalRaised: "$400M+",
     valuation: "$900M",
     rosLink: "",
+    thesisCluster: "space-debris-servicing",
+    techApproach: "Space debris removal using magnetic capture docking for proximity operations and end-of-life satellite deorbiting services",
     tags: ["space debris", "on-orbit servicing", "sustainability"]
   },
   {
@@ -3834,6 +4286,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-habitats-manufacturing",
+    techApproach: "Reusable return capsules for on-demand cargo return from orbit, enabling space manufacturing and microgravity experiment retrieval",
     tags: ["space reentry", "cargo return", "manufacturing"]
   },
   {
@@ -3849,6 +4303,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-propulsion-engines",
+    techApproach: "Electromagnetic launch cannon using pressurized air and linear motor to achieve orbit-capable velocities from ground launch",
     tags: ["launch", "gun launch", "space cannon"]
   },
   {
@@ -3864,6 +4320,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-propulsion-engines",
+    techApproach: "Advanced space propulsion systems and orbital maneuvering vehicles for flexible in-space transportation and mission profiles",
     tags: ["space propulsion", "orbital maneuvering", "satellites"]
   },
   {
@@ -3879,6 +4337,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-propulsion-engines",
+    techApproach: "Modular rocket engines using additive manufacturing for scalable propulsion systems serving both commercial and defense customers",
     tags: ["rocket engines", "propulsion", "defense"]
   },
   {
@@ -3894,6 +4354,8 @@ const COMPANIES = [
     totalRaised: "$1B+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-ground-comms",
+    techApproach: "Large BlueBird satellites providing broadband directly to unmodified smartphones without requiring specialized ground terminals",
     tags: ["direct-to-cell", "satellites", "broadband"]
   },
 
@@ -3911,6 +4373,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "supersonic-hypersonic-transport",
+    techApproach: "Low-boom supersonic airliner designed to minimize sonic boom intensity for overland supersonic flight using shaped fuselage",
     tags: ["supersonic", "low-boom", "Air Force One"]
   },
   {
@@ -3926,6 +4390,8 @@ const COMPANIES = [
     totalRaised: "$85M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "supersonic-hypersonic-transport",
+    techApproach: "Hydrogen-powered hypersonic aircraft using liquid hydrogen fuel for cargo transport at Mach 5+ speeds with zero carbon emissions",
     tags: ["hypersonic", "hydrogen", "cargo transport"]
   },
   {
@@ -3941,6 +4407,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "supersonic-hypersonic-transport",
+    techApproach: "Next-generation supersonic flight technology for commercial and defense applications using advanced aerodynamic design",
     tags: ["supersonic", "aviation"]
   },
 
@@ -3958,7 +4426,9 @@ const COMPANIES = [
     totalRaised: "$40B+",
     valuation: "$300B+",
     rosLink: "",
-    tags: ["AGI", "LLM", "ChatGPT", "frontier AI"],
+        thesisCluster: "ai-foundation-models",
+    techApproach: "Frontier AI lab building GPT-series models through massive-scale pretraining and RLHF for general intelligence",
+tags: ["AGI", "LLM", "ChatGPT", "frontier AI"],
     insight: "OpenAI's $300B+ valuation and push toward $830B make it the most valuable private company in history. The SoftBank-led $40B round and upcoming $100B mega-round signal that AGI development is now a nation-state-level capital race.",
     signal: "established",
     scores: { team: 10, traction: 10, techMoat: 9, market: 10, momentum: 10 },
@@ -3969,6 +4439,8 @@ const COMPANIES = [
       risks: ["Open-source competition", "Compute cost scaling", "Regulatory risk", "Talent retention"]
     },
     recentEvent: { type: "funding", text: "Targeting $100B raise at $830B valuation — $40B closed at $300B (Mar 2025)", date: "2026-01" },
+    thesisCluster: "ai-foundation-models",
+    techApproach: "Frontier AI lab building GPT-series models through massive-scale pretraining and RLHF alignment for general intelligence",
     addedDate: "2025-01"
   },
   {
@@ -3984,7 +4456,9 @@ const COMPANIES = [
     totalRaised: "$1B+",
     valuation: "$14B",
     rosLink: "",
-    tags: ["LLM", "open-source AI", "frontier AI"]
+        thesisCluster: "ai-foundation-models",
+    techApproach: "European frontier AI building efficient open-weight LLMs competitive with GPT-4 at smaller model sizes",
+tags: ["LLM", "open-source AI", "frontier AI"]
   },
   {
     name: "Groq",
@@ -4005,6 +4479,10 @@ const COMPANIES = [
     scores: { team: 8, traction: 7, techMoat: 9, market: 9, momentum: 8 },
     competitors: ["Cerebras"],
     recentEvent: { type: "funding", text: "Series D at $2.8B valuation for LPU production", date: "2025-08" },
+    thesisCluster: "ai-foundation-models",
+    techApproach: "European frontier AI lab building efficient open-weight and commercial LLMs competitive with GPT-4 at smaller model sizes",
+    thesisCluster: "ai-hardware-inference",
+    techApproach: "Custom LPU (Language Processing Unit) silicon architecture delivering 10x inference speed through deterministic, sequential processing",
     addedDate: "2025-01"
   },
   {
@@ -4027,6 +4505,8 @@ const COMPANIES = [
     competitors: ["Physical Intelligence", "Figure AI", "1X"],
     recentEvent: { type: "funding", text: "$1.4B raise at $14B+ valuation — Series C for robot foundation model", date: "2026-01" },
     tbpnMentioned: true,
+    thesisCluster: "ai-robotics-embodied",
+    techApproach: "Universal robot foundation model trained on diverse embodiments enabling zero-shot transfer of skills across different robot types",
     addedDate: "2025-01"
   },
   {
@@ -4048,6 +4528,8 @@ const COMPANIES = [
     scores: { team: 9, traction: 9, techMoat: 8, market: 10, momentum: 10 },
     competitors: [],
     recentEvent: { type: "funding", text: "$1.375B Series E at $10B+ valuation from Valor, Mubadala, NVIDIA", date: "2025-10" },
+    thesisCluster: "data-center-infrastructure",
+    techApproach: "AI data centers powered by stranded natural gas and renewable energy, turning waste energy into compute capacity",
     addedDate: "2025-01"
   },
   {
@@ -4070,6 +4552,8 @@ const COMPANIES = [
     competitors: [],
     recentEvent: { type: "funding", text: "Series C at $11B valuation", date: "2025-11" },
     tbpnMentioned: true,
+    thesisCluster: "ai-generative-media",
+    techApproach: "Neural voice synthesis using proprietary TTS models for realistic voice cloning, dubbing, and audio generation in 29 languages",
     addedDate: "2025-01"
   },
   {
@@ -4085,6 +4569,8 @@ const COMPANIES = [
     totalRaised: "$120M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "ai-clinical-health",
+    techApproach: "Safety-focused LLM specifically trained on medical data with built-in clinical guardrails for healthcare applications",
     tags: ["healthcare AI", "LLM", "patient care"]
   },
 
@@ -4102,7 +4588,9 @@ const COMPANIES = [
     totalRaised: "$222M+",
     valuation: "",
     rosLink: "",
-    tags: ["warehouse robotics", "AI manipulation", "foundation model"]
+        thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "RFM-1 robotic foundation model enabling AI-powered picking with generalized object manipulation in warehouses",
+tags: ["warehouse robotics", "AI manipulation", "foundation model"]
   },
   {
     name: "Gecko Robotics",
@@ -4123,6 +4611,10 @@ const COMPANIES = [
     scores: { team: 8, traction: 8, techMoat: 8, market: 9, momentum: 8 },
     competitors: [],
     recentEvent: { type: "funding", text: "Series C for industrial inspection expansion", date: "2025-07" },
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "RFM-1 robotic foundation model enabling AI-powered picking and sorting with generalized object manipulation in warehouses",
+    thesisCluster: "inspection-quality-robots",
+    techApproach: "Wall-climbing inspection robots using magnetic adhesion and AI to assess infrastructure health in tanks, boilers, and vessels",
     addedDate: "2025-01"
   },
   {
@@ -4138,6 +4630,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "robotics-construction-mining",
+    techApproach: "Planetary-scale autonomous robotics for infrastructure development and environmental applications in extreme environments",
     tags: ["planetary-scale robotics", "infrastructure", "autonomous"]
   },
   {
@@ -4153,6 +4647,8 @@ const COMPANIES = [
     totalRaised: "$25M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "robotics-construction-mining",
+    techApproach: "Autonomous lawn care robots using AI navigation for commercial landscaping, replacing gas-powered equipment with electric autonomy",
     tags: ["lawn care", "autonomous robots", "landscaping"]
   },
   {
@@ -4168,6 +4664,8 @@ const COMPANIES = [
     totalRaised: "$85M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "robotics-agriculture",
+    techApproach: "LaserWeeder using computer vision and high-power lasers to eliminate weeds at 2 acres per hour without chemicals",
     tags: ["agriculture", "laser weeding", "autonomous"]
   },
   {
@@ -4183,6 +4681,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "construction-modular",
+    techApproach: "Autonomous construction robots operating in unstructured environments for automated building assembly and earth moving",
     tags: ["construction robots", "autonomous", "earthmoving"]
   },
 
@@ -4200,6 +4700,8 @@ const COMPANIES = [
     totalRaised: "$1B+",
     valuation: "$1.8B",
     rosLink: "",
+    thesisCluster: "ai-drug-discovery",
+    techApproach: "AI-driven drug discovery at massive scale combining automated wet labs, ML models, and biological data to find new therapeutics",
     tags: ["AI drug discovery", "biotech", "machine learning"]
   },
   {
@@ -4215,6 +4717,8 @@ const COMPANIES = [
     totalRaised: "$700M+",
     valuation: "$2.4B",
     rosLink: "",
+    thesisCluster: "ai-drug-discovery",
+    techApproach: "ML-driven drug discovery using large-scale cellular data, iPSC models, and machine learning to predict drug candidates in silico",
     tags: ["ML drug discovery", "biotech", "genomics"]
   },
   {
@@ -4230,6 +4734,8 @@ const COMPANIES = [
     totalRaised: "$700M+",
     valuation: "$3.3B",
     rosLink: "",
+    thesisCluster: "ai-drug-discovery",
+    techApproach: "Super-resolution microscopy tracking individual protein molecules in living cells to discover drugs based on real-time biology",
     tags: ["microscopy", "drug discovery", "protein dynamics"]
   },
   {
@@ -4245,6 +4751,8 @@ const COMPANIES = [
     totalRaised: "$1.1B+",
     valuation: "$6B+",
     rosLink: "",
+    thesisCluster: "ai-clinical-health",
+    techApproach: "AI platform analyzing clinical and molecular data to personalize cancer treatment through genomic sequencing and ML-driven insights",
     tags: ["precision medicine", "AI oncology", "diagnostics"]
   },
   {
@@ -4260,6 +4768,8 @@ const COMPANIES = [
     totalRaised: "$225M+",
     valuation: "$1.5B",
     rosLink: "",
+    thesisCluster: "biotech-novel-biology",
+    techApproach: "De-extinction using CRISPR gene editing to bring back woolly mammoth and Tasmanian tiger through elephant/marsupial genetic engineering",
     tags: ["de-extinction", "gene editing", "synthetic biology"]
   },
   {
@@ -4275,6 +4785,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "biotech-lab-automation",
+    techApproach: "Autonomous robotic systems that automate repetitive biological experiments 24/7 with ML-optimized experimental design",
     tags: ["lab automation", "robotics", "genomics"]
   },
   {
@@ -4290,6 +4802,8 @@ const COMPANIES = [
     totalRaised: "$212M+",
     valuation: "$850M",
     rosLink: "",
+    thesisCluster: "ai-clinical-health",
+    techApproach: "NLP system that transcribes doctor-patient conversations into structured clinical notes integrated directly into EHR systems",
     tags: ["clinical documentation", "AI healthcare", "NLP"]
   },
 
@@ -4307,6 +4821,8 @@ const COMPANIES = [
     totalRaised: "$150M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "carbon-capture-dac",
+    techApproach: "Enhanced limestone mineralization for DAC using accelerated natural weathering to capture CO2 at low cost and permanent storage",
     tags: ["direct air capture", "carbon removal", "climate"]
   },
   {
@@ -4322,6 +4838,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "carbon-capture-utilization",
+    techApproach: "CO2 electrolysis converting captured carbon into chemicals, fuels, and materials using renewable electricity and proprietary catalysts",
     tags: ["CO2 utilization", "electrochemistry", "climate"]
   },
   {
@@ -4337,6 +4855,8 @@ const COMPANIES = [
     totalRaised: "$400M+",
     valuation: "$2B+",
     rosLink: "",
+    thesisCluster: "ai-mineral-exploration",
+    techApproach: "AI-driven mineral exploration using ML on geological, geophysical, and geochemical data to discover critical EV battery metals",
     tags: ["AI mining", "critical minerals", "lithium"]
   },
   {
@@ -4352,6 +4872,8 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "cement-green",
+    techApproach: "Electrochemical cement manufacturing replacing 1450C kilns with room-temperature electrolysis for zero-carbon cement production",
     tags: ["green cement", "electrochemistry", "decarbonization"]
   },
   {
@@ -4367,6 +4889,8 @@ const COMPANIES = [
     totalRaised: "$1B+",
     valuation: "$6B+",
     rosLink: "",
+    thesisCluster: "battery-infrastructure",
+    techApproach: "Closed-loop battery recycling recovering 95%+ of lithium, cobalt, and nickel from used batteries and manufacturing scrap",
     tags: ["battery recycling", "lithium", "circular economy"]
   },
   {
@@ -4382,6 +4906,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "battery-advanced-chemistry",
+    techApproach: "Sodium-ion batteries using Prussian Blue electrode chemistry for ultra-fast charging data center and EV infrastructure applications",
     tags: ["sodium-ion batteries", "energy storage", "data centers"]
   },
   {
@@ -4397,6 +4923,8 @@ const COMPANIES = [
     totalRaised: "$400M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "battery-advanced-chemistry",
+    techApproach: "Metal-hydrogen batteries adapted from NASA fuel cell technology for stationary storage with 30-year lifespan and zero degradation",
     tags: ["metal-hydrogen batteries", "grid storage", "NASA tech"]
   },
   {
@@ -4412,6 +4940,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "carbon-capture-utilization",
+    techApproach: "Bio-oil carbon removal converting biomass into stable bio-oil injected deep underground for permanent geological carbon storage",
     tags: ["carbon removal", "bio-oil", "permanent storage"]
   },
   {
@@ -4427,6 +4957,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "battery-infrastructure",
+    techApproach: "Battery-integrated electric appliances delivering instant high power from built-in batteries to work on standard household circuits",
     tags: ["electrification", "battery", "kitchen appliance"]
   },
   {
@@ -4442,6 +4974,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "ai-mineral-exploration",
+    techApproach: "AI-powered mining operations combining software-enabled mine planning with autonomous extraction for critical mineral production",
     tags: ["mining", "critical minerals", "AI"]
   },
 
@@ -4460,6 +4994,8 @@ const COMPANIES = [
     totalRaised: "$2B+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "ai-autonomous-driving",
+    techApproach: "Self-driving truck technology using the Aurora Driver autonomous system for commercial long-haul freight transportation",
     tags: ["autonomous trucking", "self-driving", "logistics"]
   },
   {
@@ -4475,6 +5011,8 @@ const COMPANIES = [
     totalRaised: "$2.1B",
     valuation: "$8.6B",
     rosLink: "",
+    thesisCluster: "autonomy-delivery-logistics",
+    techApproach: "Small autonomous delivery pods designed exclusively for goods delivery, eliminating the need for human-occupied vehicle design",
     tags: ["autonomous delivery", "robotics", "last-mile"]
   },
   {
@@ -4490,7 +5028,9 @@ const COMPANIES = [
     totalRaised: "$1.5B+",
     valuation: "$5B",
     rosLink: "",
-    tags: ["eVTOL", "air taxi", "urban air mobility"]
+        thesisCluster: "evtol-air-taxi",
+    techApproach: "Midnight electric air taxi with 12 tilting propellers for urban air mobility, partnered with United Airlines",
+tags: ["eVTOL", "air taxi", "urban air mobility"]
   },
   {
     name: "Ridevalo",
@@ -4505,7 +5045,9 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
-    tags: ["hydrofoil", "water transport", "electric"]
+        thesisCluster: "maritime-electric-transport",
+    techApproach: "Hydrofoiling electric water transport reimagining mass transit on waterways using foil-borne electric vessels",
+tags: ["hydrofoil", "water transport", "electric"]
   },
   {
     name: "Flyby Robotics",
@@ -4524,6 +5066,10 @@ const COMPANIES = [
     signal: "stealth",
     scores: { team: 7, traction: 5, techMoat: 6, market: 7, momentum: 6 },
     competitors: ["Skydio", "Gecko Robotics", "Percepto"],
+    thesisCluster: "evtol-air-taxi",
+    techApproach: "Midnight electric air taxi with 12 tilting propellers for urban air mobility, partnered with United Airlines for commercial service",
+    thesisCluster: "maritime-electric-transport",
+    techApproach: "Hydrofoiling electric water transport reimagining mass transit on waterways using foil-borne electric vessels",
     addedDate: "2026-02"
   },
 
@@ -4541,6 +5087,8 @@ const COMPANIES = [
     totalRaised: "$700M+",
     valuation: "$3.1B",
     rosLink: "",
+    thesisCluster: "quantum-photonic",
+    techApproach: "Million-qubit photonic quantum computer using single-photon sources in standard silicon fabs for manufacturing scalability",
     tags: ["quantum computing", "photonic", "semiconductor"]
   },
   {
@@ -4556,6 +5104,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "data-center-infrastructure",
+    techApproach: "Semiconductor connectivity solutions (PCIe/CXL retimers, smart cable modules) enabling coherent data center fabric at scale",
     tags: ["connectivity", "data center", "semiconductor"]
   },
   {
@@ -4571,6 +5121,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "ai-hardware-inference",
+    techApproach: "Energy-efficient AI chips designed for massive-scale compute with novel architecture optimized for transformer workloads",
     tags: ["AI chips", "energy efficient", "semiconductor"]
   },
   {
@@ -4586,6 +5138,8 @@ const COMPANIES = [
     totalRaised: "$150M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "ai-hardware-inference",
+    techApproach: "In-memory computing chiplets performing AI inference directly in SRAM, eliminating data movement bottleneck between memory and compute",
     tags: ["in-memory computing", "AI inference", "chiplets"]
   },
 
@@ -4603,6 +5157,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-habitats-manufacturing",
+    techApproach: "Orbital warehouses and reentry capsules for space-based logistics, storing and delivering goods from orbit on demand",
     tags: ["space logistics", "orbital warehouse", "reentry"]
   },
 
@@ -4620,6 +5176,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "transport-electric-vehicles",
+    techApproach: "Next-gen electric vehicles with advanced autonomous capabilities combining EV powertrain with self-driving technology",
     tags: ["electric vehicles", "autonomous", "urban transport"]
   },
   {
@@ -4635,6 +5193,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "maritime-electric-transport",
+    techApproach: "Battery-electric container ships using modular swappable battery containers to convert fossil-fuel vessels to electric power",
     tags: ["electric ships", "maritime", "zero-emission"]
   },
 
@@ -4652,6 +5212,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "consumer-hardware",
+    techApproach: "Modular laptop designed for upgradeability and repair, letting users swap CPUs, screens, and ports to reduce e-waste",
     tags: ["modular laptop", "right to repair", "sustainability"]
   },
   {
@@ -4667,6 +5229,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "consumer-hardware",
+    techApproach: "Ultra-quiet electric propulsion using novel fan blade geometry to reduce noise by 20dB for drones and air vehicles",
     tags: ["quiet propulsion", "electric aviation", "noise reduction"]
   },
 
@@ -4684,6 +5248,8 @@ const COMPANIES = [
     totalRaised: "$600M+",
     valuation: "$11B+",
     rosLink: "",
+    thesisCluster: "quantum-trapped-ion",
+    techApproach: "Trapped-ion quantum computing using individual ytterbium atoms suspended in electromagnetic fields for high-fidelity gate operations",
     tags: ["trapped-ion", "quantum computing", "public"]
   },
   {
@@ -4699,6 +5265,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "$5.5B",
     rosLink: "",
+    thesisCluster: "quantum-superconducting",
+    techApproach: "Full-stack superconducting quantum computing with cloud access via Rigetti Quantum Cloud Services and hybrid classical-quantum workflows",
     tags: ["superconducting", "quantum computing", "cloud"]
   },
   {
@@ -4714,6 +5282,8 @@ const COMPANIES = [
     totalRaised: "$120M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "quantum-neutral-atom",
+    techApproach: "Neutral-atom quantum computer using programmable arrays of Rydberg atoms for analog and digital quantum computation",
     tags: ["neutral-atom", "quantum computing", "Harvard"]
   },
 
@@ -4731,6 +5301,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "data-center-infrastructure",
+    techApproach: "Underwater data centers leveraging deep ocean cooling for naturally efficient, sustainable computing infrastructure",
     tags: ["underwater data centers", "ocean tech", "cooling"]
   },
   {
@@ -4746,6 +5318,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "autonomy-maritime",
+    techApproach: "Autonomous underwater robots for ocean exploration, inspection, and data collection in extreme deep-sea environments",
     tags: ["underwater robots", "ocean exploration", "marine"]
   },
   {
@@ -4761,6 +5335,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "carbon-capture-utilization",
+    techApproach: "Ocean-based carbon removal using kelp cultivation and alkalinity enhancement to sequester CO2 in deep ocean biomass",
     tags: ["ocean carbon removal", "kelp", "climate"]
   },
 
@@ -4778,6 +5354,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "logistics-supply-chain",
+    techApproach: "Next-generation infrastructure technology for resilient supply chains and critical infrastructure development",
     tags: ["infrastructure", "supply chain", "logistics"]
   },
   {
@@ -4793,6 +5371,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "ai-mineral-exploration",
+    techApproach: "AI-powered mineral exploration using ML on geological data to discover critical metals with 10x better drill targeting",
     tags: ["AI mining", "mineral exploration", "critical metals"]
   },
   {
@@ -4808,6 +5388,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "robotics-construction-mining",
+    techApproach: "Autonomous mining technology for safer, more efficient extraction of critical minerals using robotic systems",
     tags: ["autonomous mining", "robotics", "critical minerals"]
   },
   {
@@ -4823,6 +5405,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "logistics-supply-chain",
+    techApproach: "Advanced infrastructure security and resilience technology protecting critical systems from physical and cyber threats",
     tags: ["infrastructure security", "resilience", "defense"]
   },
   {
@@ -4838,6 +5422,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "electrolysis-green-hydrogen",
+    techApproach: "Hydrogen logistics and distribution infrastructure helping industrial buyers access green hydrogen when and where needed",
     tags: ["hydrogen logistics", "energy", "industrial"]
   },
   {
@@ -4853,6 +5439,8 @@ const COMPANIES = [
     totalRaised: "",
     valuation: "",
     rosLink: "",
+    thesisCluster: "ai-materials-simulation",
+    techApproach: "AI system for atomic-level physics simulation discovering new materials and predicting their properties computationally",
     tags: ["materials science", "AI", "physics simulation"]
   },
 
@@ -4872,6 +5460,8 @@ const COMPANIES = [
     totalRaised: "$335M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "fusion-magnetic-confinement",
+    techApproach: "Compact spherical tokamak fusion using HTS magnets in a smaller, more efficient magnetic confinement geometry",
     tags: ["fusion", "tokamak", "clean energy", "superconductors"]
   },
   {
@@ -4887,6 +5477,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "fusion-alternative",
+    techApproach: "Projectile fusion firing hypervelocity projectiles at fuel targets to achieve fusion through extreme kinetic compression",
     tags: ["fusion", "inertial confinement", "clean energy"]
   },
   {
@@ -4902,6 +5494,8 @@ const COMPANIES = [
     totalRaised: "$677M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "nuclear-smr-advanced",
+    techApproach: "Lead-cooled fast reactor using MOX fuel from reprocessed spent nuclear fuel, turning waste stockpiles into clean energy",
     tags: ["nuclear", "SMR", "lead-cooled", "waste recycling"]
   },
   {
@@ -4917,6 +5511,8 @@ const COMPANIES = [
     totalRaised: "$1.05B+",
     valuation: "$4.6B",
     rosLink: "",
+    thesisCluster: "ai-autonomous-driving",
+    techApproach: "End-to-end learned autonomous driving using embodied intelligence rather than hand-coded rules, trained on London driving data",
     tags: ["autonomous vehicles", "AI", "embodied intelligence"]
   },
   {
@@ -4932,6 +5528,8 @@ const COMPANIES = [
     totalRaised: "$65M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "Prime orbital launch vehicle with 3D-printed rocket engine and bio-propane fuel for low-carbon small satellite launches from Scotland",
     tags: ["rockets", "launch vehicles", "small satellites", "space"]
   },
   {
@@ -4948,6 +5546,8 @@ const COMPANIES = [
     totalRaised: "$400M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "evtol-air-taxi",
+    techApproach: "VX4 electric air taxi with four tilting rotors for 100-mile range urban air mobility, partnered with American Airlines",
     tags: ["eVTOL", "air taxi", "electric aviation", "urban mobility"]
   },
   {
@@ -4964,6 +5564,8 @@ const COMPANIES = [
     totalRaised: "$1B+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "biotech-crispr-genomics",
+    techApproach: "Nanopore-based DNA/RNA sequencing using protein pores to read genetic sequences in real-time on portable devices",
     tags: ["genomics", "sequencing", "nanopore", "diagnostics"]
   },
   {
@@ -4979,6 +5581,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "quantum-superconducting",
+    techApproach: "Proprietary 3D Coaxmon superconducting qubit architecture providing better coherence through coaxial cavity coupling design",
     tags: ["quantum computing", "superconducting", "Coaxmon"]
   },
   {
@@ -4994,6 +5598,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "maritime-electric-transport",
+    techApproach: "World\'s most powerful tidal turbine (O2) generating clean electricity from predictable ocean tidal currents",
     tags: ["tidal energy", "ocean power", "renewable", "marine"]
   },
   {
@@ -5009,6 +5615,8 @@ const COMPANIES = [
     totalRaised: "$150M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "electrolysis-green-hydrogen",
+    techApproach: "Hydrogen-electric aviation powertrains replacing jet engines with fuel cell systems for zero-emission regional aircraft flights",
     tags: ["hydrogen aviation", "electric flight", "zero emission"]
   },
   {
@@ -5024,6 +5632,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-habitats-manufacturing",
+    techApproach: "Microgravity manufacturing of advanced materials and semiconductors using returnable satellite capsules for space-made products",
     tags: ["space manufacturing", "materials", "satellites"]
   },
   {
@@ -5039,6 +5649,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "energy-storage-thermal-gravity",
+    techApproach: "Gravity-based energy storage using heavy weights suspended in deep mine shafts, releasing energy by controlled descent",
     tags: ["gravity storage", "energy storage", "grid", "mining"]
   },
 
@@ -5056,6 +5668,8 @@ const COMPANIES = [
     totalRaised: "$616M+",
     valuation: "$1B+",
     rosLink: "",
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "Spectrum launch vehicle — Europe\'s commercial answer to Falcon 9 economics for dedicated small and medium satellite missions",
     tags: ["rockets", "launch vehicles", "space", "European sovereignty"]
   },
   {
@@ -5071,6 +5685,8 @@ const COMPANIES = [
     totalRaised: "$310M+",
     valuation: "$1B+",
     rosLink: "",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "AI-powered autonomous eVTOL reconnaissance drones providing tactical ISR capabilities for military and security forces",
     tags: ["defense drones", "reconnaissance", "autonomous", "eVTOL"]
   },
   {
@@ -5086,6 +5702,8 @@ const COMPANIES = [
     totalRaised: "$185M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "fusion-magnetic-confinement",
+    techApproach: "Quasi-isodynamic stellarator design using AI optimization and HTS magnets, spun out from Max Planck Institute",
     tags: ["fusion", "stellarator", "clean energy", "Max Planck"]
   },
   {
@@ -5101,6 +5719,8 @@ const COMPANIES = [
     totalRaised: "$161M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "fusion-inertial-laser",
+    techApproach: "Laser-driven fusion using novel silicon nanostructured fuel targets to achieve higher energy gain than traditional ICF pellets",
     tags: ["fusion", "laser", "inertial confinement"]
   },
   {
@@ -5116,6 +5736,8 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "RFA One orbital launch vehicle using staged combustion engines for cost-effective small satellite delivery from European spaceports",
     tags: ["rockets", "space", "European launch"]
   },
   {
@@ -5131,6 +5753,8 @@ const COMPANIES = [
     totalRaised: "$55M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "humanoid-robotics",
+    techApproach: "Cognitive robots that perceive and interact with environments using proprietary tactile, vision, and voice AI sensors",
     tags: ["robotics", "cognitive robots", "manufacturing"]
   },
   {
@@ -5146,6 +5770,8 @@ const COMPANIES = [
     totalRaised: "$234M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "semiconductor-advanced-materials",
+    techApproach: "Graphene-based interconnects for next-gen chips, using 2D carbon materials to overcome copper wire resistance limits at small nodes",
     tags: ["graphene", "semiconductors", "interconnects"]
   },
   {
@@ -5161,6 +5787,8 @@ const COMPANIES = [
     totalRaised: "$315M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "electrolysis-green-hydrogen",
+    techApproach: "High-temperature solid oxide electrolyzers achieving 90%+ efficiency for green hydrogen and syngas production at industrial scale",
     tags: ["green hydrogen", "electrolysis", "e-fuels"]
   },
   {
@@ -5176,6 +5804,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "quantum-neutral-atom",
+    techApproach: "Neutral-atom quantum computing using optical lattices to trap atoms in ordered crystal-like arrays for scalable qubit control",
     tags: ["quantum computing", "neutral atom", "optical lattice"]
   },
   {
@@ -5191,6 +5821,8 @@ const COMPANIES = [
     totalRaised: "$600M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "evtol-air-taxi",
+    techApproach: "Electric air taxi using distributed multirotor design for urban air mobility with EASA type certification pathway",
     tags: ["eVTOL", "air taxi", "urban mobility"]
   },
 
@@ -5208,6 +5840,8 @@ const COMPANIES = [
     totalRaised: "$120M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "quantum-neutral-atom",
+    techApproach: "Neutral-atom quantum processors using Nobel Prize-winning optical tweezer technology for programmable, scalable quantum systems",
     tags: ["quantum computing", "neutral atom", "Nobel Prize"]
   },
   {
@@ -5223,6 +5857,8 @@ const COMPANIES = [
     totalRaised: "$335M+",
     valuation: "$2B",
     rosLink: "",
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Skypod warehouse robotics where robots climb storage racks vertically to retrieve items, maximizing vertical space utilization",
     tags: ["warehouse robotics", "logistics", "Skypod"]
   },
   {
@@ -5238,6 +5874,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "nuclear-msr",
+    techApproach: "Molten salt microreactor (XAMR) for decentralized energy producing heat and electricity from thorium-based fuel",
     tags: ["nuclear", "molten salt", "microreactor", "decentralized"]
   },
   {
@@ -5253,6 +5891,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "fusion-magnetic-confinement",
+    techApproach: "HTS magnet development and stellarator fusion using novel continuous coil winding for simplified stellarator construction",
     tags: ["fusion", "stellarator", "superconductors"]
   },
   {
@@ -5268,6 +5908,8 @@ const COMPANIES = [
     totalRaised: "$2B+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "battery-advanced-chemistry",
+    techApproach: "European battery gigafactory producing high-performance, low-carbon lithium-ion cells using dry electrode coating technology",
     tags: ["batteries", "gigafactory", "EV", "low carbon"]
   },
   {
@@ -5283,6 +5925,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "biotech-crispr-genomics",
+    techApproach: "Enzymatic DNA synthesis using engineered enzymes instead of chemicals for rapid, on-demand production of custom DNA sequences",
     tags: ["synthetic biology", "DNA synthesis", "genomics"]
   },
   {
@@ -5298,6 +5942,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "quantum-superconducting",
+    techApproach: "Cat qubit quantum computers that natively suppress bit-flip errors through quantum error correction built into hardware design",
     tags: ["quantum computing", "cat qubits", "error correction"]
   },
   {
@@ -5313,6 +5959,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "Zephyr micro-launcher for dedicated small satellite deployment from French Guiana using hybrid solid-liquid propulsion",
     tags: ["rockets", "micro-launcher", "small satellites"]
   },
 
@@ -5330,6 +5978,8 @@ const COMPANIES = [
     totalRaised: "$6.5B+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "green-steel-metals",
+    techApproach: "Giga-scale green hydrogen steel plant replacing coal-based blast furnaces with hydrogen direct reduction in northern Sweden",
     tags: ["green steel", "hydrogen", "decarbonization", "industrial"]
   },
   {
@@ -5345,6 +5995,8 @@ const COMPANIES = [
     totalRaised: "$752M+",
     valuation: "$1.8B",
     rosLink: "",
+    thesisCluster: "ai-autonomous-driving",
+    techApproach: "Autonomous electric freight trucks using pod-like cabless design with remote operation capability for depot-to-depot logistics",
     tags: ["autonomous trucks", "electric freight", "logistics"]
   },
   {
@@ -5360,6 +6012,8 @@ const COMPANIES = [
     totalRaised: "$326M+",
     valuation: "$1.8B",
     rosLink: "",
+    thesisCluster: "ai-clinical-health",
+    techApproach: "Full-body scanning using advanced hardware and AI diagnostics to detect diseases early through comprehensive preventive health screening",
     tags: ["preventive healthcare", "body scanning", "diagnostics"]
   },
 
@@ -5377,6 +6031,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "World\'s largest commercial SAR constellation providing persistent radar imaging for flood monitoring, defense, and maritime tracking",
     tags: ["SAR satellites", "Earth observation", "radar"]
   },
   {
@@ -5392,6 +6048,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "quantum-superconducting",
+    techApproach: "Co-designed superconducting quantum computers optimized for specific applications like material simulation and optimization",
     tags: ["quantum computing", "superconducting", "co-design"]
   },
   {
@@ -5407,6 +6065,8 @@ const COMPANIES = [
     totalRaised: "$160M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "biotech-novel-biology",
+    techApproach: "Producing protein from CO2, water, and electricity using hydrogen-oxidizing bacteria — food without agriculture or photosynthesis",
     tags: ["novel protein", "CO2 capture", "food tech", "biotech"]
   },
 
@@ -5424,6 +6084,8 @@ const COMPANIES = [
     totalRaised: "$800M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "carbon-capture-dac",
+    techApproach: "Modular direct air capture using solid sorbent filters and geothermal heat to permanently mineralize CO2 underground in Iceland",
     tags: ["direct air capture", "carbon removal", "climate"]
   },
   {
@@ -5439,6 +6101,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "inspection-quality-robots",
+    techApproach: "ANYmal quadruped robot for autonomous industrial inspection in hazardous environments using dynamic legged locomotion",
     tags: ["quadruped robots", "inspection", "hazardous environments"]
   },
   {
@@ -5454,6 +6118,8 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "synfuels-solar",
+    techApproach: "Solar fuel production using concentrated sunlight at 1500C to thermochemically split CO2 and water into synthetic jet fuel",
     tags: ["solar fuels", "synthetic fuel", "aviation", "sunlight"]
   },
 
@@ -5471,6 +6137,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "nuclear-msr",
+    techApproach: "Compact molten salt reactors deployed on floating barges for scalable, portable nuclear power in maritime settings",
     tags: ["nuclear", "molten salt reactor", "floating", "portable"]
   },
   {
@@ -5486,6 +6154,8 @@ const COMPANIES = [
     totalRaised: "$25M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "nuclear-msr",
+    techApproach: "Modular thorium molten salt reactors in shipping container form factor for mass production and global deployment",
     tags: ["nuclear", "thorium", "molten salt", "modular"]
   },
 
@@ -5504,6 +6174,8 @@ const COMPANIES = [
     totalRaised: "$1B+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "battery-advanced-chemistry",
+    techApproach: "Clean battery cell gigafactories using semi-solid electrode technology for simplified, lower-cost lithium-ion and sodium-ion cells",
     tags: ["batteries", "gigafactory", "sodium-ion", "Arctic"]
   },
 
@@ -5521,6 +6193,8 @@ const COMPANIES = [
     totalRaised: "$10M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "quantum-superconducting",
+    techApproach: "Off-the-shelf superconducting quantum processors democratizing quantum hardware access through standardized QPU sales",
     tags: ["quantum computing", "superconducting", "hardware"]
   },
 
@@ -5538,6 +6212,8 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "MIURA family of launch vehicles — first Spanish orbital rocket company with successful suborbital demonstration flights",
     tags: ["rockets", "launch vehicles", "European space"]
   },
 
@@ -5556,6 +6232,8 @@ const COMPANIES = [
     totalRaised: "$150M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-debris-servicing",
+    techApproach: "ION orbital transfer vehicle providing precise satellite deployment, in-orbit services, and end-of-life disposal using hosted payloads",
     tags: ["space logistics", "satellite deployment", "in-orbit"]
   },
 
@@ -5573,6 +6251,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "autonomy-ground-vehicles",
+    techApproach: "THeMIS unmanned ground vehicle — Europe\'s leading military ground robot for logistics, ISR, and combat support",
     tags: ["military robots", "UGV", "defense", "autonomous"]
   },
   {
@@ -5588,6 +6268,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "energy-storage-thermal-gravity",
+    techApproach: "Ultracapacitor energy storage using curved graphene electrodes for ultra-high power density in automotive and grid applications",
     tags: ["supercapacitors", "energy storage", "defense", "automotive"]
   },
 
@@ -5605,6 +6287,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "consumer-hardware",
+    techApproach: "Perovskite solar cell technology printed on flexible substrates for building-integrated and portable photovoltaic applications",
     tags: ["perovskite solar", "flexible PV", "renewable energy"]
   },
 
@@ -5622,6 +6306,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "quantum-sensors-software",
+    techApproach: "OPX+ quantum control hardware and operating system managing qubits with classical-quantum real-time feedback loops",
     tags: ["quantum computing", "hardware control", "infrastructure"]
   },
   {
@@ -5637,6 +6323,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Human-guided autonomous drone systems combining operator intuition with AI autonomy for complex defense missions",
     tags: ["defense drones", "teleoperated", "military", "autonomous"]
   },
   {
@@ -5652,6 +6340,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "inspection-quality-robots",
+    techApproach: "Autonomous industrial drone-in-a-box robots for critical infrastructure inspection, monitoring, and security patrols",
     tags: ["autonomous drones", "inspection", "infrastructure", "security"]
   },
   {
@@ -5667,6 +6357,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-satellites-buses",
+    techApproach: "Radiation-hardened computing hardware building space-grade supercomputers that operate reliably in the harsh space radiation environment",
     tags: ["space computing", "radiation-hardened", "satellites"]
   },
   {
@@ -5682,6 +6374,8 @@ const COMPANIES = [
     totalRaised: "$270M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "consumer-hardware",
+    techApproach: "Stamp-sized IoT sensor tags powered by harvesting ambient radio frequency energy, enabling battery-free intelligence on any product",
     tags: ["IoT", "RF energy harvesting", "sensors", "batteryless"]
   },
   {
@@ -5697,6 +6391,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "robotics-agriculture",
+    techApproach: "Flying autonomous robots that use AI computer vision to identify and pick ripe fruit from trees without damaging crops",
     tags: ["agtech", "fruit picking", "autonomous drones", "agriculture"]
   },
 
@@ -5715,6 +6411,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-lunar-planetary",
+    techApproach: "Lunar exploration company building landers and rovers for commercial payload delivery to the Moon for science and resources",
     tags: ["lunar", "Moon lander", "space exploration"]
   },
   {
@@ -5730,6 +6428,8 @@ const COMPANIES = [
     totalRaised: "$125M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "fusion-magnetic-confinement",
+    techApproach: "Fusion plant engineering developing heat extraction, tritium breeding, and power conversion components for fusion reactors",
     tags: ["fusion", "energy", "reactor engineering", "heat extraction"]
   },
   {
@@ -5745,6 +6445,8 @@ const COMPANIES = [
     totalRaised: "$129M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-habitats-manufacturing",
+    techApproach: "Space robotics building autonomous robots for in-space servicing, assembly, and manufacturing on space stations and satellites",
     tags: ["space robotics", "autonomous", "in-orbit servicing"]
   },
   {
@@ -5760,6 +6462,8 @@ const COMPANIES = [
     totalRaised: "$85M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Real-time AI motion planning enabling fully autonomous warehouse operations with zero-teach robot programming",
     tags: ["warehouse robotics", "AI", "autonomous", "logistics"]
   },
   {
@@ -5775,6 +6479,8 @@ const COMPANIES = [
     totalRaised: "$5B+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "chiplet-packaging-foundry",
+    techApproach: "Next-gen 2nm semiconductor foundry in Japan backed by $10B+ government investment to restore Japanese chip manufacturing leadership",
     tags: ["semiconductors", "2nm", "foundry", "national champion"]
   },
 
@@ -5792,6 +6498,8 @@ const COMPANIES = [
     totalRaised: "$225M+",
     valuation: "$1B+",
     rosLink: "",
+    thesisCluster: "ai-hardware-inference",
+    techApproach: "AI inference chips (ATOM, REBEL) designed for data center deployment with competitive performance-per-watt versus NVIDIA",
     tags: ["AI chips", "inference", "data center", "semiconductors"]
   },
   {
@@ -5807,6 +6515,8 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "HANBIT hybrid rocket launch vehicle for small satellite delivery, first Korean private rocket with successful suborbital flight",
     tags: ["rockets", "hybrid propulsion", "small satellites"]
   },
   {
@@ -5823,6 +6533,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "humanoid-robotics",
+    techApproach: "Collaborative and humanoid robots from KAIST HUBO lineage, partnered with Hyundai for next-gen manufacturing automation",
     tags: ["humanoid robots", "cobots", "Hyundai", "KAIST"]
   },
 
@@ -5840,6 +6552,8 @@ const COMPANIES = [
     totalRaised: "$95M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "India\'s first private rocket company reaching space with Vikram series using 3D-printed engines and solid-liquid hybrid stages",
     tags: ["rockets", "launch vehicles", "Indian space"]
   },
   {
@@ -5855,6 +6569,8 @@ const COMPANIES = [
     totalRaised: "$40M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "World\'s first single-piece 3D-printed semi-cryogenic rocket engine enabling customizable, on-demand small satellite launches from India",
     tags: ["3D printed rockets", "launch vehicles", "IIT Madras"]
   },
   {
@@ -5870,6 +6586,8 @@ const COMPANIES = [
     totalRaised: "$71M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "Hyperspectral Earth-imaging satellites capturing 150+ spectral bands for precision agriculture, environmental, and mineral analysis",
     tags: ["hyperspectral imaging", "satellites", "Earth observation"]
   },
   {
@@ -5886,6 +6604,8 @@ const COMPANIES = [
     totalRaised: "$50M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Indian drone manufacturer for defense, homeland security, and industrial inspection with rugged, high-altitude capable platforms",
     tags: ["defense drones", "surveillance", "security"]
   },
 
@@ -5903,6 +6623,8 @@ const COMPANIES = [
     totalRaised: "$240M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "quantum-photonic",
+    techApproach: "Photonic quantum computing using squeezed light states and Borealis processor, plus open-source PennyLane quantum ML framework",
     tags: ["quantum computing", "photonic", "PennyLane", "open source"]
   },
   {
@@ -5918,6 +6640,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "nuclear-smr-advanced",
+    techApproach: "Integral Molten Salt Reactor (IMSR) combining fuel and coolant in a single salt for simplified reactor design and inherent safety",
     tags: ["nuclear", "molten salt reactor", "Generation IV"]
   },
   {
@@ -5933,6 +6657,8 @@ const COMPANIES = [
     totalRaised: "$300M+",
     valuation: "$2.6B",
     rosLink: "",
+    thesisCluster: "ai-hardware-inference",
+    techApproach: "Open-source RISC-V AI processors with chiplet architecture, led by legendary architect Jim Keller, enabling customizable AI compute",
     tags: ["AI chips", "RISC-V", "open source", "Jim Keller"]
   },
   {
@@ -5948,6 +6674,8 @@ const COMPANIES = [
     totalRaised: "$80M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "carbon-capture-utilization",
+    techApproach: "CO2 mineralization injecting captured carbon into fresh concrete during mixing, permanently sequestering CO2 while strengthening concrete",
     tags: ["carbon capture", "concrete", "CO2 mineralization"]
   },
 
@@ -5965,6 +6693,8 @@ const COMPANIES = [
     totalRaised: "$70M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "Phased-array satellite constellation combined with ambient noise tomography for mineral exploration from orbit",
     tags: ["satellites", "mineral exploration", "seismic", "IoT"]
   },
   {
@@ -5980,6 +6710,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "quantum-sensors-software",
+    techApproach: "Room-temperature quantum computing using synthetic diamond nitrogen-vacancy centers for portable quantum accelerators",
     tags: ["quantum computing", "diamond", "room temperature", "portable"]
   },
   {
@@ -5996,6 +6728,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "autonomy-counter-drone",
+    techApproach: "Multi-sensor counter-drone defense including RF detection, radar, acoustic sensing, and electronic jamming systems",
     tags: ["counter-drone", "C-UAS", "defense", "RF detection"]
   },
   {
@@ -6011,6 +6745,8 @@ const COMPANIES = [
     totalRaised: "$21M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "consumer-hardware",
+    techApproach: "Copper-replacing-silver solar cell metallization achieving world record efficiency while eliminating expensive silver from cell contacts",
     tags: ["solar cells", "copper", "efficiency record", "renewable"]
   },
 
@@ -6028,6 +6764,8 @@ const COMPANIES = [
     totalRaised: "$200M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "chiplet-packaging-foundry",
+    techApproach: "Advanced chiplet-based semiconductor packaging using fan-out wafer-level technology for heterogeneous chip integration",
     tags: ["semiconductor packaging", "chiplets", "advanced packaging"]
   },
 
@@ -6045,6 +6783,8 @@ const COMPANIES = [
     totalRaised: "$100M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "Sub-meter resolution Earth observation satellites at low cost, building Latin America\'s first commercial imaging constellation",
     tags: ["Earth observation", "satellites", "high resolution"]
   },
 
@@ -6062,6 +6802,8 @@ const COMPANIES = [
     totalRaised: "$30M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "Reusable spaceplane technology using horizontal takeoff and landing for daily orbital access and green satellite propulsion",
     tags: ["spaceplane", "reusable", "green propulsion", "suborbital"]
   },
 
@@ -6079,6 +6821,8 @@ const COMPANIES = [
     totalRaised: "$20M+",
     valuation: "",
     rosLink: "",
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "High-resolution imaging payloads and small Earth observation satellites built in South Africa for global customers",
     tags: ["satellite imaging", "Earth observation", "African space"]
   },
 
@@ -6096,7 +6840,9 @@ const COMPANIES = [
     totalRaised: "$70M+",
     valuation: "",
     rosLink: "",
-    tags: ["agtech", "autonomous robots", "precision agriculture"]
+        thesisCluster: "robotics-agriculture",
+    techApproach: "Autonomous agricultural robots and AI farm machinery for large-scale precision farming operations",
+tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
 
   // ─── GOOGLE SHEET ADDITIONS (Feb 2026) ───
@@ -6118,6 +6864,10 @@ const COMPANIES = [
     scores: { team: 9, traction: 10, techMoat: 8, market: 10, momentum: 9 },
     competitors: ["GitHub", "Replicate"],
     recentEvent: { type: "milestone", text: "Surpasses 500K hosted models on platform", date: "2026-01" },
+    thesisCluster: "ai-foundation-models",
+    techApproach: "Open-source ML platform hosting 500K+ models with standardized APIs, enabling democratic access to frontier AI research",
+    thesisCluster: "robotics-agriculture",
+    techApproach: "Autonomous agricultural robots and AI farm machinery for large-scale precision farming in tropical and subtropical conditions",
     addedDate: "2026-02"
   },
   {
@@ -6138,6 +6888,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["Mistral AI"],
     recentEvent: { type: "launch", text: "Open-source multimodal AI model release", date: "2026-01" },
+    thesisCluster: "ai-foundation-models",
+    techApproach: "French open-source AI research lab building real-time multimodal models with voice-native interaction capabilities",
     addedDate: "2026-02"
   },
   {
@@ -6158,6 +6910,8 @@ const COMPANIES = [
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 9 },
     competitors: ["Figure AI", "Agility Robotics"],
     recentEvent: { type: "funding", text: "Series B at €2.6B valuation for humanoid robot production", date: "2025-12" },
+    thesisCluster: "humanoid-robotics",
+    techApproach: "German cognitive robotics building MAiRA and 4NE-1 humanoid robots with multimodal AI perception for flexible manufacturing",
     addedDate: "2026-02"
   },
   {
@@ -6178,6 +6932,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["Skydio", "AeroVironment"],
     recentEvent: { type: "partnership", text: "NATO maritime surveillance contract expansion", date: "2025-11" },
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Portuguese drone-as-a-service providing long-range unmanned ISR for defense, maritime patrol, and border surveillance",
     addedDate: "2026-02"
   },
   {
@@ -6198,6 +6954,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["Zipline", "Wingcopter"],
     recentEvent: { type: "milestone", text: "First EU drone airline license approval", date: "2025-09" },
+    thesisCluster: "autonomy-delivery-logistics",
+    techApproach: "World\'s first cargo drone airline operating large fixed-wing drones for middle-mile logistics at one-tenth of air freight cost",
     addedDate: "2026-02"
   },
   {
@@ -6218,6 +6976,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["Hadrian"],
     recentEvent: { type: "funding", text: "$25M Series A for construction robot deployment", date: "2025-08" },
+    thesisCluster: "construction-modular",
+    techApproach: "Robotic bricklaying machines that autonomously lay bricks for wall construction using computer vision and precision placement",
     addedDate: "2026-02"
   },
   {
@@ -6238,6 +6998,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["Universal Robots"],
     recentEvent: { type: "funding", text: "$60M to scale modular robot arms for manufacturing", date: "2025-10" },
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Modular industrial robotics making automation accessible to SMEs through configurable, easy-to-deploy robotic systems",
     addedDate: "2026-02"
   },
   {
@@ -6258,6 +7020,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["ElevenLabs", "Deepgram"],
     recentEvent: { type: "funding", text: "$20M for enterprise speech AI expansion", date: "2025-07" },
+    thesisCluster: "ai-generative-media",
+    techApproach: "Enterprise speech AI providing real-time transcription, translation, and audio intelligence through optimized ASR pipelines",
     addedDate: "2026-02"
   },
   {
@@ -6278,6 +7042,8 @@ const COMPANIES = [
     scores: null,
     competitors: [],
     recentEvent: { type: "milestone", text: "DOE grant for deep borehole disposal demonstration", date: "2025-06" },
+    thesisCluster: "nuclear-services-fuel",
+    techApproach: "Horizontal directional drilling for deep geological nuclear waste disposal using oil industry drilling technology",
     addedDate: "2026-02"
   },
   {
@@ -6298,6 +7064,8 @@ const COMPANIES = [
     scores: null,
     competitors: [],
     recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
+    thesisCluster: "robotics-agriculture",
+    techApproach: "Autonomous grain bin management robot that monitors temperature, moisture, and quality while leveling stored grain automatically",
     addedDate: "2026-02"
   },
   {
@@ -6318,6 +7086,8 @@ const COMPANIES = [
     scores: null,
     competitors: [],
     recentEvent: { type: "milestone", text: "300+ farm deployments across Europe and North America", date: "2025-09" },
+    thesisCluster: "robotics-agriculture",
+    techApproach: "Autonomous weeding and crop care robots for organic and conventional farming using mechanical weed removal without herbicides",
     addedDate: "2026-02"
   },
   {
@@ -6338,6 +7108,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["Saronic"],
     recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
+    thesisCluster: "autonomy-maritime",
+    techApproach: "European autonomous maritime defense systems bridging allied navies with interoperable unmanned surface and undersea vehicles",
     addedDate: "2026-02"
   },
   {
@@ -6358,6 +7130,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["ICON"],
     recentEvent: { type: "partnership", text: "GE partnership for wind turbine base 3D printing", date: "2025-10" },
+    thesisCluster: "additive-manufacturing",
+    techApproach: "World\'s leading 3D construction printer (BOD2) extruding concrete layer by layer to build structures in under 24 hours",
     addedDate: "2026-02"
   },
   {
@@ -6378,6 +7152,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["Bambu Lab"],
     recentEvent: { type: "launch", text: "Next-gen Core One 3D printer launch", date: "2025-11" },
+    thesisCluster: "additive-manufacturing",
+    techApproach: "Open-source 3D printer manufacturer building the most popular FDM printers through community-driven hardware and software development",
     addedDate: "2026-02"
   },
   {
@@ -6398,6 +7174,8 @@ const COMPANIES = [
     scores: null,
     competitors: [],
     recentEvent: { type: "funding", text: "$11.5M seed for multi-agent AI platform", date: "2025-09" },
+    thesisCluster: "ai-saas-enterprise",
+    techApproach: "Multi-agent AI systems for enterprise automation, orchestrating specialized AI agents for complex business workflows",
     addedDate: "2026-02"
   },
   {
@@ -6418,6 +7196,8 @@ const COMPANIES = [
     scores: null,
     competitors: [],
     recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
+    thesisCluster: "ai-generative-media",
+    techApproach: "AI observability platform monitoring, evaluating, and improving production LLM application quality through automated testing",
     addedDate: "2026-02"
   },
   {
@@ -6438,6 +7218,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["Oklo", "Radiant"],
     recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
+    thesisCluster: "nuclear-microreactor",
+    techApproach: "Next-generation reactor technology in development from Zurich, applying Swiss precision engineering to nuclear energy",
     addedDate: "2026-02"
   },
   {
@@ -6458,6 +7240,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["Shield AI", "Skydio"],
     recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Advanced autonomous aerial systems for defense and commercial applications using next-gen avionics and propulsion",
     addedDate: "2026-02"
   },
   {
@@ -6478,6 +7262,8 @@ const COMPANIES = [
     scores: null,
     competitors: [],
     recentEvent: { type: "milestone", text: "Platform managing 1M+ drone flights globally", date: "2025-08" },
+    thesisCluster: "space-ground-comms",
+    techApproach: "Leading airspace management platform providing real-time drone traffic data, flight planning, and regulatory compliance",
     addedDate: "2026-02"
   },
   {
@@ -6498,6 +7284,8 @@ const COMPANIES = [
     scores: null,
     competitors: [],
     recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Czech robotics developing advanced industrial robotic systems for manufacturing automation and quality inspection",
     addedDate: "2026-02"
   },
   {
@@ -6518,6 +7306,8 @@ const COMPANIES = [
     scores: null,
     competitors: ["Anduril Industries"],
     recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
+    thesisCluster: "defense-munitions-energetics",
+    techApproach: "Defense technology company building autonomous systems for military applications from Long Beach manufacturing base",
     addedDate: "2026-02"
   },
 
@@ -6542,6 +7332,8 @@ const COMPANIES = [
     competitors: [],
     recentEvent: { type: "funding", text: "Closed $34M Series A", date: "2025-08" },
     tbpnMentioned: true,
+    thesisCluster: "ai-clinical-health",
+    techApproach: "Platform enabling purchases of health products with pre-tax HSA/FSA dollars through physician-verified medical necessity",
     addedDate: "2026-02"
   },
   {
@@ -6564,6 +7356,8 @@ const COMPANIES = [
     competitors: [],
     recentEvent: { type: "launch", text: "Public beta launch with serverless vector search", date: "2025-06" },
     tbpnMentioned: true,
+    thesisCluster: "data-center-infrastructure",
+    techApproach: "Serverless vector database architecture optimized for sub-millisecond similarity search at massive scale for AI-native applications",
     addedDate: "2026-02"
   },
   {
@@ -6586,6 +7380,8 @@ const COMPANIES = [
     competitors: [],
     recentEvent: { type: "funding", text: "Series B to accelerate AI CRM platform", date: "2025-09" },
     tbpnMentioned: true,
+    thesisCluster: "ai-saas-enterprise",
+    techApproach: "AI-native CRM automatically enriching and structuring relationship data using ML-driven entity resolution and signal detection",
     addedDate: "2026-02"
   },
   {
@@ -6608,6 +7404,8 @@ const COMPANIES = [
     competitors: ["Attio"],
     recentEvent: { type: "launch", text: "Launched AI meeting intelligence platform", date: "2025-07" },
     tbpnMentioned: true,
+    thesisCluster: "ai-saas-enterprise",
+    techApproach: "AI meeting intelligence capturing, summarizing, and acting on conversation data to automate follow-ups and relationship tracking",
     addedDate: "2026-02"
   },
   {
@@ -6630,6 +7428,8 @@ const COMPANIES = [
     competitors: [],
     recentEvent: { type: "milestone", text: "Expanding defense tech advisory portfolio", date: "2025-09" },
     tbpnMentioned: true,
+    thesisCluster: "ai-defense-intelligence",
+    techApproach: "Defense technology advisory and venture firm bridging Silicon Valley innovation with Department of Defense requirements",
     addedDate: "2026-02"
   },
   {
@@ -6652,6 +7452,8 @@ const COMPANIES = [
     competitors: [],
     recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
     tbpnMentioned: true,
+    thesisCluster: "ai-clinical-health",
+    techApproach: "AI-powered health platform using ML for personalized health insights, risk prediction, and preventive care recommendations",
     addedDate: "2026-02"
   },
   // ─── NEW COMPANIES FROM TRIP MARCH & CA STARTUPS ───
@@ -6675,6 +7477,8 @@ const COMPANIES = [
     competitors: ["SafeAI", "Built Robotics"],
     recentEvent: { type: "funding", text: "$270M Series B at $1.75B valuation", date: "2026-02" },
     tbpnMentioned: false,
+    thesisCluster: "robotics-construction-mining",
+    techApproach: "Retrofitting existing excavators and bulldozers with autonomous control systems for precision earthwork and grading",
     addedDate: "2026-02"
   },
   {
@@ -6697,6 +7501,8 @@ const COMPANIES = [
     competitors: ["Universal Robots", "FANUC"],
     recentEvent: { type: "funding", text: "$45M Series B led by Wellington Management", date: "2025-06" },
     tbpnMentioned: false,
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Physics-informed AI for robotic surface finishing, automating sanding, polishing, and painting with adaptive force control",
     addedDate: "2026-02"
   },
   {
@@ -6719,6 +7525,8 @@ const COMPANIES = [
     competitors: ["Formic", "Bright Machines"],
     recentEvent: { type: "milestone", text: "Acquired by Pronto", date: "2025-07" },
     tbpnMentioned: false,
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "AI-powered end-to-end robotic workcells for factory, warehouse, and supply chain automation using dexterous manipulation",
     addedDate: "2026-02"
   },
   {
@@ -6741,6 +7549,8 @@ const COMPANIES = [
     competitors: ["Arris Composites", "Markforged"],
     recentEvent: { type: "contract", text: "SpaceWERX contracts for radiation-shielded cubesats", date: "2025-06" },
     tbpnMentioned: false,
+    thesisCluster: "additive-manufacturing",
+    techApproach: "Robotic 3D printing of large carbon fiber composite structures for aerospace and industrial applications using continuous fiber",
     addedDate: "2026-02"
   },
   {
@@ -6763,6 +7573,8 @@ const COMPANIES = [
     competitors: ["Bedrock Robotics", "Caterpillar Autonomy"],
     recentEvent: { type: "milestone", text: "Acquired by Pronto", date: "2025-07" },
     tbpnMentioned: false,
+    thesisCluster: "robotics-construction-mining",
+    techApproach: "Aftermarket autonomy for construction and mining heavy equipment using bolt-on sensors and AI for existing machines",
     addedDate: "2026-02"
   },
   {
@@ -6785,6 +7597,8 @@ const COMPANIES = [
     competitors: ["Waymo", "Cruise", "Tesla"],
     recentEvent: { type: "launch", text: "Public rides launched in SF and Las Vegas", date: "2025-11" },
     tbpnMentioned: false,
+    thesisCluster: "ai-autonomous-driving",
+    techApproach: "Purpose-designed bidirectional autonomous robotaxi for urban mobility, owned by Amazon, with no traditional driver controls",
     addedDate: "2026-02"
   },
   {
@@ -6807,6 +7621,8 @@ const COMPANIES = [
     competitors: ["Cellares", "Ori Biotech"],
     recentEvent: { type: "partnership", text: "$85M partnership with Retro Biosciences", date: "2026-01" },
     tbpnMentioned: false,
+    thesisCluster: "biotech-lab-automation",
+    techApproach: "Cloud-controlled robotic biomanufacturing automating cell and gene therapy production to solve the scalability bottleneck",
     addedDate: "2026-02"
   },
   {
@@ -6829,6 +7645,8 @@ const COMPANIES = [
     competitors: ["Overstory", "Technosylva"],
     recentEvent: { type: "funding", text: "$58.5M Series C led by Lightrock", date: "2025-01" },
     tbpnMentioned: false,
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "Satellite imagery and AI platform helping utilities manage vegetation, assess climate risk, and optimize infrastructure",
     addedDate: "2026-02"
   },
   {
@@ -6851,6 +7669,8 @@ const COMPANIES = [
     competitors: ["ALERTCalifornia", "Perimeter Solutions"],
     recentEvent: { type: "funding", text: "$44M Series B led by Giant Ventures", date: "2025-06" },
     tbpnMentioned: false,
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "Panoramic camera and AI network for wildfire detection using thermal imaging, computer vision, and satellite data for real-time alerts",
     addedDate: "2026-02"
   },
   {
@@ -6873,6 +7693,8 @@ const COMPANIES = [
     competitors: ["Figure AI", "Agility Robotics", "Boston Dynamics"],
     recentEvent: { type: "funding", text: "$100M Series B led by General Catalyst", date: "2025-04" },
     tbpnMentioned: false,
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Proxie mobile manipulator cobot combining navigation with manipulation for versatile, safe human-robot collaboration",
     addedDate: "2026-02"
   },
   {
@@ -6895,6 +7717,8 @@ const COMPANIES = [
     competitors: ["Universal Robots", "FANUC", "Franka Emika"],
     recentEvent: { type: "milestone", text: "Crossed $1M ARR with RoboGPT platform", date: "2025-08" },
     tbpnMentioned: false,
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Affordable AI-powered collaborative robotic arms for small businesses, democratizing industrial automation with sub-$10K systems",
     addedDate: "2026-02"
   },
   {
@@ -6917,6 +7741,8 @@ const COMPANIES = [
     competitors: ["Emerald Cloud Lab", "Synthace"],
     recentEvent: { type: "funding", text: "$8M Seed led by Initialized Capital", date: "2025-05" },
     tbpnMentioned: false,
+    thesisCluster: "biotech-lab-automation",
+    techApproach: "Fully automated robotic lab-in-a-box combining robotics, microfluidics, and AI for autonomous biological experimentation",
     addedDate: "2026-02"
   },
   {
@@ -6939,6 +7765,8 @@ const COMPANIES = [
     competitors: ["Intuitive Machines", "Astrobotic"],
     recentEvent: { type: "funding", text: "$12M Seed co-led by 8VC and Fusion Fund", date: "2025-08" },
     tbpnMentioned: false,
+    thesisCluster: "space-lunar-planetary",
+    techApproach: "In-situ resource utilization technology producing rocket propellant from lunar and Martian surface materials",
     addedDate: "2026-02"
   },
   {
@@ -6961,6 +7789,8 @@ const COMPANIES = [
     competitors: ["Auterion", "PX4"],
     recentEvent: { type: "funding", text: "$2.5M Pre-Seed led by Outlander VC", date: "2025-12" },
     tbpnMentioned: false,
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "AI-powered hardware platform and SDK transforming commercial drones into defense-capable autonomous systems",
     addedDate: "2026-02"
   },
 
@@ -6982,6 +7812,8 @@ const COMPANIES = [
     signal: "established",
     scores: { team: 8, traction: 8, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Skydio", "DroneShield"],
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Drone-as-first-responder providing fully automated drone systems for law enforcement and emergency response deployment",
     addedDate: "2026-02"
   },
   {
@@ -7001,6 +7833,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Verkada", "Rhombus"],
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "Computer vision platform for physical security using real-time video analytics to detect threats with near-zero false positives",
     addedDate: "2026-02"
   },
   {
@@ -7020,6 +7854,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Caterpillar", "SafeAI"],
+    thesisCluster: "robotics-construction-mining",
+    techApproach: "Autonomous AI systems retrofitting construction equipment with sensors and software for automated earthwork operations",
     addedDate: "2026-02"
   },
   {
@@ -7039,6 +7875,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 7, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Miso Robotics", "Dexai Robotics"],
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "AI-powered robotic food assembly automating plating and portion control in commercial kitchens using vision-guided manipulation",
     addedDate: "2026-02"
   },
   {
@@ -7060,6 +7898,8 @@ const COMPANIES = [
     scores: { team: 10, traction: 10, techMoat: 9, market: 10, momentum: 10 },
     competitors: ["Snowflake", "AWS", "Google BigQuery"],
     recentEvent: { type: "funding", text: "Most recent raise at $134B valuation", date: "2025-12" },
+    thesisCluster: "ai-saas-enterprise",
+    techApproach: "Lakehouse architecture unifying data warehousing and data lakes with native ML/AI training capabilities on Apache Spark",
     addedDate: "2026-02"
   },
   {
@@ -7079,6 +7919,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 8, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["Covariant", "Nimble Robotics"],
+    thesisCluster: "logistics-supply-chain",
+    techApproach: "AI-powered robotic picking and packing for logistics using learned dexterity to handle diverse products in fulfillment centers",
     addedDate: "2026-02"
   },
   {
@@ -7098,6 +7940,8 @@ const COMPANIES = [
     signal: "watch",
     scores: { team: 7, traction: 6, techMoat: 7, market: 8, momentum: 6 },
     competitors: ["Carbon Robotics", "Blue River Technology"],
+    thesisCluster: "robotics-agriculture",
+    techApproach: "Modular autonomous farm robots with open architecture allowing farmers to customize capabilities for diverse agricultural tasks",
     addedDate: "2026-02"
   },
   {
@@ -7117,6 +7961,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Planet Labs", "Spire Global"],
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "Satellite-based flood mapping using ML and SAR data to track flood extent in near-real-time for climate risk and disaster response",
     addedDate: "2026-02"
   },
   {
@@ -7136,6 +7982,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Rivian", "Lightning eMotors"],
+    thesisCluster: "transport-electric-vehicles",
+    techApproach: "Electric commercial vehicle chassis architecture designed ground-up for medium-duty fleet electrification",
     addedDate: "2026-02"
   },
   {
@@ -7155,6 +8003,8 @@ const COMPANIES = [
     signal: "established",
     scores: { team: 8, traction: 9, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["OpenAI", "Google Cloud Vision"],
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "Pre-trained computer vision and NLP models via API for automated content moderation, visual search, and media analysis",
     addedDate: "2026-02"
   },
   {
@@ -7174,6 +8024,8 @@ const COMPANIES = [
     signal: "established",
     scores: { team: 8, traction: 8, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Scale AI", "Surge AI"],
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "Data factory platform combining human annotation, model-assisted labeling, and active learning for high-quality AI training data",
     addedDate: "2026-02"
   },
   {
@@ -7193,6 +8045,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 8, momentum: 7 },
     competitors: ["Slingshot Aerospace", "ExoAnalytic"],
+    thesisCluster: "space-ground-comms",
+    techApproach: "Space situational awareness using phased-array radar network to track objects in LEO with centimeter-level precision",
     addedDate: "2026-02"
   },
   {
@@ -7212,6 +8066,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 8, market: 8, momentum: 7 },
     competitors: ["Lumafield", "KLA"],
+    thesisCluster: "battery-infrastructure",
+    techApproach: "Ultrasound-based battery inspection using acoustic imaging to detect defects during manufacturing without destroying cells",
     addedDate: "2026-02"
   },
   {
@@ -7231,6 +8087,8 @@ const COMPANIES = [
     signal: "established",
     scores: { team: 8, traction: 9, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["6 River Systems", "Fetch Robotics"],
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Warehouse AMRs that collaborate with human pickers to increase fulfillment productivity 2-3x through optimized path planning",
     addedDate: "2026-02"
   },
   {
@@ -7251,6 +8109,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 8, techMoat: 8, market: 8, momentum: 8 },
     competitors: ["Zeiss", "GE Inspection"],
+    thesisCluster: "inspection-quality-robots",
+    techApproach: "Industrial CT scanning providing accessible computed tomography for non-destructive inspection of manufactured components",
     addedDate: "2026-02"
   },
   {
@@ -7270,6 +8130,8 @@ const COMPANIES = [
     signal: "stealth",
     scores: { team: 7, traction: 5, techMoat: 7, market: 8, momentum: 6 },
     competitors: ["Palantir", "Anduril"],
+    thesisCluster: "ai-defense-intelligence",
+    techApproach: "Proprietary advances in information and complexity theory applied to defense intelligence analysis and decision systems",
     addedDate: "2026-02"
   },
   {
@@ -7289,6 +8151,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 7, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Covariant", "Dexterity"],
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Deep reinforcement learning for robotic picking in warehouses, enabling AI-powered handling of diverse, unseen objects",
     addedDate: "2026-02"
   },
   {
@@ -7308,6 +8172,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Cyngn", "Phantom Auto"],
+    thesisCluster: "logistics-supply-chain",
+    techApproach: "Autonomous electric yard trucks for distribution center logistics, automating the most repetitive outdoor freight operations",
     addedDate: "2026-02"
   },
   {
@@ -7328,6 +8194,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Intramotev", "Wabtec"],
+    thesisCluster: "logistics-supply-chain",
+    techApproach: "Autonomous battery-electric freight rail vehicles operating independently on existing rail infrastructure for flexible cargo routing",
     addedDate: "2026-02"
   },
   {
@@ -7347,6 +8215,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 8, techMoat: 7, market: 8, momentum: 8 },
     competitors: ["Carbyne", "RapidSOS"],
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "AI-powered 911 emergency dispatch using real-time speech analysis and situational awareness to improve response times",
     addedDate: "2026-02"
   },
   {
@@ -7366,6 +8236,8 @@ const COMPANIES = [
     signal: "stealth",
     scores: { team: 7, traction: 5, techMoat: 7, market: 9, momentum: 6 },
     competitors: ["Pano AI", "Descartes Labs"],
+    thesisCluster: "autonomy-delivery-logistics",
+    techApproach: "Autonomous drones prepositioned in wildfire-prone areas for immediate aerial suppression response at scale",
     addedDate: "2026-02"
   },
   {
@@ -7385,6 +8257,8 @@ const COMPANIES = [
     signal: "watch",
     scores: { team: 7, traction: 6, techMoat: 6, market: 8, momentum: 6 },
     competitors: ["Universal Robots", "FANUC"],
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Risk-free robotic palletizing solutions using pre-configured robotic cells for rapid deployment in manufacturing and logistics",
     addedDate: "2026-02"
   },
   {
@@ -7404,6 +8278,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 8, techMoat: 6, market: 9, momentum: 7 },
     competitors: ["ChargePoint", "EVgo"],
+    thesisCluster: "transport-electric-vehicles",
+    techApproach: "Largest public EV fast-charging network in NYC plus electric moped sharing for urban electric mobility infrastructure",
     addedDate: "2026-02"
   },
   {
@@ -7423,6 +8299,8 @@ const COMPANIES = [
     signal: "established",
     scores: { team: 9, traction: 8, techMoat: 8, market: 10, momentum: 7 },
     competitors: ["Tesla", "Ford F-150 Lightning"],
+    thesisCluster: "transport-electric-vehicles",
+    techApproach: "Electric adventure vehicles (R1S, R1T) and commercial delivery vans with Amazon partnership for fleet electrification",
     addedDate: "2026-02"
   },
   {
@@ -7442,6 +8320,8 @@ const COMPANIES = [
     signal: "established",
     scores: { team: 8, traction: 9, techMoat: 7, market: 9, momentum: 7 },
     competitors: ["Stripe Radar", "Kount"],
+    thesisCluster: "ai-saas-enterprise",
+    techApproach: "ML-based fraud detection using device fingerprinting, behavioral biometrics, and network analysis across payment and account flows",
     addedDate: "2026-02"
   },
   {
@@ -7461,6 +8341,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 8, momentum: 7 },
     competitors: ["LeoLabs", "ExoAnalytic"],
+    thesisCluster: "space-ground-comms",
+    techApproach: "AI-based satellite tracking and space traffic coordination using ML to predict orbital conjunctions and collision risks",
     addedDate: "2026-02"
   },
   {
@@ -7481,6 +8363,8 @@ const COMPANIES = [
     signal: "hot",
     scores: { team: 9, traction: 10, techMoat: 7, market: 10, momentum: 9 },
     competitors: ["Scale AI", "Labelbox"],
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "Specialized data annotation for RLHF and language data labeling using expert human evaluators for frontier model training",
     addedDate: "2026-02"
   },
   {
@@ -7500,6 +8384,8 @@ const COMPANIES = [
     signal: "stealth",
     scores: { team: 7, traction: 5, techMoat: 7, market: 8, momentum: 6 },
     competitors: ["Shield AI", "Anduril"],
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Sensor mesh networking drone swarms with edge computing for coordinated ISR and electronic warfare missions",
     addedDate: "2026-02"
   },
   {
@@ -7519,6 +8405,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 7, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["ev.energy", "Leap"],
+    thesisCluster: "battery-infrastructure",
+    techApproach: "ML-optimized EV-grid integration managing charging schedules to reduce grid stress while maximizing renewable energy utilization",
     addedDate: "2026-02"
   },
   {
@@ -7539,6 +8427,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["Fervo Energy", "Sage Geosystems"],
+    thesisCluster: "ai-mineral-exploration",
+    techApproach: "AI platform for geothermal resource discovery using proprietary subsurface modeling to identify optimal drilling locations",
     addedDate: "2026-02"
   },
 
@@ -7561,6 +8451,8 @@ const COMPANIES = [
     signal: "hot",
     scores: { team: 10, traction: 9, techMoat: 9, market: 10, momentum: 9 },
     competitors: ["OpenAI", "Anthropic", "Google"],
+    thesisCluster: "ai-foundation-models",
+    techApproach: "Enterprise-focused LLMs with RAG-optimized architectures for business applications, multilingual support, and on-premise deployment",
     addedDate: "2026-02"
   },
   {
@@ -7581,6 +8473,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 7, techMoat: 9, market: 9, momentum: 8 },
     competitors: ["Aurora", "TuSimple", "Kodiak"],
+    thesisCluster: "ai-autonomous-driving",
+    techApproach: "Simulation-first autonomous trucking using generative AI to create billions of driving scenarios for training without real-world miles",
     addedDate: "2026-02"
   },
   {
@@ -7600,6 +8494,8 @@ const COMPANIES = [
     signal: "established",
     scores: { team: 8, traction: 8, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Intercom", "Zendesk AI"],
+    thesisCluster: "ai-saas-enterprise",
+    techApproach: "AI-driven customer support automation using LLMs fine-tuned on company-specific data to resolve inquiries across channels",
     addedDate: "2026-02"
   },
   {
@@ -7619,6 +8515,8 @@ const COMPANIES = [
     signal: "established",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["IonQ", "Rigetti", "IBM Quantum"],
+    thesisCluster: "quantum-sensors-software",
+    techApproach: "Quantum annealing using 5,000+ qubit Advantage processor for combinatorial optimization problems in logistics, materials, and finance",
     addedDate: "2026-02"
   },
   {
@@ -7638,6 +8536,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 9, market: 9, momentum: 7 },
     competitors: ["PsiQuantum", "Xanadu"],
+    thesisCluster: "quantum-photonic",
+    techApproach: "Distributed quantum computing using silicon spin qubits connected via photonic links for modular, networked quantum architectures",
     addedDate: "2026-02"
   },
   {
@@ -7657,6 +8557,8 @@ const COMPANIES = [
     signal: "stealth",
     scores: { team: 7, traction: 5, techMoat: 8, market: 8, momentum: 6 },
     competitors: ["Yale Quantum", "Amazon AWS Center for Quantum Computing"],
+    thesisCluster: "quantum-superconducting",
+    techApproach: "Hardware-efficient quantum error correction using bosonic qubit encoding to achieve logical qubit performance without massive overhead",
     addedDate: "2026-02"
   },
   {
@@ -7676,6 +8578,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Starlink", "Telesat"],
+    thesisCluster: "space-ground-comms",
+    techApproach: "Satellite network enabling high-bandwidth data relay in space using optical inter-satellite links for space-to-space connectivity",
     addedDate: "2026-02"
   },
   {
@@ -7696,6 +8600,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 8, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["Planet Labs", "Kayrros"],
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "World\'s largest fleet of methane-monitoring satellites using high-resolution spectroscopy to pinpoint individual facility emissions",
     addedDate: "2026-02"
   },
   {
@@ -7715,6 +8621,8 @@ const COMPANIES = [
     signal: "stealth",
     scores: { team: 7, traction: 5, techMoat: 7, market: 8, momentum: 6 },
     competitors: ["Rocket Lab", "Relativity Space"],
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "Low-cost hybrid rocket technology combining solid fuel grains with liquid oxidizer for affordable small satellite launches",
     addedDate: "2026-02"
   },
   {
@@ -7734,6 +8642,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Figure AI", "1X Technologies", "Apptronik"],
+    thesisCluster: "humanoid-robotics",
+    techApproach: "Phoenix humanoid robot with Carbon AI control system pursuing artificial general intelligence through embodied learning",
     addedDate: "2026-02"
   },
   {
@@ -7753,6 +8663,8 @@ const COMPANIES = [
     signal: "established",
     scores: { team: 7, traction: 7, techMoat: 7, market: 7, momentum: 6 },
     competitors: ["Universal Robots", "FANUC"],
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "Lightweight robotic arms for medical, assistive, and research applications with focus on accessibility and human interaction",
     addedDate: "2026-02"
   },
   {
@@ -7772,6 +8684,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 7, market: 9, momentum: 6 },
     competitors: ["X-Energy", "NuScale", "Oklo"],
+    thesisCluster: "nuclear-smr-advanced",
+    techApproach: "ARC-100 small modular reactor generating 100MW of clean electricity using proven sodium-cooled fast reactor technology",
     addedDate: "2026-02"
   },
 
@@ -7794,6 +8708,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Palantir", "Anduril"],
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Defense integration platform providing modern technology solutions for Indo-Pacific allied military interoperability",
     addedDate: "2026-02"
   },
   {
@@ -7812,6 +8728,8 @@ const COMPANIES = [
     signal: "stable",
     scores: { team: 8, traction: 7, techMoat: 8, market: 8, momentum: 7 },
     competitors: ["Persistent Systems", "Silvus"],
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Mesh networking technology creating off-grid communication networks for military, first responder, and remote operations",
     addedDate: "2026-02"
   },
   {
@@ -7830,6 +8748,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 7, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Planet Labs", "Spire Global"],
+    thesisCluster: "space-satellites-buses",
+    techApproach: "Nanosatellite manufacturer providing shared satellite-as-a-service platform for rapid, affordable space mission deployment",
     addedDate: "2026-02"
   },
   {
@@ -7848,6 +8768,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["Reliable Robotics", "Xwing"],
+    thesisCluster: "evtol-air-taxi",
+    techApproach: "AI-powered pilot assistance (FlightOS) making any aircraft fly-by-wire autonomous, starting with helicopters for safer aviation",
     addedDate: "2026-02"
   },
 
@@ -7868,6 +8790,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 8, momentum: 7 },
     competitors: ["Built Robotics", "Canvas"],
+    thesisCluster: "construction-modular",
+    techApproach: "Autonomous robots printing precise building layouts directly onto construction floors using robotic total station technology",
     addedDate: "2026-02"
   },
   {
@@ -7886,6 +8810,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Starship", "Nuro"],
+    thesisCluster: "autonomy-delivery-logistics",
+    techApproach: "Autonomous last-mile delivery robots using AI perception for sidewalk navigation and package delivery in diverse environments",
     addedDate: "2026-02"
   },
 
@@ -7906,6 +8832,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["Sublime Systems", "CarbonCure"],
+    thesisCluster: "cement-green",
+    techApproach: "Zero-carbon cement using a reactive calcium carbonate process that captures CO2 during manufacturing rather than emitting it",
     addedDate: "2026-02"
   },
   {
@@ -7925,6 +8853,8 @@ const COMPANIES = [
     signal: "stable",
     scores: { team: 8, traction: 8, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Twelve", "LanzaJet"],
+    thesisCluster: "carbon-capture-utilization",
+    techApproach: "Gas fermentation using engineered bacteria to convert industrial CO2 emissions into ethanol, jet fuel, and chemical feedstocks",
     addedDate: "2026-02"
   },
   {
@@ -7943,6 +8873,8 @@ const COMPANIES = [
     signal: "stable",
     scores: { team: 9, traction: 7, techMoat: 9, market: 10, momentum: 7 },
     competitors: ["Solid Power", "SES AI"],
+    thesisCluster: "battery-advanced-chemistry",
+    techApproach: "Solid-state lithium-metal batteries using ceramic solid electrolyte for 80% higher energy density and 15-minute fast charging",
     addedDate: "2026-02"
   },
   {
@@ -7961,6 +8893,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Bloom Energy", "FuelCell Energy"],
+    thesisCluster: "energy-storage-thermal-gravity",
+    techApproach: "Linear generator technology converting any gaseous fuel into electricity through free-piston engine with 90% lower emissions",
     addedDate: "2026-02"
   },
   {
@@ -7979,6 +8913,8 @@ const COMPANIES = [
     signal: "hot",
     scores: { team: 9, traction: 8, techMoat: 7, market: 9, momentum: 9 },
     competitors: ["Persefoni", "Salesforce Net Zero Cloud"],
+    thesisCluster: "ai-saas-enterprise",
+    techApproach: "Enterprise carbon accounting platform using proprietary emission factors and ML to measure, reduce, and report corporate carbon footprints",
     addedDate: "2026-02"
   },
 
@@ -7999,6 +8935,8 @@ const COMPANIES = [
     signal: "hot",
     scores: { team: 9, traction: 7, techMoat: 8, market: 9, momentum: 9 },
     competitors: ["OpenAI", "Anthropic", "Mistral"],
+    thesisCluster: "ai-drug-discovery",
+    techApproach: "Nature-inspired AI research building foundation models using evolutionary and swarm optimization rather than traditional training",
     addedDate: "2026-02"
   },
   {
@@ -8017,6 +8955,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Hugging Face", "Replicate"],
+    thesisCluster: "ai-foundation-models",
+    techApproach: "Open-source AI infrastructure providing optimized training, fine-tuning, and inference for open models at scale",
     addedDate: "2026-02"
   },
   {
@@ -8035,6 +8975,8 @@ const COMPANIES = [
     signal: "hot",
     scores: { team: 9, traction: 8, techMoat: 8, market: 9, momentum: 9 },
     competitors: ["Pika Labs", "Stability AI"],
+    thesisCluster: "ai-generative-media",
+    techApproach: "Generative AI for video creation using diffusion models for text-to-video, image-to-video, and cinematic visual effects",
     addedDate: "2026-02"
   },
   {
@@ -8053,6 +8995,8 @@ const COMPANIES = [
     signal: "stable",
     scores: { team: 8, traction: 5, techMoat: 7, market: 7, momentum: 6 },
     competitors: ["Meta", "Apple"],
+    thesisCluster: "consumer-hardware",
+    techApproach: "AI-powered wearable device (AI Pin) using projection and voice as primary interfaces to replace smartphone-centric computing",
     addedDate: "2026-02"
   },
 
@@ -8073,6 +9017,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 7, techMoat: 9, market: 9, momentum: 8 },
     competitors: ["United Therapeutics", "Makana Therapeutics"],
+    thesisCluster: "biotech-novel-biology",
+    techApproach: "CRISPR-engineered pig organs for xenotransplantation, using 69+ gene edits to make pig kidneys compatible with human recipients",
     addedDate: "2026-02"
   },
   {
@@ -8092,6 +9038,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 8, market: 7, momentum: 7 },
     competitors: ["Aromyx", "Aryballe"],
+    thesisCluster: "consumer-hardware",
+    techApproach: "Digital olfaction using AI to encode, transmit, and reproduce scents — the first company to teleport a smell",
     addedDate: "2026-02"
   },
   {
@@ -8110,6 +9058,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 8, market: 8, momentum: 7 },
     competitors: ["Emulate", "CN Bio"],
+    thesisCluster: "biotech-novel-biology",
+    techApproach: "Lab-grown human organ models for pharmaceutical testing, replacing animal trials with physiologically accurate tissue systems",
     addedDate: "2026-02"
   },
   {
@@ -8128,6 +9078,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["Ori Biotech", "Lonza"],
+    thesisCluster: "biotech-lab-automation",
+    techApproach: "Automated cell therapy manufacturing platform scaling CAR-T production from weeks to days through end-to-end robotic processing",
     addedDate: "2026-02"
   },
   {
@@ -8146,6 +9098,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Absci", "Generate Biomedicines"],
+    thesisCluster: "ai-drug-discovery",
+    techApproach: "ML-driven antibody discovery combining AI protein design with automated high-throughput screening in a closed-loop system",
     addedDate: "2026-02"
   },
   {
@@ -8164,6 +9118,8 @@ const COMPANIES = [
     signal: "stable",
     scores: { team: 7, traction: 6, techMoat: 7, market: 8, momentum: 6 },
     competitors: ["Upside Foods", "Good Meat"],
+    thesisCluster: "biotech-novel-biology",
+    techApproach: "Cultivated animal fat produced through cell culture technology, creating real fat without animals for food applications",
     addedDate: "2026-02"
   },
 
@@ -8193,6 +9149,8 @@ const COMPANIES = [
     scores: { team: 7, traction: 6, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["Climeworks", "Carbon Engineering"],
     recentEvent: { type: "funding", text: "Deep Future investment for carbon capture technology", date: "2025-12" },
+    thesisCluster: "carbon-capture-dac",
+    techApproach: "Cryogenic carbon capture freezing smokestack CO2 to dry ice at -140C for permanent storage, avoiding chemical sorbent degradation",
     addedDate: "2026-02"
   },
   {
@@ -8217,6 +9175,8 @@ const COMPANIES = [
     scores: { team: 8, traction: 8, techMoat: 8, market: 8, momentum: 8 },
     competitors: ["QuikClot", "Celox"],
     recentEvent: { type: "regulatory", text: "FDA clearance for Traumagel hemostatic gel", date: "2026-01" },
+    thesisCluster: "medical-devices-surgical",
+    techApproach: "Traumagel hemostatic gel using algae and fungi-based biopolymers to stop moderate to severe bleeding within seconds",
     addedDate: "2026-02"
   },
   {
@@ -8241,6 +9201,8 @@ const COMPANIES = [
     scores: { team: 7, traction: 6, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Anduril Industries", "Shield AI", "Neros"],
     recentEvent: { type: "milestone", text: "Drone swarm demonstrations for military applications", date: "2025-11" },
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "Low-cost drone swarms for military applications proving that quantity with AI coordination can overcome quality advantages",
     addedDate: "2026-02"
   },
   {
@@ -8264,6 +9226,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 8, market: 8, momentum: 7 },
     competitors: ["Saildrone", "Ocean Infinity"],
+    thesisCluster: "autonomy-maritime",
+    techApproach: "Autonomous underwater robotic systems for ocean exploration, data collection, and subsea industrial operations",
     addedDate: "2026-02"
   },
   {
@@ -8287,6 +9251,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["RDC Aqualines", "Regent Craft", "Brittany Ferries"],
+    thesisCluster: "maritime-electric-transport",
+    techApproach: "Ground-effect vehicle (ekranoplan) using modern composites and electric propulsion to fly cargo just above water at high speed",
     addedDate: "2026-02"
   },
   {
@@ -8310,6 +9276,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 7, techMoat: 7, market: 9, momentum: 7 },
     competitors: ["Boxabl", "Factory OS"],
+    thesisCluster: "construction-modular",
+    techApproach: "Mobile micro-factories manufacturing homes from kits of parts using portable factory equipment for on-site construction",
     addedDate: "2026-02"
   },
 
@@ -8339,6 +9307,8 @@ const COMPANIES = [
     scores: { team: 9, traction: 8, techMoat: 8, market: 9, momentum: 9 },
     competitors: ["Anduril Industries", "Shield AI"],
     recentEvent: { type: "milestone", text: "Active deployment supporting Ukraine defense operations", date: "2025-12" },
+    thesisCluster: "autonomy-drone-military",
+    techApproach: "AI-powered autonomous drones for target identification and military strike missions using advanced computer vision and ML",
     addedDate: "2026-02"
   },
   {
@@ -8363,6 +9333,8 @@ const COMPANIES = [
     scores: { team: 8, traction: 8, techMoat: 7, market: 9, momentum: 8 },
     competitors: ["Palantir", "Anduril"],
     recentEvent: { type: "funding", text: "$80M raised for DoD digital systems integration", date: "2024-12" },
+    thesisCluster: "ai-defense-intelligence",
+    techApproach: "Digital systems integration modernizing legacy defense electronics with software-defined architectures and open standards",
     addedDate: "2026-02"
   },
   {
@@ -8386,6 +9358,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 8, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["Epirus", "Dedrone", "DroneShield"],
+    thesisCluster: "autonomy-counter-drone",
+    techApproach: "DroneHunter autonomous interceptor using AI to detect, track, and physically capture rogue drones with net-based systems",
     addedDate: "2026-02"
   },
   {
@@ -8409,6 +9383,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 5, techMoat: 9, market: 8, momentum: 7 },
     competitors: ["General Matter", "Centrus Energy"],
+    thesisCluster: "nuclear-services-fuel",
+    techApproach: "Atomic Vapor Laser Isotope Separation (AVLIS) for lithium isotope enrichment critical for fusion reactor tritium breeding",
     addedDate: "2026-02"
   },
   {
@@ -8432,6 +9408,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 5, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Terraform Industries", "Twelve"],
+    thesisCluster: "synfuels-solar",
+    techApproach: "Sustainable hydrocarbon synthesis producing fossil-free natural gas from renewable inputs for Earth and space applications",
     addedDate: "2026-02"
   },
   {
@@ -8455,6 +9433,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 7, techMoat: 9, market: 10, momentum: 9 },
     competitors: ["Lockheed Martin", "Raytheon"],
+    thesisCluster: "defense-munitions-energetics",
+    techApproach: "Next-gen precision-guided munitions designed for rapid production using modern manufacturing and simplified supply chains",
     addedDate: "2026-02"
   },
   {
@@ -8478,6 +9458,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 5, techMoat: 8, market: 8, momentum: 7 },
     competitors: ["AWS", "Google Cloud", "Lumen Orbit"],
+    thesisCluster: "data-center-infrastructure",
+    techApproach: "Space-based cloud computing deploying data centers in orbit for reduced latency and unlimited cooling via space environment",
     addedDate: "2026-02"
   },
   {
@@ -8501,6 +9483,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 8, market: 10, momentum: 7 },
     competitors: ["NuScale", "TerraPower", "X-energy", "Kairos Power"],
+    thesisCluster: "nuclear-smr-advanced",
+    techApproach: "Compact factory-built SMRs designed for rapid deployment using proven pressurized water reactor technology in a modular format",
     addedDate: "2026-02"
   },
   {
@@ -8524,6 +9508,8 @@ const COMPANIES = [
     signal: "stable",
     scores: { team: 8, traction: 7, techMoat: 8, market: 10, momentum: 7 },
     competitors: ["Climeworks", "Carbon Engineering", "Heirloom"],
+    thesisCluster: "carbon-capture-dac",
+    techApproach: "Modular direct air capture using mass-manufactured sorbent cartridges in a standardized, containerized system for rapid scaling",
     addedDate: "2026-02"
   },
   {
@@ -8547,6 +9533,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 9, market: 9, momentum: 7 },
     competitors: ["Nanocomp", "OCSiAl"],
+    thesisCluster: "semiconductor-advanced-materials",
+    techApproach: "High-performance carbon nanotube manufacturing using proprietary CVD process for aerospace, defense, and semiconductor applications",
     addedDate: "2026-02"
   },
   {
@@ -8570,6 +9558,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 8, techMoat: 7, market: 10, momentum: 8 },
     competitors: ["Charm Industrial", "CarbonCapture Inc.", "Climeworks"],
+    thesisCluster: "carbon-capture-utilization",
+    techApproach: "Biomass carbon storage converting plant waste into stable, compressed blocks that lock carbon away for thousands of years",
     addedDate: "2026-02"
   },
   {
@@ -8593,6 +9583,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Lynk Global", "AST SpaceMobile", "Starlink"],
+    thesisCluster: "space-ground-comms",
+    techApproach: "Direct-to-device satellite communications enabling global smartphone connectivity without specialized satellite phone hardware",
     addedDate: "2026-02"
   },
   {
@@ -8616,6 +9608,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 9, market: 9, momentum: 7 },
     competitors: ["Intuitive Surgical", "Medtronic"],
+    thesisCluster: "medical-devices-surgical",
+    techApproach: "AI-powered surgical navigation using intraoperative imaging and real-time guidance for minimally invasive neurosurgery",
     addedDate: "2026-02"
   },
   {
@@ -8639,6 +9633,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 8, techMoat: 9, market: 10, momentum: 8 },
     competitors: ["Plug Power", "Nel ASA", "ITM Power"],
+    thesisCluster: "electrolysis-green-hydrogen",
+    techApproach: "Industrial-scale PEM electrolyzers producing green hydrogen at fossil fuel cost parity for steel, ammonia, and fuel applications",
     addedDate: "2026-02"
   },
   {
@@ -8662,6 +9658,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 9, market: 9, momentum: 7 },
     competitors: ["L3Harris", "Northrop Grumman"],
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Software platform transforming existing sensor data into real-time electromagnetic spectrum maps for situational awareness",
     addedDate: "2026-02"
   },
   {
@@ -8685,6 +9683,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["Boeing Orca", "Anduril Dive-LD"],
+    thesisCluster: "autonomy-maritime",
+    techApproach: "Scalable autonomous underwater vehicles for US Navy undersea missions using modular, mass-producible AUV platforms",
     addedDate: "2026-02"
   },
   {
@@ -8708,6 +9708,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 9, market: 10, momentum: 8 },
     competitors: ["Swarm", "Kineis", "Myriota"],
+    thesisCluster: "space-ground-comms",
+    techApproach: "Satellite network connecting any Bluetooth-enabled device globally using LEO satellites with custom signal processing",
     addedDate: "2026-02"
   },
   {
@@ -8731,6 +9733,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 8, techMoat: 8, market: 10, momentum: 8 },
     competitors: ["Fervo Energy", "Eavor", "Quaise Energy"],
+    thesisCluster: "geothermal-next-gen",
+    techApproach: "Geopressured geothermal EarthStore system harvesting energy from pressurized underground formations while providing energy storage",
     addedDate: "2026-02"
   },
   {
@@ -8754,6 +9758,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 9, market: 9, momentum: 7 },
     competitors: ["Antora Energy", "Rondo Energy"],
+    thesisCluster: "energy-storage-thermal-gravity",
+    techApproach: "Ultra-high-temperature thermal storage using 2400C liquid tin as heat transfer fluid in thermophotovoltaic generators",
     addedDate: "2026-02"
   },
   {
@@ -8777,6 +9783,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 8, techMoat: 9, market: 9, momentum: 8 },
     competitors: ["Ginkgo Bioworks", "Synthego"],
+    thesisCluster: "biotech-novel-biology",
+    techApproach: "Synthetic biology CAD tools for designing genetic circuits and cell lines with predictable behavior for biomanufacturing",
     addedDate: "2026-02"
   },
   {
@@ -8800,6 +9808,8 @@ const COMPANIES = [
     signal: "stable",
     scores: { team: 8, traction: 7, techMoat: 8, market: 10, momentum: 7 },
     competitors: ["LanzaTech", "Solugen"],
+    thesisCluster: "carbon-capture-utilization",
+    techApproach: "Synthetic microbe engineering creating custom organisms that absorb CO2 and convert it into industrial chemicals and fuels",
     addedDate: "2026-02"
   },
   {
@@ -8823,6 +9833,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 8, techMoat: 9, market: 9, momentum: 8 },
     competitors: ["Quantum Machines", "Keysight"],
+    thesisCluster: "quantum-sensors-software",
+    techApproach: "Quantum infrastructure software using optimal control theory to suppress hardware errors and extend qubit coherence times",
     addedDate: "2026-02"
   },
   {
@@ -8846,6 +9858,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 8, techMoat: 9, market: 9, momentum: 8 },
     competitors: ["CHAOS Industries", "Dedrone"],
+    thesisCluster: "defense-ew-rf-cyber",
+    techApproach: "Passive RF sensing detecting drones and aircraft by analyzing ambient radio signals without emitting detectable radar signatures",
     addedDate: "2026-02"
   },
   {
@@ -8869,6 +9883,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 8, techMoat: 9, market: 8, momentum: 8 },
     competitors: ["Astroscale", "Orbit Fab"],
+    thesisCluster: "space-debris-servicing",
+    techApproach: "Active debris removal spacecraft using robotic capture arms, contracted by ESA for the first commercial debris removal mission",
     addedDate: "2026-02"
   },
   {
@@ -8892,6 +9908,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 7, techMoat: 10, market: 10, momentum: 9 },
     competitors: ["Generate Biomedicines", "Absci"],
+    thesisCluster: "ai-drug-discovery",
+    techApproach: "De novo protein design using large language models trained on protein sequences to generate novel functional proteins",
     addedDate: "2026-02"
   },
   {
@@ -8915,6 +9933,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 8, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["Gen 2 Carbon", "Carbon Conversions"],
+    thesisCluster: "semiconductor-advanced-materials",
+    techApproach: "AI-driven robotics for near-infinite recycling of carbon fiber composites, turning aerospace waste into reusable structural materials",
     addedDate: "2026-02"
   },
   {
@@ -8938,6 +9958,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 8, techMoat: 10, market: 9, momentum: 8 },
     competitors: ["SandboxAQ", "Vector Atomic"],
+    thesisCluster: "quantum-sensors-software",
+    techApproach: "Atom-based quantum sensors including atomic clocks 100x more precise than GPS and quantum RF receivers for defense",
     addedDate: "2026-02"
   },
   {
@@ -8961,6 +9983,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Zipline", "Volansi", "Wing"],
+    thesisCluster: "autonomy-delivery-logistics",
+    techApproach: "Chaparral hybrid-electric autonomous VTOL cargo drone for middle-mile logistics in remote and underserved areas",
     addedDate: "2026-02"
   },
   {
@@ -8985,6 +10009,8 @@ const COMPANIES = [
     signal: "stable",
     scores: { team: 8, traction: 7, techMoat: 8, market: 10, momentum: 7 },
     competitors: ["QuantumScape", "Factorial Energy", "SES AI"],
+    thesisCluster: "battery-advanced-chemistry",
+    techApproach: "Sulfide-based all-solid-state battery technology for EVs developed in partnership with Ford and BMW for safer, denser cells",
     addedDate: "2026-02"
   },
   {
@@ -9008,6 +10034,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 9, market: 10, momentum: 8 },
     competitors: ["Intel Loihi", "BrainChip", "SynSense"],
+    thesisCluster: "ai-hardware-inference",
+    techApproach: "Brain-inspired neuromorphic processing units (NPUs) for energy-efficient AI inference mimicking biological neural computation",
     addedDate: "2026-02"
   },
   {
@@ -9031,6 +10059,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 7, techMoat: 9, market: 10, momentum: 8 },
     competitors: ["RunwayML", "Google DeepMind"],
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "Multimodal AI foundation models for video understanding enabling semantic search, classification, and generation from video content",
     addedDate: "2026-02"
   },
   {
@@ -9054,6 +10084,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Weights & Biases", "Arize AI"],
+    thesisCluster: "ai-computer-vision-sensing",
+    techApproach: "ML testing and validation platform enabling systematic evaluation of model performance across edge cases and data slices",
     addedDate: "2026-02"
   },
   {
@@ -9077,6 +10109,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 8, techMoat: 8, market: 10, momentum: 9 },
     competitors: ["Replicate", "Banana", "RunPod"],
+    thesisCluster: "data-center-infrastructure",
+    techApproach: "Serverless cloud infrastructure abstracting GPU provisioning and container orchestration for AI/ML workloads with pay-per-use",
     addedDate: "2026-02"
   },
   {
@@ -9101,6 +10135,8 @@ const COMPANIES = [
     signal: "stable",
     scores: { team: 8, traction: 8, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["York Space Systems", "Blue Canyon Technologies"],
+    thesisCluster: "space-satellites-buses",
+    techApproach: "End-to-end satellite solutions from design through manufacturing and operations for small and medium satellite constellations",
     addedDate: "2026-02"
   },
   {
@@ -9124,6 +10160,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 6, techMoat: 7, market: 8, momentum: 7 },
     competitors: ["Rocket Lab", "Relativity Space", "ABL Space"],
+    thesisCluster: "space-launch-small-intl",
+    techApproach: "Skyrora XL orbital launch vehicle for small satellite delivery from UK-based vertical launch facilities",
     addedDate: "2026-02"
   },
   {
@@ -9147,6 +10185,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 9, market: 8, momentum: 7 },
     competitors: ["Accion Systems", "Busek", "Phase Four"],
+    thesisCluster: "space-propulsion-engines",
+    techApproach: "Hall-effect plasma thrusters for small satellite propulsion enabling precise orbital maneuvering with electric propulsion",
     addedDate: "2026-02"
   },
   {
@@ -9171,6 +10211,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 10, traction: 9, techMoat: 10, market: 9, momentum: 10 },
     competitors: ["IonQ", "IBM Quantum", "Google Quantum AI", "Rigetti Computing", "PsiQuantum"],
+    thesisCluster: "quantum-trapped-ion",
+    techApproach: "Integrated trapped-ion quantum computing combining Honeywell precision engineering with Cambridge Quantum algorithms in H-Series processors",
     addedDate: "2026-02"
   },
   {
@@ -9195,6 +10237,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 9, market: 9, momentum: 8 },
     competitors: ["Seaborg Technologies", "Copenhagen Atomics", "Prodigy Clean Energy"],
+    thesisCluster: "nuclear-smr-advanced",
+    techApproach: "Floating molten salt nuclear reactors for maritime propulsion and offshore power, decarbonizing the global shipping fleet",
     addedDate: "2026-02"
   },
   {
@@ -9219,6 +10263,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 7 },
     competitors: ["Augmentus", "RoboDK", "Fuzzy Logic Robotics", "Formic"],
+    thesisCluster: "robotics-cobots-warehouse",
+    techApproach: "No-code NOVA platform enabling non-programmers to teach industrial robots tasks by demonstration rather than coding",
     addedDate: "2026-02"
   },
   {
@@ -9243,6 +10289,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 10, market: 10, momentum: 8 },
     competitors: ["ASML", "Tokyo Electron", "Lam Research", "Veeco Instruments"],
+    thesisCluster: "semiconductor-advanced-materials",
+    techApproach: "Atomic Layer Processing (APS) technology achieving sub-10nm patterning without EUV lithography using selective atomic-scale etching",
     addedDate: "2026-02"
   },
   {
@@ -9267,6 +10315,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 10, market: 10, momentum: 8 },
     competitors: ["Commonwealth Fusion Systems", "Helion Energy", "TAE Technologies", "General Fusion"],
+    thesisCluster: "fusion-alternative",
+    techApproach: "Levitated dipole fusion using a magnetically suspended superconducting ring to confine plasma — the only company pursuing this approach",
     addedDate: "2026-02"
   },
   {
@@ -9291,6 +10341,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 9, market: 9, momentum: 7 },
     competitors: ["IQM Quantum Computers", "Pasqal", "Alice & Bob", "Oxford Quantum Circuits"],
+    thesisCluster: "quantum-superconducting",
+    techApproach: "Coherent analog superconducting quantum computers using fluxonium qubits for reduced error rates and improved gate fidelity",
     addedDate: "2026-02"
   },
   {
@@ -9315,6 +10367,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 9, market: 9, momentum: 8 },
     competitors: ["PsiQuantum", "Xanadu", "ORCA Computing", "Quandela"],
+    thesisCluster: "quantum-photonic",
+    techApproach: "Commercial photonic quantum computers using proprietary TriPleX silicon nitride waveguide platform for room-temperature operation",
     addedDate: "2026-02"
   },
   {
@@ -9339,6 +10393,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 6, techMoat: 9, market: 9, momentum: 8 },
     competitors: ["Quantum Motion", "Intel", "Snowcap"],
+    thesisCluster: "quantum-sensors-software",
+    techApproach: "Cryogenic CMOS transistors consuming 0.1% of room-temperature power for quantum computing control electronics at millikelvin temperatures",
     addedDate: "2026-02"
   },
   {
@@ -9363,6 +10419,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 8, techMoat: 9, market: 9, momentum: 9 },
     competitors: ["No direct competitors"],
+    thesisCluster: "maritime-electric-transport",
+    techApproach: "Electric seagliders using wing-in-ground-effect to fly just above water at 180mph on battery power for coastal transport",
     addedDate: "2026-02"
   },
   {
@@ -9387,6 +10445,8 @@ const COMPANIES = [
     signal: "early",
     scores: { team: 7, traction: 5, techMoat: 8, market: 9, momentum: 6 },
     competitors: ["D-Orbit", "Orbit Fab", "Momentus Space", "Impulse Space"],
+    thesisCluster: "space-debris-servicing",
+    techApproach: "Reusable in-space logistics vehicles that remain in orbit permanently, providing station-to-station cargo transport services",
     addedDate: "2026-02"
   },
   {
@@ -9411,6 +10471,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 7, traction: 5, techMoat: 9, market: 10, momentum: 6 },
     competitors: ["Quantum Computing Inc.", "Infleqtion", "Alpine Quantum Technologies"],
+    thesisCluster: "quantum-sensors-software",
+    techApproach: "Room-temperature carbon-based 12CQ qubit chip using single-atom spin properties in carbon lattices on standard silicon wafers",
     addedDate: "2026-02"
   },
   {
@@ -9435,6 +10497,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 9, traction: 8, techMoat: 9, market: 10, momentum: 9 },
     competitors: ["Hailo", "SiMa.ai", "Axelera AI", "NVIDIA"],
+    thesisCluster: "ai-hardware-inference",
+    techApproach: "Edge AI chips designed by Apple A-series architect, delivering high-performance neural inference at ultra-low power for edge devices",
     addedDate: "2026-02"
   },
   {
@@ -9459,6 +10523,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 8 },
     competitors: ["ICEYE", "Capella Space", "Synspective", "Umbra"],
+    thesisCluster: "satellite-earth-observation",
+    techApproach: "Combined SAR and AIS satellite constellation — world\'s first dual-sensor platform for comprehensive maritime surveillance",
     addedDate: "2026-02"
   },
   {
@@ -9483,6 +10549,8 @@ const COMPANIES = [
     signal: "rising",
     scores: { team: 8, traction: 8, techMoat: 9, market: 9, momentum: 7 },
     competitors: ["Tesat-Spacecom", "CACI / SA Photonics", "Honeywell Skyloom"],
+    thesisCluster: "space-ground-comms",
+    techApproach: "Laser optical inter-satellite link terminals enabling 10 Gbps data highways between satellites using free-space laser communications",
     addedDate: "2026-02"
   }
 ];

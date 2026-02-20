@@ -463,6 +463,7 @@
 
   function renderCompetitiveSection(company) {
     renderCompetitors(company);
+    renderThesisNeighbors(company);
     renderThesis(company);
     renderMoatEvidence(company);
   }
@@ -507,6 +508,49 @@
           </a>
         `).join('')}
       </div>
+    `;
+  }
+
+  function renderThesisNeighbors(company) {
+    const container = document.getElementById('thesis-neighbors-list');
+    const card = document.getElementById('thesis-neighbors-card');
+    if (!container || !company.thesisCluster) {
+      if (card) card.style.display = 'none';
+      return;
+    }
+
+    // Find all companies in the same thesis cluster
+    const neighbors = COMPANIES
+      .filter(c => c.thesisCluster === company.thesisCluster && c.name !== company.name)
+      .sort((a, b) => {
+        const signalOrder = { 'hot': 0, 'rising': 1, 'established': 2, 'early': 3, 'stealth': 4 };
+        return (signalOrder[a.signal] || 5) - (signalOrder[b.signal] || 5);
+      });
+
+    if (neighbors.length === 0) {
+      if (card) card.style.display = 'none';
+      return;
+    }
+
+    const clusterLabel = company.thesisCluster.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    const signalEmoji = { hot: '🔥', rising: '📈', established: '💚', early: '🌱', stealth: '👻' };
+
+    container.innerHTML = `
+      <div style="margin-bottom: 10px; padding: 6px 12px; background: #1a1a1a; border-radius: 6px; font-size: 12px; color: #FF6B2C;">
+        Cluster: ${clusterLabel} (${neighbors.length + 1} companies)
+      </div>
+      ${company.techApproach ? `<div style="margin-bottom: 12px; font-size: 12px; color: #aaa; border-left: 2px solid #FF6B2C; padding-left: 10px; line-height: 1.5;">
+        <strong style="color: #ddd;">This company:</strong> ${company.techApproach}
+      </div>` : ''}
+      <div class="competitor-grid">
+        ${neighbors.slice(0, 12).map(c => `
+          <a href="company.html?slug=${profileSlug(c.name)}" class="competitor-chip" style="flex-direction: column; align-items: flex-start; gap: 2px;">
+            <span>${signalEmoji[c.signal] || ''} ${c.name}</span>
+            ${c.techApproach ? `<span style="font-size: 10px; color: var(--text-muted); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${c.techApproach}</span>` : ''}
+          </a>
+        `).join('')}
+      </div>
+      ${neighbors.length > 12 ? `<p style="font-size: 11px; color: var(--text-muted); margin-top: 8px;">+${neighbors.length - 12} more in this cluster</p>` : ''}
     `;
   }
 
