@@ -3,97 +3,102 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.58,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 4.63,
       "count": 1
     },
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 3.28,
+      "avg_change": 7.47,
       "count": 7
     },
     "autonomous": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 4.02,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 4.03,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.92,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -2.0,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -10.78,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.22,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.28,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.56,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.2,
+      "avg_change": 3.06,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.88,
+      "avg_change": 3.49,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -4.54,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.06,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "PL",
-      "Planet Labs",
-      15.98
+      "SATL",
+      "Satellogic",
+      26.14
     ],
     [
       "TEM",
       "Tempus AI",
-      11.84
+      14.62
     ],
     [
       "AUR",
       "Aurora Innovation",
-      11.47
+      13.34
     ],
     [
-      "RKLB",
-      "Rocket Lab",
-      10.0
+      "PL",
+      "Planet Labs",
+      11.83
     ],
     [
-      "9348.T",
-      "ispace",
-      8.88
+      "LUNR",
+      "Intuitive Machines",
+      10.91
     ]
   ],
   "topLosers": [
     [
       "SLDP",
       "Solid Power",
-      -7.2
+      -3.19
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      -7.72
+      "QBTS",
+      "D-Wave Quantum",
+      -4.25
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -5.45
     ],
     [
       "ASRHF",
@@ -101,15 +106,10 @@
       -9.04
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -10.85
-    ],
-    [
       "QS",
       "QuantumScape",
-      -18.71
+      -10.92
     ]
   ],
-  "lastUpdated": "2026-02-20 14:26:51"
+  "lastUpdated": "2026-02-20 19:50:01"
 }
