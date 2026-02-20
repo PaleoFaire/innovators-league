@@ -9,6 +9,7 @@
     safeInit('initHeroStats', initHeroStats);
     safeInit('initTalentFlow', initTalentFlow);
     safeInit('initMafiaExplorer', initMafiaExplorer);
+    safeInit('initFounderDNA', initFounderDNA);
     safeInit('initTalentMagnets', initTalentMagnets);
     safeInit('initSectorHiring', initSectorHiring);
     safeInit('initTalentGeo', initTalentGeo);
@@ -495,6 +496,145 @@
       initTalentPageInner();
     }
   };
+
+  // ── Founder DNA Index ──
+  function initFounderDNA() {
+    var statsEl = document.getElementById('fd-stats-row');
+    var serialEl = document.getElementById('fd-serial-section');
+    var sectorEl = document.getElementById('fd-sector-grid');
+    var lbEl = document.getElementById('fd-leaderboard');
+    var structEl = document.getElementById('fd-structure-chart');
+    if (!statsEl) return;
+
+    var dna = (typeof FOUNDER_DNA !== 'undefined' && Array.isArray(FOUNDER_DNA)) ? FOUNDER_DNA : [];
+    var sectors = (typeof FOUNDER_DNA_SECTORS !== 'undefined' && Array.isArray(FOUNDER_DNA_SECTORS)) ? FOUNDER_DNA_SECTORS : [];
+    var serials = (typeof FOUNDER_SERIAL_MAP !== 'undefined' && Array.isArray(FOUNDER_SERIAL_MAP)) ? FOUNDER_SERIAL_MAP : [];
+    if (dna.length === 0) return;
+
+    // Helper: format millions
+    function fmtM(val) {
+      if (!val || val <= 0) return 'N/A';
+      if (val >= 1000) return '$' + (val / 1000).toFixed(1) + 'B';
+      return '$' + Math.round(val) + 'M';
+    }
+
+    // ── 1. Summary Stats ──
+    var totalFounders = dna.reduce(function(s, d) { return s + d.founderCount; }, 0);
+    var mafiaConnected = dna.filter(function(d) { return d.mafiaCount > 0; }).length;
+    var mafiaPercent = Math.round((mafiaConnected / dna.length) * 100);
+    var avgDna = Math.round(dna.reduce(function(s, d) { return s + d.dnaScore; }, 0) / dna.length);
+
+    statsEl.innerHTML =
+      '<div class="fd-stat-card"><div class="fd-stat-number">' + totalFounders.toLocaleString() + '</div><div class="fd-stat-label">Founders Profiled</div></div>' +
+      '<div class="fd-stat-card"><div class="fd-stat-number">' + dna.length + '</div><div class="fd-stat-label">Companies</div></div>' +
+      '<div class="fd-stat-card"><div class="fd-stat-number">' + mafiaPercent + '%</div><div class="fd-stat-label">Mafia Connected</div></div>' +
+      '<div class="fd-stat-card"><div class="fd-stat-number">' + serials.length + '</div><div class="fd-stat-label">Serial Founders</div></div>' +
+      '<div class="fd-stat-card"><div class="fd-stat-number">' + avgDna + '</div><div class="fd-stat-label">Avg DNA Score</div></div>';
+
+    // ── 2. Serial Founders Spotlight ──
+    if (serialEl && serials.length > 0) {
+      var serialHtml = '<h3 class="fd-sub-header">\uD83D\uDD04 Serial Founders</h3><div class="fd-serial-grid">';
+      serials.slice(0, 10).forEach(function(sf) {
+        var pills = sf.companies.map(function(c) { return '<span class="fd-serial-pill">' + c + '</span>'; }).join('');
+        serialHtml +=
+          '<div class="fd-serial-card">' +
+            '<div class="fd-serial-name">' + sf.founder + '</div>' +
+            '<div class="fd-serial-companies">' + sf.companies.length + ' companies across ' + sf.sectors.length + ' sector' + (sf.sectors.length > 1 ? 's' : '') + '</div>' +
+            '<div class="fd-serial-pills">' + pills + '</div>' +
+            '<div class="fd-serial-badge">' + fmtM(sf.totalCapitalRaisedM) + ' total capital</div>' +
+          '</div>';
+      });
+      serialHtml += '</div>';
+      serialEl.innerHTML = serialHtml;
+    }
+
+    // ── 3. Sector DNA Patterns ──
+    if (sectorEl && sectors.length > 0) {
+      var sectorIcons = {};
+      if (typeof SECTORS !== 'undefined') {
+        Object.keys(SECTORS).forEach(function(k) { sectorIcons[k] = SECTORS[k].icon || ''; });
+      }
+
+      var sectorHtml = '<h3 class="fd-sub-header">\uD83E\uDDEC Sector DNA Patterns</h3>';
+      // Show top 10 sectors by DNA score
+      sectors.slice(0, 10).forEach(function(sec) {
+        var icon = sectorIcons[sec.sector] || '';
+        sectorHtml +=
+          '<div class="fd-sector-card">' +
+            '<div class="fd-sector-name">' + icon + ' ' + sec.sector + '</div>' +
+            '<div class="fd-sector-stats">' +
+              '<div class="fd-sector-stat"><div class="fd-sector-stat-val">' + sec.avgDnaScore + '</div><div class="fd-sector-stat-lbl">Avg DNA</div></div>' +
+              '<div class="fd-sector-stat"><div class="fd-sector-stat-val">' + sec.avgFounderCount + '</div><div class="fd-sector-stat-lbl">Avg Founders</div></div>' +
+              '<div class="fd-sector-stat"><div class="fd-sector-stat-val">' + sec.pctMafiaConnected + '%</div><div class="fd-sector-stat-lbl">Mafia %</div></div>' +
+            '</div>' +
+            '<div class="fd-sector-top">Top: ' + sec.topDnaCompanies.join(', ') + '</div>' +
+          '</div>';
+      });
+      sectorEl.innerHTML = sectorHtml;
+    }
+
+    // ── 4. DNA Leaderboard (Top 25) ──
+    if (lbEl) {
+      var maxDna = dna.length > 0 ? dna[0].dnaScore : 1;
+      var lbHtml = '<h3 class="fd-sub-header">\uD83C\uDFC6 Top 25 by Founder DNA Score</h3>';
+      dna.slice(0, 25).forEach(function(d, idx) {
+        var rank = idx + 1;
+        var barWidth = Math.max(5, (d.dnaScore / maxDna) * 100);
+        var mafiaTags = d.mafiaConnections.map(function(m) {
+          var short = m.replace(' Mafia', '').replace(' Alumni', '').replace(' Deep Tech', '');
+          return '<span class="fd-mafia-tag">' + short + '</span>';
+        }).join(' ');
+        var serialBadge = d.hasSerialFounder ? ' <span class="fd-serial-badge">Serial</span>' : '';
+        var structIcon = { solo: '\u{1F464}', duo: '\u{1F465}', trio: '\u{1F465}', squad: '\u{1F46A}', large: '\u{1F3E2}' };
+        var sIcon = structIcon[d.teamStructure] || '';
+
+        lbHtml +=
+          '<div class="fd-lb-row">' +
+            '<div class="fd-lb-rank' + (rank <= 3 ? ' top3' : '') + '">' + rank + '</div>' +
+            '<div class="fd-lb-info">' +
+              '<div class="fd-lb-company">' + d.company + serialBadge + '</div>' +
+              '<div class="fd-lb-meta">' +
+                '<span>' + sIcon + ' ' + d.teamStructure + ' (' + d.founderCount + ')</span>' +
+                '<span>' + d.sector + '</span>' +
+                (mafiaTags ? '<span>' + mafiaTags + '</span>' : '') +
+              '</div>' +
+            '</div>' +
+            '<div class="fd-lb-bar-wrapper"><div class="fd-lb-bar-track"><div class="fd-lb-bar-fill" style="width:' + barWidth + '%;"></div></div></div>' +
+            '<div class="fd-lb-score" style="color:' + (d.dnaScore >= 60 ? 'var(--accent)' : d.dnaScore >= 45 ? 'var(--text-primary)' : 'var(--text-muted)') + ';">' + d.dnaScore + '</div>' +
+          '</div>';
+      });
+      lbEl.innerHTML = lbHtml;
+    }
+
+    // ── 5. Team Structure Distribution ──
+    if (structEl) {
+      var structCounts = { solo: 0, duo: 0, trio: 0, squad: 0, large: 0 };
+      dna.forEach(function(d) { structCounts[d.teamStructure] = (structCounts[d.teamStructure] || 0) + 1; });
+      var total = dna.length;
+      var structDefs = [
+        { key: 'solo', label: 'Solo Founder', icon: '\u{1F464}', desc: '1 founder' },
+        { key: 'duo', label: 'Duo', icon: '\u{1F465}', desc: '2 founders' },
+        { key: 'trio', label: 'Trio', icon: '\u{1F46B}', desc: '3 founders' },
+        { key: 'squad', label: 'Squad', icon: '\u{1F46A}', desc: '4-5 founders' },
+        { key: 'large', label: 'Large Team', icon: '\u{1F3E2}', desc: '6+ founders' }
+      ];
+
+      var structHtml = '<h3 class="fd-sub-header">\u{1F4CA} Team Structure Distribution</h3><div class="fd-structure-chart">';
+      structDefs.forEach(function(sd) {
+        var count = structCounts[sd.key] || 0;
+        var pct = total > 0 ? Math.round((count / total) * 100) : 0;
+        structHtml +=
+          '<div class="fd-structure-item">' +
+            '<div class="fd-structure-icon">' + sd.icon + '</div>' +
+            '<div class="fd-structure-count">' + count + '</div>' +
+            '<div class="fd-structure-label">' + sd.label + '</div>' +
+            '<div class="fd-structure-pct">' + pct + '% · ' + sd.desc + '</div>' +
+          '</div>';
+      });
+      structHtml += '</div>';
+      structEl.innerHTML = structHtml;
+    }
+  }
 
   // ── Boot ──
   // If on merged page (tab-talent exists), don't auto-init — wait for tab click.

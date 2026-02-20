@@ -442,6 +442,53 @@
         .geo-stat-value { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; color: var(--accent); }
         .geo-stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
 
+        /* ── Founder DNA Index ── */
+        .fd-stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin-bottom: 32px; }
+        .fd-stat-card { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; text-align: center; }
+        .fd-stat-number { font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 800; color: var(--accent); }
+        .fd-stat-label { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+
+        .fd-sub-header { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 16px; color: var(--text-primary); margin-bottom: 16px; margin-top: 8px; }
+        .fd-serial-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-bottom: 32px; }
+        .fd-serial-card { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; transition: all 0.2s ease; }
+        .fd-serial-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .fd-serial-name { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 16px; color: var(--text-primary); margin-bottom: 6px; }
+        .fd-serial-companies { font-size: 12px; color: var(--text-muted); line-height: 1.5; }
+        .fd-serial-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; background: rgba(255,107,44,0.1); color: var(--accent); margin-top: 8px; }
+        .fd-serial-pills { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+        .fd-serial-pill { padding: 3px 8px; border-radius: 12px; font-size: 11px; font-weight: 500; background: var(--bg); border: 1px solid var(--border); color: var(--text-secondary); }
+
+        .fd-sector-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-bottom: 32px; }
+        .fd-sector-card { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; transition: all 0.2s ease; }
+        .fd-sector-card:hover { border-color: var(--accent); }
+        .fd-sector-name { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 14px; color: var(--text-primary); margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+        .fd-sector-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 10px; }
+        .fd-sector-stat { text-align: center; }
+        .fd-sector-stat-val { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 18px; color: var(--accent); }
+        .fd-sector-stat-lbl { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+        .fd-sector-top { font-size: 11px; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 8px; }
+
+        .fd-lb-row { display: flex; align-items: center; gap: 16px; padding: 14px 20px; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 8px; transition: all 0.2s ease; }
+        .fd-lb-row:hover { border-color: var(--accent); }
+        .fd-lb-rank { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 16px; color: var(--text-muted); width: 32px; text-align: center; flex-shrink: 0; }
+        .fd-lb-rank.top3 { color: var(--accent); }
+        .fd-lb-info { flex: 1; min-width: 0; }
+        .fd-lb-company { font-weight: 600; font-size: 14px; color: var(--text-primary); }
+        .fd-lb-meta { font-size: 12px; color: var(--text-muted); margin-top: 2px; display: flex; gap: 12px; flex-wrap: wrap; }
+        .fd-lb-score { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 20px; min-width: 50px; text-align: right; flex-shrink: 0; }
+        .fd-lb-bar-wrapper { flex: 0 0 120px; display: flex; align-items: center; }
+        .fd-lb-bar-track { flex: 1; height: 6px; background: var(--bg); border-radius: 3px; overflow: hidden; }
+        .fd-lb-bar-fill { height: 100%; border-radius: 3px; background: var(--accent); transition: width 0.8s ease; }
+        .fd-mafia-tag { padding: 2px 8px; border-radius: 12px; font-size: 10px; font-weight: 600; color: #3b82f6; background: rgba(59,130,246,0.1); }
+
+        .fd-structure-chart { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin-top: 16px; }
+        .fd-structure-item { text-align: center; padding: 16px 24px; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius); min-width: 120px; flex: 1; }
+        .fd-structure-item:hover { border-color: var(--accent); }
+        .fd-structure-icon { font-size: 24px; margin-bottom: 8px; }
+        .fd-structure-count { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 24px; color: var(--accent); }
+        .fd-structure-label { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
+        .fd-structure-pct { font-size: 11px; color: var(--text-secondary); }
+
         @media (max-width: 768px) {
             .flow-row { flex-direction: column; align-items: stretch; gap: 6px; }
             .flow-source { flex: none; }
@@ -452,6 +499,10 @@
             .sector-bar-label { flex: 0 0 140px; font-size: 12px; }
             .geo-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
             .magnet-row { flex-wrap: wrap; }
+            .fd-stats-row { grid-template-columns: repeat(2, 1fr); }
+            .fd-sector-grid, .fd-serial-grid { grid-template-columns: 1fr; }
+            .fd-lb-bar-wrapper { display: none; }
+            .fd-lb-meta { flex-direction: column; gap: 4px; }
         }
         @media (max-width: 480px) {
             .magnet-bar-wrapper { flex: 1 1 100%; order: 3; }
@@ -634,6 +685,22 @@
             </div>
         </section>
 
+        <!-- Founder DNA Index -->
+        <section class="section" id="founder-dna">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">FOUNDER INTELLIGENCE</p>
+                    <h2>Founder DNA Index</h2>
+                    <p>Quantified founder profiles — team structure, pedigree networks, capital efficiency, and serial founder patterns across 500+ companies.</p>
+                </div>
+                <div class="fd-stats-row" id="fd-stats-row"></div>
+                <div class="fd-serial-section" id="fd-serial-section"></div>
+                <div class="fd-sector-grid" id="fd-sector-grid"></div>
+                <div class="fd-leaderboard" id="fd-leaderboard"></div>
+                <div class="fd-structure-chart" id="fd-structure-chart"></div>
+            </div>
+        </section>
+
         <!-- Talent Magnet Leaderboard -->
         <section class="section talent-magnets-section" id="talent-magnets">
             <div class="container">
@@ -708,7 +775,8 @@
     <script src="data.js?v=20260220j"></script>
     <script src="data/jobs_auto.js?v=20260219z"></script>
     <script src="jobs.js?v=20260219z"></script>
-    <script src="talent.js?v=20260219z"></script>
+    <script src="data/founder_dna.js?v=20260220m"></script>
+    <script src="talent.js?v=20260220m"></script>
     <script>
     function switchJTTab(tab) {
         document.getElementById('tab-jobs').style.display = tab === 'jobs' ? '' : 'none';
