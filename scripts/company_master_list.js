@@ -6,8 +6,8 @@
  * Used by all data fetchers for comprehensive news monitoring.
  * 
  * Coverage: 100% of companies in data.js
- * Total companies: 500
- * Last updated: 2026-02-16 10:13:22
+ * Total companies: 513
+ * Last updated: 2026-02-20
  * 
  * Each company has:
  *   - name: Official company name
@@ -517,6 +517,20 @@ const MASTER_COMPANY_LIST = [
   { name: "Terran Orbital", aliases: ["TerranOrbital", "small satellites", "satellite manufacturing", "space defense", "LEO constellations"], sector: "space", ticker: "LLAP" },
   { name: "Skyrora", aliases: ["launch vehicles", "small satellites", "UK space", "European launch"], sector: "space", ticker: null },
   { name: "Orbion Space Technology", aliases: ["Orbion Space", "OrbionSpaceTechnology", "electric propulsion", "plasma thrusters", "satellite propulsion", "space tech"], sector: "space", ticker: null },
+  { name: "Quantinuum", aliases: ["trapped-ion", "quantum computing", "Honeywell Quantum", "Cambridge Quantum", "H-Series"], sector: "quantum", ticker: null },
+  { name: "CORE POWER", aliases: ["CorePower", "maritime nuclear", "molten salt reactor", "floating nuclear", "shipping decarbonization"], sector: "nuclear", ticker: null },
+  { name: "Wandelbots", aliases: ["no-code robotics", "NOVA platform", "robot programming", "industrial automation"], sector: "robotics", ticker: null },
+  { name: "AlixLabs", aliases: ["APS technology", "atomic layer etching", "semiconductor patterning", "EUV alternative"], sector: "semiconductor", ticker: null },
+  { name: "OpenStar", aliases: ["levitated dipole", "fusion energy", "dipole fusion", "New Zealand fusion"], sector: "energy", ticker: null },
+  { name: "Qilimanjaro", aliases: ["fluxonium qubits", "analog quantum", "superconducting quantum", "Barcelona quantum"], sector: "quantum", ticker: null },
+  { name: "QuiX Quantum", aliases: ["QuiXQuantum", "photonic quantum", "TriPleX", "silicon nitride quantum"], sector: "quantum", ticker: null },
+  { name: "SemiQon", aliases: ["cryogenic CMOS", "cryo-CMOS", "quantum chips", "cryogenic semiconductor"], sector: "quantum", ticker: null },
+  { name: "REGENT Craft", aliases: ["REGENTCraft", "seaglider", "electric seaglider", "Viceroy", "ground effect vehicle"], sector: "transportation", ticker: null },
+  { name: "Orbit2Orbit", aliases: ["orbital logistics", "space logistics", "in-space transport", "reusable space tug"], sector: "space", ticker: null },
+  { name: "Archer Materials", aliases: ["ArcherMaterials", "12CQ chip", "carbon qubit", "room temperature quantum"], sector: "quantum", ticker: "AXE" },
+  { name: "DEEPX", aliases: ["edge AI chip", "DX-M1", "DX-M2", "Korean AI semiconductor", "neural processor"], sector: "semiconductor", ticker: null },
+  { name: "PierSight", aliases: ["SAR satellite", "maritime surveillance", "ocean monitoring", "AIS satellite"], sector: "space", ticker: null },
+  { name: "Mynaric", aliases: ["laser communications", "CONDOR", "optical inter-satellite link", "OISL", "space laser"], sector: "space", ticker: "MYNA" },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
