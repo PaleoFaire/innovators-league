@@ -18834,23 +18834,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-20 10:04
+// Last updated: 2026-02-20 14:27
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Turbopuffer", headline: "Leading US Research Lab Appears to Be Squeezing Out Foreign Scientists", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Durin", headline: "The Olympics and Politics Are More Intertwined Than Ever. Maybe That's a Good Thing", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Cape", headline: "Estonia begins buying hundreds of pop-up bunkers to fortify border with Russia", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Cuby Technologies", headline: "US Navy taps Fincantieri to build Marine Corps landing vessels", source: "Defense News", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Durin", headline: "Iran and the Gulf: Why Hedging Is No Longer Enough", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Ample", headline: "Tesla Receives FCC Waiver for Cybercab Wireless Charging System", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Orbital Marine Power", headline: "Trump GOP: Forget Progress, Back to the Caves!", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "DIRAC", headline: "A US Sodium-Ion Battery Maker Challenges Powerwall For Home Energy Storage, And More", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Terraform Industries", headline: "The War Against Solar Power Is Doomed To Fail, Part Infinity", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Fervo Energy", headline: "Enhanced Geothermal Systems Could Expand Geothermal Power Generation", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Rainmaker", headline: "Sierra Club Report: PFAS Found in Nearly All Alabama's Waterways", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Terraform Industries", headline: "Solar Power Used To Charge An EV In The Sub-Arctic", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Kela", headline: "Jeffrey Epstein's Ties to CBP Agents Sparked a DOJ Probe", source: "Wired", time: "6h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Terraform Industries", headline: "Coloradans Push Back On Trump Trying To Force Coal On Them", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Diode", headline: "A $10K Bounty Awaits Anyone Who Can Hack Ring Cameras to Stop Sharing Data With Amazon", source: "Wired", time: "8h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Waymo", headline: "New York Pulls Back on Robotaxi Legislation", source: "CleanTechnica", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "hire", company: "Matic Robotics", headline: "As Dems push for briefing on El Paso incident, experts warn it could be the 'tip of the iceberg''", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI says 18 to 24-year-olds account for nearly 50% of ChatGPT usage in India", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Vannevar Labs", headline: "Your Coffee Grinder Is as Important as Your Brewer'Here Are the 5 Best We've Tested", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Photonic Inc", headline: "The Download: Microsoft's online reality check, and the worrying rise in measles cases", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "Retro Biosciences", headline: "Epilogue GB Operator Review: Play Your Game Boy Games on a Laptop", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Array Labs", headline: "Boeing to boost production of missile-tracking sensors for military satellites", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "The OpenAI mafia: 18 startups founded by alumni", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Destinus", headline: "NASA completes second Artemis 2 fueling test", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "SpaceX", headline: "Rocket Report: Chinese launch firm raises big money; Falcon 9 back to the Bahamas", source: "Ars Technica Space", time: "2h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Formic", headline: "AI Seed Trends: More Multimedia, Backend Automation, Agentic Security, And Yes, Robots", source: "Crunchbase News", time: "2h ago", impact: "high", unread: false },
+  { id: 12, type: "ipo", company: "Scale AI", headline: "Could AI Data Centers Be Moved to Outer Space?", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Cerebras", headline: "UAE's G42 teams up with Cerebras to deploy 8 exaflops of compute in India", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Agility Robotics", headline: "Meet Scotland's Whisky-Sniffing Robot Dog", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Cover", headline: "The Search Engine for OnlyFans Models Who Look Like Your Crush", source: "Wired", time: "3h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
