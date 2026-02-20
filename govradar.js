@@ -152,11 +152,30 @@ function safeInit(name, fn) {
   }
 }
 
+// ─── MERGED DATA HELPER ───
+
+function getAllDemandSignals() {
+  var curated = (typeof GOV_DEMAND_TRACKER !== 'undefined') ? GOV_DEMAND_TRACKER : [];
+  var auto = (typeof GOV_DEMAND_SIGNALS_AUTO !== 'undefined') ? GOV_DEMAND_SIGNALS_AUTO : [];
+
+  // Merge, with curated taking priority on duplicate IDs
+  var seenIds = {};
+  var merged = [];
+  curated.forEach(function(s) { seenIds[s.id] = true; merged.push(s); });
+  auto.forEach(function(s) { if (!seenIds[s.id]) { merged.push(s); } });
+  return merged;
+}
+
+function getGovPullScores() {
+  return (typeof GOV_PULL_SCORES_AUTO !== 'undefined') ? GOV_PULL_SCORES_AUTO : {};
+}
+
 // ─── MASTER INIT ───
 
 function initGovRadar() {
   safeInit('heroStats', initHeroStats);
   safeInit('demandHeatmap', initDemandHeatmap);
+  safeInit('demandRadar', initDemandRadar);
   safeInit('opportunities', initOpportunities);
   safeInit('contractorReadiness', initContractorReadiness);
   safeInit('budgetSignals', initBudgetSignals);
@@ -180,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // ─── 1. HERO STATS ───
 
 function initHeroStats() {
-  var tracker = (typeof GOV_DEMAND_TRACKER !== 'undefined') ? GOV_DEMAND_TRACKER : [];
+  var tracker = getAllDemandSignals();
 
   // Count opportunities
   var oppCount = tracker.length;
@@ -213,7 +232,7 @@ function initHeroStats() {
 // ─── 2. DEMAND HEATMAP ───
 
 function initDemandHeatmap() {
-  var tracker = (typeof GOV_DEMAND_TRACKER !== 'undefined') ? GOV_DEMAND_TRACKER : [];
+  var tracker = getAllDemandSignals();
   var container = document.getElementById('heatmap-container');
   if (!container || tracker.length === 0) return;
 
@@ -304,7 +323,7 @@ function escapeHtml(str) {
 // ─── 3. OPPORTUNITIES BOARD ───
 
 function initOpportunities() {
-  var tracker = (typeof GOV_DEMAND_TRACKER !== 'undefined') ? GOV_DEMAND_TRACKER : [];
+  var tracker = getAllDemandSignals();
   var filtersEl = document.getElementById('opp-filters');
   var gridEl = document.getElementById('opp-grid');
   if (!gridEl) return;
@@ -665,7 +684,8 @@ function initAgencySpending() {
 // ─── 8. COMPANY ↔ OPPORTUNITY MATCH ───
 
 function initCompanyMatch() {
-  var tracker = (typeof GOV_DEMAND_TRACKER !== 'undefined') ? GOV_DEMAND_TRACKER : [];
+  var tracker = getAllDemandSignals();
+  var pullScores = getGovPullScores();
   var gridEl = document.getElementById('match-grid');
   if (!gridEl) return;
 
@@ -699,9 +719,15 @@ function initCompanyMatch() {
     var opps = companyIndex[co];
     var cardId = 'match-card-' + idx;
 
+    var ps = pullScores[co];
+    var pullBadge = '';
+    if (ps && ps.govPullScore) {
+      var pullClass = ps.govPullScore >= 60 ? 'gov-pull-high' : (ps.govPullScore >= 30 ? 'gov-pull-medium' : 'gov-pull-low');
+      pullBadge = '<span class="gov-pull-badge ' + pullClass + '" title="Government Pull Score">' + ps.govPullScore + '</span>';
+    }
     html += '<div class="match-card">';
-    html += '<div class="match-company-name">' + escapeHtml(co) + '</div>';
-    html += '<div class="match-count">' + opps.length + ' matching opportunit' + (opps.length === 1 ? 'y' : 'ies') + '</div>';
+    html += '<div style="display:flex;align-items:center;gap:0.5rem;">' + pullBadge + '<div class="match-company-name">' + escapeHtml(co) + '</div></div>';
+    html += '<div class="match-count">' + opps.length + ' matching opportunit' + (opps.length === 1 ? 'y' : 'ies') + (ps ? ' &middot; Pull Score: ' + ps.govPullScore : '') + '</div>';
     html += '<button class="match-toggle" data-target="' + cardId + '" onclick="toggleMatchList(this)">Show Opportunities</button>';
     html += '<div class="match-opp-list" id="' + cardId + '">';
     opps.forEach(function(opp) {
@@ -731,6 +757,236 @@ function toggleMatchList(btn) {
   var isExpanded = list.classList.contains('expanded');
   list.classList.toggle('expanded');
   btn.textContent = isExpanded ? 'Show Opportunities' : 'Hide Opportunities';
+}
+
+// ─── 9. DEMAND SIGNAL RADAR ───
+
+function initDemandRadar() {
+  var signals = getAllDemandSignals();
+  var pullScores = getGovPullScores();
+
+  var controlsEl = document.getElementById('radar-controls');
+  var statsEl = document.getElementById('radar-stats');
+  var gridEl = document.getElementById('radar-grid');
+  if (!gridEl) return;
+
+  if (signals.length === 0) {
+    gridEl.innerHTML = '<div class="empty-state">No demand signals available.</div>';
+    return;
+  }
+
+  // Extract filter options
+  var agencySet = new Set();
+  var typeSet = new Set();
+  signals.forEach(function(s) {
+    if (s.agency) agencySet.add(s.agency);
+    if (s.type) typeSet.add(s.type);
+  });
+
+  // Build controls
+  if (controlsEl) {
+    var chtml = '';
+    chtml += '<div class="radar-search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>';
+    chtml += '<input type="text" id="radar-search" placeholder="Search signals, companies..."></div>';
+
+    chtml += '<select class="radar-filter-select" id="radar-agency-filter"><option value="all">All Agencies</option>';
+    Array.from(agencySet).sort().forEach(function(ag) {
+      chtml += '<option value="' + escapeHtml(ag) + '">' + escapeHtml(ag.length > 40 ? ag.slice(0, 38) + '...' : ag) + '</option>';
+    });
+    chtml += '</select>';
+
+    chtml += '<select class="radar-filter-select" id="radar-confidence-filter">';
+    chtml += '<option value="0">All Confidence</option>';
+    chtml += '<option value="30">Score &ge; 30</option>';
+    chtml += '<option value="50">Score &ge; 50</option>';
+    chtml += '<option value="70">Score &ge; 70</option>';
+    chtml += '</select>';
+
+    controlsEl.innerHTML = chtml;
+
+    document.getElementById('radar-search').addEventListener('input', renderRadar);
+    document.getElementById('radar-agency-filter').addEventListener('change', renderRadar);
+    document.getElementById('radar-confidence-filter').addEventListener('change', renderRadar);
+  }
+
+  renderRadar();
+
+  function renderRadar() {
+    var searchVal = (document.getElementById('radar-search') ? document.getElementById('radar-search').value : '').toLowerCase();
+    var agencyVal = document.getElementById('radar-agency-filter') ? document.getElementById('radar-agency-filter').value : 'all';
+    var confidenceVal = parseInt(document.getElementById('radar-confidence-filter') ? document.getElementById('radar-confidence-filter').value : '0', 10);
+
+    // Filter signals
+    var filtered = signals.filter(function(s) {
+      if (agencyVal !== 'all' && s.agency !== agencyVal) return false;
+
+      // If confidence filter is set, only show signals that have at least one match above threshold
+      if (confidenceVal > 0) {
+        var hasMatch = (s.matchedCompanies || []).some(function(mc) { return mc.score >= confidenceVal; });
+        if (!hasMatch && !(s.relevantCompanies && s.relevantCompanies.length > 0 && confidenceVal <= 30)) return false;
+      }
+
+      if (searchVal) {
+        var searchText = (s.title + ' ' + s.agency + ' ' + s.description + ' ' + (s.relevantCompanies || []).join(' ')).toLowerCase();
+        if (searchText.indexOf(searchVal) === -1) return false;
+      }
+
+      return true;
+    });
+
+    // Sort: Critical first, then by deadline
+    var priorityOrder = { 'Critical': 0, 'High': 1, 'Medium': 2, 'Low': 3 };
+    filtered.sort(function(a, b) {
+      var pa = priorityOrder[a.priority] !== undefined ? priorityOrder[a.priority] : 4;
+      var pb = priorityOrder[b.priority] !== undefined ? priorityOrder[b.priority] : 4;
+      if (pa !== pb) return pa - pb;
+      return daysUntil(a.deadline) - daysUntil(b.deadline);
+    });
+
+    // Stats
+    if (statsEl) {
+      var totalMatches = 0;
+      var matchedCos = new Set();
+      var avgScore = 0;
+      var scoreCount = 0;
+      filtered.forEach(function(s) {
+        var mc = s.matchedCompanies || [];
+        totalMatches += mc.length;
+        mc.forEach(function(m) {
+          matchedCos.add(m.name);
+          avgScore += m.score;
+          scoreCount++;
+        });
+        if (mc.length === 0 && s.relevantCompanies) {
+          s.relevantCompanies.forEach(function(c) { matchedCos.add(c); });
+        }
+      });
+      var avg = scoreCount > 0 ? Math.round(avgScore / scoreCount) : 0;
+
+      statsEl.innerHTML = '<div class="radar-stat-item"><span class="radar-stat-number">' + filtered.length + '</span><span class="radar-stat-label">Demand Signals</span></div>' +
+        '<div class="radar-stat-item"><span class="radar-stat-number">' + matchedCos.size + '</span><span class="radar-stat-label">Companies Matched</span></div>' +
+        '<div class="radar-stat-item"><span class="radar-stat-number">' + totalMatches + '</span><span class="radar-stat-label">Total Matches</span></div>' +
+        '<div class="radar-stat-item"><span class="radar-stat-number">' + avg + '%</span><span class="radar-stat-label">Avg Relevance</span></div>';
+    }
+
+    // Render cards
+    if (filtered.length === 0) {
+      gridEl.innerHTML = '<div class="empty-state">No demand signals match the selected filters.</div>';
+      return;
+    }
+
+    var html = '';
+    filtered.forEach(function(signal, idx) {
+      var days = daysUntil(signal.deadline);
+      var dlClass = deadlineClass(days);
+      var dlText = deadlineText(days);
+      var typeBadge = oppTypeBadgeClass(signal.type);
+      var priClass = priorityColor(signal.priority);
+
+      // Source badge
+      var sourceApi = signal.sourceApi || 'seed';
+      var srcClass = 'radar-source-' + (sourceApi === 'sbir.gov' ? 'sbir' : sourceApi === 'grants.gov' ? 'grants' : sourceApi === 'sam.gov' ? 'sam' : 'seed');
+      var srcLabel = sourceApi === 'seed' ? 'Curated' : sourceApi;
+
+      html += '<div class="radar-card">';
+
+      // Header
+      html += '<div class="radar-card-header"><div>';
+      html += '<div class="radar-card-badges">';
+      html += '<span class="opp-type-badge ' + typeBadge + '">' + escapeHtml(signal.type || 'Opportunity') + '</span>';
+      html += '<span class="opp-priority-badge ' + priClass + '">' + escapeHtml(signal.priority || '') + '</span>';
+      html += '<span class="radar-source-badge ' + srcClass + '">' + escapeHtml(srcLabel) + '</span>';
+      html += '</div>';
+      html += '<div class="radar-card-title">' + escapeHtml(signal.title) + '</div>';
+      html += '<div class="radar-card-agency">' + escapeHtml(signal.agency || '') + '</div>';
+      html += '</div></div>';
+
+      // Description
+      if (signal.description) {
+        html += '<div class="radar-card-desc">' + escapeHtml(signal.description) + '</div>';
+      }
+
+      // Meta
+      html += '<div class="radar-card-meta">';
+      if (signal.value) html += '<span class="radar-card-value">' + escapeHtml(signal.value) + '</span>';
+      if (signal.deadline) html += '<span class="opp-deadline ' + dlClass + '">' + dlText + '</span>';
+      if (signal.techAreas && signal.techAreas.length > 0) {
+        signal.techAreas.slice(0, 5).forEach(function(t) {
+          html += '<span class="opp-tag">' + escapeHtml(t) + '</span>';
+        });
+      }
+      html += '</div>';
+
+      // Matched companies
+      var mc = signal.matchedCompanies || [];
+      var flatCompanies = signal.relevantCompanies || [];
+
+      if (mc.length > 0) {
+        html += '<div class="radar-matches-section">';
+        html += '<div class="radar-matches-label">Matched Companies (' + mc.length + ')</div>';
+        html += '<div class="radar-matches-list">';
+
+        var showCount = Math.min(mc.length, 5);
+        for (var i = 0; i < showCount; i++) {
+          var m = mc[i];
+          var scoreClass = m.score >= 70 ? 'score-high' : (m.score >= 40 ? 'score-medium' : 'score-low');
+          var barClass = m.score >= 70 ? 'bar-high' : (m.score >= 40 ? 'bar-medium' : 'bar-low');
+          var slug = m.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+          html += '<div class="radar-match-item">';
+          html += '<a href="company.html?slug=' + slug + '" class="radar-match-name">' + escapeHtml(m.name) + '</a>';
+          html += '<div class="radar-match-bar-track"><div class="radar-match-bar-fill ' + barClass + '" style="width:' + m.score + '%;"></div></div>';
+          html += '<span class="radar-match-score ' + scoreClass + '">' + m.score + '%</span>';
+          if (m.matchReasons && m.matchReasons.length > 0) {
+            html += '<span class="radar-match-reasons">' + escapeHtml(m.matchReasons.slice(0, 2).join(', ')) + '</span>';
+          }
+          html += '</div>';
+        }
+
+        if (mc.length > 5) {
+          var moreId = 'radar-more-' + idx;
+          html += '<div id="' + moreId + '" style="display:none;">';
+          for (var j = 5; j < mc.length; j++) {
+            var m2 = mc[j];
+            var sc2 = m2.score >= 70 ? 'score-high' : (m2.score >= 40 ? 'score-medium' : 'score-low');
+            var bc2 = m2.score >= 70 ? 'bar-high' : (m2.score >= 40 ? 'bar-medium' : 'bar-low');
+            var sl2 = m2.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+            html += '<div class="radar-match-item">';
+            html += '<a href="company.html?slug=' + sl2 + '" class="radar-match-name">' + escapeHtml(m2.name) + '</a>';
+            html += '<div class="radar-match-bar-track"><div class="radar-match-bar-fill ' + bc2 + '" style="width:' + m2.score + '%;"></div></div>';
+            html += '<span class="radar-match-score ' + sc2 + '">' + m2.score + '%</span>';
+            html += '</div>';
+          }
+          html += '</div>';
+          html += '<button class="radar-show-more" onclick="toggleRadarMore(this, \'' + moreId + '\')">Show ' + (mc.length - 5) + ' more</button>';
+        }
+
+        html += '</div></div>';
+      } else if (flatCompanies.length > 0) {
+        // Fallback for curated signals without matchedCompanies
+        html += '<div class="radar-matches-section">';
+        html += '<div class="radar-matches-label">Relevant Companies</div>';
+        html += '<div class="opp-tags">';
+        flatCompanies.forEach(function(c) {
+          html += '<span class="opp-tag company-tag">' + escapeHtml(c) + '</span>';
+        });
+        html += '</div></div>';
+      }
+
+      html += '</div>'; // radar-card
+    });
+
+    gridEl.innerHTML = html;
+  }
+}
+
+function toggleRadarMore(btn, moreId) {
+  var el = document.getElementById(moreId);
+  if (!el) return;
+  var hidden = el.style.display === 'none';
+  el.style.display = hidden ? 'block' : 'none';
+  btn.textContent = hidden ? 'Show less' : btn.textContent.replace('Show less', 'Show more');
 }
 
 // ─── MOBILE MENU ───

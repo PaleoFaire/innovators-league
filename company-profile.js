@@ -1309,43 +1309,98 @@
     const container = document.getElementById('gov-demand-content');
     if (!card || !container) return false;
 
-    if (typeof GOV_DEMAND_TRACKER === 'undefined') return false;
+    // Merge curated + auto signals
+    const curated = (typeof GOV_DEMAND_TRACKER !== 'undefined') ? GOV_DEMAND_TRACKER : [];
+    const auto = (typeof GOV_DEMAND_SIGNALS_AUTO !== 'undefined') ? GOV_DEMAND_SIGNALS_AUTO : [];
+    const seenIds = {};
+    const allSignals = [];
+    curated.forEach(s => { seenIds[s.id] = true; allSignals.push(s); });
+    auto.forEach(s => { if (!seenIds[s.id]) allSignals.push(s); });
 
-    // Match by relevantCompanies or techAreas
-    const demands = GOV_DEMAND_TRACKER.filter(d => {
-      if (!d) return false;
-      const companyMatch = (d.relevantCompanies || []).some(c => c.toLowerCase() === company.name.toLowerCase());
-      const techMatch = (d.techAreas || []).some(t => {
-        if (!company.sector) return false;
-        const sectorKey = company.sector.toLowerCase();
-        return sectorKey.includes(t.toLowerCase().split(' ')[0]) || t.toLowerCase().includes(sectorKey.split(' ')[0]);
-      });
-      return companyMatch || techMatch;
-    }).slice(0, 5);
+    if (allSignals.length === 0) return false;
 
-    if (demands.length === 0) return false;
+    // Get Government Pull Score
+    const pullScores = (typeof GOV_PULL_SCORES_AUTO !== 'undefined') ? GOV_PULL_SCORES_AUTO : {};
+    const pullScore = pullScores[company.name];
+
+    // Find matches using multiple strategies
+    const matches = [];
+    const companyNameLower = company.name.toLowerCase();
+
+    allSignals.forEach(d => {
+      if (!d) return;
+
+      // Strategy 1: Pre-computed matchedCompanies (from auto-generated data)
+      const autoMatch = (d.matchedCompanies || []).find(mc => mc.name.toLowerCase() === companyNameLower);
+      if (autoMatch) {
+        matches.push({ signal: d, score: autoMatch.score, reasons: autoMatch.matchReasons || [] });
+        return;
+      }
+
+      // Strategy 2: Hardcoded relevantCompanies (from curated data)
+      if ((d.relevantCompanies || []).some(c => c.toLowerCase() === companyNameLower)) {
+        matches.push({ signal: d, score: 90, reasons: ['Curated match'] });
+        return;
+      }
+
+      // Strategy 3: Client-side fallback tag matching
+      const signalText = `${d.title || ''} ${d.description || ''} ${(d.techAreas || []).join(' ')}`.toLowerCase();
+      const tagHits = (company.tags || []).filter(tag => signalText.includes(tag.toLowerCase()));
+      if (tagHits.length >= 2) {
+        matches.push({ signal: d, score: Math.min(tagHits.length * 15, 60), reasons: tagHits.map(t => 'tag: ' + t) });
+      }
+    });
+
+    // Sort by score descending, take top 8
+    matches.sort((a, b) => b.score - a.score);
+    const topMatches = matches.slice(0, 8);
+
+    if (topMatches.length === 0 && !pullScore) return false;
 
     card.style.display = 'block';
 
-    container.innerHTML = `
-      <div class="demand-list">
-        ${demands.map(d => {
-          const priorityClass = (d.priority || '').toLowerCase() === 'critical' ? 'priority-critical' :
-                                (d.priority || '').toLowerCase() === 'high' ? 'priority-high' : 'priority-medium';
-          return `
-            <div class="demand-item">
-              <div class="demand-header">
-                <span class="demand-agency">${d.agency || 'Government'}</span>
-                <span class="demand-priority ${priorityClass}">${d.priority || 'Medium'}</span>
-              </div>
-              <div class="demand-tech">${d.title || d.techAreas?.join(', ') || 'Technology Area'}</div>
-              ${d.value ? `<div class="demand-value">${d.value}</div>` : ''}
-              ${d.deadline ? `<div class="demand-timeline">Deadline: ${d.deadline}</div>` : ''}
+    let html = '';
+
+    // Government Pull Score summary
+    if (pullScore) {
+      const pullClass = pullScore.govPullScore >= 60 ? 'gov-pull-high' : (pullScore.govPullScore >= 30 ? 'gov-pull-medium' : 'gov-pull-low');
+      const pullColor = pullScore.govPullScore >= 60 ? '#22c55e' : (pullScore.govPullScore >= 30 ? '#3b82f6' : '#f59e0b');
+      html += `<div style="display:flex;align-items:center;gap:12px;padding:10px 12px;background:var(--bg);border-radius:8px;margin-bottom:12px;">
+        <div style="width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:800;color:${pullColor};border:2px solid ${pullColor}30;background:${pullColor}15;">${pullScore.govPullScore}</div>
+        <div>
+          <div style="font-size:12px;font-weight:600;color:var(--text-primary);">Government Pull Score</div>
+          <div style="font-size:11px;color:var(--text-muted);">${pullScore.matchCount} matching signal${pullScore.matchCount !== 1 ? 's' : ''} across ${pullScore.topAgencies.length} agenc${pullScore.topAgencies.length !== 1 ? 'ies' : 'y'}</div>
+        </div>
+      </div>`;
+    }
+
+    // Matched signals with score bars
+    if (topMatches.length > 0) {
+      html += '<div class="demand-list">';
+      topMatches.forEach(m => {
+        const priorityClass = (m.signal.priority || '').toLowerCase() === 'critical' ? 'priority-critical' :
+                              (m.signal.priority || '').toLowerCase() === 'high' ? 'priority-high' : 'priority-medium';
+        const scoreColor = m.score >= 70 ? '#22c55e' : (m.score >= 40 ? '#3b82f6' : '#f59e0b');
+        const barColor = m.score >= 70 ? '#22c55e' : (m.score >= 40 ? '#3b82f6' : '#f59e0b');
+
+        html += `<div class="demand-item">
+          <div class="demand-header">
+            <span class="demand-agency">${m.signal.agency || 'Government'}</span>
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="width:40px;height:4px;background:rgba(255,255,255,0.1);border-radius:2px;overflow:hidden;"><div style="width:${m.score}%;height:100%;background:${barColor};border-radius:2px;"></div></div>
+              <span style="font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:700;color:${scoreColor};">${m.score}%</span>
             </div>
-          `;
-        }).join('')}
-      </div>
-    `;
+          </div>
+          <div class="demand-tech">${m.signal.title || 'Technology Area'}</div>
+          ${m.signal.value ? `<div class="demand-value">${m.signal.value}</div>` : ''}
+          ${m.signal.deadline && m.signal.deadline !== 'Rolling' ? `<div class="demand-timeline">Deadline: ${m.signal.deadline}</div>` : ''}
+          ${m.reasons.length > 0 ? `<div style="font-size:10px;color:var(--text-muted);margin-top:2px;">${m.reasons.slice(0, 3).join(' + ')}</div>` : ''}
+        </div>`;
+      });
+      html += '</div>';
+    }
+
+    container.innerHTML = html;
     return true;
   }
 
