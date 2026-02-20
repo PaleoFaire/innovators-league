@@ -18834,23 +18834,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-20 14:27
+// Last updated: 2026-02-20 17:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Waymo", headline: "New York Pulls Back on Robotaxi Legislation", source: "CleanTechnica", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "hire", company: "Matic Robotics", headline: "As Dems push for briefing on El Paso incident, experts warn it could be the 'tip of the iceberg''", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI says 18 to 24-year-olds account for nearly 50% of ChatGPT usage in India", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Vannevar Labs", headline: "Your Coffee Grinder Is as Important as Your Brewer'Here Are the 5 Best We've Tested", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Photonic Inc", headline: "The Download: Microsoft's online reality check, and the worrying rise in measles cases", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Retro Biosciences", headline: "Epilogue GB Operator Review: Play Your Game Boy Games on a Laptop", source: "Wired", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Array Labs", headline: "Boeing to boost production of missile-tracking sensors for military satellites", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "OpenAI", headline: "The OpenAI mafia: 18 startups founded by alumni", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Destinus", headline: "NASA completes second Artemis 2 fueling test", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "SpaceX", headline: "Rocket Report: Chinese launch firm raises big money; Falcon 9 back to the Bahamas", source: "Ars Technica Space", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Formic", headline: "AI Seed Trends: More Multimedia, Backend Automation, Agentic Security, And Yes, Robots", source: "Crunchbase News", time: "2h ago", impact: "high", unread: false },
-  { id: 12, type: "ipo", company: "Scale AI", headline: "Could AI Data Centers Be Moved to Outer Space?", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Cerebras", headline: "UAE's G42 teams up with Cerebras to deploy 8 exaflops of compute in India", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Agility Robotics", headline: "Meet Scotland's Whisky-Sniffing Robot Dog", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Cover", headline: "The Search Engine for OnlyFans Models Who Look Like Your Crush", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Durin", headline: "Tesla loses bid to overturn $243M Autopilot verdict", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "contract", company: "Palantir", headline: "AI Safety Meets the War Machine", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Ample", headline: "$100 Million In Funding Announced For New Public EV Chargers In Pennsylvania", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Palantir", headline: "Supreme Court Rules Most of Donald Trump's Tariffs Are Illegal", source: "Wired", time: "1h ago", impact: "high", unread: true },
+  { id: 5, type: "hire", company: "Attio", headline: "Tesla Cybercab Skepticism, Ford &#038; GM EV Disappointment ' YouTube", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Saronic", headline: "Austal secures second Australian Landing Craft Heavy contract", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Terraform Industries", headline: "Battery Storage System Replaces Wastewater Facility Diesel Generator", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Thoron", headline: "How commercial drones make the Pentagon's 'Blue UAS Select' list", source: "Defense News", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Surge AI", headline: "KPop Clone Wars in South Korea, 6+ Million Copied Faces", source: "Next Big Future", time: "2h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Claros", headline: "AI's promise to indie filmmakers: Faster, cheaper, lonelier", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Field AI", headline: "Prepare for pitch battle: Startup Battlefield 200 nominations are open", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Attio", headline: "Forthcoming US arm sales changes leave unanswered questions", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Truemed", headline: "Peak XV raises $1.3B, doubles down on AI as global VC rivalry in India heats up", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Cohere", headline: "Why investors are going gaga over solid-state transformers", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "New York Pulls Back on Robotaxi Legislation", source: "CleanTechnica", time: "3h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
