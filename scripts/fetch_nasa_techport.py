@@ -96,6 +96,8 @@ def fetch_recent_projects(days=365):
 
         # Fetch details for recent projects (sample to avoid rate limits)
         projects = []
+        success_count = 0
+        fail_count = 0
         for pid in project_ids[:150]:  # Sample first 150
             if not pid:
                 continue
@@ -108,6 +110,18 @@ def fetch_recent_projects(days=365):
                     if isinstance(proj, dict):
                         title = proj.get("title", "")
                         if title:
+                            # Extract technology area from primaryTx (current API field)
+                            tech_area = ""
+                            primary_tx = proj.get("primaryTx", proj.get("primaryTaxonomyNodes", None))
+                            if isinstance(primary_tx, dict):
+                                tech_area = primary_tx.get("title", primary_tx.get("taxonomyNodeName", ""))
+                            elif isinstance(primary_tx, list) and primary_tx:
+                                tech_area = primary_tx[0].get("title", primary_tx[0].get("taxonomyNodeName", ""))
+
+                            # Extract partners from otherOrganizations (current API field)
+                            orgs = proj.get("otherOrganizations", proj.get("supportingOrganizations", []))
+                            partners = [p.get("organizationName", "") for p in (orgs or []) if isinstance(p, dict)]
+
                             projects.append({
                                 "id": pid,
                                 "title": title,
@@ -117,15 +131,20 @@ def fetch_recent_projects(days=365):
                                 "endDate": proj.get("endDateString", proj.get("endDate", "")),
                                 "lastUpdated": proj.get("lastUpdated", ""),
                                 "center": (proj.get("leadOrganization") or {}).get("organizationName", ""),
-                                "technologyArea": proj.get("primaryTaxonomyNodes", [{}])[0].get("taxonomyNodeName", "") if proj.get("primaryTaxonomyNodes") else "",
-                                "partners": [p.get("organizationName", "") for p in (proj.get("supportingOrganizations") or [])],
+                                "technologyArea": tech_area,
+                                "partners": partners,
                                 "website": proj.get("website", ""),
                             })
+                            success_count += 1
+                else:
+                    fail_count += 1
                 time.sleep(0.3)  # Rate limiting
             except Exception as e:
+                fail_count += 1
                 print(f"  Error fetching project {pid}: {e}")
                 continue
 
+        print(f"  Detail fetch results: {success_count} success, {fail_count} failed")
         return projects
 
     except requests.exceptions.RequestException as e:

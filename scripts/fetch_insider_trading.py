@@ -123,7 +123,8 @@ def parse_form4_xml(cik, accession, document=""):
         url = f"{sec_www}/Archives/edgar/data/{cik_trimmed}/{accession_clean}/primary_doc.xml"
 
     try:
-        response = fetch_with_retry(url, SEC_HEADERS)
+        xml_headers = {**SEC_HEADERS, "Accept": "application/xml"}
+        response = fetch_with_retry(url, xml_headers)
         if response is None or response.status_code != 200:
             # Try alternate URL patterns
             alt_urls = [
@@ -223,9 +224,12 @@ def fetch_all_insider_transactions():
         if filings:
             print(f"  Found {len(filings)} Form 4 filings")
 
+            parsed_count = 0
+            failed_count = 0
             for filing in filings[:5]:  # Parse top 5 most recent
                 transactions = parse_form4_xml(info["cik"], filing["accession"], filing.get("document", ""))
                 if transactions:
+                    parsed_count += 1
                     for tx in transactions:
                         all_transactions.append({
                             "ticker": ticker,
@@ -238,7 +242,10 @@ def fetch_all_insider_transactions():
                             "price": tx.get("price", 0),
                             "value": tx.get("shares", 0) * tx.get("price", 0),
                         })
+                else:
+                    failed_count += 1
                 time.sleep(0.2)  # Rate limit
+            print(f"  Parsed {parsed_count}/{parsed_count + failed_count} filings successfully")
         else:
             print(f"  No recent Form 4 filings")
 
