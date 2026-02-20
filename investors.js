@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     safeInit(renderCoInvestGraph);
     safeInit(renderOverlapMatrix);
     safeInit(renderFollowOnPatterns);
+    safeInit(renderConvictionTracker);
     safeInit(renderSectorCapital);
     safeInit(initVCModal);
     safeInit(initVCMobileMenu);
@@ -42,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function showInvestorAuthGate() {
     // Gate deeper sections — leave main VC grid visible as a teaser
-    const gatedSections = document.querySelectorAll('#active-deployers, #co-invest, #follow-on, #capital-flow');
+    const gatedSections = document.querySelectorAll('#active-deployers, #co-invest, #follow-on, #conviction-tracker, #capital-flow');
     gatedSections.forEach(s => s.classList.add('section-gated'));
 
     // Add sign-in CTA between free content and gated content
@@ -810,6 +811,191 @@ function renderFollowOnPatterns() {
       </div>
     </div>
   `).join('');
+}
+
+// ─── CONVICTION TRACKER ───
+function renderConvictionTracker() {
+  var leaderboardEl = document.getElementById('ct-leaderboard');
+  var validationEl = document.getElementById('ct-validation');
+  if (!leaderboardEl || !validationEl) return;
+  if (typeof DEAL_TRACKER === 'undefined' || typeof VC_FIRMS === 'undefined') return;
+
+  // ── Name resolution: map DEAL_TRACKER investor → VC_FIRMS shortName ──
+  var nameMap = {};
+  VC_FIRMS.forEach(function(f) {
+    nameMap[f.shortName] = f.shortName;
+    nameMap[f.name] = f.shortName;
+  });
+  // Manual aliases for DEAL_TRACKER names
+  var aliases = {
+    'Lux Capital': 'Lux',
+    'Eclipse Ventures': 'Eclipse',
+    'Khosla Ventures': 'Khosla',
+    'Sequoia Capital': 'Sequoia',
+    'General Catalyst': 'GC',
+    'Cantos Ventures': 'Cantos'
+  };
+  Object.keys(aliases).forEach(function(k) { nameMap[k] = aliases[k]; });
+
+  function resolveVC(name) { return nameMap[name] || null; }
+
+  // Build VC_FIRMS lookup by shortName
+  var firmLookup = {};
+  VC_FIRMS.forEach(function(f) { firmLookup[f.shortName] = f; });
+
+  // ── Step 1: Group DEAL_TRACKER by resolved VC → company ──
+  var vcCompanyDeals = {};
+  DEAL_TRACKER.forEach(function(deal) {
+    var vc = resolveVC(deal.investor);
+    if (!vc) return;
+    if (!vcCompanyDeals[vc]) vcCompanyDeals[vc] = {};
+    if (!vcCompanyDeals[vc][deal.company]) vcCompanyDeals[vc][deal.company] = [];
+    vcCompanyDeals[vc][deal.company].push(deal);
+  });
+
+  // ── Step 2: Compute conviction signals per VC-company pair ──
+  var convictionSignals = [];
+
+  Object.keys(vcCompanyDeals).forEach(function(vc) {
+    var firm = firmLookup[vc];
+    if (!firm) return;
+    var companiesMap = vcCompanyDeals[vc];
+
+    Object.keys(companiesMap).forEach(function(company) {
+      var deals = companiesMap[company];
+      var inPortfolio = firm.portfolioCompanies && firm.portfolioCompanies.indexOf(company) !== -1;
+      var uniqueRounds = [];
+      deals.forEach(function(d) { if (uniqueRounds.indexOf(d.round) === -1) uniqueRounds.push(d.round); });
+      var roundCount = uniqueRounds.length;
+      var isLead = deals.some(function(d) { return d.leadOrParticipant === 'lead'; });
+      var sortedDeals = deals.slice().sort(function(a, b) { return b.date.localeCompare(a.date); });
+      var latestDeal = sortedDeals[0];
+
+      // Conviction score (1-10)
+      var score = 2; // Base: has a tracked deal
+      if (inPortfolio) score += 3;
+      if (roundCount >= 2) score += 3;
+      if (isLead) score += 1;
+      if (latestDeal && latestDeal.date >= '2025-09') score += 1;
+      if (score > 10) score = 10;
+
+      convictionSignals.push({
+        vc: vc,
+        company: company,
+        deals: sortedDeals,
+        inPortfolio: inPortfolio,
+        roundCount: roundCount,
+        isLead: isLead,
+        score: score,
+        latestDate: latestDeal ? latestDeal.date : '',
+        latestRound: latestDeal ? latestDeal.round : '',
+        latestAmount: latestDeal ? latestDeal.amount : ''
+      });
+    });
+  });
+
+  // ── Step 3: VC Conviction Leaderboard ──
+  var vcAgg = {};
+  convictionSignals.forEach(function(s) {
+    if (!vcAgg[s.vc]) vcAgg[s.vc] = { vc: s.vc, totalScore: 0, signals: [] };
+    vcAgg[s.vc].totalScore += s.score;
+    vcAgg[s.vc].signals.push(s);
+  });
+
+  var sortedVCs = Object.keys(vcAgg).map(function(k) { return vcAgg[k]; })
+    .filter(function(v) { return v.signals.length >= 1; })
+    .sort(function(a, b) { return b.totalScore - a.totalScore || b.signals.length - a.signals.length; })
+    .slice(0, 8);
+
+  var maxScore = sortedVCs.length > 0 ? sortedVCs[0].totalScore : 1;
+
+  if (sortedVCs.length === 0) {
+    leaderboardEl.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 40px;">Insufficient deal data to compute conviction signals.</p>';
+  } else {
+    leaderboardEl.innerHTML = '<div class="ct-leaderboard-grid">' + sortedVCs.map(function(vc) {
+      var barWidth = Math.max(10, (vc.totalScore / maxScore) * 100);
+      var signalsSorted = vc.signals.slice().sort(function(a, b) { return b.score - a.score; }).slice(0, 5);
+      return '<div class="ct-vc-card">' +
+        '<div class="ct-vc-header">' +
+          '<span class="ct-vc-name">' + vc.vc + '</span>' +
+          '<span class="ct-vc-score-badge">\uD83D\uDD25 ' + vc.totalScore + ' pts</span>' +
+        '</div>' +
+        '<div class="ct-vc-meta">' + vc.signals.length + ' conviction position' + (vc.signals.length > 1 ? 's' : '') + ' tracked</div>' +
+        '<div class="ct-conviction-bar-bg">' +
+          '<div class="ct-conviction-bar" style="width: ' + barWidth + '%;"></div>' +
+        '</div>' +
+        '<div class="ct-doubles">' +
+          signalsSorted.map(function(s) {
+            return '<div class="ct-double-row">' +
+              '<div>' +
+                '<span class="ct-double-company">' + s.company + '</span> ' +
+                (s.inPortfolio ? '<span class="ct-portfolio-badge">Portfolio</span>' : '') +
+              '</div>' +
+              '<div class="ct-double-detail">' +
+                '<span class="ct-double-round">' + s.latestRound + '</span>' +
+                '<span class="ct-double-role ' + (s.isLead ? 'ct-lead' : 'ct-participant') + '">' + (s.isLead ? 'Lead' : 'Participant') + '</span>' +
+              '</div>' +
+            '</div>';
+          }).join('') +
+        '</div>' +
+      '</div>';
+    }).join('') + '</div>';
+  }
+
+  // ── Step 4: Company Validation Radar ──
+  var companyAgg = {};
+  convictionSignals.forEach(function(s) {
+    if (!companyAgg[s.company]) companyAgg[s.company] = { company: s.company, vcs: [] };
+    companyAgg[s.company].vcs.push(s);
+  });
+
+  var sortedCompanies = Object.keys(companyAgg).map(function(k) { return companyAgg[k]; })
+    .filter(function(c) { return c.vcs.length >= 2; })
+    .sort(function(a, b) {
+      if (b.vcs.length !== a.vcs.length) return b.vcs.length - a.vcs.length;
+      var aTotal = a.vcs.reduce(function(sum, v) { return sum + v.score; }, 0);
+      var bTotal = b.vcs.reduce(function(sum, v) { return sum + v.score; }, 0);
+      return bTotal - aTotal;
+    })
+    .slice(0, 10);
+
+  if (sortedCompanies.length === 0) {
+    validationEl.innerHTML = '<p style="color: var(--text-muted); text-align: center; padding: 40px;">Insufficient cross-reference data for company validation.</p>';
+  } else {
+    validationEl.innerHTML = '<div class="ct-validation-grid">' + sortedCompanies.map(function(c) {
+      var vcsSorted = c.vcs.slice().sort(function(a, b) { return b.score - a.score; });
+      return '<div class="ct-company-card">' +
+        '<div class="ct-company-header">' +
+          '<span class="ct-company-name">' + c.company + '</span>' +
+          '<span class="ct-company-count">' + c.vcs.length + ' committed VC' + (c.vcs.length > 1 ? 's' : '') + '</span>' +
+        '</div>' +
+        '<div class="ct-company-vcs">' +
+          vcsSorted.map(function(v) {
+            return '<div class="ct-company-vc-row">' +
+              '<span class="ct-company-vc-name">' + v.vc + '</span>' +
+              '<div class="ct-company-vc-signals">' +
+                (v.inPortfolio ? '<span class="ct-portfolio-badge">Portfolio</span>' : '') +
+                '<span class="ct-double-round">' + v.latestRound + '</span>' +
+                '<span class="ct-double-role ' + (v.isLead ? 'ct-lead' : 'ct-participant') + '">' + (v.isLead ? 'Lead' : 'Participant') + '</span>' +
+              '</div>' +
+            '</div>';
+          }).join('') +
+        '</div>' +
+      '</div>';
+    }).join('') + '</div>';
+  }
+
+  // ── Tab switching ──
+  document.querySelectorAll('.ct-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.ct-tab').forEach(function(t) { t.classList.remove('active'); });
+      document.querySelectorAll('.ct-panel').forEach(function(p) { p.classList.remove('active'); });
+      tab.classList.add('active');
+      var targetId = 'ct-' + tab.getAttribute('data-ct-tab');
+      var targetPanel = document.getElementById(targetId);
+      if (targetPanel) targetPanel.classList.add('active');
+    });
+  });
 }
 
 // ─── MOBILE MENU ───

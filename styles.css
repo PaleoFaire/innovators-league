@@ -3532,6 +3532,292 @@ body {
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════════
+   CONVICTION TRACKER
+   ═══════════════════════════════════════════════════════════════════════════════ */
+
+.conviction-section {
+  background: var(--bg);
+}
+
+.ct-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 4px;
+  width: fit-content;
+}
+
+.ct-tab {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.ct-tab:hover {
+  color: var(--text-secondary);
+}
+
+.ct-tab.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.ct-panel {
+  display: none;
+}
+
+.ct-panel.active {
+  display: block;
+}
+
+/* ─── VC CONVICTION LEADERBOARD ─── */
+.ct-leaderboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 20px;
+}
+
+.ct-vc-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: all 0.2s ease;
+}
+
+.ct-vc-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.ct-vc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.ct-vc-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.ct-vc-score-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.ct-vc-meta {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.ct-conviction-bar-bg {
+  height: 4px;
+  background: var(--bg);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.ct-conviction-bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+  transition: width 0.6s ease;
+}
+
+.ct-doubles {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.ct-double-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.ct-double-company {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text-primary);
+  margin-right: 8px;
+}
+
+.ct-double-detail {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ct-double-round {
+  font-size: 11px;
+  color: var(--text-muted);
+  background: var(--bg-secondary);
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+.ct-double-role {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.ct-double-role.ct-lead {
+  color: var(--accent);
+}
+
+.ct-double-role.ct-participant {
+  color: var(--text-muted);
+}
+
+.ct-portfolio-badge {
+  font-size: 10px;
+  color: #3b82f6;
+  background: rgba(59,130,246,0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ─── COMPANY VALIDATION RADAR ─── */
+.ct-validation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.ct-company-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: all 0.2s ease;
+}
+
+.ct-company-card:hover {
+  border-color: var(--accent);
+}
+
+.ct-company-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.ct-company-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.ct-company-count {
+  background: rgba(255,107,44,0.1);
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.ct-company-vcs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ct-company-vc-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+}
+
+.ct-company-vc-name {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.ct-company-vc-signals {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .ct-leaderboard-grid,
+  .ct-validation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ct-tabs {
+    width: 100%;
+  }
+
+  .ct-tab {
+    flex: 1;
+    text-align: center;
+  }
+
+  .ct-double-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .ct-company-vc-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════════
    INNOVATOR SCORE™ — World-Class Mosaic-Style Scoring (0-1000)
    ═══════════════════════════════════════════════════════════════════════════════ */
 
