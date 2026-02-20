@@ -760,6 +760,222 @@
 .moat-value.medium { color: #f59e0b; }
 .moat-value.weak { color: #6b7280; }
 
+/* ── Enhanced Moat Breakdown ── */
+.moat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.moat-depth-score {
+  text-align: center;
+}
+
+.moat-depth-value {
+  font-size: 42px;
+  font-weight: 800;
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 1;
+}
+
+.moat-depth-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+
+.moat-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.moat-type-badge {
+  padding: 4px 12px;
+  background: rgba(99, 102, 241, 0.15);
+  color: #818cf8;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.moat-trend {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.moat-trend.strong { color: #22c55e; }
+.moat-trend.medium { color: #f59e0b; }
+.moat-trend.weak { color: #ef4444; }
+
+/* Dimension Grid */
+.moat-dimensions-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.moat-dimension {
+  padding: 12px;
+  background: var(--bg);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.moat-dim-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.moat-dim-icon {
+  font-size: 16px;
+}
+
+.moat-dim-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.moat-dim-score {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.moat-dim-score.strong { color: #22c55e; }
+.moat-dim-score.medium { color: #f59e0b; }
+.moat-dim-score.weak { color: #6b7280; }
+
+.moat-dim-bar {
+  height: 4px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 2px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.moat-dim-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.6s ease;
+}
+
+.moat-dim-fill.strong { background: #22c55e; }
+.moat-dim-fill.medium { background: #f59e0b; }
+.moat-dim-fill.weak { background: #6b7280; }
+
+.moat-dim-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #818cf8;
+  margin-bottom: 4px;
+}
+
+.moat-dim-evidence {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* Narrative */
+.moat-narrative {
+  padding: 16px;
+  background: var(--bg);
+  border-radius: 8px;
+  border-left: 3px solid #818cf8;
+  margin-bottom: 16px;
+}
+
+.moat-narrative-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #818cf8;
+  margin-bottom: 8px;
+}
+
+.moat-narrative p {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Milestones */
+.moat-milestones {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.moat-milestone-item {
+  display: flex;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--bg);
+  border-radius: 8px;
+}
+
+.moat-milestone-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.moat-milestone-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+.moat-milestone-text {
+  font-size: 13px;
+  color: var(--text-primary);
+  line-height: 1.4;
+}
+
+/* Cross-references */
+.moat-crossrefs {
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.moat-crossref {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.moat-crossref .moat-value {
+  font-size: 12px;
+}
+
+.moat-crossref-link {
+  color: #818cf8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.moat-crossref-link:hover {
+  text-decoration: underline;
+}
+
 /* ═══════════════════════════════════════════════════════
    SECTION D: DEEP INTELLIGENCE
    ═══════════════════════════════════════════════════════ */
@@ -1351,6 +1567,26 @@
 
   .moat-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .moat-dimensions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .moat-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .moat-meta {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .moat-depth-value {
+    font-size: 32px;
   }
 
   .actions-container {

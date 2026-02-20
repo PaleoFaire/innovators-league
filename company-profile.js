@@ -251,9 +251,9 @@
       ? GOV_CONTRACTS.filter(c => c.company === company.name).slice(0, 5)
       : [];
 
-    // Also check GOV_CONTRACT_INTEL
-    const contractIntel = typeof GOV_CONTRACT_INTEL !== 'undefined'
-      ? GOV_CONTRACT_INTEL.find(c => c.company === company.name)
+    // Also check GOV_CONTRACTS for intel
+    const contractIntel = typeof GOV_CONTRACTS !== 'undefined'
+      ? GOV_CONTRACTS.find(c => c.company === company.name)
       : null;
 
     if (contracts.length === 0 && !contractIntel) {
@@ -590,46 +590,153 @@
   }
 
   function renderMoatEvidence(company) {
-    const container = document.getElementById('moat-content');
+    var container = document.getElementById('moat-content');
+    if (!container) return;
 
-    // Gather moat evidence from various sources
-    const patent = typeof PATENT_INTEL !== 'undefined' ? PATENT_INTEL.find(p => p.company === company.name) : null;
-    const govContract = typeof GOV_CONTRACT_INTEL !== 'undefined' ? GOV_CONTRACT_INTEL.find(g => g.company === company.name) : null;
-    const altData = typeof ALT_DATA_SIGNALS !== 'undefined' ? ALT_DATA_SIGNALS.find(a => a.company === company.name) : null;
+    // Check for rich moat profile
+    var moatProfile = (typeof MOAT_PROFILES !== 'undefined')
+      ? MOAT_PROFILES.find(function(m) { return m.company === company.name; })
+      : null;
 
-    const ipMoat = patent ? { value: `${patent.ipMoatScore}/10`, strength: patent.ipMoatScore >= 7 ? 'strong' : patent.ipMoatScore >= 5 ? 'medium' : 'weak' } : { value: '?', strength: 'weak' };
-    const govMoat = govContract ? { value: govContract.totalContracts ? `${govContract.totalContracts} contracts` : 'Active', strength: 'strong' } : { value: 'None', strength: 'weak' };
-    const talentMoat = altData?.hiringVelocity === 'surging' ? { value: 'Surging', strength: 'strong' } : altData?.hiringVelocity === 'growing' ? { value: 'Growing', strength: 'medium' } : { value: 'Unknown', strength: 'weak' };
+    if (moatProfile) {
+      renderRichMoatBreakdown(container, company, moatProfile);
+    } else {
+      renderBasicMoatEvidence(container, company);
+    }
+  }
 
-    // Check for supply chain moat (based on sector)
-    const supplyMoat = ['Defense & Security', 'Space & Aerospace', 'Nuclear Energy'].includes(company.sector)
+  function renderRichMoatBreakdown(container, company, profile) {
+    // Update card title
+    var cardTitle = document.querySelector('#moat-card h3');
+    if (cardTitle) cardTitle.textContent = 'Technical Moat Breakdown';
+
+    // Cross-reference data
+    var patent = (typeof PATENT_INTEL !== 'undefined') ? PATENT_INTEL.find(function(p) { return p.company === company.name; }) : null;
+    var govContract = (typeof GOV_CONTRACTS !== 'undefined') ? GOV_CONTRACTS.find(function(g) { return g.company === company.name; }) : null;
+    var trlEntry = (typeof TRL_RANKINGS !== 'undefined') ? TRL_RANKINGS.find(function(t) { return t.company === company.name; }) : null;
+    var trlVal = trlEntry ? trlEntry.trl : null;
+
+    // Dimension definitions
+    var dimDefs = [
+      { key: 'regulatoryMoat', icon: '\u{1F3DB}\uFE0F', name: 'Regulatory' },
+      { key: 'switchingCosts', icon: '\u{1F512}', name: 'Switching Costs' },
+      { key: 'manufacturingReadiness', icon: '\u{1F3ED}', name: 'Mfg Readiness' },
+      { key: 'dataAdvantage', icon: '\u{1F4CA}', name: 'Data Advantage' },
+      { key: 'supplyChainControl', icon: '\u26D3\uFE0F', name: 'Supply Chain' },
+      { key: 'talentDensity', icon: '\u{1F9E0}', name: 'Talent Density' }
+    ];
+
+    // Moat type labels
+    var typeLabels = {
+      'regulatory': 'Regulatory Moat',
+      'platform': 'Platform Moat',
+      'regulatory-platform': 'Regulatory + Platform',
+      'ip-data': 'IP & Data Moat',
+      'manufacturing': 'Manufacturing Moat',
+      'network': 'Network Effects',
+      'talent': 'Talent Moat'
+    };
+
+    // Trend display
+    var trendMap = {
+      'strengthening': { icon: '\u2191', label: 'Strengthening', cls: 'strong' },
+      'stable': { icon: '\u2192', label: 'Stable', cls: 'medium' },
+      'weakening': { icon: '\u2193', label: 'Weakening', cls: 'weak' }
+    };
+    var trend = trendMap[profile.moatTrend] || trendMap['stable'];
+
+    // Moat depth color
+    var depthColor = profile.moatDepth >= 70 ? '#22c55e' : profile.moatDepth >= 50 ? '#3b82f6' : profile.moatDepth >= 35 ? '#f59e0b' : '#6b7280';
+
+    // Build dimensions HTML
+    var dimsHtml = '';
+    dimDefs.forEach(function(d) {
+      var dim = profile.dimensions[d.key];
+      if (!dim) return;
+      var strength = dim.score >= 8 ? 'strong' : dim.score >= 5 ? 'medium' : 'weak';
+      var barWidth = (dim.score / 10) * 100;
+      dimsHtml += '<div class="moat-dimension">' +
+        '<div class="moat-dim-header">' +
+          '<span class="moat-dim-icon">' + d.icon + '</span>' +
+          '<span class="moat-dim-name">' + d.name + '</span>' +
+          '<span class="moat-dim-score ' + strength + '">' + dim.score + '/10</span>' +
+        '</div>' +
+        '<div class="moat-dim-bar"><div class="moat-dim-fill ' + strength + '" style="width:' + barWidth + '%"></div></div>' +
+        '<div class="moat-dim-label">' + dim.label + '</div>' +
+        '<div class="moat-dim-evidence">' + dim.evidence + '</div>' +
+      '</div>';
+    });
+
+    // Build milestones HTML
+    var milestonesHtml = '';
+    if (profile.keyMilestone) {
+      milestonesHtml += '<div class="moat-milestone-item">' +
+        '<span class="moat-milestone-icon">\u2B50</span>' +
+        '<div><div class="moat-milestone-label">Key Milestone</div>' +
+        '<div class="moat-milestone-text">' + profile.keyMilestone + '</div></div></div>';
+    }
+    if (profile.scalePath) {
+      milestonesHtml += '<div class="moat-milestone-item">' +
+        '<span class="moat-milestone-icon">\u{1F680}</span>' +
+        '<div><div class="moat-milestone-label">Scale Path</div>' +
+        '<div class="moat-milestone-text">' + profile.scalePath + '</div></div></div>';
+    }
+
+    // Build cross-references HTML
+    var crossrefsHtml = '';
+    if (patent) {
+      var ipStrength = patent.ipMoatScore >= 7 ? 'strong' : patent.ipMoatScore >= 5 ? 'medium' : 'weak';
+      crossrefsHtml += '<div class="moat-crossref">\u{1F4DC} IP Moat: <span class="moat-value ' + ipStrength + '">' + patent.ipMoatScore + '/10</span> \u2014 <a href="#patent-intel-card" class="moat-crossref-link">See Patent Intelligence</a></div>';
+    }
+    if (govContract) {
+      crossrefsHtml += '<div class="moat-crossref">\u{1F3DB}\uFE0F Gov Contracts: <span class="moat-value strong">' + (govContract.totalGovValue || 'Active') + '</span> \u2014 <a href="#contracts-card" class="moat-crossref-link">See Contracts</a></div>';
+    }
+    if (trlVal) {
+      crossrefsHtml += '<div class="moat-crossref">\u{1F52C} Tech Readiness: <span class="moat-value medium">TRL ' + trlVal + '</span> \u2014 Shown in Hero Stats</div>';
+    }
+
+    container.innerHTML =
+      '<div class="moat-header">' +
+        '<div class="moat-depth-score">' +
+          '<div class="moat-depth-value" style="background:linear-gradient(135deg,' + depthColor + ',' + depthColor + '99);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">' + profile.moatDepth + '</div>' +
+          '<div class="moat-depth-label">Moat Depth</div>' +
+        '</div>' +
+        '<div class="moat-meta">' +
+          '<span class="moat-type-badge">' + (typeLabels[profile.primaryMoatType] || profile.primaryMoatType) + '</span>' +
+          '<span class="moat-trend ' + trend.cls + '">' + trend.icon + ' ' + trend.label + '</span>' +
+        '</div>' +
+      '</div>' +
+      '<div class="moat-dimensions-grid">' + dimsHtml + '</div>' +
+      (profile.moatNarrative ?
+        '<div class="moat-narrative">' +
+          '<div class="moat-narrative-label">Moat Analysis</div>' +
+          '<p>' + profile.moatNarrative + '</p>' +
+        '</div>' : '') +
+      (milestonesHtml ? '<div class="moat-milestones">' + milestonesHtml + '</div>' : '') +
+      (crossrefsHtml ? '<div class="moat-crossrefs">' + crossrefsHtml + '</div>' : '');
+  }
+
+  function renderBasicMoatEvidence(container, company) {
+    // Fallback: original 4-tile display for companies without MOAT_PROFILES entry
+    var patent = (typeof PATENT_INTEL !== 'undefined') ? PATENT_INTEL.find(function(p) { return p.company === company.name; }) : null;
+    var govContract = (typeof GOV_CONTRACTS !== 'undefined') ? GOV_CONTRACTS.find(function(g) { return g.company === company.name; }) : null;
+    var altData = (typeof ALT_DATA_SIGNALS !== 'undefined') ? ALT_DATA_SIGNALS.find(function(a) { return a.company === company.name; }) : null;
+
+    var ipMoat = patent ? { value: patent.ipMoatScore + '/10', strength: patent.ipMoatScore >= 7 ? 'strong' : patent.ipMoatScore >= 5 ? 'medium' : 'weak' } : { value: '?', strength: 'weak' };
+    var govMoat = govContract ? { value: govContract.totalContracts ? govContract.totalContracts + ' contracts' : 'Active', strength: 'strong' } : { value: 'None', strength: 'weak' };
+    var talentMoat = altData && altData.hiringVelocity === 'surging' ? { value: 'Surging', strength: 'strong' } : altData && altData.hiringVelocity === 'growing' ? { value: 'Growing', strength: 'medium' } : { value: 'Unknown', strength: 'weak' };
+
+    var supplyMoat = ['Defense & Security', 'Space & Aerospace', 'Nuclear Energy'].indexOf(company.sector) >= 0
       ? { value: 'Strategic', strength: 'strong' }
       : { value: 'Standard', strength: 'medium' };
 
-    container.innerHTML = `
-      <div class="moat-grid">
-        <div class="moat-item">
-          <div class="moat-icon">📜</div>
-          <div class="moat-label">IP / Patents</div>
-          <div class="moat-value ${ipMoat.strength}">${ipMoat.value}</div>
-        </div>
-        <div class="moat-item">
-          <div class="moat-icon">🏛️</div>
-          <div class="moat-label">Gov Contracts</div>
-          <div class="moat-value ${govMoat.strength}">${govMoat.value}</div>
-        </div>
-        <div class="moat-item">
-          <div class="moat-icon">🔗</div>
-          <div class="moat-label">Supply Chain</div>
-          <div class="moat-value ${supplyMoat.strength}">${supplyMoat.value}</div>
-        </div>
-        <div class="moat-item">
-          <div class="moat-icon">👥</div>
-          <div class="moat-label">Talent</div>
-          <div class="moat-value ${talentMoat.strength}">${talentMoat.value}</div>
-        </div>
-      </div>
-    `;
+    container.innerHTML =
+      '<div class="moat-grid">' +
+        '<div class="moat-item"><div class="moat-icon">\u{1F4DC}</div><div class="moat-label">IP / Patents</div><div class="moat-value ' + ipMoat.strength + '">' + ipMoat.value + '</div></div>' +
+        '<div class="moat-item"><div class="moat-icon">\u{1F3DB}\uFE0F</div><div class="moat-label">Gov Contracts</div><div class="moat-value ' + govMoat.strength + '">' + govMoat.value + '</div></div>' +
+        '<div class="moat-item"><div class="moat-icon">\u{1F517}</div><div class="moat-label">Supply Chain</div><div class="moat-value ' + supplyMoat.strength + '">' + supplyMoat.value + '</div></div>' +
+        '<div class="moat-item"><div class="moat-icon">\u{1F465}</div><div class="moat-label">Talent</div><div class="moat-value ' + talentMoat.strength + '">' + talentMoat.value + '</div></div>' +
+      '</div>';
   }
 
   // ═══════════════════════════════════════════════════════
@@ -1547,12 +1654,9 @@
 
   function getTRL(company) {
     // Check TRL data if available
-    if (typeof TRL_RANKINGS !== 'undefined') {
-      for (const [level, data] of Object.entries(TRL_RANKINGS)) {
-        if (data.companies?.includes(company.name)) {
-          return level.replace('trl', '');
-        }
-      }
+    if (typeof TRL_RANKINGS !== 'undefined' && Array.isArray(TRL_RANKINGS)) {
+      var entry = TRL_RANKINGS.find(function(t) { return t.company === company.name; });
+      if (entry) return entry.trl;
     }
     return null;
   }
