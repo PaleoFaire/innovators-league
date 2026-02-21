@@ -18834,23 +18834,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-21 13:55
+// Last updated: 2026-02-21 16:59
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Palantir", headline: "Major government research lab appears to be squeezing out foreign scientists", source: "Ars Technica Space", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Galvanick", headline: "Password Managers Share a Hidden Weakness", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Photonic Inc", headline: "You Can Now Install'and Update'Microsoft Store Apps Using the Command Line", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Xcimer Energy", headline: "iRestore Elite Laser Hair Growth System Review: Surprisingly Effective", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Figure AI", headline: "After the 2026 Winter Olympics, Figure Skating Will Never Be the Same", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Arc Boats", headline: "'Narco-Submarine' Carrying 4 Tons of Cocaine Captured by Mexico's Navy", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "DIRAC", headline: "How Can IAA Bring Local Cleantech Manufacturing?", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Impulse Labs", headline: "Past the Inflection Point: Electric Now Clearly Dominates the City Bus Market", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Field AI", headline: "Space Solar Power Will Inevitably Trump Trump's War On Solar Power", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "The Boring Company", headline: "Taxing Fossil Fuel Profits", source: "CleanTechnica", time: "9h ago", impact: "high", unread: false },
-  { id: 11, type: "funding", company: "The Boring Company", headline: "Locked Out of Green Finance: What's Holding Truckmakers Back?", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Scale AI", headline: "New Army office aims to quickly develop and scale soldier ideas", source: "Defense One", time: "10h ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Flexport", headline: "Trump Imposes New Tariffs to Sidestep Supreme Court Ruling", source: "Wired", time: "10h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Fervo Energy", headline: "Sierra Club Statement on Trump Administration Opening Millions of Acres of Protected Public Lands to Mining", source: "CleanTechnica", time: "11h ago", impact: "medium", unread: false },
-  { id: 15, type: "hire", company: "Blue Origin", headline: "Bruno says he joined Blue Origin to work on 'urgent' national security projects", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Astro Mechanica", headline: "NASA preparing for Artemis 2 rollback to fix upper stage problem", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Labelbox", headline: "Google VP warns that two types of AI startups may not survive", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI debated calling police about suspected Canadian shooter's chats", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Base Power", headline: "Cultural Architects, Trojan Horses, And Another EV Startup To Challenge Tesla", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Commonwealth Fusion Systems", headline: "AI Data Centers Turn to High-Temperature Superconductors", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Reveal Technology", headline: "Dinosaur eggshells can reveal the age of other fossils", source: "Ars Technica Space", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Palantir", headline: "Major government research lab appears to be squeezing out foreign scientists", source: "Ars Technica Space", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Galvanick", headline: "Password Managers Share a Hidden Weakness", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Photonic Inc", headline: "You Can Now Install'and Update'Microsoft Store Apps Using the Command Line", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Xcimer Energy", headline: "iRestore Elite Laser Hair Growth System Review: Surprisingly Effective", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Figure AI", headline: "After the 2026 Winter Olympics, Figure Skating Will Never Be the Same", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Arc Boats", headline: "'Narco-Submarine' Carrying 4 Tons of Cocaine Captured by Mexico's Navy", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "DIRAC", headline: "How Can IAA Bring Local Cleantech Manufacturing?", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Impulse Labs", headline: "Past the Inflection Point: Electric Now Clearly Dominates the City Bus Market", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Field AI", headline: "Space Solar Power Will Inevitably Trump Trump's War On Solar Power", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
