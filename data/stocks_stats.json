@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 4.63,
+      "avg_change": 4.73,
       "count": 1
     },
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 7.47,
+      "avg_change": 7.64,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 4.03,
+      "avg_change": 4.22,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.0,
+      "avg_change": -1.6,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.22,
+      "avg_change": -0.6,
       "count": 3
     },
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.56,
+      "avg_change": 1.36,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.06,
+      "avg_change": 3.49,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 3.49,
+      "avg_change": 3.91,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -0.06,
+      "avg_change": 0.39,
       "count": 3
     }
   },
@@ -61,44 +61,44 @@
     [
       "SATL",
       "Satellogic",
-      26.14
+      24.91
     ],
     [
       "TEM",
       "Tempus AI",
-      14.62
+      14.95
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      13.22
     ],
     [
       "AUR",
       "Aurora Innovation",
-      13.34
+      13.03
     ],
     [
       "PL",
       "Planet Labs",
-      11.83
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      10.91
+      12.21
     ]
   ],
   "topLosers": [
     [
-      "SLDP",
-      "Solid Power",
-      -3.19
+      "SMR",
+      "NuScale Power",
+      -3.93
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -4.25
+      -4.04
     ],
     [
       "RXRX",
       "Recursion Pharmaceuticals",
-      -5.45
+      -4.47
     ],
     [
       "ASRHF",
@@ -108,8 +108,8 @@
     [
       "QS",
       "QuantumScape",
-      -10.92
+      -11.4
     ]
   ],
-  "lastUpdated": "2026-02-20 19:50:01"
+  "lastUpdated": "2026-02-21 04:54:04"
 }
