@@ -18834,23 +18834,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-21 04:54
+// Last updated: 2026-02-21 09:01
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Field AI", headline: "Space Solar Power Will Inevitably Trump Trump's War On Solar Power", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "The Boring Company", headline: "Taxing Fossil Fuel Profits", source: "CleanTechnica", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "funding", company: "The Boring Company", headline: "Locked Out of Green Finance: What's Holding Truckmakers Back?", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Scale AI", headline: "New Army office aims to quickly develop and scale soldier ideas", source: "Defense One", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Flexport", headline: "Trump Imposes New Tariffs to Sidestep Supreme Court Ruling", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Fervo Energy", headline: "Sierra Club Statement on Trump Administration Opening Millions of Acres of Protected Public Lands to Mining", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: false },
-  { id: 7, type: "hire", company: "Blue Origin", headline: "Bruno says he joined Blue Origin to work on 'urgent' national security projects", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Bedrock Energy", headline: "Donald Trump Tears Down Another Key Public Health Safeguard", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Earth AI", headline: "The Supreme Court's Tariff Ruling Won't Bring Car Prices Back to Earth", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Truemed", headline: "The creator economy's ad revenue problem and India's AI ambitions", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Zeromark", headline: "National Guard team clinches award for clawed drone at Army competition", source: "Defense News", time: "6h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Array Labs", headline: "Aalto plots Australia base to boost planned high-altitude pseudo satellite service", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Waymo", headline: "Government Docs Reveal New Details About Tesla and Waymo Robotaxis' Human Babysitters", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Flexport", headline: "They Bet Against Trump's Tariffs. Now They Stand to Make Millions", source: "Wired", time: "7h ago", impact: "medium", unread: false },
-  { id: 15, type: "funding", company: "Biofire", headline: "Anthropic-funded group backs candidate attacked by rival AI super PAC", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "DIRAC", headline: "How Can IAA Bring Local Cleantech Manufacturing?", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Impulse Labs", headline: "Past the Inflection Point: Electric Now Clearly Dominates the City Bus Market", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Field AI", headline: "Space Solar Power Will Inevitably Trump Trump's War On Solar Power", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "The Boring Company", headline: "Taxing Fossil Fuel Profits", source: "CleanTechnica", time: "4h ago", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "The Boring Company", headline: "Locked Out of Green Finance: What's Holding Truckmakers Back?", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Scale AI", headline: "New Army office aims to quickly develop and scale soldier ideas", source: "Defense One", time: "5h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Flexport", headline: "Trump Imposes New Tariffs to Sidestep Supreme Court Ruling", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Fervo Energy", headline: "Sierra Club Statement on Trump Administration Opening Millions of Acres of Protected Public Lands to Mining", source: "CleanTechnica", time: "6h ago", impact: "medium", unread: false },
+  { id: 9, type: "hire", company: "Blue Origin", headline: "Bruno says he joined Blue Origin to work on 'urgent' national security projects", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Bedrock Energy", headline: "Donald Trump Tears Down Another Key Public Health Safeguard", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Earth AI", headline: "The Supreme Court's Tariff Ruling Won't Bring Car Prices Back to Earth", source: "Wired", time: "8h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Truemed", headline: "The creator economy's ad revenue problem and India's AI ambitions", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "Zeromark", headline: "National Guard team clinches award for clawed drone at Army competition", source: "Defense News", time: "10h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Array Labs", headline: "Aalto plots Australia base to boost planned high-altitude pseudo satellite service", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Government Docs Reveal New Details About Tesla and Waymo Robotaxis' Human Babysitters", source: "Wired", time: "11h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
