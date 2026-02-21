@@ -18834,23 +18834,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-20 20:58
+// Last updated: 2026-02-21 04:54
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Biofire", headline: "Anthropic-funded group backs candidate attacked by rival AI super PAC", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Cognition", headline: "DHS Wants a Single Search Engine to Flag Faces and Fingerprints Across Agencies", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Runway", headline: "Apple's iOS 26.4 arrives in public beta with AI music playlists, video podcasts, and more", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Flexport", headline: "InScope nabs $14.5M to solve the pain of financial reporting", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Truemed", headline: "The Week's 10 Biggest Funding Rounds: World Labs Leads Another AI-Heavy Lineup", source: "Crunchbase News", time: "1h ago", impact: "high", unread: true },
-  { id: 6, type: "milestone", company: "Vannevar Labs", headline: "Talks, Plans, and Prison Breaks", source: "War on the Rocks", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Ada", headline: "IEEE Plays a Pivotal Role In Climate Mitigation Talks", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Reveal Technology", headline: "Metadata Exposes Authors of ICE's 'Mega' Detention Center Plans", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Reveal Technology", headline: "Great news for xAI: Grok is now pretty good at answering questions about Baldur's Gate", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Turbopuffer", headline: "In Search Of America", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Agility Robotics", headline: "Video Friday: Humanoid Robots Celebrate Spring", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Durin", headline: "Tesla loses bid to overturn $243M Autopilot verdict", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
-  { id: 13, type: "contract", company: "Palantir", headline: "AI Safety Meets the War Machine", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Ample", headline: "$100 Million In Funding Announced For New Public EV Chargers In Pennsylvania", source: "CleanTechnica", time: "4h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Palantir", headline: "Supreme Court Rules Most of Donald Trump's Tariffs Are Illegal", source: "Wired", time: "4h ago", impact: "high", unread: false },
+  { id: 1, type: "ipo", company: "Field AI", headline: "Space Solar Power Will Inevitably Trump Trump's War On Solar Power", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "The Boring Company", headline: "Taxing Fossil Fuel Profits", source: "CleanTechnica", time: "Just now", impact: "high", unread: true },
+  { id: 3, type: "funding", company: "The Boring Company", headline: "Locked Out of Green Finance: What's Holding Truckmakers Back?", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Scale AI", headline: "New Army office aims to quickly develop and scale soldier ideas", source: "Defense One", time: "1h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Flexport", headline: "Trump Imposes New Tariffs to Sidestep Supreme Court Ruling", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Fervo Energy", headline: "Sierra Club Statement on Trump Administration Opening Millions of Acres of Protected Public Lands to Mining", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: false },
+  { id: 7, type: "hire", company: "Blue Origin", headline: "Bruno says he joined Blue Origin to work on 'urgent' national security projects", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Bedrock Energy", headline: "Donald Trump Tears Down Another Key Public Health Safeguard", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Earth AI", headline: "The Supreme Court's Tariff Ruling Won't Bring Car Prices Back to Earth", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Truemed", headline: "The creator economy's ad revenue problem and India's AI ambitions", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "Zeromark", headline: "National Guard team clinches award for clawed drone at Army competition", source: "Defense News", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Array Labs", headline: "Aalto plots Australia base to boost planned high-altitude pseudo satellite service", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Waymo", headline: "Government Docs Reveal New Details About Tesla and Waymo Robotaxis' Human Babysitters", source: "Wired", time: "7h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Flexport", headline: "They Bet Against Trump's Tariffs. Now They Stand to Make Millions", source: "Wired", time: "7h ago", impact: "medium", unread: false },
+  { id: 15, type: "funding", company: "Biofire", headline: "Anthropic-funded group backs candidate attacked by rival AI super PAC", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
