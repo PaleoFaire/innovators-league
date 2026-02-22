@@ -18834,23 +18834,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-22 17:01
+// Last updated: 2026-02-22 20:55
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Turbopuffer", headline: "China's brain-computer interface industry is racing ahead", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Zipline", headline: "Danish military evacuates US submariner who needed urgent medical care off Greenland", source: "Defense News", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Chaos Industries", headline: "All eyes on Air Force leaders after a year of chaos and change", source: "Defense One", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Rocket Lab", headline: "German defense firm said to be weighing bid for Mynaric", source: "SpaceNews", time: "5h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Turbopuffer", headline: "How to Hide Google's AI Overviews From Your Search Results", source: "Wired", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Earth AI", headline: "How to View the 'Blood Moon' Total Lunar Eclipse on March 3", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Attio", headline: "Tesla Sales Declined 11.4% in California in 2025", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "DIRAC", headline: "Grey, Blue, or Green: The Real Ammonia Math", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Cape", headline: "Hegseth's Blacklists Target Academia &#038; Cleantech, Not National Security Threats", source: "CleanTechnica", time: "19h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Vast", headline: "Peak Fuel Cell Bus Deliveries in the EU Occurred in 2025", source: "CleanTechnica", time: "20h ago", impact: "low", unread: false },
-  { id: 11, type: "hire", company: "Photonic Inc", headline: "Microsoft's new gaming CEO vows not to flood the ecosystem with 'endless AI slop'", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Astro Mechanica", headline: "NASA preparing for Artemis 2 rollback to fix upper stage problem", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Labelbox", headline: "Google VP warns that two types of AI startups may not survive", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI debated calling police about suspected Canadian shooter's chats", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Base Power", headline: "Cultural Architects, Trojan Horses, And Another EV Startup To Challenge Tesla", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "SpaceX", headline: "Next Generation Fighters and Drones With Europe Still Junior Partner", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "DIRAC", headline: "Realities of US Military Procurement and Exports to Europe", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Built Robotics", headline: "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than Claimed", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "TechCrunch Mobility: Waymo makes its defense", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Turbopuffer", headline: "China's brain-computer interface industry is racing ahead", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Zipline", headline: "Danish military evacuates US submariner who needed urgent medical care off Greenland", source: "Defense News", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Chaos Industries", headline: "All eyes on Air Force leaders after a year of chaos and change", source: "Defense One", time: "7h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Rocket Lab", headline: "German defense firm said to be weighing bid for Mynaric", source: "SpaceNews", time: "9h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Turbopuffer", headline: "How to Hide Google's AI Overviews From Your Search Results", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Earth AI", headline: "How to View the 'Blood Moon' Total Lunar Eclipse on March 3", source: "Wired", time: "10h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Attio", headline: "Tesla Sales Declined 11.4% in California in 2025", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "DIRAC", headline: "Grey, Blue, or Green: The Real Ammonia Math", source: "CleanTechnica", time: "19h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Cape", headline: "Hegseth's Blacklists Target Academia &#038; Cleantech, Not National Security Threats", source: "CleanTechnica", time: "23h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "Vast", headline: "Peak Fuel Cell Bus Deliveries in the EU Occurred in 2025", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Photonic Inc", headline: "Microsoft's new gaming CEO vows not to flood the ecosystem with 'endless AI slop'", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
