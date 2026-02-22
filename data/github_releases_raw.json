@@ -3,6 +3,17 @@
     "repo": "huggingface/transformers",
     "company": "Hugging Face",
     "category": "AI",
+    "tag": "v5.2.0",
+    "name": "v5.2.0: GLM-5, Qwen3.5, Voxtral Realtime, VibeVoice Acoustic Tokenizer",
+    "date": "2026-02-16",
+    "prerelease": false,
+    "url": "https://github.com/huggingface/transformers/releases/tag/v5.2.0",
+    "body": "## New Model additions\r\n\r\n### VoxtralRealtime\r\n\r\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/80e37670-6d70-402b-8c8e-ccfb8c32df2d\" />\r\n\r\nVoxtralRealtime"
+  },
+  {
+    "repo": "huggingface/transformers",
+    "company": "Hugging Face",
+    "category": "AI",
     "tag": "v5.1.0",
     "name": "v5.1.0: EXAONE-MoE, PP-DocLayoutV3, Youtu-LLM, GLM-OCR",
     "date": "2026-02-05",
@@ -97,17 +108,6 @@
     "prerelease": true,
     "url": "https://github.com/huggingface/transformers/releases/tag/v5.0.0rc0",
     "body": "## Transformers v5 release notes\r\n\r\n<img width=\"1800\" height=\"1013\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7b5187d7-6945-4108-a546-6d1d7bfb55e3\" />\r\n\r\n- Highlights\r\n- Significant "
-  },
-  {
-    "repo": "huggingface/transformers",
-    "company": "Hugging Face",
-    "category": "AI",
-    "tag": "v4.57.3",
-    "name": "Patch release v4.57.3",
-    "date": "2025-11-25",
-    "prerelease": false,
-    "url": "https://github.com/huggingface/transformers/releases/tag/v4.57.3",
-    "body": "There was a hidden bug when loading models with `local_files_only=True` and a typo related to the recent patch. \r\n\r\nThe main fix is: https://github.com/huggingface/transformers/commit/b6055550a15a8fab"
   },
   {
     "repo": "openai/openai-python",
@@ -223,6 +223,50 @@
     "repo": "anthropics/anthropic-sdk-python",
     "company": "Anthropic",
     "category": "AI",
+    "tag": "v0.83.0",
+    "name": "v0.83.0",
+    "date": "2026-02-19",
+    "prerelease": false,
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.83.0",
+    "body": "## 0.83.0 (2026-02-19)\n\nFull Changelog: [v0.82.0...v0.83.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.82.0...v0.83.0)\n\n### Features\n\n* **api:** Add top-level cache control (automat"
+  },
+  {
+    "repo": "anthropics/anthropic-sdk-python",
+    "company": "Anthropic",
+    "category": "AI",
+    "tag": "v0.82.0",
+    "name": "v0.82.0",
+    "date": "2026-02-18",
+    "prerelease": false,
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.82.0",
+    "body": "## 0.82.0 (2026-02-18)\n\nFull Changelog: [v0.81.0...v0.82.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.81.0...v0.82.0)\n\n### Features\n\n* **api:** fix shared UserLocation and error co"
+  },
+  {
+    "repo": "anthropics/anthropic-sdk-python",
+    "company": "Anthropic",
+    "category": "AI",
+    "tag": "v0.81.0",
+    "name": "v0.81.0",
+    "date": "2026-02-18",
+    "prerelease": false,
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.81.0",
+    "body": "## 0.81.0 (2026-02-18)\n\nFull Changelog: [v0.80.0...v0.81.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.80.0...v0.81.0)\n\n### Features\n\n* **api:** Make new tool versions available as "
+  },
+  {
+    "repo": "anthropics/anthropic-sdk-python",
+    "company": "Anthropic",
+    "category": "AI",
+    "tag": "v0.80.0",
+    "name": "v0.80.0",
+    "date": "2026-02-17",
+    "prerelease": false,
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.80.0",
+    "body": "## 0.80.0 (2026-02-17)\n\nFull Changelog: [v0.79.0...v0.80.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.79.0...v0.80.0)\n\n### Features\n\n* **api:** Releasing claude-sonnet-4-6 ([d518d6"
+  },
+  {
+    "repo": "anthropics/anthropic-sdk-python",
+    "company": "Anthropic",
+    "category": "AI",
     "tag": "v0.79.0",
     "name": "v0.79.0",
     "date": "2026-02-07",
@@ -286,26 +330,48 @@
     "body": "## 0.75.0 (2025-11-24)\n\nFull Changelog: [v0.74.1...v0.75.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.74.1...v0.75.0)\n\n### Features\n\n* **api:** adds support for Claude Opus 4.5, Ef"
   },
   {
-    "repo": "anthropics/anthropic-sdk-python",
-    "company": "Anthropic",
+    "repo": "langchain-ai/langchain",
+    "company": "LangChain",
     "category": "AI",
-    "tag": "v0.74.1",
-    "name": "v0.74.1",
-    "date": "2025-11-19",
+    "tag": "langchain-core==1.2.14",
+    "name": "langchain-core==1.2.14",
+    "date": "2026-02-19",
     "prerelease": false,
-    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.74.1",
-    "body": "## 0.74.1 (2025-11-19)\n\nFull Changelog: [v0.74.0...v0.74.1](https://github.com/anthropics/anthropic-sdk-python/compare/v0.74.0...v0.74.1)\n\n### Bug Fixes\n\n* **structured outputs:** use correct beta hea"
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.14",
+    "body": "Changes since langchain-core==1.2.13\n\nrelease(core): 1.2.14 (#35328)\nchore(core): remove `langserve` from sys info util, add `deepagents` (#35325)\nfix(core): fix merge_lists incorrectly merging parall"
   },
   {
-    "repo": "anthropics/anthropic-sdk-python",
-    "company": "Anthropic",
+    "repo": "langchain-ai/langchain",
+    "company": "LangChain",
     "category": "AI",
-    "tag": "v0.74.0",
-    "name": "v0.74.0",
-    "date": "2025-11-18",
+    "tag": "langchain-text-splitters==1.1.1",
+    "name": "langchain-text-splitters==1.1.1",
+    "date": "2026-02-18",
     "prerelease": false,
-    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.74.0",
-    "body": "## 0.74.0 (2025-11-18)\n\nFull Changelog: [v0.73.0...v0.74.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.73.0...v0.74.0)\n\n### Features\n\n* add Foundry SDK ([3ae9e45](https://github.com"
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-text-splitters%3D%3D1.1.1",
+    "body": "Changes since langchain-text-splitters==1.1.0\n\nrelease(text-splitters): 1.1.1 (#35318)\nfix(text-splitters): prevent JSFrameworkTextSplitter from mutating self._separators on each split_text() call (#3"
+  },
+  {
+    "repo": "langchain-ai/langchain",
+    "company": "LangChain",
+    "category": "AI",
+    "tag": "langchain-tests==1.1.5",
+    "name": "langchain-tests==1.1.5",
+    "date": "2026-02-18",
+    "prerelease": false,
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-tests%3D%3D1.1.5",
+    "body": "Changes since langchain-tests==1.1.4\n\nchore: bump the other-deps group across 3 directories with 2 updates (#35255)\nstyle: bump ruff version to 0.15 (#35042)\nchore(deps): bump langsmith from 0.4.56 to"
+  },
+  {
+    "repo": "langchain-ai/langchain",
+    "company": "LangChain",
+    "category": "AI",
+    "tag": "langchain-openai==1.1.10",
+    "name": "langchain-openai==1.1.10",
+    "date": "2026-02-17",
+    "prerelease": false,
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.10",
+    "body": "Changes since langchain-openai==1.1.9\n\nrelease(openai): 1.1.10 (#35292)\nfeat(openai): support automatic server-side compaction (#35212)\nfix(openai): add `model` property (#35284)\nfix(nomic,openai,perp"
   },
   {
     "repo": "langchain-ai/langchain",
@@ -374,48 +440,15 @@
     "body": "Changes since langchain-core==1.2.10\n\nrelease(core): 1.2.11 (#35144)\nfix(openai): sanitize urls when counting tokens in images (#35143)\nchore(core): clean up docstring mismatch and redundant logic in "
   },
   {
-    "repo": "langchain-ai/langchain",
-    "company": "LangChain",
+    "repo": "run-llama/llama_index",
+    "company": "LlamaIndex",
     "category": "AI",
-    "tag": "langchain-core==1.2.10",
-    "name": "langchain-core==1.2.10",
-    "date": "2026-02-10",
+    "tag": "v0.14.15",
+    "name": "v0.14.15",
+    "date": "2026-02-18",
     "prerelease": false,
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.10",
-    "body": "Changes since langchain-core==1.2.9\n\nrelease(core): 1.2.10 (#35136)\nchore(deps): bump the langchain-deps group across 3 directories with 40 updates (#35129)\nchore(deps): bump the langchain-deps group "
-  },
-  {
-    "repo": "langchain-ai/langchain",
-    "company": "LangChain",
-    "category": "AI",
-    "tag": "langchain-anthropic==1.3.3",
-    "name": "langchain-anthropic==1.3.3",
-    "date": "2026-02-15",
-    "prerelease": false,
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.3.3",
-    "body": "Changes since langchain-anthropic==1.3.2\n\nrelease(anthropic): 1.3.3 (#35146)\nfix(anthropic): support effort=\"max\" and remove beta headers (#35141)\nfeat(core): add ContextOverflowError, raise in anthro"
-  },
-  {
-    "repo": "langchain-ai/langchain",
-    "company": "LangChain",
-    "category": "AI",
-    "tag": "langchain-openai==1.1.8",
-    "name": "langchain-openai==1.1.8",
-    "date": "2026-02-15",
-    "prerelease": false,
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.8",
-    "body": "Changes since langchain-openai==1.1.7\n\nrelease(openai): 1.1.8 (#35097)\nfix(openai): detect codex models for responses api preference (#35058)\nchore: add make type target (#35015)\nrevert: \"chore: add t"
-  },
-  {
-    "repo": "langchain-ai/langchain",
-    "company": "LangChain",
-    "category": "AI",
-    "tag": "langchain==1.2.9",
-    "name": "langchain==1.2.9",
-    "date": "2026-02-06",
-    "prerelease": false,
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.9",
-    "body": "Changes since langchain==1.2.8\n\nfix(langchain): normalize raw schemas in middleware response_format override (#35019)\nfeat: support state updates from `wrap_model_call` with command(s) (#35033)\ntest(l"
+    "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.15",
+    "body": "# Release Notes\n\n## [2026-02-18]\n\n### llama-index-agent-agentmesh [0.1.0]\n\n- [Integration] AgentMesh: Trust Layer for LlamaIndex Agents ([#20644](https://github.com/run-llama/llama_index/pull/20644))\n"
   },
   {
     "repo": "run-llama/llama_index",
@@ -476,6 +509,17 @@
     "repo": "ros2/ros2",
     "company": "Open Robotics",
     "category": "Robotics",
+    "tag": "release-humble-20260220",
+    "name": "ROS 2 Humble Hawksbill - Patch Release 14",
+    "date": "2026-02-20",
+    "prerelease": false,
+    "url": "https://github.com/ros2/ros2/releases/tag/release-humble-20260220",
+    "body": "These are the binary packages for ROS 2 Humble Hawksbill Patch Release 14 (2026-02-20)\r\n\r\nFor runtime dependencies, see the binary package [installation instructions](https://docs.ros.org/en/humble/In"
+  },
+  {
+    "repo": "ros2/ros2",
+    "company": "Open Robotics",
+    "category": "Robotics",
     "tag": "release-jazzy-20260128",
     "name": "ROS 2 Jazzy Jalisco - Patch Release 7",
     "date": "2026-01-28",
@@ -488,11 +532,11 @@
     "company": "Open Robotics",
     "category": "Robotics",
     "tag": "release-rolling-nightlies",
-    "name": "ROS 2 Rolling - Nightlies 2026-02-15",
+    "name": "ROS 2 Rolling - Nightlies 2026-02-21",
     "date": "2026-01-23",
     "prerelease": true,
     "url": "https://github.com/ros2/ros2/releases/tag/release-rolling-nightlies",
-    "body": "These are the binary packages for ROS 2 Rolling Nightlies 2026-02-15.\nThese binaries will get updated nightly given that all jobs have \"not failed\" to keep synchrony across operating systems.\n\nFor run"
+    "body": "These are the binary packages for ROS 2 Rolling Nightlies 2026-02-21.\nThese binaries will get updated nightly given that all jobs have \"not failed\" to keep synchrony across operating systems.\n\nFor run"
   },
   {
     "repo": "Qiskit/qiskit",
@@ -537,6 +581,17 @@
     "prerelease": false,
     "url": "https://github.com/PennyLaneAI/pennylane/releases/tag/v0.43.2",
     "body": "<h3>Bug fixes \ud83d\udc1b</h3>\r\n\r\n* PennyLane\u2019s code has been updated to be compatible with NumPy 2.4 resolving deprecation related errors and warning messages.\r\n  [(#8808)](https://github.com/PennyLaneAI/penny"
+  },
+  {
+    "repo": "hashicorp/terraform",
+    "company": "HashiCorp",
+    "category": "Infrastructure",
+    "tag": "v1.15.0-alpha20260218",
+    "name": "v1.15.0-alpha20260218",
+    "date": "2026-02-18",
+    "prerelease": true,
+    "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20260218",
+    "body": "## 1.15.0-alpha20260218 (February 18, 2026)\r\n\r\n\r\nNEW FEATURES:\r\n\r\n* We now produce builds for Windows ARM64 ([#32719](https://github.com/hashicorp/terraform/issues/32719))\r\n\r\n* You can set a `deprecat"
   },
   {
     "repo": "hashicorp/terraform",
@@ -616,26 +671,37 @@
     "body": "## 1.14.1 (December 3, 2025)\n\n\nBUG FIXES:\n\n* test: allow ephemeral outputs in root modules ([#37813](https://github.com/hashicorp/terraform/issues/37813))\n\n* Combinations of replace_triggered_by and -"
   },
   {
-    "repo": "hashicorp/terraform",
-    "company": "HashiCorp",
+    "repo": "pulumi/pulumi",
+    "company": "Pulumi",
     "category": "Infrastructure",
-    "tag": "v1.15.0-alpha20251119",
-    "name": "v1.15.0-alpha20251119",
-    "date": "2025-11-19",
-    "prerelease": true,
-    "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0-alpha20251119",
-    "body": "## 1.15.0-alpha20251119 (November 19, 2025)\n\n\nNEW FEATURES:\n\n* We now produce builds for Windows ARM64 ([#32719](https://github.com/hashicorp/terraform/issues/32719))\n\n\nENHANCEMENTS:\n\n* ssh-based prov"
+    "tag": "v3.223.0",
+    "name": "v3.223.0",
+    "date": "2026-02-20",
+    "prerelease": false,
+    "url": "https://github.com/pulumi/pulumi/releases/tag/v3.223.0",
+    "body": "## 3.223.0 (2026-02-19)\r\n\r\n\r\n### Bug Fixes\r\n\r\n- [engine] Report policy pack installation errors\r\n  [#21882](https://github.com/pulumi/pulumi/pull/21882)"
   },
   {
-    "repo": "hashicorp/terraform",
-    "company": "HashiCorp",
+    "repo": "pulumi/pulumi",
+    "company": "Pulumi",
     "category": "Infrastructure",
-    "tag": "v1.14.0",
-    "name": "v1.14.0",
-    "date": "2025-11-19",
+    "tag": "v3.222.0",
+    "name": "v3.222.0",
+    "date": "2026-02-19",
     "prerelease": false,
-    "url": "https://github.com/hashicorp/terraform/releases/tag/v1.14.0",
-    "body": "## 1.14.0 (November 19, 2025)\n\n\nNEW FEATURES:\n\n* **List Resources**: List resources can be defined in `*.tfquery.hcl` files and allow querying and filterting existing infrastructure.\n\n* A new Terrafor"
+    "url": "https://github.com/pulumi/pulumi/releases/tag/v3.222.0",
+    "body": "## 3.222.0 (2026-02-18)\r\n\r\n\r\n### Features\r\n\r\n- [programgen/go] Generate Call requests\r\n  [#21836](https://github.com/pulumi/pulumi/pull/21836)\r\n\r\n\r\n### Bug Fixes\r\n\r\n- [sdk/{nodejs,python}] Fix hang wh"
+  },
+  {
+    "repo": "pulumi/pulumi",
+    "company": "Pulumi",
+    "category": "Infrastructure",
+    "tag": "v3.221.0",
+    "name": "v3.221.0",
+    "date": "2026-02-17",
+    "prerelease": false,
+    "url": "https://github.com/pulumi/pulumi/releases/tag/v3.221.0",
+    "body": "## 3.221.0 (2026-02-17)\r\n\r\n\r\n### Features\r\n\r\n- [auto] Support Go 1.26\r\n  [#21835](https://github.com/pulumi/pulumi/pull/21835)\r\n\r\n- [engine] BREAKING: Rename `pulumiVersionRange` to `requiredPulumiVer"
   },
   {
     "repo": "pulumi/pulumi",
@@ -715,37 +781,15 @@
     "body": "## 3.215.0 (2026-01-07)\r\n\r\n\r\n### Features\r\n\r\n- [cli/plugin] Allow plugins to specify a supported version range for the CLI\r\n  [#21335](https://github.com/pulumi/pulumi/pull/21335)\r\n\r\n\r\n### Bug Fixes\r\n"
   },
   {
-    "repo": "pulumi/pulumi",
-    "company": "Pulumi",
-    "category": "Infrastructure",
-    "tag": "v3.214.1",
-    "name": "v3.214.1",
-    "date": "2026-01-03",
+    "repo": "dbt-labs/dbt-core",
+    "company": "dbt Labs",
+    "category": "Data",
+    "tag": "v1.11.6",
+    "name": "dbt-core v1.11.6",
+    "date": "2026-02-17",
     "prerelease": false,
-    "url": "https://github.com/pulumi/pulumi/releases/tag/v3.214.1",
-    "body": "## 3.214.1 (2026-01-03)\r\n\r\n\r\n### Bug Fixes\r\n\r\n- [cli/package] Preserve existing behavior when `pulumi package add` is used with a local provider\r\n  [#21350](https://github.com/pulumi/pulumi/pull/21350"
-  },
-  {
-    "repo": "pulumi/pulumi",
-    "company": "Pulumi",
-    "category": "Infrastructure",
-    "tag": "v3.214.0",
-    "name": "v3.214.0",
-    "date": "2025-12-30",
-    "prerelease": false,
-    "url": "https://github.com/pulumi/pulumi/releases/tag/v3.214.0",
-    "body": "## 3.214.0 (2025-12-30)\r\n\r\n\r\n### Features\r\n\r\n- [cli] Add --config and --config-path options to destroy and refresh\r\n  [#21299](https://github.com/pulumi/pulumi/pull/21299)\r\n\r\n- [sdkgen] Add `OutputSty"
-  },
-  {
-    "repo": "pulumi/pulumi",
-    "company": "Pulumi",
-    "category": "Infrastructure",
-    "tag": "v3.213.0",
-    "name": "v3.213.0",
-    "date": "2025-12-17",
-    "prerelease": false,
-    "url": "https://github.com/pulumi/pulumi/releases/tag/v3.213.0",
-    "body": "## 3.213.0 (2025-12-17)\r\n\r\n\r\n### Bug Fixes\r\n\r\n- [sdkgen/go] Generate three-level nested builtin output types for Go SDK\r\n  [#21248](https://github.com/pulumi/pulumi/pull/21248)\r\n\r\n\r\n### Miscellaneous\r"
+    "url": "https://github.com/dbt-labs/dbt-core/releases/tag/v1.11.6",
+    "body": "## dbt-core 1.11.6 - February 17, 2026\n\n### Features\n\n- add config.meta_get to python model parsing ([#12458](https://github.com/dbt-labs/dbt-core/issues/12458))\n\n### Contributors\n- [@venkaa28](https:"
   },
   {
     "repo": "dbt-labs/dbt-core",
@@ -845,16 +889,5 @@
     "prerelease": false,
     "url": "https://github.com/dbt-labs/dbt-core/releases/tag/v1.11.1",
     "body": "## dbt-core 1.11.1 - December 19, 2025\n\n### Dependencies\n\n- Bump minimum click to 8.2.0 ([#12305](https://github.com/dbt-labs/dbt-core/issues/12305))\n\n### Contributors\n- [@QMalcolm](https://github.com"
-  },
-  {
-    "repo": "dbt-labs/dbt-core",
-    "company": "dbt Labs",
-    "category": "Data",
-    "tag": "v1.11.0",
-    "name": "dbt-core v1.11.0",
-    "date": "2025-12-19",
-    "prerelease": false,
-    "url": "https://github.com/dbt-labs/dbt-core/releases/tag/v1.11.0",
-    "body": "## dbt-core 1.11.0 - Juan R. Torruella (December 19, 2025)\r\n\r\n### Features\r\n\r\n- Add file_format to catalog integration config ([#11695](https://github.com/dbt-labs/dbt-core/issues/11695))\r\n- 11561 ([#"
   }
 ]
