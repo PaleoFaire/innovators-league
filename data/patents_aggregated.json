@@ -1,50 +1,5 @@
 [
   {
-    "company": "Skydio",
-    "patentCount": 100,
-    "recentPatents": [
-      {
-        "number": "12428147",
-        "title": "Unmanned aerial vehicle inspection system",
-        "date": "2025-09-30",
-        "type": "utility"
-      },
-      {
-        "number": "12423380",
-        "title": "Unmanned aerial vehicle operated based on cost functions",
-        "date": "2025-09-23",
-        "type": "utility"
-      },
-      {
-        "number": "12415635",
-        "title": "Base stations for unmanned aerial vehicles (UAVs)",
-        "date": "2025-09-16",
-        "type": "utility"
-      },
-      {
-        "number": "12416918",
-        "title": "Unmanned aerial image capture platform",
-        "date": "2025-09-16",
-        "type": "utility"
-      },
-      {
-        "number": "D1093211",
-        "title": "Unmanned aerial vehicle",
-        "date": "2025-09-16",
-        "type": "design"
-      }
-    ],
-    "technologyAreas": [
-      "G01S",
-      "G05D",
-      "B64U",
-      "H02S",
-      "H04N"
-    ],
-    "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
-  },
-  {
     "company": "Waymo",
     "patentCount": 100,
     "recentPatents": [
@@ -80,14 +35,14 @@
       }
     ],
     "technologyAreas": [
-      "G02B",
       "G01S",
-      "G01R",
-      "G05D",
-      "G07C"
+      "A61L",
+      "G06Q",
+      "H04B",
+      "H04N"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Palantir",
@@ -125,14 +80,14 @@
       }
     ],
     "technologyAreas": [
-      "G09B",
-      "Y02P",
-      "G06N",
-      "H04L",
-      "G10L"
+      "G01S",
+      "H04W",
+      "G16H",
+      "G06Q",
+      "G06N"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Orchid",
@@ -170,14 +125,14 @@
       }
     ],
     "technologyAreas": [
-      "G02B",
-      "Y02A",
-      "B01J",
-      "C07F",
+      "C12Q",
+      "A61L",
+      "A01H",
+      "G16H",
       "C09K"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Cover",
@@ -215,14 +170,59 @@
       }
     ],
     "technologyAreas": [
-      "F04B",
-      "Y02A",
-      "Y02P",
-      "H02P",
-      "C07F"
+      "F02B",
+      "A45D",
+      "C12Q",
+      "E04H",
+      "Y02B"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
+  },
+  {
+    "company": "Skydio",
+    "patentCount": 99,
+    "recentPatents": [
+      {
+        "number": "12428147",
+        "title": "Unmanned aerial vehicle inspection system",
+        "date": "2025-09-30",
+        "type": "utility"
+      },
+      {
+        "number": "12423380",
+        "title": "Unmanned aerial vehicle operated based on cost functions",
+        "date": "2025-09-23",
+        "type": "utility"
+      },
+      {
+        "number": "12415635",
+        "title": "Base stations for unmanned aerial vehicles (UAVs)",
+        "date": "2025-09-16",
+        "type": "utility"
+      },
+      {
+        "number": "12416918",
+        "title": "Unmanned aerial image capture platform",
+        "date": "2025-09-16",
+        "type": "utility"
+      },
+      {
+        "number": "D1093211",
+        "title": "Unmanned aerial vehicle",
+        "date": "2025-09-16",
+        "type": "design"
+      }
+    ],
+    "technologyAreas": [
+      "G04R",
+      "G01S",
+      "G06Q",
+      "B64D",
+      "H04B"
+    ],
+    "latestPatentDate": "2025-09-30",
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Vast",
@@ -260,14 +260,14 @@
       }
     ],
     "technologyAreas": [
-      "G02B",
-      "H03M",
-      "B01J",
-      "A61P",
-      "F28D"
+      "C12Q",
+      "G06Q",
+      "F04D",
+      "H05K",
+      "A61B"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Shield AI",
@@ -305,14 +305,14 @@
       }
     ],
     "technologyAreas": [
+      "F41A",
+      "E04H",
       "B29C",
-      "Y02A",
-      "B01J",
-      "A61P",
-      "C09J"
+      "A61L",
+      "B60P"
     ],
     "latestPatentDate": "2025-09-23",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Divergent",
@@ -350,14 +350,14 @@
       }
     ],
     "technologyAreas": [
-      "B60Y",
-      "G02B",
       "B29C",
       "Y02P",
-      "B41M"
+      "G16H",
+      "B08B",
+      "B32B"
     ],
     "latestPatentDate": "2025-09-09",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Radiant",
@@ -395,14 +395,14 @@
       }
     ],
     "technologyAreas": [
-      "G02B",
-      "G02F",
-      "Y02A",
+      "F24F",
+      "F21V",
+      "Y02B",
       "Y02P",
-      "B29C"
+      "F24D"
     ],
     "latestPatentDate": "2025-09-23",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Cognition",
@@ -440,18 +440,18 @@
       }
     ],
     "technologyAreas": [
-      "G02B",
-      "Y02A",
-      "G01W",
-      "G10L",
-      "A61P"
+      "C12Q",
+      "G01S",
+      "G07G",
+      "G06Q",
+      "G16H"
     ],
     "latestPatentDate": "2025-08-26",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Andrenam",
-    "patentCount": 45,
+    "patentCount": 44,
     "recentPatents": [
       {
         "number": "12432283",
@@ -485,14 +485,14 @@
       }
     ],
     "technologyAreas": [
-      "G02B",
-      "Y02A",
-      "Y02P",
-      "E02B",
-      "G01W"
+      "G01S",
+      "Y02B",
+      "G06Q",
+      "B63B",
+      "G16H"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Lightmatter",
@@ -530,14 +530,14 @@
       }
     ],
     "technologyAreas": [
-      "G02B",
-      "G02F",
       "H01L",
-      "H04Q",
-      "G06N"
+      "G06E",
+      "G06N",
+      "H03H",
+      "H04B"
     ],
     "latestPatentDate": "2025-09-23",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "X-Energy",
@@ -575,14 +575,14 @@
       }
     ],
     "technologyAreas": [
-      "B29C",
+      "C10L",
       "Y02P",
-      "H02P",
-      "B01J",
-      "F05D"
+      "B65G",
+      "B66C",
+      "B01D"
     ],
     "latestPatentDate": "2025-07-29",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Anduril Industries",
@@ -620,14 +620,14 @@
       }
     ],
     "technologyAreas": [
-      "B29C",
-      "H10F",
       "G01S",
-      "B64U",
-      "G05D"
+      "B29C",
+      "G06Q",
+      "B63B",
+      "B64D"
     ],
     "latestPatentDate": "2025-08-26",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "TAE Technologies",
@@ -665,14 +665,14 @@
       }
     ],
     "technologyAreas": [
-      "G21F",
-      "G21B",
-      "H02J",
-      "H03K",
-      "B60L"
+      "G01T",
+      "H05H",
+      "Y02E",
+      "G21K",
+      "H02J"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "TerraPower",
@@ -710,14 +710,14 @@
       }
     ],
     "technologyAreas": [
-      "B60Y",
-      "F04B",
-      "Y02A",
+      "D01F",
+      "E04H",
       "Y02P",
-      "B05C"
+      "C09K",
+      "B01D"
     ],
     "latestPatentDate": "2025-09-23",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Relativity Space",
@@ -755,14 +755,14 @@
       }
     ],
     "technologyAreas": [
-      "F16L",
       "B29C",
-      "Y02P",
-      "F16K",
-      "B23K"
+      "B23K",
+      "B22F",
+      "G06Q",
+      "G06V"
     ],
     "latestPatentDate": "2025-09-09",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Firefly Aerospace",
@@ -800,14 +800,14 @@
       }
     ],
     "technologyAreas": [
-      "G02B",
-      "B60Y",
-      "A01D",
       "G01S",
-      "A61N"
+      "G06Q",
+      "A61B",
+      "H04N",
+      "G01P"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Zipline",
@@ -845,14 +845,14 @@
       }
     ],
     "technologyAreas": [
-      "A41D",
-      "B64F",
-      "G06N",
+      "Y02E",
       "B64C",
+      "H01M",
+      "Y02T",
       "B60L"
     ],
     "latestPatentDate": "2025-09-02",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Antares",
@@ -892,12 +892,12 @@
     "technologyAreas": [
       "H01L",
       "F21V",
-      "G01N",
       "Y02E",
-      "B65G"
+      "B65C",
+      "G01N"
     ],
     "latestPatentDate": "2025-09-09",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Epirus",
@@ -935,14 +935,14 @@
       }
     ],
     "technologyAreas": [
-      "H02J",
-      "H03M",
       "G01S",
-      "H03F",
-      "B64U"
+      "H02J",
+      "H04W",
+      "H01Q",
+      "F41H"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Neuralink",
@@ -981,13 +981,13 @@
     ],
     "technologyAreas": [
       "H02J",
-      "H04Q",
       "B23K",
-      "H05K",
-      "B32B"
+      "G01R",
+      "A61N",
+      "H01F"
     ],
     "latestPatentDate": "2025-08-19",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Captura",
@@ -1025,14 +1025,14 @@
       }
     ],
     "technologyAreas": [
-      "E21B",
       "B01D",
+      "C02F",
       "Y02C",
       "B32B",
-      "C02F"
+      "E04C"
     ],
     "latestPatentDate": "2025-09-23",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Impulse Space",
@@ -1072,12 +1072,12 @@
     "technologyAreas": [
       "F03C",
       "F04C",
-      "G05B",
-      "E21B",
-      "G01N"
+      "C12Q",
+      "H04W",
+      "G16H"
     ],
     "latestPatentDate": "2025-09-02",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Venus Aerospace",
@@ -1115,14 +1115,14 @@
       }
     ],
     "technologyAreas": [
-      "F02K",
-      "H02K",
+      "F23C",
+      "F05D",
+      "F23G",
       "B01J",
-      "B22F",
-      "F05D"
+      "B64D"
     ],
     "latestPatentDate": "2025-09-23",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Mazama",
@@ -1160,14 +1160,14 @@
       }
     ],
     "technologyAreas": [
-      "F24T",
-      "E21B",
+      "F22B",
       "Y02E",
-      "F03G",
-      "B01D"
+      "B01D",
+      "F03B",
+      "C09K"
     ],
     "latestPatentDate": "2025-09-16",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Airship Industries",
@@ -1210,7 +1210,7 @@
       "H04L"
     ],
     "latestPatentDate": "2025-06-17",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Amca",
@@ -1248,14 +1248,14 @@
       }
     ],
     "technologyAreas": [
-      "G02B",
+      "F41G",
+      "G06Q",
       "G06N",
-      "G05B",
-      "A61B",
-      "G08B"
+      "G06V",
+      "H01S"
     ],
     "latestPatentDate": "2025-08-05",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Helion",
@@ -1293,14 +1293,14 @@
       }
     ],
     "technologyAreas": [
-      "Y02P",
-      "F28F",
-      "G21B",
+      "H05H",
+      "Y02E",
       "B01J",
-      "Y02E"
+      "G21B",
+      "C01B"
     ],
     "latestPatentDate": "2025-09-16",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Cerebras",
@@ -1338,13 +1338,13 @@
       }
     ],
     "technologyAreas": [
-      "G06N",
-      "H04L",
       "Y02D",
-      "G06F"
+      "G06N",
+      "G06F",
+      "H04L"
     ],
     "latestPatentDate": "2025-05-27",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Figure AI",
@@ -1382,12 +1382,12 @@
       }
     ],
     "technologyAreas": [
-      "H04N",
       "B25J",
-      "H04L"
+      "H04L",
+      "H04N"
     ],
     "latestPatentDate": "2025-09-23",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Claros",
@@ -1425,14 +1425,14 @@
       }
     ],
     "technologyAreas": [
+      "Y02E",
+      "B01D",
       "H02J",
-      "Y04S",
-      "B01J",
-      "G05B",
-      "B01D"
+      "G06Q",
+      "Y04S"
     ],
     "latestPatentDate": "2025-07-08",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Oklo",
@@ -1467,11 +1467,10 @@
       "G21F",
       "Y02E",
       "G21C",
-      "H02S",
       "G21D"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Mammoth Biosciences",
@@ -1504,13 +1503,13 @@
     ],
     "technologyAreas": [
       "F24D",
-      "C12Y",
       "C12N",
-      "G06F",
-      "F24H"
+      "F24H",
+      "C12Y",
+      "G06F"
     ],
     "latestPatentDate": "2025-05-27",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Fervo Energy",
@@ -1542,13 +1541,13 @@
       }
     ],
     "technologyAreas": [
-      "E21B",
-      "Y02P",
       "F03G",
-      "F24T"
+      "F24T",
+      "Y02E",
+      "E21B"
     ],
     "latestPatentDate": "2025-08-05",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Quaise Energy",
@@ -1580,11 +1579,11 @@
       }
     ],
     "technologyAreas": [
-      "E21B",
-      "H01P"
+      "H01P",
+      "E21B"
     ],
     "latestPatentDate": "2025-06-10",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Substrate",
@@ -1616,47 +1615,14 @@
       }
     ],
     "technologyAreas": [
-      "B29C",
+      "H01L",
       "G03F",
       "A23N",
-      "H01L",
-      "G06N"
+      "A01K",
+      "G16H"
     ],
     "latestPatentDate": "2025-03-18",
-    "lastUpdated": "2026-02-19"
-  },
-  {
-    "company": "Machina Labs",
-    "patentCount": 3,
-    "recentPatents": [
-      {
-        "number": "12233507",
-        "title": "Apparatus for changing an abrasive sheet in an abrading machine",
-        "date": "2025-02-25",
-        "type": "utility"
-      },
-      {
-        "number": "12161569",
-        "title": "Prosthetic hand system",
-        "date": "2024-12-10",
-        "type": "utility"
-      },
-      {
-        "number": "11909700",
-        "title": "Enterprise micro-forum network",
-        "date": "2024-02-20",
-        "type": "utility"
-      }
-    ],
-    "technologyAreas": [
-      "B24D",
-      "A61F",
-      "B24B",
-      "H04L",
-      "G06Q"
-    ],
-    "latestPatentDate": "2025-02-25",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "DIRAC",
@@ -1682,14 +1648,14 @@
       }
     ],
     "technologyAreas": [
-      "A61L",
-      "G10K",
+      "F24F",
       "B01D",
-      "Y02C",
-      "H04S"
+      "H04S",
+      "Y02B",
+      "G10K"
     ],
     "latestPatentDate": "2025-09-30",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Terraform Industries",
@@ -1715,14 +1681,14 @@
       }
     ],
     "technologyAreas": [
+      "A01B",
       "A01C",
       "G01N",
-      "A01B",
-      "G06Q",
-      "Y02W"
+      "Y02W",
+      "G06Q"
     ],
     "latestPatentDate": "2025-09-09",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Commonwealth Fusion Systems",
@@ -1748,14 +1714,14 @@
       }
     ],
     "technologyAreas": [
-      "H02K",
-      "Y02E",
       "F03D",
+      "Y02E",
       "G01R",
-      "H01F"
+      "H01F",
+      "H02K"
     ],
     "latestPatentDate": "2025-09-02",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Rainmaker",
@@ -1781,13 +1747,14 @@
       }
     ],
     "technologyAreas": [
-      "F16L",
-      "F04B",
+      "F05D",
+      "A47G",
       "A42B",
-      "F04D"
+      "B62K",
+      "F16L"
     ],
     "latestPatentDate": "2024-12-17",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Etched",
@@ -1817,7 +1784,7 @@
       "G06F"
     ],
     "latestPatentDate": "2025-07-15",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Neros",
@@ -1837,12 +1804,12 @@
       }
     ],
     "technologyAreas": [
-      "A61P",
+      "A61K",
       "C02F",
-      "A61K"
+      "A61P"
     ],
     "latestPatentDate": "2025-09-09",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Rocket Lab",
@@ -1862,13 +1829,14 @@
       }
     ],
     "technologyAreas": [
-      "F02K",
+      "F05D",
       "H01M",
-      "Y02P",
-      "F28F"
+      "B23K",
+      "B22F",
+      "F02K"
     ],
     "latestPatentDate": "2025-01-14",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Observable Space",
@@ -1888,11 +1856,11 @@
       }
     ],
     "technologyAreas": [
-      "G08B",
-      "H04L"
+      "H04L",
+      "G08B"
     ],
     "latestPatentDate": "2025-03-25",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Nominal",
@@ -1913,13 +1881,38 @@
     ],
     "technologyAreas": [
       "H01L",
-      "H03K",
-      "H01R",
+      "H02H",
       "H01Q",
+      "H03K",
       "H01P"
     ],
     "latestPatentDate": "2025-09-09",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
+  },
+  {
+    "company": "Machina Labs",
+    "patentCount": 2,
+    "recentPatents": [
+      {
+        "number": "12233507",
+        "title": "Apparatus for changing an abrasive sheet in an abrading machine",
+        "date": "2025-02-25",
+        "type": "utility"
+      },
+      {
+        "number": "12161569",
+        "title": "Prosthetic hand system",
+        "date": "2024-12-10",
+        "type": "utility"
+      }
+    ],
+    "technologyAreas": [
+      "B24D",
+      "B24B",
+      "A61F"
+    ],
+    "latestPatentDate": "2025-02-25",
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Lab 91",
@@ -1939,13 +1932,13 @@
       }
     ],
     "technologyAreas": [
-      "C01P",
-      "C01G",
+      "C30B",
+      "H01L",
       "H01C",
-      "H01L"
+      "C01B"
     ],
     "latestPatentDate": "2025-01-07",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Mach Industries",
@@ -1962,7 +1955,7 @@
       "G01R"
     ],
     "latestPatentDate": "2025-09-23",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Vannevar Labs",
@@ -1977,11 +1970,11 @@
     ],
     "technologyAreas": [
       "G06N",
-      "G06V",
-      "G06F"
+      "G06F",
+      "G06V"
     ],
     "latestPatentDate": "2024-06-25",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Last Energy",
@@ -1995,12 +1988,12 @@
       }
     ],
     "technologyAreas": [
-      "G21D",
+      "Y02E",
       "G21C",
-      "Y02E"
+      "G21D"
     ],
     "latestPatentDate": "2025-09-09",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Varda Space Industries",
@@ -2014,12 +2007,12 @@
       }
     ],
     "technologyAreas": [
-      "A61P",
+      "A61K",
       "C07D",
-      "A61K"
+      "A61P"
     ],
     "latestPatentDate": "2025-06-03",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Northwood Space",
@@ -2037,7 +2030,7 @@
       "H04B"
     ],
     "latestPatentDate": "2025-04-01",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Astranis",
@@ -2055,7 +2048,7 @@
       "H04B"
     ],
     "latestPatentDate": "2024-06-11",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Altos Labs",
@@ -2069,11 +2062,11 @@
       }
     ],
     "technologyAreas": [
-      "A61P",
-      "C07D"
+      "C07D",
+      "A61P"
     ],
     "latestPatentDate": "2025-06-10",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Karman Industries",
@@ -2092,7 +2085,7 @@
       "H05H"
     ],
     "latestPatentDate": "2024-06-11",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "Cuby Technologies",
@@ -2106,11 +2099,11 @@
       }
     ],
     "technologyAreas": [
-      "E04B",
-      "E04F"
+      "E04F",
+      "E04B"
     ],
     "latestPatentDate": "2024-04-23",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   },
   {
     "company": "The Boring Company",
@@ -2124,11 +2117,11 @@
       }
     ],
     "technologyAreas": [
-      "H02P",
       "B64D",
-      "H02K"
+      "H02K",
+      "Y02T"
     ],
     "latestPatentDate": "2024-04-16",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-02-22"
   }
 ]
