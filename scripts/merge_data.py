@@ -73,7 +73,7 @@ def update_sec_filings(data_js_content):
     # Replace existing SEC_FILINGS_LIVE
     pattern = r'const SEC_FILINGS_LIVE = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated SEC_FILINGS_LIVE")
     else:
         print("  SEC_FILINGS_LIVE not found in data.js")
@@ -119,7 +119,7 @@ def update_company_signals(data_js_content):
     # Replace existing COMPANY_SIGNALS
     pattern = r'const COMPANY_SIGNALS = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated COMPANY_SIGNALS")
     else:
         print("  COMPANY_SIGNALS not found in data.js")
@@ -155,7 +155,7 @@ def update_gov_contracts(data_js_content):
     # Replace existing GOV_CONTRACTS (but not GOV_CONTRACTS_AUTO)
     pattern = r'const GOV_CONTRACTS = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated GOV_CONTRACTS")
     else:
         print("  GOV_CONTRACTS not found in data.js")
@@ -193,7 +193,7 @@ def update_deal_tracker(data_js_content):
 
     pattern = r'const DEAL_TRACKER = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated DEAL_TRACKER")
     else:
         print("  DEAL_TRACKER not found in data.js")
@@ -229,7 +229,7 @@ def update_sector_momentum(data_js_content):
 
     pattern = r'(?://[^\n]*\n)*const SECTOR_MOMENTUM = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated SECTOR_MOMENTUM")
     else:
         print("  SECTOR_MOMENTUM not found in data.js")
@@ -263,7 +263,7 @@ def update_ipo_pipeline(data_js_content):
 
     pattern = r'const IPO_PIPELINE = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated IPO_PIPELINE")
     else:
         print("  IPO_PIPELINE not found in data.js")
@@ -296,7 +296,7 @@ def update_revenue_intel(data_js_content):
 
     pattern = r'const REVENUE_INTEL = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated REVENUE_INTEL")
     else:
         print("  REVENUE_INTEL not found in data.js")
@@ -329,7 +329,7 @@ def update_growth_signals(data_js_content):
 
     pattern = r'(?://[^\n]*\n)*const GROWTH_SIGNALS = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated GROWTH_SIGNALS")
     else:
         print("  GROWTH_SIGNALS not found in data.js")
@@ -366,7 +366,7 @@ def update_funding_tracker(data_js_content):
 
     pattern = r'(?://[^\n]*\n)*const FUNDING_TRACKER = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated FUNDING_TRACKER")
     else:
         print("  FUNDING_TRACKER not found in data.js")
@@ -403,7 +403,7 @@ def update_valuation_benchmarks(data_js_content):
 
     pattern = r'(?://[^\n]*\n)*const VALUATION_BENCHMARKS = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print("  Updated VALUATION_BENCHMARKS")
     else:
         print("  VALUATION_BENCHMARKS not found in data.js")
@@ -441,7 +441,7 @@ def update_innovator_scores(data_js_content):
 
     pattern = r'(?://[^\n]*\n)*const INNOVATOR_SCORES = \[[\s\S]*?\];'
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, js_array, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
         print(f"  Updated INNOVATOR_SCORES ({len(scores)} companies)")
     else:
         print("  INNOVATOR_SCORES not found in data.js")
@@ -537,7 +537,7 @@ def update_last_updated(data_js_content):
     replacement = f'const LAST_UPDATED = "{today}";'
 
     if re.search(pattern, data_js_content):
-        data_js_content = re.sub(pattern, replacement, data_js_content)
+        data_js_content = re.sub(pattern, lambda m: replacement, data_js_content)
         print(f"  Updated LAST_UPDATED to {today}")
 
     return data_js_content
