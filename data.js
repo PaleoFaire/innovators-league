@@ -19559,25 +19559,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-23 05:42
-// Auto-generated real-time signals
-// Last updated: 2026-02-23
+// Last updated: 2026-02-23 10:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Cape", headline: "Economic Statecraft and the Federal Institutional Architecture", source: "War on the Rocks", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Cover", headline: "Electric Vehicle Models Top 5 Vehicle Classes in California", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Attio", headline: "Tesla Still Dominates California EV Sales — And Tesla Still Massively Supported By California", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "ispace", headline: "NASA Delays Launch of Artemis II Lunar Mission Once Again", source: "Wired", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Turbopuffer", headline: "Trump Promises More Coal Jobs, Delivers Tariffs Instead", source: "CleanTechnica", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "SpaceX", headline: "Next Generation Fighters and Drones With Europe Still Junior Partner", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "DIRAC", headline: "Realities of US Military Procurement and Exports to Europe", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Built Robotics", headline: "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than Claimed", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Waymo", headline: "TechCrunch Mobility: Waymo makes its defense", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "All the important news from the ongoing India AI Impact Summit", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Turbopuffer", headline: "China&#8217;s brain-computer interface industry is racing ahead", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Zipline", headline: "Danish military evacuates US submariner who needed urgent medical care off Greenland", source: "Defense News", time: "17h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Chaos Industries", headline: "All eyes on Air Force leaders after a year of chaos and change", source: "Defense One", time: "19h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Rocket Lab", headline: "German defense firm said to be weighing bid for Mynaric", source: "SpaceNews", time: "20h ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "Turbopuffer", headline: "How to Hide Google’s AI Overviews From Your Search Results", source: "Wired", time: "21h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Vannevar Labs", headline: "NATO is not ready for drone warfare in the Arctic", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Altos Labs", headline: "Israeli startup targets the economics of high-resolution Earth observation", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Cape", headline: "Economic Statecraft and the Federal Institutional Architecture", source: "War on the Rocks", time: "2h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Cover", headline: "Electric Vehicle Models Top 5 Vehicle Classes in California", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Attio", headline: "Tesla Still Dominates California EV Sales ' And Tesla Still Massively Supported By California", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "ispace", headline: "NASA Delays Launch of Artemis II Lunar Mission Once Again", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Turbopuffer", headline: "Trump Promises More Coal Jobs, Delivers Tariffs Instead", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "SpaceX", headline: "Next Generation Fighters and Drones With Europe Still Junior Partner", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "DIRAC", headline: "Realities of US Military Procurement and Exports to Europe", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Built Robotics", headline: "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than Claimed", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Waymo", headline: "TechCrunch Mobility: Waymo makes its defense", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "All the important news from the ongoing India AI Impact Summit", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Turbopuffer", headline: "China's brain-computer interface industry is racing ahead", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Zipline", headline: "Danish military evacuates US submariner who needed urgent medical care off Greenland", source: "Defense News", time: "20h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Chaos Industries", headline: "All eyes on Air Force leaders after a year of chaos and change", source: "Defense One", time: "21h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
