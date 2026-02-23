@@ -1057,6 +1057,7 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initRevenueTable);
   safeInit(initRequestForStartups);
   safeInit(initNewsTicker);
+  safeInit(initFieldNotes);
   safeInit(initInnovator50);
   safeInit(initSectorMomentum);
   safeInit(initIPOPipeline);
@@ -3354,6 +3355,70 @@ function initNewsTicker() {
     el.className = `ticker-item ticker-priority-${item.priority}`;
     el.innerHTML = `<span>${item.text}</span><span class="ticker-time">${item.time}</span>`;
     scroll.appendChild(el);
+  });
+}
+
+// ─── FIELD NOTES — Editorial voice from founder meetings ───
+function initFieldNotes() {
+  const grid = document.getElementById('fn-grid');
+  if (!grid) return;
+  if (typeof FIELD_NOTES === 'undefined' || FIELD_NOTES.length === 0) return;
+
+  const TYPE_CONFIG = {
+    'site-visit':   { label: 'Site Visit',   emoji: '🏭' },
+    'founder-call': { label: 'Founder Call',  emoji: '📞' },
+    'flash-take':   { label: 'Flash Take',   emoji: '⚡' }
+  };
+
+  const CONVICTION_LABELS = {
+    'strong-buy': 'Strong Buy',
+    'buy': 'Buy',
+    'hold': 'Hold',
+    'watch': 'Watch'
+  };
+
+  // Show the latest 3 notes
+  const notes = FIELD_NOTES.slice(0, 3);
+
+  notes.forEach(note => {
+    const typeConf = TYPE_CONFIG[note.type] || { label: note.type, emoji: '📝' };
+    const convictionLabel = CONVICTION_LABELS[note.conviction] || note.conviction;
+    const dateStr = new Date(note.date + 'T00:00:00').toLocaleDateString('en-US', {
+      month: 'short', day: 'numeric', year: 'numeric'
+    });
+    const slug = companyToSlug(note.company);
+
+    const card = document.createElement('div');
+    card.className = 'fn-card';
+    card.innerHTML = `
+      <div class="fn-card-header">
+        <span class="fn-type-badge ${note.type}">${typeConf.emoji} ${typeConf.label}</span>
+        <span class="fn-date">${dateStr}</span>
+      </div>
+      <h3 class="fn-title">${note.title}</h3>
+      <p class="fn-hook">${note.hook}</p>
+      <div class="fn-footer">
+        <span class="fn-company-pill" data-company="${note.company}" title="View company profile">${note.company}</span>
+        <span class="fn-conviction ${note.conviction}">${convictionLabel}</span>
+      </div>
+      <div class="fn-source">${note.source}</div>
+    `;
+
+    // Click on company pill opens company modal
+    const pill = card.querySelector('.fn-company-pill');
+    if (pill) {
+      pill.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openCompanyModal(note.company);
+      });
+    }
+
+    // Click on card opens company modal too
+    card.addEventListener('click', () => {
+      openCompanyModal(note.company);
+    });
+
+    grid.appendChild(card);
   });
 }
 

@@ -2496,33 +2496,6 @@ const FOUNDER_DNA = [
     "sector": "Space & Aerospace"
   },
   {
-    "company": "Atom Limbs",
-    "founderCount": 3,
-    "teamStructure": "trio",
-    "founders": [
-      "Tyler Hayes",
-      "Doug Satzger",
-      "Eric Monsef"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [
-      "Tyler Hayes"
-    ],
-    "hasSerialFounder": true,
-    "totalRaisedM": 20.0,
-    "capitalPerFounderM": 6.7,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 3,
-      "serialBonus": 3,
-      "teamSizeSignal": 10,
-      "teamPedigree": 6
-    },
-    "dnaScore": 40,
-    "sector": "Consumer Tech"
-  },
-  {
     "company": "NEURA Robotics",
     "founderCount": 1,
     "teamStructure": "solo",
@@ -12441,7 +12414,6 @@ const FOUNDER_DNA_SECTORS = [
     "dominantTeamStructure": "solo",
     "topDnaCompanies": [
       "Flexport",
-      "Atom Limbs",
       "Matic Robotics"
     ]
   },
@@ -12681,8 +12653,7 @@ const FOUNDER_SERIAL_MAP = [
   {
     "founder": "Tyler Hayes",
     "companies": [
-      "Atom Bodies",
-      "Atom Limbs"
+      "Atom Bodies"
     ],
     "sectors": [
       "Biotech & Health",

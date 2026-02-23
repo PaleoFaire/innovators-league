@@ -12,7 +12,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="lib/d3.v7.min.js"></script>
     <script>if(typeof d3==='undefined'){document.write('<script src="https://d3js.org/d3.v7.min.js"><\/script>');console.warn('D3 loaded from CDN fallback');}</script>
-    <link rel="stylesheet" href="styles.css?v=20260219z">
+    <link rel="stylesheet" href="styles.css?v=20260223">
 </head>
 <body>
     <!-- Navigation — 5 Key Tabs -->
@@ -30,12 +30,18 @@
             <div class="search-results-dropdown" id="search-results-dropdown"></div>
         </div>
         <div class="nav-links">
-            <a href="visualizations.html" class="nav-link">📈 Insights</a>
-            <a href="investors.html" class="nav-link">💰 Investors</a>
-            <a href="jobs.html" class="nav-link">💼 Jobs & Talent</a>
-            <a href="valuations.html" class="nav-link">💎 Valuations</a>
-            <a href="govradar.html" class="nav-link">📡 Gov Radar</a>
-            <a href="regulatory.html" class="nav-link">🏛️ Regulatory</a>
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
+            <a href="investors.html" class="nav-link">Investors</a>
+            <a href="jobs.html" class="nav-link">Talent</a>
+            <a href="valuations.html" class="nav-link">Valuations</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                </div>
+            </div>
             <div class="nav-auth" id="nav-auth">
                 <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
                 <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
@@ -89,6 +95,18 @@
         <div class="ticker-label">LIVE</div>
         <div class="ticker-scroll" id="ticker-scroll"></div>
     </div>
+
+    <!-- Field Notes — Editorial voice from founder meetings and site visits -->
+    <section id="field-notes" class="field-notes-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">FROM THE FIELD</p>
+                <h2>Field Notes</h2>
+                <p>Real-time takes from founder meetings, site visits, and deal flow — the signal that isn't in any dataset.</p>
+            </div>
+            <div class="fn-grid" id="fn-grid"></div>
+        </div>
+    </section>
 
     <!-- ═══════════════════════════════════════════════════════════════════════
          TIER 1: PRIMARY DISCOVERY — The first thing users want to do
@@ -1179,7 +1197,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="auth.js?v=20260219z"></script>
-    <script src="data.js?v=20260220j"></script>
+    <script src="data.js?v=20260223"></script>
     <script src="data/stocks_auto.js?v=20260219z"></script>
     <script src="data/sec_filings_auto.js?v=20260219z"></script>
     <script src="data/gov_contracts_auto.js?v=20260219z"></script>
@@ -1189,6 +1207,6 @@
     <script src="data/github_releases_auto.js?v=20260219z"></script>
     <script src="data/federal_register_auto.js?v=20260219z"></script>
     <script src="data/doe_programs_auto.js?v=20260219z"></script>
-    <script src="app.js?v=20260219z"></script>
+    <script src="app.js?v=20260223"></script>
 </body>
 </html>

@@ -71,6 +71,43 @@ const FOUNDER_CONNECTIONS = {
   }
 };
 
+// Field Notes — Real-time takes from founder meetings, site visits, and deal flow
+const FIELD_NOTES = [
+  {
+    id: 1,
+    date: "2026-02-20",
+    title: "Lattice OS Is Becoming the Android of Defense",
+    hook: "Spent 3 hours at Anduril's Costa Mesa HQ. What Palmer showed me changes my thesis on the entire defense sector.",
+    body: "Palmer walked me through the latest Lattice OS demo — and it's no longer just an operating system for Anduril's own hardware. They're opening it up. Third-party drones, sensors, even legacy platforms are plugging in. This is the play everyone missed: Anduril doesn't need to win every hardware contract. They just need Lattice to become the default middleware layer for autonomous warfare. Think Android for defense. The TAM isn't one drone program — it's every connected military asset on the planet. I walked out more convicted than ever. The $78B secondary valuation might actually be cheap.",
+    company: "Anduril Industries",
+    type: "site-visit",
+    source: "Site Visit — Costa Mesa HQ",
+    conviction: "strong-buy"
+  },
+  {
+    id: 2,
+    date: "2026-02-18",
+    title: "Why Castelion Has Lockheed Nervous",
+    hook: "Just got off the phone with a Castelion board member. The speed at which they're shipping is unlike anything I've seen in defense.",
+    body: "Traditional defense primes take 10-15 years to go from concept to production. Castelion just did it in 18 months. Their first missile system is in testing with a branch I can't name. The board member told me: 'We're building weapons the way Silicon Valley builds software — ship fast, iterate, listen to the operator.' What makes this dangerous for incumbents isn't the technology alone — it's the culture. They've recruited 40+ engineers from SpaceX who are used to Elon-speed timelines. When your competitor can iterate 10x faster, your backlog becomes a liability, not an asset. Series B is oversubscribed.",
+    company: "Castelion",
+    type: "founder-call",
+    source: "Board Member Call",
+    conviction: "strong-buy"
+  },
+  {
+    id: 3,
+    date: "2026-02-15",
+    title: "Inside Hadrian's Factory of the Future",
+    hook: "Toured Hadrian's Torrance facility yesterday. The gap between what they're building and what legacy manufacturers can do is wider than I expected.",
+    body: "Chris Power gave me the full tour. CNC machines running autonomously, 24/7. AI quality inspection catching defects human eyes miss. But the real insight wasn't the tech — it was the business model. Hadrian isn't competing with machine shops. They're building an operating system for precision manufacturing. Every part they make generates data that makes the next part cheaper and faster. This is a compounding advantage that traditional manufacturers literally cannot replicate without rebuilding from scratch. The defense primes know it. Three of the top five are now customers. When your customers are also your biggest potential acquirers, you know you've found product-market fit.",
+    company: "Hadrian",
+    type: "site-visit",
+    source: "Factory Tour — Torrance, CA",
+    conviction: "buy"
+  }
+];
+
 // "From the Source" — Exclusive founder interviews and insights
 const FROM_THE_SOURCE = [
   {
@@ -1749,7 +1786,7 @@ tags: ["data analytics", "AI", "defense", "government"],
     name: "Atom Bodies",
     sector: "Biotech & Health",
     description: "AI-powered prosthetic arms with 26 degrees of finger freedom. Uses LLMs to interpret nerve signals. Takes just 5 minutes to teach the arm. Restoring dexterity and dignity.",
-    founder: "Tyler Hayes",
+    founder: "Tyler Hayes, Doug Satzger, Eric Monsef",
     location: "San Francisco, CA",
     state: "CA",
     lat: 37.7740,
@@ -1760,7 +1797,7 @@ tags: ["data analytics", "AI", "defense", "government"],
     rosLink: "https://rationaloptimistsociety.substack.com/p/ridley-america-recharged-my-optimism",
     thesisCluster: "brain-computer-interface",
     techApproach: "AI-powered prosthetic arms with 26 degrees of finger freedom using LLMs to interpret neural signals for natural hand control",
-    tags: ["prosthetics", "AI", "bionics"]
+    tags: ["prosthetics", "AI", "bionics", "neural interface"]
   },
   {
     name: "Mammoth Biosciences",
@@ -3783,23 +3820,6 @@ tags: ["fusion", "field-reversed", "energy"],
     thesisCluster: "consumer-hardware",
     techApproach: "AI-powered tutoring platform using game-based learning and personalized AI instruction for STEM education",
     tags: ["AI tutoring", "education", "kids"]
-  },
-  {
-    name: "Atom Limbs",
-    sector: "Consumer Tech",
-    description: "Building the world's most advanced prosthetic arm controlled by thought. Mind-controlled bionic limbs with human-like dexterity using non-invasive neural interfaces.",
-    founder: "Tyler Hayes, Doug Satzger, Eric Monsef",
-    location: "San Francisco, CA",
-    state: "CA",
-    lat: 37.7749,
-    lng: -122.4194,
-    fundingStage: "Series A",
-    totalRaised: "$20M+",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "brain-computer-interface",
-    techApproach: "Mind-controlled prosthetic arms using neural interfaces to enable natural, intuitive control of artificial limbs",
-    tags: ["prosthetics", "bionics", "neural interface"]
   },
 
   // ═══════════════════════════════════════════════════════════════════
@@ -12630,7 +12650,6 @@ const PREDICTIVE_SCORES = {
       "Bronco AI": { score: 46, trend: "stable", analysis: "Auto-scored: Infrastructure & Logistics, Seed, 0 patents.", lastUpdated: "2026-02-23" },
       "Daylight Computer": { score: 46, trend: "stable", analysis: "Auto-scored: Consumer Tech, Series A, 0 patents.", lastUpdated: "2026-02-23" },
       "Synthesis": { score: 46, trend: "stable", analysis: "Auto-scored: Consumer Tech, Series A, 0 patents.", lastUpdated: "2026-02-23" },
-      "Atom Limbs": { score: 46, trend: "stable", analysis: "Auto-scored: Consumer Tech, Series A, 0 patents.", lastUpdated: "2026-02-23" },
       "Helsing": { score: 48, trend: "stable", analysis: "Auto-scored: Defense & Security, Series C, 0 patents.", lastUpdated: "2026-02-23" },
       "Saildrone": { score: 50, trend: "stable", analysis: "Auto-scored: Defense & Security, Series C, 0 patents.", lastUpdated: "2026-02-23" },
       "Overland AI": { score: 46, trend: "stable", analysis: "Auto-scored: Defense & Security, Series A, 0 patents.", lastUpdated: "2026-02-23" },
@@ -13256,7 +13275,6 @@ const PREDICTIVE_SCORES = {
       "Bronco AI": { score: 60, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $10M raised, 0 jobs, Seed.", lastUpdated: "2026-02-23" },
       "Daylight Computer": { score: 57, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $20M raised, 0 jobs, Series A.", lastUpdated: "2026-02-23" },
       "Synthesis": { score: 57, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $25M raised, 0 jobs, Series A.", lastUpdated: "2026-02-23" },
-      "Atom Limbs": { score: 57, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $20M raised, 0 jobs, Series A.", lastUpdated: "2026-02-23" },
       "Helsing": { score: 38, trend: "stable", runway: "24-36 months", analysis: "Auto-scored: $750M raised, 0 jobs, Series C.", lastUpdated: "2026-02-23" },
       "Saildrone": { score: 40, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $300M raised, 0 jobs, Series C.", lastUpdated: "2026-02-23" },
       "Overland AI": { score: 48, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $40M raised, 0 jobs, Series A.", lastUpdated: "2026-02-23" },
@@ -14282,7 +14300,6 @@ const INNOVATOR_SCORES = [
   { company: "Solugen", techMoat: 3, momentum: 3, teamPedigree: 6, marketGravity: 2, capitalEfficiency: 5, govTraction: 2, composite: 34.5, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
   { company: "Daylight Computer", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 4, capitalEfficiency: 4, govTraction: 2, composite: 34.5, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
   { company: "Synthesis", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 4, capitalEfficiency: 4, govTraction: 2, composite: 34.5, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
-  { company: "Atom Limbs", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 4, capitalEfficiency: 4, govTraction: 2, composite: 34.5, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
   { company: "NuScale Power", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 2, capitalEfficiency: 7, govTraction: 2, composite: 34.5, tier: "early", note: "Capital efficient. Composite: 34/100." },
   { company: "Nano Nuclear Energy", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 2, capitalEfficiency: 7, govTraction: 2, composite: 34.5, tier: "early", note: "Capital efficient. Composite: 34/100." },
   { company: "Nuro", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 3, capitalEfficiency: 5, govTraction: 2, composite: 34.5, tier: "early", note: "Capital efficient. Composite: 34/100." },

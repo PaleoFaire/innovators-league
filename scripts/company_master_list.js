@@ -200,7 +200,6 @@ const MASTER_COMPANY_LIST = [
   { name: "Bronco AI", aliases: ["Bronco", "BroncoAI", "Bronco", "supply chain", "logistics"], sector: "infrastructure", ticker: null },
   { name: "Daylight Computer", aliases: ["DaylightComputer", "e-ink", "humane tech", "computers"], sector: "consumer", ticker: null },
   { name: "Synthesis", aliases: ["AI tutoring", "education"], sector: "consumer", ticker: null },
-  { name: "Atom Limbs", aliases: ["AtomLimbs", "prosthetics", "bionics", "neural interface"], sector: "consumer", ticker: null },
   { name: "Helsing", aliases: ["defense AI", "military intelligence"], sector: "defense", ticker: null },
   { name: "Saildrone", aliases: ["Sail Drone", "autonomous vessels", "maritime", "ocean data"], sector: "defense", ticker: null },
   { name: "Overland AI", aliases: ["Overland", "OverlandAI", "Overland", "autonomous ground vehicles", "military logistics"], sector: "defense", ticker: null },

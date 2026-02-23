@@ -222,20 +222,90 @@ body {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 16px;
-  flex-wrap: wrap;
+  gap: 6px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
 }
 
-.nav-links a {
-  font-size: 14px;
+.nav-links a, .nav-link-main {
+  font-size: 13px;
   font-weight: 500;
   color: var(--text-secondary);
   text-decoration: none;
   transition: color var(--transition);
+  padding: 6px 10px;
+  border-radius: 6px;
 }
 
-.nav-links a:hover {
+.nav-links a:hover, .nav-link-main:hover {
   color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.nav-links a.active {
+  color: var(--text-primary);
+  background: rgba(255, 107, 44, 0.1);
+}
+
+/* ─── NAV MORE DROPDOWN ─── */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-link-main {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav-link-main svg {
+  transition: transform 0.2s;
+}
+
+.nav-dropdown:hover .nav-link-main svg {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 6px;
+  min-width: 160px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  z-index: 1001;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+  display: block;
+}
+
+.nav-dropdown-link {
+  display: block;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.15s;
+}
+
+.nav-dropdown-link:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.nav-dropdown-link.active {
+  color: var(--accent);
 }
 
 .nav-cta {
@@ -257,7 +327,7 @@ body {
 /* ─── GLOBAL SEARCH BAR ─── */
 .nav-search {
   position: relative;
-  flex: 0 1 320px;
+  flex: 0 1 280px;
   margin: 0 24px;
 }
 
@@ -580,6 +650,14 @@ body {
     display: flex;
   }
 
+  .nav-links a.nav-link {
+    padding: 14px 16px;
+    font-size: 16px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    display: block;
+  }
+
   .nav-dropdown {
     width: 100%;
   }
@@ -646,7 +724,7 @@ body {
 
 /* ─── HERO ─── */
 .hero {
-  padding: 140px 24px 80px;
+  padding: 120px 24px 60px;
   text-align: center;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
@@ -3210,10 +3288,7 @@ body {
   border: 1px solid var(--border);
 }
 
-/* ─── NAV ACTIVE STATE ─── */
-.nav-links a.active {
-  color: var(--accent);
-}
+/* ─── NAV ACTIVE STATE ─── (moved to nav section above) */
 
 /* ═══════════════════════════════════════════════════════════════════════════════
    INVESTOR INTELLIGENCE ENHANCEMENTS
@@ -5812,6 +5887,162 @@ body {
     flex-direction: column;
     align-items: stretch;
   }
+}
+
+/* ─── FIELD NOTES (Flash Takes) ─── */
+.field-notes-section {
+  padding: 60px 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.fn-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.fn-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 28px;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.fn-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent) 0%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.fn-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.fn-card:hover::before {
+  opacity: 1;
+}
+
+.fn-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.fn-type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.fn-type-badge.site-visit {
+  background: rgba(96, 165, 250, 0.12);
+  color: #60A5FA;
+}
+
+.fn-type-badge.founder-call {
+  background: rgba(52, 211, 153, 0.12);
+  color: #34D399;
+}
+
+.fn-type-badge.flash-take {
+  background: rgba(255, 107, 44, 0.12);
+  color: var(--accent);
+}
+
+.fn-date {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.fn-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+
+.fn-hook {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.fn-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.fn-company-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+  padding: 5px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.fn-company-pill:hover {
+  background: var(--bg-elevated);
+}
+
+.fn-conviction {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.fn-conviction.strong-buy { color: #34D399; }
+.fn-conviction.buy { color: #60A5FA; }
+.fn-conviction.hold { color: var(--text-muted); }
+.fn-conviction.watch { color: #FBBF24; }
+
+.fn-source {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
+@media (max-width: 1024px) {
+  .fn-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .fn-grid { grid-template-columns: 1fr; }
+  .field-notes-section { padding: 40px 16px; }
 }
 
 /* ─── BREAKING NEWS TICKER ─── */
