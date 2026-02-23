@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 3.85,
+      "avg_change": 3.52,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.49,
+      "avg_change": 5.36,
       "count": 3
     },
     "transportation": {
@@ -111,5 +111,5 @@
       -11.4
     ]
   ],
-  "lastUpdated": "2026-02-23 05:22:53"
+  "lastUpdated": "2026-02-23 08:06:47"
 }
