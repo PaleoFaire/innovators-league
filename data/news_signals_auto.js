@@ -1,173 +1,184 @@
 // Auto-generated news signals
-// Last updated: 2026-02-23T04:49:12.314Z
+// Last updated: 2026-02-23T05:42:43.439Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1771822152314,
+    "id": 1771825363439,
     "type": "news",
     "company": "Cover",
     "headline": "Electric Vehicle Models Top 5 Vehicle Classes in California",
     "source": "CleanTechnica",
-    "time": "Just now",
+    "time": "1h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/02/22/electric-vehicle-models-top-5-vehicle-classes-in-california/"
   },
   {
-    "id": 1771822152315,
+    "id": 1771825363440,
     "type": "news",
     "company": "Attio",
     "headline": "Tesla Still Dominates California EV Sales — And Tesla Still Massively Supported By California",
     "source": "CleanTechnica",
-    "time": "2h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/02/22/tesla-still-dominates-california-ev-sales-and-tesla-still-massively-supported-by-california/"
   },
   {
-    "id": 1771822152316,
+    "id": 1771825363441,
     "type": "milestone",
     "company": "ispace",
     "headline": "NASA Delays Launch of Artemis II Lunar Mission Once Again",
     "source": "Wired",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/nasa-delays-artemis-ii-launch-again/"
   },
   {
-    "id": 1771822152317,
+    "id": 1771825363442,
     "type": "hire",
     "company": "Turbopuffer",
     "headline": "Trump Promises More Coal Jobs, Delivers Tariffs Instead",
     "source": "CleanTechnica",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/02/22/trump-promises-more-coal-jobs-delivers-tariffs-instead/"
   },
   {
-    "id": 1771822152318,
+    "id": 1771825363443,
     "type": "news",
     "company": "SpaceX",
     "headline": "Next Generation Fighters and Drones With Europe Still Junior Partner",
     "source": "Next Big Future",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/02/next-generation-fighters-and-drones-with-europe-still-junior-partner.html"
   },
   {
-    "id": 1771822152319,
+    "id": 1771825363444,
     "type": "news",
     "company": "DIRAC",
     "headline": "Realities of US Military Procurement and Exports to Europe",
     "source": "Next Big Future",
-    "time": "9h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/02/realities-of-us-military-procurement-and-exports-to-europe.html"
   },
   {
-    "id": 1771822152320,
+    "id": 1771825363445,
     "type": "news",
     "company": "Built Robotics",
     "headline": "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than Claimed",
     "source": "CleanTechnica",
-    "time": "9h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/02/22/fraunhofer-study-finds-some-phevs-use-3-times-more-fuel-than-claimed/"
   },
   {
-    "id": 1771822152321,
+    "id": 1771825363446,
     "type": "news",
     "company": "Waymo",
     "headline": "TechCrunch Mobility: Waymo makes its defense",
     "source": "TechCrunch",
-    "time": "11h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/02/22/techcrunch-mobility-waymo-makes-its-defense/"
   },
   {
-    "id": 1771822152322,
+    "id": 1771825363447,
+    "type": "news",
+    "company": "Anthropic",
+    "headline": "All the important news from the ongoing India AI Impact Summit",
+    "source": "TechCrunch",
+    "time": "12h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://techcrunch.com/2026/02/22/all-the-important-news-from-the-ongoing-india-ai-summit/"
+  },
+  {
+    "id": 1771825363448,
     "type": "news",
     "company": "Turbopuffer",
     "headline": "China&#8217;s brain-computer interface industry is racing ahead",
     "source": "TechCrunch",
-    "time": "12h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/02/22/chinas-brain-computer-interface-industry-is-racing-ahead/"
   },
   {
-    "id": 1771822152323,
+    "id": 1771825363449,
     "type": "news",
     "company": "Zipline",
     "headline": "Danish military evacuates US submariner who needed urgent medical care off Greenland",
     "source": "Defense News",
-    "time": "14h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defensenews.com/news/your-military/2026/02/22/danish-military-evacuates-us-submariner-who-needed-urgent-medical-care-off-greenland/"
   },
   {
-    "id": 1771822152324,
+    "id": 1771825363450,
     "type": "news",
     "company": "Chaos Industries",
     "headline": "All eyes on Air Force leaders after a year of chaos and change",
     "source": "Defense One",
-    "time": "15h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defenseone.com/policy/2026/02/all-eyes-air-force-leaders-after-year-chaos-and-change/411589/"
   },
   {
-    "id": 1771822152325,
+    "id": 1771825363451,
     "type": "ipo",
     "company": "Rocket Lab",
     "headline": "German defense firm said to be weighing bid for Mynaric",
     "source": "SpaceNews",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "high",
     "unread": false,
     "link": "https://spacenews.com/german-defense-firm-said-to-be-weighing-bid-for-mynaric/"
   },
   {
-    "id": 1771822152326,
+    "id": 1771825363452,
     "type": "news",
     "company": "Turbopuffer",
     "headline": "How to Hide Google’s AI Overviews From Your Search Results",
     "source": "Wired",
-    "time": "17h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/how-to-hide-google-ai-overviews-from-your-search-results/"
   },
   {
-    "id": 1771822152327,
+    "id": 1771825363453,
     "type": "news",
     "company": "Earth AI",
     "headline": "How to View the ‘Blood Moon’ Total Lunar Eclipse on March 3",
     "source": "Wired",
-    "time": "18h ago",
+    "time": "19h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/how-to-view-the-blood-moon-total-lunar-eclipse-on-march-3/"
   },
   {
-    "id": 1771822152328,
+    "id": 1771825363454,
     "type": "hire",
     "company": "Attio",
     "headline": "Tesla Sales Declined 11.4% in California in 2025",
     "source": "CleanTechnica",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://cleantechnica.com/2026/02/21/tesla-sales-declined-11-4-in-california-in-2025/"
   },
   {
-    "id": 1771822152329,
+    "id": 1771825363455,
     "type": "ipo",
     "company": "DIRAC",
     "headline": "Grey, Blue, or Green: The Real Ammonia Math",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/02/21/grey-blue-or-green-the-real-ammonia-math/"
   },
   {
-    "id": 1771822152330,
+    "id": 1771825363456,
     "type": "news",
     "company": "Cape",
     "headline": "Hegseth’s Blacklists Target Academia &#038; Cleantech, Not National Security Threats",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/02/21/hegseths-blacklists-target-academia-cleantech-not-national-security-threats/"
   },
   {
-    "id": 1771822152331,
+    "id": 1771825363457,
     "type": "milestone",
     "company": "Vast",
     "headline": "Peak Fuel Cell Bus Deliveries in the EU Occurred in 2025",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/02/21/peak-fuel-cell-bus-deliveries-in-the-eu-occurred-in-2025/"
   },
   {
-    "id": 1771822152332,
+    "id": 1771825363458,
     "type": "hire",
     "company": "Photonic Inc",
     "headline": "Microsoft’s new gaming CEO vows not to flood the ecosystem with ‘endless AI slop’",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/02/21/microsofts-new-gaming-ceo-vows-not-to-flood-the-ecosystem-with-endless-ai-slop/"
-  },
-  {
-    "id": 1771822152333,
-    "type": "ipo",
-    "company": "Astro Mechanica",
-    "headline": "NASA preparing for Artemis 2 rollback to fix upper stage problem",
-    "source": "SpaceNews",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/nasa-preparing-for-artemis-2-rollback-to-fix-upper-stage-problem/"
   }
 ];

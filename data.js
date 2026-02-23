@@ -19532,27 +19532,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-22 20:55
-// Auto-generated real-time signals
-// Last updated: 2026-02-23
-// Auto-generated real-time signals
-// Last updated: 2026-02-23
+// Last updated: 2026-02-23 05:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Cover", headline: "Electric Vehicle Models Top 5 Vehicle Classes in California", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Attio", headline: "Tesla Still Dominates California EV Sales — And Tesla Still Massively Supported By California", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "ispace", headline: "NASA Delays Launch of Artemis II Lunar Mission Once Again", source: "Wired", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Turbopuffer", headline: "Trump Promises More Coal Jobs, Delivers Tariffs Instead", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "SpaceX", headline: "Next Generation Fighters and Drones With Europe Still Junior Partner", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "DIRAC", headline: "Realities of US Military Procurement and Exports to Europe", source: "Next Big Future", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Built Robotics", headline: "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than Claimed", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Waymo", headline: "TechCrunch Mobility: Waymo makes its defense", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Turbopuffer", headline: "China&#8217;s brain-computer interface industry is racing ahead", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Zipline", headline: "Danish military evacuates US submariner who needed urgent medical care off Greenland", source: "Defense News", time: "14h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Chaos Industries", headline: "All eyes on Air Force leaders after a year of chaos and change", source: "Defense One", time: "15h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Rocket Lab", headline: "German defense firm said to be weighing bid for Mynaric", source: "SpaceNews", time: "16h ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Turbopuffer", headline: "How to Hide Google’s AI Overviews From Your Search Results", source: "Wired", time: "17h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Earth AI", headline: "How to View the ‘Blood Moon’ Total Lunar Eclipse on March 3", source: "Wired", time: "18h ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Attio", headline: "Tesla Sales Declined 11.4% in California in 2025", source: "CleanTechnica", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Cover", headline: "Electric Vehicle Models Top 5 Vehicle Classes in California", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Attio", headline: "Tesla Still Dominates California EV Sales ' And Tesla Still Massively Supported By California", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "ispace", headline: "NASA Delays Launch of Artemis II Lunar Mission Once Again", source: "Wired", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Turbopuffer", headline: "Trump Promises More Coal Jobs, Delivers Tariffs Instead", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "SpaceX", headline: "Next Generation Fighters and Drones With Europe Still Junior Partner", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "DIRAC", headline: "Realities of US Military Procurement and Exports to Europe", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Built Robotics", headline: "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than Claimed", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Waymo", headline: "TechCrunch Mobility: Waymo makes its defense", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "All the important news from the ongoing India AI Impact Summit", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Turbopuffer", headline: "China's brain-computer interface industry is racing ahead", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Zipline", headline: "Danish military evacuates US submariner who needed urgent medical care off Greenland", source: "Defense News", time: "15h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Chaos Industries", headline: "All eyes on Air Force leaders after a year of chaos and change", source: "Defense One", time: "16h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Rocket Lab", headline: "German defense firm said to be weighing bid for Mynaric", source: "SpaceNews", time: "17h ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Turbopuffer", headline: "How to Hide Google's AI Overviews From Your Search Results", source: "Wired", time: "18h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Earth AI", headline: "How to View the 'Blood Moon' Total Lunar Eclipse on March 3", source: "Wired", time: "19h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
