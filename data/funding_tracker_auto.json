@@ -1,5 +1,18 @@
 [
   {
+    "company": "Cover",
+    "totalRaised": "$900.0B+",
+    "totalRaisedRaw": 900000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$900B",
+    "lastRoundDate": "2026-01",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Anthropic",
     "totalRaised": "$43.0B+",
     "totalRaisedRaw": 43000.0,
@@ -27,6 +40,19 @@
     "roundCount": 1
   },
   {
+    "company": "Labelbox",
+    "totalRaised": "$30.0B+",
+    "totalRaisedRaw": 30000.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$30B",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Waymo",
     "totalRaised": "$16.0B+",
     "totalRaisedRaw": 16000.0,
@@ -36,6 +62,19 @@
     "valuation": "$126B",
     "leadInvestors": [
       "Alphabet"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Galvanick",
+    "totalRaised": "$9.0B+",
+    "totalRaisedRaw": 9000.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$9B",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -182,6 +221,19 @@
     "roundCount": 1
   },
   {
+    "company": "Agility Robotics",
+    "totalRaised": "$385M+",
+    "totalRaisedRaw": 385.0,
+    "lastRound": "Series E",
+    "lastRoundAmount": "$385M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Bedrock Robotics",
     "totalRaised": "$350M+",
     "totalRaisedRaw": 350.0,
@@ -243,6 +295,19 @@
     "valuation": "$1.5B",
     "leadInvestors": [
       "Founders Fund"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Revel",
+    "totalRaised": "$100M+",
+    "totalRaisedRaw": 100.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$100M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -330,6 +395,32 @@
     "valuation": "$500M+",
     "leadInvestors": [
       "Giant Ventures"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Dragonfly Aerospace",
+    "totalRaised": "$41M+",
+    "totalRaisedRaw": 41.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$41M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Proteus Space",
+    "totalRaised": "$17M+",
+    "totalRaisedRaw": 17.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$17M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Accel"
     ],
     "roundCount": 1
   }

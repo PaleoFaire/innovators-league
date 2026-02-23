@@ -44,10 +44,26 @@
       "TechCrunch Mobility: Waymo makes its defense",
       "Grey, Blue, or Green: The Real Ammonia Math"
     ],
-    "fundingQ": "$17.3B",
+    "fundingQ": "$17.7B",
     "components": {
       "funding": 100,
       "news": 100,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-02-23"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 59,
+    "trend": "accelerating",
+    "catalysts": [
+      "Electric Vehicle Models Top 5 Vehicle Classes in California"
+    ],
+    "fundingQ": "$900.0B",
+    "components": {
+      "funding": 100,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
@@ -175,22 +191,6 @@
     "lastUpdated": "2026-02-23"
   },
   {
-    "sector": "Housing & Construction",
-    "momentum": 22,
-    "trend": "rising",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 50,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-02-23"
-  },
-  {
     "sector": "Infrastructure & Logistics",
     "momentum": 22,
     "trend": "rising",
@@ -208,15 +208,16 @@
   },
   {
     "sector": "Transportation",
-    "momentum": 19,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
+      "Electric Vehicle Models Top 5 Vehicle Classes in California",
       "Tesla Still Dominates California EV Sales \u2014 And Tesla Still"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 88
     },
