@@ -10856,6 +10856,7 @@ const FUNDING_TRACKER = [
 // ─── IPO & EXIT PIPELINE ───
 // Auto-updated IPO pipeline — Last updated: 2026-02-23
 // Auto-updated IPO pipeline — Last updated: 2026-02-23
+// Auto-updated IPO pipeline — Last updated: 2026-02-23
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -11277,8 +11278,8 @@ const SECTOR_MOMENTUM_METHODOLOGY = {
 // Last updated: 2026-02-23
 // Methodology: Funding velocity (35%) + News frequency (25%) + Hiring velocity (20%) + Market sentiment (20%)
 const SECTOR_MOMENTUM = [
-  { sector: "Defense & Security", momentum: 79, trend: "accelerating", catalysts: ["Next Generation Fighters and Drones With Europe Still Junior", "Realities of US Military Procurement and Exports to Europe", "TechCrunch Mobility: Waymo makes its defense"], fundingQ: "$6.8B" },
-  { sector: "AI & Software", momentum: 70, trend: "accelerating", catalysts: ["Google VP warns that two types of AI startups may not surviv", "OpenAI debated calling police about suspected Canadian shoot", "Anthropic-funded group backs candidate attacked by rival AI"], fundingQ: "$31.8B" },
+  { sector: "Defense & Security", momentum: 79, trend: "accelerating", catalysts: ["Economic Statecraft and the Federal Institutional Architectu", "Next Generation Fighters and Drones With Europe Still Junior", "Realities of US Military Procurement and Exports to Europe"], fundingQ: "$6.8B" },
+  { sector: "AI & Software", momentum: 70, trend: "accelerating", catalysts: ["All the important news from the ongoing India AI Impact Summ", "Google VP warns that two types of AI startups may not surviv", "OpenAI debated calling police about suspected Canadian shoot"], fundingQ: "$31.8B" },
   { sector: "Robotics & Manufacturing", momentum: 70, trend: "accelerating", catalysts: ["Realities of US Military Procurement and Exports to Europe", "TechCrunch Mobility: Waymo makes its defense", "Grey, Blue, or Green: The Real Ammonia Math"], fundingQ: "$17.7B" },
   { sector: "Housing & Construction", momentum: 59, trend: "accelerating", catalysts: ["Electric Vehicle Models Top 5 Vehicle Classes in California"], fundingQ: "$900.0B" },
   { sector: "Ocean & Maritime", momentum: 52, trend: "steady", catalysts: ["Active ocean & maritime ecosystem"], fundingQ: "$1.2B" },
@@ -11287,7 +11288,7 @@ const SECTOR_MOMENTUM = [
   { sector: "Consumer Tech", momentum: 35, trend: "steady", catalysts: ["Trump Promises More Coal Jobs, Delivers Tariffs Instead", "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than", "German defense firm said to be weighing bid for Mynaric"], fundingQ: "$0M" },
   { sector: "Drones & Autonomous", momentum: 34, trend: "steady", catalysts: ["Next Generation Fighters and Drones With Europe Still Junior", "National Guard team clinches award for clawed drone at Army"], fundingQ: "$0M" },
   { sector: "Climate & Energy", momentum: 25, trend: "steady", catalysts: ["Grey, Blue, or Green: The Real Ammonia Math", "Peak Fuel Cell Bus Deliveries in the EU Occurred in 2025", "You Can Now Install\u2014and Update\u2014Microsoft Store Apps Using th"], fundingQ: "$0M" },
-  { sector: "Chips & Semiconductors", momentum: 22, trend: "declining", catalysts: ["Active chips & semiconductors ecosystem"], fundingQ: "$0M" },
+  { sector: "Chips & Semiconductors", momentum: 23, trend: "rising", catalysts: ["All the important news from the ongoing India AI Impact Summ"], fundingQ: "$0M" },
   { sector: "Infrastructure & Logistics", momentum: 22, trend: "rising", catalysts: ["AI Data Centers Turn to High-Temperature Superconductors"], fundingQ: "$0M" },
   { sector: "Transportation", momentum: 20, trend: "declining", catalysts: ["Electric Vehicle Models Top 5 Vehicle Classes in California", "Tesla Still Dominates California EV Sales \u2014 And Tesla Still"], fundingQ: "$0M" },
   { sector: "Nuclear Energy", momentum: 17, trend: "declining", catalysts: ["Active nuclear energy ecosystem"], fundingQ: "$0M" },
@@ -11446,6 +11447,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-02-23
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-02-23
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-02-23
 const DEAL_TRACKER = [
   { company: "Waymo", investor: "Alphabet", amount: "$16B", round: "Late Stage", date: "2026-02", valuation: "$126B", leadOrParticipant: "lead" },
   { company: "Bedrock Robotics", investor: "CapitalG", amount: "$270M", round: "Series B", date: "2026-02", valuation: "$1.75B", leadOrParticipant: "lead" },
@@ -11560,13 +11563,13 @@ const GROWTH_SIGNALS = [
   { company: "Agility Robotics", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-23" },
   { company: "Anduril", type: "gov_traction", detail: "100 contracts", strength: 2, date: "2026-02-23" },
   { company: "Antares", type: "ip_moat", detail: "13 patents", strength: 2, date: "2026-02-23" },
-  { company: "Anthropic", type: "media_buzz", detail: "6 recent articles", strength: 2, date: "2026-02-23" },
+  { company: "Anthropic", type: "media_buzz", detail: "7 recent articles", strength: 2, date: "2026-02-23" },
   { company: "Arc Boats", type: "media_buzz", detail: "7 recent articles", strength: 2, date: "2026-02-23" },
   { company: "Array Labs", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-23" },
   { company: "Attio", type: "media_buzz", detail: "6 recent articles", strength: 2, date: "2026-02-23" },
   { company: "Aurora Innovation", type: "stock_movement", detail: "+13.0% up", strength: 2, date: "2026-02-23" },
   { company: "Built Robotics", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-23" },
-  { company: "Cape", type: "media_buzz", detail: "15 recent articles", strength: 2, date: "2026-02-23" },
+  { company: "Cape", type: "media_buzz", detail: "16 recent articles", strength: 2, date: "2026-02-23" },
   { company: "DIRAC", type: "media_buzz", detail: "8 recent articles", strength: 2, date: "2026-02-23" },
   { company: "Deterrence", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-02-23" },
   { company: "Divergent", type: "ip_moat", detail: "58 patents", strength: 2, date: "2026-02-23" },
@@ -11585,7 +11588,7 @@ const GROWTH_SIGNALS = [
   { company: "Orchid", type: "ip_moat", detail: "100 patents", strength: 2, date: "2026-02-23" },
   { company: "Palantir Technologies", type: "gov_traction", detail: "100 contracts", strength: 2, date: "2026-02-23" },
   { company: "Photonic Inc", type: "media_buzz", detail: "6 recent articles", strength: 2, date: "2026-02-23" },
-  { company: "Rainbow Robotics", type: "stock_movement", detail: "+6.6% up", strength: 2, date: "2026-02-23" },
+  { company: "Rainbow Robotics", type: "stock_movement", detail: "+5.8% up", strength: 2, date: "2026-02-23" },
   { company: "Rainmaker", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-23" },
   { company: "Relativity Space", type: "ip_moat", detail: "20 patents", strength: 2, date: "2026-02-23" },
   { company: "Reveal Technology", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-23" },
@@ -11813,6 +11816,7 @@ const FOUNDER_MAFIAS = {
 
 // ─── REVENUE INTELLIGENCE ───
 // Revenue figures where publicly available or credibly reported
+// Auto-updated revenue intelligence — Last updated: 2026-02-23
 // Auto-updated revenue intelligence — Last updated: 2026-02-23
 // Auto-updated revenue intelligence — Last updated: 2026-02-23
 const REVENUE_INTEL = [
@@ -12229,6 +12233,7 @@ const PREDICTIVE_SCORES = {
     companies: {
 
 
+
       "SpaceX": { score: 45, trend: "stable", factors: { revenueScale: 95, revenueGrowth: 85, profitability: 80, governance: 40, marketConditions: 60, investorPressure: 20, competitivePosition: 95, regulatory: 30 }, analysis: "Financial metrics excellent but Elon Musk has repeatedly stated no near-term IPO plans. Starlink spinoff more likely.", lastUpdated: "2026-02-01" },
       "Stripe": { score: 82, trend: "up", factors: { revenueScale: 95, revenueGrowth: 70, profitability: 85, governance: 90, marketConditions: 75, investorPressure: 80, competitivePosition: 90, regulatory: 85 }, analysis: "All metrics point to IPO readiness. CFO hired, profitable, governance in place. 2026 IPO highly likely.", lastUpdated: "2026-02-01" },
       "Databricks": { score: 78, trend: "up", factors: { revenueScale: 90, revenueGrowth: 80, profitability: 60, governance: 85, marketConditions: 75, investorPressure: 75, competitivePosition: 85, regulatory: 90 }, analysis: "Strong fundamentals, approaching profitability. S-1 filing expected H1 2026.", lastUpdated: "2026-02-01" },
@@ -12446,6 +12451,7 @@ const PREDICTIVE_SCORES = {
       "REGENT Craft": { score: 31, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 27, governance: 50, marketConditions: 15, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series A stage, 0 jobs, 0 patents, sector momentum 19/100.", lastUpdated: "2026-02-23" },
       "DEEPX": { score: 39, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 51, governance: 50, marketConditions: 40, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 50/100.", lastUpdated: "2026-02-23" },
       "Kratos Defense": { score: 35, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 1, governance: 50, marketConditions: 63, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on  stage, 0 jobs, 0 patents, sector momentum 79/100.", lastUpdated: "2026-02-23" },
+      "Dragonfly Aerospace": { score: 43, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 80, marketConditions: 36, investorPressure: 80, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series G stage, 0 jobs, 0 patents, sector momentum 45/100.", lastUpdated: "2026-02-23" },
     }
   },
 
@@ -14499,6 +14505,8 @@ const INNOVATOR_SCORES = [
 // =============================================================
 // GOVERNMENT CONTRACT INTELLIGENCE
 // =============================================================
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-02-23
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-02-23
 // Auto-updated government contracts from USAspending
@@ -19552,22 +19560,24 @@ const DATA_QUALITY = {
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
 // Last updated: 2026-02-23 05:42
+// Auto-generated real-time signals
+// Last updated: 2026-02-23
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Cover", headline: "Electric Vehicle Models Top 5 Vehicle Classes in California", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Attio", headline: "Tesla Still Dominates California EV Sales ' And Tesla Still Massively Supported By California", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "ispace", headline: "NASA Delays Launch of Artemis II Lunar Mission Once Again", source: "Wired", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Turbopuffer", headline: "Trump Promises More Coal Jobs, Delivers Tariffs Instead", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "SpaceX", headline: "Next Generation Fighters and Drones With Europe Still Junior Partner", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "DIRAC", headline: "Realities of US Military Procurement and Exports to Europe", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Built Robotics", headline: "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than Claimed", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Waymo", headline: "TechCrunch Mobility: Waymo makes its defense", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "All the important news from the ongoing India AI Impact Summit", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Turbopuffer", headline: "China's brain-computer interface industry is racing ahead", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Zipline", headline: "Danish military evacuates US submariner who needed urgent medical care off Greenland", source: "Defense News", time: "15h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Chaos Industries", headline: "All eyes on Air Force leaders after a year of chaos and change", source: "Defense One", time: "16h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Rocket Lab", headline: "German defense firm said to be weighing bid for Mynaric", source: "SpaceNews", time: "17h ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "Turbopuffer", headline: "How to Hide Google's AI Overviews From Your Search Results", source: "Wired", time: "18h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Earth AI", headline: "How to View the 'Blood Moon' Total Lunar Eclipse on March 3", source: "Wired", time: "19h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Cape", headline: "Economic Statecraft and the Federal Institutional Architecture", source: "War on the Rocks", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Cover", headline: "Electric Vehicle Models Top 5 Vehicle Classes in California", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Attio", headline: "Tesla Still Dominates California EV Sales — And Tesla Still Massively Supported By California", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "ispace", headline: "NASA Delays Launch of Artemis II Lunar Mission Once Again", source: "Wired", time: "7h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Turbopuffer", headline: "Trump Promises More Coal Jobs, Delivers Tariffs Instead", source: "CleanTechnica", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "SpaceX", headline: "Next Generation Fighters and Drones With Europe Still Junior Partner", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "DIRAC", headline: "Realities of US Military Procurement and Exports to Europe", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Built Robotics", headline: "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than Claimed", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Waymo", headline: "TechCrunch Mobility: Waymo makes its defense", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "All the important news from the ongoing India AI Impact Summit", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Turbopuffer", headline: "China&#8217;s brain-computer interface industry is racing ahead", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Zipline", headline: "Danish military evacuates US submariner who needed urgent medical care off Greenland", source: "Defense News", time: "17h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Chaos Industries", headline: "All eyes on Air Force leaders after a year of chaos and change", source: "Defense One", time: "19h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Rocket Lab", headline: "German defense firm said to be weighing bid for Mynaric", source: "SpaceNews", time: "20h ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "Turbopuffer", headline: "How to Hide Google’s AI Overviews From Your Search Results", source: "Wired", time: "21h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

@@ -1,19 +1,19 @@
 {
   "ipoReadiness": {
-    "Kratos Defense": {
-      "score": 35,
+    "Dragonfly Aerospace": {
+      "score": 43,
       "trend": "stable",
       "factors": {
         "revenueScale": 25,
         "revenueGrowth": 30,
-        "profitability": 1,
-        "governance": 50,
-        "marketConditions": 63,
-        "investorPressure": 40,
+        "profitability": 40,
+        "governance": 80,
+        "marketConditions": 36,
+        "investorPressure": 80,
         "competitivePosition": 30,
         "regulatory": 70
       },
-      "analysis": "Auto-scored based on  stage, 0 jobs, 0 patents, sector momentum 79/100.",
+      "analysis": "Auto-scored based on Series G stage, 0 jobs, 0 patents, sector momentum 45/100.",
       "lastUpdated": "2026-02-23"
     }
   },
@@ -1121,10 +1121,10 @@
     "Galvanick": {
       "predictedTiming": "H2 2026",
       "confidence": 45,
-      "predictedSize": "$30-60M",
-      "predictedValuation": "$150-300M",
+      "predictedSize": "$10-20M",
+      "predictedValuation": "$50-100M",
       "likelyInvestors": [],
-      "catalyst": "Growth trajectory and Series A stage momentum",
+      "catalyst": "Growth trajectory and Seed stage momentum",
       "lastUpdated": "2026-02-23"
     },
     "SkySafe": {
@@ -1337,10 +1337,10 @@
     "Anthropic": {
       "predictedTiming": "H2 2026",
       "confidence": 55,
-      "predictedSize": "$TBD",
-      "predictedValuation": "$TBD",
+      "predictedSize": "$500M-2B",
+      "predictedValuation": "$20-50B",
       "likelyInvestors": [],
-      "catalyst": "Growth trajectory and Late Stage stage momentum",
+      "catalyst": "Growth trajectory and Series G stage momentum",
       "lastUpdated": "2026-02-23"
     },
     "Anysphere": {
@@ -1382,10 +1382,10 @@
     "Agility Robotics": {
       "predictedTiming": "H2 2026",
       "confidence": 45,
-      "predictedSize": "$50-150M",
-      "predictedValuation": "$500M-1B",
+      "predictedSize": "$300-700M",
+      "predictedValuation": "$5-15B",
       "likelyInvestors": [],
-      "catalyst": "Growth trajectory and Series B stage momentum",
+      "catalyst": "Growth trajectory and Series E stage momentum",
       "lastUpdated": "2026-02-23"
     },
     "Apptronik": {
@@ -1748,15 +1748,6 @@
       "catalyst": "Growth trajectory and Series A stage momentum",
       "lastUpdated": "2026-02-23"
     },
-    "Atom Limbs": {
-      "predictedTiming": "H2 2026",
-      "confidence": 45,
-      "predictedSize": "$30-60M",
-      "predictedValuation": "$150-300M",
-      "likelyInvestors": [],
-      "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-02-23"
-    },
     "Helsing": {
       "predictedTiming": "H2 2026",
       "confidence": 55,
@@ -1976,10 +1967,10 @@
     "Proteus Space": {
       "predictedTiming": "H2 2026",
       "confidence": 30,
-      "predictedSize": "$10-20M",
-      "predictedValuation": "$50-100M",
+      "predictedSize": "$30-60M",
+      "predictedValuation": "$150-300M",
       "likelyInvestors": [],
-      "catalyst": "Growth trajectory and Seed stage momentum",
+      "catalyst": "Growth trajectory and Series A stage momentum",
       "lastUpdated": "2026-02-23"
     },
     "Ursa Major Technologies": {
@@ -3074,10 +3065,10 @@
     "Dragonfly Aerospace": {
       "predictedTiming": "H2 2026",
       "confidence": 45,
-      "predictedSize": "$30-60M",
-      "predictedValuation": "$150-300M",
+      "predictedSize": "$500M-2B",
+      "predictedValuation": "$20-50B",
       "likelyInvestors": [],
-      "catalyst": "Growth trajectory and Series A stage momentum",
+      "catalyst": "Growth trajectory and Series G stage momentum",
       "lastUpdated": "2026-02-23"
     },
     "Solinftec": {
@@ -3551,10 +3542,10 @@
     "Labelbox": {
       "predictedTiming": "H2 2026",
       "confidence": 55,
-      "predictedSize": "$200-500M",
-      "predictedValuation": "$3-8B",
+      "predictedSize": "$500M-2B",
+      "predictedValuation": "$20-50B",
       "likelyInvestors": [],
-      "catalyst": "Growth trajectory and Series D stage momentum",
+      "catalyst": "Growth trajectory and Series G stage momentum",
       "lastUpdated": "2026-02-23"
     },
     "LeoLabs": {
