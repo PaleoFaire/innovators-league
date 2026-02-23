@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 4.73,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -1.81,
       "count": 1
     },
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 7.64,
+      "avg_change": 3.62,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 3.52,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 0.16,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -1.6,
+      "avg_change": -5.16,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.6,
+      "avg_change": -2.93,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.36,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -7.46,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 5.36,
+      "avg_change": 4.44,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 3.91,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -8.46,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.39,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.72,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SATL",
-      "Satellogic",
-      24.91
-    ],
-    [
       "TEM",
       "Tempus AI",
-      14.95
+      10.88
     ],
     [
       "LNZA",
       "LanzaTech",
-      13.22
+      9.81
     ],
     [
-      "AUR",
-      "Aurora Innovation",
-      13.03
+      "LUNR",
+      "Intuitive Machines",
+      9.58
+    ],
+    [
+      "9348.T",
+      "ispace",
+      8.88
     ],
     [
       "PL",
       "Planet Labs",
-      12.21
+      7.89
     ]
   ],
   "topLosers": [
     [
-      "SMR",
-      "NuScale Power",
-      -3.93
+      "ASRHF",
+      "Astroscale",
+      -8.9
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -4.04
+      -9.66
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -4.47
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      -9.04
+      "IONQ",
+      "IonQ",
+      -9.89
     ],
     [
       "QS",
       "QuantumScape",
-      -11.4
+      -12.68
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      -14.07
     ]
   ],
-  "lastUpdated": "2026-02-23 08:06:47"
+  "lastUpdated": "2026-02-23 14:38:40"
 }
