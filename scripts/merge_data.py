@@ -543,6 +543,192 @@ def update_last_updated(data_js_content):
     return data_js_content
 
 
+def update_company_funding(data_js_content):
+    """Update COMPANIES funding fields from recent deals."""
+    deals = load_json("deals_auto.json")
+    if not deals:
+        print("No deals data found, skipping company funding updates...")
+        return data_js_content
+
+    # Group deals by company, keep most recent
+    latest_deals = {}
+    for deal in deals:
+        company = deal.get("company", "")
+        date = deal.get("date", "")
+        if company and (company not in latest_deals or date > latest_deals[company].get("date", "")):
+            latest_deals[company] = deal
+
+    print(f"Updating company funding from {len(latest_deals)} companies with deals...")
+
+    # Valid funding stages for auto-update
+    valid_stages = {
+        "Pre-Seed", "Seed", "Series A", "Series B", "Series C", "Series D",
+        "Series E", "Series F", "Series G", "Series H", "IPO", "SPAC",
+    }
+
+    updated = 0
+    for company, deal in latest_deals.items():
+        deal_date = deal.get("date", "")
+        deal_round = deal.get("round", "")
+        deal_amount = deal.get("amount", "")
+        deal_valuation = deal.get("valuation", "")
+
+        # Find this company's entry in COMPANIES array
+        name_pattern = re.escape(company)
+        name_match = re.search(rf'name:\s*"{name_pattern}"', data_js_content)
+        if not name_match:
+            continue
+
+        # Find the boundary of this company entry
+        entry_start = name_match.start()
+        next_name = re.search(r'name:\s*"', data_js_content[entry_start + 10:])
+        if next_name:
+            entry_end = entry_start + 10 + next_name.start()
+        else:
+            entry_end = len(data_js_content)
+
+        entry_block = data_js_content[entry_start:entry_end]
+
+        # Check existing recentEvent date — only update if deal is newer
+        existing_date_match = re.search(r'recentEvent:.*?date:\s*"([^"]*)"', entry_block, re.DOTALL)
+        if existing_date_match:
+            existing_date = existing_date_match.group(1)
+            if deal_date <= existing_date:
+                continue  # Deal is older than existing event, skip
+
+        changes_made = False
+
+        # Update fundingStage if deal round is a recognized stage
+        if deal_round in valid_stages:
+            stage_match = re.search(r'(fundingStage:\s*")[^"]*(")', entry_block)
+            if stage_match:
+                new_block = entry_block[:stage_match.start()] + \
+                    f'{stage_match.group(1)}{deal_round}{stage_match.group(2)}' + \
+                    entry_block[stage_match.end():]
+                entry_block = new_block
+                changes_made = True
+
+        # Update valuation if deal has one
+        if deal_valuation:
+            val_match = re.search(r'(valuation:\s*")[^"]*(")', entry_block)
+            if val_match:
+                new_block = entry_block[:val_match.start()] + \
+                    f'{val_match.group(1)}{deal_valuation}{val_match.group(2)}' + \
+                    entry_block[val_match.end():]
+                entry_block = new_block
+                changes_made = True
+
+        # Update recentEvent
+        if deal_amount and deal_round:
+            event_text = f"Raised {deal_amount} {deal_round}"
+            re_match = re.search(
+                r'recentEvent:\s*\{[^}]*\}',
+                entry_block
+            )
+            if re_match:
+                new_event = f'recentEvent: {{ type: "funding", text: "{event_text}", date: "{deal_date}" }}'
+                new_block = entry_block[:re_match.start()] + new_event + entry_block[re_match.end():]
+                entry_block = new_block
+                changes_made = True
+
+        if changes_made:
+            data_js_content = data_js_content[:entry_start] + entry_block + data_js_content[entry_end:]
+            updated += 1
+            print(f"  {company}: {deal_amount} {deal_round} ({deal_date})")
+
+    print(f"  Updated {updated} company funding records from deals")
+    return data_js_content
+
+
+def update_vc_portfolios(data_js_content):
+    """Update VC_FIRMS portfolioCompanies from deal data."""
+    deals = load_json("deals_auto.json")
+    if not deals:
+        print("No deals data found, skipping VC portfolio updates...")
+        return data_js_content
+
+    # Map deal investor names to VC_FIRMS shortNames
+    INVESTOR_TO_VC = {
+        "a16z": "a16z",
+        "8VC": "8VC",
+        "Founders Fund": "Founders Fund",
+        "Khosla Ventures": "Khosla",
+        "Sequoia Capital": "Sequoia",
+        "Sequoia": "Sequoia",
+        "Eclipse Ventures": "Eclipse",
+        "General Catalyst": "GC",
+        "Lux Capital": "Lux",
+        "Cantos Ventures": "Cantos",
+    }
+
+    # Build investor → companies map from deals
+    vc_investments = {}
+    for deal in deals:
+        investor = deal.get("investor", "")
+        company = deal.get("company", "")
+        if not investor or not company:
+            continue
+        vc_short = INVESTOR_TO_VC.get(investor)
+        if vc_short:
+            vc_investments.setdefault(vc_short, set()).add(company)
+
+    if not vc_investments:
+        print("No VC portfolio updates needed")
+        return data_js_content
+
+    print(f"Checking portfolio updates for {len(vc_investments)} VCs...")
+
+    # Get set of all tracked company names for validation
+    tracked_companies = set(re.findall(r'name:\s*"([^"]+)"', data_js_content[:500000]))
+
+    updated = 0
+    for vc_short, deal_companies in vc_investments.items():
+        # Find this VC's entry
+        vc_match = re.search(rf'shortName:\s*"{re.escape(vc_short)}"', data_js_content)
+        if not vc_match:
+            continue
+
+        # Find the portfolioCompanies array within this VC entry
+        entry_start = vc_match.start()
+        # Look ahead for the portfolio array
+        after_vc = data_js_content[entry_start:entry_start + 2000]
+        portfolio_match = re.search(
+            r'(portfolioCompanies:\s*\[)([^\]]*?)(\])',
+            after_vc
+        )
+        if not portfolio_match:
+            continue
+
+        # Parse existing portfolio
+        existing_str = portfolio_match.group(2)
+        existing_companies = set(re.findall(r'"([^"]+)"', existing_str))
+
+        # Find new companies to add (must be tracked and not already in portfolio)
+        new_additions = []
+        for company in deal_companies:
+            if company in tracked_companies and company not in existing_companies:
+                new_additions.append(company)
+
+        if not new_additions:
+            continue
+
+        # Build updated portfolio string
+        all_companies = list(existing_companies) + new_additions
+        new_portfolio_str = ", ".join(f'"{c}"' for c in all_companies)
+
+        # Replace in content
+        abs_start = entry_start + portfolio_match.start()
+        abs_end = entry_start + portfolio_match.end()
+        replacement = f'{portfolio_match.group(1)}{new_portfolio_str}{portfolio_match.group(3)}'
+        data_js_content = data_js_content[:abs_start] + replacement + data_js_content[abs_end:]
+
+        updated += 1
+        print(f"  {vc_short}: +{len(new_additions)} ({', '.join(new_additions)})")
+
+    print(f"  Updated {updated} VC portfolio lists")
+    return data_js_content
+
+
 def validate_js_syntax(content):
     """Basic validation: check for missing commas between objects in arrays."""
     issues = list(re.finditer(r'\}\s*\n\s*\{', content))
@@ -584,6 +770,8 @@ def main():
     data_js_content = update_valuation_benchmarks(data_js_content)
     data_js_content = update_innovator_scores(data_js_content)
     data_js_content = update_predictive_scores(data_js_content)
+    data_js_content = update_company_funding(data_js_content)
+    data_js_content = update_vc_portfolios(data_js_content)
     data_js_content = update_last_updated(data_js_content)
 
     # Validate before writing

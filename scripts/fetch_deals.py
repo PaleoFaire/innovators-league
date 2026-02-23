@@ -28,58 +28,80 @@ FUNDING_FEEDS = [
     ("TechCrunch Startups", "https://techcrunch.com/category/startups/feed/"),
 ]
 
-# Known company aliases for matching
-COMPANY_ALIASES = {
-    "anduril": "Anduril Industries",
-    "spacex": "SpaceX",
-    "palantir": "Palantir",
-    "shield ai": "Shield AI",
-    "rocket lab": "Rocket Lab",
-    "figure": "Figure AI",
-    "physical intelligence": "Physical Intelligence",
-    "cerebras": "Cerebras",
-    "helion": "Helion",
-    "commonwealth fusion": "Commonwealth Fusion Systems",
-    "oklo": "Oklo",
-    "saronic": "Saronic",
-    "epirus": "Epirus",
-    "relativity": "Relativity Space",
-    "boom supersonic": "Boom Supersonic",
-    "boom": "Boom Supersonic",
-    "zipline": "Zipline",
-    "varda": "Varda Space Industries",
-    "impulse space": "Impulse Space",
-    "astranis": "Astranis",
-    "captura": "Captura",
-    "terraform": "Terraform Industries",
-    "fervo": "Fervo Energy",
-    "skydio": "Skydio",
-    "waymo": "Waymo",
-    "neuralink": "Neuralink",
-    "hadrian": "Hadrian",
-    "castelion": "Castelion",
-    "radiant": "Radiant",
-    "lightmatter": "Lightmatter",
-    "etched": "Etched",
-    "groq": "Groq",
-    "scale ai": "Scale AI",
-    "anthropic": "Anthropic",
-    "openai": "OpenAI",
-    "x-energy": "X-Energy",
-    "tae technologies": "TAE Technologies",
-    "terrapower": "TerraPower",
-    "joby": "Joby Aviation",
-    "archer": "Archer Aviation",
-    "planet labs": "Planet Labs",
-    "intuitive machines": "Intuitive Machines",
-    "rivian": "Rivian",
-    "ionq": "IonQ",
-    "rigetti": "Rigetti Computing",
-    "d-wave": "D-Wave Quantum",
-    "recursion": "Recursion Pharmaceuticals",
-    "mammoth": "Mammoth Biosciences",
-    "altos labs": "Altos Labs",
-}
+# Company aliases — dynamically loaded from master company list
+COMPANY_ALIASES = {}
+
+
+def load_company_aliases():
+    """Load company aliases from master company list (534 companies)."""
+    master_path = Path(__file__).parent / "company_master_list.js"
+    if not master_path.exists():
+        print("  WARNING: company_master_list.js not found")
+        return {}
+
+    content = master_path.read_text()
+    aliases = {}
+
+    # Common English words that shouldn't match as company names in funding headlines
+    GENERIC_WORDS = {
+        'aging', 'allies', 'arctic', 'array', 'atomic', 'audio', 'beacon',
+        'carbon', 'charge', 'condor', 'desert', 'energy', 'fabric', 'falcon',
+        'forge', 'fusion', 'garden', 'ghost', 'global', 'harbor', 'ignite',
+        'impact', 'launch', 'matter', 'merge', 'neural', 'ocean', 'orbit',
+        'radar', 'radiant', 'rocket', 'scout', 'shield', 'signal', 'solar',
+        'space', 'spark', 'target', 'terra', 'tower', 'vapor', 'vertex',
+        'blimps', 'agtech', 'quantum', 'robotics',
+        'autonomous drones', 'laser communications', 'space laser',
+        'optical inter-satellite link', 'road runner',
+    }
+
+    for match in re.finditer(
+        r'name:\s*"([^"]+)".*?aliases:\s*\[([^\]]*)\]',
+        content, re.DOTALL
+    ):
+        name = match.group(1)
+        alias_str = match.group(2)
+        # Always add the full canonical name (lowercase)
+        aliases[name.lower()] = name
+        # Add each alias with filtering
+        for alias_match in re.finditer(r'"([^"]+)"', alias_str):
+            alias = alias_match.group(1).lower()
+            # Skip short aliases and generic words
+            if len(alias) < 5:
+                continue
+            if alias in GENERIC_WORDS:
+                continue
+            # Single-word aliases under 8 chars are risky — require them to be proper nouns
+            # (i.e., the original alias starts with uppercase and is a single word)
+            orig = alias_match.group(1)
+            if ' ' not in alias and len(alias) < 8 and not orig[0].isupper():
+                continue
+            aliases[alias] = name
+
+    return aliases
+
+
+# Patterns for extracting company names from unknown funding headlines
+DISCOVERY_PATTERNS = [
+    r'^([A-Z][A-Za-z0-9\s&.\'-]+?)\s+(?:raises?|secures?|closes?|lands?|gets?|nabs?|bags?)\s',
+    r'^([A-Z][A-Za-z0-9\s&.\'-]+?),?\s+(?:a |an |the )?(?:\w+ )?startup,?\s+(?:raises?|secures?)',
+    r'(?:startup|company)\s+([A-Z][A-Za-z0-9\s&.\'-]+?)\s+(?:raises?|secures?|closes?)\s',
+]
+
+
+def extract_unknown_company(title):
+    """Try to extract a company name from a funding headline for unknown companies."""
+    for pattern in DISCOVERY_PATTERNS:
+        match = re.search(pattern, title)
+        if match:
+            name = match.group(1).strip().rstrip(',')
+            # Filter out generic words that aren't company names
+            skip_words = {'this', 'the', 'a', 'an', 'new', 'report', 'how', 'why',
+                          'what', 'when', 'where', 'analysis', 'exclusive', 'breaking'}
+            if name.lower() in skip_words or len(name) < 3 or len(name) > 50:
+                continue
+            return name
+    return None
 
 # Investor name normalization
 INVESTOR_ALIASES = {
@@ -339,12 +361,95 @@ def save_deals_json(deals):
     print(f"Saved {len(deals)} deals to {output_path}")
 
 
+def save_discovered_companies(articles):
+    """Extract and save unknown companies from funding articles for manual review."""
+    discoveries = []
+    seen_names = set()
+
+    for article in articles:
+        title = article.get("title", "")
+        desc = article.get("description", "")
+        full_text = f"{title} {desc}"
+
+        # Skip if we can match a known company
+        if match_company(full_text):
+            continue
+
+        # Must have a funding amount to be interesting
+        amount = parse_funding_amount(full_text)
+        if not amount:
+            continue
+
+        # Try to extract the company name from the headline
+        company_name = extract_unknown_company(title)
+        if not company_name or company_name.lower() in seen_names:
+            continue
+
+        seen_names.add(company_name.lower())
+
+        # Parse date
+        pub_date = article.get("pubDate", "")
+        try:
+            dt = datetime.strptime(pub_date[:25].strip(), "%a, %d %b %Y %H:%M:%S")
+            date_str = dt.strftime("%Y-%m")
+        except Exception:
+            date_str = datetime.now().strftime("%Y-%m")
+
+        discoveries.append({
+            "name": company_name,
+            "amount": amount,
+            "round": parse_round_type(full_text) or "Funding Round",
+            "investors": match_investors(full_text),
+            "source": article.get("source", ""),
+            "date": date_str,
+            "headline": title[:150],
+            "discoveredAt": datetime.now().strftime("%Y-%m-%d"),
+        })
+
+    if not discoveries:
+        print("No new unknown companies discovered")
+        return
+
+    # Load existing discoveries and merge (keep most recent per company)
+    discovery_path = DATA_DIR / "discovered_companies.json"
+    existing = []
+    if discovery_path.exists():
+        try:
+            with open(discovery_path) as f:
+                existing = json.load(f)
+        except Exception:
+            existing = []
+
+    existing_names = {d["name"].lower() for d in existing}
+    for d in discoveries:
+        if d["name"].lower() not in existing_names:
+            existing.append(d)
+            existing_names.add(d["name"].lower())
+
+    # Sort by discovery date, keep most recent 50
+    existing.sort(key=lambda d: d.get("discoveredAt", ""), reverse=True)
+    existing = existing[:50]
+
+    with open(discovery_path, "w") as f:
+        json.dump(existing, f, indent=2)
+
+    print(f"Discovered {len(discoveries)} unknown companies (total queue: {len(existing)})")
+    for d in discoveries[:5]:
+        print(f"  NEW: {d['name']} — {d['amount']} {d['round']} ({d['source']})")
+
+
 def main():
+    global COMPANY_ALIASES
+
     print("=" * 60)
     print("Deal Flow Fetcher for The Innovators League")
     print("=" * 60)
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
+
+    # Load company aliases from master list
+    COMPANY_ALIASES = load_company_aliases()
+    print(f"Loaded {len(COMPANY_ALIASES)} company aliases from master list")
 
     all_articles = []
 
@@ -378,18 +483,22 @@ def main():
 
     print(f"Extracted {len(new_deals)} deals from articles")
 
-    # 4. Load existing deals and merge
+    # 4. Discovery pipeline — log unknown companies for manual review
+    print("\nRunning discovery pipeline...")
+    save_discovered_companies(all_articles)
+
+    # 5. Load existing deals and merge
     existing = load_existing_deals()
-    print(f"Existing deals in DEAL_TRACKER: {len(existing)}")
+    print(f"\nExisting deals in DEAL_TRACKER: {len(existing)}")
 
     merged, added = deduplicate_deals(existing, new_deals)
     print(f"New deals added: {added}")
     print(f"Total deals after merge: {len(merged)}")
 
-    # 5. Sort by date (most recent first)
+    # 6. Sort by date (most recent first)
     merged.sort(key=lambda d: d.get("date", ""), reverse=True)
 
-    # 6. Save
+    # 7. Save
     save_deals_json(merged)
 
     # Summary
