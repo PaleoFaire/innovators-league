@@ -109,8 +109,33 @@ def fetch_yahoo_quote(ticker):
             closes = indicators.get("close", [])
             sparkline = [c for c in closes if c is not None][-5:]
 
-            # Market cap
+            # Market cap — try meta field first, then compute from price * shares
             market_cap = meta.get("marketCap", 0)
+            if not market_cap:
+                # Fallback: fetch from quote summary endpoint
+                try:
+                    quote_url = f"https://query1.finance.yahoo.com/v10/finance/quoteSummary/{ticker}"
+                    quote_params = {"modules": "price"}
+                    qr = requests.get(quote_url, headers=headers, params=quote_params, timeout=10)
+                    if qr.status_code == 200:
+                        qdata = qr.json()
+                        price_info = qdata.get("quoteSummary", {}).get("result", [{}])[0].get("price", {})
+                        market_cap = price_info.get("marketCap", {}).get("raw", 0)
+                except Exception:
+                    pass
+            if not market_cap:
+                # Last resort: try v6 finance endpoint
+                try:
+                    v6_url = f"https://query2.finance.yahoo.com/v6/finance/quote"
+                    v6_params = {"symbols": ticker}
+                    v6r = requests.get(v6_url, headers=headers, params=v6_params, timeout=10)
+                    if v6r.status_code == 200:
+                        v6data = v6r.json()
+                        results = v6data.get("quoteResponse", {}).get("result", [])
+                        if results:
+                            market_cap = results[0].get("marketCap", 0)
+                except Exception:
+                    pass
             if market_cap >= 1e12:
                 market_cap_str = f"${market_cap/1e12:.1f}T"
             elif market_cap >= 1e9:

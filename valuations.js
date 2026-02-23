@@ -140,22 +140,24 @@ function initHeroStats() {
   const medianEl = document.getElementById('val-median-multiple');
   if (medianEl) medianEl.textContent = medianMultiple > 0 ? formatMultiple(medianMultiple) : 'N/A';
 
-  // Sum market caps from STOCK_PRICES
-  let totalMcap = 0;
+  // Sum valuations from COMPANIES (private valuations + public where valuation field exists)
+  let totalVal = 0;
+  let publicMcap = 0;
   if (typeof STOCK_PRICES !== 'undefined' && STOCK_PRICES) {
     Object.values(STOCK_PRICES).forEach(s => {
-      if (s.marketCapRaw && s.marketCapRaw > 0) totalMcap += s.marketCapRaw;
+      if (s.marketCapRaw && s.marketCapRaw > 0) publicMcap += s.marketCapRaw;
     });
   }
-  // Also add private company valuations
   if (typeof COMPANIES !== 'undefined' && Array.isArray(COMPANIES)) {
     COMPANIES.forEach(c => {
       const val = parseValuation(c.valuation);
-      if (val > 0) totalMcap += val;
+      if (val > 0) totalVal += val;
     });
   }
+  // Use public market cap where available, otherwise use private valuations
+  const displayTotal = publicMcap > 0 ? publicMcap + totalVal : totalVal;
   const mcapEl = document.getElementById('val-total-mcap');
-  if (mcapEl) mcapEl.textContent = formatValue(totalMcap);
+  if (mcapEl) mcapEl.textContent = formatValue(displayTotal);
 }
 
 // ─── 2. Sector Valuation Map ─────────────────────────────────────────────────
@@ -624,8 +626,7 @@ function initCapitalHeatmap() {
 
   COMPANIES.forEach(function(c) {
     var raised = parseValuation(c.totalRaised);
-    if (raised <= 0) raised = parseValuation(c.valuation); // fallback to valuation
-    if (raised <= 0) return; // skip if no capital data
+    if (raised <= 0) return; // skip — only use actual capital raised, never valuation
 
     var sector = normalizeSector(c.sector);
     var stage = normalizeFundingStage(c.fundingStage);
@@ -668,7 +669,7 @@ function initCapitalHeatmap() {
     statsEl.innerHTML =
       '<div class="cap-stat-card">' +
         '<div class="cap-stat-value">' + formatValue(grandTotal) + '</div>' +
-        '<div class="cap-stat-label">Total Tracked Capital</div>' +
+        '<div class="cap-stat-label">Total Capital Raised</div>' +
       '</div>' +
       '<div class="cap-stat-card">' +
         '<div class="cap-stat-value">' + totalCompanies + '</div>' +

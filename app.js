@@ -1863,10 +1863,25 @@ function initFilters() {
   });
   stageFilter.addEventListener('change', applyFilters);
 
-  // Signal filter
-  const signalFilter = document.getElementById('signal-filter');
-  if (signalFilter) {
-    signalFilter.addEventListener('change', applyFilters);
+  // City filter — dynamically built from company locations
+  const cityFilter = document.getElementById('city-filter');
+  if (cityFilter) {
+    const cityCount = {};
+    COMPANIES.forEach(c => {
+      if (c.location) {
+        const city = c.location.split(',')[0].trim();
+        if (city) cityCount[city] = (cityCount[city] || 0) + 1;
+      }
+    });
+    const citiesSorted = Object.entries(cityCount)
+      .sort((a, b) => b[1] - a[1]); // sort by count descending
+    citiesSorted.forEach(([city, count]) => {
+      const opt = document.createElement('option');
+      opt.value = city;
+      opt.textContent = `${city} (${count})`;
+      cityFilter.appendChild(opt);
+    });
+    cityFilter.addEventListener('change', applyFilters);
   }
 
   // Special filter
@@ -1885,7 +1900,7 @@ function applyFilters() {
   const countryEl = document.getElementById('country-filter');
   const stateEl = document.getElementById('state-filter');
   const stageEl = document.getElementById('stage-filter');
-  const signalEl = document.getElementById('signal-filter');
+  const cityEl = document.getElementById('city-filter');
   const specialEl = document.getElementById('special-filter');
   const sortEl = document.getElementById('sort-filter');
   const searchEl = document.getElementById('search-input');
@@ -1894,7 +1909,7 @@ function applyFilters() {
   const country = countryEl?.value || 'all';
   const stateCode = stateEl?.value || 'all';
   const stage = stageEl?.value || 'all';
-  const signal = signalEl?.value || 'all';
+  const city = cityEl?.value || 'all';
   const special = specialEl?.value || 'all';
   const sortBy = sortEl?.value || 'name';
   const searchTerm = (searchEl?.value || '').toLowerCase();
@@ -1919,11 +1934,12 @@ function applyFilters() {
     filtered = filtered.filter(c => c.fundingStage === stage);
   }
 
-  // Signal filter
-  if (signal && signal !== 'all') {
+  // City filter
+  if (city && city !== 'all') {
     filtered = filtered.filter(c => {
-      const companySignal = (c.signal || '').toLowerCase();
-      return companySignal === signal.toLowerCase();
+      if (!c.location) return false;
+      const companyCity = c.location.split(',')[0].trim();
+      return companyCity === city;
     });
   }
 
@@ -4945,6 +4961,8 @@ function initPredictiveScoring() {
     `;
   }
 
+  const PREDICTIVE_INITIAL = 20;
+
   function renderTab() {
     switch (currentTab) {
       case 'ipo':
@@ -4965,6 +4983,29 @@ function initPredictiveScoring() {
       case 'next-round':
         content.innerHTML = renderNextRound();
         break;
+    }
+
+    // Limit cards to top 20 with a "Show All" expand button
+    const grid = content.querySelector('.predictive-grid');
+    if (grid) {
+      const cards = grid.querySelectorAll('.predictive-card');
+      if (cards.length > PREDICTIVE_INITIAL) {
+        cards.forEach((card, i) => {
+          if (i >= PREDICTIVE_INITIAL) card.style.display = 'none';
+        });
+        // Remove any existing expand button
+        const existingBtn = content.querySelector('.predictive-expand-btn');
+        if (existingBtn) existingBtn.remove();
+
+        const btn = document.createElement('button');
+        btn.className = 'show-more-btn predictive-expand-btn';
+        btn.innerHTML = `Show All ${cards.length} Companies <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>`;
+        btn.addEventListener('click', () => {
+          cards.forEach(card => card.style.display = '');
+          btn.remove();
+        });
+        grid.parentNode.insertBefore(btn, grid.nextSibling);
+      }
     }
   }
 

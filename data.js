@@ -6776,7 +6776,7 @@ tags: ["hydrofoil", "water transport", "electric"]
     sector: "Chips & Semiconductors",
     description: "Advanced semiconductor packaging using chiplet-based architecture for next-gen chips. Founded by Marvell co-founder.",
     founder: "Sehat Sutardja",
-    location: "Singapore",
+    location: "Singapore, SG",
     state: "SG",
     lat: 1.3521,
     lng: 103.8198,
@@ -7115,7 +7115,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     sector: "Defense & Security",
     description: "European defense tech company building autonomous maritime defense systems. Bridging Greek naval heritage with modern autonomous technology.",
     founder: "Dimitrios Kottas, Georgios Kontogiannis, Ioannis Souriadakis",
-    location: "London / Athens",
+    location: "London, UK",
     state: "UK",
     lat: 51.5074,
     lng: -0.1278,
@@ -7291,7 +7291,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     sector: "Robotics & Manufacturing",
     description: "Czech Republic-based robotics company developing advanced robotic systems for industrial and commercial applications.",
     founder: "Stealth",
-    location: "Czech Republic",
+    location: "Prague, Czech Republic",
     state: "CZ",
     lat: 50.0755,
     lng: 14.4378,
@@ -11698,20 +11698,20 @@ const FOUNDER_MAFIAS = {
   "SpaceX Mafia": {
     icon: "🚀",
     color: "#3b82f6",
-    description: "Former SpaceX engineers who left to found their own companies",
+    description: "Former SpaceX engineers who left to build the next generation of hard tech companies",
     companies: [
       { company: "Impulse Space", founders: "Tom Mueller (Founding Employee, VP Propulsion)" },
-      { company: "Relativity Space", founders: "Tim Ellis (Intern/Engineer)" },
+      { company: "Relativity Space", founders: "Tim Ellis, Jordan Noone (Engineers)" },
       { company: "Varda Space Industries", founders: "Will Bruey (Engineer)" },
       { company: "Castelion", founders: "Team of former SpaceX engineers" },
       { company: "Hermeus", founders: "AJ Piplica, Skyler Shuford (Engineers)" },
-      { company: "Hadrian", founders: "Chris Power (Adjacent — SpaceX supply chain)" },
+      { company: "Hadrian", founders: "Chris Power (SpaceX supply chain)" },
       { company: "Starpath Robotics", founders: "Joe Landon (Engineer)" },
       { company: "Astra", founders: "Chris Kemp (CTO of NASA, SpaceX adjacent)" },
       { company: "Apex Space", founders: "Former SpaceX manufacturing engineers" },
       { company: "Long Wall", founders: "Former SpaceX engineers" },
       { company: "Astro Mechanica", founders: "Former SpaceX propulsion team" },
-      { company: "Oklo", founders: "Jake DeWitte (adjacent — DOE/SpaceX network)" }
+      { company: "Oklo", founders: "Jake DeWitte (DOE/SpaceX network)" }
     ]
   },
   "Palantir Mafia": {
@@ -11719,11 +11719,11 @@ const FOUNDER_MAFIAS = {
     color: "#dc2626",
     description: "Former Palantir employees who founded defense and enterprise tech companies",
     companies: [
-      { company: "Anduril Industries", founders: "Palmer Luckey (Palantir board), Trae Stephens (Palantir)" },
+      { company: "Anduril Industries", founders: "Trae Stephens (Palantir, then Founders Fund)" },
       { company: "Hadrian", founders: "Chris Power (Palantir network)" },
       { company: "Saronic", founders: "Deans Kamen (Palantir defense network)" },
       { company: "Vannevar Labs", founders: "Brett Granberg (Palantir)" },
-      { company: "Scale AI", founders: "Alexandr Wang (Palantir intern/adjacent)" },
+      { company: "Scale AI", founders: "Alexandr Wang (Palantir intern)" },
       { company: "8VC", founders: "Joe Lonsdale (Palantir Co-Founder)" },
       { company: "Epirus", founders: "Defense network overlap with Palantir ecosystem" }
     ]
@@ -11731,34 +11731,42 @@ const FOUNDER_MAFIAS = {
   "Google/DeepMind Alumni": {
     icon: "🧠",
     color: "#8b5cf6",
-    description: "Former Google, DeepMind, and Google Brain researchers",
+    description: "Former Google, DeepMind, and Google Brain researchers building the physical AI layer",
     companies: [
-      { company: "Physical Intelligence", founders: "Karol Hausman (Google Brain)" },
-      { company: "Covariant", founders: "Pieter Abbeel (UC Berkeley/Google Brain adjacent)" },
-      { company: "Waymo", founders: "Google self-driving car spinout" },
-      { company: "Figure AI", founders: "Brett Adcock (adjacent — Google AI ecosystem)" },
+      { company: "Physical Intelligence", founders: "Karol Hausman, Sergey Levine (Google Brain)" },
+      { company: "Covariant", founders: "Pieter Abbeel (UC Berkeley/Google Brain)" },
+      { company: "Waymo", founders: "Sebastian Thrun (Google self-driving spinout)" },
+      { company: "Figure AI", founders: "Brett Adcock (Google AI ecosystem)" },
       { company: "Skild AI", founders: "Deepak Pathak (CMU/Google Research)" },
-      { company: "Kyutai", founders: "Former Meta & Google AI researchers" }
+      { company: "Kyutai", founders: "Former Meta & Google AI researchers" },
+      { company: "Aalyria", founders: "Spun out of Google X (Project Loon)" }
+    ]
+  },
+  "US Military & Intel Alumni": {
+    icon: "🎖️",
+    color: "#047857",
+    description: "Military veterans and intelligence community alumni building defense tech",
+    companies: [
+      { company: "Shield AI", founders: "Brandon Tseng (Navy SEAL)" },
+      { company: "Rebellion Defense", founders: "Chris Lynch (former Pentagon DIUX Director)" },
+      { company: "Forterra", founders: "Military autonomous vehicle program veterans" },
+      { company: "Firestorm Labs", founders: "Andrew Wimer (military drone operations)" },
+      { company: "SkySafe", founders: "Grant Jordan (military counter-drone)" },
+      { company: "Allen Control Systems", founders: "Military robotics veterans" },
+      { company: "Radiant", founders: "Defense and energy infrastructure veterans" },
+      { company: "Deepnight", founders: "Intelligence community alumni" }
     ]
   },
   "Tesla/Autopilot Alumni": {
     icon: "⚡",
     color: "#22c55e",
-    description: "Former Tesla and Autopilot team members",
+    description: "Former Tesla, Autopilot, and EV ecosystem leaders",
     companies: [
-      { company: "Applied Intuition", founders: "Qasar Younis (adjacent — Tesla network)" },
-      { company: "Zoox", founders: "Competed with Tesla on autonomous driving" },
-      { company: "Bedrock Robotics", founders: "Former Waymo engineers (Tesla competitor ecosystem)" }
-    ]
-  },
-  "Amazon Robotics Alumni": {
-    icon: "📦",
-    color: "#f97316",
-    description: "Former Amazon robotics and logistics leaders",
-    companies: [
-      { company: "Collaborative Robotics", founders: "Brad Porter (VP Robotics, led 10K people)" },
-      { company: "Agility Robotics", founders: "Amazon partnership/investment" },
-      { company: "Zoox", founders: "Acquired by Amazon for $1.2B+" }
+      { company: "Redwood Materials", founders: "JB Straubel (Tesla Co-Founder, CTO)" },
+      { company: "Applied Intuition", founders: "Qasar Younis (Tesla/autonomous network)" },
+      { company: "Zoox", founders: "Autonomous driving competitor, acquired by Amazon" },
+      { company: "Tenstorrent", founders: "Jim Keller (Tesla Autopilot chip architect)" },
+      { company: "Bedrock Robotics", founders: "Former Waymo/Tesla ecosystem engineers" }
     ]
   },
   "NASA/JPL Alumni": {
@@ -11766,19 +11774,20 @@ const FOUNDER_MAFIAS = {
     color: "#06b6d4",
     description: "Former NASA, JPL, and government space program veterans",
     companies: [
-      { company: "Rocket Lab", founders: "Peter Beck (self-taught, NZ space program)" },
+      { company: "Rocket Lab", founders: "Peter Beck (NZ space program)" },
       { company: "Axiom Space", founders: "Michael Suffredini (former ISS Program Manager)" },
-      { company: "Starpath Robotics", founders: "NASA Break the Ice Challenge winner" },
+      { company: "Planet Labs", founders: "Robbie Schingler, Will Marshall (NASA Ames)" },
       { company: "AstroForge", founders: "Matt Gialich (JPL adjacent)" },
       { company: "Sierra Space", founders: "Spun from Sierra Nevada Corp" },
-      { company: "Planet Labs", founders: "Robbie Schingler, Will Marshall (NASA Ames)" },
-      { company: "Saildrone", founders: "Richard Jenkins (ocean engineering)" }
+      { company: "Starpath Robotics", founders: "NASA Break the Ice Challenge winner" },
+      { company: "Saildrone", founders: "Richard Jenkins (ocean exploration)" },
+      { company: "Intuitive Machines", founders: "NASA commercial lunar payload services" }
     ]
   },
   "Y Combinator Deep Tech": {
     icon: "🟧",
     color: "#f59e0b",
-    description: "YC-backed deep tech and hardware companies",
+    description: "YC-backed deep tech and hardware companies proving atoms startups can move fast",
     companies: [
       { company: "Boom Supersonic", founders: "Blake Scholl (YC W16)" },
       { company: "Helion", founders: "David Kirtley (YC S14)" },
@@ -11788,6 +11797,16 @@ const FOUNDER_MAFIAS = {
       { company: "Trilobio", founders: "Max Hensen (YC adjacent)" },
       { company: "Multiply Labs", founders: "Fred Parietti (YC S16)" },
       { company: "Solugen", founders: "Gaurab Chakrabarti (YC S17)" }
+    ]
+  },
+  "Amazon Robotics Alumni": {
+    icon: "📦",
+    color: "#f97316",
+    description: "Former Amazon robotics and logistics leaders building the next wave",
+    companies: [
+      { company: "Collaborative Robotics", founders: "Brad Porter (VP Robotics, led 10K people)" },
+      { company: "Agility Robotics", founders: "Amazon partnership/investment" },
+      { company: "Zoox", founders: "Acquired by Amazon for $1.2B+" }
     ]
   }
 };
