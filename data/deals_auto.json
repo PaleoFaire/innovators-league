@@ -1,0 +1,353 @@
+[
+  {
+    "company": "Waymo",
+    "investor": "Alphabet",
+    "amount": "$16B",
+    "round": "Late Stage",
+    "date": "2026-02",
+    "valuation": "$126B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Bedrock Robotics",
+    "investor": "CapitalG",
+    "amount": "$270M",
+    "round": "Series B",
+    "date": "2026-02",
+    "valuation": "$1.75B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Anthropic",
+    "investor": "Undisclosed",
+    "amount": "$30B",
+    "round": "Series G",
+    "date": "2026-02",
+    "valuation": "",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Epirus",
+    "investor": "8VC",
+    "amount": "$550M+",
+    "round": "Late Stage",
+    "date": "2026-01",
+    "valuation": "$1.35B",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Skild AI",
+    "investor": "Lightspeed",
+    "amount": "$1.4B",
+    "round": "Series C",
+    "date": "2026-01",
+    "valuation": "$14B+",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Skild AI",
+    "investor": "a16z",
+    "amount": "$1.4B",
+    "round": "Series C",
+    "date": "2026-01",
+    "valuation": "$14B+",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Multiply Labs",
+    "investor": "Retro Biosciences",
+    "amount": "$85M",
+    "round": "Partnership",
+    "date": "2026-01",
+    "valuation": "",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Saronic",
+    "investor": "a16z",
+    "amount": "$600M+",
+    "round": "Series C",
+    "date": "2025-12",
+    "valuation": "$4B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Saronic",
+    "investor": "8VC",
+    "amount": "$600M+",
+    "round": "Series C",
+    "date": "2025-12",
+    "valuation": "$4B",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Anduril Industries",
+    "investor": "Founders Fund",
+    "amount": "$2.5B",
+    "round": "Series G",
+    "date": "2025-12",
+    "valuation": "$30.5B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Anduril Industries",
+    "investor": "a16z",
+    "amount": "$2.5B",
+    "round": "Series G",
+    "date": "2025-12",
+    "valuation": "$30.5B",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Figure AI",
+    "investor": "Microsoft",
+    "amount": "$1B+",
+    "round": "Series C",
+    "date": "2025-12",
+    "valuation": "$39B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Castelion",
+    "investor": "Cantos Ventures",
+    "amount": "$100M+",
+    "round": "Series B",
+    "date": "2025-12",
+    "valuation": "$1B+",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Physical Intelligence",
+    "investor": "Bezos Expeditions",
+    "amount": "$600M",
+    "round": "Series B",
+    "date": "2025-11",
+    "valuation": "$5.6B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Physical Intelligence",
+    "investor": "Thrive Capital",
+    "amount": "$600M",
+    "round": "Series B",
+    "date": "2025-11",
+    "valuation": "$5.6B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Physical Intelligence",
+    "investor": "Lux Capital",
+    "amount": "$600M",
+    "round": "Series B",
+    "date": "2025-11",
+    "valuation": "$5.6B",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Anysphere",
+    "investor": "a16z",
+    "amount": "$2.3B",
+    "round": "Series D",
+    "date": "2025-11",
+    "valuation": "$29.3B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Crusoe Energy",
+    "investor": "Valor Equity",
+    "amount": "$1.375B",
+    "round": "Series E",
+    "date": "2025-10",
+    "valuation": "$10B+",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Shield AI",
+    "investor": "L3Harris",
+    "amount": "$540M",
+    "round": "Series F-1",
+    "date": "2025-09",
+    "valuation": "$5.6B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Shield AI",
+    "investor": "a16z",
+    "amount": "$540M",
+    "round": "Series F-1",
+    "date": "2025-09",
+    "valuation": "$5.6B",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Anthropic",
+    "investor": "GIC",
+    "amount": "$13B",
+    "round": "Series F",
+    "date": "2025-09",
+    "valuation": "$183B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Hadrian",
+    "investor": "a16z",
+    "amount": "$260M",
+    "round": "Series C",
+    "date": "2025-08",
+    "valuation": "$1.6B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Hadrian",
+    "investor": "Eclipse Ventures",
+    "amount": "$260M",
+    "round": "Series C",
+    "date": "2025-08",
+    "valuation": "$1.6B",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Boom Supersonic",
+    "investor": "Founders Fund",
+    "amount": "$300M",
+    "round": "Series B",
+    "date": "2025-07",
+    "valuation": "$1.5B",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Bedrock Robotics",
+    "investor": "Eclipse Ventures",
+    "amount": "$80M",
+    "round": "Seed/A",
+    "date": "2025-07",
+    "valuation": "$500M",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Bedrock Robotics",
+    "investor": "8VC",
+    "amount": "$80M",
+    "round": "Seed/A",
+    "date": "2025-07",
+    "valuation": "$500M",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Neuralink",
+    "investor": "ARK Invest",
+    "amount": "$650M",
+    "round": "Series E",
+    "date": "2025-06",
+    "valuation": "$9.7B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Pano AI",
+    "investor": "Giant Ventures",
+    "amount": "$44M",
+    "round": "Series B",
+    "date": "2025-06",
+    "valuation": "$500M+",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "GrayMatter Robotics",
+    "investor": "Wellington Management",
+    "amount": "$45M",
+    "round": "Series B",
+    "date": "2025-06",
+    "valuation": "$300M+",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Radiant",
+    "investor": "Cantos Ventures",
+    "amount": "$100M+",
+    "round": "Series B",
+    "date": "2025-06",
+    "valuation": "$1B+",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Helion",
+    "investor": "Sam Altman",
+    "amount": "$425M",
+    "round": "Series F",
+    "date": "2025-05",
+    "valuation": "$5.4B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Varda Space Industries",
+    "investor": "Founders Fund",
+    "amount": "$150M",
+    "round": "Series C",
+    "date": "2025-05",
+    "valuation": "$1.5B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Collaborative Robotics",
+    "investor": "General Catalyst",
+    "amount": "$100M",
+    "round": "Series B",
+    "date": "2025-04",
+    "valuation": "$500M",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Collaborative Robotics",
+    "investor": "Sequoia Capital",
+    "amount": "$100M",
+    "round": "Series B",
+    "date": "2025-04",
+    "valuation": "$500M",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Collaborative Robotics",
+    "investor": "Khosla Ventures",
+    "amount": "$100M",
+    "round": "Series B",
+    "date": "2025-04",
+    "valuation": "$500M",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "Collaborative Robotics",
+    "investor": "Lux Capital",
+    "amount": "$100M",
+    "round": "Series B",
+    "date": "2025-04",
+    "valuation": "$500M",
+    "leadOrParticipant": "participant"
+  },
+  {
+    "company": "OpenAI",
+    "investor": "SoftBank",
+    "amount": "$40B",
+    "round": "Late Stage",
+    "date": "2025-03",
+    "valuation": "$300B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "Astranis",
+    "investor": "a16z",
+    "amount": "$200M+",
+    "round": "Series D",
+    "date": "2025-03",
+    "valuation": "$3.5B",
+    "leadOrParticipant": "lead"
+  },
+  {
+    "company": "AiDash",
+    "investor": "Lightrock",
+    "amount": "$58.5M",
+    "round": "Series C",
+    "date": "2025-01",
+    "valuation": "$400M+",
+    "leadOrParticipant": "lead"
+  }
+]
