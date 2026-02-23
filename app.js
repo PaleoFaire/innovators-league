@@ -1078,6 +1078,7 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initPremiumFeatures);
   safeInit(initThesisCollision);
   safeInit(initSectionTimestamps);
+  safeInit(initOpti);
 
   // Always hide loading skeletons and update freshness, even if some inits failed
   hideLoadingSkeletons();
@@ -8444,4 +8445,440 @@ function initThesisCollision() {
 
   // Initial render
   renderClusters();
+}
+
+// ═══════════════════════════════════════════════════════════════════════
+// OPTI — AI ASSISTANT CHAT ENGINE
+// ═══════════════════════════════════════════════════════════════════════
+
+function initOpti() {
+  const panel = document.getElementById('opti-panel');
+  const fab = document.getElementById('opti-fab');
+  const input = document.getElementById('opti-input');
+  const sendBtn = document.getElementById('opti-send');
+  const messagesEl = document.getElementById('opti-messages');
+  const suggestionsEl = document.getElementById('opti-suggestions');
+
+  if (!panel || !fab || !input || !sendBtn || !messagesEl) return;
+
+  let isOpen = false;
+  let conversationHistory = [];
+
+  // ── Toggle Panel ──
+  function togglePanel() {
+    isOpen = !isOpen;
+    panel.classList.toggle('open', isOpen);
+    fab.classList.toggle('open', isOpen);
+    if (isOpen) {
+      setTimeout(() => input.focus(), 300);
+      // Remove badge on first open
+      const badge = fab.querySelector('.opti-fab-badge');
+      if (badge) badge.remove();
+    }
+  }
+  fab.addEventListener('click', togglePanel);
+
+  // ── Close on Escape ──
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && isOpen) togglePanel();
+  });
+
+  // ── Send Message ──
+  function sendMessage(text) {
+    if (!text || !text.trim()) return;
+    text = text.trim();
+
+    // Add user message
+    addMessage(text, 'user');
+    conversationHistory.push({ role: 'user', content: text });
+    input.value = '';
+    sendBtn.disabled = true;
+
+    // Hide suggestions after first message
+    if (suggestionsEl) suggestionsEl.style.display = 'none';
+
+    // Show typing indicator
+    const typing = showTyping();
+
+    // Generate response (simulate async)
+    setTimeout(() => {
+      typing.remove();
+      const response = generateResponse(text);
+      addMessage(response.text, 'bot', response.meta);
+      conversationHistory.push({ role: 'bot', content: response.text });
+    }, 600 + Math.random() * 800);
+  }
+
+  // ── Add Message to DOM ──
+  function addMessage(text, role, meta) {
+    const msg = document.createElement('div');
+    msg.className = 'opti-msg ' + role;
+
+    let html = text;
+
+    // Add company pill if meta has one
+    if (meta && meta.company) {
+      const slug = companyToSlug(meta.company);
+      html += '<br><span class="opti-msg-company" onclick="window.location.hash=\'company/' + slug + '\'">' + meta.company + ' \u2192</span>';
+    }
+    // Add source attribution
+    if (meta && meta.source) {
+      html += '<span class="opti-msg-source">\u2014 ' + meta.source + '</span>';
+    }
+
+    msg.innerHTML = html;
+    messagesEl.appendChild(msg);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+  }
+
+  // ── Typing Indicator ──
+  function showTyping() {
+    const el = document.createElement('div');
+    el.className = 'opti-typing';
+    el.innerHTML = '<div class="opti-typing-dot"></div><div class="opti-typing-dot"></div><div class="opti-typing-dot"></div>';
+    messagesEl.appendChild(el);
+    messagesEl.scrollTop = messagesEl.scrollHeight;
+    return el;
+  }
+
+  // ── Suggestion Chips ──
+  if (suggestionsEl) {
+    suggestionsEl.addEventListener('click', (e) => {
+      if (e.target.classList.contains('opti-suggestion')) {
+        sendMessage(e.target.textContent);
+      }
+    });
+  }
+
+  // ── Input handlers ──
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage(input.value);
+    }
+  });
+  input.addEventListener('input', () => {
+    sendBtn.disabled = !input.value.trim();
+  });
+  sendBtn.addEventListener('click', () => sendMessage(input.value));
+
+  // ── Company Lookup Helper ──
+  function findCompany(query) {
+    if (typeof COMPANIES === 'undefined') return null;
+    const q = query.toLowerCase();
+    return COMPANIES.find(c =>
+      c.name.toLowerCase() === q ||
+      c.name.toLowerCase().includes(q)
+    );
+  }
+
+  // ── Sector Lookup ──
+  function findSector(query) {
+    if (typeof SECTORS === 'undefined') return null;
+    const q = query.toLowerCase();
+    for (const [key, val] of Object.entries(SECTORS)) {
+      if (key.toLowerCase().includes(q) || (val.label && val.label.toLowerCase().includes(q))) {
+        return { key: key, data: val };
+      }
+    }
+    return null;
+  }
+
+  // ── Get composite score from nested scores object ──
+  function compositeScore(c) {
+    if (!c.scores) return 0;
+    const s = c.scores;
+    return (s.team || 0) + (s.traction || 0) + (s.techMoat || 0) + (s.market || 0) + (s.momentum || 0);
+  }
+
+  // ── Get top companies by composite score ──
+  function getTopCompanies(n) {
+    if (typeof COMPANIES === 'undefined') return [];
+    return [...COMPANIES]
+      .filter(c => c.scores)
+      .sort((a, b) => compositeScore(b) - compositeScore(a))
+      .slice(0, n);
+  }
+
+  // ── Smart Response Generator ──
+  function generateResponse(query) {
+    const q = query.toLowerCase();
+    const words = q.split(/\s+/);
+
+    // ─── Greetings ───
+    if (/^(hi|hey|hello|sup|yo|what'?s up)/i.test(q)) {
+      return {
+        text: "Hey! \ud83d\udc4b I'm <strong>Opti</strong>, your frontier tech intelligence sidekick. I know everything in the Innovators League database \u2014 " +
+              (typeof COMPANIES !== 'undefined' ? COMPANIES.length : '500+') +
+              " companies across defense, space, energy, biotech, and robotics. Ask me anything! What are you curious about?"
+      };
+    }
+
+    // ─── Company-Specific Queries ───
+    // Try to extract a company name from the query
+    let company = null;
+    if (typeof COMPANIES !== 'undefined') {
+      // Try exact and partial matches
+      for (const c of COMPANIES) {
+        const name = c.name.toLowerCase();
+        if (q.includes(name) || name.split(/\s+/).every(w => q.includes(w))) {
+          company = c;
+          break;
+        }
+      }
+      // Fallback: try each word
+      if (!company) {
+        for (const w of words) {
+          if (w.length < 3) continue;
+          const match = findCompany(w);
+          if (match) { company = match; break; }
+        }
+      }
+    }
+
+    if (company) {
+      return buildCompanyResponse(company, q);
+    }
+
+    // ─── Sector Questions ───
+    const sectorKeywords = ['defense', 'space', 'energy', 'biotech', 'robotics', 'ai', 'quantum', 'nuclear',
+                             'autonomous', 'drone', 'cyber', 'manufacturing', 'materials', 'fusion', 'satellite'];
+    const matchedSector = sectorKeywords.find(s => q.includes(s));
+    if (matchedSector || /sector|industry|categor|space/i.test(q)) {
+      return buildSectorResponse(matchedSector || q, q);
+    }
+
+    // ─── "Top" / "Best" Queries ───
+    if (/top|best|biggest|highest|leading|most promising/i.test(q)) {
+      return buildTopResponse(q);
+    }
+
+    // ─── Valuation Queries ───
+    if (/valuation|worth|valued|market cap|how much/i.test(q)) {
+      return buildValuationResponse(q);
+    }
+
+    // ─── Funding / Investors ───
+    if (/fund|rais|invest|capital|series|round/i.test(q)) {
+      return buildFundingResponse(q);
+    }
+
+    // ─── Location Queries ───
+    if (/where|location|based|headquarter|city|country/i.test(q)) {
+      return buildLocationResponse(q);
+    }
+
+    // ─── Mafia / Network Queries ───
+    if (/mafia|alumni|network|founder.*from|ex-|former/i.test(q)) {
+      return buildMafiaResponse(q);
+    }
+
+    // ─── "How many" / Stats ───
+    if (/how many|count|total|number of/i.test(q)) {
+      return buildStatsResponse(q);
+    }
+
+    // ─── What is / Explain ───
+    if (/what is|what are|explain|tell me about|describe/i.test(q)) {
+      // Last resort: try to find a company from longer words
+      for (const w of words) {
+        if (w.length >= 4) {
+          const match = findCompany(w);
+          if (match) return buildCompanyResponse(match, q);
+        }
+      }
+      return buildGeneralResponse(q);
+    }
+
+    // ─── Fallback ───
+    return buildGeneralResponse(q);
+  }
+
+  // ── Response Builders ──
+
+  function buildCompanyResponse(c, q) {
+    const parts = [];
+    const name = '<strong>' + c.name + '</strong>';
+
+    // Determine what aspect the user is asking about
+    if (/fund|rais|capital|series|round|money/i.test(q)) {
+      parts.push(name + ' has raised <strong>' + (c.totalRaised || 'undisclosed funding') + '</strong>.');
+      if (c.fundingStage) parts.push('Current stage: ' + c.fundingStage + '.');
+      if (c.signal) parts.push('Signal: ' + c.signal + '.');
+    } else if (/valuat|worth|valued/i.test(q)) {
+      parts.push(name + (c.valuation ? ' is valued at <strong>' + c.valuation + '</strong>.' : ' has no public valuation yet.'));
+      if (c.totalRaised) parts.push("They've raised " + c.totalRaised + ' total.');
+    } else if (/who|founder|ceo|team|lead/i.test(q)) {
+      parts.push(name + ' was founded by <strong>' + (c.founder || 'undisclosed founders') + '</strong>.');
+      if (c.sector) parts.push('They operate in ' + c.sector + '.');
+    } else if (/where|locat|based|hq/i.test(q)) {
+      parts.push(name + ' is based in <strong>' + (c.location || 'an undisclosed location') + '</strong>.');
+    } else if (/compet|rival|vs|versus|alternative/i.test(q)) {
+      parts.push(name + ' operates in the ' + (c.sector || 'frontier tech') + ' space.');
+      if (c.competitors && c.competitors.length) {
+        parts.push('Direct competitors: ' + c.competitors.join(', ') + '.');
+      } else {
+        const sameSector = typeof COMPANIES !== 'undefined'
+          ? COMPANIES.filter(x => x.sector === c.sector && x.name !== c.name).slice(0, 4)
+          : [];
+        if (sameSector.length) {
+          parts.push('Peers in the same sector: ' + sameSector.map(x => x.name).join(', ') + '.');
+        }
+      }
+    } else if (/thesis|bull|bear|risk/i.test(q)) {
+      if (c.thesis) {
+        if (c.thesis.bull) parts.push('<strong>Bull case:</strong> ' + c.thesis.bull);
+        if (c.thesis.bear) parts.push('<strong>Bear case:</strong> ' + c.thesis.bear);
+      } else {
+        parts.push(name + " \u2014 I don't have a detailed thesis for this company yet.");
+      }
+    } else {
+      // General overview — truncate long descriptions
+      const desc = c.description || 'a frontier tech company';
+      const shortDesc = desc.length > 200 ? desc.substring(0, 200) + '...' : desc;
+      parts.push(name + ' \u2014 ' + shortDesc);
+      if (c.sector) parts.push('Sector: ' + c.sector + '.');
+      if (c.location) parts.push('Based in ' + c.location + '.');
+      if (c.valuation) parts.push('Valuation: ' + c.valuation + '.');
+      if (c.totalRaised) parts.push('Total raised: ' + c.totalRaised + '.');
+      if (c.founder) parts.push('Founder(s): ' + c.founder + '.');
+    }
+
+    return { text: parts.join(' '), meta: { company: c.name } };
+  }
+
+  function buildSectorResponse(sector, q) {
+    if (typeof COMPANIES === 'undefined') {
+      return { text: "I'd love to break that down, but the company database hasn't loaded yet. Try refreshing the page!" };
+    }
+    const matching = COMPANIES.filter(c => {
+      const s = (c.sector || '').toLowerCase();
+      const d = (c.description || '').toLowerCase();
+      return s.includes(sector) || d.includes(sector);
+    });
+    if (matching.length === 0) {
+      return { text: "I don't have a specific \"" + sector + "\" sector bucket, but many of our " + COMPANIES.length + " companies touch on that theme. Try asking about a specific company!" };
+    }
+    const top = matching.sort((a, b) => compositeScore(b) - compositeScore(a)).slice(0, 5);
+    return {
+      text: "We track <strong>" + matching.length + " companies</strong> in the " + sector + " space. Here are the top scorers:<br><br>" +
+            top.map((c, i) => (i + 1) + ". <strong>" + c.name + "</strong> \u2014 " + (c.sector || '') + (compositeScore(c) ? ' (score: ' + compositeScore(c) + '/50)' : '')).join('<br>') +
+            "<br><br>Want me to go deeper on any of these?"
+    };
+  }
+
+  function buildTopResponse(q) {
+    const top = getTopCompanies(5);
+    if (!top.length) {
+      return { text: "The database is still loading. Give it a second and try again!" };
+    }
+    return {
+      text: "Here are the top-rated companies in the Innovators League right now:<br><br>" +
+            top.map((c, i) => '<strong>' + (i + 1) + '. ' + c.name + '</strong> \u2014 ' + (c.sector || '') + ' (score: ' + compositeScore(c) + '/50)').join('<br>') +
+            "<br><br>These scores factor in team strength, traction, tech moat, market size, and momentum. Anything catch your eye?"
+    };
+  }
+
+  function buildValuationResponse(q) {
+    if (typeof COMPANIES === 'undefined') return { text: "Database loading..." };
+    const valued = COMPANIES.filter(c => c.valuation).sort((a, b) => {
+      const av = parseValuation(a.valuation);
+      const bv = parseValuation(b.valuation);
+      return bv - av;
+    }).slice(0, 5);
+    if (!valued.length) return { text: "I don't have valuation data loaded right now. Check the Valuations page for the full breakdown!" };
+    return {
+      text: "Here are the highest-valued companies we track:<br><br>" +
+            valued.map((c, i) => '<strong>' + (i + 1) + '. ' + c.name + '</strong> \u2014 ' + c.valuation).join('<br>') +
+            "<br><br>Keep in mind: private company valuations are estimates based on last-round pricing. Head to the <a href='valuations.html' style='color:#FF6B2C'>Valuations page</a> for the full picture."
+    };
+  }
+
+  function buildFundingResponse(q) {
+    if (typeof COMPANIES === 'undefined') return { text: "Database loading..." };
+    const funded = COMPANIES.filter(c => c.totalRaised).sort((a, b) => {
+      const av = parseValuation(a.totalRaised);
+      const bv = parseValuation(b.totalRaised);
+      return bv - av;
+    }).slice(0, 5);
+    return {
+      text: "The most well-funded companies in our database:<br><br>" +
+            funded.map((c, i) => '<strong>' + (i + 1) + '. ' + c.name + '</strong> \u2014 ' + c.totalRaised + (c.lastRound ? ' (last: ' + c.lastRound + ')' : '')).join('<br>') +
+            "<br><br>Want to know who's investing in any of these?"
+    };
+  }
+
+  function buildLocationResponse(q) {
+    if (typeof COMPANIES === 'undefined') return { text: "Database loading..." };
+    // Try to extract a city from the query
+    const cities = {};
+    COMPANIES.forEach(c => {
+      if (c.location) {
+        const city = c.location.split(',')[0].trim();
+        cities[city] = (cities[city] || 0) + 1;
+      }
+    });
+    const topCities = Object.entries(cities).sort((a, b) => b[1] - a[1]).slice(0, 8);
+    return {
+      text: "Our companies span the globe, but here's where the frontier tech density is highest:<br><br>" +
+            topCities.map(([city, count]) => '<strong>' + city + '</strong> \u2014 ' + count + ' companies').join('<br>') +
+            "<br><br>Interested in companies from a specific city or region?"
+    };
+  }
+
+  function buildMafiaResponse(q) {
+    if (typeof FOUNDER_MAFIAS === 'undefined') {
+      return { text: "I track founder networks and mafia connections! But the data module hasn't loaded yet. Try the Founder Mafia Explorer section on the homepage." };
+    }
+    const mafiaEntries = Object.entries(FOUNDER_MAFIAS).slice(0, 5);
+    const totalMafias = Object.keys(FOUNDER_MAFIAS).length;
+    return {
+      text: "The Innovators League tracks <strong>" + totalMafias + " founder mafias</strong> \u2014 alumni networks from elite companies that spawn new startups:<br><br>" +
+            mafiaEntries.map(([name, m]) => '\u2022 <strong>' + name + '</strong> \u2014 ' + m.companies.length + ' companies (' + m.companies.slice(0, 3).map(c => c.company).join(', ') + (m.companies.length > 3 ? '...' : '') + ')').join('<br>') +
+            "<br><br>The SpaceX and Palantir mafias are especially prolific. Want me to dig into any of these?"
+    };
+  }
+
+  function buildStatsResponse(q) {
+    if (typeof COMPANIES === 'undefined') return { text: "Database loading..." };
+    const sectors = {};
+    const countries = new Set();
+    COMPANIES.forEach(c => {
+      if (c.sector) sectors[c.sector] = (sectors[c.sector] || 0) + 1;
+      const country = getCountry(c.state, c.location);
+      if (country) countries.add(country);
+    });
+    return {
+      text: "By the numbers:<br><br>" +
+            "\u2022 <strong>" + COMPANIES.length + "</strong> companies tracked<br>" +
+            "\u2022 <strong>" + Object.keys(sectors).length + "</strong> sectors<br>" +
+            "\u2022 <strong>" + countries.size + "</strong> countries<br>" +
+            "\u2022 Top sectors: " + Object.entries(sectors).sort((a, b) => b[1] - a[1]).slice(0, 4).map(([s, n]) => s + ' (' + n + ')').join(', ') +
+            "<br><br>This is probably the most comprehensive frontier tech database you'll find outside of PitchBook. What do you want to explore?"
+    };
+  }
+
+  function buildGeneralResponse(q) {
+    const responses = [
+      "Interesting question! I'm currently trained on the " + (typeof COMPANIES !== 'undefined' ? COMPANIES.length : '500+') +
+        " companies in the Innovators League database. Try asking me about a specific company, sector, or trend \u2014 like \"Tell me about Anduril\" or \"What are the top defense startups?\"",
+      "I'm Opti \u2014 I know frontier tech inside and out. Try asking me:<br>" +
+        "\u2022 About a company: \"What's SpaceX's valuation?\"<br>" +
+        "\u2022 About a sector: \"Top biotech companies\"<br>" +
+        "\u2022 About trends: \"Where are most companies based?\"<br>" +
+        "\u2022 About networks: \"Tell me about the SpaceX mafia\"",
+      "Hmm, I'm not sure I caught that one. I'm best at answering questions about the " + (typeof COMPANIES !== 'undefined' ? COMPANIES.length : '500+') +
+        " frontier tech companies we track. Try asking about a specific company, sector, or \"show me the top 5\" \u2014 I'll light up. \ud83d\ude80"
+    ];
+    return { text: responses[Math.floor(Math.random() * responses.length)] };
+  }
+
+  // ── Welcome message on first load ──
+  addMessage(
+    "Hey! I'm <strong>Opti</strong> \ud83d\ude80 \u2014 your rational optimist co-pilot for frontier tech. I've got " +
+    (typeof COMPANIES !== 'undefined' ? '<strong>' + COMPANIES.length + ' companies</strong>' : '500+ companies') +
+    " in my brain across defense, space, energy, biotech, and robotics." +
+    "<br><br>Ask me anything \u2014 company deep dives, sector breakdowns, top picks, founder networks, you name it.",
+    'bot'
+  );
 }
