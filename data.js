@@ -19559,23 +19559,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-23 14:38
+// Last updated: 2026-02-23 19:43
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Impulse Labs", headline: "Donut Labs Responds to Critics", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Anthropic", headline: "Defense Secretary summons Anthropic's Amodei over military use of Claude", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Cover", headline: "Engineering Behind EarthDaily: Solving for Global Daily Coverage, Scientific Quality, and High-Spectral Diversity", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Array Labs", headline: "Re-framing orbital debris: from a statistical to dosage approach", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Rocket Lab", headline: "'California jammin': Wargames show Army's electronic weakness ' and a human fix", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Rebellion Defense", headline: "The future is here: Sixth-gen air dominance", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Andrenam", headline: "Maritime Decarbonization Without Inflation", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Fervo Energy", headline: "The Important Role That Black Communities Play In Addressing Climate Change", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Asylon Robotics", headline: "The Download: Chicago's surveillance network, and building better bras", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Agility Robotics", headline: "AI's Math Tricks Don't Work for Scientific Computing", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "goTenna", headline: "Momentus prepares to host 10 demonstration payloads on Vigoride 7 flight", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "Vannevar Labs", headline: "5 Interesting Startup Deals You May Have Missed: Plant-Based Clothing Dyes, A Shoebox-Picking Robot, And Power Generated", source: "Crunchbase News", time: "2h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Figure AI", headline: "The Best iPad to Buy (and Some to Avoid) in 2026", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Vannevar Labs", headline: "AI for Cybersecurity: Promise, Practice, and Pitfalls", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Captura", headline: "Say Goodbye to the Undersea Cable That Made the Global Internet Possible", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "SpaceX", headline: "F-22 Raptor, MQ-20 drone complete manned-unmanned flight exercise", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Durin", headline: "Frozen tablets and downed drones: Army's 11th Airborne learns to fight in the Arctic", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Cover", headline: "Uncanny Valley: AI Researchers' Resignations, Bots Hiring Humans, Evie Magazine's Party", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Vannevar Labs", headline: "Google's Cloud AI lead on the three frontiers of model capability", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Rapid Robotics", headline: "Rapid scaling, soldier-led market key to US drone ambitions, Army secretary says", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "D-Orbit", headline: "Space Force seeks market answers on in-orbit refueling", source: "SpaceNews", time: "Just now", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Asylon Robotics", headline: "Americans are destroying Flock surveillance cameras", source: "TechCrunch", time: "Just now", impact: "low", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "OpenAI calls in the consultants for its enterprise push", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Array Labs", headline: "AST SpaceMobile wins $30 million contract for military' broadband demo", source: "SpaceNews", time: "1h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Auterion", headline: "Guide Labs debuts a new kind of interpretable LLM", source: "TechCrunch", time: "1h ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Diode", headline: "Could MQ-9B drones draw Canada and Denmark closer in Arctic surveillance?", source: "Defense News", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Agility Robotics", headline: "The human work behind humanoid robots is being hidden", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "Pipedream", headline: "Training, logistics and property accountability: Army preparing for influx of small drones", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Xcimer Energy", headline: "Aalyria hits $1.3 billion valuation after raising funds for satellite mesh network", source: "SpaceNews", time: "2h ago", impact: "high", unread: false },
+  { id: 15, type: "milestone", company: "Fortera", headline: "Replacement B-52 test engine deliveries expected in 2027", source: "Defense One", time: "2h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
