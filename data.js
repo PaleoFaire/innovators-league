@@ -19559,23 +19559,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-23 10:36
+// Last updated: 2026-02-23 14:38
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Vannevar Labs", headline: "NATO is not ready for drone warfare in the Arctic", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Altos Labs", headline: "Israeli startup targets the economics of high-resolution Earth observation", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Cape", headline: "Economic Statecraft and the Federal Institutional Architecture", source: "War on the Rocks", time: "2h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Cover", headline: "Electric Vehicle Models Top 5 Vehicle Classes in California", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Attio", headline: "Tesla Still Dominates California EV Sales ' And Tesla Still Massively Supported By California", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "ispace", headline: "NASA Delays Launch of Artemis II Lunar Mission Once Again", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Turbopuffer", headline: "Trump Promises More Coal Jobs, Delivers Tariffs Instead", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "SpaceX", headline: "Next Generation Fighters and Drones With Europe Still Junior Partner", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "DIRAC", headline: "Realities of US Military Procurement and Exports to Europe", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Built Robotics", headline: "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than Claimed", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "TechCrunch Mobility: Waymo makes its defense", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "All the important news from the ongoing India AI Impact Summit", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Turbopuffer", headline: "China's brain-computer interface industry is racing ahead", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Zipline", headline: "Danish military evacuates US submariner who needed urgent medical care off Greenland", source: "Defense News", time: "20h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Chaos Industries", headline: "All eyes on Air Force leaders after a year of chaos and change", source: "Defense One", time: "21h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Impulse Labs", headline: "Donut Labs Responds to Critics", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "Anthropic", headline: "Defense Secretary summons Anthropic's Amodei over military use of Claude", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Cover", headline: "Engineering Behind EarthDaily: Solving for Global Daily Coverage, Scientific Quality, and High-Spectral Diversity", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Array Labs", headline: "Re-framing orbital debris: from a statistical to dosage approach", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Rocket Lab", headline: "'California jammin': Wargames show Army's electronic weakness ' and a human fix", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Rebellion Defense", headline: "The future is here: Sixth-gen air dominance", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Andrenam", headline: "Maritime Decarbonization Without Inflation", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Fervo Energy", headline: "The Important Role That Black Communities Play In Addressing Climate Change", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Asylon Robotics", headline: "The Download: Chicago's surveillance network, and building better bras", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Agility Robotics", headline: "AI's Math Tricks Don't Work for Scientific Computing", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "goTenna", headline: "Momentus prepares to host 10 demonstration payloads on Vigoride 7 flight", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "Vannevar Labs", headline: "5 Interesting Startup Deals You May Have Missed: Plant-Based Clothing Dyes, A Shoebox-Picking Robot, And Power Generated", source: "Crunchbase News", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Figure AI", headline: "The Best iPad to Buy (and Some to Avoid) in 2026", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Vannevar Labs", headline: "AI for Cybersecurity: Promise, Practice, and Pitfalls", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Captura", headline: "Say Goodbye to the Undersea Cable That Made the Global Internet Possible", source: "Wired", time: "3h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
