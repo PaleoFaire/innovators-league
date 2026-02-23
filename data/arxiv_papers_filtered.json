@@ -2376,4 +2376,261 @@
       "ai"
     ]
   }
+] from cold, charge-neutral, $\u03b2$-equilibrated pure nucleonic matter described within relativistic mean-field theory. As a baseline we adopt the UCIa parameter set [Astron. Astro-phys. 689, A242 (2024)], and we implement high-density stiffening via the $\u03c3$-cut scheme by adding a regulator potential $U_{",
+    "published": "2026-02-17",
+    "updated": "2026-02-17",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "G. Panotopoulos",
+      "A. \u00d6vg\u00fcn",
+      "T. Iqbal",
+      "Y. Kumaran",
+      "B. K. Sharma"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.15818v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2602.15928v1",
+    "title": "A compendium of cold-nuclear matter baseline predictions in light-ion collisions",
+    "summary": "The recent light-ion collision programme at RHIC and the LHC provides a unique opportunity to investigate the onset of quark-gluon plasma formation and parton energy loss in small systems. A quantitative interpretation of emerging jet quenching measurements requires precise control over cold nuclear matter (CNM) effects, which modify hard-process cross sections independently of any hot-medium dynamics. In this work, we present a comprehensive set of perturbative QCD baseline calculations for nuc",
+    "published": "2026-02-17",
+    "updated": "2026-02-17",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Florian Jonas",
+      "Constantin Loizides",
+      "Aleksas Mazeliauskas",
+      "Petja Paakkinen",
+      "Nicolas Strangmann"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.15928v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2602.15765v1",
+    "title": "Development of an accurate formalism to predict properties of two-neutron halo nuclei: case study of $^{22}$C",
+    "summary": "When moving away from stability or in loosely-bound systems, few-body clusterized structures like two-neutron halo nuclei appear. These emerge from the interplay between the many- and few-body degrees of freedom, and/or strong coupling between bound and continuum states. This motivates the development of models that can accurately describe few-body dynamics while enforcing shell effects. This work has two goals: understanding how to accurately enforce the Pauli principle in few-body models, as w",
+    "published": "2026-02-17",
+    "updated": "2026-02-17",
+    "category": "nucl-th",
+    "categoryName": "Nuclear Theory",
+    "authors": [
+      "Patrick McGlynn",
+      "Chlo\u00eb Hebborn"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.15765v1",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2602.18247v1",
+    "title": "Hybrid Control of ADT Switched Linear Systems subject to Actuator Saturation",
+    "summary": "This paper develops a hybrid output-feedback control framework for average dwell-time (ADT) switched linear systems subject to actuator saturation. The considered subsystems may be exponentially unstable, and the saturation nonlinearity is explicitly handled through a deadzone-based representation. The proposed hybrid controller combines mode-dependent full-order dynamic output-feedback controllers with a supervisory reset mechanism that updates controller states at switching instants. By incorp",
+    "published": "2026-02-20",
+    "updated": "2026-02-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Fen Wu",
+      "Chengzhi Yuan"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.18247v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2602.18109v1",
+    "title": "TempoNet: Slack-Quantized Transformer-Guided Reinforcement Scheduler for Adaptive Deadline-Centric Real-Time Dispatchs",
+    "summary": "Real-time schedulers must reason about tight deadlines under strict compute budgets. We present TempoNet, a reinforcement learning scheduler that pairs a permutation-invariant Transformer with a deep Q-approximation. An Urgency Tokenizer discretizes temporal slack into learnable embeddings, stabilizing value learning and capturing deadline proximity. A latency-aware sparse attention stack with blockwise top-k selection and locality-sensitive chunking enables global reasoning over unordered task ",
+    "published": "2026-02-20",
+    "updated": "2026-02-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Rong Fu",
+      "Yibo Meng",
+      "Guangzhen Yao",
+      "Jiaxuan Lu",
+      "Zeyu Zhang",
+      "Zhaolu Kang",
+      "Ziming Guo",
+      "Jia Yee Tan",
+      "Xiaojing Du",
+      "Simon James Fong"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.18109v1",
+    "sectors": [
+      "robotics",
+      "ai"
+    ]
+  },
+  {
+    "id": "2602.18059v1",
+    "title": "Iterative McCormick Relaxation for Joint Impedance Control and Network Topology Optimization",
+    "summary": "Power system operators are increasingly deploying Variable Impedance Devices (VIDs), e.g., Smart Wires, and Network Topology Optimization (NTO) schemes for mitigating operational challenges such as line and transformer congestion, and voltage violations. This work aims to optimize and coordinate the operation of distributed VIDs considering fixed and optimized topologies. This problem is inherently non-linear due to power flow equations as well as bilinear terms introduced due to variable line i",
+    "published": "2026-02-20",
+    "updated": "2026-02-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Junseon Park",
+      "Hyeongon Park",
+      "Rahul K. Gupta"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.18059v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2602.18058v1",
+    "title": "Probabilistic Methods for Initial Orbit Determination and Orbit Determination in Cislunar Space",
+    "summary": "In orbital mechanics, Gauss's method for orbit determination (OD) is a popular, minimal assumption solution for obtaining the initial state estimate of a passing resident space object (RSO). Since much of the cislunar domain relies on three-body dynamics, a key assumption of Gauss's method is rendered incompatible, creating a need for a new, minimal assumption method for initial orbit determination (IOD). In this work, we present a framework for short and long term probabilistic target tracking ",
+    "published": "2026-02-20",
+    "updated": "2026-02-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Ishan Paranjape",
+      "Tarun Hejmadi",
+      "Suman Chakravorty"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.18058v1",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2602.18031v1",
+    "title": "Decision Support under Prediction-Induced Censoring",
+    "summary": "In many data-driven online decision systems, actions determine not only operational costs but also the data availability for future learning -- a phenomenon termed Prediction-Induced Censoring (PIC). This challenge is particularly acute in large-scale resource allocation for generative AI (GenAI) serving: insufficient capacity triggers shortages but hides the true demand, leaving the system with only a \"greater-than\" constraint. Standard decision-making approaches that rely on uncensored data su",
+    "published": "2026-02-20",
+    "updated": "2026-02-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Yan Chen",
+      "Ruyi Huang",
+      "Cheng Liu"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.18031v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2602.17975v1",
+    "title": "Generating adversarial inputs for a graph neural network model of AC power flow",
+    "summary": "This work formulates and solves optimization problems to generate input points that yield high errors between a neural network's predicted AC power flow solution and solutions to the AC power flow equations. We demonstrate this capability on an instance of the CANOS-PF graph neural network model, as implemented by the PF$\u0394$ benchmark library, operating on a 14-bus test grid. Generated adversarial points yield errors as large as 3.4 per-unit in reactive power and 0.08 per-unit in voltage magnitud",
+    "published": "2026-02-20",
+    "updated": "2026-02-20",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Robert Parker"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.17975v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2602.17504v1",
+    "title": "Robust Adaptive Sliding-Mode Control for Damaged Fixed-Wing UAVs",
+    "summary": "Many unmanned aerial vehicles (UAVs) can remain aerodynamically flyable after sustaining structural or control surface damage, yet insufficient robustness in conventional autopilots often leads to mission failure. This paper proposes a robust adaptive sliding mode controller (RASMC) for fixed-wing UAVs subject to aerodynamic coefficient perturbations and partial loss of control surface effectiveness. A damage-aware flight dynamics model is developed to systematically analyze the impact of such i",
+    "published": "2026-02-19",
+    "updated": "2026-02-19",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Mark Spiller",
+      "Lennart Kracke",
+      "Johannes Autenrieb"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.17504v1",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2602.17407v1",
+    "title": "Bluetooth Phased-array Aided Inertial Navigation Using Factor Graphs: Experimental Verification",
+    "summary": "Phased-array Bluetooth systems have emerged as a low-cost alternative for performing aided inertial navigation in GNSS-denied use cases such as warehouse logistics, drone landings, and autonomous docking. Basing a navigation system off of commercial-off-the-shelf components may reduce the barrier of entry for phased-array radio navigation systems, albeit at the cost of significantly noisier measurements and relatively short feasible range. In this paper, we compare robust estimation strategies f",
+    "published": "2026-02-19",
+    "updated": "2026-02-19",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Glen Hjelmerud M\u00f8rkbak S\u00f8rensen",
+      "Torleiv H. Bryne",
+      "Kristoffer Gryte",
+      "Tor Arne Johansen"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.17407v1",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2602.17312v1",
+    "title": "LexiSafe: Offline Safe Reinforcement Learning with Lexicographic Safety-Reward Hierarchy",
+    "summary": "Offline safe reinforcement learning (RL) is increasingly important for cyber-physical systems (CPS), where safety violations during training are unacceptable and only pre-collected data are available. Existing offline safe RL methods typically balance reward-safety tradeoffs through constraint relaxation or joint optimization, but they often lack structural mechanisms to prevent safety drift. We propose LexiSafe, a lexicographic offline RL framework designed to preserve safety-aligned behavior. ",
+    "published": "2026-02-19",
+    "updated": "2026-02-19",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Hsin-Jung Yang",
+      "Zhanhong Jiang",
+      "Prajwal Koirala",
+      "Qisai Liu",
+      "Cody Fleming",
+      "Soumik Sarkar"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.17312v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2602.17297v1",
+    "title": "Learning-based augmentation of first-principle models: A linear fractional representation-based approach",
+    "summary": "Nonlinear system identificationhas proven to be effective in obtaining accurate models from data for complex real-world systems. In particular, recent encoder-based methods with artificial neural network state-space (ANN-SS) models have achieved state-of-the-art performance on various benchmarks, using computationally efficient methods and offering consistent model estimation in the presence of noisy data. However, inclusion of prior knowledge of the system can be further exploited to increase (",
+    "published": "2026-02-19",
+    "updated": "2026-02-19",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Jan H. Hoekstra",
+      "Bendeg\u00faz M. Gy\u00f6r\u00f6k",
+      "Roland T\u00f3th",
+      "Maarten Schoukens"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.17297v1",
+    "sectors": [
+      "ai"
+    ]
+  }
 ]
