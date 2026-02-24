@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -0.62,
+      "avg_change": -3.86,
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 3.84,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 2.78,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.23,
+      "avg_change": -1.01,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.77,
+      "avg_change": -4.83,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -10.57,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.69,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -6.15,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.36,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 2.39,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 3.11,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -9.92,
+      "avg_change": -4.95,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.41,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 3.22,
       "count": 3
     }
   },
   "topGainers": [
     [
+      "SATL",
+      "Satellogic",
+      10.45
+    ],
+    [
       "LUNR",
       "Intuitive Machines",
-      12.46
+      9.87
     ],
     [
       "TEM",
       "Tempus AI",
-      10.28
+      9.36
+    ],
+    [
+      "PL",
+      "Planet Labs",
+      8.15
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       8.0
-    ],
-    [
-      "PL",
-      "Planet Labs",
-      6.07
-    ],
-    [
-      "AUR",
-      "Aurora Innovation",
-      5.8
     ]
   ],
   "topLosers": [
     [
       "IONQ",
       "IonQ",
-      -9.76
-    ],
-    [
-      "QS",
-      "QuantumScape",
-      -11.38
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -11.95
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -14.01
+      -5.88
     ],
     [
       "RIVN",
       "Rivian",
-      -15.62
+      -8.08
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -8.52
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -8.9
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -8.97
     ]
   ],
-  "lastUpdated": "2026-02-24 08:05:37"
+  "lastUpdated": "2026-02-24 15:12:04"
 }
