@@ -19560,23 +19560,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-24 15:11
+// Last updated: 2026-02-24 19:33
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Orchid", headline: "Oura launches a proprietary AI model focused on women's health", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Turbopuffer", headline: "Your Watch Will One Day Track Blood Pressure", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Attio", headline: "Chinese Group Chery Accelerates Rollout of New Models In South Africa", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Field AI", headline: "US Air Force accelerates B-21 Raider production, projects 2027 fielding", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Anthropic", headline: "Anthropic launches new push for enterprise agents with plugins for finance, engineering, and design", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Palantir", headline: "Conduent data breach grows, affecting at least 25M people", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
-  { id: 7, type: "milestone", company: "Databricks", headline: "New Relic launches new'AI'agent platform'and'OpenTelemetry'tools", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Waymo", headline: "Waymo robotaxis are now operating in 10 US cities", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Vast", headline: "The Commercial Space Federation Releases New White Paper 'Perfecting Public-Private Partnerships'", source: "SpaceNews", time: "1h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Fervo Energy", headline: "Rivian Gives EV Drivers Another Good Reason To Love Their Cars", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Palantir", headline: "How the 'Doomsday Plane' contract highlights the rise of mid-tier primes", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Saronic", headline: "China's new nuclear submarine breaks cover amid shipbuilding spree", source: "Defense News", time: "1h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Turbopuffer", headline: "Nimble raises $47M to give AI agents access to real-time web data", source: "TechCrunch", time: "2h ago", impact: "medium", unread: false },
-  { id: 14, type: "milestone", company: "Daylight Computer", headline: "6 Best 2-in-1 Laptops (2026), WIRED-Approved and Tested", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Vast", headline: "LambdaVision books space on Starlab commercial space station", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Terraform Industries", headline: "A Better Use For Warehouses: Clean, Green Rooftop Solar Power", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Orbital Marine Power", headline: "ALEC Pushes Idiotic Anti-Renewable Legislation In Ohio", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Cape", headline: "Treasury sanctions Russian zero-day broker accused of buying exploits stolen from U.S. defense contractor", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Conductor Quantum", headline: "This Physics Professor Credits Collaboration for Her Success", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Dunia", headline: "Google adds a way to create automated workflows to Opal", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Neros", headline: "Putin has 'not broken' Ukraine in 4 years since Russian invasion, Zelenskyy says", source: "Defense News", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Scale AI", headline: "OpenAI COO says 'we have not yet really seen AI penetrate enterprise business processes'", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "Anthropic", headline: "Hegseth and Anthropic CEO set to meet as debate intensifies over the military's use of AI", source: "Defense News", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "The Boring Company", headline: "Fintech Giant Stripe's Valuation Soars to $159B In Latest Secondary Stock Sale", source: "Crunchbase News", time: "1h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "Surge AI", headline: "Russia's defense-spending surge tapers off in 2025, analysts find", source: "Defense News", time: "1h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Runway", headline: "YouTube beefs up its $7.99/month Lite subscription with offline downloads and background play", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Anduril Industries", headline: "Air Force flight tests drone wingman carrying (inert) weapons, competitors reveal new names", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Cape", headline: "Marquis sues firewall provider SonicWall, alleges security failings with its firewall backup led to ransomware attack", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Rainmaker", headline: "The Last Mystery of Antarctica's 'Blood Falls' Has Finally Been Solved", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "The Boring Company", headline: "Spiro Raises $50 Million As Demand For Its Battery Swapping Infrastructure &#038; EVs Surges Across Africa", source: "CleanTechnica", time: "3h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

@@ -1,224 +1,224 @@
 // Auto-generated news signals
-// Last updated: 2026-02-24T15:11:22.108Z
+// Last updated: 2026-02-24T19:33:21.420Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1771945882108,
-    "type": "milestone",
-    "company": "Orchid",
-    "headline": "Oura launches a proprietary AI model focused on women&#8217;s health",
+    "id": 1771961601420,
+    "type": "news",
+    "company": "Terraform Industries",
+    "headline": "A Better Use For Warehouses: Clean, Green Rooftop Solar Power",
+    "source": "CleanTechnica",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://cleantechnica.com/2026/02/24/a-better-use-for-warehouses-clean-green-rooftop-solar-power/"
+  },
+  {
+    "id": 1771961601421,
+    "type": "news",
+    "company": "Orbital Marine Power",
+    "headline": "ALEC Pushes Idiotic Anti-Renewable Legislation In Ohio",
+    "source": "CleanTechnica",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://cleantechnica.com/2026/02/24/alec-pushes-idiotic-anti-renewable-legislation-in-ohio/"
+  },
+  {
+    "id": 1771961601422,
+    "type": "contract",
+    "company": "Cape",
+    "headline": "Treasury sanctions Russian zero-day broker accused of buying exploits stolen from U.S. defense contractor",
     "source": "TechCrunch",
     "time": "Just now",
     "impact": "low",
     "unread": true,
-    "link": "https://techcrunch.com/2026/02/24/oura-launches-a-proprietary-ai-model-focused-on-womens-health/"
+    "link": "https://techcrunch.com/2026/02/24/treasury-sanctions-russian-zero-day-broker-accused-of-buying-exploits-stolen-from-u-s-defense-contractor/"
   },
   {
-    "id": 1771945882109,
+    "id": 1771961601423,
     "type": "news",
-    "company": "Turbopuffer",
-    "headline": "Your Watch Will One Day Track Blood Pressure",
+    "company": "Conductor Quantum",
+    "headline": "This Physics Professor Credits Collaboration for Her Success",
     "source": "IEEE Spectrum",
     "time": "Just now",
     "impact": "low",
     "unread": true,
-    "link": "https://spectrum.ieee.org/blood-pressure-monitor-smartwatch"
+    "link": "https://spectrum.ieee.org/cinzia-davia-physics"
   },
   {
-    "id": 1771945882110,
+    "id": 1771961601424,
     "type": "news",
-    "company": "Attio",
-    "headline": "Chinese Group Chery Accelerates Rollout of New Models In South Africa",
-    "source": "CleanTechnica",
+    "company": "Dunia",
+    "headline": "Google adds a way to create automated workflows to Opal",
+    "source": "TechCrunch",
     "time": "Just now",
     "impact": "low",
     "unread": true,
-    "link": "https://cleantechnica.com/2026/02/24/chinese-group-chery-accelerates-rollout-of-new-models-in-south-africa/"
+    "link": "https://techcrunch.com/2026/02/24/google-adds-a-way-to-create-automated-workflows-to-opal/"
   },
   {
-    "id": 1771945882111,
+    "id": 1771961601425,
     "type": "news",
-    "company": "Field AI",
-    "headline": "US Air Force accelerates B-21 Raider production, projects 2027 fielding",
+    "company": "Neros",
+    "headline": "Putin has ‘not broken’ Ukraine in 4 years since Russian invasion, Zelenskyy says",
     "source": "Defense News",
-    "time": "Just now",
+    "time": "1h ago",
     "impact": "low",
-    "unread": true,
-    "link": "https://www.defensenews.com/industry/techwatch/2026/02/24/us-air-force-accelerates-b-21-raider-production-projects-2027-fielding/"
+    "unread": false,
+    "link": "https://www.defensenews.com/global/europe/2026/02/24/putin-has-not-broken-ukraine-in-4-years-since-russian-invasion-zelenskyy-says/"
   },
   {
-    "id": 1771945882112,
+    "id": 1771961601426,
     "type": "milestone",
+    "company": "Scale AI",
+    "headline": "OpenAI COO says &#8216;we have not yet really seen AI penetrate enterprise business processes&#8217;",
+    "source": "TechCrunch",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://techcrunch.com/2026/02/24/openai-coo-says-we-have-not-yet-really-seen-ai-penetrate-enterprise-business-processes/"
+  },
+  {
+    "id": 1771961601427,
+    "type": "hire",
     "company": "Anthropic",
-    "headline": "Anthropic launches new push for enterprise agents with plugins for finance, engineering, and design",
-    "source": "TechCrunch",
-    "time": "Just now",
-    "impact": "low",
-    "unread": true,
-    "link": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/"
-  },
-  {
-    "id": 1771945882113,
-    "type": "contract",
-    "company": "Palantir",
-    "headline": "Conduent data breach grows, affecting at least 25M people",
-    "source": "TechCrunch",
-    "time": "1h ago",
-    "impact": "medium",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/02/24/conduent-data-breach-grows-affecting-at-least-25m-people/"
-  },
-  {
-    "id": 1771945882114,
-    "type": "milestone",
-    "company": "Databricks",
-    "headline": "New Relic launches new AI agent platform and OpenTelemetry tools",
-    "source": "TechCrunch",
-    "time": "1h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/02/24/new-relic-launches-new-ai-agent-platform-and-opentelemetry-tools/"
-  },
-  {
-    "id": 1771945882115,
-    "type": "milestone",
-    "company": "Waymo",
-    "headline": "Waymo robotaxis are now operating in 10 US cities",
-    "source": "TechCrunch",
-    "time": "1h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/02/24/waymo-robotaxis-are-now-operating-in-10-us-cities/"
-  },
-  {
-    "id": 1771945882116,
-    "type": "ipo",
-    "company": "Vast",
-    "headline": "The Commercial Space Federation Releases New White Paper “Perfecting Public-Private Partnerships”",
-    "source": "SpaceNews",
-    "time": "1h ago",
-    "impact": "medium",
-    "unread": false,
-    "link": "https://spacenews.com/the-commercial-space-federation-releases-new-white-paper-perfecting-public-private-partnerships/"
-  },
-  {
-    "id": 1771945882117,
-    "type": "news",
-    "company": "Fervo Energy",
-    "headline": "Rivian Gives EV Drivers Another Good Reason To Love Their Cars",
-    "source": "CleanTechnica",
-    "time": "1h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://cleantechnica.com/2026/02/24/rivian-gives-ev-drivers-another-good-reason-to-love-their-cars/"
-  },
-  {
-    "id": 1771945882118,
-    "type": "contract",
-    "company": "Palantir",
-    "headline": "How the “Doomsday Plane” contract highlights the rise of mid-tier primes",
-    "source": "Breaking Defense",
-    "time": "1h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://breakingdefense.com/2026/02/how-the-doomsday-plane-contract-highlights-the-rise-of-mid-tier-primes/"
-  },
-  {
-    "id": 1771945882119,
-    "type": "news",
-    "company": "Saronic",
-    "headline": "China’s new nuclear submarine breaks cover amid shipbuilding spree",
+    "headline": "Hegseth and Anthropic CEO set to meet as debate intensifies over the military’s use of AI",
     "source": "Defense News",
     "time": "1h ago",
     "impact": "low",
     "unread": false,
-    "link": "https://www.defensenews.com/global/asia-pacific/2026/02/24/chinas-new-nuclear-submarine-breaks-cover-amid-shipbuilding-spree/"
+    "link": "https://www.defensenews.com/industry/techwatch/2026/02/24/hegseth-and-anthropic-ceo-set-to-meet-as-debate-intensifies-over-the-militarys-use-of-ai/"
   },
   {
-    "id": 1771945882120,
+    "id": 1771961601428,
     "type": "funding",
-    "company": "Turbopuffer",
-    "headline": "Nimble raises $47M to give AI agents access to real-time web data",
+    "company": "The Boring Company",
+    "headline": "Fintech Giant Stripe’s Valuation Soars to $159B In Latest Secondary Stock Sale",
+    "source": "Crunchbase News",
+    "time": "1h ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://news.crunchbase.com/fintech/unicorn-stripe-secondary-sale-valuation/"
+  },
+  {
+    "id": 1771961601429,
+    "type": "news",
+    "company": "Surge AI",
+    "headline": "Russia’s defense-spending surge tapers off in 2025, analysts find",
+    "source": "Defense News",
+    "time": "1h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.defensenews.com/global/europe/2026/02/24/russias-defense-spending-surge-tapers-off-in-2025-analysts-find/"
+  },
+  {
+    "id": 1771961601430,
+    "type": "news",
+    "company": "Runway",
+    "headline": "YouTube beefs up its $7.99/month Lite subscription with offline downloads and background play",
     "source": "TechCrunch",
     "time": "2h ago",
-    "impact": "medium",
+    "impact": "low",
     "unread": false,
-    "link": "https://techcrunch.com/2026/02/24/nimble-way-raises-47m-to-give-ai-agents-better-cleaner-data/"
+    "link": "https://techcrunch.com/2026/02/24/youtube-beefs-up-its-7-99-month-lite-subscription-with-downloads-and-background-play/"
   },
   {
-    "id": 1771945882121,
+    "id": 1771961601431,
     "type": "milestone",
-    "company": "Daylight Computer",
-    "headline": "6 Best 2-in-1 Laptops (2026), WIRED-Approved and Tested",
+    "company": "Anduril Industries",
+    "headline": "Air Force flight tests drone wingman carrying (inert) weapons, competitors reveal new names",
+    "source": "Breaking Defense",
+    "time": "2h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://breakingdefense.com/2026/02/air-force-flight-tests-drone-wingman-carrying-inert-weapons-competitors-reveal-new-names/"
+  },
+  {
+    "id": 1771961601432,
+    "type": "news",
+    "company": "Cape",
+    "headline": "Marquis sues firewall provider SonicWall, alleges security failings with its firewall backup led to ransomware attack",
+    "source": "TechCrunch",
+    "time": "2h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://techcrunch.com/2026/02/24/marquis-sonicwall-lawsuit-ransomware-firewall-breach/"
+  },
+  {
+    "id": 1771961601433,
+    "type": "news",
+    "company": "Rainmaker",
+    "headline": "The Last Mystery of Antarctica’s ‘Blood Falls’ Has Finally Been Solved",
     "source": "Wired",
-    "time": "2h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": false,
-    "link": "https://www.wired.com/gallery/best-2-in-1-laptops/"
+    "link": "https://www.wired.com/story/the-last-mystery-of-antarcticas-blood-falls-has-finally-been-solved/"
   },
   {
-    "id": 1771945882122,
-    "type": "ipo",
-    "company": "Vast",
-    "headline": "LambdaVision books space on Starlab commercial space station",
-    "source": "SpaceNews",
-    "time": "2h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spacenews.com/lambdavision-books-space-on-starlab-commercial-space-station/"
-  },
-  {
-    "id": 1771945882123,
+    "id": 1771961601434,
     "type": "funding",
-    "company": "Diode",
-    "headline": "Sophia Space claims $10 million in seed round",
-    "source": "SpaceNews",
+    "company": "The Boring Company",
+    "headline": "Spiro Raises $50 Million As Demand For Its Battery Swapping Infrastructure &#038; EVs Surges Across Africa",
+    "source": "CleanTechnica",
     "time": "3h ago",
     "impact": "medium",
     "unread": false,
-    "link": "https://spacenews.com/sophia-space-claims-10-million-in-seed-round/"
+    "link": "https://cleantechnica.com/2026/02/24/spiro-raises-50-million-as-demand-for-its-battery-swapping-infrastructure-evs-surges-across-africa/"
   },
   {
-    "id": 1771945882124,
+    "id": 1771961601435,
     "type": "news",
-    "company": "Framework Computer",
-    "headline": "The Righteous EV Owners Who Won’t Let Their Broken Cars Die",
-    "source": "Wired",
-    "time": "4h ago",
-    "impact": "low",
+    "company": "Ample",
+    "headline": "Toyota Is (Finally) Determined To Sell More BEVs In The US",
+    "source": "CleanTechnica",
+    "time": "3h ago",
+    "impact": "medium",
     "unread": false,
-    "link": "https://www.wired.com/story/the-righteous-ev-owners-who-wont-let-their-broken-cars-die/"
+    "link": "https://cleantechnica.com/2026/02/24/toyota-is-finally-determined-to-sell-more-bevs-in-the-us/"
   },
   {
-    "id": 1771945882125,
+    "id": 1771961601436,
+    "type": "milestone",
+    "company": "Matic Robotics",
+    "headline": "Electric Buses Were 56% Of EU City Bus Market In 2025",
+    "source": "CleanTechnica",
+    "time": "3h ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://cleantechnica.com/2026/02/24/electric-buses-were-56-of-eu-city-bus-market-in-2025/"
+  },
+  {
+    "id": 1771961601437,
+    "type": "hire",
+    "company": "Ursa Major Technologies",
+    "headline": "Ursa Major unleashes HAVOC with new hypersonic missile",
+    "source": "Breaking Defense",
+    "time": "3h ago",
+    "impact": "medium",
+    "unread": false,
+    "link": "https://breakingdefense.com/2026/02/ursa-major-unleashes-havoc-with-new-hypersonic-missile/"
+  },
+  {
+    "id": 1771961601438,
     "type": "news",
-    "company": "Vannevar Labs",
-    "headline": "AI Will Never Be Conscious",
-    "source": "Wired",
-    "time": "4h ago",
+    "company": "Neros",
+    "headline": "Ukraine&#8217;s startups keep building",
+    "source": "TechCrunch",
+    "time": "3h ago",
     "impact": "low",
     "unread": false,
-    "link": "https://www.wired.com/story/book-excerpt-a-world-appears-michael-pollan/"
+    "link": "https://techcrunch.com/2026/02/24/ukraines-startups-keep-building/"
   },
   {
-    "id": 1771945882126,
-    "type": "ipo",
-    "company": "Alpha School",
-    "headline": "College Campuses Are in Upheaval Over Faculty Ties to Epstein",
-    "source": "Wired",
-    "time": "4h ago",
+    "id": 1771961601439,
+    "type": "milestone",
+    "company": "Ada",
+    "headline": "Massive Combat Range Boost for F-22 Stealth And Other Stealth Fighters",
+    "source": "Next Big Future",
+    "time": "3h ago",
     "impact": "low",
     "unread": false,
-    "link": "https://www.wired.com/story/college-faculty-epstein-files/"
-  },
-  {
-    "id": 1771945882127,
-    "type": "ipo",
-    "company": "Rainmaker",
-    "headline": "We’re putting more stuff into space than ever. Here’s what’s up there.",
-    "source": "MIT Tech Review",
-    "time": "4h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.technologyreview.com/2026/02/24/1132755/anthroposphere-putting-more-stuff-into-space-than-ever/"
+    "link": "https://www.nextbigfuture.com/2026/02/massive-combat-range-boost-for-f-22-stealth-and-other-stealth-fighters.html"
   }
 ];
