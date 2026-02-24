@@ -1,30 +1,12 @@
 [
   {
-    "sector": "Defense & Security",
-    "momentum": 79,
-    "trend": "accelerating",
-    "catalysts": [
-      "Economic Statecraft and the Federal Institutional Architectu",
-      "Next Generation Fighters and Drones With Europe Still Junior",
-      "Realities of US Military Procurement and Exports to Europe"
-    ],
-    "fundingQ": "$6.8B",
-    "components": {
-      "funding": 100,
-      "news": 100,
-      "hiring": 0,
-      "market": 97
-    },
-    "lastUpdated": "2026-02-23"
-  },
-  {
     "sector": "AI & Software",
     "momentum": 70,
     "trend": "accelerating",
     "catalysts": [
-      "All the important news from the ongoing India AI Impact Summ",
-      "Google VP warns that two types of AI startups may not surviv",
-      "OpenAI debated calling police about suspected Canadian shoot"
+      "Lockheed test-flies F-35 with artificial intelligence to qui",
+      "With AI, investor loyalty is (almost) dead: At least a dozen",
+      "Anthropic accuses Chinese AI labs of mining Claude as US deb"
     ],
     "fundingQ": "$31.8B",
     "components": {
@@ -33,16 +15,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 70,
     "trend": "accelerating",
     "catalysts": [
-      "Realities of US Military Procurement and Exports to Europe",
-      "TechCrunch Mobility: Waymo makes its defense",
-      "Grey, Blue, or Green: The Real Ammonia Math"
+      "Uber wants to be a Swiss Army Knife for robotaxis",
+      "Integrating platforms to respond to\u00a0changing\u00a0threats of mode",
+      "The human work behind humanoid robots is being hidden"
     ],
     "fundingQ": "$17.7B",
     "components": {
@@ -51,48 +33,70 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 69,
+    "trend": "accelerating",
+    "catalysts": [
+      "Air Force\u2019s drone wingmen have started flying with weapons",
+      "US Urgently Needs New M1-E3 Tank to Replace Drone Vulnerable",
+      "Air Force ramps up B-21 Raider production capacity, aims for"
+    ],
+    "fundingQ": "$6.8B",
+    "components": {
+      "funding": 100,
+      "news": 100,
+      "hiring": 0,
+      "market": 44
+    },
+    "lastUpdated": "2026-02-24"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 59,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Electric Vehicle Models Top 5 Vehicle Classes in California"
+      "New EV List Prices Drop $1,500 in 4 Months in USA",
+      "Uncanny Valley: AI Researchers\u2019 Resignations, Bots Hiring Hu",
+      "The Important Role That Black Communities Play In Addressing"
     ],
     "fundingQ": "$900.0B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 52,
+    "momentum": 54,
     "trend": "steady",
     "catalysts": [
-      "Active ocean & maritime ecosystem"
+      "Hybrid Electric Ships and the Alcohol Fuel Convergence",
+      "Maritime dominance requires the Coast Guard",
+      "Maritime Decarbonization Without Inflation"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "NASA Delays Launch of Artemis II Lunar Mission Once Again",
-      "German defense firm said to be weighing bid for Mynaric",
-      "How to View the \u2018Blood Moon\u2019 Total Lunar Eclipse on March 3"
+      "Path to Cancelling SLS and Orion ?",
+      "SDA taps AST SpaceMobile to demo commercial satellite links",
+      "Ex-Apple team launches Acme Weather, a new take on weather f"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -101,34 +105,52 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 45,
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
-      "Next Generation Fighters and Drones With Europe Still Junior",
-      "China&#8217;s brain-computer interface industry is racing ah",
-      "Danish military evacuates US submariner who needed urgent me"
+      "Hybrid Electric Ships and the Alcohol Fuel Convergence",
+      "Could MQ-9B drones draw Canada and Denmark closer in Arctic",
+      "The Important Role That Black Communities Play In Addressing"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 90,
+      "hiring": 0,
+      "market": 90
+    },
+    "lastUpdated": "2026-02-24"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 35,
+    "trend": "steady",
+    "catalysts": [
+      "Air Force\u2019s drone wingmen have started flying with weapons",
+      "Partnering with TechForce to Support the Workforce behind Fu",
+      "US Urgently Needs New M1-E3 Tank to Replace Drone Vulnerable"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 100,
       "hiring": 0,
-      "market": 100
+      "market": 50
     },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Trump Promises More Coal Jobs, Delivers Tariffs Instead",
-      "Fraunhofer Study Finds Some PHEVs Use 3 Times More Fuel Than",
-      "German defense firm said to be weighing bid for Mynaric"
+      "Non-Tesla Used EVs Drop In Price By About $1,000",
+      "Partnering with TechForce to Support the Workforce behind Fu",
+      "CHARGE Calls On South African Finance Minister To Address EV"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -137,33 +159,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-23"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 34,
-    "trend": "steady",
-    "catalysts": [
-      "Next Generation Fighters and Drones With Europe Still Junior",
-      "National Guard team clinches award for clawed drone at Army"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 95,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
   },
   {
     "sector": "Climate & Energy",
     "momentum": 25,
     "trend": "steady",
     "catalysts": [
-      "Grey, Blue, or Green: The Real Ammonia Math",
-      "Peak Fuel Cell Bus Deliveries in the EU Occurred in 2025",
-      "You Can Now Install\u2014and Update\u2014Microsoft Store Apps Using th"
+      "Hybrid Electric Ships and the Alcohol Fuel Convergence",
+      "CHARGE Calls On South African Finance Minister To Address EV",
+      "The US Had a Big Battery Boom Last Year"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -172,76 +177,46 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 24,
+    "trend": "rising",
+    "catalysts": [
+      "CHARGE Calls On South African Finance Minister To Address EV",
+      "Training, logistics and property accountability: Army prepar",
+      "The US Had a Big Battery Boom Last Year"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 55,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-02-24"
   },
   {
     "sector": "Chips & Semiconductors",
     "momentum": 23,
     "trend": "rising",
     "catalysts": [
-      "All the important news from the ongoing India AI Impact Summ"
+      "Anthropic accuses Chinese AI labs of mining Claude as US deb",
+      "The human work behind humanoid robots is being hidden"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 55,
       "hiring": 0,
-      "market": 54
+      "market": 46
     },
-    "lastUpdated": "2026-02-23"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 22,
-    "trend": "rising",
-    "catalysts": [
-      "AI Data Centers Turn to High-Temperature Superconductors"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 50,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-02-23"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Electric Vehicle Models Top 5 Vehicle Classes in California",
-      "Tesla Still Dominates California EV Sales \u2014 And Tesla Still"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 88
-    },
-    "lastUpdated": "2026-02-23"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 17,
-    "trend": "declining",
-    "catalysts": [
-      "Active nuclear energy ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 45,
-      "hiring": 0,
-      "market": 30
-    },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 16,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
       "Active supersonic & hypersonic ecosystem"
@@ -249,26 +224,59 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
   },
   {
-    "sector": "Quantum Computing",
-    "momentum": 15,
+    "sector": "Nuclear Energy",
+    "momentum": 8,
     "trend": "declining",
     "catalysts": [
-      "Active quantum computing ecosystem"
+      "5 Interesting Startup Deals You May Have Missed: Plant-Based"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 30,
       "hiring": 0,
-      "market": 64
+      "market": 0
     },
-    "lastUpdated": "2026-02-23"
+    "lastUpdated": "2026-02-24"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 5,
+    "trend": "declining",
+    "catalysts": [
+      "EU Fleets Law Could Provide Over Half the EV Sales Carmakers",
+      "CHARGE Calls On South African Finance Minister To Address EV"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-02-24"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Finnish quantum unicorn IQM set to go public"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-02-24"
   }
 ]
