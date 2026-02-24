@@ -19560,25 +19560,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-24 05:14
-// Auto-generated real-time signals
-// Last updated: 2026-02-24
+// Last updated: 2026-02-24 10:33
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Amca", headline: "Canva acquires startups working on animation and marketing", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "Path to Cancelling SLS and Orion ?", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "The Boring Company", headline: "EU Fleets Law Could Provide Over Half the EV Sales Carmakers Need in 2030 — New Research", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Vannevar Labs", headline: "New EV List Prices Drop $1,500 in 4 Months in USA", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Matic Robotics", headline: "Non-Tesla Used EVs Drop In Price By About $1,000", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Andrenam", headline: "Hybrid Electric Ships and the Alcohol Fuel Convergence", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Anduril Industries", headline: "Air Force’s drone wingmen have started flying with weapons", source: "Defense One", time: "4h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Waymo", headline: "Partnering with TechForce to Support the Workforce behind Fully Autonomous Ride-hailing", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Cape", headline: "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Neros", headline: "US Urgently Needs New M1-E3 Tank to Replace Drone Vulnerable M1 Abrams Tank", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Vayu Robotics", headline: "Air Force ramps up B-21 Raider production capacity, aims for 2027 delivery", source: "Breaking Defense", time: "8h ago", impact: "high", unread: false },
-  { id: 12, type: "funding", company: "Vannevar Labs", headline: "Defense One Radio, Ep. 203: Fictional intelligence", source: "Defense One", time: "8h ago", impact: "medium", unread: false },
-  { id: 13, type: "news", company: "The Boring Company", headline: "CHARGE Calls On South African Finance Minister To Address EV Duties &#038; Fund Renewable Charging Infrastructure In 202", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Field AI", headline: "6 Best Duffel Bags We Tested While Traveling (2026)", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Vannevar Labs", headline: "Lockheed test-flies F-35 with artificial intelligence to quickly ID unknown contacts", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Cape", headline: "Breaking Europe's Trans-Atlantic Habit: The End of the Senior Partner Myth", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Amca", headline: "Canva acquires startups working on animation and marketing", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Path to Cancelling SLS and Orion ?", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "The Boring Company", headline: "EU Fleets Law Could Provide Over Half the EV Sales Carmakers Need in 2030 ' New Research", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Vannevar Labs", headline: "New EV List Prices Drop $1,500 in 4 Months in USA", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Matic Robotics", headline: "Non-Tesla Used EVs Drop In Price By About $1,000", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Andrenam", headline: "Hybrid Electric Ships and the Alcohol Fuel Convergence", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Anduril Industries", headline: "Air Force's drone wingmen have started flying with weapons", source: "Defense One", time: "7h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Waymo", headline: "Partnering with TechForce to Support the Workforce behind Fully Autonomous Ride-hailing", source: "CleanTechnica", time: "7h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Cape", headline: "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Neros", headline: "US Urgently Needs New M1-E3 Tank to Replace Drone Vulnerable M1 Abrams Tank", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Vayu Robotics", headline: "Air Force ramps up B-21 Raider production capacity, aims for 2027 delivery", source: "Breaking Defense", time: "11h ago", impact: "high", unread: false },
+  { id: 13, type: "funding", company: "Vannevar Labs", headline: "Defense One Radio, Ep. 203: Fictional intelligence", source: "Defense One", time: "11h ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "The Boring Company", headline: "CHARGE Calls On South African Finance Minister To Address EV Duties &#038; Fund Renewable Charging Infrastructure In 202", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Field AI", headline: "6 Best Duffel Bags We Tested While Traveling (2026)", source: "Wired", time: "11h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
