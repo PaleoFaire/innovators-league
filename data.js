@@ -19559,23 +19559,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-23 22:09
+// Last updated: 2026-02-24 05:14
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "With AI, investor loyalty is (almost) dead: at least a dozen OpenAI VCs now also back Anthropic", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Array Labs", headline: "SDA taps AST SpaceMobile to demo commercial satellite links to military radios", source: "Breaking Defense", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "milestone", company: "Atmo", headline: "Ex-Apple team launches Acme Weather, a new take on weather forecasting", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "Saronic", headline: "Reconciliation revealed: How the Pentagon plans to spend all $152 billion in FY26", source: "Breaking Defense", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Uber's new autonomous vehicle division is about survival and opportunity", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Ada", headline: "Integrating platforms to respond to'changing'threats of modern warfare", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "SpaceX", headline: "F-22 Raptor, MQ-20 drone complete manned-unmanned flight exercise", source: "Defense News", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Durin", headline: "Frozen tablets and downed drones: Army's 11th Airborne learns to fight in the Arctic", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Cover", headline: "Uncanny Valley: AI Researchers' Resignations, Bots Hiring Humans, Evie Magazine's Party", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Vannevar Labs", headline: "Google's Cloud AI lead on the three frontiers of model capability", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Rapid Robotics", headline: "Rapid scaling, soldier-led market key to US drone ambitions, Army secretary says", source: "Defense News", time: "3h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "D-Orbit", headline: "Space Force seeks market answers on in-orbit refueling", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Asylon Robotics", headline: "Americans are destroying Flock surveillance cameras", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "OpenAI calls in the consultants for its enterprise push", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Matic Robotics", headline: "Non-Tesla Used EVs Drop In Price By About $1,000", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Andrenam", headline: "Hybrid Electric Ships and the Alcohol Fuel Convergence", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Anduril Industries", headline: "Air Force's drone wingmen have started flying with weapons", source: "Defense One", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Partnering with TechForce to Support the Workforce behind Fully Autonomous Ride-hailing", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Cape", headline: "A Meta AI security researcher said an OpenClaw agent ran amok on her inbox", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Neros", headline: "US Urgently Needs New M1-E3 Tank to Replace Drone Vulnerable M1 Abrams Tank", source: "Next Big Future", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Vayu Robotics", headline: "Air Force ramps up B-21 Raider production capacity, aims for 2027 delivery", source: "Breaking Defense", time: "5h ago", impact: "high", unread: false },
+  { id: 8, type: "funding", company: "Vannevar Labs", headline: "Defense One Radio, Ep. 203: Fictional intelligence", source: "Defense One", time: "5h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "The Boring Company", headline: "CHARGE Calls On South African Finance Minister To Address EV Duties &#038; Fund Renewable Charging Infrastructure In 202", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Field AI", headline: "6 Best Duffel Bags We Tested While Traveling (2026)", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Vannevar Labs", headline: "Lockheed test-flies F-35 with artificial intelligence to quickly ID unknown contacts", source: "Breaking Defense", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "With AI, investor loyalty is (almost) dead: At least a dozen OpenAI VCs now also back Anthropic", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "Array Labs", headline: "SDA taps AST SpaceMobile to demo commercial satellite links to military radios", source: "Breaking Defense", time: "7h ago", impact: "high", unread: false },
+  { id: 14, type: "milestone", company: "Atmo", headline: "Ex-Apple team launches Acme Weather, a new take on weather forecasting", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "Saronic", headline: "Reconciliation revealed: How the Pentagon plans to spend all $152 billion in FY26", source: "Breaking Defense", time: "8h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
