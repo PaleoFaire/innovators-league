@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 3.82,
+      "avg_change": 3.84,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.61,
+      "avg_change": -0.23,
       "count": 7
     },
     "nuclear": {
@@ -39,9 +39,9 @@
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 3.28,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 2.39,
       "count": 3
     },
     "transportation": {
@@ -69,6 +69,11 @@
       10.28
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      8.0
+    ],
+    [
       "PL",
       "Planet Labs",
       6.07
@@ -77,11 +82,6 @@
       "AUR",
       "Aurora Innovation",
       5.8
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      4.89
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -15.62
     ]
   ],
-  "lastUpdated": "2026-02-24 05:15:18"
+  "lastUpdated": "2026-02-24 08:05:37"
 }
