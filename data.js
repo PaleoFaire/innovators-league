@@ -19583,25 +19583,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-25 05:17
-// Auto-generated real-time signals
-// Last updated: 2026-02-25
+// Last updated: 2026-02-25 10:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Surge AI", headline: "China Could Have 20-35 Million Kpop Like Facial Surgery Copies by 2030", source: "Next Big Future", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "SHIELD Technology Partners", headline: "Several trends are shifting defense tech toward Europe", source: "Defense One", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Ample", headline: "Ford Now Charging $495 for Frunk", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Durin", headline: "Tesla&#8217;s Moving NHTSA Deadline on Accident Data, Iced Superchargers in Sweden, &#038; New Model Y L in Australia", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "DIRAC", headline: "New Electric Heat Pump Chases Fossil Fuels Out Of The Boiler Room", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Flexport", headline: "India&#8217;s AI boom pushes firms to trade near-term revenue for users", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Modern Intelligence", headline: "‘Ringleader’: Department of Air Force to start all-encompassing sensor fusion experiments", source: "Breaking Defense", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Aurora Innovation", headline: "Self-driving tech startup Wayve raises $1.2B from Nvidia, Uber, and three automakers", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "AMP Robotics", headline: "How To Use Up Nuclear Waste Generating Electricity", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Ada", headline: "US Air Force awards contract for drone wingman engines", source: "Defense News", time: "8h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Mistral AI", headline: "Spanish &#8216;soonicorn&#8217; Multiverse Computing releases free compressed AI model", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Palantir", headline: "Here’s What a Google Subpoena Response Looks Like, Courtesy of the Epstein Files", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Biofire", headline: "Apple rolls out age-verification tools worldwide to comply with growing web of child safety laws", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Built Robotics", headline: "Uber engineers built an AI version of their boss", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Astroscale", headline: "A banner year for military space funding— with an unclear path beyond", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Rigetti Computing", headline: "On Running Is Finally Ramping Up Production of Its 'Hyper-Foam' Spray-On Shoes", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "FREYR Battery", headline: "Arctic Hot Takes Need a Cold Reality Check", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Cohere", headline: "The Transatlantic Defense Business Politics Can't Break", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Surge AI", headline: "China Could Have 20-35 Million Kpop Like Facial Surgery Copies by 2030", source: "Next Big Future", time: "3h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "SHIELD Technology Partners", headline: "Several trends are shifting defense tech toward Europe", source: "Defense One", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Waymo", headline: "Waymo Opens Up Service in Orlando, Dallas, Houston, &#038; San Antonio", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: false },
+  { id: 7, type: "news", company: "Ample", headline: "Ford Now Charging $495 for Frunk", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Durin", headline: "Tesla's Moving NHTSA Deadline on Accident Data, Iced Superchargers in Sweden, &#038; New Model Y L in Australia", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "DIRAC", headline: "New Electric Heat Pump Chases Fossil Fuels Out Of The Boiler Room", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Flexport", headline: "India's AI boom pushes firms to trade near-term revenue for users", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Modern Intelligence", headline: "'Ringleader': Department of Air Force to start all-encompassing sensor fusion experiments", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Aurora Innovation", headline: "Self-driving tech startup Wayve raises $1.2B from Nvidia, Uber, and three automakers", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "AMP Robotics", headline: "How To Use Up Nuclear Waste Generating Electricity", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Ada", headline: "US Air Force awards contract for drone wingman engines", source: "Defense News", time: "10h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Mistral AI", headline: "Spanish 'soonicorn' Multiverse Computing releases free compressed AI model", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
