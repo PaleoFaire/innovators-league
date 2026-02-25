@@ -19583,23 +19583,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-25 10:36
+// Last updated: 2026-02-25 15:13
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Rigetti Computing", headline: "On Running Is Finally Ramping Up Production of Its 'Hyper-Foam' Spray-On Shoes", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "FREYR Battery", headline: "Arctic Hot Takes Need a Cold Reality Check", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Cohere", headline: "The Transatlantic Defense Business Politics Can't Break", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Surge AI", headline: "China Could Have 20-35 Million Kpop Like Facial Surgery Copies by 2030", source: "Next Big Future", time: "3h ago", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "SHIELD Technology Partners", headline: "Several trends are shifting defense tech toward Europe", source: "Defense One", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Waymo", headline: "Waymo Opens Up Service in Orlando, Dallas, Houston, &#038; San Antonio", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: false },
-  { id: 7, type: "news", company: "Ample", headline: "Ford Now Charging $495 for Frunk", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Durin", headline: "Tesla's Moving NHTSA Deadline on Accident Data, Iced Superchargers in Sweden, &#038; New Model Y L in Australia", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "DIRAC", headline: "New Electric Heat Pump Chases Fossil Fuels Out Of The Boiler Room", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Flexport", headline: "India's AI boom pushes firms to trade near-term revenue for users", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Modern Intelligence", headline: "'Ringleader': Department of Air Force to start all-encompassing sensor fusion experiments", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Aurora Innovation", headline: "Self-driving tech startup Wayve raises $1.2B from Nvidia, Uber, and three automakers", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "AMP Robotics", headline: "How To Use Up Nuclear Waste Generating Electricity", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Ada", headline: "US Air Force awards contract for drone wingman engines", source: "Defense News", time: "10h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Mistral AI", headline: "Spanish 'soonicorn' Multiverse Computing releases free compressed AI model", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Attio", headline: "Used EV Sales Show Us That EVs Aren't Stalling Out", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Cover", headline: "3 days left: Save up to $680 on your TechCrunch Disrupt 2026 ticket", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Attio", headline: "Electric Vehicle Adoption Is On The Rise ' Even If Tesla Sales Are Uneven", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Harbinger", headline: "Harbinger acquires autonomous driving company Phantom AI", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "Orangewood Labs", headline: "Y Combinator grad and AI insurance brokerage Harper raises $47M", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Firefly Aerospace", headline: "Adobe Firefly's video editor can now automatically create a first draft from footage", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Vast", headline: "The future of astronomy is both on Earth and in space", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Cape", headline: "Dem lawmakers raise questions over Pentagon's equity deal with rare earth producer", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "Cuby Technologies", headline: "IPOs Are Holding Up In 2026, But SaaS Debuts Aren't Happening", source: "Crunchbase News", time: "3h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "Figure AI", headline: "Talk to Your Own Personal Isaac Newton With Ailias's Hologram Avatars", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Runway", headline: "Kubuntu Focus Zr Gen 1 Review: A Powerhouse Linux Laptop", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Array Labs", headline: "In space traffic coordination, the biggest challenge may be coordination", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Vast", headline: "This Is the Worst Thing That Could Happen to the International Space Station", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Matic Robotics", headline: "Listen to Earth's rumbling, secret soundtrack", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Array Labs", headline: "OQ Technology secures $30 million from Europe for satellite-to-smartphone expansion", source: "SpaceNews", time: "4h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
