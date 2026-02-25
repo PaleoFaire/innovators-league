@@ -19583,23 +19583,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-25 15:13
+// Last updated: 2026-02-25 19:34
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Attio", headline: "Used EV Sales Show Us That EVs Aren't Stalling Out", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Cover", headline: "3 days left: Save up to $680 on your TechCrunch Disrupt 2026 ticket", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Attio", headline: "Electric Vehicle Adoption Is On The Rise ' Even If Tesla Sales Are Uneven", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Harbinger", headline: "Harbinger acquires autonomous driving company Phantom AI", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "funding", company: "Orangewood Labs", headline: "Y Combinator grad and AI insurance brokerage Harper raises $47M", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "Firefly Aerospace", headline: "Adobe Firefly's video editor can now automatically create a first draft from footage", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Vast", headline: "The future of astronomy is both on Earth and in space", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Cape", headline: "Dem lawmakers raise questions over Pentagon's equity deal with rare earth producer", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "Cuby Technologies", headline: "IPOs Are Holding Up In 2026, But SaaS Debuts Aren't Happening", source: "Crunchbase News", time: "3h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Figure AI", headline: "Talk to Your Own Personal Isaac Newton With Ailias's Hologram Avatars", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Runway", headline: "Kubuntu Focus Zr Gen 1 Review: A Powerhouse Linux Laptop", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Array Labs", headline: "In space traffic coordination, the biggest challenge may be coordination", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Vast", headline: "This Is the Worst Thing That Could Happen to the International Space Station", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Matic Robotics", headline: "Listen to Earth's rumbling, secret soundtrack", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Array Labs", headline: "OQ Technology secures $30 million from Europe for satellite-to-smartphone expansion", source: "SpaceNews", time: "4h ago", impact: "medium", unread: false },
+  { id: 1, type: "ipo", company: "Cuby Technologies", headline: "The public opposition to AI infrastructure is heating up", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Xanadu Quantum Technologies", headline: "OpenClaw Users Are Allegedly Bypassing Anti-Bot Systems", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Apptronik", headline: "Autonomous Driving News: Tesla Sues, BMW Bails", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "AI Winner Will Scale AI Energy and Compute on Earth and in Space &#8211; Why XAI, SpaceX and Tesla Win", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Waymo", headline: "Waymo to begin testing in Chicago and Charlotte", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Flexport", headline: "The U.S. Military Must Save Itself Before Saving Others", source: "War on the Rocks", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "CX2 Industries", headline: "US Army revamping its electronic warfare acquisition system", source: "Defense News", time: "1h ago", impact: "high", unread: false },
+  { id: 8, type: "contract", company: "Attio", headline: "Army official 'not happy' with GD-OTS's handling of 155mm contract as production lags", source: "Breaking Defense", time: "1h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Revel", headline: "Gemini can now automate some multi-step tasks on Android", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Fortera", headline: "Samsung Galaxy S26, S26+, and S26 Ultra: Specs, Features, Price, Release Date", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI COO says ads will be 'an iterative process'", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Hadrian", headline: "Air Force taps four companies to expand engine options for loyal wingman drones", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anysphere", headline: "OpenClaw creator's advice to AI builders is to be more playful and allow yourself time to improve", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "DIRAC", headline: "From backlogs to breakthroughs: Why the defense industrial base is turning to agentic AI", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Runway", headline: "A White House Staffer Appears to Run Massive Pro-Trump X Account", source: "Wired", time: "3h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
