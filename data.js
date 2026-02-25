@@ -19560,23 +19560,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-24 21:53
+// Last updated: 2026-02-25 05:17
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Asylon Robotics", headline: "Former L3Harris Trenchant boss jailed for selling hacking tools to Russian broker", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Durin", headline: "US Navy, NATO explosive ordnance teams tackle High North during 'Arctic Sentry'", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Terraform Industries", headline: "Google's new 1.9GW clean energy deal includes massive 100-hour battery", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Vannevar Labs", headline: "Air Force test pilots used tactical AI to evade a missile", source: "Defense One", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Machina Labs", headline: "CarGurus data breach affects 12.5 million accounts", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "FREYR Battery", headline: "Visiting the Army in the Arctic and the Air Force in Colorado", source: "Breaking Defense", time: "Just now", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Palantir", headline: "Anthropic won't budge as Pentagon escalates AI dispute", source: "TechCrunch", time: "Just now", impact: "low", unread: false },
-  { id: 8, type: "news", company: "FREYR Battery", headline: "11th Airborne wants more CATVs, ISV-adjacent solutions", source: "Breaking Defense", time: "Just now", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Reveal Technology", headline: "Instagram head pressed on lengthy delay to launch teen safety features, like a nudity filter, court filing reveals", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Pipedream", headline: "What are the possibilities for US and Asian partners to co-produce drones in'the Indo-Pacific?", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Neros", headline: "'We don't have infantry': Ukraine's war machine evolves into machine war", source: "Defense News", time: "1h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Muon Space", headline: "My Favorite Bluetooth Speaker Is on Sale for $50 Off Right Now", source: "Wired", time: "1h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Reveal Technology", headline: "More startups are hitting $10M ARR in 3 months than ever before", source: "TechCrunch", time: "2h ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "Neros", headline: "Ukraine as a European Nation", source: "War on the Rocks", time: "2h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Terraform Industries", headline: "A Better Use For Warehouses: Clean, Green Rooftop Solar Power", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "DIRAC", headline: "New Electric Heat Pump Chases Fossil Fuels Out Of The Boiler Room", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Flexport", headline: "India's AI boom pushes firms to trade near-term revenue for users", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Modern Intelligence", headline: "'Ringleader': Department of Air Force to start all-encompassing sensor fusion experiments", source: "Breaking Defense", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Aurora Innovation", headline: "Self-driving tech startup Wayve raises $1.2B from Nvidia, Uber, and three automakers", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "AMP Robotics", headline: "How To Use Up Nuclear Waste Generating Electricity", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Ada", headline: "US Air Force awards contract for drone wingman engines", source: "Defense News", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Mistral AI", headline: "Spanish 'soonicorn' Multiverse Computing releases free compressed AI model", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Palantir", headline: "Here's What a Google Subpoena Response Looks Like, Courtesy of the Epstein Files", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Biofire", headline: "Apple rolls out age-verification tools worldwide to comply with growing web of child safety laws", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "Built Robotics", headline: "Uber engineers built an AI version of their boss", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Terraform Industries", headline: "Following 35% growth, solar has passed hydro on US grid", source: "Ars Technica Space", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Field AI", headline: "Just pull a string to turn these tile patterns into useful 3D structures", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "NEURA Robotics", headline: "A retinal reboot for amblyopia", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Turbopuffer", headline: "A new way to rejuvenate the immune system", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Vannevar Labs", headline: "A'I-designed proteins may help spot cancer", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
