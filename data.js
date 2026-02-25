@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-02-24";
+const LAST_UPDATED = "2026-02-25";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -8611,7 +8611,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     country: "Canada",
     lat: 45.5017,
     lng: -73.5673,
-    fundingStage: "Late Stage",
+    fundingStage: "Series G",
     totalRaised: "$67M+",
     valuation: "",
     rosLink: "",
@@ -10816,9 +10816,10 @@ const MARKET_PULSE = [
   { name: "Kratos Defense", ticker: "KTOS", valuation: "$5B+", change: "+0.9%", trend: "up", sector: "Defense & Security" }
 ];
 
-// Auto-calculated funding tracker — Last updated: 2026-02-24
+// Auto-calculated funding tracker — Last updated: 2026-02-25
 const FUNDING_TRACKER = [
   { company: "Cover", totalRaised: "$900.0B+", lastRound: "Funding Round", lastRoundAmount: "$900B", lastRoundDate: "2026-01", valuation: "", leadInvestors: ["Undisclosed"] },
+  { company: "Together AI", totalRaised: "$159.1B+", lastRound: "Funding Round", lastRoundAmount: "$159B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Anthropic", totalRaised: "$43.0B+", lastRound: "Series G", lastRoundAmount: "$30B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed", "GIC"] },
   { company: "OpenAI", totalRaised: "$40.0B+", lastRound: "Late Stage", lastRoundAmount: "$40B", lastRoundDate: "2025-03", valuation: "$300B", leadInvestors: ["SoftBank"] },
   { company: "Labelbox", totalRaised: "$30.0B+", lastRound: "Series G", lastRoundAmount: "$30B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
@@ -10828,6 +10829,8 @@ const FUNDING_TRACKER = [
   { company: "Anysphere", totalRaised: "$2.3B+", lastRound: "Series D", lastRoundAmount: "$2.3B", lastRoundDate: "2025-11", valuation: "$29.3B", leadInvestors: ["a16z"] },
   { company: "Skild AI", totalRaised: "$1.4B+", lastRound: "Series C", lastRoundAmount: "$1.4B", lastRoundDate: "2026-01", valuation: "$14B+", leadInvestors: ["Lightspeed"] },
   { company: "Crusoe Energy", totalRaised: "$1.4B+", lastRound: "Series E", lastRoundAmount: "$1.375B", lastRoundDate: "2025-10", valuation: "$10B+", leadInvestors: ["Valor Equity"] },
+  { company: "GHGSat", totalRaised: "$1.3B+", lastRound: "Series G", lastRoundAmount: "$1.3B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
+  { company: "Aurora Innovation", totalRaised: "$1.2B+", lastRound: "Funding Round", lastRoundAmount: "$1.2B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Figure AI", totalRaised: "$1.0B+", lastRound: "Series C", lastRoundAmount: "$1B+", lastRoundDate: "2025-12", valuation: "$39B", leadInvestors: ["Microsoft"] },
   { company: "Neuralink", totalRaised: "$650M+", lastRound: "Series E", lastRoundAmount: "$650M", lastRoundDate: "2025-06", valuation: "$9.7B", leadInvestors: ["ARK Invest"] },
   { company: "Saronic", totalRaised: "$600M+", lastRound: "Series C", lastRoundAmount: "$600M+", lastRoundDate: "2025-12", valuation: "$4B", leadInvestors: ["a16z"] },
@@ -10851,6 +10854,7 @@ const FUNDING_TRACKER = [
   { company: "Pano AI", totalRaised: "$44M+", lastRound: "Series B", lastRoundAmount: "$44M", lastRoundDate: "2025-06", valuation: "$500M+", leadInvestors: ["Giant Ventures"] },
   { company: "Dragonfly Aerospace", totalRaised: "$41M+", lastRound: "Series G", lastRoundAmount: "$41M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Proteus Space", totalRaised: "$17M+", lastRound: "Series A", lastRoundAmount: "$17M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Accel"] },
+  { company: "Starcloud", totalRaised: "$10M+", lastRound: "Seed", lastRoundAmount: "$10M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Accel"] },
 ];
 
 // ─── IPO & EXIT PIPELINE ───
@@ -10858,6 +10862,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-02-23
 // Auto-updated IPO pipeline — Last updated: 2026-02-23
 // Auto-updated IPO pipeline — Last updated: 2026-02-24
+// Auto-updated IPO pipeline — Last updated: 2026-02-25
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -11276,25 +11281,25 @@ const SECTOR_MOMENTUM_METHODOLOGY = {
 };
 
 // Auto-calculated sector momentum scores
-// Last updated: 2026-02-24
+// Last updated: 2026-02-25
 // Methodology: Funding velocity (35%) + News frequency (25%) + Hiring velocity (20%) + Market sentiment (20%)
 const SECTOR_MOMENTUM = [
-  { sector: "AI & Software", momentum: 70, trend: "accelerating", catalysts: ["Lockheed test-flies F-35 with artificial intelligence to qui", "With AI, investor loyalty is (almost) dead: At least a dozen", "Anthropic accuses Chinese AI labs of mining Claude as US deb"], fundingQ: "$31.8B" },
-  { sector: "Robotics & Manufacturing", momentum: 70, trend: "accelerating", catalysts: ["Uber wants to be a Swiss Army Knife for robotaxis", "Integrating platforms to respond to\u00a0changing\u00a0threats of mode", "The human work behind humanoid robots is being hidden"], fundingQ: "$17.7B" },
-  { sector: "Defense & Security", momentum: 69, trend: "accelerating", catalysts: ["Air Force\u2019s drone wingmen have started flying with weapons", "US Urgently Needs New M1-E3 Tank to Replace Drone Vulnerable", "Air Force ramps up B-21 Raider production capacity, aims for"], fundingQ: "$6.8B" },
-  { sector: "Housing & Construction", momentum: 56, trend: "accelerating", catalysts: ["New EV List Prices Drop $1,500 in 4 Months in USA", "Uncanny Valley: AI Researchers\u2019 Resignations, Bots Hiring Hu", "The Important Role That Black Communities Play In Addressing"], fundingQ: "$900.0B" },
-  { sector: "Ocean & Maritime", momentum: 54, trend: "steady", catalysts: ["Hybrid Electric Ships and the Alcohol Fuel Convergence", "Maritime dominance requires the Coast Guard", "Maritime Decarbonization Without Inflation"], fundingQ: "$1.2B" },
-  { sector: "Space & Aerospace", momentum: 45, trend: "steady", catalysts: ["Path to Cancelling SLS and Orion ?", "SDA taps AST SpaceMobile to demo commercial satellite links", "Ex-Apple team launches Acme Weather, a new take on weather f"], fundingQ: "$0M" },
-  { sector: "Biotech & Health", momentum: 40, trend: "steady", catalysts: ["Hybrid Electric Ships and the Alcohol Fuel Convergence", "Could MQ-9B drones draw Canada and Denmark closer in Arctic", "The Important Role That Black Communities Play In Addressing"], fundingQ: "$0M" },
-  { sector: "Drones & Autonomous", momentum: 35, trend: "steady", catalysts: ["Air Force\u2019s drone wingmen have started flying with weapons", "Partnering with TechForce to Support the Workforce behind Fu", "US Urgently Needs New M1-E3 Tank to Replace Drone Vulnerable"], fundingQ: "$0M" },
-  { sector: "Consumer Tech", momentum: 35, trend: "steady", catalysts: ["Non-Tesla Used EVs Drop In Price By About $1,000", "Partnering with TechForce to Support the Workforce behind Fu", "CHARGE Calls On South African Finance Minister To Address EV"], fundingQ: "$0M" },
-  { sector: "Climate & Energy", momentum: 25, trend: "steady", catalysts: ["Hybrid Electric Ships and the Alcohol Fuel Convergence", "CHARGE Calls On South African Finance Minister To Address EV", "The US Had a Big Battery Boom Last Year"], fundingQ: "$0M" },
-  { sector: "Infrastructure & Logistics", momentum: 24, trend: "rising", catalysts: ["CHARGE Calls On South African Finance Minister To Address EV", "Training, logistics and property accountability: Army prepar", "The US Had a Big Battery Boom Last Year"], fundingQ: "$0M" },
-  { sector: "Chips & Semiconductors", momentum: 23, trend: "rising", catalysts: ["Anthropic accuses Chinese AI labs of mining Claude as US deb", "The human work behind humanoid robots is being hidden"], fundingQ: "$0M" },
-  { sector: "Supersonic & Hypersonic", momentum: 15, trend: "declining", catalysts: ["Active supersonic & hypersonic ecosystem"], fundingQ: "$0M" },
-  { sector: "Nuclear Energy", momentum: 8, trend: "declining", catalysts: ["5 Interesting Startup Deals You May Have Missed: Plant-Based"], fundingQ: "$0M" },
-  { sector: "Transportation", momentum: 5, trend: "declining", catalysts: ["EU Fleets Law Could Provide Over Half the EV Sales Carmakers", "CHARGE Calls On South African Finance Minister To Address EV"], fundingQ: "$0M" },
-  { sector: "Quantum Computing", momentum: 4, trend: "declining", catalysts: ["Finnish quantum unicorn IQM set to go public"], fundingQ: "$0M" },
+  { sector: "AI & Software", momentum: 70, trend: "accelerating", catalysts: ["A retinal reboot for amblyopia", "A\u200aI-designed proteins may help spot cancer", "Air Force test pilots used tactical AI to evade a missile"], fundingQ: "$31.8B" },
+  { sector: "Robotics & Manufacturing", momentum: 66, trend: "accelerating", catalysts: ["New Electric Heat Pump Chases Fossil Fuels Out Of The Boiler"], fundingQ: "$17.7B" },
+  { sector: "Defense & Security", momentum: 64, trend: "accelerating", catalysts: ["Several trends are shifting defense tech toward Europe", "\u2018Ringleader\u2019: Department of Air Force to start all-encompass", "US Air Force awards contract for drone wingman engines"], fundingQ: "$6.8B" },
+  { sector: "Housing & Construction", momentum: 58, trend: "accelerating", catalysts: ["Active housing & construction ecosystem"], fundingQ: "$900.0B" },
+  { sector: "Ocean & Maritime", momentum: 50, trend: "steady", catalysts: ["Active ocean & maritime ecosystem"], fundingQ: "$1.2B" },
+  { sector: "Space & Aerospace", momentum: 45, trend: "steady", catalysts: ["A banner year for military space funding\u2014 with an unclear pa", "SpaceX Has the Best Radiative Cooling Solution and It is Wor", "Instagram head pressed on lengthy delay to launch teen safet"], fundingQ: "$0M" },
+  { sector: "Biotech & Health", momentum: 42, trend: "steady", catalysts: ["How To Use Up Nuclear Waste Generating Electricity", "Just pull a string to turn these tile patterns into useful 3", "SpaceX Has the Best Radiative Cooling Solution and It is Wor"], fundingQ: "$0M" },
+  { sector: "Drones & Autonomous", momentum: 35, trend: "steady", catalysts: ["US Air Force awards contract for drone wingman engines", "What are the possibilities for US and Asian partners to co-p", "Air Force flight tests drone wingman carrying (inert) weapon"], fundingQ: "$0M" },
+  { sector: "Consumer Tech", momentum: 35, trend: "steady", catalysts: ["Ford Now Charging $495 for Frunk", "New Electric Heat Pump Chases Fossil Fuels Out Of The Boiler", "\u2018Ringleader\u2019: Department of Air Force to start all-encompass"], fundingQ: "$0M" },
+  { sector: "Chips & Semiconductors", momentum: 32, trend: "rising", catalysts: ["Self-driving tech startup Wayve raises $1.2B from Nvidia, Ub", "My Favorite Bluetooth Speaker Is on Sale for $50 Off Right N", "This Physics Professor Credits Collaboration for Her Success"], fundingQ: "$0M" },
+  { sector: "Climate & Energy", momentum: 30, trend: "steady", catalysts: ["India&#8217;s AI boom pushes firms to trade near-term revenu", "Following 35% growth, solar has passed hydro on US grid", "SpaceX Has the Best Radiative Cooling Solution and It is Wor"], fundingQ: "$0M" },
+  { sector: "Infrastructure & Logistics", momentum: 22, trend: "rising", catalysts: ["Following 35% growth, solar has passed hydro on US grid", "What are the possibilities for US and Asian partners to co-p", "Fintech Giant Stripe\u2019s Valuation Soars to $159B In Latest Se"], fundingQ: "$0M" },
+  { sector: "Supersonic & Hypersonic", momentum: 16, trend: "declining", catalysts: ["\u2018We don\u2019t have infantry\u2019: Ukraine\u2019s war machine evolves into"], fundingQ: "$0M" },
+  { sector: "Nuclear Energy", momentum: 15, trend: "rising", catalysts: ["\u2018Ringleader\u2019: Department of Air Force to start all-encompass", "How To Use Up Nuclear Waste Generating Electricity", "Reformulated antibodies could be injected for easier treatme"], fundingQ: "$0M" },
+  { sector: "Transportation", momentum: 15, trend: "declining", catalysts: ["Ford Now Charging $495 for Frunk"], fundingQ: "$0M" },
+  { sector: "Quantum Computing", momentum: 13, trend: "declining", catalysts: ["Active quantum computing ecosystem"], fundingQ: "$0M" },
 ];
 
 // ─── BREAKING NEWS TICKER ───
@@ -11452,6 +11457,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-02-23
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-02-24
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-02-25
 const DEAL_TRACKER = [
   { company: "Waymo", investor: "Alphabet", amount: "$16B", round: "Late Stage", date: "2026-02", valuation: "$126B", leadOrParticipant: "lead" },
   { company: "Bedrock Robotics", investor: "CapitalG", amount: "$270M", round: "Series B", date: "2026-02", valuation: "$1.75B", leadOrParticipant: "lead" },
@@ -11462,6 +11469,11 @@ const DEAL_TRACKER = [
   { company: "Dragonfly Aerospace", investor: "Undisclosed", amount: "$41M", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Labelbox", investor: "Undisclosed", amount: "$30B", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Galvanick", investor: "Undisclosed", amount: "$9B", round: "Seed", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
+  { company: "Aurora Innovation", investor: "Undisclosed", amount: "$1.2B", round: "Funding Round", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
+  { company: "Together AI", investor: "Undisclosed", amount: "$159B", round: "Funding Round", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
+  { company: "Together AI", investor: "Undisclosed", amount: "$50M", round: "Funding Round", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
+  { company: "Starcloud", investor: "Accel", amount: "$10M", round: "Seed", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
+  { company: "GHGSat", investor: "Undisclosed", amount: "$1.3B", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Epirus", investor: "8VC", amount: "$550M+", round: "Late Stage", date: "2026-01", valuation: "$1.35B", leadOrParticipant: "participant" },
   { company: "Skild AI", investor: "Lightspeed", amount: "$1.4B", round: "Series C", date: "2026-01", valuation: "$14B+", leadOrParticipant: "lead" },
   { company: "Skild AI", investor: "a16z", amount: "$1.4B", round: "Series C", date: "2026-01", valuation: "$14B+", leadOrParticipant: "participant" },
@@ -11529,100 +11541,108 @@ const GROWTH_SIGNAL_METHODOLOGY = {
   }
 };
 
-// Auto-calculated growth signals — Last updated: 2026-02-24
+// Auto-calculated growth signals — Last updated: 2026-02-25
 const GROWTH_SIGNALS = [
-  { company: "Palantir", type: "media_buzz", detail: "6 recent articles", strength: 6, date: "2026-02-24" },
-  { company: "Palantir", type: "ip_moat", detail: "100 patents", strength: 6, date: "2026-02-24" },
-  { company: "Palantir", type: "gov_traction", detail: "100 contracts", strength: 6, date: "2026-02-24" },
-  { company: "Anduril Industries", type: "ip_moat", detail: "30 patents", strength: 5, date: "2026-02-24" },
-  { company: "Anduril Industries", type: "gov_traction", detail: "100 contracts", strength: 5, date: "2026-02-24" },
-  { company: "Andrenam", type: "news_activity", detail: "4 recent articles", strength: 4, date: "2026-02-24" },
-  { company: "Andrenam", type: "ip_moat", detail: "44 patents", strength: 4, date: "2026-02-24" },
-  { company: "Cover", type: "media_buzz", detail: "6 recent articles", strength: 4, date: "2026-02-24" },
-  { company: "Cover", type: "ip_moat", detail: "100 patents", strength: 4, date: "2026-02-24" },
-  { company: "Neros", type: "media_buzz", detail: "8 recent articles", strength: 4, date: "2026-02-24" },
-  { company: "Neros", type: "gov_traction", detail: "10 contracts", strength: 4, date: "2026-02-24" },
-  { company: "Planet Labs", type: "stock_movement", detail: "+6.1% up", strength: 4, date: "2026-02-24" },
-  { company: "Planet Labs", type: "gov_traction", detail: "10 contracts", strength: 4, date: "2026-02-24" },
-  { company: "Radiant", type: "ip_moat", detail: "52 patents", strength: 4, date: "2026-02-24" },
-  { company: "Radiant", type: "gov_traction", detail: "29 contracts", strength: 4, date: "2026-02-24" },
-  { company: "Skydio", type: "ip_moat", detail: "99 patents", strength: 4, date: "2026-02-24" },
-  { company: "Skydio", type: "gov_traction", detail: "48 contracts", strength: 4, date: "2026-02-24" },
-  { company: "Waymo", type: "news_activity", detail: "4 recent articles", strength: 4, date: "2026-02-24" },
-  { company: "Waymo", type: "ip_moat", detail: "100 patents", strength: 4, date: "2026-02-24" },
-  { company: "Captura", type: "ip_moat", detail: "10 patents", strength: 3, date: "2026-02-24" },
-  { company: "Cognition", type: "ip_moat", detail: "47 patents", strength: 3, date: "2026-02-24" },
-  { company: "Shield AI", type: "news_activity", detail: "2 recent articles", strength: 3, date: "2026-02-24" },
-  { company: "Shield AI", type: "ip_moat", detail: "72 patents", strength: 3, date: "2026-02-24" },
-  { company: "Vast", type: "news_activity", detail: "2 recent articles", strength: 3, date: "2026-02-24" },
-  { company: "Vast", type: "ip_moat", detail: "84 patents", strength: 3, date: "2026-02-24" },
-  { company: "Zipline", type: "ip_moat", detail: "16 patents", strength: 3, date: "2026-02-24" },
-  { company: "Ada", type: "media_buzz", detail: "6 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Agility Robotics", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Anduril", type: "gov_traction", detail: "100 contracts", strength: 2, date: "2026-02-24" },
-  { company: "Antares", type: "ip_moat", detail: "13 patents", strength: 2, date: "2026-02-24" },
-  { company: "Anthropic", type: "media_buzz", detail: "7 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Attio", type: "media_buzz", detail: "6 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Aurora Innovation", type: "stock_movement", detail: "+5.8% up", strength: 2, date: "2026-02-24" },
-  { company: "Built Robotics", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Cape", type: "media_buzz", detail: "16 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "DIRAC", type: "media_buzz", detail: "8 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Deterrence", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Divergent", type: "ip_moat", detail: "58 patents", strength: 2, date: "2026-02-24" },
-  { company: "Durin", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Endurosat", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Epirus", type: "ip_moat", detail: "11 patents", strength: 2, date: "2026-02-24" },
-  { company: "Field AI", type: "media_buzz", detail: "6 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Firefly Aerospace", type: "ip_moat", detail: "19 patents", strength: 2, date: "2026-02-24" },
-  { company: "Impulse Labs", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Intuitive Machines", type: "stock_movement", detail: "+12.5% up", strength: 2, date: "2026-02-24" },
-  { company: "Lightmatter", type: "ip_moat", detail: "34 patents", strength: 2, date: "2026-02-24" },
-  { company: "Matic Robotics", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Neuralink", type: "ip_moat", detail: "10 patents", strength: 2, date: "2026-02-24" },
-  { company: "OpenAI", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Orchid", type: "ip_moat", detail: "100 patents", strength: 2, date: "2026-02-24" },
-  { company: "Palantir Technologies", type: "gov_traction", detail: "100 contracts", strength: 2, date: "2026-02-24" },
-  { company: "Photonic Inc", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Relativity Space", type: "ip_moat", detail: "20 patents", strength: 2, date: "2026-02-24" },
-  { company: "Reveal Technology", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Saronic", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Scale AI", type: "media_buzz", detail: "8 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Sierra Space", type: "gov_traction", detail: "15 contracts", strength: 2, date: "2026-02-24" },
-  { company: "Space Exploration Technologies", type: "gov_traction", detail: "78 contracts", strength: 2, date: "2026-02-24" },
-  { company: "SpaceX", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "TAE Technologies", type: "ip_moat", detail: "25 patents", strength: 2, date: "2026-02-24" },
-  { company: "Tempus AI", type: "stock_movement", detail: "+10.3% up", strength: 2, date: "2026-02-24" },
-  { company: "TerraPower", type: "ip_moat", detail: "20 patents", strength: 2, date: "2026-02-24" },
-  { company: "The Boring Company", type: "media_buzz", detail: "8 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Turbopuffer", type: "media_buzz", detail: "7 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "Vannevar Labs", type: "media_buzz", detail: "17 recent articles", strength: 2, date: "2026-02-24" },
-  { company: "X-Energy", type: "ip_moat", detail: "32 patents", strength: 2, date: "2026-02-24" },
-  { company: "Ample", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Arc Boats", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Asylon Robotics", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Chaos Industries", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Earth AI", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Fervo Energy", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Figure AI", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Flexport", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Fortera", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Hadrian", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Rainmaker", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Rapid Robotics", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Rebellion Defense", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Rocket Lab", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Terraform Industries", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Vayu Robotics", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "Xcimer Energy", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-24" },
-  { company: "AMD", type: "stock_movement", detail: "-5.2% down", strength: 0, date: "2026-02-24" },
-  { company: "D-Wave Quantum", type: "stock_movement", detail: "-8.2% down", strength: 0, date: "2026-02-24" },
-  { company: "IonQ", type: "stock_movement", detail: "-9.8% down", strength: 0, date: "2026-02-24" },
-  { company: "LanzaTech", type: "stock_movement", detail: "-14.0% down", strength: 0, date: "2026-02-24" },
-  { company: "NuScale Power", type: "stock_movement", detail: "-11.9% down", strength: 0, date: "2026-02-24" },
-  { company: "QuantumScape", type: "stock_movement", detail: "-11.4% down", strength: 0, date: "2026-02-24" },
-  { company: "Rivian", type: "stock_movement", detail: "-15.6% down", strength: 0, date: "2026-02-24" },
-  { company: "Solid Power", type: "stock_movement", detail: "-6.3% down", strength: 0, date: "2026-02-24" },
-  { company: "Vertical Aerospace", type: "stock_movement", detail: "-7.3% down", strength: 0, date: "2026-02-24" },
+  { company: "Palantir", type: "media_buzz", detail: "7 recent articles", strength: 6, date: "2026-02-25" },
+  { company: "Palantir", type: "ip_moat", detail: "100 patents", strength: 6, date: "2026-02-25" },
+  { company: "Palantir", type: "gov_traction", detail: "100 contracts", strength: 6, date: "2026-02-25" },
+  { company: "Anduril Industries", type: "news_activity", detail: "2 recent articles", strength: 5, date: "2026-02-25" },
+  { company: "Anduril Industries", type: "ip_moat", detail: "30 patents", strength: 5, date: "2026-02-25" },
+  { company: "Anduril Industries", type: "gov_traction", detail: "100 contracts", strength: 5, date: "2026-02-25" },
+  { company: "Cover", type: "media_buzz", detail: "6 recent articles", strength: 4, date: "2026-02-25" },
+  { company: "Cover", type: "ip_moat", detail: "100 patents", strength: 4, date: "2026-02-25" },
+  { company: "Neros", type: "media_buzz", detail: "10 recent articles", strength: 4, date: "2026-02-25" },
+  { company: "Neros", type: "gov_traction", detail: "10 contracts", strength: 4, date: "2026-02-25" },
+  { company: "Planet Labs", type: "stock_movement", detail: "+11.3% up", strength: 4, date: "2026-02-25" },
+  { company: "Planet Labs", type: "gov_traction", detail: "10 contracts", strength: 4, date: "2026-02-25" },
+  { company: "Radiant", type: "ip_moat", detail: "52 patents", strength: 4, date: "2026-02-25" },
+  { company: "Radiant", type: "gov_traction", detail: "29 contracts", strength: 4, date: "2026-02-25" },
+  { company: "Skydio", type: "ip_moat", detail: "99 patents", strength: 4, date: "2026-02-25" },
+  { company: "Skydio", type: "gov_traction", detail: "48 contracts", strength: 4, date: "2026-02-25" },
+  { company: "Vast", type: "media_buzz", detail: "5 recent articles", strength: 4, date: "2026-02-25" },
+  { company: "Vast", type: "ip_moat", detail: "84 patents", strength: 4, date: "2026-02-25" },
+  { company: "Andrenam", type: "news_activity", detail: "2 recent articles", strength: 3, date: "2026-02-25" },
+  { company: "Andrenam", type: "ip_moat", detail: "44 patents", strength: 3, date: "2026-02-25" },
+  { company: "Aurora Innovation", type: "stock_movement", detail: "+7.1% up", strength: 3, date: "2026-02-25" },
+  { company: "Captura", type: "ip_moat", detail: "10 patents", strength: 3, date: "2026-02-25" },
+  { company: "Cognition", type: "ip_moat", detail: "47 patents", strength: 3, date: "2026-02-25" },
+  { company: "Shield AI", type: "news_activity", detail: "2 recent articles", strength: 3, date: "2026-02-25" },
+  { company: "Shield AI", type: "ip_moat", detail: "72 patents", strength: 3, date: "2026-02-25" },
+  { company: "Waymo", type: "news_activity", detail: "2 recent articles", strength: 3, date: "2026-02-25" },
+  { company: "Waymo", type: "ip_moat", detail: "100 patents", strength: 3, date: "2026-02-25" },
+  { company: "Zipline", type: "ip_moat", detail: "16 patents", strength: 3, date: "2026-02-25" },
+  { company: "AMD", type: "stock_movement", detail: "+5.3% up", strength: 2, date: "2026-02-25" },
+  { company: "Ada", type: "media_buzz", detail: "7 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Agility Robotics", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Anduril", type: "gov_traction", detail: "100 contracts", strength: 2, date: "2026-02-25" },
+  { company: "Antares", type: "ip_moat", detail: "13 patents", strength: 2, date: "2026-02-25" },
+  { company: "Anthropic", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Archer Aviation", type: "stock_movement", detail: "+5.4% up", strength: 2, date: "2026-02-25" },
+  { company: "Array Labs", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Attio", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Built Robotics", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Cape", type: "media_buzz", detail: "16 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "DIRAC", type: "media_buzz", detail: "8 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Deterrence", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Divergent", type: "ip_moat", detail: "58 patents", strength: 2, date: "2026-02-25" },
+  { company: "Durin", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Epirus", type: "ip_moat", detail: "11 patents", strength: 2, date: "2026-02-25" },
+  { company: "Fervo Energy", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Field AI", type: "media_buzz", detail: "6 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Figure AI", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Firefly Aerospace", type: "ip_moat", detail: "19 patents", strength: 2, date: "2026-02-25" },
+  { company: "Flexport", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Impulse Labs", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Intuitive Machines", type: "stock_movement", detail: "+13.7% up", strength: 2, date: "2026-02-25" },
+  { company: "Lightmatter", type: "ip_moat", detail: "34 patents", strength: 2, date: "2026-02-25" },
+  { company: "Matic Robotics", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Neuralink", type: "ip_moat", detail: "10 patents", strength: 2, date: "2026-02-25" },
+  { company: "OpenAI", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Orchid", type: "ip_moat", detail: "100 patents", strength: 2, date: "2026-02-25" },
+  { company: "Palantir Technologies", type: "gov_traction", detail: "100 contracts", strength: 2, date: "2026-02-25" },
+  { company: "Photonic Inc", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Rainbow Robotics", type: "stock_movement", detail: "+12.8% up", strength: 2, date: "2026-02-25" },
+  { company: "Rainmaker", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Relativity Space", type: "ip_moat", detail: "20 patents", strength: 2, date: "2026-02-25" },
+  { company: "Reveal Technology", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Rigetti Computing", type: "stock_movement", detail: "+5.7% up", strength: 2, date: "2026-02-25" },
+  { company: "Saronic", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Satellogic", type: "stock_movement", detail: "+12.5% up", strength: 2, date: "2026-02-25" },
+  { company: "Scale AI", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Sierra Space", type: "gov_traction", detail: "15 contracts", strength: 2, date: "2026-02-25" },
+  { company: "Space Exploration Technologies", type: "gov_traction", detail: "78 contracts", strength: 2, date: "2026-02-25" },
+  { company: "SpaceX", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "TAE Technologies", type: "ip_moat", detail: "25 patents", strength: 2, date: "2026-02-25" },
+  { company: "Tempus AI", type: "stock_movement", detail: "+10.2% up", strength: 2, date: "2026-02-25" },
+  { company: "TerraPower", type: "ip_moat", detail: "20 patents", strength: 2, date: "2026-02-25" },
+  { company: "Terraform Industries", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "The Boring Company", type: "media_buzz", detail: "6 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Turbopuffer", type: "media_buzz", detail: "6 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "Vannevar Labs", type: "media_buzz", detail: "18 recent articles", strength: 2, date: "2026-02-25" },
+  { company: "X-Energy", type: "ip_moat", detail: "32 patents", strength: 2, date: "2026-02-25" },
+  { company: "Alpha School", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Altos Labs", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Ample", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Arc Boats", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Astroscale", type: "stock_movement", detail: "-5.2% down", strength: 1, date: "2026-02-25" },
+  { company: "Astroscale", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Chaos Industries", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Conductor Quantum", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Diode", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Dunia", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Earth AI", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Endurosat", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "FREYR Battery", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Focused Energy", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Hadrian", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Machina Labs", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Muon Space", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Rapid Robotics", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Rocket Lab", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "SHIELD Technology Partners", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Surge AI", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Vayu Robotics", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
+  { company: "Xcimer Energy", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-02-25" },
 ];
 
 // ─── SIGNAL TYPES: Growth Signal Definitions ───
@@ -11818,6 +11838,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-02-23
 // Auto-updated revenue intelligence — Last updated: 2026-02-23
 // Auto-updated revenue intelligence — Last updated: 2026-02-24
+// Auto-updated revenue intelligence — Last updated: 2026-02-25
 const REVENUE_INTEL = [
   { company: "NVIDIA", revenue: "$130.5B", period: "2025 Annual", growth: "+114% YoY", source: "SEC 10-K (NVDA)" },
   { company: "Tesla", revenue: "$94.8B", period: "2025 Annual", growth: "-3% YoY", source: "SEC 10-K (TSLA)" },
@@ -13891,7 +13912,7 @@ const REQUEST_FOR_STARTUPS = [
   }
 ];
 
-// Frontier Index™ scores — Last updated: 2026-02-24
+// Frontier Index™ scores — Last updated: 2026-02-25
 const INNOVATOR_SCORES = [
   { company: "SpaceX", techMoat: 10, momentum: 10, teamPedigree: 10, marketGravity: 10, capitalEfficiency: 9, govTraction: 10, composite: 99.0, tier: "elite", note: "Reusable rockets, Starlink, and Starship create an unassailable vertically integrated space monopoly with $100B+ valuation and dominant NASA/DoD contracts" },
   { company: "Anduril Industries", techMoat: 9, momentum: 10, teamPedigree: 9, marketGravity: 9, capitalEfficiency: 7, govTraction: 10, composite: 91.5, tier: "elite", note: "Lattice OS platform and autonomous systems portfolio (Ghost, Altius, Fury) redefining defense acquisition; $14B+ valuation with massive DoD/allied contracts" },
@@ -14512,6 +14533,8 @@ const INNOVATOR_SCORES = [
 // Last updated: 2026-02-23
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-02-24
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-02-25
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], lastUpdated: "2026-02-06" },
   { company: "Anduril Industries", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], lastUpdated: "2026-02-06" },
@@ -19561,22 +19584,24 @@ const DATA_QUALITY = {
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
 // Last updated: 2026-02-25 05:17
+// Auto-generated real-time signals
+// Last updated: 2026-02-25
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "DIRAC", headline: "New Electric Heat Pump Chases Fossil Fuels Out Of The Boiler Room", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Flexport", headline: "India's AI boom pushes firms to trade near-term revenue for users", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Modern Intelligence", headline: "'Ringleader': Department of Air Force to start all-encompassing sensor fusion experiments", source: "Breaking Defense", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Aurora Innovation", headline: "Self-driving tech startup Wayve raises $1.2B from Nvidia, Uber, and three automakers", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "AMP Robotics", headline: "How To Use Up Nuclear Waste Generating Electricity", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Ada", headline: "US Air Force awards contract for drone wingman engines", source: "Defense News", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Mistral AI", headline: "Spanish 'soonicorn' Multiverse Computing releases free compressed AI model", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Palantir", headline: "Here's What a Google Subpoena Response Looks Like, Courtesy of the Epstein Files", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Biofire", headline: "Apple rolls out age-verification tools worldwide to comply with growing web of child safety laws", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Built Robotics", headline: "Uber engineers built an AI version of their boss", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Terraform Industries", headline: "Following 35% growth, solar has passed hydro on US grid", source: "Ars Technica Space", time: "6h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Field AI", headline: "Just pull a string to turn these tile patterns into useful 3D structures", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "NEURA Robotics", headline: "A retinal reboot for amblyopia", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Turbopuffer", headline: "A new way to rejuvenate the immune system", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Vannevar Labs", headline: "A'I-designed proteins may help spot cancer", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Surge AI", headline: "China Could Have 20-35 Million Kpop Like Facial Surgery Copies by 2030", source: "Next Big Future", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "SHIELD Technology Partners", headline: "Several trends are shifting defense tech toward Europe", source: "Defense One", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Ample", headline: "Ford Now Charging $495 for Frunk", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Durin", headline: "Tesla&#8217;s Moving NHTSA Deadline on Accident Data, Iced Superchargers in Sweden, &#038; New Model Y L in Australia", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "DIRAC", headline: "New Electric Heat Pump Chases Fossil Fuels Out Of The Boiler Room", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Flexport", headline: "India&#8217;s AI boom pushes firms to trade near-term revenue for users", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Modern Intelligence", headline: "‘Ringleader’: Department of Air Force to start all-encompassing sensor fusion experiments", source: "Breaking Defense", time: "7h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Aurora Innovation", headline: "Self-driving tech startup Wayve raises $1.2B from Nvidia, Uber, and three automakers", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "AMP Robotics", headline: "How To Use Up Nuclear Waste Generating Electricity", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Ada", headline: "US Air Force awards contract for drone wingman engines", source: "Defense News", time: "8h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Mistral AI", headline: "Spanish &#8216;soonicorn&#8217; Multiverse Computing releases free compressed AI model", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Palantir", headline: "Here’s What a Google Subpoena Response Looks Like, Courtesy of the Epstein Files", source: "Wired", time: "8h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Biofire", headline: "Apple rolls out age-verification tools worldwide to comply with growing web of child safety laws", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "Built Robotics", headline: "Uber engineers built an AI version of their boss", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Astroscale", headline: "A banner year for military space funding— with an unclear path beyond", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
