@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -3.11,
+      "avg_change": -3.14,
       "count": 1
     },
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 3.97,
+      "avg_change": 4.52,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 0.0,
+      "avg_change": 1.51,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -4.13,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.98,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -1.53,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.05,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.17,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.73,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.83,
+      "avg_change": 3.71,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -3.84,
+      "avg_change": -4.25,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.51,
+      "avg_change": 4.46,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SATL",
-      "Satellogic",
-      13.07
-    ],
-    [
       "LUNR",
       "Intuitive Machines",
-      12.94
-    ],
-    [
-      "TEM",
-      "Tempus AI",
-      10.45
-    ],
-    [
-      "PL",
-      "Planet Labs",
-      9.5
+      13.72
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
-      8.0
+      12.84
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      12.54
+    ],
+    [
+      "PL",
+      "Planet Labs",
+      11.26
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      10.25
     ]
   ],
   "topLosers": [
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -6.61
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      -7.11
-    ],
-    [
-      "RIVN",
-      "Rivian",
-      -7.23
+      "ASRHF",
+      "Astroscale",
+      -5.19
     ],
     [
       "DRSHF",
       "DroneShield",
-      -7.89
+      -5.7
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -8.9
+      "SMR",
+      "NuScale Power",
+      -5.89
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -6.28
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      -8.2
     ]
   ],
-  "lastUpdated": "2026-02-24 19:54:56"
+  "lastUpdated": "2026-02-25 05:17:49"
 }
