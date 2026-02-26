@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -0.58,
+      "avg_change": -0.88,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -0.82,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.73,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 2.79,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 3.35,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.9,
+      "avg_change": -0.09,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 1.1,
+      "avg_change": -0.34,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.65,
+      "avg_change": 4.25,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 2.19,
+      "avg_change": 1.04,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.0,
+      "avg_change": -2.04,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.09,
+      "avg_change": 2.77,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      17.61
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      9.63
+      23.12
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      9.18
+      8.96
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      8.66
+      8.5
     ],
     [
-      "PL",
-      "Planet Labs",
-      7.05
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      6.8
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      5.87
     ]
   ],
   "topLosers": [
     [
       "RIVN",
       "Rivian",
-      -5.17
+      -5.57
     ],
     [
-      "9348.T",
-      "ispace",
-      -5.32
+      "RKLB",
+      "Rocket Lab",
+      -5.67
     ],
     [
       "SMR",
       "NuScale Power",
-      -5.7
+      -7.18
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -6.79
+      -7.8
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -8.23
+      -10.43
     ]
   ],
-  "lastUpdated": "2026-02-25 19:56:49"
+  "lastUpdated": "2026-02-26 05:13:23"
 }
