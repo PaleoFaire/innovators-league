@@ -19583,23 +19583,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-26 10:31
+// Last updated: 2026-02-26 14:43
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Reveal Technology", headline: "America was winning the race to find Martian life. Then China jumped in.", source: "MIT Tech Review", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Vannevar Labs", headline: "AI Is Being Misunderstood as a Breakthrough in Planning. It's Not.", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Terraform Industries", headline: "Despite Political Rhetoric, Conservative Support for Solar Is Solidifying. Here's Why.", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Waymo", headline: "Waymo: New City Alerts in Chicago &#038; Charlotte", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Turbopuffer", headline: "AI Search is Rewriting the Cleantech Buyer's Journey ' and Many Brands Aren't Ready", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Reveal Technology", headline: "Space is the AI Endgame for AI Scaling", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Attio", headline: "Brazil EV Sales Report: As Local Production Ramps Up, The Latin American Giant Has Started 2026 At 9.8% EV Market Share", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Apptronik", headline: "Wayve Attracts Fresh Investments From NVIDIA, Microsoft, Uber, &#038; Mercedes", source: "CleanTechnica", time: "8h ago", impact: "high", unread: false },
-  { id: 9, type: "hire", company: "Attio", headline: "Salesforce CEO Marc Benioff: This isn't our first SaaSpocalypse", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Vast", headline: "Sierra Club Statement on Confirmation Hearing on Nomination of Steve Pearce to Lead BLM", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Claros", headline: "House Passes Bills That Would Worsen Energy Affordability &#038; Reliability", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Celero Communications", headline: "Seraphim closes second early-stage space fund above $100 million target", source: "SpaceNews", time: "10h ago", impact: "medium", unread: false },
-  { id: 13, type: "funding", company: "OpenAI", headline: "Gushwork bets on AI search for customer leads ' and early results are emerging", source: "TechCrunch", time: "10h ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "Anthropic", headline: "Anthropic acquires computer-use AI startup Vercept after Meta poached one of its founders", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Cape", headline: "Nvidia has another record quarter amid record capex spends", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Matic Robotics", headline: "From Headsets to Hearing Aids", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Scale AI", headline: "How Stupid Would It Be to Put Data Centers in Space?", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Altos Labs", headline: "Jest, a marketplace for messaging games, is challenging the app store status quo", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Figma partners with OpenAI to bake in support for Codex", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Rainmaker", headline: "Trace raises $3M to solve the AI agent adoption problem in enterprise", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 6, type: "ipo", company: "Focused Energy", headline: "NordSpace founder backs Wyvern with new Canada-focused venture arm", source: "SpaceNews", time: "Just now", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Field AI", headline: "Interoperability becomes the price of entry for next-gen warfighting tech", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Impulse Labs", headline: "The Download: how America lost its lead in the hunt for alien life, and ambitious battery claims", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Reveal Technology", headline: "Everything Samsung revealed at its Galaxy Unpacked event", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Vannevar Labs", headline: "CesiumAstro acquires Vidrovr to embed AI in communications systems", source: "SpaceNews", time: "1h ago", impact: "high", unread: false },
+  { id: 11, type: "hire", company: "Durin", headline: "Phantom Space reclaims former Vector launch technology", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Cover", headline: "Best Tested Ski Clothes (2026): Shells, Jackets, Wool Socks", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Truemed", headline: "How This GV Investor Looks For The Next Stripe And Other 'Compounding' Startups In Fintech And AI", source: "Crunchbase News", time: "2h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Turbopuffer", headline: "Instagram now alerts parents if their teen searches for suicide or self-harm content", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Ada", headline: "Who's Your Daddy? A Chatbot", source: "Wired", time: "2h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
