@@ -19583,23 +19583,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-26 18:10
+// Last updated: 2026-02-26 21:47
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "The Boring Company", headline: "Fintech Plaid Completes Tender Offer At $8B Valuation", source: "Crunchbase News", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "milestone", company: "Matic Robotics", headline: "Threads is testing a shortcut to quickly start DM conversations", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Terraform Industries", headline: "Solar Power Project Completed On Capped Landfill In Rhode Island", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Attio", headline: "EV Sales In Europe Grow As New Car Market Shrinks", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Base Power", headline: "New Path to Battery-Grade Lithium Uses Electrochemistry", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Agility Robotics", headline: "Read AI launches a email based 'digital twin' to help you with schedules and answers", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Palantir", headline: "Once-reluctant Germany goes big on one-way attack drones", source: "Defense News", time: "1h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "The Boring Company", headline: "Energy Dispensed On Rubicon's Charging Network In South Africa Up 142% In 2025 To 625MWh", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Aurora Innovation", headline: "Self-driving truck startup Einride raises $113M PIPE ahead of public debut", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Cuby Technologies", headline: "Biden's Green New Deal Supercharged Manufacturing Construction in USA, Trump Killing It", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Palantir", headline: "Cisco says hackers have been exploiting a critical bug to break into big customer networks since 2023", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Xanadu Quantum Technologies", headline: "A VC and some big-name programmers are trying to solve open source's funding problem, permanently", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI Announces Major Expansion of London Office", source: "Wired", time: "2h ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "Databricks", headline: "New AirSnitch attack breaks Wi-Fi encryption in homes, offices, and enterprises", source: "Ars Technica", time: "2h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Rainmaker", headline: "Spyware makers sentenced to prison in Greece for wiretapping politicians and journalists", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Anthropic", headline: "Pentagon gives Anthropic Friday deadline to loosen AI policy", source: "Breaking Defense", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "milestone", company: "SpaceX", headline: "Virgin Media O2 launches Europe's first Starlink direct-to-smartphone service", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Form Energy", headline: "Google paid startup Form Energy $1B for its massive 100-hour battery", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 4, type: "news", company: "Palantir", headline: "Costs and delays on NNSA construction projects more than doubled since 2023: GAO report", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Agility Robotics", headline: "This AI Agent Is Designed to Not Go Rogue", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Matic Robotics", headline: "25th ID helping the Army smooth out the wrinkles in its next-generation C2", source: "Defense One", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Rainbow Robotics", headline: "SOCOM on the hunt for 'acoustic rainbow' tech for silencing drones", source: "Defense News", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Ada", headline: "So, we're getting Prada Meta AI glasses, right?", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Turbopuffer", headline: "How Chinese AI Chatbots Censor Themselves", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Scale AI", headline: "Tesla Has Unboxed Manufacturing Building Hundreds of Cybercabs", source: "Next Big Future", time: "1h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Swan", headline: "Sophia Space raises $10M seed to demo novel space computers", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
+  { id: 12, type: "funding", company: "Array Labs", headline: "With funding flush, Space Force hopes to speed satellites to track aircraft, missiles", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "Mistral AI inks a deal with global consulting giant Accenture", source: "TechCrunch", time: "2h ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "Deterrence", headline: "Army orders $186 million in Switchblade kamikaze drones, tank killers", source: "Defense News", time: "2h ago", impact: "medium", unread: false },
+  { id: 15, type: "hire", company: "Zipline", headline: "This Startup Makes Access to Rehabilitation Facilities Easier", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

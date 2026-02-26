@@ -1,5 +1,444 @@
 [
   {
+    "title": "Pentagon gives Anthropic Friday deadline to loosen AI policy",
+    "link": "https://breakingdefense.com/2026/02/pentagon-gives-anthropic-friday-deadline-to-loosen-ai-policy/",
+    "description": "&#8220;Otherwise, we will terminate our partnership with Anthropic and deem them a supply chain risk for DOW,&#8221; chief Pentagon spokesperson Sean Parnell said on X.",
+    "pubDate": "Thu, 26 Feb 2026 21:28:00 +0000",
+    "category": "Networks & Digital Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Bronco AI",
+      "Fortastra"
+    ],
+    "sectors": [
+      "ai",
+      "infrastructure"
+    ],
+    "type": "contract",
+    "impact": "medium",
+    "time": "Just now"
+  },
+  {
+    "title": "Virgin Media O2 launches Europe’s first Starlink direct-to-smartphone service",
+    "link": "https://spacenews.com/virgin-media-o2-launches-europes-first-starlink-direct-to-smartphone-service/",
+    "description": "\nBritish mobile operator Virgin Media O2 said it started offering satellite-to-smartphone connectivity in the United Kingdom Feb. 26, marking the first commercial deployment of Starlink’s Direct-to-Cell service in Europe.\nThe post Virgin Media O2 launches Europe’s first Starlink direct-to-smartphone",
+    "pubDate": "Thu, 26 Feb 2026 21:14:26 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Array Labs",
+      "Armada",
+      "AST SpaceMobile",
+      "Floodbase",
+      "GHGSat"
+    ],
+    "sectors": [
+      "space",
+      "climate"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Google paid startup Form Energy $1B for its massive 100-hour battery",
+    "link": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/",
+    "description": "The deal paves the way for Form Energy to raise a new funding round before potentially going public next year.",
+    "pubDate": "Thu, 26 Feb 2026 21:04:23 +0000",
+    "category": "Crypto",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Form Energy",
+    "matchedCompanies": [
+      "Form Energy",
+      "Impulse Labs"
+    ],
+    "sectors": [
+      "climate"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
+    "title": "Costs and delays on NNSA construction projects more than doubled since 2023: GAO report",
+    "link": "https://breakingdefense.com/2026/02/costs-and-delays-on-nnsa-construction-projects-more-than-doubled-since-2023-gao-report/",
+    "description": "&#8220;Management, vendor, and input costs all contributed to cost growth and delays,&#8221; according to the Government Accountability Office.",
+    "pubDate": "Thu, 26 Feb 2026 20:55:21 +0000",
+    "category": "Pentagon",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir",
+      "Cuby Technologies",
+      "Cover",
+      "Brimstone",
+      "Cobod",
+      "SafeAI",
+      "Dusty Robotics"
+    ],
+    "sectors": [
+      "ai",
+      "construction",
+      "climate",
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "This AI Agent Is Designed to Not Go Rogue",
+    "link": "https://www.wired.com/story/ironcurtain-ai-agent-security/",
+    "description": "The new open source project IronCurtain uses a unique method to secure and constrain AI assistant agents before they flip your digital life upside down.",
+    "pubDate": "Thu, 26 Feb 2026 20:54:51 +0000",
+    "category": "Security",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Agility Robotics",
+    "matchedCompanies": [
+      "Agility Robotics",
+      "Xanadu Quantum Technologies",
+      "Tenstorrent",
+      "Rain AI"
+    ],
+    "sectors": [
+      "robotics",
+      "quantum",
+      "chips"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "25th ID helping the Army smooth out the wrinkles in its next-generation C2",
+    "link": "https://www.defenseone.com/technology/2026/02/25th-id-helping-army-smooth-out-wrinkles-its-next-generation-c2/411727/",
+    "description": "Organizing data, automatic spectrum-switching and more from soldiers’ wish lists.",
+    "pubDate": "Thu, 26 Feb 2026 15:29:38 -0500",
+    "category": "Science &amp; Tech",
+    "source": "Defense One",
+    "feedCategory": "defense",
+    "matchedCompany": "Matic Robotics",
+    "matchedCompanies": [
+      "Matic Robotics"
+    ],
+    "sectors": [
+      "consumer"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "SOCOM on the hunt for ‘acoustic rainbow’ tech for silencing drones",
+    "link": "https://www.defensenews.com/unmanned/2026/02/26/socom-on-the-hunt-for-acoustic-rainbow-tech-for-silencing-drones/",
+    "description": "“Acoustic rainbows” sound psychedelic. But the idea is no acid trip: By dispersing sound waves, noisy objects can actually be made silent.",
+    "pubDate": "Thu, 26 Feb 2026 20:20:44 +0000",
+    "category": "Unmanned",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "Rainbow Robotics",
+    "matchedCompanies": [
+      "Rainbow Robotics"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "So, we&#8217;re getting Prada Meta AI glasses, right?",
+    "link": "https://techcrunch.com/2026/02/26/so-were-getting-prada-meta-ai-glasses-right/",
+    "description": "Mark Zuckerberg was at Prada's fashion week event in Milan, leaving everyone to wonder if we're getting Meta AI glasses under the Prada brand.",
+    "pubDate": "Thu, 26 Feb 2026 20:11:55 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Ada",
+    "matchedCompanies": [
+      "Ada"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "How Chinese AI Chatbots Censor Themselves",
+    "link": "https://www.wired.com/story/made-in-china-how-chinese-ai-chatbots-censor-themselves/",
+    "description": "Researchers from Stanford and Princeton found that Chinese AI models are more likely than their Western counterparts to dodge political questions or deliver inaccurate answers.",
+    "pubDate": "Thu, 26 Feb 2026 20:08:08 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Turbopuffer",
+    "matchedCompanies": [
+      "Turbopuffer",
+      "Ada",
+      "Sakana AI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Tesla Has Unboxed Manufacturing Building Hundreds of Cybercabs",
+    "link": "https://www.nextbigfuture.com/2026/02/tesla-has-unboxed-manufacturing-building-hundreds-of-cybercabs.html",
+    "description": "Tesla Cybercab production has started to scale. Hundreds of Cybercabs are in various stages of build right now at Giga Texas (in the “yellow section,” grid Y57 on the east side). Joe Tegtmeyer has seen it and described it to Herbert Ong. The Unboxed [giant lego method] manufacturing is live and work",
+    "pubDate": "Thu, 26 Feb 2026 19:58:12 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Scale AI",
+    "matchedCompanies": [
+      "Scale AI"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Sophia Space raises $10M seed to demo novel space computers",
+    "link": "https://techcrunch.com/2026/02/26/sophia-space-raises-10m-seed-to-demo-novel-space-computers/",
+    "description": "The company's modular computer tiles offer a new vision for space data centers.",
+    "pubDate": "Thu, 26 Feb 2026 19:55:20 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Swan",
+    "matchedCompanies": [
+      "Swan",
+      "Avalanche Energy",
+      "Daylight Computer",
+      "Astera Labs",
+      "Copenhagen Atomics",
+      "Rebellions",
+      "Cuby"
+    ],
+    "sectors": [
+      "defense",
+      "climate",
+      "consumer",
+      "chips",
+      "nuclear",
+      "construction"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "1h ago"
+  },
+  {
+    "title": "With funding flush, Space Force hopes to speed satellites to track aircraft, missiles",
+    "link": "https://breakingdefense.com/2026/02/with-funding-flush-space-force-hopes-to-speed-satellites-to-track-aircraft-missiles/",
+    "description": "Gen. Chance Saltzman, Space Force chief, said the work already done to design a satellite system for tracking ground targets should also help speed AMTI capabilities to orbit.",
+    "pubDate": "Thu, 26 Feb 2026 19:28:16 +0000",
+    "category": "Air Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Array Labs",
+    "matchedCompanies": [
+      "Array Labs",
+      "Armada",
+      "Floodbase",
+      "GHGSat"
+    ],
+    "sectors": [
+      "space",
+      "climate"
+    ],
+    "type": "funding",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Mistral AI inks a deal with global consulting giant Accenture",
+    "link": "https://techcrunch.com/2026/02/26/mistral-ai-inks-a-deal-with-global-consulting-giant-accenture/",
+    "description": "Mistral AI lands a partnership with Accenture, the consultant that has also recently announced partnerships with rivals OpenAI and Anthropic.",
+    "pubDate": "Thu, 26 Feb 2026 19:17:27 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "OpenAI",
+      "Mistral AI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "medium",
+    "time": "2h ago"
+  },
+  {
+    "title": "Army orders $186 million in Switchblade kamikaze drones, tank killers",
+    "link": "https://www.defensenews.com/news/your-military/2026/02/26/army-orders-186-million-in-switchblade-kamikaze-drones-tank-killers/",
+    "description": "The autonomous systems manufacturer announced today that it will provide two types of its Switchblade family of loitering munitions to the Army.",
+    "pubDate": "Thu, 26 Feb 2026 19:01:44 +0000",
+    "category": "Unmanned",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "Deterrence",
+    "matchedCompanies": [
+      "Deterrence",
+      "Delian Alliance Industries",
+      "Rhoman Aerospace",
+      "Long Wall",
+      "Ares Industries",
+      "Vatn Systems"
+    ],
+    "sectors": [
+      "defense",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "medium",
+    "time": "2h ago"
+  },
+  {
+    "title": "This Startup Makes Access to Rehabilitation Facilities Easier",
+    "link": "https://spectrum.ieee.org/carenector-health-care-startup",
+    "description": "When doctors in the United States refer patients to specialty or post-acute medical care such as physical therapy or long-term nursing care, nearly half never complete the process of finding help. Referrals stall in part because provider directories are outdated, insurance coverage is unclear, and m",
+    "pubDate": "Thu, 26 Feb 2026 19:00:03 +0000",
+    "category": "Ieee-member-news",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Zipline",
+    "matchedCompanies": [
+      "Zipline",
+      "Cover",
+      "Kinova Robotics"
+    ],
+    "sectors": [
+      "autonomous",
+      "construction",
+      "robotics"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Are You ‘Agentic’ Enough for the AI Era?",
+    "link": "https://www.wired.com/story/silicon-valley-agentic-individuals-future-of-work/",
+    "description": "Silicon Valley built AI coding agents that can handle most of the grunt work. Now, the most valuable skill in tech is deciding what they should do.",
+    "pubDate": "Thu, 26 Feb 2026 19:00:00 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anysphere",
+    "matchedCompanies": [
+      "Anysphere",
+      "Conductor Quantum",
+      "Built Robotics"
+    ],
+    "sectors": [
+      "ai",
+      "quantum",
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "What to know about Defense Protection Act and the Pentagon’s Anthropic ultimatum",
+    "link": "https://www.defensenews.com/news/your-military/2026/02/26/what-to-know-about-defense-protection-act-and-the-pentagons-anthropic-ultimatum/",
+    "description": "Anthropic CEO Dario Amodei repeatedly has made clear his ethical concerns about unchecked government use of AI.",
+    "pubDate": "Thu, 26 Feb 2026 18:55:52 +0000",
+    "category": "Pentagon",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir",
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Ukraine says Russia launched a major aerial attack before Kyiv’s talks with US",
+    "link": "https://www.defensenews.com/global/europe/2026/02/26/ukraine-says-russia-launched-a-major-aerial-attack-before-kyivs-talks-with-us/",
+    "description": "The bombardment, which included 11 ballistic missiles, targeted critical infrastructure and residential areas across eight regions of Ukraine.",
+    "pubDate": "Thu, 26 Feb 2026 18:42:34 +0000",
+    "category": "/ Europe",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "Neros",
+    "matchedCompanies": [
+      "Neros",
+      "The Boring Company",
+      "Pipedream",
+      "Galvanick",
+      "Blumen Systems",
+      "Durin",
+      "Crusoe Energy",
+      "Terranova",
+      "Fortastra",
+      "Quantum Machines",
+      "Percepto",
+      "Together AI",
+      "White Stork",
+      "Hidden Level"
+    ],
+    "sectors": [
+      "defense",
+      "transportation",
+      "infrastructure",
+      "ai",
+      "robotics",
+      "quantum",
+      "autonomous"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
+    "title": "AI Adaptive Miracle and the Helper Heroes",
+    "link": "https://www.nextbigfuture.com/2026/02/ai-adaptive-miracle-and-the-helper-heroes.html",
+    "description": "Gavin and Citadel Securities highlight physical limits to AI deployment which create natural guardrails. Compute availability and trust issues for new AI only businesses means human productivity is boosted more than the just fire and replace. People had time to learn, pivot, and build. A big busines",
+    "pubDate": "Thu, 26 Feb 2026 18:42:29 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Day.ai",
+    "matchedCompanies": [
+      "Day.ai",
+      "Ada"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "Fintech Plaid Completes Tender Offer At $8B Valuation",
     "link": "https://news.crunchbase.com/fintech/plaid-completes-tender-offer-8b-valuation/",
     "description": "Fintech infrastructure company Plaid revealed on Thursday that it has completed a new fundraise to provide liquidity to employees at a valuation of $8 billion.",
@@ -35,7 +474,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "Threads is testing a shortcut to quickly start DM conversations",
@@ -54,7 +493,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "Solar Power Project Completed On Capped Landfill In Rhode Island",
@@ -75,7 +514,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "EV Sales In Europe Grow As New Car Market Shrinks",
@@ -94,7 +533,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "New Path to Battery-Grade Lithium Uses Electrochemistry",
@@ -128,11 +567,11 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
-    "title": "Read AI launches a email based &#8216;digital twin&#8217; to help you with schedules and answers",
-    "link": "https://techcrunch.com/2026/02/26/read-ai-launches-a-email-based-digital-twin-to-help-you-with-schedules-and-answers/",
+    "title": "Read AI launches an email-based &#8216;digital twin&#8217; to help you with schedules and answers",
+    "link": "https://techcrunch.com/2026/02/26/read-ai-launches-an-email-based-digital-twin-to-help-you-with-schedules-and-answers/",
     "description": "Read AI is launching Ada, which can reply with your availability and extract answers from the company knowledge base and the web.",
     "pubDate": "Thu, 26 Feb 2026 17:00:00 +0000",
     "category": "AI",
@@ -149,7 +588,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
     "title": "Once-reluctant Germany goes big on one-way attack drones",
@@ -168,7 +607,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Energy Dispensed On Rubicon’s Charging Network In South Africa Up 142% In 2025 To 625MWh",
@@ -202,7 +641,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Self-driving truck startup Einride raises $113M PIPE ahead of public debut",
@@ -223,7 +662,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Biden&#8217;s Green New Deal Supercharged Manufacturing Construction in USA, Trump Killing It",
@@ -251,7 +690,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Cisco says hackers have been exploiting a critical bug to break into big customer networks since 2023",
@@ -272,7 +711,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "A VC and some big-name programmers are trying to solve open source&#8217;s funding problem, permanently",
@@ -293,7 +732,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "OpenAI Announces Major Expansion of London Office",
@@ -314,7 +753,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "New AirSnitch attack breaks Wi-Fi encryption in homes, offices, and enterprises",
@@ -336,7 +775,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Spyware makers sentenced to prison in Greece for wiretapping politicians and journalists",
@@ -357,7 +796,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "X tries wooing advertisers by letting them reuse creatives made for other platforms",
@@ -376,7 +815,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Tesla Situation in China Doesn&#8217;t Look Rosy",
@@ -395,7 +834,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Taiwan should create drone swarm &#8216;asymmetric hellscape&#8217; to blunt Chinese invasion: Report",
@@ -417,7 +856,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "Finding value with AI and Industry 5.0 transformation",
@@ -440,7 +879,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "From Headsets to Hearing Aids",
@@ -465,7 +904,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "7h ago"
   },
   {
     "title": "How Stupid Would It Be to Put Data Centers in Space?",
@@ -489,7 +928,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "Jest, a marketplace for messaging games, is challenging the app store status quo",
@@ -509,7 +948,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "Figma partners with OpenAI to bake in support for Codex",
@@ -529,35 +968,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
-  },
-  {
-    "title": "Trace raises $3M to solve the AI agent adoption problem in enterprise",
-    "link": "https://techcrunch.com/2026/02/26/trace-raises-3-million-to-solve-the-agent-adoption-problem/",
-    "description": "Trace is launching with $3 million in seed funding, including investment from Y Combinator, Zeno Ventures, Transpose Platform Management, Goodwater Capital, Formosa Capital, and WeFunder.",
-    "pubDate": "Thu, 26 Feb 2026 14:00:00 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Rainmaker",
-    "matchedCompanies": [
-      "Rainmaker",
-      "Vital Lyfe",
-      "Orangewood Labs",
-      "Databricks",
-      "Ada",
-      "Watershed"
-    ],
-    "sectors": [
-      "autonomous",
-      "consumer",
-      "robotics",
-      "ai",
-      "climate"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "NordSpace founder backs Wyvern with new Canada-focused venture arm",
@@ -602,7 +1013,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "Interoperability becomes the price of entry for next-gen warfighting tech",
@@ -628,7 +1039,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
     "title": "The Download: how America lost its lead in the hunt for alien life, and ambitious battery claims",
@@ -647,7 +1058,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "8h ago"
   },
   {
     "title": "CesiumAstro acquires Vidrovr to embed AI in communications systems",
@@ -673,7 +1084,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "5h ago"
+    "time": "8h ago"
   },
   {
     "title": "Phantom Space reclaims former Vector launch technology",
@@ -692,7 +1103,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "5h ago"
+    "time": "8h ago"
   },
   {
     "title": "Best Tested Ski Clothes (2026): Shells, Jackets, Wool Socks",
@@ -713,7 +1124,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "5h ago"
+    "time": "9h ago"
   },
   {
     "title": "How This GV Investor Looks For The Next Stripe And Other ‘Compounding’ Startups In Fintech And AI",
@@ -734,26 +1145,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
-  },
-  {
-    "title": "Instagram now alerts parents if their teen searches for suicide or self-harm content",
-    "link": "https://techcrunch.com/2026/02/26/instagram-now-alerts-parents-if-their-teen-searches-for-suicide-or-self-harm-content/",
-    "description": "The Meta-owned social platform says that while it already blocks users from searching for suicide and self-harm content, these new alerts are designed to make sure parents are aware if their teen is repeatedly trying to search for this content so that they can support them.",
-    "pubDate": "Thu, 26 Feb 2026 12:00:00 +0000",
-    "category": "Apps",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Turbopuffer",
-    "matchedCompanies": [
-      "Turbopuffer"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "Who’s Your Daddy? A Chatbot",
@@ -772,7 +1164,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "Israel delivers first autonomous submarine to Germany",
@@ -794,7 +1186,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "10h ago"
   },
   {
     "title": "NASA astronaut says his medical issue led to early return from the ISS",
@@ -818,7 +1210,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6h ago"
+    "time": "10h ago"
   },
   {
     "title": "China’s Tianwen-2 probe operating normally on approach to asteroid",
@@ -837,7 +1229,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "Achieving Micron-Level Tolerances: CAD Optimization for Sub-10µm 3D Printing",
@@ -856,7 +1248,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "Why Sierra the Supercomputer Had to Die",
@@ -885,7 +1277,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "This company claims a battery breakthrough. Now they need to prove it.",
@@ -912,7 +1304,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "Factor Offers High-Protein Meal Delivery Options (2026)",
@@ -931,7 +1323,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "7h ago"
+    "time": "11h ago"
   },
   {
     "title": "America was winning the race to find Martian life. Then China jumped in.",
@@ -952,7 +1344,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "11h ago"
   },
   {
     "title": "AI Is Being Misunderstood as a Breakthrough in Planning. It’s Not.",
@@ -977,7 +1369,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "12h ago"
   },
   {
     "title": "Despite Political Rhetoric, Conservative Support for Solar Is Solidifying. Here’s Why.",
@@ -1015,7 +1407,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "16h ago"
   },
   {
     "title": "Waymo: New City Alerts in Chicago &#038; Charlotte",
@@ -1038,7 +1430,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "13h ago"
+    "time": "16h ago"
   },
   {
     "title": "AI Search is Rewriting the Cleantech Buyer’s Journey — and Many Brands Aren’t Ready",
@@ -1061,7 +1453,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "16h ago"
   },
   {
     "title": "Space is the AI Endgame for AI Scaling",
@@ -1083,7 +1475,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "Brazil EV Sales Report: As Local Production Ramps Up, The Latin American Giant Has Started 2026 At 9.8% EV Market Share",
@@ -1102,7 +1494,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "18h ago"
   },
   {
     "title": "Wayve Attracts Fresh Investments From NVIDIA, Microsoft, Uber, &#038; Mercedes",
@@ -1125,26 +1517,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "16h ago"
-  },
-  {
-    "title": "Salesforce CEO Marc Benioff: This isn&#8217;t our first SaaSpocalypse",
-    "link": "https://techcrunch.com/2026/02/25/salesforce-ceo-marc-benioff-this-isnt-our-first-saaspocalypse/",
-    "description": "Salesforce reported a solid year-end earnings and then pulled out all the stops to ward off more talk of the death of its business to AI.",
-    "pubDate": "Thu, 26 Feb 2026 01:59:12 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Attio",
-    "matchedCompanies": [
-      "Attio"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "16h ago"
+    "time": "19h ago"
   },
   {
     "title": "Sierra Club Statement on Confirmation Hearing on Nomination of Steve Pearce to Lead BLM",
@@ -1165,7 +1538,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "House Passes Bills That Would Worsen Energy Affordability &#038; Reliability",
@@ -1184,7 +1557,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "Seraphim closes second early-stage space fund above $100 million target",
@@ -1205,7 +1578,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "18h ago"
+    "time": "21h ago"
   },
   {
     "title": "USAF ‘woefully behind’ on modernizing mobility aircraft, airlift commander says",
@@ -1225,7 +1598,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "22h ago"
   },
   {
     "title": "Space Force pauses national security launches on Vulcan",
@@ -1249,7 +1622,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Roundtables: Why 2026 Is the Year for Sodium-Ion Batteries",
@@ -1286,7 +1659,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "So Much Winning&#8230;For Geothermal Energy",
@@ -1311,7 +1684,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "New hypersonic missiles unveiled for fighter planes, ground systems",
@@ -1330,7 +1703,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Riley Walz, the Jester of Silicon Valley, Is Joining OpenAI",
@@ -1351,7 +1724,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "OpenClaw Users Are Allegedly Bypassing Anti-Bot Systems",
@@ -1372,7 +1745,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Autonomous Driving News: Tesla Sues, BMW Bails",
@@ -1391,7 +1764,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "AI Winner Will Scale AI Energy and Compute on Earth and in Space &#8211; Why XAI, SpaceX and Tesla Win",
@@ -1425,7 +1798,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "The U.S. Military Must Save Itself Before Saving Others",
@@ -1446,7 +1819,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "US Army revamping its electronic warfare acquisition system",
@@ -1867,32 +2240,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Dem lawmakers raise questions over Pentagon&#8217;s equity deal with rare earth producer",
-    "link": "https://breakingdefense.com/2026/02/dem-lawmakers-raise-questions-over-pentagons-equity-deal-with-rare-earth-producer/",
-    "description": "At a Senate Armed Services Committee hearing, a defense official said the deal helps reconcile “a failed market-based approach” to address pressing national security concerns.",
-    "pubDate": "Wed, 25 Feb 2026 13:45:00 +0000",
-    "category": "Congress",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Cape",
-    "matchedCompanies": [
-      "Cape",
-      "Earth AI",
-      "Percepto",
-      "ideaForge",
-      "SHIELD Technology Partners"
-    ],
-    "sectors": [
-      "climate",
-      "infrastructure",
-      "autonomous",
-      "defense"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "IPOs Are Holding Up In 2026, But SaaS Debuts Aren’t Happening",
     "link": "https://news.crunchbase.com/public/ipos-up-saas-debuts-down-early-2026/",
     "description": "While the first couple months of the year brought a steady stream of market entries from companies in sectors such as construction tech, space tech and biotech, new offerings from SaaS companies, long an IPO market staple, are notably absent.",
@@ -2268,27 +2615,6 @@
     "time": "1d ago"
   },
   {
-    "title": "‘Ringleader’: Department of Air Force to start all-encompassing sensor fusion experiments",
-    "link": "https://breakingdefense.com/2026/02/ringleader-department-of-air-force-to-start-all-encompassing-sensor-fusion-experiments/",
-    "description": "Separately, Air Force Secretary Troy Meink said the Air Force will continue work on two rapid prototypes for the E-7 Wedgetail, though he did not appear to fully commit to the program.",
-    "pubDate": "Wed, 25 Feb 2026 01:03:26 +0000",
-    "category": "Air Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Modern Intelligence",
-    "matchedCompanies": [
-      "Modern Intelligence",
-      "Rapid Robotics"
-    ],
-    "sectors": [
-      "defense",
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "How To Use Up Nuclear Waste Generating Electricity",
     "link": "https://cleantechnica.com/2026/02/24/how-to-use-up-nuclear-waste-generating-electricity/",
     "description": "Sometime around 1989 or the early 1990s, Carlo Rubbia, the Director-General of CERN, put together a special working group with instructions to design a way to generate electricity using radioactive materials that would be different from anything that had come before. The method had to do its work wi",
@@ -2468,7 +2794,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Air Force test pilots used tactical AI to evade a missile",
@@ -2491,26 +2817,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Visiting the Army in the Arctic and the Air Force in Colorado",
-    "link": "https://breakingdefense.com/2026/02/visiting-the-army-in-the-arctic-and-the-air-force-in-colorado/",
-    "description": "This week on The Break Out, Army reporter Carley Welch comes back from Alaska with an on-the-ground report. ",
-    "pubDate": "Tue, 24 Feb 2026 21:26:15 +0000",
-    "category": "Air Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "FREYR Battery",
-    "matchedCompanies": [
-      "FREYR Battery"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "‘We don’t have infantry’: Ukraine’s war machine evolves into machine war",
@@ -2531,7 +2838,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "My Favorite Bluetooth Speaker Is on Sale for $50 Off Right Now",
@@ -2551,7 +2858,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Ukraine as a European Nation",
@@ -2574,7 +2881,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "A Better Use For Warehouses: Clean, Green Rooftop Solar Power",
@@ -2601,7 +2908,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "ALEC Pushes Idiotic Anti-Renewable Legislation In Ohio",
@@ -2623,7 +2930,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "This Physics Professor Credits Collaboration for Her Success",
@@ -2647,7 +2954,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Putin has ‘not broken’ Ukraine in 4 years since Russian invasion, Zelenskyy says",
@@ -3175,25 +3482,6 @@
     "time": "2d ago"
   },
   {
-    "title": "Path to Cancelling SLS and Orion ?",
-    "link": "https://www.nextbigfuture.com/2026/02/path-to-cancelling-sls-and-orion.html",
-    "description": "The pressure to fix SLS and get to a launch for Artemis 2 will build. If there is another rollback in April or new leak or valve issue in May or long repairs. The program will get closer to reaching political exhaustion. This pressure will increase if there are clean launches of SpaceX Starship in .",
-    "pubDate": "Tue, 24 Feb 2026 06:06:17 +0000",
-    "category": "Space",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
     "title": "Outdated DOT Regs Are Forcing Chevy to Call 3/4-Ton Electric Trucks “Half-Tons”—And It’s Killing the Electric Suburban",
     "link": "https://cleantechnica.com/2026/02/23/outdated-dot-regs-are-forcing-chevy-to-call-3-4-ton-electric-trucks-half-tons-and-its-killing-the-electric-suburban/",
     "description": "In many ways, the region around El Paso is kind of a “backwater.” We don’t have much water, actually, but we do have lots of beach in the form of desert sands! When a new EV model comes out, we’re often the last place where you’ll see one on the   ... [continued]\nThe post Outdated DOT Regs Are Forci",
@@ -3418,26 +3706,6 @@
     "time": "2d ago"
   },
   {
-    "title": "US Urgently Needs New M1-E3 Tank to Replace Drone Vulnerable M1 Abrams Tank",
-    "link": "https://www.nextbigfuture.com/2026/02/us-urgently-needs-new-m1-e3-tank-to-replace-drone-vulnerable-m1-abrams-tank.html",
-    "description": "The US Army is now a rushing to make the new M1-E3 tank because 27 out of 31 M1 Abrams were wrecked in Ukraine. They were mainly destroyed by cheap drones and mines. The new tank will have be lighter and have improved defences against cheap drones. Better armor in the right spots and better ... Read",
-    "pubDate": "Tue, 24 Feb 2026 00:18:58 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "Neros",
-    "matchedCompanies": [
-      "Neros",
-      "White Stork"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
     "title": "Defense One Radio, Ep. 203: Fictional intelligence",
     "link": "https://www.defenseone.com/ideas/2026/02/defense-one-radio-ep-203-fictional-intelligence/411586/",
     "description": "The authors of a new series discuss how they're exploring the future of conflict through short stories.",
@@ -3523,25 +3791,6 @@
     "time": "2d ago"
   },
   {
-    "title": "F-22 Raptor, MQ-20 drone complete manned-unmanned flight exercise",
-    "link": "https://www.defensenews.com/industry/techwatch/2026/02/23/f-22-raptor-mq-20-drone-complete-manned-unmanned-flight-exercise/",
-    "description": "The exercise featured a human-piloted F-22 Raptor issuing real-time commands to the MQ-20 drone, which responded by carrying out a range of mission tasks.",
-    "pubDate": "Mon, 23 Feb 2026 19:35:55 +0000",
-    "category": "/ MilTech",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
     "title": "‘Uncanny Valley’: AI Researcher Resignations, Bots Hiring Humans, and Evie Magazine’s Party",
     "link": "https://www.wired.com/story/uncanny-valley-podcast-ai-researcher-resignations-bots-hiring-humans-evie-magazines-party/",
     "description": "This episode of Uncanny Valley covers the people resigning from AI companies and the humans getting hired by AI agents. Plus, we attend a soiree thrown by a conservative women's magazine.",
@@ -3561,74 +3810,6 @@
       "ai"
     ],
     "type": "hire",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Rapid scaling, soldier-led market key to US drone ambitions, Army secretary says",
-    "link": "https://www.defensenews.com/news/your-military/2026/02/23/rapid-scaling-soldier-led-market-key-to-us-drone-ambitions-army-secretary-says/",
-    "description": "U.S. Army Secretary Dan Driscoll said the service will soon launch a soldier-led marketplace to market drone innovations alongside private industry.",
-    "pubDate": "Mon, 23 Feb 2026 19:07:42 +0000",
-    "category": "Unmanned",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Rapid Robotics",
-    "matchedCompanies": [
-      "Rapid Robotics"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Space Force seeks market answers on in-orbit refueling",
-    "link": "https://spacenews.com/space-force-seeks-market-answers-on-in-orbit-refueling/",
-    "description": "\nA new RFI poses questions to industry on future refueling architecture\nThe post Space Force seeks market answers on in-orbit refueling appeared first on SpaceNews.",
-    "pubDate": "Mon, 23 Feb 2026 19:00:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "D-Orbit",
-    "matchedCompanies": [
-      "D-Orbit"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Could MQ-9B drones draw Canada and Denmark closer in Arctic surveillance?",
-    "link": "https://www.defensenews.com/global/europe/2026/02/23/could-mq-9b-drones-draw-canada-and-denmark-closer-in-arctic-surveillance/",
-    "description": "Both countries have ordered MQ-9B drones from General Dynamics, a hardware choice that some experts believe offers cooperation prospects in the High North.",
-    "pubDate": "Mon, 23 Feb 2026 17:22:04 +0000",
-    "category": "/ Europe",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Diode",
-    "matchedCompanies": [
-      "Diode",
-      "Quilter",
-      "Asylon Robotics",
-      "FREYR Battery",
-      "QuantWare",
-      "ideaForge",
-      "Ada",
-      "Humane"
-    ],
-    "sectors": [
-      "robotics",
-      "autonomous",
-      "climate",
-      "quantum",
-      "ai"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "3d ago"
   },
@@ -3773,51 +3954,6 @@
     "time": "3d ago"
   },
   {
-    "title": "Say Goodbye to the Undersea Cable That Made the Global Internet Possible",
-    "link": "https://www.wired.com/story/say-goodbye-to-the-undersea-cable-that-made-the-global-internet-possible/",
-    "description": "History was unmade last year, as engineers began the massive project of ripping the first-ever transoceanic fiber-optic cable from the ocean floor. Just don’t mention sharks.",
-    "pubDate": "Mon, 23 Feb 2026 11:00:00 +0000",
-    "category": "The Big Story",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Captura",
-    "matchedCompanies": [
-      "Captura",
-      "Endurance Energy"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "NATO is not ready for drone warfare in the Arctic",
-    "link": "https://www.defensenews.com/opinion/2026/02/23/nato-is-not-ready-for-drone-warfare-in-the-arctic/",
-    "description": "Russia is moving faster in fielding uncrewed systems suitable for operations in the region, argue analysts from the Center for European Policy Analysis.",
-    "pubDate": "Mon, 23 Feb 2026 10:21:48 +0000",
-    "category": "Opinion",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Vannevar Labs",
-    "matchedCompanies": [
-      "Vannevar Labs",
-      "Field AI",
-      "FREYR Battery",
-      "Endurosat"
-    ],
-    "sectors": [
-      "defense",
-      "ai",
-      "climate",
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
     "title": "The Age-Verification Trap",
     "link": "https://spectrum.ieee.org/age-verification",
     "description": "Social media is going the way of alcohol, gambling, and other social sins: Societies are deciding it’s no longer kid stuff. Lawmakers point to compulsive use, exposure to harmful content, and mounting concerns about adolescent mental health. So, many propose to set a minimum age, usually 13 or 16.In",
@@ -3862,25 +3998,6 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "3d ago"
-  },
-  {
-    "title": "NASA Delays Launch of Artemis II Lunar Mission Once Again",
-    "link": "https://www.wired.com/story/nasa-delays-artemis-ii-launch-again/",
-    "description": "A failure in the helium flow of the SLS rocket has prompted NASA to delay the Artemis II moon mission. Rather than March 6, the launch is now targeted for April.",
-    "pubDate": "Mon, 23 Feb 2026 00:42:06 +0000",
-    "category": "Science",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "ispace",
-    "matchedCompanies": [
-      "ispace"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "milestone",
-    "impact": "low",
     "time": "3d ago"
   },
   {
@@ -4014,7 +4131,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Talks, Plans, and Prison Breaks",
@@ -4033,7 +4150,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "IEEE Plays a Pivotal Role In Climate Mitigation Talks",
@@ -4052,7 +4169,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Video Friday: Humanoid Robots Celebrate Spring",
@@ -4171,7 +4288,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "2/19/2026"
   },
   {
     "title": "Boeing moves its defense HQ back to St. Louis",
@@ -4196,26 +4313,6 @@
     "type": "ipo",
     "impact": "low",
     "time": "2/19/2026"
-  },
-  {
-    "title": "The Pentagon says it’s getting its AI providers on ‘the same baseline’",
-    "link": "https://www.defenseone.com/technology/2026/02/pentagon-says-its-getting-its-ai-providers-same-baseline/411506/",
-    "description": "Military is still abiding by ethics principles, according to DOD research head.",
-    "pubDate": "Wed, 18 Feb 2026 14:34:02 -0500",
-    "category": "Science &amp; Tech",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "Turbopuffer",
-    "matchedCompanies": [
-      "Turbopuffer",
-      "Sakana AI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "2/18/2026"
   },
   {
     "title": "Microsoft&#039;s new 10,000-year data storage medium: glass",
@@ -4254,25 +4351,6 @@
       "robotics"
     ],
     "type": "milestone",
-    "impact": "low",
-    "time": "2/18/2026"
-  },
-  {
-    "title": "Defense Business Brief: Saronic in San Diego; Zumwalts + battleships; SECNAV’s take on ship maintenance",
-    "link": "https://www.defenseone.com/business/2026/02/defense-business-brief-saronic-san-diego-zumwalts-battleships-secnavs-take-ship-maintenance/411489/",
-    "description": "",
-    "pubDate": "Wed, 18 Feb 2026 13:00:00 -0500",
-    "category": "Business",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "Saronic",
-    "matchedCompanies": [
-      "Saronic"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "2/18/2026"
   },
@@ -4620,25 +4698,6 @@
     "type": "news",
     "impact": "low",
     "time": "2/14/2026"
-  },
-  {
-    "title": "Video Friday: Robot Collective Stays Alive Even When Parts Die",
-    "link": "https://spectrum.ieee.org/video-friday-robot-collective",
-    "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! No",
-    "pubDate": "Fri, 13 Feb 2026 16:30:03 +0000",
-    "category": "Modular-robots",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Runway",
-    "matchedCompanies": [
-      "Runway"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/13/2026"
   },
   {
     "title": "OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips",
