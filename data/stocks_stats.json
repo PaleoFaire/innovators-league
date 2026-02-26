@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.49,
+      "avg_change": 0.83,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -4.26,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -1.98,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 3.4,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 3.87,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.67,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -1.14,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.21,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.16,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.23,
+      "avg_change": 12.21,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.51,
+      "avg_change": -3.27,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 0.04,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -0.82,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -0.77,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.47,
       "count": 3
     }
   },
@@ -66,50 +66,50 @@
     [
       "IONQ",
       "IonQ",
-      21.12
-    ],
-    [
-      "RGTI",
-      "Rigetti Computing",
-      11.87
+      22.4
     ],
     [
       "DRSHF",
       "DroneShield",
-      7.51
+      12.58
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      6.71
+      "RGTI",
+      "Rigetti Computing",
+      11.66
+    ],
+    [
+      "NNE",
+      "Nano Nuclear Energy",
+      6.04
     ]
   ],
   "topLosers": [
     [
-      "RKLB",
-      "Rocket Lab",
-      -7.48
+      "ALAB",
+      "Astera Labs",
+      -6.36
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -9.35
+      -6.76
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      -9.68
+      "RKLB",
+      "Rocket Lab",
+      -7.72
     ],
     [
       "SMR",
       "NuScale Power",
-      -10.42
+      -10.14
     ],
     [
       "TEM",
       "Tempus AI",
-      -12.53
+      -10.26
     ]
   ],
-  "lastUpdated": "2026-02-26 14:42:15"
+  "lastUpdated": "2026-02-26 19:58:20"
 }
