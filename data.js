@@ -19583,23 +19583,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-26 14:43
+// Last updated: 2026-02-26 18:10
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Matic Robotics", headline: "From Headsets to Hearing Aids", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Scale AI", headline: "How Stupid Would It Be to Put Data Centers in Space?", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Altos Labs", headline: "Jest, a marketplace for messaging games, is challenging the app store status quo", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Figma partners with OpenAI to bake in support for Codex", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Rainmaker", headline: "Trace raises $3M to solve the AI agent adoption problem in enterprise", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "Focused Energy", headline: "NordSpace founder backs Wyvern with new Canada-focused venture arm", source: "SpaceNews", time: "Just now", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Field AI", headline: "Interoperability becomes the price of entry for next-gen warfighting tech", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Impulse Labs", headline: "The Download: how America lost its lead in the hunt for alien life, and ambitious battery claims", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Reveal Technology", headline: "Everything Samsung revealed at its Galaxy Unpacked event", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Vannevar Labs", headline: "CesiumAstro acquires Vidrovr to embed AI in communications systems", source: "SpaceNews", time: "1h ago", impact: "high", unread: false },
-  { id: 11, type: "hire", company: "Durin", headline: "Phantom Space reclaims former Vector launch technology", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Cover", headline: "Best Tested Ski Clothes (2026): Shells, Jackets, Wool Socks", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Truemed", headline: "How This GV Investor Looks For The Next Stripe And Other 'Compounding' Startups In Fintech And AI", source: "Crunchbase News", time: "2h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Turbopuffer", headline: "Instagram now alerts parents if their teen searches for suicide or self-harm content", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Ada", headline: "Who's Your Daddy? A Chatbot", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "The Boring Company", headline: "Fintech Plaid Completes Tender Offer At $8B Valuation", source: "Crunchbase News", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "milestone", company: "Matic Robotics", headline: "Threads is testing a shortcut to quickly start DM conversations", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Terraform Industries", headline: "Solar Power Project Completed On Capped Landfill In Rhode Island", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Attio", headline: "EV Sales In Europe Grow As New Car Market Shrinks", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Base Power", headline: "New Path to Battery-Grade Lithium Uses Electrochemistry", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Agility Robotics", headline: "Read AI launches a email based 'digital twin' to help you with schedules and answers", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Palantir", headline: "Once-reluctant Germany goes big on one-way attack drones", source: "Defense News", time: "1h ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "The Boring Company", headline: "Energy Dispensed On Rubicon's Charging Network In South Africa Up 142% In 2025 To 625MWh", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Aurora Innovation", headline: "Self-driving truck startup Einride raises $113M PIPE ahead of public debut", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Cuby Technologies", headline: "Biden's Green New Deal Supercharged Manufacturing Construction in USA, Trump Killing It", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Palantir", headline: "Cisco says hackers have been exploiting a critical bug to break into big customer networks since 2023", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Xanadu Quantum Technologies", headline: "A VC and some big-name programmers are trying to solve open source's funding problem, permanently", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI Announces Major Expansion of London Office", source: "Wired", time: "2h ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "Databricks", headline: "New AirSnitch attack breaks Wi-Fi encryption in homes, offices, and enterprises", source: "Ars Technica", time: "2h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Rainmaker", headline: "Spyware makers sentenced to prison in Greece for wiretapping politicians and journalists", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
