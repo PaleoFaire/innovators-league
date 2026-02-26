@@ -42,15 +42,16 @@
   {
     "company": "OpenAI",
     "totalRaised": "$40.0B+",
-    "totalRaisedRaw": 40000.0,
-    "lastRound": "Late Stage",
-    "lastRoundAmount": "$40B",
-    "lastRoundDate": "2025-03",
-    "valuation": "$300B",
+    "totalRaisedRaw": 40009.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$9M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
     "leadInvestors": [
+      "Lightspeed Venture Partners",
       "SoftBank"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Labelbox",
@@ -408,6 +409,19 @@
     "valuation": "$400M+",
     "leadInvestors": [
       "Lightrock"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Orangewood Labs",
+    "totalRaised": "$47M+",
+    "totalRaisedRaw": 47.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$47M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },

@@ -4,9 +4,9 @@
     "momentum": 70,
     "trend": "accelerating",
     "catalysts": [
-      "A retinal reboot for amblyopia",
-      "A\u200aI-designed proteins may help spot cancer",
-      "Air Force test pilots used tactical AI to evade a missile"
+      "Space is the AI Endgame for AI Scaling",
+      "Anthropic acquires computer-use AI startup Vercept after Met",
+      "Riley Walz, the Jester of Silicon Valley, Is Joining OpenAI"
     ],
     "fundingQ": "$31.8B",
     "components": {
@@ -15,48 +15,52 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-25"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 66,
-    "trend": "accelerating",
-    "catalysts": [
-      "New Electric Heat Pump Chases Fossil Fuels Out Of The Boiler"
-    ],
-    "fundingQ": "$17.7B",
-    "components": {
-      "funding": 100,
-      "news": 85,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-02-25"
+    "lastUpdated": "2026-02-26"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 64,
+    "momentum": 68,
     "trend": "accelerating",
     "catalysts": [
-      "Several trends are shifting defense tech toward Europe",
-      "\u2018Ringleader\u2019: Department of Air Force to start all-encompass",
-      "US Air Force awards contract for drone wingman engines"
+      "Space Force pauses national security launches on Vulcan",
+      "The U.S. Military Must Save Itself Before Saving Others",
+      "US Army revamping its electronic warfare acquisition system"
     ],
     "fundingQ": "$6.8B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 19
+      "market": 41
     },
-    "lastUpdated": "2026-02-25"
+    "lastUpdated": "2026-02-26"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 65,
+    "trend": "accelerating",
+    "catalysts": [
+      "Despite Political Rhetoric, Conservative Support for Solar I",
+      "Waymo: New City Alerts in Chicago &#038; Charlotte",
+      "Waymo to begin testing in Chicago and Charlotte"
+    ],
+    "fundingQ": "$17.7B",
+    "components": {
+      "funding": 100,
+      "news": 80,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-02-26"
   },
   {
     "sector": "Housing & Construction",
     "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "The White House wants AI companies to cover rate hikes. Most",
+      "The public opposition to AI infrastructure is heating up",
+      "IPOs Are Holding Up In 2026, But SaaS Debuts Aren\u2019t Happenin"
     ],
     "fundingQ": "$900.0B",
     "components": {
@@ -65,7 +69,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-25"
+    "lastUpdated": "2026-02-26"
   },
   {
     "sector": "Ocean & Maritime",
@@ -81,52 +85,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-25"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 45,
-    "trend": "steady",
-    "catalysts": [
-      "A banner year for military space funding\u2014 with an unclear pa",
-      "SpaceX Has the Best Radiative Cooling Solution and It is Wor",
-      "Instagram head pressed on lengthy delay to launch teen safet"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 100,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-02-25"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 42,
-    "trend": "steady",
-    "catalysts": [
-      "How To Use Up Nuclear Waste Generating Electricity",
-      "Just pull a string to turn these tile patterns into useful 3",
-      "SpaceX Has the Best Radiative Cooling Solution and It is Wor"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 90,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-02-25"
+    "lastUpdated": "2026-02-26"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "US Air Force awards contract for drone wingman engines",
-      "What are the possibilities for US and Asian partners to co-p",
-      "Air Force flight tests drone wingman carrying (inert) weapon"
+      "Wayve Attracts Fresh Investments From NVIDIA, Microsoft, Ube",
+      "Autonomous Driving News: Tesla Sues, BMW Bails",
+      "Waymo to begin testing in Chicago and Charlotte"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -135,16 +103,33 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-25"
+    "lastUpdated": "2026-02-26"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 35,
+    "trend": "steady",
+    "catalysts": [
+      "Ukrainian officials to meet Trump envoys in Geneva over more",
+      "IPOs Are Holding Up In 2026, But SaaS Debuts Aren\u2019t Happenin"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 90,
+      "hiring": 0,
+      "market": 62
+    },
+    "lastUpdated": "2026-02-26"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Ford Now Charging $495 for Frunk",
-      "New Electric Heat Pump Chases Fossil Fuels Out Of The Boiler",
-      "\u2018Ringleader\u2019: Department of Air Force to start all-encompass"
+      "Wayve Attracts Fresh Investments From NVIDIA, Microsoft, Ube",
+      "House Passes Bills That Would Worsen Energy Affordability &#",
+      "Anthropic acquires computer-use AI startup Vercept after Met"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -153,115 +138,83 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-02-25"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 32,
-    "trend": "rising",
-    "catalysts": [
-      "Self-driving tech startup Wayve raises $1.2B from Nvidia, Ub",
-      "My Favorite Bluetooth Speaker Is on Sale for $50 Off Right N",
-      "This Physics Professor Credits Collaboration for Her Success"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 50,
-      "hiring": 0,
-      "market": 95
-    },
-    "lastUpdated": "2026-02-25"
+    "lastUpdated": "2026-02-26"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 30,
+    "momentum": 32,
     "trend": "steady",
     "catalysts": [
-      "India&#8217;s AI boom pushes firms to trade near-term revenu",
-      "Following 35% growth, solar has passed hydro on US grid",
-      "SpaceX Has the Best Radiative Cooling Solution and It is Wor"
+      "Despite Political Rhetoric, Conservative Support for Solar I",
+      "So Much Winning&#8230;For Geothermal Energy",
+      "The Energy Storage Game Is Afoot: Form Energy Faces Off Agai"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 100,
       "hiring": 0,
-      "market": 27
+      "market": 33
     },
-    "lastUpdated": "2026-02-25"
+    "lastUpdated": "2026-02-26"
   },
   {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 22,
+    "sector": "Chips & Semiconductors",
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "Following 35% growth, solar has passed hydro on US grid",
-      "What are the possibilities for US and Asian partners to co-p",
-      "Fintech Giant Stripe\u2019s Valuation Soars to $159B In Latest Se"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 50,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-02-25"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "\u2018We don\u2019t have infantry\u2019: Ukraine\u2019s war machine evolves into"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-02-25"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 15,
-    "trend": "rising",
-    "catalysts": [
-      "\u2018Ringleader\u2019: Department of Air Force to start all-encompass",
-      "How To Use Up Nuclear Waste Generating Electricity",
-      "Reformulated antibodies could be injected for easier treatme"
+      "Space is the AI Endgame for AI Scaling",
+      "Wayve Attracts Fresh Investments From NVIDIA, Microsoft, Ube",
+      "Nvidia has another record quarter amid record capex spends"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 60,
       "hiring": 0,
-      "market": 2
+      "market": 78
     },
-    "lastUpdated": "2026-02-25"
+    "lastUpdated": "2026-02-26"
   },
   {
-    "sector": "Transportation",
-    "momentum": 15,
-    "trend": "declining",
+    "sector": "Infrastructure & Logistics",
+    "momentum": 29,
+    "trend": "rising",
     "catalysts": [
-      "Ford Now Charging $495 for Frunk"
+      "Roundtables: Why 2026 Is the Year for Sodium-Ion Batteries",
+      "The public opposition to AI infrastructure is heating up",
+      "From backlogs to breakthroughs: Why the defense industrial b"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 35,
+      "news": 75,
       "hiring": 0,
-      "market": 32
+      "market": 50
     },
-    "lastUpdated": "2026-02-25"
+    "lastUpdated": "2026-02-26"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 28,
+    "trend": "steady",
+    "catalysts": [
+      "Waymo: New City Alerts in Chicago &#038; Charlotte",
+      "Space is the AI Endgame for AI Scaling",
+      "Space Force pauses national security launches on Vulcan"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 100,
+      "hiring": 0,
+      "market": 13
+    },
+    "lastUpdated": "2026-02-26"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 13,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -271,8 +224,58 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 57
+      "market": 92
     },
-    "lastUpdated": "2026-02-25"
+    "lastUpdated": "2026-02-26"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "New hypersonic missiles unveiled for fighter planes, ground"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-02-26"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "Wayve Attracts Fresh Investments From NVIDIA, Microsoft, Ube",
+      "Autonomous Driving News: Tesla Sues, BMW Bails",
+      "Electric Vehicle Adoption Is On The Rise \u2014 Even If Tesla Sal"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 40,
+      "hiring": 0,
+      "market": 29
+    },
+    "lastUpdated": "2026-02-26"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 15,
+    "trend": "rising",
+    "catalysts": [
+      "Active nuclear energy ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 55,
+      "hiring": 0,
+      "market": 6
+    },
+    "lastUpdated": "2026-02-26"
   }
 ]
