@@ -19601,23 +19601,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-27 14:10
+// Last updated: 2026-02-27 17:56
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Asylon Robotics", headline: "Germany, Austria complete 'Alpine triangle' for airspace surveillance", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Atomic Industries", headline: "South Korea opens the door to let Google Maps operate fully", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Galvanick", headline: "The Download: how AI is shaking up Go, and a cybersecurity mystery", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab delays Neutron debut to late 2026", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Array Labs", headline: "Sector Snapshot: Space Tech Startup Funding Still Flying High", source: "Crunchbase News", time: "2h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "ElevenLabs", headline: "Huxe Will Give You a Personalized, Daily Audio Summary Powered by AI", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Zipline", headline: "Bond Strength, Biocompatibility, and Beyond", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Impulse Labs", headline: "Ultrahuman bets on redesigned smart ring to win back U.S. market after Oura dispute", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Ample", headline: "Tin Can Is a Dumb Phone for Kids. Can Someone Teach Them How to Use It?", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Vast", headline: "China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Impulse Labs", headline: "6 Great Power Bank Deals for Your Thirsty Phone Battery", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Field AI", headline: "All Too Quiet on the Western Neuroenhancement Front", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Karman Industries", headline: "Volvo Scales Up Electric Heavy Trucks As Profits Fund Zero-Emission Shift", source: "CleanTechnica", time: "9h ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "Terraform Industries", headline: "Solar Industry Statement on Massachusetts House Advancing Affordable, Clean Energy Legislation", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Palantir", headline: "Hyundai Motor Group to Establish Innovation Hub to Lead Robotics, AI, &#038; Hydrogen Energy in Korea", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Terraform Industries", headline: "400 MW Solar Power Farm Has Huge Battery System Too (Video)", source: "CleanTechnica", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "funding", company: "OpenAI", headline: "OpenAI's New $110B Raise At A $840B Valuation Marks The Largest Venture Deal Ever", source: "Crunchbase News", time: "Just now", impact: "high", unread: true },
+  { id: 3, type: "news", company: "Vannevar Labs", headline: "Abandoning AI Safety Might Screw Our Cars Up", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "DIRAC", headline: "The Arsenal Beneath the Arsenal", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "news", company: "ElevenLabs", headline: "AI music generator Suno hits 2M paid subscribers and $300M in annual recurring revenue", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "Artemis 3 is a Low Earth Orbit Rendezvous Test", source: "Next Big Future", time: "Just now", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Cohere", headline: "Apple and Netflix team up to air Formula 1 Canadian Grand Prix", source: "TechCrunch", time: "Just now", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Rainmaker", headline: "'Pok'mon Winds and Waves' are coming to the Nintendo Switch 2 in 2027", source: "TechCrunch", time: "Just now", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Ample", headline: "VinFast Deepens UAE Charging Network as Middle East EV Strategy Gains Traction", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Base Power", headline: "Is Donut Labs Battery Lithium Ion?", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "Neros", headline: "The D Brief: Anthropic says no to DOD; Afghanistan-Pakistan war; Ukraine tactics update; US laser downs DHS drone; And a", source: "Defense One", time: "1h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Fortera", headline: "Is the Army about to shake up its Bradley replacement, XM30? Sources see major signs.", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Durin", headline: "Defense One Radio, Ep. 204: 'Until the Last Gun Is Silent' by Matthew Delmont", source: "Defense One", time: "1h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Anthropic", headline: "Employees at Google and OpenAI support Anthropic's Pentagon stand in open letter", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Matic Robotics", headline: "Pakistan in 'open war' with Afghanistan, defense minister says", source: "Defense News", time: "1h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
