@@ -19601,23 +19601,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-27 17:56
+// Last updated: 2026-02-27 20:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Terraform Industries", headline: "400 MW Solar Power Farm Has Huge Battery System Too (Video)", source: "CleanTechnica", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "funding", company: "OpenAI", headline: "OpenAI's New $110B Raise At A $840B Valuation Marks The Largest Venture Deal Ever", source: "Crunchbase News", time: "Just now", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Vannevar Labs", headline: "Abandoning AI Safety Might Screw Our Cars Up", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "DIRAC", headline: "The Arsenal Beneath the Arsenal", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "news", company: "ElevenLabs", headline: "AI music generator Suno hits 2M paid subscribers and $300M in annual recurring revenue", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "Artemis 3 is a Low Earth Orbit Rendezvous Test", source: "Next Big Future", time: "Just now", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Cohere", headline: "Apple and Netflix team up to air Formula 1 Canadian Grand Prix", source: "TechCrunch", time: "Just now", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Rainmaker", headline: "'Pok'mon Winds and Waves' are coming to the Nintendo Switch 2 in 2027", source: "TechCrunch", time: "Just now", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Ample", headline: "VinFast Deepens UAE Charging Network as Middle East EV Strategy Gains Traction", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Base Power", headline: "Is Donut Labs Battery Lithium Ion?", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Neros", headline: "The D Brief: Anthropic says no to DOD; Afghanistan-Pakistan war; Ukraine tactics update; US laser downs DHS drone; And a", source: "Defense One", time: "1h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Fortera", headline: "Is the Army about to shake up its Bradley replacement, XM30? Sources see major signs.", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Durin", headline: "Defense One Radio, Ep. 204: 'Until the Last Gun Is Silent' by Matthew Delmont", source: "Defense One", time: "1h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Anthropic", headline: "Employees at Google and OpenAI support Anthropic's Pentagon stand in open letter", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Matic Robotics", headline: "Pakistan in 'open war' with Afghanistan, defense minister says", source: "Defense News", time: "1h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Biofire", headline: "Musk bashes OpenAI in deposition, saying 'nobody committed suicide because of Grok'", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "Anthropic", headline: "Anthropic vs. the Pentagon: What's actually at stake?", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Flexport", headline: "OpenAI Fires an Employee for Prediction Market Insider Trading", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Cerebras", headline: "The Week's 10 Biggest Funding Rounds: OpenAI Takes The Spotlight With Record-Setting $110B Round", source: "Crunchbase News", time: "1h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Waymo", headline: "Tesla Robotaxi -the Real Fleet Size is Likely 1000+", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "OpenAI", headline: "ChatGPT reaches 900M weekly active users", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Alpha School", headline: "MAGA Is Making America Stupid. The Effects Will Be Felt For Generations", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Field AI", headline: "Video Friday: Robot Dogs Haul Produce From the Field", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Terraform Industries", headline: "400 MW Solar Power Farm Has Huge Battery System Too (Video)", source: "CleanTechnica", time: "3h ago", impact: "medium", unread: false },
+  { id: 10, type: "funding", company: "OpenAI", headline: "OpenAI's New $110B Raise At A $840B Valuation Marks The Largest Venture Deal Ever", source: "Crunchbase News", time: "3h ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Vannevar Labs", headline: "Abandoning AI Safety Might Screw Our Cars Up", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "DIRAC", headline: "The Arsenal Beneath the Arsenal", source: "War on the Rocks", time: "3h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "ElevenLabs", headline: "AI music generator Suno hits 2M paid subscribers and $300M in annual recurring revenue", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "Artemis 3 is a Low Earth Orbit Rendezvous Test", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Cohere", headline: "Apple and Netflix team up to air Formula 1 Canadian Grand Prix", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
