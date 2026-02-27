@@ -11,13 +11,13 @@
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.34,
+      "avg_change": -0.1,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 4.78,
+      "avg_change": 4.19,
       "count": 7
     },
     "nuclear": {
@@ -39,9 +39,9 @@
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -1.76,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.45,
       "count": 3
     },
     "transportation": {
@@ -59,14 +59,14 @@
   },
   "topGainers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      24.02
-    ],
-    [
       "IONQ",
       "IonQ",
       22.29
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      20.79
     ],
     [
       "DRSHF",
@@ -111,5 +111,5 @@
       -8.95
     ]
   ],
-  "lastUpdated": "2026-02-27 05:06:38"
+  "lastUpdated": "2026-02-27 08:01:09"
 }
