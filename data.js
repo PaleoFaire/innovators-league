@@ -19601,23 +19601,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-27 10:06
+// Last updated: 2026-02-27 14:10
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Impulse Labs", headline: "6 Great Power Bank Deals for Your Thirsty Phone Battery", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Field AI", headline: "All Too Quiet on the Western Neuroenhancement Front", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Karman Industries", headline: "Volvo Scales Up Electric Heavy Trucks As Profits Fund Zero-Emission Shift", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Terraform Industries", headline: "Solar Industry Statement on Massachusetts House Advancing Affordable, Clean Energy Legislation", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Palantir", headline: "Hyundai Motor Group to Establish Innovation Hub to Lead Robotics, AI, &#038; Hydrogen Energy in Korea", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Flexport", headline: "Why Is Hong Kong Ending EV Tax Breaks? Does It Make Sense?", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Attio", headline: "Geely &#038; Xiaomi Shine In China ' January EV Sales Report", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Base Power", headline: "From Mine to Recovery: The Case for Nickel Recycling in Europe", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "The Boring Company", headline: "Energy Department Loans Money For Georgia Power's Gas Fleet", source: "CleanTechnica", time: "7h ago", impact: "high", unread: false },
-  { id: 10, type: "contract", company: "Anthropic", headline: "It would take the Pentagon months to replace Anthropic's AI tools: sources", source: "Defense One", time: "8h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Terraform Industries", headline: "Largest Solar Farm In US Coming To Central Valley In California", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Field AI", headline: "The Latest Repair Battlefield Is the Iowa Farmlands'Again", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Impulse Labs", headline: "Elon Interviewed At GigaBerlin- With News on FSD March 20 Netherlands, Cybercab, Optimus", source: "Next Big Future", time: "9h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Cape", headline: "Pentagon pick to lead homeland defense policy grilled over election security", source: "Defense One", time: "9h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Impulse Labs", headline: "These Are Our Absolute Favorite Android Earbuds, and They're Below $200", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Asylon Robotics", headline: "Germany, Austria complete 'Alpine triangle' for airspace surveillance", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Atomic Industries", headline: "South Korea opens the door to let Google Maps operate fully", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Galvanick", headline: "The Download: how AI is shaking up Go, and a cybersecurity mystery", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab delays Neutron debut to late 2026", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Array Labs", headline: "Sector Snapshot: Space Tech Startup Funding Still Flying High", source: "Crunchbase News", time: "2h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "ElevenLabs", headline: "Huxe Will Give You a Personalized, Daily Audio Summary Powered by AI", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Zipline", headline: "Bond Strength, Biocompatibility, and Beyond", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Impulse Labs", headline: "Ultrahuman bets on redesigned smart ring to win back U.S. market after Oura dispute", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Ample", headline: "Tin Can Is a Dumb Phone for Kids. Can Someone Teach Them How to Use It?", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Vast", headline: "China set for its first one-year human spaceflight mission, confirms Pakistani astronaut flight", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Impulse Labs", headline: "6 Great Power Bank Deals for Your Thirsty Phone Battery", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Field AI", headline: "All Too Quiet on the Western Neuroenhancement Front", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Karman Industries", headline: "Volvo Scales Up Electric Heavy Trucks As Profits Fund Zero-Emission Shift", source: "CleanTechnica", time: "9h ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "Terraform Industries", headline: "Solar Industry Statement on Massachusetts House Advancing Affordable, Clean Energy Legislation", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Palantir", headline: "Hyundai Motor Group to Establish Innovation Hub to Lead Robotics, AI, &#038; Hydrogen Energy in Korea", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
