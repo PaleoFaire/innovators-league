@@ -3,113 +3,113 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 0.78,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -0.77,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -0.1,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -4.49,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 4.1,
+      "avg_change": 4.44,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.4,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.27,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.49,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -3.77,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 12.83,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 7.34,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.6,
+      "avg_change": -2.51,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -0.32,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -1.93,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.48,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.28,
       "count": 3
     }
   },
   "topGainers": [
-    [
-      "IONQ",
-      "IonQ",
-      22.29
-    ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       20.79
     ],
     [
+      "IONQ",
+      "IonQ",
+      16.43
+    ],
+    [
       "DRSHF",
       "DroneShield",
-      13.91
+      15.18
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      12.29
+      6.25
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      8.03
+      6.22
     ]
   ],
   "topLosers": [
     [
-      "RKLB",
-      "Rocket Lab",
-      -5.13
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -5.65
+      "LUNR",
+      "Intuitive Machines",
+      -8.26
     ],
     [
       "ALAB",
       "Astera Labs",
-      -5.99
+      -9.01
     ],
     [
       "TEM",
       "Tempus AI",
-      -7.59
+      -10.21
     ],
     [
-      "SMR",
-      "NuScale Power",
-      -8.95
+      "LNZA",
+      "LanzaTech",
+      -12.76
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -16.71
     ]
   ],
-  "lastUpdated": "2026-02-27 14:10:53"
+  "lastUpdated": "2026-02-27 19:49:21"
 }
