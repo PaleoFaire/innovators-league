@@ -19601,25 +19601,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-27 05:06
-// Auto-generated real-time signals
-// Last updated: 2026-02-27
+// Last updated: 2026-02-27 10:06
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Flexport", headline: "Why Is Hong Kong Ending EV Tax Breaks? Does It Make Sense?", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Attio", headline: "Geely &#038; Xiaomi Shine In China — January EV Sales Report", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Base Power", headline: "From Mine to Recovery: The Case for Nickel Recycling in Europe", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "The Boring Company", headline: "Energy Department Loans Money For Georgia Power’s Gas Fleet", source: "CleanTechnica", time: "5h ago", impact: "high", unread: true },
-  { id: 5, type: "contract", company: "Anthropic", headline: "It would take the Pentagon months to replace Anthropic’s AI tools: sources", source: "Defense One", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Terraform Industries", headline: "Largest Solar Farm In US Coming To Central Valley In California", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Field AI", headline: "The Latest Repair Battlefield Is the Iowa Farmlands—Again", source: "Wired", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "Impulse Labs", headline: "Elon Interviewed At GigaBerlin- With News on FSD March 20 Netherlands, Cybercab, Optimus", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Cape", headline: "Pentagon pick to lead homeland defense policy grilled over election security", source: "Defense One", time: "7h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Impulse Labs", headline: "These Are Our Absolute Favorite Android Earbuds, and They're Below $200", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Cover", headline: "Netflix backs out of bid for Warner Bros. Discovery, giving studios, HBO, and CNN to Ellison-owned Paramount", source: "TechCrunch", time: "8h ago", impact: "high", unread: false },
-  { id: 12, type: "contract", company: "Anthropic", headline: "Anthropic ‘cannot in good conscience accede’ to Pentagon’s demands, CEO says", source: "Defense News", time: "8h ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Anthropic", headline: "‘Uncanny Valley’: Pentagon vs. ‘Woke’ Anthropic, Agentic vs. Mimetic, and Trump vs. State of the Union", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Anthropic", headline: "Anthropic CEO stands firm as Pentagon deadline looms", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "The Boring Company", headline: "Space Force keeps door open to future human presence in orbit", source: "SpaceNews", time: "8h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Impulse Labs", headline: "6 Great Power Bank Deals for Your Thirsty Phone Battery", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Field AI", headline: "All Too Quiet on the Western Neuroenhancement Front", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Karman Industries", headline: "Volvo Scales Up Electric Heavy Trucks As Profits Fund Zero-Emission Shift", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Terraform Industries", headline: "Solar Industry Statement on Massachusetts House Advancing Affordable, Clean Energy Legislation", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "Hyundai Motor Group to Establish Innovation Hub to Lead Robotics, AI, &#038; Hydrogen Energy in Korea", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Flexport", headline: "Why Is Hong Kong Ending EV Tax Breaks? Does It Make Sense?", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Attio", headline: "Geely &#038; Xiaomi Shine In China ' January EV Sales Report", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Base Power", headline: "From Mine to Recovery: The Case for Nickel Recycling in Europe", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "The Boring Company", headline: "Energy Department Loans Money For Georgia Power's Gas Fleet", source: "CleanTechnica", time: "7h ago", impact: "high", unread: false },
+  { id: 10, type: "contract", company: "Anthropic", headline: "It would take the Pentagon months to replace Anthropic's AI tools: sources", source: "Defense One", time: "8h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Terraform Industries", headline: "Largest Solar Farm In US Coming To Central Valley In California", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Field AI", headline: "The Latest Repair Battlefield Is the Iowa Farmlands'Again", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "Impulse Labs", headline: "Elon Interviewed At GigaBerlin- With News on FSD March 20 Netherlands, Cybercab, Optimus", source: "Next Big Future", time: "9h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Cape", headline: "Pentagon pick to lead homeland defense policy grilled over election security", source: "Defense One", time: "9h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Impulse Labs", headline: "These Are Our Absolute Favorite Android Earbuds, and They're Below $200", source: "Wired", time: "9h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
