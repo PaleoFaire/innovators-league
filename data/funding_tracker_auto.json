@@ -26,6 +26,34 @@
     "roundCount": 3
   },
   {
+    "company": "OpenAI",
+    "totalRaised": "$150.0B+",
+    "totalRaisedRaw": 150009.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$9M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Lightspeed Venture Partners",
+      "Undisclosed",
+      "SoftBank"
+    ],
+    "roundCount": 3
+  },
+  {
+    "company": "Rebellions",
+    "totalRaised": "$110.0B+",
+    "totalRaisedRaw": 110010.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$10M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Anthropic",
     "totalRaised": "$43.0B+",
     "totalRaisedRaw": 43000.0,
@@ -36,20 +64,6 @@
     "leadInvestors": [
       "Undisclosed",
       "GIC"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "OpenAI",
-    "totalRaised": "$40.0B+",
-    "totalRaisedRaw": 40009.0,
-    "lastRound": "Seed",
-    "lastRoundAmount": "$9M",
-    "lastRoundDate": "2026-02",
-    "valuation": "",
-    "leadInvestors": [
-      "Lightspeed Venture Partners",
-      "SoftBank"
     ],
     "roundCount": 2
   },
@@ -76,6 +90,19 @@
     "valuation": "$126B",
     "leadInvestors": [
       "Alphabet"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Orbion Space Technology",
+    "totalRaised": "$12.0B+",
+    "totalRaisedRaw": 12000.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$12B",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -500,19 +527,6 @@
     "valuation": "",
     "leadInvestors": [
       "Accel"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Rebellions",
-    "totalRaised": "$10M+",
-    "totalRaisedRaw": 10.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$10M",
-    "lastRoundDate": "2026-02",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
     ],
     "roundCount": 1
   }
