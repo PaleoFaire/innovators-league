@@ -1,11 +1,13 @@
 // Auto-updated press releases
-// Last updated: 2026-02-27 09:06:24 UTC
+// Last updated: 2026-02-28 07:46:19 UTC
 const PRESS_RELEASES = [
-  { title: "Orion-konsernin tilinpäätösasiakirjat 2025 sekä palkitsemisraportti julkaistu", date: "", companies: "Rainbow Robotics", categories: "", source: "globenewswire_all" },
-  { title: "RESULT OF RIKSBANK AUCTIONS GOVERNMENT BONDS", date: "", companies: "Palantir", categories: "", source: "globenewswire_all" },
-  { title: "Genenta Advances Transformation into Saentra Forge, Strengthens ATC Governance a", date: "", companies: "DIRAC, Karman Industries, Solugen", categories: "", source: "globenewswire_all" },
-  { title: "NOTICE TO CONVENE the Annual General Meeting of FLSmidth & Co. A/S", date: "", companies: "Fortera", categories: "", source: "globenewswire_all" },
-  { title: "European Energy A/S: Full-year 2025 report", date: "", companies: "Endurosat, Fortera", categories: "", source: "globenewswire_all" },
-  { title: " Capgemini and Deutsche Telekom engineer an Open Platform for Intelligent RAN Au", date: "", companies: "Formic, Monumental, Roboton", categories: "partnership", source: "globenewswire_all" },
-  { title: "Capgemini et Deutsche Telekom conçoivent une plateforme ouverte pour l’automatis", date: "", companies: "Formic, Monumental, Roboton", categories: "", source: "globenewswire_all" },
+  { title: "Fangzhou and Youcare Pharmaceutical Group Form Strategic Alliance to Advance AI-", date: "", companies: "Agility Robotics, Fortera, Parry Labs", categories: "partnership", source: "globenewswire_all" },
+  { title: "SQM Reports Earnings for the Twelve Months Ended December 31, 2025", date: "", companies: "Twelve, Twelve Labs", categories: "funding", source: "globenewswire_all" },
+  { title: "Mission Success: Rocket Lab Launches 2nd Hypersonic Test Mission in Three Months", date: "", companies: "Rocket Lab, Kela", categories: "product, ipo", source: "globenewswire_all" },
+  { title: "YY Group Announces US$20 Million At-The-Market Offering Facility", date: "", companies: "Attio, Together AI", categories: "funding, partnership", source: "globenewswire_all" },
+  { title: "Brookfield Property Partners Completes 2025 Annual Filings", date: "", companies: "Field AI, Cohere, Waabi", categories: "partnership, milestone", source: "globenewswire_all" },
+  { title: "OpGen, Inc. (OTC: OPGN) Announces Name Change to CapForce Inc.", date: "", companies: "Agility Robotics, Truemed, Sift", categories: "funding, product", source: "globenewswire_all" },
+  { title: "Avalon GloboCare Announces Closing of up to $9.75 Million Private Placement Pric", date: "", companies: "Fortera", categories: "funding, product", source: "globenewswire_all" },
+  { title: "Pulsar Helium Announces Closing of Fundraise", date: "", companies: "Fortera", categories: "product, ipo", source: "globenewswire_all" },
+  { title: "Femasys Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)", date: "", companies: "Zipline, Kinova Robotics, Fortera", categories: "product, hiring", source: "globenewswire_all" },
 ];
