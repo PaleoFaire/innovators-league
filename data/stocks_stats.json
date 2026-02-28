@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.77,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 1.44,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -4.49,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -2.92,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 4.44,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 4.31,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.27,
+      "avg_change": 0.77,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.77,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -4.43,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 7.34,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 11.23,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.51,
+      "avg_change": -1.2,
       "count": 3
     },
     "transportation": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -1.93,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": -0.93,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -5.28,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -5.0,
       "count": 3
     }
   },
@@ -66,50 +66,50 @@
     [
       "IONQ",
       "IonQ",
-      16.43
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      15.18
+      20.28
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      6.25
+      9.42
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      9.37
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      6.22
+      8.09
     ]
   ],
   "topLosers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      -8.26
+      "NVDA",
+      "NVIDIA",
+      -6.65
     ],
     [
       "ALAB",
       "Astera Labs",
-      -9.01
+      -8.37
     ],
     [
       "TEM",
       "Tempus AI",
-      -10.21
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -12.76
+      -8.77
     ],
     [
       "SATL",
       "Satellogic",
-      -16.71
+      -15.73
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      -15.9
     ]
   ],
-  "lastUpdated": "2026-02-27 19:49:21"
+  "lastUpdated": "2026-02-28 04:36:39"
 }
