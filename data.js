@@ -19614,23 +19614,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-28 08:56
+// Last updated: 2026-02-28 13:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Waymo", headline: "Apollo Go Reaches 20 Million Trips, 190 Million Fully Driverless Kilometers", source: "CleanTechnica", time: "3h ago", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Palantir", headline: "India disrupts access to popular developer platform Supabase with blocking order", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Vannevar Labs", headline: "Anthropic Hits Back After US Military Labels It a 'Supply Chain Risk'", source: "Wired", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "goTenna", headline: "Sierra Club Releases First Trove of Emails, Texts, and Calendars from Trump's Department of the Interior", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Terraform Industries", headline: "The System Case Against Hydrogen for Grid Storage", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Astroscale", headline: "How Sustainable Were The 2026 Olympics, Really?", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "The Boring Company", headline: "How Europe Can Meet Hydrogen Fuel Mandates Without Hydrogen Fuels", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Biofire", headline: "Trump orders federal agencies to stop using Anthropic technology in dispute over AI safety", source: "Defense News", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Palantir", headline: "Trump directs government to 'immediately cease' using Anthropic technology", source: "Defense One", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Flexport", headline: "OpenAI fires employee for using confidential info on prediction markets", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Anthropic", headline: "Pentagon moves to designate Anthropic as a supply-chain risk", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "Anthropic", headline: "Hegseth labels Anthropic a supply chain 'risk,' after Trump orders gov to ditch AI firm", source: "Breaking Defense", time: "11h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Palantir", headline: "Trump Moves to Ban Anthropic From the US Government", source: "Wired", time: "11h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Palantir", headline: "Poland unveils detailed defense spending for $51B in EU SAFE loans", source: "Breaking Defense", time: "11h ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "Rocket Lab", headline: "Photons that aren't actually there influence superconductivity", source: "Ars Technica Space", time: "11h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Runway", headline: "The Best MicroSD Cards for Your Camera, Switch, and More", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "NetworkOcean", headline: "The Best Laptop Cooling Pad and Why You Should Buy One", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Matic Robotics", headline: "Area Man Accidentally Hacks 6,700 Camera-Enabled Robot Vacuums", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Rainmaker", headline: "Which Water Filter Pitchers Filter PFAS? How to Check", source: "Wired", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Palantir", headline: "US and Israel Launch Strikes Against Iran", source: "Wired", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Waymo", headline: "Apollo Go Reaches 20 Million Trips, 190 Million Fully Driverless Kilometers", source: "CleanTechnica", time: "8h ago", impact: "medium", unread: false },
+  { id: 7, type: "news", company: "Palantir", headline: "India disrupts access to popular developer platform Supabase with blocking order", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Vannevar Labs", headline: "Anthropic Hits Back After US Military Labels It a 'Supply Chain Risk'", source: "Wired", time: "10h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "goTenna", headline: "Sierra Club Releases First Trove of Emails, Texts, and Calendars from Trump's Department of the Interior", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "Terraform Industries", headline: "The System Case Against Hydrogen for Grid Storage", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Astroscale", headline: "How Sustainable Were The 2026 Olympics, Really?", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "The Boring Company", headline: "How Europe Can Meet Hydrogen Fuel Mandates Without Hydrogen Fuels", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Biofire", headline: "Trump orders federal agencies to stop using Anthropic technology in dispute over AI safety", source: "Defense News", time: "14h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Palantir", headline: "Trump directs government to 'immediately cease' using Anthropic technology", source: "Defense One", time: "14h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Flexport", headline: "OpenAI fires employee for using confidential info on prediction markets", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
