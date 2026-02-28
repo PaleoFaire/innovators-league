@@ -19601,23 +19601,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-27 20:58
+// Last updated: 2026-02-28 04:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Biofire", headline: "Musk bashes OpenAI in deposition, saying 'nobody committed suicide because of Grok'", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Anthropic", headline: "Anthropic vs. the Pentagon: What's actually at stake?", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Flexport", headline: "OpenAI Fires an Employee for Prediction Market Insider Trading", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Cerebras", headline: "The Week's 10 Biggest Funding Rounds: OpenAI Takes The Spotlight With Record-Setting $110B Round", source: "Crunchbase News", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Waymo", headline: "Tesla Robotaxi -the Real Fleet Size is Likely 1000+", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "OpenAI", headline: "ChatGPT reaches 900M weekly active users", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Alpha School", headline: "MAGA Is Making America Stupid. The Effects Will Be Felt For Generations", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Field AI", headline: "Video Friday: Robot Dogs Haul Produce From the Field", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Terraform Industries", headline: "400 MW Solar Power Farm Has Huge Battery System Too (Video)", source: "CleanTechnica", time: "3h ago", impact: "medium", unread: false },
-  { id: 10, type: "funding", company: "OpenAI", headline: "OpenAI's New $110B Raise At A $840B Valuation Marks The Largest Venture Deal Ever", source: "Crunchbase News", time: "3h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "Vannevar Labs", headline: "Abandoning AI Safety Might Screw Our Cars Up", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "DIRAC", headline: "The Arsenal Beneath the Arsenal", source: "War on the Rocks", time: "3h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "ElevenLabs", headline: "AI music generator Suno hits 2M paid subscribers and $300M in annual recurring revenue", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "Artemis 3 is a Low Earth Orbit Rendezvous Test", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Cohere", headline: "Apple and Netflix team up to air Formula 1 Canadian Grand Prix", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Palantir", headline: "India disrupts access to popular developer platform Supabase with blocking order", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "Vannevar Labs", headline: "Anthropic Hits Back After US Military Labels It a 'Supply Chain Risk'", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "goTenna", headline: "Sierra Club Releases First Trove of Emails, Texts, and Calendars from Trump's Department of the Interior", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Terraform Industries", headline: "The System Case Against Hydrogen for Grid Storage", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Astroscale", headline: "How Sustainable Were The 2026 Olympics, Really?", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "The Boring Company", headline: "How Europe Can Meet Hydrogen Fuel Mandates Without Hydrogen Fuels", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Biofire", headline: "Trump orders federal agencies to stop using Anthropic technology in dispute over AI safety", source: "Defense News", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Palantir", headline: "Trump directs government to 'immediately cease' using Anthropic technology", source: "Defense One", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Flexport", headline: "OpenAI fires employee for using confidential info on prediction markets", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Anthropic", headline: "Pentagon moves to designate Anthropic as a supply-chain risk", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "Anthropic", headline: "Hegseth labels Anthropic a supply chain 'risk,' after Trump orders gov to ditch AI firm", source: "Breaking Defense", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Palantir", headline: "Trump Moves to Ban Anthropic From the US Government", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Palantir", headline: "Poland unveils detailed defense spending for $51B in EU SAFE loans", source: "Breaking Defense", time: "7h ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Rocket Lab", headline: "Photons that aren't actually there influence superconductivity", source: "Ars Technica Space", time: "7h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Rainmaker", headline: "4 Takeaways From The Nation's Biggest Heat Pump Expo", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
