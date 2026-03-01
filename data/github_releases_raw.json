@@ -113,6 +113,39 @@
     "repo": "openai/openai-python",
     "company": "OpenAI",
     "category": "AI",
+    "tag": "v2.24.0",
+    "name": "v2.24.0",
+    "date": "2026-02-24",
+    "prerelease": false,
+    "url": "https://github.com/openai/openai-python/releases/tag/v2.24.0",
+    "body": "## 2.24.0 (2026-02-24)\n\nFull Changelog: [v2.23.0...v2.24.0](https://github.com/openai/openai-python/compare/v2.23.0...v2.24.0)\n\n### Features\n\n* **api:** add phase ([391deb9](https://github.com/openai/"
+  },
+  {
+    "repo": "openai/openai-python",
+    "company": "OpenAI",
+    "category": "AI",
+    "tag": "v2.23.0",
+    "name": "v2.23.0",
+    "date": "2026-02-24",
+    "prerelease": false,
+    "url": "https://github.com/openai/openai-python/releases/tag/v2.23.0",
+    "body": "## 2.23.0 (2026-02-24)\n\nFull Changelog: [v2.22.0...v2.23.0](https://github.com/openai/openai-python/compare/v2.22.0...v2.23.0)\n\n### Features\n\n* **api:** add gpt-realtime-1.5 and gpt-audio-1.5 model op"
+  },
+  {
+    "repo": "openai/openai-python",
+    "company": "OpenAI",
+    "category": "AI",
+    "tag": "v2.22.0",
+    "name": "v2.22.0",
+    "date": "2026-02-23",
+    "prerelease": false,
+    "url": "https://github.com/openai/openai-python/releases/tag/v2.22.0",
+    "body": "## 2.22.0 (2026-02-23)\n\nFull Changelog: [v2.21.0...v2.22.0](https://github.com/openai/openai-python/compare/v2.21.0...v2.22.0)\n\n### Features\n\n* **api:** websockets for responses api ([c01f6fb](https:/"
+  },
+  {
+    "repo": "openai/openai-python",
+    "company": "OpenAI",
+    "category": "AI",
     "tag": "v2.21.0",
     "name": "v2.21.0",
     "date": "2026-02-14",
@@ -187,37 +220,15 @@
     "body": "## 2.15.0 (2026-01-09)\n\nFull Changelog: [v2.14.0...v2.15.0](https://github.com/openai/openai-python/compare/v2.14.0...v2.15.0)\n\n### Features\n\n* **api:** add new Response completed_at prop ([f077752](h"
   },
   {
-    "repo": "openai/openai-python",
-    "company": "OpenAI",
+    "repo": "anthropics/anthropic-sdk-python",
+    "company": "Anthropic",
     "category": "AI",
-    "tag": "v2.14.0",
-    "name": "v2.14.0",
-    "date": "2025-12-19",
+    "tag": "v0.84.0",
+    "name": "v0.84.0",
+    "date": "2026-02-25",
     "prerelease": false,
-    "url": "https://github.com/openai/openai-python/releases/tag/v2.14.0",
-    "body": "## 2.14.0 (2025-12-19)\n\nFull Changelog: [v2.13.0...v2.14.0](https://github.com/openai/openai-python/compare/v2.13.0...v2.14.0)\n\n### Features\n\n* **api:** slugs for new audio models; make all `model` pa"
-  },
-  {
-    "repo": "openai/openai-python",
-    "company": "OpenAI",
-    "category": "AI",
-    "tag": "v2.13.0",
-    "name": "v2.13.0",
-    "date": "2025-12-16",
-    "prerelease": false,
-    "url": "https://github.com/openai/openai-python/releases/tag/v2.13.0",
-    "body": "## 2.13.0 (2025-12-16)\n\nFull Changelog: [v2.12.0...v2.13.0](https://github.com/openai/openai-python/compare/v2.12.0...v2.13.0)\n\n### Features\n\n* **api:** gpt-image-1.5 ([1c88f03](https://github.com/ope"
-  },
-  {
-    "repo": "openai/openai-python",
-    "company": "OpenAI",
-    "category": "AI",
-    "tag": "v2.12.0",
-    "name": "v2.12.0",
-    "date": "2025-12-15",
-    "prerelease": false,
-    "url": "https://github.com/openai/openai-python/releases/tag/v2.12.0",
-    "body": "## 2.12.0 (2025-12-15)\n\nFull Changelog: [v2.11.0...v2.12.0](https://github.com/openai/openai-python/compare/v2.11.0...v2.12.0)\n\n### Features\n\n* **api:** api update ([a95c4d0](https://github.com/openai"
+    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.84.0",
+    "body": "## 0.84.0 (2026-02-25)\n\nFull Changelog: [v0.83.0...v0.84.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.83.0...v0.84.0)\n\n### Features\n\n* **api:** change array_format to brackets ([92"
   },
   {
     "repo": "anthropics/anthropic-sdk-python",
@@ -319,15 +330,37 @@
     "body": "## 0.76.0 (2026-01-13)\n\nFull Changelog: [v0.75.0...v0.76.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.75.0...v0.76.0)\n\n### Features\n\n* allow raw JSON schema to be passed to message"
   },
   {
-    "repo": "anthropics/anthropic-sdk-python",
-    "company": "Anthropic",
+    "repo": "langchain-ai/langchain",
+    "company": "LangChain",
     "category": "AI",
-    "tag": "v0.75.0",
-    "name": "v0.75.0",
-    "date": "2025-11-24",
+    "tag": "langchain-core==1.2.16",
+    "name": "langchain-core==1.2.16",
+    "date": "2026-02-25",
     "prerelease": false,
-    "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.75.0",
-    "body": "## 0.75.0 (2025-11-24)\n\nFull Changelog: [v0.74.1...v0.75.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.74.1...v0.75.0)\n\n### Features\n\n* **api:** adds support for Claude Opus 4.5, Ef"
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.16",
+    "body": "Changes since langchain-core==1.2.15\n\nrelease(core): 1.2.16 (#35439)\nfix(core): treat empty tool chunk ids as missing in merge (#35414)"
+  },
+  {
+    "repo": "langchain-ai/langchain",
+    "company": "LangChain",
+    "category": "AI",
+    "tag": "langchain-anthropic==1.3.4",
+    "name": "langchain-anthropic==1.3.4",
+    "date": "2026-02-24",
+    "prerelease": false,
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.3.4",
+    "body": "Changes since langchain-anthropic==1.3.3\n\nrelease(anthropic): 1.3.4 (#35418)\nfix(anthropic): filter out common OpenAI Responses block types (#35417)\nfix(anthropic): update integration tests (#35396)\nr"
+  },
+  {
+    "repo": "langchain-ai/langchain",
+    "company": "LangChain",
+    "category": "AI",
+    "tag": "langchain-core==1.2.15",
+    "name": "langchain-core==1.2.15",
+    "date": "2026-02-23",
+    "prerelease": false,
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.15",
+    "body": "Changes since langchain-core==1.2.14\n\nfix(core): improve error message for non-JSON-serializable tool schemas (#34376)\nfix(core): improve typing/docs for on_chat_model_start to clarify required positi"
   },
   {
     "repo": "langchain-ai/langchain",
@@ -405,39 +438,6 @@
     "prerelease": false,
     "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.12",
     "body": "Changes since langchain-core==1.2.11\n\nrelease(core): 1.2.12 (#35192)\nfix(core): fix setting `ChatGeneration.text` (#35191)"
-  },
-  {
-    "repo": "langchain-ai/langchain",
-    "company": "LangChain",
-    "category": "AI",
-    "tag": "langchain==1.2.10",
-    "name": "langchain==1.2.10",
-    "date": "2026-02-10",
-    "prerelease": false,
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.10",
-    "body": "Changes since langchain==1.2.9\n\nrelease(langchain): 1.2.10 (#35137)\nchore(deps): bump the langchain-deps group across 3 directories with 40 updates (#35129)\nchore(deps): bump the langchain-deps group "
-  },
-  {
-    "repo": "langchain-ai/langchain",
-    "company": "LangChain",
-    "category": "AI",
-    "tag": "langchain-openai==1.1.9",
-    "name": "langchain-openai==1.1.9",
-    "date": "2026-02-15",
-    "prerelease": false,
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.9",
-    "body": "Changes since langchain-openai==1.1.8\n\nrelease(openai): 1.1.9 (#35145)\nfix(openai): sanitize urls when counting tokens in images (#35143)\nfeat(core): add ContextOverflowError, raise in anthropic and o"
-  },
-  {
-    "repo": "langchain-ai/langchain",
-    "company": "LangChain",
-    "category": "AI",
-    "tag": "langchain-core==1.2.11",
-    "name": "langchain-core==1.2.11",
-    "date": "2026-02-10",
-    "prerelease": false,
-    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.11",
-    "body": "Changes since langchain-core==1.2.10\n\nrelease(core): 1.2.11 (#35144)\nfix(openai): sanitize urls when counting tokens in images (#35143)\nchore(core): clean up docstring mismatch and redundant logic in "
   },
   {
     "repo": "run-llama/llama_index",
@@ -532,11 +532,11 @@
     "company": "Open Robotics",
     "category": "Robotics",
     "tag": "release-rolling-nightlies",
-    "name": "ROS 2 Rolling - Nightlies 2026-02-21",
+    "name": "ROS 2 Rolling - Nightlies 2026-02-27",
     "date": "2026-01-23",
     "prerelease": true,
     "url": "https://github.com/ros2/ros2/releases/tag/release-rolling-nightlies",
-    "body": "These are the binary packages for ROS 2 Rolling Nightlies 2026-02-21.\nThese binaries will get updated nightly given that all jobs have \"not failed\" to keep synchrony across operating systems.\n\nFor run"
+    "body": "These are the binary packages for ROS 2 Rolling Nightlies 2026-02-27.\nThese binaries will get updated nightly given that all jobs have \"not failed\" to keep synchrony across operating systems.\n\nFor run"
   },
   {
     "repo": "Qiskit/qiskit",
@@ -561,6 +561,17 @@
     "body": "# Changelog\n## Deprecated\n-   Deprecate unsafe legacy format in Solovay Kitaev (#15360)\n-   Deprecate annotated=None in control methods (#15356)\n\n## Added\n-   Add ways to retrieve operations from the "
   },
   {
+    "repo": "rigetti/pyquil",
+    "company": "Rigetti Computing",
+    "category": "Quantum",
+    "tag": "v5.0.0-rc.3",
+    "name": "5.0.0-rc.3 (2026-02-25)",
+    "date": "2026-02-25",
+    "prerelease": true,
+    "url": "https://github.com/rigetti/pyquil/releases/tag/v5.0.0-rc.3",
+    "body": "## Breaking Changes\n\n### update to new quil-rs\n\n## Features\n\n### add e2e marker\n\n### improve program instruction iteration\n\n### update quil to rc3\n\n### use SCREAMING_SNAKE_CASE for quil enums\n\n### upg"
+  },
+  {
     "repo": "PennyLaneAI/pennylane",
     "company": "Xanadu",
     "category": "Quantum",
@@ -581,6 +592,17 @@
     "prerelease": false,
     "url": "https://github.com/PennyLaneAI/pennylane/releases/tag/v0.43.2",
     "body": "<h3>Bug fixes \ud83d\udc1b</h3>\r\n\r\n* PennyLane\u2019s code has been updated to be compatible with NumPy 2.4 resolving deprecation related errors and warning messages.\r\n  [(#8808)](https://github.com/PennyLaneAI/penny"
+  },
+  {
+    "repo": "hashicorp/terraform",
+    "company": "HashiCorp",
+    "category": "Infrastructure",
+    "tag": "v1.14.6",
+    "name": "v1.14.6",
+    "date": "2026-02-25",
+    "prerelease": false,
+    "url": "https://github.com/hashicorp/terraform/releases/tag/v1.14.6",
+    "body": "## 1.14.6 (February 25, 2026)\n\n\nBUG FIXES:\n\n* terraform test: return error when provider config is invalid ([#38084](https://github.com/hashicorp/terraform/issues/38084))\n\n\n"
   },
   {
     "repo": "hashicorp/terraform",
@@ -669,6 +691,17 @@
     "prerelease": false,
     "url": "https://github.com/hashicorp/terraform/releases/tag/v1.14.1",
     "body": "## 1.14.1 (December 3, 2025)\n\n\nBUG FIXES:\n\n* test: allow ephemeral outputs in root modules ([#37813](https://github.com/hashicorp/terraform/issues/37813))\n\n* Combinations of replace_triggered_by and -"
+  },
+  {
+    "repo": "pulumi/pulumi",
+    "company": "Pulumi",
+    "category": "Infrastructure",
+    "tag": "v3.224.0",
+    "name": "v3.224.0",
+    "date": "2026-02-26",
+    "prerelease": false,
+    "url": "https://github.com/pulumi/pulumi/releases/tag/v3.224.0",
+    "body": "## 3.224.0 (2026-02-26)\r\n\r\n### Features\r\n\r\n- [backend/diy] Add zstd compression option for DIY backend state files\r\n  [#21877](https://github.com/pulumi/pulumi/pull/21877)\r\n\r\n- [engine] Automatically "
   },
   {
     "repo": "pulumi/pulumi",
@@ -768,17 +801,6 @@
     "prerelease": false,
     "url": "https://github.com/pulumi/pulumi/releases/tag/v3.216.0",
     "body": "## 3.216.0 (2026-01-16)\r\n\r\n\r\n### Features\r\n\r\n- [build] Don't set PULUMI_ROOT with mise\r\n  [#21457](https://github.com/pulumi/pulumi/pull/21457)\r\n\r\n- [cli] Default to Pulumi Cloud when using an OIDC to"
-  },
-  {
-    "repo": "pulumi/pulumi",
-    "company": "Pulumi",
-    "category": "Infrastructure",
-    "tag": "v3.215.0",
-    "name": "v3.215.0",
-    "date": "2026-01-07",
-    "prerelease": false,
-    "url": "https://github.com/pulumi/pulumi/releases/tag/v3.215.0",
-    "body": "## 3.215.0 (2026-01-07)\r\n\r\n\r\n### Features\r\n\r\n- [cli/plugin] Allow plugins to specify a supported version range for the CLI\r\n  [#21335](https://github.com/pulumi/pulumi/pull/21335)\r\n\r\n\r\n### Bug Fixes\r\n"
   },
   {
     "repo": "dbt-labs/dbt-core",

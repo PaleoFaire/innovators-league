@@ -1,6 +1,15 @@
 // Auto-updated GitHub releases
-// Last updated: 2026-02-22 09:56:42 UTC
+// Last updated: 2026-03-01 09:54:05 UTC
 const GITHUB_RELEASES = [
+  { company: "Pulumi", repo: "pulumi/pulumi", tag: "v3.224.0", name: "v3.224.0", date: "2026-02-26", category: "Infrastructure" },
+  { company: "Anthropic", repo: "anthropics/anthropic-sdk-python", tag: "v0.84.0", name: "v0.84.0", date: "2026-02-25", category: "AI" },
+  { company: "LangChain", repo: "langchain-ai/langchain", tag: "langchain-core==1.2.16", name: "langchain-core==1.2.16", date: "2026-02-25", category: "AI" },
+  { company: "HashiCorp", repo: "hashicorp/terraform", tag: "v1.14.6", name: "v1.14.6", date: "2026-02-25", category: "Infrastructure" },
+  { company: "OpenAI", repo: "openai/openai-python", tag: "v2.24.0", name: "v2.24.0", date: "2026-02-24", category: "AI" },
+  { company: "OpenAI", repo: "openai/openai-python", tag: "v2.23.0", name: "v2.23.0", date: "2026-02-24", category: "AI" },
+  { company: "LangChain", repo: "langchain-ai/langchain", tag: "langchain-anthropic==1.3.4", name: "langchain-anthropic==1.3.4", date: "2026-02-24", category: "AI" },
+  { company: "OpenAI", repo: "openai/openai-python", tag: "v2.22.0", name: "v2.22.0", date: "2026-02-23", category: "AI" },
+  { company: "LangChain", repo: "langchain-ai/langchain", tag: "langchain-core==1.2.15", name: "langchain-core==1.2.15", date: "2026-02-23", category: "AI" },
   { company: "Open Robotics", repo: "ros2/ros2", tag: "release-humble-20260220", name: "ROS 2 Humble Hawksbill - Patch Release 14", date: "2026-02-20", category: "Robotics" },
   { company: "Pulumi", repo: "pulumi/pulumi", tag: "v3.223.0", name: "v3.223.0", date: "2026-02-20", category: "Infrastructure" },
   { company: "Anthropic", repo: "anthropics/anthropic-sdk-python", tag: "v0.83.0", name: "v0.83.0", date: "2026-02-19", category: "AI" },
@@ -17,13 +26,4 @@ const GITHUB_RELEASES = [
   { company: "dbt Labs", repo: "dbt-labs/dbt-core", tag: "v1.11.6", name: "dbt-core v1.11.6", date: "2026-02-17", category: "Data" },
   { company: "Hugging Face", repo: "huggingface/transformers", tag: "v5.2.0", name: "v5.2.0: GLM-5, Qwen3.5, Voxtral Realtime, VibeVoic", date: "2026-02-16", category: "AI" },
   { company: "LangChain", repo: "langchain-ai/langchain", tag: "langchain-openrouter==0.0.2", name: "langchain-openrouter==0.0.2", date: "2026-02-15", category: "AI" },
-  { company: "LangChain", repo: "langchain-ai/langchain", tag: "langchain-core==1.2.13", name: "langchain-core==1.2.13", date: "2026-02-15", category: "AI" },
-  { company: "LangChain", repo: "langchain-ai/langchain", tag: "langchain-openai==1.1.9", name: "langchain-openai==1.1.9", date: "2026-02-15", category: "AI" },
-  { company: "OpenAI", repo: "openai/openai-python", tag: "v2.21.0", name: "v2.21.0", date: "2026-02-14", category: "AI" },
-  { company: "dbt Labs", repo: "dbt-labs/dbt-core", tag: "v1.11.5", name: "dbt-core v1.11.5", date: "2026-02-13", category: "Data" },
-  { company: "LangChain", repo: "langchain-ai/langchain", tag: "langchain-core==1.2.12", name: "langchain-core==1.2.12", date: "2026-02-12", category: "AI" },
-  { company: "HashiCorp", repo: "hashicorp/terraform", tag: "v1.14.5", name: "v1.14.5", date: "2026-02-11", category: "Infrastructure" },
-  { company: "OpenAI", repo: "openai/openai-python", tag: "v2.20.0", name: "v2.20.0", date: "2026-02-10", category: "AI" },
-  { company: "OpenAI", repo: "openai/openai-python", tag: "v2.19.0", name: "v2.19.0", date: "2026-02-10", category: "AI" },
-  { company: "LangChain", repo: "langchain-ai/langchain", tag: "langchain==1.2.10", name: "langchain==1.2.10", date: "2026-02-10", category: "AI" },
 ];
