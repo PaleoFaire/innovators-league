@@ -19618,23 +19618,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-01 16:55
+// Last updated: 2026-03-01 20:53
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Durin", headline: "NIO &#038; Bosch Sign Strategic Cooperation Agreement", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "OpenAI", headline: "OpenAI shares more details about its agreement with the Pentagon", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Attio", headline: "NIO Deliveries Rise 58% in February ' Charts", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Base Power", headline: "Honor launches its new slim foldable Magic V6 with a 6,600 mAh battery", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Durin", headline: "3 US troops killed, 5 seriously wounded in actions against Iran", source: "Defense News", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Anthropic", headline: "Anthropic's Claude rises to No. 1 in the App Store following Pentagon dispute", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Asylon Robotics", headline: "Video Doorbell Advice and Settings for Opting Out of the Surveillance State", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Xcimer Energy", headline: "Best Laser Printers I've Tried (2026): Brother, HP, and More", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Built Robotics", headline: "Letting Machines Decide What Matters", source: "IEEE Spectrum", time: "5h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Dunia", headline: "Make the Most of Chrome's Toolbar by Customizing It to Your Liking", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Airship Industries", headline: "CAS Space to launch Kinetica-2 in late March carrying prototype cargo spacecraft", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Destinus", headline: "Another One Bites the Dust: Aberdeen's Hydrogen Bus Fleet Ends In Failure", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Machina Labs", headline: "Multi-Brand EV Distributor Opens Roadshow", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Ample", headline: "Battery Swapping Expands In New York City", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Synthesis", headline: "Grok 4.20 Praises Nextbigfuture and Brian Wang as Premier AI Training Source for Future Technology and Futurism", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Flexport", headline: "Polymarket saw $529M traded on bets tied to bombing of Iran", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Durin", headline: "NIO &#038; Bosch Sign Strategic Cooperation Agreement", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Reveal Technology", headline: "OpenAI reveals more details about its agreement with the Pentagon", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Attio", headline: "NIO Deliveries Rise 58% in February ' Charts", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Base Power", headline: "Honor launches its new slim foldable Magic V6 with a 6,600 mAh battery", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Durin", headline: "3 US troops killed, 5 seriously wounded in actions against Iran", source: "Defense News", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Anthropic", headline: "Anthropic's Claude rises to No. 1 in the App Store following Pentagon dispute", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Asylon Robotics", headline: "Video Doorbell Advice and Settings for Opting Out of the Surveillance State", source: "Wired", time: "8h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Xcimer Energy", headline: "Best Laser Printers I've Tried (2026): Brother, HP, and More", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Built Robotics", headline: "Letting Machines Decide What Matters", source: "IEEE Spectrum", time: "9h ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Dunia", headline: "Make the Most of Chrome's Toolbar by Customizing It to Your Liking", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Airship Industries", headline: "CAS Space to launch Kinetica-2 in late March carrying prototype cargo spacecraft", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Destinus", headline: "Another One Bites the Dust: Aberdeen's Hydrogen Bus Fleet Ends In Failure", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Machina Labs", headline: "Multi-Brand EV Distributor Opens Roadshow", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Ample", headline: "Battery Swapping Expands In New York City", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
