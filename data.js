@@ -19614,23 +19614,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-02-28 20:50
+// Last updated: 2026-03-01 05:11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "The Boring Company", headline: "The billion-dollar infrastructure deals powering the AI boom", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "funding", company: "Recursion Pharmaceuticals", headline: "World Models, Free Energy, and a Plastic Dinosaur", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
-  { id: 3, type: "milestone", company: "Together AI", headline: "Israel says it struck more than 500 targets in Iran with 200 warplanes", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Firestorm Labs", headline: "US confirms first combat use of LUCAS one-way attack drone in Iran strikes", source: "Defense News", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Focused Energy", headline: "Youtuber Blinkov and Other Called the Start of the New US-Israel-Iran War", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Astro Mechanica", headline: "NASA on 'aggressive' schedule to complete SLS repairs for April launch", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Waymo", headline: "TESLA HAS 1000+ ROBOTAXI -WHY ONLY 400 COUNTED ?", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Anthropic", headline: "OpenAI's Sam Altman announces Pentagon deal with 'technical safeguards'", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Vannevar Labs", headline: "Change all Jobs? Change is Hard and Risky", source: "Next Big Future", time: "4h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Terraform Industries", headline: "The Return Of The Esmeralda 7 Solar Power Project", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Shield AI", headline: "This Is the System That Intercepted Iran's Missiles Over the UAE", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Agility Robotics", headline: "Why China's humanoid robot industry is winning the early market", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "IQM Quantum Computers", headline: "Review: Xiaomi 17 Ultra and Leitzphone Pack Leica Magic Into a Flagship Phone", source: "Wired", time: "6h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Figure AI", headline: "This Power Grid Pioneer's EV Prediction Came 100 Years Too Soon", source: "IEEE Spectrum", time: "6h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Cape", headline: "World leaders fear broader escalation after major US and Israeli attack on Iran", source: "Defense News", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Machina Labs", headline: "Multi-Brand EV Distributor Opens Roadshow", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Ample", headline: "Battery Swapping Expands In New York City", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Synthesis", headline: "Grok 4.20 Praises Nextbigfuture and Brian Wang as Premier AI Training Source for Future Technology and Futurism", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Alpha School", headline: "Why the US attack on Iran is unlikely to produce regime change in'Tehran", source: "Defense One", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Biofire", headline: "Fluorine &#038; Tofu Brine Lead To Battery Breakthroughs In China", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Intuitive Machines", headline: "Intuitive Machines raises $175 million in stock sale", source: "SpaceNews", time: "5h ago", impact: "medium", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "The trap Anthropic built for itself", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Palantir", headline: "Strikes on Iran will test US cyber strategy abroad, and defenses at home", source: "Defense One", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Scale AI", headline: "X Is Drowning in Disinformation Following US and Israeli Attack on Iran", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "The Boring Company", headline: "Twice Bombed, Still Nuclear: The Limits of Force Against Iran's Atomic Program", source: "War on the Rocks", time: "7h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Cover", headline: "What to know about the landmark Warner Bros.'Discovery sale", source: "TechCrunch", time: "7h ago", impact: "high", unread: false },
+  { id: 12, type: "contract", company: "Anthropic", headline: "Anthropic's Claude rises to No. 2 in the App Store following Pentagon dispute", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "The Boring Company", headline: "The billion-dollar infrastructure deals powering the AI boom", source: "TechCrunch", time: "8h ago", impact: "high", unread: false },
+  { id: 14, type: "funding", company: "Recursion Pharmaceuticals", headline: "World Models, Free Energy, and a Plastic Dinosaur", source: "CleanTechnica", time: "9h ago", impact: "medium", unread: false },
+  { id: 15, type: "milestone", company: "Together AI", headline: "Israel says it struck more than 500 targets in Iran with 200 warplanes", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
