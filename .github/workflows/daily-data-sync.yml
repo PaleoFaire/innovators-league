@@ -148,6 +148,9 @@ jobs:
       - name: Calculate Predictive Scores
         run: python scripts/calc_predictive_scores.py
 
+      - name: Estimate headcount from job data
+        run: python scripts/calc_headcount_estimates.py
+
       - name: Merge all data into data.js
         run: python scripts/merge_data.py
 

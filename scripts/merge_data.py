@@ -530,6 +530,192 @@ def update_predictive_scores(data_js_content):
     return data_js_content
 
 
+def update_headcount_estimates(data_js_content):
+    """Update HEADCOUNT_ESTIMATES in data.js with estimated headcount from job data."""
+    estimates = load_json("headcount_estimates_auto.json")
+    if not estimates:
+        print("No headcount estimates data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(estimates)} headcount estimates...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-calculated headcount estimates from job posting data\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "const HEADCOUNT_ESTIMATES = [\n"
+
+    for est in estimates:
+        company = est.get("company", "").replace('"', "'")
+        js_array += f'  {{ company: "{company}", '
+        js_array += f'openPositions: {est.get("openPositions", 0)}, '
+        js_array += f'estimatedHeadcount: {est.get("estimatedHeadcount", 0)}, '
+        js_array += f'headcountFormatted: "{est.get("headcountFormatted", "")}", '
+        js_array += f'vacancyRate: {est.get("vacancyRate", 0.07)}, '
+        js_array += f'hiringVelocity: "{est.get("hiringVelocity", "quiet")}", '
+        js_array += f'sector: "{est.get("sector", "")}", '
+        js_array += f'growthTrend: "{est.get("growthTrend", "")}", '
+        js_array += f'isCurated: {"true" if est.get("isCurated") else "false"}, '
+        js_array += f'lastUpdated: "{est.get("lastUpdated", today)}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const HEADCOUNT_ESTIMATES = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+        print(f"  Updated HEADCOUNT_ESTIMATES ({len(estimates)} companies)")
+    else:
+        # Append after GROWTH_SIGNALS if HEADCOUNT_ESTIMATES doesn't exist yet
+        growth_pattern = r'(const GROWTH_SIGNALS = \[[\s\S]*?\];)'
+        growth_match = re.search(growth_pattern, data_js_content)
+        if growth_match:
+            data_js_content = data_js_content[:growth_match.end()] + "\n\n" + js_array + data_js_content[growth_match.end():]
+            print(f"  Inserted HEADCOUNT_ESTIMATES ({len(estimates)} companies)")
+        else:
+            print("  Could not find insertion point for HEADCOUNT_ESTIMATES")
+
+    return data_js_content
+
+
+def update_sam_contracts(data_js_content):
+    """Update SAM_CONTRACTS in data.js with SAM.gov opportunity data."""
+    contracts = load_json("sam_contracts_aggregated.json")
+    if not contracts:
+        print("No SAM contracts data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(contracts)} SAM contract records...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-updated SAM.gov contract opportunities\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "const SAM_CONTRACTS = [\n"
+
+    for c in contracts:
+        company = c.get("company", "").replace('"', "'")
+        agencies = json.dumps(c.get("agencies", [])[:5])
+        types = json.dumps(c.get("types", []))
+        recent = json.dumps(c.get("recentOpportunities", [])[:3])
+        js_array += f'  {{ company: "{company}", '
+        js_array += f'opportunityCount: {c.get("opportunityCount", 0)}, '
+        js_array += f'agencies: {agencies}, '
+        js_array += f'types: {types}, '
+        js_array += f'recentOpportunities: {recent}, '
+        js_array += f'lastUpdated: "{c.get("lastUpdated", today)}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const SAM_CONTRACTS = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+        print(f"  Updated SAM_CONTRACTS ({len(contracts)} companies)")
+    else:
+        # Append after GOV_CONTRACTS if SAM_CONTRACTS doesn't exist yet
+        gov_pattern = r'(const GOV_CONTRACTS = \[[\s\S]*?\];)'
+        gov_match = re.search(gov_pattern, data_js_content)
+        if gov_match:
+            data_js_content = data_js_content[:gov_match.end()] + "\n\n" + js_array + data_js_content[gov_match.end():]
+            print(f"  Inserted SAM_CONTRACTS ({len(contracts)} companies)")
+        else:
+            print("  Could not find insertion point for SAM_CONTRACTS")
+
+    return data_js_content
+
+
+def update_trade_data(data_js_content):
+    """Update TRADE_DATA in data.js with Census Bureau trade trends."""
+    trade = load_json("trade_data_raw.json")
+    if not trade:
+        print("No trade data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(trade)} trade data entries...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-updated Census Bureau trade data\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "const TRADE_DATA = [\n"
+
+    for entry in trade:
+        category = entry.get("category", "").replace('"', "'")
+        companies = json.dumps(entry.get("relevantCompanies", []))
+        js_array += f'  {{ hsCode: "{entry.get("hsCode", "")}", '
+        js_array += f'category: "{category}", '
+        js_array += f'tradeType: "{entry.get("tradeType", "")}", '
+        js_array += f'latestMonthValue: {entry.get("latestMonthValue", 0)}, '
+        js_array += f'latestMonthFormatted: "{entry.get("latestMonthFormatted", "$0")}", '
+        js_array += f'yoyChange: "{entry.get("yoyChange", "")}", '
+        js_array += f'momChange: "{entry.get("momChange", "")}", '
+        js_array += f'trend: "{entry.get("trend", "unknown")}", '
+        js_array += f'relevantCompanies: {companies}, '
+        js_array += f'relevantSector: "{entry.get("relevantSector", "")}", '
+        js_array += f'period: "{entry.get("period", "")}", '
+        js_array += f'lastUpdated: "{entry.get("lastUpdated", today)}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const TRADE_DATA = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+        print(f"  Updated TRADE_DATA ({len(trade)} entries)")
+    else:
+        # Append after SECTOR_MOMENTUM if TRADE_DATA doesn't exist yet
+        momentum_pattern = r'(const SECTOR_MOMENTUM = \[[\s\S]*?\];)'
+        momentum_match = re.search(momentum_pattern, data_js_content)
+        if momentum_match:
+            data_js_content = data_js_content[:momentum_match.end()] + "\n\n" + js_array + data_js_content[momentum_match.end():]
+            print(f"  Inserted TRADE_DATA ({len(trade)} entries)")
+        else:
+            print("  Could not find insertion point for TRADE_DATA")
+
+    return data_js_content
+
+
+def update_product_launches(data_js_content):
+    """Update PRODUCT_LAUNCHES in data.js with Product Hunt launch data."""
+    launches = load_json("product_launches_raw.json")
+    if not launches:
+        print("No product launches data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(launches)} product launches...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-updated Product Hunt launches\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "const PRODUCT_LAUNCHES = [\n"
+
+    for launch in launches[:30]:
+        company = launch.get("company", "").replace('"', "'")
+        product = launch.get("product", "").replace('"', "'")
+        tagline = launch.get("tagline", "").replace('"', "'").replace('\n', ' ')
+        topics = json.dumps(launch.get("topics", []))
+        makers = json.dumps(launch.get("makers", []))
+        js_array += f'  {{ company: "{company}", '
+        js_array += f'product: "{product}", '
+        js_array += f'tagline: "{tagline}", '
+        js_array += f'votes: {launch.get("votes", 0)}, '
+        js_array += f'comments: {launch.get("comments", 0)}, '
+        js_array += f'launchDate: "{launch.get("launchDate", "")}", '
+        js_array += f'url: "{launch.get("url", "")}", '
+        js_array += f'topics: {topics}, '
+        js_array += f'makers: {makers}, '
+        js_array += f'source: "producthunt" }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const PRODUCT_LAUNCHES = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+        print(f"  Updated PRODUCT_LAUNCHES ({len(launches)} entries)")
+    else:
+        # Append after DEAL_TRACKER if PRODUCT_LAUNCHES doesn't exist yet
+        deal_pattern = r'(const DEAL_TRACKER = \[[\s\S]*?\];)'
+        deal_match = re.search(deal_pattern, data_js_content)
+        if deal_match:
+            data_js_content = data_js_content[:deal_match.end()] + "\n\n" + js_array + data_js_content[deal_match.end():]
+            print(f"  Inserted PRODUCT_LAUNCHES ({len(launches)} entries)")
+        else:
+            print("  Could not find insertion point for PRODUCT_LAUNCHES")
+
+    return data_js_content
+
+
 def update_last_updated(data_js_content):
     """Update the LAST_UPDATED timestamp."""
     today = datetime.now().strftime("%Y-%m-%d")
@@ -770,6 +956,10 @@ def main():
     data_js_content = update_valuation_benchmarks(data_js_content)
     data_js_content = update_innovator_scores(data_js_content)
     data_js_content = update_predictive_scores(data_js_content)
+    data_js_content = update_headcount_estimates(data_js_content)
+    data_js_content = update_sam_contracts(data_js_content)
+    data_js_content = update_trade_data(data_js_content)
+    data_js_content = update_product_launches(data_js_content)
     data_js_content = update_company_funding(data_js_content)
     data_js_content = update_vc_portfolios(data_js_content)
     data_js_content = update_last_updated(data_js_content)

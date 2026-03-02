@@ -24,8 +24,15 @@ DATA_JS_PATH = Path(__file__).parent.parent / "data.js"
 
 # RSS feeds specifically for funding news
 FUNDING_FEEDS = [
+    # Original feeds
     ("Crunchbase News", "https://news.crunchbase.com/feed/"),
     ("TechCrunch Startups", "https://techcrunch.com/category/startups/feed/"),
+    # Expanded coverage — Tier 1 pipeline addition
+    ("TechCrunch Venture", "https://techcrunch.com/category/venture/feed/"),
+    ("Business Wire Funding", "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVpRWQ=="),
+    ("GlobeNewswire Funding", "https://www.globenewswire.com/RssFeed/subjectcode/24-Funding%20Announcements/feedTitle/GlobeNewswire%20-%20Funding%20Announcements"),
+    ("PR Newswire Funding", "https://www.prnewswire.com/rss/financial-announcements-venture-capital-rss.xml"),
+    ("VentureBeat Deals", "https://venturebeat.com/category/business/deals/feed/"),
 ]
 
 # Company aliases — dynamically loaded from master company list
@@ -122,11 +129,27 @@ INVESTOR_ALIASES = {
     "general atlantic": "General Atlantic",
     "thrive": "Thrive Capital",
     "lightspeed": "Lightspeed Venture Partners",
+    # Expanded investor list
+    "insight partners": "Insight Partners",
+    "kleiner perkins": "Kleiner Perkins",
+    "nea": "NEA",
+    "new enterprise associates": "NEA",
+    "bessemer": "Bessemer Venture Partners",
+    "ivp": "IVP",
+    "spark capital": "Spark Capital",
+    "index ventures": "Index Ventures",
+    "gv": "GV (Google Ventures)",
+    "google ventures": "GV (Google Ventures)",
+    "eclipse ventures": "Eclipse Ventures",
+    "valor equity": "Valor Equity Partners",
+    "capitalg": "CapitalG",
+    "felicis": "Felicis Ventures",
+    "norwest": "Norwest Venture Partners",
 }
 
 
 def fetch_rss(url, source_name):
-    """Fetch and parse an RSS feed."""
+    """Fetch and parse an RSS or Atom feed."""
     headers = {
         "User-Agent": "InnovatorsLeague-Bot/1.0 (https://innovatorsleague.com)"
     }
@@ -136,10 +159,11 @@ def fetch_rss(url, source_name):
         root = ET.fromstring(resp.content)
 
         items = []
+
+        # Standard RSS <item> elements
         for item in root.iter("item"):
             title = item.findtext("title", "").strip()
             desc = item.findtext("description", "").strip()
-            # Strip HTML from description
             desc = re.sub(r'<[^>]+>', '', desc)[:500]
             pub_date = item.findtext("pubDate", "")
             link = item.findtext("link", "").strip()
@@ -151,6 +175,29 @@ def fetch_rss(url, source_name):
                 "link": link,
                 "source": source_name
             })
+
+        # Atom <entry> elements (GlobeNewswire, some Business Wire feeds)
+        if not items:
+            ns = {'atom': 'http://www.w3.org/2005/Atom'}
+            entries = root.findall('.//atom:entry', ns) or root.findall('.//entry')
+            for entry in entries:
+                title = (entry.findtext('atom:title', '', ns) or entry.findtext('title', '')).strip()
+                desc = (entry.findtext('atom:summary', '', ns) or entry.findtext('summary', '')).strip()
+                desc = re.sub(r'<[^>]+>', '', desc)[:500]
+                pub_date = (entry.findtext('atom:published', '', ns) or
+                           entry.findtext('atom:updated', '', ns) or
+                           entry.findtext('published', '') or
+                           entry.findtext('updated', ''))
+                link_el = entry.find('atom:link', ns) or entry.find('link')
+                link = link_el.get('href', '') if link_el is not None else ''
+
+                items.append({
+                    "title": title,
+                    "description": desc,
+                    "pubDate": pub_date,
+                    "link": link,
+                    "source": source_name
+                })
 
         return items
     except Exception as e:
@@ -472,7 +519,18 @@ def main():
         all_articles.extend(funding)
         print(f"  Found {len(funding)} funding articles out of {len(articles)} total")
 
-    print(f"\nTotal funding articles to process: {len(all_articles)}")
+    # Deduplicate articles by URL (same article appears in multiple feeds)
+    seen_urls = set()
+    deduplicated = []
+    for article in all_articles:
+        url = article.get("link", "") or article.get("url", "")
+        if url and url in seen_urls:
+            continue
+        if url:
+            seen_urls.add(url)
+        deduplicated.append(article)
+    print(f"\nTotal funding articles to process: {len(deduplicated)} ({len(all_articles) - len(deduplicated)} duplicates removed)")
+    all_articles = deduplicated
 
     # 3. Extract deals from articles
     new_deals = []
