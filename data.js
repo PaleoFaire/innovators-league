@@ -20436,23 +20436,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-02 14:31
+// Last updated: 2026-03-02 18:02
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Swan", headline: "Pico's Project Swan XR Headset Wants to Go Where the Apple Vision Pro Failed", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Bronco AI", headline: "Hardware is no longer the problem holding back space-based data centers ' the supply chain is", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic's Claude reports widespread outage", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Seaborg Technologies", headline: "The Download: protesting AI, and what's floating in space", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "OpenAI", headline: "I checked out one of the biggest anti-AI protests ever", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Durin", headline: "Over $50B Went To Boom-Era Software Companies That Haven't Raised In 4+ Years", source: "Crunchbase News", time: "2h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Aurora Innovation", headline: "What Military Drones Can Teach Self-Driving Cars", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Northwood Space", headline: "Space Force rethinks satellite ground station strategy", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Astera Labs", headline: "The Data Centers Have Arrived at the Edge of the Arctic Circle", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "AST SpaceMobile", headline: "Open Cosmos unveils vision for imagery-linked sovereign satellite connectivity", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "PLD Space", headline: "ESA announces 100 million euro satellite-mobile convergence initiative", source: "SpaceNews", time: "6h ago", impact: "medium", unread: false },
-  { id: 12, type: "news", company: "Durin", headline: "IEEE President's Note: Engineering a Modern Renaissance", source: "IEEE Spectrum", time: "19h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Durin", headline: "NIO &#038; Bosch Sign Strategic Cooperation Agreement", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "OpenAI", headline: "OpenAI reveals more details about its agreement with the Pentagon", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Durin", headline: "3 US troops killed, 5 seriously wounded in actions against Iran", source: "Defense News", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Anthropic", headline: "OpenAI's &#8220;compromise&#8221; with the Pentagon is what Anthropic feared", source: "MIT Tech Review", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "Anthropic", headline: "Tech workers urge DOD, Congress to withdraw Anthropic label as a supply chain risk", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "The D Brief: War on Iran; Retaliation throughout the Gulf; Friendly fire downs F-15s; Anthropic ejected from federal ser", source: "Defense One", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "Cape", headline: "Hacktivists claim to have hacked Homeland Security to release ICE contract data", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Stargazing into the future of SSA", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Saule Technologies", headline: "In Iran, US President Donald Trump Makes The Case For Renewable Energy, Again", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "How SpaceX Makes Things 1000X Cheaper and Ten Times Faster", source: "Next Big Future", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Matic Robotics", headline: "A married founder duo's company, 14.ai, is replacing customer support teams at startups", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "PILGRIM", headline: "Iran conflict expands in Lebanon, Beirut demands Hezbollah 'hand over its weapons'", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Swan", headline: "Pico's Project Swan XR Headset Wants to Go Where the Apple Vision Pro Failed", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Bronco AI", headline: "Hardware is no longer the problem holding back space-based data centers ' the supply chain is", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic's Claude reports widespread outage", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Seaborg Technologies", headline: "The Download: protesting AI, and what's floating in space", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "OpenAI", headline: "I checked out one of the biggest anti-AI protests ever", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Durin", headline: "Over $50B Went To Boom-Era Software Companies That Haven't Raised In 4+ Years", source: "Crunchbase News", time: "6h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
