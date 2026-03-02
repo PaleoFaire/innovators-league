@@ -237,6 +237,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - run: pip install requests
       - run: python scripts/fetch_nrc_licensing.py
       - uses: actions/upload-artifact@v4
         with:
@@ -253,6 +254,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - run: pip install requests
       - run: python scripts/fetch_faa_certification.py
       - uses: actions/upload-artifact@v4
         with:
