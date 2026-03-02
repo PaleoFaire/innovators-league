@@ -20436,23 +20436,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-02 10:31
+// Last updated: 2026-03-02 14:31
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Astera Labs", headline: "The Data Centers Have Arrived at the Edge of the Arctic Circle", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "AST SpaceMobile", headline: "Open Cosmos unveils vision for imagery-linked sovereign satellite connectivity", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "PLD Space", headline: "ESA announces 100 million euro satellite-mobile convergence initiative", source: "SpaceNews", time: "2h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Durin", headline: "IEEE President's Note: Engineering a Modern Renaissance", source: "IEEE Spectrum", time: "15h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Durin", headline: "NIO &#038; Bosch Sign Strategic Cooperation Agreement", source: "CleanTechnica", time: "17h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "OpenAI", headline: "OpenAI reveals more details about its agreement with the Pentagon", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Durin", headline: "3 US troops killed, 5 seriously wounded in actions against Iran", source: "Defense News", time: "19h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Anthropic", headline: "Anthropic's Claude rises to No. 1 in the App Store following Pentagon dispute", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Asylon Robotics", headline: "Video Doorbell Advice and Settings for Opting Out of the Surveillance State", source: "Wired", time: "22h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Together AI", headline: "Letting Machines Decide What Matters", source: "IEEE Spectrum", time: "23h ago", impact: "high", unread: false },
-  { id: 11, type: "ipo", company: "Dawn Aerospace", headline: "CAS Space to launch Kinetica-2 in late March carrying prototype cargo spacecraft", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Machina Labs", headline: "Multi-Brand EV Distributor Opens Roadshow", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Ample", headline: "Battery Swapping Expands In New York City", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Synthesis", headline: "Grok 4.20 Praises Nextbigfuture and Brian Wang as Premier AI Training Source for Future Technology and Futurism", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Intuitive Machines", headline: "Intuitive Machines raises $175 million in stock sale", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
+  { id: 1, type: "news", company: "Swan", headline: "Pico's Project Swan XR Headset Wants to Go Where the Apple Vision Pro Failed", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "Bronco AI", headline: "Hardware is no longer the problem holding back space-based data centers ' the supply chain is", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic's Claude reports widespread outage", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Seaborg Technologies", headline: "The Download: protesting AI, and what's floating in space", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "OpenAI", headline: "I checked out one of the biggest anti-AI protests ever", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Durin", headline: "Over $50B Went To Boom-Era Software Companies That Haven't Raised In 4+ Years", source: "Crunchbase News", time: "2h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Aurora Innovation", headline: "What Military Drones Can Teach Self-Driving Cars", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Northwood Space", headline: "Space Force rethinks satellite ground station strategy", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Astera Labs", headline: "The Data Centers Have Arrived at the Edge of the Arctic Circle", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "AST SpaceMobile", headline: "Open Cosmos unveils vision for imagery-linked sovereign satellite connectivity", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "PLD Space", headline: "ESA announces 100 million euro satellite-mobile convergence initiative", source: "SpaceNews", time: "6h ago", impact: "medium", unread: false },
+  { id: 12, type: "news", company: "Durin", headline: "IEEE President's Note: Engineering a Modern Renaissance", source: "IEEE Spectrum", time: "19h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Durin", headline: "NIO &#038; Bosch Sign Strategic Cooperation Agreement", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "OpenAI", headline: "OpenAI reveals more details about its agreement with the Pentagon", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Durin", headline: "3 US troops killed, 5 seriously wounded in actions against Iran", source: "Defense News", time: "23h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
