@@ -11,13 +11,13 @@
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -2.45,
+      "avg_change": -2.63,
       "count": 7
     },
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 5.7,
+      "avg_change": 5.82,
       "count": 7
     },
     "nuclear": {
@@ -39,9 +39,9 @@
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.2,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.0,
       "count": 3
     },
     "transportation": {
@@ -71,7 +71,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      10.59
+      11.43
     ],
     [
       "RGTI",
@@ -111,5 +111,5 @@
       -15.9
     ]
   ],
-  "lastUpdated": "2026-03-02 05:08:21"
+  "lastUpdated": "2026-03-02 08:01:03"
 }
