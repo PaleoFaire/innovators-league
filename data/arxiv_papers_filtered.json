@@ -2633,4 +2633,150 @@
       "ai"
     ]
   }
+]for Contact-Rich Cell Pushing and Assembly with a Magnetic Rolling Microrobot",
+    "summary": "Magnetic rolling microrobots enable gentle manipulation in confined microfluidic environments, yet autonomy for contact-rich behaviors such as cell pushing and multi-target assembly remains difficult to develop and evaluate reproducibly. We present MicroPush, an open-source simulator and benchmark suite for magnetic rolling microrobots in cluttered 2D scenes. MicroPush combines an overdamped interaction model with contact-aware stick--slip effects, lightweight near-field damping, optional Poiseu",
+    "published": "2026-02-27",
+    "updated": "2026-02-27",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Yanda Yang",
+      "Sambeeta Das"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.23607v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2602.23526v1",
+    "title": "Training with Hard Constraints: Learning Neural Certificates and Controllers for SDEs",
+    "summary": "Due to their expressive power, neural networks (NNs) are promising templates for functional optimization problems, particularly for reach-avoid certificate generation for systems governed by stochastic differential equations (SDEs). However, ensuring hard-constraint satisfaction remains a major challenge. In this work, we propose two constraint-driven training frameworks with guarantees for supermartingale-based neural certificate construction and controller synthesis for SDEs. The first approac",
+    "published": "2026-02-26",
+    "updated": "2026-02-26",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Chun-Wei Kong",
+      "Sebastian Escobar",
+      "Ibon Gracia",
+      "Jay McMahon",
+      "Morteza Lahijanian"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.23526v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2602.23312v1",
+    "title": "Evaluating Zero-Shot and One-Shot Adaptation of Small Language Models in Leader-Follower Interaction",
+    "summary": "Leader-follower interaction is an important paradigm in human-robot interaction (HRI). Yet, assigning roles in real time remains challenging for resource-constrained mobile and assistive robots. While large language models (LLMs) have shown promise for natural communication, their size and latency limit on-device deployment. Small language models (SLMs) offer a potential alternative, but their effectiveness for role classification in HRI has not been systematically evaluated. In this paper, we p",
+    "published": "2026-02-26",
+    "updated": "2026-02-26",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Rafael R. Baptista",
+      "Andr\u00e9 de Lima Salgado",
+      "Ricardo V. Godoy",
+      "Marcelo Becker",
+      "Thiago Boaventura",
+      "Gustavo J. G. Lahr"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.23312v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2602.23056v1",
+    "title": "Learning-based Multi-agent Race Strategies in Formula 1",
+    "summary": "In Formula 1, race strategies are adapted according to evolving race conditions and competitors' actions. This paper proposes a reinforcement learning approach for multi-agent race strategy optimization. Agents learn to balance energy management, tire degradation, aerodynamic interaction, and pit-stop decisions. Building on a pre-trained single-agent policy, we introduce an interaction module that accounts for the behavior of competitors. The combination of the interaction module and a self-play",
+    "published": "2026-02-26",
+    "updated": "2026-02-26",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Giona Fieni",
+      "Joschua W\u00fcthrich",
+      "Marc-Philippe Neumann",
+      "Christopher H. Onder"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.23056v1",
+    "sectors": [
+      "robotics"
+    ]
+  },
+  {
+    "id": "2602.23052v1",
+    "title": "Integrated Flight and Propulsion Control for Fixed-Wing UAVs via Thrust and Disturbance Compensation",
+    "summary": "This paper investigates the position-tracking control problem for fixed-wing unmanned aerial vehicles (UAVs) equipped with a turbojet engine via an integrated flight and propulsion control scheme. To this end, a hierarchical control framework with thrust and disturbance compensation is proposed. In particular, we first propose a perturbed fixed-wing UAV model with turbojet engine dynamics, accounting for both unmodeled dynamics and external disturbances. Second, a versatile extended observer is ",
+    "published": "2026-02-26",
+    "updated": "2026-02-26",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Chong-Yi Sun",
+      "Heling Yuan",
+      "Xu Fang",
+      "Yan He",
+      "Xi-Ming Sun"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.23052v1",
+    "sectors": [
+      "defense",
+      "space"
+    ]
+  },
+  {
+    "id": "2602.22774v1",
+    "title": "Transformer Actor-Critic for Efficient Freshness-Aware Resource Allocation",
+    "summary": "Emerging applications such as autonomous driving and industrial automation demand ultra-reliable and low-latency communication (URLLC), where maintaining fresh and timely information is critical. A key performance metric in such systems is the age of information (AoI). This paper addresses AoI minimization in a multi-user uplink wireless network using non-orthogonal multiple access (NOMA), where users offload tasks to a base station. The system must handle user heterogeneity in task sizes, AoI t",
+    "published": "2026-02-26",
+    "updated": "2026-02-26",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Maryam Ansarifard",
+      "Mohit K. Sharma",
+      "Kishor C. Joshi",
+      "George Exarchakos"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.22774v1",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2602.22514v1",
+    "title": "SignVLA: A Gloss-Free Vision-Language-Action Framework for Real-Time Sign Language-Guided Robotic Manipulation",
+    "summary": "We present, to our knowledge, the first sign language-driven Vision-Language-Action (VLA) framework for intuitive and inclusive human-robot interaction. Unlike conventional approaches that rely on gloss annotations as intermediate supervision, the proposed system adopts a gloss-free paradigm and directly maps visual sign gestures to semantic instructions. This design reduces annotation cost and avoids the information loss introduced by gloss representations, enabling more natural and scalable mu",
+    "published": "2026-02-26",
+    "updated": "2026-02-26",
+    "category": "eess.SY",
+    "categoryName": "Systems and Control",
+    "authors": [
+      "Xinyu Tan",
+      "Ningwei Bai",
+      "Harry Gardener",
+      "Zhengyang Zhong",
+      "Luoyu Zhang",
+      "Liuhaichen Yang",
+      "Zhekai Duan",
+      "Monkgogi Galeitsiwe",
+      "Zezhi Tang"
+    ],
+    "links": [],
+    "pdf": "https://arxiv.org/pdf/2602.22514v1",
+    "sectors": [
+      "robotics"
+    ]
+  }
 ]
