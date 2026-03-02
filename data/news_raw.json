@@ -1,5 +1,46 @@
 [
   {
+    "title": "The Data Centers Have Arrived at the Edge of the Arctic Circle",
+    "link": "https://www.wired.com/story/ai-supremacy-data-center-expansion-arctic-circle/",
+    "description": "As AI labs gorge themselves on compute, data center operators are flooding north in search of cheap and plentiful energy.",
+    "pubDate": "Mon, 02 Mar 2026 10:00:00 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Astera Labs",
+    "matchedCompanies": [
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "sectors": [
+      "chips"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Open Cosmos unveils vision for imagery-linked sovereign satellite connectivity",
+    "link": "https://spacenews.com/open-cosmos-unveils-vision-for-imagery-linked-sovereign-satellite-connectivity/",
+    "description": "\nOpen Cosmos shed more light on its proposed sovereign broadband constellation for Europe March 2, branding the Ka-band network ConnectedCosmos while leaving how it will meet mid-2026 deployment deadlines in the dark.\nThe post Open Cosmos unveils vision for imagery-linked sovereign satellite connect",
+    "pubDate": "Mon, 02 Mar 2026 08:10:00 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "AST SpaceMobile",
+    "matchedCompanies": [
+      "AST SpaceMobile",
+      "Osmo"
+    ],
+    "sectors": [
+      "space",
+      "consumer"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "ESA announces 100 million euro satellite-mobile convergence initiative",
     "link": "https://spacenews.com/esa-announces-100-million-euro-satellite-mobile-convergence-initiative/",
     "description": "\nThe European Space Agency announced up to $118 million in funding March 2 for projects promising to accelerate the convergence of satellite and terrestrial communications.\nThe post ESA announces 100 million euro satellite-mobile convergence initiative appeared first on SpaceNews.",
@@ -7,124 +48,18 @@
     "category": "AI",
     "source": "SpaceNews",
     "feedCategory": "space",
-    "matchedCompany": "Array Labs",
+    "matchedCompany": "PLD Space",
     "matchedCompanies": [
-      "Array Labs",
-      "Armada",
       "PLD Space",
-      "Terrestrial Energy",
-      "Floodbase",
-      "GHGSat",
-      "goTenna",
-      "Endurosat"
+      "Terrestrial Energy"
     ],
     "sectors": [
       "space",
-      "nuclear",
-      "climate",
-      "defense"
+      "nuclear"
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "Just now"
-  },
-  {
-    "title": "Düren’s Hydrogen Bet: The Math Behind a Looming Liability",
-    "link": "https://cleantechnica.com/2026/03/01/durens-hydrogen-bet-the-math-behind-a-looming-liability/",
-    "description": "Doing the math on Aberdeen’s abandonment of hydrogen buses led to a question from someone living in Düren, Germany about their hydrogen program. On the surface the situations look different. Aberdeen was a city trying to build a hydrogen ecosystem largely on its own. Düren, a district of about 270,0",
-    "pubDate": "Mon, 02 Mar 2026 03:15:03 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Destinus",
-    "matchedCompanies": [
-      "Destinus",
-      "H2 Green Steel",
-      "Mainspring Energy"
-    ],
-    "sectors": [
-      "space",
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "4h ago"
-  },
-  {
-    "title": "NASA outlines objectives for Mars communications orbiter",
-    "link": "https://spacenews.com/nasa-outlines-objectives-for-mars-communications-orbiter/",
-    "description": "\nNASA has provided new details about its plans to procure a Mars communications orbiter funded under last year’s budget reconciliation bill as companies continue positioning themselves to bid on it.\nThe post NASA outlines objectives for Mars communications orbiter appeared first on SpaceNews.",
-    "pubDate": "Mon, 02 Mar 2026 00:26:37 +0000",
-    "category": "Civil",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "goTenna",
-    "matchedCompanies": [
-      "goTenna"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "7h ago"
-  },
-  {
-    "title": "The Subaru Uncharted EV: Two Video Reviews",
-    "link": "https://cleantechnica.com/2026/03/01/the-subaru-uncharted-ev-two-video-reviews/",
-    "description": "The Subaru Solterra didn’t impress that much because of its limited range and fairly high price. Though, it might be a great car for some buyers. This new one, the Subaru Uncharted EV, seems much better mainly because it has a range of about 308 miles and a price below   ... [continued]\nThe post The",
-    "pubDate": "Sun, 01 Mar 2026 23:16:10 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Runway",
-    "matchedCompanies": [
-      "Runway"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "8h ago"
-  },
-  {
-    "title": "Lenovo’s Latest Wacky Concepts Include a Laptop With a Built-in Portable Monitor",
-    "link": "https://www.wired.com/story/lenovo-mwc-concepts-thinkbook-modular-ai-pc-legion-go-fold/",
-    "description": "At MWC 2026, the company also showed off a dual-screen Yoga Book with 3D capabilities, and the Legion Go Fold—a gaming handheld with a folding screen that converts into a mini laptop.",
-    "pubDate": "Sun, 01 Mar 2026 23:01:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Built Robotics",
-    "matchedCompanies": [
-      "Built Robotics"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "8h ago"
-  },
-  {
-    "title": "Polymarket saw $529M traded on bets tied to bombing of Iran",
-    "link": "https://techcrunch.com/2026/03/01/polymarket-saw-529m-traded-on-bets-tied-to-bombing-of-iran/",
-    "description": "Six newly-created accounts made a profit of $1 million by correctly betting that the U.S. would strike Iran by February 28.",
-    "pubDate": "Sun, 01 Mar 2026 19:05:35 +0000",
-    "category": "Fintech",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Flexport",
-    "matchedCompanies": [
-      "Flexport"
-    ],
-    "sectors": [
-      "consumer"
-    ],
-    "type": "news",
-    "impact": "medium",
-    "time": "12h ago"
+    "time": "2h ago"
   },
   {
     "title": "IEEE President’s Note: Engineering a Modern Renaissance",
@@ -137,17 +72,15 @@
     "matchedCompany": "Durin",
     "matchedCompanies": [
       "Durin",
-      "Parallel Systems",
-      "Fortera"
+      "Parallel Systems"
     ],
     "sectors": [
       "infrastructure",
-      "transportation",
-      "climate"
+      "transportation"
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "NIO &#038; Bosch Sign Strategic Cooperation Agreement",
@@ -166,7 +99,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "17h ago"
   },
   {
     "title": "OpenAI reveals more details about its agreement with the Pentagon",
@@ -176,62 +109,16 @@
     "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
-    "matchedCompany": "Reveal Technology",
+    "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "Reveal Technology",
       "OpenAI"
     ],
     "sectors": [
-      "defense",
       "ai"
     ],
     "type": "contract",
     "impact": "low",
-    "time": "15h ago"
-  },
-  {
-    "title": "NIO Deliveries Rise 58% in February — Charts",
-    "link": "https://cleantechnica.com/2026/03/01/nio-deliveries-rise-58-in-february-charts/",
-    "description": "NIO had quite a solid sales month in February despite the country as a whole being in a down moment for EV sales. The company had 20,797 vehicle deliveries, which was 57.6% more than the 13,192 vehicle deliveries of February 2025. From birth to now, NIO has reached 1,045,571 cumulative   ... [contin",
-    "pubDate": "Sun, 01 Mar 2026 16:01:29 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Attio",
-    "matchedCompanies": [
-      "Attio"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "15h ago"
-  },
-  {
-    "title": "Honor launches its new slim foldable Magic V6 with a 6,600 mAh battery",
-    "link": "https://techcrunch.com/2026/03/01/honor-launches-its-new-slim-foldable-magic-v6-with-a-6600-mah-battery/",
-    "description": "Honor also previewed battery tech that could take foldable batteries over 7,000 mAh mark",
-    "pubDate": "Sun, 01 Mar 2026 15:13:09 +0000",
-    "category": "Gadgets",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Base Power",
-    "matchedCompanies": [
-      "Base Power",
-      "Arc Boats",
-      "Impulse Labs",
-      "Verkor",
-      "FREYR Battery",
-      "QuantumScape"
-    ],
-    "sectors": [
-      "climate",
-      "transportation"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "16h ago"
+    "time": "18h ago"
   },
   {
     "title": "3 US troops killed, 5 seriously wounded in actions against Iran",
@@ -250,7 +137,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "19h ago"
   },
   {
     "title": "Anthropic’s Claude rises to No. 1 in the App Store following Pentagon dispute",
@@ -262,15 +149,14 @@
     "feedCategory": "tech",
     "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "Anthropic",
-      "Ada"
+      "Anthropic"
     ],
     "sectors": [
       "ai"
     ],
     "type": "contract",
     "impact": "low",
-    "time": "17h ago"
+    "time": "19h ago"
   },
   {
     "title": "Video Doorbell Advice and Settings for Opting Out of the Surveillance State",
@@ -283,40 +169,14 @@
     "matchedCompany": "Asylon Robotics",
     "matchedCompanies": [
       "Asylon Robotics",
-      "ideaForge",
-      "Runway"
+      "ideaForge"
     ],
     "sectors": [
-      "autonomous",
-      "ai"
+      "autonomous"
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
-  },
-  {
-    "title": "Best Laser Printers I've Tried (2026): Brother, HP, and More",
-    "link": "https://www.wired.com/gallery/best-laser-printers/",
-    "description": "Looking for fast printing at a relatively affordable cost? You probably want a laser printer.",
-    "pubDate": "Sun, 01 Mar 2026 11:30:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Xcimer Energy",
-    "matchedCompanies": [
-      "Xcimer Energy",
-      "Aurelius Systems",
-      "Focused Energy",
-      "Marvel Fusion"
-    ],
-    "sectors": [
-      "climate",
-      "defense",
-      "nuclear"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "20h ago"
+    "time": "22h ago"
   },
   {
     "title": "Letting Machines Decide What Matters",
@@ -326,37 +186,16 @@
     "category": "Large-hadron-collider",
     "source": "IEEE Spectrum",
     "feedCategory": "tech",
-    "matchedCompany": "Built Robotics",
+    "matchedCompany": "Together AI",
     "matchedCompanies": [
-      "Built Robotics",
       "Together AI"
     ],
     "sectors": [
-      "robotics",
       "ai"
     ],
     "type": "news",
     "impact": "high",
-    "time": "21h ago"
-  },
-  {
-    "title": "Make the Most of Chrome's Toolbar by Customizing It to Your Liking",
-    "link": "https://www.wired.com/story/how-to-customize-google-chrome-toolbar-to-your-liking/",
-    "description": "There are plenty of ways to customize Chrome to make it easier to navigate the web, manage your tasks, and make your workflow more efficient.",
-    "pubDate": "Sun, 01 Mar 2026 11:00:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Dunia",
-    "matchedCompanies": [
-      "Dunia"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "21h ago"
+    "time": "23h ago"
   },
   {
     "title": "CAS Space to launch Kinetica-2 in late March carrying prototype cargo spacecraft",
@@ -366,40 +205,14 @@
     "category": "Commercial",
     "source": "SpaceNews",
     "feedCategory": "space",
-    "matchedCompany": "Airship Industries",
+    "matchedCompany": "Dawn Aerospace",
     "matchedCompanies": [
-      "Airship Industries",
-      "Clippership",
       "Dawn Aerospace"
     ],
     "sectors": [
-      "autonomous",
-      "ocean",
       "space"
     ],
     "type": "ipo",
-    "impact": "low",
-    "time": "23h ago"
-  },
-  {
-    "title": "Another One Bites the Dust: Aberdeen’s Hydrogen Bus Fleet Ends In Failure",
-    "link": "https://cleantechnica.com/2026/03/01/another-one-bites-the-dust-aberdeens-hydrogen-bus-fleet-ends-in-failure/",
-    "description": "Aberdeen’s decision to retire and try to sell its 25 hydrogen double decker buses closes a chapter that began with confident claims about global leadership in clean transport. The fleet was promoted as the world’s first hydrogen double deck operation and positioned as a foundation for a broader hydr",
-    "pubDate": "Sun, 01 Mar 2026 05:51:38 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Destinus",
-    "matchedCompanies": [
-      "Destinus",
-      "H2 Green Steel",
-      "Mainspring Energy"
-    ],
-    "sectors": [
-      "space",
-      "climate"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "1d ago"
   },
@@ -416,13 +229,11 @@
       "Machina Labs",
       "Divergent",
       "Skeleton Technologies",
-      "Ada",
       "Solid Power"
     ],
     "sectors": [
       "robotics",
-      "climate",
-      "ai"
+      "climate"
     ],
     "type": "news",
     "impact": "low",
@@ -438,62 +249,31 @@
     "feedCategory": "energy",
     "matchedCompany": "Ample",
     "matchedCompanies": [
-      "Ample",
-      "Impulse Labs"
+      "Ample"
     ],
     "sectors": [
-      "infrastructure",
-      "climate"
+      "infrastructure"
     ],
     "type": "ipo",
     "impact": "low",
     "time": "1d ago"
   },
   {
-    "title": "Why the US attack on Iran is unlikely to produce regime change in Tehran",
-    "link": "https://www.defenseone.com/ideas/2026/02/massive-us-attacks-iran-unlikely-produce-regime-change-tehran/411787/",
-    "description": "A conversation with veteran diplomat Donald Heflin, a leader at Tufts University's Fletcher School.",
-    "pubDate": "Sat, 28 Feb 2026 20:53:42 -0500",
-    "category": "Ideas",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "Alpha School",
+    "title": "Grok 4.20 Praises Nextbigfuture and Brian Wang as Premier AI Training Source for Future Technology and Futurism",
+    "link": "https://www.nextbigfuture.com/2026/02/grok-4-20-praises-nextbigfuture-and-brian-wang-as-premier-ai-training-source-for-future-technology-and-futurism.html",
+    "description": "XAI Grok 4.20 says the 1400+ nextbigfuture citations in grokipedia and Brian Wang&#8217;s evidence based quantitative forecast are trend synthesis that few can rival. A personal track record of success in deep-tech startups and multiple fundraising wins adds practical, real-world validation to the p",
+    "pubDate": "Sun, 01 Mar 2026 02:24:43 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Synthesis",
     "matchedCompanies": [
-      "Alpha School"
+      "Synthesis"
     ],
     "sectors": [
       "consumer"
     ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Fluorine &#038; Tofu Brine Lead To Battery Breakthroughs In China",
-    "link": "https://cleantechnica.com/2026/02/28/fluorine-tofu-brine-lead-to-battery-breakthroughs-in-china/",
-    "description": "Battery research in China is making major breakthroughs on almost a weekly basis in terms of cost, performance, and safety. \nThe post Fluorine &#038; Tofu Brine Lead To Battery Breakthroughs In China appeared first on CleanTechnica.",
-    "pubDate": "Sun, 01 Mar 2026 01:29:10 +0000",
-    "category": "Batteries",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Biofire",
-    "matchedCompanies": [
-      "Biofire",
-      "Beacon AI",
-      "Impulse Labs",
-      "Grain Weevil",
-      "Turbopuffer",
-      "Skyryse",
-      "Sakana AI"
-    ],
-    "sectors": [
-      "defense",
-      "ai",
-      "climate",
-      "robotics",
-      "space"
-    ],
-    "type": "news",
+    "type": "funding",
     "impact": "low",
     "time": "1d ago"
   },
@@ -507,12 +287,10 @@
     "feedCategory": "space",
     "matchedCompany": "Intuitive Machines",
     "matchedCompanies": [
-      "Intuitive Machines",
-      "goTenna"
+      "Intuitive Machines"
     ],
     "sectors": [
-      "space",
-      "defense"
+      "space"
     ],
     "type": "funding",
     "impact": "medium",
@@ -529,12 +307,10 @@
     "matchedCompany": "Anthropic",
     "matchedCompanies": [
       "Anthropic",
-      "OpenAI",
-      "Built Robotics"
+      "OpenAI"
     ],
     "sectors": [
-      "ai",
-      "robotics"
+      "ai"
     ],
     "type": "news",
     "impact": "low",
@@ -560,78 +336,6 @@
     "time": "1d ago"
   },
   {
-    "title": "X Is Drowning in Disinformation Following US and Israeli Attack on Iran",
-    "link": "https://www.wired.com/story/x-is-drowning-in-disinformation-following-us-and-israels-attack-on-iran/",
-    "description": "WIRED has reviewed hundreds of posts on X that promote misleading claims about the locations and scale of the attack.",
-    "pubDate": "Sat, 28 Feb 2026 22:40:53 +0000",
-    "category": "Politics",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Scale AI",
-    "matchedCompanies": [
-      "Scale AI"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Twice Bombed, Still Nuclear: The Limits of Force Against Iran’s Atomic Program",
-    "link": "https://warontherocks.com/2026/02/twice-bombed-still-nuclear-the-limits-of-force-against-irans-atomic-program/",
-    "description": "On Feb. 28, the United States and Israel launched coordinated but separately named military campaigns against Iran &#8212; the United States under Operation Epic Fury and Israel under Operation Roaring Lion &#8212; striking Iran&#8217;s nuclear facilities, ballistic missile infrastructure, and milit",
-    "pubDate": "Sat, 28 Feb 2026 21:28:55 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "The Boring Company",
-    "matchedCompanies": [
-      "The Boring Company",
-      "Pipedream",
-      "Atomic Industries",
-      "Blumen Systems",
-      "Durin",
-      "Crusoe Energy",
-      "Terranova",
-      "Fortastra",
-      "Quantum Machines",
-      "Percepto",
-      "Together AI"
-    ],
-    "sectors": [
-      "transportation",
-      "robotics",
-      "infrastructure",
-      "ai",
-      "quantum",
-      "autonomous"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "What to know about the landmark Warner Bros. Discovery sale",
-    "link": "https://techcrunch.com/2026/02/28/warner-bros-netflix-paramount-acquisition-timeline-wbd/",
-    "description": "Learn more about Paramount's planned acquisition of Warner Bros. Discovery — a historic Hollywood megadeal valued at $111 billion — as it continues to develop.",
-    "pubDate": "Sat, 28 Feb 2026 21:28:06 +0000",
-    "category": "Media & Entertainment",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Cover",
-    "matchedCompanies": [
-      "Cover"
-    ],
-    "sectors": [
-      "construction"
-    ],
-    "type": "news",
-    "impact": "high",
-    "time": "1d ago"
-  },
-  {
     "title": "The billion-dollar infrastructure deals powering the AI boom",
     "link": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
     "description": "Here's everything we know about the biggest AI infrastructure projects, including major spending from Meta, Oracle, Microsoft, Google, and OpenAI.",
@@ -639,29 +343,14 @@
     "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
-    "matchedCompany": "The Boring Company",
+    "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "The Boring Company",
-      "Pipedream",
-      "Blumen Systems",
-      "Durin",
       "OpenAI",
-      "Crusoe Energy",
-      "Terranova",
-      "Fortastra",
-      "Quantum Machines",
-      "Percepto",
-      "Turbopuffer",
-      "Photonic Inc",
-      "Together AI"
+      "Photonic Inc"
     ],
     "sectors": [
-      "transportation",
-      "infrastructure",
       "ai",
-      "robotics",
-      "quantum",
-      "autonomous"
+      "quantum"
     ],
     "type": "news",
     "impact": "high",
@@ -677,13 +366,10 @@
     "feedCategory": "energy",
     "matchedCompany": "Recursion Pharmaceuticals",
     "matchedCompanies": [
-      "Recursion Pharmaceuticals",
-      "NEURA Robotics",
-      "Neura Robotics"
+      "Recursion Pharmaceuticals"
     ],
     "sectors": [
-      "biotech",
-      "robotics"
+      "biotech"
     ],
     "type": "funding",
     "impact": "medium",
@@ -747,6 +433,27 @@
     "time": "1d ago"
   },
   {
+    "title": "TESLA HAS 1000+ ROBOTAXI -WHY ONLY 400 COUNTED ?",
+    "link": "https://www.nextbigfuture.com/2026/02/tesla-has-1000-robotaxi-why-only-400-counted.html",
+    "description": "There is the wrong assumption of the accuracy of crowd robotaxi counts BUT only 139 out of 200 Waymos counted in Austin with same methods. At least 30% undercounted. Harder to find robotaxi (Waymo-Tesla) in the SF Bay Area. 67 Waymos counted in SF Bay Area out of 1000 Waymo claimed. I believe the ma",
+    "pubDate": "Sat, 28 Feb 2026 17:25:04 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
     "title": "OpenAI’s Sam Altman announces Pentagon deal with ‘technical safeguards’",
     "link": "https://techcrunch.com/2026/02/28/openais-sam-altman-announces-pentagon-deal-with-technical-safeguards/",
     "description": "OpenAI's CEO claims its new defense contract includes protections addressing the same issues that became a flashpoint for Anthropic.",
@@ -767,40 +474,19 @@
     "time": "1d ago"
   },
   {
-    "title": "The Return Of The Esmeralda 7 Solar Power Project",
-    "link": "https://cleantechnica.com/2026/02/28/the-return-of-the-esmeralda-7-solar-power-project/",
-    "description": "The Esmeralda 7 solar power project could yet see the light of day, depending on who wins the race for Nevada Governor this fall.\nThe post The Return Of The Esmeralda 7 Solar Power Project appeared first on CleanTechnica.",
-    "pubDate": "Sat, 28 Feb 2026 15:50:00 +0000",
-    "category": "Clean Power",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Terraform Industries",
-    "matchedCompanies": [
-      "Terraform Industries",
-      "Ada"
-    ],
-    "sectors": [
-      "climate",
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "This Is the System That Intercepted Iran’s Missiles Over the UAE",
-    "link": "https://www.wired.com/story/uae-missile-intercept-system-iran/",
-    "description": "As Iranian missiles targeted US-linked sites across the Gulf, the UAE’s missile shield was activated in real time.",
-    "pubDate": "Sat, 28 Feb 2026 15:12:51 +0000",
-    "category": "Security",
-    "source": "Wired",
+    "title": "Change all Jobs? Change is Hard and Risky",
+    "link": "https://www.nextbigfuture.com/2026/02/change-all-jobs-change-is-hard-and-risky.html",
+    "description": "IBM losing 13% because Anthropic did some initial COBOL analysis is absurd. It was also an absurd part of the $1 trillion stock losses from the boogeyman story about AI job losses. 1. IBM only makes a tiny fraction from the COBOL business 2. BS the banks etc&#8230; will change the cobol running the ",
+    "pubDate": "Sat, 28 Feb 2026 15:54:11 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
     "feedCategory": "tech",
-    "matchedCompany": "Shield AI",
+    "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "Shield AI"
+      "Anthropic"
     ],
     "sectors": [
-      "defense"
+      "ai"
     ],
     "type": "news",
     "impact": "low",
@@ -818,52 +504,10 @@
     "matchedCompanies": [
       "Agility Robotics",
       "Apptronik",
-      "1X Technologies",
-      "Osmo"
+      "1X Technologies"
     ],
     "sectors": [
-      "robotics",
-      "consumer"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Review: Xiaomi 17 Ultra and Leitzphone Pack Leica Magic Into a Flagship Phone",
-    "link": "https://www.wired.com/review/xiaomi-17-ultra-leitzphone/",
-    "description": "The latest Xiaomi flagship is a beast and comes in a specially co-designed Leica edition that’s picture-perfect.",
-    "pubDate": "Sat, 28 Feb 2026 14:32:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "IQM Quantum Computers",
-    "matchedCompanies": [
-      "IQM Quantum Computers"
-    ],
-    "sectors": [
-      "quantum"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "This Power Grid Pioneer’s EV Prediction Came 100 Years Too Soon",
-    "link": "https://spectrum.ieee.org/charles-proteus-steinmetz",
-    "description": "Charles Proteus Steinmetz was a towering figure in the early decades of electrical engineering, easily the intellectual equal of Thomas Edison and Nikola Tesla—men he considered his friends. One of Steinmetz’s most significant achievements was to quantify and characterize the phenomenon of magnetic ",
-    "pubDate": "Sat, 28 Feb 2026 14:00:02 +0000",
-    "category": "Electric-vehicles",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Figure AI",
-    "matchedCompanies": [
-      "Figure AI",
-      "Proteus Space"
-    ],
-    "sectors": [
-      "ai",
-      "space"
+      "robotics"
     ],
     "type": "news",
     "impact": "low",
@@ -881,93 +525,11 @@
     "matchedCompanies": [
       "Cape",
       "Percepto",
-      "ideaForge",
-      "Endurosat"
+      "ideaForge"
     ],
     "sectors": [
       "climate",
-      "autonomous",
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "The Best MicroSD Cards for Your Camera, Switch, and More",
-    "link": "https://www.wired.com/gallery/best-micro-sd-cards/",
-    "description": "Everything you need to know about memory cards for cameras, video game systems, and more.",
-    "pubDate": "Sat, 28 Feb 2026 12:00:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Runway",
-    "matchedCompanies": [
-      "Runway"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "The Best Laptop Cooling Pad and Why You Should Buy One",
-    "link": "https://www.wired.com/story/best-laptop-cooling-pad/",
-    "description": "Most laptop cooling pads are useless, but if you get the right one, it can make a huge impact on how long your gaming laptop lasts.",
-    "pubDate": "Sat, 28 Feb 2026 11:38:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "NetworkOcean",
-    "matchedCompanies": [
-      "NetworkOcean"
-    ],
-    "sectors": [
-      "ocean"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Area Man Accidentally Hacks 6,700 Camera-Enabled Robot Vacuums",
-    "link": "https://www.wired.com/story/security-news-this-week-area-man-accidentally-hacks-6700-camera-enabled-robot-vacuums/",
-    "description": "Plus: The top US cyber agency falls into shambles, AI models develop an upsetting penchant for nuclear weapons, and more.",
-    "pubDate": "Sat, 28 Feb 2026 11:30:00 +0000",
-    "category": "Security",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Matic Robotics",
-    "matchedCompanies": [
-      "Matic Robotics"
-    ],
-    "sectors": [
-      "consumer"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Which Water Filter Pitchers Filter PFAS? How to Check",
-    "link": "https://www.wired.com/story/water-filter-explainer-nsf-verifications/",
-    "description": "Checking up on the claims of water filter makers can be a discomfiting maze. Here's how to verify independent water filter certifications.",
-    "pubDate": "Sat, 28 Feb 2026 10:36:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Rainmaker",
-    "matchedCompanies": [
-      "Rainmaker",
-      "Vital Lyfe",
-      "Elodin"
-    ],
-    "sectors": [
-      "autonomous",
-      "consumer",
-      "infrastructure"
+      "autonomous"
     ],
     "type": "news",
     "impact": "low",
@@ -990,7 +552,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Apollo Go Reaches 20 Million Trips, 190 Million Fully Driverless Kilometers",
@@ -1040,42 +602,17 @@
     "category": "Business",
     "source": "Wired",
     "feedCategory": "tech",
-    "matchedCompany": "Vannevar Labs",
+    "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "Vannevar Labs",
-      "Reveal Technology",
-      "Umbra",
       "Anthropic",
       "Bronco AI",
-      "Rebellion Defense",
       "Fortastra"
     ],
     "sectors": [
-      "defense",
-      "space",
       "ai",
       "infrastructure"
     ],
     "type": "contract",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Sierra Club Releases First Trove of Emails, Texts, and Calendars from Trump’s Department of the Interior",
-    "link": "https://cleantechnica.com/2026/02/27/sierra-club-releases-first-trove-of-emails-texts-and-calendars-from-trumps-department-of-the-interior/",
-    "description": "WASHINGTON, DC — Today, the Sierra Club released the first batch of communications and calendars received from the Department of the Interior in the wake of the organization’s lawsuit following the agency’s failure to respond to public records requests for the documents. The Sierra Club sought calen",
-    "pubDate": "Sat, 28 Feb 2026 02:53:11 +0000",
-    "category": "Policy & Politics",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "goTenna",
-    "matchedCompanies": [
-      "goTenna"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "ipo",
     "impact": "low",
     "time": "2d ago"
   },
@@ -1091,83 +628,15 @@
     "matchedCompanies": [
       "Terraform Industries",
       "Form Energy",
-      "Destinus",
       "EnerVenue",
       "Sunfire",
-      "H2 Green Steel",
       "Synhelion",
-      "Mainspring Energy",
       "Electric Hydrogen"
     ],
     "sectors": [
-      "climate",
-      "space"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "How Sustainable Were The 2026 Olympics, Really?",
-    "link": "https://cleantechnica.com/2026/02/27/how-sustainable-were-the-2026-olympics-really/",
-    "description": "The International Olympic Committee (IOC) is proud of the sustainability actions it required the host country, Italy, to implement for the 2026 Milano Cortina Games. Measures included minimizing negative impacts on the environment and using the Games&#8217; visibility to showcase sustainable solutio",
-    "pubDate": "Sat, 28 Feb 2026 00:41:45 +0000",
-    "category": "Climate Change",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Astroscale",
-    "matchedCompanies": [
-      "Astroscale",
-      "Framework Computer",
-      "ClearSpace",
-      "Fairmat"
-    ],
-    "sectors": [
-      "space",
-      "consumer",
       "climate"
     ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "How Europe Can Meet Hydrogen Fuel Mandates Without Hydrogen Fuels",
-    "link": "https://cleantechnica.com/2026/02/27/how-europe-can-meet-hydrogen-fuel-mandates-without-hydrogen-fuels/",
-    "description": "When I published my recent piece on Germany’s bid to double hydrogen-based fuel targets to try to justify already built and already stranded hydrogen infrastructure, readers raised important questions about compliance mechanics. One pointed out that the 1% RFNBO subtarget can be met by replacing gre",
-    "pubDate": "Sat, 28 Feb 2026 00:17:28 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "The Boring Company",
-    "matchedCompanies": [
-      "The Boring Company",
-      "Pipedream",
-      "Blumen Systems",
-      "Durin",
-      "Destinus",
-      "Crusoe Energy",
-      "Terranova",
-      "Fortastra",
-      "H2 Green Steel",
-      "Quantum Machines",
-      "Percepto",
-      "Built Robotics",
-      "LanzaTech",
-      "Mainspring Energy",
-      "Together AI"
-    ],
-    "sectors": [
-      "transportation",
-      "infrastructure",
-      "space",
-      "ai",
-      "robotics",
-      "climate",
-      "quantum",
-      "autonomous"
-    ],
-    "type": "funding",
+    "type": "hire",
     "impact": "low",
     "time": "2d ago"
   },
@@ -1179,23 +648,16 @@
     "category": "Pentagon",
     "source": "Defense News",
     "feedCategory": "defense",
-    "matchedCompany": "Biofire",
+    "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "Biofire",
       "Anthropic",
-      "Beacon AI",
       "Bronco AI",
       "Fortastra",
-      "Grain Weevil",
-      "Skyryse",
       "Kolena"
     ],
     "sectors": [
-      "defense",
       "ai",
-      "infrastructure",
-      "robotics",
-      "space"
+      "infrastructure"
     ],
     "type": "news",
     "impact": "low",
@@ -1234,13 +696,11 @@
     "category": "Apps",
     "source": "TechCrunch",
     "feedCategory": "tech",
-    "matchedCompany": "Flexport",
+    "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "Flexport",
       "OpenAI"
     ],
     "sectors": [
-      "consumer",
       "ai"
     ],
     "type": "news",
@@ -1324,61 +784,14 @@
     "matchedCompany": "Palantir",
     "matchedCompanies": [
       "Palantir",
-      "Galvanick",
-      "Cape",
-      "Percepto",
-      "ideaForge"
+      "Galvanick"
     ],
     "sectors": [
       "ai",
-      "defense",
-      "climate",
-      "autonomous"
+      "defense"
     ],
     "type": "news",
     "impact": "high",
-    "time": "2d ago"
-  },
-  {
-    "title": "Photons that aren&#039;t actually there influence superconductivity",
-    "link": "https://arstechnica.com/science/2026/02/photons-that-arent-actually-there-influence-superconductivity/",
-    "description": "",
-    "pubDate": "Fri, 27 Feb 2026 21:27:33 +0000",
-    "category": "Science",
-    "source": "Ars Technica Space",
-    "feedCategory": "space",
-    "matchedCompany": "Rocket Lab",
-    "matchedCompanies": [
-      "Rocket Lab"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "4 Takeaways From The Nation’s Biggest Heat Pump Expo",
-    "link": "https://cleantechnica.com/2026/02/27/4-takeaways-from-the-nations-biggest-heat-pump-expo/",
-    "description": "In early February I had the opportunity to travel to Las Vegas to the AHR Expo. For those of you who have never heard of it, it’s a ginormous 50,000-person expo focused primarily on space and water heating systems, a Mecca of sorts for a heat pump dork like me.   ... [continued]\nThe post 4 Takeaways",
-    "pubDate": "Fri, 27 Feb 2026 21:21:50 +0000",
-    "category": "Heat Pumps",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Rainmaker",
-    "matchedCompanies": [
-      "Rainmaker",
-      "Vital Lyfe",
-      "Focused Energy"
-    ],
-    "sectors": [
-      "autonomous",
-      "consumer",
-      "nuclear"
-    ],
-    "type": "ipo",
-    "impact": "low",
     "time": "2d ago"
   },
   {
@@ -1389,21 +802,12 @@
     "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
-    "matchedCompany": "Biofire",
+    "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "Biofire",
-      "Anthropic",
-      "Beacon AI",
-      "OpenAI",
-      "Grain Weevil",
-      "Skyryse",
-      "Kolena"
+      "OpenAI"
     ],
     "sectors": [
-      "defense",
-      "ai",
-      "robotics",
-      "space"
+      "ai"
     ],
     "type": "news",
     "impact": "low",
@@ -1417,13 +821,11 @@
     "category": "Business",
     "source": "Wired",
     "feedCategory": "tech",
-    "matchedCompany": "Flexport",
+    "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "Flexport",
       "OpenAI"
     ],
     "sectors": [
-      "consumer",
       "ai"
     ],
     "type": "milestone",
@@ -1443,11 +845,7 @@
       "Cerebras",
       "Lab 91",
       "Andromeda Surgical",
-      "Conductor Quantum",
       "OpenAI",
-      "PsiQuantum",
-      "Astera Labs",
-      "Zettascale",
       "Black Semiconductor",
       "Rapidus",
       "Rebellions"
@@ -1455,11 +853,31 @@
     "sectors": [
       "chips",
       "biotech",
-      "quantum",
       "ai"
     ],
     "type": "funding",
     "impact": "high",
+    "time": "2d ago"
+  },
+  {
+    "title": "Tesla Robotaxi -the Real Fleet Size is Likely 1000+",
+    "link": "https://www.nextbigfuture.com/2026/02/tesla-robotaxi-the-real-fleet-size-is-likely-1000.html",
+    "description": "Executive Summary Takeaways • Tesla’s Dec 2025 CPUC filing showed 798 drivers + 1,655 vehicles registered for supervised robotaxi in the Bay Area—massively larger than the ~330+ spotted by community trackers. • Trackers capture only ~70% of fleets (Waymo Austin benchmark is 144 counted versus ~200 c",
+    "pubDate": "Fri, 27 Feb 2026 18:59:24 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "low",
     "time": "2d ago"
   },
   {
@@ -1473,64 +891,13 @@
     "matchedCompany": "Alpha School",
     "matchedCompanies": [
       "Alpha School",
-      "Synthesis",
-      "Turbopuffer",
-      "Sakana AI"
+      "Synthesis"
     ],
     "sectors": [
-      "consumer",
-      "ai"
+      "consumer"
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Video Friday: Robot Dogs Haul Produce From the Field",
-    "link": "https://spectrum.ieee.org/quadruped-farming-robots",
-    "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! Ou",
-    "pubDate": "Fri, 27 Feb 2026 18:00:55 +0000",
-    "category": "Humanoid-robots",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Field AI",
-    "matchedCompanies": [
-      "Field AI",
-      "Runway"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "400 MW Solar Power Farm Has Huge Battery System Too (Video)",
-    "link": "https://cleantechnica.com/2026/02/27/400-mw-solar-power-farm-has-huge-battery-system-too-video/",
-    "description": "Robert Llewellyn, from the Everything Electric Tech show (as well as Red Dwarf and various other TV shows), recently drove a Polestar to visit a huge solar power and energy storage facility in Australia. The solar power portion has nearly one million solar panels, and there is a huge battery   ... [",
-    "pubDate": "Fri, 27 Feb 2026 17:40:56 +0000",
-    "category": "Batteries",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Terraform Industries",
-    "matchedCompanies": [
-      "Terraform Industries",
-      "Natron Energy",
-      "Impulse Labs",
-      "Gravitricity",
-      "Skeleton Technologies",
-      "Runway",
-      "Sage Geosystems",
-      "Fourth Power",
-      "Solid Power"
-    ],
-    "sectors": [
-      "climate",
-      "ai"
-    ],
-    "type": "news",
-    "impact": "medium",
     "time": "2d ago"
   },
   {
@@ -1560,25 +927,13 @@
     "category": "Clean Transport",
     "source": "CleanTechnica",
     "feedCategory": "energy",
-    "matchedCompany": "Vannevar Labs",
+    "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "Vannevar Labs",
-      "Reveal Technology",
-      "Biofire",
-      "Umbra",
       "Anthropic",
-      "Beacon AI",
-      "Rebellion Defense",
-      "Grain Weevil",
-      "Built Robotics",
-      "Skyryse",
       "Kolena"
     ],
     "sectors": [
-      "defense",
-      "space",
-      "ai",
-      "robotics"
+      "ai"
     ],
     "type": "news",
     "impact": "low",
@@ -1592,9 +947,8 @@
     "category": "Podcasts",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "DIRAC",
+    "matchedCompany": "Karman Industries",
     "matchedCompanies": [
-      "DIRAC",
       "Karman Industries",
       "Solugen",
       "Gecko Robotics",
@@ -1602,11 +956,30 @@
       "H2 Green Steel"
     ],
     "sectors": [
-      "robotics",
       "climate",
+      "robotics",
       "infrastructure"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "Artemis 3 is a Low Earth Orbit Rendezvous Test",
+    "link": "https://www.nextbigfuture.com/2026/02/artemis-3-is-a-low-earth-orbit-rendezvous-test.html",
+    "description": "NASA has changed Artemis III into a 2027 LEO (low earth orbit) rendezvous mission. There is no orbital refueling is needed at all by SpaceX. Block 1B &#8211; the planned upgrade to the SLS rocket &#8211; is dead. No more custom builds. No second mobile launcher. NASA is standardizing the rocket so t",
+    "pubDate": "Fri, 27 Feb 2026 17:19:48 +0000",
+    "category": "Space",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
     "impact": "low",
     "time": "2d ago"
   },
@@ -1657,27 +1030,12 @@
     "category": "Batteries",
     "source": "CleanTechnica",
     "feedCategory": "energy",
-    "matchedCompany": "Base Power",
+    "matchedCompany": "Ample",
     "matchedCompanies": [
-      "Base Power",
-      "Arc Boats",
-      "Aepnus Technology",
-      "Ample",
-      "KoBold Metals",
-      "Redwood Materials",
-      "Impulse Labs",
-      "Verkor",
-      "FREYR Battery",
-      "QuantumScape",
-      "Runway",
-      "Hexium"
+      "Ample"
     ],
     "sectors": [
-      "climate",
-      "transportation",
-      "infrastructure",
-      "ai",
-      "nuclear"
+      "infrastructure"
     ],
     "type": "news",
     "impact": "low",
@@ -1691,42 +1049,14 @@
     "category": "Threats",
     "source": "Defense One",
     "feedCategory": "defense",
-    "matchedCompany": "Neros",
+    "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "Neros",
-      "Xcimer Energy",
-      "Aurelius Systems",
-      "Anthropic",
-      "Focused Energy",
-      "Marvel Fusion",
-      "White Stork"
+      "Anthropic"
     ],
     "sectors": [
-      "defense",
-      "climate",
-      "ai",
-      "nuclear"
+      "ai"
     ],
     "type": "contract",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Is the Army about to shake up its Bradley replacement, XM30? Sources see major signs.",
-    "link": "https://breakingdefense.com/2026/02/is-the-army-about-to-shake-up-the-xm30-bradley-replacement-sources-see-major-signs/",
-    "description": "Sources told Breaking Defense a new RFI may be a backdoor effort to speed up, or potentially revamp entirely, the Bradley replacement competition.",
-    "pubDate": "Fri, 27 Feb 2026 16:25:19 +0000",
-    "category": "Land Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Fortera",
-    "matchedCompanies": [
-      "Fortera"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "2d ago"
   },
@@ -1744,25 +1074,6 @@
     ],
     "sectors": [
       "infrastructure"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Pakistan in ‘open war’ with Afghanistan, defense minister says",
-    "link": "https://www.defensenews.com/global/mideast-africa/2026/02/27/pakistan-in-open-war-with-afghanistan-defense-minister-says/",
-    "description": "Pakistan and Afghanistan exchanged cross-border attacks overnight in a dramatic escalation of tensions.",
-    "pubDate": "Fri, 27 Feb 2026 16:21:44 +0000",
-    "category": "/ Mideast Africa",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Matic Robotics",
-    "matchedCompanies": [
-      "Matic Robotics"
-    ],
-    "sectors": [
-      "consumer"
     ],
     "type": "news",
     "impact": "low",
@@ -1810,13 +1121,10 @@
     "feedCategory": "space",
     "matchedCompany": "Astro Mechanica",
     "matchedCompanies": [
-      "Astro Mechanica",
-      "Earth AI",
-      "ispace"
+      "Astro Mechanica"
     ],
     "sectors": [
-      "space",
-      "infrastructure"
+      "space"
     ],
     "type": "ipo",
     "impact": "low",
@@ -1832,12 +1140,10 @@
     "feedCategory": "defense",
     "matchedCompany": "Durin",
     "matchedCompanies": [
-      "Durin",
-      "FREYR Battery"
+      "Durin"
     ],
     "sectors": [
-      "infrastructure",
-      "climate"
+      "infrastructure"
     ],
     "type": "news",
     "impact": "low",
@@ -1873,15 +1179,10 @@
     "feedCategory": "tech",
     "matchedCompany": "Galvanick",
     "matchedCompanies": [
-      "Galvanick",
-      "Cape",
-      "Percepto",
-      "ideaForge"
+      "Galvanick"
     ],
     "sectors": [
-      "defense",
-      "climate",
-      "autonomous"
+      "defense"
     ],
     "type": "news",
     "impact": "low",
@@ -1905,74 +1206,6 @@
       "infrastructure"
     ],
     "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Sector Snapshot: Space Tech Startup Funding Still Flying High",
-    "link": "https://news.crunchbase.com/venture/space-tech-startup-funding-flying-high/",
-    "description": "Venture funding to companies in Crunchbase space tech and satellite categories hit a high last year of nearly $12 billion. So far, 2026 is off to a brisk start as well.",
-    "pubDate": "Fri, 27 Feb 2026 12:00:18 +0000",
-    "category": "Defense tech",
-    "source": "Crunchbase News",
-    "feedCategory": "funding",
-    "matchedCompany": "Array Labs",
-    "matchedCompanies": [
-      "Array Labs",
-      "Armada",
-      "Floodbase",
-      "GHGSat",
-      "Celero Communications",
-      "Hubble Network",
-      "Orbion Space Technology"
-    ],
-    "sectors": [
-      "space",
-      "climate"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "2d ago"
-  },
-  {
-    "title": "Huxe Will Give You a Personalized, Daily Audio Summary Powered by AI",
-    "link": "https://www.wired.com/story/huxe-personalized-daily-audio-podcasts-powered-by-ai/",
-    "description": "The app reads your email inbox and your meeting calendar, then gives you a short audio summary. It can help you spend less time scrolling, but of course, there are privacy drawbacks to consider.",
-    "pubDate": "Fri, 27 Feb 2026 12:00:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "ElevenLabs",
-    "matchedCompanies": [
-      "ElevenLabs"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Bond Strength, Biocompatibility, and Beyond",
-    "link": "https://content.knowledgehub.wiley.com/a-guide-to-selecting-adhesives-for-medical-device-applications/",
-    "description": "Designing a medical device? This whitepaper helps you evaluate adhesive options for biocompatibility, sterilization resistance, and manufacturability — so you can make the right material decision early.What Attendees will Learn How to select between epoxy, silicone, cyanoacrylate, and UV/LED curable",
-    "pubDate": "Fri, 27 Feb 2026 11:00:02 +0000",
-    "category": "Type-whitepaper",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Zipline",
-    "matchedCompanies": [
-      "Zipline",
-      "Conductor Quantum",
-      "Kinova Robotics"
-    ],
-    "sectors": [
-      "autonomous",
-      "quantum",
-      "robotics"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "2d ago"
   },
@@ -2013,26 +1246,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "6 Great Power Bank Deals for Your Thirsty Phone Battery",
-    "link": "https://www.wired.com/story/power-bank-deals-february-2026/",
-    "description": "We’ve tested dozens of portable power banks, and several of our top picks are on sale right now.",
-    "pubDate": "Fri, 27 Feb 2026 09:36:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Impulse Labs",
-    "matchedCompanies": [
-      "Impulse Labs"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "All Too Quiet on the Western Neuroenhancement Front",
@@ -2042,23 +1256,16 @@
     "category": "Cogs of War",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Field AI",
+    "matchedCompany": "Electric Sheep",
     "matchedCompanies": [
-      "Field AI",
-      "Matic Robotics",
-      "Electric Sheep",
-      "Surge AI",
-      "Fortera"
+      "Electric Sheep"
     ],
     "sectors": [
-      "ai",
-      "consumer",
-      "robotics",
-      "climate"
+      "robotics"
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Volvo Scales Up Electric Heavy Trucks As Profits Fund Zero-Emission Shift",
@@ -2071,29 +1278,16 @@
     "matchedCompany": "Karman Industries",
     "matchedCompanies": [
       "Karman Industries",
-      "Scale AI",
       "Brimstone",
       "Boston Metal",
-      "Durin",
-      "Carbon Robotics",
       "Sublime Systems",
       "Impulse Labs",
-      "Mariana Minerals",
       "FleetZero",
-      "Gravitricity",
-      "H2 Green Steel",
-      "Rapid Robotics",
-      "Rivian",
-      "Endurosat",
-      "Watershed"
+      "H2 Green Steel"
     ],
     "sectors": [
       "climate",
-      "defense",
-      "infrastructure",
-      "robotics",
-      "transportation",
-      "space"
+      "transportation"
     ],
     "type": "news",
     "impact": "medium",
@@ -2107,28 +1301,12 @@
     "category": "Clean Power",
     "source": "CleanTechnica",
     "feedCategory": "energy",
-    "matchedCompany": "Terraform Industries",
+    "matchedCompany": "WeaveGrid",
     "matchedCompanies": [
-      "Terraform Industries",
-      "Fervo Energy",
-      "NuScale Power",
-      "Zap Energy",
-      "General Fusion",
-      "Pacific Fusion",
-      "Tokamak Energy",
-      "First Light Fusion",
-      "Proxima Fusion",
-      "Deep Atomic",
-      "WeaveGrid",
-      "Zanskar",
-      "ARC Clean Technology",
-      "Steady Energy",
-      "Electric Hydrogen",
-      "Sage Geosystems"
+      "WeaveGrid"
     ],
     "sectors": [
-      "climate",
-      "nuclear"
+      "climate"
     ],
     "type": "news",
     "impact": "low",
@@ -2145,61 +1323,12 @@
     "matchedCompany": "Palantir",
     "matchedCompanies": [
       "Palantir",
-      "The Boring Company",
-      "Scale AI",
-      "Destinus",
       "Astera Labs",
-      "H2 Green Steel",
-      "Rebellions",
-      "Rainbow Robotics",
-      "Mainspring Energy"
+      "Rebellions"
     ],
     "sectors": [
       "ai",
-      "transportation",
-      "defense",
-      "space",
-      "chips",
-      "climate",
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Why Is Hong Kong Ending EV Tax Breaks? Does It Make Sense?",
-    "link": "https://cleantechnica.com/2026/02/26/why-is-hong-kong-ending-ev-tax-breaks-does-it-make-sense/",
-    "description": "Hong Kong has a sizable tax break available for electric vehicle purchases, comparable to what the US had before Donald Trump took office and Republicans took control of the US Congress on the low end. It is HK$58,500 (US$7,477), or a whopping HK$172,500 (US$22,047) if you trade in/scrap on old   ..",
-    "pubDate": "Fri, 27 Feb 2026 04:50:50 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Flexport",
-    "matchedCompanies": [
-      "Flexport"
-    ],
-    "sectors": [
-      "consumer"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Geely &#038; Xiaomi Shine In China — January EV Sales Report",
-    "link": "https://cleantechnica.com/2026/02/26/geely-xiaomi-shine-in-china-january-ev-sales-report-2/",
-    "description": "After the usual December EV record sales peak in China, which coincided with an end-of-incentive sales rush (NEVs are no longer exempt from purchase tax this year), the year started with an expected sales slump, down by 20%, which sounds like a lot, but considering that the overall market was   ... ",
-    "pubDate": "Fri, 27 Feb 2026 02:53:38 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Attio",
-    "matchedCompanies": [
-      "Attio"
-    ],
-    "sectors": [
-      "ai"
+      "chips"
     ],
     "type": "news",
     "impact": "low",
@@ -2213,63 +1342,19 @@
     "category": "Batteries",
     "source": "CleanTechnica",
     "feedCategory": "energy",
-    "matchedCompany": "Base Power",
+    "matchedCompany": "AMP Robotics",
     "matchedCompanies": [
-      "Base Power",
-      "Cover",
-      "Arc Boats",
       "AMP Robotics",
-      "Carbon Robotics",
       "Redwood Materials",
-      "Impulse Labs",
-      "Space Forge",
-      "Verkor",
-      "FREYR Battery",
-      "QuantumScape",
-      "Watershed"
+      "Space Forge"
     ],
     "sectors": [
-      "climate",
-      "construction",
-      "transportation",
       "robotics",
+      "climate",
       "space"
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Energy Department Loans Money For Georgia Power’s Gas Fleet",
-    "link": "https://cleantechnica.com/2026/02/26/energy-department-loans-money-for-georgia-powers-gas-fleet/",
-    "description": "ATLANTA — The Department of Energy announced it will give a $26.5 billion loan to Southern Company to build the largest, most expensive gas fleet in the nation. The loan will pay for Southern Company’s subsidiary, Georgia Power, plans to build a massive amount of new gas-burning infrastructure, incl",
-    "pubDate": "Fri, 27 Feb 2026 02:18:27 +0000",
-    "category": "Fossil Fuels",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "The Boring Company",
-    "matchedCompanies": [
-      "The Boring Company",
-      "Pipedream",
-      "Blumen Systems",
-      "Durin",
-      "Crusoe Energy",
-      "Terranova",
-      "Fortastra",
-      "Quantum Machines",
-      "Percepto",
-      "Together AI"
-    ],
-    "sectors": [
-      "transportation",
-      "infrastructure",
-      "ai",
-      "robotics",
-      "quantum",
-      "autonomous"
-    ],
-    "type": "news",
-    "impact": "high",
     "time": "3d ago"
   },
   {
@@ -2292,25 +1377,6 @@
     "time": "3d ago"
   },
   {
-    "title": "Largest Solar Farm In US Coming To Central Valley In California",
-    "link": "https://cleantechnica.com/2026/02/26/largest-solar-farm-in-us-coming-to-central-valley-in-california/",
-    "description": "In California's Central Valley, a plan is being put forth to turn unused farmland into the largest solar installation in the US. \nThe post Largest Solar Farm In US Coming To Central Valley In California appeared first on CleanTechnica.",
-    "pubDate": "Fri, 27 Feb 2026 01:32:24 +0000",
-    "category": "Clean Power",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Terraform Industries",
-    "matchedCompanies": [
-      "Terraform Industries"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
     "title": "The Latest Repair Battlefield Is the Iowa Farmlands—Again",
     "link": "https://www.wired.com/story/latest-repair-battlefield-iowa-farmlands-again/",
     "description": "A new bill that would give farmers in Iowa the right to repair is a big threat to tractor manufacturer John Deere.",
@@ -2318,16 +1384,33 @@
     "category": "Gear",
     "source": "Wired",
     "feedCategory": "tech",
-    "matchedCompany": "Field AI",
+    "matchedCompany": "PILGRIM",
     "matchedCompanies": [
-      "Field AI",
       "PILGRIM",
       "Framework Computer"
     ],
     "sectors": [
-      "ai",
       "defense",
       "consumer"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "3d ago"
+  },
+  {
+    "title": "Elon Interviewed At GigaBerlin- With News on FSD March 20 Netherlands, Cybercab, Optimus",
+    "link": "https://www.nextbigfuture.com/2026/02/elon-interviewed-at-gigaberlin-with-news-on-fsd-march-20-netherlands-cybercab-optimus.html",
+    "description": "Elon drops the big things on FSD, cybercab and optimus, battery and cybercab factory in Europe. If authorities cooperate, Tesla would make Gigaberlin the largest factory in Europe. 1. Full Self-Driving (FSD) March 20, 2026: FSD regulatory approval in Europe (confirmed by Dutch authorities. Rollout s",
+    "pubDate": "Fri, 27 Feb 2026 01:05:28 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Aurora Innovation",
+    "matchedCompanies": [
+      "Aurora Innovation"
+    ],
+    "sectors": [
+      "autonomous"
     ],
     "type": "hire",
     "impact": "low",
@@ -2352,25 +1435,6 @@
       "autonomous"
     ],
     "type": "contract",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "These Are Our Absolute Favorite Android Earbuds, and They're Below $200",
-    "link": "https://www.wired.com/story/pixel-buds-pro-2-deal-226/",
-    "description": "The Pixel Buds Pro 2 have great ANC and long battery life, and they’re marked down in several colors.",
-    "pubDate": "Fri, 27 Feb 2026 00:36:07 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Impulse Labs",
-    "matchedCompanies": [
-      "Impulse Labs"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "3d ago"
   },
@@ -2413,34 +1477,18 @@
     "time": "3d ago"
   },
   {
-    "title": "Space Force keeps door open to future human presence in orbit",
-    "link": "https://spacenews.com/space-force-keeps-door-open-to-future-human-presence-in-orbit/",
-    "description": "\nOfficials insist there are no plans to deploy troops in orbit, but commercial infrastructure and cislunar ambitions are reshaping the debate\nThe post Space Force keeps door open to future human presence in orbit appeared first on SpaceNews.",
-    "pubDate": "Thu, 26 Feb 2026 23:14:49 +0000",
-    "category": "Civil",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "The Boring Company",
+    "title": "SpaceX Starship V3 Rolling Out for Cryo Tests for March 2026 Launch",
+    "link": "https://www.nextbigfuture.com/2026/02/spacex-starship-v3-rolling-out-for-cryo-tests-for-march-2026-launch.html",
+    "description": "This first Version 3 Starship marks a milestone with its fully tiled heat shield, all four flaps, and tweaks for powerful Raptor 3 engines, heading to Massey&#8217;s Outpost for cryogenic tests and leak checks. Paired later with Booster 19 for Flight Test 12, it advances SpaceX&#8217;s push for rout",
+    "pubDate": "Thu, 26 Feb 2026 22:49:30 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
     "matchedCompanies": [
-      "The Boring Company",
-      "Pipedream",
-      "Blumen Systems",
-      "Durin",
-      "Crusoe Energy",
-      "Terranova",
-      "Fortastra",
-      "Quantum Machines",
-      "Percepto",
-      "ispace",
-      "Together AI"
+      "SpaceX"
     ],
     "sectors": [
-      "transportation",
-      "infrastructure",
-      "ai",
-      "robotics",
-      "quantum",
-      "autonomous",
       "space"
     ],
     "type": "ipo",
@@ -2480,15 +1528,10 @@
     "matchedCompany": "SpaceX",
     "matchedCompanies": [
       "SpaceX",
-      "Array Labs",
-      "Armada",
-      "AST SpaceMobile",
-      "Floodbase",
-      "GHGSat"
+      "AST SpaceMobile"
     ],
     "sectors": [
-      "space",
-      "climate"
+      "space"
     ],
     "type": "milestone",
     "impact": "low",
@@ -2504,19 +1547,10 @@
     "feedCategory": "defense",
     "matchedCompany": "Palantir",
     "matchedCompanies": [
-      "Palantir",
-      "Cuby Technologies",
-      "Cover",
-      "Brimstone",
-      "Cobod",
-      "SafeAI",
-      "Dusty Robotics"
+      "Palantir"
     ],
     "sectors": [
-      "ai",
-      "construction",
-      "climate",
-      "robotics"
+      "ai"
     ],
     "type": "news",
     "impact": "low",
@@ -2530,101 +1564,16 @@
     "category": "Security",
     "source": "Wired",
     "feedCategory": "tech",
-    "matchedCompany": "Agility Robotics",
+    "matchedCompany": "Xanadu Quantum Technologies",
     "matchedCompanies": [
-      "Agility Robotics",
       "Xanadu Quantum Technologies",
-      "Tenstorrent",
-      "Rain AI"
+      "Tenstorrent"
     ],
     "sectors": [
-      "robotics",
       "quantum",
       "chips"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "25th ID helping the Army smooth out the wrinkles in its next-generation C2",
-    "link": "https://www.defenseone.com/technology/2026/02/25th-id-helping-army-smooth-out-wrinkles-its-next-generation-c2/411727/",
-    "description": "Organizing data, automatic spectrum-switching and more from soldiers’ wish lists.",
-    "pubDate": "Thu, 26 Feb 2026 15:29:38 -0500",
-    "category": "Science &amp; Tech",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "Matic Robotics",
-    "matchedCompanies": [
-      "Matic Robotics"
-    ],
-    "sectors": [
-      "consumer"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "SOCOM on the hunt for ‘acoustic rainbow’ tech for silencing drones",
-    "link": "https://www.defensenews.com/unmanned/2026/02/26/socom-on-the-hunt-for-acoustic-rainbow-tech-for-silencing-drones/",
-    "description": "“Acoustic rainbows” sound psychedelic. But the idea is no acid trip: By dispersing sound waves, noisy objects can actually be made silent.",
-    "pubDate": "Thu, 26 Feb 2026 20:20:44 +0000",
-    "category": "Unmanned",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Rainbow Robotics",
-    "matchedCompanies": [
-      "Rainbow Robotics"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "How Chinese AI Chatbots Censor Themselves",
-    "link": "https://www.wired.com/story/made-in-china-how-chinese-ai-chatbots-censor-themselves/",
-    "description": "Researchers from Stanford and Princeton found that Chinese AI models are more likely than their Western counterparts to dodge political questions or deliver inaccurate answers.",
-    "pubDate": "Thu, 26 Feb 2026 20:08:08 +0000",
-    "category": "Business",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Turbopuffer",
-    "matchedCompanies": [
-      "Turbopuffer",
-      "Ada",
-      "Sakana AI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "With funding flush, Space Force hopes to speed satellites to track aircraft, missiles",
-    "link": "https://breakingdefense.com/2026/02/with-funding-flush-space-force-hopes-to-speed-satellites-to-track-aircraft-missiles/",
-    "description": "Gen. Chance Saltzman, Space Force chief, said the work already done to design a satellite system for tracking ground targets should also help speed AMTI capabilities to orbit.",
-    "pubDate": "Thu, 26 Feb 2026 19:28:16 +0000",
-    "category": "Air Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Array Labs",
-    "matchedCompanies": [
-      "Array Labs",
-      "Armada",
-      "Floodbase",
-      "GHGSat"
-    ],
-    "sectors": [
-      "space",
-      "climate"
-    ],
-    "type": "funding",
     "impact": "low",
     "time": "3d ago"
   },
@@ -2639,41 +1588,13 @@
     "matchedCompany": "Deterrence",
     "matchedCompanies": [
       "Deterrence",
-      "Delian Alliance Industries",
-      "Rhoman Aerospace",
-      "Long Wall",
-      "Ares Industries",
-      "Vatn Systems"
+      "Ares Industries"
     ],
     "sectors": [
-      "defense",
-      "autonomous"
+      "defense"
     ],
     "type": "news",
     "impact": "medium",
-    "time": "3d ago"
-  },
-  {
-    "title": "This Startup Makes Access to Rehabilitation Facilities Easier",
-    "link": "https://spectrum.ieee.org/carenector-health-care-startup",
-    "description": "When doctors in the United States refer patients to specialty or post-acute medical care such as physical therapy or long-term nursing care, nearly half never complete the process of finding help. Referrals stall in part because provider directories are outdated, insurance coverage is unclear, and m",
-    "pubDate": "Thu, 26 Feb 2026 19:00:03 +0000",
-    "category": "Ieee-member-news",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Zipline",
-    "matchedCompanies": [
-      "Zipline",
-      "Cover",
-      "Kinova Robotics"
-    ],
-    "sectors": [
-      "autonomous",
-      "construction",
-      "robotics"
-    ],
-    "type": "hire",
-    "impact": "low",
     "time": "3d ago"
   },
   {
@@ -2686,14 +1607,10 @@
     "feedCategory": "tech",
     "matchedCompany": "Anysphere",
     "matchedCompanies": [
-      "Anysphere",
-      "Conductor Quantum",
-      "Built Robotics"
+      "Anysphere"
     ],
     "sectors": [
-      "ai",
-      "quantum",
-      "robotics"
+      "ai"
     ],
     "type": "news",
     "impact": "low",
@@ -2727,111 +1644,15 @@
     "category": "/ Europe",
     "source": "Defense News",
     "feedCategory": "defense",
-    "matchedCompany": "Neros",
+    "matchedCompany": "Galvanick",
     "matchedCompanies": [
-      "Neros",
-      "The Boring Company",
-      "Pipedream",
       "Galvanick",
-      "Blumen Systems",
-      "Durin",
-      "Crusoe Energy",
-      "Terranova",
-      "Fortastra",
-      "Quantum Machines",
-      "Percepto",
-      "Together AI",
-      "White Stork",
       "Hidden Level"
     ],
     "sectors": [
-      "defense",
-      "transportation",
-      "infrastructure",
-      "ai",
-      "robotics",
-      "quantum",
-      "autonomous"
+      "defense"
     ],
     "type": "milestone",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Fintech Plaid Completes Tender Offer At $8B Valuation",
-    "link": "https://news.crunchbase.com/fintech/plaid-completes-tender-offer-8b-valuation/",
-    "description": "Fintech infrastructure company Plaid revealed on Thursday that it has completed a new fundraise to provide liquidity to employees at a valuation of $8 billion.",
-    "pubDate": "Thu, 26 Feb 2026 18:02:27 +0000",
-    "category": "Artificial intelligence",
-    "source": "Crunchbase News",
-    "feedCategory": "funding",
-    "matchedCompany": "The Boring Company",
-    "matchedCompanies": [
-      "The Boring Company",
-      "Pipedream",
-      "Reveal Technology",
-      "Blumen Systems",
-      "Durin",
-      "Crusoe Energy",
-      "Terranova",
-      "Fortastra",
-      "Quantum Machines",
-      "Percepto",
-      "Truemed",
-      "Sift",
-      "Together AI"
-    ],
-    "sectors": [
-      "transportation",
-      "defense",
-      "infrastructure",
-      "ai",
-      "robotics",
-      "quantum",
-      "autonomous",
-      "biotech"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "3d ago"
-  },
-  {
-    "title": "Solar Power Project Completed On Capped Landfill In Rhode Island",
-    "link": "https://cleantechnica.com/2026/02/26/solar-power-project-completed-on-capped-landfill-in-rhode-island/",
-    "description": "The Coventry Landfill Solar project in Rhode Island has been completed. It features a 5.740 MW solar array.  Using a landfill in this dual-purpose manner is both practical and smart because the land was not likely to be used for anything else. In other words, no land already in use   ... [continued]",
-    "pubDate": "Thu, 26 Feb 2026 17:58:52 +0000",
-    "category": "Clean Power",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Terraform Industries",
-    "matchedCompanies": [
-      "Terraform Industries",
-      "Array Labs"
-    ],
-    "sectors": [
-      "climate",
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "EV Sales In Europe Grow As New Car Market Shrinks",
-    "link": "https://cleantechnica.com/2026/02/26/ev-sales-in-europe-grow-as-new-car-market-shrinks/",
-    "description": "EV sales in Europe continued their upward trend in January, while sales of conventional cars fell significantly. \nThe post EV Sales In Europe Grow As New Car Market Shrinks appeared first on CleanTechnica.",
-    "pubDate": "Thu, 26 Feb 2026 17:40:59 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Attio",
-    "matchedCompanies": [
-      "Attio"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "3d ago"
   },
@@ -2843,49 +1664,17 @@
     "category": "Electric-vehicles",
     "source": "IEEE Spectrum",
     "feedCategory": "tech",
-    "matchedCompany": "Base Power",
+    "matchedCompany": "Aepnus Technology",
     "matchedCompanies": [
-      "Base Power",
-      "Arc Boats",
       "Aepnus Technology",
       "Twelve",
-      "KoBold Metals",
-      "Sublime Systems",
-      "Redwood Materials",
-      "Impulse Labs",
-      "Lumina Vehicles",
-      "Verkor",
-      "FREYR Battery",
-      "Rivian",
-      "QuantumScape",
-      "Hexium"
+      "Sublime Systems"
     ],
     "sectors": [
-      "climate",
-      "transportation",
-      "nuclear"
+      "climate"
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Once-reluctant Germany goes big on one-way attack drones",
-    "link": "https://www.defensenews.com/global/europe/2026/02/26/once-reluctant-germany-goes-big-on-one-way-attack-drones/",
-    "description": "The government is setting up three domestic manufacturers for deals that could reach billions of euros.",
-    "pubDate": "Thu, 26 Feb 2026 16:47:00 +0000",
-    "category": "/ Europe",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "high",
     "time": "3d ago"
   },
   {
@@ -2896,27 +1685,12 @@
     "category": "Clean Transport",
     "source": "CleanTechnica",
     "feedCategory": "energy",
-    "matchedCompany": "The Boring Company",
+    "matchedCompany": "Ample",
     "matchedCompanies": [
-      "The Boring Company",
-      "Pipedream",
-      "Ample",
-      "Blumen Systems",
-      "Durin",
-      "Crusoe Energy",
-      "Terranova",
-      "Fortastra",
-      "Quantum Machines",
-      "Percepto",
-      "Together AI"
+      "Ample"
     ],
     "sectors": [
-      "transportation",
-      "infrastructure",
-      "ai",
-      "robotics",
-      "quantum",
-      "autonomous"
+      "infrastructure"
     ],
     "type": "ipo",
     "impact": "low",
@@ -2932,60 +1706,13 @@
     "feedCategory": "tech",
     "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "OpenAI",
-      "Turbopuffer",
-      "Sakana AI"
+      "OpenAI"
     ],
     "sectors": [
       "ai"
     ],
     "type": "news",
     "impact": "medium",
-    "time": "3d ago"
-  },
-  {
-    "title": "New AirSnitch attack bypasses Wi-Fi encryption in homes, offices, and enterprises",
-    "link": "https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/",
-    "description": "",
-    "pubDate": "Thu, 26 Feb 2026 15:45:18 +0000",
-    "category": "Biz & IT",
-    "source": "Ars Technica",
-    "feedCategory": "tech",
-    "matchedCompany": "Databricks",
-    "matchedCompanies": [
-      "Databricks",
-      "Ada",
-      "Watershed"
-    ],
-    "sectors": [
-      "ai",
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Finding value with AI and Industry 5.0 transformation",
-    "link": "https://www.technologyreview.com/2026/02/26/1133707/finding-value-with-ai-and-industry-5-0-transformation/",
-    "description": "For years, Industry 4.0 transformation has centered on the convergence of intelligent technologies like AI, cloud, the internet of things, robotics, and digital twins. Industry 5.0 marks a pivotal shift from integrating emerging technologies to orchestrating them at scale. With Industry 5.0, the pur",
-    "pubDate": "Thu, 26 Feb 2026 15:00:59 +0000",
-    "category": "Artificial intelligence",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "Scale AI",
-    "matchedCompanies": [
-      "Scale AI",
-      "Agility Robotics",
-      "Rigetti Computing"
-    ],
-    "sectors": [
-      "defense",
-      "robotics",
-      "quantum"
-    ],
-    "type": "news",
-    "impact": "low",
     "time": "3d ago"
   },
   {
@@ -3000,13 +1727,11 @@
     "matchedCompanies": [
       "Matic Robotics",
       "Atomic Industries",
-      "ElevenLabs",
       "Hubble Network"
     ],
     "sectors": [
       "consumer",
       "robotics",
-      "ai",
       "space"
     ],
     "type": "news",
@@ -3021,17 +1746,12 @@
     "category": "Ai-data-centers",
     "source": "IEEE Spectrum",
     "feedCategory": "tech",
-    "matchedCompany": "Scale AI",
+    "matchedCompany": "Crusoe Energy",
     "matchedCompanies": [
-      "Scale AI",
-      "Crusoe Energy",
-      "Astera Labs",
-      "Rebellions"
+      "Crusoe Energy"
     ],
     "sectors": [
-      "defense",
-      "ai",
-      "chips"
+      "ai"
     ],
     "type": "ipo",
     "impact": "low",
@@ -3045,86 +1765,21 @@
     "category": "Commercial",
     "source": "SpaceNews",
     "feedCategory": "space",
-    "matchedCompany": "Focused Energy",
+    "matchedCompany": "Capella Space",
     "matchedCompanies": [
-      "Focused Energy",
       "Capella Space",
       "Muon Space",
       "Planet Labs",
-      "Earth AI",
       "ICEYE",
       "Pixxel",
       "Satellogic",
-      "Dragonfly Aerospace",
-      "Cohere",
-      "Waabi",
-      "Ada",
-      "D-Wave Quantum",
-      "Photonic Inc",
-      "Nord Quantique",
-      "Kepler Communications",
-      "GHGSat",
-      "Reaction Dynamics",
-      "Sanctuary AI",
-      "Kinova Robotics",
-      "ARC Clean Technology"
+      "Dragonfly Aerospace"
     ],
     "sectors": [
-      "nuclear",
-      "space",
-      "infrastructure",
-      "ai",
-      "transportation",
-      "quantum",
-      "robotics"
+      "space"
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "The Download: how America lost its lead in the hunt for alien life, and ambitious battery claims",
-    "link": "https://www.technologyreview.com/2026/02/26/1133734/the-download-how-america-lost-its-lead-in-the-hunt-for-alien-life-and-ambitious-battery-claims/",
-    "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. America was winning the race to find Martian life. Then China jumped in. In July 2024, NASA’s Perseverance rover came across a peculiar rocky outcrop ",
-    "pubDate": "Thu, 26 Feb 2026 13:10:00 +0000",
-    "category": "The Download",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "Impulse Labs",
-    "matchedCompanies": [
-      "Impulse Labs"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "CesiumAstro acquires Vidrovr to embed AI in communications systems",
-    "link": "https://spacenews.com/cesiumastro-acquires-vidrovr-to-embed-ai-in-communications-systems/",
-    "description": "\nSAN FRANCISCO – CesiumAstro announced the acquisition Feb. 26 of Vidrovr, a startup that specializes in artificial intelligence for multimodal signals analysis. Terms of the transaction, which closed in late 2025, were not disclosed. CesiumAstro acquired Vidrovr to accelerate its campaign to embed ",
-    "pubDate": "Thu, 26 Feb 2026 13:00:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Vannevar Labs",
-    "matchedCompanies": [
-      "Vannevar Labs",
-      "Reveal Technology",
-      "Umbra",
-      "Rebellion Defense",
-      "goTenna",
-      "Modal"
-    ],
-    "sectors": [
-      "defense",
-      "space",
-      "ai"
-    ],
-    "type": "news",
-    "impact": "high",
     "time": "3d ago"
   },
   {
@@ -3147,48 +1802,6 @@
     "time": "3d ago"
   },
   {
-    "title": "Best Tested Ski Clothes (2026): Shells, Jackets, Wool Socks",
-    "link": "https://www.wired.com/gallery/best-ski-clothes/",
-    "description": "From weatherproof jackets and pants to puffers, gloves, and socks, WIRED’s winter sports experts have got you covered.",
-    "pubDate": "Thu, 26 Feb 2026 12:30:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Cover",
-    "matchedCompanies": [
-      "Cover",
-      "Muon Space"
-    ],
-    "sectors": [
-      "construction",
-      "space"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "How This GV Investor Looks For The Next Stripe And Other ‘Compounding’ Startups In Fintech And AI",
-    "link": "https://news.crunchbase.com/venture/gv-fintech-ai-startup-investor-sakach-stripe-ramp/",
-    "description": "Crunchbase News recently spoke with GV partner Elena Sakach to find out more about her investment thesis, her thoughts on what defines winning fintech and AI companies, how AI is affecting traditional software businesses, and how she determines what truly is a large opportunity.",
-    "pubDate": "Thu, 26 Feb 2026 12:00:24 +0000",
-    "category": "Artificial intelligence",
-    "source": "Crunchbase News",
-    "feedCategory": "funding",
-    "matchedCompany": "Truemed",
-    "matchedCompanies": [
-      "Truemed",
-      "Sift"
-    ],
-    "sectors": [
-      "biotech",
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
     "title": "NASA astronaut says his medical issue led to early return from the ISS",
     "link": "https://spacenews.com/nasa-astronaut-says-his-medical-issue-led-to-early-return-from-the-iss/",
     "description": "\nNASA astronaut Mike Fincke said he was the crew member whose medical issue prompted the early return of the Crew-11 mission from the International Space Station last month.\nThe post NASA astronaut says his medical issue led to early return from the ISS appeared first on SpaceNews.",
@@ -3199,170 +1812,14 @@
     "matchedCompany": "Vast",
     "matchedCompanies": [
       "Vast",
-      "Zipline",
-      "Axiom Space",
-      "Kinova Robotics"
-    ],
-    "sectors": [
-      "space",
-      "autonomous",
-      "robotics"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "China’s Tianwen-2 probe operating normally on approach to asteroid",
-    "link": "https://spacenews.com/chinas-tianwen-2-probe-operating-normally-on-approach-to-asteroid/",
-    "description": "\nChina’s Tianwen-2 spacecraft is operating normally on its way to a near-Earth asteroid ahead of sampling later this year, according to a rare official update.\nThe post China’s Tianwen-2 probe operating normally on approach to asteroid appeared first on SpaceNews.",
-    "pubDate": "Thu, 26 Feb 2026 11:08:55 +0000",
-    "category": "Civil",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Earth AI",
-    "matchedCompanies": [
-      "Earth AI"
-    ],
-    "sectors": [
-      "infrastructure"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Achieving Micron-Level Tolerances: CAD Optimization for Sub-10µm 3D Printing",
-    "link": "https://content.knowledgehub.wiley.com/designing-for-precision-cad-tips-for-micro-scale-3d-printing/",
-    "description": "Achieve successful micro-scale 3D prints by optimizing tolerances, wall thickness, support strategies, microfluidic channels, and material selection in your CAD models from the start.What Attendees will LearnTolerance-driven design -- How to define resolution and tolerance constraints that translate",
-    "pubDate": "Thu, 26 Feb 2026 11:00:02 +0000",
-    "category": "Typewhitepaper",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Scale AI",
-    "matchedCompanies": [
-      "Scale AI"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "This company claims a battery breakthrough. Now they need to prove it.",
-    "link": "https://www.technologyreview.com/2026/02/26/1133722/solid-state-batteries-donut-lab/",
-    "description": "When a company claims to have created what’s essentially the holy grail of batteries, there are bound to be some questions. Interest has been swirling since Donut Lab, a Finnish company, announced last month that it had a new solid-state battery technology, one that was ready for large-scale product",
-    "pubDate": "Thu, 26 Feb 2026 11:00:00 +0000",
-    "category": "Climate change and energy",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "Base Power",
-    "matchedCompanies": [
-      "Base Power",
-      "Arc Boats",
-      "Scale AI",
-      "Impulse Labs",
-      "Verkor",
-      "FREYR Battery",
-      "QuantumScape"
-    ],
-    "sectors": [
-      "climate",
-      "transportation",
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "America was winning the race to find Martian life. Then China jumped in.",
-    "link": "https://www.technologyreview.com/2026/02/26/1133584/america-china-mars-sample-return-space-race-nasa/",
-    "description": "To most people, rocks are just rocks. To geologists, they are much, much more: crystal-filled time capsules with the power to reveal the state of the planet at the very moment they were forged.&#160; For decades, NASA had been on a time capsule hunt like none other—one across Mars. Its rovers have j",
-    "pubDate": "Thu, 26 Feb 2026 10:00:00 +0000",
-    "category": "Space",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "Reveal Technology",
-    "matchedCompanies": [
-      "Reveal Technology",
-      "Planet Labs"
-    ],
-    "sectors": [
-      "defense",
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "AI Is Being Misunderstood as a Breakthrough in Planning. It’s Not.",
-    "link": "https://warontherocks.com/2026/02/ai-is-being-misunderstood-as-a-breakthrough-in-planning-its-not/",
-    "description": "In the age of AI, the scarcest resource in headquarters is no longer time. It is, rather, the willingness to say no.Artificial intelligence is moving rapidly into military planning staffs because it compresses routine cognitive labor. AI excels at absorbing guidance, reorganizing complex material, a",
-    "pubDate": "Thu, 26 Feb 2026 09:00:47 +0000",
-    "category": "Cogs of War",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Vannevar Labs",
-    "matchedCompanies": [
-      "Vannevar Labs",
-      "Reveal Technology",
-      "Umbra",
-      "Rebellion Defense",
-      "Rapid Robotics"
-    ],
-    "sectors": [
-      "defense",
-      "space",
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Seraphim closes second early-stage space fund above $100 million target",
-    "link": "https://spacenews.com/seraphim-closes-second-early-stage-space-fund-above-100-million-target/",
-    "description": "\nSeraphim Space announced Feb. 25 it has completed fundraising for its second private early-stage venture fund, after exceeding its $100 million target to back young space technology startups.\nThe post Seraphim closes second early-stage space fund above $100 million target appeared first on SpaceNew",
-    "pubDate": "Thu, 26 Feb 2026 00:01:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Celero Communications",
-    "matchedCompanies": [
-      "Celero Communications",
-      "Hubble Network",
-      "Orbion Space Technology"
+      "Axiom Space"
     ],
     "sectors": [
       "space"
     ],
     "type": "ipo",
-    "impact": "medium",
-    "time": "4d ago"
-  },
-  {
-    "title": "USAF ‘woefully behind’ on modernizing mobility aircraft, airlift commander says",
-    "link": "https://www.defenseone.com/defense-systems/2026/02/usaf-woefully-behind-modernizing-mobility-aircraft-airlift-commander-says/411703/",
-    "description": "Pushing aging aircraft decades past their service life is the emerging service strategy.",
-    "pubDate": "Wed, 25 Feb 2026 17:57:19 -0500",
-    "category": "Defense Systems",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "Altos Labs",
-    "matchedCompanies": [
-      "Altos Labs",
-      "Retro Biosciences"
-    ],
-    "sectors": [
-      "biotech"
-    ],
-    "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "3d ago"
   },
   {
     "title": "Roundtables: Why 2026 Is the Year for Sodium-Ion Batteries",
@@ -3372,148 +1829,15 @@
     "category": "Subscriber-Only Stories",
     "source": "MIT Tech Review",
     "feedCategory": "tech",
-    "matchedCompany": "Base Power",
+    "matchedCompany": "Natron Energy",
     "matchedCompanies": [
-      "Base Power",
-      "Arc Boats",
-      "Array Labs",
-      "Aepnus Technology",
-      "KoBold Metals",
-      "Redwood Materials",
       "Natron Energy",
-      "Gravitricity",
-      "Verkor",
-      "FREYR Battery",
-      "Skeleton Technologies",
-      "QuantumScape",
-      "Hexium",
-      "Sage Geosystems",
-      "Fourth Power",
-      "Solid Power"
+      "FREYR Battery"
     ],
     "sectors": [
-      "climate",
-      "transportation",
-      "space",
-      "nuclear"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "The U.S. Military Must Save Itself Before Saving Others",
-    "link": "https://warontherocks.com/2026/02/the-u-s-military-must-save-itself-before-saving-others/",
-    "description": "In 2023, Jennifer Kavanaugh and Jordan Cohen wrote, &#8220;The True Military Assistance Tradeoff is Between Israel and Taiwan,&#8221; where they argued Washington should place clear boundaries on its military aid to Israel to preserve capabilities essential to deterring China in the Indo-Pacific. Th",
-    "pubDate": "Wed, 25 Feb 2026 18:30:12 +0000",
-    "category": "Members",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Flexport",
-    "matchedCompanies": [
-      "Flexport",
-      "Rebellion Defense"
-    ],
-    "sectors": [
-      "consumer",
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Valve malfunction blamed for failure of Indian satellite to raise its orbit",
-    "link": "https://spacenews.com/valve-malfunction-blamed-for-failure-of-indian-satellite-to-raise-its-orbit/",
-    "description": "\nIndia’s space agency says a valve failure prevented a navigation spacecraft launched more than a year ago from raising its orbit.\nThe post Valve malfunction blamed for failure of Indian satellite to raise its orbit appeared first on SpaceNews.",
-    "pubDate": "Wed, 25 Feb 2026 17:45:01 +0000",
-    "category": "Civil",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Array Labs",
-    "matchedCompanies": [
-      "Array Labs",
-      "Armada",
-      "Floodbase",
-      "GHGSat"
-    ],
-    "sectors": [
-      "space",
       "climate"
     ],
-    "type": "funding",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "The D Brief: SOTU quiet on policy; Defense tech’s European shift; Ukraine war in 10 charts; Cockpit AI evades ‘missile’; And a bit more.",
-    "link": "https://www.defenseone.com/threats/2026/02/the-d-brief-february-25-2026/411680/",
-    "description": "",
-    "pubDate": "Wed, 25 Feb 2026 11:26:55 -0500",
-    "category": "Threats",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "Neros",
-    "matchedCompanies": [
-      "Neros",
-      "SHIELD Technology Partners",
-      "Endurosat",
-      "FlyBy Robotics",
-      "White Stork",
-      "Infleqtion"
-    ],
-    "sectors": [
-      "defense",
-      "space",
-      "quantum"
-    ],
     "type": "news",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "AI Is Acing Math Exams Faster Than Scientists Write Them",
-    "link": "https://spectrum.ieee.org/ai-math-benchmarks",
-    "description": "Mathematics is often regarded as the ideal domain for measuring AI progress effectively. Math’s step-by-step logic is easy to track, and its definitive automatically verifiable answers remove any human or subjective factors. But AI systems are improving at such a pace that math benchmarks are strugg",
-    "pubDate": "Wed, 25 Feb 2026 16:00:02 +0000",
-    "category": "Ai-benchmarks",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Matic Robotics",
-    "matchedCompanies": [
-      "Matic Robotics"
-    ],
-    "sectors": [
-      "consumer"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "The future of astronomy is both on Earth and in space",
-    "link": "https://spacenews.com/the-future-of-astronomy-is-both-on-earth-and-in-space/",
-    "description": "\nA recent SpaceNews opinion article argued that it is time to “take astronomy off Earth.” The suggestion is straightforward: If satellite constellations and commercial space activity threaten ground-based astronomy, perhaps astronomers should simply move their work into space. As current, incoming a",
-    "pubDate": "Wed, 25 Feb 2026 14:00:00 +0000",
-    "category": "Civil",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Vast",
-    "matchedCompanies": [
-      "Vast",
-      "Axiom Space",
-      "Array Labs",
-      "Armada",
-      "Earth AI",
-      "Floodbase",
-      "GHGSat"
-    ],
-    "sectors": [
-      "space",
-      "infrastructure",
-      "climate"
-    ],
-    "type": "ipo",
     "impact": "low",
     "time": "4d ago"
   },
@@ -3525,27 +1849,14 @@
     "category": "Artificial intelligence",
     "source": "Crunchbase News",
     "feedCategory": "funding",
-    "matchedCompany": "Cuby Technologies",
+    "matchedCompany": "Blumen Systems",
     "matchedCompanies": [
-      "Cuby Technologies",
-      "Cover",
-      "Brimstone",
       "Blumen Systems",
-      "Cobod",
-      "SafeAI",
-      "Dusty Robotics",
-      "Cuby",
-      "Steady Energy",
-      "Celero Communications",
-      "Hubble Network",
-      "Orbion Space Technology"
+      "Cuby"
     ],
     "sectors": [
-      "construction",
-      "climate",
       "infrastructure",
-      "robotics",
-      "space"
+      "construction"
     ],
     "type": "hire",
     "impact": "high",
@@ -3559,35 +1870,12 @@
     "category": "Culture",
     "source": "MIT Tech Review",
     "feedCategory": "tech",
-    "matchedCompany": "Matic Robotics",
+    "matchedCompany": "Seneca Systems",
     "matchedCompanies": [
-      "Matic Robotics",
-      "Seneca Systems",
-      "Earth AI"
+      "Seneca Systems"
     ],
     "sectors": [
-      "consumer",
-      "autonomous",
-      "infrastructure"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Arctic Hot Takes Need a Cold Reality Check",
-    "link": "https://warontherocks.com/2026/02/arctic-hot-takes-need-a-cold-reality-check/",
-    "description": "At &#8211;40&#176;F, cold is not a condition simply to be managed. It is a constraint that governs everything. Equipment fails, humans slow, and mistakes compound. Any serious discussion of Arctic military strategy and operations needs to begin with and remain grounded in reality.Unfortunately, ther",
-    "pubDate": "Wed, 25 Feb 2026 08:30:39 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "FREYR Battery",
-    "matchedCompanies": [
-      "FREYR Battery"
-    ],
-    "sectors": [
-      "climate"
+      "autonomous"
     ],
     "type": "news",
     "impact": "low",
@@ -3603,176 +1891,7 @@
     "feedCategory": "defense",
     "matchedCompany": "Cohere",
     "matchedCompanies": [
-      "Cohere",
-      "Endurosat"
-    ],
-    "sectors": [
-      "ai",
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Several trends are shifting defense tech toward Europe",
-    "link": "https://www.defenseone.com/business/2026/02/several-trends-are-shifting-defense-tech-toward-europe/411671/",
-    "description": "War, regulation, and distrust of the United States are tilting a big market homeward.",
-    "pubDate": "Wed, 25 Feb 2026 00:30:12 -0500",
-    "category": "Business",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "SHIELD Technology Partners",
-    "matchedCompanies": [
-      "SHIELD Technology Partners",
-      "FlyBy Robotics",
-      "Infleqtion"
-    ],
-    "sectors": [
-      "defense",
-      "quantum"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Following 35% growth, solar has passed hydro on US grid",
-    "link": "https://arstechnica.com/science/2026/02/final-2025-data-is-in-us-energy-use-is-up-as-solar-passes-hydro/",
-    "description": "",
-    "pubDate": "Tue, 24 Feb 2026 22:40:08 +0000",
-    "category": "Science",
-    "source": "Ars Technica Space",
-    "feedCategory": "space",
-    "matchedCompany": "Terraform Industries",
-    "matchedCompanies": [
-      "Terraform Industries"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Air Force test pilots used tactical AI to evade a missile",
-    "link": "https://www.defenseone.com/technology/2026/02/air-force-test-pilots-used-tactical-ai-evade-missile/411659/",
-    "description": "A Skunk Works project pushed pilots to give artificial intelligence control in the cockpit.",
-    "pubDate": "Tue, 24 Feb 2026 16:29:22 -0500",
-    "category": "Science &amp; Tech",
-    "source": "Defense One",
-    "feedCategory": "defense",
-    "matchedCompany": "Vannevar Labs",
-    "matchedCompanies": [
-      "Vannevar Labs",
-      "Reveal Technology",
-      "Umbra",
-      "Rebellion Defense"
-    ],
-    "sectors": [
-      "defense",
-      "space"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Ukraine as a European Nation",
-    "link": "https://warontherocks.com/2026/02/ukraine-as-a-european-nation/",
-    "description": "Welcome to&#160;The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum only for&#160;War on the Rocks members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate t",
-    "pubDate": "Tue, 24 Feb 2026 19:36:05 +0000",
-    "category": "Members",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Neros",
-    "matchedCompanies": [
-      "Neros",
-      "Vannevar Labs",
-      "Endurosat",
-      "White Stork"
-    ],
-    "sectors": [
-      "defense",
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "This Physics Professor Credits Collaboration for Her Success",
-    "link": "https://spectrum.ieee.org/cinzia-davia-physics",
-    "description": "For Cinzia DaVià, collaboration isn’t just a buzzword. It’s the approach she applies to all her professional endeavors.From her contributions to the development of a silicon sensor used in CERN (European Organization for Nuclear Research) particle accelerator experiments to her current research on p",
-    "pubDate": "Tue, 24 Feb 2026 19:00:03 +0000",
-    "category": "Ieee-member-news",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Conductor Quantum",
-    "matchedCompanies": [
-      "Conductor Quantum",
-      "Turbopuffer",
-      "Endurosat",
-      "Sakana AI"
-    ],
-    "sectors": [
-      "quantum",
-      "ai",
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Fintech Giant Stripe’s Valuation Soars to $159B In Latest Secondary Stock Sale",
-    "link": "https://news.crunchbase.com/fintech/unicorn-stripe-secondary-sale-valuation/",
-    "description": "Payments infrastructure giant Stripe announced Tuesday that it has inked deals with investors to provide liquidity to current and former employees through a tender offer at a $159 billion valuation.",
-    "pubDate": "Tue, 24 Feb 2026 17:37:58 +0000",
-    "category": "Fintech",
-    "source": "Crunchbase News",
-    "feedCategory": "funding",
-    "matchedCompany": "The Boring Company",
-    "matchedCompanies": [
-      "The Boring Company",
-      "Pipedream",
-      "Blumen Systems",
-      "Durin",
-      "Crusoe Energy",
-      "Terranova",
-      "Fortastra",
-      "Quantum Machines",
-      "Percepto",
-      "Truemed",
-      "Sift",
-      "Together AI"
-    ],
-    "sectors": [
-      "transportation",
-      "infrastructure",
-      "ai",
-      "robotics",
-      "quantum",
-      "autonomous",
-      "biotech"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "5d ago"
-  },
-  {
-    "title": "Your Watch Will One Day Track Blood Pressure",
-    "link": "https://spectrum.ieee.org/blood-pressure-monitor-smartwatch",
-    "description": "Your smartwatch can track a lot of things, but at least for now, it can’t keep an accurate eye on your blood pressure. Last week researchers from University of Texas at Austin showed a way your smartwatch someday could. They were able to discern blood pressure by reflecting radio signals off a perso",
-    "pubDate": "Tue, 24 Feb 2026 15:00:03 +0000",
-    "category": "Blood-pressure",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Turbopuffer",
-    "matchedCompanies": [
-      "Turbopuffer",
-      "Sakana AI"
+      "Cohere"
     ],
     "sectors": [
       "ai"
@@ -3793,17 +1912,15 @@
     "matchedCompanies": [
       "Cape",
       "Percepto",
-      "ideaForge",
-      "Endurosat"
+      "ideaForge"
     ],
     "sectors": [
       "climate",
-      "autonomous",
-      "space"
+      "autonomous"
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "An Air Force drone wingman has started flying with weapons",
@@ -3813,65 +1930,14 @@
     "category": "Business",
     "source": "Defense One",
     "feedCategory": "defense",
-    "matchedCompany": "Anduril Industries",
+    "matchedCompany": "Collaborative Robotics",
     "matchedCompanies": [
-      "Anduril Industries",
       "Collaborative Robotics"
     ],
     "sectors": [
-      "defense",
       "robotics"
     ],
     "type": "milestone",
-    "impact": "low",
-    "time": "6d ago"
-  },
-  {
-    "title": "AI’s Math Tricks Don’t Work for Scientific Computing",
-    "link": "https://spectrum.ieee.org/number-formats-ai-scientific-computing",
-    "description": "AI has driven an explosion of new number formats—the ways in which numbers are represented digitally. Engineers are looking at every possible way to save computation time and energy, including shortening the number of bits used to represent data. But what works for AI doesn’t necessarily work for sc",
-    "pubDate": "Mon, 23 Feb 2026 13:00:03 +0000",
-    "category": "Typedepartments",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Agility Robotics",
-    "matchedCompanies": [
-      "Agility Robotics"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "6d ago"
-  },
-  {
-    "title": "5 Interesting Startup Deals You May Have Missed: Plant-Based Clothing Dyes, A Shoebox-Picking Robot, And Power Generated On The Moon",
-    "link": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-robotics-energy-generation/",
-    "description": "A host of interesting, under-the-radar recently funded startups caught our attention in the past month: one that’s developing nuclear-waste generated electricity on the moon, and another that aims to use AI to extract business intelligence from enterprise contracts. Let’s take a closer look.",
-    "pubDate": "Mon, 23 Feb 2026 12:00:35 +0000",
-    "category": "Artificial intelligence",
-    "source": "Crunchbase News",
-    "feedCategory": "funding",
-    "matchedCompany": "Vannevar Labs",
-    "matchedCompanies": [
-      "Vannevar Labs",
-      "Reveal Technology",
-      "Umbra",
-      "AMP Robotics",
-      "Rebellion Defense",
-      "Databricks",
-      "Ada",
-      "Watershed"
-    ],
-    "sectors": [
-      "defense",
-      "space",
-      "robotics",
-      "ai",
-      "climate"
-    ],
-    "type": "contract",
     "impact": "low",
     "time": "6d ago"
   },
@@ -3883,42 +1949,12 @@
     "category": "Typewebinar",
     "source": "IEEE Spectrum",
     "feedCategory": "tech",
-    "matchedCompany": "Vannevar Labs",
+    "matchedCompany": "Galvanick",
     "matchedCompanies": [
-      "Vannevar Labs",
-      "Reveal Technology",
-      "Galvanick",
-      "Umbra",
-      "Cape",
-      "Rebellion Defense",
-      "Percepto",
-      "ideaForge",
-      "Fortera"
+      "Galvanick"
     ],
     "sectors": [
-      "defense",
-      "space",
-      "climate",
-      "autonomous"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "6d ago"
-  },
-  {
-    "title": "The Age-Verification Trap",
-    "link": "https://spectrum.ieee.org/age-verification",
-    "description": "Social media is going the way of alcohol, gambling, and other social sins: Societies are deciding it’s no longer kid stuff. Lawmakers point to compulsive use, exposure to harmful content, and mounting concerns about adolescent mental health. So, many propose to set a minimum age, usually 13 or 16.In",
-    "pubDate": "Mon, 23 Feb 2026 09:00:03 +0000",
-    "category": "Adolescent-mental-health",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Osmo",
-    "matchedCompanies": [
-      "Osmo"
-    ],
-    "sectors": [
-      "consumer"
+      "defense"
     ],
     "type": "news",
     "impact": "low",
@@ -3935,18 +1971,12 @@
     "matchedCompany": "Cape",
     "matchedCompanies": [
       "Cape",
-      "Durin",
-      "Mariana Minerals",
-      "Gravitricity",
       "Percepto",
-      "ideaForge",
-      "SHIELD Technology Partners"
+      "ideaForge"
     ],
     "sectors": [
       "climate",
-      "infrastructure",
-      "autonomous",
-      "defense"
+      "autonomous"
     ],
     "type": "funding",
     "impact": "medium",
@@ -3963,43 +1993,16 @@
     "matchedCompany": "Commonwealth Fusion Systems",
     "matchedCompanies": [
       "Commonwealth Fusion Systems",
-      "Scale AI",
       "Crusoe Energy",
-      "Astera Labs",
       "Tokamak Energy",
-      "Renaissance Fusion",
-      "Rebellions",
-      "Built Robotics",
-      "Mainspring Energy"
+      "Renaissance Fusion"
     ],
     "sectors": [
       "climate",
-      "defense",
       "ai",
-      "chips",
-      "nuclear",
-      "robotics"
+      "nuclear"
     ],
     "type": "hire",
-    "impact": "low",
-    "time": "2/21/2026"
-  },
-  {
-    "title": "Dinosaur eggshells can reveal the age of other fossils",
-    "link": "https://arstechnica.com/science/2026/02/dinosaur-eggshells-can-reveal-the-age-of-other-fossils/",
-    "description": "",
-    "pubDate": "Sat, 21 Feb 2026 13:00:01 +0000",
-    "category": "Science",
-    "source": "Ars Technica Space",
-    "feedCategory": "space",
-    "matchedCompany": "Reveal Technology",
-    "matchedCompanies": [
-      "Reveal Technology"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "2/21/2026"
   },
@@ -4013,9 +2016,7 @@
     "feedCategory": "space",
     "matchedCompany": "Palantir",
     "matchedCompanies": [
-      "Palantir",
-      "Turbopuffer",
-      "Sakana AI"
+      "Palantir"
     ],
     "sectors": [
       "ai"
@@ -4023,86 +2024,6 @@
     "type": "news",
     "impact": "low",
     "time": "2/21/2026"
-  },
-  {
-    "title": "Talks, Plans, and Prison Breaks",
-    "link": "https://warontherocks.com/2026/02/the-adversarial-talks-plans-and-prison-breaks/",
-    "description": "Welcome to The Adversarial.&#160;Every other week, we&#8217;ll provide you with expert analysis on America&#8217;s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranU.S. and Iranian negotiators gathered in Geneva on Feb. 17 for their second round of talks ",
-    "pubDate": "Fri, 20 Feb 2026 19:15:47 +0000",
-    "category": "Members",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Vannevar Labs",
-    "matchedCompanies": [
-      "Vannevar Labs"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "2/20/2026"
-  },
-  {
-    "title": "IEEE Plays a Pivotal Role In Climate Mitigation Talks",
-    "link": "https://spectrum.ieee.org/ieee-climate-mitigation-talks-2025",
-    "description": "IEEE has enhanced its standing as a trusted, neutral authority on the role of technology in climate change mitigation and adaption. Last year it became the first technical association to be invited to a U.N. Conference of the Parties on Climate Change.IEEE representatives participated in several ses",
-    "pubDate": "Fri, 20 Feb 2026 19:00:02 +0000",
-    "category": "Ieee-news",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Ada",
-    "matchedCompanies": [
-      "Ada"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/20/2026"
-  },
-  {
-    "title": "Video Friday: Humanoid Robots Celebrate Spring",
-    "link": "https://spectrum.ieee.org/robot-martial-arts",
-    "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion.ICRA 2026: 1–5 June 2026, VIENNAEnjoy today’s videos! So",
-    "pubDate": "Fri, 20 Feb 2026 18:00:02 +0000",
-    "category": "Humanoid-robots",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Agility Robotics",
-    "matchedCompanies": [
-      "Agility Robotics",
-      "Apptronik",
-      "1X Technologies",
-      "Runway"
-    ],
-    "sectors": [
-      "robotics",
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/20/2026"
-  },
-  {
-    "title": "Rocket Report: Chinese launch firm raises big money; Falcon 9 back to the Bahamas",
-    "link": "https://arstechnica.com/space/2026/02/rocket-report-chinese-launch-firm-raises-big-money-falcon-9-back-to-the-bahamas/",
-    "description": "",
-    "pubDate": "Fri, 20 Feb 2026 12:00:28 +0000",
-    "category": "Science",
-    "source": "Ars Technica Space",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "2/20/2026"
   },
   {
     "title": "Iran and the Gulf: Why Hedging Is No Longer Enough",
@@ -4135,13 +2056,11 @@
     "matchedCompanies": [
       "Cape",
       "Percepto",
-      "ideaForge",
-      "Endurosat"
+      "ideaForge"
     ],
     "sectors": [
       "climate",
-      "autonomous",
-      "space"
+      "autonomous"
     ],
     "type": "news",
     "impact": "low",
@@ -4176,54 +2095,12 @@
     "feedCategory": "tech",
     "matchedCompany": "Recursion Pharmaceuticals",
     "matchedCompanies": [
-      "Recursion Pharmaceuticals",
-      "Rapid Robotics"
+      "Recursion Pharmaceuticals"
     ],
     "sectors": [
-      "biotech",
-      "robotics"
+      "biotech"
     ],
     "type": "milestone",
-    "impact": "low",
-    "time": "2/18/2026"
-  },
-  {
-    "title": "Tomorrow’s Smart Pills Will Deliver Drugs and Take Biopsies",
-    "link": "https://spectrum.ieee.org/ingestible-electronics",
-    "description": "One day soon, a doctor might prescribe a pill that doesn’t just deliver medicine but also reports back on what it finds inside you—and then takes actions based on its findings.Instead of scheduling an endoscopy or CT scan, you’d swallow an electronic capsule smaller than a multivitamin. As it travel",
-    "pubDate": "Wed, 18 Feb 2026 15:14:00 +0000",
-    "category": "Drug-delivery",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Rocket Lab",
-    "matchedCompanies": [
-      "Rocket Lab"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "2/18/2026"
-  },
-  {
-    "title": "X-rays reveal kingfisher feather structure in unprecedented detail",
-    "link": "https://arstechnica.com/science/2026/02/what-the-chinese-art-of-tian-tsui-has-to-do-with-kingfishers/",
-    "description": "",
-    "pubDate": "Wed, 18 Feb 2026 14:24:36 +0000",
-    "category": "Science",
-    "source": "Ars Technica Space",
-    "feedCategory": "space",
-    "matchedCompany": "Substrate",
-    "matchedCompanies": [
-      "Substrate",
-      "Reveal Technology"
-    ],
-    "sectors": [
-      "chips",
-      "defense"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "2/18/2026"
   },
@@ -4247,29 +2124,6 @@
     "time": "2/18/2026"
   },
   {
-    "title": "Recalibrating U.S. Intelligence Strategy for an Uncertain Global Order",
-    "link": "https://warontherocks.com/2026/02/recalibrating-u-s-intelligence-strategy-for-an-uncertain-global-order/",
-    "description": "In the wake of 9/11, the newly established Office of the Director of National Intelligence produced the nation&#8217;s first National Intelligence Strategy, a document explicitly intended to guide reforms to the intelligence community and help prevent another terrorist attack on the U.S. homeland. T",
-    "pubDate": "Tue, 17 Feb 2026 08:30:31 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Vannevar Labs",
-    "matchedCompanies": [
-      "Vannevar Labs",
-      "Reveal Technology",
-      "Umbra",
-      "Rebellion Defense"
-    ],
-    "sectors": [
-      "defense",
-      "space"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "2/17/2026"
-  },
-  {
     "title": "Panama’s Hidden Chokepoint: Tocumen and the Convergence of Mobility Power",
     "link": "https://warontherocks.com/2026/02/panamas-hidden-chokepoint-tocumen-and-the-convergence-of-mobility-power/",
     "description": "The most consequential infrastructure decisions in Panama today are often not made at the locks of the canal, but in conference rooms where aviation security software, cargo-routing platforms, and port-scheduling systems converge. Sustained observation of Panama&#8217;s logistics and regulatory envi",
@@ -4277,94 +2131,19 @@
     "category": "Commentary",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Airship Industries",
+    "matchedCompany": "Cape",
     "matchedCompanies": [
-      "Airship Industries",
-      "The Boring Company",
-      "Pipedream",
-      "Flexport",
-      "Rune Technologies",
-      "Air Space Intelligence",
-      "Agility Robotics",
       "Cape",
-      "Manna Aero",
-      "Clippership",
-      "Blumen Systems",
-      "Durin",
-      "Bronco AI",
-      "Crusoe Energy",
-      "Terranova",
-      "Aurora Innovation",
-      "Fortastra",
-      "Exotec",
-      "Einride",
-      "Quantum Machines",
       "Percepto",
-      "Mujin",
-      "ideaForge",
-      "Dronamics",
-      "Dexterity",
-      "Locus Robotics",
-      "Outrider",
-      "Parallel Systems",
-      "Together AI"
+      "ideaForge"
     ],
     "sectors": [
-      "autonomous",
-      "transportation",
-      "consumer",
-      "defense",
-      "ai",
-      "robotics",
       "climate",
-      "ocean",
-      "infrastructure",
-      "quantum"
+      "autonomous"
     ],
     "type": "news",
     "impact": "low",
     "time": "2/17/2026"
-  },
-  {
-    "title": "The Full Spectrum of Victory",
-    "link": "https://warontherocks.com/2026/02/the-full-spectrum-of-victory/",
-    "description": "Welcome to&#160;The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum only for&#160;War on the Rocks members. Each Monday, we bring you a curated selection of articles from Ukrainian media offering insight into how Ukrainians themselves debate t",
-    "pubDate": "Mon, 16 Feb 2026 16:00:31 +0000",
-    "category": "Members",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Neros",
-    "matchedCompanies": [
-      "Neros",
-      "Vannevar Labs",
-      "White Stork"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "2/16/2026"
-  },
-  {
-    "title": "The Sound of Munich: Autonomy, Anxiety, and the Twilight of Transatlantic Order",
-    "link": "https://warontherocks.com/2026/02/the-sound-of-munich-autonomy-anxiety-and-the-twilight-of-transatlantic-order/",
-    "description": "Munich was warmer than Washington this weekend, both in weather and in sentiment. Neither development was widely forecast. The sense of crisis in transatlantic relations was plain, especially on the European side, and the world descended on the Bayerischer Hof hotel to sort it all out. At the Munich",
-    "pubDate": "Mon, 16 Feb 2026 08:30:33 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Muon Space",
-    "matchedCompanies": [
-      "Muon Space",
-      "Endurosat"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/16/2026"
   },
   {
     "title": "OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips",
@@ -4414,10 +2193,7 @@
     "feedCategory": "tech",
     "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "OpenAI",
-      "Kyutai",
-      "Turbopuffer",
-      "Sakana AI"
+      "OpenAI"
     ],
     "sectors": [
       "ai"
@@ -4434,74 +2210,16 @@
     "category": "Members",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Neros",
+    "matchedCompany": "Matter",
     "matchedCompanies": [
-      "Neros",
-      "White Stork"
+      "Matter"
     ],
     "sectors": [
-      "defense"
+      "manufacturing"
     ],
     "type": "news",
     "impact": "high",
     "time": "2/11/2026"
-  },
-  {
-    "title": "Pauses Without Peace: What Last Year’s Ceasefires Reveal About Global Conflict Management",
-    "link": "https://warontherocks.com/2026/02/pauses-without-peace-what-last-years-ceasefires-reveal-about-global-conflict-management/",
-    "description": "What if the United States isn&#8217;t ending wars, just interrupting them?Since returning to the White House, President Donald Trump &#8212; who has repeatedly described himself as a &#8220;President of Peace&#8221; &#8212; has intervened to halt conflicts across multiple crisis theaters. From Gaza ",
-    "pubDate": "Wed, 11 Feb 2026 08:30:08 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Reveal Technology",
-    "matchedCompanies": [
-      "Reveal Technology"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/11/2026"
-  },
-  {
-    "title": "Sweet Nothings: Rutte’s Trump-Whispering Is Counterproductive",
-    "link": "https://warontherocks.com/2026/02/sweet-nothings-ruttes-trump-whispering-is-counterproductive/",
-    "description": "NATO Secretary General Mark Rutte might have been the only European in the room who enjoyed President Donald Trump&#8217;s lengthy, meandering speech last month at the World Economic Forum at Davos. He was lavishly praised not once but twice by the president, who called him an &#8220;excellent Secre",
-    "pubDate": "Wed, 11 Feb 2026 08:15:28 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Endurosat",
-    "matchedCompanies": [
-      "Endurosat"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "2/11/2026"
-  },
-  {
-    "title": "Does Guaranteeing Israel’s Qualitative Military Edge Still Serve U.S. Interests?",
-    "link": "https://warontherocks.com/2026/02/does-guaranteeing-israels-qualitative-military-edge-still-serve-u-s-interests/",
-    "description": "In early January 2026, Israeli Prime Minister Benjamin Netanyahu dropped a bombshell. In an interview for the Economist, he claimed that he sought to &#8220;taper off&#8221; the $3.8 billion in military aid that Israel receives from the United States or even end this longstanding military assistance",
-    "pubDate": "Tue, 10 Feb 2026 08:30:47 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Rebellion Defense",
-    "matchedCompanies": [
-      "Rebellion Defense"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "high",
-    "time": "2/10/2026"
   },
   {
     "title": "Biodefense Blind Spot: Why Washington Confuses Pandemics with Bioweapons",
@@ -4511,14 +2229,10 @@
     "category": "Cogs of War",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Kyutai",
+    "matchedCompany": "Labelbox",
     "matchedCompanies": [
-      "Kyutai",
-      "Turbopuffer",
       "Labelbox",
-      "Photonic Inc",
-      "Sakana AI",
-      "Runway"
+      "Photonic Inc"
     ],
     "sectors": [
       "ai",
@@ -4575,17 +2289,12 @@
     "category": "Podcasts",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Arc Boats",
+    "matchedCompany": "Durin",
     "matchedCompanies": [
-      "Arc Boats",
-      "Durin",
-      "Thalassa Robotics",
-      "Orbital Marine Power"
+      "Durin"
     ],
     "sectors": [
-      "transportation",
-      "infrastructure",
-      "ocean"
+      "infrastructure"
     ],
     "type": "news",
     "impact": "low",
@@ -4599,61 +2308,16 @@
     "category": "Commentary",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Neros",
+    "matchedCompany": "Atomic Industries",
     "matchedCompanies": [
-      "Neros",
-      "Field AI",
-      "Atomic Industries",
-      "PILGRIM",
-      "White Stork"
+      "Atomic Industries"
     ],
     "sectors": [
-      "defense",
-      "ai",
       "robotics"
     ],
     "type": "ipo",
     "impact": "low",
     "time": "2/6/2026"
-  },
-  {
-    "title": "AI companies want you to stop chatting with bots and start managing them",
-    "link": "https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/",
-    "description": "",
-    "pubDate": "Thu, 05 Feb 2026 22:47:54 +0000",
-    "category": "AI",
-    "source": "Ars Technica",
-    "feedCategory": "tech",
-    "matchedCompany": "Altos Labs",
-    "matchedCompanies": [
-      "Altos Labs",
-      "Retro Biosciences"
-    ],
-    "sectors": [
-      "biotech"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/5/2026"
-  },
-  {
-    "title": "Endless Talks, Elusive Outcomes",
-    "link": "https://warontherocks.com/2026/02/endless-talks-elusive-outcomes/",
-    "description": "Welcome to The Adversarial.&#160;Every other week, we&#8217;ll provide you with expert analysis on America&#8217;s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranAs tensions simmer between the United States and Iran, attempts to resume negotiations and ",
-    "pubDate": "Thu, 05 Feb 2026 22:45:24 +0000",
-    "category": "Members",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Vannevar Labs",
-    "matchedCompanies": [
-      "Vannevar Labs"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "2/5/2026"
   },
   {
     "title": "OpenAI is hoppin&#039; mad about Anthropic&#039;s new Super Bowl TV ads",
@@ -4706,20 +2370,15 @@
     "matchedCompany": "Cape",
     "matchedCompanies": [
       "Cape",
-      "Durin",
       "Bronco AI",
-      "Mariana Minerals",
       "Fortastra",
-      "Gravitricity",
       "Percepto",
-      "ideaForge",
-      "SHIELD Technology Partners"
+      "ideaForge"
     ],
     "sectors": [
       "climate",
       "infrastructure",
-      "autonomous",
-      "defense"
+      "autonomous"
     ],
     "type": "funding",
     "impact": "medium",
@@ -4754,49 +2413,10 @@
     "feedCategory": "tech",
     "matchedCompany": "Anthropic",
     "matchedCompanies": [
-      "Anthropic",
-      "Ada"
+      "Anthropic"
     ],
     "sectors": [
       "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/4/2026"
-  },
-  {
-    "title": "SkyFoundry and the Future of American Drone Production at Scale",
-    "link": "https://warontherocks.com/2026/02/skyfoundry-and-the-future-of-american-drone-production-at-scale/",
-    "description": "China and Russia are churning out millions of drones while the United States has little capacity to build them at scale. Rep. Pat Harrigan of North Carolina introduced the SkyFoundry Act to change this, and it got rolled into the latest National Defense Authorization Act.&#160; This law authorizes a",
-    "pubDate": "Wed, 04 Feb 2026 09:00:18 +0000",
-    "category": "Cogs of War",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Scale AI",
-    "matchedCompanies": [
-      "Scale AI"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "milestone",
-    "impact": "medium",
-    "time": "2/4/2026"
-  },
-  {
-    "title": "The Chinese Yoke: Russia’s Return to Vassalship",
-    "link": "https://warontherocks.com/2026/02/the-chinese-yoke-russias-return-to-vassalship/",
-    "description": "In the 13th century, Muscovy, the medieval antecedent to modern Russia, was a small outpost on the periphery of Kyivan Rus. It would not emerge as a regional power until the Mongol conquest, where it became crucial in extracting taxes for tribute and maintaining the overlordship of the Khans in the ",
-    "pubDate": "Wed, 04 Feb 2026 08:30:28 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Outpost Space",
-    "matchedCompanies": [
-      "Outpost Space"
-    ],
-    "sectors": [
-      "space"
     ],
     "type": "news",
     "impact": "low",
@@ -4819,25 +2439,6 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "2/3/2026"
-  },
-  {
-    "title": "How China Is Building Influence Along Europe’s Southeastern Edge",
-    "link": "https://warontherocks.com/2026/02/how-china-is-building-influence-along-europes-southeastern-edge/",
-    "description": "While the Russo-Ukrainian War dominates attention in Eastern Europe, China is quietly expanding its influence in the region. As NATO strains under growing internal pressures and the European Union confronts unresolved questions about its future, Beijing&#8217;s capacity to project power in Europe in",
-    "pubDate": "Tue, 03 Feb 2026 18:30:33 +0000",
-    "category": "In Brief",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Endurosat",
-    "matchedCompanies": [
-      "Endurosat"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
     "time": "2/3/2026"
   },
   {
@@ -4870,14 +2471,12 @@
     "category": "Commentary",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Cover",
+    "matchedCompany": "Asylon Robotics",
     "matchedCompanies": [
-      "Cover",
       "Asylon Robotics",
       "ideaForge"
     ],
     "sectors": [
-      "construction",
       "autonomous"
     ],
     "type": "news",
@@ -4892,58 +2491,16 @@
     "category": "Commentary",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Chaos Industries",
+    "matchedCompany": "Etched",
     "matchedCompanies": [
-      "Chaos Industries",
-      "Etched",
-      "Earth AI"
+      "Etched"
     ],
     "sectors": [
-      "defense",
-      "chips",
-      "infrastructure"
+      "chips"
     ],
     "type": "news",
     "impact": "low",
     "time": "2/2/2026"
-  },
-  {
-    "title": "Iran After the Supreme Leader",
-    "link": "https://warontherocks.com/2026/01/iran-after-the-supreme-leader/",
-    "description": "As Iran confronts the aftermath of mass state violence and braces for the possibility of U.S. strikes, debate over the country&#8217;s future has intensified. What distinguishes this moment is not simply the scale of repression, but the convergence of internal exhaustion and external pressure that h",
-    "pubDate": "Sat, 31 Jan 2026 08:30:42 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Scale AI",
-    "matchedCompanies": [
-      "Scale AI"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1/31/2026"
-  },
-  {
-    "title": "Risk, Order, and Power: The Saudi-Emirati Divergence",
-    "link": "https://warontherocks.com/2026/01/risk-order-and-power-the-saudi-emirati-divergence/",
-    "description": "In early December 2025, forces backed by the United Arab Emirates swept across six governorates in southern Yemen and seized oil-rich provinces along Saudi Arabia&#8217;s border. Within days, Saudi airstrikes and Saudi-backed troops erased their gains. The Emirati-backed Southern Transitional Counci",
-    "pubDate": "Fri, 30 Jan 2026 08:35:14 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "The Boring Company",
-    "matchedCompanies": [
-      "The Boring Company"
-    ],
-    "sectors": [
-      "transportation"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1/30/2026"
   },
   {
     "title": "Turkey’s Drone Industry at a Strategic Crossroads",
@@ -4953,26 +2510,20 @@
     "category": "Commentary",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "DIRAC",
+    "matchedCompany": "Karman Industries",
     "matchedCompanies": [
-      "DIRAC",
       "Karman Industries",
       "Solugen",
       "Gecko Robotics",
       "Teralta",
       "H2 Green Steel",
-      "Delian Alliance Industries",
-      "Rapid Robotics",
-      "Endurosat",
-      "Osmo"
+      "Delian Alliance Industries"
     ],
     "sectors": [
-      "robotics",
       "climate",
+      "robotics",
       "infrastructure",
-      "defense",
-      "space",
-      "consumer"
+      "defense"
     ],
     "type": "news",
     "impact": "low",
@@ -4988,35 +2539,14 @@
     "feedCategory": "defense",
     "matchedCompany": "Vast",
     "matchedCompanies": [
-      "Vast",
-      "Arbor Energy"
+      "Vast"
     ],
     "sectors": [
-      "space",
-      "climate"
+      "space"
     ],
     "type": "news",
     "impact": "low",
     "time": "1/29/2026"
-  },
-  {
-    "title": "How Does Canada’s Military Fare Without the United States?",
-    "link": "https://warontherocks.com/2026/01/how-does-canadas-military-fare-without-the-united-states/",
-    "description": "In 2024, Philippe Lagass&#233; and Justin Massie wrote, &#8220;Don&#8217;t Count on Us: Canada&#8217;s Military Unreadiness,&#8221; where they argued that Canada&#8217;s military was in a death spiral. In the midst of heightened tensions between Canada and the United States, we thought now would be ",
-    "pubDate": "Wed, 28 Jan 2026 18:30:21 +0000",
-    "category": "Members",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Ada",
-    "matchedCompanies": [
-      "Ada"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1/28/2026"
   },
   {
     "title": "Defending Against the Next Bioweapon: the mRNA Imperative",
@@ -5029,7 +2559,6 @@
     "matchedCompany": "Palantir",
     "matchedCompanies": [
       "Palantir",
-      "Cape",
       "Colossal Biosciences",
       "DNA Script",
       "Trilobio",
@@ -5039,34 +2568,10 @@
     ],
     "sectors": [
       "ai",
-      "climate",
-      "biotech"
+      "biotech",
+      "climate"
     ],
     "type": "milestone",
-    "impact": "low",
-    "time": "1/28/2026"
-  },
-  {
-    "title": "Gaza and the Conduct of Urban War: Civilian Harm, Risk, and Responsibility",
-    "link": "https://warontherocks.com/2026/01/gaza-and-the-conduct-of-urban-war-civilian-harm-risk-and-responsibility/",
-    "description": "Urban warfare is often invoked as an alibi: dense terrain, an embedded enemy, human shields, imperfect intelligence. These conditions are real but they do not, on their own, explain outcomes. Every modern military that has fought in cities has faced uncertainty, civilian presence, and adversaries wh",
-    "pubDate": "Wed, 28 Jan 2026 08:30:05 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Shield AI",
-    "matchedCompanies": [
-      "Shield AI",
-      "Vannevar Labs",
-      "Reveal Technology",
-      "Umbra",
-      "Rebellion Defense"
-    ],
-    "sectors": [
-      "defense",
-      "space"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "1/28/2026"
   },
@@ -5078,9 +2583,8 @@
     "category": "Cogs of War",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "DIRAC",
+    "matchedCompany": "Karman Industries",
     "matchedCompanies": [
-      "DIRAC",
       "Karman Industries",
       "Deterrence",
       "Solugen",
@@ -5092,10 +2596,10 @@
       "Ares Industries"
     ],
     "sectors": [
-      "robotics",
       "climate",
       "defense",
-      "infrastructure"
+      "infrastructure",
+      "robotics"
     ],
     "type": "contract",
     "impact": "low",
@@ -5113,13 +2617,11 @@
     "matchedCompanies": [
       "Cape",
       "Percepto",
-      "ideaForge",
-      "SHIELD Technology Partners"
+      "ideaForge"
     ],
     "sectors": [
       "climate",
-      "autonomous",
-      "defense"
+      "autonomous"
     ],
     "type": "news",
     "impact": "low",
@@ -5133,15 +2635,11 @@
     "category": "Commentary",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Field AI",
+    "matchedCompany": "PILGRIM",
     "matchedCompanies": [
-      "Field AI",
-      "Matic Robotics",
       "PILGRIM"
     ],
     "sectors": [
-      "ai",
-      "consumer",
       "defense"
     ],
     "type": "news",
@@ -5156,9 +2654,8 @@
     "category": "Cogs of War",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "DIRAC",
+    "matchedCompany": "Karman Industries",
     "matchedCompanies": [
-      "DIRAC",
       "Karman Industries",
       "Solugen",
       "Gecko Robotics",
@@ -5166,70 +2663,13 @@
       "H2 Green Steel"
     ],
     "sectors": [
-      "robotics",
       "climate",
+      "robotics",
       "infrastructure"
     ],
     "type": "news",
     "impact": "low",
     "time": "1/26/2026"
-  },
-  {
-    "title": "Is it Time for a Nordic Nuke?",
-    "link": "https://warontherocks.com/2026/01/is-it-time-for-a-nordic-nuke/",
-    "description": "Moscow&#8217;s &#8220;Oreshnik&#8221; strike on January 9, 2026 is best understood as strategic signaling designed to shape what NATO will and will not do. Russia&#8217;s use of nuclear-capable delivery systems in the Russo-Ukrainian War underscores a returning logic: nuclear weapons as instruments ",
-    "pubDate": "Mon, 26 Jan 2026 08:30:13 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Vayu Robotics",
-    "matchedCompanies": [
-      "Vayu Robotics"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1/26/2026"
-  },
-  {
-    "title": "Disarming Hamas: Lessons from U.S. Efforts to Demobilize Militias in Iraq",
-    "link": "https://warontherocks.com/2026/01/disarming-hamas-lessons-from-u-s-efforts-to-demobilize-militias-in-iraq/",
-    "description": "In late 2003, I was asked to take on the task of demobilizing Iraqi militias. This would later be named the &#8220;transition and reintegration&#8221; program. Shortly after the program commenced, efforts to stabilize and rebuild Iraq veered off in directions no one wanted.The task I took on was con",
-    "pubDate": "Mon, 26 Jan 2026 08:15:51 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "The Boring Company",
-    "matchedCompanies": [
-      "The Boring Company"
-    ],
-    "sectors": [
-      "transportation"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1/26/2026"
-  },
-  {
-    "title": "Alliances Under Pressure",
-    "link": "https://warontherocks.com/2026/01/alliances-under-pressure/",
-    "description": "Welcome to The Adversarial.&#160;Every other week, we&#8217;ll provide you with expert analysis on America&#8217;s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranOnly days ago, the United States appeared poised to make good on President Donald Trump&#82",
-    "pubDate": "Fri, 23 Jan 2026 15:45:15 +0000",
-    "category": "Members",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Vannevar Labs",
-    "matchedCompanies": [
-      "Vannevar Labs"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "1/23/2026"
   },
   {
     "title": "The Organic Industrial Base and the Risks of Competing Against Ourselves",
@@ -5239,40 +2679,18 @@
     "category": "Cogs of War",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "DIRAC",
+    "matchedCompany": "Karman Industries",
     "matchedCompanies": [
-      "DIRAC",
       "Karman Industries",
-      "Alpha School",
       "Solugen",
       "Gecko Robotics",
       "Teralta",
       "H2 Green Steel"
     ],
     "sectors": [
-      "robotics",
       "climate",
-      "consumer",
+      "robotics",
       "infrastructure"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1/22/2026"
-  },
-  {
-    "title": "Deep Learning From Operation Sindoor: Five Takeaways From a Four-Day War",
-    "link": "https://warontherocks.com/2026/01/deep-learning-from-operation-sindoor-five-takeaways-from-a-four-day-war/",
-    "description": "Tensions between India and Pakistan &#8212; two countries that President Donald Trump claimed had been fighting for 1,500 years &#8212; escalated rapidly over a few days in May 2025.On May 7&#8211;10, the two countries fought an 88-hour war after India accused Pakistan of orchestrating a gruesome te",
-    "pubDate": "Thu, 22 Jan 2026 08:30:58 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Rapid Robotics",
-    "matchedCompanies": [
-      "Rapid Robotics"
-    ],
-    "sectors": [
-      "robotics"
     ],
     "type": "news",
     "impact": "low",
@@ -5294,26 +2712,6 @@
       "ai"
     ],
     "type": "hire",
-    "impact": "low",
-    "time": "1/21/2026"
-  },
-  {
-    "title": "What Would Have Happened If the Green Berets Helped Ukraine?",
-    "link": "https://warontherocks.com/2026/01/what-would-have-happened-if-the-green-berets-helped-ukraine/",
-    "description": "In 2024, Brian Petit wrote, &#8220;Send in the A Team: A Graduated Response for Ukraine,&#8221; where he argued for sending the Green Berets into Ukraine for training and assistance to the Ukrainian armed forces. We asked Brian to revisit his argument after talks of a peace deal have yet to produce ",
-    "pubDate": "Wed, 21 Jan 2026 19:00:09 +0000",
-    "category": "Members",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Neros",
-    "matchedCompanies": [
-      "Neros",
-      "White Stork"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "1/21/2026"
   },
@@ -5345,19 +2743,15 @@
     "category": "Commentary",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Applied Intuition",
+    "matchedCompany": "Cape",
     "matchedCompanies": [
-      "Applied Intuition",
       "Cape",
       "Percepto",
-      "ideaForge",
-      "SHIELD Technology Partners"
+      "ideaForge"
     ],
     "sectors": [
-      "ai",
       "climate",
-      "autonomous",
-      "defense"
+      "autonomous"
     ],
     "type": "milestone",
     "impact": "low",
@@ -5394,7 +2788,6 @@
     "matchedCompany": "Cape",
     "matchedCompanies": [
       "Cape",
-      "FREYR Battery",
       "Percepto",
       "ideaForge"
     ],
@@ -5418,15 +2811,12 @@
     "matchedCompanies": [
       "Cape",
       "Kodiak Robotics",
-      "Earth AI",
       "Percepto",
-      "ideaForge",
-      "SHIELD Technology Partners"
+      "ideaForge"
     ],
     "sectors": [
       "climate",
       "defense",
-      "infrastructure",
       "autonomous"
     ],
     "type": "ipo",
@@ -5454,48 +2844,6 @@
     "type": "news",
     "impact": "low",
     "time": "1/16/2026"
-  },
-  {
-    "title": "The Triage Trap: When AI Speed Replaces Command Judgment",
-    "link": "https://warontherocks.com/2026/01/the-triage-trap-when-ai-speed-replaces-command-judgment/",
-    "description": "A targeting screen fills with structures, heat signatures, and a rapidly closing window. Aircraft have only minutes of fuel left when an AI highlights a single building, and suddenly the decision space collapses to one bright box.This is the triage trap: a pattern in which AI-enabled workflows deter",
-    "pubDate": "Thu, 15 Jan 2026 09:00:52 +0000",
-    "category": "Cogs of War",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Dunia",
-    "matchedCompanies": [
-      "Dunia",
-      "Rapid Robotics"
-    ],
-    "sectors": [
-      "ai",
-      "robotics"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "1/15/2026"
-  },
-  {
-    "title": "The New Food Powers: How China and Russia Are Filling America&#8217;s Retreat",
-    "link": "https://warontherocks.com/2026/01/the-new-food-powers-how-china-and-russia-are-filling-americas-retreat/",
-    "description": "In January 2025, when the Trump administration froze nearly all foreign aid, more than 1,000 emergency communal kitchens in Sudan shut down within weeks. Half a million displaced people lost access to clean water. Famine conditions that had been held at bay collapsed into crisis. Within months, Russ",
-    "pubDate": "Thu, 15 Jan 2026 08:30:31 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Rainmaker",
-    "matchedCompanies": [
-      "Rainmaker",
-      "Vital Lyfe"
-    ],
-    "sectors": [
-      "autonomous",
-      "consumer"
-    ],
-    "type": "news",
-    "impact": "medium",
-    "time": "1/15/2026"
   },
   {
     "title": "Colombia’s Security Situation Under Petro",
@@ -5542,25 +2890,6 @@
     "time": "1/13/2026"
   },
   {
-    "title": "How to Ensure that $11 Billion in Potential Arms Sales Would Actually Help Taiwan",
-    "link": "https://warontherocks.com/2026/01/how-to-ensure-that-11-billion-in-potential-arms-sales-would-actually-help-taiwan/",
-    "description": "On Dec. 17, the State Department announced approval for a major arms sales package to Taiwan. The package authorizes $11 billion worth of weapons and equipment sales to Taiwan, including High Mobility Artillery Rocket Systems, howitzers, Altius drone systems, and two missile systems. The sales are u",
-    "pubDate": "Tue, 13 Jan 2026 19:45:37 +0000",
-    "category": "In Brief",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Attio",
-    "matchedCompanies": [
-      "Attio"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "high",
-    "time": "1/13/2026"
-  },
-  {
     "title": "After Maduro: Trump’s Managed Authoritarianism Trap in Venezuela",
     "link": "https://warontherocks.com/2026/01/after-maduro-trumps-managed-authoritarianism-trap-in-venezuela/",
     "description": "It&#8217;s early days, but the Trump administration&#8217;s approach to a post-President Nicol&#225;s Maduro Venezuela is quickly coming into focus. This is not externally imposed democracy building but a regime management project that relies on compliant regime insiders, the existing state security",
@@ -5583,25 +2912,6 @@
     "time": "1/13/2026"
   },
   {
-    "title": "Why the U.S. Navy Doesn’t Build Battleships Anymore",
-    "link": "https://warontherocks.com/2026/01/why-the-u-s-navy-doesnt-build-battleships-anymore/",
-    "description": "On Apr. 7, 1945, aircraft from the U.S. Navy&#8217;s fast carrier task force sank the largest battleship ever built, the Imperial Japanese Navy&#8217;s Yamato. Escorted by the light cruiser Yahagi and eight destroyers, Yamato was on its way to Okinawa. It was intended to be a one-way trip: Yamato wa",
-    "pubDate": "Mon, 12 Jan 2026 08:30:11 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Built Robotics",
-    "matchedCompanies": [
-      "Built Robotics"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1/12/2026"
-  },
-  {
     "title": "Protests, Seizures, and Exercises",
     "link": "https://warontherocks.com/2026/01/protests-seizures-and-exercises/",
     "description": "Welcome to The Adversarial.&#160;Every other week, we&#8217;ll provide you with expert analysis on America&#8217;s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***IranThe Iranian government has faced mass protests and military strikes by its adversaries befo",
@@ -5609,60 +2919,16 @@
     "category": "Members",
     "source": "War on the Rocks",
     "feedCategory": "defense",
-    "matchedCompany": "Vannevar Labs",
+    "matchedCompany": "Palantir",
     "matchedCompanies": [
-      "Vannevar Labs",
       "Palantir"
     ],
     "sectors": [
-      "defense",
       "ai"
     ],
     "type": "milestone",
     "impact": "low",
     "time": "1/9/2026"
-  },
-  {
-    "title": "Latest Pentagon Report: China’s Military Advancing Amid Churn",
-    "link": "https://warontherocks.com/2026/01/latest-pentagon-report-chinas-military-advancing-amid-churn/",
-    "description": "Simultaneous disruption and progress, with a relentless Taiwan-focused capability development deadline.That&#8217;s the overriding theme of the 25th edition of the Department of Defense&#8217;s&#160;China Military Power Report, released on Dec. 23, 2025. Despite extensive leadership purges and ongoi",
-    "pubDate": "Fri, 09 Jan 2026 08:30:29 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Focused Energy",
-    "matchedCompanies": [
-      "Focused Energy"
-    ],
-    "sectors": [
-      "nuclear"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "1/9/2026"
-  },
-  {
-    "title": "Andrew Ng: Unbiggen AI",
-    "link": "https://spectrum.ieee.org/andrew-ng-data-centric-ai",
-    "description": "Andrew Ng has serious street cred in artificial intelligence. He pioneered the use of graphics processing units (GPUs) to train deep learning models in the late 2000s with his students at Stanford University, cofounded Google Brain in 2011, and then served for three years as chief scientist for Baid",
-    "pubDate": "Wed, 09 Feb 2022 15:31:12 +0000",
-    "category": "Deep-learning",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Vannevar Labs",
-    "matchedCompanies": [
-      "Vannevar Labs",
-      "Reveal Technology",
-      "Umbra",
-      "Rebellion Defense"
-    ],
-    "sectors": [
-      "defense",
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/9/2022"
   },
   {
     "title": "Atomically Thin Materials Significantly Shrink Qubits",
@@ -5672,34 +2938,15 @@
     "category": "Quantum-computing",
     "source": "IEEE Spectrum",
     "feedCategory": "tech",
-    "matchedCompany": "Atomic Industries",
+    "matchedCompany": "Rigetti Computing",
     "matchedCompanies": [
-      "Atomic Industries",
-      "Atom Computing",
-      "Conductor Quantum",
-      "PsiQuantum",
-      "IonQ",
       "Rigetti Computing",
-      "QuEra Computing",
       "Oxford Quantum Circuits",
       "Space Forge",
-      "planqc",
-      "Pasqal",
-      "Alice & Bob",
       "IQM Quantum Computers",
-      "QuantWare",
-      "Quantum Machines",
-      "Xanadu Quantum Technologies",
-      "Quantum Brilliance",
-      "D-Wave Quantum",
-      "Photonic Inc",
-      "Nord Quantique",
-      "Q-CTRL",
-      "Quantinuum"
+      "QuantWare"
     ],
     "sectors": [
-      "robotics",
-      "chips",
       "quantum",
       "space"
     ],

@@ -20436,25 +20436,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-02 05:07
-// Auto-generated real-time signals
-// Last updated: 2026-03-02
+// Last updated: 2026-03-02 10:31
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Array Labs", headline: "ESA announces 100 million euro satellite-mobile convergence initiative", source: "SpaceNews", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Destinus", headline: "Düren’s Hydrogen Bet: The Math Behind a Looming Liability", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "goTenna", headline: "NASA outlines objectives for Mars communications orbiter", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Runway", headline: "The Subaru Uncharted EV: Two Video Reviews", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Built Robotics", headline: "Lenovo’s Latest Wacky Concepts Include a Laptop With a Built-in Portable Monitor", source: "Wired", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Flexport", headline: "Polymarket saw $529M traded on bets tied to bombing of Iran", source: "TechCrunch", time: "12h ago", impact: "medium", unread: false },
-  { id: 7, type: "news", company: "Durin", headline: "IEEE President’s Note: Engineering a Modern Renaissance", source: "IEEE Spectrum", time: "13h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Durin", headline: "NIO &#038; Bosch Sign Strategic Cooperation Agreement", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Reveal Technology", headline: "OpenAI reveals more details about its agreement with the Pentagon", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Attio", headline: "NIO Deliveries Rise 58% in February — Charts", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Base Power", headline: "Honor launches its new slim foldable Magic V6 with a 6,600 mAh battery", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Durin", headline: "3 US troops killed, 5 seriously wounded in actions against Iran", source: "Defense News", time: "16h ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Anthropic", headline: "Anthropic’s Claude rises to No. 1 in the App Store following Pentagon dispute", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Asylon Robotics", headline: "Video Doorbell Advice and Settings for Opting Out of the Surveillance State", source: "Wired", time: "19h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Xcimer Energy", headline: "Best Laser Printers I've Tried (2026): Brother, HP, and More", source: "Wired", time: "20h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Astera Labs", headline: "The Data Centers Have Arrived at the Edge of the Arctic Circle", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "AST SpaceMobile", headline: "Open Cosmos unveils vision for imagery-linked sovereign satellite connectivity", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "PLD Space", headline: "ESA announces 100 million euro satellite-mobile convergence initiative", source: "SpaceNews", time: "2h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Durin", headline: "IEEE President's Note: Engineering a Modern Renaissance", source: "IEEE Spectrum", time: "15h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Durin", headline: "NIO &#038; Bosch Sign Strategic Cooperation Agreement", source: "CleanTechnica", time: "17h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "OpenAI", headline: "OpenAI reveals more details about its agreement with the Pentagon", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Durin", headline: "3 US troops killed, 5 seriously wounded in actions against Iran", source: "Defense News", time: "19h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Anthropic", headline: "Anthropic's Claude rises to No. 1 in the App Store following Pentagon dispute", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Asylon Robotics", headline: "Video Doorbell Advice and Settings for Opting Out of the Surveillance State", source: "Wired", time: "22h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Together AI", headline: "Letting Machines Decide What Matters", source: "IEEE Spectrum", time: "23h ago", impact: "high", unread: false },
+  { id: 11, type: "ipo", company: "Dawn Aerospace", headline: "CAS Space to launch Kinetica-2 in late March carrying prototype cargo spacecraft", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Machina Labs", headline: "Multi-Brand EV Distributor Opens Roadshow", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Ample", headline: "Battery Swapping Expands In New York City", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Synthesis", headline: "Grok 4.20 Praises Nextbigfuture and Brian Wang as Premier AI Training Source for Future Technology and Futurism", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Intuitive Machines", headline: "Intuitive Machines raises $175 million in stock sale", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
