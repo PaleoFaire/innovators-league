@@ -8464,6 +8464,11 @@ function initOpti() {
   let isOpen = false;
   let conversationHistory = [];
 
+  // ── Opti Phase 2: RAG API Configuration ──
+  const OPTI_API_URL = 'https://imxrdesbozbxmlffewyr.supabase.co/functions/v1/opti-chat';
+  const OPTI_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlteHJkZXNib3pieG1sZmZld3lyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE0NTM2MDQsImV4cCI6MjA4NzAyOTYwNH0.ULUcvwaU2d-gyL_k6lcRziIEsndnDLGtMkV61Q9Knq0';
+  const OPTI_USE_RAG = true;  // Set to false to disable RAG and use local-only mode
+
   // ── Toggle Panel ──
   function togglePanel() {
     isOpen = !isOpen;
@@ -8483,8 +8488,8 @@ function initOpti() {
     if (e.key === 'Escape' && isOpen) togglePanel();
   });
 
-  // ── Send Message ──
-  function sendMessage(text) {
+  // ── Send Message (async — RAG with local fallback) ──
+  async function sendMessage(text) {
     if (!text || !text.trim()) return;
     text = text.trim();
 
@@ -8500,13 +8505,92 @@ function initOpti() {
     // Show typing indicator
     const typing = showTyping();
 
-    // Generate response (simulate async)
-    setTimeout(() => {
-      typing.remove();
-      const response = generateResponse(text);
-      addMessage(response.text, 'bot', response.meta);
-      conversationHistory.push({ role: 'bot', content: response.text });
-    }, 600 + Math.random() * 800);
+    // ── Try RAG API first, fall back to local ──
+    if (OPTI_USE_RAG) {
+      try {
+        const response = await fetchOptiResponse(text);
+        typing.remove();
+
+        if (response.fallback) {
+          // API returned fallback signal — use local response
+          const localResponse = generateResponse(text);
+          addMessage(localResponse.text, 'bot', localResponse.meta);
+          conversationHistory.push({ role: 'bot', content: localResponse.text });
+        } else {
+          // Render RAG response (convert markdown bold to HTML)
+          let html = response.text
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\n- /g, '<br>\u2022 ')
+            .replace(/\n\d+\.\s/g, function(match) { return '<br>' + match.trim() + ' '; })
+            .replace(/\n/g, '<br>');
+
+          // Build source attribution
+          const meta = {};
+          if (response.sources && response.sources.length > 0) {
+            const sourceTypes = [...new Set(response.sources.map(s => s.type))];
+            const labels = sourceTypes.map(t =>
+              t === 'podcast' ? 'Podcast transcript'
+              : t === 'research' ? 'Research report'
+              : t === 'optimism' ? 'Optimism research'
+              : 'Research notes'
+            );
+            meta.source = labels.join(' + ');
+          }
+
+          addMessage(html, 'bot', meta);
+          conversationHistory.push({ role: 'bot', content: response.text });
+        }
+      } catch (err) {
+        console.warn('[Opti] RAG API error, falling back to local:', err);
+        typing.remove();
+        const localResponse = generateResponse(text);
+        addMessage(localResponse.text, 'bot', localResponse.meta);
+        conversationHistory.push({ role: 'bot', content: localResponse.text });
+      }
+    } else {
+      // Local-only mode
+      setTimeout(() => {
+        typing.remove();
+        const response = generateResponse(text);
+        addMessage(response.text, 'bot', response.meta);
+        conversationHistory.push({ role: 'bot', content: response.text });
+      }, 600 + Math.random() * 800);
+    }
+  }
+
+  // ── RAG API Fetch ──
+  async function fetchOptiResponse(text) {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 15000); // 15s timeout
+
+    try {
+      const res = await fetch(OPTI_API_URL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': OPTI_ANON_KEY,
+        },
+        body: JSON.stringify({
+          message: text,
+          conversationHistory: conversationHistory.slice(-20),
+        }),
+        signal: controller.signal,
+      });
+
+      clearTimeout(timeoutId);
+
+      if (!res.ok) {
+        throw new Error('API returned ' + res.status);
+      }
+
+      return await res.json();
+    } catch (err) {
+      clearTimeout(timeoutId);
+      if (err.name === 'AbortError') {
+        console.warn('[Opti] Request timed out after 15s');
+      }
+      throw err;
+    }
   }
 
   // ── Add Message to DOM ──
@@ -8521,9 +8605,9 @@ function initOpti() {
       const slug = companyToSlug(meta.company);
       html += '<br><span class="opti-msg-company" onclick="window.location.hash=\'company/' + slug + '\'">' + meta.company + ' \u2192</span>';
     }
-    // Add source attribution
+    // Add source attribution + RAG badge
     if (meta && meta.source) {
-      html += '<span class="opti-msg-source">\u2014 ' + meta.source + '</span>';
+      html += '<span class="opti-msg-source">\u2014 ' + meta.source + ' <span class="opti-rag-badge">AI-enhanced</span></span>';
     }
 
     msg.innerHTML = html;
@@ -8878,7 +8962,8 @@ function initOpti() {
     "Hey! I'm <strong>Opti</strong> \ud83d\ude80 \u2014 your rational optimist co-pilot for frontier tech. I've got " +
     (typeof COMPANIES !== 'undefined' ? '<strong>' + COMPANIES.length + ' companies</strong>' : '500+ companies') +
     " in my brain across defense, space, energy, biotech, and robotics." +
-    "<br><br>Ask me anything \u2014 company deep dives, sector breakdowns, top picks, founder networks, you name it.",
+    (OPTI_USE_RAG ? " <em>Plus</em>, I can draw from podcast interviews, research reports, and proprietary ROS analysis." : "") +
+    "<br><br>Ask me anything \u2014 company deep dives, sector breakdowns, investment theses, or what our podcast guests are saying.",
     'bot'
   );
 }

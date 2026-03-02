@@ -75,9 +75,9 @@ const MASTER_COMPANY_LIST = [
   { name: "Cognition", aliases: ["autonomous agent"], sector: "ai", ticker: null },
   { name: "Hadrian", aliases: ["Hadrian Manufacturing", "automated factory", "aerospace"], sector: "robotics", ticker: null },
   { name: "Machina Labs", aliases: ["Machina", "MachinaLabs", "Roboforming", "robotic manufacturing", "metal forming", "automotive"], sector: "robotics", ticker: null },
-  { name: "DIRAC", aliases: ["work instructions", "industrial"], sector: "robotics", ticker: null },
+  { name: "DIRAC", aliases: ["Dirac manufacturing", "work instructions", "manufacturing software platform"], sector: "robotics", ticker: null },
   { name: "Formic", aliases: ["Formic Robotics", "robots-as-a-service", "automation"], sector: "robotics", ticker: null },
-  { name: "Rangeview", aliases: [], sector: "robotics", ticker: null },
+  { name: "Rangeview", aliases: ["Rangeview casting", "metal casting startup"], sector: "robotics", ticker: null },
   { name: "Senra Systems", aliases: ["Senra", "SenraSystems", "wire harnesses", "software-defined"], sector: "robotics", ticker: null },
   { name: "Salient Motion", aliases: ["SalientMotion", "actuation", "motion control"], sector: "robotics", ticker: null },
   { name: "Divergent", aliases: ["additive manufacturing", "automotive"], sector: "robotics", ticker: null },
@@ -268,7 +268,7 @@ const MASTER_COMPANY_LIST = [
   { name: "Nuro", aliases: ["Nuro AI", "autonomous delivery", "last-mile"], sector: "autonomous", ticker: null },
   { name: "Archer Aviation", aliases: ["ArcherAviation", "eVTOL", "air taxi", "urban air mobility"], sector: "autonomous", ticker: "ACHR" },
   { name: "Ridevalo", aliases: ["hydrofoil", "water transport"], sector: "autonomous", ticker: null },
-  { name: "Flyby Robotics", aliases: ["Flyby", "FlybyRobotics", "infrastructure inspection", "autonomous drones", "computer vision"], sector: "autonomous", ticker: null },
+  { name: "FlyBy Robotics", aliases: ["FlyBy", "FlyByRobotics", "Flyby", "defense drones", "swarm robotics", "Gundo"], sector: "defense", ticker: null },
   { name: "PsiQuantum", aliases: ["Psi Quantum", "quantum computing", "photonic", "semiconductor"], sector: "chips", ticker: null },
   { name: "Astera Labs", aliases: ["Astera", "AsteraLabs", "data center", "semiconductor"], sector: "chips", ticker: "ALAB" },
   { name: "Zettascale", aliases: ["AI chips", "energy efficient", "semiconductor"], sector: "chips", ticker: null },
@@ -307,7 +307,7 @@ const MASTER_COMPANY_LIST = [
   { name: "Proxima Fusion", aliases: ["ProximaFusion", "stellarator", "clean energy", "Max Planck"], sector: "nuclear", ticker: null },
   { name: "Marvel Fusion", aliases: ["MarvelFusion", "laser", "inertial confinement"], sector: "nuclear", ticker: null },
   { name: "Rocket Factory Augsburg", aliases: ["RocketFactoryAugsburg", "European launch"], sector: "space", ticker: null },
-  { name: "NEURA Robotics", aliases: ["NEURA", "NEURARobotics", "cognitive robots"], sector: "robotics", ticker: null },
+  { name: "Neura Robotics", aliases: ["NEURA", "NEURARobotics", "NeuraRobotics", "cognitive robots", "cognitive robotics", "AI perception"], sector: "robotics", ticker: null },
   { name: "Black Semiconductor", aliases: ["BlackSemiconductor", "graphene", "semiconductors", "interconnects"], sector: "chips", ticker: null },
   { name: "Sunfire", aliases: ["green hydrogen", "electrolysis", "e-fuels"], sector: "climate", ticker: null },
   { name: "planqc", aliases: ["quantum computing", "neutral atom", "optical lattice"], sector: "quantum", ticker: null },
@@ -371,7 +371,6 @@ const MASTER_COMPANY_LIST = [
   { name: "Solinftec", aliases: ["agtech", "autonomous robots", "precision agriculture"], sector: "robotics", ticker: null },
   { name: "Hugging Face", aliases: ["HuggingFace", "open-source AI", "ML platform", "model hub", "datasets"], sector: "ai", ticker: null },
   { name: "Kyutai", aliases: ["AI research", "open-source", "foundation models", "European AI"], sector: "ai", ticker: null },
-  { name: "Neura Robotics", aliases: ["Neura", "NeuraRobotics", "cognitive robotics", "AI perception"], sector: "robotics", ticker: null },
   { name: "Tekever", aliases: ["maritime"], sector: "autonomous", ticker: null },
   { name: "Dronamics", aliases: ["cargo drones", "logistics", "autonomous aviation"], sector: "autonomous", ticker: null },
   { name: "Monumental", aliases: ["construction robotics", "bricklaying", "automation", "labor shortage"], sector: "robotics", ticker: null },
@@ -392,7 +391,7 @@ const MASTER_COMPANY_LIST = [
   { name: "Roboton", aliases: ["industrial robotics", "Czech tech", "automation"], sector: "robotics", ticker: null },
   { name: "Long Wall", aliases: ["LongWall", "autonomous systems", "military tech"], sector: "defense", ticker: null },
   { name: "Truemed", aliases: ["healthcare payments", "preventive health", "fintech"], sector: "biotech", ticker: null },
-  { name: "Turbopuffer", aliases: ["vector database", "AI infrastructure", "serverless", "search"], sector: "ai", ticker: null },
+  { name: "Turbopuffer", aliases: ["vector database", "turbopuffer database"], sector: "ai", ticker: null },
   { name: "Attio", aliases: ["sales", "relationship intelligence"], sector: "ai", ticker: null },
   { name: "Day.ai", aliases: ["AI meetings", "productivity", "conversation intelligence"], sector: "ai", ticker: null },
   { name: "SHIELD Technology Partners", aliases: ["SHIELDTechnologyPartners", "defense tech", "advisory", "national security"], sector: "defense", ticker: null },
@@ -476,7 +475,6 @@ const MASTER_COMPANY_LIST = [
   { name: "Mission Barns", aliases: ["MissionBarns", "cultivated meat", "food tech"], sector: "biotech", ticker: null },
   { name: "KLIR Sky", aliases: ["KLIRSky", "carbon capture", "climate tech", "industrial decarbonization"], sector: "climate", ticker: null },
   { name: "Cresilon", aliases: ["medical devices", "trauma care", "hemostatic", "FDA cleared"], sector: "biotech", ticker: null },
-  { name: "FlyBy Robotics", aliases: ["FlyBy", "FlyByRobotics", "defense tech", "swarm robotics", "Gundo"], sector: "defense", ticker: null },
   { name: "Ulysses Robotics", aliases: ["Ulysses", "UlyssesRobotics", "UlyssesEco", "ocean tech", "underwater autonomy", "ecosystem restoration"], sector: "robotics", ticker: null },
   { name: "Poseidon Aerospace", aliases: ["Poseidon", "PoseidonAerospace", "ekranoplan", "ground-effect vehicle"], sector: "aerospace", ticker: null },
   { name: "Cuby", aliases: ["housing", "construction tech", "modular", "prefab"], sector: "construction", ticker: null },
@@ -530,6 +528,89 @@ const MASTER_COMPANY_LIST = [
   { name: "DEEPX", aliases: ["edge AI chip", "DX-M1", "DX-M2", "Korean AI semiconductor", "neural processor"], sector: "semiconductor", ticker: null },
   { name: "PierSight", aliases: ["SAR satellite", "maritime surveillance", "ocean monitoring", "AIS satellite"], sector: "space", ticker: null },
   { name: "Mynaric", aliases: ["laser communications", "CONDOR", "optical inter-satellite link", "OISL", "space laser"], sector: "space", ticker: "MYNA" },
+
+  // ── Manufacturing / Reindustrialization ("American Shenzhen") ──────────
+  // Specialty Materials — Composites
+  { name: "Axial Composites", aliases: ["AxialComposites", "composite manufacturing", "Giuseppe Rapisarda"], sector: "manufacturing", ticker: null },
+  { name: "Layup Parts", aliases: ["LayupParts", "composite parts", "carbon fiber parts"], sector: "manufacturing", ticker: null },
+  { name: "Fiber Dynamics", aliases: ["FiberDynamics", "fiber composite", "advanced composites"], sector: "manufacturing", ticker: null },
+
+  // Specialty Materials — Metals
+  { name: "Bethlehem Steel Corp", aliases: ["BethlehemSteel", "Bethlehem Steel", "new Bethlehem Steel", "American steelmaking"], sector: "manufacturing", ticker: null },
+  { name: "Nox Metals", aliases: ["NoxMetals", "Zane Hengsperger", "metal manufacturing"], sector: "manufacturing", ticker: null },
+  { name: "Duranium", aliases: ["Duranium metals", "advanced alloys manufacturing"], sector: "manufacturing", ticker: null },
+
+  // Electronics Manufacturing
+  { name: "MacroFab", aliases: ["Macro Fab", "electronics manufacturing", "PCB assembly", "Chris Church"], sector: "manufacturing", ticker: null },
+  { name: "Finwave Semiconductor", aliases: ["FinwaveSemi", "Finwave Semi", "GaN transistors", "gallium nitride semiconductor"], sector: "semiconductor", ticker: null },
+  { name: "Sphere Semi", aliases: ["SphereSemi", "Sphere Semiconductor", "semiconductor manufacturing"], sector: "semiconductor", ticker: null },
+
+  // Precision Machining & Fabrication
+  { name: "SendCutSend", aliases: ["Send Cut Send", "laser cutting service", "Jim Belosic", "online fabrication"], sector: "manufacturing", ticker: null },
+  { name: "OSH Cut", aliases: ["OSHCut", "waterjet cutting", "laser cutting marketplace"], sector: "manufacturing", ticker: null },
+  { name: "RMFG", aliases: ["rapid manufacturing", "CNC machining service"], sector: "manufacturing", ticker: null },
+  { name: "Forge Automation", aliases: ["ForgeAutomation", "manufacturing automation", "CNC automation"], sector: "manufacturing", ticker: null },
+  { name: "Emelody", aliases: ["Emelody manufacturing", "precision fabrication"], sector: "manufacturing", ticker: null },
+
+  // Robotic Systems — Actuators & Motors
+  { name: "HLabs", aliases: ["H Labs", "robotic actuators", "electric actuators"], sector: "robotics", ticker: null },
+  { name: "RISE Robotics", aliases: ["RISERobotics", "Beltdraulic", "Blake Sessions", "hydraulic replacement"], sector: "robotics", ticker: null },
+  { name: "Artimus Robotics", aliases: ["ArtimusRobotics", "HASEL actuators", "electrohydraulic actuators", "soft robotics actuators"], sector: "robotics", ticker: null },
+  { name: "Corvex Systems", aliases: ["CorvexSystems", "Corvex Robotics", "robotic systems integration"], sector: "robotics", ticker: null },
+
+  // Forming & Casting
+  { name: "Foundry Lab", aliases: ["FoundryLab", "rapid casting", "digital casting"], sector: "manufacturing", ticker: null },
+  { name: "Digital Metal", aliases: ["DigitalMetal", "binder jetting", "metal binder jetting"], sector: "manufacturing", ticker: null },
+  { name: "Aestus Industries", aliases: ["AestusIndustries", "Aestus casting", "advanced casting"], sector: "manufacturing", ticker: null },
+
+  // Battery Manufacturing
+  { name: "Ouros Energy", aliases: ["OurosEnergy", "battery manufacturing", "energy storage manufacturing"], sector: "energy", ticker: null },
+  { name: "Forge Nano", aliases: ["ForgeNano", "ALD coating", "atomic layer deposition", "battery coating", "nanocoating"], sector: "manufacturing", ticker: null },
+  { name: "Nascent Materials", aliases: ["NascentMaterials", "battery materials", "cathode materials"], sector: "manufacturing", ticker: null },
+  { name: "Group1", aliases: ["Group1 battery", "battery technology"], sector: "energy", ticker: null },
+  { name: "Advano", aliases: ["Advano silicon", "silicon anode", "battery silicon anode"], sector: "energy", ticker: null },
+
+  // Metal Additive Manufacturing
+  { name: "Freeform", aliases: ["Freeform 3D", "Erik Palitsch", "autonomous foundry", "metal 3D printing"], sector: "manufacturing", ticker: null },
+  { name: "Vuecason", aliases: ["Vuecason manufacturing", "metal additive manufacturing"], sector: "manufacturing", ticker: null },
+  { name: "Radian Forge", aliases: ["RadianForge", "metal forging", "advanced forging"], sector: "manufacturing", ticker: null },
+  { name: "Seurat Technologies", aliases: ["SeuratTech", "Seurat Tech", "James DeMuth", "area printing", "laser powder bed fusion"], sector: "manufacturing", ticker: null },
+  { name: "VulcanForms", aliases: ["Vulcan Forms", "Martin Feldmann", "industrial metal 3D printing", "laser metal fusion"], sector: "manufacturing", ticker: null },
+
+  // Sensors & Optics — LiDAR
+  { name: "Lumotive", aliases: ["Lumotive LiDAR", "software-defined LiDAR", "metamaterial beam steering"], sector: "sensors", ticker: null },
+  { name: "Ouster", aliases: ["Ouster LiDAR", "Angus Pacala", "digital LiDAR", "REV7 sensor"], sector: "sensors", ticker: "OUST" },
+  { name: "Aeva Technologies", aliases: ["Aeva Tech", "Aeva FMCW", "4D LiDAR", "Soroush Salehian", "frequency modulated LiDAR"], sector: "sensors", ticker: "AEVA" },
+  { name: "Voyant Photonics", aliases: ["VoyantPhotonics", "chip-scale LiDAR", "silicon photonics LiDAR", "Chris Phare"], sector: "sensors", ticker: null },
+
+  // Industrial Robots
+  { name: "Standard Bots", aliases: ["StandardBots", "Evan Beard", "affordable robot arm", "RO1 robot"], sector: "robotics", ticker: null },
+  { name: "Path Robotics", aliases: ["PathRobotics", "Andy Lonsberry", "autonomous welding", "robotic welding"], sector: "robotics", ticker: null },
+  { name: "Forge Robotics", aliases: ["ForgeRobotics", "industrial robotic welding"], sector: "robotics", ticker: null },
+  { name: "Cohesive Robotics", aliases: ["CohesiveRobotics", "machine tending", "robotic machine tending"], sector: "robotics", ticker: null },
+  { name: "Ultra Robotics", aliases: ["UltraRobotics", "ultra robot", "general purpose robot"], sector: "robotics", ticker: null },
+
+  // Power Electronics & Semiconductors
+  { name: "Gallox Semiconductors", aliases: ["GalloxSemi", "Gallox Semi", "gallium oxide", "Ga2O3 semiconductor"], sector: "semiconductor", ticker: null },
+  { name: "Vertical Semiconductor", aliases: ["VerticalSemi", "Vertical Semi", "vertical GaN", "vertical power semiconductor"], sector: "semiconductor", ticker: null },
+
+  // Industrial Chemicals
+  { name: "MaverickX", aliases: ["Maverick X", "industrial chemicals startup", "chemical manufacturing"], sector: "manufacturing", ticker: null },
+
+  // Machine Tools
+  { name: "OpenX", aliases: ["OpenX machine tools", "open source machine tools", "CNC machine tools"], sector: "manufacturing", ticker: null },
+
+  // Ecosystem Enablers
+  { name: "First Resonance", aliases: ["FirstResonance", "Karan Talati", "ION factory OS", "manufacturing execution system"], sector: "manufacturing", ticker: null },
+  { name: "Diode Computers", aliases: ["DiodeComputers", "Diode industrial computing"], sector: "manufacturing", ticker: null },
+  { name: "Flux", aliases: ["Flux PCB", "Flux circuit design", "PCB design tool"], sector: "manufacturing", ticker: null },
+  { name: "JITX", aliases: ["JITX PCB", "automated circuit board design", "programmatic PCB design"], sector: "manufacturing", ticker: null },
+  { name: "Lambda Function", aliases: ["LambdaFunction", "manufacturing lambda"], sector: "manufacturing", ticker: null },
+  { name: "Krevera", aliases: ["Krevera manufacturing", "supply chain platform"], sector: "manufacturing", ticker: null },
+  { name: "Photonium", aliases: ["Photonium optics", "photonic manufacturing"], sector: "manufacturing", ticker: null },
+  { name: "Mbodi AI", aliases: ["MbodiAI", "Mbodi robotics", "embodied AI platform"], sector: "robotics", ticker: null },
+  { name: "Matter", aliases: ["Matter manufacturing", "manufacturing collaboration"], sector: "manufacturing", ticker: null },
+  { name: "Drafter", aliases: ["Drafter CAD", "Drafter design", "AI-powered CAD", "manufacturing design tool"], sector: "manufacturing", ticker: null },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════
@@ -567,39 +648,102 @@ function findCompany(searchTerm) {
   return null;
 }
 
+// Generic aliases that match too many articles — skip these for news matching
+const GENERIC_ALIAS_BLOCKLIST = new Set([
+  'search', 'serverless', 'ai infrastructure', 'automation', 'industrial robotics',
+  'military tech', 'defense tech', 'autonomous systems', 'national security',
+  'sales', 'productivity', 'ai chips', 'inference', 'clean energy', 'renewable',
+  'warehouse robotics', 'factory automation', 'edge computing', 'ai security',
+  'open-source ai', 'open-source hardware', 'workflow', 'enterprise',
+  'energy efficient', 'advanced materials', 'intelligence', 'analysis',
+  'communication', 'simulation', 'logistics', 'delivery', 'safety',
+  'construction', 'inspection', 'medical', 'batteries', 'solid-state',
+  'carbon capture', 'fuels', 'chemicals', 'carbon', 'hydrogen',
+  'geothermal', 'electric vehicles', 'trucks', 'data labeling', 'ai training',
+  'generative', 'creative tools', 'video', 'wearables', 'hardware',
+  'organs', 'cell therapy', 'drug discovery', 'food tech', 'cement',
+  'infrastructure', 'open-source', 'research', 'foundation models',
+  'computer vision', 'content moderation', 'ai apis', 'sensor fusion',
+  'reinforcement learning', 'allies', 'european', 'canadian',
+  'energy storage', 'power generation', 'distributed energy',
+  'quantum computing', 'space debris', 'satellite', 'space tech',
+  'nuclear', 'nuclear fuel', 'climate tech', 'sustainability',
+  // Manufacturing generic terms
+  'metal manufacturing', 'battery technology', 'composite manufacturing',
+  'precision fabrication', 'robotic systems integration', 'advanced composites',
+  'manufacturing software platform', 'supply chain platform',
+  'manufacturing collaboration', 'chemical manufacturing',
+  'semiconductor manufacturing', 'battery materials', 'energy storage manufacturing',
+]);
+
+// Company names that are too short/generic for substring matching — require word boundaries
+const SHORT_GENERIC_NAMES = new Set([
+  'ada', 'cape', 'sift', 'revel', 'cover', 'modal', 'runway', 'prepared',
+  'surge ai', 'rain ai', 'hive ai', 'field ai',
+  // Manufacturing/reindustrialization generic names
+  'flux', 'matter', 'dirac', 'freeform', 'drafter', 'hlabs', 'group1', 'openx',
+  'emelody', 'advano', 'rangeview', 'duranium', 'ouster',
+]);
+
 /**
  * Check if text mentions any tracked company (returns array of matches)
  * This is the main function used by news aggregators.
- * 
+ *
  * Matching rules:
- * - Company names are matched case-insensitively
- * - Aliases must be 5+ characters to avoid false positives
+ * - Company names are matched case-insensitively using word boundaries
+ * - Short/generic company names require strict word-boundary matching
+ * - Aliases must be 8+ characters and not in the generic blocklist
+ * - All alias matching uses word boundaries to prevent false positives
  */
 function mentionsCompany(text) {
   const lowerText = text.toLowerCase();
   const matches = [];
   const seen = new Set();
-  
+
   for (const company of MASTER_COMPANY_LIST) {
     if (seen.has(company.name)) continue;
-    
-    // Check company name
-    if (lowerText.includes(company.name.toLowerCase())) {
+
+    const lowerName = company.name.toLowerCase();
+
+    // Check company name with word-boundary matching
+    if (SHORT_GENERIC_NAMES.has(lowerName)) {
+      // Strict word-boundary match for generic names
+      const nameRegex = new RegExp('\\b' + lowerName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+      if (nameRegex.test(text) && lowerText.indexOf(lowerName) !== -1) {
+        // Extra check: for very short names, require the name appears as a standalone entity
+        // e.g., "Cover" should match "Cover raises $50M" but not "cover charge"
+        // We accept if it appears capitalized or in a company context
+        const idx = text.indexOf(company.name);
+        if (idx !== -1) {
+          matches.push(company);
+          seen.add(company.name);
+          continue;
+        }
+      }
+    } else if (lowerText.includes(lowerName)) {
       matches.push(company);
       seen.add(company.name);
       continue;
     }
-    
-    // Check aliases (only 5+ character aliases)
+
+    // Check aliases — require 8+ chars and not in blocklist, use word boundaries
     for (const alias of company.aliases) {
-      if (alias.length >= 5 && lowerText.includes(alias.toLowerCase())) {
-        matches.push(company);
-        seen.add(company.name);
-        break;
+      if (alias.length < 8) continue;
+      if (GENERIC_ALIAS_BLOCKLIST.has(alias.toLowerCase())) continue;
+
+      const lowerAlias = alias.toLowerCase();
+      if (lowerText.includes(lowerAlias)) {
+        // Word-boundary check to avoid partial matches
+        const aliasRegex = new RegExp('\\b' + lowerAlias.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+        if (aliasRegex.test(text)) {
+          matches.push(company);
+          seen.add(company.name);
+          break;
+        }
       }
     }
   }
-  
+
   return matches;
 }
 
