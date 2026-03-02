@@ -6207,4 +6207,64 @@
     "companiesMatched": 170,
     "lastUpdated": "2026-02-20 10:28:42 UTC"
   }
+}d Reduction"
+      ]
+    },
+    "Sunfire": {
+      "name": "Sunfire",
+      "govPullScore": 20,
+      "matchCount": 1,
+      "topAgencies": [
+        "Department of Energy (DOE)"
+      ],
+      "avgRelevance": 26,
+      "topSignals": [
+        "Clean Hydrogen Hub Expansion"
+      ]
+    },
+    "Electric Hydrogen": {
+      "name": "Electric Hydrogen",
+      "govPullScore": 20,
+      "matchCount": 1,
+      "topAgencies": [
+        "Department of Energy (DOE)"
+      ],
+      "avgRelevance": 26,
+      "topSignals": [
+        "Clean Hydrogen Hub Expansion"
+      ]
+    }
+  },
+  "stats": {
+    "totalSignals": 44,
+    "bySource": {
+      "seed": 44
+    },
+    "byAgency": {
+      "Defense Innovation Unit (DIU)": 2,
+      "DARPA": 5,
+      "AFWERX / Air Force": 1,
+      "U.S. Army": 2,
+      "Office of Naval Research (ONR)": 1,
+      "Department of Homeland Security (DHS)": 2,
+      "SOCOM": 1,
+      "Department of Defense": 3,
+      "U.S. Space Force": 1,
+      "NASA": 4,
+      "Space Development Agency (SDA)": 1,
+      "National Reconnaissance Office (NRO)": 1,
+      "Department of Energy (DOE)": 8,
+      "ARPA-E": 1,
+      "National Science Foundation (NSF)": 4,
+      "Chief Digital and AI Office (CDAO)": 1,
+      "NSA / CISA": 1,
+      "BARDA / HHS": 1,
+      "National Institutes of Health (NIH)": 1,
+      "CISA / DHS": 1,
+      "NSA Cybersecurity Directorate": 1,
+      "Environmental Protection Agency (EPA)": 1
+    },
+    "companiesMatched": 173,
+    "lastUpdated": "2026-03-02 10:44:38 UTC"
+  }
 }
