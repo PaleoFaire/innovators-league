@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-02-20 10:28:42 UTC
-// Total signals: 44 | Companies matched: 170
+// Last updated: 2026-03-02 10:44:38 UTC
+// Total signals: 44 | Companies matched: 173
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -336,6 +336,33 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Fiber Dynamics",
+        "score": 24,
+        "matchReasons": [
+          "tag: aerospace",
+          "tag: defense",
+          "techApproach overlap"
+        ]
+      },
+      {
+        "name": "Emelody",
+        "score": 24,
+        "matchReasons": [
+          "tag: aerospace",
+          "tag: defense",
+          "techApproach overlap"
+        ]
+      },
+      {
+        "name": "VulcanForms",
+        "score": 24,
+        "matchReasons": [
+          "tag: aerospace",
+          "tag: defense",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Anduril Industries",
         "score": 22,
         "matchReasons": [
@@ -350,30 +377,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: defense",
           "tag: space"
         ]
-      },
-      {
-        "name": "Firehawk Aerospace",
-        "score": 22,
-        "matchReasons": [
-          "tag: propulsion",
-          "tag: defense"
-        ]
-      },
-      {
-        "name": "Rune Technologies",
-        "score": 22,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
-      },
-      {
-        "name": "Shield AI",
-        "score": 20,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -382,11 +385,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Mach Industries",
       "Hermeus",
       "Hadrian",
+      "Fiber Dynamics",
+      "Emelody",
+      "VulcanForms",
       "Anduril Industries",
-      "Antares",
-      "Firehawk Aerospace",
-      "Rune Technologies",
-      "Shield AI"
+      "Antares"
     ]
   },
   {
@@ -587,15 +590,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Vannevar Labs",
-        "score": 37,
-        "matchReasons": [
-          "tag: intelligence",
-          "tag: defense",
-          "cluster: autonomy-maritime"
-        ]
-      },
-      {
         "name": "Bedrock Ocean",
         "score": 35,
         "matchReasons": [
@@ -630,6 +624,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "cluster: autonomy-maritime",
           "techApproach overlap"
         ]
+      },
+      {
+        "name": "Quantum-Systems",
+        "score": 31,
+        "matchReasons": [
+          "tag: reconnaissance",
+          "tag: autonomous",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
@@ -638,11 +641,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Vatn Systems",
       "Saronic",
       "Blue Water Autonomy",
-      "Vannevar Labs",
       "Bedrock Ocean",
       "Thalassa Robotics",
       "Delian Alliance Industries",
-      "Saildrone"
+      "Saildrone",
+      "Quantum-Systems"
     ]
   },
   {
@@ -757,11 +760,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Xtend",
+        "name": "Skydio",
         "score": 34,
         "matchReasons": [
-          "tag: defense drones",
-          "tag: autonomous",
+          "tag: autonomous drones",
+          "tag: defense",
           "cluster: autonomy-drone-military",
           "techApproach overlap"
         ]
@@ -777,7 +780,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Swan",
       "Asylon Robotics",
       "Quantum-Systems",
-      "Xtend"
+      "Skydio"
     ]
   },
   {
@@ -923,11 +926,12 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "matchedCompanies": [
       {
         "name": "Vannevar Labs",
-        "score": 32,
+        "score": 41,
         "matchReasons": [
           "tag: intelligence",
           "tag: analysis",
-          "tag: defense"
+          "tag: defense",
+          "techApproach overlap"
         ]
       },
       {
@@ -957,10 +961,12 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Scale AI",
-        "score": 24,
-        "matchReasons": [
-          "tag: defense",
+    echApproach overlap"
+        ]
+      },
+      {
+        "name": "Anduril Industries",
+ defense",
           "tag: ml",
           "techApproach overlap"
         ]
@@ -1393,6 +1399,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Sphere Semi",
+        "score": 20,
+        "matchReasons": [
+          "tag: rf",
+          "tag: ai"
+        ]
+      },
+      {
         "name": "Astrolab",
         "score": 16,
         "matchReasons": [
@@ -1403,6 +1417,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     ],
     "relevantCompanies": [
       "Antares",
+      "Sphere Semi",
       "Astrolab"
     ]
   },
@@ -1618,14 +1633,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "NEURA Robotics",
-        "score": 20,
-        "matchReasons": [
-          "tag: robotics",
-          "tag: manufacturing"
-        ]
-      },
-      {
         "name": "GITAI",
         "score": 18,
         "matchReasons": [
@@ -1638,7 +1645,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Apex Space",
       "Rangeview",
       "Dusty Robotics",
-      "NEURA Robotics",
       "GITAI"
     ]
   },
@@ -1794,6 +1800,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Oklo",
+        "score": 29,
+        "matchReasons": [
+          "tag: nuclear",
+          "tag: meta",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "General Matter",
         "score": 28,
         "matchReasons": [
@@ -1827,14 +1842,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Standard Nuclear",
-        "score": 27,
-        "matchReasons": [
-          "tag: nuclear",
-          "tag: reactors"
-        ]
-      },
-      {
         "name": "Exodys Energy",
         "score": 26,
         "matchReasons": [
@@ -1844,11 +1851,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Oklo",
+        "name": "Standard Nuclear",
         "score": 24,
         "matchReasons": [
           "tag: nuclear",
-          "tag: meta",
+          "tag: reactors",
           "techApproach overlap"
         ]
       },
@@ -1872,13 +1879,13 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     ],
     "relevantCompanies": [
       "Radiant",
+      "Oklo",
       "General Matter",
       "Valar Atomics",
       "Antares",
       "Last Energy",
-      "Standard Nuclear",
       "Exodys Energy",
-      "Oklo",
+      "Standard Nuclear",
       "Naarea",
       "Nano Nuclear Energy"
     ]
@@ -2034,6 +2041,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Standard Nuclear",
+        "score": 26,
+        "matchReasons": [
+          "tag: nuclear",
+          "tag: reactors",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Newcleo",
         "score": 26,
         "matchReasons": [
@@ -2101,18 +2117,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: smr",
           "tag: nuclear"
         ]
-      },
-      {
-        "name": "NuScale Power",
-        "score": 22,
-        "matchReasons": [
-          "tag: smr",
-          "tag: nuclear"
-        ]
       }
     ],
     "relevantCompanies": [
       "Valar Atomics",
+      "Standard Nuclear",
       "Newcleo",
       "ARC Clean Technology",
       "TerraPower",
@@ -2120,8 +2129,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Steady Energy",
       "Kairos Power",
       "X-Energy",
-      "Oklo",
-      "NuScale Power"
+      "Oklo"
     ]
   },
   {
@@ -2251,13 +2259,22 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: energy storage",
           "techApproach overlap"
         ]
+      },
+      {
+        "name": "Ouros Energy",
+        "score": 16,
+        "matchReasons": [
+          "tag: battery",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
       "Base Power",
       "Gravitricity",
       "Form Energy",
-      "Skeleton Technologies"
+      "Skeleton Technologies",
+      "Ouros Energy"
     ]
   },
   {
@@ -2378,11 +2395,20 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: ai",
           "tag: safety"
         ]
+      },
+      {
+        "name": "Sphere Semi",
+        "score": 20,
+        "matchReasons": [
+          "tag: rf",
+          "tag: ai"
+        ]
       }
     ],
     "relevantCompanies": [
       "Together AI",
-      "Skyryse"
+      "Skyryse",
+      "Sphere Semi"
     ]
   },
   {
@@ -3233,6 +3259,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Vannevar Labs",
+        "score": 22,
+        "matchReasons": [
+          "tag: intelligence",
+          "tag: defense"
+        ]
+      },
+      {
         "name": "Fuse Energy",
         "score": 22,
         "matchReasons": [
@@ -3245,14 +3279,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         "score": 20,
         "matchReasons": [
           "tag: ai",
-          "tag: defense"
-        ]
-      },
-      {
-        "name": "Vannevar Labs",
-        "score": 20,
-        "matchReasons": [
-          "tag: intelligence",
           "tag: defense"
         ]
       },
@@ -3293,9 +3319,9 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Reveal Technology",
       "Anduril Industries",
       "Palantir",
+      "Vannevar Labs",
       "Fuse Energy",
       "Shield AI",
-      "Vannevar Labs",
       "Zeromark",
       "Rune Technologies",
       "Umbra",
@@ -3421,6 +3447,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Cohesive Robotics",
+        "score": 22,
+        "matchReasons": [
+          "tag: robotics",
+          "tag: ai"
+        ]
+      },
+      {
         "name": "Physical Intelligence",
         "score": 20,
         "matchReasons": [
@@ -3451,14 +3485,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: robotics",
           "techApproach overlap"
         ]
-      },
-      {
-        "name": "Roboton",
-        "score": 16,
-        "matchReasons": [
-          "tag: industrial robotics",
-          "techApproach overlap"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -3467,11 +3493,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Sanctuary AI",
       "Gecko Robotics",
       "DIRAC",
+      "Cohesive Robotics",
       "Physical Intelligence",
       "AMP Robotics",
       "Skild AI",
-      "Field AI",
-      "Roboton"
+      "Field AI"
     ]
   },
   {
@@ -3673,6 +3699,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Cohesive Robotics",
+        "score": 22,
+        "matchReasons": [
+          "tag: robotics",
+          "tag: ai"
+        ]
+      },
+      {
         "name": "White Stork",
         "score": 21,
         "matchReasons": [
@@ -3695,14 +3729,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: robotics",
           "techApproach overlap"
         ]
-      },
-      {
-        "name": "Skild AI",
-        "score": 20,
-        "matchReasons": [
-          "tag: robotics",
-          "tag: ai"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -3712,10 +3738,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Applied Intuition",
       "Mujin",
       "Vayu Robotics",
+      "Cohesive Robotics",
       "White Stork",
       "Physical Intelligence",
-      "Shinkei",
-      "Skild AI"
+      "Shinkei"
     ]
   },
   {
@@ -4025,13 +4051,13 @@ const GOV_PULL_SCORES_AUTO = {
   "Shield AI": {
     "name": "Shield AI",
     "govPullScore": 81,
-    "matchCount": 11,
+    "matchCount": 10,
     "topAgencies": [
-      "AFWERX / Air Force",
       "Chief Digital and AI Office (CDAO)",
       "DARPA",
       "Defense Innovation Unit (DIU)",
-      "Department of Defense"
+      "Department of Defense",
+      "NSA Cybersecurity Directorate"
     ],
     "avgRelevance": 25,
     "topSignals": [
@@ -4259,6 +4285,42 @@ const GOV_PULL_SCORES_AUTO = {
       "Next-Generation Hypersonic Propulsion Systems"
     ]
   },
+  "Fiber Dynamics": {
+    "name": "Fiber Dynamics",
+    "govPullScore": 17,
+    "matchCount": 1,
+    "topAgencies": [
+      "AFWERX / Air Force"
+    ],
+    "avgRelevance": 24,
+    "topSignals": [
+      "Next-Generation Hypersonic Propulsion Systems"
+    ]
+  },
+  "Emelody": {
+    "name": "Emelody",
+    "govPullScore": 17,
+    "matchCount": 1,
+    "topAgencies": [
+      "AFWERX / Air Force"
+    ],
+    "avgRelevance": 24,
+    "topSignals": [
+      "Next-Generation Hypersonic Propulsion Systems"
+    ]
+  },
+  "VulcanForms": {
+    "name": "VulcanForms",
+    "govPullScore": 17,
+    "matchCount": 1,
+    "topAgencies": [
+      "AFWERX / Air Force"
+    ],
+    "avgRelevance": 24,
+    "topSignals": [
+      "Next-Generation Hypersonic Propulsion Systems"
+    ]
+  },
   "Antares": {
     "name": "Antares",
     "govPullScore": 80,
@@ -4275,36 +4337,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Advanced HALEU Fuel Fabrication Capabilities",
       "Fission Power Systems for Lunar Surface Operations",
       "Next-Generation Earth Observation Capabilities"
-    ]
-  },
-  "Firehawk Aerospace": {
-    "name": "Firehawk Aerospace",
-    "govPullScore": 16,
-    "matchCount": 1,
-    "topAgencies": [
-      "AFWERX / Air Force"
-    ],
-    "avgRelevance": 22,
-    "topSignals": [
-      "Next-Generation Hypersonic Propulsion Systems"
-    ]
-  },
-  "Rune Technologies": {
-    "name": "Rune Technologies",
-    "govPullScore": 67,
-    "matchCount": 6,
-    "topAgencies": [
-      "AFWERX / Air Force",
-      "Chief Digital and AI Office (CDAO)",
-      "Defense Innovation Unit (DIU)",
-      "NSA Cybersecurity Directorate",
-      "SOCOM"
-    ],
-    "avgRelevance": 26,
-    "topSignals": [
-      "General-Purpose Robotics for Military Logistics",
-      "Autonomous Logistics Resupply Vehicles",
-      "AI-Powered Intelligence Fusion Platform"
     ]
   },
   "Epirus": {
@@ -4359,17 +4391,15 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Xtend": {
     "name": "Xtend",
-    "govPullScore": 42,
-    "matchCount": 3,
+    "govPullScore": 34,
+    "matchCount": 2,
     "topAgencies": [
       "DARPA",
-      "Department of Homeland Security (DHS)",
       "Office of Naval Research (ONR)"
     ],
-    "avgRelevance": 37,
+    "avgRelevance": 39,
     "topSignals": [
       "Undersea Autonomous Systems for ISR",
-      "Autonomous Border Surveillance Platforms",
       "Autonomous AI Agents for Complex Decision Making"
     ]
   },
@@ -4409,22 +4439,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Undersea Autonomous Systems for ISR"
     ]
   },
-  "Vannevar Labs": {
-    "name": "Vannevar Labs",
-    "govPullScore": 42,
-    "matchCount": 3,
-    "topAgencies": [
-      "NSA Cybersecurity Directorate",
-      "Office of Naval Research (ONR)",
-      "SOCOM"
-    ],
-    "avgRelevance": 30,
-    "topSignals": [
-      "Undersea Autonomous Systems for ISR",
-      "AI-Powered Intelligence Fusion Platform",
-      "AI-Enabled Cyber Defense Operations"
-    ]
-  },
   "Bedrock Ocean": {
     "name": "Bedrock Ocean",
     "govPullScore": 22,
@@ -4458,6 +4472,20 @@ const GOV_PULL_SCORES_AUTO = {
     ],
     "avgRelevance": 31,
     "topSignals": [
+      "Undersea Autonomous Systems for ISR"
+    ]
+  },
+  "Quantum-Systems": {
+    "name": "Quantum-Systems",
+    "govPullScore": 30,
+    "matchCount": 2,
+    "topAgencies": [
+      "Department of Homeland Security (DHS)",
+      "Office of Naval Research (ONR)"
+    ],
+    "avgRelevance": 34,
+    "topSignals": [
+      "Autonomous Border Surveillance Platforms",
       "Undersea Autonomous Systems for ISR"
     ]
   },
@@ -4501,16 +4529,34 @@ const GOV_PULL_SCORES_AUTO = {
       "Autonomous Border Surveillance Platforms"
     ]
   },
-  "Quantum-Systems": {
-    "name": "Quantum-Systems",
+  "Skydio": {
+    "name": "Skydio",
     "govPullScore": 18,
     "matchCount": 1,
     "topAgencies": [
       "Department of Homeland Security (DHS)"
     ],
-    "avgRelevance": 36,
+    "avgRelevance": 34,
     "topSignals": [
       "Autonomous Border Surveillance Platforms"
+    ]
+  },
+  "Rune Technologies": {
+    "name": "Rune Technologies",
+    "govPullScore": 62,
+    "matchCount": 5,
+    "topAgencies": [
+      "Chief Digital and AI Office (CDAO)",
+      "Defense Innovation Unit (DIU)",
+      "NSA Cybersecurity Directorate",
+      "SOCOM",
+      "U.S. Army"
+    ],
+    "avgRelevance": 27,
+    "topSignals": [
+      "General-Purpose Robotics for Military Logistics",
+      "Autonomous Logistics Resupply Vehicles",
+      "AI-Powered Intelligence Fusion Platform"
     ]
   },
   "Forterra": {
@@ -4596,6 +4642,20 @@ const GOV_PULL_SCORES_AUTO = {
       "General-Purpose Robotics for Military Logistics",
       "Dexterous Manipulation for Unstructured Environments",
       "Intelligent Agricultural Robotics"
+    ]
+  },
+  "Vannevar Labs": {
+    "name": "Vannevar Labs",
+    "govPullScore": 30,
+    "matchCount": 2,
+    "topAgencies": [
+      "NSA Cybersecurity Directorate",
+      "SOCOM"
+    ],
+    "avgRelevance": 32,
+    "topSignals": [
+      "AI-Powered Intelligence Fusion Platform",
+      "AI-Enabled Cyber Defense Operations"
     ]
   },
   "Reveal Technology": {
@@ -4859,6 +4919,20 @@ const GOV_PULL_SCORES_AUTO = {
       "Resilient Proliferated LEO Communications"
     ]
   },
+  "Sphere Semi": {
+    "name": "Sphere Semi",
+    "govPullScore": 24,
+    "matchCount": 2,
+    "topAgencies": [
+      "NASA",
+      "National Science Foundation (NSF)"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Fission Power Systems for Lunar Surface Operations",
+      "Trustworthy AI Systems for Critical Infrastructure"
+    ]
+  },
   "Astrolab": {
     "name": "Astrolab",
     "govPullScore": 15,
@@ -4959,18 +5033,6 @@ const GOV_PULL_SCORES_AUTO = {
       "In-Space Assembly and Manufacturing"
     ]
   },
-  "NEURA Robotics": {
-    "name": "NEURA Robotics",
-    "govPullScore": 14,
-    "matchCount": 1,
-    "topAgencies": [
-      "NASA"
-    ],
-    "avgRelevance": 20,
-    "topSignals": [
-      "In-Space Assembly and Manufacturing"
-    ]
-  },
   "GITAI": {
     "name": "GITAI",
     "govPullScore": 14,
@@ -5059,6 +5121,19 @@ const GOV_PULL_SCORES_AUTO = {
       "Next-Generation Earth Observation Capabilities"
     ]
   },
+  "Oklo": {
+    "name": "Oklo",
+    "govPullScore": 21,
+    "matchCount": 2,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 26,
+    "topSignals": [
+      "Advanced HALEU Fuel Fabrication Capabilities",
+      "Advanced Small Modular Reactor Components"
+    ]
+  },
   "General Matter": {
     "name": "General Matter",
     "govPullScore": 18,
@@ -5098,18 +5173,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Advanced HALEU Fuel Fabrication Capabilities"
     ]
   },
-  "Standard Nuclear": {
-    "name": "Standard Nuclear",
-    "govPullScore": 18,
-    "matchCount": 1,
-    "topAgencies": [
-      "Department of Energy (DOE)"
-    ],
-    "avgRelevance": 27,
-    "topSignals": [
-      "Advanced HALEU Fuel Fabrication Capabilities"
-    ]
-  },
   "Exodys Energy": {
     "name": "Exodys Energy",
     "govPullScore": 24,
@@ -5123,17 +5186,17 @@ const GOV_PULL_SCORES_AUTO = {
       "Additive Manufacturing for Energy Applications"
     ]
   },
-  "Oklo": {
-    "name": "Oklo",
+  "Standard Nuclear": {
+    "name": "Standard Nuclear",
     "govPullScore": 21,
     "matchCount": 2,
     "topAgencies": [
       "Department of Energy (DOE)"
     ],
-    "avgRelevance": 23,
+    "avgRelevance": 25,
     "topSignals": [
-      "Advanced HALEU Fuel Fabrication Capabilities",
-      "Advanced Small Modular Reactor Components"
+      "Advanced Small Modular Reactor Components",
+      "Advanced HALEU Fuel Fabrication Capabilities"
     ]
   },
   "Naarea": {
@@ -5354,18 +5417,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Advanced Small Modular Reactor Components"
     ]
   },
-  "NuScale Power": {
-    "name": "NuScale Power",
-    "govPullScore": 14,
-    "matchCount": 1,
-    "topAgencies": [
-      "Department of Energy (DOE)"
-    ],
-    "avgRelevance": 22,
-    "topSignals": [
-      "Advanced Small Modular Reactor Components"
-    ]
-  },
   "Fervo Energy": {
     "name": "Fervo Energy",
     "govPullScore": 22,
@@ -5474,6 +5525,18 @@ const GOV_PULL_SCORES_AUTO = {
     "topSignals": [
       "Long-Duration Energy Storage Technologies",
       "Clean Hydrogen Hub Expansion"
+    ]
+  },
+  "Ouros Energy": {
+    "name": "Ouros Energy",
+    "govPullScore": 17,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 16,
+    "topSignals": [
+      "Long-Duration Energy Storage Technologies"
     ]
   },
   "Climeworks": {
@@ -6008,34 +6071,34 @@ const GOV_PULL_SCORES_AUTO = {
       "Dexterous Manipulation for Unstructured Environments"
     ]
   },
-  "Skild AI": {
-    "name": "Skild AI",
-    "govPullScore": 25,
+  "Cohesive Robotics": {
+    "name": "Cohesive Robotics",
+    "govPullScore": 26,
     "matchCount": 2,
     "topAgencies": [
       "DARPA",
       "National Science Foundation (NSF)"
     ],
-    "avgRelevance": 20,
+    "avgRelevance": 22,
     "topSignals": [
       "Dexterous Manipulation for Unstructured Environments",
       "Intelligent Agricultural Robotics"
     ]
   },
-  "Field AI": {
-    "name": "Field AI",
-    "govPullScore": 15,
+  "Skild AI": {
+    "name": "Skild AI",
+    "govPullScore": 16,
     "matchCount": 1,
     "topAgencies": [
       "DARPA"
     ],
-    "avgRelevance": 16,
+    "avgRelevance": 20,
     "topSignals": [
       "Dexterous Manipulation for Unstructured Environments"
     ]
   },
-  "Roboton": {
-    "name": "Roboton",
+  "Field AI": {
+    "name": "Field AI",
     "govPullScore": 15,
     "matchCount": 1,
     "topAgencies": [
@@ -6209,8 +6272,8 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 170,
-  "lastUpdated": "2026-02-20 10:28:42 UTC"
+  "companiesMatched": 173,
+  "lastUpdated": "2026-03-02 10:44:38 UTC"
 };
  "Sunfire": {
     "name": "Sunfire",
