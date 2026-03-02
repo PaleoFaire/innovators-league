@@ -20436,23 +20436,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-02 18:02
+// Last updated: 2026-03-02 21:51
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Anthropic", headline: "OpenAI's &#8220;compromise&#8221; with the Pentagon is what Anthropic feared", source: "MIT Tech Review", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Anthropic", headline: "Tech workers urge DOD, Congress to withdraw Anthropic label as a supply chain risk", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "The D Brief: War on Iran; Retaliation throughout the Gulf; Friendly fire downs F-15s; Anthropic ejected from federal ser", source: "Defense One", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "Cape", headline: "Hacktivists claim to have hacked Homeland Security to release ICE contract data", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "Stargazing into the future of SSA", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Saule Technologies", headline: "In Iran, US President Donald Trump Makes The Case For Renewable Energy, Again", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "How SpaceX Makes Things 1000X Cheaper and Ten Times Faster", source: "Next Big Future", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Matic Robotics", headline: "A married founder duo's company, 14.ai, is replacing customer support teams at startups", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "PILGRIM", headline: "Iran conflict expands in Lebanon, Beirut demands Hezbollah 'hand over its weapons'", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Swan", headline: "Pico's Project Swan XR Headset Wants to Go Where the Apple Vision Pro Failed", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 11, type: "hire", company: "Bronco AI", headline: "Hardware is no longer the problem holding back space-based data centers ' the supply chain is", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic's Claude reports widespread outage", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Seaborg Technologies", headline: "The Download: protesting AI, and what's floating in space", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "OpenAI", headline: "I checked out one of the biggest anti-AI protests ever", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Durin", headline: "Over $50B Went To Boom-Era Software Companies That Haven't Raised In 4+ Years", source: "Crunchbase News", time: "6h ago", impact: "high", unread: false },
+  { id: 1, type: "milestone", company: "Hermeus", headline: "On Path to Supersonic Hermeus in 2026 and Mach 5 by 2030", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Xtend", headline: "Trump projects war on Iran could last 'four to five weeks'", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Deterrence", headline: "Macron calls to increase French nuclear arsenal, team with Germany and others on 'deterrent'", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Vast", headline: "Kelli Kedis'Ogborn Joining'Commercial Space Federation as Strategic Advisor for Global Markets and Industry Engagement", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "Iran's Wartime Economy", source: "Next Big Future", time: "2h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "Deterrence", headline: "Macron opens door to deploying French nuclear forces to European allies", source: "Defense News", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Pasqal", headline: "Watershed Moment for AI'human Collaboration in Math", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Anthropic", headline: "OpenAI's &#8220;compromise&#8221; with the Pentagon is what Anthropic feared", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Anthropic", headline: "Tech workers urge DOD, Congress to withdraw Anthropic label as a supply-chain risk", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "The D Brief: War on Iran; Retaliation throughout the Gulf; Friendly fire downs F-15s; Anthropic ejected from federal ser", source: "Defense One", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "Cape", headline: "Hacktivists claim to have hacked Homeland Security to release ICE contract data", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "Stargazing into the future of SSA", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Saule Technologies", headline: "In Iran, US President Donald Trump Makes The Case For Renewable Energy, Again", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "SpaceX", headline: "How SpaceX Makes Things 1000X Cheaper and Ten Times Faster", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Matic Robotics", headline: "A married founder duo's company, 14.ai, is replacing customer support teams at startups", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
