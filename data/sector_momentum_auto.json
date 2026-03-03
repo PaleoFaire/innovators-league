@@ -1,30 +1,30 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 73,
+    "momentum": 80,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI reveals more details about its agreement with the Pen",
-      "Anthropic\u2019s Claude rises to No. 1 in the App Store following",
-      "Strikes on Iran will test US cyber strategy abroad, and defe"
+      "No one has a good plan for how AI companies should work with",
+      "Austria military&#8217;s first satellite will hunt for GPS,",
+      "OpenAI\u2019s &#8220;compromise&#8221; with the Pentagon is what"
     ],
     "fundingQ": "$6.8B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 64
+      "market": 100
     },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
   },
   {
     "sector": "AI & Software",
     "momentum": 70,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI reveals more details about its agreement with the Pen",
-      "Anthropic\u2019s Claude rises to No. 1 in the App Store following",
-      "The trap Anthropic built for itself"
+      "What Is That Mysterious Metallic Device US Chief Design Offi",
+      "No one has a good plan for how AI companies should work with",
+      "OpenAI\u2019s &#8220;compromise&#8221; with the Pentagon is what"
     ],
     "fundingQ": "$250.0B",
     "components": {
@@ -33,48 +33,66 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 62,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "World Models, Free Energy, and a Plastic Dinosaur",
-      "Why China\u2019s humanoid robot industry is winning the early mar",
-      "Area Man Accidentally Hacks 6,700 Camera-Enabled Robot Vacuu"
+      "The Falling Cost Gap Between EU &#038; Chinese Batteries",
+      "Tesla Germany Operating At 40 Percent Capacity \u2014 Handlesblat",
+      "World Models, Free Energy, and a Plastic Dinosaur"
     ],
     "fundingQ": "$17.7B",
     "components": {
       "funding": 100,
-      "news": 70,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 54,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "What to know about the landmark Warner Bros.\u00a0Discovery sale"
+      "What Military Drones Can Teach Self-Driving Cars"
     ],
     "fundingQ": "$900.0B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 46,
+    "trend": "steady",
+    "catalysts": [
+      "10 Million Monthly Active Starlink Mobile Customers and Bill",
+      "Deutsche Telekom aims to bring Starlink Mobile V2 to Europe",
+      "Austria military&#8217;s first satellite will hunt for GPS,"
+    ],
+    "fundingQ": "$175M",
+    "components": {
+      "funding": 9,
+      "news": 100,
+      "hiring": 0,
+      "market": 87
+    },
+    "lastUpdated": "2026-03-03"
   },
   {
     "sector": "Ocean & Maritime",
     "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Active ocean & maritime ecosystem"
+      "Macron opens door to deploying French nuclear forces to Euro"
     ],
     "fundingQ": "$1.2B",
     "components": {
@@ -83,34 +101,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-02"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 36,
-    "trend": "steady",
-    "catalysts": [
-      "D\u00fcren\u2019s Hydrogen Bet: The Math Behind a Looming Liability",
-      "Honor launches its new slim foldable Magic V6 with a 6,600 m",
-      "Another One Bites the Dust: Aberdeen\u2019s Hydrogen Bus Fleet En"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 100,
-      "hiring": 0,
-      "market": 56
-    },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "ESA announces 100 million euro satellite-mobile convergence",
-      "NASA outlines objectives for Mars communications orbiter",
-      "Anthropic\u2019s Claude rises to No. 1 in the App Store following"
+      "Tesla Germany Operating At 40 Percent Capacity \u2014 Handlesblat",
+      "This AI Agent Is Ready to Serve, Mid-Phone Call",
+      "No one has a good plan for how AI companies should work with"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -119,75 +119,43 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 35,
-    "trend": "steady",
+    "momentum": 25,
+    "trend": "rising",
     "catalysts": [
-      "Twice Bombed, Still Nuclear: The Limits of Force Against Ira",
-      "The billion-dollar infrastructure deals powering the AI boom",
-      "This Power Grid Pioneer\u2019s EV Prediction Came 100 Years Too S"
+      "The New War of the Currents",
+      "No one has a good plan for how AI companies should work with",
+      "Tech workers urge DOD, Congress to withdraw Anthropic label"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 100,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-02"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 34,
-    "trend": "steady",
-    "catalysts": [
-      "ESA announces 100 million euro satellite-mobile convergence",
-      "NASA outlines objectives for Mars communications orbiter",
-      "Honor launches its new slim foldable Magic V6 with a 6,600 m"
-    ],
-    "fundingQ": "$175M",
-    "components": {
-      "funding": 9,
-      "news": 100,
-      "hiring": 0,
-      "market": 28
-    },
-    "lastUpdated": "2026-03-02"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 27,
-    "trend": "rising",
-    "catalysts": [
-      "Active biotech & health ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 75,
-      "hiring": 0,
-      "market": 43
-    },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 26,
-    "trend": "rising",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
+      "On Path to Supersonic Hermeus in 2026 and Mach 5 by 2030",
+      "What Military Drones Can Teach Self-Driving Cars",
       "US confirms first combat use of LUCAS one-way attack drone i"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 65,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
   },
   {
     "sector": "Quantum Computing",
@@ -203,16 +171,83 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Active transportation ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Macron calls to increase French nuclear arsenal, team with G",
+      "Macron opens door to deploying French nuclear forces to Euro"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 80
+    },
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "The Falling Cost Gap Between EU &#038; Chinese Batteries",
+      "In Iran, US President Donald Trump Makes The Case For Renewa",
+      "Battery Swapping Expands In New York City"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 56
+    },
+    "lastUpdated": "2026-03-03"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Iran conflict expands in Lebanon, Beirut demands Hezbollah &"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 35,
+      "hiring": 0,
+      "market": 48
+    },
+    "lastUpdated": "2026-03-03"
   },
   {
     "sector": "Supersonic & Hypersonic",
     "momentum": 18,
     "trend": "declining",
     "catalysts": [
+      "On Path to Supersonic Hermeus in 2026 and Mach 5 by 2030",
       "Letting Machines Decide What Matters",
-      "Intuitive Machines raises $175 million in stock sale",
-      "World Models, Free Energy, and a Plastic Dinosaur"
+      "Intuitive Machines raises $175 million in stock sale"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -221,44 +256,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-02"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 67
-    },
-    "lastUpdated": "2026-03-02"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Twice Bombed, Still Nuclear: The Limits of Force Against Ira",
-      "Area Man Accidentally Hacks 6,700 Camera-Enabled Robot Vacuu"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 21
-    },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
       "World Models, Free Energy, and a Plastic Dinosaur"
@@ -266,10 +268,10 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 25,
       "hiring": 0,
-      "market": 0
+      "market": 18
     },
-    "lastUpdated": "2026-03-02"
+    "lastUpdated": "2026-03-03"
   }
 ]
