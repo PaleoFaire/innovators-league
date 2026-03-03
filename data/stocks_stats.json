@@ -5,64 +5,59 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 11.16,
+      "avg_change": 13.0,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 4.12,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -0.38,
       "count": 7
     },
     "autonomous": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 10.55,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 6.16,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 6.3,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -3.67,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 6.18,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -3.35,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 13.3,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 4.9,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -4.36,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -8.72,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 0.6,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -2.86,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.24,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -9.86,
       "count": 3
     }
   },
   "topGainers": [
-    [
-      "IONQ",
-      "IonQ",
-      24.56
-    ],
     [
       "DRSHF",
       "DroneShield",
@@ -74,42 +69,47 @@
       20.86
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      14.16
+      "IONQ",
+      "IonQ",
+      16.29
     ],
     [
       "ASRHF",
       "Astroscale",
       13.46
+    ],
+    [
+      "PLTR",
+      "Palantir",
+      13.0
     ]
   ],
   "topLosers": [
     [
-      "SATL",
-      "Satellogic",
-      -1.25
+      "SMR",
+      "NuScale Power",
+      -8.94
     ],
     [
-      "NVDA",
-      "NVIDIA",
-      -4.74
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      -6.0
+      "AMD",
+      "AMD",
+      -9.97
     ],
     [
       "TEM",
       "Tempus AI",
-      -6.95
+      -11.77
     ],
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      -12.58
+      -12.16
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      -12.18
     ]
   ],
-  "lastUpdated": "2026-03-03 07:57:48"
+  "lastUpdated": "2026-03-03 14:33:28"
 }
