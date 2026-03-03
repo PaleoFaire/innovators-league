@@ -1,9 +1,13 @@
 // Auto-updated press releases
-// Last updated: 2026-03-02 10:44:37 UTC
+// Last updated: 2026-03-03 08:05:29 UTC
 const PRESS_RELEASES = [
-  { title: "Inseego Introduces MiFi® PRO M4, Redefining the Hotspot Category and Advancing I", date: "", companies: "Cape, Percepto, ideaForge", categories: "product", source: "globenewswire_all" },
-  { title: "Transactions in connection with share buy-back program", date: "", companies: "Fortera", categories: "", source: "globenewswire_all" },
-  { title: "Orezone to Release 2025 Financial Results on March 25, 2026 and Files ASX Append", date: "", companies: "ElevenLabs", categories: "", source: "globenewswire_all" },
-  { title: "Notification of managers’ transactions", date: "", companies: "Fortera", categories: "", source: "globenewswire_all" },
-  { title: "Preliminary data on early redemptions (prepayments)", date: "", companies: "Fortera", categories: "", source: "globenewswire_all" },
+  { title: "Huhtamäen vuoden 2025 vuosikertomus on julkaistu", date: "", companies: "Rainbow Robotics", categories: "", source: "globenewswire_all" },
+  { title: "Lantronix espande la propria distribuzione in Europa attraverso una partnership ", date: "", companies: "Rocket Lab", categories: "partnership", source: "globenewswire_all" },
+  { title: "Resmed’s Global Sleep Survey Reveals Sleep is One of the Top Health Priorities, ", date: "", companies: "Reveal Technology", categories: "", source: "globenewswire_all" },
+  { title: "Lantronix Expands European Distribution Footprint Through Strategic Partnership ", date: "", companies: "Rocket Lab, Endurosat, Rain AI", categories: "partnership", source: "globenewswire_all" },
+  { title: "Quadient Strengthens Position as a Global Software Leader as CEO Takes Direct Le", date: "", companies: "Formic, Agility Robotics, Monumental", categories: "hiring", source: "globenewswire_all" },
+  { title: "Quadient renforce sa position de leader mondial dans le domaine du logiciel, son", date: "", companies: "Agility Robotics", categories: "", source: "globenewswire_all" },
+  { title: "Le fonds américain Briarwood Chase Management double sa participation dans Sidet", date: "", companies: "Flexport", categories: "", source: "globenewswire_all" },
+  { title: "US Investor Briarwood Chase Management Doubles Its Stake in Sidetrade, Crossing ", date: "", companies: "Flexport", categories: "product", source: "globenewswire_all" },
+  { title: "Thailand to Prioritise Domestic Energy Supply", date: "", companies: "Cape, Percepto, ideaForge", categories: "", source: "globenewswire_all" },
 ];
