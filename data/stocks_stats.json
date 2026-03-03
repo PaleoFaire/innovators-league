@@ -5,105 +5,105 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 11.32,
+      "avg_change": 11.16,
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 1.7,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 4.37,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 10.43,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 11.06,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.03,
+      "avg_change": 6.3,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.52,
+      "avg_change": 6.18,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.47,
+      "avg_change": 13.3,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.83,
+      "avg_change": -4.36,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 0.91,
+      "avg_change": 0.6,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.87,
+      "avg_change": -3.24,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "DRSHF",
-      "DroneShield",
-      25.12
-    ],
-    [
       "IONQ",
       "IonQ",
-      23.07
+      24.56
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
-      20.79
+      24.46
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      13.94
+      "DRSHF",
+      "DroneShield",
+      23.72
     ],
     [
       "LNZA",
       "LanzaTech",
-      13.78
+      14.16
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      13.46
     ]
   ],
   "topLosers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      -3.68
+      "SATL",
+      "Satellogic",
+      -1.25
     ],
     [
       "NVDA",
       "NVIDIA",
-      -4.49
+      -4.74
     ],
     [
       "ALAB",
       "Astera Labs",
-      -7.95
+      -6.0
     ],
     [
       "TEM",
       "Tempus AI",
-      -8.81
+      -6.95
     ],
     [
       "ONT.L",
@@ -111,5 +111,5 @@
       -12.58
     ]
   ],
-  "lastUpdated": "2026-03-02 19:52:53"
+  "lastUpdated": "2026-03-03 05:07:03"
 }
