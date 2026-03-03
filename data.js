@@ -20679,25 +20679,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-03 05:06
-// Auto-generated real-time signals
-// Last updated: 2026-03-03
+// Last updated: 2026-03-03 10:06
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Karman Industries", headline: "The Falling Cost Gap Between EU &#038; Chinese Batteries", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Ample", headline: "The New War of the Currents", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Verkor", headline: "Tesla Germany Operating At 40 Percent Capacity — Handlesblatt", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "What Is That Mysterious Metallic Device US Chief Design Officer Joe Gebbia Is Using?", source: "Wired", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "10 Million Monthly Active Starlink Mobile Customers and Billion in 2028-2028", source: "Next Big Future", time: "7h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "ElevenLabs", headline: "This AI Agent Is Ready to Serve, Mid-Phone Call", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Palantir", headline: "No one has a good plan for how AI companies should work with the government", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "SpaceX", headline: "Deutsche Telekom aims to bring Starlink Mobile V2 to Europe in 2028", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "PLD Space", headline: "Austria military&#8217;s first satellite will hunt for GPS, Galileo interference", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Hermeus", headline: "On Path to Supersonic Hermeus in 2026 and Mach 5 by 2030", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Xtend", headline: "Trump projects war on Iran could last ‘four to five weeks’", source: "Defense News", time: "11h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Deterrence", headline: "Macron calls to increase French nuclear arsenal, team with Germany and others on &#8216;deterrent&#8217;", source: "Breaking Defense", time: "11h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Vast", headline: "Kelli Kedis Ogborn Joining Commercial Space Federation as Strategic Advisor for Global Markets and Industry Engagement", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Palantir", headline: "Iran&#8217;s Wartime Economy", source: "Next Big Future", time: "12h ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "Deterrence", headline: "Macron opens door to deploying French nuclear forces to European allies", source: "Defense News", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Durin", headline: "Foundry, Fleet, and Fight: Hedging the U.S. Navy", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Karman Industries", headline: "The Falling Cost Gap Between EU &#038; Chinese Batteries", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Ample", headline: "The New War of the Currents", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Verkor", headline: "Tesla Germany Operating At 40 Percent Capacity ' Handlesblatt", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "What Is That Mysterious Metallic Device US Chief Design Officer Joe Gebbia Is Using?", source: "Wired", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "10 Million Monthly Active Starlink Mobile Customers and Billion in 2028-2028", source: "Next Big Future", time: "9h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "ElevenLabs", headline: "This AI Agent Is Ready to Serve, Mid-Phone Call", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Palantir", headline: "No one has a good plan for how AI companies should work with the government", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "SpaceX", headline: "Deutsche Telekom aims to bring Starlink Mobile V2 to Europe in 2028", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "PLD Space", headline: "Austria military's first satellite will hunt for GPS, Galileo interference", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Hermeus", headline: "On Path to Supersonic Hermeus in 2026 and Mach 5 by 2030", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Xtend", headline: "Trump projects war on Iran could last 'four to five weeks'", source: "Defense News", time: "13h ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "Deterrence", headline: "Macron calls to increase French nuclear arsenal, team with Germany and others on 'deterrent'", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Vast", headline: "Kelli Kedis'Ogborn Joining'Commercial Space Federation as Strategic Advisor for Global Markets and Industry Engagement", source: "SpaceNews", time: "14h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Palantir", headline: "Iran's Wartime Economy", source: "Next Big Future", time: "14h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
