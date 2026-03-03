@@ -11,13 +11,13 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 4.37,
+      "avg_change": 4.12,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 11.06,
+      "avg_change": 10.55,
       "count": 7
     },
     "nuclear": {
@@ -64,14 +64,14 @@
       24.56
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      24.46
-    ],
-    [
       "DRSHF",
       "DroneShield",
       23.72
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      20.86
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -12.58
     ]
   ],
-  "lastUpdated": "2026-03-03 05:07:03"
+  "lastUpdated": "2026-03-03 07:57:48"
 }
