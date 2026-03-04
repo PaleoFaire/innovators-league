@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 1.53,
+      "avg_change": 1.57,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -8.24,
+      "avg_change": -7.28,
       "count": 3
     },
     "transportation": {
@@ -76,7 +76,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      10.44
+      10.66
     ],
     [
       "ASTS",
@@ -96,14 +96,14 @@
       -10.7
     ],
     [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -10.82
+    ],
+    [
       "TEM",
       "Tempus AI",
       -11.3
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -13.69
     ],
     [
       "ALAB",
@@ -111,5 +111,5 @@
       -14.49
     ]
   ],
-  "lastUpdated": "2026-03-04 07:54:12"
+  "lastUpdated": "2026-03-04 14:10:24"
 }
