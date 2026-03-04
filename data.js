@@ -20679,23 +20679,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-03 21:03
+// Last updated: 2026-03-04 04:59
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Palantir", headline: "US Navy is Opening the Strait of Hormuz", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Anthropic", headline: "Claude Code rolls out a voice mode capability", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Palantir", headline: "A Possible US Government iPhone-Hacking Toolkit Is Now in the Hands of Foreign Spies and Criminals", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Deterrence", headline: "Iran mission takes toll on US munition stockpile, lawmakers weigh supplemental defense funding", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Daylight Computer", headline: "The new MacBook Pro laptops are as much as $400 more expensive than their predecessors. Thank the RAM shortage.", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Asylon Robotics", headline: "Hacked traffic cams and hijacked TVs: How cyber operations supported the war against Iran", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Durin", headline: "What Kiloton Range Would Crude Nuclear Gun Bombs Have?", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "Palantir", headline: "When space is hot, Washington holds a match", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Machina Labs", headline: "We Must Prepare To Fight The Next PHEV Scam", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Durin", headline: "Volkswagen Becomes XPENG's First Customer for VLA 2.0 Intelligent Driving System", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Cape", headline: "Fig Security emerges from stealth with $38M to help security teams deal with change", source: "TechCrunch", time: "7h ago", impact: "medium", unread: false },
-  { id: 12, type: "news", company: "Matic Robotics", headline: "Shark UV Reveal Review (2026): UV Light Mode", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Seneca Systems", headline: "The Download: The startup that says it can stop lightning, and inside OpenAI's Pentagon deal", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Cape", headline: "How Congress is reacting to the Iran conflict", source: "Breaking Defense", time: "8h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "AST SpaceMobile", headline: "Spectrum showdown", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "SHIELD Technology Partners", headline: "Trump's CISA nominee to exit Coast Guard role, but still in running to lead cyber agency", source: "Defense One", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Anthropic", headline: "Pentagon dispute bolsters Anthropic reputation but raises questions about AI readiness in military", source: "Defense News", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Palantir", headline: "A suite of government hacking tools targeting iPhones is now being used by cybercriminals", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Andrenam", headline: "Trump says US Navy could escort ships through Strait of Hormuz", source: "Defense News", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Ample", headline: "Over 3,000 One-Megawatt EV Charging Stations Planned By BYD For Europe", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Anthropic", headline: "Pentagon's war on Anthropic based on 'dubious' legal thinking and ideology'not real risk, sources say", source: "Defense One", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Amidon Heavy Industries", headline: "This Offshore Wind Turbine Will House a Data Center Underwater", source: "IEEE Spectrum", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Palantir", headline: "US Navy is Opening the Strait of Hormuz", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Anthropic", headline: "Claude Code rolls out a voice mode capability", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Palantir", headline: "A Possible US Government iPhone-Hacking Toolkit Is Now in the Hands of Foreign Spies and Criminals", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Deterrence", headline: "Iran mission takes toll on US munition stockpile, lawmakers weigh supplemental defense funding", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Daylight Computer", headline: "The new MacBook Pro laptops are as much as $400 more expensive than their predecessors. Thank the RAM shortage.", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Asylon Robotics", headline: "Hacked traffic cams and hijacked TVs: How cyber operations supported the war against Iran", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Durin", headline: "What Kiloton Range Would Crude Nuclear Gun Bombs Have?", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Palantir", headline: "When space is hot, Washington holds a match", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
