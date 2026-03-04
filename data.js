@@ -20685,23 +20685,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-04 18:02
+// Last updated: 2026-03-04 21:02
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Andrenam", headline: "O'ahu's Real Energy System: Stripping Away Aviation, Shipping, &#038; Military Demand", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Deterrence", headline: "Defense execs invited to White House to talk munition production amid Iran strikes", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "The US military is still using Claude ' but defense-tech clients are fleeing", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Twelve", headline: "Puget Sound Energy Is Paying Customers To Get Battery Systems", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Mach Industries", headline: "New Electric Boat To Banish Emissions From Offshore Wind Sites", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Durin", headline: "Host a Side Event during TechCrunch Founder Summit Week in Boston", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Palantir", headline: "How Federal Agencies Got Caught Up in Trump's Anti-Immigration Crusade", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Durin", headline: "Hegseth: US went to war because Iran 'had no intention' of signing a nuclear deal", source: "Defense One", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Palantir", headline: "Iran-linked hacktivists could target US state and local targets, experts warn", source: "Defense One", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Cape", headline: "Reclaim Security Raises $26M to Eliminate the 27-Day Remediation Gap", source: "Next Big Future", time: "3h ago", impact: "medium", unread: false },
-  { id: 11, type: "ipo", company: "SpaceX", headline: "Reliable space rescue is a prerequisite for continued economic opportunity in space and we have a long way to go", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Seneca Systems", headline: "The Download: Earth's rumblings, and AI for strikes on Iran", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Astro Mechanica", headline: "SLS upper stage helium flow problem fixed", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Hubble Network", headline: "Marshall Kilburn III Review: A Classic Rock Bluetooth Speaker", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Astera Labs", headline: "Who needs data centers in space when they can float offshore?", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Ample", headline: "Google settles with Epic Games, drops its Play Store commissions to 20%", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Atomic Industries", headline: "US launches Precision Strike Missiles in Iran war in first combat use", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Matic Robotics", headline: "His house burned down. He used the insurance money to build'PopSockets.", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 4, type: "milestone", company: "Ample", headline: "Next-Generation BYD Blade Battery &#038; Flash Charging Debuts Tomorrow", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Daylight Computer", headline: "How Vulnerable Are Computers to an 80-Year-Old Spy Technique? Congress Wants Answers", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Ample", headline: "Decagon completes first tender offer at $4.5B valuation", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Andrenam", headline: "O'ahu's Real Energy System: Stripping Away Aviation, Shipping, &#038; Military Demand", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Deterrence", headline: "Defense execs invited to White House to talk munition production amid Iran strikes", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "The US military is still using Claude ' but defense-tech clients are fleeing", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Twelve", headline: "Puget Sound Energy Is Paying Customers To Get Battery Systems", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Mach Industries", headline: "New Electric Boat To Banish Emissions From Offshore Wind Sites", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Durin", headline: "Host a Side Event during TechCrunch Founder Summit Week in Boston", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Palantir", headline: "How Federal Agencies Got Caught Up in Trump's Anti-Immigration Crusade", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Durin", headline: "Hegseth: US went to war because Iran 'had no intention' of signing a nuclear deal", source: "Defense One", time: "5h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Palantir", headline: "Iran-linked hacktivists could target US state and local targets, experts warn", source: "Defense One", time: "5h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
