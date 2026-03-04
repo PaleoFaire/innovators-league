@@ -20685,23 +20685,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-04 10:02
+// Last updated: 2026-03-04 14:09
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "PLD Space", headline: "PLD Space raises $209 million to shift into serial rocket production", source: "SpaceNews", time: "4h ago", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "SHIELD Technology Partners", headline: "Trump's CISA nominee to exit Coast Guard role, but still in running to lead cyber agency", source: "Defense One", time: "8h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Anthropic", headline: "Pentagon dispute bolsters Anthropic reputation but raises questions about AI readiness in military", source: "Defense News", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Palantir", headline: "A suite of government hacking tools targeting iPhones is now being used by cybercriminals", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Andrenam", headline: "Trump says US Navy could escort ships through Strait of Hormuz", source: "Defense News", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Ample", headline: "Over 3,000 One-Megawatt EV Charging Stations Planned By BYD For Europe", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Anthropic", headline: "Pentagon's war on Anthropic based on 'dubious' legal thinking and ideology'not real risk, sources say", source: "Defense One", time: "12h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Amidon Heavy Industries", headline: "This Offshore Wind Turbine Will House a Data Center Underwater", source: "IEEE Spectrum", time: "13h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Palantir", headline: "US Navy is Opening the Strait of Hormuz", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Anthropic", headline: "Claude Code rolls out a voice mode capability", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Palantir", headline: "A Possible US Government iPhone-Hacking Toolkit Is Now in the Hands of Foreign Spies and Criminals", source: "Wired", time: "15h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Deterrence", headline: "Iran mission takes toll on US munition stockpile, lawmakers weigh supplemental defense funding", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Daylight Computer", headline: "The new MacBook Pro laptops are as much as $400 more expensive than their predecessors. Thank the RAM shortage.", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Asylon Robotics", headline: "Hacked traffic cams and hijacked TVs: How cyber operations supported the war against Iran", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Durin", headline: "What Kiloton Range Would Crude Nuclear Gun Bombs Have?", source: "Next Big Future", time: "16h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "Reliable space rescue is a prerequisite for continued economic opportunity in space and we have a long way to go", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Seneca Systems", headline: "The Download: Earth's rumblings, and AI for strikes on Iran", source: "MIT Tech Review", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Astro Mechanica", headline: "SLS upper stage helium flow problem fixed", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Hubble Network", headline: "Marshall Kilburn III Review: A Classic Rock Bluetooth Speaker", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Astera Labs", headline: "Who needs data centers in space when they can float offshore?", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Blue Origin", headline: "Blue Origin's surprise TeraWave constellation jolts LEO broadband race", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Amca", headline: "Pending tanker purchase spotlights choice for Poland: buy European or US?", source: "Defense News", time: "3h ago", impact: "high", unread: false },
+  { id: 8, type: "funding", company: "PLD Space", headline: "PLD Space raises $209 million to shift into serial rocket production", source: "SpaceNews", time: "8h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "SHIELD Technology Partners", headline: "Trump's CISA nominee to exit Coast Guard role, but still in running to lead cyber agency", source: "Defense One", time: "13h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Anthropic", headline: "Pentagon dispute bolsters Anthropic reputation but raises questions about AI readiness in military", source: "Defense News", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Palantir", headline: "A suite of government hacking tools targeting iPhones is now being used by cybercriminals", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Andrenam", headline: "Trump says US Navy could escort ships through Strait of Hormuz", source: "Defense News", time: "15h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Ample", headline: "Over 3,000 One-Megawatt EV Charging Stations Planned By BYD For Europe", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Anthropic", headline: "Pentagon's war on Anthropic based on 'dubious' legal thinking and ideology'not real risk, sources say", source: "Defense One", time: "16h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Amidon Heavy Industries", headline: "This Offshore Wind Turbine Will House a Data Center Underwater", source: "IEEE Spectrum", time: "17h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
