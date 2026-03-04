@@ -11,13 +11,13 @@
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.18,
+      "avg_change": -0.25,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 2.3,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 1.53,
       "count": 7
     },
     "nuclear": {
@@ -76,7 +76,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      12.08
+      10.44
     ],
     [
       "ASTS",
@@ -111,5 +111,5 @@
       -14.49
     ]
   ],
-  "lastUpdated": "2026-03-04 04:59:28"
+  "lastUpdated": "2026-03-04 07:54:12"
 }
