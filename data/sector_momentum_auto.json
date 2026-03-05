@@ -4,9 +4,9 @@
     "momentum": 80,
     "trend": "accelerating",
     "catalysts": [
-      "Pentagon dispute bolsters Anthropic reputation but raises qu",
-      "Trump says US Navy could escort ships through Strait of Horm",
-      "Pentagon\u2019s war on Anthropic based on \u2018dubious\u2019 legal thinkin"
+      "Renewables And Fossil Fuels In Times Of War",
+      "Anthropic CEO Dario Amodei calls OpenAI&#8217;s messaging ar",
+      "What AI Models for War Actually Look Like"
     ],
     "fundingQ": "$66.8B",
     "components": {
@@ -15,16 +15,16 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "AI & Software",
     "momentum": 70,
     "trend": "accelerating",
     "catalysts": [
-      "Pentagon dispute bolsters Anthropic reputation but raises qu",
-      "Pentagon\u2019s war on Anthropic based on \u2018dubious\u2019 legal thinkin",
-      "Claude Code rolls out a voice mode capability"
+      "Jensen Huang says Nvidia is pulling back from OpenAI and Ant",
+      "Anthropic CEO Dario Amodei calls OpenAI&#8217;s messaging ar",
+      "What AI Models for War Actually Look Like"
     ],
     "fundingQ": "$250.0B",
     "components": {
@@ -33,16 +33,15 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Shark UV Reveal Review (2026): UV Light Mode",
-      "The Falling Cost Gap Between EU &#038; Chinese Batteries",
-      "Tesla Germany Operating At 40 Percent Capacity \u2014 Handelsblat"
+      "Waymo Still Has A Problem Stopping For School Buses",
+      "Shark UV Reveal Review (2026): UV Light Mode"
     ],
     "fundingQ": "$17.7B",
     "components": {
@@ -51,68 +50,70 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 50,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "This Offshore Wind Turbine Will House a Data Center Underwat",
-      "What Military Drones Can Teach Self-Driving Cars"
+      "Telus invests in AST SpaceMobile to expand D2D coverage in C",
+      "TerraPower gets OK to start construction of its first nuclea",
+      "This Offshore Wind Turbine Will House a Data Center Underwat"
     ],
     "fundingQ": "$900.0B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 48,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "Trump says US Navy could escort ships through Strait of Horm",
-      "Macron opens door to deploying French nuclear forces to Euro"
+      "O\u02bbahu\u2019s Real Energy System: Stripping Away Aviation, Shippin",
+      "New Electric Boat To Banish Emissions From Offshore Wind Sit",
+      "Trump says US Navy could escort ships through Strait of Horm"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 42,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "PLD Space raises $209 million to shift into serial rocket pr",
-      "Claude Code rolls out a voice mode capability",
-      "When space is hot, Washington holds a match"
+      "Telus invests in AST SpaceMobile to expand D2D coverage in C",
+      "US launches Precision Strike Missiles in Iran war in first c",
+      "Next-Generation BYD Blade Battery &#038; Flash Charging Debu"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
       "news": 100,
       "hiring": 0,
-      "market": 67
+      "market": 100
     },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "PLD Space raises $209 million to shift into serial rocket pr",
-      "When space is hot, Washington holds a match",
-      "Tesla Germany Operating At 40 Percent Capacity \u2014 Handelsblat"
+      "Senate committee advances NASA authorization bill that chang",
+      "Telus invests in AST SpaceMobile to expand D2D coverage in C",
+      "Google settles with Epic Games, drops its Play Store commiss"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -121,11 +122,63 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Telus invests in AST SpaceMobile to expand D2D coverage in C",
+      "O\u02bbahu\u2019s Real Energy System: Stripping Away Aviation, Shippin",
+      "Puget Sound Energy Is Paying Customers To Get Battery System"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-05"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Renewables And Fossil Fuels In Times Of War",
+      "Next-Generation BYD Blade Battery &#038; Flash Charging Debu",
+      "Puget Sound Energy Is Paying Customers To Get Battery System"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 45,
+      "hiring": 0,
+      "market": 46
+    },
+    "lastUpdated": "2026-03-05"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "Volkswagen Becomes XPENG&#8217;s First Customer for VLA 2.0"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 21,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -135,95 +188,61 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 100
+      "market": 75
     },
-    "lastUpdated": "2026-03-04"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Volkswagen Becomes XPENG&#8217;s First Customer for VLA 2.0",
-      "On Path to Supersonic Hermeus in 2026 and Mach 5 by 2030",
-      "What Military Drones Can Teach Self-Driving Cars"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 18,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "On Path to Supersonic Hermeus in 2026 and Mach 5 by 2030"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 16,
+    "sector": "Nuclear Energy",
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "The New War of the Currents",
-      "Hardware is no longer the problem holding back space-based d"
+      "TerraPower gets OK to start construction of its first nuclea",
+      "Defense execs invited to White House to talk munition produc",
+      "Hegseth: US went to war because Iran 'had no intention' of s"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 25,
       "hiring": 0,
-      "market": 50
+      "market": 21
     },
-    "lastUpdated": "2026-03-04"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 8,
-    "trend": "declining",
-    "catalysts": [
-      "This Offshore Wind Turbine Will House a Data Center Underwat",
-      "The Falling Cost Gap Between EU &#038; Chinese Batteries",
-      "In Iran, US President Donald Trump Makes The Case For Renewa"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 8,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Volkswagen Becomes XPENG&#8217;s First Customer for VLA 2.0",
-      "Iran conflict expands in Lebanon, Beirut demands Hezbollah &"
+      "Next-Generation BYD Blade Battery &#038; Flash Charging Debu",
+      "Reliable space rescue is a prerequisite for continued econom",
+      "Volkswagen Becomes XPENG&#8217;s First Customer for VLA 2.0"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 30,
       "hiring": 0,
-      "market": 0
+      "market": 10
     },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "Transportation",
@@ -239,32 +258,14 @@
       "hiring": 0,
       "market": 29
     },
-    "lastUpdated": "2026-03-04"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 6,
-    "trend": "declining",
-    "catalysts": [
-      "What Kiloton Range Would Crude Nuclear Gun Bombs Have?",
-      "Macron calls to increase French nuclear arsenal, team with G",
-      "Macron opens door to deploying French nuclear forces to Euro"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 3
-    },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   },
   {
     "sector": "Chips & Semiconductors",
     "momentum": 6,
     "trend": "declining",
     "catalysts": [
-      "Active chips & semiconductors ecosystem"
+      "Jensen Huang says Nvidia is pulling back from OpenAI and Ant"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -273,6 +274,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-04"
+    "lastUpdated": "2026-03-05"
   }
 ]
