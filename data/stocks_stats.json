@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 14.16,
+      "avg_change": 12.77,
       "count": 1
     },
     "space": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 8.13,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 1.79,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 0.06,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.74,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.99,
+      "avg_change": -7.24,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.04,
+      "avg_change": -6.0,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.5,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -10.24,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.06,
+      "avg_change": -6.73,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -2.46,
+      "avg_change": -3.63,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.26,
+      "avg_change": -1.55,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "ASTS",
       "AST SpaceMobile",
-      27.36
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      17.18
+      17.63
     ],
     [
       "PLTR",
       "Palantir",
-      14.16
+      12.77
     ],
     [
-      "IONQ",
-      "IonQ",
-      10.54
+      "277810.KQ",
+      "Rainbow Robotics",
+      6.22
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      6.83
+      "LUNR",
+      "Intuitive Machines",
+      3.34
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      2.82
     ]
   ],
   "topLosers": [
     [
-      "NVDA",
-      "NVIDIA",
-      -6.4
+      "QBTS",
+      "D-Wave Quantum",
+      -8.69
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -7.23
+      "ACHR",
+      "Archer Aviation",
+      -9.82
     ],
     [
-      "AUR",
-      "Aurora Innovation",
-      -7.99
+      "RGTI",
+      "Rigetti Computing",
+      -10.68
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      -11.35
     ],
     [
       "SLDP",
       "Solid Power",
-      -9.51
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      -11.22
+      -14.68
     ]
   ],
-  "lastUpdated": "2026-03-05 07:57:05"
+  "lastUpdated": "2026-03-05 14:34:13"
 }
