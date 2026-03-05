@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 14.95,
+      "avg_change": 14.16,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 8.25,
+      "avg_change": 8.08,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 0.12,
+      "avg_change": 0.54,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.19,
+      "avg_change": -2.99,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.42,
+      "avg_change": -1.04,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 1.24,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.5,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.26,
+      "avg_change": -5.06,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -2.58,
+      "avg_change": -2.46,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.32,
+      "avg_change": -7.26,
       "count": 3
     }
   },
@@ -61,34 +61,34 @@
     [
       "ASTS",
       "AST SpaceMobile",
-      28.99
+      27.36
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      16.99
+      17.18
     ],
     [
       "PLTR",
       "Palantir",
-      14.95
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      10.66
+      14.16
     ],
     [
       "IONQ",
       "IonQ",
-      10.0
+      10.54
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      9.77
     ]
   ],
   "topLosers": [
     [
       "NVDA",
       "NVIDIA",
-      -6.01
+      -6.4
     ],
     [
       "ONT.L",
@@ -96,20 +96,20 @@
       -7.23
     ],
     [
-      "SLDP",
-      "Solid Power",
-      -8.29
-    ],
-    [
       "AUR",
       "Aurora Innovation",
-      -8.3
+      -7.99
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      -9.51
     ],
     [
       "ALAB",
       "Astera Labs",
-      -11.8
+      -11.22
     ]
   ],
-  "lastUpdated": "2026-03-04 19:52:38"
+  "lastUpdated": "2026-03-05 05:05:48"
 }
