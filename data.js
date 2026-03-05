@@ -20695,23 +20695,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-05 10:09
+// Last updated: 2026-03-05 14:34
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Cape", headline: "Renewables And Fossil Fuels In Times Of War", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Waymo", headline: "Waymo Still Has A Problem Stopping For School Buses", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Anthropic", headline: "Jensen Huang says Nvidia is pulling back from OpenAI and Anthropic, but his explanation raises more questions than it an", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Xtend", headline: "Senate committee advances NASA authorization bill that changes Artemis and extends ISS", source: "SpaceNews", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "AST SpaceMobile", headline: "Telus invests in AST SpaceMobile to expand D2D coverage in Canada", source: "SpaceNews", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "TerraPower", headline: "TerraPower gets OK to start construction of its first nuclear plant", source: "Ars Technica Space", time: "11h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Anthropic", headline: "Anthropic CEO Dario Amodei calls OpenAI's messaging around military deal 'straight up lies,' report sa", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Xanadu Quantum Technologies", headline: "Large genome model: Open source AI trained on trillions of bases", source: "Ars Technica Space", time: "11h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Astera Labs", headline: "Big Tech Signs White House Data Center Pledge With Good Optics and Little Substance", source: "Wired", time: "11h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Deterrence", headline: "Trump to meet arms executives Friday in push to boost weapon supplies", source: "Defense News", time: "12h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Anthropic", headline: "What AI Models for War Actually Look Like", source: "Wired", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Ample", headline: "Google settles with Epic Games, drops its Play Store commissions to 20%", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Atomic Industries", headline: "US launches Precision Strike Missiles in Iran war in first combat use", source: "Defense News", time: "14h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Matic Robotics", headline: "His house burned down. He used the insurance money to build'PopSockets.", source: "TechCrunch", time: "14h ago", impact: "medium", unread: false },
-  { id: 15, type: "milestone", company: "Ample", headline: "Next-Generation BYD Blade Battery &#038; Flash Charging Debuts Tomorrow", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Karman Industries", headline: "UK announces '500 million package for industrial growth and national security", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Cohere", headline: "How 1,000+ customer calls shaped a breakout enterprise AI startup", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Vast", headline: "Vast raises $500 million for commercial space station development", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
+  { id: 4, type: "milestone", company: "Rivian", headline: "Rivian is betting its future on one of the fastest EV launches in US history", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Cape", headline: "Sierra Space raises $550 million in Series C funding", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Durin", headline: "Navy's Kilby signals USS Ford could see 11-month deployment, approaching record length", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Andrenam", headline: "Electrifying O'ahu: Shrinking the Island's Energy System Before Decarbonizing It", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Deterrence", headline: "France, Germany create panel to advance shared nuclear deterrence plans", source: "Defense News", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "Active Investors Spent More On Fewer Deals In February", source: "Crunchbase News", time: "2h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "Hubble Network", headline: "KEF Muo Bluetooth Speaker: Portable Hi-Fi", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Durin", headline: "Jared Isaacman on rebuilding, Artemis and what he's learned during his first months as NASA administrator", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Vertical Aerospace", headline: "Suunto Vertical 2 Review: Catching Up to the Pack", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Seneca Systems", headline: "How much wildfire prevention is too much?", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Cape", headline: "Fighting an Economic War Without Fused Intelligence", source: "War on the Rocks", time: "6h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Cape", headline: "Renewables And Fossil Fuels In Times Of War", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
