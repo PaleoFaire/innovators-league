@@ -5,68 +5,68 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 12.77,
+      "avg_change": 11.59,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 1.79,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -1.92,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -2.74,
+      "avg_change": -3.83,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.24,
+      "avg_change": -9.24,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.0,
+      "avg_change": -6.48,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.24,
+      "avg_change": -11.47,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.73,
+      "avg_change": -7.14,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -3.63,
+      "avg_change": -3.2,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -1.55,
+      "avg_change": -3.61,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ASTS",
-      "AST SpaceMobile",
-      17.63
-    ],
-    [
       "PLTR",
       "Palantir",
-      12.77
+      11.59
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      7.13
     ],
     [
       "277810.KQ",
@@ -74,42 +74,42 @@
       6.22
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      3.34
+      "IDEAFORGE.NS",
+      "ideaForge",
+      2.64
     ],
     [
-      "SATL",
-      "Satellogic",
-      2.82
+      "LNZA",
+      "LanzaTech",
+      2.19
     ]
   ],
   "topLosers": [
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -8.69
+      "RGTI",
+      "Rigetti Computing",
+      -10.92
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      -11.75
     ],
     [
       "ACHR",
       "Archer Aviation",
-      -9.82
-    ],
-    [
-      "RGTI",
-      "Rigetti Computing",
-      -10.68
+      -13.75
     ],
     [
       "IONQ",
       "IonQ",
-      -11.35
+      -13.85
     ],
     [
       "SLDP",
       "Solid Power",
-      -14.68
+      -15.84
     ]
   ],
-  "lastUpdated": "2026-03-05 14:34:13"
+  "lastUpdated": "2026-03-05 19:19:30"
 }
