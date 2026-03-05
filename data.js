@@ -20695,23 +20695,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-05 14:34
+// Last updated: 2026-03-05 18:11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Karman Industries", headline: "UK announces '500 million package for industrial growth and national security", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Cohere", headline: "How 1,000+ customer calls shaped a breakout enterprise AI startup", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Vast", headline: "Vast raises $500 million for commercial space station development", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
-  { id: 4, type: "milestone", company: "Rivian", headline: "Rivian is betting its future on one of the fastest EV launches in US history", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Cape", headline: "Sierra Space raises $550 million in Series C funding", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "Durin", headline: "Navy's Kilby signals USS Ford could see 11-month deployment, approaching record length", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Andrenam", headline: "Electrifying O'ahu: Shrinking the Island's Energy System Before Decarbonizing It", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Deterrence", headline: "France, Germany create panel to advance shared nuclear deterrence plans", source: "Defense News", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "Active Investors Spent More On Fewer Deals In February", source: "Crunchbase News", time: "2h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Hubble Network", headline: "KEF Muo Bluetooth Speaker: Portable Hi-Fi", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Durin", headline: "Jared Isaacman on rebuilding, Artemis and what he's learned during his first months as NASA administrator", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Vertical Aerospace", headline: "Suunto Vertical 2 Review: Catching Up to the Pack", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Seneca Systems", headline: "How much wildfire prevention is too much?", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Cape", headline: "Fighting an Economic War Without Fused Intelligence", source: "War on the Rocks", time: "6h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Cape", headline: "Renewables And Fossil Fuels In Times Of War", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Cape", headline: "Google says half of all zero-days it tracked in 2025 targeted buggy enterprise tech", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "OpenAI", headline: "OpenAI launches GPT-5.4 with Pro and Thinking versions", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Space Forge", headline: "Meta sued over AI smart glasses' privacy concerns, after workers reviewed nudity, sex, and other footage", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "Anthropic", headline: "Anthropic CEO Dario Amodei could still be trying to make a deal with Pentagon", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Ample", headline: "12,000 New EV Fast Chargers Planned For Germany In Four Years", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Cognition", headline: "Oura acquires Doublepoint, a startup that specializes in gesture recognition technology", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Ample", headline: "How High-Speed Charging, Pull-Thrus, &#038; Smart Partnerships Are Supercharging EVgo's Success", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "What Tesla and XAI AGI Reveals Will Happen Before SpaceX-XAI IPO?", source: "Next Big Future", time: "2h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Firestorm Labs", headline: "US and Mideast countries seek Kyiv's drone expertise as Russia-Ukraine talks put on ice", source: "Defense News", time: "2h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Galvanick", headline: "UAE's defense giant EDGE Group to equip Ecuador with border protection systems", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Karman Industries", headline: "UK announces '500 million package for industrial growth and national security", source: "SpaceNews", time: "4h ago", impact: "medium", unread: false },
+  { id: 12, type: "news", company: "Cohere", headline: "How 1,000+ customer calls shaped a breakout enterprise AI startup", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Vast", headline: "Vast raises $500 million for commercial space station development", source: "SpaceNews", time: "5h ago", impact: "medium", unread: false },
+  { id: 14, type: "milestone", company: "Rivian", headline: "Rivian is betting its future on one of the fastest EV launches in US history", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Cape", headline: "Sierra Space raises $550 million in Series C funding", source: "SpaceNews", time: "5h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
