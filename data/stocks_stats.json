@@ -11,13 +11,13 @@
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.68,
+      "avg_change": -0.65,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -4.86,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -3.62,
       "count": 7
     },
     "nuclear": {
@@ -69,14 +69,14 @@
       9.44
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      8.96
+    ],
+    [
       "LNZA",
       "LanzaTech",
       6.36
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      2.64
     ],
     [
       "SATL",
@@ -111,5 +111,5 @@
       -15.32
     ]
   ],
-  "lastUpdated": "2026-03-06 02:26:34"
+  "lastUpdated": "2026-03-06 06:56:39"
 }
