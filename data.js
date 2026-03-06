@@ -20716,23 +20716,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-06 13:12
+// Last updated: 2026-03-06 16:52
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Space Forge", headline: "Corsair Sabre V2 Carbon Fiber and Magnesium Gaming Mice Review", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches satellite for undisclosed customer", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Matic Robotics", headline: "From Ukraine to Iran, Hacking Security Cameras Is Now Part of War's 'Playbook'", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Terrestrial Energy", headline: "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Hadrian", headline: "China designates space sector an 'emerging pillar industry,' sets deep space ambitions in new economic blueprint", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Conductor Quantum", headline: "The War on Iran Puts Global Chip Supplies and AI Expansion at Risk", source: "Wired", time: "4h ago", impact: "medium", unread: false },
-  { id: 7, type: "milestone", company: "Ample", headline: "BYD Launches Next-Generation Blade Battery &#038; Flash Charging", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Anthropic", headline: "Anthropic to challenge DOD's supply-chain label in court", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Anthropic", headline: "Pentagon says it is labeling Anthropic a supply chain risk 'effective immediately'", source: "Defense News", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Deterrence", headline: "'Firepower about to surge dramatically' over Iran: Hegseth", source: "Defense One", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Mach Industries", headline: "Poland-based Liftero will provide chemical propulsion for Indian firm OrbitAID's in-orbit servicing mission", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Claros", headline: "Electrified &#038; Lightweight Semi Trailers Key To Battery-Powered Freight", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Ample", headline: "AEVA Registers Progress on EV Charging in Strata Title Apartment Buildings", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "OpenAI", headline: "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway", source: "Wired", time: "15h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Andromeda Surgical", headline: "AWS launches a new AI agent platform specifically for healthcare", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Galvanick", headline: "Pentagon's new chief data officer to push 'AI capabilities to warfighters'", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Vast", headline: "Commercial Space Federation (CSF) Welcomes New Members", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Sunfire", headline: "Green Hydrogen Can Help US Farmers &#038; Fix Wind Power's Curtailment Problem, Too", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Vast", headline: "Gulf allies complain US did not provide notice of Iran attacks and ignored warnings, sources say", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Durin", headline: "TriZetto confirms 3.4M people's health and personal data was stolen during breach", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
+  { id: 6, type: "ipo", company: "Starcloud", headline: "Hyperscalers are coming to an orbit near you. Power will decide the winners.", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Anthropic", headline: "Anthropic's People Power Is Part Of A Bigger Fight That Affects Clean Technology", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Pasqal", headline: "Quantum scale-up Pasqal plans $2B SPAC listing, promises to 'remain French'", source: "TechCrunch", time: "3h ago", impact: "high", unread: false },
+  { id: 9, type: "contract", company: "Anthropic", headline: "The Download: 10 things that matter in AI, plus Anthropic's plan to sue the Pentagon", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Space Forge", headline: "Corsair Sabre V2 Carbon Fiber and Magnesium Gaming Mice Review", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab launches satellite for undisclosed customer", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Matic Robotics", headline: "From Ukraine to Iran, Hacking Security Cameras Is Now Part of War's 'Playbook'", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Terrestrial Energy", headline: "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)", source: "IEEE Spectrum", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "Hadrian", headline: "China designates space sector an 'emerging pillar industry,' sets deep space ambitions in new economic blueprint", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Conductor Quantum", headline: "The War on Iran Puts Global Chip Supplies and AI Expansion at Risk", source: "Wired", time: "7h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
