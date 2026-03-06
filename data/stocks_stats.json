@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -3.62,
+      "avg_change": -3.93,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.06,
+      "avg_change": -5.72,
       "count": 3
     },
     "transportation": {
@@ -71,7 +71,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      8.96
+      6.82
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -15.32
     ]
   ],
-  "lastUpdated": "2026-03-06 06:56:39"
+  "lastUpdated": "2026-03-06 13:04:48"
 }
