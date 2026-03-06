@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 12.31,
+      "avg_change": 16.42,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -0.65,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 7.08,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -3.93,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -1.58,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.86,
+      "avg_change": -7.59,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.55,
+      "avg_change": -1.02,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -9.12,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.53,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.72,
+      "avg_change": -4.9,
       "count": 3
     },
     "transportation": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -1.71,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": -0.24,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -2.22,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.23,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "PLTR",
-      "Palantir",
-      12.31
-    ],
-    [
       "ASTS",
       "AST SpaceMobile",
-      9.44
+      19.75
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      6.82
+      "PLTR",
+      "Palantir",
+      16.42
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      6.36
+      "LUNR",
+      "Intuitive Machines",
+      13.29
     ],
     [
-      "SATL",
-      "Satellogic",
-      0.31
+      "PL",
+      "Planet Labs",
+      10.98
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      10.61
     ]
   ],
   "topLosers": [
     [
-      "RGTI",
-      "Rigetti Computing",
-      -8.96
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -8.49
     ],
     [
-      "OKLO",
-      "Oklo",
-      -10.19
+      "SMR",
+      "NuScale Power",
+      -8.68
     ],
     [
-      "IONQ",
-      "IonQ",
-      -11.89
-    ],
-    [
-      "ACHR",
-      "Archer Aviation",
-      -12.47
+      "NNE",
+      "Nano Nuclear Energy",
+      -9.78
     ],
     [
       "SLDP",
       "Solid Power",
-      -15.32
+      -10.31
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -10.59
     ]
   ],
-  "lastUpdated": "2026-03-06 13:04:48"
+  "lastUpdated": "2026-03-06 18:53:27"
 }
