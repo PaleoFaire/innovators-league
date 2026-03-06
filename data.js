@@ -20716,25 +20716,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-06 05:12
-// Auto-generated real-time signals
-// Last updated: 2026-03-06
+// Last updated: 2026-03-06 08:49
 const COMPANY_SIGNALS = [
   { id: 1, type: "milestone", company: "Ample", headline: "BYD Launches Next-Generation Blade Battery &#038; Flash Charging", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Anthropic", headline: "Anthropic to challenge DOD&#8217;s supply-chain label in court", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Anthropic", headline: "Pentagon says it is labeling Anthropic a supply chain risk ‘effective immediately’", source: "Defense News", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Deterrence", headline: "‘Firepower about to surge dramatically’ over Iran: Hegseth", source: "Defense One", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Mach Industries", headline: "Poland-based Liftero will provide chemical propulsion for Indian firm OrbitAID’s in-orbit servicing mission", source: "SpaceNews", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Claros", headline: "Electrified &#038; Lightweight Semi Trailers Key To Battery-Powered Freight", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Ample", headline: "AEVA Registers Progress on EV Charging in Strata Title Apartment Buildings", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "OpenAI", headline: "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Andromeda Surgical", headline: "AWS launches a new AI agent platform specifically for healthcare", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Galvanick", headline: "Air Force cybersecurity chief tapped to lead Pentagon's information-security efforts", source: "Defense One", time: "10h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Asylon Robotics", headline: "FBI investigating hack on its wiretap and surveillance systems: Report", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Palantir", headline: "US reportedly considering sweeping new chip export controls", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Terran Orbital", headline: "Terran Orbital Appoints Kwon Park as Senior Director of Manufacturing Operations", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Ample", headline: "BYD rolls out EV batteries with 5-minute ‘flash charging&#8217; — but there&#8217;s a catch", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Andrenam", headline: "NORAD intercepts 2 Russian maritime patrol aircraft near Alaska, Canada", source: "Defense News", time: "11h ago", impact: "low", unread: false },
+  { id: 2, type: "contract", company: "Anthropic", headline: "Anthropic to challenge DOD's supply-chain label in court", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Anthropic", headline: "Pentagon says it is labeling Anthropic a supply chain risk 'effective immediately'", source: "Defense News", time: "7h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Deterrence", headline: "'Firepower about to surge dramatically' over Iran: Hegseth", source: "Defense One", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "contract", company: "Mach Industries", headline: "Poland-based Liftero will provide chemical propulsion for Indian firm OrbitAID's in-orbit servicing mission", source: "SpaceNews", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Claros", headline: "Electrified &#038; Lightweight Semi Trailers Key To Battery-Powered Freight", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Ample", headline: "AEVA Registers Progress on EV Charging in Strata Title Apartment Buildings", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "OpenAI", headline: "OpenAI Had Banned Military Use. The Pentagon Tested Its Models Through Microsoft Anyway", source: "Wired", time: "10h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Andromeda Surgical", headline: "AWS launches a new AI agent platform specifically for healthcare", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Galvanick", headline: "Air Force cybersecurity chief tapped to lead Pentagon's information-security efforts", source: "Defense One", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Asylon Robotics", headline: "FBI investigating hack on its wiretap and surveillance systems: Report", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Palantir", headline: "US'reportedly considering sweeping new chip export'controls", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "Terran Orbital", headline: "Terran Orbital Appoints Kwon Park as Senior Director of Manufacturing Operations", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Ample", headline: "BYD rolls out EV batteries with 5-minute 'flash charging' ' but there's a catch", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Andrenam", headline: "NORAD intercepts 2 Russian maritime patrol aircraft near Alaska, Canada", source: "Defense News", time: "12h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
