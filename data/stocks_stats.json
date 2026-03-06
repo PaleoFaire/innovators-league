@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 11.59,
+      "avg_change": 12.31,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -1.92,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -0.68,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.83,
+      "avg_change": -4.86,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.24,
+      "avg_change": -8.86,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -6.48,
+      "avg_change": -4.55,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.47,
+      "avg_change": -9.12,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.14,
+      "avg_change": -6.06,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -3.2,
+      "avg_change": -1.71,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.61,
+      "avg_change": -2.22,
       "count": 3
     }
   },
@@ -61,17 +61,17 @@
     [
       "PLTR",
       "Palantir",
-      11.59
+      12.31
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      7.13
+      9.44
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      6.22
+      "LNZA",
+      "LanzaTech",
+      6.36
     ],
     [
       "IDEAFORGE.NS",
@@ -79,37 +79,37 @@
       2.64
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      2.19
+      "SATL",
+      "Satellogic",
+      0.31
     ]
   ],
   "topLosers": [
     [
       "RGTI",
       "Rigetti Computing",
-      -10.92
+      -8.96
     ],
     [
       "OKLO",
       "Oklo",
-      -11.75
-    ],
-    [
-      "ACHR",
-      "Archer Aviation",
-      -13.75
+      -10.19
     ],
     [
       "IONQ",
       "IonQ",
-      -13.85
+      -11.89
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -12.47
     ],
     [
       "SLDP",
       "Solid Power",
-      -15.84
+      -15.32
     ]
   ],
-  "lastUpdated": "2026-03-05 19:19:30"
+  "lastUpdated": "2026-03-06 02:26:34"
 }
