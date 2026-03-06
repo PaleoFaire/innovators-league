@@ -13,6 +13,21 @@
     "roundCount": 1
   },
   {
+    "company": "OpenAI",
+    "totalRaised": "$260.0B+",
+    "totalRaisedRaw": 260009.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$110B",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Lightspeed Venture Partners",
+      "SoftBank"
+    ],
+    "roundCount": 4
+  },
+  {
     "company": "Together AI",
     "totalRaised": "$167.1B+",
     "totalRaisedRaw": 167050.0,
@@ -22,21 +37,6 @@
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
-    ],
-    "roundCount": 3
-  },
-  {
-    "company": "OpenAI",
-    "totalRaised": "$150.0B+",
-    "totalRaisedRaw": 150009.0,
-    "lastRound": "Seed",
-    "lastRoundAmount": "$9M",
-    "lastRoundDate": "2026-02",
-    "valuation": "",
-    "leadInvestors": [
-      "Lightspeed Venture Partners",
-      "Undisclosed",
-      "SoftBank"
     ],
     "roundCount": 3
   },
@@ -225,6 +225,32 @@
     "roundCount": 1
   },
   {
+    "company": "SHIELD Technology Partners",
+    "totalRaised": "$1.2B+",
+    "totalRaisedRaw": 1218.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$668M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
+    "company": "Infleqtion",
+    "totalRaised": "$1.0B+",
+    "totalRaisedRaw": 1000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$1B",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Founders Fund"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Form Energy",
     "totalRaised": "$1.0B+",
     "totalRaisedRaw": 1000.0,
@@ -252,16 +278,17 @@
   },
   {
     "company": "Neuralink",
-    "totalRaised": "$650M+",
-    "totalRaisedRaw": 650.0,
-    "lastRound": "Series E",
-    "lastRoundAmount": "$650M",
-    "lastRoundDate": "2025-06",
-    "valuation": "$9.7B",
+    "totalRaised": "$880M+",
+    "totalRaisedRaw": 880.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$230M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
     "leadInvestors": [
+      "Undisclosed",
       "ARK Invest"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Saronic",
@@ -311,6 +338,19 @@
     "valuation": "$5.6B",
     "leadInvestors": [
       "L3Harris"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Axiom Space",
+    "totalRaised": "$500M+",
+    "totalRaisedRaw": 500.0,
+    "lastRound": "Series T",
+    "lastRoundAmount": "$500M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -559,6 +599,19 @@
     "roundCount": 1
   },
   {
+    "company": "Watershed",
+    "totalRaised": "$30M+",
+    "totalRaisedRaw": 30.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$30M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "a16z"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "ideaForge",
     "totalRaised": "$26M+",
     "totalRaisedRaw": 26.0,
@@ -594,6 +647,19 @@
     "valuation": "",
     "leadInvestors": [
       "Accel"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Built Robotics",
+    "totalRaised": "$4M+",
+    "totalRaisedRaw": 4.1,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$4.1M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   }
