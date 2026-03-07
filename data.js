@@ -20716,23 +20716,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-06 20:40
+// Last updated: 2026-03-07 02:32
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Agility Robotics", headline: "OSHA probing fatality at Rivian warehouse", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Ample", headline: "Gen Z Consumers Are Warming Up To The Idea Of Chinese EVs", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "TerraPower", headline: "Bill Gates' TerraPower gets approval to build new nuclear reactor", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Palantir", headline: "Is the Pentagon allowed to surveil Americans with AI?", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Anthropic's Claude found 22 vulnerabilities in Firefox over two weeks", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
-  { id: 7, type: "contract", company: "Anthropic", headline: "Anthropic CEO says Pentagon ban less harsh than Hegseth had threatened", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Anthropic", headline: "Anthropic's'Pentagon deal is a cautionary tale for startups chasing federal contracts", source: "TechCrunch", time: "2h ago", impact: "medium", unread: false },
-  { id: 9, type: "contract", company: "Matic Robotics", headline: "Claude's consumer growth surge continues after Pentagon deal debacle", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Asylon Robotics", headline: "USA and Israel Combat Lasers Shooting Down Drones in the Iran War", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Galvanick", headline: "Pentagon's new chief data officer to push 'AI capabilities to warfighters'", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Vast", headline: "Commercial Space Federation (CSF) Welcomes New Members", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Sunfire", headline: "Green Hydrogen Can Help US Farmers &#038; Fix Wind Power's Curtailment Problem, Too", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Vast", headline: "Gulf allies complain US did not provide notice of Iran attacks and ignored warnings, sources say", source: "Defense News", time: "5h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Durin", headline: "TriZetto confirms 3.4M people's health and personal data was stolen during breach", source: "TechCrunch", time: "6h ago", impact: "medium", unread: false },
+  { id: 1, type: "news", company: "Impulse Labs", headline: "US Battery Makers Gave Up Waaaaay Too Soon On EV Sales (But They Have A Backup Plan)", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "SpaceX", headline: "X is testing a new ad format that connects posts with products", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Palantir", headline: "Nintendo sues the US government for a refund on tariffs", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Deterrence", headline: "Defense companies to quadruple production of 'exquisite' weapons: Trump", source: "Breaking Defense", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Saule Technologies", headline: "Wind on O'ahu: A Modest but Valuable Complement to Solar", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Karman Industries", headline: "IAA Will Ensure Most EVs Sold in Europe Will Have Batteries Made in the EU, but Loopholes Threaten Its Impact", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Ample", headline: "Unlocking Vehicle-to-Grid at Scale", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Andrenam", headline: "Can Shipping's Greenhouse Gas Emissions Be Captured At The Funnel?", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "Agility Robotics", headline: "OSHA probing fatality at Rivian warehouse", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Ample", headline: "Gen Z Consumers Are Warming Up To The Idea Of Chinese EVs", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "TerraPower", headline: "Bill Gates' TerraPower gets approval to build new nuclear reactor", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Palantir", headline: "Is the Pentagon allowed to surveil Americans with AI?", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Anthropic's Claude found 22 vulnerabilities in Firefox over two weeks", source: "TechCrunch", time: "7h ago", impact: "medium", unread: false },
+  { id: 15, type: "contract", company: "Anthropic", headline: "Anthropic CEO says Pentagon ban less harsh than Hegseth had threatened", source: "Breaking Defense", time: "7h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
