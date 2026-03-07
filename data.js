@@ -20727,25 +20727,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-07 05:03
-// Auto-generated real-time signals
-// Last updated: 2026-03-07
+// Last updated: 2026-03-07 08:39
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Cape", headline: "&#8220;Energy Security&#8221; Makes Us Less Secure. Renewables Are The Answer", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Impulse Labs", headline: "US Battery Makers Gave Up Waaaaay Too Soon On EV Sales (But They Have A Backup Plan)", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Astro Mechanica", headline: "NASA selects Centaur for new SLS upper stage", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "SpaceX", headline: "X is testing a new ad format that connects posts with products", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Palantir", headline: "Nintendo sues the US government for a refund on tariffs", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Deterrence", headline: "Defense companies to quadruple production of &#8216;exquisite&#8217; weapons: Trump", source: "Breaking Defense", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Saule Technologies", headline: "Wind on Oʻahu: A Modest but Valuable Complement to Solar", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Karman Industries", headline: "IAA Will Ensure Most EVs Sold in Europe Will Have Batteries Made in the EU, but Loopholes Threaten Its Impact", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Ample", headline: "Unlocking Vehicle-to-Grid at Scale", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Andrenam", headline: "Can Shipping&#8217;s Greenhouse Gas Emissions Be Captured At The Funnel?", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "hire", company: "Agility Robotics", headline: "OSHA probing fatality at Rivian warehouse", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Ample", headline: "Gen Z Consumers Are Warming Up To The Idea Of Chinese EVs", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "TerraPower", headline: "Bill Gates’ TerraPower gets approval to build new nuclear reactor", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Palantir", headline: "Is the Pentagon allowed to surveil Americans with AI?", source: "MIT Tech Review", time: "11h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Cape", headline: "&#8220;Energy Security&#8221; Makes Us Less Secure. Renewables Are The Answer", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Impulse Labs", headline: "US Battery Makers Gave Up Waaaaay Too Soon On EV Sales (But They Have A Backup Plan)", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Astro Mechanica", headline: "NASA selects Centaur for new SLS upper stage", source: "SpaceNews", time: "8h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "SpaceX", headline: "X is testing a new ad format that connects posts with products", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "Nintendo sues the US government for a refund on tariffs", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Deterrence", headline: "Defense companies to quadruple production of 'exquisite' weapons: Trump", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Saule Technologies", headline: "Wind on O'ahu: A Modest but Valuable Complement to Solar", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Karman Industries", headline: "IAA Will Ensure Most EVs Sold in Europe Will Have Batteries Made in the EU, but Loopholes Threaten Its Impact", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Ample", headline: "Unlocking Vehicle-to-Grid at Scale", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Andrenam", headline: "Can Shipping's Greenhouse Gas Emissions Be Captured At The Funnel?", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Agility Robotics", headline: "OSHA probing fatality at Rivian warehouse", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Ample", headline: "Gen Z Consumers Are Warming Up To The Idea Of Chinese EVs", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "TerraPower", headline: "Bill Gates' TerraPower gets approval to build new nuclear reactor", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Palantir", headline: "Is the Pentagon allowed to surveil Americans with AI?", source: "MIT Tech Review", time: "13h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
