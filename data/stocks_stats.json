@@ -5,83 +5,83 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 16.42,
+      "avg_change": 14.56,
       "count": 1
     },
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 7.08,
+      "avg_change": 3.11,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -1.58,
+      "avg_change": -2.03,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.59,
+      "avg_change": -9.37,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.02,
+      "avg_change": -1.91,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -1.53,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -3.41,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.9,
+      "avg_change": -5.36,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.24,
+      "avg_change": -0.59,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.23,
+      "avg_change": -1.07,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ASTS",
-      "AST SpaceMobile",
-      19.75
-    ],
-    [
       "PLTR",
       "Palantir",
-      16.42
+      14.56
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      13.29
-    ],
-    [
-      "PL",
-      "Planet Labs",
-      10.98
+      "ASTS",
+      "AST SpaceMobile",
+      12.99
     ],
     [
       "DRSHF",
       "DroneShield",
-      10.61
+      11.02
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      9.45
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      6.98
     ]
   ],
   "topLosers": [
@@ -93,23 +93,23 @@
     [
       "SMR",
       "NuScale Power",
-      -8.68
+      -9.18
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -9.78
+      -11.47
     ],
     [
       "SLDP",
       "Solid Power",
-      -10.31
+      -11.86
     ],
     [
       "ACHR",
       "Archer Aviation",
-      -10.59
+      -12.08
     ]
   ],
-  "lastUpdated": "2026-03-06 18:53:27"
+  "lastUpdated": "2026-03-07 02:13:08"
 }
