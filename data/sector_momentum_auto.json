@@ -4,61 +4,60 @@
     "momentum": 80,
     "trend": "accelerating",
     "catalysts": [
-      "Anthropic to challenge DOD&#8217;s supply-chain label in cou",
-      "Pentagon says it is labeling Anthropic a supply chain risk \u2018",
-      "\u2018Firepower about to surge dramatically\u2019 over Iran: Hegseth"
+      "Defense companies to quadruple production of &#8216;exquisit",
+      "Microsoft, Google, Amazon say Anthropic Claude remains avail",
+      "Is the Pentagon allowed to surveil Americans with AI?"
     ],
-    "fundingQ": "$66.8B",
+    "fundingQ": "$66.9B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "AI & Software",
-    "momentum": 70,
+    "momentum": 69,
     "trend": "accelerating",
     "catalysts": [
-      "Anthropic to challenge DOD&#8217;s supply-chain label in cou",
-      "Pentagon says it is labeling Anthropic a supply chain risk \u2018",
-      "OpenAI Had Banned Military Use. The Pentagon Tested Its Mode"
+      "Microsoft, Google, Amazon say Anthropic Claude remains avail",
+      "Is the Pentagon allowed to surveil Americans with AI?",
+      "Anthropic&#8217;s Claude found 22 vulnerabilities in Firefox"
     ],
     "fundingQ": "$360.0B",
     "components": {
       "funding": 100,
-      "news": 100,
+      "news": 95,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 58,
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
-      "Terran Orbital Appoints Kwon Park as Senior Director of Manu",
-      "Infinite Orbits acquires UK startup Lunasa to expand satelli",
-      "What Tesla and XAI AGI Reveals Will Happen Before SpaceX-XAI"
+      "IAA Will Ensure Most EVs Sold in Europe Will Have Batteries",
+      "Terran Orbital Appoints Kwon Park as Senior Director of Manu"
     ],
     "fundingQ": "$17.7B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "Housing & Construction",
     "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "Telus invests in AST SpaceMobile to expand D2D coverage in C"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$900.0B",
     "components": {
@@ -67,15 +66,15 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "Ocean & Maritime",
     "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "NORAD intercepts 2 Russian maritime patrol aircraft near Ala",
-      "Electrifying O\u02bbahu: Shrinking the Island\u2019s Energy System Bef"
+      "Can Shipping&#8217;s Greenhouse Gas Emissions Be Captured At",
+      "NORAD intercepts 2 Russian maritime patrol aircraft near Ala"
     ],
     "fundingQ": "$1.2B",
     "components": {
@@ -84,34 +83,34 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 39,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "BYD Launches Next-Generation Blade Battery &#038; Flash Char",
-      "Poland-based Liftero will provide chemical propulsion for In",
-      "AEVA Registers Progress on EV Charging in Strata Title Apart"
+      "NASA selects Centaur for new SLS upper stage",
+      "Commercial Space Federation (CSF) Welcomes New Members",
+      "Hyperscalers are coming to an orbit near you. Power will dec"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
       "news": 100,
       "hiring": 0,
-      "market": 55
+      "market": 100
     },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "BYD Launches Next-Generation Blade Battery &#038; Flash Char",
-      "Electrified &#038; Lightweight Semi Trailers Key To Battery-",
-      "OpenAI Had Banned Military Use. The Pentagon Tested Its Mode"
+      "&#8220;Energy Security&#8221; Makes Us Less Secure. Renewabl",
+      "US Battery Makers Gave Up Waaaaay Too Soon On EV Sales (But",
+      "NASA selects Centaur for new SLS upper stage"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -120,16 +119,52 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "Infrastructure & Logistics",
+    "momentum": 28,
+    "trend": "rising",
+    "catalysts": [
+      "US Battery Makers Gave Up Waaaaay Too Soon On EV Sales (But",
+      "Unlocking Vehicle-to-Grid at Scale",
+      "Anthropic CEO says Pentagon ban less harsh than Hegseth had"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 70,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-07"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 23,
+    "trend": "rising",
+    "catalysts": [
+      "&#8220;Energy Security&#8221; Makes Us Less Secure. Renewabl",
+      "US Battery Makers Gave Up Waaaaay Too Soon On EV Sales (But",
+      "Wind on O\u02bbahu: A Modest but Valuable Complement to Solar"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 80,
+      "hiring": 0,
+      "market": 17
+    },
+    "lastUpdated": "2026-03-07"
+  },
+  {
+    "sector": "Drones & Autonomous",
     "momentum": 22,
     "trend": "rising",
     "catalysts": [
-      "Pentagon says it is labeling Anthropic a supply chain risk \u2018",
-      "General Galactic aims to become &#8220;the galaxy&#8217;s en",
-      "Electrifying O\u02bbahu: Shrinking the Island\u2019s Energy System Bef"
+      "Anthropic&#8217;s\u00a0Pentagon deal is a cautionary tale for sta",
+      "USA and Israel Combat Lasers Shooting Down Drones in the Ira",
+      "From Ukraine to Iran, Hacking Security Cameras Is Now Part o"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -138,61 +173,41 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-06"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "US and Mideast countries seek Kyiv\u2019s drone expertise as Russ",
-      "UAE&#8217;s defense giant EDGE Group to equip Ecuador with b",
-      "How much wildfire prevention is too much?"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 17,
+    "momentum": 18,
     "trend": "rising",
     "catalysts": [
-      "BYD Launches Next-Generation Blade Battery &#038; Flash Char",
-      "AWS launches a new AI agent platform specifically for health",
-      "General Galactic aims to become &#8220;the galaxy&#8217;s en"
+      "TriZetto confirms 3.4M people&#8217;s health and personal da",
+      "Hyperscalers are coming to an orbit near you. Power will dec",
+      "BYD Launches Next-Generation Blade Battery &#038; Flash Char"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
-      "market": 0
+      "market": 12
     },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
-    "sector": "Climate & Energy",
-    "momentum": 13,
-    "trend": "rising",
+    "sector": "Chips & Semiconductors",
+    "momentum": 12,
+    "trend": "declining",
     "catalysts": [
-      "BYD Launches Next-Generation Blade Battery &#038; Flash Char",
-      "Electrified &#038; Lightweight Semi Trailers Key To Battery-",
-      "BYD rolls out EV batteries with 5-minute \u2018flash charging&#82"
+      "The War on Iran Puts Global Chip Supplies and AI Expansion a"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 15,
       "hiring": 0,
-      "market": 3
+      "market": 39
     },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -208,30 +223,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-06"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "US\u00a0reportedly considering sweeping new chip export\u00a0controls"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 28
-    },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "Nuclear Energy",
     "momentum": 6,
     "trend": "declining",
     "catalysts": [
-      "France, Germany create panel to advance shared nuclear deter"
+      "Bill Gates\u2019 TerraPower gets approval to build new nuclear re"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -240,39 +239,40 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-06"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 5,
-    "trend": "declining",
-    "catalysts": [
-      "AEVA Registers Progress on EV Charging in Strata Title Apart",
-      "12,000 New EV Fast Chargers Planned For Germany In Four Year"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 1,
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
-      "Active quantum computing ecosystem"
+      "Quantum scale-up Pasqal plans $2B SPAC listing, promises to"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
+      "hiring": 0,
+      "market": 16
+    },
+    "lastUpdated": "2026-03-07"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 6,
+    "trend": "declining",
+    "catalysts": [
+      "Unlocking Vehicle-to-Grid at Scale",
+      "OSHA probing fatality at Rivian warehouse",
+      "AEVA Registers Progress on EV Charging in Strata Title Apart"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-06"
+    "lastUpdated": "2026-03-07"
   }
 ]
