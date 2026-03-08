@@ -20732,23 +20732,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-08 16:38
+// Last updated: 2026-03-08 20:35
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Astera Labs", headline: "Owner of ICE detention facility sees big opportunity in AI man camps", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Rivian", headline: "TechCrunch Mobility: Rivian's R2 gambit", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Ample", headline: "BYD's 1.5 MW 'Flash' Charging Wasn't A Gimmick. The Battery Chemistry Behind It Could Change The Industry.", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "Anthropic", headline: "Meet the startups trying to build military-specific AI", source: "Defense One", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Ample", headline: "Force Your MacBook to Only Charge up to 80 Percent (and Why You Should)", source: "Wired", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Anthropic", headline: "Military AI Policy Needs Democratic Oversight", source: "IEEE Spectrum", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Anthropic", headline: "A roadmap for AI, if anyone will listen", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "Waymo", headline: "What Elon Means &#8211; Change at Very Large Scale", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "Rocket Factory Augsburg", headline: "RFA plans first launch this summer", source: "SpaceNews", time: "15h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Waymo", headline: "Google just gave Sundar Pichai a $692M pay package", source: "TechCrunch", time: "16h ago", impact: "medium", unread: false },
-  { id: 11, type: "contract", company: "OpenAI", headline: "OpenAI hardware exec Caitlin Kalinowski quits in response to Pentagon deal", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Andrenam", headline: "District Cooling From the Pacific: A Targeted Efficiency for O'ahu", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI delays ChatGPT's 'adult mode' again", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Carbon Robotics", headline: "It's Time For An Authentic Golden Age Of Agriculture", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Senra Systems", headline: "Cars Shouldn't Control Critical Safety Systems With Chatbots", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Palantir", headline: "Will the Pentagon's Anthropic controversy scare startups away from defense work?", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Andrenam", headline: "Biomethane for O'ahu: A Small Reserve With a Big Reliability Role", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Durin", headline: "Steering Electricity: How Grid Control Devices Unlock Transmission Capacity", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Astera Labs", headline: "Owner of ICE detention facility sees big opportunity in AI man camps", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Rivian", headline: "TechCrunch Mobility: Rivian's R2 gambit", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Ample", headline: "BYD's 1.5 MW 'Flash' Charging Wasn't A Gimmick. The Battery Chemistry Behind It Could Change The Industry.", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Anthropic", headline: "Meet the startups trying to build military-specific AI", source: "Defense One", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Ample", headline: "Force Your MacBook to Only Charge up to 80 Percent (and Why You Should)", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Anthropic", headline: "Military AI Policy Needs Democratic Oversight", source: "IEEE Spectrum", time: "10h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Anthropic", headline: "A roadmap for AI, if anyone will listen", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Waymo", headline: "What Elon Means &#8211; Change at Very Large Scale", source: "Next Big Future", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Waymo", headline: "Google just gave Sundar Pichai a $692M pay package", source: "TechCrunch", time: "20h ago", impact: "medium", unread: false },
+  { id: 13, type: "contract", company: "OpenAI", headline: "OpenAI hardware exec Caitlin Kalinowski quits in response to Pentagon deal", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Andrenam", headline: "District Cooling From the Pacific: A Targeted Efficiency for O'ahu", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "OpenAI delays ChatGPT's 'adult mode' again", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
