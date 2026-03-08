@@ -4,9 +4,9 @@
     "momentum": 80,
     "trend": "accelerating",
     "catalysts": [
-      "Defense companies to quadruple production of &#8216;exquisit",
-      "Microsoft, Google, Amazon say Anthropic Claude remains avail",
-      "Is the Pentagon allowed to surveil Americans with AI?"
+      "A roadmap for AI, if anyone will listen",
+      "OpenAI robotics lead Caitlin Kalinowski quits in response to",
+      "Air Force lab awards BlackSky contract worth up to $99 milli"
     ],
     "fundingQ": "$66.9B",
     "components": {
@@ -15,42 +15,43 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "AI & Software",
-    "momentum": 69,
+    "momentum": 70,
     "trend": "accelerating",
     "catalysts": [
-      "Microsoft, Google, Amazon say Anthropic Claude remains avail",
-      "Is the Pentagon allowed to surveil Americans with AI?",
-      "Anthropic&#8217;s Claude found 22 vulnerabilities in Firefox"
+      "A roadmap for AI, if anyone will listen",
+      "OpenAI robotics lead Caitlin Kalinowski quits in response to",
+      "OpenAI delays ChatGPT\u2019s \u2018adult mode\u2019 again"
     ],
     "fundingQ": "$360.0B",
     "components": {
       "funding": 100,
-      "news": 95,
+      "news": 100,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 59,
+    "momentum": 64,
     "trend": "accelerating",
     "catalysts": [
-      "IAA Will Ensure Most EVs Sold in Europe Will Have Batteries",
-      "Terran Orbital Appoints Kwon Park as Senior Director of Manu"
+      "What Elon Means &#8211; Change at Very Large Scale",
+      "RFA plans first launch this summer",
+      "Google just gave Sundar Pichai a $692M pay package"
     ],
     "fundingQ": "$17.7B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 75,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Housing & Construction",
@@ -66,15 +67,15 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Ocean & Maritime",
     "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "Can Shipping&#8217;s Greenhouse Gas Emissions Be Captured At",
-      "NORAD intercepts 2 Russian maritime patrol aircraft near Ala"
+      "District Cooling From the Pacific: A Targeted Efficiency for",
+      "Can Shipping&#8217;s Greenhouse Gas Emissions Be Captured At"
     ],
     "fundingQ": "$1.2B",
     "components": {
@@ -83,16 +84,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "NASA selects Centaur for new SLS upper stage",
-      "Commercial Space Federation (CSF) Welcomes New Members",
-      "Hyperscalers are coming to an orbit near you. Power will dec"
+      "RFA plans first launch this summer",
+      "Laser-Based 3D Printing Could Build Future Bases on the Moon",
+      "Air Force lab awards BlackSky contract worth up to $99 milli"
     ],
     "fundingQ": "$175M",
     "components": {
@@ -101,16 +102,16 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "&#8220;Energy Security&#8221; Makes Us Less Secure. Renewabl",
-      "US Battery Makers Gave Up Waaaaay Too Soon On EV Sales (But",
-      "NASA selects Centaur for new SLS upper stage"
+      "RFA plans first launch this summer",
+      "Air Force lab awards BlackSky contract worth up to $99 milli",
+      "&#8220;Energy Security&#8221; Makes Us Less Secure. Renewabl"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -119,11 +120,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 28,
+    "momentum": 26,
     "trend": "rising",
     "catalysts": [
       "US Battery Makers Gave Up Waaaaay Too Soon On EV Sales (But",
@@ -133,15 +134,33 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 70,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 24,
+    "trend": "rising",
+    "catalysts": [
+      "Google just gave Sundar Pichai a $692M pay package",
+      "Anthropic&#8217;s\u00a0Pentagon deal is a cautionary tale for sta",
+      "USA and Israel Combat Lasers Shooting Down Drones in the Ira"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 55,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 23,
+    "momentum": 21,
     "trend": "rising",
     "catalysts": [
       "&#8220;Energy Security&#8221; Makes Us Less Secure. Renewabl",
@@ -151,33 +170,15 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 80,
+      "news": 70,
       "hiring": 0,
       "market": 17
     },
-    "lastUpdated": "2026-03-07"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 22,
-    "trend": "rising",
-    "catalysts": [
-      "Anthropic&#8217;s\u00a0Pentagon deal is a cautionary tale for sta",
-      "USA and Israel Combat Lasers Shooting Down Drones in the Ira",
-      "From Ukraine to Iran, Hacking Security Cameras Is Now Part o"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 50,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 18,
+    "momentum": 17,
     "trend": "rising",
     "catalysts": [
       "TriZetto confirms 3.4M people&#8217;s health and personal da",
@@ -187,11 +188,11 @@
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 12
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -207,7 +208,7 @@
       "hiring": 0,
       "market": 39
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -223,7 +224,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Nuclear Energy",
@@ -239,23 +240,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-07"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 6,
-    "trend": "declining",
-    "catalysts": [
-      "Quantum scale-up Pasqal plans $2B SPAC listing, promises to"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 16
-    },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
   },
   {
     "sector": "Transportation",
@@ -263,8 +248,7 @@
     "trend": "declining",
     "catalysts": [
       "Unlocking Vehicle-to-Grid at Scale",
-      "OSHA probing fatality at Rivian warehouse",
-      "AEVA Registers Progress on EV Charging in Strata Title Apart"
+      "OSHA probing fatality at Rivian warehouse"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -273,6 +257,22 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-07"
+    "lastUpdated": "2026-03-08"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 16
+    },
+    "lastUpdated": "2026-03-08"
   }
 ]
