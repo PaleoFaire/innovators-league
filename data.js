@@ -20727,23 +20727,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-07 20:34
+// Last updated: 2026-03-08 02:46
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Andrenam", headline: "District Cooling From the Pacific: A Targeted Efficiency for O'ahu", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI delays ChatGPT's 'adult mode' again", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Carbon Robotics", headline: "It's Time For An Authentic Golden Age Of Agriculture", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Senra Systems", headline: "Cars Shouldn't Control Critical Safety Systems With Chatbots", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "PLD Space", headline: "Laser-Based 3D Printing Could Build Future Bases on the Moon", source: "IEEE Spectrum", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Cape", headline: "&#8220;Energy Security&#8221; Makes Us Less Secure. Renewables Are The Answer", source: "CleanTechnica", time: "17h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Impulse Labs", headline: "US Battery Makers Gave Up Waaaaay Too Soon On EV Sales (But They Have A Backup Plan)", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "SpaceX", headline: "X is testing a new ad format that connects posts with products", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Palantir", headline: "Nintendo sues the US government for a refund on tariffs", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Deterrence", headline: "Defense companies to quadruple production of 'exquisite' weapons: Trump", source: "Breaking Defense", time: "22h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Saule Technologies", headline: "Wind on O'ahu: A Modest but Valuable Complement to Solar", source: "CleanTechnica", time: "22h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Karman Industries", headline: "IAA Will Ensure Most EVs Sold in Europe Will Have Batteries Made in the EU, but Loopholes Threaten Its Impact", source: "CleanTechnica", time: "22h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Ample", headline: "Unlocking Vehicle-to-Grid at Scale", source: "CleanTechnica", time: "23h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Andrenam", headline: "Can Shipping's Greenhouse Gas Emissions Be Captured At The Funnel?", source: "CleanTechnica", time: "23h ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Agility Robotics", headline: "OSHA probing fatality at Rivian warehouse", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "Waymo", headline: "What Elon Means &#8211; Change at Very Large Scale", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "Rocket Factory Augsburg", headline: "RFA plans first launch this summer", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Google just gave Sundar Pichai a $692M pay package", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
+  { id: 4, type: "contract", company: "OpenAI", headline: "OpenAI robotics lead Caitlin Kalinowski quits in response to Pentagon deal", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Andrenam", headline: "District Cooling From the Pacific: A Targeted Efficiency for O'ahu", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI delays ChatGPT's 'adult mode' again", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Carbon Robotics", headline: "It's Time For An Authentic Golden Age Of Agriculture", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Senra Systems", headline: "Cars Shouldn't Control Critical Safety Systems With Chatbots", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "PLD Space", headline: "Laser-Based 3D Printing Could Build Future Bases on the Moon", source: "IEEE Spectrum", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Asylon Robotics", headline: "Air Force lab awards BlackSky contract worth up to $99 million for large optical satellite payload", source: "SpaceNews", time: "15h ago", impact: "medium", unread: false },
+  { id: 11, type: "news", company: "Cape", headline: "&#8220;Energy Security&#8221; Makes Us Less Secure. Renewables Are The Answer", source: "CleanTechnica", time: "23h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Impulse Labs", headline: "US Battery Makers Gave Up Waaaaay Too Soon On EV Sales (But They Have A Backup Plan)", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Astro Mechanica", headline: "NASA selects Centaur for new SLS upper stage", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "SpaceX", headline: "X is testing a new ad format that connects posts with products", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Palantir", headline: "Nintendo sues the US government for a refund on tariffs", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
