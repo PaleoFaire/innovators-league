@@ -1,5 +1,64 @@
 [
   {
+    "title": "Meet the startups trying to build military-specific AI",
+    "link": "https://www.defenseone.com/technology/2026/03/meet-startups-trying-build-military-specific-ai/411969/",
+    "description": "The Anthropic-Pentagon feud revealed a giant gap between what giant frontier models do and what troops actually need.",
+    "pubDate": "Sun, 08 Mar 2026 08:00:00 -0400",
+    "category": "Science &amp; Tech",
+    "source": "Defense One",
+    "feedCategory": "defense",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Force Your MacBook to Only Charge up to 80 Percent (and Why You Should)",
+    "link": "https://www.wired.com/story/only-charge-your-macbook-to-80-percent/",
+    "description": "Laptop batteries lag in performance as they age. But you can slow down their deterioration by tweaking your Mac’s charging settings.",
+    "pubDate": "Sun, 08 Mar 2026 11:00:00 +0000",
+    "category": "Gear",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Ample",
+    "matchedCompanies": [
+      "Ample"
+    ],
+    "sectors": [
+      "infrastructure"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Military AI Policy Needs Democratic Oversight",
+    "link": "https://spectrum.ieee.org/military-ai-governance",
+    "description": "A simmering dispute between the United States Department of Defense (DOD) and Anthropic has now escalated into a full-blown confrontation, raising an uncomfortable but important question: who gets to set the guardrails for military use of artificial intelligence — the executive branch, private compa",
+    "pubDate": "Sun, 08 Mar 2026 10:00:03 +0000",
+    "category": "Ai",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Rebellion Defense"
+    ],
+    "sectors": [
+      "ai",
+      "defense"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "A roadmap for AI, if anyone will listen",
     "link": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
     "description": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.",
@@ -16,7 +75,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "What Elon Means &#8211; Change at Very Large Scale",
@@ -39,7 +98,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "4h ago"
+    "time": "9h ago"
   },
   {
     "title": "Google just gave Sundar Pichai a $692M pay package",
@@ -58,7 +117,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "8h ago"
+    "time": "12h ago"
   },
   {
     "title": "OpenAI robotics lead Caitlin Kalinowski quits in response to Pentagon deal",
@@ -77,7 +136,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "11h ago"
+    "time": "16h ago"
   },
   {
     "title": "District Cooling From the Pacific: A Targeted Efficiency for Oʻahu",
@@ -104,7 +163,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "OpenAI delays ChatGPT’s ‘adult mode’ again",
@@ -123,7 +182,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "19h ago"
   },
   {
     "title": "It&#8217;s Time For An Authentic Golden Age Of Agriculture",
@@ -144,7 +203,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Cars Shouldn’t Control Critical Safety Systems With Chatbots",
@@ -163,7 +222,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Laser-Based 3D Printing Could Build Future Bases on the Moon",
@@ -182,7 +241,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "18h ago"
+    "time": "23h ago"
   },
   {
     "title": "&#8220;Energy Security&#8221; Makes Us Less Secure. Renewables Are The Answer",
@@ -733,7 +792,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "From Ukraine to Iran, Hacking Security Cameras Is Now Part of War’s ‘Playbook’",
@@ -757,7 +816,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)",
@@ -776,7 +835,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The War on Iran Puts Global Chip Supplies and AI Expansion at Risk",
@@ -799,7 +858,7 @@
     ],
     "type": "hire",
     "impact": "medium",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "BYD Launches Next-Generation Blade Battery &#038; Flash Charging",
@@ -1198,7 +1257,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Electrifying Oʻahu: Shrinking the Island’s Energy System Before Decarbonizing It",
@@ -1225,7 +1284,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "France, Germany create panel to advance shared nuclear deterrence plans",
@@ -1244,7 +1303,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Active Investors Spent More On Fewer Deals In February",
@@ -1263,45 +1322,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "2d ago"
-  },
-  {
-    "title": "KEF Muo Bluetooth Speaker: Portable Hi-Fi",
-    "link": "https://www.wired.com/review/kef-muo-2026/",
-    "description": "Is a $250 Bluetooth speaker worth it? If it's this one made by KEF, it just might be.",
-    "pubDate": "Thu, 05 Mar 2026 12:00:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Hubble Network",
-    "matchedCompanies": [
-      "Hubble Network"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Suunto Vertical 2 Review: Catching Up to the Pack",
-    "link": "https://www.wired.com/review/suunto-vertical-2/",
-    "description": "Suunto's latest adventure fitness tracker finally introduces a bright AMOLED screen that's great for maps.",
-    "pubDate": "Thu, 05 Mar 2026 11:30:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Vertical Aerospace",
-    "matchedCompanies": [
-      "Vertical Aerospace"
-    ],
-    "sectors": [
-      "transportation"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "How much wildfire prevention is too much?",
@@ -1320,7 +1341,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Fighting an Economic War Without Fused Intelligence",
@@ -1733,7 +1754,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "What Military Drones Can Teach Self-Driving Cars",
@@ -1752,7 +1773,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "IEEE President’s Note: Engineering a Modern Renaissance",
@@ -1792,7 +1813,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "6d ago"
+    "time": "3/1/2026"
   },
   {
     "title": "The Arsenal Beneath the Arsenal",
