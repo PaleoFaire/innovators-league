@@ -1,10 +1,9 @@
 // Auto-updated press releases
-// Last updated: 2026-03-06 08:01:45 UTC
+// Last updated: 2026-03-08 07:23:35 UTC
 const PRESS_RELEASES = [
-  { title: "UP Fintech Holding Limited to Report Fourth Quarter and Full Year 2025 Financial", date: "", companies: "Truemed, Sift", categories: "", source: "globenewswire_all" },
-  { title: "Orrön Energy publishes it’s Annual and Sustainability Report for 2025", date: "", companies: "Astroscale, Framework Computer, ClearSpace", categories: "ipo", source: "globenewswire_all" },
-  { title: "ROBERTET INVESTS IN AETHERA BIOTECH, A EUROPEAN PIONEER IN ACTIVE COSMETIC INGRE", date: "", companies: "Endurosat", categories: "", source: "globenewswire_all" },
-  { title: "Transactions by persons discharging managerial responsibilities and persons clos", date: "", companies: "Ample", categories: "", source: "globenewswire_all" },
-  { title: "Aspocomp has published its Annual Report 2025 and Corporate Governance Statement", date: "", companies: "Rocket Lab, Endurosat", categories: "hiring", source: "globenewswire_all" },
-  { title: "Aspocompin vuosikertomus sekä selvitys hallinto- ja ohjausjärjestelmästä vuodelt", date: "", companies: "Rocket Lab, Rainbow Robotics, Endurosat", categories: "", source: "globenewswire_all" },
+  { title: "Renk Group AG:   Sevinc Sagel, Disposal", date: "", companies: "Deep Isolation", categories: "", source: "globenewswire_all" },
+  { title: "AIM ImmunoTech Announces Closing of its Rights Offering", date: "", companies: "Focused Energy, Sakana AI", categories: "product", source: "globenewswire_all" },
+  { title: "Lisata Therapeutics Enters into Definitive Agreement to be Acquired by Kuva Labs", date: "", companies: "Asimov, Profluent", categories: "partnership", source: "globenewswire_all" },
+  { title: "XAI Octagon Floating Rate & Alternative Income Trust Announces 1-For-5 Reverse S", date: "", companies: "Seaborg Technologies", categories: "product", source: "globenewswire_all" },
+  { title: "Tango Therapeutics Announces Inducement Grants Under Nasdaq Listing Rule 5635(c)", date: "", companies: "Fortera, Asimov, Profluent", categories: "product, hiring", source: "globenewswire_all" },
 ];
