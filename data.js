@@ -20738,23 +20738,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-09 08:55
+// Last updated: 2026-03-09 13:20
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Ample", headline: "A Better Way To Compare Gas &#038; Electric Prices", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Cognition", headline: "Ring's Jamie Siminoff has been trying to calm privacy fears since the Super Bowl, but his answers may not help", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Ample", headline: "Is BYD's Flash Charging Revolutionary?", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "Palantir", headline: "Will the Pentagon's Anthropic controversy scare startups away from defense work?", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Andrenam", headline: "Biomethane for O'ahu: A Small Reserve With a Big Reliability Role", source: "CleanTechnica", time: "12h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Durin", headline: "Steering Electricity: How Grid Control Devices Unlock Transmission Capacity", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Astera Labs", headline: "Owner of ICE detention facility sees big opportunity in AI man camps", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Rivian", headline: "TechCrunch Mobility: Rivian's R2 gambit", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Ample", headline: "BYD's 1.5 MW 'Flash' Charging Wasn't A Gimmick. The Battery Chemistry Behind It Could Change The Industry.", source: "CleanTechnica", time: "19h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Anthropic", headline: "Meet the startups trying to build military-specific AI", source: "Defense One", time: "20h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Ample", headline: "Force Your MacBook to Only Charge up to 80 Percent (and Why You Should)", source: "Wired", time: "21h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "Anthropic", headline: "Military AI Policy Needs Democratic Oversight", source: "IEEE Spectrum", time: "22h ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Anthropic", headline: "A roadmap for AI, if anyone will listen", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Waymo", headline: "What Elon Means &#8211; Change at Very Large Scale", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Rocket Factory Augsburg", headline: "RFA plans first launch this summer", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Machina Labs", headline: "The 2027 Chevy Bolt is the McRib of the automotive world", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Karman Industries", headline: "GNSS resilience is an economic and security priority", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "First Starship V3 launch slips", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Atmo", headline: "Best Sonos Speakers (2026): Soundbars, Headphones, Dolby Atmos, and More", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "Finland readies itself to be able to host nukes in longtime policy departure", source: "Defense News", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Palantir", headline: "Don't Expect Big Surprises in the Government's Alien Files", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Ample", headline: "A Better Way To Compare Gas &#038; Electric Prices", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Cognition", headline: "Ring's Jamie Siminoff is still trying to calm privacy fears, but his answers may not help", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Ample", headline: "Is BYD's Flash Charging Revolutionary?", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Palantir", headline: "Will the Pentagon's Anthropic controversy scare startups away from defense work?", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Andrenam", headline: "Biomethane for O'ahu: A Small Reserve With a Big Reliability Role", source: "CleanTechnica", time: "17h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Durin", headline: "Steering Electricity: How Grid Control Devices Unlock Transmission Capacity", source: "CleanTechnica", time: "17h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Astera Labs", headline: "Owner of ICE detention facility sees big opportunity in AI man camps", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Rivian", headline: "TechCrunch Mobility: Rivian's R2 gambit", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Ample", headline: "BYD's 1.5 MW 'Flash' Charging Wasn't A Gimmick. The Battery Chemistry Behind It Could Change The Industry.", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
