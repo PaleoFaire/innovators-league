@@ -1,0 +1,48 @@
+name: Weekly Intelligence Brief
+
+on:
+  schedule:
+    # Every Monday at 10 AM UTC (2 AM PST, 5 AM EST)
+    - cron: '0 10 * * 1'
+
+  # Allow manual trigger for testing
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-send-brief:
+    name: Generate & Send Weekly Brief
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate weekly brief
+        run: python scripts/generate_weekly_brief.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          BRIEF_WEBHOOK_SECRET: ${{ secrets.BRIEF_WEBHOOK_SECRET }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit score snapshot
+        run: |
+          git add data/weekly_brief.json data/prev_week_scores.json
+          git diff --staged --quiet || git commit -m "📊 Auto-update: Weekly brief & score snapshot $(date +%Y-%m-%d)"
+          git pull --rebase origin main || true
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
