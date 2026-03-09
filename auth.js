@@ -20,7 +20,6 @@ const TILAuth = (function() {
   // ── Premium section IDs to gate on index.html ──
   const GATED_SECTION_IDS = [
     'innovator-scores',
-    'gov-contracts',
     'patent-intel',
     'predictive-scores',
     'portfolio-builder',
