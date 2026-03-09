@@ -1,640 +1,640 @@
 // Auto-generated stock price data for The Innovators League
-// Last updated: 2026-03-09 13:12:21 UTC
+// Last updated: 2026-03-09 18:58:43 UTC
 // Companies tracked: 32
 
 const STOCK_PRICES = {
   "PLTR": {
     "company": "Palantir",
     "ticker": "PLTR",
-    "price": 157.16,
-    "previousClose": 137.19,
-    "change": 19.97,
-    "changePercent": 14.56,
+    "price": 154.75,
+    "previousClose": 145.17,
+    "change": 9.58,
+    "changePercent": 6.6,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 74980855,
-    "dayHigh": 161.45,
-    "dayLow": 150.296,
+    "volume": 34982280,
+    "dayHigh": 158.44,
+    "dayLow": 152.97,
     "fiftyTwoWeekHigh": 207.52,
     "fiftyTwoWeekLow": 66.12,
     "sparkline": [
-      145.1699981689453,
       147.22000122070312,
       153.19000244140625,
       152.6699981689453,
-      157.16000366210938
+      157.16000366210938,
+      154.75
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:11:54"
+    "lastUpdated": "2026-03-09 18:58:16"
   },
   "RKLB": {
     "company": "Rocket Lab",
     "ticker": "RKLB",
-    "price": 70.11,
-    "previousClose": 69.1,
-    "change": 1.01,
-    "changePercent": 1.46,
+    "price": 69.36,
+    "previousClose": 70.97,
+    "change": -1.61,
+    "changePercent": -2.26,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 22272765,
-    "dayHigh": 75.1,
-    "dayLow": 68.2,
+    "volume": 13052604,
+    "dayHigh": 71.76,
+    "dayLow": 67.82,
     "fiftyTwoWeekHigh": 99.58,
     "fiftyTwoWeekLow": 14.71,
     "sparkline": [
-      70.97000122070312,
       70.12999725341797,
       71.91000366210938,
       70.0,
-      70.11000061035156
+      70.11000061035156,
+      69.36499786376953
     ],
     "currency": "USD",
     "exchange": "NCM",
-    "lastUpdated": "2026-03-09 13:11:55"
+    "lastUpdated": "2026-03-09 18:58:16"
   },
   "JOBY": {
     "company": "Joby Aviation",
     "ticker": "JOBY",
-    "price": 9.55,
-    "previousClose": 10.06,
-    "change": -0.51,
-    "changePercent": -5.07,
+    "price": 9.63,
+    "previousClose": 10.27,
+    "change": -0.64,
+    "changePercent": -6.23,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 14755556,
-    "dayHigh": 9.75,
-    "dayLow": 9.33,
+    "volume": 18160325,
+    "dayHigh": 9.98,
+    "dayLow": 9.14,
     "fiftyTwoWeekHigh": 20.95,
     "fiftyTwoWeekLow": 4.96,
     "sparkline": [
-      10.270000457763672,
       9.760000228881836,
       9.890000343322754,
       9.609999656677246,
-      9.550000190734863
+      9.550000190734863,
+      9.630000114440918
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-03-09 13:11:56"
+    "lastUpdated": "2026-03-09 18:58:17"
   },
   "ACHR": {
     "company": "Archer Aviation",
     "ticker": "ACHR",
-    "price": 6.26,
-    "previousClose": 7.12,
-    "change": -0.86,
-    "changePercent": -12.08,
+    "price": 6.24,
+    "previousClose": 7.52,
+    "change": -1.28,
+    "changePercent": -17.09,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 30776304,
-    "dayHigh": 6.46,
-    "dayLow": 6.22,
+    "volume": 19327625,
+    "dayHigh": 6.435,
+    "dayLow": 6.07,
     "fiftyTwoWeekHigh": 14.62,
     "fiftyTwoWeekLow": 5.48,
     "sparkline": [
-      7.519999980926514,
       6.71999979019165,
       6.760000228881836,
       6.460000038146973,
-      6.260000228881836
+      6.260000228881836,
+      6.235000133514404
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-03-09 13:11:56"
+    "lastUpdated": "2026-03-09 18:58:18"
   },
   "PL": {
     "company": "Planet Labs",
     "ticker": "PL",
-    "price": 25.28,
-    "previousClose": 24.14,
-    "change": 1.14,
-    "changePercent": 4.72,
+    "price": 24.95,
+    "previousClose": 26.36,
+    "change": -1.41,
+    "changePercent": -5.33,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 13205294,
-    "dayHigh": 27.569,
-    "dayLow": 23.85,
+    "volume": 6985308,
+    "dayHigh": 25.9,
+    "dayLow": 24.45,
     "fiftyTwoWeekHigh": 30.898,
     "fiftyTwoWeekLow": 2.79,
     "sparkline": [
-      26.360000610351562,
       25.299999237060547,
       26.0,
       24.59000015258789,
-      25.280000686645508
+      25.280000686645508,
+      24.954999923706055
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-03-09 13:11:57"
+    "lastUpdated": "2026-03-09 18:58:18"
   },
   "LUNR": {
     "company": "Intuitive Machines",
     "ticker": "LUNR",
-    "price": 17.63,
-    "previousClose": 16.48,
-    "change": 1.15,
-    "changePercent": 6.98,
+    "price": 17.19,
+    "previousClose": 17.99,
+    "change": -0.8,
+    "changePercent": -4.45,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 11537536,
-    "dayHigh": 19.15,
-    "dayLow": 17.26,
+    "volume": 6500466,
+    "dayHigh": 17.78,
+    "dayLow": 16.72,
     "fiftyTwoWeekHigh": 23.315,
     "fiftyTwoWeekLow": 6.135,
     "sparkline": [
-      17.989999771118164,
       18.200000762939453,
       18.6200008392334,
       17.670000076293945,
-      17.6299991607666
+      17.6299991607666,
+      17.190000534057617
     ],
     "currency": "USD",
     "exchange": "NGM",
-    "lastUpdated": "2026-03-09 13:11:58"
+    "lastUpdated": "2026-03-09 18:58:19"
   },
   "ASTS": {
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
-    "price": 89.47,
-    "previousClose": 79.19,
-    "change": 10.28,
-    "changePercent": 12.99,
+    "price": 87.6,
+    "previousClose": 86.92,
+    "change": 0.68,
+    "changePercent": 0.78,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 13624890,
-    "dayHigh": 100.33,
-    "dayLow": 89.47,
+    "volume": 6998911,
+    "dayHigh": 90.4,
+    "dayLow": 86.55,
     "fiftyTwoWeekHigh": 129.89,
     "fiftyTwoWeekLow": 18.22,
     "sparkline": [
-      86.91999816894531,
       92.68000030517578,
       104.88999938964844,
       93.86000061035156,
-      89.4749984741211
+      89.4749984741211,
+      87.5999984741211
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:11:59"
+    "lastUpdated": "2026-03-09 18:58:20"
   },
   "SATL": {
     "company": "Satellogic",
     "ticker": "SATL",
-    "price": 3.09,
-    "previousClose": 3.0,
-    "change": 0.09,
-    "changePercent": 3.0,
+    "price": 3.06,
+    "previousClose": 3.17,
+    "change": -0.11,
+    "changePercent": -3.63,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 3392014,
-    "dayHigh": 3.39,
-    "dayLow": 3.03,
+    "volume": 2348120,
+    "dayHigh": 3.11,
+    "dayLow": 2.94,
     "fiftyTwoWeekHigh": 5.93,
     "fiftyTwoWeekLow": 1.255,
     "sparkline": [
-      3.1700000762939453,
       3.119999885559082,
       3.380000114440918,
       3.200000047683716,
-      3.0899999141693115
+      3.0899999141693115,
+      3.055000066757202
     ],
     "currency": "USD",
     "exchange": "NCM",
-    "lastUpdated": "2026-03-09 13:12:00"
+    "lastUpdated": "2026-03-09 18:58:21"
   },
   "OKLO": {
     "company": "Oklo",
     "ticker": "OKLO",
-    "price": 58.25,
-    "previousClose": 62.95,
-    "change": -4.7,
-    "changePercent": -7.47,
+    "price": 59.62,
+    "previousClose": 64.68,
+    "change": -5.06,
+    "changePercent": -7.82,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 8203291,
-    "dayHigh": 62.8,
-    "dayLow": 58.185,
+    "volume": 5503755,
+    "dayHigh": 60.205,
+    "dayLow": 56.47,
     "fiftyTwoWeekHigh": 193.84,
     "fiftyTwoWeekLow": 17.42,
     "sparkline": [
-      64.68000030517578,
       63.29999923706055,
       65.6500015258789,
       62.029998779296875,
-      58.25
+      58.25,
+      59.619998931884766
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-03-09 13:12:01"
+    "lastUpdated": "2026-03-09 18:58:22"
   },
   "QS": {
     "company": "QuantumScape",
     "ticker": "QS",
-    "price": 6.69,
-    "previousClose": 6.92,
-    "change": -0.23,
-    "changePercent": -3.32,
+    "price": 6.62,
+    "previousClose": 6.89,
+    "change": -0.26,
+    "changePercent": -3.85,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 11810800,
-    "dayHigh": 6.98,
-    "dayLow": 6.67,
+    "volume": 6939504,
+    "dayHigh": 6.695,
+    "dayLow": 6.39,
     "fiftyTwoWeekHigh": 19.07,
     "fiftyTwoWeekLow": 3.4,
     "sparkline": [
-      6.889999866485596,
       6.539999961853027,
       7.0,
       6.920000076293945,
-      6.690000057220459
+      6.690000057220459,
+      6.625
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:12:02"
+    "lastUpdated": "2026-03-09 18:58:23"
   },
   "IONQ": {
     "company": "IonQ",
     "ticker": "IONQ",
-    "price": 35.73,
-    "previousClose": 38.37,
-    "change": -2.64,
-    "changePercent": -6.88,
+    "price": 34.74,
+    "previousClose": 38.34,
+    "change": -3.6,
+    "changePercent": -9.39,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 16079144,
-    "dayHigh": 37.48,
-    "dayLow": 35.11,
+    "volume": 10650447,
+    "dayHigh": 35.345,
+    "dayLow": 33.81,
     "fiftyTwoWeekHigh": 84.64,
     "fiftyTwoWeekLow": 17.88,
     "sparkline": [
-      38.34000015258789,
       37.04999923706055,
       37.130001068115234,
       36.02000045776367,
-      35.72999954223633
+      35.72999954223633,
+      34.7400016784668
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-03-09 13:12:02"
+    "lastUpdated": "2026-03-09 18:58:23"
   },
   "RGTI": {
     "company": "Rigetti Computing",
     "ticker": "RGTI",
-    "price": 17.01,
-    "previousClose": 17.42,
-    "change": -0.41,
-    "changePercent": -2.35,
+    "price": 16.81,
+    "previousClose": 17.69,
+    "change": -0.88,
+    "changePercent": -4.97,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 26839365,
-    "dayHigh": 17.55,
-    "dayLow": 16.54,
+    "volume": 17689408,
+    "dayHigh": 17.115,
+    "dayLow": 16.12,
     "fiftyTwoWeekHigh": 58.15,
     "fiftyTwoWeekLow": 6.86,
     "sparkline": [
-      17.690000534057617,
       16.959999084472656,
       17.760000228881836,
       16.969999313354492,
-      17.010000228881836
+      17.010000228881836,
+      16.809999465942383
     ],
     "currency": "USD",
     "exchange": "NCM",
-    "lastUpdated": "2026-03-09 13:12:03"
+    "lastUpdated": "2026-03-09 18:58:24"
   },
   "QBTS": {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
-    "price": 18.59,
-    "previousClose": 18.78,
-    "change": -0.19,
-    "changePercent": -1.01,
+    "price": 18.03,
+    "previousClose": 18.94,
+    "change": -0.91,
+    "changePercent": -4.8,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 24998313,
-    "dayHigh": 19.61,
-    "dayLow": 18.23,
+    "volume": 16796861,
+    "dayHigh": 18.32,
+    "dayLow": 17.48,
     "fiftyTwoWeekHigh": 46.75,
     "fiftyTwoWeekLow": 4.49,
     "sparkline": [
-      18.940000534057617,
       18.239999771118164,
       18.90999984741211,
       18.829999923706055,
-      18.59000015258789
+      18.59000015258789,
+      18.030000686645508
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-03-09 13:12:04"
+    "lastUpdated": "2026-03-09 18:58:25"
   },
   "RXRX": {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
-    "price": 3.46,
-    "previousClose": 3.67,
+    "price": 3.42,
+    "previousClose": 3.63,
     "change": -0.21,
-    "changePercent": -5.72,
+    "changePercent": -5.65,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 12183792,
-    "dayHigh": 3.53,
-    "dayLow": 3.38,
+    "volume": 9069925,
+    "dayHigh": 3.48,
+    "dayLow": 3.29,
     "fiftyTwoWeekHigh": 7.18,
     "fiftyTwoWeekLow": 2.98,
     "sparkline": [
-      3.630000114440918,
       3.5399999618530273,
       3.640000104904175,
       3.5399999618530273,
-      3.4600000381469727
+      3.4600000381469727,
+      3.424999952316284
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:12:05"
+    "lastUpdated": "2026-03-09 18:58:25"
   },
   "TEM": {
     "company": "Tempus AI",
     "ticker": "TEM",
-    "price": 52.26,
-    "previousClose": 53.25,
-    "change": -0.99,
-    "changePercent": -1.86,
+    "price": 51.04,
+    "previousClose": 53.31,
+    "change": -2.27,
+    "changePercent": -4.26,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 3443495,
-    "dayHigh": 53.5,
-    "dayLow": 51.57,
+    "volume": 3396903,
+    "dayHigh": 51.8,
+    "dayLow": 49.825,
     "fiftyTwoWeekHigh": 104.32,
     "fiftyTwoWeekLow": 36.22,
     "sparkline": [
-      53.310001373291016,
       51.400001525878906,
       51.290000915527344,
       53.04999923706055,
-      52.2599983215332
+      52.2599983215332,
+      51.040000915527344
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:12:06"
+    "lastUpdated": "2026-03-09 18:58:26"
   },
   "RIVN": {
     "company": "Rivian",
     "ticker": "RIVN",
-    "price": 15.37,
-    "previousClose": 15.33,
-    "change": 0.04,
-    "changePercent": 0.26,
+    "price": 15.7,
+    "previousClose": 15.01,
+    "change": 0.69,
+    "changePercent": 4.6,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 24930227,
-    "dayHigh": 15.618,
-    "dayLow": 14.8,
+    "volume": 15599880,
+    "dayHigh": 15.89,
+    "dayLow": 15.052,
     "fiftyTwoWeekHigh": 22.69,
     "fiftyTwoWeekLow": 10.36,
     "sparkline": [
-      15.010000228881836,
       15.100000381469727,
       14.920000076293945,
       15.1899995803833,
-      15.369999885559082
+      15.369999885559082,
+      15.699999809265137
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:12:06"
+    "lastUpdated": "2026-03-09 18:58:27"
   },
   "ALAB": {
     "company": "Astera Labs",
     "ticker": "ALAB",
-    "price": 119.2,
-    "previousClose": 118.83,
-    "change": 0.37,
-    "changePercent": 0.31,
+    "price": 117.75,
+    "previousClose": 120.55,
+    "change": -2.8,
+    "changePercent": -2.32,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 4433968,
-    "dayHigh": 124.45,
-    "dayLow": 115.67,
+    "volume": 3577899,
+    "dayHigh": 119.42,
+    "dayLow": 111.76,
     "fiftyTwoWeekHigh": 262.9,
     "fiftyTwoWeekLow": 47.125,
     "sparkline": [
-      120.55000305175781,
       109.80000305175781,
       113.7699966430664,
       120.0,
-      119.19999694824219
+      119.19999694824219,
+      117.7500991821289
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:12:07"
+    "lastUpdated": "2026-03-09 18:58:28"
   },
   "NVDA": {
     "company": "NVIDIA",
     "ticker": "NVDA",
-    "price": 177.88,
-    "previousClose": 177.19,
-    "change": 0.69,
-    "changePercent": 0.39,
+    "price": 179.38,
+    "previousClose": 182.48,
+    "change": -3.1,
+    "changePercent": -1.7,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 189021949,
-    "dayHigh": 182.7561,
-    "dayLow": 176.8201,
+    "volume": 115770134,
+    "dayHigh": 180.91,
+    "dayLow": 175.56,
     "fiftyTwoWeekHigh": 212.19,
     "fiftyTwoWeekLow": 86.62,
     "sparkline": [
-      182.47999572753906,
       180.0500030517578,
       183.0399932861328,
       183.33999633789062,
-      177.82000732421875
+      177.82000732421875,
+      179.37989807128906
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:12:08"
+    "lastUpdated": "2026-03-09 18:58:28"
   },
   "AMD": {
     "company": "AMD",
     "ticker": "AMD",
-    "price": 192.44,
-    "previousClose": 200.21,
-    "change": -7.77,
-    "changePercent": -3.88,
+    "price": 197.07,
+    "previousClose": 198.62,
+    "change": -1.55,
+    "changePercent": -0.78,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 33913779,
-    "dayHigh": 200.24,
-    "dayLow": 191.2501,
+    "volume": 25709578,
+    "dayHigh": 198.25,
+    "dayLow": 189.02,
     "fiftyTwoWeekHigh": 267.08,
     "fiftyTwoWeekLow": 76.48,
     "sparkline": [
-      198.6199951171875,
       190.9499969482422,
       202.07000732421875,
       199.4499969482422,
-      192.42999267578125
+      192.42999267578125,
+      197.0749969482422
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:12:09"
+    "lastUpdated": "2026-03-09 18:58:29"
   },
   "AUR": {
     "company": "Aurora Innovation",
     "ticker": "AUR",
-    "price": 4.49,
-    "previousClose": 4.68,
-    "change": -0.19,
-    "changePercent": -4.06,
+    "price": 4.54,
+    "previousClose": 4.75,
+    "change": -0.21,
+    "changePercent": -4.38,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 23802156,
-    "dayHigh": 4.525,
-    "dayLow": 4.325,
+    "volume": 14777265,
+    "dayHigh": 4.655,
+    "dayLow": 4.29,
     "fiftyTwoWeekHigh": 8.25,
     "fiftyTwoWeekLow": 3.6,
     "sparkline": [
-      4.75,
       4.599999904632568,
       4.489999771118164,
       4.46999979019165,
-      4.489999771118164
+      4.489999771118164,
+      4.541900157928467
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:12:09"
+    "lastUpdated": "2026-03-09 18:58:30"
   },
   "LNZA": {
     "company": "LanzaTech",
     "ticker": "LNZA",
-    "price": 9.38,
-    "previousClose": 8.57,
-    "change": 0.81,
-    "changePercent": 9.45,
+    "price": 9.3,
+    "previousClose": 9.11,
+    "change": 0.19,
+    "changePercent": 2.09,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 1768,
-    "dayHigh": 9.51,
-    "dayLow": 9.34,
+    "volume": 5262,
+    "dayHigh": 10.009,
+    "dayLow": 9.3,
     "fiftyTwoWeekHigh": 73.0,
     "fiftyTwoWeekLow": 7.88,
     "sparkline": [
-      9.109999656677246,
       9.319999694824219,
       9.380000114440918,
       9.699999809265137,
-      9.380000114440918
+      9.380000114440918,
+      9.300000190734863
     ],
     "currency": "USD",
     "exchange": "NCM",
-    "lastUpdated": "2026-03-09 13:12:11"
+    "lastUpdated": "2026-03-09 18:58:32"
   },
   "NNE": {
     "company": "Nano Nuclear Energy",
     "ticker": "NNE",
-    "price": 23.54,
-    "previousClose": 26.59,
-    "change": -3.05,
-    "changePercent": -11.47,
+    "price": 22.94,
+    "previousClose": 27.57,
+    "change": -4.63,
+    "changePercent": -16.79,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 2255796,
-    "dayHigh": 26.209,
-    "dayLow": 23.45,
+    "volume": 1309337,
+    "dayHigh": 23.26,
+    "dayLow": 22.06,
     "fiftyTwoWeekHigh": 60.87,
     "fiftyTwoWeekLow": 17.26,
     "sparkline": [
-      27.56999969482422,
       26.020000457763672,
       26.360000610351562,
       25.56999969482422,
-      23.540000915527344
+      23.540000915527344,
+      22.940000534057617
     ],
     "currency": "USD",
     "exchange": "NCM",
-    "lastUpdated": "2026-03-09 13:12:12"
+    "lastUpdated": "2026-03-09 18:58:32"
   },
   "SMR": {
     "company": "NuScale Power",
     "ticker": "SMR",
-    "price": 11.67,
-    "previousClose": 12.85,
-    "change": -1.18,
-    "changePercent": -9.18,
+    "price": 11.86,
+    "previousClose": 13.05,
+    "change": -1.19,
+    "changePercent": -9.12,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 23940032,
-    "dayHigh": 12.22,
-    "dayLow": 11.61,
+    "volume": 13221868,
+    "dayHigh": 12.07,
+    "dayLow": 11.22,
     "fiftyTwoWeekHigh": 57.42,
     "fiftyTwoWeekLow": 11.08,
     "sparkline": [
-      13.050000190734863,
       12.529999732971191,
       12.539999961853027,
       12.180000305175781,
-      11.670000076293945
+      11.670000076293945,
+      11.859999656677246
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-03-09 13:12:13"
+    "lastUpdated": "2026-03-09 18:58:34"
   },
   "SLDP": {
     "company": "Solid Power",
     "ticker": "SLDP",
-    "price": 3.12,
+    "price": 3.1,
     "previousClose": 3.54,
-    "change": -0.42,
-    "changePercent": -11.86,
+    "change": -0.44,
+    "changePercent": -12.57,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 4494805,
-    "dayHigh": 3.24,
-    "dayLow": 3.075,
+    "volume": 3867209,
+    "dayHigh": 3.12,
+    "dayLow": 2.96,
     "fiftyTwoWeekHigh": 8.86,
     "fiftyTwoWeekLow": 0.68,
     "sparkline": [
-      3.5399999618530273,
       3.3499999046325684,
       3.3299999237060547,
       3.259999990463257,
-      3.119999885559082
+      3.119999885559082,
+      3.0950000286102295
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:12:14"
+    "lastUpdated": "2026-03-09 18:58:35"
   },
   "EVTL": {
     "company": "Vertical Aerospace",
     "ticker": "EVTL",
-    "price": 4.01,
-    "previousClose": 4.24,
-    "change": -0.23,
-    "changePercent": -5.42,
+    "price": 3.94,
+    "previousClose": 4.29,
+    "change": -0.35,
+    "changePercent": -8.04,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 589922,
-    "dayHigh": 4.21,
-    "dayLow": 3.984,
+    "volume": 696281,
+    "dayHigh": 3.99,
+    "dayLow": 3.85,
     "fiftyTwoWeekHigh": 7.6,
     "fiftyTwoWeekLow": 2.76,
     "sparkline": [
-      4.289999961853027,
       4.03000020980835,
       4.119999885559082,
       4.130000114440918,
-      4.010000228881836
+      4.010000228881836,
+      3.944999933242798
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-03-09 13:12:14"
+    "lastUpdated": "2026-03-09 18:58:36"
   },
   "ASRHF": {
     "company": "Astroscale",
     "ticker": "ASRHF",
     "price": 6.35,
-    "previousClose": 6.49,
-    "change": -0.14,
-    "changePercent": -2.08,
+    "previousClose": 7.25,
+    "change": -0.9,
+    "changePercent": -12.41,
     "marketCap": "N/A",
     "marketCapRaw": 0,
     "volume": 300,
@@ -643,48 +643,47 @@ const STOCK_PRICES = {
     "fiftyTwoWeekHigh": 7.49,
     "fiftyTwoWeekLow": 3.975,
     "sparkline": [
-      7.25,
       6.349999904632568
     ],
     "currency": "USD",
     "exchange": "PNK",
-    "lastUpdated": "2026-03-09 13:12:16"
+    "lastUpdated": "2026-03-09 18:58:38"
   },
   "DRSHF": {
     "company": "DroneShield",
     "ticker": "DRSHF",
-    "price": 2.72,
-    "previousClose": 2.45,
-    "change": 0.27,
-    "changePercent": 11.02,
+    "price": 2.6,
+    "previousClose": 2.68,
+    "change": -0.08,
+    "changePercent": -2.99,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 93672,
-    "dayHigh": 2.77,
-    "dayLow": 2.69,
+    "volume": 94682,
+    "dayHigh": 2.87,
+    "dayLow": 2.57,
     "fiftyTwoWeekHigh": 4.39,
     "fiftyTwoWeekLow": 0.46,
     "sparkline": [
-      2.680000066757202,
       2.549999952316284,
       2.515000104904175,
       2.569999933242798,
-      2.7200000286102295
+      2.7200000286102295,
+      2.5999999046325684
     ],
     "currency": "USD",
     "exchange": "PNK",
-    "lastUpdated": "2026-03-09 13:12:16"
+    "lastUpdated": "2026-03-09 18:58:38"
   },
   "ONT.L": {
     "company": "Oxford Nanopore Technologies",
     "ticker": "ONT.L",
-    "price": 117.0,
+    "price": 117.4,
     "previousClose": 114.7,
-    "change": 2.3,
-    "changePercent": 2.01,
+    "change": 2.7,
+    "changePercent": 2.35,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 616639,
+    "volume": 1490730,
     "dayHigh": 121.3,
     "dayLow": 116.3,
     "fiftyTwoWeekHigh": 224.8,
@@ -694,11 +693,11 @@ const STOCK_PRICES = {
       124.4000015258789,
       124.0,
       121.80000305175781,
-      117.0
+      117.4000015258789
     ],
     "currency": "GBp",
     "exchange": "LSE",
-    "lastUpdated": "2026-03-09 13:12:17"
+    "lastUpdated": "2026-03-09 18:58:39"
   },
   "277810.KQ": {
     "company": "Rainbow Robotics",
@@ -709,11 +708,11 @@ const STOCK_PRICES = {
     "changePercent": -14.07,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 250241,
-    "dayHigh": 783000.0,
-    "dayLow": 711000.0,
+    "volume": 0,
+    "dayHigh": 0.0,
+    "dayLow": 0.0,
     "fiftyTwoWeekHigh": 934000.0,
-    "fiftyTwoWeekLow": 236000.0,
+    "fiftyTwoWeekLow": 0.0,
     "sparkline": [
       840000.0,
       704000.0,
@@ -723,7 +722,7 @@ const STOCK_PRICES = {
     ],
     "currency": "KRW",
     "exchange": "KOE",
-    "lastUpdated": "2026-03-09 13:12:18"
+    "lastUpdated": "2026-03-09 18:58:40"
   },
   "IDEAFORGE.NS": {
     "company": "ideaForge",
@@ -748,7 +747,7 @@ const STOCK_PRICES = {
     ],
     "currency": "INR",
     "exchange": "NSI",
-    "lastUpdated": "2026-03-09 13:12:19"
+    "lastUpdated": "2026-03-09 18:58:40"
   },
   "9348.T": {
     "company": "ispace",
@@ -773,32 +772,32 @@ const STOCK_PRICES = {
     ],
     "currency": "JPY",
     "exchange": "JPX",
-    "lastUpdated": "2026-03-09 13:12:19"
+    "lastUpdated": "2026-03-09 18:58:41"
   },
   "TSLA": {
     "company": "Tesla",
     "ticker": "TSLA",
-    "price": 396.73,
-    "previousClose": 402.51,
-    "change": -5.78,
-    "changePercent": -1.44,
+    "price": 392.36,
+    "previousClose": 403.32,
+    "change": -10.96,
+    "changePercent": -2.72,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 64054561,
-    "dayHigh": 402.35,
-    "dayLow": 394.22,
+    "volume": 49857265,
+    "dayHigh": 393.73,
+    "dayLow": 381.4,
     "fiftyTwoWeekHigh": 498.83,
     "fiftyTwoWeekLow": 214.25,
     "sparkline": [
-      403.32000732421875,
       392.42999267578125,
       405.94000244140625,
       405.54998779296875,
-      396.7300109863281
+      396.7300109863281,
+      392.3599853515625
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-03-09 13:12:20"
+    "lastUpdated": "2026-03-09 18:58:42"
   }
 };
 
@@ -809,55 +808,55 @@ const STOCK_STATS = {
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 14.56,
+      "avg_change": 6.6,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 3.1,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -4.66,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -4.02,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -7.32,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.37,
+      "avg_change": -11.24,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.91,
+      "avg_change": -4.78,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.41,
+      "avg_change": -6.39,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.86,
+      "avg_change": -2.52,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.59,
+      "avg_change": 0.94,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -1.06,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -1.6,
       "count": 3
     }
   },
@@ -865,55 +864,55 @@ const STOCK_STATS = {
     [
       "PLTR",
       "Palantir",
-      14.56
+      6.6
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      12.99
+      "RIVN",
+      "Rivian",
+      4.6
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      11.02
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      2.35
     ],
     [
       "LNZA",
       "LanzaTech",
-      9.45
+      2.09
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      6.98
+      "IDEAFORGE.NS",
+      "ideaForge",
+      1.56
     ]
   ],
   "topLosers": [
     [
-      "SMR",
-      "NuScale Power",
-      -9.18
-    ],
-    [
-      "NNE",
-      "Nano Nuclear Energy",
-      -11.47
+      "ASRHF",
+      "Astroscale",
+      -12.41
     ],
     [
       "SLDP",
       "Solid Power",
-      -11.86
-    ],
-    [
-      "ACHR",
-      "Archer Aviation",
-      -12.08
+      -12.57
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       -14.07
+    ],
+    [
+      "NNE",
+      "Nano Nuclear Energy",
+      -16.79
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -17.09
     ]
   ],
-  "lastUpdated": "2026-03-09 13:12:21"
+  "lastUpdated": "2026-03-09 18:58:43"
 };

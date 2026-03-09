@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 14.56,
+      "avg_change": 6.6,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 3.1,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -4.66,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -4.02,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -7.32,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.37,
+      "avg_change": -11.24,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.91,
+      "avg_change": -4.78,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.41,
+      "avg_change": -6.39,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.86,
+      "avg_change": -2.52,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.59,
+      "avg_change": 0.94,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -1.06,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -1.6,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "PLTR",
       "Palantir",
-      14.56
+      6.6
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      12.99
+      "RIVN",
+      "Rivian",
+      4.6
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      11.02
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      2.35
     ],
     [
       "LNZA",
       "LanzaTech",
-      9.45
+      2.09
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      6.98
+      "IDEAFORGE.NS",
+      "ideaForge",
+      1.56
     ]
   ],
   "topLosers": [
     [
-      "SMR",
-      "NuScale Power",
-      -9.18
-    ],
-    [
-      "NNE",
-      "Nano Nuclear Energy",
-      -11.47
+      "ASRHF",
+      "Astroscale",
+      -12.41
     ],
     [
       "SLDP",
       "Solid Power",
-      -11.86
-    ],
-    [
-      "ACHR",
-      "Archer Aviation",
-      -12.08
+      -12.57
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       -14.07
+    ],
+    [
+      "NNE",
+      "Nano Nuclear Energy",
+      -16.79
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -17.09
     ]
   ],
-  "lastUpdated": "2026-03-09 13:12:21"
+  "lastUpdated": "2026-03-09 18:58:43"
 }
