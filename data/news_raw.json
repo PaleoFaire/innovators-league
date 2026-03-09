@@ -1,5 +1,107 @@
 [
   {
+    "title": "OpenAI and Google Workers File Amicus Brief in Support of Anthropic Against the US Government",
+    "link": "https://www.wired.com/story/openai-deepmind-employees-file-amicus-brief-anthropic-dod-lawsuit/",
+    "description": "Google DeepMind chief scientist Jeff Dean is among the AI researchers and engineers rushing to Anthropic's defense.",
+    "pubDate": "Mon, 09 Mar 2026 20:38:12 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir",
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Anthropic launches code review tool to check flood of AI-generated code",
+    "link": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
+    "description": "Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI.",
+    "pubDate": "Mon, 09 Mar 2026 19:41:34 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "OpenAI acquires Promptfoo to secure its AI agents",
+    "link": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
+    "description": "This deal underscores how frontier labs are scrambling to prove their technology can be used safely in critical business operations.",
+    "pubDate": "Mon, 09 Mar 2026 17:49:04 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Anthropic sues Defense Department over supply-chain risk designation",
+    "link": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/",
+    "description": "Anthropic filed suit against the Department of Defense on Monday after the agency labeled it a supply chain risk. The complaint calls the DOD's actions \"unprecedented and unlawful.\"",
+    "pubDate": "Mon, 09 Mar 2026 17:25:40 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Bronco AI",
+      "Fortastra"
+    ],
+    "sectors": [
+      "ai",
+      "infrastructure"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
+    "title": "US Farmers Need Green Ammonia, And China Has It",
+    "link": "https://cleantechnica.com/2026/03/09/us-farmers-need-green-ammonia-and-china-has-it/",
+    "description": "China takes another step towards demonstrating a viable global market for green ammonia, produced from green hydrogen and renewable energy.\nThe post US Farmers Need Green Ammonia, And China Has It appeared first on CleanTechnica.",
+    "pubDate": "Mon, 09 Mar 2026 17:19:41 +0000",
+    "category": "Agriculture",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Sunfire",
+    "matchedCompanies": [
+      "Sunfire",
+      "Saule Technologies",
+      "Electric Hydrogen"
+    ],
+    "sectors": [
+      "climate"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "Qualcomm&#8217;s partnership with Neura Robotics is just the beginning",
     "link": "https://techcrunch.com/2026/03/09/qualcomms-partnership-with-neura-robotics-is-just-the-beginning/",
     "description": "Neura Robotics is going to build new robots on top of Qualcomm's new IQ10 processors that were released at CES.",
@@ -16,7 +118,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
     "title": "Russian government hackers targeting Signal and WhatsApp users, Dutch spies warn",
@@ -35,7 +137,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
     "title": "Profiting From Subsidies While Proliferating Trump’s Protectionism",
@@ -54,29 +156,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
-  },
-  {
-    "title": "Anthropic sues Defense Department over supply chain risk designation",
-    "link": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/",
-    "description": "Anthropic filed suit against the Department of Defense on Monday after the agency labeled it a supply chain risk. The complaint calls the DOD's actions \"unprecedented and unlawful.\"",
-    "pubDate": "Mon, 09 Mar 2026 15:39:36 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Bronco AI",
-      "Fortastra"
-    ],
-    "sectors": [
-      "ai",
-      "infrastructure"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
     "title": "Anthropic Sues Department of Defense Over Supply-Chain-Risk Designation",
@@ -95,7 +175,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Over 400 Tesla Fast Chargers Planned For New Charging Hub",
@@ -116,7 +196,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Modernizing defense enterprise IT without disrupting the mission",
@@ -135,7 +215,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "How AI is turning the Iran conflict into theater",
@@ -154,7 +234,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Security Risk Advisors Releases “The Purple Perspective 2026” Report",
@@ -176,7 +256,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Zoox starts mapping Dallas and Phoenix for its robotaxis",
@@ -195,7 +275,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Do Offshore Wind Farms Pose National Security Risks?",
@@ -217,7 +297,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "The usability imperative for securing digital asset devices",
@@ -239,7 +319,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "The Download: murky AI surveillance laws, and the White House cracks down on defiant labs",
@@ -261,7 +341,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "The 2027 Chevy Bolt is the McRib of the automotive world",
@@ -284,7 +364,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "GNSS resilience is an economic and security priority",
@@ -314,7 +394,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "First Starship V3 launch slips",
@@ -333,7 +413,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
     "title": "Best Sonos Speakers (2026): Soundbars, Headphones, Dolby Atmos, and More",
@@ -352,7 +432,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "9h ago"
   },
   {
     "title": "Finland readies itself to be able to host nukes in longtime policy departure",
@@ -373,7 +453,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "10h ago"
   },
   {
     "title": "Don’t Expect Big Surprises in the Government’s Alien Files",
@@ -392,7 +472,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "A Better Way To Compare Gas &#038; Electric Prices",
@@ -411,7 +491,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "12h ago"
+    "time": "15h ago"
   },
   {
     "title": "Ring&#8217;s Jamie Siminoff is still trying to calm privacy fears, but his answers may not help",
@@ -430,7 +510,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "12h ago"
+    "time": "16h ago"
   },
   {
     "title": "Is BYD&#8217;s Flash Charging Revolutionary?",
@@ -449,7 +529,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "Will the Pentagon’s Anthropic controversy scare startups away from defense work?",
@@ -469,7 +549,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Biomethane for Oʻahu: A Small Reserve With a Big Reliability Role",
@@ -494,7 +574,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Steering Electricity: How Grid Control Devices Unlock Transmission Capacity",
@@ -515,7 +595,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Owner of ICE detention facility sees big opportunity in AI man camps",
@@ -532,25 +612,6 @@
     ],
     "sectors": [
       "chips"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "TechCrunch Mobility: Rivian&#8217;s R2 gambit",
-    "link": "https://techcrunch.com/2026/03/08/techcrunch-mobility-rivians-r2-gambit/",
-    "description": "Welcome back to TechCrunch Mobility, your hub for all things “future of transportation.”",
-    "pubDate": "Sun, 08 Mar 2026 16:03:00 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Rivian",
-    "matchedCompanies": [
-      "Rivian"
-    ],
-    "sectors": [
-      "transportation"
     ],
     "type": "news",
     "impact": "low",
@@ -635,25 +696,6 @@
     "time": "1d ago"
   },
   {
-    "title": "A roadmap for AI, if anyone will listen",
-    "link": "https://techcrunch.com/2026/03/07/a-roadmap-for-ai-if-anyone-will-listen/",
-    "description": "The Pro-Human Declaration was finalized before last week's Pentagon-Anthropic standoff, but the collision of the two events wasn’t lost on anyone involved.",
-    "pubDate": "Sun, 08 Mar 2026 06:05:26 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "What Elon Means &#8211; Change at Very Large Scale",
     "link": "https://www.nextbigfuture.com/2026/03/what-elon-means-change-at-very-large-scale.html",
     "description": "Elon Musk just dropped a bombshell statement that CHANGE AT VERY LARGE SCALE is coming on self-driving. As a top futurist predictor I think Elon is saying TESLA FSD 14.3 (10x model with reasoning) will come in March/April and this will unleash robotaxi and Cybercab at scale.",
@@ -696,44 +738,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Google just gave Sundar Pichai a $692M pay package",
-    "link": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
-    "description": "Most of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture.",
-    "pubDate": "Sun, 08 Mar 2026 00:20:10 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "medium",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI hardware exec Caitlin Kalinowski quits in response to Pentagon deal",
-    "link": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
-    "description": "Hardware executive Caitlin Kalinowski announced today that in response to OpenAI's controversial agreement with the Department of Defense, she’s resigned from her role leading the company's robotics team.",
-    "pubDate": "Sat, 07 Mar 2026 20:44:25 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "District Cooling From the Pacific: A Targeted Efficiency for Oʻahu",
     "link": "https://cleantechnica.com/2026/03/07/district-cooling-from-the-pacific-a-targeted-efficiency-for-o%ca%bbahu/",
     "description": "The starting point for evaluating seawater air conditioning on Oʻahu is the fully electrified energy system for the island that has been developed through the earlier Sankey analysis. In that framework the island’s civilian energy system excludes overseas aviation fuel, maritime bunkering for ships ",
@@ -758,7 +762,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "It&#8217;s Time For An Authentic Golden Age Of Agriculture",
@@ -1030,7 +1034,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Is the Pentagon allowed to surveil Americans with AI?",
@@ -1053,7 +1057,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Anthropic CEO says Pentagon ban less harsh than Hegseth had threatened",
@@ -1075,7 +1079,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "USA and Israel Combat Lasers Shooting Down Drones in the Iran War",
@@ -1097,7 +1101,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Pentagon&#8217;s new chief data officer to push &#8216;AI capabilities to warfighters&#8217;",
@@ -1576,7 +1580,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "General Galactic aims to become &#8220;the galaxy&#8217;s energy and logistics company&#8221;",
@@ -1603,7 +1607,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "X and XAI Traffic Surge With Iran War Event News",
@@ -1622,7 +1626,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Trump to fire DHS Secretary Noem, picks Mullin as successor",
@@ -1644,7 +1648,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Infinite Orbits acquires UK startup Lunasa to expand satellite servicing capabilities",
@@ -1665,7 +1669,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Science Corp., Another Braintech Startup Founded By Neuralink Alums, Raises $230M Series C",
@@ -1684,7 +1688,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Trump gets data center companies to pledge to pay for power generation",
@@ -1701,25 +1705,6 @@
     ],
     "sectors": [
       "chips"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "12,000 New EV Fast Chargers Planned For Germany In Four Years",
-    "link": "https://cleantechnica.com/2026/03/05/12000-new-ev-fast-chargers-planned-for-germany-in-four-years/",
-    "description": "There has been much good news about electric vehicle charging recently, ranging from 8,000 new EV chargers to be installed in Canada and 10,000 planned for the UK. Now comes even more: 12,000 fast charging ports (400 kW) for Germany, and in just the next four years. German energy company   ... [cont",
-    "pubDate": "Thu, 05 Mar 2026 16:45:48 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Ample",
-    "matchedCompanies": [
-      "Ample"
-    ],
-    "sectors": [
-      "infrastructure"
     ],
     "type": "news",
     "impact": "low",
@@ -2154,7 +2139,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "6d ago"
+    "time": "3/2/2026"
   },
   {
     "title": "What Military Drones Can Teach Self-Driving Cars",
