@@ -20740,23 +20740,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-10 08:54
+// Last updated: 2026-03-10 13:18
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Waymo", headline: "Geely &#038; WeRide Planning 2,000 Robotaxis for This Year", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Astera Labs", headline: "In Alaska, a Data Center Inside a Power Plant, Inside a Microgrid", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Palantir", headline: "An iPhone-hacking toolkit used by Russian spies likely came from U.S military contractor", source: "TechCrunch", time: "6h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Joby Aviation", headline: "Electric air taxi maker Archer hits back at Joby in countersuit alleging concealed Chinese ties", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Andrenam", headline: "Demand Shifting in Hawai'i: The Other Half of the Energy Transition", source: "CleanTechnica", time: "8h ago", impact: "medium", unread: true },
-  { id: 6, type: "hire", company: "Karman Industries", headline: "Unlocking Hidden Capacity in the Grid With Advanced Conductors", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Palantir", headline: "'Flying Cars' Will Take Off in American Skies This Summer", source: "Wired", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Palantir", headline: "Electric air taxis are about to take flight in 26 states", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Anthropic", headline: "OpenAI and Google employees rush to Anthropic's defense in DOD lawsuit", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Anthropic", headline: "Anthropic sues DOD, Hegseth, and a dozen other federal agencies", source: "Defense One", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Anthropic", headline: "Anthropic Claims Pentagon Feud Could Cost It Billions", source: "Wired", time: "12h ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Palantir", headline: "OpenAI and Google Workers File Amicus Brief in Support of Anthropic Against the US Government", source: "Wired", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Anthropic", headline: "Anthropic launches code review tool to check flood of AI-generated code", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI acquires Promptfoo to secure its AI agents", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 15, type: "contract", company: "Anthropic", headline: "Anthropic sues Defense Department over supply-chain risk designation", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Cohere", headline: "Hyperscale Power is the latest startup to challenge 140-year-old transformer tech", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "This SpaceX veteran says the next big thing in space is satellites that return to Earth", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Atmo", headline: "Lux Aeterna raises $10 million ahead of 2027 reusable satellite demo", source: "SpaceNews", time: "Just now", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Durin", headline: "Australian submariners have a brush with Iran war", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anysphere", headline: "Will Features Even Exist? How AI Is Forcing SaaS To Rethink The Product Itself", source: "Crunchbase News", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Photonic Inc", headline: "Use Microsoft PC Manager to Speed Up Your Windows 11 Computer", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Phospho", headline: "Finite-Element Approaches to Transformer Harmonic and Transient Analysis", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Durin", headline: "Whoop launches a new blood test focused on women's health", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Waymo", headline: "Geely &#038; WeRide Planning 2,000 Robotaxis for This Year", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Astera Labs", headline: "In Alaska, a Data Center Inside a Power Plant, Inside a Microgrid", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Palantir", headline: "An iPhone-hacking toolkit used by Russian spies likely came from U.S military contractor", source: "TechCrunch", time: "11h ago", impact: "medium", unread: false },
+  { id: 12, type: "news", company: "Joby Aviation", headline: "Electric air taxi maker Archer hits back at Joby in countersuit alleging concealed Chinese ties", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Andrenam", headline: "Demand Shifting in Hawai'i: The Other Half of the Energy Transition", source: "CleanTechnica", time: "12h ago", impact: "medium", unread: false },
+  { id: 14, type: "hire", company: "Karman Industries", headline: "Unlocking Hidden Capacity in the Grid With Advanced Conductors", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Palantir", headline: "'Flying Cars' Will Take Off in American Skies This Summer", source: "Wired", time: "14h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
