@@ -1,6 +1,6 @@
 {
   "totalMarketCap": "$0.0B",
-  "companiesTracked": 32,
+  "companiesTracked": 31,
   "sectorPerformance": {
     "ai": {
       "gainers": 1,
@@ -17,14 +17,8 @@
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.47,
+      "avg_change": -5.37,
       "count": 7
-    },
-    "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -8.47,
-      "count": 3
     },
     "climate": {
       "gainers": 1,
@@ -41,7 +35,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.94,
+      "avg_change": 1.61,
       "count": 3
     },
     "transportation": {
@@ -55,9 +49,20 @@
       "losers": 0,
       "avg_change": 1.2,
       "count": 3
+    },
+    "nuclear": {
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -10.46,
+      "count": 2
     }
   },
   "topGainers": [
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      10.01
+    ],
     [
       "PLTR",
       "Palantir",
@@ -72,11 +77,6 @@
       "ASTS",
       "AST SpaceMobile",
       3.27
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      2.35
     ],
     [
       "9348.T",
@@ -111,5 +111,5 @@
       -16.97
     ]
   ],
-  "lastUpdated": "2026-03-10 06:56:46"
+  "lastUpdated": "2026-03-10 13:10:17"
 }
