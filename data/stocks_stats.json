@@ -11,13 +11,13 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": -1.11,
+      "avg_change": -1.74,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -3.72,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -5.47,
       "count": 7
     },
     "nuclear": {
@@ -81,24 +81,19 @@
     [
       "9348.T",
       "ispace",
-      2.17
+      2.35
     ]
   ],
   "topLosers": [
     [
-      "SMR",
-      "NuScale Power",
-      -6.82
+      "277810.KQ",
+      "Rainbow Robotics",
+      -8.81
     ],
     [
       "SLDP",
       "Solid Power",
       -9.6
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      -12.41
     ],
     [
       "ACHR",
@@ -109,7 +104,12 @@
       "NNE",
       "Nano Nuclear Energy",
       -14.11
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -16.97
     ]
   ],
-  "lastUpdated": "2026-03-10 02:24:34"
+  "lastUpdated": "2026-03-10 06:56:46"
 }
