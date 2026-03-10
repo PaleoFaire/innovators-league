@@ -1,115 +1,115 @@
 {
   "totalMarketCap": "$0.0B",
-  "companiesTracked": 31,
+  "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 7.76,
+      "avg_change": 2.76,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": -1.74,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -1.24,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -5.37,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -1.4,
       "count": 7
     },
+    "nuclear": {
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -4.36,
+      "count": 3
+    },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.31,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.65,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.14,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.69,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 1.61,
+      "avg_change": 1.22,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 2.29,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 6.87,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 1.2,
+      "avg_change": 5.93,
       "count": 3
-    },
-    "nuclear": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -10.46,
-      "count": 2
     }
   },
   "topGainers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      10.01
-    ],
-    [
-      "PLTR",
-      "Palantir",
-      7.76
-    ],
-    [
       "RIVN",
       "Rivian",
-      5.73
+      11.72
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      3.27
+      "ALAB",
+      "Astera Labs",
+      8.27
     ],
     [
-      "9348.T",
-      "ispace",
-      2.35
+      "DRSHF",
+      "DroneShield",
+      8.24
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      7.09
+    ],
+    [
+      "AMD",
+      "AMD",
+      6.86
     ]
   ],
   "topLosers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -8.81
+      "AUR",
+      "Aurora Innovation",
+      -4.72
     ],
     [
-      "SLDP",
-      "Solid Power",
-      -9.6
-    ],
-    [
-      "ACHR",
-      "Archer Aviation",
-      -13.3
-    ],
-    [
-      "NNE",
-      "Nano Nuclear Energy",
-      -14.11
+      "ASTS",
+      "AST SpaceMobile",
+      -4.79
     ],
     [
       "ASRHF",
       "Astroscale",
-      -16.97
+      -5.2
+    ],
+    [
+      "NNE",
+      "Nano Nuclear Energy",
+      -7.8
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -8.81
     ]
   ],
-  "lastUpdated": "2026-03-10 13:10:17"
+  "lastUpdated": "2026-03-10 18:55:59"
 }
