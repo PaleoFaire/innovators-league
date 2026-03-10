@@ -20738,23 +20738,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-09 20:42
+// Last updated: 2026-03-10 02:38
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Palantir", headline: "OpenAI and Google Workers File Amicus Brief in Support of Anthropic Against the US Government", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Anthropic", headline: "Anthropic launches code review tool to check flood of AI-generated code", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI acquires Promptfoo to secure its AI agents", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "Anthropic", headline: "Anthropic sues Defense Department over supply-chain risk designation", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Sunfire", headline: "US Farmers Need Green Ammonia, And China Has It", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Neura Robotics", headline: "Qualcomm's partnership with Neura Robotics is just the beginning", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
-  { id: 7, type: "news", company: "Palantir", headline: "Russian government hackers targeting Signal and WhatsApp users, Dutch spies warn", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Cohere", headline: "Profiting From Subsidies While Proliferating Trump's Protectionism", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Anthropic", headline: "Anthropic Sues Department of Defense Over Supply-Chain-Risk Designation", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Ample", headline: "Over 400 Tesla Fast Chargers Planned For New Charging Hub", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Palantir", headline: "Modernizing defense enterprise IT without disrupting the mission", source: "Breaking Defense", time: "5h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Together AI", headline: "How AI is turning the Iran conflict into theater", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Cape", headline: "Security Risk Advisors Releases 'The Purple Perspective 2026' Report", source: "Next Big Future", time: "5h ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Zoox", headline: "Zoox starts mapping Dallas and Phoenix for its robotaxis", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Cape", headline: "Do Offshore Wind Farms Pose National Security Risks?", source: "IEEE Spectrum", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Palantir", headline: "An iPhone-hacking toolkit used by Russian spies likely came from U.S military contractor", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Joby Aviation", headline: "Electric air taxi maker Archer hits back at Joby in countersuit alleging concealed Chinese ties", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Andrenam", headline: "Demand Shifting in Hawai'i: The Other Half of the Energy Transition", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: true },
+  { id: 4, type: "hire", company: "Karman Industries", headline: "Unlocking Hidden Capacity in the Grid With Advanced Conductors", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "'Flying Cars' Will Take Off in American Skies This Summer", source: "Wired", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Palantir", headline: "Electric air taxis are about to take flight in 26 states", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Orbex", headline: "SSTL to build spacecraft for private space telescope", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Anthropic", headline: "OpenAI and Google employees rush to Anthropic's defense in DOD lawsuit", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Anthropic", headline: "Anthropic sues DOD, Hegseth, and a dozen other federal agencies", source: "Defense One", time: "5h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Anthropic", headline: "Anthropic Claims Pentagon Feud Could Cost It Billions", source: "Wired", time: "5h ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Palantir", headline: "OpenAI and Google Workers File Amicus Brief in Support of Anthropic Against the US Government", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Anthropic", headline: "Anthropic launches code review tool to check flood of AI-generated code", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "OpenAI", headline: "OpenAI acquires Promptfoo to secure its AI agents", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Anthropic", headline: "Anthropic sues Defense Department over supply-chain risk designation", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Sunfire", headline: "US Farmers Need Green Ammonia, And China Has It", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
