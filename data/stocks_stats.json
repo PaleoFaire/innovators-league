@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 6.6,
+      "avg_change": 7.76,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -4.66,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": -1.11,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -7.32,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -3.72,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.24,
+      "avg_change": -8.47,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.78,
+      "avg_change": -3.31,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -6.39,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.14,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.52,
+      "avg_change": -0.94,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.94,
+      "avg_change": 2.29,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -1.6,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 1.2,
       "count": 3
     }
   },
@@ -61,12 +61,17 @@
     [
       "PLTR",
       "Palantir",
-      6.6
+      7.76
     ],
     [
       "RIVN",
       "Rivian",
-      4.6
+      5.73
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      3.27
     ],
     [
       "ONT.L",
@@ -74,42 +79,37 @@
       2.35
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      2.09
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      1.56
+      "9348.T",
+      "ispace",
+      2.17
     ]
   ],
   "topLosers": [
+    [
+      "SMR",
+      "NuScale Power",
+      -6.82
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      -9.6
+    ],
     [
       "ASRHF",
       "Astroscale",
       -12.41
     ],
     [
-      "SLDP",
-      "Solid Power",
-      -12.57
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -14.07
+      "ACHR",
+      "Archer Aviation",
+      -13.3
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -16.79
-    ],
-    [
-      "ACHR",
-      "Archer Aviation",
-      -17.09
+      -14.11
     ]
   ],
-  "lastUpdated": "2026-03-09 18:58:43"
+  "lastUpdated": "2026-03-10 02:24:34"
 }
