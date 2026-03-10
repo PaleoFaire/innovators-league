@@ -85,21 +85,36 @@ def fetch_trade_data(hs_code, trade_type="imports", months=12):
 
     # Calculate time range
     now = datetime.now()
-    # Census data has ~2 month lag, so go back further
-    end_date = now - timedelta(days=60)
+    # Census data has ~3 month lag for imports, longer for exports
+    lag_days = 90 if trade_type == "imports" else 120
+    end_date = now - timedelta(days=lag_days)
     start_date = end_date - timedelta(days=30 * months)
 
+    # Imports use GEN_VAL_MO (general value), exports use ALL_VAL_MO (all methods)
+    value_field = "GEN_VAL_MO" if trade_type == "imports" else "ALL_VAL_MO"
+    commodity_key = "I_COMMODITY" if trade_type == "imports" else "E_COMMODITY"
     params = {
-        "get": "GEN_VAL_MO,CON_VAL_MO,AIR_VAL_MO",  # General, consumption, air value
+        "get": value_field,
         "COMM_LVL": "HS4",
-        "I_COMMODITY" if trade_type == "imports" else "E_COMMODITY": hs_code,
+        commodity_key: hs_code,
         "time": f"from {start_date.strftime('%Y-%m')} to {end_date.strftime('%Y-%m')}",
-        "key": CENSUS_API_KEY,
     }
+    # Only include key if set — API works without it (lower rate limit)
+    if CENSUS_API_KEY:
+        params["key"] = CENSUS_API_KEY
 
     try:
         resp = requests.get(base_url, params=params, timeout=30)
         resp.raise_for_status()
+        # Census API returns HTML on invalid key — detect and retry without key
+        if resp.text.strip().startswith("<"):
+            print(f"  Warning: API returned HTML (likely invalid key), retrying without key...")
+            params.pop("key", None)
+            resp = requests.get(base_url, params=params, timeout=30)
+            resp.raise_for_status()
+            if resp.text.strip().startswith("<"):
+                print(f"  Error: API still returning HTML, skipping")
+                return []
         data = resp.json()
 
         if not data or len(data) < 2:
@@ -113,7 +128,7 @@ def fetch_trade_data(hs_code, trade_type="imports", months=12):
         for row in rows:
             entry = dict(zip(headers, row))
             try:
-                value = int(entry.get("GEN_VAL_MO", 0) or 0)
+                value = int(entry.get(value_field, 0) or 0)
                 period = entry.get("time", "")
                 results.append({
                     "period": period,
