@@ -915,6 +915,234 @@ def update_vc_portfolios(data_js_content):
     return data_js_content
 
 
+def update_sbir_awards(data_js_content):
+    """Update SBIR_AWARDS in data.js with SBIR/STTR government grant data."""
+    awards = load_json("sbir_awards_raw.json")
+    if not awards:
+        print("No SBIR awards data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(awards)} SBIR awards...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    known_awards = [a for a in awards if a.get("isKnownCompany")]
+    js_array = f"// Auto-updated SBIR/STTR government grant awards\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += f"// Total awards: {len(awards)} | Known companies: {len(known_awards)}\n"
+    js_array += "const SBIR_AWARDS = [\n"
+
+    for award in awards[:500]:
+        firm = award.get("firm", "").replace('"', "'")
+        title = award.get("title", "")[:100].replace('"', "'")
+        abstract = award.get("abstract", "")[:150].replace('"', "'").replace("\n", " ")
+        js_array += f'  {{ firm: "{firm}", '
+        js_array += f'title: "{title}", '
+        js_array += f'agency: "{award.get("agency", "")}", '
+        js_array += f'phase: "{award.get("phase", "")}", '
+        js_array += f'program: "{award.get("program", "")}", '
+        js_array += f'awardYear: {award.get("awardYear", 0) or 0}, '
+        js_array += f'awardAmount: {award.get("awardAmount", 0) or 0}, '
+        js_array += f'state: "{award.get("state", "")}", '
+        js_array += f'abstract: "{abstract}", '
+        js_array += f'isKnownCompany: {"true" if award.get("isKnownCompany") else "false"} }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const SBIR_AWARDS = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+        print(f"  Updated SBIR_AWARDS ({len(awards)} entries)")
+    else:
+        # Append after SAM_CONTRACTS
+        sam_pattern = r'(const SAM_CONTRACTS = \[[\s\S]*?\];)'
+        sam_match = re.search(sam_pattern, data_js_content)
+        if sam_match:
+            data_js_content = data_js_content[:sam_match.end()] + "\n\n" + js_array + data_js_content[sam_match.end():]
+            print(f"  Inserted SBIR_AWARDS ({len(awards)} entries)")
+        else:
+            # Fallback: append after GOV_CONTRACTS
+            gov_pattern = r'(const GOV_CONTRACTS = \[[\s\S]*?\];)'
+            gov_match = re.search(gov_pattern, data_js_content)
+            if gov_match:
+                data_js_content = data_js_content[:gov_match.end()] + "\n\n" + js_array + data_js_content[gov_match.end():]
+                print(f"  Inserted SBIR_AWARDS after GOV_CONTRACTS ({len(awards)} entries)")
+            else:
+                print("  Could not find insertion point for SBIR_AWARDS")
+
+    return data_js_content
+
+
+def update_nih_grants(data_js_content):
+    """Update NIH_GRANTS in data.js with NIH Reporter grant data."""
+    grants = load_json("nih_grants_raw.json")
+    if not grants:
+        print("No NIH grants data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(grants)} NIH grants...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    known_grants = [g for g in grants if g.get("isKnownCompany")]
+    js_array = f"// Auto-updated NIH Reporter grant data\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += f"// Total grants: {len(grants)} | Known companies: {len(known_grants)}\n"
+    js_array += "const NIH_GRANTS = [\n"
+
+    for grant in grants[:500]:
+        org = grant.get("orgName", "").replace('"', "'")
+        title = grant.get("title", "")[:100].replace('"', "'")
+        terms = json.dumps(grant.get("terms", [])[:5])
+        js_array += f'  {{ orgName: "{org}", '
+        js_array += f'title: "{title}", '
+        js_array += f'agency: "{grant.get("agency", "")}", '
+        js_array += f'fiscalYear: {grant.get("fiscalYear", 0)}, '
+        js_array += f'totalCost: {grant.get("totalCost", 0)}, '
+        js_array += f'totalCostFormatted: "{grant.get("totalCostFormatted", "$0")}", '
+        js_array += f'activityCode: "{grant.get("activityCode", "")}", '
+        js_array += f'isSbir: {"true" if grant.get("isSbir") else "false"}, '
+        js_array += f'terms: {terms}, '
+        js_array += f'isKnownCompany: {"true" if grant.get("isKnownCompany") else "false"} }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const NIH_GRANTS = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+        print(f"  Updated NIH_GRANTS ({len(grants)} entries)")
+    else:
+        # Append after SBIR_AWARDS if exists, else after GOV_CONTRACTS
+        for anchor in ["SBIR_AWARDS", "SAM_CONTRACTS", "GOV_CONTRACTS"]:
+            anchor_pattern = rf'(const {anchor} = \[[\s\S]*?\];)'
+            anchor_match = re.search(anchor_pattern, data_js_content)
+            if anchor_match:
+                data_js_content = data_js_content[:anchor_match.end()] + "\n\n" + js_array + data_js_content[anchor_match.end():]
+                print(f"  Inserted NIH_GRANTS after {anchor} ({len(grants)} entries)")
+                break
+        else:
+            print("  Could not find insertion point for NIH_GRANTS")
+
+    return data_js_content
+
+
+def update_arpa_e_projects(data_js_content):
+    """Update ARPA_E_PROJECTS in data.js with ARPA-E project data."""
+    projects = load_json("arpa_e_projects_raw.json")
+    if not projects:
+        print("No ARPA-E projects data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(projects)} ARPA-E projects...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    private_projects = [p for p in projects if p.get("isPrivateCompany")]
+    js_array = f"// Auto-updated ARPA-E project data\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += f"// Total projects: {len(projects)} | Private companies: {len(private_projects)}\n"
+    js_array += "const ARPA_E_PROJECTS = [\n"
+
+    for proj in projects[:500]:
+        title = proj.get("title", "")[:120].replace('"', '\\"').replace("\n", " ")
+        org = proj.get("organization", "").replace('"', '\\"')
+        techs = json.dumps(proj.get("technologyAreas", [])[:5])
+        js_array += f'  {{ title: "{title}", '
+        js_array += f'organization: "{org}", '
+        js_array += f'orgType: "{proj.get("orgType", "")}", '
+        js_array += f'status: "{proj.get("status", "")}", '
+        js_array += f'state: "{proj.get("state", "")}", '
+        js_array += f'awardAmount: {proj.get("awardAmount", 0)}, '
+        js_array += f'awardFormatted: "{proj.get("awardFormatted", "")}", '
+        js_array += f'programAcronym: "{proj.get("programAcronym", "")}", '
+        js_array += f'technologyAreas: {techs}, '
+        js_array += f'isKnownCompany: {"true" if proj.get("isKnownCompany") else "false"}, '
+        js_array += f'isPrivateCompany: {"true" if proj.get("isPrivateCompany") else "false"} }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const ARPA_E_PROJECTS = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+        print(f"  Updated ARPA_E_PROJECTS ({len(projects)} entries)")
+    else:
+        for anchor in ["NIH_GRANTS", "SBIR_AWARDS", "SAM_CONTRACTS", "GOV_CONTRACTS"]:
+            anchor_pattern = rf'(const {anchor} = \[[\s\S]*?\];)'
+            anchor_match = re.search(anchor_pattern, data_js_content)
+            if anchor_match:
+                data_js_content = data_js_content[:anchor_match.end()] + "\n\n" + js_array + data_js_content[anchor_match.end():]
+                print(f"  Inserted ARPA_E_PROJECTS after {anchor} ({len(projects)} entries)")
+                break
+        else:
+            print("  Could not find insertion point for ARPA_E_PROJECTS")
+
+    return data_js_content
+
+
+def update_diffbot_enrichment(data_js_content):
+    """Update DIFFBOT_ENRICHMENT in data.js with Diffbot company enrichment data."""
+    enrichment = load_json("diffbot_enrichment_raw.json")
+    if not enrichment:
+        print("No Diffbot enrichment data found, skipping...")
+        return data_js_content
+
+    # Only include enriched companies
+    enriched = [e for e in enrichment if e.get("enriched")]
+    if not enriched:
+        print("No enriched companies in Diffbot data, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(enriched)} Diffbot enrichments...")
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-updated Diffbot company enrichment\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += f"// Enriched: {len(enriched)} companies\n"
+    js_array += "const DIFFBOT_ENRICHMENT = [\n"
+
+    for entry in enriched:
+        name = entry.get("name", "").replace('"', '\\"')
+        summary = entry.get("summary", "").replace('"', '\\"').replace("\n", " ")[:150]
+        hq = entry.get("headquarters", "").replace('"', '\\"')
+        industries = json.dumps(entry.get("industries", [])[:3])
+        social = json.dumps(entry.get("socialLinks", {}))
+
+        js_array += f'  {{ name: "{name}", '
+        js_array += f'summary: "{summary}", '
+        if entry.get("employeeCount"):
+            js_array += f'employeeCount: {entry["employeeCount"]}, '
+        if entry.get("employeeRange"):
+            js_array += f'employeeRange: "{entry["employeeRange"]}", '
+        if entry.get("foundedYear"):
+            js_array += f'foundedYear: "{entry["foundedYear"]}", '
+        if hq:
+            js_array += f'headquarters: "{hq}", '
+        if entry.get("industries"):
+            js_array += f'industries: {industries}, '
+        if entry.get("socialLinks"):
+            js_array += f'socialLinks: {social}, '
+        if entry.get("isPublic"):
+            js_array += f'isPublic: true, '
+            if entry.get("ticker"):
+                js_array += f'ticker: "{entry["ticker"]}", '
+        if entry.get("revenueFormatted"):
+            js_array += f'estimatedRevenue: "{entry["revenueFormatted"]}", '
+        js_array += f'lastEnriched: "{entry.get("lastEnriched", "")}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const DIFFBOT_ENRICHMENT = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+        print(f"  Updated DIFFBOT_ENRICHMENT ({len(enriched)} entries)")
+    else:
+        # Append after HEADCOUNT_ESTIMATES or GROWTH_SIGNALS
+        for anchor in ["HEADCOUNT_ESTIMATES", "GROWTH_SIGNALS", "REVENUE_INTEL"]:
+            anchor_pattern = rf'(const {anchor} = \[[\s\S]*?\];)'
+            anchor_match = re.search(anchor_pattern, data_js_content)
+            if anchor_match:
+                data_js_content = data_js_content[:anchor_match.end()] + "\n\n" + js_array + data_js_content[anchor_match.end():]
+                print(f"  Inserted DIFFBOT_ENRICHMENT after {anchor} ({len(enriched)} entries)")
+                break
+        else:
+            print("  Could not find insertion point for DIFFBOT_ENRICHMENT")
+
+    return data_js_content
+
+
 def validate_js_syntax(content):
     """Basic validation: check for missing commas between objects in arrays."""
     issues = list(re.finditer(r'\}\s*\n\s*\{', content))
@@ -960,6 +1188,10 @@ def main():
     data_js_content = update_sam_contracts(data_js_content)
     data_js_content = update_trade_data(data_js_content)
     data_js_content = update_product_launches(data_js_content)
+    data_js_content = update_sbir_awards(data_js_content)
+    data_js_content = update_nih_grants(data_js_content)
+    data_js_content = update_arpa_e_projects(data_js_content)
+    data_js_content = update_diffbot_enrichment(data_js_content)
     data_js_content = update_company_funding(data_js_content)
     data_js_content = update_vc_portfolios(data_js_content)
     data_js_content = update_last_updated(data_js_content)
