@@ -262,6 +262,12 @@ body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color
                 <div class="bar-chart" id="country-bars"></div>
             </div>
         </div>
+        <!-- State / Region Breakdown -->
+        <div class="animate-in" style="margin-top:40px;">
+            <h3 style="font-size:16px;font-weight:700;margin-bottom:6px;font-family:'Space Grotesk',sans-serif;color:var(--text);">Companies by State / Country</h3>
+            <p style="font-size:13px;color:var(--text-s);margin-bottom:16px;">US companies broken down by state, international companies by country.</p>
+            <div class="bar-chart" id="state-bars"></div>
+        </div>
     </div>
 </section>
 
@@ -549,6 +555,68 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
     `;
     countryBars.appendChild(row);
     setTimeout(() => { row.querySelector('.bar-fill').style.width = pct + '%'; }, 300);
+  });
+
+  // ─── State / Country Breakdown ───
+  const STATE_NAMES_VIZ = {
+    'AL':'Alabama','AK':'Alaska','AZ':'Arizona','AR':'Arkansas','CA':'California',
+    'CO':'Colorado','CT':'Connecticut','DE':'Delaware','FL':'Florida','GA':'Georgia',
+    'HI':'Hawaii','ID':'Idaho','IL':'Illinois','IN':'Indiana','IA':'Iowa','KS':'Kansas',
+    'KY':'Kentucky','LA':'Louisiana','ME':'Maine','MD':'Maryland','MA':'Massachusetts',
+    'MI':'Michigan','MN':'Minnesota','MS':'Mississippi','MO':'Missouri','MT':'Montana',
+    'NE':'Nebraska','NV':'Nevada','NH':'New Hampshire','NJ':'New Jersey','NM':'New Mexico',
+    'NY':'New York','NC':'North Carolina','ND':'North Dakota','OH':'Ohio','OK':'Oklahoma',
+    'OR':'Oregon','PA':'Pennsylvania','RI':'Rhode Island','SC':'South Carolina',
+    'SD':'South Dakota','TN':'Tennessee','TX':'Texas','UT':'Utah','VT':'Vermont',
+    'VA':'Virginia','WA':'Washington','WV':'West Virginia','WI':'Wisconsin','WY':'Wyoming',
+    'DC':'Washington D.C.'
+  };
+
+  const stateCounts = {};
+  COMPANIES.forEach(c => {
+    const code = c.state;
+    // If it's a US state, use full state name
+    if (STATE_NAMES_VIZ[code]) {
+      const name = STATE_NAMES_VIZ[code];
+      stateCounts[name] = (stateCounts[name]||0) + 1;
+    } else {
+      // International — resolve to country name
+      const country = getCountryViz(code, c.location);
+      const label = '🌍 ' + country;
+      stateCounts[label] = (stateCounts[label]||0) + 1;
+    }
+  });
+
+  const topStates = Object.entries(stateCounts).sort((a,b) => b[1]-a[1]).slice(0, 25);
+  const maxState = topStates[0][1];
+
+  const stateColors = {
+    'California':'#FF6B2C','New York':'#3b82f6','Texas':'#dc2626','Massachusetts':'#6366f1',
+    'Virginia':'#22c55e','Washington':'#14b8a6','Colorado':'#f59e0b','Maryland':'#ec4899',
+    'Florida':'#8b5cf6','Pennsylvania':'#60a5fa','Ohio':'#f97316','Illinois':'#06b6d4',
+    'Michigan':'#a855f7','Georgia':'#10b981','New Jersey':'#e11d48','Connecticut':'#0ea5e9',
+    'Arizona':'#d946ef','North Carolina':'#84cc16','Washington D.C.':'#eab308'
+  };
+
+  const stateBars = document.getElementById('state-bars');
+  topStates.forEach(([label, count]) => {
+    const pctS = (count / maxState * 100);
+    const isIntl = label.startsWith('🌍');
+    const cleanName = label.replace('🌍 ', '');
+    let color;
+    if (isIntl) {
+      color = countryColors[cleanName] || '#6b7280';
+    } else {
+      color = stateColors[label] || '#6b7280';
+    }
+    const row = document.createElement('div');
+    row.className = 'bar-row';
+    row.innerHTML = `
+      <div class="bar-label">${label}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:0;background:${color}"><span>${count}</span></div></div>
+    `;
+    stateBars.appendChild(row);
+    setTimeout(() => { row.querySelector('.bar-fill').style.width = pctS + '%'; }, 400);
   });
 })();
 
