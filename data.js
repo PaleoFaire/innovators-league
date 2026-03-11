@@ -20740,23 +20740,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-11 02:37
+// Last updated: 2026-03-11 05:14
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Mara", headline: "Google brings Gemini in Chrome to India", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Anthropic", headline: "Trump Administration Won't Rule Out Further Action Against Anthropic", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Vast", headline: "Starlab Space fully books commercial payload space on planned space station", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "Kepler Communications", headline: "Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft", source: "SpaceNews", time: "3h ago", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Palantir", headline: "INDOPACOM was all in on Anthropic. Now it's working to adjust", source: "Defense One", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Palantir", headline: "Suspended NOAA satellite chief warns of threats to federal science programs", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Andromeda Surgical", headline: "Amazon launches its healthcare AI assistant on its website and app", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Cape", headline: "DOGE employee stole Social Security data and put it on a thumb drive, report says", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Starbase Will Double in Size", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Exowatt", headline: "Anker's Discounted Power Station Can Power Your Next Camping Trip", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Palantir", headline: "DHS Ousts CBP Privacy Officers Who Questioned 'Illegal' Orders", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Galvanick", headline: "Mandiant's founder just raised $190M for his autonomous AI agent security startup", source: "TechCrunch", time: "8h ago", impact: "medium", unread: false },
-  { id: 13, type: "funding", company: "Palantir", headline: "US military contractor likely built iPhone hacking tools used by Russian spies in Ukraine", source: "TechCrunch", time: "8h ago", impact: "medium", unread: false },
-  { id: 14, type: "contract", company: "Anthropic", headline: "The latest in Iran and an update in the Anthropic saga", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Atomic Industries", headline: "Precision in Orbit: Heraeus Catalysts Safeguard Satellite Control", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Asylon Robotics", headline: "Anduril to acquire space-tracking firm ExoAnalytic Solutions", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "Saule Technologies", headline: "A Deluge Of Solar Power Crushes A Hollow Victory For Coal", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Ample", headline: "BYD Song Ultra In Market Context: Value &#038; Next-Generation Capability", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Cape", headline: "Geoengineering The Gulf Of Maine", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Mara", headline: "Google brings Gemini in Chrome to India", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Anthropic", headline: "Trump Administration Won't Rule Out Further Action Against Anthropic", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Vast", headline: "Starlab Space fully books commercial payload space on planned space station", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Kepler Communications", headline: "Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft", source: "SpaceNews", time: "6h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Palantir", headline: "INDOPACOM was all in on Anthropic. Now it's working to adjust", source: "Defense One", time: "7h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Palantir", headline: "Suspended NOAA satellite chief warns of threats to federal science programs", source: "SpaceNews", time: "8h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Andromeda Surgical", headline: "Amazon launches its healthcare AI assistant on its website and app", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Cape", headline: "DOGE employee stole Social Security data and put it on a thumb drive, report says", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Starbase Will Double in Size", source: "Next Big Future", time: "9h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Exowatt", headline: "Anker's Discounted Power Station Can Power Your Next Camping Trip", source: "Wired", time: "10h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Palantir", headline: "DHS Ousts CBP Privacy Officers Who Questioned 'Illegal' Orders", source: "Wired", time: "10h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
