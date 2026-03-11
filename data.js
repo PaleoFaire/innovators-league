@@ -21791,23 +21791,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-11 08:53
+// Last updated: 2026-03-11 13:17
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Asylon Robotics", headline: "Anduril snaps up space surveillance firm ExoAnalytic Solutions", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Asylon Robotics", headline: "Anduril to acquire space-tracking firm ExoAnalytic Solutions", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Saule Technologies", headline: "A Deluge Of Solar Power Crushes A Hollow Victory For Coal", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Ample", headline: "BYD Song Ultra In Market Context: Value &#038; Next-Generation Capability", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Cape", headline: "Geoengineering The Gulf Of Maine", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Mara", headline: "Google brings Gemini in Chrome to India", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Anthropic", headline: "Trump Administration Won't Rule Out Further Action Against Anthropic", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Vast", headline: "Starlab Space fully books commercial payload space on planned space station", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Kepler Communications", headline: "Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft", source: "SpaceNews", time: "10h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Palantir", headline: "INDOPACOM was all in on Anthropic. Now it's working to adjust", source: "Defense One", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Palantir", headline: "Suspended NOAA satellite chief warns of threats to federal science programs", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Andromeda Surgical", headline: "Amazon launches its healthcare AI assistant on its website and app", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Cape", headline: "DOGE employee stole Social Security data and put it on a thumb drive, report says", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "SpaceX Starbase Will Double in Size", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Exowatt", headline: "Anker's Discounted Power Station Can Power Your Next Camping Trip", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Ample", headline: "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Astro Mechanica", headline: "The perils of political impatience in the Artemis program", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Galvanick", headline: "Google wraps up $32B acquisition of cloud security giant Wiz", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 4, type: "news", company: "Palantir", headline: "Japan shrugs off GCAP delays, fast-tracks export rules for future warplane", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You're Wrong", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Zoox", headline: "Zoox plans to put its robotaxis on the Uber app in Vegas this year", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "AST SpaceMobile", headline: "Telesat expands Canadian landing station footprint for Lightspeed", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Vertical Aerospace", headline: "Best Indoor Garden Systems: We've Been Testing All Year (2026)", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Kepler Communications", headline: "Large Series C signals scale-up of China's laser satellite communications sector", source: "SpaceNews", time: "3h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Anysphere", headline: "Inside OpenAI's Race to Catch Up to Claude Code", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "Asylon Robotics", headline: "Anduril snaps up space surveillance firm ExoAnalytic Solutions", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Asylon Robotics", headline: "Anduril to acquire space-tracking firm ExoAnalytic Solutions", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "Saule Technologies", headline: "A Deluge Of Solar Power Crushes A Hollow Victory For Coal", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "Ample", headline: "BYD Song Ultra In Market Context: Value &#038; Next-Generation Capability", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Cape", headline: "Geoengineering The Gulf Of Maine", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
