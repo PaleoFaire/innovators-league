@@ -579,11 +579,30 @@ Object.entries(SECTORS).forEach(([name, info]) => { sectorColors[name] = info.co
     if (STATE_NAMES_VIZ[code]) {
       const name = STATE_NAMES_VIZ[code];
       stateCounts[name] = (stateCounts[name]||0) + 1;
-    } else {
-      // International — resolve to country name
-      const country = getCountryViz(code, c.location);
-      const label = '🌍 ' + country;
+    } else if (INTL_CODES_VIZ[code]) {
+      // Known international code
+      const label = '🌍 ' + INTL_CODES_VIZ[code];
       stateCounts[label] = (stateCounts[label]||0) + 1;
+    } else if (c.location) {
+      // Try to resolve from location string
+      let resolved = false;
+      for (const [kw, country] of Object.entries(LOC_COUNTRIES)) {
+        if (c.location.includes(kw)) {
+          stateCounts['🌍 ' + country] = (stateCounts['🌍 ' + country]||0) + 1;
+          resolved = true;
+          break;
+        }
+      }
+      if (!resolved) {
+        // Extract country from "City, Country" pattern
+        const parts = c.location.split(',');
+        if (parts.length >= 2) {
+          const region = parts[parts.length - 1].trim();
+          if (region.length > 2 && !STATE_NAMES_VIZ[region]) {
+            stateCounts['🌍 ' + region] = (stateCounts['🌍 ' + region]||0) + 1;
+          }
+        }
+      }
     }
   });
 
