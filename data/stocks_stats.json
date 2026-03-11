@@ -3,75 +3,75 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 2.66,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -1.19,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -2.59,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -5.49,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 0.46,
+      "avg_change": 1.21,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.06,
+      "avg_change": -5.72,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.7,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -2.95,
       "count": 3
     },
     "quantum": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -0.73,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.24,
       "count": 3
     },
     "biotech": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -3.09,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.87,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 5.63,
+      "avg_change": 5.05,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.04,
+      "avg_change": 4.24,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RIVN",
-      "Rivian",
-      9.54
-    ],
-    [
       "DRSHF",
       "DroneShield",
-      8.04
+      12.52
     ],
     [
-      "AMD",
-      "AMD",
-      6.43
+      "ALAB",
+      "Astera Labs",
+      10.06
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      10.02
     ],
     [
       "277810.KQ",
@@ -79,37 +79,37 @@
       6.25
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      6.08
+      "TEM",
+      "Tempus AI",
+      1.74
     ]
   ],
   "topLosers": [
     [
-      "IONQ",
-      "IonQ",
-      -5.21
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -5.47
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -5.56
-    ],
-    [
-      "ACHR",
-      "Archer Aviation",
-      -5.95
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -7.55
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -8.15
+      -8.0
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      -8.35
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -9.76
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -16.08
     ]
   ],
-  "lastUpdated": "2026-03-11 13:09:54"
+  "lastUpdated": "2026-03-11 19:01:45"
 }
