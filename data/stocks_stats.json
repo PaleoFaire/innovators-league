@@ -11,13 +11,13 @@
     "space": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -2.42,
+      "avg_change": -2.59,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 1.02,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 0.68,
       "count": 7
     },
     "nuclear": {
@@ -59,11 +59,6 @@
   },
   "topGainers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      11.51
-    ],
-    [
       "RIVN",
       "Rivian",
       9.54
@@ -71,7 +66,7 @@
     [
       "DRSHF",
       "DroneShield",
-      8.24
+      8.04
     ],
     [
       "ONT.L",
@@ -82,6 +77,11 @@
       "AMD",
       "AMD",
       6.43
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      6.25
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -8.15
     ]
   ],
-  "lastUpdated": "2026-03-11 02:23:59"
+  "lastUpdated": "2026-03-11 06:59:45"
 }
