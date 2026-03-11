@@ -21791,23 +21791,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-11 17:01
+// Last updated: 2026-03-11 20:41
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Karman Industries", headline: "Rivian spin-out Mind Robotics raises $500M for industrial AI-powered robots", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Harbinger", headline: "EV startup Harbinger reveals a smaller work truck with electric and hybrid variants", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", time: "1h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Cape", headline: "Germany's Rheinmetall predicts $16.8B annual order boom, will 'focus entirely' on defense", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Ample", headline: "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Mach Industries", headline: "How Robert Goddard's Self-Reliance Crashed His Rocket Dreams", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Galvanick", headline: "Google wraps up $32B acquisition of cloud cybersecurity startup Wiz", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
-  { id: 8, type: "news", company: "Palantir", headline: "Japan shrugs off GCAP delays, fast-tracks export rules for future warplane", source: "Defense News", time: "4h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You're Wrong", source: "IEEE Spectrum", time: "5h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Zoox", headline: "Zoox plans to put its robotaxis on the Uber app in Vegas this year", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Vertical Aerospace", headline: "Best Indoor Garden Systems: We've Been Testing All Year (2026)", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anysphere", headline: "Inside OpenAI's Race to Catch Up to Claude Code", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Asylon Robotics", headline: "Anduril snaps up space surveillance firm ExoAnalytic Solutions", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Saule Technologies", headline: "A Deluge Of Solar Power Crushes A Hollow Victory For Coal", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Ample", headline: "BYD Song Ultra In Market Context: Value &#038; Next-Generation Capability", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Durin", headline: "Norwegian F-35s intercept Russian spy aircraft during NATO drill", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Palantir", headline: "Iran Warns US Tech Firms Could Become Targets as War Expands", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Hubble Network", headline: "Our Favorite Backyard Bluetooth Speaker Is $25 Off", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models, Filings Show", source: "Wired", time: "2h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Re:Build Manufacturing", headline: "Defense Business Brief: 3D-printing on the battlefield; Reshoring drone dominance; AI on submarines", source: "Defense One", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "White Stork", headline: "Anduril, the autonomous weapons maker, doubles the size of its space unit", source: "Ars Technica Space", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Karman Industries", headline: "Rivian spin-out Mind Robotics raises $500M for industrial AI-powered robots", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "Harbinger", headline: "EV startup Harbinger reveals a smaller work truck with electric and hybrid variants", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", time: "5h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Cape", headline: "Germany's Rheinmetall predicts $16.8B annual order boom, will 'focus entirely' on defense", source: "Breaking Defense", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Ample", headline: "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Mach Industries", headline: "How Robert Goddard's Self-Reliance Crashed His Rocket Dreams", source: "IEEE Spectrum", time: "7h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Palantir", headline: "Japan shrugs off GCAP delays, fast-tracks export rules for future warplane", source: "Defense News", time: "8h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You're Wrong", source: "IEEE Spectrum", time: "8h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Anthropic", headline: "StateChat users move to older AI model as State dumps Anthropic", source: "Defense One", time: "8h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
