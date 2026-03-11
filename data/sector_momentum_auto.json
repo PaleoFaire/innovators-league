@@ -1,30 +1,30 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 80,
+    "momentum": 75,
     "trend": "accelerating",
     "catalysts": [
-      "An iPhone-hacking toolkit used by Russian spies likely came",
-      "OpenAI and Google employees rush to Anthropic&#8217;s defens",
-      "Anthropic sues DOD, Hegseth, and a dozen other federal agenc"
+      "Anduril to acquire space-tracking firm ExoAnalytic Solutions",
+      "Google brings Gemini in Chrome to India",
+      "Viasat wins $14 million contract to provide in-flight satcom"
     ],
     "fundingQ": "$66.9B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 100
+      "market": 77
     },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
   },
   {
     "sector": "AI & Software",
     "momentum": 70,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI and Google employees rush to Anthropic&#8217;s defens",
-      "Anthropic sues DOD, Hegseth, and a dozen other federal agenc",
-      "Anthropic Claims Pentagon Feud Could Cost It Billions"
+      "Trump Administration Won\u2019t Rule Out Further Action Against A",
+      "INDOPACOM was all in on Anthropic. Now it\u2019s working to adjus",
+      "The latest in Iran and an update in the Anthropic saga"
     ],
     "fundingQ": "$360.0B",
     "components": {
@@ -33,87 +33,68 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 64,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
       "Geely &#038; WeRide Planning 2,000 Robotaxis for This Year",
       "Unlocking Hidden Capacity in the Grid With Advanced Conducto",
-      "Qualcomm&#8217;s partnership with Neura Robotics is just the"
+      "GNSS resilience is an economic and security priority"
     ],
     "fundingQ": "$17.7B",
     "components": {
       "funding": 100,
-      "news": 75,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 52,
+    "momentum": 54,
     "trend": "steady",
     "catalysts": [
-      "Do Offshore Wind Farms Pose National Security Risks?",
-      "BYD\u2019s 1.5 MW \u201cFlash\u201d Charging Wasn\u2019t A Gimmick. The Battery"
+      "Viasat wins $14 million contract to provide in-flight satcom",
+      "Do Offshore Wind Farms Pose National Security Risks?"
     ],
     "fundingQ": "$900.0B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 51,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
-      "Demand Shifting in Hawai\u02bbi: The Other Half of the Energy Tra",
-      "Biomethane for O\u02bbahu: A Small Reserve With a Big Reliability",
-      "District Cooling From the Pacific: A Targeted Efficiency for"
+      "Geoengineering The Gulf Of Maine",
+      "Demand Shifting in Hawai\u02bbi: The Other Half of the Energy Tra"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-10"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 39,
-    "trend": "steady",
-    "catalysts": [
-      "SSTL to build spacecraft for private space telescope",
-      "Anthropic launches code review tool to check flood of AI-gen",
-      "GNSS resilience is an economic and security priority"
-    ],
-    "fundingQ": "$175M",
-    "components": {
-      "funding": 9,
-      "news": 100,
-      "hiring": 0,
-      "market": 56
-    },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "SSTL to build spacecraft for private space telescope",
-      "US Farmers Need Green Ammonia, And China Has It",
-      "Russian government hackers targeting Signal and WhatsApp use"
+      "Anduril to acquire space-tracking firm ExoAnalytic Solutions",
+      "A Deluge Of Solar Power Crushes A Hollow Victory For Coal",
+      "Geoengineering The Gulf Of Maine"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -122,92 +103,130 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 33,
+    "trend": "steady",
+    "catalysts": [
+      "Anduril to acquire space-tracking firm ExoAnalytic Solutions",
+      "BYD Song Ultra In Market Context: Value &#038; Next-Generati",
+      "Starlab Space fully books commercial payload space on planne"
+    ],
+    "fundingQ": "$175M",
+    "components": {
+      "funding": 9,
+      "news": 100,
+      "hiring": 0,
+      "market": 26
+    },
+    "lastUpdated": "2026-03-11"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 26,
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "In Alaska, a Data Center Inside a Power Plant, Inside a Micr",
-      "US Farmers Need Green Ammonia, And China Has It",
-      "Over 400 Tesla Fast Chargers Planned For New Charging Hub"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 75,
-      "hiring": 0,
-      "market": 37
-    },
-    "lastUpdated": "2026-03-10"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 26,
-    "trend": "rising",
-    "catalysts": [
-      "In Alaska, a Data Center Inside a Power Plant, Inside a Micr",
-      "Unlocking Hidden Capacity in the Grid With Advanced Conducto",
-      "Steering Electricity: How Grid Control Devices Unlock Transm"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 65,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-10"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 22,
-    "trend": "rising",
-    "catalysts": [
-      "\u2018Flying Cars\u2019 Will Take Off in American Skies This Summer",
-      "GNSS resilience is an economic and security priority"
+      "A Deluge Of Solar Power Crushes A Hollow Victory For Coal",
+      "BYD Song Ultra In Market Context: Value &#038; Next-Generati",
+      "Use Microsoft PC Manager to Speed Up Your Windows 11 Compute"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 50,
       "hiring": 0,
+      "market": 93
+    },
+    "lastUpdated": "2026-03-11"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 22,
+    "trend": "declining",
+    "catalysts": [
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-03-11"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Anker\u2019s Discounted Power Station Can Power Your Next Camping",
+      "In Alaska, a Data Center Inside a Power Plant, Inside a Micr",
+      "Unlocking Hidden Capacity in the Grid With Advanced Conducto"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 45,
+      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "Mandiant&#8217;s founder just raised $190M for his autonomou",
+      "\u2018Flying Cars\u2019 Will Take Off in American Skies This Summer",
+      "GNSS resilience is an economic and security priority"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-11"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 18,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
-      "Anthropic launches code review tool to check flood of AI-gen"
+      "A Deluge Of Solar Power Crushes A Hollow Victory For Coal",
+      "BYD Song Ultra In Market Context: Value &#038; Next-Generati",
+      "Amazon launches its healthcare AI assistant on its website a"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
       "news": 40,
       "hiring": 0,
-      "market": 24
+      "market": 31
     },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 16,
+    "sector": "Transportation",
+    "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "Qualcomm&#8217;s partnership with Neura Robotics is just the"
+      "Lotus Poised To Be The First Chinese EV Brand In Canada Unde",
+      "\u2018Flying Cars\u2019 Will Take Off in American Skies This Summer"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
-      "market": 62
+      "market": 66
     },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -223,29 +242,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-10"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Electric air taxi maker Archer hits back at Joby in counters",
-      "\u2018Flying Cars\u2019 Will Take Off in American Skies This Summer",
-      "Electric air taxis are about to take flight in 26 states"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 17
-    },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 7,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -255,24 +256,24 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 29
+      "market": 43
     },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 6,
+    "momentum": 8,
     "trend": "declining",
     "catalysts": [
-      "Finland readies itself to be able to host nukes in longtime"
+      "BYD Song Ultra In Market Context: Value &#038; Next-Generati"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 15
     },
-    "lastUpdated": "2026-03-10"
+    "lastUpdated": "2026-03-11"
   }
 ]

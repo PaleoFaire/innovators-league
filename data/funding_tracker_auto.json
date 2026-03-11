@@ -135,16 +135,30 @@
   },
   {
     "company": "Galvanick",
-    "totalRaised": "$9.0B+",
-    "totalRaisedRaw": 9000.0,
-    "lastRound": "Seed",
-    "lastRoundAmount": "$9B",
-    "lastRoundDate": "2026-02",
+    "totalRaised": "$9.2B+",
+    "totalRaisedRaw": 9190.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$190M",
+    "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 2
+  },
+  {
+    "company": "Built Robotics",
+    "totalRaised": "$5.8B+",
+    "totalRaisedRaw": 5754.1,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$4.1M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Accel"
+    ],
+    "roundCount": 3
   },
   {
     "company": "Ample",
@@ -214,15 +228,15 @@
   {
     "company": "GHGSat",
     "totalRaised": "$1.3B+",
-    "totalRaisedRaw": 1300.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$1.3B",
-    "lastRoundDate": "2026-02",
+    "totalRaisedRaw": 1310.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$10M",
+    "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "SHIELD Technology Partners",
@@ -255,6 +269,19 @@
     "totalRaised": "$1.0B+",
     "totalRaisedRaw": 1000.0,
     "lastRound": "Funding Round",
+    "lastRoundAmount": "$1B",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Endurosat",
+    "totalRaised": "$1.0B+",
+    "totalRaisedRaw": 1000.0,
+    "lastRound": "Seed",
     "lastRoundAmount": "$1B",
     "lastRoundDate": "2026-03",
     "valuation": "",
@@ -673,19 +700,6 @@
     "valuation": "",
     "leadInvestors": [
       "Accel"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Built Robotics",
-    "totalRaised": "$4M+",
-    "totalRaisedRaw": 4.1,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$4.1M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
     ],
     "roundCount": 1
   }
