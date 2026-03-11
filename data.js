@@ -21791,23 +21791,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-11 13:17
+// Last updated: 2026-03-11 17:01
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Ample", headline: "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Astro Mechanica", headline: "The perils of political impatience in the Artemis program", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Galvanick", headline: "Google wraps up $32B acquisition of cloud security giant Wiz", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 4, type: "news", company: "Palantir", headline: "Japan shrugs off GCAP delays, fast-tracks export rules for future warplane", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You're Wrong", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Zoox", headline: "Zoox plans to put its robotaxis on the Uber app in Vegas this year", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "AST SpaceMobile", headline: "Telesat expands Canadian landing station footprint for Lightspeed", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Vertical Aerospace", headline: "Best Indoor Garden Systems: We've Been Testing All Year (2026)", source: "Wired", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Kepler Communications", headline: "Large Series C signals scale-up of China's laser satellite communications sector", source: "SpaceNews", time: "3h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Anysphere", headline: "Inside OpenAI's Race to Catch Up to Claude Code", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Asylon Robotics", headline: "Anduril snaps up space surveillance firm ExoAnalytic Solutions", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Asylon Robotics", headline: "Anduril to acquire space-tracking firm ExoAnalytic Solutions", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Saule Technologies", headline: "A Deluge Of Solar Power Crushes A Hollow Victory For Coal", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Ample", headline: "BYD Song Ultra In Market Context: Value &#038; Next-Generation Capability", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Cape", headline: "Geoengineering The Gulf Of Maine", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Karman Industries", headline: "Rivian spin-out Mind Robotics raises $500M for industrial AI-powered robots", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Harbinger", headline: "EV startup Harbinger reveals a smaller work truck with electric and hybrid variants", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", time: "1h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Cape", headline: "Germany's Rheinmetall predicts $16.8B annual order boom, will 'focus entirely' on defense", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Ample", headline: "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Mach Industries", headline: "How Robert Goddard's Self-Reliance Crashed His Rocket Dreams", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Galvanick", headline: "Google wraps up $32B acquisition of cloud cybersecurity startup Wiz", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "Palantir", headline: "Japan shrugs off GCAP delays, fast-tracks export rules for future warplane", source: "Defense News", time: "4h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You're Wrong", source: "IEEE Spectrum", time: "5h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Zoox", headline: "Zoox plans to put its robotaxis on the Uber app in Vegas this year", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Vertical Aerospace", headline: "Best Indoor Garden Systems: We've Been Testing All Year (2026)", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anysphere", headline: "Inside OpenAI's Race to Catch Up to Claude Code", source: "Wired", time: "7h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "Asylon Robotics", headline: "Anduril snaps up space surveillance firm ExoAnalytic Solutions", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "Saule Technologies", headline: "A Deluge Of Solar Power Crushes A Hollow Victory For Coal", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Ample", headline: "BYD Song Ultra In Market Context: Value &#038; Next-Generation Capability", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
