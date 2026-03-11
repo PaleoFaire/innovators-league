@@ -5,68 +5,68 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.76,
+      "avg_change": 2.66,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -1.24,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -2.42,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -1.4,
+      "avg_change": 1.02,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.36,
+      "avg_change": -5.06,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.65,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.7,
       "count": 3
     },
     "quantum": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.69,
+      "avg_change": -0.73,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 1.22,
+      "avg_change": 1.1,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 6.87,
+      "avg_change": 5.63,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.93,
+      "avg_change": 5.04,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "RIVN",
-      "Rivian",
-      11.72
+      "277810.KQ",
+      "Rainbow Robotics",
+      11.51
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      8.27
+      "RIVN",
+      "Rivian",
+      9.54
     ],
     [
       "DRSHF",
@@ -81,35 +81,35 @@
     [
       "AMD",
       "AMD",
-      6.86
+      6.43
     ]
   ],
   "topLosers": [
-    [
-      "AUR",
-      "Aurora Innovation",
-      -4.72
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -4.79
-    ],
     [
       "ASRHF",
       "Astroscale",
       -5.2
     ],
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      -7.8
+      "IONQ",
+      "IonQ",
+      -5.21
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -8.81
+      "ASTS",
+      "AST SpaceMobile",
+      -5.56
+    ],
+    [
+      "ACHR",
+      "Archer Aviation",
+      -5.95
+    ],
+    [
+      "NNE",
+      "Nano Nuclear Energy",
+      -8.15
     ]
   ],
-  "lastUpdated": "2026-03-10 18:55:59"
+  "lastUpdated": "2026-03-11 02:23:59"
 }
