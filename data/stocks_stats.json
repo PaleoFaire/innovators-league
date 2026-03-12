@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -1.04,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.81,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -1.6,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 1.11,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -0.72,
+      "avg_change": -2.27,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.95,
+      "avg_change": -3.86,
       "count": 3
     },
     "climate": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.01,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -2.35,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -4.11,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.83,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.03,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -5.79,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 6.03,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": -0.09,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 4.21,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -0.42,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "ASRHF",
       "Astroscale",
-      14.78
+      13.29
     ],
     [
       "DRSHF",
       "DroneShield",
-      12.33
+      7.78
     ],
     [
-      "RIVN",
-      "Rivian",
-      11.6
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      9.62
+      "PL",
+      "Planet Labs",
+      4.05
     ],
     [
       "JOBY",
       "Joby Aviation",
-      3.44
+      3.49
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      1.88
     ]
   ],
   "topLosers": [
     [
-      "NNE",
-      "Nano Nuclear Energy",
-      -6.18
+      "TEM",
+      "Tempus AI",
+      -6.33
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -6.36
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -6.54
     ],
     [
       "IONQ",
       "IonQ",
-      -7.7
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      -7.99
+      -7.25
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       -9.2
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -15.9
     ]
   ],
-  "lastUpdated": "2026-03-12 13:09:37"
+  "lastUpdated": "2026-03-12 18:59:36"
 }
