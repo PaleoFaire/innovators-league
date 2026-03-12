@@ -11,13 +11,13 @@
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -2.53,
+      "avg_change": -1.6,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -0.5,
+      "avg_change": -0.77,
       "count": 7
     },
     "nuclear": {
@@ -59,9 +59,14 @@
   },
   "topGainers": [
     [
+      "ASRHF",
+      "Astroscale",
+      14.78
+    ],
+    [
       "DRSHF",
       "DroneShield",
-      12.52
+      12.33
     ],
     [
       "RIVN",
@@ -72,11 +77,6 @@
       "ALAB",
       "Astera Labs",
       9.62
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      8.82
     ],
     [
       "JOBY",
@@ -103,7 +103,7 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -10.63
+      -9.2
     ],
     [
       "ASTS",
@@ -111,5 +111,5 @@
       -15.9
     ]
   ],
-  "lastUpdated": "2026-03-12 02:29:57"
+  "lastUpdated": "2026-03-12 07:01:22"
 }
