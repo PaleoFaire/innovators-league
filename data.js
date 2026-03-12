@@ -21475,25 +21475,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-12 05:18
-// Auto-generated real-time signals
-// Last updated: 2026-03-12
+// Last updated: 2026-03-12 08:54
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Firefly Aerospace", headline: "Firefly Alpha returns to flight", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Together AI", headline: "How to Fix Greenwashing Risks in the EU’s Next Long-Term Budget", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Andrenam", headline: "Burning Plastic Isn’t Renewable: Rethinking Waste &#038; Power In Hawaii", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "The Post-Capacity Era of Satellite Connectivity", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Mach Industries", headline: "Enpulsion raises $26 million", source: "SpaceNews", time: "6h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "Ample", headline: "The NEVI Funds Are Finally Unfrozen, But The Administration’s Chaos Goes Unpunished", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Aurora Innovation", headline: "Nuro is testing its autonomous vehicle tech on Tokyo&#8217;s streets", source: "TechCrunch", time: "7h ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "PILGRIM", headline: "Zendesk acquires agentic customer service startup Forethought", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Amca", headline: "Netflix may have paid $600 million for Ben Affleck&#8217;s AI startup", source: "TechCrunch", time: "9h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Matic Robotics", headline: "How the Iran War Could Jack Up Prices on Store Shelves", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "hire", company: "Apptronik", headline: "Mercedes Is Fear Mongering On EV Policies Again", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Durin", headline: "Norwegian F-35s intercept Russian spy aircraft during NATO drill", source: "Defense News", time: "11h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Palantir", headline: "Iran Warns US Tech Firms Could Become Targets as War Expands", source: "Wired", time: "12h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Hubble Network", headline: "Our Favorite Backyard Bluetooth Speaker Is $25 Off", source: "Wired", time: "12h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Anthropic", headline: "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models, Filings Show", source: "Wired", time: "13h ago", impact: "high", unread: false },
+  { id: 1, type: "news", company: "Vast", headline: "Magazine Breadth ' Not Just Depth ' Is Key to Munitions Industrial Base Resilience", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Firefly Aerospace", headline: "Firefly Alpha returns to flight", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Together AI", headline: "How to Fix Greenwashing Risks in the EU's Next Long-Term Budget", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Andrenam", headline: "Burning Plastic Isn't Renewable: Rethinking Waste &#038; Power In Hawaii", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "The Post-Capacity Era of Satellite Connectivity", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Mach Industries", headline: "Enpulsion raises $26 million", source: "SpaceNews", time: "8h ago", impact: "medium", unread: false },
+  { id: 7, type: "news", company: "Ample", headline: "The NEVI Funds Are Finally Unfrozen, But The Administration's Chaos Goes Unpunished", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Aurora Innovation", headline: "Nuro is testing its autonomous vehicle tech on Tokyo's streets", source: "TechCrunch", time: "9h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "PILGRIM", headline: "Zendesk acquires agentic customer service startup Forethought", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Amca", headline: "Netflix may have paid $600 million for Ben Affleck's AI startup", source: "TechCrunch", time: "10h ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Matic Robotics", headline: "How the Iran War Could Jack Up Prices on Store Shelves", source: "Wired", time: "10h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Apptronik", headline: "Mercedes Is Fear Mongering On EV Policies Again", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Durin", headline: "Norwegian F-35s intercept Russian spy aircraft during NATO drill", source: "Defense News", time: "13h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Palantir", headline: "Iran Warns US Tech Firms Could Become Targets as War Expands", source: "Wired", time: "14h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Hubble Network", headline: "Our Favorite Backyard Bluetooth Speaker Is $25 Off", source: "Wired", time: "14h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
