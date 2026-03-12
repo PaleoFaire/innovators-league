@@ -21475,23 +21475,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-12 13:17
+// Last updated: 2026-03-12 17:03
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Xtend", headline: "Pragmatic by design: Engineering AI for the real world", source: "MIT Tech Review", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "hire", company: "Ample", headline: "Group14 opens factory to produce battery materials for flash charging EVs", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Hadrian", headline: "While OpenAI Shattered Records, Robotics and Semiconductor Startups Quietly Added The Most New Unicorns In February", source: "Crunchbase News", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Armada", headline: "France's Mediterranean armada signals clout as Middle East may rethink alliances", source: "Defense News", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Vast", headline: "Magazine Breadth ' Not Just Depth ' Is Key to Munitions Industrial Base Resilience", source: "War on the Rocks", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Together AI", headline: "How to Fix Greenwashing Risks in the EU's Next Long-Term Budget", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Andrenam", headline: "Burning Plastic Isn't Renewable: Rethinking Waste &#038; Power In Hawaii", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Ample", headline: "The NEVI Funds Are Finally Unfrozen, But The Administration's Chaos Goes Unpunished", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Aurora Innovation", headline: "Nuro is testing its autonomous vehicle tech on Tokyo's streets", source: "TechCrunch", time: "14h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "PILGRIM", headline: "Zendesk acquires agentic customer service startup Forethought", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Amca", headline: "Netflix may have paid $600 million for Ben Affleck's AI startup", source: "TechCrunch", time: "15h ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Matic Robotics", headline: "How the Iran War Could Jack Up Prices on Store Shelves", source: "Wired", time: "15h ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Apptronik", headline: "Mercedes Is Fear Mongering On EV Policies Again", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Durin", headline: "Norwegian F-35s intercept Russian spy aircraft during NATO drill", source: "Defense News", time: "17h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Palantir", headline: "Iran Warns US Tech Firms Could Become Targets as War Expands", source: "Wired", time: "18h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Flock Safety", headline: "Law enforcement shuts down botnet made of tens of thousands of hacked routers", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Ample", headline: "Gumloop lands $50M from Benchmark to turn every employee into an AI agent builder", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 3, type: "milestone", company: "Rivian", headline: "Rivian R2 launch: Here's what $57,990 gets you", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Waymo", headline: "Uber, Wayve, and Nissan plan to launch a robotaxi service in Tokyo this year", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Axiom Space", headline: "The new wave of industry coming for the LEO frontier", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Ample", headline: "San Francisco Could Add 100 New Curbside EV Chargers", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: false },
+  { id: 7, type: "news", company: "Amidon Heavy Industries", headline: "DIU, Navy tap Anduril to prototype Dive-XL autonomous submarine", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Xtend", headline: "Pragmatic by design: Engineering AI for the real world", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Astranis", headline: "Astranis taps retired Gen. John Hyten to lead advisory board", source: "SpaceNews", time: "4h ago", impact: "high", unread: false },
+  { id: 10, type: "ipo", company: "Mach Industries", headline: "York Space acquires satellite propulsion manufacturer Orbion Space", source: "SpaceNews", time: "4h ago", impact: "high", unread: false },
+  { id: 11, type: "hire", company: "Ample", headline: "Group14 opens factory to produce battery materials for flash charging EVs", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Hadrian", headline: "While OpenAI Shattered Records, Robotics and Semiconductor Startups Quietly Added The Most New Unicorns In February", source: "Crunchbase News", time: "6h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Armada", headline: "France's Mediterranean armada signals clout as Middle East may rethink alliances", source: "Defense News", time: "7h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Vast", headline: "Magazine Breadth ' Not Just Depth ' Is Key to Munitions Industrial Base Resilience", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Firefly Aerospace", headline: "Firefly Alpha returns to flight", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
