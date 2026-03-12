@@ -570,12 +570,19 @@ function renderCoInvestGraph() {
     connectedFirms.add(c.target);
   });
 
+  if (connectedFirms.size === 0) {
+    container.innerHTML = '<div class="graph-loading"><span>No co-investment connections found.</span></div>';
+    return;
+  }
+
   const nodes = [...connectedFirms].map(name => {
     const firm = VC_FIRMS.find(f => f.shortName === name);
     return {
       id: name,
       aum: firm ? parseAUM(firm.aum) : 0,
-      portfolioSize: firm ? firm.portfolioCompanies.length : 0
+      portfolioSize: firm ? firm.portfolioCompanies.length : 0,
+      hq: firm ? firm.hq : '',
+      aumStr: firm ? firm.aum : ''
     };
   });
 
@@ -586,26 +593,47 @@ function renderCoInvestGraph() {
     companies: c.companies
   }));
 
-  // Set dimensions
-  const width = container.clientWidth;
-  const height = container.clientHeight || 500;
-
-  // Clear previous content
-  container.innerHTML = '';
-
-  // Check if D3 is available
   if (typeof d3 === 'undefined') {
-    // Load D3 dynamically
-    const script = document.createElement('script');
-    script.src = 'https://d3js.org/d3.v7.min.js';
-    script.onload = () => createForceGraph(container, nodes, links, width, height);
-    document.head.appendChild(script);
-  } else {
+    container.innerHTML = '<div class="graph-loading"><span>D3 library failed to load. Refresh the page.</span></div>';
+    return;
+  }
+
+  // Wait for container to be visible and have dimensions
+  function tryCreateGraph() {
+    const width = container.clientWidth;
+    const height = container.clientHeight || 500;
+    if (width < 100) {
+      setTimeout(tryCreateGraph, 200);
+      return;
+    }
+    container.innerHTML = '';
     createForceGraph(container, nodes, links, width, height);
+  }
+
+  // Use IntersectionObserver to only render when visible
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        tryCreateGraph();
+        observer.disconnect();
+      }
+    }, { threshold: 0.1 });
+    observer.observe(container);
+  } else {
+    tryCreateGraph();
   }
 }
 
 function createForceGraph(container, nodes, links, width, height) {
+  // Accent color
+  const accent = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#ff6b35';
+
+  // Color scale for nodes by AUM
+  const maxAUM = Math.max(...nodes.map(n => n.aum), 1);
+  const colorScale = d3.scaleLinear()
+    .domain([0, maxAUM * 0.3, maxAUM])
+    .range(['#60a5fa', accent, '#ef4444']);
+
   // Create SVG
   const svg = d3.select(container)
     .append('svg')
@@ -613,10 +641,18 @@ function createForceGraph(container, nodes, links, width, height) {
     .attr('height', height)
     .attr('viewBox', [0, 0, width, height]);
 
+  // Defs for glow filter
+  const defs = svg.append('defs');
+  const filter = defs.append('filter').attr('id', 'glow');
+  filter.append('feGaussianBlur').attr('stdDeviation', '3').attr('result', 'coloredBlur');
+  const feMerge = filter.append('feMerge');
+  feMerge.append('feMergeNode').attr('in', 'coloredBlur');
+  feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
+
   // Add zoom behavior
   const g = svg.append('g');
   svg.call(d3.zoom()
-    .scaleExtent([0.5, 3])
+    .scaleExtent([0.3, 4])
     .on('zoom', (event) => {
       g.attr('transform', event.transform);
     }));
@@ -625,11 +661,17 @@ function createForceGraph(container, nodes, links, width, height) {
   const simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links)
       .id(d => d.id)
-      .distance(d => 150 - d.weight * 10)
-      .strength(d => 0.1 + d.weight * 0.05))
-    .force('charge', d3.forceManyBody().strength(-300))
+      .distance(d => Math.max(80, 180 - d.weight * 20))
+      .strength(d => 0.15 + d.weight * 0.05))
+    .force('charge', d3.forceManyBody().strength(-400))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(50));
+    .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 15))
+    .force('x', d3.forceX(width / 2).strength(0.05))
+    .force('y', d3.forceY(height / 2).strength(0.05));
+
+  function nodeRadius(d) {
+    return Math.max(16, Math.min(38, 12 + d.portfolioSize * 1.8));
+  }
 
   // Draw links
   const link = g.append('g')
@@ -638,7 +680,16 @@ function createForceGraph(container, nodes, links, width, height) {
     .data(links)
     .join('line')
     .attr('class', 'link')
-    .attr('stroke-width', d => Math.sqrt(d.weight) * 2);
+    .attr('stroke-width', d => Math.max(1.5, Math.sqrt(d.weight) * 2.5));
+
+  // Edge labels showing count
+  const edgeLabel = g.append('g')
+    .attr('class', 'edge-labels')
+    .selectAll('text')
+    .data(links)
+    .join('text')
+    .attr('class', 'edge-label')
+    .text(d => d.weight > 1 ? d.weight : '');
 
   // Create node groups
   const node = g.append('g')
@@ -654,47 +705,138 @@ function createForceGraph(container, nodes, links, width, height) {
 
   // Add circles to nodes
   node.append('circle')
-    .attr('r', d => Math.max(15, Math.min(35, 10 + d.portfolioSize * 2)))
-    .attr('fill', getComputedStyle(document.documentElement).getPropertyValue('--accent') || '#ff6b35');
+    .attr('r', d => nodeRadius(d))
+    .attr('fill', d => colorScale(d.aum))
+    .style('filter', 'url(#glow)');
 
-  // Add labels to nodes
+  // AUM label inside node
+  node.append('text')
+    .text(d => d.aumStr ? d.aumStr.replace('+', '') : '')
+    .attr('x', 0)
+    .attr('y', 3)
+    .attr('text-anchor', 'middle')
+    .attr('fill', '#fff')
+    .attr('font-size', d => nodeRadius(d) > 24 ? '8px' : '6px')
+    .attr('font-weight', '700')
+    .attr('font-family', "'Space Grotesk', sans-serif")
+    .style('pointer-events', 'none');
+
+  // Add name labels above nodes
   node.append('text')
     .text(d => d.id)
     .attr('x', 0)
-    .attr('y', d => -Math.max(15, Math.min(35, 10 + d.portfolioSize * 2)) - 5)
+    .attr('y', d => -nodeRadius(d) - 6)
     .attr('text-anchor', 'middle')
-    .attr('fill', getComputedStyle(document.documentElement).getPropertyValue('--text-secondary') || '#888');
+    .attr('font-size', '11px')
+    .attr('font-weight', '600');
 
-  // Add title for tooltips
-  node.append('title')
-    .text(d => {
-      const firm = VC_FIRMS.find(f => f.shortName === d.id);
-      const connections = links.filter(l => l.source.id === d.id || l.target.id === d.id);
-      const coInvestors = connections.map(c => c.source.id === d.id ? c.target.id : c.source.id);
-      return `${d.id}\n${firm ? firm.aum + ' AUM' : ''}\nCo-invests with: ${coInvestors.join(', ')}`;
-    });
+  // Selected node state
+  let selectedNode = null;
 
-  // Handle node click to highlight connections
+  // Handle node click — show info panel
   node.on('click', function(event, d) {
     event.stopPropagation();
+
+    // Toggle selection
+    if (selectedNode === d.id) {
+      resetHighlights();
+      return;
+    }
+    selectedNode = d.id;
+
+    // Highlight connected nodes and links
     const connected = new Set();
     connected.add(d.id);
+    const connectedLinks = [];
     links.forEach(l => {
-      if (l.source.id === d.id) connected.add(l.target.id);
-      if (l.target.id === d.id) connected.add(l.source.id);
+      const sId = typeof l.source === 'object' ? l.source.id : l.source;
+      const tId = typeof l.target === 'object' ? l.target.id : l.target;
+      if (sId === d.id) { connected.add(tId); connectedLinks.push(l); }
+      if (tId === d.id) { connected.add(sId); connectedLinks.push(l); }
     });
 
     node.classed('dimmed', n => !connected.has(n.id));
-    link.classed('dimmed', l => l.source.id !== d.id && l.target.id !== d.id);
-    link.classed('highlighted', l => l.source.id === d.id || l.target.id === d.id);
+    node.classed('selected', n => n.id === d.id);
+    link.classed('dimmed', l => {
+      const sId = typeof l.source === 'object' ? l.source.id : l.source;
+      const tId = typeof l.target === 'object' ? l.target.id : l.target;
+      return sId !== d.id && tId !== d.id;
+    });
+    link.classed('highlighted', l => {
+      const sId = typeof l.source === 'object' ? l.source.id : l.source;
+      const tId = typeof l.target === 'object' ? l.target.id : l.target;
+      return sId === d.id || tId === d.id;
+    });
+    edgeLabel.classed('highlighted', l => {
+      const sId = typeof l.source === 'object' ? l.source.id : l.source;
+      const tId = typeof l.target === 'object' ? l.target.id : l.target;
+      return sId === d.id || tId === d.id;
+    });
+
+    // Build info panel content
+    const firm = VC_FIRMS.find(f => f.shortName === d.id);
+    const sortedConns = connectedLinks
+      .map(l => {
+        const sId = typeof l.source === 'object' ? l.source.id : l.source;
+        const tId = typeof l.target === 'object' ? l.target.id : l.target;
+        return {
+          partner: sId === d.id ? tId : sId,
+          count: l.weight,
+          companies: l.companies
+        };
+      })
+      .sort((a, b) => b.count - a.count);
+
+    const totalShared = sortedConns.reduce((sum, c) => sum + c.count, 0);
+
+    let html = '<div class="info-panel-firm">' + d.id + '</div>';
+    html += '<div class="info-panel-meta">' + (firm ? firm.aum + ' AUM · ' + firm.hq : '') + '</div>';
+    html += '<div class="info-panel-section-title">Co-Investment Partners (' + sortedConns.length + ')</div>';
+
+    sortedConns.forEach(conn => {
+      html += '<div class="info-panel-connection">';
+      html += '<div style="flex:1;min-width:0;">';
+      html += '<div style="display:flex;align-items:center;gap:6px;margin-bottom:2px;">';
+      html += '<span class="info-conn-name">' + conn.partner + '</span>';
+      html += '<span class="info-conn-count">' + conn.count + ' shared</span>';
+      html += '</div>';
+      html += '<div class="info-conn-companies">' + conn.companies.join(', ') + '</div>';
+      html += '</div>';
+      html += '</div>';
+    });
+
+    html += '<div class="info-panel-total">' + totalShared + ' total co-investments across ' + sortedConns.length + ' firms</div>';
+
+    const infoPanel = document.getElementById('co-invest-info');
+    const infoContent = document.getElementById('co-invest-info-content');
+    if (infoPanel && infoContent) {
+      infoContent.innerHTML = html;
+      infoPanel.style.display = 'block';
+    }
   });
 
-  // Click on background to reset
-  svg.on('click', () => {
+  function resetHighlights() {
+    selectedNode = null;
     node.classed('dimmed', false);
+    node.classed('selected', false);
     link.classed('dimmed', false);
     link.classed('highlighted', false);
-  });
+    edgeLabel.classed('highlighted', false);
+    const infoPanel = document.getElementById('co-invest-info');
+    if (infoPanel) infoPanel.style.display = 'none';
+  }
+
+  // Click on background to reset
+  svg.on('click', resetHighlights);
+
+  // Close button on info panel
+  const closeBtn = document.getElementById('info-panel-close');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      resetHighlights();
+    });
+  }
 
   // Update positions on tick
   simulation.on('tick', () => {
@@ -703,6 +845,10 @@ function createForceGraph(container, nodes, links, width, height) {
       .attr('y1', d => d.source.y)
       .attr('x2', d => d.target.x)
       .attr('y2', d => d.target.y);
+
+    edgeLabel
+      .attr('x', d => (d.source.x + d.target.x) / 2)
+      .attr('y', d => (d.source.y + d.target.y) / 2 - 4);
 
     node.attr('transform', d => `translate(${d.x},${d.y})`);
   });
