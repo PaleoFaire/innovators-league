@@ -21791,23 +21791,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-11 20:41
+// Last updated: 2026-03-12 02:43
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Durin", headline: "Norwegian F-35s intercept Russian spy aircraft during NATO drill", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Palantir", headline: "Iran Warns US Tech Firms Could Become Targets as War Expands", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Hubble Network", headline: "Our Favorite Backyard Bluetooth Speaker Is $25 Off", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models, Filings Show", source: "Wired", time: "2h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Re:Build Manufacturing", headline: "Defense Business Brief: 3D-printing on the battlefield; Reshoring drone dominance; AI on submarines", source: "Defense One", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "White Stork", headline: "Anduril, the autonomous weapons maker, doubles the size of its space unit", source: "Ars Technica Space", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Karman Industries", headline: "Rivian spin-out Mind Robotics raises $500M for industrial AI-powered robots", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "Harbinger", headline: "EV startup Harbinger reveals a smaller work truck with electric and hybrid variants", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", time: "5h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Cape", headline: "Germany's Rheinmetall predicts $16.8B annual order boom, will 'focus entirely' on defense", source: "Breaking Defense", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Ample", headline: "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Mach Industries", headline: "How Robert Goddard's Self-Reliance Crashed His Rocket Dreams", source: "IEEE Spectrum", time: "7h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Palantir", headline: "Japan shrugs off GCAP delays, fast-tracks export rules for future warplane", source: "Defense News", time: "8h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You're Wrong", source: "IEEE Spectrum", time: "8h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Anthropic", headline: "StateChat users move to older AI model as State dumps Anthropic", source: "Defense One", time: "8h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Andrenam", headline: "Burning Plastic Isn't Renewable: Rethinking Waste &#038; Power In Hawaii", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Ample", headline: "The NEVI Funds Are Finally Unfrozen, But The Administration's Chaos Goes Unpunished", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Aurora Innovation", headline: "Nuro is testing its autonomous vehicle tech on Tokyo's streets", source: "TechCrunch", time: "3h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "PILGRIM", headline: "Zendesk acquires agentic customer service startup Forethought", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Amca", headline: "Netflix may have paid $600 million for Ben Affleck's AI startup", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "Matic Robotics", headline: "How the Iran War Could Jack Up Prices on Store Shelves", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Apptronik", headline: "Mercedes Is Fear Mongering On EV Policies Again", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Durin", headline: "Norwegian F-35s intercept Russian spy aircraft during NATO drill", source: "Defense News", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Palantir", headline: "Iran Warns US Tech Firms Could Become Targets as War Expands", source: "Wired", time: "8h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Hubble Network", headline: "Our Favorite Backyard Bluetooth Speaker Is $25 Off", source: "Wired", time: "8h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models, Filings Show", source: "Wired", time: "8h ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "Re:Build Manufacturing", headline: "Defense Business Brief: 3D-printing on the battlefield; Reshoring drone dominance; AI on submarines", source: "Defense One", time: "9h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "White Stork", headline: "Anduril, the autonomous weapons maker, doubles the size of its space unit", source: "Ars Technica Space", time: "9h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", time: "11h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Cape", headline: "Germany's Rheinmetall predicts $16.8B annual order boom, will 'focus entirely' on defense", source: "Breaking Defense", time: "11h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
