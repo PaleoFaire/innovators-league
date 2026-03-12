@@ -123,15 +123,15 @@
   {
     "company": "Orbion Space Technology",
     "totalRaised": "$12.0B+",
-    "totalRaisedRaw": 12000.0,
+    "totalRaisedRaw": 12026.0,
     "lastRound": "SPAC",
-    "lastRoundAmount": "$12B",
-    "lastRoundDate": "2026-02",
+    "lastRoundAmount": "$26M",
+    "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Galvanick",
@@ -513,6 +513,19 @@
     "roundCount": 1
   },
   {
+    "company": "Field AI",
+    "totalRaised": "$114M+",
+    "totalRaisedRaw": 114.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$114M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Revel",
     "totalRaised": "$100M+",
     "totalRaisedRaw": 100.0,
@@ -570,6 +583,19 @@
     "valuation": "",
     "leadInvestors": [
       "Retro Biosciences"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Celero Communications",
+    "totalRaised": "$70M+",
+    "totalRaisedRaw": 70.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$70M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -700,6 +726,19 @@
     "valuation": "",
     "leadInvestors": [
       "Accel"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Humane",
+    "totalRaised": "$5M+",
+    "totalRaisedRaw": 5.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$5M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   }
