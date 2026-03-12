@@ -181,6 +181,7 @@ function initGovRadar() {
   safeInit('budgetSignals', initBudgetSignals);
   safeInit('fedRegister', initFedRegister);
   safeInit('agencySpending', initAgencySpending);
+  safeInit('govFunding', initGovFunding);
   safeInit('companyMatch', initCompanyMatch);
   safeInit('mobileMenu', initGovMobileMenu);
   safeInit('sectionObserver', initSectionObserver);
@@ -200,16 +201,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function initHeroStats() {
   var tracker = getAllDemandSignals();
+  var arpaE = (typeof ARPA_E_PROJECTS_AUTO !== 'undefined') ? ARPA_E_PROJECTS_AUTO : [];
+  var nih = (typeof NIH_GRANTS_AUTO !== 'undefined') ? NIH_GRANTS_AUTO : [];
+  var sbir = (typeof SBIR_AWARDS_AUTO !== 'undefined') ? SBIR_AWARDS_AUTO : [];
+  var contracts = (typeof GOV_CONTRACTS_AUTO !== 'undefined') ? GOV_CONTRACTS_AUTO : [];
 
-  // Count opportunities
-  var oppCount = tracker.length;
+  // Count opportunities — demand signals + R&D awards
+  var oppCount = tracker.length + arpaE.length + nih.length + sbir.length;
   animateCounter('gov-opp-count', oppCount);
 
-  // Pipeline value
+  // Pipeline value — demand signals + ARPA-E + NIH + USAspending
   var totalVal = 0;
-  tracker.forEach(function(opp) {
-    totalVal += parseValueToNumber(opp.value);
-  });
+  tracker.forEach(function(opp) { totalVal += parseValueToNumber(opp.value); });
+  arpaE.forEach(function(p) { totalVal += (p.totalFunding || p.award || 0); });
+  nih.forEach(function(g) { totalVal += (g.totalCost || g.awardAmount || 0); });
+  contracts.forEach(function(c) { totalVal += parseValueToNumber(c.totalGovValue); });
+
   var pipelineEl = document.getElementById('gov-pipeline-value');
   if (pipelineEl) {
     if (totalVal >= 1e9) {
@@ -221,11 +228,12 @@ function initHeroStats() {
     }
   }
 
-  // Unique agencies
+  // Unique agencies — include federal R&D sources
   var agencies = new Set();
-  tracker.forEach(function(opp) {
-    if (opp.agency) agencies.add(opp.agency);
-  });
+  tracker.forEach(function(opp) { if (opp.agency) agencies.add(opp.agency); });
+  if (arpaE.length > 0) agencies.add('ARPA-E');
+  if (nih.length > 0) agencies.add('NIH');
+  if (sbir.length > 0) agencies.add('SBIR/STTR');
   animateCounter('gov-agencies', agencies.size);
 }
 
@@ -623,10 +631,12 @@ function initFedRegister() {
 
 function initAgencySpending() {
   var contracts = (typeof GOV_CONTRACTS_AUTO !== 'undefined') ? GOV_CONTRACTS_AUTO : [];
+  var arpaE = (typeof ARPA_E_PROJECTS_AUTO !== 'undefined') ? ARPA_E_PROJECTS_AUTO : [];
+  var nih = (typeof NIH_GRANTS_AUTO !== 'undefined') ? NIH_GRANTS_AUTO : [];
   var gridEl = document.getElementById('agency-grid');
   if (!gridEl) return;
 
-  if (contracts.length === 0) {
+  if (contracts.length === 0 && arpaE.length === 0 && nih.length === 0) {
     gridEl.innerHTML = '<div class="empty-state">No government contracts data available.</div>';
     return;
   }
@@ -645,6 +655,28 @@ function initAgencySpending() {
       agencyMap[ag].companies.add(c.company);
     });
   });
+
+  // Add ARPA-E as an agency
+  if (arpaE.length > 0) {
+    var arpaEKey = 'ARPA-E (Dept. of Energy)';
+    if (!agencyMap[arpaEKey]) agencyMap[arpaEKey] = { totalValue: 0, totalContracts: 0, companies: new Set() };
+    arpaE.forEach(function(p) {
+      agencyMap[arpaEKey].totalValue += (p.totalFunding || p.award || 0);
+      agencyMap[arpaEKey].totalContracts++;
+      if (p.organization) agencyMap[arpaEKey].companies.add(p.organization);
+    });
+  }
+
+  // Add NIH as an agency
+  if (nih.length > 0) {
+    var nihKey = 'NIH (Dept. of Health & Human Services)';
+    if (!agencyMap[nihKey]) agencyMap[nihKey] = { totalValue: 0, totalContracts: 0, companies: new Set() };
+    nih.forEach(function(g) {
+      agencyMap[nihKey].totalValue += (g.totalCost || g.awardAmount || 0);
+      agencyMap[nihKey].totalContracts++;
+      if (g.organization) agencyMap[nihKey].companies.add(g.organization);
+    });
+  }
 
   // Sort by total value descending
   var agencyList = Object.keys(agencyMap).map(function(ag) {
@@ -987,6 +1019,221 @@ function toggleRadarMore(btn, moreId) {
   var hidden = el.style.display === 'none';
   el.style.display = hidden ? 'block' : 'none';
   btn.textContent = hidden ? 'Show less' : btn.textContent.replace('Show less', 'Show more');
+}
+
+// ─── 10. GOVERNMENT R&D FUNDING ───
+
+function initGovFunding() {
+  var arpaE = (typeof ARPA_E_PROJECTS_AUTO !== 'undefined') ? ARPA_E_PROJECTS_AUTO : [];
+  var nih = (typeof NIH_GRANTS_AUTO !== 'undefined') ? NIH_GRANTS_AUTO : [];
+  var sbir = (typeof SBIR_AWARDS_AUTO !== 'undefined') ? SBIR_AWARDS_AUTO : [];
+  var nasa = (typeof NASA_PROJECTS !== 'undefined') ? NASA_PROJECTS : [];
+  var nsf = (typeof NSF_AWARDS !== 'undefined') ? NSF_AWARDS : [];
+  var sam = (typeof SAM_CONTRACTS_AUTO !== 'undefined') ? SAM_CONTRACTS_AUTO : [];
+
+  var statsEl = document.getElementById('funding-stats');
+  var filtersEl = document.getElementById('funding-filters');
+  var gridEl = document.getElementById('funding-grid');
+  if (!gridEl) return;
+
+  // Normalize all sources into a common format
+  var allFunding = [];
+
+  arpaE.forEach(function(p) {
+    allFunding.push({
+      source: 'ARPA-E',
+      sourceClass: 'source-arpa-e',
+      title: p.title || '',
+      organization: p.organization || '',
+      amount: p.totalFunding || p.award || 0,
+      status: p.status || '',
+      techArea: p.techArea || p.program || '',
+      matchedCompanies: p.matchedCompanies || [],
+      state: p.state || ''
+    });
+  });
+
+  nih.forEach(function(g) {
+    allFunding.push({
+      source: 'NIH',
+      sourceClass: 'source-nih',
+      title: g.title || '',
+      organization: g.organization || '',
+      amount: g.totalCost || g.awardAmount || 0,
+      status: g.activity_code ? 'Active' : '',
+      techArea: g.activity_code || '',
+      matchedCompanies: g.matchedCompanies || [],
+      state: g.orgState || ''
+    });
+  });
+
+  sbir.forEach(function(a) {
+    allFunding.push({
+      source: 'SBIR/STTR',
+      sourceClass: 'source-sbir',
+      title: a.title || a.abstract || '',
+      organization: a.company || a.firm || '',
+      amount: a.amount || a.awardAmount || 0,
+      status: a.phase || '',
+      techArea: a.agency || '',
+      matchedCompanies: a.matchedCompanies || [],
+      state: a.state || ''
+    });
+  });
+
+  nasa.forEach(function(p) {
+    allFunding.push({
+      source: 'NASA',
+      sourceClass: 'source-nasa',
+      title: p.title || '',
+      organization: p.center || '',
+      amount: 0,
+      status: p.status || '',
+      techArea: p.techArea || '',
+      matchedCompanies: [],
+      state: ''
+    });
+  });
+
+  nsf.forEach(function(a) {
+    allFunding.push({
+      source: 'NSF',
+      sourceClass: 'source-nsf',
+      title: a.title || '',
+      organization: a.awardee || '',
+      amount: a.amount || 0,
+      status: 'Active',
+      techArea: a.sectors || '',
+      matchedCompanies: [],
+      state: a.state || ''
+    });
+  });
+
+  sam.forEach(function(c) {
+    allFunding.push({
+      source: 'SAM.gov',
+      sourceClass: 'source-sam',
+      title: c.title || '',
+      organization: c.department || c.agency || '',
+      amount: parseValueToNumber(c.value || ''),
+      status: c.type || '',
+      techArea: '',
+      matchedCompanies: c.relevantCompanies || [],
+      state: ''
+    });
+  });
+
+  if (allFunding.length === 0) {
+    gridEl.innerHTML = '<div class="empty-state">No government R&D funding data available yet. Data pipelines are configured and will populate on next sync.</div>';
+    return;
+  }
+
+  // Sort by amount descending
+  allFunding.sort(function(a, b) { return (b.amount || 0) - (a.amount || 0); });
+
+  // Stats
+  if (statsEl) {
+    var totalAmount = 0;
+    var sourceCount = {};
+    var withCompanyMatch = 0;
+    allFunding.forEach(function(f) {
+      totalAmount += (f.amount || 0);
+      sourceCount[f.source] = (sourceCount[f.source] || 0) + 1;
+      if (f.matchedCompanies && f.matchedCompanies.length > 0) withCompanyMatch++;
+    });
+
+    var totalStr = totalAmount >= 1e9 ? '$' + (totalAmount / 1e9).toFixed(1) + 'B' : totalAmount >= 1e6 ? '$' + (totalAmount / 1e6).toFixed(0) + 'M' : '$' + (totalAmount / 1e3).toFixed(0) + 'K';
+
+    var shtml = '<div class="radar-stat-item"><span class="radar-stat-number">' + allFunding.length + '</span><span class="radar-stat-label">Total Awards</span></div>';
+    shtml += '<div class="radar-stat-item"><span class="radar-stat-number">' + totalStr + '</span><span class="radar-stat-label">Total Funding</span></div>';
+    shtml += '<div class="radar-stat-item"><span class="radar-stat-number">' + Object.keys(sourceCount).length + '</span><span class="radar-stat-label">Data Sources</span></div>';
+    shtml += '<div class="radar-stat-item"><span class="radar-stat-number">' + withCompanyMatch + '</span><span class="radar-stat-label">Company Matches</span></div>';
+    statsEl.innerHTML = shtml;
+  }
+
+  // Filters
+  var sourceSet = new Set();
+  allFunding.forEach(function(f) { sourceSet.add(f.source); });
+
+  if (filtersEl) {
+    var fhtml = '<select class="opp-filter-select" id="funding-source-filter"><option value="all">All Sources</option>';
+    Array.from(sourceSet).sort().forEach(function(s) {
+      fhtml += '<option value="' + escapeHtml(s) + '">' + escapeHtml(s) + ' (' + (allFunding.filter(function(f) { return f.source === s; }).length) + ')</option>';
+    });
+    fhtml += '</select>';
+    fhtml += '<select class="opp-filter-select" id="funding-match-filter"><option value="all">All Awards</option><option value="matched">With Company Match</option><option value="top">Top Funded ($1M+)</option></select>';
+    filtersEl.innerHTML = fhtml;
+
+    document.getElementById('funding-source-filter').addEventListener('change', renderFunding);
+    document.getElementById('funding-match-filter').addEventListener('change', renderFunding);
+  }
+
+  renderFunding();
+
+  function renderFunding() {
+    var sourceVal = document.getElementById('funding-source-filter') ? document.getElementById('funding-source-filter').value : 'all';
+    var matchVal = document.getElementById('funding-match-filter') ? document.getElementById('funding-match-filter').value : 'all';
+
+    var filtered = allFunding.filter(function(f) {
+      if (sourceVal !== 'all' && f.source !== sourceVal) return false;
+      if (matchVal === 'matched' && (!f.matchedCompanies || f.matchedCompanies.length === 0)) return false;
+      if (matchVal === 'top' && (f.amount || 0) < 1000000) return false;
+      return true;
+    });
+
+    // Limit display
+    var displayCount = Math.min(filtered.length, 60);
+
+    if (filtered.length === 0) {
+      gridEl.innerHTML = '<div class="empty-state">No funding records match the selected filters.</div>';
+      return;
+    }
+
+    var html = '';
+    for (var i = 0; i < displayCount; i++) {
+      var f = filtered[i];
+      var amtStr = '';
+      if (f.amount >= 1e9) amtStr = '$' + (f.amount / 1e9).toFixed(1) + 'B';
+      else if (f.amount >= 1e6) amtStr = '$' + (f.amount / 1e6).toFixed(1) + 'M';
+      else if (f.amount >= 1e3) amtStr = '$' + (f.amount / 1e3).toFixed(0) + 'K';
+      else if (f.amount > 0) amtStr = '$' + f.amount.toLocaleString();
+
+      var statusClass = (f.status || '').toLowerCase().indexOf('active') >= 0 || (f.status || '').toLowerCase().indexOf('phase') >= 0 ? 'status-active' : 'status-completed';
+
+      html += '<div class="funding-card">';
+      html += '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.5rem;flex-wrap:wrap;">';
+      html += '<span class="funding-card-source ' + f.sourceClass + '">' + escapeHtml(f.source) + '</span>';
+      if (f.status) html += '<span class="funding-card-status ' + statusClass + '">' + escapeHtml(f.status) + '</span>';
+      if (amtStr) html += '<span class="funding-card-amount">' + amtStr + '</span>';
+      html += '</div>';
+      html += '<div class="funding-card-title">' + escapeHtml(truncate(f.title, 120)) + '</div>';
+      if (f.organization) html += '<div class="funding-card-org">' + escapeHtml(f.organization) + (f.state ? ' (' + escapeHtml(f.state) + ')' : '') + '</div>';
+      if (f.techArea || (f.matchedCompanies && f.matchedCompanies.length > 0)) {
+        html += '<div class="funding-card-tags">';
+        if (f.techArea) {
+          var areas = f.techArea.split(',');
+          areas.forEach(function(a) {
+            a = a.trim();
+            if (a) html += '<span class="funding-tag">' + escapeHtml(truncate(a, 40)) + '</span>';
+          });
+        }
+        if (f.matchedCompanies) {
+          f.matchedCompanies.forEach(function(c) {
+            var name = typeof c === 'string' ? c : (c.name || '');
+            if (name) html += '<span class="funding-tag company-match">🏢 ' + escapeHtml(name) + '</span>';
+          });
+        }
+        html += '</div>';
+      }
+      html += '</div>';
+    }
+
+    if (filtered.length > displayCount) {
+      html += '<div class="empty-state" style="grid-column:1/-1;">Showing ' + displayCount + ' of ' + filtered.length + ' results. Use filters to narrow down.</div>';
+    }
+
+    gridEl.innerHTML = html;
+  }
 }
 
 // ─── MOBILE MENU ───

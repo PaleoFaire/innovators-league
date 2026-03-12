@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260309">
+    <link rel="stylesheet" href="styles.css?v=20260312">
     <style>
         /* ─── GOV RADAR PAGE STYLES ─── */
 
@@ -568,6 +568,91 @@
             background: rgba(59,130,246,0.2);
         }
 
+        /* Funding Cards */
+        .funding-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        .funding-card:hover {
+            border-color: rgba(34,197,94,0.3);
+            transform: translateY(-2px);
+        }
+        .funding-card-source {
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 3px 8px;
+            border-radius: 4px;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .source-arpa-e { background: rgba(34,197,94,0.15); color: #4ade80; }
+        .source-nih { background: rgba(59,130,246,0.15); color: #60a5fa; }
+        .source-sbir { background: rgba(139,92,246,0.15); color: #a78bfa; }
+        .source-nasa { background: rgba(245,158,11,0.15); color: #fbbf24; }
+        .source-nsf { background: rgba(236,72,153,0.15); color: #f472b6; }
+        .source-sam { background: rgba(6,182,212,0.15); color: #22d3ee; }
+        .funding-card-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 0.25rem;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .funding-card-org {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.5);
+            margin-bottom: 0.5rem;
+        }
+        .funding-card-amount {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            color: #22c55e;
+            font-size: 1rem;
+        }
+        .funding-card-meta {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+        .funding-card-status {
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+        .status-active { background: rgba(34,197,94,0.15); color: #4ade80; }
+        .status-completed { background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.5); }
+        .funding-card-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            margin-top: 0.5rem;
+        }
+        .funding-tag {
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 3px;
+            background: rgba(255,255,255,0.05);
+            color: rgba(255,255,255,0.5);
+        }
+        .funding-tag.company-match {
+            background: rgba(139,92,246,0.1);
+            color: rgba(139,92,246,0.8);
+            font-weight: 600;
+        }
+
         /* Empty state */
         .empty-state {
             text-align: center;
@@ -1008,6 +1093,20 @@
         </div>
     </section>
 
+    <!-- Government R&D Funding -->
+    <section class="section" id="gov-funding">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">R&D FUNDING INTELLIGENCE</p>
+                <h2>Government R&D Funding Tracker</h2>
+                <p>ARPA-E energy projects, NIH research grants, SBIR/STTR awards, and NASA programs — aggregated across federal R&D pipelines with company matching.</p>
+            </div>
+            <div class="radar-stats-row" id="funding-stats"></div>
+            <div class="opp-filters" id="funding-filters"></div>
+            <div class="opp-grid" id="funding-grid"></div>
+        </div>
+    </section>
+
     <!-- Company-Opportunity Match -->
     <section class="section" id="company-match">
         <div class="container">
@@ -1051,13 +1150,18 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="auth.js?v=20260309"></script>
-    <script src="data.js?v=20260309"></script>
-    <script src="data/gov_contracts_auto.js?v=20260309"></script>
-    <script src="data/federal_register_auto.js?v=20260309"></script>
-    <script src="data/doe_programs_auto.js?v=20260309"></script>
-    <script src="data/nsf_awards_auto.js?v=20260309"></script>
-    <script src="data/demand_signals_auto.js?v=20260309"></script>
-    <script src="govradar.js?v=20260309"></script>
+    <script src="auth.js?v=20260312"></script>
+    <script src="data.js?v=20260312"></script>
+    <script src="data/gov_contracts_auto.js?v=20260312"></script>
+    <script src="data/federal_register_auto.js?v=20260312"></script>
+    <script src="data/doe_programs_auto.js?v=20260312"></script>
+    <script src="data/nsf_awards_auto.js?v=20260312"></script>
+    <script src="data/demand_signals_auto.js?v=20260312"></script>
+    <script src="data/arpa_e_projects_auto.js?v=20260312"></script>
+    <script src="data/nih_grants_auto.js?v=20260312"></script>
+    <script src="data/sbir_awards_auto.js?v=20260312"></script>
+    <script src="data/sam_contracts_auto.js?v=20260312"></script>
+    <script src="data/nasa_projects_auto.js?v=20260312"></script>
+    <script src="govradar.js?v=20260312"></script>
 </body>
 </html>
