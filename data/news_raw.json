@@ -1,5 +1,103 @@
 [
   {
+    "title": "Pragmatic by design: Engineering AI for the real world",
+    "link": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
+    "description": "The impact of artificial intelligence extends far beyond the digital world and into our everyday lives, across the cars we drive, the appliances in our homes, and medical devices that keep people alive. More and more, product engineers are turning to AI to enhance, validate, and streamline the desig",
+    "pubDate": "Thu, 12 Mar 2026 13:00:00 +0000",
+    "category": "Artificial intelligence",
+    "source": "MIT Tech Review",
+    "feedCategory": "tech",
+    "matchedCompany": "Xtend",
+    "matchedCompanies": [
+      "Xtend",
+      "Cresilon",
+      "Zeta Surgical"
+    ],
+    "sectors": [
+      "defense",
+      "biotech"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Group14 opens factory to produce battery materials for flash charging EVs",
+    "link": "https://techcrunch.com/2026/03/12/group14-opens-factory-to-produce-battery-materials-for-flash-charging-evs/",
+    "description": "The startup's new BAM-3 facility can make enough silicon anode material annually to supply about 100,000 long-range EVs.",
+    "pubDate": "Thu, 12 Mar 2026 12:00:00 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Ample",
+    "matchedCompanies": [
+      "Ample",
+      "Space Forge",
+      "Advano"
+    ],
+    "sectors": [
+      "infrastructure",
+      "space",
+      "energy"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "While OpenAI Shattered Records, Robotics and Semiconductor Startups Quietly Added The Most New Unicorns In February",
+    "link": "https://news.crunchbase.com/venture/robotics-semiconductor-led-unicorns-february-2026/",
+    "description": "A total of 27 companies joined the Unicorn Board last month, including six robotics companies and four semiconductor-related startups. Healthcare minted three new unicorns, while foundation AI, cloud services, aerospace and financial services each accounted for two companies that joined.",
+    "pubDate": "Thu, 12 Mar 2026 11:00:20 +0000",
+    "category": "Artificial intelligence",
+    "source": "Crunchbase News",
+    "feedCategory": "funding",
+    "matchedCompany": "Hadrian",
+    "matchedCompanies": [
+      "Hadrian",
+      "AnySignal",
+      "Andromeda Surgical",
+      "Conductor Quantum",
+      "Elodin",
+      "OpenAI",
+      "PsiQuantum",
+      "Astera Labs",
+      "Zettascale",
+      "Orbital Composites"
+    ],
+    "sectors": [
+      "robotics",
+      "space",
+      "biotech",
+      "quantum",
+      "infrastructure",
+      "ai",
+      "chips"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "France’s Mediterranean armada signals clout as Middle East may rethink alliances",
+    "link": "https://www.defensenews.com/global/europe/2026/03/12/frances-mediterranean-armada-signals-clout-as-middle-east-may-rethink-alliances/",
+    "description": "The massive deployment of warships comes as some Middle Eastern nations are expected to reevaluate their alliances in a post-Iran war world, analysts said.",
+    "pubDate": "Thu, 12 Mar 2026 09:28:56 +0000",
+    "category": "/ Europe",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "Armada",
+    "matchedCompanies": [
+      "Armada"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience",
     "link": "https://warontherocks.com/2026/03/magazine-breadth-not-just-depth-is-key-to-munitions-industrial-base-resilience/",
     "description": "Is America running out of missiles? The attacks on Iranian forces and leadership have had a devastating impact on the regime, but the repeated salvos of precision-guided munitions and interceptors have put a strain on U.S. and Israeli stores of some of these munitions. While the United States retain",
@@ -29,32 +127,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
-  },
-  {
-    "title": "Firefly Alpha returns to flight",
-    "link": "https://spacenews.com/firefly-alpha-returns-to-flight/",
-    "description": "\nFirefly Aerospace’s Alpha rocket successfully returned to flight March 11, launching a technology demonstration mission more than 10 months after the rocket’s previous launch failed.\nThe post Firefly Alpha returns to flight appeared first on SpaceNews.",
-    "pubDate": "Thu, 12 Mar 2026 04:09:13 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Firefly Aerospace",
-    "matchedCompanies": [
-      "Firefly Aerospace",
-      "Hadrian",
-      "AnySignal",
-      "Elodin",
-      "Orbital Composites"
-    ],
-    "sectors": [
-      "space",
-      "robotics",
-      "infrastructure"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "4h ago"
+    "time": "5h ago"
   },
   {
     "title": "How to Fix Greenwashing Risks in the EU’s Next Long-Term Budget",
@@ -73,7 +146,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "10h ago"
   },
   {
     "title": "Burning Plastic Isn’t Renewable: Rethinking Waste &#038; Power In Hawaii",
@@ -98,51 +171,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "6h ago"
-  },
-  {
-    "title": "The Post-Capacity Era of Satellite Connectivity",
-    "link": "https://spacenews.com/the-post-capacity-era-of-satellite-connectivity/",
-    "description": "\nParis, February 2026 —&#160;Novaspace’s&#160;Capacity Pricing Trends, 8th Edition&#160;finds the satellite connectivity market has entered a&#160;Post‑Capacity Era, where bandwidth is no longer the basis of differentiation. Starlink’s vertical integration and cost [&#8230;]\nThe post The Post-Capaci",
-    "pubDate": "Thu, 12 Mar 2026 01:10:51 +0000",
-    "category": "Press Release",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Vertical Aerospace"
-    ],
-    "sectors": [
-      "space",
-      "transportation"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "7h ago"
-  },
-  {
-    "title": "Enpulsion raises $26 million",
-    "link": "https://spacenews.com/enpulsion-raises-26-million/",
-    "description": "\nEnpulsion, an Austrian company that produces satellite electric propulsion systems, has raised its first significant outside funding to increase production and potentially acquire other companies.\nThe post Enpulsion raises $26 million appeared first on SpaceNews.",
-    "pubDate": "Thu, 12 Mar 2026 00:21:11 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Mach Industries",
-    "matchedCompanies": [
-      "Mach Industries",
-      "Firehawk Aerospace",
-      "Ursa Major Technologies",
-      "Orbion Space Technology"
-    ],
-    "sectors": [
-      "defense",
-      "space"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "8h ago"
+    "time": "10h ago"
   },
   {
     "title": "The NEVI Funds Are Finally Unfrozen, But The Administration’s Chaos Goes Unpunished",
@@ -163,7 +192,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "13h ago"
   },
   {
     "title": "Nuro is testing its autonomous vehicle tech on Tokyo&#8217;s streets",
@@ -183,7 +212,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "9h ago"
+    "time": "14h ago"
   },
   {
     "title": "Zendesk acquires agentic customer service startup Forethought",
@@ -202,7 +231,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "14h ago"
   },
   {
     "title": "Netflix may have paid $600 million for Ben Affleck&#8217;s AI startup",
@@ -221,7 +250,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "10h ago"
+    "time": "15h ago"
   },
   {
     "title": "How the Iran War Could Jack Up Prices on Store Shelves",
@@ -240,7 +269,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "15h ago"
   },
   {
     "title": "Mercedes Is Fear Mongering On EV Policies Again",
@@ -259,7 +288,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "11h ago"
+    "time": "15h ago"
   },
   {
     "title": "Norwegian F-35s intercept Russian spy aircraft during NATO drill",
@@ -278,7 +307,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "Iran Warns US Tech Firms Could Become Targets as War Expands",
@@ -299,7 +328,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "18h ago"
   },
   {
     "title": "Our Favorite Backyard Bluetooth Speaker Is $25 Off",
@@ -318,7 +347,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "18h ago"
   },
   {
     "title": "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models, Filings Show",
@@ -338,7 +367,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "14h ago"
+    "time": "19h ago"
   },
   {
     "title": "Defense Business Brief: 3D-printing on the battlefield; Reshoring drone dominance; AI on submarines",
@@ -359,7 +388,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "20h ago"
   },
   {
     "title": "Anduril, the autonomous weapons maker, doubles the size of its space unit",
@@ -378,7 +407,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "Keep Your Intuition Sharp While Using AI Coding Tools",
@@ -397,7 +426,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "17h ago"
+    "time": "21h ago"
   },
   {
     "title": "Germany&#8217;s Rheinmetall predicts $16.8B annual order boom, will &#8216;focus entirely&#8217; on defense",
@@ -419,7 +448,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging",
@@ -438,7 +467,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "How Robert Goddard’s Self-Reliance Crashed His Rocket Dreams",
@@ -461,26 +490,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
-  },
-  {
-    "title": "The perils of political impatience in the Artemis program",
-    "link": "https://spacenews.com/the-perils-of-political-impatience-in-the-artemis-program/",
-    "description": "\nRecent engineering setbacks, specifically regarding helium system issues associated with the improper flow of helium into the Space Launch System (SLS) rocket’s upper stage, and persistent hydrogen leaks, have forced NASA to delay the crewed Artemis 2 mission to no earlier than April. While frustra",
-    "pubDate": "Wed, 11 Mar 2026 13:00:00 +0000",
-    "category": "Civil",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Astro Mechanica",
-    "matchedCompanies": [
-      "Astro Mechanica"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Japan shrugs off GCAP delays, fast-tracks export rules for future warplane",
@@ -499,7 +509,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Why AI Chatbots Agree With You Even When You’re Wrong",
@@ -518,7 +528,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "StateChat users move to older AI model as State dumps Anthropic",
@@ -537,26 +547,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
-  },
-  {
-    "title": "Telesat expands Canadian landing station footprint for Lightspeed",
-    "link": "https://spacenews.com/telesat-expands-canadian-landing-station-footprint-for-lightspeed/",
-    "description": "\nTelesat has gained access to more land across Canada to set up landing stations ahead of plans to deploy pathfinders for its Lightspeed broadband constellation in December.\nThe post Telesat expands Canadian landing station footprint for Lightspeed appeared first on SpaceNews.",
-    "pubDate": "Wed, 11 Mar 2026 11:49:11 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "AST SpaceMobile",
-    "matchedCompanies": [
-      "AST SpaceMobile"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Best Indoor Garden Systems: We’ve Been Testing All Year (2026)",
@@ -575,28 +566,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "21h ago"
-  },
-  {
-    "title": "Large Series C signals scale-up of China’s laser satellite communications sector",
-    "link": "https://spacenews.com/large-series-c-signals-scale-up-of-chinas-laser-satellite-communications-sector/",
-    "description": "\nShanghai-based laser communications startup BlueStar Optical Domain has raised funding in the region of $70 million, highlighting growing demand from China’s emerging satellite internet constellations.\nThe post Large Series C signals scale-up of China’s laser satellite communications sector appeare",
-    "pubDate": "Wed, 11 Mar 2026 10:00:34 +0000",
-    "category": "Civil",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Kepler Communications",
-    "matchedCompanies": [
-      "Kepler Communications",
-      "Celero Communications",
-      "Mynaric"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Inside OpenAI’s Race to Catch Up to Claude Code",
@@ -615,26 +585,6 @@
       "ai"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "22h ago"
-  },
-  {
-    "title": "Anduril to acquire space-tracking firm ExoAnalytic Solutions",
-    "link": "https://spacenews.com/anduril-to-acquire-space-tracking-firm-exoanalytic-solutions/",
-    "description": "\nDeal adds ground-based telescope network and space surveillance data to defense tech company’s expanding space business\nThe post Anduril to acquire space-tracking firm ExoAnalytic Solutions appeared first on SpaceNews.",
-    "pubDate": "Wed, 11 Mar 2026 04:01:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Asylon Robotics",
-    "matchedCompanies": [
-      "Asylon Robotics",
-      "ideaForge"
-    ],
-    "sectors": [
-      "autonomous"
-    ],
-    "type": "ipo",
     "impact": "low",
     "time": "1d ago"
   },
@@ -715,46 +665,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Starlab Space fully books commercial payload space on planned space station",
-    "link": "https://spacenews.com/starlab-space-fully-books-commercial-payload-space-on-planned-space-station/",
-    "description": "\nThe Starlab commercial space station has fully booked its commercial payload space as the joint venture developing it awaits the next phase of a NASA program.\nThe post Starlab Space fully books commercial payload space on planned space station appeared first on SpaceNews.",
-    "pubDate": "Tue, 10 Mar 2026 23:11:13 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Vast",
-    "matchedCompanies": [
-      "Vast",
-      "Axiom Space"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft",
-    "link": "https://spacenews.com/viasat-wins-14-million-contract-to-provide-in-flight-satcom-for-navy-executive-aircraft/",
-    "description": "\nThe two-year deal covers satellite communications for Navy C-37 executive jets used to transport senior leaders \nThe post Viasat wins $14 million contract to provide in-flight satcom for Navy executive aircraft appeared first on SpaceNews.",
-    "pubDate": "Tue, 10 Mar 2026 22:38:12 +0000",
-    "category": "Military",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Kepler Communications",
-    "matchedCompanies": [
-      "Kepler Communications",
-      "Celero Communications"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "contract",
-    "impact": "medium",
-    "time": "1d ago"
-  },
-  {
     "title": "INDOPACOM was all in on Anthropic. Now it’s working to adjust",
     "link": "https://www.defenseone.com/policy/2026/03/indopacom-was-all-anthropic-now-its-working-adjust/412033/",
     "description": "The administration’s government-wide ban on the company’s AI tools has forced the command to work faster to be “model-neutral.”",
@@ -766,25 +676,6 @@
     "matchedCompanies": [
       "Palantir",
       "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Suspended NOAA satellite chief warns of threats to federal science programs",
-    "link": "https://spacenews.com/suspended-noaa-satellite-chief-warns-of-threats-to-federal-science-programs/",
-    "description": "\nThe head of NOAA’s satellite division, on administrative leave for more than half a year, warned that workforce reductions and cuts to science programs have “lobotomized” the federal government.\nThe post Suspended NOAA satellite chief warns of threats to federal science programs appeared first on S",
-    "pubDate": "Tue, 10 Mar 2026 20:29:04 +0000",
-    "category": "News",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir"
     ],
     "sectors": [
       "ai"
@@ -875,25 +766,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Precision in Orbit: Heraeus Catalysts Safeguard Satellite Control",
-    "link": "https://spacenews.com/precision-in-orbit-heraeus-catalysts-safeguard-satellite-control/",
-    "description": "\nWhen a satellite travels through orbit at up to 17,500 mph, a fraction of a second can determine whether a course correction is successful, as even minor trajectory deviations can [&#8230;]\nThe post Precision in Orbit: Heraeus Catalysts Safeguard Satellite Control appeared first on SpaceNews.",
-    "pubDate": "Tue, 10 Mar 2026 16:30:38 +0000",
-    "category": "Sponsored",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Atomic Industries",
-    "matchedCompanies": [
-      "Atomic Industries"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "Lotus Poised To Be The First Chinese EV Brand In Canada Under New Tariff Law",
     "link": "https://cleantechnica.com/2026/03/10/lotus-poised-to-be-the-first-chinese-ev-brand-in-canada-under-new-tariff-law/",
     "description": "Lotus Cars will become the first Chinese-built car brand to sell EVs in Canada under the new tariff framework, according to a report by CarNewsChina. The publication reported that Lotus is preparing to export electric vehicles to Canada once the Canadian government releases the final implementation ",
@@ -907,25 +779,6 @@
     ],
     "sectors": [
       "ai"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Impulse Space expands Colorado presence",
-    "link": "https://spacenews.com/impulse-space-expands-colorado-presence/",
-    "description": "\nSpace mobility company Impulse Space has opened a Colorado facility to support development of its spacecraft.\nThe post Impulse Space expands Colorado presence appeared first on SpaceNews.",
-    "pubDate": "Tue, 10 Mar 2026 16:00:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Impulse Space",
-    "matchedCompanies": [
-      "Impulse Space"
-    ],
-    "sectors": [
-      "space"
     ],
     "type": "ipo",
     "impact": "low",
@@ -1013,27 +866,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Lux Aeterna raises $10 million ahead of 2027 reusable satellite demo",
-    "link": "https://spacenews.com/lux-aeterna-raises-10-million-for-reusable-satellite-ahead-of-2027-demo/",
-    "description": "\nDenver-based Lux Aeterna has secured $10 million in seed funding to develop a reusable satellite designed to survive atmospheric reentry and fly again with new payloads, starting with a demonstration flight slated for early 2027.\nThe post Lux Aeterna raises $10 million ahead of 2027 reusable satell",
-    "pubDate": "Tue, 10 Mar 2026 13:00:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Atmo",
-    "matchedCompanies": [
-      "Atmo",
-      "Dawn Aerospace"
-    ],
-    "sectors": [
-      "ai",
-      "space"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "1d ago"
-  },
-  {
     "title": "Australian submariners have a brush with Iran war",
     "link": "https://www.defensenews.com/global/asia-pacific/2026/03/10/australian-submariners-have-a-brush-with-iran-war/",
     "description": "“It would be quite straightforward to not be on the consoles or in the control room\" during a recent U.S. submarine torpedo kill, said one analyst.",
@@ -1050,7 +882,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Will Features Even Exist? How AI Is Forcing SaaS To Rethink The Product Itself",
@@ -1069,26 +901,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Use Microsoft PC Manager to Speed Up Your Windows 11 Computer",
-    "link": "https://www.wired.com/story/microsoft-pc-manager-speed-up-windows-11/",
-    "description": "Can you really get a Windows PC running like new again? Using this free tool from Microsoft, you can get pretty close.",
-    "pubDate": "Tue, 10 Mar 2026 10:30:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Photonic Inc",
-    "matchedCompanies": [
-      "Photonic Inc"
-    ],
-    "sectors": [
-      "quantum"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Geely &#038; WeRide Planning 2,000 Robotaxis for This Year",
@@ -1180,48 +993,6 @@
       "infrastructure"
     ],
     "type": "hire",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "‘Flying Cars’ Will Take Off in American Skies This Summer",
-    "link": "https://www.wired.com/story/flying-cars-will-take-off-in-american-skies-this-summer/",
-    "description": "The federal government announced a new pilot program designed to get new kinds of ultralight vehicles and “eVTOLs” up and running around the country—even if they're not fully FAA-certified.",
-    "pubDate": "Mon, 09 Mar 2026 22:39:12 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "SSTL to build spacecraft for private space telescope",
-    "link": "https://spacenews.com/sstl-to-build-spacecraft-for-private-space-telescope/",
-    "description": "\nSurrey Satellite Technology Ltd. (SSTL), a British company best known for developing small satellites, will help build a large, privately funded space telescope.\nThe post SSTL to build spacecraft for private space telescope appeared first on SpaceNews.",
-    "pubDate": "Mon, 09 Mar 2026 21:48:28 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Orbex",
-    "matchedCompanies": [
-      "Orbex",
-      "Latitude",
-      "Innospace",
-      "Terran Orbital",
-      "Skyrora"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
     "impact": "low",
     "time": "2d ago"
   },
@@ -1437,57 +1208,6 @@
     "time": "2d ago"
   },
   {
-    "title": "GNSS resilience is an economic and security priority",
-    "link": "https://spacenews.com/gnss-resilience-is-an-economic-and-security-priority/",
-    "description": "\nModern society has become profoundly reliant on Global Navigation Satellite Systems (GNSS). These systems support aviation safety, emergency services, finance, communications, energy networks and an expanding array of autonomous and industrial systems. Yet despite this reliance, GNSS remains inhere",
-    "pubDate": "Mon, 09 Mar 2026 13:00:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Karman Industries",
-    "matchedCompanies": [
-      "Karman Industries",
-      "Solugen",
-      "Cape",
-      "Gecko Robotics",
-      "Wardstone",
-      "Teralta",
-      "H2 Green Steel",
-      "Percepto",
-      "ideaForge"
-    ],
-    "sectors": [
-      "climate",
-      "robotics",
-      "infrastructure",
-      "autonomous"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Finland readies itself to be able to host nukes in longtime policy departure",
-    "link": "https://www.defensenews.com/global/europe/2026/03/09/finland-readies-itself-to-be-able-to-host-nukes-in-longtime-policy-departure/",
-    "description": "The proposed law change would bring the country in line with NATO's nuclear-deterrence architecture, the government argues.",
-    "pubDate": "Mon, 09 Mar 2026 10:26:05 +0000",
-    "category": "/ Europe",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir",
-      "Deterrence"
-    ],
-    "sectors": [
-      "ai",
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
     "title": "A Better Way To Compare Gas &#038; Electric Prices",
     "link": "https://cleantechnica.com/2026/03/09/a-better-way-to-compare-gas-electric-prices/",
     "description": "If you drive an EV, you probably know this feeling. You drive past a gas station sign displaying $3.41 a gallon (or a lot more these days), and then you look at your charging app showing $0.48 per kilowatt-hour. It feels like comparing apples to binary code. It’s not just   ... [continued]\nThe post ",
@@ -1523,7 +1243,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Military AI Policy Needs Democratic Oversight",
@@ -1544,7 +1264,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "What Elon Means &#8211; Change at Very Large Scale",
@@ -1589,50 +1309,6 @@
     "time": "4d ago"
   },
   {
-    "title": "Is the Pentagon allowed to surveil Americans with AI?",
-    "link": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/",
-    "description": "The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question: Does the law actually allow the US government to conduct mass surveillance on Americans? Surprisingly, the answer is not straightforward. More than a decade after E",
-    "pubDate": "Fri, 06 Mar 2026 19:21:22 +0000",
-    "category": "Artificial intelligence",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir",
-      "Anthropic",
-      "Asylon Robotics",
-      "ideaForge"
-    ],
-    "sectors": [
-      "ai",
-      "autonomous"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "The Download: 10 things that matter in AI, plus Anthropic&#8217;s plan to sue the Pentagon",
-    "link": "https://www.technologyreview.com/2026/03/06/1133989/the-download-10-things-that-matter-in-ai-anthropics-plan-sue-pentagon/",
-    "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Coming soon: our 10 Things That Matter in AI Right Now For years, MIT Technology Review&#8217;s newsroom has been ahead of the curve, tracking the dev",
-    "pubDate": "Fri, 06 Mar 2026 13:10:00 +0000",
-    "category": "The Download",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Matter"
-    ],
-    "sectors": [
-      "ai",
-      "manufacturing"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
     "title": "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)",
     "link": "https://content.knowledgehub.wiley.com/scenario-modeling-and-array-design-for-non-terrestrial-networks-ntns/",
     "description": "Non-terrestrial networks (NTNs) using low earth orbit (LEO) satellites present unique technical challenges, from managing large satellite constellations to ensuring reliable communication links. In this webinar, we’ll explore how to address these complexities using comprehensive modeling and simulat",
@@ -1649,7 +1325,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "‘Firepower about to surge dramatically’ over Iran: Hegseth",
@@ -1669,25 +1345,6 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
-  },
-  {
-    "title": "Science Corp., Another Braintech Startup Founded By Neuralink Alums, Raises $230M Series C",
-    "link": "https://news.crunchbase.com/venture/braintech-ai-startup-science-neuralink-alums-seriesc/",
-    "description": "Science Corp., a biotech startup focused on brain-computer interface technologies, announced Thursday that it has closed on a $230 million Series C fundraise.",
-    "pubDate": "Thu, 05 Mar 2026 19:11:52 +0000",
-    "category": "Artificial intelligence",
-    "source": "Crunchbase News",
-    "feedCategory": "funding",
-    "matchedCompany": "Neuralink",
-    "matchedCompanies": [
-      "Neuralink"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "funding",
-    "impact": "medium",
     "time": "6d ago"
   },
   {
