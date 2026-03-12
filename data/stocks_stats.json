@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.19,
+      "avg_change": -1.04,
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -5.49,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -2.53,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 1.21,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -0.5,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.72,
+      "avg_change": -3.95,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -2.95,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.01,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -5.24,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -4.11,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.87,
+      "avg_change": -1.77,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 5.05,
+      "avg_change": 6.03,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.24,
+      "avg_change": 4.21,
       "count": 3
     }
   },
@@ -64,52 +64,52 @@
       12.52
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      10.06
-    ],
-    [
       "RIVN",
       "Rivian",
-      10.02
+      11.6
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      6.25
+      "ALAB",
+      "Astera Labs",
+      9.62
     ],
     [
-      "TEM",
-      "Tempus AI",
-      1.74
+      "ASRHF",
+      "Astroscale",
+      8.82
+    ],
+    [
+      "JOBY",
+      "Joby Aviation",
+      3.44
     ]
   ],
   "topLosers": [
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -7.55
-    ],
-    [
       "NNE",
       "Nano Nuclear Energy",
-      -8.0
+      -6.18
     ],
     [
       "IONQ",
       "IonQ",
-      -8.35
+      -7.7
     ],
     [
       "SATL",
       "Satellogic",
-      -9.76
+      -7.99
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -10.63
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -16.08
+      -15.9
     ]
   ],
-  "lastUpdated": "2026-03-11 19:01:45"
+  "lastUpdated": "2026-03-12 02:29:57"
 }
