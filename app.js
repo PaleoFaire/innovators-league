@@ -868,6 +868,121 @@ function openCompanyModal(companyName) {
     })()}
 
     ${(() => {
+      // Government Intelligence — aggregate all gov data sources
+      const govItems = [];
+      const nameLower = company.name.toLowerCase();
+
+      // GOV_CONTRACTS_AUTO (USAspending federal contracts)
+      const govContract = typeof GOV_CONTRACTS_AUTO !== 'undefined'
+        ? GOV_CONTRACTS_AUTO.find(g => g.company && nameLower.includes(g.company.toLowerCase()))
+        : null;
+      if (govContract) {
+        govItems.push({
+          type: 'contract',
+          icon: '🏛️',
+          label: 'Federal Contracts',
+          value: govContract.totalGovValue,
+          detail: `${govContract.contractCount} contracts via ${(govContract.agencies || []).slice(0, 2).join(', ')}`,
+        });
+      }
+
+      // ARPA_E_PROJECTS_AUTO
+      const arpaE = typeof ARPA_E_PROJECTS_AUTO !== 'undefined'
+        ? ARPA_E_PROJECTS_AUTO.filter(p => {
+            const org = (p.organization || '').toLowerCase();
+            return org.includes(nameLower) || nameLower.includes(org.split(',')[0].split(' inc')[0].split(' llc')[0].trim());
+          })
+        : [];
+      if (arpaE.length > 0) {
+        const totalFunding = arpaE.reduce((s, p) => s + (p.awardAmount || 0), 0);
+        const formatted = totalFunding >= 1000000 ? `$${(totalFunding/1000000).toFixed(1)}M` : `$${(totalFunding/1000).toFixed(0)}K`;
+        const programs = [...new Set(arpaE.map(p => p.programAcronym).filter(Boolean))].slice(0, 3);
+        govItems.push({
+          type: 'arpa-e',
+          icon: '⚡',
+          label: 'ARPA-E Funding',
+          value: formatted,
+          detail: `${arpaE.length} project${arpaE.length > 1 ? 's' : ''}${programs.length ? ' — ' + programs.join(', ') : ''}`,
+          status: arpaE.some(p => p.status === 'Active') ? 'Active' : 'Alumni',
+        });
+      }
+
+      // NIH_GRANTS_AUTO
+      const nihGrants = typeof NIH_GRANTS_AUTO !== 'undefined'
+        ? NIH_GRANTS_AUTO.filter(g => {
+            const org = (g.organization || '').toLowerCase();
+            return org.includes(nameLower) || nameLower.includes(org.split(',')[0].trim());
+          })
+        : [];
+      if (nihGrants.length > 0) {
+        const totalNih = nihGrants.reduce((s, g) => s + (g.awardAmount || 0), 0);
+        const formatted = totalNih >= 1000000 ? `$${(totalNih/1000000).toFixed(1)}M` : `$${(totalNih/1000).toFixed(0)}K`;
+        const sbirCount = nihGrants.filter(g => g.isSbir).length;
+        govItems.push({
+          type: 'nih',
+          icon: '🧬',
+          label: 'NIH Grants',
+          value: formatted,
+          detail: `${nihGrants.length} grant${nihGrants.length > 1 ? 's' : ''}${sbirCount ? ` (${sbirCount} SBIR)` : ''}`,
+        });
+      }
+
+      // SBIR_AWARDS_AUTO
+      const sbirAwards = typeof SBIR_AWARDS_AUTO !== 'undefined'
+        ? SBIR_AWARDS_AUTO.filter(a => {
+            const firm = (a.firm || '').toLowerCase();
+            return firm.includes(nameLower) || nameLower.includes(firm.split(',')[0].split(' inc')[0].split(' llc')[0].trim());
+          })
+        : [];
+      if (sbirAwards.length > 0) {
+        const totalSbir = sbirAwards.reduce((s, a) => s + (a.awardAmount || 0), 0);
+        const formatted = totalSbir >= 1000000 ? `$${(totalSbir/1000000).toFixed(1)}M` : `$${(totalSbir/1000).toFixed(0)}K`;
+        const agencies = [...new Set(sbirAwards.map(a => a.agency).filter(Boolean))].slice(0, 3);
+        govItems.push({
+          type: 'sbir',
+          icon: '🔬',
+          label: 'SBIR/STTR Awards',
+          value: formatted,
+          detail: `${sbirAwards.length} award${sbirAwards.length > 1 ? 's' : ''} — ${agencies.join(', ')}`,
+        });
+      }
+
+      if (govItems.length === 0) return '';
+
+      const totalGovValue = govItems.reduce((sum, item) => {
+        const numStr = item.value.replace(/[^0-9.]/g, '');
+        const num = parseFloat(numStr) || 0;
+        const mult = item.value.includes('B') ? 1000000000 : item.value.includes('M') ? 1000000 : item.value.includes('K') ? 1000 : 1;
+        return sum + (num * mult);
+      }, 0);
+      const totalFormatted = totalGovValue >= 1e9 ? `$${(totalGovValue/1e9).toFixed(1)}B+`
+        : totalGovValue >= 1e6 ? `$${(totalGovValue/1e6).toFixed(1)}M`
+        : `$${(totalGovValue/1e3).toFixed(0)}K`;
+
+      return `
+        <div class="modal-govintel" style="border:1px solid rgba(34,197,94,0.25);border-radius:12px;padding:16px 20px;margin:12px 0;background:rgba(34,197,94,0.04);">
+          <h4 style="margin:0 0 12px 0;display:flex;align-items:center;gap:8px;font-size:14px;">
+            <span style="font-size:16px;">🏛️</span> Government Intelligence
+            <span style="margin-left:auto;font-size:13px;font-weight:700;color:#22c55e;">${totalFormatted} total</span>
+          </h4>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;">
+            ${govItems.map(item => `
+              <div style="background:var(--bg-t, rgba(255,255,255,0.05));border-radius:8px;padding:10px 12px;">
+                <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;">
+                  <span style="font-size:14px;">${item.icon}</span>
+                  <span style="font-size:12px;font-weight:600;color:var(--text-s, #9ca3af);">${item.label}</span>
+                  ${item.status ? `<span style="margin-left:auto;font-size:10px;padding:2px 6px;border-radius:4px;background:${item.status === 'Active' ? 'rgba(34,197,94,0.15)' : 'rgba(107,114,128,0.15)'};color:${item.status === 'Active' ? '#22c55e' : '#6b7280'};">${item.status}</span>` : ''}
+                </div>
+                <div style="font-size:18px;font-weight:700;color:var(--text, #fff);">${item.value}</div>
+                <div style="font-size:11px;color:var(--text-s, #9ca3af);margin-top:2px;">${item.detail}</div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    })()}
+
+    ${(() => {
       const alt = typeof ALT_DATA_SIGNALS !== 'undefined' ? ALT_DATA_SIGNALS.find(a => a.company === company.name) : null;
       if (!alt) return '';
       const hc = { surging: '#22c55e', growing: '#3b82f6', stable: '#f59e0b', declining: '#ef4444' };
@@ -1669,6 +1784,41 @@ function switchDiscoveryTab(view) {
   if (tab) tab.click();
 }
 
+function getGovBadge(companyName) {
+  const nl = companyName.toLowerCase();
+  let hasGov = false;
+  let badges = [];
+
+  if (typeof GOV_CONTRACTS_AUTO !== 'undefined' && GOV_CONTRACTS_AUTO.some(g => g.company && nl.includes(g.company.toLowerCase()))) {
+    badges.push('🏛️');
+    hasGov = true;
+  }
+  if (typeof ARPA_E_PROJECTS_AUTO !== 'undefined' && ARPA_E_PROJECTS_AUTO.some(p => {
+    const org = (p.organization || '').toLowerCase();
+    return org.includes(nl) || nl.includes(org.split(',')[0].split(' inc')[0].split(' llc')[0].trim());
+  })) {
+    if (!badges.includes('⚡')) badges.push('⚡');
+    hasGov = true;
+  }
+  if (typeof NIH_GRANTS_AUTO !== 'undefined' && NIH_GRANTS_AUTO.some(g => {
+    const org = (g.organization || '').toLowerCase();
+    return org.includes(nl) || nl.includes(org.split(',')[0].trim());
+  })) {
+    badges.push('🧬');
+    hasGov = true;
+  }
+  if (typeof SBIR_AWARDS_AUTO !== 'undefined' && SBIR_AWARDS_AUTO.some(a => {
+    const firm = (a.firm || '').toLowerCase();
+    return firm.includes(nl) || nl.includes(firm.split(',')[0].split(' inc')[0].split(' llc')[0].trim());
+  })) {
+    badges.push('🔬');
+    hasGov = true;
+  }
+
+  if (!hasGov) return '';
+  return `<span class="card-gov-badge" title="Government funded" style="font-size:11px;padding:2px 6px;border-radius:4px;background:rgba(34,197,94,0.12);color:#22c55e;font-weight:600;white-space:nowrap;">${badges.join('')} Gov</span>`;
+}
+
 function renderCompanyCardHTML(company) {
   const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
 
@@ -1682,6 +1832,8 @@ function renderCompanyCardHTML(company) {
     const badge = renderScoreBadge(company.scores);
     if (badge) scoreDisplay = badge;
   }
+
+  const govBadge = getGovBadge(company.name);
 
   return `
     <div class="company-card" data-name="${company.name}" onclick="openCompanyModal('${company.name.replace(/'/g, "\\'")}')">
@@ -1702,6 +1854,7 @@ function renderCompanyCardHTML(company) {
       </div>
       <div class="card-footer">
         ${renderSignalBadge(company.signal)}
+        ${govBadge}
         ${scoreDisplay}
         <a href="company.html?slug=${companyToSlug(company.name)}" class="card-profile-link" onclick="event.stopPropagation()" title="View full company profile">Profile &rarr;</a>
       </div>
