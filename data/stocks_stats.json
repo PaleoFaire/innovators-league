@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.64,
+      "avg_change": -3.85,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.13,
+      "avg_change": -5.96,
       "count": 3
     },
     "transportation": {
@@ -96,14 +96,14 @@
       -7.51
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -8.21
-    ],
-    [
       "IONQ",
       "IonQ",
       -8.3
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -9.68
     ],
     [
       "277810.KQ",
@@ -111,5 +111,5 @@
       -9.74
     ]
   ],
-  "lastUpdated": "2026-03-13 07:00:03"
+  "lastUpdated": "2026-03-13 13:07:55"
 }
