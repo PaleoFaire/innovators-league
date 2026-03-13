@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.81,
+      "avg_change": 0.54,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 1.11,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 0.54,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -2.27,
+      "avg_change": -2.79,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.86,
+      "avg_change": -4.86,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.35,
+      "avg_change": -3.12,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.83,
+      "avg_change": -6.3,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.79,
+      "avg_change": -6.13,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.09,
+      "avg_change": -0.94,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -0.42,
+      "avg_change": -0.35,
       "count": 3
     }
   },
@@ -69,47 +69,47 @@
       7.78
     ],
     [
+      "9348.T",
+      "ispace",
+      4.91
+    ],
+    [
       "PL",
       "Planet Labs",
-      4.05
+      1.55
     ],
     [
       "JOBY",
       "Joby Aviation",
-      3.49
-    ],
-    [
-      "RIVN",
-      "Rivian",
-      1.88
+      1.35
     ]
   ],
   "topLosers": [
     [
-      "TEM",
-      "Tempus AI",
-      -6.33
+      "ASTS",
+      "AST SpaceMobile",
+      -7.21
     ],
     [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -6.36
+      "LNZA",
+      "LanzaTech",
+      -7.22
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -6.54
-    ],
-    [
-      "IONQ",
-      "IonQ",
-      -7.25
+      -7.51
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -9.2
+      -8.05
+    ],
+    [
+      "IONQ",
+      "IonQ",
+      -8.3
     ]
   ],
-  "lastUpdated": "2026-03-12 18:59:36"
+  "lastUpdated": "2026-03-13 02:27:49"
 }
