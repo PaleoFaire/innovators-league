@@ -21750,23 +21750,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-13 13:15
+// Last updated: 2026-03-13 16:51
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Aurora Innovation", headline: "Raquel Urtasun on Level-4 Autonomous Trucks", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Labelbox", headline: "Google's AI Searches Love to Refer You Back to Google", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Labelbox", headline: "The Download: how AI is used for military targeting, and the Pentagon's war on Claude", source: "MIT Tech Review", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Xanadu Quantum Technologies", headline: "China's OpenClaw Boom Is a Gold Rush for AI Companies", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Palantir", headline: "Polish president rejects $50 billion in European military loans", source: "Defense News", time: "1h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "Atomic Industries", headline: "5 Interesting Startup Deals You May Have Missed: Blood-Drawing Robots, Inboxes For AI Agents, Franchised Defense Manufac", source: "Crunchbase News", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Cape", headline: "6G Is Coming. Here's What to Expect From the Next Generation of Cellular Tech", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Palantir", headline: "Palantir Demos Show How the Military Could Use AI Chatbots to Generate War Plans", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Durin", headline: "Why Your Phone Battery Dies Faster During a Public Emergency", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Rivian", headline: "Rivian Introduces R2 Lineup, Sharing Full Trims &#038; Pricing", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Saule Technologies", headline: "US Perovskite Solar Cell Startup Hits The Ground Running", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "Nissan, Uber, &#038; Wayve Team Up On Robotaxis", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Labelbox", headline: "A defense official reveals how AI chatbots could be used for targeting decisions", source: "MIT Tech Review", time: "14h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Durin", headline: "KC-135 tanker involved in Epic Fury goes down in Iraq: CENTCOM", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Palantir", headline: "EXCLUSIVE: Freeman out as head of Amazon Leo Government", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Galvanick", headline: "The $32B acquisition that one VC is calling the 'Deal of the Decade'", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "news", company: "FleetZero", headline: "Zero-Emission Trucks in Europe ' The Road So Far", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Cape", headline: "UAE fights off outsized share of Iranian attacks, pulls back on sharing interception rates", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Xtend", headline: "Higher Jet Fuel Prices Could Melt Your Summer Travel Plans", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Claros", headline: "Why physical AI is becoming manufacturing's next advantage", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Saule Technologies", headline: "How China Is Avoiding The Straits Of Hormuz Curse", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Flexport", headline: "The Iran War Is Throwing Global Shipping Into Chaos", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Karman Industries", headline: "Iran's defense industrial base is 'functionally defeated': Hegseth", source: "Defense One", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Ample", headline: "48 New Tesla EV Chargers Planned For Detroit Area", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Deterrence", headline: "After Epic Fury, a munitions supplemental becomes imperative", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Vertical Aerospace", headline: "Peacock expands into AI-driven video, mobile-first live sports, and gaming", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Aurora Innovation", headline: "Raquel Urtasun on Level-4 Autonomous Trucks", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Labelbox", headline: "Google's AI Search Results Love to Refer You Back to Google", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Labelbox", headline: "The Download: how AI is used for military targeting, and the Pentagon's war on Claude", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Xanadu Quantum Technologies", headline: "China's OpenClaw Boom Is a Gold Rush for AI Companies", source: "Wired", time: "4h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
