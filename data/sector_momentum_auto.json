@@ -1,97 +1,98 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 69,
-    "trend": "accelerating",
-    "catalysts": [
-      "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models",
-      "Why AI Chatbots Agree With You Even When You\u2019re Wrong",
-      "StateChat users move to older AI model as State dumps Anthro"
-    ],
-    "fundingQ": "$360.0B",
-    "components": {
-      "funding": 100,
-      "news": 95,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-12"
-  },
-  {
     "sector": "Defense & Security",
-    "momentum": 68,
+    "momentum": 71,
     "trend": "accelerating",
     "catalysts": [
-      "Burning Plastic Isn\u2019t Renewable: Rethinking Waste &#038; Pow",
-      "Iran Warns US Tech Firms Could Become Targets as War Expands",
-      "Defense Business Brief: 3D-printing on the battlefield; Resh"
+      "A defense official reveals how AI chatbots could be used for",
+      "EXCLUSIVE: Freeman out as head of Amazon Leo Government",
+      "US Navy partners with Anduril to develop XL underwater vesse"
     ],
     "fundingQ": "$66.9B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 40
+      "market": 55
     },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 66,
+    "trend": "accelerating",
+    "catalysts": [
+      "\u2018Uncanny Valley\u2019: Anthropic\u2019s DOD Lawsuit, War Memes, and AI",
+      "Pragmatic by design: Engineering AI for the real world",
+      "While OpenAI Shattered Records, Robotics and Semiconductor S"
+    ],
+    "fundingQ": "$360.0B",
+    "components": {
+      "funding": 100,
+      "news": 85,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-13"
   },
   {
     "sector": "Robotics & Manufacturing",
+    "momentum": 58,
+    "trend": "accelerating",
+    "catalysts": [
+      "US Perovskite Solar Cell Startup Hits The Ground Running",
+      "Nissan, Uber, &#038; Wayve Team Up On Robotaxis",
+      "How the shutdown endangers America\u2019s &#8216;Arsenal of Freed"
+    ],
+    "fundingQ": "$17.7B",
+    "components": {
+      "funding": 100,
+      "news": 50,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-13"
+  },
+  {
+    "sector": "Housing & Construction",
     "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
-      "Active robotics & manufacturing ecosystem"
+      "China\u2019s Tianwen-3 Mars sample return mission moves into spac"
     ],
-    "fundingQ": "$17.7B",
+    "fundingQ": "$900.0B",
     "components": {
       "funding": 100,
       "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-12"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "Viasat wins $14 million contract to provide in-flight satcom"
-    ],
-    "fundingQ": "$900.0B",
-    "components": {
-      "funding": 100,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 49,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "Burning Plastic Isn\u2019t Renewable: Rethinking Waste &#038; Pow",
-      "Geoengineering The Gulf Of Maine"
+      "Burning Plastic Isn\u2019t Renewable: Rethinking Waste &#038; Pow"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Firefly Alpha returns to flight",
-      "Enpulsion raises $26 million",
-      "How the Iran War Could Jack Up Prices on Store Shelves"
+      "US Perovskite Solar Cell Startup Hits The Ground Running",
+      "China\u2019s Tianwen-3 Mars sample return mission moves into spac",
+      "US Navy partners with Anduril to develop XL underwater vesse"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -100,80 +101,65 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 29,
+    "momentum": 34,
     "trend": "steady",
     "catalysts": [
-      "Firefly Alpha returns to flight",
-      "The Post-Capacity Era of Satellite Connectivity",
-      "Enpulsion raises $26 million"
+      "China\u2019s Tianwen-3 Mars sample return mission moves into spac",
+      "SpaceX Space AI Ramp",
+      "Lucid Motors shows off robotaxi concept called &#8216;Lunar&"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
       "news": 100,
       "hiring": 0,
-      "market": 3
+      "market": 30
     },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 24,
+    "momentum": 23,
     "trend": "rising",
     "catalysts": [
-      "How to Fix Greenwashing Risks in the EU\u2019s Next Long-Term Bud",
-      "Burning Plastic Isn\u2019t Renewable: Rethinking Waste &#038; Pow",
-      "The perils of political impatience in the Artemis program"
+      "US Perovskite Solar Cell Startup Hits The Ground Running",
+      "SpaceX Space AI Ramp",
+      "Peak Energy Bringing Sodium-Ion Battery Storage To Wisconsin"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 55,
       "hiring": 0,
+      "market": 47
+    },
+    "lastUpdated": "2026-03-13"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "Fighter jets are downing Iranian drones\u2014a dangerous, expensi",
+      "DIU, Navy tap Anduril to prototype Dive-XL autonomous submar",
+      "Defense Business Brief: 3D-printing on the battlefield; Resh"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 35,
+      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-12"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 92
-    },
-    "lastUpdated": "2026-03-12"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging",
-      "Lotus Poised To Be The First Chinese EV Brand In Canada Unde"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 84
-    },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 21,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
       "The NEVI Funds Are Finally Unfrozen, But The Administration\u2019",
@@ -183,46 +169,65 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 20,
+    "sector": "Chips & Semiconductors",
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
-      "Nuro is testing its autonomous vehicle tech on Tokyo&#8217;s",
-      "Defense Business Brief: 3D-printing on the battlefield; Resh",
-      "Anduril, the autonomous weapons maker, doubles the size of i"
+      "US Perovskite Solar Cell Startup Hits The Ground Running",
+      "While OpenAI Shattered Records, Robotics and Semiconductor S",
+      "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 40,
+      "news": 30,
       "hiring": 0,
-      "market": 50
+      "market": 46
     },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 18,
-    "trend": "declining",
+    "momentum": 14,
+    "trend": "rising",
     "catalysts": [
-      "A Deluge Of Solar Power Crushes A Hollow Victory For Coal",
-      "BYD Song Ultra In Market Context: Value &#038; Next-Generati"
+      "A defense official reveals how AI chatbots could be used for",
+      "Gumloop lands $50M from Benchmark to turn every employee int",
+      "Pragmatic by design: Engineering AI for the real world"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 30,
+      "news": 45,
       "hiring": 0,
-      "market": 37
+      "market": 0
     },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 13,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian Introduces R2 Lineup, Sharing Full Trims &#038; Prici",
+      "Why Rivian is holding the $45,000 base model R2 until &#8216",
+      "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 41
+    },
+    "lastUpdated": "2026-03-13"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -238,27 +243,27 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 9,
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
-      "BYD Song Ultra In Market Context: Value &#038; Next-Generati"
+      "Active nuclear energy ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
-      "market": 22
+      "market": 13
     },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 3,
+    "momentum": 1,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -268,8 +273,8 @@
       "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 9
+      "market": 0
     },
-    "lastUpdated": "2026-03-12"
+    "lastUpdated": "2026-03-13"
   }
 ]
