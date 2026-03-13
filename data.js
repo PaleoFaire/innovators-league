@@ -21750,23 +21750,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-13 16:51
+// Last updated: 2026-03-13 20:44
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Galvanick", headline: "The $32B acquisition that one VC is calling the 'Deal of the Decade'", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "news", company: "FleetZero", headline: "Zero-Emission Trucks in Europe ' The Road So Far", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Cape", headline: "UAE fights off outsized share of Iranian attacks, pulls back on sharing interception rates", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Xtend", headline: "Higher Jet Fuel Prices Could Melt Your Summer Travel Plans", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Claros", headline: "Why physical AI is becoming manufacturing's next advantage", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Saule Technologies", headline: "How China Is Avoiding The Straits Of Hormuz Curse", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Flexport", headline: "The Iran War Is Throwing Global Shipping Into Chaos", source: "Wired", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Karman Industries", headline: "Iran's defense industrial base is 'functionally defeated': Hegseth", source: "Defense One", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Ample", headline: "48 New Tesla EV Chargers Planned For Detroit Area", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Deterrence", headline: "After Epic Fury, a munitions supplemental becomes imperative", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Vertical Aerospace", headline: "Peacock expands into AI-driven video, mobile-first live sports, and gaming", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Aurora Innovation", headline: "Raquel Urtasun on Level-4 Autonomous Trucks", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Labelbox", headline: "Google's AI Search Results Love to Refer You Back to Google", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Labelbox", headline: "The Download: how AI is used for military targeting, and the Pentagon's war on Claude", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Xanadu Quantum Technologies", headline: "China's OpenClaw Boom Is a Gold Rush for AI Companies", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Firestorm Labs", headline: "China is developing low-cost lunar cargo options for its expanding moon program", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Kepler Communications", headline: "How US military space operators are likely aiding the fight in Iran", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Amca", headline: "The biggest AI stories of the year (so far)", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "Andrenam", headline: "UK Navy buys 20 USVs to act as unmanned 'proving ground'", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Neros", headline: "After Ukraine, FPV drones could take on Arctic warfare", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Reveal Technology", headline: "Ukraine opens battlefield AI data to allies in world-first move", source: "Defense News", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Palantir", headline: "Lebanese government tries to avoid internal strife amid Israeli bombardment", source: "Defense News", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "Cape", headline: "Ukraine will host first test for Leonardo's Michelangelo security dome", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Xanadu Quantum Technologies", headline: "The wild six weeks for NanoClaw's creator that led to a deal with Docker", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Claros", headline: "Thin Film Solar Gets A Muscular Perovskite Makeover", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Galvanick", headline: "The $32B acquisition that one VC is calling the 'Deal of the Decade'", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "FleetZero", headline: "Zero-Emission Trucks in Europe ' The Road So Far", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Cape", headline: "UAE fights off outsized share of Iranian attacks, pulls back on sharing interception rates", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Xtend", headline: "Higher Jet Fuel Prices Could Melt Your Summer Travel Plans", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Claros", headline: "Why physical AI is becoming manufacturing's next advantage", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
