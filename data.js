@@ -21475,23 +21475,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-12 20:43
+// Last updated: 2026-03-13 02:41
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Rivian", headline: "Why Rivian is holding the $45,000 base model R2 until 'late 2027'", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Deterrence", headline: "Fighter jets are downing Iranian drones'a dangerous, expensive mission", source: "Defense One", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Cape", headline: "John Solly Is the DOGE Operative Accused of Planning to Take Social Security Data to His New Job", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Space AI Ramp", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Anthropic", headline: "'Uncanny Valley': Anthropic's DOD Lawsuit, War Memes, and AI Coming for VC Jobs", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Natron Energy", headline: "Peak Energy Bringing Sodium-Ion Battery Storage To Wisconsin", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Harbinger", headline: "With Oil On The Rocks, Electric Trucks Save Even More Bucks", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Saule Technologies", headline: "In Battle Against Renewable Energy Investing, Texas AG Is All Hat &#8212; No Cattle", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Karman Industries", headline: "How the shutdown endangers America's 'Arsenal of Freedom' behind the scenes", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Waymo", headline: "Lucid Motors shows off robotaxi concept called 'Lunar'", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Agility Robotics", headline: "Humanoid robotics maker Sunday reaches $1.15B valuation to build household robots", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Flock Safety", headline: "Law enforcement shuts down botnet made of tens of thousands of hacked routers", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Ample", headline: "Gumloop lands $50M from Benchmark to turn every employee into an AI agent builder", source: "TechCrunch", time: "5h ago", impact: "medium", unread: false },
-  { id: 14, type: "milestone", company: "Rivian", headline: "Rivian R2 launch: Here's what $57,990 gets you", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Waymo", headline: "Uber, Wayve, and Nissan plan to launch a robotaxi service in Tokyo this year", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Saule Technologies", headline: "US Perovskite Solar Cell Startup Hits The Ground Running", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Waymo", headline: "Nissan, Uber, &#038; Wayve Team Up On Robotaxis", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Labelbox", headline: "A defense official reveals how AI chatbots could be used for targeting decisions", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Durin", headline: "KC-135 tanker involved in Epic Fury goes down in Iraq: CENTCOM", source: "Breaking Defense", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "EXCLUSIVE: Freeman out as head of Amazon Leo Government", source: "Breaking Defense", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Amidon Heavy Industries", headline: "US Navy partners with Anduril to develop XL underwater vessel", source: "Defense News", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Rivian", headline: "Why Rivian is holding the $45,000 base model R2 until 'late 2027'", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Deterrence", headline: "Fighter jets are downing Iranian drones'a dangerous, expensive mission", source: "Defense One", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Cape", headline: "John Solly Is the DOGE Operative Accused of Planning to Take Social Security Data to His New Job", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Space AI Ramp", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "Anthropic", headline: "'Uncanny Valley': Anthropic's DOD Lawsuit, War Memes, and AI Coming for VC Jobs", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Natron Energy", headline: "Peak Energy Bringing Sodium-Ion Battery Storage To Wisconsin", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Harbinger", headline: "With Oil On The Rocks, Electric Trucks Save Even More Bucks", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Saule Technologies", headline: "In Battle Against Renewable Energy Investing, Texas AG Is All Hat &#8212; No Cattle", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "Karman Industries", headline: "How the shutdown endangers America's 'Arsenal of Freedom' behind the scenes", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
