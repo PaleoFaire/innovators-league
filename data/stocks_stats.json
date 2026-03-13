@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 0.54,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -3.58,
       "count": 1
     },
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 0.54,
+      "avg_change": 1.12,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.85,
+      "avg_change": -5.06,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -4.86,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -0.91,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -3.12,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 3.36,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.3,
+      "avg_change": -6.27,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.96,
+      "avg_change": -3.54,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -0.94,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -2.0,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -0.35,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.7,
       "count": 3
     }
   },
@@ -64,9 +64,9 @@
       13.29
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      8.33
+      "LNZA",
+      "LanzaTech",
+      7.89
     ],
     [
       "9348.T",
@@ -74,31 +74,31 @@
       4.91
     ],
     [
-      "PL",
-      "Planet Labs",
-      1.55
+      "NVDA",
+      "NVIDIA",
+      1.82
     ],
     [
-      "JOBY",
-      "Joby Aviation",
-      1.35
+      "QS",
+      "QuantumScape",
+      1.72
     ]
   ],
   "topLosers": [
     [
-      "LNZA",
-      "LanzaTech",
-      -7.22
-    ],
-    [
       "EVTL",
       "Vertical Aerospace",
-      -7.51
+      -6.48
     ],
     [
       "IONQ",
       "IonQ",
-      -8.3
+      -7.56
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      -7.68
     ],
     [
       "IDEAFORGE.NS",
@@ -111,5 +111,5 @@
       -9.74
     ]
   ],
-  "lastUpdated": "2026-03-13 13:07:55"
+  "lastUpdated": "2026-03-13 18:50:05"
 }
