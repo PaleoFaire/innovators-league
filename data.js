@@ -21755,23 +21755,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-14 13:07
+// Last updated: 2026-03-14 16:40
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Ample", headline: "Stellantis Rumored to Talk with Xiaomi &#038; XPeng Regarding Partnership", source: "CleanTechnica", time: "9h ago", impact: "medium", unread: true },
-  { id: 2, type: "funding", company: "Machina Labs", headline: "Applied EV Presses Ahead with Autonomous Electric Vehicles in Australia", source: "CleanTechnica", time: "9h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", time: "11h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Elodin", headline: "The Global Offshore Wind Industry Floats Away From The US (For Now)", source: "CleanTechnica", time: "12h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anysphere", headline: "'Not built right the first time' &#8212; Musk's xAI is starting over again, again", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Theseus", headline: "iMetalX emerges from stealth with technology to model resident space objects", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Hadrian", headline: "Astroscale selects Isar Aerospace to launch ELSA-M mission", source: "SpaceNews", time: "15h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Firestorm Labs", headline: "China is developing low-cost lunar cargo options for its expanding moon program", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Kepler Communications", headline: "How US military space operators are likely aiding the fight in Iran", source: "Breaking Defense", time: "17h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Amca", headline: "The biggest AI stories of the year (so far)", source: "TechCrunch", time: "17h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "Andrenam", headline: "UK Navy buys 20 USVs to act as unmanned 'proving ground'", source: "Breaking Defense", time: "18h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Neros", headline: "After Ukraine, FPV drones could take on Arctic warfare", source: "Defense News", time: "18h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Reveal Technology", headline: "Ukraine opens battlefield AI data to allies in world-first move", source: "Defense News", time: "18h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Palantir", headline: "Lebanese government tries to avoid internal strife amid Israeli bombardment", source: "Defense News", time: "18h ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Cape", headline: "Ukraine will host first test for Leonardo's Michelangelo security dome", source: "SpaceNews", time: "18h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Amca", headline: "Meta reportedly considering layoffs that could affect 20% of the company", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "news", company: "FleetZero", headline: "UK EV Sales Were Higher Than Mandated In 2024", source: "CleanTechnica", time: "12h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Ample", headline: "Stellantis Rumored to Talk with Xiaomi &#038; XPeng Regarding Partnership", source: "CleanTechnica", time: "12h ago", impact: "medium", unread: true },
+  { id: 4, type: "funding", company: "Machina Labs", headline: "Applied EV Presses Ahead with Autonomous Electric Vehicles in Australia", source: "CleanTechnica", time: "12h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", time: "15h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Elodin", headline: "The Global Offshore Wind Industry Floats Away From The US (For Now)", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anysphere", headline: "'Not built right the first time' &#8212; Musk's xAI is starting over again, again", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Theseus", headline: "iMetalX emerges from stealth with technology to model resident space objects", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Hadrian", headline: "Astroscale selects Isar Aerospace to launch ELSA-M mission", source: "SpaceNews", time: "19h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Firestorm Labs", headline: "China is developing low-cost lunar cargo options for its expanding moon program", source: "SpaceNews", time: "20h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Kepler Communications", headline: "How US military space operators are likely aiding the fight in Iran", source: "Breaking Defense", time: "20h ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "Amca", headline: "The biggest AI stories of the year (so far)", source: "TechCrunch", time: "21h ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Andrenam", headline: "UK Navy buys 20 USVs to act as unmanned 'proving ground'", source: "Breaking Defense", time: "21h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Neros", headline: "After Ukraine, FPV drones could take on Arctic warfare", source: "Defense News", time: "21h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Reveal Technology", headline: "Ukraine opens battlefield AI data to allies in world-first move", source: "Defense News", time: "21h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
