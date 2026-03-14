@@ -30,7 +30,7 @@
   {
     "company": "Together AI",
     "totalRaised": "$167.6B+",
-    "totalRaisedRaw": 167550.0,
+    "totalRaisedRaw": 167555.3,
     "lastRound": "Series G",
     "lastRoundAmount": "$500M",
     "lastRoundDate": "2026-03",
@@ -38,7 +38,7 @@
     "leadInvestors": [
       "Undisclosed"
     ],
-    "roundCount": 4
+    "roundCount": 5
   },
   {
     "company": "Rebellions",
@@ -95,6 +95,20 @@
     "roundCount": 2
   },
   {
+    "company": "Galvanick",
+    "totalRaised": "$41.2B+",
+    "totalRaisedRaw": 41190.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$190M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Index Ventures"
+    ],
+    "roundCount": 3
+  },
+  {
     "company": "Labelbox",
     "totalRaised": "$30.0B+",
     "totalRaisedRaw": 30000.0,
@@ -126,19 +140,6 @@
     "totalRaisedRaw": 12026.0,
     "lastRound": "SPAC",
     "lastRoundAmount": "$26M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "Galvanick",
-    "totalRaised": "$9.2B+",
-    "totalRaisedRaw": 9190.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$190M",
     "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
@@ -434,6 +435,19 @@
     "roundCount": 1
   },
   {
+    "company": "Wandelbots",
+    "totalRaised": "$500M+",
+    "totalRaisedRaw": 500.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$500M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Helion",
     "totalRaised": "$425M+",
     "totalRaisedRaw": 425.0,
@@ -697,6 +711,19 @@
     "lastRound": "Series G",
     "lastRoundAmount": "$41M",
     "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Rivian",
+    "totalRaised": "$40M+",
+    "totalRaisedRaw": 40.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$40M",
+    "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"

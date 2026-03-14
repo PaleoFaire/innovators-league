@@ -1,80 +1,80 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 71,
+    "momentum": 62,
     "trend": "accelerating",
     "catalysts": [
-      "A defense official reveals how AI chatbots could be used for",
-      "EXCLUSIVE: Freeman out as head of Amazon Leo Government",
-      "US Navy partners with Anduril to develop XL underwater vesse"
+      "How US military space operators are likely aiding the fight",
+      "UK Navy buys 20 USVs to act as unmanned &#8216;proving groun",
+      "After Ukraine, FPV drones could take on Arctic warfare"
     ],
     "fundingQ": "$66.9B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 55
+      "market": 10
     },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
   },
   {
     "sector": "AI & Software",
-    "momentum": 66,
+    "momentum": 62,
     "trend": "accelerating",
     "catalysts": [
+      "Palantir Demos Show How the Military Could Use AI Chatbots t",
       "\u2018Uncanny Valley\u2019: Anthropic\u2019s DOD Lawsuit, War Memes, and AI",
-      "Pragmatic by design: Engineering AI for the real world",
-      "While OpenAI Shattered Records, Robotics and Semiconductor S"
+      "Pragmatic by design: Engineering AI for the real world"
     ],
     "fundingQ": "$360.0B",
     "components": {
       "funding": 100,
-      "news": 85,
+      "news": 70,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 58,
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
-      "US Perovskite Solar Cell Startup Hits The Ground Running",
-      "Nissan, Uber, &#038; Wayve Team Up On Robotaxis",
-      "How the shutdown endangers America\u2019s &#8216;Arsenal of Freed"
+      "Why physical AI is becoming manufacturing\u2019s next advantage",
+      "Iran\u2019s defense industrial base is \u2018functionally defeated\u2019: H",
+      "5 Interesting Startup Deals You May Have Missed: Blood-Drawi"
     ],
     "fundingQ": "$17.7B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 55,
-    "trend": "accelerating",
+    "momentum": 52,
+    "trend": "steady",
     "catalysts": [
-      "China\u2019s Tianwen-3 Mars sample return mission moves into spac"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$900.0B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
   },
   {
     "sector": "Ocean & Maritime",
     "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "Burning Plastic Isn\u2019t Renewable: Rethinking Waste &#038; Pow"
+      "UK Navy buys 20 USVs to act as unmanned &#8216;proving groun"
     ],
     "fundingQ": "$1.2B",
     "components": {
@@ -83,171 +83,134 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 35,
+    "momentum": 32,
     "trend": "steady",
     "catalysts": [
-      "US Perovskite Solar Cell Startup Hits The Ground Running",
-      "China\u2019s Tianwen-3 Mars sample return mission moves into spac",
-      "US Navy partners with Anduril to develop XL underwater vesse"
+      "Applied EV Presses Ahead with Autonomous Electric Vehicles i",
+      "The Global Offshore Wind Industry Floats Away From The US (F",
+      "Thin Film Solar Gets A Muscular Perovskite Makeover"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 100,
+      "news": 90,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-13"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 34,
-    "trend": "steady",
-    "catalysts": [
-      "China\u2019s Tianwen-3 Mars sample return mission moves into spac",
-      "SpaceX Space AI Ramp",
-      "Lucid Motors shows off robotaxi concept called &#8216;Lunar&"
-    ],
-    "fundingQ": "$175M",
-    "components": {
-      "funding": 9,
-      "news": 100,
-      "hiring": 0,
-      "market": 30
-    },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 23,
+    "momentum": 29,
     "trend": "rising",
     "catalysts": [
-      "US Perovskite Solar Cell Startup Hits The Ground Running",
-      "SpaceX Space AI Ramp",
-      "Peak Energy Bringing Sodium-Ion Battery Storage To Wisconsin"
+      "The Global Offshore Wind Industry Floats Away From The US (F",
+      "Thin Film Solar Gets A Muscular Perovskite Makeover",
+      "The $32B acquisition that one VC is calling the &#8216;Deal"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 70,
+      "hiring": 0,
+      "market": 56
+    },
+    "lastUpdated": "2026-03-14"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 24,
+    "trend": "rising",
+    "catalysts": [
+      "Applied EV Presses Ahead with Autonomous Electric Vehicles i",
+      "UK Navy buys 20 USVs to act as unmanned &#8216;proving groun",
+      "After Ukraine, FPV drones could take on Arctic warfare"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 55,
       "hiring": 0,
-      "market": 47
-    },
-    "lastUpdated": "2026-03-13"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "Fighter jets are downing Iranian drones\u2014a dangerous, expensi",
-      "DIU, Navy tap Anduril to prototype Dive-XL autonomous submar",
-      "Defense Business Brief: 3D-printing on the battlefield; Resh"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 35,
-      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 23,
+    "trend": "rising",
+    "catalysts": [
+      "Applied EV Presses Ahead with Autonomous Electric Vehicles i",
+      "Google's AI Search Results Love to Refer You Back to Google",
+      "The Download: how AI is used for military targeting, and the"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 60,
+      "hiring": 0,
+      "market": 22
+    },
+    "lastUpdated": "2026-03-14"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 22,
+    "trend": "rising",
+    "catalysts": [
+      "How US military space operators are likely aiding the fight",
+      "Raquel Urtasun on Level-4 Autonomous Trucks",
+      "SpaceX Space AI Ramp"
+    ],
+    "fundingQ": "$175M",
+    "components": {
+      "funding": 9,
+      "news": 50,
+      "hiring": 0,
+      "market": 30
+    },
+    "lastUpdated": "2026-03-14"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 19,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "The NEVI Funds Are Finally Unfrozen, But The Administration\u2019",
-      "Iran Warns US Tech Firms Could Become Targets as War Expands",
-      "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models"
+      "Demand signals are up, but supply chain risks may still hind",
+      "The Iran War Is Throwing Global Shipping Into Chaos"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 35,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 17,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
-      "US Perovskite Solar Cell Startup Hits The Ground Running",
-      "While OpenAI Shattered Records, Robotics and Semiconductor S",
-      "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models"
+      "US Perovskite Solar Cell Startup Hits The Ground Running"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 30,
       "hiring": 0,
-      "market": 46
+      "market": 59
     },
-    "lastUpdated": "2026-03-13"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 14,
-    "trend": "rising",
-    "catalysts": [
-      "A defense official reveals how AI chatbots could be used for",
-      "Gumloop lands $50M from Benchmark to turn every employee int",
-      "Pragmatic by design: Engineering AI for the real world"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 45,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-03-13"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 13,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian Introduces R2 Lineup, Sharing Full Trims &#038; Prici",
-      "Why Rivian is holding the $45,000 base model R2 until &#8216",
-      "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 41
-    },
-    "lastUpdated": "2026-03-13"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Active supersonic & hypersonic ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 6,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
       "Active nuclear energy ecosystem"
@@ -255,11 +218,44 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 57
+    },
+    "lastUpdated": "2026-03-14"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 13,
+    "trend": "declining",
+    "catalysts": [
+      "Applied EV Presses Ahead with Autonomous Electric Vehicles i",
+      "Rivian Introduces R2 Lineup, Sharing Full Trims &#038; Prici"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
       "news": 15,
       "hiring": 0,
-      "market": 13
+      "market": 32
     },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Active supersonic & hypersonic ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-14"
   },
   {
     "sector": "Quantum Computing",
@@ -275,6 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-13"
+    "lastUpdated": "2026-03-14"
   }
 ]

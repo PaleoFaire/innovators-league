@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-03-13";
+const LAST_UPDATED = "2026-03-14";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -10142,7 +10142,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2017,
     keyPeople: ["Christian Piechnick (CEO)", "Maria Piechnick (Co-Founder)", "Christoph Biering (Co-Founder)"],
     investors: ["Insight Partners", "83North", "Microsoft M12", "Next47 (Siemens)", "Paua Ventures"],
-    fundingStage: "Series C",
+    fundingStage: "Series G",
     totalRaised: "$126M",
     valuation: "Undisclosed",
     website: "https://www.wandelbots.com",
@@ -11550,7 +11550,7 @@ const MARKET_PULSE = [
   { name: "Kratos Defense", ticker: "KTOS", valuation: "$5B+", change: "+0.9%", trend: "up", sector: "Defense & Security" }
 ];
 
-// Auto-calculated funding tracker — Last updated: 2026-03-13
+// Auto-calculated funding tracker — Last updated: 2026-03-14
 const FUNDING_TRACKER = [
   { company: "Cover", totalRaised: "$900.0B+", lastRound: "Funding Round", lastRoundAmount: "$900B", lastRoundDate: "2026-01", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "OpenAI", totalRaised: "$260.0B+", lastRound: "Funding Round", lastRoundAmount: "$110B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed", "Lightspeed Venture Partners", "SoftBank"] },
@@ -11559,10 +11559,10 @@ const FUNDING_TRACKER = [
   { company: "Anduril Industries", totalRaised: "$62.5B+", lastRound: "Series G", lastRoundAmount: "$60B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed", "Founders Fund"] },
   { company: "Durin", totalRaised: "$50.0B+", lastRound: "Funding Round", lastRoundAmount: "$50B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Anthropic", totalRaised: "$43.0B+", lastRound: "Series G", lastRoundAmount: "$30B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed", "GIC"] },
+  { company: "Galvanick", totalRaised: "$41.2B+", lastRound: "Funding Round", lastRoundAmount: "$190M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed", "Index Ventures"] },
   { company: "Labelbox", totalRaised: "$30.0B+", lastRound: "Series G", lastRoundAmount: "$30B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Waymo", totalRaised: "$16.0B+", lastRound: "Late Stage", lastRoundAmount: "$16B", lastRoundDate: "2026-02", valuation: "$126B", leadInvestors: ["Alphabet"] },
   { company: "Orbion Space Technology", totalRaised: "$12.0B+", lastRound: "SPAC", lastRoundAmount: "$26M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
-  { company: "Galvanick", totalRaised: "$9.2B+", lastRound: "Funding Round", lastRoundAmount: "$190M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Built Robotics", totalRaised: "$5.8B+", lastRound: "Funding Round", lastRoundAmount: "$4.1M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed", "Accel"] },
   { company: "Ample", totalRaised: "$4.5B+", lastRound: "Funding Round", lastRoundAmount: "$4.5B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Anysphere", totalRaised: "$2.3B+", lastRound: "Series D", lastRoundAmount: "$2.3B", lastRoundDate: "2025-11", valuation: "$29.3B", leadInvestors: ["a16z"] },
@@ -11585,6 +11585,7 @@ const FUNDING_TRACKER = [
   { company: "Epirus", totalRaised: "$550M+", lastRound: "Late Stage", lastRoundAmount: "$550M+", lastRoundDate: "2026-01", valuation: "$1.35B", leadInvestors: [] },
   { company: "Shield AI", totalRaised: "$540M+", lastRound: "Series F-1", lastRoundAmount: "$540M", lastRoundDate: "2025-09", valuation: "$5.6B", leadInvestors: ["L3Harris"] },
   { company: "Axiom Space", totalRaised: "$500M+", lastRound: "Series T", lastRoundAmount: "$500M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
+  { company: "Wandelbots", totalRaised: "$500M+", lastRound: "Series G", lastRoundAmount: "$500M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Helion", totalRaised: "$425M+", lastRound: "Series F", lastRoundAmount: "$425M", lastRoundDate: "2025-05", valuation: "$5.4B", leadInvestors: ["Sam Altman"] },
   { company: "Agility Robotics", totalRaised: "$385M+", lastRound: "Series E", lastRoundAmount: "$385M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Bedrock Robotics", totalRaised: "$350M+", lastRound: "Series B", lastRoundAmount: "$270M", lastRoundDate: "2026-02", valuation: "$1.75B", leadInvestors: ["CapitalG", "Eclipse Ventures", "8VC"] },
@@ -11606,6 +11607,7 @@ const FUNDING_TRACKER = [
   { company: "GrayMatter Robotics", totalRaised: "$45M+", lastRound: "Series B", lastRoundAmount: "$45M", lastRoundDate: "2025-06", valuation: "$300M+", leadInvestors: ["Wellington Management"] },
   { company: "Pano AI", totalRaised: "$44M+", lastRound: "Series B", lastRoundAmount: "$44M", lastRoundDate: "2025-06", valuation: "$500M+", leadInvestors: ["Giant Ventures"] },
   { company: "Dragonfly Aerospace", totalRaised: "$41M+", lastRound: "Series G", lastRoundAmount: "$41M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
+  { company: "Rivian", totalRaised: "$40M+", lastRound: "Funding Round", lastRoundAmount: "$40M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Watershed", totalRaised: "$30M+", lastRound: "Series A", lastRoundAmount: "$30M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["a16z"] },
   { company: "ideaForge", totalRaised: "$26M+", lastRound: "Funding Round", lastRoundAmount: "$26M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Proteus Space", totalRaised: "$17M+", lastRound: "Series A", lastRoundAmount: "$17M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Accel"] },
@@ -11636,6 +11638,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-03-11
 // Auto-updated IPO pipeline — Last updated: 2026-03-12
 // Auto-updated IPO pipeline — Last updated: 2026-03-13
+// Auto-updated IPO pipeline — Last updated: 2026-03-14
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -12054,29 +12057,29 @@ const SECTOR_MOMENTUM_METHODOLOGY = {
 };
 
 // Auto-calculated sector momentum scores
-// Last updated: 2026-03-13
+// Last updated: 2026-03-14
 // Methodology: Funding velocity (35%) + News frequency (25%) + Hiring velocity (20%) + Market sentiment (20%)
 const SECTOR_MOMENTUM = [
-  { sector: "Defense & Security", momentum: 71, trend: "accelerating", catalysts: ["A defense official reveals how AI chatbots could be used for", "EXCLUSIVE: Freeman out as head of Amazon Leo Government", "US Navy partners with Anduril to develop XL underwater vesse"], fundingQ: "$66.9B" },
-  { sector: "AI & Software", momentum: 66, trend: "accelerating", catalysts: ["\u2018Uncanny Valley\u2019: Anthropic\u2019s DOD Lawsuit, War Memes, and AI", "Pragmatic by design: Engineering AI for the real world", "While OpenAI Shattered Records, Robotics and Semiconductor S"], fundingQ: "$360.0B" },
-  { sector: "Robotics & Manufacturing", momentum: 58, trend: "accelerating", catalysts: ["US Perovskite Solar Cell Startup Hits The Ground Running", "Nissan, Uber, &#038; Wayve Team Up On Robotaxis", "How the shutdown endangers America\u2019s &#8216;Arsenal of Freed"], fundingQ: "$17.7B" },
-  { sector: "Housing & Construction", momentum: 55, trend: "accelerating", catalysts: ["China\u2019s Tianwen-3 Mars sample return mission moves into spac"], fundingQ: "$900.0B" },
-  { sector: "Ocean & Maritime", momentum: 48, trend: "steady", catalysts: ["Burning Plastic Isn\u2019t Renewable: Rethinking Waste &#038; Pow"], fundingQ: "$1.2B" },
-  { sector: "Consumer Tech", momentum: 35, trend: "steady", catalysts: ["US Perovskite Solar Cell Startup Hits The Ground Running", "China\u2019s Tianwen-3 Mars sample return mission moves into spac", "US Navy partners with Anduril to develop XL underwater vesse"], fundingQ: "$0M" },
-  { sector: "Space & Aerospace", momentum: 34, trend: "steady", catalysts: ["China\u2019s Tianwen-3 Mars sample return mission moves into spac", "SpaceX Space AI Ramp", "Lucid Motors shows off robotaxi concept called &#8216;Lunar&"], fundingQ: "$175M" },
-  { sector: "Climate & Energy", momentum: 23, trend: "rising", catalysts: ["US Perovskite Solar Cell Startup Hits The Ground Running", "SpaceX Space AI Ramp", "Peak Energy Bringing Sodium-Ion Battery Storage To Wisconsin"], fundingQ: "$0M" },
-  { sector: "Drones & Autonomous", momentum: 19, trend: "declining", catalysts: ["Fighter jets are downing Iranian drones\u2014a dangerous, expensi", "DIU, Navy tap Anduril to prototype Dive-XL autonomous submar", "Defense Business Brief: 3D-printing on the battlefield; Resh"], fundingQ: "$0M" },
-  { sector: "Infrastructure & Logistics", momentum: 19, trend: "declining", catalysts: ["The NEVI Funds Are Finally Unfrozen, But The Administration\u2019", "Iran Warns US Tech Firms Could Become Targets as War Expands", "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models"], fundingQ: "$0M" },
-  { sector: "Chips & Semiconductors", momentum: 17, trend: "declining", catalysts: ["US Perovskite Solar Cell Startup Hits The Ground Running", "While OpenAI Shattered Records, Robotics and Semiconductor S", "Nvidia Will Spend $26 Billion to Build Open-Weight AI Models"], fundingQ: "$0M" },
-  { sector: "Biotech & Health", momentum: 14, trend: "rising", catalysts: ["A defense official reveals how AI chatbots could be used for", "Gumloop lands $50M from Benchmark to turn every employee int", "Pragmatic by design: Engineering AI for the real world"], fundingQ: "$230M" },
-  { sector: "Transportation", momentum: 13, trend: "declining", catalysts: ["Rivian Introduces R2 Lineup, Sharing Full Trims &#038; Prici", "Why Rivian is holding the $45,000 base model R2 until &#8216", "Geely &#038; Zeekr Right Behind BYD with 1,500 kW Charging"], fundingQ: "$0M" },
-  { sector: "Supersonic & Hypersonic", momentum: 12, trend: "declining", catalysts: ["Active supersonic & hypersonic ecosystem"], fundingQ: "$0M" },
-  { sector: "Nuclear Energy", momentum: 6, trend: "declining", catalysts: ["Active nuclear energy ecosystem"], fundingQ: "$0M" },
+  { sector: "Defense & Security", momentum: 62, trend: "accelerating", catalysts: ["How US military space operators are likely aiding the fight", "UK Navy buys 20 USVs to act as unmanned &#8216;proving groun", "After Ukraine, FPV drones could take on Arctic warfare"], fundingQ: "$66.9B" },
+  { sector: "AI & Software", momentum: 62, trend: "accelerating", catalysts: ["Palantir Demos Show How the Military Could Use AI Chatbots t", "\u2018Uncanny Valley\u2019: Anthropic\u2019s DOD Lawsuit, War Memes, and AI", "Pragmatic by design: Engineering AI for the real world"], fundingQ: "$360.0B" },
+  { sector: "Robotics & Manufacturing", momentum: 59, trend: "accelerating", catalysts: ["Why physical AI is becoming manufacturing\u2019s next advantage", "Iran\u2019s defense industrial base is \u2018functionally defeated\u2019: H", "5 Interesting Startup Deals You May Have Missed: Blood-Drawi"], fundingQ: "$17.7B" },
+  { sector: "Housing & Construction", momentum: 52, trend: "steady", catalysts: ["Active housing & construction ecosystem"], fundingQ: "$900.0B" },
+  { sector: "Ocean & Maritime", momentum: 48, trend: "steady", catalysts: ["UK Navy buys 20 USVs to act as unmanned &#8216;proving groun"], fundingQ: "$1.2B" },
+  { sector: "Consumer Tech", momentum: 32, trend: "steady", catalysts: ["Applied EV Presses Ahead with Autonomous Electric Vehicles i", "The Global Offshore Wind Industry Floats Away From The US (F", "Thin Film Solar Gets A Muscular Perovskite Makeover"], fundingQ: "$0M" },
+  { sector: "Climate & Energy", momentum: 29, trend: "rising", catalysts: ["The Global Offshore Wind Industry Floats Away From The US (F", "Thin Film Solar Gets A Muscular Perovskite Makeover", "The $32B acquisition that one VC is calling the &#8216;Deal"], fundingQ: "$0M" },
+  { sector: "Drones & Autonomous", momentum: 24, trend: "rising", catalysts: ["Applied EV Presses Ahead with Autonomous Electric Vehicles i", "UK Navy buys 20 USVs to act as unmanned &#8216;proving groun", "After Ukraine, FPV drones could take on Arctic warfare"], fundingQ: "$0M" },
+  { sector: "Biotech & Health", momentum: 23, trend: "rising", catalysts: ["Applied EV Presses Ahead with Autonomous Electric Vehicles i", "Google's AI Search Results Love to Refer You Back to Google", "The Download: how AI is used for military targeting, and the"], fundingQ: "$230M" },
+  { sector: "Space & Aerospace", momentum: 22, trend: "rising", catalysts: ["How US military space operators are likely aiding the fight", "Raquel Urtasun on Level-4 Autonomous Trucks", "SpaceX Space AI Ramp"], fundingQ: "$175M" },
+  { sector: "Infrastructure & Logistics", momentum: 20, trend: "declining", catalysts: ["Demand signals are up, but supply chain risks may still hind", "The Iran War Is Throwing Global Shipping Into Chaos"], fundingQ: "$0M" },
+  { sector: "Chips & Semiconductors", momentum: 19, trend: "declining", catalysts: ["US Perovskite Solar Cell Startup Hits The Ground Running"], fundingQ: "$0M" },
+  { sector: "Nuclear Energy", momentum: 14, trend: "declining", catalysts: ["Active nuclear energy ecosystem"], fundingQ: "$0M" },
+  { sector: "Transportation", momentum: 13, trend: "declining", catalysts: ["Applied EV Presses Ahead with Autonomous Electric Vehicles i", "Rivian Introduces R2 Lineup, Sharing Full Trims &#038; Prici"], fundingQ: "$40M" },
+  { sector: "Supersonic & Hypersonic", momentum: 11, trend: "declining", catalysts: ["Active supersonic & hypersonic ecosystem"], fundingQ: "$0M" },
   { sector: "Quantum Computing", momentum: 1, trend: "declining", catalysts: ["Active quantum computing ecosystem"], fundingQ: "$0M" },
 ];
 
 // Auto-updated Census Bureau trade data
-// Last updated: 2026-03-13
+// Last updated: 2026-03-14
 const TRADE_DATA = [
   { hsCode: "8542", category: "Integrated circuits / semiconductors", tradeType: "imports", latestMonthValue: 4878002687, latestMonthFormatted: "$4.9B", yoyChange: "+38.9%", momChange: "+16.3%", trend: "surging", relevantCompanies: ["Cerebras", "Etched", "Lightmatter", "Astera Labs", "Tenstorrent", "Groq"], relevantSector: "chips", period: "2025-12", lastUpdated: "2026-03-10" },
   { hsCode: "8542", category: "Integrated circuits / semiconductors", tradeType: "exports", latestMonthValue: 3766068634, latestMonthFormatted: "$3.8B", yoyChange: "-11.1%", momChange: "-12.5%", trend: "declining", relevantCompanies: ["Cerebras", "Etched", "Lightmatter", "Astera Labs", "Tenstorrent", "Groq"], relevantSector: "chips", period: "2025-11", lastUpdated: "2026-03-10" },
@@ -12289,6 +12292,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-03-12
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-03-13
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-03-14
 const DEAL_TRACKER = [
   { company: "Intuitive Machines", investor: "Undisclosed", amount: "$175M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "PLD Space", investor: "Accel", amount: "$118M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
@@ -12320,6 +12325,10 @@ const DEAL_TRACKER = [
   { company: "Sanctuary AI", investor: "Undisclosed", amount: "$1.15B", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Quantinuum", investor: "Undisclosed", amount: "$665M", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Cellares", investor: "Undisclosed", amount: "$1.2B", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
+  { company: "Rivian", investor: "Undisclosed", amount: "$40M", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
+  { company: "Wandelbots", investor: "Undisclosed", amount: "$500M", round: "Series G", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
+  { company: "Together AI", investor: "Undisclosed", amount: "$5.3M", round: "Seed", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
+  { company: "Galvanick", investor: "Index Ventures", amount: "$32B", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Waymo", investor: "Alphabet", amount: "$16B", round: "Late Stage", date: "2026-02", valuation: "$126B", leadOrParticipant: "lead" },
   { company: "Bedrock Robotics", investor: "CapitalG", amount: "$270M", round: "Series B", date: "2026-02", valuation: "$1.75B", leadOrParticipant: "lead" },
   { company: "Anthropic", investor: "Undisclosed", amount: "$30B", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
@@ -12412,168 +12421,161 @@ const GROWTH_SIGNAL_METHODOLOGY = {
   }
 };
 
-// Auto-calculated growth signals — Last updated: 2026-03-13
+// Auto-calculated growth signals — Last updated: 2026-03-14
 const GROWTH_SIGNALS = [
-  { company: "Palantir", type: "media_buzz", detail: "9 recent articles", strength: 6, date: "2026-03-13" },
-  { company: "Palantir", type: "ip_moat", detail: "100 patents", strength: 6, date: "2026-03-13" },
-  { company: "Palantir", type: "gov_traction", detail: "100 contracts", strength: 6, date: "2026-03-13" },
-  { company: "Anduril Industries", type: "ip_moat", detail: "29 patents", strength: 4, date: "2026-03-13" },
-  { company: "Anduril Industries", type: "gov_traction", detail: "100 contracts", strength: 4, date: "2026-03-13" },
-  { company: "Radiant", type: "ip_moat", detail: "49 patents", strength: 4, date: "2026-03-13" },
-  { company: "Radiant", type: "gov_traction", detail: "29 contracts", strength: 4, date: "2026-03-13" },
-  { company: "Skydio", type: "ip_moat", detail: "97 patents", strength: 4, date: "2026-03-13" },
-  { company: "Skydio", type: "gov_traction", detail: "48 contracts", strength: 4, date: "2026-03-13" },
-  { company: "Vast", type: "news_activity", detail: "3 recent articles", strength: 4, date: "2026-03-13" },
-  { company: "Vast", type: "ip_moat", detail: "81 patents", strength: 4, date: "2026-03-13" },
-  { company: "Andrenam", type: "ip_moat", detail: "42 patents", strength: 3, date: "2026-03-13" },
-  { company: "Firefly Aerospace", type: "ip_moat", detail: "18 patents", strength: 3, date: "2026-03-13" },
-  { company: "TerraPower", type: "ip_moat", detail: "20 patents", strength: 3, date: "2026-03-13" },
-  { company: "Waymo", type: "news_activity", detail: "2 recent articles", strength: 3, date: "2026-03-13" },
-  { company: "Waymo", type: "ip_moat", detail: "100 patents", strength: 3, date: "2026-03-13" },
-  { company: "Amidon Heavy Industries", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Ample", type: "media_buzz", detail: "6 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Anduril", type: "gov_traction", detail: "100 contracts", strength: 2, date: "2026-03-13" },
-  { company: "Antares", type: "ip_moat", detail: "13 patents", strength: 2, date: "2026-03-13" },
-  { company: "Anthropic", type: "media_buzz", detail: "10 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Anysphere", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Astroscale", type: "stock_movement", detail: "+13.3% up", strength: 2, date: "2026-03-13" },
-  { company: "Cape", type: "media_buzz", detail: "13 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Captura", type: "ip_moat", detail: "10 patents", strength: 2, date: "2026-03-13" },
-  { company: "Cognition", type: "ip_moat", detail: "45 patents", strength: 2, date: "2026-03-13" },
-  { company: "Cover", type: "ip_moat", detail: "100 patents", strength: 2, date: "2026-03-13" },
-  { company: "Deterrence", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Divergent", type: "ip_moat", detail: "56 patents", strength: 2, date: "2026-03-13" },
-  { company: "DroneShield", type: "stock_movement", detail: "+8.3% up", strength: 2, date: "2026-03-13" },
-  { company: "Durin", type: "media_buzz", detail: "8 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Epirus", type: "ip_moat", detail: "11 patents", strength: 2, date: "2026-03-13" },
-  { company: "Karman Industries", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Lightmatter", type: "ip_moat", detail: "33 patents", strength: 2, date: "2026-03-13" },
-  { company: "Mach Industries", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Neros", type: "gov_traction", detail: "10 contracts", strength: 2, date: "2026-03-13" },
-  { company: "Neuralink", type: "ip_moat", detail: "10 patents", strength: 2, date: "2026-03-13" },
-  { company: "OpenAI", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Orchid", type: "ip_moat", detail: "100 patents", strength: 2, date: "2026-03-13" },
-  { company: "Palantir Technologies", type: "gov_traction", detail: "100 contracts", strength: 2, date: "2026-03-13" },
-  { company: "Planet Labs", type: "gov_traction", detail: "10 contracts", strength: 2, date: "2026-03-13" },
-  { company: "Relativity Space", type: "ip_moat", detail: "18 patents", strength: 2, date: "2026-03-13" },
-  { company: "Saule Technologies", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "Shield AI", type: "ip_moat", detail: "72 patents", strength: 2, date: "2026-03-13" },
-  { company: "Sierra Space", type: "gov_traction", detail: "15 contracts", strength: 2, date: "2026-03-13" },
-  { company: "Space Exploration Technologies", type: "gov_traction", detail: "78 contracts", strength: 2, date: "2026-03-13" },
-  { company: "SpaceX", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-13" },
-  { company: "TAE Technologies", type: "ip_moat", detail: "24 patents", strength: 2, date: "2026-03-13" },
-  { company: "X-Energy", type: "ip_moat", detail: "31 patents", strength: 2, date: "2026-03-13" },
-  { company: "Zipline", type: "ip_moat", detail: "15 patents", strength: 2, date: "2026-03-13" },
-  { company: "AST SpaceMobile", type: "stock_movement", detail: "-7.2% down", strength: 1, date: "2026-03-13" },
-  { company: "Asylon Robotics", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-13" },
-  { company: "Atomic Industries", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-13" },
-  { company: "Kepler Communications", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-13" },
-  { company: "Labelbox", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-13" },
-  { company: "Rigetti Computing", type: "stock_movement", detail: "-5.3% down", strength: 1, date: "2026-03-13" },
-  { company: "Rivian", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-13" },
-  { company: "Together AI", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-13" },
-  { company: "Vertical Aerospace", type: "stock_movement", detail: "-7.5% down", strength: 1, date: "2026-03-13" },
-  { company: "D-Wave Quantum", type: "stock_movement", detail: "-5.3% down", strength: 0, date: "2026-03-13" },
-  { company: "IonQ", type: "stock_movement", detail: "-8.3% down", strength: 0, date: "2026-03-13" },
-  { company: "LanzaTech", type: "stock_movement", detail: "-7.2% down", strength: 0, date: "2026-03-13" },
-  { company: "Nano Nuclear Energy", type: "stock_movement", detail: "-7.2% down", strength: 0, date: "2026-03-13" },
-  { company: "Rainbow Robotics", type: "stock_movement", detail: "-9.7% down", strength: 0, date: "2026-03-13" },
-  { company: "Recursion Pharmaceuticals", type: "stock_movement", detail: "-7.1% down", strength: 0, date: "2026-03-13" },
-  { company: "Satellogic", type: "stock_movement", detail: "-6.2% down", strength: 0, date: "2026-03-13" },
-  { company: "Tempus AI", type: "stock_movement", detail: "-6.6% down", strength: 0, date: "2026-03-13" },
-  { company: "ideaForge", type: "stock_movement", detail: "-8.2% down", strength: 0, date: "2026-03-13" },
+  { company: "Palantir", type: "media_buzz", detail: "9 recent articles", strength: 6, date: "2026-03-14" },
+  { company: "Palantir", type: "ip_moat", detail: "100 patents", strength: 6, date: "2026-03-14" },
+  { company: "Palantir", type: "gov_traction", detail: "100 contracts", strength: 6, date: "2026-03-14" },
+  { company: "Anduril Industries", type: "ip_moat", detail: "29 patents", strength: 4, date: "2026-03-14" },
+  { company: "Anduril Industries", type: "gov_traction", detail: "100 contracts", strength: 4, date: "2026-03-14" },
+  { company: "Radiant", type: "ip_moat", detail: "49 patents", strength: 4, date: "2026-03-14" },
+  { company: "Radiant", type: "gov_traction", detail: "29 contracts", strength: 4, date: "2026-03-14" },
+  { company: "Skydio", type: "ip_moat", detail: "97 patents", strength: 4, date: "2026-03-14" },
+  { company: "Skydio", type: "gov_traction", detail: "48 contracts", strength: 4, date: "2026-03-14" },
+  { company: "Andrenam", type: "news_activity", detail: "2 recent articles", strength: 3, date: "2026-03-14" },
+  { company: "Andrenam", type: "ip_moat", detail: "42 patents", strength: 3, date: "2026-03-14" },
+  { company: "Neros", type: "gov_traction", detail: "10 contracts", strength: 3, date: "2026-03-14" },
+  { company: "TerraPower", type: "ip_moat", detail: "20 patents", strength: 3, date: "2026-03-14" },
+  { company: "Vast", type: "news_activity", detail: "2 recent articles", strength: 3, date: "2026-03-14" },
+  { company: "Vast", type: "ip_moat", detail: "81 patents", strength: 3, date: "2026-03-14" },
+  { company: "Waymo", type: "ip_moat", detail: "100 patents", strength: 3, date: "2026-03-14" },
+  { company: "Ample", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "Anduril", type: "gov_traction", detail: "100 contracts", strength: 2, date: "2026-03-14" },
+  { company: "Antares", type: "ip_moat", detail: "13 patents", strength: 2, date: "2026-03-14" },
+  { company: "Anthropic", type: "media_buzz", detail: "7 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "Anysphere", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "Astroscale", type: "stock_movement", detail: "+13.3% up", strength: 2, date: "2026-03-14" },
+  { company: "Cape", type: "media_buzz", detail: "13 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "Captura", type: "ip_moat", detail: "10 patents", strength: 2, date: "2026-03-14" },
+  { company: "Cognition", type: "ip_moat", detail: "45 patents", strength: 2, date: "2026-03-14" },
+  { company: "Cover", type: "ip_moat", detail: "100 patents", strength: 2, date: "2026-03-14" },
+  { company: "Deterrence", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "Divergent", type: "ip_moat", detail: "56 patents", strength: 2, date: "2026-03-14" },
+  { company: "Durin", type: "media_buzz", detail: "7 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "Epirus", type: "ip_moat", detail: "11 patents", strength: 2, date: "2026-03-14" },
+  { company: "Firefly Aerospace", type: "ip_moat", detail: "18 patents", strength: 2, date: "2026-03-14" },
+  { company: "Karman Industries", type: "media_buzz", detail: "5 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "Labelbox", type: "news_activity", detail: "4 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "LanzaTech", type: "stock_movement", detail: "+17.2% up", strength: 2, date: "2026-03-14" },
+  { company: "Lightmatter", type: "ip_moat", detail: "33 patents", strength: 2, date: "2026-03-14" },
+  { company: "Neuralink", type: "ip_moat", detail: "10 patents", strength: 2, date: "2026-03-14" },
+  { company: "OpenAI", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "Orchid", type: "ip_moat", detail: "100 patents", strength: 2, date: "2026-03-14" },
+  { company: "Palantir Technologies", type: "gov_traction", detail: "100 contracts", strength: 2, date: "2026-03-14" },
+  { company: "Planet Labs", type: "gov_traction", detail: "10 contracts", strength: 2, date: "2026-03-14" },
+  { company: "Relativity Space", type: "ip_moat", detail: "18 patents", strength: 2, date: "2026-03-14" },
+  { company: "Saule Technologies", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "Shield AI", type: "ip_moat", detail: "72 patents", strength: 2, date: "2026-03-14" },
+  { company: "Sierra Space", type: "gov_traction", detail: "15 contracts", strength: 2, date: "2026-03-14" },
+  { company: "Space Exploration Technologies", type: "gov_traction", detail: "78 contracts", strength: 2, date: "2026-03-14" },
+  { company: "TAE Technologies", type: "ip_moat", detail: "24 patents", strength: 2, date: "2026-03-14" },
+  { company: "X-Energy", type: "ip_moat", detail: "31 patents", strength: 2, date: "2026-03-14" },
+  { company: "Xanadu Quantum Technologies", type: "news_activity", detail: "3 recent articles", strength: 2, date: "2026-03-14" },
+  { company: "Zipline", type: "ip_moat", detail: "15 patents", strength: 2, date: "2026-03-14" },
+  { company: "Amidon Heavy Industries", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-14" },
+  { company: "Atomic Industries", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-14" },
+  { company: "Aurora Innovation", type: "stock_movement", detail: "-9.1% down", strength: 1, date: "2026-03-14" },
+  { company: "Aurora Innovation", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-14" },
+  { company: "Claros", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-14" },
+  { company: "SpaceX", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-14" },
+  { company: "Vertical Aerospace", type: "stock_movement", detail: "-6.7% down", strength: 1, date: "2026-03-14" },
+  { company: "Xtend", type: "news_activity", detail: "2 recent articles", strength: 1, date: "2026-03-14" },
+  { company: "D-Wave Quantum", type: "stock_movement", detail: "-5.6% down", strength: 0, date: "2026-03-14" },
+  { company: "IonQ", type: "stock_movement", detail: "-7.7% down", strength: 0, date: "2026-03-14" },
+  { company: "Rainbow Robotics", type: "stock_movement", detail: "-9.7% down", strength: 0, date: "2026-03-14" },
+  { company: "ideaForge", type: "stock_movement", detail: "-9.7% down", strength: 0, date: "2026-03-14" },
 ];
 
 // Auto-calculated headcount estimates from job posting data
-// Last updated: 2026-03-13
+// Last updated: 2026-03-14
 const HEADCOUNT_ESTIMATES = [
-  { company: "SpaceX", openPositions: 1474, estimatedHeadcount: 21057, headcountFormatted: "21K+", vacancyRate: 0.07, hiringVelocity: "surging", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Stripe", openPositions: 614, estimatedHeadcount: 8771, headcountFormatted: "8,771+", vacancyRate: 0.07, hiringVelocity: "surging", sector: "unknown", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Anthropic", openPositions: 449, estimatedHeadcount: 6414, headcountFormatted: "6,414+", vacancyRate: 0.07, hiringVelocity: "surging", sector: "ai & software", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Anduril Industries", openPositions: 1524, estimatedHeadcount: 3500, headcountFormatted: "3,500+", vacancyRate: 0.3, hiringVelocity: "surging", sector: "unknown", growthTrend: "+45%", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Flexport", openPositions: 173, estimatedHeadcount: 2471, headcountFormatted: "2,471+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "consumer tech", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Scale AI", openPositions: 164, estimatedHeadcount: 2343, headcountFormatted: "2,343+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Rocket Lab", openPositions: 284, estimatedHeadcount: 2000, headcountFormatted: "2,000+", vacancyRate: 0.142, hiringVelocity: "surging", sector: "space & aerospace", growthTrend: "", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Zipline", openPositions: 176, estimatedHeadcount: 1500, headcountFormatted: "1,500+", vacancyRate: 0.117, hiringVelocity: "rapid", sector: "drones & autonomous", growthTrend: "", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Astera Labs", openPositions: 104, estimatedHeadcount: 1486, headcountFormatted: "1,486+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "chips & semiconductors", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "AST SpaceMobile", openPositions: 104, estimatedHeadcount: 1486, headcountFormatted: "1,486+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "ElevenLabs", openPositions: 104, estimatedHeadcount: 1486, headcountFormatted: "1,486+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "ai & software", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Re:Build Manufacturing", openPositions: 103, estimatedHeadcount: 1471, headcountFormatted: "1,471+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Nuro", openPositions: 100, estimatedHeadcount: 1429, headcountFormatted: "1,429+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "drones & autonomous", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Archer Aviation", openPositions: 1, estimatedHeadcount: 1200, headcountFormatted: "1,200+", vacancyRate: 0.02, hiringVelocity: "quiet", sector: "transportation", growthTrend: "-96%", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "IonQ", openPositions: 83, estimatedHeadcount: 1186, headcountFormatted: "1,186+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "quantum computing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Tenstorrent", openPositions: 83, estimatedHeadcount: 1186, headcountFormatted: "1,186+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "chips & semiconductors", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Chaos Industries", openPositions: 81, estimatedHeadcount: 1157, headcountFormatted: "1,157+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Redwood Materials", openPositions: 76, estimatedHeadcount: 1086, headcountFormatted: "1,086+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "PsiQuantum", openPositions: 69, estimatedHeadcount: 986, headcountFormatted: "1000+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "chips & semiconductors", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Isar Aerospace", openPositions: 69, estimatedHeadcount: 986, headcountFormatted: "1000+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Divergent", openPositions: 67, estimatedHeadcount: 957, headcountFormatted: "950+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Armada", openPositions: 65, estimatedHeadcount: 929, headcountFormatted: "950+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Applied Intuition", openPositions: 226, estimatedHeadcount: 800, headcountFormatted: "800+", vacancyRate: 0.282, hiringVelocity: "surging", sector: "ai & software", growthTrend: "", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Lightmatter", openPositions: 55, estimatedHeadcount: 786, headcountFormatted: "800+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "chips & semiconductors", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Ursa Major Technologies", openPositions: 50, estimatedHeadcount: 714, headcountFormatted: "700+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Figure AI", openPositions: 96, estimatedHeadcount: 700, headcountFormatted: "700+", vacancyRate: 0.137, hiringVelocity: "rapid", sector: "ai & software", growthTrend: "", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "General Matter", openPositions: 49, estimatedHeadcount: 700, headcountFormatted: "700+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "ClearSpace", openPositions: 46, estimatedHeadcount: 657, headcountFormatted: "650+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "space systems", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "The Nuclear Company", openPositions: 45, estimatedHeadcount: 643, headcountFormatted: "650+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Kodiak Robotics", openPositions: 44, estimatedHeadcount: 629, headcountFormatted: "650+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Kairos Power", openPositions: 56, estimatedHeadcount: 600, headcountFormatted: "600+", vacancyRate: 0.093, hiringVelocity: "rapid", sector: "nuclear energy", growthTrend: "", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Pacific Fusion", openPositions: 42, estimatedHeadcount: 600, headcountFormatted: "600+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Recursion Pharmaceuticals", openPositions: 41, estimatedHeadcount: 586, headcountFormatted: "600+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Together AI", openPositions: 40, estimatedHeadcount: 571, headcountFormatted: "550+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "ai & software", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Apptronik", openPositions: 37, estimatedHeadcount: 529, headcountFormatted: "550+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Muon Space", openPositions: 36, estimatedHeadcount: 514, headcountFormatted: "500+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Valar Atomics", openPositions: 36, estimatedHeadcount: 514, headcountFormatted: "500+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Neuralink", openPositions: 68, estimatedHeadcount: 500, headcountFormatted: "500+", vacancyRate: 0.136, hiringVelocity: "rapid", sector: "ai & software", growthTrend: "", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Epirus", openPositions: 22, estimatedHeadcount: 500, headcountFormatted: "500+", vacancyRate: 0.044, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Agility Robotics", openPositions: 33, estimatedHeadcount: 471, headcountFormatted: "450+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Overland AI", openPositions: 33, estimatedHeadcount: 471, headcountFormatted: "450+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Allen Control Systems", openPositions: 33, estimatedHeadcount: 471, headcountFormatted: "450+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Eikon Therapeutics", openPositions: 31, estimatedHeadcount: 443, headcountFormatted: "450+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Latitude", openPositions: 31, estimatedHeadcount: 443, headcountFormatted: "450+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Formic", openPositions: 29, estimatedHeadcount: 414, headcountFormatted: "400+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Atomic Machines", openPositions: 29, estimatedHeadcount: 414, headcountFormatted: "400+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "chips & semiconductors", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Astranis", openPositions: 129, estimatedHeadcount: 400, headcountFormatted: "400+", vacancyRate: 0.3, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "+8%", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Swarm Aero", openPositions: 27, estimatedHeadcount: 386, headcountFormatted: "400+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Carbon Robotics", openPositions: 26, estimatedHeadcount: 371, headcountFormatted: "350+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Skyryse", openPositions: 26, estimatedHeadcount: 371, headcountFormatted: "350+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Vast", openPositions: 119, estimatedHeadcount: 350, headcountFormatted: "350+", vacancyRate: 0.3, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "+13%", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Vannevar Labs", openPositions: 20, estimatedHeadcount: 286, headcountFormatted: "300+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Inversion Space", openPositions: 20, estimatedHeadcount: 286, headcountFormatted: "300+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "housing & construction", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Locus Robotics", openPositions: 19, estimatedHeadcount: 271, headcountFormatted: "250+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Altos Labs", openPositions: 17, estimatedHeadcount: 243, headcountFormatted: "250+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Outpost Space", openPositions: 17, estimatedHeadcount: 243, headcountFormatted: "250+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Slingshot Aerospace", openPositions: 15, estimatedHeadcount: 214, headcountFormatted: "200+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Radiant", openPositions: 71, estimatedHeadcount: 200, headcountFormatted: "200+", vacancyRate: 0.3, hiringVelocity: "rapid", sector: "nuclear energy", growthTrend: "+18%", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Varda Space Industries", openPositions: 66, estimatedHeadcount: 200, headcountFormatted: "200+", vacancyRate: 0.3, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "+10%", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "KoBold Metals", openPositions: 14, estimatedHeadcount: 200, headcountFormatted: "200+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Senra Systems", openPositions: 13, estimatedHeadcount: 186, headcountFormatted: "200+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Mara", openPositions: 13, estimatedHeadcount: 186, headcountFormatted: "200+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Focused Energy", openPositions: 11, estimatedHeadcount: 157, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Oklo", openPositions: 60, estimatedHeadcount: 150, headcountFormatted: "150+", vacancyRate: 0.3, hiringVelocity: "rapid", sector: "nuclear energy", growthTrend: "+33%", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "New Limit", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Whisper Aero", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "consumer tech", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Salient Motion", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Hive AI", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "ai & software", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Marvel Fusion", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Labelbox", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "ai & software", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Icarus", openPositions: 9, estimatedHeadcount: 129, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Watershed", openPositions: 8, estimatedHeadcount: 114, headcountFormatted: "100+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Dusty Robotics", openPositions: 8, estimatedHeadcount: 114, headcountFormatted: "100+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Profluent", openPositions: 8, estimatedHeadcount: 114, headcountFormatted: "100+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Claros", openPositions: 7, estimatedHeadcount: 100, headcountFormatted: "100+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Albedo", openPositions: 5, estimatedHeadcount: 100, headcountFormatted: "100+", vacancyRate: 0.05, hiringVelocity: "moderate", sector: "space & aerospace", growthTrend: "", isCurated: true, lastUpdated: "2026-03-13" },
-  { company: "Capella Space", openPositions: 6, estimatedHeadcount: 86, headcountFormatted: "86+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Hubble Network", openPositions: 6, estimatedHeadcount: 86, headcountFormatted: "86+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "space systems", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Arbor Energy", openPositions: 6, estimatedHeadcount: 86, headcountFormatted: "86+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Vivodyne", openPositions: 6, estimatedHeadcount: 86, headcountFormatted: "86+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Colossal Biosciences", openPositions: 6, estimatedHeadcount: 86, headcountFormatted: "86+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Solid Power", openPositions: 5, estimatedHeadcount: 71, headcountFormatted: "71+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "energy & climate", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "WeaveGrid", openPositions: 4, estimatedHeadcount: 57, headcountFormatted: "57+", vacancyRate: 0.07, hiringVelocity: "quiet", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Floodbase", openPositions: 4, estimatedHeadcount: 57, headcountFormatted: "57+", vacancyRate: 0.07, hiringVelocity: "quiet", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Outrider", openPositions: 3, estimatedHeadcount: 43, headcountFormatted: "43+", vacancyRate: 0.07, hiringVelocity: "quiet", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "Quaise Energy", openPositions: 3, estimatedHeadcount: 43, headcountFormatted: "43+", vacancyRate: 0.07, hiringVelocity: "quiet", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
-  { company: "DNA Script", openPositions: 2, estimatedHeadcount: 29, headcountFormatted: "29+", vacancyRate: 0.07, hiringVelocity: "quiet", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-13" },
+  { company: "SpaceX", openPositions: 1474, estimatedHeadcount: 21057, headcountFormatted: "21K+", vacancyRate: 0.07, hiringVelocity: "surging", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Stripe", openPositions: 614, estimatedHeadcount: 8771, headcountFormatted: "8,771+", vacancyRate: 0.07, hiringVelocity: "surging", sector: "unknown", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Anthropic", openPositions: 449, estimatedHeadcount: 6414, headcountFormatted: "6,414+", vacancyRate: 0.07, hiringVelocity: "surging", sector: "ai & software", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Anduril Industries", openPositions: 1524, estimatedHeadcount: 3500, headcountFormatted: "3,500+", vacancyRate: 0.3, hiringVelocity: "surging", sector: "unknown", growthTrend: "+45%", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Flexport", openPositions: 173, estimatedHeadcount: 2471, headcountFormatted: "2,471+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "consumer tech", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Scale AI", openPositions: 164, estimatedHeadcount: 2343, headcountFormatted: "2,343+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Rocket Lab", openPositions: 284, estimatedHeadcount: 2000, headcountFormatted: "2,000+", vacancyRate: 0.142, hiringVelocity: "surging", sector: "space & aerospace", growthTrend: "", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Zipline", openPositions: 176, estimatedHeadcount: 1500, headcountFormatted: "1,500+", vacancyRate: 0.117, hiringVelocity: "rapid", sector: "drones & autonomous", growthTrend: "", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Astera Labs", openPositions: 104, estimatedHeadcount: 1486, headcountFormatted: "1,486+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "chips & semiconductors", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "AST SpaceMobile", openPositions: 104, estimatedHeadcount: 1486, headcountFormatted: "1,486+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "ElevenLabs", openPositions: 104, estimatedHeadcount: 1486, headcountFormatted: "1,486+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "ai & software", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Re:Build Manufacturing", openPositions: 103, estimatedHeadcount: 1471, headcountFormatted: "1,471+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Nuro", openPositions: 100, estimatedHeadcount: 1429, headcountFormatted: "1,429+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "drones & autonomous", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Archer Aviation", openPositions: 1, estimatedHeadcount: 1200, headcountFormatted: "1,200+", vacancyRate: 0.02, hiringVelocity: "quiet", sector: "transportation", growthTrend: "-96%", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "IonQ", openPositions: 83, estimatedHeadcount: 1186, headcountFormatted: "1,186+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "quantum computing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Tenstorrent", openPositions: 83, estimatedHeadcount: 1186, headcountFormatted: "1,186+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "chips & semiconductors", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Chaos Industries", openPositions: 81, estimatedHeadcount: 1157, headcountFormatted: "1,157+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Redwood Materials", openPositions: 76, estimatedHeadcount: 1086, headcountFormatted: "1,086+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "PsiQuantum", openPositions: 69, estimatedHeadcount: 986, headcountFormatted: "1000+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "chips & semiconductors", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Isar Aerospace", openPositions: 69, estimatedHeadcount: 986, headcountFormatted: "1000+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Divergent", openPositions: 67, estimatedHeadcount: 957, headcountFormatted: "950+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Armada", openPositions: 65, estimatedHeadcount: 929, headcountFormatted: "950+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Applied Intuition", openPositions: 226, estimatedHeadcount: 800, headcountFormatted: "800+", vacancyRate: 0.282, hiringVelocity: "surging", sector: "ai & software", growthTrend: "", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Lightmatter", openPositions: 55, estimatedHeadcount: 786, headcountFormatted: "800+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "chips & semiconductors", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Ursa Major Technologies", openPositions: 50, estimatedHeadcount: 714, headcountFormatted: "700+", vacancyRate: 0.07, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Figure AI", openPositions: 96, estimatedHeadcount: 700, headcountFormatted: "700+", vacancyRate: 0.137, hiringVelocity: "rapid", sector: "ai & software", growthTrend: "", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "General Matter", openPositions: 49, estimatedHeadcount: 700, headcountFormatted: "700+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "ClearSpace", openPositions: 46, estimatedHeadcount: 657, headcountFormatted: "650+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "space systems", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "The Nuclear Company", openPositions: 45, estimatedHeadcount: 643, headcountFormatted: "650+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Kodiak Robotics", openPositions: 44, estimatedHeadcount: 629, headcountFormatted: "650+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Kairos Power", openPositions: 56, estimatedHeadcount: 600, headcountFormatted: "600+", vacancyRate: 0.093, hiringVelocity: "rapid", sector: "nuclear energy", growthTrend: "", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Pacific Fusion", openPositions: 42, estimatedHeadcount: 600, headcountFormatted: "600+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Recursion Pharmaceuticals", openPositions: 41, estimatedHeadcount: 586, headcountFormatted: "600+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Together AI", openPositions: 40, estimatedHeadcount: 571, headcountFormatted: "550+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "ai & software", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Apptronik", openPositions: 37, estimatedHeadcount: 529, headcountFormatted: "550+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Muon Space", openPositions: 36, estimatedHeadcount: 514, headcountFormatted: "500+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Valar Atomics", openPositions: 36, estimatedHeadcount: 514, headcountFormatted: "500+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Neuralink", openPositions: 68, estimatedHeadcount: 500, headcountFormatted: "500+", vacancyRate: 0.136, hiringVelocity: "rapid", sector: "ai & software", growthTrend: "", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Epirus", openPositions: 22, estimatedHeadcount: 500, headcountFormatted: "500+", vacancyRate: 0.044, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Agility Robotics", openPositions: 33, estimatedHeadcount: 471, headcountFormatted: "450+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Overland AI", openPositions: 33, estimatedHeadcount: 471, headcountFormatted: "450+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Allen Control Systems", openPositions: 33, estimatedHeadcount: 471, headcountFormatted: "450+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Eikon Therapeutics", openPositions: 31, estimatedHeadcount: 443, headcountFormatted: "450+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Latitude", openPositions: 31, estimatedHeadcount: 443, headcountFormatted: "450+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Formic", openPositions: 29, estimatedHeadcount: 414, headcountFormatted: "400+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Atomic Machines", openPositions: 29, estimatedHeadcount: 414, headcountFormatted: "400+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "chips & semiconductors", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Astranis", openPositions: 129, estimatedHeadcount: 400, headcountFormatted: "400+", vacancyRate: 0.3, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "+8%", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Swarm Aero", openPositions: 27, estimatedHeadcount: 386, headcountFormatted: "400+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Carbon Robotics", openPositions: 26, estimatedHeadcount: 371, headcountFormatted: "350+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Skyryse", openPositions: 26, estimatedHeadcount: 371, headcountFormatted: "350+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Vast", openPositions: 119, estimatedHeadcount: 350, headcountFormatted: "350+", vacancyRate: 0.3, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "+13%", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Vannevar Labs", openPositions: 20, estimatedHeadcount: 286, headcountFormatted: "300+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Inversion Space", openPositions: 20, estimatedHeadcount: 286, headcountFormatted: "300+", vacancyRate: 0.07, hiringVelocity: "growing", sector: "housing & construction", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Locus Robotics", openPositions: 19, estimatedHeadcount: 271, headcountFormatted: "250+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Altos Labs", openPositions: 17, estimatedHeadcount: 243, headcountFormatted: "250+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Outpost Space", openPositions: 17, estimatedHeadcount: 243, headcountFormatted: "250+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Slingshot Aerospace", openPositions: 15, estimatedHeadcount: 214, headcountFormatted: "200+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Radiant", openPositions: 71, estimatedHeadcount: 200, headcountFormatted: "200+", vacancyRate: 0.3, hiringVelocity: "rapid", sector: "nuclear energy", growthTrend: "+18%", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Varda Space Industries", openPositions: 66, estimatedHeadcount: 200, headcountFormatted: "200+", vacancyRate: 0.3, hiringVelocity: "rapid", sector: "space & aerospace", growthTrend: "+10%", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "KoBold Metals", openPositions: 14, estimatedHeadcount: 200, headcountFormatted: "200+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Senra Systems", openPositions: 13, estimatedHeadcount: 186, headcountFormatted: "200+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Mara", openPositions: 13, estimatedHeadcount: 186, headcountFormatted: "200+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Focused Energy", openPositions: 11, estimatedHeadcount: 157, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Oklo", openPositions: 60, estimatedHeadcount: 150, headcountFormatted: "150+", vacancyRate: 0.3, hiringVelocity: "rapid", sector: "nuclear energy", growthTrend: "+33%", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "New Limit", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Whisper Aero", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "consumer tech", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Salient Motion", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Hive AI", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "ai & software", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Marvel Fusion", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "nuclear energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Labelbox", openPositions: 10, estimatedHeadcount: 143, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "ai & software", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Icarus", openPositions: 9, estimatedHeadcount: 129, headcountFormatted: "150+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "defense & security", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Watershed", openPositions: 8, estimatedHeadcount: 114, headcountFormatted: "100+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Dusty Robotics", openPositions: 8, estimatedHeadcount: 114, headcountFormatted: "100+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Profluent", openPositions: 8, estimatedHeadcount: 114, headcountFormatted: "100+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Claros", openPositions: 7, estimatedHeadcount: 100, headcountFormatted: "100+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Albedo", openPositions: 5, estimatedHeadcount: 100, headcountFormatted: "100+", vacancyRate: 0.05, hiringVelocity: "moderate", sector: "space & aerospace", growthTrend: "", isCurated: true, lastUpdated: "2026-03-14" },
+  { company: "Capella Space", openPositions: 6, estimatedHeadcount: 86, headcountFormatted: "86+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Hubble Network", openPositions: 6, estimatedHeadcount: 86, headcountFormatted: "86+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "space systems", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Arbor Energy", openPositions: 6, estimatedHeadcount: 86, headcountFormatted: "86+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Vivodyne", openPositions: 6, estimatedHeadcount: 86, headcountFormatted: "86+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Colossal Biosciences", openPositions: 6, estimatedHeadcount: 86, headcountFormatted: "86+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Solid Power", openPositions: 5, estimatedHeadcount: 71, headcountFormatted: "71+", vacancyRate: 0.07, hiringVelocity: "moderate", sector: "energy & climate", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "WeaveGrid", openPositions: 4, estimatedHeadcount: 57, headcountFormatted: "57+", vacancyRate: 0.07, hiringVelocity: "quiet", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Floodbase", openPositions: 4, estimatedHeadcount: 57, headcountFormatted: "57+", vacancyRate: 0.07, hiringVelocity: "quiet", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Outrider", openPositions: 3, estimatedHeadcount: 43, headcountFormatted: "43+", vacancyRate: 0.07, hiringVelocity: "quiet", sector: "robotics & manufacturing", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "Quaise Energy", openPositions: 3, estimatedHeadcount: 43, headcountFormatted: "43+", vacancyRate: 0.07, hiringVelocity: "quiet", sector: "climate & energy", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
+  { company: "DNA Script", openPositions: 2, estimatedHeadcount: 29, headcountFormatted: "29+", vacancyRate: 0.07, hiringVelocity: "quiet", sector: "biotech & health", growthTrend: "", isCurated: false, lastUpdated: "2026-03-14" },
 ];
 
 // ─── SIGNAL TYPES: Growth Signal Definitions ───
@@ -12786,6 +12788,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-03-11
 // Auto-updated revenue intelligence — Last updated: 2026-03-12
 // Auto-updated revenue intelligence — Last updated: 2026-03-13
+// Auto-updated revenue intelligence — Last updated: 2026-03-14
 const REVENUE_INTEL = [
   { company: "NVIDIA", revenue: "$215.9B", period: "2026 Annual", growth: "+65% YoY", source: "SEC 10-K (NVDA)" },
   { company: "Tesla", revenue: "$94.8B", period: "2025 Annual", growth: "-3% YoY", source: "SEC 10-K (TSLA)" },
@@ -12798,7 +12801,7 @@ const REVENUE_INTEL = [
   { company: "IonQ", revenue: "$3.5B", period: "2024 Annual", growth: "+347% YoY", source: "SEC 10-K (IONQ)" },
   { company: "Tempus AI", revenue: "$3.1B", period: "2025 Annual", growth: "+3% YoY", source: "SEC 10-K (TEM)" },
   { company: "Flexport", revenue: "$3B+", period: "2025 Est.", growth: "+25% YoY", source: "Reported estimates" },
-  { company: "Intuitive Machines", revenue: "$2.2B", period: "2024 Annual", growth: "-17% YoY", source: "SEC 10-K (LUNR)" },
+  { company: "Intuitive Machines", revenue: "$1.9B", period: "2025 Annual", growth: "-11% YoY", source: "SEC 10-K (LUNR)" },
   { company: "Anduril Industries", revenue: "$1.5B+", period: "2025 Est.", growth: "+100% YoY", source: "Reported estimates" },
   { company: "Scale AI", revenue: "$1.4B+", period: "2025 ARR", growth: "+80% YoY", source: "Reported estimates" },
   { company: "Anysphere", revenue: "$1B+", period: "2025 ARR", growth: "+9,900% YoY", source: "Reported estimates" },
@@ -14988,7 +14991,7 @@ const REQUEST_FOR_STARTUPS = [
   }
 ];
 
-// Frontier Index™ scores — Last updated: 2026-03-13
+// Frontier Index™ scores — Last updated: 2026-03-14
 const INNOVATOR_SCORES = [
   { company: "SpaceX", techMoat: 10, momentum: 10, teamPedigree: 10, marketGravity: 10, capitalEfficiency: 9, govTraction: 10, composite: 99.0, tier: "elite", note: "Reusable rockets, Starlink, and Starship create an unassailable vertically integrated space monopoly with $100B+ valuation and dominant NASA/DoD contracts" },
   { company: "Anduril Industries", techMoat: 9, momentum: 10, teamPedigree: 9, marketGravity: 9, capitalEfficiency: 7, govTraction: 10, composite: 91.5, tier: "elite", note: "Lattice OS platform and autonomous systems portfolio (Ghost, Altius, Fury) redefining defense acquisition; $14B+ valuation with massive DoD/allied contracts" },
@@ -15690,6 +15693,8 @@ const INNOVATOR_SCORES = [
 // Last updated: 2026-03-12
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-03-13
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-03-14
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], lastUpdated: "2026-02-06" },
   { company: "Anduril Industries", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], lastUpdated: "2026-02-06" },
@@ -15724,7 +15729,7 @@ const GOV_CONTRACTS = [
 ];
 
 // Auto-updated NIH Reporter grant data
-// Last updated: 2026-03-13
+// Last updated: 2026-03-14
 // Total grants: 621 | Known companies: 15
 const NIH_GRANTS = [
   { orgName: "", title: "PROVIDENT:  Prepositioning Optimized Strategies for Vaccines and Immunotherapeutics against Diverse ", agency: "", fiscalYear: 2025, totalCost: 0, totalCostFormatted: "$0", activityCode: "U19", isSbir: false, terms: ["Academia", "Achievement", "Advanced Development", "Animal Model", "Animals"], isKnownCompany: false },
@@ -16230,7 +16235,7 @@ const NIH_GRANTS = [
 ];
 
 // Auto-updated ARPA-E project data
-// Last updated: 2026-03-13
+// Last updated: 2026-03-14
 // Total projects: 550 | Private companies: 202
 const ARPA_E_PROJECTS = [
   { title: "SAFERBAT: Solid-state Approach for Future Energy-dense Renewable Batteries and Advanced-manufacturing Technologies", organization: "Ion Storage Systems, Inc.", orgType: "Private Company", status: "Active", state: "MD", awardAmount: 20000000, awardFormatted: "20,000,000", programAcronym: "None", technologyAreas: ["Batteries", "Transportation"], isKnownCompany: false, isPrivateCompany: true },
@@ -21751,22 +21756,24 @@ const DATA_QUALITY = {
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
 // Last updated: 2026-03-14 05:13
+// Auto-generated real-time signals
+// Last updated: 2026-03-14
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Machina Labs", headline: "Applied EV Presses Ahead with Autonomous Electric Vehicles in Australia", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Elodin", headline: "The Global Offshore Wind Industry Floats Away From The US (For Now)", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anysphere", headline: "'Not built right the first time' &#8212; Musk's xAI is starting over again, again", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Theseus", headline: "iMetalX emerges from stealth with technology to model resident space objects", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Hadrian", headline: "Astroscale selects Isar Aerospace to launch ELSA-M mission", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Firestorm Labs", headline: "China is developing low-cost lunar cargo options for its expanding moon program", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Kepler Communications", headline: "How US military space operators are likely aiding the fight in Iran", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Amca", headline: "The biggest AI stories of the year (so far)", source: "TechCrunch", time: "9h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Andrenam", headline: "UK Navy buys 20 USVs to act as unmanned 'proving ground'", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Neros", headline: "After Ukraine, FPV drones could take on Arctic warfare", source: "Defense News", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Reveal Technology", headline: "Ukraine opens battlefield AI data to allies in world-first move", source: "Defense News", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Palantir", headline: "Lebanese government tries to avoid internal strife amid Israeli bombardment", source: "Defense News", time: "10h ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Cape", headline: "Ukraine will host first test for Leonardo's Michelangelo security dome", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Xanadu Quantum Technologies", headline: "The wild six weeks for NanoClaw's creator that led to a deal with Docker", source: "TechCrunch", time: "12h ago", impact: "medium", unread: false },
+  { id: 1, type: "news", company: "Ample", headline: "Stellantis Rumored to Talk with Xiaomi &#038; XPeng Regarding Partnership", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: true },
+  { id: 2, type: "funding", company: "Machina Labs", headline: "Applied EV Presses Ahead with Autonomous Electric Vehicles in Australia", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Elodin", headline: "The Global Offshore Wind Industry Floats Away From The US (For Now)", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anysphere", headline: "&#8216;Not built right the first time&#8217; &#8212; Musk&#8217;s xAI is starting over again, again", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Kepler Communications", headline: "How US military space operators are likely aiding the fight in Iran", source: "Breaking Defense", time: "11h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Amca", headline: "The biggest AI stories of the year (so far)", source: "TechCrunch", time: "11h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "Andrenam", headline: "UK Navy buys 20 USVs to act as unmanned &#8216;proving ground&#8217;", source: "Breaking Defense", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Neros", headline: "After Ukraine, FPV drones could take on Arctic warfare", source: "Defense News", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Reveal Technology", headline: "Ukraine opens battlefield AI data to allies in world-first move", source: "Defense News", time: "12h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Palantir", headline: "Lebanese government tries to avoid internal strife amid Israeli bombardment", source: "Defense News", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Xanadu Quantum Technologies", headline: "The wild six weeks for NanoClaw’s creator that led to a deal with Docker", source: "TechCrunch", time: "13h ago", impact: "medium", unread: false },
+  { id: 13, type: "news", company: "Claros", headline: "Thin Film Solar Gets A Muscular Perovskite Makeover", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Galvanick", headline: "The $32B acquisition that one VC is calling the &#8216;Deal of the Decade&#8217;", source: "TechCrunch", time: "14h ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "FleetZero", headline: "Zero-Emission Trucks in Europe — The Road So Far", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
