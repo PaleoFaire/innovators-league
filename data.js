@@ -21750,23 +21750,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-14 02:40
+// Last updated: 2026-03-14 05:13
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Elodin", headline: "The Global Offshore Wind Industry Floats Away From The US (For Now)", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anysphere", headline: "'Not built right the first time' &#8212; Musk's xAI is starting over again, again", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Kepler Communications", headline: "How US military space operators are likely aiding the fight in Iran", source: "Breaking Defense", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Amca", headline: "The biggest AI stories of the year (so far)", source: "TechCrunch", time: "7h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "Andrenam", headline: "UK Navy buys 20 USVs to act as unmanned 'proving ground'", source: "Breaking Defense", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Neros", headline: "After Ukraine, FPV drones could take on Arctic warfare", source: "Defense News", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Reveal Technology", headline: "Ukraine opens battlefield AI data to allies in world-first move", source: "Defense News", time: "7h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Palantir", headline: "Lebanese government tries to avoid internal strife amid Israeli bombardment", source: "Defense News", time: "7h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Xanadu Quantum Technologies", headline: "The wild six weeks for NanoClaw's creator that led to a deal with Docker", source: "TechCrunch", time: "9h ago", impact: "medium", unread: false },
-  { id: 11, type: "news", company: "Claros", headline: "Thin Film Solar Gets A Muscular Perovskite Makeover", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Galvanick", headline: "The $32B acquisition that one VC is calling the 'Deal of the Decade'", source: "TechCrunch", time: "10h ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "FleetZero", headline: "Zero-Emission Trucks in Europe ' The Road So Far", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Cape", headline: "UAE fights off outsized share of Iranian attacks, pulls back on sharing interception rates", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Xtend", headline: "Higher Jet Fuel Prices Could Melt Your Summer Travel Plans", source: "Wired", time: "10h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Machina Labs", headline: "Applied EV Presses Ahead with Autonomous Electric Vehicles in Australia", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Elodin", headline: "The Global Offshore Wind Industry Floats Away From The US (For Now)", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anysphere", headline: "'Not built right the first time' &#8212; Musk's xAI is starting over again, again", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Theseus", headline: "iMetalX emerges from stealth with technology to model resident space objects", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Hadrian", headline: "Astroscale selects Isar Aerospace to launch ELSA-M mission", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Firestorm Labs", headline: "China is developing low-cost lunar cargo options for its expanding moon program", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Kepler Communications", headline: "How US military space operators are likely aiding the fight in Iran", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Amca", headline: "The biggest AI stories of the year (so far)", source: "TechCrunch", time: "9h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "Andrenam", headline: "UK Navy buys 20 USVs to act as unmanned 'proving ground'", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Neros", headline: "After Ukraine, FPV drones could take on Arctic warfare", source: "Defense News", time: "10h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Reveal Technology", headline: "Ukraine opens battlefield AI data to allies in world-first move", source: "Defense News", time: "10h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Palantir", headline: "Lebanese government tries to avoid internal strife amid Israeli bombardment", source: "Defense News", time: "10h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "Cape", headline: "Ukraine will host first test for Leonardo's Michelangelo security dome", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Xanadu Quantum Technologies", headline: "The wild six weeks for NanoClaw's creator that led to a deal with Docker", source: "TechCrunch", time: "12h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
