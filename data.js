@@ -21755,23 +21755,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-14 20:36
+// Last updated: 2026-03-15 03:18
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Astera Labs", headline: "Dominion Energy Falls Into The &#8220;Dispatchable&#8221; Trap Over Data Center Power", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Exowatt", headline: "The Epstein War Breathes New Life Into EU Green Hydrogen Schemes", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "GAMECHANGER BIGGER THAN TESLA ROBOTAXI ? AI Bombshell", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Amca", headline: "Meta reportedly considering layoffs that could affect 20% of the company", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
-  { id: 5, type: "funding", company: "SpaceX", headline: "SpaceX Testing Booster for V3 Starship Launch in 3-4 Weeks", source: "Next Big Future", time: "6h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "FleetZero", headline: "UK EV Sales Were Higher Than Mandated In 2024", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Ample", headline: "Stellantis Rumored to Talk with Xiaomi &#038; XPeng Regarding Partnership", source: "CleanTechnica", time: "16h ago", impact: "medium", unread: false },
-  { id: 8, type: "funding", company: "Machina Labs", headline: "Applied EV Presses Ahead with Autonomous Electric Vehicles in Australia", source: "CleanTechnica", time: "16h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", time: "19h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Elodin", headline: "The Global Offshore Wind Industry Floats Away From The US (For Now)", source: "CleanTechnica", time: "19h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Anysphere", headline: "'Not built right the first time' &#8212; Musk's xAI is starting over again, again", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Theseus", headline: "iMetalX emerges from stealth with technology to model resident space objects", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Hadrian", headline: "Astroscale selects Isar Aerospace to launch ELSA-M mission", source: "SpaceNews", time: "23h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Firestorm Labs", headline: "China is developing low-cost lunar cargo options for its expanding moon program", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Kepler Communications", headline: "How US military space operators are likely aiding the fight in Iran", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "Durin", headline: "Lucid Investor Day Report: &#8220;We Are Building for the Future&#8221;", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Waymo", headline: "Zoox Coming to Dallas &#038; Phoenix, Partnering with Uber in Las Vegas &#038; Los Angeles", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Astera Labs", headline: "Dominion Energy Falls Into The &#8220;Dispatchable&#8221; Trap Over Data Center Power", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Exowatt", headline: "The Epstein War Breathes New Life Into EU Green Hydrogen Schemes", source: "CleanTechnica", time: "10h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Waymo", headline: "GAMECHANGER BIGGER THAN TESLA ROBOTAXI ? AI Bombshell", source: "Next Big Future", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Amca", headline: "Meta reportedly considering layoffs that could affect 20% of the company", source: "TechCrunch", time: "10h ago", impact: "high", unread: false },
+  { id: 7, type: "funding", company: "SpaceX", headline: "SpaceX Testing Booster for V3 Starship Launch in 3-4 Weeks", source: "Next Big Future", time: "13h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "FleetZero", headline: "UK EV Sales Were Higher Than Mandated In 2024", source: "CleanTechnica", time: "23h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Ample", headline: "Stellantis Rumored to Talk with Xiaomi &#038; XPeng Regarding Partnership", source: "CleanTechnica", time: "23h ago", impact: "medium", unread: false },
+  { id: 10, type: "funding", company: "Machina Labs", headline: "Applied EV Presses Ahead with Autonomous Electric Vehicles in Australia", source: "CleanTechnica", time: "23h ago", impact: "medium", unread: false },
+  { id: 11, type: "news", company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Elodin", headline: "The Global Offshore Wind Industry Floats Away From The US (For Now)", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anysphere", headline: "'Not built right the first time' &#8212; Musk's xAI is starting over again, again", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Theseus", headline: "iMetalX emerges from stealth with technology to model resident space objects", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Hadrian", headline: "Astroscale selects Isar Aerospace to launch ELSA-M mission", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
