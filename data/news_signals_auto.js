@@ -1,85 +1,85 @@
 // Auto-generated news signals
-// Last updated: 2026-03-15T05:39:19.248Z
+// Last updated: 2026-03-15T07:04:18.729Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1773553159248,
+    "id": 1773558258729,
     "type": "hire",
     "company": "Durin",
     "headline": "Lucid Investor Day Report: &#8220;We Are Building for the Future&#8221;",
     "source": "CleanTechnica",
-    "time": "6h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/03/14/lucid-investor-day-report-we-are-building-for-the-future/"
   },
   {
-    "id": 1773553159249,
+    "id": 1773558258730,
     "type": "news",
     "company": "Waymo",
     "headline": "Zoox Coming to Dallas &#038; Phoenix, Partnering with Uber in Las Vegas &#038; Los Angeles",
     "source": "CleanTechnica",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/03/14/zoox-coming-to-dallas-phoenix-partnering-with-uber-in-las-vegas-los-angeles/"
   },
   {
-    "id": 1773553159250,
+    "id": 1773558258731,
     "type": "news",
     "company": "Astera Labs",
     "headline": "Dominion Energy Falls Into The &#8220;Dispatchable&#8221; Trap Over Data Center Power",
     "source": "CleanTechnica",
-    "time": "11h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/03/14/dominion-energy-falls-into-the-dispatchable-trap-over-data-center-power/"
   },
   {
-    "id": 1773553159251,
+    "id": 1773558258732,
     "type": "news",
     "company": "Exowatt",
     "headline": "The Epstein War Breathes New Life Into EU Green Hydrogen Schemes",
     "source": "CleanTechnica",
-    "time": "12h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/03/14/the-epstein-war-breathes-new-life-into-eu-green-hydrogen-schemes/"
   },
   {
-    "id": 1773553159252,
+    "id": 1773558258733,
     "type": "news",
     "company": "Waymo",
     "headline": "GAMECHANGER BIGGER THAN TESLA ROBOTAXI ? AI Bombshell",
     "source": "Next Big Future",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/03/gamechanger-bigger-than-tesla-robotaxi-ai-bombshell.html"
   },
   {
-    "id": 1773553159253,
+    "id": 1773558258734,
     "type": "news",
     "company": "Amca",
     "headline": "Meta reportedly considering layoffs that could affect 20% of the company",
     "source": "TechCrunch",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/03/14/meta-reportedly-considering-layoffs-that-could-affect-20-of-the-company/"
   },
   {
-    "id": 1773553159254,
+    "id": 1773558258735,
     "type": "funding",
     "company": "SpaceX",
     "headline": "SpaceX Testing Booster for V3 Starship Launch in 3-4 Weeks",
     "source": "Next Big Future",
-    "time": "15h ago",
+    "time": "17h ago",
     "impact": "medium",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/03/spacex-testing-booster-for-v3-starship-launch-in-3-4-weeks.html"
   },
   {
-    "id": 1773553159255,
+    "id": 1773558258736,
     "type": "news",
     "company": "FleetZero",
     "headline": "UK EV Sales Were Higher Than Mandated In 2024",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/13/uk-ev-sales-were-higher-than-mandated-in-2024/"
   },
   {
-    "id": 1773553159256,
+    "id": 1773558258737,
     "type": "news",
     "company": "Ample",
     "headline": "Stellantis Rumored to Talk with Xiaomi &#038; XPeng Regarding Partnership",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/13/stellantis-rumored-to-talk-with-xiaomi-xpeng-regarding-partnership/"
   },
   {
-    "id": 1773553159257,
+    "id": 1773558258738,
     "type": "funding",
     "company": "Machina Labs",
     "headline": "Applied EV Presses Ahead with Autonomous Electric Vehicles in Australia",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/13/applied-ev-presses-ahead-with-autonomous-electric-vehicles-in-australia/"
   },
   {
-    "id": 1773553159258,
+    "id": 1773558258739,
     "type": "news",
     "company": "Bronco AI",
     "headline": "Demand signals are up, but supply chain risks may still hinder production",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/business/2026/03/demand-signals-are-supply-chain-risks-may-still-hinder-production/412131/"
   },
   {
-    "id": 1773553159259,
+    "id": 1773558258740,
     "type": "milestone",
     "company": "Elodin",
     "headline": "The Global Offshore Wind Industry Floats Away From The US (For Now)",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/13/the-global-offshore-wind-industry-floats-away-from-the-us-for-now/"
   },
   {
-    "id": 1773553159260,
+    "id": 1773558258741,
     "type": "news",
     "company": "Anysphere",
     "headline": "&#8216;Not built right the first time&#8217; &#8212; Musk&#8217;s xAI is starting over again, again",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/03/13/not-built-right-the-first-time-musks-xai-is-starting-over-again-again/"
   },
   {
-    "id": 1773553159261,
+    "id": 1773558258742,
     "type": "ipo",
     "company": "Theseus",
     "headline": "iMetalX emerges from stealth with technology to model resident space objects",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/imetalx-emerges-from-stealth-with-technology-to-model-resident-space-objects/"
   },
   {
-    "id": 1773553159262,
+    "id": 1773558258743,
     "type": "ipo",
     "company": "Hadrian",
     "headline": "Astroscale selects Isar Aerospace to launch ELSA-M mission",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/astroscale-selects-isar-aerospace-to-launch-elsa-m-mission/"
   },
   {
-    "id": 1773553159263,
+    "id": 1773558258744,
     "type": "contract",
     "company": "Firestorm Labs",
     "headline": "China is developing low-cost lunar cargo options for its expanding moon program",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/china-is-developing-low-cost-lunar-cargo-options-for-its-expanding-moon-program/"
   },
   {
-    "id": 1773553159264,
+    "id": 1773558258745,
     "type": "funding",
     "company": "Kepler Communications",
     "headline": "How US military space operators are likely aiding the fight in Iran",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/03/how-us-military-space-operators-are-likely-aiding-the-fight-in-iran/"
   },
   {
-    "id": 1773553159265,
+    "id": 1773558258746,
     "type": "contract",
     "company": "Amca",
     "headline": "The biggest AI stories of the year (so far)",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/03/13/the-biggest-ai-stories-of-the-year-so-far/"
   },
   {
-    "id": 1773553159266,
+    "id": 1773558258747,
     "type": "news",
     "company": "Andrenam",
     "headline": "UK Navy buys 20 USVs to act as unmanned &#8216;proving ground&#8217;",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/03/uk-navy-buys-20-usvs-to-act-as-unmanned-proving-ground/"
   },
   {
-    "id": 1773553159267,
+    "id": 1773558258748,
     "type": "news",
     "company": "Neros",
     "headline": "After Ukraine, FPV drones could take on Arctic warfare",
