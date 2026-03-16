@@ -21859,23 +21859,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-16 13:43
+// Last updated: 2026-03-16 17:11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Photonic Inc", headline: "Walmart-backed PhonePe shelves IPO as global tensions rattle markets", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "news", company: "Aurora Innovation", headline: "The Tesla Influencers Leaving the 'Cult'", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "PsiQuantum", headline: "Exploring Light and Life: Nanophotonics and AI for Molecular Sequencing and Single-Cell Phenotyping", source: "IEEE Spectrum", time: "3h ago", impact: "medium", unread: true },
-  { id: 4, type: "ipo", company: "Durin", headline: "The billionaires made a promise &#8212; now some want out", source: "TechCrunch", time: "9h ago", impact: "high", unread: true },
-  { id: 5, type: "hire", company: "Space Forge", headline: "FOIA Documents Reveal Trump Administration Ordered Fish &#038; Wildlife Service to Change Materials About Indigenous Peo", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Ample", headline: "Will the Next Disruptive Plane Be European?", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Karman Industries", headline: "How the Pentagon is working to wriggle out of China's rare-earths grip", source: "Defense One", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Ample", headline: "US Fast Charging Needs to Focus on Moving Faster", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Photonic Inc", headline: "Elon Musk 8 Times Richer Than Bill Gates", source: "Next Big Future", time: "16h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Rivian", headline: "Rivian's RJ Scaringe thinks we're doing robots all wrong", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
-  { id: 11, type: "hire", company: "Durin", headline: "Lucid Investor Day Report: &#8220;We Are Building for the Future&#8221;", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "Zoox Coming to Dallas &#038; Phoenix, Partnering with Uber in Las Vegas &#038; Los Angeles", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Astera Labs", headline: "Dominion Energy Falls Into The &#8220;Dispatchable&#8221; Trap Over Data Center Power", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Exowatt", headline: "The Epstein War Breathes New Life Into EU Green Hydrogen Schemes", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Waymo", headline: "GAMECHANGER BIGGER THAN TESLA ROBOTAXI ? AI Bombshell", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Quantum-Systems", headline: "Norway's elite Arctic soldiers still dig their own snow caves to hide from drones", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Vast", headline: "Melagen Labs and Satlyt Announce Joint ISS Mission to Demonstrate Radiation-Resilient In-Orbit Computing and Next-Gen Sh", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Harbinger", headline: "Tesla, Schmesla: Let's Talk About Workhorse Electric Trucks", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Kepler Communications", headline: "Kepler Communications: Call for Live-Stream Payload Concepts", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Photonic Inc", headline: "Walmart-backed PhonePe shelves IPO as global tensions rattle markets", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "Atomic Industries", headline: "New Moog Innovations for the Satellite Market on Full Display at SATELLITE 2026 Conference", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Revel", headline: "China launches new highly retrograde Yaogan satellite, KZ-11 rideshare deploys 8 satellites", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Aurora Innovation", headline: "The Tesla Influencers Leaving the 'Cult'", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "PsiQuantum", headline: "Exploring Light and Life: Nanophotonics and AI for Molecular Sequencing and Single-Cell Phenotyping", source: "IEEE Spectrum", time: "7h ago", impact: "medium", unread: false },
+  { id: 10, type: "hire", company: "Space Forge", headline: "FOIA Documents Reveal Trump Administration Ordered Fish &#038; Wildlife Service to Change Materials About Indigenous Peo", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "Ample", headline: "Will the Next Disruptive Plane Be European?", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "Karman Industries", headline: "How the Pentagon is working to wriggle out of China's rare-earths grip", source: "Defense One", time: "14h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Astera Labs", headline: "Starcloud files plans for 88,000-satellite constellation", source: "SpaceNews", time: "18h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Ample", headline: "US Fast Charging Needs to Focus on Moving Faster", source: "CleanTechnica", time: "20h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Photonic Inc", headline: "Elon Musk 8 Times Richer Than Bill Gates", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
