@@ -21952,6 +21952,45 @@ const EXPERT_INSIGHTS = [
 
 // ─── CONTRACTOR READINESS SCORES ───
 // Composite score for defense procurement: TRL + SBIR + Clearance + Past Performance
+// ─── VALLEY OF DEATH TRACKER ───
+// Where each company sits in the defense acquisition lifecycle
+// Stages: R&D Concept → SBIR Phase I → SBIR Phase II → OTA/Prototype → Program of Record → Production Contract
+const VALLEY_OF_DEATH = [
+  { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 47, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
+  { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
+  { company: "Palantir", stage: "production", label: "Production Contract", trl: 9, contracts: 200, detail: "Foundry/Gotham deployed across DoD, IC, NHS. Multi-year IDIQ contracts. FedRAMP High authorized." },
+  { company: "Rocket Lab", stage: "production", label: "Production Contract", trl: 9, contracts: 45, detail: "Electron operational. Neutron in development. Space Systems integration for NRO, Space Force." },
+  { company: "Shield AI", stage: "program-of-record", label: "Program of Record", trl: 8, contracts: 23, detail: "V-BAT combat-tested in multiple theaters. Hivemind AI pilot under DARPA evaluation. POR pending." },
+  { company: "Castelion", stage: "ota-prototype", label: "OTA / Prototype", trl: 6, contracts: 4, detail: "First missile system in testing. 18 months from concept to prototype — 10x faster than primes." },
+  { company: "Hermeus", stage: "sbir-phase-2", label: "SBIR Phase II", trl: 5, contracts: 5, detail: "Quarterhorse hypersonic engine testing. Air Force Mayhem program. DARPA partnership active." },
+  { company: "Rebellion Defense", stage: "ota-prototype", label: "OTA / Prototype", trl: 7, contracts: 12, detail: "AI/ML platform deployed at DIU. Nova AI for mission planning. Growing cleared workforce." },
+  { company: "Saronic", stage: "sbir-phase-1", label: "SBIR Phase I", trl: 6, contracts: 3, detail: "Autonomous surface vessels. Strong Navy interest via DARPA. Series C validates commercial traction." },
+  { company: "Epirus", stage: "ota-prototype", label: "OTA / Prototype", trl: 7, contracts: 8, detail: "Leonidas directed energy system. Counter-UAS demos with Army. Multiple OTA prototype awards." },
+  { company: "Skydio", stage: "program-of-record", label: "Program of Record", trl: 9, contracts: 30, detail: "X10D deployed with Army and Special Forces. Short-range reconnaissance drone POR. Blue UAS certified." },
+  { company: "Firestorm Labs", stage: "sbir-phase-2", label: "SBIR Phase II", trl: 5, contracts: 2, detail: "SBIR Phase II for autonomous swarm drones. Prototype demonstration pending. Early defense traction." },
+  { company: "Vannevar Labs", stage: "ota-prototype", label: "OTA / Prototype", trl: 7, contracts: 10, detail: "Decrypt platform deployed at IC agencies. OTA contracts for intelligence analysis tools." },
+  { company: "Hadrian", stage: "production", label: "Production Contract", trl: 9, contracts: 15, detail: "CNC precision manufacturing for 3 of top 5 defense primes. Production contracts for missile and satellite components." },
+  { company: "Varda Space Industries", stage: "ota-prototype", label: "OTA / Prototype", trl: 6, contracts: 2, detail: "Space manufacturing reentry capsules. DoD interest in on-orbit manufacturing. OTA prototype phase." },
+  { company: "Saildrone", stage: "program-of-record", label: "Program of Record", trl: 9, contracts: 18, detail: "Explorer and Voyager USVs deployed by Navy for maritime ISR. Active POR for autonomous patrol." },
+  { company: "Fortem Technologies", stage: "ota-prototype", label: "OTA / Prototype", trl: 7, contracts: 6, detail: "DroneHunter counter-UAS system. DoD and DHS prototype deployments. FAA integration." },
+  { company: "Gecko Robotics", stage: "sbir-phase-2", label: "SBIR Phase II", trl: 6, contracts: 4, detail: "Infrastructure inspection robots for Navy shipyards. SBIR Phase II for hull inspection automation." },
+  { company: "Astranis", stage: "production", label: "Production Contract", trl: 9, contracts: 5, detail: "MicroGEO satellites in orbit. Space Force and DoD customers. Production-scale manufacturing in SF." },
+  { company: "True Anomaly", stage: "sbir-phase-2", label: "SBIR Phase II", trl: 5, contracts: 3, detail: "Jackal orbital vehicles for space domain awareness. Space Force SBIR Phase II. Early flights completed." },
+  { company: "Impulse Space", stage: "sbir-phase-1", label: "SBIR Phase I", trl: 5, contracts: 1, detail: "Mira orbital transfer vehicle. First mission completed. SBIR Phase I for responsive space logistics." },
+  { company: "Dedrone", stage: "program-of-record", label: "Program of Record", trl: 8, contracts: 12, detail: "Counter-UAS detection system deployed at military installations worldwide. Active POR." },
+  { company: "HawkEye 360", stage: "production", label: "Production Contract", trl: 9, contracts: 20, detail: "RF geolocation satellite constellation operational. NGA and NRO production contracts." },
+  { company: "Shift5", stage: "ota-prototype", label: "OTA / Prototype", trl: 7, contracts: 8, detail: "OT cybersecurity for weapon systems. Army prototype deployments on ground vehicles." }
+];
+
+const VALLEY_OF_DEATH_STAGES = [
+  { id: "rd-concept", label: "R&D Concept", short: "R&D", color: "#94a3b8", description: "Basic research and concept development. No government contracts yet." },
+  { id: "sbir-phase-1", label: "SBIR Phase I", short: "SBIR I", color: "#f59e0b", description: "Feasibility study funded. $50K-$275K. Proving the concept works." },
+  { id: "sbir-phase-2", label: "SBIR Phase II", short: "SBIR II", color: "#f97316", description: "Prototype development funded. $500K-$1.75M. Building and testing prototypes." },
+  { id: "ota-prototype", label: "OTA / Prototype", short: "OTA", color: "#8b5cf6", description: "Other Transaction Authority contract. Rapid prototyping with operational testing." },
+  { id: "program-of-record", label: "Program of Record", short: "POR", color: "#3b82f6", description: "Formal acquisition program. Sustained funding and production planning." },
+  { id: "production", label: "Production Contract", short: "Production", color: "#22c55e", description: "Full-rate production. Recurring DoD revenue. The finish line." }
+];
+
 const CONTRACTOR_READINESS = [
   {
     company: "Anduril Industries",
@@ -22057,6 +22096,26 @@ const CONTRACTOR_READINESS = [
     keyAgencies: ["Navy", "DARPA"],
     readinessFactors: ["Autonomous vessels", "Strong Navy interest", "Early but promising"]
   }
+];
+
+// ─── LIVE CONTRACT & AWARD FEED ───
+// Real-time feed of government contract awards, SBIR wins, OTA selections for tracked companies
+const LIVE_AWARD_FEED = [
+  { id: 1, date: "2026-03-12", company: "Anduril Industries", type: "contract", title: "SOCOM Counter-UAS Production Award", value: "$250M", agency: "SOCOM", detail: "Multi-year IDIQ for Sentry Tower and Anvil counter-drone systems across CONUS bases." },
+  { id: 2, date: "2026-03-10", company: "Shield AI", type: "ota", title: "Hivemind Autonomous Wingman OTA", value: "$85M", agency: "Air Force", detail: "OTA prototype for Hivemind AI integration with F-16 and MQ-28 Ghost Bat platforms." },
+  { id: 3, date: "2026-03-08", company: "Saronic", type: "sbir", title: "SBIR Phase II — Autonomous Surface Vessel", value: "$1.75M", agency: "Navy / DARPA", detail: "Phase II award for autonomous maritime patrol vessel with ISR payload integration." },
+  { id: 4, date: "2026-03-05", company: "Hadrian", type: "contract", title: "Precision Manufacturing — Missile Components", value: "$45M", agency: "DoD", detail: "Production contract for CNC precision-machined missile guidance housings for a major prime." },
+  { id: 5, date: "2026-03-03", company: "Epirus", type: "ota", title: "Leonidas Directed Energy Prototype", value: "$67M", agency: "Army", detail: "OTA for Leonidas microwave counter-UAS system prototype deployment at three installations." },
+  { id: 6, date: "2026-02-28", company: "Skydio", type: "contract", title: "X10D SRR Program of Record", value: "$120M", agency: "Army", detail: "Multi-year production contract for X10D Short Range Reconnaissance drones. Blue UAS certified." },
+  { id: 7, date: "2026-02-25", company: "Rocket Lab", type: "contract", title: "Neutron Launch Services", value: "$100M+", agency: "Space Force", detail: "Launch services contract for medium-lift Neutron missions. 3-launch IDIQ." },
+  { id: 8, date: "2026-02-22", company: "Vannevar Labs", type: "ota", title: "Decrypt Platform OTA Extension", value: "$28M", agency: "IC", detail: "OTA extension for Decrypt intelligence analysis platform deployment across IC agencies." },
+  { id: 9, date: "2026-02-20", company: "Saildrone", type: "contract", title: "Maritime ISR Patrol — Pacific", value: "$55M", agency: "Navy", detail: "Extended autonomous patrol mission contract for Voyager USVs in Indo-Pacific." },
+  { id: 10, date: "2026-02-18", company: "Castelion", type: "ota", title: "Rapid Missile Prototype Award", value: "$40M", agency: "DARPA", detail: "OTA for rapid iteration missile system prototyping. Concept-to-hardware in 18 months." },
+  { id: 11, date: "2026-02-15", company: "True Anomaly", type: "sbir", title: "SBIR Phase II — Space Domain Awareness", value: "$1.5M", agency: "Space Force", detail: "Phase II for Jackal orbital inspection vehicle. On-orbit characterization missions." },
+  { id: 12, date: "2026-02-12", company: "HawkEye 360", type: "contract", title: "RF Geolocation Data Services", value: "$75M", agency: "NGA", detail: "Multi-year data services contract for RF geolocation intelligence from constellation." },
+  { id: 13, date: "2026-02-10", company: "Gecko Robotics", type: "sbir", title: "SBIR Phase II — Hull Inspection Automation", value: "$1.2M", agency: "Navy", detail: "Autonomous robot systems for naval vessel hull inspection at shipyards." },
+  { id: 14, date: "2026-02-05", company: "Shift5", type: "ota", title: "OT Cybersecurity — Ground Vehicles", value: "$18M", agency: "Army", detail: "Prototype deployment of OT cybersecurity monitoring on Bradley and Stryker platforms." },
+  { id: 15, date: "2026-02-01", company: "Astranis", type: "contract", title: "MicroGEO SATCOM Services", value: "$90M", agency: "Space Force / DoD", detail: "GEO communications services contract leveraging MicroGEO constellation for contested environments." }
 ];
 
 // ─── DEAL FLOW SIGNALS ───

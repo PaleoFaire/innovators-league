@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     safeInit(renderFollowOnPatterns);
     safeInit(renderConvictionTracker);
     safeInit(renderSectorCapital);
+    safeInit(renderPortfolioXRay);
     safeInit(initVCModal);
     safeInit(initVCMobileMenu);
     safeInit(initVCSearch);
@@ -1142,6 +1143,208 @@ function renderConvictionTracker() {
       if (targetPanel) targetPanel.classList.add('active');
     });
   });
+}
+
+// ─── PORTFOLIO X-RAY ───
+
+function renderPortfolioXRay() {
+  const grid = document.getElementById('xray-grid');
+  if (!grid) return;
+  if (typeof VC_FIRMS === 'undefined' || !VC_FIRMS.length) return;
+
+  const COMPANIES = (typeof window.COMPANIES !== 'undefined') ? window.COMPANIES : [];
+  const DEAL_TRACKER_DATA = (typeof DEAL_TRACKER !== 'undefined') ? DEAL_TRACKER : [];
+
+  // Helper: parse AUM string to number
+  function parseAUM(str) {
+    if (!str) return 0;
+    const match = str.match(/\$?([\d.]+)\s*([BMTKbmtk])/);
+    if (!match) return 0;
+    const num = parseFloat(match[1]);
+    const unit = match[2].toUpperCase();
+    if (unit === 'T') return num * 1e12;
+    if (unit === 'B') return num * 1e9;
+    if (unit === 'M') return num * 1e6;
+    return num;
+  }
+
+  // Build per-VC analytics
+  const xrayData = VC_FIRMS.map(vc => {
+    const portfolioSize = vc.portfolioCompanies ? vc.portfolioCompanies.length : 0;
+
+    // Sector concentration analysis
+    const sectorMap = {};
+    (vc.portfolioCompanies || []).forEach(compName => {
+      const compData = COMPANIES.find(c => c.name === compName);
+      if (compData && compData.sector) {
+        sectorMap[compData.sector] = (sectorMap[compData.sector] || 0) + 1;
+      }
+    });
+    const sectors = Object.entries(sectorMap)
+      .sort((a, b) => b[1] - a[1])
+      .map(([name, count]) => ({ name, count, pct: Math.round((count / Math.max(portfolioSize, 1)) * 100) }));
+
+    // Top sector concentration (Herfindahl-like)
+    const sectorShares = sectors.map(s => s.pct / 100);
+    const concentration = sectorShares.reduce((sum, s) => sum + (s * s), 0);
+    const concentrationLabel = concentration > 0.5 ? 'Concentrated' : (concentration > 0.25 ? 'Focused' : 'Diversified');
+
+    // Follow-on conviction — did they invest in the same company multiple rounds?
+    const followOnMap = {};
+    DEAL_TRACKER_DATA.forEach(deal => {
+      if (!deal.investor) return;
+      const investorLower = deal.investor.toLowerCase();
+      const vcNames = [vc.name.toLowerCase(), vc.shortName.toLowerCase()];
+      if (vcNames.some(n => investorLower.includes(n) || n.includes(investorLower))) {
+        followOnMap[deal.company] = (followOnMap[deal.company] || 0) + 1;
+      }
+    });
+    const followOns = Object.entries(followOnMap)
+      .filter(([_, count]) => count > 1)
+      .sort((a, b) => b[1] - a[1])
+      .map(([company, rounds]) => ({ company, rounds }));
+
+    const followOnRate = portfolioSize > 0 ? Math.round((followOns.length / portfolioSize) * 100) : 0;
+
+    // Stage distribution
+    const stageMap = {};
+    (vc.portfolioCompanies || []).forEach(compName => {
+      const compData = COMPANIES.find(c => c.name === compName);
+      if (compData && compData.fundingStage) {
+        const stage = compData.fundingStage;
+        stageMap[stage] = (stageMap[stage] || 0) + 1;
+      }
+    });
+    const stages = Object.entries(stageMap)
+      .sort((a, b) => b[1] - a[1])
+      .map(([name, count]) => ({ name, count }));
+
+    // White space — sectors in VC_FIRMS sectorFocus but underrepresented in portfolio
+    const allSectors = ['Defense & Security', 'Space & Aerospace', 'Energy & Climate', 'AI & Software', 'Robotics & Manufacturing', 'Biotech & Health'];
+    const whiteSpaces = allSectors.filter(sector => {
+      const inFocus = (vc.sectorFocus || []).some(s => s.toLowerCase().includes(sector.split(' ')[0].toLowerCase()));
+      const portfolioCount = sectorMap[sector] || 0;
+      return inFocus && portfolioCount <= 1;
+    });
+
+    // Co-investment density
+    let coInvestCount = 0;
+    VC_FIRMS.forEach(otherVc => {
+      if (otherVc.shortName === vc.shortName) return;
+      const shared = (vc.portfolioCompanies || []).filter(c =>
+        (otherVc.portfolioCompanies || []).includes(c)
+      );
+      if (shared.length > 0) coInvestCount++;
+    });
+
+    return {
+      ...vc,
+      portfolioSize,
+      sectors,
+      concentration,
+      concentrationLabel,
+      followOns,
+      followOnRate,
+      stages,
+      whiteSpaces,
+      coInvestCount,
+      aum: vc.aum,
+      aumNum: parseAUM(vc.aum)
+    };
+  }).sort((a, b) => b.aumNum - a.aumNum);
+
+  // Render X-Ray cards
+  let html = '';
+  xrayData.forEach(vc => {
+    // Concentration color
+    const concColor = vc.concentrationLabel === 'Concentrated' ? '#f59e0b' :
+                      vc.concentrationLabel === 'Focused' ? '#3b82f6' : '#22c55e';
+
+    // Top sectors bars
+    let sectorBars = '';
+    vc.sectors.slice(0, 3).forEach(s => {
+      sectorBars += '<div class="xray-sector-row">' +
+        '<span class="xray-sector-name">' + s.name + '</span>' +
+        '<div class="xray-sector-bar-track"><div class="xray-sector-bar" style="width:' + s.pct + '%;"></div></div>' +
+        '<span class="xray-sector-pct">' + s.pct + '%</span>' +
+        '</div>';
+    });
+
+    // Follow-on chips
+    let followOnHtml = '';
+    if (vc.followOns.length > 0) {
+      vc.followOns.slice(0, 3).forEach(fo => {
+        followOnHtml += '<span class="xray-followon-chip">' + fo.company + ' <em>' + fo.rounds + 'x</em></span>';
+      });
+    } else {
+      followOnHtml = '<span class="xray-no-data">No repeat investments detected</span>';
+    }
+
+    // White space chips
+    let whiteSpaceHtml = '';
+    if (vc.whiteSpaces.length > 0) {
+      vc.whiteSpaces.forEach(ws => {
+        whiteSpaceHtml += '<span class="xray-whitespace-chip">' + ws + '</span>';
+      });
+    } else {
+      whiteSpaceHtml = '<span class="xray-no-data">Portfolio well-covered</span>';
+    }
+
+    // Stage distribution mini chart
+    let stageHtml = '';
+    vc.stages.slice(0, 4).forEach(s => {
+      stageHtml += '<span class="xray-stage-chip">' + s.name + ' <em>(' + s.count + ')</em></span>';
+    });
+
+    html += '<div class="xray-card">';
+    // Header
+    html += '<div class="xray-header">';
+    html += '<div class="xray-header-left">';
+    html += '<h3 class="xray-vc-name">' + vc.shortName + '</h3>';
+    html += '<span class="xray-aum">' + vc.aum + ' AUM</span>';
+    html += '</div>';
+    html += '<div class="xray-header-right">';
+    html += '<span class="xray-portfolio-count">' + vc.portfolioSize + ' companies</span>';
+    html += '</div>';
+    html += '</div>';
+
+    // Metrics row
+    html += '<div class="xray-metrics">';
+    html += '<div class="xray-metric"><span class="xray-metric-value" style="color:' + concColor + ';">' + vc.concentrationLabel + '</span><span class="xray-metric-label">Thesis Coherence</span></div>';
+    html += '<div class="xray-metric"><span class="xray-metric-value">' + vc.followOnRate + '%</span><span class="xray-metric-label">Follow-On Rate</span></div>';
+    html += '<div class="xray-metric"><span class="xray-metric-value">' + vc.coInvestCount + '</span><span class="xray-metric-label">Co-Invest Partners</span></div>';
+    html += '</div>';
+
+    // Sector concentration
+    html += '<div class="xray-section">';
+    html += '<div class="xray-section-title">Sector Concentration</div>';
+    html += sectorBars;
+    html += '</div>';
+
+    // Follow-on conviction
+    html += '<div class="xray-section">';
+    html += '<div class="xray-section-title">Follow-On Conviction</div>';
+    html += '<div class="xray-chips">' + followOnHtml + '</div>';
+    html += '</div>';
+
+    // White space
+    html += '<div class="xray-section">';
+    html += '<div class="xray-section-title">White Space (Underexposed)</div>';
+    html += '<div class="xray-chips">' + whiteSpaceHtml + '</div>';
+    html += '</div>';
+
+    // Stage distribution
+    if (stageHtml) {
+      html += '<div class="xray-section">';
+      html += '<div class="xray-section-title">Stage Distribution</div>';
+      html += '<div class="xray-chips">' + stageHtml + '</div>';
+      html += '</div>';
+    }
+
+    html += '</div>';
+  });
+
+  grid.innerHTML = html;
 }
 
 // ─── MOBILE MENU ───

@@ -177,6 +177,8 @@ function initGovRadar() {
   safeInit('demandHeatmap', initDemandHeatmap);
   safeInit('demandRadar', initDemandRadar);
   safeInit('opportunities', initOpportunities);
+  safeInit('valleyOfDeath', initValleyOfDeath);
+  safeInit('liveAwardFeed', initLiveAwardFeed);
   safeInit('contractorReadiness', initContractorReadiness);
   safeInit('budgetSignals', initBudgetSignals);
   safeInit('fedRegister', initFedRegister);
@@ -1234,6 +1236,187 @@ function initGovFunding() {
 
     gridEl.innerHTML = html;
   }
+}
+
+// ─── MOBILE MENU ───
+
+// ─── VALLEY OF DEATH TRACKER ───
+
+function initValleyOfDeath() {
+  var data = (typeof VALLEY_OF_DEATH !== 'undefined') ? VALLEY_OF_DEATH : [];
+  var stages = (typeof VALLEY_OF_DEATH_STAGES !== 'undefined') ? VALLEY_OF_DEATH_STAGES : [];
+  var pipelineEl = document.getElementById('vod-pipeline');
+  var detailEl = document.getElementById('vod-detail-grid');
+  if (!pipelineEl || !detailEl) return;
+  if (data.length === 0) {
+    pipelineEl.innerHTML = '<div class="empty-state">No acquisition lifecycle data available.</div>';
+    return;
+  }
+
+  // Count companies per stage
+  var stageCounts = {};
+  stages.forEach(function(s) { stageCounts[s.id] = []; });
+  data.forEach(function(c) {
+    if (stageCounts[c.stage]) stageCounts[c.stage].push(c);
+  });
+
+  var totalCompanies = data.length;
+
+  // Render Sankey-style pipeline
+  var pipelineHtml = '<div class="vod-stages">';
+  stages.forEach(function(stage, idx) {
+    var companies = stageCounts[stage.id] || [];
+    var count = companies.length;
+    var pct = Math.round((count / totalCompanies) * 100);
+    var barWidth = Math.max(pct, 8);
+    var isValley = (stage.id === 'sbir-phase-2' || stage.id === 'ota-prototype');
+
+    pipelineHtml += '<div class="vod-stage' + (isValley ? ' vod-valley' : '') + '" data-stage="' + stage.id + '">';
+    pipelineHtml += '<div class="vod-stage-header">';
+    pipelineHtml += '<span class="vod-stage-label">' + stage.short + '</span>';
+    pipelineHtml += '<span class="vod-stage-count" style="color:' + stage.color + ';">' + count + '</span>';
+    pipelineHtml += '</div>';
+    pipelineHtml += '<div class="vod-bar-track">';
+    pipelineHtml += '<div class="vod-bar-fill" style="width:' + barWidth + '%;background:' + stage.color + ';"></div>';
+    pipelineHtml += '</div>';
+    pipelineHtml += '<div class="vod-stage-desc">' + stage.description + '</div>';
+    if (isValley) {
+      pipelineHtml += '<div class="vod-valley-label">⚠️ Valley of Death</div>';
+    }
+    // Company chips
+    if (companies.length > 0) {
+      pipelineHtml += '<div class="vod-companies">';
+      companies.forEach(function(c) {
+        pipelineHtml += '<span class="vod-company-chip" data-company="' + escapeHtml(c.company) + '" style="border-color:' + stage.color + ';">' + escapeHtml(c.company) + '</span>';
+      });
+      pipelineHtml += '</div>';
+    }
+    pipelineHtml += '</div>';
+
+    // Arrow between stages
+    if (idx < stages.length - 1) {
+      pipelineHtml += '<div class="vod-arrow">→</div>';
+    }
+  });
+  pipelineHtml += '</div>';
+
+  // Summary stats
+  var valleyCount = (stageCounts['sbir-phase-2'] || []).length + (stageCounts['ota-prototype'] || []).length;
+  var productionCount = (stageCounts['production'] || []).length + (stageCounts['program-of-record'] || []).length;
+  pipelineHtml += '<div class="vod-summary">';
+  pipelineHtml += '<div class="vod-stat"><span class="vod-stat-num">' + totalCompanies + '</span><span class="vod-stat-label">Companies Tracked</span></div>';
+  pipelineHtml += '<div class="vod-stat"><span class="vod-stat-num vod-danger">' + valleyCount + '</span><span class="vod-stat-label">In Valley of Death</span></div>';
+  pipelineHtml += '<div class="vod-stat"><span class="vod-stat-num vod-success">' + productionCount + '</span><span class="vod-stat-label">Reached POR / Production</span></div>';
+  pipelineHtml += '<div class="vod-stat"><span class="vod-stat-num">' + Math.round((productionCount / totalCompanies) * 100) + '%</span><span class="vod-stat-label">Survival Rate</span></div>';
+  pipelineHtml += '</div>';
+
+  pipelineEl.innerHTML = pipelineHtml;
+
+  // Render detail grid
+  var sorted = data.slice().sort(function(a, b) {
+    var stageOrder = { 'production': 6, 'program-of-record': 5, 'ota-prototype': 4, 'sbir-phase-2': 3, 'sbir-phase-1': 2, 'rd-concept': 1 };
+    return (stageOrder[b.stage] || 0) - (stageOrder[a.stage] || 0);
+  });
+
+  var detailHtml = '';
+  sorted.forEach(function(c) {
+    var stageInfo = stages.find(function(s) { return s.id === c.stage; }) || {};
+    detailHtml += '<div class="vod-detail-card">';
+    detailHtml += '<div class="vod-detail-header">';
+    detailHtml += '<span class="vod-detail-company">' + escapeHtml(c.company) + '</span>';
+    detailHtml += '<span class="vod-detail-stage" style="background:' + (stageInfo.color || '#666') + '20;color:' + (stageInfo.color || '#666') + ';">' + escapeHtml(c.label) + '</span>';
+    detailHtml += '</div>';
+    detailHtml += '<div class="vod-detail-meta">';
+    detailHtml += '<span>TRL ' + c.trl + '</span>';
+    detailHtml += '<span>' + c.contracts + ' contracts</span>';
+    detailHtml += '</div>';
+    detailHtml += '<p class="vod-detail-text">' + escapeHtml(c.detail) + '</p>';
+    detailHtml += '</div>';
+  });
+
+  detailEl.innerHTML = detailHtml;
+}
+
+// ─── LIVE CONTRACT & AWARD FEED ───
+
+function initLiveAwardFeed() {
+  var data = (typeof LIVE_AWARD_FEED !== 'undefined') ? LIVE_AWARD_FEED : [];
+  var feedEl = document.getElementById('award-feed');
+  var filterEl = document.getElementById('award-feed-filters');
+  if (!feedEl) return;
+  if (data.length === 0) {
+    feedEl.innerHTML = '<div class="empty-state">No recent awards to display.</div>';
+    return;
+  }
+
+  var activeFilter = 'all';
+
+  // Render filter buttons
+  if (filterEl) {
+    filterEl.innerHTML = '<div class="award-filter-row">' +
+      '<button class="award-filter-btn active" data-filter="all">All Awards</button>' +
+      '<button class="award-filter-btn" data-filter="contract">🏛️ Contracts</button>' +
+      '<button class="award-filter-btn" data-filter="ota">⚡ OTA</button>' +
+      '<button class="award-filter-btn" data-filter="sbir">🔬 SBIR</button>' +
+      '</div>';
+
+    filterEl.querySelectorAll('.award-filter-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        filterEl.querySelectorAll('.award-filter-btn').forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        activeFilter = btn.getAttribute('data-filter');
+        renderFeed();
+      });
+    });
+  }
+
+  function renderFeed() {
+    var filtered = data;
+    if (activeFilter !== 'all') {
+      filtered = data.filter(function(d) { return d.type === activeFilter; });
+    }
+
+    var typeConfig = {
+      'contract': { label: 'CONTRACT', emoji: '🏛️', cls: 'award-contract' },
+      'ota': { label: 'OTA', emoji: '⚡', cls: 'award-ota' },
+      'sbir': { label: 'SBIR', emoji: '🔬', cls: 'award-sbir' }
+    };
+
+    var html = '';
+    filtered.forEach(function(award) {
+      var type = typeConfig[award.type] || { label: award.type, emoji: '📄', cls: '' };
+      var dateStr = new Date(award.date + 'T00:00:00').toLocaleDateString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric'
+      });
+      var daysAgo = Math.floor((Date.now() - new Date(award.date + 'T00:00:00').getTime()) / 86400000);
+      var freshness = daysAgo <= 3 ? 'award-fresh' : (daysAgo <= 7 ? 'award-recent' : '');
+
+      html += '<div class="award-card ' + freshness + '">';
+      html += '<div class="award-card-left">';
+      html += '<div class="award-date-col">';
+      html += '<span class="award-date">' + dateStr + '</span>';
+      if (daysAgo <= 3) html += '<span class="award-new-badge">NEW</span>';
+      html += '</div>';
+      html += '</div>';
+      html += '<div class="award-card-center">';
+      html += '<div class="award-top-row">';
+      html += '<span class="award-type-badge ' + type.cls + '">' + type.emoji + ' ' + type.label + '</span>';
+      html += '<span class="award-agency">' + escapeHtml(award.agency) + '</span>';
+      html += '</div>';
+      html += '<h4 class="award-title">' + escapeHtml(award.title) + '</h4>';
+      html += '<p class="award-detail">' + escapeHtml(award.detail) + '</p>';
+      html += '<span class="award-company-name">' + escapeHtml(award.company) + '</span>';
+      html += '</div>';
+      html += '<div class="award-card-right">';
+      html += '<span class="award-value">' + escapeHtml(award.value) + '</span>';
+      html += '</div>';
+      html += '</div>';
+    });
+
+    feedEl.innerHTML = html;
+  }
+
+  renderFeed();
 }
 
 // ─── MOBILE MENU ───
