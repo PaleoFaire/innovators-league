@@ -1,138 +1,71 @@
 {
-  "date": "2026-03-09",
-  "display_date": "Mar 09, 2026",
-  "generated_at": "2026-03-09T10:52:51.046475+00:00",
-  "cutoff": "2026-03-02T10:52:51.046475+00:00",
-  "section_count": 3,
-  "total_items": 156,
+  "date": "2026-03-16",
+  "display_date": "Mar 16, 2026",
+  "generated_at": "2026-03-16T11:00:33.482755+00:00",
+  "cutoff": "2026-03-09T11:00:33.482755+00:00",
+  "section_count": 2,
+  "total_items": 116,
   "sections": [
-    {
-      "title": "Federal Register",
-      "icon": "\ud83c\udfdb\ufe0f",
-      "count": 33,
-      "items": [
-        {
-          "title": "Marine Mammals; Incidental Take of Polar Bears and Pacific Walruses in the Beaufort Sea and North Slope of Alaska",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Interior Department",
-            "Fish and Wildlife Service"
-          ],
-          "significant": false,
-          "date": "2026-03-09"
-        },
-        {
-          "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approva",
-          "type": "Notice",
-          "agencies": [
-            "Commerce Department",
-            "National Oceanic and Atmospheric Administration"
-          ],
-          "significant": false,
-          "date": "2026-03-09"
-        },
-        {
-          "title": "Arms Sales Notification",
-          "type": "Notice",
-          "agencies": [
-            "Defense Department",
-            ""
-          ],
-          "significant": false,
-          "date": "2026-03-06"
-        },
-        {
-          "title": "Agency Forms Undergoing Paperwork Reduction Act Review",
-          "type": "Notice",
-          "agencies": [
-            "Health and Human Services Department",
-            "Centers for Disease Control and Prevention"
-          ],
-          "significant": false,
-          "date": "2026-03-09"
-        },
-        {
-          "title": "Increasing Market and Planning Efficiency Through Improved Software; Notice of Technical Conference: Increasing Market a",
-          "type": "Notice",
-          "agencies": [
-            "Energy Department",
-            "Federal Energy Regulatory Commission"
-          ],
-          "significant": false,
-          "date": "2026-03-09"
-        },
-        {
-          "title": "Revising the National Drug Code Format and Drug Label Barcode Requirements",
-          "type": "Rule",
-          "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
-          ],
-          "significant": false,
-          "date": "2026-03-05"
-        }
-      ]
-    },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 103,
+      "count": 96,
       "items": [
         {
-          "title": "Infinite Orbits acquires UK startup Lunasa to expand satellite servicing capabilities",
-          "source": "SpaceNews",
-          "company": "D-Orbit",
-          "impact": "high",
-          "type": "news"
-        },
-        {
-          "title": "Active Investors Spent More On Fewer Deals In February",
-          "source": "Crunchbase News",
-          "company": "OpenAI",
-          "impact": "high",
-          "type": "news"
-        },
-        {
-          "title": "Over $50B Went To Boom-Era Software Companies That Haven\u2019t Raised In 4+ Years",
-          "source": "Crunchbase News",
+          "title": "The billionaires made a promise &#8212; now some want out",
+          "source": "TechCrunch",
           "company": "Durin",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "Raytheon contract for protected satellite communications terminals raised by $2 billion",
+          "source": "SpaceNews",
+          "company": "Kepler Communications",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "A Better Way To Compare Gas &#038; Electric Prices",
-          "source": "CleanTechnica",
-          "company": "Ample",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "Ring&#8217;s Jamie Siminoff has been trying to calm privacy fears since the Super Bowl, but his answ",
+          "title": "Meta reportedly considering layoffs that could affect 20% of the company",
           "source": "TechCrunch",
-          "company": "Cognition",
-          "impact": "low",
+          "company": "Amca",
+          "impact": "high",
           "type": "news"
         },
         {
-          "title": "Is BYD&#8217;s Flash Charging Revolutionary?",
-          "source": "CleanTechnica",
-          "company": "Ample",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "Will the Pentagon\u2019s Anthropic controversy scare startups away from defense work?",
-          "source": "TechCrunch",
+          "title": "Polish president rejects $50 billion in European military loans",
+          "source": "Defense News",
           "company": "Palantir",
-          "impact": "low",
-          "type": "contract"
+          "impact": "high",
+          "type": "milestone"
         },
         {
-          "title": "Biomethane for O\u02bbahu: A Small Reserve With a Big Reliability Role",
+          "title": "Astranis taps retired Gen. John Hyten to lead advisory board",
+          "source": "SpaceNews",
+          "company": "Astranis",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "York Space acquires satellite propulsion manufacturer Orbion Space",
+          "source": "SpaceNews",
+          "company": "Mach Industries",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "FOIA Documents Reveal Trump Administration Ordered Fish &#038; Wildlife Service to Change Materials ",
           "source": "CleanTechnica",
-          "company": "Andrenam",
+          "company": "Space Forge",
           "impact": "low",
-          "type": "news"
+          "type": "hire"
+        },
+        {
+          "title": "Will the Next Disruptive Plane Be European?",
+          "source": "CleanTechnica",
+          "company": "Ample",
+          "impact": "low",
+          "type": "hire"
         }
       ]
     },
@@ -142,39 +75,42 @@
       "count": 20,
       "items": [
         {
-          "title": "Aktietilbagek\u00f8b i Djurslands Bank \u2013 transaktioner i uge 10",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "Renk Group AG:   Anja M\u00e4nz-Siebje, Kauf",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "Renk Group AG:   Anja M\u00e4nz-Siebje, Acquisition",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "TRX Gold Reports 2026 Annual Meeting Voting Results",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "Ekstraordin\u00e6re indfrielser (CK 93)",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "Director/PDMR Shareholding",
+          "title": "HII\u2019S Ingalls Shipbuilding Celebrates Apprentice School Graduates",
           "source": "globenewswire_all",
           "companies": [
-            "Ample"
+            "Saronic",
+            "Alpha School"
+          ]
+        },
+        {
+          "title": "Iceland Seafood International hf: Annual General Meeting 24 March 2026 - Final proposals and agenda",
+          "source": "globenewswire_all",
+          "companies": []
+        },
+        {
+          "title": "First Ever Real-World Evidence of Eversense 365 Presented at ATTD Demonstrates Sustained Performance and Positive Impact",
+          "source": "globenewswire_all",
+          "companies": []
+        },
+        {
+          "title": "Sharpen Your Knives: It\u2019s the Final Round of Northern California\u2019s\u00a0Battle of the Blades",
+          "source": "globenewswire_all",
+          "companies": []
+        },
+        {
+          "title": "Biomea Fusion Presents Phase II COVALENT-111 Data in Type 2 Diabetes at the 19th International Conference on Advanced Te",
+          "source": "globenewswire_all",
+          "companies": []
+        },
+        {
+          "title": "Digital Asset Technologies Announces Settlement Agreement with Former Auditor",
+          "source": "globenewswire_all",
+          "companies": [
+            "Agility Robotics"
           ]
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-03-09-2768ab7fafb1"
+  "brief_id": "brief-2026-03-16-d43d3c170f80"
 }
