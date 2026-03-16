@@ -1,12 +1,30 @@
 [
   {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 64,
+    "trend": "accelerating",
+    "catalysts": [
+      "How the Pentagon is working to wriggle out of China\u2019s rare-e",
+      "Rivian&#8217;s RJ Scaringe thinks we&#8217;re doing robots a",
+      "Zoox Coming to Dallas &#038; Phoenix, Partnering with Uber i"
+    ],
+    "fundingQ": "$17.7B",
+    "components": {
+      "funding": 100,
+      "news": 75,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-16"
+  },
+  {
     "sector": "Defense & Security",
     "momentum": 62,
     "trend": "accelerating",
     "catalysts": [
-      "How US military space operators are likely aiding the fight",
-      "UK Navy buys 20 USVs to act as unmanned &#8216;proving groun",
-      "After Ukraine, FPV drones could take on Arctic warfare"
+      "How the Pentagon is working to wriggle out of China\u2019s rare-e",
+      "EXCLUSIVE: Aircraft carrier Nimitz service life extended unt",
+      "How US military space operators are likely aiding the fight"
     ],
     "fundingQ": "$66.9B",
     "components": {
@@ -15,15 +33,14 @@
       "hiring": 0,
       "market": 10
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "AI & Software",
     "momentum": 62,
     "trend": "accelerating",
     "catalysts": [
-      "Meta reportedly considering layoffs that could affect 20% of",
-      "Palantir Demos Show How the Military Could Use AI Chatbots t"
+      "Meta reportedly considering layoffs that could affect 20% of"
     ],
     "fundingQ": "$360.0B",
     "components": {
@@ -32,33 +49,14 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-15"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 61,
-    "trend": "accelerating",
-    "catalysts": [
-      "Zoox Coming to Dallas &#038; Phoenix, Partnering with Uber i",
-      "GAMECHANGER BIGGER THAN TESLA ROBOTAXI ? AI Bombshell",
-      "Why physical AI is becoming manufacturing\u2019s next advantage"
-    ],
-    "fundingQ": "$17.7B",
-    "components": {
-      "funding": 100,
-      "news": 65,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Housing & Construction",
     "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
-      "China is developing low-cost lunar cargo options for its exp",
-      "China\u2019s Tianwen-3 Mars sample return mission moves into spac"
+      "China is developing low-cost lunar cargo options for its exp"
     ],
     "fundingQ": "$900.0B",
     "components": {
@@ -67,11 +65,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 48,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
       "UK Navy buys 20 USVs to act as unmanned &#8216;proving groun"
@@ -79,20 +77,20 @@
     "fundingQ": "$1.2B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Dominion Energy Falls Into The &#8220;Dispatchable&#8221; Tr",
-      "Applied EV Presses Ahead with Autonomous Electric Vehicles i",
-      "The Global Offshore Wind Industry Floats Away From The US (F"
+      "FOIA Documents Reveal Trump Administration Ordered Fish &#03",
+      "Starcloud files plans for 88,000-satellite constellation",
+      "Strait of Hormuz crisis drives demand for commercial geospat"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -101,16 +99,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 34,
     "trend": "steady",
     "catalysts": [
-      "SpaceX Testing Booster for V3 Starship Launch in 3-4 Weeks",
-      "iMetalX emerges from stealth with technology to model reside",
-      "Astroscale selects Isar Aerospace to launch ELSA-M mission"
+      "The billionaires made a promise &#8212; now some want out",
+      "Starcloud files plans for 88,000-satellite constellation",
+      "Strait of Hormuz crisis drives demand for commercial geospat"
     ],
     "fundingQ": "$175M",
     "components": {
@@ -119,11 +117,11 @@
       "hiring": 0,
       "market": 30
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 31,
+    "momentum": 26,
     "trend": "rising",
     "catalysts": [
       "The Epstein War Breathes New Life Into EU Green Hydrogen Sch",
@@ -133,11 +131,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 80,
+      "news": 60,
       "hiring": 0,
       "market": 56
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Drones & Autonomous",
@@ -155,7 +153,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Biotech & Health",
@@ -173,11 +171,11 @@
       "hiring": 0,
       "market": 22
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 20,
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
       "The Epstein War Breathes New Life Into EU Green Hydrogen Sch",
@@ -187,18 +185,18 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 40,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Chips & Semiconductors",
     "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "US Perovskite Solar Cell Startup Hits The Ground Running"
+      "Active chips & semiconductors ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -207,41 +205,41 @@
       "hiring": 0,
       "market": 59
     },
-    "lastUpdated": "2026-03-15"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Active nuclear energy ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 57
-    },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Transportation",
-    "momentum": 14,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "UK EV Sales Were Higher Than Mandated In 2024",
-      "Stellantis Rumored to Talk with Xiaomi &#038; XPeng Regardin",
-      "Applied EV Presses Ahead with Autonomous Electric Vehicles i"
+      "Will the Next Disruptive Plane Be European?",
+      "Rivian&#8217;s RJ Scaringe thinks we&#8217;re doing robots a",
+      "UK EV Sales Were Higher Than Mandated In 2024"
     ],
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 20,
+      "news": 30,
       "hiring": 0,
       "market": 32
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Raytheon contract for protected satellite communications ter"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 57
+    },
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -257,7 +255,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   },
   {
     "sector": "Quantum Computing",
@@ -273,6 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-15"
+    "lastUpdated": "2026-03-16"
   }
 ]
