@@ -21859,23 +21859,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-16 17:11
+// Last updated: 2026-03-16 20:48
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Quantum-Systems", headline: "Norway's elite Arctic soldiers still dig their own snow caves to hide from drones", source: "Defense News", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Vast", headline: "Melagen Labs and Satlyt Announce Joint ISS Mission to Demonstrate Radiation-Resilient In-Orbit Computing and Next-Gen Sh", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Harbinger", headline: "Tesla, Schmesla: Let's Talk About Workhorse Electric Trucks", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Kepler Communications", headline: "Kepler Communications: Call for Live-Stream Payload Concepts", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Photonic Inc", headline: "Walmart-backed PhonePe shelves IPO as global tensions rattle markets", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "Atomic Industries", headline: "New Moog Innovations for the Satellite Market on Full Display at SATELLITE 2026 Conference", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Revel", headline: "China launches new highly retrograde Yaogan satellite, KZ-11 rideshare deploys 8 satellites", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Aurora Innovation", headline: "The Tesla Influencers Leaving the 'Cult'", source: "Wired", time: "6h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "PsiQuantum", headline: "Exploring Light and Life: Nanophotonics and AI for Molecular Sequencing and Single-Cell Phenotyping", source: "IEEE Spectrum", time: "7h ago", impact: "medium", unread: false },
-  { id: 10, type: "hire", company: "Space Forge", headline: "FOIA Documents Reveal Trump Administration Ordered Fish &#038; Wildlife Service to Change Materials About Indigenous Peo", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "hire", company: "Ample", headline: "Will the Next Disruptive Plane Be European?", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "Karman Industries", headline: "How the Pentagon is working to wriggle out of China's rare-earths grip", source: "Defense One", time: "14h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Astera Labs", headline: "Starcloud files plans for 88,000-satellite constellation", source: "SpaceNews", time: "18h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Ample", headline: "US Fast Charging Needs to Focus on Moving Faster", source: "CleanTechnica", time: "20h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Photonic Inc", headline: "Elon Musk 8 Times Richer Than Bill Gates", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "WeaveGrid", headline: "Utilities Study How to Protect Grids From Rising Physical Threats", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Hadrian", headline: "AeroVironment to acquire California drone maker ESAero in $200M deal", source: "Breaking Defense", time: "Just now", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Alpha School", headline: "IEEE Young Professionals Help Bridge the U.S. Tech Skills Gap", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Labelbox", headline: "Nvidia's DLSS 5 uses generative AI to boost photorealism in video games, with ambitions beyond gaming", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Hubble Network", headline: "Save Almost 20 Percent on Our Favorite Portable Bluetooth Speaker", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "Waymo", headline: "Nvidia GTC 2026 Preshow. Jensen Next", source: "Next Big Future", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Q-CTRL", headline: "Another deep tech chip startup becomes a unicorn: Frore hits $1.64B", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "OpenAI", headline: "The dictionary sues OpenAI", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Andrenam", headline: "Lockheed completes first flight test for PrSM Inc 2 aimed at hitting moving maritime targets", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "OpenAI", headline: "Where OpenAI's technology could show up in Iran", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Quantum-Systems", headline: "Norway's elite Arctic soldiers still dig their own snow caves to hide from drones", source: "Defense News", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Vast", headline: "Melagen Labs and Satlyt Announce Joint ISS Mission to Demonstrate Radiation-Resilient In-Orbit Computing and Next-Gen Sh", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Harbinger", headline: "Tesla, Schmesla: Let's Talk About Workhorse Electric Trucks", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Kepler Communications", headline: "Kepler Communications: Call for Live-Stream Payload Concepts", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Photonic Inc", headline: "Walmart-backed PhonePe shelves IPO as global tensions rattle markets", source: "TechCrunch", time: "7h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
