@@ -11,13 +11,13 @@
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": 0.9,
+      "avg_change": 0.45,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -4.93,
+      "avg_change": -4.08,
       "count": 7
     },
     "nuclear": {
@@ -69,14 +69,14 @@
       13.29
     ],
     [
-      "9348.T",
-      "ispace",
-      4.91
-    ],
-    [
       "DRSHF",
       "DroneShield",
       3.31
+    ],
+    [
+      "9348.T",
+      "ispace",
+      1.76
     ],
     [
       "JOBY",
@@ -85,6 +85,11 @@
     ]
   ],
   "topLosers": [
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -5.59
+    ],
     [
       "EVTL",
       "Vertical Aerospace",
@@ -101,15 +106,10 @@
       -9.13
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -9.74
-    ],
-    [
       "IDEAFORGE.NS",
       "ideaForge",
       -10.14
     ]
   ],
-  "lastUpdated": "2026-03-15 18:45:17"
+  "lastUpdated": "2026-03-16 02:45:52"
 }
