@@ -154,9 +154,41 @@ const METRO_AREAS = {
         label: 'Atlanta, GA',
         terms: ['atlanta']
     },
-    'intl': {
-        label: '🌍 International',
-        terms: ['germany', 'japan', 'australia', 'uk', 'united kingdom', 'canada', 'france', 'new zealand', 'israel', 'india', 'south korea', 'singapore', 'luxembourg']
+    'intl-london': {
+        label: '🇬🇧 London, UK',
+        terms: ['london']
+    },
+    'intl-germany': {
+        label: '🇩🇪 Germany',
+        terms: ['germany', 'munich', 'ottobrunn', 'berlin', 'hamburg', 'bavaria']
+    },
+    'intl-auckland': {
+        label: '🇳🇿 Auckland, NZ',
+        terms: ['auckland', 'new zealand']
+    },
+    'intl-australia': {
+        label: '🇦🇺 Australia',
+        terms: ['australia', 'sydney', 'melbourne, au', 'brisbane']
+    },
+    'intl-tokyo': {
+        label: '🇯🇵 Tokyo, Japan',
+        terms: ['tokyo', 'japan']
+    },
+    'intl-singapore': {
+        label: '🇸🇬 Singapore',
+        terms: ['singapore']
+    },
+    'intl-canada': {
+        label: '🇨🇦 Canada',
+        terms: ['canada', 'toronto', 'vancouver', 'montreal', 'ottawa']
+    },
+    'intl-israel': {
+        label: '🇮🇱 Israel',
+        terms: ['israel', 'tel aviv']
+    },
+    'intl-other': {
+        label: '🌍 Other International',
+        terms: ['france', 'india', 'south korea', 'luxembourg', 'ireland', 'mexico', 'dublin', 'mexico city', 'switzerland', 'netherlands', 'spain', 'italy', 'brazil']
     }
 };
 

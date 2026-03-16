@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Innovators League | Rational Optimist Society</title>
+    <title>ROS Startup Database | Rational Optimist Society</title>
     <meta name="description" content="The definitive intelligence database of the world's most ambitious startups — mapped, assessed, and tracked by the founders building the future.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,7 +65,7 @@
             <p class="hero-subtitle"><span id="company-count-inline">625+</span> companies across defense, space, energy, biotech, and robotics &mdash; ranked, tracked, and explained.</p>
             <div class="hero-actions">
                 <a href="#discovery-hub" class="hero-btn primary">🗺️ Explore the Map</a>
-                <a href="#innovator50" class="hero-btn secondary">🏆 See the ROS 50</a>
+                <a href="#innovator50" class="hero-btn secondary">🏆 The Innovators League 30</a>
             </div>
             <div class="hero-stats">
                 <div class="stat">
@@ -97,15 +97,18 @@
         <div class="ticker-scroll" id="ticker-scroll"></div>
     </div>
 
-    <!-- Field Notes — Editorial voice from founder meetings and site visits -->
+    <!-- Founder Intelligence — Insights from the ROS network -->
     <section id="field-notes" class="field-notes-section">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">FROM THE FIELD</p>
-                <h2>Field Notes</h2>
-                <p>Real-time takes from founder meetings, site visits, and deal flow — the signal that isn't in any dataset.</p>
+                <p class="section-eyebrow">FOUNDER INTELLIGENCE</p>
+                <h2>From the Founders</h2>
+                <p>Exclusive insights from the Rational Optimist Society network — podcast episodes, founder interviews, site visits, and the signal that isn't in any dataset.</p>
             </div>
             <div class="fn-grid" id="fn-grid"></div>
+            <div class="fn-section-footer">
+                <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="fn-substack-link">More on the ROS Substack &rarr;</a>
+            </div>
         </div>
     </section>
 
@@ -175,7 +178,7 @@
                     </select>
                     <select id="special-filter" class="filter-select">
                         <option value="all">Special Filters</option>
-                        <option value="innovator50">🏆 ROS Innovator 50</option>
+                        <option value="innovator50">🏆 Innovators League 30</option>
                         <option value="govContracts">🏛️ Has Gov Contracts</option>
                         <option value="recentFunding">💰 Recently Funded</option>
                     </select>
@@ -256,62 +259,31 @@
          TIER 2: RANKINGS & HIGHLIGHTS — What's hot right now
          ═══════════════════════════════════════════════════════════════════════ -->
 
-    <!-- ROS Innovator 50 — The Centerpiece (PILLAR 2) -->
+    <!-- The Innovators League 30 — The Centerpiece -->
     <section class="innovator50-section" id="innovator50">
         <div class="container">
             <div class="innovator50-hero">
-                <div class="innovator50-badge">🏆 2026 ANNUAL RANKING</div>
-                <h2 class="innovator50-title">The ROS Innovator 50</h2>
-                <p class="innovator50-subtitle" id="i50-subtitle">The Under-the-Radar Edition — 50 frontier tech companies you should be watching that you probably haven't heard of yet. No SpaceX. No OpenAI. No Anthropic.</p>
+                <div class="innovator50-badge">🏆 HANDPICKED &middot; EXCLUSIVE</div>
+                <h2 class="innovator50-title">The Innovators League 30</h2>
+                <p class="innovator50-subtitle" id="i50-subtitle">30 frontier tech companies handpicked by the Rational Optimist Society. These are the companies we believe will define the next decade &mdash; personally vetted through founder conversations, site visits, and deep research.</p>
                 <div class="ros-brand-tag">
                     <span class="ros-tag-icon">📊</span>
                     <span class="ros-tag-text">Curated by the <strong>Rational Optimist Society</strong></span>
                 </div>
             </div>
             <div class="innovator50-controls">
-                <div class="i50-year-selector">
-                    <button class="i50-year-btn active" data-year="2026">2026</button>
-                    <button class="i50-year-btn" data-year="2025">2025</button>
-                    <button class="i50-year-btn" data-year="2024">2024</button>
-                </div>
                 <select id="i50-category" class="i50-filter">
-                    <option value="all">All Categories</option>
+                    <option value="all">All Sectors</option>
                 </select>
-                <button id="i50-share-btn" class="i50-btn-primary">Share Ranking</button>
+                <button id="i50-share-btn" class="i50-btn-primary">Share List</button>
             </div>
-            <!-- Top 10 Preview (always visible) -->
+            <!-- Full IL30 Grid (always visible) -->
             <div class="innovator50-preview" id="innovator50-preview"></div>
-            <!-- Expand/Collapse Button -->
-            <button class="i50-expand-btn" id="i50-toggle">
-                <span id="i50-expand-text">View Full Top 50</span>
-                <svg class="i50-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
-            </button>
-            <!-- Full Grid (hidden by default) -->
-            <div class="innovator50-full" id="i50-content" style="display: none;">
+            <div class="innovator50-full" id="i50-content">
                 <div class="innovator50-grid" id="innovator50-grid"></div>
             </div>
-            <!-- Tiered Access Indicator — PILLAR 2 -->
-            <div class="tier-access-banner">
-                <div class="tier-access-item tier-free">
-                    <span class="tier-icon">🆓</span>
-                    <span class="tier-label">ROS 50</span>
-                    <span class="tier-desc">Free Access</span>
-                </div>
-                <div class="tier-divider"></div>
-                <div class="tier-access-item tier-pro">
-                    <span class="tier-icon">⭐</span>
-                    <span class="tier-label">ROS 200</span>
-                    <span class="tier-desc">Pro Members</span>
-                </div>
-                <div class="tier-divider"></div>
-                <div class="tier-access-item tier-premium">
-                    <span class="tier-icon">👑</span>
-                    <span class="tier-label">Full Database</span>
-                    <span class="tier-desc">Premium Access</span>
-                </div>
-            </div>
             <div class="innovator50-cta">
-                <p>Know a company that should be on next year's list?</p>
+                <p>Know a company that should be on the Innovators League?</p>
                 <button class="i50-nominate-btn" onclick="openPartnerPortal('nominate')">Nominate a Company</button>
             </div>
         </div>
@@ -1029,7 +1001,7 @@
             <button class="modal-close" id="auth-modal-close" aria-label="Close">&times;</button>
             <div class="auth-modal-header">
                 <div class="auth-logo">ROS</div>
-                <h2>The Innovators League</h2>
+                <h2>ROS Startup Database</h2>
                 <p>Access the definitive frontier tech intelligence platform.</p>
             </div>
             <div class="auth-error" id="auth-error" style="display:none;"></div>
@@ -1187,7 +1159,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Rational Optimist Society &middot; The Innovators League</p>
+                <p>&copy; 2026 Rational Optimist Society &middot; ROS Startup Database</p>
             </div>
         </div>
     </footer>
@@ -1196,15 +1168,15 @@
          OPTI — AI ASSISTANT CHAT WIDGET
          ═══════════════════════════════════════════════════════════════════════ -->
 
-    <!-- Floating Action Button -->
-    <button class="opti-fab" id="opti-fab" aria-label="Chat with Opti">
+    <!-- Floating Action Button — SHELVED: RAG knowledge base returns irrelevant results, needs proper content curation before re-enabling -->
+    <button class="opti-fab" id="opti-fab" aria-label="Chat with Opti" style="display:none">
         <svg class="opti-icon-chat" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z"/><path d="M7 9h2v2H7zm4 0h2v2h-2zm4 0h2v2h-2z"/></svg>
         <svg class="opti-icon-close" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         <div class="opti-fab-badge"></div>
     </button>
 
-    <!-- Chat Panel -->
-    <div class="opti-panel" id="opti-panel">
+    <!-- Chat Panel — SHELVED -->
+    <div class="opti-panel" id="opti-panel" style="display:none">
         <div class="opti-header">
             <div class="opti-avatar">&#x1F680;</div>
             <div class="opti-header-info">

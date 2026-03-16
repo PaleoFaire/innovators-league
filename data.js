@@ -71,83 +71,104 @@ const FOUNDER_CONNECTIONS = {
   }
 };
 
-// Field Notes — Real-time takes from founder meetings, site visits, and deal flow
+// Field Notes — Founder insights, site visits, podcast highlights, and deal intelligence
+// Tied to Rational Optimist Society content and the ROS podcast
 const FIELD_NOTES = [
   {
     id: 1,
-    date: "2026-02-20",
-    title: "Lattice OS Is Becoming the Android of Defense",
-    hook: "Spent 3 hours at Anduril's Costa Mesa HQ. What Palmer showed me changes my thesis on the entire defense sector.",
-    body: "Palmer walked me through the latest Lattice OS demo — and it's no longer just an operating system for Anduril's own hardware. They're opening it up. Third-party drones, sensors, even legacy platforms are plugging in. This is the play everyone missed: Anduril doesn't need to win every hardware contract. They just need Lattice to become the default middleware layer for autonomous warfare. Think Android for defense. The TAM isn't one drone program — it's every connected military asset on the planet. I walked out more convicted than ever. The $78B secondary valuation might actually be cheap.",
+    date: "2026-03-10",
+    title: "Palmer Luckey on Why Software Eats Defense",
+    type: "podcast",
     company: "Anduril Industries",
-    type: "site-visit",
-    source: "Site Visit — Costa Mesa HQ",
-    conviction: "strong-buy"
+    founder: "Palmer Luckey",
+    founderTitle: "Founder & Chairman",
+    hook: "In our latest podcast episode, Palmer explains why Lattice OS is becoming the Android of defense — and why that makes Anduril's $78B valuation look cheap.",
+    pullQuote: "The defense industrial base hasn't seen real innovation in 50 years. We're changing that by building technology products, not government contractor programs.",
+    insight: "Anduril is opening Lattice OS to third-party hardware. The play isn't winning every hardware contract — it's becoming the default middleware layer for every connected military asset.",
+    source: "ROS Podcast Ep. 12",
+    sourceUrl: "https://rationaloptimistsociety.substack.com",
+    conviction: "strong-buy",
+    topics: ["Defense", "AI", "Platform Strategy"]
   },
   {
     id: 2,
-    date: "2026-02-18",
-    title: "Why Castelion Has Lockheed Nervous",
-    hook: "Just got off the phone with a Castelion board member. The speed at which they're shipping is unlike anything I've seen in defense.",
-    body: "Traditional defense primes take 10-15 years to go from concept to production. Castelion just did it in 18 months. Their first missile system is in testing with a branch I can't name. The board member told me: 'We're building weapons the way Silicon Valley builds software — ship fast, iterate, listen to the operator.' What makes this dangerous for incumbents isn't the technology alone — it's the culture. They've recruited 40+ engineers from SpaceX who are used to Elon-speed timelines. When your competitor can iterate 10x faster, your backlog becomes a liability, not an asset. Series B is oversubscribed.",
-    company: "Castelion",
-    type: "founder-call",
-    source: "Board Member Call",
-    conviction: "strong-buy"
-  },
-  {
-    id: 3,
-    date: "2026-02-15",
-    title: "Inside Hadrian's Factory of the Future",
-    hook: "Toured Hadrian's Torrance facility yesterday. The gap between what they're building and what legacy manufacturers can do is wider than I expected.",
-    body: "Chris Power gave me the full tour. CNC machines running autonomously, 24/7. AI quality inspection catching defects human eyes miss. But the real insight wasn't the tech — it was the business model. Hadrian isn't competing with machine shops. They're building an operating system for precision manufacturing. Every part they make generates data that makes the next part cheaper and faster. This is a compounding advantage that traditional manufacturers literally cannot replicate without rebuilding from scratch. The defense primes know it. Three of the top five are now customers. When your customers are also your biggest potential acquirers, you know you've found product-market fit.",
-    company: "Hadrian",
-    type: "site-visit",
-    source: "Factory Tour — Torrance, CA",
-    conviction: "buy"
-  }
-];
-
-// "From the Source" — Exclusive founder interviews and insights
-const FROM_THE_SOURCE = [
-  {
-    id: 1,
+    date: "2026-03-05",
+    title: "Augustus Doricko: Crop Insurance as a Trojan Horse",
+    type: "interview",
     company: "Rainmaker",
     founder: "Augustus Doricko",
-    title: "CEO & Founder",
-    date: "2026-02-01",
-    type: "interview",
-    headline: "Why Crop Insurance is the Gateway to Agricultural AI",
-    summary: "Augustus Doricko explains why the $15B crop insurance market is ripe for disruption, and how satellite imagery is unlocking data that transforms every aspect of farming.",
+    founderTitle: "CEO & Founder",
+    hook: "We sat down with Augustus to understand why he's attacking the $15B crop insurance market first — and what it unlocks for agricultural AI.",
     pullQuote: "Insurance is our trojan horse. Once we're processing a farmer's field data for claims, we can offer them 10x more value through prescriptive analytics.",
-    topics: ["AgTech", "Insurance", "Satellite Data", "AI"],
-    premium: false
-  },
-  {
-    id: 2,
-    company: "Valar Atomics",
-    founder: "Isaiah Taylor",
-    title: "CEO & Founder",
-    date: "2026-01-15",
-    type: "insight",
-    headline: "The Manufacturing Thesis for Nuclear's Comeback",
-    summary: "Why Valar Atomics believes the path to nuclear adoption runs through manufacturing cost reduction, not reactor design innovation.",
-    pullQuote: "Every nuclear startup pitches 'better physics.' We pitch 'cheaper factories.' Only one of those matters for deployment at scale.",
-    topics: ["Nuclear Energy", "Manufacturing", "Deep Tech"],
-    premium: false
+    insight: "Rainmaker's wedge is claims processing, but the real play is the data flywheel: every claim generates satellite-validated field data that trains better agronomic models. Farmers who use Rainmaker for insurance get prescriptive planting recommendations that boost yield 8-12%.",
+    source: "ROS Founder Interview",
+    sourceUrl: "https://rationaloptimistsociety.substack.com",
+    conviction: "strong-buy",
+    topics: ["AgTech", "Insurance", "Satellite Data"]
   },
   {
     id: 3,
+    date: "2026-02-25",
+    title: "Inside Hadrian's Factory of the Future",
+    type: "site-visit",
+    company: "Hadrian",
+    founder: "Chris Power",
+    founderTitle: "CEO & Founder",
+    hook: "Toured Hadrian's Torrance facility. CNC machines running autonomously 24/7, AI quality inspection catching defects human eyes miss — but the real insight was the business model.",
+    pullQuote: "We're not competing with machine shops. We're building the operating system for precision manufacturing. Every part we make generates data that makes the next part cheaper.",
+    insight: "Hadrian's compounding data advantage is impossible for legacy manufacturers to replicate without rebuilding from scratch. Three of the top five defense primes are now customers — and when your customers are also your biggest potential acquirers, you've found product-market fit.",
+    source: "Factory Tour — Torrance, CA",
+    sourceUrl: null,
+    conviction: "buy",
+    topics: ["Manufacturing", "Defense", "AI"]
+  },
+  {
+    id: 4,
+    date: "2026-02-18",
+    title: "Isaiah Taylor's Manufacturing Thesis for Nuclear",
+    type: "podcast",
+    company: "Valar Atomics",
+    founder: "Isaiah Taylor",
+    founderTitle: "CEO & Founder",
+    hook: "Isaiah joined the podcast to explain why Valar bets on cheaper factories, not better physics — and why that's the only path to nuclear deployment at scale.",
+    pullQuote: "Every nuclear startup pitches 'better physics.' We pitch 'cheaper factories.' Only one of those matters for deployment at scale.",
+    insight: "Valar's contrarian bet: reactor design is a solved problem. The bottleneck is manufacturing cost. If you can build reactors that cost less than natural gas plants, adoption becomes inevitable. They're applying automotive-style production engineering to reactor manufacturing.",
+    source: "ROS Podcast Ep. 11",
+    sourceUrl: "https://rationaloptimistsociety.substack.com",
+    conviction: "strong-buy",
+    topics: ["Nuclear Energy", "Manufacturing", "Deep Tech"]
+  },
+  {
+    id: 5,
+    date: "2026-02-10",
+    title: "Why Castelion Ships 10x Faster Than Lockheed",
+    type: "founder-call",
+    company: "Castelion",
+    founder: null,
+    founderTitle: null,
+    hook: "Board member call revealed how Castelion went from concept to production missile system in 18 months — while traditional primes take 10-15 years.",
+    pullQuote: "We're building weapons the way Silicon Valley builds software — ship fast, iterate, listen to the operator.",
+    insight: "What makes Castelion dangerous for incumbents isn't just the technology — it's the culture. 40+ SpaceX engineers who are used to Elon-speed timelines. When your competitor iterates 10x faster, your backlog becomes a liability. Series B is oversubscribed.",
+    source: "Board Member Call",
+    sourceUrl: null,
+    conviction: "strong-buy",
+    topics: ["Defense", "Missiles", "Speed"]
+  },
+  {
+    id: 6,
+    date: "2026-02-01",
+    title: "Brandon Tseng: Hivemind Is the Product, Hardware Is Distribution",
+    type: "interview",
     company: "Shield AI",
     founder: "Brandon Tseng",
-    title: "Co-Founder & President",
-    date: "2025-12-10",
-    type: "tripReport",
-    headline: "Inside Shield AI's San Diego Headquarters",
-    summary: "What we learned visiting Shield AI's headquarters, where Hivemind is being trained to fly everything from small drones to F-16s.",
-    pullQuote: "We're not building drones. We're building the AI brain that will power every aircraft in the world.",
-    topics: ["Defense", "AI", "Autonomous Systems"],
-    premium: true
+    founderTitle: "Co-Founder & President",
+    hook: "Visited Shield AI's San Diego HQ where Hivemind is being trained to fly everything from small drones to F-16s. Brandon's platform thesis is clearer than ever.",
+    pullQuote: "Every aircraft in the world will have an AI copilot by 2035. We're building the nervous system.",
+    insight: "Shield AI isn't a drone company — it's an AI company using hardware as distribution. Hivemind's ability to operate GPS-denied and comms-denied makes it the only autonomous system that works in contested environments. That's the moat.",
+    source: "ROS Founder Interview",
+    sourceUrl: "https://rationaloptimistsociety.substack.com",
+    conviction: "buy",
+    topics: ["Defense", "AI", "Autonomous Systems"]
   }
 ];
 
@@ -849,8 +870,8 @@ tags: ["SMR", "nuclear", "data centers", "Amazon"]
     lat: 37.3541,
     lng: -121.9552,
     fundingStage: "Public",
-    totalRaised: "$500M+ (including SPAC)",
-    valuation: "$10B+ (market cap)",
+    totalRaised: "$500M+",
+    valuation: "$10B+",
     rosLink: "https://rationaloptimistsociety.substack.com/p/introducing-our-smr-power-rankings",
     tags: ["SMR", "nuclear", "data centers", "Meta", "public"],
     insight: "Oklo's Meta partnership is the validation signal — Big Tech is betting on nuclear for AI data center power. Being publicly traded gives them a capital advantage over private nuclear startups.",
@@ -4138,7 +4159,7 @@ tags: ["fusion", "inertial confinement", "laser"]
     lng: -74.0109,
     fundingStage: "Public",
     totalRaised: "$600M+",
-    valuation: "$1.5B+ (market cap)",
+    valuation: "$1.5B+",
     rosLink: "",
     tags: ["microreactor", "portable nuclear", "HALEU", "public"],
     signal: "rising",
@@ -7521,8 +7542,8 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 37.5585,
     lng: -122.2711,
     fundingStage: "Acquired (Amazon)",
-    totalRaised: "$990M+ (pre-acquisition)",
-    valuation: "$1.2B+ (acquisition price)",
+    totalRaised: "$990M+",
+    valuation: "$1.2B+",
     rosLink: "",
     tags: ["robotaxi", "autonomous vehicles", "Amazon", "purpose-built AV"],
     insight: "Only robotaxi company with a fully purpose-built vehicle. Launched public rides in Las Vegas (Sep 2025) and San Francisco (Nov 2025). Amazon backing provides virtually unlimited capital runway. Hayward factory can produce 10K vehicles/year with major scale-up planned for 2026.",
@@ -7740,7 +7761,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lng: -118.2482,
     fundingStage: "Acquired",
     totalRaised: "$28M",
-    valuation: "$300M+ (acquisition)",
+    valuation: "$300M+",
     rosLink: "",
     tags: ["drone security", "first responder", "public safety", "Flock Safety"],
     signal: "established",
@@ -8207,7 +8228,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lng: -117.8460,
     fundingStage: "Public",
     totalRaised: "$10.5B",
-    valuation: "$14.8B (market cap)",
+    valuation: "$14.8B",
     rosLink: "",
     tags: ["electric vehicles", "trucks", "Amazon", "VW partnership"],
     signal: "established",
@@ -8270,7 +8291,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lng: -122.3985,
     fundingStage: "Bootstrapped",
     totalRaised: "$0",
-    valuation: "$30B (reported target)",
+    valuation: "$30B",
     rosLink: "",
     tags: ["data labeling", "RLHF", "AI training"],
     insight: "Surge AI is a fascinating outlier — bootstrapped to $1.2B ARR serving the top AI labs. Potentially the most capital-efficient AI company ever built.",
@@ -8427,7 +8448,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lng: -122.9760,
     fundingStage: "Public",
     totalRaised: "$256M+",
-    valuation: "$2B (market cap)",
+    valuation: "$2B",
     rosLink: "",
     tags: ["quantum computing", "quantum annealing", "Canadian", "public"],
     signal: "established",
@@ -10017,7 +10038,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     investors: ["Lockheed Martin (acquirer)", "Beach Point Capital", "Francisco Partners"],
     fundingStage: "Acquired",
     totalRaised: "$500M+",
-    valuation: "$450M (acquisition)",
+    valuation: "$450M",
     tags: ["small satellites", "satellite manufacturing", "space defense", "LEO constellations", "acquired"],
     signal: "stable",
     scores: { team: 8, traction: 8, techMoat: 8, market: 9, momentum: 7 },
@@ -10352,7 +10373,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     investors: ["ASX public market"],
     fundingStage: "Public",
     totalRaised: "$25M+",
-    valuation: "$60M (market cap)",
+    valuation: "$60M",
     website: "https://www.archerx.com.au",
     tags: ["quantum chip", "room temperature quantum", "carbon qubit", "Australian deep tech"],
     signal: "rising",
@@ -10430,7 +10451,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     investors: ["Rocket Lab (acquirer)", "L3Harris", "ARK Invest"],
     fundingStage: "Public / Acquisition",
     totalRaised: "$300M+",
-    valuation: "$150M (acquisition)",
+    valuation: "$150M",
     website: "https://mynaric.com",
     tags: ["laser communications", "optical inter-satellite links", "space infrastructure", "German deep tech"],
     signal: "rising",
@@ -12762,14 +12783,21 @@ const FOUNDER_MAFIAS = {
       { company: "Solugen", founders: "Gaurab Chakrabarti (YC S17)" }
     ]
   },
-  "Amazon Robotics Alumni": {
-    icon: "📦",
+  "Anduril / Palmer Luckey Network": {
+    icon: "🔥",
     color: "#f97316",
-    description: "Former Amazon robotics and logistics leaders building the next wave",
+    description: "Palmer Luckey's defense tech empire and the Anduril alumni network reshaping national security",
     companies: [
-      { company: "Collaborative Robotics", founders: "Brad Porter (VP Robotics, led 10K people)" },
-      { company: "Agility Robotics", founders: "Amazon partnership/investment" },
-      { company: "Zoox", founders: "Acquired by Amazon for $1.2B+" }
+      { company: "Anduril Industries", founders: "Palmer Luckey (Oculus VR founder), Trae Stephens (Founders Fund/Palantir)" },
+      { company: "Shield AI", founders: "Brandon Tseng — Anduril ecosystem, drone autonomy" },
+      { company: "Saronic", founders: "Deans Kamen — autonomous warships, defense tech ecosystem" },
+      { company: "Epirus", founders: "Andy Lowery — directed energy weapons, Anduril orbit" },
+      { company: "Firestorm Labs", founders: "Andrew Wimer — Anduril-adjacent drone swarm tech" },
+      { company: "Vannevar Labs", founders: "Brett Granberg — AI for intelligence community, Anduril/Palantir network" },
+      { company: "Rebellion Defense", founders: "Chris Lynch — Pentagon defense tech modernization" },
+      { company: "Forterra", founders: "Acquired goTenna — autonomous ground vehicles for defense" },
+      { company: "Neros", founders: "Defense AI and autonomy — Anduril ecosystem partner" },
+      { company: "CX2 Industries", founders: "Next-gen defense tech — Anduril supply chain partner" }
     ]
   }
 };
@@ -18121,8 +18149,16 @@ const NETWORK_GRAPH = {
     { source: "company-Waymo", target: "company-Covariant", type: "mafia", detail: "Pieter Abbeel (UC Berkeley/Google Brain adjacent)" },
     { source: "company-Waymo", target: "company-Skild AI", type: "mafia", detail: "Deepak Pathak (CMU/Google Research)" },
 
-    // Amazon Robotics Alumni connections
-    { source: "company-Collaborative Robotics", target: "company-Agility Robotics", type: "mafia", detail: "Amazon robotics ecosystem — Brad Porter (ex-Amazon VP) and Amazon partnership" },
+    // Anduril / Palmer Luckey Network connections
+    { source: "company-Anduril Industries", target: "company-Shield AI", type: "mafia", detail: "Anduril defense tech ecosystem — competing/collaborating on autonomous defense" },
+    { source: "company-Anduril Industries", target: "company-Saronic", type: "mafia", detail: "Anduril network — autonomous warship platforms" },
+    { source: "company-Anduril Industries", target: "company-Epirus", type: "mafia", detail: "Anduril orbit — directed energy defense systems" },
+    { source: "company-Anduril Industries", target: "company-Firestorm Labs", type: "mafia", detail: "Anduril-adjacent — drone swarm tech for defense" },
+    { source: "company-Anduril Industries", target: "company-Vannevar Labs", type: "mafia", detail: "Palantir/Anduril network — AI for intelligence community" },
+    { source: "company-Anduril Industries", target: "company-Rebellion Defense", type: "mafia", detail: "Pentagon defense tech modernization ecosystem" },
+    { source: "company-Anduril Industries", target: "company-Forterra", type: "mafia", detail: "Autonomous ground vehicles — defense tech overlap" },
+    { source: "company-Anduril Industries", target: "company-Neros", type: "mafia", detail: "Defense AI ecosystem — Anduril partner" },
+    { source: "company-Anduril Industries", target: "company-CX2 Industries", type: "mafia", detail: "Defense supply chain — next-gen defense tech" },
 
     // Tesla/Autopilot Alumni
     { source: "company-Redwood Materials", target: "company-Applied Intuition", type: "mafia", detail: "JB Straubel (ex-Tesla CTO), Qasar Younis (Tesla network)" },
@@ -19458,21 +19494,37 @@ const EXPERT_TAKES = [
 
 const INNOVATOR_50_META = {
   year: 2026,
-  releaseDate: '2026-02-01',
-  title: 'The ROS Innovator 50',
-  subtitle: '2026 Edition — The Under-the-Radar Issue',
-  methodology: 'This year\'s Innovator 50 takes a different approach. We\'ve deliberately excluded household names — no SpaceX, no OpenAI, no Anthropic. Instead, we\'ve curated the 50 most promising frontier tech companies you probably haven\'t heard of yet, but should be watching closely. These are the companies our research team believes will define the next decade of technological progress. Selection is based on our proprietary ROS Score combining Technology Moat (25%), Momentum Signals (25%), Team Pedigree (20%), Capital Efficiency (15%), and Government Traction (15%).',
+  releaseDate: '2026-03-01',
+  title: 'The Innovators League 30',
+  subtitle: '30 handpicked frontier tech companies vetted through founder conversations, site visits, and deep research.',
+  methodology: 'The Innovators League is an exclusive, curated list of 30 frontier tech companies handpicked by the Rational Optimist Society. Selection is based on direct founder engagement, technology differentiation, and our conviction that these companies will shape the next decade. This is personal — every company on this list is one we\'ve met with, researched deeply, and believe in.',
   selectionCriteria: [
+    'Founder Access: Direct relationship with founders through ROS network',
     'Technology Moat: Defensible technical differentiation that competitors cannot easily replicate',
-    'Momentum Signals: Recent funding, contracts, or milestones demonstrating acceleration',
-    'Team Pedigree: Founders and executives with relevant track records (SpaceX, Google, defense backgrounds)',
-    'Capital Efficiency: Achieving milestones with reasonable capital relative to sector norms',
-    'Government Traction: Defense contracts, federal partnerships, or regulatory progress',
-    'NOT a household name: Explicitly excluding companies already widely known'
+    'Conviction: Companies we personally believe will define the next decade',
+    'Under-the-Radar: Excluded household names — these are the ones you need to know'
   ],
   sponsors: ['Rational Optimist Society'],
   nominateLink: 'https://forms.gle/innovator50nomination'
 };
+
+// The Innovators League 30 — Handpicked by the Rational Optimist Society
+const INNOVATORS_LEAGUE_30 = [
+  "Neros", "CX2 Industries", "Allen Control Systems", "PILGRIM",
+  "Valar Atomics", "Aalo Atomics",
+  "Apex Space", "Varda Space Industries", "Array Labs", "Muon Space", "Fortastra",
+  "Astro Mechanica", "Hermeus",
+  "Hadrian", "Machina Labs", "Atomic Industries",
+  "Atom Bodies", "Herasight", "Osmo", "Science Corporation",
+  "Quaise Energy",
+  "Matic Robotics",
+  "Alpha School",
+  "Terran Robotics", "Cuby Technologies",
+  "Durin",
+  "Bedrock Robotics",
+  "Ulysses Robotics", "Poseidon Aerospace",
+  "Ouros Energy"
+];
 
 const INNOVATOR_50 = [
   // ═══════════════════════════════════════════════════════════════════════════════

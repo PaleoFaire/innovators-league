@@ -827,11 +827,9 @@ def update_company_funding(data_js_content):
 
 
 def update_vc_portfolios(data_js_content):
-    """Update VC_FIRMS portfolioCompanies from deal data."""
+    """Update VC_FIRMS portfolioCompanies from deal data + portfolio page scraping."""
     deals = load_json("deals_auto.json")
-    if not deals:
-        print("No deals data found, skipping VC portfolio updates...")
-        return data_js_content
+    portfolio_changes = load_json("vc_portfolio_changes.json")
 
     # Map deal investor names to VC_FIRMS shortNames
     INVESTOR_TO_VC = {
@@ -849,13 +847,20 @@ def update_vc_portfolios(data_js_content):
 
     # Build investor → companies map from deals
     vc_investments = {}
-    for deal in deals:
+    for deal in (deals or []):
         investor = deal.get("investor", "")
         company = deal.get("company", "")
         if not investor or not company:
             continue
         vc_short = INVESTOR_TO_VC.get(investor)
         if vc_short:
+            vc_investments.setdefault(vc_short, set()).add(company)
+
+    # Also incorporate portfolio page scrape results
+    for change in (portfolio_changes or []):
+        vc_short = change.get("vc", "")
+        company = change.get("company", "")
+        if vc_short and company:
             vc_investments.setdefault(vc_short, set()).add(company)
 
     if not vc_investments:

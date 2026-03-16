@@ -43,14 +43,15 @@ function initValuations() {
 /** Parse "$2.5B" / "$500M" / "$14B+" to raw number */
 function parseValuation(str) {
   if (!str || typeof str !== 'string') return 0;
-  const cleaned = str.replace(/[^0-9.\-BMKTbmkt+]/g, '').replace(/\+$/, '');
-  const num = parseFloat(cleaned);
+  const match = str.match(/\$?([\d,.]+)\s*([BMTKbmtk])/);
+  if (!match) return 0;
+  const num = parseFloat(match[1].replace(/,/g, ''));
   if (isNaN(num)) return 0;
-  const upper = str.toUpperCase();
-  if (upper.includes('T')) return num * 1e12;
-  if (upper.includes('B')) return num * 1e9;
-  if (upper.includes('M')) return num * 1e6;
-  if (upper.includes('K')) return num * 1e3;
+  const unit = match[2].toUpperCase();
+  if (unit === 'T') return num * 1e12;
+  if (unit === 'B') return num * 1e9;
+  if (unit === 'M') return num * 1e6;
+  if (unit === 'K') return num * 1e3;
   return num;
 }
 
@@ -117,12 +118,19 @@ function getSectorColor(sectorName) {
   return '#FF6B2C';
 }
 
+// ─── Helpers: Private company filter ─────────────────────────────────────────
+function isPrivateCompany(c) {
+  if (!c || !c.fundingStage) return true;
+  const stage = c.fundingStage.toLowerCase();
+  return !stage.includes('public') && stage !== 'spac' && !stage.includes('alphabet');
+}
+
 // ─── 1. Hero Stats ───────────────────────────────────────────────────────────
 function initHeroStats() {
-  // Count companies with valuations
+  // Count private companies with valuations
   let companyCount = 0;
   if (typeof COMPANIES !== 'undefined' && Array.isArray(COMPANIES)) {
-    companyCount = COMPANIES.filter(c => c.valuation && parseValuation(c.valuation) > 0).length;
+    companyCount = COMPANIES.filter(c => isPrivateCompany(c) && c.valuation && parseValuation(c.valuation) > 0).length;
   }
   const countEl = document.getElementById('val-company-count');
   if (countEl) countEl.textContent = companyCount.toLocaleString();
@@ -140,24 +148,17 @@ function initHeroStats() {
   const medianEl = document.getElementById('val-median-multiple');
   if (medianEl) medianEl.textContent = medianMultiple > 0 ? formatMultiple(medianMultiple) : 'N/A';
 
-  // Sum valuations from COMPANIES (private valuations + public where valuation field exists)
+  // Sum valuations from private companies only
   let totalVal = 0;
-  let publicMcap = 0;
-  if (typeof STOCK_PRICES !== 'undefined' && STOCK_PRICES) {
-    Object.values(STOCK_PRICES).forEach(s => {
-      if (s.marketCapRaw && s.marketCapRaw > 0) publicMcap += s.marketCapRaw;
-    });
-  }
   if (typeof COMPANIES !== 'undefined' && Array.isArray(COMPANIES)) {
     COMPANIES.forEach(c => {
+      if (!isPrivateCompany(c)) return;
       const val = parseValuation(c.valuation);
       if (val > 0) totalVal += val;
     });
   }
-  // Use public market cap where available, otherwise use private valuations
-  const displayTotal = publicMcap > 0 ? publicMcap + totalVal : totalVal;
   const mcapEl = document.getElementById('val-total-mcap');
-  if (mcapEl) mcapEl.textContent = formatValue(displayTotal);
+  if (mcapEl) mcapEl.textContent = formatValue(totalVal);
 }
 
 // ─── 2. Sector Valuation Map ─────────────────────────────────────────────────
@@ -625,6 +626,7 @@ function initCapitalHeatmap() {
   var totalCompanies = 0;
 
   COMPANIES.forEach(function(c) {
+    if (!isPrivateCompany(c)) return; // Only private companies
     var raised = parseValuation(c.totalRaised);
     if (raised <= 0) return; // skip — only use actual capital raised, never valuation
 

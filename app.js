@@ -1,5 +1,9 @@
 // ─── AUTH HELPERS ───
 function isInROS50(companyName) {
+  // Check IL30 first, fall back to INNOVATOR_50
+  if (typeof INNOVATORS_LEAGUE_30 !== 'undefined') {
+    return INNOVATORS_LEAGUE_30.includes(companyName);
+  }
   if (typeof INNOVATOR_50 === 'undefined') return false;
   return INNOVATOR_50.some(i => i.company === companyName);
 }
@@ -3528,16 +3532,18 @@ function initNewsTicker() {
   });
 }
 
-// ─── FIELD NOTES — Editorial voice from founder meetings ───
+// ─── FIELD NOTES — Founder Intelligence from the ROS network ───
 function initFieldNotes() {
   const grid = document.getElementById('fn-grid');
   if (!grid) return;
   if (typeof FIELD_NOTES === 'undefined' || FIELD_NOTES.length === 0) return;
 
   const TYPE_CONFIG = {
-    'site-visit':   { label: 'Site Visit',   emoji: '🏭' },
+    'podcast':      { label: 'Podcast',       emoji: '🎙️' },
+    'interview':    { label: 'Interview',     emoji: '💬' },
+    'site-visit':   { label: 'Site Visit',    emoji: '🏭' },
     'founder-call': { label: 'Founder Call',  emoji: '📞' },
-    'flash-take':   { label: 'Flash Take',   emoji: '⚡' }
+    'flash-take':   { label: 'Flash Take',    emoji: '⚡' }
   };
 
   const CONVICTION_LABELS = {
@@ -3547,8 +3553,8 @@ function initFieldNotes() {
     'watch': 'Watch'
   };
 
-  // Show the latest 3 notes
-  const notes = FIELD_NOTES.slice(0, 3);
+  // Show the latest 6 notes
+  const notes = FIELD_NOTES.slice(0, 6);
 
   notes.forEach(note => {
     const typeConf = TYPE_CONFIG[note.type] || { label: note.type, emoji: '📝' };
@@ -3556,7 +3562,26 @@ function initFieldNotes() {
     const dateStr = new Date(note.date + 'T00:00:00').toLocaleDateString('en-US', {
       month: 'short', day: 'numeric', year: 'numeric'
     });
-    const slug = companyToSlug(note.company);
+
+    const founderLine = note.founder
+      ? `<div class="fn-founder">${note.founder}${note.founderTitle ? ', ' + note.founderTitle : ''}</div>`
+      : '';
+
+    const quoteBlock = note.pullQuote
+      ? `<blockquote class="fn-pull-quote">"${note.pullQuote}"</blockquote>`
+      : '';
+
+    const insightBlock = note.insight
+      ? `<p class="fn-insight">${note.insight}</p>`
+      : '';
+
+    const topicsHtml = note.topics
+      ? `<div class="fn-topics">${note.topics.map(t => `<span class="fn-topic">${t}</span>`).join('')}</div>`
+      : '';
+
+    const sourceLink = note.sourceUrl
+      ? `<a href="${note.sourceUrl}" target="_blank" rel="noopener" class="fn-source-link" onclick="event.stopPropagation()">${note.source} &rarr;</a>`
+      : `<span class="fn-source">${note.source}</span>`;
 
     const card = document.createElement('div');
     card.className = 'fn-card';
@@ -3566,12 +3591,16 @@ function initFieldNotes() {
         <span class="fn-date">${dateStr}</span>
       </div>
       <h3 class="fn-title">${note.title}</h3>
+      ${founderLine}
       <p class="fn-hook">${note.hook}</p>
+      ${quoteBlock}
+      ${insightBlock}
+      ${topicsHtml}
       <div class="fn-footer">
         <span class="fn-company-pill" data-company="${note.company}" title="View company profile">${note.company}</span>
         <span class="fn-conviction ${note.conviction}">${convictionLabel}</span>
       </div>
-      <div class="fn-source">${note.source}</div>
+      <div class="fn-source-row">${sourceLink}</div>
     `;
 
     // Click on company pill opens company modal
@@ -5344,9 +5373,19 @@ function generateNetworkData() {
     });
   }
 
-  console.log(`Network Graph: ${nodes.length} nodes, ${edges.length} edges (auto-generated)`);
+  // Remove isolated nodes (no connections) — every node must have at least one edge
+  const connectedIds = new Set();
+  edges.forEach(e => {
+    const srcId = typeof e.source === 'object' ? e.source.id : e.source;
+    const tgtId = typeof e.target === 'object' ? e.target.id : e.target;
+    connectedIds.add(srcId);
+    connectedIds.add(tgtId);
+  });
+  const filteredNodes = nodes.filter(n => connectedIds.has(n.id));
 
-  return { nodes, edges };
+  console.log(`Network Graph: ${filteredNodes.length} nodes (${nodes.length - filteredNodes.length} isolated removed), ${edges.length} edges`);
+
+  return { nodes: filteredNodes, edges };
 }
 
 function initNetworkGraph() {
@@ -6152,25 +6191,34 @@ function initInnovator50() {
   const fullGrid = document.getElementById('innovator50-grid');
   if (!previewGrid && !fullGrid) return;
 
-  // Expand/collapse toggle
-  const toggleBtn = document.getElementById('i50-toggle');
-  const content = document.getElementById('i50-content');
-  const expandText = document.getElementById('i50-expand-text');
-  const chevron = toggleBtn?.querySelector('.i50-chevron');
+  // Build the IL30 list: use INNOVATORS_LEAGUE_30 if available to filter INNOVATOR_50,
+  // and auto-generate entries for any IL30 companies not in INNOVATOR_50
+  const il30Names = typeof INNOVATORS_LEAGUE_30 !== 'undefined' ? INNOVATORS_LEAGUE_30 : [];
 
-  if (toggleBtn && content) {
-    toggleBtn.addEventListener('click', () => {
-      const isExpanded = content.style.display !== 'none';
-      content.style.display = isExpanded ? 'none' : 'block';
-      if (expandText) expandText.textContent = isExpanded ? 'View Full Top 50' : 'Show Less';
-      if (chevron) chevron.style.transform = isExpanded ? '' : 'rotate(180deg)';
-      toggleBtn.classList.toggle('expanded', !isExpanded);
-    });
-  }
-
-  // Populate category filter
+  // Populate category filter from IL30 companies
   const categoryFilter = document.getElementById('i50-category');
-  if (categoryFilter) {
+  if (categoryFilter && il30Names.length > 0) {
+    const il30Companies = il30Names.map(name => {
+      const existing = INNOVATOR_50.find(c => c.company === name);
+      if (existing) return existing;
+      const company = COMPANIES.find(c => c.name === name);
+      if (!company) return null;
+      return {
+        company: name,
+        category: company.sector || 'Other',
+        highlights: [company.description ? company.description.substring(0, 120) : ''],
+        thesis: company.description || '',
+        rank: 0
+      };
+    }).filter(Boolean);
+    const categories = [...new Set(il30Companies.map(c => c.category))].sort();
+    categories.forEach(cat => {
+      const opt = document.createElement('option');
+      opt.value = cat;
+      opt.textContent = cat;
+      categoryFilter.appendChild(opt);
+    });
+  } else if (categoryFilter) {
     const categories = [...new Set(INNOVATOR_50.map(c => c.category))].sort();
     categories.forEach(cat => {
       const opt = document.createElement('option');
@@ -6355,21 +6403,39 @@ function initInnovator50() {
   function renderInnovator50() {
     const selectedCategory = document.getElementById('i50-category')?.value || 'all';
 
-    let items = [...INNOVATOR_50];
+    // Use IL30 list if available
+    let items;
+    if (il30Names.length > 0) {
+      items = il30Names.map((name, idx) => {
+        const existing = INNOVATOR_50.find(c => c.company === name);
+        if (existing) return { ...existing, rank: idx + 1 };
+        const company = COMPANIES.find(c => c.name === name);
+        if (!company) return null;
+        return {
+          company: name,
+          category: company.sector || 'Other',
+          highlights: [company.description ? company.description.substring(0, 120) : ''],
+          thesis: company.description || '',
+          rank: idx + 1,
+          badges: company.tags ? company.tags.slice(0, 3) : []
+        };
+      }).filter(Boolean);
+    } else {
+      items = [...INNOVATOR_50];
+    }
+
     if (selectedCategory !== 'all') {
       items = items.filter(i => i.category === selectedCategory);
     }
 
-    // Render preview (top 10)
+    // Render all items in preview grid (no split for IL30)
     if (previewGrid) {
-      const previewItems = items.slice(0, 10);
-      previewGrid.innerHTML = previewItems.map(item => renderI50Card(item)).join('');
+      previewGrid.innerHTML = items.map(item => renderI50Card(item)).join('');
     }
 
-    // Render full grid (11-50, since preview shows 1-10)
+    // Clear full grid since we're showing everything in preview
     if (fullGrid) {
-      const remainingItems = items.slice(10);
-      fullGrid.innerHTML = remainingItems.map(item => renderI50Card(item)).join('');
+      fullGrid.innerHTML = '';
     }
 
     // Add animation delays
