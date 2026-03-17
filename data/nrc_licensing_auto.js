@@ -1,4 +1,4 @@
-// Auto-generated 2026-02-19 08:39
+// Auto-generated 2026-03-17 07:45
 const NRC_LICENSING_AUTO = [
   {
     "company": "Oklo",
@@ -35,7 +35,7 @@ const NRC_LICENSING_AUTO = [
     "progressPercent": 60,
     "currentMilestone": "Safety Evaluation Report Draft",
     "note": "",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-03-17"
   },
   {
     "company": "Kairos Power",
@@ -72,7 +72,7 @@ const NRC_LICENSING_AUTO = [
     "progressPercent": 60,
     "currentMilestone": "N/A",
     "note": "",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-03-17"
   },
   {
     "company": "TerraPower",
@@ -109,7 +109,7 @@ const NRC_LICENSING_AUTO = [
     "progressPercent": 60,
     "currentMilestone": "Construction Permit Expected",
     "note": "",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-03-17"
   },
   {
     "company": "Centrus Energy",
@@ -141,7 +141,7 @@ const NRC_LICENSING_AUTO = [
     "progressPercent": 50,
     "currentMilestone": "Production Scale-Up Phase",
     "note": "",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-03-17"
   },
   {
     "company": "Helion Energy",
@@ -168,7 +168,7 @@ const NRC_LICENSING_AUTO = [
     "progressPercent": 33,
     "currentMilestone": "Polaris Testing Phase",
     "note": "PPA signed with Microsoft for fusion electricity delivery by 2028.",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-03-17"
   },
   {
     "company": "NuScale Power",
@@ -200,7 +200,7 @@ const NRC_LICENSING_AUTO = [
     "progressPercent": 25,
     "currentMilestone": "COLA Application Review (Idaho)",
     "note": "",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-03-17"
   },
   {
     "company": "X-energy",
@@ -232,7 +232,7 @@ const NRC_LICENSING_AUTO = [
     "progressPercent": 25,
     "currentMilestone": "Design Certification Application Expected",
     "note": "",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-03-17"
   },
   {
     "company": "Commonwealth Fusion Systems",
@@ -264,6 +264,6 @@ const NRC_LICENSING_AUTO = [
     "progressPercent": 0,
     "currentMilestone": "SPARC Construction Ongoing (Devens, MA)",
     "note": "Fusion regulation framework still being developed by NRC. Not under traditional fission licensing.",
-    "lastUpdated": "2026-02-19"
+    "lastUpdated": "2026-03-17"
   }
 ];
