@@ -15,9 +15,9 @@
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -4.21,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.36,
       "count": 7
     },
     "nuclear": {
@@ -39,9 +39,9 @@
       "count": 3
     },
     "biotech": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -2.17,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.89,
       "count": 3
     },
     "transportation": {
@@ -71,7 +71,7 @@
     [
       "DRSHF",
       "DroneShield",
-      9.23
+      10.77
     ],
     [
       "ALAB",
@@ -85,6 +85,11 @@
     ]
   ],
   "topLosers": [
+    [
+      "NNE",
+      "Nano Nuclear Energy",
+      -7.26
+    ],
     [
       "SATL",
       "Satellogic",
@@ -104,12 +109,7 @@
       "QBTS",
       "D-Wave Quantum",
       -8.3
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -10.16
     ]
   ],
-  "lastUpdated": "2026-03-17 07:10:22"
+  "lastUpdated": "2026-03-17 13:20:41"
 }
