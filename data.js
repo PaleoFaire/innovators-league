@@ -21859,23 +21859,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-17 02:43
+// Last updated: 2026-03-17 05:24
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "PILGRIM", headline: "Tesla's Cybertruck may be wrong for some. Could it be right for the battlefield?", source: "Defense News", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Ample", headline: "Volkswagen &#038; XPENG Launch ID.UNYX 08 Production: The Fruition of Collaboration", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Cape", headline: "Nvidia's version of OpenClaw could solve its biggest problem: security", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Planet Labs", headline: "Kayrros sale signals rising demand for satellite intelligence amid Hormuz crisis", source: "SpaceNews", time: "4h ago", impact: "high", unread: true },
-  { id: 5, type: "contract", company: "Palantir", headline: "Anduril secures $87M contract for a common counter-unmanned C2 program", source: "Defense One", time: "5h ago", impact: "high", unread: true },
-  { id: 6, type: "contract", company: "Cape", headline: "Warren presses Pentagon over decision to grant xAI access to classified networks", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "WeaveGrid", headline: "Utilities Study How to Protect Grids From Rising Physical Threats", source: "IEEE Spectrum", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Hadrian", headline: "AeroVironment to acquire California drone maker ESAero in $200M deal", source: "Breaking Defense", time: "6h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Alpha School", headline: "IEEE Young Professionals Help Bridge the U.S. Tech Skills Gap", source: "IEEE Spectrum", time: "6h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Labelbox", headline: "Nvidia's DLSS 5 uses generative AI to boost photorealism in video games, with ambitions beyond gaming", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Hubble Network", headline: "Save Almost 20 Percent on Our Favorite Portable Bluetooth Speaker", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Waymo", headline: "Nvidia GTC 2026 Preshow. Jensen Next", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Q-CTRL", headline: "Another deep tech chip startup becomes a unicorn: Frore hits $1.64B", source: "TechCrunch", time: "8h ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "The dictionary sues OpenAI", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Andrenam", headline: "Lockheed completes first flight test for PrSM Inc 2 aimed at hitting moving maritime targets", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Senra Systems", headline: "Hyundai Motor, Kia, &#038; NVIDIA Expand Strategic Partnership for Next-Generation Autonomous Driving Technology", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Machina Labs", headline: "Let's Not Pour Cold Water on the EU Car Industry's EV Momentum", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "PILGRIM", headline: "Tesla's Cybertruck may be wrong for some. Could it be right for the battlefield?", source: "Defense News", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Ample", headline: "Volkswagen &#038; XPENG Launch ID.UNYX 08 Production: The Fruition of Collaboration", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Cape", headline: "Nvidia's version of OpenClaw could solve its biggest problem: security", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Planet Labs", headline: "Kayrros sale signals rising demand for satellite intelligence amid Hormuz crisis", source: "SpaceNews", time: "7h ago", impact: "high", unread: false },
+  { id: 7, type: "contract", company: "Palantir", headline: "Anduril secures $87M contract for a common counter-unmanned C2 program", source: "Defense One", time: "8h ago", impact: "high", unread: false },
+  { id: 8, type: "contract", company: "Cape", headline: "Warren presses Pentagon over decision to grant xAI access to classified networks", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "WeaveGrid", headline: "Utilities Study How to Protect Grids From Rising Physical Threats", source: "IEEE Spectrum", time: "8h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Hadrian", headline: "AeroVironment to acquire California drone maker ESAero in $200M deal", source: "Breaking Defense", time: "9h ago", impact: "medium", unread: false },
+  { id: 11, type: "news", company: "Alpha School", headline: "IEEE Young Professionals Help Bridge the U.S. Tech Skills Gap", source: "IEEE Spectrum", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Labelbox", headline: "Nvidia's DLSS 5 uses generative AI to boost photorealism in video games, with ambitions beyond gaming", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Hubble Network", headline: "Save Almost 20 Percent on Our Favorite Portable Bluetooth Speaker", source: "Wired", time: "10h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "Waymo", headline: "Nvidia GTC 2026 Preshow. Jensen Next", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Q-CTRL", headline: "Another deep tech chip startup becomes a unicorn: Frore hits $1.64B", source: "TechCrunch", time: "11h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
