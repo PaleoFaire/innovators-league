@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.22,
+      "avg_change": -2.37,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 0.36,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": 0.03,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -3.39,
+      "avg_change": -4.15,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.29,
+      "avg_change": -4.07,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 26.32,
+      "avg_change": 17.0,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.63,
+      "avg_change": -7.93,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.05,
+      "avg_change": -2.17,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -1.84,
+      "avg_change": -2.09,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 0.35,
+      "avg_change": 0.51,
       "count": 3
     }
   },
@@ -61,7 +61,7 @@
     [
       "LNZA",
       "LanzaTech",
-      76.79
+      49.67
     ],
     [
       "ASRHF",
@@ -76,34 +76,34 @@
     [
       "ALAB",
       "Astera Labs",
-      3.17
+      4.23
     ],
     [
       "9348.T",
       "ispace",
-      1.94
+      2.63
     ]
   ],
   "topLosers": [
     [
-      "RGTI",
-      "Rigetti Computing",
-      -6.88
+      "SATL",
+      "Satellogic",
+      -7.89
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -7.05
+      -8.24
+    ],
+    [
+      "RGTI",
+      "Rigetti Computing",
+      -8.3
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -7.12
-    ],
-    [
-      "NNE",
-      "Nano Nuclear Energy",
-      -7.5
+      -8.3
     ],
     [
       "IDEAFORGE.NS",
@@ -111,5 +111,5 @@
       -11.56
     ]
   ],
-  "lastUpdated": "2026-03-16 19:08:33"
+  "lastUpdated": "2026-03-17 02:29:36"
 }
