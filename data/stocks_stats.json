@@ -11,13 +11,13 @@
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": 0.03,
+      "avg_change": -0.25,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -4.15,
+      "avg_change": -4.21,
       "count": 7
     },
     "nuclear": {
@@ -79,9 +79,9 @@
       4.23
     ],
     [
-      "9348.T",
-      "ispace",
-      2.63
+      "QS",
+      "QuantumScape",
+      1.32
     ]
   ],
   "topLosers": [
@@ -108,8 +108,8 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      -11.56
+      -10.16
     ]
   ],
-  "lastUpdated": "2026-03-17 02:29:36"
+  "lastUpdated": "2026-03-17 07:10:22"
 }
