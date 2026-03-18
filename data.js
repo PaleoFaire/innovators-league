@@ -21901,23 +21901,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-17 20:49
+// Last updated: 2026-03-18 02:50
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Cape", headline: "Apple rolls out first 'background security' update for iPhones, iPads, and Macs to fix Safari bug", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Together AI", headline: "Nvidia Structured Data is the Ground Truth of AI &#8211; $120 Billion Structure Data Ecosystem", source: "Next Big Future", time: "2h ago", impact: "high", unread: true },
-  { id: 3, type: "contract", company: "Anthropic", headline: "The Pentagon is developing alternatives to Anthropic, report says", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Xanadu Quantum Technologies", headline: "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data Ground Truth for AI", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Gecko Robotics", headline: "US Navy taps Gecko Robotics to help remedy maintenance headaches", source: "Defense News", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Saule Technologies", headline: "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage Shine", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Matic Robotics", headline: "Dyson's New PencilWash Is Here", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Astera Labs", headline: "Google's data center power playbook comes into focus", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Andrenam", headline: "Iran conflict shines a light on UK's 'stretched' naval capabilities: Analysts", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Matic Robotics", headline: "Meet Vurt, the mobile-first streaming platform for indie filmmakers embracing vertical video", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
-  { id: 11, type: "contract", company: "Palantir", headline: "OpenAI expands government footprint with AWS deal, report says", source: "TechCrunch", time: "5h ago", impact: "medium", unread: false },
-  { id: 12, type: "milestone", company: "Firestorm Labs", headline: "Oura enters India's smart ring market with the Ring 4", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Palantir", headline: "484 New Electric Buses Funded By UK Government", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Palantir", headline: "Dilemmas About Food Systems In Times Of US Federal Government Mayhem", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Orchid", headline: "Orchid Security Recognized by Gartner' as a Representative Vendor of Guardian Agents", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Karman Industries", headline: "Op-Ed: What China Did Right'And What India Is Doing Differently", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Palantir", headline: "Justice Department Says Anthropic Can't Be Trusted With Warfighting Systems", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Anthropic", headline: "The Pentagon is planning for AI companies to train on classified data, defense official says", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "AST SpaceMobile", headline: "Telesat pivots Lightspeed toward defense as delays push global service to 2028", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "Mistral bets on 'build-your-own AI' as it takes on OpenAI, Anthropic in the enterprise", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Nuro", headline: "Ebikes &#038; Bikes for Everything, + Much of What I've Learned Riding Bikes for 75 Years (Part I)", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Palantir", headline: "Office of Space Commerce weighing options for TraCSS user fees", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Cape", headline: "Apple rolls out first 'background security' update for iPhones, iPads, and Macs to fix Safari bug", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Bronco AI", headline: "Space boom strains supply chain, industry report warns", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Together AI", headline: "Nvidia Structured Data is the Ground Truth of AI &#8211; $120 Billion Structure Data Ecosystem", source: "Next Big Future", time: "8h ago", impact: "high", unread: false },
+  { id: 11, type: "contract", company: "Anthropic", headline: "The Pentagon is developing alternatives to Anthropic, report says", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Xanadu Quantum Technologies", headline: "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data Ground Truth for AI", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Gecko Robotics", headline: "US Navy taps Gecko Robotics to help remedy maintenance headaches", source: "Defense News", time: "8h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Mach Industries", headline: "ISPTech Raises '5.5M Seed Round to Redefine How Spacecraft Manoeuvre in Orbit", source: "SpaceNews", time: "9h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Saule Technologies", headline: "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage Shine", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
