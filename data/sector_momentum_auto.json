@@ -1,128 +1,149 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 65,
+    "momentum": 75,
     "trend": "accelerating",
     "catalysts": [
-      "Warren presses Pentagon over decision to grant xAI access to",
-      "Lockheed completes first flight test for PrSM Inc 2 aimed at",
-      "Where OpenAI\u2019s technology could show up in Iran"
+      "Justice Department Says Anthropic Can\u2019t Be Trusted With Warf",
+      "The Pentagon is planning for AI companies to train on classi",
+      "The Pentagon is developing alternatives to Anthropic, report"
     ],
     "fundingQ": "$66.9B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 26
+      "market": 76
     },
-    "lastUpdated": "2026-03-17"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 61,
-    "trend": "accelerating",
-    "catalysts": [
-      "The dictionary sues OpenAI",
-      "Where OpenAI\u2019s technology could show up in Iran"
-    ],
-    "fundingQ": "$360.0B",
-    "components": {
-      "funding": 100,
-      "news": 65,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 60,
+    "momentum": 66,
     "trend": "accelerating",
     "catalysts": [
-      "AeroVironment to acquire California drone maker ESAero in $2",
-      "Nvidia GTC 2026 Preshow. Jensen Next",
-      "How the Pentagon is working to wriggle out of China\u2019s rare-e"
+      "Op-Ed: What China Did Right\u2014And What India Is Doing Differen",
+      "US Navy taps Gecko Robotics to help remedy maintenance heada",
+      "Dyson\u2019s New PencilWash Is Here"
     ],
     "fundingQ": "$17.7B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 85,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 65,
+    "trend": "accelerating",
+    "catalysts": [
+      "Justice Department Says Anthropic Can\u2019t Be Trusted With Warf",
+      "The Pentagon is planning for AI companies to train on classi",
+      "Mistral bets on \u2018build-your-own AI\u2019 as it takes on OpenAI, A"
+    ],
+    "fundingQ": "$360.0B",
+    "components": {
+      "funding": 100,
+      "news": 80,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 54,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
-      "China is developing low-cost lunar cargo options for its exp"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$900.0B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 48,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
-      "Lockheed completes first flight test for PrSM Inc 2 aimed at"
+      "Hydrogen at Sea Just Got Even More Expensive: What DNV\u2019s Saf",
+      "Greece Risks Becoming Trump\u2019s Trojan Horse in the Fight to D",
+      "Iran conflict shines a light on UK\u2019s \u2018stretched\u2019 naval capab"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-17"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 35,
-    "trend": "steady",
-    "catalysts": [
-      "Nvidia\u2019s DLSS 5 uses generative AI to boost photorealism in",
-      "Where OpenAI\u2019s technology could show up in Iran",
-      "Tesla, Schmesla: Let&#8217;s Talk About Workhorse Electric T"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 100,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 34,
-    "trend": "steady",
+    "momentum": 42,
+    "trend": "rising",
     "catalysts": [
-      "Volkswagen &#038; XPENG Launch ID.UNYX 08 Production: The Fr",
-      "Kayrros sale signals rising demand for satellite intelligenc",
-      "AeroVironment to acquire California drone maker ESAero in $2"
+      "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data G",
+      "Meet Vurt, the mobile-first streaming platform for indie fil",
+      "Oura enters India&#8217;s smart ring market with the Ring 4"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
-      "news": 100,
+      "news": 75,
       "hiring": 0,
-      "market": 30
+      "market": 100
     },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 28,
+    "trend": "rising",
+    "catalysts": [
+      "Mistral bets on \u2018build-your-own AI\u2019 as it takes on OpenAI, A",
+      "Apple rolls out first &#8216;background security&#8217; upda",
+      "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage S"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 70,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-18"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 27,
+    "trend": "rising",
+    "catalysts": [
+      "The Pentagon is planning for AI companies to train on classi",
+      "484 New Electric Buses Funded By UK Government",
+      "Orchid Security Recognized by Gartner\u00ae as a Representative V"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 60,
+      "hiring": 0,
+      "market": 46
+    },
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 31,
+    "momentum": 26,
     "trend": "rising",
     "catalysts": [
       "Hyundai Motor, Kia, &#038; NVIDIA Expand Strategic Partnersh",
@@ -132,74 +153,56 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 85,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-17"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 26,
-    "trend": "rising",
-    "catalysts": [
-      "Hyundai Motor, Kia, &#038; NVIDIA Expand Strategic Partnersh",
-      "Nvidia\u2019s DLSS 5 uses generative AI to boost photorealism in",
-      "Melagen Labs and Satlyt Announce Joint ISS Mission to Demons"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 75,
-      "hiring": 0,
-      "market": 19
-    },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 24,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
-      "Let\u2019s Not Pour Cold Water on the EU Car Industry\u2019s EV Moment",
-      "The Epstein War Breathes New Life Into EU Green Hydrogen Sch",
-      "The Global Offshore Wind Industry Floats Away From The US (F"
+      "Hydrogen at Sea Just Got Even More Expensive: What DNV\u2019s Saf",
+      "Europe Must Not Let Airlines Sabotage Clean Aviation Fuels",
+      "Greece Risks Becoming Trump\u2019s Trojan Horse in the Fight to D"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 45,
       "hiring": 0,
-      "market": 63
+      "market": 70
     },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 22,
+    "momentum": 23,
     "trend": "declining",
     "catalysts": [
-      "Hyundai Motor, Kia, &#038; NVIDIA Expand Strategic Partnersh",
-      "Nvidia&#8217;s version of OpenClaw could solve its biggest p",
-      "Nvidia\u2019s DLSS 5 uses generative AI to boost photorealism in"
+      "Nvidia Structured Data is the Ground Truth of AI &#8211; $12",
+      "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data G",
+      "Hyundai Motor, Kia, &#038; NVIDIA Expand Strategic Partnersh"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
-      "market": 55
+      "market": 65
     },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Infrastructure & Logistics",
     "momentum": 18,
     "trend": "declining",
     "catalysts": [
-      "Utilities Study How to Protect Grids From Rising Physical Th",
-      "The Epstein War Breathes New Life Into EU Green Hydrogen Sch",
-      "Demand signals are up, but supply chain risks may still hind"
+      "Op-Ed: What China Did Right\u2014And What India Is Doing Differen",
+      "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage S",
+      "Utilities Study How to Protect Grids From Rising Physical Th"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -208,25 +211,41 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 13,
+    "trend": "declining",
+    "catalysts": [
+      "Active nuclear energy ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 60
+    },
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Transportation",
-    "momentum": 12,
+    "momentum": 13,
     "trend": "declining",
     "catalysts": [
+      "Op-Ed: What China Did Right\u2014And What India Is Doing Differen",
       "Hyundai Motor, Kia, &#038; NVIDIA Expand Strategic Partnersh",
-      "Will the Next Disruptive Plane Be European?",
-      "UK EV Sales Were Higher Than Mandated In 2024"
+      "Will the Next Disruptive Plane Be European?"
     ],
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 30,
+      "news": 15,
       "hiring": 0,
-      "market": 11
+      "market": 36
     },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -242,23 +261,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-17"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 9,
-    "trend": "declining",
-    "catalysts": [
-      "Raytheon contract for protected satellite communications ter"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 25
-    },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
   },
   {
     "sector": "Quantum Computing",
@@ -274,6 +277,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-17"
+    "lastUpdated": "2026-03-18"
   }
 ]

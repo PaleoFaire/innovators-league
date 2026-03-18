@@ -1,13 +1,21 @@
 {
   "ipoReadiness": {},
-  "maTarget": {},
-  "failureRisk": {
-    "Cerebras": {
-      "score": 50,
+  "maTarget": {
+    "Viridian Space": {
+      "score": 44,
       "trend": "stable",
-      "runway": "24-36 months",
-      "analysis": "Auto-scored: $700M raised, 0 jobs, Series H.",
-      "lastUpdated": "2026-03-17"
+      "potentialAcquirers": [],
+      "analysis": "Auto-scored: Space & Aerospace, Pre-Seed, 0 patents.",
+      "lastUpdated": "2026-03-18"
+    }
+  },
+  "failureRisk": {
+    "Viridian Space": {
+      "score": 59,
+      "trend": "stable",
+      "runway": "6-12 months",
+      "analysis": "Auto-scored: $2M raised, 0 jobs, Pre-Seed.",
+      "lastUpdated": "2026-03-18"
     }
   },
   "nextRound": {
@@ -18,7 +26,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Investor Tier": {
       "predictedTiming": "H2 2026",
@@ -27,7 +35,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Analyst Tier": {
       "predictedTiming": "H2 2026",
@@ -36,7 +44,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "announcements": {
       "predictedTiming": "H2 2026",
@@ -45,7 +53,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "general": {
       "predictedTiming": "H2 2026",
@@ -54,7 +62,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "deal-flow": {
       "predictedTiming": "H2 2026",
@@ -63,7 +71,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "due-diligence": {
       "predictedTiming": "H2 2026",
@@ -72,7 +80,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "defense-tech": {
       "predictedTiming": "H2 2026",
@@ -81,7 +89,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "nuclear": {
       "predictedTiming": "H2 2026",
@@ -90,7 +98,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "space": {
       "predictedTiming": "H2 2026",
@@ -99,7 +107,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "ai-robotics": {
       "predictedTiming": "H2 2026",
@@ -108,7 +116,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "introductions": {
       "predictedTiming": "H2 2026",
@@ -117,7 +125,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "events": {
       "predictedTiming": "H2 2026",
@@ -126,7 +134,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Quarterly Founder Showcase": {
       "predictedTiming": "H2 2026",
@@ -135,7 +143,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Regional Dinners": {
       "predictedTiming": "H2 2026",
@@ -144,7 +152,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "ROS Summit": {
       "predictedTiming": "H2 2026",
@@ -153,7 +161,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Anduril Industries": {
       "predictedTiming": "H2 2026",
@@ -162,7 +170,7 @@
       "predictedValuation": "$20-50B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series G stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Shield AI": {
       "predictedTiming": "H2 2026",
@@ -171,7 +179,7 @@
       "predictedValuation": "$10-30B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series F stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Epirus": {
       "predictedTiming": "H2 2026",
@@ -180,7 +188,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Saronic": {
       "predictedTiming": "H2 2026",
@@ -189,7 +197,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Neros": {
       "predictedTiming": "H2 2026",
@@ -198,7 +206,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Chaos Industries": {
       "predictedTiming": "H2 2026",
@@ -207,7 +215,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Castelion": {
       "predictedTiming": "H2 2026",
@@ -216,7 +224,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "CX2 Industries": {
       "predictedTiming": "H2 2026",
@@ -225,7 +233,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Picogrid": {
       "predictedTiming": "H2 2026",
@@ -234,7 +242,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Skydio": {
       "predictedTiming": "H2 2026",
@@ -243,7 +251,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Allen Control Systems": {
       "predictedTiming": "H2 2026",
@@ -252,7 +260,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Mach Industries": {
       "predictedTiming": "H2 2026",
@@ -261,7 +269,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Andrenam": {
       "predictedTiming": "H2 2026",
@@ -270,7 +278,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Vannevar Labs": {
       "predictedTiming": "H2 2026",
@@ -279,7 +287,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B (Profitable) stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Blue Water Autonomy": {
       "predictedTiming": "H2 2026",
@@ -288,7 +296,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Valar Atomics": {
       "predictedTiming": "H2 2026",
@@ -297,7 +305,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Radiant": {
       "predictedTiming": "H2 2026",
@@ -306,7 +314,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Aalo Atomics": {
       "predictedTiming": "H2 2026",
@@ -315,7 +323,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Antares": {
       "predictedTiming": "H2 2026",
@@ -324,7 +332,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "General Matter": {
       "predictedTiming": "H2 2026",
@@ -333,7 +341,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Kairos Power": {
       "predictedTiming": "H2 2026",
@@ -342,7 +350,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Late Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "X-Energy": {
       "predictedTiming": "H2 2026",
@@ -351,7 +359,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Last Energy": {
       "predictedTiming": "H2 2026",
@@ -360,7 +368,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Deep Fission": {
       "predictedTiming": "H2 2026",
@@ -369,7 +377,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "TerraPower": {
       "predictedTiming": "H2 2026",
@@ -378,7 +386,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Late Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Standard Nuclear": {
       "predictedTiming": "H2 2026",
@@ -387,7 +395,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "The Nuclear Company": {
       "predictedTiming": "H2 2026",
@@ -396,7 +404,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Exodys Energy": {
       "predictedTiming": "H2 2026",
@@ -405,7 +413,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "SpaceX": {
       "predictedTiming": "H2 2026",
@@ -414,7 +422,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series J stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Apex Space": {
       "predictedTiming": "H2 2026",
@@ -423,7 +431,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Varda Space Industries": {
       "predictedTiming": "H2 2026",
@@ -432,7 +440,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "AstroForge": {
       "predictedTiming": "H2 2026",
@@ -441,7 +449,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Reflect Orbital": {
       "predictedTiming": "H2 2026",
@@ -450,7 +458,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Relativity Space": {
       "predictedTiming": "H2 2026",
@@ -459,7 +467,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Impulse Space": {
       "predictedTiming": "H2 2026",
@@ -468,7 +476,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "K2 Space": {
       "predictedTiming": "H2 2026",
@@ -477,7 +485,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Vast": {
       "predictedTiming": "H2 2026",
@@ -486,7 +494,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Private stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Northwood Space": {
       "predictedTiming": "H2 2026",
@@ -495,7 +503,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Astranis": {
       "predictedTiming": "H2 2026",
@@ -504,7 +512,16 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
+    },
+    "Viridian Space": {
+      "predictedTiming": "H2 2026",
+      "confidence": 45,
+      "predictedSize": "$2-5M",
+      "predictedValuation": "$15-30M",
+      "likelyInvestors": [],
+      "catalyst": "Growth trajectory and Pre-Seed stage momentum",
+      "lastUpdated": "2026-03-18"
     },
     "Observable Space": {
       "predictedTiming": "H2 2026",
@@ -513,7 +530,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Intuitive Machines": {
       "predictedTiming": "H2 2026",
@@ -522,7 +539,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and SPAC stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Boom Supersonic": {
       "predictedTiming": "H2 2026",
@@ -531,7 +548,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Hermeus": {
       "predictedTiming": "H2 2026",
@@ -540,7 +557,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Astro Mechanica": {
       "predictedTiming": "H2 2026",
@@ -549,7 +566,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Venus Aerospace": {
       "predictedTiming": "H2 2026",
@@ -558,7 +575,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Physical Intelligence": {
       "predictedTiming": "H2 2026",
@@ -567,7 +584,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Waymo": {
       "predictedTiming": "H2 2026",
@@ -576,7 +593,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Alphabet subsidiary stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Figure AI": {
       "predictedTiming": "H2 2026",
@@ -585,7 +602,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Neuralink": {
       "predictedTiming": "H2 2026",
@@ -594,7 +611,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Field AI": {
       "predictedTiming": "H2 2026",
@@ -603,7 +620,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Nominal": {
       "predictedTiming": "H2 2026",
@@ -612,7 +629,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Palantir": {
       "predictedTiming": "H2 2026",
@@ -621,7 +638,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cognition": {
       "predictedTiming": "H2 2026",
@@ -630,7 +647,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Hadrian": {
       "predictedTiming": "H2 2026",
@@ -639,7 +656,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Machina Labs": {
       "predictedTiming": "H2 2026",
@@ -648,7 +665,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "DIRAC": {
       "predictedTiming": "H2 2026",
@@ -657,7 +674,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Formic": {
       "predictedTiming": "H2 2026",
@@ -666,7 +683,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Rangeview": {
       "predictedTiming": "H2 2026",
@@ -675,7 +692,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Senra Systems": {
       "predictedTiming": "H2 2026",
@@ -684,7 +701,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Salient Motion": {
       "predictedTiming": "H2 2026",
@@ -693,7 +710,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Divergent": {
       "predictedTiming": "H2 2026",
@@ -702,7 +719,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Amca": {
       "predictedTiming": "H2 2026",
@@ -711,7 +728,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Altos Labs": {
       "predictedTiming": "H2 2026",
@@ -720,7 +737,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Late Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Retro Biosciences": {
       "predictedTiming": "H2 2026",
@@ -729,7 +746,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "New Limit": {
       "predictedTiming": "H2 2026",
@@ -738,7 +755,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Atom Bodies": {
       "predictedTiming": "H2 2026",
@@ -747,7 +764,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Mammoth Biosciences": {
       "predictedTiming": "H2 2026",
@@ -756,7 +773,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Nucleus Genomics": {
       "predictedTiming": "H2 2026",
@@ -765,7 +782,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Orchid": {
       "predictedTiming": "H2 2026",
@@ -774,7 +791,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Herasight": {
       "predictedTiming": "H2 2026",
@@ -783,7 +800,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Terraform Industries": {
       "predictedTiming": "H2 2026",
@@ -792,7 +809,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Commonwealth Fusion Systems": {
       "predictedTiming": "H2 2026",
@@ -801,7 +818,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Fervo Energy": {
       "predictedTiming": "H2 2026",
@@ -810,7 +827,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Xcimer Energy": {
       "predictedTiming": "H2 2026",
@@ -819,7 +836,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Helion": {
       "predictedTiming": "H2 2026",
@@ -828,7 +845,7 @@
       "predictedValuation": "$10-30B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series F stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "TAE Technologies": {
       "predictedTiming": "H2 2026",
@@ -837,7 +854,7 @@
       "predictedValuation": "$20-50B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series G stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Mazama": {
       "predictedTiming": "H2 2026",
@@ -846,7 +863,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Quaise Energy": {
       "predictedTiming": "H2 2026",
@@ -855,7 +872,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Captura": {
       "predictedTiming": "H2 2026",
@@ -864,7 +881,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Base Power": {
       "predictedTiming": "H2 2026",
@@ -873,7 +890,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Karman Industries": {
       "predictedTiming": "H2 2026",
@@ -882,7 +899,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Claros": {
       "predictedTiming": "H2 2026",
@@ -891,7 +908,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Zipline": {
       "predictedTiming": "H2 2026",
@@ -900,7 +917,7 @@
       "predictedValuation": "$20-50B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series G stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Rainmaker": {
       "predictedTiming": "H2 2026",
@@ -909,7 +926,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Thoron": {
       "predictedTiming": "H2 2026",
@@ -918,7 +935,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Early Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Airship Industries": {
       "predictedTiming": "H2 2026",
@@ -927,7 +944,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Early Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cerebras": {
       "predictedTiming": "H2 2026",
@@ -936,7 +953,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series H stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Etched": {
       "predictedTiming": "H2 2026",
@@ -945,7 +962,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Extropic": {
       "predictedTiming": "H2 2026",
@@ -954,7 +971,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Lightmatter": {
       "predictedTiming": "H2 2026",
@@ -963,7 +980,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Substrate": {
       "predictedTiming": "H2 2026",
@@ -972,7 +989,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Lab 91": {
       "predictedTiming": "H2 2026",
@@ -981,7 +998,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cuby Technologies": {
       "predictedTiming": "H2 2026",
@@ -990,7 +1007,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cover": {
       "predictedTiming": "H2 2026",
@@ -999,7 +1016,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "The Boring Company": {
       "predictedTiming": "H2 2026",
@@ -1008,7 +1025,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Late Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Pipedream": {
       "predictedTiming": "H2 2026",
@@ -1017,7 +1034,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Navier": {
       "predictedTiming": "H2 2026",
@@ -1026,7 +1043,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Arc Boats": {
       "predictedTiming": "H2 2026",
@@ -1035,7 +1052,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Alpha School": {
       "predictedTiming": "H2 2026",
@@ -1044,7 +1061,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Early Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Matic Robotics": {
       "predictedTiming": "H2 2026",
@@ -1053,7 +1070,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Flexport": {
       "predictedTiming": "H2 2026",
@@ -1062,7 +1079,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Shinkei": {
       "predictedTiming": "H2 2026",
@@ -1071,7 +1088,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Vital Lyfe": {
       "predictedTiming": "H2 2026",
@@ -1080,7 +1097,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Advanced Spade Company": {
       "predictedTiming": "H2 2026",
@@ -1089,7 +1106,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Forterra": {
       "predictedTiming": "H2 2026",
@@ -1098,7 +1115,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Auterion": {
       "predictedTiming": "H2 2026",
@@ -1107,7 +1124,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Firehawk Aerospace": {
       "predictedTiming": "H2 2026",
@@ -1116,7 +1133,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Scale AI": {
       "predictedTiming": "H2 2026",
@@ -1125,7 +1142,7 @@
       "predictedValuation": "$20-50B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series G stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Reveal Technology": {
       "predictedTiming": "H2 2026",
@@ -1134,7 +1151,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Galvanick": {
       "predictedTiming": "H2 2026",
@@ -1143,7 +1160,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "SkySafe": {
       "predictedTiming": "H2 2026",
@@ -1152,7 +1169,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Distributed Spectrum": {
       "predictedTiming": "H2 2026",
@@ -1161,7 +1178,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Aurelius Systems": {
       "predictedTiming": "H2 2026",
@@ -1170,7 +1187,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Darkhive": {
       "predictedTiming": "H2 2026",
@@ -1179,7 +1196,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Deterrence": {
       "predictedTiming": "H2 2026",
@@ -1188,7 +1205,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Deepnight": {
       "predictedTiming": "H2 2026",
@@ -1197,7 +1214,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Zeromark": {
       "predictedTiming": "H2 2026",
@@ -1206,7 +1223,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Rune Technologies": {
       "predictedTiming": "H2 2026",
@@ -1215,7 +1232,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Swan": {
       "predictedTiming": "H2 2026",
@@ -1224,7 +1241,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Biofire": {
       "predictedTiming": "H2 2026",
@@ -1233,7 +1250,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Firestorm Labs": {
       "predictedTiming": "H2 2026",
@@ -1242,7 +1259,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Aalyria": {
       "predictedTiming": "H2 2026",
@@ -1251,7 +1268,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "AnySignal": {
       "predictedTiming": "H2 2026",
@@ -1260,7 +1277,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Turion Space": {
       "predictedTiming": "H2 2026",
@@ -1269,7 +1286,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Umbra": {
       "predictedTiming": "H2 2026",
@@ -1278,7 +1295,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Albedo": {
       "predictedTiming": "H2 2026",
@@ -1287,7 +1304,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Blue Origin": {
       "predictedTiming": "H2 2026",
@@ -1296,7 +1313,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Late Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Axiom Space": {
       "predictedTiming": "H2 2026",
@@ -1305,7 +1322,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Astrolab": {
       "predictedTiming": "H2 2026",
@@ -1314,7 +1331,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Array Labs": {
       "predictedTiming": "H2 2026",
@@ -1323,7 +1340,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Armada": {
       "predictedTiming": "H2 2026",
@@ -1332,7 +1349,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Aetherflux": {
       "predictedTiming": "H2 2026",
@@ -1341,7 +1358,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Applied Intuition": {
       "predictedTiming": "H2 2026",
@@ -1350,7 +1367,7 @@
       "predictedValuation": "$10-30B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series F stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Anthropic": {
       "predictedTiming": "H2 2026",
@@ -1359,7 +1376,7 @@
       "predictedValuation": "$20-50B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series G stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Anysphere": {
       "predictedTiming": "H2 2026",
@@ -1368,7 +1385,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Air Space Intelligence": {
       "predictedTiming": "H2 2026",
@@ -1377,7 +1394,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Atmo": {
       "predictedTiming": "H2 2026",
@@ -1386,7 +1403,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Beacon AI": {
       "predictedTiming": "H2 2026",
@@ -1395,7 +1412,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Agility Robotics": {
       "predictedTiming": "H2 2026",
@@ -1404,7 +1421,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Apptronik": {
       "predictedTiming": "H2 2026",
@@ -1413,7 +1430,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "1X Technologies": {
       "predictedTiming": "H2 2026",
@@ -1422,7 +1439,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Bright Machines": {
       "predictedTiming": "H2 2026",
@@ -1431,7 +1448,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Atomic Industries": {
       "predictedTiming": "H2 2026",
@@ -1440,7 +1457,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Re:Build Manufacturing": {
       "predictedTiming": "H2 2026",
@@ -1449,7 +1466,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "AMP Robotics": {
       "predictedTiming": "H2 2026",
@@ -1458,7 +1475,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Diode": {
       "predictedTiming": "H2 2026",
@@ -1467,7 +1484,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Quilter": {
       "predictedTiming": "H2 2026",
@@ -1476,7 +1493,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Science Corporation": {
       "predictedTiming": "H2 2026",
@@ -1485,7 +1502,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Andromeda Surgical": {
       "predictedTiming": "H2 2026",
@@ -1494,7 +1511,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Solugen": {
       "predictedTiming": "H2 2026",
@@ -1503,7 +1520,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Exowatt": {
       "predictedTiming": "H2 2026",
@@ -1512,7 +1529,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Antora Energy": {
       "predictedTiming": "H2 2026",
@@ -1521,7 +1538,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Form Energy": {
       "predictedTiming": "H2 2026",
@@ -1530,7 +1547,7 @@
       "predictedValuation": "$20-50B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series G stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Brimstone": {
       "predictedTiming": "H2 2026",
@@ -1539,7 +1556,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Boston Metal": {
       "predictedTiming": "H2 2026",
@@ -1548,7 +1565,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Avalanche Energy": {
       "predictedTiming": "H2 2026",
@@ -1557,7 +1574,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Bedrock Energy": {
       "predictedTiming": "H2 2026",
@@ -1566,7 +1583,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Arbor Energy": {
       "predictedTiming": "H2 2026",
@@ -1575,7 +1592,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Endurance Energy": {
       "predictedTiming": "H2 2026",
@@ -1584,7 +1601,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cape": {
       "predictedTiming": "H2 2026",
@@ -1593,7 +1610,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Aepnus Technology": {
       "predictedTiming": "H2 2026",
@@ -1602,7 +1619,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Manna Aero": {
       "predictedTiming": "H2 2026",
@@ -1611,7 +1628,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Seneca Systems": {
       "predictedTiming": "H2 2026",
@@ -1620,7 +1637,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Asylon Robotics": {
       "predictedTiming": "H2 2026",
@@ -1629,7 +1646,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Atom Computing": {
       "predictedTiming": "H2 2026",
@@ -1638,7 +1655,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Atomic Semi": {
       "predictedTiming": "H2 2026",
@@ -1647,7 +1664,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Atomic Machines": {
       "predictedTiming": "H2 2026",
@@ -1656,7 +1673,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Bedrock Ocean": {
       "predictedTiming": "H2 2026",
@@ -1665,7 +1682,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Amidon Heavy Industries": {
       "predictedTiming": "H2 2026",
@@ -1674,7 +1691,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Clippership": {
       "predictedTiming": "H2 2026",
@@ -1683,7 +1700,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Conductor Quantum": {
       "predictedTiming": "H2 2026",
@@ -1692,7 +1709,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Amperon": {
       "predictedTiming": "H2 2026",
@@ -1701,7 +1718,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Ample": {
       "predictedTiming": "H2 2026",
@@ -1710,7 +1727,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Blumen Systems": {
       "predictedTiming": "H2 2026",
@@ -1719,7 +1736,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Durin": {
       "predictedTiming": "H2 2026",
@@ -1728,7 +1745,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Elodin": {
       "predictedTiming": "H2 2026",
@@ -1737,7 +1754,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Bronco AI": {
       "predictedTiming": "H2 2026",
@@ -1746,7 +1763,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Daylight Computer": {
       "predictedTiming": "H2 2026",
@@ -1755,7 +1772,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Synthesis": {
       "predictedTiming": "H2 2026",
@@ -1764,7 +1781,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Helsing": {
       "predictedTiming": "H2 2026",
@@ -1773,7 +1790,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Saildrone": {
       "predictedTiming": "H2 2026",
@@ -1782,7 +1799,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Overland AI": {
       "predictedTiming": "H2 2026",
@@ -1791,7 +1808,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Second Front Systems": {
       "predictedTiming": "H2 2026",
@@ -1800,7 +1817,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Rebellion Defense": {
       "predictedTiming": "H2 2026",
@@ -1809,7 +1826,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Primer AI": {
       "predictedTiming": "H2 2026",
@@ -1818,7 +1835,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "True Anomaly": {
       "predictedTiming": "H2 2026",
@@ -1827,7 +1844,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Kodiak Robotics": {
       "predictedTiming": "H2 2026",
@@ -1836,7 +1853,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Theseus": {
       "predictedTiming": "H2 2026",
@@ -1845,7 +1862,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Mara": {
       "predictedTiming": "H2 2026",
@@ -1854,7 +1871,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Flock Safety": {
       "predictedTiming": "H2 2026",
@@ -1863,7 +1880,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Icarus": {
       "predictedTiming": "H2 2026",
@@ -1872,7 +1889,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "PILGRIM": {
       "predictedTiming": "H2 2026",
@@ -1881,7 +1898,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Zap Energy": {
       "predictedTiming": "H2 2026",
@@ -1890,7 +1907,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "General Fusion": {
       "predictedTiming": "H2 2026",
@@ -1899,7 +1916,7 @@
       "predictedValuation": "$10-30B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series F stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Type One Energy": {
       "predictedTiming": "H2 2026",
@@ -1908,7 +1925,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Focused Energy": {
       "predictedTiming": "H2 2026",
@@ -1917,7 +1934,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Pacific Fusion": {
       "predictedTiming": "H2 2026",
@@ -1926,7 +1943,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Fuse Energy": {
       "predictedTiming": "H2 2026",
@@ -1935,7 +1952,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Stoke Space": {
       "predictedTiming": "H2 2026",
@@ -1944,7 +1961,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Capella Space": {
       "predictedTiming": "H2 2026",
@@ -1953,7 +1970,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Muon Space": {
       "predictedTiming": "H2 2026",
@@ -1962,7 +1979,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Outpost Space": {
       "predictedTiming": "H2 2026",
@@ -1971,7 +1988,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Longshot Space": {
       "predictedTiming": "H2 2026",
@@ -1980,7 +1997,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Proteus Space": {
       "predictedTiming": "H2 2026",
@@ -1989,7 +2006,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Ursa Major Technologies": {
       "predictedTiming": "H2 2026",
@@ -1998,7 +2015,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Exosonic": {
       "predictedTiming": "H2 2026",
@@ -2007,7 +2024,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Destinus": {
       "predictedTiming": "H2 2026",
@@ -2016,7 +2033,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Late Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Dynamo Air": {
       "predictedTiming": "H2 2026",
@@ -2025,7 +2042,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "OpenAI": {
       "predictedTiming": "H2 2026",
@@ -2034,7 +2051,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Mistral AI": {
       "predictedTiming": "H2 2026",
@@ -2043,7 +2060,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Groq": {
       "predictedTiming": "H2 2026",
@@ -2052,7 +2069,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Skild AI": {
       "predictedTiming": "H2 2026",
@@ -2061,7 +2078,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Crusoe Energy": {
       "predictedTiming": "H2 2026",
@@ -2070,7 +2087,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "ElevenLabs": {
       "predictedTiming": "H2 2026",
@@ -2079,7 +2096,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Hippocratic AI": {
       "predictedTiming": "H2 2026",
@@ -2088,7 +2105,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Gecko Robotics": {
       "predictedTiming": "H2 2026",
@@ -2097,7 +2114,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Terranova": {
       "predictedTiming": "H2 2026",
@@ -2106,7 +2123,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Electric Sheep": {
       "predictedTiming": "H2 2026",
@@ -2115,7 +2132,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Acquired stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Carbon Robotics": {
       "predictedTiming": "H2 2026",
@@ -2124,7 +2141,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Terran Robotics": {
       "predictedTiming": "H2 2026",
@@ -2133,7 +2150,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Insitro": {
       "predictedTiming": "H2 2026",
@@ -2142,7 +2159,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Eikon Therapeutics": {
       "predictedTiming": "H2 2026",
@@ -2151,7 +2168,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Colossal Biosciences": {
       "predictedTiming": "H2 2026",
@@ -2160,7 +2177,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Medra": {
       "predictedTiming": "H2 2026",
@@ -2169,7 +2186,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Abridge": {
       "predictedTiming": "H2 2026",
@@ -2178,7 +2195,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Heirloom Carbon": {
       "predictedTiming": "H2 2026",
@@ -2187,7 +2204,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Twelve": {
       "predictedTiming": "H2 2026",
@@ -2196,7 +2213,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "KoBold Metals": {
       "predictedTiming": "H2 2026",
@@ -2205,7 +2222,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Sublime Systems": {
       "predictedTiming": "H2 2026",
@@ -2214,7 +2231,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Redwood Materials": {
       "predictedTiming": "H2 2026",
@@ -2223,7 +2240,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Natron Energy": {
       "predictedTiming": "H2 2026",
@@ -2232,7 +2249,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "EnerVenue": {
       "predictedTiming": "H2 2026",
@@ -2241,7 +2258,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Charm Industrial": {
       "predictedTiming": "H2 2026",
@@ -2250,7 +2267,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Impulse Labs": {
       "predictedTiming": "H2 2026",
@@ -2259,7 +2276,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Mariana Minerals": {
       "predictedTiming": "H2 2026",
@@ -2268,7 +2285,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Nuro": {
       "predictedTiming": "H2 2026",
@@ -2277,7 +2294,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Ridevalo": {
       "predictedTiming": "H2 2026",
@@ -2286,7 +2303,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "PsiQuantum": {
       "predictedTiming": "H2 2026",
@@ -2295,7 +2312,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Zettascale": {
       "predictedTiming": "H2 2026",
@@ -2304,7 +2321,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "d-Matrix": {
       "predictedTiming": "H2 2026",
@@ -2313,7 +2330,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Inversion Space": {
       "predictedTiming": "H2 2026",
@@ -2322,7 +2339,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Lumina Vehicles": {
       "predictedTiming": "H2 2026",
@@ -2331,7 +2348,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "FleetZero": {
       "predictedTiming": "H2 2026",
@@ -2340,7 +2357,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Framework Computer": {
       "predictedTiming": "H2 2026",
@@ -2349,7 +2366,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Whisper Aero": {
       "predictedTiming": "H2 2026",
@@ -2358,7 +2375,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "QuEra Computing": {
       "predictedTiming": "H2 2026",
@@ -2367,7 +2384,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "NetworkOcean": {
       "predictedTiming": "H2 2026",
@@ -2376,7 +2393,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Thalassa Robotics": {
       "predictedTiming": "H2 2026",
@@ -2385,7 +2402,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Fortastra": {
       "predictedTiming": "H2 2026",
@@ -2394,7 +2411,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Earth AI": {
       "predictedTiming": "H2 2026",
@@ -2403,7 +2420,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Watoga Tech": {
       "predictedTiming": "H2 2026",
@@ -2412,7 +2429,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Wardstone": {
       "predictedTiming": "H2 2026",
@@ -2421,7 +2438,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Teralta": {
       "predictedTiming": "H2 2026",
@@ -2430,7 +2447,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "GenMat": {
       "predictedTiming": "H2 2026",
@@ -2439,7 +2456,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Tokamak Energy": {
       "predictedTiming": "H2 2026",
@@ -2448,7 +2465,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "First Light Fusion": {
       "predictedTiming": "H2 2026",
@@ -2457,7 +2474,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Newcleo": {
       "predictedTiming": "H2 2026",
@@ -2466,7 +2483,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Wayve": {
       "predictedTiming": "H2 2026",
@@ -2475,7 +2492,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Orbex": {
       "predictedTiming": "H2 2026",
@@ -2484,7 +2501,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Oxford Quantum Circuits": {
       "predictedTiming": "H2 2026",
@@ -2493,7 +2510,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Orbital Marine Power": {
       "predictedTiming": "H2 2026",
@@ -2502,7 +2519,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Growth stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "ZeroAvia": {
       "predictedTiming": "H2 2026",
@@ -2511,7 +2528,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Space Forge": {
       "predictedTiming": "H2 2026",
@@ -2520,7 +2537,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Gravitricity": {
       "predictedTiming": "H2 2026",
@@ -2529,7 +2546,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Isar Aerospace": {
       "predictedTiming": "H2 2026",
@@ -2538,7 +2555,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Quantum-Systems": {
       "predictedTiming": "H2 2026",
@@ -2547,7 +2564,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Proxima Fusion": {
       "predictedTiming": "H2 2026",
@@ -2556,7 +2573,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Marvel Fusion": {
       "predictedTiming": "H2 2026",
@@ -2565,7 +2582,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Rocket Factory Augsburg": {
       "predictedTiming": "H2 2026",
@@ -2574,7 +2591,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Black Semiconductor": {
       "predictedTiming": "H2 2026",
@@ -2583,7 +2600,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Sunfire": {
       "predictedTiming": "H2 2026",
@@ -2592,7 +2609,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "planqc": {
       "predictedTiming": "H2 2026",
@@ -2601,7 +2618,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Volocopter": {
       "predictedTiming": "H2 2026",
@@ -2610,7 +2627,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Acquired (post-insolvency) stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Pasqal": {
       "predictedTiming": "H2 2026",
@@ -2619,7 +2636,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Exotec": {
       "predictedTiming": "H2 2026",
@@ -2628,7 +2645,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Naarea": {
       "predictedTiming": "H2 2026",
@@ -2637,7 +2654,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Renaissance Fusion": {
       "predictedTiming": "H2 2026",
@@ -2646,7 +2663,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Verkor": {
       "predictedTiming": "H2 2026",
@@ -2655,7 +2672,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "DNA Script": {
       "predictedTiming": "H2 2026",
@@ -2664,7 +2681,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Alice & Bob": {
       "predictedTiming": "H2 2026",
@@ -2673,7 +2690,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Latitude": {
       "predictedTiming": "H2 2026",
@@ -2682,7 +2699,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "H2 Green Steel": {
       "predictedTiming": "H2 2026",
@@ -2691,7 +2708,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Einride": {
       "predictedTiming": "H2 2026",
@@ -2700,7 +2717,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Neko Health": {
       "predictedTiming": "H2 2026",
@@ -2709,7 +2726,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "ICEYE": {
       "predictedTiming": "H2 2026",
@@ -2718,7 +2735,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "IQM Quantum Computers": {
       "predictedTiming": "H2 2026",
@@ -2727,7 +2744,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Solar Foods": {
       "predictedTiming": "H2 2026",
@@ -2736,7 +2753,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Climeworks": {
       "predictedTiming": "H2 2026",
@@ -2745,7 +2762,7 @@
       "predictedValuation": "$10-30B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series F stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "ANYbotics": {
       "predictedTiming": "H2 2026",
@@ -2754,7 +2771,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Synhelion": {
       "predictedTiming": "H2 2026",
@@ -2763,7 +2780,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Seaborg Technologies": {
       "predictedTiming": "H2 2026",
@@ -2772,7 +2789,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Copenhagen Atomics": {
       "predictedTiming": "H2 2026",
@@ -2781,7 +2798,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "QuantWare": {
       "predictedTiming": "H2 2026",
@@ -2790,7 +2807,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "PLD Space": {
       "predictedTiming": "H2 2026",
@@ -2799,7 +2816,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and SPAC stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Milrem Robotics": {
       "predictedTiming": "H2 2026",
@@ -2808,7 +2825,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Skeleton Technologies": {
       "predictedTiming": "H2 2026",
@@ -2817,7 +2834,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Saule Technologies": {
       "predictedTiming": "H2 2026",
@@ -2826,7 +2843,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Quantum Machines": {
       "predictedTiming": "H2 2026",
@@ -2835,7 +2852,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Xtend": {
       "predictedTiming": "H2 2026",
@@ -2844,7 +2861,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Percepto": {
       "predictedTiming": "H2 2026",
@@ -2853,7 +2870,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Ramon.Space": {
       "predictedTiming": "H2 2026",
@@ -2862,7 +2879,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Wiliot": {
       "predictedTiming": "H2 2026",
@@ -2871,7 +2888,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Tevel Aerobotics": {
       "predictedTiming": "H2 2026",
@@ -2880,7 +2897,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Kyoto Fusioneering": {
       "predictedTiming": "H2 2026",
@@ -2889,7 +2906,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "GITAI": {
       "predictedTiming": "H2 2026",
@@ -2898,7 +2915,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Mujin": {
       "predictedTiming": "H2 2026",
@@ -2907,7 +2924,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Rapidus": {
       "predictedTiming": "H2 2026",
@@ -2916,7 +2933,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Government-backed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Rebellions": {
       "predictedTiming": "H2 2026",
@@ -2925,7 +2942,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and SPAC stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Innospace": {
       "predictedTiming": "H2 2026",
@@ -2934,7 +2951,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Skyroot Aerospace": {
       "predictedTiming": "H2 2026",
@@ -2943,7 +2960,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Agnikul Cosmos": {
       "predictedTiming": "H2 2026",
@@ -2952,7 +2969,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Pixxel": {
       "predictedTiming": "H2 2026",
@@ -2961,7 +2978,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Xanadu Quantum Technologies": {
       "predictedTiming": "H2 2026",
@@ -2970,7 +2987,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Terrestrial Energy": {
       "predictedTiming": "H2 2026",
@@ -2979,7 +2996,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Tenstorrent": {
       "predictedTiming": "H2 2026",
@@ -2988,7 +3005,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "CarbonCure Technologies": {
       "predictedTiming": "H2 2026",
@@ -2997,7 +3014,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Fleet Space Technologies": {
       "predictedTiming": "H2 2026",
@@ -3006,7 +3023,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Quantum Brilliance": {
       "predictedTiming": "H2 2026",
@@ -3015,7 +3032,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "SunDrive Solar": {
       "predictedTiming": "H2 2026",
@@ -3024,7 +3041,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Silicon Box": {
       "predictedTiming": "H2 2026",
@@ -3033,7 +3050,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Dawn Aerospace": {
       "predictedTiming": "H2 2026",
@@ -3042,7 +3059,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Dragonfly Aerospace": {
       "predictedTiming": "H2 2026",
@@ -3051,7 +3068,7 @@
       "predictedValuation": "$20-50B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series G stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Solinftec": {
       "predictedTiming": "H2 2026",
@@ -3060,7 +3077,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Hugging Face": {
       "predictedTiming": "H2 2026",
@@ -3069,7 +3086,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Kyutai": {
       "predictedTiming": "H2 2026",
@@ -3078,7 +3095,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Early Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Neura Robotics": {
       "predictedTiming": "H2 2026",
@@ -3087,7 +3104,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Tekever": {
       "predictedTiming": "H2 2026",
@@ -3096,7 +3113,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Dronamics": {
       "predictedTiming": "H2 2026",
@@ -3105,7 +3122,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Monumental": {
       "predictedTiming": "H2 2026",
@@ -3114,7 +3131,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "RobCo": {
       "predictedTiming": "H2 2026",
@@ -3123,7 +3140,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Gladia": {
       "predictedTiming": "H2 2026",
@@ -3132,7 +3149,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Deep Isolation": {
       "predictedTiming": "H2 2026",
@@ -3141,7 +3158,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Grain Weevil": {
       "predictedTiming": "H2 2026",
@@ -3150,7 +3167,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Na\u00efo Technologies": {
       "predictedTiming": "H2 2026",
@@ -3159,7 +3176,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Delian Alliance Industries": {
       "predictedTiming": "H2 2026",
@@ -3168,7 +3185,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cobod": {
       "predictedTiming": "H2 2026",
@@ -3177,7 +3194,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Prusa Research": {
       "predictedTiming": "H2 2026",
@@ -3186,7 +3203,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Profitable stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Dunia": {
       "predictedTiming": "H2 2026",
@@ -3195,7 +3212,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Phospho": {
       "predictedTiming": "H2 2026",
@@ -3204,7 +3221,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Deep Atomic": {
       "predictedTiming": "H2 2026",
@@ -3213,7 +3230,7 @@
       "predictedValuation": "$15-30M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Pre-Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Rhoman Aerospace": {
       "predictedTiming": "H2 2026",
@@ -3222,7 +3239,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Early Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "AirMap": {
       "predictedTiming": "H2 2026",
@@ -3231,7 +3248,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Roboton": {
       "predictedTiming": "H2 2026",
@@ -3240,7 +3257,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Early Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Long Wall": {
       "predictedTiming": "H2 2026",
@@ -3249,7 +3266,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Early Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Truemed": {
       "predictedTiming": "H2 2026",
@@ -3258,7 +3275,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Turbopuffer": {
       "predictedTiming": "H2 2026",
@@ -3267,7 +3284,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Attio": {
       "predictedTiming": "H2 2026",
@@ -3276,7 +3293,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Day.ai": {
       "predictedTiming": "H2 2026",
@@ -3285,7 +3302,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "SHIELD Technology Partners": {
       "predictedTiming": "H2 2026",
@@ -3294,7 +3311,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and SPAC stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Lotus Health AI": {
       "predictedTiming": "H2 2026",
@@ -3303,7 +3320,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Early Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Bedrock Robotics": {
       "predictedTiming": "H2 2026",
@@ -3312,7 +3329,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "GrayMatter Robotics": {
       "predictedTiming": "H2 2026",
@@ -3321,7 +3338,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "RIOS Intelligent Machines": {
       "predictedTiming": "H2 2026",
@@ -3330,7 +3347,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Orbital Composites": {
       "predictedTiming": "H2 2026",
@@ -3339,7 +3356,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Government Funded stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "SafeAI": {
       "predictedTiming": "H2 2026",
@@ -3348,7 +3365,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Zoox": {
       "predictedTiming": "H2 2026",
@@ -3357,7 +3374,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Acquired (Amazon) stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Multiply Labs": {
       "predictedTiming": "H2 2026",
@@ -3366,7 +3383,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "AiDash": {
       "predictedTiming": "H2 2026",
@@ -3375,7 +3392,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Pano AI": {
       "predictedTiming": "H2 2026",
@@ -3384,7 +3401,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Collaborative Robotics": {
       "predictedTiming": "H2 2026",
@@ -3393,7 +3410,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Orangewood Labs": {
       "predictedTiming": "H2 2026",
@@ -3402,7 +3419,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Trilobio": {
       "predictedTiming": "H2 2026",
@@ -3411,7 +3428,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Starpath Robotics": {
       "predictedTiming": "H2 2026",
@@ -3420,7 +3437,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "DroneForge": {
       "predictedTiming": "H2 2026",
@@ -3429,7 +3446,7 @@
       "predictedValuation": "$15-30M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Pre-Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Aerodome": {
       "predictedTiming": "H2 2026",
@@ -3438,7 +3455,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Acquired stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Ambient.ai": {
       "predictedTiming": "H2 2026",
@@ -3447,7 +3464,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Built Robotics": {
       "predictedTiming": "H2 2026",
@@ -3456,7 +3473,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Chef Robotics": {
       "predictedTiming": "H2 2026",
@@ -3465,7 +3482,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Databricks": {
       "predictedTiming": "H2 2026",
@@ -3474,7 +3491,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series L stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Dexterity": {
       "predictedTiming": "H2 2026",
@@ -3483,7 +3500,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Farm-ng": {
       "predictedTiming": "H2 2026",
@@ -3492,7 +3509,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Acquired stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Floodbase": {
       "predictedTiming": "H2 2026",
@@ -3501,7 +3518,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Harbinger": {
       "predictedTiming": "H2 2026",
@@ -3510,7 +3527,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Hive AI": {
       "predictedTiming": "H2 2026",
@@ -3519,7 +3536,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Labelbox": {
       "predictedTiming": "H2 2026",
@@ -3528,7 +3545,7 @@
       "predictedValuation": "$20-50B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series G stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "LeoLabs": {
       "predictedTiming": "H2 2026",
@@ -3537,7 +3554,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Liminal Insights": {
       "predictedTiming": "H2 2026",
@@ -3546,7 +3563,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Locus Robotics": {
       "predictedTiming": "H2 2026",
@@ -3555,7 +3572,7 @@
       "predictedValuation": "$10-30B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series F stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Lumafield": {
       "predictedTiming": "H2 2026",
@@ -3564,7 +3581,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Modern Intelligence": {
       "predictedTiming": "H2 2026",
@@ -3573,7 +3590,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Osaro": {
       "predictedTiming": "H2 2026",
@@ -3582,7 +3599,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Outrider": {
       "predictedTiming": "H2 2026",
@@ -3591,7 +3608,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Parallel Systems": {
       "predictedTiming": "H2 2026",
@@ -3600,7 +3617,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Prepared": {
       "predictedTiming": "H2 2026",
@@ -3609,7 +3626,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Rain Industries": {
       "predictedTiming": "H2 2026",
@@ -3618,7 +3635,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Revel": {
       "predictedTiming": "H2 2026",
@@ -3627,7 +3644,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Late Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Sift": {
       "predictedTiming": "H2 2026",
@@ -3636,7 +3653,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Slingshot Aerospace": {
       "predictedTiming": "H2 2026",
@@ -3645,7 +3662,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Surge AI": {
       "predictedTiming": "H2 2026",
@@ -3654,7 +3671,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Bootstrapped stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Swarm Aero": {
       "predictedTiming": "H2 2026",
@@ -3663,7 +3680,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "WeaveGrid": {
       "predictedTiming": "H2 2026",
@@ -3672,7 +3689,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Zanskar": {
       "predictedTiming": "H2 2026",
@@ -3681,7 +3698,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cohere": {
       "predictedTiming": "H2 2026",
@@ -3690,7 +3707,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Waabi": {
       "predictedTiming": "H2 2026",
@@ -3699,7 +3716,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Ada": {
       "predictedTiming": "H2 2026",
@@ -3708,7 +3725,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Photonic Inc": {
       "predictedTiming": "H2 2026",
@@ -3717,7 +3734,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Nord Quantique": {
       "predictedTiming": "H2 2026",
@@ -3726,7 +3743,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Kepler Communications": {
       "predictedTiming": "H2 2026",
@@ -3735,7 +3752,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "GHGSat": {
       "predictedTiming": "H2 2026",
@@ -3744,7 +3761,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Reaction Dynamics": {
       "predictedTiming": "H2 2026",
@@ -3753,7 +3770,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Sanctuary AI": {
       "predictedTiming": "H2 2026",
@@ -3762,7 +3779,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Kinova Robotics": {
       "predictedTiming": "H2 2026",
@@ -3771,7 +3788,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Late Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "ARC Clean Technology": {
       "predictedTiming": "H2 2026",
@@ -3780,7 +3797,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Kela": {
       "predictedTiming": "H2 2026",
@@ -3789,7 +3806,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "goTenna": {
       "predictedTiming": "H2 2026",
@@ -3798,7 +3815,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Acquired stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Endurosat": {
       "predictedTiming": "H2 2026",
@@ -3807,7 +3824,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Skyryse": {
       "predictedTiming": "H2 2026",
@@ -3816,7 +3833,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Dusty Robotics": {
       "predictedTiming": "H2 2026",
@@ -3825,7 +3842,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Vayu Robotics": {
       "predictedTiming": "H2 2026",
@@ -3834,7 +3851,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Fortera": {
       "predictedTiming": "H2 2026",
@@ -3843,7 +3860,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Mainspring Energy": {
       "predictedTiming": "H2 2026",
@@ -3852,7 +3869,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Watershed": {
       "predictedTiming": "H2 2026",
@@ -3861,7 +3878,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Sakana AI": {
       "predictedTiming": "H2 2026",
@@ -3870,7 +3887,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Together AI": {
       "predictedTiming": "H2 2026",
@@ -3879,7 +3896,7 @@
       "predictedValuation": "$20-50B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series G stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Runway": {
       "predictedTiming": "H2 2026",
@@ -3888,7 +3905,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "eGenesis": {
       "predictedTiming": "H2 2026",
@@ -3897,7 +3914,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Osmo": {
       "predictedTiming": "H2 2026",
@@ -3906,7 +3923,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Vivodyne": {
       "predictedTiming": "H2 2026",
@@ -3915,7 +3932,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cellares": {
       "predictedTiming": "H2 2026",
@@ -3924,7 +3941,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "LabGenius": {
       "predictedTiming": "H2 2026",
@@ -3933,7 +3950,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Mission Barns": {
       "predictedTiming": "H2 2026",
@@ -3942,7 +3959,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "KLIR Sky": {
       "predictedTiming": "H2 2026",
@@ -3951,7 +3968,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cresilon": {
       "predictedTiming": "H2 2026",
@@ -3960,7 +3977,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "FlyBy Robotics": {
       "predictedTiming": "H2 2026",
@@ -3969,7 +3986,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Ulysses Robotics": {
       "predictedTiming": "H2 2026",
@@ -3978,7 +3995,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Poseidon Aerospace": {
       "predictedTiming": "H2 2026",
@@ -3987,7 +4004,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "White Stork": {
       "predictedTiming": "H2 2026",
@@ -3996,7 +4013,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Parry Labs": {
       "predictedTiming": "H2 2026",
@@ -4005,7 +4022,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Fortem Technologies": {
       "predictedTiming": "H2 2026",
@@ -4014,7 +4031,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Hexium": {
       "predictedTiming": "H2 2026",
@@ -4023,7 +4040,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "General Galactic": {
       "predictedTiming": "H2 2026",
@@ -4032,7 +4049,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Ares Industries": {
       "predictedTiming": "H2 2026",
@@ -4041,7 +4058,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Starcloud": {
       "predictedTiming": "H2 2026",
@@ -4050,7 +4067,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Steady Energy": {
       "predictedTiming": "H2 2026",
@@ -4059,7 +4076,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "CarbonCapture Inc.": {
       "predictedTiming": "H2 2026",
@@ -4068,7 +4085,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Kyten Technologies": {
       "predictedTiming": "H2 2026",
@@ -4077,7 +4094,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Graphyte": {
       "predictedTiming": "H2 2026",
@@ -4086,7 +4103,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Celero Communications": {
       "predictedTiming": "H2 2026",
@@ -4095,7 +4112,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Zeta Surgical": {
       "predictedTiming": "H2 2026",
@@ -4104,7 +4121,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Electric Hydrogen": {
       "predictedTiming": "H2 2026",
@@ -4113,7 +4130,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Tenna Systems": {
       "predictedTiming": "H2 2026",
@@ -4122,7 +4139,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Vatn Systems": {
       "predictedTiming": "H2 2026",
@@ -4131,7 +4148,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Hubble Network": {
       "predictedTiming": "H2 2026",
@@ -4140,7 +4157,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Sage Geosystems": {
       "predictedTiming": "H2 2026",
@@ -4149,7 +4166,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Fourth Power": {
       "predictedTiming": "H2 2026",
@@ -4158,7 +4175,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Asimov": {
       "predictedTiming": "H2 2026",
@@ -4167,7 +4184,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cemvita Factory": {
       "predictedTiming": "H2 2026",
@@ -4176,7 +4193,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Q-CTRL": {
       "predictedTiming": "H2 2026",
@@ -4185,7 +4202,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Hidden Level": {
       "predictedTiming": "H2 2026",
@@ -4194,7 +4211,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "ClearSpace": {
       "predictedTiming": "H2 2026",
@@ -4203,7 +4220,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Profluent": {
       "predictedTiming": "H2 2026",
@@ -4212,7 +4229,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Fairmat": {
       "predictedTiming": "H2 2026",
@@ -4221,7 +4238,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Infleqtion": {
       "predictedTiming": "H2 2026",
@@ -4230,7 +4247,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Elroy Air": {
       "predictedTiming": "H2 2026",
@@ -4239,7 +4256,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Rain AI": {
       "predictedTiming": "H2 2026",
@@ -4248,7 +4265,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Twelve Labs": {
       "predictedTiming": "H2 2026",
@@ -4257,7 +4274,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Kolena": {
       "predictedTiming": "H2 2026",
@@ -4266,7 +4283,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Modal": {
       "predictedTiming": "H2 2026",
@@ -4275,7 +4292,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Terran Orbital": {
       "predictedTiming": "H2 2026",
@@ -4284,7 +4301,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Acquired stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Skyrora": {
       "predictedTiming": "H2 2026",
@@ -4293,7 +4310,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Orbion Space Technology": {
       "predictedTiming": "H2 2026",
@@ -4302,7 +4319,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and SPAC stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Quantinuum": {
       "predictedTiming": "H2 2026",
@@ -4311,7 +4328,7 @@
       "predictedValuation": "$5-15B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series E stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "CORE POWER": {
       "predictedTiming": "H2 2026",
@@ -4320,7 +4337,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Wandelbots": {
       "predictedTiming": "H2 2026",
@@ -4329,7 +4346,7 @@
       "predictedValuation": "$20-50B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series G stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "AlixLabs": {
       "predictedTiming": "H2 2026",
@@ -4338,7 +4355,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "OpenStar": {
       "predictedTiming": "H2 2026",
@@ -4347,7 +4364,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Qilimanjaro": {
       "predictedTiming": "H2 2026",
@@ -4356,7 +4373,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "QuiX Quantum": {
       "predictedTiming": "H2 2026",
@@ -4365,7 +4382,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "SemiQon": {
       "predictedTiming": "H2 2026",
@@ -4374,7 +4391,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "REGENT Craft": {
       "predictedTiming": "H2 2026",
@@ -4383,7 +4400,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Orbit2Orbit": {
       "predictedTiming": "H2 2026",
@@ -4392,7 +4409,7 @@
       "predictedValuation": "$15-30M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Pre-Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "DEEPX": {
       "predictedTiming": "H2 2026",
@@ -4401,7 +4418,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "PierSight": {
       "predictedTiming": "H2 2026",
@@ -4410,7 +4427,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Axial Composites": {
       "predictedTiming": "H2 2026",
@@ -4419,7 +4436,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Layup Parts": {
       "predictedTiming": "H2 2026",
@@ -4428,7 +4445,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Fiber Dynamics": {
       "predictedTiming": "H2 2026",
@@ -4437,7 +4454,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Growth stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Bethlehem Steel Corp": {
       "predictedTiming": "H2 2026",
@@ -4446,7 +4463,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Nox Metals": {
       "predictedTiming": "H2 2026",
@@ -4455,7 +4472,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Duranium": {
       "predictedTiming": "H2 2026",
@@ -4464,7 +4481,7 @@
       "predictedValuation": "$15-30M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Pre-Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "MacroFab": {
       "predictedTiming": "H2 2026",
@@ -4473,7 +4490,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Finwave Semiconductor": {
       "predictedTiming": "H2 2026",
@@ -4482,7 +4499,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Sphere Semi": {
       "predictedTiming": "H2 2026",
@@ -4491,7 +4508,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "SendCutSend": {
       "predictedTiming": "H2 2026",
@@ -4500,7 +4517,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Growth stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "OSH Cut": {
       "predictedTiming": "H2 2026",
@@ -4509,7 +4526,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Bootstrapped stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "RMFG": {
       "predictedTiming": "H2 2026",
@@ -4518,7 +4535,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Forge Automation": {
       "predictedTiming": "H2 2026",
@@ -4527,7 +4544,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Emelody": {
       "predictedTiming": "H2 2026",
@@ -4536,7 +4553,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Growth stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "HLabs": {
       "predictedTiming": "H2 2026",
@@ -4545,7 +4562,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "RISE Robotics": {
       "predictedTiming": "H2 2026",
@@ -4554,7 +4571,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Artimus Robotics": {
       "predictedTiming": "H2 2026",
@@ -4563,7 +4580,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Corvex Systems": {
       "predictedTiming": "H2 2026",
@@ -4572,7 +4589,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Foundry Lab": {
       "predictedTiming": "H2 2026",
@@ -4581,7 +4598,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Digital Metal": {
       "predictedTiming": "H2 2026",
@@ -4590,7 +4607,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Aestus Industries": {
       "predictedTiming": "H2 2026",
@@ -4599,7 +4616,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Ouros Energy": {
       "predictedTiming": "H2 2026",
@@ -4608,7 +4625,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Forge Nano": {
       "predictedTiming": "H2 2026",
@@ -4617,7 +4634,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Nascent Materials": {
       "predictedTiming": "H2 2026",
@@ -4626,7 +4643,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Group1": {
       "predictedTiming": "H2 2026",
@@ -4635,7 +4652,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Advano": {
       "predictedTiming": "H2 2026",
@@ -4644,7 +4661,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Freeform": {
       "predictedTiming": "H2 2026",
@@ -4653,7 +4670,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Vuecason": {
       "predictedTiming": "H2 2026",
@@ -4662,7 +4679,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Radian Forge": {
       "predictedTiming": "H2 2026",
@@ -4671,7 +4688,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Seurat Technologies": {
       "predictedTiming": "H2 2026",
@@ -4680,7 +4697,7 @@
       "predictedValuation": "$1-3B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series C stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "VulcanForms": {
       "predictedTiming": "H2 2026",
@@ -4689,7 +4706,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Late Stage stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Lumotive": {
       "predictedTiming": "H2 2026",
@@ -4698,7 +4715,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Voyant Photonics": {
       "predictedTiming": "H2 2026",
@@ -4707,7 +4724,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Standard Bots": {
       "predictedTiming": "H2 2026",
@@ -4716,7 +4733,7 @@
       "predictedValuation": "$500M-1B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series B stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Path Robotics": {
       "predictedTiming": "H2 2026",
@@ -4725,7 +4742,7 @@
       "predictedValuation": "$3-8B",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series D stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Forge Robotics": {
       "predictedTiming": "H2 2026",
@@ -4734,7 +4751,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cohesive Robotics": {
       "predictedTiming": "H2 2026",
@@ -4743,7 +4760,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Ultra Robotics": {
       "predictedTiming": "H2 2026",
@@ -4752,7 +4769,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Gallox Semiconductors": {
       "predictedTiming": "H2 2026",
@@ -4761,7 +4778,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Vertical Semiconductor": {
       "predictedTiming": "H2 2026",
@@ -4770,7 +4787,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "MaverickX": {
       "predictedTiming": "H2 2026",
@@ -4779,7 +4796,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "OpenX": {
       "predictedTiming": "H2 2026",
@@ -4788,7 +4805,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "First Resonance": {
       "predictedTiming": "H2 2026",
@@ -4797,7 +4814,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Diode Computers": {
       "predictedTiming": "H2 2026",
@@ -4806,7 +4823,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Flux": {
       "predictedTiming": "H2 2026",
@@ -4815,7 +4832,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "JITX": {
       "predictedTiming": "H2 2026",
@@ -4824,7 +4841,7 @@
       "predictedValuation": "$150-300M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Series A stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Lambda Function": {
       "predictedTiming": "H2 2026",
@@ -4833,7 +4850,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Krevera": {
       "predictedTiming": "H2 2026",
@@ -4842,7 +4859,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Photonium": {
       "predictedTiming": "H2 2026",
@@ -4851,7 +4868,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Mbodi AI": {
       "predictedTiming": "H2 2026",
@@ -4860,7 +4877,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Matter": {
       "predictedTiming": "H2 2026",
@@ -4869,7 +4886,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Drafter": {
       "predictedTiming": "H2 2026",
@@ -4878,7 +4895,7 @@
       "predictedValuation": "$50-100M",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and Seed stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "a16z (Andreessen Horowitz)": {
       "predictedTiming": "H2 2026",
@@ -4887,7 +4904,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "8VC": {
       "predictedTiming": "H2 2026",
@@ -4896,7 +4913,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Founders Fund": {
       "predictedTiming": "H2 2026",
@@ -4905,7 +4922,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Khosla Ventures": {
       "predictedTiming": "H2 2026",
@@ -4914,7 +4931,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Sequoia Capital": {
       "predictedTiming": "H2 2026",
@@ -4923,7 +4940,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "DCVC (Data Collective)": {
       "predictedTiming": "H2 2026",
@@ -4932,7 +4949,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Eclipse Ventures": {
       "predictedTiming": "H2 2026",
@@ -4941,7 +4958,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "General Catalyst": {
       "predictedTiming": "H2 2026",
@@ -4950,7 +4967,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Alumni Ventures": {
       "predictedTiming": "H2 2026",
@@ -4959,7 +4976,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Lux Capital": {
       "predictedTiming": "H2 2026",
@@ -4968,7 +4985,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Harpoon Ventures": {
       "predictedTiming": "H2 2026",
@@ -4977,7 +4994,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Lowercarbon Capital": {
       "predictedTiming": "H2 2026",
@@ -4986,7 +5003,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Cantos Ventures": {
       "predictedTiming": "H2 2026",
@@ -4995,7 +5012,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Shield Capital": {
       "predictedTiming": "H2 2026",
@@ -5004,7 +5021,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Bedrock Capital": {
       "predictedTiming": "H2 2026",
@@ -5013,7 +5030,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "NVIDIA": {
       "predictedTiming": "H2 2026",
@@ -5022,7 +5039,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Kratos Defense": {
       "predictedTiming": "H2 2026",
@@ -5031,7 +5048,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "fundingVelocity": {
       "predictedTiming": "H2 2026",
@@ -5040,7 +5057,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "valuationGrowth": {
       "predictedTiming": "H2 2026",
@@ -5049,7 +5066,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "hiringVelocity": {
       "predictedTiming": "H2 2026",
@@ -5058,7 +5075,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "newsVolume": {
       "predictedTiming": "H2 2026",
@@ -5067,7 +5084,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "contractWins": {
       "predictedTiming": "H2 2026",
@@ -5076,7 +5093,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "tamSize": {
       "predictedTiming": "H2 2026",
@@ -5085,7 +5102,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "marketTiming": {
       "predictedTiming": "H2 2026",
@@ -5094,7 +5111,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "competitivePosition": {
       "predictedTiming": "H2 2026",
@@ -5103,7 +5120,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "regulatoryTailwinds": {
       "predictedTiming": "H2 2026",
@@ -5112,7 +5129,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "customerQuality": {
       "predictedTiming": "H2 2026",
@@ -5121,7 +5138,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "trlLevel": {
       "predictedTiming": "H2 2026",
@@ -5130,7 +5147,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "ipMoat": {
       "predictedTiming": "H2 2026",
@@ -5139,7 +5156,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "techDifferentiation": {
       "predictedTiming": "H2 2026",
@@ -5148,7 +5165,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "productMaturity": {
       "predictedTiming": "H2 2026",
@@ -5157,7 +5174,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "founderExperience": {
       "predictedTiming": "H2 2026",
@@ -5166,7 +5183,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "mafiaConnections": {
       "predictedTiming": "H2 2026",
@@ -5175,7 +5192,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "investorQuality": {
       "predictedTiming": "H2 2026",
@@ -5184,7 +5201,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "teamDepth": {
       "predictedTiming": "H2 2026",
@@ -5193,7 +5210,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "dealCount": {
       "predictedTiming": "H2 2026",
@@ -5202,7 +5219,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "megaRounds": {
       "predictedTiming": "H2 2026",
@@ -5211,7 +5228,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Funding Alerts": {
       "predictedTiming": "H2 2026",
@@ -5220,7 +5237,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Contract Alerts": {
       "predictedTiming": "H2 2026",
@@ -5229,7 +5246,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Leadership Alerts": {
       "predictedTiming": "H2 2026",
@@ -5238,7 +5255,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Patent Alerts": {
       "predictedTiming": "H2 2026",
@@ -5247,7 +5264,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Signal Alerts": {
       "predictedTiming": "H2 2026",
@@ -5256,7 +5273,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Regulatory Alerts": {
       "predictedTiming": "H2 2026",
@@ -5265,7 +5282,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "IPO Readiness Score": {
       "predictedTiming": "H2 2026",
@@ -5274,7 +5291,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Revenue Scale": {
       "predictedTiming": "H2 2026",
@@ -5283,7 +5300,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Revenue Growth": {
       "predictedTiming": "H2 2026",
@@ -5292,7 +5309,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Path to Profitability": {
       "predictedTiming": "H2 2026",
@@ -5301,7 +5318,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Governance Readiness": {
       "predictedTiming": "H2 2026",
@@ -5310,7 +5327,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Market Conditions": {
       "predictedTiming": "H2 2026",
@@ -5319,7 +5336,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Investor Pressure": {
       "predictedTiming": "H2 2026",
@@ -5328,7 +5345,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Competitive Position": {
       "predictedTiming": "H2 2026",
@@ -5337,7 +5354,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Regulatory Clearance": {
       "predictedTiming": "H2 2026",
@@ -5346,7 +5363,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "M&A Target Score": {
       "predictedTiming": "H2 2026",
@@ -5355,7 +5372,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Strategic Value": {
       "predictedTiming": "H2 2026",
@@ -5364,7 +5381,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Acquirer Landscape": {
       "predictedTiming": "H2 2026",
@@ -5373,7 +5390,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Valuation Attractiveness": {
       "predictedTiming": "H2 2026",
@@ -5382,7 +5399,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Founder Intent": {
       "predictedTiming": "H2 2026",
@@ -5391,7 +5408,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Competitive Pressure": {
       "predictedTiming": "H2 2026",
@@ -5400,7 +5417,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Integration Complexity": {
       "predictedTiming": "H2 2026",
@@ -5409,7 +5426,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Regulatory Risk": {
       "predictedTiming": "H2 2026",
@@ -5418,7 +5435,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Failure Risk Score": {
       "predictedTiming": "H2 2026",
@@ -5427,7 +5444,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Burn Multiple": {
       "predictedTiming": "H2 2026",
@@ -5436,7 +5453,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Revenue Trajectory": {
       "predictedTiming": "H2 2026",
@@ -5445,7 +5462,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Market Position": {
       "predictedTiming": "H2 2026",
@@ -5454,7 +5471,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Funding Environment": {
       "predictedTiming": "H2 2026",
@@ -5463,7 +5480,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Customer Concentration": {
       "predictedTiming": "H2 2026",
@@ -5472,7 +5489,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Team Stability": {
       "predictedTiming": "H2 2026",
@@ -5481,7 +5498,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Next Round Prediction": {
       "predictedTiming": "H2 2026",
@@ -5490,7 +5507,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Time Since Last Round": {
       "predictedTiming": "H2 2026",
@@ -5499,7 +5516,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Burn Rate vs Runway": {
       "predictedTiming": "H2 2026",
@@ -5508,7 +5525,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Growth Trajectory": {
       "predictedTiming": "H2 2026",
@@ -5517,7 +5534,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Market Appetite": {
       "predictedTiming": "H2 2026",
@@ -5526,7 +5543,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Strategic Milestones": {
       "predictedTiming": "H2 2026",
@@ -5535,7 +5552,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "LA Defense Corridor": {
       "predictedTiming": "H2 2026",
@@ -5544,7 +5561,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "SoCal Space Hub": {
       "predictedTiming": "H2 2026",
@@ -5553,7 +5570,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "SF AI Cluster": {
       "predictedTiming": "H2 2026",
@@ -5562,7 +5579,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Bay Area Energy": {
       "predictedTiming": "H2 2026",
@@ -5571,7 +5588,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     },
     "Robotics Valley": {
       "predictedTiming": "H2 2026",
@@ -5580,7 +5597,7 @@
       "predictedValuation": "$TBD",
       "likelyInvestors": [],
       "catalyst": "Growth trajectory and  stage momentum",
-      "lastUpdated": "2026-03-17"
+      "lastUpdated": "2026-03-18"
     }
   }
 }
