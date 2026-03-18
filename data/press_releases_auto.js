@@ -1,10 +1,15 @@
 // Auto-updated press releases
-// Last updated: 2026-03-15 07:37:18 UTC
+// Last updated: 2026-03-18 07:43:58 UTC
 const PRESS_RELEASES = [
-  { title: "HII’S Ingalls Shipbuilding Celebrates Apprentice School Graduates", date: "", companies: "Saronic, Alpha School", categories: "", source: "globenewswire_all" },
-  { title: "Digital Asset Technologies Announces Settlement Agreement with Former Auditor", date: "", companies: "Agility Robotics", categories: "partnership, product", source: "globenewswire_all" },
-  { title: "Nobel Announces Change of Transfer Agent", date: "", companies: "Daylight Computer", categories: "product", source: "globenewswire_all" },
-  { title: "Domestic Metals Completes Surface IP Geophysical Survey at Smart Creek and Annou", date: "", companies: "Fortera", categories: "product, milestone", source: "globenewswire_all" },
-  { title: "Oculis Publishes Notifications of Transactions by Persons Discharging Managerial", date: "", companies: "Flexport, Ample", categories: "hiring", source: "globenewswire_all" },
-  { title: "InflaRx Announces Receipt of Nasdaq Deficiency Notice Regarding Minimum Bid Pric", date: "", companies: "Asimov, Profluent", categories: "product", source: "globenewswire_all" },
+  { title: "LEADING EDGE MATERIALS FILES CPR FOR BIHOR SUD POLYMETALLIC EXPLORATION PROJECT,", date: "", companies: "Space Forge", categories: "", source: "globenewswire_all" },
+  { title: "INVL Asset Management launches a fund to invest in technology companies in North", date: "", companies: "Endurosat", categories: "funding, partnership", source: "globenewswire_all" },
+  { title: "„INVL Asset Management“ įsteigė fondą investicijoms į Šiaurės ir Vakarų Europos ", date: "", companies: "Endurosat", categories: "partnership", source: "globenewswire_all" },
+  { title: "CoinShares Leverages Railnet to Launch On-Chain Asset Management Strategy Combin", date: "", companies: "Endurosat", categories: "milestone", source: "globenewswire_all" },
+  { title: "Technip Energies announces launch of share buy-back program", date: "", companies: "Karman Industries, The Boring Company, Pipedream", categories: "funding, product", source: "globenewswire_all" },
+  { title: "Technip Energies annonce le lancement d’un programme de rachat d’actions", date: "", companies: "The Boring Company, Pipedream, Blumen Systems", categories: "funding", source: "globenewswire_all" },
+  { title: "Technip Energies invests in Verso Energy’s DEZiR eSAF project in Rouen", date: "", companies: "Karman Industries, Solugen, Gecko Robotics", categories: "funding, contract", source: "globenewswire_all" },
+  { title: "Freedom Bank Kazakhstan Receives Its First Moody’s Rating at Ba3 with Stable Out", date: "", companies: "Truemed, Sift", categories: "product, milestone", source: "globenewswire_all" },
+  { title: "Pulsar Helium Reports Completion of Jetstream #7 and Commencement of Down-Hole L", date: "", companies: "Fortera", categories: "ipo", source: "globenewswire_all" },
+  { title: "BioVersys Reports Corporate Highlights and Financial Results for the Full Year 2", date: "", companies: "Fortera", categories: "", source: "globenewswire_all" },
+  { title: "VALLOUREC SECURES A CARBON STORAGE CONTRACT  WITH BP BERAU LTD.  FOR THE FIRST O", date: "", companies: "Carbon Robotics, Watershed, Graphyte", categories: "contract, milestone", source: "globenewswire_all" },
 ];

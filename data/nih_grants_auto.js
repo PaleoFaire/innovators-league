@@ -3903,4 +3903,6 @@ const NIH_GRANTS_AUTO = [
     terms: ["Antibodies", "Antisense Oligonucleotides", "Astrocytes", "Attenuated", "Biology", "Bladder", "Cancer Model", "Cancer Patient"],
     isKnownCompany: false,
   },
+];: false,
+  },
 ];
