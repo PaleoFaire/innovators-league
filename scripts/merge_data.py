@@ -1078,6 +1078,282 @@ def update_arpa_e_projects(data_js_content):
     return data_js_content
 
 
+def update_news_feed(data_js_content):
+    """Update NEWS_FEED in data.js with fresh news from RSS aggregation.
+    Preserves curated entries with rosAnalysis, adds new auto-detected news.
+    """
+    news = load_json("news_raw.json")
+    if not news:
+        print("No news data found for NEWS_FEED, skipping...")
+        return data_js_content
+
+    # Parse existing curated NEWS_FEED entries (those with rosAnalysis)
+    pattern = r'const NEWS_FEED = \[([\s\S]*?)\];'
+    match = re.search(pattern, data_js_content)
+    if not match:
+        print("  NEWS_FEED not found in data.js, skipping...")
+        return data_js_content
+
+    # Extract curated entries that have rosAnalysis
+    curated_entries = []
+    # Find entries with rosAnalysis field — these are editorial and should be preserved
+    entry_blocks = re.findall(r'\{[^{}]*rosAnalysis:[^{}]*\}', match.group(1))
+    for block in entry_blocks:
+        company_m = re.search(r'company:\s*"([^"]+)"', block)
+        headline_m = re.search(r'headline:\s*"((?:[^"\\]|\\.)*)"', block)
+        if company_m and headline_m:
+            curated_entries.append({
+                "company": company_m.group(1),
+                "headline": headline_m.group(1),
+            })
+
+    curated_keys = set(f"{e['company']}:{e['headline'][:50]}" for e in curated_entries)
+
+    # Categorize news by keywords
+    def categorize_news(title):
+        t = title.lower()
+        if any(w in t for w in ["fund", "raise", "series", "valuation", "invest", "round"]):
+            return "funding"
+        elif any(w in t for w in ["contract", "award", "sbir", "ota", "idiq"]):
+            return "contract"
+        elif any(w in t for w in ["ipo", "spac", "public", "listing"]):
+            return "ipo"
+        elif any(w in t for w in ["launch", "deploy", "milestone", "test", "demo"]):
+            return "milestone"
+        elif any(w in t for w in ["partner", "collaborat", "joint", "alliance"]):
+            return "partnership"
+        elif any(w in t for w in ["hire", "appoint", "ceo", "cto", "executive"]):
+            return "leadership"
+        return "news"
+
+    def assess_impact(title):
+        t = title.lower()
+        if any(w in t for w in ["billion", "$1b", "$2b", "$5b", "$10b", "ipo", "acquisition"]):
+            return "high"
+        elif any(w in t for w in ["million", "contract", "award", "series"]):
+            return "medium"
+        return "low"
+
+    # Build new news items from auto-fetched data
+    auto_items = []
+    for i, article in enumerate(news):
+        company = article.get("matchedCompany", "")
+        if not company:
+            continue
+        title = article.get("title", "")
+        if not title:
+            continue
+        # Skip if this matches a curated entry
+        key = f"{company}:{title[:50]}"
+        if key in curated_keys:
+            continue
+
+        sector = article.get("sector", "")
+        # Try to derive sector from company if not provided
+        if not sector:
+            sector = "General"
+
+        auto_items.append({
+            "company": company,
+            "headline": title[:150].replace('"', "'"),
+            "source": article.get("source", ""),
+            "category": categorize_news(title),
+            "date": article.get("date", article.get("time", ""))[:10],
+            "summary": (article.get("summary", "") or "")[:200].replace('"', "'").replace("\n", " "),
+            "impact": assess_impact(title),
+            "sector": sector,
+        })
+
+    if not auto_items:
+        print("No new auto news items found, skipping NEWS_FEED update...")
+        return data_js_content
+
+    # Sort by date descending
+    auto_items.sort(key=lambda x: x.get("date", ""), reverse=True)
+
+    # Rebuild NEWS_FEED: curated entries first (preserved as-is), then auto items
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    # We need to keep the curated block intact and append auto items
+    # Instead of replacing, we'll rebuild the whole array
+    js_array = f"// Auto-updated news feed (curated + auto-detected)\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "const NEWS_FEED = [\n"
+
+    # Re-insert curated entries by extracting their full blocks from existing content
+    curated_block = ""
+    for block_match in re.finditer(r'(\{[^{}]*rosAnalysis:[^{}]*\}),?\s*\n', match.group(1)):
+        curated_block += "  " + block_match.group(1) + ",\n"
+
+    if curated_block:
+        js_array += "  // ─── CURATED (Editorial Analysis) ───\n"
+        js_array += curated_block
+
+    # Add auto items (cap at 50)
+    js_array += "  // ─── AUTO-DETECTED NEWS ───\n"
+    next_id = len(curated_entries) + 1
+    for item in auto_items[:50]:
+        js_array += f'  {{ id: {next_id}, company: "{item["company"]}", '
+        js_array += f'headline: "{item["headline"]}", '
+        js_array += f'source: "{item["source"]}", '
+        js_array += f'category: "{item["category"]}", '
+        js_array += f'date: "{item["date"]}", '
+        js_array += f'summary: "{item["summary"]}", '
+        js_array += f'impact: "{item["impact"]}", '
+        js_array += f'sector: "{item["sector"]}", '
+        js_array += f'url: "#" }},\n'
+        next_id += 1
+
+    js_array += "];"
+
+    data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+    print(f"  Updated NEWS_FEED ({len(curated_entries)} curated + {min(len(auto_items), 50)} auto)")
+
+    return data_js_content
+
+
+def update_alt_data_signals(data_js_content):
+    """Rebuild ALT_DATA_SIGNALS from auto-updated HEADCOUNT_ESTIMATES, GROWTH_SIGNALS, and news data.
+    Produces per-company signal dashboard: hiring velocity, headcount, sentiment, signal strength.
+    """
+    headcount = load_json("headcount_estimates_auto.json")
+    growth_signals = load_json("growth_signals_auto.json")
+    news = load_json("news_raw.json")
+
+    if not any([headcount, growth_signals, news]):
+        print("No data sources for ALT_DATA_SIGNALS, skipping...")
+        return data_js_content
+
+    pattern = r'(?://[^\n]*\n)*const ALT_DATA_SIGNALS = \[[\s\S]*?\];'
+    if not re.search(pattern, data_js_content):
+        print("  ALT_DATA_SIGNALS not found in data.js, skipping...")
+        return data_js_content
+
+    # Build company profiles from multiple sources
+    companies = {}
+
+    # From headcount estimates: hiring velocity, headcount
+    for hc in (headcount or []):
+        company = hc.get("company", "")
+        if not company:
+            continue
+        companies.setdefault(company, {})
+        companies[company]["hiringVelocity"] = hc.get("hiringVelocity", "stable")
+        open_pos = hc.get("openPositions", 0)
+        est_hc = hc.get("estimatedHeadcount", 0)
+        companies[company]["headcountEstimate"] = hc.get("headcountFormatted", f"{est_hc:,}" if est_hc else "")
+        companies[company]["sector"] = hc.get("sector", "")
+        # Derive signal strength from hiring velocity
+        velocity_scores = {"surging": 9, "growing": 7, "stable": 5, "quiet": 3, "declining": 2}
+        companies[company]["hiringScore"] = velocity_scores.get(hc.get("hiringVelocity", "stable"), 5)
+
+    # From growth signals: aggregate signal strength per company
+    signal_counts = {}
+    for gs in (growth_signals or []):
+        company = gs.get("company", "")
+        if not company:
+            continue
+        companies.setdefault(company, {})
+        signal_counts.setdefault(company, 0)
+        signal_counts[company] += gs.get("strength", 1)
+        # Use the strongest signal as key signal
+        if gs.get("strength", 0) > companies[company].get("bestSignalStrength", 0):
+            companies[company]["bestSignalStrength"] = gs.get("strength", 0)
+            companies[company]["keySignal"] = gs.get("detail", "")
+
+    # From news: sentiment and web traffic proxy
+    news_counts = {}
+    for article in (news or []):
+        company = article.get("matchedCompany", "")
+        if not company:
+            continue
+        companies.setdefault(company, {})
+        news_counts.setdefault(company, 0)
+        news_counts[company] += 1
+
+    # Calculate composite signal strength and sentiment for each company
+    results = []
+    for company, data in companies.items():
+        hiring_score = data.get("hiringScore", 5)
+        signal_count = signal_counts.get(company, 0)
+        news_count = news_counts.get(company, 0)
+
+        # Composite signal strength (1-10)
+        signal_strength = min(10, max(1, round(
+            hiring_score * 0.4 +
+            min(10, signal_count) * 0.3 +
+            min(10, news_count * 2) * 0.3
+        )))
+
+        # Determine web traffic proxy from news volume
+        if news_count >= 3:
+            web_traffic = "up"
+        elif news_count >= 1:
+            web_traffic = "flat"
+        else:
+            web_traffic = "down"
+
+        # Determine sentiment from news (simplified — positive if mentioned frequently)
+        if news_count >= 3 and hiring_score >= 7:
+            sentiment = "positive"
+        elif news_count >= 1:
+            sentiment = "mixed"
+        elif hiring_score <= 3:
+            sentiment = "negative"
+        else:
+            sentiment = "neutral"
+
+        key_signal = data.get("keySignal", "")
+        if not key_signal and data.get("hiringVelocity"):
+            velocity = data.get("hiringVelocity", "stable")
+            hc = data.get("headcountEstimate", "")
+            key_signal = f"Hiring velocity: {velocity}. Est. headcount: {hc}" if hc else f"Hiring velocity: {velocity}"
+
+        results.append({
+            "company": company,
+            "hiringVelocity": data.get("hiringVelocity", "stable"),
+            "headcountEstimate": data.get("headcountEstimate", ""),
+            "webTraffic": web_traffic,
+            "newsSentiment": sentiment,
+            "signalStrength": signal_strength,
+            "keySignal": key_signal[:200].replace('"', "'").replace("\n", " "),
+        })
+
+    # Sort by signal strength descending, take top 50
+    results.sort(key=lambda x: x["signalStrength"], reverse=True)
+    results = results[:50]
+
+    if not results:
+        print("No ALT_DATA_SIGNALS to write, skipping...")
+        return data_js_content
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-calculated alternative data signals\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += f"// Sources: headcount estimates, growth signals, news sentiment\n"
+    js_array += "const ALT_DATA_SIGNALS = [\n"
+
+    for s in results:
+        company = s["company"].replace('"', "'")
+        key_signal = s["keySignal"].replace('"', "'")
+        js_array += f'  {{ company: "{company}", '
+        js_array += f'hiringVelocity: "{s["hiringVelocity"]}", '
+        js_array += f'keyRoles: [], '
+        js_array += f'headcountEstimate: "{s["headcountEstimate"]}", '
+        js_array += f'webTraffic: "{s["webTraffic"]}", '
+        js_array += f'newsSentiment: "{s["newsSentiment"]}", '
+        js_array += f'githubPresence: null, '
+        js_array += f'signalStrength: {s["signalStrength"]}, '
+        js_array += f'keySignal: "{key_signal}" }},\n'
+
+    js_array += "];"
+
+    data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+    print(f"  Updated ALT_DATA_SIGNALS ({len(results)} companies)")
+
+    return data_js_content
+
+
 def update_patent_intel(data_js_content):
     """Update PATENT_INTEL in data.js with fresh USPTO patent data.
     Merges auto-fetched patent counts/velocity with curated ipMoatScore/notes.
@@ -1607,6 +1883,8 @@ def main():
     data_js_content = update_nih_grants(data_js_content)
     data_js_content = update_arpa_e_projects(data_js_content)
     data_js_content = update_diffbot_enrichment(data_js_content)
+    data_js_content = update_news_feed(data_js_content)
+    data_js_content = update_alt_data_signals(data_js_content)
     data_js_content = update_patent_intel(data_js_content)
     data_js_content = update_live_award_feed(data_js_content)
     data_js_content = update_valley_of_death(data_js_content)
