@@ -1004,6 +1004,41 @@ function openCompanyModal(companyName) {
       `;
     })()}
 
+    ${(() => {
+      // Historical Tracking mini-chart
+      if (typeof HISTORICAL_TRACKING === 'undefined') return '';
+      const hist = HISTORICAL_TRACKING[company.name];
+      if (!hist || !hist.valuations || hist.valuations.length < 2) return '';
+      const vals = hist.valuations;
+      const first = vals[0].value;
+      const last = vals[vals.length - 1].value;
+      const growth = first > 0 ? ((last / first - 1) * 100).toFixed(0) : 0;
+      const maxVal = Math.max(...vals.map(v => v.value));
+      return `
+        <div class="modal-historical" style="border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:12px 0;">
+          <h4 style="margin:0 0 12px;display:flex;align-items:center;gap:8px;font-size:14px;">
+            <span>📈</span> Valuation History
+            <span style="margin-left:auto;font-size:13px;font-weight:700;color:${growth > 0 ? '#22c55e' : '#ef4444'};">${growth > 0 ? '+' : ''}${growth}% total</span>
+          </h4>
+          <div style="display:flex;align-items:flex-end;gap:3px;height:60px;margin-bottom:8px;">
+            ${vals.map(v => {
+              const pct = maxVal > 0 ? (v.value / maxVal * 100) : 0;
+              return '<div style="flex:1;background:linear-gradient(to top,var(--accent),rgba(255,107,44,0.3));border-radius:3px 3px 0 0;height:' + pct + '%;min-height:4px;" title="' + v.event + ': $' + v.value + 'B (' + v.date + ')"></div>';
+            }).join('')}
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--text-muted);">
+            <span>${vals[0].date}</span>
+            <span>$${last >= 1 ? last.toFixed(0) + 'B' : (last * 1000).toFixed(0) + 'M'} (${vals[vals.length-1].event})</span>
+          </div>
+          ${hist.headcount && hist.headcount.length >= 2 ? (() => {
+            const hc = hist.headcount;
+            const lastHc = hc[hc.length - 1].count;
+            return '<div style="margin-top:10px;font-size:12px;color:var(--text-secondary);">Team: <strong>' + lastHc.toLocaleString() + '</strong> employees (from ' + hc[0].count.toLocaleString() + ' in ' + hc[0].date.slice(0,4) + ')</div>';
+          })() : ''}
+        </div>
+      `;
+    })()}
+
     <div class="modal-actions">
       <a href="${getCompanyProfileUrl(company.name)}" class="modal-action-btn primary">
         📊 Full Profile
@@ -1021,6 +1056,9 @@ function openCompanyModal(companyName) {
       <button class="modal-action-btn" onclick="shareCompany('${company.name.replace(/'/g, "\\'")}')">
         ↗ Share
       </button>
+      <a href="dealflow.html" class="modal-action-btn" style="font-size:12px;">
+        🎯 Deal Flow
+      </a>
     </div>
 
     ${competitors.length > 0 ? `
@@ -1197,6 +1235,8 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initPremiumFeatures);
   safeInit(initThesisCollision);
   safeInit(initSectionTimestamps);
+  safeInit(initSectionNav);
+  safeInit(initProgressiveDisclosure);
   safeInit(initOpti);
 
   // Always hide loading skeletons and update freshness, even if some inits failed
@@ -1333,10 +1373,159 @@ function addSectionTimestamp(sectionId, dataSourceKey) {
   // Resolve "auto" dates from live data
   const dateStr = source.lastUpdated === 'auto' ? resolveDataSourceDate(dataSourceKey) : source.lastUpdated;
 
+  // Calculate freshness level
+  const updateDate = new Date(dateStr);
+  const now = new Date();
+  const diffHours = Math.floor((now - updateDate) / (1000 * 60 * 60));
+  const diffDays = Math.floor(diffHours / 24);
+
+  let freshnessClass = '';
+  let freshnessLabel = '';
+  let dotColor = '#22c55e'; // green
+  if (diffHours < 12) {
+    freshnessClass = 'live';
+    freshnessLabel = 'Live';
+    dotColor = '#22c55e';
+  } else if (diffHours < 48) {
+    freshnessClass = 'fresh';
+    freshnessLabel = `${diffHours}h ago`;
+    dotColor = '#22c55e';
+  } else if (diffDays < 7) {
+    freshnessClass = 'stale';
+    freshnessLabel = `${diffDays}d ago`;
+    dotColor = '#f59e0b';
+  } else {
+    freshnessClass = 'offline';
+    freshnessLabel = `${diffDays}d ago`;
+    dotColor = '#ef4444';
+  }
+
   const timestamp = document.createElement('div');
-  timestamp.className = 'section-timestamp';
-  timestamp.innerHTML = `<span class="timestamp-dot">●</span> Updated ${dateStr} · ${source.frequency}`;
+  timestamp.className = `section-timestamp ${freshnessClass}`;
+  timestamp.innerHTML = `<span class="timestamp-dot" style="color:${dotColor}">●</span> ${freshnessLabel} · ${source.frequency}`;
+  timestamp.title = `Last updated: ${dateStr}\nSource: ${source.source}\nFrequency: ${source.frequency}`;
   header.appendChild(timestamp);
+}
+
+// ═══════════════════════════════════════════════════════
+// STICKY SECTION NAVIGATION — Quick-jump sidebar
+// ═══════════════════════════════════════════════════════
+function initSectionNav() {
+  const nav = document.getElementById('section-nav');
+  if (!nav) return;
+
+  const dots = nav.querySelectorAll('.section-nav-dot');
+  if (!dots.length) return;
+
+  // Show nav when user scrolls past hero section
+  const hero = document.querySelector('.hero');
+  if (hero) {
+    const heroObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          nav.classList.remove('visible');
+        } else {
+          nav.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.3 });
+    heroObserver.observe(hero);
+  }
+
+  // Track which section is currently in view
+  const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id;
+        dots.forEach(dot => {
+          dot.classList.toggle('active', dot.dataset.section === id);
+        });
+      }
+    });
+  }, {
+    rootMargin: '-20% 0px -60% 0px',
+    threshold: 0
+  });
+
+  // Observe all sections referenced in the nav
+  dots.forEach(dot => {
+    const section = document.getElementById(dot.dataset.section);
+    if (section) {
+      sectionObserver.observe(section);
+    }
+  });
+
+  // Smooth scroll on click
+  dots.forEach(dot => {
+    dot.addEventListener('click', (e) => {
+      e.preventDefault();
+      const section = document.getElementById(dot.dataset.section);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+}
+
+// ═══════════════════════════════════════════════════════
+// PROGRESSIVE DISCLOSURE — Collapse secondary tabs
+// ═══════════════════════════════════════════════════════
+function initProgressiveDisclosure() {
+  // Predictive Analytics: show first 3 tabs, collapse rest
+  const predictiveTabs = document.querySelector('.predictive-tabs');
+  if (predictiveTabs) {
+    const tabs = predictiveTabs.querySelectorAll('.predictive-tab');
+    if (tabs.length > 3) {
+      // Hide tabs after 3rd
+      tabs.forEach((tab, i) => {
+        if (i >= 3) {
+          tab.style.display = 'none';
+          tab.dataset.collapsed = 'true';
+        }
+      });
+      // Add "Show more" toggle
+      const toggle = document.createElement('button');
+      toggle.className = 'predictive-tab disclosure-toggle';
+      toggle.textContent = '+ More analysis';
+      toggle.style.cssText = 'opacity:0.6;font-size:12px;border-style:dashed;';
+      toggle.addEventListener('click', () => {
+        const collapsed = predictiveTabs.querySelectorAll('[data-collapsed="true"]');
+        collapsed.forEach(t => {
+          t.style.display = '';
+          delete t.dataset.collapsed;
+        });
+        toggle.remove();
+      });
+      predictiveTabs.appendChild(toggle);
+    }
+  }
+
+  // Intelligence Hub: show first 3 tabs, collapse last
+  const intelTabs = document.querySelector('.intel-hub-tabs');
+  if (intelTabs) {
+    const tabs = intelTabs.querySelectorAll('.intel-hub-tab');
+    if (tabs.length > 3) {
+      tabs.forEach((tab, i) => {
+        if (i >= 3) {
+          tab.style.display = 'none';
+          tab.dataset.collapsed = 'true';
+        }
+      });
+      const toggle = document.createElement('button');
+      toggle.className = 'intel-hub-tab disclosure-toggle';
+      toggle.textContent = '+ More';
+      toggle.style.cssText = 'opacity:0.6;font-size:12px;border-style:dashed;';
+      toggle.addEventListener('click', () => {
+        const collapsed = intelTabs.querySelectorAll('[data-collapsed="true"]');
+        collapsed.forEach(t => {
+          t.style.display = '';
+          delete t.dataset.collapsed;
+        });
+        toggle.remove();
+      });
+      intelTabs.appendChild(toggle);
+    }
+  }
 }
 
 // Initialize all section timestamps for data freshness visibility

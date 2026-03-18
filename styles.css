@@ -13197,6 +13197,109 @@ body {
   }
 }
 
+/* ═══ Sticky Section Navigation Sidebar ═══ */
+.section-nav {
+  position: fixed;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  pointer-events: none;
+}
+
+.section-nav.visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.section-nav-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  padding: 12px 8px;
+  background: rgba(26, 27, 30, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+.section-nav-dot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.section-nav-dot::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.section-nav-dot span {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  white-space: nowrap;
+  max-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-width 0.3s ease, opacity 0.2s ease, color 0.2s ease;
+}
+
+.section-nav-dot:hover span,
+.section-nav-dot.active span {
+  max-width: 80px;
+  opacity: 1;
+}
+
+.section-nav-dot:hover {
+  background: rgba(255,107,44,0.1);
+}
+
+.section-nav-dot:hover::before {
+  background: var(--accent);
+  transform: scale(1.3);
+}
+
+.section-nav-dot:hover span {
+  color: var(--text-primary);
+}
+
+.section-nav-dot.active::before {
+  background: var(--accent);
+  width: 10px;
+  height: 10px;
+  box-shadow: 0 0 8px rgba(255,107,44,0.5);
+}
+
+.section-nav-dot.active span {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Hide on mobile and tablets */
+@media (max-width: 1200px) {
+  .section-nav {
+    display: none;
+  }
+}
+
 /* Global Data Freshness Indicator (Header) */
 .data-freshness-indicator {
   display: flex;
