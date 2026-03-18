@@ -1078,6 +1078,416 @@ def update_arpa_e_projects(data_js_content):
     return data_js_content
 
 
+def update_patent_intel(data_js_content):
+    """Update PATENT_INTEL in data.js with fresh USPTO patent data.
+    Merges auto-fetched patent counts/velocity with curated ipMoatScore/notes.
+    """
+    aggregated = load_json("patents_aggregated.json")
+    if not aggregated:
+        print("No patent aggregated data found, skipping...")
+        return data_js_content
+
+    # Build lookup from aggregated patent data
+    auto_data = {}
+    for entry in aggregated:
+        auto_data[entry["company"]] = entry
+
+    # Parse existing curated PATENT_INTEL entries to preserve ipMoatScore, notablePatents, note
+    pattern = r'const PATENT_INTEL = \[([\s\S]*?)\];'
+    match = re.search(pattern, data_js_content)
+    if not match:
+        print("  PATENT_INTEL not found in data.js, skipping...")
+        return data_js_content
+
+    # Extract curated entries
+    curated = {}
+    entry_pattern = r'\{[^}]+\}'
+    for entry_match in re.finditer(entry_pattern, match.group(1)):
+        block = entry_match.group(0)
+        name_match = re.search(r'company:\s*"([^"]+)"', block)
+        if name_match:
+            company = name_match.group(1)
+            # Extract curated fields
+            moat_match = re.search(r'ipMoatScore:\s*(\d+)', block)
+            note_match = re.search(r'note:\s*"((?:[^"\\]|\\.)*)"', block)
+            notable_match = re.search(r'notablePatents:\s*\[(.*?)\]', block)
+            tech_match = re.search(r'techAreas:\s*\[(.*?)\]', block)
+            curated[company] = {
+                "ipMoatScore": int(moat_match.group(1)) if moat_match else 5,
+                "note": note_match.group(1) if note_match else "",
+                "notablePatents": notable_match.group(1) if notable_match else "",
+                "techAreas": tech_match.group(1) if tech_match else "",
+            }
+
+    print(f"Merging patent data: {len(auto_data)} auto + {len(curated)} curated...")
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-updated patent intelligence (curated scores + USPTO data)\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "const PATENT_INTEL = [\n"
+
+    # Merge: start with curated companies (preserve order), update counts from auto
+    processed = set()
+    for company, cur in curated.items():
+        auto = auto_data.get(company, {})
+        total_patents = auto.get("patentCount", 0)
+        # Try to extract existing totalPatents from curated if no auto data
+        if total_patents == 0:
+            existing_match = re.search(rf'company:\s*"{re.escape(company)}"[^}}]*totalPatents:\s*(\d+)', match.group(1))
+            if existing_match:
+                total_patents = int(existing_match.group(1))
+
+        # Calculate velocity from auto data
+        velocity_match = re.search(rf'company:\s*"{re.escape(company)}"[^}}]*velocity:\s*"([^"]*)"', match.group(1))
+        velocity = velocity_match.group(1) if velocity_match else "N/A"
+
+        velocity_trend_match = re.search(rf'company:\s*"{re.escape(company)}"[^}}]*velocityTrend:\s*"([^"]*)"', match.group(1))
+        velocity_trend = velocity_trend_match.group(1) if velocity_trend_match else "steady"
+
+        # If auto data has recent patents, estimate velocity
+        if auto and auto.get("patentCount", 0) > 0:
+            # patents_aggregated covers 2 years, so divide by 2 for annual
+            annual_rate = auto["patentCount"] // 2
+            if annual_rate > 0:
+                low = max(1, annual_rate - 5)
+                high = annual_rate + 5
+                velocity = f"{low}-{high}/yr"
+            # Update total if auto has higher count
+            if auto["patentCount"] > total_patents:
+                total_patents = auto["patentCount"]
+
+        note_escaped = cur["note"].replace('"', '\\"')
+        js_array += f'  {{ company: "{company}", totalPatents: {total_patents}, '
+        js_array += f'velocity: "{velocity}", velocityTrend: "{velocity_trend}", '
+        js_array += f'ipMoatScore: {cur["ipMoatScore"]}, '
+        js_array += f'techAreas: [{cur["techAreas"]}], '
+        js_array += f'notablePatents: [{cur["notablePatents"]}], '
+        js_array += f'note: "{note_escaped}" }},\n'
+        processed.add(company)
+
+    # Add new companies from auto data not in curated
+    for company, auto in auto_data.items():
+        if company in processed:
+            continue
+        if auto.get("patentCount", 0) < 3:
+            continue  # Skip companies with very few patents
+        annual_rate = auto["patentCount"] // 2
+        low = max(1, annual_rate - 5)
+        high = annual_rate + 5
+        velocity = f"{low}-{high}/yr" if annual_rate > 0 else "N/A"
+        tech_areas = json.dumps(auto.get("technologyAreas", [])[:3])
+        js_array += f'  {{ company: "{company}", totalPatents: {auto["patentCount"]}, '
+        js_array += f'velocity: "{velocity}", velocityTrend: "unknown", '
+        js_array += f'ipMoatScore: 5, '
+        js_array += f'techAreas: {tech_areas}, '
+        js_array += f'notablePatents: [], '
+        js_array += f'note: "Auto-detected from USPTO. Pending manual review." }},\n'
+
+    js_array += "];"
+
+    data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+    print(f"  Updated PATENT_INTEL ({len(curated)} curated + new auto entries)")
+
+    return data_js_content
+
+
+def update_live_award_feed(data_js_content):
+    """Update LIVE_AWARD_FEED in data.js with fresh contract/award data.
+    Sources: USAspending, SAM.gov, SBIR awards, news-detected contracts.
+    """
+    # Gather awards from multiple sources
+    awards = []
+
+    # Source 1: Government contracts (USAspending)
+    gov_contracts = load_json("gov_contracts_aggregated.json")
+    for gc in (gov_contracts or []):
+        company = gc.get("company", "")
+        if not company:
+            continue
+        # Only include companies with recent contracts
+        last_updated = gc.get("lastUpdated", "")
+        if not last_updated:
+            continue
+        awards.append({
+            "company": company,
+            "type": "contract",
+            "title": f"Government Contract — {', '.join(gc.get('agencies', [])[:2])}",
+            "value": gc.get("totalGovValue", ""),
+            "agency": ", ".join(gc.get("agencies", [])[:2]),
+            "detail": f"{gc.get('contractCount', 0)} contracts across {len(gc.get('agencies', []))} agencies.",
+            "date": last_updated,
+            "source": "usaspending"
+        })
+
+    # Source 2: SBIR awards (recent)
+    sbir_awards = load_json("sbir_awards_raw.json")
+    for sa in (sbir_awards or []):
+        if not sa.get("isKnownCompany"):
+            continue
+        award_year = sa.get("awardYear", 0)
+        if award_year < 2025:
+            continue
+        amount = sa.get("awardAmount", 0)
+        amount_fmt = f"${amount:,.0f}" if amount else ""
+        awards.append({
+            "company": sa.get("firm", ""),
+            "type": "sbir",
+            "title": f"SBIR {sa.get('phase', '')} — {sa.get('title', '')[:80]}",
+            "value": amount_fmt,
+            "agency": sa.get("agency", ""),
+            "detail": sa.get("abstract", "")[:150],
+            "date": f"{award_year}-01-01",
+            "source": "sbir.gov"
+        })
+
+    # Source 3: SAM.gov opportunities
+    sam_contracts = load_json("sam_contracts_aggregated.json")
+    for sc in (sam_contracts or []):
+        company = sc.get("company", "")
+        if not company:
+            continue
+        recent = sc.get("recentOpportunities", [])
+        for opp in recent[:1]:  # Only most recent per company
+            awards.append({
+                "company": company,
+                "type": "ota" if "OTA" in opp.get("title", "").upper() or "OTHER TRANSACTION" in opp.get("title", "").upper() else "contract",
+                "title": opp.get("title", "")[:100],
+                "value": opp.get("value", ""),
+                "agency": ", ".join(sc.get("agencies", [])[:2]),
+                "detail": opp.get("description", "")[:150] if opp.get("description") else "",
+                "date": opp.get("date", sc.get("lastUpdated", "")),
+                "source": "sam.gov"
+            })
+
+    # Source 4: News-detected contracts
+    news = load_json("news_raw.json")
+    contract_keywords = ["contract", "award", "awarded", "SBIR", "OTA", "IDIQ", "prototype"]
+    for article in (news or []):
+        title = article.get("title", "")
+        matched_company = article.get("matchedCompany", "")
+        if not matched_company:
+            continue
+        if any(kw.lower() in title.lower() for kw in contract_keywords):
+            award_type = "sbir" if "sbir" in title.lower() else "ota" if "ota" in title.lower() else "contract"
+            # Try to extract value from title
+            value_match = re.search(r'\$[\d.]+[BMK]?\s*(?:million|billion)?|\$[\d,]+', title, re.IGNORECASE)
+            value = value_match.group(0) if value_match else ""
+            awards.append({
+                "company": matched_company,
+                "type": award_type,
+                "title": title[:100],
+                "value": value,
+                "agency": "",
+                "detail": article.get("summary", "")[:150] if article.get("summary") else "",
+                "date": article.get("date", article.get("time", "")),
+                "source": article.get("source", "news")
+            })
+
+    if not awards:
+        print("No award feed data found, skipping...")
+        return data_js_content
+
+    # Deduplicate by company+type, keep most recent
+    seen = {}
+    for award in awards:
+        key = f"{award['company']}:{award['type']}"
+        if key not in seen or award.get("date", "") > seen[key].get("date", ""):
+            seen[key] = award
+
+    # Sort by date descending, take top 20
+    sorted_awards = sorted(seen.values(), key=lambda x: x.get("date", ""), reverse=True)[:20]
+
+    print(f"Merging {len(sorted_awards)} live awards (from {len(awards)} raw)...")
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-updated live contract & award feed\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += f"// Sources: USAspending, SAM.gov, SBIR.gov, news RSS\n"
+    js_array += "const LIVE_AWARD_FEED = [\n"
+
+    for i, a in enumerate(sorted_awards):
+        company = a["company"].replace('"', "'")
+        title = a.get("title", "").replace('"', "'")
+        value = a.get("value", "").replace('"', "'")
+        agency = a.get("agency", "").replace('"', "'")
+        detail = a.get("detail", "").replace('"', "'").replace("\n", " ")
+        date = a.get("date", today)[:10]  # Ensure YYYY-MM-DD format
+        js_array += f'  {{ id: {i + 1}, date: "{date}", company: "{company}", '
+        js_array += f'type: "{a["type"]}", title: "{title}", '
+        js_array += f'value: "{value}", agency: "{agency}", '
+        js_array += f'detail: "{detail}" }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const LIVE_AWARD_FEED = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+        print(f"  Updated LIVE_AWARD_FEED ({len(sorted_awards)} entries)")
+    else:
+        print("  LIVE_AWARD_FEED not found in data.js")
+
+    return data_js_content
+
+
+def update_valley_of_death(data_js_content):
+    """Recalibrate VALLEY_OF_DEATH stage assignments using latest contract/award data.
+    Cross-references gov contracts, SBIR awards, deal flow to detect stage progression.
+    """
+    gov_contracts = load_json("gov_contracts_aggregated.json")
+    sbir_awards = load_json("sbir_awards_raw.json")
+    deals = load_json("deals_auto.json")
+    sam_contracts = load_json("sam_contracts_aggregated.json")
+
+    if not any([gov_contracts, sbir_awards, deals, sam_contracts]):
+        print("No data sources available for Valley of Death recalibration, skipping...")
+        return data_js_content
+
+    # Build company intelligence profile
+    company_intel = {}
+
+    # From gov contracts: contract count, total value, agencies
+    for gc in (gov_contracts or []):
+        company = gc.get("company", "")
+        if company:
+            company_intel.setdefault(company, {})
+            company_intel[company]["contractCount"] = gc.get("contractCount", 0)
+            company_intel[company]["agencies"] = gc.get("agencies", [])
+            company_intel[company]["totalGovValue"] = gc.get("totalGovValue", "")
+
+    # From SBIR awards: phase progression
+    for sa in (sbir_awards or []):
+        if not sa.get("isKnownCompany"):
+            continue
+        company = sa.get("firm", "")
+        phase = sa.get("phase", "")
+        if company:
+            company_intel.setdefault(company, {})
+            existing_phase = company_intel[company].get("sbirPhase", "")
+            # Keep highest phase
+            phase_order = {"Phase I": 1, "Phase II": 2, "Phase III": 3}
+            if phase_order.get(phase, 0) > phase_order.get(existing_phase, 0):
+                company_intel[company]["sbirPhase"] = phase
+
+    # From SAM.gov: opportunity count
+    for sc in (sam_contracts or []):
+        company = sc.get("company", "")
+        if company:
+            company_intel.setdefault(company, {})
+            company_intel[company]["samOpportunities"] = sc.get("opportunityCount", 0)
+
+    if not company_intel:
+        print("No company intel built for VoD recalibration, skipping...")
+        return data_js_content
+
+    # Parse existing VALLEY_OF_DEATH entries
+    pattern = r'const VALLEY_OF_DEATH = \[([\s\S]*?)\];'
+    match = re.search(pattern, data_js_content)
+    if not match:
+        print("  VALLEY_OF_DEATH not found in data.js, skipping...")
+        return data_js_content
+
+    # Extract existing entries
+    entries = []
+    entry_pattern = r'\{[^}]+\}'
+    for entry_match in re.finditer(entry_pattern, match.group(1)):
+        block = entry_match.group(0)
+        name_match = re.search(r'company:\s*"([^"]+)"', block)
+        stage_match = re.search(r'stage:\s*"([^"]+)"', block)
+        label_match = re.search(r'label:\s*"([^"]+)"', block)
+        trl_match = re.search(r'trl:\s*(\d+)', block)
+        contracts_match = re.search(r'contracts:\s*(\d+)', block)
+        detail_match = re.search(r'detail:\s*"((?:[^"\\]|\\.)*)"', block)
+
+        if name_match:
+            entries.append({
+                "company": name_match.group(1),
+                "stage": stage_match.group(1) if stage_match else "rd-concept",
+                "label": label_match.group(1) if label_match else "",
+                "trl": int(trl_match.group(1)) if trl_match else 1,
+                "contracts": int(contracts_match.group(1)) if contracts_match else 0,
+                "detail": detail_match.group(1) if detail_match else ""
+            })
+
+    # Stage labels mapping
+    stage_labels = {
+        "rd-concept": "R&D Concept",
+        "sbir-phase-1": "SBIR Phase I",
+        "sbir-phase-2": "SBIR Phase II",
+        "ota-prototype": "OTA / Prototype",
+        "program-of-record": "Program of Record",
+        "production": "Production Contract"
+    }
+
+    stage_order = ["rd-concept", "sbir-phase-1", "sbir-phase-2", "ota-prototype", "program-of-record", "production"]
+
+    # Recalibrate each entry
+    updated_count = 0
+    for entry in entries:
+        company = entry["company"]
+        intel = company_intel.get(company, {})
+        if not intel:
+            continue
+
+        current_stage_idx = stage_order.index(entry["stage"]) if entry["stage"] in stage_order else 0
+
+        # Update contract count from fresh data
+        new_contract_count = intel.get("contractCount", 0) or intel.get("samOpportunities", 0)
+        if new_contract_count > entry["contracts"]:
+            entry["contracts"] = new_contract_count
+            updated_count += 1
+
+        # Check for stage progression (only advance, never regress)
+        new_stage_idx = current_stage_idx
+
+        # SBIR phase progression
+        sbir_phase = intel.get("sbirPhase", "")
+        if sbir_phase == "Phase I" and current_stage_idx < 1:
+            new_stage_idx = max(new_stage_idx, 1)
+        elif sbir_phase == "Phase II" and current_stage_idx < 2:
+            new_stage_idx = max(new_stage_idx, 2)
+        elif sbir_phase == "Phase III" and current_stage_idx < 3:
+            new_stage_idx = max(new_stage_idx, 3)
+
+        # High contract count suggests advancement
+        contract_count = intel.get("contractCount", 0)
+        if contract_count >= 30 and current_stage_idx < 5:
+            new_stage_idx = max(new_stage_idx, 5)  # Production
+        elif contract_count >= 15 and current_stage_idx < 4:
+            new_stage_idx = max(new_stage_idx, 4)  # Program of Record
+        elif contract_count >= 5 and current_stage_idx < 3:
+            new_stage_idx = max(new_stage_idx, 3)  # OTA / Prototype
+
+        if new_stage_idx > current_stage_idx:
+            entry["stage"] = stage_order[new_stage_idx]
+            entry["label"] = stage_labels[entry["stage"]]
+            # Bump TRL accordingly
+            trl_by_stage = {"rd-concept": 2, "sbir-phase-1": 4, "sbir-phase-2": 5, "ota-prototype": 6, "program-of-record": 8, "production": 9}
+            entry["trl"] = max(entry["trl"], trl_by_stage.get(entry["stage"], entry["trl"]))
+            updated_count += 1
+
+    print(f"Recalibrating {len(entries)} Valley of Death entries ({updated_count} updated)...")
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-recalibrated Valley of Death stages\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "const VALLEY_OF_DEATH = [\n"
+
+    for e in entries:
+        company = e["company"].replace('"', '\\"')
+        label = e["label"].replace('"', '\\"')
+        detail = e["detail"].replace('"', '\\"')
+        js_array += f'  {{ company: "{company}", stage: "{e["stage"]}", label: "{label}", '
+        js_array += f'trl: {e["trl"]}, contracts: {e["contracts"]}, '
+        js_array += f'detail: "{detail}" }},\n'
+
+    js_array += "];"
+
+    data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+    print(f"  Updated VALLEY_OF_DEATH ({len(entries)} entries, {updated_count} recalibrated)")
+
+    return data_js_content
+
+
 def update_diffbot_enrichment(data_js_content):
     """Update DIFFBOT_ENRICHMENT in data.js with Diffbot company enrichment data."""
     enrichment = load_json("diffbot_enrichment_raw.json")
@@ -1197,6 +1607,9 @@ def main():
     data_js_content = update_nih_grants(data_js_content)
     data_js_content = update_arpa_e_projects(data_js_content)
     data_js_content = update_diffbot_enrichment(data_js_content)
+    data_js_content = update_patent_intel(data_js_content)
+    data_js_content = update_live_award_feed(data_js_content)
+    data_js_content = update_valley_of_death(data_js_content)
     data_js_content = update_company_funding(data_js_content)
     data_js_content = update_vc_portfolios(data_js_content)
     data_js_content = update_last_updated(data_js_content)

@@ -32,6 +32,9 @@ jobs:
         env:
           PATENTSVIEW_API_KEY: ${{ secrets.PATENTSVIEW_API_KEY }}
 
+      - name: Merge patent data into data.js
+        run: python scripts/merge_data.py
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"
@@ -39,7 +42,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add data/
+          git add data.js data/
           git diff --staged --quiet || git commit -m "🤖 Auto-update: Weekly patent sync $(date +%Y-%m-%d)"
           git pull --rebase origin main || true
           git push
