@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 2.36,
+      "avg_change": 2.61,
       "count": 1
     },
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 3.91,
+      "avg_change": 5.28,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -1.0,
+      "avg_change": -0.16,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -1.42,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.42,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 38.93,
+      "avg_change": 36.42,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.96,
+      "avg_change": -5.52,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.07,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.81,
       "count": 3
     },
     "transportation": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -2.24,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": -2.17,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 1.42,
+      "avg_change": 1.52,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "LNZA",
       "LanzaTech",
-      115.3
+      108.75
     ],
     [
       "RKLB",
       "Rocket Lab",
-      11.85
+      14.01
     ],
     [
       "ALAB",
       "Astera Labs",
-      9.15
+      9.52
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      8.61
+      9.33
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      6.59
+      6.9
     ]
   ],
   "topLosers": [
     [
+      "RIVN",
+      "Rivian",
+      -4.35
+    ],
+    [
       "RGTI",
       "Rigetti Computing",
-      -4.38
+      -4.53
     ],
     [
       "IONQ",
       "IonQ",
-      -4.56
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -5.87
+      -5.15
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -5.94
+      -6.88
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -8.24
+      -9.29
     ]
   ],
-  "lastUpdated": "2026-03-17 19:07:46"
+  "lastUpdated": "2026-03-18 02:34:56"
 }
