@@ -1241,6 +1241,34 @@ tags: ["ground stations", "satellite comms", "space"]
     addedDate: "2026-02"
   },
   {
+    name: "Viridian Space",
+    sector: "Space & Aerospace",
+    description: "Air-breathing electric propulsion for very low Earth orbit (VLEO) satellites. ASET technology scoops rarefied atmospheric oxygen at 200-300km altitude to fuel plasma thrusters, enabling indefinitely refuelable spacecraft.",
+    founder: "Rostislav Spektor, Matthew Feldman",
+    location: "El Segundo, CA",
+    state: "CA",
+    lat: 33.9192,
+    lng: -118.4165,
+    fundingStage: "Pre-Seed",
+    totalRaised: "$2M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-propulsion",
+    techApproach: "Air-scooping electric thruster (ASET) ingesting rarefied atmosphere in VLEO to power Hall Effect plasma thrusters, eliminating propellant constraints for satellite operations",
+    tags: ["VLEO", "electric propulsion", "air-breathing", "satellites", "defense"],
+    insight: "Viridian's air-breathing propulsion could be a game-changer for VLEO — satellites that never run out of fuel, with better imaging resolution and lower-latency comms than higher orbits. DoD interest is strong with two Phase II SBIRs and a five-year AFRL CRADA.",
+    signal: "rising",
+    scores: { team: 7, traction: 6, techMoat: 9, market: 8, momentum: 7 },
+    competitors: ["Phase Four", "ThrustMe", "Orbion Space Technology", "Kreios Space"],
+    thesis: {
+      bull: "Air-breathing propulsion solves the fundamental constraint of satellite lifetime in VLEO. If ASET works at scale, Viridian enables an entirely new orbital regime for both commercial and military applications — better Earth observation, lower-latency broadband, and maneuverable defense assets.",
+      bear: "Technology is still pre-revenue and pre-flight. Competing approaches (iodine thrusters, xenon Hall thrusters) are already flight-proven. The 3-person team needs to scale significantly to execute on hardware production.",
+      risks: ["Technology risk — no in-orbit demonstration yet", "Small team with limited resources", "SBIR program authorization expired Oct 2025"]
+    },
+    recentEvent: { type: "contract", text: "Signed five-year CRADA with Air Force Research Laboratory", date: "2026-02" },
+    addedDate: "2026-03"
+  },
+  {
     name: "Observable Space",
     sector: "Space & Aerospace",
     description: "Ground-based telescope systems and space optics for space domain awareness and laser communications. Serves NASA, Space Force, Raytheon, Northrop Grumman.",
