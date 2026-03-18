@@ -21237,43 +21237,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-18 02:50
-// Auto-generated real-time signals
-// Last updated: 2026-03-18
-// Auto-generated real-time signals
-// Last updated: 2026-03-18
-// Auto-generated real-time signals
-// Last updated: 2026-03-18
-// Auto-generated real-time signals
-// Last updated: 2026-03-18
-// Auto-generated real-time signals
-// Last updated: 2026-03-18
-// Auto-generated real-time signals
-// Last updated: 2026-03-18
-// Auto-generated real-time signals
-// Last updated: 2026-03-18
-// Auto-generated real-time signals
-// Last updated: 2026-03-18
-// Auto-generated real-time signals
-// Last updated: 2026-03-18
-// Auto-generated real-time signals
-// Last updated: 2026-03-18
+// Last updated: 2026-03-18 13:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Cohere", headline: "Military Operational Thinking in an Age of Artificial Intelligence", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Andrenam", headline: "Hydrogen at Sea Just Got Even More Expensive: What DNV’s Safety Findings Mean", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Cape", headline: "Europe Must Not Let Airlines Sabotage Clean Aviation Fuels", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Andrenam", headline: "Greece Risks Becoming Trump’s Trojan Horse in the Fight to Decarbonise Shipping", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Cape", headline: "How Electric Cars Cut Oil Dependence &#038; Drive Energy Security", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Karman Industries", headline: "Op-Ed: What China Did Right—And What India Is Doing Differently", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Palantir", headline: "Justice Department Says Anthropic Can’t Be Trusted With Warfighting Systems", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Anthropic", headline: "The Pentagon is planning for AI companies to train on classified data, defense official says", source: "MIT Tech Review", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "AST SpaceMobile", headline: "Telesat pivots Lightspeed toward defense as delays push global service to 2028", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anthropic", headline: "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Nuro", headline: "Ebikes &#038; Bikes for Everything, + Much of What I’ve Learned Riding Bikes for 75 Years (Part I)", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Palantir", headline: "Office of Space Commerce weighing options for TraCSS user fees", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Cape", headline: "Apple rolls out first &#8216;background security&#8217; update for iPhones, iPads, and Macs to fix Safari bug", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Bronco AI", headline: "Space boom strains supply chain, industry report warns", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Together AI", headline: "Nvidia Structured Data is the Ground Truth of AI &#8211; $120 Billion Structure Data Ecosystem", source: "Next Big Future", time: "14h ago", impact: "high", unread: false },
+  { id: 1, type: "contract", company: "Anthropic", headline: "DOD says Anthropic's 'red lines' make it an 'unacceptable risk to national security'", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "Standard Nuclear", headline: "The Download: The Pentagon's new AI plans, and next-gen nuclear reactors", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Durin", headline: "Israel to mount lasers on fighter jets and helicopters", source: "Defense News", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Standard Nuclear", headline: "What do new nuclear reactors mean for waste?", source: "MIT Tech Review", time: "4h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Cohere", headline: "Military Operational Thinking in an Age of Artificial Intelligence", source: "War on the Rocks", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Andrenam", headline: "Hydrogen at Sea Just Got Even More Expensive: What DNV's Safety Findings Mean", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Cape", headline: "Europe Must Not Let Airlines Sabotage Clean Aviation Fuels", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Andrenam", headline: "Greece Risks Becoming Trump's Trojan Horse in the Fight to Decarbonise Shipping", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Cape", headline: "How Electric Cars Cut Oil Dependence &#038; Drive Energy Security", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Karman Industries", headline: "Op-Ed: What China Did Right'And What India Is Doing Differently", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Palantir", headline: "Justice Department Says Anthropic Can't Be Trusted With Warfighting Systems", source: "Wired", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "Anthropic", headline: "The Pentagon is planning for AI companies to train on classified data, defense official says", source: "MIT Tech Review", time: "15h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "Mistral bets on 'build-your-own AI' as it takes on OpenAI, Anthropic in the enterprise", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Nuro", headline: "Ebikes &#038; Bikes for Everything, + Much of What I've Learned Riding Bikes for 75 Years (Part I)", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Cape", headline: "Apple rolls out first 'background security' update for iPhones, iPads, and Macs to fix Safari bug", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
