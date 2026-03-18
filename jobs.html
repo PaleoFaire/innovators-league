@@ -396,6 +396,59 @@
             padding: 0 24px 16px; font-size: 13px; color: var(--text-muted); line-height: 1.5;
             border-bottom: 1px solid var(--border); margin-bottom: 12px;
         }
+        /* Stealth Radar */
+        .sr-stats-row {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px; margin-bottom: 24px;
+        }
+        .sr-stat-card {
+            background: var(--bg-secondary); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 16px; text-align: center;
+        }
+        .sr-stat-number {
+            font-family: 'Space Grotesk', sans-serif; font-size: 1.8rem;
+            font-weight: 800; color: var(--accent); line-height: 1;
+        }
+        .sr-stat-label { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+        .sr-signals-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 16px;
+        }
+        .sr-signal-card {
+            background: var(--bg-secondary); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 20px; transition: all 0.2s;
+            cursor: pointer;
+        }
+        .sr-signal-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .sr-signal-header {
+            display: flex; align-items: center; justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .sr-signal-company {
+            font-weight: 700; font-size: 1rem; color: var(--text-primary);
+        }
+        .sr-signal-strength {
+            font-family: 'Space Grotesk', sans-serif; font-weight: 800;
+            font-size: 1.1rem; padding: 2px 10px; border-radius: 6px;
+        }
+        .sr-signal-founder {
+            font-size: 12px; color: var(--text-muted); margin-bottom: 8px;
+        }
+        .sr-signal-founder strong { color: var(--text-secondary); }
+        .sr-signal-badges {
+            display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px;
+        }
+        .sr-badge {
+            font-size: 10px; padding: 2px 8px; border-radius: 4px;
+            background: rgba(255,255,255,0.05); color: var(--text-muted);
+        }
+        .sr-badge.active { background: rgba(255,107,44,0.15); color: var(--accent); }
+        .sr-signal-reason {
+            font-size: 12px; color: var(--text-secondary); line-height: 1.4;
+        }
+        .sr-signal-date {
+            font-size: 11px; color: var(--text-muted); margin-top: 8px;
+        }
         .talent-magnets-section { border-bottom: 1px solid var(--border); }
         .magnets-list { display: flex; flex-direction: column; gap: 8px; margin-top: 32px; }
         .magnet-row {
@@ -706,6 +759,19 @@
                 <div class="fd-sector-grid" id="fd-sector-grid"></div>
                 <div class="fd-leaderboard" id="fd-leaderboard"></div>
                 <div class="fd-structure-chart" id="fd-structure-chart"></div>
+            </div>
+        </section>
+
+        <!-- Stealth Radar — Early Signal Detection -->
+        <section class="section" id="stealth-radar">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">EARLY SIGNAL DETECTION</p>
+                    <h2>Stealth Radar</h2>
+                    <p>When founders from successful exits start hiring or filing patents, it's a signal. We cross-reference founder networks, hiring surges, patent filings, and SEC registrations to detect emerging companies before they announce.</p>
+                </div>
+                <div class="sr-stats-row" id="sr-stats-row"></div>
+                <div class="sr-signals-grid" id="sr-signals-grid"></div>
             </div>
         </section>
 

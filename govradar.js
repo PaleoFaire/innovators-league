@@ -178,8 +178,11 @@ function initGovRadar() {
   safeInit('demandRadar', initDemandRadar);
   safeInit('opportunities', initOpportunities);
   safeInit('valleyOfDeath', initValleyOfDeath);
+  safeInit('vodTimeline', initVodTimeline);
+  safeInit('vodViewToggle', initVodViewToggle);
   safeInit('liveAwardFeed', initLiveAwardFeed);
   safeInit('contractorReadiness', initContractorReadiness);
+  safeInit('clearanceAdvantage', initClearanceAdvantage);
   safeInit('budgetSignals', initBudgetSignals);
   safeInit('fedRegister', initFedRegister);
   safeInit('agencySpending', initAgencySpending);
@@ -516,6 +519,229 @@ function initContractorReadiness() {
   });
 
   gridEl.innerHTML = html;
+}
+
+// ─── CLEARANCE ADVANTAGE DASHBOARD ───
+
+function initClearanceAdvantage() {
+  var readinessData = (typeof CONTRACTOR_READINESS !== 'undefined') ? CONTRACTOR_READINESS : [];
+  var demandData = (typeof GOV_DEMAND_TRACKER !== 'undefined') ? GOV_DEMAND_TRACKER : [];
+  var companies = (typeof COMPANIES !== 'undefined') ? COMPANIES : [];
+
+  var statsEl = document.getElementById('clearance-stats');
+  var breakdownEl = document.getElementById('clearance-breakdown');
+  var gridEl = document.getElementById('clearance-advantage-grid');
+  if (!gridEl) return;
+
+  // Build clearance profiles from CONTRACTOR_READINESS + COMPANIES
+  var clearanceProfiles = {};
+
+  readinessData.forEach(function(c) {
+    clearanceProfiles[c.company] = {
+      company: c.company,
+      clearanceLevel: c.clearanceLevel || 'None',
+      facilityCleared: c.facilityCleared || false,
+      cmmcLevel: c.cmmcLevel || 0,
+      itarCompliant: c.itarCompliant || false,
+      readinessScore: c.readinessScore || 0,
+      keyAgencies: c.keyAgencies || [],
+      sbirPhase: c.sbirPhase || 'N/A',
+      pastPerformance: c.pastPerformance || {}
+    };
+  });
+
+  // Also pull in companies with gov contracts from COMPANIES array
+  companies.forEach(function(co) {
+    if (!clearanceProfiles[co.name] && co.govContracts && co.govContracts.length > 0) {
+      clearanceProfiles[co.name] = {
+        company: co.name,
+        clearanceLevel: 'Unknown',
+        facilityCleared: false,
+        cmmcLevel: 0,
+        itarCompliant: false,
+        readinessScore: 0,
+        keyAgencies: [],
+        sbirPhase: 'N/A',
+        pastPerformance: {},
+        hasGovContracts: true,
+        sector: co.sector
+      };
+    }
+  });
+
+  var profiles = Object.values(clearanceProfiles);
+
+  // Calculate stats
+  var tsSCI = profiles.filter(function(p) { return p.clearanceLevel === 'TS/SCI'; }).length;
+  var secret = profiles.filter(function(p) { return p.clearanceLevel === 'Secret'; }).length;
+  var facilityCleared = profiles.filter(function(p) { return p.facilityCleared; }).length;
+  var cmmcL3 = profiles.filter(function(p) { return p.cmmcLevel >= 3; }).length;
+  var cmmcL2 = profiles.filter(function(p) { return p.cmmcLevel === 2; }).length;
+  var itarCount = profiles.filter(function(p) { return p.itarCompliant; }).length;
+
+  // Render stats row
+  if (statsEl) {
+    statsEl.innerHTML = ''
+      + '<div class="clearance-stat-card">'
+      + '  <div class="clearance-stat-number" style="color:#ef4444;">' + tsSCI + '</div>'
+      + '  <div class="clearance-stat-label">TS/SCI Cleared</div>'
+      + '  <div class="clearance-stat-sub">Highest clearance level</div>'
+      + '</div>'
+      + '<div class="clearance-stat-card">'
+      + '  <div class="clearance-stat-number" style="color:#f59e0b;">' + secret + '</div>'
+      + '  <div class="clearance-stat-label">Secret Cleared</div>'
+      + '  <div class="clearance-stat-sub">Mid-level clearance</div>'
+      + '</div>'
+      + '<div class="clearance-stat-card">'
+      + '  <div class="clearance-stat-number" style="color:#3b82f6;">' + facilityCleared + '</div>'
+      + '  <div class="clearance-stat-label">Facility Clearances</div>'
+      + '  <div class="clearance-stat-sub">Cleared workspaces</div>'
+      + '</div>'
+      + '<div class="clearance-stat-card">'
+      + '  <div class="clearance-stat-number" style="color:#22c55e;">' + cmmcL3 + '</div>'
+      + '  <div class="clearance-stat-label">CMMC Level 3</div>'
+      + '  <div class="clearance-stat-sub">Top-tier cyber maturity</div>'
+      + '</div>'
+      + '<div class="clearance-stat-card">'
+      + '  <div class="clearance-stat-number" style="color:#8b5cf6;">' + itarCount + '</div>'
+      + '  <div class="clearance-stat-label">ITAR Compliant</div>'
+      + '  <div class="clearance-stat-sub">Export-controlled capable</div>'
+      + '</div>';
+  }
+
+  // Render clearance tier breakdown
+  if (breakdownEl) {
+    var clearanceTiers = [
+      { level: 'TS/SCI', color: '#ef4444', icon: '🔴', companies: profiles.filter(function(p) { return p.clearanceLevel === 'TS/SCI'; }) },
+      { level: 'Secret', color: '#f59e0b', icon: '🟡', companies: profiles.filter(function(p) { return p.clearanceLevel === 'Secret'; }) },
+      { level: 'Uncleared / N/A', color: '#6b7280', icon: '⚪', companies: profiles.filter(function(p) { return p.clearanceLevel === 'N/A' || p.clearanceLevel === 'None' || p.clearanceLevel === 'Unknown'; }) }
+    ];
+
+    var breakdownHtml = '<div class="clearance-tier-breakdown">';
+    clearanceTiers.forEach(function(tier) {
+      if (tier.companies.length === 0) return;
+      breakdownHtml += '<div class="clearance-tier-row">';
+      breakdownHtml += '<div class="clearance-tier-header">';
+      breakdownHtml += '<span class="clearance-tier-icon">' + tier.icon + '</span>';
+      breakdownHtml += '<span class="clearance-tier-name" style="color:' + tier.color + ';">' + tier.level + '</span>';
+      breakdownHtml += '<span class="clearance-tier-count">' + tier.companies.length + ' companies</span>';
+      breakdownHtml += '</div>';
+      breakdownHtml += '<div class="clearance-tier-companies">';
+      tier.companies.sort(function(a, b) { return (b.readinessScore || 0) - (a.readinessScore || 0); });
+      tier.companies.forEach(function(c) {
+        var badges = [];
+        if (c.facilityCleared) badges.push('🏢 Facility Cleared');
+        if (c.cmmcLevel >= 2) badges.push('🛡️ CMMC L' + c.cmmcLevel);
+        if (c.itarCompliant) badges.push('📋 ITAR');
+
+        breakdownHtml += '<div class="clearance-company-chip" onclick="if(typeof openCompanyModal===\'function\')openCompanyModal(\'' + escapeHtml(c.company) + '\')">';
+        breakdownHtml += '<span class="clearance-company-name">' + escapeHtml(c.company) + '</span>';
+        if (c.readinessScore > 0) {
+          breakdownHtml += '<span class="clearance-company-score" style="color:' + readinessBarColor(c.readinessScore) + ';">' + c.readinessScore + '</span>';
+        }
+        if (badges.length > 0) {
+          breakdownHtml += '<span class="clearance-badges">' + badges.join(' ') + '</span>';
+        }
+        breakdownHtml += '</div>';
+      });
+      breakdownHtml += '</div></div>';
+    });
+    breakdownHtml += '</div>';
+    breakdownEl.innerHTML = breakdownHtml;
+  }
+
+  // Render advantage match grid — cross-reference cleared companies with active solicitations
+  if (gridEl) {
+    var advantageHtml = '<h3 class="clearance-advantage-title">Clearance-Matched Opportunities</h3>';
+    advantageHtml += '<p class="clearance-advantage-desc">Companies with existing security clearances mapped to solicitations where clearance creates competitive advantage.</p>';
+
+    // Map solicitations to cleared companies
+    var matches = [];
+    var clearedCompanies = profiles.filter(function(p) { return p.clearanceLevel === 'TS/SCI' || p.clearanceLevel === 'Secret'; });
+
+    // If we have demand tracker data, match on tech areas
+    if (demandData.length > 0) {
+      demandData.forEach(function(opp) {
+        var matchedCompanies = [];
+        clearedCompanies.forEach(function(c) {
+          // Check if company's agencies overlap or tech areas match
+          var agencyMatch = false;
+          if (c.keyAgencies && opp.agency) {
+            c.keyAgencies.forEach(function(a) {
+              if (opp.agency.toLowerCase().indexOf(a.toLowerCase()) !== -1 || a.toLowerCase().indexOf(opp.agency.toLowerCase()) !== -1) {
+                agencyMatch = true;
+              }
+            });
+          }
+          // Check relevant companies field
+          var directMatch = false;
+          if (opp.relevantCompanies) {
+            opp.relevantCompanies.forEach(function(rc) {
+              if (rc.toLowerCase() === c.company.toLowerCase()) directMatch = true;
+            });
+          }
+          if (agencyMatch || directMatch) {
+            matchedCompanies.push(c);
+          }
+        });
+        if (matchedCompanies.length > 0) {
+          matches.push({ opportunity: opp, companies: matchedCompanies });
+        }
+      });
+    }
+
+    if (matches.length > 0) {
+      advantageHtml += '<div class="advantage-matches">';
+      matches.slice(0, 8).forEach(function(m) {
+        var opp = m.opportunity;
+        var priorityColor = opp.priority === 'High' ? '#ef4444' : opp.priority === 'Medium' ? '#f59e0b' : '#22c55e';
+        advantageHtml += '<div class="advantage-match-card">';
+        advantageHtml += '<div class="advantage-match-header">';
+        advantageHtml += '<span class="advantage-opp-agency" style="color:' + priorityColor + ';">' + escapeHtml(opp.agency || '') + '</span>';
+        advantageHtml += '<span class="advantage-opp-value">' + escapeHtml(opp.value || '') + '</span>';
+        advantageHtml += '</div>';
+        advantageHtml += '<div class="advantage-opp-title">' + escapeHtml(opp.title || '') + '</div>';
+        if (opp.deadline) {
+          advantageHtml += '<div class="advantage-opp-deadline">Deadline: ' + escapeHtml(opp.deadline) + '</div>';
+        }
+        advantageHtml += '<div class="advantage-matched-companies">';
+        advantageHtml += '<span class="advantage-match-label">Cleared Advantage:</span>';
+        m.companies.forEach(function(c) {
+          advantageHtml += '<span class="advantage-company-tag" style="border-color:' + (c.clearanceLevel === 'TS/SCI' ? '#ef4444' : '#f59e0b') + ';">';
+          advantageHtml += escapeHtml(c.company);
+          advantageHtml += ' <small>(' + c.clearanceLevel + ')</small>';
+          advantageHtml += '</span>';
+        });
+        advantageHtml += '</div></div>';
+      });
+      advantageHtml += '</div>';
+    } else {
+      // Show cleared company capabilities even without solicitation matches
+      advantageHtml += '<div class="advantage-capabilities">';
+      clearedCompanies.sort(function(a, b) { return (b.readinessScore || 0) - (a.readinessScore || 0); });
+      clearedCompanies.forEach(function(c) {
+        advantageHtml += '<div class="advantage-capability-card">';
+        advantageHtml += '<div class="advantage-cap-header">';
+        advantageHtml += '<span class="advantage-cap-company">' + escapeHtml(c.company) + '</span>';
+        advantageHtml += '<span class="advantage-cap-clearance" style="background:' + (c.clearanceLevel === 'TS/SCI' ? 'rgba(239,68,68,0.15);color:#ef4444' : 'rgba(245,158,11,0.15);color:#f59e0b') + ';">' + c.clearanceLevel + '</span>';
+        advantageHtml += '</div>';
+        var caps = [];
+        if (c.facilityCleared) caps.push('Facility Cleared');
+        if (c.cmmcLevel >= 2) caps.push('CMMC Level ' + c.cmmcLevel);
+        if (c.itarCompliant) caps.push('ITAR Compliant');
+        if (c.sbirPhase && c.sbirPhase !== 'N/A') caps.push('SBIR ' + c.sbirPhase);
+        if (c.keyAgencies && c.keyAgencies.length > 0) caps.push('Agencies: ' + c.keyAgencies.join(', '));
+        advantageHtml += '<div class="advantage-cap-details">' + caps.join(' · ') + '</div>';
+        if (c.pastPerformance && c.pastPerformance.contractsCompleted > 0) {
+          advantageHtml += '<div class="advantage-cap-perf">' + c.pastPerformance.contractsCompleted + ' contracts completed · ' + (c.pastPerformance.onTimeRate || 0) + '% on-time</div>';
+        }
+        advantageHtml += '</div>';
+      });
+      advantageHtml += '</div>';
+    }
+
+    gridEl.innerHTML = advantageHtml;
+  }
 }
 
 // ─── 5. BUDGET SIGNALS ───
@@ -1335,6 +1561,129 @@ function initValleyOfDeath() {
   });
 
   detailEl.innerHTML = detailHtml;
+}
+
+// ─── VOD TIMELINE PROGRESSION VIEW ───
+
+function initVodTimeline() {
+  var data = (typeof VALLEY_OF_DEATH !== 'undefined') ? VALLEY_OF_DEATH : [];
+  var stages = (typeof VALLEY_OF_DEATH_STAGES !== 'undefined') ? VALLEY_OF_DEATH_STAGES : [];
+  var timelineEl = document.getElementById('vod-timeline');
+  if (!timelineEl || data.length === 0 || stages.length === 0) return;
+
+  // Build stage index map
+  var stageIndex = {};
+  stages.forEach(function(s, i) { stageIndex[s.id] = i; });
+
+  // Sort companies: production first, then by stage (descending), then by velocity
+  var sorted = data.slice().sort(function(a, b) {
+    var aIdx = stageIndex[a.stage] || 0;
+    var bIdx = stageIndex[b.stage] || 0;
+    if (bIdx !== aIdx) return bIdx - aIdx;
+    // Within same stage, fast movers first
+    var velOrder = { fast: 3, normal: 2, slow: 1 };
+    return (velOrder[b.velocity] || 2) - (velOrder[a.velocity] || 2);
+  });
+
+  // Stage labels header
+  var html = '<div class="vod-timeline-stage-labels">';
+  stages.forEach(function(s) {
+    html += '<div class="vod-timeline-stage-label" style="color:' + s.color + ';">' + s.short + '</div>';
+  });
+  html += '</div>';
+
+  // Render each company as a timeline row
+  sorted.forEach(function(c) {
+    var currentIdx = stageIndex[c.stage] || 0;
+    var progression = c.progression || [];
+    var velocityColor = c.velocity === 'fast' ? '#22c55e' : c.velocity === 'slow' ? '#ef4444' : '#f59e0b';
+    var velocityLabel = c.velocity === 'fast' ? '⚡ Fast Mover' : c.velocity === 'slow' ? '🐢 Slow' : '→ Normal';
+
+    html += '<div class="vod-timeline-row" onclick="if(typeof openCompanyModal===\'function\')openCompanyModal(\'' + escapeHtml(c.company) + '\')">';
+
+    // Company name + velocity
+    html += '<div>';
+    html += '<div class="vod-timeline-company">' + escapeHtml(c.company) + '</div>';
+    html += '<div class="vod-timeline-company-velocity" style="color:' + velocityColor + ';">' + velocityLabel + '</div>';
+    html += '</div>';
+
+    // Timeline bar
+    html += '<div class="vod-timeline-bar-container">';
+    html += '<div class="vod-timeline-track"></div>';
+    html += '<div class="vod-timeline-segments">';
+
+    // Draw connector lines and dots for each progression step
+    progression.forEach(function(step, idx) {
+      var stepIdx = stageIndex[step.stage] || 0;
+      var pct = (stepIdx / (stages.length - 1)) * 100;
+      var stageData = stages[stepIdx];
+      var color = stageData ? stageData.color : '#6b7280';
+      var isCurrent = (step.stage === c.stage);
+
+      // Connector from previous step
+      if (idx > 0) {
+        var prevStep = progression[idx - 1];
+        var prevIdx = stageIndex[prevStep.stage] || 0;
+        var prevPct = (prevIdx / (stages.length - 1)) * 100;
+        html += '<div class="vod-timeline-connector" style="left:' + prevPct + '%;width:' + (pct - prevPct) + '%;background:' + color + ';opacity:0.5;"></div>';
+      }
+
+      // Dot
+      html += '<div class="vod-timeline-dot' + (isCurrent ? ' current' : '') + '" style="left:' + pct + '%;background:' + color + ';border-color:' + color + ';color:' + color + ';" title="' + escapeHtml((stageData ? stageData.label : step.stage) + ' (' + step.entered + ')') + '"></div>';
+    });
+
+    // Draw predicted next stage (dashed)
+    if (c.nextStage && stageIndex[c.nextStage] !== undefined) {
+      var nextIdx = stageIndex[c.nextStage];
+      var nextPct = (nextIdx / (stages.length - 1)) * 100;
+      var currentPct = (currentIdx / (stages.length - 1)) * 100;
+      html += '<div class="vod-timeline-connector" style="left:' + currentPct + '%;width:' + (nextPct - currentPct) + '%;background:rgba(255,255,255,0.15);border-top:2px dashed rgba(255,255,255,0.2);height:0;top:50%;"></div>';
+      html += '<div class="vod-timeline-next" style="left:' + nextPct + '%;" title="Predicted: ' + escapeHtml(c.nextEstimate || 'TBD') + '"></div>';
+    }
+
+    html += '</div>'; // segments
+    html += '</div>'; // bar container
+
+    // Meta info (current stage + next estimate)
+    html += '<div class="vod-timeline-meta">';
+    var currentStageData = stages[currentIdx];
+    html += '<div style="color:' + (currentStageData ? currentStageData.color : '#fff') + ';font-weight:700;">' + (currentStageData ? currentStageData.short : c.label) + '</div>';
+    if (c.nextEstimate) {
+      html += '<div class="vod-timeline-meta-next">→ ' + c.nextEstimate + '</div>';
+    }
+    html += '</div>';
+
+    html += '</div>'; // row
+  });
+
+  timelineEl.innerHTML = html;
+}
+
+function initVodViewToggle() {
+  var toggleBtns = document.querySelectorAll('.vod-view-btn');
+  var pipeline = document.getElementById('vod-pipeline');
+  var timeline = document.getElementById('vod-timeline');
+  if (!toggleBtns.length || !pipeline || !timeline) return;
+
+  toggleBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var view = btn.dataset.vodView;
+      toggleBtns.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+
+      if (view === 'timeline') {
+        pipeline.style.display = 'none';
+        timeline.style.display = '';
+        // Render timeline on first toggle
+        if (!timeline.children.length) {
+          initVodTimeline();
+        }
+      } else {
+        pipeline.style.display = '';
+        timeline.style.display = 'none';
+      }
+    });
+  });
 }
 
 // ─── LIVE CONTRACT & AWARD FEED ───

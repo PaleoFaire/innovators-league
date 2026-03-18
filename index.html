@@ -125,9 +125,7 @@
         </div>
     </div>
 
-    <!-- ═══════════════════════════════════════════════════════════════════════
-         TIER 1: PRIMARY DISCOVERY — The first thing users want to do
-         ═══════════════════════════════════════════════════════════════════════ -->
+    <!-- TIER 1: PRIMARY DISCOVERY -->
 
     <!-- Innovation Map Section -->
     <section id="discovery-hub" class="discovery-hub-section">
@@ -162,6 +160,18 @@
                 <p class="section-eyebrow">INTELLIGENCE DATABASE</p>
                 <h2>Company Database</h2>
                 <p id="results-count"></p>
+            </div>
+
+            <!-- View Toggle: Grid vs Market Map -->
+            <div class="db-view-toggle">
+                <button class="db-view-btn active" data-view="grid" title="Company Grid">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="7" height="7" rx="1"/><rect x="9" y="0" width="7" height="7" rx="1"/><rect x="0" y="9" width="7" height="7" rx="1"/><rect x="9" y="9" width="7" height="7" rx="1"/></svg>
+                    Grid
+                </button>
+                <button class="db-view-btn" data-view="market-map" title="Market Map">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="16" height="4" rx="1"/><rect x="0" y="6" width="10" height="4" rx="1"/><rect x="0" y="12" width="13" height="4" rx="1"/></svg>
+                    Market Map
+                </button>
             </div>
 
             <!-- Filters -->
@@ -225,167 +235,14 @@
             <div class="no-results" id="no-results" style="display:none;">
                 <p>No companies match your filters. Try adjusting your search.</p>
             </div>
-        </div>
-    </section>
 
-    <!-- [Removed: Value Prop Banner — CTA handled in Hero + Community section] -->
-
-    <!-- ═══════════════════════════════════════════════════════════════════════
-         THESIS COLLISION DETECTOR — Who Else Is Building This?
-         ═══════════════════════════════════════════════════════════════════════ -->
-
-    <section class="thesis-collision-section" id="thesis-collision">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">THESIS COLLISION DETECTOR</p>
-                <h2>Who Else Is Building This?</h2>
-                <p>76 thesis clusters across 625+ companies. Click any cluster to see every company making a similar technical bet — and how their approaches differ.</p>
-            </div>
-            <div class="thesis-controls">
-                <input type="text" id="thesis-search" class="thesis-search" placeholder="Search clusters (e.g., fusion, quantum, drones...)">
-                <div class="thesis-filter-chips" id="thesis-filter-chips"></div>
-            </div>
-            <div class="thesis-collision-map" id="thesis-collision-map"></div>
-            <div class="thesis-detail-panel" id="thesis-detail-panel" style="display: none;">
-                <div class="thesis-detail-header">
-                    <h3 id="thesis-detail-title"></h3>
-                    <span class="thesis-detail-count" id="thesis-detail-count"></span>
-                    <button class="thesis-detail-close" id="thesis-detail-close">&times;</button>
-                </div>
-                <div class="thesis-detail-companies" id="thesis-detail-companies"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════════════════════
-         TIER 2: RANKINGS & HIGHLIGHTS — What's hot right now
-         ═══════════════════════════════════════════════════════════════════════ -->
-
-    <!-- The Innovators League 30 — The Centerpiece -->
-    <section class="innovator50-section" id="innovator50">
-        <div class="container">
-            <div class="innovator50-hero">
-                <div class="innovator50-badge">🏆 HANDPICKED &middot; EXCLUSIVE</div>
-                <h2 class="innovator50-title">The Innovators League 30</h2>
-                <p class="innovator50-subtitle" id="i50-subtitle">30 frontier tech companies handpicked by the Rational Optimist Society. These are the companies we believe will define the next decade &mdash; personally vetted through founder conversations, site visits, and deep research.</p>
-                <div class="ros-brand-tag">
-                    <span class="ros-tag-icon">📊</span>
-                    <span class="ros-tag-text">Curated by the <strong>Rational Optimist Society</strong></span>
-                </div>
-            </div>
-            <div class="innovator50-controls">
-                <select id="i50-category" class="i50-filter">
-                    <option value="all">All Sectors</option>
-                </select>
-                <button id="i50-share-btn" class="i50-btn-primary">Share List</button>
-            </div>
-            <!-- Full IL30 Grid (always visible) -->
-            <div class="innovator50-preview" id="innovator50-preview"></div>
-            <div class="innovator50-full" id="i50-content">
-                <div class="innovator50-grid" id="innovator50-grid"></div>
-            </div>
-            <div class="innovator50-cta">
-                <p>Know a company that should be on the Innovators League?</p>
-                <button class="i50-nominate-btn" onclick="openPartnerPortal('nominate')">Nominate a Company</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- ═══════════════════════════════════════════════════════════════════════
-         TIER 3: MARKET ACTIVITY — What's happening now
-         ═══════════════════════════════════════════════════════════════════════ -->
-
-
-    <!-- ═══════════════════════════════════════════════════════════════════════
-         TIER 4: CAPITAL & FUNDING — Money movement
-         ═══════════════════════════════════════════════════════════════════════ -->
-
-    <!-- Capital Flows (Deal Tracker + Revenue) -->
-    <section class="capital-flows-section" id="capital-flows">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">CAPITAL INTELLIGENCE</p>
-                <h2>Deal Flow & Revenue</h2>
-                <p>Who invested, when, and how much — plus revenue figures for companies with public data.</p>
-            </div>
-
-            <!-- Capital Intelligence Tabs -->
-            <div class="capital-tabs">
-                <button class="capital-tab active" data-tab="deals">💰 Deal Flow</button>
-                <button class="capital-tab" data-tab="revenue">📈 Revenue Tracker</button>
-            </div>
-
-            <!-- Deal Flow Panel -->
-            <div class="capital-panel active" id="deals-panel" data-panel="deals">
-                <div class="deal-filter-bar">
-                    <button class="deal-filter active" data-filter="all">All Deals</button>
-                </div>
-                <div class="deal-grid" id="deal-grid"></div>
-            </div>
-
-            <!-- Revenue Tracker Panel -->
-            <div class="capital-panel" id="revenue-panel" data-panel="revenue">
-                <div class="revenue-grid-container" id="revenue-grid"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sector Momentum Index -->
-    <section class="momentum-section" id="momentum">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">SECTOR INTELLIGENCE</p>
-                <h2>Sector Momentum Index</h2>
-                <p>Real-time momentum scores across all frontier tech sectors.</p>
-            </div>
-            <div class="metric-methodology-box compact">
-                <p><strong>Methodology:</strong> Each sector's momentum score (0-100) is calculated from 5 weighted factors: <strong>Funding Velocity</strong> (30%) — rate of new capital entering the sector over trailing 90 days; <strong>Deal Count</strong> (20%) — number of disclosed funding rounds; <strong>Median Round Size Growth</strong> (15%) — change in typical deal size vs. prior quarter; <strong>New Company Formation</strong> (15%) — startups founded or emerging from stealth; <strong>Signal Strength</strong> (20%) — aggregate of hiring velocity, news sentiment, and patent filings across sector companies. Scores update weekly.</p>
-            </div>
-            <div class="momentum-grid" id="momentum-grid"></div>
-        </div>
-    </section>
-
-    <!-- IPO & Exit Pipeline -->
-    <section class="ipo-section" id="ipo-pipeline">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">EXIT PIPELINE</p>
-                <h2>IPO & Exit Tracker</h2>
-                <p>Companies approaching public markets and major liquidity events.</p>
-            </div>
-            <div class="ipo-grid" id="ipo-grid"></div>
-        </div>
-    </section>
-
-    <!-- TRL Rankings Dashboard -->
-    <section class="trl-section" id="trl-rankings">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">TECHNOLOGY MATURITY</p>
-                <h2>Technology Readiness Levels</h2>
-                <p>NASA's 1-9 scale measuring how close each technology is to real-world deployment.</p>
-            </div>
-            <div class="metric-methodology-box compact">
-                <p><strong>TRL Scale:</strong> 1-3 = Research phase | 4-6 = Development & testing | 7-8 = Demonstration | 9 = Operational at scale. Higher TRL = lower technical risk, but potentially less upside.</p>
-            </div>
-            <div class="trl-legend" id="trl-legend"></div>
-            <div class="trl-grid" id="trl-grid"></div>
+            <!-- Market Map View (toggled) -->
+            <div class="market-map-grid" id="market-map-grid" style="display:none;"></div>
         </div>
     </section>
 
 
-    <!-- Growth Signals Dashboard -->
-    <!-- Market Map -->
-    <section class="market-map-section" id="market-map">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">COMPETITIVE LANDSCAPE</p>
-                <h2>Market Map</h2>
-                <p>Leaders, challengers, and emerging players across the hottest deep tech categories.</p>
-            </div>
-            <div class="market-map-grid" id="market-map-grid"></div>
-        </div>
-    </section>
+    <!-- PROPRIETARY INTELLIGENCE -->
 
     <!-- Frontier Index Rankings -->
     <section class="innovator-score-section" id="innovator-scores">
@@ -468,22 +325,42 @@
         </div>
     </section>
 
-    <!-- Patent Intelligence -->
-    <section class="patent-section" id="patent-intel">
+
+    <!-- CAPITAL & MARKET ACTIVITY -->
+
+    <!-- Capital Flows (Deal Tracker + Revenue) -->
+    <section class="capital-flows-section" id="capital-flows">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">IP INTELLIGENCE</p>
-                <h2>Patent Intelligence &amp; IP Moat</h2>
-                <p>Patent portfolios, filing velocity, and IP moat analysis — the leading indicator of technology defensibility.</p>
+                <p class="section-eyebrow">CAPITAL INTELLIGENCE</p>
+                <h2>Deal Flow & Revenue</h2>
+                <p>Who invested, when, and how much — plus revenue figures for companies with public data.</p>
             </div>
-            <div class="metric-methodology-box compact">
-                <p><strong>IP Moat Score (1-10):</strong> Combines patent count, filing velocity (patents/year), breadth of coverage, and strategic value of claims. Note: Some companies (e.g., SpaceX) rely on trade secrets rather than patents — their true IP moat exceeds patent data.</p>
+
+            <!-- Capital Intelligence Tabs -->
+            <div class="capital-tabs">
+                <button class="capital-tab active" data-tab="deals">💰 Deal Flow</button>
+                <button class="capital-tab" data-tab="revenue">📈 Revenue Tracker</button>
             </div>
-            <div class="patent-grid" id="patent-grid"></div>
+
+            <!-- Deal Flow Panel -->
+            <div class="capital-panel active" id="deals-panel" data-panel="deals">
+                <div class="deal-filter-bar">
+                    <button class="deal-filter active" data-filter="all">All Deals</button>
+                </div>
+                <div class="deal-grid" id="deal-grid"></div>
+            </div>
+
+            <!-- Revenue Tracker Panel -->
+            <div class="capital-panel" id="revenue-panel" data-panel="revenue">
+                <div class="revenue-grid-container" id="revenue-grid"></div>
+            </div>
         </div>
     </section>
 
-    <!-- Alternative Data Signals -->
+
+    <!-- REAL-TIME INTELLIGENCE -->
+
     <!-- Unified Intelligence Hub -->
     <section class="intelligence-hub-section" id="intelligence-hub">
         <div class="container">
@@ -622,6 +499,80 @@
         </div>
     </section>
 
+
+    <!-- SECTOR & MARKET ANALYSIS -->
+
+    <!-- Sector Momentum Index -->
+    <section class="momentum-section" id="momentum">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">SECTOR INTELLIGENCE</p>
+                <h2>Sector Momentum Index</h2>
+                <p>Real-time momentum scores across all frontier tech sectors.</p>
+            </div>
+            <div class="metric-methodology-box compact">
+                <p><strong>Methodology:</strong> Each sector's momentum score (0-100) is calculated from 5 weighted factors: <strong>Funding Velocity</strong> (30%) — rate of new capital entering the sector over trailing 90 days; <strong>Deal Count</strong> (20%) — number of disclosed funding rounds; <strong>Median Round Size Growth</strong> (15%) — change in typical deal size vs. prior quarter; <strong>New Company Formation</strong> (15%) — startups founded or emerging from stealth; <strong>Signal Strength</strong> (20%) — aggregate of hiring velocity, news sentiment, and patent filings across sector companies. Scores update weekly.</p>
+            </div>
+            <div class="momentum-grid" id="momentum-grid"></div>
+        </div>
+    </section>
+
+    <!-- The Innovators League 30 — The Centerpiece -->
+    <section class="innovator50-section" id="innovator50">
+        <div class="container">
+            <div class="innovator50-hero">
+                <div class="innovator50-badge">🏆 HANDPICKED &middot; EXCLUSIVE</div>
+                <h2 class="innovator50-title">The Innovators League 30</h2>
+                <p class="innovator50-subtitle" id="i50-subtitle">30 frontier tech companies handpicked by the Rational Optimist Society. These are the companies we believe will define the next decade &mdash; personally vetted through founder conversations, site visits, and deep research.</p>
+                <div class="ros-brand-tag">
+                    <span class="ros-tag-icon">📊</span>
+                    <span class="ros-tag-text">Curated by the <strong>Rational Optimist Society</strong></span>
+                </div>
+            </div>
+            <div class="innovator50-controls">
+                <select id="i50-category" class="i50-filter">
+                    <option value="all">All Sectors</option>
+                </select>
+                <button id="i50-share-btn" class="i50-btn-primary">Share List</button>
+            </div>
+            <!-- Full IL30 Grid (always visible) -->
+            <div class="innovator50-preview" id="innovator50-preview"></div>
+            <div class="innovator50-full" id="i50-content">
+                <div class="innovator50-grid" id="innovator50-grid"></div>
+            </div>
+            <div class="innovator50-cta">
+                <p>Know a company that should be on the Innovators League?</p>
+                <button class="i50-nominate-btn" onclick="openPartnerPortal('nominate')">Nominate a Company</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="thesis-collision-section" id="thesis-collision">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">THESIS COLLISION DETECTOR</p>
+                <h2>Who Else Is Building This?</h2>
+                <p>76 thesis clusters across 625+ companies. Click any cluster to see every company making a similar technical bet — and how their approaches differ.</p>
+            </div>
+            <div class="thesis-controls">
+                <input type="text" id="thesis-search" class="thesis-search" placeholder="Search clusters (e.g., fusion, quantum, drones...)">
+                <div class="thesis-filter-chips" id="thesis-filter-chips"></div>
+            </div>
+            <div class="thesis-collision-map" id="thesis-collision-map"></div>
+            <div class="thesis-detail-panel" id="thesis-detail-panel" style="display: none;">
+                <div class="thesis-detail-header">
+                    <h3 id="thesis-detail-title"></h3>
+                    <span class="thesis-detail-count" id="thesis-detail-count"></span>
+                    <button class="thesis-detail-close" id="thesis-detail-close">&times;</button>
+                </div>
+                <div class="thesis-detail-companies" id="thesis-detail-companies"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PREDICTIVE & ANALYTICS -->
+
     <!-- Predictive Scoring -->
     <section class="predictive-section" id="predictive-scores">
         <div class="container">
@@ -707,7 +658,57 @@
         </div>
     </section>
 
-    <!-- [Removed: Mid-Page CTA — Redundant with community section below] -->
+
+    <!-- IPO & TECHNOLOGY READINESS -->
+
+    <!-- IPO & Exit Pipeline -->
+    <section class="ipo-section" id="ipo-pipeline">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">EXIT PIPELINE</p>
+                <h2>IPO & Exit Tracker</h2>
+                <p>Companies approaching public markets and major liquidity events.</p>
+            </div>
+            <div class="ipo-grid" id="ipo-grid"></div>
+        </div>
+    </section>
+
+    <!-- Patent Intelligence -->
+    <section class="patent-section" id="patent-intel">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">IP INTELLIGENCE</p>
+                <h2>Patent Intelligence &amp; IP Moat</h2>
+                <p>Patent portfolios, filing velocity, and IP moat analysis — the leading indicator of technology defensibility.</p>
+            </div>
+            <div class="metric-methodology-box compact">
+                <p><strong>IP Moat Score (1-10):</strong> Combines patent count, filing velocity (patents/year), breadth of coverage, and strategic value of claims. Note: Some companies (e.g., SpaceX) rely on trade secrets rather than patents — their true IP moat exceeds patent data.</p>
+            </div>
+            <div class="patent-grid" id="patent-grid"></div>
+        </div>
+    </section>
+
+    <!-- TRL Rankings Dashboard -->
+    <section class="trl-section" id="trl-rankings">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">TECHNOLOGY MATURITY</p>
+                <h2>Technology Readiness Levels</h2>
+                <p>NASA's 1-9 scale measuring how close each technology is to real-world deployment.</p>
+            </div>
+            <div class="metric-methodology-box compact">
+                <p><strong>TRL Scale:</strong> 1-3 = Research phase | 4-6 = Development & testing | 7-8 = Demonstration | 9 = Operational at scale. Higher TRL = lower technical risk, but potentially less upside.</p>
+            </div>
+            <div class="trl-legend" id="trl-legend"></div>
+            <div class="trl-grid" id="trl-grid"></div>
+        </div>
+    </section>
+
+    <!-- [Market Map merged into Company Database as view toggle] -->
+
+
+    <!-- PORTFOLIO & TRACKING TOOLS -->
+
 
     <!-- Portfolio Builder & Scenario Simulator -->
     <section class="portfolio-section" id="portfolio-builder">
@@ -742,8 +743,8 @@
                         </div>
                         <div class="portfolio-metrics-row" id="portfolio-metrics"></div>
                         <div class="portfolio-scenarios" id="portfolio-scenarios">
-                            <h4>🎯 What-If Scenario Simulator</h4>
-                            <p class="scenario-description" id="scenario-description" style="font-size:12px;color:var(--text-muted);margin-bottom:12px">See how macro events impact your portfolio</p>
+                            <h4>⚔️ War Game Simulator</h4>
+                            <p class="scenario-description" id="scenario-description" style="font-size:12px;color:var(--text-muted);margin-bottom:12px">Model geopolitical, economic, and technology scenarios against your portfolio with probability-weighted impact analysis.</p>
                             <div class="scenario-controls">
                                 <select id="scenario-select" class="lb-filter-select">
                                     <optgroup label="🌐 Geopolitical">
@@ -813,9 +814,68 @@
         </div>
     </section>
 
+    <!-- PRO WATCHLIST (Crunchbase-style Kanban) -->
+    <section class="watchlist-section" id="pro-watchlist">
+        <div class="container">
+            <div class="watchlist-container">
+                <div class="watchlist-header">
+                    <div class="watchlist-title">
+                        <h2>👁️ Pro Watchlist</h2>
+                        <span class="watchlist-count">0</span>
+                    </div>
+                    <div class="watchlist-actions" style="display: flex; gap: 12px; align-items: center;">
+                        <div class="watchlist-add-form" style="display: flex; gap: 8px;">
+                            <input type="text" id="watchlist-add-input" placeholder="Add company..." class="screener-filter-input" style="width: 180px; padding: 8px 12px; font-size: 13px;">
+                            <button onclick="addCompanyToWatchlist()" class="screener-btn primary" style="font-size: 12px; padding: 8px 14px;">+ Add</button>
+                        </div>
+                        <button onclick="clearAllWatchlist()" class="screener-btn secondary" style="font-size: 12px; padding: 6px 12px;">
+                            Clear All
+                        </button>
+                    </div>
+                </div>
+                <p style="font-size: 12px; color: var(--text-muted); padding: 12px 24px 0; margin: 0;">Drag cards between columns to track your investment pipeline. Click any card to view company details.</p>
+                <div class="watchlist-kanban"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historical Tracking (Compact — full charts in company modals) -->
+    <section class="historical-section" id="historical-tracking">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">TIME-SERIES INTELLIGENCE</p>
+                <h2>Historical Tracking</h2>
+                <p>Valuation progression, funding trajectory, and growth metrics over time. Select a company to explore.</p>
+            </div>
+            <div class="historical-controls">
+                <select id="historical-company" class="lb-filter-select">
+                    <option value="">Select a company...</option>
+                </select>
+                <select id="historical-metric" class="lb-filter-select">
+                    <option value="valuation">Valuation Over Time</option>
+                    <option value="funding">Cumulative Funding</option>
+                    <option value="headcount">Headcount Growth</option>
+                </select>
+            </div>
+            <div class="historical-chart-container" id="historical-chart"></div>
+            <div class="historical-timeline" id="historical-timeline"></div>
+        </div>
+    </section>
 
 
+    <!-- COMMUNITY & OPPORTUNITIES -->
 
+    <!-- Request for Startups -->
+    <section class="rfs-section" id="request-for-startups">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">MARKET OPPORTUNITIES</p>
+                <h2>Request for Startups</h2>
+                <p>Real problems that governments, corporations, and institutions need solved. The biggest opportunities in frontier tech.</p>
+            </div>
+            <div class="rfs-grid" id="rfs-grid"></div>
+        </div>
+    </section>
 
     <!-- Private Community — PILLAR 4 -->
     <section class="private-community-section" id="private-community">
@@ -918,73 +978,8 @@
         </div>
     </section>
 
-    <!-- Historical Tracking (Compact — full charts in company modals) -->
-    <section class="historical-section" id="historical-tracking">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">TIME-SERIES INTELLIGENCE</p>
-                <h2>Historical Tracking</h2>
-                <p>Valuation progression, funding trajectory, and growth metrics over time. Select a company to explore.</p>
-            </div>
-            <div class="historical-controls">
-                <select id="historical-company" class="lb-filter-select">
-                    <option value="">Select a company...</option>
-                </select>
-                <select id="historical-metric" class="lb-filter-select">
-                    <option value="valuation">Valuation Over Time</option>
-                    <option value="funding">Cumulative Funding</option>
-                    <option value="headcount">Headcount Growth</option>
-                </select>
-            </div>
-            <div class="historical-chart-container" id="historical-chart"></div>
-            <div class="historical-timeline" id="historical-timeline"></div>
-        </div>
-    </section>
 
-    <!-- Request for Startups -->
-    <section class="rfs-section" id="request-for-startups">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">MARKET OPPORTUNITIES</p>
-                <h2>Request for Startups</h2>
-                <p>Real problems that governments, corporations, and institutions need solved. The biggest opportunities in frontier tech.</p>
-            </div>
-            <div class="rfs-grid" id="rfs-grid"></div>
-        </div>
-    </section>
-
-
-
-    <!-- Movement Tracker -->
-    <!-- Map Section Anchor (redirects to Discovery Hub) -->
     <div id="map" style="scroll-margin-top: 80px;"></div>
-
-    <!-- PRO WATCHLIST (Crunchbase-style Kanban) -->
-    <section class="watchlist-section" id="pro-watchlist">
-        <div class="container">
-            <div class="watchlist-container">
-                <div class="watchlist-header">
-                    <div class="watchlist-title">
-                        <h2>👁️ Pro Watchlist</h2>
-                        <span class="watchlist-count">0</span>
-                    </div>
-                    <div class="watchlist-actions" style="display: flex; gap: 12px; align-items: center;">
-                        <div class="watchlist-add-form" style="display: flex; gap: 8px;">
-                            <input type="text" id="watchlist-add-input" placeholder="Add company..." class="screener-filter-input" style="width: 180px; padding: 8px 12px; font-size: 13px;">
-                            <button onclick="addCompanyToWatchlist()" class="screener-btn primary" style="font-size: 12px; padding: 8px 14px;">+ Add</button>
-                        </div>
-                        <button onclick="clearAllWatchlist()" class="screener-btn secondary" style="font-size: 12px; padding: 6px 12px;">
-                            Clear All
-                        </button>
-                    </div>
-                </div>
-                <p style="font-size: 12px; color: var(--text-muted); padding: 12px 24px 0; margin: 0;">Drag cards between columns to track your investment pipeline. Click any card to view company details.</p>
-                <div class="watchlist-kanban"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- [Removed: Sectors Overview — Redundant with Sector Momentum Index + Company Database sector filters] -->
 
     <!-- Auth Modal -->
     <div class="modal-overlay auth-modal-overlay" id="auth-modal-overlay" style="display:none;">

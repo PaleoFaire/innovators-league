@@ -11695,6 +11695,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-03-18
 // Auto-updated IPO pipeline — Last updated: 2026-03-18
 // Auto-updated IPO pipeline — Last updated: 2026-03-18
+// Auto-updated IPO pipeline — Last updated: 2026-03-18
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -12362,6 +12363,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-03-18
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-03-18
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-03-18
 const DEAL_TRACKER = [
   { company: "Intuitive Machines", investor: "Undisclosed", amount: "$175M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "PLD Space", investor: "Accel", amount: "$118M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
@@ -12912,6 +12915,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-03-15
 // Auto-updated revenue intelligence — Last updated: 2026-03-16
 // Auto-updated revenue intelligence — Last updated: 2026-03-17
+// Auto-updated revenue intelligence — Last updated: 2026-03-18
 // Auto-updated revenue intelligence — Last updated: 2026-03-18
 // Auto-updated revenue intelligence — Last updated: 2026-03-18
 // Auto-updated revenue intelligence — Last updated: 2026-03-18
@@ -14275,6 +14279,7 @@ const PREDICTIVE_SCORES = {
 
 
 
+
       "SpaceX": { score: 5, trend: "stable", runway: "Indefinite (profitable)", analysis: "Cash flow positive from Starlink and launch services. No failure risk.", lastUpdated: "2026-02-01" },
       "Palantir": { score: 3, trend: "stable", runway: "Indefinite (profitable)", analysis: "Public company, profitable, strong government contracts. Minimal risk.", lastUpdated: "2026-02-01" },
       "Anduril Industries": { score: 12, trend: "down", runway: "36+ months", analysis: "Strong contract backlog, disciplined burn. Well-capitalized with revenue traction.", lastUpdated: "2026-02-01" },
@@ -14905,6 +14910,7 @@ const PREDICTIVE_SCORES = {
       "SF AI Cluster": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-13" },
       "Bay Area Energy": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-13" },
       "Robotics Valley": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-13" },
+      "Cerebras": { score: 50, trend: "stable", runway: "24-36 months", analysis: "Auto-scored: $700M raised, 0 jobs, Series H.", lastUpdated: "2026-03-17" },
       "Cerebras": { score: 50, trend: "stable", runway: "24-36 months", analysis: "Auto-scored: $700M raised, 0 jobs, Series H.", lastUpdated: "2026-03-17" },
       "Cerebras": { score: 50, trend: "stable", runway: "24-36 months", analysis: "Auto-scored: $700M raised, 0 jobs, Series H.", lastUpdated: "2026-03-17" },
       "Cerebras": { score: 50, trend: "stable", runway: "24-36 months", analysis: "Auto-scored: $700M raised, 0 jobs, Series H.", lastUpdated: "2026-03-17" },
@@ -15835,6 +15841,8 @@ const INNOVATOR_SCORES = [
 // Last updated: 2026-03-16
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-03-17
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-03-18
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-03-18
 // Auto-updated government contracts from USAspending
@@ -16978,6 +16986,8 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-03-18
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-03-18
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-03-18
 const PATENT_INTEL = [
   { company: "SpaceX", totalPatents: 220, velocity: "15-25/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Reusable Launch Systems", "Satellite Constellation (Starlink)", "Raptor Engine Design"], notablePatents: ["Rocket landing leg deployment and recovery system", "Inter-satellite optical communication link"], note: "SpaceX famously relies on trade secrets over patents (Elon Musk has stated competitors could copy patented designs). Actual IP moat is far larger than patent count suggests due to manufacturing know-how and iterative flight data." },
   { company: "Anduril Industries", totalPatents: 29, velocity: "9-19/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Autonomous Defense Systems", "Sensor Fusion & Surveillance", "Counter-UAS Systems"], notablePatents: ["Autonomous drone interception and neutralization system", "Mesh sensor network for border surveillance (Lattice)"], note: "Rapid patent growth mirrors aggressive product expansion into autonomous systems, Lattice OS, and counter-drone platforms. Acquired Dive Technologies IP in undersea autonomy." },
@@ -17107,12 +17117,12 @@ const ALT_DATA_SIGNALS = [
   { company: "Astera Labs", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,486+", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "4 recent articles" },
   { company: "Vast", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "350+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "3 recent articles" },
   { company: "Waymo", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "3 recent articles" },
-  { company: "Ample", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "6 recent articles" },
+  { company: "Andrenam", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "2 recent articles" },
   { company: "Cape", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "13 recent articles" },
   { company: "Durin", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "6 recent articles" },
   { company: "Karman Industries", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "4 recent articles" },
   { company: "OpenAI", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "5 recent articles" },
-  { company: "Andrenam", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 5, keySignal: "2 recent articles" },
+  { company: "Ample", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 5, keySignal: "6 recent articles" },
   { company: "SpaceX", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "21K+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
   { company: "Stripe", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "8,771+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "Hiring velocity: surging. Est. headcount: 8,771+" },
   { company: "Rocket Lab", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "2,000+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "Hiring velocity: surging. Est. headcount: 2,000+" },
@@ -17128,7 +17138,6 @@ const ALT_DATA_SIGNALS = [
   { company: "Kepler Communications", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
   { company: "Xtend", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
   { company: "Aurora Innovation", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "-8.2% down" },
-  { company: "Machina Labs", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
   { company: "Gecko Robotics", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "" },
   { company: "Zipline", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,500+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "15 patents" },
   { company: "AST SpaceMobile", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,486+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: rapid. Est. headcount: 1,486+" },
@@ -17151,6 +17160,7 @@ const ALT_DATA_SIGNALS = [
   { company: "Overland AI", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "450+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 450+" },
   { company: "Allen Control Systems", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "450+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 450+" },
   { company: "Eikon Therapeutics", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "450+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 450+" },
+  { company: "Latitude", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "450+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 450+" },
 ];
 
 // =============================================================
@@ -17681,6 +17691,8 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-03-18
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-03-18
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-03-18
 const NEWS_FEED = [
   // ─── CURATED (Editorial Analysis) ───
   {
@@ -17712,56 +17724,56 @@ const NEWS_FEED = [
     analysisAuthor: "ROS Editorial"
   },
   // ─── AUTO-DETECTED NEWS ───
-  { id: 3, company: "Karman Industries", headline: "Op-Ed: What China Did Right—And What India Is Doing Differently", source: "CleanTechnica", category: "news", date: "Just now", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 4, company: "Mach Industries", headline: "ISPTech Raises €5.5M Seed Round to Redefine How Spacecraft Manoeuvre in Orbit", source: "SpaceNews", category: "funding", date: "9h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 5, company: "Saule Technologies", headline: "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage Shine", source: "CleanTechnica", category: "news", date: "9h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 6, company: "Together AI", headline: "Nvidia Structured Data is the Ground Truth of AI &#8211; $120 Billion Structure Data Ecosystem", source: "Next Big Future", category: "funding", date: "8h ago", summary: "", impact: "high", sector: "General", url: "#" },
-  { id: 7, company: "Anthropic", headline: "The Pentagon is developing alternatives to Anthropic, report says", source: "TechCrunch", category: "news", date: "8h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 8, company: "Xanadu Quantum Technologies", headline: "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data Ground Truth for AI", source: "Next Big Future", category: "funding", date: "8h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 9, company: "Gecko Robotics", headline: "US Navy taps Gecko Robotics to help remedy maintenance headaches", source: "Defense News", category: "news", date: "8h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 10, company: "Bronco AI", headline: "Space boom strains supply chain, industry report warns", source: "SpaceNews", category: "ipo", date: "7h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 11, company: "Palantir", headline: "Office of Space Commerce weighing options for TraCSS user fees", source: "SpaceNews", category: "ipo", date: "6h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 12, company: "Cape", headline: "Apple rolls out first &#8216;background security&#8217; update for iPhones, iPads, and Macs to fix Safari bug", source: "TechCrunch", category: "funding", date: "6h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 13, company: "Re:Build Manufacturing", headline: "Defense Business Brief: 3D-printing on the battlefield; Reshoring drone dominance; AI on submarines", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 14, company: "White Stork", headline: "Anduril, the autonomous weapons maker, doubles the size of its space unit", source: "Ars Technica Space", category: "ipo", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 15, company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 16, company: "Mach Industries", headline: "How Robert Goddard’s Self-Reliance Crashed His Rocket Dreams", source: "IEEE Spectrum", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 17, company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You’re Wrong", source: "IEEE Spectrum", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 18, company: "Anthropic", headline: "StateChat users move to older AI model as State dumps Anthropic", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 19, company: "AST SpaceMobile", headline: "Telesat pivots Lightspeed toward defense as delays push global service to 2028", source: "SpaceNews", category: "news", date: "5h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 20, company: "Anthropic", headline: "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise", source: "TechCrunch", category: "news", date: "5h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 21, company: "Nuro", headline: "Ebikes &#038; Bikes for Everything, + Much of What I’ve Learned Riding Bikes for 75 Years (Part I)", source: "CleanTechnica", category: "news", date: "5h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 22, company: "Labelbox", headline: "A defense official reveals how AI chatbots could be used for targeting decisions", source: "MIT Tech Review", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 23, company: "Amidon Heavy Industries", headline: "US Navy partners with Anduril to develop XL underwater vessel", source: "Defense News", category: "partnership", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 24, company: "Deterrence", headline: "Fighter jets are downing Iranian drones—a dangerous, expensive mission", source: "Defense One", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 25, company: "Hadrian", headline: "While OpenAI Shattered Records, Robotics and Semiconductor Startups Quietly Added The Most New Unicorns In February", source: "Crunchbase News", category: "leadership", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 26, company: "Vast", headline: "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience", source: "War on the Rocks", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 27, company: "Anthropic", headline: "The Pentagon is planning for AI companies to train on classified data, defense official says", source: "MIT Tech Review", category: "news", date: "4h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 28, company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 29, company: "Elodin", headline: "The Global Offshore Wind Industry Floats Away From The US (For Now)", source: "CleanTechnica", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 30, company: "Theseus", headline: "iMetalX emerges from stealth with technology to model resident space objects", source: "SpaceNews", category: "ipo", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 31, company: "Hadrian", headline: "Astroscale selects Isar Aerospace to launch ELSA-M mission", source: "SpaceNews", category: "ipo", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 32, company: "Firestorm Labs", headline: "China is developing low-cost lunar cargo options for its expanding moon program", source: "SpaceNews", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 33, company: "Kepler Communications", headline: "How US military space operators are likely aiding the fight in Iran", source: "Breaking Defense", category: "ipo", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 34, company: "Neros", headline: "After Ukraine, FPV drones could take on Arctic warfare", source: "Defense News", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 35, company: "Reveal Technology", headline: "Ukraine opens battlefield AI data to allies in world-first move", source: "Defense News", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 36, company: "Palantir", headline: "Lebanese government tries to avoid internal strife amid Israeli bombardment", source: "Defense News", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 37, company: "Cape", headline: "Ukraine will host first test for Leonardo’s Michelangelo security dome", source: "SpaceNews", category: "milestone", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 38, company: "Claros", headline: "Why physical AI is becoming manufacturing’s next advantage", source: "MIT Tech Review", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 39, company: "Karman Industries", headline: "Iran’s defense industrial base is ‘functionally defeated’: Hegseth", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 40, company: "Aurora Innovation", headline: "Waabi's Raquel Urtasun on Level-4 Autonomous Trucks", source: "IEEE Spectrum", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 41, company: "Labelbox", headline: "The Download: how AI is used for military targeting, and the Pentagon&#8217;s war on Claude", source: "MIT Tech Review", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 42, company: "Palantir", headline: "Polish president rejects $50 billion in European military loans", source: "Defense News", category: "news", date: "4d ago", summary: "", impact: "high", sector: "General", url: "#" },
-  { id: 43, company: "Atomic Industries", headline: "5 Interesting Startup Deals You May Have Missed: Blood-Drawing Robots, Inboxes For AI Agents, Franchised Defense Manufacturing, And More", source: "Crunchbase News", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 44, company: "Durin", headline: "Lucid Investor Day Report: &#8220;We Are Building for the Future&#8221;", source: "CleanTechnica", category: "funding", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 45, company: "Waymo", headline: "Zoox Coming to Dallas &#038; Phoenix, Partnering with Uber in Las Vegas &#038; Los Angeles", source: "CleanTechnica", category: "partnership", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 46, company: "Astera Labs", headline: "Dominion Energy Falls Into The &#8220;Dispatchable&#8221; Trap Over Data Center Power", source: "CleanTechnica", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 47, company: "Exowatt", headline: "The Epstein War Breathes New Life Into EU Green Hydrogen Schemes", source: "CleanTechnica", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 48, company: "Waymo", headline: "GAMECHANGER BIGGER THAN TESLA ROBOTAXI ? AI Bombshell", source: "Next Big Future", category: "contract", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 49, company: "Xtend", headline: "EXCLUSIVE: Aircraft carrier Nimitz service life extended until 2027", source: "Breaking Defense", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 50, company: "SpaceX", headline: "SpaceX Testing Booster for V3 Starship Launch in 3-4 Weeks", source: "Next Big Future", category: "ipo", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 51, company: "FleetZero", headline: "UK EV Sales Were Higher Than Mandated In 2024", source: "CleanTechnica", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 52, company: "Ample", headline: "Stellantis Rumored to Talk with Xiaomi &#038; XPeng Regarding Partnership", source: "CleanTechnica", category: "partnership", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 3, company: "Cape", headline: "Apple rolls out first &#8216;background security&#8217; update for iPhones, iPads, and Macs to fix Safari bug", source: "TechCrunch", category: "funding", date: "9h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 4, company: "AST SpaceMobile", headline: "Telesat pivots Lightspeed toward defense as delays push global service to 2028", source: "SpaceNews", category: "news", date: "8h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 5, company: "Anthropic", headline: "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise", source: "TechCrunch", category: "news", date: "8h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 6, company: "Nuro", headline: "Ebikes &#038; Bikes for Everything, + Much of What I’ve Learned Riding Bikes for 75 Years (Part I)", source: "CleanTechnica", category: "news", date: "8h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 7, company: "Palantir", headline: "Office of Space Commerce weighing options for TraCSS user fees", source: "SpaceNews", category: "ipo", date: "8h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 8, company: "Anthropic", headline: "The Pentagon is planning for AI companies to train on classified data, defense official says", source: "MIT Tech Review", category: "news", date: "7h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 9, company: "Re:Build Manufacturing", headline: "Defense Business Brief: 3D-printing on the battlefield; Reshoring drone dominance; AI on submarines", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 10, company: "White Stork", headline: "Anduril, the autonomous weapons maker, doubles the size of its space unit", source: "Ars Technica Space", category: "ipo", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 11, company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 12, company: "Mach Industries", headline: "How Robert Goddard’s Self-Reliance Crashed His Rocket Dreams", source: "IEEE Spectrum", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 13, company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You’re Wrong", source: "IEEE Spectrum", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 14, company: "Anthropic", headline: "StateChat users move to older AI model as State dumps Anthropic", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 15, company: "Labelbox", headline: "A defense official reveals how AI chatbots could be used for targeting decisions", source: "MIT Tech Review", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 16, company: "Amidon Heavy Industries", headline: "US Navy partners with Anduril to develop XL underwater vessel", source: "Defense News", category: "partnership", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 17, company: "Deterrence", headline: "Fighter jets are downing Iranian drones—a dangerous, expensive mission", source: "Defense One", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 18, company: "Hadrian", headline: "While OpenAI Shattered Records, Robotics and Semiconductor Startups Quietly Added The Most New Unicorns In February", source: "Crunchbase News", category: "leadership", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 19, company: "Vast", headline: "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience", source: "War on the Rocks", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 20, company: "Palantir", headline: "Justice Department Says Anthropic Can’t Be Trusted With Warfighting Systems", source: "Wired", category: "news", date: "4h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 21, company: "FleetZero", headline: "UK EV Sales Were Higher Than Mandated In 2024", source: "CleanTechnica", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 22, company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 23, company: "Theseus", headline: "iMetalX emerges from stealth with technology to model resident space objects", source: "SpaceNews", category: "ipo", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 24, company: "Hadrian", headline: "Astroscale selects Isar Aerospace to launch ELSA-M mission", source: "SpaceNews", category: "ipo", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 25, company: "Firestorm Labs", headline: "China is developing low-cost lunar cargo options for its expanding moon program", source: "SpaceNews", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 26, company: "Kepler Communications", headline: "How US military space operators are likely aiding the fight in Iran", source: "Breaking Defense", category: "ipo", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 27, company: "Neros", headline: "After Ukraine, FPV drones could take on Arctic warfare", source: "Defense News", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 28, company: "Reveal Technology", headline: "Ukraine opens battlefield AI data to allies in world-first move", source: "Defense News", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 29, company: "Palantir", headline: "Lebanese government tries to avoid internal strife amid Israeli bombardment", source: "Defense News", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 30, company: "Cape", headline: "Ukraine will host first test for Leonardo’s Michelangelo security dome", source: "SpaceNews", category: "milestone", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 31, company: "Claros", headline: "Why physical AI is becoming manufacturing’s next advantage", source: "MIT Tech Review", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 32, company: "Karman Industries", headline: "Iran’s defense industrial base is ‘functionally defeated’: Hegseth", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 33, company: "Aurora Innovation", headline: "Waabi's Raquel Urtasun on Level-4 Autonomous Trucks", source: "IEEE Spectrum", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 34, company: "Labelbox", headline: "The Download: how AI is used for military targeting, and the Pentagon&#8217;s war on Claude", source: "MIT Tech Review", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 35, company: "Palantir", headline: "Polish president rejects $50 billion in European military loans", source: "Defense News", category: "news", date: "4d ago", summary: "", impact: "high", sector: "General", url: "#" },
+  { id: 36, company: "Atomic Industries", headline: "5 Interesting Startup Deals You May Have Missed: Blood-Drawing Robots, Inboxes For AI Agents, Franchised Defense Manufacturing, And More", source: "Crunchbase News", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 37, company: "Karman Industries", headline: "Op-Ed: What China Did Right—And What India Is Doing Differently", source: "CleanTechnica", category: "news", date: "3h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 38, company: "Durin", headline: "Lucid Investor Day Report: &#8220;We Are Building for the Future&#8221;", source: "CleanTechnica", category: "funding", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 39, company: "Waymo", headline: "Zoox Coming to Dallas &#038; Phoenix, Partnering with Uber in Las Vegas &#038; Los Angeles", source: "CleanTechnica", category: "partnership", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 40, company: "Astera Labs", headline: "Dominion Energy Falls Into The &#8220;Dispatchable&#8221; Trap Over Data Center Power", source: "CleanTechnica", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 41, company: "Exowatt", headline: "The Epstein War Breathes New Life Into EU Green Hydrogen Schemes", source: "CleanTechnica", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 42, company: "Waymo", headline: "GAMECHANGER BIGGER THAN TESLA ROBOTAXI ? AI Bombshell", source: "Next Big Future", category: "contract", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 43, company: "Xtend", headline: "EXCLUSIVE: Aircraft carrier Nimitz service life extended until 2027", source: "Breaking Defense", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 44, company: "SpaceX", headline: "SpaceX Testing Booster for V3 Starship Launch in 3-4 Weeks", source: "Next Big Future", category: "ipo", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 45, company: "Cape", headline: "Do Offshore Wind Farms Pose National Security Risks?", source: "IEEE Spectrum", category: "news", date: "3/9/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 46, company: "Anthropic", headline: "Military AI Policy Needs Democratic Oversight", source: "IEEE Spectrum", category: "milestone", date: "3/8/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 47, company: "PLD Space", headline: "Laser-Based 3D Printing Could Build Future Bases on the Moon", source: "IEEE Spectrum", category: "news", date: "3/7/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 48, company: "Terrestrial Energy", headline: "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)", source: "IEEE Spectrum", category: "news", date: "3/6/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 49, company: "Astera Labs", headline: "Trump gets data center companies to pledge to pay for power generation", source: "Ars Technica", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 50, company: "Cape", headline: "Fighting an Economic War Without Fused Intelligence", source: "War on the Rocks", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 51, company: "Astera Labs", headline: "This Offshore Wind Turbine Will House a Data Center", source: "IEEE Spectrum", category: "news", date: "3/3/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 52, company: "Durin", headline: "Foundry, Fleet, and Fight: Hedging the U.S. Navy", source: "War on the Rocks", category: "news", date: "3/3/2026", summary: "", impact: "low", sector: "General", url: "#" },
 ];
 
 const STORY_LEADS = [
@@ -20301,23 +20313,24 @@ const DATA_QUALITY = {
 // Last updated: 2026-03-18
 // Auto-generated real-time signals
 // Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Karman Industries", headline: "Op-Ed: What China Did Right—And What India Is Doing Differently", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Palantir", headline: "Justice Department Says Anthropic Can’t Be Trusted With Warfighting Systems", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Anthropic", headline: "The Pentagon is planning for AI companies to train on classified data, defense official says", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "AST SpaceMobile", headline: "Telesat pivots Lightspeed toward defense as delays push global service to 2028", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Anthropic", headline: "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Nuro", headline: "Ebikes &#038; Bikes for Everything, + Much of What I’ve Learned Riding Bikes for 75 Years (Part I)", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Palantir", headline: "Office of Space Commerce weighing options for TraCSS user fees", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Cape", headline: "Apple rolls out first &#8216;background security&#8217; update for iPhones, iPads, and Macs to fix Safari bug", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Bronco AI", headline: "Space boom strains supply chain, industry report warns", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Together AI", headline: "Nvidia Structured Data is the Ground Truth of AI &#8211; $120 Billion Structure Data Ecosystem", source: "Next Big Future", time: "8h ago", impact: "high", unread: false },
-  { id: 11, type: "contract", company: "Anthropic", headline: "The Pentagon is developing alternatives to Anthropic, report says", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Xanadu Quantum Technologies", headline: "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data Ground Truth for AI", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Gecko Robotics", headline: "US Navy taps Gecko Robotics to help remedy maintenance headaches", source: "Defense News", time: "8h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Mach Industries", headline: "ISPTech Raises €5.5M Seed Round to Redefine How Spacecraft Manoeuvre in Orbit", source: "SpaceNews", time: "9h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Saule Technologies", headline: "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage Shine", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-
+  { id: 1, type: "ipo", company: "Cape", headline: "Europe Must Not Let Airlines Sabotage Clean Aviation Fuels", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Andrenam", headline: "Greece Risks Becoming Trump’s Trojan Horse in the Fight to Decarbonise Shipping", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Cape", headline: "How Electric Cars Cut Oil Dependence &#038; Drive Energy Security", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Karman Industries", headline: "Op-Ed: What China Did Right—And What India Is Doing Differently", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "Justice Department Says Anthropic Can’t Be Trusted With Warfighting Systems", source: "Wired", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Anthropic", headline: "The Pentagon is planning for AI companies to train on classified data, defense official says", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "AST SpaceMobile", headline: "Telesat pivots Lightspeed toward defense as delays push global service to 2028", source: "SpaceNews", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Nuro", headline: "Ebikes &#038; Bikes for Everything, + Much of What I’ve Learned Riding Bikes for 75 Years (Part I)", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Palantir", headline: "Office of Space Commerce weighing options for TraCSS user fees", source: "SpaceNews", time: "8h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Cape", headline: "Apple rolls out first &#8216;background security&#8217; update for iPhones, iPads, and Macs to fix Safari bug", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Bronco AI", headline: "Space boom strains supply chain, industry report warns", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Together AI", headline: "Nvidia Structured Data is the Ground Truth of AI &#8211; $120 Billion Structure Data Ecosystem", source: "Next Big Future", time: "11h ago", impact: "high", unread: false },
+  { id: 14, type: "contract", company: "Anthropic", headline: "The Pentagon is developing alternatives to Anthropic, report says", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Xanadu Quantum Technologies", headline: "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data Ground Truth for AI", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
@@ -20401,6 +20414,8 @@ const EXPERT_INSIGHTS = [
 // Last updated: 2026-03-18
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-03-18
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-03-18
 const VALLEY_OF_DEATH = [
   { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 100, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
   { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
@@ -20437,6 +20452,8 @@ const VALLEY_OF_DEATH_STAGES = [
   { id: "production", label: "Production Contract", short: "Production", color: "#22c55e", description: "Full-rate production. Recurring DoD revenue. The finish line." }
 ];
 
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-03-18
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-03-18
 // Auto-recalibrated contractor readiness scores
@@ -20589,18 +20606,6 @@ const DEAL_FLOW_SIGNALS = [
     potentialLeads: []
   },
   {
-    company: "Ample",
-    probability: 40,
-    expectedRound: "Unknown",
-    expectedAmount: "TBD",
-    expectedTiming: "TBD",
-    signals: [
-      { type: "milestone", description: "Recent funding activity: Funding Round", weight: 50 },
-      { type: "partnership", description: "Stellantis Rumored to Talk with Xiaomi &#038; XPeng Regarding Partnership", weight: 50 },
-    ],
-    potentialLeads: []
-  },
-  {
     company: "Neuralink",
     probability: 40,
     expectedRound: "Unknown",
@@ -20669,6 +20674,18 @@ const DEAL_FLOW_SIGNALS = [
     signals: [
       { type: "milestone", description: "Recent funding activity: Series C", weight: 50 },
       { type: "milestone", description: "Recent funding activity: SPAC", weight: 50 },
+    ],
+    potentialLeads: []
+  },
+  {
+    company: "Anthropic",
+    probability: 40,
+    expectedRound: "Unknown",
+    expectedAmount: "TBD",
+    expectedTiming: "TBD",
+    signals: [
+      { type: "milestone", description: "Recent funding activity: Series G", weight: 50 },
+      { type: "milestone", description: "Recent funding activity: Series F", weight: 50 },
     ],
     potentialLeads: []
   },

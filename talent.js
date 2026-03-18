@@ -10,6 +10,7 @@
     safeInit('initTalentFlow', initTalentFlow);
     safeInit('initMafiaExplorer', initMafiaExplorer);
     safeInit('initFounderDNA', initFounderDNA);
+    safeInit('initStealthRadar', initStealthRadar);
     safeInit('initTalentMagnets', initTalentMagnets);
     safeInit('initSectorHiring', initSectorHiring);
     safeInit('initTalentGeo', initTalentGeo);
@@ -141,6 +142,184 @@
     }
 
     grid.innerHTML = html;
+  }
+
+  // ── Stealth Radar — Early Signal Detection ──
+  function initStealthRadar() {
+    var statsEl = document.getElementById('sr-stats-row');
+    var gridEl = document.getElementById('sr-signals-grid');
+    if (!gridEl) return;
+
+    var founderDNA = (typeof FOUNDER_DNA !== 'undefined') ? FOUNDER_DNA : [];
+    var companies = (typeof COMPANIES !== 'undefined') ? COMPANIES : [];
+    var headcountData = (typeof HEADCOUNT_ESTIMATES !== 'undefined') ? HEADCOUNT_ESTIMATES : [];
+    var patentData = (typeof PATENT_INTEL !== 'undefined') ? PATENT_INTEL : [];
+    var dealData = (typeof DEAL_TRACKER !== 'undefined') ? DEAL_TRACKER : [];
+
+    // Build stealth signals by combining data sources
+    var signals = [];
+
+    // 1. Find companies with serial founders + recent hiring surges
+    founderDNA.forEach(function(fd) {
+      if (!fd.hasSerialFounder && fd.mafiaCount === 0) return;
+
+      var co = companies.find(function(c) { return c.name === fd.company; });
+      if (!co) return;
+
+      var signalScore = 0;
+      var signalReasons = [];
+      var badges = [];
+
+      // Serial founder signal
+      if (fd.hasSerialFounder) {
+        signalScore += 15;
+        signalReasons.push('Serial founder with prior exit experience');
+        badges.push({ label: 'Serial Founder', active: true });
+      }
+
+      // Mafia connection signal
+      if (fd.mafiaCount > 0) {
+        signalScore += 10 * fd.mafiaCount;
+        signalReasons.push(fd.mafiaConnections.join(', ') + ' alumni');
+        badges.push({ label: 'Mafia: ' + fd.mafiaConnections[0], active: true });
+      }
+
+      // High DNA score signal
+      if (fd.dnaScore >= 70) {
+        signalScore += 10;
+        badges.push({ label: 'DNA ' + fd.dnaScore, active: true });
+      }
+
+      // Hiring surge signal
+      var hc = headcountData.find(function(h) { return h.company === fd.company; });
+      if (hc && hc.growthRate && parseFloat(hc.growthRate) > 15) {
+        signalScore += 15;
+        signalReasons.push('Hiring surge: ' + hc.growthRate + '% growth');
+        badges.push({ label: 'Hiring Surge', active: true });
+      } else if (co.headcount && parseInt(co.headcount) > 50) {
+        signalScore += 5;
+      }
+
+      // Patent filing signal
+      var patent = patentData.find(function(p) { return p.company === fd.company; });
+      if (patent && patent.recentFilings && patent.recentFilings > 2) {
+        signalScore += 10;
+        signalReasons.push(patent.recentFilings + ' recent patent filings');
+        badges.push({ label: 'Patent Activity', active: true });
+      } else if (patent && patent.totalPatents > 0) {
+        signalScore += 3;
+        badges.push({ label: patent.totalPatents + ' Patents', active: false });
+      }
+
+      // Recent funding signal
+      var recentDeal = dealData.find(function(d) { return d.company === fd.company; });
+      if (recentDeal) {
+        signalScore += 8;
+        signalReasons.push('Recent funding: ' + (recentDeal.amount || 'undisclosed'));
+        badges.push({ label: 'Funded', active: true });
+      }
+
+      // Stage signal — earlier stage = higher stealth radar relevance
+      if (co.stage === 'Seed' || co.stage === 'Series A') {
+        signalScore += 10;
+        badges.push({ label: co.stage, active: false });
+      } else if (co.stage === 'Series B') {
+        signalScore += 5;
+        badges.push({ label: co.stage, active: false });
+      }
+
+      // Gov traction signal
+      if (co.govContracts && co.govContracts.length > 0) {
+        signalScore += 8;
+        badges.push({ label: 'Gov Traction', active: true });
+      }
+
+      if (signalScore >= 20) {
+        signals.push({
+          company: fd.company,
+          score: signalScore,
+          sector: fd.sector || co.sector || 'Unknown',
+          founders: fd.founders || [],
+          serialFounders: fd.serialFounders || [],
+          mafiaConnections: fd.mafiaConnections || [],
+          reasons: signalReasons,
+          badges: badges,
+          stage: co.stage || 'Unknown',
+          founded: co.founded || ''
+        });
+      }
+    });
+
+    // Sort by signal score descending
+    signals.sort(function(a, b) { return b.score - a.score; });
+    var topSignals = signals.slice(0, 20);
+
+    // Render stats
+    if (statsEl) {
+      var totalTracked = signals.length;
+      var hotSignals = signals.filter(function(s) { return s.score >= 40; }).length;
+      var serialFounderCos = signals.filter(function(s) { return s.serialFounders.length > 0; }).length;
+      var mafiaCos = signals.filter(function(s) { return s.mafiaConnections.length > 0; }).length;
+
+      statsEl.innerHTML = ''
+        + '<div class="sr-stat-card"><div class="sr-stat-number">' + totalTracked + '</div><div class="sr-stat-label">Companies on Radar</div></div>'
+        + '<div class="sr-stat-card"><div class="sr-stat-number" style="color:#ef4444;">' + hotSignals + '</div><div class="sr-stat-label">Hot Signals (40+)</div></div>'
+        + '<div class="sr-stat-card"><div class="sr-stat-number" style="color:#8b5cf6;">' + serialFounderCos + '</div><div class="sr-stat-label">Serial Founders</div></div>'
+        + '<div class="sr-stat-card"><div class="sr-stat-number" style="color:#3b82f6;">' + mafiaCos + '</div><div class="sr-stat-label">Mafia Alumni</div></div>';
+    }
+
+    // Render signal cards
+    if (topSignals.length === 0) {
+      gridEl.innerHTML = '<p style="color:var(--text-muted);text-align:center;">No stealth signals detected. Data sources loading...</p>';
+      return;
+    }
+
+    var html = '';
+    topSignals.forEach(function(s) {
+      var strengthColor = s.score >= 50 ? '#ef4444' : s.score >= 35 ? '#f59e0b' : '#22c55e';
+      var strengthBg = s.score >= 50 ? 'rgba(239,68,68,0.15)' : s.score >= 35 ? 'rgba(245,158,11,0.15)' : 'rgba(34,197,94,0.15)';
+      var strengthLabel = s.score >= 50 ? 'HOT' : s.score >= 35 ? 'WARM' : 'EARLY';
+
+      html += '<div class="sr-signal-card" onclick="if(typeof openCompanyModal===\'function\')openCompanyModal(\'' + s.company.replace(/'/g, "\\'") + '\')">';
+      html += '<div class="sr-signal-header">';
+      html += '<div class="sr-signal-company">' + s.company + '</div>';
+      html += '<div class="sr-signal-strength" style="color:' + strengthColor + ';background:' + strengthBg + ';">' + strengthLabel + ' ' + s.score + '</div>';
+      html += '</div>';
+
+      // Founder info
+      if (s.serialFounders.length > 0) {
+        html += '<div class="sr-signal-founder">Founded by <strong>' + s.serialFounders.join(', ') + '</strong>';
+        if (s.mafiaConnections.length > 0) {
+          html += ' · ' + s.mafiaConnections.join(', ');
+        }
+        html += '</div>';
+      } else if (s.mafiaConnections.length > 0) {
+        html += '<div class="sr-signal-founder">' + s.mafiaConnections.join(', ') + ' alumni</div>';
+      }
+
+      // Badges
+      if (s.badges.length > 0) {
+        html += '<div class="sr-signal-badges">';
+        s.badges.forEach(function(b) {
+          html += '<span class="sr-badge' + (b.active ? ' active' : '') + '">' + b.label + '</span>';
+        });
+        html += '</div>';
+      }
+
+      // Signal reasons
+      if (s.reasons.length > 0) {
+        html += '<div class="sr-signal-reason">' + s.reasons.slice(0, 3).join(' · ') + '</div>';
+      }
+
+      // Sector + stage
+      html += '<div class="sr-signal-date">' + s.sector + ' · ' + s.stage;
+      if (s.founded) html += ' · Est. ' + s.founded;
+      html += '</div>';
+
+      html += '</div>';
+    });
+
+    gridEl.innerHTML = html;
   }
 
   // ── Talent Magnets Leaderboard ──

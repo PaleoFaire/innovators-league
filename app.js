@@ -1210,6 +1210,7 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initDealTracker);
   safeInit(initCapitalFlowsTabs);
   safeInit(initMarketMap);
+  safeInit(initDatabaseViewToggle);
   safeInit(initMafiaExplorer);
   safeInit(initRevenueTable);
   safeInit(initRequestForStartups);
@@ -4169,6 +4170,48 @@ function initMarketMap() {
   });
 }
 
+// ─── DATABASE VIEW TOGGLE (Grid ↔ Market Map) ───
+function initDatabaseViewToggle() {
+  const toggleBtns = document.querySelectorAll('.db-view-btn');
+  const companyGrid = document.getElementById('company-grid');
+  const marketMapGrid = document.getElementById('market-map-grid');
+  const filterBar = document.querySelector('.filter-bar');
+  const filterChips = document.getElementById('filter-chips');
+  const savedSearches = document.getElementById('saved-searches-bar');
+  const noResults = document.getElementById('no-results');
+  const resultsCount = document.getElementById('results-count');
+
+  if (!toggleBtns.length || !companyGrid || !marketMapGrid) return;
+
+  toggleBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const view = btn.dataset.view;
+      toggleBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      if (view === 'market-map') {
+        companyGrid.style.display = 'none';
+        if (noResults) noResults.style.display = 'none';
+        if (filterBar) filterBar.style.display = 'none';
+        if (filterChips) filterChips.style.display = 'none';
+        if (savedSearches) savedSearches.style.display = 'none';
+        if (resultsCount) resultsCount.style.display = 'none';
+        marketMapGrid.style.display = '';
+        // Render market map if not already rendered
+        if (!marketMapGrid.children.length) {
+          initMarketMap();
+        }
+      } else {
+        companyGrid.style.display = '';
+        if (filterBar) filterBar.style.display = '';
+        if (filterChips) filterChips.style.display = '';
+        if (resultsCount) resultsCount.style.display = '';
+        marketMapGrid.style.display = 'none';
+      }
+    });
+  });
+}
+
 // ─── MAFIA EXPLORER ───
 function initMafiaExplorer() {
   const grid = document.getElementById('mafia-grid');
@@ -6286,6 +6329,126 @@ function initPortfolioBuilder() {
           description: 'Biotech regulatory streamlining increases',
           sectors: { 'BioTech & HealthTech': 3, 'Artificial Intelligence': 1 },
           default: 0
+        },
+        'ukraine-rebuild': {
+          label: 'Ukraine Reconstruction ($500B)',
+          description: 'Massive reconstruction effort creates demand for defense, infrastructure, and energy tech',
+          sectors: { 'Defense & Security': 2, 'Advanced Manufacturing': 3, 'Climate & Energy': 2, 'Autonomous Systems': 2, 'Cybersecurity': 1 },
+          default: 0
+        },
+        'indo-pacific': {
+          label: 'Indo-Pacific Security Push',
+          description: 'Increased military presence and allied defense modernization in the Pacific',
+          sectors: { 'Defense & Security': 3, 'Space & Aerospace': 2, 'Autonomous Systems': 3, 'Cybersecurity': 2 },
+          default: 0
+        },
+        'robotics-boom': {
+          label: 'Robotics Manufacturing Boom',
+          description: 'Labor shortages drive rapid adoption of industrial and service robotics',
+          sectors: { 'Robotics & Automation': 3, 'Artificial Intelligence': 2, 'Advanced Manufacturing': 2, 'Autonomous Systems': 2 },
+          default: 0
+        },
+        'autonomous-vehicles': {
+          label: 'Autonomous Vehicles Approved',
+          description: 'Major regulatory approvals for L4/L5 autonomous driving',
+          sectors: { 'Autonomous Systems': 3, 'Artificial Intelligence': 2, 'Robotics & Automation': 2, 'Next-Gen Mobility': 3 },
+          default: 0
+        },
+        'ai-chip-shortage': {
+          label: 'AI Chip Shortage Intensifies',
+          description: 'GPU/AI accelerator demand far exceeds supply, bottlenecking AI deployment',
+          sectors: { 'Semiconductors': 3, 'Artificial Intelligence': -1, 'Advanced Manufacturing': 2 },
+          default: 0
+        },
+        'moon-economy': {
+          label: 'Artemis Moon Economy',
+          description: 'Lunar Gateway and Artemis program create sustained cis-lunar economy',
+          sectors: { 'Space & Aerospace': 3, 'Advanced Manufacturing': 1, 'Robotics & Automation': 1, 'Advanced Materials': 2 },
+          default: 0
+        },
+        'space-tourism': {
+          label: 'Space Tourism Takes Off',
+          description: 'Commercial suborbital and orbital tourism becomes mainstream',
+          sectors: { 'Space & Aerospace': 2, 'Next-Gen Mobility': 1 },
+          default: 0
+        },
+        'asteroid-mining': {
+          label: 'Asteroid Mining Breakthrough',
+          description: 'First successful resource extraction from near-Earth asteroids',
+          sectors: { 'Space & Aerospace': 3, 'Advanced Materials': 2, 'Robotics & Automation': 1 },
+          default: 0
+        },
+        'grid-crisis': {
+          label: 'Grid Infrastructure Crisis',
+          description: 'Power grid failures and data center demand create urgent infrastructure needs',
+          sectors: { 'Nuclear Energy': 3, 'Climate & Energy': 3, 'Advanced Manufacturing': 1, 'Semiconductors': 1 },
+          default: 0
+        },
+        'ev-mandate': {
+          label: 'EV Mandate Acceleration',
+          description: 'Aggressive EV mandates accelerate electrification timelines',
+          sectors: { 'Next-Gen Mobility': 3, 'Climate & Energy': 2, 'Advanced Materials': 2, 'Advanced Manufacturing': 1 },
+          default: 0
+        },
+        'hydrogen-economy': {
+          label: 'Hydrogen Economy Emerges',
+          description: 'Green hydrogen reaches cost parity for industrial applications',
+          sectors: { 'Climate & Energy': 3, 'Advanced Manufacturing': 1, 'Advanced Materials': 2, 'Nuclear Energy': 1 },
+          default: 0
+        },
+        'inflation-spike': {
+          label: 'Inflation Spike (8%+)',
+          description: 'Persistent inflation pressures margins and raises cost of capital',
+          sectors: { 'Defense & Security': 1, 'Nuclear Energy': 0 },
+          default: -2
+        },
+        'venture-winter': {
+          label: 'Venture Funding Winter',
+          description: 'VC deployment drops 50%+ — only best-capitalized survive',
+          sectors: { 'Defense & Security': 0, 'Nuclear Energy': -1 },
+          default: -3
+        },
+        'ma-wave': {
+          label: 'M&A Wave (Big Tech Acquirers)',
+          description: 'Large incumbents acquire frontier tech startups at premium valuations',
+          sectors: { 'Artificial Intelligence': 3, 'Cybersecurity': 2, 'Robotics & Automation': 2, 'Space & Aerospace': 1, 'Defense & Security': 1 },
+          default: 1
+        },
+        'export-controls': {
+          label: 'Export Controls Tightened',
+          description: 'Expanded ITAR/EAR controls restrict international sales',
+          sectors: { 'Defense & Security': 1, 'Semiconductors': -2, 'Space & Aerospace': -1, 'Artificial Intelligence': -1 },
+          default: 0
+        },
+        'antitrust-wave': {
+          label: 'Antitrust Enforcement Wave',
+          description: 'Aggressive antitrust action creates openings for smaller players',
+          sectors: { 'Artificial Intelligence': 1, 'Cybersecurity': 1, 'FinTech & Infrastructure': 1 },
+          default: 1
+        },
+        'carbon-tax': {
+          label: 'Carbon Tax Implementation',
+          description: 'Federal carbon pricing makes clean energy economically dominant',
+          sectors: { 'Nuclear Energy': 3, 'Climate & Energy': 3, 'Next-Gen Mobility': 2, 'Advanced Materials': 1 },
+          default: 0
+        },
+        'biotech-breakthrough': {
+          label: 'Major Biotech Breakthrough',
+          description: 'Breakthrough in gene therapy, drug delivery, or synthetic biology',
+          sectors: { 'BioTech & HealthTech': 3, 'Advanced Materials': 1, 'Artificial Intelligence': 1 },
+          default: 0
+        },
+        'pandemic-prep': {
+          label: 'Pandemic Preparedness Push',
+          description: 'New pandemic response infrastructure and biodefense investment',
+          sectors: { 'BioTech & HealthTech': 3, 'Defense & Security': 1, 'Artificial Intelligence': 1, 'Robotics & Automation': 1 },
+          default: 0
+        },
+        'longevity-boom': {
+          label: 'Longevity Research Boom',
+          description: 'Anti-aging and longevity science attracts massive investment',
+          sectors: { 'BioTech & HealthTech': 3, 'Artificial Intelligence': 1 },
+          default: 0
         }
       };
 
@@ -6293,11 +6456,32 @@ function initPortfolioBuilder() {
 
       const results = companies.map(c => {
         const sectorImpact = config.sectors[c.sector] !== undefined ? config.sectors[c.sector] : (config.default || 0);
-        const govBonus = (typeof GOV_CONTRACTS !== 'undefined' && GOV_CONTRACTS.some(g => g.company === c.name) && sectorImpact > 0) ? 1 : 0;
-        const totalImpact = sectorImpact + govBonus;
+        // Gov traction multiplier — companies with gov contracts get amplified impact in defense/gov scenarios
+        const hasGovContracts = (typeof GOV_CONTRACTS !== 'undefined' && GOV_CONTRACTS.some(g => g.company === c.name));
+        const govMultiplier = hasGovContracts && sectorImpact > 0 ? 1.5 : hasGovContracts && sectorImpact < 0 ? 0.7 : 1;
+        // Company-specific factors
+        const score = c.score || 50;
+        const scoreFactor = score > 80 ? 1.2 : score > 60 ? 1.0 : 0.8;
+        const rawImpact = sectorImpact * govMultiplier * scoreFactor;
+        const totalImpact = Math.round(rawImpact * 10) / 10;
+
+        // Probability-weighted return estimate
+        const baseReturnRange = sectorImpact > 0 ? [5, 15 + sectorImpact * 8] : sectorImpact < 0 ? [-15 + sectorImpact * 5, 0] : [-3, 5];
+        const adjustedLow = Math.round(baseReturnRange[0] * scoreFactor * govMultiplier);
+        const adjustedHigh = Math.round(baseReturnRange[1] * scoreFactor * govMultiplier);
+
         const impactClass = totalImpact > 0 ? 'positive' : totalImpact < 0 ? 'negative' : 'neutral';
-        const impactLabel = totalImpact > 0 ? `+${totalImpact} Tailwind` : totalImpact < 0 ? `${totalImpact} Headwind` : 'Neutral';
-        return { name: c.name, impact: totalImpact, impactClass, impactLabel, sector: c.sector };
+        const impactLabel = totalImpact > 0 ? `+${totalImpact.toFixed(1)} Tailwind` : totalImpact < 0 ? `${totalImpact.toFixed(1)} Headwind` : 'Neutral';
+
+        // Strategic factors
+        const factors = [];
+        if (hasGovContracts && sectorImpact > 0) factors.push('Gov Contract Leverage');
+        if (score >= 80) factors.push('High Frontier Score');
+        if (c.sector === 'Defense & Security' && scenario.includes('defense')) factors.push('Direct Defense Exposure');
+        if (c.stage === 'Production' || c.stage === 'Growth') factors.push('Scale Advantage');
+        if (c.stage === 'Seed' || c.stage === 'Series A') factors.push('High Beta');
+
+        return { name: c.name, impact: totalImpact, impactClass, impactLabel, sector: c.sector, returnRange: `${adjustedLow > 0 ? '+' : ''}${adjustedLow}% to ${adjustedHigh > 0 ? '+' : ''}${adjustedHigh}%`, factors, score, hasGovContracts };
       }).sort((a, b) => b.impact - a.impact);
 
       // Calculate portfolio-wide impact
@@ -6305,37 +6489,55 @@ function initPortfolioBuilder() {
       const positiveCount = results.filter(r => r.impact > 0).length;
       const negativeCount = results.filter(r => r.impact < 0).length;
       const neutralCount = results.filter(r => r.impact === 0).length;
+      const govExposedCount = results.filter(r => r.hasGovContracts).length;
 
-      const portfolioSentiment = avgImpact > 1 ? 'Strong Tailwind' : avgImpact > 0 ? 'Mild Tailwind' : avgImpact < -1 ? 'Strong Headwind' : avgImpact < 0 ? 'Mild Headwind' : 'Neutral';
+      const portfolioSentiment = avgImpact > 1.5 ? 'Strong Tailwind' : avgImpact > 0.3 ? 'Mild Tailwind' : avgImpact < -1.5 ? 'Strong Headwind' : avgImpact < -0.3 ? 'Mild Headwind' : 'Neutral';
       const sentimentColor = avgImpact > 0 ? '#22c55e' : avgImpact < 0 ? '#ef4444' : '#f59e0b';
+      const sentimentEmoji = avgImpact > 1.5 ? '🟢' : avgImpact > 0.3 ? '🟡' : avgImpact < -1.5 ? '🔴' : avgImpact < -0.3 ? '🟠' : '⚪';
+
+      // Calculate sector concentration risk
+      const sectorCounts = {};
+      results.forEach(r => { sectorCounts[r.sector] = (sectorCounts[r.sector] || 0) + 1; });
+      const topSector = Object.entries(sectorCounts).sort((a, b) => b[1] - a[1])[0];
+      const concentrationRisk = topSector && (topSector[1] / results.length) > 0.5 ? 'High' : topSector && (topSector[1] / results.length) > 0.3 ? 'Medium' : 'Low';
+      const concentrationColor = concentrationRisk === 'High' ? '#ef4444' : concentrationRisk === 'Medium' ? '#f59e0b' : '#22c55e';
 
       document.getElementById('scenario-results').innerHTML = `
-        <div style="margin-bottom:16px;padding:12px;background:rgba(255,255,255,0.05);border-radius:8px;">
-          <p style="margin:0 0 6px;font-size:14px;"><strong style="color:var(--text-primary)">${config.label}</strong></p>
-          <p style="margin:0 0 10px;font-size:12px;color:var(--text-muted)">${config.description || ''}</p>
-          <div style="display:flex;gap:16px;flex-wrap:wrap;">
-            <div style="text-align:center;">
-              <div style="font-size:20px;font-weight:700;color:${sentimentColor}">${portfolioSentiment}</div>
-              <div style="font-size:11px;color:var(--text-muted)">Portfolio Impact</div>
+        <div style="margin-bottom:16px;padding:16px;background:rgba(255,255,255,0.05);border-radius:12px;border:1px solid rgba(255,255,255,0.08);">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+            <span style="font-size:20px;">${sentimentEmoji}</span>
+            <p style="margin:0;font-size:15px;font-weight:700;color:var(--text-primary)">${config.label}</p>
+          </div>
+          <p style="margin:0 0 12px;font-size:12px;color:var(--text-muted)">${config.description || ''}</p>
+          <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:12px;text-align:center;">
+            <div>
+              <div style="font-size:18px;font-weight:700;color:${sentimentColor}">${portfolioSentiment}</div>
+              <div style="font-size:10px;color:var(--text-muted)">Net Impact</div>
             </div>
-            <div style="text-align:center;">
+            <div>
               <div style="font-size:18px;font-weight:600;color:#22c55e">${positiveCount}</div>
-              <div style="font-size:11px;color:var(--text-muted)">Tailwinds</div>
+              <div style="font-size:10px;color:var(--text-muted)">Tailwinds</div>
             </div>
-            <div style="text-align:center;">
+            <div>
               <div style="font-size:18px;font-weight:600;color:#ef4444">${negativeCount}</div>
-              <div style="font-size:11px;color:var(--text-muted)">Headwinds</div>
+              <div style="font-size:10px;color:var(--text-muted)">Headwinds</div>
             </div>
-            <div style="text-align:center;">
-              <div style="font-size:18px;font-weight:600;color:#f59e0b">${neutralCount}</div>
-              <div style="font-size:11px;color:var(--text-muted)">Neutral</div>
+            <div>
+              <div style="font-size:18px;font-weight:600;color:#3b82f6">${govExposedCount}</div>
+              <div style="font-size:10px;color:var(--text-muted)">Gov Exposed</div>
+            </div>
+            <div>
+              <div style="font-size:18px;font-weight:600;color:${concentrationColor}">${concentrationRisk}</div>
+              <div style="font-size:10px;color:var(--text-muted)">Sector Risk</div>
             </div>
           </div>
         </div>
         ${results.map(r => `
-          <div class="scenario-result-item">
-            <span class="scenario-company">${r.name} <span style="font-size:11px;color:var(--text-muted)">${r.sector}</span></span>
-            <span class="scenario-impact ${r.impactClass}">${r.impactLabel}</span>
+          <div class="scenario-result-item" style="padding:10px 12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+            <span class="scenario-company" style="flex:1;min-width:140px;">${r.name} <span style="font-size:11px;color:var(--text-muted)">${r.sector}</span></span>
+            <span style="font-size:11px;color:var(--text-muted);font-family:'Space Grotesk',monospace;">${r.returnRange}</span>
+            <span class="scenario-impact ${r.impactClass}" style="min-width:100px;text-align:right;">${r.impactLabel}</span>
+            ${r.factors.length > 0 ? `<div style="width:100%;display:flex;gap:4px;flex-wrap:wrap;margin-top:2px;">${r.factors.map(f => `<span style="font-size:9px;padding:1px 6px;border-radius:3px;background:rgba(255,255,255,0.06);color:var(--text-muted);">${f}</span>`).join('')}</div>` : ''}
           </div>
         `).join('')}
       `;
