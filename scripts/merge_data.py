@@ -1078,6 +1078,164 @@ def update_arpa_e_projects(data_js_content):
     return data_js_content
 
 
+def update_contractor_readiness(data_js_content):
+    """Recalibrate CONTRACTOR_READINESS scores using latest gov contract data.
+    Updates contract counts, agencies, and recalculates readiness scores.
+    Preserves curated security fields (clearanceLevel, cmmcLevel, itarCompliant, etc.).
+    """
+    gov_contracts = load_json("gov_contracts_aggregated.json")
+    sbir_awards = load_json("sbir_awards_raw.json")
+
+    if not any([gov_contracts, sbir_awards]):
+        print("No gov data for contractor readiness recalibration, skipping...")
+        return data_js_content
+
+    # Build lookup: company → contract info
+    contract_intel = {}
+    for gc in (gov_contracts or []):
+        company = gc.get("company", "")
+        if company:
+            contract_intel[company] = {
+                "contractCount": gc.get("contractCount", 0),
+                "agencies": gc.get("agencies", []),
+            }
+
+    # SBIR phase per company (highest)
+    sbir_phases = {}
+    phase_order = {"Phase I": 1, "Phase II": 2, "Phase III": 3}
+    for sa in (sbir_awards or []):
+        if not sa.get("isKnownCompany"):
+            continue
+        company = sa.get("firm", "")
+        phase = sa.get("phase", "")
+        if company and phase_order.get(phase, 0) > phase_order.get(sbir_phases.get(company, ""), 0):
+            sbir_phases[company] = phase
+
+    if not contract_intel and not sbir_phases:
+        print("No contract intel built, skipping contractor readiness...")
+        return data_js_content
+
+    # Parse existing CONTRACTOR_READINESS
+    pattern = r'const CONTRACTOR_READINESS = \[([\s\S]*?)\];'
+    match = re.search(pattern, data_js_content)
+    if not match:
+        print("  CONTRACTOR_READINESS not found in data.js, skipping...")
+        return data_js_content
+
+    # Extract entries preserving curated fields
+    entries = []
+    block_pattern = r'\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
+    for block_match in re.finditer(block_pattern, match.group(1)):
+        block = block_match.group(0)
+        name_m = re.search(r'company:\s*"([^"]+)"', block)
+        if not name_m:
+            continue
+
+        company = name_m.group(1)
+
+        def extract_num(field, default=0):
+            m = re.search(rf'{field}:\s*(\d+)', block)
+            return int(m.group(1)) if m else default
+
+        def extract_str(field, default=""):
+            m = re.search(rf'{field}:\s*"([^"]*)"', block)
+            return m.group(1) if m else default
+
+        def extract_bool(field, default=False):
+            m = re.search(rf'{field}:\s*(true|false)', block)
+            return m.group(1) == "true" if m else default
+
+        def extract_array(field):
+            m = re.search(rf'{field}:\s*\[([^\]]*)\]', block)
+            if m:
+                return [s.strip().strip('"') for s in m.group(1).split(',') if s.strip().strip('"')]
+            return []
+
+        entry = {
+            "company": company,
+            "readinessScore": extract_num("readinessScore", 50),
+            "trlLevel": extract_num("trlLevel", 5),
+            "sbirPhase": extract_str("sbirPhase", ""),
+            "clearanceLevel": extract_str("clearanceLevel", ""),
+            "facilityCleared": extract_bool("facilityCleared"),
+            "contractsCompleted": extract_num("contractsCompleted", 0),
+            "onTimeRate": extract_num("onTimeRate", 0),
+            "avgRating": 0,
+            "cmmcLevel": extract_num("cmmcLevel", 0),
+            "itarCompliant": extract_bool("itarCompliant"),
+            "keyAgencies": extract_array("keyAgencies"),
+            "readinessFactors": extract_array("readinessFactors"),
+        }
+
+        rating_m = re.search(r'avgRating:\s*([\d.]+)', block)
+        entry["avgRating"] = float(rating_m.group(1)) if rating_m else 0
+
+        # Update from auto data
+        intel = contract_intel.get(company, {})
+        if intel:
+            new_count = intel.get("contractCount", 0)
+            if new_count > entry["contractsCompleted"]:
+                entry["contractsCompleted"] = new_count
+            auto_agencies = intel.get("agencies", [])
+            existing_set = set(entry["keyAgencies"])
+            for agency in auto_agencies:
+                if agency not in existing_set:
+                    entry["keyAgencies"].append(agency)
+
+        auto_phase = sbir_phases.get(company, "")
+        if auto_phase:
+            current_phase = entry["sbirPhase"]
+            if current_phase not in ["Graduated", "N/A (Public)"]:
+                if phase_order.get(auto_phase, 0) > phase_order.get(current_phase, 0):
+                    entry["sbirPhase"] = auto_phase
+
+        # Recalculate readiness score
+        contract_score = min(100, entry["contractsCompleted"] * 2)
+        trl_score = (entry["trlLevel"] / 9) * 100
+        clearance_score = {"TS/SCI": 100, "TS": 90, "Secret": 70, "Confidential": 50}.get(entry["clearanceLevel"], 30)
+        perf_score = entry["onTimeRate"]
+        cmmc_score = (entry["cmmcLevel"] / 3) * 100
+
+        new_readiness = round(
+            contract_score * 0.30 + trl_score * 0.25 +
+            clearance_score * 0.20 + perf_score * 0.15 + cmmc_score * 0.10
+        )
+        entry["readinessScore"] = max(entry["readinessScore"], new_readiness)
+        entries.append(entry)
+
+    if not entries:
+        print("No contractor readiness entries parsed, skipping...")
+        return data_js_content
+
+    entries.sort(key=lambda x: x["readinessScore"], reverse=True)
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    js_array = f"// Auto-recalibrated contractor readiness scores\n"
+    js_array += f"// Last updated: {today}\n"
+    js_array += "const CONTRACTOR_READINESS = [\n"
+
+    for e in entries:
+        agencies = json.dumps(e["keyAgencies"])
+        factors = json.dumps(e["readinessFactors"])
+        js_array += f'  {{ company: "{e["company"]}", readinessScore: {e["readinessScore"]}, '
+        js_array += f'trlLevel: {e["trlLevel"]}, sbirPhase: "{e["sbirPhase"]}", '
+        js_array += f'clearanceLevel: "{e["clearanceLevel"]}", '
+        js_array += f'facilityCleared: {"true" if e["facilityCleared"] else "false"}, '
+        js_array += f'pastPerformance: {{ contractsCompleted: {e["contractsCompleted"]}, '
+        js_array += f'onTimeRate: {e["onTimeRate"]}, avgRating: {e["avgRating"]} }}, '
+        js_array += f'cmmcLevel: {e["cmmcLevel"]}, '
+        js_array += f'itarCompliant: {"true" if e["itarCompliant"] else "false"}, '
+        js_array += f'keyAgencies: {agencies}, '
+        js_array += f'readinessFactors: {factors} }},\n'
+
+    js_array += "];"
+
+    data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+    print(f"  Updated CONTRACTOR_READINESS ({len(entries)} entries)")
+
+    return data_js_content
+
+
 def update_news_feed(data_js_content):
     """Update NEWS_FEED in data.js with fresh news from RSS aggregation.
     Preserves curated entries with rosAnalysis, adds new auto-detected news.
@@ -1888,6 +2046,7 @@ def main():
     data_js_content = update_patent_intel(data_js_content)
     data_js_content = update_live_award_feed(data_js_content)
     data_js_content = update_valley_of_death(data_js_content)
+    data_js_content = update_contractor_readiness(data_js_content)
     data_js_content = update_company_funding(data_js_content)
     data_js_content = update_vc_portfolios(data_js_content)
     data_js_content = update_last_updated(data_js_content)
