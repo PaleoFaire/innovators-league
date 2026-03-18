@@ -453,6 +453,39 @@ def update_innovator_scores(data_js_content):
     return data_js_content
 
 
+def update_prev_week_scores(data_js_content):
+    """Add PREV_WEEK_SCORES for delta tracking in Frontier Index."""
+    prev_scores = load_json("prev_week_scores.json")
+    if not prev_scores:
+        print("No prev_week_scores data found, skipping...")
+        return data_js_content
+
+    print(f"Merging {len(prev_scores)} previous week scores...")
+    js_array = "// Previous week Frontier Index scores for delta tracking\n"
+    js_array += "const PREV_WEEK_SCORES = [\n"
+
+    for s in prev_scores:
+        company = s.get("company", "").replace('"', '\\"')
+        js_array += f'  {{ company: "{company}", composite: {s.get("composite", 50.0)} }},\n'
+
+    js_array += "];"
+
+    pattern = r'(?://[^\n]*\n)*const PREV_WEEK_SCORES = \[[\s\S]*?\];'
+    if re.search(pattern, data_js_content):
+        data_js_content = re.sub(pattern, lambda m: js_array, data_js_content)
+        print(f"  Updated PREV_WEEK_SCORES ({len(prev_scores)} companies)")
+    else:
+        # Append after INNOVATOR_SCORES
+        insert_pattern = r'(const INNOVATOR_SCORES = \[[\s\S]*?\];)'
+        if re.search(insert_pattern, data_js_content):
+            data_js_content = re.sub(insert_pattern, lambda m: m.group(0) + '\n\n' + js_array, data_js_content)
+            print(f"  Inserted PREV_WEEK_SCORES ({len(prev_scores)} companies)")
+        else:
+            print("  Could not find INNOVATOR_SCORES to insert after")
+
+    return data_js_content
+
+
 def update_predictive_scores(data_js_content):
     """Update PREDICTIVE_SCORES in data.js with auto-calculated predictions."""
     scores = load_json("predictive_scores_auto.json")
@@ -2738,6 +2771,7 @@ def main():
     data_js_content = update_funding_tracker(data_js_content)
     data_js_content = update_valuation_benchmarks(data_js_content)
     data_js_content = update_innovator_scores(data_js_content)
+    data_js_content = update_prev_week_scores(data_js_content)
     data_js_content = update_predictive_scores(data_js_content)
     data_js_content = update_headcount_estimates(data_js_content)
     data_js_content = update_sam_contracts(data_js_content)

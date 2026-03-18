@@ -1177,6 +1177,387 @@ function updateDataFreshness() {
   }
 }
 
+// ─── SCROLL REVEAL ANIMATIONS ───
+function initRevealAnimations() {
+  const revealEls = document.querySelectorAll('.reveal-up, .reveal-scale');
+  if (!revealEls.length) return;
+
+  // Check for reduced motion preference
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    revealEls.forEach(el => el.classList.add('revealed'));
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+
+  revealEls.forEach(el => observer.observe(el));
+}
+
+// ─── COMMAND PALETTE (Cmd+K) ───
+function initCommandPalette() {
+  // Build palette overlay if not present
+  let overlay = document.getElementById('cmdk-overlay');
+  if (!overlay) {
+    overlay = document.createElement('div');
+    overlay.className = 'cmdk-overlay';
+    overlay.id = 'cmdk-overlay';
+    overlay.innerHTML = `
+      <div class="cmdk-dialog" role="dialog" aria-modal="true" aria-label="Command palette">
+        <div class="cmdk-input-row">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input type="text" id="cmdk-input" placeholder="Search companies, pages, actions..." autocomplete="off">
+          <kbd>ESC</kbd>
+        </div>
+        <div class="cmdk-results" id="cmdk-results"></div>
+        <div class="cmdk-footer">
+          <div class="cmdk-footer-hints">
+            <span class="cmdk-footer-hint"><kbd>↑↓</kbd> navigate</span>
+            <span class="cmdk-footer-hint"><kbd>↵</kbd> select</span>
+            <span class="cmdk-footer-hint"><kbd>esc</kbd> close</span>
+          </div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+  }
+
+  const input = document.getElementById('cmdk-input');
+  const results = document.getElementById('cmdk-results');
+  let activeIndex = -1;
+  let currentItems = [];
+
+  // Build search index
+  function buildIndex() {
+    const items = [];
+
+    // Companies
+    if (typeof COMPANIES !== 'undefined') {
+      COMPANIES.forEach(c => {
+        items.push({
+          type: 'company',
+          icon: '🏢',
+          title: c.name,
+          subtitle: `${c.sector || ''} · ${c.stage || ''}`,
+          action: () => {
+            if (typeof showCompanyModal === 'function') showCompanyModal(c.name);
+            else window.location.href = `company.html?c=${encodeURIComponent(c.name)}`;
+          }
+        });
+      });
+    }
+
+    // Pages
+    const pages = [
+      { title: 'Home', subtitle: 'Main dashboard', icon: '🏠', url: 'index.html' },
+      { title: 'Insights & Visualizations', subtitle: 'Charts and data views', icon: '📊', url: 'visualizations.html' },
+      { title: 'Investors', subtitle: 'Investor network intelligence', icon: '💰', url: 'investors.html' },
+      { title: 'Talent & Jobs', subtitle: 'Founder DNA, hiring signals', icon: '👥', url: 'jobs.html' },
+      { title: 'Valuations', subtitle: 'Revenue, multiples, IPO tracker', icon: '📈', url: 'valuations.html' },
+      { title: 'Deal Flow', subtitle: 'Deal flow engine & signals', icon: '🔥', url: 'dealflow.html' },
+      { title: 'Government Radar', subtitle: 'Contracts, SBIR, clearance', icon: '🏛️', url: 'govradar.html' },
+      { title: 'Regulatory', subtitle: 'Federal Register, compliance', icon: '📋', url: 'regulatory.html' },
+    ];
+    pages.forEach(p => {
+      items.push({
+        type: 'page',
+        icon: p.icon,
+        title: p.title,
+        subtitle: p.subtitle,
+        action: () => { window.location.href = p.url; }
+      });
+    });
+
+    // Sections (on homepage)
+    const sections = document.querySelectorAll('section[id]');
+    sections.forEach(s => {
+      const header = s.querySelector('h2');
+      if (header) {
+        items.push({
+          type: 'section',
+          icon: '§',
+          title: header.textContent.trim(),
+          subtitle: 'Jump to section',
+          action: () => { s.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+        });
+      }
+    });
+
+    // Actions
+    items.push({
+      type: 'action',
+      icon: '📥',
+      title: 'Export CSV',
+      subtitle: 'Download company data',
+      shortcut: '',
+      action: () => { if (typeof exportCSV === 'function') exportCSV(); }
+    });
+
+    return items;
+  }
+
+  function renderResults(query) {
+    const index = buildIndex();
+    const q = query.toLowerCase().trim();
+
+    if (!q) {
+      // Show recent/popular
+      currentItems = index.filter(i => i.type === 'page' || i.type === 'action');
+      renderItemList(currentItems, 'Quick Access');
+      return;
+    }
+
+    // Fuzzy match
+    currentItems = index.filter(i => {
+      const haystack = (i.title + ' ' + (i.subtitle || '')).toLowerCase();
+      return q.split(' ').every(word => haystack.includes(word));
+    }).slice(0, 20);
+
+    if (currentItems.length === 0) {
+      results.innerHTML = '<div class="cmdk-empty">No results found</div>';
+      return;
+    }
+
+    // Group by type
+    const groups = {};
+    currentItems.forEach(i => {
+      const label = { company: 'Companies', page: 'Pages', section: 'Sections', action: 'Actions' }[i.type] || 'Results';
+      if (!groups[label]) groups[label] = [];
+      groups[label].push(i);
+    });
+
+    let html = '';
+    let flatIndex = 0;
+    for (const [label, items] of Object.entries(groups)) {
+      html += `<div class="cmdk-group-label">${label}</div>`;
+      items.forEach(item => {
+        html += `<div class="cmdk-item${flatIndex === activeIndex ? ' active' : ''}" data-index="${flatIndex}">
+          <div class="cmdk-item-icon">${item.icon}</div>
+          <div class="cmdk-item-text">
+            <div class="cmdk-item-title">${item.title}</div>
+            ${item.subtitle ? `<div class="cmdk-item-subtitle">${item.subtitle}</div>` : ''}
+          </div>
+          ${item.shortcut ? `<div class="cmdk-item-shortcut"><kbd>${item.shortcut}</kbd></div>` : ''}
+        </div>`;
+        flatIndex++;
+      });
+    }
+    results.innerHTML = html;
+
+    // Click handlers
+    results.querySelectorAll('.cmdk-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const idx = parseInt(el.dataset.index);
+        if (currentItems[idx]) {
+          closePalette();
+          currentItems[idx].action();
+        }
+      });
+    });
+  }
+
+  function renderItemList(items, label) {
+    let html = `<div class="cmdk-group-label">${label}</div>`;
+    items.forEach((item, i) => {
+      html += `<div class="cmdk-item${i === activeIndex ? ' active' : ''}" data-index="${i}">
+        <div class="cmdk-item-icon">${item.icon}</div>
+        <div class="cmdk-item-text">
+          <div class="cmdk-item-title">${item.title}</div>
+          ${item.subtitle ? `<div class="cmdk-item-subtitle">${item.subtitle}</div>` : ''}
+        </div>
+      </div>`;
+    });
+    results.innerHTML = html;
+
+    results.querySelectorAll('.cmdk-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const idx = parseInt(el.dataset.index);
+        if (items[idx]) {
+          closePalette();
+          items[idx].action();
+        }
+      });
+    });
+  }
+
+  function openPalette() {
+    overlay.classList.add('active');
+    input.value = '';
+    activeIndex = -1;
+    renderResults('');
+    setTimeout(() => input.focus(), 50);
+  }
+
+  function closePalette() {
+    overlay.classList.remove('active');
+    input.value = '';
+    activeIndex = -1;
+  }
+
+  function selectItem(index) {
+    if (index >= 0 && index < currentItems.length) {
+      closePalette();
+      currentItems[index].action();
+    }
+  }
+
+  function updateActiveItem() {
+    results.querySelectorAll('.cmdk-item').forEach((el, i) => {
+      el.classList.toggle('active', i === activeIndex);
+    });
+    // Scroll active into view
+    const activeEl = results.querySelector('.cmdk-item.active');
+    if (activeEl) activeEl.scrollIntoView({ block: 'nearest' });
+  }
+
+  // Event listeners
+  input.addEventListener('input', () => {
+    activeIndex = 0;
+    renderResults(input.value);
+  });
+
+  input.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      activeIndex = Math.min(activeIndex + 1, currentItems.length - 1);
+      updateActiveItem();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      activeIndex = Math.max(activeIndex - 1, 0);
+      updateActiveItem();
+    } else if (e.key === 'Enter') {
+      e.preventDefault();
+      selectItem(activeIndex);
+    } else if (e.key === 'Escape') {
+      closePalette();
+    }
+  });
+
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) closePalette();
+  });
+
+  // Global shortcut: Cmd+K / Ctrl+K
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+      e.preventDefault();
+      if (overlay.classList.contains('active')) closePalette();
+      else openPalette();
+    }
+  });
+}
+
+// ─── KEYBOARD SHORTCUTS ───
+function initKeyboardShortcuts() {
+  let chordPrefix = null;
+  let chordTimeout = null;
+
+  // Build shortcuts help overlay
+  let helpOverlay = document.querySelector('.shortcuts-overlay');
+  if (!helpOverlay) {
+    helpOverlay = document.createElement('div');
+    helpOverlay.className = 'shortcuts-overlay';
+    helpOverlay.innerHTML = `
+      <div class="shortcuts-dialog">
+        <h3>Keyboard Shortcuts</h3>
+        <div class="shortcuts-group">
+          <div class="shortcuts-group-title">Navigation</div>
+          <div class="shortcut-row"><span class="shortcut-label">Command palette</span><div class="shortcut-keys"><kbd>⌘</kbd><kbd>K</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Go to Home</span><div class="shortcut-keys"><kbd>G</kbd><kbd>H</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Go to Gov Radar</span><div class="shortcut-keys"><kbd>G</kbd><kbd>G</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Go to Valuations</span><div class="shortcut-keys"><kbd>G</kbd><kbd>V</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Go to Investors</span><div class="shortcut-keys"><kbd>G</kbd><kbd>I</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Go to Talent</span><div class="shortcut-keys"><kbd>G</kbd><kbd>T</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Go to Deal Flow</span><div class="shortcut-keys"><kbd>G</kbd><kbd>D</kbd></div></div>
+        </div>
+        <div class="shortcuts-group">
+          <div class="shortcuts-group-title">Actions</div>
+          <div class="shortcut-row"><span class="shortcut-label">Focus search</span><div class="shortcut-keys"><kbd>/</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Close dialog</span><div class="shortcut-keys"><kbd>Esc</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Show shortcuts</span><div class="shortcut-keys"><kbd>?</kbd></div></div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(helpOverlay);
+  }
+
+  function showHelp() { helpOverlay.classList.add('active'); }
+  function hideHelp() { helpOverlay.classList.remove('active'); }
+
+  helpOverlay.addEventListener('click', (e) => {
+    if (e.target === helpOverlay) hideHelp();
+  });
+
+  const chordRoutes = {
+    'h': 'index.html',
+    'g': 'govradar.html',
+    'v': 'valuations.html',
+    'i': 'investors.html',
+    't': 'jobs.html',
+    'd': 'dealflow.html',
+    'r': 'regulatory.html',
+  };
+
+  document.addEventListener('keydown', (e) => {
+    // Skip if user is typing in an input
+    const tag = (e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea' || tag === 'select' || e.target.isContentEditable) return;
+    // Skip if modifier keys are held (except for Cmd+K handled by command palette)
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+    const key = e.key.toLowerCase();
+
+    // Handle chord second key
+    if (chordPrefix === 'g') {
+      clearTimeout(chordTimeout);
+      chordPrefix = null;
+      if (chordRoutes[key]) {
+        e.preventDefault();
+        window.location.href = chordRoutes[key];
+        return;
+      }
+    }
+
+    // Start chord
+    if (key === 'g') {
+      chordPrefix = 'g';
+      chordTimeout = setTimeout(() => { chordPrefix = null; }, 800);
+      return;
+    }
+
+    // Single-key shortcuts
+    if (key === '/') {
+      e.preventDefault();
+      const searchInput = document.getElementById('global-search') || document.getElementById('cmdk-input');
+      if (searchInput) searchInput.focus();
+    } else if (key === '?' && !e.shiftKey) {
+      // Shift+/ on US keyboards = '?', but e.key already gives us '?'
+      showHelp();
+    } else if (key === 'escape') {
+      hideHelp();
+    }
+  });
+
+  // Also handle '?' which requires shift on most keyboards
+  document.addEventListener('keypress', (e) => {
+    const tag = (e.target.tagName || '').toLowerCase();
+    if (tag === 'input' || tag === 'textarea' || tag === 'select' || e.target.isContentEditable) return;
+    if (e.key === '?') {
+      e.preventDefault();
+      if (helpOverlay.classList.contains('active')) hideHelp();
+      else showHelp();
+    }
+  });
+}
+
 // ─── APP INITIALIZATION ───
 document.addEventListener('DOMContentLoaded', () => {
   // Show loading skeletons immediately
@@ -1227,6 +1608,7 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initIntelligenceHub);
   safeInit(initPredictiveScoring);
   safeInit(initNetworkGraph);
+  safeInit(initBattlefieldMap);
   safeInit(initPortfolioBuilder);
   safeInit(initIntelFeed);
   safeInit(initHistoricalTracking);
@@ -1239,6 +1621,9 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initSectionNav);
   safeInit(initProgressiveDisclosure);
   safeInit(initOpti);
+  safeInit(initRevealAnimations);
+  safeInit(initCommandPalette);
+  safeInit(initKeyboardShortcuts);
 
   // Always hide loading skeletons and update freshness, even if some inits failed
   hideLoadingSkeletons();
@@ -1655,23 +2040,23 @@ function renderFounderQuote(companyName) {
 function animateCounter(id, target) {
   const el = document.getElementById(id);
   if (!el) return;
-  let current = 0;
-  const duration = 1200;
-  const step = target / (duration / 16);
+  const duration = 1500;
+  let start = null;
 
-  function tick() {
-    current += step;
-    if (current >= target) {
-      el.textContent = target;
-      return;
-    }
-    el.textContent = Math.floor(current);
-    requestAnimationFrame(tick);
+  function easeOutQuart(t) { return 1 - Math.pow(1 - t, 4); }
+
+  function tick(now) {
+    if (!start) start = now;
+    const t = Math.min((now - start) / duration, 1);
+    const val = Math.round(target * easeOutQuart(t));
+    el.textContent = val.toLocaleString();
+    if (t < 1) requestAnimationFrame(tick);
+    else el.textContent = target.toLocaleString();
   }
 
   const observer = new IntersectionObserver((entries) => {
     if (entries[0].isIntersecting) {
-      tick();
+      requestAnimationFrame(tick);
       observer.disconnect();
     }
   });
@@ -1681,23 +2066,23 @@ function animateCounter(id, target) {
 function animateCounterWithPrefix(id, target, prefix, suffix) {
   const el = document.getElementById(id);
   if (!el) return;
-  let current = 0;
-  const duration = 1200;
-  const step = target / (duration / 16);
+  const duration = 1500;
+  let start = null;
 
-  function tick() {
-    current += step;
-    if (current >= target) {
-      el.textContent = prefix + target + suffix;
-      return;
-    }
-    el.textContent = prefix + Math.floor(current) + suffix;
-    requestAnimationFrame(tick);
+  function easeOutQuart(t) { return 1 - Math.pow(1 - t, 4); }
+
+  function tick(now) {
+    if (!start) start = now;
+    const t = Math.min((now - start) / duration, 1);
+    const val = Math.round(target * easeOutQuart(t));
+    el.textContent = prefix + val.toLocaleString() + suffix;
+    if (t < 1) requestAnimationFrame(tick);
+    else el.textContent = prefix + target.toLocaleString() + suffix;
   }
 
   const observer = new IntersectionObserver((entries) => {
     if (entries[0].isIntersecting) {
-      tick();
+      requestAnimationFrame(tick);
       observer.disconnect();
     }
   });
@@ -2029,8 +2414,9 @@ function renderCompanyCardHTML(company) {
 
   const govBadge = getGovBadge(company.name);
 
+  const isFeatured = company.scores && company.scores.composite >= 80;
   return `
-    <div class="company-card" data-name="${company.name}" onclick="openCompanyModal('${company.name.replace(/'/g, "\\'")}')">
+    <div class="company-card card-glass${isFeatured ? ' card-featured' : ''} reveal-up" data-name="${company.name}" onclick="openCompanyModal('${company.name.replace(/'/g, "\\'")}')">
       <div class="card-header">
         <div class="card-sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border-color:${sectorInfo.color}30;">
           ${sectorInfo.icon} ${company.sector}
@@ -2639,7 +3025,8 @@ function renderCompanies(companies) {
     const inCompare = compareList.includes(company.name);
 
     const card = document.createElement('div');
-    card.className = 'company-card';
+    const hasFeaturedScore = company.scores && company.scores.composite >= 80;
+    card.className = 'company-card card-glass' + (hasFeaturedScore ? ' card-featured' : '') + ' reveal-up';
     card.style.animationDelay = `${i * 0.02}s`;
 
     const metaItems = [];
@@ -2700,6 +3087,9 @@ function renderCompanies(companies) {
 
     grid.appendChild(card);
   });
+
+  // Re-initialize reveal animations for newly rendered cards
+  if (typeof initRevealAnimations === 'function') initRevealAnimations();
 }
 
 // ─── RENDER SECTORS ───
@@ -4400,6 +4790,20 @@ function initInnovatorScores() {
         </div>
         <div class="iscore-composite" style="border-color:${tc};">
           <span class="iscore-composite-value" style="color:${tc};">${s.composite.toFixed(0)}</span>
+          ${(() => {
+            if (typeof PREV_WEEK_SCORES !== 'undefined') {
+              const prev = PREV_WEEK_SCORES.find(p => p.company === s.company);
+              if (prev) {
+                const delta = (s.composite - prev.composite).toFixed(1);
+                if (Math.abs(delta) >= 0.5) {
+                  const color = delta > 0 ? '#22c55e' : '#ef4444';
+                  const arrow = delta > 0 ? '↑' : '↓';
+                  return `<span class="iscore-delta" style="color:${color};font-size:11px;font-weight:600;">${arrow}${Math.abs(delta)}</span>`;
+                }
+              }
+            }
+            return '';
+          })()}
           <span class="iscore-tier-badge" style="background:${tc}15; color:${tc}; border:1px solid ${tc}40;">${tierLabels[s.tier]}</span>
         </div>
       `;
@@ -5618,6 +6022,203 @@ function generateNetworkData() {
   console.log(`Network Graph: ${filteredNodes.length} nodes (${nodes.length - filteredNodes.length} isolated removed), ${edges.length} edges`);
 
   return { nodes: filteredNodes, edges };
+}
+
+// ─── COMPETITIVE BATTLEFIELD MAP ───
+function initBattlefieldMap() {
+  if (typeof d3 === 'undefined' || typeof COMPANIES === 'undefined') return;
+  const canvas = document.getElementById('battlefield-canvas');
+  const select = document.getElementById('battlefield-company');
+  const detailDiv = document.getElementById('battlefield-detail');
+  if (!canvas || !select) return;
+
+  // Populate company select
+  const sorted = [...COMPANIES].sort((a, b) => a.name.localeCompare(b.name));
+  sorted.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c.name;
+    opt.textContent = c.name;
+    select.appendChild(opt);
+  });
+
+  // Compute overlap edges
+  function computeEdges(centerName) {
+    const center = COMPANIES.find(c => c.name === centerName);
+    if (!center) return { nodes: [], links: [] };
+
+    const dims = {};
+    document.querySelectorAll('.bf-dim:checked').forEach(cb => { dims[cb.value] = true; });
+
+    const competitors = {};
+
+    COMPANIES.forEach(other => {
+      if (other.name === centerName) return;
+      let overlap = 0;
+      const reasons = [];
+
+      // Investor overlap
+      if (dims.investors && center.investors && other.investors) {
+        const shared = center.investors.filter(i => other.investors.includes(i));
+        if (shared.length > 0) {
+          overlap += shared.length * 2;
+          reasons.push({ dim: 'investors', detail: shared.join(', '), color: '#f59e0b' });
+        }
+      }
+
+      // Thesis cluster overlap
+      if (dims.thesis && center.thesisCluster && other.thesisCluster &&
+          center.thesisCluster === other.thesisCluster) {
+        overlap += 3;
+        reasons.push({ dim: 'thesis', detail: center.thesisCluster, color: '#8b5cf6' });
+      }
+
+      // Same sector
+      if (dims.sector && center.sector && other.sector && center.sector === other.sector) {
+        overlap += 2;
+        reasons.push({ dim: 'sector', detail: center.sector, color: '#3b82f6' });
+      }
+
+      // Patent area overlap
+      if (dims.patents && typeof PATENT_INTEL !== 'undefined') {
+        const cp = PATENT_INTEL.find(p => p.company === centerName);
+        const op = PATENT_INTEL.find(p => p.company === other.name);
+        if (cp && op && cp.keyAreas && op.keyAreas) {
+          const shared = cp.keyAreas.filter(a => op.keyAreas.some(b => b.toLowerCase().includes(a.toLowerCase().split(' ')[0])));
+          if (shared.length > 0) {
+            overlap += shared.length;
+            reasons.push({ dim: 'patents', detail: shared.join(', '), color: '#22c55e' });
+          }
+        }
+      }
+
+      if (overlap > 0) {
+        competitors[other.name] = { overlap, reasons };
+      }
+    });
+
+    // Sort by overlap and take top 15
+    const top = Object.entries(competitors)
+      .sort((a, b) => b[1].overlap - a[1].overlap)
+      .slice(0, 15);
+
+    const nodes = [{ id: centerName, group: 'center', score: center.scores?.composite || 50 }];
+    const links = [];
+
+    top.forEach(([name, data]) => {
+      const co = COMPANIES.find(c => c.name === name);
+      nodes.push({
+        id: name,
+        group: 'competitor',
+        score: co?.scores?.composite || 50,
+        overlap: data.overlap,
+        reasons: data.reasons
+      });
+      links.push({
+        source: centerName,
+        target: name,
+        value: data.overlap,
+        reasons: data.reasons,
+        color: data.reasons[0]?.color || '#666'
+      });
+    });
+
+    return { nodes, links };
+  }
+
+  function renderGraph(centerName) {
+    canvas.innerHTML = '';
+    if (!centerName) {
+      canvas.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-muted);font-size:15px;">Select a company to see its competitive landscape</div>';
+      detailDiv.innerHTML = '';
+      return;
+    }
+
+    const { nodes, links } = computeEdges(centerName);
+    if (nodes.length <= 1) {
+      canvas.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-muted);font-size:15px;">No competitive overlaps found for the selected dimensions</div>';
+      return;
+    }
+
+    const width = canvas.clientWidth;
+    const height = canvas.clientHeight || 500;
+
+    const svg = d3.select(canvas)
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
+      .attr('viewBox', `0 0 ${width} ${height}`);
+
+    const simulation = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links).id(d => d.id).distance(d => 180 - d.value * 8))
+      .force('charge', d3.forceManyBody().strength(-400))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide().radius(30));
+
+    // Draw links
+    const link = svg.append('g')
+      .selectAll('line')
+      .data(links)
+      .enter().append('line')
+      .attr('stroke', d => d.color)
+      .attr('stroke-opacity', 0.6)
+      .attr('stroke-width', d => Math.min(d.value * 1.5, 8));
+
+    // Draw nodes
+    const node = svg.append('g')
+      .selectAll('g')
+      .data(nodes)
+      .enter().append('g')
+      .attr('cursor', 'pointer')
+      .call(d3.drag()
+        .on('start', (event, d) => { if (!event.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+        .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+        .on('end', (event, d) => { if (!event.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; })
+      );
+
+    node.append('circle')
+      .attr('r', d => d.group === 'center' ? 24 : 14 + (d.overlap || 0))
+      .attr('fill', d => d.group === 'center' ? '#FF6B2C' : '#1a1a2e')
+      .attr('stroke', d => d.group === 'center' ? '#FF8147' : (d.reasons?.[0]?.color || '#666'))
+      .attr('stroke-width', d => d.group === 'center' ? 3 : 2);
+
+    node.append('text')
+      .text(d => d.id.length > 12 ? d.id.substring(0, 11) + '...' : d.id)
+      .attr('text-anchor', 'middle')
+      .attr('dy', d => d.group === 'center' ? 36 : (18 + (d.overlap || 0)))
+      .attr('fill', d => d.group === 'center' ? '#FF6B2C' : 'var(--text-secondary)')
+      .attr('font-size', d => d.group === 'center' ? '13px' : '11px')
+      .attr('font-weight', d => d.group === 'center' ? '700' : '500');
+
+    // Click to show details
+    node.on('click', (event, d) => {
+      if (d.group === 'competitor' && d.reasons) {
+        detailDiv.innerHTML = `
+          <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:16px;">
+            <h4 style="font-size:15px;color:var(--text-primary);margin-bottom:8px;">${centerName} vs ${d.id}</h4>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;">
+              ${d.reasons.map(r => `<span style="display:inline-flex;align-items:center;gap:4px;padding:4px 10px;background:${r.color}15;color:${r.color};border:1px solid ${r.color}30;border-radius:6px;font-size:12px;font-weight:600;">${r.dim}: ${r.detail}</span>`).join('')}
+            </div>
+          </div>`;
+      }
+    });
+
+    simulation.on('tick', () => {
+      link
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
+  }
+
+  // Initial state
+  renderGraph('');
+
+  select.addEventListener('change', () => renderGraph(select.value));
+  document.querySelectorAll('.bf-dim').forEach(cb => {
+    cb.addEventListener('change', () => { if (select.value) renderGraph(select.value); });
+  });
 }
 
 function initNetworkGraph() {

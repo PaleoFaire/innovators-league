@@ -1661,4 +1661,293 @@
     return null;
   }
 
+  // ─── INTELLIGENCE BRIEF GENERATOR ───
+  // Exposed globally for onclick handler
+  window.generateIntelBrief = function() {
+    if (!currentCompany) return;
+    var c = currentCompany;
+    var today = new Date().toISOString().split('T')[0];
+
+    // Gather data from all sources
+    var scores = c.scores || {};
+    var trl = getTRL(c);
+
+    // Funding history
+    var fundingEntries = [];
+    if (typeof DEAL_TRACKER !== 'undefined') {
+      fundingEntries = DEAL_TRACKER.filter(function(d) { return d.company === c.name; });
+    }
+
+    // Gov contracts
+    var govContracts = [];
+    if (typeof GOV_CONTRACTS !== 'undefined') {
+      govContracts = GOV_CONTRACTS.filter(function(g) { return g.company === c.name; });
+    }
+
+    // SBIR awards
+    var sbirAwards = [];
+    if (typeof SBIR_AWARDS !== 'undefined') {
+      sbirAwards = SBIR_AWARDS.filter(function(s) { return s.company === c.name; });
+    }
+
+    // Patent intel
+    var patents = null;
+    if (typeof PATENT_INTEL !== 'undefined') {
+      patents = PATENT_INTEL.find(function(p) { return p.company === c.name; });
+    }
+
+    // Headcount
+    var headcount = null;
+    if (typeof HEADCOUNT_ESTIMATES !== 'undefined') {
+      headcount = HEADCOUNT_ESTIMATES.find(function(h) { return h.company === c.name; });
+    }
+
+    // Founder DNA
+    var founderDna = null;
+    if (typeof FOUNDER_DNA !== 'undefined') {
+      founderDna = FOUNDER_DNA.find(function(f) { return f.company === c.name; });
+    }
+
+    // Moat profile
+    var moat = null;
+    if (typeof MOAT_PROFILES !== 'undefined') {
+      moat = MOAT_PROFILES.find(function(m) { return m.company === c.name; });
+    }
+
+    // Predictive scores
+    var predictive = null;
+    if (typeof PREDICTIVE_SCORES !== 'undefined') {
+      predictive = PREDICTIVE_SCORES.find(function(p) { return p.company === c.name; });
+    }
+
+    // Contractor readiness
+    var contractor = null;
+    if (typeof CONTRACTOR_READINESS !== 'undefined') {
+      contractor = CONTRACTOR_READINESS.find(function(cr) { return cr.company === c.name; });
+    }
+
+    // News signals
+    var newsItems = [];
+    if (typeof NEWS_SIGNALS !== 'undefined') {
+      newsItems = NEWS_SIGNALS.filter(function(n) { return n.company === c.name; }).slice(0, 5);
+    }
+
+    // SEC filings
+    var secFilings = [];
+    if (typeof SEC_FILINGS_LIVE !== 'undefined') {
+      secFilings = SEC_FILINGS_LIVE.filter(function(s) { return s.company === c.name; }).slice(0, 5);
+    }
+
+    // Build brief HTML
+    var briefHTML = '<!DOCTYPE html><html><head><meta charset="UTF-8">' +
+      '<title>Intel Brief: ' + c.name + '</title>' +
+      '<style>' +
+      'body{font-family:"Inter",sans-serif;max-width:800px;margin:0 auto;padding:40px;color:#1a1a2e;line-height:1.6;background:#fff;}' +
+      'h1{font-family:"Space Grotesk",sans-serif;font-size:28px;border-bottom:3px solid #FF6B2C;padding-bottom:12px;margin-bottom:4px;}' +
+      '.brief-meta{color:#666;font-size:13px;margin-bottom:32px;border-bottom:1px solid #ddd;padding-bottom:16px;}' +
+      'h2{font-family:"Space Grotesk",sans-serif;font-size:18px;color:#FF6B2C;text-transform:uppercase;letter-spacing:2px;margin-top:32px;margin-bottom:12px;border-bottom:1px solid #eee;padding-bottom:8px;}' +
+      'h3{font-size:14px;font-weight:600;margin:16px 0 8px;}' +
+      '.stat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin:16px 0;}' +
+      '.stat-box{background:#f8f9fa;border:1px solid #e5e7eb;border-radius:8px;padding:12px;text-align:center;}' +
+      '.stat-box .label{font-size:11px;color:#666;text-transform:uppercase;letter-spacing:1px;}' +
+      '.stat-box .value{font-size:20px;font-weight:700;color:#1a1a2e;margin-top:4px;}' +
+      '.badge{display:inline-block;padding:2px 8px;border-radius:4px;font-size:12px;font-weight:600;margin:2px;}' +
+      '.badge-orange{background:#FFF3ED;color:#FF6B2C;}' +
+      '.badge-green{background:#ECFDF5;color:#059669;}' +
+      '.badge-blue{background:#EFF6FF;color:#2563EB;}' +
+      '.badge-red{background:#FEF2F2;color:#DC2626;}' +
+      'table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13px;}' +
+      'th{background:#f8f9fa;text-align:left;padding:8px;border-bottom:2px solid #ddd;font-weight:600;}' +
+      'td{padding:8px;border-bottom:1px solid #eee;}' +
+      '.section-note{font-size:12px;color:#999;font-style:italic;margin-top:4px;}' +
+      '.thesis-box{background:#FFF8F5;border-left:3px solid #FF6B2C;padding:16px;margin:12px 0;border-radius:0 8px 8px 0;}' +
+      '.risk-box{background:#FEF2F2;border-left:3px solid #DC2626;padding:16px;margin:12px 0;border-radius:0 8px 8px 0;}' +
+      '@media print{body{padding:20px;font-size:11px;}h1{font-size:22px;}h2{font-size:15px;margin-top:24px;}' +
+      '.stat-grid{grid-template-columns:repeat(4,1fr);}.no-print{display:none!important;}}' +
+      '</style></head><body>';
+
+    // Header
+    briefHTML += '<h1>INTELLIGENCE BRIEF: ' + c.name.toUpperCase() + '</h1>';
+    briefHTML += '<div class="brief-meta">';
+    briefHTML += '<strong>Classification:</strong> UNCLASSIFIED // TIL<br>';
+    briefHTML += '<strong>Date:</strong> ' + today + '<br>';
+    briefHTML += '<strong>Analyst:</strong> Rational Optimist Society — The Innovators League<br>';
+    briefHTML += '<strong>Sector:</strong> ' + (c.sector || 'N/A') + ' | <strong>Stage:</strong> ' + (c.fundingStage || 'N/A') + ' | <strong>Location:</strong> ' + (c.location || 'N/A');
+    briefHTML += '</div>';
+
+    // SECTION 1: Executive Summary
+    briefHTML += '<h2>1. Executive Summary</h2>';
+    briefHTML += '<p>' + (c.description || 'No description available.') + '</p>';
+    briefHTML += '<div class="stat-grid">';
+    briefHTML += '<div class="stat-box"><div class="label">Frontier Score</div><div class="value">' + (scores.composite || 'N/A') + '</div></div>';
+    briefHTML += '<div class="stat-box"><div class="label">Founded</div><div class="value">' + (c.yearFounded || 'N/A') + '</div></div>';
+    briefHTML += '<div class="stat-box"><div class="label">Total Raised</div><div class="value">' + (c.totalRaised || 'N/A') + '</div></div>';
+    briefHTML += '<div class="stat-box"><div class="label">Valuation</div><div class="value">' + (c.valuation || 'N/A') + '</div></div>';
+    if (trl) briefHTML += '<div class="stat-box"><div class="label">TRL Level</div><div class="value">' + trl + '/9</div></div>';
+    if (c.signal) briefHTML += '<div class="stat-box"><div class="label">Signal</div><div class="value">' + c.signal + '</div></div>';
+    briefHTML += '</div>';
+
+    // Score dimensions
+    if (scores.dimensions) {
+      briefHTML += '<h3>Score Dimensions</h3>';
+      briefHTML += '<div class="stat-grid">';
+      var dims = scores.dimensions;
+      if (dims.innovation != null) briefHTML += '<div class="stat-box"><div class="label">Innovation</div><div class="value">' + dims.innovation + '</div></div>';
+      if (dims.execution != null) briefHTML += '<div class="stat-box"><div class="label">Execution</div><div class="value">' + dims.execution + '</div></div>';
+      if (dims.market != null) briefHTML += '<div class="stat-box"><div class="label">Market</div><div class="value">' + dims.market + '</div></div>';
+      if (dims.team != null) briefHTML += '<div class="stat-box"><div class="label">Team</div><div class="value">' + dims.team + '</div></div>';
+      if (dims.defensibility != null) briefHTML += '<div class="stat-box"><div class="label">Defensibility</div><div class="value">' + dims.defensibility + '</div></div>';
+      if (dims.momentum != null) briefHTML += '<div class="stat-box"><div class="label">Momentum</div><div class="value">' + dims.momentum + '</div></div>';
+      briefHTML += '</div>';
+    }
+
+    // SECTION 2: Financial Intelligence
+    briefHTML += '<h2>2. Financial Intelligence</h2>';
+    if (fundingEntries.length > 0) {
+      briefHTML += '<table><tr><th>Date</th><th>Round</th><th>Amount</th><th>Valuation</th><th>Lead</th></tr>';
+      fundingEntries.forEach(function(d) {
+        briefHTML += '<tr><td>' + (d.date || 'N/A') + '</td><td>' + (d.round || d.type || 'N/A') + '</td><td>' + (d.amount || 'N/A') + '</td><td>' + (d.valuation || '-') + '</td><td>' + (d.lead || '-') + '</td></tr>';
+      });
+      briefHTML += '</table>';
+    } else {
+      briefHTML += '<p class="section-note">No funding events tracked.</p>';
+    }
+
+    if (c.investors && c.investors.length > 0) {
+      briefHTML += '<h3>Key Investors</h3><p>';
+      briefHTML += c.investors.join(', ');
+      briefHTML += '</p>';
+    }
+
+    // SECTION 3: Government Traction
+    briefHTML += '<h2>3. Government Traction</h2>';
+    if (contractor) {
+      briefHTML += '<div class="stat-grid">';
+      briefHTML += '<div class="stat-box"><div class="label">Readiness Score</div><div class="value">' + (contractor.score || 'N/A') + '</div></div>';
+      if (contractor.clearance) briefHTML += '<div class="stat-box"><div class="label">Clearance</div><div class="value">' + contractor.clearance + '</div></div>';
+      if (contractor.cmmc) briefHTML += '<div class="stat-box"><div class="label">CMMC Level</div><div class="value">' + contractor.cmmc + '</div></div>';
+      briefHTML += '</div>';
+    }
+
+    if (govContracts.length > 0) {
+      briefHTML += '<h3>Government Contracts (' + govContracts.length + ')</h3>';
+      briefHTML += '<table><tr><th>Agency</th><th>Description</th><th>Value</th><th>Date</th></tr>';
+      govContracts.forEach(function(g) {
+        briefHTML += '<tr><td>' + (g.agency || 'N/A') + '</td><td>' + (g.description || g.title || '-').substring(0, 80) + '</td><td>' + (g.value || g.amount || '-') + '</td><td>' + (g.date || '-') + '</td></tr>';
+      });
+      briefHTML += '</table>';
+    }
+
+    if (sbirAwards.length > 0) {
+      briefHTML += '<h3>SBIR/STTR Awards (' + sbirAwards.length + ')</h3>';
+      briefHTML += '<table><tr><th>Agency</th><th>Phase</th><th>Topic</th><th>Amount</th></tr>';
+      sbirAwards.forEach(function(s) {
+        briefHTML += '<tr><td>' + (s.agency || 'N/A') + '</td><td>' + (s.phase || '-') + '</td><td>' + (s.topic || s.title || '-').substring(0, 60) + '</td><td>' + (s.amount || '-') + '</td></tr>';
+      });
+      briefHTML += '</table>';
+    }
+
+    if (!govContracts.length && !sbirAwards.length && !contractor) {
+      briefHTML += '<p class="section-note">No government traction data available.</p>';
+    }
+
+    // SECTION 4: Technology Assessment
+    briefHTML += '<h2>4. Technology Assessment</h2>';
+    if (trl) {
+      briefHTML += '<p><strong>Technology Readiness Level:</strong> TRL ' + trl + '/9</p>';
+    }
+    if (patents) {
+      briefHTML += '<div class="stat-grid">';
+      if (patents.totalPatents != null) briefHTML += '<div class="stat-box"><div class="label">Total Patents</div><div class="value">' + patents.totalPatents + '</div></div>';
+      if (patents.pendingPatents != null) briefHTML += '<div class="stat-box"><div class="label">Pending</div><div class="value">' + patents.pendingPatents + '</div></div>';
+      if (patents.ipMoatScore != null) briefHTML += '<div class="stat-box"><div class="label">IP Moat Score</div><div class="value">' + patents.ipMoatScore + '</div></div>';
+      if (patents.patentVelocity != null) briefHTML += '<div class="stat-box"><div class="label">Patent Velocity</div><div class="value">' + patents.patentVelocity + '/yr</div></div>';
+      briefHTML += '</div>';
+      if (patents.keyAreas && patents.keyAreas.length > 0) {
+        briefHTML += '<h3>Key Patent Areas</h3><p>' + patents.keyAreas.join(', ') + '</p>';
+      }
+    }
+
+    if (c.thesisCluster) {
+      briefHTML += '<h3>Thesis Cluster</h3><p>' + c.thesisCluster + '</p>';
+    }
+
+    // SECTION 5: Competitive Landscape
+    briefHTML += '<h2>5. Competitive Landscape</h2>';
+    if (c.competitors && c.competitors.length > 0) {
+      briefHTML += '<h3>Direct Competitors</h3><p>' + c.competitors.join(', ') + '</p>';
+    }
+    if (predictive) {
+      briefHTML += '<div class="stat-grid">';
+      if (predictive.maTarget != null) briefHTML += '<div class="stat-box"><div class="label">M&A Target Prob.</div><div class="value">' + predictive.maTarget + '%</div></div>';
+      if (predictive.ipoReadiness != null) briefHTML += '<div class="stat-box"><div class="label">IPO Readiness</div><div class="value">' + predictive.ipoReadiness + '</div></div>';
+      if (predictive.failureRisk != null) briefHTML += '<div class="stat-box"><div class="label">Failure Risk</div><div class="value">' + predictive.failureRisk + '%</div></div>';
+      briefHTML += '</div>';
+    }
+
+    // SECTION 6: Team & Network
+    briefHTML += '<h2>6. Team & Network</h2>';
+    if (c.founder) briefHTML += '<p><strong>Founder(s):</strong> ' + c.founder + '</p>';
+
+    if (founderDna) {
+      briefHTML += '<div class="stat-grid">';
+      if (founderDna.dnaScore != null) briefHTML += '<div class="stat-box"><div class="label">Founder DNA Score</div><div class="value">' + founderDna.dnaScore + '</div></div>';
+      if (founderDna.serialFounder) briefHTML += '<div class="stat-box"><div class="label">Serial Founder</div><div class="value">Yes</div></div>';
+      if (founderDna.mafias && founderDna.mafias.length > 0) briefHTML += '<div class="stat-box"><div class="label">Mafia Network</div><div class="value">' + founderDna.mafias.join(', ') + '</div></div>';
+      briefHTML += '</div>';
+    }
+
+    if (headcount) {
+      briefHTML += '<h3>Headcount</h3>';
+      briefHTML += '<div class="stat-grid">';
+      if (headcount.current != null) briefHTML += '<div class="stat-box"><div class="label">Current</div><div class="value">' + headcount.current + '</div></div>';
+      if (headcount.growth != null) briefHTML += '<div class="stat-box"><div class="label">Growth</div><div class="value">' + headcount.growth + '</div></div>';
+      briefHTML += '</div>';
+    }
+
+    // SECTION 7: Risk Assessment
+    briefHTML += '<h2>7. Risk Assessment</h2>';
+    if (c.thesis && c.thesis.bear) {
+      briefHTML += '<div class="risk-box"><strong>Bear Case:</strong> ' + c.thesis.bear + '</div>';
+    }
+    if (c.risks && c.risks.length > 0) {
+      briefHTML += '<h3>Key Risks</h3><ul>';
+      c.risks.forEach(function(r) { briefHTML += '<li>' + r + '</li>'; });
+      briefHTML += '</ul>';
+    }
+    if (predictive && predictive.failureRisk != null) {
+      briefHTML += '<p><strong>Quantified Failure Risk:</strong> ' + predictive.failureRisk + '%</p>';
+    }
+
+    // SECTION 8: ROS Editorial Take
+    briefHTML += '<h2>8. ROS Editorial Take</h2>';
+    if (c.thesis) {
+      if (c.thesis.bull) {
+        briefHTML += '<div class="thesis-box"><strong>Bull Case:</strong> ' + c.thesis.bull + '</div>';
+      }
+      if (c.thesis.insight) {
+        briefHTML += '<p><strong>Key Insight:</strong> ' + c.thesis.insight + '</p>';
+      }
+    }
+    if (c.rosCoverage) {
+      briefHTML += '<h3>ROS Coverage</h3><p>' + c.rosCoverage + '</p>';
+    }
+    if (c.conviction) {
+      briefHTML += '<p><strong>Conviction Level:</strong> <span class="badge badge-orange">' + c.conviction + '</span></p>';
+    }
+
+    // Footer
+    briefHTML += '<hr style="margin-top:40px;border:none;border-top:1px solid #ddd;">';
+    briefHTML += '<p style="font-size:11px;color:#999;text-align:center;margin-top:16px;">Generated by The Innovators League — Rational Optimist Society | ' + today + '</p>';
+    briefHTML += '<p class="no-print" style="text-align:center;margin-top:16px;"><button onclick="window.print()" style="background:#FF6B2C;color:#fff;border:none;padding:12px 24px;border-radius:8px;cursor:pointer;font-size:14px;font-weight:600;">Print / Export PDF</button></p>';
+    briefHTML += '</body></html>';
+
+    // Open in new window
+    var briefWindow = window.open('', '_blank');
+    if (briefWindow) {
+      briefWindow.document.write(briefHTML);
+      briefWindow.document.close();
+    }
+  };
+
 })();

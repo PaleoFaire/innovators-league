@@ -71,6 +71,7 @@
             <a href="#thesis-collision" class="section-nav-dot" data-section="thesis-collision" title="Thesis Collision"><span>Thesis</span></a>
             <a href="#predictive-scores" class="section-nav-dot" data-section="predictive-scores" title="Predictive Analytics"><span>Predict</span></a>
             <a href="#network-graph" class="section-nav-dot" data-section="network-graph" title="Network Graph"><span>Network</span></a>
+            <a href="#competitive-battlefield" class="section-nav-dot" data-section="competitive-battlefield" title="Competitive Battlefield"><span>Battle</span></a>
             <a href="#portfolio-builder" class="section-nav-dot" data-section="portfolio-builder" title="Portfolio Builder"><span>Portfolio</span></a>
             <a href="#private-community" class="section-nav-dot" data-section="private-community" title="Community"><span>Community</span></a>
         </div>
@@ -655,6 +656,31 @@
             <div class="network-info" id="network-info">
                 <p class="network-stats" id="network-stats"></p>
             </div>
+        </div>
+    </section>
+
+
+    <!-- COMPETITIVE BATTLEFIELD MAP -->
+    <section class="battlefield-section" id="competitive-battlefield">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <p class="section-eyebrow">COMPETITIVE INTELLIGENCE</p>
+                <h2>Competitive Battlefield</h2>
+                <p>See which companies compete for the same contracts, investors, talent, and patents.</p>
+            </div>
+            <div class="battlefield-controls" style="display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:24px;">
+                <select id="battlefield-company" style="flex:1;min-width:200px;padding:10px 14px;background:var(--bg-elevated);border:1px solid var(--border);border-radius:var(--radius-sm);color:var(--text-primary);font-size:14px;">
+                    <option value="">Select a company to analyze...</option>
+                </select>
+                <div class="battlefield-toggles" style="display:flex;gap:8px;flex-wrap:wrap;">
+                    <label class="bf-toggle" style="display:flex;align-items:center;gap:4px;font-size:12px;color:var(--text-secondary);cursor:pointer;"><input type="checkbox" class="bf-dim" value="investors" checked> <span style="color:#f59e0b;">Investors</span></label>
+                    <label class="bf-toggle" style="display:flex;align-items:center;gap:4px;font-size:12px;color:var(--text-secondary);cursor:pointer;"><input type="checkbox" class="bf-dim" value="thesis" checked> <span style="color:#8b5cf6;">Thesis</span></label>
+                    <label class="bf-toggle" style="display:flex;align-items:center;gap:4px;font-size:12px;color:var(--text-secondary);cursor:pointer;"><input type="checkbox" class="bf-dim" value="sector" checked> <span style="color:#3b82f6;">Sector</span></label>
+                    <label class="bf-toggle" style="display:flex;align-items:center;gap:4px;font-size:12px;color:var(--text-secondary);cursor:pointer;"><input type="checkbox" class="bf-dim" value="patents"> <span style="color:#22c55e;">Patents</span></label>
+                </div>
+            </div>
+            <div id="battlefield-canvas" style="width:100%;height:500px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:var(--radius);position:relative;overflow:hidden;"></div>
+            <div id="battlefield-detail" style="margin-top:16px;"></div>
         </div>
     </section>
 
