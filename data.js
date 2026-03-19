@@ -21237,23 +21237,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-19 02:51
+// Last updated: 2026-03-19 05:25
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Andrenam", headline: "Hydrogen Paste Meets Reality: Energy In, Energy Out, And What's Missing", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Cape", headline: "Ukraine war undermining Russia's Arctic plans, US intelligence says", source: "Defense News", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Atomic Industries", headline: "Lockheed tests upgraded Precision Strike Missile designed to strike ships", source: "Defense News", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins $190 million Pentagon deal for hypersonic test flights", source: "SpaceNews", time: "4h ago", impact: "medium", unread: true },
-  { id: 5, type: "ipo", company: "Together AI", headline: "Space Command classified wargame to include 25 commercial players", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI Sam Altman Lies and Deceives Business Partners", source: "Next Big Future", time: "7h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "Scale AI", headline: "Patreon CEO calls AI companies' fair use argument 'bogus,' says creators should be paid", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Photonic Inc", headline: "Federal cyber experts called Microsoft's cloud a &quot;pile of shit,&quot; approved it anyway", source: "Ars Technica", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Hubble Network", headline: "The Best Sonos Bluetooth Speaker Is $40 Off", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Ample", headline: "All Organic Building Blocks of Life Likely Form Naturally in Space", source: "Next Big Future", time: "9h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "Anthropic", headline: "Pentagon CTO 'pretty confident' about life after Anthropic", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Matic Robotics", headline: "Sequen snags $16M to bring TikTok-style personalization tech to any consumer company", source: "TechCrunch", time: "10h ago", impact: "medium", unread: false },
-  { id: 14, type: "hire", company: "Photonic Inc", headline: "Microsoft hires the team of Sequoia-backed AI collaboration platform, Cove", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Einride", headline: "The Baltic Whale Enters Battery-Electric Freight Service On The Fehmarn Belt", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Xtend", headline: "Groups Take Trump Administration to Court Over Illegal Craig Coal Plant Extension", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Fervo Energy", headline: "Sierra Club Statement on Western Arctic Oil &#038; Gas Lease Sale", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Andrenam", headline: "Hydrogen Paste Meets Reality: Energy In, Energy Out, And What's Missing", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Cape", headline: "Ukraine war undermining Russia's Arctic plans, US intelligence says", source: "Defense News", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Atomic Industries", headline: "Lockheed tests upgraded Precision Strike Missile designed to strike ships", source: "Defense News", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI Sam Altman Lies and Deceives Business Partners", source: "Next Big Future", time: "10h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "Scale AI", headline: "Patreon CEO calls AI companies' fair use argument 'bogus,' says creators should be paid", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Photonic Inc", headline: "Federal cyber experts called Microsoft's cloud a &quot;pile of shit,&quot; approved it anyway", source: "Ars Technica", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Hubble Network", headline: "The Best Sonos Bluetooth Speaker Is $40 Off", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Ample", headline: "All Organic Building Blocks of Life Likely Form Naturally in Space", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "Anthropic", headline: "Pentagon CTO 'pretty confident' about life after Anthropic", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Matic Robotics", headline: "Sequen snags $16M to bring TikTok-style personalization tech to any consumer company", source: "TechCrunch", time: "13h ago", impact: "medium", unread: false },
+  { id: 14, type: "hire", company: "Photonic Inc", headline: "Microsoft hires the team of Sequoia-backed AI collaboration platform, Cove", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Einride", headline: "The Baltic Whale Enters Battery-Electric Freight Service On The Fehmarn Belt", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
