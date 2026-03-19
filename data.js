@@ -21278,25 +21278,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-19 05:25
-// Auto-generated real-time signals
-// Last updated: 2026-03-19
+// Last updated: 2026-03-19 08:53
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Starship V3 Initiated a Ten Engine Static Fire", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Palantir", headline: "Two Palantir veterans just came out of stealth with $30 million and a Sequoia stamp of approval", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "NVIDIA ROBOTAXI READY? IS TESLA DOOMED", source: "Next Big Future", time: "1h ago", impact: "medium", unread: true },
-  { id: 4, type: "funding", company: "Xtend", headline: "Groups Take Trump Administration to Court Over Illegal Craig Coal Plant Extension", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Fervo Energy", headline: "Sierra Club Statement on Western Arctic Oil &#038; Gas Lease Sale", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Andrenam", headline: "Hydrogen Paste Meets Reality: Energy In, Energy Out, And What’s Missing", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Cape", headline: "Ukraine war undermining Russia’s Arctic plans, US intelligence says", source: "Defense News", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Atomic Industries", headline: "Lockheed tests upgraded Precision Strike Missile designed to strike ships", source: "Defense News", time: "7h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI Sam Altman Lies and Deceives Business Partners", source: "Next Big Future", time: "11h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal", source: "Wired", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "hire", company: "Scale AI", headline: "Patreon CEO calls AI companies&#8217; fair use argument &#8216;bogus,&#8217; says creators should be paid", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Photonic Inc", headline: "Federal cyber experts called Microsoft&#039;s cloud a &quot;pile of shit,&quot; approved it anyway", source: "Ars Technica", time: "13h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Hubble Network", headline: "The Best Sonos Bluetooth Speaker Is $40 Off", source: "Wired", time: "13h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Ample", headline: "All Organic Building Blocks of Life Likely Form Naturally in Space", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "contract", company: "Anthropic", headline: "Pentagon CTO ‘pretty confident’ about life after Anthropic", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Epirus", headline: "Countering Drones and the Pace of Modern War", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "OpenAI", headline: "Multiverse Computing pushes its compressed AI models into the mainstream", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "SHIELD Technology Partners", headline: "The Inevitability of Chinese Military Purges", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Starship V3 Initiated a Ten Engine Static Fire", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "Two Palantir veterans just came out of stealth with $30 million and a Sequoia stamp of approval", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Waymo", headline: "NVIDIA ROBOTAXI READY? IS TESLA DOOMED", source: "Next Big Future", time: "2h ago", impact: "medium", unread: false },
+  { id: 7, type: "funding", company: "Xtend", headline: "Groups Take Trump Administration to Court Over Illegal Craig Coal Plant Extension", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Fervo Energy", headline: "Sierra Club Statement on Western Arctic Oil &#038; Gas Lease Sale", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Andrenam", headline: "Hydrogen Paste Meets Reality: Energy In, Energy Out, And What's Missing", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Cape", headline: "Ukraine war undermining Russia's Arctic plans, US intelligence says", source: "Defense News", time: "9h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Atomic Industries", headline: "Lockheed tests upgraded Precision Strike Missile designed to strike ships", source: "Defense News", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins $190 million Pentagon deal for hypersonic test flights", source: "SpaceNews", time: "10h ago", impact: "medium", unread: false },
+  { id: 13, type: "ipo", company: "Together AI", headline: "Space Command classified wargame to include 25 commercial players", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI Sam Altman Lies and Deceives Business Partners", source: "Next Big Future", time: "13h ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal", source: "Wired", time: "14h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
