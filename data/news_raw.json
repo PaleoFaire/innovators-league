@@ -1,8 +1,90 @@
 [
   {
+    "title": "NASA Shifts from Boeing and SLS Towards SpaceX for Moon Missions",
+    "link": "https://www.nextbigfuture.com/2026/03/nasa-shifts-from-boeing-and-sls-towards-spacex-for-moon-missions.html",
+    "description": "NASA is proposing SpaceX Starship now handles translunar injection (TLI) propulsion and the full landing role, while SLS/Orion is limited to LEO only. This shrinks Boeing’s role and gives more to SpaceX Starship. Artemis III (2027) — LEO Docking Test (Almost Unchanged, Now a Perfect Dress Rehearsal)",
+    "pubDate": "Thu, 19 Mar 2026 19:50:45 +0000",
+    "category": "Science",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Mach Industries",
+    "matchedCompanies": [
+      "Mach Industries",
+      "SpaceX",
+      "Firehawk Aerospace",
+      "Ursa Major Technologies"
+    ],
+    "sectors": [
+      "defense",
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says",
+    "link": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
+    "description": "AI bots may outnumber humans online by 2027, says Cloudflare CEO Matthew Prince, as generative AI agents dramatically increase web traffic and infrastructure demands.",
+    "pubDate": "Thu, 19 Mar 2026 19:09:02 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Labelbox",
+    "matchedCompanies": [
+      "Labelbox"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Register now: The energy imperative driving the push toward orbital data centers",
+    "link": "https://spacenews.com/the-energy-imperative-orbital-data-centers-virtual-event/",
+    "description": "\nJoin us on March 31 for a virtual event, sponsored by Star Catcher and in partnership with the Commercial Space Federation\nThe post Register now: The energy imperative driving the push toward orbital data centers appeared first on SpaceNews.",
+    "pubDate": "Thu, 19 Mar 2026 18:37:29 +0000",
+    "category": "Video",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Vast",
+    "matchedCompanies": [
+      "Vast",
+      "Axiom Space",
+      "Starcloud"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "medium",
+    "time": "2h ago"
+  },
+  {
+    "title": "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze",
+    "link": "https://www.wired.com/story/google-shakes-up-project-mariner-team-web-browsing-agents/",
+    "description": "As Silicon Valley obsesses over a new wave of AI coding agents, Google and other AI labs are shifting their bets.",
+    "pubDate": "Thu, 19 Mar 2026 18:00:00 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anysphere",
+    "matchedCompanies": [
+      "Anysphere"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "Google introduces a new way for users to sideload Android apps that still protects against scams",
     "link": "https://techcrunch.com/2026/03/19/google-introduces-a-new-way-for-users-to-sideload-android-apps-that-still-protects-against-scams/",
-    "description": "Google is making Android sideloading easier with a new advanced setting that lets users disable app verification after a multi-step security process.",
+    "description": "Google is making Android sideloading easier with a new advanced setting that lets users disable app verification after a multistep security process.",
     "pubDate": "Thu, 19 Mar 2026 17:00:00 +0000",
     "category": "Apps",
     "source": "TechCrunch",
@@ -19,7 +101,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "ChatGPT’s ‘Adult Mode’ Could Spark a New Era of Intimate Surveillance",
@@ -41,7 +123,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "CISA urges companies to secure Microsoft Intune systems after hackers mass-wipe Stryker devices",
@@ -64,7 +146,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "TechCrunch Startup Battlefield 200 nominations are still open",
@@ -83,7 +165,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Business Provides Over 50 EV Chargers Onsite For Employees",
@@ -102,7 +184,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Rivian sacrifices 2027 profit goal to push deeper into autonomy",
@@ -123,7 +205,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise",
@@ -142,7 +224,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "3h ago"
+    "time": "7h ago"
   },
   {
     "title": "Feds intensify investigation into Tesla&#8217;s Full Self-Driving (Supervised) software",
@@ -161,7 +243,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
     "title": "The Download: Quantum computing for health, and why the world doesn&#8217;t recycle more nuclear waste",
@@ -182,26 +264,26 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
-    "title": "Uber taps Rivian to build robotaxis in deal worth up to $1.25B",
-    "link": "https://techcrunch.com/2026/03/19/uber-taps-rivian-to-build-robotaxis-in-deal-worth-up-to-1-25b/",
-    "description": "Uber is kicking off the partnership with an initial $300 million investment, while Rivian will provide as many as 50,000 autonomous R2 SUVs.",
+    "title": "ReOrbit sells two small GEO satellites to SLI",
+    "link": "https://spacenews.com/reorbit-sells-two-small-geo-satellites-to-sli/",
+    "description": "\nFinnish satellite manufacturer ReOrbit has signed a contract with asset-financing company SLI for two small geostationary orbit communications satellites.\nThe post ReOrbit sells two small GEO satellites to SLI appeared first on SpaceNews.",
     "pubDate": "Thu, 19 Mar 2026 12:00:00 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Rivian",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Astranis",
     "matchedCompanies": [
-      "Rivian"
+      "Astranis"
     ],
     "sectors": [
-      "transportation"
+      "space"
     ],
-    "type": "news",
-    "impact": "medium",
-    "time": "5h ago"
+    "type": "contract",
+    "impact": "low",
+    "time": "8h ago"
   },
   {
     "title": "Soundcore Nebula X1 Pro Dolby Atmos Projector Review: Big, Brilliant",
@@ -220,7 +302,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "5h ago"
+    "time": "9h ago"
   },
   {
     "title": "Capacity gap for 9 specialized components gnarls space supply chain: Study",
@@ -246,30 +328,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "5h ago"
-  },
-  {
-    "title": "Inside a $1.1B deal to reshore critical minerals refining",
-    "link": "https://techcrunch.com/2026/03/19/inside-a-1-1b-deal-to-reshore-critical-minerals-refining/",
-    "description": "Critical minerals startup Nth Cycle is betting that its modular approach to nickel refining can make the practice viable in the U.S. and Europe.",
-    "pubDate": "Thu, 19 Mar 2026 11:00:00 +0000",
-    "category": "Climate",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Aepnus Technology",
-    "matchedCompanies": [
-      "Aepnus Technology",
-      "KoBold Metals",
-      "Mariana Minerals",
-      "Watoga Tech"
-    ],
-    "sectors": [
-      "climate",
-      "infrastructure"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "Can quantum computers now solve health care problems? We&#8217;ll soon find out.",
@@ -288,7 +347,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "Overcoming Core Engineering Barriers in Humanoid Robotics Development",
@@ -308,7 +367,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "The Fight to Hold AI Companies Accountable for Children’s Deaths",
@@ -327,7 +386,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "Why the world doesn’t recycle more nuclear waste",
@@ -346,7 +405,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "Countering Drones and the Pace of Modern War",
@@ -366,27 +425,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
-  },
-  {
-    "title": "Multiverse Computing pushes its compressed AI models into the mainstream",
-    "link": "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/",
-    "description": "After compressing models from major AI labs including OpenAI, Meta, DeepSeek and Mistral AI, Multiverse Computing has launched both an app that showcases the capabilities of its compressed models and an API that makes them more widely available.",
-    "pubDate": "Thu, 19 Mar 2026 08:00:00 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Mistral AI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "9h ago"
+    "time": "12h ago"
   },
   {
     "title": "The Inevitability of Chinese Military Purges",
@@ -405,7 +444,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "13h ago"
   },
   {
     "title": "SpaceX Starship V3 Initiated a Ten Engine Static Fire",
@@ -424,26 +463,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "10h ago"
-  },
-  {
-    "title": "Two Palantir veterans just came out of stealth with $30M and a Sequoia stamp of approval",
-    "link": "https://techcrunch.com/2026/03/18/two-palantir-veterans-just-came-out-of-stealth-with-30-million-and-a-sequoia-stamp-of-approval/",
-    "description": "Edra, a New York-based startup that says it helps companies automate workflows by turning their existing operational data into a living knowledge base, just picked up a meaningful vote of confidence: a $30 million Series A led by Sequoia.",
-    "pubDate": "Thu, 19 Mar 2026 06:11:53 +0000",
-    "category": "Venture",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "10h ago"
+    "time": "14h ago"
   },
   {
     "title": "NVIDIA ROBOTAXI READY? IS TESLA DOOMED",
@@ -464,7 +484,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "11h ago"
+    "time": "14h ago"
   },
   {
     "title": "Groups Take Trump Administration to Court Over Illegal Craig Coal Plant Extension",
@@ -483,7 +503,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "Sierra Club Statement on Western Arctic Oil &#038; Gas Lease Sale",
@@ -504,7 +524,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "Hydrogen Paste Meets Reality: Energy In, Energy Out, And What’s Missing",
@@ -529,7 +549,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "Ukraine war undermining Russia’s Arctic plans, US intelligence says",
@@ -551,7 +571,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "21h ago"
   },
   {
     "title": "Lockheed tests upgraded Precision Strike Missile designed to strike ships",
@@ -570,7 +590,45 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "17h ago"
+    "time": "21h ago"
+  },
+  {
+    "title": "Rocket Lab wins $190 million Pentagon deal for hypersonic test flights",
+    "link": "https://spacenews.com/rocket-lab-wins-190-million-pentagon-deal-for-hypersonic-test-flights/",
+    "description": "\nThe contract is for 20 hypersonic flight missions over four years\nThe post Rocket Lab wins $190 million Pentagon deal for hypersonic test flights appeared first on SpaceNews.",
+    "pubDate": "Wed, 18 Mar 2026 21:56:59 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Rocket Lab",
+    "matchedCompanies": [
+      "Rocket Lab"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "contract",
+    "impact": "medium",
+    "time": "22h ago"
+  },
+  {
+    "title": "Space Command classified wargame to include 50 commercial players",
+    "link": "https://spacenews.com/space-command-classified-wargame-to-include-25-commercial-players/",
+    "description": "\nMaj. Gen. Keener:  The exercise will help Space Command ‘better understand commercial challenges, requirements, and how we can better work together’\nThe post Space Command classified wargame to include 50 commercial players appeared first on SpaceNews.",
+    "pubDate": "Wed, 18 Mar 2026 21:14:13 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Together AI",
+    "matchedCompanies": [
+      "Together AI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "23h ago"
   },
   {
     "title": "OpenAI Sam Altman Lies and Deceives Business Partners",
@@ -591,7 +649,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal",
@@ -610,7 +668,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Federal cyber experts called Microsoft&#039;s cloud a &quot;pile of shit,&quot; approved it anyway",
@@ -629,7 +687,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "The Best Sonos Bluetooth Speaker Is $40 Off",
@@ -648,7 +706,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "All Organic Building Blocks of Life Likely Form Naturally in Space",
@@ -669,7 +727,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Pentagon CTO ‘pretty confident’ about life after Anthropic",
@@ -744,6 +802,28 @@
     ],
     "sectors": [
       "infrastructure"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "Solar array deal sheds more light on South Korea’s defense constellation",
+    "link": "https://spacenews.com/solar-array-deal-sheds-more-light-on-south-koreas-defense-constellation/",
+    "description": "\nSouth Korea’s plans for a national security constellation are coming into sharper focus after a March 18 solar array supply deal set the stage for a first demonstrator as early as the second half of 2027.\nThe post Solar array deal sheds more light on South Korea’s defense constellation appeared fir",
+    "pubDate": "Wed, 18 Mar 2026 14:57:51 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Cape",
+    "matchedCompanies": [
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "climate",
+      "autonomous"
     ],
     "type": "news",
     "impact": "low",
@@ -993,6 +1073,25 @@
     "time": "1d ago"
   },
   {
+    "title": "Telesat pivots Lightspeed toward defense as delays push global service to 2028",
+    "link": "https://spacenews.com/telesat-pivots-lightspeed-toward-defense-as-delays-push-global-service-to-2028/",
+    "description": "\nTelesat plans to carve out 25% of its Lightspeed broadband constellation for military Ka-band as the program’s latest delay pushes global service into early 2028, creating more room to align the design with shifting geopolitical priorities.\nThe post Telesat pivots Lightspeed toward defense as delay",
+    "pubDate": "Tue, 17 Mar 2026 21:22:08 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "AST SpaceMobile",
+    "matchedCompanies": [
+      "AST SpaceMobile"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
     "title": "Ebikes &#038; Bikes for Everything, + Much of What I’ve Learned Riding Bikes for 75 Years (Part I)",
     "link": "https://cleantechnica.com/2026/03/17/ebikes-bikes-for-everything-much-of-what-ive-learned-riding-bikes-for-75-years-part-i/",
     "description": "In Part II, I will discuss bike safety.Public transportation is heavily used in other countries and some large US cities. I begin by discussing how bikes can be used as last-mile transportation in conjunction with public transportation. However, to a large extent in the US, we jump into our cars   .",
@@ -1012,6 +1111,45 @@
     "time": "1d ago"
   },
   {
+    "title": "Office of Space Commerce weighing options for TraCSS user fees",
+    "link": "https://spacenews.com/office-of-space-commerce-weighing-options-for-tracss-user-fees/",
+    "description": "\nThe Trump administration has not yet decided whether to charge for space safety data despite a change in space policy enabling the government to do so.\nThe post Office of Space Commerce weighing options for TraCSS user fees appeared first on SpaceNews.",
+    "pubDate": "Tue, 17 Mar 2026 20:48:46 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "Space boom strains supply chain, industry report warns",
+    "link": "https://spacenews.com/space-boom-strains-supply-chain-industry-report-warns/",
+    "description": "\nThe industry’s supply network, built for smaller volumes and slower production cycles, is struggling to keep pace.\nThe post Space boom strains supply chain, industry report warns appeared first on SpaceNews.",
+    "pubDate": "Tue, 17 Mar 2026 19:08:32 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Bronco AI",
+    "matchedCompanies": [
+      "Bronco AI",
+      "Fortastra"
+    ],
+    "sectors": [
+      "infrastructure"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
     "title": "Nvidia Structured Data is the Ground Truth of AI &#8211; $120 Billion Structure Data Ecosystem",
     "link": "https://www.nextbigfuture.com/2026/03/nvidia-structured-data-is-the-ground-truth-of-ai-120-billion-structure-data-ecosystem.html",
     "description": "Nvidia has a structured data enablement strategy. Nvidia provides libaries, software and hardware to index and search data faster. The Indexing and retrievals are way faster 10-40X faster in most cases. How cuDF + cuVS Work Together (The GTC 2026 “Ground Truth” Pipeline) Unstructured data (PDFs, vid",
@@ -1028,7 +1166,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data Ground Truth for AI",
@@ -1049,7 +1187,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "US Navy taps Gecko Robotics to help remedy maintenance headaches",
@@ -1068,7 +1206,30 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
+  },
+  {
+    "title": "ISPTech Raises €5.5M Seed Round to Redefine How Spacecraft Manoeuvre in Orbit",
+    "link": "https://spacenews.com/isptech-raises-e5-5m-seed-round-to-redefine-how-spacecraft-manoeuvre-in-orbit/",
+    "description": "\nStuttgart, Germany &#8211; Marc. 17, 2026 &#8211; ISPTech, a German space technology company developing propulsion systems for agile in-orbit maneuvering, announced it has raised €5.5 million in seed funding to [&#8230;]\nThe post ISPTech Raises €5.5M Seed Round to Redefine How Spacecraft Manoeuvre ",
+    "pubDate": "Tue, 17 Mar 2026 17:05:18 +0000",
+    "category": "Press Release",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Mach Industries",
+    "matchedCompanies": [
+      "Mach Industries",
+      "Firehawk Aerospace",
+      "Ursa Major Technologies",
+      "D-Orbit"
+    ],
+    "sectors": [
+      "defense",
+      "space"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "2d ago"
   },
   {
     "title": "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage Shine",
@@ -1084,25 +1245,6 @@
     ],
     "sectors": [
       "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Dyson’s New PencilWash Is Here",
-    "link": "https://www.wired.com/story/dyson-pencilwash-now-available/",
-    "description": "The debut follows the release of Dyson’s newest robot vacuum and a larger wet cleaner last week.",
-    "pubDate": "Tue, 17 Mar 2026 16:49:41 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Matic Robotics",
-    "matchedCompanies": [
-      "Matic Robotics"
-    ],
-    "sectors": [
-      "consumer"
     ],
     "type": "news",
     "impact": "low",
@@ -1151,30 +1293,6 @@
       "consumer",
       "robotics",
       "infrastructure"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Orchid Security Recognized by Gartner® as a Representative Vendor of Guardian Agents",
-    "link": "https://www.nextbigfuture.com/2026/03/orchid-security-recognized-by-gartner-as-a-representative-vendor-of-guardian-agents.html",
-    "description": "New York, United States, 17th March 2026, CyberNewswire",
-    "pubDate": "Tue, 17 Mar 2026 13:00:38 +0000",
-    "category": "Technology",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "Orchid",
-    "matchedCompanies": [
-      "Orchid",
-      "Cape",
-      "Percepto",
-      "ideaForge"
-    ],
-    "sectors": [
-      "biotech",
-      "climate",
-      "autonomous"
     ],
     "type": "news",
     "impact": "low",
@@ -1236,6 +1354,25 @@
     ],
     "type": "funding",
     "impact": "medium",
+    "time": "2d ago"
+  },
+  {
+    "title": "Innospace completes investigation into Hanbit-Nano launch failure",
+    "link": "https://spacenews.com/innospace-completes-investigation-into-hanbit-nano-launch-failure/",
+    "description": "\nSouth Korean startup Innospace says its inaugural launch failed in December when exhaust leaked from a combustion chamber and caused the rocket to break up.\nThe post Innospace completes investigation into Hanbit-Nano launch failure appeared first on SpaceNews.",
+    "pubDate": "Tue, 17 Mar 2026 10:29:51 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Innospace",
+    "matchedCompanies": [
+      "Innospace"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
     "time": "2d ago"
   },
   {
@@ -1341,25 +1478,6 @@
     "time": "2d ago"
   },
   {
-    "title": "Volkswagen &#038; XPENG Launch ID.UNYX 08 Production: The Fruition of Collaboration",
-    "link": "https://cleantechnica.com/2026/03/16/volkswagen-xpeng-launch-id-unyx-08-production-the-fruition-of-collaboration/",
-    "description": "A few days ago, the first Volkswagen ID.UNYX 08 rolled off the assembly line. The vehicle was developed with XPENG and assembled at the Volkswagen Anhui plant, a JV with JAC. Built on an 800V platform, it shares XPENG’s 5C charging capability and impressive ADAS system (aka, intelligent driving). Te",
-    "pubDate": "Mon, 16 Mar 2026 23:18:11 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Ample",
-    "matchedCompanies": [
-      "Ample"
-    ],
-    "sectors": [
-      "infrastructure"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
     "title": "Anduril secures $87M contract for a common counter-unmanned C2 program",
     "link": "https://www.defenseone.com/business/2026/03/anduril-secures-87m-contract-common-counter-unmanned-c2-program/412156/",
     "description": "The agreement is part of a larger $20B license for the federal government to buy any Anduril product.",
@@ -1395,7 +1513,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "IEEE Young Professionals Help Bridge the U.S. Tech Skills Gap",
@@ -1415,7 +1533,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Where OpenAI’s technology could show up in Iran",
@@ -1434,7 +1552,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Norway’s elite Arctic soldiers still dig their own snow caves to hide from drones",
@@ -1588,7 +1706,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "3/12/2026"
   },
   {
     "title": "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience",
