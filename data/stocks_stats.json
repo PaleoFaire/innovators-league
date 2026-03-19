@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 1.2,
+      "avg_change": 0.77,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 0.47,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -1.35,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -2.31,
+      "avg_change": -3.85,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.65,
+      "avg_change": -8.87,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 30.7,
+      "avg_change": 31.26,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.35,
+      "avg_change": -8.61,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.89,
+      "avg_change": -3.28,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.54,
+      "avg_change": -5.21,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.98,
+      "avg_change": -1.45,
       "count": 3
     }
   },
@@ -61,22 +61,22 @@
     [
       "LNZA",
       "LanzaTech",
-      97.0
+      100.22
     ],
     [
       "DRSHF",
       "DroneShield",
-      7.26
+      6.9
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      6.6
+      2.87
     ],
     [
       "9348.T",
       "ispace",
-      4.87
+      1.56
     ],
     [
       "IDEAFORGE.NS",
@@ -86,30 +86,30 @@
   ],
   "topLosers": [
     [
-      "RGTI",
-      "Rigetti Computing",
-      -6.67
-    ],
-    [
       "EVTL",
       "Vertical Aerospace",
-      -6.92
+      -8.21
     ],
     [
       "AUR",
       "Aurora Innovation",
-      -7.08
+      -8.76
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      -9.66
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -11.71
+      -12.8
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -12.54
+      -14.11
     ]
   ],
-  "lastUpdated": "2026-03-18 19:06:48"
+  "lastUpdated": "2026-03-19 02:36:00"
 }
