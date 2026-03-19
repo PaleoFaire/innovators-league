@@ -21278,23 +21278,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-19 13:22
+// Last updated: 2026-03-19 17:04
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Matic Robotics", headline: "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Aurora Innovation", headline: "Feds intensify investigation into Tesla's Full Self-Driving (Supervised) software", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Daylight Computer", headline: "The Download: Quantum computing for health, and why the world doesn't recycle more nuclear waste", source: "MIT Tech Review", time: "1h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Rivian", headline: "Uber taps Rivian to build robotaxis in deal worth up to $1.25B", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
-  { id: 5, type: "contract", company: "Astranis", headline: "ReOrbit sells two small GEO satellites to SLI", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Atmo", headline: "Soundcore Nebula X1 Pro Dolby Atmos Projector Review: Big, Brilliant", source: "Wired", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Hadrian", headline: "Capacity gap for 9 specialized components gnarls space supply chain: Study", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Aepnus Technology", headline: "Inside a $1.1B deal to reshore critical minerals refining", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Daylight Computer", headline: "A $5 million prize awaits proof that quantum computers can solve health care problems", source: "MIT Tech Review", time: "2h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Salient Motion", headline: "Overcoming Core Engineering Barriers in Humanoid Robotics Development", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "OpenAI", headline: "The Fight to Hold AI Companies Accountable for Children's Deaths", source: "Wired", time: "3h ago", impact: "medium", unread: false },
-  { id: 12, type: "news", company: "Deep Isolation", headline: "Why the world doesn't recycle more nuclear waste", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Epirus", headline: "Countering Drones and the Pace of Modern War", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "OpenAI", headline: "Multiverse Computing pushes its compressed AI models into the mainstream", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "SHIELD Technology Partners", headline: "The Inevitability of Chinese Military Purges", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Cape", headline: "Google introduces a new way for users to sideload Android apps that still protects against scams", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Asylon Robotics", headline: "ChatGPT's 'Adult Mode' Could Spark a New Era of Intimate Surveillance", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Galvanick", headline: "CISA urges companies to secure Microsoft Intune systems after hackers mass-wipe Stryker devices", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "PILGRIM", headline: "TechCrunch'Startup Battlefield 200 nominations'are still'open", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Ample", headline: "Business Provides Over 50 EV Chargers Onsite For Employees", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Aurora Innovation", headline: "Rivian sacrifices 2027 profit goal to push deeper into autonomy", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Matic Robotics", headline: "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "Aurora Innovation", headline: "Feds intensify investigation into Tesla's Full Self-Driving (Supervised) software", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Daylight Computer", headline: "The Download: Quantum computing for health, and why the world doesn't recycle more nuclear waste", source: "MIT Tech Review", time: "4h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Rivian", headline: "Uber taps Rivian to build robotaxis in deal worth up to $1.25B", source: "TechCrunch", time: "5h ago", impact: "medium", unread: false },
+  { id: 11, type: "hire", company: "Atmo", headline: "Soundcore Nebula X1 Pro Dolby Atmos Projector Review: Big, Brilliant", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Hadrian", headline: "Capacity gap for 9 specialized components gnarls space supply chain: Study", source: "Breaking Defense", time: "5h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Aepnus Technology", headline: "Inside a $1.1B deal to reshore critical minerals refining", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Daylight Computer", headline: "Can quantum computers now solve health care problems? We'll soon find out.", source: "MIT Tech Review", time: "6h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Salient Motion", headline: "Overcoming Core Engineering Barriers in Humanoid Robotics Development", source: "IEEE Spectrum", time: "7h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
