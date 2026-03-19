@@ -21278,23 +21278,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-19 08:53
+// Last updated: 2026-03-19 13:22
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Epirus", headline: "Countering Drones and the Pace of Modern War", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "OpenAI", headline: "Multiverse Computing pushes its compressed AI models into the mainstream", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "SHIELD Technology Partners", headline: "The Inevitability of Chinese Military Purges", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Starship V3 Initiated a Ten Engine Static Fire", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Palantir", headline: "Two Palantir veterans just came out of stealth with $30 million and a Sequoia stamp of approval", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "NVIDIA ROBOTAXI READY? IS TESLA DOOMED", source: "Next Big Future", time: "2h ago", impact: "medium", unread: false },
-  { id: 7, type: "funding", company: "Xtend", headline: "Groups Take Trump Administration to Court Over Illegal Craig Coal Plant Extension", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Fervo Energy", headline: "Sierra Club Statement on Western Arctic Oil &#038; Gas Lease Sale", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Andrenam", headline: "Hydrogen Paste Meets Reality: Energy In, Energy Out, And What's Missing", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Cape", headline: "Ukraine war undermining Russia's Arctic plans, US intelligence says", source: "Defense News", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Atomic Industries", headline: "Lockheed tests upgraded Precision Strike Missile designed to strike ships", source: "Defense News", time: "9h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins $190 million Pentagon deal for hypersonic test flights", source: "SpaceNews", time: "10h ago", impact: "medium", unread: false },
-  { id: 13, type: "ipo", company: "Together AI", headline: "Space Command classified wargame to include 25 commercial players", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "OpenAI Sam Altman Lies and Deceives Business Partners", source: "Next Big Future", time: "13h ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping Deal", source: "Wired", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Matic Robotics", headline: "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Aurora Innovation", headline: "Feds intensify investigation into Tesla's Full Self-Driving (Supervised) software", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Daylight Computer", headline: "The Download: Quantum computing for health, and why the world doesn't recycle more nuclear waste", source: "MIT Tech Review", time: "1h ago", impact: "medium", unread: true },
+  { id: 4, type: "news", company: "Rivian", headline: "Uber taps Rivian to build robotaxis in deal worth up to $1.25B", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 5, type: "contract", company: "Astranis", headline: "ReOrbit sells two small GEO satellites to SLI", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "Atmo", headline: "Soundcore Nebula X1 Pro Dolby Atmos Projector Review: Big, Brilliant", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Hadrian", headline: "Capacity gap for 9 specialized components gnarls space supply chain: Study", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Aepnus Technology", headline: "Inside a $1.1B deal to reshore critical minerals refining", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Daylight Computer", headline: "A $5 million prize awaits proof that quantum computers can solve health care problems", source: "MIT Tech Review", time: "2h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Salient Motion", headline: "Overcoming Core Engineering Barriers in Humanoid Robotics Development", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "OpenAI", headline: "The Fight to Hold AI Companies Accountable for Children's Deaths", source: "Wired", time: "3h ago", impact: "medium", unread: false },
+  { id: 12, type: "news", company: "Deep Isolation", headline: "Why the world doesn't recycle more nuclear waste", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Epirus", headline: "Countering Drones and the Pace of Modern War", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "OpenAI", headline: "Multiverse Computing pushes its compressed AI models into the mainstream", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "SHIELD Technology Partners", headline: "The Inevitability of Chinese Military Purges", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
