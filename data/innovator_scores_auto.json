@@ -108,6 +108,18 @@
     "note": "MIT-spinout demonstrated record HTS magnets; SPARC tokamak under construction; strongest physics basis among fusion startups with $2B+ raised"
   },
   {
+    "company": "Marathon Fusion",
+    "techMoat": 9,
+    "momentum": 7,
+    "teamPedigree": 8,
+    "marketGravity": 9,
+    "capitalEfficiency": 6,
+    "govTraction": 7,
+    "composite": 79.5,
+    "tier": "strong",
+    "note": "Critical fusion fuel cycle tech; signed LOIs with CFS and Helion; $10.9M seed + DOE ARPA-E grants; ex-SpaceX propulsion engineer CTO; only 20kg tritium exists worldwide"
+  },
+  {
     "company": "Cerebras",
     "techMoat": 9,
     "momentum": 8,
@@ -142,6 +154,18 @@
     "composite": 78.0,
     "tier": "strong",
     "note": "Only operational US small-launch competitor to SpaceX; Neutron medium-lift vehicle in development; growing Space Systems division with Electron achieving high cadence"
+  },
+  {
+    "company": "Blues",
+    "techMoat": 8,
+    "momentum": 8,
+    "teamPedigree": 10,
+    "marketGravity": 8,
+    "capitalEfficiency": 7,
+    "govTraction": 3,
+    "composite": 77.5,
+    "tier": "strong",
+    "note": "Founded by Ray Ozzie (ex-Microsoft Chief Software Architect); $98M raised from Sequoia and Bill Gates; plug-and-play cellular IoT Notecards operating in 130+ countries"
   },
   {
     "company": "Shield AI",
@@ -468,6 +492,18 @@
     "note": "Small GEO broadband satellites targeting underserved markets; novel MicroGEO architecture but first satellite had power issues; scaling with batch production"
   },
   {
+    "company": "Cascade Space",
+    "techMoat": 7,
+    "momentum": 6,
+    "teamPedigree": 8,
+    "marketGravity": 8,
+    "capitalEfficiency": 6,
+    "govTraction": 5,
+    "composite": 66.5,
+    "tier": "promising",
+    "note": "YC S25 batch; ex-SpaceX Crew Dragon comms lead; addressing 40% oversubscription of NASA Deep Space Network; $5.9M seed from strong syndicate"
+  },
+  {
     "company": "Vast",
     "techMoat": 7,
     "momentum": 7,
@@ -514,6 +550,18 @@
     "composite": 64.5,
     "tier": "promising",
     "note": "Portable microreactor for remote power using HALEU fuel; ex-SpaceX team; DoD forward operating base use case but NRC licensing is multi-year bottleneck"
+  },
+  {
+    "company": "Occam",
+    "techMoat": 8,
+    "momentum": 6,
+    "teamPedigree": 8,
+    "marketGravity": 7,
+    "capitalEfficiency": 6,
+    "govTraction": 2,
+    "composite": 64.5,
+    "tier": "promising",
+    "note": "World's smallest brain-sensing wearable using dry EEG nanosensors; $14M seed; team from Oxford, Cambridge with hires from Oura and Kernel"
   },
   {
     "company": "Firefly Aerospace",
@@ -612,6 +660,18 @@
     "note": "AI-powered wildfire detection using camera networks and satellite imagery; growing utility and government customer base but small market and long sales cycles"
   },
   {
+    "company": "OBSIDIA Semiconductor",
+    "techMoat": 7,
+    "momentum": 4,
+    "teamPedigree": 8,
+    "marketGravity": 8,
+    "capitalEfficiency": 5,
+    "govTraction": 5,
+    "composite": 60.5,
+    "tier": "promising",
+    "note": "Ex-GlobalFoundries and PsiQuantum founders tackling semiconductor supply chain security with RF verification tech; strong defense/national security relevance"
+  },
+  {
     "company": "Relativity Space",
     "techMoat": 7,
     "momentum": 5,
@@ -696,6 +756,18 @@
     "note": "Strong technology moat; Large addressable market. Composite: 56/100."
   },
   {
+    "company": "Green Abundance",
+    "techMoat": 7,
+    "momentum": 3,
+    "teamPedigree": 9,
+    "marketGravity": 7,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 55.5,
+    "tier": "early",
+    "note": "Founded by ex-Impossible Foods chief scientist; engineering plants as biofactories for novel materials; very early stage but exceptional founder pedigree"
+  },
+  {
     "company": "Andrenam",
     "techMoat": 8,
     "momentum": 4,
@@ -718,6 +790,30 @@
     "composite": 54.5,
     "tier": "early",
     "note": "Ocean floor mapping and mining robotics; niche but critical application for subsea infrastructure with growing blue economy tailwind"
+  },
+  {
+    "company": "Los Angeles Project",
+    "techMoat": 8,
+    "momentum": 4,
+    "teamPedigree": 7,
+    "marketGravity": 6,
+    "capitalEfficiency": 5,
+    "govTraction": 1,
+    "composite": 53.5,
+    "tier": "early",
+    "note": "Automated CRISPR embryo editing platform from notable biohacker Josie Zayner; consumer biotech with novel animal engineering focus"
+  },
+  {
+    "company": "GenFab Co",
+    "techMoat": 8,
+    "momentum": 3,
+    "teamPedigree": 6,
+    "marketGravity": 7,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 53.5,
+    "tier": "early",
+    "note": "Self-reproducing manufacturing systems \u2014 the von Neumann constructor for industrial production; ambitious but very early stage"
   },
   {
     "company": "Vannevar Labs",
@@ -778,6 +874,18 @@
     "composite": 49.5,
     "tier": "early",
     "note": "Strong technology moat. Composite: 50/100."
+  },
+  {
+    "company": "Tideway Logistics",
+    "techMoat": 5,
+    "momentum": 4,
+    "teamPedigree": 6,
+    "marketGravity": 8,
+    "capitalEfficiency": 5,
+    "govTraction": 1,
+    "composite": 48.0,
+    "tier": "early",
+    "note": "AI-powered 3PL combining software and warehouse robotics; very early stage but addressing massive logistics automation market"
   },
   {
     "company": "Impulse Space",
@@ -1006,6 +1114,18 @@
     "composite": 42.5,
     "tier": "early",
     "note": "Large addressable market. Composite: 42/100."
+  },
+  {
+    "company": "Blitzpanel",
+    "techMoat": 5,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 7,
+    "capitalEfficiency": 5,
+    "govTraction": 1,
+    "composite": 42.5,
+    "tier": "early",
+    "note": "JLCPCB-style platform for industrial control panels; browser-based design with automated UL-certified manufacturing; pre-seed stage"
   },
   {
     "company": "Nominal",
@@ -5789,7 +5909,7 @@
     "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 4,
-    "capitalEfficiency": 3.5,
+    "capitalEfficiency": 3,
     "govTraction": 2,
     "composite": 34.0,
     "tier": "early",
@@ -7846,125 +7966,5 @@
     "composite": 29.5,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Blues",
-    "techMoat": 8,
-    "momentum": 8,
-    "teamPedigree": 10,
-    "marketGravity": 8,
-    "capitalEfficiency": 7,
-    "govTraction": 3,
-    "composite": 77.5,
-    "tier": "strong",
-    "note": "Founded by Ray Ozzie (ex-Microsoft Chief Software Architect); $98M raised from Sequoia and Bill Gates; plug-and-play cellular IoT Notecards operating in 130+ countries"
-  },
-  {
-    "company": "OBSIDIA Semiconductor",
-    "techMoat": 7,
-    "momentum": 4,
-    "teamPedigree": 8,
-    "marketGravity": 8,
-    "capitalEfficiency": 5,
-    "govTraction": 5,
-    "composite": 60.5,
-    "tier": "promising",
-    "note": "Ex-GlobalFoundries and PsiQuantum founders tackling semiconductor supply chain security with RF verification tech; strong defense/national security relevance"
-  },
-  {
-    "company": "Green Abundance",
-    "techMoat": 7,
-    "momentum": 3,
-    "teamPedigree": 9,
-    "marketGravity": 7,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 55.5,
-    "tier": "early",
-    "note": "Founded by ex-Impossible Foods chief scientist; engineering plants as biofactories for novel materials; very early stage but exceptional founder pedigree"
-  },
-  {
-    "company": "Cascade Space",
-    "techMoat": 7,
-    "momentum": 6,
-    "teamPedigree": 8,
-    "marketGravity": 8,
-    "capitalEfficiency": 6,
-    "govTraction": 5,
-    "composite": 66.5,
-    "tier": "promising",
-    "note": "YC S25 batch; ex-SpaceX Crew Dragon comms lead; addressing 40% oversubscription of NASA Deep Space Network; $5.9M seed from strong syndicate"
-  },
-  {
-    "company": "Los Angeles Project",
-    "techMoat": 8,
-    "momentum": 4,
-    "teamPedigree": 7,
-    "marketGravity": 6,
-    "capitalEfficiency": 5,
-    "govTraction": 1,
-    "composite": 53.5,
-    "tier": "early",
-    "note": "Automated CRISPR embryo editing platform from notable biohacker Josie Zayner; consumer biotech with novel animal engineering focus"
-  },
-  {
-    "company": "Tideway Logistics",
-    "techMoat": 5,
-    "momentum": 4,
-    "teamPedigree": 6,
-    "marketGravity": 8,
-    "capitalEfficiency": 5,
-    "govTraction": 1,
-    "composite": 48.0,
-    "tier": "early",
-    "note": "AI-powered 3PL combining software and warehouse robotics; very early stage but addressing massive logistics automation market"
-  },
-  {
-    "company": "Marathon Fusion",
-    "techMoat": 9,
-    "momentum": 7,
-    "teamPedigree": 8,
-    "marketGravity": 9,
-    "capitalEfficiency": 6,
-    "govTraction": 7,
-    "composite": 79.5,
-    "tier": "strong",
-    "note": "Critical fusion fuel cycle tech; signed LOIs with CFS and Helion; $10.9M seed + DOE ARPA-E grants; ex-SpaceX propulsion engineer CTO; only 20kg tritium exists worldwide"
-  },
-  {
-    "company": "GenFab Co",
-    "techMoat": 8,
-    "momentum": 3,
-    "teamPedigree": 6,
-    "marketGravity": 7,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 53.5,
-    "tier": "early",
-    "note": "Self-reproducing manufacturing systems — the von Neumann constructor for industrial production; ambitious but very early stage"
-  },
-  {
-    "company": "Occam",
-    "techMoat": 8,
-    "momentum": 6,
-    "teamPedigree": 8,
-    "marketGravity": 7,
-    "capitalEfficiency": 6,
-    "govTraction": 2,
-    "composite": 64.5,
-    "tier": "promising",
-    "note": "World's smallest brain-sensing wearable using dry EEG nanosensors; $14M seed; team from Oxford, Cambridge with hires from Oura and Kernel"
-  },
-  {
-    "company": "Blitzpanel",
-    "techMoat": 5,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 7,
-    "capitalEfficiency": 5,
-    "govTraction": 1,
-    "composite": 42.5,
-    "tier": "early",
-    "note": "JLCPCB-style platform for industrial control panels; browser-based design with automated UL-certified manufacturing; pre-seed stage"
   }
 ]

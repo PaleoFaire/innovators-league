@@ -667,8 +667,8 @@
   },
   {
     "company": "Watershed",
-    "totalRaised": "$70M+",
-    "totalRaisedRaw": 70.0,
+    "totalRaised": "$82M+",
+    "totalRaisedRaw": 82.0,
     "lastRound": "Series A",
     "lastRoundAmount": "$30M",
     "lastRoundDate": "2026-03",
@@ -677,7 +677,7 @@
       "a16z",
       "Undisclosed"
     ],
-    "roundCount": 2
+    "roundCount": 3
   },
   {
     "company": "AiDash",
@@ -780,6 +780,19 @@
     "valuation": "",
     "leadInvestors": [
       "Accel"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Matic Robotics",
+    "totalRaised": "$16M+",
+    "totalRaisedRaw": 16.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$16M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },

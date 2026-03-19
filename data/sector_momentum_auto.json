@@ -1,82 +1,82 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 75,
+    "momentum": 72,
     "trend": "accelerating",
     "catalysts": [
-      "Justice Department Says Anthropic Can\u2019t Be Trusted With Warf",
-      "The Pentagon is planning for AI companies to train on classi",
-      "The Pentagon is developing alternatives to Anthropic, report"
+      "Two Palantir veterans just came out of stealth with $30 mill",
+      "Ukraine war undermining Russia\u2019s Arctic plans, US intelligen",
+      "Patreon CEO calls AI companies&#8217; fair use argument &#82"
     ],
     "fundingQ": "$66.9B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 76
+      "market": 58
     },
-    "lastUpdated": "2026-03-18"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 66,
-    "trend": "accelerating",
-    "catalysts": [
-      "Op-Ed: What China Did Right\u2014And What India Is Doing Differen",
-      "US Navy taps Gecko Robotics to help remedy maintenance heada",
-      "Dyson\u2019s New PencilWash Is Here"
-    ],
-    "fundingQ": "$17.7B",
-    "components": {
-      "funding": 100,
-      "news": 85,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-03-19"
   },
   {
     "sector": "AI & Software",
-    "momentum": 65,
+    "momentum": 64,
     "trend": "accelerating",
     "catalysts": [
-      "Justice Department Says Anthropic Can\u2019t Be Trusted With Warf",
-      "The Pentagon is planning for AI companies to train on classi",
-      "Mistral bets on \u2018build-your-own AI\u2019 as it takes on OpenAI, A"
+      "OpenAI Sam Altman Lies and Deceives Business Partners",
+      "Why Walmart and OpenAI Are Shaking Up Their Agentic Shopping",
+      "Pentagon CTO \u2018pretty confident\u2019 about life after Anthropic"
     ],
     "fundingQ": "$360.0B",
     "components": {
       "funding": 100,
-      "news": 80,
+      "news": 75,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-03-19"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 62,
+    "trend": "accelerating",
+    "catalysts": [
+      "NVIDIA ROBOTAXI READY? IS TESLA DOOMED",
+      "Op-Ed: What China Did Right\u2014And What India Is Doing Differen",
+      "US Navy taps Gecko Robotics to help remedy maintenance heada"
+    ],
+    "fundingQ": "$17.7B",
+    "components": {
+      "funding": 100,
+      "news": 70,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-19"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 50,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "Scandlines Races To Fully Electrify Ferry Services As Fehmar"
     ],
     "fundingQ": "$900.0B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-03-19"
   },
   {
     "sector": "Ocean & Maritime",
     "momentum": 50,
     "trend": "steady",
     "catalysts": [
+      "Hydrogen Paste Meets Reality: Energy In, Energy Out, And Wha",
       "Hydrogen at Sea Just Got Even More Expensive: What DNV\u2019s Saf",
-      "Greece Risks Becoming Trump\u2019s Trojan Horse in the Fight to D",
-      "Iran conflict shines a light on UK\u2019s \u2018stretched\u2019 naval capab"
+      "Greece Risks Becoming Trump\u2019s Trojan Horse in the Fight to D"
     ],
     "fundingQ": "$1.2B",
     "components": {
@@ -85,47 +85,116 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-03-19"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 42,
+    "momentum": 27,
     "trend": "rising",
     "catalysts": [
-      "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data G",
-      "Meet Vurt, the mobile-first streaming platform for indie fil",
-      "Oura enters India&#8217;s smart ring market with the Ring 4"
+      "SpaceX Starship V3 Initiated a Ten Engine Static Fire",
+      "All Organic Building Blocks of Life Likely Form Naturally in",
+      "Scandlines Races To Fully Electrify Ferry Services As Fehmar"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
-      "news": 75,
+      "news": 65,
       "hiring": 0,
-      "market": 100
+      "market": 38
     },
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-03-19"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 26,
+    "trend": "rising",
+    "catalysts": [
+      "NVIDIA ROBOTAXI READY? IS TESLA DOOMED"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 65,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-19"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 28,
+    "momentum": 26,
     "trend": "rising",
     "catalysts": [
-      "Mistral bets on \u2018build-your-own AI\u2019 as it takes on OpenAI, A",
-      "Apple rolls out first &#8216;background security&#8217; upda",
+      "SpaceX Starship V3 Initiated a Ten Engine Static Fire",
+      "Two Palantir veterans just came out of stealth with $30 mill",
+      "Federal cyber experts called Microsoft&#039;s cloud a &quot;"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 65,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-19"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 20,
+    "trend": "rising",
+    "catalysts": [
+      "Hydrogen Paste Meets Reality: Energy In, Energy Out, And Wha",
+      "The Baltic Whale Enters Battery-Electric Freight Service On",
+      "Hydrogen at Sea Just Got Even More Expensive: What DNV\u2019s Saf"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 55,
+      "hiring": 0,
+      "market": 29
+    },
+    "lastUpdated": "2026-03-19"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Op-Ed: What China Did Right\u2014And What India Is Doing Differen",
       "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage S"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 70,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-03-19"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 17,
+    "trend": "declining",
+    "catalysts": [
+      "NVIDIA ROBOTAXI READY? IS TESLA DOOMED",
+      "Nvidia Structured Data is the Ground Truth of AI &#8211; $12",
+      "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data G"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 40,
+      "hiring": 0,
+      "market": 36
+    },
+    "lastUpdated": "2026-03-19"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 27,
+    "momentum": 17,
     "trend": "rising",
     "catalysts": [
       "The Pentagon is planning for AI companies to train on classi",
@@ -135,121 +204,15 @@
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 60,
+      "news": 55,
       "hiring": 0,
-      "market": 46
+      "market": 0
     },
-    "lastUpdated": "2026-03-18"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 26,
-    "trend": "rising",
-    "catalysts": [
-      "Hyundai Motor, Kia, &#038; NVIDIA Expand Strategic Partnersh",
-      "Tesla\u2019s Cybertruck may be wrong for some. Could it be right",
-      "Anduril secures $87M contract for a common counter-unmanned"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 65,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-18"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 25,
-    "trend": "declining",
-    "catalysts": [
-      "Hydrogen at Sea Just Got Even More Expensive: What DNV\u2019s Saf",
-      "Europe Must Not Let Airlines Sabotage Clean Aviation Fuels",
-      "Greece Risks Becoming Trump\u2019s Trojan Horse in the Fight to D"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 45,
-      "hiring": 0,
-      "market": 70
-    },
-    "lastUpdated": "2026-03-18"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 23,
-    "trend": "declining",
-    "catalysts": [
-      "Nvidia Structured Data is the Ground Truth of AI &#8211; $12",
-      "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data G",
-      "Hyundai Motor, Kia, &#038; NVIDIA Expand Strategic Partnersh"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 40,
-      "hiring": 0,
-      "market": 65
-    },
-    "lastUpdated": "2026-03-18"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 18,
-    "trend": "declining",
-    "catalysts": [
-      "Op-Ed: What China Did Right\u2014And What India Is Doing Differen",
-      "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage S",
-      "Utilities Study How to Protect Grids From Rising Physical Th"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-18"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 13,
-    "trend": "declining",
-    "catalysts": [
-      "Active nuclear energy ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 60
-    },
-    "lastUpdated": "2026-03-18"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 13,
-    "trend": "declining",
-    "catalysts": [
-      "Op-Ed: What China Did Right\u2014And What India Is Doing Differen",
-      "Hyundai Motor, Kia, &#038; NVIDIA Expand Strategic Partnersh",
-      "Will the Next Disruptive Plane Be European?"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 15,
-      "hiring": 0,
-      "market": 36
-    },
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-03-19"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 11,
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
       "Active supersonic & hypersonic ecosystem"
@@ -257,11 +220,45 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-03-19"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 6,
+    "trend": "declining",
+    "catalysts": [
+      "NVIDIA ROBOTAXI READY? IS TESLA DOOMED",
+      "Op-Ed: What China Did Right\u2014And What India Is Doing Differen"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-03-19"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "The Download: The Pentagon&#8217;s new AI plans, and next-ge",
+      "What do new nuclear reactors mean for waste?"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-03-19"
   },
   {
     "sector": "Quantum Computing",
@@ -277,6 +274,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-18"
+    "lastUpdated": "2026-03-19"
   }
 ]
