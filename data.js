@@ -21278,23 +21278,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-20 02:42
+// Last updated: 2026-03-20 05:18
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Bronco AI", headline: "Diesel at $5: Clean Transport Advocates Call on Truck Manufacturers to Help U.S. Trucking Switch to Electric", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anduril Industries", headline: "High-speed combat drone production starts at new US Anduril plant in days", source: "Defense News", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Karman Industries", headline: "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI", source: "TechCrunch", time: "4h ago", impact: "high", unread: true },
-  { id: 4, type: "news", company: "Agility Robotics", headline: "Employees had to restrain a dancing humanoid robot after it went wild at a California restaurant", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Deterrence", headline: "US moves to approve more than $16 billion in air defense sales to Middle East", source: "Defense News", time: "5h ago", impact: "high", unread: true },
-  { id: 6, type: "ipo", company: "Mach Industries", headline: "NASA Shifts from Boeing and SLS Towards SpaceX for Moon Missions", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Labelbox", headline: "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anysphere", headline: "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Cape", headline: "Google introduces a new way for users to sideload Android apps that still protects against scams", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Asylon Robotics", headline: "ChatGPT's 'Adult Mode' Could Spark a New Era of Intimate Surveillance", source: "Wired", time: "10h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Galvanick", headline: "CISA urges companies to secure Microsoft Intune systems after hackers mass-wipe Stryker devices", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "PILGRIM", headline: "TechCrunch'Startup Battlefield 200 nominations'are still'open", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Ample", headline: "Business Provides Over 50 EV Chargers Onsite For Employees", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Aurora Innovation", headline: "Rivian sacrifices 2027 profit goal to push deeper into autonomy", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Matic Robotics", headline: "Consumer-focused privacy company Cloaked raises $375M as it expands to enterprise", source: "TechCrunch", time: "13h ago", impact: "medium", unread: false },
+  { id: 1, type: "contract", company: "Palantir", headline: "Pentagon leaders called Claude AI 'woke.' Tests show otherwise.", source: "Defense One", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Bronco AI", headline: "Diesel at $5: Clean Transport Advocates Call on Truck Manufacturers to Help U.S. Trucking Switch to Electric", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anduril Industries", headline: "High-speed combat drone production starts at new US Anduril plant in days", source: "Defense News", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Karman Industries", headline: "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI", source: "TechCrunch", time: "7h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Agility Robotics", headline: "Employees had to restrain a dancing humanoid robot after it went wild at a California restaurant", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Deterrence", headline: "US moves to approve more than $16 billion in air defense sales to Middle East", source: "Defense News", time: "8h ago", impact: "high", unread: false },
+  { id: 7, type: "ipo", company: "Mach Industries", headline: "NASA Shifts from Boeing and SLS Towards SpaceX for Moon Missions", source: "Next Big Future", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "Labelbox", headline: "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anysphere", headline: "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Cape", headline: "Google introduces a new way for users to sideload Android apps that still protects against scams", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Asylon Robotics", headline: "ChatGPT's 'Adult Mode' Could Spark a New Era of Intimate Surveillance", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Galvanick", headline: "CISA urges companies to secure Microsoft Intune systems after hackers mass-wipe Stryker devices", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "PILGRIM", headline: "TechCrunch'Startup Battlefield 200 nominations'are still'open", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Ample", headline: "Business Provides Over 50 EV Chargers Onsite For Employees", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Aurora Innovation", headline: "Rivian sacrifices 2027 profit goal to push deeper into autonomy", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
