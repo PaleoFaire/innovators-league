@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -1.16,
+      "avg_change": -0.96,
       "count": 7
     },
     "nuclear": {
@@ -79,9 +79,9 @@
       7.97
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      7.2
+      "IDEAFORGE.NS",
+      "ideaForge",
+      7.58
     ]
   ],
   "topLosers": [
@@ -101,15 +101,15 @@
       -9.7
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -10.79
-    ],
-    [
       "NNE",
       "Nano Nuclear Energy",
       -11.46
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      -12.25
     ]
   ],
-  "lastUpdated": "2026-03-20 02:28:26"
+  "lastUpdated": "2026-03-20 07:01:52"
 }
