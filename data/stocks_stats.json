@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 1.42,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -0.79,
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 5.57,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 8.93,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -1.12,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": -1.96,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -5.91,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -7.88,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 54.31,
+      "avg_change": 35.54,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.74,
+      "avg_change": -9.61,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.85,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -3.09,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.82,
+      "avg_change": -2.9,
       "count": 2
     },
     "chips": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.18,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.61,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "LNZA",
       "LanzaTech",
-      164.33
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      9.33
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      8.04
+      113.65
     ],
     [
       "PL",
       "Planet Labs",
-      7.97
+      34.59
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      7.2
+      "SATL",
+      "Satellogic",
+      24.61
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      6.48
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      5.16
     ]
   ],
   "topLosers": [
     [
-      "RGTI",
-      "Rigetti Computing",
-      -4.11
-    ],
-    [
       "OKLO",
       "Oklo",
-      -8.22
+      -9.03
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -9.7
+      "RGTI",
+      "Rigetti Computing",
+      -9.83
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -11.46
+      -10.25
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       -12.25
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -12.45
     ]
   ],
-  "lastUpdated": "2026-03-20 13:08:05"
+  "lastUpdated": "2026-03-20 18:56:16"
 }
