@@ -22125,23 +22125,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-20 13:15
+// Last updated: 2026-03-20 16:54
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Holistic space observation: the shift from SSA to SDA", source: "SpaceNews", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "ESA to fly dedicated Crew Dragon mission to ISS", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Crusoe Energy", headline: "The best AI investment might be in energy tech", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI is throwing everything into building a fully automated researcher", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Neuralink", headline: "China Approves the First Brain Chips for Sale'and Has a Plan to Dominate the Industry", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Together AI", headline: "The Most Active Startup Acquirers Of The Past 3 Years Aren't Always Who You'd Expect", source: "Crunchbase News", time: "2h ago", impact: "high", unread: false },
-  { id: 7, type: "contract", company: "Palantir", headline: "Pentagon leaders called Claude AI 'woke.' Tests show otherwise.", source: "Defense One", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Bronco AI", headline: "Diesel at $5: Clean Transport Advocates Call on Truck Manufacturers to Help U.S. Trucking Switch to Electric", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anduril Industries", headline: "High-speed combat drone production starts at new US Anduril plant in days", source: "Defense News", time: "13h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Blue Origin", headline: "Blue Origin joins the orbital data center race", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Karman Industries", headline: "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI", source: "TechCrunch", time: "15h ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Agility Robotics", headline: "Employees had to restrain a dancing humanoid robot after it went wild at a California restaurant", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Deterrence", headline: "US moves to approve more than $16 billion in air defense sales to Middle East", source: "Defense News", time: "16h ago", impact: "high", unread: false },
-  { id: 14, type: "ipo", company: "Mach Industries", headline: "NASA Shifts from Boeing and SLS Towards SpaceX for Moon Missions", source: "Next Big Future", time: "17h ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Labelbox", headline: "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Blue Origin", headline: "Jeff Bezos' Blue Origin enters the space data center game", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Waymo", headline: "Uber Now Ordering Robotaxis from &#8230; Rivian?", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Palantir", headline: "U.S. accuses Iran's government of operating hacktivist group that hacked Stryker", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "Durin", headline: "Israel's Elbit reveals military contract to put high-powered laser weapon on aircraft", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "At Palantir's Developer Conference, AI Is Built to Win Wars", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Ample", headline: "Six EV Chargers That Offer Free Charging In North Carolina", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "The Download: OpenAI is building a fully automated researcher, and a psychedelic trial blind spot", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Crusoe Energy", headline: "The best AI investment might be in energy tech", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI is throwing everything into building a fully automated researcher", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Neuralink", headline: "China Approves the First Brain Chips for Sale'and Has a Plan to Dominate the Industry", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Together AI", headline: "The Most Active Startup Acquirers Of The Past 3 Years Aren't Always Who You'd Expect", source: "Crunchbase News", time: "5h ago", impact: "high", unread: false },
+  { id: 12, type: "contract", company: "Palantir", headline: "Pentagon leaders called Claude AI 'woke.' Tests show otherwise.", source: "Defense One", time: "13h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Bronco AI", headline: "Diesel at $5: Clean Transport Advocates Call on Truck Manufacturers to Help U.S. Trucking Switch to Electric", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anduril Industries", headline: "High-speed combat drone production starts at new US Anduril plant in days", source: "Defense News", time: "17h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Karman Industries", headline: "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI", source: "TechCrunch", time: "18h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

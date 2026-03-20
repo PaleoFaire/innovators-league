@@ -1,51 +1,156 @@
 [
   {
-    "title": "Holistic space observation: the shift from SSA to SDA",
-    "link": "https://spacenews.com/holistic-space-observation-the-shift-from-ssa-to-sda/",
-    "description": "\nRecent reporting on SpaceX’s proposal to deploy up to one million satellites in low Earth orbit — paired with a vision of AI-enabled, autonomous orbital infrastructure — marks a decisive moment for the space community. Regardless of whether these numbers ultimately materialize, the direction is unm",
-    "pubDate": "Fri, 20 Mar 2026 13:00:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
+    "title": "Jeff Bezos&#8217; Blue Origin enters the space data center game",
+    "link": "https://techcrunch.com/2026/03/20/jeff-bezos-blue-origin-enters-the-space-data-center-game/",
+    "description": "\"Project Sunrise\" would include more than 50,000 satellites performing high-energy compute on orbit.",
+    "pubDate": "Fri, 20 Mar 2026 16:27:43 +0000",
+    "category": "Space",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Blue Origin",
     "matchedCompanies": [
-      "SpaceX"
+      "Blue Origin",
+      "Astera Labs",
+      "Rebellions"
     ],
     "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "medium",
-    "time": "Just now"
-  },
-  {
-    "title": "ESA to fly dedicated Crew Dragon mission to ISS",
-    "link": "https://spacenews.com/esa-to-fly-dedicated-crew-dragon-mission-to-iss/",
-    "description": "\nThe European Space Agency plans to charter a SpaceX Crew Dragon mission to the International Space Station to give more flight opportunities for its astronauts.\nThe post ESA to fly dedicated Crew Dragon mission to ISS appeared first on SpaceNews.",
-    "pubDate": "Fri, 20 Mar 2026 12:18:38 +0000",
-    "category": "Civil",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Vast",
-      "Axiom Space",
-      "PLD Space"
-    ],
-    "sectors": [
-      "space"
+      "space",
+      "chips"
     ],
     "type": "ipo",
     "impact": "low",
     "time": "Just now"
   },
   {
+    "title": "Uber Now Ordering Robotaxis from &#8230; Rivian?",
+    "link": "https://cleantechnica.com/2026/03/20/uber-now-ordering-robotaxis-from-rivian/",
+    "description": "As I wrote recently, it seems that Uber is trying to partner with every robotaxi company under the sun. Apparently, that even includes Rivian now. Let&#8217;s be honest — we have written a lot about how Tesla is nearly a decade behind on its robotaxi plans, nearly a decade, but   ... [continued]\nThe",
+    "pubDate": "Fri, 20 Mar 2026 16:24:39 +0000",
+    "category": "Autonomous Vehicles",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox",
+      "Rivian"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "U.S. accuses Iran&#8217;s government of operating hacktivist group that hacked Stryker",
+    "link": "https://techcrunch.com/2026/03/20/u-s-accuses-irans-government-of-operating-hacktivist-group-that-hacked-stryker/",
+    "description": "The U.S. Justice Department said an Iranian security ministry operates the fake activist persona known as Handala, which claimed responsibility for the destructive hack targeting medical tech giant Stryker.",
+    "pubDate": "Fri, 20 Mar 2026 16:18:57 +0000",
+    "category": "Security",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir",
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "ai",
+      "climate",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Israel&#8217;s Elbit reveals military contract to put high-powered laser weapon on aircraft",
+    "link": "https://breakingdefense.com/2026/03/israels-elbit-reveals-military-contract-to-put-high-powered-laser-weapon-on-aircraft/",
+    "description": "CEO Bezhalel Machlis revealed the 2025 contract during an investor meeting, while acknowledging the challenges of putting such precise tech in the sky.",
+    "pubDate": "Fri, 20 Mar 2026 15:32:00 +0000",
+    "category": "Air Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Durin",
+    "matchedCompanies": [
+      "Durin"
+    ],
+    "sectors": [
+      "infrastructure"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "At Palantir’s Developer Conference, AI Is Built to Win Wars",
+    "link": "https://www.wired.com/story/palantir-developer-conference-ai-war-alex-karp/",
+    "description": "As business soars, Palantir is doubling down on a vision of AI built for battlefield advantage—and attracting customers who agree.",
+    "pubDate": "Fri, 20 Mar 2026 15:00:00 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir",
+      "PILGRIM"
+    ],
+    "sectors": [
+      "ai",
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Six EV Chargers That Offer Free Charging In North Carolina",
+    "link": "https://cleantechnica.com/2026/03/20/six-ev-chargers-that-offer-free-charging-in-north-carolina/",
+    "description": "Waynesville, NC, just had six new Level 2 EV chargers installed that also provide free charging. &#8220;Everything we do is in line with the town&#8217;s goal to reach carbon neutrality or net zero emissions by the year 2050 and so electric vehicles are part of that, solar on the public   ... [conti",
+    "pubDate": "Fri, 20 Mar 2026 14:14:41 +0000",
+    "category": "Clean Transport",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Ample",
+    "matchedCompanies": [
+      "Ample"
+    ],
+    "sectors": [
+      "infrastructure"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "The Download: OpenAI is building a fully automated researcher, and a psychedelic trial blind spot",
+    "link": "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/",
+    "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. OpenAI is throwing everything into building a fully automated researcher&#160; OpenAI has a new grand challenge: building an AI researcher—a fully aut",
+    "pubDate": "Fri, 20 Mar 2026 13:15:45 +0000",
+    "category": "The Download",
+    "source": "MIT Tech Review",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "The best AI investment might be in energy tech",
     "link": "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/",
     "description": "Power has become one of the biggest bottlenecks in rolling out new AI data centers. That's creating an opening for investors.",
     "pubDate": "Fri, 20 Mar 2026 12:00:00 +0000",
-    "category": "Climate",
+    "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "Crusoe Energy",
@@ -57,7 +162,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
     "title": "OpenAI is throwing everything into building a fully automated researcher",
@@ -76,7 +181,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
     "title": "China Approves the First Brain Chips for Sale—and Has a Plan to Dominate the Industry",
@@ -95,7 +200,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "The Most Active Startup Acquirers Of The Past 3 Years Aren’t Always Who You’d Expect",
@@ -114,7 +219,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Pentagon leaders called Claude AI 'woke.' Tests show otherwise.",
@@ -134,7 +239,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "10h ago"
+    "time": "13h ago"
   },
   {
     "title": "Diesel at $5: Clean Transport Advocates Call on Truck Manufacturers to Help U.S. Trucking Switch to Electric",
@@ -154,7 +259,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "15h ago"
   },
   {
     "title": "High-speed combat drone production starts at new US Anduril plant in days",
@@ -173,29 +278,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
-  },
-  {
-    "title": "Blue Origin joins the orbital data center race",
-    "link": "https://spacenews.com/blue-origin-joins-the-orbital-data-center-race/",
-    "description": "\nBlue Origin is the latest company to propose an orbital data center system, filing plans for a constellation of up to 51,600 satellites.\nThe post Blue Origin joins the orbital data center race appeared first on SpaceNews.",
-    "pubDate": "Thu, 19 Mar 2026 23:30:09 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Blue Origin",
-    "matchedCompanies": [
-      "Blue Origin",
-      "Astera Labs",
-      "Rebellions"
-    ],
-    "sectors": [
-      "space",
-      "chips"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI",
@@ -220,7 +303,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "15h ago"
+    "time": "18h ago"
   },
   {
     "title": "Employees had to restrain a dancing humanoid robot after it went wild at a California restaurant",
@@ -241,7 +324,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "19h ago"
   },
   {
     "title": "US moves to approve more than $16 billion in air defense sales to Middle East",
@@ -261,7 +344,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "NASA Shifts from Boeing and SLS Towards SpaceX for Moon Missions",
@@ -284,7 +367,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "17h ago"
+    "time": "21h ago"
   },
   {
     "title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says",
@@ -303,28 +386,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "18h ago"
-  },
-  {
-    "title": "Register now: The energy imperative driving the push toward orbital data centers",
-    "link": "https://spacenews.com/the-energy-imperative-orbital-data-centers-virtual-event/",
-    "description": "\nJoin us on March 31 for a virtual event, sponsored by Star Catcher and in partnership with the Commercial Space Federation\nThe post Register now: The energy imperative driving the push toward orbital data centers appeared first on SpaceNews.",
-    "pubDate": "Thu, 19 Mar 2026 18:37:29 +0000",
-    "category": "Video",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Vast",
-    "matchedCompanies": [
-      "Vast",
-      "Axiom Space",
-      "Starcloud"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "medium",
-    "time": "18h ago"
+    "time": "21h ago"
   },
   {
     "title": "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze",
@@ -343,7 +405,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "22h ago"
   },
   {
     "title": "Google introduces a new way for users to sideload Android apps that still protects against scams",
@@ -365,7 +427,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "23h ago"
   },
   {
     "title": "ChatGPT’s ‘Adult Mode’ Could Spark a New Era of Intimate Surveillance",
@@ -387,49 +449,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
-  },
-  {
-    "title": "CISA urges companies to secure Microsoft Intune systems after hackers mass-wipe Stryker devices",
-    "link": "https://techcrunch.com/2026/03/19/cisa-urges-companies-to-secure-microsoft-intune-systems-after-hackers-mass-wipe-stryker-devices/",
-    "description": "The U.S. cybersecurity agency urged companies to prevent access to systems used for remotely managing their fleets of employee devices after hackers broke into a major U.S. medical tech giant and remotely wiped thousands of phones and computers.",
-    "pubDate": "Thu, 19 Mar 2026 15:08:31 +0000",
-    "category": "Government & Policy",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Galvanick",
-    "matchedCompanies": [
-      "Galvanick",
-      "Daylight Computer",
-      "Photonic Inc"
-    ],
-    "sectors": [
-      "defense",
-      "consumer",
-      "quantum"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "22h ago"
-  },
-  {
-    "title": "TechCrunch Startup Battlefield 200 nominations are still open",
-    "link": "https://techcrunch.com/2026/03/19/techcrunch-startup-battlefield-200-nominations-are-still-open/",
-    "description": "Nominate your startup, or one you know, for TechCrunch Startup Battlefield 200 before May 27. Chance to win $100,000 equity-free funding and VC access.",
-    "pubDate": "Thu, 19 Mar 2026 15:00:00 +0000",
-    "category": "Startups",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "PILGRIM",
-    "matchedCompanies": [
-      "PILGRIM"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Business Provides Over 50 EV Chargers Onsite For Employees",
@@ -448,28 +468,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
-  },
-  {
-    "title": "Rivian sacrifices 2027 profit goal to push deeper into autonomy",
-    "link": "https://techcrunch.com/2026/03/19/rivian-sacrifices-2027-profit-goal-to-push-deeper-into-autonomy/",
-    "description": "Rivian admitted in a regulatory filing that it is delaying its goal of reaching \"positive EBITDA\" next year because of how much it is spending on developing self-driving technology.",
-    "pubDate": "Thu, 19 Mar 2026 14:39:12 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Aurora Innovation",
-    "matchedCompanies": [
-      "Aurora Innovation",
-      "Rivian"
-    ],
-    "sectors": [
-      "autonomous",
-      "transportation"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "The Download: Quantum computing for health, and why the world doesn&#8217;t recycle more nuclear waste",
@@ -490,25 +489,6 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "1d ago"
-  },
-  {
-    "title": "ReOrbit sells two small GEO satellites to SLI",
-    "link": "https://spacenews.com/reorbit-sells-two-small-geo-satellites-to-sli/",
-    "description": "\nFinnish satellite manufacturer ReOrbit has signed a contract with asset-financing company SLI for two small geostationary orbit communications satellites.\nThe post ReOrbit sells two small GEO satellites to SLI appeared first on SpaceNews.",
-    "pubDate": "Thu, 19 Mar 2026 12:00:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Astranis",
-    "matchedCompanies": [
-      "Astranis"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "contract",
-    "impact": "low",
     "time": "1d ago"
   },
   {
@@ -819,44 +799,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Rocket Lab wins $190 million Pentagon deal for hypersonic test flights",
-    "link": "https://spacenews.com/rocket-lab-wins-190-million-pentagon-deal-for-hypersonic-test-flights/",
-    "description": "\nThe contract is for 20 hypersonic flight missions over four years\nThe post Rocket Lab wins $190 million Pentagon deal for hypersonic test flights appeared first on SpaceNews.",
-    "pubDate": "Wed, 18 Mar 2026 21:56:59 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Rocket Lab",
-    "matchedCompanies": [
-      "Rocket Lab"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "contract",
-    "impact": "medium",
-    "time": "1d ago"
-  },
-  {
-    "title": "Space Command classified wargame to include 50 commercial players",
-    "link": "https://spacenews.com/space-command-classified-wargame-to-include-25-commercial-players/",
-    "description": "\nMaj. Gen. Keener:  The exercise will help Space Command ‘better understand commercial challenges, requirements, and how we can better work together’\nThe post Space Command classified wargame to include 50 commercial players appeared first on SpaceNews.",
-    "pubDate": "Wed, 18 Mar 2026 21:14:13 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Together AI",
-    "matchedCompanies": [
-      "Together AI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "OpenAI Sam Altman Lies and Deceives Business Partners",
     "link": "https://www.nextbigfuture.com/2026/03/openai-sam-altman-lies-and-deceives-business-partners.html",
     "description": "Microsoft is threatening to sue OpenAI over the February 2026 Amazon $50B investment and $100B cloud-expansion deal. Microsoft says the Frontier agent platform on AWS (stateful runtime) violates the Azure exclusivity for stateless OpenAI APIs that was in the original ~$13B Microsoft investment agree",
@@ -956,26 +898,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Pentagon CTO ‘pretty confident’ about life after Anthropic",
-    "link": "https://breakingdefense.com/2026/03/pentagon-cto-pretty-confident-about-life-after-anthropic/",
-    "description": "“We&#8217;ve already deployed OpenAI in the last few weeks, and we&#8217;re going to deploy the others here, [starting] with Gemini,&#8221; Undersecretary for Research and Engineering Emil Michael said.",
-    "pubDate": "Wed, 18 Mar 2026 16:30:00 +0000",
-    "category": "Networks & Digital Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "The Baltic Whale Enters Battery-Electric Freight Service On The Fehmarn Belt",
     "link": "https://cleantechnica.com/2026/03/18/the-baltic-whale-enters-battery-electric-freight-service-on-the-fehmarn-belt/",
     "description": "Scandlines has deployed a high-capacity battery-electric freight ferry on the Puttgarden–Rødby corridor, introducing scheduled service with zero direct emissions under normal operating conditions on the 18.5-kilometer Fehmarn Belt crossing. The Baltic Whale completed its first commercial rotation at",
@@ -993,7 +915,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Scandlines Races To Fully Electrify Ferry Services As Fehmarn Tunnel Stalls",
@@ -1012,7 +934,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "300,000 New EV Chargers Planned For Latin America",
@@ -1031,29 +953,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Solar array deal sheds more light on South Korea’s defense constellation",
-    "link": "https://spacenews.com/solar-array-deal-sheds-more-light-on-south-koreas-defense-constellation/",
-    "description": "\nSouth Korea’s plans for a national security constellation are coming into sharper focus after a March 18 solar array supply deal set the stage for a first demonstrator as early as the second half of 2027.\nThe post Solar array deal sheds more light on South Korea’s defense constellation appeared fir",
-    "pubDate": "Wed, 18 Mar 2026 14:57:51 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Cape",
-    "matchedCompanies": [
-      "Cape",
-      "Percepto",
-      "ideaForge"
-    ],
-    "sectors": [
-      "climate",
-      "autonomous"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The Download: The Pentagon&#8217;s new AI plans, and next-gen nuclear reactors",
@@ -1279,25 +1179,6 @@
     "time": "2d ago"
   },
   {
-    "title": "Telesat pivots Lightspeed toward defense as delays push global service to 2028",
-    "link": "https://spacenews.com/telesat-pivots-lightspeed-toward-defense-as-delays-push-global-service-to-2028/",
-    "description": "\nTelesat plans to carve out 25% of its Lightspeed broadband constellation for military Ka-band as the program’s latest delay pushes global service into early 2028, creating more room to align the design with shifting geopolitical priorities.\nThe post Telesat pivots Lightspeed toward defense as delay",
-    "pubDate": "Tue, 17 Mar 2026 21:22:08 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "AST SpaceMobile",
-    "matchedCompanies": [
-      "AST SpaceMobile"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
     "title": "Ebikes &#038; Bikes for Everything, + Much of What I’ve Learned Riding Bikes for 75 Years (Part I)",
     "link": "https://cleantechnica.com/2026/03/17/ebikes-bikes-for-everything-much-of-what-ive-learned-riding-bikes-for-75-years-part-i/",
     "description": "In Part II, I will discuss bike safety.Public transportation is heavily used in other countries and some large US cities. I begin by discussing how bikes can be used as last-mile transportation in conjunction with public transportation. However, to a large extent in the US, we jump into our cars   .",
@@ -1311,45 +1192,6 @@
     ],
     "sectors": [
       "autonomous"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Office of Space Commerce weighing options for TraCSS user fees",
-    "link": "https://spacenews.com/office-of-space-commerce-weighing-options-for-tracss-user-fees/",
-    "description": "\nThe Trump administration has not yet decided whether to charge for space safety data despite a change in space policy enabling the government to do so.\nThe post Office of Space Commerce weighing options for TraCSS user fees appeared first on SpaceNews.",
-    "pubDate": "Tue, 17 Mar 2026 20:48:46 +0000",
-    "category": "Civil",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Space boom strains supply chain, industry report warns",
-    "link": "https://spacenews.com/space-boom-strains-supply-chain-industry-report-warns/",
-    "description": "\nThe industry’s supply network, built for smaller volumes and slower production cycles, is struggling to keep pace.\nThe post Space boom strains supply chain, industry report warns appeared first on SpaceNews.",
-    "pubDate": "Tue, 17 Mar 2026 19:08:32 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Bronco AI",
-    "matchedCompanies": [
-      "Bronco AI",
-      "Fortastra"
-    ],
-    "sectors": [
-      "infrastructure"
     ],
     "type": "ipo",
     "impact": "low",
@@ -1415,29 +1257,6 @@
     "time": "2d ago"
   },
   {
-    "title": "ISPTech Raises €5.5M Seed Round to Redefine How Spacecraft Manoeuvre in Orbit",
-    "link": "https://spacenews.com/isptech-raises-e5-5m-seed-round-to-redefine-how-spacecraft-manoeuvre-in-orbit/",
-    "description": "\nStuttgart, Germany &#8211; Marc. 17, 2026 &#8211; ISPTech, a German space technology company developing propulsion systems for agile in-orbit maneuvering, announced it has raised €5.5 million in seed funding to [&#8230;]\nThe post ISPTech Raises €5.5M Seed Round to Redefine How Spacecraft Manoeuvre ",
-    "pubDate": "Tue, 17 Mar 2026 17:05:18 +0000",
-    "category": "Press Release",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Mach Industries",
-    "matchedCompanies": [
-      "Mach Industries",
-      "Firehawk Aerospace",
-      "Ursa Major Technologies",
-      "D-Orbit"
-    ],
-    "sectors": [
-      "defense",
-      "space"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "2d ago"
-  },
-  {
     "title": "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage Shine",
     "link": "https://cleantechnica.com/2026/03/17/as-fossil-fuel-costs-rise-renewable-energy-storage-shine/",
     "description": "Despite the sharp U-turn in federal energy policy, US states continue to push the renewable energy transition with energy storage incentives and virtual power plants as well as new wind, solar, and hydropower projects.\nThe post As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage Shine appeare",
@@ -1451,54 +1270,6 @@
     ],
     "sectors": [
       "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "484 New Electric Buses Funded By UK Government",
-    "link": "https://cleantechnica.com/2026/03/17/484-new-electric-buses-funded-by-uk-government/",
-    "description": "Electric buses may be one of the best uses of electrified mass transit, because they move large numbers of people each day they are in service. Their electric motors are more energy efficient than internal combustion engines and they have regenerative braking. They also don’t directly generate toxic",
-    "pubDate": "Tue, 17 Mar 2026 13:31:36 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Dilemmas About Food Systems In Times Of US Federal Government Mayhem",
-    "link": "https://cleantechnica.com/2026/03/17/dilemmas-about-food-systems-in-times-of-us-federal-government-mayhem/",
-    "description": "President Donald J. Trump is causing irreconcilable harm to the US environment. His administration is abandoning clean energy investments. Freezing climate, clean air, and clean water federal policies. Rejecting limits on PFAS in industrial wastewater. Eliminating consumer protections. Sabotaging ma",
-    "pubDate": "Tue, 17 Mar 2026 13:22:17 +0000",
-    "category": "Agriculture",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir",
-      "Karman Industries",
-      "Matic Robotics",
-      "Solugen",
-      "Gecko Robotics",
-      "Teralta",
-      "H2 Green Steel"
-    ],
-    "sectors": [
-      "ai",
-      "climate",
-      "consumer",
-      "robotics",
-      "infrastructure"
     ],
     "type": "news",
     "impact": "low",
@@ -1604,25 +1375,6 @@
     "time": "3d ago"
   },
   {
-    "title": "Tesla’s Cybertruck may be wrong for some. Could it be right for the battlefield?",
-    "link": "https://www.defensenews.com/opinion/2026/03/17/teslas-cybertruck-may-be-wrong-for-some-could-it-be-right-for-the-battlefield/",
-    "description": "The author of this op-ed discusses how the Tesla Cybertruck could offer a unique platform to carry anti-drone systems.",
-    "pubDate": "Tue, 17 Mar 2026 01:00:00 +0000",
-    "category": "Opinion",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "PILGRIM",
-    "matchedCompanies": [
-      "PILGRIM"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
     "title": "Anduril secures $87M contract for a common counter-unmanned C2 program",
     "link": "https://www.defenseone.com/business/2026/03/anduril-secures-87m-contract-common-counter-unmanned-c2-program/412156/",
     "description": "The agreement is part of a larger $20B license for the federal government to buy any Anduril product.",
@@ -1642,8 +1394,8 @@
     "time": "3d ago"
   },
   {
-    "title": "Utilities Study How to Protect Grids From Rising Physical Threats",
-    "link": "https://spectrum.ieee.org/power-grid-attack-gridex-drone",
+    "title": "Rising Attacks on Power Grids Push Utilities to Prepare",
+    "link": "https://spectrum.ieee.org/power-grid-attack-security-gridex",
     "description": "In the fictional nation of Beryllia, the 2026 World Chalice Games were set to begin as the country faced an unrelenting heat wave. The grid, already under strain from the circumstances, was dealt a further blow when a coordinated set of attacks including vandalism, drone, and ballistic attacks by an",
     "pubDate": "Mon, 16 Mar 2026 20:42:45 +0000",
     "category": "Power-grids",
@@ -1677,25 +1429,6 @@
       "consumer"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Where OpenAI’s technology could show up in Iran",
-    "link": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
-    "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. It&#8217;s been just over two weeks since OpenAI reached a controversial agreement to allow the Pentagon to use its AI in classified environments. There are still",
-    "pubDate": "Mon, 16 Mar 2026 17:06:21 +0000",
-    "category": "Artificial intelligence",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "contract",
     "impact": "low",
     "time": "3d ago"
   },
@@ -1767,7 +1500,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "3/13/2026"
   },
   {
     "title": "Waabi's Raquel Urtasun on Level-4 Autonomous Trucks",
