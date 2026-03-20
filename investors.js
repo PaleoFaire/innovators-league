@@ -980,7 +980,26 @@ function renderConvictionTracker() {
     'Khosla Ventures': 'Khosla',
     'Sequoia Capital': 'Sequoia',
     'General Catalyst': 'GC',
-    'Cantos Ventures': 'Cantos'
+    'Cantos Ventures': 'Cantos',
+    'Riot Ventures': 'Riot',
+    'Riot': 'Riot',
+    'Prime Movers Lab': 'Prime Movers',
+    'Prime Movers': 'Prime Movers',
+    'Valor Equity Partners': 'Valor',
+    'Valor Equity': 'Valor',
+    'Valor': 'Valor',
+    'Shield Capital': 'Shield Capital',
+    'Shield Capital Partners': 'Shield Capital',
+    'Harpoon Ventures': 'Harpoon',
+    'Harpoon': 'Harpoon',
+    'Bedrock Capital': 'Bedrock',
+    'Bedrock': 'Bedrock',
+    'Lowercarbon Capital': 'Lowercarbon',
+    'Lowercarbon': 'Lowercarbon',
+    'DCVC': 'DCVC',
+    'Data Collective': 'DCVC',
+    'Alumni Ventures': 'AV',
+    'AlumniVentures': 'AV'
   };
   Object.keys(aliases).forEach(function(k) { nameMap[k] = aliases[k]; });
 
@@ -1190,12 +1209,19 @@ function renderPortfolioXRay() {
     const concentrationLabel = concentration > 0.5 ? 'Concentrated' : (concentration > 0.25 ? 'Focused' : 'Diversified');
 
     // Follow-on conviction — did they invest in the same company multiple rounds?
+    // Use strict name matching to avoid false positives (e.g. "Light" matching "Lightspeed")
     const followOnMap = {};
+    const vcMatchNames = [vc.name.toLowerCase(), vc.shortName.toLowerCase()];
+    // Also add common variations (e.g. "Khosla Ventures" for shortName "Khosla")
+    if (vc.shortName && vc.name && vc.shortName !== vc.name) {
+      vcMatchNames.push(vc.shortName.toLowerCase() + ' ventures');
+      vcMatchNames.push(vc.shortName.toLowerCase() + ' capital');
+    }
     DEAL_TRACKER_DATA.forEach(deal => {
       if (!deal.investor) return;
-      const investorLower = deal.investor.toLowerCase();
-      const vcNames = [vc.name.toLowerCase(), vc.shortName.toLowerCase()];
-      if (vcNames.some(n => investorLower.includes(n) || n.includes(investorLower))) {
+      const investorLower = deal.investor.toLowerCase().trim();
+      // Require exact match or that deal investor starts with VC name (not substring)
+      if (vcMatchNames.some(n => investorLower === n || investorLower.startsWith(n + ' ') || n.startsWith(investorLower + ' ') || investorLower === n.split(' ')[0])) {
         followOnMap[deal.company] = (followOnMap[deal.company] || 0) + 1;
       }
     });
@@ -1220,9 +1246,11 @@ function renderPortfolioXRay() {
       .map(([name, count]) => ({ name, count }));
 
     // White space — sectors in VC_FIRMS sectorFocus but underrepresented in portfolio
-    const allSectors = ['Defense & Security', 'Space & Aerospace', 'Energy & Climate', 'AI & Software', 'Robotics & Manufacturing', 'Biotech & Health'];
+    // Dynamically build sector list from ALL VC_FIRMS sectorFocus entries (not hard-coded)
+    const allSectors = [...new Set(VC_FIRMS.flatMap(v => v.sectorFocus || []))];
     const whiteSpaces = allSectors.filter(sector => {
-      const inFocus = (vc.sectorFocus || []).some(s => s.toLowerCase().includes(sector.split(' ')[0].toLowerCase()));
+      const sectorLower = sector.toLowerCase();
+      const inFocus = (vc.sectorFocus || []).some(s => s.toLowerCase() === sectorLower);
       const portfolioCount = sectorMap[sector] || 0;
       return inFocus && portfolioCount <= 1;
     });
