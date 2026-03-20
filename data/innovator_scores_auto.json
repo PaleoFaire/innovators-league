@@ -60,6 +60,18 @@
     "note": "Claude models competitive at frontier; Constitutional AI and safety leadership; $60B+ valuation with Amazon/Google backing but massive capital requirements"
   },
   {
+    "company": "MatX",
+    "techMoat": 9,
+    "momentum": 10,
+    "teamPedigree": 10,
+    "marketGravity": 10,
+    "capitalEfficiency": 7,
+    "govTraction": 3,
+    "composite": 87.0,
+    "tier": "elite",
+    "note": "Custom LLM chips by ex-Google TPU engineers; $600M+ raised at multi-billion valuation; purpose-built silicon competing with Nvidia on transformer workloads"
+  },
+  {
     "company": "Scale AI",
     "techMoat": 8,
     "momentum": 9,
@@ -84,6 +96,42 @@
     "note": "Only L4 robotaxi operating commercially at scale across multiple US cities; 15+ years of data moat; Alphabet backing ensures longevity but massive cumulative investment"
   },
   {
+    "company": "Oxide Computer Company",
+    "techMoat": 9,
+    "momentum": 8,
+    "teamPedigree": 9,
+    "marketGravity": 9,
+    "capitalEfficiency": 6,
+    "govTraction": 7,
+    "composite": 82.5,
+    "tier": "leader",
+    "note": "Full-stack rack-scale cloud hardware; $340M raised; customers include Lawrence Livermore and Idaho National Labs; founded by Sun/Joyent veterans"
+  },
+  {
+    "company": "Chariot Defense",
+    "techMoat": 8,
+    "momentum": 9,
+    "teamPedigree": 9,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 8,
+    "composite": 81.0,
+    "tier": "leader",
+    "note": "Software-defined battlefield power replacing diesel generators; $41M raised; U.S. Army contracts and DIU Project GI; ex-Anduril founding team"
+  },
+  {
+    "company": "Amogy",
+    "techMoat": 9,
+    "momentum": 8,
+    "teamPedigree": 8,
+    "marketGravity": 10,
+    "capitalEfficiency": 6,
+    "govTraction": 5,
+    "composite": 80.5,
+    "tier": "leader",
+    "note": "Ammonia-to-power for maritime decarbonization; $300M raised; sailed world's first ammonia-powered vessel; backed by Amazon, Aramco, Samsung"
+  },
+  {
     "company": "Anysphere",
     "techMoat": 7,
     "momentum": 10,
@@ -96,6 +144,18 @@
     "note": "Cursor AI code editor hit $100M+ ARR at extraordinary speed; exceptional product velocity but moat depends on staying ahead of GitHub Copilot and foundation model providers"
   },
   {
+    "company": "Auradine",
+    "techMoat": 8,
+    "momentum": 9,
+    "teamPedigree": 9,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 3,
+    "composite": 80.0,
+    "tier": "leader",
+    "note": "3nm ASIC design for mining and AI networking; $300M+ raised; $200M+ order pipeline; board member Lip-Bu Tan became Intel CEO"
+  },
+  {
     "company": "Commonwealth Fusion Systems",
     "techMoat": 9,
     "momentum": 8,
@@ -106,6 +166,30 @@
     "composite": 79.5,
     "tier": "strong",
     "note": "MIT-spinout demonstrated record HTS magnets; SPARC tokamak under construction; strongest physics basis among fusion startups with $2B+ raised"
+  },
+  {
+    "company": "Marathon Fusion",
+    "techMoat": 9,
+    "momentum": 7,
+    "teamPedigree": 8,
+    "marketGravity": 9,
+    "capitalEfficiency": 6,
+    "govTraction": 7,
+    "composite": 79.5,
+    "tier": "strong",
+    "note": "Critical fusion fuel cycle tech; signed LOIs with CFS and Helion; $10.9M seed + DOE ARPA-E grants; ex-SpaceX propulsion engineer CTO; only 20kg tritium exists worldwide"
+  },
+  {
+    "company": "Aeon Industrial",
+    "techMoat": 8,
+    "momentum": 9,
+    "teamPedigree": 8,
+    "marketGravity": 10,
+    "capitalEfficiency": 7,
+    "govTraction": 7,
+    "composite": 79.5,
+    "tier": "leader",
+    "note": "Software-defined tactical missiles with vertically integrated manufacturing; $18.6M seed; production lines for 100 Zeus systems/month; live-fire Army testing complete"
   },
   {
     "company": "Cerebras",
@@ -132,6 +216,18 @@
     "note": "European AI champion with top-tier DeepMind/Meta alumni; open-weight models punch above their compute budget; strong EU sovereignty positioning"
   },
   {
+    "company": "Pickle Robot Company",
+    "techMoat": 8,
+    "momentum": 9,
+    "teamPedigree": 8,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 2,
+    "composite": 78.5,
+    "tier": "leader",
+    "note": "AI robotic arms for autonomous trailer unloading; $113M raised; $120M UPS order for 400 robots; 10M+ lbs of merchandise unloaded"
+  },
+  {
     "company": "Rocket Lab",
     "techMoat": 8,
     "momentum": 8,
@@ -142,6 +238,18 @@
     "composite": 78.0,
     "tier": "strong",
     "note": "Only operational US small-launch competitor to SpaceX; Neutron medium-lift vehicle in development; growing Space Systems division with Electron achieving high cadence"
+  },
+  {
+    "company": "Blues",
+    "techMoat": 8,
+    "momentum": 8,
+    "teamPedigree": 10,
+    "marketGravity": 8,
+    "capitalEfficiency": 7,
+    "govTraction": 3,
+    "composite": 77.5,
+    "tier": "strong",
+    "note": "Founded by Ray Ozzie (ex-Microsoft Chief Software Architect); $98M raised from Sequoia and Bill Gates; plug-and-play cellular IoT Notecards operating in 130+ countries"
   },
   {
     "company": "Shield AI",
@@ -168,6 +276,18 @@
     "note": "Simulation and development platform for autonomous vehicles; $6B valuation with broad OEM customer base; expanding into defense autonomy simulation"
   },
   {
+    "company": "Pyka",
+    "techMoat": 8,
+    "momentum": 8,
+    "teamPedigree": 8,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 6,
+    "composite": 77.0,
+    "tier": "leader",
+    "note": "Fully autonomous all-electric fixed-wing UAS; $88M raised; largest FAA-approved ag UAS; defense partnerships with Sierra Nevada/AFWERX"
+  },
+  {
     "company": "ElevenLabs",
     "techMoat": 8,
     "momentum": 9,
@@ -180,6 +300,18 @@
     "note": "Best-in-class voice AI with remarkable product-market fit; rapid ARR growth to $100M+; high capital efficiency but limited government market"
   },
   {
+    "company": "Lunar Energy",
+    "techMoat": 7,
+    "momentum": 8,
+    "teamPedigree": 9,
+    "marketGravity": 10,
+    "capitalEfficiency": 6,
+    "govTraction": 4,
+    "composite": 76.0,
+    "tier": "leader",
+    "note": "DC-architecture home battery + VPP platform; $530M raised; founded by former Tesla Energy head; scaling to 100K systems/year"
+  },
+  {
     "company": "Helion",
     "techMoat": 8,
     "momentum": 8,
@@ -190,6 +322,18 @@
     "composite": 75.5,
     "tier": "strong",
     "note": "Field-reversed configuration fusion with Microsoft PPA for 2028 delivery; Polaris prototype under construction; Sam Altman backing but fusion timeline risk is existential"
+  },
+  {
+    "company": "Augury",
+    "techMoat": 8,
+    "momentum": 8,
+    "teamPedigree": 8,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 3,
+    "composite": 75.5,
+    "tier": "leader",
+    "note": "Industrial IoT predictive maintenance unicorn; $369M raised; 500M+ hours of machine data analyzed; 99.9% failure detection at Fortune 500 manufacturers"
   },
   {
     "company": "Physical Intelligence",
@@ -276,6 +420,18 @@
     "note": "Humanoid robotics with OpenAI partnership and BMW deployment; $2.6B valuation and extraordinary funding velocity but commercial viability of humanoids remains unproven"
   },
   {
+    "company": "Furno Materials",
+    "techMoat": 9,
+    "momentum": 7,
+    "teamPedigree": 7,
+    "marketGravity": 10,
+    "capitalEfficiency": 8,
+    "govTraction": 6,
+    "composite": 73.5,
+    "tier": "promising",
+    "note": "Zero-emission cement via vertical micro-kilns; $11M VC + $20M DOE grant; reinvented kiln form factor; cement = 8% of global CO2"
+  },
+  {
     "company": "Epirus",
     "techMoat": 8,
     "momentum": 7,
@@ -324,6 +480,18 @@
     "note": "LPU inference chips deliver record-breaking token throughput; ex-Google TPU team pedigree; GroqCloud API gaining developer traction but scaling production is capital-intensive"
   },
   {
+    "company": "Verdant Robotics",
+    "techMoat": 8,
+    "momentum": 7,
+    "teamPedigree": 8,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 3,
+    "composite": 72.5,
+    "tier": "promising",
+    "note": "Autonomous precision weeding robots reducing chemical inputs 96%; $58M raised; millimeter-accuracy plant identification; commercially deployed"
+  },
+  {
     "company": "Kairos Power",
     "techMoat": 8,
     "momentum": 7,
@@ -334,6 +502,18 @@
     "composite": 72.0,
     "tier": "promising",
     "note": "Fluoride salt-cooled reactor with NRC construction permit progress; Google PPA landmark deal; Hermes test reactor advancing faster than most nuclear startups"
+  },
+  {
+    "company": "Slip Robotics",
+    "techMoat": 7,
+    "momentum": 8,
+    "teamPedigree": 8,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 2,
+    "composite": 72.0,
+    "tier": "promising",
+    "note": "Autonomous truck loading/unloading RaaS; $45M raised; deployed at John Deere, GE, Nissan across 25+ sites; founded by ex-Tesla Gigafactory engineer"
   },
   {
     "company": "Etched",
@@ -348,6 +528,18 @@
     "note": "Transformer-specific ASIC (Sohu) claims 10x+ inference performance over GPUs; high-risk bet that transformer architecture persists but enormous payoff if right"
   },
   {
+    "company": "Elementary Robotics",
+    "techMoat": 8,
+    "momentum": 7,
+    "teamPedigree": 8,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 2,
+    "composite": 71.0,
+    "tier": "promising",
+    "note": "AI visual inspection for manufacturing QC; $66M raised; 1B+ parts inspected annually; VisionStream self-teaches defect ID in 12 seconds"
+  },
+  {
     "company": "Skild AI",
     "techMoat": 7,
     "momentum": 8,
@@ -358,6 +550,18 @@
     "composite": 70.0,
     "tier": "promising",
     "note": "Scalable robot foundation model from CMU robotics faculty; $1.5B valuation on limited traction but world-class team and paradigm-level thesis"
+  },
+  {
+    "company": "Remedy Robotics",
+    "techMoat": 9,
+    "momentum": 6,
+    "teamPedigree": 8,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 2,
+    "composite": 70.0,
+    "tier": "promising",
+    "note": "World's first remote endovascular surgical robot; $35M raised; completed first remote neurointerventional procedures; 45 patents filed"
   },
   {
     "company": "Castelion",
@@ -396,6 +600,18 @@
     "note": "Purpose-built bidirectional robotaxi is architecturally differentiated; Amazon backing provides capital but far behind Waymo in commercial deployment scale"
   },
   {
+    "company": "Cache Energy",
+    "techMoat": 9,
+    "momentum": 7,
+    "teamPedigree": 7,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 5,
+    "composite": 69.5,
+    "tier": "promising",
+    "note": "Thermochemical long-duration storage using lime pellets; 100+ hour storage at ambient conditions; DOE White House pitch winner; building 1MW first-of-kind system"
+  },
+  {
     "company": "Gecko Robotics",
     "techMoat": 7,
     "momentum": 7,
@@ -406,6 +622,18 @@
     "composite": 69.0,
     "tier": "promising",
     "note": "Wall-climbing inspection robots for industrial infrastructure with growing DoD facility inspection contracts; software platform creates recurring revenue on hardware base"
+  },
+  {
+    "company": "Simbe Robotics",
+    "techMoat": 7,
+    "momentum": 8,
+    "teamPedigree": 8,
+    "marketGravity": 8,
+    "capitalEfficiency": 6,
+    "govTraction": 2,
+    "composite": 69.0,
+    "tier": "promising",
+    "note": "Autonomous retail shelf-scanning robots; $104M raised; 29 retail brands including BJ's, Albertsons; Fast Company #1 Robotics 2025"
   },
   {
     "company": "Oklo",
@@ -432,6 +660,18 @@
     "note": "Flare gas-to-compute data centers pivoting to AI cloud infrastructure; strong revenue and clean energy angle but limited technical moat in core data center ops"
   },
   {
+    "company": "Limelight Steel",
+    "techMoat": 10,
+    "momentum": 6,
+    "teamPedigree": 7,
+    "marketGravity": 10,
+    "capitalEfficiency": 7,
+    "govTraction": 3,
+    "composite": 68.5,
+    "tier": "promising",
+    "note": "Laser-powered iron production replacing coal blast furnaces; $3.35M pre-seed; backed by Anglo American and Khosla; steel = 8% of global CO2"
+  },
+  {
     "company": "Planet Labs",
     "techMoat": 8,
     "momentum": 6,
@@ -456,6 +696,30 @@
     "note": "AI-driven mineral exploration for battery metals; Bill Gates and Breakthrough Energy backed; Zambian copper discovery validates approach but mining timelines are 10+ years"
   },
   {
+    "company": "Living Carbon",
+    "techMoat": 8,
+    "momentum": 7,
+    "teamPedigree": 7,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 3,
+    "composite": 68.0,
+    "tier": "promising",
+    "note": "CRISPR-engineered trees with 50%+ faster growth for carbon removal; $36M Series A; Microsoft 1.4M tonne deal; Temasek-backed"
+  },
+  {
+    "company": "Intramotev",
+    "techMoat": 8,
+    "momentum": 7,
+    "teamPedigree": 7,
+    "marketGravity": 8,
+    "capitalEfficiency": 8,
+    "govTraction": 3,
+    "composite": 67.5,
+    "tier": "promising",
+    "note": "Battery-electric autonomous railcar retrofit kits; $14.4M Series A; only manufacturer of self-propelled railcars with deployed revenue-generating units"
+  },
+  {
     "company": "Astranis",
     "techMoat": 7,
     "momentum": 7,
@@ -466,6 +730,30 @@
     "composite": 67.0,
     "tier": "promising",
     "note": "Small GEO broadband satellites targeting underserved markets; novel MicroGEO architecture but first satellite had power issues; scaling with batch production"
+  },
+  {
+    "company": "Cascade Space",
+    "techMoat": 7,
+    "momentum": 6,
+    "teamPedigree": 8,
+    "marketGravity": 8,
+    "capitalEfficiency": 6,
+    "govTraction": 5,
+    "composite": 66.5,
+    "tier": "promising",
+    "note": "YC S25 batch; ex-SpaceX Crew Dragon comms lead; addressing 40% oversubscription of NASA Deep Space Network; $5.9M seed from strong syndicate"
+  },
+  {
+    "company": "Galadyne",
+    "techMoat": 8,
+    "momentum": 7,
+    "teamPedigree": 7,
+    "marketGravity": 10,
+    "capitalEfficiency": 7,
+    "govTraction": 5,
+    "composite": 66.5,
+    "tier": "promising",
+    "note": "Liquid-propulsion missile systems for mass production; $4.8M pre-seed led by a16z; addresses critical U.S. missile inventory gap"
   },
   {
     "company": "Vast",
@@ -492,6 +780,18 @@
     "note": "Leading eVTOL with FAA type certification progress and USAF Agility Prime contracts; Toyota partnership for manufacturing but path to commercial operations remains long"
   },
   {
+    "company": "Overview Energy",
+    "techMoat": 9,
+    "momentum": 7,
+    "teamPedigree": 7,
+    "marketGravity": 10,
+    "capitalEfficiency": 6,
+    "govTraction": 3,
+    "composite": 66.0,
+    "tier": "promising",
+    "note": "Space-based solar power via GEO infrared laser beaming; $20M raised; demonstrated 5 km laser-to-ground power transmission; competitor to Aetherflux"
+  },
+  {
     "company": "Saildrone",
     "techMoat": 7,
     "momentum": 6,
@@ -504,6 +804,18 @@
     "note": "Autonomous ocean surface vehicles collecting maritime data for Navy ISR and NOAA; unique persistent maritime surveillance capability but hardware-intensive model"
   },
   {
+    "company": "Solideon",
+    "techMoat": 8,
+    "momentum": 7,
+    "teamPedigree": 7,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 5,
+    "composite": 65.5,
+    "tier": "promising",
+    "note": "Autonomous multi-robot WAAM micro-factories for aerospace/defense metal structures; $6.5M pre-seed; $1.25M Air Force contract; TechCrunch Disrupt finalist"
+  },
+  {
     "company": "Radiant",
     "techMoat": 7,
     "momentum": 6,
@@ -514,6 +826,18 @@
     "composite": 64.5,
     "tier": "promising",
     "note": "Portable microreactor for remote power using HALEU fuel; ex-SpaceX team; DoD forward operating base use case but NRC licensing is multi-year bottleneck"
+  },
+  {
+    "company": "Occam",
+    "techMoat": 8,
+    "momentum": 6,
+    "teamPedigree": 8,
+    "marketGravity": 7,
+    "capitalEfficiency": 6,
+    "govTraction": 2,
+    "composite": 64.5,
+    "tier": "promising",
+    "note": "World's smallest brain-sensing wearable using dry EEG nanosensors; $14M seed; team from Oxford, Cambridge with hires from Oura and Kernel"
   },
   {
     "company": "Firefly Aerospace",
@@ -564,6 +888,30 @@
     "note": "Robotic sheet metal forming using AI and large industrial robots; defense manufacturing applications with Air Force contracts; novel approach to rapid prototyping"
   },
   {
+    "company": "Rugged Robotics",
+    "techMoat": 8,
+    "momentum": 6,
+    "teamPedigree": 7,
+    "marketGravity": 8,
+    "capitalEfficiency": 8,
+    "govTraction": 2,
+    "composite": 62.5,
+    "tier": "promising",
+    "note": "Autonomous construction layout robots printing BIM plans onto concrete; $12M raised; sub-1/8-inch precision; IEEE Award 2025"
+  },
+  {
+    "company": "Sorcerer",
+    "techMoat": 8,
+    "momentum": 7,
+    "teamPedigree": 7,
+    "marketGravity": 8,
+    "capitalEfficiency": 7,
+    "govTraction": 4,
+    "composite": 62.0,
+    "tier": "promising",
+    "note": "Persistent stratospheric balloon network for 1000x atmospheric data collection; $3.9M seed; YC S24; 6+ month flight endurance"
+  },
+  {
     "company": "Archer Aviation",
     "techMoat": 6,
     "momentum": 7,
@@ -610,6 +958,30 @@
     "composite": 60.5,
     "tier": "promising",
     "note": "AI-powered wildfire detection using camera networks and satellite imagery; growing utility and government customer base but small market and long sales cycles"
+  },
+  {
+    "company": "OBSIDIA Semiconductor",
+    "techMoat": 7,
+    "momentum": 4,
+    "teamPedigree": 8,
+    "marketGravity": 8,
+    "capitalEfficiency": 5,
+    "govTraction": 5,
+    "composite": 60.5,
+    "tier": "promising",
+    "note": "Ex-GlobalFoundries and PsiQuantum founders tackling semiconductor supply chain security with RF verification tech; strong defense/national security relevance"
+  },
+  {
+    "company": "Anthrogen",
+    "techMoat": 8,
+    "momentum": 7,
+    "teamPedigree": 7,
+    "marketGravity": 9,
+    "capitalEfficiency": 7,
+    "govTraction": 2,
+    "composite": 60.5,
+    "tier": "promising",
+    "note": "CRISPR-engineered photosynthetic microbes converting CO2 to SAF; $4.5M seed; YC S24; engineered fastest-known photosynthesizing organism"
   },
   {
     "company": "Relativity Space",
@@ -696,6 +1068,18 @@
     "note": "Strong technology moat; Large addressable market. Composite: 56/100."
   },
   {
+    "company": "Green Abundance",
+    "techMoat": 7,
+    "momentum": 3,
+    "teamPedigree": 9,
+    "marketGravity": 7,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 55.5,
+    "tier": "early",
+    "note": "Founded by ex-Impossible Foods chief scientist; engineering plants as biofactories for novel materials; very early stage but exceptional founder pedigree"
+  },
+  {
     "company": "Andrenam",
     "techMoat": 8,
     "momentum": 4,
@@ -718,6 +1102,30 @@
     "composite": 54.5,
     "tier": "early",
     "note": "Ocean floor mapping and mining robotics; niche but critical application for subsea infrastructure with growing blue economy tailwind"
+  },
+  {
+    "company": "Los Angeles Project",
+    "techMoat": 8,
+    "momentum": 4,
+    "teamPedigree": 7,
+    "marketGravity": 6,
+    "capitalEfficiency": 5,
+    "govTraction": 1,
+    "composite": 53.5,
+    "tier": "early",
+    "note": "Automated CRISPR embryo editing platform from notable biohacker Josie Zayner; consumer biotech with novel animal engineering focus"
+  },
+  {
+    "company": "GenFab Co",
+    "techMoat": 8,
+    "momentum": 3,
+    "teamPedigree": 6,
+    "marketGravity": 7,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 53.5,
+    "tier": "early",
+    "note": "Self-reproducing manufacturing systems \u2014 the von Neumann constructor for industrial production; ambitious but very early stage"
   },
   {
     "company": "Vannevar Labs",
@@ -778,6 +1186,18 @@
     "composite": 49.5,
     "tier": "early",
     "note": "Strong technology moat. Composite: 50/100."
+  },
+  {
+    "company": "Tideway Logistics",
+    "techMoat": 5,
+    "momentum": 4,
+    "teamPedigree": 6,
+    "marketGravity": 8,
+    "capitalEfficiency": 5,
+    "govTraction": 1,
+    "composite": 48.0,
+    "tier": "early",
+    "note": "AI-powered 3PL combining software and warehouse robotics; very early stage but addressing massive logistics automation market"
   },
   {
     "company": "Impulse Space",
@@ -1006,6 +1426,18 @@
     "composite": 42.5,
     "tier": "early",
     "note": "Large addressable market. Composite: 42/100."
+  },
+  {
+    "company": "Blitzpanel",
+    "techMoat": 5,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 7,
+    "capitalEfficiency": 5,
+    "govTraction": 1,
+    "composite": 42.5,
+    "tier": "early",
+    "note": "JLCPCB-style platform for industrial control panels; browser-based design with automated UL-certified manufacturing; pre-seed stage"
   },
   {
     "company": "Nominal",
@@ -3672,6 +4104,42 @@
     "note": "Notable team pedigree. Composite: 37/100."
   },
   {
+    "company": "Riot Ventures",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 5,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 37/100."
+  },
+  {
+    "company": "Prime Movers Lab",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 5,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 37/100."
+  },
+  {
+    "company": "Valor Equity Partners",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 5,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 37/100."
+  },
+  {
     "company": "fundingVelocity",
     "techMoat": 3,
     "momentum": 3,
@@ -5789,7 +6257,7 @@
     "momentum": 3,
     "teamPedigree": 5,
     "marketGravity": 4,
-    "capitalEfficiency": 3.5,
+    "capitalEfficiency": 3,
     "govTraction": 2,
     "composite": 34.0,
     "tier": "early",
@@ -7846,437 +8314,5 @@
     "composite": 29.5,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
-    "company": "Blues",
-    "techMoat": 8,
-    "momentum": 8,
-    "teamPedigree": 10,
-    "marketGravity": 8,
-    "capitalEfficiency": 7,
-    "govTraction": 3,
-    "composite": 77.5,
-    "tier": "strong",
-    "note": "Founded by Ray Ozzie (ex-Microsoft Chief Software Architect); $98M raised from Sequoia and Bill Gates; plug-and-play cellular IoT Notecards operating in 130+ countries"
-  },
-  {
-    "company": "OBSIDIA Semiconductor",
-    "techMoat": 7,
-    "momentum": 4,
-    "teamPedigree": 8,
-    "marketGravity": 8,
-    "capitalEfficiency": 5,
-    "govTraction": 5,
-    "composite": 60.5,
-    "tier": "promising",
-    "note": "Ex-GlobalFoundries and PsiQuantum founders tackling semiconductor supply chain security with RF verification tech; strong defense/national security relevance"
-  },
-  {
-    "company": "Green Abundance",
-    "techMoat": 7,
-    "momentum": 3,
-    "teamPedigree": 9,
-    "marketGravity": 7,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 55.5,
-    "tier": "early",
-    "note": "Founded by ex-Impossible Foods chief scientist; engineering plants as biofactories for novel materials; very early stage but exceptional founder pedigree"
-  },
-  {
-    "company": "Cascade Space",
-    "techMoat": 7,
-    "momentum": 6,
-    "teamPedigree": 8,
-    "marketGravity": 8,
-    "capitalEfficiency": 6,
-    "govTraction": 5,
-    "composite": 66.5,
-    "tier": "promising",
-    "note": "YC S25 batch; ex-SpaceX Crew Dragon comms lead; addressing 40% oversubscription of NASA Deep Space Network; $5.9M seed from strong syndicate"
-  },
-  {
-    "company": "Los Angeles Project",
-    "techMoat": 8,
-    "momentum": 4,
-    "teamPedigree": 7,
-    "marketGravity": 6,
-    "capitalEfficiency": 5,
-    "govTraction": 1,
-    "composite": 53.5,
-    "tier": "early",
-    "note": "Automated CRISPR embryo editing platform from notable biohacker Josie Zayner; consumer biotech with novel animal engineering focus"
-  },
-  {
-    "company": "Tideway Logistics",
-    "techMoat": 5,
-    "momentum": 4,
-    "teamPedigree": 6,
-    "marketGravity": 8,
-    "capitalEfficiency": 5,
-    "govTraction": 1,
-    "composite": 48.0,
-    "tier": "early",
-    "note": "AI-powered 3PL combining software and warehouse robotics; very early stage but addressing massive logistics automation market"
-  },
-  {
-    "company": "Marathon Fusion",
-    "techMoat": 9,
-    "momentum": 7,
-    "teamPedigree": 8,
-    "marketGravity": 9,
-    "capitalEfficiency": 6,
-    "govTraction": 7,
-    "composite": 79.5,
-    "tier": "strong",
-    "note": "Critical fusion fuel cycle tech; signed LOIs with CFS and Helion; $10.9M seed + DOE ARPA-E grants; ex-SpaceX propulsion engineer CTO; only 20kg tritium exists worldwide"
-  },
-  {
-    "company": "GenFab Co",
-    "techMoat": 8,
-    "momentum": 3,
-    "teamPedigree": 6,
-    "marketGravity": 7,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 53.5,
-    "tier": "early",
-    "note": "Self-reproducing manufacturing systems — the von Neumann constructor for industrial production; ambitious but very early stage"
-  },
-  {
-    "company": "Occam",
-    "techMoat": 8,
-    "momentum": 6,
-    "teamPedigree": 8,
-    "marketGravity": 7,
-    "capitalEfficiency": 6,
-    "govTraction": 2,
-    "composite": 64.5,
-    "tier": "promising",
-    "note": "World's smallest brain-sensing wearable using dry EEG nanosensors; $14M seed; team from Oxford, Cambridge with hires from Oura and Kernel"
-  },
-  {
-    "company": "Blitzpanel",
-    "techMoat": 5,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 7,
-    "capitalEfficiency": 5,
-    "govTraction": 1,
-    "composite": 42.5,
-    "tier": "early",
-    "note": "JLCPCB-style platform for industrial control panels; browser-based design with automated UL-certified manufacturing; pre-seed stage"
-  },
-  {
-    "company": "MatX",
-    "techMoat": 9,
-    "momentum": 10,
-    "teamPedigree": 10,
-    "marketGravity": 10,
-    "capitalEfficiency": 7,
-    "govTraction": 3,
-    "composite": 87.0,
-    "tier": "elite",
-    "note": "Custom LLM chips by ex-Google TPU engineers; $600M+ raised at multi-billion valuation; purpose-built silicon competing with Nvidia on transformer workloads"
-  },
-  {
-    "company": "Oxide Computer Company",
-    "techMoat": 9,
-    "momentum": 8,
-    "teamPedigree": 9,
-    "marketGravity": 9,
-    "capitalEfficiency": 6,
-    "govTraction": 7,
-    "composite": 82.5,
-    "tier": "leader",
-    "note": "Full-stack rack-scale cloud hardware; $340M raised; customers include Lawrence Livermore and Idaho National Labs; founded by Sun/Joyent veterans"
-  },
-  {
-    "company": "Amogy",
-    "techMoat": 9,
-    "momentum": 8,
-    "teamPedigree": 8,
-    "marketGravity": 10,
-    "capitalEfficiency": 6,
-    "govTraction": 5,
-    "composite": 80.5,
-    "tier": "leader",
-    "note": "Ammonia-to-power for maritime decarbonization; $300M raised; sailed world's first ammonia-powered vessel; backed by Amazon, Aramco, Samsung"
-  },
-  {
-    "company": "Chariot Defense",
-    "techMoat": 8,
-    "momentum": 9,
-    "teamPedigree": 9,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 8,
-    "composite": 81.0,
-    "tier": "leader",
-    "note": "Software-defined battlefield power replacing diesel generators; $41M raised; U.S. Army contracts and DIU Project GI; ex-Anduril founding team"
-  },
-  {
-    "company": "Intramotev",
-    "techMoat": 8,
-    "momentum": 7,
-    "teamPedigree": 7,
-    "marketGravity": 8,
-    "capitalEfficiency": 8,
-    "govTraction": 3,
-    "composite": 67.5,
-    "tier": "promising",
-    "note": "Battery-electric autonomous railcar retrofit kits; $14.4M Series A; only manufacturer of self-propelled railcars with deployed revenue-generating units"
-  },
-  {
-    "company": "Pickle Robot Company",
-    "techMoat": 8,
-    "momentum": 9,
-    "teamPedigree": 8,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 2,
-    "composite": 78.5,
-    "tier": "leader",
-    "note": "AI robotic arms for autonomous trailer unloading; $113M raised; $120M UPS order for 400 robots; 10M+ lbs of merchandise unloaded"
-  },
-  {
-    "company": "Augury",
-    "techMoat": 8,
-    "momentum": 8,
-    "teamPedigree": 8,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 3,
-    "composite": 75.5,
-    "tier": "leader",
-    "note": "Industrial IoT predictive maintenance unicorn; $369M raised; 500M+ hours of machine data analyzed; 99.9% failure detection at Fortune 500 manufacturers"
-  },
-  {
-    "company": "Lunar Energy",
-    "techMoat": 7,
-    "momentum": 8,
-    "teamPedigree": 9,
-    "marketGravity": 10,
-    "capitalEfficiency": 6,
-    "govTraction": 4,
-    "composite": 76.0,
-    "tier": "leader",
-    "note": "DC-architecture home battery + VPP platform; $530M raised; founded by former Tesla Energy head; scaling to 100K systems/year"
-  },
-  {
-    "company": "Cache Energy",
-    "techMoat": 9,
-    "momentum": 7,
-    "teamPedigree": 7,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 5,
-    "composite": 69.5,
-    "tier": "promising",
-    "note": "Thermochemical long-duration storage using lime pellets; 100+ hour storage at ambient conditions; DOE White House pitch winner; building 1MW first-of-kind system"
-  },
-  {
-    "company": "Furno Materials",
-    "techMoat": 9,
-    "momentum": 7,
-    "teamPedigree": 7,
-    "marketGravity": 10,
-    "capitalEfficiency": 8,
-    "govTraction": 6,
-    "composite": 73.5,
-    "tier": "promising",
-    "note": "Zero-emission cement via vertical micro-kilns; $11M VC + $20M DOE grant; reinvented kiln form factor; cement = 8% of global CO2"
-  },
-  {
-    "company": "Pyka",
-    "techMoat": 8,
-    "momentum": 8,
-    "teamPedigree": 8,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 6,
-    "composite": 77.0,
-    "tier": "leader",
-    "note": "Fully autonomous all-electric fixed-wing UAS; $88M raised; largest FAA-approved ag UAS; defense partnerships with Sierra Nevada/AFWERX"
-  },
-  {
-    "company": "Limelight Steel",
-    "techMoat": 10,
-    "momentum": 6,
-    "teamPedigree": 7,
-    "marketGravity": 10,
-    "capitalEfficiency": 7,
-    "govTraction": 3,
-    "composite": 68.5,
-    "tier": "promising",
-    "note": "Laser-powered iron production replacing coal blast furnaces; $3.35M pre-seed; backed by Anglo American and Khosla; steel = 8% of global CO2"
-  },
-  {
-    "company": "Slip Robotics",
-    "techMoat": 7,
-    "momentum": 8,
-    "teamPedigree": 8,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 2,
-    "composite": 72.0,
-    "tier": "promising",
-    "note": "Autonomous truck loading/unloading RaaS; $45M raised; deployed at John Deere, GE, Nissan across 25+ sites; founded by ex-Tesla Gigafactory engineer"
-  },
-  {
-    "company": "Remedy Robotics",
-    "techMoat": 9,
-    "momentum": 6,
-    "teamPedigree": 8,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 2,
-    "composite": 70.0,
-    "tier": "promising",
-    "note": "World's first remote endovascular surgical robot; $35M raised; completed first remote neurointerventional procedures; 45 patents filed"
-  },
-  {
-    "company": "Verdant Robotics",
-    "techMoat": 8,
-    "momentum": 7,
-    "teamPedigree": 8,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 3,
-    "composite": 72.5,
-    "tier": "promising",
-    "note": "Autonomous precision weeding robots reducing chemical inputs 96%; $58M raised; millimeter-accuracy plant identification; commercially deployed"
-  },
-  {
-    "company": "Galadyne",
-    "techMoat": 8,
-    "momentum": 7,
-    "teamPedigree": 7,
-    "marketGravity": 10,
-    "capitalEfficiency": 7,
-    "govTraction": 5,
-    "composite": 66.5,
-    "tier": "promising",
-    "note": "Liquid-propulsion missile systems for mass production; $4.8M pre-seed led by a16z; addresses critical U.S. missile inventory gap"
-  },
-  {
-    "company": "Simbe Robotics",
-    "techMoat": 7,
-    "momentum": 8,
-    "teamPedigree": 8,
-    "marketGravity": 8,
-    "capitalEfficiency": 6,
-    "govTraction": 2,
-    "composite": 69.0,
-    "tier": "promising",
-    "note": "Autonomous retail shelf-scanning robots; $104M raised; 29 retail brands including BJ's, Albertsons; Fast Company #1 Robotics 2025"
-  },
-  {
-    "company": "Auradine",
-    "techMoat": 8,
-    "momentum": 9,
-    "teamPedigree": 9,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 3,
-    "composite": 80.0,
-    "tier": "leader",
-    "note": "3nm ASIC design for mining and AI networking; $300M+ raised; $200M+ order pipeline; board member Lip-Bu Tan became Intel CEO"
-  },
-  {
-    "company": "Rugged Robotics",
-    "techMoat": 8,
-    "momentum": 6,
-    "teamPedigree": 7,
-    "marketGravity": 8,
-    "capitalEfficiency": 8,
-    "govTraction": 2,
-    "composite": 62.5,
-    "tier": "promising",
-    "note": "Autonomous construction layout robots printing BIM plans onto concrete; $12M raised; sub-1/8-inch precision; IEEE Award 2025"
-  },
-  {
-    "company": "Elementary Robotics",
-    "techMoat": 8,
-    "momentum": 7,
-    "teamPedigree": 8,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 2,
-    "composite": 71.0,
-    "tier": "promising",
-    "note": "AI visual inspection for manufacturing QC; $66M raised; 1B+ parts inspected annually; VisionStream self-teaches defect ID in 12 seconds"
-  },
-  {
-    "company": "Aeon Industrial",
-    "techMoat": 8,
-    "momentum": 9,
-    "teamPedigree": 8,
-    "marketGravity": 10,
-    "capitalEfficiency": 7,
-    "govTraction": 7,
-    "composite": 79.5,
-    "tier": "leader",
-    "note": "Software-defined tactical missiles with vertically integrated manufacturing; $18.6M seed; production lines for 100 Zeus systems/month; live-fire Army testing complete"
-  },
-  {
-    "company": "Anthrogen",
-    "techMoat": 8,
-    "momentum": 7,
-    "teamPedigree": 7,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 2,
-    "composite": 60.5,
-    "tier": "promising",
-    "note": "CRISPR-engineered photosynthetic microbes converting CO2 to SAF; $4.5M seed; YC S24; engineered fastest-known photosynthesizing organism"
-  },
-  {
-    "company": "Overview Energy",
-    "techMoat": 9,
-    "momentum": 7,
-    "teamPedigree": 7,
-    "marketGravity": 10,
-    "capitalEfficiency": 6,
-    "govTraction": 3,
-    "composite": 66.0,
-    "tier": "promising",
-    "note": "Space-based solar power via GEO infrared laser beaming; $20M raised; demonstrated 5 km laser-to-ground power transmission; competitor to Aetherflux"
-  },
-  {
-    "company": "Living Carbon",
-    "techMoat": 8,
-    "momentum": 7,
-    "teamPedigree": 7,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 3,
-    "composite": 68.0,
-    "tier": "promising",
-    "note": "CRISPR-engineered trees with 50%+ faster growth for carbon removal; $36M Series A; Microsoft 1.4M tonne deal; Temasek-backed"
-  },
-  {
-    "company": "Sorcerer",
-    "techMoat": 8,
-    "momentum": 7,
-    "teamPedigree": 7,
-    "marketGravity": 8,
-    "capitalEfficiency": 7,
-    "govTraction": 4,
-    "composite": 62.0,
-    "tier": "promising",
-    "note": "Persistent stratospheric balloon network for 1000x atmospheric data collection; $3.9M seed; YC S24; 6+ month flight endurance"
-  },
-  {
-    "company": "Solideon",
-    "techMoat": 8,
-    "momentum": 7,
-    "teamPedigree": 7,
-    "marketGravity": 9,
-    "capitalEfficiency": 7,
-    "govTraction": 5,
-    "composite": 65.5,
-    "tier": "promising",
-    "note": "Autonomous multi-robot WAAM micro-factories for aerospace/defense metal structures; $6.5M pre-seed; $1.25M Air Force contract; TechCrunch Disrupt finalist"
   }
 ]

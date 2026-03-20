@@ -56,13 +56,6 @@
     "source": "SEC 10-K (PLTR)"
   },
   {
-    "company": "IonQ",
-    "revenue": "$3.5B",
-    "period": "2024 Annual",
-    "growth": "+347% YoY",
-    "source": "SEC 10-K (IONQ)"
-  },
-  {
     "company": "Tempus AI",
     "revenue": "$3.1B",
     "period": "2025 Annual",
@@ -75,6 +68,13 @@
     "period": "2025 Est.",
     "growth": "+25% YoY",
     "source": "Reported estimates"
+  },
+  {
+    "company": "IonQ",
+    "revenue": "$2.3B",
+    "period": "2025 Annual",
+    "growth": "-33% YoY",
+    "source": "SEC 10-K (IONQ)"
   },
   {
     "company": "Intuitive Machines",

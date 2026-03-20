@@ -286,6 +286,20 @@
     "roundCount": 1
   },
   {
+    "company": "Watershed",
+    "totalRaised": "$457M+",
+    "totalRaisedRaw": 457.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$30M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "a16z",
+      "Undisclosed"
+    ],
+    "roundCount": 4
+  },
+  {
     "company": "Helion",
     "totalRaised": "$425M+",
     "totalRaisedRaw": 425.0,
@@ -399,9 +413,10 @@
     "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
-      "Undisclosed"
+      "Undisclosed",
+      "Index Ventures"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Intuitive Machines",
@@ -435,6 +450,19 @@
     "totalRaisedRaw": 114.0,
     "lastRound": "Funding Round",
     "lastRoundAmount": "$114M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Scale AI",
+    "totalRaised": "$100M+",
+    "totalRaisedRaw": 100.0,
+    "lastRound": "Series B",
+    "lastRoundAmount": "$100M",
     "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
@@ -504,20 +532,6 @@
     "roundCount": 1
   },
   {
-    "company": "Watershed",
-    "totalRaised": "$82M+",
-    "totalRaisedRaw": 82.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$30M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "a16z",
-      "Undisclosed"
-    ],
-    "roundCount": 3
-  },
-  {
     "company": "Celero Communications",
     "totalRaised": "$70M+",
     "totalRaisedRaw": 70.0,
@@ -581,6 +595,20 @@
       "Giant Ventures"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "Palantir",
+    "totalRaised": "$43M+",
+    "totalRaisedRaw": 43.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$13M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Sequoia"
+    ],
+    "roundCount": 2
   },
   {
     "company": "Dragonfly Aerospace",
@@ -653,19 +681,6 @@
     "totalRaisedRaw": 16.0,
     "lastRound": "Series A",
     "lastRoundAmount": "$16M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Palantir",
-    "totalRaised": "$13M+",
-    "totalRaisedRaw": 13.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$13M",
     "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
