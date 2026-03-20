@@ -21,7 +21,12 @@ DATA_JS_PATH = Path(__file__).parent.parent / "data.js"
 
 
 def parse_amount(amount_str):
-    """Parse $600M or $2.5B to millions."""
+    """Parse $600M or $2.5B to millions.
+
+    Includes sanity cap: individual deal amounts above $15B are almost certainly
+    misparses from news articles (market sizes, government budgets, etc.)
+    and are rejected. The only exceptions are mega-rounds from OpenAI/Anthropic scale.
+    """
     if not amount_str:
         return 0
     amount_str = amount_str.replace('+', '').replace('~', '').strip()
@@ -30,7 +35,12 @@ def parse_amount(amount_str):
         num = float(match.group(1))
         unit = match.group(2).upper()
         multiplier = {"T": 1e6, "B": 1e3, "M": 1, "K": 0.001}.get(unit, 1)
-        return num * multiplier
+        amount_m = num * multiplier
+        # Sanity cap: reject deals > $15B ($15000M) — likely misparses
+        # Even the largest real startup rounds (OpenAI $6.6B, Anthropic $8B) are below this
+        if amount_m > 15000:
+            return 0
+        return amount_m
     return 0
 
 

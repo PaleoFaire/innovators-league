@@ -1,176 +1,27 @@
 [
   {
-    "company": "Cover",
-    "totalRaised": "$900.0B+",
-    "totalRaisedRaw": 900000.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$900B",
-    "lastRoundDate": "2026-01",
-    "valuation": "",
+    "company": "Anthropic",
+    "totalRaised": "$13.0B+",
+    "totalRaisedRaw": 13000.0,
+    "lastRound": "Series F",
+    "lastRoundAmount": "$13B",
+    "lastRoundDate": "2025-09",
+    "valuation": "$183B",
     "leadInvestors": [
-      "Undisclosed"
+      "GIC"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "OpenAI",
-    "totalRaised": "$260.0B+",
-    "totalRaisedRaw": 260009.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$110B",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Lightspeed Venture Partners",
-      "SoftBank"
-    ],
-    "roundCount": 4
-  },
-  {
-    "company": "Together AI",
-    "totalRaised": "$167.6B+",
-    "totalRaisedRaw": 167555.3,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$500M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 5
-  },
-  {
-    "company": "Rebellions",
-    "totalRaised": "$110.0B+",
-    "totalRaisedRaw": 110010.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$10M",
-    "lastRoundDate": "2026-02",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 2
   },
   {
     "company": "Anduril Industries",
-    "totalRaised": "$62.5B+",
-    "totalRaisedRaw": 62500.0,
+    "totalRaised": "$2.5B+",
+    "totalRaisedRaw": 2500.0,
     "lastRound": "Series G",
-    "lastRoundAmount": "$60B",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
+    "lastRoundAmount": "$2.5B",
+    "lastRoundDate": "2025-12",
+    "valuation": "$30.5B",
     "leadInvestors": [
-      "Undisclosed",
       "Founders Fund"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "Durin",
-    "totalRaised": "$50.0B+",
-    "totalRaisedRaw": 50000.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$50B",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Anthropic",
-    "totalRaised": "$43.0B+",
-    "totalRaisedRaw": 43000.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$30B",
-    "lastRoundDate": "2026-02",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "GIC"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "Galvanick",
-    "totalRaised": "$41.2B+",
-    "totalRaisedRaw": 41190.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$190M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Index Ventures"
-    ],
-    "roundCount": 3
-  },
-  {
-    "company": "Labelbox",
-    "totalRaised": "$30.0B+",
-    "totalRaisedRaw": 30000.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$30B",
-    "lastRoundDate": "2026-02",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Waymo",
-    "totalRaised": "$16.0B+",
-    "totalRaisedRaw": 16000.0,
-    "lastRound": "Late Stage",
-    "lastRoundAmount": "$16B",
-    "lastRoundDate": "2026-02",
-    "valuation": "$126B",
-    "leadInvestors": [
-      "Alphabet"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Orbion Space Technology",
-    "totalRaised": "$12.0B+",
-    "totalRaisedRaw": 12026.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$26M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "Built Robotics",
-    "totalRaised": "$5.8B+",
-    "totalRaisedRaw": 5754.1,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$4.1M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Accel"
-    ],
-    "roundCount": 3
-  },
-  {
-    "company": "Ample",
-    "totalRaised": "$4.5B+",
-    "totalRaisedRaw": 4500.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$4.5B",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -184,32 +35,6 @@
     "valuation": "$29.3B",
     "leadInvestors": [
       "a16z"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Celero Communications",
-    "totalRaised": "$2.1B+",
-    "totalRaisedRaw": 2070.0,
-    "lastRound": "Series C",
-    "lastRoundAmount": "$70M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "Q-CTRL",
-    "totalRaised": "$1.6B+",
-    "totalRaisedRaw": 1640.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$1.64B",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -246,19 +71,6 @@
     "lastRound": "Funding Round",
     "lastRoundAmount": "$1.2B",
     "lastRoundDate": "2026-02",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "GHGSat",
-    "totalRaised": "$1.3B+",
-    "totalRaisedRaw": 1310.0,
-    "lastRound": "Seed",
-    "lastRoundAmount": "$10M",
-    "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
@@ -322,19 +134,6 @@
     "totalRaised": "$1.0B+",
     "totalRaisedRaw": 1000.0,
     "lastRound": "Funding Round",
-    "lastRoundAmount": "$1B",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Endurosat",
-    "totalRaised": "$1.0B+",
-    "totalRaisedRaw": 1000.0,
-    "lastRound": "Seed",
     "lastRoundAmount": "$1B",
     "lastRoundDate": "2026-03",
     "valuation": "",
@@ -422,6 +221,19 @@
       "Thrive Capital"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "Together AI",
+    "totalRaised": "$555M+",
+    "totalRaisedRaw": 555.3,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$500M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 3
   },
   {
     "company": "Epirus",
@@ -553,6 +365,19 @@
     "roundCount": 1
   },
   {
+    "company": "Built Robotics",
+    "totalRaised": "$204M+",
+    "totalRaisedRaw": 204.1,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$4.1M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Astranis",
     "totalRaised": "$200M+",
     "totalRaisedRaw": 200.0,
@@ -562,6 +387,19 @@
     "valuation": "$3.5B",
     "leadInvestors": [
       "a16z"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Galvanick",
+    "totalRaised": "$190M+",
+    "totalRaisedRaw": 190.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$190M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -680,6 +518,19 @@
     "roundCount": 3
   },
   {
+    "company": "Celero Communications",
+    "totalRaised": "$70M+",
+    "totalRaisedRaw": 70.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$70M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "AiDash",
     "totalRaised": "$58M+",
     "totalRaisedRaw": 58.5,
@@ -771,6 +622,19 @@
     "roundCount": 1
   },
   {
+    "company": "Orbion Space Technology",
+    "totalRaised": "$26M+",
+    "totalRaisedRaw": 26.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$26M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Proteus Space",
     "totalRaised": "$17M+",
     "totalRaisedRaw": 17.0,
@@ -823,6 +687,19 @@
     "roundCount": 1
   },
   {
+    "company": "GHGSat",
+    "totalRaised": "$10M+",
+    "totalRaisedRaw": 10.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$10M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Starcloud",
     "totalRaised": "$10M+",
     "totalRaisedRaw": 10.0,
@@ -832,6 +709,32 @@
     "valuation": "",
     "leadInvestors": [
       "Accel"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Rebellions",
+    "totalRaised": "$10M+",
+    "totalRaisedRaw": 10.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$10M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "OpenAI",
+    "totalRaised": "$9M+",
+    "totalRaisedRaw": 9.0,
+    "lastRound": "Seed",
+    "lastRoundAmount": "$9M",
+    "lastRoundDate": "2026-02",
+    "valuation": "",
+    "leadInvestors": [
+      "Lightspeed Venture Partners"
     ],
     "roundCount": 1
   },

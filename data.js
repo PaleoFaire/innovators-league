@@ -3,7 +3,7 @@
 
 // Removed inline SEC_FILINGS_LIVE -- see data/sec_filings_auto.js for latest data
 
-const LAST_UPDATED = "2026-03-19";
+const LAST_UPDATED = "2026-03-20";
 
 // Data source freshness tracking — "auto" dates are resolved at runtime by initSectionTimestamps()
 const DATA_SOURCES = {
@@ -11546,6 +11546,500 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     thesisCluster: "industrial-manufacturing-automation",
     techApproach: "Browser-based panel design tool with automated quoting and UL-certified manufacturing pipeline — the JLCPCB for electrical assemblies",
     addedDate: "2026-03"
+  },
+  {
+    name: "MatX",
+    sector: "Chips & Semiconductors",
+    description: "Designs custom AI inference and training chips purpose-built for large language models. Founded by ex-Google TPU engineers, MatX builds from-scratch silicon architectures optimized for transformer data-movement patterns at advanced process nodes.",
+    founder: "Reiner Pope, Mike Gunter",
+    city: "Mountain View", state: "CA", country: "United States",
+    lat: 37.3861, lng: -122.0839,
+    yearFounded: 2022,
+    fundingStage: "Series B",
+    totalRaised: "$600M+",
+    investors: ["Harpoon Ventures", "Spark Capital", "General Catalyst", "Jane Street"],
+    website: "https://matx.com",
+    tags: ["AI chips", "custom silicon", "LLM hardware", "semiconductors", "transformer acceleration"],
+    signal: "hot",
+    scores: { team: 10, traction: 8, techMoat: 9, market: 10, momentum: 10 },
+    thesisCluster: "ai-semiconductor-architecture",
+    techApproach: "Purpose-built silicon for LLM workloads — custom chip architecture from scratch optimized for transformer model data movement, competing directly with Nvidia on AI inference",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Oxide Computer Company",
+    sector: "Chips & Semiconductors",
+    description: "Designs and manufactures integrated rack-scale cloud computers combining custom hardware and open-source software for on-premises data centers. Ships 3,000-lb, 9-foot racks as complete computing systems with custom power supplies and cooling.",
+    founder: "Bryan Cantrill, Steve Tuck, Jessie Frazelle",
+    city: "Emeryville", state: "CA", country: "United States",
+    lat: 37.8313, lng: -122.2852,
+    yearFounded: 2019,
+    fundingStage: "Series C",
+    totalRaised: "$340M",
+    investors: ["Riot Ventures", "Eclipse Ventures", "Tiger Global"],
+    website: "https://oxide.computer",
+    tags: ["data center hardware", "rack-scale computing", "on-prem cloud", "open source infrastructure"],
+    signal: "strong",
+    scores: { team: 9, traction: 7, techMoat: 9, market: 9, momentum: 8 },
+    thesisCluster: "compute-infrastructure-hardware",
+    techApproach: "Full-stack hardware+software integration at rack level — custom power supplies, cooling, compute sleds, and open-source control plane delivering hyperscaler infrastructure to enterprises and national labs",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Amogy",
+    sector: "Energy & Climate",
+    description: "Develops ammonia-to-power conversion technology for decarbonizing maritime shipping, heavy industry, and data center power. Sailed the world's first ammonia-powered maritime vessel in September 2024.",
+    founder: "Seonghoon Woo, Young Suk Jo",
+    city: "Brooklyn", state: "NY", country: "United States",
+    lat: 40.6782, lng: -73.9442,
+    yearFounded: 2020,
+    fundingStage: "Series B",
+    totalRaised: "$300M",
+    investors: ["DCVC", "Amazon Climate Pledge Fund", "Aramco Ventures", "Samsung Heavy Industries", "SK Innovation"],
+    website: "https://amogy.co",
+    tags: ["ammonia power", "maritime decarbonization", "clean energy", "hydrogen", "fuel cells"],
+    signal: "strong",
+    scores: { team: 8, traction: 8, techMoat: 9, market: 10, momentum: 8 },
+    thesisCluster: "clean-energy-maritime",
+    techApproach: "Proprietary ammonia cracking reactor converting liquid ammonia to hydrogen for zero-combustion, zero-NOx power generation — first to demonstrate ammonia-powered maritime vessel",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Chariot Defense",
+    sector: "Defense & Security",
+    description: "Builds modular, software-defined battlefield power distribution systems that replace diesel generators with low-signature battery-electric edge power. Founded by a former Anduril cUAS engineering lead.",
+    founder: "Ben Morse, Patrick McElhiney",
+    city: "San Francisco", state: "CA", country: "United States",
+    lat: 37.7749, lng: -122.4194,
+    yearFounded: 2024,
+    fundingStage: "Series A",
+    totalRaised: "$41M",
+    investors: ["a16z", "DCVC", "Shield Capital", "General Catalyst"],
+    website: "https://www.chariotdefense.com",
+    tags: ["defense tech", "military power systems", "battery-electric", "battlefield logistics"],
+    signal: "hot",
+    scores: { team: 9, traction: 6, techMoat: 8, market: 9, momentum: 9 },
+    thesisCluster: "defense-power-systems",
+    techApproach: "Custom battery modules with power routing software and low-thermal-signature design replacing noisy diesel generators — already generating revenue with U.S. Army contracts and DIU Project GI",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Intramotev",
+    sector: "Autonomous Vehicles & Drones",
+    description: "Retrofits conventional freight railcars with battery-electric, self-propelled autonomous drive systems that eliminate the need for locomotives on short-haul routes. TugVolt and ReVolt products actively deployed with major industrial operators.",
+    founder: "Tim Luchini",
+    city: "St. Louis", state: "MO", country: "United States",
+    lat: 38.6270, lng: -90.1994,
+    yearFounded: 2020,
+    fundingStage: "Series A",
+    totalRaised: "$14.4M",
+    investors: ["Cantos Ventures", "Flybridge Capital"],
+    website: "https://intramotev.com",
+    tags: ["autonomous rail", "electrification", "freight logistics", "battery-electric railcars"],
+    signal: "emerging",
+    scores: { team: 7, traction: 7, techMoat: 8, market: 8, momentum: 7 },
+    thesisCluster: "autonomous-freight-electrification",
+    techApproach: "Hardware retrofit kits converting standard railcars into self-propelled autonomous vehicles with regenerative braking — only manufacturer of its kind with revenue-generating deployed units",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Pickle Robot Company",
+    sector: "Robotics & Manufacturing",
+    description: "Builds AI-powered robotic arms that autonomously unload freight trailers in warehouse environments, handling boxes up to 50 lbs. Secured a $120M order from UPS for 400 robots deploying across their network.",
+    founder: "Andrew Meyer",
+    city: "Cambridge", state: "MA", country: "United States",
+    lat: 42.3601, lng: -71.0589,
+    yearFounded: 2018,
+    fundingStage: "Series B",
+    totalRaised: "$113M",
+    investors: ["DCVC", "Ranpak"],
+    website: "https://www.picklerobot.com",
+    tags: ["warehouse robotics", "logistics automation", "AI manipulation", "trailer unloading"],
+    signal: "strong",
+    scores: { team: 8, traction: 9, techMoat: 8, market: 9, momentum: 9 },
+    thesisCluster: "logistics-robotics",
+    techApproach: "Generative AI + advanced sensors for autonomous trailer unloading — 10M+ lbs of merchandise unloaded, $120M UPS contract for 400 robots deploying 2026-2027",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Augury",
+    sector: "Robotics & Manufacturing",
+    description: "Provides AI-driven industrial IoT sensors and software for predictive maintenance and process optimization in manufacturing. Proprietary vibration and magnetic sensors have analyzed 500M+ hours of machine data with 99.9% failure detection accuracy.",
+    founder: "Saar Yoskovitz, Gal Shaul",
+    city: "New York", state: "NY", country: "United States",
+    lat: 40.7128, lng: -74.0060,
+    yearFounded: 2011,
+    fundingStage: "Series F",
+    totalRaised: "$369M",
+    investors: ["Eclipse Ventures", "Insight Partners", "Qumra Capital"],
+    website: "https://www.augury.com",
+    tags: ["industrial IoT", "predictive maintenance", "machine health", "smart manufacturing"],
+    signal: "strong",
+    scores: { team: 8, traction: 9, techMoat: 8, market: 9, momentum: 8 },
+    thesisCluster: "industrial-ai-manufacturing",
+    techApproach: "Proprietary vibration and magnetic sensors with AI analyzing 500M+ hours of machine data — 99.9% failure detection accuracy deployed at Fortune 500 manufacturers in 40+ countries",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Lunar Energy",
+    sector: "Energy & Climate",
+    description: "Manufactures integrated DC-architecture home battery systems and AI-powered virtual power plant software for residential energy storage. Founded by former head of Tesla Energy, scaling from 10K to 100K systems/year.",
+    founder: "Kunal Girotra",
+    city: "Mountain View", state: "CA", country: "United States",
+    lat: 37.3861, lng: -122.0839,
+    yearFounded: 2020,
+    fundingStage: "Series D",
+    totalRaised: "$530M",
+    investors: ["DCVC", "Sunrun", "SK Group", "B Capital", "Prelude Ventures"],
+    website: "https://www.lunarenergy.com",
+    tags: ["energy storage", "home battery", "virtual power plant", "distributed energy", "solar"],
+    signal: "strong",
+    scores: { team: 9, traction: 8, techMoat: 7, market: 10, momentum: 8 },
+    thesisCluster: "distributed-energy-storage",
+    techApproach: "Custom DC-coupled battery hardware with proprietary power electronics and AI optimization — founded by former Tesla Energy head, deploying residential VPP at scale",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Cache Energy",
+    sector: "Energy & Climate",
+    description: "Develops long-duration thermochemical energy storage using lime-based pellets that store renewable energy for 100+ hours at ambient conditions. Non-toxic, non-flammable technology that won DOE pitch competition at the White House.",
+    founder: "Arpit Agarwal",
+    city: "Champaign", state: "IL", country: "United States",
+    lat: 40.1164, lng: -88.2434,
+    yearFounded: 2022,
+    fundingStage: "Seed",
+    totalRaised: "$8.5M",
+    investors: ["Cantos Ventures", "Voyager Ventures", "Halliburton Labs"],
+    website: "https://www.cache.energy",
+    tags: ["long-duration storage", "thermochemical storage", "grid storage", "clean energy"],
+    signal: "emerging",
+    scores: { team: 7, traction: 5, techMoat: 9, market: 9, momentum: 7 },
+    thesisCluster: "long-duration-energy-storage",
+    techApproach: "Reversible thermochemical reactions in lime pellets storing energy 100+ hours at ambient conditions — building 1 MW first-of-kind system with DOE and state support",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Furno Materials",
+    sector: "Energy & Climate",
+    description: "Produces zero-emission Portland cement using compact vertical micro-kilns that reduce fossil fuel pollution by 70-100% compared to traditional rotary kilns. Cement accounts for 4B+ metric tons of CO2/year globally.",
+    founder: "Joshua Willard",
+    city: "Chicago", state: "IL", country: "United States",
+    lat: 41.8781, lng: -87.6298,
+    yearFounded: 2022,
+    fundingStage: "Seed",
+    totalRaised: "$11M",
+    investors: ["Cantos Ventures", "DOE"],
+    website: "https://furnomaterials.com",
+    tags: ["green cement", "decarbonization", "advanced materials", "micro-kilns", "construction materials"],
+    signal: "emerging",
+    scores: { team: 7, traction: 6, techMoat: 9, market: 10, momentum: 7 },
+    thesisCluster: "industrial-decarbonization",
+    techApproach: "Reinvented kiln form factor from horizontal to vertical micro-kilns with ML process optimization — building 8 micro-kilns at Ozinga's Chicago plant plus $20M DOE grant",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Pyka",
+    sector: "Autonomous Vehicles & Drones",
+    description: "Builds fully autonomous, all-electric fixed-wing aircraft for agricultural spraying, cargo logistics, and contested military logistics. Largest FAA-approved UAS for agricultural operations with active commercial ops across the Americas.",
+    founder: "Michael Norcia",
+    city: "Oakland", state: "CA", country: "United States",
+    lat: 37.8044, lng: -122.2712,
+    yearFounded: 2017,
+    fundingStage: "Series B",
+    totalRaised: "$88M",
+    investors: ["DCVC", "Y Combinator", "Valor Equity Partners"],
+    website: "https://www.flypyka.com",
+    tags: ["autonomous aviation", "electric aircraft", "agricultural drones", "defense logistics", "UAS"],
+    signal: "strong",
+    scores: { team: 8, traction: 8, techMoat: 8, market: 9, momentum: 8 },
+    thesisCluster: "autonomous-aviation",
+    techApproach: "Vertically integrated autonomous electric fixed-wing UAS — airframe to avionics to flight control, commercially deployed with Dole, Embraer, AFWERX defense partnerships",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Limelight Steel",
+    sector: "Energy & Climate",
+    description: "Uses laser-powered furnaces to produce zero-emission iron from commercial ore grades, replacing coal-fired blast furnaces. Patented technology heats iron ore above 1,600°C using concentrated light instead of coal.",
+    founder: "Andrew Grieshop, Noah Obuya",
+    city: "San Diego", state: "CA", country: "United States",
+    lat: 32.7157, lng: -117.1611,
+    yearFounded: 2023,
+    fundingStage: "Pre-Seed",
+    totalRaised: "$3.35M",
+    investors: ["Cantos Ventures", "Khosla Ventures", "Anglo American"],
+    website: "https://limelightsteel.com",
+    tags: ["green steel", "laser furnace", "decarbonization", "iron production", "advanced materials"],
+    signal: "stealth",
+    scores: { team: 7, traction: 4, techMoat: 10, market: 10, momentum: 6 },
+    thesisCluster: "industrial-decarbonization",
+    techApproach: "Patented laser furnace technology replacing coal in iron production — entirely new process chemistry backed by major mining strategics like Anglo American",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Slip Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Deploys autonomous truck-loading and unloading robots-as-a-service that process any trailer in 5 minutes flat. Founded by former Tesla Gigafactory engineer, deployed at John Deere, GE Appliances, and Nissan.",
+    founder: "Rhodes Starr",
+    city: "Atlanta", state: "GA", country: "United States",
+    lat: 33.7490, lng: -84.3880,
+    yearFounded: 2019,
+    fundingStage: "Series B",
+    totalRaised: "$45M",
+    investors: ["DCVC"],
+    website: "https://www.sliprobotics.com",
+    tags: ["logistics robotics", "warehouse automation", "loading dock robots", "RaaS"],
+    signal: "strong",
+    scores: { team: 8, traction: 8, techMoat: 7, market: 9, momentum: 8 },
+    thesisCluster: "logistics-robotics",
+    techApproach: "SlipBot hardware operating at warehouse loading docks with zero WiFi or IT integration — hundreds of robots across 25+ sites processing trailers in 5 minutes",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Remedy Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Builds the world's first remotely operable endovascular surgical robot enabling stroke thrombectomy procedures between hospitals. Completed first fully remote neurointerventional procedures between two Toronto hospitals.",
+    founder: "Marcel Prud'homme, Ryan Decker",
+    city: "Toronto", state: "ON", country: "Canada",
+    lat: 43.6532, lng: -79.3832,
+    yearFounded: 2020,
+    fundingStage: "Series A",
+    totalRaised: "$35M",
+    investors: ["DCVC", "Blackbird Ventures", "Build Collective"],
+    website: "https://www.remedyrobotics.com",
+    tags: ["surgical robotics", "telesurgery", "medical devices", "stroke treatment", "catheter robots"],
+    signal: "emerging",
+    scores: { team: 8, traction: 6, techMoat: 9, market: 9, momentum: 7 },
+    thesisCluster: "medical-robotics",
+    techApproach: "Custom robotic hardware simultaneously controlling up to 4 catheter tools with AI-supported navigation for remote neurointerventional surgery — 45 patents filed",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Verdant Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Develops autonomous multi-action robotic platforms for precision weeding and crop management in specialty agriculture. Computer vision identifies every individual plant at millimeter accuracy, reducing chemical inputs by 96%.",
+    founder: "Gabe Sibley, Curtis Garner",
+    city: "Hayward", state: "CA", country: "United States",
+    lat: 37.6688, lng: -122.0808,
+    yearFounded: 2018,
+    fundingStage: "Series A",
+    totalRaised: "$58M",
+    investors: ["DCVC", "Cleveland Avenue"],
+    website: "https://www.verdantrobotics.com",
+    tags: ["agricultural robotics", "precision agriculture", "computer vision", "autonomous farming"],
+    signal: "strong",
+    scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 7 },
+    thesisCluster: "agricultural-robotics",
+    techApproach: "Autonomous mobile platforms with computer vision identifying individual plants at millimeter accuracy — Sharpshooter system processes 5 acres/hour with 96% chemical reduction",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Galadyne",
+    sector: "Defense & Security",
+    description: "Develops liquid-propulsion missile systems designed for mass production, reviving a propulsion approach that eliminates reliance on fragile energetics supply chains. Addresses critical U.S. missile inventory gaps.",
+    founder: "TJ Kim",
+    city: "Austin", state: "TX", country: "United States",
+    lat: 30.2672, lng: -97.7431,
+    yearFounded: 2024,
+    fundingStage: "Pre-Seed",
+    totalRaised: "$4.8M",
+    investors: ["a16z", "Pax Ventures"],
+    website: "https://galadyne.com",
+    tags: ["defense tech", "missile systems", "liquid propulsion", "munitions", "mass manufacturing"],
+    signal: "stealth",
+    scores: { team: 7, traction: 3, techMoat: 8, market: 10, momentum: 7 },
+    thesisCluster: "defense-munitions",
+    techApproach: "Liquid-propulsion missile architecture enabling dramatically lower unit costs and higher production rates — multi-platform roadmap from target vehicles to strike missiles to interceptors",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Simbe Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Deploys fully autonomous inventory-scanning robots (Tally) in retail stores using computer vision and RFID to audit shelves during normal operating hours. Working with 29 retail brands including BJ's Wholesale and Albertsons.",
+    founder: "Brad Bogolea",
+    city: "South San Francisco", state: "CA", country: "United States",
+    lat: 37.6547, lng: -122.4077,
+    yearFounded: 2014,
+    fundingStage: "Series C",
+    totalRaised: "$104M",
+    investors: ["Eclipse Ventures", "Riot Ventures", "Goldman Sachs"],
+    website: "https://www.simberobotics.com",
+    tags: ["retail robotics", "inventory automation", "computer vision", "RFID scanning", "autonomous mobile robots"],
+    signal: "strong",
+    scores: { team: 8, traction: 8, techMoat: 7, market: 8, momentum: 8 },
+    thesisCluster: "commercial-robotics",
+    techApproach: "Autonomous mobile Tally robots with computer vision + RFID scanning shelves in real-time alongside shoppers — #1 Robotics & Engineering on Fast Company 2025 Most Innovative list",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Auradine",
+    sector: "Chips & Semiconductors",
+    description: "Designs and manufactures 3nm ASICs for Bitcoin mining and AI data center networking. Commercially shipping Teraflux miners deployed by 40+ operators. Expanding into AI networking with AuraLinks division.",
+    founder: "Rajiv Khemani",
+    city: "Santa Clara", state: "CA", country: "United States",
+    lat: 37.3541, lng: -121.9552,
+    yearFounded: 2022,
+    fundingStage: "Series C",
+    totalRaised: "$300M+",
+    investors: ["DCVC", "Samsung", "Qualcomm Ventures", "StepStone Group"],
+    website: "https://auradine.com",
+    tags: ["3nm ASIC", "bitcoin mining", "AI networking", "semiconductor design", "custom chips"],
+    signal: "strong",
+    scores: { team: 9, traction: 8, techMoat: 8, market: 9, momentum: 9 },
+    thesisCluster: "ai-semiconductor-architecture",
+    techApproach: "Custom 3nm ASIC fabrication for high-efficiency compute — $80M+ in 2025 bookings, $200M+ pipeline, board member Lip-Bu Tan became Intel CEO",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Rugged Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Builds autonomous construction layout robots that print precise building plans directly onto concrete slabs, replacing manual surveying. Cuts layout time by 60% and reduces rework by 75%.",
+    founder: "Derrick Morse, Logan Farrell",
+    city: "Houston", state: "TX", country: "United States",
+    lat: 29.7604, lng: -95.3698,
+    yearFounded: 2018,
+    fundingStage: "Series A",
+    totalRaised: "$12M",
+    investors: ["Riot Ventures", "Suffolk Construction"],
+    website: "https://www.ruggedrobotics.com",
+    tags: ["construction robotics", "autonomous layout", "BIM", "construction automation"],
+    signal: "emerging",
+    scores: { team: 7, traction: 6, techMoat: 8, market: 8, momentum: 7 },
+    thesisCluster: "construction-robotics",
+    techApproach: "Autonomous robots translating 3D BIM models into sub-1/8-inch precision floor markings — IEEE Robotics and Automation Award for Product Innovation 2025",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Elementary Robotics",
+    sector: "Robotics & Manufacturing",
+    description: "Provides AI-powered visual inspection systems for manufacturing quality control, inspecting 1B+ parts annually for Fortune 500 manufacturers. VisionStream AI self-teaches defect identification in 12 seconds with 99.9% accuracy.",
+    founder: "Arye Barnehama",
+    city: "Los Angeles", state: "CA", country: "United States",
+    lat: 34.0522, lng: -118.2437,
+    yearFounded: 2017,
+    fundingStage: "Series C",
+    totalRaised: "$66M",
+    investors: ["Riot Ventures", "Tiger Global", "Rockwell Automation"],
+    website: "https://www.elementary.com",
+    tags: ["machine vision", "quality inspection", "manufacturing AI", "computer vision", "defect detection"],
+    signal: "strong",
+    scores: { team: 8, traction: 8, techMoat: 8, market: 9, momentum: 7 },
+    thesisCluster: "industrial-ai-manufacturing",
+    techApproach: "Computer vision hardware + AI that self-teaches defect identification in 12 seconds with 99.9% accuracy — strategic investment from Rockwell Automation validates industrial credibility",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Aeon Industrial",
+    sector: "Defense & Security",
+    description: "Develops software-defined tactical weapon systems with vertically integrated manufacturing of propellant, rocket motors, fuzes, and flight computers. Flagship Zeus missile uses ODIN autonomous targeting software for automatic threat identification and persistent tracking.",
+    founder: "Michael Blades",
+    city: "Austin", state: "TX", country: "United States",
+    lat: 30.2672, lng: -97.7431,
+    yearFounded: 2024,
+    fundingStage: "Seed",
+    totalRaised: "$18.6M",
+    investors: ["Silent Ventures", "1789 Capital", "MaC Venture Capital", "Quiet Capital"],
+    website: "https://aeonindustrial.com",
+    tags: ["defense tech", "missiles", "autonomous weapons", "propulsion", "munitions manufacturing"],
+    signal: "hot",
+    scores: { team: 8, traction: 7, techMoat: 8, market: 10, momentum: 9 },
+    thesisCluster: "defense-munitions",
+    techApproach: "Vertically integrated missile manufacturing with in-house propellant, avionics, and ODIN autonomous targeting software — production lines ready for 100 Zeus systems/month with live-fire Army testing complete",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Anthrogen",
+    sector: "Biotech & Synthetic Biology",
+    description: "Uses CRISPR-engineered photosynthetic microbes and AI-designed enzymes to convert atmospheric CO2 into valuable chemicals and sustainable aviation fuel. Claims to have engineered the fastest-known photosynthesizing organism.",
+    founder: "Jack O'Brien, Will Conway, Mateo Lopez",
+    city: "San Francisco", state: "CA", country: "United States",
+    lat: 37.7749, lng: -122.4194,
+    yearFounded: 2024,
+    fundingStage: "Seed",
+    totalRaised: "$4.5M",
+    investors: ["Regen Ventures", "BoxGroup", "Y Combinator", "Wayfinder Ventures"],
+    website: "https://anthrogen.com",
+    tags: ["synthetic biology", "carbon conversion", "CRISPR", "enzyme engineering", "sustainable aviation fuel"],
+    signal: "emerging",
+    scores: { team: 7, traction: 4, techMoat: 8, market: 9, momentum: 7 },
+    thesisCluster: "synthetic-biology-climate",
+    techApproach: "CRISPR-engineered photosynthetic microbes with AI-designed enzymes converting atmospheric CO2 into chemicals and SAF — YC S24 batch, engineered fastest-known photosynthesizing organism",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Overview Energy",
+    sector: "Space Systems",
+    description: "Develops space-based solar power that beams energy from geosynchronous orbit via infrared lasers to existing utility-scale solar farms on Earth, enabling near-24/7 solar generation. Has demonstrated airborne laser-to-ground power transmission over 5 km.",
+    founder: "Lars Osborne",
+    city: "Boston", state: "MA", country: "United States",
+    lat: 42.3601, lng: -71.0589,
+    yearFounded: 2022,
+    fundingStage: "Seed",
+    totalRaised: "$20M",
+    investors: ["Lowercarbon Capital", "Prime Movers Lab", "Aurelia Institute", "EQT Foundation"],
+    website: "https://www.overviewenergy.com",
+    tags: ["space-based solar", "laser power beaming", "satellite power", "clean energy", "orbital infrastructure"],
+    signal: "emerging",
+    scores: { team: 7, traction: 5, techMoat: 9, market: 10, momentum: 7 },
+    thesisCluster: "space-based-power",
+    techApproach: "GEO satellites beaming infrared laser power to ground solar farms for 24/7 generation — demonstrated 5 km airborne laser-to-ground transmission, satellite launch targeted 2028",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Living Carbon",
+    sector: "Biotech & Synthetic Biology",
+    description: "Engineers genetically modified trees via CRISPR that photosynthesize more efficiently, grow 50%+ faster, and resist decomposition for enhanced carbon capture through reforestation. Microsoft signed a 1.4M tonne carbon removal agreement.",
+    founder: "Maddie Hall",
+    city: "San Francisco", state: "CA", country: "United States",
+    lat: 37.7749, lng: -122.4194,
+    yearFounded: 2019,
+    fundingStage: "Series A",
+    totalRaised: "$36M",
+    investors: ["Temasek", "Lowercarbon Capital", "Toyota Ventures", "Felicis Ventures"],
+    website: "https://www.livingcarbon.com",
+    tags: ["synthetic biology", "CRISPR", "carbon removal", "bioengineered trees", "reforestation"],
+    signal: "emerging",
+    scores: { team: 7, traction: 7, techMoat: 8, market: 9, momentum: 7 },
+    thesisCluster: "synthetic-biology-climate",
+    techApproach: "CRISPR-engineered trees with enhanced photosynthesis genes from squash and algae — 50%+ faster growth, decomposition resistance, Microsoft 1.4M tonne carbon removal deal",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Sorcerer",
+    sector: "Aerospace & Aviation",
+    description: "Deploys a global network of persistent high-altitude weather balloons that remain airborne 6+ months each, completing ~30 laps around the globe while collecting 1000x more atmospheric data than existing systems for AI weather forecasting.",
+    founder: "Chris Boyes, Andrew Shapiro",
+    city: "San Francisco", state: "CA", country: "United States",
+    lat: 37.7749, lng: -122.4194,
+    yearFounded: 2024,
+    fundingStage: "Seed",
+    totalRaised: "$3.9M",
+    investors: ["Y Combinator"],
+    website: "https://sorcerer.earth",
+    tags: ["stratospheric balloons", "weather data", "atmospheric sensing", "AI forecasting", "aerospace"],
+    signal: "stealth",
+    scores: { team: 7, traction: 5, techMoat: 8, market: 8, momentum: 7 },
+    thesisCluster: "atmospheric-sensing",
+    techApproach: "Persistent stratospheric balloon network at 65,000 ft collecting 1000x more atmospheric data than existing systems — 6+ month flight endurance, Stratocast AI forecasting product launched",
+    addedDate: "2026-03"
+  },
+  {
+    name: "Solideon",
+    sector: "Robotics & Manufacturing",
+    description: "Develops autonomous multi-robot micro-factories using Wire Arc Additive Manufacturing (WAAM) for 3D-printing large metallic aerospace and defense structures. Forward-deployable cells can print, post-process, assemble, and inspect without human intervention.",
+    founder: "Nathan Pawlicki",
+    city: "Berkeley", state: "CA", country: "United States",
+    lat: 37.8716, lng: -122.2727,
+    yearFounded: 2023,
+    fundingStage: "Pre-Seed",
+    totalRaised: "$6.5M",
+    investors: ["8090 Industries", "1517 Fund", "Boost VC", "Stellar Ventures", "Techstars"],
+    website: "https://solideon.com",
+    tags: ["additive manufacturing", "WAAM", "autonomous factories", "defense manufacturing", "3D metal printing"],
+    signal: "emerging",
+    scores: { team: 7, traction: 5, techMoat: 8, market: 9, momentum: 7 },
+    thesisCluster: "advanced-manufacturing",
+    techApproach: "Autonomous multi-robot WAAM micro-factories for large metal structures — $1.25M Air Force contract, forward-deployable manufacturing cells, TechCrunch Disrupt finalist",
+    addedDate: "2026-03"
   }
 ];
 
@@ -11554,7 +12048,7 @@ const VC_FIRMS = [
   {
     name: "a16z (Andreessen Horowitz)",
     shortName: "a16z",
-    aum: "$42B+",
+    aum: "$90B+",
     flagshipFund: "American Dynamism",
     founded: 2009,
     hq: "Menlo Park, CA",
@@ -11569,12 +12063,12 @@ const VC_FIRMS = [
   {
     name: "8VC",
     shortName: "8VC",
-    aum: "$6B+",
-    flagshipFund: "8VC Fund IV",
-    founded: 2016,
+    aum: "$5B+",
+    flagshipFund: "8VC Fund VI",
+    founded: 2015,
     hq: "Austin, TX",
     thesis: "Backing the industrial renaissance — companies building real things that transform defense, logistics, manufacturing, and biology. Founded by Joe Lonsdale with deep Palantir DNA.",
-    keyPartners: ["Joe Lonsdale", "Drew Oetting", "Kimmy Scotti"],
+    keyPartners: ["Joe Lonsdale", "Drew Oetting", "Jake Medwell"],
     sectorFocus: ["Defense & Security", "Robotics & Manufacturing", "Biotech & Health"],
     portfolioCompanies: ["Epirus", "Joby Aviation", "Hadrian", "Saildrone", "Saronic", "Bedrock Robotics"],
     signal: "established",
@@ -11585,13 +12079,13 @@ const VC_FIRMS = [
     name: "Founders Fund",
     shortName: "Founders Fund",
     aum: "$17B+",
-    flagshipFund: "Founders Fund VIII",
+    flagshipFund: "Founders Fund Growth III",
     founded: 2005,
     hq: "San Francisco, CA",
     thesis: "We wanted flying cars, instead we got 140 characters. Investing in transformative technology companies that create revolutionary change. First institutional investor in SpaceX.",
-    keyPartners: ["Peter Thiel", "Keith Rabois", "Trae Stephens", "Delian Asparouhov"],
+    keyPartners: ["Peter Thiel", "Trae Stephens", "Delian Asparouhov", "Napoleon Ta"],
     sectorFocus: ["Defense & Security", "Space & Aerospace", "AI & Software"],
-    portfolioCompanies: ["Palantir", "Anduril Industries", "Infleqtion", "Varda Space Industries", "SpaceX", "Relativity Space", "Boom Supersonic", "Finwave Semiconductor", "General Matter", "Scale AI", "Flexport", "The Boring Company", "Cognition", "PsiQuantum", "Impulse Space", "NuScale Power", "Foundry Lab", "Neuralink", "Endurosat", "Crusoe Energy", "Founder Tier", "Flock Safety", "Solugen", "OpenAI", "Zettascale", "Quarterly Founder Showcase", "general", "D-Wave Quantum", "space", "Astroscale", "Hadrian", "Impulse Labs"],
+    portfolioCompanies: ["The Boring Company", "Endurosat", "NuScale Power", "Finwave Semiconductor", "Palantir", "Neuralink", "Flock Safety", "Foundry Lab", "Astroscale", "Crusoe Energy", "Anduril Industries", "Hadrian", "Varda Space Industries", "General Matter", "Infleqtion", "PsiQuantum", "Impulse Space", "Zettascale", "Relativity Space", "Flexport", "Impulse Labs", "Cognition", "OpenAI", "Scale AI", "D-Wave Quantum", "Solugen", "Boom Supersonic", "SpaceX"],
     signal: "established",
     website: "https://foundersfund.com",
     insight: "Founders Fund remains the intellectual center of contrarian hard tech investing. Peter Thiel's conviction that 'we live in a world of bits, not atoms' drove the fund's early SpaceX, Palantir, and Anduril bets. Trae Stephens and Delian Asparouhov now lead the defense tech thesis, having essentially created the category."
@@ -11599,12 +12093,12 @@ const VC_FIRMS = [
   {
     name: "Khosla Ventures",
     shortName: "Khosla",
-    aum: "$14B+",
+    aum: "$16B+",
     flagshipFund: "Khosla Ventures IX",
     founded: 2004,
     hq: "Menlo Park, CA",
     thesis: "Willing to fail in order to change the world. Making big, risky bets on audacious technology — from nuclear fusion to AI — that most VCs consider too capital-intensive or technically risky.",
-    keyPartners: ["Vinod Khosla", "Samir Kaul", "Sven Strohband"],
+    keyPartners: ["Vinod Khosla", "Samir Kaul", "Keith Rabois", "Sven Strohband"],
     sectorFocus: ["Energy & Climate", "AI & Software", "Biotech & Health"],
     portfolioCompanies: ["Crusoe Energy", "Helion", "Commonwealth Fusion Systems", "OpenAI", "Collaborative Robotics"],
     signal: "established",
@@ -11618,25 +12112,25 @@ const VC_FIRMS = [
     flagshipFund: "Sequoia Capital Fund",
     founded: 1972,
     hq: "Menlo Park, CA",
-    thesis: "Partnering with daring founders who want to build enduring companies. From Apple to NVIDIA, 133 unicorns and counting. Now expanding into frontier tech with investments in nuclear, AI, and defense.",
-    keyPartners: ["Roelof Botha", "Alfred Lin", "Shaun Maguire", "Pat Grady"],
+    thesis: "Partnering with daring founders who want to build enduring companies. From Apple to NVIDIA, 133 unicorns and counting. Restructured in 2023 into US/Europe entity. Evergreen fund model replacing traditional 10-year cycles.",
+    keyPartners: ["Alfred Lin", "Pat Grady", "Shaun Maguire", "Roelof Botha"],
     sectorFocus: ["AI & Software", "Defense & Security", "Energy & Climate"],
-    portfolioCompanies: ["Collaborative Robotics", "Varda Space Industries", "NVIDIA", "Stripe", "Wiz", "SHIELD Technology Partners", "SpaceX"],
+    portfolioCompanies: ["SpaceX", "Shield AI", "Varda Space Industries", "Collaborative Robotics", "NVIDIA", "Wiz", "Stripe"],
     signal: "established",
     website: "https://sequoiacap.com",
-    insight: "Sequoia's institutional prestige is unmatched — backing Apple, Google, and NVIDIA. Their increasing tilt toward hard tech and defense under Shaun Maguire signals a seismic shift: when Sequoia allocates to a category, it validates the entire sector. Their 'Arc' long-term fund unlocks patient capital for frontier tech."
+    insight: "Sequoia's institutional prestige is unmatched — backing Apple, Google, and NVIDIA. Their 2023 restructuring (splitting from China/India operations) refocused the firm. Alfred Lin and Pat Grady now co-lead as managing partners. Shaun Maguire's hard tech and defense investments signal a seismic shift: when Sequoia allocates to a category, it validates the entire sector."
   },
   {
     name: "DCVC (Data Collective)",
     shortName: "DCVC",
     aum: "$4B+",
-    flagshipFund: "DCVC Deep Tech Fund",
+    flagshipFund: "DCVC Fund VI",
     founded: 2011,
-    hq: "San Francisco, CA",
+    hq: "Palo Alto, CA",
     thesis: "Exclusively deep tech. Investing at the intersection of computational approaches and massive datasets applied to trillion-dollar industries: agriculture, energy, manufacturing, transportation, and life sciences.",
     keyPartners: ["Matt Ocko", "Zachary Bogue", "Rachel Slaybaugh"],
     sectorFocus: ["Energy & Climate", "AI & Software", "Robotics & Manufacturing"],
-    portfolioCompanies: ["Oklo", "Planet Labs", "Saildrone"],
+    portfolioCompanies: ["Oklo", "Planet Labs", "Saildrone", "Amogy", "Pickle Robot Company", "Slip Robotics", "Pyka", "Radiant", "Remedy Robotics", "Verdant Robotics", "Chariot Defense", "Lunar Energy"],
     signal: "rising",
     website: "https://dcvc.com",
     insight: "DCVC is one of the few funds that has been exclusively deep tech from inception, not as a recent pivot. Their 'computational + domain' thesis has produced standout returns. Rachel Slaybaugh's nuclear expertise gives them an edge in the nuclear energy renaissance."
@@ -11644,32 +12138,32 @@ const VC_FIRMS = [
   {
     name: "Eclipse Ventures",
     shortName: "Eclipse",
-    aum: "$5B+",
-    flagshipFund: "Eclipse Growth Fund",
+    aum: "$4B+",
+    flagshipFund: "Eclipse Fund IV",
     founded: 2015,
     hq: "Palo Alto, CA",
     thesis: "Industrial transformation. Investing in companies that apply technology to modernize the physical world — from defense manufacturing to construction robotics to supply chain intelligence.",
-    keyPartners: ["Greg Reichow", "Lior Susan"],
+    keyPartners: ["Lior Susan", "Greg Reichow", "Aidan Madigan-Curtis"],
     sectorFocus: ["Defense & Security", "Robotics & Manufacturing", "Housing & Construction"],
-    portfolioCompanies: ["Gecko Robotics", "Machina Labs", "Hadrian", "Bedrock Robotics"],
+    portfolioCompanies: ["Oxide Computer Company", "VulcanForms", "Simbe Robotics", "Gecko Robotics", "Augury", "Machina Labs", "Blue Water Autonomy", "Hadrian", "Bedrock Robotics"],
     signal: "rising",
-    website: "https://eclipse.vc",
+    website: "https://eclipse.capital",
     insight: "Eclipse's 'industrial transformation' focus means they see what consumer-tech VCs miss: the massive opportunity in modernizing America's industrial base. Their portfolio companies are literally rebuilding how things are manufactured, inspected, and maintained."
   },
   {
     name: "General Catalyst",
     shortName: "GC",
-    aum: "$25B+",
-    flagshipFund: "General Catalyst Fund XIV",
+    aum: "$40B+",
+    flagshipFund: "General Catalyst Fund XII",
     founded: 2000,
     hq: "Cambridge, MA",
-    thesis: "Responsible innovation with patient capital. Increasing allocation to deep tech, defense, and health transformation. Unique model of embedding operating partners and transforming legacy institutions.",
-    keyPartners: ["Hemant Taneja", "Deep Nishar", "Kyle Doherty"],
+    thesis: "Responsible innovation with patient capital. Recast as an 'investment and transformation company' — acquiring health systems, merging with European/Indian VCs, and deploying across deep tech, defense, and AI.",
+    keyPartners: ["Hemant Taneja", "Trevor Oelschig"],
     sectorFocus: ["AI & Software", "Biotech & Health", "Defense & Security"],
-    portfolioCompanies: ["Snap", "Livongo", "Collaborative Robotics", "Stripe", "Anduril Industries", "Applied Intuition", "Nominal", "Vannevar Labs", "general", "Mistral AI", "Darkhive", "Hive AI", "Pacific Fusion", "Charm Industrial", "Helsing", "Re:Build Manufacturing", "Hippocratic AI"],
+    portfolioCompanies: ["Hippocratic AI", "Darkhive", "Re:Build Manufacturing", "Anduril Industries", "Applied Intuition", "Vannevar Labs", "Charm Industrial", "Livongo", "Snap", "Chariot Defense", "Collaborative Robotics", "Mistral AI", "Hive AI", "Nominal", "Helsing", "Pacific Fusion", "Stripe"],
     signal: "rising",
     website: "https://generalcatalyst.com",
-    insight: "GC's 'responsible innovation' thesis and healthcare transformation strategy — including acquiring a health system — represent a new model of VC involvement. Their deep tech allocation is growing rapidly, and their Cambridge roots give them MIT/Harvard deal flow."
+    insight: "GC has transformed from a traditional VC into a global financial services company under CEO Hemant Taneja. Acquired Summa Health (hospital chain), merged with La Famiglia (Europe) and Venture Highway (India), and agreed to acquire Janus Henderson for $7.4B. Their $40B+ AUM and deep tech allocation are growing rapidly."
   },
   {
     name: "Alumni Ventures",
@@ -11689,8 +12183,8 @@ const VC_FIRMS = [
   {
     name: "Lux Capital",
     shortName: "Lux",
-    aum: "$5B+",
-    flagshipFund: "Lux Ventures VII",
+    aum: "$7B",
+    flagshipFund: "Lux Ventures IX",
     founded: 2000,
     hq: "New York, NY",
     thesis: "Investing in emerging science and technology ventures at the outermost edges of what is possible. Contrarian bets on unconventional founders building transformative companies in atoms, not just bits.",
@@ -11705,13 +12199,13 @@ const VC_FIRMS = [
     name: "Harpoon Ventures",
     shortName: "Harpoon",
     aum: "$300M+",
-    flagshipFund: "Harpoon Ventures Fund II",
+    flagshipFund: "Harpoon Ventures Fund IV",
     founded: 2018,
     hq: "San Diego, CA",
-    thesis: "Backing founders building mission-critical technologies. Founded by a former Navy SEAL and two-time Olympic medalist, Harpoon uniquely bridges the gap between Silicon Valley innovation and national security requirements.",
-    keyPartners: ["Larsen Jensen", "Chris Senical"],
+    thesis: "Backing founders building mission-critical technologies. Founded by a two-time Olympic medalist and former Navy SEAL, Harpoon uniquely bridges the gap between Silicon Valley innovation and national security requirements.",
+    keyPartners: ["Larsen Jensen", "Jeff Torrance"],
     sectorFocus: ["Defense & Security", "AI & Software", "Space & Aerospace"],
-    portfolioCompanies: ["Castelion", "Solugen", "Astranis", "Electroflow Technologies", "Prusa Research"],
+    portfolioCompanies: ["Firestorm Labs", "Astranis", "General Galactic", "Salient Motion", "MatX", "Solugen", "Castelion"],
     signal: "rising",
     website: "https://harpoon.vc",
     insight: "Larsen Jensen's journey from Olympic swimmer to Navy SEAL to VC gives Harpoon a rare edge: they understand both what operators need in the field AND what makes technology investable. Their dual-use focus — commercial products with defense applications — hits the sweet spot of the current defense tech cycle. 79 investments and 23 exits show consistent execution."
@@ -11739,7 +12233,7 @@ const VC_FIRMS = [
     founded: 2016,
     hq: "San Francisco, CA",
     thesis: "First money in for 'near frontier' companies — deeply technical founders transforming the physical world in energy, defense, infrastructure, space, and advanced manufacturing. Willing to take technical risk that other VCs won't touch at the earliest stages.",
-    keyPartners: ["Ian Rountree"],
+    keyPartners: ["Ian Rountree", "Grant Gregory"],
     sectorFocus: ["Climate & Energy", "Defense & Security", "Space & Aerospace"],
     portfolioCompanies: ["Astranis", "Radiant", "Castelion", "Venus Aerospace", "Atom Computing", "Solugen", "Twelve"],
     signal: "rising",
@@ -11751,15 +12245,15 @@ const VC_FIRMS = [
     shortName: "Shield",
     aum: "$500M+",
     flagshipFund: "Shield Capital Fund II",
-    founded: 2022,
-    hq: "Washington, DC",
-    thesis: "Investing in the technologies and companies critical to national security. Led by former Pentagon DIU director and HarbourVest co-founder. Deep defense and intelligence community networks.",
-    keyPartners: ["Philip Bilden", "Raj Shah", "Lt. Gen. Dan Caine (ret.)"],
+    founded: 2021,
+    hq: "Burlingame, CA",
+    thesis: "Investing in the technologies and companies critical to national security. Led by former Pentagon DIU director Raj Shah and HarbourVest co-founder Philip Bilden. Deep defense and intelligence community networks.",
+    keyPartners: ["Raj Shah", "Philip Bilden", "Michael Brown"],
     sectorFocus: ["Defense & Security", "Space & Aerospace", "Cybersecurity"],
     portfolioCompanies: ["Apex", "Rebellion Defense", "Snorkel AI", "Hawkeye360", "Elroy Air"],
     signal: "hot",
     website: "https://shieldcap.com",
-    insight: "Shield Capital bridges the gap between Silicon Valley and the Pentagon like no other fund. Raj Shah's DIU experience means they understand government procurement, while their commercial VC approach ensures portfolio companies build real businesses. Three unicorns already — Apex, Rebellion, Snorkel AI."
+    insight: "Shield Capital bridges the gap between Silicon Valley and the Pentagon like no other fund. Both Raj Shah and Michael Brown are former DIU directors, giving them unmatched government procurement expertise. Their commercial VC approach ensures portfolio companies build real businesses, not just government-dependent contractors."
   },
   {
     name: "Bedrock Capital",
@@ -11767,7 +12261,7 @@ const VC_FIRMS = [
     aum: "$2B+",
     flagshipFund: "Bedrock Fund IV",
     founded: 2018,
-    hq: "San Francisco, CA",
+    hq: "Austin, TX",
     thesis: "Investing in 'narrative violations' — companies that challenge prevailing market assumptions. Multi-stage, industry-agnostic with notable defense and industrial positions.",
     keyPartners: ["Geoff Lewis", "Eric Stromberg"],
     sectorFocus: ["Defense & Security", "AI & Software", "Fintech"],
@@ -11775,6 +12269,51 @@ const VC_FIRMS = [
     signal: "established",
     website: "https://bedrockcap.com",
     insight: "Bedrock's 'narrative violations' thesis produced some legendary wins: early OpenAI, Flock Safety at $7.5B (2025). They're willing to bet against consensus — exactly what frontier tech requires. Grew from $127M in 2018 to $2B+ today."
+  },
+  {
+    name: "Riot Ventures",
+    shortName: "Riot",
+    aum: "$1B+",
+    flagshipFund: "Riot Fund III",
+    founded: 2017,
+    hq: "Los Angeles, CA",
+    thesis: "Backing founders building critical infrastructure for the physical world — defense, space, robotics, and industrial technology. Early-stage conviction in companies where atoms meet bits.",
+    keyPartners: ["Will Coffield", "Stephen Marcus"],
+    sectorFocus: ["Defense & Security", "Robotics & Manufacturing", "Space & Aerospace"],
+    portfolioCompanies: ["Blue Water Autonomy", "Deterrence", "Karman Industries", "True Anomaly", "Parallel Systems", "Simbe Robotics", "Lumafield", "Endurosat", "Rugged Robotics", "Elementary Robotics", "Oxide Computer Company"],
+    signal: "established",
+    website: "https://riot.vc",
+    insight: "Riot Ventures has scaled from a $10M first fund to over $1B in AUM, becoming one of the most connected hard tech investors in LA. Voted onto the LA Hard Tech 50 panel alongside Lux and Sequoia. Co-founders Will Coffield and Stephen Marcus deploy from $500K seed checks to $100M growth investments across defense, space, and industrial robotics."
+  },
+  {
+    name: "Prime Movers Lab",
+    shortName: "Prime Movers",
+    aum: "$1B+",
+    flagshipFund: "Prime Movers Lab Fund III",
+    founded: 2018,
+    hq: "Jackson Hole, WY",
+    thesis: "Exclusively investing in breakthrough scientific startups — companies inventing new molecules, materials, energy sources, and computing paradigms that transform billions of lives. Zero software-only investments.",
+    keyPartners: ["Dakin Sloss", "Brandon Simmons", "Amy Kruse"],
+    sectorFocus: ["Energy & Climate", "Space & Aerospace", "Biotech & Health", "Robotics & Manufacturing"],
+    portfolioCompanies: ["Radiant", "Boom Supersonic", "Overview Energy", "Impulse Space", "Fervo Energy", "Form Energy", "Electric Hydrogen"],
+    signal: "established",
+    website: "https://primemoverslab.com",
+    insight: "Prime Movers Lab is one of the few funds with an explicit science-only mandate — no SaaS, no fintech, no consumer. Their portfolio reads like a physics textbook: nuclear, fusion, hypersonics, space manufacturing. Dakin Sloss's conviction that 'atoms are the new bits' predated the hard tech boom by years."
+  },
+  {
+    name: "Valor Equity Partners",
+    shortName: "Valor",
+    aum: "$17.5B+",
+    flagshipFund: "Valor Equity Partners Fund VI",
+    founded: 2001,
+    hq: "Chicago, IL",
+    thesis: "Operational growth equity with deep involvement in scaling hardware and frontier technology companies. Built through two decades of partnership with Elon Musk — early Tesla, SpaceX, and Boring Company investor.",
+    keyPartners: ["Antonio Gracias", "Jon Shulkin", "Juan Sabater"],
+    sectorFocus: ["Energy & Climate", "Space & Aerospace", "Autonomous Vehicles & Drones", "Defense & Security"],
+    portfolioCompanies: ["SpaceX", "Impulse Space", "Chaos Industries", "Base Power", "Pyka", "Harbinger"],
+    signal: "established",
+    website: "https://valorep.com",
+    insight: "Antonio Gracias served on Tesla's board for over a decade (2007-2021) and remains on SpaceX's board — one of the most operationally experienced hard tech investors alive. Headquartered in Chicago with $17.5B+ AUM across growth equity, seed, and specialty vehicles. Valor doesn't just write checks — they embed operators."
   }
 ];
 
@@ -11790,40 +12329,26 @@ const MARKET_PULSE = [
   { name: "Kratos Defense", ticker: "KTOS", valuation: "$5B+", change: "+0.9%", trend: "up", sector: "Defense & Security" }
 ];
 
-// Auto-calculated funding tracker — Last updated: 2026-03-19
+// Auto-calculated funding tracker — Last updated: 2026-03-20
 const FUNDING_TRACKER = [
-  { company: "Cover", totalRaised: "$900.0B+", lastRound: "Funding Round", lastRoundAmount: "$900B", lastRoundDate: "2026-01", valuation: "", leadInvestors: ["Undisclosed"] },
-  { company: "OpenAI", totalRaised: "$260.0B+", lastRound: "Funding Round", lastRoundAmount: "$110B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed", "Lightspeed Venture Partners", "SoftBank"] },
-  { company: "Together AI", totalRaised: "$167.6B+", lastRound: "Series G", lastRoundAmount: "$500M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
-  { company: "Rebellions", totalRaised: "$110.0B+", lastRound: "SPAC", lastRoundAmount: "$10M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
-  { company: "Anduril Industries", totalRaised: "$62.5B+", lastRound: "Series G", lastRoundAmount: "$60B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed", "Founders Fund"] },
-  { company: "Durin", totalRaised: "$50.0B+", lastRound: "Funding Round", lastRoundAmount: "$50B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
-  { company: "Anthropic", totalRaised: "$43.0B+", lastRound: "Series G", lastRoundAmount: "$30B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed", "GIC"] },
-  { company: "Galvanick", totalRaised: "$41.2B+", lastRound: "Funding Round", lastRoundAmount: "$190M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed", "Index Ventures"] },
-  { company: "Labelbox", totalRaised: "$30.0B+", lastRound: "Series G", lastRoundAmount: "$30B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
-  { company: "Waymo", totalRaised: "$16.0B+", lastRound: "Late Stage", lastRoundAmount: "$16B", lastRoundDate: "2026-02", valuation: "$126B", leadInvestors: ["Alphabet"] },
-  { company: "Orbion Space Technology", totalRaised: "$12.0B+", lastRound: "SPAC", lastRoundAmount: "$26M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
-  { company: "Built Robotics", totalRaised: "$5.8B+", lastRound: "Funding Round", lastRoundAmount: "$4.1M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed", "Accel"] },
-  { company: "Ample", totalRaised: "$4.5B+", lastRound: "Funding Round", lastRoundAmount: "$4.5B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
+  { company: "Anthropic", totalRaised: "$13.0B+", lastRound: "Series F", lastRoundAmount: "$13B", lastRoundDate: "2025-09", valuation: "$183B", leadInvestors: ["GIC"] },
+  { company: "Anduril Industries", totalRaised: "$2.5B+", lastRound: "Series G", lastRoundAmount: "$2.5B", lastRoundDate: "2025-12", valuation: "$30.5B", leadInvestors: ["Founders Fund"] },
   { company: "Anysphere", totalRaised: "$2.3B+", lastRound: "Series D", lastRoundAmount: "$2.3B", lastRoundDate: "2025-11", valuation: "$29.3B", leadInvestors: ["a16z"] },
-  { company: "Celero Communications", totalRaised: "$2.1B+", lastRound: "Series C", lastRoundAmount: "$70M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
-  { company: "Q-CTRL", totalRaised: "$1.6B+", lastRound: "Funding Round", lastRoundAmount: "$1.64B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Skild AI", totalRaised: "$1.4B+", lastRound: "Series C", lastRoundAmount: "$1.4B", lastRoundDate: "2026-01", valuation: "$14B+", leadInvestors: ["Lightspeed"] },
   { company: "Crusoe Energy", totalRaised: "$1.4B+", lastRound: "Series E", lastRoundAmount: "$1.375B", lastRoundDate: "2025-10", valuation: "$10B+", leadInvestors: ["Valor Equity"] },
   { company: "Aurora Innovation", totalRaised: "$1.3B+", lastRound: "Funding Round", lastRoundAmount: "$1.2B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
-  { company: "GHGSat", totalRaised: "$1.3B+", lastRound: "Seed", lastRoundAmount: "$10M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "SHIELD Technology Partners", totalRaised: "$1.2B+", lastRound: "SPAC", lastRoundAmount: "$668M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Cellares", totalRaised: "$1.2B+", lastRound: "Funding Round", lastRoundAmount: "$1.2B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Sanctuary AI", totalRaised: "$1.1B+", lastRound: "Funding Round", lastRoundAmount: "$1.15B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Infleqtion", totalRaised: "$1.0B+", lastRound: "Funding Round", lastRoundAmount: "$1B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Founders Fund"] },
   { company: "Retro Biosciences", totalRaised: "$1.0B+", lastRound: "Funding Round", lastRoundAmount: "$1B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
-  { company: "Endurosat", totalRaised: "$1.0B+", lastRound: "Seed", lastRoundAmount: "$1B", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Form Energy", totalRaised: "$1.0B+", lastRound: "Series G", lastRoundAmount: "$1B", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Figure AI", totalRaised: "$1.0B+", lastRound: "Series C", lastRoundAmount: "$1B+", lastRoundDate: "2025-12", valuation: "$39B", leadInvestors: ["Microsoft"] },
   { company: "Neuralink", totalRaised: "$880M+", lastRound: "Series C", lastRoundAmount: "$230M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed", "ARK Invest"] },
   { company: "Quantinuum", totalRaised: "$665M+", lastRound: "Funding Round", lastRoundAmount: "$665M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Saronic", totalRaised: "$600M+", lastRound: "Series C", lastRoundAmount: "$600M+", lastRoundDate: "2025-12", valuation: "$4B", leadInvestors: ["a16z"] },
   { company: "Physical Intelligence", totalRaised: "$600M+", lastRound: "Series B", lastRoundAmount: "$600M", lastRoundDate: "2025-11", valuation: "$5.6B", leadInvestors: ["Bezos Expeditions", "Thrive Capital"] },
+  { company: "Together AI", totalRaised: "$555M+", lastRound: "Series G", lastRoundAmount: "$500M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Epirus", totalRaised: "$550M+", lastRound: "Late Stage", lastRoundAmount: "$550M+", lastRoundDate: "2026-01", valuation: "$1.35B", leadInvestors: [] },
   { company: "Shield AI", totalRaised: "$540M+", lastRound: "Series F-1", lastRoundAmount: "$540M", lastRoundDate: "2025-09", valuation: "$5.6B", leadInvestors: ["L3Harris"] },
   { company: "Axiom Space", totalRaised: "$500M+", lastRound: "Series T", lastRoundAmount: "$500M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
@@ -11834,7 +12359,9 @@ const FUNDING_TRACKER = [
   { company: "PLD Space", totalRaised: "$327M+", lastRound: "SPAC", lastRoundAmount: "$118M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Accel", "Undisclosed"] },
   { company: "Boom Supersonic", totalRaised: "$300M+", lastRound: "Series B", lastRoundAmount: "$300M", lastRoundDate: "2025-07", valuation: "$1.5B", leadInvestors: [] },
   { company: "Hadrian", totalRaised: "$260M+", lastRound: "Series C", lastRoundAmount: "$260M", lastRoundDate: "2025-08", valuation: "$1.6B", leadInvestors: ["a16z"] },
+  { company: "Built Robotics", totalRaised: "$204M+", lastRound: "Funding Round", lastRoundAmount: "$4.1M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Astranis", totalRaised: "$200M+", lastRound: "Series D", lastRoundAmount: "$200M+", lastRoundDate: "2025-03", valuation: "$3.5B", leadInvestors: ["a16z"] },
+  { company: "Galvanick", totalRaised: "$190M+", lastRound: "Funding Round", lastRoundAmount: "$190M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Intuitive Machines", totalRaised: "$175M+", lastRound: "SPAC", lastRoundAmount: "$175M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Varda Space Industries", totalRaised: "$150M+", lastRound: "Series C", lastRoundAmount: "$150M", lastRoundDate: "2025-05", valuation: "$1.5B", leadInvestors: ["Founders Fund"] },
   { company: "Field AI", totalRaised: "$114M+", lastRound: "Funding Round", lastRoundAmount: "$114M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
@@ -11844,6 +12371,7 @@ const FUNDING_TRACKER = [
   { company: "Collaborative Robotics", totalRaised: "$100M+", lastRound: "Series B", lastRoundAmount: "$100M", lastRoundDate: "2025-04", valuation: "$500M", leadInvestors: ["General Catalyst"] },
   { company: "Multiply Labs", totalRaised: "$85M+", lastRound: "Partnership", lastRoundAmount: "$85M", lastRoundDate: "2026-01", valuation: "", leadInvestors: ["Retro Biosciences"] },
   { company: "Watershed", totalRaised: "$82M+", lastRound: "Series A", lastRoundAmount: "$30M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["a16z", "Undisclosed"] },
+  { company: "Celero Communications", totalRaised: "$70M+", lastRound: "Series C", lastRoundAmount: "$70M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "AiDash", totalRaised: "$58M+", lastRound: "Series C", lastRoundAmount: "$58.5M", lastRoundDate: "2025-01", valuation: "$400M+", leadInvestors: ["Lightrock"] },
   { company: "Orangewood Labs", totalRaised: "$50M+", lastRound: "Series A", lastRoundAmount: "$47M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "GrayMatter Robotics", totalRaised: "$45M+", lastRound: "Series B", lastRoundAmount: "$45M", lastRoundDate: "2025-06", valuation: "$300M+", leadInvestors: ["Wellington Management"] },
@@ -11851,11 +12379,15 @@ const FUNDING_TRACKER = [
   { company: "Dragonfly Aerospace", totalRaised: "$41M+", lastRound: "Series G", lastRoundAmount: "$41M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Rivian", totalRaised: "$40M+", lastRound: "Funding Round", lastRoundAmount: "$40M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "ideaForge", totalRaised: "$26M+", lastRound: "Funding Round", lastRoundAmount: "$26M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
+  { company: "Orbion Space Technology", totalRaised: "$26M+", lastRound: "SPAC", lastRoundAmount: "$26M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Proteus Space", totalRaised: "$17M+", lastRound: "Series A", lastRoundAmount: "$17M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Accel"] },
   { company: "Matic Robotics", totalRaised: "$16M+", lastRound: "Series A", lastRoundAmount: "$16M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Palantir", totalRaised: "$13M+", lastRound: "Series A", lastRoundAmount: "$13M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Surge AI", totalRaised: "$12M+", lastRound: "Seed", lastRoundAmount: "$12M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
+  { company: "GHGSat", totalRaised: "$10M+", lastRound: "Seed", lastRoundAmount: "$10M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
   { company: "Starcloud", totalRaised: "$10M+", lastRound: "Seed", lastRoundAmount: "$10M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Accel"] },
+  { company: "Rebellions", totalRaised: "$10M+", lastRound: "SPAC", lastRoundAmount: "$10M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Undisclosed"] },
+  { company: "OpenAI", totalRaised: "$9M+", lastRound: "Seed", lastRoundAmount: "$9M", lastRoundDate: "2026-02", valuation: "", leadInvestors: ["Lightspeed Venture Partners"] },
   { company: "Humane", totalRaised: "$5M+", lastRound: "Funding Round", lastRoundAmount: "$5M", lastRoundDate: "2026-03", valuation: "", leadInvestors: ["Undisclosed"] },
 ];
 
@@ -11896,6 +12428,10 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-03-18
 // Auto-updated IPO pipeline — Last updated: 2026-03-18
 // Auto-updated IPO pipeline — Last updated: 2026-03-19
+// Auto-updated IPO pipeline — Last updated: 2026-03-20
+// Auto-updated IPO pipeline — Last updated: 2026-03-20
+// Auto-updated IPO pipeline — Last updated: 2026-03-20
+// Auto-updated IPO pipeline — Last updated: 2026-03-20
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -12314,7 +12850,7 @@ const SECTOR_MOMENTUM_METHODOLOGY = {
 };
 
 // Auto-calculated sector momentum scores
-// Last updated: 2026-03-19
+// Last updated: 2026-03-20
 // Methodology: Funding velocity (35%) + News frequency (25%) + Hiring velocity (20%) + Market sentiment (20%)
 const SECTOR_MOMENTUM = [
   { sector: "Defense & Security", momentum: 72, trend: "accelerating", catalysts: ["Two Palantir veterans just came out of stealth with $30 mill", "Ukraine war undermining Russia\u2019s Arctic plans, US intelligen", "Patreon CEO calls AI companies&#8217; fair use argument &#82"], fundingQ: "$66.9B" },
@@ -12336,7 +12872,7 @@ const SECTOR_MOMENTUM = [
 ];
 
 // Auto-updated Census Bureau trade data
-// Last updated: 2026-03-19
+// Last updated: 2026-03-20
 const TRADE_DATA = [
   { hsCode: "8542", category: "Integrated circuits / semiconductors", tradeType: "imports", latestMonthValue: 4878002687, latestMonthFormatted: "$4.9B", yoyChange: "+38.9%", momChange: "+16.3%", trend: "surging", relevantCompanies: ["Cerebras", "Etched", "Lightmatter", "Astera Labs", "Tenstorrent", "Groq"], relevantSector: "chips", period: "2025-12", lastUpdated: "2026-03-10" },
   { hsCode: "8542", category: "Integrated circuits / semiconductors", tradeType: "exports", latestMonthValue: 3766068634, latestMonthFormatted: "$3.8B", yoyChange: "-11.1%", momChange: "-12.5%", trend: "declining", relevantCompanies: ["Cerebras", "Etched", "Lightmatter", "Astera Labs", "Tenstorrent", "Groq"], relevantSector: "chips", period: "2025-11", lastUpdated: "2026-03-10" },
@@ -12579,13 +13115,18 @@ const TRL_RANKINGS = [
 // Last updated: 2026-03-18
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-03-19
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-03-20
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-03-20
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-03-20
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-03-20
 const DEAL_TRACKER = [
   { company: "Intuitive Machines", investor: "Undisclosed", amount: "$175M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "PLD Space", investor: "Accel", amount: "$118M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Durin", investor: "Undisclosed", amount: "$50B", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "PLD Space", investor: "Undisclosed", amount: "$209M", round: "Series G", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Anduril Industries", investor: "Undisclosed", amount: "$60B", round: "Series G", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Ample", investor: "Undisclosed", amount: "$4.5B", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "ideaForge", investor: "Undisclosed", amount: "$26M", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Neuralink", investor: "Undisclosed", amount: "$230M", round: "Series C", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Infleqtion", investor: "Founders Fund", amount: "$1B", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
@@ -12593,15 +13134,12 @@ const DEAL_TRACKER = [
   { company: "Axiom Space", investor: "Undisclosed", amount: "$500M", round: "Series T", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "SHIELD Technology Partners", investor: "Undisclosed", amount: "$550M", round: "Series C", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Built Robotics", investor: "Undisclosed", amount: "$4.1M", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "OpenAI", investor: "Undisclosed", amount: "$110B", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Watershed", investor: "a16z", amount: "$30M", round: "Series A", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Together AI", investor: "Undisclosed", amount: "$500M", round: "Series G", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Palantir", investor: "Undisclosed", amount: "$13M", round: "Series A", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Retro Biosciences", investor: "Undisclosed", amount: "$1B", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Galvanick", investor: "Undisclosed", amount: "$190M", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "GHGSat", investor: "Undisclosed", amount: "$10M", round: "Seed", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Endurosat", investor: "Undisclosed", amount: "$1B", round: "Seed", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Built Robotics", investor: "Accel", amount: "$5.55B", round: "Series D", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Built Robotics", investor: "Undisclosed", amount: "$200M", round: "Series A", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Orbion Space Technology", investor: "Undisclosed", amount: "$26M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Celero Communications", investor: "Undisclosed", amount: "$70M", round: "Series C", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
@@ -12613,43 +13151,26 @@ const DEAL_TRACKER = [
   { company: "Rivian", investor: "Undisclosed", amount: "$40M", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Wandelbots", investor: "Undisclosed", amount: "$500M", round: "Series G", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Together AI", investor: "Undisclosed", amount: "$5.3M", round: "Seed", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Galvanick", investor: "Index Ventures", amount: "$32B", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Celero Communications", investor: "Undisclosed", amount: "$2B", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Q-CTRL", investor: "Undisclosed", amount: "$1.64B", round: "Funding Round", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Watershed", investor: "Undisclosed", amount: "$40M", round: "Series C", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "Surge AI", investor: "Undisclosed", amount: "$12M", round: "Seed", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Matic Robotics", investor: "Undisclosed", amount: "$16M", round: "Series A", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Watershed", investor: "Undisclosed", amount: "$12M", round: "Seed", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
-  { company: "Waymo", investor: "Alphabet", amount: "$16B", round: "Late Stage", date: "2026-02", valuation: "$126B", leadOrParticipant: "lead" },
   { company: "Bedrock Robotics", investor: "CapitalG", amount: "$270M", round: "Series B", date: "2026-02", valuation: "$1.75B", leadOrParticipant: "lead" },
-  { company: "Anthropic", investor: "Undisclosed", amount: "$30B", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Revel", investor: "Undisclosed", amount: "$100M", round: "Funding Round", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Proteus Space", investor: "Accel", amount: "$17M", round: "Series A", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Agility Robotics", investor: "Undisclosed", amount: "$385M", round: "Series E", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Dragonfly Aerospace", investor: "Undisclosed", amount: "$41M", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
-  { company: "Labelbox", investor: "Undisclosed", amount: "$30B", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
-  { company: "Galvanick", investor: "Undisclosed", amount: "$9B", round: "Seed", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Aurora Innovation", investor: "Undisclosed", amount: "$1.2B", round: "Funding Round", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
-  { company: "Together AI", investor: "Undisclosed", amount: "$159B", round: "Funding Round", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Together AI", investor: "Undisclosed", amount: "$50M", round: "Funding Round", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Starcloud", investor: "Accel", amount: "$10M", round: "Seed", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
-  { company: "GHGSat", investor: "Undisclosed", amount: "$1.3B", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "OpenAI", investor: "Lightspeed Venture Partners", amount: "$9M", round: "Seed", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Orangewood Labs", investor: "Undisclosed", amount: "$47M", round: "Series A", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Form Energy", investor: "Undisclosed", amount: "$1B", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Rebellions", investor: "Undisclosed", amount: "$10M", round: "SPAC", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
-  { company: "Together AI", investor: "Undisclosed", amount: "$8B", round: "Funding Round", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Aurora Innovation", investor: "Undisclosed", amount: "$113M", round: "Funding Round", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Orangewood Labs", investor: "Undisclosed", amount: "$3M", round: "Seed", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
-  { company: "Rebellions", investor: "Undisclosed", amount: "$110B", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
-  { company: "OpenAI", investor: "Undisclosed", amount: "$110B", round: "Funding Round", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
-  { company: "OpenAI", investor: "SoftBank", amount: "$110B", round: "Series G", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
-  { company: "Orbion Space Technology", investor: "Undisclosed", amount: "$12B", round: "SPAC", date: "2026-02", valuation: "", leadOrParticipant: "lead" },
   { company: "Epirus", investor: "8VC", amount: "$550M+", round: "Late Stage", date: "2026-01", valuation: "$1.35B", leadOrParticipant: "participant" },
   { company: "Skild AI", investor: "Lightspeed", amount: "$1.4B", round: "Series C", date: "2026-01", valuation: "$14B+", leadOrParticipant: "lead" },
   { company: "Skild AI", investor: "a16z", amount: "$1.4B", round: "Series C", date: "2026-01", valuation: "$14B+", leadOrParticipant: "participant" },
   { company: "Multiply Labs", investor: "Retro Biosciences", amount: "$85M", round: "Partnership", date: "2026-01", valuation: "", leadOrParticipant: "lead" },
-  { company: "Cover", investor: "Undisclosed", amount: "$900B", round: "Funding Round", date: "2026-01", valuation: "", leadOrParticipant: "lead" },
   { company: "Saronic", investor: "a16z", amount: "$600M+", round: "Series C", date: "2025-12", valuation: "$4B", leadOrParticipant: "lead" },
   { company: "Saronic", investor: "8VC", amount: "$600M+", round: "Series C", date: "2025-12", valuation: "$4B", leadOrParticipant: "participant" },
   { company: "Anduril Industries", investor: "Founders Fund", amount: "$2.5B", round: "Series G", date: "2025-12", valuation: "$30.5B", leadOrParticipant: "lead" },
@@ -12679,13 +13200,12 @@ const DEAL_TRACKER = [
   { company: "Collaborative Robotics", investor: "Sequoia Capital", amount: "$100M", round: "Series B", date: "2025-04", valuation: "$500M", leadOrParticipant: "participant" },
   { company: "Collaborative Robotics", investor: "Khosla Ventures", amount: "$100M", round: "Series B", date: "2025-04", valuation: "$500M", leadOrParticipant: "participant" },
   { company: "Collaborative Robotics", investor: "Lux Capital", amount: "$100M", round: "Series B", date: "2025-04", valuation: "$500M", leadOrParticipant: "participant" },
-  { company: "OpenAI", investor: "SoftBank", amount: "$40B", round: "Late Stage", date: "2025-03", valuation: "$300B", leadOrParticipant: "lead" },
   { company: "Astranis", investor: "a16z", amount: "$200M+", round: "Series D", date: "2025-03", valuation: "$3.5B", leadOrParticipant: "lead" },
   { company: "AiDash", investor: "Lightrock", amount: "$58.5M", round: "Series C", date: "2025-01", valuation: "$400M+", leadOrParticipant: "lead" },
 ];
 
 // Auto-updated Product Hunt launches
-// Last updated: 2026-03-19
+// Last updated: 2026-03-20
 const PRODUCT_LAUNCHES = [
   { company: "Rigetti Computing", product: "ByteRover Memory System for OpenClaw ", tagline: "File-based memory for OpenClaw with >92% retrieval accuracy ", votes: 89, comments: 6, launchDate: "2026-03-15", url: "https://www.producthunt.com/products/byterover?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Open Source", "Developer Tools", "Artificial Intelligence", "GitHub"], makers: ["[REDACTED]", "[REDACTED]", "[REDACTED]"], source: "producthunt" },
   { company: "Rigetti Computing", product: "LaterAI", tagline: " AI-powered reading, 100% on your device", votes: 76, comments: 2, launchDate: "2026-03-15", url: "https://www.producthunt.com/products/laterai-save-read-listen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["News", "Newsletters", "Tech"], makers: ["[REDACTED]"], source: "producthunt" },
@@ -12747,7 +13267,7 @@ const GROWTH_SIGNAL_METHODOLOGY = {
   }
 };
 
-// Auto-calculated growth signals — Last updated: 2026-03-19
+// Auto-calculated growth signals — Last updated: 2026-03-20
 const GROWTH_SIGNALS = [
   { company: "Palantir", type: "media_buzz", detail: "7 recent articles", strength: 6, date: "2026-03-19" },
   { company: "Palantir", type: "ip_moat", detail: "100 patents", strength: 6, date: "2026-03-19" },
@@ -12818,7 +13338,7 @@ const GROWTH_SIGNALS = [
 ];
 
 // Auto-calculated headcount estimates from job posting data
-// Last updated: 2026-03-19
+// Last updated: 2026-03-20
 const HEADCOUNT_ESTIMATES = [
   { company: "SpaceX", openPositions: 1474, estimatedHeadcount: 21057, headcountFormatted: "21K+", vacancyRate: 0.07, hiringVelocity: "surging", sector: "space & aerospace", growthTrend: "", isCurated: false, lastUpdated: "2026-03-19" },
   { company: "Stripe", openPositions: 614, estimatedHeadcount: 8771, headcountFormatted: "8,771+", vacancyRate: 0.07, hiringVelocity: "surging", sector: "unknown", growthTrend: "", isCurated: true, lastUpdated: "2026-03-19" },
@@ -13141,6 +13661,10 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-03-18
 // Auto-updated revenue intelligence — Last updated: 2026-03-18
 // Auto-updated revenue intelligence — Last updated: 2026-03-19
+// Auto-updated revenue intelligence — Last updated: 2026-03-20
+// Auto-updated revenue intelligence — Last updated: 2026-03-20
+// Auto-updated revenue intelligence — Last updated: 2026-03-20
+// Auto-updated revenue intelligence — Last updated: 2026-03-20
 const REVENUE_INTEL = [
   { company: "NVIDIA", revenue: "$215.9B", period: "2026 Annual", growth: "+65% YoY", source: "SEC 10-K (NVDA)" },
   { company: "Tesla", revenue: "$94.8B", period: "2025 Annual", growth: "-3% YoY", source: "SEC 10-K (TSLA)" },
@@ -13802,6 +14326,10 @@ const PREDICTIVE_SCORES = {
       { name: "Regulatory Risk", weight: 5, description: "Antitrust or CFIUS concerns", dataSource: "Regulatory filings" }
     ],
     companies: {
+
+
+
+
 
 
 
@@ -14476,6 +15004,10 @@ const PREDICTIVE_SCORES = {
       "Viridian Space": { score: 44, trend: "stable", analysis: "Auto-scored: Space & Aerospace, Pre-Seed, 0 patents.", lastUpdated: "2026-03-18" },
       "Viridian Space": { score: 44, trend: "stable", analysis: "Auto-scored: Space & Aerospace, Pre-Seed, 0 patents.", lastUpdated: "2026-03-18" },
       "Viridian Space": { score: 44, trend: "stable", analysis: "Auto-scored: Space & Aerospace, Pre-Seed, 0 patents.", lastUpdated: "2026-03-18" },
+      "Viridian Space": { score: 44, trend: "stable", analysis: "Auto-scored: Space & Aerospace, Pre-Seed, 0 patents.", lastUpdated: "2026-03-18" },
+      "Viridian Space": { score: 44, trend: "stable", analysis: "Auto-scored: Space & Aerospace, Pre-Seed, 0 patents.", lastUpdated: "2026-03-18" },
+      "Viridian Space": { score: 44, trend: "stable", analysis: "Auto-scored: Space & Aerospace, Pre-Seed, 0 patents.", lastUpdated: "2026-03-18" },
+      "Viridian Space": { score: 44, trend: "stable", analysis: "Auto-scored: Space & Aerospace, Pre-Seed, 0 patents.", lastUpdated: "2026-03-18" },
       "Blues": { score: 50, trend: "stable", analysis: "Auto-scored: IoT & Connectivity, Series B, 0 patents.", lastUpdated: "2026-03-19" },
       "OBSIDIA Semiconductor": { score: 46, trend: "stable", analysis: "Auto-scored: Chips & Semiconductors, Seed, 0 patents.", lastUpdated: "2026-03-19" },
       "Green Abundance": { score: 46, trend: "stable", analysis: "Auto-scored: Biotech & Synthetic Biology, Pre-Seed, 0 patents.", lastUpdated: "2026-03-19" },
@@ -14510,6 +15042,10 @@ const PREDICTIVE_SCORES = {
       "81-100": { label: "High Risk", color: "red", description: "Material concerns, distress possible" }
     },
     companies: {
+
+
+
+
 
 
 
@@ -15167,6 +15703,10 @@ const PREDICTIVE_SCORES = {
       "Viridian Space": { score: 59, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $2M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-18" },
       "Viridian Space": { score: 59, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $2M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-18" },
       "Viridian Space": { score: 59, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $2M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-18" },
+      "Viridian Space": { score: 59, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $2M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-18" },
+      "Viridian Space": { score: 59, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $2M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-18" },
+      "Viridian Space": { score: 59, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $2M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-18" },
+      "Viridian Space": { score: 59, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $2M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-18" },
       "Blues": { score: 50, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $98M raised, 0 jobs, Series B.", lastUpdated: "2026-03-19" },
       "OBSIDIA Semiconductor": { score: 65, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, Seed.", lastUpdated: "2026-03-19" },
       "Green Abundance": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-19" },
@@ -15393,7 +15933,7 @@ const REQUEST_FOR_STARTUPS = [
   }
 ];
 
-// Frontier Index™ scores — Last updated: 2026-03-19
+// Frontier Index™ scores — Last updated: 2026-03-20
 const INNOVATOR_SCORES = [
   { company: "SpaceX", techMoat: 10, momentum: 10, teamPedigree: 10, marketGravity: 10, capitalEfficiency: 9, govTraction: 10, composite: 99.0, tier: "elite", note: "Reusable rockets, Starlink, and Starship create an unassailable vertically integrated space monopoly with $100B+ valuation and dominant NASA/DoD contracts" },
   { company: "Anduril Industries", techMoat: 9, momentum: 10, teamPedigree: 9, marketGravity: 9, capitalEfficiency: 7, govTraction: 10, composite: 91.5, tier: "elite", note: "Lattice OS platform and autonomous systems portfolio (Ghost, Altius, Fury) redefining defense acquisition; $14B+ valuation with massive DoD/allied contracts" },
@@ -15404,11 +15944,9 @@ const INNOVATOR_SCORES = [
   { company: "Waymo", techMoat: 10, momentum: 9, teamPedigree: 10, marketGravity: 9, capitalEfficiency: 4, govTraction: 5, composite: 85.0, tier: "strong", note: "Only L4 robotaxi operating commercially at scale across multiple US cities; 15+ years of data moat; Alphabet backing ensures longevity but massive cumulative investment" },
   { company: "Anysphere", techMoat: 7, momentum: 10, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 9, govTraction: 3, composite: 80.0, tier: "strong", note: "Cursor AI code editor hit $100M+ ARR at extraordinary speed; exceptional product velocity but moat depends on staying ahead of GitHub Copilot and foundation model providers" },
   { company: "Commonwealth Fusion Systems", techMoat: 9, momentum: 8, teamPedigree: 9, marketGravity: 9, capitalEfficiency: 5, govTraction: 5, composite: 79.5, tier: "strong", note: "MIT-spinout demonstrated record HTS magnets; SPARC tokamak under construction; strongest physics basis among fusion startups with $2B+ raised" },
-  { company: "Marathon Fusion", techMoat: 9, momentum: 7, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 6, govTraction: 7, composite: 79.5, tier: "strong", note: "Critical fusion fuel cycle tech; signed LOIs with CFS and Helion; $10.9M seed + DOE ARPA-E grants; ex-SpaceX propulsion engineer CTO; only 20kg tritium exists worldwide" },
   { company: "Cerebras", techMoat: 9, momentum: 8, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 5, govTraction: 6, composite: 79.0, tier: "strong", note: "Wafer-scale engine is genuinely differentiated silicon; CS-3 chip and Condor Galaxy supercomputers show scale; IPO path but revenue concentration risk" },
   { company: "Mistral AI", techMoat: 8, momentum: 8, teamPedigree: 9, marketGravity: 9, capitalEfficiency: 7, govTraction: 5, composite: 79.0, tier: "strong", note: "European AI champion with top-tier DeepMind/Meta alumni; open-weight models punch above their compute budget; strong EU sovereignty positioning" },
   { company: "Rocket Lab", techMoat: 8, momentum: 8, teamPedigree: 8, marketGravity: 8, capitalEfficiency: 7, govTraction: 7, composite: 78.0, tier: "strong", note: "Only operational US small-launch competitor to SpaceX; Neutron medium-lift vehicle in development; growing Space Systems division with Electron achieving high cadence" },
-  { company: "Blues", techMoat: 8, momentum: 8, teamPedigree: 10, marketGravity: 8, capitalEfficiency: 7, govTraction: 3, composite: 77.5, tier: "strong", note: "Founded by Ray Ozzie (ex-Microsoft Chief Software Architect); $98M raised from Sequoia and Bill Gates; plug-and-play cellular IoT Notecards operating in 130+ countries" },
   { company: "Shield AI", techMoat: 8, momentum: 8, teamPedigree: 8, marketGravity: 8, capitalEfficiency: 5, govTraction: 8, composite: 77.0, tier: "strong", note: "Hivemind autonomous piloting stack deployed on V-BAT drones in combat zones; $2.7B valuation but high burn rate and competitive drone autonomy market" },
   { company: "Applied Intuition", techMoat: 8, momentum: 8, teamPedigree: 8, marketGravity: 8, capitalEfficiency: 7, govTraction: 6, composite: 77.0, tier: "strong", note: "Simulation and development platform for autonomous vehicles; $6B valuation with broad OEM customer base; expanding into defense autonomy simulation" },
   { company: "ElevenLabs", techMoat: 8, momentum: 9, teamPedigree: 7, marketGravity: 8, capitalEfficiency: 8, govTraction: 3, composite: 76.0, tier: "strong", note: "Best-in-class voice AI with remarkable product-market fit; rapid ARR growth to $100M+; high capital efficiency but limited government market" },
@@ -15436,12 +15974,10 @@ const INNOVATOR_SCORES = [
   { company: "Planet Labs", techMoat: 8, momentum: 6, teamPedigree: 7, marketGravity: 7, capitalEfficiency: 5, govTraction: 7, composite: 68.0, tier: "promising", note: "Largest Earth-imaging satellite constellation; unique daily global scan dataset but public market struggles with path to profitability" },
   { company: "KoBold Metals", techMoat: 7, momentum: 7, teamPedigree: 8, marketGravity: 8, capitalEfficiency: 5, govTraction: 4, composite: 68.0, tier: "promising", note: "AI-driven mineral exploration for battery metals; Bill Gates and Breakthrough Energy backed; Zambian copper discovery validates approach but mining timelines are 10+ years" },
   { company: "Astranis", techMoat: 7, momentum: 7, teamPedigree: 7, marketGravity: 7, capitalEfficiency: 6, govTraction: 5, composite: 67.0, tier: "promising", note: "Small GEO broadband satellites targeting underserved markets; novel MicroGEO architecture but first satellite had power issues; scaling with batch production" },
-  { company: "Cascade Space", techMoat: 7, momentum: 6, teamPedigree: 8, marketGravity: 8, capitalEfficiency: 6, govTraction: 5, composite: 66.5, tier: "promising", note: "YC S25 batch; ex-SpaceX Crew Dragon comms lead; addressing 40% oversubscription of NASA Deep Space Network; $5.9M seed from strong syndicate" },
   { company: "Vast", techMoat: 7, momentum: 7, teamPedigree: 7, marketGravity: 7, capitalEfficiency: 5, govTraction: 5, composite: 66.0, tier: "promising", note: "Building Haven-1, first commercial space station; SpaceX launch agreement and NASA CLD program participation; Jed McCaleb self-funding reduces dilution risk" },
   { company: "Joby Aviation", techMoat: 7, momentum: 7, teamPedigree: 7, marketGravity: 7, capitalEfficiency: 4, govTraction: 6, composite: 66.0, tier: "promising", note: "Leading eVTOL with FAA type certification progress and USAF Agility Prime contracts; Toyota partnership for manufacturing but path to commercial operations remains long" },
   { company: "Saildrone", techMoat: 7, momentum: 6, teamPedigree: 7, marketGravity: 7, capitalEfficiency: 5, govTraction: 7, composite: 65.5, tier: "promising", note: "Autonomous ocean surface vehicles collecting maritime data for Navy ISR and NOAA; unique persistent maritime surveillance capability but hardware-intensive model" },
   { company: "Radiant", techMoat: 7, momentum: 6, teamPedigree: 7, marketGravity: 7, capitalEfficiency: 5, govTraction: 6, composite: 64.5, tier: "promising", note: "Portable microreactor for remote power using HALEU fuel; ex-SpaceX team; DoD forward operating base use case but NRC licensing is multi-year bottleneck" },
-  { company: "Occam", techMoat: 8, momentum: 6, teamPedigree: 8, marketGravity: 7, capitalEfficiency: 6, govTraction: 2, composite: 64.5, tier: "promising", note: "World's smallest brain-sensing wearable using dry EEG nanosensors; $14M seed; team from Oxford, Cambridge with hires from Oura and Kernel" },
   { company: "Firefly Aerospace", techMoat: 6, momentum: 7, teamPedigree: 6, marketGravity: 7, capitalEfficiency: 5, govTraction: 7, composite: 64.0, tier: "promising", note: "Successful Alpha launches and NASA CLPS lunar lander contract; strong government pipeline but competing in crowded small-launch market" },
   { company: "Hermeus", techMoat: 7, momentum: 6, teamPedigree: 7, marketGravity: 6, capitalEfficiency: 5, govTraction: 7, composite: 64.0, tier: "promising", note: "Hypersonic aircraft with TBCC propulsion validated in testing; strong USAF contracts for Quarterhorse and Darkhorse but extremely long development cycle" },
   { company: "Field AI", techMoat: 7, momentum: 6, teamPedigree: 7, marketGravity: 7, capitalEfficiency: 5, govTraction: 5, composite: 63.5, tier: "promising", note: "Autonomous navigation AI for robots in unstructured environments; ex-JPL team with GPS-denied navigation expertise applicable to defense and industrial markets" },
@@ -15450,7 +15986,6 @@ const INNOVATOR_SCORES = [
   { company: "Chaos Industries", techMoat: 6, momentum: 6, teamPedigree: 6, marketGravity: 7, capitalEfficiency: 5, govTraction: 6, composite: 60.5, tier: "promising", note: "Autonomous defense systems with vertical integration approach; early-stage but addressing high-demand autonomy gap in DoD supply chain" },
   { company: "Flexport", techMoat: 6, momentum: 6, teamPedigree: 7, marketGravity: 8, capitalEfficiency: 5, govTraction: 3, composite: 60.5, tier: "promising", note: "Digital freight forwarding platform with full-stack logistics; weathered leadership turmoil and freight recession; strong platform but thin margins in competitive logistics" },
   { company: "Pano AI", techMoat: 6, momentum: 6, teamPedigree: 6, marketGravity: 7, capitalEfficiency: 6, govTraction: 5, composite: 60.5, tier: "promising", note: "AI-powered wildfire detection using camera networks and satellite imagery; growing utility and government customer base but small market and long sales cycles" },
-  { company: "OBSIDIA Semiconductor", techMoat: 7, momentum: 4, teamPedigree: 8, marketGravity: 8, capitalEfficiency: 5, govTraction: 5, composite: 60.5, tier: "promising", note: "Ex-GlobalFoundries and PsiQuantum founders tackling semiconductor supply chain security with RF verification tech; strong defense/national security relevance" },
   { company: "Relativity Space", techMoat: 7, momentum: 5, teamPedigree: 7, marketGravity: 7, capitalEfficiency: 4, govTraction: 4, composite: 59.0, tier: "early", note: "3D-printed rocket manufacturing is novel but Terran 1 was retired after one flight; pivoted entirely to Terran R with long timeline and $4.2B valuation on pre-revenue" },
   { company: "Collaborative Robotics", techMoat: 6, momentum: 6, teamPedigree: 7, marketGravity: 7, capitalEfficiency: 5, govTraction: 3, composite: 59.0, tier: "early", note: "Cobots for logistics and manufacturing from ex-iRobot leadership; growing market but competing against established players like Universal Robots" },
   { company: "Rebellion Defense", techMoat: 6, momentum: 5, teamPedigree: 7, marketGravity: 7, capitalEfficiency: 4, govTraction: 6, composite: 58.5, tier: "early", note: "AI for defense planning and simulation; strong founders but struggled to differentiate from Palantir/Anduril and faced leadership changes" },
@@ -15458,17 +15993,13 @@ const INNOVATOR_SCORES = [
   { company: "Boom Supersonic", techMoat: 6, momentum: 6, teamPedigree: 6, marketGravity: 7, capitalEfficiency: 4, govTraction: 4, composite: 57.5, tier: "early", note: "XB-1 demonstrator flew but Overture production aircraft faces enormous certification and manufacturing hurdles; airline LOIs are non-binding" },
   { company: "GrayMatter Robotics", techMoat: 6, momentum: 6, teamPedigree: 6, marketGravity: 6, capitalEfficiency: 6, govTraction: 3, composite: 57.0, tier: "early", note: "AI-powered robotic surface finishing for manufacturing; solving real pain point in skilled labor shortage but narrow initial application scope" },
   { company: "Divergent", techMoat: 9, momentum: 3, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 6, govTraction: 2, composite: 56.0, tier: "early", note: "Strong technology moat; Large addressable market. Composite: 56/100." },
-  { company: "Green Abundance", techMoat: 7, momentum: 3, teamPedigree: 9, marketGravity: 7, capitalEfficiency: 5, govTraction: 2, composite: 55.5, tier: "early", note: "Founded by ex-Impossible Foods chief scientist; engineering plants as biofactories for novel materials; very early stage but exceptional founder pedigree" },
   { company: "Andrenam", techMoat: 8, momentum: 4, teamPedigree: 5, marketGravity: 8, capitalEfficiency: 3, govTraction: 2, composite: 55.0, tier: "early", note: "Strong technology moat; Large addressable market. Composite: 55/100." },
   { company: "Bedrock Robotics", techMoat: 6, momentum: 5, teamPedigree: 6, marketGravity: 6, capitalEfficiency: 5, govTraction: 4, composite: 54.5, tier: "early", note: "Ocean floor mapping and mining robotics; niche but critical application for subsea infrastructure with growing blue economy tailwind" },
-  { company: "Los Angeles Project", techMoat: 8, momentum: 4, teamPedigree: 7, marketGravity: 6, capitalEfficiency: 5, govTraction: 1, composite: 53.5, tier: "early", note: "Automated CRISPR embryo editing platform from notable biohacker Josie Zayner; consumer biotech with novel animal engineering focus" },
-  { company: "GenFab Co", techMoat: 8, momentum: 3, teamPedigree: 6, marketGravity: 7, capitalEfficiency: 5, govTraction: 2, composite: 53.5, tier: "early", note: "Self-reproducing manufacturing systems — the von Neumann constructor for industrial production; ambitious but very early stage" },
   { company: "Vannevar Labs", techMoat: 4, momentum: 5, teamPedigree: 6, marketGravity: 8, capitalEfficiency: 4, govTraction: 4, composite: 52.0, tier: "early", note: "Large addressable market; Notable team pedigree. Composite: 52/100." },
   { company: "Cognition", techMoat: 8, momentum: 3, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 4, govTraction: 2, composite: 51.5, tier: "early", note: "Strong technology moat; Large addressable market. Composite: 52/100." },
   { company: "Neros", techMoat: 5, momentum: 5, teamPedigree: 5, marketGravity: 6, capitalEfficiency: 5, govTraction: 3, composite: 49.5, tier: "early", note: "Early-stage company in emerging tech vertical; limited public information on technical differentiation or traction metrics" },
   { company: "Orchid", techMoat: 9, momentum: 3, teamPedigree: 5, marketGravity: 4, capitalEfficiency: 4, govTraction: 2, composite: 49.5, tier: "early", note: "Strong technology moat. Composite: 50/100." },
   { company: "Cover", techMoat: 9, momentum: 4, teamPedigree: 5, marketGravity: 2, capitalEfficiency: 4, govTraction: 2, composite: 49.5, tier: "early", note: "Strong technology moat. Composite: 50/100." },
-  { company: "Tideway Logistics", techMoat: 5, momentum: 4, teamPedigree: 6, marketGravity: 8, capitalEfficiency: 5, govTraction: 1, composite: 48.0, tier: "early", note: "AI-powered 3PL combining software and warehouse robotics; very early stage but addressing massive logistics automation market" },
   { company: "Impulse Space", techMoat: 6, momentum: 3, teamPedigree: 6, marketGravity: 4, capitalEfficiency: 5, govTraction: 4, composite: 46.5, tier: "early", note: "Strong technology moat; Notable team pedigree. Composite: 46/100." },
   { company: "Amca", techMoat: 6, momentum: 3, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 4, govTraction: 2, composite: 46.5, tier: "early", note: "Large addressable market; Strong technology moat. Composite: 46/100." },
   { company: "Mach Industries", techMoat: 4, momentum: 4, teamPedigree: 5, marketGravity: 8, capitalEfficiency: 4, govTraction: 2, composite: 46.0, tier: "early", note: "Large addressable market. Composite: 46/100." },
@@ -15488,7 +16019,6 @@ const INNOVATOR_SCORES = [
   { company: "Built Robotics", techMoat: 3, momentum: 4, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 5, govTraction: 2, composite: 42.5, tier: "early", note: "Large addressable market. Composite: 42/100." },
   { company: "Ada", techMoat: 3, momentum: 4, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 5, govTraction: 2, composite: 42.5, tier: "early", note: "Large addressable market. Composite: 42/100." },
   { company: "Runway", techMoat: 3, momentum: 4, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 5, govTraction: 2, composite: 42.5, tier: "early", note: "Large addressable market. Composite: 42/100." },
-  { company: "Blitzpanel", techMoat: 5, momentum: 3, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 5, govTraction: 1, composite: 42.5, tier: "early", note: "JLCPCB-style platform for industrial control panels; browser-based design with automated UL-certified manufacturing; pre-seed stage" },
   { company: "Nominal", techMoat: 4, momentum: 3, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 4, govTraction: 2, composite: 42.0, tier: "early", note: "Large addressable market. Composite: 42/100." },
   { company: "Rainbow Robotics", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 7, govTraction: 2, composite: 42.0, tier: "early", note: "Large addressable market; Capital efficient. Composite: 42/100." },
   { company: "Attio", techMoat: 3, momentum: 4, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 4, govTraction: 2, composite: 42.0, tier: "early", note: "Large addressable market. Composite: 42/100." },
@@ -15887,7 +16417,7 @@ const INNOVATOR_SCORES = [
   { company: "Vivodyne", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 4, capitalEfficiency: 4, govTraction: 2, composite: 34.5, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
   { company: "Archer Materials", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 2, capitalEfficiency: 7, govTraction: 2, composite: 34.5, tier: "early", note: "Capital efficient. Composite: 34/100." },
   { company: "Last Energy", techMoat: 4, momentum: 3, teamPedigree: 5, marketGravity: 2, capitalEfficiency: 4, govTraction: 2, composite: 34.0, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
-  { company: "Viridian Space", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 4, capitalEfficiency: 3, govTraction: 2, composite: 34.0, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
+  { company: "Viridian Space", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 4, capitalEfficiency: 3.5, govTraction: 2, composite: 34.0, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
   { company: "Herasight", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 4, capitalEfficiency: 3, govTraction: 2, composite: 34.0, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
   { company: "Xcimer Energy", techMoat: 3, momentum: 4, teamPedigree: 5, marketGravity: 2, capitalEfficiency: 4, govTraction: 2, composite: 34.0, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
   { company: "Quaise Energy", techMoat: 4, momentum: 3, teamPedigree: 5, marketGravity: 2, capitalEfficiency: 4, govTraction: 2, composite: 34.0, tier: "early", note: "Notable team pedigree. Composite: 34/100." },
@@ -16059,6 +16589,42 @@ const INNOVATOR_SCORES = [
   { company: "Vertical Semiconductor", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 1, capitalEfficiency: 3, govTraction: 2, composite: 29.5, tier: "early", note: "Notable team pedigree. Composite: 30/100." },
   { company: "Diode Computers", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 1, capitalEfficiency: 3, govTraction: 2, composite: 29.5, tier: "early", note: "Notable team pedigree. Composite: 30/100." },
   { company: "Photonium", techMoat: 3, momentum: 3, teamPedigree: 5, marketGravity: 1, capitalEfficiency: 3, govTraction: 2, composite: 29.5, tier: "early", note: "Notable team pedigree. Composite: 30/100." },
+  { company: "Blues", techMoat: 8, momentum: 8, teamPedigree: 10, marketGravity: 8, capitalEfficiency: 7, govTraction: 3, composite: 77.5, tier: "strong", note: "Founded by Ray Ozzie (ex-Microsoft Chief Software Architect); $98M raised from Sequoia and Bill Gates; plug-and-play cellular IoT Notecards operating in 130+ countries" },
+  { company: "OBSIDIA Semiconductor", techMoat: 7, momentum: 4, teamPedigree: 8, marketGravity: 8, capitalEfficiency: 5, govTraction: 5, composite: 60.5, tier: "promising", note: "Ex-GlobalFoundries and PsiQuantum founders tackling semiconductor supply chain security with RF verification tech; strong defense/national security relevance" },
+  { company: "Green Abundance", techMoat: 7, momentum: 3, teamPedigree: 9, marketGravity: 7, capitalEfficiency: 5, govTraction: 2, composite: 55.5, tier: "early", note: "Founded by ex-Impossible Foods chief scientist; engineering plants as biofactories for novel materials; very early stage but exceptional founder pedigree" },
+  { company: "Cascade Space", techMoat: 7, momentum: 6, teamPedigree: 8, marketGravity: 8, capitalEfficiency: 6, govTraction: 5, composite: 66.5, tier: "promising", note: "YC S25 batch; ex-SpaceX Crew Dragon comms lead; addressing 40% oversubscription of NASA Deep Space Network; $5.9M seed from strong syndicate" },
+  { company: "Los Angeles Project", techMoat: 8, momentum: 4, teamPedigree: 7, marketGravity: 6, capitalEfficiency: 5, govTraction: 1, composite: 53.5, tier: "early", note: "Automated CRISPR embryo editing platform from notable biohacker Josie Zayner; consumer biotech with novel animal engineering focus" },
+  { company: "Tideway Logistics", techMoat: 5, momentum: 4, teamPedigree: 6, marketGravity: 8, capitalEfficiency: 5, govTraction: 1, composite: 48.0, tier: "early", note: "AI-powered 3PL combining software and warehouse robotics; very early stage but addressing massive logistics automation market" },
+  { company: "Marathon Fusion", techMoat: 9, momentum: 7, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 6, govTraction: 7, composite: 79.5, tier: "strong", note: "Critical fusion fuel cycle tech; signed LOIs with CFS and Helion; $10.9M seed + DOE ARPA-E grants; ex-SpaceX propulsion engineer CTO; only 20kg tritium exists worldwide" },
+  { company: "GenFab Co", techMoat: 8, momentum: 3, teamPedigree: 6, marketGravity: 7, capitalEfficiency: 5, govTraction: 2, composite: 53.5, tier: "early", note: "Self-reproducing manufacturing systems — the von Neumann constructor for industrial production; ambitious but very early stage" },
+  { company: "Occam", techMoat: 8, momentum: 6, teamPedigree: 8, marketGravity: 7, capitalEfficiency: 6, govTraction: 2, composite: 64.5, tier: "promising", note: "World's smallest brain-sensing wearable using dry EEG nanosensors; $14M seed; team from Oxford, Cambridge with hires from Oura and Kernel" },
+  { company: "Blitzpanel", techMoat: 5, momentum: 3, teamPedigree: 5, marketGravity: 7, capitalEfficiency: 5, govTraction: 1, composite: 42.5, tier: "early", note: "JLCPCB-style platform for industrial control panels; browser-based design with automated UL-certified manufacturing; pre-seed stage" },
+  { company: "MatX", techMoat: 9, momentum: 10, teamPedigree: 10, marketGravity: 10, capitalEfficiency: 7, govTraction: 3, composite: 87.0, tier: "elite", note: "Custom LLM chips by ex-Google TPU engineers; $600M+ raised at multi-billion valuation; purpose-built silicon competing with Nvidia on transformer workloads" },
+  { company: "Oxide Computer Company", techMoat: 9, momentum: 8, teamPedigree: 9, marketGravity: 9, capitalEfficiency: 6, govTraction: 7, composite: 82.5, tier: "leader", note: "Full-stack rack-scale cloud hardware; $340M raised; customers include Lawrence Livermore and Idaho National Labs; founded by Sun/Joyent veterans" },
+  { company: "Amogy", techMoat: 9, momentum: 8, teamPedigree: 8, marketGravity: 10, capitalEfficiency: 6, govTraction: 5, composite: 80.5, tier: "leader", note: "Ammonia-to-power for maritime decarbonization; $300M raised; sailed world's first ammonia-powered vessel; backed by Amazon, Aramco, Samsung" },
+  { company: "Chariot Defense", techMoat: 8, momentum: 9, teamPedigree: 9, marketGravity: 9, capitalEfficiency: 7, govTraction: 8, composite: 81.0, tier: "leader", note: "Software-defined battlefield power replacing diesel generators; $41M raised; U.S. Army contracts and DIU Project GI; ex-Anduril founding team" },
+  { company: "Intramotev", techMoat: 8, momentum: 7, teamPedigree: 7, marketGravity: 8, capitalEfficiency: 8, govTraction: 3, composite: 67.5, tier: "promising", note: "Battery-electric autonomous railcar retrofit kits; $14.4M Series A; only manufacturer of self-propelled railcars with deployed revenue-generating units" },
+  { company: "Pickle Robot Company", techMoat: 8, momentum: 9, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 7, govTraction: 2, composite: 78.5, tier: "leader", note: "AI robotic arms for autonomous trailer unloading; $113M raised; $120M UPS order for 400 robots; 10M+ lbs of merchandise unloaded" },
+  { company: "Augury", techMoat: 8, momentum: 8, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 7, govTraction: 3, composite: 75.5, tier: "leader", note: "Industrial IoT predictive maintenance unicorn; $369M raised; 500M+ hours of machine data analyzed; 99.9% failure detection at Fortune 500 manufacturers" },
+  { company: "Lunar Energy", techMoat: 7, momentum: 8, teamPedigree: 9, marketGravity: 10, capitalEfficiency: 6, govTraction: 4, composite: 76.0, tier: "leader", note: "DC-architecture home battery + VPP platform; $530M raised; founded by former Tesla Energy head; scaling to 100K systems/year" },
+  { company: "Cache Energy", techMoat: 9, momentum: 7, teamPedigree: 7, marketGravity: 9, capitalEfficiency: 7, govTraction: 5, composite: 69.5, tier: "promising", note: "Thermochemical long-duration storage using lime pellets; 100+ hour storage at ambient conditions; DOE White House pitch winner; building 1MW first-of-kind system" },
+  { company: "Furno Materials", techMoat: 9, momentum: 7, teamPedigree: 7, marketGravity: 10, capitalEfficiency: 8, govTraction: 6, composite: 73.5, tier: "promising", note: "Zero-emission cement via vertical micro-kilns; $11M VC + $20M DOE grant; reinvented kiln form factor; cement = 8% of global CO2" },
+  { company: "Pyka", techMoat: 8, momentum: 8, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 7, govTraction: 6, composite: 77.0, tier: "leader", note: "Fully autonomous all-electric fixed-wing UAS; $88M raised; largest FAA-approved ag UAS; defense partnerships with Sierra Nevada/AFWERX" },
+  { company: "Limelight Steel", techMoat: 10, momentum: 6, teamPedigree: 7, marketGravity: 10, capitalEfficiency: 7, govTraction: 3, composite: 68.5, tier: "promising", note: "Laser-powered iron production replacing coal blast furnaces; $3.35M pre-seed; backed by Anglo American and Khosla; steel = 8% of global CO2" },
+  { company: "Slip Robotics", techMoat: 7, momentum: 8, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 7, govTraction: 2, composite: 72.0, tier: "promising", note: "Autonomous truck loading/unloading RaaS; $45M raised; deployed at John Deere, GE, Nissan across 25+ sites; founded by ex-Tesla Gigafactory engineer" },
+  { company: "Remedy Robotics", techMoat: 9, momentum: 6, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 7, govTraction: 2, composite: 70.0, tier: "promising", note: "World's first remote endovascular surgical robot; $35M raised; completed first remote neurointerventional procedures; 45 patents filed" },
+  { company: "Verdant Robotics", techMoat: 8, momentum: 7, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 7, govTraction: 3, composite: 72.5, tier: "promising", note: "Autonomous precision weeding robots reducing chemical inputs 96%; $58M raised; millimeter-accuracy plant identification; commercially deployed" },
+  { company: "Galadyne", techMoat: 8, momentum: 7, teamPedigree: 7, marketGravity: 10, capitalEfficiency: 7, govTraction: 5, composite: 66.5, tier: "promising", note: "Liquid-propulsion missile systems for mass production; $4.8M pre-seed led by a16z; addresses critical U.S. missile inventory gap" },
+  { company: "Simbe Robotics", techMoat: 7, momentum: 8, teamPedigree: 8, marketGravity: 8, capitalEfficiency: 6, govTraction: 2, composite: 69.0, tier: "promising", note: "Autonomous retail shelf-scanning robots; $104M raised; 29 retail brands including BJ's, Albertsons; Fast Company #1 Robotics 2025" },
+  { company: "Auradine", techMoat: 8, momentum: 9, teamPedigree: 9, marketGravity: 9, capitalEfficiency: 7, govTraction: 3, composite: 80.0, tier: "leader", note: "3nm ASIC design for mining and AI networking; $300M+ raised; $200M+ order pipeline; board member Lip-Bu Tan became Intel CEO" },
+  { company: "Rugged Robotics", techMoat: 8, momentum: 6, teamPedigree: 7, marketGravity: 8, capitalEfficiency: 8, govTraction: 2, composite: 62.5, tier: "promising", note: "Autonomous construction layout robots printing BIM plans onto concrete; $12M raised; sub-1/8-inch precision; IEEE Award 2025" },
+  { company: "Elementary Robotics", techMoat: 8, momentum: 7, teamPedigree: 8, marketGravity: 9, capitalEfficiency: 7, govTraction: 2, composite: 71.0, tier: "promising", note: "AI visual inspection for manufacturing QC; $66M raised; 1B+ parts inspected annually; VisionStream self-teaches defect ID in 12 seconds" },
+  { company: "Aeon Industrial", techMoat: 8, momentum: 9, teamPedigree: 8, marketGravity: 10, capitalEfficiency: 7, govTraction: 7, composite: 79.5, tier: "leader", note: "Software-defined tactical missiles with vertically integrated manufacturing; $18.6M seed; production lines for 100 Zeus systems/month; live-fire Army testing complete" },
+  { company: "Anthrogen", techMoat: 8, momentum: 7, teamPedigree: 7, marketGravity: 9, capitalEfficiency: 7, govTraction: 2, composite: 60.5, tier: "promising", note: "CRISPR-engineered photosynthetic microbes converting CO2 to SAF; $4.5M seed; YC S24; engineered fastest-known photosynthesizing organism" },
+  { company: "Overview Energy", techMoat: 9, momentum: 7, teamPedigree: 7, marketGravity: 10, capitalEfficiency: 6, govTraction: 3, composite: 66.0, tier: "promising", note: "Space-based solar power via GEO infrared laser beaming; $20M raised; demonstrated 5 km laser-to-ground power transmission; competitor to Aetherflux" },
+  { company: "Living Carbon", techMoat: 8, momentum: 7, teamPedigree: 7, marketGravity: 9, capitalEfficiency: 7, govTraction: 3, composite: 68.0, tier: "promising", note: "CRISPR-engineered trees with 50%+ faster growth for carbon removal; $36M Series A; Microsoft 1.4M tonne deal; Temasek-backed" },
+  { company: "Sorcerer", techMoat: 8, momentum: 7, teamPedigree: 7, marketGravity: 8, capitalEfficiency: 7, govTraction: 4, composite: 62.0, tier: "promising", note: "Persistent stratospheric balloon network for 1000x atmospheric data collection; $3.9M seed; YC S24; 6+ month flight endurance" },
+  { company: "Solideon", techMoat: 8, momentum: 7, teamPedigree: 7, marketGravity: 9, capitalEfficiency: 7, govTraction: 5, composite: 65.5, tier: "promising", note: "Autonomous multi-robot WAAM micro-factories for aerospace/defense metal structures; $6.5M pre-seed; $1.25M Air Force contract; TechCrunch Disrupt finalist" },
 ];
 
 // Previous week Frontier Index scores for delta tracking
@@ -16793,6 +17359,14 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-03-18
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-03-19
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-03-20
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-03-20
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-03-20
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-03-20
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], lastUpdated: "2026-02-06" },
   { company: "Anduril Industries", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], lastUpdated: "2026-02-06" },
@@ -16827,7 +17401,7 @@ const GOV_CONTRACTS = [
 ];
 
 // Auto-updated NIH Reporter grant data
-// Last updated: 2026-03-19
+// Last updated: 2026-03-20
 // Total grants: 621 | Known companies: 15
 const NIH_GRANTS = [
   { orgName: "", title: "PROVIDENT:  Prepositioning Optimized Strategies for Vaccines and Immunotherapeutics against Diverse ", agency: "", fiscalYear: 2025, totalCost: 0, totalCostFormatted: "$0", activityCode: "U19", isSbir: false, terms: ["Academia", "Achievement", "Advanced Development", "Animal Model", "Animals"], isKnownCompany: false },
@@ -17946,6 +18520,14 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-03-18
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-03-19
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-03-20
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-03-20
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-03-20
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-03-20
 const PATENT_INTEL = [
   { company: "SpaceX", totalPatents: 220, velocity: "15-25/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Reusable Launch Systems", "Satellite Constellation (Starlink)", "Raptor Engine Design"], notablePatents: ["Rocket landing leg deployment and recovery system", "Inter-satellite optical communication link"], note: "SpaceX famously relies on trade secrets over patents (Elon Musk has stated competitors could copy patented designs). Actual IP moat is far larger than patent count suggests due to manufacturing know-how and iterative flight data." },
   { company: "Anduril Industries", totalPatents: 29, velocity: "9-19/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Autonomous Defense Systems", "Sensor Fusion & Surveillance", "Counter-UAS Systems"], notablePatents: ["Autonomous drone interception and neutralization system", "Mesh sensor network for border surveillance (Lattice)"], note: "Rapid patent growth mirrors aggressive product expansion into autonomous systems, Lattice OS, and counter-drone platforms. Acquired Dive Technologies IP in undersea autonomy." },
@@ -18066,43 +18648,38 @@ const ALT_DATA_METHODOLOGY = {
 };
 
 // Auto-calculated alternative data signals
-// Last updated: 2026-03-19
+// Last updated: 2026-03-20
 // Sources: headcount estimates, growth signals, news sentiment
 const ALT_DATA_SIGNALS = [
   { company: "Palantir", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 8, keySignal: "7 recent articles" },
-  { company: "Anthropic", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "6,414+", webTraffic: "up", newsSentiment: "positive", githubPresence: null, signalStrength: 7, keySignal: "5 recent articles" },
-  { company: "Andrenam", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 7, keySignal: "4 recent articles" },
-  { company: "Anduril Industries", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "3,500+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 6, keySignal: "29 patents" },
+  { company: "Anduril Industries", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "3,500+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 7, keySignal: "29 patents" },
+  { company: "Anthropic", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "6,414+", webTraffic: "up", newsSentiment: "positive", githubPresence: null, signalStrength: 6, keySignal: "5 recent articles" },
+  { company: "Andrenam", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "4 recent articles" },
   { company: "Cape", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "13 recent articles" },
   { company: "Durin", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "5 recent articles" },
+  { company: "Karman Industries", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "4 recent articles" },
   { company: "OpenAI", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "7 recent articles" },
-  { company: "Ample", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 5, keySignal: "4 recent articles" },
-  { company: "Karman Industries", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 5, keySignal: "4 recent articles" },
+  { company: "Deterrence", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 5, keySignal: "3 recent articles" },
   { company: "SpaceX", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "21K+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "Hiring velocity: surging. Est. headcount: 21K+" },
   { company: "Stripe", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "8,771+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "Hiring velocity: surging. Est. headcount: 8,771+" },
   { company: "Rocket Lab", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "2,000+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "Hiring velocity: surging. Est. headcount: 2,000+" },
-  { company: "Astera Labs", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,486+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
   { company: "Applied Intuition", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "800+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "Hiring velocity: surging. Est. headcount: 800+" },
+  { company: "Epirus", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "500+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "11 patents" },
   { company: "Vast", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "350+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "80 patents" },
   { company: "Radiant", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "200+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "48 patents" },
   { company: "Labelbox", hiringVelocity: "moderate", keyRoles: [], headcountEstimate: "150+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
-  { company: "Hubble Network", hiringVelocity: "moderate", keyRoles: [], headcountEstimate: "86+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
   { company: "Skydio", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "97 patents" },
-  { company: "Neros", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "10 contracts" },
-  { company: "Orchid", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "100 patents" },
   { company: "Waymo", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "100 patents" },
+  { company: "Ample", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "4 recent articles" },
   { company: "Atomic Industries", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
-  { company: "Deterrence", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
-  { company: "Gecko Robotics", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
+  { company: "Gecko Robotics", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
   { company: "Asylon Robotics", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
+  { company: "Aurora Innovation", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "-8.8% down" },
   { company: "Cohere", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
-  { company: "Matic Robotics", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
-  { company: "Photonic Inc", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
   { company: "Standard Nuclear", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
   { company: "Xtend", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
-  { company: "Scale AI", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "2,343+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: rapid. Est. headcount: 2,343+" },
   { company: "Zipline", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,500+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "15 patents" },
-  { company: "Re:Build Manufacturing", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,471+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: rapid. Est. headcount: 1,471+" },
+  { company: "Astera Labs", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,486+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 3, keySignal: "2 recent articles" },
   { company: "Nuro", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,429+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: rapid. Est. headcount: 1,429+" },
   { company: "Divergent", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "950+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "55 patents" },
   { company: "Lightmatter", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "800+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "33 patents" },
@@ -18116,9 +18693,14 @@ const ALT_DATA_SIGNALS = [
   { company: "Apptronik", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "550+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 550+" },
   { company: "Muon Space", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "500+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 500+" },
   { company: "Valar Atomics", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "500+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 500+" },
-  { company: "Epirus", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "500+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "11 patents" },
   { company: "Allen Control Systems", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "450+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 450+" },
-  { company: "Agility Robotics", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "450+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 450+" },
+  { company: "Agility Robotics", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "450+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 450+" },
+  { company: "Overland AI", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "450+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 450+" },
+  { company: "Eikon Therapeutics", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "450+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 450+" },
+  { company: "Latitude", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "450+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 450+" },
+  { company: "Formic", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "400+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 400+" },
+  { company: "Atomic Machines", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "400+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 400+" },
+  { company: "Swarm Aero", hiringVelocity: "growing", keyRoles: [], headcountEstimate: "400+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 3, keySignal: "Hiring velocity: growing. Est. headcount: 400+" },
 ];
 
 // =============================================================
@@ -18665,6 +19247,14 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-03-18
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-03-19
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-03-20
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-03-20
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-03-20
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-03-20
 const NEWS_FEED = [
   // ─── CURATED (Editorial Analysis) ───
   {
@@ -18696,56 +19286,56 @@ const NEWS_FEED = [
     analysisAuthor: "ROS Editorial"
   },
   // ─── AUTO-DETECTED NEWS ───
-  { id: 3, company: "SpaceX", headline: "SpaceX Starship V3 Initiated a Ten Engine Static Fire", source: "Next Big Future", category: "ipo", date: "Just now", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 4, company: "Palantir", headline: "Two Palantir veterans just came out of stealth with $30 million and a Sequoia stamp of approval", source: "TechCrunch", category: "news", date: "Just now", summary: "", impact: "medium", sector: "General", url: "#" },
-  { id: 5, company: "Cape", headline: "Ukraine war undermining Russia’s Arctic plans, US intelligence says", source: "Defense News", category: "news", date: "7h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 6, company: "Atomic Industries", headline: "Lockheed tests upgraded Precision Strike Missile designed to strike ships", source: "Defense News", category: "milestone", date: "7h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 7, company: "Andrenam", headline: "Hydrogen Paste Meets Reality: Energy In, Energy Out, And What’s Missing", source: "CleanTechnica", category: "news", date: "6h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 8, company: "Deterrence", headline: "Fighter jets are downing Iranian drones—a dangerous, expensive mission", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 9, company: "Hadrian", headline: "While OpenAI Shattered Records, Robotics and Semiconductor Startups Quietly Added The Most New Unicorns In February", source: "Crunchbase News", category: "leadership", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 10, company: "Vast", headline: "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience", source: "War on the Rocks", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 11, company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 12, company: "Neros", headline: "After Ukraine, FPV drones could take on Arctic warfare", source: "Defense News", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 13, company: "Reveal Technology", headline: "Ukraine opens battlefield AI data to allies in world-first move", source: "Defense News", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 14, company: "Claros", headline: "Why physical AI is becoming manufacturing’s next advantage", source: "MIT Tech Review", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 15, company: "Karman Industries", headline: "Iran’s defense industrial base is ‘functionally defeated’: Hegseth", source: "Defense One", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 16, company: "Aurora Innovation", headline: "Waabi's Raquel Urtasun on Level-4 Autonomous Trucks", source: "IEEE Spectrum", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 17, company: "Labelbox", headline: "The Download: how AI is used for military targeting, and the Pentagon&#8217;s war on Claude", source: "MIT Tech Review", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 18, company: "Atomic Industries", headline: "5 Interesting Startup Deals You May Have Missed: Blood-Drawing Robots, Inboxes For AI Agents, Franchised Defense Manufacturing, And More", source: "Crunchbase News", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 19, company: "Xtend", headline: "Groups Take Trump Administration to Court Over Illegal Craig Coal Plant Extension", source: "CleanTechnica", category: "news", date: "3h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 20, company: "Fervo Energy", headline: "Sierra Club Statement on Western Arctic Oil &#038; Gas Lease Sale", source: "CleanTechnica", category: "news", date: "3h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 21, company: "Karman Industries", headline: "How the Pentagon is working to wriggle out of China’s rare-earths grip", source: "Defense One", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 22, company: "Cape", headline: "Do Offshore Wind Farms Pose National Security Risks?", source: "IEEE Spectrum", category: "news", date: "3/9/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 23, company: "Anthropic", headline: "Military AI Policy Needs Democratic Oversight", source: "IEEE Spectrum", category: "milestone", date: "3/8/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 24, company: "PLD Space", headline: "Laser-Based 3D Printing Could Build Future Bases on the Moon", source: "IEEE Spectrum", category: "news", date: "3/7/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 25, company: "Terrestrial Energy", headline: "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)", source: "IEEE Spectrum", category: "news", date: "3/6/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 26, company: "Astera Labs", headline: "Trump gets data center companies to pledge to pay for power generation", source: "Ars Technica", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 27, company: "Cape", headline: "Fighting an Economic War Without Fused Intelligence", source: "War on the Rocks", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 28, company: "Astera Labs", headline: "This Offshore Wind Turbine Will House a Data Center", source: "IEEE Spectrum", category: "news", date: "3/3/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 29, company: "Durin", headline: "Foundry, Fleet, and Fight: Hedging the U.S. Navy", source: "War on the Rocks", category: "news", date: "3/3/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 30, company: "Re:Build Manufacturing", headline: "Defense Business Brief: 3D-printing on the battlefield; Reshoring drone dominance; AI on submarines", source: "Defense One", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 31, company: "White Stork", headline: "Anduril, the autonomous weapons maker, doubles the size of its space unit", source: "Ars Technica Space", category: "ipo", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 32, company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 33, company: "Mach Industries", headline: "How Robert Goddard’s Self-Reliance Crashed His Rocket Dreams", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 34, company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You’re Wrong", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 35, company: "Cape", headline: "Ig Nobels ceremony moves to Europe over security concerns", source: "Ars Technica Space", category: "news", date: "3/10/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 36, company: "Phospho", headline: "Finite-Element Approaches to Transformer Harmonic and Transient Analysis", source: "IEEE Spectrum", category: "news", date: "3/10/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 37, company: "Senra Systems", headline: "Hyundai Motor, Kia, &#038; NVIDIA Expand Strategic Partnership for Next-Generation Autonomous Driving Technology", source: "CleanTechnica", category: "partnership", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 38, company: "Machina Labs", headline: "Let’s Not Pour Cold Water on the EU Car Industry’s EV Momentum", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 39, company: "PILGRIM", headline: "Tesla’s Cybertruck may be wrong for some. Could it be right for the battlefield?", source: "Defense News", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 40, company: "Ample", headline: "Volkswagen &#038; XPENG Launch ID.UNYX 08 Production: The Fruition of Collaboration", source: "CleanTechnica", category: "milestone", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 41, company: "Palantir", headline: "Anduril secures $87M contract for a common counter-unmanned C2 program", source: "Defense One", category: "contract", date: "2d ago", summary: "", impact: "medium", sector: "General", url: "#" },
-  { id: 42, company: "WeaveGrid", headline: "Utilities Study How to Protect Grids From Rising Physical Threats", source: "IEEE Spectrum", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 43, company: "Alpha School", headline: "IEEE Young Professionals Help Bridge the U.S. Tech Skills Gap", source: "IEEE Spectrum", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 44, company: "Hubble Network", headline: "Save Almost 20 Percent on Our Favorite Portable Bluetooth Speaker", source: "Wired", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 45, company: "OpenAI", headline: "Where OpenAI’s technology could show up in Iran", source: "MIT Tech Review", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 46, company: "Quantum-Systems", headline: "Norway’s elite Arctic soldiers still dig their own snow caves to hide from drones", source: "Defense News", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 47, company: "Harbinger", headline: "Tesla, Schmesla: Let&#8217;s Talk About Workhorse Electric Trucks", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 48, company: "Cohere", headline: "Military Operational Thinking in an Age of Artificial Intelligence", source: "War on the Rocks", category: "news", date: "23h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 49, company: "Standard Nuclear", headline: "What do new nuclear reactors mean for waste?", source: "MIT Tech Review", category: "leadership", date: "22h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 50, company: "Deterrence", headline: "Deterrence Won’t Fail in the Taiwan Strait — It Will Be Bypassed", source: "War on the Rocks", category: "news", date: "2/9/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 51, company: "Rigetti Computing", headline: "Atomically Thin Materials Significantly Shrink Qubits", source: "IEEE Spectrum", category: "news", date: "2/7/2022", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 52, company: "Anthropic", headline: "Sixteen Claude AI agents working together created a new C compiler", source: "Ars Technica", category: "news", date: "2/6/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 3, company: "Mach Industries", headline: "NASA Shifts from Boeing and SLS Towards SpaceX for Moon Missions", source: "Next Big Future", category: "ipo", date: "9h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 4, company: "Agility Robotics", headline: "Employees had to restrain a dancing humanoid robot after it went wild at a California restaurant", source: "TechCrunch", category: "news", date: "8h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 5, company: "Deterrence", headline: "US moves to approve more than $16 billion in air defense sales to Middle East", source: "Defense News", category: "news", date: "8h ago", summary: "", impact: "high", sector: "General", url: "#" },
+  { id: 6, company: "Karman Industries", headline: "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI", source: "TechCrunch", category: "news", date: "7h ago", summary: "", impact: "high", sector: "General", url: "#" },
+  { id: 7, company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 8, company: "Karman Industries", headline: "Iran’s defense industrial base is ‘functionally defeated’: Hegseth", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 9, company: "Aurora Innovation", headline: "Waabi's Raquel Urtasun on Level-4 Autonomous Trucks", source: "IEEE Spectrum", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 10, company: "Atomic Industries", headline: "5 Interesting Startup Deals You May Have Missed: Blood-Drawing Robots, Inboxes For AI Agents, Franchised Defense Manufacturing, And More", source: "Crunchbase News", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 11, company: "Anduril Industries", headline: "High-speed combat drone production starts at new US Anduril plant in days", source: "Defense News", category: "news", date: "5h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 12, company: "Karman Industries", headline: "How the Pentagon is working to wriggle out of China’s rare-earths grip", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 13, company: "Bronco AI", headline: "Diesel at $5: Clean Transport Advocates Call on Truck Manufacturers to Help U.S. Trucking Switch to Electric", source: "CleanTechnica", category: "news", date: "3h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 14, company: "PILGRIM", headline: "Tesla’s Cybertruck may be wrong for some. Could it be right for the battlefield?", source: "Defense News", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 15, company: "Palantir", headline: "Anduril secures $87M contract for a common counter-unmanned C2 program", source: "Defense One", category: "contract", date: "3d ago", summary: "", impact: "medium", sector: "General", url: "#" },
+  { id: 16, company: "WeaveGrid", headline: "Utilities Study How to Protect Grids From Rising Physical Threats", source: "IEEE Spectrum", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 17, company: "Alpha School", headline: "IEEE Young Professionals Help Bridge the U.S. Tech Skills Gap", source: "IEEE Spectrum", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 18, company: "OpenAI", headline: "Where OpenAI’s technology could show up in Iran", source: "MIT Tech Review", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 19, company: "Cape", headline: "Do Offshore Wind Farms Pose National Security Risks?", source: "IEEE Spectrum", category: "news", date: "3/9/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 20, company: "Anthropic", headline: "Military AI Policy Needs Democratic Oversight", source: "IEEE Spectrum", category: "milestone", date: "3/8/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 21, company: "PLD Space", headline: "Laser-Based 3D Printing Could Build Future Bases on the Moon", source: "IEEE Spectrum", category: "news", date: "3/7/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 22, company: "Terrestrial Energy", headline: "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)", source: "IEEE Spectrum", category: "news", date: "3/6/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 23, company: "Astera Labs", headline: "Trump gets data center companies to pledge to pay for power generation", source: "Ars Technica", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 24, company: "Cape", headline: "Fighting an Economic War Without Fused Intelligence", source: "War on the Rocks", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 25, company: "Durin", headline: "Foundry, Fleet, and Fight: Hedging the U.S. Navy", source: "War on the Rocks", category: "news", date: "3/3/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 26, company: "Deterrence", headline: "Fighter jets are downing Iranian drones—a dangerous, expensive mission", source: "Defense One", category: "news", date: "3/12/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 27, company: "Vast", headline: "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience", source: "War on the Rocks", category: "news", date: "3/12/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 28, company: "White Stork", headline: "Anduril, the autonomous weapons maker, doubles the size of its space unit", source: "Ars Technica Space", category: "ipo", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 29, company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 30, company: "Mach Industries", headline: "How Robert Goddard’s Self-Reliance Crashed His Rocket Dreams", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 31, company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You’re Wrong", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 32, company: "Cape", headline: "Ig Nobels ceremony moves to Europe over security concerns", source: "Ars Technica Space", category: "news", date: "3/10/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 33, company: "Phospho", headline: "Finite-Element Approaches to Transformer Harmonic and Transient Analysis", source: "IEEE Spectrum", category: "news", date: "3/10/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 34, company: "Palantir", headline: "Pentagon leaders called Claude AI 'woke.' Tests show otherwise.", source: "Defense One", category: "milestone", date: "2h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 35, company: "Cape", headline: "Europe Must Not Let Airlines Sabotage Clean Aviation Fuels", source: "CleanTechnica", category: "contract", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 36, company: "Andrenam", headline: "Greece Risks Becoming Trump’s Trojan Horse in the Fight to Decarbonise Shipping", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 37, company: "Cape", headline: "How Electric Cars Cut Oil Dependence &#038; Drive Energy Security", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 38, company: "Karman Industries", headline: "Op-Ed: What China Did Right—And What India Is Doing Differently", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 39, company: "Anthropic", headline: "The Pentagon is planning for AI companies to train on classified data, defense official says", source: "MIT Tech Review", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 40, company: "Nuro", headline: "Ebikes &#038; Bikes for Everything, + Much of What I’ve Learned Riding Bikes for 75 Years (Part I)", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 41, company: "Together AI", headline: "Nvidia Structured Data is the Ground Truth of AI &#8211; $120 Billion Structure Data Ecosystem", source: "Next Big Future", category: "funding", date: "2d ago", summary: "", impact: "high", sector: "General", url: "#" },
+  { id: 42, company: "Xanadu Quantum Technologies", headline: "Nvidia GTC Highlights &#8211; Nvidia Goal to Make All Data Ground Truth for AI", source: "Next Big Future", category: "funding", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 43, company: "Gecko Robotics", headline: "US Navy taps Gecko Robotics to help remedy maintenance headaches", source: "Defense News", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 44, company: "Saule Technologies", headline: "As Fossil Fuel Costs Rise, Renewable Energy &#038; Storage Shine", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 45, company: "Palantir", headline: "484 New Electric Buses Funded By UK Government", source: "CleanTechnica", category: "funding", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 46, company: "Palantir", headline: "Dilemmas About Food Systems In Times Of US Federal Government Mayhem", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 47, company: "Asylon Robotics", headline: "“Sensorveillance” Turns Ordinary Life Into Evidence", source: "IEEE Spectrum", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 48, company: "OpenAI", headline: "The Download: OpenAI’s US military deal, and Grok&#8217;s CSAM lawsuit", source: "MIT Tech Review", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 49, company: "Xtend", headline: "Exclusive: Candex Extends Series C To $40M+ To Help Enterprises Easily Onboard Global Vendors", source: "Crunchbase News", category: "funding", date: "2d ago", summary: "", impact: "medium", sector: "General", url: "#" },
+  { id: 50, company: "Gecko Robotics", headline: "US Navy to use wall-climbing robots to inspect ships", source: "Defense One", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 51, company: "Cape", headline: "How Does the Iran War Affect China’s Energy Security?", source: "War on the Rocks", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 52, company: "Waymo", headline: "NVIDIA ROBOTAXI READY? IS TESLA DOOMED", source: "Next Big Future", category: "contract", date: "23h ago", summary: "", impact: "low", sector: "General", url: "#" },
 ];
 
 const STORY_LEADS = [
@@ -21278,7 +21868,37 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-20 05:18
+// Last updated: 2026-03-18 02:50
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-19
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
 const COMPANY_SIGNALS = [
   { id: 1, type: "contract", company: "Palantir", headline: "Pentagon leaders called Claude AI 'woke.' Tests show otherwise.", source: "Defense One", time: "2h ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "Bronco AI", headline: "Diesel at $5: Clean Transport Advocates Call on Truck Manufacturers to Help U.S. Trucking Switch to Electric", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
@@ -21290,9 +21910,9 @@ const COMPANY_SIGNALS = [
   { id: 8, type: "hire", company: "Labelbox", headline: "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
   { id: 9, type: "news", company: "Anysphere", headline: "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze", source: "Wired", time: "11h ago", impact: "low", unread: false },
   { id: 10, type: "news", company: "Cape", headline: "Google introduces a new way for users to sideload Android apps that still protects against scams", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Asylon Robotics", headline: "ChatGPT's 'Adult Mode' Could Spark a New Era of Intimate Surveillance", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Asylon Robotics", headline: "ChatGPT’s ‘Adult Mode’ Could Spark a New Era of Intimate Surveillance", source: "Wired", time: "13h ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "Galvanick", headline: "CISA urges companies to secure Microsoft Intune systems after hackers mass-wipe Stryker devices", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "PILGRIM", headline: "TechCrunch'Startup Battlefield 200 nominations'are still'open", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "PILGRIM", headline: "TechCrunch Startup Battlefield 200 nominations are still open", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Ample", headline: "Business Provides Over 50 EV Chargers Onsite For Employees", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
   { id: 15, type: "news", company: "Aurora Innovation", headline: "Rivian sacrifices 2027 profit goal to push deeper into autonomy", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
 ];
@@ -21394,6 +22014,14 @@ const EXPERT_INSIGHTS = [
 // Last updated: 2026-03-18
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-03-19
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-03-20
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-03-20
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-03-20
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-03-20
 const VALLEY_OF_DEATH = [
   { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 100, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
   { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
@@ -21452,6 +22080,14 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-03-18
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-03-19
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-03-20
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-03-20
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-03-20
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-03-20
 const CONTRACTOR_READINESS = [
   { company: "SpaceX", readinessScore: 100, trlLevel: 9, sbirPhase: "Graduated", clearanceLevel: "TS/SCI", facilityCleared: true, pastPerformance: { contractsCompleted: 150, onTimeRate: 98, avgRating: 4.9 }, cmmcLevel: 3, itarCompliant: true, keyAgencies: ["Space Force", "NRO", "NASA", "DoD"], readinessFactors: ["Launch heritage", "Starlink operational", "Starshield classified"] },
   { company: "Anduril Industries", readinessScore: 99, trlLevel: 9, sbirPhase: "Graduated", clearanceLevel: "TS/SCI", facilityCleared: true, pastPerformance: { contractsCompleted: 100, onTimeRate: 96, avgRating: 4.8 }, cmmcLevel: 3, itarCompliant: true, keyAgencies: ["SOCOM", "Army", "Navy", "USMC", "DHS", "Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], readinessFactors: ["Production-ready systems", "Proven DoD track record", "Cleared workforce"] },
@@ -21464,111 +22100,44 @@ const CONTRACTOR_READINESS = [
 ];
 
 // Auto-updated live contract & award feed
-// Last updated: 2026-03-19
+// Last updated: 2026-03-20
 // Sources: USAspending, SAM.gov, SBIR.gov, news RSS
 const LIVE_AWARD_FEED = [
-  { id: 1, date: "2d ago", company: "Palantir", type: "contract", title: "Anduril secures $87M contract for a common counter-unmanned C2 program", value: "$87M ", agency: "", detail: "" },
-  { id: 2, date: "2026-02-06", company: "Anduril", type: "contract", title: "Government Contract — Department of Homeland Security, Department of Defense", value: "$1.5B+", agency: "Department of Homeland Security, Department of Defense", detail: "100 contracts across 4 agencies." },
-  { id: 3, date: "2026-02-06", company: "Anduril Industries", type: "contract", title: "Government Contract — Department of Homeland Security, Department of Defense", value: "$1.5B+", agency: "Department of Homeland Security, Department of Defense", detail: "100 contracts across 4 agencies." },
-  { id: 4, date: "2026-02-06", company: "Palantir Technologies", type: "contract", title: "Government Contract — Department of the Treasury, Department of State", value: "$1.7B+", agency: "Department of the Treasury, Department of State", detail: "100 contracts across 5 agencies." },
-  { id: 5, date: "2026-02-06", company: "Space Exploration Technologies", type: "contract", title: "Government Contract — Department of State, Department of Homeland Security", value: "$10.1B+", agency: "Department of State, Department of Homeland Security", detail: "78 contracts across 5 agencies." },
-  { id: 6, date: "2026-02-06", company: "Skydio", type: "contract", title: "Government Contract — Department of State, Department of Justice", value: "$5M+", agency: "Department of State, Department of Justice", detail: "48 contracts across 5 agencies." },
-  { id: 7, date: "2026-02-06", company: "Radiant", type: "contract", title: "Government Contract — Department of the Treasury, Department of Health and Human Services", value: "$53M+", agency: "Department of the Treasury, Department of Health and Human Services", detail: "29 contracts across 5 agencies." },
-  { id: 8, date: "2026-02-06", company: "Sierra Space", type: "contract", title: "Government Contract — Department of Defense, National Aeronautics and Space Administration", value: "$73M+", agency: "Department of Defense, National Aeronautics and Space Administration", detail: "15 contracts across 2 agencies." },
-  { id: 9, date: "2026-02-06", company: "Neros", type: "contract", title: "Government Contract — Department of Defense", value: "$2M+", agency: "Department of Defense", detail: "10 contracts across 1 agencies." },
-  { id: 10, date: "2026-02-06", company: "Planet Labs", type: "contract", title: "Government Contract — Department of Commerce, Department of Defense", value: "$31M+", agency: "Department of Commerce, Department of Defense", detail: "10 contracts across 4 agencies." },
-  { id: 11, date: "2026-02-06", company: "Rocket Lab", type: "contract", title: "Government Contract — Department of Defense, National Aeronautics and Space Administration", value: "$53M+", agency: "Department of Defense, National Aeronautics and Space Administration", detail: "7 contracts across 2 agencies." },
-  { id: 12, date: "2026-02-06", company: "Shield AI", type: "contract", title: "Government Contract — Department of Homeland Security, Department of Defense", value: "$19M+", agency: "Department of Homeland Security, Department of Defense", detail: "6 contracts across 2 agencies." },
-  { id: 13, date: "2026-02-06", company: "Rocket Lab USA", type: "contract", title: "Government Contract — Department of Defense, National Aeronautics and Space Administration", value: "$48M+", agency: "Department of Defense, National Aeronautics and Space Administration", detail: "6 contracts across 2 agencies." },
-  { id: 14, date: "2026-02-06", company: "Impulse Space", type: "contract", title: "Government Contract — Department of Defense, National Aeronautics and Space Administration", value: "$40M+", agency: "Department of Defense, National Aeronautics and Space Administration", detail: "6 contracts across 2 agencies." },
-  { id: 15, date: "2026-02-06", company: "BlackSky", type: "contract", title: "Government Contract — Department of Defense, National Aeronautics and Space Administration", value: "$10M+", agency: "Department of Defense, National Aeronautics and Space Administration", detail: "6 contracts across 2 agencies." },
-  { id: 16, date: "2026-02-06", company: "Scale AI", type: "contract", title: "Government Contract — Department of Defense", value: "$10M+", agency: "Department of Defense", detail: "6 contracts across 1 agencies." },
-  { id: 17, date: "2026-02-06", company: "Boston Dynamics", type: "contract", title: "Government Contract — Department of Health and Human Services, Department of Defense", value: "$8M+", agency: "Department of Health and Human Services, Department of Defense", detail: "6 contracts across 2 agencies." },
-  { id: 18, date: "2026-02-06", company: "Castelion", type: "contract", title: "Government Contract — Department of Defense", value: "$77M+", agency: "Department of Defense", detail: "5 contracts across 1 agencies." },
-  { id: 19, date: "2026-02-06", company: "Axiom Space", type: "contract", title: "Government Contract — National Aeronautics and Space Administration", value: "$437M+", agency: "National Aeronautics and Space Administration", detail: "5 contracts across 1 agencies." },
-  { id: 20, date: "2026-02-06", company: "Ginkgo Bioworks", type: "contract", title: "Government Contract — Department of Health and Human Services, Department of Defense", value: "$72M+", agency: "Department of Health and Human Services, Department of Defense", detail: "5 contracts across 2 agencies." },
+  { id: 1, date: "3d ago", company: "Palantir", type: "contract", title: "Anduril secures $87M contract for a common counter-unmanned C2 program", value: "$87M ", agency: "", detail: "" },
+  { id: 2, date: "2d ago", company: "Cape", type: "ota", title: "Europe Must Not Let Airlines Sabotage Clean Aviation Fuels", value: "", agency: "", detail: "" },
+  { id: 3, date: "23h ago", company: "Waymo", type: "ota", title: "NVIDIA ROBOTAXI READY? IS TESLA DOOMED", value: "", agency: "", detail: "" },
+  { id: 4, date: "2026-02-06", company: "Anduril", type: "contract", title: "Government Contract — Department of Homeland Security, Department of Defense", value: "$1.5B+", agency: "Department of Homeland Security, Department of Defense", detail: "100 contracts across 4 agencies." },
+  { id: 5, date: "2026-02-06", company: "Anduril Industries", type: "contract", title: "Government Contract — Department of Homeland Security, Department of Defense", value: "$1.5B+", agency: "Department of Homeland Security, Department of Defense", detail: "100 contracts across 4 agencies." },
+  { id: 6, date: "2026-02-06", company: "Palantir Technologies", type: "contract", title: "Government Contract — Department of the Treasury, Department of State", value: "$1.7B+", agency: "Department of the Treasury, Department of State", detail: "100 contracts across 5 agencies." },
+  { id: 7, date: "2026-02-06", company: "Space Exploration Technologies", type: "contract", title: "Government Contract — Department of State, Department of Homeland Security", value: "$10.1B+", agency: "Department of State, Department of Homeland Security", detail: "78 contracts across 5 agencies." },
+  { id: 8, date: "2026-02-06", company: "Skydio", type: "contract", title: "Government Contract — Department of State, Department of Justice", value: "$5M+", agency: "Department of State, Department of Justice", detail: "48 contracts across 5 agencies." },
+  { id: 9, date: "2026-02-06", company: "Radiant", type: "contract", title: "Government Contract — Department of the Treasury, Department of Health and Human Services", value: "$53M+", agency: "Department of the Treasury, Department of Health and Human Services", detail: "29 contracts across 5 agencies." },
+  { id: 10, date: "2026-02-06", company: "Sierra Space", type: "contract", title: "Government Contract — Department of Defense, National Aeronautics and Space Administration", value: "$73M+", agency: "Department of Defense, National Aeronautics and Space Administration", detail: "15 contracts across 2 agencies." },
+  { id: 11, date: "2026-02-06", company: "Neros", type: "contract", title: "Government Contract — Department of Defense", value: "$2M+", agency: "Department of Defense", detail: "10 contracts across 1 agencies." },
+  { id: 12, date: "2026-02-06", company: "Planet Labs", type: "contract", title: "Government Contract — Department of Commerce, Department of Defense", value: "$31M+", agency: "Department of Commerce, Department of Defense", detail: "10 contracts across 4 agencies." },
+  { id: 13, date: "2026-02-06", company: "Rocket Lab", type: "contract", title: "Government Contract — Department of Defense, National Aeronautics and Space Administration", value: "$53M+", agency: "Department of Defense, National Aeronautics and Space Administration", detail: "7 contracts across 2 agencies." },
+  { id: 14, date: "2026-02-06", company: "Shield AI", type: "contract", title: "Government Contract — Department of Homeland Security, Department of Defense", value: "$19M+", agency: "Department of Homeland Security, Department of Defense", detail: "6 contracts across 2 agencies." },
+  { id: 15, date: "2026-02-06", company: "Rocket Lab USA", type: "contract", title: "Government Contract — Department of Defense, National Aeronautics and Space Administration", value: "$48M+", agency: "Department of Defense, National Aeronautics and Space Administration", detail: "6 contracts across 2 agencies." },
+  { id: 16, date: "2026-02-06", company: "Impulse Space", type: "contract", title: "Government Contract — Department of Defense, National Aeronautics and Space Administration", value: "$40M+", agency: "Department of Defense, National Aeronautics and Space Administration", detail: "6 contracts across 2 agencies." },
+  { id: 17, date: "2026-02-06", company: "BlackSky", type: "contract", title: "Government Contract — Department of Defense, National Aeronautics and Space Administration", value: "$10M+", agency: "Department of Defense, National Aeronautics and Space Administration", detail: "6 contracts across 2 agencies." },
+  { id: 18, date: "2026-02-06", company: "Scale AI", type: "contract", title: "Government Contract — Department of Defense", value: "$10M+", agency: "Department of Defense", detail: "6 contracts across 1 agencies." },
+  { id: 19, date: "2026-02-06", company: "Boston Dynamics", type: "contract", title: "Government Contract — Department of Health and Human Services, Department of Defense", value: "$8M+", agency: "Department of Health and Human Services, Department of Defense", detail: "6 contracts across 2 agencies." },
+  { id: 20, date: "2026-02-06", company: "Castelion", type: "contract", title: "Government Contract — Department of Defense", value: "$77M+", agency: "Department of Defense", detail: "5 contracts across 1 agencies." },
 ];
 
 // Auto-updated deal flow signals
-// Last updated: 2026-03-19
+// Last updated: 2026-03-20
 const DEAL_FLOW_SIGNALS = [
   {
     company: "Together AI",
-    probability: 95,
-    expectedRound: "Unknown",
-    expectedAmount: "TBD",
-    expectedTiming: "TBD",
-    signals: [
-      { type: "milestone", description: "Recent funding activity: Series G", weight: 25 },
-      { type: "milestone", description: "Recent funding activity: Seed", weight: 25 },
-      { type: "milestone", description: "Recent funding activity: Funding Round", weight: 25 },
-      { type: "milestone", description: "Recent funding activity: Funding Round", weight: 25 },
-    ],
-    potentialLeads: []
-  },
-  {
-    company: "OpenAI",
-    probability: 80,
-    expectedRound: "Unknown",
-    expectedAmount: "TBD",
-    expectedTiming: "TBD",
-    signals: [
-      { type: "milestone", description: "Recent funding activity: Funding Round", weight: 25 },
-      { type: "milestone", description: "Recent funding activity: Seed", weight: 25 },
-      { type: "milestone", description: "Recent funding activity: Funding Round", weight: 25 },
-      { type: "milestone", description: "Recent funding activity: Series G", weight: 25 },
-    ],
-    potentialLeads: []
-  },
-  {
-    company: "Anduril Industries",
     probability: 60,
     expectedRound: "Unknown",
     expectedAmount: "TBD",
     expectedTiming: "TBD",
     signals: [
       { type: "milestone", description: "Recent funding activity: Series G", weight: 33 },
-      { type: "milestone", description: "Recent funding activity: Series G", weight: 33 },
-      { type: "milestone", description: "Recent funding activity: Series G", weight: 33 },
-    ],
-    potentialLeads: []
-  },
-  {
-    company: "Built Robotics",
-    probability: 60,
-    expectedRound: "Unknown",
-    expectedAmount: "TBD",
-    expectedTiming: "TBD",
-    signals: [
-      { type: "milestone", description: "Recent funding activity: Funding Round", weight: 33 },
-      { type: "milestone", description: "Recent funding activity: Series D", weight: 33 },
-      { type: "milestone", description: "Recent funding activity: Series A", weight: 33 },
-    ],
-    potentialLeads: []
-  },
-  {
-    company: "Watershed",
-    probability: 60,
-    expectedRound: "Unknown",
-    expectedAmount: "TBD",
-    expectedTiming: "TBD",
-    signals: [
-      { type: "milestone", description: "Recent funding activity: Series A", weight: 33 },
-      { type: "milestone", description: "Recent funding activity: Series C", weight: 33 },
       { type: "milestone", description: "Recent funding activity: Seed", weight: 33 },
-    ],
-    potentialLeads: []
-  },
-  {
-    company: "Galvanick",
-    probability: 60,
-    expectedRound: "Unknown",
-    expectedAmount: "TBD",
-    expectedTiming: "TBD",
-    signals: [
       { type: "milestone", description: "Recent funding activity: Funding Round", weight: 33 },
-      { type: "milestone", description: "Recent funding activity: Funding Round", weight: 33 },
-      { type: "milestone", description: "Recent funding activity: Seed", weight: 33 },
     ],
     potentialLeads: []
   },
@@ -21635,6 +22204,30 @@ const DEAL_FLOW_SIGNALS = [
     potentialLeads: []
   },
   {
+    company: "Built Robotics",
+    probability: 40,
+    expectedRound: "Unknown",
+    expectedAmount: "TBD",
+    expectedTiming: "TBD",
+    signals: [
+      { type: "milestone", description: "Recent funding activity: Funding Round", weight: 50 },
+      { type: "milestone", description: "Recent funding activity: Series A", weight: 50 },
+    ],
+    potentialLeads: []
+  },
+  {
+    company: "Watershed",
+    probability: 40,
+    expectedRound: "Unknown",
+    expectedAmount: "TBD",
+    expectedTiming: "TBD",
+    signals: [
+      { type: "milestone", description: "Recent funding activity: Series A", weight: 50 },
+      { type: "milestone", description: "Recent funding activity: Series C", weight: 50 },
+    ],
+    potentialLeads: []
+  },
+  {
     company: "Palantir",
     probability: 40,
     expectedRound: "Unknown",
@@ -21647,38 +22240,74 @@ const DEAL_FLOW_SIGNALS = [
     potentialLeads: []
   },
   {
-    company: "GHGSat",
+    company: "Aurora Innovation",
     probability: 40,
     expectedRound: "Unknown",
     expectedAmount: "TBD",
     expectedTiming: "TBD",
     signals: [
+      { type: "milestone", description: "Recent funding activity: Funding Round", weight: 50 },
+      { type: "milestone", description: "Recent funding activity: Funding Round", weight: 50 },
+    ],
+    potentialLeads: []
+  },
+  {
+    company: "Orangewood Labs",
+    probability: 40,
+    expectedRound: "Unknown",
+    expectedAmount: "TBD",
+    expectedTiming: "TBD",
+    signals: [
+      { type: "milestone", description: "Recent funding activity: Series A", weight: 50 },
       { type: "milestone", description: "Recent funding activity: Seed", weight: 50 },
-      { type: "milestone", description: "Recent funding activity: Series G", weight: 50 },
     ],
     potentialLeads: []
   },
   {
-    company: "Orbion Space Technology",
-    probability: 40,
-    expectedRound: "Unknown",
-    expectedAmount: "TBD",
-    expectedTiming: "TBD",
-    signals: [
-      { type: "milestone", description: "Recent funding activity: SPAC", weight: 50 },
-      { type: "milestone", description: "Recent funding activity: SPAC", weight: 50 },
-    ],
-    potentialLeads: []
-  },
-  {
-    company: "Celero Communications",
+    company: "Skild AI",
     probability: 40,
     expectedRound: "Unknown",
     expectedAmount: "TBD",
     expectedTiming: "TBD",
     signals: [
       { type: "milestone", description: "Recent funding activity: Series C", weight: 50 },
-      { type: "milestone", description: "Recent funding activity: SPAC", weight: 50 },
+      { type: "milestone", description: "Recent funding activity: Series C", weight: 50 },
+    ],
+    potentialLeads: []
+  },
+  {
+    company: "Saronic",
+    probability: 40,
+    expectedRound: "Unknown",
+    expectedAmount: "TBD",
+    expectedTiming: "TBD",
+    signals: [
+      { type: "milestone", description: "Recent funding activity: Series C", weight: 50 },
+      { type: "milestone", description: "Recent funding activity: Series C", weight: 50 },
+    ],
+    potentialLeads: []
+  },
+  {
+    company: "Anduril Industries",
+    probability: 40,
+    expectedRound: "Unknown",
+    expectedAmount: "TBD",
+    expectedTiming: "TBD",
+    signals: [
+      { type: "milestone", description: "Recent funding activity: Series G", weight: 50 },
+      { type: "milestone", description: "Recent funding activity: Series G", weight: 50 },
+    ],
+    potentialLeads: []
+  },
+  {
+    company: "Shield AI",
+    probability: 40,
+    expectedRound: "Unknown",
+    expectedAmount: "TBD",
+    expectedTiming: "TBD",
+    signals: [
+      { type: "milestone", description: "Recent funding activity: Series F-1", weight: 50 },
+      { type: "milestone", description: "Recent funding activity: Series F-1", weight: 50 },
     ],
     potentialLeads: []
   },

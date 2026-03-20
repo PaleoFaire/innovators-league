@@ -882,12 +882,25 @@ def update_vc_portfolios(data_js_content):
         "Cantos Ventures": "Cantos",
     }
 
+    # Blocklist: strings that are NOT companies but get scraped from VC portfolio pages
+    # (webpage section titles, tags, categories, mismatched entities)
+    PORTFOLIO_BLOCKLIST = {
+        "Founder Tier", "Quarterly Founder Showcase", "general", "space",
+        "SHIELD Technology Partners", "Prusa Research",
+        "all", "featured", "active", "exited", "acquired",
+        "portfolio", "companies", "investments", "sectors",
+        "enterprise", "consumer", "fintech", "healthcare", "defense",
+        "ai", "robotics", "energy", "climate", "biotech",
+    }
+
     # Build investor → companies map from deals
     vc_investments = {}
     for deal in (deals or []):
         investor = deal.get("investor", "")
         company = deal.get("company", "")
         if not investor or not company:
+            continue
+        if company in PORTFOLIO_BLOCKLIST:
             continue
         vc_short = INVESTOR_TO_VC.get(investor)
         if vc_short:
@@ -897,7 +910,7 @@ def update_vc_portfolios(data_js_content):
     for change in (portfolio_changes or []):
         vc_short = change.get("vc", "")
         company = change.get("company", "")
-        if vc_short and company:
+        if vc_short and company and company not in PORTFOLIO_BLOCKLIST:
             vc_investments.setdefault(vc_short, set()).add(company)
 
     if not vc_investments:
@@ -906,8 +919,16 @@ def update_vc_portfolios(data_js_content):
 
     print(f"Checking portfolio updates for {len(vc_investments)} VCs...")
 
-    # Get set of all tracked company names for validation
-    tracked_companies = set(re.findall(r'name:\s*"([^"]+)"', data_js_content[:500000]))
+    # Get set of all tracked company names from COMPANIES array only
+    # Use a more targeted regex: find the COMPANIES array and extract names from it
+    companies_match = re.search(r'const COMPANIES = \[', data_js_content)
+    if companies_match:
+        # Extract names only from the COMPANIES section (first ~500K chars after the array start)
+        companies_start = companies_match.start()
+        companies_section = data_js_content[companies_start:companies_start + 600000]
+        tracked_companies = set(re.findall(r'name:\s*"([^"]+)"', companies_section))
+    else:
+        tracked_companies = set(re.findall(r'name:\s*"([^"]+)"', data_js_content[:500000]))
 
     updated = 0
     for vc_short, deal_companies in vc_investments.items():
