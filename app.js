@@ -495,7 +495,7 @@ function closeModal() {
 }
 
 // ─── PARTNER PORTAL ───
-function openPartnerPortal(formType) {
+function openPartnerPortal(formType, eventName) {
   const overlay = document.getElementById('partner-portal-overlay');
   const body = document.getElementById('partner-portal-body');
 
@@ -602,6 +602,49 @@ function openPartnerPortal(formType) {
           </div>
         </div>
         <button type="submit" class="form-submit-btn">Submit Correction</button>
+      </form>
+    `;
+  } else if (formType === 'event-rsvp') {
+    body.innerHTML = `
+      <div class="partner-portal-header">
+        <h2>\u{1F4E8} Request an Invite</h2>
+        <p>Seats are limited. Tell us a bit about yourself and we'll follow up.</p>
+      </div>
+      <form class="partner-form" onsubmit="submitPartnerForm(event, 'event-rsvp')">
+        <div class="form-group">
+          <label>Event</label>
+          <input type="text" name="event_name" value="${eventName || ''}" readonly style="background:var(--bg-secondary);color:var(--text-secondary);">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name *</label>
+            <input type="text" name="submitter_name" required placeholder="Full name">
+          </div>
+          <div class="form-group">
+            <label>Your Email *</label>
+            <input type="email" name="submitter_email" required placeholder="Email address">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Your Role *</label>
+          <select name="role" required>
+            <option value="">Select role...</option>
+            <option value="founder">Founder / CEO</option>
+            <option value="investor">Investor (VC / Angel / Family Office)</option>
+            <option value="analyst">Analyst / Researcher</option>
+            <option value="government">Government / Defense</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Company / Firm</label>
+          <input type="text" name="company" placeholder="Your company or firm">
+        </div>
+        <div class="form-group">
+          <label>Anything else we should know?</label>
+          <textarea name="notes" placeholder="Optional — why you'd like to attend, who you'd like to meet, etc."></textarea>
+        </div>
+        <button type="submit" class="form-submit-btn">Request Invite</button>
       </form>
     `;
   }
@@ -1598,6 +1641,7 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initNewsTicker);
   safeInit(initFieldNotes);
   safeInit(initInnovator50);
+  safeInit(initEvents);
   safeInit(initSectorMomentum);
   safeInit(initIPOPipeline);
   safeInit(initInnovatorScores);
@@ -4304,6 +4348,45 @@ function initFundingTracker() {
     row.addEventListener('click', () => openCompanyModal(round.company));
     grid.appendChild(row);
   });
+}
+
+// ─── EVENTS & EXPERIENCES ───
+function initEvents() {
+  const grid = document.getElementById('events-grid');
+  if (!grid || typeof COMMUNITY_EVENTS === 'undefined') return;
+
+  const typeConfig = {
+    microsalon: { label: 'Micro-Salon', color: '#FF6B2C', bg: 'rgba(255,107,44,0.12)' },
+    showcase:   { label: 'Showcase',    color: '#60a5fa', bg: 'rgba(96,165,250,0.12)' },
+    summit:     { label: 'Summit',      color: '#8b5cf6', bg: 'rgba(139,92,246,0.12)' },
+    'field-trip': { label: 'Field Trip', color: '#22c55e', bg: 'rgba(34,197,94,0.12)' }
+  };
+
+  grid.innerHTML = COMMUNITY_EVENTS.map(evt => {
+    const cfg = typeConfig[evt.type] || typeConfig.showcase;
+    const statusBadge = evt.status === 'accepting'
+      ? '<span class="event-status accepting">Accepting RSVPs</span>'
+      : '<span class="event-status upcoming">Coming Soon</span>';
+
+    return `
+      <div class="event-card">
+        <div class="event-card-top">
+          <span class="event-type-badge" style="background:${cfg.bg};color:${cfg.color};">${cfg.label}</span>
+          ${statusBadge}
+        </div>
+        <h3 class="event-name">${evt.name}</h3>
+        <div class="event-meta">
+          <span class="event-location">\u{1F4CD} ${evt.location}</span>
+          <span class="event-quarter">\u{1F4C5} ${evt.quarter}</span>
+        </div>
+        <p class="event-description">${evt.description}</p>
+        <div class="event-card-bottom">
+          <span class="event-capacity">${evt.capacity} spots</span>
+          <button class="event-rsvp-btn" onclick="openPartnerPortal('event-rsvp', '${evt.name.replace(/'/g, "\\'")}')">Request Invite</button>
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 // ─── SECTOR MOMENTUM INDEX ───

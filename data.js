@@ -240,9 +240,13 @@ const SLACK_CHANNELS = [
 ];
 
 const COMMUNITY_EVENTS = [
-  { type: "virtual", name: "Quarterly Founder Showcase", frequency: "Quarterly", description: "Featured founders pitch to investor members" },
-  { type: "dinner", name: "Regional Dinners", frequency: "Quarterly", description: "NYC, SF, Austin, LA — intimate founder-investor meetups" },
-  { type: "summit", name: "ROS Summit", frequency: "Annual", description: "The annual gathering of the ROS community" }
+  { type: "microsalon", name: "Defense & Cyber Salon", location: "New York City", quarter: "Q2 2026", description: "An intimate dinner for 20 founders and investors working at the intersection of defense technology and cybersecurity.", capacity: 20, status: "accepting" },
+  { type: "microsalon", name: "Space & Nuclear Salon", location: "San Francisco", quarter: "Q2 2026", description: "Founders building in space infrastructure, propulsion, and nuclear energy meet the investors writing checks in the sector.", capacity: 20, status: "accepting" },
+  { type: "showcase", name: "Quarterly Founder Showcase", location: "Virtual", quarter: "Q2 2026", description: "Five IL30 founders pitch their companies live to our investor membership. Q&A, intros, and follow-up meetings included.", capacity: 100, status: "accepting" },
+  { type: "microsalon", name: "Robotics & Manufacturing Salon", location: "Austin", quarter: "Q3 2026", description: "Hardware founders building autonomous systems and next-gen manufacturing meet capital looking for the next great American factory.", capacity: 20, status: "upcoming" },
+  { type: "microsalon", name: "Energy & Climate Salon", location: "Los Angeles", quarter: "Q3 2026", description: "Geothermal, fusion, grid-scale storage, carbon capture \u2014 the founders solving energy meet the investors funding the transition.", capacity: 20, status: "upcoming" },
+  { type: "summit", name: "ROS Summit 2026", location: "TBD", quarter: "Q4 2026", description: "The annual gathering of the Rational Optimist Society. Two days of founder presentations, investor panels, and the reveal of the IL30 Class of 2027.", capacity: 200, status: "upcoming" },
+  { type: "field-trip", name: "Builder Field Trip", location: "Varies", quarter: "Quarterly", description: "Visit the factories, labs, and launch sites of IL30 companies. See the technology in person and meet the teams building it.", capacity: 15, status: "accepting" }
 ];
 
 // ═══════════════════════════════════════════════════════
@@ -12434,6 +12438,8 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-03-20
 // Auto-updated IPO pipeline — Last updated: 2026-03-20
 // Auto-updated IPO pipeline — Last updated: 2026-03-20
+// Auto-updated IPO pipeline — Last updated: 2026-03-20
+// Auto-updated IPO pipeline — Last updated: 2026-03-20
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -13127,6 +13133,10 @@ const TRL_RANKINGS = [
 // Last updated: 2026-03-20
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-03-20
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-03-20
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-03-20
 const DEAL_TRACKER = [
   { company: "Intuitive Machines", investor: "Undisclosed", amount: "$175M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "PLD Space", investor: "Accel", amount: "$118M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
@@ -13679,6 +13689,8 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-03-20
 // Auto-updated revenue intelligence — Last updated: 2026-03-20
 // Auto-updated revenue intelligence — Last updated: 2026-03-20
+// Auto-updated revenue intelligence — Last updated: 2026-03-20
+// Auto-updated revenue intelligence — Last updated: 2026-03-20
 const REVENUE_INTEL = [
   { company: "NVIDIA", revenue: "$215.9B", period: "2026 Annual", growth: "+65% YoY", source: "SEC 10-K (NVDA)" },
   { company: "Tesla", revenue: "$94.8B", period: "2025 Annual", growth: "-3% YoY", source: "SEC 10-K (TSLA)" },
@@ -14097,6 +14109,8 @@ const PREDICTIVE_SCORES = {
 
 
 
+
+
       "SpaceX": { score: 45, trend: "stable", factors: { revenueScale: 95, revenueGrowth: 85, profitability: 80, governance: 40, marketConditions: 60, investorPressure: 20, competitivePosition: 95, regulatory: 30 }, analysis: "Financial metrics excellent but Elon Musk has repeatedly stated no near-term IPO plans. Starlink spinoff more likely.", lastUpdated: "2026-02-01" },
       "Stripe": { score: 82, trend: "up", factors: { revenueScale: 95, revenueGrowth: 70, profitability: 85, governance: 90, marketConditions: 75, investorPressure: 80, competitivePosition: 90, regulatory: 85 }, analysis: "All metrics point to IPO readiness. CFO hired, profitable, governance in place. 2026 IPO highly likely.", lastUpdated: "2026-02-01" },
       "Databricks": { score: 78, trend: "up", factors: { revenueScale: 90, revenueGrowth: 80, profitability: 60, governance: 85, marketConditions: 75, investorPressure: 75, competitivePosition: 85, regulatory: 90 }, analysis: "Strong fundamentals, approaching profitability. S-1 filing expected H1 2026.", lastUpdated: "2026-02-01" },
@@ -14333,6 +14347,24 @@ const PREDICTIVE_SCORES = {
       "Simbe Robotics": { score: 38, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 46, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
       "Auradine": { score: 34, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 18, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 23/100.", lastUpdated: "2026-03-20" },
       "Elementary Robotics": { score: 38, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 46, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
+      "MatX": { score: 34, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 18, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series B stage, 0 jobs, 0 patents, sector momentum 23/100.", lastUpdated: "2026-03-20" },
+      "Oxide Computer Company": { score: 34, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 18, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 23/100.", lastUpdated: "2026-03-20" },
+      "Amogy": { score: 37, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 40, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series B stage, 0 jobs, 0 patents, sector momentum 50/100.", lastUpdated: "2026-03-20" },
+      "Pickle Robot Company": { score: 38, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 46, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series B stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
+      "Augury": { score: 43, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 75, marketConditions: 46, investorPressure: 70, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series F stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
+      "Lunar Energy": { score: 39, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 60, marketConditions: 40, investorPressure: 50, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series D stage, 0 jobs, 0 patents, sector momentum 50/100.", lastUpdated: "2026-03-20" },
+      "Simbe Robotics": { score: 38, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 46, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
+      "Auradine": { score: 34, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 18, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 23/100.", lastUpdated: "2026-03-20" },
+      "Elementary Robotics": { score: 38, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 46, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
+      "MatX": { score: 34, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 18, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series B stage, 0 jobs, 0 patents, sector momentum 23/100.", lastUpdated: "2026-03-20" },
+      "Oxide Computer Company": { score: 34, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 18, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 23/100.", lastUpdated: "2026-03-20" },
+      "Amogy": { score: 37, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 40, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series B stage, 0 jobs, 0 patents, sector momentum 50/100.", lastUpdated: "2026-03-20" },
+      "Pickle Robot Company": { score: 38, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 46, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series B stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
+      "Augury": { score: 43, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 75, marketConditions: 46, investorPressure: 70, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series F stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
+      "Lunar Energy": { score: 39, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 60, marketConditions: 40, investorPressure: 50, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series D stage, 0 jobs, 0 patents, sector momentum 50/100.", lastUpdated: "2026-03-20" },
+      "Simbe Robotics": { score: 38, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 46, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
+      "Auradine": { score: 34, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 18, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 23/100.", lastUpdated: "2026-03-20" },
+      "Elementary Robotics": { score: 38, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 46, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
     }
   },
 
@@ -14350,6 +14382,8 @@ const PREDICTIVE_SCORES = {
       { name: "Regulatory Risk", weight: 5, description: "Antitrust or CFIUS concerns", dataSource: "Regulatory filings" }
     ],
     companies: {
+
+
 
 
 
@@ -15072,6 +15106,64 @@ const PREDICTIVE_SCORES = {
       "Riot Ventures": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
       "Prime Movers Lab": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
       "Valor Equity Partners": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
+      "MatX": { score: 50, trend: "stable", analysis: "Auto-scored: Chips & Semiconductors, Series B, 0 patents.", lastUpdated: "2026-03-20" },
+      "Oxide Computer Company": { score: 50, trend: "stable", analysis: "Auto-scored: Chips & Semiconductors, Series C, 0 patents.", lastUpdated: "2026-03-20" },
+      "Amogy": { score: 50, trend: "stable", analysis: "Auto-scored: Energy & Climate, Series B, 0 patents.", lastUpdated: "2026-03-20" },
+      "Chariot Defense": { score: 46, trend: "stable", analysis: "Auto-scored: Defense & Security, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Intramotev": { score: 46, trend: "stable", analysis: "Auto-scored: Autonomous Vehicles & Drones, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Pickle Robot Company": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series B, 0 patents.", lastUpdated: "2026-03-20" },
+      "Augury": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series F, 0 patents.", lastUpdated: "2026-03-20" },
+      "Lunar Energy": { score: 50, trend: "stable", analysis: "Auto-scored: Energy & Climate, Series D, 0 patents.", lastUpdated: "2026-03-20" },
+      "Cache Energy": { score: 46, trend: "stable", analysis: "Auto-scored: Energy & Climate, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Furno Materials": { score: 46, trend: "stable", analysis: "Auto-scored: Energy & Climate, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Pyka": { score: 50, trend: "stable", analysis: "Auto-scored: Autonomous Vehicles & Drones, Series B, 0 patents.", lastUpdated: "2026-03-20" },
+      "Limelight Steel": { score: 46, trend: "stable", analysis: "Auto-scored: Energy & Climate, Pre-Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Slip Robotics": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series B, 0 patents.", lastUpdated: "2026-03-20" },
+      "Remedy Robotics": { score: 48, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Verdant Robotics": { score: 48, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Galadyne": { score: 46, trend: "stable", analysis: "Auto-scored: Defense & Security, Pre-Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Simbe Robotics": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series C, 0 patents.", lastUpdated: "2026-03-20" },
+      "Auradine": { score: 50, trend: "stable", analysis: "Auto-scored: Chips & Semiconductors, Series C, 0 patents.", lastUpdated: "2026-03-20" },
+      "Rugged Robotics": { score: 48, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Elementary Robotics": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series C, 0 patents.", lastUpdated: "2026-03-20" },
+      "Aeon Industrial": { score: 46, trend: "stable", analysis: "Auto-scored: Defense & Security, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Anthrogen": { score: 46, trend: "stable", analysis: "Auto-scored: Biotech & Synthetic Biology, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Overview Energy": { score: 46, trend: "stable", analysis: "Auto-scored: Space Systems, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Living Carbon": { score: 46, trend: "stable", analysis: "Auto-scored: Biotech & Synthetic Biology, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Sorcerer": { score: 46, trend: "stable", analysis: "Auto-scored: Aerospace & Aviation, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Solideon": { score: 48, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Pre-Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Riot Ventures": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
+      "Prime Movers Lab": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
+      "Valor Equity Partners": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
+      "MatX": { score: 50, trend: "stable", analysis: "Auto-scored: Chips & Semiconductors, Series B, 0 patents.", lastUpdated: "2026-03-20" },
+      "Oxide Computer Company": { score: 50, trend: "stable", analysis: "Auto-scored: Chips & Semiconductors, Series C, 0 patents.", lastUpdated: "2026-03-20" },
+      "Amogy": { score: 50, trend: "stable", analysis: "Auto-scored: Energy & Climate, Series B, 0 patents.", lastUpdated: "2026-03-20" },
+      "Chariot Defense": { score: 46, trend: "stable", analysis: "Auto-scored: Defense & Security, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Intramotev": { score: 46, trend: "stable", analysis: "Auto-scored: Autonomous Vehicles & Drones, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Pickle Robot Company": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series B, 0 patents.", lastUpdated: "2026-03-20" },
+      "Augury": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series F, 0 patents.", lastUpdated: "2026-03-20" },
+      "Lunar Energy": { score: 50, trend: "stable", analysis: "Auto-scored: Energy & Climate, Series D, 0 patents.", lastUpdated: "2026-03-20" },
+      "Cache Energy": { score: 46, trend: "stable", analysis: "Auto-scored: Energy & Climate, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Furno Materials": { score: 46, trend: "stable", analysis: "Auto-scored: Energy & Climate, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Pyka": { score: 50, trend: "stable", analysis: "Auto-scored: Autonomous Vehicles & Drones, Series B, 0 patents.", lastUpdated: "2026-03-20" },
+      "Limelight Steel": { score: 46, trend: "stable", analysis: "Auto-scored: Energy & Climate, Pre-Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Slip Robotics": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series B, 0 patents.", lastUpdated: "2026-03-20" },
+      "Remedy Robotics": { score: 48, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Verdant Robotics": { score: 48, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Galadyne": { score: 46, trend: "stable", analysis: "Auto-scored: Defense & Security, Pre-Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Simbe Robotics": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series C, 0 patents.", lastUpdated: "2026-03-20" },
+      "Auradine": { score: 50, trend: "stable", analysis: "Auto-scored: Chips & Semiconductors, Series C, 0 patents.", lastUpdated: "2026-03-20" },
+      "Rugged Robotics": { score: 48, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Elementary Robotics": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series C, 0 patents.", lastUpdated: "2026-03-20" },
+      "Aeon Industrial": { score: 46, trend: "stable", analysis: "Auto-scored: Defense & Security, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Anthrogen": { score: 46, trend: "stable", analysis: "Auto-scored: Biotech & Synthetic Biology, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Overview Energy": { score: 46, trend: "stable", analysis: "Auto-scored: Space Systems, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Living Carbon": { score: 46, trend: "stable", analysis: "Auto-scored: Biotech & Synthetic Biology, Series A, 0 patents.", lastUpdated: "2026-03-20" },
+      "Sorcerer": { score: 46, trend: "stable", analysis: "Auto-scored: Aerospace & Aviation, Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Solideon": { score: 48, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Pre-Seed, 0 patents.", lastUpdated: "2026-03-20" },
+      "Riot Ventures": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
+      "Prime Movers Lab": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
+      "Valor Equity Partners": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
     }
   },
 
@@ -15096,6 +15188,8 @@ const PREDICTIVE_SCORES = {
       "81-100": { label: "High Risk", color: "red", description: "Material concerns, distress possible" }
     },
     companies: {
+
+
 
 
 
@@ -15772,6 +15866,64 @@ const PREDICTIVE_SCORES = {
       "GenFab Co": { score: 55, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $1M raised, 0 jobs, Seed.", lastUpdated: "2026-03-19" },
       "Occam": { score: 54, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $14M raised, 0 jobs, Seed.", lastUpdated: "2026-03-19" },
       "Blitzpanel": { score: 55, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-19" },
+      "MatX": { score: 50, trend: "stable", runway: "24-36 months", analysis: "Auto-scored: $600M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
+      "Oxide Computer Company": { score: 52, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $340M raised, 0 jobs, Series C.", lastUpdated: "2026-03-20" },
+      "Amogy": { score: 46, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $300M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
+      "Chariot Defense": { score: 49, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $41M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Intramotev": { score: 54, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $14M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Pickle Robot Company": { score: 45, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $113M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
+      "Augury": { score: 45, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $369M raised, 0 jobs, Series F.", lastUpdated: "2026-03-20" },
+      "Lunar Energy": { score: 44, trend: "stable", runway: "24-36 months", analysis: "Auto-scored: $530M raised, 0 jobs, Series D.", lastUpdated: "2026-03-20" },
+      "Cache Energy": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $8M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Furno Materials": { score: 54, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $11M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Pyka": { score: 50, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $88M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
+      "Limelight Steel": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $3M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-20" },
+      "Slip Robotics": { score: 52, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $45M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
+      "Remedy Robotics": { score: 52, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $35M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Verdant Robotics": { score: 49, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $58M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Galadyne": { score: 53, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $5M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-20" },
+      "Simbe Robotics": { score: 45, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $104M raised, 0 jobs, Series C.", lastUpdated: "2026-03-20" },
+      "Auradine": { score: 52, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $300M raised, 0 jobs, Series C.", lastUpdated: "2026-03-20" },
+      "Rugged Robotics": { score: 52, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $12M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Elementary Robotics": { score: 49, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $66M raised, 0 jobs, Series C.", lastUpdated: "2026-03-20" },
+      "Aeon Industrial": { score: 49, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $19M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Anthrogen": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $4M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Overview Energy": { score: 54, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $20M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Living Carbon": { score: 54, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $36M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Sorcerer": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $4M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Solideon": { score: 56, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $6M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-20" },
+      "Riot Ventures": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-20" },
+      "Prime Movers Lab": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-20" },
+      "Valor Equity Partners": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-20" },
+      "MatX": { score: 50, trend: "stable", runway: "24-36 months", analysis: "Auto-scored: $600M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
+      "Oxide Computer Company": { score: 52, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $340M raised, 0 jobs, Series C.", lastUpdated: "2026-03-20" },
+      "Amogy": { score: 46, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $300M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
+      "Chariot Defense": { score: 49, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $41M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Intramotev": { score: 54, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $14M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Pickle Robot Company": { score: 45, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $113M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
+      "Augury": { score: 45, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $369M raised, 0 jobs, Series F.", lastUpdated: "2026-03-20" },
+      "Lunar Energy": { score: 44, trend: "stable", runway: "24-36 months", analysis: "Auto-scored: $530M raised, 0 jobs, Series D.", lastUpdated: "2026-03-20" },
+      "Cache Energy": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $8M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Furno Materials": { score: 54, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $11M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Pyka": { score: 50, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $88M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
+      "Limelight Steel": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $3M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-20" },
+      "Slip Robotics": { score: 52, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $45M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
+      "Remedy Robotics": { score: 52, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $35M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Verdant Robotics": { score: 49, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $58M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Galadyne": { score: 53, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $5M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-20" },
+      "Simbe Robotics": { score: 45, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $104M raised, 0 jobs, Series C.", lastUpdated: "2026-03-20" },
+      "Auradine": { score: 52, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $300M raised, 0 jobs, Series C.", lastUpdated: "2026-03-20" },
+      "Rugged Robotics": { score: 52, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $12M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Elementary Robotics": { score: 49, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $66M raised, 0 jobs, Series C.", lastUpdated: "2026-03-20" },
+      "Aeon Industrial": { score: 49, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $19M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Anthrogen": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $4M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Overview Energy": { score: 54, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $20M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Living Carbon": { score: 54, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $36M raised, 0 jobs, Series A.", lastUpdated: "2026-03-20" },
+      "Sorcerer": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $4M raised, 0 jobs, Seed.", lastUpdated: "2026-03-20" },
+      "Solideon": { score: 56, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $6M raised, 0 jobs, Pre-Seed.", lastUpdated: "2026-03-20" },
+      "Riot Ventures": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-20" },
+      "Prime Movers Lab": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-20" },
+      "Valor Equity Partners": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-20" },
       "MatX": { score: 50, trend: "stable", runway: "24-36 months", analysis: "Auto-scored: $600M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
       "Oxide Computer Company": { score: 52, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $340M raised, 0 jobs, Series C.", lastUpdated: "2026-03-20" },
       "Amogy": { score: 46, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $300M raised, 0 jobs, Series B.", lastUpdated: "2026-03-20" },
@@ -17456,6 +17608,10 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-03-20
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-03-20
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-03-20
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-03-20
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], lastUpdated: "2026-02-06" },
   { company: "Anduril Industries", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], lastUpdated: "2026-02-06" },
@@ -18619,6 +18775,10 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-03-20
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-03-20
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-03-20
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-03-20
 const PATENT_INTEL = [
   { company: "SpaceX", totalPatents: 220, velocity: "15-25/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Reusable Launch Systems", "Satellite Constellation (Starlink)", "Raptor Engine Design"], notablePatents: ["Rocket landing leg deployment and recovery system", "Inter-satellite optical communication link"], note: "SpaceX famously relies on trade secrets over patents (Elon Musk has stated competitors could copy patented designs). Actual IP moat is far larger than patent count suggests due to manufacturing know-how and iterative flight data." },
   { company: "Anduril Industries", totalPatents: 29, velocity: "9-19/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Autonomous Defense Systems", "Sensor Fusion & Surveillance", "Counter-UAS Systems"], notablePatents: ["Autonomous drone interception and neutralization system", "Mesh sensor network for border surveillance (Lattice)"], note: "Rapid patent growth mirrors aggressive product expansion into autonomous systems, Lattice OS, and counter-drone platforms. Acquired Dive Technologies IP in undersea autonomy." },
@@ -19348,6 +19508,10 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-03-20
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-03-20
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-03-20
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-03-20
 const NEWS_FEED = [
   // ─── CURATED (Editorial Analysis) ───
   {
@@ -19379,37 +19543,37 @@ const NEWS_FEED = [
     analysisAuthor: "ROS Editorial"
   },
   // ─── AUTO-DETECTED NEWS ───
-  { id: 3, company: "Agility Robotics", headline: "Employees had to restrain a dancing humanoid robot after it went wild at a California restaurant", source: "TechCrunch", category: "news", date: "9h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 4, company: "Karman Industries", headline: "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI", source: "TechCrunch", category: "news", date: "8h ago", summary: "", impact: "high", sector: "General", url: "#" },
-  { id: 5, company: "Anduril Industries", headline: "High-speed combat drone production starts at new US Anduril plant in days", source: "Defense News", category: "news", date: "7h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 6, company: "Blue Origin", headline: "Blue Origin joins the orbital data center race", source: "SpaceNews", category: "news", date: "7h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 7, company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 8, company: "Karman Industries", headline: "Iran’s defense industrial base is ‘functionally defeated’: Hegseth", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 9, company: "Aurora Innovation", headline: "Waabi's Raquel Urtasun on Level-4 Autonomous Trucks", source: "IEEE Spectrum", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 10, company: "Atomic Industries", headline: "5 Interesting Startup Deals You May Have Missed: Blood-Drawing Robots, Inboxes For AI Agents, Franchised Defense Manufacturing, And More", source: "Crunchbase News", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 11, company: "Bronco AI", headline: "Diesel at $5: Clean Transport Advocates Call on Truck Manufacturers to Help U.S. Trucking Switch to Electric", source: "CleanTechnica", category: "news", date: "5h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 12, company: "Palantir", headline: "Pentagon leaders called Claude AI 'woke.' Tests show otherwise.", source: "Defense One", category: "milestone", date: "4h ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 13, company: "Karman Industries", headline: "How the Pentagon is working to wriggle out of China’s rare-earths grip", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 14, company: "PILGRIM", headline: "Tesla’s Cybertruck may be wrong for some. Could it be right for the battlefield?", source: "Defense News", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 15, company: "Palantir", headline: "Anduril secures $87M contract for a common counter-unmanned C2 program", source: "Defense One", category: "contract", date: "3d ago", summary: "", impact: "medium", sector: "General", url: "#" },
-  { id: 16, company: "WeaveGrid", headline: "Utilities Study How to Protect Grids From Rising Physical Threats", source: "IEEE Spectrum", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 17, company: "Alpha School", headline: "IEEE Young Professionals Help Bridge the U.S. Tech Skills Gap", source: "IEEE Spectrum", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 18, company: "OpenAI", headline: "Where OpenAI’s technology could show up in Iran", source: "MIT Tech Review", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 19, company: "Cape", headline: "Do Offshore Wind Farms Pose National Security Risks?", source: "IEEE Spectrum", category: "news", date: "3/9/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 20, company: "Anthropic", headline: "Military AI Policy Needs Democratic Oversight", source: "IEEE Spectrum", category: "milestone", date: "3/8/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 21, company: "PLD Space", headline: "Laser-Based 3D Printing Could Build Future Bases on the Moon", source: "IEEE Spectrum", category: "news", date: "3/7/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 22, company: "Terrestrial Energy", headline: "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)", source: "IEEE Spectrum", category: "news", date: "3/6/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 23, company: "Astera Labs", headline: "Trump gets data center companies to pledge to pay for power generation", source: "Ars Technica", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 24, company: "Cape", headline: "Fighting an Economic War Without Fused Intelligence", source: "War on the Rocks", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 25, company: "Durin", headline: "Foundry, Fleet, and Fight: Hedging the U.S. Navy", source: "War on the Rocks", category: "news", date: "3/3/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 26, company: "Deterrence", headline: "Fighter jets are downing Iranian drones—a dangerous, expensive mission", source: "Defense One", category: "news", date: "3/12/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 27, company: "Vast", headline: "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience", source: "War on the Rocks", category: "news", date: "3/12/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 28, company: "White Stork", headline: "Anduril, the autonomous weapons maker, doubles the size of its space unit", source: "Ars Technica Space", category: "ipo", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 29, company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 30, company: "Mach Industries", headline: "How Robert Goddard’s Self-Reliance Crashed His Rocket Dreams", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 31, company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You’re Wrong", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 32, company: "Cape", headline: "Ig Nobels ceremony moves to Europe over security concerns", source: "Ars Technica Space", category: "news", date: "3/10/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 33, company: "Phospho", headline: "Finite-Element Approaches to Transformer Harmonic and Transient Analysis", source: "IEEE Spectrum", category: "news", date: "3/10/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 3, company: "Anduril Industries", headline: "High-speed combat drone production starts at new US Anduril plant in days", source: "Defense News", category: "news", date: "9h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 4, company: "Blue Origin", headline: "Blue Origin joins the orbital data center race", source: "SpaceNews", category: "news", date: "9h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 5, company: "Bronco AI", headline: "Diesel at $5: Clean Transport Advocates Call on Truck Manufacturers to Help U.S. Trucking Switch to Electric", source: "CleanTechnica", category: "news", date: "7h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 6, company: "Bronco AI", headline: "Demand signals are up, but supply chain risks may still hinder production", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 7, company: "Karman Industries", headline: "Iran’s defense industrial base is ‘functionally defeated’: Hegseth", source: "Defense One", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 8, company: "Aurora Innovation", headline: "Waabi's Raquel Urtasun on Level-4 Autonomous Trucks", source: "IEEE Spectrum", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 9, company: "Atomic Industries", headline: "5 Interesting Startup Deals You May Have Missed: Blood-Drawing Robots, Inboxes For AI Agents, Franchised Defense Manufacturing, And More", source: "Crunchbase News", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 10, company: "Palantir", headline: "Pentagon leaders called Claude AI 'woke.' Tests show otherwise.", source: "Defense One", category: "milestone", date: "5h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 11, company: "Karman Industries", headline: "How the Pentagon is working to wriggle out of China’s rare-earths grip", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 12, company: "Cape", headline: "How Does the Iran War Affect China’s Energy Security?", source: "War on the Rocks", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 13, company: "PILGRIM", headline: "Tesla’s Cybertruck may be wrong for some. Could it be right for the battlefield?", source: "Defense News", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 14, company: "Palantir", headline: "Anduril secures $87M contract for a common counter-unmanned C2 program", source: "Defense One", category: "contract", date: "3d ago", summary: "", impact: "medium", sector: "General", url: "#" },
+  { id: 15, company: "WeaveGrid", headline: "Utilities Study How to Protect Grids From Rising Physical Threats", source: "IEEE Spectrum", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 16, company: "Alpha School", headline: "IEEE Young Professionals Help Bridge the U.S. Tech Skills Gap", source: "IEEE Spectrum", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 17, company: "OpenAI", headline: "Where OpenAI’s technology could show up in Iran", source: "MIT Tech Review", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 18, company: "Cape", headline: "Do Offshore Wind Farms Pose National Security Risks?", source: "IEEE Spectrum", category: "news", date: "3/9/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 19, company: "Anthropic", headline: "Military AI Policy Needs Democratic Oversight", source: "IEEE Spectrum", category: "milestone", date: "3/8/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 20, company: "PLD Space", headline: "Laser-Based 3D Printing Could Build Future Bases on the Moon", source: "IEEE Spectrum", category: "news", date: "3/7/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 21, company: "Terrestrial Energy", headline: "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)", source: "IEEE Spectrum", category: "news", date: "3/6/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 22, company: "Astera Labs", headline: "Trump gets data center companies to pledge to pay for power generation", source: "Ars Technica", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 23, company: "Cape", headline: "Fighting an Economic War Without Fused Intelligence", source: "War on the Rocks", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 24, company: "Durin", headline: "Foundry, Fleet, and Fight: Hedging the U.S. Navy", source: "War on the Rocks", category: "news", date: "3/3/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 25, company: "Deterrence", headline: "Fighter jets are downing Iranian drones—a dangerous, expensive mission", source: "Defense One", category: "news", date: "3/12/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 26, company: "Vast", headline: "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience", source: "War on the Rocks", category: "news", date: "3/12/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 27, company: "White Stork", headline: "Anduril, the autonomous weapons maker, doubles the size of its space unit", source: "Ars Technica Space", category: "ipo", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 28, company: "Anysphere", headline: "Keep Your Intuition Sharp While Using AI Coding Tools", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 29, company: "Mach Industries", headline: "How Robert Goddard’s Self-Reliance Crashed His Rocket Dreams", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 30, company: "OpenAI", headline: "Why AI Chatbots Agree With You Even When You’re Wrong", source: "IEEE Spectrum", category: "news", date: "3/11/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 31, company: "Cape", headline: "Ig Nobels ceremony moves to Europe over security concerns", source: "Ars Technica Space", category: "news", date: "3/10/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 32, company: "Phospho", headline: "Finite-Element Approaches to Transformer Harmonic and Transient Analysis", source: "IEEE Spectrum", category: "news", date: "3/10/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 33, company: "Cohere", headline: "Military Operational Thinking in an Age of Artificial Intelligence", source: "War on the Rocks", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
   { id: 34, company: "Andrenam", headline: "Hydrogen at Sea Just Got Even More Expensive: What DNV’s Safety Findings Mean", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
   { id: 35, company: "Cape", headline: "Europe Must Not Let Airlines Sabotage Clean Aviation Fuels", source: "CleanTechnica", category: "contract", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
   { id: 36, company: "Andrenam", headline: "Greece Risks Becoming Trump’s Trojan Horse in the Fight to Decarbonise Shipping", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
@@ -21961,7 +22125,43 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-20 08:52
+// Last updated: 2026-03-18 02:50
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-19
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
 const COMPANY_SIGNALS = [
   { id: 1, type: "contract", company: "Palantir", headline: "Pentagon leaders called Claude AI 'woke.' Tests show otherwise.", source: "Defense One", time: "5h ago", impact: "low", unread: true },
   { id: 2, type: "news", company: "Bronco AI", headline: "Diesel at $5: Clean Transport Advocates Call on Truck Manufacturers to Help U.S. Trucking Switch to Electric", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
@@ -21975,9 +22175,9 @@ const COMPANY_SIGNALS = [
   { id: 10, type: "ipo", company: "Vast", headline: "Register now: The energy imperative driving the push toward orbital data centers", source: "SpaceNews", time: "14h ago", impact: "medium", unread: false },
   { id: 11, type: "news", company: "Anysphere", headline: "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze", source: "Wired", time: "14h ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "Cape", headline: "Google introduces a new way for users to sideload Android apps that still protects against scams", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Asylon Robotics", headline: "ChatGPT's 'Adult Mode' Could Spark a New Era of Intimate Surveillance", source: "Wired", time: "16h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Asylon Robotics", headline: "ChatGPT’s ‘Adult Mode’ Could Spark a New Era of Intimate Surveillance", source: "Wired", time: "16h ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Galvanick", headline: "CISA urges companies to secure Microsoft Intune systems after hackers mass-wipe Stryker devices", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "PILGRIM", headline: "TechCrunch'Startup Battlefield 200 nominations'are still'open", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "PILGRIM", headline: "TechCrunch Startup Battlefield 200 nominations are still open", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
@@ -22087,6 +22287,10 @@ const EXPERT_INSIGHTS = [
 // Last updated: 2026-03-20
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-03-20
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-03-20
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-03-20
 const VALLEY_OF_DEATH = [
   { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 100, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
   { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
@@ -22145,6 +22349,10 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-03-18
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-03-19
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-03-20
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-03-20
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-03-20
 // Auto-recalibrated contractor readiness scores
