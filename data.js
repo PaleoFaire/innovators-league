@@ -22153,25 +22153,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-21 05:09
-// Auto-generated real-time signals
-// Last updated: 2026-03-21
+// Last updated: 2026-03-21 08:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Together AI", headline: "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity In 2025", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Palantir", headline: "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the rel", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic Denies It Could Sabotage AI Tools During War", source: "Wired", time: "6h ago", impact: "low", unread: true },
-  { id: 4, type: "contract", company: "Hadrian", headline: "Navy bets $900M on automated factories to boost submarine production", source: "Defense One", time: "9h ago", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Karman Industries", headline: "New York Build Expo: Heat Pumps Take Center Stage", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Mach Industries", headline: "Trump Makes The Wind Power Case For The Global Shipping Industry", source: "CleanTechnica", time: "9h ago", impact: "medium", unread: false },
-  { id: 7, type: "news", company: "Photonic Inc", headline: "Microsoft rolls back some of its Copilot AI bloat on Windows", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Asylon Robotics", headline: "A Top Democrat Is Urging Colleagues to Support Trump’s Spy Machine", source: "Wired", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Hadrian", headline: "Navy, Hadrian launch partnership, open facility to build submarine parts", source: "Breaking Defense", time: "11h ago", impact: "medium", unread: false },
-  { id: 10, type: "funding", company: "Galvanick", headline: "The Week’s 10 Biggest Funding Rounds: Investment Slows, But Security And AI Remain Top Picks", source: "Crunchbase News", time: "12h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Alpha School", headline: "Andrej Karpathy on Code Agents, AutoResearch and the Self Improvement Loopy Era of AI", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Conductor Quantum", headline: "IEEE Partners With Academia to Create Microcredential Programs", source: "IEEE Spectrum", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Atomic Industries", headline: "This missile just proved itself in Iran. The US needs more, ASAP", source: "Defense One", time: "13h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "SpaceX", headline: "Space Force shifts GPS III launch from ULA to SpaceX", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Blue Origin", headline: "Jeff Bezos&#8217; Blue Origin enters the space data center game", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Together AI", headline: "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity In 2025", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "Palantir", headline: "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned ' a week after Trump declared the rel", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic Denies It Could Sabotage AI Tools During War", source: "Wired", time: "8h ago", impact: "low", unread: true },
+  { id: 4, type: "contract", company: "PsiQuantum", headline: "Officina Stellare wins $2 million contract for lasercom ground station in Spain", source: "SpaceNews", time: "10h ago", impact: "medium", unread: true },
+  { id: 5, type: "contract", company: "Hadrian", headline: "Navy bets $900M on automated factories to boost submarine production", source: "Defense One", time: "11h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Karman Industries", headline: "New York Build Expo: Heat Pumps Take Center Stage", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Mach Industries", headline: "Trump Makes The Wind Power Case For The Global Shipping Industry", source: "CleanTechnica", time: "11h ago", impact: "medium", unread: false },
+  { id: 8, type: "funding", company: "Rocket Lab", headline: "Rocket Lab launches eighth Synspective radar imaging satellite", source: "SpaceNews", time: "11h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Photonic Inc", headline: "Microsoft rolls back some of its Copilot AI bloat on Windows", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Asylon Robotics", headline: "A Top Democrat Is Urging Colleagues to Support Trump's Spy Machine", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "SpaceX", headline: "Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Hadrian", headline: "Navy, Hadrian launch partnership, open facility to build submarine parts", source: "Breaking Defense", time: "13h ago", impact: "medium", unread: false },
+  { id: 13, type: "funding", company: "Galvanick", headline: "The Week's 10 Biggest Funding Rounds: Investment Slows, But Security And AI Remain Top Picks", source: "Crunchbase News", time: "14h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Atmo", headline: "OHB Sweden wins '248 million contract to build EPS-Sterna constellation", source: "SpaceNews", time: "14h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Alpha School", headline: "Andrej Karpathy on Code Agents, AutoResearch and the Self Improvement Loopy Era of AI", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
