@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -0.79,
+      "avg_change": -0.18,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 8.93,
+      "avg_change": 8.9,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -1.96,
+      "avg_change": -1.82,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.88,
+      "avg_change": -6.04,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 35.54,
+      "avg_change": 33.18,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.61,
+      "avg_change": -7.92,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.09,
+      "avg_change": -2.9,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.9,
+      "avg_change": -2.8,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.61,
+      "avg_change": -1.21,
       "count": 3
     }
   },
@@ -61,17 +61,17 @@
     [
       "LNZA",
       "LanzaTech",
-      113.65
+      105.1
     ],
     [
       "PL",
       "Planet Labs",
-      34.59
+      36.47
     ],
     [
       "SATL",
       "Satellogic",
-      24.61
+      20.88
     ],
     [
       "IDEAFORGE.NS",
@@ -88,28 +88,28 @@
     [
       "OKLO",
       "Oklo",
-      -9.03
-    ],
-    [
-      "RGTI",
-      "Rigetti Computing",
-      -9.83
+      -7.54
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -10.25
+      -7.54
+    ],
+    [
+      "RGTI",
+      "Rigetti Computing",
+      -7.98
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -10.37
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       -12.25
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      -12.45
     ]
   ],
-  "lastUpdated": "2026-03-20 18:56:16"
+  "lastUpdated": "2026-03-21 02:23:06"
 }
