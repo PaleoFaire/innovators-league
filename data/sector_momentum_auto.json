@@ -1,30 +1,30 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 73,
+    "momentum": 70,
     "trend": "accelerating",
     "catalysts": [
-      "Pentagon leaders called Claude AI 'woke.' Tests show otherwi",
-      "High-speed combat drone production starts at new US Anduril",
-      "US moves to approve more than $16 billion in air defense sal"
+      "New court filing reveals Pentagon told Anthropic the two sid",
+      "Anthropic Denies It Could Sabotage AI Tools During War",
+      "Navy bets $900M on automated factories to boost submarine pr"
     ],
     "fundingQ": "$6.9B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 64
+      "market": 48
     },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Jeff Bezos reportedly wants $100 billion to buy and transfor",
-      "Employees had to restrain a dancing humanoid robot after it",
-      "Overcoming Core Engineering Barriers in Humanoid Robotics De"
+      "Navy bets $900M on automated factories to boost submarine pr",
+      "Navy, Hadrian launch partnership, open facility to build sub",
+      "The Week\u2019s 10 Biggest Funding Rounds: Investment Slows, But"
     ],
     "fundingQ": "$1.7B",
     "components": {
@@ -33,11 +33,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 49,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
       "Hydrogen Paste Meets Reality: Energy In, Energy Out, And Wha"
@@ -45,179 +45,162 @@
     "fundingQ": "$1.2B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 48,
-    "trend": "steady",
+    "momentum": 38,
+    "trend": "rising",
     "catalysts": [
-      "Blue Origin joins the orbital data center race",
-      "NASA Shifts from Boeing and SLS Towards SpaceX for Moon Miss",
-      "Register now: The energy imperative driving the push toward"
+      "Navy, Hadrian launch partnership, open facility to build sub",
+      "Space Force shifts GPS III launch from ULA to SpaceX",
+      "Jeff Bezos&#8217; Blue Origin enters the space data center g"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
-      "news": 100,
+      "news": 60,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-03-20"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 35,
-    "trend": "steady",
-    "catalysts": [
-      "Blue Origin joins the orbital data center race",
-      "US moves to approve more than $16 billion in air defense sal",
-      "Register now: The energy imperative driving the push toward"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 100,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
   },
   {
     "sector": "AI & Software",
-    "momentum": 30,
-    "trend": "rising",
+    "momentum": 35,
+    "trend": "steady",
     "catalysts": [
-      "Pentagon leaders called Claude AI 'woke.' Tests show otherwi",
-      "ChatGPT\u2019s \u2018Adult Mode\u2019 Could Spark a New Era of Intimate Sur",
-      "The Fight to Hold AI Companies Accountable for Children\u2019s De"
+      "New court filing reveals Pentagon told Anthropic the two sid",
+      "Anthropic Denies It Could Sabotage AI Tools During War",
+      "The Week\u2019s 10 Biggest Funding Rounds: Investment Slows, But"
     ],
     "fundingQ": "$109M",
     "components": {
       "funding": 7,
-      "news": 70,
+      "news": 90,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-20"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 28,
-    "trend": "rising",
-    "catalysts": [
-      "Online bot traffic will exceed human traffic by 2027, Cloudf",
-      "CISA urges companies to secure Microsoft Intune systems afte",
-      "The Download: Quantum computing for health, and why the worl"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 55,
-      "hiring": 0,
-      "market": 54
-    },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 24,
-    "trend": "rising",
-    "catalysts": [
-      "High-speed combat drone production starts at new US Anduril",
-      "US moves to approve more than $16 billion in air defense sal",
-      "Countering Drones and the Pace of Modern War"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 55,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-20"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 24,
-    "trend": "rising",
-    "catalysts": [
-      "Diesel at $5: Clean Transport Advocates Call on Truck Manufa",
-      "Online bot traffic will exceed human traffic by 2027, Cloudf",
-      "Capacity gap for 9 specialized components gnarls space suppl"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 55,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-20"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 23,
-    "trend": "declining",
-    "catalysts": [
-      "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze",
-      "NVIDIA ROBOTAXI READY? IS TESLA DOOMED"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 35,
-      "hiring": 0,
-      "market": 72
-    },
-    "lastUpdated": "2026-03-20"
-  },
-  {
-    "sector": "Climate & Energy",
     "momentum": 22,
     "trend": "rising",
     "catalysts": [
-      "Why the world doesn\u2019t recycle more nuclear waste",
-      "Hydrogen Paste Meets Reality: Energy In, Energy Out, And Wha",
-      "The Baltic Whale Enters Battery-Electric Freight Service On"
+      "Andrej Karpathy on Code Agents, AutoResearch and the Self Im",
+      "High-speed combat drone production starts at new US Anduril",
+      "US moves to approve more than $16 billion in air defense sal"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 50,
       "hiring": 0,
-      "market": 49
+      "market": 50
     },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
   },
   {
-    "sector": "Transportation",
-    "momentum": 19,
+    "sector": "Consumer Tech",
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "Business Provides Over 50 EV Chargers Onsite For Employees",
-      "Rivian sacrifices 2027 profit goal to push deeper into auton",
-      "NVIDIA ROBOTAXI READY? IS TESLA DOOMED"
+      "Trump Makes The Wind Power Case For The Global Shipping Indu",
+      "Microsoft rolls back some of its Copilot AI bloat on Windows",
+      "Uber Now Ordering Robotaxis from &#8230; Rivian?"
     ],
-    "fundingQ": "$40M",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 7,
-      "news": 20,
+      "funding": 0,
+      "news": 45,
       "hiring": 0,
-      "market": 59
+      "market": 50
     },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "IEEE Partners With Academia to Create Microcredential Progra",
+      "China Approves the First Brain Chips for Sale\u2014and Has a Plan",
+      "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 40,
+      "hiring": 0,
+      "market": 38
+    },
+    "lastUpdated": "2026-03-21"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 18,
+    "trend": "rising",
+    "catalysts": [
+      "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity",
+      "Trump Makes The Wind Power Case For The Global Shipping Indu",
+      "Microsoft rolls back some of its Copilot AI bloat on Windows"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 50,
+      "hiring": 0,
+      "market": 29
+    },
+    "lastUpdated": "2026-03-21"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "The Week\u2019s 10 Biggest Funding Rounds: Investment Slows, But",
+      "Diesel at $5: Clean Transport Advocates Call on Truck Manufa",
+      "Can quantum computers now solve health care problems? We&#82"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-21"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 17,
+    "trend": "rising",
+    "catalysts": [
+      "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity",
+      "The Week\u2019s 10 Biggest Funding Rounds: Investment Slows, But",
+      "US accuses Iran&#8217;s government of operating hacktivist g"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 55,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-03-21"
   },
   {
     "sector": "Housing & Construction",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Scandlines Races To Fully Electrify Ferry Services As Fehmar"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -226,41 +209,59 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Rocket Lab wins $190 million Pentagon deal for hypersonic te"
+      "A Top Democrat Is Urging Colleagues to Support Trump\u2019s Spy M",
+      "Israel&#8217;s Elbit reveals military contract to put high-p"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Uber Now Ordering Robotaxis from &#8230; Rivian?",
+      "Six EV Chargers That Offer Free Charging In North Carolina",
+      "Business Provides Over 50 EV Chargers Onsite For Employees"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 20,
+      "hiring": 0,
+      "market": 20
+    },
+    "lastUpdated": "2026-03-21"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 9,
+    "momentum": 5,
     "trend": "declining",
     "catalysts": [
       "The Download: Quantum computing for health, and why the worl",
-      "Why the world doesn\u2019t recycle more nuclear waste",
-      "The Download: The Pentagon&#8217;s new AI plans, and next-ge"
+      "Why the world doesn\u2019t recycle more nuclear waste"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 19
+      "market": 0
     },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
   },
   {
     "sector": "Quantum Computing",
@@ -277,6 +278,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-20"
+    "lastUpdated": "2026-03-21"
   }
 ]
