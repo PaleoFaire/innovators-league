@@ -11,13 +11,13 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 8.9,
+      "avg_change": 9.37,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -1.82,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -3.62,
       "count": 7
     },
     "nuclear": {
@@ -79,9 +79,9 @@
       6.48
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      5.16
+      "ASTS",
+      "AST SpaceMobile",
+      4.16
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -12.25
     ]
   ],
-  "lastUpdated": "2026-03-21 02:23:06"
+  "lastUpdated": "2026-03-21 06:51:40"
 }
