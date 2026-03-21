@@ -22125,23 +22125,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-20 20:41
+// Last updated: 2026-03-21 02:35
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Hadrian", headline: "Navy, Hadrian launch partnership, open facility to build submarine parts", source: "Breaking Defense", time: "1h ago", impact: "medium", unread: true },
-  { id: 2, type: "funding", company: "Galvanick", headline: "The Week's 10 Biggest Funding Rounds: Investment Slows, But Security And AI Remain Top Picks", source: "Crunchbase News", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Atmo", headline: "OHB Sweden wins '248 million contract to build EPS-Sterna constellation", source: "SpaceNews", time: "2h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Alpha School", headline: "Andrej Karpathy on Code Agents, AutoResearch and the Self Improvement Loopy Era of AI", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Conductor Quantum", headline: "IEEE Partners With Academia to Create Microcredential Programs", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Atomic Industries", headline: "This missile just proved itself in Iran. The US needs more, ASAP", source: "Defense One", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "Space Force shifts GPS III launch from ULA to SpaceX", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Blue Origin", headline: "Jeff Bezos' Blue Origin enters the space data center game", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Waymo", headline: "Uber Now Ordering Robotaxis from &#8230; Rivian?", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Palantir", headline: "US accuses Iran's government of operating hacktivist group that hacked Stryker", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Durin", headline: "Israel's Elbit reveals military contract to put high-powered laser weapon on aircraft", source: "Breaking Defense", time: "5h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Palantir", headline: "At Palantir's Developer Conference, AI Is Built to Win Wars", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Ample", headline: "Six EV Chargers That Offer Free Charging In North Carolina", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "The Download: OpenAI is building a fully automated researcher, and a psychedelic trial blind spot", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Holistic space observation: the shift from SSA to SDA", source: "SpaceNews", time: "7h ago", impact: "medium", unread: false },
+  { id: 1, type: "contract", company: "Palantir", headline: "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned ' a week after Trump declared the rel", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "Anthropic Denies It Could Sabotage AI Tools During War", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "PsiQuantum", headline: "Officina Stellare wins $2 million contract for lasercom ground station in Spain", source: "SpaceNews", time: "4h ago", impact: "medium", unread: true },
+  { id: 4, type: "contract", company: "Hadrian", headline: "Navy bets $900M on automated factories to boost submarine production", source: "Defense One", time: "5h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Karman Industries", headline: "New York Build Expo: Heat Pumps Take Center Stage", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Mach Industries", headline: "Trump Makes The Wind Power Case For The Global Shipping Industry", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: false },
+  { id: 7, type: "funding", company: "Rocket Lab", headline: "Rocket Lab launches eighth Synspective radar imaging satellite", source: "SpaceNews", time: "5h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "Photonic Inc", headline: "Microsoft rolls back some of its Copilot AI bloat on Windows", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Asylon Robotics", headline: "A Top Democrat Is Urging Colleagues to Support Trump's Spy Machine", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Hadrian", headline: "Navy, Hadrian launch partnership, open facility to build submarine parts", source: "Breaking Defense", time: "6h ago", impact: "medium", unread: false },
+  { id: 12, type: "funding", company: "Galvanick", headline: "The Week's 10 Biggest Funding Rounds: Investment Slows, But Security And AI Remain Top Picks", source: "Crunchbase News", time: "8h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "Atmo", headline: "OHB Sweden wins '248 million contract to build EPS-Sterna constellation", source: "SpaceNews", time: "8h ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "Alpha School", headline: "Andrej Karpathy on Code Agents, AutoResearch and the Self Improvement Loopy Era of AI", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Conductor Quantum", headline: "IEEE Partners With Academia to Create Microcredential Programs", source: "IEEE Spectrum", time: "8h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
