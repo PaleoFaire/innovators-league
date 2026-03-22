@@ -22179,23 +22179,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-22 16:39
+// Last updated: 2026-03-22 20:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "Elon Musk unveils chip manufacturing plans for SpaceX and Tesla", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "First Tesla Will Recursively Improve Chip Masks for AI5, AI6 and Other Chips", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Ample", headline: "Over 1,200 New EV Charging Stalls Deployed By EVgo In 2025", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Astera Labs", headline: "Tesla Terafab and Petawatts on the Moon", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Cognition", headline: "VinFast Hasn't Given Up On Its US Ambitions ' Despite Delays, Betting On Long-Term Strategy", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "SpaceX, Tesla and XAI Will Satellites and Plans for AI in Space", source: "Next Big Future", time: "1h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Cape", headline: "Delve accused of misleading customers with 'fake compliance'", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "An exclusive tour of Amazon's Trainium lab, the chip that's won over Anthropic, OpenAI, even Apple", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Cape", headline: "The Best Subscription-Free Home Security Cameras I've Tried", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Palantir", headline: "Mexico City's 'Xoli' Chatbot Will Help World Cup Tourists Navigate the City", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Impulse Labs", headline: "Copper's Battery-Equipped Induction Range Makes Electrification &#038; Storage Accessible", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Palantir", headline: "Who Should Pay For Trump's War On Iran?", source: "CleanTechnica", time: "19h ago", impact: "high", unread: false },
-  { id: 13, type: "ipo", company: "Nuro", headline: "Bikes for Everything, + Much of What I've Learned Riding Bikes for 75 Years (Part II Safety)", source: "CleanTechnica", time: "19h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Rivian", headline: "The 19 Best EVs Coming in 2026", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Together AI", headline: "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity In 2025", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Claros", headline: "Does the TESLA FSD CHIP Match the Human Brain ?", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX offers details on orbital data center satellites", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Elon Musk unveils chip manufacturing plans for SpaceX and Tesla", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "First Tesla Will Recursively Improve Chip Masks for AI5, AI6 and Other Chips", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Ample", headline: "Over 1,200 New EV Charging Stalls Deployed By EVgo In 2025", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Astera Labs", headline: "Tesla Terafab and Petawatts on the Moon", source: "Next Big Future", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Cognition", headline: "VinFast Hasn't Given Up On Its US Ambitions ' Despite Delays, Betting On Long-Term Strategy", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX, Tesla and XAI Will Satellites and Plans for AI in Space", source: "Next Big Future", time: "5h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Cape", headline: "Delve accused of misleading customers with 'fake compliance'", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "An exclusive tour of Amazon's Trainium lab, the chip that's won over Anthropic, OpenAI, even Apple", source: "TechCrunch", time: "8h ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Cape", headline: "The Best Subscription-Free Home Security Cameras I've Tried", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Palantir", headline: "Mexico City's 'Xoli' Chatbot Will Help World Cup Tourists Navigate the City", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Impulse Labs", headline: "Copper's Battery-Equipped Induction Range Makes Electrification &#038; Storage Accessible", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "PLD Space", headline: "Some European Launcher Challenge funding remains in limbo", source: "SpaceNews", time: "19h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Palantir", headline: "Who Should Pay For Trump's War On Iran?", source: "CleanTechnica", time: "23h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
