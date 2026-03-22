@@ -22153,23 +22153,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-22 02:52
+// Last updated: 2026-03-22 05:21
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Impulse Labs", headline: "Copper's Battery-Equipped Induction Range Makes Electrification &#038; Storage Accessible", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Palantir", headline: "Who Should Pay For Trump's War On Iran?", source: "CleanTechnica", time: "5h ago", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "Nuro", headline: "Bikes for Everything, + Much of What I've Learned Riding Bikes for 75 Years (Part II Safety)", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Cape", headline: "Delve accused of misleading customers with 'fake compliance'", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Rivian", headline: "The 19 Best EVs Coming in 2026", source: "Wired", time: "16h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Together AI", headline: "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity In 2025", source: "CleanTechnica", time: "23h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Palantir", headline: "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned ' a week after Trump declared the rel", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic Denies It Could Sabotage AI Tools During War", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Hadrian", headline: "Navy bets $900M on automated factories to boost submarine production", source: "Defense One", time: "1d ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Karman Industries", headline: "New York Build Expo: Heat Pumps Take Center Stage", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Mach Industries", headline: "Trump Makes The Wind Power Case For The Global Shipping Industry", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: false },
-  { id: 12, type: "news", company: "Photonic Inc", headline: "Microsoft rolls back some of its Copilot AI bloat on Windows", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Asylon Robotics", headline: "A Top Democrat Is Urging Colleagues to Support Trump's Spy Machine", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Hadrian", headline: "Navy, Hadrian launch partnership, open facility to build submarine parts", source: "Breaking Defense", time: "1d ago", impact: "medium", unread: false },
-  { id: 15, type: "funding", company: "Galvanick", headline: "The Week's 10 Biggest Funding Rounds: Investment Slows, But Security And AI Remain Top Picks", source: "Crunchbase News", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Impulse Labs", headline: "Copper's Battery-Equipped Induction Range Makes Electrification &#038; Storage Accessible", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "PLD Space", headline: "Some European Launcher Challenge funding remains in limbo", source: "SpaceNews", time: "4h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Palantir", headline: "Who Should Pay For Trump's War On Iran?", source: "CleanTechnica", time: "8h ago", impact: "high", unread: true },
+  { id: 4, type: "ipo", company: "Nuro", headline: "Bikes for Everything, + Much of What I've Learned Riding Bikes for 75 Years (Part II Safety)", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Cape", headline: "Delve accused of misleading customers with 'fake compliance'", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Rivian", headline: "The 19 Best EVs Coming in 2026", source: "Wired", time: "19h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Together AI", headline: "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity In 2025", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Palantir", headline: "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned ' a week after Trump declared the rel", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic Denies It Could Sabotage AI Tools During War", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "PsiQuantum", headline: "Officina Stellare wins $2 million contract for lasercom ground station in Spain", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
+  { id: 11, type: "contract", company: "Hadrian", headline: "Navy bets $900M on automated factories to boost submarine production", source: "Defense One", time: "1d ago", impact: "medium", unread: false },
+  { id: 12, type: "news", company: "Karman Industries", headline: "New York Build Expo: Heat Pumps Take Center Stage", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Mach Industries", headline: "Trump Makes The Wind Power Case For The Global Shipping Industry", source: "CleanTechnica", time: "1d ago", impact: "medium", unread: false },
+  { id: 14, type: "funding", company: "Rocket Lab", headline: "Rocket Lab launches eighth Synspective radar imaging satellite", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Photonic Inc", headline: "Microsoft rolls back some of its Copilot AI bloat on Windows", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
