@@ -1,410 +1,410 @@
 // Auto-generated patent intelligence data
-// Last updated: 2026-03-15 08:35:41 UTC
+// Last updated: 2026-03-22 08:32:39 UTC
 const PATENT_INTEL_AUTO = [
   {
     company: "Waymo",
     patentCount: 100,
-    technologyAreas: ["B60W", "B60G", "G01C", "G09B", "B60T"],
+    technologyAreas: ["B60W", "G07C", "A61L", "G01C", "G06T"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Palantir",
     patentCount: 100,
-    technologyAreas: ["G10L", "Y02D", "G06T", "G01C", "G09B"],
+    technologyAreas: ["H04W", "G07C", "H04L", "G01S", "G06V"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Orchid",
     patentCount: 100,
-    technologyAreas: ["C12Q", "C07F", "G06N", "G06F", "G16H"],
+    technologyAreas: ["A61K", "A61L", "C12M", "G16B", "G16C"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Cover",
     patentCount: 100,
-    technologyAreas: ["C12Q", "A47H", "H02P", "G05G", "A01K"],
+    technologyAreas: ["E02D", "A45D", "H04Q", "A61K", "E04H"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Skydio",
-    patentCount: 97,
-    technologyAreas: ["H04M", "G01C", "G06N", "G04R", "H10N"],
+    patentCount: 96,
+    technologyAreas: ["B64C", "H10N", "G07C", "Y02T", "H02K"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Vast",
-    patentCount: 80,
-    technologyAreas: ["C12Q", "H01L", "G06N", "G06F", "Y02T"],
+    patentCount: 77,
+    technologyAreas: ["Y02T", "H02K", "G06T", "A61P", "H05B"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Shield AI",
-    patentCount: 69,
-    technologyAreas: ["G06N", "C09J", "G06F", "G16H", "A61Q"],
+    patentCount: 65,
+    technologyAreas: ["A61K", "G07C", "E04H", "A61L", "B82Y"],
     latestPatentDate: "2025-09-23",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Divergent",
-    patentCount: 55,
-    technologyAreas: ["A61N", "A47J", "H01L", "G06N", "C09J"],
+    patentCount: 54,
+    technologyAreas: ["B29K", "F16H", "B23K", "F01N", "C22C"],
     latestPatentDate: "2025-09-09",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Radiant",
-    patentCount: 48,
-    technologyAreas: ["G03F", "G01C", "B63H", "H02S", "F21Y"],
+    patentCount: 47,
+    technologyAreas: ["G09F", "C08J", "G21C", "G06T", "F21Y"],
     latestPatentDate: "2025-09-23",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Cognition",
-    patentCount: 44,
-    technologyAreas: ["C12Q", "A61N", "G09B", "A61H", "G06N"],
+    patentCount: 43,
+    technologyAreas: ["A61K", "Y02T", "G10L", "G06T", "C07B"],
     latestPatentDate: "2025-08-26",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Andrenam",
-    patentCount: 41,
-    technologyAreas: ["G01C", "G09B", "B63H", "G06N", "H02S"],
+    patentCount: 40,
+    technologyAreas: ["E02D", "G07C", "E02B", "Y02T", "F01N"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Lightmatter",
-    patentCount: 33,
-    technologyAreas: ["H04J", "H03H", "G06T", "G06N", "H01L"],
+    patentCount: 31,
+    technologyAreas: ["H04Q", "G06F", "G02F", "G06V", "H01L"],
     latestPatentDate: "2025-09-23",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "X-Energy",
-    patentCount: 31,
-    technologyAreas: ["F05D", "H02P", "F16J", "B64G", "Y02T"],
+    patentCount: 30,
+    technologyAreas: ["F05B", "B01D", "F03D", "E21B", "C01B"],
     latestPatentDate: "2025-07-29",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Anduril Industries",
     patentCount: 29,
-    technologyAreas: ["G01H", "Y02T", "G06F", "H04W", "B25J"],
+    technologyAreas: ["B64C", "Y02T", "B63G", "B29C", "G06T"],
     latestPatentDate: "2025-08-26",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "TAE Technologies",
     patentCount: 23,
-    technologyAreas: ["H05K", "H01J", "A61N", "G01T", "G01R"],
+    technologyAreas: ["Y02B", "G01B", "H03K", "Y02T", "Y02E"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "TerraPower",
     patentCount: 20,
-    technologyAreas: ["F01K", "Y02T", "D01F", "G21F", "F28D"],
+    technologyAreas: ["E04H", "Y02T", "B01B", "F16K", "H02K"],
     latestPatentDate: "2025-09-23",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Relativity Space",
     patentCount: 18,
-    technologyAreas: ["B23K", "G06T", "F16K", "Y02P", "G06V"],
+    technologyAreas: ["B22F", "B23K", "F16L", "G06V", "F16K"],
     latestPatentDate: "2025-09-09",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Firefly Aerospace",
     patentCount: 17,
-    technologyAreas: ["H04M", "A61N", "G06T", "A01D", "F16M"],
+    technologyAreas: ["A61B", "G01P", "B62D", "G01V", "A01D"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Zipline",
     patentCount: 15,
-    technologyAreas: ["G01C", "G06N", "Y02T", "H04R", "B64C"],
+    technologyAreas: ["A61B", "H01M", "B64C", "Y02T", "B64U"],
     latestPatentDate: "2025-09-02",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Antares",
     patentCount: 13,
-    technologyAreas: ["H01R", "A61P", "Y02E", "G01R", "H01L"],
+    technologyAreas: ["F21S", "A61K", "F21V", "A61P", "Y02E"],
     latestPatentDate: "2025-09-09",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Epirus",
-    patentCount: 11,
-    technologyAreas: ["H01Q", "F41H", "B64U", "H03F", "H03M"],
-    latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
-  },
-  {
-    company: "Captura",
     patentCount: 10,
-    technologyAreas: ["B01D", "Y02C", "E04C", "E21B", "C02F"],
-    latestPatentDate: "2025-09-23",
-    lastUpdated: "2026-03-15"
+    technologyAreas: ["H03F", "H04W", "B64U", "H01Q", "G01S"],
+    latestPatentDate: "2025-09-30",
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Impulse Space",
     patentCount: 9,
-    technologyAreas: ["C12Q", "A61N", "H04W", "C12N", "H04K"],
+    technologyAreas: ["H04W", "E21B", "H04K", "G05B", "A61N"],
     latestPatentDate: "2025-09-02",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Neuralink",
     patentCount: 9,
-    technologyAreas: ["H05K", "B23K", "A61N", "G01R", "H01F"],
+    technologyAreas: ["A61B", "H04Q", "H01F", "B23K", "H02J"],
     latestPatentDate: "2025-08-19",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
+  },
+  {
+    company: "Captura",
+    patentCount: 9,
+    technologyAreas: ["B01D", "E21B", "B32B", "C02F", "Y02C"],
+    latestPatentDate: "2025-09-23",
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Airship Industries",
     patentCount: 8,
-    technologyAreas: ["H04L", "H04W", "G06F"],
+    technologyAreas: ["H04W", "G06F", "H04L"],
     latestPatentDate: "2025-06-17",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Venus Aerospace",
     patentCount: 7,
-    technologyAreas: ["F05D", "B64D", "H02K", "F02K"],
+    technologyAreas: ["F05D", "H02K", "F02K"],
     latestPatentDate: "2025-09-23",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Amca",
     patentCount: 7,
-    technologyAreas: ["G06N", "G06V", "G05B", "G06F", "H01S"],
+    technologyAreas: ["A61B", "G06V", "G02B", "G05B", "H01S"],
     latestPatentDate: "2025-08-05",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Mazama",
     patentCount: 7,
-    technologyAreas: ["B01D", "F22B", "F05B", "F24T", "C09K"],
+    technologyAreas: ["F05B", "B01D", "E21B", "Y02E", "F03B"],
     latestPatentDate: "2025-09-16",
-    lastUpdated: "2026-03-15"
-  },
-  {
-    company: "Helion",
-    patentCount: 6,
-    technologyAreas: ["F28F", "H02S", "Y02P", "H10F", "G21B"],
-    latestPatentDate: "2025-09-16",
-    lastUpdated: "2026-03-15"
-  },
-  {
-    company: "Cerebras",
-    patentCount: 6,
-    technologyAreas: ["G06F", "Y02D", "H04L", "G06N"],
-    latestPatentDate: "2025-05-27",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Figure AI",
     patentCount: 5,
-    technologyAreas: ["H04L", "B25J", "H04N"],
+    technologyAreas: ["B25J", "H04L", "H04N"],
     latestPatentDate: "2025-09-23",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
+  },
+  {
+    company: "Helion",
+    patentCount: 5,
+    technologyAreas: ["F28D", "C01B", "Y02E", "B01J", "G21B"],
+    latestPatentDate: "2025-09-16",
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Claros",
     patentCount: 5,
-    technologyAreas: ["B01D", "G05B", "B01J", "Y04S", "Y02E"],
+    technologyAreas: ["Y04S", "B01D", "Y02E", "B01J", "G05B"],
     latestPatentDate: "2025-07-08",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
+  },
+  {
+    company: "Cerebras",
+    patentCount: 5,
+    technologyAreas: ["G06N", "G06F", "H04L"],
+    latestPatentDate: "2025-05-27",
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Oklo",
     patentCount: 4,
-    technologyAreas: ["H02S", "G21C", "G21D", "G21F", "Y02E"],
+    technologyAreas: ["Y02E", "G21D", "H02S", "G21F", "G21C"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Mammoth Biosciences",
     patentCount: 4,
-    technologyAreas: ["F24D", "F24H", "C12N", "G06F", "C12Y"],
+    technologyAreas: ["C12Y", "F24H", "F24D", "C12N", "G06F"],
     latestPatentDate: "2025-05-27",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Quaise Energy",
     patentCount: 4,
     technologyAreas: ["E21B", "H01P"],
     latestPatentDate: "2025-06-10",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Substrate",
     patentCount: 4,
-    technologyAreas: ["G03F", "A01K", "H01L", "G06N", "B81C"],
+    technologyAreas: ["A61B", "B81C", "A23K", "G03F", "A23N"],
     latestPatentDate: "2025-03-18",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "DIRAC",
     patentCount: 3,
-    technologyAreas: ["B01D", "Y02C", "G10K", "H04S", "H04R"],
+    technologyAreas: ["Y02B", "B01D", "H04R", "H04S", "F24F"],
     latestPatentDate: "2025-09-30",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Terraform Industries",
     patentCount: 3,
-    technologyAreas: ["A01C", "A01B", "G01N", "Y02W", "G06Q"],
+    technologyAreas: ["Y02W", "A01C", "A01B", "G01N", "G06Q"],
     latestPatentDate: "2025-09-09",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Commonwealth Fusion Systems",
     patentCount: 3,
-    technologyAreas: ["G01R", "H01F", "F03D", "H02K", "Y02E"],
+    technologyAreas: ["Y02E", "H01F", "G01R", "F03D"],
     latestPatentDate: "2025-09-02",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Fervo Energy",
     patentCount: 3,
-    technologyAreas: ["E21B", "F03G", "F24T"],
+    technologyAreas: ["F03G", "Y02E", "E21B", "F24T"],
     latestPatentDate: "2025-08-05",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Rainmaker",
     patentCount: 3,
-    technologyAreas: ["F05D", "B65D", "B67D", "A42B", "F16L"],
+    technologyAreas: ["F16L", "A42B", "A47G", "A61M"],
     latestPatentDate: "2024-12-17",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Etched",
     patentCount: 3,
-    technologyAreas: ["G06F", "G06N"],
+    technologyAreas: ["G06N", "G06F"],
     latestPatentDate: "2025-07-15",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Neros",
     patentCount: 2,
-    technologyAreas: ["C02F", "A61P", "A61K"],
+    technologyAreas: ["C02F", "A61K", "A61P"],
     latestPatentDate: "2025-09-09",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Rocket Lab",
     patentCount: 2,
-    technologyAreas: ["F05D", "B23K", "H01M", "F02K"],
+    technologyAreas: ["B22F", "H01M", "F28D", "F02K"],
     latestPatentDate: "2025-01-14",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Nominal",
     patentCount: 2,
-    technologyAreas: ["H01Q", "H01R", "H01L", "H01P", "H02H"],
+    technologyAreas: ["H01Q", "H02M", "H01L", "H02H", "H01R"],
     latestPatentDate: "2025-09-09",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Machina Labs",
     patentCount: 2,
-    technologyAreas: ["B24D", "B24B", "A61F"],
+    technologyAreas: ["A61F", "B24D", "B24B"],
     latestPatentDate: "2025-02-25",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Lab 91",
     patentCount: 2,
-    technologyAreas: ["H01C", "C01P", "B01J", "H01L"],
+    technologyAreas: ["H01C", "B01J", "H01L", "C01B"],
     latestPatentDate: "2025-01-07",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Mach Industries",
     patentCount: 1,
     technologyAreas: ["G01R"],
     latestPatentDate: "2025-09-23",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Vannevar Labs",
     patentCount: 1,
-    technologyAreas: ["G06V", "G06F", "G06N"],
+    technologyAreas: ["G06V", "G06N", "G06F"],
     latestPatentDate: "2024-06-25",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Last Energy",
     patentCount: 1,
-    technologyAreas: ["G21D", "G21C", "Y02E"],
+    technologyAreas: ["Y02E", "G21D", "G21C"],
     latestPatentDate: "2025-09-09",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Varda Space Industries",
     patentCount: 1,
-    technologyAreas: ["C07D", "A61P", "A61K"],
+    technologyAreas: ["C07D", "A61K", "A61P"],
     latestPatentDate: "2025-06-03",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Northwood Space",
     patentCount: 1,
     technologyAreas: ["H04B", "H04J"],
     latestPatentDate: "2025-04-01",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Astranis",
     patentCount: 1,
-    technologyAreas: ["H04B", "H01Q"],
+    technologyAreas: ["H01Q", "H04B"],
     latestPatentDate: "2024-06-11",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Observable Space",
     patentCount: 1,
     technologyAreas: ["G08B", "H04L"],
     latestPatentDate: "2025-03-25",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Altos Labs",
     patentCount: 1,
     technologyAreas: ["C07D", "A61P"],
     latestPatentDate: "2025-06-10",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Karman Industries",
     patentCount: 1,
-    technologyAreas: ["H05H", "B64G", "F03H"],
+    technologyAreas: ["F03H", "H05H", "B64G"],
     latestPatentDate: "2024-06-11",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "Cuby Technologies",
     patentCount: 1,
-    technologyAreas: ["E04F", "E04B"],
+    technologyAreas: ["E04B", "E04F"],
     latestPatentDate: "2024-04-23",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
   {
     company: "The Boring Company",
     patentCount: 1,
-    technologyAreas: ["H02P", "Y02T", "B64D"],
+    technologyAreas: ["B64D", "H02K", "Y02T"],
     latestPatentDate: "2024-04-16",
-    lastUpdated: "2026-03-15"
+    lastUpdated: "2026-03-22"
   },
 ];
