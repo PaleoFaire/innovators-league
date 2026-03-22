@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.62,
+      "avg_change": -3.64,
       "count": 7
     },
     "nuclear": {
@@ -53,7 +53,7 @@
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.21,
+      "avg_change": -1.17,
       "count": 3
     }
   },
@@ -76,7 +76,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      6.48
+      6.32
     ],
     [
       "ASTS",
@@ -111,5 +111,5 @@
       -12.25
     ]
   ],
-  "lastUpdated": "2026-03-22 12:59:43"
+  "lastUpdated": "2026-03-22 18:42:43"
 }
