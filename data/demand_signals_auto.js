@@ -6335,3 +6335,42 @@ const DEMAND_SIGNALS_STATS = {
 };
 pdated": "2026-03-19 07:38:38 UTC"
 };
+gRelevance": 22,
+    "topSignals": [
+      "Clean Hydrogen Hub Expansion"
+    ]
+  }
+};
+
+const DEMAND_SIGNALS_STATS = {
+  "totalSignals": 44,
+  "bySource": {
+    "seed": 44
+  },
+  "byAgency": {
+    "Defense Innovation Unit (DIU)": 2,
+    "DARPA": 5,
+    "AFWERX / Air Force": 1,
+    "U.S. Army": 2,
+    "Office of Naval Research (ONR)": 1,
+    "Department of Homeland Security (DHS)": 2,
+    "SOCOM": 1,
+    "Department of Defense": 3,
+    "U.S. Space Force": 1,
+    "NASA": 4,
+    "Space Development Agency (SDA)": 1,
+    "National Reconnaissance Office (NRO)": 1,
+    "Department of Energy (DOE)": 8,
+    "ARPA-E": 1,
+    "National Science Foundation (NSF)": 4,
+    "Chief Digital and AI Office (CDAO)": 1,
+    "NSA / CISA": 1,
+    "BARDA / HHS": 1,
+    "National Institutes of Health (NIH)": 1,
+    "CISA / DHS": 1,
+    "NSA Cybersecurity Directorate": 1,
+    "Environmental Protection Agency (EPA)": 1
+  },
+  "companiesMatched": 178,
+  "lastUpdated": "2026-03-22 07:31:07 UTC"
+};
