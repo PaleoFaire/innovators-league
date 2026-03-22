@@ -1,74 +1,74 @@
 // Auto-generated news signals
-// Last updated: 2026-03-22T05:21:15.938Z
+// Last updated: 2026-03-22T06:57:44.447Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1774156875937,
+    "id": 1774162664447,
     "type": "news",
     "company": "Impulse Labs",
     "headline": "Copper’s Battery-Equipped Induction Range Makes Electrification &#038; Storage Accessible",
     "source": "CleanTechnica",
-    "time": "2h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/03/21/coppers-battery-equipped-induction-range-makes-electrification-storage-accessible/"
   },
   {
-    "id": 1774156875938,
+    "id": 1774162664448,
     "type": "funding",
     "company": "PLD Space",
     "headline": "Some European Launcher Challenge funding remains in limbo",
     "source": "SpaceNews",
-    "time": "4h ago",
+    "time": "6h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://spacenews.com/some-european-launcher-challenge-funding-remains-in-limbo/"
   },
   {
-    "id": 1774156875939,
+    "id": 1774162664449,
     "type": "news",
     "company": "Palantir",
     "headline": "Who Should Pay For Trump&#8217;s War On Iran?",
     "source": "CleanTechnica",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "high",
     "unread": true,
     "link": "https://cleantechnica.com/2026/03/21/who-should-pay-for-trumps-war-on-iran/"
   },
   {
-    "id": 1774156875941,
+    "id": 1774162664450,
     "type": "ipo",
     "company": "Nuro",
     "headline": "Bikes for Everything, + Much of What I’ve Learned Riding Bikes for 75 Years (Part II Safety)",
     "source": "CleanTechnica",
-    "time": "8h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/03/21/bikes-for-everything-much-of-what-ive-learned-riding-bikes-for-75-years-part-ii-safety/"
   },
   {
-    "id": 1774156875942,
+    "id": 1774162664451,
     "type": "news",
     "company": "Cape",
     "headline": "Delve accused of misleading customers with ‘fake compliance’",
     "source": "TechCrunch",
-    "time": "12h ago",
+    "time": "13h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/"
   },
   {
-    "id": 1774156875943,
+    "id": 1774162664452,
     "type": "news",
     "company": "Rivian",
     "headline": "The 19 Best EVs Coming in 2026",
     "source": "Wired",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/the-16-best-evs-coming-in-2026/"
   },
   {
-    "id": 1774156875944,
+    "id": 1774162664453,
     "type": "news",
     "company": "Together AI",
     "headline": "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity In 2025",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/20/wind-solar-generated-a-record-17-of-u-s-electricity-in-2025/"
   },
   {
-    "id": 1774156875945,
+    "id": 1774162664454,
     "type": "contract",
     "company": "Palantir",
     "headline": "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the rel",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/"
   },
   {
-    "id": 1774156875946,
+    "id": 1774162664455,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic Denies It Could Sabotage AI Tools During War",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/"
   },
   {
-    "id": 1774156875947,
+    "id": 1774162664456,
     "type": "contract",
     "company": "PsiQuantum",
     "headline": "Officina Stellare wins $2 million contract for lasercom ground station in Spain",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/officina-stellare-wins-2-million-contract-for-lasercom-ground-station-in-spain/"
   },
   {
-    "id": 1774156875948,
+    "id": 1774162664457,
     "type": "contract",
     "company": "Hadrian",
     "headline": "Navy bets $900M on automated factories to boost submarine production",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/defense-systems/2026/03/navy-bets-900m-automated-factories-boost-submarine-production/412290/"
   },
   {
-    "id": 1774156875949,
+    "id": 1774162664458,
     "type": "news",
     "company": "Karman Industries",
     "headline": "New York Build Expo: Heat Pumps Take Center Stage",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/20/new-york-build-expo-heat-pumps-take-center-stage/"
   },
   {
-    "id": 1774156875950,
+    "id": 1774162664459,
     "type": "news",
     "company": "Mach Industries",
     "headline": "Trump Makes The Wind Power Case For The Global Shipping Industry",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/20/trump-makes-the-wind-power-case-for-the-global-shipping-industry/"
   },
   {
-    "id": 1774156875951,
+    "id": 1774162664460,
     "type": "funding",
     "company": "Rocket Lab",
     "headline": "Rocket Lab launches eighth Synspective radar imaging satellite",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/rocket-lab-launches-eighth-synspective-radar-imaging-satellite/"
   },
   {
-    "id": 1774156875952,
+    "id": 1774162664461,
     "type": "news",
     "company": "Photonic Inc",
     "headline": "Microsoft rolls back some of its Copilot AI bloat on Windows",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/"
   },
   {
-    "id": 1774156875953,
+    "id": 1774162664462,
     "type": "news",
     "company": "Asylon Robotics",
     "headline": "A Top Democrat Is Urging Colleagues to Support Trump’s Spy Machine",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/a-top-democrat-is-urging-colleagues-to-support-trumps-spy-machine/"
   },
   {
-    "id": 1774156875954,
+    "id": 1774162664463,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/another-gps-launch-shifts-from-ula-to-spacex-as-vulcan-investigation-continues/"
   },
   {
-    "id": 1774156875955,
+    "id": 1774162664464,
     "type": "ipo",
     "company": "Hadrian",
     "headline": "Navy, Hadrian launch partnership, open facility to build submarine parts",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/03/navy-hadrian-launch-public-private-partnership-open-facility-to-build-submarine-parts/"
   },
   {
-    "id": 1774156875956,
+    "id": 1774162664465,
     "type": "funding",
     "company": "Galvanick",
     "headline": "The Week’s 10 Biggest Funding Rounds: Investment Slows, But Security And AI Remain Top Picks",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-security-ai-cloaked-frore/"
   },
   {
-    "id": 1774156875957,
+    "id": 1774162664466,
     "type": "contract",
     "company": "Atmo",
     "headline": "OHB Sweden wins €248 million contract to build EPS-Sterna constellation",
