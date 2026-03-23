@@ -1,71 +1,71 @@
 {
-  "date": "2026-03-16",
-  "display_date": "Mar 16, 2026",
-  "generated_at": "2026-03-16T11:00:33.482755+00:00",
-  "cutoff": "2026-03-09T11:00:33.482755+00:00",
+  "date": "2026-03-23",
+  "display_date": "Mar 23, 2026",
+  "generated_at": "2026-03-23T10:58:32.306599+00:00",
+  "cutoff": "2026-03-16T10:58:32.306599+00:00",
   "section_count": 2,
-  "total_items": 116,
+  "total_items": 105,
   "sections": [
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 96,
+      "count": 85,
       "items": [
         {
-          "title": "The billionaires made a promise &#8212; now some want out",
-          "source": "TechCrunch",
-          "company": "Durin",
+          "title": "SpaceX, Tesla and XAI Will Satellites and Plans for AI in Space",
+          "source": "Next Big Future",
+          "company": "SpaceX",
           "impact": "high",
           "type": "ipo"
         },
         {
-          "title": "Raytheon contract for protected satellite communications terminals raised by $2 billion",
-          "source": "SpaceNews",
-          "company": "Kepler Communications",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "Meta reportedly considering layoffs that could affect 20% of the company",
+          "title": "An exclusive tour of Amazon&#8217;s Trainium lab, the chip that&#8217;s won over Anthropic, OpenAI, ",
           "source": "TechCrunch",
-          "company": "Amca",
+          "company": "Anthropic",
           "impact": "high",
           "type": "news"
         },
         {
-          "title": "Polish president rejects $50 billion in European military loans",
-          "source": "Defense News",
+          "title": "Who Should Pay For Trump&#8217;s War On Iran?",
+          "source": "CleanTechnica",
           "company": "Palantir",
           "impact": "high",
-          "type": "milestone"
+          "type": "news"
         },
         {
-          "title": "Astranis taps retired Gen. John Hyten to lead advisory board",
-          "source": "SpaceNews",
-          "company": "Astranis",
+          "title": "The Most Active Startup Acquirers Of The Past 3 Years Aren\u2019t Always Who You\u2019d Expect",
+          "source": "Crunchbase News",
+          "company": "Together AI",
           "impact": "high",
-          "type": "ipo"
+          "type": "news"
         },
         {
-          "title": "York Space acquires satellite propulsion manufacturer Orbion Space",
-          "source": "SpaceNews",
-          "company": "Mach Industries",
+          "title": "US moves to approve more than $16 billion in air defense sales to Middle East",
+          "source": "Defense News",
+          "company": "Deterrence",
           "impact": "high",
-          "type": "ipo"
+          "type": "news"
         },
         {
-          "title": "FOIA Documents Reveal Trump Administration Ordered Fish &#038; Wildlife Service to Change Materials ",
-          "source": "CleanTechnica",
-          "company": "Space Forge",
-          "impact": "low",
-          "type": "hire"
+          "title": "Anduril secures $87M contract for a common counter-unmanned C2 program",
+          "source": "Defense One",
+          "company": "Palantir",
+          "impact": "high",
+          "type": "contract"
         },
         {
-          "title": "Will the Next Disruptive Plane Be European?",
-          "source": "CleanTechnica",
-          "company": "Ample",
+          "title": "The AI Race Is Pressuring Utilities to Squeeze More From Europe\u2019s Power Grids",
+          "source": "Wired",
+          "company": "Astera Labs",
           "impact": "low",
-          "type": "hire"
+          "type": "news"
+        },
+        {
+          "title": "The Battlefield is the Next Betting Market",
+          "source": "War on the Rocks",
+          "company": "PILGRIM",
+          "impact": "low",
+          "type": "news"
         }
       ]
     },
@@ -75,42 +75,43 @@
       "count": 20,
       "items": [
         {
-          "title": "HII\u2019S Ingalls Shipbuilding Celebrates Apprentice School Graduates",
+          "title": "Investeringsforeningen BankInvest \u2013 Prospektopdatering",
+          "source": "globenewswire_all",
+          "companies": []
+        },
+        {
+          "title": "Kapitalforeningen BankInvest Select \u2013 Prospektopdatering",
+          "source": "globenewswire_all",
+          "companies": []
+        },
+        {
+          "title": "LEADING EDGE MATERIALS FILES CPR FOR BIHOR SUD POLYMETALLIC EXPLORATION PROJECT, ROMANIA",
           "source": "globenewswire_all",
           "companies": [
-            "Saronic",
-            "Alpha School"
+            "Space Forge"
           ]
         },
         {
-          "title": "Iceland Seafood International hf: Annual General Meeting 24 March 2026 - Final proposals and agenda",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "First Ever Real-World Evidence of Eversense 365 Presented at ATTD Demonstrates Sustained Performance and Positive Impact",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "Sharpen Your Knives: It\u2019s the Final Round of Northern California\u2019s\u00a0Battle of the Blades",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "Biomea Fusion Presents Phase II COVALENT-111 Data in Type 2 Diabetes at the 19th International Conference on Advanced Te",
-          "source": "globenewswire_all",
-          "companies": []
-        },
-        {
-          "title": "Digital Asset Technologies Announces Settlement Agreement with Former Auditor",
+          "title": "INVL Asset Management launches a fund to invest in technology companies in Northern and Western Europe",
           "source": "globenewswire_all",
           "companies": [
-            "Agility Robotics"
+            "Endurosat"
           ]
+        },
+        {
+          "title": "\u201eINVL Asset Management\u201c \u012fsteig\u0117 fond\u0105 investicijoms \u012f \u0160iaur\u0117s ir Vakar\u0173 Europos technologij\u0173 \u012fmones",
+          "source": "globenewswire_all",
+          "companies": [
+            "Endurosat"
+          ]
+        },
+        {
+          "title": "Sampo Group\u2019s annual reporting for 2025",
+          "source": "globenewswire_all",
+          "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-03-16-d43d3c170f80"
+  "brief_id": "brief-2026-03-23-c9fbf9c66422"
 }
