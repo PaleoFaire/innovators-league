@@ -22188,23 +22188,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-23 17:04
+// Last updated: 2026-03-23 20:44
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Trump admin's comments could undermine case against Anthropic in court: Experts", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Natron Energy", headline: "Sodium &#038; Quantum Batteries Move The Transition To Electricity Forward", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Bronco AI", headline: "A Fresh Wave Of Perovskite Solar Cell Activity, Just In Time For The Next Oil Crisis", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Ample", headline: "Nearly 1,000 EV Charging Bays Available At IONNA Charging Hubs", source: "CleanTechnica", time: "Just now", impact: "medium", unread: true },
-  { id: 5, type: "funding", company: "Cerebras", headline: "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
-  { id: 6, type: "contract", company: "Anthropic", headline: "Elizabeth Warren calls Pentagon's decision to bar Anthropic 'retaliation'", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Palantir", headline: "Poland eyes benefits of joining GCAP sixth-generation fighter project", source: "Defense News", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Palantir", headline: "FBI says Iranian hackers are using Telegram to steal data in malware attacks", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Helion", headline: "Sam Altman-backed fusion startup Helion in talks with OpenAI", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Cape", headline: "Federal immigration agents filmed making airport arrests as Trump calls in ICE to ease security line delays", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Hugging Face", headline: "Transforming Data Science With NVIDIA RTX PRO 6000 Blackwell Workstation Edition", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Cerebras", headline: "Why Thermal Metrology Must Evolve for Next-Generation Semiconductors", source: "IEEE Spectrum", time: "7h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Astera Labs", headline: "The AI Race Is Pressuring Utilities to Squeeze More From Europe's Power Grids", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "PILGRIM", headline: "The Battlefield is the Next Betting Market", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Waymo", headline: "Tesla Bull Spends 4 Days In San Francisco Testing The Robotaxi", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Galvanick", headline: "Someone has publicly leaked an exploit kit that can hack millions of iPhones", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Anduril Industries", headline: "As Fury production starts, Anduril pledging a different production approach at Arsenal-1", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Zipline", headline: "Zipline snaps up another $200M to fuel its drone delivery expansion", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 4, type: "ipo", company: "Astro Mechanica", headline: "Space Force's two new cyber squadrons to defend space launch operations", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Galvanick", headline: "US and UK teaming up to destroy underwater drones", source: "Defense News", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Amca", headline: "Vibe-coding startup Lovable is on the hunt for acquisitions", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Trump admin's comments could undermine case against Anthropic in court: Experts", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Natron Energy", headline: "Sodium &#038; Quantum Batteries Move The Transition To Electricity Forward", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Bronco AI", headline: "A Fresh Wave Of Perovskite Solar Cell Activity, Just In Time For The Next Oil Crisis", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Ample", headline: "Nearly 1,000 EV Charging Bays Available At IONNA Charging Hubs", source: "CleanTechnica", time: "4h ago", impact: "medium", unread: false },
+  { id: 11, type: "funding", company: "Cerebras", headline: "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
+  { id: 12, type: "contract", company: "Anthropic", headline: "Elizabeth Warren calls Pentagon's decision to bar Anthropic 'retaliation'", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Palantir", headline: "Poland eyes benefits of joining GCAP sixth-generation fighter project", source: "Defense News", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Palantir", headline: "FBI says Iranian hackers are using Telegram to steal data in malware attacks", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Helion", headline: "Sam Altman-backed fusion startup Helion in talks to sell power to OpenAI", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
