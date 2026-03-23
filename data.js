@@ -22179,23 +22179,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-23 02:52
+// Last updated: 2026-03-23 05:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Machina Labs", headline: "How The West Lost The Automotive Industry And Its Mojo, Part 2", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Claros", headline: "Does the TESLA FSD CHIP Match the Human Brain ?", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX offers details on orbital data center satellites", source: "SpaceNews", time: "8h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Elon Musk unveils chip manufacturing plans for SpaceX and Tesla", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "First Tesla Will Recursively Improve Chip Masks for AI5, AI6 and Other Chips", source: "Next Big Future", time: "10h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Ample", headline: "Over 1,200 New EV Charging Stalls Deployed By EVgo In 2025", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Astera Labs", headline: "Tesla Terafab and Petawatts on the Moon", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Cognition", headline: "VinFast Hasn't Given Up On Its US Ambitions ' Despite Delays, Betting On Long-Term Strategy", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX, Tesla and XAI Will Satellites and Plans for AI in Space", source: "Next Big Future", time: "11h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Cape", headline: "Delve accused of misleading customers with 'fake compliance'", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Anthropic", headline: "An exclusive tour of Amazon's Trainium lab, the chip that's won over Anthropic, OpenAI, even Apple", source: "TechCrunch", time: "14h ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Cape", headline: "The Best Subscription-Free Home Security Cameras I've Tried", source: "Wired", time: "15h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Palantir", headline: "Mexico City's 'Xoli' Chatbot Will Help World Cup Tourists Navigate the City", source: "Wired", time: "17h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Impulse Labs", headline: "Copper's Battery-Equipped Induction Range Makes Electrification &#038; Storage Accessible", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "PLD Space", headline: "Some European Launcher Challenge funding remains in limbo", source: "SpaceNews", time: "1d ago", impact: "medium", unread: false },
+  { id: 1, type: "milestone", company: "Waymo", headline: "Tesla Bull Spends 4 Days In San Francisco Testing The Robotaxi", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Machina Labs", headline: "How The West Lost The Automotive Industry And Its Mojo, Part 2", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Claros", headline: "Does the TESLA FSD CHIP Match the Human Brain ?", source: "Next Big Future", time: "11h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX offers details on orbital data center satellites", source: "SpaceNews", time: "11h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "Elon Musk unveils chip manufacturing plans for SpaceX and Tesla", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "First Tesla Will Recursively Improve Chip Masks for AI5, AI6 and Other Chips", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Ample", headline: "Over 1,200 New EV Charging Stalls Deployed By EVgo In 2025", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Astera Labs", headline: "Tesla Terafab and Petawatts on the Moon", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Cognition", headline: "VinFast Hasn't Given Up On Its US Ambitions ' Despite Delays, Betting On Long-Term Strategy", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX, Tesla and XAI Will Satellites and Plans for AI in Space", source: "Next Big Future", time: "14h ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Cape", headline: "Delve accused of misleading customers with 'fake compliance'", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "An exclusive tour of Amazon's Trainium lab, the chip that's won over Anthropic, OpenAI, even Apple", source: "TechCrunch", time: "17h ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Cape", headline: "The Best Subscription-Free Home Security Cameras I've Tried", source: "Wired", time: "18h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "Palantir", headline: "Mexico City's 'Xoli' Chatbot Will Help World Cup Tourists Navigate the City", source: "Wired", time: "20h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Impulse Labs", headline: "Copper's Battery-Equipped Induction Range Makes Electrification &#038; Storage Accessible", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
