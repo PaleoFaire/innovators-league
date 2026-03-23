@@ -11,13 +11,13 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 8.16,
+      "avg_change": 8.19,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -4.26,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -6.55,
       "count": 7
     },
     "nuclear": {
@@ -74,22 +74,17 @@
       20.88
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      6.32
-    ],
-    [
       "ASTS",
       "AST SpaceMobile",
       4.16
+    ],
+    [
+      "AMD",
+      "AMD",
+      4.11
     ]
   ],
   "topLosers": [
-    [
-      "OKLO",
-      "Oklo",
-      -7.54
-    ],
     [
       "NNE",
       "Nano Nuclear Energy",
@@ -101,6 +96,11 @@
       -7.98
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -8.77
+    ],
+    [
       "QBTS",
       "D-Wave Quantum",
       -10.37
@@ -108,8 +108,8 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -16.53
+      -17.5
     ]
   ],
-  "lastUpdated": "2026-03-23 02:37:27"
+  "lastUpdated": "2026-03-23 07:17:10"
 }
