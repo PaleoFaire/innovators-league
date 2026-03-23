@@ -15,34 +15,34 @@
       "hiring": 0,
       "market": 48
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 56,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Navy bets $900M on automated factories to boost submarine pr",
-      "Navy, Hadrian launch partnership, open facility to build sub",
-      "The Week\u2019s 10 Biggest Funding Rounds: Investment Slows, But"
+      "Tesla Bull Spends 4 Days In San Francisco Testing The Robota",
+      "Elon Musk unveils chip manufacturing plans for SpaceX and Te",
+      "VinFast Hasn&#8217;t Given Up On Its US Ambitions \u2014 Despite"
     ],
     "fundingQ": "$1.7B",
     "components": {
       "funding": 92,
-      "news": 55,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "Some European Launcher Challenge funding remains in limbo",
-      "Rocket Lab launches eighth Synspective radar imaging satelli",
-      "Another GPS launch shifts from ULA to SpaceX as Vulcan inves"
+      "SpaceX offers details on orbital data center satellites",
+      "Elon Musk unveils chip manufacturing plans for SpaceX and Te",
+      "First Tesla Will Recursively Improve Chip Masks for AI5, AI6"
     ],
     "fundingQ": "$175M",
     "components": {
@@ -51,11 +51,11 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 46,
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
       "Active ocean & maritime ecosystem"
@@ -63,20 +63,38 @@
     "fundingQ": "$1.2B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 35,
+    "trend": "steady",
+    "catalysts": [
+      "Does the TESLA FSD CHIP Match the Human Brain ?",
+      "VinFast Hasn&#8217;t Given Up On Its US Ambitions \u2014 Despite",
+      "An exclusive tour of Amazon&#8217;s Trainium lab, the chip t"
+    ],
+    "fundingQ": "$109M",
+    "components": {
+      "funding": 7,
+      "news": 90,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Copper\u2019s Battery-Equipped Induction Range Makes Electrificat",
-      "Some European Launcher Challenge funding remains in limbo",
-      "Who Should Pay For Trump&#8217;s War On Iran?"
+      "SpaceX offers details on orbital data center satellites",
+      "An exclusive tour of Amazon&#8217;s Trainium lab, the chip t",
+      "Copper\u2019s Battery-Equipped Induction Range Makes Electrificat"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -85,30 +103,30 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
-    "sector": "AI & Software",
-    "momentum": 34,
-    "trend": "steady",
+    "sector": "Chips & Semiconductors",
+    "momentum": 21,
+    "trend": "rising",
     "catalysts": [
-      "New court filing reveals Pentagon told Anthropic the two sid",
-      "Anthropic Denies It Could Sabotage AI Tools During War",
-      "The Week\u2019s 10 Biggest Funding Rounds: Investment Slows, But"
+      "Does the TESLA FSD CHIP Match the Human Brain ?",
+      "Elon Musk unveils chip manufacturing plans for SpaceX and Te",
+      "First Tesla Will Recursively Improve Chip Masks for AI5, AI6"
     ],
-    "fundingQ": "$109M",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 7,
-      "news": 85,
+      "funding": 0,
+      "news": 55,
       "hiring": 0,
-      "market": 50
+      "market": 38
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 24,
-    "trend": "rising",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
       "Andrej Karpathy on Code Agents, AutoResearch and the Self Im",
       "Holistic space observation: the shift from SSA to SDA",
@@ -117,11 +135,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 55,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -139,12 +157,12 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 18,
-    "trend": "rising",
+    "momentum": 17,
+    "trend": "declining",
     "catalysts": [
       "Copper\u2019s Battery-Equipped Induction Range Makes Electrificat",
       "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity",
@@ -153,47 +171,46 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 29
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 17,
+    "momentum": 16,
     "trend": "rising",
     "catalysts": [
       "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity",
       "The Week\u2019s 10 Biggest Funding Rounds: Investment Slows, But",
-      "US accuses Iran&#8217;s government of operating hacktivist g"
+      "China Approves the First Brain Chips for Sale\u2014and Has a Plan"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 16,
+    "sector": "Housing & Construction",
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "IEEE Partners With Academia to Create Microcredential Progra",
-      "China Approves the First Brain Chips for Sale\u2014and Has a Plan",
-      "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze"
+      "VinFast Hasn&#8217;t Given Up On Its US Ambitions \u2014 Despite",
+      "Officina Stellare wins $2 million contract for lasercom grou"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 35,
+      "news": 20,
       "hiring": 0,
-      "market": 38
+      "market": 50
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -210,27 +227,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-22"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Officina Stellare wins $2 million contract for lasercom grou"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Transportation",
-    "momentum": 13,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
       "The 19 Best EVs Coming in 2026",
@@ -240,18 +241,18 @@
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 20
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Nuclear Energy",
     "momentum": 5,
     "trend": "declining",
     "catalysts": [
-      "The Download: Quantum computing for health, and why the worl"
+      "Active nuclear energy ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -260,15 +261,14 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   },
   {
     "sector": "Quantum Computing",
     "momentum": 4,
     "trend": "declining",
     "catalysts": [
-      "The Download: Quantum computing for health, and why the worl",
-      "Can quantum computers now solve health care problems? We&#82"
+      "Active quantum computing ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -277,6 +277,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-22"
+    "lastUpdated": "2026-03-23"
   }
 ]
