@@ -1,48 +1,48 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 70,
+    "momentum": 80,
     "trend": "accelerating",
     "catalysts": [
-      "Who Should Pay For Trump&#8217;s War On Iran?",
-      "New court filing reveals Pentagon told Anthropic the two sid",
-      "Anthropic Denies It Could Sabotage AI Tools During War"
+      "Solar at Home, Imported Biofuels for Crossing Oceans: Hawai\u02bb",
+      "KC-135 crash in Iraq spurs calls for communications upgrades",
+      "Space Force adds cyber units to guard rocket launches"
     ],
     "fundingQ": "$6.9B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 48
+      "market": 100
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 58,
+    "momentum": 57,
     "trend": "accelerating",
     "catalysts": [
+      "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN",
       "Tesla Bull Spends 4 Days In San Francisco Testing The Robota",
-      "Elon Musk unveils chip manufacturing plans for SpaceX and Te",
       "VinFast Hasn&#8217;t Given Up On Its US Ambitions \u2014 Despite"
     ],
     "fundingQ": "$1.7B",
     "components": {
       "funding": 92,
-      "news": 65,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "SpaceX offers details on orbital data center satellites",
-      "Elon Musk unveils chip manufacturing plans for SpaceX and Te",
-      "First Tesla Will Recursively Improve Chip Masks for AI5, AI6"
+      "Space Force adds cyber units to guard rocket launches",
+      "Amazon Leo targets faster deployment cadence as deadline pre",
+      "Space Force&#8217;s two new cyber squadrons to defend space"
     ],
     "fundingQ": "$175M",
     "components": {
@@ -51,50 +51,32 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 45,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Active ocean & maritime ecosystem"
+      "Solar at Home, Imported Biofuels for Crossing Oceans: Hawai\u02bb"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 100,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-23"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 35,
-    "trend": "steady",
-    "catalysts": [
-      "Does the TESLA FSD CHIP Match the Human Brain ?",
-      "VinFast Hasn&#8217;t Given Up On Its US Ambitions \u2014 Despite",
-      "An exclusive tour of Amazon&#8217;s Trainium lab, the chip t"
-    ],
-    "fundingQ": "$109M",
-    "components": {
-      "funding": 7,
-      "news": 90,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "SpaceX offers details on orbital data center satellites",
-      "An exclusive tour of Amazon&#8217;s Trainium lab, the chip t",
-      "Copper\u2019s Battery-Equipped Induction Range Makes Electrificat"
+      "China Flexes Its Global Green Hydrogen Muscles, Trump Or No",
+      "Space Force adds cyber units to guard rocket launches",
+      "As Fury production starts, Anduril pledging a different prod"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -103,101 +85,118 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 21,
+    "sector": "AI & Software",
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "Does the TESLA FSD CHIP Match the Human Brain ?",
-      "Elon Musk unveils chip manufacturing plans for SpaceX and Te",
-      "First Tesla Will Recursively Improve Chip Masks for AI5, AI6"
+      "Trump admin&#8217;s comments could undermine case against An",
+      "Startup Gimlet Labs is solving the AI inference bottleneck i",
+      "Elizabeth Warren calls Pentagon&#8217;s decision to bar Anth"
+    ],
+    "fundingQ": "$109M",
+    "components": {
+      "funding": 7,
+      "news": 75,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 26,
+    "trend": "declining",
+    "catalysts": [
+      "China Flexes Its Global Green Hydrogen Muscles, Trump Or No",
+      "Solar at Home, Imported Biofuels for Crossing Oceans: Hawai\u02bb",
+      "A Fresh Wave Of Perovskite Solar Cell Activity, Just In Time"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 45,
+      "hiring": 0,
+      "market": 73
+    },
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 24,
+    "trend": "rising",
+    "catalysts": [
+      "Zipline snaps up another $200M to fuel its drone delivery ex",
+      "US and UK teaming up to destroy underwater drones"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 55,
       "hiring": 0,
-      "market": 38
-    },
-    "lastUpdated": "2026-03-23"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Andrej Karpathy on Code Agents, AutoResearch and the Self Im",
-      "Holistic space observation: the shift from SSA to SDA",
-      "High-speed combat drone production starts at new US Anduril"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 45,
-      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 19,
-    "trend": "declining",
+    "momentum": 24,
+    "trend": "rising",
     "catalysts": [
-      "The Week\u2019s 10 Biggest Funding Rounds: Investment Slows, But",
-      "Holistic space observation: the shift from SSA to SDA",
-      "Diesel at $5: Clean Transport Advocates Call on Truck Manufa"
+      "Solar at Home, Imported Biofuels for Crossing Oceans: Hawai\u02bb",
+      "US and UK teaming up to destroy underwater drones",
+      "A Fresh Wave Of Perovskite Solar Cell Activity, Just In Time"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 35,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
-    "sector": "Climate & Energy",
-    "momentum": 17,
-    "trend": "declining",
+    "sector": "Chips & Semiconductors",
+    "momentum": 22,
+    "trend": "rising",
     "catalysts": [
-      "Copper\u2019s Battery-Equipped Induction Range Makes Electrificat",
-      "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity",
-      "Trump Makes The Wind Power Case For The Global Shipping Indu"
+      "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN",
+      "Startup Gimlet Labs is solving the AI inference bottleneck i",
+      "Transforming Data Science With NVIDIA RTX PRO 6000 Blackwell"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 45,
+      "news": 60,
       "hiring": 0,
-      "market": 29
+      "market": 37
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 16,
+    "momentum": 19,
     "trend": "rising",
     "catalysts": [
-      "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity",
-      "The Week\u2019s 10 Biggest Funding Rounds: Investment Slows, But",
-      "China Approves the First Brain Chips for Sale\u2014and Has a Plan"
+      "Poland eyes benefits of joining GCAP sixth-generation fighte",
+      "Why Thermal Metrology Must Evolve for Next-Generation Semico",
+      "Wind &#038; Solar Generated A Record 17% Of U.S. Electricity"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 50,
+      "news": 55,
       "hiring": 0,
-      "market": 0
+      "market": 9
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 15,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
       "VinFast Hasn&#8217;t Given Up On Its US Ambitions \u2014 Despite",
@@ -206,77 +205,75 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-23"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "A Top Democrat Is Urging Colleagues to Support Trump\u2019s Spy M",
-      "Israel&#8217;s Elbit reveals military contract to put high-p"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
       "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
     "sector": "Transportation",
-    "momentum": 11,
+    "momentum": 13,
     "trend": "declining",
     "catalysts": [
-      "The 19 Best EVs Coming in 2026",
-      "Uber Now Ordering Robotaxis from &#8230; Rivian?",
-      "Six EV Chargers That Offer Free Charging In North Carolina"
+      "Nearly 1,000 EV Charging Bays Available At IONNA Charging Hu",
+      "The 19 Best EVs Coming in 2026"
     ],
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
       "news": 20,
       "hiring": 0,
-      "market": 20
+      "market": 29
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
-    "sector": "Nuclear Energy",
-    "momentum": 5,
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Active nuclear energy ecosystem"
+      "A Top Democrat Is Urging Colleagues to Support Trump\u2019s Spy M"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-24"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 9,
+    "trend": "declining",
+    "catalysts": [
+      "Sodium &#038; Quantum Batteries Move The Transition To Elect"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 21
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   },
   {
-    "sector": "Quantum Computing",
-    "momentum": 4,
+    "sector": "Nuclear Energy",
+    "momentum": 7,
     "trend": "declining",
     "catalysts": [
-      "Active quantum computing ecosystem"
+      "The Battlefield is the Next Betting Market"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 20,
       "hiring": 0,
-      "market": 0
+      "market": 10
     },
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-24"
   }
 ]
