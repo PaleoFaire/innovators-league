@@ -22244,25 +22244,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-24 05:25
-// Auto-generated real-time signals
-// Last updated: 2026-03-24
+// Last updated: 2026-03-24 09:00
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Waymo", headline: "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Sunfire", headline: "China Flexes Its Global Green Hydrogen Muscles, Trump Or No Trump", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Durin", headline: "Manila Welcomes Locally Engineered Electric &#8220;Tram&#8221; to the Walled City", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Karman Industries", headline: "Solar at Home, Imported Biofuels for Crossing Oceans: Hawaiʻi’s Real Energy Strategy", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "PILGRIM", headline: "KC-135 crash in Iraq spurs calls for communications upgrades", source: "Defense One", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Cape", headline: "Space Force adds cyber units to guard rocket launches", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Galvanick", headline: "Someone has publicly leaked an exploit kit that can hack millions of iPhones", source: "TechCrunch", time: "10h ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "Anduril Industries", headline: "As Fury production starts, Anduril pledging a different production approach at Arsenal-1", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "AST SpaceMobile", headline: "Amazon Leo targets faster deployment cadence as deadline pressure mounts", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Zipline", headline: "Zipline snaps up another $200M to fuel its drone delivery expansion", source: "TechCrunch", time: "10h ago", impact: "high", unread: false },
-  { id: 11, type: "ipo", company: "Astro Mechanica", headline: "Space Force&#8217;s two new cyber squadrons to defend space launch operations", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Galvanick", headline: "US and UK teaming up to destroy underwater drones", source: "Defense News", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Amca", headline: "Vibe-coding startup Lovable is on the hunt for acquisitions", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "Anthropic", headline: "Trump admin&#8217;s comments could undermine case against Anthropic in court: Experts", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Natron Energy", headline: "Sodium &#038; Quantum Batteries Move The Transition To Electricity Forward", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Saronic", headline: "The Next Transformation of U.S. Shipbuilding", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Durin", headline: "Converting History into Hard Power: A Polish-German Reckoning", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Sunfire", headline: "China Flexes Its Global Green Hydrogen Muscles, Trump Or No Trump", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Durin", headline: "Manila Welcomes Locally Engineered Electric &#8220;Tram&#8221; to the Walled City", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Karman Industries", headline: "Solar at Home, Imported Biofuels for Crossing Oceans: Hawai'i's Real Energy Strategy", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "PILGRIM", headline: "KC-135 crash in Iraq spurs calls for communications upgrades", source: "Defense One", time: "11h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Galvanick", headline: "Someone has publicly leaked an exploit kit that can hack millions of iPhones", source: "TechCrunch", time: "12h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Anduril Industries", headline: "As Fury production starts, Anduril pledging a different production approach at Arsenal-1", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Zipline", headline: "Zipline snaps up another $200M to fuel its drone delivery expansion", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
+  { id: 11, type: "ipo", company: "Astro Mechanica", headline: "Space Force's two new cyber squadrons to defend space launch operations", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Galvanick", headline: "US and UK teaming up to destroy underwater drones", source: "Defense News", time: "14h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Amca", headline: "Vibe-coding startup Lovable is on the hunt for acquisitions", source: "TechCrunch", time: "14h ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Trump admin's comments could undermine case against Anthropic in court: Experts", source: "Breaking Defense", time: "16h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Natron Energy", headline: "Sodium &#038; Quantum Batteries Move The Transition To Electricity Forward", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
