@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -5.89,
+      "avg_change": -5.97,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.2,
+      "avg_change": -4.85,
       "count": 3
     },
     "transportation": {
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "OKLO",
-      "Oklo",
-      -5.75
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -6.42
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      -5.95
+      -6.54
     ],
     [
       "QBTS",
@@ -111,5 +111,5 @@
       -16.5
     ]
   ],
-  "lastUpdated": "2026-03-24 07:10:06"
+  "lastUpdated": "2026-03-24 13:21:03"
 }
