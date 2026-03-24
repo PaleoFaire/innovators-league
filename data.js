@@ -22244,23 +22244,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-24 09:00
+// Last updated: 2026-03-24 13:40
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Saronic", headline: "The Next Transformation of U.S. Shipbuilding", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Durin", headline: "Converting History into Hard Power: A Polish-German Reckoning", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Sunfire", headline: "China Flexes Its Global Green Hydrogen Muscles, Trump Or No Trump", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Durin", headline: "Manila Welcomes Locally Engineered Electric &#8220;Tram&#8221; to the Walled City", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Karman Industries", headline: "Solar at Home, Imported Biofuels for Crossing Oceans: Hawai'i's Real Energy Strategy", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "PILGRIM", headline: "KC-135 crash in Iraq spurs calls for communications upgrades", source: "Defense One", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Galvanick", headline: "Someone has publicly leaked an exploit kit that can hack millions of iPhones", source: "TechCrunch", time: "12h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Anduril Industries", headline: "As Fury production starts, Anduril pledging a different production approach at Arsenal-1", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Zipline", headline: "Zipline snaps up another $200M to fuel its drone delivery expansion", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
-  { id: 11, type: "ipo", company: "Astro Mechanica", headline: "Space Force's two new cyber squadrons to defend space launch operations", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Galvanick", headline: "US and UK teaming up to destroy underwater drones", source: "Defense News", time: "14h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Amca", headline: "Vibe-coding startup Lovable is on the hunt for acquisitions", source: "TechCrunch", time: "14h ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "Anthropic", headline: "Trump admin's comments could undermine case against Anthropic in court: Experts", source: "Breaking Defense", time: "16h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Natron Energy", headline: "Sodium &#038; Quantum Batteries Move The Transition To Electricity Forward", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Anduril Industries", headline: "The Coming Drone-War Inflection in Ukraine", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Ample", headline: "Spotify's new SongDNA feature maps how your favorite songs are connected", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Zoox", headline: "Zoox brings its robotaxis to Austin and Miami", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Colossal Biosciences", headline: "Cauldron Ferm has turned microbes into nonstop assembly lines", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Epirus", headline: "General Dynamics-led team unveils self-driving truck with microwave counter-drone tech", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "The Download: tracing AI-fueled delusions, and OpenAI admits Microsoft risks", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Kyutai", headline: "Agile Robots'becomes the latest robotics company to partner with Google DeepMind", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "milestone", company: "Shield AI", headline: "Swiss Destinus, Shield AI wrap European drone autonomy test campaign", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "AMP Robotics", headline: "Clear Drop Soft Plastic Compactor Review: Eco Experiment", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Atmo", headline: "Best Premium Soundbars: Dolby Atmos, Hi-Res Audio, and More", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Biofire", headline: "Your Body Is Betraying Your Right to Privacy", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Cape", headline: "ICE Paid the Salaries of This Town's Entire Police Force", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Saronic", headline: "The Next Transformation of U.S. Shipbuilding", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Durin", headline: "Converting History into Hard Power: A Polish-German Reckoning", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
