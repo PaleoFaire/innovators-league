@@ -22244,23 +22244,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-24 17:08
+// Last updated: 2026-03-24 20:51
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Cerebras", headline: "Arm Is Now Making Its Own Chips", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Astera Labs", headline: "In Edison's Revenge, Data Centers Are Transitioning From AC to DC", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "CX2 Industries", headline: "Space Force officer shares intelligence on threats to space systems", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Palantir", headline: "Philippine Model City Deploys Electric Minibuses To Offset Rising Fuel Costs", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Astera Labs", headline: "What Will It Take to Build the World's Largest Data Center?", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Deterrence", headline: "Air Force seeks industry feedback to 'benchmark' progress of Northrop missile", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Matic Robotics", headline: "FCC bans import of new consumer routers made overseas, citing security risks", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "Albedo", headline: "SpaceEye-T: 25 cm Satellite Imagery and Tasking Now Available Through Pacific Geomatics Limited", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "K2 Space", headline: "SES orders 28 satellites from K2 Space for next-gen MEO network", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Anduril Industries", headline: "The Coming Drone-War Inflection in Ukraine", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Ample", headline: "Spotify's new SongDNA feature maps how your favorite songs are connected", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Zoox", headline: "Zoox brings its robotaxis to Austin and Miami", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Colossal Biosciences", headline: "Cauldron Ferm has turned microbes into nonstop assembly lines", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Epirus", headline: "General Dynamics-led team unveils self-driving truck with microwave counter-drone tech", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Xanadu Quantum Technologies", headline: "Self-propagating malware poisons open source software and wipes Iran-based machines", source: "Ars Technica", time: "4h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Cape", headline: "Databricks bought two startups to underpin its new AI security product", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 2, type: "news", company: "Form Energy", headline: "Crusoe makes big battery buys for its data centers", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "CX2 Industries", headline: "Army C2 to see more budget line consolidation in FY27, says service undersecretary", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Amca", headline: "Bradley replacement is still on track, says Army acquisitions boss", source: "Defense One", time: "Just now", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "Vast", headline: "NASA Plans $20 Billion Permanent Moonbase by 2032", source: "Next Big Future", time: "1h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI's plans to make ChatGPT more like Amazon aren't going so well", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Cape", headline: "Moog taps Redwire to provide solar arrays for Meteor", source: "SpaceNews", time: "1h ago", impact: "medium", unread: false },
+  { id: 8, type: "hire", company: "Mach Industries", headline: "NASA Space Reactor 1 Freedom for Nuclear Powered Interplanetary to Mars in 2028", source: "Next Big Future", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Matic Robotics", headline: "What You Need to Know About the Foreign-Made Router Ban in the US", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Terrestrial Energy", headline: "OrbitsIQ Global Announces Breakthrough in Space-Based IoT Connectivity", source: "SpaceNews", time: "1h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI adds open source tools to help developers build for teen safety", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Matic Robotics", headline: "America must adopt a Sixth Domain of warfare doctrine", source: "Breaking Defense", time: "2h ago", impact: "medium", unread: false },
+  { id: 13, type: "funding", company: "Stoke Space", headline: "China's Astronstone raises $29 million for reusable rocket with chopstick-style recovery", source: "SpaceNews", time: "3h ago", impact: "medium", unread: false },
+  { id: 14, type: "news", company: "Cerebras", headline: "Arm Is Now Making Its Own Chips", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Astera Labs", headline: "In Edison's Revenge, Data Centers Are Transitioning From AC to DC", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
