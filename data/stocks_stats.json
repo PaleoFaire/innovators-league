@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 5.03,
+      "avg_change": 5.32,
       "count": 1
     },
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": 16.3,
+      "avg_change": 15.4,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -6.24,
+      "avg_change": -6.68,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.15,
+      "avg_change": -2.58,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 19.56,
+      "avg_change": 20.43,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.73,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -2.91,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.58,
+      "avg_change": -3.2,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.28,
+      "avg_change": -0.43,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -0.85,
+      "avg_change": -1.29,
       "count": 3
     }
   },
@@ -61,44 +61,44 @@
     [
       "SATL",
       "Satellogic",
-      70.58
+      69.86
     ],
     [
       "LNZA",
       "LanzaTech",
-      57.3
+      61.15
     ],
     [
       "PL",
       "Planet Labs",
-      40.35
+      37.48
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      17.58
+      14.81
     ],
     [
-      "AUR",
-      "Aurora Innovation",
+      "PLTR",
+      "Palantir",
       5.32
     ]
   ],
   "topLosers": [
     [
-      "9348.T",
-      "ispace",
-      -7.09
+      "OKLO",
+      "Oklo",
+      -5.75
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -7.29
+      "QBTS",
+      "D-Wave Quantum",
+      -6.59
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -7.59
+      -7.85
     ],
     [
       "IDEAFORGE.NS",
@@ -108,8 +108,8 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -17.5
+      -18.59
     ]
   ],
-  "lastUpdated": "2026-03-23 19:00:48"
+  "lastUpdated": "2026-03-24 02:29:19"
 }
