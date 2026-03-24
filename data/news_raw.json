@@ -1,5 +1,192 @@
 [
   {
+    "title": "Arm Is Now Making Its Own Chips",
+    "link": "https://www.wired.com/story/chip-design-firm-arm-is-making-its-own-ai-cpu/",
+    "description": "The chip design firm says Meta, OpenAI, Cerebras, and Cloudflare are among the first customers of its new artificial intelligence hardware.",
+    "pubDate": "Tue, 24 Mar 2026 17:00:00 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Cerebras",
+    "matchedCompanies": [
+      "Cerebras",
+      "OpenAI"
+    ],
+    "sectors": [
+      "chips",
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "In Edison’s Revenge, Data Centers Are Transitioning From AC to DC",
+    "link": "https://spectrum.ieee.org/data-center-dc",
+    "description": "Last week’s Nvidia GTC conference highlighted new chip architectures to power AI. But as the chips become faster and more powerful, the remainder of data center infrastructure is playing catchup. The power delivery community  is responding: Announcements from Delta, Vertiv, and Eaton showcased new d",
+    "pubDate": "Tue, 24 Mar 2026 16:00:05 +0000",
+    "category": "Data-centers",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Astera Labs",
+    "matchedCompanies": [
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "sectors": [
+      "chips"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Space Force officer shares intelligence on threats to space systems",
+    "link": "https://spacenews.com/space-force-officer-shares-intelligence-on-threats-to-space-systems/",
+    "description": "\nWASHINGTON – Electronic warfare is a growing threat to U.S. space systems, according to a March 23 unclassified briefing by U.S. Space Force Chief Master Sergeant Ron Lerch, senior enlisted advisor to the Deputy Chief of Space Operations for Intelligence. During the Satellite 2026 presentation, Ler",
+    "pubDate": "Tue, 24 Mar 2026 15:48:00 +0000",
+    "category": "Military",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "CX2 Industries",
+    "matchedCompanies": [
+      "CX2 Industries",
+      "Distributed Spectrum",
+      "Durin",
+      "Tenna Systems"
+    ],
+    "sectors": [
+      "defense",
+      "infrastructure"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Philippine Model City Deploys Electric Minibuses To Offset Rising Fuel Costs",
+    "link": "https://cleantechnica.com/2026/03/24/philippine-model-city-deploys-electric-minibuses-to-offset-rising-fuel-costs/",
+    "description": "Fuel prices in the Philippines have breached the P90 (~$1.50) per liter mark (~$5.40 per gallon) and is expected to increase in the next few weeks. In response, the Pasig City government fast tracked the release of five new electric minibuses on yesterday, March 23, marking a P19.9 million e(~$332,3",
+    "pubDate": "Tue, 24 Mar 2026 15:38:34 +0000",
+    "category": "Clean Transport",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "medium",
+    "time": "1h ago"
+  },
+  {
+    "title": "What Will It Take to Build the World’s Largest Data Center?",
+    "link": "https://spectrum.ieee.org/5gw-data-center",
+    "description": "The undying thirst for smarter (historically, that means larger) AI models and greater adoption of the ones we already have has led to an explosion in data-center construction projects, unparalleled both in number and scale. Chief among them is Meta’s planned 5-gigawatt data center in Louisiana, cal",
+    "pubDate": "Tue, 24 Mar 2026 15:00:05 +0000",
+    "category": "Ai",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Astera Labs",
+    "matchedCompanies": [
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "sectors": [
+      "chips"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Air Force seeks industry feedback to &#8216;benchmark&#8217; progress of Northrop missile",
+    "link": "https://breakingdefense.com/2026/03/air-force-seeks-industry-feedback-to-benchmark-progress-of-northrop-missile/",
+    "description": "The Air Force told Breaking Defense the service may consider producing another missile similar to Northrop Grumman’s Stand-in Attack Weapon “if industry has solid options for delivering munitions faster and cheaper.”",
+    "pubDate": "Tue, 24 Mar 2026 14:55:00 +0000",
+    "category": "Air Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Deterrence",
+    "matchedCompanies": [
+      "Deterrence",
+      "Ares Industries"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "FCC bans import of new consumer routers made overseas, citing security risks",
+    "link": "https://techcrunch.com/2026/03/24/fcc-bans-import-of-new-consumer-routers-made-overseas-citing-security-risks/",
+    "description": "The FCC ban will affect the import of all new, foreign-made consumer routers, the agency's head Brendan Carr said.",
+    "pubDate": "Tue, 24 Mar 2026 14:32:59 +0000",
+    "category": "Government & Policy",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Matic Robotics",
+    "matchedCompanies": [
+      "Matic Robotics",
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "consumer",
+      "climate",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "SpaceEye-T: 25 cm Satellite Imagery and Tasking Now Available Through Pacific Geomatics Limited",
+    "link": "https://spacenews.com/spaceeye-t-25-cm-satellite-imagery-and-tasking-now-available-through-pacific-geomatics-limited/",
+    "description": "\nVictoria, Canada / Daejeon, South Korea – March 24, 2026 – Canadian and international organizations can now access SpaceEye-T imagery and tasking services through Pacific Geomatics Limited, one of the [&#8230;]\nThe post SpaceEye-T: 25 cm Satellite Imagery and Tasking Now Available Through Pacific G",
+    "pubDate": "Tue, 24 Mar 2026 14:00:00 +0000",
+    "category": "Press Release",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Albedo",
+    "matchedCompanies": [
+      "Albedo",
+      "AiDash"
+    ],
+    "sectors": [
+      "space",
+      "infrastructure"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
+    "title": "SES orders 28 satellites from K2 Space for next-gen MEO network",
+    "link": "https://spacenews.com/ses-targets-28-satellites-with-k2-space-for-next-gen-meo-network/",
+    "description": "\nSES has ordered an initial 28 satellites from manufacturing startup K2 Space for meoSphere, a next-generation MEO network slated to be in operation by 2030.\nThe post SES orders 28 satellites from K2 Space for next-gen MEO network appeared first on SpaceNews.",
+    "pubDate": "Tue, 24 Mar 2026 13:00:14 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "K2 Space",
+    "matchedCompanies": [
+      "K2 Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
     "title": "The Coming Drone-War Inflection in Ukraine",
     "link": "https://spectrum.ieee.org/autonomous-drone-warfare",
     "description": "WHEN KYIV-BORN ENGINEER Yaroslav Azhnyuk thinks about the future, his mind conjures up dystopian images. He talks about “swarms of autonomous drones carrying other autonomous drones to protect them against autonomous drones, which are trying to intercept them, controlled by AI agents overseen by a h",
@@ -20,14 +207,14 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Spotify&#8217;s new SongDNA feature maps how your favorite songs are connected",
     "link": "https://techcrunch.com/2026/03/24/spotifys-songdna-feature-lets-you-explore-the-connections-behind-your-favorite-songs/",
     "description": "The new feature lets you explore samples, covers, and more about the people behind your favorite songs, says Spotify.",
     "pubDate": "Tue, 24 Mar 2026 13:00:00 +0000",
-    "category": "Media & Entertainment",
+    "category": "Apps",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "Ample",
@@ -39,7 +226,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Zoox brings its robotaxis to Austin and Miami",
@@ -58,7 +245,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Cauldron Ferm has turned microbes into nonstop assembly lines",
@@ -83,7 +270,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "General Dynamics-led team unveils self-driving truck with microwave counter-drone tech",
@@ -104,7 +291,28 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
+  },
+  {
+    "title": "Self-propagating malware poisons open source software and wipes Iran-based machines",
+    "link": "https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/",
+    "description": "",
+    "pubDate": "Tue, 24 Mar 2026 12:38:09 +0000",
+    "category": "Biz & IT",
+    "source": "Ars Technica",
+    "feedCategory": "tech",
+    "matchedCompany": "Xanadu Quantum Technologies",
+    "matchedCompanies": [
+      "Xanadu Quantum Technologies",
+      "Tenstorrent"
+    ],
+    "sectors": [
+      "quantum",
+      "chips"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "4h ago"
   },
   {
     "title": "The Download: tracing AI-fueled delusions, and OpenAI admits Microsoft risks",
@@ -125,14 +333,14 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
     "title": "Agile Robots becomes the latest robotics company to partner with Google DeepMind",
     "link": "https://techcrunch.com/2026/03/24/agile-robots-becomes-the-latest-robotics-company-to-partner-with-google-deepmind/",
     "description": "Agile Robots will incorporate Google DeepMind's robotics foundation models into its bots while collecting data for the AI research lab.",
     "pubDate": "Tue, 24 Mar 2026 12:05:00 +0000",
-    "category": "TC",
+    "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "Kyutai",
@@ -144,7 +352,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Swiss Destinus, Shield AI wrap European drone autonomy test campaign",
@@ -165,7 +373,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Clear Drop Soft Plastic Compactor Review: Eco Experiment",
@@ -184,7 +392,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Best Premium Soundbars: Dolby Atmos, Hi-Res Audio, and More",
@@ -203,7 +411,26 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
+  },
+  {
+    "title": "Fusion engine for missile warning lacks a government dataset",
+    "link": "https://spacenews.com/fusion-engine-for-missile-warning-lacks-a-government-dataset/",
+    "description": "\nWASHINGTON – National missile warning and tracking could be improved if all government agencies shared the raw data they gather. “There are agencies that have sensors that can provide data that would be very supplemental to the missile-defense mission, but they designed it for a completely differen",
+    "pubDate": "Tue, 24 Mar 2026 10:30:00 +0000",
+    "category": "Military",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "6h ago"
   },
   {
     "title": "Your Body Is Betraying Your Right to Privacy",
@@ -225,7 +452,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "7h ago"
   },
   {
     "title": "ICE Paid the Salaries of This Town’s Entire Police Force",
@@ -247,7 +474,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
     "title": "The Next Transformation of U.S. Shipbuilding",
@@ -273,7 +500,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "9h ago"
   },
   {
     "title": "Converting History into Hard Power: A Polish-German Reckoning",
@@ -292,7 +519,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN",
@@ -313,7 +540,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "China Flexes Its Global Green Hydrogen Muscles, Trump Or No Trump",
@@ -333,7 +560,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "13h ago"
   },
   {
     "title": "Manila Welcomes Locally Engineered Electric &#8220;Tram&#8221; to the Walled City",
@@ -352,7 +579,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "15h ago"
   },
   {
     "title": "Solar at Home, Imported Biofuels for Crossing Oceans: Hawaiʻi’s Real Energy Strategy",
@@ -375,7 +602,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "KC-135 crash in Iraq spurs calls for communications upgrades",
@@ -394,26 +621,26 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "19h ago"
   },
   {
-    "title": "Someone has publicly leaked an exploit kit that can hack millions of iPhones",
-    "link": "https://techcrunch.com/2026/03/23/someone-has-publicly-leaked-an-exploit-kit-that-can-hack-millions-of-iphones/",
-    "description": "Leaked \"DarkSword\" exploits published to GitHub allow hackers and cybercriminals to target iPhone users running old versions of iOS with spyware, according to cybersecurity researchers.",
-    "pubDate": "Mon, 23 Mar 2026 20:42:41 +0000",
-    "category": "Security",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Galvanick",
+    "title": "Space Force adds cyber units to guard rocket launches",
+    "link": "https://spacenews.com/space-force-adds-cyber-units-to-guard-rocket-launches/",
+    "description": "\n&#8216;Cyber defense&#8217; squadrons at Cape Canaveral and Vandenberg reflect growing concern over malicious hacks\nThe post Space Force adds cyber units to guard rocket launches appeared first on SpaceNews.",
+    "pubDate": "Mon, 23 Mar 2026 21:37:35 +0000",
+    "category": "Launch",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Cape",
     "matchedCompanies": [
-      "Galvanick"
+      "Cape"
     ],
     "sectors": [
-      "defense"
+      "climate"
     ],
     "type": "ipo",
-    "impact": "medium",
-    "time": "16h ago"
+    "impact": "low",
+    "time": "19h ago"
   },
   {
     "title": "As Fury production starts, Anduril pledging a different production approach at Arsenal-1",
@@ -432,26 +659,26 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "20h ago"
   },
   {
-    "title": "Zipline snaps up another $200M to fuel its drone delivery expansion",
-    "link": "https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion/",
-    "description": "The funding adds to a previous round, announced in January,  that valued the drone startup at $7.6 billion.",
-    "pubDate": "Mon, 23 Mar 2026 20:37:52 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Zipline",
+    "title": "Amazon Leo targets faster deployment cadence as deadline pressure mounts",
+    "link": "https://spacenews.com/amazon-leo-targets-faster-deployment-cadence-as-deadline-pressure-mounts/",
+    "description": "\nAmazon vowed to double the annual launch rate for its low Earth orbit broadband constellation to more than 20 missions, hinging largely on rockets yet to prove themselves at scale.\nThe post Amazon Leo targets faster deployment cadence as deadline pressure mounts appeared first on SpaceNews.",
+    "pubDate": "Mon, 23 Mar 2026 20:39:35 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "AST SpaceMobile",
     "matchedCompanies": [
-      "Zipline"
+      "AST SpaceMobile"
     ],
     "sectors": [
-      "autonomous"
+      "space"
     ],
-    "type": "funding",
-    "impact": "high",
-    "time": "17h ago"
+    "type": "ipo",
+    "impact": "low",
+    "time": "20h ago"
   },
   {
     "title": "Space Force&#8217;s two new cyber squadrons to defend space launch operations",
@@ -470,7 +697,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "US and UK teaming up to destroy underwater drones",
@@ -493,7 +720,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Trump admin&#8217;s comments could undermine case against Anthropic in court: Experts",
@@ -512,7 +739,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Sodium &#038; Quantum Batteries Move The Transition To Electricity Forward",
@@ -532,7 +759,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "A Fresh Wave Of Perovskite Solar Cell Activity, Just In Time For The Next Oil Crisis",
@@ -555,7 +782,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Nearly 1,000 EV Charging Bays Available At IONNA Charging Hubs",
@@ -576,7 +803,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Poland eyes benefits of joining GCAP sixth-generation fighter project",
@@ -595,7 +822,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Transforming Data Science With NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
@@ -614,6 +841,26 @@
     ],
     "type": "news",
     "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "The software behind Artemis, Gateway and America&#8217;s defense in space deserves its own strategy",
+    "link": "https://spacenews.com/the-software-behind-artemis-gateway-and-americas-defense-in-space-deserves-its-own-strategy/",
+    "description": "\nWhen we talk about national space infrastructure, we talk about rockets, launch pads and ground stations. We invest billions in the vehicles that carry astronauts to the moon and the telescopes that peer to the edge of the universe. But we rarely talk about the software that makes all of it work. T",
+    "pubDate": "Mon, 23 Mar 2026 13:00:00 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Northwood Space",
+    "matchedCompanies": [
+      "Northwood Space",
+      "Kepler Communications"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "high",
     "time": "1d ago"
   },
   {
@@ -753,6 +1000,28 @@
     "time": "1d ago"
   },
   {
+    "title": "SpaceX offers details on orbital data center satellites",
+    "link": "https://spacenews.com/spacex-offers-details-on-orbital-data-center-satellites/",
+    "description": "\nSpaceX Chief Executive Elon Musk revealed more technical, but not financial, details about his company’s plans to deploy an orbital data center constellation.\nThe post SpaceX offers details on orbital data center satellites appeared first on SpaceNews.",
+    "pubDate": "Sun, 22 Mar 2026 18:08:55 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "sectors": [
+      "space",
+      "chips"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
     "title": "First Tesla Will Recursively Improve Chip Masks for AI5, AI6 and Other Chips",
     "link": "https://www.nextbigfuture.com/2026/03/first-tesla-will-recursively-improve-chip-masks-for-ai5-ai6-and-other-chips.html",
     "description": "TERAFAB project, which will be done jointly by @SpaceX and @Tesla. The goal is to produce over a TERAWATT of compute per year (logic, memory &#038; packaging) with ~80% for space and ~20% for the ground. The goal is extreme vertical integration to produce custom AI chips (logic, memory, and advanced",
@@ -771,7 +1040,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Over 1,200 New EV Charging Stalls Deployed By EVgo In 2025",
@@ -792,7 +1061,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Tesla Terafab and Petawatts on the Moon",
@@ -812,7 +1081,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "VinFast Hasn&#8217;t Given Up On Its US Ambitions — Despite Delays, Betting On Long-Term Strategy",
@@ -831,7 +1100,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "SpaceX, Tesla and XAI Will Satellites and Plans for AI in Space",
@@ -850,7 +1119,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The Best Subscription-Free Home Security Cameras I've Tried",
@@ -910,6 +1179,25 @@
     ],
     "type": "news",
     "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "Some European Launcher Challenge funding remains in limbo",
+    "link": "https://spacenews.com/some-european-launcher-challenge-funding-remains-in-limbo/",
+    "description": "\nNearly 140 million euros ($162 million) that European Space Agency member states allocated to a program to support launch vehicle development remains in limbo and could be lost.\nThe post Some European Launcher Challenge funding remains in limbo appeared first on SpaceNews.",
+    "pubDate": "Sun, 22 Mar 2026 00:53:32 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "PLD Space",
+    "matchedCompanies": [
+      "PLD Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "funding",
+    "impact": "medium",
     "time": "2d ago"
   },
   {
@@ -1010,6 +1298,28 @@
     "time": "3d ago"
   },
   {
+    "title": "Officina Stellare wins $2 million contract for lasercom ground station in Spain",
+    "link": "https://spacenews.com/officina-stellare-wins-2-million-contract-for-lasercom-ground-station-in-spain/",
+    "description": "\nMILAN – Officina Stellare, an Italian manufacturer of advanced opto-mechanical systems, has signed a 1.84 million euro ($2.0 million) contract with the Barcelona-based Institute of Photonic Sciences (ICFO), the company announced March 17. The contract covers the design and construction of an optica",
+    "pubDate": "Fri, 20 Mar 2026 21:49:39 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "PsiQuantum",
+    "matchedCompanies": [
+      "PsiQuantum",
+      "Xanadu Quantum Technologies",
+      "Photonic Inc"
+    ],
+    "sectors": [
+      "chips",
+      "quantum"
+    ],
+    "type": "contract",
+    "impact": "medium",
+    "time": "3d ago"
+  },
+  {
     "title": "Navy bets $900M on automated factories to boost submarine production",
     "link": "https://www.defenseone.com/defense-systems/2026/03/navy-bets-900m-automated-factories-boost-submarine-production/412290/",
     "description": "Four-year-old Hadrian wins contract as service seeks to offset worker shortages.",
@@ -1070,6 +1380,25 @@
     "time": "3d ago"
   },
   {
+    "title": "Rocket Lab launches eighth Synspective radar imaging satellite",
+    "link": "https://spacenews.com/rocket-lab-launches-eighth-synspective-radar-imaging-satellite/",
+    "description": "\nRocket Lab launched the latest in a series of satellites for Japanese radar imaging company Synspective on March 20.\nThe post Rocket Lab launches eighth Synspective radar imaging satellite appeared first on SpaceNews.",
+    "pubDate": "Fri, 20 Mar 2026 21:15:03 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Rocket Lab",
+    "matchedCompanies": [
+      "Rocket Lab"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "3d ago"
+  },
+  {
     "title": "A Top Democrat Is Urging Colleagues to Support Trump’s Spy Machine",
     "link": "https://www.wired.com/story/a-top-democrat-is-urging-colleagues-to-support-trumps-spy-machine/",
     "description": "Congressman Jim Himes claims a sweeping surveillance authority should stay intact because he hasn't seen abuses by Kash Patel's FBI, according to internal messaging obtained by WIRED.",
@@ -1090,9 +1419,28 @@
     "time": "3d ago"
   },
   {
+    "title": "Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues",
+    "link": "https://spacenews.com/another-gps-launch-shifts-from-ula-to-spacex-as-vulcan-investigation-continues/",
+    "description": "\nThe change affects the GPS III SV-10 satellite, which had been slated to launch on ULA’s Vulcan Centaur rocket.\nThe post Another GPS launch shifts from ULA to SpaceX as Vulcan investigation continues appeared first on SpaceNews.",
+    "pubDate": "Fri, 20 Mar 2026 20:42:24 +0000",
+    "category": "Launch",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "3d ago"
+  },
+  {
     "title": "Navy, Hadrian launch partnership, open facility to build submarine parts",
     "link": "https://breakingdefense.com/2026/03/navy-hadrian-launch-public-private-partnership-open-facility-to-build-submarine-parts/",
-    "description": "Secretary of the Navy John Phelan said that the public-private arrangement is a “novel transaction” that ensures the service is investing in “outcomes, not promises.” ",
+    "description": "Secretary of the Navy John Phelan said that the public-private arrangement is a “novel transaction” that ensures the service is investing in “outcomes, not promises.�� ",
     "pubDate": "Fri, 20 Mar 2026 19:39:41 +0000",
     "category": "Naval Warfare",
     "source": "Breaking Defense",
@@ -1132,6 +1480,25 @@
     ],
     "type": "funding",
     "impact": "low",
+    "time": "3d ago"
+  },
+  {
+    "title": "OHB Sweden wins €248 million contract to build EPS-Sterna constellation",
+    "link": "https://spacenews.com/ohb-sweden-wins-e248-million-contract-to-build-eps-sterna-constellation/",
+    "description": "\nOHB Sweden has won a record contract for Sweden’s space sector to build 20 satellites to boost Europe’s weather forecasting and climate monitoring capabilities.\nThe post OHB Sweden wins €248 million contract to build EPS-Sterna constellation appeared first on SpaceNews.",
+    "pubDate": "Fri, 20 Mar 2026 18:28:40 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Atmo",
+    "matchedCompanies": [
+      "Atmo"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "contract",
+    "impact": "medium",
     "time": "3d ago"
   },
   {
@@ -1200,48 +1567,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Uber Now Ordering Robotaxis from &#8230; Rivian?",
-    "link": "https://cleantechnica.com/2026/03/20/uber-now-ordering-robotaxis-from-rivian/",
-    "description": "As I wrote recently, it seems that Uber is trying to partner with every robotaxi company under the sun. Apparently, that even includes Rivian now. Let&#8217;s be honest — we have written a lot about how Tesla is nearly a decade behind on its robotaxi plans, nearly a decade, but   ... [continued]\nThe",
-    "pubDate": "Fri, 20 Mar 2026 16:24:39 +0000",
-    "category": "Autonomous Vehicles",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo",
-      "Zoox",
-      "Rivian"
-    ],
-    "sectors": [
-      "ai",
-      "transportation"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Israel&#8217;s Elbit reveals military contract to put high-powered laser weapon on aircraft",
-    "link": "https://breakingdefense.com/2026/03/israels-elbit-reveals-military-contract-to-put-high-powered-laser-weapon-on-aircraft/",
-    "description": "CEO Bezhalel Machlis revealed the 2025 contract during an investor meeting, while acknowledging the challenges of putting such precise tech in the sky.",
-    "pubDate": "Fri, 20 Mar 2026 15:32:00 +0000",
-    "category": "Air Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Durin",
-    "matchedCompanies": [
-      "Durin"
-    ],
-    "sectors": [
-      "infrastructure"
-    ],
-    "type": "contract",
-    "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "The Download: OpenAI is building a fully automated researcher, and a psychedelic trial blind spot",
@@ -1259,6 +1585,47 @@
       "ai"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "4d ago"
+  },
+  {
+    "title": "Holistic space observation: the shift from SSA to SDA",
+    "link": "https://spacenews.com/holistic-space-observation-the-shift-from-ssa-to-sda/",
+    "description": "\nRecent reporting on SpaceX’s proposal to deploy up to one million satellites in low Earth orbit — paired with a vision of AI-enabled, autonomous orbital infrastructure — marks a decisive moment for the space community. Regardless of whether these numbers ultimately materialize, the direction is unm",
+    "pubDate": "Fri, 20 Mar 2026 13:00:00 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "medium",
+    "time": "4d ago"
+  },
+  {
+    "title": "ESA to fly dedicated Crew Dragon mission to ISS",
+    "link": "https://spacenews.com/esa-to-fly-dedicated-crew-dragon-mission-to-iss/",
+    "description": "\nThe European Space Agency plans to charter a SpaceX Crew Dragon mission to the International Space Station to give more flight opportunities for its astronauts.\nThe post ESA to fly dedicated Crew Dragon mission to ISS appeared first on SpaceNews.",
+    "pubDate": "Fri, 20 Mar 2026 12:18:38 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Vast",
+      "Axiom Space",
+      "PLD Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
     "impact": "low",
     "time": "4d ago"
   },
@@ -1340,26 +1707,6 @@
     "time": "4d ago"
   },
   {
-    "title": "US moves to approve more than $16 billion in air defense sales to Middle East",
-    "link": "https://www.defensenews.com/global/mideast-africa/2026/03/19/us-moves-to-approve-more-than-16-billion-in-air-defense-sales-to-middle-east/",
-    "description": "The packages include systems for the United Arab Emirates, Kuwait and Jordan, and range from counter-drone technology to aircraft munitions.",
-    "pubDate": "Thu, 19 Mar 2026 20:47:26 +0000",
-    "category": "/ Mideast Africa",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Deterrence",
-    "matchedCompanies": [
-      "Deterrence",
-      "Ares Industries"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "high",
-    "time": "4d ago"
-  },
-  {
     "title": "The Download: Quantum computing for health, and why the world doesn&#8217;t recycle more nuclear waste",
     "link": "https://www.technologyreview.com/2026/03/19/1134413/the-download-quantum-computing-health-recycling-nuclear-waste/",
     "description": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A $5 million prize awaits proof that quantum computers can solve health care problems&#160; In a laboratory on the outskirts of Oxford, a quantum comp",
@@ -1414,25 +1761,6 @@
     ],
     "sectors": [
       "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "5d ago"
-  },
-  {
-    "title": "Why the world doesn’t recycle more nuclear waste",
-    "link": "https://www.technologyreview.com/2026/03/19/1134399/nuclear-waste-reprocessing/",
-    "description": "The prospect of making trash useful is always fascinating to me. Whether it’s used batteries, solar panels, or spent nuclear fuel, getting use out of something destined for disposal sounds like a win all around. In nuclear energy, figuring out what to do with waste has always been a challenge, since",
-    "pubDate": "Thu, 19 Mar 2026 10:00:00 +0000",
-    "category": "Climate change and energy",
-    "source": "MIT Tech Review",
-    "feedCategory": "tech",
-    "matchedCompany": "Deep Isolation",
-    "matchedCompanies": [
-      "Deep Isolation"
-    ],
-    "sectors": [
-      "nuclear"
     ],
     "type": "news",
     "impact": "low",
@@ -1750,25 +2078,6 @@
     "type": "news",
     "impact": "low",
     "time": "3/11/2026"
-  },
-  {
-    "title": "Finite-Element Approaches to Transformer Harmonic and Transient Analysis",
-    "link": "https://content.knowledgehub.wiley.com/solving-harmonic-and-transient-challenges-in-transformers-using-integrateds-faraday/",
-    "description": "Explore structured finite-element methodologies for analyzing transformer behavior under harmonic and transient conditions — covering modelling, solver configuration, and result validation techniques.What Attendees will LearnHow FEM enables pre-fabrication performance evaluation — Assess magnetic fi",
-    "pubDate": "Tue, 10 Mar 2026 10:00:03 +0000",
-    "category": "Type-whitepaper",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Phospho",
-    "matchedCompanies": [
-      "Phospho"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "3/10/2026"
   },
   {
     "title": "Trump gets data center companies to pledge to pay for power generation",
@@ -2116,25 +2425,6 @@
     "type": "news",
     "impact": "low",
     "time": "2/9/2026"
-  },
-  {
-    "title": "The Marines That Led the Evacuation of Afghanistan, Four Years Later",
-    "link": "https://warontherocks.com/2026/02/the-marines-that-led-the-evacuation-of-afghanistan-four-years-later/",
-    "description": "On this special, free episode of Marine Pulse, Ian Brown sat down with two Marines who recount their mission at Hamid Karzai International Airport on the day of the suicide bombing attack at the Abbey gate during the United States withdrawal from Afghanistan. Aaron Reep and Lee Bowden share their pe",
-    "pubDate": "Fri, 06 Feb 2026 21:16:55 +0000",
-    "category": "Podcasts",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Durin",
-    "matchedCompanies": [
-      "Durin"
-    ],
-    "sectors": [
-      "infrastructure"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/6/2026"
   },
   {
     "title": "Atomically Thin Materials Significantly Shrink Qubits",

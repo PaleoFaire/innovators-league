@@ -22244,23 +22244,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-24 13:40
+// Last updated: 2026-03-24 17:08
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anduril Industries", headline: "The Coming Drone-War Inflection in Ukraine", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Ample", headline: "Spotify's new SongDNA feature maps how your favorite songs are connected", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Zoox", headline: "Zoox brings its robotaxis to Austin and Miami", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Colossal Biosciences", headline: "Cauldron Ferm has turned microbes into nonstop assembly lines", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Epirus", headline: "General Dynamics-led team unveils self-driving truck with microwave counter-drone tech", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "The Download: tracing AI-fueled delusions, and OpenAI admits Microsoft risks", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Kyutai", headline: "Agile Robots'becomes the latest robotics company to partner with Google DeepMind", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Shield AI", headline: "Swiss Destinus, Shield AI wrap European drone autonomy test campaign", source: "Breaking Defense", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "AMP Robotics", headline: "Clear Drop Soft Plastic Compactor Review: Eco Experiment", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Atmo", headline: "Best Premium Soundbars: Dolby Atmos, Hi-Res Audio, and More", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Biofire", headline: "Your Body Is Betraying Your Right to Privacy", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Cape", headline: "ICE Paid the Salaries of This Town's Entire Police Force", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Saronic", headline: "The Next Transformation of U.S. Shipbuilding", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Durin", headline: "Converting History into Hard Power: A Polish-German Reckoning", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Waymo", headline: "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Cerebras", headline: "Arm Is Now Making Its Own Chips", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Astera Labs", headline: "In Edison's Revenge, Data Centers Are Transitioning From AC to DC", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "CX2 Industries", headline: "Space Force officer shares intelligence on threats to space systems", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Palantir", headline: "Philippine Model City Deploys Electric Minibuses To Offset Rising Fuel Costs", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Astera Labs", headline: "What Will It Take to Build the World's Largest Data Center?", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Deterrence", headline: "Air Force seeks industry feedback to 'benchmark' progress of Northrop missile", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Matic Robotics", headline: "FCC bans import of new consumer routers made overseas, citing security risks", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "Albedo", headline: "SpaceEye-T: 25 cm Satellite Imagery and Tasking Now Available Through Pacific Geomatics Limited", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "K2 Space", headline: "SES orders 28 satellites from K2 Space for next-gen MEO network", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anduril Industries", headline: "The Coming Drone-War Inflection in Ukraine", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Ample", headline: "Spotify's new SongDNA feature maps how your favorite songs are connected", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "milestone", company: "Zoox", headline: "Zoox brings its robotaxis to Austin and Miami", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Colossal Biosciences", headline: "Cauldron Ferm has turned microbes into nonstop assembly lines", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Epirus", headline: "General Dynamics-led team unveils self-driving truck with microwave counter-drone tech", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Xanadu Quantum Technologies", headline: "Self-propagating malware poisons open source software and wipes Iran-based machines", source: "Ars Technica", time: "4h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
