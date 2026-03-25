@@ -22677,23 +22677,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-25 17:12
+// Last updated: 2026-03-25 20:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Karman Industries", headline: "Requirements without factories: Why the Pentagon must reconnect design to production", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Cape", headline: "DeleteMe acquires social media security tool Block Party", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo relies on firefighters and police to bail out stuck robotaxis", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Dexterity", headline: "Reddit takes on the bots with new 'human verification' requirements for fishy behavior", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Sift", headline: "Sift raises $42 million in Series B round", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "OpenAI", headline: "OpenAI Enters Its Focus Era by Killing Sora", source: "Wired", time: "2h ago", impact: "high", unread: false },
-  { id: 7, type: "funding", company: "Cohere", headline: "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
-  { id: 8, type: "news", company: "Arbor Energy", headline: "Arbor Energy just landed a billion-dollar order to bring rocket turbine tech to the power grid", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Labelbox", headline: "Meta turns to AI to make shopping easier on Instagram and Facebook", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Hadrian", headline: "Pentagon, Lockheed sign plan to boost PrSM missile production", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Durin", headline: "What Happens When You Host an AI Caf'", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "New Bernie Sanders AI Safety Bill Would Halt Data Center Construction", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Blumen Systems", headline: "Exclusive: YC Doubles Down On Trayd, A Construction Tech Startup That Just Raised $10M In 3 Weeks", source: "Crunchbase News", time: "4h ago", impact: "medium", unread: false },
-  { id: 14, type: "funding", company: "Orangewood Labs", headline: "After pivoting, Y Combinator grad Glimpse raises $35M led by a16z", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Andromeda Surgical", headline: "Harbinger's next product will be hybrid emergency vehicles", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Vast", headline: "Office of Space Commerce releases mission authorization proposal", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Alpha School", headline: "Melania Trump wants a robot to homeschool your child", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Andrenam", headline: "O'ahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy System", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Terran Orbital", headline: "Terran Orbital Introduces New Star Tracker Product Line at SATSHOW 2026", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Agility Robotics", headline: "30 Years Ago, Robots Learned to Walk Without Falling", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Dexterity", headline: "OpenClaw Agents Can Be Guilt-Tripped Into Self-Sabotage", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Durin", headline: "Antibiotic resistance among germs swells during droughts, study suggests", source: "Ars Technica Space", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Vast", headline: "How Are Iran's Partnerships with Belarus and Russia Holding Up During War?", source: "War on the Rocks", time: "3h ago", impact: "medium", unread: false },
+  { id: 9, type: "ipo", company: "ispace", headline: "Roundtables: The Next Era of Space Exploration", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Atmo", headline: "Save $100 on Our Favorite Soundbar and Subwoofer Combo", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Astera Labs", headline: "Bernie Sanders and AOC propose a ban on data center construction", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 12, type: "contract", company: "Karman Industries", headline: "Requirements without factories: Why the Pentagon must reconnect design to production", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Cape", headline: "DeleteMe acquires social media security tool Block Party", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Waymo", headline: "Waymo relies on firefighters and police to bail out stuck robotaxis", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Dexterity", headline: "Reddit takes on the bots with new 'human verification' requirements for fishy behavior", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
