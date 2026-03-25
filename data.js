@@ -22244,23 +22244,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-25 02:49
+// Last updated: 2026-03-25 05:25
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Skydio", headline: "A former Thiel fellow's startup just launched a drone it says can replace police helicopters", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Diode", headline: "More U.S. Homes Used LEDs Over Other Bulb Types For Indoor Lighting In 2024", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo: 13x Lower Rate of Serious Injury or Fatality", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
-  { id: 4, type: "hire", company: "Impulse Labs", headline: "Battery-Equipped Induction Stoves: A New Path to Clean Home Electrification", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI's Sora was the creepiest app on your phone &#8212; now it's shutting down", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Anthropic", headline: "Recursively Self Improving AI Will Have Unlimited Space Based Solar Power", source: "Next Big Future", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Astera Labs", headline: "Kentucky woman rejects $26M offer to turn her farm into a data center", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
-  { id: 8, type: "contract", company: "Anthropic", headline: "Pentagon's 'Attempt to Cripple' Anthropic Is Troubling, Judge Says", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic hands Claude Code more control, but keeps it on a leash", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Cape", headline: "Databricks bought two startups to underpin its new AI security product", source: "TechCrunch", time: "6h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "Form Energy", headline: "Crusoe makes big battery buys for its data centers", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "CX2 Industries", headline: "Army C2 to see more budget line consolidation in FY27, says service undersecretary", source: "Breaking Defense", time: "6h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Amca", headline: "Bradley replacement is still on track, says Army acquisitions boss", source: "Defense One", time: "6h ago", impact: "high", unread: false },
-  { id: 14, type: "ipo", company: "Vast", headline: "NASA Plans $20 Billion Permanent Moonbase by 2032", source: "Next Big Future", time: "7h ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "OpenAI's plans to make ChatGPT more like Amazon aren't going so well", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 1, type: "milestone", company: "Zoox", headline: "Zoox Hits Big Milestone", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Cape", headline: "The National Security Council is missing in action", source: "Defense One", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Skydio", headline: "A former Thiel fellow's startup just launched a drone it says can replace police helicopters", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Diode", headline: "More U.S. Homes Used LEDs Over Other Bulb Types For Indoor Lighting In 2024", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Waymo", headline: "Waymo: 13x Lower Rate of Serious Injury or Fatality", source: "CleanTechnica", time: "4h ago", impact: "medium", unread: true },
+  { id: 6, type: "hire", company: "Impulse Labs", headline: "Battery-Equipped Induction Stoves: A New Path to Clean Home Electrification", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI's Sora was the creepiest app on your phone &#8212; now it's shutting down", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Anthropic", headline: "Recursively Self Improving AI Will Have Unlimited Space Based Solar Power", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Astera Labs", headline: "Kentucky woman rejects $26M offer to turn her farm into a data center", source: "TechCrunch", time: "7h ago", impact: "medium", unread: false },
+  { id: 10, type: "contract", company: "Anthropic", headline: "Pentagon's 'Attempt to Cripple' Anthropic Is Troubling, Judge Says", source: "Wired", time: "7h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "Anthropic hands Claude Code more control, but keeps it on a leash", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Cape", headline: "Databricks bought two startups to underpin its new AI security product", source: "TechCrunch", time: "8h ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Form Energy", headline: "Crusoe makes big battery buys for its data centers", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "CX2 Industries", headline: "Army C2 to see more budget line consolidation in FY27, says service undersecretary", source: "Breaking Defense", time: "8h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Amca", headline: "Bradley replacement is still on track, says Army acquisitions boss", source: "Defense One", time: "9h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
