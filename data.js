@@ -22677,23 +22677,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-25 13:27
+// Last updated: 2026-03-25 17:12
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Blumen Systems", headline: "Exclusive: YC Doubles Down On Trayd, A Construction Tech Startup That Just Raised $10M In 3 Weeks", source: "Crunchbase News", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "funding", company: "Orangewood Labs", headline: "After pivoting, Y Combinator grad Glimpse raises $35M led by a16z", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Andromeda Surgical", headline: "Harbinger's next product will be hybrid emergency vehicles", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "SunDrive Solar", headline: "Arinna raises $4M seed round to solve the space power problem", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 5, type: "hire", company: "SpaceX", headline: "With Sift Stack, two ex-SpaceX engineers are bringing the software that helped launch rockets to the factory floor", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "SpaceX", headline: "A Million New SpaceX Satellites Will Destroy the Night Sky ' For Everyone on Earth", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: false },
-  { id: 7, type: "news", company: "PILGRIM", headline: "German army eyes AI tools to expedite wartime decision-making", source: "Defense News", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Galvanick", headline: "2026 Cybersecurity Excellence Awards Winners Announced during RSA Conference as AI Security Dominates", source: "Next Big Future", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Impulse Space", headline: "Pave Space raises $40 million to develop European heavy kickstage", source: "SpaceNews", time: "2h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Amca", headline: "Data: OpenAI Has Already Done Nearly As Many M&#038;A Deals In 2026 As It Did All of Last Year", source: "Crunchbase News", time: "2h ago", impact: "high", unread: false },
-  { id: 11, type: "ipo", company: "Vast", headline: "NASA proposes new strategy for commercial space stations", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Skeleton Technologies", headline: "How chemists turned bourbon waste into supercapacitors", source: "Ars Technica Space", time: "4h ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Anthropic", headline: "The AI Hype Index: AI goes to war", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Photonic Inc", headline: "Your Defense Code Is Already AI-Generated. Now What?", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "PILGRIM", headline: "Follow the Money: Finance and the Future of Allied Economic Statecraft", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Karman Industries", headline: "Requirements without factories: Why the Pentagon must reconnect design to production", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Cape", headline: "DeleteMe acquires social media security tool Block Party", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Waymo relies on firefighters and police to bail out stuck robotaxis", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Dexterity", headline: "Reddit takes on the bots with new 'human verification' requirements for fishy behavior", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Sift", headline: "Sift raises $42 million in Series B round", source: "SpaceNews", time: "1h ago", impact: "medium", unread: true },
+  { id: 6, type: "ipo", company: "OpenAI", headline: "OpenAI Enters Its Focus Era by Killing Sora", source: "Wired", time: "2h ago", impact: "high", unread: false },
+  { id: 7, type: "funding", company: "Cohere", headline: "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
+  { id: 8, type: "news", company: "Arbor Energy", headline: "Arbor Energy just landed a billion-dollar order to bring rocket turbine tech to the power grid", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Labelbox", headline: "Meta turns to AI to make shopping easier on Instagram and Facebook", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Hadrian", headline: "Pentagon, Lockheed sign plan to boost PrSM missile production", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Durin", headline: "What Happens When You Host an AI Caf'", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "New Bernie Sanders AI Safety Bill Would Halt Data Center Construction", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Blumen Systems", headline: "Exclusive: YC Doubles Down On Trayd, A Construction Tech Startup That Just Raised $10M In 3 Weeks", source: "Crunchbase News", time: "4h ago", impact: "medium", unread: false },
+  { id: 14, type: "funding", company: "Orangewood Labs", headline: "After pivoting, Y Combinator grad Glimpse raises $35M led by a16z", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Andromeda Surgical", headline: "Harbinger's next product will be hybrid emergency vehicles", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
