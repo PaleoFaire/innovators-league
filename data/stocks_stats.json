@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -0.19,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 1.84,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": 8.28,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 22.48,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -11.7,
+      "avg_change": -9.46,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -5.88,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -1.66,
       "count": 3
     },
     "climate": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 4.69,
+      "avg_change": 5.94,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.82,
+      "avg_change": -3.63,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.35,
+      "avg_change": -3.71,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -1.15,
+      "avg_change": -0.67,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.21,
+      "avg_change": 1.4,
       "count": 3
     }
   },
@@ -61,44 +61,44 @@
     [
       "SATL",
       "Satellogic",
-      78.15
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      19.36
+      104.56
     ],
     [
       "PL",
       "Planet Labs",
-      17.54
+      41.52
+    ],
+    [
+      "LNZA",
+      "LanzaTech",
+      19.18
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      12.1
     ],
     [
       "AMD",
       "AMD",
-      4.62
-    ],
-    [
-      "RIVN",
-      "Rivian",
-      1.77
+      10.31
     ]
   ],
   "topLosers": [
     [
-      "DRSHF",
-      "DroneShield",
-      -10.71
+      "JOBY",
+      "Joby Aviation",
+      -5.77
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -6.17
     ],
     [
       "ACHR",
       "Archer Aviation",
-      -12.4
-    ],
-    [
-      "RKLB",
-      "Rocket Lab",
-      -15.93
+      -8.49
     ],
     [
       "277810.KQ",
@@ -108,8 +108,8 @@
     [
       "EVTL",
       "Vertical Aerospace",
-      -26.53
+      -28.86
     ]
   ],
-  "lastUpdated": "2026-03-25 13:19:37"
+  "lastUpdated": "2026-03-25 19:01:19"
 }
