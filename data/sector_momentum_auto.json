@@ -1,222 +1,220 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 70,
+    "momentum": 73,
     "trend": "accelerating",
     "catalysts": [
-      "Follow the Money: Finance and the Future of Allied Economic",
-      "The National Security Council is missing in action",
-      "Pentagon\u2019s \u2018Attempt to Cripple\u2019 Anthropic Is Troubling, Judg"
+      "Convicted spyware chief hints that Greece&#8217;s government",
+      "O\u02bbahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy",
+      "Requirements without factories: Why the Pentagon must reconn"
     ],
     "fundingQ": "$6.9B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 48
+      "market": 64
     },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 57,
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Follow the Money: Finance and the Future of Allied Economic",
-      "Waymo: 13x Lower Rate of Serious Injury or Fatality",
-      "The Next Transformation of U.S. Shipbuilding"
+      "Who\u2019s driving Waymo\u2019s self-driving cars? Sometimes, the poli",
+      "Melania Trump wants a robot to homeschool your child",
+      "30 Years Ago, Robots Learned to Walk Without Falling"
     ],
     "fundingQ": "$1.7B",
     "components": {
       "funding": 92,
-      "news": 60,
+      "news": 70,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 48,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "The Next Transformation of U.S. Shipbuilding",
-      "Solar at Home, Imported Biofuels for Crossing Oceans: Hawai\u02bb"
+      "O\u02bbahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy"
     ],
     "fundingQ": "$1.2B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
   },
   {
     "sector": "AI & Software",
-    "momentum": 37,
-    "trend": "steady",
+    "momentum": 32,
+    "trend": "rising",
     "catalysts": [
-      "OpenAI\u2019s Sora was the creepiest app on your phone &#8212; no",
-      "Recursively Self Improving AI Will Have Unlimited Space Base",
-      "Kentucky woman rejects $26M offer to turn her farm into a da"
+      "Delve did the security compliance on LiteLLM, an AI project",
+      "The AI skills gap is here, says AI company, and power users",
+      "OpenAI Enters Its Focus Era by Killing Sora"
     ],
     "fundingQ": "$109M",
     "components": {
       "funding": 7,
-      "news": 100,
+      "news": 80,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-25"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 26,
-    "trend": "rising",
-    "catalysts": [
-      "A former Thiel fellow&#8217;s startup just launched a drone",
-      "Waymo: 13x Lower Rate of Serious Injury or Fatality",
-      "Recursively Self Improving AI Will Have Unlimited Space Base"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 65,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-25"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 26,
-    "trend": "rising",
-    "catalysts": [
-      "OpenAI\u2019s Sora was the creepiest app on your phone &#8212; no",
-      "Anthropic hands Claude Code more control, but keeps it on a",
-      "What You Need to Know About the Foreign-Made Router Ban in t"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 65,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-25"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 22,
-    "trend": "rising",
-    "catalysts": [
-      "Follow the Money: Finance and the Future of Allied Economic",
-      "In Edison\u2019s Revenge, Data Centers Are Transitioning From AC",
-      "Solar at Home, Imported Biofuels for Crossing Oceans: Hawai\u02bb"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 50,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-25"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 20,
-    "trend": "rising",
-    "catalysts": [
-      "Arm Is Now Making Its Own Chips",
-      "In Edison\u2019s Revenge, Data Centers Are Transitioning From AC",
-      "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 50,
-      "hiring": 0,
-      "market": 38
-    },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 18,
-    "trend": "rising",
+    "momentum": 32,
+    "trend": "declining",
     "catalysts": [
-      "A former Thiel fellow&#8217;s startup just launched a drone",
-      "Recursively Self Improving AI Will Have Unlimited Space Base",
-      "NASA Plans $20 Billion Permanent Moonbase by 2032"
+      "Roundtables: The Next Era of Space Exploration",
+      "Pentagon, Lockheed sign plan to boost PrSM missile productio",
+      "A Million New SpaceX Satellites Will Destroy the Night Sky \u2014"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
+      "news": 35,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-03-26"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 25,
+    "trend": "rising",
+    "catalysts": [
+      "O\u02bbahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy",
+      "30 Years Ago, Robots Learned to Walk Without Falling",
+      "DeleteMe acquires social media security tool Block Party"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 60,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-26"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "Arm Is Now Making Its Own Chips",
+      "Data Centers Are Transitioning From AC to DC"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
       "news": 45,
       "hiring": 0,
-      "market": 18
+      "market": 66
     },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo: 13x Lower Rate of Serious Injury or Fatality",
+      "Recursively Self Improving AI Will Have Unlimited Space Base",
+      "Army C2 to see more budget line consolidation in FY27, says"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-26"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "Follow the Money: Finance and the Future of Allied Economic",
+      "Data Centers Are Transitioning From AC to DC"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-26"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 14,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "Battery-Equipped Induction Stoves: A New Path to Clean Home",
-      "Recursively Self Improving AI Will Have Unlimited Space Base",
-      "Crusoe makes big battery buys for its data centers"
+      "Turning the Plan Into Action: Next Steps for O\u02bbahu\u2019s Clean E",
+      "O\u02bbahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy",
+      "Battery-Equipped Induction Stoves: A New Path to Clean Home"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 35,
       "hiring": 0,
-      "market": 28
+      "market": 54
     },
-    "lastUpdated": "2026-03-25"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 14,
-    "trend": "rising",
-    "catalysts": [
-      "OpenAI\u2019s Sora was the creepiest app on your phone &#8212; no",
-      "General Dynamics-led team unveils self-driving truck with mi"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 45,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 12,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "What Will It Take to Build the World\u2019s Largest Data Center?"
+      "Bernie Sanders and AOC propose a ban on data center construc",
+      "New Bernie Sanders AI Safety Bill Would Halt Data Center Con",
+      "Exclusive: YC Doubles Down On Trayd, A Construction Tech Sta"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Your Defense Code Is Already AI-Generated. Now What?"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 35,
+      "hiring": 0,
+      "market": 8
+    },
+    "lastUpdated": "2026-03-26"
   },
   {
     "sector": "Supersonic & Hypersonic",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Self-propagating malware poisons open source software and wi"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -225,28 +223,27 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
   },
   {
-    "sector": "Transportation",
-    "momentum": 6,
+    "sector": "Quantum Computing",
+    "momentum": 8,
     "trend": "declining",
     "catalysts": [
-      "General Dynamics-led team unveils self-driving truck with mi",
-      "Nearly 1,000 EV Charging Bays Available At IONNA Charging Hu"
+      "Active quantum computing ecosystem"
     ],
-    "fundingQ": "$40M",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 7,
-      "news": 15,
+      "funding": 0,
+      "news": 10,
       "hiring": 0,
-      "market": 0
+      "market": 28
     },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 4,
+    "momentum": 7,
     "trend": "declining",
     "catalysts": [
       "NASA Space Reactor 1 Freedom for Nuclear Powered Interplanet"
@@ -254,26 +251,26 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
-      "market": 0
+      "market": 23
     },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
   },
   {
-    "sector": "Quantum Computing",
-    "momentum": 4,
+    "sector": "Transportation",
+    "momentum": 5,
     "trend": "declining",
     "catalysts": [
-      "Sodium &#038; Quantum Batteries Move The Transition To Elect"
+      "Active transportation ecosystem"
     ],
-    "fundingQ": "$0M",
+    "fundingQ": "$40M",
     "components": {
-      "funding": 0,
-      "news": 15,
+      "funding": 7,
+      "news": 5,
       "hiring": 0,
-      "market": 2
+      "market": 7
     },
-    "lastUpdated": "2026-03-25"
+    "lastUpdated": "2026-03-26"
   }
 ]
