@@ -22770,23 +22770,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-26 13:44
+// Last updated: 2026-03-26 17:11
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Cape", headline: "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Asylon Robotics", headline: "Using a VPN May Subject You to NSA Spying", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Matic Robotics", headline: "Cohere launches an open-source voice model specifically for transcription", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 4, type: "ipo", company: "WeaveGrid", headline: "California Regulators Signal Ratepayer Protection in Initial Rejection to SoCalGas", source: "CleanTechnica", time: "Just now", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Machina Labs", headline: "Volkswagen in talks to make Iron Dome parts at struggling German auto plant: report", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Deterrence", headline: "France to boost'munitions'spending by nearly $10 billion through 2030", source: "Defense News", time: "1h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Bronco AI", headline: "The Inherent Evil of Fossil Fuels", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Hubble Network", headline: "Soundboks Mix Review: A Great Party Speaker", source: "Wired", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Matic Robotics", headline: "Eufy Omni C28 Review: Affordable and Full-Featured", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Atomic Industries", headline: "This Groundbreaking Omega Watch's Accuracy Is Calibrated Using Sound", source: "Wired", time: "2h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Flock Safety", headline: "Why ICE Is Allowed to Impersonate Law Enforcement", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Palantir", headline: "The snow gods: How a couple of ski bums built the internet's best weather app", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Palantir", headline: "The Government's Shittiest Website", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Waymo", headline: "A little-known Croatian startup is coming for the robotaxi market with help from Uber", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Durin", headline: "10 Ukrainians Humbled Two NATO Battalions. When Will NATO Wake Up?", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Zeromark", headline: "'We'll go 40%': Army wants good-enough tech it can reshape for battle", source: "Defense One", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Xanadu Quantum Technologies", headline: "Silicon Valley's two biggest dramas have intersected: LiteLLM and Delve", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Palantir", headline: "A $20 Billion Crypto Scam Market Faces a New Government Crackdown", source: "Wired", time: "1h ago", impact: "high", unread: true },
+  { id: 4, type: "milestone", company: "Deterrence", headline: "France sets up 'urgent' $9.8B munitions top-up package", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Ample", headline: "Electric Trucks Are Getting A Lift From You-Know-Who", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Cape", headline: "A major hacking tool has leaked online, putting millions of iPhones at risk. Here's what you need to know.", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 7, type: "funding", company: "Cape", headline: "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "Asylon Robotics", headline: "Using a VPN May Subject You to NSA Spying", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Matic Robotics", headline: "Cohere launches an open source voice model specifically for transcription", source: "TechCrunch", time: "3h ago", impact: "high", unread: false },
+  { id: 10, type: "ipo", company: "WeaveGrid", headline: "California Regulators Signal Ratepayer Protection in Initial Rejection to SoCalGas", source: "CleanTechnica", time: "4h ago", impact: "medium", unread: false },
+  { id: 11, type: "news", company: "Machina Labs", headline: "Volkswagen in talks to make Iron Dome parts at struggling German auto plant: report", source: "Defense News", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Deterrence", headline: "France to boost'munitions'spending by nearly $10 billion through 2030", source: "Defense News", time: "4h ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Bronco AI", headline: "The Inherent Evil of Fossil Fuels", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Hubble Network", headline: "Soundboks Mix Review: A Great Party Speaker", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Matic Robotics", headline: "Eufy Omni C28 Review: Affordable and Full-Featured", source: "Wired", time: "5h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───

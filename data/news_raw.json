@@ -1,5 +1,127 @@
 [
   {
+    "title": "‘We’ll go 40%’: Army wants good-enough tech it can reshape for battle",
+    "link": "https://www.defenseone.com/defense-systems/2026/03/army-good-tech-battle/412402/",
+    "description": "“We don’t want the product to be perfect,” says 4th Infantry Division’s commander.",
+    "pubDate": "Thu, 26 Mar 2026 12:31:12 -0400",
+    "category": "Defense Systems",
+    "source": "Defense One",
+    "feedCategory": "defense",
+    "matchedCompany": "Zeromark",
+    "matchedCompanies": [
+      "Zeromark"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Silicon Valley&#8217;s two biggest dramas have intersected: LiteLLM and Delve",
+    "link": "https://techcrunch.com/2026/03/26/delve-did-the-security-compliance-on-litellm-an-ai-project-hit-by-malware/",
+    "description": "LiteLLM offers an AI open source project used by millions that was infected by credential harvesting malware.",
+    "pubDate": "Thu, 26 Mar 2026 16:06:33 +0000",
+    "category": "Security",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Xanadu Quantum Technologies",
+    "matchedCompanies": [
+      "Xanadu Quantum Technologies",
+      "Tenstorrent"
+    ],
+    "sectors": [
+      "quantum",
+      "chips"
+    ],
+    "type": "news",
+    "impact": "medium",
+    "time": "1h ago"
+  },
+  {
+    "title": "A $20 Billion Crypto Scam Market Faces a New Government Crackdown",
+    "link": "https://www.wired.com/story/20-billion-xinbi-guarantee-uk-sanctions/",
+    "description": "The Telegram-based Xinbi Guarantee black market sells services that help prop up scam operations. British officials just hit the highly lucrative marketplace with sweeping sanctions.",
+    "pubDate": "Thu, 26 Mar 2026 15:15:53 +0000",
+    "category": "Security",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "high",
+    "time": "1h ago"
+  },
+  {
+    "title": "France sets up &#8216;urgent&#8217; $9.8B munitions top-up package",
+    "link": "https://breakingdefense.com/2026/03/france-sets-up-urgent-9-8b-munitions-top-up-package/",
+    "description": "Paris also plans to launch a new platform dubbed France Munitions to act as a wholesale buyer of weapons for both the French Armed Forces and export customers.",
+    "pubDate": "Thu, 26 Mar 2026 14:55:00 +0000",
+    "category": "Air Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Deterrence",
+    "matchedCompanies": [
+      "Deterrence",
+      "Ares Industries"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Electric Trucks Are Getting A Lift From You-Know-Who",
+    "link": "https://cleantechnica.com/2026/03/26/electric-trucks-are-getting-a-lift-from-you-know-who/",
+    "description": "Despite the sharp U-turn in federal energy policy, the up-and-coming global Megawatt Charging System for heavy duty Class 8 electric trucks is taking root in the US.\nThe post Electric Trucks Are Getting A Lift From You-Know-Who appeared first on CleanTechnica.",
+    "pubDate": "Thu, 26 Mar 2026 14:46:42 +0000",
+    "category": "Clean Transport",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Ample",
+    "matchedCompanies": [
+      "Ample",
+      "Harbinger"
+    ],
+    "sectors": [
+      "infrastructure",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "A major hacking tool has leaked online, putting millions of iPhones at risk. Here’s what you need to know.",
+    "link": "https://techcrunch.com/2026/03/26/a-major-hacking-tool-has-leaked-online-putting-millions-of-iphones-at-risk-heres-what-you-need-to-know/",
+    "description": "Here’s what we know, and what you need to know, about Coruna and DarkSword, two advanced iPhone hacking tools discovered by security researchers. DarkSword has now leaked online.",
+    "pubDate": "Thu, 26 Mar 2026 14:09:40 +0000",
+    "category": "Security",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Cape",
+    "matchedCompanies": [
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "climate",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "medium",
+    "time": "3h ago"
+  },
+  {
     "title": "Conntour raises $7M from General Catalyst, YC to build an AI search engine for security video systems",
     "link": "https://techcrunch.com/2026/03/26/conntour-raises-7m-from-general-catalyst-yc-to-build-an-ai-search-engine-for-security-video-systems/",
     "description": "Conntour uses AI models to let security teams query camera feeds using natural language to find any object, person, or situation.",
@@ -19,12 +141,12 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "Using a VPN May Subject You to NSA Spying",
     "link": "https://www.wired.com/story/using-a-vpn-may-subject-you-to-nsa-spying/",
-    "description": "US lawmakers are pressing Tulsi Gabbard to reveal whether using a VPN that connects to overseas servers can strip Americans of their constitutional protections against warrantless surveillance.",
+    "description": "US lawmakers are pressing Tulsi Gabbard to reveal whether using a VPN can strip Americans of their constitutional protections against warrantless surveillance.",
     "pubDate": "Thu, 26 Mar 2026 13:32:52 +0000",
     "category": "Security",
     "source": "Wired",
@@ -39,10 +161,10 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
-    "title": "Cohere launches an open-source voice model specifically for transcription",
+    "title": "Cohere launches an open source voice model specifically for transcription",
     "link": "https://techcrunch.com/2026/03/26/cohere-launches-an-open-source-voice-model-specifically-for-transcription/",
     "description": "Relatively light at just 2 billion parameters, the model is meant for use with consumer-grade GPUs for those who want to self-host it. It currently supports 14 languages.",
     "pubDate": "Thu, 26 Mar 2026 13:30:00 +0000",
@@ -52,16 +174,20 @@
     "matchedCompany": "Matic Robotics",
     "matchedCompanies": [
       "Matic Robotics",
+      "Xanadu Quantum Technologies",
+      "Tenstorrent",
       "Gladia",
       "Cohere"
     ],
     "sectors": [
       "consumer",
+      "quantum",
+      "chips",
       "ai"
     ],
     "type": "milestone",
     "impact": "high",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
     "title": "California Regulators Signal Ratepayer Protection in Initial Rejection to SoCalGas",
@@ -80,7 +206,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Volkswagen in talks to make Iron Dome parts at struggling German auto plant: report",
@@ -103,7 +229,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "France to boost munitions spending by nearly $10 billion through 2030",
@@ -123,7 +249,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "1h ago"
+    "time": "4h ago"
   },
   {
     "title": "The Inherent Evil of Fossil Fuels",
@@ -143,7 +269,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Soundboks Mix Review: A Great Party Speaker",
@@ -162,7 +288,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "5h ago"
   },
   {
     "title": "Eufy Omni C28 Review: Affordable and Full-Featured",
@@ -181,7 +307,31 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
+  },
+  {
+    "title": "Mistral releases a new open source model for speech generation",
+    "link": "https://techcrunch.com/2026/03/26/mistral-releases-a-new-open-source-model-for-speech-generation/",
+    "description": "The model, which lets enterprises build voice agents for sales and customer engagement, puts Mistral in direct competition with the likes of ElevenLabs, Deepgram, and OpenAI.",
+    "pubDate": "Thu, 26 Mar 2026 11:30:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "ElevenLabs",
+      "Xanadu Quantum Technologies",
+      "Tenstorrent"
+    ],
+    "sectors": [
+      "ai",
+      "quantum",
+      "chips"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5h ago"
   },
   {
     "title": "This Groundbreaking Omega Watch’s Accuracy Is Calibrated Using Sound",
@@ -200,7 +350,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Why ICE Is Allowed to Impersonate Law Enforcement",
@@ -219,7 +369,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3h ago"
+    "time": "7h ago"
   },
   {
     "title": "The snow gods: How a couple of ski bums built the internet’s best weather app",
@@ -238,10 +388,10 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "7h ago"
   },
   {
-    "title": "The Government’s Shittiest Website",
+    "title": "MyMove Is the US Government’s Shittiest Website",
     "link": "https://www.wired.com/story/the-governments-shittiest-website/",
     "description": "For more than 30 years, the US Postal Service has sent people who need to change their addresses to MyMove. Experts say the site uses dark patterns to trap visitors in an online purgatory of “deals.”",
     "pubDate": "Thu, 26 Mar 2026 09:00:00 +0000",
@@ -257,11 +407,11 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
     "title": "A little-known Croatian startup is coming for the robotaxi market with help from Uber",
-    "link": "https://techcrunch.com/2026/03/26/a-little-known-croatian-startup-is-coming-for-the-robotaxi-market-with-help-from-uber/",
+    "link": "https://techcrunch.com/2026/03/26/uber-invests-verne-ponyai-robotaxi-europe/",
     "description": "Verne, the robotaxi company launched under Rimac Group, is starting with a service in Zagreb, Croatia.",
     "pubDate": "Thu, 26 Mar 2026 08:15:00 +0000",
     "category": "Transportation",
@@ -278,7 +428,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "5h ago"
+    "time": "8h ago"
   },
   {
     "title": "10 Ukrainians Humbled Two NATO Battalions. When Will NATO Wake Up?",
@@ -297,7 +447,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "A Torpedo in the Trade Lanes: Naval Warfare Returns to the Indo-Pacific",
@@ -323,7 +473,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "9h ago"
   },
   {
     "title": "The real danger of military AI isn’t killer robots; it’s worse human judgement",
@@ -342,33 +492,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "11h ago"
-  },
-  {
-    "title": "Delve did the security compliance on LiteLLM, an AI project hit by malware",
-    "link": "https://techcrunch.com/2026/03/25/delve-did-the-security-compliance-on-litellm-an-ai-project-hit-by-malware/",
-    "description": "LiteLLM offers an AI open source project used by millions that was infected by credential harvesting malware.",
-    "pubDate": "Thu, 26 Mar 2026 00:03:52 +0000",
-    "category": "Security",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Cape",
-    "matchedCompanies": [
-      "Cape",
-      "Percepto",
-      "ideaForge",
-      "Xanadu Quantum Technologies",
-      "Tenstorrent"
-    ],
-    "sectors": [
-      "climate",
-      "autonomous",
-      "quantum",
-      "chips"
-    ],
-    "type": "news",
-    "impact": "medium",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
@@ -387,7 +511,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "19h ago"
   },
   {
     "title": "Turning the Plan Into Action: Next Steps for Oʻahu’s Clean Energy System",
@@ -410,7 +534,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "16h ago"
+    "time": "19h ago"
   },
   {
     "title": "Convicted spyware chief hints that Greece&#8217;s government was behind dozens of phone hacks",
@@ -429,7 +553,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "19h ago"
   },
   {
     "title": "Who’s driving Waymo’s self-driving cars? Sometimes, the police.",
@@ -452,7 +576,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "Melania Trump wants a robot to homeschool your child",
@@ -472,7 +596,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Oʻahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy System",
@@ -499,7 +623,28 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "22h ago"
+  },
+  {
+    "title": "30 Years Ago, Robots Learned to Walk Without Falling",
+    "link": "https://spectrum.ieee.org/honda-p2-robot-ieee-milestone",
+    "description": "When you hear the term humanoid robot, you may think of C-3PO, the human-cyborg-relations android from Star Wars. C-3PO was designed to assist humans in communicating with robots and alien species. The droid, which first appeared on screen in 1977, joined the characters on their adventures, walking,",
+    "pubDate": "Wed, 25 Mar 2026 18:00:05 +0000",
+    "category": "Ieee-history",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Agility Robotics",
+    "matchedCompanies": [
+      "Agility Robotics",
+      "Apptronik",
+      "1X Technologies"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "23h ago"
   },
   {
     "title": "OpenClaw Agents Can Be Guilt-Tripped Into Self-Sabotage",
@@ -519,7 +664,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "23h ago"
   },
   {
     "title": "Antibiotic resistance among germs swells during droughts, study suggests",
@@ -538,7 +683,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "23h ago"
   },
   {
     "title": "How Are Iran’s Partnerships with Belarus and Russia Holding Up During War?",
@@ -566,7 +711,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "20h ago"
+    "time": "23h ago"
   },
   {
     "title": "Roundtables: The Next Era of Space Exploration",
@@ -585,7 +730,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "20h ago"
+    "time": "23h ago"
   },
   {
     "title": "Save $100 on Our Favorite Soundbar and Subwoofer Combo",
@@ -604,27 +749,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
-  },
-  {
-    "title": "Bernie Sanders and AOC propose a ban on data center construction",
-    "link": "https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/",
-    "description": "Senator Bernie Sanders and Rep. Alexandria Ocasio-Cortez introduced companion legislation to halt construction on new data centers until Congress passes comprehensive AI regulation.",
-    "pubDate": "Wed, 25 Mar 2026 17:15:50 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Astera Labs",
-    "matchedCompanies": [
-      "Astera Labs",
-      "Rebellions"
-    ],
-    "sectors": [
-      "chips"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "20h ago"
+    "time": "23h ago"
   },
   {
     "title": "Requirements without factories: Why the Pentagon must reconnect design to production",
@@ -649,29 +774,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "20h ago"
-  },
-  {
-    "title": "DeleteMe acquires social media security tool Block Party",
-    "link": "https://techcrunch.com/2026/03/25/deleteme-acquires-social-media-security-tool-block-party/",
-    "description": "Tracey Chou founded Block Party in 2018 as a tool to help people stay safe from targeted harassment on Twitter, inspired by her own experiences.",
-    "pubDate": "Wed, 25 Mar 2026 16:51:56 +0000",
-    "category": "Privacy",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Cape",
-    "matchedCompanies": [
-      "Cape",
-      "Percepto",
-      "ideaForge"
-    ],
-    "sectors": [
-      "climate",
-      "autonomous"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "OpenAI Enters Its Focus Era by Killing Sora",
@@ -690,7 +793,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Pentagon, Lockheed sign plan to boost PrSM missile production",
@@ -714,7 +817,26 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
+  },
+  {
+    "title": "What Happens When You Host an AI Café",
+    "link": "https://spectrum.ieee.org/ai-community-engagement",
+    "description": "“Can I get an interview?” “Can I get a job when I graduate?” Those questions came from students during a candid discussion about artificial intelligence, capturing the anxiety many young people feel today. As companies adopt AI-driven interview screeners, restructure their workforces, and redirect b",
+    "pubDate": "Wed, 25 Mar 2026 14:00:05 +0000",
+    "category": "Ethics",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Durin",
+    "matchedCompanies": [
+      "Durin"
+    ],
+    "sectors": [
+      "infrastructure"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1d ago"
   },
   {
     "title": "New Bernie Sanders AI Safety Bill Would Halt Data Center Construction",
@@ -1165,25 +1287,6 @@
     "time": "1d ago"
   },
   {
-    "title": "America must adopt a Sixth Domain of warfare doctrine",
-    "link": "https://breakingdefense.com/2026/03/america-must-adopt-a-sixth-domain-of-warfare-doctrine/",
-    "description": "[Sponsored] The Sixth Domain is not defined by geography. It’s a new kind of conflict in which autonomy and networked systems allow thousand-dollar consumer electronics to destroy multi-million-dollar conventional weapons systems.",
-    "pubDate": "Tue, 24 Mar 2026 18:38:38 +0000",
-    "category": "Networks & Digital Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Matic Robotics",
-    "matchedCompanies": [
-      "Matic Robotics"
-    ],
-    "sectors": [
-      "consumer"
-    ],
-    "type": "news",
-    "impact": "medium",
-    "time": "1d ago"
-  },
-  {
     "title": "Arm Is Now Making Its Own Chips",
     "link": "https://www.wired.com/story/chip-design-firm-arm-is-making-its-own-ai-cpu/",
     "description": "The chip design firm says Meta, OpenAI, Cerebras, and Cloudflare are among the first customers of its new artificial intelligence hardware.",
@@ -1202,7 +1305,27 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
+  },
+  {
+    "title": "Data Centers Are Transitioning From AC to DC",
+    "link": "https://spectrum.ieee.org/data-center-dc",
+    "description": "Last week’s Nvidia GTC conference highlighted new chip architectures to power AI. But as the chips become faster and more powerful, the remainder of data center infrastructure is playing catch-up. The power-delivery community  is responding: Announcements from Delta,  Eaton, and Vertiv showcased new",
+    "pubDate": "Tue, 24 Mar 2026 16:00:05 +0000",
+    "category": "Data-centers",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Astera Labs",
+    "matchedCompanies": [
+      "Astera Labs",
+      "Rebellions"
+    ],
+    "sectors": [
+      "chips"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2d ago"
   },
   {
     "title": "Philippine Model City Deploys Electric Minibuses To Offset Rising Fuel Costs",
@@ -1221,27 +1344,50 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
-    "title": "Air Force seeks industry feedback to &#8216;benchmark&#8217; progress of Northrop missile",
-    "link": "https://breakingdefense.com/2026/03/air-force-seeks-industry-feedback-to-benchmark-progress-of-northrop-missile/",
-    "description": "The Air Force told Breaking Defense the service may consider producing another missile similar to Northrop Grumman’s Stand-in Attack Weapon “if industry has solid options for delivering munitions faster and cheaper.”",
-    "pubDate": "Tue, 24 Mar 2026 14:55:00 +0000",
-    "category": "Air Warfare",
-    "source": "Breaking Defense",
-    "feedCategory": "defense",
-    "matchedCompany": "Deterrence",
+    "title": "What Will It Take to Build the World’s Largest Data Center?",
+    "link": "https://spectrum.ieee.org/5gw-data-center",
+    "description": "The undying thirst for smarter (historically, that means larger) AI models and greater adoption of the ones we already have has led to an explosion in data-center construction projects, unparalleled both in number and scale. Chief among them is Meta’s planned 5-gigawatt data center in Louisiana, cal",
+    "pubDate": "Tue, 24 Mar 2026 15:00:05 +0000",
+    "category": "Ai",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Astera Labs",
     "matchedCompanies": [
-      "Deterrence",
-      "Ares Industries"
+      "Astera Labs",
+      "Rebellions"
     ],
     "sectors": [
-      "defense"
+      "chips"
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
+  },
+  {
+    "title": "The Coming Drone-War Inflection in Ukraine",
+    "link": "https://spectrum.ieee.org/autonomous-drone-warfare",
+    "description": "WHEN KYIV-BORN ENGINEER Yaroslav Azhnyuk thinks about the future, his mind conjures up dystopian images. He talks about “swarms of autonomous drones carrying other autonomous drones to protect them against autonomous drones, which are trying to intercept them, controlled by AI agents overseen by a h",
+    "pubDate": "Tue, 24 Mar 2026 13:00:05 +0000",
+    "category": "Military-robots",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Anduril Industries",
+    "matchedCompanies": [
+      "Anduril Industries",
+      "Skydio",
+      "Percepto",
+      "Tevel Aerobotics"
+    ],
+    "sectors": [
+      "defense",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2d ago"
   },
   {
     "title": "Self-propagating malware poisons open source software and wipes Iran-based machines",
@@ -1280,47 +1426,6 @@
       "robotics"
     ],
     "type": "hire",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Best Premium Soundbars: Dolby Atmos, Hi-Res Audio, and More",
-    "link": "https://www.wired.com/gallery/best-premium-soundbars/",
-    "description": "Soundbars just keep getting better, but some rise above the rest. These are the best high-end soundbars and wireless A/V speakers I’ve tried.",
-    "pubDate": "Tue, 24 Mar 2026 10:30:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Atmo",
-    "matchedCompanies": [
-      "Atmo"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Your Body Is Betraying Your Right to Privacy",
-    "link": "https://www.wired.com/story/book-excerpt-your-data-will-be-used-against-you-andrew-guthrie-ferguson/",
-    "description": "Attachment to smart devices and biometric surveillance leaves Americans more vulnerable to police searches than ever. Left unchecked it will only get worse.",
-    "pubDate": "Tue, 24 Mar 2026 10:00:00 +0000",
-    "category": "The Big Story",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Biofire",
-    "matchedCompanies": [
-      "Biofire",
-      "Asylon Robotics",
-      "ideaForge"
-    ],
-    "sectors": [
-      "defense",
-      "autonomous"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "2d ago"
   },
@@ -1495,70 +1600,6 @@
     "time": "2d ago"
   },
   {
-    "title": "Sodium &#038; Quantum Batteries Move The Transition To Electricity Forward",
-    "link": "https://cleantechnica.com/2026/03/23/sodium-quantum-batteries-move-the-transition-to-electricity-forward/",
-    "description": "Improvements in batteries are almost a daily occurrence, as sodium-ion batteries are poised for use in more applications. \nThe post Sodium &#038; Quantum Batteries Move The Transition To Electricity Forward appeared first on CleanTechnica.",
-    "pubDate": "Mon, 23 Mar 2026 16:46:10 +0000",
-    "category": "Batteries",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Natron Energy",
-    "matchedCompanies": [
-      "Natron Energy",
-      "FREYR Battery"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "A Fresh Wave Of Perovskite Solar Cell Activity, Just In Time For The Next Oil Crisis",
-    "link": "https://cleantechnica.com/2026/03/23/a-fresh-wave-of-perovskite-solar-cell-activity-just-in-time-for-the-next-oil-crisis/",
-    "description": "Perovskite solar cells can be manufactured locally in Europe and elsewhere, providing a buffer against global supply chain disruptions such as the one occurring right now.\nThe post A Fresh Wave Of Perovskite Solar Cell Activity, Just In Time For The Next Oil Crisis appeared first on CleanTechnica.",
-    "pubDate": "Mon, 23 Mar 2026 16:40:09 +0000",
-    "category": "Clean Power",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Bronco AI",
-    "matchedCompanies": [
-      "Bronco AI",
-      "Fortastra",
-      "Saule Technologies",
-      "SunDrive Solar"
-    ],
-    "sectors": [
-      "infrastructure",
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Nearly 1,000 EV Charging Bays Available At IONNA Charging Hubs",
-    "link": "https://cleantechnica.com/2026/03/23/nearly-1000-ev-charging-bays-available-at-ionna-charging-hubs/",
-    "description": "In a time when US politics and public policy do not support electric vehicles in the United States, it’s a little unbelievable that public EV charging infrastructure continues to expand quickly anyway. Part of the expansion is because Biden-era EV charging funding (from the NEVI program) was eventua",
-    "pubDate": "Mon, 23 Mar 2026 16:05:28 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Ample",
-    "matchedCompanies": [
-      "Ample",
-      "Revel"
-    ],
-    "sectors": [
-      "infrastructure",
-      "transportation"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "2d ago"
-  },
-  {
     "title": "Poland eyes benefits of joining GCAP sixth-generation fighter project",
     "link": "https://www.defensenews.com/global/europe/2026/03/23/poland-eyes-benefits-of-joining-gcap-sixth-generation-fighter-project/",
     "description": "Polish officials said they have discussed the project with Italian and Japanese stakeholders, but it's unclear if there have been formal government talks.",
@@ -1575,7 +1616,56 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
+  },
+  {
+    "title": "Transforming Data Science With NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+    "link": "https://spectrum.ieee.org/nvidia-rtx-pro-6000-pny",
+    "description": "This is a sponsored article brought to you by PNY Technologies.In today’s data-driven world, data scientists face mounting challenges in preparing, scaling, and processing massive datasets. Traditional CPU-based systems are no longer sufficient to meet the demands of modern AI and analytics workflow",
+    "pubDate": "Mon, 23 Mar 2026 13:00:04 +0000",
+    "category": "Artificial-intelligence",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Hugging Face",
+    "matchedCompanies": [
+      "Hugging Face"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3d ago"
+  },
+  {
+    "title": "Why Thermal Metrology Must Evolve for Next-Generation Semiconductors",
+    "link": "https://content.knowledgehub.wiley.com/heat-beneath-the-surface-thermal-metrology-for-advanced-semiconductor-materials-and-architectures/",
+    "description": "An in-depth examination of how rising power density, 3D integration, and novel materials are outpacing legacy thermal measurement — and what advanced metrology must deliver.What Attendees will LearnWhy heat is now the dominant constraint on semiconductor scaling — Explore how heterogeneous integrati",
+    "pubDate": "Mon, 23 Mar 2026 10:00:04 +0000",
+    "category": "Semiconductors",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Cerebras",
+    "matchedCompanies": [
+      "Cerebras",
+      "Lab 91",
+      "Conductor Quantum",
+      "PsiQuantum",
+      "Astera Labs",
+      "Zettascale",
+      "Space Forge",
+      "Black Semiconductor",
+      "Rapidus",
+      "Rebellions"
+    ],
+    "sectors": [
+      "chips",
+      "quantum",
+      "space"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "3d ago"
   },
   {
     "title": "The Battlefield is the Next Betting Market",
@@ -1663,6 +1753,30 @@
     "time": "5d ago"
   },
   {
+    "title": "IEEE Partners With Academia to Create Microcredential Programs",
+    "link": "https://spectrum.ieee.org/ieee-academia-microcredentials-programs",
+    "description": "The rapid ascent of artificial intelligence and semiconductor manufacturing has created a paradox: Industries are booming yet they face a critical shortage of skilled workers. Demand for data center technicians, fabrication facility workers, and similar positions is growing. There aren’t enough cand",
+    "pubDate": "Fri, 20 Mar 2026 18:00:04 +0000",
+    "category": "Education",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Conductor Quantum",
+    "matchedCompanies": [
+      "Conductor Quantum",
+      "PsiQuantum",
+      "Astera Labs",
+      "Zettascale",
+      "Rebellions"
+    ],
+    "sectors": [
+      "quantum",
+      "chips"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "5d ago"
+  },
+  {
     "title": "This missile just proved itself in Iran. The US needs more, ASAP",
     "link": "https://www.defenseone.com/ideas/2026/03/prsm-procurement-munitions-gap-iran/412272/",
     "description": "Despite its advantages, the Precision Strike Missile has so far been procured in relatively small quantities.",
@@ -1719,6 +1833,26 @@
     "type": "contract",
     "impact": "low",
     "time": "6d ago"
+  },
+  {
+    "title": "Overcoming Core Engineering Barriers in Humanoid Robotics Development",
+    "link": "https://content.knowledgehub.wiley.com/engineering-challenges-and-component-strategies-in-humanoid-robotics-from-prototype-to-production/",
+    "description": "A technical examination of the sensing, motion control, power, and thermal challenges facing humanoid robotics engineers — with component-level design strategies for real-world deployment.What Attendees will LearnWhy motion control remains the hardest unsolved problem — Explore the modelling complex",
+    "pubDate": "Thu, 19 Mar 2026 10:00:05 +0000",
+    "category": "Sensor-fusion",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Salient Motion",
+    "matchedCompanies": [
+      "Salient Motion",
+      "Sanctuary AI"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3/19/2026"
   },
   {
     "title": "Countering Drones and the Pace of Modern War",
@@ -1798,6 +1932,26 @@
     "time": "3/18/2026"
   },
   {
+    "title": "“Sensorveillance” Turns Ordinary Life Into Evidence",
+    "link": "https://spectrum.ieee.org/digital-surveillance",
+    "description": "Every time you unlock your smartphone or start your connected car, you are generating a trail of digital evidence that can be used to track your every move.In Your Data Will Be Used Against You: Policing in the Age of Self-Surveillance, just published by NYU Press, law professor Andrew Guthrie Fergu",
+    "pubDate": "Tue, 17 Mar 2026 13:00:05 +0000",
+    "category": "Privacy",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Asylon Robotics",
+    "matchedCompanies": [
+      "Asylon Robotics",
+      "ideaForge"
+    ],
+    "sectors": [
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3/17/2026"
+  },
+  {
     "title": "How Does the Iran War Affect China’s Energy Security?",
     "link": "https://warontherocks.com/2026/03/how-does-the-iran-war-affect-chinas-energy-security/",
     "description": "Since the beginning of the U.S.-Israeli war on Iran, a key question constantly asked is how Beijing might react &#8212; assuming that China&#8217;s economy relies on oil imported from Iran and shipped through the Strait of Hormuz.In reality, however, China is 85 percent energy self-sufficient. While",
@@ -1818,6 +1972,69 @@
     "type": "news",
     "impact": "low",
     "time": "3/17/2026"
+  },
+  {
+    "title": "Rising Attacks on Power Grids Push Utilities to Prepare",
+    "link": "https://spectrum.ieee.org/power-grid-attack-security-gridex",
+    "description": "In the fictional nation of Beryllia, the 2026 World Chalice Games were set to begin as the country faced an unrelenting heat wave. The grid, already under strain from the circumstances, was dealt a further blow when a coordinated set of attacks including vandalism, drone, and ballistic attacks by an",
+    "pubDate": "Mon, 16 Mar 2026 20:42:45 +0000",
+    "category": "Power-grids",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "WeaveGrid",
+    "matchedCompanies": [
+      "WeaveGrid"
+    ],
+    "sectors": [
+      "climate"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3/16/2026"
+  },
+  {
+    "title": "IEEE Young Professionals Help Bridge the U.S. Tech Skills Gap",
+    "link": "https://spectrum.ieee.org/ieee-young-professionals-skills-gap",
+    "description": "The America’s Talent Strategy: Building the Workforce for the Golden Age report, published last year by the U.S. Departments of Commerce, Education, and Labor, identified a significant engineering and skills gap. The 27-page report concluded that the shortage of talent in essential areas—including a",
+    "pubDate": "Mon, 16 Mar 2026 20:00:03 +0000",
+    "category": "Ieee-products-and-services",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Alpha School",
+    "matchedCompanies": [
+      "Alpha School",
+      "Synthesis"
+    ],
+    "sectors": [
+      "consumer"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3/16/2026"
+  },
+  {
+    "title": "Waabi's Raquel Urtasun on Level-4 Autonomous Trucks",
+    "link": "https://spectrum.ieee.org/level-4-autonomous-trucks",
+    "description": "Raquel Urtasun has spent 16 years in the self-driving space, long enough to  navigate every metaphorical  glorious hill and plunging valley.  She took the trip from the early “pipe dream” dismissals, to the “we’re this close” certainty, and back again.The industry is now riding a new wave of optimis",
+    "pubDate": "Fri, 13 Mar 2026 13:01:02 +0000",
+    "category": "Level-4-autonomy",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Aurora Innovation",
+    "matchedCompanies": [
+      "Aurora Innovation",
+      "Einride",
+      "Outrider",
+      "Waabi"
+    ],
+    "sectors": [
+      "autonomous",
+      "transportation",
+      "robotics"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "3/13/2026"
   },
   {
     "title": "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience",
@@ -2119,5 +2336,29 @@
     "type": "news",
     "impact": "low",
     "time": "2/12/2026"
+  },
+  {
+    "title": "Atomically Thin Materials Significantly Shrink Qubits",
+    "link": "https://spectrum.ieee.org/2d-hbn-qubit",
+    "description": "Quantum computing is a devilishly complex technology, with many technical hurdles impacting its development. Of these challenges two critical issues stand out: miniaturization and qubit quality.IBM has adopted the superconducting qubit road map of reaching a 1,121-qubit processor by 2023, leading to",
+    "pubDate": "Mon, 07 Feb 2022 16:12:05 +0000",
+    "category": "Quantum-computing",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Rigetti Computing",
+    "matchedCompanies": [
+      "Rigetti Computing",
+      "Oxford Quantum Circuits",
+      "Space Forge",
+      "IQM Quantum Computers",
+      "QuantWare"
+    ],
+    "sectors": [
+      "quantum",
+      "space"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2/7/2022"
   }
 ]
