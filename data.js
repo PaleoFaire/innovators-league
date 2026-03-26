@@ -22677,23 +22677,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-26 02:55
+// Last updated: 2026-03-26 05:44
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Cape", headline: "Delve did the security compliance on LiteLLM, an AI project hit by malware", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
-  { id: 2, type: "ipo", company: "Xtend", headline: "Space Force weighs launch alternatives as Vulcan faces potential months-long grounding", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Anthropic", headline: "The AI skills gap is here, says AI company, and power users are pulling ahead", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Karman Industries", headline: "Turning the Plan Into Action: Next Steps for O'ahu's Clean Energy System", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Palantir", headline: "Convicted spyware chief hints that Greece's government was behind dozens of phone hacks", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Who's driving Waymo's self-driving cars? Sometimes, the police.", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Vast", headline: "Office of Space Commerce releases mission authorization proposal", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Alpha School", headline: "Melania Trump wants a robot to homeschool your child", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Andrenam", headline: "O'ahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy System", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Terran Orbital", headline: "Terran Orbital Introduces New Star Tracker Product Line at SATSHOW 2026", source: "SpaceNews", time: "8h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Agility Robotics", headline: "30 Years Ago, Robots Learned to Walk Without Falling", source: "IEEE Spectrum", time: "8h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Dexterity", headline: "OpenClaw Agents Can Be Guilt-Tripped Into Self-Sabotage", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Durin", headline: "Antibiotic resistance among germs swells during droughts, study suggests", source: "Ars Technica Space", time: "9h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Vast", headline: "How Are Iran's Partnerships with Belarus and Russia Holding Up During War?", source: "War on the Rocks", time: "9h ago", impact: "medium", unread: false },
-  { id: 15, type: "ipo", company: "ispace", headline: "Roundtables: The Next Era of Space Exploration", source: "MIT Tech Review", time: "9h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Cape", headline: "Delve did the security compliance on LiteLLM, an AI project hit by malware", source: "TechCrunch", time: "5h ago", impact: "medium", unread: true },
+  { id: 2, type: "ipo", company: "Xtend", headline: "Space Force weighs launch alternatives as Vulcan faces potential months-long grounding", source: "SpaceNews", time: "6h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "The AI skills gap is here, says AI company, and power users are pulling ahead", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Karman Industries", headline: "Turning the Plan Into Action: Next Steps for O'ahu's Clean Energy System", source: "CleanTechnica", time: "8h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "Convicted spyware chief hints that Greece's government was behind dozens of phone hacks", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Waymo", headline: "Who's driving Waymo's self-driving cars? Sometimes, the police.", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Vast", headline: "Office of Space Commerce releases mission authorization proposal", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Alpha School", headline: "Melania Trump wants a robot to homeschool your child", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Andrenam", headline: "O'ahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy System", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Terran Orbital", headline: "Terran Orbital Introduces New Star Tracker Product Line at SATSHOW 2026", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Agility Robotics", headline: "30 Years Ago, Robots Learned to Walk Without Falling", source: "IEEE Spectrum", time: "11h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Dexterity", headline: "OpenClaw Agents Can Be Guilt-Tripped Into Self-Sabotage", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Durin", headline: "Antibiotic resistance among germs swells during droughts, study suggests", source: "Ars Technica Space", time: "11h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Vast", headline: "How Are Iran's Partnerships with Belarus and Russia Holding Up During War?", source: "War on the Rocks", time: "12h ago", impact: "medium", unread: false },
+  { id: 15, type: "ipo", company: "ispace", headline: "Roundtables: The Next Era of Space Exploration", source: "MIT Tech Review", time: "12h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
