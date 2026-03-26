@@ -1,5 +1,64 @@
 [
   {
+    "title": "The Government’s Shittiest Website",
+    "link": "https://www.wired.com/story/the-governments-shittiest-website/",
+    "description": "For more than 30 years, the US Postal Service has sent people who need to change their addresses to MyMove. Experts say the site uses dark patterns to trap visitors in an online purgatory of “deals.”",
+    "pubDate": "Thu, 26 Mar 2026 09:00:00 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "A little-known Croatian startup is coming for the robotaxi market with help from Uber",
+    "link": "https://techcrunch.com/2026/03/26/a-little-known-croatian-startup-is-coming-for-the-robotaxi-market-with-help-from-uber/",
+    "description": "Verne, the robotaxi company launched under Rimac Group, is starting with a service in Zagreb, Croatia.",
+    "pubDate": "Thu, 26 Mar 2026 08:15:00 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "10 Ukrainians Humbled Two NATO Battalions. When Will NATO Wake Up?",
+    "link": "https://warontherocks.com/2026/03/10-ukrainians-humbled-two-nato-battalions-when-will-nato-wake-up/",
+    "description": "Last May, NATO invited 10 Ukrainians to act as an opposing force during Hedgehog 2025, one of NATO&#8217;s largest exercises in the Baltics. The Ukrainians successfully simulated the destruction of 17 armored vehicles and conducted 30 strikes in half a day, effectively neutralizing two NATO battalio",
+    "pubDate": "Thu, 26 Mar 2026 07:30:39 +0000",
+    "category": "Commentary",
+    "source": "War on the Rocks",
+    "feedCategory": "defense",
+    "matchedCompany": "Durin",
+    "matchedCompanies": [
+      "Durin"
+    ],
+    "sectors": [
+      "infrastructure"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
     "title": "Delve did the security compliance on LiteLLM, an AI project hit by malware",
     "link": "https://techcrunch.com/2026/03/25/delve-did-the-security-compliance-on-litellm-an-ai-project-hit-by-malware/",
     "description": "LiteLLM offers an AI open source project used by millions that was infected by credential harvesting malware.",
@@ -23,7 +82,26 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "7h ago"
+    "time": "9h ago"
+  },
+  {
+    "title": "Space Force weighs launch alternatives as Vulcan faces potential months-long grounding",
+    "link": "https://spacenews.com/space-force-weighs-launch-alternatives-as-vulcan-faces-potential-months-long-grounding/",
+    "description": "\nOfficials explore shifting missions, extending satellites already in orbit\nThe post Space Force weighs launch alternatives as Vulcan faces potential months-long grounding appeared first on SpaceNews.",
+    "pubDate": "Wed, 25 Mar 2026 22:55:37 +0000",
+    "category": "Launch",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Xtend",
+    "matchedCompanies": [
+      "Xtend"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "10h ago"
   },
   {
     "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
@@ -42,7 +120,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "Turning the Plan Into Action: Next Steps for Oʻahu’s Clean Energy System",
@@ -65,7 +143,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "Convicted spyware chief hints that Greece&#8217;s government was behind dozens of phone hacks",
@@ -84,7 +162,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "Who’s driving Waymo’s self-driving cars? Sometimes, the police.",
@@ -107,7 +185,27 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "12h ago"
+  },
+  {
+    "title": "Office of Space Commerce releases mission authorization proposal",
+    "link": "https://spacenews.com/office-of-space-commerce-releases-mission-authorization-proposal/",
+    "description": "\nThe Office of Space Commerce has rolled out its proposal for a “light touch” approach to mission authorization, the latest attempt in an effort to regulate new commercial space applications.\nThe post Office of Space Commerce releases mission authorization proposal appeared first on SpaceNews.",
+    "pubDate": "Wed, 25 Mar 2026 19:50:28 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Vast",
+    "matchedCompanies": [
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "13h ago"
   },
   {
     "title": "Melania Trump wants a robot to homeschool your child",
@@ -127,7 +225,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "12h ago"
+    "time": "14h ago"
   },
   {
     "title": "Oʻahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy System",
@@ -154,7 +252,26 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "12h ago"
+    "time": "14h ago"
+  },
+  {
+    "title": "Terran Orbital Introduces New Star Tracker Product Line at SATSHOW 2026",
+    "link": "https://spacenews.com/terran-orbital-introduces-new-star-tracker-product-line-at-satshow-2026/",
+    "description": "\nIRVINE, Calif., March 25, 2026 — Terran Orbital Corporation, a Lockheed Martin company, today announced the introduction of its new star tracker product line at SATSHOW 2026, expanding the company’s [&#8230;]\nThe post Terran Orbital Introduces New Star Tracker Product Line at SATSHOW 2026 appeared ",
+    "pubDate": "Wed, 25 Mar 2026 18:16:23 +0000",
+    "category": "Press Release",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Terran Orbital",
+    "matchedCompanies": [
+      "Terran Orbital"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "14h ago"
   },
   {
     "title": "30 Years Ago, Robots Learned to Walk Without Falling",
@@ -175,7 +292,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "OpenClaw Agents Can Be Guilt-Tripped Into Self-Sabotage",
@@ -195,7 +312,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "Antibiotic resistance among germs swells during droughts, study suggests",
@@ -214,7 +331,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "How Are Iran’s Partnerships with Belarus and Russia Holding Up During War?",
@@ -242,7 +359,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "Roundtables: The Next Era of Space Exploration",
@@ -261,7 +378,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "Save $100 on Our Favorite Soundbar and Subwoofer Combo",
@@ -280,7 +397,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "Bernie Sanders and AOC propose a ban on data center construction",
@@ -300,7 +417,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "15h ago"
   },
   {
     "title": "Requirements without factories: Why the Pentagon must reconnect design to production",
@@ -325,7 +442,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "14h ago"
+    "time": "16h ago"
   },
   {
     "title": "DeleteMe acquires social media security tool Block Party",
@@ -347,7 +464,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "16h ago"
   },
   {
     "title": "Reddit takes on the bots with new &#8216;human verification&#8217; requirements for fishy behavior",
@@ -367,7 +484,26 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "16h ago"
+  },
+  {
+    "title": "Sift raises $42 million in Series B round",
+    "link": "https://spacenews.com/sift-raises-42-million-in-series-b-round/",
+    "description": "\nWASHINGTON – Sift, a Southern California startup developing tools to help engineers make sense of hardware sensor data, raised $42 million in a Series B investment round. With the funding, Sift plans to expand its staff of engineers building the infrastructure layer that underpins devices controlle",
+    "pubDate": "Wed, 25 Mar 2026 15:14:02 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Sift",
+    "matchedCompanies": [
+      "Sift"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "17h ago"
   },
   {
     "title": "OpenAI Enters Its Focus Era by Killing Sora",
@@ -386,26 +522,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "16h ago"
-  },
-  {
-    "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
-    "link": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
-    "description": "Granola's valuation jumped from $250 million to $1.5 billion with this round, and it has added more support for AI agents after users previously complained.",
-    "pubDate": "Wed, 25 Mar 2026 14:48:40 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Cohere",
-    "matchedCompanies": [
-      "Cohere"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "funding",
-    "impact": "high",
-    "time": "16h ago"
+    "time": "18h ago"
   },
   {
     "title": "Pentagon, Lockheed sign plan to boost PrSM missile production",
@@ -429,7 +546,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "17h ago"
+    "time": "18h ago"
   },
   {
     "title": "What Happens When You Host an AI Café",
@@ -448,7 +565,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "19h ago"
   },
   {
     "title": "New Bernie Sanders AI Safety Bill Would Halt Data Center Construction",
@@ -471,7 +588,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "19h ago"
   },
   {
     "title": "Exclusive: YC Doubles Down On Trayd, A Construction Tech Startup That Just Raised $10M In 3 Weeks",
@@ -492,7 +609,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "18h ago"
+    "time": "20h ago"
   },
   {
     "title": "A Million New SpaceX Satellites Will Destroy the Night Sky — For Everyone on Earth",
@@ -511,7 +628,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "19h ago"
+    "time": "20h ago"
   },
   {
     "title": "German army eyes AI tools to expedite wartime decision-making",
@@ -530,7 +647,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "19h ago"
+    "time": "21h ago"
   },
   {
     "title": "2026 Cybersecurity Excellence Awards Winners Announced during RSA Conference as AI Security Dominates",
@@ -556,7 +673,26 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "19h ago"
+    "time": "21h ago"
+  },
+  {
+    "title": "Pave Space raises $40 million to develop European heavy kickstage",
+    "link": "https://spacenews.com/pave-space-raises-40-million-to-develop-european-heavy-kickstage/",
+    "description": "\nSwiss startup Pave Space has raised $40 million to develop an orbital transfer vehicle that could move satellites from LEO to their final destinations in hours instead of months.\nThe post Pave Space raises $40 million to develop European heavy kickstage appeared first on SpaceNews.",
+    "pubDate": "Wed, 25 Mar 2026 11:17:53 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Impulse Space",
+    "matchedCompanies": [
+      "Impulse Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "21h ago"
   },
   {
     "title": "Data: OpenAI Has Already Done Nearly As Many M&#038;A Deals In 2026 As It Did All of Last Year",
@@ -577,7 +713,27 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "20h ago"
+    "time": "22h ago"
+  },
+  {
+    "title": "NASA proposes new strategy for commercial space stations",
+    "link": "https://spacenews.com/nasa-proposes-new-strategy-for-commercial-space-stations/",
+    "description": "\nNASA, concerned about slow development of commercial markets, is considering revamping its strategy for supporting the creation of commercial space stations to succeed the International Space Station.\nThe post NASA proposes new strategy for commercial space stations appeared first on SpaceNews.",
+    "pubDate": "Wed, 25 Mar 2026 10:37:39 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Vast",
+    "matchedCompanies": [
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "22h ago"
   },
   {
     "title": "How chemists turned bourbon waste into supercapacitors",
@@ -596,7 +752,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "The AI Hype Index: AI goes to war",
@@ -616,7 +772,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Your Defense Code Is Already AI-Generated. Now What?",
@@ -635,7 +791,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Follow the Money: Finance and the Future of Allied Economic Statecraft",
@@ -795,6 +951,26 @@
     "time": "1d ago"
   },
   {
+    "title": "Geopolitical shifts bring opportunities and headaches for satellite execs",
+    "link": "https://spacenews.com/geopolitical-shifts-bring-opportunities-and-headaches-for-satellite-execs/",
+    "description": "\nA shifting geopolitical landscape is driving huge business opportunities for satcoms but also bringing new supply chain and regulatory challenges, industry executives said March 24 at the Satellite Conference in Washington, D.C.\nThe post Geopolitical shifts bring opportunities and headaches for sat",
+    "pubDate": "Tue, 24 Mar 2026 21:00:01 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Bronco AI",
+    "matchedCompanies": [
+      "Bronco AI",
+      "Fortastra"
+    ],
+    "sectors": [
+      "infrastructure"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
     "title": "Army C2 to see more budget line consolidation in FY27, says service undersecretary",
     "link": "https://breakingdefense.com/2026/03/army-c2-to-see-more-budget-line-consolidation-in-fy27-says-service-undersecretary/",
     "description": "In the FY26 budget, Congress granted the Army permission to consolidate 13 lines related to electronic warfare, counter unmanned aerial systems and drones.",
@@ -857,6 +1033,28 @@
     "time": "1d ago"
   },
   {
+    "title": "Moog taps Redwire to provide solar arrays for Meteor",
+    "link": "https://spacenews.com/moog-taps-redwire-to-provide-solar-arrays-for-meteor/",
+    "description": "\nWASHINGTON &#8212; Redwire announced the first award for its new solar arrays, a $12.8 million contract from Moog. Under the contract announced March 24, Redwire will deliver Extensible Low-Profile Solar Array  (ELSA) wings for Moog’s Meteor satellite bus ordered by an undisclosed national security",
+    "pubDate": "Tue, 24 Mar 2026 19:24:51 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Cape",
+    "matchedCompanies": [
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "climate",
+      "autonomous"
+    ],
+    "type": "contract",
+    "impact": "medium",
+    "time": "1d ago"
+  },
+  {
     "title": "NASA Space Reactor 1 Freedom for Nuclear Powered Interplanetary to Mars in 2028",
     "link": "https://www.nextbigfuture.com/2026/03/nasa-space-reactor-1-freedom-for-nuclear-powered-interplanetary-to-mars-in-2028.html",
     "description": "NASA will launch the Space Reactor‑1 Freedom, the first nuclear powered interplanetary spacecraft, to Mars before the end of 2028, demonstrating advanced nuclear electric propulsion in deep space. Nuclear electric propulsion provides an extraordinary capability for efficient mass transport in deep s",
@@ -899,6 +1097,25 @@
     "time": "1d ago"
   },
   {
+    "title": "OrbitsIQ Global Announces Breakthrough in Space-Based IoT Connectivity",
+    "link": "https://spacenews.com/orbitsiq-global-announces-breakthrough-in-space-based-iot-connectivity/",
+    "description": "\nWashington, D.C., March 24, 2026 – OrbitsIQ Global (OIQ), an innovator in AI-driven secure connectivity across terrestrial and satellite networks, today announced a major technological milestone achieved in collaboration with [&#8230;]\nThe post OrbitsIQ Global Announces Breakthrough in Space-Based ",
+    "pubDate": "Tue, 24 Mar 2026 18:57:22 +0000",
+    "category": "Press Release",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Terrestrial Energy",
+    "matchedCompanies": [
+      "Terrestrial Energy"
+    ],
+    "sectors": [
+      "nuclear"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
     "title": "America must adopt a Sixth Domain of warfare doctrine",
     "link": "https://breakingdefense.com/2026/03/america-must-adopt-a-sixth-domain-of-warfare-doctrine/",
     "description": "[Sponsored] The Sixth Domain is not defined by geography. It’s a new kind of conflict in which autonomy and networked systems allow thousand-dollar consumer electronics to destroy multi-million-dollar conventional weapons systems.",
@@ -914,6 +1131,26 @@
       "consumer"
     ],
     "type": "news",
+    "impact": "medium",
+    "time": "1d ago"
+  },
+  {
+    "title": "China’s Astronstone raises $29 million for reusable rocket with chopstick-style recovery",
+    "link": "https://spacenews.com/chinas-astronstone-raises-29-million-for-reusable-rocket-with-chopstick-style-recovery/",
+    "description": "\nAstronstone, one of China’s younger launch startups, has secured new funding as it builds toward the first flight of its reusable AS-1 rocket. \nThe post China’s Astronstone raises $29 million for reusable rocket with chopstick-style recovery appeared first on SpaceNews.",
+    "pubDate": "Tue, 24 Mar 2026 17:14:20 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Stoke Space",
+    "matchedCompanies": [
+      "Stoke Space",
+      "Dawn Aerospace"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "funding",
     "impact": "medium",
     "time": "1d ago"
   },
@@ -955,6 +1192,29 @@
       "chips"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "Space Force officer shares intelligence on threats to space systems",
+    "link": "https://spacenews.com/space-force-officer-shares-intelligence-on-threats-to-space-systems/",
+    "description": "\nWASHINGTON – Electronic warfare is a growing threat to U.S. space systems, according to a March 23 unclassified briefing by U.S. Space Force Chief Master Sergeant Ron Lerch, senior enlisted advisor to the Deputy Chief of Space Operations for Intelligence. During the Satellite 2026 presentation, Ler",
+    "pubDate": "Tue, 24 Mar 2026 15:48:00 +0000",
+    "category": "Military",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "CX2 Industries",
+    "matchedCompanies": [
+      "CX2 Industries",
+      "Distributed Spectrum",
+      "Durin",
+      "Tenna Systems"
+    ],
+    "sectors": [
+      "defense",
+      "infrastructure"
+    ],
+    "type": "ipo",
     "impact": "low",
     "time": "1d ago"
   },
@@ -1014,6 +1274,46 @@
       "defense"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "SpaceEye-T: 25 cm Satellite Imagery and Tasking Now Available Through Pacific Geomatics Limited",
+    "link": "https://spacenews.com/spaceeye-t-25-cm-satellite-imagery-and-tasking-now-available-through-pacific-geomatics-limited/",
+    "description": "\nVictoria, Canada / Daejeon, South Korea – March 24, 2026 – Canadian and international organizations can now access SpaceEye-T imagery and tasking services through Pacific Geomatics Limited, one of the [&#8230;]\nThe post SpaceEye-T: 25 cm Satellite Imagery and Tasking Now Available Through Pacific G",
+    "pubDate": "Tue, 24 Mar 2026 14:00:00 +0000",
+    "category": "Press Release",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Albedo",
+    "matchedCompanies": [
+      "Albedo",
+      "AiDash"
+    ],
+    "sectors": [
+      "space",
+      "infrastructure"
+    ],
+    "type": "hire",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "SES orders 28 satellites from K2 Space for next-gen MEO network",
+    "link": "https://spacenews.com/ses-targets-28-satellites-with-k2-space-for-next-gen-meo-network/",
+    "description": "\nSES has ordered an initial 28 satellites from manufacturing startup K2 Space for meoSphere, a next-generation MEO network slated to be in operation by 2030.\nThe post SES orders 28 satellites from K2 Space for next-gen MEO network appeared first on SpaceNews.",
+    "pubDate": "Tue, 24 Mar 2026 13:00:14 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "K2 Space",
+    "matchedCompanies": [
+      "K2 Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
     "impact": "low",
     "time": "1d ago"
   },
@@ -1121,6 +1421,25 @@
     "time": "1d ago"
   },
   {
+    "title": "Fusion engine for missile warning lacks a government dataset",
+    "link": "https://spacenews.com/fusion-engine-for-missile-warning-lacks-a-government-dataset/",
+    "description": "\nWASHINGTON – National missile warning and tracking could be improved if all government agencies shared the raw data they gather. “There are agencies that have sensors that can provide data that would be very supplemental to the missile-defense mission, but they designed it for a completely differen",
+    "pubDate": "Tue, 24 Mar 2026 10:30:00 +0000",
+    "category": "Military",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
     "title": "Your Body Is Betraying Your Right to Privacy",
     "link": "https://www.wired.com/story/book-excerpt-your-data-will-be-used-against-you-andrew-guthrie-ferguson/",
     "description": "Attachment to smart devices and biometric surveillance leaves Americans more vulnerable to police searches than ever. Left unchecked it will only get worse.",
@@ -1162,7 +1481,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The Next Transformation of U.S. Shipbuilding",
@@ -1188,7 +1507,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Converting History into Hard Power: A Polish-German Reckoning",
@@ -1207,7 +1526,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN",
@@ -1308,6 +1627,44 @@
       "defense"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "Space Force adds cyber units to guard rocket launches",
+    "link": "https://spacenews.com/space-force-adds-cyber-units-to-guard-rocket-launches/",
+    "description": "\n&#8216;Cyber defense&#8217; squadrons at Cape Canaveral and Vandenberg reflect growing concern over malicious hacks\nThe post Space Force adds cyber units to guard rocket launches appeared first on SpaceNews.",
+    "pubDate": "Mon, 23 Mar 2026 21:37:35 +0000",
+    "category": "Launch",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Cape",
+    "matchedCompanies": [
+      "Cape"
+    ],
+    "sectors": [
+      "climate"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "Amazon Leo targets faster deployment cadence as deadline pressure mounts",
+    "link": "https://spacenews.com/amazon-leo-targets-faster-deployment-cadence-as-deadline-pressure-mounts/",
+    "description": "\nAmazon vowed to double the annual launch rate for its low Earth orbit broadband constellation to more than 20 missions, hinging largely on rockets yet to prove themselves at scale.\nThe post Amazon Leo targets faster deployment cadence as deadline pressure mounts appeared first on SpaceNews.",
+    "pubDate": "Mon, 23 Mar 2026 20:39:35 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "AST SpaceMobile",
+    "matchedCompanies": [
+      "AST SpaceMobile"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
     "impact": "low",
     "time": "2d ago"
   },
@@ -1483,7 +1840,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Does the TESLA FSD CHIP Match the Human Brain ?",
@@ -1671,7 +2028,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "3/19/2026"
   },
   {
     "title": "The Inevitability of Chinese Military Purges",
@@ -1690,7 +2047,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6d ago"
+    "time": "3/19/2026"
   },
   {
     "title": "Federal cyber experts called Microsoft&#039;s cloud a &quot;pile of shit,&quot; approved it anyway",
@@ -2131,25 +2488,6 @@
     ],
     "sectors": [
       "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/12/2026"
-  },
-  {
-    "title": "Gilded Capability: Overinvestment and the Survivability Paradox",
-    "link": "https://warontherocks.com/2026/02/gilded-capability-overinvestment-and-the-survivability-paradox/",
-    "description": "Infernos raged aboard Japanese aircraft carriers after U.S. Navy dive-bombers found their marks during the Battle of Midway. Many Japanese pilots were incinerated in ready rooms and in the cockpits of their aircraft while they sat idling on flight decks. Those who were airborne returned to find thei",
-    "pubDate": "Thu, 12 Feb 2026 08:30:02 +0000",
-    "category": "Commentary",
-    "source": "War on the Rocks",
-    "feedCategory": "defense",
-    "matchedCompany": "Durin",
-    "matchedCompanies": [
-      "Durin"
-    ],
-    "sectors": [
-      "infrastructure"
     ],
     "type": "news",
     "impact": "low",
