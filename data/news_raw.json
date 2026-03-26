@@ -1,5 +1,134 @@
 [
   {
+    "title": "Delve did the security compliance on LiteLLM, an AI project hit by malware",
+    "link": "https://techcrunch.com/2026/03/25/delve-did-the-security-compliance-on-litellm-an-ai-project-hit-by-malware/",
+    "description": "LiteLLM offers an AI open source project used by millions that was infected by credential harvesting malware.",
+    "pubDate": "Thu, 26 Mar 2026 00:03:52 +0000",
+    "category": "Security",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Cape",
+    "matchedCompanies": [
+      "Cape",
+      "Percepto",
+      "ideaForge",
+      "Xanadu Quantum Technologies",
+      "Tenstorrent"
+    ],
+    "sectors": [
+      "climate",
+      "autonomous",
+      "quantum",
+      "chips"
+    ],
+    "type": "news",
+    "impact": "medium",
+    "time": "2h ago"
+  },
+  {
+    "title": "Space Force weighs launch alternatives as Vulcan faces potential months-long grounding",
+    "link": "https://spacenews.com/space-force-weighs-launch-alternatives-as-vulcan-faces-potential-months-long-grounding/",
+    "description": "\nOfficials explore shifting missions, extending satellites already in orbit\nThe post Space Force weighs launch alternatives as Vulcan faces potential months-long grounding appeared first on SpaceNews.",
+    "pubDate": "Wed, 25 Mar 2026 22:55:37 +0000",
+    "category": "Launch",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Xtend",
+    "matchedCompanies": [
+      "Xtend"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
+    "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
+    "link": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+    "description": "Anthropic finds AI isn’t replacing jobs yet, but early data shows growing inequality as experienced users gain an edge, raising concerns about future displacement and workforce divides.",
+    "pubDate": "Wed, 25 Mar 2026 21:44:13 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
+    "title": "Turning the Plan Into Action: Next Steps for Oʻahu’s Clean Energy System",
+    "link": "https://cleantechnica.com/2026/03/25/turning-the-plan-into-action-next-steps-for-o%ca%bbahus-clean-energy-system/",
+    "description": "This is the culminating article in a series exploring from the outside a decarbonization solution set and coarse roadmap for Hawaiʻi. It is a set of possible next actions that a Hawaiian agency, utility, authority, or coalition could undertake if the roadmap outlined in this series is worth explorin",
+    "pubDate": "Wed, 25 Mar 2026 21:27:18 +0000",
+    "category": "Biomass",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Karman Industries",
+    "matchedCompanies": [
+      "Karman Industries",
+      "Brimstone",
+      "Boston Metal",
+      "Sublime Systems",
+      "H2 Green Steel"
+    ],
+    "sectors": [
+      "climate"
+    ],
+    "type": "funding",
+    "impact": "medium",
+    "time": "5h ago"
+  },
+  {
+    "title": "Convicted spyware chief hints that Greece&#8217;s government was behind dozens of phone hacks",
+    "link": "https://techcrunch.com/2026/03/25/convicted-spyware-chief-hints-that-greeces-government-was-behind-dozens-of-phone-hacks/",
+    "description": "The spyware founder's comments are the most direct suggestion yet from anyone inside Intellexa that the Mitsotakis government authorized the hacking of dozens of phones belonging to senior Greek government ministers, opposition leaders, military officials, and journalists.",
+    "pubDate": "Wed, 25 Mar 2026 21:19:57 +0000",
+    "category": "Security",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
+    "title": "Who’s driving Waymo’s self-driving cars? Sometimes, the police.",
+    "link": "https://techcrunch.com/2026/03/25/waymo-robotaxi-roadside-assistance-emergency-first-responders/",
+    "description": "First responders have had to take control of Waymo vehicles and move them during emergency situations, including in at least two active crime scenes, TechCrunch found.",
+    "pubDate": "Wed, 25 Mar 2026 20:57:21 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Durin",
+      "Aurora Innovation"
+    ],
+    "sectors": [
+      "ai",
+      "infrastructure",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
     "title": "Office of Space Commerce releases mission authorization proposal",
     "link": "https://spacenews.com/office-of-space-commerce-releases-mission-authorization-proposal/",
     "description": "\nThe Office of Space Commerce has rolled out its proposal for a “light touch” approach to mission authorization, the latest attempt in an effort to regulate new commercial space applications.\nThe post Office of Space Commerce releases mission authorization proposal appeared first on SpaceNews.",
@@ -17,7 +146,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "Just now"
+    "time": "7h ago"
   },
   {
     "title": "Melania Trump wants a robot to homeschool your child",
@@ -37,7 +166,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "8h ago"
   },
   {
     "title": "Oʻahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy System",
@@ -64,7 +193,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "8h ago"
   },
   {
     "title": "Terran Orbital Introduces New Star Tracker Product Line at SATSHOW 2026",
@@ -83,7 +212,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "8h ago"
   },
   {
     "title": "30 Years Ago, Robots Learned to Walk Without Falling",
@@ -104,7 +233,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "8h ago"
   },
   {
     "title": "OpenClaw Agents Can Be Guilt-Tripped Into Self-Sabotage",
@@ -124,7 +253,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "8h ago"
   },
   {
     "title": "Antibiotic resistance among germs swells during droughts, study suggests",
@@ -143,7 +272,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "How Are Iran’s Partnerships with Belarus and Russia Holding Up During War?",
@@ -171,7 +300,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "Roundtables: The Next Era of Space Exploration",
@@ -190,7 +319,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "Save $100 on Our Favorite Soundbar and Subwoofer Combo",
@@ -209,7 +338,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "Bernie Sanders and AOC propose a ban on data center construction",
@@ -229,7 +358,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "Requirements without factories: Why the Pentagon must reconnect design to production",
@@ -254,7 +383,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "DeleteMe acquires social media security tool Block Party",
@@ -276,28 +405,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
-  },
-  {
-    "title": "Waymo relies on firefighters and police to bail out stuck robotaxis",
-    "link": "https://techcrunch.com/2026/03/25/waymo-relies-on-firefighters-and-police-to-bail-out-stuck-robotaxis/",
-    "description": "In at least six instances identified by TechCrunch, first responders have had to take control of Waymo vehicles and move them out of traffic during emergency situations.",
-    "pubDate": "Wed, 25 Mar 2026 16:30:37 +0000",
-    "category": "Transportation",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Waymo",
-    "matchedCompanies": [
-      "Waymo",
-      "Durin"
-    ],
-    "sectors": [
-      "ai",
-      "infrastructure"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "4h ago"
+    "time": "10h ago"
   },
   {
     "title": "Reddit takes on the bots with new &#8216;human verification&#8217; requirements for fishy behavior",
@@ -317,7 +425,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "10h ago"
   },
   {
     "title": "Sift raises $42 million in Series B round",
@@ -336,7 +444,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "5h ago"
+    "time": "11h ago"
   },
   {
     "title": "OpenAI Enters Its Focus Era by Killing Sora",
@@ -355,7 +463,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "5h ago"
+    "time": "11h ago"
   },
   {
     "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
@@ -374,45 +482,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "6h ago"
-  },
-  {
-    "title": "Arbor Energy just landed a billion-dollar order to bring rocket turbine tech to the power grid",
-    "link": "https://techcrunch.com/2026/03/25/arbor-energy-just-landed-a-billion-dollar-order-to-bring-rocket-turbine-tech-to-the-power-grid/",
-    "description": "The large deal sees Arbor delivering as many as 200 of its Halcyon turbines, which can burn either natural gas or waste biomass.",
-    "pubDate": "Wed, 25 Mar 2026 14:17:46 +0000",
-    "category": "Climate",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Arbor Energy",
-    "matchedCompanies": [
-      "Arbor Energy"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "high",
-    "time": "6h ago"
-  },
-  {
-    "title": "Meta turns to AI to make shopping easier on Instagram and Facebook",
-    "link": "https://techcrunch.com/2026/03/25/meta-turns-to-ai-to-make-shopping-easier-on-instagram-and-facebook/",
-    "description": "Meta is using generative AI to provide more product and brand information to consumers when they're shopping in its apps.",
-    "pubDate": "Wed, 25 Mar 2026 14:16:17 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Labelbox",
-    "matchedCompanies": [
-      "Labelbox"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "6h ago"
+    "time": "12h ago"
   },
   {
     "title": "Pentagon, Lockheed sign plan to boost PrSM missile production",
@@ -436,7 +506,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "6h ago"
+    "time": "12h ago"
   },
   {
     "title": "What Happens When You Host an AI Café",
@@ -455,7 +525,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "12h ago"
   },
   {
     "title": "New Bernie Sanders AI Safety Bill Would Halt Data Center Construction",
@@ -478,7 +548,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "13h ago"
   },
   {
     "title": "Exclusive: YC Doubles Down On Trayd, A Construction Tech Startup That Just Raised $10M In 3 Weeks",
@@ -499,7 +569,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "7h ago"
+    "time": "13h ago"
   },
   {
     "title": "A Million New SpaceX Satellites Will Destroy the Night Sky — For Everyone on Earth",
@@ -518,7 +588,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "8h ago"
+    "time": "14h ago"
   },
   {
     "title": "German army eyes AI tools to expedite wartime decision-making",
@@ -537,7 +607,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "14h ago"
   },
   {
     "title": "2026 Cybersecurity Excellence Awards Winners Announced during RSA Conference as AI Security Dominates",
@@ -563,7 +633,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "8h ago"
+    "time": "14h ago"
   },
   {
     "title": "Pave Space raises $40 million to develop European heavy kickstage",
@@ -582,7 +652,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "9h ago"
+    "time": "15h ago"
   },
   {
     "title": "Data: OpenAI Has Already Done Nearly As Many M&#038;A Deals In 2026 As It Did All of Last Year",
@@ -603,7 +673,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "9h ago"
+    "time": "15h ago"
   },
   {
     "title": "NASA proposes new strategy for commercial space stations",
@@ -623,7 +693,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "10h ago"
+    "time": "16h ago"
   },
   {
     "title": "How chemists turned bourbon waste into supercapacitors",
@@ -642,7 +712,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "17h ago"
   },
   {
     "title": "The AI Hype Index: AI goes to war",
@@ -662,7 +732,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "11h ago"
+    "time": "17h ago"
   },
   {
     "title": "Your Defense Code Is Already AI-Generated. Now What?",
@@ -681,7 +751,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "12h ago"
+    "time": "18h ago"
   },
   {
     "title": "Follow the Money: Finance and the Future of Allied Economic Statecraft",
@@ -700,7 +770,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "13h ago"
+    "time": "19h ago"
   },
   {
     "title": "Zoox Hits Big Milestone",
@@ -719,7 +789,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "16h ago"
+    "time": "23h ago"
   },
   {
     "title": "The National Security Council is missing in action",
@@ -741,7 +811,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "23h ago"
   },
   {
     "title": "More U.S. Homes Used LEDs Over Other Bulb Types For Indoor Lighting In 2024",
@@ -760,7 +830,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "1d ago"
   },
   {
     "title": "Waymo: 13x Lower Rate of Serious Injury or Fatality",
@@ -779,7 +849,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Battery-Equipped Induction Stoves: A New Path to Clean Home Electrification",
@@ -798,7 +868,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Recursively Self Improving AI Will Have Unlimited Space Based Solar Power",
@@ -817,7 +887,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Pentagon’s ‘Attempt to Cripple’ Anthropic Is Troubling, Judge Says",
@@ -838,7 +908,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Geopolitical shifts bring opportunities and headaches for satellite execs",
@@ -858,7 +928,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Army C2 to see more budget line consolidation in FY27, says service undersecretary",
@@ -1068,7 +1138,7 @@
   {
     "title": "Data Centers Are Transitioning From AC to DC",
     "link": "https://spectrum.ieee.org/data-center-dc",
-    "description": "Last week’s Nvidia GTC conference highlighted new chip architectures to power AI. But as the chips become faster and more powerful, the remainder of data center infrastructure is playing catchup. The power delivery community  is responding: Announcements from Delta, Vertiv, and Eaton showcased new d",
+    "description": "Last week’s Nvidia GTC conference highlighted new chip architectures to power AI. But as the chips become faster and more powerful, the remainder of data center infrastructure is playing catch-up. The power-delivery community  is responding: Announcements from Delta,  Eaton, and Vertiv showcased new",
     "pubDate": "Tue, 24 Mar 2026 16:00:05 +0000",
     "category": "Data-centers",
     "source": "IEEE Spectrum",
@@ -1476,7 +1546,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Solar at Home, Imported Biofuels for Crossing Oceans: Hawaiʻi’s Real Energy Strategy",
@@ -1499,7 +1569,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "KC-135 crash in Iraq spurs calls for communications upgrades",
@@ -1518,7 +1588,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Space Force adds cyber units to guard rocket launches",
@@ -1537,7 +1607,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Amazon Leo targets faster deployment cadence as deadline pressure mounts",
@@ -1774,7 +1844,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Does the TESLA FSD CHIP Match the Human Brain ?",
@@ -1819,63 +1889,6 @@
     "time": "3d ago"
   },
   {
-    "title": "VinFast Hasn&#8217;t Given Up On Its US Ambitions — Despite Delays, Betting On Long-Term Strategy",
-    "link": "https://cleantechnica.com/2026/03/22/vinfast-hasnt-given-up-on-its-us-ambitions-despite-delays-betting-on-long-term-strategy/",
-    "description": "VinFast’s decision to resume construction of its North Carolina manufacturing plant by April of this year is an indication that the &#8220;war&#8221; for brand recognition isn&#8217;t over for the Vietnamese automaker. “The US remains a long-term strategic pillar for VinFast,” VinFast Le Thi Thu sai",
-    "pubDate": "Sun, 22 Mar 2026 15:01:09 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Cognition",
-    "matchedCompanies": [
-      "Cognition"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Copper’s Battery-Equipped Induction Range Makes Electrification &#038; Storage Accessible",
-    "link": "https://cleantechnica.com/2026/03/21/coppers-battery-equipped-induction-range-makes-electrification-storage-accessible/",
-    "description": "While exploring booths at New York Build Expo, Copper’s electric range stood out. In a show targeting professionals, there were not a lot of home cooking appliances. The design was simple and attractive. But the battery within the base of the range was what really makes it exciting. Steve Hanley   .",
-    "pubDate": "Sun, 22 Mar 2026 02:36:13 +0000",
-    "category": "Consumer Technology",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Impulse Labs",
-    "matchedCompanies": [
-      "Impulse Labs"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Who Should Pay For Trump&#8217;s War On Iran?",
-    "link": "https://cleantechnica.com/2026/03/21/who-should-pay-for-trumps-war-on-iran/",
-    "description": "The war in Iran has already eaten a big chunk of the US defense budget. Now the government wants $200 billion more from us.\nThe post Who Should Pay For Trump&#8217;s War On Iran? appeared first on CleanTechnica.",
-    "pubDate": "Sat, 21 Mar 2026 21:12:08 +0000",
-    "category": "Policy & Politics",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "high",
-    "time": "3d ago"
-  },
-  {
     "title": "Navy bets $900M on automated factories to boost submarine production",
     "link": "https://www.defenseone.com/defense-systems/2026/03/navy-bets-900m-automated-factories-boost-submarine-production/412290/",
     "description": "Four-year-old Hadrian wins contract as service seeks to offset worker shortages.",
@@ -1892,7 +1905,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "The Week’s 10 Biggest Funding Rounds: Investment Slows, But Security And AI Remain Top Picks",
