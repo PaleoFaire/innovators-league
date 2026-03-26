@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 1.43,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -4.82,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 24.38,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 13.4,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -9.54,
+      "avg_change": -12.28,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -0.68,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -4.96,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 5.91,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -7.94,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -2.17,
+      "avg_change": -7.65,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.63,
+      "avg_change": -4.97,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -0.58,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -3.98,
       "count": 2
     },
     "chips": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 1.57,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -4.3,
       "count": 3
     }
   },
@@ -61,44 +61,44 @@
     [
       "SATL",
       "Satellogic",
-      110.14
+      98.63
     ],
     [
       "PL",
       "Planet Labs",
-      42.56
+      19.92
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      18.57
+      "AUR",
+      "Aurora Innovation",
+      2.51
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      13.47
+      1.37
     ],
     [
-      "AMD",
-      "AMD",
-      10.43
+      "NNE",
+      "Nano Nuclear Energy",
+      -0.19
     ]
   ],
   "topLosers": [
     [
-      "ALAB",
-      "Astera Labs",
-      -4.76
+      "ACHR",
+      "Archer Aviation",
+      -11.56
     ],
     [
       "JOBY",
       "Joby Aviation",
-      -5.97
+      -13.21
     ],
     [
-      "ACHR",
-      "Archer Aviation",
-      -7.49
+      "LNZA",
+      "LanzaTech",
+      -14.25
     ],
     [
       "277810.KQ",
@@ -108,8 +108,8 @@
     [
       "EVTL",
       "Vertical Aerospace",
-      -28.18
+      -35.98
     ]
   ],
-  "lastUpdated": "2026-03-26 13:25:57"
+  "lastUpdated": "2026-03-26 19:13:16"
 }
