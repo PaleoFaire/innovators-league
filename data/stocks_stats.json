@@ -11,13 +11,13 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 24.5,
+      "avg_change": 24.38,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -9.51,
+      "avg_change": -9.54,
       "count": 7
     },
     "nuclear": {
@@ -86,9 +86,9 @@
   ],
   "topLosers": [
     [
-      "DRSHF",
-      "DroneShield",
-      -5.01
+      "ALAB",
+      "Astera Labs",
+      -4.76
     ],
     [
       "JOBY",
@@ -103,7 +103,7 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -21.73
+      -22.28
     ],
     [
       "EVTL",
@@ -111,5 +111,5 @@
       -28.18
     ]
   ],
-  "lastUpdated": "2026-03-26 02:41:37"
+  "lastUpdated": "2026-03-26 07:15:24"
 }
