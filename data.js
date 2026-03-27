@@ -22797,23 +22797,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-27 13:22
+// Last updated: 2026-03-27 17:01
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "I Asked ChatGPT 500 Questions. Here Are the Ads I Saw Most Often", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Altos Labs", headline: "Here's why some people choose cryonics to store their bodies and brains after death", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Palantir", headline: "The Pentagon Wants Dual-Use Innovation. Patent Law Might Punish It.", source: "War on the Rocks", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Durin", headline: "Layla Sleep Coupon: Save Up to $600 in March 2026", source: "Wired", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Fervo Energy", headline: "Hegseth Invokes National Security in Seeking to Exempt Gulf Oil &#038; Gas Activities from Endangered Species Act", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Space Forge", headline: "Armstrong Templok Shows Potential For Thermal Energy Storage With Phase Change Materials", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic wins injunction against Trump administration over Defense Department saga", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic Supply-Chain-Risk Designation Halted by Judge", source: "Wired", time: "13h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Solid Power", headline: "Here Comes More Lithium For EV Batteries, Made In The USA", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Zeromark", headline: "US Army seeks sled-mounted air defense for light infantry", source: "Defense News", time: "15h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Naarea", headline: "Mastodon is making its decentralized social network easier to use with its latest revamp", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Karman Industries", headline: "Beyond Generation: The Grid Innovations Hawai'i Needs Next", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "OpenAI", headline: "OpenAI abandons yet another side quest: ChatGPT's erotic mode", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Framework Computer", headline: "Rep. Rob Wittman on Army modernization, DoD relations and right to repair", source: "Breaking Defense", time: "19h ago", impact: "low", unread: false },
-  { id: 15, type: "funding", company: "Shield AI", headline: "Defense startup Shield AI lands $12.7B valuation, up 140%, after US Air Force deal", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Anduril Industries", headline: "Video Friday: Beep! Beep! Roadrunner Bipedal Bot Breaks the Mold", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "OpenAI", headline: "The Week's 10 Biggest Funding Rounds: A Varied Week For Big Deals, Led By AI And Defense", source: "Crunchbase News", time: "Just now", impact: "high", unread: true },
+  { id: 3, type: "news", company: "Rivian", headline: "Rivian gets another $1B from Volkswagen", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 4, type: "hire", company: "Palantir", headline: "Iranian hackers claim breach of FBI director Kash Patel's personal email account", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "contract", company: "Atomic Industries", headline: "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Waymo", headline: "Pony.ai on a Roll ' Uber Collab, Breakeven in Shenzhen, 3,000 Robotaxi Target", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: false },
+  { id: 7, type: "milestone", company: "Palantir", headline: "State Department clears $340M FMS request for hypersonic missile testing support for Japan", source: "Breaking Defense", time: "2h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "Deterrence", headline: "NATO sees $145B in munitions needs, as members all hit 2 percent GDP for first time", source: "Breaking Defense", time: "3h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "OpenAI", headline: "OpenAI shuts down Sora while Meta gets shut out in court", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 10, type: "milestone", company: "Cape", headline: "Rocket Report: Russia reopens gateway to ISS; Cape Canaveral hosts missile test", source: "Ars Technica Space", time: "4h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "I Asked ChatGPT 500 Questions. Here Are the Ads I Saw Most Often", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Altos Labs", headline: "Here's why some people choose cryonics to store their bodies and brains after death", source: "MIT Tech Review", time: "8h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "Palantir", headline: "The Pentagon Wants Dual-Use Innovation. Patent Law Might Punish It.", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "Durin", headline: "Layla Sleep Coupon: Save Up to $600 in March 2026", source: "Wired", time: "12h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Fervo Energy", headline: "Hegseth Invokes National Security in Seeking to Exempt Gulf Oil &#038; Gas Activities from Endangered Species Act", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
