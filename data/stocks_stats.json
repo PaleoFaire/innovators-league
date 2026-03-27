@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -5.22,
+      "avg_change": -5.14,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 14.29,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 5.35,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -11.79,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -11.88,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -4.31,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -6.05,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.64,
+      "avg_change": -10.11,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.32,
+      "avg_change": -11.24,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.65,
+      "avg_change": -7.92,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -3.9,
+      "avg_change": -1.27,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -4.93,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.06,
       "count": 3
     }
   },
@@ -61,12 +61,7 @@
     [
       "SATL",
       "Satellogic",
-      95.73
-    ],
-    [
-      "PL",
-      "Planet Labs",
-      20.18
+      67.27
     ],
     [
       "9348.T",
@@ -74,26 +69,31 @@
       5.4
     ],
     [
+      "DRSHF",
+      "DroneShield",
+      3.08
+    ],
+    [
       "LUNR",
       "Intuitive Machines",
-      1.69
+      0.98
     ],
     [
       "AUR",
       "Aurora Innovation",
-      0.96
+      0.85
     ]
   ],
   "topLosers": [
     [
-      "ACHR",
-      "Archer Aviation",
-      -10.65
+      "QBTS",
+      "D-Wave Quantum",
+      -11.98
     ],
     [
       "JOBY",
       "Joby Aviation",
-      -12.59
+      -12.24
     ],
     [
       "277810.KQ",
@@ -103,13 +103,13 @@
     [
       "LNZA",
       "LanzaTech",
-      -15.51
+      -21.43
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -35.58
+      -41.87
     ]
   ],
-  "lastUpdated": "2026-03-27 13:15:14"
+  "lastUpdated": "2026-03-27 19:00:33"
 }
