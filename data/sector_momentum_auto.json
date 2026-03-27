@@ -1,29 +1,29 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 73,
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Convicted spyware chief hints that Greece&#8217;s government",
-      "O\u02bbahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy",
-      "Requirements without factories: Why the Pentagon must reconn"
+      "Hegseth Invokes National Security in Seeking to Exempt Gulf",
+      "Anthropic wins injunction against Trump administration over",
+      "US Army seeks sled-mounted air defense for light infantry"
     ],
-    "fundingQ": "$6.9B",
+    "fundingQ": "$19.6B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 64
+      "market": 0
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Who\u2019s driving Waymo\u2019s self-driving cars? Sometimes, the poli",
-      "Melania Trump wants a robot to homeschool your child",
+      "Eufy Omni C28 Review: Affordable and Full-Featured",
+      "The real danger of military AI isn\u2019t killer robots; it\u2019s wor",
       "30 Years Ago, Robots Learned to Walk Without Falling"
     ],
     "fundingQ": "$1.7B",
@@ -33,13 +33,31 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 56,
+    "trend": "accelerating",
+    "catalysts": [
+      "US Army seeks sled-mounted air defense for light infantry",
+      "Defense startup Shield AI lands $12.7B valuation, up 140%, a"
+    ],
+    "fundingQ": "$12.7B",
+    "components": {
+      "funding": 100,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "Ocean & Maritime",
     "momentum": 49,
     "trend": "steady",
     "catalysts": [
+      "A Torpedo in the Trade Lanes: Naval Warfare Returns to the I",
       "O\u02bbahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy"
     ],
     "fundingQ": "$1.2B",
@@ -49,52 +67,52 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "AI & Software",
-    "momentum": 32,
+    "momentum": 31,
     "trend": "rising",
     "catalysts": [
-      "Delve did the security compliance on LiteLLM, an AI project",
-      "The AI skills gap is here, says AI company, and power users",
-      "OpenAI Enters Its Focus Era by Killing Sora"
+      "Anthropic wins injunction against Trump administration over",
+      "Anthropic Supply-Chain-Risk Designation Halted by Judge",
+      "OpenAI abandons yet another side quest: ChatGPT&#8217;s erot"
     ],
     "fundingQ": "$109M",
     "components": {
       "funding": 7,
-      "news": 80,
+      "news": 75,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 32,
-    "trend": "declining",
+    "momentum": 29,
+    "trend": "rising",
     "catalysts": [
-      "Roundtables: The Next Era of Space Exploration",
-      "Pentagon, Lockheed sign plan to boost PrSM missile productio",
-      "A Million New SpaceX Satellites Will Destroy the Night Sky \u2014"
+      "SpaceX Starlink Satellite and Launch Plans from Shotwell",
+      "France sets up &#8216;urgent&#8217; $9.8B munitions top-up p",
+      "Cohere launches an open source voice model specifically for"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
-      "news": 35,
+      "news": 50,
       "hiring": 0,
-      "market": 100
+      "market": 67
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 25,
     "trend": "rising",
     "catalysts": [
-      "O\u02bbahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy",
-      "30 Years Ago, Robots Learned to Walk Without Falling",
-      "DeleteMe acquires social media security tool Block Party"
+      "Here Comes More Lithium For EV Batteries, Made In The USA",
+      "Mastodon is making its decentralized social network easier t",
+      "UK Mandates Rooftop Solar &#038; Heat Pumps For New Homes Be"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -103,50 +121,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-26"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 24,
-    "trend": "declining",
-    "catalysts": [
-      "Arm Is Now Making Its Own Chips",
-      "Data Centers Are Transitioning From AC to DC"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 45,
-      "hiring": 0,
-      "market": 66
-    },
-    "lastUpdated": "2026-03-26"
-  },
-  {
-    "sector": "Drones & Autonomous",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo: 13x Lower Rate of Serious Injury or Fatality",
-      "Recursively Self Improving AI Will Have Unlimited Space Base",
-      "Army C2 to see more budget line consolidation in FY27, says"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "Infrastructure & Logistics",
     "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "Follow the Money: Finance and the Future of Allied Economic",
-      "Data Centers Are Transitioning From AC to DC"
+      "Armstrong Templok Shows Potential For Thermal Energy Storage",
+      "Here Comes More Lithium For EV Batteries, Made In The USA",
+      "Beyond Generation: The Grid Innovations Hawai\u02bbi Needs Next"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -155,59 +139,59 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-26"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Turning the Plan Into Action: Next Steps for O\u02bbahu\u2019s Clean E",
-      "O\u02bbahu 2050: A Hard-Charging Roadmap to a Zero-Carbon Energy",
-      "Battery-Equipped Induction Stoves: A New Path to Clean Home"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 35,
-      "hiring": 0,
-      "market": 54
-    },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 15,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "Bernie Sanders and AOC propose a ban on data center construc",
-      "New Bernie Sanders AI Safety Bill Would Halt Data Center Con",
-      "Exclusive: YC Doubles Down On Trayd, A Construction Tech Sta"
+      "SpaceX Starlink Satellite and Launch Plans from Shotwell",
+      "A major hacking tool has leaked online, putting millions of"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 13,
+    "trend": "rising",
+    "catalysts": [
+      "Beyond O\u02bbahu: How The Other Hawaiian Islands Will Decarboniz",
+      "Silicon Valley&#8217;s two biggest dramas have intersected:",
+      "Cohere launches an open source voice model specifically for"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 50,
+      "hiring": 0,
+      "market": 1
+    },
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 14,
+    "momentum": 13,
     "trend": "declining",
     "catalysts": [
-      "Your Defense Code Is Already AI-Generated. Now What?"
+      "Beyond Generation: The Grid Innovations Hawai\u02bbi Needs Next",
+      "Conntour raises $7M from General Catalyst, YC to build an AI"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 35,
+      "news": 40,
       "hiring": 0,
-      "market": 8
+      "market": 0
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -223,43 +207,45 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   },
   {
-    "sector": "Quantum Computing",
-    "momentum": 8,
+    "sector": "Climate & Energy",
+    "momentum": 9,
     "trend": "declining",
     "catalysts": [
-      "Active quantum computing ecosystem"
+      "Beyond Generation: The Grid Innovations Hawai\u02bbi Needs Next",
+      "Beyond O\u02bbahu: How The Other Hawaiian Islands Will Decarboniz",
+      "UK Mandates Rooftop Solar &#038; Heat Pumps For New Homes Be"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 35,
       "hiring": 0,
-      "market": 28
+      "market": 0
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 7,
+    "momentum": 2,
     "trend": "declining",
     "catalysts": [
-      "NASA Space Reactor 1 Freedom for Nuclear Powered Interplanet"
+      "Active nuclear energy ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 23
+      "market": 0
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   },
   {
     "sector": "Transportation",
-    "momentum": 5,
+    "momentum": 2,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -267,10 +253,26 @@
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
+      "news": 0,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-03-27"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 1,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
       "news": 5,
       "hiring": 0,
-      "market": 7
+      "market": 0
     },
-    "lastUpdated": "2026-03-26"
+    "lastUpdated": "2026-03-27"
   }
 ]

@@ -1,5 +1,19 @@
 [
   {
+    "company": "Shield AI",
+    "totalRaised": "$13.2B+",
+    "totalRaisedRaw": 13240.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$12.7B",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "L3Harris"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Anthropic",
     "totalRaised": "$13.0B+",
     "totalRaisedRaw": 13000.0,
@@ -296,19 +310,6 @@
     "lastRoundDate": "2026-01",
     "valuation": "$1.35B",
     "leadInvestors": [],
-    "roundCount": 1
-  },
-  {
-    "company": "Shield AI",
-    "totalRaised": "$540M+",
-    "totalRaisedRaw": 540.0,
-    "lastRound": "Series F-1",
-    "lastRoundAmount": "$540M",
-    "lastRoundDate": "2025-09",
-    "valuation": "$5.6B",
-    "leadInvestors": [
-      "L3Harris"
-    ],
     "roundCount": 1
   },
   {
@@ -743,16 +744,17 @@
   },
   {
     "company": "ideaForge",
-    "totalRaised": "$26M+",
-    "totalRaisedRaw": 26.0,
+    "totalRaised": "$33M+",
+    "totalRaisedRaw": 33.0,
     "lastRound": "Funding Round",
     "lastRoundAmount": "$26M",
     "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
-      "Undisclosed"
+      "Undisclosed",
+      "General Catalyst"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Orbion Space Technology",
