@@ -22797,23 +22797,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-27 09:02
+// Last updated: 2026-03-27 13:22
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SBQuantum and Spire to send quantum diamond magnetometer into orbit", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "ispace", headline: "ispace redesigns lunar lander, introduces lunar communications service", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "contract", company: "Palantir", headline: "The Pentagon Wants Dual-Use Innovation. Patent Law Might Punish It.", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Durin", headline: "Layla Sleep Coupon: Save Up to $600 in March 2026", source: "Wired", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Fervo Energy", headline: "Hegseth Invokes National Security in Seeking to Exempt Gulf Oil &#038; Gas Activities from Endangered Species Act", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Space Forge", headline: "Armstrong Templok Shows Potential For Thermal Energy Storage With Phase Change Materials", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic wins injunction against Trump administration over Defense Department saga", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic Supply-Chain-Risk Designation Halted by Judge", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Vast", headline: "U.S. GSSAP satellites execute GEO handoff to monitor China's Shijian-29 spacecraft", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Solid Power", headline: "Here Comes More Lithium For EV Batteries, Made In The USA", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Zeromark", headline: "US Army seeks sled-mounted air defense for light infantry", source: "Defense News", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Naarea", headline: "Mastodon is making its decentralized social network easier to use with its latest revamp", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "contract", company: "Palantir", headline: "Government use of commercial procurement models has limitations in space", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Karman Industries", headline: "Beyond Generation: The Grid Innovations Hawai'i Needs Next", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "OpenAI", headline: "OpenAI abandons yet another side quest: ChatGPT's erotic mode", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "I Asked ChatGPT 500 Questions. Here Are the Ads I Saw Most Often", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Altos Labs", headline: "Here's why some people choose cryonics to store their bodies and brains after death", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "contract", company: "Palantir", headline: "The Pentagon Wants Dual-Use Innovation. Patent Law Might Punish It.", source: "War on the Rocks", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Durin", headline: "Layla Sleep Coupon: Save Up to $600 in March 2026", source: "Wired", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Fervo Energy", headline: "Hegseth Invokes National Security in Seeking to Exempt Gulf Oil &#038; Gas Activities from Endangered Species Act", source: "CleanTechnica", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Space Forge", headline: "Armstrong Templok Shows Potential For Thermal Energy Storage With Phase Change Materials", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic wins injunction against Trump administration over Defense Department saga", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic Supply-Chain-Risk Designation Halted by Judge", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Solid Power", headline: "Here Comes More Lithium For EV Batteries, Made In The USA", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Zeromark", headline: "US Army seeks sled-mounted air defense for light infantry", source: "Defense News", time: "15h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Naarea", headline: "Mastodon is making its decentralized social network easier to use with its latest revamp", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Karman Industries", headline: "Beyond Generation: The Grid Innovations Hawai'i Needs Next", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "OpenAI", headline: "OpenAI abandons yet another side quest: ChatGPT's erotic mode", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Framework Computer", headline: "Rep. Rob Wittman on Army modernization, DoD relations and right to repair", source: "Breaking Defense", time: "19h ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Shield AI", headline: "Defense startup Shield AI lands $12.7B valuation, up 140%, after US Air Force deal", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
