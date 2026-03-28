@@ -27,6 +27,32 @@
     "roundCount": 1
   },
   {
+    "company": "Ares Industries",
+    "totalRaised": "$11.8B+",
+    "totalRaisedRaw": 11800.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$11.8B",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Cohere",
+    "totalRaised": "$11.5B+",
+    "totalRaisedRaw": 11500.0,
+    "lastRound": "Series S",
+    "lastRoundAmount": "$1.5B",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Vayu Robotics",
     "totalRaised": "$7.6B+",
     "totalRaisedRaw": 7638.0,
@@ -92,17 +118,32 @@
     "roundCount": 1
   },
   {
-    "company": "Cohere",
-    "totalRaised": "$1.5B+",
-    "totalRaisedRaw": 1500.0,
-    "lastRound": "Series S",
-    "lastRoundAmount": "$1.5B",
+    "company": "Aetherflux",
+    "totalRaised": "$2.0B+",
+    "totalRaisedRaw": 2000.0,
+    "lastRound": "Series B",
+    "lastRoundAmount": "$2B",
     "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
-      "Undisclosed"
+      "Index Ventures"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "Physical Intelligence",
+    "totalRaised": "$1.6B+",
+    "totalRaisedRaw": 1600.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$1B",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Bezos Expeditions",
+      "Thrive Capital"
+    ],
+    "roundCount": 2
   },
   {
     "company": "Skild AI",
@@ -271,20 +312,6 @@
     "valuation": "$4B",
     "leadInvestors": [
       "a16z"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Physical Intelligence",
-    "totalRaised": "$600M+",
-    "totalRaisedRaw": 600.0,
-    "lastRound": "Series B",
-    "lastRoundAmount": "$600M",
-    "lastRoundDate": "2025-11",
-    "valuation": "$5.6B",
-    "leadInvestors": [
-      "Bezos Expeditions",
-      "Thrive Capital"
     ],
     "roundCount": 1
   },
@@ -664,6 +691,19 @@
     "roundCount": 1
   },
   {
+    "company": "Orbion Space Technology",
+    "totalRaised": "$46M+",
+    "totalRaisedRaw": 46.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$26M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "GrayMatter Robotics",
     "totalRaised": "$45M+",
     "totalRaisedRaw": 45.0,
@@ -755,19 +795,6 @@
       "General Catalyst"
     ],
     "roundCount": 2
-  },
-  {
-    "company": "Orbion Space Technology",
-    "totalRaised": "$26M+",
-    "totalRaisedRaw": 26.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$26M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
   },
   {
     "company": "Proteus Space",

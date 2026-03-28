@@ -2,540 +2,554 @@
   {
     "company": "Palantir",
     "type": "stock_movement",
-    "detail": "-5.2% down",
+    "detail": "-5.1% down",
     "strength": 6,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Palantir",
     "type": "media_buzz",
-    "detail": "5 recent articles",
+    "detail": "9 recent articles",
     "strength": 6,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Palantir",
     "type": "ip_moat",
     "detail": "100 patents",
     "strength": 6,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Palantir",
     "type": "gov_traction",
     "detail": "100 contracts",
     "strength": 6,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
+  },
+  {
+    "company": "Anduril Industries",
+    "type": "news_activity",
+    "detail": "2 recent articles",
+    "strength": 5,
+    "date": "2026-03-28"
   },
   {
     "company": "Anduril Industries",
     "type": "ip_moat",
     "detail": "29 patents",
     "strength": 5,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Anduril Industries",
     "type": "gov_traction",
     "detail": "100 contracts",
     "strength": 5,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "Planet Labs",
-    "type": "stock_movement",
-    "detail": "+20.2% up",
-    "strength": 4,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "Planet Labs",
-    "type": "gov_traction",
-    "detail": "10 contracts",
-    "strength": 4,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Radiant",
     "type": "ip_moat",
     "detail": "47 patents",
     "strength": 4,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Radiant",
     "type": "gov_traction",
     "detail": "29 contracts",
     "strength": 4,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Skydio",
     "type": "ip_moat",
     "detail": "96 patents",
     "strength": 4,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Skydio",
     "type": "gov_traction",
     "detail": "48 contracts",
     "strength": 4,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Vast",
-    "type": "news_activity",
-    "detail": "3 recent articles",
+    "type": "media_buzz",
+    "detail": "7 recent articles",
     "strength": 4,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Vast",
     "type": "ip_moat",
     "detail": "77 patents",
     "strength": 4,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
+  },
+  {
+    "company": "Waymo",
+    "type": "news_activity",
+    "detail": "4 recent articles",
+    "strength": 4,
+    "date": "2026-03-28"
+  },
+  {
+    "company": "Waymo",
+    "type": "ip_moat",
+    "detail": "100 patents",
+    "strength": 4,
+    "date": "2026-03-28"
+  },
+  {
+    "company": "ispace",
+    "type": "stock_movement",
+    "detail": "+5.4% up",
+    "strength": 4,
+    "date": "2026-03-28"
+  },
+  {
+    "company": "ispace",
+    "type": "news_activity",
+    "detail": "3 recent articles",
+    "strength": 4,
+    "date": "2026-03-28"
   },
   {
     "company": "Andrenam",
     "type": "news_activity",
     "detail": "2 recent articles",
     "strength": 3,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Andrenam",
     "type": "ip_moat",
     "detail": "40 patents",
     "strength": 3,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Epirus",
     "type": "ip_moat",
     "detail": "10 patents",
     "strength": 3,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
-    "company": "Shield AI",
-    "type": "ip_moat",
-    "detail": "65 patents",
-    "strength": 3,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "Waymo",
+    "company": "Ample",
     "type": "news_activity",
-    "detail": "2 recent articles",
-    "strength": 3,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "Waymo",
-    "type": "ip_moat",
-    "detail": "100 patents",
-    "strength": 3,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "ispace",
-    "type": "stock_movement",
-    "detail": "+5.4% up",
-    "strength": 3,
-    "date": "2026-03-27"
+    "detail": "3 recent articles",
+    "strength": 2,
+    "date": "2026-03-28"
   },
   {
     "company": "Anduril",
     "type": "gov_traction",
     "detail": "100 contracts",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Antares",
     "type": "ip_moat",
     "detail": "13 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Anthropic",
-    "type": "media_buzz",
-    "detail": "5 recent articles",
+    "type": "news_activity",
+    "detail": "4 recent articles",
     "strength": 2,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "Astera Labs",
-    "type": "stock_movement",
-    "detail": "-9.9% down",
-    "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Astera Labs",
     "type": "news_activity",
     "detail": "3 recent articles",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
+  },
+  {
+    "company": "Atomic Industries",
+    "type": "news_activity",
+    "detail": "3 recent articles",
+    "strength": 2,
+    "date": "2026-03-28"
   },
   {
     "company": "Cape",
     "type": "media_buzz",
-    "detail": "9 recent articles",
+    "detail": "8 recent articles",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Cognition",
     "type": "ip_moat",
     "detail": "43 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Cover",
     "type": "ip_moat",
     "detail": "100 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
+  },
+  {
+    "company": "Deterrence",
+    "type": "news_activity",
+    "detail": "3 recent articles",
+    "strength": 2,
+    "date": "2026-03-28"
   },
   {
     "company": "Divergent",
     "type": "ip_moat",
     "detail": "54 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
+  },
+  {
+    "company": "DroneShield",
+    "type": "stock_movement",
+    "detail": "+7.7% up",
+    "strength": 2,
+    "date": "2026-03-28"
   },
   {
     "company": "Durin",
     "type": "media_buzz",
     "detail": "7 recent articles",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Firefly Aerospace",
     "type": "ip_moat",
     "detail": "17 patents",
     "strength": 2,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "Galvanick",
-    "type": "news_activity",
-    "detail": "3 recent articles",
-    "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Karman Industries",
     "type": "media_buzz",
     "detail": "6 recent articles",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Lightmatter",
     "type": "ip_moat",
     "detail": "31 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
+  },
+  {
+    "company": "Mach Industries",
+    "type": "news_activity",
+    "detail": "4 recent articles",
+    "strength": 2,
+    "date": "2026-03-28"
   },
   {
     "company": "Neros",
     "type": "gov_traction",
     "detail": "10 contracts",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "OpenAI",
-    "type": "news_activity",
-    "detail": "3 recent articles",
+    "type": "media_buzz",
+    "detail": "6 recent articles",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Orchid",
     "type": "ip_moat",
     "detail": "100 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "PILGRIM",
     "type": "news_activity",
-    "detail": "4 recent articles",
+    "detail": "3 recent articles",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Palantir Technologies",
     "type": "gov_traction",
     "detail": "100 contracts",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
+  },
+  {
+    "company": "Planet Labs",
+    "type": "stock_movement",
+    "detail": "-8.8% down",
+    "strength": 2,
+    "date": "2026-03-28"
+  },
+  {
+    "company": "Planet Labs",
+    "type": "gov_traction",
+    "detail": "10 contracts",
+    "strength": 2,
+    "date": "2026-03-28"
   },
   {
     "company": "Relativity Space",
     "type": "ip_moat",
     "detail": "18 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Satellogic",
     "type": "stock_movement",
-    "detail": "+95.7% up",
+    "detail": "+65.2% up",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
+  },
+  {
+    "company": "Shield AI",
+    "type": "ip_moat",
+    "detail": "65 patents",
+    "strength": 2,
+    "date": "2026-03-28"
   },
   {
     "company": "Sierra Space",
     "type": "gov_traction",
     "detail": "15 contracts",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Space Exploration Technologies",
     "type": "gov_traction",
     "detail": "78 contracts",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
+  },
+  {
+    "company": "SpaceX",
+    "type": "news_activity",
+    "detail": "3 recent articles",
+    "strength": 2,
+    "date": "2026-03-28"
   },
   {
     "company": "TAE Technologies",
     "type": "ip_moat",
     "detail": "23 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "TerraPower",
     "type": "ip_moat",
     "detail": "20 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "X-Energy",
     "type": "ip_moat",
     "detail": "30 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Zipline",
     "type": "ip_moat",
     "detail": "15 patents",
     "strength": 2,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Amca",
     "type": "news_activity",
     "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "Ample",
-    "type": "news_activity",
-    "detail": "2 recent articles",
-    "strength": 1,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Asylon Robotics",
     "type": "news_activity",
     "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Cohere",
     "type": "news_activity",
     "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
-    "company": "Deterrence",
+    "company": "Galvanick",
     "type": "news_activity",
     "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Matic Robotics",
     "type": "news_activity",
     "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Photonic Inc",
     "type": "news_activity",
     "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Rigetti Computing",
     "type": "stock_movement",
-    "detail": "-6.5% down",
+    "detail": "-10.5% down",
     "strength": 1,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "SpaceX",
-    "type": "news_activity",
-    "detail": "2 recent articles",
-    "strength": 1,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "WeaveGrid",
-    "type": "news_activity",
-    "detail": "2 recent articles",
-    "strength": 1,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "Xanadu Quantum Technologies",
-    "type": "news_activity",
-    "detail": "2 recent articles",
-    "strength": 1,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Zeromark",
     "type": "news_activity",
     "detail": "2 recent articles",
     "strength": 1,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "AST SpaceMobile",
     "type": "stock_movement",
-    "detail": "-6.6% down",
+    "detail": "-12.5% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Archer Aviation",
     "type": "stock_movement",
-    "detail": "-10.7% down",
+    "detail": "-11.6% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Astroscale",
     "type": "stock_movement",
     "detail": "-8.0% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "D-Wave Quantum",
     "type": "stock_movement",
-    "detail": "-9.0% down",
+    "detail": "-11.6% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "IonQ",
     "type": "stock_movement",
-    "detail": "-6.5% down",
+    "detail": "-11.8% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Joby Aviation",
     "type": "stock_movement",
-    "detail": "-12.6% down",
+    "detail": "-12.2% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "LanzaTech",
     "type": "stock_movement",
-    "detail": "-15.5% down",
+    "detail": "-21.7% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "NuScale Power",
     "type": "stock_movement",
-    "detail": "-8.3% down",
+    "detail": "-10.0% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Oklo",
     "type": "stock_movement",
-    "detail": "-5.3% down",
+    "detail": "-6.9% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
+  },
+  {
+    "company": "Oxford Nanopore Technologies",
+    "type": "stock_movement",
+    "detail": "-5.2% down",
+    "strength": 0,
+    "date": "2026-03-28"
   },
   {
     "company": "QuantumScape",
     "type": "stock_movement",
-    "detail": "-5.7% down",
+    "detail": "-5.0% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Rainbow Robotics",
     "type": "stock_movement",
     "detail": "-14.0% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Recursion Pharmaceuticals",
     "type": "stock_movement",
-    "detail": "-6.5% down",
+    "detail": "-9.5% down",
     "strength": 0,
-    "date": "2026-03-27"
-  },
-  {
-    "company": "Rivian",
-    "type": "stock_movement",
-    "detail": "-5.7% down",
-    "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Rocket Lab",
     "type": "stock_movement",
-    "detail": "-8.3% down",
+    "detail": "-9.4% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Tempus AI",
     "type": "stock_movement",
-    "detail": "-6.6% down",
+    "detail": "-9.2% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "Vertical Aerospace",
     "type": "stock_movement",
-    "detail": "-35.6% down",
+    "detail": "-42.6% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   },
   {
     "company": "ideaForge",
     "type": "stock_movement",
-    "detail": "-6.5% down",
+    "detail": "-7.8% down",
     "strength": 0,
-    "date": "2026-03-27"
+    "date": "2026-03-28"
   }
 ]
