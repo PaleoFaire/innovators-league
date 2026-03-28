@@ -22797,23 +22797,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-27 20:49
+// Last updated: 2026-03-28 02:48
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Palantir", headline: "Judge grants Anthropic preliminary injunction but Pentagon CTO says ban still stands", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Waymo", headline: "Waymo's skyrocketing ridership in one chart", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Ample", headline: "28 New Fast EV Charging Stalls Launched In San Diego", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Sunfire", headline: "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Deterrence", headline: "Norway floats additional $11.8B in defense spending through 2035, cancels drone program", source: "Breaking Defense", time: "2h ago", impact: "high", unread: true },
-  { id: 6, type: "contract", company: "Anthropic", headline: "Judge blocks Pentagon's Anthropic ban, calling it illegal retaliation", source: "Defense One", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Aetherflux", headline: "Aetherflux reportedly raising Series B at $2 billion valuation", source: "TechCrunch", time: "3h ago", impact: "high", unread: false },
-  { id: 8, type: "news", company: "Anduril Industries", headline: "Video Friday: Beep! Beep! Roadrunner Bipedal Bot Breaks the Mold", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "OpenAI", headline: "The Week's 10 Biggest Funding Rounds: A Varied Week For Big Deals, Led By AI And Defense", source: "Crunchbase News", time: "4h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Rivian", headline: "Rivian gets another $1B from Volkswagen", source: "TechCrunch", time: "5h ago", impact: "high", unread: false },
-  { id: 11, type: "hire", company: "Palantir", headline: "Iranian hackers claim breach of FBI director Kash Patel's personal email account", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "Atomic Industries", headline: "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon", source: "Defense News", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Waymo", headline: "Pony.ai on a Roll ' Uber Collab, Breakeven in Shenzhen, 3,000 Robotaxi Target", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: false },
-  { id: 14, type: "milestone", company: "Palantir", headline: "State Department clears $340M FMS request for hypersonic missile testing support for Japan", source: "Breaking Defense", time: "6h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Deterrence", headline: "NATO sees $145B in munitions needs, as members all hit 2 percent GDP for first time", source: "Breaking Defense", time: "7h ago", impact: "high", unread: false },
+  { id: 1, type: "news", company: "Matic Robotics", headline: "Whoop has LeBron &#8211; now it wants your mom", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Mach Industries", headline: "Iran Conflict Costing Shipping Industry '340 Million A Day", source: "CleanTechnica", time: "1h ago", impact: "high", unread: true },
+  { id: 3, type: "funding", company: "Physical Intelligence", headline: "Physical Intelligence is reportedly in talks to raise $1 billion, again", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 4, type: "news", company: "Kyutai", headline: "AI Research Is Getting Harder to Separate From Geopolitics", source: "Wired", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "OpenAI", headline: "Why SoftBank's new $40B loan points to a 2026 OpenAI IPO", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
+  { id: 6, type: "contract", company: "Palantir", headline: "Judge grants Anthropic preliminary injunction but Pentagon CTO says ban still stands", source: "Breaking Defense", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Waymo", headline: "Waymo's skyrocketing ridership in one chart", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Ample", headline: "28 New Fast EV Charging Stalls Launched In San Diego", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Vast", headline: "Commercial Space Federation (CSF) Welcomes'Two New Associate Members", source: "SpaceNews", time: "7h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Sunfire", headline: "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Deterrence", headline: "Norway floats additional $11.8B in defense spending through 2035, cancels drone program", source: "Breaking Defense", time: "8h ago", impact: "high", unread: false },
+  { id: 12, type: "contract", company: "Anthropic", headline: "Judge blocks Pentagon's Anthropic ban, calling it illegal retaliation", source: "Defense One", time: "8h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Mach Industries", headline: "India's Bellatrix raises $20 million following overseas expansion drive", source: "SpaceNews", time: "9h ago", impact: "medium", unread: false },
+  { id: 14, type: "funding", company: "Aetherflux", headline: "Aetherflux reportedly raising Series B at $2 billion valuation", source: "TechCrunch", time: "9h ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "Anduril Industries", headline: "Video Friday: Beep! Beep! Roadrunner Bipedal Bot Breaks the Mold", source: "IEEE Spectrum", time: "10h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
