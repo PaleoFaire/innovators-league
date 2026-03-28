@@ -11,13 +11,13 @@
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": 4.31,
+      "avg_change": 3.36,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -11.55,
+      "avg_change": -11.66,
       "count": 7
     },
     "nuclear": {
@@ -66,7 +66,7 @@
     [
       "DRSHF",
       "DroneShield",
-      7.69
+      6.92
     ],
     [
       "9348.T",
@@ -86,11 +86,6 @@
   ],
   "topLosers": [
     [
-      "JOBY",
-      "Joby Aviation",
-      -12.24
-    ],
-    [
       "ASTS",
       "AST SpaceMobile",
       -12.52
@@ -99,6 +94,11 @@
       "277810.KQ",
       "Rainbow Robotics",
       -13.96
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -14.66
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -42.62
     ]
   ],
-  "lastUpdated": "2026-03-28 02:33:04"
+  "lastUpdated": "2026-03-28 07:04:12"
 }
