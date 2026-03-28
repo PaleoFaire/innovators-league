@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -5.14,
+      "avg_change": -5.06,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 5.35,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": 4.31,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -11.88,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -11.55,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.05,
+      "avg_change": -6.91,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.11,
+      "avg_change": -10.23,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.24,
+      "avg_change": -11.31,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.92,
+      "avg_change": -7.99,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -1.27,
+      "avg_change": -1.3,
       "count": 2
     },
     "chips": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.06,
+      "avg_change": -1.92,
       "count": 3
     }
   },
@@ -61,7 +61,12 @@
     [
       "SATL",
       "Satellogic",
-      67.27
+      65.18
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      7.69
     ],
     [
       "9348.T",
@@ -69,31 +74,26 @@
       5.4
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      3.08
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      0.98
+      "AMD",
+      "AMD",
+      0.33
     ],
     [
       "AUR",
       "Aurora Innovation",
-      0.85
+      -0.24
     ]
   ],
   "topLosers": [
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -11.98
-    ],
-    [
       "JOBY",
       "Joby Aviation",
       -12.24
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -12.52
     ],
     [
       "277810.KQ",
@@ -103,13 +103,13 @@
     [
       "LNZA",
       "LanzaTech",
-      -21.43
+      -21.74
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -41.87
+      -42.62
     ]
   ],
-  "lastUpdated": "2026-03-27 19:00:33"
+  "lastUpdated": "2026-03-28 02:33:04"
 }
