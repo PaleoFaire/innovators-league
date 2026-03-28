@@ -22816,23 +22816,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-28 16:42
+// Last updated: 2026-03-28 20:39
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Matic Robotics", headline: "Anthropic's Claude popularity with paying consumers is skyrocketing", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Biofire", headline: "Your Vape Wants to Know How Old You Are", source: "Wired", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Osmo", headline: "The Best Samsung Phones of 2026, Tested and Reviewed", source: "Wired", time: "6h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Tesla Analyst Thinks Tesla Could Merge With SpaceX In 2027", source: "CleanTechnica", time: "12h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "Karman Industries", headline: "BrightDrop Died in America, While China Made Electric Vans Normal", source: "CleanTechnica", time: "12h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Matic Robotics", headline: "Whoop has LeBron &#8211; now it wants your mom", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Mach Industries", headline: "Iran Conflict Costing Shipping Industry '340 Million A Day", source: "CleanTechnica", time: "15h ago", impact: "high", unread: false },
-  { id: 8, type: "funding", company: "Physical Intelligence", headline: "Physical Intelligence is reportedly in talks to raise $1 billion, again", source: "TechCrunch", time: "16h ago", impact: "high", unread: false },
-  { id: 9, type: "news", company: "Kyutai", headline: "AI Research Is Getting Harder to Separate From Geopolitics", source: "Wired", time: "18h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "OpenAI", headline: "Why SoftBank's new $40B loan points to a 2026 OpenAI IPO", source: "TechCrunch", time: "18h ago", impact: "high", unread: false },
-  { id: 11, type: "contract", company: "Palantir", headline: "Judge grants Anthropic preliminary injunction but Pentagon CTO says ban still stands", source: "Breaking Defense", time: "20h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Waymo", headline: "Waymo's skyrocketing ridership in one chart", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Ample", headline: "28 New Fast EV Charging Stalls Launched In San Diego", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Vast", headline: "Commercial Space Federation (CSF) Welcomes'Two New Associate Members", source: "SpaceNews", time: "21h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Sunfire", headline: "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Matic Robotics", headline: "Anthropic's Claude popularity with paying consumers is skyrocketing", source: "TechCrunch", time: "6h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Biofire", headline: "Your Vape Wants to Know How Old You Are", source: "Wired", time: "9h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Osmo", headline: "The Best Samsung Phones of 2026, Tested and Reviewed", source: "Wired", time: "10h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Tesla Analyst Thinks Tesla Could Merge With SpaceX In 2027", source: "CleanTechnica", time: "16h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "Karman Industries", headline: "BrightDrop Died in America, While China Made Electric Vans Normal", source: "CleanTechnica", time: "16h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Matic Robotics", headline: "Whoop has LeBron &#8211; now it wants your mom", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Mach Industries", headline: "Iran Conflict Costing Shipping Industry '340 Million A Day", source: "CleanTechnica", time: "19h ago", impact: "high", unread: false },
+  { id: 8, type: "funding", company: "Physical Intelligence", headline: "Physical Intelligence is reportedly in talks to raise $1 billion, again", source: "TechCrunch", time: "20h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Kyutai", headline: "AI Research Is Getting Harder to Separate From Geopolitics", source: "Wired", time: "22h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "OpenAI", headline: "Why SoftBank's new $40B loan points to a 2026 OpenAI IPO", source: "TechCrunch", time: "22h ago", impact: "high", unread: false },
+  { id: 11, type: "contract", company: "Palantir", headline: "Judge grants Anthropic preliminary injunction but Pentagon CTO says ban still stands", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Waymo", headline: "Waymo's skyrocketing ridership in one chart", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Ample", headline: "28 New Fast EV Charging Stalls Launched In San Diego", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Vast", headline: "Commercial Space Federation (CSF) Welcomes'Two New Associate Members", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Sunfire", headline: "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
