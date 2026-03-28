@@ -6374,3 +6374,20 @@ const DEMAND_SIGNALS_STATS = {
   "companiesMatched": 178,
   "lastUpdated": "2026-03-22 07:31:07 UTC"
 };
+SA": 4,
+    "Space Development Agency (SDA)": 1,
+    "National Reconnaissance Office (NRO)": 1,
+    "Department of Energy (DOE)": 8,
+    "ARPA-E": 1,
+    "National Science Foundation (NSF)": 4,
+    "Chief Digital and AI Office (CDAO)": 1,
+    "NSA / CISA": 1,
+    "BARDA / HHS": 1,
+    "National Institutes of Health (NIH)": 1,
+    "CISA / DHS": 1,
+    "NSA Cybersecurity Directorate": 1,
+    "Environmental Protection Agency (EPA)": 1
+  },
+  "companiesMatched": 179,
+  "lastUpdated": "2026-03-28 07:37:22 UTC"
+};
