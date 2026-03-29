@@ -1111,109 +1111,6 @@ body {
     font-size: 13px;
   }
 }
-
-@media (max-width: 768px) {
-  .nav {
-    padding: 0 16px;
-    height: 60px;
-  }
-
-  .nav-search {
-    display: none;
-  }
-
-  .nav-links {
-    display: none;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: var(--bg);
-    flex-direction: column;
-    align-items: stretch;
-    padding: 24px;
-    gap: 8px;
-    overflow-y: auto;
-    z-index: 999;
-  }
-
-  .nav-links.open {
-    display: flex;
-  }
-
-  .nav-links a.nav-link {
-    padding: 14px 16px;
-    font-size: 16px;
-    background: var(--bg-tertiary);
-    border-radius: var(--radius-sm);
-    display: block;
-  }
-
-  .nav-dropdown {
-    width: 100%;
-  }
-
-  .nav-link-main {
-    width: 100%;
-    justify-content: space-between;
-    padding: 14px 16px;
-    font-size: 16px;
-    background: var(--bg-tertiary);
-    border-radius: var(--radius-sm);
-  }
-
-  .nav-dropdown-content {
-    position: static;
-    transform: none;
-    opacity: 1;
-    visibility: visible;
-    display: none;
-    min-width: auto;
-    box-shadow: none;
-    background: var(--bg-secondary);
-    margin-top: 4px;
-    border-radius: var(--radius-sm);
-  }
-
-  .nav-dropdown.open .nav-dropdown-content {
-    display: block;
-  }
-
-  .nav-dropdown-content a {
-    padding: 12px 20px;
-    font-size: 14px;
-  }
-
-  .nav-cta {
-    margin-top: 16px;
-    text-align: center;
-    padding: 14px 24px !important;
-    font-size: 15px !important;
-  }
-
-  .mobile-menu-btn {
-    display: flex;
-  }
-
-  .hero-actions {
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .hero-btn {
-    width: 100%;
-    max-width: 280px;
-    justify-content: center;
-  }
-
-  .hero-title {
-    font-size: 28px !important;
-    line-height: 1.2;
-  }
-}
-
 /* ─── HERO ─── */
 .hero {
   padding: 120px 24px 60px;
@@ -1770,17 +1667,6 @@ body {
   color: var(--text-primary);
   font-weight: 500;
 }
-
-@media (max-width: 768px) {
-  .ai-query-input-container {
-    flex-direction: column;
-  }
-
-  .ai-query-btn {
-    width: 100%;
-  }
-}
-
 .search-box {
   position: relative;
   flex: 1;
@@ -2846,125 +2732,7 @@ body {
   color: var(--text-muted);
 }
 
-/* ─── RESPONSIVE ─── */
-@media (max-width: 768px) {
-  .nav {
-    padding: 0 16px;
-    height: 52px;
-  }
-
-  .nav-title {
-    font-size: 11px;
-    letter-spacing: 1px;
-  }
-
-  .nav-links {
-    display: none;
-    position: fixed;
-    top: 52px;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.97);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
-    flex-direction: column;
-    padding: 16px;
-    gap: 12px;
-  }
-
-  .nav-links.open {
-    display: flex;
-  }
-
-  .mobile-menu-btn {
-    display: flex;
-  }
-
-  .hero {
-    padding: 80px 20px 48px;
-  }
-
-  .hero-stats {
-    gap: 20px;
-  }
-
-  .stat-number {
-    font-size: 28px;
-  }
-
-  .section {
-    padding: 48px 0;
-  }
-
-  .container {
-    padding: 0 16px;
-  }
-
-  .filter-bar {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .filter-dropdowns {
-    flex-wrap: wrap;
-  }
-
-  .company-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .sectors-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-content {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-
-  #innovators-map {
-    height: 350px;
-  }
-
-  .filter-chips {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    padding-bottom: 8px;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .chip {
-    flex-shrink: 0;
-  }
-
-  .featured-card {
-    flex: 0 0 280px;
-  }
-
-  .modal-body {
-    padding: 24px;
-  }
-
-  .modal-name {
-    font-size: 24px;
-  }
-
-  .modal-stats {
-    grid-template-columns: 1fr !important;
-  }
-
-  .compare-bar.visible {
-    bottom: 16px;
-  }
-
-  .compare-bar-inner {
-    padding: 6px 8px 6px 14px;
-    font-size: 12px;
-    border-radius: 30px;
-  }
-}
-
-@media (max-width: 480px) {
+/* ─── RESPONSIVE ─── */@media (max-width: 480px) {
   .hero-title {
     font-size: 32px;
   }
@@ -3376,23 +3144,6 @@ body {
   flex-wrap: wrap;
   margin-top: 4px;
 }
-
-@media (max-width: 768px) {
-  .movement-item {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
-
-  .movement-date {
-    align-self: flex-end;
-  }
-
-  .radar-chart svg {
-    max-width: 220px;
-  }
-}
-
 /* ═══════════════════════════════════════
    VC / INVESTORS PAGE STYLES
    ═══════════════════════════════════════ */
@@ -4103,32 +3854,7 @@ body {
   font-size: 14px;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .co-invest-graph {
-    height: 350px;
-  }
-
-  .co-invest-legend {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .legend-note {
-    margin-left: 0;
-  }
-
-  .follow-on-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .follower-companies {
-    display: none;
-  }
-}
-
-/* ═══════════════════════════════════════════════════════════════════════════════
+/* Responsive adjustments *//* ═══════════════════════════════════════════════════════════════════════════════
    CONVICTION TRACKER
    ═══════════════════════════════════════════════════════════════════════════════ */
 
@@ -4385,35 +4111,6 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-
-@media (max-width: 768px) {
-  .ct-leaderboard-grid,
-  .ct-validation-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .ct-tabs {
-    width: 100%;
-  }
-
-  .ct-tab {
-    flex: 1;
-    text-align: center;
-  }
-
-  .ct-double-row {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-  }
-
-  .ct-company-vc-row {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 6px;
-  }
-}
-
 /* ═══════════════════════════════════════════════════════════════════════════════
    INNOVATOR SCORE™ — World-Class Mosaic-Style Scoring (0-1000)
    ═══════════════════════════════════════════════════════════════════════════════ */
@@ -4927,21 +4624,6 @@ body {
   font-weight: 600;
   color: var(--accent);
 }
-
-@media (max-width: 768px) {
-  .anomaly-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .anomaly-card {
-    padding: 16px;
-  }
-
-  .anomaly-company-name {
-    font-size: 16px;
-  }
-}
-
 /* ─── ROS INNOVATOR 50 ─── */
 .innovator50-section {
   padding: 80px 0;
@@ -5074,19 +4756,6 @@ body {
   height: 32px;
   background: var(--border);
 }
-
-@media (max-width: 768px) {
-  .tier-access-banner {
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .tier-divider {
-    width: 80%;
-    height: 1px;
-  }
-}
-
 /* ═══════════════════════════════════════════════════════════════════════════
    FROM THE SOURCE — PILLAR 3: Relationships & Personal Connections
    ═══════════════════════════════════════════════════════════════════════════ */
@@ -5331,13 +5000,6 @@ body {
   font-style: italic;
   line-height: 1.5;
 }
-
-@media (max-width: 768px) {
-  .from-source-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* ═══════════════════════════════════════════════════════════════════════════
    PRIVATE COMMUNITY — PILLAR 4: The Only Defensible Moat
    ═══════════════════════════════════════════════════════════════════════════ */
@@ -5579,13 +5241,6 @@ body {
     order: -1;
   }
 }
-
-@media (max-width: 768px) {
-  .pc-title {
-    font-size: 28px;
-  }
-}
-
 /* Preview Grid (Top 10) */
 .innovator50-preview {
   display: grid;
@@ -6357,60 +6012,6 @@ body {
   background: var(--accent-hover);
   transform: translateY(-2px);
 }
-
-@media (max-width: 768px) {
-  .score-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .score-total {
-    grid-column: span 2;
-  }
-
-  .i50-detail-milestones {
-    grid-template-columns: 1fr;
-  }
-
-  .i50-detail-header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .i50-detail-conviction {
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .innovator50-title {
-    font-size: 28px;
-  }
-
-  .i50-card {
-    grid-template-columns: 60px 1fr;
-    padding: 16px;
-    gap: 12px;
-  }
-
-  .i50-rank {
-    font-size: 22px;
-  }
-
-  .i50-company-name {
-    font-size: 16px;
-  }
-
-  .i50-thesis {
-    font-size: 13px;
-    padding: 10px;
-  }
-
-  .innovator50-controls {
-    flex-direction: column;
-    align-items: stretch;
-  }
-}
-
 /* ─── FOUNDER INTELLIGENCE (Field Notes) ─── */
 .field-notes-section {
   padding: 60px 24px;
@@ -6657,12 +6258,6 @@ body {
 @media (max-width: 1024px) {
   .fn-grid { grid-template-columns: repeat(2, 1fr); }
 }
-
-@media (max-width: 768px) {
-  .fn-grid { grid-template-columns: 1fr; }
-  .field-notes-section { padding: 40px 16px; }
-}
-
 /* ─── BREAKING NEWS TICKER ─── */
 .news-ticker-bar {
   display: flex;
@@ -7953,110 +7548,13 @@ body {
   font-size: 15px;
 }
 
-/* ─── BLOOMBERG RESPONSIVE ─── */
-@media (max-width: 768px) {
-  .funding-row {
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
-  }
-
-  .funding-row-header { display: none; }
-
-  .momentum-row {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
-
-  .momentum-sector-name { margin-bottom: 4px; }
-
-  .market-pulse-grid { gap: 8px; }
-
-  .pulse-card { flex: 0 0 140px; padding: 12px; }
-
-  .ipo-grid { grid-template-columns: 1fr; }
-
-  .leaderboard-controls {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .leaderboard-filters {
-    width: 100%;
-  }
-
-  .lb-filter-select {
-    flex: 1;
-    min-width: 0;
-    font-size: 12px;
-    padding: 6px 8px;
-  }
-
-  .leaderboard-row {
-    grid-template-columns: 35px 1fr 80px;
-    gap: 8px;
-    padding: 10px 12px;
-  }
-
-  .leaderboard-bar,
-  .leaderboard-raised,
-  .leaderboard-stage {
-    display: none;
-  }
-
-  .leaderboard-valuation {
-    font-size: 14px;
-  }
-
-  .news-ticker-bar { height: 36px; }
-  .ticker-item { font-size: 12px; }
-}
-
-/* ─── ONE-PAGER PRINT STYLES ─── */
+/* ─── BLOOMBERG RESPONSIVE ─── *//* ─── ONE-PAGER PRINT STYLES ─── */
 @media print {
   body { background: #fff; color: #000; }
   .nav, .footer, .modal-overlay { display: none; }
 }
 
-/* ─── VC PAGE RESPONSIVE ─── */
-@media (max-width: 768px) {
-  .vc-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .vc-card-header {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .vc-card-aum {
-    align-self: flex-start;
-  }
-
-  .overlap-cards {
-    grid-template-columns: 1fr;
-  }
-
-  .vc-modal-stats {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .vc-overlap-item {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .sector-capital-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-  }
-
-  .digest-card {
-    flex: 0 0 300px;
-  }
-}
-
-/* ─── TRL RANKINGS DASHBOARD ─── */
+/* ─── VC PAGE RESPONSIVE ─── *//* ─── TRL RANKINGS DASHBOARD ─── */
 .trl-section {
   padding: 60px 0;
   border-bottom: 1px solid var(--border);
@@ -9577,35 +9075,7 @@ body {
 .alt-strength.mid { color: #3b82f6; }
 .alt-strength.low { color: #f59e0b; }
 
-/* ─── RESPONSIVE: New Sections ─── */
-@media (max-width: 768px) {
-  .iscore-row {
-    grid-template-columns: 35px 1fr 70px;
-    gap: 8px;
-    padding: 10px 12px;
-  }
-  .iscore-dimensions, .iscore-note { display: none; }
-
-  .patent-grid { grid-template-columns: 1fr; }
-
-  .alt-data-row {
-    grid-template-columns: 1fr 80px 60px;
-    gap: 6px;
-    padding: 10px 12px;
-  }
-  .alt-data-traffic, .alt-data-sentiment, .alt-data-key-signal { display: none; }
-
-  .iscore-dimension-legend { gap: 8px; flex-wrap: wrap; }
-  .iscore-dim { font-size: 11px; }
-  .gov-tabs { flex-wrap: wrap; }
-  .gov-key-contract { flex-wrap: wrap; }
-  .gov-heatmap-wrapper { font-size: 10px; }
-
-  .modal-iscore-dim { grid-template-columns: 120px 1fr 35px; }
-  .modal-altdata-grid { grid-template-columns: 1fr; }
-}
-
-/* ─── MAFIA EXPLORER SECTION ─── */
+/* ─── RESPONSIVE: New Sections ─── *//* ─── MAFIA EXPLORER SECTION ─── */
 .mafia-section {
   padding: 60px 0;
   border-bottom: 1px solid var(--border);
@@ -9862,46 +9332,7 @@ body {
   transform: translateY(-1px);
 }
 
-/* ─── PREMIUM FEATURES RESPONSIVE ─── */
-@media (max-width: 768px) {
-  .trl-legend { gap: 4px; }
-  .trl-legend-item { padding: 2px 6px; }
-  .trl-company-note { display: none; }
-  .trl-row { padding: 14px; }
-  .trl-row-companies { gap: 6px; }
-  .trl-company-chip { padding: 6px 10px; }
-
-  .deal-row {
-    grid-template-columns: 1fr 1fr;
-    gap: 4px;
-    padding: 10px 12px;
-  }
-  .deal-header { display: none; }
-  .deal-round-col, .deal-date-col, .deal-role-col { display: none; }
-
-  .signals-grid { grid-template-columns: 1fr; }
-
-  .market-map-grid { grid-template-columns: 1fr; }
-  .market-map-card { padding: 16px; }
-  .market-map-header { flex-direction: column; align-items: flex-start; gap: 6px; }
-
-  .mafia-grid { grid-template-columns: 1fr; }
-  .mafia-company-founders { display: none; }
-
-  .revenue-row {
-    grid-template-columns: 1fr 1fr;
-    gap: 4px;
-    padding: 10px 12px;
-  }
-  .revenue-header { display: none; }
-  .rev-period-col, .rev-source-col { display: none; }
-
-  .revenue-grid { grid-template-columns: repeat(2, 1fr); }
-
-  .rfs-grid { grid-template-columns: 1fr; }
-}
-
-/* ═══════════════════════════════════════════════════════
+/* ─── PREMIUM FEATURES RESPONSIVE ─── *//* ═══════════════════════════════════════════════════════
    PHASE 2: Network Graph, Portfolio Builder, AI Memo
    ═══════════════════════════════════════════════════════ */
 
@@ -10520,19 +9951,6 @@ body {
   .portfolio-picker { max-height: 200px; }
   .memo-layout { grid-template-columns: 1fr; }
 }
-
-@media (max-width: 768px) {
-  #network-canvas { height: 400px; }
-  .network-controls { flex-direction: column; align-items: flex-start; }
-  .network-legend { margin-left: 0; }
-  .portfolio-chart-row { grid-template-columns: 1fr; }
-  .portfolio-metrics-row { grid-template-columns: repeat(2, 1fr); }
-  .portfolio-holding-row { grid-template-columns: 1fr 80px 40px; }
-  .ph-sector, .ph-valuation { display: none; }
-  .scenario-controls { flex-direction: column; }
-  .memo-output { padding: 20px; }
-}
-
 /* ═══════════════════════════════════════════════════════
    PHASE 3: Intelligence Feed, PDF Reports, Community
    ═══════════════════════════════════════════════════════ */
@@ -11287,19 +10705,6 @@ body {
   .mid-cta-features { justify-content: center; }
   .mid-cta-actions { flex-direction: row; }
 }
-
-@media (max-width: 768px) {
-  .feed-item { grid-template-columns: 60px 1fr; }
-  .feed-impact { display: none; }
-  .feed-controls { flex-direction: column; }
-  .reports-grid { grid-template-columns: 1fr; }
-  .community-layout { grid-template-columns: 1fr; }
-  .value-prop-content { flex-direction: column; text-align: center; }
-  .value-prop-text { flex-direction: column; }
-  .mid-cta-actions { flex-direction: column; }
-  .mid-cta-box { padding: 24px; }
-}
-
 /* ═══════════════════════════════════════════════════════════════════════════
    WORLD-CLASS INTELLIGENCE PLATFORM FEATURES
    Inspired by: Bloomberg Terminal, PitchBook, S&P CapIQ, AlphaSense, Dealroom
@@ -12608,35 +12013,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-@media (max-width: 768px) {
-  .command-bar {
-    max-width: 95%;
-    margin: 0 auto;
-  }
-
-  .signals-panel {
-    width: 100%;
-  }
-
-  .screener-filters {
-    grid-template-columns: 1fr;
-  }
-
-  .watchlist-kanban {
-    grid-template-columns: 1fr;
-    overflow-x: auto;
-  }
-
-  .expert-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .network-status-bar {
-    display: none;
-  }
-}
-
 /* ═══════════════════════════════════════════════════════════════════════════
    SECONDARY MARKET VALUATIONS SECTION
    ═══════════════════════════════════════════════════════════════════════════ */
@@ -13082,17 +12458,6 @@ body {
   font-size: 10px;
   color: #888;
 }
-
-@media (max-width: 768px) {
-  .thesis-collision-map {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 8px;
-  }
-  .thesis-detail-companies {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* ═══════════════════════════════════════════════════════
    INTELLIGENCE HUB (Consolidated Alerts/Signals/News)
    ═══════════════════════════════════════════════════════ */
@@ -13624,40 +12989,6 @@ body {
 /* ═══════════════════════════════════════════════════════════════════════════
    RESPONSIVE ADJUSTMENTS FOR NEW SECTIONS
    ═══════════════════════════════════════════════════════════════════════════ */
-
-@media (max-width: 768px) {
-  .secondary-grid,
-  .predictive-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .secondary-metrics {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .alert-filters {
-    width: 100%;
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    padding-bottom: 8px;
-  }
-
-  .predictive-tabs {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    padding-bottom: 8px;
-  }
-
-  .prediction-highlight {
-    grid-template-columns: 1fr;
-  }
-
-  .subscribe-box {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-
 /* ═══════════════════════════════════════════════════════════════════════════
    SECTION TIMESTAMPS & DATA FRESHNESS INDICATORS
    For PILLAR 1: Bulletproof Data Automation
@@ -13921,25 +13252,7 @@ body {
   gap: 8px;
 }
 
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .section-timestamp {
-    margin-left: 0;
-    margin-top: 8px;
-    font-size: 10px;
-  }
-
-  .data-freshness-indicator {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .automation-status {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* ═══════════════════════════════════════════════════════════════
+/* Mobile Responsive *//* ═══════════════════════════════════════════════════════════════
    CONTRACTOR READINESS SCORES
    ═══════════════════════════════════════════════════════════════ */
 .readiness-explainer {
@@ -14255,14 +13568,6 @@ body {
   line-height: 1.5;
   color: var(--text-secondary);
 }
-
-@media (max-width: 768px) {
-  .vod-stages { flex-direction: column; }
-  .vod-arrow { display: none; }
-  .vod-summary { grid-template-columns: repeat(2, 1fr); }
-  .vod-detail-grid { grid-template-columns: 1fr; }
-}
-
 /* ─── VOD View Toggle ─── */
 .vod-view-toggle {
   display: flex;
@@ -14402,13 +13707,6 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-
-@media (max-width: 768px) {
-  .vod-timeline-row { grid-template-columns: 120px 1fr 80px; gap: 8px; padding: 10px 12px; }
-  .vod-timeline-company { font-size: 0.75rem; }
-  .vod-timeline-stage-labels { display: none; }
-}
-
 /* ═══════════════════════════════════════════════════════════════
    LIVE CONTRACT & AWARD FEED
    ═══════════════════════════════════════════════════════════════ */
@@ -14537,13 +13835,6 @@ body {
   font-weight: 800;
   color: #22c55e;
 }
-
-@media (max-width: 768px) {
-  .award-card { flex-direction: column; gap: 12px; }
-  .award-card-left { min-width: auto; }
-  .award-card-right { text-align: left; }
-}
-
 /* ═══════════════════════════════════════════════════════════════
    INVESTOR PORTFOLIO X-RAY
    ═══════════════════════════════════════════════════════════════ */
@@ -14727,12 +14018,6 @@ body {
   color: var(--text-muted);
   font-style: italic;
 }
-
-@media (max-width: 768px) {
-  .xray-grid { grid-template-columns: 1fr; }
-  .xray-metrics { grid-template-columns: repeat(3, 1fr); gap: 8px; }
-}
-
 /* ═══════════════════════════════════════════════════════════════
    DEAL FLOW SIGNALS
    ═══════════════════════════════════════════════════════════════ */
@@ -15041,30 +14326,6 @@ body {
   font-weight: 700;
   color: var(--accent);
 }
-
-@media (max-width: 768px) {
-  .readiness-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .readiness-metrics {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .historical-controls {
-    flex-direction: column;
-  }
-
-  .timeline-event {
-    grid-template-columns: 60px 16px 1fr;
-  }
-
-  .timeline-value {
-    grid-column: 3;
-    margin-top: -8px;
-  }
-}
-
 /* ═══════════════════════════════════════════════════════
    GOVERNMENT DEMAND TRACKER
    ═══════════════════════════════════════════════════════ */
@@ -15318,18 +14579,6 @@ body {
   font-size: 12px;
   color: var(--text-muted);
 }
-
-@media (max-width: 768px) {
-  .gov-demand-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .gov-demand-summary {
-    flex-direction: column;
-    gap: 16px;
-  }
-}
-
 /* ═══════════════════════════════════════════════════════
    ENHANCED NETWORK GRAPH
    ═══════════════════════════════════════════════════════ */
@@ -15535,24 +14784,6 @@ body {
   stroke-width: 3px !important;
   opacity: 1 !important;
 }
-
-@media (max-width: 768px) {
-  .network-tools {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .network-search {
-    width: 100%;
-  }
-
-  .network-degrees-btn,
-  .network-export-btn {
-    width: 100%;
-    text-align: center;
-  }
-}
-
 /* ═══════════════════════════════════════════════════════
    UX UPGRADE: DISCOVERY HUB — Map + Database Unified
    ═══════════════════════════════════════════════════════ */
@@ -15816,56 +15047,7 @@ body {
   font-size: 13px;
 }
 
-/* ─── RESPONSIVE ─── */
-@media (max-width: 768px) {
-  .discovery-tabs {
-    gap: 2px;
-    padding: 12px 8px;
-  }
-
-  .discovery-tab {
-    padding: 10px 14px;
-    font-size: 13px;
-  }
-
-  .discovery-tab .tab-label {
-    display: none;
-  }
-
-  .discovery-tab .tab-icon {
-    font-size: 20px;
-  }
-
-  #innovators-map-primary {
-    height: 50vh;
-    min-height: 350px;
-  }
-
-  .map-overlay-stats {
-    bottom: 12px;
-    left: 12px;
-    padding: 10px 14px;
-  }
-
-  .map-stat-number {
-    font-size: 18px;
-  }
-
-  .filter-bar-inline {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .search-box-inline {
-    max-width: none;
-  }
-
-  .company-grid-inline {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* ─── DISCOVERY HUB COMPANY CARDS ─── */
+/* ─── RESPONSIVE ─── *//* ─── DISCOVERY HUB COMPANY CARDS ─── */
 .company-grid-inline .company-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -16096,17 +15278,6 @@ body {
 .db-view-btn.active svg {
   opacity: 1;
 }
-
-@media (max-width: 768px) {
-  .db-view-toggle {
-    margin: 0 auto 16px;
-  }
-  .db-view-btn {
-    padding: 6px 12px;
-    font-size: 12px;
-  }
-}
-
 /* ═══════════════════════════════════════════════════════════════════════════════
    AUTHENTICATION & ACCESS GATING STYLES
    ═══════════════════════════════════════════════════════════════════════════════ */
@@ -16490,19 +15661,7 @@ body {
 .investor-gate-content .gate-cta-btn {
   margin-left: auto;
   flex-shrink: 0;
-}
-@media (max-width: 768px) {
-  .investor-gate-content {
-    flex-direction: column;
-    text-align: center;
-    gap: 12px;
-  }
-  .investor-gate-content .gate-cta-btn {
-    margin-left: 0;
-  }
-}
-
-/* ─── Saved Searches Bar ─── */
+}/* ─── Saved Searches Bar ─── */
 .saved-searches-bar {
   display: flex;
   align-items: center;
@@ -16996,14 +16155,7 @@ body {
   .opti-messages {
     max-height: 45vh;
   }
-}
-@media (max-width: 768px) {
-  .opti-panel {
-    width: 360px;
-  }
-}
-
-/* ═══ EVENTS SECTION ═══ */
+}/* ═══ EVENTS SECTION ═══ */
 
 .events-section {
   padding: 80px 0;
@@ -17187,20 +16339,6 @@ body {
 .il30-stat-highlight .il30-stat-number {
   color: var(--accent);
 }
-
-@media (max-width: 768px) {
-  .events-grid {
-    grid-template-columns: 1fr;
-  }
-  .il30-stats-bar {
-    gap: 16px;
-    padding: 16px;
-  }
-  .il30-stat-number {
-    font-size: 18px;
-  }
-}
-
 /* ── RAG Badge (AI-enhanced indicator) ── */
 .opti-rag-badge {
   display: inline-block;
@@ -17217,15 +16355,827 @@ body {
 }
 
 /* ─── MOBILE GRID OVERRIDES (consolidated) ─── */
+
+
+/* ═══════════════════════════════════════════════════════
+   CONSOLIDATED MOBILE OVERRIDES (max-width: 768px)
+   ═══════════════════════════════════════════════════════ */
 @media (max-width: 768px) {
+  .nav {
+padding: 0 16px;
+    height: 60px;
+padding: 0 16px;
+    height: 52px;
+  }
+
+  .nav-search {
+    display: none;
+  }
+
+  .nav-links {
+display: none;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg);
+    flex-direction: column;
+    align-items: stretch;
+    padding: 24px;
+    gap: 8px;
+    overflow-y: auto;
+    z-index: 999;
+display: none;
+    position: fixed;
+    top: 52px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    flex-direction: column;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .nav-links.open {
+display: flex;
+display: flex;
+  }
+
+  .nav-links a.nav-link {
+    padding: 14px 16px;
+    font-size: 16px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    display: block;
+  }
+
+  .nav-dropdown {
+    width: 100%;
+  }
+
+  .nav-link-main {
+    width: 100%;
+    justify-content: space-between;
+    padding: 14px 16px;
+    font-size: 16px;
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+  }
+
+  .nav-dropdown-content {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    display: none;
+    min-width: auto;
+    box-shadow: none;
+    background: var(--bg-secondary);
+    margin-top: 4px;
+    border-radius: var(--radius-sm);
+  }
+
+  .nav-dropdown.open .nav-dropdown-content {
+    display: block;
+  }
+
+  .nav-dropdown-content a {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .nav-cta {
+    margin-top: 16px;
+    text-align: center;
+    padding: 14px 24px !important;
+    font-size: 15px !important;
+  }
+
+  .mobile-menu-btn {
+display: flex;
+display: flex;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .hero-btn {
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: 28px !important;
+    line-height: 1.2;
+  }
+
+  .ai-query-input-container {
+    flex-direction: column;
+  }
+
+  .ai-query-btn {
+    width: 100%;
+  }
+
+  .nav-title {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
+  .hero {
+    padding: 80px 20px 48px;
+  }
+
+  .hero-stats {
+    gap: 20px;
+  }
+
+  .stat-number {
+    font-size: 28px;
+  }
+
+  .section {
+    padding: 48px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-dropdowns {
+    flex-wrap: wrap;
+  }
+
+  .company-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sectors-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  #innovators-map {
+    height: 350px;
+  }
+
+  .filter-chips {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .chip {
+    flex-shrink: 0;
+  }
+
+  .featured-card {
+    flex: 0 0 280px;
+  }
+
+  .modal-body {
+    padding: 24px;
+  }
+
+  .modal-name {
+    font-size: 24px;
+  }
+
+  .modal-stats {
+    grid-template-columns: 1fr !important;
+  }
+
+  .compare-bar.visible {
+    bottom: 16px;
+  }
+
+  .compare-bar-inner {
+    padding: 6px 8px 6px 14px;
+    font-size: 12px;
+    border-radius: 30px;
+  }
+
+  .movement-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .movement-date {
+    align-self: flex-end;
+  }
+
+  .radar-chart svg {
+    max-width: 220px;
+  }
+
+  .co-invest-graph {
+    height: 350px;
+  }
+
+  .co-invest-legend {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .legend-note {
+    margin-left: 0;
+  }
+
+  .follow-on-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .follower-companies {
+    display: none;
+  }
+
+  .ct-leaderboard-grid,
+  .ct-validation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ct-tabs {
+    width: 100%;
+  }
+
+  .ct-tab {
+    flex: 1;
+    text-align: center;
+  }
+
+  .ct-double-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .ct-company-vc-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .anomaly-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .anomaly-card {
+    padding: 16px;
+  }
+
+  .anomaly-company-name {
+    font-size: 16px;
+  }
+
+  .tier-access-banner {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .tier-divider {
+    width: 80%;
+    height: 1px;
+  }
+
+  .from-source-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pc-title {
+    font-size: 28px;
+  }
+
+  .score-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .score-total {
+    grid-column: span 2;
+  }
+
+  .i50-detail-milestones {
+    grid-template-columns: 1fr;
+  }
+
+  .i50-detail-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .i50-detail-conviction {
+    margin-left: 0;
+  }
+
+  .innovator50-title {
+    font-size: 28px;
+  }
+
+  .i50-card {
+    grid-template-columns: 60px 1fr;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .i50-rank {
+    font-size: 22px;
+  }
+
+  .i50-company-name {
+    font-size: 16px;
+  }
+
+  .i50-thesis {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .innovator50-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .fn-grid { grid-template-columns: 1fr; }
+
+  .field-notes-section { padding: 40px 16px; }
+
+  .funding-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .funding-row-header { display: none; }
+
+  .momentum-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .momentum-sector-name { margin-bottom: 4px; }
+
+  .market-pulse-grid { gap: 8px; }
+
+  .pulse-card { flex: 0 0 140px; padding: 12px; }
+
+  .ipo-grid { grid-template-columns: 1fr; }
+
+  .leaderboard-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .leaderboard-filters {
+    width: 100%;
+  }
+
+  .lb-filter-select {
+    flex: 1;
+    min-width: 0;
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+
+  .leaderboard-row {
+    grid-template-columns: 35px 1fr 80px;
+    gap: 8px;
+    padding: 10px 12px;
+  }
+
+  .leaderboard-bar,
+  .leaderboard-raised,
+  .leaderboard-stage {
+    display: none;
+  }
+
+  .leaderboard-valuation {
+    font-size: 14px;
+  }
+
+  .news-ticker-bar { height: 36px; }
+
+  .ticker-item { font-size: 12px; }
+
+  .vc-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vc-card-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .vc-card-aum {
+    align-self: flex-start;
+  }
+
+  .overlap-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .vc-modal-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .vc-overlap-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sector-capital-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .digest-card {
+    flex: 0 0 300px;
+  }
+
+  .iscore-row {
+    grid-template-columns: 35px 1fr 70px;
+    gap: 8px;
+    padding: 10px 12px;
+  }
+
+  .iscore-dimensions, .iscore-note { display: none; }
+
+  .patent-grid { grid-template-columns: 1fr; }
+
+  .alt-data-row {
+    grid-template-columns: 1fr 80px 60px;
+    gap: 6px;
+    padding: 10px 12px;
+  }
+
+  .alt-data-traffic, .alt-data-sentiment, .alt-data-key-signal { display: none; }
+
+  .iscore-dimension-legend { gap: 8px; flex-wrap: wrap; }
+
+  .iscore-dim { font-size: 11px; }
+
+  .gov-tabs { flex-wrap: wrap; }
+
+  .gov-key-contract { flex-wrap: wrap; }
+
+  .gov-heatmap-wrapper { font-size: 10px; }
+
+  .modal-iscore-dim { grid-template-columns: 120px 1fr 35px; }
+
+  .modal-altdata-grid { grid-template-columns: 1fr; }
+
+  .trl-legend { gap: 4px; }
+
+  .trl-legend-item { padding: 2px 6px; }
+
+  .trl-company-note { display: none; }
+
+  .trl-row { padding: 14px; }
+
+  .trl-row-companies { gap: 6px; }
+
+  .trl-company-chip { padding: 6px 10px; }
+
+  .deal-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    padding: 10px 12px;
+  }
+
+  .deal-header { display: none; }
+
+  .deal-round-col, .deal-date-col, .deal-role-col { display: none; }
+
+  .signals-grid { grid-template-columns: 1fr; }
+
+  .market-map-grid { grid-template-columns: 1fr; }
+
+  .market-map-card { padding: 16px; }
+
+  .market-map-header { flex-direction: column; align-items: flex-start; gap: 6px; }
+
+  .mafia-grid { grid-template-columns: 1fr; }
+
+  .mafia-company-founders { display: none; }
+
+  .revenue-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    padding: 10px 12px;
+  }
+
+  .revenue-header { display: none; }
+
+  .rev-period-col, .rev-source-col { display: none; }
+
+  .revenue-grid { grid-template-columns: repeat(2, 1fr); }
+
+  .rfs-grid { grid-template-columns: 1fr; }
+
+  #network-canvas { height: 400px; }
+
+  .network-controls { flex-direction: column; align-items: flex-start; }
+
+  .network-legend { margin-left: 0; }
+
+  .portfolio-chart-row { grid-template-columns: 1fr; }
+
+  .portfolio-metrics-row { grid-template-columns: repeat(2, 1fr); }
+
+  .portfolio-holding-row { grid-template-columns: 1fr 80px 40px; }
+
+  .ph-sector, .ph-valuation { display: none; }
+
+  .scenario-controls { flex-direction: column; }
+
+  .memo-output { padding: 20px; }
+
+  .feed-item { grid-template-columns: 60px 1fr; }
+
+  .feed-impact { display: none; }
+
+  .feed-controls { flex-direction: column; }
+
+  .reports-grid { grid-template-columns: 1fr; }
+
+  .community-layout { grid-template-columns: 1fr; }
+
+  .value-prop-content { flex-direction: column; text-align: center; }
+
+  .value-prop-text { flex-direction: column; }
+
+  .mid-cta-actions { flex-direction: column; }
+
+  .mid-cta-box { padding: 24px; }
+
+  .command-bar {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .signals-panel {
+    width: 100%;
+  }
+
+  .screener-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .watchlist-kanban {
+    grid-template-columns: 1fr;
+    overflow-x: auto;
+  }
+
+  .expert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .network-status-bar {
+    display: none;
+  }
+
+  .thesis-collision-map {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 8px;
+  }
+
+  .thesis-detail-companies {
+    grid-template-columns: 1fr;
+  }
+
+  .secondary-grid,
+  .predictive-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .secondary-metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .alert-filters {
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 8px;
+  }
+
+  .predictive-tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 8px;
+  }
+
+  .prediction-highlight {
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-timestamp {
+    margin-left: 0;
+    margin-top: 8px;
+    font-size: 10px;
+  }
+
+  .data-freshness-indicator {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .automation-status {
+    grid-template-columns: 1fr;
+  }
+
+  .vod-stages { flex-direction: column; }
+
+  .vod-arrow { display: none; }
+
+  .vod-summary { grid-template-columns: repeat(2, 1fr); }
+
+  .vod-detail-grid { grid-template-columns: 1fr; }
+
+  .vod-timeline-row { grid-template-columns: 120px 1fr 80px; gap: 8px; padding: 10px 12px; }
+
+  .vod-timeline-company { font-size: 0.75rem; }
+
+  .vod-timeline-stage-labels {
+display: none;
+grid-template-columns: repeat(3, 1fr);
+  }
+
+  .award-card { flex-direction: column; gap: 12px; }
+
+  .award-card-left { min-width: auto; }
+
+  .award-card-right { text-align: left; }
+
+  .xray-grid { grid-template-columns: 1fr; }
+
+  .xray-metrics { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+
+  .readiness-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .readiness-metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .historical-controls {
+    flex-direction: column;
+  }
+
+  .timeline-event {
+    grid-template-columns: 60px 16px 1fr;
+  }
+
+  .timeline-value {
+    grid-column: 3;
+    margin-top: -8px;
+  }
+
+  .gov-demand-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gov-demand-summary {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .network-tools {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .network-search {
+    width: 100%;
+  }
+
+  .network-degrees-btn,
+  .network-export-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .discovery-tabs {
+    gap: 2px;
+    padding: 12px 8px;
+  }
+
+  .discovery-tab {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+
+  .discovery-tab .tab-label {
+    display: none;
+  }
+
+  .discovery-tab .tab-icon {
+    font-size: 20px;
+  }
+
+  #innovators-map-primary {
+    height: 50vh;
+    min-height: 350px;
+  }
+
+  .map-overlay-stats {
+    bottom: 12px;
+    left: 12px;
+    padding: 10px 14px;
+  }
+
+  .map-stat-number {
+    font-size: 18px;
+  }
+
+  .filter-bar-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-box-inline {
+    max-width: none;
+  }
+
+  .company-grid-inline {
+    grid-template-columns: 1fr;
+  }
+
+  .db-view-toggle {
+    margin: 0 auto 16px;
+  }
+
+  .db-view-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .investor-gate-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .investor-gate-content .gate-cta-btn {
+    margin-left: 0;
+  }
+
+  .opti-panel {
+    width: 360px;
+  }
+
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .il30-stats-bar {
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .il30-stat-number {
+    font-size: 18px;
+  }
+
   .loading-grid { grid-template-columns: 1fr; }
+
   .form-row { grid-template-columns: 1fr; }
+
   .modal-related-grid { grid-template-columns: 1fr; }
+
   .active-deployers-grid { grid-template-columns: 1fr; }
+
   .innovator50-preview { grid-template-columns: 1fr; }
+
   .differentiator-grid { grid-template-columns: 1fr; }
+
   .compare-iscore-dims { grid-template-columns: 1fr; }
+
   .community-grid { grid-template-columns: 1fr; }
+
   .deal-prediction-row { grid-template-columns: 1fr; }
-  .vod-timeline-stage-labels { grid-template-columns: repeat(3, 1fr); }
+
 }

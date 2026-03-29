@@ -1606,68 +1606,22 @@ document.addEventListener('DOMContentLoaded', () => {
   // Show loading skeletons immediately
   showLoadingSkeletons();
 
-  // Initialize stats with error boundary
-  try {
-    initStats();
-  } catch (e) {
-    // Stats init failed silently - non-critical
-  }
-
   // Safe init helper — prevents one broken section from taking down the page
   function safeInit(fn, name) {
     try { fn(); } catch (e) { console.error('[TIL] ' + (name || fn.name) + ' failed:', e); }
   }
 
-  // Initialize all sections with error isolation
-  safeInit(initDiscoveryHub);
-  safeInit(initFilters);
-  safeInit(() => renderCompanies(COMPANIES), 'renderCompanies');
-  safeInit(renderSectors);
+  // ── EAGER: Global UI that must run immediately ──
+  try { initStats(); } catch (e) { /* non-critical */ }
   safeInit(initSearch);
   safeInit(initScrollAnimations);
   safeInit(initMobileMenu);
   safeInit(initModal);
-  safeInit(initCompare);
   safeInit(initKeyboard);
-  safeInit(initMovementTracker);
-  safeInit(initTRLDashboard);
-  safeInit(initDealTracker);
-  safeInit(initCapitalFlowsTabs);
-  safeInit(initFundingTracker);
-  safeInit(initMarketPulse);
-  safeInit(initGrowthSignals);
-  safeInit(initLeaderboard);
-  safeInit(initEfficiencyLeaderboard);
-  safeInit(initMarketMap);
-  safeInit(initDatabaseViewToggle);
-  safeInit(initMafiaExplorer);
-  safeInit(initRevenueTable);
-  safeInit(initRequestForStartups);
-  safeInit(initNewsTicker);
-  safeInit(initFieldNotes);
-  safeInit(initInnovator50);
-  safeInit(initEvents);
-  safeInit(initSectorMomentum);
-  safeInit(initIPOPipeline);
-  safeInit(initInnovatorScores);
-  safeInit(initGovContracts);
-  safeInit(initPatentIntel);
-  safeInit(initAltData);
-  safeInit(initAlertsCenter);
-  safeInit(initIntelligenceHub);
-  safeInit(initPredictiveScoring);
-  safeInit(initNetworkGraph);
-  safeInit(initBattlefieldMap);
-  safeInit(initPortfolioBuilder);
-  safeInit(initAnomalyAlerts);
-  safeInit(initSectorReports);
-  safeInit(initIntelFeed);
-  safeInit(initHistoricalTracking);
   safeInit(initURLState);
   safeInit(initSmoothScroll);
   safeInit(() => updateResultsCount(COMPANIES.length), 'updateResultsCount');
   safeInit(initPremiumFeatures);
-  safeInit(initThesisCollision);
   safeInit(initSectionTimestamps);
   safeInit(initSectionNav);
   safeInit(initProgressiveDisclosure);
@@ -1675,6 +1629,69 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initRevealAnimations);
   safeInit(initCommandPalette);
   safeInit(initKeyboardShortcuts);
+
+  // ── LAZY: Section-specific init deferred until visible ──
+  // Map of section IDs → functions to fire when that section enters the viewport
+  var lazySections = {
+    'discovery-hub':          [initDiscoveryHub],
+    'companies':              [initFilters, function() { renderCompanies(COMPANIES); }, initCompare, initMarketMap, initDatabaseViewToggle],
+    'news-ticker':            [initNewsTicker],
+    'intelligence-hub':       [initMovementTracker, initAltData, initAlertsCenter, initIntelligenceHub, initIntelFeed],
+    'capital-flows':          [initDealTracker, initCapitalFlowsTabs, initRevenueTable],
+    'funding-tracker':        [initFundingTracker],
+    'market-pulse':           [initMarketPulse],
+    'growth-signals':         [initGrowthSignals],
+    'leaderboard':            [initLeaderboard, initEfficiencyLeaderboard],
+    'trl-rankings':           [initTRLDashboard],
+    'mafia-explorer':         [initMafiaExplorer],
+    'request-for-startups':   [initRequestForStartups],
+    'innovator50':            [initInnovator50],
+    'events':                 [initEvents],
+    'momentum':               [initSectorMomentum],
+    'ipo-pipeline':           [initIPOPipeline],
+    'innovator-scores':       [initInnovatorScores],
+    'gov-demand':             [initGovContracts],
+    'patent-intel':           [initPatentIntel],
+    'predictive-scores':      [initPredictiveScoring],
+    'network-graph':          [initNetworkGraph],
+    'competitive-battlefield':[initBattlefieldMap],
+    'portfolio-builder':      [initPortfolioBuilder],
+    'anomaly-alerts':         [initAnomalyAlerts],
+    'sector-reports':         [initSectorReports],
+    'historical-tracking':    [initHistoricalTracking],
+    'thesis-collision':       [initThesisCollision]
+  };
+
+  // IntersectionObserver: fires each section's init functions once when it enters viewport
+  if ('IntersectionObserver' in window) {
+    var lazyObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (!entry.isIntersecting) return;
+        var id = entry.target.id;
+        var fns = lazySections[id];
+        if (fns) {
+          fns.forEach(function(fn) { safeInit(fn); });
+          delete lazySections[id];  // Only run once
+        }
+        lazyObserver.unobserve(entry.target);
+      });
+    }, { rootMargin: '200px' });  // Start loading 200px before section enters viewport
+
+    Object.keys(lazySections).forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) {
+        lazyObserver.observe(el);
+      } else {
+        // Section not in DOM — init immediately as fallback (may be on another page)
+        lazySections[id].forEach(function(fn) { safeInit(fn); });
+      }
+    });
+  } else {
+    // Fallback for old browsers: init everything immediately
+    Object.keys(lazySections).forEach(function(id) {
+      lazySections[id].forEach(function(fn) { safeInit(fn); });
+    });
+  }
 
   // Always hide loading skeletons and update freshness, even if some inits failed
   hideLoadingSkeletons();
