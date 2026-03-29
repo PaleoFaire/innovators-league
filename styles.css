@@ -22,7 +22,6 @@
   /* ── Borders ── */
   --border:         rgba(255, 255, 255, 0.08);
   --border-hover:   rgba(255, 255, 255, 0.15);
-  --border-accent:  rgba(255, 255, 255, 0.20);
 
   /* ── Accent: Electric Orange ── */
   --accent:         #FF6B2C;
@@ -31,8 +30,6 @@
   --accent-hover:   #FF8147;
 
   /* ── Functional Colors ── */
-  --accent-blue:    #60a5fa;
-  --accent-blue-light: rgba(96, 165, 250, 0.10);
   --accent-bright:  #60a5fa;
 
   /* ── Derived Backgrounds ── */
@@ -46,8 +43,6 @@
   --radius-lg: 16px;
 
   /* ── Shadows (glow-based for dark) ── */
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
-  --shadow:    0 2px 8px rgba(0,0,0,0.5);
   --shadow-md: 0 4px 12px rgba(0,0,0,0.6);
   --shadow-lg: 0 8px 24px rgba(0,0,0,0.7);
   --glow:      0 0 20px rgba(255, 107, 44, 0.06);
@@ -61,15 +56,9 @@
   --text-sm:   0.8125rem;  /* 13px */
   --text-base: 0.875rem;   /* 14px */
   --text-md:   1rem;        /* 16px */
-  --text-lg:   1.25rem;     /* 20px */
   --text-xl:   1.5rem;      /* 24px */
-  --text-2xl:  1.75rem;     /* 28px */
-  --text-3xl:  2rem;        /* 32px */
-  --text-4xl:  2.5rem;      /* 40px */
-  --text-5xl:  3rem;        /* 48px */
 
   /* ── Spacing Scale (4px base) ── */
-  --space-1:  4px;
   --space-2:  8px;
   --space-3:  12px;
   --space-4:  16px;
@@ -77,19 +66,13 @@
   --space-6:  24px;
   --space-8:  32px;
   --space-10: 40px;
-  --space-12: 48px;
-  --space-16: 64px;
-  --space-20: 80px;
-  --space-24: 96px;
 
   /* ── Motion ── */
   --transition:      200ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
   --ease-out-expo:   cubic-bezier(0.16, 1, 0.3, 1);
-  --ease-out-back:   cubic-bezier(0.34, 1.56, 0.64, 1);
   --duration-fast:   150ms;
   --duration-normal: 300ms;
-  --duration-slow:   500ms;
   --duration-enter:  700ms;
 }
 
@@ -17231,4 +17214,18 @@ body {
   letter-spacing: 0.5px;
   text-transform: uppercase;
   vertical-align: middle;
+}
+
+/* ─── MOBILE GRID OVERRIDES (consolidated) ─── */
+@media (max-width: 768px) {
+  .loading-grid { grid-template-columns: 1fr; }
+  .form-row { grid-template-columns: 1fr; }
+  .modal-related-grid { grid-template-columns: 1fr; }
+  .active-deployers-grid { grid-template-columns: 1fr; }
+  .innovator50-preview { grid-template-columns: 1fr; }
+  .differentiator-grid { grid-template-columns: 1fr; }
+  .compare-iscore-dims { grid-template-columns: 1fr; }
+  .community-grid { grid-template-columns: 1fr; }
+  .deal-prediction-row { grid-template-columns: 1fr; }
+  .vod-timeline-stage-labels { grid-template-columns: repeat(3, 1fr); }
 }

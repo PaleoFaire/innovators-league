@@ -1,0 +1,908 @@
+/* valuations.html page-specific styles - extracted from inline */
+        /* Valuations-specific styles */
+        .valuations-hero {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+        }
+
+        /* ── Sector Valuation Map ── */
+        .sector-val-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 1.25rem;
+            margin-top: 2rem;
+        }
+
+        .sector-val-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: all 0.2s ease;
+        }
+
+        .sector-val-card:hover {
+            border-color: rgba(255,107,44,0.4);
+            transform: translateY(-2px);
+        }
+
+        .sector-val-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .sector-val-icon {
+            font-size: 1.5rem;
+        }
+
+        .sector-val-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .sector-val-note {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+            font-style: italic;
+            line-height: 1.4;
+        }
+
+        .stage-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .stage-table th {
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            padding: 0.4rem 0.5rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .stage-table td {
+            font-size: 0.82rem;
+            padding: 0.45rem 0.5rem;
+            color: var(--text-secondary);
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+        }
+
+        .stage-table td:first-child {
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 0.78rem;
+            text-transform: capitalize;
+        }
+
+        .stage-table td.median-val {
+            color: #FF6B2C;
+            font-weight: 600;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .stage-table .deals-count {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        /* ── Revenue Leaderboard ── */
+        .leaderboard-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .leaderboard-search {
+            flex: 1;
+            min-width: 200px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 0.6rem 1rem;
+            color: var(--text-primary);
+            font-size: 0.9rem;
+            font-family: 'Inter', sans-serif;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .leaderboard-search:focus {
+            border-color: #FF6B2C;
+        }
+
+        .leaderboard-search::placeholder {
+            color: var(--text-muted);
+        }
+
+        .leaderboard-table-wrap {
+            overflow-x: auto;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .leaderboard-table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 700px;
+        }
+
+        .leaderboard-table thead th {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            padding: 0.85rem 1rem;
+            text-align: left;
+            background: rgba(255,255,255,0.02);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            cursor: pointer;
+            user-select: none;
+            transition: color 0.2s;
+            white-space: nowrap;
+        }
+
+        .leaderboard-table thead th:hover {
+            color: #FF6B2C;
+        }
+
+        .leaderboard-table thead th.sorted-asc::after {
+            content: ' \u25B2';
+            font-size: 0.65rem;
+        }
+
+        .leaderboard-table thead th.sorted-desc::after {
+            content: ' \u25BC';
+            font-size: 0.65rem;
+        }
+
+        .leaderboard-table tbody tr {
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            transition: background 0.15s;
+        }
+
+        .leaderboard-table tbody tr:hover {
+            background: rgba(255,107,44,0.04);
+        }
+
+        .leaderboard-table tbody td {
+            padding: 0.75rem 1rem;
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+        }
+
+        .leaderboard-table tbody td:first-child {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .lb-multiple {
+            font-weight: 700;
+            font-family: 'Space Grotesk', sans-serif;
+            color: #FF6B2C;
+        }
+
+        .lb-vs-median {
+            font-weight: 600;
+            font-size: 0.82rem;
+        }
+
+        .lb-vs-median.premium { color: #ef4444; }
+        .lb-vs-median.fair { color: #eab308; }
+        .lb-vs-median.discount { color: #22c55e; }
+
+        /* ── Over/Under Score ── */
+        .over-under-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .ou-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.1rem 1.25rem;
+            transition: all 0.2s ease;
+        }
+
+        .ou-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .ou-card.premium {
+            border-color: rgba(239,68,68,0.3);
+        }
+
+        .ou-card.premium:hover {
+            border-color: rgba(239,68,68,0.5);
+            background: linear-gradient(135deg, rgba(239,68,68,0.05) 0%, rgba(239,68,68,0.02) 100%);
+        }
+
+        .ou-card.fair {
+            border-color: rgba(234,179,8,0.3);
+        }
+
+        .ou-card.fair:hover {
+            border-color: rgba(234,179,8,0.5);
+            background: linear-gradient(135deg, rgba(234,179,8,0.05) 0%, rgba(234,179,8,0.02) 100%);
+        }
+
+        .ou-card.discount {
+            border-color: rgba(34,197,94,0.3);
+        }
+
+        .ou-card.discount:hover {
+            border-color: rgba(34,197,94,0.5);
+            background: linear-gradient(135deg, rgba(34,197,94,0.05) 0%, rgba(34,197,94,0.02) 100%);
+        }
+
+        .ou-company {
+            font-weight: 700;
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .ou-sector {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-bottom: 0.6rem;
+        }
+
+        .ou-stats {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .ou-stat-item {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .ou-stat-item strong {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .ou-badge {
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .ou-badge.premium {
+            background: rgba(239,68,68,0.15);
+            color: #ef4444;
+        }
+
+        .ou-badge.fair {
+            background: rgba(234,179,8,0.15);
+            color: #eab308;
+        }
+
+        .ou-badge.discount {
+            background: rgba(34,197,94,0.15);
+            color: #22c55e;
+        }
+
+        .ou-legend {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: rgba(255,255,255,0.02);
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .ou-legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+        }
+
+        .ou-legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        /* ── IPO Tracker ── */
+        .ipo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.25rem;
+            margin-top: 2rem;
+        }
+
+        .ipo-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: all 0.2s ease;
+        }
+
+        .ipo-card:hover {
+            border-color: rgba(255,107,44,0.4);
+            transform: translateY(-2px);
+        }
+
+        .ipo-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+
+        .ipo-company {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--text-primary);
+        }
+
+        .ipo-likelihood {
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .ipo-likelihood.high {
+            background: rgba(34,197,94,0.15);
+            color: #22c55e;
+        }
+
+        .ipo-likelihood.medium {
+            background: rgba(234,179,8,0.15);
+            color: #eab308;
+        }
+
+        .ipo-likelihood.low {
+            background: rgba(239,68,68,0.15);
+            color: #ef4444;
+        }
+
+        .ipo-status {
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+        }
+
+        .ipo-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .ipo-meta strong {
+            color: var(--text-secondary);
+        }
+
+        .ipo-progress-wrap {
+            margin-top: 0.5rem;
+        }
+
+        .ipo-progress-label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 0.3rem;
+        }
+
+        .ipo-progress-bar {
+            height: 6px;
+            background: rgba(255,255,255,0.06);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .ipo-progress-fill {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.6s ease;
+        }
+
+        .ipo-progress-fill.high { background: linear-gradient(90deg, #22c55e, #4ade80); }
+        .ipo-progress-fill.medium { background: linear-gradient(90deg, #eab308, #facc15); }
+        .ipo-progress-fill.low { background: linear-gradient(90deg, #ef4444, #f87171); }
+
+        /* ── M&A Comps ── */
+        .ma-table-wrap {
+            overflow-x: auto;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.08);
+            margin-top: 2rem;
+        }
+
+        .ma-table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 650px;
+        }
+
+        .ma-table thead th {
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            padding: 0.85rem 1rem;
+            text-align: left;
+            background: rgba(255,255,255,0.02);
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .ma-table tbody tr {
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            transition: background 0.15s;
+        }
+
+        .ma-table tbody tr:hover {
+            background: rgba(255,107,44,0.04);
+        }
+
+        .ma-table tbody td {
+            padding: 0.75rem 1rem;
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+        }
+
+        .ma-type-badge {
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        .ma-type-badge.completed {
+            background: rgba(34,197,94,0.15);
+            color: #22c55e;
+        }
+
+        .ma-type-badge.rumored {
+            background: rgba(234,179,8,0.15);
+            color: #eab308;
+        }
+
+        .ma-type-badge.comparable {
+            background: rgba(107,114,128,0.15);
+            color: #9ca3af;
+        }
+
+        /* ── Deal Signals ── */
+        .deal-signals-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.25rem;
+            margin-top: 2rem;
+        }
+
+        .deal-signal-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: all 0.2s ease;
+        }
+
+        .deal-signal-card:hover {
+            border-color: rgba(255,107,44,0.4);
+            transform: translateY(-2px);
+        }
+
+        .ds-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .ds-company {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1.05rem;
+            color: var(--text-primary);
+        }
+
+        .ds-probability {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 800;
+            font-size: 1.1rem;
+            color: #FF6B2C;
+        }
+
+        .ds-meta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.75rem;
+        }
+
+        .ds-meta-item {
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+        }
+
+        .ds-meta-item span {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            display: block;
+        }
+
+        .ds-progress-bar {
+            height: 6px;
+            background: rgba(255,255,255,0.06);
+            border-radius: 3px;
+            overflow: hidden;
+            margin-bottom: 0.75rem;
+        }
+
+        .ds-progress-fill {
+            height: 100%;
+            border-radius: 3px;
+            background: linear-gradient(90deg, #FF6B2C, #ff9933);
+            transition: width 0.6s ease;
+        }
+
+        .ds-signals {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .ds-signal-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            padding: 0.35rem 0.5rem;
+            background: rgba(255,255,255,0.02);
+            border-radius: 6px;
+        }
+
+        .ds-signal-type {
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-size: 0.68rem;
+            letter-spacing: 0.5px;
+            min-width: 65px;
+        }
+
+        .ds-signal-desc {
+            color: var(--text-secondary);
+            flex: 1;
+            margin: 0 0.5rem;
+        }
+
+        .ds-signal-weight {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+            color: #FF6B2C;
+            font-size: 0.78rem;
+        }
+
+        .ds-leads {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+        }
+
+        .ds-leads strong {
+            color: var(--text-secondary);
+        }
+
+        /* ── Summary Stats Banner ── */
+        .val-stats-banner {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .val-stat-card {
+            background: linear-gradient(135deg, rgba(255,107,44,0.08) 0%, rgba(255,107,44,0.02) 100%);
+            border: 1px solid rgba(255,107,44,0.2);
+            border-radius: 12px;
+            padding: 1.25rem;
+            text-align: center;
+        }
+
+        .val-stat-number {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #FF6B2C;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .val-stat-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        /* ── Empty / Loading State ── */
+        .val-empty {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* ── Capital Flow Heatmap ── */
+        .cap-heatmap-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .cap-stat-card {
+            background: linear-gradient(135deg, rgba(255,107,44,0.08) 0%, rgba(255,107,44,0.02) 100%);
+            border: 1px solid rgba(255,107,44,0.2);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .cap-stat-number {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #FF6B2C;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .cap-stat-label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        .cap-heatmap-wrapper {
+            overflow-x: auto;
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            background: rgba(0,0,0,0.15);
+        }
+
+        .cap-heatmap-grid {
+            display: grid;
+            grid-template-columns: 160px repeat(7, 1fr);
+            gap: 2px;
+            padding: 1rem;
+            min-width: 700px;
+        }
+
+        .cap-hm-corner {
+            padding: 8px;
+        }
+
+        .cap-hm-col-header {
+            padding: 8px 4px;
+            text-align: center;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+        }
+
+        .cap-hm-row-label {
+            padding: 8px 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            white-space: nowrap;
+        }
+
+        .cap-hm-row-icon {
+            font-size: 14px;
+        }
+
+        .cap-hm-cell {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 54px;
+            border-radius: 6px;
+            padding: 6px 4px;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+            cursor: default;
+        }
+
+        .cap-hm-cell:hover {
+            transform: scale(1.08);
+            box-shadow: 0 4px 12px rgba(255,107,44,0.3);
+            z-index: 2;
+            position: relative;
+        }
+
+        .cap-hm-cell-amount {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .cap-hm-cell-count {
+            font-size: 0.6rem;
+            color: rgba(255,255,255,0.6);
+            margin-top: 1px;
+        }
+
+        .cap-hm-cell.empty {
+            background: rgba(255,255,255,0.02);
+        }
+
+        .cap-hm-cell.empty .cap-hm-cell-amount {
+            color: var(--text-muted);
+            font-size: 0.65rem;
+        }
+
+        .cap-heatmap-legend {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            border-top: 1px solid var(--border);
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        .cap-legend-bar {
+            width: 120px;
+            height: 8px;
+            border-radius: 4px;
+            background: linear-gradient(to right, rgba(255,107,44,0.08), rgba(255,107,44,0.85));
+        }
+
+        /* Velocity Cards */
+        .cap-velocity-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .cap-velocity-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: border-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .cap-velocity-card:hover {
+            border-color: rgba(255,107,44,0.4);
+            transform: translateY(-2px);
+        }
+
+        .cap-vel-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .cap-vel-icon {
+            font-size: 20px;
+        }
+
+        .cap-vel-sector {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .cap-vel-total {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #FF6B2C;
+            margin-bottom: 0.75rem;
+        }
+
+        .cap-vel-stats {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .cap-vel-stat {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.78rem;
+        }
+
+        .cap-vel-stat-label {
+            color: var(--text-muted);
+        }
+
+        .cap-vel-stat-value {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .cap-vel-cluster {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 3px 8px;
+            background: rgba(139, 92, 246, 0.15);
+            color: #a78bfa;
+            border-radius: 8px;
+            font-size: 0.65rem;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .sector-val-grid {
+                grid-template-columns: 1fr;
+            }
+            .over-under-grid {
+                grid-template-columns: 1fr;
+            }
+            .ipo-grid {
+                grid-template-columns: 1fr;
+            }
+            .deal-signals-grid {
+                grid-template-columns: 1fr;
+            }
+            .leaderboard-controls {
+                flex-direction: column;
+            }
+            .ou-legend {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+            .cap-velocity-grid {
+                grid-template-columns: 1fr;
+            }
+            .cap-heatmap-grid {
+                min-width: 650px;
+            }
+        }
+
+/* ─── MOBILE GRID OVERRIDES ─── */
+@media (max-width: 768px) {
+  .val-stats-banner { grid-template-columns: 1fr; }
+  .cap-heatmap-stats { grid-template-columns: 1fr; }
+}

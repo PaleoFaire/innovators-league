@@ -1,0 +1,136 @@
+/* investors.html page-specific styles - extracted from inline */
+        /* Co-Investment Graph Enhancements */
+        .graph-loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            height: 100%;
+            color: rgba(255,255,255,0.4);
+            font-size: 0.85rem;
+        }
+        .graph-loading-spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid rgba(255,255,255,0.1);
+            border-top-color: var(--accent, #ff6b35);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        .co-invest-info-panel {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            width: 280px;
+            max-height: 460px;
+            overflow-y: auto;
+            background: rgba(10,10,10,0.95);
+            border: 1px solid rgba(255,255,255,0.12);
+            border-radius: 12px;
+            padding: 16px;
+            backdrop-filter: blur(12px);
+            z-index: 10;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+        .co-invest-graph-container {
+            position: relative;
+        }
+        .info-panel-close {
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            background: none;
+            border: none;
+            color: rgba(255,255,255,0.5);
+            font-size: 1.2rem;
+            cursor: pointer;
+            padding: 2px 6px;
+            line-height: 1;
+        }
+        .info-panel-close:hover { color: #fff; }
+        .info-panel-firm {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--accent, #ff6b35);
+            margin-bottom: 4px;
+        }
+        .info-panel-meta {
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.45);
+            margin-bottom: 12px;
+        }
+        .info-panel-section-title {
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: rgba(255,255,255,0.35);
+            margin: 12px 0 6px;
+        }
+        .info-panel-connection {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 6px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .info-panel-connection:last-child { border-bottom: none; }
+        .info-conn-name {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #fff;
+            white-space: nowrap;
+        }
+        .info-conn-count {
+            font-size: 0.65rem;
+            font-weight: 700;
+            color: var(--accent, #ff6b35);
+            background: rgba(255,107,53,0.12);
+            padding: 1px 6px;
+            border-radius: 3px;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .info-conn-companies {
+            font-size: 0.7rem;
+            color: rgba(255,255,255,0.45);
+            line-height: 1.4;
+        }
+        .info-panel-total {
+            margin-top: 12px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.5);
+            text-align: center;
+        }
+
+        /* Graph SVG enhancements */
+        .co-invest-graph svg {
+            display: block;
+        }
+        .co-invest-graph .node circle {
+            filter: drop-shadow(0 0 6px rgba(255,107,53,0.3));
+        }
+        .co-invest-graph .node:hover circle {
+            filter: drop-shadow(0 0 12px rgba(255,107,53,0.6));
+        }
+        .co-invest-graph .node.selected circle {
+            stroke: #fff;
+            stroke-width: 3px;
+            filter: drop-shadow(0 0 16px rgba(255,107,53,0.8));
+        }
+        .co-invest-graph .edge-label {
+            font-size: 9px;
+            fill: rgba(255,255,255,0.3);
+            pointer-events: none;
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 600;
+        }
+        .co-invest-graph .link.highlighted + .edge-label,
+        .co-invest-graph .edge-label.highlighted {
+            fill: rgba(255,255,255,0.7);
+        }
