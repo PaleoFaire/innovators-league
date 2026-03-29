@@ -1,5 +1,51 @@
 [
   {
+    "title": "TechCrunch Mobility: When a robotaxi has to call 911",
+    "link": "https://techcrunch.com/2026/03/29/techcrunch-mobility-when-a-robotaxi-has-to-call-911/",
+    "description": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+    "pubDate": "Sun, 29 Mar 2026 16:05:00 +0000",
+    "category": "Transportation",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Waymo",
+    "matchedCompanies": [
+      "Waymo",
+      "Zoox"
+    ],
+    "sectors": [
+      "ai",
+      "transportation"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "California&#8217;s Hydrogen Infrastructure Collapse Proves What We&#8217;ve Known All Along",
+    "link": "https://cleantechnica.com/2026/03/29/californias-hydrogen-infrastructure-collapse-proves-what-weve-known-all-along/",
+    "description": "The Explosive Tipping Point Late on the night of Tuesday, February 24, 2026, California&#8217;s hydrogen mobility market ground to a sudden halt when an explosion tore through an industrial truck storage yard located at 3994 Miguel Bustamante Parkway in Colton, California. According to fire departme",
+    "pubDate": "Sun, 29 Mar 2026 14:30:47 +0000",
+    "category": "Clean Transport",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Karman Industries",
+    "matchedCompanies": [
+      "Karman Industries",
+      "Solugen",
+      "Gecko Robotics",
+      "Teralta",
+      "H2 Green Steel"
+    ],
+    "sectors": [
+      "climate",
+      "robotics",
+      "infrastructure"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
     "title": "A School District Tried to Help Train Waymos to Stop for School Buses. It Didn’t Work",
     "link": "https://www.wired.com/story/a-school-district-tried-to-help-train-waymos-to-stop-for-school-buses-it-didnt-work/",
     "description": "The incidents in Austin raise questions about how self-driving cars “learn” and adapt to their surroundings.",
@@ -18,7 +64,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Anthropic&#8217;s Claude popularity with paying consumers is skyrocketing",
@@ -39,7 +85,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Your Vape Wants to Know How Old You Are",
@@ -432,7 +478,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The Week’s 10 Biggest Funding Rounds: A Varied Week For Big Deals, Led By AI And Defense",
@@ -452,7 +498,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Rivian gets another $1B from Volkswagen",
@@ -471,26 +517,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "1d ago"
-  },
-  {
-    "title": "Iranian hackers claim breach of FBI director Kash Patel&#8217;s personal email account",
-    "link": "https://techcrunch.com/2026/03/27/iranian-hackers-claim-breach-of-fbi-director-kash-patels-personal-email-account/",
-    "description": "Handala, a pro-Iranian hacking group allegedly working for Iran’s government, published emails it said were taken from the Gmail account of FBI director Kash Patel.",
-    "pubDate": "Fri, 27 Mar 2026 15:39:07 +0000",
-    "category": "Government & Policy",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "US uses hundreds of Tomahawk missiles on Iran, alarming some at Pentagon",
@@ -509,7 +536,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Pony.ai on a Roll — Uber Collab, Breakeven in Shenzhen, 3,000 Robotaxi Target",
@@ -530,7 +557,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Building a hypersonic pathway to orbit with Mark Bigham",
@@ -549,7 +576,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "State Department clears $340M FMS request for hypersonic missile testing support for Japan",
@@ -568,7 +595,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "NATO sees $145B in munitions needs, as members all hit 2 percent GDP for first time",
@@ -588,29 +615,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI shuts down Sora while Meta gets shut out in court",
-    "link": "https://techcrunch.com/video/openai-shuts-down-sora-while-meta-gets-shut-out-in-court/",
-    "description": "When an 82-year-old Kentucky woman was&#160;offered $26 million&#160;from an AI company that wanted to build a data center on her land, she said no. Sure, that same company can try to rezone&#160;2,000 acres&#160;nearby anyway, but as AI infrastructure stretches further into the real world,&#160;the",
-    "pubDate": "Fri, 27 Mar 2026 13:30:00 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Astera Labs",
-      "Rebellions"
-    ],
-    "sectors": [
-      "ai",
-      "chips"
-    ],
-    "type": "news",
-    "impact": "medium",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The ‘ground truth’ gap in AgTech: Why satellites alone can’t save supply chains",
@@ -1110,7 +1115,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "A $20 Billion Crypto Scam Market Faces a New Government Crackdown",
@@ -1129,7 +1134,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Electric Trucks Are Getting A Lift From You-Know-Who",
@@ -1150,7 +1155,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Hughes targets sovereign satcom demand with network control software",
@@ -1169,7 +1174,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Using a VPN May Subject You to NSA Spying",
@@ -1189,7 +1194,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "California Regulators Signal Ratepayer Protection in Initial Rejection to SoCalGas",
@@ -1418,29 +1423,6 @@
     "time": "3d ago"
   },
   {
-    "title": "Turning the Plan Into Action: Next Steps for Oʻahu’s Clean Energy System",
-    "link": "https://cleantechnica.com/2026/03/25/turning-the-plan-into-action-next-steps-for-o%ca%bbahus-clean-energy-system/",
-    "description": "This is the culminating article in a series exploring from the outside a decarbonization solution set and coarse roadmap for Hawaiʻi. It is a set of possible next actions that a Hawaiian agency, utility, authority, or coalition could undertake if the roadmap outlined in this series is worth explorin",
-    "pubDate": "Wed, 25 Mar 2026 21:27:18 +0000",
-    "category": "Biomass",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Karman Industries",
-    "matchedCompanies": [
-      "Karman Industries",
-      "Brimstone",
-      "Boston Metal",
-      "Sublime Systems",
-      "H2 Green Steel"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "3d ago"
-  },
-  {
     "title": "Office of Space Commerce releases mission authorization proposal",
     "link": "https://spacenews.com/office-of-space-commerce-releases-mission-authorization-proposal/",
     "description": "\nThe Office of Space Commerce has rolled out its proposal for a “light touch” approach to mission authorization, the latest attempt in an effort to regulate new commercial space applications.\nThe post Office of Space Commerce releases mission authorization proposal appeared first on SpaceNews.",
@@ -1564,7 +1546,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Exclusive: YC Doubles Down On Trayd, A Construction Tech Startup That Just Raised $10M In 3 Weeks",
@@ -1585,25 +1567,6 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "4d ago"
-  },
-  {
-    "title": "German army eyes AI tools to expedite wartime decision-making",
-    "link": "https://www.defensenews.com/global/europe/2026/03/25/german-army-eyes-ai-tools-to-expedite-wartime-decision-making/",
-    "description": "Taking cues from combat operations in Ukraine, the German army wants to exploit battlefield data to predict the dynamics of future conflicts.",
-    "pubDate": "Wed, 25 Mar 2026 12:05:04 +0000",
-    "category": "/ Europe",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "PILGRIM",
-    "matchedCompanies": [
-      "PILGRIM"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "news",
-    "impact": "low",
     "time": "4d ago"
   },
   {
@@ -1833,7 +1796,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "What Will It Take to Build the World’s Largest Data Center?",
@@ -1853,7 +1816,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "The Coming Drone-War Inflection in Ukraine",
