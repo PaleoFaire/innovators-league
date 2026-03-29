@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROS Startup Database | Rational Optimist Society</title>
     <meta name="description" content="The definitive intelligence database of the world's most ambitious startups — mapped, assessed, and tracked by the founders building the future.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:title" content="The Innovators League | ROS Startup Database">
+    <meta property="og:description" content="The definitive intelligence database of the world's most ambitious startups.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="The Innovators League | ROS Startup Database">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -464,6 +471,50 @@
         </div>
     </section>
 
+    <!-- Valuation & Efficiency Leaderboard -->
+    <section class="leaderboard-section" id="leaderboard">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">RANKINGS</p>
+                <h2>Valuation Leaderboard</h2>
+                <p>Frontier tech companies ranked by valuation and capital efficiency.</p>
+            </div>
+            <div class="leaderboard-controls">
+                <select id="lb-sort" class="lb-filter-select">
+                    <option value="valuation">Sort: Valuation</option>
+                    <option value="score">Sort: Frontier Score</option>
+                    <option value="funding">Sort: Total Raised</option>
+                    <option value="name">Sort: Name</option>
+                </select>
+                <select id="lb-stage" class="lb-filter-select">
+                    <option value="all">Stage: All</option>
+                    <option value="private">Private</option>
+                    <option value="public">Public</option>
+                    <option value="pre-ipo">Pre-IPO</option>
+                </select>
+                <select id="lb-sector" class="lb-filter-select">
+                    <option value="all">Sector: All</option>
+                </select>
+                <select id="lb-count" class="lb-filter-select">
+                    <option value="25">Top 25</option>
+                    <option value="50">Top 50</option>
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div id="lb-stats"></div>
+            <div class="ranking-tabs">
+                <button class="ranking-tab active" data-ranking="valuation">Valuation Rankings</button>
+                <button class="ranking-tab" data-ranking="efficiency">Capital Efficiency</button>
+            </div>
+            <div id="valuation-view">
+                <div id="leaderboard-grid"></div>
+            </div>
+            <div id="efficiency-view" style="display:none;">
+                <div id="efficiency-grid"></div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- CAPITAL & MARKET ACTIVITY -->
 
@@ -494,6 +545,54 @@
             <div class="capital-panel" id="revenue-panel" data-panel="revenue">
                 <div class="revenue-grid-container" id="revenue-grid"></div>
             </div>
+        </div>
+    </section>
+
+    <!-- Market Pulse: Live Stock Prices -->
+    <section class="market-pulse-section" id="market-pulse">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">MARKET PULSE</p>
+                <h2>Public Company Tracker</h2>
+                <p>Live stock prices for publicly traded frontier tech companies in our database.</p>
+            </div>
+            <div class="market-pulse-grid-wrap" id="market-pulse-grid"></div>
+        </div>
+    </section>
+
+    <!-- Funding Tracker -->
+    <section class="funding-tracker-section" id="funding-tracker">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">FUNDING INTELLIGENCE</p>
+                <h2>Recent Funding Rounds</h2>
+                <p>The latest funding activity across frontier tech companies.</p>
+            </div>
+            <div id="funding-tracker-grid"></div>
+        </div>
+    </section>
+
+    <!-- Growth Signals -->
+    <section class="growth-signals-section" id="growth-signals">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">GROWTH INTELLIGENCE</p>
+                <h2>Growth Signals</h2>
+                <p>Companies showing accelerating momentum across hiring, funding, news, and government traction.</p>
+            </div>
+            <div id="signals-grid"></div>
+        </div>
+    </section>
+
+    <!-- Hot This Week: Anomaly Detection -->
+    <section class="anomaly-section" id="anomaly-alerts">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">SIGNAL CONVERGENCE</p>
+                <h2>Hot This Week</h2>
+                <p>Companies with multiple converging signals &mdash; news, hiring, funding, and government traction firing simultaneously.</p>
+            </div>
+            <div id="anomaly-grid"></div>
         </div>
     </section>
 
@@ -1200,6 +1299,18 @@
         </div>
     </div>
 
+    <!-- Sector Reports -->
+    <section class="sector-reports-section" id="sector-reports">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">SECTOR INTELLIGENCE</p>
+                <h2>Sector Reports</h2>
+                <p>Deep-dive analysis of each frontier tech sector with top companies, trends, and thesis insights.</p>
+            </div>
+            <div id="reports-grid"></div>
+        </div>
+    </section>
+
     <!-- Data Methodology Section -->
     <section class="methodology-section" id="methodology">
         <div class="container">
@@ -1302,6 +1413,14 @@
     <script src="data/arpa_e_projects_auto.js?v=20260325"></script>
     <script src="data/nih_grants_auto.js?v=20260325"></script>
     <script src="data/sbir_awards_auto.js?v=20260325"></script>
+    <script src="data/congress_bills_auto.js?v=20260325"></script>
+    <script src="data/faa_certification_auto.js?v=20260325"></script>
+    <script src="data/nrc_licensing_auto.js?v=20260325"></script>
+    <script src="data/sbir_topics_auto.js?v=20260325"></script>
+    <script src="data/product_launches_auto.js?v=20260325"></script>
+    <script src="data/headcount_estimates_auto.js?v=20260325"></script>
+    <script src="data/trade_data_auto.js?v=20260325"></script>
+    <script src="data/diffbot_enrichment_auto.js?v=20260325"></script>
     <script src="app.js?v=20260325"></script>
 </body>
 </html>

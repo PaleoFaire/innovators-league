@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deal Flow Engine | ROS Fund Intelligence</title>
     <meta name="robots" content="noindex, nofollow">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:title" content="Deal Flow Engine | ROS Fund Intelligence">
+    <meta property="og:description" content="Private deal flow intelligence for frontier technology investors.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Deal Flow Engine | ROS Fund Intelligence">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -1130,6 +1137,9 @@
                 <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
             </div>
         </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
     </nav>
     <!-- Breadcrumb Navigation -->
     <div class="breadcrumb" aria-label="Breadcrumb">
@@ -1275,5 +1285,11 @@
     <script src="data.js?v=20260325"></script>
     <script src="data/stocks_auto.js?v=20260325"></script>
     <script src="dealflow.js?v=20260325"></script>
+    <script>
+    (function(){
+      var btn=document.querySelector('.mobile-menu-btn'),links=document.querySelector('.nav-links');
+      if(btn&&links){btn.addEventListener('click',function(){links.classList.toggle('open');btn.classList.toggle('open');});}
+    })();
+    </script>
 </body>
 </html>

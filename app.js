@@ -1633,6 +1633,11 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initTRLDashboard);
   safeInit(initDealTracker);
   safeInit(initCapitalFlowsTabs);
+  safeInit(initFundingTracker);
+  safeInit(initMarketPulse);
+  safeInit(initGrowthSignals);
+  safeInit(initLeaderboard);
+  safeInit(initEfficiencyLeaderboard);
   safeInit(initMarketMap);
   safeInit(initDatabaseViewToggle);
   safeInit(initMafiaExplorer);
@@ -1654,6 +1659,8 @@ document.addEventListener('DOMContentLoaded', () => {
   safeInit(initNetworkGraph);
   safeInit(initBattlefieldMap);
   safeInit(initPortfolioBuilder);
+  safeInit(initAnomalyAlerts);
+  safeInit(initSectorReports);
   safeInit(initIntelFeed);
   safeInit(initHistoricalTracking);
   safeInit(initURLState);
