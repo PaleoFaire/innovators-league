@@ -12860,6 +12860,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-03-27
 // Auto-updated IPO pipeline — Last updated: 2026-03-28
 // Auto-updated IPO pipeline — Last updated: 2026-03-29
+// Auto-updated IPO pipeline — Last updated: 2026-03-29
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -13569,6 +13570,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-03-28
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-03-29
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-03-29
 const DEAL_TRACKER = [
   { company: "Intuitive Machines", investor: "Undisclosed", amount: "$175M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
   { company: "PLD Space", investor: "Accel", amount: "$118M", round: "SPAC", date: "2026-03", valuation: "", leadOrParticipant: "lead" },
@@ -14158,6 +14161,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-03-26
 // Auto-updated revenue intelligence — Last updated: 2026-03-27
 // Auto-updated revenue intelligence — Last updated: 2026-03-28
+// Auto-updated revenue intelligence — Last updated: 2026-03-29
 // Auto-updated revenue intelligence — Last updated: 2026-03-29
 const REVENUE_INTEL = [
   { company: "NVIDIA", revenue: "$215.9B", period: "2026 Annual", growth: "+65% YoY", source: "SEC 10-K (NVDA)" },
@@ -18288,6 +18292,8 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-03-28
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-03-29
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-03-29
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], lastUpdated: "2026-02-06" },
   { company: "Anduril Industries", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"], lastUpdated: "2026-02-06" },
@@ -19467,11 +19473,13 @@ const BUDGET_SIGNALS = [
 // Last updated: 2026-03-28
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-03-29
+// Auto-updated patent intelligence (curated scores + USPTO data)
+// Last updated: 2026-03-29
 const PATENT_INTEL = [
   { company: "SpaceX", totalPatents: 220, velocity: "15-25/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Reusable Launch Systems", "Satellite Constellation (Starlink)", "Raptor Engine Design"], notablePatents: ["Rocket landing leg deployment and recovery system", "Inter-satellite optical communication link"], note: "SpaceX famously relies on trade secrets over patents (Elon Musk has stated competitors could copy patented designs). Actual IP moat is far larger than patent count suggests due to manufacturing know-how and iterative flight data." },
   { company: "Anduril Industries", totalPatents: 29, velocity: "9-19/yr", velocityTrend: "accelerating", ipMoatScore: 8, techAreas: ["Autonomous Defense Systems", "Sensor Fusion & Surveillance", "Counter-UAS Systems"], notablePatents: ["Autonomous drone interception and neutralization system", "Mesh sensor network for border surveillance (Lattice)"], note: "Rapid patent growth mirrors aggressive product expansion into autonomous systems, Lattice OS, and counter-drone platforms. Acquired Dive Technologies IP in undersea autonomy." },
   { company: "Palantir", totalPatents: 100, velocity: "45-55/yr", velocityTrend: "steady", ipMoatScore: 9, techAreas: ["Data Integration & Ontology", "AI/ML Analytics Platforms", "Privacy-Preserving Computation"], notablePatents: ["Dynamic ontology-based data integration system", "Object-centric data modeling for intelligence analysis"], note: "Palantir has one of the strongest software patent portfolios in defense tech. Patents heavily cover Gotham/Foundry/AIP architecture and data fusion methods." },
-  { company: "Shield AI", totalPatents: 65, velocity: "27-37/yr", velocityTrend: "accelerating", ipMoatScore: 7, techAreas: ["Autonomous Flight (Hivemind)", "GPS-Denied Navigation", "Swarm Intelligence"], notablePatents: ["Autonomous aerial vehicle navigation in GPS-denied environments", "Multi-agent cooperative flight control system"], note: "Core IP centers on Hivemind autonomy stack. Acquired Martin UAV and Heron Systems IP, significantly expanding patent portfolio in AI piloting." },
+  { company: "Shield AI", totalPatents: 64, velocity: "27-37/yr", velocityTrend: "accelerating", ipMoatScore: 7, techAreas: ["Autonomous Flight (Hivemind)", "GPS-Denied Navigation", "Swarm Intelligence"], notablePatents: ["Autonomous aerial vehicle navigation in GPS-denied environments", "Multi-agent cooperative flight control system"], note: "Core IP centers on Hivemind autonomy stack. Acquired Martin UAV and Heron Systems IP, significantly expanding patent portfolio in AI piloting." },
   { company: "Boom Supersonic", totalPatents: 85, velocity: "15-20/yr", velocityTrend: "steady", ipMoatScore: 6, techAreas: ["Supersonic Aerodynamics", "Low-Boom Airframe Design", "Sustainable Aviation Fuel Compatibility"], notablePatents: ["Contoured fuselage design for reduced sonic boom signature", "Supersonic inlet system with variable geometry"], note: "Patent portfolio focuses on aerodynamic innovations for Overture. Many designs build on decades of supersonic research but with novel sustainability angles." },
   { company: "Hermeus", totalPatents: 35, velocity: "8-12/yr", velocityTrend: "accelerating", ipMoatScore: 5, techAreas: ["Hypersonic Propulsion (TBCC)", "High-Speed Airframe Design", "Turbine-Based Combined Cycle Engines"], notablePatents: ["Turbine-based combined cycle engine transition mechanism", "Thermal management system for hypersonic vehicles"], note: "Early-stage patent portfolio growing with Quarterhorse and Darkhorse programs. Core IP in propulsion mode transition between turbine and ramjet." },
   { company: "Helion", totalPatents: 5, velocity: "1-7/yr", velocityTrend: "accelerating", ipMoatScore: 7, techAreas: ["Pulsed Fusion Reactors", "Field-Reversed Configuration Plasma", "Direct Energy Conversion"], notablePatents: ["Pulsed field-reversed configuration fusion reactor", "Direct electricity extraction from fusion plasma without steam turbine"], note: "Helion's direct energy conversion approach is a key differentiator with strong IP protection. Microsoft PPA validates commercial viability of their approach." },
@@ -19486,17 +19494,17 @@ const PATENT_INTEL = [
   { company: "Planet Labs", totalPatents: 130, velocity: "15-20/yr", velocityTrend: "steady", ipMoatScore: 7, techAreas: ["Small Satellite Imaging", "Earth Observation Analytics", "Satellite Constellation Management"], notablePatents: ["CubeSat-class Earth imaging satellite design", "Automated geospatial change detection from satellite imagery"], note: "Public company (NYSE: PL). IP covers both hardware (Dove/SuperDove satellites) and software (analytics platform). Operates 200+ imaging satellites." },
   { company: "Relativity Space", totalPatents: 18, velocity: "4-14/yr", velocityTrend: "steady", ipMoatScore: 7, techAreas: ["3D-Printed Rocket Manufacturing", "Additive Manufacturing for Aerospace", "Autonomous Rocket Factory"], notablePatents: ["Large-scale metal 3D printing for rocket structures (Stargate)", "Automated quality inspection for additively manufactured aerospace components"], note: "Core IP is in Stargate - the world's largest metal 3D printer. Terran R (fully reusable) is next-gen vehicle. Pivot from Terran 1 to Terran R shows manufacturing IP flexibility." },
   { company: "Rocket Lab", totalPatents: 2, velocity: "1-6/yr", velocityTrend: "accelerating", ipMoatScore: 7, techAreas: ["Small Launch Vehicles", "Satellite Bus Manufacturing", "Rutherford Electric Turbopump Engine"], notablePatents: ["Electric turbopump-fed rocket engine (Rutherford)", "Mid-air helicopter recovery of rocket boosters"], note: "Public company (NASDAQ: RKLB). Unique Rutherford engine with 3D-printed components and electric pumps. Expanding IP into Neutron medium-lift vehicle and spacecraft components." },
-  { company: "Skydio", totalPatents: 96, velocity: "43-53/yr", velocityTrend: "steady", ipMoatScore: 8, techAreas: ["Autonomous Drone Navigation", "Visual-Inertial Odometry", "AI-Powered Flight Planning"], notablePatents: ["Vision-based autonomous obstacle avoidance for drones", "Real-time 3D scene reconstruction for autonomous flight"], note: "Leading US drone maker with strongest autonomy IP in the commercial drone space. Skydio X10 platform core to defense and enterprise. Key DoD supplier." },
+  { company: "Skydio", totalPatents: 95, velocity: "42-52/yr", velocityTrend: "steady", ipMoatScore: 8, techAreas: ["Autonomous Drone Navigation", "Visual-Inertial Odometry", "AI-Powered Flight Planning"], notablePatents: ["Vision-based autonomous obstacle avoidance for drones", "Real-time 3D scene reconstruction for autonomous flight"], note: "Leading US drone maker with strongest autonomy IP in the commercial drone space. Skydio X10 platform core to defense and enterprise. Key DoD supplier." },
   { company: "Applied Intuition", totalPatents: 70, velocity: "15-20/yr", velocityTrend: "accelerating", ipMoatScore: 6, techAreas: ["Autonomous Vehicle Simulation", "Synthetic Data Generation", "Vehicle Software Infrastructure"], notablePatents: ["High-fidelity sensor simulation for autonomous vehicle testing", "Scenario generation engine for edge-case AV testing"], note: "Core IP in simulation and testing infrastructure for autonomous systems. Valued at $6B+. Expanding from automotive into defense autonomy simulation." },
   { company: "Physical Intelligence", totalPatents: 15, velocity: "8-12/yr", velocityTrend: "accelerating", ipMoatScore: 4, techAreas: ["Foundation Models for Robotics", "Generalizable Robot Learning", "Dexterous Manipulation AI"], notablePatents: ["General-purpose robot policy learning from diverse demonstrations", "Cross-embodiment transfer learning for robotic manipulation"], note: "Very early stage (founded 2024). Small but growing patent portfolio. $400M+ raised at $2B+ valuation. Core IP is in foundation model approach to robot intelligence." },
-  { company: "Radiant", totalPatents: 47, velocity: "18-28/yr", velocityTrend: "accelerating", ipMoatScore: 5, techAreas: ["Portable Microreactors", "High-Temperature Gas-Cooled Reactors", "Nuclear Fuel Systems"], notablePatents: ["Transportable nuclear microreactor with passive cooling", "TRISO fuel element arrangement for portable reactor"], note: "Developing 1MW+ portable nuclear microreactor. Key differentiator is transportability in standard shipping container. DoD contract for Project Pele microreactor." },
+  { company: "Radiant", totalPatents: 46, velocity: "18-28/yr", velocityTrend: "accelerating", ipMoatScore: 5, techAreas: ["Portable Microreactors", "High-Temperature Gas-Cooled Reactors", "Nuclear Fuel Systems"], notablePatents: ["Transportable nuclear microreactor with passive cooling", "TRISO fuel element arrangement for portable reactor"], note: "Developing 1MW+ portable nuclear microreactor. Key differentiator is transportability in standard shipping container. DoD contract for Project Pele microreactor." },
   { company: "Oklo", totalPatents: 4, velocity: "1-7/yr", velocityTrend: "steady", ipMoatScore: 6, techAreas: ["Fast Neutron Reactors", "Nuclear Fuel Recycling", "Compact Fission Power Plants"], notablePatents: ["Compact fast reactor design (Aurora)", "Metallic nuclear fuel recycling process"], note: "Public company (NYSE: OKLO via SPAC). NRC application for Aurora powerhouse. Sam Altman-backed. Unique fuel recycling IP could be long-term competitive advantage." },
   { company: "Kairos Power", totalPatents: 80, velocity: "12-18/yr", velocityTrend: "accelerating", ipMoatScore: 7, techAreas: ["Molten Salt Coolant Reactors", "TRISO Fuel Pebble Bed", "Advanced Reactor Materials"], notablePatents: ["Fluoride salt-cooled high-temperature reactor design (KP-FHR)", "Pebble fuel management system for molten salt reactor"], note: "NRC construction permit for Hermes test reactor in Tennessee. Unique fluoride-salt coolant approach with TRISO pebble fuel. DOE and defense contracts." },
   { company: "TerraPower", totalPatents: 20, velocity: "5-15/yr", velocityTrend: "steady", ipMoatScore: 9, techAreas: ["Sodium-Cooled Fast Reactors (Natrium)", "Traveling Wave Reactor Design", "Molten Salt Energy Storage"], notablePatents: ["Sodium-cooled fast reactor with integrated molten salt energy storage", "Traveling wave reactor core design"], note: "Bill Gates-founded. Largest advanced nuclear patent portfolio. Natrium demo plant under construction in Wyoming. Deep IP from 15+ years of R&D across multiple reactor concepts." },
   { company: "Hadrian", totalPatents: 40, velocity: "10-15/yr", velocityTrend: "accelerating", ipMoatScore: 5, techAreas: ["Autonomous CNC Manufacturing", "AI-Driven Precision Machining", "Aerospace Parts Quality Assurance"], notablePatents: ["AI-optimized toolpath generation for precision aerospace machining", "Automated inspection system for machined aerospace components"], note: "Factory-as-a-service for defense/aerospace precision parts. Core IP in autonomous factory software rather than hardware. Valued at $500M+." },
   { company: "Gecko Robotics", totalPatents: 65, velocity: "10-15/yr", velocityTrend: "steady", ipMoatScore: 6, techAreas: ["Wall-Climbing Inspection Robots", "Industrial Asset Digital Twins", "Predictive Infrastructure Analytics"], notablePatents: ["Magnetic wall-climbing robot for industrial inspection", "Ultrasonic thickness mapping system for infrastructure monitoring"], note: "Robots inspect industrial infrastructure (power plants, ships, tanks). Growing defense portfolio. Software platform for infrastructure intelligence is key IP differentiator." },
   { company: "Saildrone", totalPatents: 75, velocity: "10-15/yr", velocityTrend: "steady", ipMoatScore: 7, techAreas: ["Autonomous Surface Vessels", "Ocean Data Collection Systems", "Maritime ISR Platforms"], notablePatents: ["Wind and solar powered autonomous ocean vehicle", "Distributed ocean sensing network using autonomous surface vessels"], note: "Operates world's largest fleet of autonomous ocean vehicles. Dual-use (climate data + defense ISR). Partnership with US Navy for maritime domain awareness." },
-  { company: "Vast", totalPatents: 77, velocity: "33-43/yr", velocityTrend: "accelerating", ipMoatScore: 5, techAreas: ["Commercial Space Station Design", "Artificial Gravity Systems", "Space Habitat Life Support"], notablePatents: ["Rotating space station module for artificial gravity", "Modular commercial space station architecture"], note: "Building Haven-1, the first commercial space station. SpaceX Starship will launch it. Relatively early patent portfolio but growing rapidly. Founded by Jed McCaleb." },
+  { company: "Vast", totalPatents: 76, velocity: "33-43/yr", velocityTrend: "accelerating", ipMoatScore: 5, techAreas: ["Commercial Space Station Design", "Artificial Gravity Systems", "Space Habitat Life Support"], notablePatents: ["Rotating space station module for artificial gravity", "Modular commercial space station architecture"], note: "Building Haven-1, the first commercial space station. SpaceX Starship will launch it. Relatively early patent portfolio but growing rapidly. Founded by Jed McCaleb." },
   { company: "Axiom Space", totalPatents: 70, velocity: "12-18/yr", velocityTrend: "accelerating", ipMoatScore: 6, techAreas: ["Commercial Space Station Modules", "Spacesuit Design (AxEMU)", "Space Manufacturing"], notablePatents: ["Modular commercial space station attached to ISS", "Next-generation extravehicular activity spacesuit"], note: "NASA contract for ISS commercial module and next-gen spacesuit (AxEMU). Planning standalone commercial station post-ISS. Strong institutional knowledge from ex-NASA leadership." },
   { company: "Epirus", totalPatents: 10, velocity: "1-10/yr", velocityTrend: "accelerating", ipMoatScore: 7, techAreas: ["Directed Energy Weapons", "High-Power Microwave Systems", "Solid-State Power Management"], notablePatents: ["Solid-state high-power microwave counter-drone system (Leonidas)", "Scalable directed energy array architecture"], note: "Leonidas counter-drone directed energy system is flagship product. GaN-based solid-state approach is key differentiator vs legacy vacuum tube systems. DoD contracts growing rapidly." },
   { company: "Bedrock Ocean", totalPatents: 25, velocity: "5-8/yr", velocityTrend: "accelerating", ipMoatScore: 4, techAreas: ["Autonomous Underwater Mapping", "Subsea LiDAR Systems", "Ocean Floor Digital Twins"], notablePatents: ["High-resolution autonomous underwater terrain mapping system", "Subsea LiDAR for centimeter-scale ocean floor imaging"], note: "Building autonomous underwater vehicles for high-resolution ocean floor mapping. Early-stage patent portfolio. Rebranded from earlier name. Data-as-a-service model for ocean intelligence." },
@@ -19505,12 +19513,12 @@ const PATENT_INTEL = [
   { company: "Varda Space Industries", totalPatents: 1, velocity: "8-12/yr", velocityTrend: "accelerating", ipMoatScore: 6, techAreas: ["In-Space Manufacturing", "Microgravity Pharmaceutical Processing", "Reentry Capsule Design"], notablePatents: ["Autonomous in-space pharmaceutical crystallization system", "Reentry vehicle for returning space-manufactured materials"], note: "Successfully returned first space-manufactured pharmaceuticals in 2024. Core IP in microgravity manufacturing processes and reentry capsule. Dual-use with DoD hypersonic reentry data." },
   { company: "Orchid", totalPatents: 100, velocity: "45-55/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["C12Q", "C07F", "G06N"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
   { company: "Cover", totalPatents: 100, velocity: "45-55/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["C12Q", "A47H", "H02P"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
-  { company: "Divergent", totalPatents: 54, velocity: "22-32/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["A61N", "A47J", "H01L"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
-  { company: "Cognition", totalPatents: 43, velocity: "16-26/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["C12Q", "A61N", "G09B"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
+  { company: "Divergent", totalPatents: 53, velocity: "21-31/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["A61N", "A47J", "H01L"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
+  { company: "Cognition", totalPatents: 42, velocity: "16-26/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["C12Q", "A61N", "G09B"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
   { company: "Andrenam", totalPatents: 40, velocity: "15-25/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["G01C", "G09B", "B63H"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
   { company: "Lightmatter", totalPatents: 31, velocity: "10-20/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["H04J", "H03H", "G06T"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
   { company: "X-Energy", totalPatents: 30, velocity: "10-20/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["F05D", "H02P", "F16J"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
-  { company: "TAE Technologies", totalPatents: 23, velocity: "6-16/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["H05K", "H01J", "A61N"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
+  { company: "TAE Technologies", totalPatents: 22, velocity: "6-16/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["H05K", "H01J", "A61N"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
   { company: "Firefly Aerospace", totalPatents: 17, velocity: "3-13/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["H04M", "A61N", "G06T"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
   { company: "Antares", totalPatents: 13, velocity: "1-11/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["H01R", "A61P", "Y02E"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
   { company: "Captura", totalPatents: 9, velocity: "1-9/yr", velocityTrend: "unknown", ipMoatScore: 5, techAreas: ["B01D", "Y02C", "E04C"], notablePatents: [], note: "Auto-detected from USPTO. Pending manual review." },
@@ -20210,6 +20218,8 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-03-27
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-03-28
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-03-29
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-03-29
 const NEWS_FEED = [
@@ -22828,6 +22838,8 @@ const DATA_QUALITY = {
 // Last updated: 2026-03-29 05:46
 // Auto-generated real-time signals
 // Last updated: 2026-03-29
+// Auto-generated real-time signals
+// Last updated: 2026-03-29
 const COMPANY_SIGNALS = [
   { id: 1, type: "news", company: "Matic Robotics", headline: "Anthropic&#8217;s Claude popularity with paying consumers is skyrocketing", source: "TechCrunch", time: "16h ago", impact: "medium", unread: true },
   { id: 2, type: "news", company: "Biofire", headline: "Your Vape Wants to Know How Old You Are", source: "Wired", time: "20h ago", impact: "low", unread: true },
@@ -22969,6 +22981,8 @@ const EXPERT_INSIGHTS = [
 // Last updated: 2026-03-28
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-03-29
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-03-29
 const VALLEY_OF_DEATH = [
   { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 100, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
   { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
@@ -23051,6 +23065,8 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-03-27
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-03-28
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-03-29
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-03-29
 const CONTRACTOR_READINESS = [
