@@ -1119,6 +1119,272 @@
         .bar-medium { background: #3b82f6; }
         .bar-low { background: #f59e0b; }
 
+        /* ─── Congressional Intelligence ─── */
+        .congress-stats-row {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .congress-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+            gap: 1rem;
+        }
+        .congress-card {
+            background: var(--bg-card, rgba(255,255,255,0.03));
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.2s;
+        }
+        .congress-card:hover {
+            border-color: rgba(96,165,250,0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        .congress-card.rel-high {
+            border-left: 3px solid #22c55e;
+        }
+        .congress-card.rel-medium {
+            border-left: 3px solid #f59e0b;
+        }
+        .congress-card.rel-low {
+            border-left: 3px solid #6b7280;
+        }
+        .congress-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .congress-bill-number {
+            font-family: 'Space Grotesk', monospace;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: rgba(255,255,255,0.6);
+        }
+        .congress-relevance {
+            padding: 2px 10px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .congress-relevance-high {
+            background: rgba(34,197,94,0.15);
+            color: #4ade80;
+        }
+        .congress-relevance-medium {
+            background: rgba(245,158,11,0.15);
+            color: #fbbf24;
+        }
+        .congress-relevance-low {
+            background: rgba(107,114,128,0.15);
+            color: #9ca3af;
+        }
+        .congress-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: rgba(255,255,255,0.95);
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+        .congress-action {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.5);
+            margin-bottom: 10px;
+        }
+        .congress-action-label {
+            font-weight: 600;
+            color: rgba(255,255,255,0.7);
+        }
+        .congress-action-date {
+            color: rgba(255,255,255,0.4);
+        }
+        .congress-impact {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.65);
+            margin-bottom: 12px;
+            line-height: 1.45;
+        }
+        .congress-card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .congress-sectors {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .congress-sector-tag {
+            background: rgba(96,165,250,0.1);
+            color: #60a5fa;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .congress-link {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--accent, #ff6b2c);
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .congress-link:hover {
+            text-decoration: underline;
+        }
+
+        /* ─── SBIR/STTR Tracker ─── */
+        .sbir-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 1rem;
+        }
+        .sbir-card {
+            background: var(--bg-card, rgba(255,255,255,0.03));
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 12px;
+            padding: 20px;
+            transition: all 0.2s;
+        }
+        .sbir-card:hover {
+            border-color: rgba(59,130,246,0.4);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        .sbir-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .sbir-badges {
+            display: flex;
+            gap: 6px;
+        }
+        .sbir-type-badge {
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .sbir-type-sbir {
+            background: rgba(59,130,246,0.15);
+            color: #60a5fa;
+        }
+        .sbir-type-sttr {
+            background: rgba(168,85,247,0.15);
+            color: #c084fc;
+        }
+        .sbir-phase-badge {
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 700;
+        }
+        .sbir-phase-i {
+            background: rgba(245,158,11,0.15);
+            color: #fbbf24;
+        }
+        .sbir-phase-ii {
+            background: rgba(34,197,94,0.15);
+            color: #4ade80;
+        }
+        .sbir-deadline {
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        .sbir-deadline.deadline-urgent {
+            color: #ef4444;
+        }
+        .sbir-deadline.deadline-soon {
+            color: #f59e0b;
+        }
+        .sbir-deadline.deadline-normal {
+            color: rgba(255,255,255,0.5);
+        }
+        .sbir-deadline.deadline-passed {
+            color: #6b7280;
+            text-decoration: line-through;
+        }
+        .sbir-topic-title {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: rgba(255,255,255,0.95);
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+        .sbir-topic-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .sbir-agency {
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.5);
+        }
+        .sbir-award {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #4ade80;
+        }
+        .sbir-description {
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.6);
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        .sbir-sectors {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+        .sbir-sector-tag {
+            background: rgba(96,165,250,0.1);
+            color: #60a5fa;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .sbir-companies {
+            border-top: 1px solid rgba(255,255,255,0.06);
+            padding-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+        }
+        .sbir-companies-label {
+            font-size: 0.7rem;
+            color: rgba(255,255,255,0.4);
+            font-weight: 600;
+            margin-right: 4px;
+        }
+        .sbir-company-tag {
+            background: rgba(255,107,44,0.1);
+            color: var(--accent, #ff6b2c);
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .sbir-company-tag:hover {
+            background: rgba(255,107,44,0.25);
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .opp-grid { grid-template-columns: 1fr; }
@@ -1134,4 +1400,7 @@
             .radar-stats-row { gap: 1rem; }
             .radar-match-reasons { display: none; }
             .radar-match-name { min-width: 100px; }
+            .congress-grid { grid-template-columns: 1fr; }
+            .sbir-grid { grid-template-columns: 1fr; }
+            .congress-stats-row { gap: 0.75rem; }
         }

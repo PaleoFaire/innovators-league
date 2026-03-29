@@ -188,6 +188,8 @@ function initGovRadar() {
   safeInit('agencySpending', initAgencySpending);
   safeInit('govFunding', initGovFunding);
   safeInit('companyMatch', initCompanyMatch);
+  safeInit('congressIntel', initCongressIntel);
+  safeInit('sbirTracker', initSbirTracker);
   safeInit('mobileMenu', initGovMobileMenu);
   safeInit('sectionObserver', initSectionObserver);
 }
@@ -1786,6 +1788,126 @@ function initGovMobileMenu() {
       btn.classList.remove('open');
     });
   });
+}
+
+// ─── CONGRESSIONAL INTELLIGENCE ───
+
+function initCongressIntel() {
+  var grid = document.getElementById('congress-grid');
+  var statsRow = document.getElementById('congress-stats');
+  if (!grid) return;
+
+  var bills = (typeof CONGRESS_BILLS_AUTO !== 'undefined') ? CONGRESS_BILLS_AUTO : [];
+  if (!bills.length) {
+    grid.innerHTML = '<p class="empty-state">No congressional data available.</p>';
+    return;
+  }
+
+  // Stats
+  if (statsRow) {
+    var highRel = bills.filter(function(b) { return b.relevance === 'high'; }).length;
+    var chambers = {};
+    bills.forEach(function(b) { chambers[b.chamber] = true; });
+    var sectorSet = {};
+    bills.forEach(function(b) { (b.sectors || []).forEach(function(s) { sectorSet[s] = true; }); });
+
+    statsRow.innerHTML =
+      '<div class="radar-stat"><span class="radar-stat-value">' + bills.length + '</span><span class="radar-stat-label">Bills Tracked</span></div>' +
+      '<div class="radar-stat"><span class="radar-stat-value">' + highRel + '</span><span class="radar-stat-label">High Relevance</span></div>' +
+      '<div class="radar-stat"><span class="radar-stat-value">' + Object.keys(chambers).length + '</span><span class="radar-stat-label">Chambers</span></div>' +
+      '<div class="radar-stat"><span class="radar-stat-value">' + Object.keys(sectorSet).length + '</span><span class="radar-stat-label">Sectors Affected</span></div>';
+  }
+
+  // Sort: high relevance first, then by latest action date
+  var sorted = bills.slice().sort(function(a, b) {
+    var relOrder = { high: 0, medium: 1, low: 2 };
+    var relDiff = (relOrder[a.relevance] || 2) - (relOrder[b.relevance] || 2);
+    if (relDiff !== 0) return relDiff;
+    return (b.latestActionDate || '').localeCompare(a.latestActionDate || '');
+  });
+
+  var html = '';
+  sorted.forEach(function(bill) {
+    var relClass = bill.relevance === 'high' ? 'rel-high' : bill.relevance === 'medium' ? 'rel-medium' : 'rel-low';
+    var chamberIcon = bill.chamber === 'Senate' ? '🏛️' : '🏢';
+    var sectorTags = (bill.sectors || []).map(function(s) {
+      return '<span class="congress-sector-tag">' + s + '</span>';
+    }).join('');
+
+    html += '<div class="congress-card ' + relClass + '">' +
+      '<div class="congress-card-header">' +
+        '<span class="congress-bill-number">' + chamberIcon + ' ' + bill.billNumber + '</span>' +
+        '<span class="congress-relevance congress-relevance-' + bill.relevance + '">' + bill.relevance + '</span>' +
+      '</div>' +
+      '<div class="congress-title">' + bill.title + '</div>' +
+      '<div class="congress-action">' +
+        '<span class="congress-action-label">Latest:</span> ' + bill.latestAction +
+        '<span class="congress-action-date"> (' + bill.latestActionDate + ')</span>' +
+      '</div>' +
+      '<div class="congress-impact">' + bill.impact + '</div>' +
+      '<div class="congress-card-footer">' +
+        '<div class="congress-sectors">' + sectorTags + '</div>' +
+        (bill.url ? '<a href="' + bill.url + '" target="_blank" rel="noopener" class="congress-link">View Bill →</a>' : '') +
+      '</div>' +
+    '</div>';
+  });
+
+  grid.innerHTML = html;
+}
+
+// ─── SBIR/STTR TRACKER ───
+
+function initSbirTracker() {
+  var grid = document.getElementById('sbir-grid');
+  if (!grid) return;
+
+  var topics = (typeof SBIR_TOPICS_AUTO !== 'undefined') ? SBIR_TOPICS_AUTO : [];
+  if (!topics.length) {
+    grid.innerHTML = '<p class="empty-state">No SBIR/STTR data available.</p>';
+    return;
+  }
+
+  // Sort by close date (soonest first)
+  var sorted = topics.slice().sort(function(a, b) {
+    return (a.closeDate || '').localeCompare(b.closeDate || '');
+  });
+
+  var html = '';
+  sorted.forEach(function(topic) {
+    var days = daysUntil(topic.closeDate);
+    var dlClass = deadlineClass(days);
+    var dlText = days < 0 ? 'Closed' : days === 0 ? 'Closes today' : days + 'd left';
+    var typeClass = topic.type === 'STTR' ? 'sbir-type-sttr' : 'sbir-type-sbir';
+    var phaseClass = topic.phase === 'Phase II' ? 'sbir-phase-ii' : 'sbir-phase-i';
+
+    var companyTags = (topic.relevantCompanies || []).map(function(c) {
+      return '<span class="sbir-company-tag" onclick="window.location.href=\'company.html?c=' + encodeURIComponent(c) + '\'">' + c + '</span>';
+    }).join('');
+
+    var sectorTags = (topic.sectors || []).map(function(s) {
+      return '<span class="sbir-sector-tag">' + s + '</span>';
+    }).join('');
+
+    html += '<div class="sbir-card">' +
+      '<div class="sbir-card-header">' +
+        '<div class="sbir-badges">' +
+          '<span class="sbir-type-badge ' + typeClass + '">' + topic.type + '</span>' +
+          '<span class="sbir-phase-badge ' + phaseClass + '">' + topic.phase + '</span>' +
+        '</div>' +
+        '<span class="sbir-deadline ' + dlClass + '">' + dlText + '</span>' +
+      '</div>' +
+      '<div class="sbir-topic-title">' + topic.title + '</div>' +
+      '<div class="sbir-topic-meta">' +
+        '<span class="sbir-agency">' + topic.agency + '</span>' +
+        '<span class="sbir-award">' + topic.award + '</span>' +
+      '</div>' +
+      '<div class="sbir-description">' + topic.description + '</div>' +
+      '<div class="sbir-sectors">' + sectorTags + '</div>' +
+      (companyTags ? '<div class="sbir-companies"><span class="sbir-companies-label">Matched Companies:</span>' + companyTags + '</div>' : '') +
+    '</div>';
+  });
+
+  grid.innerHTML = html;
 }
 
 // ─── SECTION HEADER VISIBILITY OBSERVER ───
