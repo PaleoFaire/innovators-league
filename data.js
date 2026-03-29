@@ -22816,13 +22816,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-29 03:21
+// Last updated: 2026-03-29 05:46
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Matic Robotics", headline: "Anthropic's Claude popularity with paying consumers is skyrocketing", source: "TechCrunch", time: "13h ago", impact: "medium", unread: true },
-  { id: 2, type: "news", company: "Biofire", headline: "Your Vape Wants to Know How Old You Are", source: "Wired", time: "16h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Osmo", headline: "The Best Samsung Phones of 2026, Tested and Reviewed", source: "Wired", time: "16h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Tesla Analyst Thinks Tesla Could Merge With SpaceX In 2027", source: "CleanTechnica", time: "23h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "Karman Industries", headline: "BrightDrop Died in America, While China Made Electric Vans Normal", source: "CleanTechnica", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "Matic Robotics", headline: "Anthropic's Claude popularity with paying consumers is skyrocketing", source: "TechCrunch", time: "15h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Biofire", headline: "Your Vape Wants to Know How Old You Are", source: "Wired", time: "18h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Osmo", headline: "The Best Samsung Phones of 2026, Tested and Reviewed", source: "Wired", time: "19h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Tesla Analyst Thinks Tesla Could Merge With SpaceX In 2027", source: "CleanTechnica", time: "1d ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "Karman Industries", headline: "BrightDrop Died in America, While China Made Electric Vans Normal", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "news", company: "Matic Robotics", headline: "Whoop's fitness band is cool. Can it stay cool as the company grows?", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "news", company: "Mach Industries", headline: "Iran Conflict Costing Shipping Industry '340 Million A Day", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
   { id: 8, type: "funding", company: "Physical Intelligence", headline: "Physical Intelligence is reportedly in talks to raise $1 billion, again", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
@@ -22831,8 +22831,8 @@ const COMPANY_SIGNALS = [
   { id: 11, type: "contract", company: "Palantir", headline: "Judge grants Anthropic preliminary injunction but Pentagon CTO says ban still stands", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "Waymo", headline: "Waymo's skyrocketing ridership in one chart", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "ipo", company: "Ample", headline: "28 New Fast EV Charging Stalls Launched In San Diego", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Vast", headline: "Commercial Space Federation (CSF) Welcomes'Two New Associate Members", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Sunfire", headline: "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Sunfire", headline: "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "funding", company: "Deterrence", headline: "Norway floats additional $11.8B in defense spending through 2035, cancels drone program", source: "Breaking Defense", time: "1d ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
