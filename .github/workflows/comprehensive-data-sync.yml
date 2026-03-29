@@ -407,6 +407,14 @@ jobs:
           mkdir -p data/
           cp -r downloaded-data/* data/ 2>/dev/null || true
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests feedparser python-dateutil
+
+      - name: Merge comprehensive data into data.js
+        run: python scripts/merge_data.py
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"

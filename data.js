@@ -260,7 +260,7 @@ const GOV_DEMAND_TRACKER = [
     title: "Autonomous Counter-UAS Systems",
     agency: "Defense Innovation Unit (DIU)",
     type: "Other Transaction (OT)",
-    deadline: "2026-03-15",
+    deadline: "2026-06-15",
     value: "$50M-$100M",
     priority: "Critical",
     description: "DIU seeking autonomous systems capable of detecting, tracking, and neutralizing small UAS threats in GPS-denied environments. Emphasis on low cost-per-engagement.",
@@ -316,7 +316,7 @@ const GOV_DEMAND_TRACKER = [
     title: "Soldier-Portable Directed Energy",
     agency: "U.S. Army",
     type: "SBIR Topic",
-    deadline: "2026-02-28",
+    deadline: "2026-07-31",
     value: "$2M Phase II",
     priority: "Medium",
     description: "Man-portable directed energy systems for counter-drone and counter-electronics missions. Weight under 20 lbs, battery-powered operation.",
@@ -372,7 +372,7 @@ const GOV_DEMAND_TRACKER = [
     title: "Autonomous Border Surveillance",
     agency: "Department of Homeland Security (DHS)",
     type: "SBIR Topic",
-    deadline: "2026-03-10",
+    deadline: "2026-07-15",
     value: "$3M Phase II",
     priority: "Medium",
     description: "Long-endurance autonomous systems for border surveillance and detection. Emphasis on sensor fusion, edge processing, and communication in denied environments.",
@@ -394,7 +394,21 @@ const GOV_DEMAND_TRACKER = [
     relevantCompanies: ["Radiant", "Oklo", "Zeno Power"],
     source: "https://www.nasa.gov/",
     posted: "2026-02-05"
-  }
+  },
+  {
+    id: "FR-2026-03380",
+    title: "Presidential Waiver of Statutory Requirements Pursuant to Section 303 of the Defense Production Act of 1950, as Amended",
+    agency: "Executive Office of the President",
+    type: "Federal Register Notice",
+    deadline: "See Document",
+    value: "TBD",
+    priority: "Medium",
+    description: "",
+    techAreas: [],
+    relevantCompanies: ["Scale AI", "Anthropic", "OpenAI", "Palantir"],
+    source: "https://www.federalregister.gov/documents/2026/02/19/2026-03380/presidential-waiver-of-statutory-requirements-pursuant-to-section-303-of-the-defense-production-act",
+    posted: "2026-02-19"
+  },
 ];
 
 const GOV_DEMAND_SUMMARY = {
@@ -9094,7 +9108,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "KLIR Sky",
     founder: "Nicholas Upchurch",
-    sector: "Climate Tech",
+    sector: "Climate & Energy",
     description: "Carbon capture technology that freezes smokestack emissions to cryogenic temperatures, separating valuable gases (CO2, Oxygen, Nitrogen, Methane, Hydrogen) for sale into industrial markets.",
     thesis: "Turns pollution into profit. Integrates for free and splits revenue with smokestack owners - sometimes making more money than the original business.",
     location: "Albany, KY",
@@ -9120,7 +9134,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Cresilon",
     founder: "Joe Landolina",
-    sector: "Medical Devices",
+    sector: "Biotech & Health",
     description: "Makers of Traumagel, an algae- and fungi-based hemostatic gel that stops moderate to severe bleeding within seconds. FDA-cleared for first responders.",
     thesis: "Revolutionizing trauma care with a flowable gel that finds its way to bleeding sites, safer and more effective than gauze packing.",
     location: "Brooklyn, NY",
@@ -9330,7 +9344,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "General Galactic",
     founder: "Halen Mattison & Luke Neise",
-    sector: "Climate Tech",
+    sector: "Climate & Energy",
     description: "Creating sustainable hydrocarbon fuels - fossil-free natural gas for Earth and future Mars fuel stations. Turning captured CO2 into usable fuels.",
     thesis: "The path to net-zero isn't eliminating hydrocarbons - it's making them sustainably. Future fuel infrastructure for both Earth and space.",
     location: "El Segundo, CA",
@@ -9455,7 +9469,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Kyten Technologies",
     founder: "Lucas Maddox & Cooper McBride",
-    sector: "Advanced Materials",
+    sector: "Robotics & Manufacturing",
     description: "High-performance carbon nanotube manufacturing for aerospace, defense, and industrial applications. Focus on structural materials.",
     thesis: "Carbon nanotubes promise revolutionary material properties but have been stuck in labs — Kyten has cracked scalable, affordable production.",
     location: "Seattle, WA",
@@ -9530,7 +9544,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Zeta Surgical",
     founder: "Jose Amich & Raahil Sha",
-    sector: "BioTech & Health",
+    sector: "Biotech & Health",
     description: "AI-powered surgical navigation and robotic systems for neurosurgery. Enabling minimally invasive brain procedures.",
     thesis: "Neurosurgery requires superhuman precision — Zeta's AI guidance makes complex brain procedures safer and more accessible.",
     location: "Boston, MA",
@@ -9705,7 +9719,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Asimov",
     founder: "Alec Nielsen, Chris Voigt, Douglas Densmore, Raja Srinivas",
-    sector: "BioTech & Health",
+    sector: "Biotech & Health",
     description: "Builds tools for designing living systems, providing cell lines, genetic design software, and engineered genetic systems for advanced therapeutics manufacturing.",
     thesis: "Biology is becoming programmable — Asimov's genetic circuit design tools make cell engineering predictable and scalable.",
     location: "Boston, MA",
@@ -9755,7 +9769,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Q-CTRL",
     founder: "Michael Biercuk",
-    sector: "Quantum & Computing",
+    sector: "Quantum Computing",
     description: "Develops AI-powered quantum infrastructure software that improves quantum computer and quantum sensor performance; embedded in IBM Quantum.",
     thesis: "Quantum hardware is error-prone — Q-CTRL's control software makes today's noisy qubits actually useful.",
     location: "Sydney, Australia",
@@ -9830,7 +9844,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Profluent",
     founder: "Ali Madani",
-    sector: "BioTech & Health",
+    sector: "Biotech & Health",
     description: "Uses AI and large language models for de novo protein design, making biology programmable for therapeutics and industrial applications.",
     thesis: "LLMs learned language — now they're learning the language of life. Profluent generates novel proteins that nature never imagined.",
     location: "Emeryville, CA",
@@ -9855,7 +9869,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Fairmat",
     founder: "Benjamin Saada",
-    sector: "Advanced Materials",
+    sector: "Robotics & Manufacturing",
     description: "Uses AI-driven robotics to recycle carbon fiber composites nearly infinitely, turning aerospace/automotive waste into engineered materials.",
     thesis: "Carbon fiber is too valuable to landfill — Fairmat's recycling unlocks circular economy for advanced composites.",
     location: "Paris, France",
@@ -9880,7 +9894,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Infleqtion",
     founder: "Dana Anderson",
-    sector: "Quantum & Computing",
+    sector: "Quantum Computing",
     description: "Develops atom-based quantum sensors including precision atomic clocks (100x more accurate than legacy systems), inertial navigation, and RF receivers for GPS-denied environments.",
     thesis: "Quantum sensing is here now — Infleqtion's atomic sensors deliver military-grade precision for navigation, timing, and communications.",
     location: "Boulder, CO",
@@ -9905,7 +9919,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Elroy Air",
     founder: "David Merrill & Clint Cope",
-    sector: "Autonomous Systems",
+    sector: "Drones & Autonomous",
     description: "Building the Chaparral, a hybrid-electric autonomous VTOL cargo drone capable of carrying 300-500 lbs over 300 miles for military resupply and disaster relief.",
     thesis: "Last-mile logistics in contested or disaster zones need autonomous aerial delivery — Elroy's Chaparral fills the gap.",
     location: "San Francisco, CA",
@@ -9956,7 +9970,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Rain AI",
     founder: "Gordon Wilson",
-    sector: "Quantum & Computing",
+    sector: "Quantum Computing",
     description: "Building brain-inspired neuromorphic processing units (NPUs) for energy-efficient AI inference, offering 100x energy efficiency gains over GPUs.",
     thesis: "AI's energy demands are unsustainable — Rain's neuromorphic chips bring brain-like efficiency to AI compute.",
     location: "Redwood City, CA",
@@ -10184,7 +10198,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "Wandelbots",
     founder: "Christian Piechnick",
-    sector: "Robotics & AI",
+    sector: "Robotics & Manufacturing",
     description: "No-code robotics platform enabling anyone to program industrial robots without coding expertise. NOVA platform runs on Microsoft Azure, making robot teaching as simple as drawing a path.",
     thesis: "95% of factories lack robotics expertise — Wandelbots' no-code platform democratizes industrial automation for the missing millions of robot programmers.",
     location: "Dresden, Germany",
@@ -10210,7 +10224,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "AlixLabs",
     founder: "Jonas Sundqvist",
-    sector: "Semiconductors",
+    sector: "Chips & Semiconductors",
     description: "Atomic Layer Processing (APS™) technology for semiconductor patterning without EUV lithography. Demonstrated 12.5nm half-pitch structures with Intel, potentially disrupting the $20B+ lithography market.",
     thesis: "EUV machines cost $350M+ each — AlixLabs' atomic-layer etching could achieve equivalent chip patterning at a fraction of the cost, democratizing advanced chip manufacturing.",
     location: "Lund, Sweden",
@@ -10418,7 +10432,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   {
     name: "DEEPX",
     founder: "Lokwon Kim",
-    sector: "Semiconductors",
+    sector: "Chips & Semiconductors",
     description: "Edge AI semiconductor company founded by the lead designer of Apple's A10-A12 Bionic chips. DX-M1 and DX-M2 processors deliver high-performance AI inference at ultra-low power for robotics, smart factories, and edge devices.",
     thesis: "AI is moving to the edge but needs purpose-built chips — DEEPX's Apple pedigree and $529M valuation position it as the ARM of edge AI computing.",
     location: "Seongnam, South Korea",
@@ -11362,7 +11376,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Blues",
-    sector: "IoT & Connectivity",
+    sector: "Chips & Semiconductors",
     description: "Hyperscale cellular IoT connectivity provider. Their Notecard modules add plug-and-play cellular, WiFi, satellite, and LoRa connectivity to any device with 10 years of data included and no monthly fees.",
     founder: "Ray Ozzie",
     city: "Boston", state: "MA", country: "United States",
@@ -11400,7 +11414,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Green Abundance",
-    sector: "Biotech & Synthetic Biology",
+    sector: "Biotech & Health",
     description: "Plant engineering company using synthetic biology to grow superpowered materials from plants. Unlocking plants as biological factories for high-value proteins and novel materials that are traditionally difficult to manufacture.",
     founder: "Celeste Holz-Schietinger",
     city: "San Francisco", state: "CA", country: "United States",
@@ -11438,7 +11452,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Los Angeles Project",
-    sector: "Biotech & Synthetic Biology",
+    sector: "Biotech & Health",
     description: "Biotech startup developing an automated, scalable embryo editing platform to genetically engineer novel animals using CRISPR and REMI technologies. Starting with hypoallergenic pets and bioluminescent animals.",
     founder: "Josie Zayner, Cathy Tie",
     city: "Austin", state: "TX", country: "United States",
@@ -11456,7 +11470,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Tideway Logistics",
-    sector: "Robotics & Logistics",
+    sector: "Robotics & Manufacturing",
     description: "AI-powered 3PL company combining advanced software and warehouse robotics to automate fulfillment centers, reducing fulfillment costs by up to 30% through intelligent automation.",
     founder: "Ronnie Achkar",
     city: "Detroit", state: "MI", country: "United States",
@@ -11476,7 +11490,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Marathon Fusion",
-    sector: "Energy & Fusion",
+    sector: "Nuclear Energy",
     description: "Develops critical fuel cycle technologies for fusion reactors, primarily high-throughput tritium processing systems using superpermeation technology. Signed LOIs with both Commonwealth Fusion Systems and Helion Energy.",
     founder: "Kyle Schiller, Adam Rutkowski",
     city: "San Francisco", state: "CA", country: "United States",
@@ -11514,7 +11528,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Occam",
-    sector: "Biotech & Neurotech",
+    sector: "Biotech & Health",
     description: "Developing the world's smallest brain-sensing wearable — a behind-the-ear nanosensor using dry EEG technology to track mental clarity, stress, and cognitive performance via non-invasive brain-computer interface.",
     founder: "Ana Montero Horas, Andre Marques-Smith",
     city: "New York", state: "NY", country: "United States",
@@ -11629,7 +11643,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Intramotev",
-    sector: "Autonomous Vehicles & Drones",
+    sector: "Drones & Autonomous",
     description: "Retrofits conventional freight railcars with battery-electric, self-propelled autonomous drive systems that eliminate the need for locomotives on short-haul routes. TugVolt and ReVolt products actively deployed with major industrial operators.",
     founder: "Tim Luchini",
     city: "St. Louis", state: "MO", country: "United States",
@@ -11743,7 +11757,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Pyka",
-    sector: "Autonomous Vehicles & Drones",
+    sector: "Drones & Autonomous",
     description: "Builds fully autonomous, all-electric fixed-wing aircraft for agricultural spraying, cargo logistics, and contested military logistics. Largest FAA-approved UAS for agricultural operations with active commercial ops across the Americas.",
     founder: "Michael Norcia",
     city: "Oakland", state: "CA", country: "United States",
@@ -11952,7 +11966,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Anthrogen",
-    sector: "Biotech & Synthetic Biology",
+    sector: "Biotech & Health",
     description: "Uses CRISPR-engineered photosynthetic microbes and AI-designed enzymes to convert atmospheric CO2 into valuable chemicals and sustainable aviation fuel. Claims to have engineered the fastest-known photosynthesizing organism.",
     founder: "Jack O'Brien, Will Conway, Mateo Lopez",
     city: "San Francisco", state: "CA", country: "United States",
@@ -11990,7 +12004,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Living Carbon",
-    sector: "Biotech & Synthetic Biology",
+    sector: "Biotech & Health",
     description: "Engineers genetically modified trees via CRISPR that photosynthesize more efficiently, grow 50%+ faster, and resist decomposition for enhanced carbon capture through reforestation. Microsoft signed a 1.4M tonne carbon removal agreement.",
     founder: "Maddie Hall",
     city: "San Francisco", state: "CA", country: "United States",
@@ -12009,7 +12023,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Sorcerer",
-    sector: "Aerospace & Aviation",
+    sector: "Space & Aerospace",
     description: "Deploys a global network of persistent high-altitude weather balloons that remain airborne 6+ months each, completing ~30 laps around the globe while collecting 1000x more atmospheric data than existing systems for AI weather forecasting.",
     founder: "Chris Boyes, Andrew Shapiro",
     city: "San Francisco", state: "CA", country: "United States",
@@ -12461,7 +12475,7 @@ const VC_FIRMS = [
     thesis: "Software is eating the world. American Dynamism backs founders building in defense, aerospace, public safety, housing, education, and manufacturing — sectors where technology can strengthen American resilience.",
     keyPartners: ["Marc Andreessen", "Ben Horowitz", "Katherine Boyle", "David Ulevitch"],
     sectorFocus: ["Defense & Security", "AI & Software", "Robotics & Manufacturing"],
-    portfolioCompanies: ["Flock Safety", "Hadrian", "Astranis", "Anduril Industries", "Skild AI", "Shield AI", "Saronic", "Modal", "Groq", "Anysphere", "Watershed", "Physical Intelligence", "ElevenLabs", "Orangewood Labs"],
+    portfolioCompanies: ["Groq", "Skild AI", "Hadrian", "Astranis", "Physical Intelligence", "Saronic", "Watershed", "ElevenLabs", "Anysphere", "Shield AI", "Modal", "Flock Safety", "Anduril Industries", "Orangewood Labs"],
     signal: "established",
     website: "https://a16z.com",
     insight: "a16z's American Dynamism fund has become the most prominent capital allocator to hard tech defense and industrial startups. Katherine Boyle's thesis that 'building is a form of civic duty' has reshaped how Silicon Valley views government-adjacent sectors. Their portfolio reads like a who's-who of the defense tech renaissance."
@@ -12476,7 +12490,7 @@ const VC_FIRMS = [
     thesis: "Backing the industrial renaissance — companies building real things that transform defense, logistics, manufacturing, and biology. Founded by Joe Lonsdale with deep Palantir DNA.",
     keyPartners: ["Joe Lonsdale", "Drew Oetting", "Jake Medwell"],
     sectorFocus: ["Defense & Security", "Robotics & Manufacturing", "Biotech & Health"],
-    portfolioCompanies: ["Epirus", "Hadrian", "Saildrone", "Saronic", "Bedrock Robotics", "Joby Aviation", "Orangewood Labs"],
+    portfolioCompanies: ["Epirus", "Saildrone", "Hadrian", "Saronic", "Bedrock Robotics", "Joby Aviation", "Orangewood Labs"],
     signal: "established",
     website: "https://8vc.com",
     insight: "Joe Lonsdale's 8VC embodies the 'American Dynamism' ethos with a Texas twist. Their portfolio leans heavily into defense and industrial transformation, leveraging Lonsdale's Palantir network to source deals other VCs miss. Deep conviction in the defense tech thesis."
@@ -12566,7 +12580,7 @@ const VC_FIRMS = [
     thesis: "Responsible innovation with patient capital. Recast as an 'investment and transformation company' — acquiring health systems, merging with European/Indian VCs, and deploying across deep tech, defense, and AI.",
     keyPartners: ["Hemant Taneja", "Trevor Oelschig"],
     sectorFocus: ["AI & Software", "Biotech & Health", "Defense & Security"],
-    portfolioCompanies: ["Helsing", "Livongo", "Charm Industrial", "Nominal", "Applied Intuition", "Darkhive", "Vannevar Labs", "Collaborative Robotics", "Hive AI", "Pacific Fusion", "Stripe", "Chariot Defense", "Mistral AI", "Hippocratic AI", "Snap", "Anduril Industries", "Re:Build Manufacturing", "ideaForge"],
+    portfolioCompanies: ["Nominal", "Vannevar Labs", "Darkhive", "Re:Build Manufacturing", "Livongo", "Chariot Defense", "Hippocratic AI", "Helsing", "Stripe", "Charm Industrial", "Snap", "Collaborative Robotics", "Hive AI", "Applied Intuition", "Pacific Fusion", "Mistral AI", "Anduril Industries", "ideaForge"],
     signal: "rising",
     website: "https://generalcatalyst.com",
     insight: "GC has transformed from a traditional VC into a global financial services company under CEO Hemant Taneja. Acquired Summa Health (hospital chain), merged with La Famiglia (Europe) and Venture Highway (India), and agreed to acquire Janus Henderson for $7.4B. Their $40B+ AUM and deep tech allocation are growing rapidly."
@@ -12856,9 +12870,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-03-20
 // Auto-updated IPO pipeline — Last updated: 2026-03-25
 // Auto-updated IPO pipeline — Last updated: 2026-03-25
-// Auto-updated IPO pipeline — Last updated: 2026-03-26
-// Auto-updated IPO pipeline — Last updated: 2026-03-27
-// Auto-updated IPO pipeline — Last updated: 2026-03-28
+// Auto-updated IPO pipeline — Last updated: 2026-03-29
 // Auto-updated IPO pipeline — Last updated: 2026-03-29
 // Auto-updated IPO pipeline — Last updated: 2026-03-29
 const IPO_PIPELINE = [
@@ -13563,11 +13575,7 @@ const TRL_RANKINGS = [
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-03-25
 // Auto-updated deal flow from RSS + Crunchbase
-// Last updated: 2026-03-26
-// Auto-updated deal flow from RSS + Crunchbase
-// Last updated: 2026-03-27
-// Auto-updated deal flow from RSS + Crunchbase
-// Last updated: 2026-03-28
+// Last updated: 2026-03-29
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-03-29
 // Auto-updated deal flow from RSS + Crunchbase
@@ -13683,36 +13691,36 @@ const DEAL_TRACKER = [
 // Auto-updated Product Hunt launches
 // Last updated: 2026-03-29
 const PRODUCT_LAUNCHES = [
-  { company: "Together AI", product: "MyClawSetup", tagline: "Deploy your OpenClaw AI assistant in 5 min — no code needed", votes: 1, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/myclawsetup?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Artificial Intelligence", "No-Code"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "ideaForge", product: "TrustCompliance", tagline: "Free tools to spot fake security audits & companies exposed", votes: 1, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/trust-compliance?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["SaaS", "Developer Tools", "Security"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Built Robotics", product: "Plotiq", tagline: "Turn CSVs into charts instantly - no setup.", votes: 1, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/plotiq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Analytics", "SaaS"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Built Robotics", product: "DuoSync", tagline: "Period tracking for partners. Understand her cycle.", votes: 1, comments: 0, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/duosync?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["iOS", "Health & Fitness", "Dating"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Rebellion Defense", product: "NexusAi", tagline: "NexusAI — Your FREE AI Toolkit", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/nexusai-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Artificial Intelligence", "Tech"], makers: ["[REDACTED]", "[REDACTED]", "[REDACTED]"], source: "producthunt" },
-  { company: "Anthropic", product: "FORGE OS", tagline: "Type one prompt. Multiple AI agents do all work—in minutes.", votes: 0, comments: 0, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/forge-os?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "SaaS", "Bots"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Muon Space", product: "PollenTracker", tagline: "Should I go outside today? A clear answer for allergy days", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/pollentracker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Health & Fitness", "Parenting", "Weather"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Built Robotics", product: "IslaApp", tagline: "AI website builder for small businesses — no code needed ", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/islaapp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["SaaS", "Developer Tools", "E-Commerce"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Built Robotics", product: "Finansito", tagline: "Track expenses, set goals, and understand your money", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/finansito?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "SaaS", "Personal Finance"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Anthropic", product: "bart-loop, your Claude/Opencode workflow", tagline: "Turn a plan.md into a finished project, hands-free", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/bart-loop-your-claude-opencode-workflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Developer Tools", "GitHub", "Tech", "Development"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "ElevenLabs", product: "Random Bible Verse Generator", tagline: "Random Bible Verse Generator", votes: 0, comments: 0, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/random-bible-verse-generator-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Health & Fitness", "Education", "Books"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Built Robotics", product: "Aura Ai", tagline: "Your Personalised Therapist that truly cares", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/aura-ai-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Health & Fitness", "Artificial Intelligence", "Health"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Focused Energy", product: "Radio ON - Radio, TV & Audiobooks", tagline: "Thousands of radio stations, TV channels, and books", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/radio-on-radio-tv-audiobooks?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Android", "TV", "Books", "Radio"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Anthropic", product: "Mergerly", tagline: "The first AI Analyst for M&A Deal Origination", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/mergerly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Artificial Intelligence", "Tech", "Finance"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Together AI", product: "Cinehoria", tagline: "A minimalist screenwriting software", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/cinehoria?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Writing", "Movies", "SaaS", "GitHub"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "goTenna", product: "Msgora", tagline: "Startup Booster", votes: 0, comments: 0, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/msgora?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Messaging", "User Experience", "Marketing"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Built Robotics", product: "Truth or Dare - Spin the Bottle", tagline: "The ultimate party game for friends  and couples ", votes: 0, comments: 0, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/truth-or-dare-spin-the-bottle?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Android", "Games", "Entertainment"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Built Robotics", product: "Hazmanina.co.il", tagline: "Create beautiful Hebrew invitations in minutes", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/hazmanina-co-il?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Design Tools", "Messaging", "Events"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Endurosat", product: "Syllaquest", tagline: "Learn European languages with AI — one day at a time", votes: 0, comments: 0, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/syllaquest?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Languages"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Alpha School", product: "Black Crystal Neck Lanyard Keychain", tagline: "Black Crystal Neck Lanyard Keychain", votes: 0, comments: 0, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/black-crystal-neck-lanyard-keychain?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Marketing"], makers: [], source: "producthunt" },
-  { company: "Atomic Industries", product: "Mail Scan", tagline: "Detect spam emails instantly with AI precision", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/mail-scan?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Email", "Productivity", "Artificial Intelligence"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Rigetti Computing", product: "LyricsFlow Pro on iOS & Android", tagline: "A Song Teleprompter & Setlist Management App", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/lyricsflow-pro-on-ios?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Android", "Music"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Palantir", product: "CAT360", tagline: "Customs data analytics that simplifies trade compliance", votes: 0, comments: 0, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/cat360?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Analytics", "Transportation"], makers: [], source: "producthunt" },
-  { company: "Synthesis", product: "Insaga", tagline: "All-in-one AI platform for visual content creators", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/insaga?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Design Tools", "Developer Tools", "YouTube"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Avalanche Energy", product: "The Compact MBA", tagline: " Ivy League MBA Concepts and Frameworks in 8 hours", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/the-compact-mba?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Marketing", "Education", "Finance"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "Cognition", product: "AgentForum", tagline: "CLI-first hub for multi-agent collaboration", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/agentforum?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Open Source", "Artificial Intelligence", "GitHub"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "AMP Robotics", product: "FashionAI", tagline: "See how outfits look before you buy or stitch them with AI", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/fashionai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Fashion", "Artificial Intelligence", "GitHub"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "ElevenLabs", product: "KuraiMusik", tagline: "Autonomous 24/7 AI Radio Engine", votes: 0, comments: 0, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/kuraimusik?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Music", "Artificial Intelligence"], makers: ["[REDACTED]"], source: "producthunt" },
-  { company: "OpenAI", product: "Atlas Notebook", tagline: "AI assisted reader that help read and understand accurately", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/atlas-notebook?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["eBook Reader", "Notes", "Artificial Intelligence"], makers: [], source: "producthunt" },
-  { company: "SpaceX", product: "Hintlocker ", tagline: "Remember passwords with smart hints not passwords themselves", votes: 0, comments: 1, launchDate: "2026-03-22", url: "https://www.producthunt.com/products/hintlocker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Android", "Productivity", "Privacy", "Security"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Watershed", product: "CapaCloud", tagline: "Best Decentralized GPU Platform", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/capacloud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Developer Tools", "Artificial Intelligence", "Web3"], makers: [], source: "producthunt" },
+  { company: "Cover", product: "BonoVía", tagline: "See every destination your Spanish rail pass can take you", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/bonovia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Travel", "Transportation", "Maps"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Together AI", product: "Stand Reminder", tagline: "A macOS menu bar app to prevent prolonged sitting", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/stand-reminder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Mac", "GitHub", "Menu Bar Apps", "Health"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Built Robotics", product: "MYFIREAGE", tagline: "Find your retirement number in 3 steps & built for everyone.", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/myfireage?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Investing", "Finance", "Personal Finance"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Scale AI", product: "iNNOVEX Enterprises", tagline: "Full-Service Amazon Agency | PPC, SEO & FBA Growth", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/innovex-enterprises?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Marketing", "Advertising", "E-Commerce"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Synthesis", product: "Tutorloop", tagline: "Personalized AI tutoring for visual and auditory learners", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/tutorloop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Education", "Internet of Things", "Tech"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Focused Energy", product: "UBE News", tagline: "USA, AUS, IN Listen and read news in Indian languages", votes: 0, comments: 0, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/ube-news?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Android", "News", "Artificial Intelligence", "Political news"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Cognition", product: "Clarioxis", tagline: "Your AI-driven engines for deep learn and visual cognition", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/clarioxis?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Design Tools", "Education", "SaaS"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Reveal Technology", product: "SwingersNest:", tagline: "Why Some Couples Grow Stronger Through Open Communication — ", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/swingersnest?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Health & Fitness"], makers: [], source: "producthunt" },
+  { company: "goTenna", product: "OwnerRez", tagline: "Discover the power of 'Elite' in the STR software space", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/ownerrez-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Advertising", "Website Builder", "Vacation"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "ElevenLabs", product: "Titan Converter", tagline: "Free offline file converter for Windows.", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/titan-converter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Design Tools", "Developer Tools"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Built Robotics", product: "GradeMyClose", tagline: "AI grades a sale call in 60 seconds with scripts to fix them", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/grademyclose?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Sales", "Artificial Intelligence"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Anthropic", product: "FlowPlan", tagline: "Visual plan board for AI coding agents", votes: 0, comments: 0, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/flowplan?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Developer Tools", "GitHub", "Vibe coding"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Focused Energy", product: "Pompo", tagline: "A minimal Pomodoro timer that help keeps you focused", votes: 0, comments: 0, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/pompo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Time Tracking"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Built Robotics", product: "our AI-powered personal digital wardrobe", tagline: "Let you upload clothes and have AI generate perfect outfits", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/our-ai-powered-personal-digital-wardrobe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Fashion", "Tech"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Together AI", product: "RacterMX — Domain Security. Simplified.", tagline: "Private, Secure, Mail and Domain Hosting", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/ractermx-domain-security-simplified?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Email"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Tenstorrent", product: "ReadAny", tagline: "Read Any, Understand More", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/readany?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Open Source", "GitHub", "Books"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Built Robotics", product: "Hack Admission", tagline: "AI-powered IELTS prep with real exam scoring & predictions", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/hack-admission?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Education", "Artificial Intelligence"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Muon Space", product: "Yianna Beauty Notion Widgets", tagline: "Aesthetic & cozy Notion widgets: weather, pets & periods.", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/yianna-beauty-notion-widgets?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Health & Fitness", "Design Tools", "Productivity"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Terraform Industries", product: "best solar inverter brand", tagline: "top solar inverter company in india", votes: 0, comments: 0, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/best-solar-inverter-brand?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Internet of Things"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Built Robotics", product: "Agent! for macOS", tagline: "Agentic AI for the Apple Mac Desktop", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/agent-for-macos?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Open Source"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Dunia", product: "NovaX AI", tagline: "AI Without Limits", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/novax-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Developer Tools", "Artificial Intelligence"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Galvanick", product: "Anthropic Cybersecurity Skills", tagline: "753 cyber skills for AI agents via MITRE-mapped YAML.", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/anthropic-cybersecurity-skills?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Developer Tools", "Artificial Intelligence", "GitHub", "Security"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "AMP Robotics", product: "BlockABot", tagline: "Stop bots with one simple script", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/blockabot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Web App", "Bots", "Security"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Claros", product: "VibeRank", tagline: "LeetCode for prompt engineers", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/viberank-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Education", "Artificial Intelligence"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Quilter", product: "AI Automation Architect", tagline: "The AI that builds your AI automations.", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/gaia-1b686155-aca1-42bd-afdc-e2e30e6cf0bf?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Productivity", "Artificial Intelligence", "No-Code"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Dunia", product: "Struere", tagline: "Make your spreadsheets work like software", votes: 0, comments: 2, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/struere?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Analytics", "SaaS", "Artificial Intelligence"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Vannevar Labs", product: "Graze", tagline: "AI Nutrition Tracking in Seconds", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/graze-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Health & Fitness", "Nutrition", "Health"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Together AI", product: "Pocket pet ", tagline: "A cute browser pet that keeps your digital life together", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/chrome-web-store-67?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Chrome Extensions", "Productivity", "Notes", "Pets"], makers: ["[REDACTED]"], source: "producthunt" },
+  { company: "Synthesis", product: "CARAVAN Financial Engagement Platform", tagline: "Personalized financial wellness engaging with AI", votes: 0, comments: 1, launchDate: "2026-03-29", url: "https://www.producthunt.com/products/caravan-financial-engagement-platform?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Innovators+League+%28ID%3A+277938%29", topics: ["Fintech", "Artificial Intelligence", "Personal Finance"], makers: ["[REDACTED]"], source: "producthunt" },
 ];
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -14158,9 +14166,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-03-20
 // Auto-updated revenue intelligence — Last updated: 2026-03-25
 // Auto-updated revenue intelligence — Last updated: 2026-03-25
-// Auto-updated revenue intelligence — Last updated: 2026-03-26
-// Auto-updated revenue intelligence — Last updated: 2026-03-27
-// Auto-updated revenue intelligence — Last updated: 2026-03-28
+// Auto-updated revenue intelligence — Last updated: 2026-03-29
 // Auto-updated revenue intelligence — Last updated: 2026-03-29
 // Auto-updated revenue intelligence — Last updated: 2026-03-29
 const REVENUE_INTEL = [
@@ -14584,7 +14590,6 @@ const PREDICTIVE_SCORES = {
 
 
 
-
       "SpaceX": { score: 45, trend: "stable", factors: { revenueScale: 95, revenueGrowth: 85, profitability: 80, governance: 40, marketConditions: 60, investorPressure: 20, competitivePosition: 95, regulatory: 30 }, analysis: "Financial metrics excellent but Elon Musk has repeatedly stated no near-term IPO plans. Starlink spinoff more likely.", lastUpdated: "2026-02-01" },
       "Stripe": { score: 82, trend: "up", factors: { revenueScale: 95, revenueGrowth: 70, profitability: 85, governance: 90, marketConditions: 75, investorPressure: 80, competitivePosition: 90, regulatory: 85 }, analysis: "All metrics point to IPO readiness. CFO hired, profitable, governance in place. 2026 IPO highly likely.", lastUpdated: "2026-02-01" },
       "Databricks": { score: 78, trend: "up", factors: { revenueScale: 90, revenueGrowth: 80, profitability: 60, governance: 85, marketConditions: 75, investorPressure: 75, competitivePosition: 85, regulatory: 90 }, analysis: "Strong fundamentals, approaching profitability. S-1 filing expected H1 2026.", lastUpdated: "2026-02-01" },
@@ -14848,8 +14853,6 @@ const PREDICTIVE_SCORES = {
       "Simbe Robotics": { score: 38, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 46, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
       "Auradine": { score: 34, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 18, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 23/100.", lastUpdated: "2026-03-20" },
       "Elementary Robotics": { score: 38, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 46, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 58/100.", lastUpdated: "2026-03-20" },
-      "Ayar Labs": { score: 35, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 26, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series C stage, 0 jobs, 0 patents, sector momentum 32/100.", lastUpdated: "2026-03-26" },
-      "NextSilicon": { score: 35, trend: "stable", factors: { revenueScale: 25, revenueGrowth: 30, profitability: 40, governance: 50, marketConditions: 26, investorPressure: 40, competitivePosition: 30, regulatory: 70 }, analysis: "Auto-scored based on Series B stage, 0 jobs, 0 patents, sector momentum 32/100.", lastUpdated: "2026-03-26" },
     }
   },
 
@@ -14867,7 +14870,6 @@ const PREDICTIVE_SCORES = {
       { name: "Regulatory Risk", weight: 5, description: "Antitrust or CFIUS concerns", dataSource: "Regulatory filings" }
     ],
     companies: {
-
 
 
 
@@ -15680,33 +15682,6 @@ const PREDICTIVE_SCORES = {
       "Riot Ventures": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
       "Prime Movers Lab": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
       "Valor Equity Partners": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-20" },
-      "Defense & Cyber Salon": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-26" },
-      "Space & Nuclear Salon": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-26" },
-      "Robotics & Manufacturing Salon": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-26" },
-      "Energy & Climate Salon": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-26" },
-      "ROS Summit 2026": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-26" },
-      "Builder Field Trip": { score: 55, trend: "stable", analysis: "Auto-scored: , , 0 patents.", lastUpdated: "2026-03-26" },
-      "Atomic Alchemy": { score: 46, trend: "stable", analysis: "Auto-scored: Nuclear Energy, Series A, 0 patents.", lastUpdated: "2026-03-26" },
-      "Zeno Power": { score: 44, trend: "stable", analysis: "Auto-scored: Space & Aerospace, Series A, 0 patents.", lastUpdated: "2026-03-26" },
-      "Ayar Labs": { score: 55, trend: "stable", analysis: "Auto-scored: AI & Software, Series C, 0 patents.", lastUpdated: "2026-03-26" },
-      "Vathys": { score: 50, trend: "stable", analysis: "Auto-scored: AI & Software, Seed, 0 patents.", lastUpdated: "2026-03-26" },
-      "NextSilicon": { score: 55, trend: "stable", analysis: "Auto-scored: AI & Software, Series B, 0 patents.", lastUpdated: "2026-03-26" },
-      "Horizon Quantum Computing": { score: 46, trend: "stable", analysis: "Auto-scored: Quantum Computing, Series A, 0 patents.", lastUpdated: "2026-03-26" },
-      "Phasecraft": { score: 46, trend: "stable", analysis: "Auto-scored: Quantum Computing, Series A, 0 patents.", lastUpdated: "2026-03-26" },
-      "NVision Imaging Technologies": { score: 50, trend: "stable", analysis: "Auto-scored: Biotech & Health, Series A, 0 patents.", lastUpdated: "2026-03-26" },
-      "Ideon Technologies": { score: 50, trend: "stable", analysis: "Auto-scored: Climate & Energy, Series B, 0 patents.", lastUpdated: "2026-03-26" },
-      "Chemify": { score: 54, trend: "stable", analysis: "Auto-scored: Biotech & Health, Series B, 0 patents.", lastUpdated: "2026-03-26" },
-      "Unspun": { score: 48, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series A, 0 patents.", lastUpdated: "2026-03-26" },
-      "Evolv Technology": { score: 47, trend: "stable", analysis: "Auto-scored: Defense & Security, Public, 0 patents.", lastUpdated: "2026-03-26" },
-      "Reality Defender": { score: 55, trend: "stable", analysis: "Auto-scored: AI & Software, Series B, 0 patents.", lastUpdated: "2026-03-26" },
-      "uAvionix": { score: 49, trend: "stable", analysis: "Auto-scored: Space & Aerospace, Series B, 0 patents.", lastUpdated: "2026-03-26" },
-      "Robust.AI": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series B, 0 patents.", lastUpdated: "2026-03-26" },
-      "Sabanto": { score: 48, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series A, 0 patents.", lastUpdated: "2026-03-26" },
-      "BurnBot": { score: 46, trend: "stable", analysis: "Auto-scored: Climate & Energy, Seed, 0 patents.", lastUpdated: "2026-03-26" },
-      "Recycleye": { score: 53, trend: "stable", analysis: "Auto-scored: Robotics & Manufacturing, Series B, 0 patents.", lastUpdated: "2026-03-26" },
-      "Enovix": { score: 47, trend: "stable", analysis: "Auto-scored: Climate & Energy, Public, 0 patents.", lastUpdated: "2026-03-26" },
-      "Aclarity": { score: 46, trend: "stable", analysis: "Auto-scored: Climate & Energy, Series A, 0 patents.", lastUpdated: "2026-03-26" },
-      "Akash Systems": { score: 49, trend: "stable", analysis: "Auto-scored: Space & Aerospace, Series B, 0 patents.", lastUpdated: "2026-03-26" },
     }
   },
 
@@ -15731,7 +15706,6 @@ const PREDICTIVE_SCORES = {
       "81-100": { label: "High Risk", color: "red", description: "Material concerns, distress possible" }
     },
     companies: {
-
 
 
 
@@ -16527,31 +16501,6 @@ const PREDICTIVE_SCORES = {
       "Riot Ventures": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-20" },
       "Prime Movers Lab": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-20" },
       "Valor Equity Partners": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-20" },
-      "Defense & Cyber Salon": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-26" },
-      "Space & Nuclear Salon": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-26" },
-      "Robotics & Manufacturing Salon": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-26" },
-      "Energy & Climate Salon": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-26" },
-      "ROS Summit 2026": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-26" },
-      "Builder Field Trip": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $0M raised, 0 jobs, .", lastUpdated: "2026-03-26" },
-      "Atomic Alchemy": { score: 63, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $30M raised, 0 jobs, Series A.", lastUpdated: "2026-03-26" },
-      "Zeno Power": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $30M raised, 0 jobs, Series A.", lastUpdated: "2026-03-26" },
-      "Ayar Labs": { score: 50, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $370M raised, 0 jobs, Series C.", lastUpdated: "2026-03-26" },
-      "Vathys": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $10M raised, 0 jobs, Seed.", lastUpdated: "2026-03-26" },
-      "NextSilicon": { score: 50, trend: "stable", runway: "18-24 months", analysis: "Auto-scored: $200M raised, 0 jobs, Series B.", lastUpdated: "2026-03-26" },
-      "Horizon Quantum Computing": { score: 63, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $24M raised, 0 jobs, Series A.", lastUpdated: "2026-03-26" },
-      "Phasecraft": { score: 63, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $25M raised, 0 jobs, Series A.", lastUpdated: "2026-03-26" },
-      "NVision Imaging Technologies": { score: 62, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $20M raised, 0 jobs, Series A.", lastUpdated: "2026-03-26" },
-      "Ideon Technologies": { score: 60, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $30M raised, 0 jobs, Series B.", lastUpdated: "2026-03-26" },
-      "Chemify": { score: 58, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $52M raised, 0 jobs, Series B.", lastUpdated: "2026-03-26" },
-      "Unspun": { score: 52, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $34M raised, 0 jobs, Series A.", lastUpdated: "2026-03-26" },
-      "Reality Defender": { score: 54, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $50M raised, 0 jobs, Series B.", lastUpdated: "2026-03-26" },
-      "uAvionix": { score: 54, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $55M raised, 0 jobs, Series B.", lastUpdated: "2026-03-26" },
-      "Robust.AI": { score: 48, trend: "stable", runway: "12-18 months", analysis: "Auto-scored: $50M raised, 0 jobs, Series B.", lastUpdated: "2026-03-26" },
-      "Sabanto": { score: 52, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $20M raised, 0 jobs, Series A.", lastUpdated: "2026-03-26" },
-      "BurnBot": { score: 60, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $15M raised, 0 jobs, Seed.", lastUpdated: "2026-03-26" },
-      "Recycleye": { score: 52, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $25M raised, 0 jobs, Series B.", lastUpdated: "2026-03-26" },
-      "Aclarity": { score: 60, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $14M raised, 0 jobs, Series A.", lastUpdated: "2026-03-26" },
-      "Akash Systems": { score: 58, trend: "stable", runway: "6-12 months", analysis: "Auto-scored: $40M raised, 0 jobs, Series B.", lastUpdated: "2026-03-26" },
     }
   },
 
@@ -18285,11 +18234,7 @@ const PREV_WEEK_SCORES = [
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-03-25
 // Auto-updated government contracts from USAspending
-// Last updated: 2026-03-26
-// Auto-updated government contracts from USAspending
-// Last updated: 2026-03-27
-// Auto-updated government contracts from USAspending
-// Last updated: 2026-03-28
+// Last updated: 2026-03-29
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-03-29
 // Auto-updated government contracts from USAspending
@@ -18328,7 +18273,7 @@ const GOV_CONTRACTS = [
 ];
 
 // Auto-updated NIH Reporter grant data
-// Last updated: 2026-03-25
+// Last updated: 2026-03-29
 // Total grants: 621 | Known companies: 15
 const NIH_GRANTS = [
   { orgName: "", title: "PROVIDENT:  Prepositioning Optimized Strategies for Vaccines and Immunotherapeutics against Diverse ", agency: "", fiscalYear: 2025, totalCost: 0, totalCostFormatted: "$0", activityCode: "U19", isSbir: false, terms: ["Academia", "Achievement", "Advanced Development", "Animal Model", "Animals"], isKnownCompany: false },
@@ -18834,7 +18779,7 @@ const NIH_GRANTS = [
 ];
 
 // Auto-updated ARPA-E project data
-// Last updated: 2026-03-18
+// Last updated: 2026-03-29
 // Total projects: 550 | Private companies: 202
 const ARPA_E_PROJECTS = [
   { title: "SAFERBAT: Solid-state Approach for Future Energy-dense Renewable Batteries and Advanced-manufacturing Technologies", organization: "Ion Storage Systems, Inc.", orgType: "Private Company", status: "Active", state: "MD", awardAmount: 20000000, awardFormatted: "20,000,000", programAcronym: "None", technologyAreas: ["Batteries", "Transportation"], isKnownCompany: false, isPrivateCompany: true },
@@ -19466,11 +19411,7 @@ const BUDGET_SIGNALS = [
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-03-25
 // Auto-updated patent intelligence (curated scores + USPTO data)
-// Last updated: 2026-03-26
-// Auto-updated patent intelligence (curated scores + USPTO data)
-// Last updated: 2026-03-27
-// Auto-updated patent intelligence (curated scores + USPTO data)
-// Last updated: 2026-03-28
+// Last updated: 2026-03-29
 // Auto-updated patent intelligence (curated scores + USPTO data)
 // Last updated: 2026-03-29
 // Auto-updated patent intelligence (curated scores + USPTO data)
@@ -19601,15 +19542,15 @@ const ALT_DATA_SIGNALS = [
   { company: "Anduril Industries", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "3,500+", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 8, keySignal: "2 recent articles" },
   { company: "Palantir", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 8, keySignal: "-5.1% down" },
   { company: "Vast", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "350+", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 7, keySignal: "7 recent articles" },
+  { company: "Waymo", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 7, keySignal: "3 recent articles" },
   { company: "SpaceX", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "21K+", webTraffic: "up", newsSentiment: "positive", githubPresence: null, signalStrength: 6, keySignal: "3 recent articles" },
   { company: "Anthropic", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "6,414+", webTraffic: "up", newsSentiment: "positive", githubPresence: null, signalStrength: 6, keySignal: "3 recent articles" },
-  { company: "Waymo", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "3 recent articles" },
   { company: "ispace", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "+5.4% up" },
   { company: "Cape", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "8 recent articles" },
   { company: "Durin", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "7 recent articles" },
   { company: "Karman Industries", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "6 recent articles" },
-  { company: "OpenAI", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 6, keySignal: "5 recent articles" },
   { company: "Mach Industries", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 5, keySignal: "4 recent articles" },
+  { company: "OpenAI", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 5, keySignal: "5 recent articles" },
   { company: "Stripe", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "8,771+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "Hiring velocity: surging. Est. headcount: 8,771+" },
   { company: "Rocket Lab", hiringVelocity: "surging", keyRoles: [], headcountEstimate: "2,000+", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "Hiring velocity: surging. Est. headcount: 2,000+" },
   { company: "Astera Labs", hiringVelocity: "rapid", keyRoles: [], headcountEstimate: "1,486+", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
@@ -19619,10 +19560,10 @@ const ALT_DATA_SIGNALS = [
   { company: "Skydio", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "down", newsSentiment: "neutral", githubPresence: null, signalStrength: 4, keySignal: "96 patents" },
   { company: "Andrenam", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "40 patents" },
   { company: "Ample", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
-  { company: "Atomic Industries", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
+  { company: "Atomic Industries", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
   { company: "Deterrence", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
-  { company: "Matic Robotics", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
-  { company: "PILGRIM", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "up", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
+  { company: "Matic Robotics", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
+  { company: "PILGRIM", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "3 recent articles" },
   { company: "Amca", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
   { company: "Asylon Robotics", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
   { company: "Cohere", hiringVelocity: "stable", keyRoles: [], headcountEstimate: "", webTraffic: "flat", newsSentiment: "mixed", githubPresence: null, signalStrength: 4, keySignal: "2 recent articles" },
@@ -20213,11 +20154,7 @@ const NETWORK_GRAPH = {
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-03-25
 // Auto-updated news feed (curated + auto-detected)
-// Last updated: 2026-03-26
-// Auto-updated news feed (curated + auto-detected)
-// Last updated: 2026-03-27
-// Auto-updated news feed (curated + auto-detected)
-// Last updated: 2026-03-28
+// Last updated: 2026-03-29
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-03-29
 // Auto-updated news feed (curated + auto-detected)
@@ -20253,56 +20190,56 @@ const NEWS_FEED = [
     analysisAuthor: "ROS Editorial"
   },
   // ─── AUTO-DETECTED NEWS ───
-  { id: 3, company: "Waymo", headline: "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN", source: "Next Big Future", category: "contract", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 4, company: "Hugging Face", headline: "Transforming Data Science With NVIDIA RTX PRO 6000 Blackwell Workstation Edition", source: "IEEE Spectrum", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 5, company: "Cerebras", headline: "Why Thermal Metrology Must Evolve for Next-Generation Semiconductors", source: "IEEE Spectrum", category: "leadership", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 6, company: "PILGRIM", headline: "The Battlefield is the Next Betting Market", source: "War on the Rocks", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 7, company: "PILGRIM", headline: "Follow the Money: Finance and the Future of Allied Economic Statecraft", source: "War on the Rocks", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 8, company: "Cape", headline: "The National Security Council is missing in action", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 9, company: "Anthropic", headline: "Recursively Self Improving AI Will Have Unlimited Space Based Solar Power", source: "Next Big Future", category: "ipo", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 10, company: "Amca", headline: "Bradley replacement is still on track, says Army acquisitions boss", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "high", sector: "General", url: "#" },
-  { id: 11, company: "Vast", headline: "NASA Plans $20 Billion Permanent Moonbase by 2032", source: "Next Big Future", category: "news", date: "4d ago", summary: "", impact: "high", sector: "General", url: "#" },
-  { id: 12, company: "Mach Industries", headline: "NASA Space Reactor 1 Freedom for Nuclear Powered Interplanetary to Mars in 2028", source: "Next Big Future", category: "ipo", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 13, company: "Astera Labs", headline: "Data Centers Are Transitioning From AC to DC", source: "IEEE Spectrum", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 14, company: "Astera Labs", headline: "What Will It Take to Build the World’s Largest Data Center?", source: "IEEE Spectrum", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 15, company: "Anduril Industries", headline: "The Coming Drone-War Inflection in Ukraine", source: "IEEE Spectrum", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 16, company: "Xanadu Quantum Technologies", headline: "Self-propagating malware poisons open source software and wipes Iran-based machines", source: "Ars Technica", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 17, company: "Saronic", headline: "The Next Transformation of U.S. Shipbuilding", source: "War on the Rocks", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 18, company: "Durin", headline: "Converting History into Hard Power: A Polish-German Reckoning", source: "War on the Rocks", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 19, company: "Rebellion Defense", headline: "The real danger of military AI isn’t killer robots; it’s worse human judgement", source: "Defense One", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 20, company: "Xtend", headline: "Space Force weighs launch alternatives as Vulcan faces potential months-long grounding", source: "SpaceNews", category: "funding", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 21, company: "Karman Industries", headline: "Turning the Plan Into Action: Next Steps for Oʻahu’s Clean Energy System", source: "CleanTechnica", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 22, company: "Vast", headline: "Office of Space Commerce releases mission authorization proposal", source: "SpaceNews", category: "ipo", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 23, company: "Terran Orbital", headline: "Terran Orbital Introduces New Star Tracker Product Line at SATSHOW 2026", source: "SpaceNews", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 24, company: "Agility Robotics", headline: "30 Years Ago, Robots Learned to Walk Without Falling", source: "IEEE Spectrum", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 25, company: "Durin", headline: "Antibiotic resistance among germs swells during droughts, study suggests", source: "Ars Technica Space", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 26, company: "Vast", headline: "How Are Iran’s Partnerships with Belarus and Russia Holding Up During War?", source: "War on the Rocks", category: "partnership", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 27, company: "ispace", headline: "Roundtables: The Next Era of Space Exploration", source: "MIT Tech Review", category: "funding", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 28, company: "Durin", headline: "What Happens When You Host an AI Café", source: "IEEE Spectrum", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 29, company: "Blumen Systems", headline: "Exclusive: YC Doubles Down On Trayd, A Construction Tech Startup That Just Raised $10M In 3 Weeks", source: "Crunchbase News", category: "funding", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 30, company: "PILGRIM", headline: "German army eyes AI tools to expedite wartime decision-making", source: "Defense News", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 31, company: "Galvanick", headline: "2026 Cybersecurity Excellence Awards Winners Announced during RSA Conference as AI Security Dominates", source: "Next Big Future", category: "contract", date: "3d ago", summary: "", impact: "medium", sector: "General", url: "#" },
-  { id: 32, company: "Amca", headline: "Data: OpenAI Has Already Done Nearly As Many M&#038;A Deals In 2026 As It Did All of Last Year", source: "Crunchbase News", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 33, company: "Skeleton Technologies", headline: "How chemists turned bourbon waste into supercapacitors", source: "Ars Technica Space", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 34, company: "Photonic Inc", headline: "Your Defense Code Is Already AI-Generated. Now What?", source: "War on the Rocks", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 35, company: "Astera Labs", headline: "Trump gets data center companies to pledge to pay for power generation", source: "Ars Technica", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 36, company: "Cape", headline: "Fighting an Economic War Without Fused Intelligence", source: "War on the Rocks", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 37, company: "Durin", headline: "Foundry, Fleet, and Fight: Hedging the U.S. Navy", source: "War on the Rocks", category: "news", date: "3/3/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 38, company: "Galvanick", headline: "The Week’s 10 Biggest Funding Rounds: Investment Slows, But Security And AI Remain Top Picks", source: "Crunchbase News", category: "funding", date: "3/20/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 39, company: "Conductor Quantum", headline: "IEEE Partners With Academia to Create Microcredential Programs", source: "IEEE Spectrum", category: "partnership", date: "3/20/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 40, company: "Salient Motion", headline: "Overcoming Core Engineering Barriers in Humanoid Robotics Development", source: "IEEE Spectrum", category: "news", date: "3/19/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 41, company: "Epirus", headline: "Countering Drones and the Pace of Modern War", source: "War on the Rocks", category: "news", date: "3/19/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 42, company: "SHIELD Technology Partners", headline: "The Inevitability of Chinese Military Purges", source: "War on the Rocks", category: "news", date: "3/19/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 43, company: "Photonic Inc", headline: "Federal cyber experts called Microsoft&#039;s cloud a &quot;pile of shit,&quot; approved it anyway", source: "Ars Technica", category: "news", date: "3/18/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 44, company: "Cohere", headline: "Military Operational Thinking in an Age of Artificial Intelligence", source: "War on the Rocks", category: "news", date: "3/18/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 45, company: "Asylon Robotics", headline: "“Sensorveillance” Turns Ordinary Life Into Evidence", source: "IEEE Spectrum", category: "news", date: "3/17/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 46, company: "Cape", headline: "How Does the Iran War Affect China’s Energy Security?", source: "War on the Rocks", category: "news", date: "3/17/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 47, company: "Vast", headline: "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience", source: "War on the Rocks", category: "news", date: "3/12/2026", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 48, company: "Durin", headline: "Layla Sleep Coupon: Save Up to $600 in March 2026", source: "Wired", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 49, company: "Fervo Energy", headline: "Hegseth Invokes National Security in Seeking to Exempt Gulf Oil &#038; Gas Activities from Endangered Species Act", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 50, company: "Space Forge", headline: "Armstrong Templok Shows Potential For Thermal Energy Storage With Phase Change Materials", source: "CleanTechnica", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 51, company: "Anthropic", headline: "Anthropic Supply-Chain-Risk Designation Halted by Judge", source: "Wired", category: "news", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
-  { id: 52, company: "Vast", headline: "U.S. GSSAP satellites execute GEO handoff to monitor China’s Shijian-29 spacecraft", source: "SpaceNews", category: "ipo", date: "2d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 3, company: "Waymo", headline: "TechCrunch Mobility: When a robotaxi has to call 911", source: "TechCrunch", category: "contract", date: "Just now", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 4, company: "Hugging Face", headline: "Transforming Data Science With NVIDIA RTX PRO 6000 Blackwell Workstation Edition", source: "IEEE Spectrum", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 5, company: "Cerebras", headline: "Why Thermal Metrology Must Evolve for Next-Generation Semiconductors", source: "IEEE Spectrum", category: "leadership", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 6, company: "PILGRIM", headline: "The Battlefield is the Next Betting Market", source: "War on the Rocks", category: "news", date: "6d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 7, company: "Waymo", headline: "A School District Tried to Help Train Waymos to Stop for School Buses. It Didn’t Work", source: "Wired", category: "news", date: "5h ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 8, company: "Astera Labs", headline: "Data Centers Are Transitioning From AC to DC", source: "IEEE Spectrum", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 9, company: "Astera Labs", headline: "What Will It Take to Build the World’s Largest Data Center?", source: "IEEE Spectrum", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 10, company: "Anduril Industries", headline: "The Coming Drone-War Inflection in Ukraine", source: "IEEE Spectrum", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 11, company: "Xanadu Quantum Technologies", headline: "Self-propagating malware poisons open source software and wipes Iran-based machines", source: "Ars Technica", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 12, company: "Saronic", headline: "The Next Transformation of U.S. Shipbuilding", source: "War on the Rocks", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 13, company: "Durin", headline: "Converting History into Hard Power: A Polish-German Reckoning", source: "War on the Rocks", category: "news", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 14, company: "Waymo", headline: "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN", source: "Next Big Future", category: "contract", date: "5d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 15, company: "Durin", headline: "What Happens When You Host an AI Café", source: "IEEE Spectrum", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 16, company: "Blumen Systems", headline: "Exclusive: YC Doubles Down On Trayd, A Construction Tech Startup That Just Raised $10M In 3 Weeks", source: "Crunchbase News", category: "funding", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 17, company: "Galvanick", headline: "2026 Cybersecurity Excellence Awards Winners Announced during RSA Conference as AI Security Dominates", source: "Next Big Future", category: "contract", date: "4d ago", summary: "", impact: "medium", sector: "General", url: "#" },
+  { id: 18, company: "Amca", headline: "Data: OpenAI Has Already Done Nearly As Many M&#038;A Deals In 2026 As It Did All of Last Year", source: "Crunchbase News", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 19, company: "Skeleton Technologies", headline: "How chemists turned bourbon waste into supercapacitors", source: "Ars Technica Space", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 20, company: "Photonic Inc", headline: "Your Defense Code Is Already AI-Generated. Now What?", source: "War on the Rocks", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 21, company: "PILGRIM", headline: "Follow the Money: Finance and the Future of Allied Economic Statecraft", source: "War on the Rocks", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 22, company: "Cape", headline: "The National Security Council is missing in action", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 23, company: "Anthropic", headline: "Recursively Self Improving AI Will Have Unlimited Space Based Solar Power", source: "Next Big Future", category: "ipo", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 24, company: "Amca", headline: "Bradley replacement is still on track, says Army acquisitions boss", source: "Defense One", category: "news", date: "4d ago", summary: "", impact: "high", sector: "General", url: "#" },
+  { id: 25, company: "Vast", headline: "NASA Plans $20 Billion Permanent Moonbase by 2032", source: "Next Big Future", category: "news", date: "4d ago", summary: "", impact: "high", sector: "General", url: "#" },
+  { id: 26, company: "Mach Industries", headline: "NASA Space Reactor 1 Freedom for Nuclear Powered Interplanetary to Mars in 2028", source: "Next Big Future", category: "ipo", date: "4d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 27, company: "Zeromark", headline: "‘We’ll go 40%’: Army wants good-enough tech it can reshape for battle", source: "Defense One", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 28, company: "Palantir", headline: "A $20 Billion Crypto Scam Market Faces a New Government Crackdown", source: "Wired", category: "news", date: "3d ago", summary: "", impact: "high", sector: "General", url: "#" },
+  { id: 29, company: "Ample", headline: "Electric Trucks Are Getting A Lift From You-Know-Who", source: "CleanTechnica", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 30, company: "Q-CTRL", headline: "Hughes targets sovereign satcom demand with network control software", source: "SpaceNews", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 31, company: "Asylon Robotics", headline: "Using a VPN May Subject You to NSA Spying", source: "Wired", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 32, company: "WeaveGrid", headline: "California Regulators Signal Ratepayer Protection in Initial Rejection to SoCalGas", source: "CleanTechnica", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 33, company: "Machina Labs", headline: "Volkswagen in talks to make Iron Dome parts at struggling German auto plant: report", source: "Defense News", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 34, company: "Deterrence", headline: "France to boost munitions spending by nearly $10 billion through 2030", source: "Defense News", category: "news", date: "3d ago", summary: "", impact: "high", sector: "General", url: "#" },
+  { id: 35, company: "Bronco AI", headline: "The Inherent Evil of Fossil Fuels", source: "CleanTechnica", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 36, company: "Hubble Network", headline: "Soundboks Mix Review: A Great Party Speaker", source: "Wired", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 37, company: "Mach Industries", headline: "NASA to test nuclear electric propulsion with 2028 mission to Mars", source: "SpaceNews", category: "milestone", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 38, company: "Palantir", headline: "The snow gods: How a couple of ski bums built the internet’s best weather app", source: "MIT Tech Review", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 39, company: "Durin", headline: "10 Ukrainians Humbled Two NATO Battalions. When Will NATO Wake Up?", source: "War on the Rocks", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 40, company: "Andrenam", headline: "A Torpedo in the Trade Lanes: Naval Warfare Returns to the Indo-Pacific", source: "War on the Rocks", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 41, company: "Rebellion Defense", headline: "The real danger of military AI isn’t killer robots; it’s worse human judgement", source: "Defense One", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 42, company: "Xtend", headline: "Space Force weighs launch alternatives as Vulcan faces potential months-long grounding", source: "SpaceNews", category: "funding", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 43, company: "Vast", headline: "Office of Space Commerce releases mission authorization proposal", source: "SpaceNews", category: "ipo", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 44, company: "Agility Robotics", headline: "30 Years Ago, Robots Learned to Walk Without Falling", source: "IEEE Spectrum", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 45, company: "Durin", headline: "Antibiotic resistance among germs swells during droughts, study suggests", source: "Ars Technica Space", category: "news", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 46, company: "Vast", headline: "How Are Iran’s Partnerships with Belarus and Russia Holding Up During War?", source: "War on the Rocks", category: "partnership", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 47, company: "ispace", headline: "Roundtables: The Next Era of Space Exploration", source: "MIT Tech Review", category: "funding", date: "3d ago", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 48, company: "Astera Labs", headline: "Trump gets data center companies to pledge to pay for power generation", source: "Ars Technica", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 49, company: "Cape", headline: "Fighting an Economic War Without Fused Intelligence", source: "War on the Rocks", category: "news", date: "3/5/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 50, company: "Durin", headline: "Foundry, Fleet, and Fight: Hedging the U.S. Navy", source: "War on the Rocks", category: "news", date: "3/3/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 51, company: "Galvanick", headline: "The Week’s 10 Biggest Funding Rounds: Investment Slows, But Security And AI Remain Top Picks", source: "Crunchbase News", category: "funding", date: "3/20/2026", summary: "", impact: "low", sector: "General", url: "#" },
+  { id: 52, company: "Conductor Quantum", headline: "IEEE Partners With Academia to Create Microcredential Programs", source: "IEEE Spectrum", category: "partnership", date: "3/20/2026", summary: "", impact: "low", sector: "General", url: "#" },
 ];
 
 const STORY_LEADS = [
@@ -22835,23 +22772,69 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-29 16:43
+// Last updated: 2026-03-18 02:50
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-18
+// Auto-generated real-time signals
+// Last updated: 2026-03-19
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-20
+// Auto-generated real-time signals
+// Last updated: 2026-03-25
+// Auto-generated real-time signals
+// Last updated: 2026-03-25
+// Auto-generated real-time signals
+// Last updated: 2026-03-29
+// Auto-generated real-time signals
+// Last updated: 2026-03-29
+// Auto-generated real-time signals
+// Last updated: 2026-03-29
 const COMPANY_SIGNALS = [
   { id: 1, type: "news", company: "Waymo", headline: "TechCrunch Mobility: When a robotaxi has to call 911", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Karman Industries", headline: "California's Hydrogen Infrastructure Collapse Proves What We've Known All Along", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Waymo", headline: "A School District Tried to Help Train Waymos to Stop for School Buses. It Didn't Work", source: "Wired", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Matic Robotics", headline: "Anthropic's Claude popularity with paying consumers is skyrocketing", source: "TechCrunch", time: "1d ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Karman Industries", headline: "California&#8217;s Hydrogen Infrastructure Collapse Proves What We&#8217;ve Known All Along", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "funding", company: "Waymo", headline: "A School District Tried to Help Train Waymos to Stop for School Buses. It Didn’t Work", source: "Wired", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Matic Robotics", headline: "Anthropic&#8217;s Claude popularity with paying consumers is skyrocketing", source: "TechCrunch", time: "1d ago", impact: "medium", unread: true },
   { id: 5, type: "news", company: "Biofire", headline: "Your Vape Wants to Know How Old You Are", source: "Wired", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "milestone", company: "Osmo", headline: "The Best Samsung Phones of 2026, Tested and Reviewed", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 7, type: "ipo", company: "SpaceX", headline: "Tesla Analyst Thinks Tesla Could Merge With SpaceX In 2027", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
   { id: 8, type: "ipo", company: "Karman Industries", headline: "BrightDrop Died in America, While China Made Electric Vans Normal", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Matic Robotics", headline: "Whoop's fitness band is cool. Can it stay cool as the company grows?", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Mach Industries", headline: "Iran Conflict Costing Shipping Industry '340 Million A Day", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Matic Robotics", headline: "Whoop&#8217;s fitness band is cool. Can it stay cool as the company grows?", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Mach Industries", headline: "Iran Conflict Costing Shipping Industry €340 Million A Day", source: "CleanTechnica", time: "1d ago", impact: "high", unread: false },
   { id: 11, type: "funding", company: "Physical Intelligence", headline: "Physical Intelligence is reportedly in talks to raise $1 billion, again", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
   { id: 12, type: "news", company: "Kyutai", headline: "AI Research Is Getting Harder to Separate From Geopolitics", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "OpenAI", headline: "Why SoftBank's new $40B loan points to a 2026 OpenAI IPO", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
+  { id: 13, type: "ipo", company: "OpenAI", headline: "Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO", source: "TechCrunch", time: "1d ago", impact: "high", unread: false },
   { id: 14, type: "contract", company: "Palantir", headline: "Judge grants Anthropic preliminary injunction but Pentagon CTO says ban still stands", source: "Breaking Defense", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Waymo", headline: "Waymo's skyrocketing ridership in one chart", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Waymo’s skyrocketing ridership in one chart", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
@@ -22970,11 +22953,7 @@ const EXPERT_INSIGHTS = [
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-03-25
 // Auto-recalibrated Valley of Death stages
-// Last updated: 2026-03-26
-// Auto-recalibrated Valley of Death stages
-// Last updated: 2026-03-27
-// Auto-recalibrated Valley of Death stages
-// Last updated: 2026-03-28
+// Last updated: 2026-03-29
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-03-29
 // Auto-recalibrated Valley of Death stages
@@ -23056,11 +23035,7 @@ const VALLEY_OF_DEATH_STAGES = [
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-03-25
 // Auto-recalibrated contractor readiness scores
-// Last updated: 2026-03-26
-// Auto-recalibrated contractor readiness scores
-// Last updated: 2026-03-27
-// Auto-recalibrated contractor readiness scores
-// Last updated: 2026-03-28
+// Last updated: 2026-03-29
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-03-29
 // Auto-recalibrated contractor readiness scores
@@ -23080,8 +23055,8 @@ const CONTRACTOR_READINESS = [
 // Last updated: 2026-03-29
 // Sources: USAspending, SAM.gov, SBIR.gov, news RSS
 const LIVE_AWARD_FEED = [
-  { id: 1, date: "5d ago", company: "Waymo", type: "ota", title: "ROBOTAXI WAR &#8211; TESLA VS NVIDIA. ELON VS JENSEN", value: "", agency: "", detail: "" },
-  { id: 2, date: "3d ago", company: "Galvanick", type: "contract", title: "2026 Cybersecurity Excellence Awards Winners Announced during RSA Conference as AI Security Dominate", value: "", agency: "", detail: "" },
+  { id: 1, date: "Just now", company: "Waymo", type: "ota", title: "TechCrunch Mobility: When a robotaxi has to call 911", value: "", agency: "", detail: "" },
+  { id: 2, date: "4d ago", company: "Galvanick", type: "contract", title: "2026 Cybersecurity Excellence Awards Winners Announced during RSA Conference as AI Security Dominate", value: "", agency: "", detail: "" },
   { id: 3, date: "2026-02-06", company: "Anduril", type: "contract", title: "Government Contract — Department of Homeland Security, Department of Defense", value: "$1.5B+", agency: "Department of Homeland Security, Department of Defense", detail: "100 contracts across 4 agencies." },
   { id: 4, date: "2026-02-06", company: "Anduril Industries", type: "contract", title: "Government Contract — Department of Homeland Security, Department of Defense", value: "$1.5B+", agency: "Department of Homeland Security, Department of Defense", detail: "100 contracts across 4 agencies." },
   { id: 5, date: "2026-02-06", company: "Palantir", type: "contract", title: "Government Contract — Department of the Treasury, Department of State", value: "$1.7B+", agency: "Department of the Treasury, Department of State", detail: "100 contracts across 5 agencies." },
