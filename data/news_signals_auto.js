@@ -1,41 +1,52 @@
 // Auto-generated news signals
-// Last updated: 2026-03-29T08:51:32.284Z
+// Last updated: 2026-03-29T13:11:24.850Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1774774292284,
+    "id": 1774789884850,
+    "type": "funding",
+    "company": "Waymo",
+    "headline": "A School District Tried to Help Train Waymos to Stop for School Buses. It Didn’t Work",
+    "source": "Wired",
+    "time": "2h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.wired.com/story/a-school-district-tried-to-help-train-waymos-to-stop-for-school-buses-it-didnt-work/"
+  },
+  {
+    "id": 1774789884851,
     "type": "news",
     "company": "Matic Robotics",
     "headline": "Anthropic&#8217;s Claude popularity with paying consumers is skyrocketing",
     "source": "TechCrunch",
-    "time": "18h ago",
+    "time": "22h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/"
   },
   {
-    "id": 1774774292285,
+    "id": 1774789884852,
     "type": "news",
     "company": "Biofire",
     "headline": "Your Vape Wants to Know How Old You Are",
     "source": "Wired",
-    "time": "21h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/your-vape-wants-to-know-how-old-you-are/"
   },
   {
-    "id": 1774774292286,
+    "id": 1774789884853,
     "type": "milestone",
     "company": "Osmo",
     "headline": "The Best Samsung Phones of 2026, Tested and Reviewed",
     "source": "Wired",
-    "time": "22h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/gallery/best-samsung-phones/"
   },
   {
-    "id": 1774774292287,
+    "id": 1774789884854,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "Tesla Analyst Thinks Tesla Could Merge With SpaceX In 2027",
@@ -46,18 +57,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/27/tesla-analyst-thinks-tesla-could-merge-with-spacex-in-2027/"
   },
   {
-    "id": 1774774292288,
+    "id": 1774789884855,
     "type": "ipo",
     "company": "Karman Industries",
     "headline": "BrightDrop Died in America, While China Made Electric Vans Normal",
     "source": "CleanTechnica",
     "time": "1d ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://cleantechnica.com/2026/03/27/brightdrop-died-in-america-while-china-made-electric-vans-normal/"
   },
   {
-    "id": 1774774292289,
+    "id": 1774789884856,
     "type": "news",
     "company": "Matic Robotics",
     "headline": "Whoop&#8217;s fitness band is cool. Can it stay cool as the company grows?",
@@ -68,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/03/27/whoop-has-lebron-now-it-wants-your-mom/"
   },
   {
-    "id": 1774774292290,
+    "id": 1774789884857,
     "type": "news",
     "company": "Mach Industries",
     "headline": "Iran Conflict Costing Shipping Industry €340 Million A Day",
@@ -79,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/27/iran-conflict-costing-shipping-industry-e340-million-a-day/"
   },
   {
-    "id": 1774774292291,
+    "id": 1774789884858,
     "type": "funding",
     "company": "Physical Intelligence",
     "headline": "Physical Intelligence is reportedly in talks to raise $1 billion, again",
@@ -90,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/03/27/physical-intelligence-is-reportedly-in-talks-to-raise-1-billion-again/"
   },
   {
-    "id": 1774774292292,
+    "id": 1774789884859,
     "type": "news",
     "company": "Kyutai",
     "headline": "AI Research Is Getting Harder to Separate From Geopolitics",
@@ -101,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/made-in-china-ai-research-is-starting-to-split-along-geopolitical-lines/"
   },
   {
-    "id": 1774774292293,
+    "id": 1774789884860,
     "type": "ipo",
     "company": "OpenAI",
     "headline": "Why SoftBank’s new $40B loan points to a 2026 OpenAI IPO",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/"
   },
   {
-    "id": 1774774292294,
+    "id": 1774789884861,
     "type": "contract",
     "company": "Palantir",
     "headline": "Judge grants Anthropic preliminary injunction but Pentagon CTO says ban still stands",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/03/judge-grants-anthropic-preliminary-injunction-but-pentagon-cto-says-ban-still-stands/"
   },
   {
-    "id": 1774774292295,
+    "id": 1774789884862,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo’s skyrocketing ridership in one chart",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/03/27/waymo-skyrocketing-ridership-in-one-chart/"
   },
   {
-    "id": 1774774292296,
+    "id": 1774789884863,
     "type": "ipo",
     "company": "Ample",
     "headline": "28 New Fast EV Charging Stalls Launched In San Diego",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/27/28-new-fast-ev-charging-stalls-launched-in-san-diego/"
   },
   {
-    "id": 1774774292297,
+    "id": 1774789884864,
     "type": "ipo",
     "company": "Vast",
     "headline": "Commercial Space Federation (CSF) Welcomes Two New Associate Members",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/commercial-space-federation-csf-welcomes-two-new-associate-members/"
   },
   {
-    "id": 1774774292298,
+    "id": 1774789884865,
     "type": "news",
     "company": "Sunfire",
     "headline": "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/03/27/combat-drones-are-pivoting-into-green-hydrogen-fuel-cells/"
   },
   {
-    "id": 1774774292299,
+    "id": 1774789884866,
     "type": "funding",
     "company": "Deterrence",
     "headline": "Norway floats additional $11.8B in defense spending through 2035, cancels drone program",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/03/norway-floats-additional-11-8b-in-defense-spending-through-2035-cancels-drone-program/"
   },
   {
-    "id": 1774774292300,
+    "id": 1774789884867,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Judge blocks Pentagon's Anthropic ban, calling it illegal retaliation",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/policy/2026/03/judge-pentagon-anthropic-ban-retaliation/412463/"
   },
   {
-    "id": 1774774292301,
+    "id": 1774789884868,
     "type": "funding",
     "company": "Mach Industries",
     "headline": "India’s Bellatrix raises $20 million following overseas expansion drive",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/indias-bellatrix-raises-20-million-following-overseas-expansion-drive/"
   },
   {
-    "id": 1774774292302,
+    "id": 1774789884869,
     "type": "funding",
     "company": "Aetherflux",
     "headline": "Aetherflux reportedly raising Series B at $2 billion valuation",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/03/27/aetherflux-reportedly-raising-series-b-at-2-billion-valuation/"
-  },
-  {
-    "id": 1774774292303,
-    "type": "news",
-    "company": "Anduril Industries",
-    "headline": "Video Friday: Beep! Beep! Roadrunner Bipedal Bot Breaks the Mold",
-    "source": "IEEE Spectrum",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://spectrum.ieee.org/roadrunner-bipedal-robot"
   }
 ];
