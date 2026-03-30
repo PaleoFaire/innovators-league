@@ -1,71 +1,259 @@
 {
-  "date": "2026-03-23",
-  "display_date": "Mar 23, 2026",
-  "generated_at": "2026-03-23T10:58:32.306599+00:00",
-  "cutoff": "2026-03-16T10:58:32.306599+00:00",
-  "section_count": 2,
-  "total_items": 105,
+  "date": "2026-03-30",
+  "display_date": "Mar 30, 2026",
+  "generated_at": "2026-03-30T11:09:08.687399+00:00",
+  "cutoff": "2026-03-23T11:09:08.687399+00:00",
+  "section_count": 5,
+  "total_items": 238,
   "sections": [
+    {
+      "title": "SEC Activity",
+      "icon": "\ud83d\udcdc",
+      "count": 27,
+      "items": [
+        {
+          "company": "C3.ai",
+          "form": "8-K",
+          "description": "ai-20260324.htm",
+          "date": "2026-03-25",
+          "isIPO": false
+        },
+        {
+          "company": "UiPath",
+          "form": "8-K",
+          "description": "path-20260324.htm",
+          "date": "2026-03-25",
+          "isIPO": false
+        },
+        {
+          "company": "IonQ",
+          "form": "8-K",
+          "description": "bakkt-20260324.htm",
+          "date": "2026-03-24",
+          "isIPO": false
+        },
+        {
+          "company": "Recursion Pharmaceuticals",
+          "form": "8-K",
+          "description": "rxrx-20260325.htm",
+          "date": "2026-03-25",
+          "isIPO": false
+        },
+        {
+          "company": "Joby Aviation",
+          "form": "8-K",
+          "description": "d130319d8k.htm",
+          "date": "2026-03-26",
+          "isIPO": false
+        },
+        {
+          "company": "Astera Labs",
+          "form": "8-K",
+          "description": "tra-20260326.htm",
+          "date": "2026-03-27",
+          "isIPO": false
+        },
+        {
+          "company": "UiPath",
+          "form": "10-K",
+          "description": "path-20260131.htm",
+          "date": "2026-03-25",
+          "isIPO": false
+        },
+        {
+          "company": "Rocket Lab",
+          "form": "4",
+          "description": "xslF345X06/primary_doc.xml",
+          "date": "2026-03-26",
+          "isIPO": false
+        }
+      ]
+    },
+    {
+      "title": "Federal Register",
+      "icon": "\ud83c\udfdb\ufe0f",
+      "count": 45,
+      "items": [
+        {
+          "title": "Categorical Exclusions From Environmental Review",
+          "type": "Rule",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-03-30"
+        },
+        {
+          "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors",
+          "type": "Rule",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-03-30"
+        },
+        {
+          "title": "Sunshine Act Meetings",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-03-27"
+        },
+        {
+          "title": "Information Collection: NRC Form 754, Armed Security Personnel Firearms Background Check",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-03-25"
+        },
+        {
+          "title": "Applications for Amendments to Facility Operating Licenses Involving Proposed No Significant Hazards Consideration Deter",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-03-24"
+        },
+        {
+          "title": "Duke Energy Progress, LLC; H.B. Robinson Steam Electric Plant, Unit No. 2; Exemption",
+          "type": "Notice",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-03-24"
+        }
+      ]
+    },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 85,
+      "count": 95,
       "items": [
         {
-          "title": "SpaceX, Tesla and XAI Will Satellites and Plans for AI in Space",
-          "source": "Next Big Future",
+          "title": "Tesla Analyst Thinks Tesla Could Merge With SpaceX In 2027",
+          "source": "CleanTechnica",
           "company": "SpaceX",
           "impact": "high",
           "type": "ipo"
         },
         {
-          "title": "An exclusive tour of Amazon&#8217;s Trainium lab, the chip that&#8217;s won over Anthropic, OpenAI, ",
-          "source": "TechCrunch",
-          "company": "Anthropic",
-          "impact": "high",
-          "type": "news"
-        },
-        {
-          "title": "Who Should Pay For Trump&#8217;s War On Iran?",
+          "title": "Iran Conflict Costing Shipping Industry \u20ac340 Million A Day",
           "source": "CleanTechnica",
-          "company": "Palantir",
+          "company": "Mach Industries",
           "impact": "high",
           "type": "news"
         },
         {
-          "title": "The Most Active Startup Acquirers Of The Past 3 Years Aren\u2019t Always Who You\u2019d Expect",
+          "title": "Physical Intelligence is reportedly in talks to raise $1 billion, again",
+          "source": "TechCrunch",
+          "company": "Physical Intelligence",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Why SoftBank\u2019s new $40B loan points to a 2026 OpenAI IPO",
+          "source": "TechCrunch",
+          "company": "OpenAI",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "Norway floats additional $11.8B in defense spending through 2035, cancels drone program",
+          "source": "Breaking Defense",
+          "company": "Deterrence",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "The Week\u2019s 10 Biggest Funding Rounds: A Varied Week For Big Deals, Led By AI And Defense",
           "source": "Crunchbase News",
-          "company": "Together AI",
+          "company": "OpenAI",
           "impact": "high",
-          "type": "news"
+          "type": "funding"
         },
         {
-          "title": "US moves to approve more than $16 billion in air defense sales to Middle East",
-          "source": "Defense News",
+          "title": "NATO sees $145B in munitions needs, as members all hit 2 percent GDP for first time",
+          "source": "Breaking Defense",
           "company": "Deterrence",
           "impact": "high",
           "type": "news"
         },
         {
-          "title": "Anduril secures $87M contract for a common counter-unmanned C2 program",
-          "source": "Defense One",
+          "title": "A $20 Billion Crypto Scam Market Faces a New Government Crackdown",
+          "source": "Wired",
           "company": "Palantir",
           "impact": "high",
-          "type": "contract"
+          "type": "news"
+        }
+      ]
+    },
+    {
+      "title": "Hacker News Buzz",
+      "icon": "\ud83d\udd25",
+      "count": 51,
+      "items": [
+        {
+          "title": "AI overly affirms users asking for personal advice",
+          "score": 768,
+          "comments": 602,
+          "companies": [
+            "Sakana AI"
+          ],
+          "url": "https://news.ycombinator.com/item?id=47554773"
         },
         {
-          "title": "The AI Race Is Pressuring Utilities to Squeeze More From Europe\u2019s Power Grids",
-          "source": "Wired",
-          "company": "Astera Labs",
-          "impact": "low",
-          "type": "news"
+          "title": "ChatGPT won't let you type until Cloudflare reads your React state",
+          "score": 582,
+          "comments": 372,
+          "companies": [
+            "Rigetti Computing",
+            "OpenAI"
+          ],
+          "url": "https://news.ycombinator.com/item?id=47566865"
         },
         {
-          "title": "The Battlefield is the Next Betting Market",
-          "source": "War on the Rocks",
-          "company": "PILGRIM",
-          "impact": "low",
-          "type": "news"
+          "title": "Say No to Palantir in Europe",
+          "score": 547,
+          "comments": 156,
+          "companies": [
+            "Palantir"
+          ],
+          "url": "https://news.ycombinator.com/item?id=47563655"
+        },
+        {
+          "title": "Nitrile and latex gloves may cause overestimation of microplastics",
+          "score": 541,
+          "comments": 244,
+          "companies": [
+            "Reveal Technology"
+          ],
+          "url": "https://news.ycombinator.com/item?id=47561711"
+        },
+        {
+          "title": "I Built an Open-World Engine for the N64 [video]",
+          "score": 452,
+          "comments": 90,
+          "companies": [
+            "Runway",
+            "Built Robotics"
+          ],
+          "url": "https://news.ycombinator.com/item?id=47553717"
+        },
+        {
+          "title": "Britain today generating 90%+ of electricity from renewables",
+          "score": 409,
+          "comments": 293,
+          "companies": [
+            "Orbital Marine Power",
+            "SunDrive Solar"
+          ],
+          "url": "https://news.ycombinator.com/item?id=47553484"
         }
       ]
     },
@@ -75,43 +263,45 @@
       "count": 20,
       "items": [
         {
-          "title": "Investeringsforeningen BankInvest \u2013 Prospektopdatering",
+          "title": "\u00c5RSRAPPORT 2025 INDENFOR OPJUSTERET M\u00c5LS\u00c6TNING: ",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Kapitalforeningen BankInvest Select \u2013 Prospektopdatering",
+          "title": "WTW makes EMEA insurance leadership and regional structure changes to accelerate AI strategy",
+          "source": "globenewswire_all",
+          "companies": [
+            "Scale AI",
+            "SHIELD Technology Partners",
+            "Vayu Robotics"
+          ]
+        },
+        {
+          "title": "Wolters Kluwer powers high\u2011stakes professional decision\u2011making by advancing its Expert AI strategy",
+          "source": "globenewswire_all",
+          "companies": [
+            "Rapid Robotics"
+          ]
+        },
+        {
+          "title": "Danske Bank share buy-back programme: transactions in week 13",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "LEADING EDGE MATERIALS FILES CPR FOR BIHOR SUD POLYMETALLIC EXPLORATION PROJECT, ROMANIA",
-          "source": "globenewswire_all",
-          "companies": [
-            "Space Forge"
-          ]
-        },
-        {
-          "title": "INVL Asset Management launches a fund to invest in technology companies in Northern and Western Europe",
-          "source": "globenewswire_all",
-          "companies": [
-            "Endurosat"
-          ]
-        },
-        {
-          "title": "\u201eINVL Asset Management\u201c \u012fsteig\u0117 fond\u0105 investicijoms \u012f \u0160iaur\u0117s ir Vakar\u0173 Europos technologij\u0173 \u012fmones",
-          "source": "globenewswire_all",
-          "companies": [
-            "Endurosat"
-          ]
-        },
-        {
-          "title": "Sampo Group\u2019s annual reporting for 2025",
+          "title": "Aktietilbagek\u00f8b i Danske Bank: Transaktioner i uge 13",
           "source": "globenewswire_all",
           "companies": []
+        },
+        {
+          "title": "Prepayments, Realkredit Danmark A/S",
+          "source": "globenewswire_all",
+          "companies": [
+            "Fortera"
+          ]
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-03-23-c9fbf9c66422"
+  "brief_id": "brief-2026-03-30-152cc866a42b"
 }
