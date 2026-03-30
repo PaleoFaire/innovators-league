@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": 3.03,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": 0.43,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -11.11,
+      "avg_change": -10.48,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.99,
+      "avg_change": -7.76,
       "count": 3
     },
     "transportation": {
@@ -69,11 +69,6 @@
       6.92
     ],
     [
-      "9348.T",
-      "ispace",
-      3.1
-    ],
-    [
       "AMD",
       "AMD",
       0.33
@@ -82,14 +77,14 @@
       "AUR",
       "Aurora Innovation",
       -0.24
+    ],
+    [
+      "RIVN",
+      "Rivian",
+      -0.94
     ]
   ],
   "topLosers": [
-    [
-      "JOBY",
-      "Joby Aviation",
-      -12.24
-    ],
     [
       "ASTS",
       "AST SpaceMobile",
@@ -99,6 +94,11 @@
       "ASRHF",
       "Astroscale",
       -14.66
+    ],
+    [
+      "9348.T",
+      "ispace",
+      -15.12
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -42.62
     ]
   ],
-  "lastUpdated": "2026-03-30 02:50:04"
+  "lastUpdated": "2026-03-30 07:48:37"
 }
