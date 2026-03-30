@@ -1,194 +1,228 @@
 // Auto-generated government contracts data
-// Last updated: 2026-03-29 — deduplicated and normalized company names
-// Sources: USAspending.gov, SAM.gov
+// Last updated: 2026-03-30 07:50:04 UTC
 const GOV_CONTRACTS_AUTO = [
   {
-    company: "SpaceX",
-    totalGovValue: "$10.1B+",
-    contractCount: 78,
-    agencies: ["Department of Defense", "Department of State", "Department of Homeland Security", "Department of Transportation", "National Aeronautics and Space Administration"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Palantir",
-    totalGovValue: "$1.7B+",
+    company: "Anduril",
+    totalGovValue: "$1.6B+",
     contractCount: 100,
-    agencies: ["Department of the Treasury", "Department of State", "Department of Homeland Security", "Department of Health and Human Services", "Department of Veterans Affairs", "Department of Defense"],
-    lastUpdated: "2026-03-29"
+    agencies: ["Department of Homeland Security", "Department of Energy", "Department of Defense", "Department of Commerce"],
+    lastUpdated: "2026-03-30"
   },
   {
     company: "Anduril Industries",
-    totalGovValue: "$1.5B+",
+    totalGovValue: "$1.6B+",
     contractCount: 100,
-    agencies: ["Department of Homeland Security", "Department of Defense", "Department of Commerce", "Department of Energy"],
-    lastUpdated: "2026-03-29"
+    agencies: ["Department of Homeland Security", "Department of Energy", "Department of Defense", "Department of Commerce"],
+    lastUpdated: "2026-03-30"
   },
   {
-    company: "Moderna",
-    totalGovValue: "$1.8B+",
-    contractCount: 1,
-    agencies: ["Department of Health and Human Services"],
-    lastUpdated: "2026-03-29"
+    company: "Palantir",
+    totalGovValue: "$2.1B+",
+    contractCount: 100,
+    agencies: ["Department of Homeland Security", "General Services Administration", "U.S. International Development Finance Corporation", "Department of State", "Department of Housing and Urban Development"],
+    lastUpdated: "2026-03-30"
   },
   {
-    company: "Axiom Space",
-    totalGovValue: "$437M+",
-    contractCount: 5,
-    agencies: ["National Aeronautics and Space Administration"],
-    lastUpdated: "2026-03-29"
+    company: "Palantir Technologies",
+    totalGovValue: "$2.1B+",
+    contractCount: 100,
+    agencies: ["Department of Homeland Security", "General Services Administration", "U.S. International Development Finance Corporation", "Department of State", "Department of Housing and Urban Development"],
+    lastUpdated: "2026-03-30"
   },
   {
-    company: "Rocket Lab",
-    totalGovValue: "$101M+",
-    contractCount: 13,
-    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
-    lastUpdated: "2026-03-29"
+    company: "Space Exploration Technologies",
+    totalGovValue: "$10.6B+",
+    contractCount: 84,
+    agencies: ["Department of Homeland Security", "Department of State", "Department of Defense", "Department of Veterans Affairs", "Department of the Interior"],
+    lastUpdated: "2026-03-30"
   },
   {
-    company: "Castelion",
-    totalGovValue: "$77M+",
-    contractCount: 5,
-    agencies: ["Department of Defense"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Sierra Space",
-    totalGovValue: "$73M+",
-    contractCount: 15,
-    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Ginkgo Bioworks",
-    totalGovValue: "$72M+",
-    contractCount: 5,
-    agencies: ["Department of Health and Human Services", "Department of Defense"],
-    lastUpdated: "2026-03-29"
+    company: "Skydio",
+    totalGovValue: "$4M+",
+    contractCount: 42,
+    agencies: ["Department of State", "Department of Defense", "Department of the Interior", "Department of Labor", "Department of Agriculture"],
+    lastUpdated: "2026-03-30"
   },
   {
     company: "Radiant",
-    totalGovValue: "$53M+",
-    contractCount: 29,
-    agencies: ["Department of the Treasury", "Department of Health and Human Services", "Department of Homeland Security", "Department of Veterans Affairs", "Department of Labor"],
-    lastUpdated: "2026-03-29"
+    totalGovValue: "$45M+",
+    contractCount: 26,
+    agencies: ["Department of Homeland Security", "Consumer Financial Protection Bureau", "Department of Defense", "Department of the Treasury", "Department of the Interior"],
+    lastUpdated: "2026-03-30"
   },
   {
-    company: "Impulse Space",
-    totalGovValue: "$40M+",
-    contractCount: 6,
+    company: "Sierra Space",
+    totalGovValue: "$75M+",
+    contractCount: 15,
     agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Varda Space Industries",
-    totalGovValue: "$34M+",
-    contractCount: 4,
-    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
-    lastUpdated: "2026-03-29"
+    lastUpdated: "2026-03-30"
   },
   {
     company: "Planet Labs",
     totalGovValue: "$31M+",
-    contractCount: 10,
-    agencies: ["Department of Commerce", "Department of Defense", "Department of the Interior", "National Aeronautics and Space Administration"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Shield AI",
-    totalGovValue: "$19M+",
-    contractCount: 6,
-    agencies: ["Department of Homeland Security", "Department of Defense"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "BlackSky",
-    totalGovValue: "$10M+",
-    contractCount: 6,
-    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Scale AI",
-    totalGovValue: "$10M+",
-    contractCount: 6,
-    agencies: ["Department of Defense"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Boston Dynamics",
-    totalGovValue: "$8M+",
-    contractCount: 6,
-    agencies: ["Department of Health and Human Services", "Department of Defense"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Skydio",
-    totalGovValue: "$5M+",
-    contractCount: 48,
-    agencies: ["Department of State", "Department of Justice", "Department of Labor", "Department of the Interior", "National Aeronautics and Space Administration", "Department of Defense"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Vannevar Labs",
-    totalGovValue: "$5M+",
-    contractCount: 2,
-    agencies: ["Department of State", "Department of Defense"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Second Front Systems",
-    totalGovValue: "$5M+",
-    contractCount: 4,
-    agencies: ["Department of Defense"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Capella Space",
-    totalGovValue: "$4M+",
-    contractCount: 3,
-    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Muon Space",
-    totalGovValue: "$4M+",
-    contractCount: 2,
-    agencies: ["Department of Commerce", "Department of Defense"],
-    lastUpdated: "2026-03-29"
-  },
-  {
-    company: "Albedo",
-    totalGovValue: "$3M+",
-    contractCount: 1,
-    agencies: ["Department of Defense"],
-    lastUpdated: "2026-03-29"
+    contractCount: 11,
+    agencies: ["Department of Defense", "Department of the Interior", "National Aeronautics and Space Administration", "Department of Commerce"],
+    lastUpdated: "2026-03-30"
   },
   {
     company: "Neros",
     totalGovValue: "$2M+",
     contractCount: 10,
     agencies: ["Department of Defense"],
-    lastUpdated: "2026-03-29"
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Shield AI",
+    totalGovValue: "$27M+",
+    contractCount: 9,
+    agencies: ["Department of Homeland Security", "Department of Defense"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Rocket Lab",
+    totalGovValue: "$54M+",
+    contractCount: 9,
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Rocket Lab USA",
+    totalGovValue: "$49M+",
+    contractCount: 8,
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Castelion",
+    totalGovValue: "$77M+",
+    contractCount: 6,
+    agencies: ["Department of Defense"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Varda Space Industries",
+    totalGovValue: "$34M+",
+    contractCount: 6,
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Impulse Space",
+    totalGovValue: "$40M+",
+    contractCount: 6,
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "BlackSky",
+    totalGovValue: "$10M+",
+    contractCount: 6,
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Scale AI",
+    totalGovValue: "$9M+",
+    contractCount: 6,
+    agencies: ["Department of Defense"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Boston Dynamics",
+    totalGovValue: "$3M+",
+    contractCount: 6,
+    agencies: ["Department of Homeland Security", "Department of Defense", "Department of Health and Human Services"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Axiom Space",
+    totalGovValue: "$437M+",
+    contractCount: 5,
+    agencies: ["National Aeronautics and Space Administration"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Second Front Systems",
+    totalGovValue: "$5M+",
+    contractCount: 4,
+    agencies: ["Department of Defense"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Capella Space",
+    totalGovValue: "$11M+",
+    contractCount: 4,
+    agencies: ["Department of Defense", "National Aeronautics and Space Administration"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Ginkgo Bioworks",
+    totalGovValue: "$72M+",
+    contractCount: 4,
+    agencies: ["Department of Defense", "Department of Health and Human Services"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Muon Space",
+    totalGovValue: "$4M+",
+    contractCount: 3,
+    agencies: ["Department of Defense", "Department of Commerce"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Vannevar Labs",
+    totalGovValue: "$5M+",
+    contractCount: 2,
+    agencies: ["Department of State", "Department of Defense"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Epirus",
+    totalGovValue: "$0K",
+    contractCount: 1,
+    agencies: ["Department of Defense"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Saronic",
+    totalGovValue: "$0K",
+    contractCount: 1,
+    agencies: ["Department of Defense"],
+    lastUpdated: "2026-03-30"
   },
   {
     company: "Chaos Industries",
     totalGovValue: "$2M+",
     contractCount: 1,
     agencies: ["Department of the Interior"],
-    lastUpdated: "2026-03-29"
+    lastUpdated: "2026-03-30"
   },
   {
-    company: "Primer AI",
+    company: "Primer",
     totalGovValue: "$2M+",
     contractCount: 1,
     agencies: ["Department of Defense"],
-    lastUpdated: "2026-03-29"
+    lastUpdated: "2026-03-30"
   },
   {
-    company: "Epirus",
-    totalGovValue: "$492K",
+    company: "Albedo",
+    totalGovValue: "$0K",
     contractCount: 1,
     agencies: ["Department of Defense"],
-    lastUpdated: "2026-03-29"
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Anthropic",
+    totalGovValue: "$19K",
+    contractCount: 1,
+    agencies: ["Department of State"],
+    lastUpdated: "2026-03-30"
+  },
+  {
+    company: "Moderna",
+    totalGovValue: "$1.8B+",
+    contractCount: 1,
+    agencies: ["Department of Health and Human Services"],
+    lastUpdated: "2026-03-30"
   },
 ];

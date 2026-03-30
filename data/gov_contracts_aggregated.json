@@ -1,13 +1,13 @@
 [
   {
     "company": "Anduril",
-    "totalGovValue": "$1.5B+",
+    "totalGovValue": "$1.6B+",
     "contractCount": 100,
     "agencies": [
       "Department of Homeland Security",
+      "Department of Energy",
       "Department of Defense",
-      "Department of Commerce",
-      "Department of Energy"
+      "Department of Commerce"
     ],
     "recentContracts": [
       {
@@ -41,17 +41,17 @@
         "date": "2024-06-28"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Anduril Industries",
-    "totalGovValue": "$1.5B+",
+    "totalGovValue": "$1.6B+",
     "contractCount": 100,
     "agencies": [
       "Department of Homeland Security",
+      "Department of Energy",
       "Department of Defense",
-      "Department of Commerce",
-      "Department of Energy"
+      "Department of Commerce"
     ],
     "recentContracts": [
       {
@@ -85,18 +85,18 @@
         "date": "2024-06-28"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Palantir",
-    "totalGovValue": "$1.7B+",
+    "totalGovValue": "$2.1B+",
     "contractCount": 100,
     "agencies": [
-      "Department of the Treasury",
-      "Department of State",
       "Department of Homeland Security",
-      "Department of Health and Human Services",
-      "Department of Veterans Affairs"
+      "General Services Administration",
+      "U.S. International Development Finance Corporation",
+      "Department of State",
+      "Department of Housing and Urban Development"
     ],
     "recentContracts": [
       {
@@ -106,7 +106,13 @@
         "date": "2024-06-18"
       },
       {
-        "amount": 139314020.61,
+        "amount": 252458698.22,
+        "agency": "Department of Defense",
+        "description": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039",
+        "date": "2025-10-15"
+      },
+      {
+        "amount": 145008922.61,
         "agency": "Department of Homeland Security",
         "description": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS",
         "date": "2022-09-26"
@@ -122,26 +128,20 @@
         "agency": "Department of Defense",
         "description": "SOFTWARE AS A SERVICE (SAAS) MODEL OF ARMY VANTAGE ON BEHALF OF PEO EIS, PDM ADP. ARMY VANTAGE IS THE ARMY'S DATA-DRIVEN OPERATIONS AND DECISION-MAKING PLATFORM.",
         "date": "2024-12-13"
-      },
-      {
-        "amount": 93288095.85,
-        "agency": "Department of Veterans Affairs",
-        "description": "SAAS SOLUTION.",
-        "date": "2021-09-30"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Palantir Technologies",
-    "totalGovValue": "$1.7B+",
+    "totalGovValue": "$2.1B+",
     "contractCount": 100,
     "agencies": [
-      "Department of the Treasury",
-      "Department of State",
       "Department of Homeland Security",
-      "Department of Health and Human Services",
-      "Department of Veterans Affairs"
+      "General Services Administration",
+      "U.S. International Development Finance Corporation",
+      "Department of State",
+      "Department of Housing and Urban Development"
     ],
     "recentContracts": [
       {
@@ -151,7 +151,13 @@
         "date": "2024-06-18"
       },
       {
-        "amount": 139314020.61,
+        "amount": 252458698.22,
+        "agency": "Department of Defense",
+        "description": "CDAO MSS TASK ORDER OFF OF CONTRACT W519TC25D0039",
+        "date": "2025-10-15"
+      },
+      {
+        "amount": 145008922.61,
         "agency": "Department of Homeland Security",
         "description": "INVESTIGATIVE CASE MANAGEMENT (ICM) OPERATIONS AND MAINTENANCE (O&M) SUPPORT SERVICES AND CUSTOM ENHANCEMENTS",
         "date": "2022-09-26"
@@ -167,26 +173,20 @@
         "agency": "Department of Defense",
         "description": "SOFTWARE AS A SERVICE (SAAS) MODEL OF ARMY VANTAGE ON BEHALF OF PEO EIS, PDM ADP. ARMY VANTAGE IS THE ARMY'S DATA-DRIVEN OPERATIONS AND DECISION-MAKING PLATFORM.",
         "date": "2024-12-13"
-      },
-      {
-        "amount": 93288095.85,
-        "agency": "Department of Veterans Affairs",
-        "description": "SAAS SOLUTION.",
-        "date": "2021-09-30"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Space Exploration Technologies",
-    "totalGovValue": "$10.1B+",
-    "contractCount": 78,
+    "totalGovValue": "$10.6B+",
+    "contractCount": 84,
     "agencies": [
-      "Department of State",
       "Department of Homeland Security",
+      "Department of State",
+      "Department of Defense",
       "Department of Veterans Affairs",
-      "Department of Transportation",
-      "Department of Justice"
+      "Department of the Interior"
     ],
     "recentContracts": [
       {
@@ -196,7 +196,7 @@
         "date": "2016-12-30"
       },
       {
-        "amount": 3015880498.55,
+        "amount": 3016620129.07,
         "agency": "National Aeronautics and Space Administration",
         "description": "WORK REQUIRED FOR THE DESIGN, DEVELOPMENT, MANUFACTURE, TEST, LAUNCH, DEMONSTRATION, AND ENGINEERING SUPPORT OF THE HUMAN LANDING SYSTEM (HLS) INTEGRATED LANDER.",
         "date": "2020-05-13"
@@ -214,24 +214,24 @@
         "date": "2024-10-18"
       },
       {
-        "amount": 199530260.0,
+        "amount": 198580260.0,
         "agency": "Department of Defense",
         "description": "SBS003512 BEST EFFORT",
         "date": "2024-09-11"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Skydio",
-    "totalGovValue": "$5M+",
-    "contractCount": 48,
+    "totalGovValue": "$4M+",
+    "contractCount": 42,
     "agencies": [
       "Department of State",
-      "Department of Justice",
-      "Department of Labor",
+      "Department of Defense",
       "Department of the Interior",
-      "National Aeronautics and Space Administration"
+      "Department of Labor",
+      "Department of Agriculture"
     ],
     "recentContracts": [
       {
@@ -253,30 +253,30 @@
         "date": "2025-08-19"
       },
       {
-        "amount": 305390.7,
-        "agency": "Department of the Interior",
-        "description": "SKYDIO X2E AND NEXT GENERATION UNMANNED AIRCRAFT SYSTEM BLANKET PURCHASE AGREEMENT CALL",
-        "date": "2024-07-29"
-      },
-      {
         "amount": 276410.53,
         "agency": "Department of the Interior",
         "description": "SKYDIO X2E AND NEXT GENERATION UNMANNED AIRCRAFT SYSTEM BLANKET PURCHASE AGREEMENT CALL",
         "date": "2025-11-20"
+      },
+      {
+        "amount": 251447.7,
+        "agency": "Department of the Interior",
+        "description": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL",
+        "date": "2026-02-04"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Radiant",
-    "totalGovValue": "$53M+",
-    "contractCount": 29,
+    "totalGovValue": "$45M+",
+    "contractCount": 26,
     "agencies": [
-      "Department of the Treasury",
-      "Department of Health and Human Services",
       "Department of Homeland Security",
-      "Department of Veterans Affairs",
-      "Department of Labor"
+      "Consumer Financial Protection Bureau",
+      "Department of Defense",
+      "Department of the Treasury",
+      "Department of the Interior"
     ],
     "recentContracts": [
       {
@@ -286,35 +286,35 @@
         "date": "2020-11-13"
       },
       {
+        "amount": 9374971.37,
+        "agency": "Department of Health and Human Services",
+        "description": "ASHEPS CONTRACT",
+        "date": "2024-03-08"
+      },
+      {
         "amount": 8212654.19,
         "agency": "Department of Health and Human Services",
         "description": "OLDER AMERICANS ACT PERFORMANCE SYSTEM (OAAPS) AND TECHNICAL ASSISTANCE",
         "date": "2023-09-30"
       },
       {
-        "amount": 7571880.36,
+        "amount": 2995047.11,
         "agency": "Department of Health and Human Services",
-        "description": "SALESFORCE ENTERPRISE INTEGRATION (SEI)",
-        "date": "2022-03-21"
+        "description": "DEVELOPMENT AND REPLACEMENT OF THE AGING, INDEPENDENCE, AND DISABILITY PROGRAM DATA PORTAL (AGID 2.0",
+        "date": "2022-09-30"
       },
       {
-        "amount": 6485150.5,
-        "agency": "Department of Health and Human Services",
-        "description": "ASHEPS CONTRACT",
-        "date": "2024-03-08"
-      },
-      {
-        "amount": 3929353.2,
-        "agency": "Department of Health and Human Services",
-        "description": "IN SUPPORT OF THE COLLECTION OF DATA FOR RISK ADJUSTMENT&MODIFICATION OF RISK ADJUSTED PAYMENTS FOR MA PLANS TO FACILITATE A MORE EFFICIENT PROCESS FOR RECEIPT, RESPONSE AND STORAGE OF HISTORICAL RESP",
-        "date": "2020-05-15"
+        "amount": 2656128.96,
+        "agency": "Department of the Treasury",
+        "description": "THIS AWARD CONSISTS OF THE ACQUISITION OF INFORMATICA PROFESSIONAL SERVICES (IPS) TO SUPPORT THE ENTERPRISE INFORMATICA PLATFORM (EIP) SUPPORT SERVICES FOR OFFICE OF ENTERPRISE SERVICES, SOLUTION ENGI",
+        "date": "2024-09-30"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Sierra Space",
-    "totalGovValue": "$73M+",
+    "totalGovValue": "$75M+",
     "contractCount": 15,
     "agencies": [
       "Department of Defense",
@@ -346,13 +346,57 @@
         "date": "2015-09-04"
       },
       {
-        "amount": 3622115.0,
+        "amount": 4217548.5,
         "agency": "National Aeronautics and Space Administration",
         "description": "NEXT SPACE TECHNOLOGIES EXPLORATION PARTNERSHIP-2 APPENDIX R: LUNAR LOGISTICS & MOBILITY STUDIES. GOALS ARE TO SUPPORT MISSION ARCHITECTURE DEFINITIONS FOR HUMAN MISSIONS BEYOND LOW-EARTH ORBIT AS PAR",
         "date": "2025-04-30"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
+  },
+  {
+    "company": "Planet Labs",
+    "totalGovValue": "$31M+",
+    "contractCount": 11,
+    "agencies": [
+      "Department of Defense",
+      "Department of the Interior",
+      "National Aeronautics and Space Administration",
+      "Department of Commerce"
+    ],
+    "recentContracts": [
+      {
+        "amount": 13500000.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR ELECTRO OPTICAL TASKING DATA.",
+        "date": "2025-11-25"
+      },
+      {
+        "amount": 7499999.02,
+        "agency": "Department of Defense",
+        "description": "PLANETSCOPE DATA",
+        "date": "2025-09-23"
+      },
+      {
+        "amount": 6709212.74,
+        "agency": "Department of Defense",
+        "description": "ELECTRO OPTICAL SATELLITE DATA IMAGERY SUBSCRIPTIONS",
+        "date": "2024-12-20"
+      },
+      {
+        "amount": 1600000.0,
+        "agency": "Department of Defense",
+        "description": "SATELLITE IMAGERY",
+        "date": "2025-06-17"
+      },
+      {
+        "amount": 900000.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA",
+        "date": "2025-11-25"
+      }
+    ],
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Neros",
@@ -393,56 +437,54 @@
         "date": "2025-08-26"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
-    "company": "Planet Labs",
-    "totalGovValue": "$31M+",
-    "contractCount": 10,
+    "company": "Shield AI",
+    "totalGovValue": "$27M+",
+    "contractCount": 9,
     "agencies": [
-      "Department of Commerce",
-      "Department of Defense",
-      "Department of the Interior",
-      "National Aeronautics and Space Administration"
+      "Department of Homeland Security",
+      "Department of Defense"
     ],
     "recentContracts": [
       {
-        "amount": 13500000.0,
-        "agency": "National Aeronautics and Space Administration",
-        "description": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR ELECTRO OPTICAL TASKING DATA.",
-        "date": "2025-11-25"
-      },
-      {
-        "amount": 7499999.02,
+        "amount": 7924110.92,
         "agency": "Department of Defense",
-        "description": "PLANETSCOPE DATA",
-        "date": "2025-09-23"
+        "description": "V-BAT VTOL UNMANNED AIRCRAFT",
+        "date": "2025-09-03"
       },
       {
-        "amount": 6709212.74,
-        "agency": "Department of Defense",
-        "description": "ELECTRO OPTICAL SATELLITE DATA IMAGERY SUBSCRIPTIONS",
-        "date": "2024-12-20"
+        "amount": 5891843.0,
+        "agency": "Department of Homeland Security",
+        "description": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.",
+        "date": "2026-02-27"
       },
       {
-        "amount": 1600000.0,
-        "agency": "Department of Defense",
-        "description": "SATELLITE IMAGERY",
-        "date": "2025-06-17"
+        "amount": 5891843.0,
+        "agency": "Department of Homeland Security",
+        "description": "TO#3 FOR SHORE-BASED VBAT DEPLOYMENTS",
+        "date": "2025-10-01"
       },
       {
-        "amount": 900000.0,
-        "agency": "National Aeronautics and Space Administration",
-        "description": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA",
-        "date": "2025-11-25"
+        "amount": 3452883.28,
+        "agency": "Department of Homeland Security",
+        "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS.",
+        "date": "2025-12-08"
+      },
+      {
+        "amount": 2447083.48,
+        "agency": "Department of Homeland Security",
+        "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS.",
+        "date": "2026-02-11"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Rocket Lab",
-    "totalGovValue": "$53M+",
-    "contractCount": 7,
+    "totalGovValue": "$54M+",
+    "contractCount": 9,
     "agencies": [
       "Department of Defense",
       "National Aeronautics and Space Administration"
@@ -479,54 +521,12 @@
         "date": "2025-09-26"
       }
     ],
-    "lastUpdated": "2026-02-06"
-  },
-  {
-    "company": "Shield AI",
-    "totalGovValue": "$19M+",
-    "contractCount": 6,
-    "agencies": [
-      "Department of Homeland Security",
-      "Department of Defense"
-    ],
-    "recentContracts": [
-      {
-        "amount": 7924110.92,
-        "agency": "Department of Defense",
-        "description": "V-BAT VTOL UNMANNED AIRCRAFT",
-        "date": "2025-09-03"
-      },
-      {
-        "amount": 5552782.5,
-        "agency": "Department of Homeland Security",
-        "description": "TO#3 FOR SHORE-BASED VBAT DEPLOYMENTS",
-        "date": "2025-10-01"
-      },
-      {
-        "amount": 3452883.28,
-        "agency": "Department of Homeland Security",
-        "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS.",
-        "date": "2025-12-08"
-      },
-      {
-        "amount": 895567.46,
-        "agency": "Department of Homeland Security",
-        "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS.",
-        "date": "2026-02-04"
-      },
-      {
-        "amount": 637516.0,
-        "agency": "Department of Defense",
-        "description": "SAI BAA CONTRACT",
-        "date": "2025-02-04"
-      }
-    ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Rocket Lab USA",
-    "totalGovValue": "$48M+",
-    "contractCount": 6,
+    "totalGovValue": "$49M+",
+    "contractCount": 8,
     "agencies": [
       "Department of Defense",
       "National Aeronautics and Space Administration"
@@ -557,13 +557,96 @@
         "date": "2025-09-26"
       },
       {
+        "amount": 390936.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPLORATION, IDENTIFYING PERFORMANCE NEEDS AND COMMERCIAL SERVICE OPPORTUNITIES.",
+        "date": "2026-02-23"
+      }
+    ],
+    "lastUpdated": "2026-03-30"
+  },
+  {
+    "company": "Castelion",
+    "totalGovValue": "$77M+",
+    "contractCount": 6,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 55849158.0,
+        "agency": "Department of Defense",
+        "description": "LOW-COST HIGHLY MANUFACTURABLE LONG-RANGE STRIKE WEAPON PRODUCTION SMALL BUSINESS INDEPENDENT RESEARCH (SBIR) PHASE III",
+        "date": "2024-10-02"
+      },
+      {
+        "amount": 16972881.0,
+        "agency": "Department of Defense",
+        "description": "FUTURE OPERATIONAL CAPABILITIES FOR THE US (FOCUS)",
+        "date": "2023-09-11"
+      },
+      {
+        "amount": 1985913.0,
+        "agency": "Department of Defense",
+        "description": "COMPACT HYPERSONIC MISSILE/EFFECTOR REACTIVE MATERIAL (CHYMERA) WARHEAD PROTOTYPE AND DEMONSTRATION",
+        "date": "2025-09-08"
+      },
+      {
+        "amount": 1398891.66,
+        "agency": "Department of Defense",
+        "description": "KU-BAND AFFORDABLE RESILIENTLY MANUFACTURED AESA (KARMA)",
+        "date": "2025-04-05"
+      },
+      {
+        "amount": 684500.9,
+        "agency": "Department of Defense",
+        "description": "NEW PHASE II - EFFORT ENTITLED, HYPERSONIC EQUIPAGE FROM TWENTY FOOT EQUIVALENT UNIT CONTAINER, PROPOSAL F2D-11201. CASTELION SEEKS TO DEVELOP A SYSTEM WHICH ENABLES 500LBS OF RAPID CARGO DELIVERY FRO",
+        "date": "2025-03-11"
+      }
+    ],
+    "lastUpdated": "2026-03-30"
+  },
+  {
+    "company": "Varda Space Industries",
+    "totalGovValue": "$34M+",
+    "contractCount": 6,
+    "agencies": [
+      "Department of Defense",
+      "National Aeronautics and Space Administration"
+    ],
+    "recentContracts": [
+      {
+        "amount": 22336684.0,
+        "agency": "Department of Defense",
+        "description": "STRATFI, SMALL BUSINESS INNOVATIVE RESEARCH, ECONOMICAL REENTRY CAPSULES FOR HYPERSONIC TESTING",
+        "date": "2023-05-16"
+      },
+      {
+        "amount": 6587975.69,
+        "agency": "Department of Defense",
+        "description": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.",
+        "date": "2024-12-30"
+      },
+      {
+        "amount": 4970847.0,
+        "agency": "Department of Defense",
+        "description": "THIS TASK ORDER IS FOR THE ORDER OF ONE ACCELERATED INTERIOR PAYLOAD LAUNCH WITH A LAUNCH DATE OF MARCH 2025.",
+        "date": "2024-12-11"
+      },
+      {
+        "amount": 58028.0,
+        "agency": "Department of Defense",
+        "description": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SEPT 2026",
+        "date": "2025-11-25"
+      },
+      {
         "amount": 25000.0,
         "agency": "National Aeronautics and Space Administration",
         "description": "MINIMUM GUARANTEED",
-        "date": "2024-04-25"
+        "date": "2024-03-15"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Impulse Space",
@@ -605,7 +688,7 @@
         "date": "2024-08-22"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "BlackSky",
@@ -629,7 +712,7 @@
         "date": "2024-09-18"
       },
       {
-        "amount": 1549990.89,
+        "amount": 1649990.89,
         "agency": "Department of Defense",
         "description": "BLACKSKY DIRECT TO PHASE 2",
         "date": "2024-10-01"
@@ -647,11 +730,11 @@
         "date": "2025-08-29"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Scale AI",
-    "totalGovValue": "$10M+",
+    "totalGovValue": "$9M+",
     "contractCount": 6,
     "agencies": [
       "Department of Defense"
@@ -682,29 +765,24 @@
         "date": "2025-02-24"
       },
       {
-        "amount": 1000000.0,
+        "amount": 500.0,
         "agency": "Department of Defense",
-        "description": "PROJECT ZION INVOLVES THE INTEGRATION OF SCALE AIS DONOVAN LLM PLATFORM, A SCALABLE, CLOUD-ENABLED PLATFORM, WITHIN THE USAFE-AFAFRICA OPERATIONAL FRAMEWORK",
-        "date": "2025-03-04"
+        "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Boston Dynamics",
-    "totalGovValue": "$8M+",
+    "totalGovValue": "$3M+",
     "contractCount": 6,
     "agencies": [
-      "Department of Health and Human Services",
-      "Department of Defense"
+      "Department of Homeland Security",
+      "Department of Defense",
+      "Department of Health and Human Services"
     ],
     "recentContracts": [
-      {
-        "amount": 4404480.0,
-        "agency": "Department of Defense",
-        "description": "SPOT ROBOT DOGS WITH GOVERNMENT & PUBLIC SAFETY KIT IN SUPPORT FOR FOREIGN MILITARY SALES CASE RO-B-UGL",
-        "date": "2025-02-27"
-      },
       {
         "amount": 2100000.0,
         "agency": "Department of Defense",
@@ -724,54 +802,19 @@
         "date": "2025-04-16"
       },
       {
+        "amount": 27990.0,
+        "agency": "Department of Homeland Security",
+        "description": "BOSTON DYNAMICS - TECH-2 - NEO MAINTENANCE - SECTION 2(D) EXEMPTION",
+        "date": "2026-04-19"
+      },
+      {
         "amount": 12690.0,
         "agency": "Department of Defense",
         "description": "SPOT ROBOT BATTERIES",
         "date": "2025-02-14"
       }
     ],
-    "lastUpdated": "2026-02-06"
-  },
-  {
-    "company": "Castelion",
-    "totalGovValue": "$77M+",
-    "contractCount": 5,
-    "agencies": [
-      "Department of Defense"
-    ],
-    "recentContracts": [
-      {
-        "amount": 55849158.0,
-        "agency": "Department of Defense",
-        "description": "LOW-COST HIGHLY MANUFACTURABLE LONG-RANGE STRIKE WEAPON PRODUCTION SMALL BUSINESS INDEPENDENT RESEARCH (SBIR) PHASE III",
-        "date": "2024-10-02"
-      },
-      {
-        "amount": 16972881.0,
-        "agency": "Department of Defense",
-        "description": "FUTURE OPERATIONAL CAPABILITIES FOR THE US (FOCUS)",
-        "date": "2023-09-11"
-      },
-      {
-        "amount": 1985913.0,
-        "agency": "Department of Defense",
-        "description": "COMPACT HYPERSONIC MISSILE/EFFECTOR REACTIVE MATERIAL (CHYMERA) WARHEAD PROTOTYPE AND DEMONSTRATION",
-        "date": "2025-09-08"
-      },
-      {
-        "amount": 1398891.66,
-        "agency": "Department of Defense",
-        "description": "KU-BAND AFFORDABLE RESILIENTLY MANUFACTURED AESA (KARMA)",
-        "date": "2025-04-05"
-      },
-      {
-        "amount": 684500.9,
-        "agency": "Department of Defense",
-        "description": "NEW PHASE II - EFFORT ENTITLED, HYPERSONIC EQUIPAGE FROM TWENTY FOOT EQUIVALENT UNIT CONTAINER, PROPOSAL F2D-11201. CASTELION SEEKS TO DEVELOP A SYSTEM WHICH ENABLES 500LBS OF RAPID CARGO DELIVERY FRO",
-        "date": "2025-03-11"
-      }
-    ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Axiom Space",
@@ -812,49 +855,7 @@
         "date": "2026-01-30"
       }
     ],
-    "lastUpdated": "2026-02-06"
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "totalGovValue": "$72M+",
-    "contractCount": 5,
-    "agencies": [
-      "Department of Health and Human Services",
-      "Department of Defense"
-    ],
-    "recentContracts": [
-      {
-        "amount": 62551726.04,
-        "agency": "Department of Health and Human Services",
-        "description": "AIRPORT GENOMIC TESTING",
-        "date": "2022-08-16"
-      },
-      {
-        "amount": 5206738.0,
-        "agency": "Department of Defense",
-        "description": "DARPA ICE CONTROL FOR COLD ENVIRONMENTS (ICE)",
-        "date": "2024-01-26"
-      },
-      {
-        "amount": 2508174.24,
-        "agency": "Department of Health and Human Services",
-        "description": "TEST SURGE AND DATA SHARING MULTIPLE AWARD IDIQ",
-        "date": "2024-09-06"
-      },
-      {
-        "amount": 1826095.16,
-        "agency": "Department of Defense",
-        "description": "DNA RECORDING INTRINSIC CELLULAR BIOINTELLIGENCE (DRINC BIO)",
-        "date": "2023-05-02"
-      },
-      {
-        "amount": 150000.0,
-        "agency": "Department of Defense",
-        "description": "DARPA SBIR PHASE I EFFORT ENTITLED, \"CONTROLLING ANTIBIOTIC RESISTANCE BY VACCINATING BACTERIAL POPULATIONS\".",
-        "date": "2012-11-19"
-      }
-    ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Second Front Systems",
@@ -889,11 +890,11 @@
         "date": "2024-09-30"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
-    "company": "Varda Space Industries",
-    "totalGovValue": "$34M+",
+    "company": "Capella Space",
+    "totalGovValue": "$11M+",
     "contractCount": 4,
     "agencies": [
       "Department of Defense",
@@ -901,46 +902,10 @@
     ],
     "recentContracts": [
       {
-        "amount": 22336684.0,
+        "amount": 9998447.45,
         "agency": "Department of Defense",
-        "description": "STRATFI, SMALL BUSINESS INNOVATIVE RESEARCH, ECONOMICAL REENTRY CAPSULES FOR HYPERSONIC TESTING",
-        "date": "2023-05-16"
-      },
-      {
-        "amount": 6587975.69,
-        "agency": "Department of Defense",
-        "description": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.",
-        "date": "2024-12-30"
-      },
-      {
-        "amount": 4970847.0,
-        "agency": "Department of Defense",
-        "description": "THIS TASK ORDER IS FOR THE ORDER OF ONE ACCELERATED INTERIOR PAYLOAD LAUNCH WITH A LAUNCH DATE OF MARCH 2025.",
-        "date": "2024-12-11"
-      },
-      {
-        "amount": 25000.0,
-        "agency": "National Aeronautics and Space Administration",
-        "description": "MINIMUM GUARANTEED",
-        "date": "2024-03-15"
-      }
-    ],
-    "lastUpdated": "2026-02-06"
-  },
-  {
-    "company": "Capella Space",
-    "totalGovValue": "$4M+",
-    "contractCount": 3,
-    "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
-    ],
-    "recentContracts": [
-      {
-        "amount": 2971006.0,
-        "agency": "Department of Defense",
-        "description": "CAPELLA SPACE CORPORATION U.S. COMMERCIAL SYNTHETIC APERTURE RADAR (SAR) OPTICAL INTER-SATELLITE LINK (OISL) TO SDA TRANCHE 0 TRANSPORT LAYER DEMO.",
-        "date": "2021-06-15"
+        "description": "SYNTHETIC APERTURE RADAR FOR GOVERNMENT OPERATIONS (SARGO)",
+        "date": "2024-09-01"
       },
       {
         "amount": 808000.0,
@@ -953,9 +918,81 @@
         "agency": "National Aeronautics and Space Administration",
         "description": "COMMERCIAL SATELLITE DATA ACQUISITION (CSDA) PROGRAM. TASK ORDER FOR DISASTER RESPONSE SATELLITE DATA",
         "date": "2025-11-25"
+      },
+      {
+        "amount": 500.0,
+        "agency": "Department of Defense",
+        "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "totalGovValue": "$72M+",
+    "contractCount": 4,
+    "agencies": [
+      "Department of Defense",
+      "Department of Health and Human Services"
+    ],
+    "recentContracts": [
+      {
+        "amount": 62551726.04,
+        "agency": "Department of Health and Human Services",
+        "description": "AIRPORT GENOMIC TESTING",
+        "date": "2022-08-16"
+      },
+      {
+        "amount": 5206738.0,
+        "agency": "Department of Defense",
+        "description": "DARPA ICE CONTROL FOR COLD ENVIRONMENTS (ICE)",
+        "date": "2024-01-26"
+      },
+      {
+        "amount": 2508174.24,
+        "agency": "Department of Health and Human Services",
+        "description": "TEST SURGE AND DATA SHARING MULTIPLE AWARD IDIQ",
+        "date": "2024-09-06"
+      },
+      {
+        "amount": 1826095.16,
+        "agency": "Department of Defense",
+        "description": "DNA RECORDING INTRINSIC CELLULAR BIOINTELLIGENCE (DRINC BIO)",
+        "date": "2023-05-02"
+      }
+    ],
+    "lastUpdated": "2026-03-30"
+  },
+  {
+    "company": "Muon Space",
+    "totalGovValue": "$4M+",
+    "contractCount": 3,
+    "agencies": [
+      "Department of Defense",
+      "Department of Commerce"
+    ],
+    "recentContracts": [
+      {
+        "amount": 1998000.0,
+        "agency": "Department of Commerce",
+        "description": "COMMERCIAL WEATHER DATA PILOT (CWDP) OCEAN SURFACE WINDS PILOT STUDY",
+        "date": "2025-09-10"
+      },
+      {
+        "amount": 1891478.0,
+        "agency": "Department of Defense",
+        "description": "MUON ISPROPOSINGTOANALYZE,DESIGNANDTESTTHEMODIFICATIONSTOPROVIDENEAR-PERSISTENT COVERAGE UTILIZINGAMODIFIEDVERSIONOFTHETRL-7FIRESATPAYLOAD.",
+        "date": "2025-07-15"
+      },
+      {
+        "amount": 500.0,
+        "agency": "Department of Defense",
+        "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "date": "2025-12-29"
+      }
+    ],
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Vannevar Labs",
@@ -979,48 +1016,41 @@
         "date": "2025-09-19"
       }
     ],
-    "lastUpdated": "2026-02-06"
-  },
-  {
-    "company": "Muon Space",
-    "totalGovValue": "$4M+",
-    "contractCount": 2,
-    "agencies": [
-      "Department of Commerce",
-      "Department of Defense"
-    ],
-    "recentContracts": [
-      {
-        "amount": 1998000.0,
-        "agency": "Department of Commerce",
-        "description": "COMMERCIAL WEATHER DATA PILOT (CWDP) OCEAN SURFACE WINDS PILOT STUDY",
-        "date": "2025-09-10"
-      },
-      {
-        "amount": 1891478.0,
-        "agency": "Department of Defense",
-        "description": "MUON ISPROPOSINGTOANALYZE,DESIGNANDTESTTHEMODIFICATIONSTOPROVIDENEAR-PERSISTENT COVERAGE UTILIZINGAMODIFIEDVERSIONOFTHETRL-7FIRESATPAYLOAD.",
-        "date": "2025-07-15"
-      }
-    ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Epirus",
-    "totalGovValue": "$492K",
+    "totalGovValue": "$0K",
     "contractCount": 1,
     "agencies": [
       "Department of Defense"
     ],
     "recentContracts": [
       {
-        "amount": 492196.71,
+        "amount": 500.0,
         "agency": "Department of Defense",
-        "description": "HIGH POWER MICROWAVE SUSCEPTIBILITY STUDY",
-        "date": "2024-01-17"
+        "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
+  },
+  {
+    "company": "Saronic",
+    "totalGovValue": "$0K",
+    "contractCount": 1,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "recentContracts": [
+      {
+        "amount": 500.0,
+        "agency": "Department of Defense",
+        "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "date": "2025-12-29"
+      }
+    ],
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Chaos Industries",
@@ -1037,7 +1067,7 @@
         "date": "2023-12-18"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Primer",
@@ -1054,24 +1084,41 @@
         "date": "2025-01-14"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Albedo",
-    "totalGovValue": "$3M+",
+    "totalGovValue": "$0K",
     "contractCount": 1,
     "agencies": [
       "Department of Defense"
     ],
     "recentContracts": [
       {
-        "amount": 3144473.01,
+        "amount": 500.0,
         "agency": "Department of Defense",
-        "description": "THERMAL INFRARED (LONG WAVE INFRARED) IMAGERY FOR NIGHTTIME IMAGING",
-        "date": "2023-02-02"
+        "description": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
+        "date": "2025-12-29"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
+  },
+  {
+    "company": "Anthropic",
+    "totalGovValue": "$19K",
+    "contractCount": 1,
+    "agencies": [
+      "Department of State"
+    ],
+    "recentContracts": [
+      {
+        "amount": 18960.0,
+        "agency": "Department of State",
+        "description": "CLAUDE AI",
+        "date": "2026-02-11"
+      }
+    ],
+    "lastUpdated": "2026-03-30"
   },
   {
     "company": "Moderna",
@@ -1088,6 +1135,6 @@
         "date": "2020-04-03"
       }
     ],
-    "lastUpdated": "2026-02-06"
+    "lastUpdated": "2026-03-30"
   }
 ]
