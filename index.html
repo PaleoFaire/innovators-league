@@ -799,6 +799,7 @@
                 <button class="predictive-tab" data-tab="deal-flow">🚀 Deal Flow Signals</button>
                 <button class="predictive-tab" data-tab="risk">⚠️ Failure Risk</button>
                 <button class="predictive-tab" data-tab="next-round">💰 Next Round</button>
+                <button class="predictive-tab" data-tab="changes">📈 Score Changes</button>
             </div>
             <div class="predictive-content" id="predictive-content"></div>
         </div>
@@ -933,6 +934,17 @@
                 <p><strong>TRL Scale:</strong> 1-3 = Research phase | 4-6 = Development & testing | 7-8 = Demonstration | 9 = Operational at scale. Higher TRL = lower technical risk, but potentially less upside.</p>
             </div>
             <div class="trl-legend" id="trl-legend"></div>
+            <div class="trl-controls" id="trl-controls">
+                <select id="trl-sector-filter" class="trl-filter-select">
+                    <option value="all">All Sectors</option>
+                </select>
+                <select id="trl-sort" class="trl-filter-select">
+                    <option value="trl-desc">By TRL (High &rarr; Low)</option>
+                    <option value="trl-asc">By TRL (Low &rarr; High)</option>
+                    <option value="velocity">By Velocity (Fastest)</option>
+                </select>
+            </div>
+            <div class="trl-velocity-stats" id="trl-velocity-stats"></div>
             <div class="trl-grid" id="trl-grid"></div>
         </div>
     </section>

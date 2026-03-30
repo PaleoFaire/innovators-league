@@ -10,6 +10,8 @@ function initRegulatory() {
   safeInit('RegTimeline', initRegTimeline);
   safeInit('FDATracker', initFDATracker);
   safeInit('AgencyOverview', initAgencyOverview);
+  safeInit('FAATracker', initFAACertTracker);
+  safeInit('NRCTracker', initNRCLicenseTracker);
   safeInit('RegRisk', initRegRisk);
   safeInit('FedRegisterMonitor', initFedRegisterMonitor);
   safeInit('ClinicalTrials', initClinicalTrials);
@@ -471,6 +473,114 @@ function getCompaniesForSectors(sectorNames) {
     }
   });
   return [...result];
+}
+
+// ─── 4b. FAA CERTIFICATION TRACKER ───
+function getFAACertData() {
+  return (typeof FAA_CERTIFICATION_AUTO !== 'undefined' && Array.isArray(FAA_CERTIFICATION_AUTO)) ? FAA_CERTIFICATION_AUTO : [];
+}
+
+function initFAACertTracker() {
+  const grid = document.getElementById('faa-grid');
+  if (!grid) return;
+
+  const data = getFAACertData();
+  if (data.length === 0) {
+    grid.innerHTML = '<div class="reg-empty-state">No FAA certification data available.</div>';
+    return;
+  }
+
+  grid.classList.add('faa-grid');
+  grid.innerHTML = data.map(function(entry) {
+    var statusBadgeClass = getCertStatusBadgeClass(entry.status);
+    var milestonesHtml = (entry.milestones || []).map(function(m) {
+      var statusClass = (m.status || 'pending').replace('_', '-');
+      var icon = m.status === 'completed' ? '&#x2705;' : m.status === 'in_progress' ? '&#x1F504;' : '&#x23F3;';
+      return '<div class="cert-milestone ' + escAttr(statusClass) + '">' +
+        '<span class="cert-milestone-icon">' + icon + '</span>' +
+        '<span class="cert-milestone-date">' + escHtml(m.date || '') + '</span>' +
+        '<span class="cert-milestone-event">' + escHtml(m.event || '') + '</span>' +
+      '</div>';
+    }).join('');
+
+    var pct = entry.progressPercent || 0;
+    var currentMilestone = entry.currentMilestone || 'N/A';
+    var subtitle = [entry.certType, entry.category, entry.aircraft].filter(Boolean).join(' &middot; ');
+
+    return '<div class="cert-card">' +
+      '<div class="cert-card-header">' +
+        '<span class="cert-company-name">' + escHtml(entry.company || 'Unknown') + '</span>' +
+        '<span class="cert-status-badge ' + statusBadgeClass + '">' + escHtml(truncate(entry.status || 'N/A', 32)) + '</span>' +
+      '</div>' +
+      '<div class="cert-card-subtitle">' + subtitle + '</div>' +
+      '<div class="cert-progress"><div class="cert-progress-fill faa-fill" style="width:' + pct + '%"></div></div>' +
+      '<div class="cert-progress-label"><span class="cert-progress-pct">' + pct + '%</span><span>Progress</span></div>' +
+      '<div class="cert-current-milestone"><strong>Current:</strong> ' + escHtml(currentMilestone) + '</div>' +
+      '<div class="cert-milestone-timeline">' + milestonesHtml + '</div>' +
+      '<div class="cert-meta">' +
+        '<span>Updated: ' + formatDate(entry.lastUpdated) + '</span>' +
+        (entry.note ? '<span>' + escHtml(truncate(entry.note, 60)) + '</span>' : '') +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+
+// ─── 4c. NRC LICENSING TRACKER ───
+function getNRCLicenseData() {
+  return (typeof NRC_LICENSING_AUTO !== 'undefined' && Array.isArray(NRC_LICENSING_AUTO)) ? NRC_LICENSING_AUTO : [];
+}
+
+function initNRCLicenseTracker() {
+  var grid = document.getElementById('nrc-grid');
+  if (!grid) return;
+
+  var data = getNRCLicenseData();
+  if (data.length === 0) {
+    grid.innerHTML = '<div class="reg-empty-state">No NRC licensing data available.</div>';
+    return;
+  }
+
+  grid.classList.add('nrc-grid');
+  grid.innerHTML = data.map(function(entry) {
+    var statusBadgeClass = getCertStatusBadgeClass(entry.status);
+    var milestonesHtml = (entry.milestones || []).map(function(m) {
+      var statusClass = (m.status || 'pending').replace('_', '-');
+      var icon = m.status === 'completed' ? '&#x2705;' : m.status === 'in_progress' ? '&#x1F504;' : '&#x23F3;';
+      return '<div class="cert-milestone ' + escAttr(statusClass) + '">' +
+        '<span class="cert-milestone-icon">' + icon + '</span>' +
+        '<span class="cert-milestone-date">' + escHtml(m.date || '') + '</span>' +
+        '<span class="cert-milestone-event">' + escHtml(m.event || '') + '</span>' +
+      '</div>';
+    }).join('');
+
+    var pct = entry.progressPercent || 0;
+    var subtitle = [entry.reactorType, entry.docketNumber !== 'N/A' ? 'Docket: ' + entry.docketNumber : ''].filter(Boolean).join(' &middot; ');
+
+    return '<div class="cert-card">' +
+      '<div class="cert-card-header">' +
+        '<span class="cert-company-name">' + escHtml(entry.company || 'Unknown') + '</span>' +
+        '<span class="cert-status-badge ' + statusBadgeClass + '">' + escHtml(truncate(entry.status || 'N/A', 36)) + '</span>' +
+      '</div>' +
+      '<div class="cert-card-subtitle">' + subtitle + '</div>' +
+      '<div class="cert-progress"><div class="cert-progress-fill nrc-fill" style="width:' + pct + '%"></div></div>' +
+      '<div class="cert-progress-label"><span class="cert-progress-pct">' + pct + '%</span><span>Progress</span></div>' +
+      '<div class="cert-milestone-timeline">' + milestonesHtml + '</div>' +
+      '<div class="cert-meta">' +
+        (entry.docketNumber && entry.docketNumber !== 'N/A' ? '<span class="cert-docket">Docket #' + escHtml(entry.docketNumber) + '</span>' : '<span></span>') +
+        '<span>Updated: ' + formatDate(entry.lastUpdated) + '</span>' +
+      '</div>' +
+      (entry.note ? '<div style="font-size:0.75rem;color:rgba(255,255,255,0.35);margin-top:8px;font-style:italic;">' + escHtml(truncate(entry.note, 120)) + '</div>' : '') +
+    '</div>';
+  }).join('');
+}
+
+// ─── CERT STATUS BADGE HELPER ───
+function getCertStatusBadgeClass(status) {
+  if (!status) return 'status-pending';
+  var s = status.toLowerCase();
+  if (s.includes('approved') || s.includes('active') || s.includes('issued') || s.includes('granted') || s.includes('operating') || s.includes('commercial')) return 'status-approved';
+  if (s.includes('review') || s.includes('testing') || s.includes('certification') || s.includes('construction') || s.includes('iterating') || s.includes('resumed') || s.includes('progress') || s.includes('scale')) return 'status-review';
+  return 'status-pending';
 }
 
 // ─── 5. REGULATORY RISK HEATMAP ───

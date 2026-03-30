@@ -4160,7 +4160,18 @@ function initIPOPipeline() {
 function initTRLDashboard() {
   const legend = document.getElementById('trl-legend');
   const grid = document.getElementById('trl-grid');
+  const statsEl = document.getElementById('trl-velocity-stats');
+  const sectorFilter = document.getElementById('trl-sector-filter');
+  const sortSelect = document.getElementById('trl-sort');
   if (!grid || typeof TRL_DEFINITIONS === 'undefined' || typeof TRL_RANKINGS === 'undefined') return;
+
+  // Velocity display config
+  const VELOCITY_CONFIG = {
+    2:  { emoji: '\uD83D\uDE80', label: 'Fast',    cssClass: 'velocity-fast' },
+    1:  { emoji: '\u2191',       label: 'Moving',  cssClass: 'velocity-moving' },
+    0:  { emoji: '\u2192',       label: 'Steady',  cssClass: 'velocity-steady' },
+    '-1': { emoji: '\u2193',     label: 'Stalled', cssClass: 'velocity-stalled' }
+  };
 
   // Render legend
   if (legend) {
@@ -4174,42 +4185,166 @@ function initTRLDashboard() {
     ).join('');
   }
 
-  // Group by TRL level (descending)
-  const grouped = {};
-  TRL_RANKINGS.forEach(item => {
-    if (!grouped[item.trl]) grouped[item.trl] = [];
-    grouped[item.trl].push(item);
-  });
+  // Populate sector filter from COMPANIES that match TRL_RANKINGS
+  if (sectorFilter && typeof COMPANIES !== 'undefined' && typeof SECTORS !== 'undefined') {
+    const trlCompanyNames = new Set(TRL_RANKINGS.map(r => r.company));
+    const sectors = new Set();
+    COMPANIES.forEach(c => {
+      if (trlCompanyNames.has(c.name) && c.sector) sectors.add(c.sector);
+    });
+    Array.from(sectors).sort().forEach(sector => {
+      const opt = document.createElement('option');
+      opt.value = sector;
+      opt.textContent = sector;
+      sectorFilter.appendChild(opt);
+    });
+  }
 
-  Object.keys(grouped).sort((a, b) => b - a).forEach(trl => {
-    const def = TRL_DEFINITIONS[trl];
-    const section = document.createElement('div');
-    section.className = 'trl-row';
+  // Helper: get sector for a company
+  function getCompanySector(companyName) {
+    if (typeof COMPANIES === 'undefined') return null;
+    const comp = COMPANIES.find(x => x.name === companyName);
+    return comp ? comp.sector : null;
+  }
 
-    const companies = grouped[trl];
-    section.innerHTML = `
-      <div class="trl-row-header">
-        <div class="trl-row-badge" style="background:${def.color};">TRL ${trl}</div>
-        <div class="trl-row-info">
-          <span class="trl-row-label">${def.label}</span>
-          <span class="trl-row-count">${companies.length} companies</span>
-        </div>
+  // Helper: get sector info
+  function getSectorInfo(companyName) {
+    if (typeof COMPANIES === 'undefined' || typeof SECTORS === 'undefined') return { icon: '\uD83D\uDCE6', color: '#6b7280' };
+    const comp = COMPANIES.find(x => x.name === companyName);
+    return comp ? (SECTORS[comp.sector] || { icon: '\uD83D\uDCE6', color: '#6b7280' }) : { icon: '\uD83D\uDCE6', color: '#6b7280' };
+  }
+
+  // Helper: render a velocity badge
+  function velocityBadge(velocity) {
+    const cfg = VELOCITY_CONFIG[velocity] || VELOCITY_CONFIG[0];
+    return `<span class="trl-velocity-badge ${cfg.cssClass}">${cfg.emoji} ${cfg.label}</span>`;
+  }
+
+  // Helper: render a company chip
+  function renderChip(c) {
+    const sectorInfo = getSectorInfo(c.company);
+    return `<div class="trl-company-chip" onclick="openCompanyModal('${c.company}')" title="${c.note}">
+      <span style="color:${sectorInfo.color}">${sectorInfo.icon}</span>
+      <span class="trl-company-name">${c.company}</span>
+      ${velocityBadge(c.velocity)}
+      <span class="trl-company-note">${c.note.substring(0, 60)}${c.note.length > 60 ? '...' : ''}</span>
+    </div>`;
+  }
+
+  // Render stats row
+  function renderStats(items) {
+    if (!statsEl) return;
+    const highTrl = items.filter(c => c.trl >= 7).length;
+    const advancing = items.filter(c => c.velocity > 0).length;
+    const sectorsSet = new Set();
+    items.forEach(c => {
+      const s = getCompanySector(c.company);
+      if (s) sectorsSet.add(s);
+    });
+    statsEl.innerHTML = `
+      <div class="trl-stat-item">
+        <span class="trl-stat-value">${highTrl}</span>
+        <span class="trl-stat-label">companies at TRL 7+</span>
       </div>
-      <div class="trl-row-companies">
-        ${companies.map(c => {
-          const comp = COMPANIES.find(x => x.name === c.company);
-          const sectorInfo = comp ? (SECTORS[comp.sector] || { icon: '📦', color: '#6b7280' }) : { icon: '📦', color: '#6b7280' };
-          return `<div class="trl-company-chip" onclick="openCompanyModal('${c.company}')" title="${c.note}">
-            <span style="color:${sectorInfo.color}">${sectorInfo.icon}</span>
-            <span class="trl-company-name">${c.company}</span>
-            <span class="trl-company-note">${c.note.substring(0, 60)}${c.note.length > 60 ? '...' : ''}</span>
-          </div>`;
-        }).join('')}
+      <div class="trl-stat-item">
+        <span class="trl-stat-value">${advancing}</span>
+        <span class="trl-stat-label">advancing this year</span>
+      </div>
+      <div class="trl-stat-item">
+        <span class="trl-stat-value">${sectorsSet.size}</span>
+        <span class="trl-stat-label">sectors represented</span>
       </div>
     `;
+  }
 
-    grid.appendChild(section);
-  });
+  // Main render function
+  function renderTRLGrid() {
+    grid.innerHTML = '';
+    const selectedSector = sectorFilter ? sectorFilter.value : 'all';
+    const sortMode = sortSelect ? sortSelect.value : 'trl-desc';
+
+    // Filter by sector
+    let items = TRL_RANKINGS;
+    if (selectedSector !== 'all') {
+      items = items.filter(c => getCompanySector(c.company) === selectedSector);
+    }
+
+    // Render stats for filtered set
+    renderStats(items);
+
+    if (sortMode === 'velocity') {
+      // Group by velocity level (descending: 2, 1, 0, -1)
+      const velocityLabels = {
+        2:  { title: 'Rapid Advancement', subtitle: 'Moved 2+ TRL levels', color: '#22c55e' },
+        1:  { title: 'Advancing', subtitle: 'Moved 1 TRL level', color: '#3b82f6' },
+        0:  { title: 'Steady', subtitle: 'Stable at current TRL', color: '#6b7280' },
+        '-1': { title: 'Setback', subtitle: 'Experienced regression', color: '#ef4444' }
+      };
+      const grouped = {};
+      items.forEach(item => {
+        const key = String(item.velocity);
+        if (!grouped[key]) grouped[key] = [];
+        grouped[key].push(item);
+      });
+      [2, 1, 0, -1].forEach(vel => {
+        const key = String(vel);
+        if (!grouped[key] || grouped[key].length === 0) return;
+        const info = velocityLabels[key];
+        const section = document.createElement('div');
+        section.className = 'trl-row';
+        const companies = grouped[key];
+        section.innerHTML = `
+          <div class="trl-row-header">
+            <div class="trl-row-badge" style="background:${info.color};">${VELOCITY_CONFIG[key].emoji} ${info.title}</div>
+            <div class="trl-row-info">
+              <span class="trl-row-label">${info.subtitle}</span>
+              <span class="trl-row-count">${companies.length} companies</span>
+            </div>
+          </div>
+          <div class="trl-row-companies">
+            ${companies.map(c => renderChip(c)).join('')}
+          </div>
+        `;
+        grid.appendChild(section);
+      });
+    } else {
+      // Group by TRL level
+      const grouped = {};
+      items.forEach(item => {
+        if (!grouped[item.trl]) grouped[item.trl] = [];
+        grouped[item.trl].push(item);
+      });
+      const sortedKeys = Object.keys(grouped).sort((a, b) =>
+        sortMode === 'trl-asc' ? a - b : b - a
+      );
+      sortedKeys.forEach(trl => {
+        const def = TRL_DEFINITIONS[trl];
+        const section = document.createElement('div');
+        section.className = 'trl-row';
+        const companies = grouped[trl];
+        section.innerHTML = `
+          <div class="trl-row-header">
+            <div class="trl-row-badge" style="background:${def.color};">TRL ${trl}</div>
+            <div class="trl-row-info">
+              <span class="trl-row-label">${def.label}</span>
+              <span class="trl-row-count">${companies.length} companies</span>
+            </div>
+          </div>
+          <div class="trl-row-companies">
+            ${companies.map(c => renderChip(c)).join('')}
+          </div>
+        `;
+        grid.appendChild(section);
+      });
+    }
+  }
+
+  // Attach event listeners
+  if (sectorFilter) sectorFilter.addEventListener('change', renderTRLGrid);
+  if (sortSelect) sortSelect.addEventListener('change', renderTRLGrid);
+
+  // Initial render
+  renderTRLGrid();
 }
 
 // ─── DEAL TRACKER ───
@@ -5564,6 +5699,74 @@ function initPredictiveScoring() {
     `;
   }
 
+  function renderScoreChanges() {
+    const allMovers = [];
+
+    // Gather from IPO Readiness
+    if (PREDICTIVE_SCORES.ipoReadiness && PREDICTIVE_SCORES.ipoReadiness.companies) {
+      Object.entries(PREDICTIVE_SCORES.ipoReadiness.companies).forEach(([name, data]) => {
+        const changeScore = Math.abs(data.score - 50) * (data.trend === 'up' ? 1.2 : data.trend === 'down' ? 1.2 : 0.8);
+        allMovers.push({ name, category: 'IPO Readiness', score: data.score, trend: data.trend, analysis: data.analysis, changeScore });
+      });
+    }
+
+    // Gather from M&A Targets
+    if (PREDICTIVE_SCORES.maTarget && PREDICTIVE_SCORES.maTarget.companies) {
+      Object.entries(PREDICTIVE_SCORES.maTarget.companies).forEach(([name, data]) => {
+        const changeScore = Math.abs(data.score - 50) * (data.trend === 'up' ? 1.2 : data.trend === 'down' ? 1.2 : 0.8);
+        allMovers.push({ name, category: 'M&A Target', score: data.score, trend: data.trend, analysis: data.analysis, changeScore });
+      });
+    }
+
+    // Gather from Failure Risk
+    if (PREDICTIVE_SCORES.failureRisk && PREDICTIVE_SCORES.failureRisk.companies) {
+      Object.entries(PREDICTIVE_SCORES.failureRisk.companies).forEach(([name, data]) => {
+        const changeScore = Math.abs(data.score - 50) * (data.trend === 'up' ? 1.2 : data.trend === 'down' ? 1.2 : 0.8);
+        allMovers.push({ name, category: 'Failure Risk', score: data.score, trend: data.trend, analysis: data.analysis, changeScore });
+      });
+    }
+
+    // Sort by changeScore descending
+    allMovers.sort((a, b) => b.changeScore - a.changeScore);
+
+    return `
+      <div class="predictive-grid">
+        ${allMovers.map(item => {
+          const trendArrow = item.trend === 'up' ? '↑' : item.trend === 'down' ? '↓' : '→';
+          const trendLabel = item.trend === 'up' ? 'Rising' : item.trend === 'down' ? 'Falling' : 'Stable';
+          const badge = item.changeScore > 40 ? '<span class="change-badge hot">🔥 Hot Mover</span>' : item.changeScore < 20 ? '<span class="change-badge steady">📊 Steady</span>' : '<span class="change-badge moderate">📈 Notable</span>';
+          const categoryClass = item.category === 'IPO Readiness' ? 'cat-ipo' : item.category === 'M&A Target' ? 'cat-ma' : 'cat-risk';
+
+          return `
+            <div class="predictive-card">
+              <div class="predictive-header">
+                <div>
+                  <div class="predictive-company">${item.name}</div>
+                  <span class="change-category ${categoryClass}">${item.category}</span>
+                  ${badge}
+                </div>
+                <div class="predictive-score">
+                  <div class="score-circle ${getScoreClass(item.score)}">${item.score}</div>
+                  <div class="score-trend ${item.trend}">${trendArrow} ${trendLabel}</div>
+                </div>
+              </div>
+              <div class="predictive-analysis">
+                <p>${item.analysis || 'No analysis available.'}</p>
+              </div>
+              <div class="change-score-bar">
+                <div class="change-score-label">Movement Score</div>
+                <div class="change-score-track">
+                  <div class="change-score-fill" style="width: ${Math.min(item.changeScore, 60) / 60 * 100}%"></div>
+                </div>
+                <div class="change-score-value">${item.changeScore.toFixed(1)}</div>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }
+
   const PREDICTIVE_INITIAL = 20;
 
   function renderTab() {
@@ -5585,6 +5788,9 @@ function initPredictiveScoring() {
         break;
       case 'next-round':
         content.innerHTML = renderNextRound();
+        break;
+      case 'changes':
+        content.innerHTML = renderScoreChanges();
         break;
     }
 
