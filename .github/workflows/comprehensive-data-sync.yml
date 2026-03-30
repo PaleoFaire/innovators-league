@@ -42,7 +42,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: hackernews-data
-          path: data/
+          path: |
+            data/hackernews_buzz_raw.json
+            data/hackernews_buzz_auto.js
           retention-days: 7
 
   sync-press-releases:
@@ -59,7 +61,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: press-releases-data
-          path: data/
+          path: |
+            data/press_releases_raw.json
+            data/press_releases_filtered.json
+            data/press_releases_auto.js
           retention-days: 7
 
   sync-federal-register:
@@ -76,7 +81,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: federal-register-data
-          path: data/
+          path: |
+            data/federal_register_raw.json
+            data/federal_register_filtered.json
+            data/federal_register_auto.js
           retention-days: 7
 
   # ═══════════════════════════════════════════════════════════
@@ -97,7 +105,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: arxiv-data
-          path: data/
+          path: |
+            data/arxiv_papers_raw.json
+            data/arxiv_papers_filtered.json
+            data/arxiv_papers_auto.js
           retention-days: 7
 
   sync-clinical-trials:
@@ -114,7 +125,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: clinical-trials-data
-          path: data/
+          path: |
+            data/clinical_trials_raw.json
+            data/clinical_trials_active.json
+            data/clinical_trials_auto.js
           retention-days: 7
 
   sync-nsf-grants:
@@ -131,7 +145,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: nsf-grants-data
-          path: data/
+          path: |
+            data/nsf_awards_raw.json
+            data/nsf_awards_auto.js
           retention-days: 7
 
   sync-doe-energy:
@@ -150,7 +166,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: doe-energy-data
-          path: data/
+          path: |
+            data/doe_programs_raw.json
+            data/eia_statistics_raw.json
+            data/doe_programs_auto.js
           retention-days: 7
 
   sync-nasa:
@@ -167,7 +186,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: nasa-data
-          path: data/
+          path: |
+            data/nasa_projects_raw.json
+            data/nasa_projects_filtered.json
+            data/nasa_projects_auto.js
           retention-days: 7
 
   sync-congress-bills:
@@ -186,7 +208,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: congress-bills-data
-          path: data/
+          path: |
+            data/congress_bills_auto.js
+            data/congress_bills_auto.json
           retention-days: 7
 
   sync-sbir-topics:
@@ -203,7 +227,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: sbir-topics-data
-          path: data/
+          path: |
+            data/sbir_topics_auto.js
+            data/sbir_topics_auto.json
           retention-days: 7
 
   sync-demand-signals:
@@ -222,7 +248,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: demand-signals-data
-          path: data/
+          path: |
+            data/demand_signals_auto.js
+            data/demand_signals_auto.json
           retention-days: 7
 
   sync-nrc-licensing:
@@ -239,7 +267,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: nrc-licensing-data
-          path: data/
+          path: |
+            data/nrc_licensing_auto.js
+            data/nrc_licensing_auto.json
           retention-days: 7
 
   sync-faa-certification:
@@ -256,7 +286,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: faa-certification-data
-          path: data/
+          path: |
+            data/faa_certification_auto.js
+            data/faa_certification_auto.json
           retention-days: 7
 
   sync-sam-contracts:
@@ -275,7 +307,10 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: sam-contracts-data
-          path: data/
+          path: |
+            data/sam_contracts_raw.json
+            data/sam_contracts_aggregated.json
+            data/sam_contracts_auto.js
           retention-days: 7
 
   sync-census-trade:
@@ -294,7 +329,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: census-trade-data
-          path: data/
+          path: |
+            data/trade_data_raw.json
+            data/trade_data_auto.js
           retention-days: 7
 
   sync-sbir-awards:
@@ -311,7 +348,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: sbir-awards-data
-          path: data/
+          path: |
+            data/sbir_awards_raw.json
+            data/sbir_awards_auto.js
           retention-days: 7
 
   sync-nih-grants:
@@ -328,7 +367,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: nih-grants-data
-          path: data/
+          path: |
+            data/nih_grants_raw.json
+            data/nih_grants_auto.js
           retention-days: 7
 
   sync-arpa-e:
@@ -345,7 +386,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: arpa-e-data
-          path: data/
+          path: |
+            data/arpa_e_projects_raw.json
+            data/arpa_e_projects_auto.js
           retention-days: 7
 
   sync-diffbot:
@@ -364,7 +407,9 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: diffbot-data
-          path: data/
+          path: |
+            data/diffbot_enrichment_raw.json
+            data/diffbot_enrichment_auto.js
           retention-days: 7
 
   sync-vc-portfolios:
@@ -381,7 +426,8 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: vc-portfolio-data
-          path: data/
+          path: |
+            data/vc_portfolio_changes.json
           retention-days: 7
 
   # ═══════════════════════════════════════════════════════════

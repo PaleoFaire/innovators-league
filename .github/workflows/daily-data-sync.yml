@@ -34,7 +34,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: sec-data
-          path: data/
+          path: |
+            data/sec_filings_raw.json
+            data/sec_filings_recent.json
+            data/sec_filings_auto.js
           retention-days: 7
 
   sync-gov-contracts:
@@ -59,7 +62,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gov-contracts-data
-          path: data/
+          path: |
+            data/gov_contracts_raw.json
+            data/gov_contracts_aggregated.json
+            data/gov_contracts_auto.js
           retention-days: 7
 
   sync-news:
@@ -81,7 +87,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: news-data
-          path: data/
+          path: |
+            data/news_raw.json
+            data/news_signals_auto.js
           retention-days: 7
 
   merge-and-commit:

@@ -1180,6 +1180,9 @@ def update_contractor_readiness(data_js_content):
         print("  CONTRACTOR_READINESS not found in data.js, skipping...")
         return data_js_content
 
+    # Count existing entries to protect manual expansions
+    existing_entry_count = len(re.findall(r'company:\s*"[^"]+"', match.group(1)))
+
     # Extract entries preserving curated fields
     entries = []
     block_pattern = r'\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
@@ -1263,6 +1266,11 @@ def update_contractor_readiness(data_js_content):
 
     if not entries:
         print("No contractor readiness entries parsed, skipping...")
+        return data_js_content
+
+    # Protect manual expansions: don't overwrite if we'd lose entries
+    if len(entries) < existing_entry_count:
+        print(f"  Skipping CONTRACTOR_READINESS: parsed {len(entries)} but data.js has {existing_entry_count} (manual entries would be lost)")
         return data_js_content
 
     entries.sort(key=lambda x: x["readinessScore"], reverse=True)
@@ -1878,6 +1886,9 @@ def update_valley_of_death(data_js_content):
         print("  VALLEY_OF_DEATH not found in data.js, skipping...")
         return data_js_content
 
+    # Count existing entries to protect manual expansions
+    existing_vod_count = len(re.findall(r'company:\s*"[^"]+"', match.group(1)))
+
     # Extract existing entries
     entries = []
     entry_pattern = r'\{[^}]+\}'
@@ -1958,6 +1969,11 @@ def update_valley_of_death(data_js_content):
             updated_count += 1
 
     print(f"Recalibrating {len(entries)} Valley of Death entries ({updated_count} updated)...")
+
+    # Protect manual expansions: don't overwrite if we'd lose entries
+    if len(entries) < existing_vod_count:
+        print(f"  Skipping VALLEY_OF_DEATH: parsed {len(entries)} but data.js has {existing_vod_count} (manual entries would be lost)")
+        return data_js_content
 
     today = datetime.now().strftime("%Y-%m-%d")
     js_array = f"// Auto-recalibrated Valley of Death stages\n"
