@@ -23617,23 +23617,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-30 09:21
+// Last updated: 2026-03-30 13:50
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Machina Labs", headline: "BYD 2025 Annual Report In Context", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "OpenAI", headline: "Why OpenAI really shut down Sora", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Durin", headline: "Pulsar Fusion Ignites Plasma in Nuclear Rocket Test", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Umbra", headline: "Satellite imaging industry's next challenge: getting systems to talk to each other", source: "SpaceNews", time: "11h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Cohere", headline: "Progressive Funders Need to Reassess the Breakthrough Institute", source: "CleanTechnica", time: "13h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Ample", headline: "14 Electric Vehicles Costing Less Than $42,000, Or Much Less", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Waymo", headline: "TechCrunch Mobility: When a robotaxi has to call 911", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Karman Industries", headline: "California's Hydrogen Infrastructure Collapse Proves What We've Known All Along", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Waymo", headline: "A School District Tried to Help Train Waymos to Stop for School Buses. It Didn't Work", source: "Wired", time: "22h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Matic Robotics", headline: "Anthropic's Claude popularity with paying consumers is skyrocketing", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
-  { id: 11, type: "news", company: "Biofire", headline: "Your Vape Wants to Know How Old You Are", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Osmo", headline: "The Best Samsung Phones of 2026, Tested and Reviewed", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "Tesla Analyst Thinks Tesla Could Merge With SpaceX In 2027", source: "CleanTechnica", time: "2d ago", impact: "high", unread: false },
-  { id: 14, type: "ipo", company: "Karman Industries", headline: "BrightDrop Died in America, While China Made Electric Vans Normal", source: "CleanTechnica", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Matic Robotics", headline: "Whoop's fitness band is cool. Can it stay cool as the company grows?", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Xtend", headline: "Japanese destroyer can now fire Tomahawk missiles, extending nation's combat punch", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Astrolab", headline: "Details of the NASA Moonbase Plans Include a Fifteen Ton Lunar Rover", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Cognition", headline: "Facial Recognition Is Spreading Everywhere", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "d-Matrix", headline: "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 5, type: "funding", company: "Mistral AI", headline: "Mistral AI raises $830M in debt to set up a data center near Paris", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 6, type: "funding", company: "Anysphere", headline: "Qodo raises $70M for code verification as AI coding scales", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
+  { id: 7, type: "milestone", company: "Anthropic", headline: "What the Claude AI chatbot really does for CENTCOM", source: "Defense One", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Orangewood Labs", headline: "Starcloud raises $170 million Series A to build data centers in space", source: "TechCrunch", time: "2h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Terrestrial Energy", headline: "How 5G Non-Terrestrial Networks Enable Ubiquitous Global Connectivity", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Palantir", headline: "The IRS Wants Smarter Audits. Palantir Could Help Decide Who Gets Flagged", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Machina Labs", headline: "BYD 2025 Annual Report In Context", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "OpenAI", headline: "Why OpenAI really shut down Sora", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Durin", headline: "Pulsar Fusion Ignites Plasma in Nuclear Rocket Test", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Cohere", headline: "Progressive Funders Need to Reassess the Breakthrough Institute", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Ample", headline: "14 Electric Vehicles Costing Less Than $42,000, Or Much Less", source: "CleanTechnica", time: "20h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
