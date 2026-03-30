@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-03-02 10:44:38 UTC
-// Total signals: 44 | Companies matched: 173
+// Last updated: 2026-03-30 08:14:55 UTC
+// Total signals: 44 | Companies matched: 179
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -961,12 +961,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-    echApproach overlap"
-        ]
-      },
-      {
-        "name": "Anduril Industries",
- defense",
+        "name": "Scale AI",
+        "score": 24,
+        "matchReasons": [
+          "tag: defense",
           "tag: ml",
           "techApproach overlap"
         ]
@@ -1456,11 +1454,20 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: space propulsion",
           "techApproach overlap"
         ]
+      },
+      {
+        "name": "Cascade Space",
+        "score": 16,
+        "matchReasons": [
+          "tag: deep space communications",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
       "Antares",
-      "Proteus Space"
+      "Proteus Space",
+      "Cascade Space"
     ]
   },
   {
@@ -1556,19 +1563,19 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Viridian Space",
+        "score": 22,
+        "matchReasons": [
+          "tag: satellites",
+          "tag: defense"
+        ]
+      },
+      {
         "name": "SpaceX",
         "score": 20,
         "matchReasons": [
           "tag: satellites",
           "tag: space"
-        ]
-      },
-      {
-        "name": "Albedo",
-        "score": 16,
-        "matchReasons": [
-          "tag: space",
-          "techApproach overlap"
         ]
       }
     ],
@@ -1581,8 +1588,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "goTenna",
       "Endurosat",
       "Reflect Orbital",
-      "SpaceX",
-      "Albedo"
+      "Viridian Space",
+      "SpaceX"
     ]
   },
   {
@@ -1912,6 +1919,16 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Marathon Fusion",
+        "score": 34,
+        "matchReasons": [
+          "tag: tritium",
+          "tag: fusion energy",
+          "tag: nuclear",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Kyoto Fusioneering",
         "score": 33,
         "matchReasons": [
@@ -1987,17 +2004,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: fusion",
           "techApproach overlap"
         ]
-      },
-      {
-        "name": "General Fusion",
-        "score": 19,
-        "matchReasons": [
-          "tag: fusion",
-          "techApproach overlap"
-        ]
       }
     ],
     "relevantCompanies": [
+      "Marathon Fusion",
       "Kyoto Fusioneering",
       "Commonwealth Fusion Systems",
       "Helion",
@@ -2006,8 +2016,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Renaissance Fusion",
       "TAE Technologies",
       "Valar Atomics",
-      "Zap Energy",
-      "General Fusion"
+      "Zap Energy"
     ]
   },
   {
@@ -2267,6 +2276,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: battery",
           "techApproach overlap"
         ]
+      },
+      {
+        "name": "Lunar Energy",
+        "score": 16,
+        "matchReasons": [
+          "tag: energy storage",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
@@ -2274,7 +2291,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Gravitricity",
       "Form Energy",
       "Skeleton Technologies",
-      "Ouros Energy"
+      "Ouros Energy",
+      "Lunar Energy"
     ]
   },
   {
@@ -3013,6 +3031,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "NVision Imaging Technologies",
+        "score": 22,
+        "matchReasons": [
+          "tag: quantum sensing",
+          "cluster: quantum-sensing"
+        ]
+      },
+      {
         "name": "Deepnight",
         "score": 20,
         "matchReasons": [
@@ -3036,6 +3062,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Picogrid",
       "Andrenam",
+      "NVision Imaging Technologies",
       "Deepnight",
       "Long Wall"
     ]
@@ -3114,11 +3141,20 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: synthetic biology",
           "techApproach overlap"
         ]
+      },
+      {
+        "name": "Green Abundance",
+        "score": 16,
+        "matchReasons": [
+          "tag: synthetic biology",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
       "Prepared",
-      "Asimov"
+      "Asimov",
+      "Green Abundance"
     ]
   },
   {
@@ -3148,10 +3184,19 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: ai",
           "tag: waste"
         ]
+      },
+      {
+        "name": "Green Abundance",
+        "score": 16,
+        "matchReasons": [
+          "tag: synthetic biology",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
-      "AMP Robotics"
+      "AMP Robotics",
+      "Green Abundance"
     ]
   },
   {
@@ -3648,6 +3693,16 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Verdant Robotics",
+        "score": 36,
+        "matchReasons": [
+          "tag: agricultural robotics",
+          "tag: precision agriculture",
+          "tag: computer vision",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "AMP Robotics",
         "score": 24,
         "matchReasons": [
@@ -3721,17 +3776,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: ai",
           "tag: robotics"
         ]
-      },
-      {
-        "name": "Shinkei",
-        "score": 20,
-        "matchReasons": [
-          "tag: robotics",
-          "techApproach overlap"
-        ]
       }
     ],
     "relevantCompanies": [
+      "Verdant Robotics",
       "AMP Robotics",
       "Carbon Robotics",
       "Farm-ng",
@@ -3740,8 +3788,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Vayu Robotics",
       "Cohesive Robotics",
       "White Stork",
-      "Physical Intelligence",
-      "Shinkei"
+      "Physical Intelligence"
     ]
   },
   {
@@ -3793,7 +3840,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         "name": "Destinus",
         "score": 16,
         "matchReasons": [
-          "tag: hypersonic",
+          "tag: defense",
           "techApproach overlap"
         ]
       }
@@ -3967,6 +4014,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Amogy",
+        "score": 22,
+        "matchReasons": [
+          "tag: clean energy",
+          "tag: hydrogen"
+        ]
+      },
+      {
         "name": "Skeleton Technologies",
         "score": 16,
         "matchReasons": [
@@ -3979,6 +4034,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Sunfire",
       "Electric Hydrogen",
       "Sage Geosystems",
+      "Amogy",
       "Skeleton Technologies"
     ]
   }
@@ -4957,6 +5013,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Advanced In-Space Propulsion Technologies"
     ]
   },
+  "Cascade Space": {
+    "name": "Cascade Space",
+    "govPullScore": 12,
+    "matchCount": 1,
+    "topAgencies": [
+      "NASA"
+    ],
+    "avgRelevance": 16,
+    "topSignals": [
+      "Advanced In-Space Propulsion Technologies"
+    ]
+  },
   "Aalyria": {
     "name": "Aalyria",
     "govPullScore": 28,
@@ -4983,6 +5051,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Missile Tracking Layer Satellites"
     ]
   },
+  "Viridian Space": {
+    "name": "Viridian Space",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Space Development Agency (SDA)"
+    ],
+    "avgRelevance": 22,
+    "topSignals": [
+      "Missile Tracking Layer Satellites"
+    ]
+  },
   "SpaceX": {
     "name": "SpaceX",
     "govPullScore": 18,
@@ -4992,20 +5072,6 @@ const GOV_PULL_SCORES_AUTO = {
     ],
     "avgRelevance": 20,
     "topSignals": [
-      "Missile Tracking Layer Satellites"
-    ]
-  },
-  "Albedo": {
-    "name": "Albedo",
-    "govPullScore": 31,
-    "matchCount": 2,
-    "topAgencies": [
-      "National Reconnaissance Office (NRO)",
-      "Space Development Agency (SDA)"
-    ],
-    "avgRelevance": 21,
-    "topSignals": [
-      "Next-Generation Earth Observation Capabilities",
       "Missile Tracking Layer Satellites"
     ]
   },
@@ -5053,6 +5119,18 @@ const GOV_PULL_SCORES_AUTO = {
       "National Reconnaissance Office (NRO)"
     ],
     "avgRelevance": 30,
+    "topSignals": [
+      "Next-Generation Earth Observation Capabilities"
+    ]
+  },
+  "Albedo": {
+    "name": "Albedo",
+    "govPullScore": 20,
+    "matchCount": 1,
+    "topAgencies": [
+      "National Reconnaissance Office (NRO)"
+    ],
+    "avgRelevance": 26,
     "topSignals": [
       "Next-Generation Earth Observation Capabilities"
     ]
@@ -5224,6 +5302,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Advanced HALEU Fuel Fabrication Capabilities"
     ]
   },
+  "Marathon Fusion": {
+    "name": "Marathon Fusion",
+    "govPullScore": 22,
+    "matchCount": 1,
+    "topAgencies": [
+      "ARPA-E"
+    ],
+    "avgRelevance": 34,
+    "topSignals": [
+      "Compact Fusion Pilot Plant Technologies"
+    ]
+  },
   "Kyoto Fusioneering": {
     "name": "Kyoto Fusioneering",
     "govPullScore": 21,
@@ -5310,18 +5400,6 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Zap Energy": {
     "name": "Zap Energy",
-    "govPullScore": 18,
-    "matchCount": 1,
-    "topAgencies": [
-      "ARPA-E"
-    ],
-    "avgRelevance": 19,
-    "topSignals": [
-      "Compact Fusion Pilot Plant Technologies"
-    ]
-  },
-  "General Fusion": {
-    "name": "General Fusion",
     "govPullScore": 18,
     "matchCount": 1,
     "topAgencies": [
@@ -5529,6 +5607,18 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Ouros Energy": {
     "name": "Ouros Energy",
+    "govPullScore": 17,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 16,
+    "topSignals": [
+      "Long-Duration Energy Storage Technologies"
+    ]
+  },
+  "Lunar Energy": {
+    "name": "Lunar Energy",
     "govPullScore": 17,
     "matchCount": 1,
     "topAgencies": [
@@ -5947,6 +6037,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Quantum Sensing for Position, Navigation, and Timing"
     ]
   },
+  "NVision Imaging Technologies": {
+    "name": "NVision Imaging Technologies",
+    "govPullScore": 16,
+    "matchCount": 1,
+    "topAgencies": [
+      "DARPA"
+    ],
+    "avgRelevance": 22,
+    "topSignals": [
+      "Quantum Sensing for Position, Navigation, and Timing"
+    ]
+  },
   "Deepnight": {
     "name": "Deepnight",
     "govPullScore": 16,
@@ -6005,6 +6107,20 @@ const GOV_PULL_SCORES_AUTO = {
     "avgRelevance": 16,
     "topSignals": [
       "Advanced Biomanufacturing for Pandemic Preparedness"
+    ]
+  },
+  "Green Abundance": {
+    "name": "Green Abundance",
+    "govPullScore": 25,
+    "matchCount": 2,
+    "topAgencies": [
+      "BARDA / HHS",
+      "NASA"
+    ],
+    "avgRelevance": 16,
+    "topSignals": [
+      "Advanced Biomanufacturing for Pandemic Preparedness",
+      "Synthetic Biology for Space Life Support"
     ]
   },
   "AMP Robotics": {
@@ -6121,6 +6237,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Autonomous Logistics Resupply Vehicles"
     ]
   },
+  "Verdant Robotics": {
+    "name": "Verdant Robotics",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "National Science Foundation (NSF)"
+    ],
+    "avgRelevance": 36,
+    "topSignals": [
+      "Intelligent Agricultural Robotics"
+    ]
+  },
   "Carbon Robotics": {
     "name": "Carbon Robotics",
     "govPullScore": 15,
@@ -6153,18 +6281,6 @@ const GOV_PULL_SCORES_AUTO = {
       "National Science Foundation (NSF)"
     ],
     "avgRelevance": 22,
-    "topSignals": [
-      "Intelligent Agricultural Robotics"
-    ]
-  },
-  "Shinkei": {
-    "name": "Shinkei",
-    "govPullScore": 14,
-    "matchCount": 1,
-    "topAgencies": [
-      "National Science Foundation (NSF)"
-    ],
-    "avgRelevance": 20,
     "topSignals": [
       "Intelligent Agricultural Robotics"
     ]
@@ -6240,61 +6356,15 @@ const GOV_PULL_SCORES_AUTO = {
     "topSignals": [
       "Clean Hydrogen Hub Expansion"
     ]
-  }
-};
-
-const DEMAND_SIGNALS_STATS = {
-  "totalSignals": 44,
-  "bySource": {
-    "seed": 44
   },
-  "byAgency": {
-    "Defense Innovation Unit (DIU)": 2,
-    "DARPA": 5,
-    "AFWERX / Air Force": 1,
-    "U.S. Army": 2,
-    "Office of Naval Research (ONR)": 1,
-    "Department of Homeland Security (DHS)": 2,
-    "SOCOM": 1,
-    "Department of Defense": 3,
-    "U.S. Space Force": 1,
-    "NASA": 4,
-    "Space Development Agency (SDA)": 1,
-    "National Reconnaissance Office (NRO)": 1,
-    "Department of Energy (DOE)": 8,
-    "ARPA-E": 1,
-    "National Science Foundation (NSF)": 4,
-    "Chief Digital and AI Office (CDAO)": 1,
-    "NSA / CISA": 1,
-    "BARDA / HHS": 1,
-    "National Institutes of Health (NIH)": 1,
-    "CISA / DHS": 1,
-    "NSA Cybersecurity Directorate": 1,
-    "Environmental Protection Agency (EPA)": 1
-  },
-  "companiesMatched": 173,
-  "lastUpdated": "2026-03-02 10:44:38 UTC"
-};
- "Sunfire": {
-    "name": "Sunfire",
-    "govPullScore": 20,
+  "Amogy": {
+    "name": "Amogy",
+    "govPullScore": 18,
     "matchCount": 1,
     "topAgencies": [
       "Department of Energy (DOE)"
     ],
-    "avgRelevance": 26,
-    "topSignals": [
-      "Clean Hydrogen Hub Expansion"
-    ]
-  },
-  "Electric Hydrogen": {
-    "name": "Electric Hydrogen",
-    "govPullScore": 20,
-    "matchCount": 1,
-    "topAgencies": [
-      "Department of Energy (DOE)"
-    ],
-    "avgRelevance": 26,
+    "avgRelevance": 22,
     "topSignals": [
       "Clean Hydrogen Hub Expansion"
     ]
@@ -6317,64 +6387,6 @@ const DEMAND_SIGNALS_STATS = {
     "Department of Defense": 3,
     "U.S. Space Force": 1,
     "NASA": 4,
-    "Space Development Agency (SDA)": 1,
-    "National Reconnaissance Office (NRO)": 1,
-    "Department of Energy (DOE)": 8,
-    "ARPA-E": 1,
-    "National Science Foundation (NSF)": 4,
-    "Chief Digital and AI Office (CDAO)": 1,
-    "NSA / CISA": 1,
-    "BARDA / HHS": 1,
-    "National Institutes of Health (NIH)": 1,
-    "CISA / DHS": 1,
-    "NSA Cybersecurity Directorate": 1,
-    "Environmental Protection Agency (EPA)": 1
-  },
-  "companiesMatched": 173,
-  "lastUpdated": "2026-03-02 10:44:38 UTC"
-};
-pdated": "2026-03-19 07:38:38 UTC"
-};
-gRelevance": 22,
-    "topSignals": [
-      "Clean Hydrogen Hub Expansion"
-    ]
-  }
-};
-
-const DEMAND_SIGNALS_STATS = {
-  "totalSignals": 44,
-  "bySource": {
-    "seed": 44
-  },
-  "byAgency": {
-    "Defense Innovation Unit (DIU)": 2,
-    "DARPA": 5,
-    "AFWERX / Air Force": 1,
-    "U.S. Army": 2,
-    "Office of Naval Research (ONR)": 1,
-    "Department of Homeland Security (DHS)": 2,
-    "SOCOM": 1,
-    "Department of Defense": 3,
-    "U.S. Space Force": 1,
-    "NASA": 4,
-    "Space Development Agency (SDA)": 1,
-    "National Reconnaissance Office (NRO)": 1,
-    "Department of Energy (DOE)": 8,
-    "ARPA-E": 1,
-    "National Science Foundation (NSF)": 4,
-    "Chief Digital and AI Office (CDAO)": 1,
-    "NSA / CISA": 1,
-    "BARDA / HHS": 1,
-    "National Institutes of Health (NIH)": 1,
-    "CISA / DHS": 1,
-    "NSA Cybersecurity Directorate": 1,
-    "Environmental Protection Agency (EPA)": 1
-  },
-  "companiesMatched": 178,
-  "lastUpdated": "2026-03-22 07:31:07 UTC"
-};
-SA": 4,
     "Space Development Agency (SDA)": 1,
     "National Reconnaissance Office (NRO)": 1,
     "Department of Energy (DOE)": 8,
@@ -6389,5 +6401,5 @@ SA": 4,
     "Environmental Protection Agency (EPA)": 1
   },
   "companiesMatched": 179,
-  "lastUpdated": "2026-03-28 07:37:22 UTC"
+  "lastUpdated": "2026-03-30 08:14:55 UTC"
 };

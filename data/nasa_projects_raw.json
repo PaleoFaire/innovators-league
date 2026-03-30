@@ -6,12 +6,43 @@
     "status": "Completed",
     "startDate": "Jan 2025",
     "endDate": "Dec 2025",
-    "lastUpdated": "03/25/26",
+    "lastUpdated": "03/28/26",
     "center": "",
     "technologyArea": "Environment Sensors",
     "partners": [
+      "Optical Sciences Corporation",
       "Amentum Space Exploration Group",
       "Space Launch System"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183165,
+    "title": "Ohalo III - Utah State University Utah Re-Usable Root Module Phase B Grant",
+    "description": "<p>Food and nutrition are critical to health and performance and therefore the success of human space exploration. However, the shelf-stable food system currently in use on the International Space Station (ISS) is not sustainable as missions become longer and further from Earth, even with modification for mass and water efficiencies. Bioregenerative foods as part of the astronaut diet are expected to provide whole food nutrition, improve menu variety, and positively impact behavioral health. Sig",
+    "status": "Completed",
+    "startDate": "Apr 2024",
+    "endDate": "Mar 2025",
+    "lastUpdated": "03/26/26",
+    "center": "Kennedy Space Center",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Kennedy Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 183269,
+    "title": "Ohalo III - Sierra Space Hydroponic/Aeroponic Nutrient Delivery in Volumetrically Efficient Garden Root Module Phase B Grant",
+    "description": "<p>Food and nutrition are critical to health and performance and therefore the success of human space exploration. However, the shelf-stable food system currently in use on the International Space Station (ISS) is not sustainable as missions become longer and further from Earth, even with modification for mass and water efficiencies. Bioregenerative foods as part of the astronaut diet are expected to provide whole food nutrition, improve menu variety, and positively impact behavioral health. Sig",
+    "status": "Completed",
+    "startDate": "Nov 2023",
+    "endDate": "Feb 2026",
+    "lastUpdated": "03/26/26",
+    "center": "Kennedy Space Center",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Kennedy Space Center"
     ],
     "website": ""
   },
@@ -755,21 +786,6 @@
       "Glenair",
       "Microchip",
       "TE Connectivity"
-    ],
-    "website": ""
-  },
-  {
-    "id": 183269,
-    "title": "Ohalo III - Sierra Space Hydroponic/Aeroponic Nutrient Delivery in Volumetrically Efficient Garden Root Module Phase B Grant",
-    "description": "<p>Food and nutrition are critical to health and performance and therefore the success of human space exploration. However, the shelf-stable food system currently in use on the International Space Station (ISS) is not sustainable as missions become longer and further from Earth, even with modification for mass and water efficiencies. Bioregenerative foods as part of the astronaut diet are expected to provide whole food nutrition, improve menu variety, and positively impact behavioral health. Sig",
-    "status": "Canceled",
-    "startDate": "Nov 2023",
-    "endDate": "Feb 2026",
-    "lastUpdated": "03/23/26",
-    "center": "Kennedy Space Center",
-    "technologyArea": "Human Health, Life Support, and Habitation Systems",
-    "partners": [
-      "Kennedy Space Center"
     ],
     "website": ""
   },
@@ -2443,21 +2459,6 @@
     "technologyArea": "Innovative Antennas",
     "partners": [
       "San Diego State University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 106718,
-    "title": "Green Propellant Zero-G Control Methods",
-    "description": "<p>The Green Propellent Zero-G Control Methods project is designed to respond to the goal of NASA and the broader space exploration industry to use more renewable, lower-toxicity propellants to replace standard, high-emission propellants. A human-tended flight test experiment will enable evaluation of renewable energy sources for use as propellants. The test aims to enable research into the non-linear wetting behavior of green propellants on tank walls and vanes. This learning may ultimately hel",
-    "status": "Active",
-    "startDate": "Mar 2022",
-    "endDate": "Dec 2026",
-    "lastUpdated": "02/19/26",
-    "center": "Purdue University-Main Campus",
-    "technologyArea": "Cryogenic Propulsion",
-    "partners": [
-      "Purdue University-Main Campus"
     ],
     "website": ""
   }

@@ -1,5 +1,5 @@
 // Auto-updated DOE nuclear/energy programs
-// Last updated: 2026-03-24 07:45:27 UTC
+// Last updated: 2026-03-30 08:14:47 UTC
 const DOE_PROGRAMS = [
   { program: "Advanced Reactor Demonstration Program (ARDP)", agency: "DOE Office of Nuclear Energy", companies: "TerraPower, X-energy, Kairos Power, Westinghouse", funding: "3.2B", status: "Active", lastUpdate: "2026-01-15" },
   { program: "HALEU Availability Program", agency: "DOE Office of Nuclear Energy", companies: "Centrus Energy, Urenco", funding: "700M", status: "Active", lastUpdate: "2026-01-10" },

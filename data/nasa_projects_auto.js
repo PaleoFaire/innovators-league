@@ -1,7 +1,7 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-03-26 07:54:51 UTC
+// Last updated: 2026-03-30 08:16:35 UTC
 const NASA_PROJECTS = [
-  { id: 184107, title: "Portable In-Field Acoustic Sensor Array", status: "Completed", center: "", techArea: "Environment Sensors", lastUpdated: "03/25/26" },
+  { id: 184107, title: "Portable In-Field Acoustic Sensor Array", status: "Completed", center: "", techArea: "Environment Sensors", lastUpdated: "03/28/26" },
   { id: 184669, title: "DTC for Bidirectional Power Exchange", status: "Completed", center: "Johnson Space Center", techArea: "Distribution and Transmission", lastUpdated: "03/23/26" },
   { id: 184638, title: "Dirty Thermal Vacuum Test Facilities with H2/O2", status: "Active", center: "Johnson Space Center", techArea: "Environment Testing", lastUpdated: "03/23/26" },
   { id: 183899, title: "Engine Ground Test Development", status: "Completed", center: "", techArea: "", lastUpdated: "03/23/26" },
