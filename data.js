@@ -23617,23 +23617,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-30 17:04
+// Last updated: 2026-03-30 20:55
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Lotus Health AI", headline: "There are more AI health tools than ever'but how well do they work?", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Palantir", headline: "The Pentagon's culture war tactic against Anthropic has backfired", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Arbor Energy", headline: "Altitude Partners With Empacar Bolivia &#038; Becomes First Commercial Buyer To Reach +1 Million T CDRs Financed", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
-  { id: 4, type: "funding", company: "Apptronik", headline: "Uber is buying Berlin startup Blacklane to bolster its 'Elite' offering", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Waymo", headline: "XPeng Serious About Robotaxis, Creates Distinct Division", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Hugging Face", headline: "Mantis Biotech is making 'digital twins' of humans to help solve medicine's data availability problem", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Waymo", headline: "Tesla Will Soon Unleash Scaled Robotaxi", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Claros", headline: "ScaleOps raises $130M to improve computing efficiency amid AI demand", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Xtend", headline: "Japanese destroyer can now fire Tomahawk missiles, extending nation's combat punch", source: "Defense News", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Astrolab", headline: "Details of the NASA Moonbase Plans Include a Fifteen Ton Lunar Rover", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Cognition", headline: "Facial Recognition Is Spreading Everywhere", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "d-Matrix", headline: "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
-  { id: 13, type: "funding", company: "Mistral AI", headline: "Mistral AI raises $830M in debt to set up a data center near Paris", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
-  { id: 14, type: "funding", company: "Anysphere", headline: "Qodo raises $70M for code verification as AI coding scales", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
-  { id: 15, type: "milestone", company: "Anthropic", headline: "What the Claude AI chatbot really does for CENTCOM", source: "Defense One", time: "4h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Standard Nuclear", headline: "First set of defensive cyber kits to be delivered to CYBERCOM units", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "PILGRIM", headline: "What we're looking for in Startup Battlefield 2026 and how to put your best application forward", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Durin", headline: "Varda flies navigation payload, heat shield tests on sixth reentry mission", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Xtend", headline: "The US Is Sitting On 161 Gigawatts In Underused Wind Farm Capacity", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Cape", headline: "Ukraine inks defense agreements with Qatar and Saudi Arabia, with UAE to follow", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Exowatt", headline: "Why Molecular Solar Thermal Is Great Chemistry And Bad Energy Hype", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Rocket Lab", headline: "ESA launches first Celeste satellites to test complementary LEO navigation layer", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "SpaceX", headline: "SpaceX launches Transporter-16 rideshare mission", source: "SpaceNews", time: "4h ago", impact: "medium", unread: false },
+  { id: 9, type: "ipo", company: "Lotus Health AI", headline: "There are more AI health tools than ever'but how well do they work?", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Palantir", headline: "The Pentagon's culture war tactic against Anthropic has backfired", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Arbor Energy", headline: "Altitude Partners With Empacar Bolivia &#038; Becomes First Commercial Buyer To Reach +1 Million T CDRs Financed", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: false },
+  { id: 12, type: "funding", company: "Apptronik", headline: "Uber is buying Berlin startup Blacklane to bolster its 'Elite' offering", source: "TechCrunch", time: "6h ago", impact: "medium", unread: false },
+  { id: 13, type: "news", company: "Waymo", headline: "XPeng Serious About Robotaxis, Creates Distinct Division", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Hugging Face", headline: "Mantis Biotech is making 'digital twins' of humans to help solve medicine's data availability problem", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Waymo", headline: "Tesla Will Soon Unleash Scaled Robotaxi", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
