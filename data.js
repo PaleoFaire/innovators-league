@@ -23617,23 +23617,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-30 13:50
+// Last updated: 2026-03-30 17:04
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Xtend", headline: "Japanese destroyer can now fire Tomahawk missiles, extending nation's combat punch", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Astrolab", headline: "Details of the NASA Moonbase Plans Include a Fifteen Ton Lunar Rover", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Cognition", headline: "Facial Recognition Is Spreading Everywhere", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "d-Matrix", headline: "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 5, type: "funding", company: "Mistral AI", headline: "Mistral AI raises $830M in debt to set up a data center near Paris", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
-  { id: 6, type: "funding", company: "Anysphere", headline: "Qodo raises $70M for code verification as AI coding scales", source: "TechCrunch", time: "1h ago", impact: "medium", unread: false },
-  { id: 7, type: "milestone", company: "Anthropic", headline: "What the Claude AI chatbot really does for CENTCOM", source: "Defense One", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Orangewood Labs", headline: "Starcloud raises $170 million Series A to build data centers in space", source: "TechCrunch", time: "2h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Terrestrial Energy", headline: "How 5G Non-Terrestrial Networks Enable Ubiquitous Global Connectivity", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Palantir", headline: "The IRS Wants Smarter Audits. Palantir Could Help Decide Who Gets Flagged", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Machina Labs", headline: "BYD 2025 Annual Report In Context", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "OpenAI", headline: "Why OpenAI really shut down Sora", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "milestone", company: "Durin", headline: "Pulsar Fusion Ignites Plasma in Nuclear Rocket Test", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Cohere", headline: "Progressive Funders Need to Reassess the Breakthrough Institute", source: "CleanTechnica", time: "18h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Ample", headline: "14 Electric Vehicles Costing Less Than $42,000, Or Much Less", source: "CleanTechnica", time: "20h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Lotus Health AI", headline: "There are more AI health tools than ever'but how well do they work?", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "Palantir", headline: "The Pentagon's culture war tactic against Anthropic has backfired", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Arbor Energy", headline: "Altitude Partners With Empacar Bolivia &#038; Becomes First Commercial Buyer To Reach +1 Million T CDRs Financed", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
+  { id: 4, type: "funding", company: "Apptronik", headline: "Uber is buying Berlin startup Blacklane to bolster its 'Elite' offering", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Waymo", headline: "XPeng Serious About Robotaxis, Creates Distinct Division", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Hugging Face", headline: "Mantis Biotech is making 'digital twins' of humans to help solve medicine's data availability problem", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Waymo", headline: "Tesla Will Soon Unleash Scaled Robotaxi", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Claros", headline: "ScaleOps raises $130M to improve computing efficiency amid AI demand", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Xtend", headline: "Japanese destroyer can now fire Tomahawk missiles, extending nation's combat punch", source: "Defense News", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Astrolab", headline: "Details of the NASA Moonbase Plans Include a Fifteen Ton Lunar Rover", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Cognition", headline: "Facial Recognition Is Spreading Everywhere", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "d-Matrix", headline: "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
+  { id: 13, type: "funding", company: "Mistral AI", headline: "Mistral AI raises $830M in debt to set up a data center near Paris", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
+  { id: 14, type: "funding", company: "Anysphere", headline: "Qodo raises $70M for code verification as AI coding scales", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
+  { id: 15, type: "milestone", company: "Anthropic", headline: "What the Claude AI chatbot really does for CENTCOM", source: "Defense One", time: "4h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
