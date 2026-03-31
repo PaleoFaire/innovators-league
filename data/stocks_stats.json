@@ -5,68 +5,68 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -14.37,
+      "avg_change": -14.48,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -12.98,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -13.22,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -15.6,
+      "avg_change": -14.6,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.47,
+      "avg_change": -15.03,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -18.41,
+      "avg_change": -16.91,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -20.85,
+      "avg_change": -19.63,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.18,
+      "avg_change": -11.13,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -8.07,
+      "avg_change": -7.41,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.88,
+      "avg_change": -9.43,
       "count": 3
     }
   },
   "topGainers": [
     [
+      "SATL",
+      "Satellogic",
+      0.2
+    ],
+    [
       "ASRHF",
       "Astroscale",
       0.0
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      -1.01
     ],
     [
       "DRSHF",
@@ -76,40 +76,40 @@
     [
       "AMD",
       "AMD",
-      -3.68
+      -3.28
     ],
     [
       "NVDA",
       "NVIDIA",
-      -5.84
+      -5.96
     ]
   ],
   "topLosers": [
     [
       "IONQ",
       "IonQ",
-      -21.07
+      -19.69
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -21.12
+      -20.42
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      -21.25
+      "9348.T",
+      "ispace",
+      -23.57
     ],
     [
       "LNZA",
       "LanzaTech",
-      -30.22
+      -25.37
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -45.51
+      -42.61
     ]
   ],
-  "lastUpdated": "2026-03-30 19:04:52"
+  "lastUpdated": "2026-03-31 02:42:57"
 }
