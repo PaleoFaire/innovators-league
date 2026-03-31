@@ -1729,6 +1729,13 @@ function initStats() {
   const inlineCount = document.getElementById('company-count-inline');
   if (inlineCount) inlineCount.textContent = companyCount;
 
+  // Update all hardcoded company count references dynamically
+  const whyCount = document.getElementById('why-company-count');
+  if (whyCount) whyCount.textContent = companyCount + '+';
+  document.querySelectorAll('.dynamic-company-count').forEach(el => {
+    el.textContent = companyCount;
+  });
+
   // Format funding as $XXB+
   const fundingEl = document.getElementById('funding-count');
   if (fundingEl) {
