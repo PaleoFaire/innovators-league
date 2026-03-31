@@ -1,6 +1,16 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-03-30 07:49:54 UTC
+// Last updated: 2026-03-31 07:22:56 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "8-K", date: "2026-03-30", description: "g085462_8k-rocket.htm", isIPO: false, ticker: "RKLB" },
+  { company: "Momentus", form: "8-K", date: "2026-03-30", description: "tm2610566d1_8k.htm", isIPO: false, ticker: "MNTS" },
+  { company: "Virgin Galactic", form: "10-K", date: "2026-03-30", description: "spce-20251231.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Virgin Galactic", form: "8-K", date: "2026-03-30", description: "spce-20260330.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Oklo", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774907147.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906989.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Aurora Innovation", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906611.xml", isIPO: false, ticker: "AUR" },
+  { company: "Aurora Innovation", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906562.xml", isIPO: false, ticker: "AUR" },
+  { company: "Aurora Innovation", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906490.xml", isIPO: false, ticker: "AUR" },
+  { company: "Tempus AI", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774866871.xml", isIPO: false, ticker: "TEM" },
   { company: "Astera Labs", form: "8-K", date: "2026-03-27", description: "tra-20260326.htm", isIPO: false, ticker: "ALAB" },
   { company: "Rocket Lab", form: "4", date: "2026-03-26", description: "xslF345X06/primary_doc.xml", isIPO: false, ticker: "RKLB" },
   { company: "AST SpaceMobile", form: "4", date: "2026-03-26", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
@@ -41,14 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "C3.ai", form: "4", date: "2026-03-19", description: "xslF345X06/wk-form4_1773950721.xml", isIPO: false, ticker: "AI" },
   { company: "UiPath", form: "4", date: "2026-03-19", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "IonQ", form: "10-K", date: "2026-03-19", description: "bakkt-20251231.htm", isIPO: false, ticker: "IONQ" },
-  { company: "Archer Aviation", form: "8-K", date: "2026-03-19", description: "achr-20260313.htm", isIPO: false, ticker: "ACHR" },
-  { company: "Rivian", form: "4", date: "2026-03-19", description: "xslF345X06/wk-form4_1773952319.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "8-K", date: "2026-03-19", description: "tm269292d1_8k.htm", isIPO: false, ticker: "RIVN" },
-  { company: "Palantir Technologies", form: "4", date: "2026-03-18", description: "xslF345X06/wk-form4_1773878819.xml", isIPO: false, ticker: "PLTR" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-03-18", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "Virgin Galactic", form: "4", date: "2026-03-18", description: "xslF345X06/wk-form4_1773866434.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-03-18", description: "xslF345X06/wk-form4_1773866346.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-03-18", description: "xslF345X06/wk-form4_1773866193.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-03-18", description: "xslF345X06/wk-form4_1773866086.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-03-18", description: "xslF345X06/wk-form4_1773870740.xml", isIPO: false, ticker: "RXRX" },
 ];

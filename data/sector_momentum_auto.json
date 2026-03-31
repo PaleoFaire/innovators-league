@@ -4,9 +4,9 @@
     "momentum": 61,
     "trend": "accelerating",
     "catalysts": [
-      "TechCrunch Mobility: When a robotaxi has to call 911",
-      "California&#8217;s Hydrogen Infrastructure Collapse Proves W",
-      "A School District Tried to Help Train Waymos to Stop for Sch"
+      "XPeng Serious About Robotaxis, Creates Distinct Division",
+      "Tesla Will Soon Unleash Scaled Robotaxi",
+      "California&#8217;s Hydrogen Infrastructure Collapse Proves W"
     ],
     "fundingQ": "$1.7B",
     "components": {
@@ -15,16 +15,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
     "sector": "Defense & Security",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Judge grants Anthropic preliminary injunction but Pentagon C",
-      "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells",
-      "Norway floats additional $11.8B in defense spending through"
+      "The Cost of Hesitation: Why \u201cFinishing the Mission\u201d is Imper",
+      "First set of defensive cyber kits to be delivered to CYBERCO",
+      "Ukraine inks defense agreements with Qatar and Saudi Arabia,"
     ],
     "fundingQ": "$19.6B",
     "components": {
@@ -33,25 +33,25 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 54,
-    "trend": "steady",
+    "momentum": 55,
+    "trend": "accelerating",
     "catalysts": [
-      "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells",
-      "Norway floats additional $11.8B in defense spending through",
-      "US Army seeks sled-mounted air defense for light infantry"
+      "Ukraine inks defense agreements with Qatar and Saudi Arabia,",
+      "XPeng Serious About Robotaxis, Creates Distinct Division",
+      "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
     "sector": "Ocean & Maritime",
@@ -67,155 +67,138 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
     "sector": "AI & Software",
-    "momentum": 38,
+    "momentum": 41,
     "trend": "steady",
     "catalysts": [
-      "Why OpenAI really shut down Sora",
-      "Anthropic&#8217;s Claude popularity with paying consumers is",
-      "Physical Intelligence is reportedly in talks to raise $1 bil"
+      "Popular AI gateway startup LiteLLM ditches controversial sta",
+      "There are more AI health tools than ever\u2014but how well do the",
+      "The Pentagon\u2019s culture war tactic against Anthropic has back"
     ],
     "fundingQ": "$1.1B",
     "components": {
       "funding": 20,
-      "news": 85,
+      "news": 95,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 35,
-    "trend": "steady",
+    "momentum": 24,
+    "trend": "rising",
     "catalysts": [
-      "Why OpenAI really shut down Sora",
-      "Satellite imaging industry\u2019s next challenge: getting systems",
-      "Anthropic&#8217;s Claude popularity with paying consumers is"
+      "What we&#8217;re looking for in Startup Battlefield 2026 and",
+      "The US Is Sitting On 161 Gigawatts In Underused Wind Farm Ca",
+      "Why Molecular Solar Thermal Is Great Chemistry And Bad Energ"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 100,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-30"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 28,
-    "trend": "steady",
-    "catalysts": [
-      "Pulsar Fusion Ignites Plasma in Nuclear Rocket Test",
-      "Satellite imaging industry\u2019s next challenge: getting systems",
-      "Anthropic&#8217;s Claude popularity with paying consumers is"
-    ],
-    "fundingQ": "$175M",
-    "components": {
-      "funding": 9,
-      "news": 100,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 25,
-    "trend": "rising",
+    "momentum": 21,
+    "trend": "declining",
     "catalysts": [
-      "BYD 2025 Annual Report In Context",
-      "California&#8217;s Hydrogen Infrastructure Collapse Proves W",
-      "Judge grants Anthropic preliminary injunction but Pentagon C"
+      "Why Molecular Solar Thermal Is Great Chemistry And Bad Energ",
+      "The Pentagon\u2019s culture war tactic against Anthropic has back",
+      "ScaleOps raises $130M to improve computing efficiency amid A"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 60,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 17,
+    "momentum": 16,
     "trend": "rising",
     "catalysts": [
-      "Why OpenAI really shut down Sora",
-      "Whoop&#8217;s fitness band is cool. Can it stay cool as the",
-      "Norway floats additional $11.8B in defense spending through"
+      "There are more AI health tools than ever\u2014but how well do the",
+      "Mantis Biotech is making &#8216;digital twins&#8217; of huma",
+      "Why OpenAI really shut down Sora"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
-    "sector": "Chips & Semiconductors",
+    "sector": "Housing & Construction",
     "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "Active chips & semiconductors ecosystem"
+      "Exodus Propulsion and the Exodus  Force aka Electrostatic Pr"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 35,
+      "news": 20,
       "hiring": 0,
-      "market": 31
+      "market": 50
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 14,
+    "trend": "rising",
+    "catalysts": [
+      "There are more AI health tools than ever\u2014but how well do the",
+      "Details of the NASA Moonbase Plans Include a Fifteen Ton Lun",
+      "Starcloud raises $170 million Series A to build data centers"
+    ],
+    "fundingQ": "$175M",
+    "components": {
+      "funding": 9,
+      "news": 45,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-03-31"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 14,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Building a hypersonic pathway to orbit with Mark Bigham",
       "State Department clears $340M FMS request for hypersonic mis"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-30"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
     "sector": "Climate & Energy",
     "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "BYD 2025 Annual Report In Context",
-      "California&#8217;s Hydrogen Infrastructure Collapse Proves W",
-      "BrightDrop Died in America, While China Made Electric Vans N"
+      "The US Is Sitting On 161 Gigawatts In Underused Wind Farm Ca",
+      "Why Molecular Solar Thermal Is Great Chemistry And Bad Energ",
+      "Altitude Partners With Empacar Bolivia &#038; Becomes First"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -224,55 +207,73 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
-    "sector": "Nuclear Energy",
-    "momentum": 6,
+    "sector": "Chips & Semiconductors",
+    "momentum": 10,
     "trend": "declining",
     "catalysts": [
-      "Pulsar Fusion Ignites Plasma in Nuclear Rocket Test",
-      "Industry says proposed NASA changes to commercial space stat"
+      "ScaleOps raises $130M to improve computing efficiency amid A",
+      "AI chip startup Rebellions raises $400 million at $2.3B valu"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 40,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
   },
   {
     "sector": "Transportation",
-    "momentum": 4,
+    "momentum": 5,
     "trend": "declining",
     "catalysts": [
+      "XPeng Serious About Robotaxis, Creates Distinct Division",
       "14 Electric Vehicles Costing Less Than $42,000, Or Much Less"
     ],
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 5,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-03-30"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 2,
-    "trend": "declining",
-    "catalysts": [
-      "SBQuantum and Spire to send quantum diamond magnetometer int"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
       "news": 10,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-30"
+    "lastUpdated": "2026-03-31"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Details of the NASA Moonbase Plans Include a Fifteen Ton Lun",
+      "Pulsar Fusion Ignites Plasma in Nuclear Rocket Test"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-03-31"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 1,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-03-31"
   }
 ]

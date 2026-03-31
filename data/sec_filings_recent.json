@@ -146,6 +146,15 @@
   {
     "company": "Rocket Lab",
     "ticker": "RKLB",
+    "form": "8-K",
+    "date": "2026-03-30",
+    "description": "g085462_8k-rocket.htm",
+    "accessionNumber": "0001753926-26-000568",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "4",
     "date": "2026-03-26",
     "description": "xslF345X06/primary_doc.xml",
@@ -285,33 +294,6 @@
     "date": "2026-01-06",
     "description": "xslF345X05/edgardoc.xml",
     "accessionNumber": "0002001011-26-000001",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2025-12-30",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-25-000134",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2025-12-30",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-25-000133",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2025-12-30",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-25-000132",
     "isIPO": false
   },
   {
@@ -623,6 +605,15 @@
   {
     "company": "Momentus",
     "ticker": "MNTS",
+    "form": "8-K",
+    "date": "2026-03-30",
+    "description": "tm2610566d1_8k.htm",
+    "accessionNumber": "0001104659-26-036821",
+    "isIPO": false
+  },
+  {
+    "company": "Momentus",
+    "ticker": "MNTS",
     "form": "4",
     "date": "2026-03-16",
     "description": "xslF345X05/tm268953-2_4seq1.xml",
@@ -708,6 +699,24 @@
     "date": "2026-01-09",
     "description": "apre-20260109x8k.htm",
     "accessionNumber": "0001104659-26-002490",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
+    "form": "10-K",
+    "date": "2026-03-30",
+    "description": "spce-20251231.htm",
+    "accessionNumber": "0001706946-26-000019",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-03-30",
+    "description": "spce-20260330.htm",
+    "accessionNumber": "0001706946-26-000017",
     "isIPO": false
   },
   {
@@ -978,6 +987,24 @@
     "date": "2026-01-05",
     "description": "xslF345X05/wk-form4_1767648007.xml",
     "accessionNumber": "0001822966-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-03-30",
+    "description": "xslF345X06/wk-form4_1774907147.xml",
+    "accessionNumber": "0001445637-26-000006",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-03-30",
+    "description": "xslF345X06/wk-form4_1774906989.xml",
+    "accessionNumber": "0002021774-26-000007",
     "isIPO": false
   },
   {
@@ -2295,15 +2322,6 @@
     "isIPO": false
   },
   {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2025-12-30",
-    "description": "xslF345X05/wk-form4_1767141308.xml",
-    "accessionNumber": "0001712276-25-000017",
-    "isIPO": false
-  },
-  {
     "company": "Ginkgo Bioworks",
     "ticker": "DNA",
     "form": "4",
@@ -2820,6 +2838,33 @@
     "company": "Aurora Innovation",
     "ticker": "AUR",
     "form": "4",
+    "date": "2026-03-30",
+    "description": "xslF345X06/wk-form4_1774906611.xml",
+    "accessionNumber": "0001828108-26-000030",
+    "isIPO": false
+  },
+  {
+    "company": "Aurora Innovation",
+    "ticker": "AUR",
+    "form": "4",
+    "date": "2026-03-30",
+    "description": "xslF345X06/wk-form4_1774906562.xml",
+    "accessionNumber": "0001828108-26-000029",
+    "isIPO": false
+  },
+  {
+    "company": "Aurora Innovation",
+    "ticker": "AUR",
+    "form": "4",
+    "date": "2026-03-30",
+    "description": "xslF345X06/wk-form4_1774906490.xml",
+    "accessionNumber": "0001828108-26-000028",
+    "isIPO": false
+  },
+  {
+    "company": "Aurora Innovation",
+    "ticker": "AUR",
+    "form": "4",
     "date": "2026-03-13",
     "description": "xslF345X05/wk-form4_1773433636.xml",
     "accessionNumber": "0001828108-26-000025",
@@ -3039,6 +3084,15 @@
     "date": "2026-01-12",
     "description": "tlsi-20260112.htm",
     "accessionNumber": "0001628280-26-001743",
+    "isIPO": false
+  },
+  {
+    "company": "Tempus AI",
+    "ticker": "TEM",
+    "form": "4",
+    "date": "2026-03-30",
+    "description": "xslF345X06/wk-form4_1774866871.xml",
+    "accessionNumber": "0001628280-26-021855",
     "isIPO": false
   },
   {

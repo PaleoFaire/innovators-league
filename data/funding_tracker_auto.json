@@ -105,17 +105,31 @@
     "roundCount": 1
   },
   {
-    "company": "Anysphere",
-    "totalRaised": "$2.3B+",
-    "totalRaisedRaw": 2300.0,
-    "lastRound": "Series D",
-    "lastRoundAmount": "$2.3B",
-    "lastRoundDate": "2025-11",
-    "valuation": "$29.3B",
+    "company": "d-Matrix",
+    "totalRaised": "$2.4B+",
+    "totalRaisedRaw": 2380.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$80M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
     "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
+    "company": "Anysphere",
+    "totalRaised": "$2.4B+",
+    "totalRaisedRaw": 2370.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$70M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
       "a16z"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Aetherflux",
@@ -290,6 +304,33 @@
     "roundCount": 2
   },
   {
+    "company": "Rebellions",
+    "totalRaised": "$840M+",
+    "totalRaisedRaw": 840.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$830M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "NEA",
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
+    "company": "Together AI",
+    "totalRaised": "$685M+",
+    "totalRaisedRaw": 685.3,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$500M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 4
+  },
+  {
     "company": "Quantinuum",
     "totalRaised": "$665M+",
     "totalRaisedRaw": 665.0,
@@ -316,19 +357,6 @@
     "roundCount": 1
   },
   {
-    "company": "Together AI",
-    "totalRaised": "$555M+",
-    "totalRaisedRaw": 555.3,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$500M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 3
-  },
-  {
     "company": "Epirus",
     "totalRaised": "$550M+",
     "totalRaisedRaw": 550.0,
@@ -338,6 +366,21 @@
     "valuation": "$1.35B",
     "leadInvestors": [],
     "roundCount": 1
+  },
+  {
+    "company": "Watershed",
+    "totalRaised": "$522M+",
+    "totalRaisedRaw": 522.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$30M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "a16z",
+      "Undisclosed",
+      "Coatue"
+    ],
+    "roundCount": 5
   },
   {
     "company": "Axiom Space",
@@ -364,20 +407,6 @@
       "Undisclosed"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Watershed",
-    "totalRaised": "$457M+",
-    "totalRaisedRaw": 457.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$30M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "a16z",
-      "Undisclosed"
-    ],
-    "roundCount": 4
   },
   {
     "company": "Helion",
@@ -457,6 +486,20 @@
       "a16z"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "Orangewood Labs",
+    "totalRaised": "$255M+",
+    "totalRaisedRaw": 255.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$35M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "a16z",
+      "Undisclosed"
+    ],
+    "roundCount": 4
   },
   {
     "company": "Endurosat",
@@ -577,6 +620,19 @@
     "roundCount": 1
   },
   {
+    "company": "Apptronik",
+    "totalRaised": "$100M+",
+    "totalRaisedRaw": 100.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$100M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Revel",
     "totalRaised": "$100M+",
     "totalRaisedRaw": 100.0,
@@ -625,20 +681,6 @@
     "roundCount": 1
   },
   {
-    "company": "Orangewood Labs",
-    "totalRaised": "$85M+",
-    "totalRaisedRaw": 85.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$35M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "a16z",
-      "Undisclosed"
-    ],
-    "roundCount": 3
-  },
-  {
     "company": "Multiply Labs",
     "totalRaised": "$85M+",
     "totalRaisedRaw": 85.0,
@@ -648,19 +690,6 @@
     "valuation": "",
     "leadInvestors": [
       "Retro Biosciences"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "d-Matrix",
-    "totalRaised": "$80M+",
-    "totalRaisedRaw": 80.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$80M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -871,19 +900,6 @@
     "valuation": "",
     "leadInvestors": [
       "Accel"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Rebellions",
-    "totalRaised": "$10M+",
-    "totalRaisedRaw": 10.0,
-    "lastRound": "SPAC",
-    "lastRoundAmount": "$10M",
-    "lastRoundDate": "2026-02",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
     ],
     "roundCount": 1
   },
