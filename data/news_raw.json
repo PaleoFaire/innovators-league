@@ -1,5 +1,64 @@
 [
   {
+    "title": "AI boat maker Saronic smashes $9 billion valuation",
+    "link": "https://www.defenseone.com/business/2026/03/ai-boat-maker-saronic-smashes-9-billion-valuation/412527/",
+    "description": "The company just closed a $1.75 billion funding round with eyes on increasing production tenfold.",
+    "pubDate": "Tue, 31 Mar 2026 15:09:20 -0400",
+    "category": "Business",
+    "source": "Defense One",
+    "feedCategory": "defense",
+    "matchedCompany": "Saronic",
+    "matchedCompanies": [
+      "Saronic"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "1h ago"
+  },
+  {
+    "title": "Quantum computers need vastly fewer resources than thought to break vital encryption",
+    "link": "https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/",
+    "description": "is coming, and it won't be as expensive as thought.]]>",
+    "pubDate": "Tue, 31 Mar 2026 18:25:33 +0000",
+    "category": "Biz & IT",
+    "source": "Ars Technica",
+    "feedCategory": "tech",
+    "matchedCompany": "Vast",
+    "matchedCompanies": [
+      "Vast",
+      "Daylight Computer"
+    ],
+    "sectors": [
+      "space",
+      "consumer"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "2h ago"
+  },
+  {
+    "title": "Holding Water Hostage",
+    "link": "https://warontherocks.com/2026/03/holding-water-hostage/",
+    "description": "Parts of the Middle East &#8212; especially around the Persian Gulf &#8212; rely on desalinated water. Worst-case scenarios for war in the region have often included attacks on desalination facilities, and the war with Iran that began on Feb. 28 has raised the potential for such a scenario. So far, ",
+    "pubDate": "Tue, 31 Mar 2026 17:30:25 +0000",
+    "category": "In Brief",
+    "source": "War on the Rocks",
+    "feedCategory": "defense",
+    "matchedCompany": "Vital Lyfe",
+    "matchedCompanies": [
+      "Vital Lyfe"
+    ],
+    "sectors": [
+      "consumer"
+    ],
+    "type": "funding",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
     "title": "Army aiming for ITEP to reach full qualification by 2028, senior leaders say",
     "link": "https://breakingdefense.com/2026/03/army-aiming-for-itep-to-reach-full-qualification-by-2028-senior-leaders-say/",
     "description": "The engine was originally scheduled to be delivered in 2022, but after years of delays due to supply chain issues triggered by the COVID-19 pandemic along with trouble with manufacturing advanced parts, delivery has still not occurred. ",
@@ -17,11 +76,11 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "3h ago"
   },
   {
-    "title": "Uber increases stake in WeRide as robotaxi partnership ramps up in Dubai",
-    "link": "https://techcrunch.com/2026/03/31/uber-increases-stake-in-weride-as-robotaxi-partnership-ramps-up-in-dubai/",
+    "title": "Uber and WeRide ramp up robotaxi operations in Dubai",
+    "link": "https://techcrunch.com/2026/03/31/uber-weride-dubai-robotaxi-partnership-equity/",
     "description": "Uber and WeRide have launched robotaxi operations without a human safety operator in Dubai as part of a broader expansion in the Middle East.",
     "pubDate": "Tue, 31 Mar 2026 16:26:26 +0000",
     "category": "Transportation",
@@ -38,28 +97,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "Just now"
-  },
-  {
-    "title": "Iran Warns US Tech Firms Could Become Targets as War Expands",
-    "link": "https://www.wired.com/story/iran-warns-us-tech-firms-could-become-targets-as-war-expands/",
-    "description": "Companies including Google, Microsoft, and Palantir were listed as targets by Iranian media as the conflict with Israel and the US spills into digital infrastructure.",
-    "pubDate": "Tue, 31 Mar 2026 16:15:07 +0000",
-    "category": "Business",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir",
-      "Photonic Inc"
-    ],
-    "sectors": [
-      "ai",
-      "quantum"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "Just now"
+    "time": "4h ago"
   },
   {
     "title": "Black-Led Climate Actions &#8212; Featuring The Solutions Project Grantees",
@@ -78,7 +116,28 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "4h ago"
+  },
+  {
+    "title": "North Korean hackers blamed for hijacking popular Axios open source project to spread malware",
+    "link": "https://techcrunch.com/2026/03/31/hacker-hijacks-axios-open-source-project-used-by-millions-to-push-malware/",
+    "description": "A hacker inserted malware in Axios, an open source web tool downloaded tens of millions of times weekly, in a widespread hack.",
+    "pubDate": "Tue, 31 Mar 2026 16:01:11 +0000",
+    "category": "Security",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Xanadu Quantum Technologies",
+    "matchedCompanies": [
+      "Xanadu Quantum Technologies",
+      "Tenstorrent"
+    ],
+    "sectors": [
+      "quantum",
+      "chips"
+    ],
+    "type": "news",
+    "impact": "medium",
+    "time": "4h ago"
   },
   {
     "title": "Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles",
@@ -103,7 +162,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "2h ago"
+    "time": "5h ago"
   },
   {
     "title": "Rivian spinoff Also will build autonomous delivery vehicles for DoorDash",
@@ -124,7 +183,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "In a Big Reversal, Zohran Mamdani Tells NYC Agencies They Can Use TikTok",
@@ -146,7 +205,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Rheinmetall teams with Boeing for German Ghost Bat offer",
@@ -171,7 +230,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "2h ago"
+    "time": "6h ago"
   },
   {
     "title": "Exclusive: Runway launches $10M fund, Builders program to support early-stage AI startups",
@@ -190,7 +249,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "New York Homeowners Can Get Paid To Invest In Battery Storage",
@@ -209,7 +268,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "The Broken System That Keeps Shipping Crews Stranded in the Strait of Hormuz",
@@ -228,7 +287,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "7h ago"
   },
   {
     "title": "Waymo starts robotaxi services at San Antonio International Airport",
@@ -249,7 +308,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "7h ago"
   },
   {
     "title": "Speechify&#8217;s Windows app uses local models for transcription and dictation",
@@ -268,7 +327,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "3h ago"
+    "time": "7h ago"
   },
   {
     "title": "The ’80s Submersible That Transformed Underwater Exploration",
@@ -289,14 +348,14 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "With its new app store, Ring bets on AI to go beyond home security",
     "link": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
     "description": "Ring's app store will allow the company to target broader use cases beyond security, like elder care or business needs.",
     "pubDate": "Tue, 31 Mar 2026 13:00:00 +0000",
-    "category": "Hardware",
+    "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "Cape",
@@ -311,7 +370,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "AI Has Flooded All the Weather Apps",
@@ -332,7 +391,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "7h ago"
   },
   {
     "title": "Sierra Club Files Request for Rehearing on ACC REST Decision",
@@ -351,7 +410,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
     "title": "The Download: AI health tools and the Pentagon’s Anthropic culture war",
@@ -375,7 +434,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "4h ago"
+    "time": "8h ago"
   },
   {
     "title": "China targets 140 launches in 2026 amid commercial space surge",
@@ -395,26 +454,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6h ago"
-  },
-  {
-    "title": "Airbnb is introducing a private car pickup service",
-    "link": "https://techcrunch.com/2026/03/31/airbnb-private-car-pick-up-service-welcome-pickups/",
-    "description": "Airbnb is partnering with transportation company Welcome Pickups to let users book a private car service during their trip.",
-    "pubDate": "Tue, 31 Mar 2026 09:00:00 +0000",
-    "category": "Apps",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Durin",
-    "matchedCompanies": [
-      "Durin"
-    ],
-    "sectors": [
-      "infrastructure"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "8h ago"
+    "time": "10h ago"
   },
   {
     "title": "Europe’s space sector faces power shift as funding grows",
@@ -438,7 +478,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "8h ago"
+    "time": "11h ago"
   },
   {
     "title": "The U.S. Military Risks Letting Contractors Define How It Sees the Battlefield",
@@ -457,7 +497,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "9h ago"
+    "time": "12h ago"
   },
   {
     "title": "The Cost of Hesitation: Why “Finishing the Mission” is Imperative in Iran",
@@ -476,7 +516,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "13h ago"
   },
   {
     "title": "Exodus Propulsion and the Exodus  Force aka Electrostatic Pressure Force",
@@ -498,7 +538,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "Second Starlink satellite suffers anomaly, generating debris",
@@ -517,29 +557,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "17h ago"
-  },
-  {
-    "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
-    "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
-    "description": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
-    "pubDate": "Mon, 30 Mar 2026 23:08:12 +0000",
-    "category": "TC",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Cape",
-    "matchedCompanies": [
-      "Cape",
-      "Percepto",
-      "ideaForge"
-    ],
-    "sectors": [
-      "climate",
-      "autonomous"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "17h ago"
+    "time": "21h ago"
   },
   {
     "title": "Rocket Lab wins German approval for Mynaric deal",
@@ -559,7 +577,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "19h ago"
+    "time": "23h ago"
   },
   {
     "title": "First set of defensive cyber kits to be delivered to CYBERCOM units",
@@ -578,7 +596,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Varda flies navigation payload, heat shield tests on sixth reentry mission",
@@ -597,7 +615,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "The US Is Sitting On 161 Gigawatts In Underused Wind Farm Capacity",
@@ -616,7 +634,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Ukraine inks defense agreements with Qatar and Saudi Arabia, with UAE to follow",
@@ -638,7 +656,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Why Molecular Solar Thermal Is Great Chemistry And Bad Energy Hype",
@@ -661,7 +679,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "ESA launches first Celeste satellites to test complementary LEO navigation layer",
@@ -1075,7 +1093,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "14 Electric Vehicles Costing Less Than $42,000, Or Much Less",
@@ -1094,7 +1112,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "California&#8217;s Hydrogen Infrastructure Collapse Proves What We&#8217;ve Known All Along",
@@ -1284,28 +1302,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "28 New Fast EV Charging Stalls Launched In San Diego",
-    "link": "https://cleantechnica.com/2026/03/27/28-new-fast-ev-charging-stalls-launched-in-san-diego/",
-    "description": "EVgo just opened a new EV fast charger hub in San Diego with 28 charging stalls. They add to the over 1,200 new chargers installed by the same company last year. EVgo is building bigger sites to serve more drivers. Our largest public site to date is now open in   ... [continued]\nThe post 28 New Fast",
-    "pubDate": "Fri, 27 Mar 2026 19:06:18 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Ample",
-    "matchedCompanies": [
-      "Ample",
-      "Revel"
-    ],
-    "sectors": [
-      "infrastructure",
-      "transportation"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Commercial Space Federation (CSF) Welcomes Two New Associate Members",
@@ -1326,7 +1323,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Norway floats additional $11.8B in defense spending through 2035, cancels drone program",
@@ -1347,7 +1344,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Judge blocks Pentagon's Anthropic ban, calling it illegal retaliation",
@@ -1366,7 +1363,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "India’s Bellatrix raises $20 million following overseas expansion drive",
@@ -1395,7 +1392,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Video Friday: Beep! Beep! Roadrunner Bipedal Bot Breaks the Mold",
@@ -1573,7 +1570,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "‘We’ll go 40%’: Army wants good-enough tech it can reshape for battle",
@@ -1677,7 +1674,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Antibiotic resistance among germs swells during droughts, study suggests",
@@ -1696,7 +1693,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "How Are Iran’s Partnerships with Belarus and Russia Holding Up During War?",
@@ -1724,7 +1721,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "What Happens When You Host an AI Café",
@@ -1895,7 +1892,7 @@
   {
     "title": "Data Centers Are Transitioning From AC to DC",
     "link": "https://spectrum.ieee.org/data-center-dc",
-    "description": "Last week’s Nvidia GTC conference highlighted new chip architectures to power AI. But as the chips become faster and more powerful, the remainder of data center infrastructure is playing catch-up. The power-delivery community  is responding: Announcements from Delta,  Eaton, and Vertiv showcased new",
+    "description": "Last week’s Nvidia GTC conference highlighted new chip architectures to power AI. But as the chips become faster and more powerful, the remainder of data center infrastructure is playing catch-up. The power-delivery community  is responding: Announcements from Delta,  Eaton, Schneider Electric, and ",
     "pubDate": "Tue, 24 Mar 2026 16:00:05 +0000",
     "category": "Data-centers",
     "source": "IEEE Spectrum",
@@ -2472,25 +2469,6 @@
     "type": "news",
     "impact": "low",
     "time": "2/19/2026"
-  },
-  {
-    "title": "OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips",
-    "link": "https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/",
-    "description": "",
-    "pubDate": "Thu, 12 Feb 2026 22:56:02 +0000",
-    "category": "AI",
-    "source": "Ars Technica",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2/12/2026"
   },
   {
     "title": "Atomically Thin Materials Significantly Shrink Qubits",
