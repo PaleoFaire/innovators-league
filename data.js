@@ -23492,23 +23492,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-31 13:49
+// Last updated: 2026-03-31 17:07
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Durin", headline: "The Broken System That Keeps Shipping Crews Stranded in the Strait of Hormuz", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Waymo", headline: "Waymo starts robotaxi services at San Antonio International Airport", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Gladia", headline: "Speechify's Windows app uses local models for transcription and dictation", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Amidon Heavy Industries", headline: "The '80s Submersible That Transformed Underwater Exploration", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Cape", headline: "With its new app store, Ring bets on AI to go beyond home security", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Atmo", headline: "AI Has Flooded All the Weather Apps", source: "Wired", time: "Just now", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Saule Technologies", headline: "Sierra Club Files Request for Rehearing on ACC REST Decision", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Anthropic", headline: "The Download: AI health tools and the Pentagon's Anthropic culture war", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Vast", headline: "China targets 140 launches in 2026 amid commercial space surge", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Durin", headline: "Airbnb is introducing a private car pick-up service", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Hadrian", headline: "Europe's space sector faces power shift as funding grows", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "PILGRIM", headline: "The U.S. Military Risks Letting Contractors Define How It Sees the Battlefield", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Durin", headline: "The Cost of Hesitation: Why 'Finishing the Mission' is Imperative in Iran", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Mach Industries", headline: "Exodus Propulsion and the Exodus  Force aka Electrostatic Pressure Force", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "Second Starlink satellite suffers anomaly, generating debris", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Bronco AI", headline: "Army aiming for ITEP to reach full qualification by 2028, senior leaders say", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Waymo", headline: "Uber increases stake in WeRide as robotaxi partnership ramps up in Dubai", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Palantir", headline: "Iran Warns US Tech Firms Could Become Targets as War Expands", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Black-Led Climate Actions &#8212; Featuring The Solutions Project Grantees", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Waymo", headline: "Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
+  { id: 6, type: "funding", company: "Nuro", headline: "Rivian spinoff Also will build autonomous delivery vehicles for DoorDash", source: "TechCrunch", time: "2h ago", impact: "medium", unread: false },
+  { id: 7, type: "news", company: "Cape", headline: "In a Big Reversal, Zohran Mamdani Tells NYC Agencies They Can Use TikTok", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Karman Industries", headline: "Rheinmetall teams with Boeing for German Ghost Bat offer", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Runway", headline: "Exclusive: Runway launches $10M fund, Builders program to support early-stage AI startups", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "Base Power", headline: "New York Homeowners Can Get Paid To Invest In Battery Storage", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Durin", headline: "The Broken System That Keeps Shipping Crews Stranded in the Strait of Hormuz", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Waymo", headline: "Waymo starts robotaxi services at San Antonio International Airport", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 13, type: "milestone", company: "Gladia", headline: "Speechify's Windows app uses local models for transcription and dictation", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Amidon Heavy Industries", headline: "The '80s Submersible That Transformed Underwater Exploration", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Cape", headline: "With its new app store, Ring bets on AI to go beyond home security", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
