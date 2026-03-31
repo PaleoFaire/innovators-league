@@ -24048,23 +24048,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-31 02:57
+// Last updated: 2026-03-31 05:46
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Mach Industries", headline: "Exodus Propulsion and the Exodus  Force aka Electrostatic Pressure Force", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Cape", headline: "Popular AI gateway startup LiteLLM ditches controversial startup Delve", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Standard Nuclear", headline: "First set of defensive cyber kits to be delivered to CYBERCOM units", source: "Breaking Defense", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "PILGRIM", headline: "What we're looking for in Startup Battlefield 2026 and how to put your best application forward", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Xtend", headline: "The US Is Sitting On 161 Gigawatts In Underused Wind Farm Capacity", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Cape", headline: "Ukraine inks defense agreements with Qatar and Saudi Arabia, with UAE to follow", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Exowatt", headline: "Why Molecular Solar Thermal Is Great Chemistry And Bad Energy Hype", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Nucleus Genomics", headline: "Don't bottleneck defense-personnel vetting with a small-business set-aside", source: "Defense One", time: "10h ago", impact: "medium", unread: false },
-  { id: 9, type: "ipo", company: "Lotus Health AI", headline: "There are more AI health tools than ever'but how well do they work?", source: "MIT Tech Review", time: "10h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Palantir", headline: "The Pentagon's culture war tactic against Anthropic has backfired", source: "MIT Tech Review", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Arbor Energy", headline: "Altitude Partners With Empacar Bolivia &#038; Becomes First Commercial Buyer To Reach +1 Million T CDRs Financed", source: "CleanTechnica", time: "11h ago", impact: "medium", unread: false },
-  { id: 12, type: "funding", company: "Apptronik", headline: "Uber is buying Berlin startup Blacklane to bolster its 'Elite' offering", source: "TechCrunch", time: "12h ago", impact: "medium", unread: false },
-  { id: 13, type: "news", company: "Waymo", headline: "XPeng Serious About Robotaxis, Creates Distinct Division", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Hugging Face", headline: "Mantis Biotech is making 'digital twins' of humans to help solve medicine's data availability problem", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Waymo", headline: "Tesla Will Soon Unleash Scaled Robotaxi", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Mach Industries", headline: "Exodus Propulsion and the Exodus  Force aka Electrostatic Pressure Force", source: "Next Big Future", time: "5h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "Second Starlink satellite suffers anomaly, generating debris", source: "SpaceNews", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Cape", headline: "Popular AI gateway startup LiteLLM ditches controversial startup Delve", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Rocket Lab", headline: "Rocket Lab wins German approval for Mynaric deal", source: "SpaceNews", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Standard Nuclear", headline: "First set of defensive cyber kits to be delivered to CYBERCOM units", source: "Breaking Defense", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "PILGRIM", headline: "What we're looking for in Startup Battlefield 2026 and how to put your best application forward", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Durin", headline: "Varda flies navigation payload, heat shield tests on sixth reentry mission", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Xtend", headline: "The US Is Sitting On 161 Gigawatts In Underused Wind Farm Capacity", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Cape", headline: "Ukraine inks defense agreements with Qatar and Saudi Arabia, with UAE to follow", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Exowatt", headline: "Why Molecular Solar Thermal Is Great Chemistry And Bad Energy Hype", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Rocket Lab", headline: "ESA launches first Celeste satellites to test complementary LEO navigation layer", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "SpaceX", headline: "SpaceX launches Transporter-16 rideshare mission", source: "SpaceNews", time: "13h ago", impact: "medium", unread: false },
+  { id: 13, type: "news", company: "Nucleus Genomics", headline: "Don't bottleneck defense-personnel vetting with a small-business set-aside", source: "Defense One", time: "13h ago", impact: "medium", unread: false },
+  { id: 14, type: "ipo", company: "Lotus Health AI", headline: "There are more AI health tools than ever'but how well do they work?", source: "MIT Tech Review", time: "13h ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "Palantir", headline: "The Pentagon's culture war tactic against Anthropic has backfired", source: "MIT Tech Review", time: "14h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
