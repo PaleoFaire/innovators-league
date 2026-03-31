@@ -23962,25 +23962,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-31 05:46
-// Auto-generated real-time signals
-// Last updated: 2026-03-31
+// Last updated: 2026-03-31 09:10
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Durin", headline: "The Cost of Hesitation: Why “Finishing the Mission” is Imperative in Iran", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Mach Industries", headline: "Exodus Propulsion and the Exodus  Force aka Electrostatic Pressure Force", source: "Next Big Future", time: "7h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Cape", headline: "Popular AI gateway startup LiteLLM ditches controversial startup Delve", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Standard Nuclear", headline: "First set of defensive cyber kits to be delivered to CYBERCOM units", source: "Breaking Defense", time: "12h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "PILGRIM", headline: "What we&#8217;re looking for in Startup Battlefield 2026 and how to put your best application forward", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Xtend", headline: "The US Is Sitting On 161 Gigawatts In Underused Wind Farm Capacity", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Cape", headline: "Ukraine inks defense agreements with Qatar and Saudi Arabia, with UAE to follow", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
-  { id: 8, type: "milestone", company: "Exowatt", headline: "Why Molecular Solar Thermal Is Great Chemistry And Bad Energy Hype", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Nucleus Genomics", headline: "Don't bottleneck defense-personnel vetting with a small-business set-aside", source: "Defense One", time: "14h ago", impact: "medium", unread: false },
-  { id: 10, type: "ipo", company: "Lotus Health AI", headline: "There are more AI health tools than ever—but how well do they work?", source: "MIT Tech Review", time: "15h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Palantir", headline: "The Pentagon’s culture war tactic against Anthropic has backfired", source: "MIT Tech Review", time: "15h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Arbor Energy", headline: "Altitude Partners With Empacar Bolivia &#038; Becomes First Commercial Buyer To Reach +1 Million T CDRs Financed", source: "CleanTechnica", time: "16h ago", impact: "medium", unread: false },
-  { id: 13, type: "funding", company: "Apptronik", headline: "Uber is buying Berlin startup Blacklane to bolster its &#8216;Elite&#8217; offering", source: "TechCrunch", time: "16h ago", impact: "medium", unread: false },
-  { id: 14, type: "news", company: "Waymo", headline: "XPeng Serious About Robotaxis, Creates Distinct Division", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Hugging Face", headline: "Mantis Biotech is making &#8216;digital twins&#8217; of humans to help solve medicine&#8217;s data availability problem", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Durin", headline: "Airbnb is introducing a private car pick-up service", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "PILGRIM", headline: "The U.S. Military Risks Letting Contractors Define How It Sees the Battlefield", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Durin", headline: "The Cost of Hesitation: Why 'Finishing the Mission' is Imperative in Iran", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Mach Industries", headline: "Exodus Propulsion and the Exodus  Force aka Electrostatic Pressure Force", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Cape", headline: "Popular AI gateway startup LiteLLM ditches controversial startup Delve", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Standard Nuclear", headline: "First set of defensive cyber kits to be delivered to CYBERCOM units", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "PILGRIM", headline: "What we're looking for in Startup Battlefield 2026 and how to put your best application forward", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Xtend", headline: "The US Is Sitting On 161 Gigawatts In Underused Wind Farm Capacity", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Cape", headline: "Ukraine inks defense agreements with Qatar and Saudi Arabia, with UAE to follow", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Exowatt", headline: "Why Molecular Solar Thermal Is Great Chemistry And Bad Energy Hype", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Nucleus Genomics", headline: "Don't bottleneck defense-personnel vetting with a small-business set-aside", source: "Defense One", time: "16h ago", impact: "medium", unread: false },
+  { id: 12, type: "ipo", company: "Lotus Health AI", headline: "There are more AI health tools than ever'but how well do they work?", source: "MIT Tech Review", time: "17h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "Palantir", headline: "The Pentagon's culture war tactic against Anthropic has backfired", source: "MIT Tech Review", time: "17h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Arbor Energy", headline: "Altitude Partners With Empacar Bolivia &#038; Becomes First Commercial Buyer To Reach +1 Million T CDRs Financed", source: "CleanTechnica", time: "17h ago", impact: "medium", unread: false },
+  { id: 15, type: "funding", company: "Apptronik", headline: "Uber is buying Berlin startup Blacklane to bolster its 'Elite' offering", source: "TechCrunch", time: "18h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
