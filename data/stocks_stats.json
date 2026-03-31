@@ -5,95 +5,100 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -14.48,
+      "avg_change": -5.62,
       "count": 1
     },
     "space": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -14.7,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -6.53,
       "count": 7
     },
     "autonomous": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -15.08,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -7.64,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.03,
+      "avg_change": -6.87,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.91,
+      "avg_change": -12.58,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -19.63,
+      "avg_change": -10.57,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.03,
+      "avg_change": -5.23,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -7.41,
+      "avg_change": -4.67,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -9.43,
+      "avg_change": -4.15,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "SATL",
-      "Satellogic",
-      0.2
-    ],
-    [
       "DRSHF",
       "DroneShield",
-      -0.99
+      8.12
     ],
     [
-      "AMD",
-      "AMD",
-      -3.28
+      "SATL",
+      "Satellogic",
+      4.83
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      2.9
     ],
     [
       "NVDA",
       "NVIDIA",
-      -5.96
+      -0.78
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -6.5
+      "AMD",
+      "AMD",
+      -1.06
     ]
   ],
   "topLosers": [
     [
-      "IONQ",
-      "IonQ",
-      -19.69
+      "PL",
+      "Planet Labs",
+      -11.56
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -20.42
+      "277810.KQ",
+      "Rainbow Robotics",
+      -13.46
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -23.61
     ],
     [
       "9348.T",
@@ -103,13 +108,8 @@
     [
       "LNZA",
       "LanzaTech",
-      -25.37
-    ],
-    [
-      "EVTL",
-      "Vertical Aerospace",
-      -42.61
+      -28.0
     ]
   ],
-  "lastUpdated": "2026-03-31 13:28:34"
+  "lastUpdated": "2026-03-31 19:07:24"
 }
