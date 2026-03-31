@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-03-30 08:14:55 UTC
-// Total signals: 44 | Companies matched: 179
+// Last updated: 2026-03-31 08:00:05 UTC
+// Total signals: 44 | Companies matched: 182
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -970,6 +970,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Strider Technologies",
+        "score": 24,
+        "matchReasons": [
+          "tag: ai",
+          "tag: osint",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Anduril Industries",
         "score": 22,
         "matchReasons": [
@@ -1000,14 +1009,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: data platform",
           "tag: ai"
         ]
-      },
-      {
-        "name": "White Stork",
-        "score": 22,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -1016,11 +1017,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Palantir",
       "Rune Technologies",
       "Scale AI",
+      "Strider Technologies",
       "Anduril Industries",
       "Zeromark",
       "Fuse Energy",
-      "Databricks",
-      "White Stork"
+      "Databricks"
     ]
   },
   {
@@ -2571,6 +2572,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Xage Security",
+        "score": 26,
+        "matchReasons": [
+          "tag: cybersecurity",
+          "tag: critical infrastructure",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Crusoe Energy",
         "score": 24,
         "matchReasons": [
@@ -2599,6 +2609,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     ],
     "relevantCompanies": [
       "Galvanick",
+      "Xage Security",
       "Crusoe Energy",
       "Percepto",
       "Together AI"
@@ -2649,6 +2660,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "xAI",
+        "score": 26,
+        "matchReasons": [
+          "tag: frontier ai",
+          "tag: llm",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Sakana AI",
         "score": 20,
         "matchReasons": [
@@ -2691,6 +2711,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Modal",
       "OpenAI",
       "Mistral AI",
+      "xAI",
       "Sakana AI",
       "Kyutai",
       "Cohere",
@@ -3252,8 +3273,20 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "sourceApi": "seed",
     "posted": "2026-01-20",
     "fetchDate": "2026-02-20",
-    "matchedCompanies": [],
-    "relevantCompanies": []
+    "matchedCompanies": [
+      {
+        "name": "Xage Security",
+        "score": 24,
+        "matchReasons": [
+          "tag: zero trust",
+          "tag: cybersecurity",
+          "techApproach overlap"
+        ]
+      }
+    ],
+    "relevantCompanies": [
+      "Xage Security"
+    ]
   },
   {
     "id": "NSA-2026-AIDEFENSE",
@@ -4261,20 +4294,19 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "White Stork": {
     "name": "White Stork",
-    "govPullScore": 61,
-    "matchCount": 5,
+    "govPullScore": 50,
+    "matchCount": 4,
     "topAgencies": [
       "DARPA",
       "Defense Innovation Unit (DIU)",
       "NSA Cybersecurity Directorate",
-      "National Science Foundation (NSF)",
-      "SOCOM"
+      "National Science Foundation (NSF)"
     ],
-    "avgRelevance": 23,
+    "avgRelevance": 24,
     "topSignals": [
       "AI-Enabled Autonomous Naval Surface Vessels",
       "General-Purpose Robotics for Military Logistics",
-      "AI-Powered Intelligence Fusion Platform"
+      "Intelligent Agricultural Robotics"
     ]
   },
   "Ursa Major Technologies": {
@@ -4761,6 +4793,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Enterprise AI/ML Data Platform",
       "AI-Powered Intelligence Fusion Platform",
       "Joint All-Domain Command and Control Integration"
+    ]
+  },
+  "Strider Technologies": {
+    "name": "Strider Technologies",
+    "govPullScore": 17,
+    "matchCount": 1,
+    "topAgencies": [
+      "SOCOM"
+    ],
+    "avgRelevance": 24,
+    "topSignals": [
+      "AI-Powered Intelligence Fusion Platform"
     ]
   },
   "Fuse Energy": {
@@ -5785,6 +5829,20 @@ const GOV_PULL_SCORES_AUTO = {
       "Post-Quantum Cryptography Migration Tools"
     ]
   },
+  "Xage Security": {
+    "name": "Xage Security",
+    "govPullScore": 23,
+    "matchCount": 2,
+    "topAgencies": [
+      "CISA / DHS",
+      "Department of Homeland Security (DHS)"
+    ],
+    "avgRelevance": 25,
+    "topSignals": [
+      "AI-Powered Cybersecurity for Critical Infrastructure",
+      "Zero Trust Architecture Implementation Tools"
+    ]
+  },
   "Crusoe Energy": {
     "name": "Crusoe Energy",
     "govPullScore": 14,
@@ -5841,6 +5899,18 @@ const GOV_PULL_SCORES_AUTO = {
       "National Science Foundation (NSF)"
     ],
     "avgRelevance": 27,
+    "topSignals": [
+      "National AI Research Institutes \u2014 Frontier AI"
+    ]
+  },
+  "xAI": {
+    "name": "xAI",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "National Science Foundation (NSF)"
+    ],
+    "avgRelevance": 26,
     "topSignals": [
       "National AI Research Institutes \u2014 Frontier AI"
     ]
@@ -6400,6 +6470,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 179,
-  "lastUpdated": "2026-03-30 08:14:55 UTC"
+  "companiesMatched": 182,
+  "lastUpdated": "2026-03-31 08:00:05 UTC"
 };

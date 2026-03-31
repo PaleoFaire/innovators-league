@@ -1,6 +1,7 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-03-30 08:16:35 UTC
+// Last updated: 2026-03-31 08:01:50 UTC
 const NASA_PROJECTS = [
+  { id: 182429, title: "Fast Neutron Spectrometer Reflight", status: "Completed", center: "Johnson Space Center", techArea: "Radiation", lastUpdated: "03/30/26" },
   { id: 184107, title: "Portable In-Field Acoustic Sensor Array", status: "Completed", center: "", techArea: "Environment Sensors", lastUpdated: "03/28/26" },
   { id: 184669, title: "DTC for Bidirectional Power Exchange", status: "Completed", center: "Johnson Space Center", techArea: "Distribution and Transmission", lastUpdated: "03/23/26" },
   { id: 184638, title: "Dirty Thermal Vacuum Test Facilities with H2/O2", status: "Active", center: "Johnson Space Center", techArea: "Environment Testing", lastUpdated: "03/23/26" },
@@ -30,5 +31,4 @@ const NASA_PROJECTS = [
   { id: 184639, title: "Neuromorphic chip for sensing, situational awareness, and decision making in rad", status: "Completed", center: "Ames Research Center", techArea: "High-Performance Processors", lastUpdated: "03/23/26" },
   { id: 184678, title: "Descent Systems Study (DSS)", status: "Completed", center: "Langley Research Center", techArea: "Propulsion Systems for Landing", lastUpdated: "03/23/26" },
   { id: 184623, title: "STRATFI-Outpost", status: "Active", center: "Ames Research Center", techArea: "Hypersonic Decelerators", lastUpdated: "03/23/26" },
-  { id: 184627, title: "Liquid Droplet Radiator for SNP – Study", status: "Completed", center: "Glenn Research Center", techArea: "Heat Rejection and Storage", lastUpdated: "03/23/26" },
 ];

@@ -1,5 +1,21 @@
 [
   {
+    "id": 182429,
+    "title": "Fast Neutron Spectrometer Reflight",
+    "description": "<p>The Fast Neutron Spectrometer (FNS), formerly known as the Advanced Neutron Spectrometer, was developed, built, and operated by Marshall Space Flight Center (MSFC). From 2016 to 2018, it conducted a technology demonstration on the International Space Station (ISS) as an intravehicular neutron environment monitor, with sustained operations until 2023. After its return to MSFC, the FNS flight unit was evaluated and found to be in good operational condition. At the conclusion of the FNS project,",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "03/30/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Radiation",
+    "partners": [
+      "Johnson Space Center",
+      "Physikalisch-Technische Bundesanstalt (PTB"
+    ],
+    "website": ""
+  },
+  {
     "id": 184107,
     "title": "Portable In-Field Acoustic Sensor Array",
     "description": "<p><strong>Project Objective</strong></p><p>The Portable In\u2011Field Acoustic Sensor Array project is focused on the development of the Real\u2011Time Display 2 (RTD2) Sentinel, a portable, standalone, time\u2011synchronized acoustic\u2011intensity measurement system designed to autonomously operate for long\u2011duration periods and capture data essential for reducing uncertainty in Space Launch System (SLS) liftoff acoustic environments.</p><p><strong>Project Description</strong></p><p>The Portable In-Field Acoustic",
@@ -1289,21 +1305,6 @@
     "technologyArea": "Navigation Sensors",
     "partners": [
       "University of California-Los Angeles"
-    ],
-    "website": ""
-  },
-  {
-    "id": 106617,
-    "title": "5G Array for Lunar Relay Operations Flight Test (FIGARO-FT)",
-    "description": "<p>The goal of the 5G Array for Lunar Relay Operations \u2013 Flight Test (FIGARO-FT) is to advance the TRL of a high-performance, low-cost candidate technology for LunaNet relay nodes that is consistent with the future LTE/ 5G architecture being planned for lunar communications. This flight test is a continuation of prior work funded through the NASA Smallsat Technology Partnership initiative (STP).\u00a0<br /><br /><strong>Problem Statement\u00a0</strong><br />5G technology stands to revolutionize terrestria",
-    "status": "Completed",
-    "startDate": "Dec 2021",
-    "endDate": "Dec 2024",
-    "lastUpdated": "02/19/26",
-    "center": "San Diego State University",
-    "technologyArea": "Innovative Antennas",
-    "partners": [
-      "San Diego State University"
     ],
     "website": ""
   }
