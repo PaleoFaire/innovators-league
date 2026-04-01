@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -5.33,
+      "avg_change": -5.45,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -10.47,
+      "avg_change": -10.92,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.89,
+      "avg_change": -6.36,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.65,
+      "avg_change": -10.1,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.52,
+      "avg_change": -14.59,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.53,
+      "avg_change": -12.04,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.01,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -1.91,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -2.17,
+      "avg_change": -2.79,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.81,
+      "avg_change": -5.86,
       "count": 3
     }
   },
@@ -61,44 +61,44 @@
     [
       "TEM",
       "Tempus AI",
-      0.92
+      -0.06
     ],
     [
-      "SLDP",
-      "Solid Power",
-      -0.49
-    ],
-    [
-      "RXRX",
-      "Recursion Pharmaceuticals",
-      -0.54
+      "TSLA",
+      "Tesla",
+      -1.37
     ],
     [
       "NVDA",
       "NVIDIA",
-      -1.47
+      -1.61
     ],
     [
-      "RIVN",
-      "Rivian",
-      -1.76
+      "DRSHF",
+      "DroneShield",
+      -1.74
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      -2.04
     ]
   ],
   "topLosers": [
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -10.16
+      "PL",
+      "Planet Labs",
+      -13.51
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -14.11
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -12.08
-    ],
-    [
-      "PL",
-      "Planet Labs",
-      -16.45
+      -15.47
     ],
     [
       "9348.T",
@@ -108,8 +108,8 @@
     [
       "LNZA",
       "LanzaTech",
-      -30.67
+      -30.01
     ]
   ],
-  "lastUpdated": "2026-04-01 13:42:52"
+  "lastUpdated": "2026-04-01 19:08:06"
 }
