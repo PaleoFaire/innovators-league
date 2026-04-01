@@ -11,13 +11,13 @@
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -6.82,
+      "avg_change": -6.56,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -6.47,
+      "avg_change": -6.06,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -5.23,
+      "avg_change": -5.05,
       "count": 3
     },
     "transportation": {
@@ -61,7 +61,7 @@
     [
       "DRSHF",
       "DroneShield",
-      8.91
+      7.72
     ],
     [
       "LUNR",
@@ -96,14 +96,14 @@
       -12.19
     ],
     [
+      "9348.T",
+      "ispace",
+      -21.55
+    ],
+    [
       "EVTL",
       "Vertical Aerospace",
       -23.26
-    ],
-    [
-      "9348.T",
-      "ispace",
-      -23.32
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -28.84
     ]
   ],
-  "lastUpdated": "2026-04-01 02:55:19"
+  "lastUpdated": "2026-04-01 07:27:24"
 }
