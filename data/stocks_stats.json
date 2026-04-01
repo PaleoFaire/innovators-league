@@ -5,37 +5,37 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -5.62,
+      "avg_change": -5.49,
       "count": 1
     },
     "space": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -6.53,
+      "avg_change": -6.82,
       "count": 7
     },
     "autonomous": {
       "gainers": 1,
       "losers": 6,
-      "avg_change": -7.64,
+      "avg_change": -6.47,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.87,
+      "avg_change": -6.72,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.58,
+      "avg_change": -12.69,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.57,
+      "avg_change": -10.42,
       "count": 3
     },
     "biotech": {
@@ -47,13 +47,13 @@
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.67,
+      "avg_change": -4.73,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -4.15,
+      "avg_change": -3.8,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "DRSHF",
       "DroneShield",
-      8.12
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      4.83
+      8.91
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      2.9
+      3.57
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      1.12
     ],
     [
       "NVDA",
       "NVIDIA",
-      -0.78
+      -0.46
     ],
     [
       "AMD",
       "AMD",
-      -1.06
+      -0.94
     ]
   ],
   "topLosers": [
     [
-      "PL",
-      "Planet Labs",
-      -11.56
+      "IONQ",
+      "IonQ",
+      -11.83
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -13.46
+      "PL",
+      "Planet Labs",
+      -12.19
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -23.61
+      -23.26
     ],
     [
       "9348.T",
       "ispace",
-      -24.61
+      -23.32
     ],
     [
       "LNZA",
       "LanzaTech",
-      -28.0
+      -28.84
     ]
   ],
-  "lastUpdated": "2026-03-31 19:07:24"
+  "lastUpdated": "2026-04-01 02:55:19"
 }
