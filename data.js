@@ -23535,23 +23535,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-01 13:53
+// Last updated: 2026-04-01 17:04
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Harbinger", headline: "German Truckers To Face Over '1,200 A Month In Additional Diesel Costs", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Together AI", headline: "What You Need to Know About Building an Outdoor Sauna (2026)", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "Hadrian", headline: "The Florida Model'for Sustainable Aerospace Growth", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Nucleus Genomics", headline: "Watching a 7.5-Hour Movie in Theaters Made Me More Hopeful About Our Collective Brain Rot", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Galvanick", headline: "Cybersecurity Firm TAC Security Hits 10,000 Clients, Enters Top 5 in Global VM &#038; AppSec", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Crusoe Energy", headline: "Heat Radiators for AI Data Centers in Space Will Be a Huge Advantage and Not a Huge Problem", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Cape", headline: "China's AI Is Spreading Fast. Here's How to Stop the Security Risks", source: "War on the Rocks", time: "5h ago", impact: "medium", unread: false },
-  { id: 8, type: "ipo", company: "Astroscale", headline: "Chinese startup tests flexible robotic arm in space for on-orbit servicing", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Swarm Aero", headline: "The Most Important Deterrent That NATO Needs Is Creativity", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Karman Industries", headline: "The Arsenal as the Battlefield: The War on Iran and the Return of Counter-Industrial Targeting", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "Waymo Visits Japan", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Cape", headline: "Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Waymo", headline: "Robotaxi Outage in China Leaves Passengers Stranded on Highways", source: "Wired", time: "12h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Dawn Aerospace", headline: "Virgin Galactic expects commercial suborbital flights to resume late this year", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Galvanick", headline: "Toyota's Woven Capital appoints new CIO and COO in push for finding the 'future of mobility'", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Palantir", headline: "WhatsApp notifies hundreds of users who installed a fake app that was actually government spyware", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX files confidentially for IPO in mega listing potentially valued at $1.75 trillion, report says", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 3, type: "funding", company: "Hadrian", headline: "Aspect Aerospace secures early funding to advance swarm-deployable VLEO satellites", source: "SpaceNews", time: "2h ago", impact: "medium", unread: true },
+  { id: 4, type: "ipo", company: "Together AI", headline: "Less than a month: StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Harbinger", headline: "German Truckers To Face Over '1,200 A Month In Additional Diesel Costs", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Together AI", headline: "What You Need to Know About Building an Outdoor Sauna (2026)", source: "Wired", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Hadrian", headline: "The Florida Model'for Sustainable Aerospace Growth", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Nucleus Genomics", headline: "I Watched a 7.5-Hour Movie in Theaters to Confront My Dwindling Attention Span", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Cape", headline: "China's AI Is Spreading Fast. Here's How to Stop the Security Risks", source: "War on the Rocks", time: "9h ago", impact: "medium", unread: false },
+  { id: 10, type: "ipo", company: "Astroscale", headline: "Chinese startup tests flexible robotic arm in space for on-orbit servicing", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Swarm Aero", headline: "The Most Important Deterrent That NATO Needs Is Creativity", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Karman Industries", headline: "The Arsenal as the Battlefield: The War on Iran and the Return of Counter-Industrial Targeting", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Waymo", headline: "Waymo Visits Japan", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Cape", headline: "Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Robotaxi Outage in China Leaves Passengers Stranded on Highways", source: "Wired", time: "15h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
