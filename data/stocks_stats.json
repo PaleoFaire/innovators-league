@@ -5,95 +5,100 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -5.49,
+      "avg_change": -5.33,
       "count": 1
     },
     "space": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -6.56,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -10.47,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -6.06,
+      "gainers": 0,
+      "losers": 7,
+      "avg_change": -5.89,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.72,
+      "avg_change": -5.65,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.69,
+      "avg_change": -12.52,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.42,
+      "avg_change": -7.53,
       "count": 3
     },
     "biotech": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -5.05,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.01,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -4.73,
+      "avg_change": -2.17,
       "count": 2
     },
     "chips": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -3.8,
+      "avg_change": -4.81,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "DRSHF",
-      "DroneShield",
-      7.72
+      "TEM",
+      "Tempus AI",
+      0.92
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      3.57
+      "SLDP",
+      "Solid Power",
+      -0.49
     ],
     [
-      "SATL",
-      "Satellogic",
-      1.12
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -0.54
     ],
     [
       "NVDA",
       "NVIDIA",
-      -0.46
+      -1.47
     ],
     [
-      "AMD",
-      "AMD",
-      -0.94
+      "RIVN",
+      "Rivian",
+      -1.76
     ]
   ],
   "topLosers": [
     [
-      "IONQ",
-      "IonQ",
-      -11.83
+      "ASTS",
+      "AST SpaceMobile",
+      -10.16
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -12.08
     ],
     [
       "PL",
       "Planet Labs",
-      -12.19
+      -16.45
     ],
     [
       "9348.T",
@@ -101,15 +106,10 @@
       -21.55
     ],
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -23.26
-    ],
-    [
       "LNZA",
       "LanzaTech",
-      -28.84
+      -30.67
     ]
   ],
-  "lastUpdated": "2026-04-01 07:27:24"
+  "lastUpdated": "2026-04-01 13:42:52"
 }
