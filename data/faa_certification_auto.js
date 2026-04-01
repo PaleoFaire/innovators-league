@@ -1,4 +1,4 @@
-// Auto-generated 2026-03-31 07:59
+// Auto-generated 2026-04-01 08:07
 const FAA_CERTIFICATION_AUTO = [
   {
     "company": "Skydio",
@@ -34,7 +34,7 @@ const FAA_CERTIFICATION_AUTO = [
     "nextMilestone": "N/A",
     "nextMilestoneDate": "N/A",
     "note": "",
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "company": "SpaceX",
@@ -85,7 +85,7 @@ const FAA_CERTIFICATION_AUTO = [
     "nextMilestone": "Operational Cargo Flights",
     "nextMilestoneDate": "2025-06-01",
     "note": "",
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "company": "Zipline",
@@ -126,7 +126,7 @@ const FAA_CERTIFICATION_AUTO = [
     "nextMilestone": "Urban Delivery Operations",
     "nextMilestoneDate": "2026-01-01",
     "note": "",
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "company": "Joby Aviation",
@@ -177,7 +177,7 @@ const FAA_CERTIFICATION_AUTO = [
     "nextMilestone": "Type Certificate Expected",
     "nextMilestoneDate": "2026-01-01",
     "note": "",
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "company": "Archer Aviation",
@@ -223,7 +223,7 @@ const FAA_CERTIFICATION_AUTO = [
     "nextMilestone": "Type Certificate Expected",
     "nextMilestoneDate": "2025-12-01",
     "note": "",
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "company": "Wisk Aero",
@@ -259,7 +259,7 @@ const FAA_CERTIFICATION_AUTO = [
     "nextMilestone": "Type Certificate (Autonomous)",
     "nextMilestoneDate": "2027-01-01",
     "note": "Boeing-backed. First fully autonomous air taxi seeking FAA TC.",
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "company": "Rocket Lab",
@@ -300,7 +300,7 @@ const FAA_CERTIFICATION_AUTO = [
     "nextMilestone": "Neutron FAA Launch License Application",
     "nextMilestoneDate": "2025-12-01",
     "note": "",
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "company": "Relativity Space",
@@ -341,7 +341,7 @@ const FAA_CERTIFICATION_AUTO = [
     "nextMilestone": "FAA Environmental Review",
     "nextMilestoneDate": "2026-01-01",
     "note": "",
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "company": "Hermeus",
@@ -382,7 +382,7 @@ const FAA_CERTIFICATION_AUTO = [
     "nextMilestone": "Darkhorse Piloted Prototype",
     "nextMilestoneDate": "2028-01-01",
     "note": "USAF contract for Presidential & Executive Airlift rapid transport.",
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "company": "Lilium",
@@ -423,6 +423,6 @@ const FAA_CERTIFICATION_AUTO = [
     "nextMilestone": "EASA Type Certificate",
     "nextMilestoneDate": "2027-01-01",
     "note": "",
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   }
 ];

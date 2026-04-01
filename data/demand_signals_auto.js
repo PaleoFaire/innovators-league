@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-03-31 08:00:05 UTC
-// Total signals: 44 | Companies matched: 182
+// Last updated: 2026-04-01 08:07:33 UTC
+// Total signals: 44 | Companies matched: 178
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -336,15 +336,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Fiber Dynamics",
-        "score": 24,
-        "matchReasons": [
-          "tag: aerospace",
-          "tag: defense",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Emelody",
         "score": 24,
         "matchReasons": [
@@ -377,6 +368,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: defense",
           "tag: space"
         ]
+      },
+      {
+        "name": "Viridian Space",
+        "score": 22,
+        "matchReasons": [
+          "tag: air-breathing",
+          "tag: defense"
+        ]
       }
     ],
     "relevantCompanies": [
@@ -385,11 +384,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Mach Industries",
       "Hermeus",
       "Hadrian",
-      "Fiber Dynamics",
       "Emelody",
       "VulcanForms",
       "Anduril Industries",
-      "Antares"
+      "Antares",
+      "Viridian Space"
     ]
   },
   {
@@ -1046,13 +1045,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "Ada",
-        "score": 42,
-        "matchReasons": [
-          "name: Ada"
-        ]
-      },
-      {
         "name": "Distributed Spectrum",
         "score": 40,
         "matchReasons": [
@@ -1129,10 +1121,17 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: defense",
           "cluster: defense-ew-rf-cyber"
         ]
+      },
+      {
+        "name": "Kela",
+        "score": 22,
+        "matchReasons": [
+          "tag: defense",
+          "cluster: defense-ew-rf-cyber"
+        ]
       }
     ],
     "relevantCompanies": [
-      "Ada",
       "Distributed Spectrum",
       "CX2 Industries",
       "Tenna Systems",
@@ -1141,7 +1140,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Anduril Industries",
       "Palantir",
       "Scale AI",
-      "Theseus"
+      "Theseus",
+      "Kela"
     ]
   },
   {
@@ -1324,14 +1324,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "goTenna",
-        "score": 22,
-        "matchReasons": [
-          "tag: communication",
-          "tag: defense"
-        ]
-      },
-      {
         "name": "Apex Space",
         "score": 16,
         "matchReasons": [
@@ -1361,7 +1353,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Antares",
       "Forterra",
       "Picogrid",
-      "goTenna",
       "Apex Space",
       "Array Labs",
       "Endurosat"
@@ -1538,15 +1529,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "goTenna",
-        "score": 24,
-        "matchReasons": [
-          "tag: mesh networking",
-          "tag: defense",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Endurosat",
         "score": 24,
         "matchReasons": [
@@ -1578,6 +1560,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: satellites",
           "tag: space"
         ]
+      },
+      {
+        "name": "Albedo",
+        "score": 16,
+        "matchReasons": [
+          "tag: space",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
@@ -1586,11 +1576,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Antares",
       "Aalyria",
       "Kela",
-      "goTenna",
       "Endurosat",
       "Reflect Orbital",
       "Viridian Space",
-      "SpaceX"
+      "SpaceX",
+      "Albedo"
     ]
   },
   {
@@ -2660,15 +2650,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "xAI",
-        "score": 26,
-        "matchReasons": [
-          "tag: frontier ai",
-          "tag: llm",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Sakana AI",
         "score": 20,
         "matchReasons": [
@@ -2711,7 +2692,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Modal",
       "OpenAI",
       "Mistral AI",
-      "xAI",
       "Sakana AI",
       "Kyutai",
       "Cohere",
@@ -3428,16 +3408,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
-        "name": "goTenna",
-        "score": 34,
-        "matchReasons": [
-          "tag: mesh networking",
-          "tag: communication",
-          "tag: defense",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Aalyria",
         "score": 28,
         "matchReasons": [
@@ -3456,7 +3426,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       }
     ],
     "relevantCompanies": [
-      "goTenna",
       "Aalyria",
       "Shield AI"
     ]
@@ -3489,13 +3458,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "name: Dexterity",
           "tag: manipulation",
           "techApproach overlap"
-        ]
-      },
-      {
-        "name": "Ada",
-        "score": 40,
-        "matchReasons": [
-          "name: Ada"
         ]
       },
       {
@@ -3557,6 +3519,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Seneca",
+        "score": 20,
+        "matchReasons": [
+          "tag: ai",
+          "tag: robotics"
+        ]
+      },
+      {
         "name": "Field AI",
         "score": 16,
         "matchReasons": [
@@ -3567,7 +3537,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     ],
     "relevantCompanies": [
       "Dexterity",
-      "Ada",
       "Sanctuary AI",
       "Gecko Robotics",
       "DIRAC",
@@ -3575,6 +3544,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Physical Intelligence",
       "AMP Robotics",
       "Skild AI",
+      "Seneca",
       "Field AI"
     ]
   },
@@ -3754,15 +3724,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Farm-ng",
-        "score": 24,
-        "matchReasons": [
-          "tag: agricultural robotics",
-          "tag: autonomous",
-          "techApproach overlap"
-        ]
-      },
-      {
         "name": "Applied Intuition",
         "score": 22,
         "matchReasons": [
@@ -3795,6 +3756,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Seneca",
+        "score": 22,
+        "matchReasons": [
+          "tag: ai",
+          "tag: robotics"
+        ]
+      },
+      {
         "name": "White Stork",
         "score": 21,
         "matchReasons": [
@@ -3815,11 +3784,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Verdant Robotics",
       "AMP Robotics",
       "Carbon Robotics",
-      "Farm-ng",
       "Applied Intuition",
       "Mujin",
       "Vayu Robotics",
       "Cohesive Robotics",
+      "Seneca",
       "White Stork",
       "Physical Intelligence"
     ]
@@ -4373,18 +4342,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Next-Generation Hypersonic Propulsion Systems"
     ]
   },
-  "Fiber Dynamics": {
-    "name": "Fiber Dynamics",
-    "govPullScore": 17,
-    "matchCount": 1,
-    "topAgencies": [
-      "AFWERX / Air Force"
-    ],
-    "avgRelevance": 24,
-    "topSignals": [
-      "Next-Generation Hypersonic Propulsion Systems"
-    ]
-  },
   "Emelody": {
     "name": "Emelody",
     "govPullScore": 17,
@@ -4425,6 +4382,20 @@ const GOV_PULL_SCORES_AUTO = {
       "Advanced HALEU Fuel Fabrication Capabilities",
       "Fission Power Systems for Lunar Surface Operations",
       "Next-Generation Earth Observation Capabilities"
+    ]
+  },
+  "Viridian Space": {
+    "name": "Viridian Space",
+    "govPullScore": 30,
+    "matchCount": 2,
+    "topAgencies": [
+      "AFWERX / Air Force",
+      "Space Development Agency (SDA)"
+    ],
+    "avgRelevance": 22,
+    "topSignals": [
+      "Next-Generation Hypersonic Propulsion Systems",
+      "Missile Tracking Layer Satellites"
     ]
   },
   "Epirus": {
@@ -4835,20 +4806,6 @@ const GOV_PULL_SCORES_AUTO = {
       "AI-Powered Intelligence Fusion Platform"
     ]
   },
-  "Ada": {
-    "name": "Ada",
-    "govPullScore": 29,
-    "matchCount": 2,
-    "topAgencies": [
-      "DARPA",
-      "Department of Defense"
-    ],
-    "avgRelevance": 41,
-    "topSignals": [
-      "Cognitive Electronic Warfare Systems",
-      "Dexterous Manipulation for Unstructured Environments"
-    ]
-  },
   "Distributed Spectrum": {
     "name": "Distributed Spectrum",
     "govPullScore": 26,
@@ -4901,6 +4858,23 @@ const GOV_PULL_SCORES_AUTO = {
       "Cognitive Electronic Warfare Systems"
     ]
   },
+  "Kela": {
+    "name": "Kela",
+    "govPullScore": 51,
+    "matchCount": 4,
+    "topAgencies": [
+      "DARPA",
+      "Department of Defense",
+      "Space Development Agency (SDA)",
+      "U.S. Space Force"
+    ],
+    "avgRelevance": 24,
+    "topSignals": [
+      "Joint All-Domain Command and Control Integration",
+      "Resilient Proliferated LEO Communications",
+      "Missile Tracking Layer Satellites"
+    ]
+  },
   "True Anomaly": {
     "name": "True Anomaly",
     "govPullScore": 30,
@@ -4912,22 +4886,6 @@ const GOV_PULL_SCORES_AUTO = {
     "avgRelevance": 26,
     "topSignals": [
       "Joint All-Domain Command and Control Integration",
-      "Missile Tracking Layer Satellites"
-    ]
-  },
-  "Kela": {
-    "name": "Kela",
-    "govPullScore": 43,
-    "matchCount": 3,
-    "topAgencies": [
-      "DARPA",
-      "Space Development Agency (SDA)",
-      "U.S. Space Force"
-    ],
-    "avgRelevance": 25,
-    "topSignals": [
-      "Joint All-Domain Command and Control Integration",
-      "Resilient Proliferated LEO Communications",
       "Missile Tracking Layer Satellites"
     ]
   },
@@ -4959,22 +4917,6 @@ const GOV_PULL_SCORES_AUTO = {
     "topSignals": [
       "Enterprise AI/ML Data Platform",
       "Joint All-Domain Command and Control Integration"
-    ]
-  },
-  "goTenna": {
-    "name": "goTenna",
-    "govPullScore": 41,
-    "matchCount": 3,
-    "topAgencies": [
-      "Department of Defense",
-      "Space Development Agency (SDA)",
-      "U.S. Space Force"
-    ],
-    "avgRelevance": 27,
-    "topSignals": [
-      "Secure Communications for Contested Environments",
-      "Missile Tracking Layer Satellites",
-      "Resilient Proliferated LEO Communications"
     ]
   },
   "Apex Space": {
@@ -5095,18 +5037,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Missile Tracking Layer Satellites"
     ]
   },
-  "Viridian Space": {
-    "name": "Viridian Space",
-    "govPullScore": 18,
-    "matchCount": 1,
-    "topAgencies": [
-      "Space Development Agency (SDA)"
-    ],
-    "avgRelevance": 22,
-    "topSignals": [
-      "Missile Tracking Layer Satellites"
-    ]
-  },
   "SpaceX": {
     "name": "SpaceX",
     "govPullScore": 18,
@@ -5116,6 +5046,20 @@ const GOV_PULL_SCORES_AUTO = {
     ],
     "avgRelevance": 20,
     "topSignals": [
+      "Missile Tracking Layer Satellites"
+    ]
+  },
+  "Albedo": {
+    "name": "Albedo",
+    "govPullScore": 31,
+    "matchCount": 2,
+    "topAgencies": [
+      "National Reconnaissance Office (NRO)",
+      "Space Development Agency (SDA)"
+    ],
+    "avgRelevance": 21,
+    "topSignals": [
+      "Next-Generation Earth Observation Capabilities",
       "Missile Tracking Layer Satellites"
     ]
   },
@@ -5163,18 +5107,6 @@ const GOV_PULL_SCORES_AUTO = {
       "National Reconnaissance Office (NRO)"
     ],
     "avgRelevance": 30,
-    "topSignals": [
-      "Next-Generation Earth Observation Capabilities"
-    ]
-  },
-  "Albedo": {
-    "name": "Albedo",
-    "govPullScore": 20,
-    "matchCount": 1,
-    "topAgencies": [
-      "National Reconnaissance Office (NRO)"
-    ],
-    "avgRelevance": 26,
     "topSignals": [
       "Next-Generation Earth Observation Capabilities"
     ]
@@ -5903,18 +5835,6 @@ const GOV_PULL_SCORES_AUTO = {
       "National AI Research Institutes \u2014 Frontier AI"
     ]
   },
-  "xAI": {
-    "name": "xAI",
-    "govPullScore": 18,
-    "matchCount": 1,
-    "topAgencies": [
-      "National Science Foundation (NSF)"
-    ],
-    "avgRelevance": 26,
-    "topSignals": [
-      "National AI Research Institutes \u2014 Frontier AI"
-    ]
-  },
   "Sakana AI": {
     "name": "Sakana AI",
     "govPullScore": 16,
@@ -6283,6 +6203,20 @@ const GOV_PULL_SCORES_AUTO = {
       "Dexterous Manipulation for Unstructured Environments"
     ]
   },
+  "Seneca": {
+    "name": "Seneca",
+    "govPullScore": 25,
+    "matchCount": 2,
+    "topAgencies": [
+      "DARPA",
+      "National Science Foundation (NSF)"
+    ],
+    "avgRelevance": 21,
+    "topSignals": [
+      "Intelligent Agricultural Robotics",
+      "Dexterous Manipulation for Unstructured Environments"
+    ]
+  },
   "Field AI": {
     "name": "Field AI",
     "govPullScore": 15,
@@ -6321,18 +6255,6 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Carbon Robotics": {
     "name": "Carbon Robotics",
-    "govPullScore": 15,
-    "matchCount": 1,
-    "topAgencies": [
-      "National Science Foundation (NSF)"
-    ],
-    "avgRelevance": 24,
-    "topSignals": [
-      "Intelligent Agricultural Robotics"
-    ]
-  },
-  "Farm-ng": {
-    "name": "Farm-ng",
     "govPullScore": 15,
     "matchCount": 1,
     "topAgencies": [
@@ -6470,6 +6392,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 182,
-  "lastUpdated": "2026-03-31 08:00:05 UTC"
+  "companiesMatched": 178,
+  "lastUpdated": "2026-04-01 08:07:33 UTC"
 };

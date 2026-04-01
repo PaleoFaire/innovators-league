@@ -1,13 +1,13 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-03-31 08:01:50 UTC
+// Last updated: 2026-04-01 08:09:03 UTC
 const NASA_PROJECTS = [
   { id: 182429, title: "Fast Neutron Spectrometer Reflight", status: "Completed", center: "Johnson Space Center", techArea: "Radiation", lastUpdated: "03/30/26" },
   { id: 184107, title: "Portable In-Field Acoustic Sensor Array", status: "Completed", center: "", techArea: "Environment Sensors", lastUpdated: "03/28/26" },
   { id: 184669, title: "DTC for Bidirectional Power Exchange", status: "Completed", center: "Johnson Space Center", techArea: "Distribution and Transmission", lastUpdated: "03/23/26" },
   { id: 184638, title: "Dirty Thermal Vacuum Test Facilities with H2/O2", status: "Active", center: "Johnson Space Center", techArea: "Environment Testing", lastUpdated: "03/23/26" },
   { id: 183899, title: "Engine Ground Test Development", status: "Completed", center: "", techArea: "", lastUpdated: "03/23/26" },
-  { id: 184616, title: "LSI Construction Site Prep Study", status: "Active", center: "Glenn Research Center", techArea: "Surface Construction and Assembly", lastUpdated: "03/23/26" },
-  { id: 184609, title: "Lunar Dynamic Power Conversion Study", status: "Active", center: "Glenn Research Center", techArea: "Dynamic Energy Conversion", lastUpdated: "03/23/26" },
+  { id: 184616, title: "LSI Construction Site Prep Study", status: "Completed", center: "Glenn Research Center", techArea: "Surface Construction and Assembly", lastUpdated: "03/23/26" },
+  { id: 184609, title: "Lunar Dynamic Power Conversion Study", status: "Completed", center: "Glenn Research Center", techArea: "Dynamic Energy Conversion", lastUpdated: "03/23/26" },
   { id: 184649, title: "Space Recycling and Manufacturing", status: "Active", center: "Marshall Space Flight Center", techArea: "Materials", lastUpdated: "03/23/26" },
   { id: 184641, title: "Integration of Dust Resisting Secondary Emission Engineered Passive Thermal Cont", status: "Completed", center: "Goddard Space Flight Center", techArea: "Coatings", lastUpdated: "03/23/26" },
   { id: 184648, title: "Automated Additive Manufacturing Inspection, Detection, and Repair for Space Str", status: "Active", center: "Langley Research Center", techArea: "Manufacturing Processes", lastUpdated: "03/23/26" },
@@ -26,7 +26,7 @@ const NASA_PROJECTS = [
   { id: 184677, title: "10kW VSAT Study", status: "Completed", center: "Langley Research Center", techArea: "Photovoltaic Electrical Power", lastUpdated: "03/23/26" },
   { id: 184647, title: "Surface Power Model", status: "Active", center: "Glenn Research Center", techArea: "Management and Control", lastUpdated: "03/23/26" },
   { id: 184666, title: "TULIPS 10kW System", status: "Active", center: "Jet Propulsion Laboratory", techArea: "Distribution and Transmission", lastUpdated: "03/23/26" },
-  { id: 184610, title: "Robotic Capability Study", status: "Active", center: "Johnson Space Center", techArea: "Dexterous Manipulation", lastUpdated: "03/23/26" },
+  { id: 184610, title: "Robotic Capability Study", status: "Completed", center: "Johnson Space Center", techArea: "Dexterous Manipulation", lastUpdated: "03/23/26" },
   { id: 184640, title: "Lunar Night Survival and Long-Range Communications for Distributed Robotics Asse", status: "Active", center: "Ames Research Center", techArea: "Surface Mobility", lastUpdated: "03/23/26" },
   { id: 184639, title: "Neuromorphic chip for sensing, situational awareness, and decision making in rad", status: "Completed", center: "Ames Research Center", techArea: "High-Performance Processors", lastUpdated: "03/23/26" },
   { id: 184678, title: "Descent Systems Study (DSS)", status: "Completed", center: "Langley Research Center", techArea: "Propulsion Systems for Landing", lastUpdated: "03/23/26" },
