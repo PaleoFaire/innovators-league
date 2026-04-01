@@ -23492,23 +23492,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-03-31 20:51
+// Last updated: 2026-04-01 03:29
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Saronic", headline: "AI boat maker Saronic smashes $9 billion valuation", source: "Defense One", time: "1h ago", impact: "high", unread: true },
-  { id: 2, type: "news", company: "Vast", headline: "Quantum computers need vastly fewer resources than thought to break vital encryption", source: "Ars Technica", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Vital Lyfe", headline: "Holding Water Hostage", source: "War on the Rocks", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Bronco AI", headline: "Army aiming for ITEP to reach full qualification by 2028, senior leaders say", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Waymo", headline: "Uber and WeRide ramp up robotaxi operations in Dubai", source: "TechCrunch", time: "4h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Black-Led Climate Actions &#8212; Featuring The Solutions Project Grantees", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Xanadu Quantum Technologies", headline: "North Korean hackers blamed for hijacking popular Axios open source project to spread malware", source: "TechCrunch", time: "4h ago", impact: "medium", unread: false },
-  { id: 8, type: "funding", company: "Waymo", headline: "Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles", source: "TechCrunch", time: "5h ago", impact: "medium", unread: false },
-  { id: 9, type: "funding", company: "Nuro", headline: "Rivian spinoff Also will build autonomous delivery vehicles for DoorDash", source: "TechCrunch", time: "6h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Cape", headline: "In a Big Reversal, Zohran Mamdani Tells NYC Agencies They Can Use TikTok", source: "Wired", time: "6h ago", impact: "low", unread: false },
-  { id: 11, type: "contract", company: "Karman Industries", headline: "Rheinmetall teams with Boeing for German Ghost Bat offer", source: "Breaking Defense", time: "6h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Runway", headline: "Exclusive: Runway launches $10M fund, Builders program to support early-stage AI startups", source: "TechCrunch", time: "6h ago", impact: "medium", unread: false },
-  { id: 13, type: "news", company: "Base Power", headline: "New York Homeowners Can Get Paid To Invest In Battery Storage", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Durin", headline: "The Broken System That Keeps Shipping Crews Stranded in the Strait of Hormuz", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Waymo", headline: "Waymo starts robotaxi services at San Antonio International Airport", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Cape", headline: "Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Waymo", headline: "Robotaxi Outage in China Leaves Passengers Stranded on Highways", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Dawn Aerospace", headline: "Virgin Galactic expects commercial suborbital flights to resume late this year", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Galvanick", headline: "Toyota's Woven Capital appoints new CIO and COO in push for finding the 'future of mobility'", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic is having a month", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "PILGRIM", headline: "'Not good news': Iran's damage to US radar plane harms military's battlefield awareness", source: "Defense One", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Alpha School", headline: "Win Yourself A Rivian!", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Waymo", headline: "Robotaxi companies refuse to say how often their AVs need remote help", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Photonic Inc", headline: "Iran Threatens to Start Attacking Major US Tech Firms on April 1", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "OpenAI", headline: "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise", source: "TechCrunch", time: "6h ago", impact: "high", unread: false },
+  { id: 11, type: "funding", company: "Orangewood Labs", headline: "It's not your imagination: AI seed startups are commanding higher valuations", source: "TechCrunch", time: "6h ago", impact: "medium", unread: false },
+  { id: 12, type: "funding", company: "Saronic", headline: "AI boat maker Saronic smashes $9 billion valuation", source: "Defense One", time: "8h ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Vast", headline: "Quantum computers need vastly fewer resources than thought to break vital encryption", source: "Ars Technica", time: "9h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Vital Lyfe", headline: "Holding Water Hostage", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Bronco AI", headline: "Army aiming for ITEP to reach full qualification by 2028, senior leaders say", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
