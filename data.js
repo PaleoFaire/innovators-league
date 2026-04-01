@@ -23535,23 +23535,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-01 17:04
+// Last updated: 2026-04-01 20:54
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Palantir", headline: "WhatsApp notifies hundreds of users who installed a fake app that was actually government spyware", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX files confidentially for IPO in mega listing potentially valued at $1.75 trillion, report says", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 3, type: "funding", company: "Hadrian", headline: "Aspect Aerospace secures early funding to advance swarm-deployable VLEO satellites", source: "SpaceNews", time: "2h ago", impact: "medium", unread: true },
-  { id: 4, type: "ipo", company: "Together AI", headline: "Less than a month: StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Harbinger", headline: "German Truckers To Face Over '1,200 A Month In Additional Diesel Costs", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Together AI", headline: "What You Need to Know About Building an Outdoor Sauna (2026)", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "hire", company: "Hadrian", headline: "The Florida Model'for Sustainable Aerospace Growth", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Nucleus Genomics", headline: "I Watched a 7.5-Hour Movie in Theaters to Confront My Dwindling Attention Span", source: "Wired", time: "6h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Cape", headline: "China's AI Is Spreading Fast. Here's How to Stop the Security Risks", source: "War on the Rocks", time: "9h ago", impact: "medium", unread: false },
-  { id: 10, type: "ipo", company: "Astroscale", headline: "Chinese startup tests flexible robotic arm in space for on-orbit servicing", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Swarm Aero", headline: "The Most Important Deterrent That NATO Needs Is Creativity", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Karman Industries", headline: "The Arsenal as the Battlefield: The War on Iran and the Return of Counter-Industrial Targeting", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Waymo", headline: "Waymo Visits Japan", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Cape", headline: "Mercor says it was hit by cyberattack tied to compromise of open-source LiteLLM project", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Waymo", headline: "Robotaxi Outage in China Leaves Passengers Stranded on Highways", source: "Wired", time: "15h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Waymo", headline: "Startup funding shatters all records in Q1", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "SpaceX quietly files for big bang IPO", source: "SpaceNews", time: "Just now", impact: "high", unread: true },
+  { id: 3, type: "ipo", company: "Elodin", headline: "Industry bullish on DoC draft license process for novel space activities", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Cape", headline: "Apple releases security fix for older iPhones and iPads to protect against DarkSword attacks", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Kepler Communications", headline: "Iranian strikes target the infrastructure behind US airpower", source: "Defense News", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Astera Labs", headline: "Meta's natural gas binge could power South Dakota", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Runway", headline: "'Thank You for Generating With Us!' Hollywood's AI Acolytes Stay on the Hype Train", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Xtend", headline: "Switzerland considers 'complete termination' of US Patriot order, vows to extend payment freeze", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Aepnus Technology", headline: "From Theory to Reality: Evaluating the U.S.-Ukrainian Minerals Deal", source: "War on the Rocks", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Hadrian", headline: "Teledyne forms dedicated space unit to capture rising demand", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Palantir", headline: "WhatsApp notifies hundreds of users who installed a fake app made by government spyware maker", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX files confidentially for IPO in mega listing potentially valued at $1.75 trillion, report says", source: "TechCrunch", time: "5h ago", impact: "high", unread: false },
+  { id: 13, type: "funding", company: "Hadrian", headline: "Aspect Aerospace secures early funding to advance swarm-deployable VLEO satellites", source: "SpaceNews", time: "6h ago", impact: "medium", unread: false },
+  { id: 14, type: "ipo", company: "Together AI", headline: "Less than a month: StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Harbinger", headline: "German Truckers To Face Over '1,200 A Month In Additional Diesel Costs", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
