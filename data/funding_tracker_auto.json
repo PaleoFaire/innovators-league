@@ -53,6 +53,20 @@
     "roundCount": 2
   },
   {
+    "company": "Saronic",
+    "totalRaised": "$9.6B+",
+    "totalRaisedRaw": 9600.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$9B",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "a16z"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Vayu Robotics",
     "totalRaised": "$7.6B+",
     "totalRaisedRaw": 7638.0,
@@ -90,6 +104,20 @@
       "Kleiner Perkins"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "OpenAI",
+    "totalRaised": "$3.0B+",
+    "totalRaisedRaw": 3009.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$3B",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "SoftBank",
+      "Lightspeed Venture Partners"
+    ],
+    "roundCount": 2
   },
   {
     "company": "Anduril Industries",
@@ -238,6 +266,19 @@
     "roundCount": 1
   },
   {
+    "company": "Starcloud",
+    "totalRaised": "$1.1B+",
+    "totalRaisedRaw": 1110.0,
+    "lastRound": "SPAC",
+    "lastRoundAmount": "$1.1B",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Accel"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Infleqtion",
     "totalRaised": "$1.0B+",
     "totalRaisedRaw": 1000.0,
@@ -340,19 +381,6 @@
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Saronic",
-    "totalRaised": "$600M+",
-    "totalRaisedRaw": 600.0,
-    "lastRound": "Series C",
-    "lastRoundAmount": "$600M+",
-    "lastRoundDate": "2025-12",
-    "valuation": "$4B",
-    "leadInvestors": [
-      "a16z"
     ],
     "roundCount": 1
   },
@@ -475,6 +503,20 @@
     "roundCount": 1
   },
   {
+    "company": "Orangewood Labs",
+    "totalRaised": "$295M+",
+    "totalRaisedRaw": 295.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$35M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "a16z",
+      "Undisclosed"
+    ],
+    "roundCount": 5
+  },
+  {
     "company": "Hadrian",
     "totalRaised": "$260M+",
     "totalRaisedRaw": 260.0,
@@ -486,20 +528,6 @@
       "a16z"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Orangewood Labs",
-    "totalRaised": "$255M+",
-    "totalRaisedRaw": 255.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$35M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "a16z",
-      "Undisclosed"
-    ],
-    "roundCount": 4
   },
   {
     "company": "Endurosat",
@@ -526,6 +554,19 @@
       "Undisclosed"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Nuro",
+    "totalRaised": "$200M+",
+    "totalRaisedRaw": 200.0,
+    "lastRound": "Series G",
+    "lastRoundAmount": "$200M",
+    "lastRoundDate": "2026-03",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Astranis",
@@ -891,28 +932,15 @@
     "roundCount": 1
   },
   {
-    "company": "Starcloud",
-    "totalRaised": "$10M+",
-    "totalRaisedRaw": 10.0,
-    "lastRound": "Seed",
-    "lastRoundAmount": "$10M",
-    "lastRoundDate": "2026-02",
+    "company": "Zoox",
+    "totalRaised": "$8M+",
+    "totalRaisedRaw": 8.4,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$8.4M",
+    "lastRoundDate": "2026-03",
     "valuation": "",
     "leadInvestors": [
-      "Accel"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "OpenAI",
-    "totalRaised": "$9M+",
-    "totalRaisedRaw": 9.0,
-    "lastRound": "Seed",
-    "lastRoundAmount": "$9M",
-    "lastRoundDate": "2026-02",
-    "valuation": "",
-    "leadInvestors": [
-      "Lightspeed Venture Partners"
+      "Undisclosed"
     ],
     "roundCount": 1
   },

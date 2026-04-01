@@ -1,136 +1,154 @@
 [
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 61,
+    "sector": "AI & Software",
+    "momentum": 64,
     "trend": "accelerating",
     "catalysts": [
-      "XPeng Serious About Robotaxis, Creates Distinct Division",
-      "Tesla Will Soon Unleash Scaled Robotaxi",
-      "California&#8217;s Hydrogen Infrastructure Collapse Proves W"
+      "Mercor says it was hit by cyberattack tied to compromise of",
+      "Anthropic is having a month",
+      "OpenAI, not yet public, raises $3B from retail investors in"
     ],
-    "fundingQ": "$1.7B",
+    "fundingQ": "$7.1B",
     "components": {
-      "funding": 92,
-      "news": 75,
+      "funding": 86,
+      "news": 95,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "sector": "Defense & Security",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "The Cost of Hesitation: Why \u201cFinishing the Mission\u201d is Imper",
-      "First set of defensive cyber kits to be delivered to CYBERCO",
-      "Ukraine inks defense agreements with Qatar and Saudi Arabia,"
+      "The Most Important Deterrent That NATO Needs Is Creativity",
+      "The Arsenal as the Battlefield: The War on Iran and the Retu",
+      "\u2018Not good news\u2019: Iran\u2019s damage to US radar plane harms milit"
     ],
-    "fundingQ": "$19.6B",
+    "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 55,
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
-      "Ukraine inks defense agreements with Qatar and Saudi Arabia,",
-      "XPeng Serious About Robotaxis, Creates Distinct Division",
-      "Combat Drones Are Pivoting Into Green Hydrogen Fuel Cells"
+      "The Most Important Deterrent That NATO Needs Is Creativity",
+      "Waymo Visits Japan",
+      "Toyota&#8217;s Woven Capital appoints new CIO and COO in pus"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 49,
+    "trend": "steady",
+    "catalysts": [
+      "The Arsenal as the Battlefield: The War on Iran and the Retu",
+      "Waymo Visits Japan",
+      "Robotaxi Outage in China Leaves Passengers Stranded on Highw"
+    ],
+    "fundingQ": "$655M",
+    "components": {
+      "funding": 39,
+      "news": 100,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-01"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 48,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "Active ocean & maritime ecosystem"
+      "AI boat maker Saronic smashes $9 billion valuation"
     ],
-    "fundingQ": "$1.2B",
+    "fundingQ": "$9.0B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-31"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 41,
-    "trend": "steady",
-    "catalysts": [
-      "Popular AI gateway startup LiteLLM ditches controversial sta",
-      "There are more AI health tools than ever\u2014but how well do the",
-      "The Pentagon\u2019s culture war tactic against Anthropic has back"
-    ],
-    "fundingQ": "$1.1B",
-    "components": {
-      "funding": 20,
-      "news": 95,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 24,
-    "trend": "rising",
+    "momentum": 35,
+    "trend": "steady",
     "catalysts": [
-      "What we&#8217;re looking for in Startup Battlefield 2026 and",
-      "The US Is Sitting On 161 Gigawatts In Underused Wind Farm Ca",
+      "Robotaxi Outage in China Leaves Passengers Stranded on Highw",
+      "Virgin Galactic expects commercial suborbital flights to res",
+      "Toyota&#8217;s Woven Capital appoints new CIO and COO in pus"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 100,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-01"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 30,
+    "trend": "steady",
+    "catalysts": [
+      "Virgin Galactic expects commercial suborbital flights to res",
+      "Toyota&#8217;s Woven Capital appoints new CIO and COO in pus",
+      "Uber and WeRide ramp up robotaxi operations in Dubai"
+    ],
+    "fundingQ": "$175M",
+    "components": {
+      "funding": 9,
+      "news": 100,
+      "hiring": 0,
+      "market": 10
+    },
+    "lastUpdated": "2026-04-01"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Army aiming for ITEP to reach full qualification by 2028, se",
+      "New York Homeowners Can Get Paid To Invest In Battery Storag",
       "Why Molecular Solar Thermal Is Great Chemistry And Bad Energ"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 55,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-31"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Why Molecular Solar Thermal Is Great Chemistry And Bad Energ",
-      "The Pentagon\u2019s culture war tactic against Anthropic has back",
-      "ScaleOps raises $130M to improve computing efficiency amid A"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "sector": "Biotech & Health",
     "momentum": 16,
     "trend": "rising",
     "catalysts": [
-      "There are more AI health tools than ever\u2014but how well do the",
-      "Mantis Biotech is making &#8216;digital twins&#8217; of huma",
-      "Why OpenAI really shut down Sora"
+      "Virgin Galactic expects commercial suborbital flights to res",
+      "The Download: AI health tools and the Pentagon\u2019s Anthropic c",
+      "Second Starlink satellite suffers anomaly, generating debris"
     ],
     "fundingQ": "$230M",
     "components": {
@@ -139,7 +157,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "sector": "Housing & Construction",
@@ -155,125 +173,108 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-03-31"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 14,
-    "trend": "rising",
-    "catalysts": [
-      "There are more AI health tools than ever\u2014but how well do the",
-      "Details of the NASA Moonbase Plans Include a Fifteen Ton Lun",
-      "Starcloud raises $170 million Series A to build data centers"
-    ],
-    "fundingQ": "$175M",
-    "components": {
-      "funding": 9,
-      "news": 45,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 12,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "State Department clears $340M FMS request for hypersonic mis"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-03-31"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "The US Is Sitting On 161 Gigawatts In Underused Wind Farm Ca",
-      "Why Molecular Solar Thermal Is Great Chemistry And Bad Energ",
-      "Altitude Partners With Empacar Bolivia &#038; Becomes First"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 45,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-03-31"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "ScaleOps raises $130M to improve computing efficiency amid A",
-      "AI chip startup Rebellions raises $400 million at $2.3B valu"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 40,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-03-31"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 5,
-    "trend": "declining",
-    "catalysts": [
-      "XPeng Serious About Robotaxis, Creates Distinct Division",
-      "14 Electric Vehicles Costing Less Than $42,000, Or Much Less"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 10,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-03-31"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "Details of the NASA Moonbase Plans Include a Fifteen Ton Lun",
-      "Pulsar Fusion Ignites Plasma in Nuclear Rocket Test"
+      "The Most Important Deterrent That NATO Needs Is Creativity",
+      "AI Has Flooded All the Weather Apps"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 0
+      "market": 50
     },
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
   },
   {
-    "sector": "Quantum Computing",
-    "momentum": 1,
-    "trend": "declining",
+    "sector": "Climate & Energy",
+    "momentum": 12,
+    "trend": "rising",
     "catalysts": [
-      "Active quantum computing ecosystem"
+      "Win Yourself A Rivian!",
+      "Black-Led Climate Actions &#8212; Featuring The Solutions Pr",
+      "New York Homeowners Can Get Paid To Invest In Battery Storag"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 50,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-03-31"
+    "lastUpdated": "2026-04-01"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "OpenAI, not yet public, raises $3B from retail investors in",
+      "In a Big Reversal, Zohran Mamdani Tells NYC Agencies They Ca"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 35,
+      "hiring": 0,
+      "market": 12
+    },
+    "lastUpdated": "2026-04-01"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo Visits Japan",
+      "Toyota&#8217;s Woven Capital appoints new CIO and COO in pus",
+      "Win Yourself A Rivian!"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 30,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-04-01"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 5,
+    "trend": "declining",
+    "catalysts": [
+      "The U.S. Military Risks Letting Contractors Define How It Se"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-04-01"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 2,
+    "trend": "declining",
+    "catalysts": [
+      "Quantum computers need vastly fewer resources than thought t"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-04-01"
   }
 ]

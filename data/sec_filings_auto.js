@@ -1,6 +1,16 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-03-31 07:22:56 UTC
+// Last updated: 2026-04-01 07:41:26 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090333.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090347.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090354.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090301.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090311.xml", isIPO: false, ticker: "LUNR" },
+  { company: "C3.ai", form: "4", date: "2026-03-31", description: "xslF345X06/wk-form4_1774995012.xml", isIPO: false, ticker: "AI" },
+  { company: "IonQ", form: "4", date: "2026-03-31", description: "xslF345X06/primary_doc.xml", isIPO: false, ticker: "IONQ" },
+  { company: "Archer Aviation", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_110352.xml", isIPO: false, ticker: "ACHR" },
+  { company: "LanzaTech", form: "DEF 14A", date: "2026-03-31", description: "tlsi-20260330.htm", isIPO: false, ticker: "LNZA" },
+  { company: "Tempus AI", form: "8-K", date: "2026-03-31", description: "d47030d8k.htm", isIPO: false, ticker: "TEM" },
   { company: "Rocket Lab", form: "8-K", date: "2026-03-30", description: "g085462_8k-rocket.htm", isIPO: false, ticker: "RKLB" },
   { company: "Momentus", form: "8-K", date: "2026-03-30", description: "tm2610566d1_8k.htm", isIPO: false, ticker: "MNTS" },
   { company: "Virgin Galactic", form: "10-K", date: "2026-03-30", description: "spce-20251231.htm", isIPO: false, ticker: "SPCE" },
@@ -41,14 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Virgin Galactic", form: "4", date: "2026-03-23", description: "xslF345X06/wk-form4_1774298284.xml", isIPO: false, ticker: "SPCE" },
   { company: "Virgin Galactic", form: "4", date: "2026-03-23", description: "xslF345X06/wk-form4_1774298198.xml", isIPO: false, ticker: "SPCE" },
   { company: "Virgin Galactic", form: "4", date: "2026-03-23", description: "xslF345X06/wk-form4_1774298087.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-03-23", description: "xslF345X06/wk-form4_1774297955.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Rigetti Computing", form: "8-K", date: "2026-03-20", description: "tm269465d1_8k.htm", isIPO: false, ticker: "RGTI" },
-  { company: "LanzaTech", form: "4", date: "2026-03-20", description: "xslF345X06/wk-form4_1774038352.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-03-20", description: "xslF345X06/wk-form4_1774038346.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-03-20", description: "xslF345X06/wk-form4_1774038338.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-03-20", description: "xslF345X06/wk-form4_1774038332.xml", isIPO: false, ticker: "LNZA" },
-  { company: "LanzaTech", form: "4", date: "2026-03-20", description: "xslF345X06/wk-form4_1774038323.xml", isIPO: false, ticker: "LNZA" },
-  { company: "C3.ai", form: "4", date: "2026-03-19", description: "xslF345X06/wk-form4_1773950721.xml", isIPO: false, ticker: "AI" },
-  { company: "UiPath", form: "4", date: "2026-03-19", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "IonQ", form: "10-K", date: "2026-03-19", description: "bakkt-20251231.htm", isIPO: false, ticker: "IONQ" },
 ];
