@@ -23535,23 +23535,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-02 02:54
+// Last updated: 2026-04-02 05:44
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Impulse Labs", headline: "Middle East Energy Crisis: Comparing Operating Costs for Diesel vs Electric Trucks", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "Anthropic took down thousands of GitHub repos trying to yank its leaked source code ' a move the company says was an acc", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Xanadu Quantum Technologies", headline: "The reputation of troubled YC startup Delve has gotten even worse", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Waymo", headline: "Startup funding shatters all records in Q1", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX quietly files for big bang IPO", source: "SpaceNews", time: "6h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "Cape", headline: "Apple releases security fix for older iPhones and iPads to protect against DarkSword attacks", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Kepler Communications", headline: "Iranian strikes target the infrastructure behind US airpower", source: "Defense News", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Astera Labs", headline: "Meta's natural gas binge could power South Dakota", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Runway", headline: "'Thank You for Generating With Us!' Hollywood's AI Acolytes Stay on the Hype Train", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Aepnus Technology", headline: "From Theory to Reality: Evaluating the U.S.-Ukrainian Minerals Deal", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Hadrian", headline: "Teledyne forms dedicated space unit to capture rising demand", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Palantir", headline: "WhatsApp notifies hundreds of users who installed a fake app made by government spyware maker", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX files confidentially for IPO in mega listing potentially valued at $1.75 trillion, report says", source: "TechCrunch", time: "11h ago", impact: "high", unread: false },
-  { id: 14, type: "funding", company: "Hadrian", headline: "Aspect Aerospace secures early funding to advance swarm-deployable VLEO satellites", source: "SpaceNews", time: "12h ago", impact: "medium", unread: false },
-  { id: 15, type: "ipo", company: "Together AI", headline: "Less than a month: StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Impulse Labs", headline: "General Motors Slaps Down Trump's War On EVs", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "WeaveGrid", headline: "Major SPP Western Expansion Opens Clean Energy Opportunities Across Region", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Impulse Labs", headline: "Middle East Energy Crisis: Comparing Operating Costs for Diesel vs Electric Trucks", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic took down thousands of GitHub repos trying to yank its leaked source code ' a move the company says was an acc", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Xanadu Quantum Technologies", headline: "The reputation of troubled YC startup Delve has gotten even worse", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
+  { id: 6, type: "funding", company: "Waymo", headline: "Startup funding shatters all records in Q1", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX quietly files for big bang IPO", source: "SpaceNews", time: "9h ago", impact: "high", unread: false },
+  { id: 8, type: "ipo", company: "Elodin", headline: "Industry bullish on DoC draft license process for novel space activities", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Cape", headline: "Apple releases security fix for older iPhones and iPads to protect against DarkSword attacks", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Kepler Communications", headline: "Iranian strikes target the infrastructure behind US airpower", source: "Defense News", time: "10h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Astera Labs", headline: "Meta's natural gas binge could power South Dakota", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Runway", headline: "'Thank You for Generating With Us!' Hollywood's AI Acolytes Stay on the Hype Train", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Xtend", headline: "Switzerland considers 'complete termination' of US Patriot order, vows to extend payment freeze", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Aepnus Technology", headline: "From Theory to Reality: Evaluating the U.S.-Ukrainian Minerals Deal", source: "War on the Rocks", time: "12h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Hadrian", headline: "Teledyne forms dedicated space unit to capture rising demand", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
