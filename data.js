@@ -23499,23 +23499,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-02 17:03
+// Last updated: 2026-04-02 20:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Anthropic", headline: "Cursor Launches a New AI Agent Experience to Take on Claude Code and Codex", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Photonic Inc", headline: "Microsoft takes on AI rivals with three new foundational models", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Karman Industries", headline: "A year after 'Liberation Day,' impact of Trump tariffs on defense industry remains muted", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic Says That Claude Contains Its Own Kind of Emotions", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Durin", headline: "Even Artemis II Astronauts Have Microsoft Outlook Problems", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Atomic Industries", headline: "Moog Technology Successfully Steers Artemis II Launch", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Kepler Communications", headline: "Carmel Ortiz on the evolving landscape of satellite communications", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems leans on magnets for near-term revenue", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Astera Labs", headline: "Phantom Space buys thermal specialist to support orbital data center push", source: "SpaceNews", time: "3h ago", impact: "high", unread: false },
-  { id: 10, type: "hire", company: "Relativity Space", headline: "Relativity, Hermeus, Astrion and Divergent executives join Fortastra C-suite", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Ample", headline: "Over 60 New Fast EV Chargers To Be Operating In NYC", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "The Download: plastic's problem with fuel prices, and SpaceX's blockbuster IPO", source: "MIT Tech Review", time: "4h ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Durin", headline: "Unmasking the Paramilitary Agents Behind Trump's Violent Immigration Crackdown", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Divergent", headline: "From Filament to Firepower: 3D Printing's Impact on Warfare", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Rivian", headline: "Volkswagen'Rivian Software'Defined Vehicles: Joint Venture RV Tech Successfully Completes Winter Testing", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Framework Computer", headline: "Tech Companies Are Trying to Neuter Colorado's Landmark Right to Repair Law", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Palantir", headline: "What If The US Redirected The Money From The Iran War To Clean Energy?", source: "CleanTechnica", time: "Just now", impact: "high", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "Artemis II is NASA's last Moon mission without Silicon Valley", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "OpenAI", headline: "OpenAI Acquires Tech Talk Show 'TBPN''and Buys Itself Some Positive News", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI acquires TBPN, the buzzy founder-led business talk show", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "ElevenLabs", headline: "ElevenLabs releases a new AI-powered music-generation app", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Astera Labs", headline: "A New Google-Funded Data Center Will Be Powered by a Massive Gas Plant", source: "Wired", time: "2h ago", impact: "medium", unread: false },
+  { id: 8, type: "hire", company: "Neuralink", headline: "Young Professional's AI Tool Spots Mental Health Conditions", source: "IEEE Spectrum", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Xtend", headline: "The Global Ripple Effect of the War in Iran", source: "War on the Rocks", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Anthropic", headline: "Cursor Launches a New AI Agent Experience to Take On Claude Code and Codex", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Photonic Inc", headline: "Microsoft takes on AI rivals with three new foundational models", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Karman Industries", headline: "A year after 'Liberation Day,' impact of Trump tariffs on defense industry remains muted", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "Anthropic Says That Claude Contains Its Own Kind of Emotions", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Durin", headline: "Even Artemis II Astronauts Have Microsoft Outlook Problems", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems leans on magnets for near-term revenue", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
