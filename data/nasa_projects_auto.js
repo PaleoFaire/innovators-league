@@ -1,6 +1,12 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-01 08:09:03 UTC
+// Last updated: 2026-04-02 07:58:12 UTC
 const NASA_PROJECTS = [
+  { id: 93127, title: "Logistics Reduction: Trash Compaction and Processing System", status: "Completed", center: "Ames Research Center", techArea: "Waste Management", lastUpdated: "04/01/26" },
+  { id: 157638, title: "Advancing computed tomography techniques for surface deployment on the Moon, Mar", status: "Completed", center: "Goddard Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "04/01/26" },
+  { id: 117130, title: "1030nm CASALS Lidar for Lunar Science", status: "Completed", center: "Goddard Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "04/01/26" },
+  { id: 117159, title: "Investigation on the modulation of locked PIC lasers for  Microwave Photonic Rad", status: "Completed", center: "Goddard Space Flight Center", techArea: "Remote Sensing Instruments and Sensors", lastUpdated: "04/01/26" },
+  { id: 156905, title: "Smallsat and Cubesat Attitude Control Interface", status: "Completed", center: "Goddard Space Flight Center", techArea: "GN&C Actuators for 6DOF Spacecraft Control During Rendezvous, Proximity Operations, and Capture", lastUpdated: "04/01/26" },
+  { id: 157662, title: "Planetary Surface Navigational Autonomy through 3D Sensing", status: "Completed", center: "Goddard Space Flight Center", techArea: "Surface Mobility", lastUpdated: "04/01/26" },
   { id: 182429, title: "Fast Neutron Spectrometer Reflight", status: "Completed", center: "Johnson Space Center", techArea: "Radiation", lastUpdated: "03/30/26" },
   { id: 184107, title: "Portable In-Field Acoustic Sensor Array", status: "Completed", center: "", techArea: "Environment Sensors", lastUpdated: "03/28/26" },
   { id: 184669, title: "DTC for Bidirectional Power Exchange", status: "Completed", center: "Johnson Space Center", techArea: "Distribution and Transmission", lastUpdated: "03/23/26" },
@@ -25,10 +31,4 @@ const NASA_PROJECTS = [
   { id: 184625, title: "Autonomous Systems Study", status: "Completed", center: "Langley Research Center", techArea: "Autonomous Systems", lastUpdated: "03/23/26" },
   { id: 184677, title: "10kW VSAT Study", status: "Completed", center: "Langley Research Center", techArea: "Photovoltaic Electrical Power", lastUpdated: "03/23/26" },
   { id: 184647, title: "Surface Power Model", status: "Active", center: "Glenn Research Center", techArea: "Management and Control", lastUpdated: "03/23/26" },
-  { id: 184666, title: "TULIPS 10kW System", status: "Active", center: "Jet Propulsion Laboratory", techArea: "Distribution and Transmission", lastUpdated: "03/23/26" },
-  { id: 184610, title: "Robotic Capability Study", status: "Completed", center: "Johnson Space Center", techArea: "Dexterous Manipulation", lastUpdated: "03/23/26" },
-  { id: 184640, title: "Lunar Night Survival and Long-Range Communications for Distributed Robotics Asse", status: "Active", center: "Ames Research Center", techArea: "Surface Mobility", lastUpdated: "03/23/26" },
-  { id: 184639, title: "Neuromorphic chip for sensing, situational awareness, and decision making in rad", status: "Completed", center: "Ames Research Center", techArea: "High-Performance Processors", lastUpdated: "03/23/26" },
-  { id: 184678, title: "Descent Systems Study (DSS)", status: "Completed", center: "Langley Research Center", techArea: "Propulsion Systems for Landing", lastUpdated: "03/23/26" },
-  { id: 184623, title: "STRATFI-Outpost", status: "Active", center: "Ames Research Center", techArea: "Hypersonic Decelerators", lastUpdated: "03/23/26" },
 ];

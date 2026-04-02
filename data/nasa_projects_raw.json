@@ -1,5 +1,166 @@
 [
   {
+    "id": 93127,
+    "title": "Logistics Reduction: Trash Compaction and Processing System",
+    "description": "<p>The Mars Campaign Office, Logistics Reduction project called the Trash Compaction and Processing System (TCPS) is a waste management technology. Currently, there are no trash management practices that are being implemented in the space environment other than manual compaction of waste into a plastic bag. The current practice does not recover critical resources such as water, does not prevent the growth of potentially harmful microbiological pathogens, and provides only limited volume reductio",
+    "status": "Completed",
+    "startDate": "Oct 2014",
+    "endDate": "Sep 2024",
+    "lastUpdated": "04/01/26",
+    "center": "Ames Research Center",
+    "technologyArea": "Waste Management",
+    "partners": [
+      "Ames Research Center",
+      "Glenn Research Center",
+      "Johnson Space Center",
+      "Kennedy Space Center",
+      "Marshall Space Flight Center",
+      "NASA Headquarters",
+      "White Sands Test Facility",
+      "Materials Modification, Inc.",
+      "Sierra Nevada Corporation",
+      "United Technologies Aerospace Systems"
+    ],
+    "website": ""
+  },
+  {
+    "id": 96740,
+    "title": "Prototype Miniature Cavity-Enhanced Nitrogen Dioxide Sensor",
+    "description": "<p>We propose to develop an optical detection technique that can be used to measure NO2 with a balloon-borne sonde (in a follow-on IRAD). This IRAD, we intend to see if this measurement works in a lab environment.</p> ",
+    "status": "Completed",
+    "startDate": "Oct 2020",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/01/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157208,
+    "title": "Tandem Ion Mass Spectrometer (TIMS): High Efficiency Multi-Stop Design",
+    "description": "<p>Build a prototype of our Tandem Ion Mass Spectrometer (TIMS), that can separate the mass and charge of atomic ions and can separate atomic and molecular ions of similar mass-per-charge ratio (M/Q). This prototype TIMS currently has the opportunity to fly on a sounding rocket in FY25 as a technology demonstration instrument. One of the main innovative aspects of TIMS is the capability of a really low noise floor, allowing for the detection of minor ion species in a variety of plasma environmen",
+    "status": "Completed",
+    "startDate": "May 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/01/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center",
+      "Wallops Flight Facility"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157638,
+    "title": "Advancing computed tomography techniques for surface deployment on the Moon, Mars, asteroids, and comets",
+    "description": "<p>X-ray computed tomography (XCT) provides 3D visualization of the interior structure of planetary materials, such as rocks and ices. The proposed work will advance capabilities of XCT instruments to be deployed on landers/rovers. By increasing chemical/structural sensitivity through the use of X-ray filtering and hyperspectral imaging, the proposed work would have applications across Moon, Mars, asteroid, and comet missions.</p>",
+    "status": "Completed",
+    "startDate": "May 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/01/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117130,
+    "title": "1030nm CASALS Lidar for Lunar Science",
+    "description": "<p>We propose to investigate lunar-specific improvements to the design of an orbital swath-mapping lidar based on a new lidar system. The novel measurement approach was successfully demonstrated at 1550nm with a lab and rooftop demonstration in 2022. We are looking to design a lunar orbital version with higher-TRL components than available at 1035 nm. This project will evaluate a modification of the design that would enable the use of existing photon-counting detectors aligned with spaceflight i",
+    "status": "Completed",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/01/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117159,
+    "title": "Investigation on the modulation of locked PIC lasers for  Microwave Photonic Radars",
+    "description": "<p>We propose to investigate the generation of versatile radar radio frequency (RF) waveforms using the beat frequencies of two locked lasers and then applying an external amplitude and frequency modulation to one laser.</p> ",
+    "status": "Completed",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/01/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Remote Sensing Instruments and Sensors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 156905,
+    "title": "Smallsat and Cubesat Attitude Control Interface",
+    "description": "<p>Electric spacecraft thrusters are closely coupled with the spacecraft electrical, software, and thermal systems, whereas traditional chemical systems have a simpler interface. Integrated testing of smallsats shows that the software is well-defined and cannot harm the hardware, and that noisy output cannot impede the control of the system of a whole.</p> ",
+    "status": "Completed",
+    "startDate": "Oct 2023",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/01/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "GN&C Actuators for 6DOF Spacecraft Control During Rendezvous, Proximity Operations, and Capture",
+    "partners": [
+      "Goddard Space Flight Center",
+      "Wallops Flight Facility"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157662,
+    "title": "Planetary Surface Navigational Autonomy through 3D Sensing",
+    "description": "<p>This IRAD aims to support high TRL rover lidar system mission infusion while investigating further SWaP reductions through an astronaut wearable lidar design.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/01/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Surface Mobility",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 117129,
+    "title": "Advancing \u00b5-Spec Spectrometer On-A-Chip Technology for Next Generation Missions",
+    "description": "<p>This works is to progress integrated on-chip far-infrared spectrometer technology towards the higher performance required for next generation far-infrared balloon or space astrophysics instruments.</p> ",
+    "status": "Completed",
+    "startDate": "Oct 2022",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/01/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157685,
+    "title": "Development of an Ion-Electron Plasma Spectrometer",
+    "description": "<p>Development of an ion-electron charged particle sensor.</p>",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/01/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Field and Particle Detectors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 182429,
     "title": "Fast Neutron Spectrometer Reflight",
     "description": "<p>The Fast Neutron Spectrometer (FNS), formerly known as the Advanced Neutron Spectrometer, was developed, built, and operated by Marshall Space Flight Center (MSFC). From 2016 to 2018, it conducted a technology demonstration on the International Space Station (ISS) as an intravehicular neutron environment monitor, with sustained operations until 2023. After its return to MSFC, the FNS flight unit was evaluated and found to be in good operational condition. At the conclusion of the FNS project,",
@@ -2300,166 +2461,6 @@
       "GATS, Inc.",
       "University of Colorado Boulder Laboratory for Atmospheric and Space Physics",
       "Virginia Polytechnic Institute and State University"
-    ],
-    "website": ""
-  },
-  {
-    "id": 32946,
-    "title": "Autonomous Systems and Operations",
-    "description": "<p>The AES Autonomous Systems and Operations (ASO) project will develop an understanding of the impacts of increasing communication time delays on mission operations, develop autonomy technologies to mitigate the impacts, and infuse them into Human Exploration and Operations systems. The technologies are expected to reduce operations costs as well. This technology has been tested on ISS in FY14-16 as part of the AES Autonomous Mission Operations project; testing continues in FY20-21 under ASO. T",
-    "status": "Completed",
-    "startDate": "Oct 2014",
-    "endDate": "Sep 2024",
-    "lastUpdated": "03/03/26",
-    "center": "Ames Research Center",
-    "technologyArea": "Activity and Resource Planning and Scheduling",
-    "partners": [
-      "Ames Research Center",
-      "Johnson Space Center",
-      "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 94207,
-    "title": "Lunar IceCube",
-    "description": "<p>Lunar IceCube is a 6U CubeSat that was launched on Artemis 1. Its mission was to prospect for water in ice, liquid, and vapor forms and other lunar volatiles from a low-perigee, inclined lunar orbit. Morehead State University led the development of Lunar IceCube under a NextSTEP partnership. Lunar IceCube used the Broadband InfraRed Compact High Resolution Exploration Spectrometer (BIRCHES), developed by Goddard Space Flight Center (GSFC). BIRCHES is a compact version of the successful New Ho",
-    "status": "Completed",
-    "startDate": "Nov 2015",
-    "endDate": "Dec 2024",
-    "lastUpdated": "03/03/26",
-    "center": "Morehead State University",
-    "technologyArea": "Destination Resource Exploration",
-    "partners": [
-      "Morehead State University",
-      "Goddard Space Flight Center",
-      "Jet Propulsion Laboratory"
-    ],
-    "website": ""
-  },
-  {
-    "id": 117026,
-    "title": "Hybrid Observatory for Earth-like Exoplanets (HOEE)",
-    "description": "<p>We propose the first hybrid observatory, combining a 100 m diameter starshade in space with a telescope on the ground. The Hybrid Observatory for Earth-like Exoplanets (HOEE) would convert the largest ground-based telescopes now under construction (Giant Magellan Telescope, Thirty Meter Telescope, and Extremely Large Telescope) into the most powerful planet finders yet designed. No other proposed equipment can match the angular resolution (image sharpness), sensitivity (ability to see faint o",
-    "status": "Completed",
-    "startDate": "Jun 2022",
-    "endDate": "Sep 2023",
-    "lastUpdated": "03/02/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Structures and Antennas",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184094,
-    "title": "Enabling Ontology-driven Workflows for ACO's Dyreqt Modeling Framework",
-    "description": "<p><strong>Project Objective</strong></p><p>This proposal seeks to upgrade the Advance Concepts Office (ACO) Dyreqt modeling framework with ontological reasoning and data structures, an advancement that will dramatically improve productivity by enabling automation of large portions of the campaign architecting process.</p><p><strong>Project Description</strong></p><p>The ACO relies heavily on its in-house developed Dyreqt modeling framework for solving multidisciplinary analysis and optimization",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Dec 2025",
-    "lastUpdated": "02/27/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Software, Modeling, Simulation, and Information Processing",
-    "partners": [
-      "Marshall Space Flight Center",
-      "University of Alabama in Huntsville"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184096,
-    "title": "Enhancement of Failure Analysis and Additive Manufacture Characterization Capabilities with New Laser Confocal Microscope Promoting High-Resolution Imaging Over Large Surface Area and High Angles ",
-    "description": "<p><strong>Project Objective</strong></p><p>Acquisition of a laser confocal microscope system to enable research, development, and production of various AM components, biological specimens, fracture surfaces, and to expand the failure analysis capabilities in EM31.</p><p><strong>Project Description</strong></p><p>This microscope helped fill a gap in our capabilities for failure analysis. This system enables an angle of detection of 87.3 degrees, particularly useful for imaging fracture surfaces ",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Mar 2025",
-    "lastUpdated": "02/27/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184099,
-    "title": "Automated Microhardness Tester Replacement",
-    "description": "<p><strong>Project Objective</strong></p><p>To replace and expand capabilities of current materials diagnostic equipment, specifically for microhardness of materials.</p><p><strong>Project Description</strong></p><p>Microhardness testing is a standard, baseline materials diagnostic requirement. Everything from weld joints to additive manufacturing build acceptance to alloy development to new in-situ resource utilization methods from Lunar and Martian surfaces require such basic materials propert",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Dec 2025",
-    "lastUpdated": "02/27/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184097,
-    "title": "Instron Model 9440 Instrumented Drop Tower for Composite Materials Damage Tolerance Testing",
-    "description": "<p><strong>Project Objective</strong></p><p>Procure and install an Instron Model 9440 Drop Tower Impact System at Marshall Space Flight Center to enable low-velocity impact testing, Compression After Impact (CAI) strength evaluation, and damage tolerance qualification of fiber-reinforced composite materials for aerospace launch vehicle applications.</p><p><strong>Project Description</strong></p><p>This project establishes advanced mechanical testing capabilities specifically designed for evaluat",
-    "status": "Active",
-    "startDate": "Jan 2025",
-    "endDate": "Dec 2026",
-    "lastUpdated": "02/27/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Lightweight Structural Materials",
-    "partners": [
-      "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 182470,
-    "title": "PROTECT: Production and Reuse Of Thermally Efficient Ceramic Thermal Protection Systems (TPS)",
-    "description": "<p>PROTECT seeks to (1) develop a <strong>more robust and capable reusable TPS</strong> by (2) employing a novel informed material development approach enabled by <strong>advanced computational tools </strong>and <strong>material characterization techniques</strong>.\u00a0</p><p>With PROTECT, novel refractory ceramic TPS materials will be developed that meet the survivability and reusability needs of NASA and its commercial partners. The computational tools developed by PROTECT will be made available",
-    "status": "Active",
-    "startDate": "Oct 2025",
-    "endDate": "Oct 2027",
-    "lastUpdated": "02/23/26",
-    "center": "Johnson Space Center",
-    "technologyArea": "Thermal Protection Systems",
-    "partners": [
-      "Johnson Space Center",
-      "Ames Research Center",
-      "Glenn Research Center",
-      "Kennedy Space Center",
-      "Oak Ridge National Laboratory",
-      "SpaceX"
-    ],
-    "website": ""
-  },
-  {
-    "id": 106719,
-    "title": "LiDAR Hazard Detection for Safe and Precise Lunar Landing",
-    "description": "<p>The LiDAR Hazard Detection for Safe and Precise Lunar Landing project aims to test Astrobotic Technology\u2019s hazard detection light detection and ranging (LiDAR) system\u2019s ability to meet stringent requirements for detecting and avoiding rocks, craters, and slopes and selecting a safe landing site. It is designed to detect hazards as small as 15 cm and 10\u00b0 slopes. During the final 1.5 km, 3D LiDAR point cloud data is processed into a hazard map of the terrain. Data is fused with the spacecraft\u2019s",
-    "status": "Active",
-    "startDate": "Dec 2021",
-    "endDate": "Jul 2026",
-    "lastUpdated": "02/19/26",
-    "center": "Astrobotic Technology, Inc.",
-    "technologyArea": "Flight Mechanics and GN&C for Entry, Descent, and Safe Precise Landing",
-    "partners": [
-      "Astrobotic Technology, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 145005,
-    "title": "A high precision continuous time compact navigation module for cislunar/lunar missions",
-    "description": "<p>The High-Precision Continuous-Time PNT Compact Module for the LunaNet Small Spacecraft demonstration will assess the performance of this optomechanical accelerometer under real flight conditions. Accelerometers are motion and rotation sensors that are essential in inertial navigation systems to calculate the location, orientation, and velocity of a spacecraft. Developed in support of the LunaNet positioning, navigation, and timing (PNT) system, this high-precision, chip-scale optomechanical a",
-    "status": "Completed",
-    "startDate": "Aug 2022",
-    "endDate": "Aug 2025",
-    "lastUpdated": "02/19/26",
-    "center": "University of California-Los Angeles",
-    "technologyArea": "Navigation Sensors",
-    "partners": [
-      "University of California-Los Angeles"
     ],
     "website": ""
   }
