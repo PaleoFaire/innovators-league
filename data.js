@@ -23499,23 +23499,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-02 13:43
+// Last updated: 2026-04-02 17:03
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Astera Labs", headline: "Phantom Space buys thermal specialist to support orbital data center push", source: "SpaceNews", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "hire", company: "Relativity Space", headline: "Relativity, Hermeus, Astrion and Divergent executives join Fortastra C-suite", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Ample", headline: "Over 60 New Fast EV Chargers To Be Operating In NYC", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "The Download: plastic's problem with fuel prices, and SpaceX's blockbuster IPO", source: "MIT Tech Review", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Durin", headline: "Unmasking the Paramilitary Agents Behind Trump's Violent Immigration Crackdown", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Divergent", headline: "From Filament to Firepower: 3D Printing's Impact on Warfare", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Rivian", headline: "Volkswagen'Rivian Software'Defined Vehicles: Joint Venture RV Tech Successfully Completes Winter Testing", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Impulse Labs", headline: "General Motors Slaps Down Trump's War On EVs", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Waymo", headline: "Waymo: &#8220;Hallo, Konnichiwa, Annyeonghaseyo, and Bonjour!&#8221;", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "WeaveGrid", headline: "Major SPP Western Expansion Opens Clean Energy Opportunities Across Region", source: "CleanTechnica", time: "9h ago", impact: "medium", unread: false },
-  { id: 11, type: "news", company: "Impulse Labs", headline: "Middle East Energy Crisis: Comparing Operating Costs for Diesel vs Electric Trucks", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic took down thousands of GitHub repos trying to yank its leaked source code ' a move the company says was an acc", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Xanadu Quantum Technologies", headline: "The reputation of troubled YC startup Delve has gotten even worse", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Waymo", headline: "Startup funding shatters all records in Q1", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX quietly files for big bang IPO", source: "SpaceNews", time: "17h ago", impact: "high", unread: false },
+  { id: 1, type: "milestone", company: "Anthropic", headline: "Cursor Launches a New AI Agent Experience to Take on Claude Code and Codex", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Photonic Inc", headline: "Microsoft takes on AI rivals with three new foundational models", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Karman Industries", headline: "A year after 'Liberation Day,' impact of Trump tariffs on defense industry remains muted", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic Says That Claude Contains Its Own Kind of Emotions", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Durin", headline: "Even Artemis II Astronauts Have Microsoft Outlook Problems", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Atomic Industries", headline: "Moog Technology Successfully Steers Artemis II Launch", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Kepler Communications", headline: "Carmel Ortiz on the evolving landscape of satellite communications", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Commonwealth Fusion Systems", headline: "Commonwealth Fusion Systems leans on magnets for near-term revenue", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Astera Labs", headline: "Phantom Space buys thermal specialist to support orbital data center push", source: "SpaceNews", time: "3h ago", impact: "high", unread: false },
+  { id: 10, type: "hire", company: "Relativity Space", headline: "Relativity, Hermeus, Astrion and Divergent executives join Fortastra C-suite", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Ample", headline: "Over 60 New Fast EV Chargers To Be Operating In NYC", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "The Download: plastic's problem with fuel prices, and SpaceX's blockbuster IPO", source: "MIT Tech Review", time: "4h ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Durin", headline: "Unmasking the Paramilitary Agents Behind Trump's Violent Immigration Crackdown", source: "Wired", time: "7h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Divergent", headline: "From Filament to Firepower: 3D Printing's Impact on Warfare", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Rivian", headline: "Volkswagen'Rivian Software'Defined Vehicles: Joint Venture RV Tech Successfully Completes Winter Testing", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
