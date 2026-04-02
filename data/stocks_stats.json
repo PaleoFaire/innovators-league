@@ -5,100 +5,100 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -5.47,
+      "avg_change": -0.05,
       "count": 1
     },
     "space": {
-      "gainers": 0,
-      "losers": 7,
-      "avg_change": -10.22,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 2.3,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.66,
+      "avg_change": -2.53,
       "count": 7
     },
     "nuclear": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -10.76,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -5.0,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.28,
+      "avg_change": -8.18,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.09,
+      "avg_change": -3.23,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.57,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.42,
       "count": 3
     },
     "transportation": {
-      "gainers": 0,
-      "losers": 2,
-      "avg_change": -2.78,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": -1.09,
       "count": 2
     },
     "chips": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -5.95,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 3.63,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "TEM",
-      "Tempus AI",
-      0.58
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      -1.22
-    ],
-    [
       "LUNR",
       "Intuitive Machines",
-      -1.51
+      19.73
     ],
     [
-      "NVDA",
-      "NVIDIA",
-      -1.64
+      "PL",
+      "Planet Labs",
+      7.42
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      -2.06
+      "AMD",
+      "AMD",
+      6.08
+    ],
+    [
+      "TEM",
+      "Tempus AI",
+      4.0
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      3.4
     ]
   ],
   "topLosers": [
     [
-      "PL",
-      "Planet Labs",
-      -13.18
-    ],
-    [
       "EVTL",
       "Vertical Aerospace",
-      -14.72
+      -6.69
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      -15.38
+      "OKLO",
+      "Oklo",
+      -7.47
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -8.42
     ],
     [
       "9348.T",
@@ -108,8 +108,8 @@
     [
       "LNZA",
       "LanzaTech",
-      -31.56
+      -17.36
     ]
   ],
-  "lastUpdated": "2026-04-02 13:22:40"
+  "lastUpdated": "2026-04-02 19:02:03"
 }
