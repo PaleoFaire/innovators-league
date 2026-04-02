@@ -23499,25 +23499,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-02 05:44
-// Auto-generated real-time signals
-// Last updated: 2026-04-02
+// Last updated: 2026-04-02 09:08
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Impulse Labs", headline: "General Motors Slaps Down Trump&#8217;s War On EVs", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "WeaveGrid", headline: "Major SPP Western Expansion Opens Clean Energy Opportunities Across Region", source: "CleanTechnica", time: "3h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Impulse Labs", headline: "Middle East Energy Crisis: Comparing Operating Costs for Diesel vs Electric Trucks", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic took down thousands of GitHub repos trying to yank its leaked source code — a move the company says was an acc", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Xanadu Quantum Technologies", headline: "The reputation of troubled YC startup Delve has gotten even worse", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Waymo", headline: "Startup funding shatters all records in Q1", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX quietly files for big bang IPO", source: "SpaceNews", time: "11h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "Elodin", headline: "Industry bullish on DoC draft license process for novel space activities", source: "Breaking Defense", time: "11h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Cape", headline: "Apple releases security fix for older iPhones and iPads to protect against DarkSword attacks", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Kepler Communications", headline: "Iranian strikes target the infrastructure behind US airpower", source: "Defense News", time: "12h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Astera Labs", headline: "Meta’s natural gas binge could power South Dakota", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Runway", headline: "‘Thank You for Generating With Us!’ Hollywood's AI Acolytes Stay on the Hype Train", source: "Wired", time: "13h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Xtend", headline: "Switzerland considers &#8216;complete termination&#8217; of US Patriot order, vows to extend payment freeze", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Aepnus Technology", headline: "From Theory to Reality: Evaluating the U.S.-Ukrainian Minerals Deal", source: "War on the Rocks", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Hadrian", headline: "Teledyne forms dedicated space unit to capture rising demand", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Divergent", headline: "From Filament to Firepower: 3D Printing's Impact on Warfare", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Rivian", headline: "Volkswagen'Rivian Software'Defined Vehicles: Joint Venture RV Tech Successfully Completes Winter Testing", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Impulse Labs", headline: "General Motors Slaps Down Trump's War On EVs", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Waymo: &#8220;Hallo, Konnichiwa, Annyeonghaseyo, and Bonjour!&#8221;", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "WeaveGrid", headline: "Major SPP Western Expansion Opens Clean Energy Opportunities Across Region", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Impulse Labs", headline: "Middle East Energy Crisis: Comparing Operating Costs for Diesel vs Electric Trucks", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic took down thousands of GitHub repos trying to yank its leaked source code ' a move the company says was an acc", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Xanadu Quantum Technologies", headline: "The reputation of troubled YC startup Delve has gotten even worse", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Waymo", headline: "Startup funding shatters all records in Q1", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX quietly files for big bang IPO", source: "SpaceNews", time: "13h ago", impact: "high", unread: false },
+  { id: 11, type: "ipo", company: "Elodin", headline: "Industry bullish on DoC draft license process for novel space activities", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Cape", headline: "Apple releases security fix for older iPhones and iPads to protect against DarkSword attacks", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Kepler Communications", headline: "Iranian strikes target the infrastructure behind US airpower", source: "Defense News", time: "14h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Astera Labs", headline: "Meta's natural gas binge could power South Dakota", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Runway", headline: "'Thank You for Generating With Us!' Hollywood's AI Acolytes Stay on the Hype Train", source: "Wired", time: "14h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
