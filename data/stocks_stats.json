@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -10.19,
+      "avg_change": -10.22,
       "count": 7
     },
     "autonomous": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -5.3,
+      "avg_change": -5.72,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.09,
+      "avg_change": -2.15,
       "count": 3
     },
     "transportation": {
@@ -64,11 +64,6 @@
       0.58
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      -0.36
-    ],
-    [
       "TSLA",
       "Tesla",
       -1.22
@@ -82,6 +77,11 @@
       "NVDA",
       "NVIDIA",
       -1.64
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      -2.51
     ]
   ],
   "topLosers": [
@@ -103,7 +103,7 @@
     [
       "9348.T",
       "ispace",
-      -16.43
+      -16.61
     ],
     [
       "LNZA",
@@ -111,5 +111,5 @@
       -31.56
     ]
   ],
-  "lastUpdated": "2026-04-02 02:39:21"
+  "lastUpdated": "2026-04-02 07:18:55"
 }
