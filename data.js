@@ -23495,23 +23495,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-03 16:51
+// Last updated: 2026-04-03 20:45
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Durin", headline: "India to acquire more air defense systems and drones for modern warfare", source: "Defense News", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Durin", headline: "US F-15E fighter jet downed by Iran, rescue operations underway", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Vast", headline: "White House again proposes steep NASA budget cuts", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Launch Delayed Until May 2026", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Durin", headline: "ENIAC's Architects Wove Stories Through Computing", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Quantum-Systems", headline: "Marine Corps awards Textron, General Dynamics second rapid ARV prototype contract", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX and Amazon spar over satellite deployments", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Cape", headline: "CBP Facility Codes Sure Seem to Have Leaked Via Online Flashcards", source: "Wired", time: "7h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Fervo Energy", headline: "The Trump Administration's Attempt to Expand Drilling at Chaco Canyon", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Rivian", headline: "Rivian Beats Wall Street Sales Expectations, But Still Niche", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "SpaceX", headline: "SpaceX Discusses Over $2 Trillion IPO Valuation", source: "Next Big Future", time: "14h ago", impact: "high", unread: false },
-  { id: 12, type: "news", company: "Palantir", headline: "What If The US Redirected The Money From The Iran War To Clean Energy?", source: "CleanTechnica", time: "20h ago", impact: "high", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "Artemis II is NASA's last moon mission without Silicon Valley", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "OpenAI", headline: "OpenAI Acquires Tech Talk Show 'TBPN''and Buys Itself Some Positive News", source: "Wired", time: "21h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "OpenAI acquires TBPN, the buzzy founder-led business talk show", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead 'special projects'", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "Anthropic buys biotech startup Coefficient Bio in $400M deal: reports", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Anthropic", headline: "Anthropic ramps up its political activities with a new PAC", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Crusoe Energy", headline: "AI companies are building huge natural gas plants to power data centers. What could go wrong?", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "OpenAI", headline: "OpenAI's Fidji Simo Is Taking Medical Leave Amid an Executive Shake-Up", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Palantir", headline: "Edward 'Big Balls' Coristine Is Helping Out on Viral Fraud Videos Now", source: "Wired", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Agility Robotics", headline: "People would rather have an Amazon warehouse in their backyard than a data center", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Saronic", headline: "The Week's 10 Biggest Funding Rounds: Largest Financings Went To Defense, Wearables, Energy And Security", source: "Crunchbase News", time: "2h ago", impact: "high", unread: false },
+  { id: 9, type: "news", company: "Saule Technologies", headline: "Google, AI, &#038; Carbon Emissions &#8212; A Lesson In Situational Ethics", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Saronic", headline: "Trump seeks to double number of ship requests with 2027 defense budget", source: "Defense News", time: "3h ago", impact: "high", unread: false },
+  { id: 11, type: "funding", company: "SpaceX", headline: "Four things we'd need to put data centers in space", source: "MIT Tech Review", time: "3h ago", impact: "medium", unread: false },
+  { id: 12, type: "news", company: "Durin", headline: "India to acquire more air defense systems and drones for modern warfare", source: "Defense News", time: "5h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Durin", headline: "US F-15E fighter jet downed by Iran, rescue operations underway", source: "Breaking Defense", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Vast", headline: "White House again proposes steep NASA budget cuts", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Launch Delayed Until May 2026", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
