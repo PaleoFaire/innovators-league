@@ -1,5 +1,46 @@
 [
   {
+    "id": 184738,
+    "title": "Crew Health And Performance Exploration Analog (CHAPEA) Mission 2",
+    "description": "<p>Missions for Moon to Mars are very different from missions to the ISS due to length of isolation and confinement, distance from Earth, and the resource restrictions that will be applied to the crew. Artemis Program vehicles have limited mass allocations for food and other consumables. Given the increased distance to Mars and timeline for return, programs need to understand the impacts of restrictions within realistic constraints on health and performance to inform risk/resource trades prior t",
+    "status": "Active",
+    "startDate": "Oct 2025",
+    "endDate": "Sep 2027",
+    "lastUpdated": "04/02/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Human Health, Life Support, and Habitation Systems",
+    "partners": [
+      "Johnson Space Center",
+      "ABG AllTraq",
+      "Ames Research Center",
+      "Bjarke Ingels Group",
+      "Gratuitous Sets Laboratories",
+      "ICON",
+      "Kennedy Space Center",
+      "Marshall Space Flight Center",
+      "Pneuhaus",
+      "Skypersonic",
+      "Mars Campaign Office"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157848,
+    "title": "Li-ion Battery Tests",
+    "description": "<p>The \u201cworst-case\u201d fire identified by the Orion and HLS Programs is that of a Li-ion battery undergoing thermal runaway. In fact, a Li-ion battery fire was used to develop requirements for all the fire response equipment carried on-board and to evaluate the effect of an elevated %O2/reduced pressure on the propagation of such a fire. The purpose of this activity is to conduct ground-based tests of the thermal runaway of Li-ion batteries in single pouch cell and complete tablet and laptop comput",
+    "status": "Active",
+    "startDate": "Oct 2021",
+    "endDate": "Sep 2027",
+    "lastUpdated": "04/02/26",
+    "center": "Glenn Research Center",
+    "technologyArea": "Fire Detection, Suppression, and Recovery",
+    "partners": [
+      "Glenn Research Center",
+      "Case Western Reserve University"
+    ],
+    "website": ""
+  },
+  {
     "id": 93127,
     "title": "Logistics Reduction: Trash Compaction and Processing System",
     "description": "<p>The Mars Campaign Office, Logistics Reduction project called the Trash Compaction and Processing System (TCPS) is a waste management technology. Currently, there are no trash management practices that are being implemented in the space environment other than manual compaction of waste into a plastic bag. The current practice does not recover critical resources such as water, does not prevent the growth of potentially harmful microbiological pathogens, and provides only limited volume reductio",
@@ -2426,41 +2467,6 @@
       "Marshall Space Flight Center",
       "South Dakota State University",
       "University of Minnesota-Twin Cities"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157849,
-    "title": "Acid Gas Detection & Absorption",
-    "description": "<p>Based on tests performed in the Gas and Aerosol from Smoldering Polymers (GASP) lab, HCl and HF were included in the Anomaly Gas Analyzer (AGA) developed as the replacement for the Compound Specific Analyzer \u2013 Combustion Products (CSA-CP) on ISS. This instrument will also be used on Orion. However, the long-term fate of HCl and HF following a fire is not clear. While it is easily removed by a carbon filter, tests have shown that they readily adhere to surfaces. Therefore, rather than scrubbin",
-    "status": "Active",
-    "startDate": "Oct 2021",
-    "endDate": "Sep 2027",
-    "lastUpdated": "03/04/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Fire Detection, Suppression, and Recovery",
-    "partners": [
-      "Glenn Research Center",
-      "Ohio State University-Main Campus"
-    ],
-    "website": ""
-  },
-  {
-    "id": 94411,
-    "title": "Doppler Wind and Temperature Sounder: IR Limb Emission Sensor Development",
-    "description": "Key Objectives: We propose to develop and test, in the laboratory and from a balloon platform, a prototype limb emission sensor that will eventually be the basis for a space based high altitude temperature and wind sounder referred to as DWTS (Doppler Wind and Temperature Sounder). The goal of the proposed work is to further the development of this sensor and to verify in-orbit calibration procedures by flying it on a high altitude balloon. This will bring the DWTS technology to a high TRL level",
-    "status": "Completed",
-    "startDate": "Jan 2018",
-    "endDate": "Dec 2023",
-    "lastUpdated": "03/03/26",
-    "center": "GLOBAL ATMOSPHERIC TECHNOLOGIES AND SCIENCES",
-    "technologyArea": "Detectors and Focal Planes",
-    "partners": [
-      "GLOBAL ATMOSPHERIC TECHNOLOGIES AND SCIENCES",
-      "Brandywine Photonics LLC",
-      "GATS, Inc.",
-      "University of Colorado Boulder Laboratory for Atmospheric and Space Physics",
-      "Virginia Polytechnic Institute and State University"
     ],
     "website": ""
   }

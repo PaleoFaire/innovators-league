@@ -1,6 +1,7 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-02 07:58:12 UTC
+// Last updated: 2026-04-03 07:55:55 UTC
 const NASA_PROJECTS = [
+  { id: 184738, title: "Crew Health And Performance Exploration Analog (CHAPEA) Mission 2", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "04/02/26" },
   { id: 93127, title: "Logistics Reduction: Trash Compaction and Processing System", status: "Completed", center: "Ames Research Center", techArea: "Waste Management", lastUpdated: "04/01/26" },
   { id: 157638, title: "Advancing computed tomography techniques for surface deployment on the Moon, Mar", status: "Completed", center: "Goddard Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "04/01/26" },
   { id: 117130, title: "1030nm CASALS Lidar for Lunar Science", status: "Completed", center: "Goddard Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "04/01/26" },
@@ -30,5 +31,4 @@ const NASA_PROJECTS = [
   { id: 183913, title: "Autonomous Rover Navigation Enhancement", status: "Active", center: "", techArea: "", lastUpdated: "03/23/26" },
   { id: 184625, title: "Autonomous Systems Study", status: "Completed", center: "Langley Research Center", techArea: "Autonomous Systems", lastUpdated: "03/23/26" },
   { id: 184677, title: "10kW VSAT Study", status: "Completed", center: "Langley Research Center", techArea: "Photovoltaic Electrical Power", lastUpdated: "03/23/26" },
-  { id: 184647, title: "Surface Power Model", status: "Active", center: "Glenn Research Center", techArea: "Management and Control", lastUpdated: "03/23/26" },
 ];

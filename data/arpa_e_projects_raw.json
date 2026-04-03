@@ -24,7 +24,7 @@
     "organization": "Inventwood LLC",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "College Park, MD",
     "state": "MD",
     "awardAmount": 20000000,
@@ -44,26 +44,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Passively Controlled Floating Wind Platforms for Low-cost Energy",
-    "organization": "Kent Houston Offshore Engineering",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Houston, TX",
-    "state": "TX",
-    "awardAmount": 19453000,
-    "awardFormatted": "19,453,000",
-    "releaseDate": "Jan 20 2022",
-    "programName": "SCALEUP 2021",
-    "programAcronym": null,
-    "technologyAreas": [
-      "Renewables",
-      "Power Generation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": true
-  },
-  {
     "title": "Pilot Production for Commercial Sampling of Rare-Earth-Free Iron Nitride Permanent Magnets",
     "organization": "Niron Magnetics, Inc.",
     "orgType": "Private Company",
@@ -71,8 +51,8 @@
     "status": "Active",
     "location": "Minneapolis, MN",
     "state": "MN",
-    "awardAmount": 17499372,
-    "awardFormatted": "17,499,372",
+    "awardAmount": 19999372,
+    "awardFormatted": "19,999,372",
     "releaseDate": "Jan 20 2022",
     "programName": "SCALEUP 2021",
     "programAcronym": null,
@@ -81,6 +61,26 @@
       "Industrial Efficiency",
       "Power Systems",
       "Transportation",
+      "Renewables",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Passively Controlled Floating Wind Platforms for Low-cost Energy",
+    "organization": "Kent Houston Offshore Engineering",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Cancelled",
+    "location": "Houston, TX",
+    "state": "TX",
+    "awardAmount": 19453000,
+    "awardFormatted": "19,453,000",
+    "releaseDate": "Jan 20 2022",
+    "programName": "SCALEUP 2021",
+    "programAcronym": null,
+    "technologyAreas": [
       "Renewables",
       "Power Generation"
     ],
@@ -190,6 +190,26 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Scale-up Technology for Accelerated Adoption of High-Capacity Silicon Anodes in Mass Market Electric Vehicles",
+    "organization": "Sila Nanotechnologies, Inc.",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Alameda, CA",
+    "state": "CA",
+    "awardAmount": 10000000,
+    "awardFormatted": "10,000,000",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Batteries",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Catalyzing Commercialization of Geomechanical Pumped Storage",
     "organization": "Quidnet Energy Inc.",
     "orgType": "Private Company",
@@ -216,7 +236,7 @@
     "organization": "Via Separations, Inc.",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Cambridge, MA",
     "state": "MA",
     "awardAmount": 9750000,
@@ -257,7 +277,7 @@
     "organization": "Switched Source LLC",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Chicago , IL",
     "state": "IL",
     "awardAmount": 8560000,
@@ -293,21 +313,21 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Liquid Lead Suspended Fuel Subcritical Fission Blanket for Nuclear Waste Transmutation ",
-    "organization": "Argonne National Laboratory (ANL)",
-    "orgType": "National Laboratory",
+    "title": "Liquid Lead Suspended Fuel Subcritical Fission Blanket for Nuclear Waste Transmutation",
+    "organization": "Argonne National Laboratory",
+    "orgType": "",
     "orgWebsite": [],
     "status": "Active",
-    "location": "Argonne, IL",
+    "location": "Lemont, IL",
     "state": "IL",
     "awardAmount": 7000000,
     "awardFormatted": "7,000,000",
-    "releaseDate": "Sep 08 2025",
+    "releaseDate": "Jul 16 2024",
     "programName": "NEWTON",
     "programAcronym": "Nuclear Energy Waste Transmutation Optimized Now",
     "technologyAreas": [
-      "Power Generation",
-      "Nuclear Fission"
+      "Nuclear Fission",
+      "Power Generation"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -333,26 +353,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "SLEUTH: Spectroscopy of Oceanic Liquid Environments Using Towed Optical Sensor Heads",
-    "organization": "University of Colorado, Boulder (CU-Boulder)  ",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Boulder, CO",
-    "state": "CO",
-    "awardAmount": 6204233,
-    "awardFormatted": "6,204,233",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    "technologyAreas": [
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Cryogen-Free Ultra-High Field Superconducting Electric Motor",
     "organization": "Hinetics",
     "orgType": "Private Company",
@@ -371,6 +371,66 @@
       "Power Systems"
     ],
     "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Reducing N2O Emissions by Increasing NUE in Bioenergy Crops",
+    "organization": "New York University",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "New York, NY",
+    "state": "NY",
+    "awardAmount": 5600000,
+    "awardFormatted": "5,600,000",
+    "releaseDate": "Jul 11 2024",
+    "programName": "TEOSYNTE",
+    "programAcronym": "Technologies to Emend and Obviate SYnthetic Nitrogen\u2019s Toll on Energy",
+    "technologyAreas": [
+      "Biomass",
+      "Agriculture & Bioenergy"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Breeding and Mechanisms to Maximize Yield at 45% Current Nitrogen Level",
+    "organization": "Colorado State University",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Fort Collins, CO",
+    "state": "CO",
+    "awardAmount": 5400000,
+    "awardFormatted": "5,400,000",
+    "releaseDate": "Jul 11 2024",
+    "programName": "TEOSYNTE",
+    "programAcronym": "Technologies to Emend and Obviate SYnthetic Nitrogen\u2019s Toll on Energy",
+    "technologyAreas": [
+      "Biomass",
+      "Agriculture & Bioenergy"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "8&quot; 3DGaN FinFET Technology for Energy Efficient Data Centers and 5G Network",
+    "organization": "Finwave Semiconductor Inc.",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Belmont, MA",
+    "state": "MA",
+    "awardAmount": 5021681,
+    "awardFormatted": "5,021,681",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Lighting",
+      "Buildings"
+    ],
+    "isKnownCompany": true,
     "isPrivateCompany": true
   },
   {
@@ -394,7 +454,7 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Closing the Cycle with NuCycle",
+    "title": "Closing the Cycle with NuCycle&trade;",
     "organization": "Curio Solutions",
     "orgType": "Private Company",
     "orgWebsite": [],
@@ -414,21 +474,21 @@
     "isPrivateCompany": true
   },
   {
-    "title": "ECHO-Fuels: Electrified CO2 Hydrogenation to Olefins for Liquid Hydrocarbon Fuels",
-    "organization": "Susteon",
+    "title": "Basin-SCAN: Basin Scale Continuous Oil and Gas Emissions Mitigation Network",
+    "organization": "LongPath Technologies Inc.",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
-    "location": "Cary, NC",
-    "state": "NC",
-    "awardAmount": 4999500,
-    "awardFormatted": "4,999,500",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
+    "status": "Alumni",
+    "location": "Boulder, CO",
+    "state": "CO",
+    "awardAmount": 5000000,
+    "awardFormatted": "5,000,000",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
     "technologyAreas": [
-      "Fuels",
-      "Transportation"
+      "Other - Resources",
+      "Resources"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
@@ -438,7 +498,7 @@
     "organization": "CorePower Magnetics, Inc.",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Pittsburgh, PA",
     "state": "PA",
     "awardAmount": 4998428,
@@ -545,26 +605,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Quantification of Atmospheric Carbon Dioxide Removal Using an Autonomous Ocean Sensor that Measures Sinking Particulate Carbon Flux",
-    "organization": "Woods Hole Oceanographic Institution",
-    "orgType": "Non-Profit",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Woods Hole, MA",
-    "state": "MA",
-    "awardAmount": 4802197,
-    "awardFormatted": "4,802,197",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    "technologyAreas": [
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Vertical GaN Photoconductive Semiconductor Switch for HVDC Breakers",
     "organization": "SixPoint Materials",
     "orgType": "Private Company",
@@ -605,6 +645,26 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
+  },
+  {
+    "title": "Scaling Disruptive Methane Leak Detection and Quantification",
+    "organization": "Bridger Photonics, Inc.",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Bozeman, MT",
+    "state": "MT",
+    "awardAmount": 4572000,
+    "awardFormatted": "4,572,000",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Other - Resources",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
   },
   {
     "title": "Quantum Computing for Hydrogen Fuel Production ",
@@ -707,46 +767,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Low Temperature Membraneless Carbon Dioxide Electrolyzers for Low-Cost Production of Ethanol Under Dynamic Conditions",
-    "organization": "Columbia University",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "New York, NY",
-    "state": "NY",
-    "awardAmount": 4275642,
-    "awardFormatted": "4,275,642",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
-    "title": "Spatially Resolved Multi-Parameter Sensing Of Ocean Carbon Dynamics Utilizing Fiber Optic Time-Of-Flight Sensors",
-    "organization": "General Electric (GE) Global Research",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Niskayuna, NY",
-    "state": "NY",
-    "awardAmount": 4274658,
-    "awardFormatted": "4,274,658",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    "technologyAreas": [
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": true,
-    "isPrivateCompany": true
-  },
-  {
     "title": "High Speed Installation of Buried Medium Voltage Electrical Distribution Lines Using a Single Pass System",
     "organization": "Arizona State University (ASU)",
     "orgType": "University",
@@ -807,21 +827,27 @@
     "isPrivateCompany": true
   },
   {
-    "title": "SIMPLE Process to Dynamic Methanol Synthesis",
-    "organization": "HeatPath Solutions",
+    "title": "REDUCE: Recover Elements - Destroy Undesirables - Create Energy",
+    "organization": "SHINE Technologies, LLC",
     "orgType": "Private Company",
-    "orgWebsite": [],
+    "orgWebsite": [
+      {
+        "uri": "https://www.shinefusion.com/",
+        "title": "",
+        "options": []
+      }
+    ],
     "status": "Active",
-    "location": "Lewis Center, OH",
-    "state": "OH",
-    "awardAmount": 4000000,
-    "awardFormatted": "4,000,000",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
+    "location": "Janesville, WI",
+    "state": "WI",
+    "awardAmount": 4030306,
+    "awardFormatted": "4,030,306",
+    "releaseDate": "Jul 16 2024",
+    "programName": "NEWTON",
+    "programAcronym": "Nuclear Energy Waste Transmutation Optimized Now",
     "technologyAreas": [
-      "Fuels",
-      "Transportation"
+      "Nuclear Fission",
+      "Power Generation"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
@@ -894,8 +920,8 @@
     "status": "Alumni",
     "location": "Littleton, CO",
     "state": "CO",
-    "awardAmount": 3976020,
-    "awardFormatted": "3,976,020",
+    "awardAmount": 3976017,
+    "awardFormatted": "3,976,017",
     "releaseDate": "Feb 11 2021",
     "programName": "OPEN 2021",
     "programAcronym": "Open Funding Solicitation",
@@ -950,46 +976,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Scalable, Multiparameter Chip-Size Carbon Sensors",
-    "organization": "Woods Hole Oceanographic Institution",
-    "orgType": "Non-Profit",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Woods Hole, MA",
-    "state": "MA",
-    "awardAmount": 3904266,
-    "awardFormatted": "3,904,266",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    "technologyAreas": [
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
-    "title": "Computational Systems for Tracking Ocean Carbon (C-Star)",
-    "organization": "[C]Worthy",
-    "orgType": "Non-Profit",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Boulder, CO",
-    "state": "CO",
-    "awardAmount": 3884825,
-    "awardFormatted": "3,884,825",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    "technologyAreas": [
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Hydrogen Steam and Inter-Cooled Turbine Engine (HySITE)",
     "organization": "Pratt & Whitney",
     "orgType": "Private Company",
@@ -1015,7 +1001,7 @@
     "organization": "Eden GeoPower",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Somerville, MA",
     "state": "MA",
     "awardAmount": 3796672,
@@ -1054,31 +1040,11 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Renewable Propane Production using Dynamic CO2 Electrolysis (E-PROPANE)",
-    "organization": "Illinois Institute of Technology (IIT)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Chicago, IL",
-    "state": "IL",
-    "awardAmount": 3784848,
-    "awardFormatted": "3,784,848",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "UPWARDS: Universal Performance Criteria and Canister for Advanced Reactor Waste Form Acceptance in Borehole and Mined Repositories Considering Design Safety",
     "organization": "Deep Isolation",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Alumni",
+    "status": "Active",
     "location": "Berkeley, CA",
     "state": "CA",
     "awardAmount": 3770362,
@@ -1118,7 +1084,7 @@
     "organization": "Texas A&M University",
     "orgType": "University",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "College Station, TX",
     "state": "TX",
     "awardAmount": 3742496,
@@ -1193,28 +1159,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Printed Microreactor for Advanced Energy Fuel Production (PRIME-Fuel)",
-    "organization": "SRI International  ",
-    "orgType": "Non-Profit",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Menlo Park, CA",
-    "state": "CA",
-    "awardAmount": 3648906,
-    "awardFormatted": "3,648,906",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation",
-      "Manufacturing",
-      "Industrial Efficiency"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Quantum-Enabled Direct Methane-to-Methanol (DMTM) ",
     "organization": "PsiQuantum, Corp.",
     "orgType": "Private Company",
@@ -1239,7 +1183,7 @@
     "organization": "Argonne National Laboratory (ANL)",
     "orgType": "National Laboratory",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Lemont, IL",
     "state": "IL",
     "awardAmount": 3600000,
@@ -1358,10 +1302,10 @@
   },
   {
     "title": "ReSOURCE: The Carbon Negative Biorefinery of the Future",
-    "organization": "National Laboratory of the Rockies (NLR)",
-    "orgType": "National Laboratory",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Golden, CO",
     "state": "CO",
     "awardAmount": 3508800,
@@ -1440,6 +1384,26 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Saving Energy In Commercial and Industrial Refrigeration Systems Using Radiative Sky Cooling",
+    "organization": "SkyCool Systems, Inc.",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Mountain View, CA",
+    "state": "CA",
+    "awardAmount": 3494653,
+    "awardFormatted": "3,494,653",
+    "releaseDate": "Jan 12 2021",
+    "programName": "SCALEUP 2019",
+    "programAcronym": null,
+    "technologyAreas": [
+      "Heating & Cooling",
+      "Buildings"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Multi-Objective Optimization Software for COOLERCHIPS",
     "organization": "University of Maryland (UMD)",
     "orgType": "University",
@@ -1501,26 +1465,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Next-Generation Flexible Modular e-Methanol Production",
-    "organization": "RTI International",
-    "orgType": "Non-Profit",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Research Triangle Park, NC",
-    "state": "NC",
-    "awardAmount": 3400000,
-    "awardFormatted": "3,400,000",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "MATRICY: Matrix Engineered TRISO Compacts Enabling Advanced Reactor Fuel Cycles",
     "organization": "Stony Brook University",
     "orgType": "University",
@@ -1561,11 +1505,31 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Substation in a Cable for Adaptable, Low-cost Electrical Distribution (SCALED)",
+    "organization": "Virginia Polytechnic Institute and State University (Virginia Tech)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Blacksburg, VA",
+    "state": "VA",
+    "awardAmount": 3383389,
+    "awardFormatted": "3,383,389",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Other - Grid",
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "High Capacity Electrolyzers Based on Ultrathin Proton-Conducting Oxide Membranes",
     "organization": "Columbia University",
     "orgType": "University",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "New York, NY",
     "state": "NY",
     "awardAmount": 3375712,
@@ -1584,8 +1548,8 @@
   },
   {
     "title": "Incorporating Record-Breaking Catalysts in Electrospun Bipolar Membranes",
-    "organization": "National Laboratory of the Rockies (NLR)",
-    "orgType": "National Laboratory",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
     "orgWebsite": [],
     "status": "Active",
     "location": "Golden, CO",
@@ -1665,6 +1629,26 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Development of the Technical and Business Case for the  Establishment of an Advanced Fuel Cycle Enterprise",
+    "organization": "Electric Power Research Institute (EPRI)",
+    "orgType": "Non-Profit",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Palo Alto, CA",
+    "state": "CA",
+    "awardAmount": 3265984,
+    "awardFormatted": "3,265,984",
+    "releaseDate": "Mar 15 2022",
+    "programName": "CURIE",
+    "programAcronym": "Converting UNF Radioisotopes Into Energy",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Embedded Microfluidic Cooling for Nextgen High Power Server Architectures",
     "organization": "HP",
     "orgType": "Private Company",
@@ -1705,26 +1689,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Development of the Technical and Business Case for the  Establishment of an Advanced Fuel Cycle Enterprise",
-    "organization": "Electric Power Research Institute (EPRI)",
-    "orgType": "Non-Profit",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Palo Alto, CA",
-    "state": "CA",
-    "awardAmount": 3215992,
-    "awardFormatted": "3,215,992",
-    "releaseDate": "Mar 15 2022",
-    "programName": "CURIE",
-    "programAcronym": "Converting UNF Radioisotopes Into Energy",
-    "technologyAreas": [
-      "Nuclear Fission",
-      "Power Generation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "A Photosynthetic Route to Carbon-Negative Portland Limestone Cement",
     "organization": "University of Colorado, Boulder (CU-Boulder)",
     "orgType": "University",
@@ -1751,7 +1715,7 @@
     "organization": "Opcondys",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Cancelled",
     "location": "Manteca, CA",
     "state": "CA",
     "awardAmount": 3178977,
@@ -1773,7 +1737,7 @@
     "organization": "Northeastern University",
     "orgType": "University",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Boston, MA",
     "state": "MA",
     "awardAmount": 3150000,
@@ -1834,7 +1798,7 @@
     "organization": "Pacific Northwest National Laboratory (PNNL)",
     "orgType": "National Laboratory",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Richland, WA",
     "state": "WA",
     "awardAmount": 3114700,
@@ -1927,26 +1891,6 @@
       "Nuclear Fission",
       "Power Generation",
       "Nuclear Fusion"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
-    "title": "e-CO2LUMN: The Dynamic CO2 Electrolyzer Column",
-    "organization": "University of California, Los Angeles (UCLA)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Los Angeles, CA",
-    "state": "CA",
-    "awardAmount": 3076000,
-    "awardFormatted": "3,076,000",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -2223,7 +2167,7 @@
     "organization": "University of California, Los Angeles (UCLA)",
     "orgType": "University",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Los Angeles, CA",
     "state": "CA",
     "awardAmount": 3000000,
@@ -2323,6 +2267,26 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Nb3Sn Proton Driver Linac for Accelerator Driven Systems",
+    "organization": "Argonne National Laboratory",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Lemont, IL",
+    "state": "IL",
+    "awardAmount": 2969989,
+    "awardFormatted": "2,969,989",
+    "releaseDate": "Jul 16 2024",
+    "programName": "NEWTON",
+    "programAcronym": "Nuclear Energy Waste Transmutation Optimized Now",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Hydrometallurgical Production of Domestic Metals for Energy Transition",
     "organization": "Columbia University",
     "orgType": "University",
@@ -2340,26 +2304,6 @@
       "Industrial Efficiency",
       "Other - Resources",
       "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
-    "title": "Substation in a Cable for Adaptable, Low-cost Electrical Distribution (SCALED)",
-    "organization": "Virginia Polytechnic Institute and State University (Virginia Tech)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Blacksburg, VA",
-    "state": "VA",
-    "awardAmount": 2938389,
-    "awardFormatted": "2,938,389",
-    "releaseDate": "Feb 11 2021",
-    "programName": "OPEN 2021",
-    "programAcronym": "Open Funding Solicitation",
-    "technologyAreas": [
-      "Other - Grid",
-      "Grid"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -2433,7 +2377,7 @@
     "organization": "University of California, Santa Barbara (UC Santa Barbara)",
     "orgType": "University",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Santa Barbara, CA",
     "state": "CA",
     "awardAmount": 2897686,
@@ -2447,6 +2391,47 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
+  },
+  {
+    "title": "Group Hexavalent Actinide Separation: A Single-Step, Proliferation Resistant Approach to Nuclear Fuel Reprocessing",
+    "organization": "University of Alabama at Birmingham (UAB)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Birmingham, AL",
+    "state": "AL",
+    "awardAmount": 2892217,
+    "awardFormatted": "2,892,217",
+    "releaseDate": "Mar 15 2022",
+    "programName": "CURIE",
+    "programAcronym": "Converting UNF Radioisotopes Into Energy",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Low-Temperature Green Ironmaking from Unconventional Feedstocks",
+    "organization": "Electra",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Boulder, CO",
+    "state": "CO",
+    "awardAmount": 2872216,
+    "awardFormatted": "2,872,216",
+    "releaseDate": "Jun 22 2023",
+    "programName": "ROSIE",
+    "programAcronym": "Revolutionizing Ore to Steel to Impact Energy",
+    "technologyAreas": [
+      "Manufacturing",
+      "Industrial Efficiency",
+      "Other - Industrial Efficiency"
+    ],
+    "isKnownCompany": true,
+    "isPrivateCompany": true
   },
   {
     "title": "Electrochemical Lithium and Nickel Extraction with Concurrent Carbon Dioxide Mineralization (Phase 2)",
@@ -2489,27 +2474,6 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
-  },
-  {
-    "title": "Low-Temperature Green Ironmaking from Unconventional Feedstocks",
-    "organization": "Electra",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Boulder, CO",
-    "state": "CO",
-    "awardAmount": 2847216,
-    "awardFormatted": "2,847,216",
-    "releaseDate": "Jun 22 2023",
-    "programName": "ROSIE",
-    "programAcronym": "Revolutionizing Ore to Steel to Impact Energy",
-    "technologyAreas": [
-      "Manufacturing",
-      "Industrial Efficiency",
-      "Other - Industrial Efficiency"
-    ],
-    "isKnownCompany": true,
-    "isPrivateCompany": true
   },
   {
     "title": "Holistic Co-Design of Novel Hybrid Cooling Technology for the Data Center of the Future",
@@ -2574,28 +2538,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Assessment of the CO2 Mineralization Potential of  Tamarack's Ultramafic Bowl-Shaped Intrusion",
-    "organization": "Rio Tinto Services",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "South Jordan, UT",
-    "state": "UT",
-    "awardAmount": 2805248,
-    "awardFormatted": "2,805,248",
-    "releaseDate": "Feb 11 2021",
-    "programName": "OPEN 2021",
-    "programAcronym": "Open Funding Solicitation",
-    "technologyAreas": [
-      "Other - Industrial Efficiency",
-      "Industrial Efficiency",
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": true
-  },
-  {
     "title": "Development and Demonstration of a Highly Selective Rare Earth Elements Recovery System Using Novel Ion Imprinted Media ",
     "organization": "University of Missouri",
     "orgType": "University",
@@ -2613,26 +2555,6 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
-  },
-  {
-    "title": "A Scalable, Integrated, Real-Time, GPU-Based Modeling System to Enable MRV for mCDR",
-    "organization": "atdepth MRV",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Wellesley, MA",
-    "state": "MA",
-    "awardAmount": 2776460,
-    "awardFormatted": "2,776,460",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    "technologyAreas": [
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": true
   },
   {
     "title": "A UNIVERSAL (Ultrafast, Noise-Immune, Versatile, Efficient, Reliable, Scalable, and Accurate Light-Controlled) Switch Module",
@@ -2704,26 +2626,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Distributed Methanol from CO2 via Plasma-Enhanced Catalysis (PEC)",
-    "organization": "North Carolina State University (NC State)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Raleigh, NC",
-    "state": "NC",
-    "awardAmount": 2729143,
-    "awardFormatted": "2,729,143",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Nitrogen and Phosphorus Recovery via Intensified Microbial Extraction (N-PRIME): A Biotechnological Approach for Valorization of Municipal Wastewater",
     "organization": "Northwestern University",
     "orgType": "University",
@@ -2786,10 +2688,10 @@
   },
   {
     "title": "Repurposing Infrastructure for Gravity Storage using Underground Potential energy (RIGS UP)",
-    "organization": "National Laboratory of the Rockies (NLR)",
-    "orgType": "National Laboratory",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Golden, CO",
     "state": "CO",
     "awardAmount": 2700000,
@@ -2823,26 +2725,6 @@
     ],
     "isKnownCompany": true,
     "isPrivateCompany": true
-  },
-  {
-    "title": "Rapid State of Health Diagnosis by Model-Enabled Pulse Form Sequence",
-    "organization": "University of Michigan",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Ann Arbor, MI",
-    "state": "MI",
-    "awardAmount": 2680000,
-    "awardFormatted": "2,680,000",
-    "releaseDate": "Jan 31 2024",
-    "programName": "CIRCULAR",
-    "programAcronym": "Catalyzing Innovative Research for Circular Use of Long-lived Advanced Rechargeables",
-    "technologyAreas": [
-      "Batteries",
-      "Transportation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
   },
   {
     "title": "Development of Robust Anode Materials for the Electrochemical Recovery of Actinide Elements from the Used Nuclear Fuel",
@@ -2886,20 +2768,20 @@
   },
   {
     "title": "SMART-OPS: Self-learning Machine intelligence for Accelerator Reliability, Trip Optimization, and Performance Stabilization",
-    "organization": "Oak Ridge National Laboratory (ORNL)",
-    "orgType": "National Laboratory",
+    "organization": "UT-Batelle LLC",
+    "orgType": "",
     "orgWebsite": [],
     "status": "Active",
     "location": "Oak Ridge, TN",
     "state": "TN",
     "awardAmount": 2626200,
     "awardFormatted": "2,626,200",
-    "releaseDate": "Aug 28 2025",
+    "releaseDate": "Jul 16 2024",
     "programName": "NEWTON",
     "programAcronym": "Nuclear Energy Waste Transmutation Optimized Now",
     "technologyAreas": [
-      "Power Generation",
-      "Nuclear Fission"
+      "Nuclear Fission",
+      "Power Generation"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -2985,6 +2867,26 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Achieving 1% Assay of Special Nuclear Materials in 2 Minutes with Microcalorimeter-Array Gamma-Ray Spectroscopy",
+    "organization": "University of Colorado, Boulder (CU-Boulder)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Boulder, CO",
+    "state": "CO",
+    "awardAmount": 2544663,
+    "awardFormatted": "2,544,663",
+    "releaseDate": "Mar 15 2022",
+    "programName": "CURIE",
+    "programAcronym": "Converting UNF Radioisotopes Into Energy",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "QUantum Innovation for Corrosion Kinetics (QUICK)",
     "organization": "The Boeing Company",
     "orgType": "Private Company",
@@ -3009,7 +2911,7 @@
     "organization": "Raytheon Technologies Research Center",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Cancelled",
     "location": "East Hartford, CT",
     "state": "CT",
     "awardAmount": 2504015,
@@ -3025,21 +2927,21 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Hybrid Distributed pH, CO2, Temperature, and Acoustic Sensing for Monitoring and Verification of Marine Carbon Dioxide Removal Applications",
-    "organization": "University of Pittsburgh",
-    "orgType": "University",
+    "title": "SyN-Fix: Synthetic Biology to Improve Nitrogen Cycling in the Maize Rhizosphere",
+    "organization": "University of Tennessee",
+    "orgType": "",
     "orgWebsite": [],
-    "status": "Active",
-    "location": "Pittsburgh, PA",
-    "state": "PA",
-    "awardAmount": 2500490,
-    "awardFormatted": "2,500,490",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
+    "status": "Selected",
+    "location": "Knoxville, TN",
+    "state": "TN",
+    "awardAmount": 2500000,
+    "awardFormatted": "2,500,000",
+    "releaseDate": "Jul 11 2024",
+    "programName": "TEOSYNTE",
+    "programAcronym": "Technologies to Emend and Obviate SYnthetic Nitrogen\u2019s Toll on Energy",
     "technologyAreas": [
-      "Other - Resources",
-      "Resources"
+      "Biomass",
+      "Agriculture & Bioenergy"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -3062,6 +2964,27 @@
       "Resources",
       "Nuclear Fusion",
       "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "GRADED: Gradient composites with Radiation Amorphization-enabled Dimensional stability and Energy Dissipation",
+    "organization": "University of Illinois, Urbana-Champaign (UIUC)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Champaign, IL",
+    "state": "IL",
+    "awardAmount": 2500000,
+    "awardFormatted": "2,500,000",
+    "releaseDate": "Jan 11 2024",
+    "programName": "CHADWICK",
+    "programAcronym": "Creating Hardened And Durable fusion first Wall Incorporating Centralized Knowledge",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation",
+      "Nuclear Fusion"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -3111,7 +3034,7 @@
     "organization": "Oregon State University (OSU)",
     "orgType": "University",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Corvallis, OR",
     "state": "OR",
     "awardAmount": 2500000,
@@ -3216,10 +3139,10 @@
   },
   {
     "title": "Cutting the Carbon from Insulation  Cellulose-Mycelium Composite Material",
-    "organization": "National Laboratory of the Rockies (NLR)",
-    "orgType": "National Laboratory",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Golden, CO",
     "state": "CO",
     "awardAmount": 2476145,
@@ -3417,31 +3340,33 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Stranded Energy Resources to Liquid Hydrocarbon Fuels using Reciprocating Reactors",
-    "organization": "Emvolon",
-    "orgType": "Private Company",
+    "title": "Batch-wise Improvement in Reduced Design Space using a Holistic Optimization Technique for FUSion Environments (BIRDSHOT-FUSE)",
+    "organization": "Texas A&M Engineering Experiment Station",
+    "orgType": "University",
     "orgWebsite": [],
     "status": "Active",
-    "location": "Moburn, MA",
-    "state": "MA",
-    "awardAmount": 2339828,
-    "awardFormatted": "2,339,828",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
+    "location": "College Station, TX",
+    "state": "TX",
+    "awardAmount": 2360000,
+    "awardFormatted": "2,360,000",
+    "releaseDate": "Jan 11 2024",
+    "programName": "CHADWICK",
+    "programAcronym": "Creating Hardened And Durable fusion first Wall Incorporating Centralized Knowledge",
     "technologyAreas": [
-      "Fuels",
-      "Transportation"
+      "Materials",
+      "Resources",
+      "Nuclear Fusion",
+      "Power Generation"
     ],
     "isKnownCompany": false,
-    "isPrivateCompany": true
+    "isPrivateCompany": false
   },
   {
     "title": "Traveling Molten Zone Refining Process Development for Innovative Fuel Cycle Solutions",
     "organization": "Idaho National Laboratory (INL)",
     "orgType": "National Laboratory",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Idaho Falls, ID",
     "state": "ID",
     "awardAmount": 2326343,
@@ -3523,7 +3448,7 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Technical approach to achieving attractive ads economics based on near-term high current cyclotrons ",
+    "title": "Technical Approach to Achieving Attractive Ads Economics Based on Near-Term High Current Cyclotrons",
     "organization": "SUNY University at Stony Brook",
     "orgType": "",
     "orgWebsite": [],
@@ -3532,32 +3457,12 @@
     "state": "NY",
     "awardAmount": 2295000,
     "awardFormatted": "2,295,000",
-    "releaseDate": "Sep 17 2025",
+    "releaseDate": "Jul 16 2024",
     "programName": "NEWTON",
     "programAcronym": "Nuclear Energy Waste Transmutation Optimized Now",
     "technologyAreas": [
-      "Power Generation",
-      "Nuclear Fission"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
-    "title": "Monitoring, Reporting and Verification of Zooplankton-Mediated Export Pathways for Carbon Sequestration",
-    "organization": "Bigelow Laboratory for Ocean Sciences",
-    "orgType": "Non-Profit",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "East Boothbay, ME",
-    "state": "ME",
-    "awardAmount": 2279867,
-    "awardFormatted": "2,279,867",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    "technologyAreas": [
-      "Other - Resources",
-      "Resources"
+      "Nuclear Fission",
+      "Power Generation"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -3667,21 +3572,65 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Acoustic Methods for mCDR based on Blue Carbon Burial in Seagrass Meadows",
-    "organization": "University of Texas at Austin (UT Austin)",
-    "orgType": "University",
+    "title": "Assessment of the CO2 Mineralization Potential of  Tamarack's Ultramafic Bowl-Shaped Intrusion",
+    "organization": "Rio Tinto Services",
+    "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
-    "location": "Austin, TX",
-    "state": "TX",
-    "awardAmount": 2238393,
-    "awardFormatted": "2,238,393",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
+    "status": "Alumni",
+    "location": "South Jordan, UT",
+    "state": "UT",
+    "awardAmount": 2222202,
+    "awardFormatted": "2,222,202",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
     "technologyAreas": [
+      "Other - Industrial Efficiency",
+      "Industrial Efficiency",
       "Other - Resources",
       "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Superconducting Nb3Sn Cavities for Efficient and Reliable 10 MW Proton Linacs",
+    "organization": "Jefferson Science Associates, LLC",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Newport News, VA",
+    "state": "VA",
+    "awardAmount": 2207944,
+    "awardFormatted": "2,207,944",
+    "releaseDate": "Jul 16 2024",
+    "programName": "NEWTON",
+    "programAcronym": "Nuclear Energy Waste Transmutation Optimized Now",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "A Hybrid Electrochemical and Catalytic Compression System for Direct Generation of High-Pressure Hydrogen at 700 Bar",
+    "organization": "California Institute of Technology (Caltech)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Pasadena, CA",
+    "state": "CA",
+    "awardAmount": 2176574,
+    "awardFormatted": "2,176,574",
+    "releaseDate": "Feb 11 2021",
+    "programName": "OPEN 2021",
+    "programAcronym": "Open Funding Solicitation",
+    "technologyAreas": [
+      "Fuels",
+      "Transportation",
+      "Storage",
+      "Grid"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -3708,11 +3657,11 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Integrated Sensor Network for Monitoring Biofuel Feedstock Soil Dynamics",
+    "title": "Mesh Network of Soil Sensors for Greenhouse Gas Monitoring of Biofuel Agriculture",
     "organization": "University of California, Berkeley (UC Berkeley)",
     "orgType": "University",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Berkeley, CA",
     "state": "CA",
     "awardAmount": 2148991,
@@ -3811,26 +3760,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Integrated Experimental and Modeling Assessment of Ocean Alkalinity Enhancement for Scalable Marine Carbon Dioxide Removal",
-    "organization": "Pacific Northwest National Laboratory (PNNL)  ",
-    "orgType": "National Laboratory",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Richland, WA",
-    "state": "WA",
-    "awardAmount": 2080715,
-    "awardFormatted": "2,080,715",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    "technologyAreas": [
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Peristaltic Conduit with Stiff Structure and Compliant Skin",
     "organization": "Case Western Reserve University",
     "orgType": "University",
@@ -3893,26 +3822,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "SEAfloor Self-sustaining CO2 Assessment Probe Edge (SEASCAPE)",
-    "organization": "University of Utah   ",
-    "orgType": "",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Salt Lake City, UT",
-    "state": "UT",
-    "awardAmount": 2004554,
-    "awardFormatted": "2,004,554",
-    "releaseDate": "Feb 16 2023",
-    "programName": "SEASIGHT",
-    "programAcronym": "Subsea Energy and Asset Sensing for Infrastructure, Geoscience and High-resolution Telemetry ",
-    "technologyAreas": [
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Biomimetic Membranes for Electrochemical Nutrient and Mineral Recovery from Wastewaters",
     "organization": "University of Texas at Austin (UT Austin)",
     "orgType": "University",
@@ -3936,7 +3845,7 @@
     "organization": "SkyNano Technologies",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Knoxville, TN",
     "state": "TN",
     "awardAmount": 2000000,
@@ -4014,26 +3923,6 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Achieving 1% Assay of Special Nuclear Materials in 2 Minutes with Microcalorimeter-Array Gamma-Ray Spectroscopy",
-    "organization": "University of Colorado, Boulder (CU-Boulder)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Boulder, CO",
-    "state": "CO",
-    "awardAmount": 1994663,
-    "awardFormatted": "1,994,663",
-    "releaseDate": "Mar 15 2022",
-    "programName": "CURIE",
-    "programAcronym": "Converting UNF Radioisotopes Into Energy",
-    "technologyAreas": [
-      "Nuclear Fission",
-      "Power Generation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Ultramafic Tailings Leaching and Lateritization with Electrolytic Acid Recycling for Critical Metal Recovery and Enhanced Mineral Carbonation",
     "organization": "Travertine Technologies",
     "orgType": "Private Company",
@@ -4077,28 +3966,6 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
-  },
-  {
-    "title": "AIRCAP: Advancing Integration and Reactors for Carbon Capture and Conversion",
-    "organization": "Georgia Institute of Technology (Georgia Tech)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Atlanta, GA",
-    "state": "GA",
-    "awardAmount": 1970200,
-    "awardFormatted": "1,970,200",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation",
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
   },
   {
     "title": "Off-Gas Treatment Process for Conditioning and Recycling Facilities",
@@ -4229,26 +4096,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Centralized and On-Demand Radiation Transport and Techno-Economics (CORTEX) for Fusion Material Engineering",
-    "organization": "University of Illinois, Urbana-Champaign (UIUC)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Champaign, IL",
-    "state": "IL",
-    "awardAmount": 1870000,
-    "awardFormatted": "1,870,000",
-    "releaseDate": "Jan 11 2024",
-    "programName": "CHADWICK",
-    "programAcronym": "Creating Hardened And Durable fusion first Wall Incorporating Centralized Knowledge",
-    "technologyAreas": [
-      "Nuclear Fusion",
-      "Power Generation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Intensified Alkenyl Benzenes Production via Modular Redox Dehydrogenation",
     "organization": "North Carolina State University (NC State)",
     "orgType": "University",
@@ -4271,51 +4118,9 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Group Hexavalent Actinide Separation: A Single-Step, Proliferation Resistant Approach to Nuclear Fuel Reprocessing",
-    "organization": "University of Alabama at Birmingham (UAB)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Birmingham, AL",
-    "state": "AL",
-    "awardAmount": 1844988,
-    "awardFormatted": "1,844,988",
-    "releaseDate": "Mar 15 2022",
-    "programName": "CURIE",
-    "programAcronym": "Converting UNF Radioisotopes Into Energy",
-    "technologyAreas": [
-      "Nuclear Fission",
-      "Power Generation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
-    "title": "Robust Robotic Disassembly of EV Battery Packs using Open-World Vision Language Models and Symbolic Replanning",
-    "organization": "University of Colorado, Boulder (CU-Boulder)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Boulder, CO",
-    "state": "CO",
-    "awardAmount": 1800024,
-    "awardFormatted": "1,800,024",
-    "releaseDate": "Jan 31 2024",
-    "programName": "CIRCULAR",
-    "programAcronym": "Catalyzing Innovative Research for Circular Use of Long-lived Advanced Rechargeables",
-    "technologyAreas": [
-      "Batteries",
-      "Transportation",
-      "Manufacturing",
-      "Industrial Efficiency"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "High-Performing Carbon-Negative Concrete Using Low Value Byproducts from Biofuels Production",
-    "organization": "National Laboratory of the Rockies (NLR)",
-    "orgType": "National Laboratory",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
     "orgWebsite": [],
     "status": "Alumni",
     "location": "Golden, CO",
@@ -4517,26 +4322,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Dynamic CO2 Hydrogenation to Produce Liquid Hydrocarbon Fuels in Induction Heating Catalytic Reactor",
-    "organization": "Washington State University (WSU)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Cancelled",
-    "location": "Pullman, WA",
-    "state": "WA",
-    "awardAmount": 1599998,
-    "awardFormatted": "1,599,998",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Improved Volatile and Semi-volatile Radionuclide Off-Gas Management",
     "organization": "Mainstream Engineering",
     "orgType": "Private Company",
@@ -4599,6 +4384,46 @@
     "isPrivateCompany": true
   },
   {
+    "title": "Regenerable Lithium-Ion Batteries with High Energy and Long Life",
+    "organization": "University of California San Diego",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "La Jolla, CA",
+    "state": "CA",
+    "awardAmount": 1530000,
+    "awardFormatted": "1,530,000",
+    "releaseDate": "Jan 31 2024",
+    "programName": "CIRCULAR",
+    "programAcronym": "Catalyzing Innovative Research for Circular Use of Long-lived Advanced Rechargeables",
+    "technologyAreas": [
+      "Batteries",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Regenerable Lithium-Ion Batteries with High Energy and Long Life",
+    "organization": "University of California San Diego",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "La Jolla, CA",
+    "state": "CA",
+    "awardAmount": 1530000,
+    "awardFormatted": "1,530,000",
+    "releaseDate": "Jan 31 2024",
+    "programName": "CIRCULAR",
+    "programAcronym": "Catalyzing Innovative Research for Circular Use of Long-lived Advanced Rechargeables",
+    "technologyAreas": [
+      "Batteries",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Radioisotope Capture Intensification Using Rotating Packed Bed Contactors",
     "organization": "Argonne National Laboratory (ANL)",
     "orgType": "National Laboratory",
@@ -4613,6 +4438,26 @@
     "programAcronym": "Converting UNF Radioisotopes Into Energy",
     "technologyAreas": [
       "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Machine Learning for Alloy Discovery Coupled with Geometric Optimization for Functionally Graded Liquid Metal First Wall",
+    "organization": "Savannah River National Laboratory",
+    "orgType": "National Laboratory",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Aiken, SC",
+    "state": "SC",
+    "awardAmount": 1500000,
+    "awardFormatted": "1,500,000",
+    "releaseDate": "Jan 11 2024",
+    "programName": "CHADWICK",
+    "programAcronym": "Creating Hardened And Durable fusion first Wall Incorporating Centralized Knowledge",
+    "technologyAreas": [
+      "Nuclear Fusion",
       "Power Generation"
     ],
     "isKnownCompany": false,
@@ -4660,8 +4505,8 @@
   },
   {
     "title": "COOLERCHIPS Technical Evaluation Team",
-    "organization": "National Laboratory of the Rockies (NLR)",
-    "orgType": "National Laboratory",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
     "orgWebsite": [],
     "status": "Active",
     "location": "Golden, CO",
@@ -4674,28 +4519,6 @@
     "technologyAreas": [
       "Computing",
       "Industrial Efficiency"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
-    "title": "A Hybrid Electrochemical and Catalytic Compression System for Direct Generation of High-Pressure Hydrogen at 700 Bar",
-    "organization": "California Institute of Technology (Caltech)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Alumni",
-    "location": "Pasadena, CA",
-    "state": "CA",
-    "awardAmount": 1452000,
-    "awardFormatted": "1,452,000",
-    "releaseDate": "Feb 11 2021",
-    "programName": "OPEN 2021",
-    "programAcronym": "Open Funding Solicitation",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation",
-      "Storage",
-      "Grid"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -4723,26 +4546,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Rapid Surface Graphitization of Carbon Anode for In Situ Regeneration of Batteries",
-    "organization": "HighT-Tech",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Rockville, MD",
-    "state": "MD",
-    "awardAmount": 1368459,
-    "awardFormatted": "1,368,459",
-    "releaseDate": "Jan 31 2024",
-    "programName": "CIRCULAR",
-    "programAcronym": "Catalyzing Innovative Research for Circular Use of Long-lived Advanced Rechargeables",
-    "technologyAreas": [
-      "Batteries",
-      "Transportation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": true
-  },
-  {
     "title": "Harvesting Infrared Light to Improve Photosynthetic Biomass Production",
     "organization": "University of Washington (UW)",
     "orgType": "University",
@@ -4759,6 +4562,26 @@
       "Biofuels",
       "Agriculture & Bioenergy",
       "Biomass"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "High Flux Plasma-Materials Interaction Testing for Rapid Fusion Materials Development",
+    "organization": "University of California, San Diego (UC San Diego)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "La Jolla, CA",
+    "state": "CA",
+    "awardAmount": 1345309,
+    "awardFormatted": "1,345,309",
+    "releaseDate": "Jan 11 2024",
+    "programName": "CHADWICK",
+    "programAcronym": "Creating Hardened And Durable fusion first Wall Incorporating Centralized Knowledge",
+    "technologyAreas": [
+      "Nuclear Fusion",
+      "Power Generation"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -4887,11 +4710,31 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Metal-Halide Perovskites as Innovative and Cost-Effective Fluoride Salt Waste Forms",
+    "organization": "Rensselaer Polytechnic Institute (RPI)",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Troy, NY",
+    "state": "NY",
+    "awardAmount": 1165213,
+    "awardFormatted": "1,165,213",
+    "releaseDate": "May 19 2021",
+    "programName": "ONWARDS",
+    "programAcronym": "Optimizing Nuclear Waste and Advanced Reactor Disposal Systems",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Block Modeling of the Carbonation Potential of Ore Deposits Using Cutting-Edge Core Scanning Technology and Advanced Machine Learning Algorithms",
     "organization": "Colorado School of Mines",
     "orgType": "University",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Golden, CO",
     "state": "CO",
     "awardAmount": 1159337,
@@ -4931,6 +4774,26 @@
     "isPrivateCompany": true
   },
   {
+    "title": "An Entirely Wood Floor System Designed for Carbon Negativity, Future Adaptability, and End of Life De/Re/Construction",
+    "organization": "Clemson University",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Alumni",
+    "location": "Clemson, SC",
+    "state": "SC",
+    "awardAmount": 1070933,
+    "awardFormatted": "1,070,933",
+    "releaseDate": "Jun 13 2022",
+    "programName": "HESTIA",
+    "programAcronym": "Harnessing Emissions into Structures Taking Inputs from the Atmosphere",
+    "technologyAreas": [
+      "Building Materials",
+      "Buildings"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
     "title": "Maximizing Carbon Negativity in Next Generation Bamboo Framing Materials",
     "organization": "BamCore",
     "orgType": "Private Company",
@@ -4951,41 +4814,21 @@
     "isPrivateCompany": true
   },
   {
-    "title": "An Entirely Wood Floor System Designed for Carbon Negativity, Future Adaptability, and End of Life De/Re/Construction",
-    "organization": "Clemson University",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Alumni",
-    "location": "Clemson, SC",
-    "state": "SC",
-    "awardAmount": 1042933,
-    "awardFormatted": "1,042,933",
-    "releaseDate": "Jun 13 2022",
-    "programName": "HESTIA",
-    "programAcronym": "Harnessing Emissions into Structures Taking Inputs from the Atmosphere",
-    "technologyAreas": [
-      "Building Materials",
-      "Buildings"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "EINSTEIN: Enhanced Integrated Nuclear Systems for Transmutation and Efficient Isolation of Nuclides",
-    "organization": "University of Illinois, Urbana-Champaign (UIUC)",
-    "orgType": "University",
+    "organization": "University of Illinois, Urbana-Champaign",
+    "orgType": "",
     "orgWebsite": [],
-    "status": "Selected",
-    "location": "Urbana, IL",
+    "status": "Active",
+    "location": "Champaign, IL",
     "state": "IL",
-    "awardAmount": 1025405,
-    "awardFormatted": "1,025,405",
-    "releaseDate": "Sep 03 2025",
+    "awardAmount": 1025404,
+    "awardFormatted": "1,025,404",
+    "releaseDate": "Jul 16 2024",
     "programName": "NEWTON",
     "programAcronym": "Nuclear Energy Waste Transmutation Optimized Now",
     "technologyAreas": [
-      "Power Generation",
-      "Nuclear Fission"
+      "Nuclear Fission",
+      "Power Generation"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -5013,31 +4856,11 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Leveraging Dynamic Reactors and Machine Learning to Stabilize Chemical Processes Powered by Variable Electricity",
-    "organization": "New York University (NYU)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "New York, NY",
-    "state": "NY",
-    "awardAmount": 1000000,
-    "awardFormatted": "1,000,000",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Novel Electrolytic, Zero Carbon Emission Direct Reduced Iron Production",
     "organization": "Phoenix Tailings",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Woburn, MA",
     "state": "MA",
     "awardAmount": 1000000,
@@ -5097,33 +4920,11 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Modular Electrochemical Ethanol Production Using Intermittent Power (Electricity)",
-    "organization": "Northeastern University",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Boston, MA",
-    "state": "MA",
-    "awardAmount": 986200,
-    "awardFormatted": "986,200",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Fuels",
-      "Transportation",
-      "Other - Resources",
-      "Resources"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
-  },
-  {
     "title": "Mini-PulPS: Miniaturized Pulsed Power Systems for Mission Critical Applications",
     "organization": "University of Houston",
     "orgType": "University",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Houston, TX",
     "state": "TX",
     "awardAmount": 965028,
@@ -5167,7 +4968,7 @@
     "organization": "University of Michigan",
     "orgType": "University",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Ann Arbor, MI",
     "state": "MI",
     "awardAmount": 950000,
@@ -5225,6 +5026,32 @@
     "isPrivateCompany": false
   },
   {
+    "title": "Compact Deuteron Accelerator to Produce Neutrons for Transmutation of Used Nuclear Fuel",
+    "organization": "Omega-P R&D, Inc.",
+    "orgType": "Private Company",
+    "orgWebsite": [
+      {
+        "uri": "http://omega-p.com/",
+        "title": "",
+        "options": []
+      }
+    ],
+    "status": "Selected",
+    "location": "New Haven, CT",
+    "state": "CT",
+    "awardAmount": 768800,
+    "awardFormatted": "768,800",
+    "releaseDate": "Jul 16 2024",
+    "programName": "NEWTON",
+    "programAcronym": "Nuclear Energy Waste Transmutation Optimized Now",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
     "title": "Multi-Cation Electrolytes for Electrolytic Reduction of Complex Iron Oxides at Low Temperatures",
     "organization": "Pennsylvania State University (Penn State)",
     "orgType": "University",
@@ -5266,28 +5093,6 @@
     "isPrivateCompany": false
   },
   {
-    "title": "Microbial Production of Methanol from Methane and Intermittent Power Sources",
-    "organization": "CarbonBridge",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "New York, NY",
-    "state": "NY",
-    "awardAmount": 719881,
-    "awardFormatted": "719,881",
-    "releaseDate": "Dec 12 2023",
-    "programName": "OFF GRID",
-    "programAcronym": "Optimized Flexible Fuels using Grid-free Reactors with Intermittent Delivery ",
-    "technologyAreas": [
-      "Liquid or Gaseous Fuels",
-      "Power Generation",
-      "Other - Agriculture & Bioenergy",
-      "Agriculture & Bioenergy"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": true
-  },
-  {
     "title": "SOTERIA - Carbon Negative Bioconcrete Unit Production Concept",
     "organization": "Biomason",
     "orgType": "Private Company",
@@ -5306,26 +5111,6 @@
     ],
     "isKnownCompany": false,
     "isPrivateCompany": true
-  },
-  {
-    "title": "Metal-Halide Perovskites as Innovative and Cost-Effective Fluoride Salt Waste Forms",
-    "organization": "Rensselaer Polytechnic Institute (RPI)",
-    "orgType": "University",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Troy, NY",
-    "state": "NY",
-    "awardAmount": 607504,
-    "awardFormatted": "607,504",
-    "releaseDate": "May 19 2021",
-    "programName": "ONWARDS",
-    "programAcronym": "Optimizing Nuclear Waste and Advanced Reactor Disposal Systems",
-    "technologyAreas": [
-      "Nuclear Fission",
-      "Power Generation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": false
   },
   {
     "title": "Addressing the Future of the Nuclear Cycle",
@@ -5759,8 +5544,8 @@
   },
   {
     "title": "Mixed Polyester Deconstruction & Monomer Recovery to Enable a Circular Bioeconomy",
-    "organization": "National Laboratory of the Rockies (NLR)",
-    "orgType": "National Laboratory",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
     "orgWebsite": [],
     "status": "Active",
     "location": "Golden, CO",
@@ -5778,9 +5563,49 @@
     "isPrivateCompany": false
   },
   {
-    "title": "BUILD\u2019EM: Chemistry, Performance, and Path to Market of a Lignin-based Construction Material",
-    "organization": "National Laboratory of the Rockies (NLR)",
-    "orgType": "National Laboratory",
+    "title": "Development of the Next Generation of Diode Laser Pumps for Inertial Confinement Fusion (ICF)",
+    "organization": "Fuceltech Inc",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Princeton Junction, NJ",
+    "state": "NJ",
+    "awardAmount": 499999,
+    "awardFormatted": "499,999",
+    "releaseDate": "Nov 07 2023",
+    "programName": "SPARKS",
+    "programAcronym": "Spurring Projects to Advance Energy Research and Knowledge Swiftly",
+    "technologyAreas": [
+      "Nuclear Fusion",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Active, Virtual And resistive Transformers for Transmission and Distribution (T&D) systems, And Resources (AVATAR)",
+    "organization": "University of Pittsburgh",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Active",
+    "location": "Pittsburgh, PA",
+    "state": "PA",
+    "awardAmount": 499992,
+    "awardFormatted": "499,992",
+    "releaseDate": "Nov 07 2023",
+    "programName": "SPARKS",
+    "programAcronym": "Spurring Projects to Advance Energy Research and Knowledge Swiftly",
+    "technologyAreas": [
+      "Transmission & Distribution",
+      "Grid"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "BUILD'EM: Chemistry, Performance, and Path to Market of a Lignin-based Construction Material",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
     "orgWebsite": [],
     "status": "Active",
     "location": "Golden, CO",
@@ -5818,29 +5643,9 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Novel Liquid Metal Plasma Facing Component Alloys",
-    "organization": "ExoFusion",
-    "orgType": "Private Company",
-    "orgWebsite": [],
-    "status": "Active",
-    "location": "Bellevue, WA",
-    "state": "WA",
-    "awardAmount": 499946,
-    "awardFormatted": "499,946",
-    "releaseDate": "Jan 11 2024",
-    "programName": "CHADWICK",
-    "programAcronym": "Creating Hardened And Durable fusion first Wall Incorporating Centralized Knowledge",
-    "technologyAreas": [
-      "Nuclear Fusion",
-      "Power Generation"
-    ],
-    "isKnownCompany": false,
-    "isPrivateCompany": true
-  },
-  {
     "title": "Electrochemically Looping Adsorptive Heat Pumps to Reduce Building Energy Consumption",
-    "organization": "National Laboratory of the Rockies (NLR)",
-    "orgType": "National Laboratory",
+    "organization": "National Renewable Energy Laboratory (NREL)",
+    "orgType": "",
     "orgWebsite": [],
     "status": "Active",
     "location": "Golden, CO",
@@ -5904,7 +5709,7 @@
     "organization": "Lithios",
     "orgType": "Private Company",
     "orgWebsite": [],
-    "status": "Active",
+    "status": "Alumni",
     "location": "Cambridge, MA",
     "state": "MA",
     "awardAmount": 499320,
@@ -5984,21 +5789,161 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Regenerable Lithium-Ion Batteries with High Energy and Long Life",
-    "organization": "University of California San Diego",
-    "orgType": "University",
+    "title": "Highly Reliable Ion Source and Injection Beamline to Maximize Proton Beam Availability",
+    "organization": "Transmutex U.S.A., Inc.",
+    "orgType": "",
     "orgWebsite": [],
     "status": "Selected",
-    "location": "La Jolla, CA",
+    "location": "Hudson, NY",
+    "state": "NY",
+    "awardAmount": 0,
+    "awardFormatted": null,
+    "releaseDate": "Jul 16 2024",
+    "programName": "NEWTON",
+    "programAcronym": "Nuclear Energy Waste Transmutation Optimized Now",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "High-Efficiency Continuous-Wave RF Sources for High-Power Particle Accelerators",
+    "organization": "Jefferson Science Associates, LLC",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Newport News, VA",
+    "state": "VA",
+    "awardAmount": 0,
+    "awardFormatted": null,
+    "releaseDate": "Jul 16 2024",
+    "programName": "NEWTON",
+    "programAcronym": "Nuclear Energy Waste Transmutation Optimized Now",
+    "technologyAreas": [
+      "Nuclear Fission",
+      "Power Generation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "N-SYNC: Engineering Synchronized Nitrogen Efficiency Traits in Corn Agriculture",
+    "organization": "Donald Danforth Plant Science Center",
+    "orgType": "Non-Profit",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "East Lansing, MI",
+    "state": "MI",
+    "awardAmount": 0,
+    "awardFormatted": null,
+    "releaseDate": "Jul 11 2024",
+    "programName": "TEOSYNTE",
+    "programAcronym": "Technologies to Emend and Obviate SYnthetic Nitrogen\u2019s Toll on Energy",
+    "technologyAreas": [
+      "Biomass",
+      "Agriculture & Bioenergy"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Developing Biological Nitrification Inhibitors to Reduce N2O Emissions in Sorghum",
+    "organization": "Lawrence Berkeley National Laboratory",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Berkeley, CA",
     "state": "CA",
     "awardAmount": 0,
     "awardFormatted": null,
-    "releaseDate": "Jan 31 2024",
-    "programName": "CIRCULAR",
-    "programAcronym": "Catalyzing Innovative Research for Circular Use of Long-lived Advanced Rechargeables",
+    "releaseDate": "Jul 11 2024",
+    "programName": "TEOSYNTE",
+    "programAcronym": "Technologies to Emend and Obviate SYnthetic Nitrogen\u2019s Toll on Energy",
     "technologyAreas": [
-      "Batteries",
-      "Transportation"
+      "Biomass",
+      "Agriculture & Bioenergy"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Engineering Tunable Ammonia Release In Biofertilizers",
+    "organization": "Switch Bioworks",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "San Carlos, CA",
+    "state": "CA",
+    "awardAmount": 0,
+    "awardFormatted": null,
+    "releaseDate": "Jul 11 2024",
+    "programName": "TEOSYNTE",
+    "programAcronym": "Technologies to Emend and Obviate SYnthetic Nitrogen\u2019s Toll on Energy",
+    "technologyAreas": [
+      "Biomass",
+      "Agriculture & Bioenergy"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Developing Field-deployable Low Nitrous Oxide Emission Sorghum Hybrids Using Biological Nitrification Inhibition and Nitrogen Fixation",
+    "organization": "Texas A&M AgriLife Research",
+    "orgType": "University",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "College Station, TX",
+    "state": "TX",
+    "awardAmount": 0,
+    "awardFormatted": null,
+    "releaseDate": "Jul 11 2024",
+    "programName": "TEOSYNTE",
+    "programAcronym": "Technologies to Emend and Obviate SYnthetic Nitrogen\u2019s Toll on Energy",
+    "technologyAreas": [
+      "Biomass",
+      "Agriculture & Bioenergy"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Delivering Nitrogen to Cereal Crops through Biological Nitrogen Fixation for Sustainable Bioenergy Production",
+    "organization": "University of Wisconsin-Madison",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Madison, WI",
+    "state": "WI",
+    "awardAmount": 0,
+    "awardFormatted": null,
+    "releaseDate": "Jul 11 2024",
+    "programName": "TEOSYNTE",
+    "programAcronym": "Technologies to Emend and Obviate SYnthetic Nitrogen\u2019s Toll on Energy",
+    "technologyAreas": [
+      "Biomass",
+      "Agriculture & Bioenergy"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "NSAVE: Nitrogen-saving agriculture for Value and Efficiency",
+    "organization": "University of Illinois, Urbana-Champaign",
+    "orgType": "",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Champaign, IL",
+    "state": "IL",
+    "awardAmount": 0,
+    "awardFormatted": null,
+    "releaseDate": "Jul 11 2024",
+    "programName": "TEOSYNTE",
+    "programAcronym": "Technologies to Emend and Obviate SYnthetic Nitrogen\u2019s Toll on Energy",
+    "technologyAreas": [
+      "Biomass",
+      "Agriculture & Bioenergy"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
@@ -6084,13 +6029,13 @@
     "isPrivateCompany": true
   },
   {
-    "title": "Multi-Material Direct Joining and Un-Joining for Easy EV Battery Pack Assembly and Disassembly for Maximal Circularity",
-    "organization": "University of Michigan",
-    "orgType": "University",
+    "title": "Acoustic-Driven Rejuvenation of Rechargeable Batteries",
+    "organization": "Sonocharge Energy",
+    "orgType": "Private Company",
     "orgWebsite": [],
     "status": "Selected",
-    "location": "Ann Arbor, MI",
-    "state": "MI",
+    "location": "San Diego, CA",
+    "state": "CA",
     "awardAmount": 0,
     "awardFormatted": null,
     "releaseDate": "Jan 31 2024",
@@ -6101,16 +6046,56 @@
       "Transportation"
     ],
     "isKnownCompany": false,
-    "isPrivateCompany": false
+    "isPrivateCompany": true
   },
   {
-    "title": "Rejuvenation to Increase Life of Advanced Batteries",
-    "organization": "OnTo Technology",
+    "title": "EV battERy lifetiMe extensiOn with mateRial intelligencE (EVERMORE)",
+    "organization": "Saint-Gobain Ceramics & Plastics",
     "orgType": "Private Company",
     "orgWebsite": [],
     "status": "Selected",
-    "location": "Bend, OR",
-    "state": "OR",
+    "location": "Northboro, MA",
+    "state": "MA",
+    "awardAmount": 0,
+    "awardFormatted": null,
+    "releaseDate": "Jan 31 2024",
+    "programName": "CIRCULAR",
+    "programAcronym": "Catalyzing Innovative Research for Circular Use of Long-lived Advanced Rechargeables",
+    "technologyAreas": [
+      "Batteries",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Sensing Platform for Fast Cell-Agnostic Battery State Diagnostics",
+    "organization": "Iontra",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Centennial, CO",
+    "state": "CO",
+    "awardAmount": 0,
+    "awardFormatted": null,
+    "releaseDate": "Jan 31 2024",
+    "programName": "CIRCULAR",
+    "programAcronym": "Catalyzing Innovative Research for Circular Use of Long-lived Advanced Rechargeables",
+    "technologyAreas": [
+      "Batteries",
+      "Transportation"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": true
+  },
+  {
+    "title": "Development of an Autonomous Robotic Disassembly Process for Applications in Battery Pack Circularity",
+    "organization": "Toyota Motor Engineering & Manufacturing North America, Inc. (TEMA)",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Selected",
+    "location": "Ann Arbor, MI",
+    "state": "MI",
     "awardAmount": 0,
     "awardFormatted": null,
     "releaseDate": "Jan 31 2024",
@@ -6146,44 +6131,62 @@
     "isPrivateCompany": true
   },
   {
-    "title": "GRADED: Gradient composites with Radiation Amorphization-enabled Dimensional stability and Energy Dissipation",
-    "organization": "University of Illinois, Urbana-Champaign (UIUC)",
-    "orgType": "University",
+    "title": "PhAST-Gate: (Photonic Absorption Saturation-based Thresholding Gate):  All-optical logic circuits to transform digital computing in the AI/ML age.",
+    "organization": "University of Southern California",
+    "orgType": "",
     "orgWebsite": [],
     "status": "Selected",
-    "location": "Champaign, IL",
-    "state": "IL",
+    "location": "Los Angeles, CA",
+    "state": "CA",
     "awardAmount": 0,
     "awardFormatted": null,
-    "releaseDate": "Jan 11 2024",
-    "programName": "CHADWICK",
-    "programAcronym": "Creating Hardened And Durable fusion first Wall Incorporating Centralized Knowledge",
+    "releaseDate": "Nov 07 2023",
+    "programName": "SPARKS",
+    "programAcronym": "Spurring Projects to Advance Energy Research and Knowledge Swiftly",
     "technologyAreas": [
-      "Nuclear Fission",
-      "Power Generation",
-      "Nuclear Fusion"
+      "Computing",
+      "Industrial Efficiency"
     ],
     "isKnownCompany": false,
     "isPrivateCompany": false
   },
   {
-    "title": "Co-Optimization of an Integral, Layered Materials Solution for Compact Tokamak Vessels",
-    "organization": "Commonwealth Fusion Systems (CFS)",
-    "orgType": "Private Company",
+    "title": "Direct CO2 Electroreduction to a Single C2+ Product",
+    "organization": "Texas A&M University",
+    "orgType": "University",
     "orgWebsite": [],
     "status": "Selected",
-    "location": "Cambridge, MA",
-    "state": "MA",
+    "location": "College Station, TX",
+    "state": "TX",
     "awardAmount": 0,
     "awardFormatted": null,
-    "releaseDate": "Jan 11 2024",
-    "programName": "CHADWICK",
-    "programAcronym": "Creating Hardened And Durable fusion first Wall Incorporating Centralized Knowledge",
+    "releaseDate": "Nov 07 2023",
+    "programName": "SPARKS",
+    "programAcronym": "Spurring Projects to Advance Energy Research and Knowledge Swiftly",
     "technologyAreas": [
-      "Materials",
-      "Resources",
-      "Nuclear Fusion",
-      "Power Generation"
+      "Chemicals & Fuels",
+      "Resources"
+    ],
+    "isKnownCompany": false,
+    "isPrivateCompany": false
+  },
+  {
+    "title": "Ouroboros: A Novel Reactor for Zero Emission Electrolytic Reduction of Iron",
+    "organization": "Blue Origin",
+    "orgType": "Private Company",
+    "orgWebsite": [],
+    "status": "Cancelled",
+    "location": "Kent, WA",
+    "state": "WA",
+    "awardAmount": 0,
+    "awardFormatted": null,
+    "releaseDate": "Jun 22 2023",
+    "programName": "ROSIE",
+    "programAcronym": "Revolutionizing Ore to Steel to Impact Energy",
+    "technologyAreas": [
+      "Manufacturing",
+      "Industrial Efficiency",
+      "Other - Industrial Efficiency"
     ],
     "isKnownCompany": true,
     "isPrivateCompany": true
