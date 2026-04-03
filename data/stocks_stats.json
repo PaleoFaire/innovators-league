@@ -11,13 +11,13 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 6.36,
+      "avg_change": 6.21,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -1.96,
+      "avg_change": -2.43,
       "count": 7
     },
     "nuclear": {
@@ -86,9 +86,9 @@
   ],
   "topLosers": [
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -4.6
+      "DRSHF",
+      "DroneShield",
+      -5.23
     ],
     [
       "OKLO",
@@ -101,15 +101,15 @@
       -7.64
     ],
     [
-      "9348.T",
-      "ispace",
-      -7.94
-    ],
-    [
       "LNZA",
       "LanzaTech",
       -8.26
+    ],
+    [
+      "9348.T",
+      "ispace",
+      -9.01
     ]
   ],
-  "lastUpdated": "2026-04-03 02:41:36"
+  "lastUpdated": "2026-04-03 07:15:20"
 }
