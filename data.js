@@ -23499,23 +23499,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-03 02:56
+// Last updated: 2026-04-03 05:45
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "SpaceX", headline: "SpaceX Discusses Over $2 Trillion IPO Valuation", source: "Next Big Future", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "news", company: "Palantir", headline: "What If The US Redirected The Money From The Iran War To Clean Energy?", source: "CleanTechnica", time: "6h ago", impact: "high", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "Artemis II is NASA's last moon mission without Silicon Valley", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "OpenAI", headline: "OpenAI Acquires Tech Talk Show 'TBPN''and Buys Itself Some Positive News", source: "Wired", time: "7h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI acquires TBPN, the buzzy founder-led business talk show", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "ElevenLabs", headline: "ElevenLabs releases a new AI-powered music-generation app", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Astera Labs", headline: "A New Google-Funded Data Center Will Be Powered by a Massive Gas Plant", source: "Wired", time: "8h ago", impact: "medium", unread: false },
-  { id: 8, type: "hire", company: "Neuralink", headline: "Young Professional's AI Tool Spots Mental Health Conditions", source: "IEEE Spectrum", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Xtend", headline: "The Global Ripple Effect of the War in Iran", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Anthropic", headline: "Cursor Launches a New AI Agent Experience to Take On Claude Code and Codex", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Photonic Inc", headline: "Microsoft takes on AI rivals with three new foundational models", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Karman Industries", headline: "A year after 'Liberation Day,' impact of Trump tariffs on defense industry remains muted", source: "Breaking Defense", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "Anthropic Says That Claude Contains Its Own Kind of Emotions", source: "Wired", time: "10h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Durin", headline: "Even Artemis II Astronauts Have Microsoft Outlook Problems", source: "Wired", time: "10h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Atomic Industries", headline: "Moog Technology Successfully Steers Artemis II Launch", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Rivian", headline: "Rivian Beats Wall Street Sales Expectations, But Still Niche", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "SpaceX", headline: "SpaceX Discusses Over $2 Trillion IPO Valuation", source: "Next Big Future", time: "3h ago", impact: "high", unread: true },
+  { id: 3, type: "news", company: "Palantir", headline: "What If The US Redirected The Money From The Iran War To Clean Energy?", source: "CleanTechnica", time: "9h ago", impact: "high", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Artemis II is NASA's last moon mission without Silicon Valley", source: "TechCrunch", time: "9h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "OpenAI", headline: "OpenAI Acquires Tech Talk Show 'TBPN''and Buys Itself Some Positive News", source: "Wired", time: "10h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI acquires TBPN, the buzzy founder-led business talk show", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "ElevenLabs", headline: "ElevenLabs releases a new AI-powered music-generation app", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Astera Labs", headline: "A New Google-Funded Data Center Will Be Powered by a Massive Gas Plant", source: "Wired", time: "11h ago", impact: "medium", unread: false },
+  { id: 9, type: "hire", company: "Neuralink", headline: "Young Professional's AI Tool Spots Mental Health Conditions", source: "IEEE Spectrum", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Xtend", headline: "The Global Ripple Effect of the War in Iran", source: "War on the Rocks", time: "12h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Anthropic", headline: "Cursor Launches a New AI Agent Experience to Take On Claude Code and Codex", source: "Wired", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Photonic Inc", headline: "Microsoft takes on AI rivals with three new foundational models", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Karman Industries", headline: "A year after 'Liberation Day,' impact of Trump tariffs on defense industry remains muted", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "Anthropic Says That Claude Contains Its Own Kind of Emotions", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Durin", headline: "Even Artemis II Astronauts Have Microsoft Outlook Problems", source: "Wired", time: "13h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
