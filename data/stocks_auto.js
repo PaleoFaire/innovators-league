@@ -1,5 +1,5 @@
 // Auto-generated stock price data for The Innovators League
-// Last updated: 2026-04-03 13:12:02 UTC
+// Last updated: 2026-04-03 18:57:00 UTC
 // Companies tracked: 32
 
 const STOCK_PRICES = {
@@ -26,7 +26,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:34"
+    "lastUpdated": "2026-04-03 18:56:28"
   },
   "RKLB": {
     "company": "Rocket Lab",
@@ -51,7 +51,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NCM",
-    "lastUpdated": "2026-04-03 13:11:35"
+    "lastUpdated": "2026-04-03 18:56:29"
   },
   "JOBY": {
     "company": "Joby Aviation",
@@ -76,7 +76,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-04-03 13:11:35"
+    "lastUpdated": "2026-04-03 18:56:29"
   },
   "ACHR": {
     "company": "Archer Aviation",
@@ -101,7 +101,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-04-03 13:11:36"
+    "lastUpdated": "2026-04-03 18:56:30"
   },
   "PL": {
     "company": "Planet Labs",
@@ -126,7 +126,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-04-03 13:11:37"
+    "lastUpdated": "2026-04-03 18:56:31"
   },
   "LUNR": {
     "company": "Intuitive Machines",
@@ -151,7 +151,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NGM",
-    "lastUpdated": "2026-04-03 13:11:38"
+    "lastUpdated": "2026-04-03 18:56:31"
   },
   "ASTS": {
     "company": "AST SpaceMobile",
@@ -176,7 +176,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:38"
+    "lastUpdated": "2026-04-03 18:56:32"
   },
   "SATL": {
     "company": "Satellogic",
@@ -201,7 +201,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NCM",
-    "lastUpdated": "2026-04-03 13:11:39"
+    "lastUpdated": "2026-04-03 18:56:33"
   },
   "OKLO": {
     "company": "Oklo",
@@ -226,7 +226,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-04-03 13:11:40"
+    "lastUpdated": "2026-04-03 18:56:34"
   },
   "QS": {
     "company": "QuantumScape",
@@ -251,7 +251,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:41"
+    "lastUpdated": "2026-04-03 18:56:35"
   },
   "IONQ": {
     "company": "IonQ",
@@ -276,7 +276,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-04-03 13:11:42"
+    "lastUpdated": "2026-04-03 18:56:36"
   },
   "RGTI": {
     "company": "Rigetti Computing",
@@ -301,7 +301,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NCM",
-    "lastUpdated": "2026-04-03 13:11:44"
+    "lastUpdated": "2026-04-03 18:56:38"
   },
   "QBTS": {
     "company": "D-Wave Quantum",
@@ -326,7 +326,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-04-03 13:11:44"
+    "lastUpdated": "2026-04-03 18:56:40"
   },
   "RXRX": {
     "company": "Recursion Pharmaceuticals",
@@ -351,7 +351,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:45"
+    "lastUpdated": "2026-04-03 18:56:42"
   },
   "TEM": {
     "company": "Tempus AI",
@@ -376,7 +376,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:46"
+    "lastUpdated": "2026-04-03 18:56:42"
   },
   "RIVN": {
     "company": "Rivian",
@@ -401,7 +401,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:47"
+    "lastUpdated": "2026-04-03 18:56:43"
   },
   "ALAB": {
     "company": "Astera Labs",
@@ -426,7 +426,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:48"
+    "lastUpdated": "2026-04-03 18:56:44"
   },
   "NVDA": {
     "company": "NVIDIA",
@@ -451,7 +451,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:49"
+    "lastUpdated": "2026-04-03 18:56:44"
   },
   "AMD": {
     "company": "AMD",
@@ -476,7 +476,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:50"
+    "lastUpdated": "2026-04-03 18:56:45"
   },
   "AUR": {
     "company": "Aurora Innovation",
@@ -501,7 +501,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:51"
+    "lastUpdated": "2026-04-03 18:56:47"
   },
   "LNZA": {
     "company": "LanzaTech",
@@ -526,7 +526,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NCM",
-    "lastUpdated": "2026-04-03 13:11:53"
+    "lastUpdated": "2026-04-03 18:56:49"
   },
   "NNE": {
     "company": "Nano Nuclear Energy",
@@ -551,7 +551,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NCM",
-    "lastUpdated": "2026-04-03 13:11:53"
+    "lastUpdated": "2026-04-03 18:56:50"
   },
   "SMR": {
     "company": "NuScale Power",
@@ -576,7 +576,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-04-03 13:11:54"
+    "lastUpdated": "2026-04-03 18:56:50"
   },
   "SLDP": {
     "company": "Solid Power",
@@ -601,7 +601,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:11:55"
+    "lastUpdated": "2026-04-03 18:56:51"
   },
   "EVTL": {
     "company": "Vertical Aerospace",
@@ -626,7 +626,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NYQ",
-    "lastUpdated": "2026-04-03 13:11:56"
+    "lastUpdated": "2026-04-03 18:56:52"
   },
   "ASRHF": {
     "company": "Astroscale",
@@ -649,7 +649,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "PNK",
-    "lastUpdated": "2026-04-03 13:11:57"
+    "lastUpdated": "2026-04-03 18:56:54"
   },
   "DRSHF": {
     "company": "DroneShield",
@@ -674,7 +674,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "PNK",
-    "lastUpdated": "2026-04-03 13:11:58"
+    "lastUpdated": "2026-04-03 18:56:55"
   },
   "ONT.L": {
     "company": "Oxford Nanopore Technologies",
@@ -699,7 +699,7 @@ const STOCK_PRICES = {
     ],
     "currency": "GBp",
     "exchange": "LSE",
-    "lastUpdated": "2026-04-03 13:11:58"
+    "lastUpdated": "2026-04-03 18:56:57"
   },
   "277810.KQ": {
     "company": "Rainbow Robotics",
@@ -724,7 +724,7 @@ const STOCK_PRICES = {
     ],
     "currency": "KRW",
     "exchange": "KOE",
-    "lastUpdated": "2026-04-03 13:11:59"
+    "lastUpdated": "2026-04-03 18:56:57"
   },
   "IDEAFORGE.NS": {
     "company": "ideaForge",
@@ -749,7 +749,7 @@ const STOCK_PRICES = {
     ],
     "currency": "INR",
     "exchange": "NSI",
-    "lastUpdated": "2026-04-03 13:12:00"
+    "lastUpdated": "2026-04-03 18:56:58"
   },
   "9348.T": {
     "company": "ispace",
@@ -774,7 +774,7 @@ const STOCK_PRICES = {
     ],
     "currency": "JPY",
     "exchange": "JPX",
-    "lastUpdated": "2026-04-03 13:12:01"
+    "lastUpdated": "2026-04-03 18:56:59"
   },
   "TSLA": {
     "company": "Tesla",
@@ -799,7 +799,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "lastUpdated": "2026-04-03 13:12:01"
+    "lastUpdated": "2026-04-03 18:56:59"
   }
 };
 
@@ -916,5 +916,5 @@ const STOCK_STATS = {
       -9.01
     ]
   ],
-  "lastUpdated": "2026-04-03 13:12:02"
+  "lastUpdated": "2026-04-03 18:57:00"
 };
