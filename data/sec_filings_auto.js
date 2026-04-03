@@ -1,6 +1,18 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-02 07:19:57 UTC
+// Last updated: 2026-04-03 07:16:26 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "NuScale Power", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163943.xml", isIPO: false, ticker: "SMR" },
+  { company: "NuScale Power", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163845.xml", isIPO: false, ticker: "SMR" },
+  { company: "Upstart Holdings", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775162161.xml", isIPO: false, ticker: "UPST" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163383.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163374.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Aurora Innovation", form: "DEF 14A", date: "2026-04-02", description: "aur-20260402.htm", isIPO: false, ticker: "AUR" },
+  { company: "Rivian", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163142.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "8-K", date: "2026-04-02", description: "rivn-20260402.htm", isIPO: false, ticker: "RIVN" },
   { company: "BlackSky Technology", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775074229.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775074165.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775074101.xml", isIPO: false, ticker: "BKSY" },
@@ -39,16 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906989.xml", isIPO: false, ticker: "OKLO" },
   { company: "Aurora Innovation", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906611.xml", isIPO: false, ticker: "AUR" },
   { company: "Aurora Innovation", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906562.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906490.xml", isIPO: false, ticker: "AUR" },
-  { company: "Tempus AI", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774866871.xml", isIPO: false, ticker: "TEM" },
-  { company: "Astera Labs", form: "8-K", date: "2026-03-27", description: "tra-20260326.htm", isIPO: false, ticker: "ALAB" },
-  { company: "Rocket Lab", form: "4", date: "2026-03-26", description: "xslF345X06/primary_doc.xml", isIPO: false, ticker: "RKLB" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-03-26", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-03-26", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-03-26", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-03-26", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "NuScale Power", form: "4", date: "2026-03-26", description: "xslF345X06/wk-form4_1774555325.xml", isIPO: false, ticker: "SMR" },
-  { company: "Oklo", form: "4", date: "2026-03-26", description: "xslF345X06/wk-form4_1774557150.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-03-26", description: "xslF345X06/wk-form4_1774557070.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Joby Aviation", form: "8-K", date: "2026-03-26", description: "d130319d8k.htm", isIPO: false, ticker: "JOBY" },
 ];

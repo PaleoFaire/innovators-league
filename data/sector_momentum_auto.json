@@ -1,57 +1,57 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 60,
+    "momentum": 71,
     "trend": "accelerating",
     "catalysts": [
-      "Switzerland considers &#8216;complete termination&#8217; of",
-      "The Most Important Deterrent That NATO Needs Is Creativity",
-      "The Arsenal as the Battlefield: The War on Iran and the Retu"
+      "A year after \u2018Liberation Day,\u2019 impact of Trump tariffs on de",
+      "Unmasking the Paramilitary Agents Behind Trump\u2019s Violent Imm",
+      "From Filament to Firepower: 3D Printing\u2019s Impact on Warfare"
     ],
     "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 0
+      "market": 56
     },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   },
   {
     "sector": "AI & Software",
-    "momentum": 60,
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
-      "Anthropic took down thousands of GitHub repos trying to yank",
-      "Startup funding shatters all records in Q1",
-      "Mercor says it was hit by cyberattack tied to compromise of"
+      "OpenAI Acquires Tech Talk Show \u2018TBPN\u2019\u2014and Buys Itself Some P",
+      "OpenAI acquires TBPN, the buzzy founder-led business talk sh",
+      "Young Professional\u2019s AI Tool Spots Mental Health Conditions"
     ],
     "fundingQ": "$7.1B",
     "components": {
       "funding": 86,
-      "news": 80,
+      "news": 75,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 52,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
+      "From Filament to Firepower: 3D Printing\u2019s Impact on Warfare",
       "The Most Important Deterrent That NATO Needs Is Creativity",
-      "Waymo Visits Japan",
-      "Toyota&#8217;s Woven Capital appoints new CIO and COO in pus"
+      "Waymo Visits Japan"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   },
   {
     "sector": "Ocean & Maritime",
@@ -67,121 +67,140 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-02"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 42,
-    "trend": "steady",
-    "catalysts": [
-      "Startup funding shatters all records in Q1",
-      "Chinese startup tests flexible robotic arm in space for on-o",
-      "The Arsenal as the Battlefield: The War on Iran and the Retu"
-    ],
-    "fundingQ": "$655M",
-    "components": {
-      "funding": 39,
-      "news": 75,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-02"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 35,
-    "trend": "steady",
-    "catalysts": [
-      "General Motors Slaps Down Trump&#8217;s War On EVs",
-      "Middle East Energy Crisis: Comparing Operating Costs for Die",
-      "Apple releases security fix for older iPhones and iPads to p"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 100,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 28,
-    "trend": "steady",
+    "momentum": 41,
+    "trend": "rising",
     "catalysts": [
-      "SpaceX quietly files for big bang IPO",
-      "Industry bullish on DoC draft license process for novel spac",
-      "Iranian strikes target the infrastructure behind US airpower"
+      "SpaceX Discusses Over $2 Trillion IPO Valuation",
+      "Artemis II is NASA\u2019s last moon mission without Silicon Valle",
+      "Cursor Launches a New AI Agent Experience to Take On Claude"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
-      "news": 100,
+      "news": 70,
       "hiring": 0,
-      "market": 0
+      "market": 100
     },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 39,
+    "trend": "steady",
+    "catalysts": [
+      "A year after \u2018Liberation Day,\u2019 impact of Trump tariffs on de",
+      "From Filament to Firepower: 3D Printing\u2019s Impact on Warfare",
+      "Waymo: &#8220;Hallo, Konnichiwa, Annyeonghaseyo, and Bonjour"
+    ],
+    "fundingQ": "$655M",
+    "components": {
+      "funding": 39,
+      "news": 60,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-03"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 24,
+    "momentum": 33,
     "trend": "rising",
     "catalysts": [
-      "General Motors Slaps Down Trump&#8217;s War On EVs",
-      "Startup funding shatters all records in Q1",
-      "\u2018Thank You for Generating With Us!\u2019 Hollywood's AI Acolytes"
+      "What If The US Redirected The Money From The Iran War To Cle",
+      "ElevenLabs releases a new AI-powered music-generation app",
+      "Young Professional\u2019s AI Tool Spots Mental Health Conditions"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 55,
+      "news": 70,
       "hiring": 0,
-      "market": 36
+      "market": 64
     },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 20,
+    "sector": "Chips & Semiconductors",
+    "momentum": 29,
     "trend": "declining",
     "catalysts": [
-      "Major SPP Western Expansion Opens Clean Energy Opportunities",
-      "Iranian strikes target the infrastructure behind US airpower",
-      "Army aiming for ITEP to reach full qualification by 2028, se"
+      "Artemis II is NASA\u2019s last moon mission without Silicon Valle",
+      "OpenAI Acquires Tech Talk Show \u2018TBPN\u2019\u2014and Buys Itself Some P",
+      "OpenAI acquires TBPN, the buzzy founder-led business talk sh"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 40,
       "hiring": 0,
-      "market": 50
+      "market": 95
     },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "sector": "Housing & Construction",
-    "momentum": 15,
-    "trend": "declining",
+    "sector": "Consumer Tech",
+    "momentum": 24,
+    "trend": "rising",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "ElevenLabs releases a new AI-powered music-generation app",
+      "Young Professional\u2019s AI Tool Spots Mental Health Conditions",
+      "General Motors Slaps Down Trump&#8217;s War On EVs"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "sector": "Supersonic & Hypersonic",
+    "sector": "Transportation",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian Beats Wall Street Sales Expectations, But Still Niche",
+      "Volkswagen\u2013Rivian Software\u2011Defined Vehicles: Joint Venture R",
+      "Waymo Visits Japan"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 20,
+      "hiring": 0,
+      "market": 58
+    },
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Over 60 New Fast EV Chargers To Be Operating In NYC",
+      "Major SPP Western Expansion Opens Clean Energy Opportunities",
+      "Iranian strikes target the infrastructure behind US airpower"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "sector": "Housing & Construction",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "The Most Important Deterrent That NATO Needs Is Creativity",
-      "AI Has Flooded All the Weather Apps"
+      "Active housing & construction ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -190,79 +209,45 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   },
   {
     "sector": "Climate & Energy",
     "momentum": 12,
-    "trend": "rising",
+    "trend": "declining",
     "catalysts": [
+      "What If The US Redirected The Money From The Iran War To Cle",
       "Major SPP Western Expansion Opens Clean Energy Opportunities",
-      "I Watched a 7.5-Hour Movie in Theaters to Confront My Dwindl",
       "Win Yourself A Rivian!"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-04-02"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 9,
-    "trend": "declining",
-    "catalysts": [
-      "Waymo Visits Japan",
-      "Toyota&#8217;s Woven Capital appoints new CIO and COO in pus",
-      "Win Yourself A Rivian!"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
       "news": 25,
       "hiring": 0,
-      "market": 0
+      "market": 28
     },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 8,
+    "sector": "Supersonic & Hypersonic",
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "In a Big Reversal, Zohran Mamdani Tells NYC Agencies They Ca"
+      "The Most Important Deterrent That NATO Needs Is Creativity"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 10,
       "hiring": 0,
-      "market": 0
+      "market": 50
     },
-    "lastUpdated": "2026-04-02"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 5,
-    "trend": "declining",
-    "catalysts": [
-      "Active nuclear energy ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 2,
+    "momentum": 9,
     "trend": "declining",
     "catalysts": [
       "Quantum computers need vastly fewer resources than thought t"
@@ -272,8 +257,25 @@
       "funding": 0,
       "news": 10,
       "hiring": 0,
+      "market": 31
+    },
+    "lastUpdated": "2026-04-03"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 6,
+    "trend": "declining",
+    "catalysts": [
+      "Commonwealth Fusion Systems leans on magnets for near-term r",
+      "The U.S. Military Risks Letting Contractors Define How It Se"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-03"
   }
 ]
