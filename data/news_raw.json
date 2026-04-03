@@ -1,5 +1,87 @@
 [
   {
+    "title": "ENIAC’s Architects Wove Stories Through Computing",
+    "link": "https://spectrum.ieee.org/eniac-80th-anniversary-weaving",
+    "description": "This year marks the 80th anniversary of ENIAC, the first general-purpose digital computer. The computer was built during World War 2 to speed up ballistics calculations, but its contributions to computing extend well beyond military applications. Two of ENIAC’s key architects—John W. Mauchly, its co",
+    "pubDate": "Fri, 03 Apr 2026 13:00:02 +0000",
+    "category": "Eniac",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Durin",
+    "matchedCompanies": [
+      "Durin",
+      "Xtend"
+    ],
+    "sectors": [
+      "infrastructure",
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Marine Corps awards Textron, General Dynamics second rapid ARV prototype contract",
+    "link": "https://breakingdefense.com/2026/04/marine-corps-awards-textron-general-dynamics-second-rapid-arv-prototype-contract/",
+    "description": "The Marine Corps is seeking an ARV “family of vehicles” for the program, each outfitted with unique capabilities to support mobile reconnaissance. ",
+    "pubDate": "Fri, 03 Apr 2026 12:00:00 +0000",
+    "category": "Land Warfare",
+    "source": "Breaking Defense",
+    "feedCategory": "defense",
+    "matchedCompany": "Quantum-Systems",
+    "matchedCompanies": [
+      "Quantum-Systems"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "SpaceX and Amazon spar over satellite deployments",
+    "link": "https://spacenews.com/spacex-and-amazon-spar-over-satellite-deployments/",
+    "description": "\nAmazon says it will revise deployment plans for its broadband satellite constellation while denying claims from SpaceX that its current approach represents a space safety risk.\nThe post SpaceX and Amazon spar over satellite deployments appeared first on SpaceNews.",
+    "pubDate": "Fri, 03 Apr 2026 11:41:46 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "AST SpaceMobile"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "CBP Facility Codes Sure Seem to Have Leaked Via Online Flashcards",
+    "link": "https://www.wired.com/story/cbp-facility-codes-sure-seem-to-have-leaked-via-online-flashcards/",
+    "description": "The Quizlet flashcards, which WIRED found through basic Google searches, seem to include sensitive information about gate security at Customs and Border Protection locations.",
+    "pubDate": "Fri, 03 Apr 2026 09:00:00 +0000",
+    "category": "Security",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Cape",
+    "matchedCompanies": [
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "climate",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
     "title": "The Trump Administration’s Attempt to Expand Drilling at Chaco Canyon",
     "link": "https://cleantechnica.com/2026/04/02/the-trump-administrations-attempt-to-expand-drilling-at-chaco-canyon/",
     "description": "ALBUQUERQUE — This week, the Trump administration advanced the process of increasing oil and gas drilling on a landscape considered sacred by Pueblos and Tribes. On Tuesday, the Trump administration began a 7-day Public Scoping period, the next step in its proposal to open the Greater Chaco Region t",
@@ -18,7 +100,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "5h ago"
+    "time": "9h ago"
   },
   {
     "title": "Rivian Beats Wall Street Sales Expectations, But Still Niche",
@@ -37,7 +119,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "9h ago"
   },
   {
     "title": "SpaceX Discusses Over $2 Trillion IPO Valuation",
@@ -58,7 +140,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "6h ago"
+    "time": "10h ago"
   },
   {
     "title": "What If The US Redirected The Money From The Iran War To Clean Energy?",
@@ -77,7 +159,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "12h ago"
+    "time": "16h ago"
   },
   {
     "title": "Artemis II is NASA’s last moon mission without Silicon Valley",
@@ -97,7 +179,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "12h ago"
+    "time": "17h ago"
   },
   {
     "title": "OpenAI Acquires Tech Talk Show ‘TBPN’—and Buys Itself Some Positive News",
@@ -116,7 +198,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "OpenAI acquires TBPN, the buzzy founder-led business talk show",
@@ -135,7 +217,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "17h ago"
   },
   {
     "title": "ElevenLabs releases a new AI-powered music-generation app",
@@ -154,12 +236,12 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "14h ago"
+    "time": "18h ago"
   },
   {
     "title": "A New Google-Funded Data Center Will Be Powered by a Massive Gas Plant",
     "link": "https://www.wired.com/story/a-new-google-funded-data-center-will-be-powered-by-a-massive-gas-plant/",
-    "description": "Documents show that one of Google’s new data centers would be powered by a natural gas plant that emits millions of tons of emissions each year—an increasingly common trend in the industry.",
+    "description": "Documents show that one of Google’s new data centers would be powered by a natural gas plant that emits millions of tons of emissions each year��an increasingly common trend in the industry.",
     "pubDate": "Thu, 02 Apr 2026 18:27:29 +0000",
     "category": "Science",
     "source": "Wired",
@@ -174,7 +256,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "14h ago"
+    "time": "18h ago"
   },
   {
     "title": "Young Professional’s AI Tool Spots Mental Health Conditions",
@@ -196,7 +278,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "15h ago"
+    "time": "19h ago"
   },
   {
     "title": "The Global Ripple Effect of the War in Iran",
@@ -215,7 +297,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "15h ago"
+    "time": "19h ago"
   },
   {
     "title": "Cursor Launches a New AI Agent Experience to Take On Claude Code and Codex",
@@ -236,7 +318,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "Microsoft takes on AI rivals with three new foundational models",
@@ -255,7 +337,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "A year after ‘Liberation Day,’ impact of Trump tariffs on defense industry remains muted",
@@ -280,7 +362,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "20h ago"
   },
   {
     "title": "Anthropic Says That Claude Contains Its Own Kind of Emotions",
@@ -299,7 +381,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "21h ago"
   },
   {
     "title": "Even Artemis II Astronauts Have Microsoft Outlook Problems",
@@ -320,7 +402,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "21h ago"
   },
   {
     "title": "Moog Technology Successfully Steers Artemis II Launch",
@@ -339,7 +421,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Carmel Ortiz on the evolving landscape of satellite communications",
@@ -359,7 +441,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "18h ago"
+    "time": "22h ago"
   },
   {
     "title": "Commonwealth Fusion Systems leans on magnets for near-term revenue",
@@ -378,7 +460,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "23h ago"
   },
   {
     "title": "Phantom Space buys thermal specialist to support orbital data center push",
@@ -398,7 +480,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Relativity, Hermeus, Astrion and Divergent executives join Fortastra C-suite",
@@ -427,7 +509,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Over 60 New Fast EV Chargers To Be Operating In NYC",
@@ -446,7 +528,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "The Download: plastic&#8217;s problem with fuel prices, and SpaceX&#8217;s blockbuster IPO",
@@ -465,7 +547,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "Unmasking the Paramilitary Agents Behind Trump’s Violent Immigration Crackdown",
@@ -484,7 +566,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "From Filament to Firepower: 3D Printing’s Impact on Warfare",
@@ -682,25 +764,6 @@
     "time": "1d ago"
   },
   {
-    "title": "‘Thank You for Generating With Us!’ Hollywood's AI Acolytes Stay on the Hype Train",
-    "link": "https://www.wired.com/story/thank-you-for-generating-with-us-hollywoods-ai-acolytes-stay-on-the-hype-train/",
-    "description": "Star Wars producer Kathleen Kennedy was one of the few skeptics at the Runway AI Summit, where AI was compared to fire and the printing press just a week after Sora’s death.",
-    "pubDate": "Wed, 01 Apr 2026 18:13:34 +0000",
-    "category": "Culture",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Runway",
-    "matchedCompanies": [
-      "Runway"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "Switzerland considers &#8216;complete termination&#8217; of US Patriot order, vows to extend payment freeze",
     "link": "https://breakingdefense.com/2026/04/switzerland-considers-complete-termination-of-us-patriot-order-vows-to-extend-payment-freeze/",
     "description": "Bern warned that the Patriot drama could not only affect a larger F-35 sale, but &#8220;the entire Swiss Foreign Military Sale portfolio with the USA.&#8221;",
@@ -807,7 +870,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "The Florida Model for Sustainable Aerospace Growth",
@@ -831,7 +894,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Cybersecurity Firm TAC Security Hits 10,000 Clients, Enters Top 5 in Global VM &#038; AppSec",
@@ -855,7 +918,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Heat Radiators for AI Data Centers in Space Will Be a Huge Advantage and Not a Huge Problem",
@@ -877,7 +940,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "China’s AI Is Spreading Fast. Here’s How to Stop the Security Risks",
@@ -899,25 +962,6 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "2d ago"
-  },
-  {
-    "title": "Chinese startup tests flexible robotic arm in space for on-orbit servicing",
-    "link": "https://spacenews.com/chinese-startup-tests-flexible-robotic-arm-in-space-for-on-orbit-servicing/",
-    "description": "\nA Chinese commercial company has conducted an on-orbit demonstration of a flexible robotic arm, marking progress toward capabilities for satellite servicing, refueling and debris removal.\nThe post Chinese startup tests flexible robotic arm in space for on-orbit servicing appeared first on SpaceNews",
-    "pubDate": "Wed, 01 Apr 2026 07:50:44 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Astroscale",
-    "matchedCompanies": [
-      "Astroscale"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
     "time": "2d ago"
   },
   {
@@ -988,25 +1032,6 @@
       "climate"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Virgin Galactic expects commercial suborbital flights to resume late this year",
-    "link": "https://spacenews.com/virgin-galactic-expects-commercial-suborbital-flights-to-resume-late-this-year/",
-    "description": "\nVirgin Galactic still expects to resume commercial suborbital flights by the end of the year as its first next-generation spaceplane nears completion.\nThe post Virgin Galactic expects commercial suborbital flights to resume late this year appeared first on SpaceNews.",
-    "pubDate": "Wed, 01 Apr 2026 01:10:16 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Dawn Aerospace",
-    "matchedCompanies": [
-      "Dawn Aerospace"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
     "impact": "low",
     "time": "2d ago"
   },
@@ -1167,7 +1192,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "The Download: AI health tools and the Pentagon’s Anthropic culture war",
@@ -1191,7 +1216,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "The U.S. Military Risks Letting Contractors Define How It Sees the Battlefield",
@@ -1394,7 +1419,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "What the Claude AI chatbot really does for CENTCOM",
@@ -1413,7 +1438,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "How 5G Non-Terrestrial Networks Enable Ubiquitous Global Connectivity",
@@ -1432,7 +1457,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Pulsar Fusion Ignites Plasma in Nuclear Rocket Test",
@@ -1509,7 +1534,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "6d ago"
+    "time": "3/27/2026"
   },
   {
     "title": "The Pentagon Wants Dual-Use Innovation. Patent Law Might Punish It.",
@@ -1884,30 +1909,6 @@
     "time": "3/23/2026"
   },
   {
-    "title": "IEEE Partners With Academia to Create Microcredential Programs",
-    "link": "https://spectrum.ieee.org/ieee-academia-microcredentials-programs",
-    "description": "The rapid ascent of artificial intelligence and semiconductor manufacturing has created a paradox: Industries are booming yet they face a critical shortage of skilled workers. Demand for data center technicians, fabrication facility workers, and similar positions is growing. There aren’t enough cand",
-    "pubDate": "Fri, 20 Mar 2026 18:00:04 +0000",
-    "category": "Education",
-    "source": "IEEE Spectrum",
-    "feedCategory": "tech",
-    "matchedCompany": "Conductor Quantum",
-    "matchedCompanies": [
-      "Conductor Quantum",
-      "PsiQuantum",
-      "Astera Labs",
-      "Zettascale",
-      "Rebellions"
-    ],
-    "sectors": [
-      "quantum",
-      "chips"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "3/20/2026"
-  },
-  {
     "title": "Countering Drones and the Pace of Modern War",
     "link": "https://warontherocks.com/2026/03/countering-drones-and-the-pace-of-modern-war/",
     "description": "This episode is about far more than countering drones. It is about how America prepares for and fights its wars. With three leaders from three companies at the forefront of counter-drone solutions (AeroVironment, Epirus, and Hidden Level), the conversation explores how America and its enemies are ad",
@@ -2007,7 +2008,7 @@
     "time": "3/17/2026"
   },
   {
-    "title": "Magazine Breadth — Not Just Depth — Is Key to Munitions Industrial Base Resilience",
+    "title": "Magazine Breadth — Not Just Depth ��� Is Key to Munitions Industrial Base Resilience",
     "link": "https://warontherocks.com/2026/03/magazine-breadth-not-just-depth-is-key-to-munitions-industrial-base-resilience/",
     "description": "Is America running out of missiles? The attacks on Iranian forces and leadership have had a devastating impact on the regime, but the repeated salvos of precision-guided munitions and interceptors have put a strain on U.S. and Israeli stores of some of these munitions. While the United States retain",
     "pubDate": "Thu, 12 Mar 2026 08:00:59 +0000",
