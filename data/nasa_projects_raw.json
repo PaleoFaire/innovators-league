@@ -1,5 +1,158 @@
 [
   {
+    "id": 157164,
+    "title": "Exploration Exercise System (EES) Physiology",
+    "description": "<p>ISS crew rely on exercise countermeasures to mitigate health effects associated with long-duration exposure to microgravity. However, current systems are mass-, power-, and volume-intensive and are sufficient for microgravity extravehicular activities (EVA) but not completely effective for crew egress or immediate surface EVA after a long period in deep space. Mass efficient and effective exercise is needed for preventing injury and providing muscle/cardio fitness in preparation for crew acti",
+    "status": "Active",
+    "startDate": "Oct 2020",
+    "endDate": "Sep 2030",
+    "lastUpdated": "04/03/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Prevention and Countermeasures",
+    "partners": [
+      "Johnson Space Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157849,
+    "title": "Acid Gas Detection & Absorption",
+    "description": "<p>Based on tests performed in the Gas and Aerosol from Smoldering Polymers (GASP) lab, HCl and HF were included in the Anomaly Gas Analyzer (AGA) developed as the replacement for the Compound Specific Analyzer \u2013 Combustion Products (CSA-CP) on ISS. This instrument will also be used on Orion. However, the long-term fate of HCl and HF following a fire is not clear. While it is easily removed by a carbon filter, tests have shown that they readily adhere to surfaces. Therefore, rather than scrubbin",
+    "status": "Active",
+    "startDate": "Oct 2021",
+    "endDate": "Sep 2027",
+    "lastUpdated": "04/03/26",
+    "center": "Glenn Research Center",
+    "technologyArea": "Fire Detection, Suppression, and Recovery",
+    "partners": [
+      "Glenn Research Center",
+      "Ohio State University-Main Campus"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157847,
+    "title": "Fire Scenario Modeling",
+    "description": "<p>The placement of the Remote Sensors and Far-Field Diagnostics in the Saffire-IV-VI experiments provided data on the conditions within the Cygnus Vehicle during the fire events. The ultimate goal of this data is to develop and verify a model of fire scenarios in spacecraft with inputs of ECLSS air flow, heat release rates, and release rates of combustion products (particulate and gaseous). Data from other tasks within the Spacecraft Fire Safety Demonstration activity will incorporating data fo",
+    "status": "Active",
+    "startDate": "Oct 2021",
+    "endDate": "Sep 2030",
+    "lastUpdated": "04/03/26",
+    "center": "Glenn Research Center",
+    "technologyArea": "Fire Detection, Suppression, and Recovery",
+    "partners": [
+      "Glenn Research Center",
+      "Case Western Reserve University",
+      "University of California-Berkeley"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157721,
+    "title": "Highly Resolution THz Local Oscillator using a Compact Quantum Cascade Laser",
+    "description": "<p>Compact and electrically driven Terahertz-frequency quantum-cascade lasers (THz-QCLs) (~2x2 mm, <10 W) provide a promising alternative solution to a bulky FIR (far-infrared) gas laser (~0.5x3 meter, ~250 KW) to address several science goals in planetary and earth sciences, astrophysics, and Heliophysics. However, free-running QCLs have stability issues (only stable to <1ppm), and their linewidth is limited to a hundred MHz down to a few KHz. To address the need for a high-resolution (stable) ",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/03/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157712,
+    "title": "Uniting Physics and Machine Learning for Enhanced Heliophysics Insights",
+    "description": "<p>SONTRAC is designed to detect incident solar neutrons within an energy range that fill a current gap in the energization process of flare ion acceleration. SONTRAC tracks recoil protons (from neutron interactions) as they traverse the fiber bundle volume, which deposit ionization energy along their path.</p>  <p>Currently, the reconstruction involves determining the energy deposited and the direction (e.g., the momentum vectors) of the recoil protons. In many cases, there is significant ambig",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/03/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Intelligent Data Understanding",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157694,
+    "title": "HPSC Evaluation",
+    "description": "<p>This project would enable Engineers and Scientists to get early hands-on opportunities with the High Performance Space Computing (HPSC) Evaluation cards to build expertise and demonstrate concepts. Scientists and Engineers have collected several applications and use cases that are currently too demanding to execute on the current State of the Art offering of rad hard processors. This project would develop and evaluate those use cases on HPSC hardware, benchmark results and provide comparison ",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/03/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "High-Performance Processors",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157656,
+    "title": "Intelligent Extensible Mission Architectures Systems and Prototypes",
+    "description": "<p>This project supports the wider Intelligent Extensible Mission Architecture (IEMA) by providing the software and hardware platforms required to demonstrate artificial intelligence across heterogeneous, extensible constellations. There are three critical elements: a simulation platform in which to prove algorithms, an Unmanned Aerial System (UAS) platform to accomplish a snow hydrology science mission, and a credible path to spaceflight through a hybrid constellation demonstration. We will lev",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/03/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Activity and Resource Planning and Scheduling",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157204,
+    "title": "Space Grade Linux for Flight Software on Next Generation Space Processors",
+    "description": "<p>Introduces first class Linux support for flight software in next-generation space processors and allows missions to tap into Linux&#39;s unrivaled performance, hardware support, and software ecosystem. This support is enabled through an embedded linux distribution using the Yocto Project named Space Grade Linux, Linux-specific core Flight System apps, and other general operating system components.</p> ",
+    "status": "Completed",
+    "startDate": "May 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/03/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Frameworks, Languages, Tools, and Standards",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 182177,
+    "title": "Hyperspectral Microwave Photonics Technology Development for the Planetary Boundary Level",
+    "description": "<p>We are working on developing integrated photonics technology to improve the functionality of space-based microwave radiometers. By encoding the radiometric microwave spectra onto an optical carrier, we can process broad parts of the microwave spectra in parallel using optical techniqiues. Employing integrated photonics allows us to ruggedize the system, shrink the size and potentially improve instrument efficiency. </p>",
+    "status": "Completed",
+    "startDate": "Feb 2025",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/03/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Sensors and Instruments",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157727,
+    "title": "AI Powered Goddard Proposal Assistant (GPA) for Missions",
+    "description": "<p>This project aims to develop a suite of specialized AI-assisted capabilities to aid mission proposal development and planning at NASA Goddard Space Flight Center. By combining human expertise with advanced AI capabilities, this project aims to significantly enhance the efficiency, quality, and competitiveness of NASA Goddard mission proposals, ultimately advancing the agency&#39;s space exploration and scientific discovery goals.</p> ",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/03/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Digital Assistant",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
     "id": 184738,
     "title": "Crew Health And Performance Exploration Analog (CHAPEA) Mission 2",
     "description": "<p>Missions for Moon to Mars are very different from missions to the ISS due to length of isolation and confinement, distance from Earth, and the resource restrictions that will be applied to the crew. Artemis Program vehicles have limited mass allocations for food and other consumables. Given the increased distance to Mars and timeline for return, programs need to understand the impacts of restrictions within realistic constraints on health and performance to inform risk/resource trades prior t",
@@ -2318,155 +2471,6 @@
     "technologyArea": "Thermal Management Systems",
     "partners": [
       "Armstrong Flight Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 156378,
-    "title": "Wall modeled large eddy simulation of high-enthalpy hypersonic flows",
-    "description": "Hypersonic entry vehicles such as capsules operate in an extreme environment where a plethora of physical phenomena must be understood and modeled to design thermal protection systems. Among these phenomena, the interaction between turbulence and chemical reactions in the gas is generally not well understood. This work will extend wall-modeled large eddy simulations (WMLES) to incorporate chemically reacting effects, enabling scale resolved simulations of chemically reacting turbulent flows. WML",
-    "status": "Active",
-    "startDate": "Oct 2023",
-    "endDate": "Oct 2026",
-    "lastUpdated": "03/12/26",
-    "center": "University of Colorado Boulder",
-    "technologyArea": "Integrated Modeling and Simulation for EDL",
-    "partners": [
-      "University of Colorado Boulder",
-      "Ames Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184103,
-    "title": "Spacecraft Priming Analysis and Research Test Apparatus: Test Number 2 (SPARTAN 2)",
-    "description": "<p><strong>Project Objective</strong></p><p>SPARTAN 2 seeks to leverage the success of SPARTAN 1 and expand the spacecraft priming surge test capability at MSFC.</p><p><strong>Project Description</strong></p><p>Priming surge testing on spacecraft propulsion systems is inherently difficult due to the initial vacuum requirement prior to the test (<0.0003 psia). Priming surge is often the highest peak pressure that spacecraft propulsion systems must endure. Analytically, it is difficult to predict ",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "03/10/26",
-    "center": "MSFC Engineering Directorate",
-    "technologyArea": "Propulsion Systems",
-    "partners": [
-      "MSFC Engineering Directorate"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184329,
-    "title": "M-40 Upgrades and Integration",
-    "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>Outfit the M-40 Diamond turning lathe with accelerometers to monitor machine vibrations.</p><p><strong>Project Description</strong>\u00a0</p><p>The M-40 Diamond turning lathe is a machine used to cut the reflecting surfaces of mirrors up to 2 meters in diameter. To achieve the precision needed to meet science goals, the machine must be incredibly stable. The intent of this project was to outfit the machine with high precision accelerometers in order to be",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "03/08/26",
-    "center": "",
-    "technologyArea": "Manufacturing",
-    "partners": [],
-    "website": ""
-  },
-  {
-    "id": 184332,
-    "title": "Glove Box For Inkless 3D Electronics Printer",
-    "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>The glove box funded by this effort is to be integrated with a 3D electronics printer to provide an inert environment and miniature clean room as a path to developing a portable microelectronics fabrication facility for in-space critical system repair.\u00a0</p><p><strong>Project Description</strong>\u00a0</p><p>Prior investigations with 3D printed electronics have been plagued with oxidation and contamination issues highly affecting process development and yi",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "03/08/26",
-    "center": "",
-    "technologyArea": "Avionics Component Technologies",
-    "partners": [],
-    "website": ""
-  },
-  {
-    "id": 184331,
-    "title": "Acquire LED Solar Simulator to Enable Testing State-of-the-Art Solar Array Technology",
-    "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>MSFC-ES32 proposes to enhance our solar array testing capability with a state-of-the-art LED-based system that can test up to 5 junctions to accommodate the advancements in solar cell technology and provide valuable solar array performance test data in support of future NASA missions.\u00a0</p><p><strong>Project Description</strong>\u00a0</p><ul><li>Photovoltaic power generation (solar cells) utilizes multiple P-N junctions made of different semiconductor mate",
-    "status": "Active",
-    "startDate": "Sep 2024",
-    "endDate": "May 2026",
-    "lastUpdated": "03/08/26",
-    "center": "Angstrom Designs, Inc.",
-    "technologyArea": "Aerospace Power and Energy Storage",
-    "partners": [
-      "Angstrom Designs, Inc."
-    ],
-    "website": ""
-  },
-  {
-    "id": 184330,
-    "title": "Enhanced Profile Scanning Platform for Epoxy Flat Floor",
-    "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>The enhanced profile scanning platform enables quantification of bumps and other damage on MSFC's epoxy flat floor, which will inform remediation efforts needed to maintain the floor's air bearing capability.\u00a0</p><p><strong>Project Description</strong>\u00a0</p><p>The epoxy flat floor in the Flat Floor Robotics Lab (FFRL) is a unique and important capability for ground testing of space systems. The Flat Floor gives a smooth surface for air bearings to flo",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "03/08/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Ground, Test, and Surface Systems",
-    "partners": [
-      "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184106,
-    "title": "Topology & Generative Design Optimization for Thermal Cryogenic Fluid Management (CFM) Struts ",
-    "description": "<p><strong>Project Objective</strong></p><p>To develop techniques and capabilities of topology optimized cryogenic thermal isolation struts for deep space applications.</p><p><strong>Project Description</strong></p><p>Reducing heat transfer in cryogenic tanks in orbit currently rely on traditional materials used in thermal struts which include composites and epoxy as the primary bonded interfaces. These materials may not survive long duration missions (like Mars missions) in the radiation enviro",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Dec 2025",
-    "lastUpdated": "03/08/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Thermal Management Systems",
-    "partners": [
-      "Marshall Space Flight Center",
-      "Amentum Space Exploration Group"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184342,
-    "title": "Human Factors Mockup Fabrication Capabilities Increase",
-    "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>Procure new manufacturing equipment to increase mockup fabrication capabilities.</p><p><strong>Project Description</strong>\u00a0</p><p>This project aimed to procure new manufacturing equipment to increase fabrication capabilities overall on the team. This included a new computerized numerically controlled (CNC) router, metal shear, metal break, horizontal band saw, and laser cutter with enclosure. These machines either replace aging equipment, providing ",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "03/08/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Manufacturing Processes",
-    "partners": [
-      "Marshall Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184328,
-    "title": "In-Situ Metrology for Optics Development",
-    "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>Developed a system to perform in-situ metrology on all of our optics in the production phase.</p><p><strong>Project Description</strong>\u00a0</p><p>The system utilizes a 4D Nanocam that is attached to multiple stages on a moving cart that will allow it to be moved from work station to work station to obtain surface figure roughness without having to remove the optic from its polishing or diamond turning mount.\u00a0</p><p><strong>Project Results and Conclusio",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "03/08/26",
-    "center": "",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [],
-    "website": ""
-  },
-  {
-    "id": 106026,
-    "title": "CubeSat Space Flight test of a Neutrino Detector",
-    "description": "<p>This is a proposal for the development of a Neutrino Detector for a Spacecraft that has a science mission to fly close to the Sun and study the nuclear furnace core and search for and study the neutrino gravitational lens at 20 to 50 AU of the 2nd brightest neutrino source in the sky \u2013 the galactic core \u2013 and along the way, search for direct interaction of dark matter. The neutrino intensity can dramatically change as the distance from the Sun squared and the solar neutrino flux (a background",
-    "status": "Completed",
-    "startDate": "Oct 2021",
-    "endDate": "Sep 2024",
-    "lastUpdated": "03/06/26",
-    "center": "Wichita State University",
-    "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Wichita State University",
-      "Marshall Space Flight Center",
-      "South Dakota State University",
-      "University of Minnesota-Twin Cities"
     ],
     "website": ""
   }

@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-04-03 07:54:43 UTC
+// Last updated: 2026-04-04 07:40:57 UTC
 const ARXIV_PAPERS = [
   { id: "2604.02330v1", title: "ActionParty: Multi-Subject Action Binding in Generative Video Games", category: "Artificial Intelligence", published: "2026-04-02", sectors: "nuclear, ai", authors: "Alexander Pondaven, Ziyi Wu, Igor Gilitschenski et al." },
   { id: "2604.02327v1", title: "Steerable Visual Representations", category: "Artificial Intelligence", published: "2026-04-02", sectors: "ai", authors: "Jona Ruthardt, Manu Gaur, Deva Ramanan et al." },
