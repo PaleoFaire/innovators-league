@@ -1,6 +1,9 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-03 07:16:26 UTC
+// Last updated: 2026-04-04 07:07:19 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248597.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248508.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248421.xml", isIPO: false, ticker: "OKLO" },
   { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
@@ -48,7 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Virgin Galactic", form: "10-K", date: "2026-03-30", description: "spce-20251231.htm", isIPO: false, ticker: "SPCE" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-03-30", description: "spce-20260330.htm", isIPO: false, ticker: "SPCE" },
   { company: "Oklo", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774907147.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906989.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Aurora Innovation", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906611.xml", isIPO: false, ticker: "AUR" },
-  { company: "Aurora Innovation", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774906562.xml", isIPO: false, ticker: "AUR" },
 ];
