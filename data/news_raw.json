@@ -1,5 +1,70 @@
 [
   {
+    "title": "Navy shipbuilding request rises nearly 50% in 2027 proposal",
+    "link": "https://www.defenseone.com/policy/2026/04/navy-shipbuilding-request-2027-budget/412633/",
+    "description": "The White House aims to fund nearly 20 warships plus initial work on a battleship class.",
+    "pubDate": "Fri, 03 Apr 2026 22:41:28 -0400",
+    "category": "Policy",
+    "source": "Defense One",
+    "feedCategory": "defense",
+    "matchedCompany": "Saronic",
+    "matchedCompanies": [
+      "Saronic"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
+    "link": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
+    "description": "Glen Anderson, president of Rainmaker Securities, says the secondary market for private shares has never been more active — with Anthropic the hottest trade around, OpenAI losing ground, and SpaceX's looming IPO poised to reshape the landscape for everyone.",
+    "pubDate": "Sat, 04 Apr 2026 01:31:00 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Rainmaker",
+      "Anthropic",
+      "OpenAI"
+    ],
+    "sectors": [
+      "space",
+      "autonomous",
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "1h ago"
+  },
+  {
+    "title": "Meta Pauses Work With Mercor After Data Breach Puts AI Industry Secrets at Risk",
+    "link": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/",
+    "description": "Major AI labs are investigating a security incident that impacted Mercor, a leading data vendor. The incident could have exposed key data about how they train AI models.",
+    "pubDate": "Fri, 03 Apr 2026 21:28:14 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Cape",
+    "matchedCompanies": [
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "climate",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
     "title": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead &#8216;special projects&#8217;",
     "link": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
     "description": "In addition to Lightcap's new role, OpenAI CMO Kate Rouch will be stepping away from the company to focus on cancer recovery, with a plan to return when her health allows.",
@@ -16,10 +81,32 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "6h ago"
   },
   {
-    "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: reports",
+    "title": "OpenClaw gives users yet another reason to be freaked out about security",
+    "link": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
+    "description": "",
+    "pubDate": "Fri, 03 Apr 2026 20:30:15 +0000",
+    "category": "AI",
+    "source": "Ars Technica",
+    "feedCategory": "tech",
+    "matchedCompany": "Cape",
+    "matchedCompanies": [
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "climate",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "6h ago"
+  },
+  {
+    "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports",
     "link": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
     "description": "Anthropic has purchased the stealth biotech AI startup Coefficient Bio in a $400 million stock deal, according to The Information and Eric Newcomer.",
     "pubDate": "Fri, 03 Apr 2026 20:28:40 +0000",
@@ -35,7 +122,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "Just now"
+    "time": "6h ago"
   },
   {
     "title": "Anthropic ramps up its political activities with a new PAC",
@@ -54,14 +141,14 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "6h ago"
   },
   {
     "title": "AI companies are building huge natural gas plants to power data centers. What could go wrong?",
-    "link": "https://techcrunch.com/2026/04/03/ai-energy-microsoft-meta-google-natural-gas-mining-fomo/",
+    "link": "https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/",
     "description": "Meta, Microsoft, and Google are all betting big on new natural gas power plants to run their AI data centers. They may regret it.",
     "pubDate": "Fri, 03 Apr 2026 19:48:22 +0000",
-    "category": "Enterprise",
+    "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "Crusoe Energy",
@@ -75,7 +162,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "6h ago"
   },
   {
     "title": "OpenAI’s Fidji Simo Is Taking Medical Leave Amid an Executive Shake-Up",
@@ -94,7 +181,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1h ago"
+    "time": "7h ago"
   },
   {
     "title": "Edward ‘Big Balls’ Coristine Is Helping Out on Viral Fraud Videos Now",
@@ -113,7 +200,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "7h ago"
   },
   {
     "title": "People would rather have an Amazon warehouse in their backyard than a data center",
@@ -135,7 +222,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "7h ago"
   },
   {
     "title": "The Week’s 10 Biggest Funding Rounds: Largest Financings Went To Defense, Wearables, Energy And Security",
@@ -160,7 +247,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "2h ago"
+    "time": "8h ago"
   },
   {
     "title": "Google, AI, &#038; Carbon Emissions &#8212; A Lesson In Situational Ethics",
@@ -179,7 +266,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "Trump seeks to double number of ship requests with 2027 defense budget",
@@ -198,7 +285,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "Four things we’d need to put data centers in space",
@@ -217,7 +304,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "India to acquire more air defense systems and drones for modern warfare",
@@ -236,7 +323,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "11h ago"
   },
   {
     "title": "US F-15E fighter jet downed by Iran, rescue operations underway",
@@ -255,7 +342,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "11h ago"
   },
   {
     "title": "White House again proposes steep NASA budget cuts",
@@ -275,7 +362,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "5h ago"
+    "time": "11h ago"
   },
   {
     "title": "SpaceX Starship Launch Delayed Until May 2026",
@@ -294,7 +381,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "6h ago"
+    "time": "12h ago"
   },
   {
     "title": "ENIAC’s Architects Wove Stories Through Computing",
@@ -315,7 +402,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "13h ago"
   },
   {
     "title": "Marine Corps awards Textron, General Dynamics second rapid ARV prototype contract",
@@ -334,7 +421,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "8h ago"
+    "time": "14h ago"
   },
   {
     "title": "SpaceX and Amazon spar over satellite deployments",
@@ -354,7 +441,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "9h ago"
+    "time": "15h ago"
   },
   {
     "title": "CBP Facility Codes Sure Seem to Have Leaked Via Online Flashcards",
@@ -376,7 +463,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "11h ago"
+    "time": "17h ago"
   },
   {
     "title": "The Trump Administration’s Attempt to Expand Drilling at Chaco Canyon",
@@ -397,7 +484,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "16h ago"
+    "time": "22h ago"
   },
   {
     "title": "Rivian Beats Wall Street Sales Expectations, But Still Niche",
@@ -416,7 +503,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "22h ago"
   },
   {
     "title": "SpaceX Discusses Over $2 Trillion IPO Valuation",
@@ -437,7 +524,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "18h ago"
+    "time": "1d ago"
   },
   {
     "title": "What If The US Redirected The Money From The Iran War To Clean Energy?",
@@ -614,25 +701,6 @@
       "ai"
     ],
     "type": "milestone",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Microsoft takes on AI rivals with three new foundational models",
-    "link": "https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/",
-    "description": "MAI released models that can transcribe voice into text as well as generate audio and images after the group's formation six months ago.",
-    "pubDate": "Thu, 02 Apr 2026 16:48:16 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Photonic Inc",
-    "matchedCompanies": [
-      "Photonic Inc"
-    ],
-    "sectors": [
-      "quantum"
-    ],
-    "type": "news",
     "impact": "low",
     "time": "1d ago"
   },
@@ -960,7 +1028,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "SpaceX quietly files for big bang IPO",
@@ -1109,30 +1177,6 @@
       "transportation"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "The Florida Model for Sustainable Aerospace Growth",
-    "link": "https://spacenews.com/florida-model-for-sustainable-aerospace-growth-sn-focus/",
-    "description": "\nA conversation with Robert Long, President and CEO, Space Florida\nThe post The Florida Model for Sustainable Aerospace Growth appeared first on SpaceNews.",
-    "pubDate": "Wed, 01 Apr 2026 11:23:27 +0000",
-    "category": "Sponsored",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Hadrian",
-    "matchedCompanies": [
-      "Hadrian",
-      "AnySignal",
-      "Elodin",
-      "Orbital Composites"
-    ],
-    "sectors": [
-      "robotics",
-      "space",
-      "infrastructure"
-    ],
-    "type": "hire",
     "impact": "low",
     "time": "2d ago"
   },
@@ -1292,29 +1336,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Win Yourself A Rivian!",
-    "link": "https://cleantechnica.com/2026/03/31/win-yourself-a-rivian/",
-    "description": "Vision, commitment, sustainability, leadership — this has been the ISEA way for four decades. As part of its fundraising activities to help advance solar energy in Illinois, the Illinois Solar Education Association (ISEA) has also been raffling off electric vehicles for years. This year, it&#8217;s ",
-    "pubDate": "Tue, 31 Mar 2026 21:55:40 +0000",
-    "category": "Clean Transport",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Alpha School",
-    "matchedCompanies": [
-      "Alpha School",
-      "Synthesis",
-      "Rivian"
-    ],
-    "sectors": [
-      "consumer",
-      "transportation"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "AI boat maker Saronic smashes $9 billion valuation",
@@ -1478,7 +1500,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Don't bottleneck defense-personnel vetting with a small-business set-aside",
