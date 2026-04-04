@@ -23513,25 +23513,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-04 05:24
-// Auto-generated real-time signals
-// Last updated: 2026-04-04
+// Last updated: 2026-04-04 08:51
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Blue Origin", headline: "Blue Origin Launches Planned for 2026", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Blue Origin", headline: "Blue Origin New Glenn Targets April Launch of AST Space Mobile Satellite", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Saronic", headline: "Navy shipbuilding request rises nearly 50% in 2027 proposal", source: "Defense One", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "Anthropic is having a moment in the private markets; SpaceX could spoil the party", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Cape", headline: "Meta Pauses Work With Mercor After Data Breach Puts AI Industry Secrets at Risk", source: "Wired", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead &#8216;special projects&#8217;", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Cape", headline: "OpenClaw gives users yet another reason to be freaked out about security", source: "Ars Technica", time: "10h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports", source: "TechCrunch", time: "10h ago", impact: "medium", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic ramps up its political activities with a new PAC", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Crusoe Energy", headline: "AI companies are building huge natural gas plants to power data centers. What could go wrong?", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "hire", company: "OpenAI", headline: "OpenAI’s Fidji Simo Is Taking Medical Leave Amid an Executive Shake-Up", source: "Wired", time: "11h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Palantir", headline: "Edward ‘Big Balls’ Coristine Is Helping Out on Viral Fraud Videos Now", source: "Wired", time: "11h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Agility Robotics", headline: "People would rather have an Amazon warehouse in their backyard than a data center", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Saronic", headline: "The Week’s 10 Biggest Funding Rounds: Largest Financings Went To Defense, Wearables, Energy And Security", source: "Crunchbase News", time: "12h ago", impact: "high", unread: false },
-  { id: 15, type: "news", company: "Saule Technologies", headline: "Google, AI, &#038; Carbon Emissions &#8212; A Lesson In Situational Ethics", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Blue Origin", headline: "Blue Origin Launches Planned for 2026", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Blue Origin", headline: "Blue Origin New Glenn Targets April Launch of AST Space Mobile Satellite", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Saronic", headline: "Navy shipbuilding request rises nearly 50% in 2027 proposal", source: "Defense One", time: "6h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "Anthropic is having a moment in the private markets; SpaceX could spoil the party", source: "TechCrunch", time: "7h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Cape", headline: "Meta Pauses Work With Mercor After Data Breach Puts AI Industry Secrets at Risk", source: "Wired", time: "11h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead 'special projects'", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Cape", headline: "OpenClaw gives users yet another reason to be freaked out about security", source: "Ars Technica", time: "12h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports", source: "TechCrunch", time: "12h ago", impact: "medium", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Anthropic ramps up its political activities with a new PAC", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Crusoe Energy", headline: "AI companies are building huge natural gas plants to power data centers. What could go wrong?", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "hire", company: "OpenAI", headline: "OpenAI's Fidji Simo Is Taking Medical Leave Amid an Executive Shake-Up", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Palantir", headline: "Edward 'Big Balls' Coristine Is Helping Out on Viral Fraud Videos Now", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Agility Robotics", headline: "People would rather have an Amazon warehouse in their backyard than a data center", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Saronic", headline: "The Week's 10 Biggest Funding Rounds: Largest Financings Went To Defense, Wearables, Energy And Security", source: "Crunchbase News", time: "14h ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "Saule Technologies", headline: "Google, AI, &#038; Carbon Emissions &#8212; A Lesson In Situational Ethics", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
