@@ -1,5 +1,5 @@
 // Auto-updated press releases
-// Last updated: 2026-04-04 07:40:30 UTC
+// Last updated: 2026-04-05 07:46:38 UTC
 const PRESS_RELEASES = [
   { title: "Vireo Growth Inc. Partners with Ace Ventures to Establish New York’s First Minor", date: "", companies: "Zipline, Vertical Aerospace, Kinova Robotics", categories: "partnership, milestone", source: "globenewswire_all" },
   { title: "Anika Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)", date: "", companies: "Focused Energy, Fortera, Runway", categories: "ipo", source: "globenewswire_all" },

@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-04-04 07:40:44 UTC
+// Last updated: 2026-04-05 07:46:49 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT04724369", title: "Open-Label Study of 18F-mFBG for Imaging Neuroblastoma", status: "ACTIVE_NOT_RECRUITING", phase: "PHASE3", sponsor: "Innervate Radiopharmaceuticals LLC (Formerly: Illumina Radiopharmaceuticals LLC)", conditions: "Neuroblastoma", enrollment: 43, lastUpdated: "2026-04-03" },
   { nctId: "NCT05117840", title: "Screening for High Frequency Malignant Disease", status: "ACTIVE_NOT_RECRUITING", phase: "N/A", sponsor: "Guardant Health, Inc.", conditions: "Lung Cancer", enrollment: 12000, lastUpdated: "2026-04-03" },
