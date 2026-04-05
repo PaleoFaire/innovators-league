@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-04 07:07:19 UTC
+// Last updated: 2026-04-05 07:13:43 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248597.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248508.xml", isIPO: false, ticker: "OKLO" },
