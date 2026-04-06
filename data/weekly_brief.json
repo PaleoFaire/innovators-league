@@ -1,70 +1,98 @@
 {
-  "date": "2026-03-30",
-  "display_date": "Mar 30, 2026",
-  "generated_at": "2026-03-30T11:09:08.687399+00:00",
-  "cutoff": "2026-03-23T11:09:08.687399+00:00",
-  "section_count": 5,
-  "total_items": 238,
+  "date": "2026-04-06",
+  "display_date": "Apr 06, 2026",
+  "generated_at": "2026-04-06T11:03:06.001921+00:00",
+  "cutoff": "2026-03-30T11:03:06.001921+00:00",
+  "section_count": 6,
+  "total_items": 272,
   "sections": [
+    {
+      "title": "New Funding Rounds",
+      "icon": "\ud83d\udcb0",
+      "count": 3,
+      "items": [
+        {
+          "company": "Hive AI",
+          "amount": "$12M",
+          "round": "Funding Round",
+          "investor": "Undisclosed",
+          "date": "2026-04"
+        },
+        {
+          "company": "Orbital Composites",
+          "amount": "$2.4M",
+          "round": "SPAC",
+          "investor": "Undisclosed",
+          "date": "2026-04"
+        },
+        {
+          "company": "Saildrone",
+          "amount": "$1.75B",
+          "round": "Series D",
+          "investor": "Undisclosed",
+          "date": "2026-04"
+        }
+      ]
+    },
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 27,
+      "count": 45,
       "items": [
         {
-          "company": "C3.ai",
+          "company": "Momentus",
           "form": "8-K",
-          "description": "ai-20260324.htm",
-          "date": "2026-03-25",
+          "description": "apre-20260401x8k.htm",
+          "date": "2026-04-01",
           "isIPO": false
         },
         {
-          "company": "UiPath",
+          "company": "Agrify Corporation",
           "form": "8-K",
-          "description": "path-20260324.htm",
-          "date": "2026-03-25",
+          "description": "ea0284475-8k_rythm.htm",
+          "date": "2026-04-01",
           "isIPO": false
         },
         {
-          "company": "IonQ",
+          "company": "Tempus AI",
           "form": "8-K",
-          "description": "bakkt-20260324.htm",
-          "date": "2026-03-24",
+          "description": "d47030d8k.htm",
+          "date": "2026-03-31",
           "isIPO": false
         },
         {
-          "company": "Recursion Pharmaceuticals",
+          "company": "Rivian",
           "form": "8-K",
-          "description": "rxrx-20260325.htm",
-          "date": "2026-03-25",
+          "description": "rivn-20260402.htm",
+          "date": "2026-04-02",
           "isIPO": false
         },
         {
-          "company": "Joby Aviation",
-          "form": "8-K",
-          "description": "d130319d8k.htm",
-          "date": "2026-03-26",
-          "isIPO": false
-        },
-        {
-          "company": "Astera Labs",
-          "form": "8-K",
-          "description": "tra-20260326.htm",
-          "date": "2026-03-27",
-          "isIPO": false
-        },
-        {
-          "company": "UiPath",
-          "form": "10-K",
-          "description": "path-20260131.htm",
-          "date": "2026-03-25",
-          "isIPO": false
-        },
-        {
-          "company": "Rocket Lab",
+          "company": "AST SpaceMobile",
           "form": "4",
-          "description": "xslF345X06/primary_doc.xml",
-          "date": "2026-03-26",
+          "description": "xslF345X06/ownership.xml",
+          "date": "2026-04-02",
+          "isIPO": false
+        },
+        {
+          "company": "AST SpaceMobile",
+          "form": "4",
+          "description": "xslF345X06/ownership.xml",
+          "date": "2026-04-02",
+          "isIPO": false
+        },
+        {
+          "company": "AST SpaceMobile",
+          "form": "4",
+          "description": "xslF345X06/ownership.xml",
+          "date": "2026-04-02",
+          "isIPO": false
+        },
+        {
+          "company": "AST SpaceMobile",
+          "form": "4",
+          "description": "xslF345X06/ownership.xml",
+          "date": "2026-04-02",
           "isIPO": false
         }
       ]
@@ -72,124 +100,128 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 45,
+      "count": 74,
       "items": [
         {
-          "title": "Categorical Exclusions From Environmental Review",
+          "title": "Protection of Stratospheric Ozone: Listing of Substitutes Under the Significant New Alternatives Policy Program in Refri",
+          "type": "Proposed Rule",
+          "agencies": [
+            "Environmental Protection Agency"
+          ],
+          "significant": false,
+          "date": "2026-04-06"
+        },
+        {
+          "title": "Float Glass Products From the People's Republic of China and Malaysia: Countervailing Duty Orders",
+          "type": "Notice",
+          "agencies": [
+            "Commerce Department",
+            "International Trade Administration"
+          ],
+          "significant": false,
+          "date": "2026-04-06"
+        },
+        {
+          "title": "Float Glass Products From the People's Republic of China: Antidumping Duty Order",
+          "type": "Notice",
+          "agencies": [
+            "Commerce Department",
+            "International Trade Administration"
+          ],
+          "significant": false,
+          "date": "2026-04-06"
+        },
+        {
+          "title": "Airworthiness Directives; Dassault Aviation Airplanes",
           "type": "Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Transportation Department",
+            "Federal Aviation Administration"
           ],
           "significant": false,
-          "date": "2026-03-30"
+          "date": "2026-04-06"
         },
         {
-          "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors",
+          "title": "Privacy Act of 1974; System of Records",
+          "type": "Notice",
+          "agencies": [
+            "Housing and Urban Development Department"
+          ],
+          "significant": false,
+          "date": "2026-04-06"
+        },
+        {
+          "title": "Medicare Program; Contract Year 2027 and Certain Contract Year 2026 Policy and Technical Changes to the Medicare Advanta",
           "type": "Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Health and Human Services Department",
+            "Centers for Medicare & Medicaid Services"
           ],
           "significant": false,
-          "date": "2026-03-30"
-        },
-        {
-          "title": "Sunshine Act Meetings",
-          "type": "Notice",
-          "agencies": [
-            "Nuclear Regulatory Commission"
-          ],
-          "significant": false,
-          "date": "2026-03-27"
-        },
-        {
-          "title": "Information Collection: NRC Form 754, Armed Security Personnel Firearms Background Check",
-          "type": "Notice",
-          "agencies": [
-            "Nuclear Regulatory Commission"
-          ],
-          "significant": false,
-          "date": "2026-03-25"
-        },
-        {
-          "title": "Applications for Amendments to Facility Operating Licenses Involving Proposed No Significant Hazards Consideration Deter",
-          "type": "Notice",
-          "agencies": [
-            "Nuclear Regulatory Commission"
-          ],
-          "significant": false,
-          "date": "2026-03-24"
-        },
-        {
-          "title": "Duke Energy Progress, LLC; H.B. Robinson Steam Electric Plant, Unit No. 2; Exemption",
-          "type": "Notice",
-          "agencies": [
-            "Nuclear Regulatory Commission"
-          ],
-          "significant": false,
-          "date": "2026-03-24"
+          "date": "2026-04-06"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 95,
+      "count": 79,
       "items": [
         {
-          "title": "Tesla Analyst Thinks Tesla Could Merge With SpaceX In 2027",
-          "source": "CleanTechnica",
+          "title": "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
+          "source": "TechCrunch",
           "company": "SpaceX",
           "impact": "high",
           "type": "ipo"
         },
         {
-          "title": "Iran Conflict Costing Shipping Industry \u20ac340 Million A Day",
-          "source": "CleanTechnica",
-          "company": "Mach Industries",
-          "impact": "high",
-          "type": "news"
-        },
-        {
-          "title": "Physical Intelligence is reportedly in talks to raise $1 billion, again",
-          "source": "TechCrunch",
-          "company": "Physical Intelligence",
+          "title": "The Week\u2019s 10 Biggest Funding Rounds: Largest Financings Went To Defense, Wearables, Energy And Secu",
+          "source": "Crunchbase News",
+          "company": "Saronic",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "Why SoftBank\u2019s new $40B loan points to a 2026 OpenAI IPO",
-          "source": "TechCrunch",
-          "company": "OpenAI",
+          "title": "Trump seeks to double number of ship requests with 2027 defense budget",
+          "source": "Defense News",
+          "company": "Saronic",
+          "impact": "high",
+          "type": "news"
+        },
+        {
+          "title": "What If The US Redirected The Money From The Iran War To Clean Energy?",
+          "source": "CleanTechnica",
+          "company": "Palantir",
+          "impact": "high",
+          "type": "news"
+        },
+        {
+          "title": "Phantom Space buys thermal specialist to support orbital data center push",
+          "source": "SpaceNews",
+          "company": "Astera Labs",
           "impact": "high",
           "type": "ipo"
         },
         {
-          "title": "Norway floats additional $11.8B in defense spending through 2035, cancels drone program",
-          "source": "Breaking Defense",
-          "company": "Deterrence",
+          "title": "The Download: plastic&#8217;s problem with fuel prices, and SpaceX&#8217;s blockbuster IPO",
+          "source": "MIT Tech Review",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "SpaceX quietly files for big bang IPO",
+          "source": "SpaceNews",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "AI boat maker Saronic smashes $9 billion valuation",
+          "source": "Defense One",
+          "company": "Saronic",
           "impact": "high",
           "type": "funding"
-        },
-        {
-          "title": "The Week\u2019s 10 Biggest Funding Rounds: A Varied Week For Big Deals, Led By AI And Defense",
-          "source": "Crunchbase News",
-          "company": "OpenAI",
-          "impact": "high",
-          "type": "funding"
-        },
-        {
-          "title": "NATO sees $145B in munitions needs, as members all hit 2 percent GDP for first time",
-          "source": "Breaking Defense",
-          "company": "Deterrence",
-          "impact": "high",
-          "type": "news"
-        },
-        {
-          "title": "A $20 Billion Crypto Scam Market Faces a New Government Crackdown",
-          "source": "Wired",
-          "company": "Palantir",
-          "impact": "high",
-          "type": "news"
         }
       ]
     },
@@ -199,61 +231,59 @@
       "count": 51,
       "items": [
         {
-          "title": "AI overly affirms users asking for personal advice",
-          "score": 768,
-          "comments": 602,
+          "title": "How many products does Microsoft have named 'Copilot'?",
+          "score": 793,
+          "comments": 371,
           "companies": [
-            "Sakana AI"
+            "Photonic Inc"
           ],
-          "url": "https://news.ycombinator.com/item?id=47554773"
+          "url": "https://news.ycombinator.com/item?id=47642569"
         },
         {
-          "title": "ChatGPT won't let you type until Cloudflare reads your React state",
-          "score": 582,
-          "comments": 372,
+          "title": "Artemis II crew see first glimpse of far side of Moon [video]",
+          "score": 475,
+          "comments": 364,
           "companies": [
-            "Rigetti Computing",
-            "OpenAI"
+            "Runway"
           ],
-          "url": "https://news.ycombinator.com/item?id=47566865"
+          "url": "https://news.ycombinator.com/item?id=47649721"
         },
         {
-          "title": "Say No to Palantir in Europe",
-          "score": 547,
-          "comments": 156,
+          "title": "German men 18-45 need military permit for extended stays abroad",
+          "score": 396,
+          "comments": 711,
           "companies": [
-            "Palantir"
+            "Xtend"
           ],
-          "url": "https://news.ycombinator.com/item?id=47563655"
+          "url": "https://news.ycombinator.com/item?id=47639976"
         },
         {
-          "title": "Nitrile and latex gloves may cause overestimation of microplastics",
-          "score": 541,
-          "comments": 244,
+          "title": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+          "score": 394,
+          "comments": 230,
           "companies": [
-            "Reveal Technology"
+            "Photonic Inc",
+            "Cohere"
           ],
-          "url": "https://news.ycombinator.com/item?id=47561711"
+          "url": "https://news.ycombinator.com/item?id=47651703"
         },
         {
-          "title": "I Built an Open-World Engine for the N64 [video]",
-          "score": 452,
-          "comments": 90,
+          "title": "Show HN: I built a tiny LLM to demystify how language models work",
+          "score": 376,
+          "comments": 31,
           "companies": [
-            "Runway",
             "Built Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=47553717"
+          "url": "https://news.ycombinator.com/item?id=47655408"
         },
         {
-          "title": "Britain today generating 90%+ of electricity from renewables",
-          "score": 409,
-          "comments": 293,
+          "title": "LLM Wiki \u2013 example of an \"idea file\"",
+          "score": 277,
+          "comments": 89,
           "companies": [
-            "Orbital Marine Power",
-            "SunDrive Solar"
+            "Ample"
           ],
-          "url": "https://news.ycombinator.com/item?id=47553484"
+          "url": "https://news.ycombinator.com/item?id=47640875"
         }
       ]
     },
@@ -263,45 +293,54 @@
       "count": 20,
       "items": [
         {
-          "title": "\u00c5RSRAPPORT 2025 INDENFOR OPJUSTERET M\u00c5LS\u00c6TNING: ",
+          "title": "Niu Technologies Provides First Quarter 2026 Sales Volume Update",
+          "source": "globenewswire_all",
+          "companies": [
+            "Vertical Aerospace",
+            "Volocopter",
+            "Attio"
+          ]
+        },
+        {
+          "title": "At 6G@UT Forum, InterDigital to Demonstrate AI-enabled Teleoperation and Energy Efficient Edge Intelligence",
+          "source": "globenewswire_all",
+          "companies": [
+            "Vannevar Labs",
+            "Extropic",
+            "Reveal Technology",
+            "Umbra",
+            "Agility Robotics",
+            "Rebellion Defense",
+            "Zettascale",
+            "Sakana AI",
+            "Runway"
+          ]
+        },
+        {
+          "title": "23/2026\u30fbTrifork Group: Weekly report on share buyback",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "WTW makes EMEA insurance leadership and regional structure changes to accelerate AI strategy",
+          "title": "AS Tallink Grupp Statistics for March and the First Quarter of 2026",
           "source": "globenewswire_all",
           "companies": [
-            "Scale AI",
-            "SHIELD Technology Partners",
-            "Vayu Robotics"
+            "Airship Industries",
+            "Clippership"
           ]
         },
         {
-          "title": "Wolters Kluwer powers high\u2011stakes professional decision\u2011making by advancing its Expert AI strategy",
-          "source": "globenewswire_all",
-          "companies": [
-            "Rapid Robotics"
-          ]
-        },
-        {
-          "title": "Danske Bank share buy-back programme: transactions in week 13",
+          "title": "Notice on convening the Annual General Meeting of shareholders of AS Merko Ehitus",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Aktietilbagek\u00f8b i Danske Bank: Transaktioner i uge 13",
+          "title": "ASi Merko Ehitus aktsion\u00e4ride korralise \u00fcldkoosoleku kokkukutsumise teade",
           "source": "globenewswire_all",
           "companies": []
-        },
-        {
-          "title": "Prepayments, Realkredit Danmark A/S",
-          "source": "globenewswire_all",
-          "companies": [
-            "Fortera"
-          ]
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-03-30-152cc866a42b"
+  "brief_id": "brief-2026-04-06-7f98c74bcd6d"
 }
