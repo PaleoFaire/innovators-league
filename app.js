@@ -917,10 +917,10 @@ function openCompanyModal(companyName) {
     ${(() => {
       const iscore = getInnovatorScore(company.name);
       if (!iscore) return '';
-      const tierColors = { elite: '#22c55e', strong: '#3b82f6', promising: '#f59e0b', early: '#6b7280' };
+      const tierColors = { elite: '#22c55e', strong: '#60a5fa', promising: '#f59e0b', early: '#6b7280' };
       const tc = tierColors[iscore.tier];
       const dims = [
-        { label: 'Technology Moat', value: iscore.techMoat, color: '#3b82f6', weight: '25%' },
+        { label: 'Technology Moat', value: iscore.techMoat, color: '#60a5fa', weight: '25%' },
         { label: 'Momentum', value: iscore.momentum, color: '#f59e0b', weight: '25%' },
         { label: 'Team Pedigree', value: iscore.teamPedigree, color: '#8b5cf6', weight: '15%' },
         { label: 'Market Gravity', value: iscore.marketGravity, color: '#22c55e', weight: '15%' },
@@ -1085,7 +1085,7 @@ function openCompanyModal(companyName) {
     ${(() => {
       const alt = typeof ALT_DATA_SIGNALS !== 'undefined' ? ALT_DATA_SIGNALS.find(a => a.company === company.name) : null;
       if (!alt) return '';
-      const hc = { surging: '#22c55e', growing: '#3b82f6', stable: '#f59e0b', declining: '#ef4444' };
+      const hc = { surging: '#22c55e', growing: '#60a5fa', stable: '#f59e0b', declining: '#ef4444' };
       return `
         <div class="modal-altdata">
           <h4>Alternative Signals</h4>
@@ -1262,7 +1262,7 @@ function openCompanyModal(companyName) {
         }
       } else if (hcEst) {
         // No historical data — show current snapshot with hiring velocity indicator only
-        const velocityColors = { surging: '#22c55e', rapid: '#3b82f6', growing: '#f59e0b', moderate: '#6b7280', declining: '#ef4444' };
+        const velocityColors = { surging: '#22c55e', rapid: '#60a5fa', growing: '#f59e0b', moderate: '#6b7280', declining: '#ef4444' };
         const vc = velocityColors[hcEst.hiringVelocity] || '#6b7280';
         return `
           <div class="modal-headcount">
@@ -1317,7 +1317,7 @@ function openCompanyModal(companyName) {
       const currentHc = hcEst ? hcEst.estimatedHeadcount : lastCount;
       const openRoles = hcEst ? hcEst.openPositions : 0;
       const velocity = hcEst ? hcEst.hiringVelocity : '';
-      const velocityColors = { surging: '#22c55e', rapid: '#3b82f6', growing: '#f59e0b', moderate: '#6b7280', declining: '#ef4444' };
+      const velocityColors = { surging: '#22c55e', rapid: '#60a5fa', growing: '#f59e0b', moderate: '#6b7280', declining: '#ef4444' };
       const vc = velocityColors[velocity] || '#6b7280';
 
       return `
@@ -1331,13 +1331,13 @@ function openCompanyModal(companyName) {
               <svg viewBox="0 0 ${svgW} ${svgH}" preserveAspectRatio="none">
                 <defs>
                   <linearGradient id="hcGrad-${company.name.replace(/[^a-zA-Z0-9]/g,'')}" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
-                    <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.02"/>
+                    <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.3"/>
+                    <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.02"/>
                   </linearGradient>
                 </defs>
                 <path d="${areaPath}" fill="url(#hcGrad-${company.name.replace(/[^a-zA-Z0-9]/g,'')})" />
-                <path d="${linePath}" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                ${points.map(p => `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.5" fill="#3b82f6" stroke="#0a0f1a" stroke-width="1.5"/>`).join('')}
+                <path d="${linePath}" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                ${points.map(p => `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.5" fill="#60a5fa" stroke="#0a0f1a" stroke-width="1.5"/>`).join('')}
                 ${points.map(p => `<text x="${p.x.toFixed(1)}" y="${(padT + chartH + 14).toFixed(1)}" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="8" font-family="Space Grotesk,sans-serif">${p.date.slice(0,4)}</text>`).join('')}
               </svg>
             </div>
@@ -1398,7 +1398,7 @@ function openCompanyModal(companyName) {
             const sc = r.company;
             const sectorInfo2 = SECTORS[sc.sector] || { color: '#6b7280', icon: '' };
             const pct = Math.min(100, Math.round(r.similarity));
-            const matchColor = pct >= 60 ? '#22c55e' : pct >= 40 ? '#3b82f6' : pct >= 20 ? '#f59e0b' : '#6b7280';
+            const matchColor = pct >= 60 ? '#22c55e' : pct >= 40 ? '#60a5fa' : pct >= 20 ? '#f59e0b' : '#6b7280';
             return `
               <div class="modal-similar-card" onclick="openCompanyModal('${sc.name.replace(/'/g, "\\'")}')">
                 <div class="similar-card-header">
@@ -3181,7 +3181,7 @@ function renderCompanies(companies) {
         const hasBadges = company.signal || company.scores || iscore;
         if (!hasBadges) return '';
         const iscoreBadge = iscore ? (() => {
-          const tc = { elite: '#22c55e', strong: '#3b82f6', promising: '#f59e0b', early: '#6b7280' }[iscore.tier];
+          const tc = { elite: '#22c55e', strong: '#60a5fa', promising: '#f59e0b', early: '#6b7280' }[iscore.tier];
           return `<span class="iscore-card-badge" style="background:${tc}15; color:${tc}; border:1px solid ${tc}30;">${iscore.composite.toFixed(0)} IS™</span>`;
         })() : '';
         return `<div class="card-badges">${iscoreBadge}${renderSignalBadge(company.signal)}${renderScoreBadge(company.scores)}</div>`;
@@ -3869,7 +3869,7 @@ function openCompareView() {
   const hasInnovatorScores = innovatorScores.some(s => s !== null);
   let innovatorScoreSection = '';
   if (hasInnovatorScores) {
-    const tierColors = { elite: '#22c55e', strong: '#3b82f6', promising: '#f59e0b', early: '#6b7280' };
+    const tierColors = { elite: '#22c55e', strong: '#60a5fa', promising: '#f59e0b', early: '#6b7280' };
     innovatorScoreSection = `
       <div class="compare-iscore-section">
         <h3 style="font-family: var(--font-display); font-size: 16px; color: var(--text-primary); margin-bottom: 16px;">Innovator Score™ Comparison</h3>
@@ -3934,7 +3934,7 @@ function openCompareView() {
               <div class="compare-label">Hiring Velocity</div>
               ${altData.map(a => {
                 if (!a) return '<div class="compare-value" style="text-align: center;">N/A</div>';
-                const hc = { surging: '#22c55e', growing: '#3b82f6', stable: '#f59e0b', declining: '#ef4444' };
+                const hc = { surging: '#22c55e', growing: '#60a5fa', stable: '#f59e0b', declining: '#ef4444' };
                 return `<div class="compare-value" style="text-align: center; color: ${hc[a.hiringVelocity] || '#6b7280'};">${(a.hiringVelocity || '').toUpperCase()}</div>`;
               }).join('')}
             </div>
@@ -4582,7 +4582,7 @@ function initTRLDashboard() {
       // Group by velocity level (descending: 2, 1, 0, -1)
       const velocityLabels = {
         2:  { title: 'Rapid Advancement', subtitle: 'Moved 2+ TRL levels', color: '#22c55e' },
-        1:  { title: 'Advancing', subtitle: 'Moved 1 TRL level', color: '#3b82f6' },
+        1:  { title: 'Advancing', subtitle: 'Moved 1 TRL level', color: '#60a5fa' },
         0:  { title: 'Steady', subtitle: 'Stable at current TRL', color: '#6b7280' },
         '-1': { title: 'Setback', subtitle: 'Experienced regression', color: '#ef4444' }
       };
@@ -4988,7 +4988,7 @@ function initInnovatorScores() {
     grid.innerHTML = '';
     var FRONTIER_INITIAL = 20;
     filtered.forEach((s, i) => {
-      const tierColors = { elite: '#22c55e', strong: '#3b82f6', promising: '#f59e0b', early: '#6b7280' };
+      const tierColors = { elite: '#22c55e', strong: '#60a5fa', promising: '#f59e0b', early: '#6b7280' };
       const tierLabels = { elite: 'ELITE', strong: 'STRONG', promising: 'PROMISING', early: 'EARLY' };
       const tc = tierColors[s.tier];
       const row = document.createElement('div');
@@ -5006,7 +5006,7 @@ function initInnovatorScores() {
           <div class="iscore-note">${s.note || ''}</div>
         </div>
         <div class="iscore-dimensions">
-          <div class="iscore-bar" title="Tech Moat: ${s.techMoat}/10"><div class="iscore-bar-fill" style="width:${s.techMoat * 10}%; background:#3b82f6;"></div></div>
+          <div class="iscore-bar" title="Tech Moat: ${s.techMoat}/10"><div class="iscore-bar-fill" style="width:${s.techMoat * 10}%; background:#60a5fa;"></div></div>
           <div class="iscore-bar" title="Momentum: ${s.momentum}/10"><div class="iscore-bar-fill" style="width:${s.momentum * 10}%; background:#f59e0b;"></div></div>
           <div class="iscore-bar" title="Team: ${s.teamPedigree}/10"><div class="iscore-bar-fill" style="width:${s.teamPedigree * 10}%; background:#8b5cf6;"></div></div>
           <div class="iscore-bar" title="Market: ${s.marketGravity}/10"><div class="iscore-bar-fill" style="width:${s.marketGravity * 10}%; background:#22c55e;"></div></div>
@@ -5103,7 +5103,7 @@ function initGovContracts() {
       </div>
       <div class="readiness-grid">
         ${sorted.map(c => {
-          const scoreColor = c.readinessScore >= 90 ? '#22c55e' : c.readinessScore >= 75 ? '#3b82f6' : c.readinessScore >= 60 ? '#f59e0b' : '#ef4444';
+          const scoreColor = c.readinessScore >= 90 ? '#22c55e' : c.readinessScore >= 75 ? '#60a5fa' : c.readinessScore >= 60 ? '#f59e0b' : '#ef4444';
           const scoreTier = c.readinessScore >= 90 ? 'PRIME' : c.readinessScore >= 75 ? 'READY' : c.readinessScore >= 60 ? 'DEVELOPING' : 'EARLY';
           return `
             <div class="readiness-card" onclick="openCompanyModal('${c.company.replace(/'/g, "\\'")}')">
@@ -5387,7 +5387,7 @@ function initPatentIntel() {
         <div class="patent-card" onclick="openCompanyModal('${(p.company || '').replace(/'/g, "\\'")}')">
           <div class="patent-card-header">
             <span class="patent-company">${p.company}</span>
-            <span class="patent-ip-score" style="background:#3b82f615; color:#3b82f6; border:1px solid #3b82f640;">
+            <span class="patent-ip-score" style="background:#60a5fa15; color:#60a5fa; border:1px solid #60a5fa40;">
               USPTO Live
             </span>
           </div>
@@ -5447,7 +5447,7 @@ function initAltData() {
       sorted.sort((a, b) => (hiringOrder[b.hiringVelocity] || 0) - (hiringOrder[a.hiringVelocity] || 0));
     } else sorted.sort((a, b) => (a.company || '').localeCompare(b.company || ''));
 
-    const hiringColors = { surging: '#22c55e', growing: '#3b82f6', stable: '#f59e0b', declining: '#ef4444' };
+    const hiringColors = { surging: '#22c55e', growing: '#60a5fa', stable: '#f59e0b', declining: '#ef4444' };
     const trafficIcons = { up: '↑', flat: '→', down: '↓' };
     const trafficColors = { up: '#22c55e', flat: '#f59e0b', down: '#ef4444' };
     const sentimentColors = { positive: '#22c55e', mixed: '#f59e0b', neutral: '#6b7280', negative: '#ef4444' };
@@ -5629,7 +5629,7 @@ function populateCommunityPanel() {
   // Add Federal Register docs
   if (typeof FEDERAL_REGISTER !== 'undefined') {
     FEDERAL_REGISTER.slice(0, 6).forEach(d => {
-      const typeColors = { Rule: '#22c55e', 'Proposed Rule': '#f59e0b', Notice: '#3b82f6' };
+      const typeColors = { Rule: '#22c55e', 'Proposed Rule': '#f59e0b', Notice: '#60a5fa' };
       const color = typeColors[d.type] || '#6b7280';
       items.push({
         date: d.date || '',
@@ -5898,7 +5898,7 @@ function initPredictiveScoring() {
       </div>
       <div class="predictive-grid">
         ${sorted.map(d => {
-          const probColor = d.probability >= 80 ? '#22c55e' : d.probability >= 60 ? '#3b82f6' : '#f59e0b';
+          const probColor = d.probability >= 80 ? '#22c55e' : d.probability >= 60 ? '#60a5fa' : '#f59e0b';
           return `
             <div class="predictive-card deal-flow-card">
               <div class="predictive-header">
@@ -6149,7 +6149,7 @@ function generateNetworkData() {
 
   // Sector color mapping for clustering
   const sectorColors = {
-    'defense': '#ff6b35', 'space': '#3b82f6', 'ai': '#8b5cf6',
+    'defense': '#ff6b35', 'space': '#60a5fa', 'ai': '#8b5cf6',
     'robotics': '#f59e0b', 'nuclear': '#10b981', 'climate': '#06b6d4',
     'biotech': '#ec4899', 'autonomous': '#f97316', 'quantum': '#6366f1',
     'chips': '#22c55e', 'manufacturing': '#eab308'
@@ -6371,7 +6371,7 @@ function initBattlefieldMap() {
       // Same sector
       if (dims.sector && center.sector && other.sector && center.sector === other.sector) {
         overlap += 2;
-        reasons.push({ dim: 'sector', detail: center.sector, color: '#3b82f6' });
+        reasons.push({ dim: 'sector', detail: center.sector, color: '#60a5fa' });
       }
 
       // Patent area overlap
@@ -7004,7 +7004,7 @@ function initPortfolioBuilder() {
       const iscore = getInnovatorScore(c.name);
       const score = iscore ? iscore.composite.toFixed(0) : '—';
       const tier = iscore ? iscore.tier : '';
-      const tierColor = tier === 'elite' ? '#22c55e' : tier === 'strong' ? '#3b82f6' : tier === 'promising' ? '#f59e0b' : '#6b7280';
+      const tierColor = tier === 'elite' ? '#22c55e' : tier === 'strong' ? '#60a5fa' : tier === 'promising' ? '#f59e0b' : '#6b7280';
       return `
         <div class="portfolio-holding-row">
           <div>
@@ -7032,7 +7032,7 @@ function initPortfolioBuilder() {
     companies.forEach(c => { sectorCounts[c.sector || 'Unknown'] = (sectorCounts[c.sector || 'Unknown'] || 0) + 1; });
     const sectorBars = Object.entries(sectorCounts).sort((a, b) => b[1] - a[1]);
     const maxSec = Math.max(...sectorBars.map(s => s[1]));
-    const sectorColors = ['#FF6B2C', '#3b82f6', '#22c55e', '#f59e0b', '#8b5cf6', '#06b6d4', '#ec4899', '#ef4444'];
+    const sectorColors = ['#FF6B2C', '#60a5fa', '#22c55e', '#f59e0b', '#8b5cf6', '#06b6d4', '#ec4899', '#ef4444'];
 
     document.getElementById('portfolio-sector-bars').innerHTML = sectorBars.map((s, i) => `
       <div class="portfolio-bar-item">
@@ -7420,7 +7420,7 @@ function initPortfolioBuilder() {
               <div style="font-size:10px;color:var(--text-muted)">Headwinds</div>
             </div>
             <div>
-              <div style="font-size:18px;font-weight:600;color:#3b82f6">${govExposedCount}</div>
+              <div style="font-size:18px;font-weight:600;color:#60a5fa">${govExposedCount}</div>
               <div style="font-size:10px;color:var(--text-muted)">Gov Exposed</div>
             </div>
             <div>
@@ -7534,7 +7534,7 @@ function initInnovator50() {
     // Score display (if available)
     let scoreDisplay = '';
     if (item.totalScore) {
-      const scoreColor = item.totalScore >= 45 ? '#22c55e' : item.totalScore >= 40 ? '#3b82f6' : item.totalScore >= 35 ? '#f59e0b' : '#6b7280';
+      const scoreColor = item.totalScore >= 45 ? '#22c55e' : item.totalScore >= 40 ? '#60a5fa' : item.totalScore >= 35 ? '#f59e0b' : '#6b7280';
       scoreDisplay = `<span class="i50-score" style="color: ${scoreColor}" title="ROS Score: ${item.totalScore}/50">${item.totalScore}/50</span>`;
     }
 
@@ -9423,7 +9423,7 @@ function initThesisCollision() {
     'chiplet': '#f59e0b',   // amber
     'construction': '#78716c',
     'consumer': '#8b5cf6',  // violet
-    'data': '#3b82f6',      // blue
+    'data': '#60a5fa',      // blue
     'defense': '#dc2626',   // red-dark
     'electrolysis': '#10b981',
     'energy': '#f97316',    // orange
@@ -9442,7 +9442,7 @@ function initThesisCollision() {
     'robotics': '#7c3aed',
     'satellite': '#2563eb', // blue-dark
     'semiconductor': '#f59e0b',
-    'space': '#3b82f6',
+    'space': '#60a5fa',
     'supersonic': '#ef4444',
     'synfuels': '#84cc16',  // lime
     'transport': '#06b6d4',

@@ -29,7 +29,13 @@
   --accent-text:    #000000;
   --accent-hover:   #FF8147;
 
-  /* ── Functional Colors ── */
+  /* ── Secondary Accent: Data Blue ── */
+  --accent-secondary:       #60a5fa;
+  --accent-secondary-dim:   rgba(96, 165, 250, 0.12);
+  --accent-secondary-hover: #7db8fc;
+  --accent-secondary-glow:  0 0 20px rgba(96, 165, 250, 0.10);
+
+  /* ── Functional Colors (legacy alias) ── */
   --accent-bright:  #60a5fa;
 
   /* ── Derived Backgrounds ── */
@@ -861,9 +867,9 @@ body::after {
 }
 
 .nav-search input:focus {
-  border-color: var(--accent);
+  border-color: var(--accent-secondary);
   background: var(--bg-secondary);
-  box-shadow: 0 0 0 3px rgba(255, 107, 44, 0.1);
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.1);
 }
 
 .nav-search input::placeholder {
@@ -950,8 +956,8 @@ body::after {
   letter-spacing: 0.5px;
   padding: 2px 6px;
   border-radius: 4px;
-  background: var(--accent-dim);
-  color: var(--accent);
+  background: var(--accent-secondary-dim);
+  color: var(--accent-secondary);
 }
 
 .search-no-results {
@@ -1090,10 +1096,11 @@ body::after {
 }
 
 .hero-btn.secondary:hover {
-  background: var(--bg-elevated);
-  border-color: var(--accent);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  background: rgba(96, 165, 250, 0.06);
+  border-color: var(--accent-secondary);
+  box-shadow: 0 4px 16px rgba(96, 165, 250, 0.15);
   transform: translateY(-2px);
+  color: var(--accent-secondary);
 }
 
 .hero-btn.secondary:active {
@@ -1167,9 +1174,9 @@ body::after {
   width: 1200px;
   height: 800px;
   background:
-    radial-gradient(ellipse at 30% 20%, rgba(255, 107, 44, 0.12) 0%, transparent 50%),
-    radial-gradient(ellipse at 70% 60%, rgba(96, 165, 250, 0.07) 0%, transparent 50%),
-    radial-gradient(ellipse at 50% 50%, rgba(139, 92, 246, 0.06) 0%, transparent 60%);
+    radial-gradient(ellipse at 25% 20%, rgba(255, 107, 44, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse at 75% 50%, rgba(96, 165, 250, 0.10) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(139, 92, 246, 0.05) 0%, transparent 60%);
   pointer-events: none;
   animation: heroGlow 15s ease-in-out infinite;
 }
@@ -1756,8 +1763,8 @@ body::after {
 }
 
 .search-box input:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(255, 107, 44, 0.12);
+  border-color: var(--accent-secondary);
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.12);
 }
 
 .search-box input::placeholder {
@@ -1791,8 +1798,8 @@ body::after {
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 .filter-select:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(255, 107, 44, 0.1);
+  border-color: var(--accent-secondary);
+  box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.1);
 }
 
 .filter-select option {
@@ -2530,8 +2537,9 @@ body::after {
 }
 
 .modal-action-btn:hover {
-  border-color: var(--border-hover);
-  color: var(--text-primary);
+  border-color: rgba(96, 165, 250, 0.3);
+  color: var(--accent-secondary);
+  background: var(--accent-secondary-dim);
 }
 
 .modal-action-btn.primary {
@@ -2540,7 +2548,10 @@ body::after {
   border: 1px solid var(--accent);
 }
 
-.modal-action-btn.primary:hover { opacity: 0.85; }
+.modal-action-btn.primary:hover {
+  opacity: 0.9;
+  box-shadow: 0 4px 12px rgba(255, 107, 44, 0.3);
+}
 
 .modal-action-btn.saved {
   background: var(--accent-dim);
@@ -2580,7 +2591,8 @@ body::after {
 }
 
 .modal-related-card:hover {
-  border-color: var(--accent);
+  border-color: rgba(96, 165, 250, 0.3);
+  background: rgba(96, 165, 250, 0.04);
 }
 
 .modal-related-name {
@@ -2738,7 +2750,7 @@ body::after {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 28px;
   font-weight: 800;
-  color: #3b82f6;
+  color: #60a5fa;
   line-height: 1.1;
 }
 .headcount-label {
@@ -3232,7 +3244,7 @@ html {
 
 .radar-grid {
   fill: none;
-  stroke: var(--border);
+  stroke: rgba(96, 165, 250, 0.08);
   stroke-width: 1;
 }
 
@@ -3242,8 +3254,8 @@ html {
 }
 
 .radar-data {
-  fill: rgba(255, 107, 44, 0.15);
-  stroke: var(--accent);
+  fill: rgba(96, 165, 250, 0.12);
+  stroke: var(--accent-secondary);
   stroke-width: 2;
 }
 
@@ -3255,7 +3267,7 @@ html {
 
 .radar-score {
   font-size: 9px;
-  fill: var(--accent);
+  fill: var(--accent-secondary);
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 600;
 }
@@ -4378,8 +4390,8 @@ html {
 
 .ct-portfolio-badge {
   font-size: 10px;
-  color: #3b82f6;
-  background: rgba(59,130,246,0.1);
+  color: #60a5fa;
+  background: rgba(96,165,250,0.1);
   padding: 2px 6px;
   border-radius: 4px;
   font-weight: 600;
@@ -4626,7 +4638,7 @@ html {
 }
 
 .innovator-score-detail .dim-fill.momentum { background: linear-gradient(90deg, #FF6B2C, #FF8147); }
-.innovator-score-detail .dim-fill.market { background: linear-gradient(90deg, #3B82F6, #60A5FA); }
+.innovator-score-detail .dim-fill.market { background: linear-gradient(90deg, #60a5fa, #7db8fc); }
 .innovator-score-detail .dim-fill.technology { background: linear-gradient(90deg, #22C55E, #4ADE80); }
 .innovator-score-detail .dim-fill.team { background: linear-gradient(90deg, #A855F7, #C084FC); }
 
@@ -5093,7 +5105,7 @@ html {
 }
 
 .tier-pro .tier-label {
-  color: #3b82f6;
+  color: #60a5fa;
 }
 
 .tier-premium .tier-label {
@@ -5185,8 +5197,8 @@ html {
 }
 
 .from-source-type.interview {
-  background: rgba(59, 130, 246, 0.15);
-  color: #3b82f6;
+  background: rgba(96, 165, 250, 0.15);
+  color: #60a5fa;
 }
 
 .from-source-type.insight {
@@ -5321,7 +5333,7 @@ html {
 }
 
 .founder-connection-badge.met {
-  background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(59, 130, 246, 0.1));
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.1), rgba(96, 165, 250, 0.1));
   border-color: rgba(34, 197, 94, 0.3);
   color: #22c55e;
 }
@@ -5507,7 +5519,7 @@ html {
 }
 
 .pc-tier-btn.founder-btn {
-  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  background: linear-gradient(135deg, #60a5fa, #06b6d4);
   color: #fff;
 }
 
@@ -6243,8 +6255,8 @@ html {
 }
 
 .thesis-section.bet {
-  background: rgba(59, 130, 246, 0.08);
-  border-left: 3px solid #3b82f6;
+  background: rgba(96, 165, 250, 0.08);
+  border-left: 3px solid #60a5fa;
 }
 
 .thesis-label {
@@ -8123,7 +8135,7 @@ html {
 }
 
 .velocity-moving {
-  background: rgba(59, 130, 246, 0.15);
+  background: rgba(96, 165, 250, 0.15);
   color: #60a5fa;
 }
 
@@ -8443,9 +8455,9 @@ html {
 }
 
 .market-challenger {
-  background: rgba(59, 130, 246, 0.12);
+  background: rgba(96, 165, 250, 0.12);
   color: #60a5fa;
-  border-color: rgba(59, 130, 246, 0.3);
+  border-color: rgba(96, 165, 250, 0.3);
 }
 
 .market-emerging {
@@ -8571,7 +8583,7 @@ html {
 /* ─── INNOVATOR SCORE SECTION ─── */
 .innovator-score-section {
   padding: 48px 0;
-  background: linear-gradient(180deg, rgba(59, 130, 246, 0.04) 0%, transparent 100%);
+  background: linear-gradient(180deg, rgba(96, 165, 250, 0.04) 0%, transparent 100%);
   border-bottom: 1px solid var(--border);
 }
 
@@ -8707,7 +8719,7 @@ html {
 }
 
 .iscore-tier-badge.elite { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
-.iscore-tier-badge.strong { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
+.iscore-tier-badge.strong { background: rgba(96, 165, 250, 0.15); color: #60a5fa; }
 .iscore-tier-badge.promising { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
 .iscore-tier-badge.early { background: rgba(107, 114, 128, 0.15); color: #6b7280; }
 
@@ -8874,7 +8886,7 @@ html {
 }
 
 .gov-sbir-badge.graduated { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
-.gov-sbir-badge.phase3 { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
+.gov-sbir-badge.phase3 { background: rgba(96, 165, 250, 0.15); color: #60a5fa; }
 .gov-sbir-badge.phase2 { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
 .gov-sbir-badge.phase1 { background: rgba(107, 114, 128, 0.15); color: #6b7280; }
 .gov-sbir-badge.none { background: rgba(107, 114, 128, 0.1); color: #4b5563; }
@@ -8888,7 +8900,7 @@ html {
 
 .gov-clearance.ts-sci { background: rgba(220, 38, 38, 0.15); color: #dc2626; }
 .gov-clearance.ts { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
-.gov-clearance.secret { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
+.gov-clearance.secret { background: rgba(96, 165, 250, 0.15); color: #60a5fa; }
 
 .gov-revenue-pct {
   font-family: 'Space Grotesk', sans-serif;
@@ -9309,7 +9321,7 @@ html {
 }
 
 .patent-ip-score.high { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
-.patent-ip-score.mid { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
+.patent-ip-score.mid { background: rgba(96, 165, 250, 0.15); color: #60a5fa; }
 .patent-ip-score.low { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
 
 .patent-stat {
@@ -9487,7 +9499,7 @@ html {
 }
 
 .alt-hiring-status.surging { color: #22c55e; }
-.alt-hiring-status.growing { color: #3b82f6; }
+.alt-hiring-status.growing { color: #60a5fa; }
 .alt-hiring-status.stable { color: #f59e0b; }
 .alt-hiring-status.declining { color: #dc2626; }
 
@@ -9525,7 +9537,7 @@ html {
 }
 
 .alt-strength.high { color: #22c55e; }
-.alt-strength.mid { color: #3b82f6; }
+.alt-strength.mid { color: #60a5fa; }
 .alt-strength.low { color: #f59e0b; }
 
 /* ─── RESPONSIVE: New Sections ─── *//* ─── MAFIA EXPLORER SECTION ─── */
@@ -10550,7 +10562,7 @@ html {
   letter-spacing: 0.03em;
 }
 .feed-category-tag.funding { background: rgba(34,197,94,0.15); color: #22c55e; }
-.feed-category-tag.milestone { background: rgba(59,130,246,0.15); color: #3b82f6; }
+.feed-category-tag.milestone { background: rgba(96,165,250,0.15); color: #60a5fa; }
 .feed-category-tag.contract { background: rgba(245,158,11,0.15); color: #f59e0b; }
 .feed-category-tag.partnership { background: rgba(139,92,246,0.15); color: #8b5cf6; }
 .feed-category-tag.ipo { background: rgba(236,72,153,0.15); color: #ec4899; }
@@ -10971,7 +10983,7 @@ html {
 }
 
 .metric-methodology-box .method-dimension.momentum { border-top: 3px solid #FF6B2C; }
-.metric-methodology-box .method-dimension.market { border-top: 3px solid #3B82F6; }
+.metric-methodology-box .method-dimension.market { border-top: 3px solid #60a5fa; }
 .metric-methodology-box .method-dimension.technology { border-top: 3px solid #22C55E; }
 .metric-methodology-box .method-dimension.team { border-top: 3px solid #A855F7; }
 .metric-methodology-box .method-dimension.geopolitical { border-top: 3px solid #F59E0B; }
@@ -11145,8 +11157,9 @@ html {
   color: var(--text-primary);
 }
 .mid-cta-btn.secondary:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--accent-secondary);
+  color: var(--accent-secondary);
+  background: var(--accent-secondary-dim);
 }
 
 /* ─── PHASE 3 RESPONSIVE ─── */
@@ -11909,6 +11922,12 @@ html {
   background: transparent;
   border: 1px solid var(--border);
   color: var(--text-secondary);
+  transition: all 200ms ease;
+}
+.screener-btn.secondary:hover {
+  border-color: var(--accent-secondary);
+  color: var(--accent-secondary);
+  background: var(--accent-secondary-dim);
 }
 
 .screener-btn:hover {
@@ -13089,7 +13108,7 @@ html {
 }
 
 .alert-category.funding { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
-.alert-category.contracts { background: rgba(59, 130, 246, 0.15); color: #3b82f6; }
+.alert-category.contracts { background: rgba(96, 165, 250, 0.15); color: #60a5fa; }
 .alert-category.leadership { background: rgba(168, 85, 247, 0.15); color: #a855f7; }
 .alert-category.regulatory { background: rgba(249, 115, 22, 0.15); color: #f97316; }
 .alert-category.signals { background: rgba(236, 72, 153, 0.15); color: #ec4899; }
@@ -13429,7 +13448,7 @@ html {
 }
 
 .change-category.cat-ipo {
-  background: rgba(59, 130, 246, 0.15);
+  background: rgba(96, 165, 250, 0.15);
   color: #60a5fa;
 }
 
@@ -13470,7 +13489,7 @@ html {
 .change-score-fill {
   height: 100%;
   border-radius: 3px;
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ef4444);
+  background: linear-gradient(90deg, #60a5fa, #8b5cf6, #ef4444);
   transition: width 0.4s ease;
 }
 
@@ -13707,7 +13726,7 @@ html {
 }
 
 .freshness-dot.fresh {
-  background: #3b82f6;
+  background: #60a5fa;
   animation: none;
 }
 
@@ -14299,7 +14318,7 @@ html {
   border-left: 3px solid #22c55e;
 }
 .award-card.award-recent {
-  border-left: 3px solid #3b82f6;
+  border-left: 3px solid #60a5fa;
 }
 
 .award-card-left {
@@ -14339,7 +14358,7 @@ html {
 
 .award-type-badge.award-contract { background: rgba(34, 197, 94, 0.12); color: #22c55e; }
 .award-type-badge.award-ota { background: rgba(139, 92, 246, 0.12); color: #8b5cf6; }
-.award-type-badge.award-sbir { background: rgba(59, 130, 246, 0.12); color: #3b82f6; }
+.award-type-badge.award-sbir { background: rgba(96, 165, 250, 0.12); color: #60a5fa; }
 
 .award-agency {
   font-size: 11px;
@@ -14548,9 +14567,9 @@ html {
   font-weight: 600;
   padding: 4px 10px;
   border-radius: 12px;
-  background: rgba(59, 130, 246, 0.08);
-  color: #3b82f6;
-  border: 1px solid rgba(59, 130, 246, 0.15);
+  background: rgba(96, 165, 250, 0.08);
+  color: #60a5fa;
+  border: 1px solid rgba(96, 165, 250, 0.15);
 }
 
 .xray-stage-chip em {
@@ -14762,8 +14781,8 @@ html {
 }
 
 .comp-pending .comp-type-badge {
-  background: rgba(59, 130, 246, 0.15);
-  color: #3b82f6;
+  background: rgba(96, 165, 250, 0.15);
+  color: #60a5fa;
 }
 
 /* ═══════════════════════════════════════════════════════════════

@@ -14241,6 +14241,7 @@ const FUNDING_TRACKER = [
 // Auto-updated IPO pipeline — Last updated: 2026-04-05
 // Auto-updated IPO pipeline — Last updated: 2026-04-05
 // Auto-updated IPO pipeline — Last updated: 2026-04-05
+// Auto-updated IPO pipeline — Last updated: 2026-04-05
 const IPO_PIPELINE = [
   { company: "SpaceX", status: "IPO Imminent — Targeting Mid-2026", likelihood: "high", estimatedDate: "Mid-2026", estimatedValuation: "$1.5T+", sector: "Space & Aerospace" },
   { company: "Cerebras", status: "S-1 Filed, Targeting Q2 2026", likelihood: "high", estimatedDate: "Q2 2026", estimatedValuation: "$22B+", sector: "Chips & Semiconductors" },
@@ -14972,6 +14973,8 @@ const TRL_RANKINGS = [
 // Last updated: 2026-04-05
 // Auto-updated deal flow from RSS + Crunchbase
 // Last updated: 2026-04-05
+// Auto-updated deal flow from RSS + Crunchbase
+// Last updated: 2026-04-05
 const DEAL_TRACKER = [
   { company: "Orbital Composites", investor: "Undisclosed", amount: "$2.4M", round: "SPAC", date: "2026-04", valuation: "", leadOrParticipant: "lead" },
   { company: "Saildrone", investor: "Undisclosed", amount: "$1.75B", round: "Series D", date: "2026-04", valuation: "", leadOrParticipant: "lead" },
@@ -15572,6 +15575,7 @@ const FOUNDER_MAFIAS = {
 // Auto-updated revenue intelligence — Last updated: 2026-04-02
 // Auto-updated revenue intelligence — Last updated: 2026-04-03
 // Auto-updated revenue intelligence — Last updated: 2026-04-04
+// Auto-updated revenue intelligence — Last updated: 2026-04-05
 // Auto-updated revenue intelligence — Last updated: 2026-04-05
 // Auto-updated revenue intelligence — Last updated: 2026-04-05
 // Auto-updated revenue intelligence — Last updated: 2026-04-05
@@ -19802,6 +19806,8 @@ const PREV_WEEK_SCORES = [
 // Last updated: 2026-04-05
 // Auto-updated government contracts from USAspending
 // Last updated: 2026-04-05
+// Auto-updated government contracts from USAspending
+// Last updated: 2026-04-05
 const GOV_CONTRACTS = [
   { company: "Anduril", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Commerce", "Department of Energy", "Department of Defense", "Department of Homeland Security"], lastUpdated: "2026-04-05" },
   { company: "Anduril Industries", totalGovValue: "$1.5B+", contractCount: 100, agencies: ["Department of Commerce", "Department of Energy", "Department of Defense", "Department of Homeland Security"], lastUpdated: "2026-04-05" },
@@ -21562,6 +21568,8 @@ const NETWORK_GRAPH = {
 // Last updated: 2026-04-03
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-04-04
+// Auto-updated news feed (curated + auto-detected)
+// Last updated: 2026-04-05
 // Auto-updated news feed (curated + auto-detected)
 // Last updated: 2026-04-05
 // Auto-updated news feed (curated + auto-detected)
@@ -24184,6 +24192,8 @@ const DATA_QUALITY = {
 // Last updated: 2026-04-05 20:41
 // Auto-generated real-time signals
 // Last updated: 2026-04-05
+// Auto-generated real-time signals
+// Last updated: 2026-04-05
 const COMPANY_SIGNALS = [
   { id: 1, type: "ipo", company: "Astro Mechanica", headline: "NASA stops work on SLS Mobile Launcher 2", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
   { id: 2, type: "news", company: "Machina Labs", headline: "Proton EVs Sell Well In Malaysia, Where Fuel Is Subsidized &#038; Cheap", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
@@ -24347,6 +24357,8 @@ const EXPERT_INSIGHTS = [
 // Last updated: 2026-04-05
 // Auto-recalibrated Valley of Death stages
 // Last updated: 2026-04-05
+// Auto-recalibrated Valley of Death stages
+// Last updated: 2026-04-05
 const VALLEY_OF_DEATH = [
   { company: "Anduril Industries", stage: "production", label: "Production Contract", trl: 9, contracts: 100, detail: "Lattice OS deployed across SOCOM, Army, Navy, USMC. Multiple Programs of Record. Full-rate production." },
   { company: "SpaceX", stage: "production", label: "Production Contract", trl: 9, contracts: 150, detail: "Falcon 9 and Starlink operational at scale. Starshield classified constellation. Launch heritage unmatched." },
@@ -24467,6 +24479,8 @@ const VALLEY_OF_DEATH_STAGES = [
 // Last updated: 2026-04-03
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-04-04
+// Auto-recalibrated contractor readiness scores
+// Last updated: 2026-04-05
 // Auto-recalibrated contractor readiness scores
 // Last updated: 2026-04-05
 // Auto-recalibrated contractor readiness scores
