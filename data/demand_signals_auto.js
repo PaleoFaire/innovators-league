@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-04-05 07:46:42 UTC
-// Total signals: 44 | Companies matched: 178
+// Last updated: 2026-04-06 08:15:46 UTC
+// Total signals: 44 | Companies matched: 182
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -1631,10 +1631,26 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Apis Cor",
+        "score": 20,
+        "matchReasons": [
+          "tag: robotics",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "GITAI",
         "score": 18,
         "matchReasons": [
           "tag: space robotics",
+          "techApproach overlap"
+        ]
+      },
+      {
+        "name": "Gravitics",
+        "score": 16,
+        "matchReasons": [
+          "tag: space manufacturing",
           "techApproach overlap"
         ]
       }
@@ -1643,7 +1659,9 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Apex Space",
       "Rangeview",
       "Dusty Robotics",
-      "GITAI"
+      "Apis Cor",
+      "GITAI",
+      "Gravitics"
     ]
   },
   {
@@ -2227,6 +2245,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Noon Energy",
+        "score": 30,
+        "matchReasons": [
+          "tag: long-duration energy storage",
+          "tag: grid storage",
+          "techApproach overlap"
+        ]
+      },
+      {
         "name": "Base Power",
         "score": 28,
         "matchReasons": [
@@ -2278,6 +2305,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       }
     ],
     "relevantCompanies": [
+      "Noon Energy",
       "Base Power",
       "Gravitricity",
       "Form Energy",
@@ -3187,6 +3215,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Interstellar Lab",
+        "score": 22,
+        "matchReasons": [
+          "tag: space biotech",
+          "tag: life support"
+        ]
+      },
+      {
         "name": "Green Abundance",
         "score": 16,
         "matchReasons": [
@@ -3197,6 +3233,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     ],
     "relevantCompanies": [
       "AMP Robotics",
+      "Interstellar Lab",
       "Green Abundance"
     ]
   },
@@ -3527,10 +3564,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Field AI",
-        "score": 16,
+        "name": "1X Technologies",
+        "score": 20,
         "matchReasons": [
-          "tag: robotics",
+          "tag: humanoid robotics",
           "techApproach overlap"
         ]
       }
@@ -3545,7 +3582,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "AMP Robotics",
       "Skild AI",
       "Seneca",
-      "Field AI"
+      "1X Technologies"
     ]
   },
   {
@@ -3892,6 +3929,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Apis Cor",
+        "score": 20,
+        "matchReasons": [
+          "tag: 3d printing",
+          "tag: additive manufacturing"
+        ]
+      },
+      {
         "name": "Divergent",
         "score": 16,
         "matchReasons": [
@@ -3919,6 +3964,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "relevantCompanies": [
       "Exodys Energy",
       "Valar Atomics",
+      "Apis Cor",
       "Divergent",
       "Newcleo",
       "Naarea"
@@ -5087,6 +5133,20 @@ const GOV_PULL_SCORES_AUTO = {
       "In-Space Assembly and Manufacturing"
     ]
   },
+  "Apis Cor": {
+    "name": "Apis Cor",
+    "govPullScore": 25,
+    "matchCount": 2,
+    "topAgencies": [
+      "Department of Energy (DOE)",
+      "NASA"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "In-Space Assembly and Manufacturing",
+      "Additive Manufacturing for Energy Applications"
+    ]
+  },
   "GITAI": {
     "name": "GITAI",
     "govPullScore": 14,
@@ -5095,6 +5155,18 @@ const GOV_PULL_SCORES_AUTO = {
       "NASA"
     ],
     "avgRelevance": 18,
+    "topSignals": [
+      "In-Space Assembly and Manufacturing"
+    ]
+  },
+  "Gravitics": {
+    "name": "Gravitics",
+    "govPullScore": 13,
+    "matchCount": 1,
+    "topAgencies": [
+      "NASA"
+    ],
+    "avgRelevance": 16,
     "topSignals": [
       "In-Space Assembly and Manufacturing"
     ]
@@ -5530,6 +5602,18 @@ const GOV_PULL_SCORES_AUTO = {
     "avgRelevance": 16,
     "topSignals": [
       "Enhanced Geothermal Systems Demonstration"
+    ]
+  },
+  "Noon Energy": {
+    "name": "Noon Energy",
+    "govPullScore": 20,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 30,
+    "topSignals": [
+      "Long-Duration Energy Storage Technologies"
     ]
   },
   "Base Power": {
@@ -6129,6 +6213,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Dexterous Manipulation for Unstructured Environments"
     ]
   },
+  "Interstellar Lab": {
+    "name": "Interstellar Lab",
+    "govPullScore": 14,
+    "matchCount": 1,
+    "topAgencies": [
+      "NASA"
+    ],
+    "avgRelevance": 22,
+    "topSignals": [
+      "Synthetic Biology for Space Life Support"
+    ]
+  },
   "Mammoth Biosciences": {
     "name": "Mammoth Biosciences",
     "govPullScore": 14,
@@ -6217,14 +6313,14 @@ const GOV_PULL_SCORES_AUTO = {
       "Dexterous Manipulation for Unstructured Environments"
     ]
   },
-  "Field AI": {
-    "name": "Field AI",
-    "govPullScore": 15,
+  "1X Technologies": {
+    "name": "1X Technologies",
+    "govPullScore": 16,
     "matchCount": 1,
     "topAgencies": [
       "DARPA"
     ],
-    "avgRelevance": 16,
+    "avgRelevance": 20,
     "topSignals": [
       "Dexterous Manipulation for Unstructured Environments"
     ]
@@ -6392,6 +6488,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 178,
-  "lastUpdated": "2026-04-05 07:46:42 UTC"
+  "companiesMatched": 182,
+  "lastUpdated": "2026-04-06 08:15:46 UTC"
 };

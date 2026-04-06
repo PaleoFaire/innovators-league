@@ -1,11 +1,11 @@
 // Auto-generated ARPA-E project data
-// Last updated: 2026-04-05 07:47:41 UTC
+// Last updated: 2026-04-06 08:16:50 UTC
 // Total projects: 300 | Active: 160
-// Private companies: 112 | Known TIL: 24
-// Unique organizations: 204 | Total funding: $857,383,031
+// Private companies: 112 | Known TIL: 25
+// Unique organizations: 204 | Total funding: $856,820,395
 const ARPA_E_PROJECTS_AUTO = [
   {
-    title: "SAFERBAT: Solid-state Approach for Future Energy-dense Renewable Batteries and Advanced-manufacturing Technologies",
+    title: "SAFERBAT: Solid-state Approach for Future Energy-dense Rechargeable Batteries and Advanced-manufacturing Technologies",
     organization: "Ion Storage Systems, Inc.",
     orgType: "Private Company",
     status: "Active",
@@ -96,7 +96,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: true,
   },
   {
-    title: "Next-Generation Ammonia System Integration Utilizing Intermittent Renewable Power",
+    title: "Next-Generation Ammonia System Integration Utilizing Intermittent Power",
     organization: "RTI International  ",
     orgType: "Non-Profit",
     status: "Active",
@@ -278,7 +278,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: true,
   },
   {
-    title: "Green Refrigerant Compact Hybrid System for Ultra-Efficient and Sustainable HPC Cooling",
+    title: "OMNICOOL: Pumped Two-Phase Cooling Architecture for Deployable AI Factory and HPC Systems",
     organization: "Nvidia",
     orgType: "Private Company",
     status: "Active",
@@ -538,7 +538,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: true,
   },
   {
-    title: "PICo-Design: Protection-Inverter Co-Design for 100% Renewable Power Systems",
+    title: "PICo-Design: Protection-Inverter Co-Design for 100% Power Electronics-based Power Systems",
     organization: "Siemens",
     orgType: "Private Company",
     status: "Active",
@@ -759,7 +759,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "Electrochemical Upcycling for Low-CO2 Materials Production",
+    title: "Electrochemical Upcycling for Materials Production",
     organization: "Sublime Systems",
     orgType: "Private Company",
     status: "Active",
@@ -1123,19 +1123,6 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "Robust and Regenerable Biosorbent for Selective Recovery of Rare Earth Elements from Aqueous Waste Streams",
-    organization: "University of Illinois, Urbana-Champaign (UIUC)",
-    orgType: "University",
-    status: "Selected",
-    state: "IL",
-    awardAmount: 3119605,
-    awardFormatted: "3,119,605",
-    programAcronym: "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
-    technologyAreas: ["Resources"],
-    isKnownCompany: false,
-    isPrivateCompany: false,
-  },
-  {
     title: "Advanced Manufacturing of High-Entropy Alloys as Cost-effective Plasma Facing Components for Fusion Power Generation",
     organization: "Pacific Northwest National Laboratory (PNNL)",
     orgType: "National Laboratory",
@@ -1266,7 +1253,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: true,
   },
   {
-    title: "Hyperefficient Data Centers for Deep Decarbonization of Large-scale Computing",
+    title: "Hyperefficient Data Centers for Large-scale Computing",
     organization: "University of Florida",
     orgType: "University",
     status: "Active",
@@ -1812,6 +1799,19 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
+    title: "Robust and Regenerable Biosorbent for Selective Recovery of Rare Earth Elements from Aqueous Waste Streams",
+    organization: "University of Illinois, Urbana-Champaign (UIUC)",
+    orgType: "University",
+    status: "Selected",
+    state: "IL",
+    awardAmount: 2556969,
+    awardFormatted: "2,556,969",
+    programAcronym: "Realize Energy-rich Compound Opportunities Valorizing Extraction from Refuse waters",
+    technologyAreas: ["Resources"],
+    isKnownCompany: false,
+    isPrivateCompany: false,
+  },
+  {
     title: "Achieving 1% Assay of Special Nuclear Materials in 2 Minutes with Microcalorimeter-Array Gamma-Ray Spectroscopy",
     organization: "University of Colorado, Boulder (CU-Boulder)",
     orgType: "University",
@@ -2137,7 +2137,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "Supercritical CO2 Based Mining for Carbon-Negative Critical Mineral Recovery",
+    title: "Supercritical CO2 Based Mining for Critical Mineral Recovery",
     organization: "Pacific Northwest National Laboratory (PNNL)",
     orgType: "National Laboratory",
     status: "Active",
@@ -2202,7 +2202,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "Nitrogen Fertilizer: New Strategies for Low-energy, Low-emission Production and Use",
+    title: "Nitrogen Fertilizer: New Strategies for Low-energy, High-Efficiency Production and Use",
     organization: "Massachusetts Institute of Technology (MIT)",
     orgType: "University",
     status: "Active",
@@ -3060,7 +3060,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "Novel Electrolytic, Zero Carbon Emission Direct Reduced Iron Production",
+    title: "Novel Electrolytic Direct Reduced Iron Production",
     organization: "Phoenix Tailings",
     orgType: "Private Company",
     status: "Alumni",
@@ -3086,7 +3086,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "Intensification of Continuous Alkaline Electrochemical Ironmaking with Net-Negative CO2 Emissions at Cost Parity with Pi",
+    title: "Alkaline Electrochemical Ironmaking at Cost Parity with Pig Iron",
     organization: "Form Energy",
     orgType: "Private Company",
     status: "Active",
@@ -3255,7 +3255,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "Advanced Electrolysis Architectures for Low-Cost Green Hydrogen",
+    title: "Advanced electrolysis architectures for low-cost hydrogen",
     organization: "Peregrine Hydrogen",
     orgType: "Private Company",
     status: "Active",
@@ -3359,7 +3359,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "Development of an Adaptive Catalytic Reactor to Store Intermittent Green Hydrogen Using Plastic Waste",
+    title: "Development of an Adaptive Catalytic Reactor to Store Hydrogen Using Plastic Waste",
     organization: "University of Washington (UW)",
     orgType: "University",
     status: "Active",
@@ -3580,7 +3580,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "C1 Bioconversion Platform: Integrating Acetogenic Consortia for Circular Economy Solutions in Sustainable Fuel Productio",
+    title: "C1 Bioconversion Platform: Integrating Acetogenic Consortia for Circular Economy Solutions in Fuel Production and Indust",
     organization: "Lawrence Berkeley National Laboratory (LBNL)",
     orgType: "National Laboratory",
     status: "Active",
@@ -3654,7 +3654,7 @@ const ARPA_E_PROJECTS_AUTO = [
     awardFormatted: "None",
     programAcronym: "Nuclear Energy Waste Transmutation Optimized Now",
     technologyAreas: ["Nuclear Fission", "Power Generation"],
-    isKnownCompany: false,
+    isKnownCompany: true,
     isPrivateCompany: false,
   },
   {
@@ -3723,7 +3723,7 @@ const ARPA_E_PROJECTS_AUTO = [
     isPrivateCompany: false,
   },
   {
-    title: "Delivering Nitrogen to Cereal Crops through Biological Nitrogen Fixation for Sustainable Bioenergy Production",
+    title: "N2Cereals: Delivering Nitrogen to Cereal Crops through Biological Nitrogen Fixation for Bioenergy Production",
     organization: "University of Wisconsin-Madison",
     orgType: "",
     status: "Selected",
