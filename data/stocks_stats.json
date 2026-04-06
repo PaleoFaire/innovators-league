@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.61,
+      "avg_change": 3.75,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 7.4,
+      "avg_change": 15.76,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": -0.79,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 5.64,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -4.55,
+      "avg_change": 0.88,
       "count": 3
     },
     "climate": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -4.25,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 1.56,
       "count": 3
     },
     "quantum": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -1.86,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 5.13,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 1.51,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 7.32,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.93,
+      "avg_change": 0.4,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.48,
+      "avg_change": 6.49,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "LUNR",
       "Intuitive Machines",
-      24.75
-    ],
-    [
-      "PL",
-      "Planet Labs",
-      10.74
-    ],
-    [
-      "AMD",
-      "AMD",
-      6.74
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      5.45
+      32.82
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      5.42
+      22.07
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      17.45
+    ],
+    [
+      "PL",
+      "Planet Labs",
+      14.29
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      13.83
     ]
   ],
   "topLosers": [
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -4.6
+      "9348.T",
+      "ispace",
+      -0.69
     ],
     [
       "DRSHF",
       "DroneShield",
-      -5.23
-    ],
-    [
-      "OKLO",
-      "Oklo",
-      -7.1
+      -0.72
     ],
     [
       "SMR",
       "NuScale Power",
-      -7.64
+      -0.83
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      -8.26
+      "OKLO",
+      "Oklo",
+      -2.85
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      -2.99
     ]
   ],
-  "lastUpdated": "2026-04-06 13:19:00"
+  "lastUpdated": "2026-04-06 19:06:57"
 }
