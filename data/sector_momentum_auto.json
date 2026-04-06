@@ -4,9 +4,9 @@
     "momentum": 71,
     "trend": "accelerating",
     "catalysts": [
+      "Sharpening Signals and Reducing Noise for Better Defense Bud",
       "After fighting malware for decades, this cybersecurity veter",
-      "Hackers Are Posting the Claude Code Leak With Bonus Malware",
-      "Navy shipbuilding request rises nearly 50% in 2027 proposal"
+      "Hackers Are Posting the Claude Code Leak With Bonus Malware"
     ],
     "fundingQ": "$22.3B",
     "components": {
@@ -15,7 +15,7 @@
       "hiring": 0,
       "market": 56
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "AI & Software",
@@ -33,7 +33,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Drones & Autonomous",
@@ -51,7 +51,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Ocean & Maritime",
@@ -67,16 +67,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "NASA finalizes science plans for Artemis 2 lunar flyby",
-      "Atlas 5 launches Amazon Leo satellites",
-      "Blue Origin Launches Planned for 2026"
+      "NASA stops work on SLS Mobile Launcher 2",
+      "Can orbital data centers help justify a massive valuation fo",
+      "Pulsar Fusion Achieves Initial Pulse Experiments and Targets"
     ],
     "fundingQ": "$175M",
     "components": {
@@ -85,51 +85,51 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-05"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 37,
-    "trend": "steady",
-    "catalysts": [
-      "Blue Origin New Glenn Targets April Launch of AST Space Mobi",
-      "OpenAI executive shuffle includes new role for COO Brad Ligh",
-      "Anthropic buys biotech startup Coefficient Bio in $400M deal"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 85,
-      "hiring": 0,
-      "market": 64
-    },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 36,
-    "trend": "rising",
+    "momentum": 37,
+    "trend": "steady",
     "catalysts": [
-      "A year after \u2018Liberation Day,\u2019 impact of Trump tariffs on de",
-      "Relativity, Hermeus, Astrion and Divergent executives join F"
+      "China Build Focused Economy Versus India",
+      "China&#8217;s Energy Build Drives GDP Growth While Europe Ha"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 50,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 36,
+    "trend": "rising",
+    "catalysts": [
+      "More Wealth, Healthcare and Housing",
+      "Blue Origin New Glenn Targets April Launch of AST Space Mobi",
+      "OpenAI executive shuffle includes new role for COO Brad Ligh"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 80,
+      "hiring": 0,
+      "market": 64
+    },
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "NASA finalizes science plans for Artemis 2 lunar flyby",
-      "Embattled startup Delve has \u2018parted ways\u2019 with Y Combinator",
-      "Atlas 5 launches Amazon Leo satellites"
+      "China Build Focused Economy Versus India",
+      "NASA stops work on SLS Mobile Launcher 2",
+      "NASA finalizes science plans for Artemis 2 lunar flyby"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -138,44 +138,62 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 26,
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
-      "Artemis II is NASA\u2019s last moon mission without Silicon Valle",
       "OpenAI Acquires Tech Talk Show \u2018TBPN\u2019\u2014and Buys Itself Some P"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 95
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "More Wealth, Healthcare and Housing",
+      "Blue Origin New Glenn Targets April Launch of AST Space Mobi",
+      "OpenAI executive shuffle includes new role for COO Brad Ligh"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 18,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "China Build Focused Economy Versus India",
       "Hackers Are Posting the Claude Code Leak With Bonus Malware"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Transportation",
-    "momentum": 17,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
       "Rivian Beats Wall Street Sales Expectations, But Still Niche"
@@ -183,35 +201,18 @@
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 58
     },
-    "lastUpdated": "2026-04-05"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 15,
-    "trend": "declining",
-    "catalysts": [
-      "Blue Origin New Glenn Targets April Launch of AST Space Mobi",
-      "OpenAI executive shuffle includes new role for COO Brad Ligh"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Supersonic & Hypersonic",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Relativity, Hermeus, Astrion and Divergent executives join F"
+      "Active supersonic & hypersonic ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -220,16 +221,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Climate & Energy",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
+      "China&#8217;s Energy Build Drives GDP Growth While Europe Ha",
       "Superfund Site Still On Track For Solar Power &#038; Green H",
-      "Anthropic is having a moment in the private markets; SpaceX",
-      "Google, AI, &#038; Carbon Emissions &#8212; A Lesson In Situ"
+      "Anthropic is having a moment in the private markets; SpaceX"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -238,7 +239,7 @@
       "hiring": 0,
       "market": 28
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Quantum Computing",
@@ -254,22 +255,23 @@
       "hiring": 0,
       "market": 31
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 2,
+    "momentum": 5,
     "trend": "declining",
     "catalysts": [
-      "Active nuclear energy ecosystem"
+      "China&#8217;s Energy Build Drives GDP Growth While Europe Ha",
+      "Pulsar Fusion Achieves Initial Pulse Experiments and Targets"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-05"
+    "lastUpdated": "2026-04-06"
   }
 ]
