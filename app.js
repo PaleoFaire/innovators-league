@@ -719,11 +719,64 @@ function openCompanyModal(companyName) {
   const saved = isBookmarked(company.name);
   const country = getCountry(company.state, company.location);
 
-  // Related companies (same sector, different company)
-  const related = COMPANIES
-    .filter(c => c.sector === company.sector && c.name !== company.name)
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 4);
+  // ─── SIMILAR COMPANIES ENGINE ───
+  // Computes similarity scores using tags, sector, thesisCluster, fundingStage, techApproach, and scores
+  const related = (() => {
+    const candidates = COMPANIES.filter(c => c.name !== company.name);
+    const scored = candidates.map(c => {
+      let sim = 0;
+
+      // 1. Sector match (weight: 25)
+      if (c.sector === company.sector) sim += 25;
+
+      // 2. Tag overlap (weight: up to 30)
+      const tagsA = new Set((company.tags || []).map(t => t.toLowerCase()));
+      const tagsB = new Set((c.tags || []).map(t => t.toLowerCase()));
+      const intersection = [...tagsA].filter(t => tagsB.has(t)).length;
+      const union = new Set([...tagsA, ...tagsB]).size;
+      if (union > 0) sim += (intersection / union) * 30;
+
+      // 3. Thesis cluster match (weight: 15)
+      if (company.thesisCluster && c.thesisCluster && company.thesisCluster === c.thesisCluster) sim += 15;
+
+      // 4. Funding stage similarity (weight: 10)
+      const stages = ['Pre-Seed', 'Seed', 'Series A', 'Series B', 'Series C', 'Series D', 'Growth', 'Late Stage', 'Public'];
+      const stageA = stages.indexOf(company.fundingStage);
+      const stageB = stages.indexOf(c.fundingStage);
+      if (stageA >= 0 && stageB >= 0) {
+        const dist = Math.abs(stageA - stageB);
+        sim += Math.max(0, 10 - dist * 2.5);
+      } else if (company.fundingStage === c.fundingStage) {
+        sim += 10;
+      }
+
+      // 5. Tech approach similarity (weight: 10)
+      if (company.techApproach && c.techApproach) {
+        const wordsA = new Set(company.techApproach.toLowerCase().split(/[\s,;/]+/));
+        const wordsB = new Set(c.techApproach.toLowerCase().split(/[\s,;/]+/));
+        const techIntersect = [...wordsA].filter(w => w.length > 3 && wordsB.has(w)).length;
+        if (techIntersect > 0) sim += Math.min(10, techIntersect * 3);
+      }
+
+      // 6. Score profile similarity — cosine on 6-dim scores (weight: 10)
+      if (company.scores && c.scores) {
+        const dims = ['technology', 'market', 'team', 'capital', 'momentum', 'risk'];
+        const vecA = dims.map(d => (company.scores[d] || 0));
+        const vecB = dims.map(d => (c.scores[d] || 0));
+        const dot = vecA.reduce((s, v, i) => s + v * vecB[i], 0);
+        const magA = Math.sqrt(vecA.reduce((s, v) => s + v * v, 0));
+        const magB = Math.sqrt(vecB.reduce((s, v) => s + v * v, 0));
+        if (magA > 0 && magB > 0) sim += (dot / (magA * magB)) * 10;
+      }
+
+      return { company: c, similarity: sim };
+    });
+
+    return scored
+      .sort((a, b) => b.similarity - a.similarity)
+      .slice(0, 6)
+      .filter(s => s.similarity > 5);
+  })();
 
   // Competitors from data
   const competitors = (company.competitors || [])
@@ -1048,36 +1101,256 @@ function openCompanyModal(companyName) {
     })()}
 
     ${(() => {
-      // Historical Tracking mini-chart
-      if (typeof HISTORICAL_TRACKING === 'undefined') return '';
-      const hist = HISTORICAL_TRACKING[company.name];
-      if (!hist || !hist.valuations || hist.valuations.length < 2) return '';
-      const vals = hist.valuations;
-      const first = vals[0].value;
-      const last = vals[vals.length - 1].value;
-      const growth = first > 0 ? ((last / first - 1) * 100).toFixed(0) : 0;
-      const maxVal = Math.max(...vals.map(v => v.value));
+      // ─── DEAL HISTORY TIMELINE ───
+      // Combines HISTORICAL_TRACKING funding data + DEAL_TRACKER individual deals
+      const hist = typeof HISTORICAL_TRACKING !== 'undefined' ? HISTORICAL_TRACKING[company.name] : null;
+      const deals = typeof DEAL_TRACKER !== 'undefined'
+        ? DEAL_TRACKER.filter(d => d.company === company.name).sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+        : [];
+      const fundingEntry = typeof FUNDING_TRACKER !== 'undefined'
+        ? FUNDING_TRACKER.find(f => f.company === company.name)
+        : null;
+
+      // Build timeline events from all sources
+      const timelineEvents = [];
+
+      // Source 1: HISTORICAL_TRACKING valuations (most reliable for round-by-round)
+      if (hist && hist.valuations) {
+        const seen = new Set();
+        hist.valuations.forEach(v => {
+          const key = v.date + v.event;
+          if (!seen.has(key)) {
+            seen.add(key);
+            timelineEvents.push({
+              date: v.date,
+              round: v.event,
+              valuation: v.value >= 1 ? '$' + v.value.toFixed(1) + 'B' : '$' + (v.value * 1000).toFixed(0) + 'M',
+              source: 'historical'
+            });
+          }
+        });
+      }
+
+      // Source 2: HISTORICAL_TRACKING funding (cumulative) — extract individual round amounts
+      if (hist && hist.funding) {
+        hist.funding.forEach((f, i) => {
+          const existing = timelineEvents.find(e => e.date === f.date);
+          const roundAmount = i > 0 ? f.cumulative - hist.funding[i-1].cumulative : f.cumulative;
+          const amtStr = roundAmount >= 1 ? '$' + roundAmount.toFixed(1) + 'B' : '$' + (roundAmount * 1000).toFixed(0) + 'M';
+          if (existing) {
+            existing.amount = amtStr;
+            existing.cumulative = f.cumulative >= 1 ? '$' + f.cumulative.toFixed(1) + 'B' : '$' + (f.cumulative * 1000).toFixed(0) + 'M';
+          } else {
+            timelineEvents.push({
+              date: f.date,
+              round: f.round,
+              amount: amtStr,
+              cumulative: f.cumulative >= 1 ? '$' + f.cumulative.toFixed(1) + 'B' : '$' + (f.cumulative * 1000).toFixed(0) + 'M',
+              source: 'funding'
+            });
+          }
+        });
+      }
+
+      // Source 3: DEAL_TRACKER entries (if no historical data exists)
+      if (timelineEvents.length === 0 && deals.length > 0) {
+        deals.forEach(d => {
+          timelineEvents.push({
+            date: d.date,
+            round: d.round,
+            amount: d.amount,
+            investors: d.investor,
+            source: 'deal'
+          });
+        });
+      }
+
+      // Source 4: If still nothing, use FUNDING_TRACKER last round
+      if (timelineEvents.length === 0 && fundingEntry) {
+        timelineEvents.push({
+          date: fundingEntry.lastRoundDate,
+          round: fundingEntry.lastRound,
+          amount: fundingEntry.lastRoundAmount,
+          valuation: fundingEntry.valuation || '',
+          investors: (fundingEntry.leadInvestors || []).filter(i => i !== 'Undisclosed').join(', '),
+          source: 'tracker'
+        });
+      }
+
+      // Sort chronologically
+      timelineEvents.sort((a, b) => (a.date || '').localeCompare(b.date || ''));
+
+      if (timelineEvents.length === 0) return '';
+
+      // Add investor info from DEAL_TRACKER to historical events
+      if (deals.length > 0) {
+        timelineEvents.forEach(evt => {
+          if (!evt.investors) {
+            const matchingDeals = deals.filter(d => {
+              const dDate = (d.date || '').slice(0, 7);
+              const eDate = (evt.date || '').slice(0, 7);
+              return dDate === eDate || d.round === evt.round;
+            });
+            if (matchingDeals.length > 0) {
+              evt.investors = [...new Set(matchingDeals.map(d => d.investor).filter(i => i && i !== 'Undisclosed'))].join(', ');
+            }
+          }
+        });
+      }
+
+      // Also add lead investors from FUNDING_TRACKER for the latest event
+      if (fundingEntry && fundingEntry.leadInvestors && timelineEvents.length > 0) {
+        const lastEvt = timelineEvents[timelineEvents.length - 1];
+        if (!lastEvt.investors) {
+          lastEvt.investors = fundingEntry.leadInvestors.filter(i => i !== 'Undisclosed').join(', ');
+        }
+      }
+
       return `
-        <div class="modal-historical" style="border:1px solid var(--border);border-radius:12px;padding:16px 20px;margin:12px 0;">
-          <h4 style="margin:0 0 12px;display:flex;align-items:center;gap:8px;font-size:14px;">
-            <span>📈</span> Valuation History
-            <span style="margin-left:auto;font-size:13px;font-weight:700;color:${growth > 0 ? '#22c55e' : '#ef4444'};">${growth > 0 ? '+' : ''}${growth}% total</span>
+        <div class="modal-deal-timeline">
+          <h4>
+            <span>💰</span> Deal History Timeline
+            <span class="deal-timeline-total">${fundingEntry ? fundingEntry.totalRaised : company.totalRaised || ''} raised</span>
           </h4>
-          <div style="display:flex;align-items:flex-end;gap:3px;height:60px;margin-bottom:8px;">
-            ${vals.map(v => {
-              const pct = maxVal > 0 ? (v.value / maxVal * 100) : 0;
-              return '<div style="flex:1;background:linear-gradient(to top,var(--accent),rgba(255,107,44,0.3));border-radius:3px 3px 0 0;height:' + pct + '%;min-height:4px;" title="' + v.event + ': $' + v.value + 'B (' + v.date + ')"></div>';
+          <div class="deal-timeline-track">
+            ${timelineEvents.map((evt, i) => {
+              const isLatest = i === timelineEvents.length - 1;
+              const dateStr = evt.date ? new Date(evt.date + '-01').toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) : '';
+              return `
+                <div class="deal-timeline-event${isLatest ? ' latest' : ''}">
+                  <div class="deal-timeline-dot${isLatest ? ' latest' : ''}"></div>
+                  <div class="deal-timeline-content">
+                    <div class="deal-timeline-round">${evt.round || 'Funding'}${evt.amount ? ' — ' + evt.amount : ''}</div>
+                    <div class="deal-timeline-meta">
+                      <span class="deal-timeline-date">${dateStr}</span>
+                      ${evt.valuation ? '<span class="deal-timeline-val">@ ' + evt.valuation + '</span>' : ''}
+                    </div>
+                    ${evt.investors ? '<div class="deal-timeline-investors">' + evt.investors + '</div>' : ''}
+                  </div>
+                </div>
+              `;
             }).join('')}
           </div>
-          <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--text-muted);">
-            <span>${vals[0].date}</span>
-            <span>$${last >= 1 ? last.toFixed(0) + 'B' : (last * 1000).toFixed(0) + 'M'} (${vals[vals.length-1].event})</span>
+        </div>
+      `;
+    })()}
+
+    ${(() => {
+      // ─── HEADCOUNT GROWTH CHART ───
+      // Uses HISTORICAL_TRACKING headcount time-series + HEADCOUNT_ESTIMATES current snapshot
+      const hist = typeof HISTORICAL_TRACKING !== 'undefined' ? HISTORICAL_TRACKING[company.name] : null;
+      const hcEst = typeof HEADCOUNT_ESTIMATES !== 'undefined'
+        ? HEADCOUNT_ESTIMATES.find(h => h.company === company.name)
+        : null;
+
+      // Need either historical headcount data or current estimate
+      if (!hist?.headcount?.length && !hcEst) return '';
+
+      const dataPoints = [];
+
+      // Use historical time-series if available
+      if (hist && hist.headcount && hist.headcount.length >= 2) {
+        hist.headcount.forEach(h => {
+          dataPoints.push({ date: h.date, count: h.count });
+        });
+        // Add current HEADCOUNT_ESTIMATES as latest data point if newer
+        if (hcEst && hcEst.estimatedHeadcount) {
+          const lastHistDate = hist.headcount[hist.headcount.length - 1].date;
+          if (hcEst.lastUpdated > lastHistDate) {
+            dataPoints.push({ date: hcEst.lastUpdated.slice(0, 7), count: hcEst.estimatedHeadcount });
+          }
+        }
+      } else if (hcEst) {
+        // No historical data — show current snapshot with hiring velocity indicator only
+        const velocityColors = { surging: '#22c55e', rapid: '#3b82f6', growing: '#f59e0b', moderate: '#6b7280', declining: '#ef4444' };
+        const vc = velocityColors[hcEst.hiringVelocity] || '#6b7280';
+        return `
+          <div class="modal-headcount">
+            <h4><span>👥</span> Workforce Intelligence</h4>
+            <div class="headcount-snapshot">
+              <div class="headcount-stat-main">
+                <span class="headcount-number">${hcEst.headcountFormatted}</span>
+                <span class="headcount-label">Estimated Employees</span>
+              </div>
+              <div class="headcount-stat">
+                <span class="headcount-stat-val">${hcEst.openPositions}</span>
+                <span class="headcount-stat-lbl">Open Roles</span>
+              </div>
+              <div class="headcount-stat">
+                <span class="headcount-stat-val" style="color:${vc};">${(hcEst.hiringVelocity || 'unknown').toUpperCase()}</span>
+                <span class="headcount-stat-lbl">Hiring Velocity</span>
+              </div>
+              <div class="headcount-stat">
+                <span class="headcount-stat-val">${(hcEst.vacancyRate * 100).toFixed(1)}%</span>
+                <span class="headcount-stat-lbl">Vacancy Rate</span>
+              </div>
+              ${hcEst.growthTrend ? `<div class="headcount-stat"><span class="headcount-stat-val" style="color:${hcEst.growthTrend.startsWith('+') ? '#22c55e' : '#ef4444'};">${hcEst.growthTrend}</span><span class="headcount-stat-lbl">Growth Trend</span></div>` : ''}
+            </div>
           </div>
-          ${hist.headcount && hist.headcount.length >= 2 ? (() => {
-            const hc = hist.headcount;
-            const lastHc = hc[hc.length - 1].count;
-            return '<div style="margin-top:10px;font-size:12px;color:var(--text-secondary);">Team: <strong>' + lastHc.toLocaleString() + '</strong> employees (from ' + hc[0].count.toLocaleString() + ' in ' + hc[0].date.slice(0,4) + ')</div>';
-          })() : ''}
+        `;
+      }
+
+      if (dataPoints.length < 2) return '';
+
+      // Build SVG sparkline chart
+      const svgW = 460, svgH = 100, padL = 5, padR = 5, padT = 10, padB = 20;
+      const chartW = svgW - padL - padR;
+      const chartH = svgH - padT - padB;
+      const minCount = Math.min(...dataPoints.map(d => d.count)) * 0.8;
+      const maxCount = Math.max(...dataPoints.map(d => d.count)) * 1.1;
+      const range = maxCount - minCount || 1;
+
+      const points = dataPoints.map((d, i) => {
+        const x = padL + (i / (dataPoints.length - 1)) * chartW;
+        const y = padT + chartH - ((d.count - minCount) / range) * chartH;
+        return { x, y, ...d };
+      });
+
+      const linePath = points.map((p, i) => (i === 0 ? 'M' : 'L') + p.x.toFixed(1) + ',' + p.y.toFixed(1)).join(' ');
+      const areaPath = linePath + ' L' + points[points.length-1].x.toFixed(1) + ',' + (padT + chartH) + ' L' + points[0].x.toFixed(1) + ',' + (padT + chartH) + ' Z';
+
+      const firstCount = dataPoints[0].count;
+      const lastCount = dataPoints[dataPoints.length - 1].count;
+      const growth = firstCount > 0 ? ((lastCount / firstCount - 1) * 100).toFixed(0) : 0;
+
+      // Current headcount estimate info
+      const currentHc = hcEst ? hcEst.estimatedHeadcount : lastCount;
+      const openRoles = hcEst ? hcEst.openPositions : 0;
+      const velocity = hcEst ? hcEst.hiringVelocity : '';
+      const velocityColors = { surging: '#22c55e', rapid: '#3b82f6', growing: '#f59e0b', moderate: '#6b7280', declining: '#ef4444' };
+      const vc = velocityColors[velocity] || '#6b7280';
+
+      return `
+        <div class="modal-headcount">
+          <h4>
+            <span>👥</span> Workforce Intelligence
+            <span class="headcount-growth" style="color:${growth > 0 ? '#22c55e' : '#ef4444'};">${growth > 0 ? '+' : ''}${growth}% total growth</span>
+          </h4>
+          <div class="headcount-chart-row">
+            <div class="headcount-chart-svg">
+              <svg viewBox="0 0 ${svgW} ${svgH}" preserveAspectRatio="none">
+                <defs>
+                  <linearGradient id="hcGrad-${company.name.replace(/[^a-zA-Z0-9]/g,'')}" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
+                    <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.02"/>
+                  </linearGradient>
+                </defs>
+                <path d="${areaPath}" fill="url(#hcGrad-${company.name.replace(/[^a-zA-Z0-9]/g,'')})" />
+                <path d="${linePath}" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                ${points.map(p => `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.5" fill="#3b82f6" stroke="#0a0f1a" stroke-width="1.5"/>`).join('')}
+                ${points.map(p => `<text x="${p.x.toFixed(1)}" y="${(padT + chartH + 14).toFixed(1)}" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="8" font-family="Space Grotesk,sans-serif">${p.date.slice(0,4)}</text>`).join('')}
+              </svg>
+            </div>
+            <div class="headcount-stats-col">
+              <div class="headcount-stat-main">
+                <span class="headcount-number">${currentHc >= 1000 ? (currentHc/1000).toFixed(1) + 'K' : currentHc.toLocaleString()}</span>
+                <span class="headcount-label">Current Team</span>
+              </div>
+              ${openRoles ? `<div class="headcount-stat"><span class="headcount-stat-val">${openRoles}</span><span class="headcount-stat-lbl">Open Roles</span></div>` : ''}
+              ${velocity ? `<div class="headcount-stat"><span class="headcount-stat-val" style="color:${vc};">${velocity.toUpperCase()}</span><span class="headcount-stat-lbl">Hiring Velocity</span></div>` : ''}
+              <div class="headcount-stat"><span class="headcount-stat-val">${dataPoints[0].count.toLocaleString()}</span><span class="headcount-stat-lbl">${dataPoints[0].date.slice(0,4)} Team</span></div>
+            </div>
+          </div>
         </div>
       `;
     })()}
@@ -1118,15 +1391,28 @@ function openCompanyModal(companyName) {
     ` : ''}
 
     ${related.length > 0 ? `
-      <div class="modal-related">
-        <h4>Related Companies</h4>
-        <div class="modal-related-grid">
-          ${related.map(r => `
-            <div class="modal-related-card" onclick="openCompanyModal('${r.name.replace(/'/g, "\\'")}')">
-              <span class="modal-related-name">${r.name}</span>
-              <span class="modal-related-loc">${r.location}</span>
-            </div>
-          `).join('')}
+      <div class="modal-similar">
+        <h4><span>🔗</span> Similar Companies</h4>
+        <div class="modal-similar-grid">
+          ${related.map(r => {
+            const sc = r.company;
+            const sectorInfo2 = SECTORS[sc.sector] || { color: '#6b7280', icon: '' };
+            const pct = Math.min(100, Math.round(r.similarity));
+            const matchColor = pct >= 60 ? '#22c55e' : pct >= 40 ? '#3b82f6' : pct >= 20 ? '#f59e0b' : '#6b7280';
+            return `
+              <div class="modal-similar-card" onclick="openCompanyModal('${sc.name.replace(/'/g, "\\'")}')">
+                <div class="similar-card-header">
+                  <span class="similar-card-name">${sc.name}</span>
+                  <span class="similar-match-badge" style="color:${matchColor};border-color:${matchColor}30;background:${matchColor}10;">${pct}%</span>
+                </div>
+                <div class="similar-card-meta">
+                  <span class="similar-card-sector" style="color:${sectorInfo2.color};">${sectorInfo2.icon} ${sc.sector}</span>
+                  <span class="similar-card-loc">${sc.location}</span>
+                </div>
+                ${sc.fundingStage ? `<span class="similar-card-stage">${sc.fundingStage}${sc.totalRaised ? ' · ' + sc.totalRaised : ''}</span>` : ''}
+              </div>
+            `;
+          }).join('')}
         </div>
       </div>
     ` : ''}
