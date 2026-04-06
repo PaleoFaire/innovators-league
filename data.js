@@ -24189,21 +24189,17 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-05 20:41
-// Auto-generated real-time signals
-// Last updated: 2026-04-05
-// Auto-generated real-time signals
-// Last updated: 2026-04-05
+// Last updated: 2026-04-06 03:26
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Astro Mechanica", headline: "NASA stops work on SLS Mobile Launcher 2", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Machina Labs", headline: "Proton EVs Sell Well In Malaysia, Where Fuel Is Subsidized &#038; Cheap", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Photonic Inc", headline: "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "SpaceX", headline: "Can orbital data centers help justify a massive valuation for SpaceX?", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Andromeda Surgical", headline: "More Wealth, Healthcare and Housing", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
-  { id: 6, type: "milestone", company: "Mach Industries", headline: "Pulsar Fusion Achieves Initial Pulse Experiments and Targets Orbital Test in 2027 and Production Fusion Rocket in Early ", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Palantir", headline: "The Hack That Exposed Syria’s Sweeping Security Failures", source: "Wired", time: "11h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Durin", headline: "NASA finalizes science plans for Artemis 2 lunar flyby", source: "SpaceNews", time: "17h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Orangewood Labs", headline: "Embattled startup Delve has ‘parted ways’ with Y Combinator", source: "TechCrunch", time: "23h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Astro Mechanica", headline: "NASA stops work on SLS Mobile Launcher 2", source: "SpaceNews", time: "6h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Machina Labs", headline: "Proton EVs Sell Well In Malaysia, Where Fuel Is Subsidized &#038; Cheap", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Photonic Inc", headline: "Copilot is 'for entertainment purposes only,' according to Microsoft's terms of use", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "SpaceX", headline: "Can orbital data centers help justify a massive valuation for SpaceX?", source: "TechCrunch", time: "11h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Andromeda Surgical", headline: "More Wealth, Healthcare and Housing", source: "Next Big Future", time: "15h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Mach Industries", headline: "Pulsar Fusion Achieves Initial Pulse Experiments and Targets Orbital Test in 2027 and Production Fusion Rocket in Early ", source: "Next Big Future", time: "16h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Palantir", headline: "The Hack That Exposed Syria's Sweeping Security Failures", source: "Wired", time: "18h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Durin", headline: "NASA finalizes science plans for Artemis 2 lunar flyby", source: "SpaceNews", time: "23h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Orangewood Labs", headline: "Embattled startup Delve has 'parted ways' with Y Combinator", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "AST SpaceMobile", headline: "Atlas 5 launches Amazon Leo satellites", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "news", company: "Sunfire", headline: "Superfund Site Still On Track For Solar Power &#038; Green Hydrogen", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 12, type: "news", company: "Anthropic", headline: "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
