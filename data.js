@@ -24265,23 +24265,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-06 16:58
+// Last updated: 2026-04-06 20:46
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Xanadu Quantum Technologies", headline: "North Korea's hijack of one of the web's most used open source projects was likely weeks in the making", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Anthropic", headline: "The one piece of data that could actually shed light on your job and AI", source: "MIT Tech Review", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "OpenAI", headline: "OpenAI's vision for the AI economy: public wealth funds, robot taxes, and a four-day work week", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "PILGRIM", headline: "Startup Battlefield 200 applications open: a chance for VC access, TechCrunch coverage, and $100K", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Aurora Innovation", headline: "Tesla Full Self-Driving History: Where It Stands Today With V12 On HW3 Cars And V14 On HW4 Cars", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Karman Industries", headline: "Will private capital and disruption reshape the defense industrial base?", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "The'moon'base'has'a'hardware'plan. It'needs'a'software'strategy,'too.", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "Firefly Aerospace", headline: "Seagate Space Signs MOU with Firefly Aerospace to Collaborate on Offshore Launch Infrastructure for Alpha", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Endurance Energy", headline: "The Age of Unlearning: How Democracies Lost Their Grip on Strategic Time", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Cape", headline: "Sharpening Signals and Reducing Noise for Better Defense Budgets", source: "War on the Rocks", time: "9h ago", impact: "medium", unread: false },
-  { id: 11, type: "news", company: "Naarea", headline: "China Build Focused Economy Versus India", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Karman Industries", headline: "China's Energy Build Drives GDP Growth While Europe Has a Drag From Low, Costly Energy", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Astro Mechanica", headline: "NASA stops work on SLS Mobile Launcher 2", source: "SpaceNews", time: "20h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Machina Labs", headline: "Proton EVs Sell Well In Malaysia, Where Fuel Is Subsidized &#038; Cheap", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Photonic Inc", headline: "Copilot is 'for entertainment purposes only,' according to Microsoft's terms of use", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Vital Lyfe", headline: "A Single Strike Won't Shut Off the Gulf's Desalination System", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "Atomic Industries", headline: "Moog Highlights Growing Satellite Bus Capabilities with Full'Scale METEOR Reveal at Space Symposium", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "PILGRIM", headline: "Army's Scarlet Dragon exercise adds commercial data to battlefield data flows", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Palantir", headline: "FOSSA targets Japan's defense market as larger smallsats expand capabilities", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "Border Patrol Agents Sold Challenge Coins With 'Charlotte's Web' Characters in Riot Gear", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Crusoe Energy", headline: "Iran threatens 'Stargate' AI data centers", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Osmo", headline: "One of Our Favorite 360 Cams Is 35 Percent Off", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Durin", headline: "Watch this video of how a job interviewer exposes a North Korean fake IT worker", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Colossal Biosciences", headline: "Gozney Dome Gen 2 Review: The Ultimate Backyard Flex", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Xanadu Quantum Technologies", headline: "North Korea's hijack of one of the web's most used open source projects was likely weeks in the making", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Anthropic", headline: "The one piece of data that could actually shed light on your job and AI", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "OpenAI", headline: "OpenAI's vision for the AI economy: public wealth funds, robot taxes, and a four-day workweek", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "PILGRIM", headline: "Startup Battlefield 200 applications open: a chance for VC access, TechCrunch coverage, and $100K", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Aurora Innovation", headline: "Tesla Full Self-Driving History: Where It Stands Today With V12 On HW3 Cars And V14 On HW4 Cars", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Karman Industries", headline: "Will private capital and disruption reshape the defense industrial base?", source: "Breaking Defense", time: "6h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
