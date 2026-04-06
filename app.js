@@ -2022,6 +2022,19 @@ function initStats() {
     el.textContent = companyCount;
   });
 
+  // Dynamic VC firm count
+  const vcCountEl = document.getElementById('dynamic-vc-count');
+  if (vcCountEl && typeof VC_FIRMS !== 'undefined') {
+    vcCountEl.textContent = VC_FIRMS.length;
+  }
+
+  // Dynamic thesis cluster count
+  const thesisCountEl = document.getElementById('dynamic-thesis-count');
+  if (thesisCountEl) {
+    const clusters = new Set(COMPANIES.map(c => c.thesisCluster).filter(Boolean));
+    thesisCountEl.textContent = clusters.size;
+  }
+
   // Format funding as $XXB+
   const fundingEl = document.getElementById('funding-count');
   if (fundingEl) {
@@ -8835,7 +8848,12 @@ function initSignalsPanel() {
       <span class="signal-count">${COMPANY_SIGNALS.filter(s => s.unread).length}</span>
     `;
     signalsBtn.onclick = toggleSignalsPanel;
-    navLinks.insertBefore(signalsBtn, navLinks.querySelector('.nav-cta'));
+    const navCta = Array.from(navLinks.children).find(el => el.classList.contains('nav-cta'));
+    if (navCta) {
+      navLinks.insertBefore(signalsBtn, navCta);
+    } else {
+      navLinks.appendChild(signalsBtn);
+    }
   }
 
   renderSignals('all');
