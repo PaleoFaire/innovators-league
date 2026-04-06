@@ -24265,23 +24265,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-06 13:25
+// Last updated: 2026-04-06 16:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Endurance Energy", headline: "The Age of Unlearning: How Democracies Lost Their Grip on Strategic Time", source: "War on the Rocks", time: "5h ago", impact: "low", unread: true },
-  { id: 2, type: "funding", company: "Cape", headline: "Sharpening Signals and Reducing Noise for Better Defense Budgets", source: "War on the Rocks", time: "6h ago", impact: "medium", unread: true },
-  { id: 3, type: "news", company: "Naarea", headline: "China Build Focused Economy Versus India", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Karman Industries", headline: "China's Energy Build Drives GDP Growth While Europe Has a Drag From Low, Costly Energy", source: "Next Big Future", time: "9h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Machina Labs", headline: "Proton EVs Sell Well In Malaysia, Where Fuel Is Subsidized &#038; Cheap", source: "CleanTechnica", time: "17h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Photonic Inc", headline: "Copilot is 'for entertainment purposes only,' according to Microsoft's terms of use", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "SpaceX", headline: "Can orbital data centers help justify a massive valuation for SpaceX?", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Andromeda Surgical", headline: "More Wealth, Healthcare and Housing", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Mach Industries", headline: "Pulsar Fusion Achieves Initial Pulse Experiments and Targets Orbital Test in 2027 and Production Fusion Rocket in Early ", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Palantir", headline: "The Hack That Exposed Syria's Sweeping Security Failures", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Orangewood Labs", headline: "Embattled startup Delve has 'parted ways' with Y Combinator", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Sunfire", headline: "Superfund Site Still On Track For Solar Power &#038; Green Hydrogen", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Galvanick", headline: "After fighting malware for decades, this cybersecurity veteran is now hacking drones", source: "TechCrunch", time: "2d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Cape", headline: "Hackers Are Posting the Claude Code Leak With Bonus Malware", source: "Wired", time: "2d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Xanadu Quantum Technologies", headline: "North Korea's hijack of one of the web's most used open source projects was likely weeks in the making", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "The one piece of data that could actually shed light on your job and AI", source: "MIT Tech Review", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "OpenAI", headline: "OpenAI's vision for the AI economy: public wealth funds, robot taxes, and a four-day work week", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "PILGRIM", headline: "Startup Battlefield 200 applications open: a chance for VC access, TechCrunch coverage, and $100K", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Aurora Innovation", headline: "Tesla Full Self-Driving History: Where It Stands Today With V12 On HW3 Cars And V14 On HW4 Cars", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Karman Industries", headline: "Will private capital and disruption reshape the defense industrial base?", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "SpaceX", headline: "The'moon'base'has'a'hardware'plan. It'needs'a'software'strategy,'too.", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "Firefly Aerospace", headline: "Seagate Space Signs MOU with Firefly Aerospace to Collaborate on Offshore Launch Infrastructure for Alpha", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Endurance Energy", headline: "The Age of Unlearning: How Democracies Lost Their Grip on Strategic Time", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Cape", headline: "Sharpening Signals and Reducing Noise for Better Defense Budgets", source: "War on the Rocks", time: "9h ago", impact: "medium", unread: false },
+  { id: 11, type: "news", company: "Naarea", headline: "China Build Focused Economy Versus India", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Karman Industries", headline: "China's Energy Build Drives GDP Growth While Europe Has a Drag From Low, Costly Energy", source: "Next Big Future", time: "13h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Astro Mechanica", headline: "NASA stops work on SLS Mobile Launcher 2", source: "SpaceNews", time: "20h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Machina Labs", headline: "Proton EVs Sell Well In Malaysia, Where Fuel Is Subsidized &#038; Cheap", source: "CleanTechnica", time: "21h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Photonic Inc", headline: "Copilot is 'for entertainment purposes only,' according to Microsoft's terms of use", source: "TechCrunch", time: "22h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
