@@ -1,6 +1,7 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-06 07:51:14 UTC
+// Last updated: 2026-04-07 07:25:06 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Rocket Lab", form: "DEF 14A", date: "2026-04-06", description: "rklb-20260406.htm", isIPO: false, ticker: "RKLB" },
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248597.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248508.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248421.xml", isIPO: false, ticker: "OKLO" },
@@ -50,5 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Momentus", form: "8-K", date: "2026-03-30", description: "tm2610566d1_8k.htm", isIPO: false, ticker: "MNTS" },
   { company: "Virgin Galactic", form: "10-K", date: "2026-03-30", description: "spce-20251231.htm", isIPO: false, ticker: "SPCE" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-03-30", description: "spce-20260330.htm", isIPO: false, ticker: "SPCE" },
-  { company: "Oklo", form: "4", date: "2026-03-30", description: "xslF345X06/wk-form4_1774907147.xml", isIPO: false, ticker: "OKLO" },
 ];

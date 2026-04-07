@@ -107,17 +107,18 @@
   },
   {
     "company": "OpenAI",
-    "totalRaised": "$3.0B+",
-    "totalRaisedRaw": 3009.0,
-    "lastRound": "Series G",
-    "lastRoundAmount": "$3B",
-    "lastRoundDate": "2026-03",
+    "totalRaised": "$3.1B+",
+    "totalRaisedRaw": 3109.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$100M",
+    "lastRoundDate": "2026-04",
     "valuation": "",
     "leadInvestors": [
+      "Undisclosed",
       "SoftBank",
       "Lightspeed Venture Partners"
     ],
-    "roundCount": 2
+    "roundCount": 3
   },
   {
     "company": "Anduril Industries",
@@ -197,6 +198,19 @@
       "Undisclosed",
       "Bezos Expeditions",
       "Thrive Capital"
+    ],
+    "roundCount": 2
+  },
+  {
+    "company": "Boom Supersonic",
+    "totalRaised": "$1.6B+",
+    "totalRaisedRaw": 1550.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$1.25B",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 2
   },
@@ -505,17 +519,6 @@
     "roundCount": 2
   },
   {
-    "company": "Boom Supersonic",
-    "totalRaised": "$300M+",
-    "totalRaisedRaw": 300.0,
-    "lastRound": "Series B",
-    "lastRoundAmount": "$300M",
-    "lastRoundDate": "2025-07",
-    "valuation": "$1.5B",
-    "leadInvestors": [],
-    "roundCount": 1
-  },
-  {
     "company": "Orangewood Labs",
     "totalRaised": "$295M+",
     "totalRaisedRaw": 295.0,
@@ -644,6 +647,19 @@
     "valuation": "$1.5B",
     "leadInvestors": [
       "Founders Fund"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Earth AI",
+    "totalRaised": "$130M+",
+    "totalRaisedRaw": 130.0,
+    "lastRound": "Series B",
+    "lastRoundAmount": "$130M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },
@@ -909,14 +925,14 @@
     "company": "ARC Clean Technology",
     "totalRaised": "$14M+",
     "totalRaisedRaw": 14.5,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$14.5M",
-    "lastRoundDate": "2026-03",
+    "lastRound": "Series G",
+    "lastRoundAmount": "$252.6B",
+    "lastRoundDate": "2026-04",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Hive AI",
