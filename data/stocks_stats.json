@@ -5,95 +5,90 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 3.4,
+      "avg_change": 7.78,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 15.16,
+      "avg_change": 20.78,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 5.94,
+      "avg_change": 4.28,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 0.61,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": -1.94,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.0,
+      "avg_change": 20.61,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 4.88,
+      "avg_change": 5.29,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.43,
+      "avg_change": 6.93,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.51,
+      "avg_change": -2.02,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.65,
+      "avg_change": 10.94,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "LUNR",
-      "Intuitive Machines",
-      30.82
+      "LNZA",
+      "LanzaTech",
+      61.11
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      20.52
+      "LUNR",
+      "Intuitive Machines",
+      36.76
     ],
     [
       "SATL",
       "Satellogic",
-      18.89
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      13.61
+      36.62
     ],
     [
       "PL",
       "Planet Labs",
-      13.48
+      23.57
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      22.8
     ]
   ],
   "topLosers": [
     [
-      "SMR",
-      "NuScale Power",
-      -1.26
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      -1.44
+      "SLDP",
+      "Solid Power",
+      -1.95
     ],
     [
       "9348.T",
@@ -101,15 +96,20 @@
       -2.25
     ],
     [
-      "TSLA",
-      "Tesla",
-      -2.49
+      "DRSHF",
+      "DroneShield",
+      -3.81
     ],
     [
-      "OKLO",
-      "Oklo",
-      -2.93
+      "TSLA",
+      "Tesla",
+      -4.2
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -10.39
     ]
   ],
-  "lastUpdated": "2026-04-07 13:26:11"
+  "lastUpdated": "2026-04-07 19:10:04"
 }
