@@ -1,6 +1,9 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-06 08:16:51 UTC
+// Last updated: 2026-04-07 08:05:09 UTC
 const NASA_PROJECTS = [
+  { id: 184105, title: "Filtration Bubble Point Test Stand Procurement", status: "Completed", center: "Marshall Space Flight Center", techArea: "Propulsion Systems", lastUpdated: "04/07/26" },
+  { id: 157851, title: "Emergency Breathing Apparatus", status: "Active", center: "IRPI, LLC", techArea: "Fire Detection, Suppression, and Recovery", lastUpdated: "04/06/26" },
+  { id: 157850, title: "Partial-g Fire Detection", status: "Active", center: "Glenn Research Center", techArea: "Fire Detection, Suppression, and Recovery", lastUpdated: "04/06/26" },
   { id: 157847, title: "Fire Scenario Modeling", status: "Active", center: "Glenn Research Center", techArea: "Fire Detection, Suppression, and Recovery", lastUpdated: "04/03/26" },
   { id: 157712, title: "Uniting Physics and Machine Learning for Enhanced Heliophysics Insights", status: "Completed", center: "Goddard Space Flight Center", techArea: "Intelligent Data Understanding", lastUpdated: "04/03/26" },
   { id: 157656, title: "Intelligent Extensible Mission Architectures Systems and Prototypes", status: "Completed", center: "Goddard Space Flight Center", techArea: "Activity and Resource Planning and Scheduling", lastUpdated: "04/03/26" },
@@ -28,7 +31,4 @@ const NASA_PROJECTS = [
   { id: 184665, title: "Advanced Thermal Control for Exploration", status: "Active", center: "Johnson Space Center", techArea: "Heat Rejection and Storage", lastUpdated: "03/23/26" },
   { id: 184672, title: "Solid Oxide Fuel Cell Task", status: "Active", center: "Glenn Research Center", techArea: "Solids", lastUpdated: "03/23/26" },
   { id: 184660, title: "VSAT Government Reference Design", status: "Completed", center: "Langley Research Center", techArea: "Distribution and Transmission", lastUpdated: "03/23/26" },
-  { id: 184621, title: "Entry Navigation Sensor", status: "Completed", center: "Langley Research Center", techArea: "Atmosphere Characterization", lastUpdated: "03/23/26" },
-  { id: 184679, title: "SAC 25.31 ISRU Task", status: "Completed", center: "Johnson Space Center", techArea: "Resource Processing for Production of Mission Consumables", lastUpdated: "03/23/26" },
-  { id: 184608, title: "STLN Thermal Control Study", status: "Active", center: "Marshall Space Flight Center", techArea: "Heat Rejection and Storage", lastUpdated: "03/23/26" },
 ];
