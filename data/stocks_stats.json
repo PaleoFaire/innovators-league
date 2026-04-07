@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 3.75,
+      "avg_change": 3.4,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 15.76,
+      "avg_change": 14.59,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 5.64,
+      "avg_change": 5.59,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.88,
+      "avg_change": 0.61,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 1.56,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 1.0,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.13,
+      "avg_change": 4.88,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.32,
+      "avg_change": 6.61,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.4,
+      "avg_change": 0.51,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.49,
+      "avg_change": 6.65,
       "count": 3
     }
   },
@@ -61,35 +61,30 @@
     [
       "LUNR",
       "Intuitive Machines",
-      32.82
+      30.82
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      22.07
+      20.52
     ],
     [
       "SATL",
       "Satellogic",
-      17.45
+      18.89
     ],
     [
       "PL",
       "Planet Labs",
-      14.29
+      13.48
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      13.83
+      12.14
     ]
   ],
   "topLosers": [
-    [
-      "9348.T",
-      "ispace",
-      -0.69
-    ],
     [
       "DRSHF",
       "DroneShield",
@@ -98,18 +93,23 @@
     [
       "SMR",
       "NuScale Power",
-      -0.83
-    ],
-    [
-      "OKLO",
-      "Oklo",
-      -2.85
+      -1.26
     ],
     [
       "TSLA",
       "Tesla",
-      -2.99
+      -2.49
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      -2.93
+    ],
+    [
+      "9348.T",
+      "ispace",
+      -4.05
     ]
   ],
-  "lastUpdated": "2026-04-06 19:06:57"
+  "lastUpdated": "2026-04-07 02:44:51"
 }
