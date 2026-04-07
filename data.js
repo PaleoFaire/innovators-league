@@ -24312,23 +24312,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-07 17:10
+// Last updated: 2026-04-07 20:56
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Palantir", headline: "Russian government hackers broke into thousands of home routers to steal passwords", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "milestone", company: "Vertical Aerospace", headline: "Chrome is finally getting vertical tabs", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Saule Technologies", headline: "Battery Energy Storage Key To India Emissions Reduction Goal", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic'ups compute deal with Google and Broadcom amid skyrocketing demand", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "Impulse Labs", headline: "Op-Ed: Chinese EV Brands Overwhelm The Manila Auto Show 2026", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "Sunfire", headline: "Trump Breathes New Life Into Old Green Hydrogen Dreams", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Vital Lyfe", headline: "Desalination plants in the Middle East are increasingly vulnerable", source: "MIT Tech Review", time: "2h ago", impact: "medium", unread: false },
-  { id: 8, type: "hire", company: "SpaceX", headline: "Intel  Partners with Tesla and SpaceX on Terafab", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "Together AI", headline: "A teenage Minecraft YouTuber raised $1,234,567 for a meme prediction market called Giggles. It broke me.", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "Decentralized Training Can Help Solve AI's Energy Woes", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Palantir", headline: "Trump administration plans to cut cybersecurity agency's budget by $700 million", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
-  { id: 12, type: "news", company: "Karman Industries", headline: "Why a former AirPods engineer is now building heat pumps", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Vast", headline: "Over-the-Air Computation Uses Radio Interference to Crunch Data", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Waymo", headline: "Waymo opens robotaxi service in Nashville, partners with Lyft", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Vast", headline: "NASA's new moon base project requires operational technology systems in space, but they are vulnerable.", source: "SpaceNews", time: "4h ago", impact: "high", unread: false },
+  { id: 1, type: "news", company: "Palantir", headline: "Iran-Linked Hackers Are Sabotaging US Energy and Water Infrastructure", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Karman Industries", headline: "Pro-Iran hackers have disrupted some industrial-control systems, US says", source: "Defense One", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Galvanick", headline: "Iranian hackers are targeting American critical infrastructure, US agencies warn", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Galvanick", headline: "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Astera Labs", headline: "Firmus, the 'Southgate' AI data center builder backed by Nvidia, hits $5.5B valuation", source: "TechCrunch", time: "2h ago", impact: "high", unread: true },
+  { id: 6, type: "hire", company: "SpaceX", headline: "Intel signs on to Elon Musk's Terafab chips project", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Galvanick", headline: "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Durin", headline: "Apple's foldable iPhone is on track to launch in September, report says", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Durin", headline: "Bell, M1 advance to final phase of Army's Flight School Next competition", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Palantir", headline: "Russian government hackers broke into thousands of home routers to steal passwords", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Vertical Aerospace", headline: "Chrome finally adds a better way to deal with too many open tabs", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Saule Technologies", headline: "Battery Energy Storage Key To India Emissions Reduction Goal", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "Anthropic'ups compute deal with Google and Broadcom amid skyrocketing demand", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
+  { id: 14, type: "ipo", company: "Impulse Labs", headline: "Op-Ed: Chinese EV Brands Overwhelm The Manila Auto Show 2026", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Sunfire", headline: "Trump Breathes New Life Into Old Green Hydrogen Dreams", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
