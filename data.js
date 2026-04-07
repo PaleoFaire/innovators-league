@@ -24312,23 +24312,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-07 13:47
+// Last updated: 2026-04-07 17:10
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Karman Industries", headline: "Why a former AirPods engineer is now building heat pumps", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Vast", headline: "Over-the-Air Computation Uses Radio Interference to Crunch Data", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo opens robotaxi service in Nashville, partners with Lyft", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Hermeus", headline: "Hermeus raises $350M to build autonomous hypersonic fighters", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "Swarm Aero", headline: "Outpaced by the US, China's military places selective bets on artificial intelligence", source: "Defense News", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "hire", company: "Agility Robotics", headline: "The Hidden System Turning Chinese Tech Companies into Military Suppliers", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Durin", headline: "Closing the Air and Missile Defense Gap in the Indo-Pacific", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Matic Robotics", headline: "Honda Offering Up To $8,000 Off The Prologue EV!", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "Ample", headline: "BYD &#038; Tesla Show Different EV Infrastructure Approaches", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Boom Supersonic", headline: "AI Will Give Humanity the Moon, Mars and Supersonic Travel", source: "Next Big Future", time: "12h ago", impact: "high", unread: false },
-  { id: 11, type: "milestone", company: "Collaborative Robotics", headline: "General Atomics pauses drone wingman flight tests after crash", source: "Defense One", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic Number One AI in Ranking and Revenue &#8211; Making $30 Billion Per Year", source: "Next Big Future", time: "13h ago", impact: "high", unread: false },
-  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Raptor Engine Test Seems to Have an Explosion", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "OpenAI", headline: "OpenAI alums have been quietly investing from a new, potentially $100M fund", source: "TechCrunch", time: "15h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "Vital Lyfe", headline: "A Single Strike Won't Shut Off the Gulf's Desalination System", source: "Wired", time: "17h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Palantir", headline: "Russian government hackers broke into thousands of home routers to steal passwords", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Vertical Aerospace", headline: "Chrome is finally getting vertical tabs", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Saule Technologies", headline: "Battery Energy Storage Key To India Emissions Reduction Goal", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "Anthropic'ups compute deal with Google and Broadcom amid skyrocketing demand", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "Impulse Labs", headline: "Op-Ed: Chinese EV Brands Overwhelm The Manila Auto Show 2026", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Sunfire", headline: "Trump Breathes New Life Into Old Green Hydrogen Dreams", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Vital Lyfe", headline: "Desalination plants in the Middle East are increasingly vulnerable", source: "MIT Tech Review", time: "2h ago", impact: "medium", unread: false },
+  { id: 8, type: "hire", company: "SpaceX", headline: "Intel  Partners with Tesla and SpaceX on Terafab", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Together AI", headline: "A teenage Minecraft YouTuber raised $1,234,567 for a meme prediction market called Giggles. It broke me.", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "Decentralized Training Can Help Solve AI's Energy Woes", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Palantir", headline: "Trump administration plans to cut cybersecurity agency's budget by $700 million", source: "TechCrunch", time: "3h ago", impact: "medium", unread: false },
+  { id: 12, type: "news", company: "Karman Industries", headline: "Why a former AirPods engineer is now building heat pumps", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Vast", headline: "Over-the-Air Computation Uses Radio Interference to Crunch Data", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Waymo", headline: "Waymo opens robotaxi service in Nashville, partners with Lyft", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Vast", headline: "NASA's new moon base project requires operational technology systems in space, but they are vulnerable.", source: "SpaceNews", time: "4h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
