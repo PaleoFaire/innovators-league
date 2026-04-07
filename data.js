@@ -24312,23 +24312,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-07 09:12
+// Last updated: 2026-04-07 13:47
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Agility Robotics", headline: "The Hidden System Turning Chinese Tech Companies into Military Suppliers", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Durin", headline: "Closing the Air and Missile Defense Gap in the Indo-Pacific", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Matic Robotics", headline: "Honda Offering Up To $8,000 Off The Prologue EV!", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "Ample", headline: "BYD &#038; Tesla Show Different EV Infrastructure Approaches", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Boom Supersonic", headline: "AI Will Give Humanity the Moon, Mars and Supersonic Travel", source: "Next Big Future", time: "8h ago", impact: "high", unread: true },
-  { id: 6, type: "milestone", company: "Collaborative Robotics", headline: "General Atomics pauses drone wingman flight tests after crash", source: "Defense One", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic Number One AI in Ranking and Revenue &#8211; Making $30 Billion Per Year", source: "Next Big Future", time: "8h ago", impact: "high", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Raptor Engine Test Seems to Have an Explosion", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "OpenAI", headline: "OpenAI alums have been quietly investing from a new, potentially $100M fund", source: "TechCrunch", time: "11h ago", impact: "medium", unread: false },
-  { id: 10, type: "news", company: "Vital Lyfe", headline: "A Single Strike Won't Shut Off the Gulf's Desalination System", source: "Wired", time: "12h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Atomic Industries", headline: "Moog Highlights Growing Satellite Bus Capabilities with Full'Scale METEOR Reveal at Space Symposium", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "PILGRIM", headline: "Army's Scarlet Dragon exercise adds commercial data to battlefield data flows", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
-  { id: 13, type: "ipo", company: "Palantir", headline: "FOSSA targets Japan's defense market as larger smallsats expand capabilities", source: "SpaceNews", time: "14h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Palantir", headline: "Border Patrol Agents Sold Challenge Coins With 'Charlotte's Web' Characters in Riot Gear", source: "Wired", time: "14h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Crusoe Energy", headline: "Iran threatens 'Stargate' AI data centers", source: "TechCrunch", time: "15h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Karman Industries", headline: "Why a former AirPods engineer is now building heat pumps", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Vast", headline: "Over-the-Air Computation Uses Radio Interference to Crunch Data", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Waymo", headline: "Waymo opens robotaxi service in Nashville, partners with Lyft", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Hermeus", headline: "Hermeus raises $350M to build autonomous hypersonic fighters", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Swarm Aero", headline: "Outpaced by the US, China's military places selective bets on artificial intelligence", source: "Defense News", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "hire", company: "Agility Robotics", headline: "The Hidden System Turning Chinese Tech Companies into Military Suppliers", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Durin", headline: "Closing the Air and Missile Defense Gap in the Indo-Pacific", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Matic Robotics", headline: "Honda Offering Up To $8,000 Off The Prologue EV!", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 9, type: "hire", company: "Ample", headline: "BYD &#038; Tesla Show Different EV Infrastructure Approaches", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Boom Supersonic", headline: "AI Will Give Humanity the Moon, Mars and Supersonic Travel", source: "Next Big Future", time: "12h ago", impact: "high", unread: false },
+  { id: 11, type: "milestone", company: "Collaborative Robotics", headline: "General Atomics pauses drone wingman flight tests after crash", source: "Defense One", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Anthropic", headline: "Anthropic Number One AI in Ranking and Revenue &#8211; Making $30 Billion Per Year", source: "Next Big Future", time: "13h ago", impact: "high", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Raptor Engine Test Seems to Have an Explosion", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "OpenAI", headline: "OpenAI alums have been quietly investing from a new, potentially $100M fund", source: "TechCrunch", time: "15h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Vital Lyfe", headline: "A Single Strike Won't Shut Off the Gulf's Desalination System", source: "Wired", time: "17h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
