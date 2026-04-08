@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 7.78,
+      "avg_change": 9.1,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 20.78,
+      "avg_change": 22.27,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 4.28,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 6.12,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -1.94,
+      "avg_change": -0.86,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 20.61,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 23.57,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.29,
+      "avg_change": 6.77,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 6.93,
+      "avg_change": 8.07,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -2.02,
+      "avg_change": -0.53,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 10.94,
+      "avg_change": 13.17,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "LNZA",
       "LanzaTech",
-      61.11
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      36.76
+      65.82
     ],
     [
       "SATL",
       "Satellogic",
-      36.62
+      39.84
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      39.02
     ],
     [
       "PL",
       "Planet Labs",
-      23.57
+      26.1
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      22.8
+      25.4
     ]
   ],
   "topLosers": [
     [
-      "SLDP",
-      "Solid Power",
-      -1.95
-    ],
-    [
-      "9348.T",
-      "ispace",
-      -2.25
-    ],
-    [
       "DRSHF",
       "DroneShield",
-      -3.81
+      1.37
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      0.71
     ],
     [
       "TSLA",
       "Tesla",
-      -4.2
+      -2.43
+    ],
+    [
+      "9348.T",
+      "ispace",
+      -6.36
     ],
     [
       "SMR",
       "NuScale Power",
-      -10.39
+      -10.63
     ]
   ],
-  "lastUpdated": "2026-04-07 19:10:04"
+  "lastUpdated": "2026-04-08 02:45:25"
 }
