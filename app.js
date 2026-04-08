@@ -1920,7 +1920,7 @@ function initKeyboardShortcuts() {
 }
 
 // ─── WEEKLY MOVERS: Previous-week score deltas ───
-let PREV_WEEK_SCORES = null;
+// PREV_WEEK_SCORES is loaded from data.js
 
 function getScoreDelta(companyName) {
   if (!PREV_WEEK_SCORES || typeof INNOVATOR_SCORES === 'undefined') return null;
@@ -1984,14 +1984,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Show loading skeletons immediately
   showLoadingSkeletons();
 
-  // Load previous week scores for delta calculation
-  fetch('data/prev_week_scores.json')
-    .then(r => r.json())
-    .then(data => {
-      PREV_WEEK_SCORES = data;
-      renderMoversSection();
-    })
-    .catch(() => {});
+  // Render weekly movers (PREV_WEEK_SCORES loaded from data.js)
+  renderMoversSection();
 
   // Safe init helper — prevents one broken section from taking down the page
   function safeInit(fn, name) {
