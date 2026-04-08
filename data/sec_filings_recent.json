@@ -443,6 +443,15 @@
   {
     "company": "BlackSky Technology",
     "ticker": "BKSY",
+    "form": "8-K",
+    "date": "2026-04-07",
+    "description": "bksy-20260407.htm",
+    "accessionNumber": "0001753539-26-000045",
+    "isIPO": false
+  },
+  {
+    "company": "BlackSky Technology",
+    "ticker": "BKSY",
     "form": "4",
     "date": "2026-04-01",
     "description": "xslF345X06/wk-form4_1775074229.xml",
@@ -1701,12 +1710,12 @@
     "isIPO": false
   },
   {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
+    "company": "UiPath",
+    "ticker": "PATH",
     "form": "4",
-    "date": "2026-01-07",
-    "description": "xslF345X05/wk-form4_1767823836.xml",
-    "accessionNumber": "0001558259-26-000002",
+    "date": "2026-04-07",
+    "description": "xslF345X06/primarydocument.xml",
+    "accessionNumber": "0002127293-26-000004",
     "isIPO": false
   },
   {
@@ -1863,15 +1872,6 @@
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2026-01-07",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-26-000004",
-    "isIPO": false
-  },
-  {
     "company": "IonQ",
     "ticker": "IONQ",
     "form": "4",
@@ -1950,6 +1950,15 @@
     "date": "2026-01-12",
     "description": "d88960d8k.htm",
     "accessionNumber": "0001193125-26-009830",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "8-K",
+    "date": "2026-04-07",
+    "description": "tm2611278d1_8k.htm",
+    "accessionNumber": "0001104659-26-040377",
     "isIPO": false
   },
   {
@@ -2178,24 +2187,6 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-01-07",
-    "description": "qbts-20260107.htm",
-    "accessionNumber": "0001907982-26-000012",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2026-01-07",
-    "description": "qbts-20260106.htm",
-    "accessionNumber": "0001907982-26-000010",
-    "isIPO": false
-  },
-  {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "4",
@@ -2394,12 +2385,12 @@
     "isIPO": false
   },
   {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-01-07",
-    "description": "xslF345X05/wk-form4_1767823462.xml",
-    "accessionNumber": "0001856369-26-000003",
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "8-K",
+    "date": "2026-04-07",
+    "description": "dna-20260403.htm",
+    "accessionNumber": "0001628280-26-024101",
     "isIPO": false
   },
   {
@@ -3030,6 +3021,15 @@
     "date": "2026-02-11",
     "description": "aur-20260211.htm",
     "accessionNumber": "0001828108-26-000014",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
+    "form": "8-K",
+    "date": "2026-04-07",
+    "description": "tlsi-20260401.htm",
+    "accessionNumber": "0001628280-26-023991",
     "isIPO": false
   },
   {

@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-07 07:25:06 UTC
+// Last updated: 2026-04-08 07:41:48 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "BlackSky Technology", form: "8-K", date: "2026-04-07", description: "bksy-20260407.htm", isIPO: false, ticker: "BKSY" },
+  { company: "UiPath", form: "4", date: "2026-04-07", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
+  { company: "Rigetti Computing", form: "8-K", date: "2026-04-07", description: "tm2611278d1_8k.htm", isIPO: false, ticker: "RGTI" },
+  { company: "Ginkgo Bioworks", form: "8-K", date: "2026-04-07", description: "dna-20260403.htm", isIPO: false, ticker: "DNA" },
+  { company: "LanzaTech", form: "8-K", date: "2026-04-07", description: "tlsi-20260401.htm", isIPO: false, ticker: "LNZA" },
   { company: "Rocket Lab", form: "DEF 14A", date: "2026-04-06", description: "rklb-20260406.htm", isIPO: false, ticker: "RKLB" },
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248597.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248508.xml", isIPO: false, ticker: "OKLO" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "IonQ", form: "4", date: "2026-03-31", description: "xslF345X06/primary_doc.xml", isIPO: false, ticker: "IONQ" },
   { company: "Archer Aviation", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_110352.xml", isIPO: false, ticker: "ACHR" },
   { company: "LanzaTech", form: "DEF 14A", date: "2026-03-31", description: "tlsi-20260330.htm", isIPO: false, ticker: "LNZA" },
-  { company: "Tempus AI", form: "8-K", date: "2026-03-31", description: "d47030d8k.htm", isIPO: false, ticker: "TEM" },
-  { company: "Rocket Lab", form: "8-K", date: "2026-03-30", description: "g085462_8k-rocket.htm", isIPO: false, ticker: "RKLB" },
-  { company: "Momentus", form: "8-K", date: "2026-03-30", description: "tm2610566d1_8k.htm", isIPO: false, ticker: "MNTS" },
-  { company: "Virgin Galactic", form: "10-K", date: "2026-03-30", description: "spce-20251231.htm", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "8-K", date: "2026-03-30", description: "spce-20260330.htm", isIPO: false, ticker: "SPCE" },
 ];

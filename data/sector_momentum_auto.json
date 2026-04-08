@@ -1,98 +1,99 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 77,
+    "momentum": 80,
     "trend": "accelerating",
     "catalysts": [
-      "General Atomics pauses drone wingman flight tests after cras",
-      "Army&#8217;s Scarlet Dragon exercise adds commercial data to",
-      "FOSSA targets Japan\u2019s defense market as larger smallsats exp"
+      "Astroscale passes key design milestone for UK military space",
+      "Army operations center is trying to solve battlefield data p",
+      "Hungary taps Northrop Grumman for first national geostationa"
     ],
     "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 84
+      "market": 100
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 54,
-    "trend": "steady",
+    "momentum": 56,
+    "trend": "accelerating",
     "catalysts": [
-      "General Atomics pauses drone wingman flight tests after cras",
-      "The Week\u2019s 10 Biggest Funding Rounds: Largest Financings Wen",
-      "India to acquire more air defense systems and drones for mod"
+      "Over-the-Air Computation Uses Radio Interference to Crunch D",
+      "Outpaced by the US, China\u2019s military places selective bets o",
+      "Closing the Air and Missile Defense Gap in the Indo-Pacific"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   },
   {
     "sector": "AI & Software",
-    "momentum": 53,
-    "trend": "steady",
+    "momentum": 55,
+    "trend": "accelerating",
     "catalysts": [
-      "Anthropic Number One AI in Ranking and Revenue &#8211; Makin",
-      "OpenAI alums have been quietly investing from a new, potenti",
-      "The one piece of data that could actually shed light on your"
+      "I can&#8217;t help rooting for tiny open source AI model mak",
+      "Anthropic Teams Up With Its Rivals to Keep AI From Hacking E",
+      "Anthropic debuts preview of powerful new AI model Mythos in"
     ],
     "fundingQ": "$7.2B",
     "components": {
       "funding": 87,
-      "news": 50,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   },
   {
-    "sector": "Ocean & Maritime",
+    "sector": "Supersonic & Hypersonic",
     "momentum": 50,
     "trend": "steady",
     "catalysts": [
-      "The Week\u2019s 10 Biggest Funding Rounds: Largest Financings Wen"
+      "The Hidden System Turning Chinese Tech Companies into Milita",
+      "AI Will Give Humanity the Moon, Mars and Supersonic Travel"
     ],
-    "fundingQ": "$10.8B",
+    "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
       "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   },
   {
-    "sector": "Supersonic & Hypersonic",
+    "sector": "Ocean & Maritime",
     "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "AI Will Give Humanity the Moon, Mars and Supersonic Travel"
+      "Active ocean & maritime ecosystem"
     ],
-    "fundingQ": "$1.2B",
+    "fundingQ": "$10.8B",
     "components": {
       "funding": 100,
       "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "AI Will Give Humanity the Moon, Mars and Supersonic Travel",
-      "SpaceX Raptor Engine Test Seems to Have an Explosion",
-      "Moog Highlights Growing Satellite Bus Capabilities with Full"
+      "Astroscale passes key design milestone for UK military space",
+      "Waymo Launches in Nashville",
+      "Artemis 2- Orion Lunar Flyby"
     ],
     "fundingQ": "$175M",
     "components": {
@@ -101,52 +102,34 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-07"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 38,
-    "trend": "rising",
-    "catalysts": [
-      "General Atomics pauses drone wingman flight tests after cras",
-      "Anthropic Number One AI in Ranking and Revenue &#8211; Makin",
-      "More Wealth, Healthcare and Housing"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 60,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 37,
+    "momentum": 42,
     "trend": "steady",
     "catalysts": [
-      "OpenAI\u2019s vision for the AI economy: public wealth funds, rob",
-      "Will private capital and disruption reshape the defense indu",
-      "China Build Focused Economy Versus India"
+      "Waymo Launches in Nashville",
+      "Pro-Iran hackers have disrupted some industrial-control syst",
+      "Hungary taps Northrop Grumman for first national geostationa"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 55,
+      "news": 75,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "BYD &#038; Tesla Show Different EV Infrastructure Approaches",
-      "FOSSA targets Japan\u2019s defense market as larger smallsats exp",
-      "Watch this video of how a job interviewer exposes a North Ko"
+      "Astroscale passes key design milestone for UK military space",
+      "Waymo Launches in Nashville",
+      "Hungary taps Northrop Grumman for first national geostationa"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -155,23 +138,60 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 32,
+    "trend": "declining",
+    "catalysts": [
+      "General Atomics pauses drone wingman flight tests after cras",
+      "Anthropic Number One AI in Ranking and Revenue &#8211; Makin"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 35,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-08"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 26,
+    "momentum": 28,
     "trend": "declining",
     "catalysts": [
-      "The one piece of data that could actually shed light on your"
+      "Firmus, the &#8216;Southgate&#8217; AI data center builder b",
+      "Intel signs on to Elon Musk&#8217;s Terafab chips project",
+      "Intel  Partners with Tesla and SpaceX on Terafab"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 30,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 28,
+    "trend": "declining",
+    "catalysts": [
+      "Cummins, Alstom, and the Long Tail of Hydrogen Mistakes",
+      "BMW Group &#038; Rimac Technology Cooperate on Innovative Hi",
+      "Artemis 2- Orion Lunar Flyby"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 40,
+      "hiring": 0,
+      "market": 92
+    },
+    "lastUpdated": "2026-04-08"
   },
   {
     "sector": "Quantum Computing",
@@ -185,9 +205,9 @@
       "funding": 0,
       "news": 10,
       "hiring": 0,
-      "market": 99
+      "market": 100
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   },
   {
     "sector": "Transportation",
@@ -203,76 +223,56 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 19,
-    "trend": "declining",
+    "momentum": 22,
+    "trend": "rising",
     "catalysts": [
-      "BYD &#038; Tesla Show Different EV Infrastructure Approaches",
-      "Anthropic Number One AI in Ranking and Revenue &#8211; Makin",
-      "Seagate Space Signs MOU with Firefly Aerospace to Collaborat"
+      "Iran-Linked Hackers Are Sabotaging US Energy and Water Infra",
+      "Pro-Iran hackers have disrupted some industrial-control syst",
+      "Iranian hackers are targeting American critical infrastructu"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 35,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   },
   {
-    "sector": "Climate & Energy",
-    "momentum": 16,
+    "sector": "Housing & Construction",
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "China&#8217;s Energy Build Drives GDP Growth While Europe Ha",
-      "Superfund Site Still On Track For Solar Power &#038; Green H",
-      "Google, AI, &#038; Carbon Emissions &#8212; A Lesson In Situ"
+      "Active housing & construction ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-08"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 5,
+    "trend": "declining",
+    "catalysts": [
+      "Active nuclear energy ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 63
+      "market": 8
     },
-    "lastUpdated": "2026-04-07"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 15,
-    "trend": "declining",
-    "catalysts": [
-      "Startup Battlefield 200 applications open: a chance for VC a",
-      "More Wealth, Healthcare and Housing"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-07"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "China&#8217;s Energy Build Drives GDP Growth While Europe Ha",
-      "Pulsar Fusion Achieves Initial Pulse Experiments and Targets"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 29
-    },
-    "lastUpdated": "2026-04-07"
+    "lastUpdated": "2026-04-08"
   }
 ]
