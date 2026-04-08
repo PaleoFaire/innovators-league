@@ -1,5 +1,85 @@
 [
   {
+    "title": "Artemis 2- Orion Lunar Flyby",
+    "link": "https://www.nextbigfuture.com/2026/04/artemis-2-orion-lunar-flyby.html",
+    "description": "The first flyby images of the Moon captured by NASA’s Artemis II astronauts during their historic test flight reveal some regions no human has seen, including a rare in-space solar eclipse. During the lunar flyby, the crew documented impact craters, ancient lava flows, and surface fractures that wil",
+    "pubDate": "Wed, 08 Apr 2026 01:22:14 +0000",
+    "category": "Science",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Aetherflux",
+    "matchedCompanies": [
+      "Aetherflux",
+      "Durin"
+    ],
+    "sectors": [
+      "space",
+      "infrastructure"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
+    "title": "Trump says he has agreed to two-week ceasefire with Iran",
+    "link": "https://www.defensenews.com/news/your-military/2026/04/07/trump-says-he-has-agreed-to-two-week-ceasefire-with-iran/",
+    "description": "Trump said he expects an agreement to be “finalized and consummated” during the two-week ceasefire.",
+    "pubDate": "Tue, 07 Apr 2026 23:35:46 +0000",
+    "category": "/ Mideast Africa",
+    "source": "Defense News",
+    "feedCategory": "defense",
+    "matchedCompany": "Durin",
+    "matchedCompanies": [
+      "Durin"
+    ],
+    "sectors": [
+      "infrastructure"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "3h ago"
+  },
+  {
+    "title": "Army operations center is trying to solve battlefield data problems in real time",
+    "link": "https://www.defenseone.com/technology/2026/04/army-operations-center-trying-solve-battlefield-data-problems-real-time/412693/",
+    "description": "A 180-day task force is testing the concept.",
+    "pubDate": "Tue, 07 Apr 2026 17:54:18 -0400",
+    "category": "Science &amp; Tech",
+    "source": "Defense One",
+    "feedCategory": "defense",
+    "matchedCompany": "PILGRIM",
+    "matchedCompanies": [
+      "PILGRIM"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
+    "title": "I can&#8217;t help rooting for tiny open source AI model maker Arcee",
+    "link": "https://techcrunch.com/2026/04/07/i-cant-help-rooting-for-tiny-open-source-ai-model-maker-arcee/",
+    "description": "Arcee is a tiny 26-person U.S. startup that built a high-performing, massive, open source LLM. And it's gaining popularity with OpenClaw users.",
+    "pubDate": "Tue, 07 Apr 2026 21:35:02 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Xanadu Quantum Technologies",
+    "matchedCompanies": [
+      "Xanadu Quantum Technologies",
+      "Tenstorrent"
+    ],
+    "sectors": [
+      "quantum",
+      "chips"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
     "title": "Iran-Linked Hackers Are Sabotaging US Energy and Water Infrastructure",
     "link": "https://www.wired.com/story/iran-linked-hackers-are-sabotaging-us-energy-and-water-infrastructure/",
     "description": "As Trump threatens Iranian infrastructure, the US government warns that Iran has carried out its own digital attacks against US critical infrastructure.",
@@ -19,7 +99,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "7h ago"
   },
   {
     "title": "Pro-Iran hackers have disrupted some industrial-control systems, US says",
@@ -44,7 +124,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "7h ago"
   },
   {
     "title": "Iranian hackers are targeting American critical infrastructure, US agencies warn",
@@ -65,7 +145,26 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "7h ago"
+  },
+  {
+    "title": "Hungary taps Northrop Grumman for first national geostationary communications satellite",
+    "link": "https://spacenews.com/hungary-taps-northrop-grumman-for-first-national-geostationary-communications-satellite/",
+    "description": "\nHungary’s defense and space tech contractor 4iG also announced deals with L3Harris and Apex for defense systems and satellite manufacturing\nThe post Hungary taps Northrop Grumman for first national geostationary communications satellite appeared first on SpaceNews.",
+    "pubDate": "Tue, 07 Apr 2026 19:48:42 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Terran Orbital",
+    "matchedCompanies": [
+      "Terran Orbital"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "contract",
+    "impact": "low",
+    "time": "7h ago"
   },
   {
     "title": "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything",
@@ -87,7 +186,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "2h ago"
+    "time": "8h ago"
   },
   {
     "title": "Firmus, the &#8216;Southgate&#8217; AI data center builder backed by Nvidia, hits $5.5B valuation",
@@ -107,7 +206,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "2h ago"
+    "time": "8h ago"
   },
   {
     "title": "Intel signs on to Elon Musk&#8217;s Terafab chips project",
@@ -132,7 +231,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2h ago"
+    "time": "9h ago"
   },
   {
     "title": "Anthropic debuts preview of powerful new AI model Mythos in new cybersecurity initiative",
@@ -153,7 +252,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "9h ago"
   },
   {
     "title": "Apple&#8217;s foldable iPhone is on track to launch in September, report says",
@@ -172,7 +271,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "Bell, M1 advance to final phase of Army’s Flight School Next competition",
@@ -193,7 +292,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "3h ago"
+    "time": "10h ago"
   },
   {
     "title": "Russian government hackers broke into thousands of home routers to steal passwords",
@@ -212,7 +311,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "10h ago"
   },
   {
     "title": "Chrome finally adds a better way to deal with too many open tabs",
@@ -231,7 +330,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "3h ago"
+    "time": "10h ago"
   },
   {
     "title": "Battery Energy Storage Key To India Emissions Reduction Goal",
@@ -250,7 +349,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "10h ago"
   },
   {
     "title": "Anthropic ups compute deal with Google and Broadcom amid skyrocketing demand",
@@ -269,7 +368,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "4h ago"
+    "time": "11h ago"
   },
   {
     "title": "Op-Ed: Chinese EV Brands Overwhelm The Manila Auto Show 2026",
@@ -288,7 +387,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "5h ago"
+    "time": "12h ago"
   },
   {
     "title": "Trump Breathes New Life Into Old Green Hydrogen Dreams",
@@ -308,7 +407,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "12h ago"
   },
   {
     "title": "Desalination plants in the Middle East are increasingly vulnerable",
@@ -327,7 +426,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "6h ago"
+    "time": "12h ago"
   },
   {
     "title": "Intel  Partners with Tesla and SpaceX on Terafab",
@@ -353,7 +452,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "6h ago"
+    "time": "13h ago"
   },
   {
     "title": "A teenage Minecraft YouTuber raised $1,234,567 for a meme prediction market called Giggles. It broke me.",
@@ -372,7 +471,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "6h ago"
+    "time": "13h ago"
   },
   {
     "title": "Decentralized Training Can Help Solve AI’s Energy Woes",
@@ -394,7 +493,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "13h ago"
   },
   {
     "title": "Trump administration plans to cut cybersecurity agency&#8217;s budget by $700 million",
@@ -415,7 +514,7 @@
     ],
     "type": "news",
     "impact": "medium",
-    "time": "7h ago"
+    "time": "13h ago"
   },
   {
     "title": "Why a former AirPods engineer is now building heat pumps",
@@ -434,7 +533,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "14h ago"
   },
   {
     "title": "Over-the-Air Computation Uses Radio Interference to Crunch Data",
@@ -453,7 +552,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "14h ago"
   },
   {
     "title": "Waymo opens robotaxi service in Nashville, partners with Lyft",
@@ -474,26 +573,52 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "7h ago"
+    "time": "14h ago"
   },
   {
-    "title": "Hermeus raises $350M to build unmanned hypersonic fighters",
-    "link": "https://techcrunch.com/2026/04/07/hermeus-raises-350m-to-build-unmanned-hypersonic-fighters/",
-    "description": "The defense aviation startup is coming off two successful flight demonstrations, and with the next one, it's aiming to go supersonic.",
-    "pubDate": "Tue, 07 Apr 2026 12:30:00 +0000",
-    "category": "Fundraising",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Hermeus",
+    "title": "NASA’s new moon base project requires operational technology systems in space, but they are vulnerable.",
+    "link": "https://spacenews.com/nasas-new-moon-base-project-requires-operational-technology-systems-in-space-but-they-are-vulnerable/",
+    "description": "\nNewly anointed NASA Administrator Jared Isaacman made a $20 billion announcement on March 24, 2026. To the delight of space enthusiasts everywhere, Isaacman said NASA was cancelling its project to deploy a space station in lunar orbit and would reorient to building a $20 billion base on the surface",
+    "pubDate": "Tue, 07 Apr 2026 13:00:00 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Vast",
     "matchedCompanies": [
-      "Hermeus"
+      "Vast",
+      "Axiom Space"
     ],
     "sectors": [
       "space"
     ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "8h ago"
+    "type": "ipo",
+    "impact": "high",
+    "time": "14h ago"
+  },
+  {
+    "title": "Earth observation operators push to deliver satellite images within minutes",
+    "link": "https://spacenews.com/earth-observation-operators-push-to-deliver-satellite-images-within-minutes/",
+    "description": "\nVantor employees were gathered for a sales kickoff in January, when an executive announced that a WorldView Legion satellite passing overhead would snap a photo of the California venue. Later, a buzzer sounded to alert the audience that the 30-centimeter-resolution image was available on the Vantor",
+    "pubDate": "Tue, 07 Apr 2026 11:00:00 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Capella Space",
+    "matchedCompanies": [
+      "Capella Space",
+      "Muon Space",
+      "Planet Labs",
+      "ICEYE",
+      "Pixxel",
+      "Satellogic",
+      "Dragonfly Aerospace"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "16h ago"
   },
   {
     "title": "Outpaced by the US, China’s military places selective bets on artificial intelligence",
@@ -512,7 +637,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "17h ago"
   },
   {
     "title": "The Hidden System Turning Chinese Tech Companies into Military Suppliers",
@@ -531,7 +656,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "12h ago"
+    "time": "19h ago"
   },
   {
     "title": "Closing the Air and Missile Defense Gap in the Indo-Pacific",
@@ -550,7 +675,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "19h ago"
   },
   {
     "title": "Honda Offering Up To $8,000 Off The Prologue EV!",
@@ -569,7 +694,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "17h ago"
+    "time": "23h ago"
   },
   {
     "title": "BYD &#038; Tesla Show Different EV Infrastructure Approaches",
@@ -590,7 +715,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "18h ago"
+    "time": "1d ago"
   },
   {
     "title": "AI Will Give Humanity the Moon, Mars and Supersonic Travel",
@@ -611,7 +736,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "General Atomics pauses drone wingman flight tests after crash",
@@ -630,7 +755,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Anthropic Number One AI in Ranking and Revenue &#8211; Making $30 Billion Per Year",
@@ -649,7 +774,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "20h ago"
+    "time": "1d ago"
   },
   {
     "title": "SpaceX Raptor Engine Test Seems to Have an Explosion",
@@ -668,7 +793,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "A Single Strike Won’t Shut Off the Gulf’s Desalination System",
@@ -690,6 +815,25 @@
     "time": "1d ago"
   },
   {
+    "title": "Moog Highlights Growing Satellite Bus Capabilities with Full‑Scale METEOR Reveal at Space Symposium",
+    "link": "https://spacenews.com/moog-highlights-growing-satellite-bus-capabilities-with-full-scale-meteor-reveal-at-space-symposium/",
+    "description": "\nEast Aurora, NY &#8212; Moog Inc. (NYSE: MOG.A and MOG.B), a worldwide designer, manufacturer and systems integrator of high-performance precision motion and fluid controls and control systems will highlight its [&#8230;]\nThe post Moog Highlights Growing Satellite Bus Capabilities with Full‑Scale M",
+    "pubDate": "Mon, 06 Apr 2026 19:19:49 +0000",
+    "category": "Press Release",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Atomic Industries",
+    "matchedCompanies": [
+      "Atomic Industries"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
     "title": "Army&#8217;s Scarlet Dragon exercise adds commercial data to battlefield data flows",
     "link": "https://breakingdefense.com/2026/04/armys-scarlet-dragon-exercise-adds-commercial-data-to-battlefield-data-flows/",
     "description": "“We&#8217;ve had to iterate and figure out what worked, what didn&#8217;t work, different pathways, different APIs, different cross domain solutions, to find out okay, this is the best one, this is more reliable one, okay, let&#8217;s turn the spigot on full blast to see what we get,&#8221; Chief Wa",
@@ -705,6 +849,25 @@
       "defense"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "FOSSA targets Japan’s defense market as larger smallsats expand capabilities",
+    "link": "https://spacenews.com/fossa-targets-japans-defense-market-as-larger-smallsats-expand-capabilities/",
+    "description": "\nSpanish startup FOSSA Systems is pushing into Japan’s defense market after securing a local partner to expand its reach, building on a shift beyond tiny picosatellites used to connect low-power monitoring devices toward more capable spacecraft for broader government applications.\nThe post FOSSA tar",
+    "pubDate": "Mon, 06 Apr 2026 18:57:46 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Palantir",
+    "matchedCompanies": [
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
     "impact": "low",
     "time": "1d ago"
   },
@@ -829,6 +992,50 @@
     "time": "1d ago"
   },
   {
+    "title": "The moon base has a hardware plan. It needs a software strategy, too.",
+    "link": "https://spacenews.com/the-moon-base-has-a-hardware-plan-it-needs-a-software-strategy-too/",
+    "description": "\nEarly in my career at SpaceX, I was the only person dedicated to training the mission control team for Dragon. For three years, I built the training for the operations team. The documentation came second, always the thing I&#8217;d get to later, always the thing that felt like overhead against the ",
+    "pubDate": "Mon, 06 Apr 2026 13:00:00 +0000",
+    "category": "AI",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "Seagate Space Signs MOU with Firefly Aerospace to Collaborate on Offshore Launch Infrastructure for Alpha",
+    "link": "https://spacenews.com/seagate-space-signs-mou-with-firefly-aerospace-to-collaborate-on-offshore-launch-infrastructure-for-alpha/",
+    "description": "\nSt. Petersburg, FL — April 6, 2026&#160;— Seagate Space Corporation announced today a Memorandum of Understanding (MOU) with Firefly Aerospace to collaborate on the development of an offshore launch platform [&#8230;]\nThe post Seagate Space Signs MOU with Firefly Aerospace to Collaborate on Offshor",
+    "pubDate": "Mon, 06 Apr 2026 12:15:00 +0000",
+    "category": "Press Release",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Firefly Aerospace",
+    "matchedCompanies": [
+      "Firefly Aerospace",
+      "Hadrian",
+      "AnySignal",
+      "Elodin",
+      "Orbital Composites"
+    ],
+    "sectors": [
+      "space",
+      "robotics",
+      "infrastructure"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
     "title": "The Age of Unlearning: How Democracies Lost Their Grip on Strategic Time",
     "link": "https://warontherocks.com/2026/04/the-age-of-unlearning-how-democracies-lost-their-grip-on-strategic-time/",
     "description": "The past several years have produced a quiet but consequential shift in how the United States understands, and fails to understand, time. American strategy has gradually weakened through bureaucratic cuts, institutional downgrades, and political incentives that privilege immediacy over endurance and",
@@ -914,6 +1121,25 @@
     "time": "1d ago"
   },
   {
+    "title": "NASA stops work on SLS Mobile Launcher 2",
+    "link": "https://spacenews.com/nasa-stops-work-on-sls-mobile-launcher-2/",
+    "description": "\nNASA has stopped work on a second mobile launch platform intended for an upgraded version of the Space Launch System the agency no longer plans to develop.\nThe post NASA stops work on SLS Mobile Launcher 2 appeared first on SpaceNews.",
+    "pubDate": "Sun, 05 Apr 2026 20:29:48 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Astro Mechanica",
+    "matchedCompanies": [
+      "Astro Mechanica"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
     "title": "Proton EVs Sell Well In Malaysia, Where Fuel Is Subsidized &#038; Cheap",
     "link": "https://cleantechnica.com/2026/04/05/proton-evs-sell-well-in-malaysia-where-fuel-is-subsidized-cheap/",
     "description": "Malaysian national carmaker Proton achieved its highest quarterly sales volume since 2004 by delivering 49,140 units in the first three months of the year. This meant 40.1 percent year-on-year growth, a feat made more impressive by the fact that the broader Malaysian automotive market actually contr",
@@ -933,51 +1159,6 @@
       "climate"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "More Wealth, Healthcare and Housing",
-    "link": "https://www.nextbigfuture.com/2026/04/more-wealth-healthcare-and-housing.html",
-    "description": "Dr. Mike makes the good case that five things can be done to boost standard of living everywhere. The standard of living is how much real goods, services, housing, energy, healthcare, and comfort the average person can actually afford. It is the #1 thing societies care about (even if they vote on it",
-    "pubDate": "Sun, 05 Apr 2026 11:37:00 +0000",
-    "category": "Energy",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "Andromeda Surgical",
-    "matchedCompanies": [
-      "Andromeda Surgical"
-    ],
-    "sectors": [
-      "biotech"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
-  },
-  {
-    "title": "Pulsar Fusion Achieves Initial Pulse Experiments and Targets Orbital Test in 2027 and Production Fusion Rocket in Early 2030s",
-    "link": "https://www.nextbigfuture.com/2026/04/pulsar-fusion.html",
-    "description": "Pulsar fusion is working to make a fusion propulsion system with about 10000-15000 ISP. This is about 25 to 40 times the ISP (exhaust speed and fuel efficiency) compared to chemical systems. There was a live demonstration during a technical session at Amazon’s MARS Conference in Ojai, California, pr",
-    "pubDate": "Sun, 05 Apr 2026 10:28:55 +0000",
-    "category": "Energy",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "Mach Industries",
-    "matchedCompanies": [
-      "Mach Industries",
-      "Claros",
-      "Firehawk Aerospace",
-      "Durin",
-      "Ursa Major Technologies"
-    ],
-    "sectors": [
-      "defense",
-      "climate",
-      "infrastructure",
-      "space"
-    ],
-    "type": "milestone",
     "impact": "low",
     "time": "2d ago"
   },
@@ -1006,6 +1187,44 @@
     "type": "news",
     "impact": "low",
     "time": "2d ago"
+  },
+  {
+    "title": "NASA finalizes science plans for Artemis 2 lunar flyby",
+    "link": "https://spacenews.com/nasa-finalizes-science-plans-for-artemis-2-lunar-flyby/",
+    "description": "\nAs Artemis 2 approaches the moon, a NASA science team is finalizing plans for the observations they want the astronauts to perform during their flyby.\nThe post NASA finalizes science plans for Artemis 2 lunar flyby appeared first on SpaceNews.",
+    "pubDate": "Sun, 05 Apr 2026 03:29:58 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Durin",
+    "matchedCompanies": [
+      "Durin"
+    ],
+    "sectors": [
+      "infrastructure"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "Atlas 5 launches Amazon Leo satellites",
+    "link": "https://spacenews.com/atlas-5-launches-amazon-leo-satellites/",
+    "description": "\nAn Atlas 5 launched the latest set of satellites for Amazon’s broadband constellation April 4 as the company seeks to accelerate deployment of its spacecraft.\nThe post Atlas 5 launches Amazon Leo satellites appeared first on SpaceNews.",
+    "pubDate": "Sat, 04 Apr 2026 20:27:36 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "AST SpaceMobile",
+    "matchedCompanies": [
+      "AST SpaceMobile"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "3d ago"
   },
   {
     "title": "Superfund Site Still On Track For Solar Power &#038; Green Hydrogen",
@@ -1088,7 +1307,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Meta Pauses Work With Mercor After Data Breach Puts AI Industry Secrets at Risk",
@@ -1110,7 +1329,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "OpenClaw gives users yet another reason to be freaked out about security",
@@ -1154,25 +1373,6 @@
     "time": "4d ago"
   },
   {
-    "title": "Edward ‘Big Balls’ Coristine Is Helping Out on Viral Fraud Videos Now",
-    "link": "https://www.wired.com/story/edward-coristine-nick-shirley-fraud-videos/",
-    "description": "The DOGE engineer appeared on influencer Nick Shirley's podcast this week to talk corruption and government work—and how they collaborated on Shirley's recent ‘investigation.’",
-    "pubDate": "Fri, 03 Apr 2026 19:36:59 +0000",
-    "category": "Politics",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Palantir",
-    "matchedCompanies": [
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
     "title": "The Week’s 10 Biggest Funding Rounds: Largest Financings Went To Defense, Wearables, Energy And Security",
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-wearables-energy-saronic/",
     "description": "Startup investors kept up the busy dealmaking pace this week with a number of big rounds. Top among them was a $1.75 billion Series D for Austin-based Saronic, developer of autonomous vessels.",
@@ -1195,25 +1395,6 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "4d ago"
-  },
-  {
-    "title": "Google, AI, &#038; Carbon Emissions &#8212; A Lesson In Situational Ethics",
-    "link": "https://cleantechnica.com/2026/04/03/google-ai-carbon-emissions-a-lesson-in-situational-ethics/",
-    "description": "Google styles itself as a leader in the use of renewable energy, but it is backsliding on that commitment because of AI.\nThe post Google, AI, &#038; Carbon Emissions &#8212; A Lesson In Situational Ethics appeared first on CleanTechnica.",
-    "pubDate": "Fri, 03 Apr 2026 17:42:21 +0000",
-    "category": "Clean Power",
-    "source": "CleanTechnica",
-    "feedCategory": "energy",
-    "matchedCompany": "Saule Technologies",
-    "matchedCompanies": [
-      "Saule Technologies"
-    ],
-    "sectors": [
-      "climate"
-    ],
-    "type": "news",
-    "impact": "low",
     "time": "4d ago"
   },
   {
@@ -1293,6 +1474,26 @@
     "time": "4d ago"
   },
   {
+    "title": "White House again proposes steep NASA budget cuts",
+    "link": "https://spacenews.com/white-house-again-proposes-steep-nasa-budget-cuts/",
+    "description": "\nFor the second consecutive year, the White House is proposing a major budget cut for NASA that would significantly impact the agency’s science programs and the International Space Station.\nThe post White House again proposes steep NASA budget cuts appeared first on SpaceNews.",
+    "pubDate": "Fri, 03 Apr 2026 15:15:01 +0000",
+    "category": "Civil",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Vast",
+    "matchedCompanies": [
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "4d ago"
+  },
+  {
     "title": "ENIAC’s Architects Wove Stories Through Computing",
     "link": "https://spectrum.ieee.org/eniac-80th-anniversary-weaving",
     "description": "This year marks the 80th anniversary of ENIAC, the first general-purpose digital computer. The computer was built during World War II to speed up ballistics calculations, but its contributions to computing extend well beyond military applications. Two of ENIAC’s key architects—John W. Mauchly, its c",
@@ -1310,6 +1511,26 @@
       "defense"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "4d ago"
+  },
+  {
+    "title": "SpaceX and Amazon spar over satellite deployments",
+    "link": "https://spacenews.com/spacex-and-amazon-spar-over-satellite-deployments/",
+    "description": "\nAmazon says it will revise deployment plans for its broadband satellite constellation while denying claims from SpaceX that its current approach represents a space safety risk.\nThe post SpaceX and Amazon spar over satellite deployments appeared first on SpaceNews.",
+    "pubDate": "Fri, 03 Apr 2026 11:41:46 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "AST SpaceMobile"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
     "impact": "low",
     "time": "4d ago"
   },
@@ -1391,26 +1612,6 @@
     "type": "news",
     "impact": "low",
     "time": "5d ago"
-  },
-  {
-    "title": "Iranian strikes target the infrastructure behind US airpower",
-    "link": "https://www.defensenews.com/global/mideast-africa/2026/04/01/iranian-strikes-target-the-infrastructure-behind-us-airpower/",
-    "description": "Iran has struck radar systems, satellite communications and mission-critical aircraft at US bases across Bahrain, Qatar, Kuwait, Saudi Arabia and the UAE.",
-    "pubDate": "Wed, 01 Apr 2026 18:51:05 +0000",
-    "category": "/ Mideast Africa",
-    "source": "Defense News",
-    "feedCategory": "defense",
-    "matchedCompany": "Kepler Communications",
-    "matchedCompanies": [
-      "Kepler Communications",
-      "Celero Communications"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "6d ago"
   },
   {
     "title": "From Theory to Reality: Evaluating the U.S.-Ukrainian Minerals Deal",
