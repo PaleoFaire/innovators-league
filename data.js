@@ -24336,23 +24336,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-08 17:13
+// Last updated: 2026-04-08 20:54
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Anthropic", headline: "Anthropic's New Product Aims to Handle the Hard Part of Building AI Agents", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Vast", headline: "US forces will be 'hanging around' Middle East after Iran ceasefire, Hegseth says", source: "Defense News", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "milestone", company: "Firestorm Labs", headline: "BAE Systems trials low-cost counter drone solution for Eurofighter Typhoon", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Daylight Computer", headline: "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Databricks", headline: "Databricks co-founder wins prestigious ACM award, says 'AGI is here already'", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Starcloud", headline: "April 30: Opportunities for On-Orbit Computing", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Karman Industries", headline: "As 2-week ceasefire takes hold, Pentagon touts 'decisive military victory'", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "contract", company: "Endurance Energy", headline: "AFCENT awards Kraus Hamdani $270M for solar-powered, long-endurance drones", source: "Breaking Defense", time: "3h ago", impact: "medium", unread: false },
-  { id: 10, type: "ipo", company: "Palantir", headline: "Tracking the next SDA challenge", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "LeoLabs", headline: "LeoLabs debuts space monitoring tool for military users", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Vital Lyfe", headline: "The Download: water threats in Iran and AI's impact on what entrepreneurs make", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Avalanche Energy", headline: "How nuclear batteries could speed the race to fusion power", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Matic Robotics", headline: "Thousands of consumer routers hacked by Russia's military", source: "Ars Technica", time: "6h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Matic Robotics", headline: "Dyson Spot+Scrub Ai Robot Vacuum Review (2026)", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Aurora Innovation", headline: "A self-driving car in Austin killed a mother duck, sparking neighborhood outrage", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Anthropic", headline: "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 3, type: "hire", company: "Palantir", headline: "As US claims victory, Iran emerges bruised but with leverage over Hormuz", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Scale AI", headline: "Meta debuts the Muse Spark model in a 'ground-up overhaul' of its AI", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Cape", headline: "Hack-for-hire group caught targeting Android devices and iCloud backups", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Palantir", headline: "'We Were Not Ready for This': Lebanon's Emergency System Is Hanging by a Thread", source: "Wired", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Waymo", headline: "Volkswagen begins testing its self-driving microbuses in Los Angeles ahead of launch with Uber", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic's New Product Aims to Handle the Hard Part of Building AI Agents", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Vast", headline: "US forces will be 'hanging around' Middle East after Iran ceasefire, Hegseth says", source: "Defense News", time: "5h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Firestorm Labs", headline: "BAE Systems trials low-cost counter drone solution for Eurofighter Typhoon", source: "Breaking Defense", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Daylight Computer", headline: "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 13, type: "contract", company: "Databricks", headline: "Databricks co-founder wins prestigious ACM award, says 'AGI is here already'", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Karman Industries", headline: "As 2-week ceasefire takes hold, Pentagon touts 'decisive military victory'", source: "Breaking Defense", time: "6h ago", impact: "low", unread: false },
+  { id: 15, type: "contract", company: "Endurance Energy", headline: "AFCENT awards Kraus Hamdani $270M for solar-powered, long-endurance drones", source: "Breaking Defense", time: "6h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
