@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 9.1,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -4.39,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 22.69,
+      "avg_change": 14.06,
       "count": 7
     },
     "autonomous": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 5.97,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 5.57,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -0.86,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.89,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 23.57,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 19.63,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 6.77,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.71,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 12.48,
+      "avg_change": 7.1,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -0.53,
+      "avg_change": -3.93,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.17,
+      "avg_change": 10.32,
       "count": 3
     }
   },
@@ -61,44 +61,34 @@
     [
       "LNZA",
       "LanzaTech",
-      65.82
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      39.84
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      39.02
+      62.65
     ],
     [
       "PL",
       "Planet Labs",
-      26.1
+      28.91
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      25.7
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      24.63
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      25.4
+      14.61
     ]
   ],
   "topLosers": [
     [
-      "SLDP",
-      "Solid Power",
-      0.71
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      0.07
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      -2.43
+      "QS",
+      "QuantumScape",
+      -2.59
     ],
     [
       "9348.T",
@@ -106,10 +96,20 @@
       -3.39
     ],
     [
+      "PLTR",
+      "Palantir",
+      -4.39
+    ],
+    [
+      "TSLA",
+      "Tesla",
+      -8.06
+    ],
+    [
       "SMR",
       "NuScale Power",
-      -10.63
+      -9.96
     ]
   ],
-  "lastUpdated": "2026-04-08 13:27:04"
+  "lastUpdated": "2026-04-08 19:22:22"
 }
