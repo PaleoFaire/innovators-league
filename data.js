@@ -24336,23 +24336,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-08 09:12
+// Last updated: 2026-04-08 13:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Atomic Industries", headline: "How This Precision Weapon Reengineered Modern War", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Endurosat", headline: "Inspection cubesat demo planned as first step toward orbital defense mothership", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Astroscale", headline: "Astroscale passes key design milestone for UK military space-tracking cubesats", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Electric Hydrogen", headline: "Cummins, Alstom, and the Long Tail of Hydrogen Mistakes", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Ample", headline: "BMW Group &#038; Rimac Technology Cooperate on Innovative High-Voltage Battery for the BMW i7", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Aetherflux", headline: "Artemis 2- Orion Lunar Flyby", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Durin", headline: "Trump says he has agreed to two-week ceasefire with Iran", source: "Defense News", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "PILGRIM", headline: "Army operations center is trying to solve battlefield data problems in real time", source: "Defense One", time: "11h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Xanadu Quantum Technologies", headline: "I can't help rooting for tiny open source AI model maker Arcee", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Palantir", headline: "Iran-Linked Hackers Are Sabotaging US Energy and Water Infrastructure", source: "Wired", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Karman Industries", headline: "Pro-Iran hackers have disrupted some industrial-control systems, US says", source: "Defense One", time: "13h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Galvanick", headline: "Iranian hackers are targeting American critical infrastructure, US agencies warn", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Terran Orbital", headline: "Hungary taps Northrop Grumman for first national geostationary communications satellite", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Galvanick", headline: "Anthropic Teams Up With Its Rivals to Keep AI From Hacking Everything", source: "Wired", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "LeoLabs", headline: "LeoLabs debuts space monitoring tool for military users", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Vital Lyfe", headline: "The Download: water threats in Iran and AI's impact on what entrepreneurs make", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Avalanche Energy", headline: "How nuclear batteries could speed the race to fusion power", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Matic Robotics", headline: "Thousands of consumer routers hacked by Russia's military", source: "Ars Technica", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Matic Robotics", headline: "Dyson Spot+Scrub Ai Robot Vacuum Review (2026)", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Vast", headline: "Industry navigates NASA's start-and-stop approach to commercial space stations", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "contract", company: "Capella Space", headline: "Capella Space wins $49 million contract for military communications satellite demo", source: "SpaceNews", time: "3h ago", impact: "medium", unread: false },
+  { id: 8, type: "news", company: "Hubble Network", headline: "Fender ELIE 6 Bluetooth Speaker Review: Big Sound, App on the Way", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Cape", headline: "Space security moves to forefront as threats to satellites spread", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "contract", company: "Atomic Industries", headline: "How This Precision Weapon Reengineered Modern War", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Endurosat", headline: "Inspection cubesat demo planned as first step toward orbital defense mothership", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "Astroscale", headline: "Astroscale passes key design milestone for UK military space-tracking cubesats", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Electric Hydrogen", headline: "Cummins, Alstom, and the Long Tail of Hydrogen Mistakes", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Ample", headline: "BMW Group &#038; Rimac Technology Cooperate on Innovative High-Voltage Battery for the BMW i7", source: "CleanTechnica", time: "9h ago", impact: "medium", unread: false },
+  { id: 15, type: "ipo", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
