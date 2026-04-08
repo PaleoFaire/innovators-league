@@ -11,13 +11,13 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 22.27,
+      "avg_change": 22.69,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 6.12,
+      "avg_change": 6.07,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.07,
+      "avg_change": 11.7,
       "count": 3
     },
     "transportation": {
@@ -103,7 +103,7 @@
     [
       "9348.T",
       "ispace",
-      -6.36
+      -3.39
     ],
     [
       "SMR",
@@ -111,5 +111,5 @@
       -10.63
     ]
   ],
-  "lastUpdated": "2026-04-08 02:45:25"
+  "lastUpdated": "2026-04-08 07:27:25"
 }
