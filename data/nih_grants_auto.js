@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-04-07 08:03:44 UTC
+// Last updated: 2026-04-08 08:05:03 UTC
 // Total grants: 623 | Known companies: 20 | SBIR: 17
-// Total funding tracked: $382,356,111
+// Total funding tracked: $380,684,839
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -404,19 +404,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Project Summary Historically, women's health has been significantly under-researched and underfunded, contributing to a profound health gap that equates to 75 million years of life lost globally. Nano",
     terms: ["Address", "Affect", "Age", "Automobile Driving", "Biodistribution", "Biological", "Biology", "Bypass"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Designing HIV-1 envelope immunogens to maximize neutralization breadth through use of multiple founder envelope antigens",
-    organization: "HENRY M. JACKSON FDN FOR THE ADV MIL/MED",
-    orgState: "MD",
-    piName: "SANDHYA  VASAN",
-    fiscalYear: 2025,
-    awardAmount: 1759382,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "Project Summary/Abstract An HIV-1 (HIV) vaccine capable of eliciting broad and potent neutralizing antibody (Ab) response to HIV envelope (Env) remains elusive. HIV has a high mutation rate, Env is hi",
-    terms: ["Address", "Adjuvant", "Antibodies", "Antibody Response", "Antibody titer measurement", "Antigens", "B-Cell Activation", "B-Cell Development"],
     isKnownCompany: false,
   },
   {
@@ -2500,19 +2487,6 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
-    title: "Molecular imaging of novel PARP inhibitor nanomedicine delivery",
-    organization: "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
-    orgState: "CA",
-    piName: "Rahul  Aggarwal",
-    fiscalYear: 2025,
-    awardAmount: 621383,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "PROJECT SUMMARY The goal of this proposal is to develop novel PARP inhibitor nanomedicine and a companion PET biomarker for treatment of prostate cancer. Despite recent advances, metastatic castration",
-    terms: ["Address", "Animal Model", "Biodistribution", "Biological Markers", "CT26", "Cancer Model", "Cancer Patient", "Cell Line"],
-    isKnownCompany: false,
-  },
-  {
     title: "Tumor targeted drug delivery nanoplatform to overcome therapy resistance glioblastoma",
     organization: "MAYO CLINIC  JACKSONVILLE",
     orgState: "FL",
@@ -3901,6 +3875,32 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Limb girdle muscular dystrophy 2B (LGMD2B) is a late-onset progressive muscular dystrophy resulting from mutations in the dysferlin gene. Dysferlin is a membrane-associated protein, highly expressed i",
     terms: ["3-Dimensional", "Adipose tissue", "Age", "Animal Model", "Beds", "Biochemical", "Biopsy", "Calcium"],
+    isKnownCompany: false,
+  },
+  {
+    title: "RarecyteFinder: A Bench-to-Bits Toolkit for Label-Free, Whole-Spectrum Analysis of Rare Disseminated Tumor Cells in Liqu",
+    organization: "INSTITUTE FOR SYSTEMS BIOLOGY",
+    orgState: "WA",
+    piName: "Guangrong  Qin",
+    fiscalYear: 2026,
+    awardAmount: 479389,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "Project Summary/Abstract Disseminated tumor cells (DTCs), encompassing circulating tumor cells (CTCs) in blood and other body fluids, and isolated tumor cells (ITCs) in peritumoral tissues and lymph n",
+    terms: ["Address", "Advanced Development", "Algorithms", "Attention", "Benchmarking", "Bioinformatics", "Biopsy", "Biopsy Specimen"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Elucidating the molecular signaling of Cadmium Carcinogenesis",
+    organization: "TEXAS A&M UNIVERSITY HEALTH SCIENCE CTR",
+    orgState: "TX",
+    piName: "Chendil  Damodaran",
+    fiscalYear: 2026,
+    awardAmount: 478770,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "Project Summary/Abstract Cadmium (Cd) is a known human carcinogen and risk factor for prostate cancer (CaP). The human prostate is composed of three anatomic zones, namely the peripheral zone (PZ), tr",
+    terms: ["Anatomy", "Apoptotic", "Benign Prostatic Hypertrophy", "Binding", "Blood", "CRISPR/Cas technology", "Cadmium", "Cancer Patient"],
     isKnownCompany: false,
   },
 ];

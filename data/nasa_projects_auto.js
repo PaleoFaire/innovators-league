@@ -1,6 +1,7 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-07 08:05:09 UTC
+// Last updated: 2026-04-08 08:06:28 UTC
 const NASA_PROJECTS = [
+  { id: 158613, title: "NASA MarsXR Challenge", status: "Completed", center: "Johnson Space Center", techArea: "Simulation-Based Training and Decision Support Systems", lastUpdated: "04/07/26" },
   { id: 184105, title: "Filtration Bubble Point Test Stand Procurement", status: "Completed", center: "Marshall Space Flight Center", techArea: "Propulsion Systems", lastUpdated: "04/07/26" },
   { id: 157851, title: "Emergency Breathing Apparatus", status: "Active", center: "IRPI, LLC", techArea: "Fire Detection, Suppression, and Recovery", lastUpdated: "04/06/26" },
   { id: 157850, title: "Partial-g Fire Detection", status: "Active", center: "Glenn Research Center", techArea: "Fire Detection, Suppression, and Recovery", lastUpdated: "04/06/26" },
@@ -30,5 +31,4 @@ const NASA_PROJECTS = [
   { id: 183890, title: "Autonomous & Robotic Systems (Includes Autonomous Medical Operations)", status: "Completed", center: "", techArea: "", lastUpdated: "03/23/26" },
   { id: 184665, title: "Advanced Thermal Control for Exploration", status: "Active", center: "Johnson Space Center", techArea: "Heat Rejection and Storage", lastUpdated: "03/23/26" },
   { id: 184672, title: "Solid Oxide Fuel Cell Task", status: "Active", center: "Glenn Research Center", techArea: "Solids", lastUpdated: "03/23/26" },
-  { id: 184660, title: "VSAT Government Reference Design", status: "Completed", center: "Langley Research Center", techArea: "Distribution and Transmission", lastUpdated: "03/23/26" },
 ];

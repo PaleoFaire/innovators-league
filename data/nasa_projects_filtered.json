@@ -1,5 +1,21 @@
 [
   {
+    "id": 158613,
+    "title": "NASA MarsXR Challenge",
+    "description": "This challenge is seeking developers to create a new Virtual Reality (XR) research, development, and testing environment to help prepare for the experiences and situations that will be encountered on Mars. Participants will use the NASA XOSS MarsXR Virtual Environment to build out new assets and scenarios within the environment, using Epic Games' UnReal Engine. Participants can submit across 5 categories encompassing early exploration activities on Mars.",
+    "status": "Completed",
+    "startDate": "Dec 2021",
+    "endDate": "Dec 2023",
+    "lastUpdated": "04/07/26",
+    "center": "Johnson Space Center",
+    "technologyArea": "Simulation-Based Training and Decision Support Systems",
+    "partners": [
+      "Johnson Space Center",
+      "HeroX"
+    ],
+    "website": ""
+  },
+  {
     "id": 184105,
     "title": "Filtration Bubble Point Test Stand Procurement",
     "description": "<p><strong>Project Objective</strong></p><p>This custom designed bubble point test stand supports two major objectives: 1) Gives NASA Marshall Space Flight Center (MSFC) the ability to perform its own bubble point testing which is the current state-of-the-art for filter testing, and 2) Lays the foundation with which NASA\u2019s newly developed filtration and contamination test methods can be compared.</p><p><strong>Project Description</strong></p><p>For more than 50 years, NASA had not maintained a s",
@@ -1268,21 +1284,6 @@
     "partners": [
       "Photodigm, Inc.",
       "Langley Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184352,
-    "title": "Digitally and Swarm Robotics Enabled In-space Welding Monitoring and Characterization",
-    "description": "<p><strong>Project Objective</strong>\u00a0\u00a0</p><p>The work by the University of Texas at El Paso (UTEP) and Marshall Space Flight Center (MSFC) seeks to develop In-space joining for manufacturing structures and components in microgravity via robotic autonomous and semi-autonomous methods.\u00a0</p><p>\u00a0</p><p><strong>Project Description</strong>\u00a0</p><p>In-space joining for manufacturing structures and components via laser beam welding and other melt-fusion and even solid-state processes will be greatly en",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Jan 2026",
-    "lastUpdated": "03/15/26",
-    "center": "Marshall Space Flight Center",
-    "technologyArea": "Materials, Structures, Mechanical Systems, and Manufacturing",
-    "partners": [
-      "Marshall Space Flight Center"
     ],
     "website": ""
   }
