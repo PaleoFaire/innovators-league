@@ -24336,23 +24336,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-08 13:49
+// Last updated: 2026-04-08 17:13
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "LeoLabs", headline: "LeoLabs debuts space monitoring tool for military users", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Vital Lyfe", headline: "The Download: water threats in Iran and AI's impact on what entrepreneurs make", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Avalanche Energy", headline: "How nuclear batteries could speed the race to fusion power", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Matic Robotics", headline: "Thousands of consumer routers hacked by Russia's military", source: "Ars Technica", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Matic Robotics", headline: "Dyson Spot+Scrub Ai Robot Vacuum Review (2026)", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Vast", headline: "Industry navigates NASA's start-and-stop approach to commercial space stations", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Capella Space", headline: "Capella Space wins $49 million contract for military communications satellite demo", source: "SpaceNews", time: "3h ago", impact: "medium", unread: false },
-  { id: 8, type: "news", company: "Hubble Network", headline: "Fender ELIE 6 Bluetooth Speaker Review: Big Sound, App on the Way", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Cape", headline: "Space security moves to forefront as threats to satellites spread", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "contract", company: "Atomic Industries", headline: "How This Precision Weapon Reengineered Modern War", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Endurosat", headline: "Inspection cubesat demo planned as first step toward orbital defense mothership", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Astroscale", headline: "Astroscale passes key design milestone for UK military space-tracking cubesats", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Electric Hydrogen", headline: "Cummins, Alstom, and the Long Tail of Hydrogen Mistakes", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Ample", headline: "BMW Group &#038; Rimac Technology Cooperate on Innovative High-Voltage Battery for the BMW i7", source: "CleanTechnica", time: "9h ago", impact: "medium", unread: false },
-  { id: 15, type: "ipo", company: "Waymo", headline: "Waymo Launches in Nashville", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Anthropic", headline: "Anthropic's New Product Aims to Handle the Hard Part of Building AI Agents", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Vast", headline: "US forces will be 'hanging around' Middle East after Iran ceasefire, Hegseth says", source: "Defense News", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "milestone", company: "Firestorm Labs", headline: "BAE Systems trials low-cost counter drone solution for Eurofighter Typhoon", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Daylight Computer", headline: "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Databricks", headline: "Databricks co-founder wins prestigious ACM award, says 'AGI is here already'", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "funding", company: "Starcloud", headline: "April 30: Opportunities for On-Orbit Computing", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Karman Industries", headline: "As 2-week ceasefire takes hold, Pentagon touts 'decisive military victory'", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Endurance Energy", headline: "AFCENT awards Kraus Hamdani $270M for solar-powered, long-endurance drones", source: "Breaking Defense", time: "3h ago", impact: "medium", unread: false },
+  { id: 10, type: "ipo", company: "Palantir", headline: "Tracking the next SDA challenge", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "LeoLabs", headline: "LeoLabs debuts space monitoring tool for military users", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Vital Lyfe", headline: "The Download: water threats in Iran and AI's impact on what entrepreneurs make", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Avalanche Energy", headline: "How nuclear batteries could speed the race to fusion power", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Matic Robotics", headline: "Thousands of consumer routers hacked by Russia's military", source: "Ars Technica", time: "6h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Matic Robotics", headline: "Dyson Spot+Scrub Ai Robot Vacuum Review (2026)", source: "Wired", time: "6h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
