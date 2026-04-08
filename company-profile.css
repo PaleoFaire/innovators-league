@@ -2018,3 +2018,157 @@
     text-align: center;
   }
 }
+
+/* ─── MOBILE RESPONSIVE ─── */
+@media (max-width: 768px) {
+  .company-profile-container {
+    padding: 12px;
+  }
+
+  .profile-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .profile-card {
+    padding: 16px 12px;
+  }
+
+  .moat-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .patent-stats {
+    flex-wrap: wrap;
+  }
+
+  .patent-stats .patent-stat {
+    min-width: 80px;
+  }
+
+  .mafia-badge-large {
+    padding: 8px 10px;
+  }
+}
+
+/* ─── COMPANY TIMELINE ─── */
+.timeline-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.timeline-filter-chip {
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: transparent;
+  color: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.timeline-filter-chip.active {
+  background: rgba(255, 107, 44, 0.15);
+  border-color: rgba(255, 107, 44, 0.4);
+  color: #FF6B2C;
+}
+
+.timeline-filter-chip:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.timeline-line {
+  position: relative;
+  padding-left: 32px;
+}
+
+.timeline-line::before {
+  content: '';
+  position: absolute;
+  left: 14px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(255,255,255,0.08);
+}
+
+.timeline-event {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -26px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.timeline-event-body {
+  flex: 1;
+  padding: 10px 14px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: background 0.2s;
+}
+
+.timeline-event-body:hover {
+  background: rgba(255,255,255,0.06);
+}
+
+.timeline-date {
+  font-size: 11px;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 4px;
+  font-family: 'SF Mono', monospace;
+}
+
+.timeline-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.9);
+  line-height: 1.4;
+}
+
+.timeline-detail {
+  font-size: 12px;
+  color: rgba(255,255,255,0.5);
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+.timeline-event-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.timeline-event-link:hover .timeline-title {
+  color: #FF6B2C;
+}
+
+@media (max-width: 768px) {
+  .timeline-line {
+    padding-left: 28px;
+  }
+  .timeline-dot {
+    left: -22px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+  }
+}

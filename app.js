@@ -8,34 +8,6 @@ function isInROS50(companyName) {
   return INNOVATOR_50.some(i => i.company === companyName);
 }
 
-// ─── SLUG HELPERS ───
-function companyToSlug(name) {
-  return name.toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '');
-}
-
-function slugToCompanyName(slug) {
-  if (!slug || typeof COMPANIES === 'undefined') return null;
-  const match = COMPANIES.find(c => companyToSlug(c.name) === slug);
-  return match ? match.name : null;
-}
-
-// ─── UTILITY FUNCTIONS ───
-function debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-  };
-}
-
 // ─── COUNTRY MAPPING ───
 // US state codes
 const US_STATES = new Set([
@@ -424,7 +396,8 @@ function renderRadarChart(scores) {
 }
 
 // ─── BOOKMARKS ───
-let bookmarks = JSON.parse(localStorage.getItem('til-bookmarks') || '[]');
+let bookmarks = [];
+try { bookmarks = JSON.parse(localStorage.getItem('til-bookmarks') || '[]'); } catch(e) { console.warn('[TIL] Failed to load bookmarks:', e); }
 
 function isBookmarked(name) {
   return bookmarks.includes(name);
@@ -436,7 +409,7 @@ function toggleBookmark(name) {
   } else {
     bookmarks.push(name);
   }
-  localStorage.setItem('til-bookmarks', JSON.stringify(bookmarks));
+  try { localStorage.setItem('til-bookmarks', JSON.stringify(bookmarks)); } catch(e) { console.warn('[TIL] Storage full'); }
 }
 
 // ─── COMPARE ───
@@ -668,9 +641,10 @@ function submitPartnerForm(event, type) {
   data.timestamp = new Date().toISOString();
 
   // Store submissions locally (in real app, would send to backend)
-  const submissions = JSON.parse(localStorage.getItem('til-submissions') || '[]');
+  let submissions = [];
+  try { submissions = JSON.parse(localStorage.getItem('til-submissions') || '[]'); } catch(e) { console.warn('[TIL] Failed to load submissions:', e); }
   submissions.push(data);
-  localStorage.setItem('til-submissions', JSON.stringify(submissions));
+  try { localStorage.setItem('til-submissions', JSON.stringify(submissions)); } catch(e) { console.warn('[TIL] Storage full'); }
 
   // Show success message
   const body = document.getElementById('partner-portal-body');
@@ -1784,6 +1758,27 @@ function initCommandPalette() {
   });
 }
 
+// ─── KEYBOARD NAV STATE ───
+let _highlightedCardIndex = -1;
+
+function highlightCompanyCard(direction) {
+  const cards = document.querySelectorAll('.company-card');
+  if (!cards.length) return;
+
+  // Remove existing highlight
+  cards.forEach(c => c.classList.remove('card-highlighted'));
+
+  if (direction === 'next') {
+    _highlightedCardIndex = Math.min(_highlightedCardIndex + 1, cards.length - 1);
+  } else {
+    _highlightedCardIndex = Math.max(_highlightedCardIndex - 1, 0);
+  }
+
+  const card = cards[_highlightedCardIndex];
+  card.classList.add('card-highlighted');
+  card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
 // ─── KEYBOARD SHORTCUTS ───
 function initKeyboardShortcuts() {
   let chordPrefix = null;
@@ -1806,6 +1801,13 @@ function initKeyboardShortcuts() {
           <div class="shortcut-row"><span class="shortcut-label">Go to Investors</span><div class="shortcut-keys"><kbd>G</kbd><kbd>I</kbd></div></div>
           <div class="shortcut-row"><span class="shortcut-label">Go to Talent</span><div class="shortcut-keys"><kbd>G</kbd><kbd>T</kbd></div></div>
           <div class="shortcut-row"><span class="shortcut-label">Go to Deal Flow</span><div class="shortcut-keys"><kbd>G</kbd><kbd>D</kbd></div></div>
+        </div>
+        <div class="shortcuts-group">
+          <div class="shortcuts-group-title">Company Cards</div>
+          <div class="shortcut-row"><span class="shortcut-label">Next card</span><div class="shortcut-keys"><kbd>J</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Previous card</span><div class="shortcut-keys"><kbd>K</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Open highlighted card</span><div class="shortcut-keys"><kbd>Enter</kbd></div></div>
+          <div class="shortcut-row"><span class="shortcut-label">Toggle compare</span><div class="shortcut-keys"><kbd>C</kbd></div></div>
         </div>
         <div class="shortcuts-group">
           <div class="shortcuts-group-title">Actions</div>
@@ -1862,16 +1864,46 @@ function initKeyboardShortcuts() {
       return;
     }
 
+    // Skip card shortcuts if a modal is open
+    const modalOpen = document.querySelector('.modal-overlay.active, #modal-overlay.active, #company-modal.active, .shortcuts-overlay.active');
+
     // Single-key shortcuts
-    if (key === '/') {
-      e.preventDefault();
-      const searchInput = document.getElementById('global-search') || document.getElementById('cmdk-input');
-      if (searchInput) searchInput.focus();
-    } else if (key === '?' && !e.shiftKey) {
-      // Shift+/ on US keyboards = '?', but e.key already gives us '?'
-      showHelp();
-    } else if (key === 'escape') {
-      hideHelp();
+    switch (key) {
+      case '/':
+        e.preventDefault();
+        const searchInput = document.getElementById('global-search') || document.getElementById('cmdk-input');
+        if (searchInput) searchInput.focus();
+        break;
+      case '?':
+        showHelp();
+        break;
+      case 'escape':
+        hideHelp();
+        break;
+      case 'j':
+        if (!modalOpen) { highlightCompanyCard('next'); }
+        break;
+      case 'k':
+        if (!modalOpen) { highlightCompanyCard('prev'); }
+        break;
+      case 'enter':
+        if (!modalOpen && _highlightedCardIndex >= 0) {
+          const cards = document.querySelectorAll('.company-card');
+          if (cards[_highlightedCardIndex]) {
+            cards[_highlightedCardIndex].click();
+          }
+        }
+        break;
+      case 'c':
+        if (!modalOpen && _highlightedCardIndex >= 0) {
+          const cards = document.querySelectorAll('.company-card');
+          const card = cards[_highlightedCardIndex];
+          if (card) {
+            const compareBtn = card.querySelector('.compare-btn');
+            if (compareBtn) compareBtn.click();
+          }
+        }
+        break;
     }
   });
 
@@ -1887,10 +1919,79 @@ function initKeyboardShortcuts() {
   });
 }
 
+// ─── WEEKLY MOVERS: Previous-week score deltas ───
+let PREV_WEEK_SCORES = null;
+
+function getScoreDelta(companyName) {
+  if (!PREV_WEEK_SCORES || typeof INNOVATOR_SCORES === 'undefined') return null;
+  const current = INNOVATOR_SCORES.find(s => s.company === companyName);
+  const prev = PREV_WEEK_SCORES.find(s => s.company === companyName);
+  if (!current || !prev) return null;
+  const delta = (current.composite || 0) - (prev.composite || 0);
+  if (Math.abs(delta) < 2) return null;
+  return delta;
+}
+
+function renderMoversSection() {
+  const container = document.getElementById('movers-content');
+  const section = document.getElementById('weekly-movers');
+  if (!container || !section) return;
+  if (!PREV_WEEK_SCORES || typeof INNOVATOR_SCORES === 'undefined') return;
+
+  const deltas = INNOVATOR_SCORES.map(s => {
+    const prev = PREV_WEEK_SCORES.find(p => p.company === s.company);
+    if (!prev) return null;
+    return { company: s.company, current: s.composite, delta: (s.composite || 0) - (prev.composite || 0) };
+  }).filter(d => d && Math.abs(d.delta) >= 1);
+
+  if (deltas.length === 0) return;
+
+  const risers = deltas.filter(d => d.delta > 0).sort((a, b) => b.delta - a.delta).slice(0, 5);
+  const fallers = deltas.filter(d => d.delta < 0).sort((a, b) => a.delta - b.delta).slice(0, 5);
+
+  if (risers.length === 0 && fallers.length === 0) return;
+
+  const renderList = (items, direction) => items.map(item => `
+    <div class="mover-item" onclick="openCompanyModal('${item.company.replace(/'/g, "\\'")}')">
+      <span class="mover-name">${item.company}</span>
+      <span class="mover-score">
+        ${item.current.toFixed(0)} IS
+        <span class="score-delta ${direction === 'up' ? 'delta-up' : 'delta-down'}">
+          ${direction === 'up' ? '\u25B2' : '\u25BC'} ${Math.abs(item.delta).toFixed(0)}
+        </span>
+      </span>
+    </div>
+  `).join('');
+
+  container.innerHTML = `
+    <div class="movers-grid">
+      ${risers.length ? `<div class="movers-column">
+        <h3>\u25B2 Top Risers</h3>
+        ${renderList(risers, 'up')}
+      </div>` : ''}
+      ${fallers.length ? `<div class="movers-column">
+        <h3>\u25BC Biggest Drops</h3>
+        ${renderList(fallers, 'down')}
+      </div>` : ''}
+    </div>
+  `;
+
+  section.style.display = '';
+}
+
 // ─── APP INITIALIZATION ───
 document.addEventListener('DOMContentLoaded', () => {
   // Show loading skeletons immediately
   showLoadingSkeletons();
+
+  // Load previous week scores for delta calculation
+  fetch('data/prev_week_scores.json')
+    .then(r => r.json())
+    .then(data => {
+      PREV_WEEK_SCORES = data;
+      renderMoversSection();
+    })
+    .catch(() => {});
 
   // Safe init helper — prevents one broken section from taking down the page
   function safeInit(fn, name) {
@@ -2039,7 +2140,7 @@ function initStats() {
   const fundingEl = document.getElementById('funding-count');
   if (fundingEl) {
     const fundingB = (totalFunding / 1000).toFixed(0);
-    animateCounterWithPrefix('funding-count', parseInt(fundingB), '$', 'B+');
+    animateCounter('funding-count', parseInt(fundingB), { prefix: '$', suffix: 'B+' });
   }
 
   // Last updated
@@ -2323,58 +2424,6 @@ function renderFounderQuote(companyName) {
   `;
 }
 
-function animateCounter(id, target) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  const duration = 1500;
-  let start = null;
-
-  function easeOutQuart(t) { return 1 - Math.pow(1 - t, 4); }
-
-  function tick(now) {
-    if (!start) start = now;
-    const t = Math.min((now - start) / duration, 1);
-    const val = Math.round(target * easeOutQuart(t));
-    el.textContent = val.toLocaleString();
-    if (t < 1) requestAnimationFrame(tick);
-    else el.textContent = target.toLocaleString();
-  }
-
-  const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting) {
-      requestAnimationFrame(tick);
-      observer.disconnect();
-    }
-  });
-  observer.observe(el);
-}
-
-function animateCounterWithPrefix(id, target, prefix, suffix) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  const duration = 1500;
-  let start = null;
-
-  function easeOutQuart(t) { return 1 - Math.pow(1 - t, 4); }
-
-  function tick(now) {
-    if (!start) start = now;
-    const t = Math.min((now - start) / duration, 1);
-    const val = Math.round(target * easeOutQuart(t));
-    el.textContent = prefix + val.toLocaleString() + suffix;
-    if (t < 1) requestAnimationFrame(tick);
-    else el.textContent = prefix + target.toLocaleString() + suffix;
-  }
-
-  const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting) {
-      requestAnimationFrame(tick);
-      observer.disconnect();
-    }
-  });
-  observer.observe(el);
-}
-
 // ─── DISCOVERY HUB (New unified map + database tabs) ───
 let discoveryMap = null;
 let discoveryViewLimit = 24;
@@ -2597,7 +2646,9 @@ function renderCompanyCardHTML(company) {
   const score = getInnovatorScore(company.name);
   let scoreDisplay = '';
   if (score && score.composite) {
-    scoreDisplay = `<span class="card-score elite">${score.composite.toFixed(0)}</span>`;
+    const delta = getScoreDelta(company.name);
+    const deltaBadge = delta ? `<span class="score-delta ${delta > 0 ? 'delta-up' : 'delta-down'}">${delta > 0 ? '\u25B2' : '\u25BC'} ${Math.abs(delta).toFixed(0)}</span>` : '';
+    scoreDisplay = `<span class="card-score elite">${score.composite.toFixed(0)}</span>${deltaBadge}`;
   } else if (company.scores) {
     const badge = renderScoreBadge(company.scores);
     if (badge) scoreDisplay = badge;
@@ -2999,23 +3050,67 @@ function initGlobalSearch() {
   });
 }
 
+// ─── FUZZY SCORING ───
+function fuzzyScore(query, text) {
+  if (!text) return 0;
+  const q = query.toLowerCase();
+  const t = text.toLowerCase();
+  if (t === q) return 100;
+  if (t.startsWith(q)) return 90;
+  if (t.includes(q)) return 70;
+  // Check if all query chars appear in order
+  let qi = 0;
+  for (let i = 0; i < t.length && qi < q.length; i++) {
+    if (t[i] === q[qi]) qi++;
+  }
+  return qi === q.length ? 50 : 0;
+}
+
 function performGlobalSearch(query) {
-  const results = { companies: [], sectors: [], investors: [] };
-  const maxResults = 5;
+  const results = { companies: [], sectors: [], investors: [], totalCompanyMatches: 0 };
+  const maxResults = 10;
 
-  // Search companies
+  // Search companies with fuzzy matching across extended fields
   if (typeof COMPANIES !== 'undefined') {
-    const companyMatches = COMPANIES.filter(c => {
-      const searchStr = `${c.name} ${c.sector} ${c.location} ${c.founder || ''}`.toLowerCase();
-      return searchStr.includes(query);
-    }).slice(0, maxResults);
+    const scored = COMPANIES.map(c => {
+      const fields = {
+        name: c.name || '',
+        sector: c.sector || '',
+        location: c.location || '',
+        founder: c.founder || '',
+        description: c.description || '',
+        tags: (c.tags || []).join(' '),
+        thesisCluster: c.thesisCluster || ''
+      };
+      // Score each field and track best match
+      let bestScore = 0;
+      let matchedField = '';
+      for (const [fieldName, fieldValue] of Object.entries(fields)) {
+        const score = fuzzyScore(query, fieldValue);
+        if (score > bestScore) {
+          bestScore = score;
+          matchedField = fieldName;
+        }
+      }
+      return { company: c, score: bestScore, matchedField };
+    }).filter(m => m.score > 0).sort((a, b) => b.score - a.score);
 
-    results.companies = companyMatches.map(c => ({
+    results.totalCompanyMatches = scored.length;
+    const companyMatches = scored.slice(0, maxResults);
+
+    const fieldLabels = {
+      name: 'Name', sector: 'Sector', location: 'Location',
+      founder: 'Founder', description: 'Description',
+      tags: 'Tags', thesisCluster: 'Thesis'
+    };
+
+    results.companies = companyMatches.map(m => ({
       type: 'company',
-      name: c.name,
-      meta: c.sector,
-      icon: SECTORS[c.sector]?.icon || '🏢',
-      action: () => openCompanyModal(c.name)
+      name: m.company.name,
+      meta: m.company.sector,
+      icon: SECTORS[m.company.sector]?.icon || '\uD83C\uDFE2',
+      matchedField: fieldLabels[m.matchedField] || '',
+      action: () => openCompanyModal(m.company.name)
     }));
   }
 
@@ -3030,7 +3125,7 @@ function performGlobalSearch(query) {
       type: 'sector',
       name: name,
       meta: `${COMPANIES.filter(c => c.sector === name).length} companies`,
-      icon: info.icon || '📊',
+      icon: info.icon || '\uD83D\uDCCA',
       action: () => {
         document.getElementById('sector-filter').value = name;
         applyFilters();
@@ -3050,7 +3145,7 @@ function performGlobalSearch(query) {
       type: 'investor',
       name: v.shortName || v.name,
       meta: v.focusSectors?.slice(0, 2).join(', ') || 'Investor',
-      icon: '💰',
+      icon: '\uD83D\uDCB0',
       action: () => {
         window.location.href = 'investors.html';
       }
@@ -3074,17 +3169,22 @@ function renderSearchResults(results, dropdown) {
   if (results.companies.length > 0) {
     html += '<div class="search-results-section"><div class="search-section-title">Companies</div>';
     results.companies.forEach((r, i) => {
+      const matchTag = r.matchedField && r.matchedField !== 'Name' ? `<span class="search-match-field">matched: ${r.matchedField}</span>` : '';
       html += `
         <div class="search-result-item ${i === 0 ? 'active' : ''}" data-index="${i}">
           <div class="search-result-icon">${r.icon}</div>
           <div class="search-result-content">
             <div class="search-result-name">${r.name}</div>
-            <div class="search-result-meta">${r.meta}</div>
+            <div class="search-result-meta">${r.meta} ${matchTag}</div>
           </div>
           <span class="search-result-type">Company</span>
         </div>
       `;
     });
+    // Show "View all" link if there are more results
+    if (results.totalCompanyMatches > results.companies.length) {
+      html += `<div class="search-view-all" data-action="view-all">View all ${results.totalCompanyMatches} results</div>`;
+    }
     html += '</div>';
   }
 
@@ -3138,6 +3238,22 @@ function renderSearchResults(results, dropdown) {
       document.getElementById('global-search').value = '';
     });
   });
+
+  // "View all" link handler
+  const viewAllLink = dropdown.querySelector('.search-view-all');
+  if (viewAllLink) {
+    viewAllLink.addEventListener('click', () => {
+      const searchInput = document.getElementById('search-input');
+      const globalSearch = document.getElementById('global-search');
+      if (searchInput && globalSearch) {
+        searchInput.value = globalSearch.value;
+        searchInput.dispatchEvent(new Event('input'));
+        document.getElementById('companies').scrollIntoView({ behavior: 'smooth' });
+      }
+      dropdown.classList.remove('active');
+      globalSearch.value = '';
+    });
+  }
 }
 
 // ─── RENDER COMPANIES ───
@@ -3182,9 +3298,11 @@ function renderCompanies(companies) {
         if (!hasBadges) return '';
         const iscoreBadge = iscore ? (() => {
           const tc = { elite: '#22c55e', strong: '#60a5fa', promising: '#f59e0b', early: '#6b7280' }[iscore.tier];
-          return `<span class="iscore-card-badge" style="background:${tc}15; color:${tc}; border:1px solid ${tc}30;">${iscore.composite.toFixed(0)} IS™</span>`;
+          return `<span class="iscore-card-badge" style="background:${tc}15; color:${tc}; border:1px solid ${tc}30;">${iscore.composite.toFixed(0)} IS\u2122</span>`;
         })() : '';
-        return `<div class="card-badges">${iscoreBadge}${renderSignalBadge(company.signal)}${renderScoreBadge(company.scores)}</div>`;
+        const delta = getScoreDelta(company.name);
+        const deltaBadge = delta ? `<span class="score-delta ${delta > 0 ? 'delta-up' : 'delta-down'}">${delta > 0 ? '\u25B2' : '\u25BC'} ${Math.abs(delta).toFixed(0)}</span>` : '';
+        return `<div class="card-badges">${iscoreBadge}${deltaBadge}${renderSignalBadge(company.signal)}${renderScoreBadge(company.scores)}</div>`;
       })()}
       ${company.founder ? `<p class="card-founder">${company.founder}</p>` : ''}
       <p class="card-location">
@@ -3517,6 +3635,61 @@ function exportWatchlistCSV() {
   URL.revokeObjectURL(url);
 }
 
+// ─── EXPORT FILTERED COMPANY LIST ───
+function exportCompanyList() {
+  // Re-run filter logic to get current filtered set
+  const sectorEl = document.getElementById('sector-filter');
+  const countryEl = document.getElementById('country-filter');
+  const stateEl = document.getElementById('state-filter');
+  const stageEl = document.getElementById('stage-filter');
+  const cityEl = document.getElementById('city-filter');
+  const specialEl = document.getElementById('special-filter');
+  const searchEl = document.getElementById('search-input');
+
+  const sector = sectorEl?.value || 'all';
+  const country = countryEl?.value || 'all';
+  const stateCode = stateEl?.value || 'all';
+  const stage = stageEl?.value || 'all';
+  const city = cityEl?.value || 'all';
+  const special = specialEl?.value || 'all';
+  const searchTerm = (searchEl?.value || '').toLowerCase();
+
+  let companies = COMPANIES || [];
+
+  if (sector && sector !== 'all') companies = companies.filter(c => c.sector === sector);
+  if (country && country !== 'all') companies = companies.filter(c => getCountry(c.state, c.location) === country);
+  if (stateCode && stateCode !== 'all') companies = companies.filter(c => c.state === stateCode && getCountry(c.state, c.location) === 'United States');
+  if (stage && stage !== 'all') companies = companies.filter(c => c.fundingStage === stage);
+  if (city && city !== 'all') companies = companies.filter(c => c.location && c.location.split(',')[0].trim() === city);
+  if (special === 'innovator50') companies = companies.filter(c => isInROS50(c.name));
+  if (special === 'govContracts') companies = companies.filter(c => typeof GOV_CONTRACTS !== 'undefined' && GOV_CONTRACTS.some(g => g.company === c.name));
+  if (searchTerm) {
+    companies = companies.filter(c => {
+      const hay = (c.name + ' ' + c.sector + ' ' + c.location + ' ' + (c.founder || '') + ' ' + (c.description || '')).toLowerCase();
+      return hay.includes(searchTerm);
+    });
+  }
+
+  if (companies.length === 0) {
+    alert('No companies to export. Adjust your filters first.');
+    return;
+  }
+
+  var data = companies.map(function(c) {
+    return {
+      Name: c.name,
+      Sector: c.sector,
+      Location: c.location,
+      Stage: c.fundingStage || '',
+      'Total Raised': c.totalRaised || '',
+      Valuation: c.valuation || '',
+      Signal: c.signal || '',
+      Founder: c.founder || ''
+    };
+  });
+  exportToCSV(data, 'innovators-league-companies.csv');
+}
+
 // ─── VALUATION LEADERBOARD ───
 function parseValuation(val) {
   if (!val) return 0;
@@ -3544,13 +3717,6 @@ function parseFunding(val) {
   if (unit === 'B') return num * 1000000000;
   if (unit === 'M') return num * 1000000;
   return num;
-}
-
-function formatValuation(num) {
-  if (num >= 1000000000000) return `$${(num / 1000000000000).toFixed(1)}T`;
-  if (num >= 1000000000) return `$${(num / 1000000000).toFixed(1)}B`;
-  if (num >= 1000000) return `$${(num / 1000000).toFixed(0)}M`;
-  return '';
 }
 
 function initLeaderboard() {
@@ -8922,11 +9088,11 @@ function initProWatchlist() {
 
   // Get watchlist from localStorage
   function getWatchlist() {
-    return JSON.parse(localStorage.getItem('til-pro-watchlist') || '{}');
+    try { return JSON.parse(localStorage.getItem('til-pro-watchlist') || '{}'); } catch(e) { console.warn('[TIL] Failed to load watchlist:', e); return {}; }
   }
 
   function saveWatchlist(data) {
-    localStorage.setItem('til-pro-watchlist', JSON.stringify(data));
+    try { localStorage.setItem('til-pro-watchlist', JSON.stringify(data)); } catch(e) { console.warn('[TIL] Storage full'); }
   }
 
   function renderKanban() {
@@ -9076,7 +9242,7 @@ function initProWatchlist() {
   // Global function to clear all watchlist
   window.clearAllWatchlist = () => {
     if (confirm('Clear all companies from your watchlist?')) {
-      localStorage.removeItem('til-pro-watchlist');
+      try { localStorage.removeItem('til-pro-watchlist'); } catch(e) { console.warn('[TIL] Storage error'); }
       renderKanban();
       updateWatchlistCount();
     }

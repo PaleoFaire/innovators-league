@@ -1,0 +1,580 @@
+/* ─── WEEKLY BRIEF PAGE STYLES ─── */
+
+.brief-hero {
+  background: linear-gradient(135deg, #0a0a14 0%, #0f1628 40%, #141e30 70%, #0d1520 100%);
+}
+
+/* ── Main Container ── */
+.brief-main {
+  padding: 2rem 0 4rem;
+  min-height: 60vh;
+}
+
+/* ── Loading Skeleton ── */
+.brief-skeleton {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skeleton-header {
+  margin-bottom: 2rem;
+}
+
+.skeleton-line {
+  background: linear-gradient(90deg, rgba(255,255,255,0.04) 25%, rgba(255,255,255,0.08) 50%, rgba(255,255,255,0.04) 75%);
+  background-size: 200% 100%;
+  animation: skeletonPulse 1.5s ease-in-out infinite;
+  border-radius: 6px;
+}
+
+.skeleton-title {
+  height: 28px;
+  width: 60%;
+  margin-bottom: 12px;
+}
+
+.skeleton-subtitle {
+  height: 18px;
+  width: 40%;
+}
+
+.skeleton-section {
+  margin-bottom: 2rem;
+}
+
+.skeleton-section-title {
+  height: 22px;
+  width: 30%;
+  margin-bottom: 1rem;
+}
+
+.skeleton-card {
+  height: 64px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.03) 25%, rgba(255,255,255,0.06) 50%, rgba(255,255,255,0.03) 75%);
+  background-size: 200% 100%;
+  animation: skeletonPulse 1.5s ease-in-out infinite;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+@keyframes skeletonPulse {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ── Error State ── */
+.brief-error {
+  max-width: 500px;
+  margin: 4rem auto;
+  text-align: center;
+  padding: 3rem 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-lg);
+}
+
+.brief-error-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+.brief-error h3 {
+  font-family: var(--font-display);
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.brief-error p {
+  color: var(--text-muted);
+  font-size: var(--text-base);
+  margin-bottom: 1.5rem;
+}
+
+.brief-retry-btn {
+  background: var(--accent);
+  color: #000;
+  border: none;
+  padding: 0.6rem 1.8rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.brief-retry-btn:hover {
+  background: var(--accent-hover);
+}
+
+/* ── Table of Contents ── */
+.brief-toc {
+  max-width: 900px;
+  margin: 0 auto 2.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.brief-toc-title {
+  font-family: var(--font-display);
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+}
+
+.brief-toc-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
+}
+
+.brief-toc-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: var(--text-sm);
+  transition: background 0.2s, color 0.2s;
+}
+
+.brief-toc-item:hover {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-primary);
+}
+
+.brief-toc-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.brief-toc-label {
+  flex: 1;
+  font-weight: 500;
+}
+
+.brief-toc-count {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 2px 8px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+/* ── Section Cards ── */
+.brief-sections {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.brief-section {
+  margin-bottom: 2.5rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  overflow: hidden;
+  scroll-margin-top: 5rem;
+}
+
+.brief-section-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.015);
+}
+
+.brief-section-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.brief-section-title-group {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.brief-section-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.brief-section-count {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.brief-section-body {
+  padding: 1.25rem 1.5rem;
+}
+
+/* ── Funding Table ── */
+.brief-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.brief-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-sm);
+}
+
+.brief-table th {
+  text-align: left;
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  white-space: nowrap;
+}
+
+.brief-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  vertical-align: middle;
+}
+
+.brief-table tr:last-child td {
+  border-bottom: none;
+}
+
+.brief-table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.brief-company-name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.brief-amount {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: #10b981;
+}
+
+.brief-date-cell {
+  color: var(--text-muted);
+  font-size: var(--text-xs);
+  white-space: nowrap;
+}
+
+/* ── Badges ── */
+.brief-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.brief-badge-round {
+  background: rgba(96, 165, 250, 0.12);
+  color: #60a5fa;
+}
+
+.brief-badge-ipo {
+  background: rgba(251, 191, 36, 0.15);
+  color: #fbbf24;
+}
+
+.brief-badge-type {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-secondary);
+}
+
+.brief-badge-sig {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+}
+
+.brief-badge-high {
+  background: rgba(239, 68, 68, 0.12);
+  color: #f87171;
+}
+
+.brief-badge-med {
+  background: rgba(251, 191, 36, 0.12);
+  color: #fbbf24;
+}
+
+.brief-form-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+  background: var(--accent-dim);
+  color: var(--accent);
+}
+
+/* ── Grid Layouts ── */
+.brief-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.brief-grid-sec {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.brief-grid-hn {
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.brief-item-card {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.brief-item-card:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.brief-item-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.brief-item-company {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: var(--text-base);
+}
+
+.brief-item-date {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  margin-top: 0.35rem;
+}
+
+/* ── List Layout ── */
+.brief-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.brief-list-item {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.brief-list-item:last-child {
+  border-bottom: none;
+}
+
+.brief-list-item-top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.brief-list-item-title {
+  font-weight: 500;
+  color: var(--text-primary);
+  font-size: var(--text-base);
+  line-height: 1.5;
+}
+
+.brief-list-item-meta {
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+}
+
+.brief-list-item-signal:hover {
+  background: rgba(255, 255, 255, 0.02);
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border-radius: var(--radius-sm);
+}
+
+.brief-signal-source {
+  color: var(--accent-secondary);
+  font-weight: 500;
+}
+
+.brief-signal-company {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+/* ── Hacker News Cards ── */
+.brief-hn-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.brief-hn-score {
+  font-family: var(--font-display);
+  font-size: var(--text-xs);
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.brief-hn-title {
+  font-weight: 500;
+  font-size: var(--text-sm);
+  color: var(--text-primary);
+  text-decoration: none;
+  line-height: 1.45;
+  transition: color 0.2s;
+}
+
+.brief-hn-title:hover {
+  color: var(--accent);
+}
+
+.brief-hn-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.brief-hn-companies {
+  color: var(--accent-secondary);
+  font-weight: 500;
+}
+
+/* ── Misc ── */
+.brief-more-note {
+  text-align: center;
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.brief-empty {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+  padding: 2rem 0;
+}
+
+.brief-meta {
+  max-width: 900px;
+  margin: 3rem auto 0;
+  padding: 1.25rem 1.5rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: var(--radius);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.brief-meta p {
+  margin-bottom: 0.3rem;
+}
+
+.brief-meta p:last-child {
+  margin-bottom: 0;
+}
+
+.brief-meta code {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1px 6px;
+  border-radius: 4px;
+  color: var(--text-secondary);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .brief-toc-items {
+    grid-template-columns: 1fr;
+  }
+
+  .brief-grid-sec {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brief-grid-hn {
+    grid-template-columns: 1fr;
+  }
+
+  .brief-section-header {
+    padding: 1rem;
+  }
+
+  .brief-section-body {
+    padding: 1rem;
+  }
+
+  .brief-section-title-group {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .brief-table {
+    font-size: var(--text-xs);
+  }
+
+  .brief-table th,
+  .brief-table td {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .brief-grid-sec {
+    grid-template-columns: 1fr;
+  }
+
+  .brief-section-title {
+    font-size: 1rem;
+  }
+
+  .brief-toc {
+    padding: 1rem;
+  }
+}

@@ -17,12 +17,49 @@ function parseAUM(aum) {
   return val; // in billions
 }
 
+// Pre-compute company -> firms map for efficient overlap detection
+const _companyToFirms = new Map();
+(typeof VC_FIRMS !== 'undefined' ? VC_FIRMS : []).forEach(firm => {
+  (firm.portfolioCompanies || []).forEach(company => {
+    if (!_companyToFirms.has(company)) _companyToFirms.set(company, []);
+    _companyToFirms.get(company).push(firm.shortName);
+  });
+});
+
+// For a given firm, find overlapping firms efficiently
+function getPortfolioOverlaps(firm) {
+  const overlaps = new Map();
+  (firm.portfolioCompanies || []).forEach(company => {
+    const firms = _companyToFirms.get(company) || [];
+    firms.forEach(otherName => {
+      if (otherName === firm.shortName) return;
+      if (!overlaps.has(otherName)) overlaps.set(otherName, []);
+      overlaps.get(otherName).push(company);
+    });
+  });
+  return Array.from(overlaps.entries()).map(([firmName, companies]) => ({
+    firm: firmName,
+    companies: companies
+  }));
+}
+
+// Get all pairwise overlaps efficiently (for matrix and graph views)
+function getAllPairwiseOverlaps() {
+  const pairMap = new Map();
+  _companyToFirms.forEach((firms, company) => {
+    for (let i = 0; i < firms.length; i++) {
+      for (let j = i + 1; j < firms.length; j++) {
+        const key = firms[i] < firms[j] ? `${firms[i]}|${firms[j]}` : `${firms[j]}|${firms[i]}`;
+        if (!pairMap.has(key)) pairMap.set(key, { firm1: firms[i] < firms[j] ? firms[i] : firms[j], firm2: firms[i] < firms[j] ? firms[j] : firms[i], shared: [] });
+        pairMap.get(key).shared.push(company);
+      }
+    }
+  });
+  return Array.from(pairMap.values()).map(o => ({ ...o, count: o.shared.length }));
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   function initInvestorsPage() {
-    function safeInit(fn, name) {
-      try { fn(); } catch (e) { console.error('[Investors] ' + (name || fn.name) + ' failed:', e); }
-    }
-
     // Always render all content first
     safeInit(initVCStats);
     safeInit(initVCFilters);
@@ -90,48 +127,12 @@ function initVCStats() {
   VC_FIRMS.forEach(f => { totalAum += parseAUM(f.aum); });
   const aumEl = document.getElementById('total-aum');
   if (aumEl) {
-    animateCounterWithPrefix('total-aum', Math.round(totalAum), '$', 'B+');
+    animateCounter('total-aum', Math.round(totalAum), { prefix: '$', suffix: 'B+' });
   }
 
   let portfolioLinks = 0;
   VC_FIRMS.forEach(f => { portfolioLinks += f.portfolioCompanies.length; });
   animateCounter('portfolio-count', portfolioLinks);
-}
-
-function animateCounter(id, target) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  let current = 0;
-  const duration = 1200;
-  const step = target / (duration / 16);
-  function tick() {
-    current += step;
-    if (current >= target) { el.textContent = target; return; }
-    el.textContent = Math.floor(current);
-    requestAnimationFrame(tick);
-  }
-  const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting) { tick(); observer.disconnect(); }
-  });
-  observer.observe(el);
-}
-
-function animateCounterWithPrefix(id, target, prefix, suffix) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  let current = 0;
-  const duration = 1200;
-  const step = target / (duration / 16);
-  function tick() {
-    current += step;
-    if (current >= target) { el.textContent = prefix + target + suffix; return; }
-    el.textContent = prefix + Math.floor(current) + suffix;
-    requestAnimationFrame(tick);
-  }
-  const observer = new IntersectionObserver((entries) => {
-    if (entries[0].isIntersecting) { tick(); observer.disconnect(); }
-  });
-  observer.observe(el);
 }
 
 // ─── FILTERS ───
@@ -285,15 +286,8 @@ function openVCModal(shortName) {
     ? `<span class="signal-badge ${signalInfo.class}">${signalInfo.icon} ${signalInfo.label}</span>`
     : '';
 
-  // Find overlap with other VCs
-  const overlaps = [];
-  VC_FIRMS.forEach(other => {
-    if (other.shortName === firm.shortName) return;
-    const shared = firm.portfolioCompanies.filter(c => other.portfolioCompanies.includes(c));
-    if (shared.length > 0) {
-      overlaps.push({ firm: other.shortName, companies: shared });
-    }
-  });
+  // Find overlap with other VCs (using pre-computed map)
+  const overlaps = getPortfolioOverlaps(firm);
 
   const portfolioChips = firm.portfolioCompanies.map(name => {
     const exists = typeof COMPANIES !== 'undefined' && COMPANIES.find(c => c.name === name);
@@ -398,24 +392,8 @@ function renderOverlapMatrix() {
   const container = document.getElementById('overlap-matrix');
   if (!container) return;
 
-  // Build overlap data
-  const overlaps = [];
-  for (let i = 0; i < VC_FIRMS.length; i++) {
-    for (let j = i + 1; j < VC_FIRMS.length; j++) {
-      const shared = VC_FIRMS[i].portfolioCompanies.filter(c =>
-        VC_FIRMS[j].portfolioCompanies.includes(c)
-      );
-      if (shared.length > 0) {
-        overlaps.push({
-          firm1: VC_FIRMS[i].shortName,
-          firm2: VC_FIRMS[j].shortName,
-          shared: shared,
-          count: shared.length
-        });
-      }
-    }
-  }
-
+  // Build overlap data (using pre-computed map)
+  const overlaps = getAllPairwiseOverlaps();
   overlaps.sort((a, b) => b.count - a.count);
 
   if (overlaps.length === 0) {
@@ -546,23 +524,14 @@ function renderCoInvestGraph() {
   const container = document.getElementById('co-invest-graph');
   if (!container) return;
 
-  // Build co-investment data
-  const coInvestments = [];
-  for (let i = 0; i < VC_FIRMS.length; i++) {
-    for (let j = i + 1; j < VC_FIRMS.length; j++) {
-      const shared = VC_FIRMS[i].portfolioCompanies.filter(c =>
-        VC_FIRMS[j].portfolioCompanies.includes(c)
-      );
-      if (shared.length > 0) {
-        coInvestments.push({
-          source: VC_FIRMS[i].shortName,
-          target: VC_FIRMS[j].shortName,
-          weight: shared.length,
-          companies: shared
-        });
-      }
-    }
-  }
+  // Build co-investment data (using pre-computed map)
+  const pairOverlaps = getAllPairwiseOverlaps();
+  const coInvestments = pairOverlaps.map(o => ({
+    source: o.firm1,
+    target: o.firm2,
+    weight: o.count,
+    companies: o.shared
+  }));
 
   // Filter to firms with at least one co-investment
   const connectedFirms = new Set();
@@ -1255,15 +1224,8 @@ function renderPortfolioXRay() {
       return inFocus && portfolioCount <= 1;
     });
 
-    // Co-investment density
-    let coInvestCount = 0;
-    VC_FIRMS.forEach(otherVc => {
-      if (otherVc.shortName === vc.shortName) return;
-      const shared = (vc.portfolioCompanies || []).filter(c =>
-        (otherVc.portfolioCompanies || []).includes(c)
-      );
-      if (shared.length > 0) coInvestCount++;
-    });
+    // Co-investment density (using pre-computed map)
+    const coInvestCount = getPortfolioOverlaps(vc).length;
 
     return {
       ...vc,

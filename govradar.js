@@ -2,19 +2,6 @@
 
 // ─── HELPERS ───
 
-function formatCurrency(num) {
-  if (typeof num === 'string') {
-    // Already formatted strings like "$50M-$100M" or "~$3.4B"
-    return num;
-  }
-  if (!num || isNaN(num)) return '$0';
-  if (num >= 1e12) return '$' + (num / 1e12).toFixed(1) + 'T';
-  if (num >= 1e9) return '$' + (num / 1e9).toFixed(1) + 'B';
-  if (num >= 1e6) return '$' + (num / 1e6).toFixed(1) + 'M';
-  if (num >= 1e3) return '$' + (num / 1e3).toFixed(0) + 'K';
-  return '$' + num.toLocaleString();
-}
-
 function parseValueToNumber(valStr) {
   if (!valStr || typeof valStr !== 'string') return 0;
   // Handle ranges like "$50M-$100M" — take the midpoint
@@ -100,58 +87,6 @@ function readinessBarColor(score) {
   return '#ef4444';
 }
 
-function animateCounter(id, target) {
-  var el = document.getElementById(id);
-  if (!el) return;
-  var current = 0;
-  var duration = 1200;
-  var step = target / (duration / 16);
-  function tick() {
-    current += step;
-    if (current >= target) { el.textContent = target; return; }
-    el.textContent = Math.floor(current);
-    requestAnimationFrame(tick);
-  }
-  var observer = new IntersectionObserver(function(entries) {
-    if (entries[0].isIntersecting) { tick(); observer.disconnect(); }
-  });
-  observer.observe(el);
-}
-
-function animateCounterWithPrefix(id, target, prefix, suffix) {
-  var el = document.getElementById(id);
-  if (!el) return;
-  var current = 0;
-  var duration = 1200;
-  var step = target / (duration / 16);
-  function tick() {
-    current += step;
-    if (current >= target) { el.textContent = prefix + target + suffix; return; }
-    el.textContent = prefix + Math.floor(current) + suffix;
-    requestAnimationFrame(tick);
-  }
-  var observer = new IntersectionObserver(function(entries) {
-    if (entries[0].isIntersecting) { tick(); observer.disconnect(); }
-  });
-  observer.observe(el);
-}
-
-// Truncate text
-function truncate(str, len) {
-  if (!str) return '';
-  return str.length > len ? str.slice(0, len) + '...' : str;
-}
-
-// ─── SAFE INIT ───
-
-function safeInit(name, fn) {
-  try {
-    fn();
-  } catch (e) {
-    console.error('[GovRadar] ' + name + ' failed:', e);
-  }
-}
-
 // ─── MERGED DATA HELPER ───
 
 function getAllDemandSignals() {
@@ -227,9 +162,9 @@ function initHeroStats() {
   var pipelineEl = document.getElementById('gov-pipeline-value');
   if (pipelineEl) {
     if (totalVal >= 1e9) {
-      animateCounterWithPrefix('gov-pipeline-value', Math.round(totalVal / 1e9 * 10) / 10, '$', 'B+');
+      animateCounter('gov-pipeline-value', Math.round(totalVal / 1e9 * 10) / 10, { prefix: '$', suffix: 'B+' });
     } else if (totalVal >= 1e6) {
-      animateCounterWithPrefix('gov-pipeline-value', Math.round(totalVal / 1e6), '$', 'M+');
+      animateCounter('gov-pipeline-value', Math.round(totalVal / 1e6), { prefix: '$', suffix: 'M+' });
     } else {
       pipelineEl.textContent = formatCurrency(totalVal);
     }
@@ -328,11 +263,6 @@ function initDemandHeatmap() {
   html += '</div>';
 
   container.innerHTML = html;
-}
-
-function escapeHtml(str) {
-  if (!str) return '';
-  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
 // ─── 3. OPPORTUNITIES BOARD ───

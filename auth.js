@@ -71,7 +71,11 @@ const TILAuth = (function() {
       // Check for auth redirect (e.g., ?auth=required)
       const params = new URLSearchParams(window.location.search);
       if (params.get('auth') === 'required') {
-        setTimeout(() => showAuthModal(), 500);
+        setTimeout(() => {
+          if (window.location.search.includes('auth=required')) {
+            showAuthModal();
+          }
+        }, 500);
         // Clean URL
         params.delete('auth');
         params.delete('redirect');

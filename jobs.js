@@ -562,7 +562,7 @@ function renderJobs() {
                 <div class="job-meta">
                     <span>📍 ${escapeHtml(job.location)}</span>
                     <span>🏢 ${escapeHtml(job.department)}</span>
-                    ${job.posted ? `<span>📅 ${formatDate(job.posted)}</span>` : ''}
+                    ${job.posted ? `<span>📅 ${formatDateRelative(job.posted)}</span>` : ''}
                 </div>
                 ${formatSalary(job) ? `<div class="job-salary" style="color:#22c55e; font-weight:600; font-size:13px;">💰 ${formatSalary(job)}</div>` : ''}
             </div>
@@ -609,36 +609,6 @@ function scrollToJobs() {
     document.getElementById('jobs-section')?.scrollIntoView({ behavior: 'smooth' });
 }
 
-function formatDate(dateStr) {
-    if (!dateStr) return '';
-    const date = new Date(dateStr);
-    const now = new Date();
-    const diffDays = Math.floor((now - date) / (1000 * 60 * 60 * 24));
-
-    if (diffDays === 0) return 'Today';
-    if (diffDays === 1) return 'Yesterday';
-    if (diffDays < 7) return `${diffDays} days ago`;
-    if (diffDays < 30) return `${Math.floor(diffDays / 7)} weeks ago`;
-    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-}
-
-function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text || '';
-    return div.innerHTML;
-}
-
-function debounce(func, wait) {
-    let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-    };
-}
 
 // Mobile menu
 document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {

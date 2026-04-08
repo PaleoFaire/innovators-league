@@ -2,10 +2,6 @@
 
 (function() {
   function initTalentPageInner() {
-    function safeInit(name, fn) {
-      try { fn(); } catch (e) { console.error('[Talent] ' + name + ' failed:', e); }
-    }
-
     safeInit('initHeroStats', initHeroStats);
     safeInit('initTalentFlow', initTalentFlow);
     safeInit('initMafiaExplorer', initMafiaExplorer);
@@ -38,23 +34,6 @@
       const mafias = getMafiaData();
       networksEl.textContent = Object.keys(mafias).length || 7;
     }
-  }
-
-  // ── Animate a counter from 0 to target ──
-  function animateCounter(el, target) {
-    if (!el || target <= 0) { if (el) el.textContent = '0'; return; }
-    const duration = 1200;
-    const start = performance.now();
-    const format = (n) => n >= 1000 ? n.toLocaleString() : String(n);
-
-    function step(now) {
-      const elapsed = now - start;
-      const progress = Math.min(elapsed / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      el.textContent = format(Math.round(eased * target));
-      if (progress < 1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
   }
 
   // ── Talent Flow Diagram ──
@@ -617,12 +596,6 @@
       return { icon: sectors[sectorName].icon || '', color: sectors[sectorName].color || '#FF6B2C' };
     }
     return { icon: '', color: '#FF6B2C' };
-  }
-
-  // ── Escape HTML ──
-  function escapeHtml(str) {
-    if (!str) return '';
-    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
   // ── Mobile Menu ──

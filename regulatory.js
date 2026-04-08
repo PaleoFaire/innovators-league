@@ -19,14 +19,6 @@ function initRegulatory() {
   safeInit('SectionObserver', initSectionObserver);
 }
 
-function safeInit(name, fn) {
-  try {
-    fn();
-  } catch (e) {
-    console.error('[Regulatory] ' + name + ' failed:', e);
-  }
-}
-
 // ─── DATA HELPERS ───
 // Note: const declarations don't attach to window, so use typeof checks directly
 function getFDAActions() {
@@ -90,7 +82,7 @@ function initHeroStats() {
   });
   doe.forEach(d => {
     if (d.companies) {
-      d.companies.split(',').forEach(c => companySet.add(c.trim()));
+      (typeof d.companies === 'string' ? d.companies.split(',') : Array.isArray(d.companies) ? d.companies : []).forEach(c => companySet.add(c.trim()));
     }
   });
   regAnimateCounter('reg-companies', companySet.size);
@@ -99,7 +91,7 @@ function initHeroStats() {
   const agencySet = new Set();
   fedReg.forEach(r => {
     if (r.agencies) {
-      r.agencies.split(',').forEach(a => agencySet.add(a.trim()));
+      (typeof r.agencies === 'string' ? r.agencies.split(',') : Array.isArray(r.agencies) ? r.agencies : []).forEach(a => agencySet.add(a.trim()));
     }
   });
   doe.forEach(d => { if (d.agency) agencySet.add(d.agency); });
@@ -246,9 +238,9 @@ function renderTimelineBatch() {
 }
 
 function renderTimelineEntry(e) {
-  const dateStr = e.date ? formatDate(e.date) : 'No date';
-  const companyHtml = e.company ? `<div class="reg-timeline-company">${escHtml(e.company)}</div>` : '';
-  const descHtml = e.desc ? `<div class="reg-timeline-desc">${escHtml(truncate(e.desc, 150))}</div>` : '';
+  const dateStr = e.date ? formatDateAbsolute(e.date) : 'No date';
+  const companyHtml = e.company ? `<div class="reg-timeline-company">${escapeHtml(e.company)}</div>` : '';
+  const descHtml = e.desc ? `<div class="reg-timeline-desc">${escapeHtml(truncate(e.desc, 150))}</div>` : '';
 
   return `
     <div class="reg-timeline-entry">
@@ -259,10 +251,10 @@ function renderTimelineEntry(e) {
       <div class="reg-timeline-body">
         <div class="reg-timeline-meta">
           <span class="reg-timeline-date">${dateStr}</span>
-          <span class="reg-timeline-badge ${e.badgeClass}">${escHtml(e.badgeLabel)}</span>
-          <span class="reg-timeline-agency">${escHtml(truncate(e.agency, 60))}</span>
+          <span class="reg-timeline-badge ${e.badgeClass}">${escapeHtml(e.badgeLabel)}</span>
+          <span class="reg-timeline-agency">${escapeHtml(truncate(e.agency, 60))}</span>
         </div>
-        <div class="reg-timeline-title">${escHtml(truncate(e.title, 120))}</div>
+        <div class="reg-timeline-title">${escapeHtml(truncate(e.title, 120))}</div>
         ${companyHtml}
         ${descHtml}
       </div>
@@ -308,15 +300,15 @@ function initFDATracker() {
 
     html += `
       <div class="fda-company-card">
-        <div class="fda-company-name">${escHtml(co)}</div>
+        <div class="fda-company-name">${escapeHtml(co)}</div>
         <div class="fda-company-count">${actions.length} FDA action${actions.length !== 1 ? 's' : ''}</div>
         ${renderFDAPipeline(stageIndex)}
         <div class="fda-products-list">
           ${actions.slice(0, 5).map(a => `
             <div class="fda-product-item">
               <span class="fda-product-date">${a.date || 'N/A'}</span>
-              <span class="fda-product-name" title="${escHtml(a.product || '')}">${escHtml(truncate(a.product || 'N/A', 70))}</span>
-              <span class="fda-product-status ${getStatusClass(a.status)}">${escHtml(a.status || 'N/A')}</span>
+              <span class="fda-product-name" title="${escapeHtml(a.product || '')}">${escapeHtml(truncate(a.product || 'N/A', 70))}</span>
+              <span class="fda-product-status ${getStatusClass(a.status)}">${escapeHtml(a.status || 'N/A')}</span>
             </div>
           `).join('')}
           ${actions.length > 5 ? `<div style="color: rgba(255,255,255,0.35); font-size: 0.78rem; padding: 4px 10px;">+ ${actions.length - 5} more actions</div>` : ''}
@@ -458,7 +450,7 @@ function initAgencyOverview() {
         </div>
       </div>
       <div class="agency-companies">
-        ${ag.companies.map(c => `<span class="agency-company-tag">${escHtml(c)}</span>`).join('')}
+        ${ag.companies.map(c => `<span class="agency-company-tag">${escapeHtml(c)}</span>`).join('')}
       </div>
     </div>
   `).join('');
@@ -496,10 +488,10 @@ function initFAACertTracker() {
     var milestonesHtml = (entry.milestones || []).map(function(m) {
       var statusClass = (m.status || 'pending').replace('_', '-');
       var icon = m.status === 'completed' ? '&#x2705;' : m.status === 'in_progress' ? '&#x1F504;' : '&#x23F3;';
-      return '<div class="cert-milestone ' + escAttr(statusClass) + '">' +
+      return '<div class="cert-milestone ' + escapeAttr(statusClass) + '">' +
         '<span class="cert-milestone-icon">' + icon + '</span>' +
-        '<span class="cert-milestone-date">' + escHtml(m.date || '') + '</span>' +
-        '<span class="cert-milestone-event">' + escHtml(m.event || '') + '</span>' +
+        '<span class="cert-milestone-date">' + escapeHtml(m.date || '') + '</span>' +
+        '<span class="cert-milestone-event">' + escapeHtml(m.event || '') + '</span>' +
       '</div>';
     }).join('');
 
@@ -509,17 +501,17 @@ function initFAACertTracker() {
 
     return '<div class="cert-card">' +
       '<div class="cert-card-header">' +
-        '<span class="cert-company-name">' + escHtml(entry.company || 'Unknown') + '</span>' +
-        '<span class="cert-status-badge ' + statusBadgeClass + '">' + escHtml(truncate(entry.status || 'N/A', 32)) + '</span>' +
+        '<span class="cert-company-name">' + escapeHtml(entry.company || 'Unknown') + '</span>' +
+        '<span class="cert-status-badge ' + statusBadgeClass + '">' + escapeHtml(truncate(entry.status || 'N/A', 32)) + '</span>' +
       '</div>' +
       '<div class="cert-card-subtitle">' + subtitle + '</div>' +
       '<div class="cert-progress"><div class="cert-progress-fill faa-fill" style="width:' + pct + '%"></div></div>' +
       '<div class="cert-progress-label"><span class="cert-progress-pct">' + pct + '%</span><span>Progress</span></div>' +
-      '<div class="cert-current-milestone"><strong>Current:</strong> ' + escHtml(currentMilestone) + '</div>' +
+      '<div class="cert-current-milestone"><strong>Current:</strong> ' + escapeHtml(currentMilestone) + '</div>' +
       '<div class="cert-milestone-timeline">' + milestonesHtml + '</div>' +
       '<div class="cert-meta">' +
-        '<span>Updated: ' + formatDate(entry.lastUpdated) + '</span>' +
-        (entry.note ? '<span>' + escHtml(truncate(entry.note, 60)) + '</span>' : '') +
+        '<span>Updated: ' + formatDateAbsolute(entry.lastUpdated) + '</span>' +
+        (entry.note ? '<span>' + escapeHtml(truncate(entry.note, 60)) + '</span>' : '') +
       '</div>' +
     '</div>';
   }).join('');
@@ -546,10 +538,10 @@ function initNRCLicenseTracker() {
     var milestonesHtml = (entry.milestones || []).map(function(m) {
       var statusClass = (m.status || 'pending').replace('_', '-');
       var icon = m.status === 'completed' ? '&#x2705;' : m.status === 'in_progress' ? '&#x1F504;' : '&#x23F3;';
-      return '<div class="cert-milestone ' + escAttr(statusClass) + '">' +
+      return '<div class="cert-milestone ' + escapeAttr(statusClass) + '">' +
         '<span class="cert-milestone-icon">' + icon + '</span>' +
-        '<span class="cert-milestone-date">' + escHtml(m.date || '') + '</span>' +
-        '<span class="cert-milestone-event">' + escHtml(m.event || '') + '</span>' +
+        '<span class="cert-milestone-date">' + escapeHtml(m.date || '') + '</span>' +
+        '<span class="cert-milestone-event">' + escapeHtml(m.event || '') + '</span>' +
       '</div>';
     }).join('');
 
@@ -558,18 +550,18 @@ function initNRCLicenseTracker() {
 
     return '<div class="cert-card">' +
       '<div class="cert-card-header">' +
-        '<span class="cert-company-name">' + escHtml(entry.company || 'Unknown') + '</span>' +
-        '<span class="cert-status-badge ' + statusBadgeClass + '">' + escHtml(truncate(entry.status || 'N/A', 36)) + '</span>' +
+        '<span class="cert-company-name">' + escapeHtml(entry.company || 'Unknown') + '</span>' +
+        '<span class="cert-status-badge ' + statusBadgeClass + '">' + escapeHtml(truncate(entry.status || 'N/A', 36)) + '</span>' +
       '</div>' +
       '<div class="cert-card-subtitle">' + subtitle + '</div>' +
       '<div class="cert-progress"><div class="cert-progress-fill nrc-fill" style="width:' + pct + '%"></div></div>' +
       '<div class="cert-progress-label"><span class="cert-progress-pct">' + pct + '%</span><span>Progress</span></div>' +
       '<div class="cert-milestone-timeline">' + milestonesHtml + '</div>' +
       '<div class="cert-meta">' +
-        (entry.docketNumber && entry.docketNumber !== 'N/A' ? '<span class="cert-docket">Docket #' + escHtml(entry.docketNumber) + '</span>' : '<span></span>') +
-        '<span>Updated: ' + formatDate(entry.lastUpdated) + '</span>' +
+        (entry.docketNumber && entry.docketNumber !== 'N/A' ? '<span class="cert-docket">Docket #' + escapeHtml(entry.docketNumber) + '</span>' : '<span></span>') +
+        '<span>Updated: ' + formatDateAbsolute(entry.lastUpdated) + '</span>' +
       '</div>' +
-      (entry.note ? '<div style="font-size:0.75rem;color:rgba(255,255,255,0.35);margin-top:8px;font-style:italic;">' + escHtml(truncate(entry.note, 120)) + '</div>' : '') +
+      (entry.note ? '<div style="font-size:0.75rem;color:rgba(255,255,255,0.35);margin-top:8px;font-style:italic;">' + escapeHtml(truncate(entry.note, 120)) + '</div>' : '') +
     '</div>';
   }).join('');
 }
@@ -627,9 +619,9 @@ function initRegRisk() {
       <div class="risk-card">
         <div class="risk-icon">${s.icon || '📋'}</div>
         <div class="risk-body">
-          <div class="risk-sector-name">${escHtml(name)}</div>
+          <div class="risk-sector-name">${escapeHtml(name)}</div>
           <span class="risk-level-badge ${levelClass}">${levelLabel}</span>
-          <div class="risk-reason">${escHtml(risk.reason)}</div>
+          <div class="risk-reason">${escapeHtml(risk.reason)}</div>
         </div>
       </div>
     `;
@@ -667,11 +659,11 @@ function initFedRegisterMonitor() {
     filtersEl.innerHTML = `
       <select class="fed-filter-select" id="fed-agency-filter">
         <option value="all">All Agencies</option>
-        ${[...agenciesSet].sort().map(a => `<option value="${escAttr(a)}">${escHtml(truncate(a, 60))}</option>`).join('')}
+        ${[...agenciesSet].sort().map(a => `<option value="${escapeAttr(a)}">${escapeHtml(truncate(a, 60))}</option>`).join('')}
       </select>
       <select class="fed-filter-select" id="fed-type-filter">
         <option value="all">All Types</option>
-        ${[...typesSet].sort().map(t => `<option value="${escAttr(t)}">${escHtml(t)}</option>`).join('')}
+        ${[...typesSet].sort().map(t => `<option value="${escapeAttr(t)}">${escapeHtml(t)}</option>`).join('')}
       </select>
     `;
 
@@ -714,14 +706,14 @@ function renderFedRegCards(entries) {
     return `
       <div class="fed-register-card">
         <div class="fed-reg-card-header">
-          <span class="fed-reg-type-badge ${typeClass}">${escHtml(r.type || 'N/A')}</span>
-          <span class="fed-reg-date">${formatDate(r.date)}</span>
+          <span class="fed-reg-type-badge ${typeClass}">${escapeHtml(r.type || 'N/A')}</span>
+          <span class="fed-reg-date">${formatDateAbsolute(r.date)}</span>
         </div>
-        <div class="fed-reg-title">${escHtml(truncate(r.title || 'Untitled', 100))}</div>
-        <div class="fed-reg-agency">${escHtml(truncate(r.agencies || 'Unknown Agency', 80))}</div>
+        <div class="fed-reg-title">${escapeHtml(truncate(r.title || 'Untitled', 100))}</div>
+        <div class="fed-reg-agency">${escapeHtml(truncate(r.agencies || 'Unknown Agency', 80))}</div>
         ${sectors.length > 0 ? `
           <div class="fed-reg-sectors">
-            ${sectors.map(s => `<span class="fed-reg-sector-tag">${escHtml(s)}</span>`).join('')}
+            ${sectors.map(s => `<span class="fed-reg-sector-tag">${escapeHtml(s)}</span>`).join('')}
           </div>
         ` : ''}
       </div>
@@ -778,12 +770,12 @@ function initClinicalTrials() {
       <div class="ct-company-card" id="ct-card-${idx}">
         <div class="ct-company-header" onclick="toggleCTCard(${idx})">
           <div class="ct-company-info">
-            <span class="ct-company-name">${escHtml(truncate(sponsor, 60))}</span>
+            <span class="ct-company-name">${escapeHtml(truncate(sponsor, 60))}</span>
             <span class="ct-trial-count">${trials.length} trial${trials.length !== 1 ? 's' : ''}</span>
           </div>
           <div style="display:flex;align-items:center;gap:8px;">
             <div class="ct-phase-badges">
-              ${phases.map(p => `<span class="ct-phase-badge ${getPhaseClass(p)}">${escHtml(p)}</span>`).join('')}
+              ${phases.map(p => `<span class="ct-phase-badge ${getPhaseClass(p)}">${escapeHtml(p)}</span>`).join('')}
             </div>
             <span class="ct-expand-icon">▼</span>
           </div>
@@ -791,7 +783,7 @@ function initClinicalTrials() {
         <div class="ct-trials-body">
           ${phases.map(phase => `
             <div class="ct-phase-group">
-              <div class="ct-phase-group-title">${escHtml(phase)} (${byPhase[phase].length})</div>
+              <div class="ct-phase-group-title">${escapeHtml(phase)} (${byPhase[phase].length})</div>
               ${byPhase[phase].map(t => renderTrialItem(t)).join('')}
             </div>
           `).join('')}
@@ -807,14 +799,14 @@ function renderTrialItem(t) {
 
   return `
     <div class="ct-trial-item">
-      <div class="ct-trial-title">${escHtml(truncate(t.title || 'Untitled Trial', 120))}</div>
+      <div class="ct-trial-title">${escapeHtml(truncate(t.title || 'Untitled Trial', 120))}</div>
       <div class="ct-trial-meta">
-        <span class="ct-trial-status ${statusClass}">${escHtml(statusLabel)}</span>
-        <span class="ct-trial-date">${formatDate(t.lastUpdated)}</span>
-        <span class="ct-trial-nct">${escHtml(t.nctId || '')}</span>
+        <span class="ct-trial-status ${statusClass}">${escapeHtml(statusLabel)}</span>
+        <span class="ct-trial-date">${formatDateAbsolute(t.lastUpdated)}</span>
+        <span class="ct-trial-nct">${escapeHtml(t.nctId || '')}</span>
         ${t.enrollment ? `<span class="ct-trial-enrollment">n=${t.enrollment}</span>` : ''}
       </div>
-      ${t.conditions ? `<div class="ct-trial-conditions">${escHtml(truncate(t.conditions, 100))}</div>` : ''}
+      ${t.conditions ? `<div class="ct-trial-conditions">${escapeHtml(truncate(t.conditions, 100))}</div>` : ''}
     </div>
   `;
 }
@@ -886,32 +878,6 @@ function initRegMobileMenu() {
       btn.classList.remove('open');
     });
   });
-}
-
-// ─── UTILITY FUNCTIONS ───
-function escHtml(str) {
-  const div = document.createElement('div');
-  div.textContent = str || '';
-  return div.innerHTML;
-}
-
-function escAttr(str) {
-  return (str || '').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-}
-
-function truncate(str, max) {
-  if (!str) return '';
-  return str.length > max ? str.substring(0, max) + '...' : str;
-}
-
-function formatDate(dateStr) {
-  if (!dateStr) return 'N/A';
-  try {
-    const d = new Date(dateStr + 'T00:00:00');
-    return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-  } catch (e) {
-    return dateStr;
-  }
 }
 
 // ─── SECTION HEADER VISIBILITY OBSERVER ───

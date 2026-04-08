@@ -30,15 +30,6 @@
     { label: 'Growth', cls: 'lb-bar-growth', color: '#14b8a6' }
   ];
 
-  // ─── SAFE INIT ───
-  function safeInit(name, fn) {
-    try {
-      fn();
-    } catch (e) {
-      console.error('[DealFlow] ' + name + ' failed:', e);
-    }
-  }
-
   // ─── DATA HELPERS ───
   function getCompanies() {
     return typeof COMPANIES !== 'undefined' ? COMPANIES : [];
@@ -277,23 +268,6 @@
     animateCounter('df-pipeline-count', pipelineCount);
     animateCounter('df-thesis-matches', thesisMatches);
     animateCounter('df-upcoming', allNames.size);
-  }
-
-  function animateCounter(id, target) {
-    var el = document.getElementById(id);
-    if (!el) return;
-    if (target === 0) { el.textContent = '0'; return; }
-    var start = 0;
-    var duration = 800;
-    var startTime = performance.now();
-    function step(ts) {
-      var elapsed = ts - startTime;
-      var progress = Math.min(elapsed / duration, 1);
-      var eased = 1 - Math.pow(1 - progress, 3);
-      el.textContent = Math.round(eased * target);
-      if (progress < 1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
   }
 
   // ═══════════════════════════════════════════

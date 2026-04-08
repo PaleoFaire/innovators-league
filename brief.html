@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Intelligence Brief | The Innovators League</title>
+    <meta name="description" content="Weekly intelligence digest covering funding rounds, SEC filings, federal register activity, market signals, and tech news across frontier technology.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:title" content="Weekly Intelligence Brief | The Innovators League">
+    <meta property="og:description" content="Weekly intelligence digest for frontier technology.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Weekly Intelligence Brief | The Innovators League">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260325">
+    <link rel="stylesheet" href="brief-page.css?v=20260325">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
+            <a href="investors.html" class="nav-link">Investors</a>
+            <a href="jobs.html" class="nav-link">Talent</a>
+            <a href="valuations.html" class="nav-link">Valuations</a>
+            <a href="dealflow.html" class="nav-link">Deal Flow</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main active">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="brief.html" class="nav-dropdown-link active">Weekly Brief</a>
+                    <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="nav-dropdown-link">Field Notes &#8599;</a>
+                </div>
+            </div>
+            <div class="nav-auth" id="nav-auth">
+                <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            </div>
+            <div class="nav-user" id="nav-user" style="display:none;">
+                <span class="nav-user-email" id="nav-user-email"></span>
+                <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+            </div>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+    <!-- Breadcrumb Navigation -->
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
+        <span aria-current="page">Weekly Brief</span>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero brief-hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow">INTELLIGENCE DIGEST</p>
+            <h1 class="hero-title">Weekly Intelligence Brief</h1>
+            <p class="hero-subtitle">Funding rounds, SEC filings, federal register activity, market signals, and tech news &mdash; distilled into a single weekly digest.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="brief-date">---</span>
+                    <span class="stat-label">Brief Date</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="brief-total-items">0</span>
+                    <span class="stat-label">Total Items</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="brief-section-count">0</span>
+                    <span class="stat-label">Sections</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Brief Content -->
+    <main class="brief-main">
+        <div class="container">
+            <!-- Loading Skeleton -->
+            <div id="brief-skeleton" class="brief-skeleton">
+                <div class="skeleton-header">
+                    <div class="skeleton-line skeleton-title"></div>
+                    <div class="skeleton-line skeleton-subtitle"></div>
+                </div>
+                <div class="skeleton-section">
+                    <div class="skeleton-line skeleton-section-title"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                </div>
+                <div class="skeleton-section">
+                    <div class="skeleton-line skeleton-section-title"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                </div>
+                <div class="skeleton-section">
+                    <div class="skeleton-line skeleton-section-title"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                    <div class="skeleton-card"></div>
+                </div>
+            </div>
+
+            <!-- Rendered Content -->
+            <div id="brief-content" style="display:none;"></div>
+
+            <!-- Error State -->
+            <div id="brief-error" class="brief-error" style="display:none;">
+                <div class="brief-error-icon">&#9888;</div>
+                <h3>Failed to Load Brief</h3>
+                <p>We couldn't load the weekly intelligence brief. Please try again later.</p>
+                <button onclick="loadBrief()" class="brief-retry-btn">Retry</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">THE INNOVATORS LEAGUE</div>
+                    <p>A project of the Rational Optimist Society. We celebrate human achievement, technological progress, and the entrepreneurs building a better future.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>ROS</h4>
+                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener">Main Site</a>
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
+                    <a href="https://x.com/RationalOptSoc" target="_blank" rel="noopener">X / Twitter</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <a href="visualizations.html">Insights</a>
+                    <a href="investors.html">Investors</a>
+                    <a href="jobs.html">Jobs & Talent</a>
+                    <a href="valuations.html">Valuations</a>
+                    <a href="govradar.html">Gov Radar</a>
+                    <a href="regulatory.html">Regulatory</a>
+                    <a href="brief.html">Weekly Brief</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rational Optimist Society &middot; The Innovators League</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="utils.js?v=20260408"></script>
+    <script src="auth.js?v=20260325"></script>
+    <script src="data.js?v=20260325"></script>
+    <script src="brief.js?v=20260325"></script>
+</body>
+</html>

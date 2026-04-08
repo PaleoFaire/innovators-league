@@ -60,6 +60,7 @@
     // Render all sections
     renderHeroSection(currentCompany);
     renderTractionSection(currentCompany);
+    renderCompanyTimeline(currentCompany);
     renderCompetitiveSection(currentCompany);
     renderIntelligenceSection(currentCompany);
     renderMarketIntelSection(currentCompany);
@@ -114,14 +115,14 @@
     }
 
     // Generate one-liner (first sentence of description)
-    const oneLiner = company.description?.split('.')[0] + '.' || 'Frontier technology company.';
+    const oneLiner = company.description ? company.description.split('.')[0] + '.' : 'Frontier technology company.';
 
     container.innerHTML = `
       <div class="hero-top-row">
         <div class="hero-main">
           <div class="hero-badges">
             <span class="sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border: 1px solid ${sectorInfo.color}30;">
-              ${sectorInfo.icon} ${company.sector}
+              ${sectorInfo.icon} ${escapeHtml(company.sector)}
             </span>
             ${company.signal ? `<span class="signal-badge-large ${company.signal}">${getSignalIcon(company.signal)} ${company.signal.toUpperCase()}</span>` : ''}
             ${company.tbpnMentioned ? '<span class="signal-badge-large" style="background:#22c55e15; color:#22c55e; border:1px solid #22c55e40;">✓ TBPN Featured</span>' : ''}
@@ -129,17 +130,17 @@
           <div class="company-logo-icon" style="width:72px; height:72px; border-radius:16px; background:${sectorInfo.color}20; border:2px solid ${sectorInfo.color}40; display:flex; align-items:center; justify-content:center; font-size:36px; margin:12px 0;">
             ${sectorInfo.icon}
           </div>
-          <h1 class="company-name-large">${company.name}</h1>
-          <p class="company-oneliner">${oneLiner}</p>
+          <h1 class="company-name-large">${escapeHtml(company.name)}</h1>
+          <p class="company-oneliner">${escapeHtml(oneLiner)}</p>
           <div class="hero-meta">
             <span class="meta-item">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              ${company.location || 'Location TBD'}
+              ${escapeHtml(company.location || 'Location TBD')}
             </span>
             <span class="meta-divider"></span>
-            <span class="meta-item">🌍 ${country}</span>
-            ${company.founder ? `<span class="meta-divider"></span><span class="meta-item">👤 ${company.founder}</span>` : ''}
-            ${company.founded ? `<span class="meta-divider"></span><span class="meta-item">📅 Est. ${company.founded}</span>` : ''}
+            <span class="meta-item">🌍 ${escapeHtml(country)}</span>
+            ${company.founder ? `<span class="meta-divider"></span><span class="meta-item">👤 ${escapeHtml(company.founder)}</span>` : ''}
+            ${company.founded ? `<span class="meta-divider"></span><span class="meta-item">📅 Est. ${escapeHtml(company.founded)}</span>` : ''}
           </div>
         </div>
         <div class="hero-score-card">
@@ -150,10 +151,10 @@
       </div>
 
       <div class="hero-stats-grid">
-        ${company.fundingStage ? `<div class="hero-stat"><div class="hero-stat-value">${company.fundingStage}</div><div class="hero-stat-label">Stage</div></div>` : ''}
-        ${company.totalRaised ? `<div class="hero-stat"><div class="hero-stat-value">${company.totalRaised}</div><div class="hero-stat-label">Total Raised</div></div>` : ''}
-        ${company.valuation ? `<div class="hero-stat"><div class="hero-stat-value">${company.valuation}</div><div class="hero-stat-label">Valuation</div></div>` : `<div class="hero-stat"><div class="hero-stat-value" style="font-size:14px; color:var(--text-muted);">Undisclosed</div><div class="hero-stat-label">Valuation</div></div>`}
-        ${company.employees ? `<div class="hero-stat"><div class="hero-stat-value">${company.employees}</div><div class="hero-stat-label">Employees</div></div>` : ''}
+        ${company.fundingStage ? `<div class="hero-stat"><div class="hero-stat-value">${escapeHtml(company.fundingStage)}</div><div class="hero-stat-label">Stage</div></div>` : ''}
+        ${company.totalRaised ? `<div class="hero-stat"><div class="hero-stat-value">${escapeHtml(company.totalRaised)}</div><div class="hero-stat-label">Total Raised</div></div>` : ''}
+        ${company.valuation ? `<div class="hero-stat"><div class="hero-stat-value">${escapeHtml(company.valuation)}</div><div class="hero-stat-label">Valuation</div></div>` : `<div class="hero-stat"><div class="hero-stat-value" style="font-size:14px; color:var(--text-muted);">Undisclosed</div><div class="hero-stat-label">Valuation</div></div>`}
+        ${company.employees ? `<div class="hero-stat"><div class="hero-stat-value">${escapeHtml(company.employees)}</div><div class="hero-stat-label">Employees</div></div>` : ''}
         ${getTRL(company) ? `<div class="hero-stat"><div class="hero-stat-value">TRL ${getTRL(company)}</div><div class="hero-stat-label">Tech Readiness</div></div>` : ''}
       </div>
 
@@ -163,7 +164,7 @@
             <span class="ros-take-badge">ROS TAKE</span>
             <span style="color:var(--text-muted); font-size:12px;">Our differentiated analysis</span>
           </div>
-          <div class="ros-take-content">${company.insight}</div>
+          <div class="ros-take-content">${escapeHtml(company.insight)}</div>
         </div>
       ` : ''}
 
@@ -218,7 +219,7 @@
       container.innerHTML = `
         <div class="no-data">
           <p>No funding history available</p>
-          ${company.totalRaised ? `<p style="margin-top:8px; color:var(--text);">Total raised: <strong>${company.totalRaised}</strong></p>` : ''}
+          ${company.totalRaised ? `<p style="margin-top:8px; color:var(--text);">Total raised: <strong>${escapeHtml(company.totalRaised)}</strong></p>` : ''}
         </div>
       `;
       return;
@@ -230,9 +231,9 @@
           <div class="funding-round">
             <div class="funding-round-date">${formatDate(round.date)}</div>
             <div class="funding-round-details">
-              <div class="funding-round-amount">${round.amount}</div>
-              <div class="funding-round-stage">${round.stage || round.type || 'Funding Round'}</div>
-              ${round.investor ? `<div class="funding-round-investors">Lead: ${round.investor}</div>` : ''}
+              <div class="funding-round-amount">${escapeHtml(round.amount)}</div>
+              <div class="funding-round-stage">${escapeHtml(round.stage || round.type || 'Funding Round')}</div>
+              ${round.investor ? `<div class="funding-round-investors">Lead: ${escapeHtml(round.investor)}</div>` : ''}
               <div class="funding-source">
                 <a href="https://www.google.com/search?q=${encodeURIComponent(company.name + ' ' + round.amount + ' funding')}" target="_blank" rel="noopener">Verify →</a>
               </div>
@@ -267,9 +268,9 @@
       html += `
         <div class="contract-summary" style="margin-bottom:16px; padding:12px; background:var(--bg); border-radius:8px;">
           <div style="display:flex; gap:16px; flex-wrap:wrap;">
-            ${contractIntel.totalContracts ? `<div><strong>${contractIntel.totalContracts}</strong> <span style="color:var(--text-muted); font-size:12px;">Contracts</span></div>` : ''}
+            ${contractIntel.totalContracts ? `<div><strong>${escapeHtml(String(contractIntel.totalContracts))}</strong> <span style="color:var(--text-muted); font-size:12px;">Contracts</span></div>` : ''}
             ${contractIntel.agencies ? `<div><strong>${contractIntel.agencies.length}</strong> <span style="color:var(--text-muted); font-size:12px;">Agencies</span></div>` : ''}
-            ${contractIntel.clearanceLevel ? `<div><strong>${contractIntel.clearanceLevel}</strong> <span style="color:var(--text-muted); font-size:12px;">Clearance</span></div>` : ''}
+            ${contractIntel.clearanceLevel ? `<div><strong>${escapeHtml(contractIntel.clearanceLevel)}</strong> <span style="color:var(--text-muted); font-size:12px;">Clearance</span></div>` : ''}
           </div>
         </div>
       `;
@@ -279,11 +280,11 @@
       html += contracts.map(contract => `
         <div class="contract-item">
           <div class="contract-header">
-            <span class="contract-agency">${contract.agency || 'Government'}</span>
-            <span class="contract-value">${contract.value || 'Undisclosed'}</span>
+            <span class="contract-agency">${escapeHtml(contract.agency || 'Government')}</span>
+            <span class="contract-value">${escapeHtml(contract.value || 'Undisclosed')}</span>
           </div>
-          <div class="contract-description">${contract.description || contract.program || 'Contract details'}</div>
-          ${contract.samUrl ? `<a href="${contract.samUrl}" target="_blank" rel="noopener" class="contract-link">View on SAM.gov →</a>` : ''}
+          <div class="contract-description">${escapeHtml(contract.description || contract.program || 'Contract details')}</div>
+          ${contract.samUrl ? `<a href="${sanitizeUrl(contract.samUrl)}" target="_blank" rel="noopener" class="contract-link">View on SAM.gov →</a>` : ''}
         </div>
       `).join('');
     }
@@ -319,7 +320,7 @@
           ${getHiringIcon(altData.hiringVelocity)} ${(altData.hiringVelocity || 'unknown').toUpperCase()}
         </span>
       </div>
-      ${altData.keySignal ? `<p style="margin-top:12px; font-size:13px; color:var(--text-muted);">${altData.keySignal}</p>` : ''}
+      ${altData.keySignal ? `<p style="margin-top:12px; font-size:13px; color:var(--text-muted);">${escapeHtml(altData.keySignal)}</p>` : ''}
     `;
 
     // Create mock hiring chart (in production, this would use real data)
@@ -347,39 +348,43 @@
 
     if (hiringChart) hiringChart.destroy();
 
-    hiringChart = new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: months,
-        datasets: [{
-          label: 'Headcount',
-          data: data,
-          borderColor: '#ff6b2c',
-          backgroundColor: 'rgba(255, 107, 44, 0.1)',
-          fill: true,
-          tension: 0.4,
-          pointRadius: 3,
-          pointBackgroundColor: '#ff6b2c'
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: {
-          legend: { display: false }
+    try {
+      hiringChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: months,
+          datasets: [{
+            label: 'Headcount',
+            data: data,
+            borderColor: '#ff6b2c',
+            backgroundColor: 'rgba(255, 107, 44, 0.1)',
+            fill: true,
+            tension: 0.4,
+            pointRadius: 3,
+            pointBackgroundColor: '#ff6b2c'
+          }]
         },
-        scales: {
-          x: {
-            grid: { color: 'rgba(255,255,255,0.05)' },
-            ticks: { color: 'rgba(255,255,255,0.5)', font: { size: 10 } }
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false }
           },
-          y: {
-            grid: { color: 'rgba(255,255,255,0.05)' },
-            ticks: { color: 'rgba(255,255,255,0.5)', font: { size: 10 } }
+          scales: {
+            x: {
+              grid: { color: 'rgba(255,255,255,0.05)' },
+              ticks: { color: 'rgba(255,255,255,0.5)', font: { size: 10 } }
+            },
+            y: {
+              grid: { color: 'rgba(255,255,255,0.05)' },
+              ticks: { color: 'rgba(255,255,255,0.5)', font: { size: 10 } }
+            }
           }
         }
-      }
-    });
+      });
+    } catch (e) {
+      console.error('[TIL] Hiring chart failed:', e);
+    }
   }
 
   function renderMilestones(company) {
@@ -419,8 +424,8 @@
       <div class="milestone-item">
         <span class="milestone-date">${formatDate(m.date)}</span>
         <div class="milestone-content">
-          <div class="milestone-title">${m.title}</div>
-          <div class="milestone-desc">${m.description}</div>
+          <div class="milestone-title">${escapeHtml(m.title)}</div>
+          <div class="milestone-desc">${escapeHtml(m.description)}</div>
         </div>
       </div>
     `).join('');
@@ -443,15 +448,15 @@
 
     container.innerHTML = `
       <div class="revenue-display">
-        <div class="revenue-value">${revenue.revenue}</div>
-        <div class="revenue-period">${revenue.period}</div>
-        ${revenue.growth ? `<div class="revenue-growth positive">${revenue.growth} growth</div>` : ''}
+        <div class="revenue-value">${escapeHtml(revenue.revenue)}</div>
+        <div class="revenue-period">${escapeHtml(revenue.period)}</div>
+        ${revenue.growth ? `<div class="revenue-growth positive">${escapeHtml(revenue.growth)} growth</div>` : ''}
         <div class="revenue-confidence">
           <div class="confidence-label">Confidence Level</div>
           <div class="confidence-bar">
             <div class="confidence-fill ${confidenceLevel}" style="width:${confidenceWidth}%;"></div>
           </div>
-          <p style="font-size:11px; color:var(--text-muted); margin-top:8px;">Source: ${revenue.source || 'Industry estimates'}</p>
+          <p style="font-size:11px; color:var(--text-muted); margin-top:8px;">Source: ${escapeHtml(revenue.source || 'Industry estimates')}</p>
         </div>
       </div>
     `;
@@ -487,7 +492,7 @@
           <div class="competitor-grid">
             ${sectorPeers.map(c => `
               <a href="company.html?slug=${profileSlug(c.name)}" class="competitor-chip">
-                ${c.name}
+                ${escapeHtml(c.name)}
               </a>
             `).join('')}
           </div>
@@ -503,8 +508,8 @@
       <div class="competitor-grid">
         ${competitors.map(c => `
           <a href="company.html?slug=${profileSlug(c.name)}" class="competitor-chip">
-            ${c.name}
-            ${c.valuation ? `<span style="color:var(--text-muted); font-size:11px;">${c.valuation}</span>` : ''}
+            ${escapeHtml(c.name)}
+            ${c.valuation ? `<span style="color:var(--text-muted); font-size:11px;">${escapeHtml(c.valuation)}</span>` : ''}
           </a>
         `).join('')}
       </div>
@@ -537,16 +542,16 @@
 
     container.innerHTML = `
       <div style="margin-bottom: 10px; padding: 6px 12px; background: #1a1a1a; border-radius: 6px; font-size: 12px; color: #FF6B2C;">
-        Cluster: ${clusterLabel} (${neighbors.length + 1} companies)
+        Cluster: ${escapeHtml(clusterLabel)} (${neighbors.length + 1} companies)
       </div>
       ${company.techApproach ? `<div style="margin-bottom: 12px; font-size: 12px; color: #aaa; border-left: 2px solid #FF6B2C; padding-left: 10px; line-height: 1.5;">
-        <strong style="color: #ddd;">This company:</strong> ${company.techApproach}
+        <strong style="color: #ddd;">This company:</strong> ${escapeHtml(company.techApproach)}
       </div>` : ''}
       <div class="competitor-grid">
         ${neighbors.slice(0, 12).map(c => `
           <a href="company.html?slug=${profileSlug(c.name)}" class="competitor-chip" style="flex-direction: column; align-items: flex-start; gap: 2px;">
-            <span>${signalEmoji[c.signal] || ''} ${c.name}</span>
-            ${c.techApproach ? `<span style="font-size: 10px; color: var(--text-muted); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${c.techApproach}</span>` : ''}
+            <span>${signalEmoji[c.signal] || ''} ${escapeHtml(c.name)}</span>
+            ${c.techApproach ? `<span style="font-size: 10px; color: var(--text-muted); line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${escapeHtml(c.techApproach)}</span>` : ''}
           </a>
         `).join('')}
       </div>
@@ -567,14 +572,14 @@
       ${company.thesis.bull ? `
         <div class="thesis-section">
           <div class="thesis-label bull">🐂 Bull Case</div>
-          <p class="thesis-text">${company.thesis.bull}</p>
+          <p class="thesis-text">${escapeHtml(company.thesis.bull)}</p>
         </div>
       ` : ''}
 
       ${company.thesis.bear ? `
         <div class="thesis-section">
           <div class="thesis-label bear">🐻 Bear Case</div>
-          <p class="thesis-text">${company.thesis.bear}</p>
+          <p class="thesis-text">${escapeHtml(company.thesis.bear)}</p>
         </div>
       ` : ''}
 
@@ -582,7 +587,7 @@
         <div class="thesis-section">
           <div class="thesis-label" style="color:var(--text-muted);">⚠️ Key Risks</div>
           <ul class="risks-list">
-            ${company.thesis.risks.map(r => `<li><span class="risk-icon">•</span> ${r}</li>`).join('')}
+            ${company.thesis.risks.map(r => `<li><span class="risk-icon">•</span> ${escapeHtml(r)}</li>`).join('')}
           </ul>
         </div>
       ` : ''}
@@ -662,8 +667,8 @@
           '<span class="moat-dim-score ' + strength + '">' + dim.score + '/10</span>' +
         '</div>' +
         '<div class="moat-dim-bar"><div class="moat-dim-fill ' + strength + '" style="width:' + barWidth + '%"></div></div>' +
-        '<div class="moat-dim-label">' + dim.label + '</div>' +
-        '<div class="moat-dim-evidence">' + dim.evidence + '</div>' +
+        '<div class="moat-dim-label">' + escapeHtml(dim.label) + '</div>' +
+        '<div class="moat-dim-evidence">' + escapeHtml(dim.evidence) + '</div>' +
       '</div>';
     });
 
@@ -673,13 +678,13 @@
       milestonesHtml += '<div class="moat-milestone-item">' +
         '<span class="moat-milestone-icon">\u2B50</span>' +
         '<div><div class="moat-milestone-label">Key Milestone</div>' +
-        '<div class="moat-milestone-text">' + profile.keyMilestone + '</div></div></div>';
+        '<div class="moat-milestone-text">' + escapeHtml(profile.keyMilestone) + '</div></div></div>';
     }
     if (profile.scalePath) {
       milestonesHtml += '<div class="moat-milestone-item">' +
         '<span class="moat-milestone-icon">\u{1F680}</span>' +
         '<div><div class="moat-milestone-label">Scale Path</div>' +
-        '<div class="moat-milestone-text">' + profile.scalePath + '</div></div></div>';
+        '<div class="moat-milestone-text">' + escapeHtml(profile.scalePath) + '</div></div></div>';
     }
 
     // Build cross-references HTML
@@ -710,7 +715,7 @@
       (profile.moatNarrative ?
         '<div class="moat-narrative">' +
           '<div class="moat-narrative-label">Moat Analysis</div>' +
-          '<p>' + profile.moatNarrative + '</p>' +
+          '<p>' + escapeHtml(profile.moatNarrative) + '</p>' +
         '</div>' : '') +
       (milestonesHtml ? '<div class="moat-milestones">' + milestonesHtml + '</div>' : '') +
       (crossrefsHtml ? '<div class="moat-crossrefs">' + crossrefsHtml + '</div>' : '');
@@ -777,25 +782,25 @@
       container.innerHTML = `
         <div class="patent-stats">
           <div class="patent-stat">
-            <div class="patent-stat-value">${liveCount || patent.totalPatents}</div>
+            <div class="patent-stat-value">${escapeHtml(String(liveCount || patent.totalPatents))}</div>
             <div class="patent-stat-label">Patents${liveCount ? ' (USPTO)' : ''}</div>
           </div>
           <div class="patent-stat">
-            <div class="patent-stat-value">${patent.velocity}</div>
+            <div class="patent-stat-value">${escapeHtml(patent.velocity)}</div>
             <div class="patent-stat-label">Filing Rate</div>
           </div>
           <div class="patent-stat">
-            <div class="patent-stat-value" style="color:${moatClass === 'high' ? '#22c55e' : moatClass === 'mid' ? '#f59e0b' : '#6b7280'};">${patent.trend || '→'}</div>
+            <div class="patent-stat-value" style="color:${moatClass === 'high' ? '#22c55e' : moatClass === 'mid' ? '#f59e0b' : '#6b7280'};">${escapeHtml(patent.trend || '→')}</div>
             <div class="patent-stat-label">Trend</div>
           </div>
         </div>
         <div class="ip-moat-score">
           <span class="ip-moat-label">IP Moat Score</span>
-          <span class="ip-moat-value ${moatClass}">${patent.ipMoatScore}/10</span>
+          <span class="ip-moat-value ${moatClass}">${escapeHtml(patent.ipMoatScore)}/10</span>
         </div>
         ${patent.techAreas && patent.techAreas.length > 0 ? `
           <div class="patent-areas">
-            ${patent.techAreas.map(t => `<span class="patent-area-tag">${t}</span>`).join('')}
+            ${patent.techAreas.map(t => `<span class="patent-area-tag">${escapeHtml(t)}</span>`).join('')}
           </div>
         ` : ''}
       `;
@@ -805,7 +810,7 @@
       container.innerHTML = `
         <div class="patent-stats">
           <div class="patent-stat">
-            <div class="patent-stat-value">${livePatent.patentCount}</div>
+            <div class="patent-stat-value">${escapeHtml(String(livePatent.patentCount))}</div>
             <div class="patent-stat-label">Patents (USPTO)</div>
           </div>
           <div class="patent-stat">
@@ -813,13 +818,13 @@
             <div class="patent-stat-label">Tech Areas</div>
           </div>
           <div class="patent-stat">
-            <div class="patent-stat-value">${livePatent.latestPatentDate || 'N/A'}</div>
+            <div class="patent-stat-value">${escapeHtml(livePatent.latestPatentDate || 'N/A')}</div>
             <div class="patent-stat-label">Latest Filing</div>
           </div>
         </div>
         ${areas.length > 0 ? `
           <div class="patent-areas">
-            ${areas.map(t => `<span class="patent-area-tag">${t}</span>`).join('')}
+            ${areas.map(t => `<span class="patent-area-tag">${escapeHtml(t)}</span>`).join('')}
           </div>
         ` : ''}
         <p style="font-size:11px;color:var(--text-muted);margin-top:8px;">Source: USPTO PatentsView API</p>
@@ -841,22 +846,22 @@
       <div class="alt-data-grid">
         <div class="alt-data-item">
           <div class="alt-data-label">Hiring Velocity</div>
-          <div class="alt-data-value ${altData.hiringVelocity}">${(altData.hiringVelocity || 'Unknown').toUpperCase()}</div>
+          <div class="alt-data-value ${altData.hiringVelocity}">${escapeHtml((altData.hiringVelocity || 'Unknown').toUpperCase())}</div>
         </div>
         <div class="alt-data-item">
           <div class="alt-data-label">Web Traffic</div>
-          <div class="alt-data-value ${altData.webTraffic}">${(altData.webTraffic || 'Unknown').toUpperCase()}</div>
+          <div class="alt-data-value ${altData.webTraffic}">${escapeHtml((altData.webTraffic || 'Unknown').toUpperCase())}</div>
         </div>
         <div class="alt-data-item">
           <div class="alt-data-label">News Sentiment</div>
-          <div class="alt-data-value">${(altData.newsSentiment || 'Neutral').toUpperCase()}</div>
+          <div class="alt-data-value">${escapeHtml((altData.newsSentiment || 'Neutral').toUpperCase())}</div>
         </div>
         <div class="alt-data-item">
           <div class="alt-data-label">Signal Strength</div>
-          <div class="alt-data-value" style="color:var(--accent);">${altData.signalStrength}/10</div>
+          <div class="alt-data-value" style="color:var(--accent);">${escapeHtml(altData.signalStrength)}/10</div>
         </div>
       </div>
-      ${altData.keySignal ? `<p style="margin-top:12px; font-size:13px; color:var(--text-muted); padding:12px; background:var(--bg); border-radius:8px;">${altData.keySignal}</p>` : ''}
+      ${altData.keySignal ? `<p style="margin-top:12px; font-size:13px; color:var(--text-muted); padding:12px; background:var(--bg); border-radius:8px;">${escapeHtml(altData.keySignal)}</p>` : ''}
     `;
   }
 
@@ -882,7 +887,7 @@
           <div style="display:flex; align-items:center; gap:8px; margin-bottom:8px;">
             <span style="background:var(--accent); color:#000; padding:2px 8px; border-radius:4px; font-size:10px; font-weight:700;">ROS CONNECTED</span>
           </div>
-          ${founderConnection.exclusiveQuote ? `<p style="font-style:italic; font-size:14px;">"${founderConnection.exclusiveQuote}"</p>` : ''}
+          ${founderConnection.exclusiveQuote ? `<p style="font-style:italic; font-size:14px;">"${escapeHtml(founderConnection.exclusiveQuote)}"</p>` : ''}
         </div>
       `;
     }
@@ -894,8 +899,8 @@
             <div class="mafia-badge-large" style="border-left:3px solid ${m.color};">
               <span class="mafia-icon-large">${m.icon}</span>
               <div class="mafia-info">
-                <div class="mafia-name-large">${m.mafia}</div>
-                <div class="mafia-detail-large">${m.detail}</div>
+                <div class="mafia-name-large">${escapeHtml(m.mafia)}</div>
+                <div class="mafia-detail-large">${escapeHtml(m.detail)}</div>
               </div>
             </div>
           `).join('')}
@@ -921,10 +926,10 @@
     container.innerHTML = `
       <div class="news-list">
         ${news.map(n => `
-          <a href="${n.url || '#'}" target="_blank" rel="noopener" class="news-item">
+          <a href="${sanitizeUrl(n.url)}" target="_blank" rel="noopener" class="news-item">
             <div class="news-date">${formatDate(n.date)}</div>
-            <div class="news-title">${n.headline}</div>
-            ${n.source ? `<div class="news-source">${n.source}</div>` : ''}
+            <div class="news-title">${escapeHtml(n.headline)}</div>
+            ${n.source ? `<div class="news-source">${escapeHtml(n.source)}</div>` : ''}
           </a>
         `).join('')}
       </div>
@@ -948,9 +953,9 @@
       <div class="news-list">
         ${releases.map(r => `
           <div class="news-item" style="cursor:default;">
-            <div class="news-date">${r.date || ''}</div>
-            <div class="news-title" style="font-family:monospace;font-size:12px;">${r.tag}</div>
-            <div class="news-source">${r.repo}</div>
+            <div class="news-date">${escapeHtml(r.date || '')}</div>
+            <div class="news-title" style="font-family:monospace;font-size:12px;">${escapeHtml(r.tag)}</div>
+            <div class="news-source">${escapeHtml(r.repo)}</div>
           </div>
         `).join('')}
       </div>
@@ -986,10 +991,10 @@
       <p style="font-size:11px;color:var(--text-muted);margin-bottom:8px;">${label} papers from arXiv</p>
       <div class="news-list">
         ${allPapers.map(p => `
-          <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener" class="news-item">
-            <div class="news-date">${p.published || ''}</div>
-            <div class="news-title" style="font-size:12px;">${(p.title || '').substring(0, 100)}</div>
-            <div class="news-source">${p.category || ''}</div>
+          <a href="https://arxiv.org/abs/${encodeURIComponent(p.id)}" target="_blank" rel="noopener" class="news-item">
+            <div class="news-date">${escapeHtml(p.published || '')}</div>
+            <div class="news-title" style="font-size:12px;">${escapeHtml((p.title || '').substring(0, 100))}</div>
+            <div class="news-source">${escapeHtml(p.category || '')}</div>
           </a>
         `).join('')}
       </div>
@@ -1020,13 +1025,13 @@
         ${trials.map(t => {
           const color = statusColors[t.status] || '#6b7280';
           return `
-            <a href="https://clinicaltrials.gov/study/${t.nctId}" target="_blank" rel="noopener" class="news-item">
+            <a href="https://clinicaltrials.gov/study/${encodeURIComponent(t.nctId)}" target="_blank" rel="noopener" class="news-item">
               <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
-                <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:${color}15;color:${color};font-weight:600;">${(t.status || '').replace(/_/g, ' ')}</span>
-                ${t.phase && t.phase !== 'N/A' ? `<span style="font-size:10px;color:var(--text-muted);">${t.phase}</span>` : ''}
+                <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:${color}15;color:${color};font-weight:600;">${escapeHtml((t.status || '').replace(/_/g, ' '))}</span>
+                ${t.phase && t.phase !== 'N/A' ? `<span style="font-size:10px;color:var(--text-muted);">${escapeHtml(t.phase)}</span>` : ''}
               </div>
-              <div class="news-title" style="font-size:12px;">${(t.title || '').substring(0, 100)}</div>
-              <div class="news-source">Enrollment: ${t.enrollment || 'N/A'} &middot; ${t.lastUpdated || ''}</div>
+              <div class="news-title" style="font-size:12px;">${escapeHtml((t.title || '').substring(0, 100))}</div>
+              <div class="news-source">Enrollment: ${escapeHtml(t.enrollment || 'N/A')} &middot; ${escapeHtml(t.lastUpdated || '')}</div>
             </a>
           `;
         }).join('')}
@@ -1051,9 +1056,9 @@
       <div class="news-list">
         ${actions.map(a => `
           <div class="news-item" style="cursor:default;">
-            <div class="news-date">${a.date || ''}</div>
-            <div class="news-title" style="font-size:12px;">${a.product || ''}</div>
-            <div class="news-source">${a.type === 'device_510k' ? '510(k) Clearance' : a.type || ''} &middot; ${a.status || ''}</div>
+            <div class="news-date">${escapeHtml(a.date || '')}</div>
+            <div class="news-title" style="font-size:12px;">${escapeHtml(a.product || '')}</div>
+            <div class="news-source">${escapeHtml(a.type === 'device_510k' ? '510(k) Clearance' : a.type || '')} &middot; ${escapeHtml(a.status || '')}</div>
           </div>
         `).join('')}
       </div>
@@ -1086,8 +1091,8 @@
               <span style="font-size:11px;font-weight:600;color:var(--accent);">${h.score} pts</span>
               <span style="font-size:11px;color:var(--text-muted);">${h.comments} comments</span>
             </div>
-            <div class="news-title" style="font-size:12px;">${h.title}</div>
-            <div class="news-source">${h.date || ''}</div>
+            <div class="news-title" style="font-size:12px;">${escapeHtml(h.title)}</div>
+            <div class="news-source">${escapeHtml(h.date || '')}</div>
           </a>
         `).join('')}
       </div>
@@ -1121,13 +1126,13 @@
         ${docs.map(d => {
           const color = typeColors[d.type] || '#6b7280';
           return `
-            <a href="https://www.federalregister.gov/documents/${d.docNum}" target="_blank" rel="noopener" class="news-item">
+            <a href="https://www.federalregister.gov/documents/${encodeURIComponent(d.docNum)}" target="_blank" rel="noopener" class="news-item">
               <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
-                <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:${color}15;color:${color};font-weight:600;">${d.type || ''}</span>
-                <span style="font-size:10px;color:var(--text-muted);">${d.date || ''}</span>
+                <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:${color}15;color:${color};font-weight:600;">${escapeHtml(d.type || '')}</span>
+                <span style="font-size:10px;color:var(--text-muted);">${escapeHtml(d.date || '')}</span>
               </div>
-              <div class="news-title" style="font-size:12px;">${(d.title || '').substring(0, 100)}</div>
-              <div class="news-source">${d.agencies || ''}</div>
+              <div class="news-title" style="font-size:12px;">${escapeHtml((d.title || '').substring(0, 100))}</div>
+              <div class="news-source">${escapeHtml(d.agencies || '')}</div>
             </a>
           `;
         }).join('')}
@@ -1169,13 +1174,13 @@
         ${programs.map(p => `
           <div class="news-item" style="cursor:default;">
             <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px;">
-              <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:#3b82f615;color:#3b82f6;font-weight:600;">${p.source}</span>
-              <span style="font-size:10px;color:var(--text-muted);">${p.status || ''}</span>
+              <span style="font-size:10px;padding:2px 6px;border-radius:4px;background:#3b82f615;color:#3b82f6;font-weight:600;">${escapeHtml(p.source)}</span>
+              <span style="font-size:10px;color:var(--text-muted);">${escapeHtml(p.status || '')}</span>
             </div>
-            <div class="news-title" style="font-size:12px;">${p.program || p.title || ''}</div>
+            <div class="news-title" style="font-size:12px;">${escapeHtml(p.program || p.title || '')}</div>
             <div class="news-source">
-              ${p.funding ? `Funding: ${p.funding}` : ''}
-              ${p.agency ? ` &middot; ${p.agency}` : ''}
+              ${p.funding ? `Funding: ${escapeHtml(p.funding)}` : ''}
+              ${p.agency ? ` &middot; ${escapeHtml(p.agency)}` : ''}
             </div>
           </div>
         `).join('')}
@@ -1259,7 +1264,7 @@
 
     container.innerHTML = `
       <div class="stock-summary">
-        <div class="stock-ticker">${stockData.ticker} · ${stockData.exchange || 'NYSE'}</div>
+        <div class="stock-ticker">${escapeHtml(stockData.ticker)} · ${escapeHtml(stockData.exchange || 'NYSE')}</div>
         <div class="stock-price-large">$${stockData.price.toFixed(2)}</div>
         <div class="stock-change ${changeClass}">
           ${changeIcon} ${Math.abs(stockData.change).toFixed(2)} (${Math.abs(stockData.changePercent).toFixed(2)}%)
@@ -1281,7 +1286,7 @@
           ${stockData.marketCap && stockData.marketCap !== 'N/A' ? `
             <div class="stock-detail">
               <span class="stock-detail-label">Market Cap</span>
-              <span class="stock-detail-value">${stockData.marketCap}</span>
+              <span class="stock-detail-value">${escapeHtml(stockData.marketCap)}</span>
             </div>
           ` : ''}
         </div>
@@ -1316,10 +1321,10 @@
           const formIcon = f.form === '10-K' ? '📊' : f.form === '10-Q' ? '📈' : f.form === '8-K' ? '📰' : f.form === '4' ? '👤' : '📄';
           return `
             <div class="filing-item">
-              <span class="filing-form ${formClass}">${formIcon} ${f.form}</span>
-              <span class="filing-company">${f.company}</span>
+              <span class="filing-form ${formClass}">${formIcon} ${escapeHtml(f.form)}</span>
+              <span class="filing-company">${escapeHtml(f.company)}</span>
               <span class="filing-date">${formatDate(f.date)}</span>
-              ${f.ticker ? `<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${f.ticker}&type=&dateb=&owner=include&count=10" target="_blank" rel="noopener" class="filing-link">EDGAR →</a>` : ''}
+              ${f.ticker ? `<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${encodeURIComponent(f.ticker)}&type=&dateb=&owner=include&count=10" target="_blank" rel="noopener" class="filing-link">EDGAR →</a>` : ''}
             </div>
           `;
         }).join('')}
@@ -1353,9 +1358,9 @@
           const typeIcon = isBuy ? '🟢' : '🔴';
           return `
             <div class="insider-item ${typeClass}">
-              <div class="insider-name">${t.insiderName || t.insider || 'Insider'}</div>
+              <div class="insider-name">${escapeHtml(t.insiderName || t.insider || 'Insider')}</div>
               <div class="insider-details">
-                <span class="insider-type">${typeIcon} ${t.type || 'Transaction'}</span>
+                <span class="insider-type">${typeIcon} ${escapeHtml(t.type || 'Transaction')}</span>
                 ${t.shares ? `<span class="insider-shares">${parseInt(t.shares).toLocaleString()} shares</span>` : ''}
                 ${t.price ? `<span class="insider-price">@ $${parseFloat(t.price).toFixed(2)}</span>` : ''}
               </div>
@@ -1395,14 +1400,14 @@
           </div>
           <div class="momentum-meta">
             <span class="momentum-trend">${trendIcon} ${(sectorData.trend || 'unknown').charAt(0).toUpperCase() + (sectorData.trend || '').slice(1)}</span>
-            ${sectorData.fundingQ ? `<span class="momentum-funding">${sectorData.fundingQ} this quarter</span>` : ''}
+            ${sectorData.fundingQ ? `<span class="momentum-funding">${escapeHtml(sectorData.fundingQ)} this quarter</span>` : ''}
           </div>
         </div>
         ${sectorData.catalysts && sectorData.catalysts.length > 0 ? `
           <div class="momentum-catalysts">
             <span class="catalyst-label">Key Catalysts</span>
             <div class="catalyst-tags">
-              ${sectorData.catalysts.map(c => `<span class="catalyst-tag">${c}</span>`).join('')}
+              ${sectorData.catalysts.map(c => `<span class="catalyst-tag">${escapeHtml(c)}</span>`).join('')}
             </div>
           </div>
         ` : ''}
@@ -1492,16 +1497,16 @@
 
         html += `<div class="demand-item">
           <div class="demand-header">
-            <span class="demand-agency">${m.signal.agency || 'Government'}</span>
+            <span class="demand-agency">${escapeHtml(m.signal.agency || 'Government')}</span>
             <div style="display:flex;align-items:center;gap:6px;">
               <div style="width:40px;height:4px;background:rgba(255,255,255,0.1);border-radius:2px;overflow:hidden;"><div style="width:${m.score}%;height:100%;background:${barColor};border-radius:2px;"></div></div>
               <span style="font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:700;color:${scoreColor};">${m.score}%</span>
             </div>
           </div>
-          <div class="demand-tech">${m.signal.title || 'Technology Area'}</div>
-          ${m.signal.value ? `<div class="demand-value">${m.signal.value}</div>` : ''}
-          ${m.signal.deadline && m.signal.deadline !== 'Rolling' ? `<div class="demand-timeline">Deadline: ${m.signal.deadline}</div>` : ''}
-          ${m.reasons.length > 0 ? `<div style="font-size:10px;color:var(--text-muted);margin-top:2px;">${m.reasons.slice(0, 3).join(' + ')}</div>` : ''}
+          <div class="demand-tech">${escapeHtml(m.signal.title || 'Technology Area')}</div>
+          ${m.signal.value ? `<div class="demand-value">${escapeHtml(m.signal.value)}</div>` : ''}
+          ${m.signal.deadline && m.signal.deadline !== 'Rolling' ? `<div class="demand-timeline">Deadline: ${escapeHtml(m.signal.deadline)}</div>` : ''}
+          ${m.reasons.length > 0 ? `<div style="font-size:10px;color:var(--text-muted);margin-top:2px;">${m.reasons.slice(0, 3).map(r => escapeHtml(r)).join(' + ')}</div>` : ''}
         </div>`;
       });
       html += '</div>';
@@ -1536,10 +1541,10 @@
       return `
         <a href="company.html?slug=${profileSlug(c.name)}" class="related-card">
           <div class="related-card-header">
-            <span class="related-card-name">${c.name}</span>
-            <span class="related-card-score">${scoreValue}</span>
+            <span class="related-card-name">${escapeHtml(c.name)}</span>
+            <span class="related-card-score">${escapeHtml(scoreValue)}</span>
           </div>
-          <p class="related-card-desc">${c.description?.substring(0, 100)}...</p>
+          <p class="related-card-desc">${escapeHtml(c.description?.substring(0, 100) || '')}...</p>
         </a>
       `;
     }).join('');
@@ -1949,5 +1954,202 @@
       briefWindow.document.close();
     }
   };
+
+  // ─── COMPANY TIMELINE ───
+  function renderCompanyTimeline(company) {
+    var card = document.getElementById('timeline-card');
+    var container = document.getElementById('company-timeline');
+    var filtersContainer = document.getElementById('timeline-filters');
+    if (!card || !container) return;
+
+    var events = [];
+    var nameLower = company.name.toLowerCase();
+
+    // Gather events from all data sources
+    // 1. Funding rounds
+    if (typeof FUNDING_TRACKER !== 'undefined') {
+      FUNDING_TRACKER.filter(function(f) { return f.company === company.name; }).forEach(function(f) {
+        events.push({
+          date: f.date,
+          type: 'funding',
+          icon: '\uD83D\uDCB0',
+          title: escapeHtml((f.stage || f.type || 'Funding') + ' \u2014 ' + (f.amount || 'Undisclosed')),
+          detail: f.investor ? 'Lead: ' + escapeHtml(f.investor) : '',
+          color: '#22c55e'
+        });
+      });
+    }
+
+    // 2. Government contracts
+    if (typeof GOV_CONTRACTS !== 'undefined') {
+      GOV_CONTRACTS.filter(function(c) {
+        var cn = (c.company || '').toLowerCase();
+        return cn === nameLower || nameLower.includes(cn) || cn.includes(nameLower);
+      }).forEach(function(c) {
+        events.push({
+          date: c.date || c.awardDate,
+          type: 'contract',
+          icon: '\uD83C\uDFDB\uFE0F',
+          title: escapeHtml((c.agency || 'Government') + ' Contract'),
+          detail: escapeHtml(c.value || c.description || ''),
+          color: '#3b82f6'
+        });
+      });
+    }
+
+    // 3. SEC filings
+    if (typeof SEC_FILINGS_LIVE !== 'undefined') {
+      SEC_FILINGS_LIVE.filter(function(f) { return (f.company || '').toLowerCase().includes(nameLower); }).forEach(function(f) {
+        events.push({
+          date: f.date || f.filingDate,
+          type: 'sec',
+          icon: '\uD83D\uDCC4',
+          title: escapeHtml('SEC Filing: ' + (f.form || f.type || 'Filing')),
+          detail: f.description ? escapeHtml(truncate(f.description, 80)) : '',
+          color: '#f59e0b'
+        });
+      });
+    }
+
+    // 4. News
+    if (typeof NEWS_FEED !== 'undefined') {
+      NEWS_FEED.filter(function(n) { return (n.companies || []).includes(company.name) || (n.headline || '').includes(company.name); }).slice(0, 10).forEach(function(n) {
+        events.push({
+          date: n.date,
+          type: 'news',
+          icon: '\uD83D\uDCF0',
+          title: escapeHtml(n.headline || 'News'),
+          detail: n.source ? escapeHtml(n.source) : '',
+          color: '#a855f7',
+          url: n.url
+        });
+      });
+    }
+
+    // 5. Patent filings
+    if (typeof PATENT_INTEL_AUTO !== 'undefined') {
+      PATENT_INTEL_AUTO.filter(function(p) { return p.company === company.name; }).forEach(function(p) {
+        if (p.latestPatentDate) {
+          events.push({
+            date: p.latestPatentDate,
+            type: 'patent',
+            icon: '\uD83D\uDCDC',
+            title: escapeHtml('Patent Activity \u2014 ' + (p.patentCount || '') + ' patents'),
+            detail: (p.technologyAreas || []).slice(0, 3).map(function(t) { return escapeHtml(t); }).join(', '),
+            color: '#06b6d4'
+          });
+        }
+      });
+    }
+
+    // 6. Product launches
+    if (typeof PRODUCT_LAUNCHES !== 'undefined') {
+      PRODUCT_LAUNCHES.filter(function(p) { return (p.company || '').toLowerCase().includes(nameLower); }).forEach(function(p) {
+        events.push({
+          date: p.date,
+          type: 'product',
+          icon: '\uD83D\uDE80',
+          title: escapeHtml(p.title || 'Product Launch'),
+          detail: p.description ? escapeHtml(truncate(p.description, 80)) : '',
+          color: '#ec4899'
+        });
+      });
+    }
+
+    // 7. Clinical trials
+    if (typeof CLINICAL_TRIALS !== 'undefined') {
+      CLINICAL_TRIALS.filter(function(t) {
+        var text = ((t.sponsor || '') + ' ' + (t.title || '')).toLowerCase();
+        return text.includes(nameLower);
+      }).slice(0, 5).forEach(function(t) {
+        events.push({
+          date: t.lastUpdated || t.startDate,
+          type: 'trial',
+          icon: '\uD83E\uDDEC',
+          title: escapeHtml(truncate(t.title || 'Clinical Trial', 80)),
+          detail: escapeHtml((t.status || '').replace(/_/g, ' ') + (t.phase ? ' \u2014 ' + t.phase : '')),
+          color: '#14b8a6'
+        });
+      });
+    }
+
+    // 8. Recent events from company data
+    if (company.recentEvent) {
+      events.push({
+        date: company.recentEvent.date,
+        type: 'event',
+        icon: '\u26A1',
+        title: escapeHtml(company.recentEvent.type || 'Event'),
+        detail: escapeHtml(company.recentEvent.text || ''),
+        color: '#FF6B2C'
+      });
+    }
+
+    if (events.length === 0) return;
+
+    // Sort by date (newest first)
+    events.sort(function(a, b) {
+      var da = a.date ? new Date(a.date) : new Date(0);
+      var db = b.date ? new Date(b.date) : new Date(0);
+      return db - da;
+    });
+
+    card.style.display = '';
+
+    // Get unique event types for filters
+    var types = [];
+    var seenTypes = {};
+    events.forEach(function(e) {
+      if (!seenTypes[e.type]) {
+        seenTypes[e.type] = true;
+        types.push(e.type);
+      }
+    });
+    var activeFilters = new Set(types);
+
+    // Render filter chips
+    var typeLabels = { funding: 'Funding', contract: 'Contracts', sec: 'SEC Filings', news: 'News', patent: 'Patents', product: 'Products', trial: 'Trials', event: 'Events' };
+    filtersContainer.innerHTML = types.map(function(t) {
+      return '<button class="timeline-filter-chip active" data-type="' + t + '">' + (typeLabels[t] || t) + '</button>';
+    }).join('');
+
+    function renderTimeline() {
+      var filtered = events.filter(function(e) { return activeFilters.has(e.type); });
+      container.innerHTML = '<div class="timeline-line">' +
+        filtered.map(function(e) {
+          var dateStr = e.date ? formatDateAbsolute(e.date) : '';
+          var linkOpen = e.url ? '<a href="' + sanitizeUrl(e.url) + '" target="_blank" rel="noopener" class="timeline-event-link">' : '<div class="timeline-event-content">';
+          var linkClose = e.url ? '</a>' : '</div>';
+          return '<div class="timeline-event" data-type="' + e.type + '">' +
+            '<div class="timeline-dot" style="background:' + e.color + ';">' + e.icon + '</div>' +
+            '<div class="timeline-event-body">' +
+              '<div class="timeline-date">' + dateStr + '</div>' +
+              linkOpen +
+                '<div class="timeline-title">' + e.title + '</div>' +
+                (e.detail ? '<div class="timeline-detail">' + e.detail + '</div>' : '') +
+              linkClose +
+            '</div>' +
+          '</div>';
+        }).join('') +
+      '</div>';
+    }
+
+    renderTimeline();
+
+    // Filter click handlers
+    filtersContainer.querySelectorAll('.timeline-filter-chip').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var type = this.dataset.type;
+        if (activeFilters.has(type)) {
+          activeFilters.delete(type);
+          this.classList.remove('active');
+        } else {
+          activeFilters.add(type);
+          this.classList.add('active');
+        }
+        renderTimeline();
+      });
+    });
+  }
 
 })();

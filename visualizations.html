@@ -36,6 +36,7 @@
         <div class="nav-dropdown">
             <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
             <div class="nav-dropdown-content">
+                <a href="brief.html" class="nav-dropdown-link">Weekly Brief</a>
                 <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                 <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
                 <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="nav-dropdown-link">Field Notes &#8599;</a>
@@ -172,6 +173,18 @@
 </section>
 
 
+<!-- Data Health Dashboard -->
+<section class="viz-section" id="data-health">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <p class="section-eyebrow">INFRASTRUCTURE</p>
+            <h2>Data Source Health</h2>
+            <p style="color:var(--text-muted);margin-bottom:16px;">Status of automated data pipelines</p>
+        </div>
+        <div id="data-health-grid" class="data-health-grid animate-in"></div>
+    </div>
+</section>
+
 <footer class="footer">
     <div class="container">
         <div class="footer-content">
@@ -202,8 +215,25 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="utils.js?v=20260408"></script>
 <script src="auth.js?v=20260325"></script>
 <script src="data.js?v=20260325"></script>
+<script src="data/stocks_auto.js?v=20260325"></script>
+<script src="data/sec_filings_auto.js?v=20260325"></script>
+<script src="data/gov_contracts_auto.js?v=20260325"></script>
+<script src="data/patent_intel_auto.js?v=20260325"></script>
+<script src="data/hackernews_buzz_auto.js?v=20260325"></script>
+<script src="data/news_signals_auto.js?v=20260325"></script>
+<script src="data/jobs_auto.js?v=20260325"></script>
+<script src="data/moat_profiles.js?v=20260325"></script>
+<script src="data/founder_dna.js?v=20260325"></script>
+<script src="data/clinical_trials_auto.js?v=20260325"></script>
+<script src="data/arxiv_papers_auto.js?v=20260325"></script>
+<script src="data/federal_register_auto.js?v=20260325"></script>
+<script src="data/sam_contracts_auto.js?v=20260325"></script>
+<script src="data/sbir_awards_auto.js?v=20260325"></script>
+<script src="data/github_releases_auto.js?v=20260325"></script>
+<script src="data/headcount_estimates_auto.js?v=20260325"></script>
 <script>
 // ─── MOBILE MENU ───
 (function() {
@@ -615,6 +645,82 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
     if(t) t.scrollIntoView({ behavior:'smooth', block:'start' });
   });
 });
+
+// ─── DATA HEALTH DASHBOARD ───
+function initDataHealth() {
+  var grid = document.getElementById('data-health-grid');
+  if (!grid) return;
+
+  var sources = [
+    { name: 'Companies', global: 'COMPANIES', icon: '🏢' },
+    { name: 'Innovator Scores', global: 'INNOVATOR_SCORES', icon: '📊' },
+    { name: 'SEC Filings', global: 'SEC_FILINGS_LIVE', icon: '📄' },
+    { name: 'Gov Contracts', global: 'GOV_CONTRACTS', icon: '🏛️' },
+    { name: 'Stock Prices', global: 'STOCK_PRICES', icon: '📈' },
+    { name: 'Job Postings', global: 'JOBS_DATA', icon: '💼' },
+    { name: 'Patent Intel', global: 'PATENT_INTEL_AUTO', icon: '📜' },
+    { name: 'News Feed', global: 'NEWS_FEED', icon: '📰' },
+    { name: 'Funding Tracker', global: 'FUNDING_TRACKER', icon: '💰' },
+    { name: 'Moat Profiles', global: 'MOAT_PROFILES', icon: '🛡️' },
+    { name: 'Founder DNA', global: 'FOUNDER_DNA', icon: '🧬' },
+    { name: 'Clinical Trials', global: 'CLINICAL_TRIALS', icon: '💊' },
+    { name: 'arXiv Papers', global: 'ARXIV_PAPERS', icon: '📚' },
+    { name: 'HN Buzz', global: 'HN_BUZZ', icon: '🔶' },
+    { name: 'Federal Register', global: 'FEDERAL_REGISTER', icon: '📋' },
+    { name: 'SAM Contracts', global: 'SAM_CONTRACTS_AUTO', icon: '🏗️' },
+    { name: 'SBIR Awards', global: 'SBIR_AWARDS_AUTO', icon: '🎯' },
+    { name: 'GitHub Releases', global: 'GITHUB_RELEASES', icon: '🐙' }
+  ];
+
+  var html = '';
+  var loaded = 0, empty = 0, missing = 0;
+
+  sources.forEach(function(src) {
+    var data = typeof window[src.global] !== 'undefined' ? window[src.global] : null;
+    var status, statusClass, count;
+
+    if (!data) {
+      status = 'Not Loaded';
+      statusClass = 'health-missing';
+      count = '—';
+      missing++;
+    } else if (Array.isArray(data) && data.length === 0) {
+      status = 'Empty';
+      statusClass = 'health-empty';
+      count = '0 records';
+      empty++;
+    } else if (typeof data === 'object' && !Array.isArray(data) && Object.keys(data).length === 0) {
+      status = 'Empty';
+      statusClass = 'health-empty';
+      count = '0 records';
+      empty++;
+    } else {
+      status = 'Active';
+      statusClass = 'health-active';
+      count = Array.isArray(data) ? data.length + ' records' : Object.keys(data).length + ' entries';
+      loaded++;
+    }
+
+    html += '<div class="health-card ' + statusClass + '">' +
+      '<div class="health-icon">' + src.icon + '</div>' +
+      '<div class="health-info">' +
+        '<div class="health-name">' + escapeHtml(src.name) + '</div>' +
+        '<div class="health-count">' + count + '</div>' +
+      '</div>' +
+      '<div class="health-status">' + status + '</div>' +
+    '</div>';
+  });
+
+  var summaryHtml = '<div class="health-summary">' +
+    '<span class="health-summary-item health-active">' + loaded + ' Active</span>' +
+    '<span class="health-summary-item health-empty">' + empty + ' Empty</span>' +
+    '<span class="health-summary-item health-missing">' + missing + ' Missing</span>' +
+  '</div>';
+
+  grid.innerHTML = summaryHtml + html;
+}
+
+safeInit('DataHealth', initDataHealth);
 </script>
 </body>
 </html>

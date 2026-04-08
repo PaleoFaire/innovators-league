@@ -46,6 +46,7 @@
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
+                    <a href="brief.html" class="nav-dropdown-link">Weekly Brief</a>
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
                     <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="nav-dropdown-link">Field Notes &#8599;</a>
@@ -360,7 +361,7 @@
                         <option value="recent">Sort: Recent Activity</option>
                         <option value="saved">Sort: Saved First</option>
                     </select>
-                    <button onclick="exportWatchlistCSV()" class="filter-select" style="cursor:pointer; background:var(--bg-tertiary); color:var(--text-secondary); border:1px solid var(--border); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif;">Export CSV</button>
+                    <button onclick="exportCompanyList()" class="filter-select" style="cursor:pointer; background:var(--bg-tertiary); color:var(--text-secondary); border:1px solid var(--border); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif;">Export CSV</button>
                     <button onclick="saveCurrentSearch()" class="filter-select save-search-btn" style="cursor:pointer; background:rgba(255,107,44,0.1); color:#FF6B2C; border:1px solid rgba(255,107,44,0.3); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif; font-weight:600;">&#128190; Save Search</button>
                 </div>
             </div>
@@ -387,6 +388,14 @@
         </div>
     </section>
 
+
+    <!-- Weekly Movers Section -->
+    <section id="weekly-movers" class="section-container" style="display:none;">
+      <div class="container">
+        <h2 class="section-title">This Week's Movers</h2>
+        <div id="movers-content"></div>
+      </div>
+    </section>
 
     <!-- PROPRIETARY INTELLIGENCE -->
 
@@ -1411,6 +1420,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="utils.js?v=20260408"></script>
     <script src="auth.js?v=20260325"></script>
     <script src="data.js?v=20260325"></script>
     <script src="data/stocks_auto.js?v=20260325"></script>

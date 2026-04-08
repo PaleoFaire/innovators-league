@@ -23,10 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ─── Master Init ─────────────────────────────────────────────────────────────
 function initValuations() {
-  function safeInit(name, fn) {
-    try { fn(); } catch (e) { console.error('[Valuations] ' + name + ' failed:', e); }
-  }
-
   safeInit('initHeroStats', initHeroStats);
   safeInit('initSectorValMap', initSectorValMap);
   safeInit('initRevenueLeaderboard', initRevenueLeaderboard);
