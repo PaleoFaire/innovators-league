@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 6.07,
+      "avg_change": 5.97,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.7,
+      "avg_change": 12.48,
       "count": 3
     },
     "transportation": {
@@ -86,14 +86,14 @@
   ],
   "topLosers": [
     [
-      "DRSHF",
-      "DroneShield",
-      1.37
-    ],
-    [
       "SLDP",
       "Solid Power",
       0.71
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      0.07
     ],
     [
       "TSLA",
@@ -111,5 +111,5 @@
       -10.63
     ]
   ],
-  "lastUpdated": "2026-04-08 07:27:25"
+  "lastUpdated": "2026-04-08 13:27:04"
 }
