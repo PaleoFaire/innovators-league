@@ -24845,23 +24845,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-09 09:18
+// Last updated: 2026-04-09 14:02
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Andrenam", headline: "Turkish, Italian defense firms team up to produce unmanned surface vessels for Italy", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Fervo Energy", headline: "Fervo Energy inks big turbine deal to build more next-gen geothermal", source: "Canary Media", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "WeaveGrid", headline: "CPUC Wastes a Golden Opportunity to Right Wrongs of Previous Community Solar Decisions that Harm Californians with Lower", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Karman Industries", headline: "The Electrified Future Is Already Here. Canada Just Needs to Build It", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Machina Labs", headline: "Electric Trucks Go Mainstream in Europe", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Cape", headline: "E-SAF Made in Europe ' A Source of Jobs, Growth, and Energy Security", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Crusoe Energy", headline: "Good News: A Bunch Of AI Data Centers In Limbo", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Conflicting Rulings Leave Anthropic in 'Supply-Chain Risk' Limbo", source: "Wired", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Anthropic", headline: "Spy agencies eye new Anthropic AI model that spots cyber flaws", source: "Defense One", time: "11h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Xanadu Quantum Technologies", headline: "WireGuard VPN developer can't ship software updates after Microsoft locks account", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Aurora Innovation", headline: "A self-driving car in Texas hit and killed a mother duck, sparking neighborhood outrage", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Amca", headline: "Canva doubles down on AI and marketing automation with Simtheory, Ortto acquisitions", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Galvanick", headline: "Iran-linked hackers disrupt operations at US critical infrastructure sites", source: "Ars Technica", time: "12h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Slingshot Aerospace", headline: "Improved thresholds and SSA accuracy can reduce most satellite collision risk", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Anthropic", headline: "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict", source: "TechCrunch", time: "13h ago", impact: "high", unread: false },
+  { id: 1, type: "milestone", company: "Ample", headline: "40 New EV Chargers &#038; Solar Power Launched In LA Area", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "Anthropic", headline: "Pentagon's ouster of Anthropic opens'doors for small AI rivals", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Galvanick", headline: "Chip Can Project Video the Size of a Grain of Sand", source: "IEEE Spectrum", time: "1h ago", impact: "medium", unread: true },
+  { id: 4, type: "ipo", company: "SpaceX", headline: "This founder helped build SpaceX's most powerful rocket engine. Now he's building a 'fighter jet for o", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "hire", company: "Standard Nuclear", headline: "Radify's sci-fi plasma reactors could break China's dominance of rare earth elements", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Waymo", headline: "Waymo robotaxis are tracking potholes and sharing that data with Waze users", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Ample", headline: "Charging Data Shows That Ethiopia's Electric Vehicle Landscape is Blossoming", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Wardstone", headline: "Researchers propose 'rewilding' Europe's borderlands to repel enemies", source: "Defense News", time: "1h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "SpaceX", headline: "What Do SpaceX, xAI, And X Have In Common? Is It Tesla?", source: "CleanTechnica", time: "1h ago", impact: "high", unread: false },
+  { id: 10, type: "news", company: "Mariana Minerals", headline: "Ex-Tesla engineer's startup taps Pronto to help automate a copper mine", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
+  { id: 11, type: "news", company: "Firestorm Labs", headline: "TCL NXTVISION Art TV Review: Just Fine", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Cape", headline: "Politicians Are Spending More Money on Security as They Increasingly Become Targets", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Vital Lyfe", headline: "Desalination technology, by the numbers", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Andrenam", headline: "Turkish, Italian defense firms team up to produce unmanned surface vessels for Italy", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Fervo Energy", headline: "Fervo Energy inks big turbine deal to build more next-gen geothermal", source: "Canary Media", time: "6h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
