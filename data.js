@@ -13825,7 +13825,7 @@ const VC_FIRMS = [
     thesis: "Software is eating the world. American Dynamism backs founders building in defense, aerospace, public safety, housing, education, and manufacturing — sectors where technology can strengthen American resilience.",
     keyPartners: ["Marc Andreessen", "Ben Horowitz", "Katherine Boyle", "David Ulevitch"],
     sectorFocus: ["Defense & Security", "AI & Software", "Robotics & Manufacturing"],
-    portfolioCompanies: ["Groq", "Skild AI", "Hadrian", "Astranis", "Physical Intelligence", "Saronic", "Watershed", "ElevenLabs", "Anysphere", "Shield AI", "Modal", "Flock Safety", "Anduril Industries", "Orangewood Labs"],
+    portfolioCompanies: ["Groq", "Skild AI", "Hadrian", "Astranis", "Physical Intelligence", "Saronic", "Watershed", "ElevenLabs", "Anysphere", "Shield AI", "Modal", "Flock Safety", "Anduril Industries", "Orangewood Labs", "Castelion", "Forterra", "Radiant", "Applied Intuition", "Apex Space"],
     signal: "established",
     website: "https://a16z.com",
     insight: "a16z's American Dynamism fund has become the most prominent capital allocator to hard tech defense and industrial startups. Katherine Boyle's thesis that 'building is a form of civic duty' has reshaped how Silicon Valley views government-adjacent sectors. Their portfolio reads like a who's-who of the defense tech renaissance."
@@ -13840,7 +13840,7 @@ const VC_FIRMS = [
     thesis: "Backing the industrial renaissance — companies building real things that transform defense, logistics, manufacturing, and biology. Founded by Joe Lonsdale with deep Palantir DNA.",
     keyPartners: ["Joe Lonsdale", "Drew Oetting", "Jake Medwell"],
     sectorFocus: ["Defense & Security", "Robotics & Manufacturing", "Biotech & Health"],
-    portfolioCompanies: ["Epirus", "Saildrone", "Hadrian", "Saronic", "Bedrock Robotics", "Joby Aviation", "Orangewood Labs"],
+    portfolioCompanies: ["Epirus", "Saildrone", "Hadrian", "Saronic", "Bedrock Robotics", "Joby Aviation", "Orangewood Labs", "CX2 Industries", "Vannevar Labs", "Shield AI", "Mach Industries", "Anduril Industries", "Mammoth Biosciences"],
     signal: "established",
     website: "https://8vc.com",
     insight: "Joe Lonsdale's 8VC embodies the 'American Dynamism' ethos with a Texas twist. Their portfolio leans heavily into defense and industrial transformation, leveraging Lonsdale's Palantir network to source deals other VCs miss. Deep conviction in the defense tech thesis."
@@ -13855,7 +13855,7 @@ const VC_FIRMS = [
     thesis: "We wanted flying cars, instead we got 140 characters. Investing in transformative technology companies that create revolutionary change. First institutional investor in SpaceX.",
     keyPartners: ["Peter Thiel", "Trae Stephens", "Delian Asparouhov", "Napoleon Ta"],
     sectorFocus: ["Defense & Security", "Space & Aerospace", "AI & Software"],
-    portfolioCompanies: ["Endurosat", "General Matter", "Varda Space Industries", "Hadrian", "Boom Supersonic", "Zettascale", "Astroscale", "Anduril Industries", "Flexport", "OpenAI", "Neuralink", "Impulse Space", "Relativity Space", "Finwave Semiconductor", "SpaceX", "Crusoe Energy", "NuScale Power", "Impulse Labs", "The Boring Company", "Cognition", "Flock Safety", "Infleqtion", "Scale AI", "PsiQuantum", "Foundry Lab", "Solugen", "Palantir", "D-Wave Quantum", "Nominal"],
+    portfolioCompanies: ["Endurosat", "General Matter", "Varda Space Industries", "Hadrian", "Boom Supersonic", "Zettascale", "Astroscale", "Anduril Industries", "Flexport", "OpenAI", "Neuralink", "Impulse Space", "Relativity Space", "Finwave Semiconductor", "SpaceX", "Crusoe Energy", "NuScale Power", "Impulse Labs", "The Boring Company", "Cognition", "Flock Safety", "Infleqtion", "Scale AI", "PsiQuantum", "Foundry Lab", "Solugen", "Palantir", "D-Wave Quantum", "Nominal", "Gecko Robotics", "Armada"],
     signal: "established",
     website: "https://foundersfund.com",
     insight: "Founders Fund remains the intellectual center of contrarian hard tech investing. Peter Thiel's conviction that 'we live in a world of bits, not atoms' drove the fund's early SpaceX, Palantir, and Anduril bets. Trae Stephens and Delian Asparouhov now lead the defense tech thesis, having essentially created the category."
@@ -13870,7 +13870,7 @@ const VC_FIRMS = [
     thesis: "Willing to fail in order to change the world. Making big, risky bets on audacious technology — from nuclear fusion to AI — that most VCs consider too capital-intensive or technically risky.",
     keyPartners: ["Vinod Khosla", "Samir Kaul", "Keith Rabois", "Sven Strohband"],
     sectorFocus: ["Energy & Climate", "AI & Software", "Biotech & Health"],
-    portfolioCompanies: ["Crusoe Energy", "Helion", "Commonwealth Fusion Systems", "OpenAI", "Collaborative Robotics"],
+    portfolioCompanies: ["Crusoe Energy", "Helion", "Commonwealth Fusion Systems", "OpenAI", "Collaborative Robotics", "Hermeus", "Rocket Lab", "Quaise Energy", "Waabi", "Physical Intelligence", "Mach Industries"],
     signal: "established",
     website: "https://khoslaventures.com",
     insight: "Vinod Khosla's willingness to make 'black swan' bets sets his fund apart. Early OpenAI investor, fusion energy pioneer backer (Helion, CFS), and consistent contrarian — Khosla has built arguably the deepest deep tech portfolio in the world. His philosophy: 'My willingness to fail gives me the ability to succeed.'"
@@ -13885,7 +13885,7 @@ const VC_FIRMS = [
     thesis: "Partnering with daring founders who want to build enduring companies. From Apple to NVIDIA, 133 unicorns and counting. Restructured in 2023 into US/Europe entity. Evergreen fund model replacing traditional 10-year cycles.",
     keyPartners: ["Alfred Lin", "Pat Grady", "Shaun Maguire", "Roelof Botha"],
     sectorFocus: ["AI & Software", "Defense & Security", "Energy & Climate"],
-    portfolioCompanies: ["Varda Space Industries", "SpaceX", "Stripe", "NVIDIA", "Collaborative Robotics", "Wiz", "Shield AI", "Palantir"],
+    portfolioCompanies: ["Varda Space Industries", "SpaceX", "Stripe", "NVIDIA", "Collaborative Robotics", "Wiz", "Shield AI", "Palantir", "Mach Industries", "Waymo", "Neuralink"],
     signal: "established",
     website: "https://sequoiacap.com",
     insight: "Sequoia's institutional prestige is unmatched — backing Apple, Google, and NVIDIA. Their 2023 restructuring (splitting from China/India operations) refocused the firm. Alfred Lin and Pat Grady now co-lead as managing partners. Shaun Maguire's hard tech and defense investments signal a seismic shift: when Sequoia allocates to a category, it validates the entire sector."
@@ -13960,7 +13960,7 @@ const VC_FIRMS = [
     thesis: "Investing in emerging science and technology ventures at the outermost edges of what is possible. Contrarian bets on unconventional founders building transformative companies in atoms, not just bits.",
     keyPartners: ["Josh Wolfe", "Peter Hébert", "Deena Shakir", "Shahin Farshchi"],
     sectorFocus: ["Defense & Security", "Biotech & Health", "Space & Aerospace"],
-    portfolioCompanies: ["Anduril Industries", "Multiply Labs", "Collaborative Robotics", "Saildrone", "Saronic", "Zoox", "Physical Intelligence"],
+    portfolioCompanies: ["Anduril Industries", "Multiply Labs", "Collaborative Robotics", "Saildrone", "Saronic", "Zoox", "Physical Intelligence", "Hadrian", "Relativity Space", "Varda Space Industries", "Impulse Space", "Astranis", "Applied Intuition", "Rigetti Computing"],
     signal: "established",
     website: "https://luxcapital.com",
     insight: "Josh Wolfe's Lux Capital is the intellectual godfather of deep tech venture capital. His 'invest in the future that sci-fi promised' philosophy produced category-defining bets on Anduril, and his prolific Twitter/X presence makes Lux the most visible deep tech brand. Their ability to identify paradigm shifts before they're obvious — from defense autonomy to space manufacturing — is unmatched."
@@ -25629,6 +25629,86 @@ const HISTORICAL_TRACKING = {
       { date: "2021-01", count: 80 },
       { date: "2023-01", count: 180 },
       { date: "2025-01", count: 280 }
+    ]
+  }
+};
+
+// ─── FUND INTELLIGENCE ───
+const FUND_INTELLIGENCE = {
+  "a16z": {
+    fullName: "Andreessen Horowitz",
+    aum: "$42B+",
+    frontierPractice: "American Dynamism",
+    frontierFundSize: "$1.176B",
+    keyPartners: ["Katherine Boyle", "David Ulevitch"],
+    thesis: "Building the future of American strength: defense, space, energy, manufacturing, housing, education",
+    notableDeals: [
+      { company: "Anduril Industries", detail: "Co-leading ~$4B round at $60B valuation (2026)" },
+      { company: "Saronic", detail: "Led $175M Series B at $1B valuation (2024)" },
+      { company: "Shield AI", detail: "Multiple rounds, $12.7B valuation" },
+      { company: "Hadrian", detail: "Participated in $260M Series C at $1.6B" },
+      { company: "Astranis", detail: "Led $200M Series D at $1.4B" }
+    ]
+  },
+  "Founders Fund": {
+    fullName: "Founders Fund",
+    aum: "$17B+",
+    keyPartners: ["Peter Thiel", "Trae Stephens", "Delian Asparouhov", "Scott Nolan"],
+    thesis: "Backing transformative companies that others are afraid to fund. First institutional investor in SpaceX and Palantir.",
+    notableDeals: [
+      { company: "Anduril Industries", detail: "$1B check in Series G — largest single check in fund history" },
+      { company: "SpaceX", detail: "First institutional investor. Position valued at ~$18.2B" },
+      { company: "Crusoe Energy", detail: "Led $600M Series D at $2.8B, then $1.38B Series E at $10B" },
+      { company: "Varda Space Industries", detail: "Co-founded by partner Delian Asparouhov" },
+      { company: "General Matter", detail: "Co-founded by partner Scott Nolan. $50M Series A" }
+    ]
+  },
+  "8VC": {
+    fullName: "8VC",
+    aum: "$7B+",
+    keyPartners: ["Joe Lonsdale"],
+    thesis: "Defense, industrials, and bio-infrastructure. Unique 'Build' program co-founds companies.",
+    notableDeals: [
+      { company: "Saronic", detail: "Co-founded. Series D at $1.75B" },
+      { company: "Epirus", detail: "Led $250M round for directed energy weapons" },
+      { company: "Bedrock Robotics", detail: "Co-led with Eclipse. Now raised $270M+" },
+      { company: "Hadrian", detail: "Participated in $260M Series C" }
+    ]
+  },
+  "Khosla Ventures": {
+    fullName: "Khosla Ventures",
+    aum: "$15B+",
+    keyPartners: ["Vinod Khosla"],
+    thesis: "Breakthrough science and energy innovation. Tolerates ~70% failure for black swan outcomes.",
+    notableDeals: [
+      { company: "Hermeus", detail: "Led $200M equity in $350M Series C (2026)" },
+      { company: "Commonwealth Fusion Systems", detail: "Investor in $863M Series B2" },
+      { company: "Quaise Energy", detail: "First institutional backer (2018)" },
+      { company: "Rocket Lab", detail: "Invested $28M across Series A+. Now worth ~$1.7B" }
+    ]
+  },
+  "Sequoia": {
+    fullName: "Sequoia Capital",
+    aum: "$56B+",
+    keyPartners: ["Roelof Botha", "Alfred Lin"],
+    thesis: "Moving aggressively into defense and hard tech. Mach Industries was first defense investment.",
+    notableDeals: [
+      { company: "SpaceX", detail: "Contributed $1B in Series F (2015)" },
+      { company: "Mach Industries", detail: "Led $5.7M Seed (2023) — first defense bet" },
+      { company: "Neuralink", detail: "Co-led $650M Series E at $9B" },
+      { company: "Varda Space Industries", detail: "Investor in $90M raise" }
+    ]
+  },
+  "Lux Capital": {
+    fullName: "Lux Capital",
+    aum: "$5B+",
+    keyPartners: ["Josh Wolfe", "Peter Hebert"],
+    thesis: "Investing in the future. OG frontier tech fund. Raising dedicated $200M defense fund.",
+    notableDeals: [
+      { company: "Anduril Industries", detail: "Wrote the first check (2017 seed)" },
+      { company: "Physical Intelligence", detail: "Co-led $400M round at $2B with Bezos" },
+      { company: "Hadrian", detail: "Led $90M round (2022)" },
+      { company: "Saildrone", detail: "Series A investor (2016)" }
     ]
   }
 };
