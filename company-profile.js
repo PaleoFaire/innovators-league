@@ -59,6 +59,7 @@
 
     // Render all sections
     renderHeroSection(currentCompany);
+    renderConvictionSection(currentCompany);
     renderTractionSection(currentCompany);
     renderCompanyTimeline(currentCompany);
     renderCompetitiveSection(currentCompany);
@@ -193,6 +194,84 @@
         `).join('')}
       </div>
     `;
+  }
+
+  // ═══════════════════════════════════════════════════════
+  // STEPHEN'S TAKE — CONVICTION SECTION
+  // ═══════════════════════════════════════════════════════
+
+  function renderConvictionSection(company) {
+    var heroContainer = document.getElementById('profile-hero');
+    if (!heroContainer) return;
+
+    var existing = document.getElementById('conviction-section');
+    if (existing) existing.remove();
+
+    var section = document.createElement('div');
+    section.id = 'conviction-section';
+    section.className = 'conviction-section';
+
+    // Gather data
+    var fieldNote = (typeof FIELD_NOTES !== 'undefined') ? FIELD_NOTES.find(function(n) { return n.company === company.name; }) : null;
+    var connection = (typeof FOUNDER_CONNECTIONS !== 'undefined') ? FOUNDER_CONNECTIONS[company.name] : null;
+    var conviction = fieldNote ? fieldNote.conviction : null;
+    var insight = fieldNote ? fieldNote.insight : (company.insight || null);
+    var quote = connection ? connection.exclusiveQuote : (fieldNote ? fieldNote.pullQuote : null);
+    var tripNotes = connection ? connection.tripNotes : null;
+    var metFounder = connection ? connection.metFounder : false;
+    var lastConversation = connection ? connection.lastConversation : null;
+    var isInterviewed = connection ? connection.interviewConducted : false;
+    var isSiteVisit = fieldNote ? fieldNote.type === 'site-visit' : false;
+    var isPodcast = fieldNote ? (fieldNote.type === 'podcast' || fieldNote.type === 'interview') : false;
+
+    // If nothing at all, show minimal placeholder
+    if (!insight && !quote && !tripNotes && !conviction && !metFounder) {
+      section.innerHTML = '<div class="conviction-empty"><span class="conviction-empty-label">STEPHEN\'S TAKE</span><p>No conviction note yet. This company is being tracked but has not been assessed.</p></div>';
+      heroContainer.parentNode.insertBefore(section, heroContainer.nextSibling);
+      return;
+    }
+
+    // Build conviction badge
+    var convictionBadges = {
+      'strong-buy': { label: 'STRONG BUY', cls: 'conviction-lg-strong-buy', icon: '🟢' },
+      'buy': { label: 'BUY', cls: 'conviction-lg-buy', icon: '🔵' },
+      'watch': { label: 'WATCH', cls: 'conviction-lg-watch', icon: '🟡' },
+      'caution': { label: 'CAUTION', cls: 'conviction-lg-caution', icon: '🔴' }
+    };
+    var cb = conviction ? convictionBadges[conviction] : null;
+
+    var html = '<div class="conviction-header"><span class="conviction-label">STEPHEN\'S TAKE</span>';
+    if (cb) html += '<span class="conviction-lg-badge ' + cb.cls + '">' + cb.icon + ' ' + cb.label + '</span>';
+    html += '</div>';
+
+    // Connection badges
+    var badges = [];
+    if (metFounder) badges.push('<span class="connection-badge">🤝 Met Founder</span>');
+    if (isPodcast) badges.push('<span class="connection-badge">🎙️ Podcast Guest</span>');
+    if (isSiteVisit) badges.push('<span class="connection-badge">🏭 Site Visit</span>');
+    if (isInterviewed) badges.push('<span class="connection-badge">🎤 Interviewed</span>');
+    if (badges.length > 0) html += '<div class="connection-badges">' + badges.join('') + '</div>';
+
+    // Insight/thesis
+    if (insight) html += '<div class="conviction-thesis"><p>' + escapeHtml(insight) + '</p></div>';
+
+    // Founder quote
+    if (quote) {
+      html += '<div class="conviction-quote"><div class="conviction-quote-mark">"</div><blockquote>' + escapeHtml(quote) + '</blockquote>';
+      if (connection && connection.metFounder && company.founder) {
+        html += '<div class="conviction-quote-attr">— ' + escapeHtml(company.founder) + ', ' + escapeHtml(company.name) + '</div>';
+      }
+      html += '</div>';
+    }
+
+    // Trip notes
+    if (tripNotes) html += '<div class="conviction-trip"><span class="conviction-trip-label">📍 Field Notes</span><p>' + escapeHtml(tripNotes) + '</p></div>';
+
+    // Last conversation
+    if (lastConversation) html += '<div class="conviction-last-updated">Last conversation: ' + escapeHtml(lastConversation) + '</div>';
+
+    section.innerHTML = html;
+    heroContainer.parentNode.insertBefore(section, heroContainer.nextSibling);
   }
 
   // ═══════════════════════════════════════════════════════

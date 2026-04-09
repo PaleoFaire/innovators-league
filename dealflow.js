@@ -1194,6 +1194,41 @@
   }
 
   // ═══════════════════════════════════════════
+  // ROS FUND PIPELINE
+  // ═══════════════════════════════════════════
+  function renderROSFundPipeline() {
+    var container = document.getElementById('ros-fund-pipeline');
+    if (!container || typeof FIELD_NOTES === 'undefined') return;
+
+    var notes = FIELD_NOTES.filter(function(n) { return n.conviction; });
+    if (!notes.length) return;
+
+    var html = '<div class="ros-pipeline-grid">';
+    notes.forEach(function(note) {
+      var badgeColors = {
+        'strong-buy': '#22c55e', 'buy': '#3b82f6', 'watch': '#f59e0b', 'caution': '#ef4444'
+      };
+      var color = badgeColors[note.conviction] || '#6b7280';
+      var label = (note.conviction || '').replace(/-/g, ' ').toUpperCase();
+
+      html += '<div class="ros-pipeline-card" style="border-left: 3px solid ' + color + ';">' +
+        '<div class="ros-pipeline-header">' +
+          '<span class="ros-pipeline-conviction" style="color:' + color + ';">' + label + '</span>' +
+          '<span class="ros-pipeline-type">' + escapeHtml((note.type || '').replace(/-/g, ' ')) + '</span>' +
+        '</div>' +
+        '<div class="ros-pipeline-company">' + escapeHtml(note.company) + '</div>' +
+        '<p class="ros-pipeline-insight">' + escapeHtml(truncate(note.insight, 120)) + '</p>' +
+        '<div class="ros-pipeline-footer">' +
+          '<span>' + escapeHtml(note.date || '') + '</span>' +
+          '<a href="company.html?slug=' + companyToSlug(note.company) + '">View Intel \u2192</a>' +
+        '</div>' +
+      '</div>';
+    });
+    html += '</div>';
+    container.innerHTML = html;
+  }
+
+  // ═══════════════════════════════════════════
   // MASTER INIT
   // ═══════════════════════════════════════════
   function initDealFlow() {
@@ -1205,6 +1240,7 @@
     safeInit('initUpcomingRounds', initUpcomingRounds);
     safeInit('initRiskDashboard', initRiskDashboard);
     safeInit('initPersonalNotes', initPersonalNotes);
+    safeInit('renderROSFundPipeline', renderROSFundPipeline);
   }
 
   // ═══════════════════════════════════════════

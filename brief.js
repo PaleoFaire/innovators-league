@@ -168,6 +168,40 @@
     return renderGenericSection(items);
   }
 
+  /* ── What Stephen Is Watching ── */
+  function renderWatchList() {
+    if (typeof FIELD_NOTES === 'undefined' || !FIELD_NOTES.length) return '';
+    var latest = FIELD_NOTES.slice(0, 3);
+    var badgeMap = {
+      'strong-buy': { label: 'STRONG BUY', color: '#22c55e' },
+      'buy': { label: 'BUY', color: '#3b82f6' },
+      'watch': { label: 'WATCH', color: '#f59e0b' },
+      'caution': { label: 'CAUTION', color: '#ef4444' }
+    };
+    var html = '<section class="brief-section brief-watchlist">' +
+      '<div class="brief-section-header">' +
+        '<div class="brief-section-icon">&#128065;</div>' +
+        '<div class="brief-section-title-group">' +
+          '<h2 class="brief-section-title">What Stephen Is Watching</h2>' +
+          '<span class="brief-section-count">Latest field notes</span>' +
+        '</div>' +
+      '</div>' +
+      '<div class="brief-section-body">' +
+        '<div class="brief-watchlist-grid">';
+    latest.forEach(function(note) {
+      var b = badgeMap[note.conviction] || badgeMap['watch'];
+      html += '<a href="company.html?slug=' + companyToSlug(note.company) + '" class="brief-watchlist-item">' +
+        '<div class="brief-watchlist-item-header">' +
+          '<span class="brief-watchlist-company">' + escapeHTML(note.company) + '</span>' +
+          '<span class="brief-watchlist-badge" style="color:' + b.color + '; border-color:' + b.color + ';">' + b.label + '</span>' +
+        '</div>' +
+        '<p class="brief-watchlist-insight">' + escapeHTML(note.insight ? (note.insight.length > 140 ? note.insight.substring(0, 140) + '...' : note.insight) : '') + '</p>' +
+      '</a>';
+    });
+    html += '</div></div></section>';
+    return html;
+  }
+
   /* ── Main Render ── */
   function renderBrief(data) {
     var container = document.getElementById('brief-content');
@@ -182,6 +216,9 @@
     if (secCountEl) secCountEl.textContent = data.section_count || 0;
 
     var html = '<div class="brief-sections">';
+
+    // Watch list at the top
+    html += renderWatchList();
 
     // Table of contents
     html += '<nav class="brief-toc">';

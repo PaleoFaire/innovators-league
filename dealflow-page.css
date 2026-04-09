@@ -1088,10 +1088,76 @@
             .lb-bar-cell { display: none; }
         }
 
+/* ─── ROS FUND PIPELINE ─── */
+.ros-pipeline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+.ros-pipeline-card {
+  padding: 16px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+.ros-pipeline-card:hover {
+  background: rgba(255,255,255,0.06);
+}
+.ros-pipeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.ros-pipeline-conviction {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-family: 'SF Mono', monospace;
+}
+.ros-pipeline-type {
+  font-size: 10px;
+  color: rgba(255,255,255,0.3);
+  text-transform: capitalize;
+}
+.ros-pipeline-company {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.ros-pipeline-insight {
+  font-size: 12px;
+  color: rgba(255,255,255,0.5);
+  line-height: 1.5;
+  margin: 0 0 12px 0;
+}
+.ros-pipeline-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+}
+.ros-pipeline-footer span {
+  color: rgba(255,255,255,0.25);
+  font-family: 'SF Mono', monospace;
+}
+.ros-pipeline-footer a {
+  color: #FF6B2C;
+  text-decoration: none;
+  font-weight: 600;
+}
+.ros-pipeline-footer a:hover {
+  text-decoration: underline;
+}
+
 /* ─── MOBILE GRID OVERRIDES ─── */
 @media (max-width: 768px) {
   .dd-radar { grid-template-columns: 1fr; }
   .rounds-grid { grid-template-columns: 1fr; }
   .risk-grid { grid-template-columns: 1fr; }
   .notes-grid { grid-template-columns: 1fr; }
+  .ros-pipeline-grid { grid-template-columns: 1fr; }
 }

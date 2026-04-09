@@ -37,19 +37,26 @@
             <div class="search-results-dropdown" id="search-results-dropdown"></div>
         </div>
         <div class="nav-links">
-            <a href="index.html" class="nav-link active">Home</a>
-            <a href="visualizations.html" class="nav-link">Insights</a>
-            <a href="investors.html" class="nav-link">Investors</a>
-            <a href="jobs.html" class="nav-link">Talent</a>
-            <a href="valuations.html" class="nav-link">Valuations</a>
+            <a href="index.html" class="nav-link active">Intelligence</a>
+            <a href="index.html#innovator50" class="nav-link">IL30</a>
             <a href="dealflow.html" class="nav-link">Deal Flow</a>
+            <a href="brief.html" class="nav-link">War Room</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
+                    <a href="investors.html" class="nav-dropdown-link">Investors</a>
+                    <a href="jobs.html" class="nav-dropdown-link">Talent</a>
+                    <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                </div>
+            </div>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
-                    <a href="brief.html" class="nav-dropdown-link">Weekly Brief</a>
+                    <a href="visualizations.html" class="nav-dropdown-link">Insights</a>
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
-                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="nav-dropdown-link">Field Notes &#8599;</a>
+                    <a href="compare.html" class="nav-dropdown-link">Compare</a>
                 </div>
             </div>
             <div class="nav-auth" id="nav-auth">
@@ -70,9 +77,9 @@
     <nav class="section-nav" id="section-nav" aria-label="Page sections">
         <div class="section-nav-inner">
             <a href="#innovator50" class="section-nav-dot" data-section="innovator50" title="Innovators League 30"><span>IL30</span></a>
+            <a href="#companies" class="section-nav-dot" data-section="companies" title="Company Database"><span>Database</span></a>
             <a href="#events" class="section-nav-dot" data-section="events" title="Events & Experiences"><span>Events</span></a>
             <a href="#discovery-hub" class="section-nav-dot" data-section="discovery-hub" title="Innovation Map"><span>Map</span></a>
-            <a href="#companies" class="section-nav-dot" data-section="companies" title="Company Database"><span>Database</span></a>
             <a href="#innovator-scores" class="section-nav-dot" data-section="innovator-scores" title="Frontier Index"><span>Index</span></a>
             <a href="#capital-flows" class="section-nav-dot" data-section="capital-flows" title="Capital Flows"><span>Capital</span></a>
             <a href="#intelligence-hub" class="section-nav-dot" data-section="intelligence-hub" title="Intelligence Hub"><span>Intel Hub</span></a>
@@ -150,9 +157,11 @@
                 <button id="i50-share-btn" class="i50-btn-primary">Share List</button>
                 <button class="i50-nominate-btn" onclick="openPartnerPortal('nominate')">Nominate a Company</button>
             </div>
-            <!-- Full IL30 Grid (always visible) -->
-            <div class="innovator50-preview" id="innovator50-preview"></div>
-            <div class="innovator50-full" id="i50-content">
+            <!-- IL30 Premium Showcase Grid -->
+            <div class="il30-showcase-grid" id="il30-showcase-grid"></div>
+            <!-- Legacy IL30 Grid (hidden, kept as fallback) -->
+            <div class="innovator50-preview" id="innovator50-preview" style="display:none;"></div>
+            <div class="innovator50-full" id="i50-content" style="display:none;">
                 <div class="innovator50-grid" id="innovator50-grid"></div>
             </div>
             <!-- Field Notes from Founders — reinforces founder relationships -->
@@ -167,6 +176,111 @@
                 <p>Know a company that should be on the Innovators League?</p>
                 <button class="i50-nominate-btn" onclick="openPartnerPortal('nominate')">Nominate a Company</button>
             </div>
+        </div>
+    </section>
+
+    <!-- Conviction Stack -->
+    <section id="conviction-stack" class="section-container">
+      <div class="conviction-stack-header">
+        <h2 class="section-title">Conviction Stack</h2>
+        <p style="color:rgba(240,240,250,0.5); font-size:14px; margin-top:4px;">Where Stephen has a differentiated view. Updated from founder meetings, site visits, and deal flow.</p>
+      </div>
+      <div id="conviction-stack-content"></div>
+    </section>
+
+    <!-- Weekly Movers Section -->
+    <section id="weekly-movers" class="section-container" style="display:none;">
+      <div class="container">
+        <h2 class="section-title">This Week's Movers</h2>
+        <div id="movers-content"></div>
+      </div>
+    </section>
+
+    <!-- Company Database Section (Full-Featured) -->
+    <section id="companies" class="section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">INTELLIGENCE DATABASE</p>
+                <h2>Company Database</h2>
+                <p id="results-count"></p>
+            </div>
+
+            <!-- View Toggle: Grid vs Market Map -->
+            <div class="db-view-toggle">
+                <button class="db-view-btn active" data-view="grid" title="Company Grid">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="7" height="7" rx="1"/><rect x="9" y="0" width="7" height="7" rx="1"/><rect x="0" y="9" width="7" height="7" rx="1"/><rect x="9" y="9" width="7" height="7" rx="1"/></svg>
+                    Grid
+                </button>
+                <button class="db-view-btn" data-view="market-map" title="Market Map">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="16" height="4" rx="1"/><rect x="0" y="6" width="10" height="4" rx="1"/><rect x="0" y="12" width="13" height="4" rx="1"/></svg>
+                    Market Map
+                </button>
+            </div>
+
+            <!-- Filters -->
+            <div class="filter-bar">
+                <div class="search-box">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <input type="text" id="search-input" placeholder="Search companies, founders, technologies...">
+                    <span class="keyboard-hint">/</span>
+                </div>
+                <div class="filter-dropdowns">
+                    <select id="sector-filter" class="filter-select">
+                        <option value="all">All Sectors</option>
+                    </select>
+                    <select id="country-filter" class="filter-select">
+                        <option value="all">All Countries</option>
+                    </select>
+                    <div id="state-filter-container" class="state-filter-container">
+                        <select id="state-filter" class="filter-select">
+                            <option value="all">All States</option>
+                        </select>
+                    </div>
+                    <select id="city-filter" class="filter-select">
+                        <option value="all">All Cities</option>
+                    </select>
+                    <select id="stage-filter" class="filter-select">
+                        <option value="all">All Stages</option>
+                    </select>
+                    <select id="special-filter" class="filter-select">
+                        <option value="all">Special Filters</option>
+                        <option value="innovator50">🏆 Innovators League 30</option>
+                        <option value="govContracts">🏛️ Has Gov Contracts</option>
+                        <option value="recentFunding">💰 Recently Funded</option>
+                    </select>
+                    <select id="sort-filter" class="filter-select">
+                        <option value="score">Sort: Highest Rated</option>
+                        <option value="name">Sort: A-Z</option>
+                        <option value="name-desc">Sort: Z-A</option>
+                        <option value="sector">Sort: Sector</option>
+                        <option value="signal">Sort: Signal Strength</option>
+                        <option value="recent">Sort: Recent Activity</option>
+                        <option value="saved">Sort: Saved First</option>
+                    </select>
+                    <button onclick="exportCompanyList()" class="filter-select" style="cursor:pointer; background:var(--bg-tertiary); color:var(--text-secondary); border:1px solid var(--border); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif;">Export CSV</button>
+                    <button onclick="saveCurrentSearch()" class="filter-select save-search-btn" style="cursor:pointer; background:rgba(255,107,44,0.1); color:#FF6B2C; border:1px solid rgba(255,107,44,0.3); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif; font-weight:600;">&#128190; Save Search</button>
+                </div>
+            </div>
+
+            <!-- Saved Searches Bar -->
+            <div class="saved-searches-bar" id="saved-searches-bar" style="display:none;">
+                <span class="saved-searches-label">Saved:</span>
+                <div class="saved-searches-list" id="saved-searches-list"></div>
+            </div>
+
+            <!-- Sector Chips (quick filter) -->
+            <div class="filter-chips" id="filter-chips">
+                <button class="chip active" data-sector="all">All</button>
+            </div>
+
+            <!-- Company Grid -->
+            <div class="company-grid" id="company-grid"></div>
+            <div class="no-results" id="no-results" style="display:none;">
+                <p>No companies match your filters. Try adjusting your search.</p>
+            </div>
+
+            <!-- Market Map View (toggled) -->
+            <div class="market-map-grid" id="market-map-grid" style="display:none;"></div>
         </div>
     </section>
 
@@ -298,103 +412,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Company Database Section (Full-Featured) -->
-    <section id="companies" class="section">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">INTELLIGENCE DATABASE</p>
-                <h2>Company Database</h2>
-                <p id="results-count"></p>
-            </div>
-
-            <!-- View Toggle: Grid vs Market Map -->
-            <div class="db-view-toggle">
-                <button class="db-view-btn active" data-view="grid" title="Company Grid">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="7" height="7" rx="1"/><rect x="9" y="0" width="7" height="7" rx="1"/><rect x="0" y="9" width="7" height="7" rx="1"/><rect x="9" y="9" width="7" height="7" rx="1"/></svg>
-                    Grid
-                </button>
-                <button class="db-view-btn" data-view="market-map" title="Market Map">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="16" height="4" rx="1"/><rect x="0" y="6" width="10" height="4" rx="1"/><rect x="0" y="12" width="13" height="4" rx="1"/></svg>
-                    Market Map
-                </button>
-            </div>
-
-            <!-- Filters -->
-            <div class="filter-bar">
-                <div class="search-box">
-                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                    <input type="text" id="search-input" placeholder="Search companies, founders, technologies...">
-                    <span class="keyboard-hint">/</span>
-                </div>
-                <div class="filter-dropdowns">
-                    <select id="sector-filter" class="filter-select">
-                        <option value="all">All Sectors</option>
-                    </select>
-                    <select id="country-filter" class="filter-select">
-                        <option value="all">All Countries</option>
-                    </select>
-                    <div id="state-filter-container" class="state-filter-container">
-                        <select id="state-filter" class="filter-select">
-                            <option value="all">All States</option>
-                        </select>
-                    </div>
-                    <select id="city-filter" class="filter-select">
-                        <option value="all">All Cities</option>
-                    </select>
-                    <select id="stage-filter" class="filter-select">
-                        <option value="all">All Stages</option>
-                    </select>
-                    <select id="special-filter" class="filter-select">
-                        <option value="all">Special Filters</option>
-                        <option value="innovator50">🏆 Innovators League 30</option>
-                        <option value="govContracts">🏛️ Has Gov Contracts</option>
-                        <option value="recentFunding">💰 Recently Funded</option>
-                    </select>
-                    <select id="sort-filter" class="filter-select">
-                        <option value="score">Sort: Highest Rated</option>
-                        <option value="name">Sort: A-Z</option>
-                        <option value="name-desc">Sort: Z-A</option>
-                        <option value="sector">Sort: Sector</option>
-                        <option value="signal">Sort: Signal Strength</option>
-                        <option value="recent">Sort: Recent Activity</option>
-                        <option value="saved">Sort: Saved First</option>
-                    </select>
-                    <button onclick="exportCompanyList()" class="filter-select" style="cursor:pointer; background:var(--bg-tertiary); color:var(--text-secondary); border:1px solid var(--border); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif;">Export CSV</button>
-                    <button onclick="saveCurrentSearch()" class="filter-select save-search-btn" style="cursor:pointer; background:rgba(255,107,44,0.1); color:#FF6B2C; border:1px solid rgba(255,107,44,0.3); border-radius:var(--radius-sm); padding:10px 16px; font-size:13px; font-family:'Inter',sans-serif; font-weight:600;">&#128190; Save Search</button>
-                </div>
-            </div>
-
-            <!-- Saved Searches Bar -->
-            <div class="saved-searches-bar" id="saved-searches-bar" style="display:none;">
-                <span class="saved-searches-label">Saved:</span>
-                <div class="saved-searches-list" id="saved-searches-list"></div>
-            </div>
-
-            <!-- Sector Chips (quick filter) -->
-            <div class="filter-chips" id="filter-chips">
-                <button class="chip active" data-sector="all">All</button>
-            </div>
-
-            <!-- Company Grid -->
-            <div class="company-grid" id="company-grid"></div>
-            <div class="no-results" id="no-results" style="display:none;">
-                <p>No companies match your filters. Try adjusting your search.</p>
-            </div>
-
-            <!-- Market Map View (toggled) -->
-            <div class="market-map-grid" id="market-map-grid" style="display:none;"></div>
-        </div>
-    </section>
-
-
-    <!-- Weekly Movers Section -->
-    <section id="weekly-movers" class="section-container" style="display:none;">
-      <div class="container">
-        <h2 class="section-title">This Week's Movers</h2>
-        <div id="movers-content"></div>
-      </div>
     </section>
 
     <!-- PROPRIETARY INTELLIGENCE -->
@@ -1387,33 +1404,41 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">THE INNOVATORS LEAGUE</div>
-                    <p>A project of the <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">Rational Optimist Society</a>. Built from years of founder relationships, site visits, and deep sector research. We celebrate human achievement, technological progress, and the entrepreneurs building a better future.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>ROS</h4>
-                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener">Main Site</a>
-                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
-                    <a href="https://x.com/RationalOptSoc" target="_blank" rel="noopener">X / Twitter</a>
-                </div>
-                <div class="footer-links">
-                    <h4>Navigate</h4>
-                    <a href="visualizations.html">Insights</a>
-                    <a href="investors.html">Investors</a>
-                    <a href="jobs.html">Jobs & Talent</a>
-                    <a href="valuations.html">Valuations</a>
-                    <a href="govradar.html">Gov Radar</a>
-                    <a href="regulatory.html">Regulatory</a>
-                </div>
+    <footer class="premium-footer">
+      <div class="footer-inner">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="footer-logo"><span class="footer-ros">ROS</span> THE INNOVATORS LEAGUE</div>
+            <p class="footer-tagline">The deal engine for frontier technology. Intelligence, access, and deal flow from inside the ecosystem.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>Intelligence</h4>
+              <a href="index.html">Company Database</a>
+              <a href="visualizations.html">Insights &amp; Analytics</a>
+              <a href="brief.html">War Room Brief</a>
+              <a href="compare.html">Compare Companies</a>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Rational Optimist Society &middot; ROS Startup Database</p>
+            <div class="footer-col">
+              <h4>Deal Flow</h4>
+              <a href="dealflow.html">Deal Pipeline</a>
+              <a href="investors.html">Investor Directory</a>
+              <a href="valuations.html">Valuations</a>
+              <a href="jobs.html">Talent Intelligence</a>
             </div>
+            <div class="footer-col">
+              <h4>ROS Ecosystem</h4>
+              <a href="https://rationaloptimistsociety.substack.com" target="_blank">Newsletter</a>
+              <a href="govradar.html">Gov Radar</a>
+              <a href="regulatory.html">Regulatory Intel</a>
+            </div>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Rational Optimist Society. All rights reserved.</p>
+          <div class="footer-data-freshness" id="footer-freshness"></div>
+        </div>
+      </div>
     </footer>
 
     <!-- [Removed: Opti AI Chat — Shelved, will re-enable when RAG is production-ready] -->

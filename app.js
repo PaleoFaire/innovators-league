@@ -1979,6 +1979,49 @@ function renderMoversSection() {
   section.style.display = '';
 }
 
+// ─── CONVICTION STACK ───
+function renderConvictionStack() {
+  var container = document.getElementById('conviction-stack-content');
+  if (!container || typeof FIELD_NOTES === 'undefined' || !FIELD_NOTES.length) return;
+
+  var convictionOrder = { 'strong-buy': 0, 'buy': 1, 'watch': 2, 'caution': 3 };
+  var notes = FIELD_NOTES.slice()
+    .filter(function(n) { return n.conviction; })
+    .sort(function(a, b) { return (convictionOrder[a.conviction] || 9) - (convictionOrder[b.conviction] || 9); });
+
+  var badges = {
+    'strong-buy': { label: 'STRONG BUY', cls: 'cs-strong-buy', icon: '\u{1F7E2}' },
+    'buy': { label: 'BUY', cls: 'cs-buy', icon: '\u{1F535}' },
+    'watch': { label: 'WATCH', cls: 'cs-watch', icon: '\u{1F7E1}' },
+    'caution': { label: 'CAUTION', cls: 'cs-caution', icon: '\u{1F534}' }
+  };
+
+  var html = '<div class="conviction-stack-list">';
+  notes.forEach(function(note) {
+    var b = badges[note.conviction] || badges['watch'];
+    var company = (typeof COMPANIES !== 'undefined') ? COMPANIES.find(function(c) { return c.name === note.company; }) : null;
+    var sector = company ? company.sector : '';
+    var sectorInfo = (typeof SECTORS !== 'undefined' && sector) ? SECTORS[sector] : { icon: '\u{1F52C}', color: '#6b7280' };
+
+    html += '<a href="company.html?slug=' + companyToSlug(note.company) + '" class="cs-item">' +
+      '<div class="cs-item-left">' +
+        '<span class="cs-badge ' + b.cls + '">' + b.icon + ' ' + b.label + '</span>' +
+        '<div class="cs-company">' +
+          '<span class="cs-company-name">' + escapeHtml(note.company) + '</span>' +
+          '<span class="cs-sector" style="color:' + sectorInfo.color + ';">' + sectorInfo.icon + ' ' + escapeHtml(sector) + '</span>' +
+        '</div>' +
+      '</div>' +
+      '<div class="cs-item-right">' +
+        '<p class="cs-insight">' + escapeHtml(truncate(note.insight, 140)) + '</p>' +
+        '<span class="cs-source">' + escapeHtml(note.source || '') + '</span>' +
+      '</div>' +
+    '</a>';
+  });
+  html += '</div>';
+
+  container.innerHTML = html;
+}
+
 // ─── APP INITIALIZATION ───
 document.addEventListener('DOMContentLoaded', () => {
   // Show loading skeletons immediately
@@ -2026,7 +2069,8 @@ document.addEventListener('DOMContentLoaded', () => {
     'trl-rankings':           [initTRLDashboard],
     'mafia-explorer':         [initMafiaExplorer],
     'request-for-startups':   [initRequestForStartups],
-    'innovator50':            [initInnovator50],
+    'conviction-stack':       [renderConvictionStack],
+    'innovator50':            [initInnovator50, renderIL30Showcase],
     'events':                 [initEvents],
     'momentum':               [initSectorMomentum],
     'ipo-pipeline':           [initIPOPipeline],
@@ -7627,6 +7671,102 @@ function initPortfolioBuilder() {
 
   renderCompanyList();
   renderPortfolio();
+}
+
+// ═══════════════════════════════════════════════════════
+// IL30 HELPER FUNCTIONS
+// ═══════════════════════════════════════════════════════
+
+function getCompanyConviction(companyName) {
+  if (typeof FIELD_NOTES !== 'undefined') {
+    var note = FIELD_NOTES.find(function(n) { return n.company === companyName; });
+    if (note && note.conviction) return note.conviction;
+  }
+  return null;
+}
+
+function getConvictionBadgeHTML(conviction) {
+  if (!conviction) return '';
+  var badges = {
+    'strong-buy': { label: 'STRONG BUY', cls: 'conviction-strong-buy', icon: '🟢' },
+    'buy': { label: 'BUY', cls: 'conviction-buy', icon: '🔵' },
+    'watch': { label: 'WATCH', cls: 'conviction-watch', icon: '🟡' },
+    'caution': { label: 'CAUTION', cls: 'conviction-caution', icon: '🔴' }
+  };
+  var b = badges[conviction];
+  if (!b) return '';
+  return '<span class="conviction-badge ' + b.cls + '">' + b.icon + ' ' + b.label + '</span>';
+}
+
+// ═══════════════════════════════════════════════════════
+// IL30 PREMIUM SHOWCASE
+// ═══════════════════════════════════════════════════════
+
+function renderIL30Showcase() {
+  var container = document.getElementById('il30-showcase-grid');
+  if (!container) return;
+  if (typeof INNOVATORS_LEAGUE_30 === 'undefined' || typeof COMPANIES === 'undefined') return;
+
+  var il30Names = INNOVATORS_LEAGUE_30;
+  var html = '';
+
+  il30Names.forEach(function(name) {
+    var company = COMPANIES.find(function(c) { return c.name === name; });
+    if (!company) return;
+
+    var sectorInfo = (typeof SECTORS !== 'undefined' && SECTORS[company.sector]) ? SECTORS[company.sector] : { icon: '📦', color: '#6b7280' };
+
+    // First sentence of description
+    var desc = '';
+    if (company.description) {
+      var firstSentence = company.description.match(/^[^.!?]+[.!?]/);
+      desc = firstSentence ? firstSentence[0] : company.description.substring(0, 120);
+    }
+
+    // Conviction badge
+    var conviction = getCompanyConviction(name);
+    var convictionBadge = getConvictionBadgeHTML(conviction);
+
+    // ROS Connected indicator
+    var rosConnected = '';
+    if (typeof FOUNDER_CONNECTIONS !== 'undefined' && FOUNDER_CONNECTIONS[name] && FOUNDER_CONNECTIONS[name].metFounder === true) {
+      rosConnected = '<span class="ros-connected-mini">ROS Connected</span>';
+    }
+
+    // Key metric
+    var metric = '';
+    if (company.totalRaised) {
+      metric = '<span class="il30-card-metric">Raised: <strong>' + company.totalRaised + '</strong></span>';
+    } else if (company.valuation) {
+      metric = '<span class="il30-card-metric">Valuation: <strong>' + company.valuation + '</strong></span>';
+    } else if (company.employees) {
+      metric = '<span class="il30-card-metric">Team: <strong>' + company.employees + '</strong></span>';
+    }
+
+    // Stephen's insight
+    var insightHTML = '';
+    if (company.insight) {
+      var truncated = company.insight.length > 120 ? company.insight.substring(0, 120) + '...' : company.insight;
+      insightHTML = '<div class="il30-card-insight">' + truncated + '</div>';
+    }
+
+    // Sector badge
+    var sectorBadge = '<span class="il30-sector-badge" style="background:' + sectorInfo.color + '15;color:' + sectorInfo.color + ';border:1px solid ' + sectorInfo.color + '30">' + sectorInfo.icon + ' ' + company.sector + '</span>';
+
+    // Build card
+    html += '<a class="il30-card" href="company.html?c=' + encodeURIComponent(name) + '">';
+    html += '<div class="il30-card-header">';
+    html += '<div class="il30-card-badges">' + sectorBadge + convictionBadge + '</div>';
+    html += rosConnected;
+    html += '</div>';
+    html += '<div class="il30-card-name">' + name + '</div>';
+    html += '<div class="il30-card-desc">' + desc + '</div>';
+    html += insightHTML;
+    html += metric;
+    html += '</a>';
+  });
+
+  container.innerHTML = html;
 }
 
 // ═══════════════════════════════════════════════════════
