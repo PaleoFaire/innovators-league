@@ -1,4 +1,4 @@
-// Auto-generated 2026-04-08 08:04
+// Auto-generated 2026-04-09 08:09
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
