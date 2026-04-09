@@ -24296,25 +24296,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-09 05:52
-// Auto-generated real-time signals
-// Last updated: 2026-04-09
+// Last updated: 2026-04-09 09:18
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "WeaveGrid", headline: "CPUC Wastes a Golden Opportunity to Right Wrongs of Previous Community Solar Decisions that Harm Californians with Lower", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Karman Industries", headline: "The Electrified Future Is Already Here. Canada Just Needs to Build It", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Machina Labs", headline: "Electric Trucks Go Mainstream in Europe", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Cape", headline: "E-SAF Made in Europe — A Source of Jobs, Growth, and Energy Security", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Crusoe Energy", headline: "Good News: A Bunch Of AI Data Centers In Limbo", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Conflicting Rulings Leave Anthropic in ‘Supply-Chain Risk’ Limbo", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Anthropic", headline: "Spy agencies eye new Anthropic AI model that spots cyber flaws", source: "Defense One", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Xanadu Quantum Technologies", headline: "WireGuard VPN developer can&#8217;t ship software updates after Microsoft locks account", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Aurora Innovation", headline: "A self-driving car in Texas hit and killed a mother duck, sparking neighborhood outrage", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Amca", headline: "Canva doubles down on AI and marketing automation with Simtheory, Ortto acquisitions", source: "TechCrunch", time: "10h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "Galvanick", headline: "Iran-linked hackers disrupt operations at US critical infrastructure sites", source: "Ars Technica", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Anthropic", headline: "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict", source: "TechCrunch", time: "11h ago", impact: "high", unread: false },
-  { id: 13, type: "hire", company: "Palantir", headline: "As US claims victory, Iran emerges bruised but with leverage over Hormuz", source: "Defense News", time: "12h ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Scale AI", headline: "Meta debuts the Muse Spark model in a &#8216;ground-up overhaul&#8217; of its AI", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "Cape", headline: "Hack-for-hire group caught targeting Android devices and iCloud backups", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Andrenam", headline: "Turkish, Italian defense firms team up to produce unmanned surface vessels for Italy", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Fervo Energy", headline: "Fervo Energy inks big turbine deal to build more next-gen geothermal", source: "Canary Media", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "WeaveGrid", headline: "CPUC Wastes a Golden Opportunity to Right Wrongs of Previous Community Solar Decisions that Harm Californians with Lower", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Karman Industries", headline: "The Electrified Future Is Already Here. Canada Just Needs to Build It", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Machina Labs", headline: "Electric Trucks Go Mainstream in Europe", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Cape", headline: "E-SAF Made in Europe ' A Source of Jobs, Growth, and Energy Security", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Crusoe Energy", headline: "Good News: A Bunch Of AI Data Centers In Limbo", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Anthropic", headline: "Conflicting Rulings Leave Anthropic in 'Supply-Chain Risk' Limbo", source: "Wired", time: "10h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "Spy agencies eye new Anthropic AI model that spots cyber flaws", source: "Defense One", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Xanadu Quantum Technologies", headline: "WireGuard VPN developer can't ship software updates after Microsoft locks account", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Aurora Innovation", headline: "A self-driving car in Texas hit and killed a mother duck, sparking neighborhood outrage", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Amca", headline: "Canva doubles down on AI and marketing automation with Simtheory, Ortto acquisitions", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Galvanick", headline: "Iran-linked hackers disrupt operations at US critical infrastructure sites", source: "Ars Technica", time: "12h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Slingshot Aerospace", headline: "Improved thresholds and SSA accuracy can reduce most satellite collision risk", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Anthropic", headline: "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict", source: "TechCrunch", time: "13h ago", impact: "high", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
