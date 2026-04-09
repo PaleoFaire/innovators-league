@@ -24845,23 +24845,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-09 14:02
+// Last updated: 2026-04-09 17:15
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Ample", headline: "40 New EV Chargers &#038; Solar Power Launched In LA Area", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "contract", company: "Anthropic", headline: "Pentagon's ouster of Anthropic opens'doors for small AI rivals", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Galvanick", headline: "Chip Can Project Video the Size of a Grain of Sand", source: "IEEE Spectrum", time: "1h ago", impact: "medium", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "This founder helped build SpaceX's most powerful rocket engine. Now he's building a 'fighter jet for o", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Standard Nuclear", headline: "Radify's sci-fi plasma reactors could break China's dominance of rare earth elements", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Waymo", headline: "Waymo robotaxis are tracking potholes and sharing that data with Waze users", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Ample", headline: "Charging Data Shows That Ethiopia's Electric Vehicle Landscape is Blossoming", source: "CleanTechnica", time: "1h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Wardstone", headline: "Researchers propose 'rewilding' Europe's borderlands to repel enemies", source: "Defense News", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "funding", company: "SpaceX", headline: "What Do SpaceX, xAI, And X Have In Common? Is It Tesla?", source: "CleanTechnica", time: "1h ago", impact: "high", unread: false },
-  { id: 10, type: "news", company: "Mariana Minerals", headline: "Ex-Tesla engineer's startup taps Pronto to help automate a copper mine", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "Firestorm Labs", headline: "TCL NXTVISION Art TV Review: Just Fine", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Cape", headline: "Politicians Are Spending More Money on Security as They Increasingly Become Targets", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Vital Lyfe", headline: "Desalination technology, by the numbers", source: "MIT Tech Review", time: "4h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Andrenam", headline: "Turkish, Italian defense firms team up to produce unmanned surface vessels for Italy", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Fervo Energy", headline: "Fervo Energy inks big turbine deal to build more next-gen geothermal", source: "Canary Media", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Andrenam", headline: "China's dual-use ambitions could severely threaten America's force posture", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Ample", headline: "BYD &#038; KFC Team Up For Flash Charging While You Eat. What Would You Like While Charging?", source: "CleanTechnica", time: "Just now", impact: "medium", unread: true },
+  { id: 3, type: "news", company: "Gladia", headline: "Avec's Tinder-styled email app allows you to swipe through your inbox", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Durin", headline: "X brings back Voice Notes to X Chat", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Andrenam", headline: "UK says it deployed military to deter Russian submarines from attack on undersea cables", source: "Defense News", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "SpaceX", headline: "XAI Training 10 Trillion Parameter Model &#8211; Likely Out in Mid 2026", source: "Next Big Future", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Sunfire", headline: "Electrofuels Are Slipping Through The Trump Chopper", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "SpaceX", headline: "Amazon CEO takes aim at Nvidia, Intel, Starlink, more in annual shareholder letter", source: "TechCrunch", time: "2h ago", impact: "high", unread: false },
+  { id: 9, type: "contract", company: "Vast", headline: "A new kind of arsenal: commercial satellites", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Ample", headline: "40 New EV Chargers &#038; Solar Power Launched In LA Area", source: "CleanTechnica", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "Anthropic", headline: "Pentagon's ouster of Anthropic opens'doors for small AI rivals", source: "Defense News", time: "3h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Galvanick", headline: "Chip Can Project Video the Size of a Grain of Sand", source: "IEEE Spectrum", time: "4h ago", impact: "medium", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "This founder helped build SpaceX's most powerful rocket engine. Now he's building a 'fighter jet for o", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "Standard Nuclear", headline: "Radify's sci-fi plasma reactors could break China's dominance of rare-earth elements", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Waymo", headline: "Waymo robotaxis are tracking potholes and sharing that data with Waze users", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
