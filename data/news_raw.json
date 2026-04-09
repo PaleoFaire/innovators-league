@@ -1,9 +1,90 @@
 [
   {
-    "title": "A self-driving car in Austin killed a mother duck, sparking neighborhood outrage",
-    "link": "https://techcrunch.com/2026/04/08/a-self-driving-car-in-austin-killed-a-mother-duck-sparking-neighborhood-outrage/",
-    "description": "This incident has brought negative attention to the new technology.",
-    "pubDate": "Wed, 08 Apr 2026 20:11:05 +0000",
+    "title": "Good News: A Bunch Of AI Data Centers In Limbo",
+    "link": "https://cleantechnica.com/2026/04/08/good-news-a-bunch-of-ai-data-centers-in-limbo/",
+    "description": "AI data centers have become a major problem for cutting greenhouse gas emissions. They need soooooo much power. Some people like to claim that they can all be powered with cheap, clean renewable energy from the sun and the wind, but the fact is, that&#8217;s not how it&#8217;s always happening   ...",
+    "pubDate": "Thu, 09 Apr 2026 02:44:30 +0000",
+    "category": "Clean Power",
+    "source": "CleanTechnica",
+    "feedCategory": "energy",
+    "matchedCompany": "Crusoe Energy",
+    "matchedCompanies": [
+      "Crusoe Energy",
+      "Saule Technologies"
+    ],
+    "sectors": [
+      "ai",
+      "climate"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Conflicting Rulings Leave Anthropic in ‘Supply-Chain Risk’ Limbo",
+    "link": "https://www.wired.com/story/anthropic-appeals-court-ruling/",
+    "description": "A US appeals court ruling is at odds with a separate, lower court decision from March, leaving uncertainty about if and how the US military can use the AI company's Claude model.",
+    "pubDate": "Wed, 08 Apr 2026 22:27:26 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
+    "title": "Spy agencies eye new Anthropic AI model that spots cyber flaws",
+    "link": "https://www.defenseone.com/policy/2026/04/spy-agencies-ai-anthropic-cybersecurity/412724/",
+    "description": "Claude Mythos Preview has found vulnerabilities in \"every major operating system and web browser,\" company officials say.",
+    "pubDate": "Wed, 08 Apr 2026 18:00:00 -0400",
+    "category": "Policy",
+    "source": "Defense One",
+    "feedCategory": "defense",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "4h ago"
+  },
+  {
+    "title": "WireGuard VPN developer can&#8217;t ship software updates after Microsoft locks account",
+    "link": "https://techcrunch.com/2026/04/08/wireguard-vpn-developer-cant-ship-software-updates-after-microsoft-locks-account/",
+    "description": "The popular open source VPN maker is the second high-profile developer to say Microsoft locked his account without notifying him and is blocking their ability to send software updates to users.",
+    "pubDate": "Wed, 08 Apr 2026 21:50:41 +0000",
+    "category": "Security",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Xanadu Quantum Technologies",
+    "matchedCompanies": [
+      "Xanadu Quantum Technologies",
+      "Tenstorrent",
+      "Photonic Inc"
+    ],
+    "sectors": [
+      "quantum",
+      "chips"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "5h ago"
+  },
+  {
+    "title": "A self-driving car in Texas hit and killed a mother duck, sparking neighborhood outrage",
+    "link": "https://techcrunch.com/2026/04/08/avride-self-driving-car-austin-kills-duck-mueller/",
+    "description": "An Avride autonomous vehicle near Austin hit the duck, facing backlash from the community. \"It didn't slow down or hesitate at all, just steamrolled right through,\" according to a witness.",
+    "pubDate": "Wed, 08 Apr 2026 21:19:07 +0000",
     "category": "Transportation",
     "source": "TechCrunch",
     "feedCategory": "tech",
@@ -16,12 +97,51 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "5h ago"
+  },
+  {
+    "title": "Canva doubles down on AI and marketing automation with Simtheory, Ortto acquisitions",
+    "link": "https://techcrunch.com/2026/04/08/canva-doubles-down-on-ai-and-marketing-automation-with-simtheory-ortto-acquisitions/",
+    "description": "Canva says the acquisitions add strengths in agentic AI, data infrastructure, marketing automation, and customer engagement.",
+    "pubDate": "Wed, 08 Apr 2026 21:00:00 +0000",
+    "category": "Apps",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Amca",
+    "matchedCompanies": [
+      "Amca"
+    ],
+    "sectors": [
+      "robotics"
+    ],
+    "type": "news",
+    "impact": "high",
+    "time": "5h ago"
+  },
+  {
+    "title": "Iran-linked hackers disrupt operations at US critical infrastructure sites",
+    "link": "https://arstechnica.com/security/2026/04/iran-linked-hackers-disrupt-operations-at-us-critical-infrastructure-sites/",
+    "description": "",
+    "pubDate": "Wed, 08 Apr 2026 20:49:11 +0000",
+    "category": "Biz & IT",
+    "source": "Ars Technica",
+    "feedCategory": "tech",
+    "matchedCompany": "Galvanick",
+    "matchedCompanies": [
+      "Galvanick",
+      "Hidden Level"
+    ],
+    "sectors": [
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "6h ago"
   },
   {
     "title": "AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict",
     "link": "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
-    "description": "AWS has an ingrained culture of handling coopetition, he explained, because the cloud giant also competes with its partners.",
+    "description": "AWS has an ingrained culture of handling competition, he explained, because the cloud giant also competes with its partners.",
     "pubDate": "Wed, 08 Apr 2026 20:09:14 +0000",
     "category": "AI",
     "source": "TechCrunch",
@@ -36,7 +156,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "Just now"
+    "time": "6h ago"
   },
   {
     "title": "As US claims victory, Iran emerges bruised but with leverage over Hormuz",
@@ -55,7 +175,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1h ago"
+    "time": "7h ago"
   },
   {
     "title": "Meta debuts the Muse Spark model in a &#8216;ground-up overhaul&#8217; of its AI",
@@ -74,7 +194,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2h ago"
+    "time": "8h ago"
   },
   {
     "title": "Hack-for-hire group caught targeting Android devices and iCloud backups",
@@ -96,7 +216,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "2h ago"
+    "time": "8h ago"
   },
   {
     "title": "‘We Were Not Ready for This’: Lebanon's Emergency System Is Hanging by a Thread",
@@ -115,7 +235,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2h ago"
+    "time": "8h ago"
   },
   {
     "title": "Volkswagen begins testing its self-driving microbuses in Los Angeles ahead of launch with Uber",
@@ -138,7 +258,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "Anthropic’s New Product Aims to Handle the Hard Part of Building AI Agents",
@@ -157,7 +277,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3h ago"
+    "time": "9h ago"
   },
   {
     "title": "US forces will be ‘hanging around’ Middle East after Iran ceasefire, Hegseth says",
@@ -176,7 +296,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "11h ago"
   },
   {
     "title": "BAE Systems trials low-cost counter drone solution for Eurofighter Typhoon",
@@ -195,7 +315,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "5h ago"
+    "time": "11h ago"
   },
   {
     "title": "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
@@ -214,7 +334,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "11h ago"
   },
   {
     "title": "Developer of VeraCrypt encryption software says Windows users may face boot-up issues after Microsoft locked his account",
@@ -238,7 +358,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "11h ago"
   },
   {
     "title": "Databricks co-founder wins prestigious ACM award, says &#8216;AGI is here already&#8217;",
@@ -257,7 +377,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "5h ago"
+    "time": "11h ago"
   },
   {
     "title": "As 2-week ceasefire takes hold, Pentagon touts &#8216;decisive military victory&#8217;",
@@ -282,7 +402,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "6h ago"
+    "time": "12h ago"
   },
   {
     "title": "AFCENT awards Kraus Hamdani $270M for solar-powered, long-endurance drones",
@@ -301,7 +421,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "6h ago"
+    "time": "12h ago"
   },
   {
     "title": "The Download: water threats in Iran and AI&#8217;s impact on what entrepreneurs make",
@@ -320,28 +440,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
-  },
-  {
-    "title": "How nuclear batteries could speed the race to fusion power",
-    "link": "https://techcrunch.com/2026/04/08/how-nuclear-batteries-could-speed-the-race-to-fusion-power/",
-    "description": "Avalanche Energy is working on a DARPA project to build a new class of materials capable of turning damaging radiation into electricity.",
-    "pubDate": "Wed, 08 Apr 2026 11:30:00 +0000",
-    "category": "Climate",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Avalanche Energy",
-    "matchedCompanies": [
-      "Avalanche Energy",
-      "Space Forge"
-    ],
-    "sectors": [
-      "climate",
-      "space"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "9h ago"
+    "time": "14h ago"
   },
   {
     "title": "Thousands of consumer routers hacked by Russia&#039;s military",
@@ -360,7 +459,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "15h ago"
   },
   {
     "title": "Dyson Spot+Scrub Ai Robot Vacuum Review (2026)",
@@ -379,7 +478,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "9h ago"
+    "time": "15h ago"
   },
   {
     "title": "Fender ELIE 6 Bluetooth Speaker Review: Big Sound, App on the Way",
@@ -398,7 +497,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "10h ago"
+    "time": "16h ago"
   },
   {
     "title": "How This Precision Weapon Reengineered Modern War",
@@ -417,7 +516,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "12h ago"
+    "time": "18h ago"
   },
   {
     "title": "Xcel Minnesota is building a first-of-its-kind virtual power plant",
@@ -436,7 +535,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "19h ago"
   },
   {
     "title": "Cummins, Alstom, and the Long Tail of Hydrogen Mistakes",
@@ -455,7 +554,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "16h ago"
+    "time": "22h ago"
   },
   {
     "title": "BMW Group &#038; Rimac Technology Cooperate on Innovative High-Voltage Battery for the BMW i7",
@@ -474,7 +573,7 @@
     ],
     "type": "funding",
     "impact": "medium",
-    "time": "16h ago"
+    "time": "22h ago"
   },
   {
     "title": "Waymo Launches in Nashville",
@@ -495,12 +594,12 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "17h ago"
+    "time": "23h ago"
   },
   {
     "title": "Artemis 2- Orion Lunar Flyby",
     "link": "https://www.nextbigfuture.com/2026/04/artemis-2-orion-lunar-flyby.html",
-    "description": "The first flyby images of the Moon captured by NASA’s Artemis II astronauts during their historic test flight reveal some regions no human has seen, including a rare in-space solar eclipse. During the lunar flyby, the crew documented impact craters, ancient lava flows, and surface fractures that wil",
+    "description": "The first flyby images of the Moon captured by NASA��s Artemis II astronauts during their historic test flight reveal some regions no human has seen, including a rare in-space solar eclipse. During the lunar flyby, the crew documented impact craters, ancient lava flows, and surface fractures that wi",
     "pubDate": "Wed, 08 Apr 2026 01:22:14 +0000",
     "category": "Science",
     "source": "Next Big Future",
@@ -516,7 +615,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "19h ago"
+    "time": "1d ago"
   },
   {
     "title": "Trump says he has agreed to two-week ceasefire with Iran",
@@ -535,7 +634,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "21h ago"
+    "time": "1d ago"
   },
   {
     "title": "Army operations center is trying to solve battlefield data problems in real time",
@@ -554,7 +653,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Iran-Linked Hackers Are Sabotaging US Energy and Water Infrastructure",
@@ -904,7 +1003,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "AI Will Give Humanity the Moon, Mars and Supersonic Travel",
@@ -925,7 +1024,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "General Atomics pauses drone wingman flight tests after crash",
@@ -944,7 +1043,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Anthropic Number One AI in Ranking and Revenue &#8211; Making $30 Billion Per Year",
@@ -963,7 +1062,7 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "SpaceX Raptor Engine Test Seems to Have an Explosion",
@@ -982,7 +1081,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "A Single Strike Won’t Shut Off the Gulf’s Desalination System",
@@ -1223,7 +1322,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
+    "time": "5d ago"
   },
   {
     "title": "OpenClaw gives users yet another reason to be freaked out about security",
