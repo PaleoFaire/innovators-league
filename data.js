@@ -13910,22 +13910,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   // ─── NEW ADDITIONS: SPACE & NUCLEAR ───
   {
-    name: "Antares Industries",
-    sector: "Nuclear Energy",
-    description: "Nuclear microreactors for land, sea, and space applications. 100kW to 1MW range.",
-    location: "United States",
-    state: "",
-    lat: 39.8283,
-    lng: -98.5795,
-    fundingStage: "Series B",
-    totalRaised: "$96M",
-    valuation: "",
-    rosLink: "",
-    tags: ["nuclear", "microreactors", "space power", "energy"],
-    signal: "rising",
-    addedDate: "2026-04"
-  },
-  {
     name: "Reliable Robotics",
     sector: "Space & Aerospace",
     description: "Autonomous flight systems enabling uncrewed cargo aircraft operations.",
@@ -14630,13 +14614,7 @@ const VC_FIRMS = [
 
 // ─── MARKET PULSE: Public Company Tickers ───
 const MARKET_PULSE = [
-  { name: "Palantir", ticker: "PLTR", valuation: "$400B+", change: "+2.4%", trend: "up", sector: "AI & Software" },
   { name: "NVIDIA", ticker: "NVDA", valuation: "$3.2T+", change: "+1.1%", trend: "up", sector: "Chips & Semiconductors" },
-  { name: "Rocket Lab", ticker: "RKLB", valuation: "$37B+", change: "+3.2%", trend: "up", sector: "Space & Aerospace" },
-  { name: "Joby Aviation", ticker: "JOBY", valuation: "$10B+", change: "-0.8%", trend: "down", sector: "Transportation" },
-  { name: "Archer Aviation", ticker: "ACHR", valuation: "$5B+", change: "+1.7%", trend: "up", sector: "Transportation" },
-  { name: "Planet Labs", ticker: "PL", valuation: "$7B+", change: "+0.5%", trend: "up", sector: "Space & Aerospace" },
-  { name: "Intuitive Machines", ticker: "LUNR", valuation: "$3.8B+", change: "+4.1%", trend: "up", sector: "Space & Aerospace" },
   { name: "Kratos Defense", ticker: "KTOS", valuation: "$5B+", change: "+0.9%", trend: "up", sector: "Defense & Security" }
 ];
 
@@ -22528,20 +22506,50 @@ const INNOVATOR_50_META = {
 
 // The Innovators League 30 — Handpicked by the Rational Optimist Society
 const INNOVATORS_LEAGUE_30 = [
-  "Neros", "CX2 Industries", "Allen Control Systems", "PILGRIM",
-  "Valar Atomics", "Aalo Atomics",
-  "Apex Space", "Varda Space Industries", "Array Labs", "Muon Space", "Fortastra",
-  "Astro Mechanica", "Hermeus",
-  "Hadrian", "Machina Labs", "Atomic Industries",
-  "Atom Bodies", "Herasight", "Osmo", "Science Corporation",
-  "Quaise Energy",
-  "Matic Robotics",
-  "Alpha School",
-  "Terran Robotics", "Cuby Technologies",
-  "Durin",
+  // Defense
+  "Neros",
+  "CX2 Industries",
+  "Picogrid",
+  "Allen Control Systems",
+  "Galadyne",
+  // Aerospace
+  "Apex Space",
+  "Varda Space Industries",
+  "Fortastra",
+  // Robotics
   "Bedrock Robotics",
-  "Ulysses Robotics", "Poseidon Aerospace",
-  "Ouros Energy"
+  // Ocean
+  "Poseidon Aerospace",
+  "Ulysses Robotics",
+  // Supersonic / Hypersonic
+  "Astro Mechanica",
+  "Hermeus",
+  // Biotech
+  "Atom Bodies",
+  "Osmo",
+  "PILGRIM",
+  // Semiconductors
+  "Extropic",
+  // Geoengineering
+  "Terranova",
+  "Terraform Industries",
+  // Nuclear
+  "Valar Atomics",
+  "Aalo Atomics",
+  // Mining
+  "Durin",
+  // Manufacturing
+  "Rangeview",
+  "Divergent",
+  "Senra Systems",
+  "Machina Labs",
+  // Energy
+  "Base Power",
+  // Housing
+  "Cuby Technologies",
+  // Transport
+  "Zipline",
+  "Airship Industries"
 ];
 
 const INNOVATOR_50 = [
