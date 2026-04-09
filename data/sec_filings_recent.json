@@ -911,6 +911,15 @@
   {
     "company": "NuScale Power",
     "ticker": "SMR",
+    "form": "8-K",
+    "date": "2026-04-08",
+    "description": "smr-20260408.htm",
+    "accessionNumber": "0001822966-26-000038",
+    "isIPO": false
+  },
+  {
+    "company": "NuScale Power",
+    "ticker": "SMR",
     "form": "4",
     "date": "2026-04-02",
     "description": "xslF345X06/wk-form4_1775163943.xml",
@@ -1863,12 +1872,12 @@
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
+    "company": "IonQ",
+    "ticker": "IONQ",
     "form": "4",
-    "date": "2026-01-08",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-26-000005",
+    "date": "2026-04-08",
+    "description": "xslF345X06/primary_doc.xml",
+    "accessionNumber": "0002043681-26-000003",
     "isIPO": false
   },
   {
@@ -2190,6 +2199,33 @@
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "4",
+    "date": "2026-04-08",
+    "description": "xslF345X06/wk-form4_1775681908.xml",
+    "accessionNumber": "0001712276-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-04-08",
+    "description": "xslF345X06/wk-form4_1775681902.xml",
+    "accessionNumber": "0001856369-26-000008",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
+    "date": "2026-04-08",
+    "description": "xslF345X06/wk-form4_1775681895.xml",
+    "accessionNumber": "0001856094-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "ticker": "RXRX",
+    "form": "4",
     "date": "2026-04-02",
     "description": "xslF345X06/wk-form4_1775163383.xml",
     "accessionNumber": "0001852075-26-000004",
@@ -2373,15 +2409,6 @@
     "date": "2026-01-12",
     "description": "rxrx-20260112.htm",
     "accessionNumber": "0001601830-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-01-08",
-    "description": "xslF345X05/wk-form4_1767909697.xml",
-    "accessionNumber": "0001856094-26-000002",
     "isIPO": false
   },
   {
@@ -3579,15 +3606,6 @@
     "date": "2026-01-22",
     "description": "xslF345X05/wk-form4_1769119701.xml",
     "accessionNumber": "0001891517-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-01-08",
-    "description": "xslF345X05/wk-form4_1767907070.xml",
-    "accessionNumber": "0001891517-26-000005",
     "isIPO": false
   },
   {

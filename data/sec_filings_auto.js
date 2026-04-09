@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-08 07:41:48 UTC
+// Last updated: 2026-04-09 07:44:13 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "NuScale Power", form: "8-K", date: "2026-04-08", description: "smr-20260408.htm", isIPO: false, ticker: "SMR" },
+  { company: "IonQ", form: "4", date: "2026-04-08", description: "xslF345X06/primary_doc.xml", isIPO: false, ticker: "IONQ" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-08", description: "xslF345X06/wk-form4_1775681908.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-08", description: "xslF345X06/wk-form4_1775681902.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-08", description: "xslF345X06/wk-form4_1775681895.xml", isIPO: false, ticker: "RXRX" },
   { company: "BlackSky Technology", form: "8-K", date: "2026-04-07", description: "bksy-20260407.htm", isIPO: false, ticker: "BKSY" },
   { company: "UiPath", form: "4", date: "2026-04-07", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
   { company: "Rigetti Computing", form: "8-K", date: "2026-04-07", description: "tm2611278d1_8k.htm", isIPO: false, ticker: "RGTI" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090347.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090354.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090301.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090311.xml", isIPO: false, ticker: "LUNR" },
-  { company: "C3.ai", form: "4", date: "2026-03-31", description: "xslF345X06/wk-form4_1774995012.xml", isIPO: false, ticker: "AI" },
-  { company: "IonQ", form: "4", date: "2026-03-31", description: "xslF345X06/primary_doc.xml", isIPO: false, ticker: "IONQ" },
-  { company: "Archer Aviation", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_110352.xml", isIPO: false, ticker: "ACHR" },
-  { company: "LanzaTech", form: "DEF 14A", date: "2026-03-31", description: "tlsi-20260330.htm", isIPO: false, ticker: "LNZA" },
 ];

@@ -1,65 +1,65 @@
 [
   {
     "sector": "Defense & Security",
-    "momentum": 80,
+    "momentum": 62,
     "trend": "accelerating",
     "catalysts": [
-      "Astroscale passes key design milestone for UK military space",
-      "Army operations center is trying to solve battlefield data p",
-      "Hungary taps Northrop Grumman for first national geostationa"
+      "Conflicting Rulings Leave Anthropic in \u2018Supply-Chain Risk\u2019 L",
+      "US forces will be \u2018hanging around\u2019 Middle East after Iran ce",
+      "BAE Systems trials low-cost counter drone solution for Eurof"
     ],
     "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 100
+      "market": 12
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 56,
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Over-the-Air Computation Uses Radio Interference to Crunch D",
-      "Outpaced by the US, China\u2019s military places selective bets o",
-      "Closing the Air and Missile Defense Gap in the Indo-Pacific"
+      "A self-driving car in Texas hit and killed a mother duck, sp",
+      "BAE Systems trials low-cost counter drone solution for Eurof",
+      "AFCENT awards Kraus Hamdani $270M for solar-powered, long-en"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 45,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-08"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 55,
-    "trend": "accelerating",
-    "catalysts": [
-      "I can&#8217;t help rooting for tiny open source AI model mak",
-      "Anthropic Teams Up With Its Rivals to Keep AI From Hacking E",
-      "Anthropic debuts preview of powerful new AI model Mythos in"
-    ],
-    "fundingQ": "$7.2B",
-    "components": {
-      "funding": 87,
       "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 58,
+    "trend": "accelerating",
+    "catalysts": [
+      "Conflicting Rulings Leave Anthropic in \u2018Supply-Chain Risk\u2019 L",
+      "Spy agencies eye new Anthropic AI model that spots cyber fla",
+      "AWS boss explains why investing billions in both Anthropic a"
+    ],
+    "fundingQ": "$7.2B",
+    "components": {
+      "funding": 87,
+      "news": 70,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-09"
   },
   {
     "sector": "Supersonic & Hypersonic",
     "momentum": 50,
     "trend": "steady",
     "catalysts": [
-      "The Hidden System Turning Chinese Tech Companies into Milita",
-      "AI Will Give Humanity the Moon, Mars and Supersonic Travel"
+      "Databricks co-founder wins prestigious ACM award, says &#821",
+      "The Hidden System Turning Chinese Tech Companies into Milita"
     ],
     "fundingQ": "$1.6B",
     "components": {
@@ -68,7 +68,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
   },
   {
     "sector": "Ocean & Maritime",
@@ -84,52 +84,34 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-08"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 48,
-    "trend": "steady",
-    "catalysts": [
-      "Astroscale passes key design milestone for UK military space",
-      "Waymo Launches in Nashville",
-      "Artemis 2- Orion Lunar Flyby"
-    ],
-    "fundingQ": "$175M",
-    "components": {
-      "funding": 9,
-      "news": 100,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 42,
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
-      "Waymo Launches in Nashville",
-      "Pro-Iran hackers have disrupted some industrial-control syst",
-      "Hungary taps Northrop Grumman for first national geostationa"
+      "Canva doubles down on AI and marketing automation with Simth",
+      "Volkswagen begins testing its self-driving microbuses in Los",
+      "As 2-week ceasefire takes hold, Pentagon touts &#8216;decisi"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 75,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Astroscale passes key design milestone for UK military space",
-      "Waymo Launches in Nashville",
-      "Hungary taps Northrop Grumman for first national geostationa"
+      "Good News: A Bunch Of AI Data Centers In Limbo",
+      "Conflicting Rulings Leave Anthropic in \u2018Supply-Chain Risk\u2019 L",
+      "Thousands of consumer routers hacked by Russia&#039;s milita"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -138,80 +120,97 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 34,
+    "trend": "rising",
+    "catalysts": [
+      "Volkswagen begins testing its self-driving microbuses in Los",
+      "Waymo Launches in Nashville",
+      "Op-Ed: Chinese EV Brands Overwhelm The Manila Auto Show 2026"
+    ],
+    "fundingQ": "$175M",
+    "components": {
+      "funding": 9,
+      "news": 45,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-09"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 32,
+    "momentum": 31,
     "trend": "declining",
     "catalysts": [
-      "General Atomics pauses drone wingman flight tests after cras",
-      "Anthropic Number One AI in Ranking and Revenue &#8211; Makin"
+      "Active biotech & health ecosystem"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 35,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-08"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 28,
-    "trend": "declining",
-    "catalysts": [
-      "Firmus, the &#8216;Southgate&#8217; AI data center builder b",
-      "Intel signs on to Elon Musk&#8217;s Terafab chips project",
-      "Intel  Partners with Tesla and SpaceX on Terafab"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
       "news": 30,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
   },
   {
     "sector": "Climate & Energy",
     "momentum": 28,
-    "trend": "declining",
+    "trend": "rising",
     "catalysts": [
-      "Cummins, Alstom, and the Long Tail of Hydrogen Mistakes",
-      "BMW Group &#038; Rimac Technology Cooperate on Innovative Hi",
-      "Artemis 2- Orion Lunar Flyby"
+      "CPUC Wastes a Golden Opportunity to Right Wrongs of Previous",
+      "The Electrified Future Is Already Here. Canada Just Needs to",
+      "E-SAF Made in Europe \u2014 A Source of Jobs, Growth, and Energy"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 40,
+      "news": 80,
       "hiring": 0,
-      "market": 92
+      "market": 38
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
   },
   {
-    "sector": "Quantum Computing",
-    "momentum": 22,
+    "sector": "Chips & Semiconductors",
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
-      "Active quantum computing ecosystem"
+      "AFCENT awards Kraus Hamdani $270M for solar-powered, long-en"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 22,
+    "trend": "rising",
+    "catalysts": [
+      "Canva doubles down on AI and marketing automation with Simth",
+      "Iran-linked hackers disrupt operations at US critical infras",
+      "\u2018We Were Not Ready for This\u2019: Lebanon's Emergency System Is"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 50,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-09"
   },
   {
     "sector": "Transportation",
-    "momentum": 22,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -221,27 +220,25 @@
       "funding": 7,
       "news": 0,
       "hiring": 0,
-      "market": 100
+      "market": 93
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
   },
   {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 22,
-    "trend": "rising",
+    "sector": "Quantum Computing",
+    "momentum": 16,
+    "trend": "declining",
     "catalysts": [
-      "Iran-Linked Hackers Are Sabotaging US Energy and Water Infra",
-      "Pro-Iran hackers have disrupted some industrial-control syst",
-      "Iranian hackers are targeting American critical infrastructu"
+      "Active quantum computing ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 50,
+      "news": 10,
       "hiring": 0,
-      "market": 50
+      "market": 67
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
   },
   {
     "sector": "Housing & Construction",
@@ -257,11 +254,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 5,
+    "momentum": 6,
     "trend": "declining",
     "catalysts": [
       "Active nuclear energy ecosystem"
@@ -271,8 +268,8 @@
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 8
+      "market": 11
     },
-    "lastUpdated": "2026-04-08"
+    "lastUpdated": "2026-04-09"
   }
 ]
