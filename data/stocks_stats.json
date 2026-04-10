@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 0.98,
+      "avg_change": 0.9,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.09,
+      "avg_change": -1.52,
       "count": 3
     },
     "transportation": {
@@ -88,7 +88,7 @@
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      -8.34
+      -6.64
     ],
     [
       "TSLA",
@@ -111,5 +111,5 @@
       -12.19
     ]
   ],
-  "lastUpdated": "2026-04-10 07:48:22"
+  "lastUpdated": "2026-04-10 13:19:37"
 }
