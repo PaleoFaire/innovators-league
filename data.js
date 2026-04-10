@@ -25409,23 +25409,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-10 09:18
+// Last updated: 2026-04-10 13:26
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Revenue Will Be Close to Around $27-30 Billion in 2026", source: "Next Big Future", time: "3h ago", impact: "high", unread: true },
-  { id: 2, type: "milestone", company: "Karman Industries", headline: "Merino Energy Comes Out Of Stealth With $3,800 Heat Pump System", source: "CleanTechnica", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "Karman Industries", headline: "Donald Trump Guts Public Health Protection to Bolster Big Coal", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "hire", company: "WeaveGrid", headline: "Cross-State Coalition Disappointed in PUC Decision to Delay Cancellation of Agreements for Minnesota Power's NTEC Gas Pr", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Cape", headline: "Wired for Security: The EU's Post-2030 Climate Architecture", source: "CleanTechnica", time: "7h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Blue Origin", headline: "Two Day Delay for Blue Origin New Glenn", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "OpenAI", headline: "OpenAI Backs Bill That Would Limit Liability for AI-Enabled Mass Deaths or Financial Disasters", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic and xAI Model Parameter Counts", source: "Next Big Future", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Cape", headline: "Florida AG to probe OpenAI, alleging possible connection to FSU shooting", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "OpenAI", headline: "ChatGPT finally offers $100/month Pro plan", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Galvanick", headline: "What founders can learn from Anjuna's layoffs and recovery", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Vast", headline: "Update from the Battlefield: Drones, Distance, and Diminishing Returns for Russia", source: "War on the Rocks", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Mammoth Biosciences", headline: "Clinical trial shows gene editing works for '-Thalassaemia, too", source: "Ars Technica Space", time: "12h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "OpenAI", headline: "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Matic Robotics", headline: "StubHub to pay $10M to settle FTC allegations over 'deceptive' ticket pricing", source: "TechCrunch", time: "13h ago", impact: "medium", unread: false },
+  { id: 1, type: "news", company: "Ample", headline: "BMW Electric Vehicles To Receive Dow Jones Energy Charging Information", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Saule Technologies", headline: "One State, 12 Counties, A Huge Pile Of Renewable Energy Projects", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Astroscale", headline: "The Golden Dome's missing layer: On-orbit logistics for a resilient missile'defense", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "Karman Industries", headline: "Italy set to remove Leonardo CEO, despite major growth", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Durin", headline: "Fintech Startups Globally Raise More Money In Far Fewer Deals In Q1 2026", source: "Crunchbase News", time: "2h ago", impact: "high", unread: true },
+  { id: 6, type: "ipo", company: "Atmo", headline: "Constellations", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Deterrence", headline: "Disperse to Survive: The Logic of French Forward Deterrence", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Palantir", headline: "Iran's Other Front: The War Over the Internet", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Revenue Will Be Close to Around $27-30 Billion in 2026", source: "Next Big Future", time: "7h ago", impact: "high", unread: false },
+  { id: 10, type: "milestone", company: "Karman Industries", headline: "Merino Energy Comes Out Of Stealth With $3,800 Heat Pump System, At Our Coming Hawaii Electric Home Show", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Karman Industries", headline: "Donald Trump Guts Public Health Protection to Bolster Big Coal", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "WeaveGrid", headline: "Cross-State Coalition Disappointed in PUC Decision to Delay Cancellation of Agreements for Minnesota Power's NTEC Gas Pr", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Cape", headline: "Wired for Security: The EU's Post-2030 Climate Architecture", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Blue Origin", headline: "Two Day Delay for Blue Origin New Glenn", source: "Next Big Future", time: "12h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "OpenAI", headline: "OpenAI Backs Bill That Would Limit Liability for AI-Enabled Mass Deaths or Financial Disasters", source: "Wired", time: "13h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
