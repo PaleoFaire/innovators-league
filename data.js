@@ -24845,23 +24845,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-09 20:59
+// Last updated: 2026-04-10 03:27
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Mammoth Biosciences", headline: "Clinical trial shows gene editing works for '-Thalassaemia, too", source: "Ars Technica Space", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Matic Robotics", headline: "StubHub to pay $10M to settle FTC allegations over 'deceptive' ticket pricing", source: "TechCrunch", time: "Just now", impact: "medium", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 Should be the First Orbital Flight", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Galvanick", headline: "Is Anthropic limiting the release of Mythos to protect the internet ' or Anthropic?", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "PLD Space", headline: "PLD Space secures $35 million European Investment Bank loan for MIURA 5 launcher", source: "SpaceNews", time: "2h ago", impact: "medium", unread: false },
-  { id: 7, type: "hire", company: "Asylon Robotics", headline: "UK accuses Russia of covert submarine operation threatening undersea cables", source: "Breaking Defense", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "PILGRIM", headline: "How to make the Startup Battlefield Top 20 ' and what every company gets regardless", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Galvanick", headline: "Claude Mythos Will Uplevel AI Again and Exposes and Will Try to Fix Cybersecurity Issues", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Matic Robotics", headline: "John Deere Is Paying Farmers $99 Million for Allegedly Monopolizing Repair", source: "Wired", time: "3h ago", impact: "medium", unread: false },
-  { id: 11, type: "contract", company: "Andrenam", headline: "China's dual-use ambitions could severely threaten America's force posture", source: "Breaking Defense", time: "3h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Ample", headline: "BYD &#038; KFC Team Up For Flash Charging While You Eat. What Would You Like While Charging?", source: "CleanTechnica", time: "4h ago", impact: "medium", unread: false },
-  { id: 13, type: "news", company: "Gladia", headline: "Avec's Tinder-style email app allows you to swipe through your inbox", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Durin", headline: "X brings back Voice Notes to X Chat", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Andrenam", headline: "UK says it deployed military to deter Russian submarines from attack on undersea cables", source: "Defense News", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "WeaveGrid", headline: "Cross-State Coalition Disappointed in PUC Decision to Delay Cancellation of Agreements for Minnesota Power's NTEC Gas Pr", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Cape", headline: "Wired for Security: The EU's Post-2030 Climate Architecture", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Blue Origin", headline: "Two Day Delay for Blue Origin New Glenn", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "OpenAI", headline: "OpenAI Backs Bill That Would Limit Liability for AI-Enabled Mass Deaths or Financial Disasters", source: "Wired", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Anthropic", headline: "Anthropic and xAI Model Parameter Counts", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Cape", headline: "Florida AG to probe OpenAI, alleging possible connection to FSU shooting", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "ChatGPT finally offers $100/month Pro plan", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Galvanick", headline: "What founders can learn from Anjuna's layoffs and recovery", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Vast", headline: "Update from the Battlefield: Drones, Distance, and Diminishing Returns for Russia", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Mammoth Biosciences", headline: "Clinical trial shows gene editing works for '-Thalassaemia, too", source: "Ars Technica Space", time: "6h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "Florida AG announces investigation into OpenAI over shooting that allegedly involved ChatGPT", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Matic Robotics", headline: "StubHub to pay $10M to settle FTC allegations over 'deceptive' ticket pricing", source: "TechCrunch", time: "7h ago", impact: "medium", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Starship 13 Should be the First Orbital Flight", source: "Next Big Future", time: "7h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Galvanick", headline: "Is Anthropic limiting the release of Mythos to protect the internet ' or Anthropic?", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 15, type: "hire", company: "Asylon Robotics", headline: "UK accuses Russia of covert submarine operation threatening undersea cables", source: "Breaking Defense", time: "9h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
