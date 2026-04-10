@@ -14767,6 +14767,36 @@ const VC_FIRMS = [
     signal: "established",
     website: "https://d1cap.com",
     insight: "Dan Sundheim's D1 is one of the largest private holders of SpaceX, reportedly making it roughly a third of their private portfolio. That level of concentration in a single frontier tech company is a massive signal of conviction."
+  },
+  {
+    name: "Lightspeed Venture Partners",
+    shortName: "Lightspeed",
+    aum: "$9B+ (Dec 2025 raise)",
+    flagshipFund: "Lightspeed Fund XIV",
+    founded: 2000,
+    hq: "Menlo Park, CA",
+    thesis: "Multi-stage, multi-geography with growing frontier tech conviction. Closed $9B+ across six vehicles in Dec 2025 — largest fundraise in firm history. Led Castelion Series A ($100M) and Series B ($350M) for hypersonic weapons. Led Saronic $175M Series B at $1B valuation.",
+    keyPartners: ["Arif Janmohamed", "John Vrionis", "Ravi Mhatre", "Guru Chahal"],
+    sectorFocus: ["Defense & Security", "AI & Software", "Space & Aerospace", "Semiconductors"],
+    portfolioCompanies: ["Anduril Industries", "Castelion", "Saronic", "Anthropic", "Helion", "Mistral AI", "Skild AI", "Databricks"],
+    signal: "hot",
+    website: "https://lsvp.com",
+    insight: "Lightspeed's $9B fundraise in December 2025 — the largest in its history — signals a massive deployment runway for frontier tech. They've emerged as the go-to growth investor for hypersonic and autonomous weapons, leading both Castelion rounds and Saronic's Series B. Guru Chahal's defense thesis is increasingly central to the firm's AI practice."
+  },
+  {
+    name: "Thrive Capital",
+    shortName: "Thrive",
+    aum: "$5B+",
+    flagshipFund: "Thrive IX",
+    founded: 2009,
+    hq: "New York, NY",
+    thesis: "Joshua Kushner's firm with increasing frontier tech conviction. Originally software-focused (Instagram, Warby Parker), now expanding aggressively into defense and hard tech. Participated in Anduril's $2.5B Series G in March 2026 and Physical Intelligence's $1B round.",
+    keyPartners: ["Joshua Kushner", "Kareem Zaki", "Miles Grimshaw"],
+    sectorFocus: ["Defense & Security", "AI & Software", "Robotics & Automation"],
+    portfolioCompanies: ["Anduril Industries", "OpenAI", "Physical Intelligence", "Anthropic", "Figure AI"],
+    signal: "hot",
+    website: "https://thrivecap.com",
+    insight: "Thrive's pivot into frontier tech is one of the most important signals in 2025-2026. Joshua Kushner's willingness to write large checks into Anduril ($2.5B Series G) and Physical Intelligence ($1B) marks a coming-of-age for hard tech as a mainstream venture category. Their OpenAI position makes them a critical node in the AI-defense intersection."
   }
 ];
 

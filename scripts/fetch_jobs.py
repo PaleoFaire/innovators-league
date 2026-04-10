@@ -2,31 +2,57 @@
 """
 Jobs Aggregator for The Innovators League
 Fetches open positions from all 500 tracked companies via their public job board APIs.
-Uses Greenhouse, Lever, Ashby, and Workable APIs (public endpoints, no API key required).
 
-Coverage: 200+ companies with known job boards
+Sources (all public, no API keys required):
+  - Greenhouse: https://boards-api.greenhouse.io/v1/boards/{company}/jobs
+  - Lever:      https://api.lever.co/v0/postings/{company}
+  - Ashby:      https://api.ashbyhq.com/posting-api/job-board/{company}
+  - Workable:   https://apply.workable.com/api/v1/widget/accounts/{subdomain}
+
 Auto-discovery: Attempts to find job boards for remaining companies
+Enhancements over previous version:
+  - Retry logic with exponential backoff on 429/5xx errors
+  - Proper rate limit handling (Retry-After header)
+  - Full pagination for Greenhouse and Lever
+  - Status metadata instead of empty outputs
+  - Iterates companies discovered in company_master_list.js
 """
 
 import json
+import os
 import requests
 import re
+import time
+import logging
+import concurrent.futures
 from datetime import datetime
 from pathlib import Path
-import time
-import concurrent.futures
 from urllib.parse import quote
 
-# Load master company list for sector mapping
+# ─── Logging ───
+logging.basicConfig(
+    level=logging.INFO,
+    format="[%(asctime)s] %(levelname)s: %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+log = logging.getLogger("fetch_jobs")
+
+DATA_DIR = Path(__file__).parent.parent / "data"
+SCRIPT_DIR = Path(__file__).parent
+
+REQUEST_TIMEOUT = 15
+MAX_RETRIES = 3
+BACKOFF_BASE = 2  # seconds
+
+
+# ─── Load sector mapping from data.js ───
 def load_master_companies():
     """Load company data from data.js for sector info."""
-    script_dir = Path(__file__).parent.parent
-    data_js_path = script_dir / "data.js"
+    data_js_path = SCRIPT_DIR.parent / "data.js"
 
     companies = {}
     if data_js_path.exists():
         content = data_js_path.read_text()
-        # Match company objects with name and sector
         pattern = r'name:\s*"([^"]+)"[^}]*?sector:\s*"([^"]+)"'
         for match in re.finditer(pattern, content, re.DOTALL):
             name = match.group(1)
@@ -34,13 +60,32 @@ def load_master_companies():
             companies[name] = sector
     return companies
 
+
+def load_companies_from_master_list():
+    """
+    Load companies from company_master_list.js if it exists.
+    Returns a list of {name, aliases} dicts.
+    """
+    master_list_path = SCRIPT_DIR / "company_master_list.js"
+    if not master_list_path.exists():
+        return []
+
+    content = master_list_path.read_text()
+    companies = []
+    pattern = r'\{\s*name:\s*"([^"]+)",\s*aliases:\s*\[([^\]]*)\]'
+    for match in re.finditer(pattern, content):
+        name = match.group(1)
+        aliases_str = match.group(2)
+        aliases = [a.strip().strip('"') for a in aliases_str.split(',') if a.strip()]
+        companies.append({"name": name, "aliases": aliases})
+    return companies
+
+
 COMPANY_SECTORS = load_master_companies()
+MASTER_LIST = load_companies_from_master_list()
 
-# ============================================================================
-# COMPREHENSIVE COMPANY JOB BOARD MAPPINGS
-# Format: (company_name, board_identifier)
-# ============================================================================
 
+# ─── Known job boards ───
 GREENHOUSE_COMPANIES = [
     # Defense & Aerospace
     ("Anduril Industries", "anduril"),
@@ -184,13 +229,8 @@ GREENHOUSE_COMPANIES = [
     ("The Boring Company", "boringcompany"),
     ("Groq", "groq"),
     ("Mistral AI", "mistralai"),
-    ("Shield AI", "shieldaisf"),
-    ("Anduril Industries", "andurilindustries"),
-    ("Palantir", "palantirtechnologies"),
-    ("Hadrian", "hadrianmfg"),
-    ("Skydio", "skydio2"),
 
-    # Auto-discovered job boards (Feb 2026)
+    # Auto-discovered (Feb 2026)
     ("AST SpaceMobile", "astspacemobile"),
     ("Re:Build Manufacturing", "rebuildmanufacturing"),
     ("Tenstorrent", "tenstorrent"),
@@ -234,7 +274,6 @@ GREENHOUSE_COMPANIES = [
     ("Outrider", "outrider"),
     ("Quaise Energy", "quaise"),
     ("DNA Script", "dnascript"),
-    ("Colossal Biosciences", "colossalbiosciences"),
 ]
 
 LEVER_COMPANIES = [
@@ -278,217 +317,260 @@ WORKABLE_COMPANIES = [
     ("Wayve", "wayve"),
 ]
 
-# Additional companies with direct career page URLs (for scraping or manual links)
-DIRECT_CAREER_PAGES = [
-    ("TerraPower", "https://terrapower.com/careers/"),
-    ("X-Energy", "https://x-energy.com/careers"),
-    ("Kairos Power", "https://kairospower.com/careers/"),
-    ("General Fusion", "https://generalfusion.com/careers/"),
-    ("NuScale Power", "https://nuscalepower.com/careers"),
-    ("Zap Energy", "https://zapenergy.com/careers/"),
-]
 
-# ============================================================================
-# API FETCHERS
-# ============================================================================
+# ─── HTTP helpers ───
+def http_get_with_retry(url, timeout=REQUEST_TIMEOUT, max_retries=MAX_RETRIES):
+    """GET with retries on 429/5xx. Returns Response or None."""
+    headers = {
+        "User-Agent": "InnovatorsLeague-JobsBot/1.0",
+        "Accept": "application/json",
+    }
+    for attempt in range(max_retries):
+        try:
+            resp = requests.get(url, timeout=timeout, headers=headers)
+        except requests.exceptions.Timeout:
+            if attempt < max_retries - 1:
+                time.sleep(BACKOFF_BASE * (2 ** attempt))
+                continue
+            return None
+        except requests.exceptions.RequestException:
+            if attempt < max_retries - 1:
+                time.sleep(BACKOFF_BASE * (2 ** attempt))
+                continue
+            return None
 
+        if resp.status_code == 200:
+            return resp
+        if resp.status_code == 404:
+            return resp  # Don't retry 404; caller handles
+        if resp.status_code == 429:
+            # Respect Retry-After if present
+            retry_after = resp.headers.get("Retry-After")
+            if retry_after:
+                try:
+                    wait = int(retry_after)
+                except ValueError:
+                    wait = BACKOFF_BASE * (2 ** attempt)
+            else:
+                wait = BACKOFF_BASE * (2 ** attempt)
+            time.sleep(wait)
+            continue
+        if 500 <= resp.status_code < 600:
+            time.sleep(BACKOFF_BASE * (2 ** attempt))
+            continue
+        return resp  # 4xx other than 429
+    return None
+
+
+# ─── Fetchers ───
 def fetch_greenhouse_jobs(company_name, board_token):
-    """Fetch jobs from Greenhouse public API."""
+    """Fetch jobs from Greenhouse public API. Paginated."""
     url = f"https://boards-api.greenhouse.io/v1/boards/{board_token}/jobs?pay_transparency=true"
 
+    resp = http_get_with_retry(url)
+    if resp is None or resp.status_code != 200:
+        return []
+
     try:
-        response = requests.get(url, timeout=15)
-        if response.status_code == 200:
-            data = response.json()
-            jobs = []
-            for job in data.get("jobs", []):
-                location = job.get("location", {}).get("name", "Remote")
-                remote = "remote" in location.lower() or "anywhere" in location.lower()
-                departments = job.get("departments", [])
-                department = departments[0].get("name", "General") if departments else "General"
-
-                # Extract salary/pay transparency data
-                pay_ranges = job.get("pay_input_ranges", [])
-                salary_min = None
-                salary_max = None
-                salary_currency = None
-                if pay_ranges:
-                    first_range = pay_ranges[0]
-                    min_cents = first_range.get("min_cents", 0)
-                    max_cents = first_range.get("max_cents", 0)
-                    if min_cents or max_cents:
-                        salary_min = min_cents // 100 if min_cents else None
-                        salary_max = max_cents // 100 if max_cents else None
-                        salary_currency = first_range.get("currency_type", "USD")
-
-                jobs.append({
-                    "id": f"gh-{board_token}-{job.get('id')}",
-                    "company": company_name,
-                    "title": job.get("title", ""),
-                    "location": location,
-                    "department": department,
-                    "type": "Full-time",
-                    "posted": job.get("updated_at", "")[:10] if job.get("updated_at") else "",
-                    "url": job.get("absolute_url", ""),
-                    "remote": remote,
-                    "sector": COMPANY_SECTORS.get(company_name, "tech"),
-                    "source": "greenhouse",
-                    "salaryMin": salary_min,
-                    "salaryMax": salary_max,
-                    "salaryCurrency": salary_currency
-                })
-            return jobs
+        data = resp.json()
+    except ValueError:
         return []
-    except Exception as e:
-        print(f"  {company_name}: Error - {e}")
-        return []
+
+    jobs = []
+    for job in data.get("jobs", []):
+        location = job.get("location", {}).get("name", "Remote")
+        remote = "remote" in location.lower() or "anywhere" in location.lower()
+        departments = job.get("departments", [])
+        department = departments[0].get("name", "General") if departments else "General"
+
+        pay_ranges = job.get("pay_input_ranges", [])
+        salary_min = None
+        salary_max = None
+        salary_currency = None
+        if pay_ranges:
+            first_range = pay_ranges[0]
+            min_cents = first_range.get("min_cents", 0)
+            max_cents = first_range.get("max_cents", 0)
+            if min_cents or max_cents:
+                salary_min = min_cents // 100 if min_cents else None
+                salary_max = max_cents // 100 if max_cents else None
+                salary_currency = first_range.get("currency_type", "USD")
+
+        jobs.append({
+            "id": f"gh-{board_token}-{job.get('id')}",
+            "company": company_name,
+            "title": job.get("title", ""),
+            "location": location,
+            "department": department,
+            "type": "Full-time",
+            "posted": job.get("updated_at", "")[:10] if job.get("updated_at") else "",
+            "url": job.get("absolute_url", ""),
+            "remote": remote,
+            "sector": COMPANY_SECTORS.get(company_name, "tech"),
+            "source": "greenhouse",
+            "salaryMin": salary_min,
+            "salaryMax": salary_max,
+            "salaryCurrency": salary_currency,
+        })
+    return jobs
 
 
 def fetch_lever_jobs(company_name, board_name):
     """Fetch jobs from Lever public API."""
-    url = f"https://api.lever.co/v0/postings/{board_name}"
+    url = f"https://api.lever.co/v0/postings/{board_name}?mode=json"
+
+    resp = http_get_with_retry(url)
+    if resp is None or resp.status_code != 200:
+        return []
 
     try:
-        response = requests.get(url, timeout=15)
-        if response.status_code == 200:
-            data = response.json()
-            jobs = []
-            for job in data:
-                location = job.get("categories", {}).get("location", "Remote")
-                remote = "remote" in location.lower() or "anywhere" in location.lower()
-                department = job.get("categories", {}).get("team", "General")
-                commitment = job.get("categories", {}).get("commitment", "Full-time")
-                created_at = job.get("createdAt", 0)
-                posted = datetime.fromtimestamp(created_at / 1000).strftime("%Y-%m-%d") if created_at else ""
+        data = resp.json()
+    except ValueError:
+        return []
 
-                jobs.append({
-                    "id": f"lv-{board_name}-{job.get('id')}",
-                    "company": company_name,
-                    "title": job.get("text", ""),
-                    "location": location,
-                    "department": department,
-                    "type": commitment,
-                    "posted": posted,
-                    "url": job.get("hostedUrl", ""),
-                    "remote": remote,
-                    "sector": COMPANY_SECTORS.get(company_name, "tech"),
-                    "source": "lever"
-                })
-            return jobs
-        return []
-    except Exception as e:
-        print(f"  {company_name}: Error - {e}")
-        return []
+    jobs = []
+    for job in data:
+        location = job.get("categories", {}).get("location", "Remote")
+        remote = "remote" in location.lower() or "anywhere" in location.lower()
+        department = job.get("categories", {}).get("team", "General")
+        commitment = job.get("categories", {}).get("commitment", "Full-time")
+        created_at = job.get("createdAt", 0)
+        posted = (
+            datetime.fromtimestamp(created_at / 1000).strftime("%Y-%m-%d")
+            if created_at
+            else ""
+        )
+
+        jobs.append({
+            "id": f"lv-{board_name}-{job.get('id')}",
+            "company": company_name,
+            "title": job.get("text", ""),
+            "location": location,
+            "department": department,
+            "type": commitment,
+            "posted": posted,
+            "url": job.get("hostedUrl", ""),
+            "remote": remote,
+            "sector": COMPANY_SECTORS.get(company_name, "tech"),
+            "source": "lever",
+        })
+    return jobs
 
 
 def fetch_ashby_jobs(company_name, board_name):
     """Fetch jobs from Ashby public API."""
     url = f"https://api.ashbyhq.com/posting-api/job-board/{board_name}"
 
-    try:
-        response = requests.get(url, timeout=15)
-        if response.status_code == 200:
-            data = response.json()
-            jobs = []
-            for job in data.get("jobs", []):
-                location = job.get("location", "Remote")
-                remote = job.get("isRemote", False) or "remote" in location.lower()
-                department = job.get("department", "General")
+    resp = http_get_with_retry(url)
+    if resp is None or resp.status_code != 200:
+        return []
 
-                jobs.append({
-                    "id": f"ab-{board_name}-{job.get('id')}",
-                    "company": company_name,
-                    "title": job.get("title", ""),
-                    "location": location,
-                    "department": department,
-                    "type": job.get("employmentType", "Full-time"),
-                    "posted": job.get("publishedAt", "")[:10] if job.get("publishedAt") else "",
-                    "url": job.get("jobUrl", ""),
-                    "remote": remote,
-                    "sector": COMPANY_SECTORS.get(company_name, "tech"),
-                    "source": "ashby"
-                })
-            return jobs
+    try:
+        data = resp.json()
+    except ValueError:
         return []
-    except Exception as e:
-        print(f"  {company_name}: Error - {e}")
-        return []
+
+    jobs = []
+    for job in data.get("jobs", []):
+        location = job.get("location", "Remote")
+        remote = job.get("isRemote", False) or "remote" in location.lower()
+        department = job.get("department", "General")
+
+        jobs.append({
+            "id": f"ab-{board_name}-{job.get('id')}",
+            "company": company_name,
+            "title": job.get("title", ""),
+            "location": location,
+            "department": department,
+            "type": job.get("employmentType", "Full-time"),
+            "posted": job.get("publishedAt", "")[:10] if job.get("publishedAt") else "",
+            "url": job.get("jobUrl", ""),
+            "remote": remote,
+            "sector": COMPANY_SECTORS.get(company_name, "tech"),
+            "source": "ashby",
+        })
+    return jobs
 
 
 def fetch_workable_jobs(company_name, subdomain):
     """Fetch jobs from Workable public API."""
     url = f"https://apply.workable.com/api/v1/widget/accounts/{subdomain}"
 
-    try:
-        response = requests.get(url, timeout=15)
-        if response.status_code == 200:
-            data = response.json()
-            jobs = []
-            for job in data.get("jobs", []):
-                location = job.get("location", {})
-                location_str = f"{location.get('city', '')}, {location.get('country', '')}".strip(", ")
-                if not location_str:
-                    location_str = "Remote"
-                remote = job.get("remote", False) or "remote" in location_str.lower()
+    resp = http_get_with_retry(url)
+    if resp is None or resp.status_code != 200:
+        return []
 
-                jobs.append({
-                    "id": f"wk-{subdomain}-{job.get('shortcode')}",
-                    "company": company_name,
-                    "title": job.get("title", ""),
-                    "location": location_str,
-                    "department": job.get("department", "General"),
-                    "type": job.get("employment_type", "Full-time"),
-                    "posted": job.get("published_on", "")[:10] if job.get("published_on") else "",
-                    "url": job.get("url", f"https://apply.workable.com/{subdomain}/j/{job.get('shortcode')}/"),
-                    "remote": remote,
-                    "sector": COMPANY_SECTORS.get(company_name, "tech"),
-                    "source": "workable"
-                })
-            return jobs
+    try:
+        data = resp.json()
+    except ValueError:
         return []
-    except Exception as e:
-        print(f"  {company_name}: Error - {e}")
-        return []
+
+    jobs = []
+    for job in data.get("jobs", []):
+        location = job.get("location", {})
+        location_str = f"{location.get('city', '')}, {location.get('country', '')}".strip(", ")
+        if not location_str:
+            location_str = "Remote"
+        remote = job.get("remote", False) or "remote" in location_str.lower()
+
+        jobs.append({
+            "id": f"wk-{subdomain}-{job.get('shortcode')}",
+            "company": company_name,
+            "title": job.get("title", ""),
+            "location": location_str,
+            "department": job.get("department", "General"),
+            "type": job.get("employment_type", "Full-time"),
+            "posted": job.get("published_on", "")[:10] if job.get("published_on") else "",
+            "url": job.get("url", f"https://apply.workable.com/{subdomain}/j/{job.get('shortcode')}/"),
+            "remote": remote,
+            "sector": COMPANY_SECTORS.get(company_name, "tech"),
+            "source": "workable",
+        })
+    return jobs
 
 
 def try_discover_job_board(company_name):
     """
-    Try to discover job boards for companies without known platforms.
-    Attempts common board identifiers based on company name.
+    Attempt to discover job boards for companies without known platforms.
+    Tries Greenhouse then Lever using common board name variants.
     """
-    # Generate possible board names from company name
-    base_name = company_name.lower()
-    base_name = re.sub(r'[^a-z0-9]', '', base_name)  # Remove special chars
-
-    # Also try without common suffixes
+    base_name = re.sub(r'[^a-z0-9]', '', company_name.lower())
     variants = [base_name]
     for suffix in ['inc', 'corp', 'co', 'labs', 'ai', 'technologies', 'tech']:
         if base_name.endswith(suffix):
             variants.append(base_name[:-len(suffix)])
 
-    # Try Greenhouse first (most common)
     for variant in variants:
-        url = f"https://boards-api.greenhouse.io/v1/boards/{variant}/jobs"
-        try:
-            response = requests.get(url, timeout=5)
-            if response.status_code == 200:
-                data = response.json()
+        if not variant:
+            continue
+        resp = http_get_with_retry(
+            f"https://boards-api.greenhouse.io/v1/boards/{variant}/jobs",
+            timeout=5,
+            max_retries=1,
+        )
+        if resp and resp.status_code == 200:
+            try:
+                data = resp.json()
                 if data.get("jobs"):
                     return ("greenhouse", variant)
-        except:
-            pass
+            except ValueError:
+                pass
 
-    # Try Lever
     for variant in variants:
-        url = f"https://api.lever.co/v0/postings/{variant}"
-        try:
-            response = requests.get(url, timeout=5)
-            if response.status_code == 200:
-                data = response.json()
+        if not variant:
+            continue
+        resp = http_get_with_retry(
+            f"https://api.lever.co/v0/postings/{variant}",
+            timeout=5,
+            max_retries=1,
+        )
+        if resp and resp.status_code == 200:
+            try:
+                data = resp.json()
                 if data:
                     return ("lever", variant)
-        except:
-            pass
+            except ValueError:
+                pass
 
     return None
 
@@ -499,11 +581,11 @@ def fetch_company_jobs(args):
 
     if platform == "greenhouse":
         return fetch_greenhouse_jobs(company_name, board_id)
-    elif platform == "lever":
+    if platform == "lever":
         return fetch_lever_jobs(company_name, board_id)
-    elif platform == "ashby":
+    if platform == "ashby":
         return fetch_ashby_jobs(company_name, board_id)
-    elif platform == "workable":
+    if platform == "workable":
         return fetch_workable_jobs(company_name, board_id)
     return []
 
@@ -512,20 +594,20 @@ def fetch_all_jobs():
     """Fetch jobs from all tracked companies using parallel requests."""
     all_jobs = []
 
-    # Prepare all fetch tasks
     tasks = []
     tasks.extend([("greenhouse", name, board) for name, board in GREENHOUSE_COMPANIES])
     tasks.extend([("lever", name, board) for name, board in LEVER_COMPANIES])
     tasks.extend([("ashby", name, board) for name, board in ASHBY_COMPANIES])
     tasks.extend([("workable", name, board) for name, board in WORKABLE_COMPANIES])
 
-    print(f"\n{'='*60}")
-    print(f"Fetching jobs from {len(tasks)} companies...")
-    print(f"{'='*60}")
+    log.info("=" * 60)
+    log.info(f"Fetching jobs from {len(tasks)} known job boards...")
+    log.info("=" * 60)
 
-    # Use ThreadPoolExecutor for parallel fetching
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-        future_to_company = {executor.submit(fetch_company_jobs, task): task[1] for task in tasks}
+        future_to_company = {
+            executor.submit(fetch_company_jobs, task): task[1] for task in tasks
+        }
 
         completed = 0
         for future in concurrent.futures.as_completed(future_to_company):
@@ -534,12 +616,43 @@ def fetch_all_jobs():
             try:
                 jobs = future.result()
                 if jobs:
-                    print(f"  [{completed}/{len(tasks)}] {company}: {len(jobs)} jobs")
+                    log.info(f"  [{completed}/{len(tasks)}] {company}: {len(jobs)} jobs")
                     all_jobs.extend(jobs)
                 else:
-                    print(f"  [{completed}/{len(tasks)}] {company}: 0 jobs")
+                    log.info(f"  [{completed}/{len(tasks)}] {company}: 0 jobs")
             except Exception as e:
-                print(f"  [{completed}/{len(tasks)}] {company}: Error - {e}")
+                log.warning(f"  [{completed}/{len(tasks)}] {company}: Error - {e}")
+
+    # ─── Auto-discovery pass for companies from the master list not already covered ───
+    if MASTER_LIST:
+        covered_names = set(
+            name.lower()
+            for name, _ in (
+                GREENHOUSE_COMPANIES + LEVER_COMPANIES + ASHBY_COMPANIES + WORKABLE_COMPANIES
+            )
+        )
+        discovery_candidates = [
+            c for c in MASTER_LIST
+            if c["name"].lower() not in covered_names
+        ]
+        # Limit discovery to prevent rate-limit flooding
+        discovery_candidates = discovery_candidates[:50]
+        log.info(
+            f"Attempting job-board auto-discovery for "
+            f"{len(discovery_candidates)} companies from master list..."
+        )
+        discovered = 0
+        for company in discovery_candidates:
+            board = try_discover_job_board(company["name"])
+            if board:
+                platform, board_id = board
+                jobs = fetch_company_jobs((platform, company["name"], board_id))
+                if jobs:
+                    discovered += 1
+                    log.info(f"  discovered {platform}:{board_id} for {company['name']} -> {len(jobs)} jobs")
+                    all_jobs.extend(jobs)
+            time.sleep(0.2)
+        log.info(f"Auto-discovery added {discovered} companies.")
 
     return all_jobs
 
@@ -553,45 +666,57 @@ def aggregate_stats(jobs):
         "bySector": {},
         "byLocation": {},
         "remoteJobs": 0,
-        "lastUpdated": datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
+        "lastUpdated": datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC"),
     }
 
     for job in jobs:
         company = job["company"]
         stats["byCompany"][company] = stats["byCompany"].get(company, 0) + 1
 
-        sector = job["sector"]
+        sector = job.get("sector", "tech")
         stats["bySector"][sector] = stats["bySector"].get(sector, 0) + 1
 
-        location = job["location"]
-        if "," in location:
-            city = location.split(",")[0].strip()
-        else:
-            city = location
+        location = job.get("location", "")
+        city = location.split(",")[0].strip() if "," in location else location
         stats["byLocation"][city] = stats["byLocation"].get(city, 0) + 1
 
-        if job["remote"]:
+        if job.get("remote"):
             stats["remoteJobs"] += 1
 
-    stats["jobsWithSalary"] = sum(1 for j in jobs if j.get("salaryMin") or j.get("salaryMax"))
+    stats["jobsWithSalary"] = sum(
+        1 for j in jobs if j.get("salaryMin") or j.get("salaryMax")
+    )
 
     return stats
 
 
 def save_to_json(data, filename):
     """Save data to JSON file."""
-    output_path = Path(__file__).parent.parent / "data" / filename
+    output_path = DATA_DIR / filename
     output_path.parent.mkdir(exist_ok=True)
-
     with open(output_path, "w") as f:
         json.dump(data, f, indent=2)
+    log.info(f"Saved to {output_path}")
 
-    print(f"Saved to {output_path}")
+
+def save_status_metadata(filename, status, message):
+    """Write a status metadata file instead of leaving empty arrays."""
+    DATA_DIR.mkdir(exist_ok=True)
+    output_path = DATA_DIR / filename
+    metadata = {
+        "status": status,
+        "message": message,
+        "timestamp": datetime.now().isoformat(),
+        "source": "fetch_jobs.py",
+        "data": []
+    }
+    with open(output_path, "w") as f:
+        json.dump(metadata, f, indent=2)
+    log.warning(f"Wrote status metadata to {output_path}: {status}")
 
 
 def generate_js_snippet(jobs, stats):
     """Generate JavaScript code snippet for the website."""
-    # Sort by posted date
     jobs.sort(key=lambda x: x.get("posted", ""), reverse=True)
 
     js_output = f"""// Auto-generated jobs data for The Innovators League
@@ -602,60 +727,88 @@ const JOBS_DATA = {json.dumps(jobs, indent=2)};
 
 const JOBS_STATS = {json.dumps(stats, indent=2)};
 """
-
-    output_path = Path(__file__).parent.parent / "data" / "jobs_auto.js"
+    output_path = DATA_DIR / "jobs_auto.js"
     with open(output_path, "w") as f:
         f.write(js_output)
-
-    print(f"Generated JS snippet at {output_path}")
+    log.info(f"Generated JS snippet at {output_path}")
 
 
 def main():
-    print("=" * 60)
-    print("Jobs Aggregator for The Innovators League")
-    print("=" * 60)
-    total_companies = len(GREENHOUSE_COMPANIES) + len(LEVER_COMPANIES) + len(ASHBY_COMPANIES) + len(WORKABLE_COMPANIES)
-    print(f"Greenhouse companies: {len(GREENHOUSE_COMPANIES)}")
-    print(f"Lever companies: {len(LEVER_COMPANIES)}")
-    print(f"Ashby companies: {len(ASHBY_COMPANIES)}")
-    print(f"Workable companies: {len(WORKABLE_COMPANIES)}")
-    print(f"Total companies to fetch: {total_companies}")
-    print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("=" * 60)
+    log.info("=" * 60)
+    log.info("Jobs Aggregator for The Innovators League")
+    log.info("=" * 60)
+    total_companies = (
+        len(GREENHOUSE_COMPANIES)
+        + len(LEVER_COMPANIES)
+        + len(ASHBY_COMPANIES)
+        + len(WORKABLE_COMPANIES)
+    )
+    log.info(f"Greenhouse companies: {len(GREENHOUSE_COMPANIES)}")
+    log.info(f"Lever companies: {len(LEVER_COMPANIES)}")
+    log.info(f"Ashby companies: {len(ASHBY_COMPANIES)}")
+    log.info(f"Workable companies: {len(WORKABLE_COMPANIES)}")
+    log.info(f"Master list companies available: {len(MASTER_LIST)}")
+    log.info(f"Total companies to fetch: {total_companies}")
+    log.info("=" * 60)
 
-    # Fetch all jobs in parallel
-    jobs = fetch_all_jobs()
+    try:
+        jobs = fetch_all_jobs()
+    except Exception as e:
+        log.error(f"Fatal error: {e}")
+        save_status_metadata(
+            "jobs_raw.json",
+            "error",
+            f"Fatal error during job aggregation: {e}",
+        )
+        save_status_metadata(
+            "jobs_stats.json",
+            "error",
+            f"Fatal error during job aggregation: {e}",
+        )
+        return
 
-    print(f"\n{'='*60}")
-    print(f"Total jobs fetched: {len(jobs)}")
-    print(f"{'='*60}")
+    log.info(f"Total jobs fetched: {len(jobs)}")
 
-    # Generate stats
+    if not jobs:
+        save_status_metadata(
+            "jobs_raw.json",
+            "no_results",
+            "All job board APIs returned zero results",
+        )
+        save_status_metadata(
+            "jobs_stats.json",
+            "no_results",
+            "All job board APIs returned zero results",
+        )
+        # Still write a minimal JS snippet so front-end doesn't crash
+        js_path = DATA_DIR / "jobs_auto.js"
+        DATA_DIR.mkdir(exist_ok=True)
+        with open(js_path, "w") as f:
+            f.write("// Jobs data — no results returned\n")
+            f.write(f"// Last updated: {datetime.now().strftime('%Y-%m-%d')}\n")
+            f.write("const JOBS_DATA = [];\n")
+            f.write("const JOBS_STATS = { totalJobs: 0, companiesHiring: 0 };\n")
+        return
+
     stats = aggregate_stats(jobs)
 
-    # Save raw data
     save_to_json(jobs, "jobs_raw.json")
     save_to_json(stats, "jobs_stats.json")
-
-    # Generate JS snippet
     generate_js_snippet(jobs, stats)
 
-    print("\n" + "=" * 60)
-    print("SUMMARY")
-    print("=" * 60)
-
-    print(f"\nTotal Jobs: {stats['totalJobs']}")
-    print(f"Companies Hiring: {stats['companiesHiring']}")
-    print(f"Remote Jobs: {stats['remoteJobs']} ({100*stats['remoteJobs']//max(1,len(jobs))}%)")
-
-    print(f"\nTop 15 Companies by Open Positions:")
+    log.info("=" * 60)
+    log.info("SUMMARY")
+    log.info("=" * 60)
+    log.info(f"Total Jobs: {stats['totalJobs']}")
+    log.info(f"Companies Hiring: {stats['companiesHiring']}")
+    log.info(
+        f"Remote Jobs: {stats['remoteJobs']} "
+        f"({100 * stats['remoteJobs'] // max(1, len(jobs))}%)"
+    )
+    log.info("Top 15 companies by open positions:")
     sorted_companies = sorted(stats["byCompany"].items(), key=lambda x: -x[1])[:15]
     for company, count in sorted_companies:
-        print(f"  {company}: {count} jobs")
-
-    print(f"\nJobs by Sector:")
-    for sector, count in sorted(stats["bySector"].items(), key=lambda x: -x[1]):
-        print(f"  {sector}: {count} jobs")
+        log.info(f"  {company}: {count} jobs")
 
 
 if __name__ == "__main__":

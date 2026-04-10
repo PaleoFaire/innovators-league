@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Research Requests | ROS Startup Database</title>
+    <meta name="description" content="Bespoke frontier tech intelligence from the ROS team. Site visits, competitive analysis, founder briefings.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:title" content="Custom Research Requests | ROS Startup Database">
+    <meta property="og:description" content="Bespoke frontier tech intelligence from the ROS team.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Custom Research Requests | ROS Startup Database">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260410">
+    <link rel="stylesheet" href="research-page.css?v=20260410">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
+            <a href="investors.html" class="nav-link">Investors</a>
+            <a href="jobs.html" class="nav-link">Talent</a>
+            <a href="valuations.html" class="nav-link">Valuations</a>
+            <a href="dealflow.html" class="nav-link">Deal Flow</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main active">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="alerts.html" class="nav-dropdown-link">Deal Alerts</a>
+                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                    <a href="captable.html" class="nav-dropdown-link">Cap Table</a>
+                    <a href="customers.html" class="nav-dropdown-link">Customers</a>
+                    <a href="research.html" class="nav-dropdown-link active">Research</a>
+                    <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="nav-dropdown-link">Field Notes &#8599;</a>
+                </div>
+            </div>
+            <div class="nav-auth" id="nav-auth">
+                <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            </div>
+            <div class="nav-user" id="nav-user" style="display:none;">
+                <span class="nav-user-email" id="nav-user-email"></span>
+                <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+            </div>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Breadcrumb Navigation -->
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
+        <span aria-current="page">Custom Research Requests</span>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="research-hero">
+        <p class="hero-eyebrow">BESPOKE INTELLIGENCE</p>
+        <h1>Custom Research Requests</h1>
+        <p>Get bespoke frontier tech intelligence from the ROS team. Site visits, competitive analysis, founder briefings.</p>
+    </header>
+
+    <!-- Tier Cards -->
+    <section class="research-tiers-section">
+        <div class="research-section-header">
+            <h2>Choose Your Research Tier</h2>
+            <p>All tiers include access to the ROS research team, proprietary frontier-tech databases, and direct founder/operator contacts.</p>
+        </div>
+        <div class="research-tiers-grid">
+            <!-- Analyst Tier -->
+            <div class="tier-card">
+                <div class="tier-icon">&#128202;</div>
+                <div class="tier-name">Analyst</div>
+                <div class="tier-price">
+                    <span class="tier-price-amount">$5,000</span>
+                    <span class="tier-price-period">/ year</span>
+                </div>
+                <div class="tier-tagline">For individual investors and analysts who need periodic deep dives.</div>
+                <ul class="tier-features">
+                    <li><span class="tier-check">&#10003;</span> 2 custom research requests per year</li>
+                    <li><span class="tier-check">&#10003;</span> 5-day turnaround</li>
+                    <li><span class="tier-check">&#10003;</span> 5-page report with sources</li>
+                    <li><span class="tier-check">&#10003;</span> Email delivery</li>
+                </ul>
+                <a href="#research-form" class="tier-cta">Request Research</a>
+            </div>
+
+            <!-- Investor Tier (featured) -->
+            <div class="tier-card tier-card-featured">
+                <div class="tier-featured-badge">MOST POPULAR</div>
+                <div class="tier-icon">&#127919;</div>
+                <div class="tier-name">Investor</div>
+                <div class="tier-price">
+                    <span class="tier-price-amount">$10,000</span>
+                    <span class="tier-price-period">/ year</span>
+                </div>
+                <div class="tier-tagline">For active investors tracking multiple frontier tech deals.</div>
+                <ul class="tier-features">
+                    <li><span class="tier-check">&#10003;</span> 4 custom research requests per year</li>
+                    <li><span class="tier-check">&#10003;</span> 3-day turnaround</li>
+                    <li><span class="tier-check">&#10003;</span> 10-page report + 30-min debrief call</li>
+                    <li><span class="tier-check">&#10003;</span> Priority queue access</li>
+                </ul>
+                <a href="#research-form" class="tier-cta tier-cta-featured">Request Research</a>
+            </div>
+
+            <!-- Enterprise Tier -->
+            <div class="tier-card">
+                <div class="tier-icon">&#127970;</div>
+                <div class="tier-name">Enterprise</div>
+                <div class="tier-price">
+                    <span class="tier-price-amount">$25,000+</span>
+                    <span class="tier-price-period">/ year</span>
+                </div>
+                <div class="tier-tagline">For funds and corporates with continuous intelligence needs.</div>
+                <ul class="tier-features">
+                    <li><span class="tier-check">&#10003;</span> Unlimited requests</li>
+                    <li><span class="tier-check">&#10003;</span> 24-hour turnaround</li>
+                    <li><span class="tier-check">&#10003;</span> Dedicated analyst assigned</li>
+                    <li><span class="tier-check">&#10003;</span> Weekly sync calls</li>
+                    <li><span class="tier-check">&#10003;</span> Custom dashboard access</li>
+                </ul>
+                <a href="#research-form" class="tier-cta">Request Research</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Request Form -->
+    <section class="research-form-section" id="research-form-container">
+        <div class="research-form-header">
+            <h2>Submit Your Request</h2>
+            <p>Tell us what you need. A member of the ROS team will confirm receipt within one business day.</p>
+        </div>
+        <form class="research-form" id="research-form" autocomplete="on">
+            <div class="form-row">
+                <label for="research-topic">Research Topic <span class="required">*</span></label>
+                <input type="text" id="research-topic" name="topic" placeholder="e.g. Next-gen nuclear micro-reactor landscape" required>
+            </div>
+
+            <div class="form-row">
+                <label for="research-questions">Specific Questions <span class="required">*</span></label>
+                <textarea id="research-questions" name="questions" rows="4" placeholder="What do you need to know? Be specific about companies, metrics, time-horizons, or decisions you're trying to make." required></textarea>
+            </div>
+
+            <div class="form-grid">
+                <div class="form-row">
+                    <label for="research-deadline">Deadline</label>
+                    <select id="research-deadline" name="deadline">
+                        <option value="ASAP">ASAP</option>
+                        <option value="1 week">1 week</option>
+                        <option value="2 weeks" selected>2 weeks</option>
+                        <option value="1 month">1 month</option>
+                        <option value="Flexible">Flexible</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="research-tier">Member Tier</label>
+                    <select id="research-tier" name="tier">
+                        <option value="Analyst">Analyst ($5K/yr)</option>
+                        <option value="Investor" selected>Investor ($10K/yr)</option>
+                        <option value="Enterprise">Enterprise ($25K+/yr)</option>
+                        <option value="Not a member yet">Not a member yet</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-grid">
+                <div class="form-row">
+                    <label for="research-name">Your Name <span class="required">*</span></label>
+                    <input type="text" id="research-name" name="name" placeholder="Jane Doe" required>
+                </div>
+                <div class="form-row">
+                    <label for="research-email">Email <span class="required">*</span></label>
+                    <input type="email" id="research-email" name="email" placeholder="jane@fund.com" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label for="research-org">Organization</label>
+                <input type="text" id="research-org" name="organization" placeholder="Fund, company, or independent">
+            </div>
+
+            <div class="form-footer">
+                <button type="submit" class="form-submit-btn">Submit Research Request</button>
+                <p class="form-note">Your request is sent to <span>research@rationaloptimistsociety.com</span>. We respond within one business day.</p>
+            </div>
+        </form>
+    </section>
+
+    <!-- Confirmation -->
+    <section class="research-confirmation" id="research-confirmation" style="display:none;">
+        <div class="confirmation-icon">&#10003;</div>
+        <h2>Request Submitted</h2>
+        <p>Thank you for your research request. Your email client should now open with a pre-filled message to our research team. If it doesn't, email us directly at <a href="mailto:research@rationaloptimistsociety.com">research@rationaloptimistsociety.com</a>.</p>
+        <p class="confirmation-note">A member of the ROS team will confirm receipt within one business day and provide an estimated delivery date based on your tier and deadline.</p>
+        <div class="confirmation-actions">
+            <a href="index.html" class="confirmation-btn">Back to Home</a>
+            <a href="visualizations.html" class="confirmation-btn confirmation-btn-secondary">Browse Insights</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">THE INNOVATORS LEAGUE</div>
+                    <p>A project of the <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">Rational Optimist Society</a>. Built from years of founder relationships, site visits, and deep sector research.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>ROS</h4>
+                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener">Main Site</a>
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
+                    <a href="https://x.com/RationalOptSoc" target="_blank" rel="noopener">X / Twitter</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <a href="visualizations.html">Insights</a>
+                    <a href="investors.html">Investors</a>
+                    <a href="captable.html">Cap Table</a>
+                    <a href="customers.html">Customers</a>
+                    <a href="research.html">Research</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rational Optimist Society &middot; ROS Startup Database</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="auth.js?v=20260325"></script>
+    <script src="research.js?v=20260410"></script>
+</body>
+</html>

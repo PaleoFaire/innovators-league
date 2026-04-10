@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap Table Intelligence | ROS Startup Database</title>
+    <meta name="description" content="Ownership, dilution, and investor stake analysis for frontier tech companies.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:title" content="Cap Table Intelligence | ROS Startup Database">
+    <meta property="og:description" content="Ownership, dilution, and investor stake analysis for frontier tech companies.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Cap Table Intelligence | ROS Startup Database">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260410">
+    <link rel="stylesheet" href="captable-page.css?v=20260410">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
+            <a href="investors.html" class="nav-link">Investors</a>
+            <a href="jobs.html" class="nav-link">Talent</a>
+            <a href="valuations.html" class="nav-link">Valuations</a>
+            <a href="dealflow.html" class="nav-link">Deal Flow</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main active">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="alerts.html" class="nav-dropdown-link">Deal Alerts</a>
+                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                    <a href="captable.html" class="nav-dropdown-link active">Cap Table</a>
+                    <a href="customers.html" class="nav-dropdown-link">Customers</a>
+                    <a href="research.html" class="nav-dropdown-link">Research</a>
+                    <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="nav-dropdown-link">Field Notes &#8599;</a>
+                </div>
+            </div>
+            <div class="nav-auth" id="nav-auth">
+                <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            </div>
+            <div class="nav-user" id="nav-user" style="display:none;">
+                <span class="nav-user-email" id="nav-user-email"></span>
+                <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+            </div>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Breadcrumb Navigation -->
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
+        <span aria-current="page">Cap Table Intelligence</span>
+    </div>
+
+    <!-- Hero -->
+    <header class="hero captable-hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow">FUND INTELLIGENCE</p>
+            <h1 class="hero-title">Cap Table Intelligence</h1>
+            <p class="hero-subtitle">Ownership, dilution, and investor stake analysis for frontier tech companies.</p>
+        </div>
+    </header>
+
+    <main class="captable-main">
+        <div class="container">
+            <div class="captable-selector-wrap">
+                <label for="captable-company-input" class="captable-label">Select a company</label>
+                <div class="captable-selector">
+                    <svg class="captable-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <input type="text" id="captable-company-input" placeholder="Search companies..." autocomplete="off">
+                </div>
+                <p class="captable-hint">Start typing to see matches. Cap tables are modeled from funding data, SEC filings, and stage-typical ownership distributions.</p>
+            </div>
+
+            <div id="captable-content" class="captable-content">
+                <div class="captable-empty">
+                    <div class="captable-empty-icon">&#128202;</div>
+                    <h3>No company selected</h3>
+                    <p>Pick a company above to view its estimated cap table, funding rounds, and known investors.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">THE INNOVATORS LEAGUE</div>
+                    <p>A project of the <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">Rational Optimist Society</a>. Built from years of founder relationships, site visits, and deep sector research.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>ROS</h4>
+                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener">Main Site</a>
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
+                    <a href="https://x.com/RationalOptSoc" target="_blank" rel="noopener">X / Twitter</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <a href="visualizations.html">Insights</a>
+                    <a href="investors.html">Investors</a>
+                    <a href="captable.html">Cap Table</a>
+                    <a href="customers.html">Customers</a>
+                    <a href="research.html">Research</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rational Optimist Society &middot; ROS Startup Database</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="auth.js?v=20260325"></script>
+    <script src="data.js?v=20260325"></script>
+    <script src="captable.js?v=20260410"></script>
+</body>
+</html>

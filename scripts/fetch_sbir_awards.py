@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 """
 SBIR/STTR Government Grant Awards Fetcher
+
 Identifies frontier tech companies receiving early-stage government funding.
 SBIR awards are the strongest early signal — companies appear here 2-5 years
 before they show up on Crunchbase or PitchBook.
 
-API: https://api.www.sbir.gov/public/api/awards
-Free, no API key required.
+Primary endpoint:  https://api.www.sbir.gov/public/api/awards
+Fallback endpoint: https://www.sbir.gov/api/awards.json
+                   https://www.sbir.gov/awards-api
+                   (The SBIR.gov API has been rotating endpoints — we try several.)
+
+No API key required.
 """
 
 import json
@@ -14,12 +19,27 @@ import os
 import re
 import requests
 import time
+import logging
 from datetime import datetime
 from pathlib import Path
 
+# ─── Logging ───
+logging.basicConfig(
+    level=logging.INFO,
+    format="[%(asctime)s] %(levelname)s: %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+log = logging.getLogger("fetch_sbir_awards")
+
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_JS = Path(__file__).parent.parent / "data.js"
-SBIR_API = "https://api.www.sbir.gov/public/api/awards"
+
+# Ordered list of SBIR endpoints we will try. The first one that responds wins.
+SBIR_ENDPOINTS = [
+    "https://api.www.sbir.gov/public/api/awards",
+    "https://www.sbir.gov/api/awards.json",
+    "https://www.sbir.gov/awards-api",
+]
 
 # Agencies most relevant to frontier tech
 AGENCIES = ["DOD", "DOE", "NASA", "NSF", "HHS"]
@@ -43,101 +63,211 @@ SEARCH_KEYWORDS = [
     "carbon capture climate",
 ]
 
+MAX_RETRIES = 4
+BASE_BACKOFF = 3  # seconds; doubles each retry
+REQUEST_TIMEOUT = 30
+
 
 def extract_companies_from_datajs():
     """Extract company names from data.js for matching."""
     if not DATA_JS.exists():
         return set()
     content = DATA_JS.read_text(encoding="utf-8", errors="replace")
-    # Extract company names from the COMPANIES array
     names = set()
     for match in re.finditer(r'name:\s*["\']([^"\']+)["\']', content):
         names.add(match.group(1).lower().strip())
     return names
 
 
-def fetch_sbir_awards(keyword, agency=None, year=None, max_results=100):
-    """Fetch SBIR awards matching a keyword with retry on rate limit."""
-    params = {
-        "keyword": keyword,
-        "rows": min(max_results, 100),
-        "start": 0,
-    }
-    if agency:
-        params["agency"] = agency
-    if year:
-        params["year"] = year
-
-    max_retries = 3
-    for attempt in range(max_retries):
-        try:
-            resp = requests.get(SBIR_API, params=params, timeout=30,
-                               headers={"User-Agent": "InnovatorsLeague/1.0"})
-            if resp.status_code == 403:
-                return None  # API under maintenance
-            if resp.status_code == 429:
-                wait = (2 ** attempt) * 5
-                print(f"  Rate limited (429), waiting {wait}s...")
-                time.sleep(wait)
-                continue
-            resp.raise_for_status()
-            data = resp.json()
-            return data if isinstance(data, list) else data.get("results", data.get("data", []))
-        except requests.exceptions.RequestException as e:
-            if attempt < max_retries - 1:
-                time.sleep(2 ** attempt)
-                continue
-            print(f"  Error fetching SBIR: {e}")
-            return []
-        except (json.JSONDecodeError, ValueError):
-            return []
+def _parse_sbir_payload(data):
+    """Normalize a SBIR.gov response into a plain list of award records."""
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        for key in ("results", "data", "awards", "items"):
+            if key in data and isinstance(data[key], list):
+                return data[key]
     return []
 
 
+def fetch_sbir_awards(keyword, agency=None, year=None, max_results=100,
+                     page_size=100):
+    """
+    Fetch SBIR awards matching a keyword, trying each known endpoint in turn.
+    Supports pagination and exponential backoff.
+    """
+    headers = {
+        "User-Agent": "InnovatorsLeague-Bot/1.0",
+        "Accept": "application/json",
+    }
+
+    for endpoint in SBIR_ENDPOINTS:
+        all_records = []
+        start = 0
+        endpoint_worked = False
+
+        while len(all_records) < max_results:
+            params = {
+                "keyword": keyword,
+                "rows": min(page_size, max_results - len(all_records)),
+                "start": start,
+            }
+            if agency:
+                params["agency"] = agency
+            if year:
+                params["year"] = year
+
+            # Retry loop with exponential backoff
+            resp = None
+            for attempt in range(MAX_RETRIES):
+                try:
+                    resp = requests.get(
+                        endpoint,
+                        params=params,
+                        timeout=REQUEST_TIMEOUT,
+                        headers=headers,
+                    )
+                except requests.exceptions.Timeout:
+                    log.warning(
+                        f"  Timeout on {endpoint} (attempt {attempt + 1}/{MAX_RETRIES})"
+                    )
+                    time.sleep(BASE_BACKOFF * (2 ** attempt))
+                    continue
+                except requests.exceptions.RequestException as e:
+                    log.warning(
+                        f"  Request error on {endpoint} (attempt {attempt + 1}): {e}"
+                    )
+                    time.sleep(BASE_BACKOFF * (2 ** attempt))
+                    continue
+
+                if resp.status_code == 403:
+                    log.warning(f"  {endpoint} returned 403 (maintenance). Trying next endpoint.")
+                    resp = None
+                    break
+                if resp.status_code == 404:
+                    log.warning(f"  {endpoint} returned 404. Trying next endpoint.")
+                    resp = None
+                    break
+                if resp.status_code == 429:
+                    wait = BASE_BACKOFF * (2 ** attempt)
+                    log.warning(f"  Rate limited (429), waiting {wait}s...")
+                    time.sleep(wait)
+                    continue
+                if resp.status_code >= 500:
+                    wait = BASE_BACKOFF * (2 ** attempt)
+                    log.warning(
+                        f"  Server error {resp.status_code}, waiting {wait}s..."
+                    )
+                    time.sleep(wait)
+                    continue
+                break  # 2xx or unhandled client error - break retry loop
+
+            if resp is None:
+                break  # Try next endpoint
+            if resp.status_code != 200:
+                log.warning(
+                    f"  {endpoint} returned HTTP {resp.status_code}. Trying next endpoint."
+                )
+                break
+
+            try:
+                data = resp.json()
+            except ValueError:
+                log.warning(f"  Invalid JSON from {endpoint}. Trying next endpoint.")
+                break
+
+            page = _parse_sbir_payload(data)
+            if not page:
+                endpoint_worked = True  # empty but valid response
+                break
+
+            all_records.extend(page)
+            endpoint_worked = True
+
+            # Stop paginating when we've filled the quota or the page is short
+            if len(page) < page_size:
+                break
+            start += page_size
+            time.sleep(0.5)  # Be gentle between pages
+
+        if endpoint_worked:
+            return all_records
+
+    # All endpoints failed
+    return None
+
+
+def save_status_metadata(filename, status, message):
+    """Write a status metadata file instead of leaving empty arrays."""
+    DATA_DIR.mkdir(exist_ok=True)
+    output_path = DATA_DIR / filename
+    metadata = {
+        "status": status,
+        "message": message,
+        "timestamp": datetime.now().isoformat(),
+        "source": "fetch_sbir_awards.py",
+        "data": []
+    }
+    with open(output_path, "w") as f:
+        json.dump(metadata, f, indent=2)
+    log.warning(f"Wrote status metadata to {output_path}: {status}")
+
+
 def main():
-    print("=" * 60)
-    print("SBIR/STTR Government Grant Awards Fetcher")
-    print("=" * 60)
-    print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Searching {len(SEARCH_KEYWORDS)} keyword sets across {len(AGENCIES)} agencies")
-    print("=" * 60)
+    log.info("=" * 60)
+    log.info("SBIR/STTR Government Grant Awards Fetcher")
+    log.info("=" * 60)
+    log.info(
+        f"Searching {len(SEARCH_KEYWORDS)} keyword sets across "
+        f"{len(AGENCIES)} agencies"
+    )
+    log.info(f"Endpoints to try (in order): {SBIR_ENDPOINTS}")
+    log.info("=" * 60)
 
     known_companies = extract_companies_from_datajs()
-    print(f"Loaded {len(known_companies)} company names from data.js for matching")
+    log.info(f"Loaded {len(known_companies)} company names from data.js for matching")
 
     all_awards = []
     seen_ids = set()
-    api_available = True
+    api_calls_attempted = 0
+    api_calls_successful = 0
+    all_endpoints_failed = False
 
-    # Search by keyword only (no agency/year breakdown) to minimize API calls
-    # This fetches the 100 most recent results per keyword = ~1,500 total (deduplicated)
     for keyword in SEARCH_KEYWORDS:
-        if not api_available:
-            break
-
+        api_calls_attempted += 1
         awards = fetch_sbir_awards(keyword)
 
         if awards is None:
-            print("\n  ⚠️ SBIR API returned 403 (maintenance mode). Using cached data.")
-            api_available = False
-            break
+            log.warning(
+                "All SBIR endpoints failed for this keyword. "
+                "Will fall back to cached data at end."
+            )
+            all_endpoints_failed = True
+            continue
+
+        api_calls_successful += 1
 
         new_count = 0
-        for award in (awards or []):
-            # Deduplicate by tracking number
-            award_id = award.get("agency_tracking_number", "") or award.get("contract", "")
+        for award in awards:
+            award_id = (
+                award.get("agency_tracking_number", "")
+                or award.get("contract", "")
+                or award.get("award_number", "")
+                or f"{award.get('firm', '')}:{award.get('award_title', '')}"
+            )
             if not award_id or award_id in seen_ids:
                 continue
             seen_ids.add(award_id)
 
-            firm = award.get("firm", "").strip()
+            firm = (award.get("firm") or "").strip()
             if not firm:
                 continue
 
-            # Check if this company is in our database
             firm_lower = firm.lower()
-            is_known = any(known in firm_lower or firm_lower in known
-                          for known in known_companies)
+            is_known = any(
+                known in firm_lower or firm_lower in known
+                for known in known_companies
+            )
 
             entry = {
                 "firm": firm,
@@ -161,45 +291,75 @@ def main():
             all_awards.append(entry)
             new_count += 1
 
-        if api_available:
-            print(f"  [{keyword[:40]}...] → +{new_count} new ({len(all_awards)} total)")
+        log.info(
+            f"  [{keyword[:40]}...] -> +{new_count} new ({len(all_awards)} total)"
+        )
+        time.sleep(1.5)  # SBIR API is strict
 
-        time.sleep(1.5)  # Rate limiting — SBIR API is strict
-
-    # If API was down, try to load existing cached data
-    if not api_available:
+    # Fall back to cached data if all live calls failed
+    if not all_awards:
         raw_path = DATA_DIR / "sbir_awards_raw.json"
         if raw_path.exists():
             try:
                 cached = json.load(open(raw_path))
-                if cached:
-                    print(f"  Loaded {len(cached)} cached awards")
+                if isinstance(cached, list) and cached:
+                    log.info(f"Loaded {len(cached)} cached awards from existing file")
                     all_awards = cached
-            except (json.JSONDecodeError, IOError):
-                pass
+                elif isinstance(cached, dict) and cached.get("data"):
+                    all_awards = cached["data"]
+            except (json.JSONDecodeError, IOError) as e:
+                log.warning(f"Could not load cached data: {e}")
 
+    # Still empty? Write status metadata and bail
     if not all_awards:
-        print("\nNo SBIR awards found. Generating empty output.")
+        if all_endpoints_failed or api_calls_successful == 0:
+            status = "api_unavailable"
+            message = (
+                f"All {len(SBIR_ENDPOINTS)} SBIR endpoints failed. "
+                f"Attempted {api_calls_attempted} keyword searches, "
+                f"0 returned usable data. No cached data available."
+            )
+        else:
+            status = "no_results"
+            message = (
+                f"SBIR endpoints responded ({api_calls_successful}/"
+                f"{api_calls_attempted} successful) but returned no awards."
+            )
+        save_status_metadata("sbir_awards_raw.json", status, message)
+        save_status_metadata("sbir_awards_aggregated.json", status, message)
+
+        # Still write a minimal JS snippet so front-end doesn't crash
+        js_path = DATA_DIR / "sbir_awards_auto.js"
+        DATA_DIR.mkdir(exist_ok=True)
+        with open(js_path, "w") as f:
+            f.write(f"// SBIR/STTR awards — {message}\n")
+            f.write(f"// Last updated: {datetime.now().strftime('%Y-%m-%d')}\n")
+            f.write("const SBIR_AWARDS_AUTO = [];\n")
+        log.warning(f"Wrote empty JS snippet to {js_path}")
+        return
 
     # Sort by award year (newest first), then amount
-    all_awards.sort(key=lambda a: (
-        -int(a.get("awardYear", 0) or 0),
-        -float(a.get("awardAmount", 0) or 0)
-    ))
+    all_awards.sort(
+        key=lambda a: (
+            -int(a.get("awardYear", 0) or 0),
+            -float(a.get("awardAmount", 0) or 0),
+        )
+    )
 
     # Separate known vs discovered companies
     known_awards = [a for a in all_awards if a.get("isKnownCompany")]
     new_companies = [a for a in all_awards if not a.get("isKnownCompany")]
 
-    print(f"\nTotal unique awards: {len(all_awards)}")
-    print(f"  Awards to known companies: {len(known_awards)}")
-    print(f"  Awards to new/unknown companies: {len(new_companies)}")
+    log.info(f"Total unique awards: {len(all_awards)}")
+    log.info(f"  Awards to known companies: {len(known_awards)}")
+    log.info(f"  Awards to new/unknown companies: {len(new_companies)}")
 
     # Save raw JSON
+    DATA_DIR.mkdir(exist_ok=True)
     raw_path = DATA_DIR / "sbir_awards_raw.json"
     with open(raw_path, "w") as f:
         json.dump(all_awards, f, indent=2)
-    print(f"Saved raw data to {raw_path}")
+    log.info(f"Saved raw data to {raw_path}")
 
     # Generate JS snippet
     js_lines = [
@@ -210,20 +370,26 @@ def main():
     ]
 
     for award in all_awards[:500]:  # Cap at 500 for JS file size
-        firm_esc = award["firm"].replace('"', '\\"')
-        title_esc = award["title"][:100].replace('"', '\\"')
-        abstract_esc = award["abstract"][:200].replace('"', '\\"').replace("\n", " ")
+        firm_esc = (award.get("firm") or "").replace('"', '\\"')
+        title_esc = (award.get("title") or "")[:100].replace('"', '\\"')
+        abstract_esc = (
+            (award.get("abstract") or "")[:200]
+            .replace('"', '\\"')
+            .replace("\n", " ")
+        )
         js_lines.append("  {")
         js_lines.append(f'    firm: "{firm_esc}",')
         js_lines.append(f'    title: "{title_esc}",')
-        js_lines.append(f'    agency: "{award["agency"]}",')
-        js_lines.append(f'    phase: "{award["phase"]}",')
-        js_lines.append(f'    program: "{award["program"]}",')
-        js_lines.append(f'    awardYear: {award["awardYear"] or 0},')
-        js_lines.append(f'    awardAmount: {award["awardAmount"] or 0},')
-        js_lines.append(f'    state: "{award["state"]}",')
+        js_lines.append(f'    agency: "{award.get("agency", "")}",')
+        js_lines.append(f'    phase: "{award.get("phase", "")}",')
+        js_lines.append(f'    program: "{award.get("program", "")}",')
+        js_lines.append(f'    awardYear: {award.get("awardYear", 0) or 0},')
+        js_lines.append(f'    awardAmount: {award.get("awardAmount", 0) or 0},')
+        js_lines.append(f'    state: "{award.get("state", "")}",')
         js_lines.append(f'    abstract: "{abstract_esc}",')
-        js_lines.append(f'    isKnownCompany: {"true" if award["isKnownCompany"] else "false"},')
+        js_lines.append(
+            f'    isKnownCompany: {"true" if award.get("isKnownCompany") else "false"},'
+        )
         js_lines.append("  },")
 
     js_lines.append("];")
@@ -231,18 +397,18 @@ def main():
     js_path = DATA_DIR / "sbir_awards_auto.js"
     with open(js_path, "w") as f:
         f.write("\n".join(js_lines))
-    print(f"Saved JS to {js_path}")
+    log.info(f"Saved JS to {js_path}")
 
     # Top agencies summary
     agency_counts = {}
     for a in all_awards:
         ag = a.get("agency", "Unknown")
         agency_counts[ag] = agency_counts.get(ag, 0) + 1
-    print("\nTop Agencies:")
+    log.info("Top agencies:")
     for ag, count in sorted(agency_counts.items(), key=lambda x: -x[1])[:10]:
-        print(f"  {ag}: {count} awards")
+        log.info(f"  {ag}: {count} awards")
 
-    print("=" * 60)
+    log.info("=" * 60)
 
 
 if __name__ == "__main__":
