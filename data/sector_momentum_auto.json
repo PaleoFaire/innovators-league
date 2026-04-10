@@ -1,30 +1,47 @@
 [
   {
-    "sector": "Defense & Security",
-    "momentum": 62,
+    "sector": "AI & Software",
+    "momentum": 63,
     "trend": "accelerating",
     "catalysts": [
-      "Conflicting Rulings Leave Anthropic in \u2018Supply-Chain Risk\u2019 L",
-      "US forces will be \u2018hanging around\u2019 Middle East after Iran ce",
-      "BAE Systems trials low-cost counter drone solution for Eurof"
+      "OpenAI Backs Bill That Would Limit Liability for AI-Enabled",
+      "Anthropic and xAI Model Parameter Counts",
+      "Florida AG to probe OpenAI, alleging possible connection to"
+    ],
+    "fundingQ": "$7.2B",
+    "components": {
+      "funding": 87,
+      "news": 90,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-10"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 60,
+    "trend": "accelerating",
+    "catalysts": [
+      "Florida AG to probe OpenAI, alleging possible connection to",
+      "Update from the Battlefield: Drones, Distance, and Diminishi",
+      "UK accuses Russia of covert submarine operation threatening"
     ],
     "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
       "news": 100,
       "hiring": 0,
-      "market": 12
+      "market": 0
     },
-    "lastUpdated": "2026-04-09"
+    "lastUpdated": "2026-04-10"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "A self-driving car in Texas hit and killed a mother duck, sp",
-      "BAE Systems trials low-cost counter drone solution for Eurof",
-      "AFCENT awards Kraus Hamdani $270M for solar-powered, long-en"
+      "Update from the Battlefield: Drones, Distance, and Diminishi",
+      "Turkish, Italian defense firms team up to produce unmanned s"
     ],
     "fundingQ": "$12.7B",
     "components": {
@@ -33,85 +50,85 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-09"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 58,
-    "trend": "accelerating",
-    "catalysts": [
-      "Conflicting Rulings Leave Anthropic in \u2018Supply-Chain Risk\u2019 L",
-      "Spy agencies eye new Anthropic AI model that spots cyber fla",
-      "AWS boss explains why investing billions in both Anthropic a"
-    ],
-    "fundingQ": "$7.2B",
-    "components": {
-      "funding": 87,
-      "news": 70,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-09"
-  },
-  {
-    "sector": "Supersonic & Hypersonic",
-    "momentum": 50,
-    "trend": "steady",
-    "catalysts": [
-      "Databricks co-founder wins prestigious ACM award, says &#821",
-      "The Hidden System Turning Chinese Tech Companies into Milita"
-    ],
-    "fundingQ": "$1.6B",
-    "components": {
-      "funding": 100,
-      "news": 20,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-09"
+    "lastUpdated": "2026-04-10"
   },
   {
     "sector": "Ocean & Maritime",
+    "momentum": 54,
+    "trend": "steady",
+    "catalysts": [
+      "UK accuses Russia of covert submarine operation threatening",
+      "China\u2019s dual-use ambitions could severely threaten America\u2019s",
+      "UK says it deployed military to deter Russian submarines fro"
+    ],
+    "fundingQ": "$10.8B",
+    "components": {
+      "funding": 100,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-10"
+  },
+  {
+    "sector": "Supersonic & Hypersonic",
     "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "Active ocean & maritime ecosystem"
+      "Active supersonic & hypersonic ecosystem"
     ],
-    "fundingQ": "$10.8B",
+    "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
       "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-09"
+    "lastUpdated": "2026-04-10"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 48,
+    "trend": "steady",
+    "catalysts": [
+      "SpaceX Revenue Will Be Close to Around $27-30 Billion in 202",
+      "Merino Energy Comes Out Of Stealth With $3,800 Heat Pump Sys",
+      "Two Day Delay for Blue Origin New Glenn"
+    ],
+    "fundingQ": "$175M",
+    "components": {
+      "funding": 9,
+      "news": 100,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-10"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 40,
+    "momentum": 39,
     "trend": "steady",
     "catalysts": [
-      "Canva doubles down on AI and marketing automation with Simth",
-      "Volkswagen begins testing its self-driving microbuses in Los",
-      "As 2-week ceasefire takes hold, Pentagon touts &#8216;decisi"
+      "Donald Trump Guts Public Health Protection to Bolster Big Co",
+      "Albedo prepares second VLEO mission for 2027 launch"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 65,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-09"
+    "lastUpdated": "2026-04-10"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Good News: A Bunch Of AI Data Centers In Limbo",
-      "Conflicting Rulings Leave Anthropic in \u2018Supply-Chain Risk\u2019 L",
-      "Thousands of consumer routers hacked by Russia&#039;s milita"
+      "Cross-State Coalition Disappointed in PUC Decision to Delay",
+      "StubHub to pay $10M to settle FTC allegations over &#8216;de",
+      "How to make the Startup Battlefield Top 20 \u2014 and what every"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -120,145 +137,130 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-09"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 34,
-    "trend": "rising",
-    "catalysts": [
-      "Volkswagen begins testing its self-driving microbuses in Los",
-      "Waymo Launches in Nashville",
-      "Op-Ed: Chinese EV Brands Overwhelm The Manila Auto Show 2026"
-    ],
-    "fundingQ": "$175M",
-    "components": {
-      "funding": 9,
-      "news": 45,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-09"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 31,
-    "trend": "declining",
-    "catalysts": [
-      "Active biotech & health ecosystem"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 30,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-09"
+    "lastUpdated": "2026-04-10"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 28,
-    "trend": "rising",
+    "momentum": 34,
+    "trend": "steady",
     "catalysts": [
-      "CPUC Wastes a Golden Opportunity to Right Wrongs of Previous",
-      "The Electrified Future Is Already Here. Canada Just Needs to",
-      "E-SAF Made in Europe \u2014 A Source of Jobs, Growth, and Energy"
+      "Merino Energy Comes Out Of Stealth With $3,800 Heat Pump Sys",
+      "Wired for Security: The EU&#8217;s Post-2030 Climate Archite",
+      "Electrofuels Are Slipping Through The Trump Chopper"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 80,
+      "news": 100,
       "hiring": 0,
-      "market": 38
+      "market": 45
     },
-    "lastUpdated": "2026-04-09"
+    "lastUpdated": "2026-04-10"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 31,
+    "trend": "rising",
+    "catalysts": [
+      "SpaceX Revenue Will Be Close to Around $27-30 Billion in 202",
+      "Donald Trump Guts Public Health Protection to Bolster Big Co",
+      "Florida AG to probe OpenAI, alleging possible connection to"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 65,
+      "hiring": 0,
+      "market": 60
+    },
+    "lastUpdated": "2026-04-10"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 25,
+    "momentum": 26,
     "trend": "declining",
     "catalysts": [
-      "AFCENT awards Kraus Hamdani $270M for solar-powered, long-en"
+      "Amazon CEO takes aim at Nvidia, Intel, Starlink, more in ann",
+      "Chip Can Project Video the Size of a Grain of Sand"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-10"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "China\u2019s dual-use ambitions could severely threaten America\u2019s"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 40,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-10"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "Chip Can Project Video the Size of a Grain of Sand"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 78
+    },
+    "lastUpdated": "2026-04-10"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "Charging Data Shows That Ethiopia\u2019s Electric Vehicle Landsca"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 5,
+      "hiring": 0,
+      "market": 64
+    },
+    "lastUpdated": "2026-04-10"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "What founders can learn from Anjuna\u2019s layoffs and recovery",
+      "Is Anthropic limiting the release of Mythos to protect the i",
+      "UK accuses Russia of covert submarine operation threatening"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-09"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 22,
-    "trend": "rising",
-    "catalysts": [
-      "Canva doubles down on AI and marketing automation with Simth",
-      "Iran-linked hackers disrupt operations at US critical infras",
-      "\u2018We Were Not Ready for This\u2019: Lebanon's Emergency System Is"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 50,
-      "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-09"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 0,
-      "hiring": 0,
-      "market": 93
-    },
-    "lastUpdated": "2026-04-09"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "Active quantum computing ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 67
-    },
-    "lastUpdated": "2026-04-09"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Active housing & construction ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-09"
+    "lastUpdated": "2026-04-10"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 6,
+    "momentum": 4,
     "trend": "declining",
     "catalysts": [
       "Active nuclear energy ecosystem"
@@ -268,8 +270,8 @@
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 11
+      "market": 0
     },
-    "lastUpdated": "2026-04-09"
+    "lastUpdated": "2026-04-10"
   }
 ]

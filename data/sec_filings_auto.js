@@ -1,6 +1,16 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-09 07:44:13 UTC
+// Last updated: 2026-04-10 07:48:56 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110444.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110447.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110454.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110411.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110405.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110459.xml", isIPO: false, ticker: "LUNR" },
+  { company: "Virgin Galactic", form: "4", date: "2026-04-09", description: "xslF345X06/wk-form4_1775775201.xml", isIPO: false, ticker: "SPCE" },
+  { company: "Virgin Galactic", form: "4", date: "2026-04-09", description: "xslF345X06/wk-form4_1775775187.xml", isIPO: false, ticker: "SPCE" },
+  { company: "Virgin Galactic", form: "4", date: "2026-04-09", description: "xslF345X06/wk-form4_1775775170.xml", isIPO: false, ticker: "SPCE" },
+  { company: "Virgin Galactic", form: "4", date: "2026-04-09", description: "xslF345X06/wk-form4_1775775154.xml", isIPO: false, ticker: "SPCE" },
   { company: "NuScale Power", form: "8-K", date: "2026-04-08", description: "smr-20260408.htm", isIPO: false, ticker: "SMR" },
   { company: "IonQ", form: "4", date: "2026-04-08", description: "xslF345X06/primary_doc.xml", isIPO: false, ticker: "IONQ" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-08", description: "xslF345X06/wk-form4_1775681908.xml", isIPO: false, ticker: "RXRX" },
@@ -41,14 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775075359.xml", isIPO: false, ticker: "OKLO" },
   { company: "C3.ai", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775084169.xml", isIPO: false, ticker: "AI" },
   { company: "C3.ai", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775083714.xml", isIPO: false, ticker: "AI" },
-  { company: "UiPath", form: "4", date: "2026-04-01", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-04-01", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "UiPath", form: "4", date: "2026-04-01", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "Agrify Corporation", form: "8-K", date: "2026-04-01", description: "ea0284475-8k_rythm.htm", isIPO: false, ticker: "AGFY" },
-  { company: "Aurora Innovation", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775074664.xml", isIPO: false, ticker: "AUR" },
-  { company: "LanzaTech", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775074153.xml", isIPO: false, ticker: "LNZA" },
-  { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090333.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090347.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090354.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-03-31", description: "xslF345X06/form4-03312026_090301.xml", isIPO: false, ticker: "LUNR" },
 ];

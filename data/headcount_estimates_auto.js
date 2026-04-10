@@ -1,5 +1,5 @@
 // Auto-calculated headcount estimates from job posting data
-// Last updated: 2026-04-09 07:52:26 UTC
+// Last updated: 2026-04-10 07:49:37 UTC
 // Methodology: open_positions / sector_vacancy_rate, calibrated against known headcounts
 const HEADCOUNT_ESTIMATES_AUTO = [
   {
@@ -12,7 +12,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Stripe",
@@ -24,7 +24,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "unknown",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Anthropic",
@@ -35,8 +35,8 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     hiringVelocity: "surging",
     sector: "ai & software",
     growthTrend: "",
-    isCurated: true,
-    lastUpdated: "2026-04-09",
+    isCurated: false,
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Anduril Industries",
@@ -48,7 +48,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "unknown",
     growthTrend: "+45%",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Zipline",
@@ -60,7 +60,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "drones & autonomous",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Flexport",
@@ -72,7 +72,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "unknown",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Scale AI",
@@ -83,8 +83,8 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     hiringVelocity: "rapid",
     sector: "defense & security",
     growthTrend: "",
-    isCurated: false,
-    lastUpdated: "2026-04-09",
+    isCurated: true,
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Rocket Lab",
@@ -96,7 +96,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Astranis",
@@ -108,7 +108,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Astera Labs",
@@ -120,7 +120,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "chips & semiconductors",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "AST SpaceMobile",
@@ -132,7 +132,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "ElevenLabs",
@@ -144,7 +144,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "ai & software",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Re:Build Manufacturing",
@@ -156,7 +156,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "robotics & manufacturing",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Nuro",
@@ -168,7 +168,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "drones & autonomous",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Figure AI",
@@ -180,7 +180,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "ai & software",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "IonQ",
@@ -191,8 +191,8 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     hiringVelocity: "rapid",
     sector: "quantum computing",
     growthTrend: "",
-    isCurated: true,
-    lastUpdated: "2026-04-09",
+    isCurated: false,
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Tenstorrent",
@@ -204,7 +204,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "chips & semiconductors",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Chaos Industries",
@@ -216,7 +216,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "defense & security",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Redwood Materials",
@@ -228,7 +228,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "climate & energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Radiant",
@@ -238,9 +238,9 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     vacancyRate: 0.07,
     hiringVelocity: "rapid",
     sector: "nuclear energy",
-    growthTrend: "+407%",
-    isCurated: false,
-    lastUpdated: "2026-04-09",
+    growthTrend: "",
+    isCurated: true,
+    lastUpdated: "2026-04-10",
   },
   {
     company: "PsiQuantum",
@@ -252,7 +252,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "chips & semiconductors",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Isar Aerospace",
@@ -264,7 +264,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Neuralink",
@@ -276,7 +276,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "ai & software",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Divergent",
@@ -288,7 +288,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "robotics & manufacturing",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Varda Space Industries",
@@ -300,7 +300,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Armada",
@@ -312,7 +312,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Oklo",
@@ -324,7 +324,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "nuclear energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Applied Intuition",
@@ -336,7 +336,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "ai & software",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Kairos Power",
@@ -348,7 +348,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "nuclear energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Lightmatter",
@@ -360,7 +360,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "chips & semiconductors",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Ursa Major Technologies",
@@ -372,7 +372,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "General Matter",
@@ -384,7 +384,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "nuclear energy",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "ClearSpace",
@@ -396,7 +396,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "The Nuclear Company",
@@ -408,7 +408,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "nuclear energy",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Kodiak Robotics",
@@ -420,7 +420,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "defense & security",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Pacific Fusion",
@@ -432,7 +432,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "nuclear energy",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Recursion Pharmaceuticals",
@@ -444,7 +444,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "biotech & health",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Together AI",
@@ -456,7 +456,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "ai & software",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Apptronik",
@@ -468,7 +468,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "robotics & manufacturing",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Muon Space",
@@ -480,7 +480,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Valar Atomics",
@@ -492,7 +492,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "nuclear energy",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Epirus",
@@ -504,7 +504,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "defense & security",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Agility Robotics",
@@ -516,7 +516,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "robotics & manufacturing",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Overland AI",
@@ -528,7 +528,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "defense & security",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Allen Control Systems",
@@ -540,55 +540,55 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "defense & security",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Eikon Therapeutics",
     openPositions: 31,
-    estimatedHeadcount: 450,
+    estimatedHeadcount: 443,
     headcountFormatted: "450+",
-    vacancyRate: 0.069,
+    vacancyRate: 0.07,
     hiringVelocity: "growing",
     sector: "biotech & health",
-    growthTrend: "",
-    isCurated: true,
-    lastUpdated: "2026-04-09",
+    growthTrend: "-2%",
+    isCurated: false,
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Latitude",
     openPositions: 31,
-    estimatedHeadcount: 450,
+    estimatedHeadcount: 443,
     headcountFormatted: "450+",
-    vacancyRate: 0.069,
+    vacancyRate: 0.07,
     hiringVelocity: "growing",
     sector: "space & aerospace",
-    growthTrend: "",
-    isCurated: true,
-    lastUpdated: "2026-04-09",
+    growthTrend: "-2%",
+    isCurated: false,
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Formic",
     openPositions: 29,
-    estimatedHeadcount: 400,
+    estimatedHeadcount: 414,
     headcountFormatted: "400+",
-    vacancyRate: 0.072,
+    vacancyRate: 0.07,
     hiringVelocity: "growing",
     sector: "robotics & manufacturing",
-    growthTrend: "",
-    isCurated: true,
-    lastUpdated: "2026-04-09",
+    growthTrend: "+4%",
+    isCurated: false,
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Atomic Machines",
     openPositions: 29,
-    estimatedHeadcount: 400,
+    estimatedHeadcount: 414,
     headcountFormatted: "400+",
-    vacancyRate: 0.072,
+    vacancyRate: 0.07,
     hiringVelocity: "growing",
     sector: "chips & semiconductors",
-    growthTrend: "",
-    isCurated: true,
-    lastUpdated: "2026-04-09",
+    growthTrend: "+4%",
+    isCurated: false,
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Swarm Aero",
@@ -600,7 +600,19 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "defense & security",
     growthTrend: "",
     isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
+  },
+  {
+    company: "Carbon Robotics",
+    openPositions: 26,
+    estimatedHeadcount: 371,
+    headcountFormatted: "350+",
+    vacancyRate: 0.07,
+    hiringVelocity: "growing",
+    sector: "robotics & manufacturing",
+    growthTrend: "+6%",
+    isCurated: false,
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Skyryse",
@@ -610,9 +622,9 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     vacancyRate: 0.07,
     hiringVelocity: "growing",
     sector: "space & aerospace",
-    growthTrend: "+6%",
+    growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Vast",
@@ -624,19 +636,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "+13%",
     isCurated: true,
-    lastUpdated: "2026-04-09",
-  },
-  {
-    company: "Carbon Robotics",
-    openPositions: 26,
-    estimatedHeadcount: 350,
-    headcountFormatted: "350+",
-    vacancyRate: 0.074,
-    hiringVelocity: "growing",
-    sector: "robotics & manufacturing",
-    growthTrend: "",
-    isCurated: true,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Vannevar Labs",
@@ -646,9 +646,9 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     vacancyRate: 0.07,
     hiringVelocity: "growing",
     sector: "defense & security",
-    growthTrend: "-5%",
+    growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Inversion Space",
@@ -658,9 +658,9 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     vacancyRate: 0.07,
     hiringVelocity: "growing",
     sector: "housing & construction",
-    growthTrend: "-5%",
+    growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Locus Robotics",
@@ -672,7 +672,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "robotics & manufacturing",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Altos Labs",
@@ -684,7 +684,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "biotech & health",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Outpost Space",
@@ -696,7 +696,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Slingshot Aerospace",
@@ -708,7 +708,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "KoBold Metals",
@@ -720,7 +720,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "climate & energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Senra Systems",
@@ -732,7 +732,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "robotics & manufacturing",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Mara",
@@ -744,7 +744,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "defense & security",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Focused Energy",
@@ -756,7 +756,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "nuclear energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "New Limit",
@@ -768,7 +768,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "biotech & health",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Whisper Aero",
@@ -780,7 +780,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "consumer tech",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Salient Motion",
@@ -792,7 +792,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "robotics & manufacturing",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Hive AI",
@@ -804,7 +804,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "ai & software",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Marvel Fusion",
@@ -816,7 +816,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "nuclear energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Labelbox",
@@ -828,7 +828,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "ai & software",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Icarus",
@@ -840,7 +840,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "defense & security",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Watershed",
@@ -852,7 +852,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "climate & energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Dusty Robotics",
@@ -864,7 +864,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "robotics & manufacturing",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Profluent",
@@ -876,7 +876,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "biotech & health",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Claros",
@@ -888,7 +888,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "climate & energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Capella Space",
@@ -900,7 +900,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Hubble Network",
@@ -912,7 +912,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Arbor Energy",
@@ -924,7 +924,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "climate & energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Vivodyne",
@@ -936,7 +936,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "biotech & health",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Colossal Biosciences",
@@ -948,7 +948,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "biotech & health",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Albedo",
@@ -960,7 +960,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "space & aerospace",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Solid Power",
@@ -972,7 +972,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "climate & energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "WeaveGrid",
@@ -983,8 +983,8 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     hiringVelocity: "quiet",
     sector: "climate & energy",
     growthTrend: "",
-    isCurated: false,
-    lastUpdated: "2026-04-09",
+    isCurated: true,
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Floodbase",
@@ -996,7 +996,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "climate & energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Outrider",
@@ -1008,7 +1008,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "robotics & manufacturing",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Quaise Energy",
@@ -1020,7 +1020,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "climate & energy",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "DNA Script",
@@ -1032,7 +1032,7 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     sector: "biotech & health",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
   {
     company: "Archer Aviation",
@@ -1041,9 +1041,9 @@ const HEADCOUNT_ESTIMATES_AUTO = [
     headcountFormatted: "14+",
     vacancyRate: 0.07,
     hiringVelocity: "quiet",
-    sector: "transportation",
+    sector: "drones & autonomous",
     growthTrend: "",
     isCurated: false,
-    lastUpdated: "2026-04-09",
+    lastUpdated: "2026-04-10",
   },
 ];
