@@ -11,13 +11,13 @@
     "space": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 10.38,
+      "avg_change": 11.17,
       "count": 7
     },
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 1.21,
+      "avg_change": 0.98,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.21,
+      "avg_change": -2.09,
       "count": 3
     },
     "transportation": {
@@ -76,7 +76,7 @@
     [
       "9348.T",
       "ispace",
-      13.66
+      19.21
     ],
     [
       "AMD",
@@ -86,9 +86,9 @@
   ],
   "topLosers": [
     [
-      "TEM",
-      "Tempus AI",
-      -6.1
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -8.34
     ],
     [
       "TSLA",
@@ -101,15 +101,15 @@
       -9.36
     ],
     [
-      "DRSHF",
-      "DroneShield",
-      -10.61
-    ],
-    [
       "PLTR",
       "Palantir",
       -10.92
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -12.19
     ]
   ],
-  "lastUpdated": "2026-04-10 02:51:52"
+  "lastUpdated": "2026-04-10 07:48:22"
 }
