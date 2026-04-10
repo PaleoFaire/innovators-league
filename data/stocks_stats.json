@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -10.92,
+      "avg_change": -14.4,
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 11.17,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 3.74,
       "count": 7
     },
     "autonomous": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 0.9,
+      "gainers": 3,
+      "losers": 4,
+      "avg_change": 0.92,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.18,
+      "avg_change": -3.38,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 26.07,
+      "avg_change": 17.02,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 2.76,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -0.07,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.52,
+      "avg_change": -4.0,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -3.67,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -2.3,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 12.99,
+      "avg_change": 15.75,
       "count": 3
     }
   },
@@ -61,17 +61,12 @@
     [
       "LNZA",
       "LanzaTech",
-      78.01
-    ],
-    [
-      "SATL",
-      "Satellogic",
-      26.09
+      50.6
     ],
     [
       "ALAB",
       "Astera Labs",
-      21.75
+      27.98
     ],
     [
       "9348.T",
@@ -81,35 +76,40 @@
     [
       "AMD",
       "AMD",
-      12.57
+      12.82
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      9.07
     ]
   ],
   "topLosers": [
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      -6.64
-    ],
-    [
-      "TSLA",
-      "Tesla",
-      -9.35
+      -7.66
     ],
     [
       "SMR",
       "NuScale Power",
-      -9.36
+      -9.46
     ],
     [
-      "PLTR",
-      "Palantir",
-      -10.92
+      "TEM",
+      "Tempus AI",
+      -10.21
     ],
     [
       "DRSHF",
       "DroneShield",
-      -12.19
+      -11.03
+    ],
+    [
+      "PLTR",
+      "Palantir",
+      -14.4
     ]
   ],
-  "lastUpdated": "2026-04-10 13:19:37"
+  "lastUpdated": "2026-04-10 18:59:56"
 }
