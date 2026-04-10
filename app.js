@@ -7710,14 +7710,14 @@ function renderIL30Showcase() {
   var il30Names = INNOVATORS_LEAGUE_30;
   var html = '';
 
-  il30Names.forEach(function(name) {
+  il30Names.forEach(function(name, idx) {
     var company = COMPANIES.find(function(c) { return c.name === name; });
     if (!company) return;
 
     var sectorInfo = (typeof SECTORS !== 'undefined' && SECTORS[company.sector]) ? SECTORS[company.sector] : { icon: '📦', color: '#6b7280' };
 
-    // First sentence of description
-    var desc = '';
+    // Description — first sentence, always present
+    var desc = '—';
     if (company.description) {
       var firstSentence = company.description.match(/^[^.!?]+[.!?]/);
       desc = firstSentence ? firstSentence[0] : company.description.substring(0, 120);
@@ -7730,39 +7730,40 @@ function renderIL30Showcase() {
     // ROS Connected indicator
     var rosConnected = '';
     if (typeof FOUNDER_CONNECTIONS !== 'undefined' && FOUNDER_CONNECTIONS[name] && FOUNDER_CONNECTIONS[name].metFounder === true) {
-      rosConnected = '<span class="ros-connected-mini">ROS Connected</span>';
+      rosConnected = '<span class="ros-connected-mini">🤝 ROS</span>';
     }
 
-    // Key metric
-    var metric = '';
-    if (company.totalRaised) {
-      metric = '<span class="il30-card-metric">Raised: <strong>' + company.totalRaised + '</strong></span>';
-    } else if (company.valuation) {
-      metric = '<span class="il30-card-metric">Valuation: <strong>' + company.valuation + '</strong></span>';
-    } else if (company.employees) {
-      metric = '<span class="il30-card-metric">Team: <strong>' + company.employees + '</strong></span>';
-    }
+    // Stephen's insight — always show, fallback if missing
+    var insight = company.insight || 'Featured in the Innovators League 30 — the top ' + company.sector + ' company to watch.';
+    var truncatedInsight = insight.length > 130 ? insight.substring(0, 130).trim() + '…' : insight;
 
-    // Stephen's insight
-    var insightHTML = '';
-    if (company.insight) {
-      var truncated = company.insight.length > 120 ? company.insight.substring(0, 120) + '...' : company.insight;
-      insightHTML = '<div class="il30-card-insight">' + truncated + '</div>';
-    }
+    // Key stats row — always show founder, stage, and funding (with fallbacks)
+    var founder = company.founder ? (company.founder.length > 28 ? company.founder.substring(0, 26) + '…' : company.founder) : '—';
+    var stage = company.fundingStage || '—';
+    var raised = company.totalRaised || company.valuation || '—';
+    var location = company.location || '—';
 
     // Sector badge
-    var sectorBadge = '<span class="il30-sector-badge" style="background:' + sectorInfo.color + '15;color:' + sectorInfo.color + ';border:1px solid ' + sectorInfo.color + '30">' + sectorInfo.icon + ' ' + company.sector + '</span>';
+    var sectorBadge = '<span class="il30-sector-badge" style="background:' + sectorInfo.color + '15;color:' + sectorInfo.color + ';border:1px solid ' + sectorInfo.color + '30">' + sectorInfo.icon + ' ' + escapeHtml(company.sector) + '</span>';
 
-    // Build card
+    // Rank number
+    var rankNum = '<div class="il30-rank">#' + (idx + 1) + '</div>';
+
+    // Build card with CONSISTENT layout — every card has the same slots
     html += '<a class="il30-card" href="company.html?c=' + encodeURIComponent(name) + '">';
     html += '<div class="il30-card-header">';
-    html += '<div class="il30-card-badges">' + sectorBadge + convictionBadge + '</div>';
-    html += rosConnected;
+    html += rankNum;
+    html += '<div class="il30-card-badges">' + sectorBadge + convictionBadge + rosConnected + '</div>';
     html += '</div>';
-    html += '<div class="il30-card-name">' + name + '</div>';
-    html += '<div class="il30-card-desc">' + desc + '</div>';
-    html += insightHTML;
-    html += metric;
+    html += '<div class="il30-card-name">' + escapeHtml(name) + '</div>';
+    html += '<div class="il30-card-founder">Founded by <strong>' + escapeHtml(founder) + '</strong></div>';
+    html += '<div class="il30-card-desc">' + escapeHtml(desc) + '</div>';
+    html += '<div class="il30-card-insight"><span class="il30-insight-label">ROS TAKE</span>' + escapeHtml(truncatedInsight) + '</div>';
+    html += '<div class="il30-card-stats">';
+    html += '<div class="il30-stat"><span class="il30-stat-label">Stage</span><span class="il30-stat-value">' + escapeHtml(stage) + '</span></div>';
+    html += '<div class="il30-stat"><span class="il30-stat-label">Raised</span><span class="il30-stat-value">' + escapeHtml(raised) + '</span></div>';
+    html += '<div class="il30-stat"><span class="il30-stat-label">Location</span><span class="il30-stat-value">' + escapeHtml(location) + '</span></div>';
+    html += '</div>';
     html += '</a>';
   });
 
