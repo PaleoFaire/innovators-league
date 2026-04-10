@@ -1,6 +1,7 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-09 08:11:01 UTC
+// Last updated: 2026-04-10 08:15:17 UTC
 const NASA_PROJECTS = [
+  { id: 156317, title: "Quantum Pathways for Spaceborne Climate Science", status: "Active", center: "The University of Texas at Austin", techArea: "Other Sensors and Instruments", lastUpdated: "04/09/26" },
   { id: 183961, title: "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics", status: "Active", center: "Ames Research Center", techArea: "Flight Performance and Analysis", lastUpdated: "04/08/26" },
   { id: 183956, title: "Efficient Learning for Control of Autonomous Mobility in Navigating Obstacles", status: "Active", center: "Ames Research Center", techArea: "Robot Navigation and Path Planning", lastUpdated: "04/08/26" },
   { id: 183952, title: "CoOptiSense – Cooperative Optimized Sensor Fusion for Next-Gen Rover Navigation", status: "Active", center: "Ames Research Center", techArea: "Robot Navigation and Path Planning", lastUpdated: "04/08/26" },
@@ -30,5 +31,4 @@ const NASA_PROJECTS = [
   { id: 184105, title: "Filtration Bubble Point Test Stand Procurement", status: "Completed", center: "Marshall Space Flight Center", techArea: "Propulsion Systems", lastUpdated: "04/07/26" },
   { id: 157851, title: "Emergency Breathing Apparatus", status: "Active", center: "IRPI, LLC", techArea: "Fire Detection, Suppression, and Recovery", lastUpdated: "04/06/26" },
   { id: 157850, title: "Partial-g Fire Detection", status: "Active", center: "Glenn Research Center", techArea: "Fire Detection, Suppression, and Recovery", lastUpdated: "04/06/26" },
-  { id: 157847, title: "Fire Scenario Modeling", status: "Active", center: "Glenn Research Center", techArea: "Fire Detection, Suppression, and Recovery", lastUpdated: "04/03/26" },
 ];

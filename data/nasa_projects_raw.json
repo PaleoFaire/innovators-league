@@ -1,5 +1,52 @@
 [
   {
+    "id": 156317,
+    "title": "Quantum Pathways for Spaceborne Climate Science",
+    "description": "Will lead the Quantum Pathways Institute, focused on advancing quantum sensing technology for next-generation Earth science applications. Such technology would enable new understanding of our planet and the effects of climate change.",
+    "status": "Active",
+    "startDate": "Nov 2023",
+    "endDate": "Oct 2028",
+    "lastUpdated": "04/09/26",
+    "center": "The University of Texas at Austin",
+    "technologyArea": "Other Sensors and Instruments",
+    "partners": [
+      "The University of Texas at Austin",
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 157727,
+    "title": "AI Powered Goddard Proposal Assistant (GPA) for Missions",
+    "description": "<p>This project aims to develop a suite of specialized AI-assisted capabilities to aid mission proposal development and planning at NASA Goddard Space Flight Center. By combining human expertise with advanced AI capabilities, this project aims to significantly enhance the efficiency, quality, and competitiveness of NASA Goddard mission proposals, ultimately advancing the agency&#39;s space exploration and scientific discovery goals.</p> ",
+    "status": "Completed",
+    "startDate": "Oct 2024",
+    "endDate": "Sep 2025",
+    "lastUpdated": "04/09/26",
+    "center": "Goddard Space Flight Center",
+    "technologyArea": "Digital Assistant",
+    "partners": [
+      "Goddard Space Flight Center"
+    ],
+    "website": ""
+  },
+  {
+    "id": 4815,
+    "title": "Space Tether",
+    "description": "<p>The 2011 Strong Tether Centennial Challenge was held at the <a href=\"http://spaceelevatorconference.org/default.aspx\">Space Elevator Conference</a> in Redmond, WA on August 12, 2011. The Space Elevator Conference, sponsored by Microsoft, The Leeward Space Foundation and The International Space Elevator Consortium has hosted the Tether competition for 5 years and for this, the fifth year, there has yet to be a winner. Although no competitor has been able to claim the Centennial Challenge prize",
+    "status": "Completed",
+    "startDate": "Oct 2012",
+    "endDate": "Sep 2014",
+    "lastUpdated": "04/09/26",
+    "center": "NASA Marshall Space Flight Center",
+    "technologyArea": "Structures",
+    "partners": [
+      "NASA Marshall Space Flight Center",
+      "Space Technology Mission Directorate"
+    ],
+    "website": ""
+  },
+  {
     "id": 183973,
     "title": "AIR (Ames Infrared) Imager Maturation",
     "description": " Proposed Goals/Objectives:   Goal: Continue maturation of the versatile cost-effective Ames IR (AIR) imager; a tunable and robust hyperspectral imager with a spectral range from the visible to near infrared wavelengths to the short wavelength infrared (~0.4-2.1 \u03bcm). AIR is an in-house, first of its kind compact imager for space-based applications with no moving parts and low power/mass/cost; benefits exploration of our solar system, aligning with the NASA strategic documents, decadal survey, an",
@@ -1047,21 +1094,6 @@
     "lastUpdated": "04/03/26",
     "center": "Goddard Space Flight Center",
     "technologyArea": "Sensors and Instruments",
-    "partners": [
-      "Goddard Space Flight Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 157727,
-    "title": "AI Powered Goddard Proposal Assistant (GPA) for Missions",
-    "description": "<p>This project aims to develop a suite of specialized AI-assisted capabilities to aid mission proposal development and planning at NASA Goddard Space Flight Center. By combining human expertise with advanced AI capabilities, this project aims to significantly enhance the efficiency, quality, and competitiveness of NASA Goddard mission proposals, ultimately advancing the agency&#39;s space exploration and scientific discovery goals.</p> ",
-    "status": "Completed",
-    "startDate": "Oct 2024",
-    "endDate": "Sep 2025",
-    "lastUpdated": "04/03/26",
-    "center": "Goddard Space Flight Center",
-    "technologyArea": "Digital Assistant",
     "partners": [
       "Goddard Space Flight Center"
     ],
@@ -2321,36 +2353,6 @@
     "center": "",
     "technologyArea": "",
     "partners": [],
-    "website": ""
-  },
-  {
-    "id": 184662,
-    "title": "Lateral Stabilization Methods",
-    "description": "<div style=\"font-family:'segoe ui';font-size:11pt\"><p style=\"margin:0\">NASA is working to expand human presence on the Moon first and then on Mars. Many infrastructures will require structures that need to stabilize and anchor\u00a0to the surface to improve structural capability and reliability. However, much of this infrastructure will need to be deployed autonomously ahead of human presence on the surface and\u00a0without human interaction. This research project\u00a0is exploring the development of lateral s",
-    "status": "Completed",
-    "startDate": "May 2025",
-    "endDate": "Mar 2026",
-    "lastUpdated": "03/23/26",
-    "center": "Langley Research Center",
-    "technologyArea": "Reliability and Sustainment",
-    "partners": [
-      "Langley Research Center"
-    ],
-    "website": ""
-  },
-  {
-    "id": 184615,
-    "title": "Opt AC Lunar Power Transmission Study",
-    "description": "<div style=\"font-family:'segoe ui';font-size:11pt\"><p style=\"margin:0\">\u200bThe purpose of the Optimal AC Lunar Power Transmission\u00a0Study is to help inform the power community if the currently proposed 1000 Hz AC frequency is ideal for Lunar Surface power transmission when considering mass, reliability, and complexity. This effort directly aligns to NASA's Space Technology Mission Directorate (STMD) Shortfall 1592, High Power, Long-Distance Energy Transmission Across Distributed Surface Assets, and S",
-    "status": "Completed",
-    "startDate": "Jan 2025",
-    "endDate": "Sep 2025",
-    "lastUpdated": "03/23/26",
-    "center": "Glenn Research Center",
-    "technologyArea": "Distribution and Transmission",
-    "partners": [
-      "Glenn Research Center"
-    ],
     "website": ""
   }
 ]

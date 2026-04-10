@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-04-09 08:09:24 UTC
-// Total signals: 44 | Companies matched: 182
+// Last updated: 2026-04-10 08:14:17 UTC
+// Total signals: 44 | Companies matched: 184
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -2007,11 +2007,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Zap Energy",
-        "score": 19,
+        "name": "TS Conductor",
+        "score": 20,
         "matchReasons": [
-          "tag: fusion",
-          "techApproach overlap"
+          "tag: conductors",
+          "tag: energy"
         ]
       }
     ],
@@ -2025,7 +2025,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Renaissance Fusion",
       "TAE Technologies",
       "Valar Atomics",
-      "Zap Energy"
+      "TS Conductor"
     ]
   },
   {
@@ -2280,6 +2280,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Peak Energy",
+        "score": 20,
+        "matchReasons": [
+          "tag: grid storage",
+          "tag: energy storage"
+        ]
+      },
+      {
         "name": "Skeleton Technologies",
         "score": 16,
         "matchReasons": [
@@ -2309,6 +2317,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Base Power",
       "Gravitricity",
       "Form Energy",
+      "Peak Energy",
       "Skeleton Technologies",
       "Ouros Energy",
       "Lunar Energy"
@@ -2913,6 +2922,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "SandboxAQ",
+        "score": 20,
+        "matchReasons": [
+          "tag: quantum",
+          "tag: quantum computing"
+        ]
+      },
+      {
         "name": "Rigetti Computing",
         "score": 19,
         "matchReasons": [
@@ -2942,13 +2959,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         "matchReasons": [
           "tag: quantum computing"
         ]
-      },
-      {
-        "name": "IQM Quantum Computers",
-        "score": 17,
-        "matchReasons": [
-          "tag: quantum computing"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -2957,11 +2967,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Nord Quantique",
       "IonQ",
       "Quantinuum",
+      "SandboxAQ",
       "Rigetti Computing",
       "Qilimanjaro",
       "Quantum Machines",
-      "Oxford Quantum Circuits",
-      "IQM Quantum Computers"
+      "Oxford Quantum Circuits"
     ]
   },
   {
@@ -3223,6 +3233,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Lila Sciences",
+        "score": 20,
+        "matchReasons": [
+          "tag: ai",
+          "tag: biotech"
+        ]
+      },
+      {
         "name": "Green Abundance",
         "score": 16,
         "matchReasons": [
@@ -3234,6 +3252,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "relevantCompanies": [
       "AMP Robotics",
       "Interstellar Lab",
+      "Lila Sciences",
       "Green Abundance"
     ]
   },
@@ -5446,14 +5465,14 @@ const GOV_PULL_SCORES_AUTO = {
       "Compact Fusion Pilot Plant Technologies"
     ]
   },
-  "Zap Energy": {
-    "name": "Zap Energy",
+  "TS Conductor": {
+    "name": "TS Conductor",
     "govPullScore": 18,
     "matchCount": 1,
     "topAgencies": [
       "ARPA-E"
     ],
-    "avgRelevance": 19,
+    "avgRelevance": 20,
     "topSignals": [
       "Compact Fusion Pilot Plant Technologies"
     ]
@@ -5642,6 +5661,18 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Form Energy": {
     "name": "Form Energy",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Department of Energy (DOE)"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Long-Duration Energy Storage Technologies"
+    ]
+  },
+  "Peak Energy": {
+    "name": "Peak Energy",
     "govPullScore": 18,
     "matchCount": 1,
     "topAgencies": [
@@ -6039,6 +6070,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Quantum Error Correction Hardware"
     ]
   },
+  "SandboxAQ": {
+    "name": "SandboxAQ",
+    "govPullScore": 13,
+    "matchCount": 1,
+    "topAgencies": [
+      "National Science Foundation (NSF)"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Quantum Error Correction Hardware"
+    ]
+  },
   "Rigetti Computing": {
     "name": "Rigetti Computing",
     "govPullScore": 13,
@@ -6077,18 +6120,6 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Oxford Quantum Circuits": {
     "name": "Oxford Quantum Circuits",
-    "govPullScore": 12,
-    "matchCount": 1,
-    "topAgencies": [
-      "National Science Foundation (NSF)"
-    ],
-    "avgRelevance": 17,
-    "topSignals": [
-      "Quantum Error Correction Hardware"
-    ]
-  },
-  "IQM Quantum Computers": {
-    "name": "IQM Quantum Computers",
     "govPullScore": 12,
     "matchCount": 1,
     "topAgencies": [
@@ -6221,6 +6252,18 @@ const GOV_PULL_SCORES_AUTO = {
       "NASA"
     ],
     "avgRelevance": 22,
+    "topSignals": [
+      "Synthetic Biology for Space Life Support"
+    ]
+  },
+  "Lila Sciences": {
+    "name": "Lila Sciences",
+    "govPullScore": 13,
+    "matchCount": 1,
+    "topAgencies": [
+      "NASA"
+    ],
+    "avgRelevance": 20,
     "topSignals": [
       "Synthetic Biology for Space Life Support"
     ]
@@ -6488,6 +6531,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 182,
-  "lastUpdated": "2026-04-09 08:09:24 UTC"
+  "companiesMatched": 184,
+  "lastUpdated": "2026-04-10 08:14:17 UTC"
 };
