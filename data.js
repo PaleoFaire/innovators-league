@@ -25409,23 +25409,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-10 16:57
+// Last updated: 2026-04-10 20:49
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser's delusions and ignored her warnings", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "PILGRIM", headline: "TechCrunch is heading to Tokyo ' and bringing the Startup Battlefield with it", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "OpenAI", headline: "Suspect Arrested For Allegedly Throwing Molotov Cocktail at Sam Altman's Home", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Palantir", headline: "Finland clinches $642 million deal for 112 South Korean K9 howitzers", source: "Breaking Defense", time: "Just now", impact: "medium", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "'Uncanny Valley': OpenAI and Musk Fight Again; DOJ Mishandles Voter Data; Artemis II Comes Home", source: "Wired", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Dawn Aerospace", headline: "'Everyone wants a spaceplane': More countries eye on-orbit protection for satellites", source: "Defense One", time: "Just now", impact: "low", unread: false },
-  { id: 7, type: "funding", company: "Hadrian", headline: "The Week's 10 Biggest Funding Rounds: SiFive Leads With $400M For Custom Chip Designs As Aviation, Biotech And Defense S", source: "Crunchbase News", time: "1h ago", impact: "high", unread: false },
-  { id: 8, type: "hire", company: "Palantir", headline: "Italian government shakes up Leonardo leadership, replacing Cingolani as CEO", source: "Defense News", time: "1h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Impulse Labs", headline: "Electric Trucks Are Selling Like Hotcakes", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Ample", headline: "BMW Electric Vehicles To Receive Dow Jones Energy Charging Information", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Saule Technologies", headline: "One State, 12 Counties, A Huge Pile Of Renewable Energy Projects", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "Astroscale", headline: "The Golden Dome's missing layer: On-orbit logistics for a resilient missile'defense", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "Karman Industries", headline: "Italy set to remove Leonardo CEO, despite major growth", source: "Breaking Defense", time: "5h ago", impact: "low", unread: false },
-  { id: 14, type: "funding", company: "Durin", headline: "Fintech Startups Globally Raise More Money In Far Fewer Deals In Q1 2026", source: "Crunchbase News", time: "5h ago", impact: "high", unread: false },
-  { id: 15, type: "ipo", company: "Atmo", headline: "Constellations", source: "MIT Tech Review", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Anthropic", headline: "Anthropic temporarily banned OpenClaw's creator from accessing Claude", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Palantir", headline: "Battery recycler Ascend Elements files for bankruptcy", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Galvanick", headline: "Anthropic's Mythos Will Force a Cybersecurity Reckoning'Just Not the One You Think", source: "Wired", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Palantir", headline: "HawkEye 360 files to go public", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Terran Orbital", headline: "Spacety raises $190 million to scale satellite manufacturing, plans IPO", source: "SpaceNews", time: "3h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser's delusions and ignored her warnings", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "PILGRIM", headline: "TechCrunch is heading to Tokyo ' and bringing the Startup Battlefield with it", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "OpenAI", headline: "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman's Home", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Palantir", headline: "Finland clinches $642 million deal for 112 South Korean K9 howitzers", source: "Breaking Defense", time: "4h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "'Uncanny Valley': OpenAI and Musk Fight Again; DOJ Mishandles Voter Data; Artemis II Comes Home", source: "Wired", time: "4h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Dawn Aerospace", headline: "'Everyone wants a spaceplane': More countries eye on-orbit protection for satellites", source: "Defense One", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "funding", company: "Hadrian", headline: "The Week's 10 Biggest Funding Rounds: SiFive Leads With $400M For Custom Chip Designs As Aviation, Biotech And Defense S", source: "Crunchbase News", time: "5h ago", impact: "high", unread: false },
+  { id: 13, type: "hire", company: "Palantir", headline: "Italian government shakes up Leonardo leadership, replacing Cingolani as CEO", source: "Defense News", time: "5h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Impulse Labs", headline: "Electric Trucks Are Selling Like Hotcakes", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Ample", headline: "BMW Electric Vehicles To Receive Dow Jones Energy Charging Information", source: "CleanTechnica", time: "7h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
