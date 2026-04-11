@@ -25409,23 +25409,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-11 02:51
+// Last updated: 2026-04-11 05:35
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "NEXT LEVEL BREAKTHROUGHS for AI, Space and Tesla Technology", source: "Next Big Future", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Impulse Labs", headline: "The Best of the New York Auto Show Was New York Itself", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Atomic Industries", headline: "Moog Technology Keeps Artemis II Astronauts Safe During Historic Lunar Mission", source: "SpaceNews", time: "2h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Cape", headline: "The president who threatened to end a civilization is supposed to guarantee Ukraine's survival", source: "Defense News", time: "3h ago", impact: "low", unread: true },
-  { id: 5, type: "contract", company: "Cape", headline: "Pentagon, FAA sign agreement on deploying anti-drone laser system near Mexico", source: "Defense News", time: "4h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Anthropic temporarily banned OpenClaw's creator from accessing Claude", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Palantir", headline: "Battery recycler Ascend Elements files for bankruptcy", source: "TechCrunch", time: "7h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Galvanick", headline: "Anthropic's Mythos Will Force a Cybersecurity Reckoning'Just Not the One You Think", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Palantir", headline: "HawkEye 360 files to go public", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Terran Orbital", headline: "Spacety raises $190 million to scale satellite manufacturing, plans IPO", source: "SpaceNews", time: "9h ago", impact: "high", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser's delusions and ignored her warnings", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "PILGRIM", headline: "TechCrunch is heading to Tokyo ' and bringing the Startup Battlefield with it", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "hire", company: "OpenAI", headline: "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman's Home", source: "Wired", time: "10h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Palantir", headline: "Finland clinches $642 million deal for 112 South Korean K9 howitzers", source: "Breaking Defense", time: "10h ago", impact: "medium", unread: false },
-  { id: 15, type: "news", company: "OpenAI", headline: "'Uncanny Valley': OpenAI and Musk Fight Again; DOJ Mishandles Voter Data; Artemis II Comes Home", source: "Wired", time: "10h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Waymo", headline: "Waymo &#038; Waze to Fight Potholes!", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "ipo", company: "SpaceX", headline: "NEXT LEVEL BREAKTHROUGHS for AI, Space and Tesla Technology", source: "Next Big Future", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Impulse Labs", headline: "The Best of the New York Auto Show Was New York Itself", source: "CleanTechnica", time: "4h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Atomic Industries", headline: "Moog Technology Keeps Artemis II Astronauts Safe During Historic Lunar Mission", source: "SpaceNews", time: "4h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Cape", headline: "The president who threatened to end a civilization is supposed to guarantee Ukraine's survival", source: "Defense News", time: "5h ago", impact: "low", unread: true },
+  { id: 6, type: "contract", company: "Cape", headline: "Pentagon, FAA sign agreement on deploying anti-drone laser system near Mexico", source: "Defense News", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Anthropic", headline: "Anthropic temporarily banned OpenClaw's creator from accessing Claude", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Palantir", headline: "Battery recycler Ascend Elements files for bankruptcy", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Galvanick", headline: "Anthropic's Mythos Will Force a Cybersecurity Reckoning'Just Not the One You Think", source: "Wired", time: "11h ago", impact: "low", unread: false },
+  { id: 10, type: "ipo", company: "Palantir", headline: "HawkEye 360 files to go public", source: "SpaceNews", time: "11h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Terran Orbital", headline: "Spacety raises $190 million to scale satellite manufacturing, plans IPO", source: "SpaceNews", time: "12h ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "OpenAI", headline: "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser's delusions and ignored her warnings", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "PILGRIM", headline: "TechCrunch is heading to Tokyo ' and bringing the Startup Battlefield with it", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "OpenAI", headline: "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman's Home", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Palantir", headline: "Finland clinches $642 million deal for 112 South Korean K9 howitzers", source: "Breaking Defense", time: "13h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
