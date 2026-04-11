@@ -1,30 +1,30 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 63,
+    "momentum": 64,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI Backs Bill That Would Limit Liability for AI-Enabled",
-      "Anthropic and xAI Model Parameter Counts",
-      "Florida AG to probe OpenAI, alleging possible connection to"
+      "Anthropic temporarily banned OpenClaw&#8217;s creator from a",
+      "Anthropic\u2019s Mythos Will Force a Cybersecurity Reckoning\u2014Just",
+      "Stalking victim sues OpenAI, claims ChatGPT fueled her abuse"
     ],
     "fundingQ": "$7.2B",
     "components": {
       "funding": 87,
-      "news": 90,
+      "news": 95,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
   },
   {
     "sector": "Defense & Security",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "Florida AG to probe OpenAI, alleging possible connection to",
-      "Update from the Battlefield: Drones, Distance, and Diminishi",
-      "UK accuses Russia of covert submarine operation threatening"
+      "Pentagon, FAA sign agreement on deploying anti-drone laser s",
+      "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Ba",
+      "The Week\u2019s 10 Biggest Funding Rounds: SiFive Leads With $400"
     ],
     "fundingQ": "$22.3B",
     "components": {
@@ -33,42 +33,42 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 60,
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
-      "Update from the Battlefield: Drones, Distance, and Diminishi",
-      "Turkish, Italian defense firms team up to produce unmanned s"
+      "Pentagon, FAA sign agreement on deploying anti-drone laser s",
+      "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Ba",
+      "Update from the Battlefield: Drones, Distance, and Diminishi"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
   },
   {
     "sector": "Ocean & Maritime",
-    "momentum": 54,
+    "momentum": 52,
     "trend": "steady",
     "catalysts": [
       "UK accuses Russia of covert submarine operation threatening",
-      "China\u2019s dual-use ambitions could severely threaten America\u2019s",
-      "UK says it deployed military to deter Russian submarines fro"
+      "China\u2019s dual-use ambitions could severely threaten America\u2019s"
     ],
     "fundingQ": "$10.8B",
     "components": {
       "funding": 100,
-      "news": 35,
+      "news": 30,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -84,51 +84,70 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 41,
+    "trend": "steady",
+    "catalysts": [
+      "Waymo &#038; Waze to Fight Potholes!",
+      "Spacety raises $190 million to scale satellite manufacturing",
+      "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Ba"
+    ],
+    "fundingQ": "$655M",
+    "components": {
+      "funding": 39,
+      "news": 70,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-11"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 48,
+    "momentum": 37,
     "trend": "steady",
     "catalysts": [
-      "SpaceX Revenue Will Be Close to Around $27-30 Billion in 202",
-      "Merino Energy Comes Out Of Stealth With $3,800 Heat Pump Sys",
-      "Two Day Delay for Blue Origin New Glenn"
+      "NEXT LEVEL BREAKTHROUGHS for AI, Space and Tesla Technology",
+      "Moog Technology Keeps Artemis II Astronauts Safe During Hist",
+      "HawkEye 360 files to go public"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
       "news": 100,
       "hiring": 0,
-      "market": 100
+      "market": 45
     },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
   },
   {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 39,
+    "sector": "Climate & Energy",
+    "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Donald Trump Guts Public Health Protection to Bolster Big Co",
-      "Albedo prepares second VLEO mission for 2027 launch"
+      "Battery recycler Ascend Elements files for bankruptcy",
+      "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Ba",
+      "One State, 12 Counties, A Huge Pile Of Renewable Energy Proj"
     ],
-    "fundingQ": "$655M",
+    "fundingQ": "$0M",
     "components": {
-      "funding": 39,
-      "news": 60,
+      "funding": 0,
+      "news": 100,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Cross-State Coalition Disappointed in PUC Decision to Delay",
-      "StubHub to pay $10M to settle FTC allegations over &#8216;de",
-      "How to make the Startup Battlefield Top 20 \u2014 and what every"
+      "Waymo &#038; Waze to Fight Potholes!",
+      "HawkEye 360 files to go public",
+      "Spacety raises $190 million to scale satellite manufacturing"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -137,141 +156,123 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-10"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 34,
-    "trend": "steady",
-    "catalysts": [
-      "Merino Energy Comes Out Of Stealth With $3,800 Heat Pump Sys",
-      "Wired for Security: The EU&#8217;s Post-2030 Climate Archite",
-      "Electrofuels Are Slipping Through The Trump Chopper"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 100,
-      "hiring": 0,
-      "market": 45
-    },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 31,
+    "momentum": 27,
     "trend": "rising",
     "catalysts": [
+      "The Week\u2019s 10 Biggest Funding Rounds: SiFive Leads With $400",
       "SpaceX Revenue Will Be Close to Around $27-30 Billion in 202",
-      "Donald Trump Guts Public Health Protection to Bolster Big Co",
-      "Florida AG to probe OpenAI, alleging possible connection to"
+      "Donald Trump Guts Public Health Protection to Bolster Big Co"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 65,
+      "news": 70,
       "hiring": 0,
-      "market": 60
+      "market": 30
     },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 26,
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
-      "Amazon CEO takes aim at Nvidia, Intel, Starlink, more in ann",
-      "Chip Can Project Video the Size of a Grain of Sand"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-10"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "China\u2019s dual-use ambitions could severely threaten America\u2019s"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-10"
-  },
-  {
-    "sector": "Quantum Computing",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "Chip Can Project Video the Size of a Grain of Sand"
+      "The Week\u2019s 10 Biggest Funding Rounds: SiFive Leads With $400"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 78
+      "market": 100
     },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 19,
+    "trend": "declining",
+    "catalysts": [
+      "The Golden Dome\u2019s missing layer: On-orbit logistics for a re",
+      "China\u2019s dual-use ambitions could severely threaten America\u2019s"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 35,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-11"
+  },
+  {
+    "sector": "Quantum Computing",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Active quantum computing ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 54
+    },
+    "lastUpdated": "2026-04-11"
   },
   {
     "sector": "Transportation",
-    "momentum": 16,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "Charging Data Shows That Ethiopia\u2019s Electric Vehicle Landsca"
+      "TechCrunch is heading to Tokyo \u2014 and bringing the Startup Ba",
+      "BMW Electric Vehicles To Receive Dow Jones Energy Charging I"
     ],
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
-      "market": 64
+      "market": 43
     },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 15,
+    "momentum": 14,
     "trend": "declining",
     "catalysts": [
       "What founders can learn from Anjuna\u2019s layoffs and recovery",
-      "Is Anthropic limiting the release of Mythos to protect the i",
       "UK accuses Russia of covert submarine operation threatening"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-11"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
       "news": 20,
       "hiring": 0,
-      "market": 50
+      "market": 26
     },
-    "lastUpdated": "2026-04-10"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 4,
-    "trend": "declining",
-    "catalysts": [
-      "Active nuclear energy ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 0
-    },
-    "lastUpdated": "2026-04-10"
+    "lastUpdated": "2026-04-11"
   }
 ]

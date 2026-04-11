@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-10 07:48:56 UTC
+// Last updated: 2026-04-11 07:06:22 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854931.xml", isIPO: false, ticker: "DNA" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854911.xml", isIPO: false, ticker: "DNA" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854893.xml", isIPO: false, ticker: "DNA" },
+  { company: "Tempus AI", form: "DEF 14A", date: "2026-04-10", description: "vnt-20260410.htm", isIPO: false, ticker: "TEM" },
+  { company: "Astera Labs", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775864074.xml", isIPO: false, ticker: "ALAB" },
   { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110444.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110447.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110454.xml", isIPO: false, ticker: "LUNR" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Intuitive Machines", form: "4", date: "2026-04-01", description: "xslF345X06/form4-04012026_090407.xml", isIPO: false, ticker: "LUNR" },
   { company: "Momentus", form: "4", date: "2026-04-01", description: "xslF345X06/tm2610878-2_4seq1.xml", isIPO: false, ticker: "MNTS" },
   { company: "Momentus", form: "4", date: "2026-04-01", description: "xslF345X06/tm2610878-1_4seq1.xml", isIPO: false, ticker: "MNTS" },
-  { company: "Momentus", form: "8-K", date: "2026-04-01", description: "apre-20260401x8k.htm", isIPO: false, ticker: "MNTS" },
-  { company: "Oklo", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775075537.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775075359.xml", isIPO: false, ticker: "OKLO" },
-  { company: "C3.ai", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775084169.xml", isIPO: false, ticker: "AI" },
-  { company: "C3.ai", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775083714.xml", isIPO: false, ticker: "AI" },
 ];
