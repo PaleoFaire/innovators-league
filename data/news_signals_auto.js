@@ -1,140 +1,151 @@
 // Auto-generated news signals
-// Last updated: 2026-04-11T16:47:12.378Z
+// Last updated: 2026-04-11T20:42:01.798Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1775926032378,
+    "id": 1775940121798,
+    "type": "hire",
+    "company": "OpenAI",
+    "headline": "Sam Altman responds to ‘incendiary’ New Yorker article after attack on his home",
+    "source": "TechCrunch",
+    "time": "3h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/"
+  },
+  {
+    "id": 1775940121799,
     "type": "ipo",
     "company": "Vast",
     "headline": "Falcon 9 launches Cygnus cargo spacecraft to the ISS",
     "source": "SpaceNews",
-    "time": "Just now",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://spacenews.com/falcon-9-launches-cygnus-cargo-spacecraft-to-the-iss/"
   },
   {
-    "id": 1775926032379,
+    "id": 1775940121800,
     "type": "news",
     "company": "Waymo",
     "headline": "Waymo &#038; Waze to Fight Potholes!",
     "source": "CleanTechnica",
-    "time": "12h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/04/10/waymo-waze-to-fight-potholes/"
   },
   {
-    "id": 1775926032380,
+    "id": 1775940121801,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "NEXT LEVEL BREAKTHROUGHS for AI, Space and Tesla Technology",
     "source": "Next Big Future",
-    "time": "14h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/04/next-level-breakthroughs-for-ai-space-and-tesla-technology.html"
   },
   {
-    "id": 1775926032381,
+    "id": 1775940121802,
     "type": "news",
     "company": "Impulse Labs",
     "headline": "The Best of the New York Auto Show Was New York Itself",
     "source": "CleanTechnica",
-    "time": "15h ago",
+    "time": "19h ago",
     "impact": "low",
     "unread": true,
     "link": "https://cleantechnica.com/2026/04/10/the-best-of-the-new-york-auto-show-was-new-york-itself/"
   },
   {
-    "id": 1775926032382,
+    "id": 1775940121803,
     "type": "news",
     "company": "Atomic Industries",
     "headline": "Moog Technology Keeps Artemis II Astronauts Safe During Historic Lunar Mission",
     "source": "SpaceNews",
-    "time": "16h ago",
+    "time": "20h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://spacenews.com/moog-technology-keeps-artemis-ii-astronauts-safe-during-historic-lunar-mission/"
   },
   {
-    "id": 1775926032383,
+    "id": 1775940121804,
     "type": "news",
     "company": "Cape",
     "headline": "The president who threatened to end a civilization is supposed to guarantee Ukraine’s survival",
     "source": "Defense News",
-    "time": "17h ago",
+    "time": "21h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/10/the-president-who-threatened-to-end-a-civilization-is-supposed-to-guarantee-ukraines-survival/"
   },
   {
-    "id": 1775926032384,
+    "id": 1775940121805,
     "type": "contract",
     "company": "Cape",
     "headline": "Pentagon, FAA sign agreement on deploying anti-drone laser system near Mexico",
     "source": "Defense News",
-    "time": "18h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/10/pentagon-faa-sign-agreement-on-deploying-anti-drone-laser-system-near-mexico/"
   },
   {
-    "id": 1775926032385,
+    "id": 1775940121806,
     "type": "news",
     "company": "Anthropic",
     "headline": "Anthropic temporarily banned OpenClaw&#8217;s creator from accessing Claude",
     "source": "TechCrunch",
-    "time": "20h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/"
   },
   {
-    "id": 1775926032386,
+    "id": 1775940121807,
     "type": "news",
     "company": "Palantir",
     "headline": "Battery recycler Ascend Elements files for bankruptcy",
     "source": "TechCrunch",
-    "time": "21h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/04/10/battery-recycler-ascend-elements-files-for-bankruptcy/"
   },
   {
-    "id": 1775926032387,
+    "id": 1775940121808,
     "type": "news",
     "company": "Galvanick",
     "headline": "Anthropic’s Mythos Will Force a Cybersecurity Reckoning—Just Not the One You Think",
     "source": "Wired",
-    "time": "22h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/"
   },
   {
-    "id": 1775926032388,
+    "id": 1775940121809,
     "type": "ipo",
     "company": "Palantir",
     "headline": "HawkEye 360 files to go public",
     "source": "SpaceNews",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://spacenews.com/hawkeye-360-files-to-go-public/"
   },
   {
-    "id": 1775926032389,
+    "id": 1775940121810,
     "type": "funding",
     "company": "Terran Orbital",
     "headline": "Spacety raises $190 million to scale satellite manufacturing, plans IPO",
     "source": "SpaceNews",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "high",
     "unread": false,
     "link": "https://spacenews.com/spacety-raises-190-million-to-scale-satellite-manufacturing-plans-ipo/"
   },
   {
-    "id": 1775926032390,
+    "id": 1775940121811,
     "type": "news",
     "company": "OpenAI",
     "headline": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser&#8217;s delusions and ignored her warnings",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/"
   },
   {
-    "id": 1775926032391,
+    "id": 1775940121812,
     "type": "news",
     "company": "PILGRIM",
     "headline": "TechCrunch is heading to Tokyo — and bringing the Startup Battlefield with it",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/"
   },
   {
-    "id": 1775926032392,
+    "id": 1775940121813,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman’s Home",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/sam-altman-home-attack-openai-san-franisco-office-threat/"
   },
   {
-    "id": 1775926032393,
+    "id": 1775940121814,
     "type": "news",
     "company": "Palantir",
     "headline": "Finland clinches $642 million deal for 112 South Korean K9 howitzers",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/04/finland-clinches-642-million-deal-for-112-south-korean-k9-howitzers/"
   },
   {
-    "id": 1775926032394,
+    "id": 1775940121815,
     "type": "news",
     "company": "OpenAI",
     "headline": "\"Uncanny Valley\": OpenAI and Musk Fight Again; DOJ Mishandles Voter Data; Artemis II Comes Home",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/uncanny-valley-podcast-openai-musk-fight-doj-mishandles-voter-data-artemis-ii-comes-home/"
   },
   {
-    "id": 1775926032395,
+    "id": 1775940121816,
     "type": "ipo",
     "company": "Dawn Aerospace",
     "headline": "‘Everyone wants a spaceplane’: More countries eye on-orbit protection for satellites",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defenseone.com/defense-systems/2026/04/everyone-wants-spaceplane-more-countries-eye-orbit-protection-satellites/412773/"
   },
   {
-    "id": 1775926032396,
+    "id": 1775940121817,
     "type": "funding",
     "company": "Hadrian",
     "headline": "The Week’s 10 Biggest Funding Rounds: SiFive Leads With $400M For Custom Chip Designs As Aviation, Biotech And Defense S",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-chips-aviation-biotech-sifive/"
-  },
-  {
-    "id": 1775926032397,
-    "type": "hire",
-    "company": "Palantir",
-    "headline": "Italian government shakes up Leonardo leadership, replacing Cingolani as CEO",
-    "source": "Defense News",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.defensenews.com/global/europe/2026/04/10/italian-government-shakes-up-leonardo-leadership-replacing-cingolani-as-ceo/"
   }
 ];
