@@ -25375,23 +25375,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-12 03:31
+// Last updated: 2026-04-12 05:58
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "OpenAI", headline: "Sam Altman responds to 'incendiary' New Yorker article after attack on his home", source: "TechCrunch", time: "10h ago", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Vast", headline: "Falcon 9 launches Cygnus cargo spacecraft to the ISS", source: "SpaceNews", time: "11h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Waymo", headline: "Waymo &#038; Waze to Fight Potholes!", source: "CleanTechnica", time: "23h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Impulse Labs", headline: "The Best of the New York Auto Show Was New York Itself", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Atomic Industries", headline: "Moog Technology Keeps Artemis II Astronauts Safe During Historic Lunar Mission", source: "SpaceNews", time: "1d ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Cape", headline: "The president who threatened to end a civilization is supposed to guarantee Ukraine's survival", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Cape", headline: "Pentagon, FAA sign agreement on deploying anti-drone laser system near Mexico", source: "Defense News", time: "1d ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "Anthropic temporarily banned OpenClaw's creator from accessing Claude", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Palantir", headline: "Battery recycler Ascend Elements files for bankruptcy", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Galvanick", headline: "Anthropic's Mythos Will Force a Cybersecurity Reckoning'Just Not the One You Think", source: "Wired", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Palantir", headline: "HawkEye 360 files to go public", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Terran Orbital", headline: "Spacety raises $190 million to scale satellite manufacturing, plans IPO", source: "SpaceNews", time: "1d ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "OpenAI", headline: "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser's delusions and ignored her warnings", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "PILGRIM", headline: "TechCrunch is heading to Tokyo ' and bringing the Startup Battlefield with it", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "hire", company: "OpenAI", headline: "Suspect Arrested for Allegedly Throwing Molotov Cocktail at Sam Altman's Home", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Will Have Static Fire Testing of All 33 Engines", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "hire", company: "OpenAI", headline: "Sam Altman responds to 'incendiary' New Yorker article after attack on his home", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "Vast", headline: "Falcon 9 launches Cygnus cargo spacecraft to the ISS", source: "SpaceNews", time: "13h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Waymo", headline: "Waymo &#038; Waze to Fight Potholes!", source: "CleanTechnica", time: "1d ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "NEXT LEVEL BREAKTHROUGHS for AI, Space and Tesla Technology", source: "Next Big Future", time: "1d ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Impulse Labs", headline: "The Best of the New York Auto Show Was New York Itself", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Atomic Industries", headline: "Moog Technology Keeps Artemis II Astronauts Safe During Historic Lunar Mission", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Cape", headline: "The president who threatened to end a civilization is supposed to guarantee Ukraine's survival", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 9, type: "contract", company: "Cape", headline: "Pentagon, FAA sign agreement on deploying anti-drone laser system near Mexico", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Anthropic", headline: "Anthropic temporarily banned OpenClaw's creator from accessing Claude", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Palantir", headline: "Battery recycler Ascend Elements files for bankruptcy", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Galvanick", headline: "Anthropic's Mythos Will Force a Cybersecurity Reckoning'Just Not the One You Think", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Palantir", headline: "HawkEye 360 files to go public", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "funding", company: "Terran Orbital", headline: "Spacety raises $190 million to scale satellite manufacturing, plans IPO", source: "SpaceNews", time: "1d ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "OpenAI", headline: "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser's delusions and ignored her warnings", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
