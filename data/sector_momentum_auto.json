@@ -1,21 +1,21 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 64,
+    "momentum": 63,
     "trend": "accelerating",
     "catalysts": [
+      "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after",
       "Anthropic temporarily banned OpenClaw&#8217;s creator from a",
-      "Anthropic\u2019s Mythos Will Force a Cybersecurity Reckoning\u2014Just",
-      "Stalking victim sues OpenAI, claims ChatGPT fueled her abuse"
+      "Anthropic\u2019s Mythos Will Force a Cybersecurity Reckoning\u2014Just"
     ],
     "fundingQ": "$7.2B",
     "components": {
       "funding": 87,
-      "news": 95,
+      "news": 90,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Defense & Security",
@@ -33,11 +33,11 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 59,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
       "Pentagon, FAA sign agreement on deploying anti-drone laser s",
@@ -47,11 +47,11 @@
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Ocean & Maritime",
@@ -68,7 +68,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -84,7 +84,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -102,16 +102,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 37,
     "trend": "steady",
     "catalysts": [
-      "NEXT LEVEL BREAKTHROUGHS for AI, Space and Tesla Technology",
-      "Moog Technology Keeps Artemis II Astronauts Safe During Hist",
-      "HawkEye 360 files to go public"
+      "SpaceX Will Have Static Fire Testing of All 33 Engines",
+      "Falcon 9 launches Cygnus cargo spacecraft to the ISS",
+      "NEXT LEVEL BREAKTHROUGHS for AI, Space and Tesla Technology"
     ],
     "fundingQ": "$175M",
     "components": {
@@ -120,11 +120,29 @@
       "hiring": 0,
       "market": 45
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 35,
+    "trend": "steady",
+    "catalysts": [
+      "Sam Altman responds to \u2018incendiary\u2019 New Yorker article after",
+      "Falcon 9 launches Cygnus cargo spacecraft to the ISS",
+      "Waymo &#038; Waze to Fight Potholes!"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 100,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 35,
+    "momentum": 34,
     "trend": "steady",
     "catalysts": [
       "Battery recycler Ascend Elements files for bankruptcy",
@@ -134,29 +152,11 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 100,
+      "news": 95,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-11"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 35,
-    "trend": "steady",
-    "catalysts": [
-      "Waymo &#038; Waze to Fight Potholes!",
-      "HawkEye 360 files to go public",
-      "Spacety raises $190 million to scale satellite manufacturing"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 100,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Biotech & Health",
@@ -174,7 +174,7 @@
       "hiring": 0,
       "market": 30
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -190,7 +190,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -207,7 +207,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Quantum Computing",
@@ -223,7 +223,7 @@
       "hiring": 0,
       "market": 54
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Transportation",
@@ -240,24 +240,23 @@
       "hiring": 0,
       "market": 43
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 14,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "What founders can learn from Anjuna\u2019s layoffs and recovery",
       "UK accuses Russia of covert submarine operation threatening"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   },
   {
     "sector": "Nuclear Energy",
@@ -273,6 +272,6 @@
       "hiring": 0,
       "market": 26
     },
-    "lastUpdated": "2026-04-11"
+    "lastUpdated": "2026-04-12"
   }
 ]
