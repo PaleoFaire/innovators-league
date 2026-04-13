@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-12 07:21:43 UTC
+// Last updated: 2026-04-13 08:11:19 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854931.xml", isIPO: false, ticker: "DNA" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854911.xml", isIPO: false, ticker: "DNA" },
