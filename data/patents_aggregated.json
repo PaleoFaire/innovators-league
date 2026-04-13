@@ -1,1 +1,7 @@
-[]
+{
+  "status": "api_unavailable",
+  "message": "PATENTSVIEW_API_KEY not set and USPTO fallback returned no data",
+  "timestamp": "2026-04-13T10:05:21.120003",
+  "source": "fetch_patents.py",
+  "data": []
+}

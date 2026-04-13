@@ -244,6 +244,14 @@
     if (cb) html += '<span class="conviction-lg-badge ' + cb.cls + '">' + cb.icon + ' ' + cb.label + '</span>';
     html += '</div>';
 
+    // Check for podcast episodes across all FIELD_NOTES (not just the first match)
+    if (!isPodcast && typeof FIELD_NOTES !== 'undefined') {
+      var podEpisodes = FIELD_NOTES.filter(function(n) {
+        return n.company === company.name && (n.type === 'podcast' || n.type === 'interview');
+      });
+      if (podEpisodes.length > 0) isPodcast = true;
+    }
+
     // Connection badges
     var badges = [];
     if (metFounder) badges.push('<span class="connection-badge">🤝 Met Founder</span>');
@@ -1666,6 +1674,15 @@
           });
         }
       });
+    }
+
+    // Share on X button
+    const shareXBtn = document.getElementById('btn-share-x');
+    if (shareXBtn) {
+      var shareText = 'Check out ' + company.name + ' on The Innovators League — the Bloomberg Terminal for frontier tech.';
+      var shareUrl = window.location.href;
+      var twitterUrl = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText) + '&url=' + encodeURIComponent(shareUrl);
+      shareXBtn.href = twitterUrl;
     }
 
     // Website button

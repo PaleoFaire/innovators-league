@@ -467,6 +467,31 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
+// ─── PODCAST SECTION ───
+function initPodcastSection() {
+  var container = document.getElementById('podcast-latest');
+  if (!container || typeof FIELD_NOTES === 'undefined') return;
+
+  var podcasts = FIELD_NOTES.filter(function(n) { return n.type === 'podcast' || n.type === 'interview'; })
+    .sort(function(a, b) { return new Date(b.date) - new Date(a.date); })
+    .slice(0, 3);
+
+  if (!podcasts.length) { container.parentElement.style.display = 'none'; return; }
+
+  var html = '<div class="podcast-grid">';
+  podcasts.forEach(function(ep) {
+    html += '<a class="podcast-card" href="' + sanitizeUrl(ep.sourceUrl || '#') + '" target="_blank" rel="noopener">';
+    html += '<div class="podcast-type">' + (ep.type === 'podcast' ? '🎙️ Podcast' : '🎤 Interview') + '</div>';
+    html += '<h4 class="podcast-title">' + escapeHtml(ep.title) + '</h4>';
+    html += '<div class="podcast-guest">' + escapeHtml(ep.founder || '') + (ep.founderTitle ? ', ' + escapeHtml(ep.founderTitle) : '') + '</div>';
+    html += '<div class="podcast-company">' + escapeHtml(ep.company) + '</div>';
+    html += '<div class="podcast-date">' + escapeHtml(ep.date) + '</div>';
+    html += '</a>';
+  });
+  html += '</div>';
+  container.innerHTML = html;
+}
+
 // ─── PARTNER PORTAL ───
 function openPartnerPortal(formType, eventName) {
   const overlay = document.getElementById('partner-portal-overlay');
@@ -577,6 +602,72 @@ function openPartnerPortal(formType, eventName) {
         <button type="submit" class="form-submit-btn">Submit Correction</button>
       </form>
     `;
+  } else if (formType === 'founder-apply') {
+    var sectorOptions = '';
+    if (typeof SECTORS !== 'undefined') {
+      Object.keys(SECTORS).forEach(function(s) {
+        sectorOptions += '<option value="' + s + '">' + s + '</option>';
+      });
+    } else {
+      sectorOptions = '<option value="Defense & Security">Defense & Security</option><option value="Space & Aerospace">Space & Aerospace</option><option value="AI & Software">AI & Software</option><option value="Climate & Energy">Climate & Energy</option><option value="Biotech & Health">Biotech & Health</option><option value="Robotics & Manufacturing">Robotics & Manufacturing</option><option value="Nuclear Energy">Nuclear Energy</option><option value="Transportation">Transportation</option><option value="Other">Other</option>';
+    }
+    body.innerHTML = `
+      <div class="partner-portal-header">
+        <h2>🚀 Apply to Be Listed</h2>
+        <p>Get your company in front of investors, analysts, and defense primes on the Innovators League.</p>
+      </div>
+      <form class="partner-form" onsubmit="submitPartnerForm(event, 'founder-apply')">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Company Name *</label>
+            <input type="text" name="company" required placeholder="Your company name">
+          </div>
+          <div class="form-group">
+            <label>Founder Name *</label>
+            <input type="text" name="founder_name" required placeholder="Full name">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Email *</label>
+            <input type="email" name="email" required placeholder="you@company.com">
+          </div>
+          <div class="form-group">
+            <label>Website *</label>
+            <input type="url" name="website" required placeholder="https://...">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Sector *</label>
+            <select name="sector" required>
+              <option value="">Select sector...</option>
+              ${sectorOptions}
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Funding Stage</label>
+            <select name="stage">
+              <option value="">Select stage...</option>
+              <option value="Pre-Seed">Pre-Seed</option>
+              <option value="Seed">Seed</option>
+              <option value="Series A">Series A</option>
+              <option value="Series B">Series B</option>
+              <option value="Series C+">Series C+</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>One-Line Pitch *</label>
+          <textarea name="pitch" required maxlength="200" placeholder="What does your company do in one sentence? (max 200 characters)"></textarea>
+        </div>
+        <div class="form-group">
+          <label>What makes you frontier tech?</label>
+          <textarea name="frontier_reason" placeholder="Why is your company building something genuinely new? What makes you different from incumbents?"></textarea>
+        </div>
+        <button type="submit" class="form-submit-btn">Submit Application</button>
+      </form>
+    `;
   } else if (formType === 'event-rsvp') {
     body.innerHTML = `
       <div class="partner-portal-header">
@@ -646,13 +737,40 @@ function submitPartnerForm(event, type) {
   submissions.push(data);
   try { localStorage.setItem('til-submissions', JSON.stringify(submissions)); } catch(e) { console.warn('[TIL] Storage full'); }
 
+  // For founder-apply, also construct a mailto link
+  if (type === 'founder-apply') {
+    var subject = 'Innovators League Application: ' + (data.company || 'New Company');
+    var mailBody = 'Company: ' + (data.company || '') + '\n' +
+      'Founder: ' + (data.founder_name || '') + '\n' +
+      'Email: ' + (data.email || '') + '\n' +
+      'Website: ' + (data.website || '') + '\n' +
+      'Sector: ' + (data.sector || '') + '\n' +
+      'Stage: ' + (data.stage || '') + '\n' +
+      'Pitch: ' + (data.pitch || '') + '\n' +
+      'Frontier Reason: ' + (data.frontier_reason || '') + '\n' +
+      'Submitted: ' + data.timestamp;
+    var mailtoUrl = 'mailto:founders@rationaloptimistsociety.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(mailBody);
+    window.open(mailtoUrl, '_blank');
+  }
+
   // Show success message
+  var successMsg = '';
+  if (type === 'founder-apply') {
+    successMsg = 'Application received. We review every submission and will be in touch if your company is a fit for the Innovators League.';
+  } else if (type === 'nomination') {
+    successMsg = 'Your nomination has been submitted. Our team will review it shortly.';
+  } else if (type === 'event-rsvp') {
+    successMsg = 'Your invite request has been submitted. We\'ll follow up shortly.';
+  } else {
+    successMsg = 'Your correction has been submitted. We appreciate your help keeping our data accurate.';
+  }
+
   const body = document.getElementById('partner-portal-body');
   body.innerHTML = `
     <div class="form-success">
       <div class="form-success-icon">✅</div>
       <h3>Thank you!</h3>
-      <p>${type === 'nomination' ? 'Your nomination has been submitted. Our team will review it shortly.' : 'Your correction has been submitted. We appreciate your help keeping our data accurate.'}</p>
+      <p>${successMsg}</p>
       <button class="form-submit-btn" onclick="closePartnerPortal()" style="margin-top: 24px;">Close</button>
     </div>
   `;
@@ -2072,6 +2190,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'conviction-stack':       [renderConvictionStack],
     'innovator50':            [initInnovator50, renderIL30Showcase],
     'events':                 [initEvents],
+    'podcast-section':        [initPodcastSection],
     'momentum':               [initSectorMomentum],
     'ipo-pipeline':           [initIPOPipeline],
     'innovator-scores':       [initInnovatorScores],

@@ -19,22 +19,38 @@
     <link rel="stylesheet" href="research-page.css?v=20260410">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation — 5 Key Tabs -->
     <nav class="nav">
         <div class="nav-brand">
             <div class="nav-logo">ROS</div>
             <span class="nav-title">THE INNOVATORS LEAGUE</span>
         </div>
+        <!-- Global Search Bar -->
+        <div class="nav-search">
+            <svg class="nav-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" id="global-search" placeholder="Search companies, sectors, investors..." autocomplete="off">
+            <div class="search-results-dropdown" id="search-results-dropdown"></div>
+        </div>
         <div class="nav-links">
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="visualizations.html" class="nav-link">Insights</a>
-            <a href="investors.html" class="nav-link">Investors</a>
-            <a href="jobs.html" class="nav-link">Talent</a>
-            <a href="valuations.html" class="nav-link">Valuations</a>
+            <a href="index.html" class="nav-link">Intelligence</a>
+            <a href="index.html#innovator50" class="nav-link">IL30</a>
             <a href="dealflow.html" class="nav-link">Deal Flow</a>
+            <a href="brief.html" class="nav-link">War Room</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
+                    <a href="investors.html" class="nav-dropdown-link">Investors</a>
+                    <a href="jobs.html" class="nav-dropdown-link">Talent</a>
+                    <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                </div>
+            </div>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main active">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
+                    <a href="visualizations.html" class="nav-dropdown-link">Insights</a>
                     <a href="alerts.html" class="nav-dropdown-link">Deal Alerts</a>
                     <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
                     <a href="captable.html" class="nav-dropdown-link">Cap Table</a>
@@ -42,7 +58,9 @@
                     <a href="research.html" class="nav-dropdown-link active">Research</a>
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                    <a href="compare.html" class="nav-dropdown-link">Compare</a>
                     <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="nav-dropdown-link">Field Notes &#8599;</a>
+                    <a href="#" class="nav-dropdown-link" onclick="openPartnerPortal('nominate')">Founders: Get Listed</a>
                 </div>
             </div>
             <div class="nav-auth" id="nav-auth">
@@ -213,32 +231,50 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">THE INNOVATORS LEAGUE</div>
-                    <p>A project of the <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">Rational Optimist Society</a>. Built from years of founder relationships, site visits, and deep sector research.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>ROS</h4>
-                    <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener">Main Site</a>
-                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener">Substack</a>
-                    <a href="https://x.com/RationalOptSoc" target="_blank" rel="noopener">X / Twitter</a>
-                </div>
-                <div class="footer-links">
-                    <h4>Navigate</h4>
-                    <a href="visualizations.html">Insights</a>
-                    <a href="investors.html">Investors</a>
-                    <a href="captable.html">Cap Table</a>
-                    <a href="customers.html">Customers</a>
-                    <a href="research.html">Research</a>
-                </div>
+
+<!-- Subscribe Banner -->
+<section class="subscribe-banner">
+  <h3>Get Stephen's field notes every week</h3>
+  <p>Factory visits, founder calls, and deal signals that aren't in any LLM. Free, every Sunday.</p>
+  <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="subscribe-banner-btn">Subscribe Free</a>
+  <div class="subscribe-banner-note">Join 50,000+ investors and founders in the ROS community</div>
+</section>
+
+    <footer class="premium-footer">
+      <div class="footer-inner">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="footer-logo"><span class="footer-ros">ROS</span> THE INNOVATORS LEAGUE</div>
+            <p class="footer-tagline">The deal engine for frontier technology. Intelligence, access, and deal flow from inside the ecosystem.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>Intelligence</h4>
+              <a href="index.html">Company Database</a>
+              <a href="visualizations.html">Insights &amp; Analytics</a>
+              <a href="brief.html">War Room Brief</a>
+              <a href="compare.html">Compare Companies</a>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Rational Optimist Society &middot; ROS Startup Database</p>
+            <div class="footer-col">
+              <h4>Deal Flow</h4>
+              <a href="dealflow.html">Deal Pipeline</a>
+              <a href="investors.html">Investor Directory</a>
+              <a href="valuations.html">Valuations</a>
+              <a href="jobs.html">Talent Intelligence</a>
             </div>
+            <div class="footer-col">
+              <h4>ROS Ecosystem</h4>
+              <a href="https://rationaloptimistsociety.substack.com" target="_blank">Newsletter</a>
+              <a href="govradar.html">Gov Radar</a>
+              <a href="regulatory.html">Regulatory Intel</a>
+            </div>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Rational Optimist Society. All rights reserved.</p>
+          <div class="footer-data-freshness" id="footer-freshness"></div>
+        </div>
+      </div>
     </footer>
 
     <!-- Scripts -->

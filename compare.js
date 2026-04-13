@@ -182,13 +182,76 @@ document.addEventListener('DOMContentLoaded', function() {
       html += '</tbody></table></div></div>';
     }
 
-    // 4. Export button
+    // 4. Radar chart for score comparison
+    if (typeof Chart !== 'undefined' && typeof INNOVATOR_SCORES !== 'undefined') {
+      var radarData = selectedCompanies.map(function(c) {
+        var score = INNOVATOR_SCORES.find(function(s) { return s.company === c.name; });
+        return score || null;
+      }).filter(Boolean);
+
+      if (radarData.length >= 2) {
+        html += '<div class="compare-section"><h3>Score Radar</h3>';
+        html += '<div style="max-width:500px; margin:0 auto;"><canvas id="compare-radar"></canvas></div></div>';
+      }
+    }
+
+    // 5. Export button
     html += '<div class="compare-actions">' +
       '<button class="compare-export-btn" id="export-comparison">Export CSV</button>' +
       '<button class="compare-share-btn" id="share-comparison">Copy Link</button>' +
     '</div>';
 
     container.innerHTML = html;
+
+    // Render radar chart after innerHTML is set
+    if (typeof Chart !== 'undefined' && typeof INNOVATOR_SCORES !== 'undefined') {
+      var radarDataPost = selectedCompanies.map(function(c) {
+        var score = INNOVATOR_SCORES.find(function(s) { return s.company === c.name; });
+        return score || null;
+      }).filter(Boolean);
+
+      if (radarDataPost.length >= 2) {
+        setTimeout(function() {
+          var ctx = document.getElementById('compare-radar');
+          if (!ctx) return;
+          var colors = ['#FF6B2C', '#60a5fa', '#22c55e', '#f59e0b'];
+          try {
+            new Chart(ctx, {
+              type: 'radar',
+              data: {
+                labels: ['Tech Moat', 'Momentum', 'Team', 'Market', "Gov't"],
+                datasets: radarDataPost.map(function(s, i) {
+                  return {
+                    label: s.company,
+                    data: [s.techMoat || 0, s.momentum || 0, s.teamPedigree || 0, s.marketGravity || 0, s.govTraction || 0],
+                    borderColor: colors[i % colors.length],
+                    backgroundColor: colors[i % colors.length] + '20',
+                    borderWidth: 2,
+                    pointRadius: 3
+                  };
+                })
+              },
+              options: {
+                responsive: true,
+                scales: {
+                  r: {
+                    beginAtZero: true,
+                    max: 10,
+                    grid: { color: 'rgba(255,255,255,0.06)' },
+                    angleLines: { color: 'rgba(255,255,255,0.06)' },
+                    pointLabels: { color: 'rgba(255,255,255,0.6)', font: { size: 11 } },
+                    ticks: { display: false }
+                  }
+                },
+                plugins: {
+                  legend: { labels: { color: 'rgba(255,255,255,0.7)', font: { size: 11 } } }
+                }
+              }
+            });
+          } catch(e) { console.error('[TIL] Radar chart failed:', e); }
+        }, 100);
+      }
+    }
 
     // Export handler
     document.getElementById('export-comparison').addEventListener('click', function() {

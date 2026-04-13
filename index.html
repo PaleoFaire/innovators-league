@@ -62,6 +62,8 @@
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
                     <a href="compare.html" class="nav-dropdown-link">Compare</a>
+                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="nav-dropdown-link">Field Notes &#8599;</a>
+                    <a href="#" class="nav-dropdown-link" onclick="openPartnerPortal('nominate')">Founders: Get Listed</a>
                 </div>
             </div>
             <div class="nav-auth" id="nav-auth">
@@ -136,6 +138,38 @@
         <div class="ticker-label">LIVE</div>
         <div class="ticker-scroll" id="ticker-scroll"></div>
     </div>
+
+    <!-- About the Innovators League -->
+    <section id="about-section" class="about-section">
+      <div class="about-inner">
+        <div class="about-eyebrow">WHY THE INNOVATORS LEAGUE</div>
+        <h2 class="about-headline">We're in the golden age of innovation — but the dark age of storytelling.</h2>
+        <p class="about-body">The most important companies in the world are being built right now — in factories, labs, and hangars you've never heard of. But nobody is covering them. The Innovators League exists to change that.</p>
+        <p class="about-body">We don't just track companies. We visit their factories. We sit across from their founders. We walk their production lines. Then we tell their story to tens of thousands of investors and builders who want to know what's next.</p>
+        <div class="about-stats">
+          <div class="about-stat">
+            <div class="about-stat-value" id="about-company-count">665</div>
+            <div class="about-stat-label">Companies Tracked</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-value">30</div>
+            <div class="about-stat-label">IL30 Companies</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-value">16</div>
+            <div class="about-stat-label">Sectors Monitored</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-value">6</div>
+            <div class="about-stat-label">Field Notes Published</div>
+          </div>
+        </div>
+        <div class="about-cta-row">
+          <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="about-cta-primary">Read the Rational Optimist</a>
+          <a href="#innovator50" class="about-cta-secondary">Meet the IL30</a>
+        </div>
+      </div>
+    </section>
 
     <!-- The Innovators League 30 — The Hero Credential -->
     <section class="innovator50-section" id="innovator50">
@@ -302,6 +336,13 @@
                 <p><strong>Founder?</strong> Request your free invite. &nbsp;|&nbsp; <strong>Investor?</strong> <a href="#private-community" style="color:var(--accent);text-decoration:underline;">Join as member</a> for priority access.</p>
             </div>
         </div>
+    </section>
+
+    <!-- Podcast Section -->
+    <section id="podcast-section" class="section-container" style="max-width:1100px; margin:0 auto; padding:48px 24px;">
+      <h2 class="section-title">Latest from the ROS Podcast</h2>
+      <p style="color:rgba(240,240,250,0.5); font-size:14px; margin-bottom:20px;">Conversations with the founders building the future.</p>
+      <div id="podcast-latest"></div>
     </section>
 
     <!-- WHY THIS EXISTS — Credibility + Value Prop -->
@@ -1153,6 +1194,13 @@
         </div>
     </section>
 
+    <!-- Founder Apply CTA -->
+    <div class="founder-apply-cta" style="text-align:center; padding:40px 24px;">
+      <h3 style="font-size:20px; font-family:'Space Grotesk',sans-serif; margin-bottom:8px;">Building frontier tech?</h3>
+      <p style="font-size:14px; color:rgba(240,240,250,0.5); margin-bottom:16px;">Apply to be listed in the Innovators League database. Get discovered by investors, analysts, and defense primes.</p>
+      <button onclick="openPartnerPortal('founder-apply')" style="padding:12px 28px; background:#FF6B2C; color:#000; font-weight:700; font-size:14px; border:none; border-radius:8px; cursor:pointer;">Apply to Be Listed</button>
+    </div>
+
     <!-- Private Community — PILLAR 4 -->
     <section class="private-community-section" id="private-community">
         <div class="container">
@@ -1235,6 +1283,15 @@
                     <div class="pc-channel"># introductions</div>
                     <div class="pc-channel"># events</div>
                 </div>
+            </div>
+
+            <!-- How to Invest -->
+            <div class="invest-callout" style="max-width:700px; margin:32px auto; padding:28px; background:linear-gradient(135deg, rgba(34,197,94,0.06), rgba(34,197,94,0.01)); border:1px solid rgba(34,197,94,0.15); border-radius:12px;">
+              <div style="font-size:10px; font-weight:700; letter-spacing:1.5px; color:#22c55e; margin-bottom:12px;">FOR INVESTORS</div>
+              <h3 style="font-size:18px; font-family:'Space Grotesk',sans-serif; margin-bottom:8px;">Invest in the companies we champion</h3>
+              <p style="font-size:14px; color:rgba(240,240,250,0.6); line-height:1.6; margin-bottom:16px;">The Rational Optimist Society is building an investment fund focused on frontier technology — the companies reshaping the physical world. If you're an accredited investor interested in co-investing alongside founders we know personally, we'd love to hear from you.</p>
+              <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" style="display:inline-block; padding:10px 24px; border:1px solid rgba(34,197,94,0.4); color:#22c55e; font-weight:600; font-size:13px; border-radius:6px; text-decoration:none;">Learn About the ROS Fund</a>
+              <p style="font-size:10px; color:rgba(255,255,255,0.25); margin-top:12px;">This is not an offer to sell securities. Past performance does not guarantee future results.</p>
             </div>
         </div>
     </section>
@@ -1409,6 +1466,15 @@
     </section>
 
     <!-- Footer -->
+
+<!-- Subscribe Banner -->
+<section class="subscribe-banner">
+  <h3>Get Stephen's field notes every week</h3>
+  <p>Factory visits, founder calls, and deal signals that aren't in any LLM. Free, every Sunday.</p>
+  <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="subscribe-banner-btn">Subscribe Free</a>
+  <div class="subscribe-banner-note">Join 50,000+ investors and founders in the ROS community</div>
+</section>
+
     <footer class="premium-footer">
       <div class="footer-inner">
         <div class="footer-main">
