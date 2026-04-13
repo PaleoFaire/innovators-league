@@ -25879,23 +25879,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-13 17:12
+// Last updated: 2026-04-13 21:02
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Firestorm Labs", headline: "US military eyes high-energy 'laser dome' for domestic air defense", source: "Defense News", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Cape", headline: "Booking.com confirms hackers accessed customers' data", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Cognition", headline: "Meta Is Warned That Facial Recognition Glasses Will Arm Sexual Predators", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Mara", headline: "Why opinion on AI is so divided", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "funding", company: "Deterrence", headline: "The Pentagon wants a 188 percent bump for missile procurement. Can industry deliver?", source: "Breaking Defense", time: "1h ago", impact: "high", unread: true },
-  { id: 6, type: "news", company: "Solid Power", headline: "Zwitterions Are The Key To New Solid-State Batteries", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Ample", headline: "BYD's Fastest-Charging Car in the World Is Astonishing'in Good and Bad Ways", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Durin", headline: "With Joint Innovation Outpost, Army 'operationalized an acquisition cell'", source: "Breaking Defense", time: "3h ago", impact: "high", unread: false },
-  { id: 9, type: "contract", company: "Karman Industries", headline: "Voyager is fortifying the U.S. Defense supply chain", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "PsiQuantum", headline: "Squishy Photonic Switches Promise Fast Low Power Logic", source: "IEEE Spectrum", time: "5h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Vast", headline: "The Internet's Most Powerful Archiving Tool Is in Peril", source: "Wired", time: "6h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Aerodome", headline: "Job titles of the future: Wildlife first responder", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Neuralink", headline: "You have no choice in reading this article'maybe", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Mach Industries", headline: "Can a New Bridge Finally Save the Pentagon's Best Ideas?", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Cape", headline: "A Closed Strait of Hormuz Risks a Global Food Security Crisis", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
+  { id: 1, type: "hire", company: "Cape", headline: "Q&#038;A: Heather Pringle on what to expect from Space Symposium", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Photonic Inc", headline: "Microsoft is officially killing its Outlook Lite app next month", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Mara", headline: "What's in Hasan Piker's Starter Pack? Creatine, Zyns, Signal", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Impulse Labs", headline: "France Moved First, But Markets Everywhere Are Signaling Electrification", source: "CleanTechnica", time: "1h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX IPO, Index Funds and Lockup Periods", source: "Next Big Future", time: "1h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "Cape", headline: "Microsoft is working on yet another OpenClaw-like agent", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Andromeda Surgical", headline: "Stanford report highlights growing disconnect between AI insiders and everyone else", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Zeromark", headline: "Estonia to halt $587M Infantry Fighting Vehicle buy in favor of drones, air defense", source: "Breaking Defense", time: "2h ago", impact: "medium", unread: false },
+  { id: 9, type: "ipo", company: "Astera Labs", headline: "Phantom Space eyes edge in orbital data race with thermal deal", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Blue Origin", headline: "Third Blue Origin New Glenn Launch Delayed Until April 17, 2026", source: "Next Big Future", time: "2h ago", impact: "low", unread: false },
+  { id: 11, type: "ipo", company: "Palantir", headline: "Aerospace to support industry with government furnished talent", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Firestorm Labs", headline: "US military eyes high-energy 'laser dome' for domestic air defense", source: "Defense News", time: "3h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Cape", headline: "Booking.com confirms hackers accessed customers' data", source: "TechCrunch", time: "4h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "SpaceX", headline: "Amazon reveals aviation antenna as LEO inflight connectivity race intensifies", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Cognition", headline: "Meta Is Warned That Facial Recognition Glasses Will Arm Sexual Predators", source: "Wired", time: "5h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
