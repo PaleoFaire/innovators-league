@@ -25393,25 +25393,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-13 06:21
-// Auto-generated real-time signals
-// Last updated: 2026-04-13
+// Last updated: 2026-04-13 10:02
 const COMPANY_SIGNALS = [
-  { id: 1, type: "contract", company: "Mach Industries", headline: "Can a New Bridge Finally Save the Pentagon’s Best Ideas?", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Cape", headline: "A Closed Strait of Hormuz Risks a Global Food Security Crisis", source: "War on the Rocks", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Ample", headline: "California bill would limit EV-charging access in affordable housing", source: "Canary Media", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Kepler Communications", headline: "The largest orbital compute cluster is open for business", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "ipo", company: "Astera Labs", headline: "Sophia and Kepler to marry orbital compute with optical links", source: "SpaceNews", time: "4h ago", impact: "medium", unread: true },
-  { id: 6, type: "news", company: "Saule Technologies", headline: "Some Weird Things Are Happening And The Grid May Never Be The Same", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Aurora Innovation", headline: "Self-Driving Volkswagen ID. Buzz Vehicles Join Uber LA", source: "CleanTechnica", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "FleetZero", headline: "Zero-Emission Drone News From Ukraine: Flying Fuel Cells &#038; Green Hydrogen", source: "CleanTechnica", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Anthropic", headline: "Trump officials may be encouraging banks to test Anthropic’s Mythos model", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Machina Labs", headline: "Philippine Coach Builder Makes EV Isetta-like EV and Hopes to Scale", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Ample", headline: "4 New EV Fast Chargers Running On Solar Power Launched In California", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Aurora Innovation", headline: "TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Avalanche Energy", headline: "From LLMs to hallucinations, here&#8217;s a simple guide to common AI terms", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Anthropic", headline: "At the HumanX conference, everyone was talking about Claude", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
-  { id: 15, type: "milestone", company: "Ample", headline: "24 New EV Chargers Installed In Texas &#038; Maine", source: "CleanTechnica", time: "17h ago", impact: "low", unread: false },
+  { id: 1, type: "contract", company: "Mach Industries", headline: "Can a New Bridge Finally Save the Pentagon's Best Ideas?", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Cape", headline: "A Closed Strait of Hormuz Risks a Global Food Security Crisis", source: "War on the Rocks", time: "2h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Ample", headline: "California bill would limit EV-charging access in affordable housing", source: "Canary Media", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "ipo", company: "Kepler Communications", headline: "The largest orbital compute cluster is open for business", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "Astera Labs", headline: "Sophia and Kepler to marry orbital compute with optical links", source: "SpaceNews", time: "6h ago", impact: "medium", unread: true },
+  { id: 6, type: "news", company: "Saule Technologies", headline: "Some Weird Things Are Happening And The Grid May Never Be The Same", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Aurora Innovation", headline: "Self-Driving Volkswagen ID. Buzz Vehicles Join Uber LA", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "FleetZero", headline: "Zero-Emission Drone News From Ukraine: Flying Fuel Cells &#038; Green Hydrogen", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Anthropic", headline: "Trump officials may be encouraging banks to test Anthropic's Mythos model", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Machina Labs", headline: "Philippine Coach Builder Makes EV Isetta-like EV and Hopes to Scale", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "milestone", company: "Ample", headline: "4 New EV Fast Chargers Running On Solar Power Launched In California", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Aurora Innovation", headline: "TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Avalanche Energy", headline: "From LLMs to hallucinations, here's a simple guide to common AI terms", source: "TechCrunch", time: "18h ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Anthropic", headline: "At the HumanX conference, everyone was talking about Claude", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Ample", headline: "24 New EV Chargers Installed In Texas &#038; Maine", source: "CleanTechnica", time: "19h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
