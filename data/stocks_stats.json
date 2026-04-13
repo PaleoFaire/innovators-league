@@ -11,13 +11,13 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 7.66,
+      "avg_change": 6.96,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 1.05,
+      "avg_change": 0.86,
       "count": 7
     },
     "nuclear": {
@@ -76,7 +76,7 @@
     [
       "9348.T",
       "ispace",
-      19.21
+      14.29
     ],
     [
       "AMD",
@@ -111,5 +111,5 @@
       -13.74
     ]
   ],
-  "lastUpdated": "2026-04-12 18:56:27"
+  "lastUpdated": "2026-04-13 03:20:40"
 }
