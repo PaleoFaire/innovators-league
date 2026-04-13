@@ -11,13 +11,13 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 6.96,
+      "avg_change": 7.09,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 0.86,
+      "avg_change": 0.88,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -3.86,
+      "avg_change": -5.0,
       "count": 3
     },
     "transportation": {
@@ -76,7 +76,7 @@
     [
       "9348.T",
       "ispace",
-      14.29
+      15.21
     ],
     [
       "AMD",
@@ -85,11 +85,6 @@
     ]
   ],
   "topLosers": [
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -7.66
-    ],
     [
       "SMR",
       "NuScale Power",
@@ -106,10 +101,15 @@
       -10.66
     ],
     [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -11.09
+    ],
+    [
       "PLTR",
       "Palantir",
       -13.74
     ]
   ],
-  "lastUpdated": "2026-04-13 03:20:40"
+  "lastUpdated": "2026-04-13 08:10:33"
 }
