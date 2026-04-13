@@ -25385,23 +25385,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-12 20:45
+// Last updated: 2026-04-13 03:37
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Ample", headline: "4 New EV Fast Chargers Running On Solar Power Launched In California", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Aurora Innovation", headline: "TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Avalanche Energy", headline: "From LLMs to hallucinations, here's a simple guide to common AI terms", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "At the HumanX conference, everyone was talking about Claude", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Ample", headline: "24 New EV Chargers Installed In Texas &#038; Maine", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins contract for three more iQPS launches", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Photonic Inc", headline: "Best 2-in-1 Laptops (2026): Microsoft, Lenovo, and the iPad", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Will Have Static Fire Testing of All 33 Engines", source: "Next Big Future", time: "16h ago", impact: "low", unread: false },
-  { id: 9, type: "hire", company: "OpenAI", headline: "Sam Altman responds to 'incendiary' New Yorker article after attack on his home", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Vast", headline: "Falcon 9 launches Cygnus cargo spacecraft to the ISS", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Waymo", headline: "Waymo &#038; Waze to Fight Potholes!", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "NEXT LEVEL BREAKTHROUGHS for AI, Space and Tesla Technology", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Impulse Labs", headline: "The Best of the New York Auto Show Was New York Itself", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Atomic Industries", headline: "Moog Technology Keeps Artemis II Astronauts Safe During Historic Lunar Mission", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Cape", headline: "The president who threatened to end a civilization is supposed to guarantee Ukraine's survival", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Saule Technologies", headline: "Some Weird Things Are Happening And The Grid May Never Be The Same", source: "CleanTechnica", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Aurora Innovation", headline: "Self-Driving Volkswagen ID. Buzz Vehicles Join Uber LA", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "FleetZero", headline: "Zero-Emission Drone News From Ukraine: Flying Fuel Cells &#038; Green Hydrogen", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Anthropic", headline: "Trump officials may be encouraging banks to test Anthropic's Mythos model", source: "TechCrunch", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Machina Labs", headline: "Philippine Coach Builder Makes EV Isetta-like EV and Hopes to Scale", source: "CleanTechnica", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "milestone", company: "Ample", headline: "4 New EV Fast Chargers Running On Solar Power Launched In California", source: "CleanTechnica", time: "8h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Aurora Innovation", headline: "TechCrunch Mobility: Who is poaching all the self-driving vehicle talent?", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Avalanche Energy", headline: "From LLMs to hallucinations, here's a simple guide to common AI terms", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Anthropic", headline: "At the HumanX conference, everyone was talking about Claude", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
+  { id: 10, type: "milestone", company: "Ample", headline: "24 New EV Chargers Installed In Texas &#038; Maine", source: "CleanTechnica", time: "12h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "Rocket Lab", headline: "Rocket Lab wins contract for three more iQPS launches", source: "SpaceNews", time: "15h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Photonic Inc", headline: "Best 2-in-1 Laptops (2026): Microsoft, Lenovo, and the iPad", source: "Wired", time: "16h ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "SpaceX", headline: "SpaceX Will Have Static Fire Testing of All 33 Engines", source: "Next Big Future", time: "23h ago", impact: "low", unread: false },
+  { id: 14, type: "hire", company: "OpenAI", headline: "Sam Altman responds to 'incendiary' New Yorker article after attack on his home", source: "TechCrunch", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "ipo", company: "Vast", headline: "Falcon 9 launches Cygnus cargo spacecraft to the ISS", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
