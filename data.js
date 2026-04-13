@@ -25879,23 +25879,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-13 13:57
+// Last updated: 2026-04-13 17:12
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Durin", headline: "With Joint Innovation Outpost, Army 'operationalized an acquisition cell'", source: "Breaking Defense", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "contract", company: "Karman Industries", headline: "Voyager is fortifying the U.S. Defense supply chain", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "hire", company: "PsiQuantum", headline: "Squishy Photonic Switches Promise Fast Low Power Logic", source: "IEEE Spectrum", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Vast", headline: "The Internet's Most Powerful Archiving Tool Is in Peril", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Aerodome", headline: "Job titles of the future: Wildlife first responder", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Neuralink", headline: "You have no choice in reading this article'maybe", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
-  { id: 7, type: "contract", company: "Mach Industries", headline: "Can a New Bridge Finally Save the Pentagon's Best Ideas?", source: "War on the Rocks", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Cape", headline: "A Closed Strait of Hormuz Risks a Global Food Security Crisis", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Ample", headline: "California bill would limit EV-charging access in affordable housing", source: "Canary Media", time: "6h ago", impact: "low", unread: false },
-  { id: 10, type: "ipo", company: "Kepler Communications", headline: "The largest orbital compute cluster is open for business", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Saule Technologies", headline: "Some Weird Things Are Happening And The Grid May Never Be The Same", source: "CleanTechnica", time: "11h ago", impact: "low", unread: false },
-  { id: 12, type: "milestone", company: "Aurora Innovation", headline: "Self-Driving Volkswagen ID. Buzz Vehicles Join Uber LA", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "FleetZero", headline: "Zero-Emission Drone News From Ukraine: Flying Fuel Cells &#038; Green Hydrogen", source: "CleanTechnica", time: "15h ago", impact: "low", unread: false },
-  { id: 14, type: "milestone", company: "Anthropic", headline: "Trump officials may be encouraging banks to test Anthropic's Mythos model", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Machina Labs", headline: "Philippine Coach Builder Makes EV Isetta-like EV and Hopes to Scale", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Firestorm Labs", headline: "US military eyes high-energy 'laser dome' for domestic air defense", source: "Defense News", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Cape", headline: "Booking.com confirms hackers accessed customers' data", source: "TechCrunch", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Cognition", headline: "Meta Is Warned That Facial Recognition Glasses Will Arm Sexual Predators", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Mara", headline: "Why opinion on AI is so divided", source: "MIT Tech Review", time: "1h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "Deterrence", headline: "The Pentagon wants a 188 percent bump for missile procurement. Can industry deliver?", source: "Breaking Defense", time: "1h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "Solid Power", headline: "Zwitterions Are The Key To New Solid-State Batteries", source: "CleanTechnica", time: "2h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Ample", headline: "BYD's Fastest-Charging Car in the World Is Astonishing'in Good and Bad Ways", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Durin", headline: "With Joint Innovation Outpost, Army 'operationalized an acquisition cell'", source: "Breaking Defense", time: "3h ago", impact: "high", unread: false },
+  { id: 9, type: "contract", company: "Karman Industries", headline: "Voyager is fortifying the U.S. Defense supply chain", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
+  { id: 10, type: "hire", company: "PsiQuantum", headline: "Squishy Photonic Switches Promise Fast Low Power Logic", source: "IEEE Spectrum", time: "5h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Vast", headline: "The Internet's Most Powerful Archiving Tool Is in Peril", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Aerodome", headline: "Job titles of the future: Wildlife first responder", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Neuralink", headline: "You have no choice in reading this article'maybe", source: "MIT Tech Review", time: "7h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Mach Industries", headline: "Can a New Bridge Finally Save the Pentagon's Best Ideas?", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Cape", headline: "A Closed Strait of Hormuz Risks a Global Food Security Crisis", source: "War on the Rocks", time: "9h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
