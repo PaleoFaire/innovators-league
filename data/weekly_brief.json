@@ -1,289 +1,286 @@
 {
-  "date": "2026-04-06",
-  "display_date": "Apr 06, 2026",
-  "generated_at": "2026-04-06T11:03:06.001921+00:00",
-  "cutoff": "2026-03-30T11:03:06.001921+00:00",
+  "date": "2026-04-13",
+  "display_date": "Apr 13, 2026",
+  "generated_at": "2026-04-13T11:21:29.099835+00:00",
+  "cutoff": "2026-04-06T11:21:29.099835+00:00",
   "section_count": 6,
-  "total_items": 272,
+  "total_items": 229,
   "sections": [
     {
-      "title": "New Funding Rounds",
-      "icon": "\ud83d\udcb0",
-      "count": 3,
+      "title": "SEC Activity",
+      "icon": "\ud83d\udcdc",
+      "count": 25,
       "items": [
         {
-          "company": "Hive AI",
-          "amount": "$12M",
-          "round": "Funding Round",
-          "investor": "Undisclosed",
-          "date": "2026-04"
+          "company": "BlackSky Technology",
+          "form": "8-K",
+          "description": "bksy-20260407.htm",
+          "date": "2026-04-07",
+          "isIPO": false
         },
         {
-          "company": "Orbital Composites",
-          "amount": "$2.4M",
-          "round": "SPAC",
-          "investor": "Undisclosed",
-          "date": "2026-04"
+          "company": "NuScale Power",
+          "form": "8-K",
+          "description": "smr-20260408.htm",
+          "date": "2026-04-08",
+          "isIPO": false
         },
         {
-          "company": "Saildrone",
-          "amount": "$1.75B",
-          "round": "Series D",
-          "investor": "Undisclosed",
-          "date": "2026-04"
+          "company": "Rigetti Computing",
+          "form": "8-K",
+          "description": "tm2611278d1_8k.htm",
+          "date": "2026-04-07",
+          "isIPO": false
+        },
+        {
+          "company": "Ginkgo Bioworks",
+          "form": "8-K",
+          "description": "dna-20260403.htm",
+          "date": "2026-04-07",
+          "isIPO": false
+        },
+        {
+          "company": "LanzaTech",
+          "form": "8-K",
+          "description": "tlsi-20260401.htm",
+          "date": "2026-04-07",
+          "isIPO": false
+        },
+        {
+          "company": "Intuitive Machines",
+          "form": "4",
+          "description": "xslF345X06/form4-04092026_110444.xml",
+          "date": "2026-04-09",
+          "isIPO": false
+        },
+        {
+          "company": "Intuitive Machines",
+          "form": "4",
+          "description": "xslF345X06/form4-04092026_110447.xml",
+          "date": "2026-04-09",
+          "isIPO": false
+        },
+        {
+          "company": "Intuitive Machines",
+          "form": "4",
+          "description": "xslF345X06/form4-04092026_110454.xml",
+          "date": "2026-04-09",
+          "isIPO": false
         }
       ]
     },
     {
-      "title": "SEC Activity",
-      "icon": "\ud83d\udcdc",
-      "count": 45,
+      "title": "Contract Opportunities",
+      "icon": "\ud83c\udfe2",
+      "count": 2,
       "items": [
         {
-          "company": "Momentus",
-          "form": "8-K",
-          "description": "apre-20260401x8k.htm",
-          "date": "2026-04-01",
-          "isIPO": false
+          "title": "SIP TO128 1ST QUARTER HARDWARE BUY",
+          "agency": "",
+          "value": "",
+          "date": "2026-08-06"
         },
         {
-          "company": "Agrify Corporation",
-          "form": "8-K",
-          "description": "ea0284475-8k_rythm.htm",
-          "date": "2026-04-01",
-          "isIPO": false
-        },
-        {
-          "company": "Tempus AI",
-          "form": "8-K",
-          "description": "d47030d8k.htm",
-          "date": "2026-03-31",
-          "isIPO": false
-        },
-        {
-          "company": "Rivian",
-          "form": "8-K",
-          "description": "rivn-20260402.htm",
-          "date": "2026-04-02",
-          "isIPO": false
-        },
-        {
-          "company": "AST SpaceMobile",
-          "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-04-02",
-          "isIPO": false
-        },
-        {
-          "company": "AST SpaceMobile",
-          "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-04-02",
-          "isIPO": false
-        },
-        {
-          "company": "AST SpaceMobile",
-          "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-04-02",
-          "isIPO": false
-        },
-        {
-          "company": "AST SpaceMobile",
-          "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-04-02",
-          "isIPO": false
+          "title": "CALL ORDER OFF SKYDIO X2E AND NEXT GENERATION UAS BPA",
+          "agency": "",
+          "value": "",
+          "date": "2026-04-08"
         }
       ]
     },
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 74,
+      "count": 38,
       "items": [
         {
-          "title": "Protection of Stratospheric Ozone: Listing of Substitutes Under the Significant New Alternatives Policy Program in Refri",
+          "title": "Risk-Informed, Technology-Inclusive Regulatory Framework for Advanced Reactors; Correction",
+          "type": "Rule",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-04-13"
+        },
+        {
+          "title": "Air Plan Approval; Ohio; Source-Specific Non-CTG RACT for Ohio",
           "type": "Proposed Rule",
           "agencies": [
             "Environmental Protection Agency"
           ],
           "significant": false,
-          "date": "2026-04-06"
+          "date": "2026-04-10"
         },
         {
-          "title": "Float Glass Products From the People's Republic of China and Malaysia: Countervailing Duty Orders",
+          "title": "Notice of Closed Meetings To Implement Voluntary Agreements and Related Plans of Action Under the Defense Production Act",
           "type": "Notice",
           "agencies": [
-            "Commerce Department",
-            "International Trade Administration"
+            "Energy Department"
           ],
           "significant": false,
-          "date": "2026-04-06"
+          "date": "2026-04-09"
         },
         {
-          "title": "Float Glass Products From the People's Republic of China: Antidumping Duty Order",
+          "title": "Duke Energy Progress, LLC; H.B. Robinson Steam Electric Plant, Unit No. 2; Exemption",
           "type": "Notice",
           "agencies": [
-            "Commerce Department",
-            "International Trade Administration"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-04-06"
+          "date": "2026-04-08"
         },
         {
-          "title": "Airworthiness Directives; Dassault Aviation Airplanes",
+          "title": "The Sunset Rule-Aircraft Impact Assessment",
           "type": "Rule",
+          "agencies": [
+            "Nuclear Regulatory Commission"
+          ],
+          "significant": false,
+          "date": "2026-04-08"
+        },
+        {
+          "title": "Petition for Authorization To Exceed Mach 1",
+          "type": "Notice",
           "agencies": [
             "Transportation Department",
             "Federal Aviation Administration"
           ],
           "significant": false,
-          "date": "2026-04-06"
-        },
-        {
-          "title": "Privacy Act of 1974; System of Records",
-          "type": "Notice",
-          "agencies": [
-            "Housing and Urban Development Department"
-          ],
-          "significant": false,
-          "date": "2026-04-06"
-        },
-        {
-          "title": "Medicare Program; Contract Year 2027 and Certain Contract Year 2026 Policy and Technical Changes to the Medicare Advanta",
-          "type": "Rule",
-          "agencies": [
-            "Health and Human Services Department",
-            "Centers for Medicare & Medicaid Services"
-          ],
-          "significant": false,
-          "date": "2026-04-06"
+          "date": "2026-04-13"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 79,
+      "count": 100,
       "items": [
         {
-          "title": "Anthropic is having a moment in the private markets; SpaceX could spoil the party",
-          "source": "TechCrunch",
-          "company": "SpaceX",
+          "title": "Spacety raises $190 million to scale satellite manufacturing, plans IPO",
+          "source": "SpaceNews",
+          "company": "Terran Orbital",
           "impact": "high",
-          "type": "ipo"
+          "type": "funding"
         },
         {
-          "title": "The Week\u2019s 10 Biggest Funding Rounds: Largest Financings Went To Defense, Wearables, Energy And Secu",
+          "title": "The Week\u2019s 10 Biggest Funding Rounds: SiFive Leads With $400M For Custom Chip Designs As Aviation, B",
           "source": "Crunchbase News",
-          "company": "Saronic",
+          "company": "Hadrian",
           "impact": "high",
           "type": "funding"
         },
         {
-          "title": "Trump seeks to double number of ship requests with 2027 defense budget",
-          "source": "Defense News",
-          "company": "Saronic",
+          "title": "Fintech Startups Globally Raise More Money In Far Fewer Deals In Q1 2026",
+          "source": "Crunchbase News",
+          "company": "Durin",
           "impact": "high",
-          "type": "news"
+          "type": "funding"
         },
         {
-          "title": "What If The US Redirected The Money From The Iran War To Clean Energy?",
+          "title": "SpaceX Revenue Will Be Close to Around $27-30 Billion in 2026",
+          "source": "Next Big Future",
+          "company": "SpaceX",
+          "impact": "high",
+          "type": "ipo"
+        },
+        {
+          "title": "What Do SpaceX, xAI, And X Have In Common? Is It Tesla?",
           "source": "CleanTechnica",
-          "company": "Palantir",
-          "impact": "high",
-          "type": "news"
-        },
-        {
-          "title": "Phantom Space buys thermal specialist to support orbital data center push",
-          "source": "SpaceNews",
-          "company": "Astera Labs",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "The Download: plastic&#8217;s problem with fuel prices, and SpaceX&#8217;s blockbuster IPO",
-          "source": "MIT Tech Review",
           "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "SpaceX quietly files for big bang IPO",
-          "source": "SpaceNews",
-          "company": "SpaceX",
-          "impact": "high",
-          "type": "ipo"
-        },
-        {
-          "title": "AI boat maker Saronic smashes $9 billion valuation",
-          "source": "Defense One",
-          "company": "Saronic",
           "impact": "high",
           "type": "funding"
+        },
+        {
+          "title": "Space Force taps 14 firms for $1.8 billion GEO surveillance program",
+          "source": "SpaceNews",
+          "company": "Asylon Robotics",
+          "impact": "high",
+          "type": "contract"
+        },
+        {
+          "title": "Can a New Bridge Finally Save the Pentagon\u2019s Best Ideas?",
+          "source": "War on the Rocks",
+          "company": "Mach Industries",
+          "impact": "low",
+          "type": "contract"
+        },
+        {
+          "title": "A Closed Strait of Hormuz Risks a Global Food Security Crisis",
+          "source": "War on the Rocks",
+          "company": "Cape",
+          "impact": "low",
+          "type": "news"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 51,
+      "count": 44,
       "items": [
         {
-          "title": "How many products does Microsoft have named 'Copilot'?",
-          "score": 793,
-          "comments": 371,
+          "title": "Small models also found the vulnerabilities that Mythos found",
+          "score": 1247,
+          "comments": 328,
           "companies": [
-            "Photonic Inc"
+            "Percepto",
+            "Galvanick",
+            "ideaForge",
+            "Cape"
           ],
-          "url": "https://news.ycombinator.com/item?id=47642569"
+          "url": "https://news.ycombinator.com/item?id=47732020"
         },
         {
-          "title": "Artemis II crew see first glimpse of far side of Moon [video]",
-          "score": 475,
-          "comments": 364,
+          "title": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
+          "score": 862,
+          "comments": 320,
           "companies": [
-            "Runway"
+            "Rigetti Computing",
+            "Agility Robotics",
+            "ElevenLabs",
+            "Durin",
+            "Ada",
+            "Scale AI"
           ],
-          "url": "https://news.ycombinator.com/item?id=47649721"
+          "url": "https://news.ycombinator.com/item?id=47738883"
         },
         {
-          "title": "German men 18-45 need military permit for extended stays abroad",
-          "score": 396,
-          "comments": 711,
+          "title": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
+          "score": 626,
+          "comments": 554,
           "companies": [
-            "Xtend"
+            "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=47639976"
+          "url": "https://news.ycombinator.com/item?id=47739260"
         },
         {
-          "title": "Microsoft hasn't had a coherent GUI strategy since Petzold",
-          "score": 394,
-          "comments": 230,
+          "title": "Seven countries now generate nearly all their electricity from renewables (2024)",
+          "score": 571,
+          "comments": 328,
           "companies": [
-            "Photonic Inc",
-            "Cohere"
+            "Terraform Industries",
+            "SunDrive Solar",
+            "Orbital Marine Power"
           ],
-          "url": "https://news.ycombinator.com/item?id=47651703"
+          "url": "https://news.ycombinator.com/item?id=47739313"
         },
         {
-          "title": "Show HN: I built a tiny LLM to demystify how language models work",
-          "score": 376,
-          "comments": 31,
+          "title": "Bring Back Idiomatic Design (2023)",
+          "score": 552,
+          "comments": 300,
           "companies": [
-            "Built Robotics"
+            "Matic Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=47655408"
+          "url": "https://news.ycombinator.com/item?id=47738827"
         },
         {
-          "title": "LLM Wiki \u2013 example of an \"idea file\"",
-          "score": 277,
-          "comments": 89,
+          "title": "Anthropic downgraded cache TTL on March 6th",
+          "score": 509,
+          "comments": 394,
           "companies": [
-            "Ample"
+            "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=47640875"
+          "url": "https://news.ycombinator.com/item?id=47736476"
         }
       ]
     },
@@ -293,54 +290,39 @@
       "count": 20,
       "items": [
         {
-          "title": "Niu Technologies Provides First Quarter 2026 Sales Volume Update",
-          "source": "globenewswire_all",
-          "companies": [
-            "Vertical Aerospace",
-            "Volocopter",
-            "Attio"
-          ]
-        },
-        {
-          "title": "At 6G@UT Forum, InterDigital to Demonstrate AI-enabled Teleoperation and Energy Efficient Edge Intelligence",
-          "source": "globenewswire_all",
-          "companies": [
-            "Vannevar Labs",
-            "Extropic",
-            "Reveal Technology",
-            "Umbra",
-            "Agility Robotics",
-            "Rebellion Defense",
-            "Zettascale",
-            "Sakana AI",
-            "Runway"
-          ]
-        },
-        {
-          "title": "23/2026\u30fbTrifork Group: Weekly report on share buyback",
+          "title": "Tryg - Transactions in connection with share buyback programme",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "AS Tallink Grupp Statistics for March and the First Quarter of 2026",
+          "title": "Major Shareholder Announcement",
           "source": "globenewswire_all",
           "companies": [
-            "Airship Industries",
-            "Clippership"
+            "Fortera"
           ]
         },
         {
-          "title": "Notice on convening the Annual General Meeting of shareholders of AS Merko Ehitus",
+          "title": "Storaktion\u00e6r Meddelelse",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "ASi Merko Ehitus aktsion\u00e4ride korralise \u00fcldkoosoleku kokkukutsumise teade",
+          "title": "HOPSCOTCH GROUPE : Droits de vote et actions - Mars 2026",
+          "source": "globenewswire_all",
+          "companies": []
+        },
+        {
+          "title": "Ekstraordin\u00e6re indfrielser (CK 93)",
+          "source": "globenewswire_all",
+          "companies": []
+        },
+        {
+          "title": "Ydelsesr\u00e6kker (CK94)",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-04-06-7f98c74bcd6d"
+  "brief_id": "brief-2026-04-13-1a67d8b4bbb9"
 }
