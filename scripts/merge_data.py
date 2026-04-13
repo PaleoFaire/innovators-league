@@ -13,12 +13,20 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_JS_PATH = Path(__file__).parent.parent / "data.js"
 
 def load_json(filename):
-    """Load JSON data from the data directory."""
+    """Load JSON data from the data directory.
+    Handles status metadata objects written by fetch scripts when APIs are unavailable.
+    """
     filepath = DATA_DIR / filename
     if filepath.exists():
         try:
             with open(filepath) as f:
-                return json.load(f)
+                data = json.load(f)
+            # Handle status metadata objects (written when API fails gracefully)
+            if isinstance(data, dict) and data.get("status") in ("api_unavailable", "error", "fallback_failed", "partial"):
+                print(f"  INFO: {filename} contains status metadata: {data.get('message', 'unavailable')}")
+                inner = data.get("data", [])
+                return inner if isinstance(inner, list) else []
+            return data
         except (json.JSONDecodeError, ValueError) as e:
             print(f"  WARNING: {filename} has invalid JSON ({e}), skipping...")
             return []
@@ -1587,10 +1595,22 @@ def update_patent_intel(data_js_content):
         print("No patent aggregated data found, skipping...")
         return data_js_content
 
+    # Handle status metadata objects (written when API is unavailable)
+    if isinstance(aggregated, dict):
+        if aggregated.get("status") in ("api_unavailable", "error", "fallback_failed"):
+            print(f"  Patent data unavailable: {aggregated.get('message', 'unknown error')}")
+            return data_js_content
+        # If it has a 'data' key with the actual array, use that
+        aggregated = aggregated.get("data", [])
+        if not aggregated:
+            print("  Patent data empty after extracting from metadata, skipping...")
+            return data_js_content
+
     # Build lookup from aggregated patent data
     auto_data = {}
     for entry in aggregated:
-        auto_data[entry["company"]] = entry
+        if isinstance(entry, dict) and "company" in entry:
+            auto_data[entry["company"]] = entry
 
     # Parse existing curated PATENT_INTEL entries to preserve ipMoatScore, notablePatents, note
     pattern = r'const PATENT_INTEL = \[([\s\S]*?)\];'
