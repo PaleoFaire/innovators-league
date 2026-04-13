@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-04-10 08:14:25 UTC
+// Last updated: 2026-04-13 08:57:10 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT07419464", title: "5-Fluorouracil Response and Optimization STudy (The FROST Trial)", status: "NOT_YET_RECRUITING", phase: "PHASE2", sponsor: "Washington University School of Medicine", conditions: "Squamous Cell Carcinoma of Head and Neck, Metastat", enrollment: 46, lastUpdated: "2026-04-09" },
   { nctId: "NCT04841148", title: "Avelumab or Hydroxychloroquine With or Without Palbociclib to Eliminate Dormant ", status: "RECRUITING", phase: "PHASE2", sponsor: "Abramson Cancer Center at Penn Medicine", conditions: "Breast Cancer", enrollment: 96, lastUpdated: "2026-04-09" },

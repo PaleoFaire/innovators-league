@@ -1,0 +1,41 @@
+{
+  "script": "fetch_funding_rss.py",
+  "started_at": "2026-04-13T08:56:54.630010+00:00",
+  "finished_at": "2026-04-13T08:56:58.307869+00:00",
+  "companies_tracked": 564,
+  "total_items_fetched": 126,
+  "total_deals_extracted": 14,
+  "feeds": [
+    {
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/category/venture/feed/",
+      "items_fetched": 16,
+      "error": null
+    },
+    {
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/feed/",
+      "items_fetched": 10,
+      "error": null
+    },
+    {
+      "source": "The Information",
+      "url": "https://www.theinformation.com/feed",
+      "items_fetched": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "BusinessWire",
+      "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEVtRXw==",
+      "items_fetched": 0,
+      "error": null
+    },
+    {
+      "source": "Axios Pro Rata",
+      "url": "https://api.axios.com/feed/",
+      "items_fetched": 100,
+      "error": null
+    }
+  ],
+  "ok": true
+}

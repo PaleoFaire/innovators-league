@@ -1,5 +1,5 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-10 08:15:17 UTC
+// Last updated: 2026-04-13 08:58:28 UTC
 const NASA_PROJECTS = [
   { id: 156317, title: "Quantum Pathways for Spaceborne Climate Science", status: "Active", center: "The University of Texas at Austin", techArea: "Other Sensors and Instruments", lastUpdated: "04/09/26" },
   { id: 183961, title: "Feasibility of Earth-Based Testing for Mars Rotorcraft Dynamics", status: "Active", center: "Ames Research Center", techArea: "Flight Performance and Analysis", lastUpdated: "04/08/26" },

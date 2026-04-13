@@ -1,1 +1,7 @@
-[]
+{
+  "status": "api_unavailable",
+  "message": "All 3 SBIR endpoints failed. Attempted 15 keyword searches, 0 returned usable data. No cached data available.",
+  "timestamp": "2026-04-13T08:59:20.636334",
+  "source": "fetch_sbir_awards.py",
+  "data": []
+}

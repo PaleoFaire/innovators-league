@@ -1,0 +1,41 @@
+{
+  "script": "fetch_podcast_mentions.py",
+  "started_at": "2026-04-13T08:57:01.508462+00:00",
+  "finished_at": "2026-04-13T08:57:07.145553+00:00",
+  "lookback_days": 30,
+  "podcasts": [
+    {
+      "podcast": "Acquired",
+      "url": "https://feeds.transistor.fm/acquired",
+      "episodes_fetched": 214,
+      "error": null
+    },
+    {
+      "podcast": "All-In",
+      "url": "https://allinchamathjason.libsyn.com/rss",
+      "episodes_fetched": 368,
+      "error": null
+    },
+    {
+      "podcast": "20VC",
+      "url": "https://feeds.megaphone.fm/1071392",
+      "episodes_fetched": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "podcast": "Lex Fridman",
+      "url": "https://lexfridman.com/feed/podcast/",
+      "episodes_fetched": 496,
+      "error": null
+    },
+    {
+      "podcast": "Invest Like the Best",
+      "url": "https://feeds.megaphone.fm/EGP9797299583",
+      "episodes_fetched": 0,
+      "error": "HTTP 404"
+    }
+  ],
+  "total_episodes": 1078,
+  "total_mentions": 88,
+  "ok": true
+}
