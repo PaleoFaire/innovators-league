@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -13.74,
+      "avg_change": -11.58,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 7.09,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 5.03,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 0.88,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -1.73,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -2.59,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -6.7,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 15.86,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 17.18,
       "count": 3
     },
     "quantum": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.41,
+      "avg_change": -1.96,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -5.0,
+      "avg_change": -5.22,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": -1.52,
+      "avg_change": -0.47,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 15.41,
+      "avg_change": 16.53,
       "count": 3
     }
   },
@@ -61,17 +61,17 @@
     [
       "LNZA",
       "LanzaTech",
-      47.23
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      28.36
+      54.62
     ],
     [
       "ALAB",
       "Astera Labs",
-      27.24
+      34.66
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      25.92
     ],
     [
       "9348.T",
@@ -81,35 +81,35 @@
     [
       "AMD",
       "AMD",
-      12.66
+      10.16
     ]
   ],
   "topLosers": [
     [
-      "SMR",
-      "NuScale Power",
-      -9.26
-    ],
-    [
       "TEM",
       "Tempus AI",
-      -9.39
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      -10.66
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -11.09
+      -8.08
     ],
     [
       "PLTR",
       "Palantir",
-      -13.74
+      -11.58
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      -12.29
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -12.33
+    ],
+    [
+      "DRSHF",
+      "DroneShield",
+      -14.23
     ]
   ],
-  "lastUpdated": "2026-04-13 08:10:33"
+  "lastUpdated": "2026-04-13 13:47:17"
 }
