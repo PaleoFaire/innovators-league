@@ -26161,23 +26161,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-14 17:18
+// Last updated: 2026-04-14 21:01
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Durin", headline: "1:5 kill ratio: Ukraine inflicts heavy Russian losses using drones, says Finnish president", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Deterrence", headline: "A peek into munitions spending, and a chat with Sweden's DefMin", source: "Breaking Defense", time: "1h ago", impact: "high", unread: true },
-  { id: 3, type: "news", company: "Karman Industries", headline: "$200 Million Heat Pump Program Somehow Slips Through Trump Chopper", source: "CleanTechnica", time: "1h ago", impact: "medium", unread: true },
-  { id: 4, type: "news", company: "Together AI", headline: "In just a couple weeks, StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Deterrence", headline: "The US and Iran are using new weapons in the war. Here's what to know.", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Anthropic", headline: "Anthropic Opposes the Extreme AI Liability Bill That OpenAI Backed", source: "Wired", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Recursion Pharmaceuticals", headline: "Xoople and L3Harris team up to build satellites for 'Earth AI'", source: "SpaceNews", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Cape", headline: "Adobe fixes PDF zero-day security bug that hackers have exploited for months", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Aurora Innovation", headline: "Tesla adds 'streaks,' other stats to track how often drivers use Full Self-Driving software", source: "TechCrunch", time: "2h ago", impact: "low", unread: false },
-  { id: 10, type: "funding", company: "Ample", headline: "Over 200 New EV Chargers Coming To Ohio", source: "CleanTechnica", time: "2h ago", impact: "medium", unread: false },
-  { id: 11, type: "funding", company: "Slingshot Aerospace", headline: "NASA is building the first nuclear reactor-powered interplanetary spacecraft. How will it work?", source: "MIT Tech Review", time: "5h ago", impact: "medium", unread: false },
-  { id: 12, type: "ipo", company: "Vast", headline: "Axiom Space plans 2027 flight test of spacesuit", source: "SpaceNews", time: "5h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Matter", headline: "Coming soon: 10 Things That Matter in AI Right Now", source: "MIT Tech Review", time: "6h ago", impact: "low", unread: false },
-  { id: 14, type: "hire", company: "Karman Industries", headline: "Rheinmetall and Destinus to combine forces in new missile systems joint venture", source: "Breaking Defense", time: "6h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Kepler Communications", headline: "AI and geopolitics spur space investment surge", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Galvanick", headline: "In the Wake of Anthropic's Mythos, OpenAI Has a New Cybersecurity Model'and Strategy", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "contract", company: "Parallel Systems", headline: "White House wants Pentagon to demo nuclear space power by 2031", source: "Breaking Defense", time: "1h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "PILGRIM", headline: "Redefining mobile artillery for a faster, more lethal fight", source: "Breaking Defense", time: "2h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Palantir", headline: "Anthropic co-founder confirms the company briefed the Trump administration on Mythos", source: "TechCrunch", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Waymo", headline: "London gets closer to its first robotaxi service as Waymo begins testing", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI Engineer Helps Companies Attract Buyers and Boost Sales", source: "IEEE Spectrum", time: "3h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Xanadu Quantum Technologies", headline: "Redefining the future of software engineering", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Vertical Aerospace", headline: "I Watched 18 Hours of Coachella's Vertical Livestream and All I Got Was This Lousy FOMO", source: "Wired", time: "3h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Cape", headline: "Security Risk Advisors Purple Team Participants Can Now Earn CPE Credits", source: "Next Big Future", time: "3h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Durin", headline: "YouTube livestreams will now hold back ads during peak engagement to protect the vibe", source: "TechCrunch", time: "3h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Durin", headline: "1:5 kill ratio: Ukraine inflicts heavy Russian losses using drones, says Finnish president", source: "Breaking Defense", time: "4h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "ispace", headline: "NASA chose the right crew to launch a new era of human space exploration", source: "Ars Technica Space", time: "4h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Deterrence", headline: "A peek into munitions spending, and a chat with Sweden's DefMin", source: "Breaking Defense", time: "5h ago", impact: "high", unread: false },
+  { id: 14, type: "news", company: "Karman Industries", headline: "$200 Million Heat Pump Program Somehow Slips Through Trump Chopper", source: "CleanTechnica", time: "5h ago", impact: "medium", unread: false },
+  { id: 15, type: "news", company: "Together AI", headline: "In just a couple weeks, StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
