@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-04-13 08:57:16 UTC
-// Total signals: 44 | Companies matched: 184
+// Last updated: 2026-04-14 08:18:42 UTC
+// Total signals: 44 | Companies matched: 189
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -291,6 +291,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Tytan Technologies",
+        "score": 30,
+        "matchReasons": [
+          "tag: defense",
+          "tag: air defense",
+          "tag: ai"
+        ]
+      },
+      {
         "name": "Ursa Major Technologies",
         "score": 26,
         "matchReasons": [
@@ -368,17 +377,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: defense",
           "tag: space"
         ]
-      },
-      {
-        "name": "Viridian Space",
-        "score": 22,
-        "matchReasons": [
-          "tag: air-breathing",
-          "tag: defense"
-        ]
       }
     ],
     "relevantCompanies": [
+      "Tytan Technologies",
       "Ursa Major Technologies",
       "Castelion",
       "Mach Industries",
@@ -387,8 +389,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Emelody",
       "VulcanForms",
       "Anduril Industries",
-      "Antares",
-      "Viridian Space"
+      "Antares"
     ]
   },
   {
@@ -1166,6 +1167,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "fetchDate": "2026-02-20",
     "matchedCompanies": [
       {
+        "name": "Tytan Technologies",
+        "score": 30,
+        "matchReasons": [
+          "tag: defense",
+          "tag: air defense",
+          "tag: ai"
+        ]
+      },
+      {
         "name": "Palantir",
         "score": 26,
         "matchReasons": [
@@ -1244,17 +1254,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: ai",
           "tag: defense"
         ]
-      },
-      {
-        "name": "Second Front Systems",
-        "score": 22,
-        "matchReasons": [
-          "tag: defense software",
-          "tag: platform"
-        ]
       }
     ],
     "relevantCompanies": [
+      "Tytan Technologies",
       "Palantir",
       "True Anomaly",
       "Kela",
@@ -1263,8 +1266,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Antares",
       "Scale AI",
       "Tekever",
-      "Shield AI",
-      "Second Front Systems"
+      "Shield AI"
     ]
   },
   {
@@ -1324,6 +1326,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Aerospacelab",
+        "score": 20,
+        "matchReasons": [
+          "tag: space",
+          "tag: constellation"
+        ]
+      },
+      {
         "name": "Apex Space",
         "score": 16,
         "matchReasons": [
@@ -1353,6 +1363,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Antares",
       "Forterra",
       "Picogrid",
+      "Aerospacelab",
       "Apex Space",
       "Array Labs",
       "Endurosat"
@@ -1397,6 +1408,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "The Exploration Company",
+        "score": 20,
+        "matchReasons": [
+          "tag: space",
+          "tag: iss"
+        ]
+      },
+      {
         "name": "Astrolab",
         "score": 16,
         "matchReasons": [
@@ -1408,6 +1427,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     "relevantCompanies": [
       "Antares",
       "Sphere Semi",
+      "The Exploration Company",
       "Astrolab"
     ]
   },
@@ -1440,6 +1460,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "The Exploration Company",
+        "score": 20,
+        "matchReasons": [
+          "tag: space",
+          "tag: iss"
+        ]
+      },
+      {
         "name": "Proteus Space",
         "score": 16,
         "matchReasons": [
@@ -1458,6 +1486,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
     ],
     "relevantCompanies": [
       "Antares",
+      "The Exploration Company",
       "Proteus Space",
       "Cascade Space"
     ]
@@ -1562,11 +1591,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Albedo",
-        "score": 16,
+        "name": "Aerospacelab",
+        "score": 20,
         "matchReasons": [
           "tag: space",
-          "techApproach overlap"
+          "tag: satellites"
         ]
       }
     ],
@@ -1580,7 +1609,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Reflect Orbital",
       "Viridian Space",
       "SpaceX",
-      "Albedo"
+      "Aerospacelab"
     ]
   },
   {
@@ -1639,6 +1668,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Aerospacelab",
+        "score": 20,
+        "matchReasons": [
+          "tag: space",
+          "tag: manufacturing"
+        ]
+      },
+      {
         "name": "GITAI",
         "score": 18,
         "matchReasons": [
@@ -1660,6 +1697,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Rangeview",
       "Dusty Robotics",
       "Apis Cor",
+      "Aerospacelab",
       "GITAI",
       "Gravitics"
     ]
@@ -1756,18 +1794,18 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Open Cosmos",
+        "score": 20,
+        "matchReasons": [
+          "tag: space",
+          "tag: earth observation"
+        ]
+      },
+      {
         "name": "ICEYE",
         "score": 18,
         "matchReasons": [
           "tag: earth observation",
-          "techApproach overlap"
-        ]
-      },
-      {
-        "name": "Array Labs",
-        "score": 16,
-        "matchReasons": [
-          "tag: satellite",
           "techApproach overlap"
         ]
       }
@@ -1781,8 +1819,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Umbra",
       "Muon Space",
       "Satellogic",
-      "ICEYE",
-      "Array Labs"
+      "Open Cosmos",
+      "ICEYE"
     ]
   },
   {
@@ -2930,6 +2968,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "Riverlane",
+        "score": 20,
+        "matchReasons": [
+          "tag: quantum",
+          "tag: error correction"
+        ]
+      },
+      {
         "name": "Rigetti Computing",
         "score": 19,
         "matchReasons": [
@@ -2952,13 +2998,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: quantum computing",
           "techApproach overlap"
         ]
-      },
-      {
-        "name": "Oxford Quantum Circuits",
-        "score": 17,
-        "matchReasons": [
-          "tag: quantum computing"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -2968,10 +3007,10 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "IonQ",
       "Quantinuum",
       "SandboxAQ",
+      "Riverlane",
       "Rigetti Computing",
       "Qilimanjaro",
-      "Quantum Machines",
-      "Oxford Quantum Circuits"
+      "Quantum Machines"
     ]
   },
   {
@@ -3241,6 +3280,14 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "The Exploration Company",
+        "score": 20,
+        "matchReasons": [
+          "tag: space",
+          "tag: iss"
+        ]
+      },
+      {
         "name": "Green Abundance",
         "score": 16,
         "matchReasons": [
@@ -3253,6 +3300,7 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "AMP Robotics",
       "Interstellar Lab",
       "Lila Sciences",
+      "The Exploration Company",
       "Green Abundance"
     ]
   },
@@ -3674,6 +3722,15 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
+        "name": "ARX Robotics",
+        "score": 30,
+        "matchReasons": [
+          "tag: defense",
+          "tag: robotics",
+          "tag: ugv"
+        ]
+      },
+      {
         "name": "Anduril Industries",
         "score": 29,
         "matchReasons": [
@@ -3708,14 +3765,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: defense",
           "techApproach overlap"
         ]
-      },
-      {
-        "name": "Shield AI",
-        "score": 27,
-        "matchReasons": [
-          "tag: ai",
-          "tag: defense"
-        ]
       }
     ],
     "relevantCompanies": [
@@ -3724,11 +3773,11 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Mujin",
       "Forterra",
       "Overland AI",
+      "ARX Robotics",
       "Anduril Industries",
       "Darkhive",
       "Swan",
-      "Firestorm Labs",
-      "Shield AI"
+      "Firestorm Labs"
     ]
   },
   {
@@ -4174,7 +4223,7 @@ const GOV_PULL_SCORES_AUTO = {
   "Shield AI": {
     "name": "Shield AI",
     "govPullScore": 81,
-    "matchCount": 10,
+    "matchCount": 9,
     "topAgencies": [
       "Chief Digital and AI Office (CDAO)",
       "DARPA",
@@ -4186,7 +4235,7 @@ const GOV_PULL_SCORES_AUTO = {
     "topSignals": [
       "Autonomous Counter-UAS Systems for Base Defense",
       "AI-Enabled Autonomous Naval Surface Vessels",
-      "Autonomous Logistics Resupply Vehicles"
+      "Cognitive Electronic Warfare Systems"
     ]
   },
   "Chaos Industries": {
@@ -4343,6 +4392,20 @@ const GOV_PULL_SCORES_AUTO = {
       "Intelligent Agricultural Robotics"
     ]
   },
+  "Tytan Technologies": {
+    "name": "Tytan Technologies",
+    "govPullScore": 30,
+    "matchCount": 2,
+    "topAgencies": [
+      "AFWERX / Air Force",
+      "DARPA"
+    ],
+    "avgRelevance": 30,
+    "topSignals": [
+      "Next-Generation Hypersonic Propulsion Systems",
+      "Joint All-Domain Command and Control Integration"
+    ]
+  },
   "Ursa Major Technologies": {
     "name": "Ursa Major Technologies",
     "govPullScore": 18,
@@ -4447,20 +4510,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Advanced HALEU Fuel Fabrication Capabilities",
       "Fission Power Systems for Lunar Surface Operations",
       "Next-Generation Earth Observation Capabilities"
-    ]
-  },
-  "Viridian Space": {
-    "name": "Viridian Space",
-    "govPullScore": 30,
-    "matchCount": 2,
-    "topAgencies": [
-      "AFWERX / Air Force",
-      "Space Development Agency (SDA)"
-    ],
-    "avgRelevance": 22,
-    "topSignals": [
-      "Next-Generation Hypersonic Propulsion Systems",
-      "Missile Tracking Layer Satellites"
     ]
   },
   "Epirus": {
@@ -4970,18 +5019,20 @@ const GOV_PULL_SCORES_AUTO = {
       "Resilient Proliferated LEO Communications"
     ]
   },
-  "Second Front Systems": {
-    "name": "Second Front Systems",
-    "govPullScore": 28,
-    "matchCount": 2,
+  "Aerospacelab": {
+    "name": "Aerospacelab",
+    "govPullScore": 40,
+    "matchCount": 3,
     "topAgencies": [
-      "Chief Digital and AI Office (CDAO)",
-      "DARPA"
+      "NASA",
+      "Space Development Agency (SDA)",
+      "U.S. Space Force"
     ],
-    "avgRelevance": 26,
+    "avgRelevance": 20,
     "topSignals": [
-      "Enterprise AI/ML Data Platform",
-      "Joint All-Domain Command and Control Integration"
+      "Resilient Proliferated LEO Communications",
+      "Missile Tracking Layer Satellites",
+      "In-Space Assembly and Manufacturing"
     ]
   },
   "Apex Space": {
@@ -5000,16 +5051,14 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Array Labs": {
     "name": "Array Labs",
-    "govPullScore": 30,
-    "matchCount": 2,
+    "govPullScore": 17,
+    "matchCount": 1,
     "topAgencies": [
-      "National Reconnaissance Office (NRO)",
       "U.S. Space Force"
     ],
     "avgRelevance": 16,
     "topSignals": [
-      "Resilient Proliferated LEO Communications",
-      "Next-Generation Earth Observation Capabilities"
+      "Resilient Proliferated LEO Communications"
     ]
   },
   "Endurosat": {
@@ -5038,6 +5087,20 @@ const GOV_PULL_SCORES_AUTO = {
     "topSignals": [
       "Fission Power Systems for Lunar Surface Operations",
       "Trustworthy AI Systems for Critical Infrastructure"
+    ]
+  },
+  "The Exploration Company": {
+    "name": "The Exploration Company",
+    "govPullScore": 22,
+    "matchCount": 3,
+    "topAgencies": [
+      "NASA"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Fission Power Systems for Lunar Surface Operations",
+      "Advanced In-Space Propulsion Technologies",
+      "Synthetic Biology for Space Life Support"
     ]
   },
   "Astrolab": {
@@ -5102,6 +5165,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Missile Tracking Layer Satellites"
     ]
   },
+  "Viridian Space": {
+    "name": "Viridian Space",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Space Development Agency (SDA)"
+    ],
+    "avgRelevance": 22,
+    "topSignals": [
+      "Missile Tracking Layer Satellites"
+    ]
+  },
   "SpaceX": {
     "name": "SpaceX",
     "govPullScore": 18,
@@ -5111,20 +5186,6 @@ const GOV_PULL_SCORES_AUTO = {
     ],
     "avgRelevance": 20,
     "topSignals": [
-      "Missile Tracking Layer Satellites"
-    ]
-  },
-  "Albedo": {
-    "name": "Albedo",
-    "govPullScore": 31,
-    "matchCount": 2,
-    "topAgencies": [
-      "National Reconnaissance Office (NRO)",
-      "Space Development Agency (SDA)"
-    ],
-    "avgRelevance": 21,
-    "topSignals": [
-      "Next-Generation Earth Observation Capabilities",
       "Missile Tracking Layer Satellites"
     ]
   },
@@ -5202,6 +5263,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Next-Generation Earth Observation Capabilities"
     ]
   },
+  "Albedo": {
+    "name": "Albedo",
+    "govPullScore": 20,
+    "matchCount": 1,
+    "topAgencies": [
+      "National Reconnaissance Office (NRO)"
+    ],
+    "avgRelevance": 26,
+    "topSignals": [
+      "Next-Generation Earth Observation Capabilities"
+    ]
+  },
   "Andrenam": {
     "name": "Andrenam",
     "govPullScore": 30,
@@ -5244,6 +5317,18 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Satellogic": {
     "name": "Satellogic",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "National Reconnaissance Office (NRO)"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Next-Generation Earth Observation Capabilities"
+    ]
+  },
+  "Open Cosmos": {
+    "name": "Open Cosmos",
     "govPullScore": 18,
     "matchCount": 1,
     "topAgencies": [
@@ -5998,6 +6083,18 @@ const GOV_PULL_SCORES_AUTO = {
       "National AI Research Institutes \u2014 Frontier AI"
     ]
   },
+  "Second Front Systems": {
+    "name": "Second Front Systems",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "Chief Digital and AI Office (CDAO)"
+    ],
+    "avgRelevance": 30,
+    "topSignals": [
+      "Enterprise AI/ML Data Platform"
+    ]
+  },
   "Parry Labs": {
     "name": "Parry Labs",
     "govPullScore": 16,
@@ -6082,6 +6179,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Quantum Error Correction Hardware"
     ]
   },
+  "Riverlane": {
+    "name": "Riverlane",
+    "govPullScore": 13,
+    "matchCount": 1,
+    "topAgencies": [
+      "National Science Foundation (NSF)"
+    ],
+    "avgRelevance": 20,
+    "topSignals": [
+      "Quantum Error Correction Hardware"
+    ]
+  },
   "Rigetti Computing": {
     "name": "Rigetti Computing",
     "govPullScore": 13,
@@ -6114,18 +6223,6 @@ const GOV_PULL_SCORES_AUTO = {
       "National Science Foundation (NSF)"
     ],
     "avgRelevance": 18,
-    "topSignals": [
-      "Quantum Error Correction Hardware"
-    ]
-  },
-  "Oxford Quantum Circuits": {
-    "name": "Oxford Quantum Circuits",
-    "govPullScore": 12,
-    "matchCount": 1,
-    "topAgencies": [
-      "National Science Foundation (NSF)"
-    ],
-    "avgRelevance": 17,
     "topSignals": [
       "Quantum Error Correction Hardware"
     ]
@@ -6380,6 +6477,18 @@ const GOV_PULL_SCORES_AUTO = {
       "Autonomous Logistics Resupply Vehicles"
     ]
   },
+  "ARX Robotics": {
+    "name": "ARX Robotics",
+    "govPullScore": 18,
+    "matchCount": 1,
+    "topAgencies": [
+      "U.S. Army"
+    ],
+    "avgRelevance": 30,
+    "topSignals": [
+      "Autonomous Logistics Resupply Vehicles"
+    ]
+  },
   "Verdant Robotics": {
     "name": "Verdant Robotics",
     "govPullScore": 18,
@@ -6531,6 +6640,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 184,
-  "lastUpdated": "2026-04-13 08:57:16 UTC"
+  "companiesMatched": 189,
+  "lastUpdated": "2026-04-14 08:18:42 UTC"
 };

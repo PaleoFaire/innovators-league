@@ -1,12 +1,12 @@
 {
   "script": "fetch_twitter_signals.py",
-  "started_at": "2026-04-13T08:56:53.589950+00:00",
-  "finished_at": "2026-04-13T08:56:54.914533+00:00",
+  "started_at": "2026-04-14T08:18:34.448553+00:00",
+  "finished_at": "2026-04-14T08:18:38.266647+00:00",
   "mode": "placeholder",
   "data_source": null,
-  "founders_in_dataset": 665,
+  "founders_in_dataset": 691,
   "founders_attempted": 0,
-  "founders_skipped": 665,
+  "founders_skipped": 691,
   "signals_collected": 0,
   "ok": true,
   "notes": "Placeholder mode: writes an empty list because Twitter/X has no reliable free unauthenticated source. Set X_BEARER_TOKEN, APIFY_TOKEN, or RAPIDAPI_KEY to enable real fetching."
