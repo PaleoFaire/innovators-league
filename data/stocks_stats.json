@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -10.52,
+      "avg_change": -9.04,
       "count": 1
     },
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 8.3,
+      "avg_change": 3.87,
       "count": 7
     },
     "autonomous": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 1.73,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 7.5,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 2.16,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 21.75,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 30.98,
+      "avg_change": 14.52,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.98,
+      "avg_change": 16.6,
       "count": 3
     },
     "biotech": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 0.02,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 3.46,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": 1.94,
+      "gainers": 2,
+      "losers": 0,
+      "avg_change": 6.93,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 20.01,
+      "avg_change": 18.54,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "LNZA",
-      "LanzaTech",
-      88.95
-    ],
-    [
       "ALAB",
       "Astera Labs",
-      41.36
+      35.29
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      25.92
+      "OKLO",
+      "Oklo",
+      26.96
     ],
     [
-      "AMD",
-      "AMD",
-      12.1
+      "LNZA",
+      "LanzaTech",
+      22.14
     ],
     [
-      "9348.T",
-      "ispace",
-      11.84
+      "EVTL",
+      "Vertical Aerospace",
+      21.97
+    ],
+    [
+      "NNE",
+      "Nano Nuclear Energy",
+      20.34
     ]
   ],
   "topLosers": [
     [
-      "TEM",
-      "Tempus AI",
-      -2.79
+      "ASRHF",
+      "Astroscale",
+      0.0
     ],
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      -5.73
+      -3.99
     ],
     [
-      "SMR",
-      "NuScale Power",
-      -5.8
+      "PL",
+      "Planet Labs",
+      -5.09
     ],
     [
       "PLTR",
       "Palantir",
-      -10.52
+      -9.04
     ],
     [
       "DRSHF",
       "DroneShield",
-      -12.77
+      -11.65
     ]
   ],
-  "lastUpdated": "2026-04-14 07:53:11"
+  "lastUpdated": "2026-04-14 13:52:29"
 }
