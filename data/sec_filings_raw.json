@@ -1496,6 +1496,15 @@
   {
     "company": "Intuitive Machines",
     "ticker": "LUNR",
+    "form": "8-K",
+    "date": "2026-04-13",
+    "description": "tm2611649d1_8k.htm",
+    "accessionNumber": "0001104659-26-042680",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
     "form": "4",
     "date": "2026-04-09",
     "description": "xslF345X06/form4-04092026_110444.xml",
@@ -2652,6 +2661,15 @@
     "date": "2025-06-17",
     "description": "xslF345X05/wk-form4_1750191169.xml",
     "accessionNumber": "0001706946-25-000104",
+    "isIPO": false
+  },
+  {
+    "company": "NuScale Power",
+    "ticker": "SMR",
+    "form": "4",
+    "date": "2026-04-13",
+    "description": "xslF345X06/wk-form4_1776114526.xml",
+    "accessionNumber": "0001124198-26-000038",
     "isIPO": false
   },
   {
@@ -5328,15 +5346,6 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2025-11-21",
-    "description": "qbts-20251121.htm",
-    "accessionNumber": "0001907982-25-000258",
-    "isIPO": false
-  },
-  {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "4",
@@ -5610,6 +5619,24 @@
     "company": "Ginkgo Bioworks",
     "ticker": "DNA",
     "form": "4",
+    "date": "2026-04-13",
+    "description": "xslF345X06/wk-form4_1776114037.xml",
+    "accessionNumber": "0001628280-26-024929",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "4",
+    "date": "2026-04-13",
+    "description": "xslF345X06/wk-form4_1776114009.xml",
+    "accessionNumber": "0001628280-26-024927",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "4",
     "date": "2026-04-10",
     "description": "xslF345X06/wk-form4_1775854931.xml",
     "accessionNumber": "0001628280-26-024745",
@@ -5775,24 +5802,6 @@
     "date": "2025-08-26",
     "description": "xslF345X05/wk-form4_1756238998.xml",
     "accessionNumber": "0001977441-25-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "ticker": "DNA",
-    "form": "10-Q",
-    "date": "2025-08-07",
-    "description": "dna-20250630.htm",
-    "accessionNumber": "0001628280-25-038982",
-    "isIPO": false
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "ticker": "DNA",
-    "form": "8-K",
-    "date": "2025-08-07",
-    "description": "dna-20250807.htm",
-    "accessionNumber": "0001628280-25-038981",
     "isIPO": false
   },
   {
@@ -8817,6 +8826,15 @@
     "date": "2025-11-18",
     "description": "xslF345X05/wk-form4_1763503489.xml",
     "accessionNumber": "0001891517-25-000021",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "4",
+    "date": "2026-04-13",
+    "description": "xslF345X06/wk-form4_1776113737.xml",
+    "accessionNumber": "0001628280-26-024921",
     "isIPO": false
   },
   {

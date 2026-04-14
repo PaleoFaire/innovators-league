@@ -542,6 +542,15 @@
   {
     "company": "Intuitive Machines",
     "ticker": "LUNR",
+    "form": "8-K",
+    "date": "2026-04-13",
+    "description": "tm2611649d1_8k.htm",
+    "accessionNumber": "0001104659-26-042680",
+    "isIPO": false
+  },
+  {
+    "company": "Intuitive Machines",
+    "ticker": "LUNR",
     "form": "4",
     "date": "2026-04-09",
     "description": "xslF345X06/form4-04092026_110444.xml",
@@ -983,6 +992,15 @@
   {
     "company": "NuScale Power",
     "ticker": "SMR",
+    "form": "4",
+    "date": "2026-04-13",
+    "description": "xslF345X06/wk-form4_1776114526.xml",
+    "accessionNumber": "0001124198-26-000038",
+    "isIPO": false
+  },
+  {
+    "company": "NuScale Power",
+    "ticker": "SMR",
     "form": "8-K",
     "date": "2026-04-08",
     "description": "smr-20260408.htm",
@@ -1374,24 +1392,6 @@
     "date": "2026-02-04",
     "description": "xslF345X05/ownership.xml",
     "accessionNumber": "0001193125-26-037906",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-01-13",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001193125-26-011966",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-01-13",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001193125-26-011965",
     "isIPO": false
   },
   {
@@ -1896,15 +1896,6 @@
     "date": "2026-01-14",
     "description": "xslF345X05/primarydocument.xml",
     "accessionNumber": "0001855767-26-000009",
-    "isIPO": false
-  },
-  {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2026-01-13",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-26-000008",
     "isIPO": false
   },
   {
@@ -2418,6 +2409,24 @@
     "date": "2026-01-22",
     "description": "xslF345X05/wk-form4_1769128479.xml",
     "accessionNumber": "0001856369-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "4",
+    "date": "2026-04-13",
+    "description": "xslF345X06/wk-form4_1776114037.xml",
+    "accessionNumber": "0001628280-26-024929",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "4",
+    "date": "2026-04-13",
+    "description": "xslF345X06/wk-form4_1776114009.xml",
+    "accessionNumber": "0001628280-26-024927",
     "isIPO": false
   },
   {
@@ -3642,6 +3651,15 @@
     "date": "2026-01-22",
     "description": "xslF345X05/wk-form4_1769119701.xml",
     "accessionNumber": "0001891517-26-000007",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "4",
+    "date": "2026-04-13",
+    "description": "xslF345X06/wk-form4_1776113737.xml",
+    "accessionNumber": "0001628280-26-024921",
     "isIPO": false
   },
   {

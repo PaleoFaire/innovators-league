@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-13 08:11:19 UTC
+// Last updated: 2026-04-14 07:54:22 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Intuitive Machines", form: "8-K", date: "2026-04-13", description: "tm2611649d1_8k.htm", isIPO: false, ticker: "LUNR" },
+  { company: "NuScale Power", form: "4", date: "2026-04-13", description: "xslF345X06/wk-form4_1776114526.xml", isIPO: false, ticker: "SMR" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-13", description: "xslF345X06/wk-form4_1776114037.xml", isIPO: false, ticker: "DNA" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-13", description: "xslF345X06/wk-form4_1776114009.xml", isIPO: false, ticker: "DNA" },
+  { company: "Astera Labs", form: "4", date: "2026-04-13", description: "xslF345X06/wk-form4_1776113737.xml", isIPO: false, ticker: "ALAB" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854931.xml", isIPO: false, ticker: "DNA" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854911.xml", isIPO: false, ticker: "DNA" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854893.xml", isIPO: false, ticker: "DNA" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "BlackSky Technology", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775074165.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775074101.xml", isIPO: false, ticker: "BKSY" },
   { company: "BlackSky Technology", form: "4", date: "2026-04-01", description: "xslF345X06/wk-form4_1775074052.xml", isIPO: false, ticker: "BKSY" },
-  { company: "Intuitive Machines", form: "4", date: "2026-04-01", description: "xslF345X06/form4-04012026_090449.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-04-01", description: "xslF345X06/form4-04012026_090434.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-04-01", description: "xslF345X06/form4-04012026_090407.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Momentus", form: "4", date: "2026-04-01", description: "xslF345X06/tm2610878-2_4seq1.xml", isIPO: false, ticker: "MNTS" },
-  { company: "Momentus", form: "4", date: "2026-04-01", description: "xslF345X06/tm2610878-1_4seq1.xml", isIPO: false, ticker: "MNTS" },
 ];
