@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -10.77,
+      "avg_change": -10.52,
       "count": 1
     },
     "space": {
-      "gainers": 7,
-      "losers": 0,
-      "avg_change": 9.91,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 7.8,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 1.18,
+      "avg_change": 2.05,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.87,
+      "avg_change": 2.16,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 30.74,
+      "avg_change": 30.98,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 3.16,
+      "avg_change": 3.98,
       "count": 3
     },
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.49,
+      "avg_change": -2.1,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 1.86,
+      "avg_change": 1.94,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 19.13,
+      "avg_change": 20.01,
       "count": 3
     }
   },
@@ -61,12 +61,12 @@
     [
       "LNZA",
       "LanzaTech",
-      88.56
+      88.95
     ],
     [
       "ALAB",
       "Astera Labs",
-      38.91
+      41.36
     ],
     [
       "ASRHF",
@@ -74,31 +74,31 @@
       25.92
     ],
     [
-      "9348.T",
-      "ispace",
-      15.21
+      "AMD",
+      "AMD",
+      12.1
     ],
     [
-      "AMD",
-      "AMD",
-      12.16
+      "277810.KQ",
+      "Rainbow Robotics",
+      11.38
     ]
   ],
   "topLosers": [
     [
       "TEM",
       "Tempus AI",
-      -3.49
+      -2.79
     ],
     [
       "SMR",
       "NuScale Power",
-      -5.85
+      -5.8
     ],
     [
       "PLTR",
       "Palantir",
-      -10.77
+      -10.52
     ],
     [
       "DRSHF",
@@ -111,5 +111,5 @@
       -12.09
     ]
   ],
-  "lastUpdated": "2026-04-13 19:18:49"
+  "lastUpdated": "2026-04-14 02:53:05"
 }
