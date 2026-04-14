@@ -25879,23 +25879,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-14 03:27
+// Last updated: 2026-04-14 06:04
 const COMPANY_SIGNALS = [
-  { id: 1, type: "funding", company: "Cape", headline: "President Trump signs legislation reauthorizing SBIR", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Aurora Innovation", headline: "Tesla Full Self-Driving Europe ' Initial Impressions Review", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Agility Robotics", headline: "An Amazon warehouse worker died on the job at Oregon facility", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI has bought AI personal finance startup Hiro", source: "TechCrunch", time: "3h ago", impact: "high", unread: true },
-  { id: 5, type: "news", company: "Agility Robotics", headline: "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress", source: "Wired", time: "3h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Andrenam", headline: "US Navy should rely on allies to boost maritime industrial base, report says", source: "Defense News", time: "4h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Waymo", headline: "Uber and Nuro begin testing premium robotaxi service in San Francisco", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "Cape", headline: "Q&#038;A: Heather Pringle on what to expect from Space Symposium", source: "SpaceNews", time: "6h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Photonic Inc", headline: "Microsoft is officially killing its Outlook Lite app next month", source: "TechCrunch", time: "6h ago", impact: "low", unread: false },
-  { id: 10, type: "news", company: "Mara", headline: "What's in Hasan Piker's Starter Pack? Creatine, Zyns, Signal", source: "Wired", time: "6h ago", impact: "low", unread: false },
-  { id: 11, type: "funding", company: "Impulse Labs", headline: "France Moved First, But Markets Everywhere Are Signaling Electrification", source: "CleanTechnica", time: "7h ago", impact: "high", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX IPO, Index Funds and Lockup Periods", source: "Next Big Future", time: "7h ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Cape", headline: "Microsoft is working on yet another OpenClaw-like agent", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Andromeda Surgical", headline: "Stanford report highlights growing disconnect between AI insiders and everyone else", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Zeromark", headline: "Estonia to halt $587M Infantry Fighting Vehicle buy in favor of drones, air defense", source: "Breaking Defense", time: "9h ago", impact: "medium", unread: false },
+  { id: 1, type: "funding", company: "Cape", headline: "President Trump signs legislation reauthorizing SBIR", source: "SpaceNews", time: "3h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Aurora Innovation", headline: "Tesla Full Self-Driving Europe ' Initial Impressions Review", source: "CleanTechnica", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Agility Robotics", headline: "An Amazon warehouse worker died on the job at Oregon facility", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI has bought AI personal finance startup Hiro", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
+  { id: 5, type: "news", company: "Agility Robotics", headline: "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress", source: "Wired", time: "6h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Andrenam", headline: "US Navy should rely on allies to boost maritime industrial base, report says", source: "Defense News", time: "7h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Waymo", headline: "Uber and Nuro begin testing premium robotaxi service in San Francisco", source: "TechCrunch", time: "8h ago", impact: "low", unread: false },
+  { id: 8, type: "hire", company: "Cape", headline: "Q&#038;A: Heather Pringle on what to expect from Space Symposium", source: "SpaceNews", time: "9h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Photonic Inc", headline: "Microsoft is officially killing its Outlook Lite app next month", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Mara", headline: "What's in Hasan Piker's Starter Pack? Creatine, Zyns, Signal", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 11, type: "funding", company: "Impulse Labs", headline: "France Moved First, But Markets Everywhere Are Signaling Electrification", source: "CleanTechnica", time: "10h ago", impact: "high", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX IPO, Index Funds and Lockup Periods", source: "Next Big Future", time: "10h ago", impact: "high", unread: false },
+  { id: 13, type: "news", company: "Cape", headline: "Microsoft is working on yet another OpenClaw-like agent", source: "TechCrunch", time: "10h ago", impact: "low", unread: false },
+  { id: 14, type: "ipo", company: "Andromeda Surgical", headline: "Stanford report highlights growing disconnect between AI insiders and everyone else", source: "TechCrunch", time: "11h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Zeromark", headline: "Estonia to halt $587M Infantry Fighting Vehicle buy in favor of drones, air defense", source: "Breaking Defense", time: "11h ago", impact: "medium", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
