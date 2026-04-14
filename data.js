@@ -26161,23 +26161,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-14 09:26
+// Last updated: 2026-04-14 14:01
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Conductor Quantum", headline: "The Bromine Chokepoint: How Strife in the Middle East Could Halt Production of the World's Memory Chips", source: "War on the Rocks", time: "1h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Astrolab", headline: "Bremont Is Sending a Watch to the Moon's Surface", source: "Wired", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "Cape", headline: "President Trump signs legislation reauthorizing SBIR", source: "SpaceNews", time: "6h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Aurora Innovation", headline: "Tesla Full Self-Driving Europe ' Initial Impressions Review", source: "CleanTechnica", time: "8h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "Agility Robotics", headline: "An Amazon warehouse worker died on the job at Oregon facility", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI has bought AI personal finance startup Hiro", source: "TechCrunch", time: "9h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Agility Robotics", headline: "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress", source: "Wired", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Andrenam", headline: "US Navy should rely on allies to boost maritime industrial base, report says", source: "Defense News", time: "10h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Waymo", headline: "Uber and Nuro begin testing premium robotaxi service in San Francisco", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 10, type: "hire", company: "Cape", headline: "Q&#038;A: Heather Pringle on what to expect from Space Symposium", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
-  { id: 11, type: "milestone", company: "Photonic Inc", headline: "Microsoft is officially killing its Outlook Lite app next month", source: "TechCrunch", time: "12h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Mara", headline: "What's in Hasan Piker's Starter Pack? Creatine, Zyns, Signal", source: "Wired", time: "12h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Impulse Labs", headline: "France Moved First, But Markets Everywhere Are Signaling Electrification", source: "CleanTechnica", time: "13h ago", impact: "high", unread: false },
-  { id: 14, type: "news", company: "Cape", headline: "Microsoft is working on yet another OpenClaw-like agent", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Andromeda Surgical", headline: "Stanford report highlights growing disconnect between AI insiders and everyone else", source: "TechCrunch", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "funding", company: "Slingshot Aerospace", headline: "NASA is building the first nuclear reactor-powered interplanetary spacecraft. How will it work?", source: "MIT Tech Review", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "news", company: "Matter", headline: "Coming soon: 10 Things That Matter in AI Right Now", source: "MIT Tech Review", time: "3h ago", impact: "low", unread: true },
+  { id: 3, type: "hire", company: "Karman Industries", headline: "Rheinmetall and Destinus to combine forces in new missile systems joint venture", source: "Breaking Defense", time: "3h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Palantir", headline: "Silicon Valley Is Spending Millions to Stop One of Its Own", source: "Wired", time: "3h ago", impact: "medium", unread: true },
+  { id: 5, type: "news", company: "Palantir", headline: "Government Workers Say They're Getting Inundated With Religion", source: "Wired", time: "4h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Ares Industries", headline: "Australia touts first GMLRS artillery rocket assembled Down Under", source: "Defense News", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Conductor Quantum", headline: "The Bromine Chokepoint: How Strife in the Middle East Could Halt Production of the World's Memory Chips", source: "War on the Rocks", time: "6h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Astrolab", headline: "Bremont Is Sending a Watch to the Moon's Surface", source: "Wired", time: "6h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Aurora Innovation", headline: "Tesla Full Self-Driving Europe ' Initial Impressions Review", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 10, type: "news", company: "Agility Robotics", headline: "An Amazon warehouse worker died on the job at Oregon facility", source: "TechCrunch", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "OpenAI", headline: "OpenAI has bought AI personal finance startup Hiro", source: "TechCrunch", time: "13h ago", impact: "high", unread: false },
+  { id: 12, type: "news", company: "Agility Robotics", headline: "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress", source: "Wired", time: "14h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Andrenam", headline: "US Navy should rely on allies to boost maritime industrial base, report says", source: "Defense News", time: "14h ago", impact: "low", unread: false },
+  { id: 14, type: "milestone", company: "Waymo", headline: "Uber and Nuro begin testing premium robotaxi service in San Francisco", source: "TechCrunch", time: "16h ago", impact: "low", unread: false },
+  { id: 15, type: "milestone", company: "Photonic Inc", headline: "Microsoft is officially killing its Outlook Lite app next month", source: "TechCrunch", time: "17h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
