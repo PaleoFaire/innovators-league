@@ -11,13 +11,13 @@
     "space": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 7.8,
+      "avg_change": 8.3,
       "count": 7
     },
     "autonomous": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 2.05,
+      "avg_change": 1.73,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -2.1,
+      "avg_change": 0.02,
       "count": 3
     },
     "transportation": {
@@ -79,9 +79,9 @@
       12.1
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      11.38
+      "9348.T",
+      "ispace",
+      11.84
     ]
   ],
   "topLosers": [
@@ -89,6 +89,11 @@
       "TEM",
       "Tempus AI",
       -2.79
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -5.73
     ],
     [
       "SMR",
@@ -103,13 +108,8 @@
     [
       "DRSHF",
       "DroneShield",
-      -11.31
-    ],
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -12.09
+      -12.77
     ]
   ],
-  "lastUpdated": "2026-04-14 02:53:05"
+  "lastUpdated": "2026-04-14 07:53:11"
 }
