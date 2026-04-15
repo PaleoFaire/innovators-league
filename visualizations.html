@@ -152,6 +152,21 @@
     </div>
 </section>
 
+<!-- 4b. Investor Network — Top Frontier Tech Investors & Their Portfolios -->
+<section class="viz-section" id="investor-network" style="background:var(--bg-s);">
+    <div class="container">
+        <div class="viz-header animate-in">
+            <p class="section-eyebrow">RELATIONSHIPS</p>
+            <h2>The Investor Network</h2>
+            <p>The most active investors in frontier tech and the companies they back. Click an investor to see their portfolio.</p>
+        </div>
+        <div class="investor-leaderboard animate-in" id="investor-leaderboard">
+            <!-- Populated by JS -->
+            <p style="color:var(--text-muted);padding:20px;">Building investor network…</p>
+        </div>
+    </div>
+</section>
+
 <!-- 5. Valuation Bubbles -->
 <section class="viz-section" id="valuations">
     <div class="container">
@@ -829,6 +844,120 @@ function initDataHealth() {
 }
 
 safeInit('DataHealth', initDataHealth);
+
+// ═══════════════════════════════════════════════════════════════════
+// INVESTOR NETWORK — the most active frontier tech investors
+// Aggregates investor names from deals_auto.json + funding_tracker_auto.json
+// and shows a leaderboard with each investor's portfolio as clickable chips.
+// ═══════════════════════════════════════════════════════════════════
+function initInvestorNetwork() {
+  var container = document.getElementById('investor-leaderboard');
+  if (!container) return;
+
+  // Skip meaningless values
+  var EXCLUDE = /^(undisclosed|unknown|n\/?a|-+|none|tbd)$/i;
+
+  // Load deals + funding_tracker
+  Promise.all([
+    fetch('data/deals_auto.json', { cache: 'no-cache' }).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; }),
+    fetch('data/funding_tracker_auto.json', { cache: 'no-cache' }).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; })
+  ]).then(function(results) {
+    var deals = Array.isArray(results[0]) ? results[0] : [];
+    var tracker = Array.isArray(results[1]) ? results[1] : [];
+
+    // investor -> { companies: Set, dealCount, coInvestors: Map<name, count> }
+    var registry = {};
+    function addEdge(investor, company, coInvestors) {
+      if (!investor || !company) return;
+      investor = String(investor).trim();
+      company = String(company).trim();
+      if (!investor || !company) return;
+      if (EXCLUDE.test(investor) || EXCLUDE.test(company)) return;
+      if (!registry[investor]) {
+        registry[investor] = { companies: {}, deals: 0, coInvestors: {} };
+      }
+      registry[investor].companies[company] = true;
+      registry[investor].deals++;
+      if (Array.isArray(coInvestors)) {
+        coInvestors.forEach(function(ci) {
+          ci = String(ci || '').trim();
+          if (!ci || ci === investor || EXCLUDE.test(ci)) return;
+          registry[investor].coInvestors[ci] = (registry[investor].coInvestors[ci] || 0) + 1;
+        });
+      }
+    }
+
+    // Ingest deals
+    deals.forEach(function(d) {
+      if (!d) return;
+      var others = Array.isArray(d.coInvestors) ? d.coInvestors : [];
+      addEdge(d.investor, d.company, others);
+    });
+
+    // Ingest funding_tracker (each has leadInvestors array)
+    tracker.forEach(function(t) {
+      if (!t || !Array.isArray(t.leadInvestors)) return;
+      var all = t.leadInvestors;
+      all.forEach(function(inv, idx) {
+        var co = all.filter(function(_, i) { return i !== idx; });
+        addEdge(inv, t.company, co);
+      });
+    });
+
+    var rows = Object.keys(registry).map(function(name) {
+      var r = registry[name];
+      return {
+        investor: name,
+        portfolioSize: Object.keys(r.companies).length,
+        deals: r.deals,
+        companies: Object.keys(r.companies).sort(),
+        topCoInvestor: Object.keys(r.coInvestors).sort(function(a, b) {
+          return r.coInvestors[b] - r.coInvestors[a];
+        })[0] || null
+      };
+    }).filter(function(r) {
+      return r.portfolioSize >= 1; // keep all with at least 1 known company
+    }).sort(function(a, b) {
+      return b.portfolioSize - a.portfolioSize || b.deals - a.deals;
+    }).slice(0, 15);
+
+    if (rows.length === 0) {
+      container.innerHTML = '<p style="color:var(--text-muted);padding:20px;">No investor data available yet.</p>';
+      return;
+    }
+
+    var html = rows.map(function(r, idx) {
+      var chipsHtml = r.companies.slice(0, 10).map(function(c) {
+        // Clickable chip → links to company page
+        var slug = typeof companyToSlug === 'function' ? companyToSlug(c) : encodeURIComponent(c.toLowerCase().replace(/\s+/g, '-'));
+        return '<a href="company.html?slug=' + slug + '" class="inv-chip">' + escapeHtml(c) + '</a>';
+      }).join('');
+      var more = r.companies.length > 10 ? '<span class="inv-chip inv-chip-more">+' + (r.companies.length - 10) + '</span>' : '';
+      var coLine = r.topCoInvestor ? '<div class="inv-co">Frequent co-investor: <strong>' + escapeHtml(r.topCoInvestor) + '</strong></div>' : '';
+
+      return (
+        '<div class="inv-row">' +
+        '  <div class="inv-rank">' + String(idx + 1).padStart(2, '0') + '</div>' +
+        '  <div class="inv-main">' +
+        '    <div class="inv-head">' +
+        '      <div class="inv-name">' + escapeHtml(r.investor) + '</div>' +
+        '      <div class="inv-meta">' + r.portfolioSize + ' portfolio cos · ' + r.deals + ' tracked deals</div>' +
+        '    </div>' +
+        '    <div class="inv-chips">' + chipsHtml + more + '</div>' +
+             coLine +
+        '  </div>' +
+        '</div>'
+      );
+    }).join('');
+
+    container.innerHTML = html;
+  }).catch(function(err) {
+    console.warn('[InvestorNetwork] failed:', err);
+    container.innerHTML = '<p style="color:var(--text-muted);padding:20px;">Could not load investor data.</p>';
+  });
+}
+
+safeInit('InvestorNetwork', initInvestorNetwork);
 </script>
 </body>
 </html>

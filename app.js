@@ -4504,36 +4504,78 @@ function initSmoothScroll() {
   });
 }
 
-// ─── BREAKING NEWS TICKER ───
+// ─── BREAKING NEWS TICKER (now with LIVE CAPITAL FLOWS) ───
 function initNewsTicker() {
   const scroll = document.getElementById('ticker-scroll');
   if (!scroll) return;
 
-  // Prefer live COMPANY_SIGNALS (auto-updated every 4 hours), fallback to static NEWS_TICKER
+  // 1. Start with signals/news (existing behavior)
   let items = [];
   if (typeof COMPANY_SIGNALS !== 'undefined' && COMPANY_SIGNALS.length > 0) {
     items = COMPANY_SIGNALS.map(s => ({
       text: s.headline || s.text || '',
       time: s.time || '',
-      priority: s.impact || s.priority || 'medium'
+      priority: s.impact || s.priority || 'medium',
+      kind: 'news'
     }));
   } else if (typeof NEWS_TICKER !== 'undefined') {
-    items = NEWS_TICKER;
+    items = NEWS_TICKER.map(n => ({ ...n, kind: 'news' }));
   }
-  if (items.length === 0) return;
 
-  items.forEach((item, i) => {
-    if (i > 0) {
-      const divider = document.createElement('span');
-      divider.className = 'ticker-divider';
-      scroll.appendChild(divider);
-    }
+  // 2. Splice in LIVE funding events from deals_auto.json
+  //    Fetched async; ticker renders once, then re-renders when live data lands.
+  const renderTicker = (allItems) => {
+    scroll.innerHTML = '';
+    allItems.forEach((item, i) => {
+      if (i > 0) {
+        const divider = document.createElement('span');
+        divider.className = 'ticker-divider';
+        scroll.appendChild(divider);
+      }
+      const el = document.createElement('span');
+      const kindClass = item.kind === 'funding' ? 'ticker-funding' : '';
+      el.className = `ticker-item ticker-priority-${item.priority || 'medium'} ${kindClass}`.trim();
+      const prefix = item.kind === 'funding' ? '💰 ' : '';
+      el.innerHTML = `<span>${prefix}${item.text}</span><span class="ticker-time">${item.time || ''}</span>`;
+      scroll.appendChild(el);
+    });
+  };
 
-    const el = document.createElement('span');
-    el.className = `ticker-item ticker-priority-${item.priority}`;
-    el.innerHTML = `<span>${item.text}</span><span class="ticker-time">${item.time}</span>`;
-    scroll.appendChild(el);
-  });
+  // Initial render with whatever we have
+  if (items.length > 0) renderTicker(items);
+
+  // Load live funding events and merge in
+  fetch('data/deals_auto.json', { cache: 'no-cache' })
+    .then(r => r.ok ? r.json() : null)
+    .then(deals => {
+      if (!Array.isArray(deals) || deals.length === 0) return;
+      // Sort by date descending, take top 8
+      const sorted = deals
+        .filter(d => d && d.company && d.amount)
+        .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
+        .slice(0, 8);
+
+      const fundingItems = sorted.map(d => {
+        const investorText = d.investor && d.investor !== 'Undisclosed' ? ` from ${d.investor}` : '';
+        const roundText = d.round ? ` · ${d.round}` : '';
+        return {
+          text: `${d.company} raised ${d.amount}${investorText}${roundText}`,
+          time: d.date || 'recent',
+          priority: 'high',
+          kind: 'funding'
+        };
+      });
+
+      // Interleave funding + news for visual variety (funding, news, funding, news…)
+      const merged = [];
+      const maxLen = Math.max(items.length, fundingItems.length);
+      for (let i = 0; i < maxLen; i++) {
+        if (fundingItems[i]) merged.push(fundingItems[i]);
+        if (items[i]) merged.push(items[i]);
+      }
+      renderTicker(merged);
+    })
+    .catch(() => { /* silent — fall back to what we rendered */ });
 }
 
 // ─── FIELD NOTES — Founder Intelligence from the ROS network ───

@@ -1281,6 +1281,112 @@
   overflow: hidden;
 }
 
+.related-card-reason {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 6px;
+  opacity: 0.85;
+}
+
+/* ═══════════════════════════════════════════════════════
+   FOUNDER SOCIAL SIGNAL (X / Twitter)
+   ═══════════════════════════════════════════════════════ */
+
+.profile-social {
+  background: var(--card-bg, #11171f);
+  border: 1px solid var(--border-color, #222b36);
+  border-radius: 12px;
+  padding: 22px;
+  margin-top: 24px;
+}
+
+.social-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 16px;
+}
+
+.social-title .section-icon {
+  font-size: 20px;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.social-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color, #222b36);
+  border-radius: 10px;
+  padding: 14px 16px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.social-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.social-founder {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary, #fff);
+  margin: 0 0 4px;
+}
+
+.social-handle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  margin: 4px 0;
+}
+
+.social-handle:hover {
+  text-decoration: underline;
+}
+
+.social-followers {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 2px 0;
+}
+
+.social-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.social-topic {
+  background: rgba(255, 127, 0, 0.12);
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 10px;
+  text-transform: lowercase;
+}
+
+.social-placeholder-note {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 6px;
+}
+
 /* ═══════════════════════════════════════════════════════
    DATA ATTRIBUTION
    ═══════════════════════════════════════════════════════ */

@@ -66,6 +66,7 @@
     renderIntelligenceSection(currentCompany);
     renderMarketIntelSection(currentCompany);
     renderRelatedSection(currentCompany);
+    renderFounderSocialSignal(currentCompany);
     initActionButtons(currentCompany);
 
     // Show content
@@ -1607,34 +1608,216 @@
   // RELATED COMPANIES
   // ═══════════════════════════════════════════════════════
 
+  // ═══════════════════════════════════════════════════════
+  // SIMILARITY SCORING
+  // ═══════════════════════════════════════════════════════
+  // Given a target company, score every OTHER company on shared attributes
+  // and return the top N most similar. This replaces the old "random same
+  // sector" logic with a genuine recommender signal.
+  function _valuationBucket(val) {
+    if (!val || typeof val !== 'string') return null;
+    const s = val.toUpperCase().replace(/[$,+]/g, '').trim();
+    const num = parseFloat(s);
+    if (isNaN(num)) return null;
+    const multiplier = s.includes('T') ? 1000 : s.includes('B') ? 1 : s.includes('M') ? 0.001 : 0;
+    const billions = num * multiplier;
+    if (billions >= 50) return 'mega';
+    if (billions >= 10) return 'decacorn';
+    if (billions >= 1) return 'unicorn';
+    if (billions >= 0.1) return 'soonicorn';
+    return 'early';
+  }
+
+  function _stageBucket(stage) {
+    if (!stage || typeof stage !== 'string') return null;
+    const s = stage.toLowerCase();
+    if (/(public|ipo|listed|nasdaq|nyse)/.test(s)) return 'public';
+    if (/(pre-ipo|late|growth|series [ef-j])/.test(s)) return 'late';
+    if (/(series [cd])/.test(s)) return 'growth';
+    if (/(series [ab])/.test(s)) return 'early';
+    if (/(seed|angel|pre-seed)/.test(s)) return 'seed';
+    return null;
+  }
+
+  function _regionOf(location) {
+    if (!location || typeof location !== 'string') return null;
+    const l = location.toLowerCase();
+    if (/(uk|london|england|scotland|wales|britain|united kingdom)/.test(l)) return 'uk';
+    if (/(germany|berlin|munich|france|paris|netherlands|amsterdam|sweden|stockholm|finland|denmark|norway|spain|italy|switzerland|zurich|europe)/.test(l)) return 'europe';
+    if (/(china|beijing|shanghai|shenzhen|hong kong)/.test(l)) return 'china';
+    if (/(japan|tokyo|korea|seoul|singapore|india|bangalore|taiwan)/.test(l)) return 'asia';
+    if (/(canada|toronto|vancouver|montreal)/.test(l)) return 'canada';
+    if (/(israel|tel aviv|uae|abu dhabi|dubai|saudi)/.test(l)) return 'mena';
+    if (/(australia|sydney|melbourne)/.test(l)) return 'anz';
+    return 'americas'; // default, most US
+  }
+
+  function computeSimilarity(target, candidate) {
+    if (target.name === candidate.name) return 0;
+    let score = 0;
+
+    // 1. Same sector — the strongest signal
+    if (candidate.sector && candidate.sector === target.sector) score += 40;
+
+    // 2. Overlapping tags — topic/tech alignment
+    const tTags = new Set((target.tags || []).map(t => (t || '').toLowerCase()));
+    const cTags = (candidate.tags || []).map(t => (t || '').toLowerCase());
+    const overlap = cTags.filter(t => tTags.has(t)).length;
+    score += Math.min(overlap * 6, 24); // cap at 24
+
+    // 3. Funding stage proximity
+    const ts = _stageBucket(target.fundingStage);
+    const cs = _stageBucket(candidate.fundingStage);
+    if (ts && cs) {
+      if (ts === cs) score += 12;
+      else if ((ts === 'early' && cs === 'growth') || (ts === 'growth' && cs === 'early')
+             || (ts === 'growth' && cs === 'late') || (ts === 'late' && cs === 'growth')
+             || (ts === 'late' && cs === 'public') || (ts === 'public' && cs === 'late')) {
+        score += 6;
+      }
+    }
+
+    // 4. Valuation bucket
+    const tv = _valuationBucket(target.valuation);
+    const cv = _valuationBucket(candidate.valuation);
+    if (tv && cv && tv === cv) score += 8;
+
+    // 5. Geographic region
+    const tr = _regionOf(target.location);
+    const cr = _regionOf(candidate.location);
+    if (tr && cr && tr === cr) score += 6;
+
+    // 6. Both featured (IL30 or shortlist)
+    if (target.featured && candidate.featured) score += 4;
+
+    return score;
+  }
+
   function renderRelatedSection(company) {
     const container = document.getElementById('related-grid');
+    if (!container) return;
 
-    // Get related companies (same sector, excluding current)
-    const related = COMPANIES
-      .filter(c => c.sector === company.sector && c.name !== company.name)
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 6);
+    // Compute a similarity score for every other company; pick top 6.
+    const scored = COMPANIES
+      .filter(c => c && c.name && c.name !== company.name)
+      .map(c => ({ company: c, score: computeSimilarity(company, c) }))
+      .filter(x => x.score > 0)
+      .sort((a, b) => b.score - a.score);
+
+    const related = scored.slice(0, 6).map(x => x.company);
 
     if (related.length === 0) {
       container.innerHTML = '<p style="color:var(--text-muted);">No related companies found</p>';
       return;
     }
 
-    container.innerHTML = related.map(c => {
+    container.innerHTML = related.map((c, i) => {
       const score = typeof INNOVATOR_SCORES !== 'undefined' ? INNOVATOR_SCORES.find(s => s.company === c.name) : null;
       const scoreValue = score?.composite?.toFixed(0) || '--';
+      const sim = scored[i] ? scored[i].score : 0;
+      // Why-tag: surface the strongest reason
+      const tTags = new Set((company.tags || []).map(t => (t || '').toLowerCase()));
+      const sharedTags = (c.tags || []).filter(t => tTags.has((t || '').toLowerCase())).slice(0, 2);
+      let reason = '';
+      if (c.sector === company.sector && sharedTags.length) {
+        reason = `${escapeHtml(c.sector)} · ${sharedTags.map(escapeHtml).join(', ')}`;
+      } else if (c.sector === company.sector) {
+        reason = escapeHtml(c.sector);
+      } else if (sharedTags.length) {
+        reason = sharedTags.map(escapeHtml).join(', ');
+      } else if (c.fundingStage === company.fundingStage) {
+        reason = escapeHtml(c.fundingStage || 'Similar stage');
+      } else {
+        reason = _regionOf(c.location) === _regionOf(company.location) ? 'Same region' : 'Adjacent tech';
+      }
 
       return `
-        <a href="company.html?slug=${profileSlug(c.name)}" class="related-card">
+        <a href="company.html?slug=${profileSlug(c.name)}" class="related-card" title="Similarity score: ${sim}">
           <div class="related-card-header">
             <span class="related-card-name">${escapeHtml(c.name)}</span>
             <span class="related-card-score">${escapeHtml(scoreValue)}</span>
           </div>
-          <p class="related-card-desc">${escapeHtml(c.description?.substring(0, 100) || '')}...</p>
+          <div class="related-card-reason">${reason}</div>
+          <p class="related-card-desc">${escapeHtml((c.description || '').substring(0, 100))}${c.description && c.description.length > 100 ? '…' : ''}</p>
         </a>
       `;
     }).join('');
+  }
+
+  // ═══════════════════════════════════════════════════════
+  // FOUNDER SOCIAL SIGNAL (X / Twitter)
+  // Renders founder X presence from data/twitter_signals_auto.json.
+  // Hides itself if no record exists for this company.
+  // ═══════════════════════════════════════════════════════
+  function renderFounderSocialSignal(company) {
+    const section = document.getElementById('profile-social');
+    const grid = document.getElementById('social-grid');
+    if (!section || !grid) return;
+
+    // Fetch twitter signals once and cache on window. Works whether loaded
+    // from data.js (for bundled signals) or fetched from data/*.json.
+    const dataUrl = 'data/twitter_signals_auto.json';
+    const showRecords = (records) => {
+      if (!Array.isArray(records) || records.length === 0) return;
+      // Match by company name (case-insensitive, trimmed)
+      const target = (company.name || '').trim().toLowerCase();
+      const matches = records.filter(r =>
+        (r.company || '').trim().toLowerCase() === target
+      );
+      if (matches.length === 0) return;
+
+      const formatFollowers = (n) => {
+        if (n == null || isNaN(n)) return null;
+        if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+        if (n >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+        return String(n);
+      };
+
+      grid.innerHTML = matches.map(m => {
+        const handle = m.handle || (m.candidate_handles && m.candidate_handles[0]) || '';
+        const cleanHandle = String(handle).replace(/^@/, '');
+        const followerLabel = formatFollowers(m.followers);
+        const isPlaceholder = m.placeholder === true || !m.followers;
+        const topicsHtml = (Array.isArray(m.topics) && m.topics.length > 0)
+          ? `<div class="social-topics">${m.topics.slice(0, 4).map(t => `<span class="social-topic">#${escapeHtml(String(t))}</span>`).join('')}</div>`
+          : '';
+        const followersHtml = followerLabel
+          ? `<div class="social-followers">${escapeHtml(followerLabel)} followers · ${escapeHtml(String(m.recent_posts || 0))} recent posts</div>`
+          : '';
+        const placeholderHtml = isPlaceholder
+          ? `<div class="social-placeholder-note">Handle inferred — live follower data pending</div>`
+          : '';
+        const xUrl = cleanHandle ? `https://x.com/${encodeURIComponent(cleanHandle)}` : '#';
+
+        return `
+          <div class="social-card">
+            <div class="social-founder">${escapeHtml(m.founder || '—')}</div>
+            ${cleanHandle ? `<a class="social-handle" href="${xUrl}" target="_blank" rel="noopener">𝕏 @${escapeHtml(cleanHandle)}</a>` : ''}
+            ${followersHtml}
+            ${topicsHtml}
+            ${placeholderHtml}
+          </div>
+        `;
+      }).join('');
+      section.style.display = 'block';
+    };
+
+    // Prefer a preloaded array on window.TWITTER_SIGNALS if something else loaded it
+    if (window.TWITTER_SIGNALS && Array.isArray(window.TWITTER_SIGNALS)) {
+      showRecords(window.TWITTER_SIGNALS);
+      return;
+    }
+
+    // Otherwise lazy-fetch. Silently fail if file missing (e.g. in local dev).
+    fetch(dataUrl, { cache: 'no-cache' })
+      .then(r => r.ok ? r.json() : null)
+      .then(data => {
+        if (data) {
+          window.TWITTER_SIGNALS = data;
+          showRecords(data);
+        }
+      })
+      .catch(() => {});
   }
 
   // ═══════════════════════════════════════════════════════

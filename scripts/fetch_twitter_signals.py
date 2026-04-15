@@ -143,12 +143,20 @@ def _parse_data_js_founders():
     for m in block_re.finditer(content):
         name = m.group("name").strip()
         body = m.group("body")
-        founder = _extract(body, "founder")
-        if not founder or founder.lower() in {"null", "unknown", "n/a", ""}:
+        founder_raw = _extract(body, "founder")
+        if not founder_raw or founder_raw.lower() in {"null", "unknown", "n/a", ""}:
+            continue
+        # If founder is a comma-separated list ("Palmer Luckey, Brian Schimpf, ..."),
+        # use the FIRST name only — handle guessing on concatenated names yields junk.
+        founder = founder_raw.split(",")[0].strip()
+        # Strip titles / post-nominals like "PhD", "Dr.", etc
+        founder = re.sub(r"^(Dr\.?|Prof\.?|Mr\.?|Ms\.?|Mrs\.?)\s+", "", founder, flags=re.I)
+        founder = re.sub(r",?\s*(PhD|Ph\.D\.?|MD|MBA|Esq\.?)$", "", founder, flags=re.I).strip()
+        if not founder:
             continue
         founders.append({
             "company": name,
-            "founder": founder.strip(),
+            "founder": founder,
             "fundingStage": _extract(body, "fundingStage") or "",
             "valuation": _extract(body, "valuation") or "",
             "tbpnMentioned": _extract(body, "tbpnMentioned", is_bool=True) is True,
@@ -246,76 +254,173 @@ def guess_handles(founder_name):
 # ─────────────────────────────────────────────────────────────────
 # Real data source: Apify Twitter scraper
 # ─────────────────────────────────────────────────────────────────
-APIFY_ACTOR = "apify~twitter-scraper"
+# Ordered list of actors to try — the first that succeeds for a given
+# founder wins. apidojo/tweet-scraper is most reliable as of 2026.
+APIFY_ACTORS = [
+    "apidojo~tweet-scraper",       # apidojo/tweet-scraper — most reliable
+    "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest",
+    "apify~twitter-scraper-lite",  # apify/twitter-scraper-lite — free tier
+    "apify~twitter-scraper",        # legacy fallback
+]
+
+_APIFY_DIAGNOSTICS = {"last_error": None, "actor_results": {}}
 
 
-def fetch_via_apify(founder, handles):
-    """
-    Use Apify 'apify/twitter-scraper' actor.
-    Docs: https://apify.com/apify/twitter-scraper
-    """
-    if not APIFY_TOKEN:
-        return None
-
-    run_url = f"https://api.apify.com/v2/acts/{APIFY_ACTOR}/run-sync-get-dataset-items"
-    handle_list = [h.lstrip("@") for h in handles]
-
-    payload = {
+def _apify_payload_for(actor, handles):
+    """Return the best-known input schema for each actor."""
+    handle_list = [h.lstrip("@") for h in handles[:5]]
+    if actor.startswith("apidojo"):
+        return {
+            "twitterHandles": handle_list,
+            "maxItems": 10,
+            "sort": "Latest",
+        }
+    if actor.startswith("kaitoeasyapi"):
+        return {
+            "twitterHandles": handle_list,
+            "maxItems": 10,
+        }
+    if "twitter-scraper-lite" in actor:
+        return {
+            "startUrls": [f"https://twitter.com/{h}" for h in handle_list],
+            "maxItems": 10,
+        }
+    return {
         "searchTerms": [f"from:{h}" for h in handle_list],
         "maxTweets": 10,
         "maxItems": 10,
     }
-    try:
-        resp = SESSION.post(
-            run_url,
-            params={"token": APIFY_TOKEN, "timeout": 120},
-            json=payload,
-            timeout=REQUEST_TIMEOUT,
-        )
-    except requests.exceptions.RequestException as e:
-        logger.debug("Apify request error: %s", e)
-        return None
 
-    if not resp.ok:
-        logger.debug("Apify HTTP %d for %s", resp.status_code, founder)
-        return None
 
-    try:
-        items = resp.json()
-    except ValueError:
-        return None
+def _parse_apify_items(items):
+    """Extract best handle+followers+topics from a mixed-shape Apify response."""
     if not items:
         return None
-
-    # Pick the handle with highest follower count
     best = None
     for item in items:
-        author = item.get("author") or item.get("user") or {}
-        handle = author.get("userName") or author.get("screen_name") or ""
-        followers = int(author.get("followersCount") or author.get("followers_count") or 0)
+        # apidojo shape vs legacy shape vs kaitoeasyapi shape
+        author = (
+            item.get("author")
+            or item.get("user")
+            or {
+                "userName": item.get("userName") or item.get("username"),
+                "followersCount": item.get("followersCount") or item.get("followers"),
+            }
+        )
+        handle = (
+            author.get("userName")
+            or author.get("screen_name")
+            or author.get("username")
+            or ""
+        )
+        followers = int(
+            author.get("followersCount")
+            or author.get("followers_count")
+            or author.get("followers")
+            or 0
+        )
+        if not handle:
+            continue
         if not best or followers > best["followers"]:
             best = {
-                "handle": f"@{handle}" if handle else "",
+                "handle": f"@{handle}",
                 "followers": followers,
                 "topics": [],
                 "recent_posts": 0,
             }
 
-    # Count posts and collect hashtags
-    if best:
-        topics = set()
-        for item in items:
-            author = item.get("author") or item.get("user") or {}
-            handle = (author.get("userName") or author.get("screen_name") or "").lower()
-            if handle and best["handle"].lstrip("@").lower() == handle:
-                best["recent_posts"] += 1
-                for tag in item.get("hashtags", []) or []:
-                    if isinstance(tag, dict):
-                        tag = tag.get("text") or ""
-                    if tag:
-                        topics.add(str(tag))
-        best["topics"] = sorted(topics)[:5]
+    if not best:
+        return None
+
+    # Count posts for chosen handle and collect hashtags
+    topics = set()
+    chosen_handle = best["handle"].lstrip("@").lower()
+    for item in items:
+        author = item.get("author") or item.get("user") or {}
+        handle = (
+            author.get("userName")
+            or author.get("screen_name")
+            or author.get("username")
+            or item.get("userName")
+            or ""
+        ).lower()
+        if handle and handle == chosen_handle:
+            best["recent_posts"] += 1
+            for tag in item.get("hashtags", []) or []:
+                if isinstance(tag, dict):
+                    tag = tag.get("text") or ""
+                if tag:
+                    topics.add(str(tag))
+            # Entities in apidojo shape
+            entities = item.get("entities") or {}
+            for tag in entities.get("hashtags", []) or []:
+                if isinstance(tag, dict):
+                    tag = tag.get("text") or tag.get("tag") or ""
+                if tag:
+                    topics.add(str(tag))
+    best["topics"] = sorted(topics)[:5]
     return best
+
+
+def fetch_via_apify(founder, handles):
+    """
+    Try each Apify actor in order; first one returning data wins.
+    Tracks per-actor success to avoid retrying broken actors for every founder.
+    """
+    if not APIFY_TOKEN:
+        return None
+
+    for actor in APIFY_ACTORS:
+        # Skip actors that have failed 5+ times already
+        stats = _APIFY_DIAGNOSTICS["actor_results"].setdefault(
+            actor, {"attempts": 0, "successes": 0, "http_errors": {}, "last_body_preview": ""}
+        )
+        if stats["attempts"] >= 5 and stats["successes"] == 0:
+            continue
+
+        stats["attempts"] += 1
+        run_url = f"https://api.apify.com/v2/acts/{actor}/run-sync-get-dataset-items"
+        payload = _apify_payload_for(actor, handles)
+
+        try:
+            resp = SESSION.post(
+                run_url,
+                params={"token": APIFY_TOKEN, "timeout": 120},
+                json=payload,
+                timeout=REQUEST_TIMEOUT,
+            )
+        except requests.exceptions.RequestException as e:
+            logger.debug("Apify request error for %s via %s: %s", founder, actor, e)
+            _APIFY_DIAGNOSTICS["last_error"] = f"{actor}: request error: {e}"
+            continue
+
+        if not resp.ok:
+            stats["http_errors"][str(resp.status_code)] = (
+                stats["http_errors"].get(str(resp.status_code), 0) + 1
+            )
+            body_preview = resp.text[:300] if resp.text else ""
+            stats["last_body_preview"] = body_preview
+            logger.info(
+                "Apify actor %s returned HTTP %d for %s — body: %s",
+                actor, resp.status_code, founder, body_preview[:200]
+            )
+            _APIFY_DIAGNOSTICS["last_error"] = (
+                f"{actor}: HTTP {resp.status_code} — {body_preview[:200]}"
+            )
+            continue
+
+        try:
+            items = resp.json()
+        except ValueError:
+            _APIFY_DIAGNOSTICS["last_error"] = f"{actor}: JSON decode error"
+            continue
+
+        parsed = _parse_apify_items(items)
+        if parsed:
+            stats["successes"] += 1
+            return parsed
+
+    return None
 
 
 def fetch_via_rapidapi(founder, handles):
@@ -484,22 +589,33 @@ def main():
 
     top_founders = load_top_founders()
 
-    signals = []
+    real_signals = []
     attempted = 0
+    # Use a subset when running in real mode — the Apify free tier only allows
+    # a limited number of actor runs per day.
+    fetch_limit = min(int(os.environ.get("TWITTER_FETCH_LIMIT", "25")), len(top_founders))
 
     if source:
-        for i, f in enumerate(top_founders, 1):
+        for i, f in enumerate(top_founders[:fetch_limit], 1):
             attempted += 1
-            logger.info("[%d/%d] %s (%s)", i, len(top_founders), f["founder"], f["company"])
+            logger.info("[%d/%d] %s (%s)", i, fetch_limit, f["founder"], f["company"])
             try:
                 sig = fetch_founder_signal(f["founder"], f["company"], source)
                 if sig:
-                    signals.append(sig)
+                    real_signals.append(sig)
             except Exception as e:
                 logger.warning("  error: %s", e)
             time.sleep(0.5)  # mild rate-limiting between calls
-    else:
-        signals = build_placeholder_records(top_founders)
+
+    # ALWAYS fill the rest with structured placeholders — that way the
+    # frontend always has a populated "tracked founders" list, even when
+    # the scraping layer is having a bad day.
+    real_handles = {(s.get("founder"), s.get("company")) for s in real_signals}
+    placeholders = [
+        p for p in build_placeholder_records(top_founders)
+        if (p["founder"], p["company"]) not in real_handles
+    ]
+    signals = real_signals + placeholders
 
     save_json(signals, "twitter_signals_auto.json")
 
@@ -507,17 +623,21 @@ def main():
         "script": "fetch_twitter_signals.py",
         "started_at": started_at,
         "finished_at": datetime.now(timezone.utc).isoformat(),
-        "mode": "real" if source else "placeholder",
+        "mode": "real+placeholder" if source else "placeholder",
         "data_source": source,
         "top_founders_tracked": len(top_founders),
         "founders_attempted": attempted,
-        "signals_collected": len([s for s in signals if not s.get("placeholder")]),
-        "placeholder_records": len([s for s in signals if s.get("placeholder")]),
+        "signals_collected": len(real_signals),
+        "placeholder_records": len(placeholders),
+        "apify_diagnostics": _APIFY_DIAGNOSTICS if source == "apify" else None,
         "ok": True,
         "notes": (
             "Structured placeholder — candidate handles are guessed from "
             "first+last name; populate via APIFY_TOKEN or X_BEARER_TOKEN."
-        ) if not source else None,
+        ) if not source else (
+            f"Real fetching attempted for {attempted} founders; "
+            f"{len(real_signals)} populated, rest are structured placeholders."
+        ),
     }
     save_json(status, "twitter_signals_status.json")
 
