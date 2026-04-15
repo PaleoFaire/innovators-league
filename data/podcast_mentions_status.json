@@ -1,7 +1,7 @@
 {
   "script": "fetch_podcast_mentions.py",
-  "started_at": "2026-04-14T08:18:37.506548+00:00",
-  "finished_at": "2026-04-14T08:18:44.286346+00:00",
+  "started_at": "2026-04-15T05:52:07.875366+00:00",
+  "finished_at": "2026-04-15T05:52:30.788383+00:00",
   "lookback_days": 30,
   "podcasts": [
     {
@@ -33,9 +33,45 @@
       "url": "https://feeds.megaphone.fm/EGP9797299583",
       "episodes_fetched": 0,
       "error": "HTTP 404"
+    },
+    {
+      "podcast": "Moment of Zen",
+      "url": "https://feeds.simplecast.com/2j9VU_Tx",
+      "episodes_fetched": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "podcast": "Dwarkesh Podcast",
+      "url": "https://www.dwarkeshpatel.com/feed",
+      "episodes_fetched": 20,
+      "error": null
+    },
+    {
+      "podcast": "No Priors",
+      "url": "https://feeds.transistor.fm/no-priors-artificial-intelligence",
+      "episodes_fetched": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "podcast": "Cognitive Revolution",
+      "url": "https://feeds.transistor.fm/cognitive-revolution",
+      "episodes_fetched": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "podcast": "a16z Podcast",
+      "url": "https://feeds.simplecast.com/JGE3yC0V",
+      "episodes_fetched": 1000,
+      "error": null
+    },
+    {
+      "podcast": "Odd Lots",
+      "url": "https://feeds.bloomberg.fm/BLM3667703180",
+      "episodes_fetched": 0,
+      "error": "all retries failed"
     }
   ],
-  "total_episodes": 1078,
-  "total_mentions": 88,
+  "total_episodes": 2098,
+  "total_mentions": 323,
   "ok": true
 }

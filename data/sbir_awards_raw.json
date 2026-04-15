@@ -1,7 +1,25 @@
-{
-  "status": "api_unavailable",
-  "message": "All 3 SBIR endpoints failed. Attempted 15 keyword searches, 0 returned usable data. No cached data available.",
-  "timestamp": "2026-04-14T08:21:09.379027",
-  "source": "fetch_sbir_awards.py",
-  "data": []
-}
+[
+  {
+    "firm": "",
+    "title": "",
+    "agency": "",
+    "branch": "",
+    "phase": "",
+    "program": "SBIR",
+    "awardYear": 0,
+    "awardAmount": 0,
+    "awardDate": "",
+    "abstract": "",
+    "city": "",
+    "state": "",
+    "employees": "",
+    "companyUrl": "",
+    "keywords": "",
+    "piName": "",
+    "isKnownCompany": false,
+    "isPlaceholder": true,
+    "status": "api_unavailable",
+    "message": "All 3 SBIR endpoints and scrape fallback failed. Attempted 15 keyword searches, 0 succeeded. No cached data available.",
+    "timestamp": "2026-04-15T05:52:42.973078"
+  }
+]
