@@ -21,9 +21,10 @@ def load_json(filename):
         try:
             with open(filepath) as f:
                 data = json.load(f)
-            # Handle status metadata objects (written when API fails gracefully)
-            if isinstance(data, dict) and data.get("status") in ("api_unavailable", "error", "fallback_failed", "partial"):
-                print(f"  INFO: {filename} contains status metadata: {data.get('message', 'unavailable')}")
+            # Handle status metadata objects (written when API fails or is uninitialized).
+            # If a dict has a "status" key AND a "data" key, treat it as a wrapper and return the inner data.
+            if isinstance(data, dict) and "status" in data:
+                print(f"  INFO: {filename} contains status metadata: {data.get('status')} — {data.get('message', 'no message')}")
                 inner = data.get("data", [])
                 return inner if isinstance(inner, list) else []
             return data
@@ -2021,6 +2022,12 @@ def update_diffbot_enrichment(data_js_content):
     enrichment = load_json("diffbot_enrichment_raw.json")
     if not enrichment:
         print("No Diffbot enrichment data found, skipping...")
+        return data_js_content
+
+    # Defensive: only iterate dict items (filter out any string entries)
+    enrichment = [e for e in enrichment if isinstance(e, dict)]
+    if not enrichment:
+        print("No valid Diffbot enrichment items (only string entries), skipping...")
         return data_js_content
 
     # Only include enriched companies
