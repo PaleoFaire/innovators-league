@@ -11,7 +11,7 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 4.0,
+      "avg_change": 4.03,
       "count": 7
     },
     "autonomous": {
@@ -39,9 +39,9 @@
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 4.92,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 5.91,
       "count": 3
     },
     "transportation": {
@@ -86,9 +86,9 @@
   ],
   "topLosers": [
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -2.0
+      "277810.KQ",
+      "Rainbow Robotics",
+      0.83
     ],
     [
       "PL",
@@ -111,5 +111,5 @@
       -9.58
     ]
   ],
-  "lastUpdated": "2026-04-15 05:45:14"
+  "lastUpdated": "2026-04-15 07:53:45"
 }
