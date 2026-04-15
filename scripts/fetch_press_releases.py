@@ -1,32 +1,80 @@
 #!/usr/bin/env python3
 """
 Press Release Aggregator
-Fetches press releases from PR Newswire and GlobeNewswire RSS feeds.
-Completely free - uses public RSS feeds.
-Now uses master company list for 450+ company coverage.
+========================
+Fetches press releases from a broad set of free RSS feeds and filters them
+for mentions of companies tracked in The Innovators League.
+
+Sources:
+  - PR Newswire (4 industry feeds)
+  - GlobeNewswire (general + technology)
+  - BusinessWire (top-news)
+  - Reuters Business news
+
+Improvements over v1:
+  - Retries with backoff on transient errors
+  - URL-level dedup across sources
+  - Keeps only the last 14 days of releases
+  - Loads the master company list the same way fetch_deals.py does,
+    giving much better matching coverage
+  - Targets 100+ relevant records per run
+  - Writes `press_releases_auto.js` with 100 entries (was 5)
 """
 
 import json
-import requests
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
-from pathlib import Path
-import time
 import re
+import time
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
 from html import unescape
+from pathlib import Path
 
-# Load master company list
+import requests
+from requests.adapters import HTTPAdapter
+
+try:
+    from urllib3.util.retry import Retry
+except ImportError:  # pragma: no cover
+    from urllib3.util import Retry  # type: ignore
+
+
+# ─────────────────────────────────────────────────────────────────
+# Session
+# ─────────────────────────────────────────────────────────────────
+def _make_session():
+    session = requests.Session()
+    retry = Retry(
+        total=3,
+        backoff_factor=2.0,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"],
+        respect_retry_after_header=True,
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    session.headers.update({
+        "User-Agent": "InnovatorsLeague-PressReleaseBot/2.0",
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+    })
+    return session
+
+
+SESSION = _make_session()
+REQUEST_TIMEOUT = 20
+WINDOW_DAYS = 14
+
+
+# ─────────────────────────────────────────────────────────────────
+# Master company list
+# ─────────────────────────────────────────────────────────────────
 def load_master_companies():
-    """Load company names and aliases from the JS master list."""
     script_dir = Path(__file__).parent
     master_list_path = script_dir / "company_master_list.js"
 
     companies = []
     if master_list_path.exists():
         content = master_list_path.read_text()
-        # Simple regex extraction of company names and aliases
-        import re
-        # Match: { name: "...", aliases: [...], ...
         pattern = r'\{\s*name:\s*"([^"]+)",\s*aliases:\s*\[([^\]]*)\]'
         for match in re.finditer(pattern, content):
             name = match.group(1)
@@ -37,46 +85,38 @@ def load_master_companies():
                 'aliases': aliases,
                 'search_terms': [name] + aliases
             })
-
     return companies
 
-# Load company list at module level
+
 MASTER_COMPANIES = load_master_companies()
 
-# PR Newswire RSS feeds by industry
+
+# ─────────────────────────────────────────────────────────────────
+# Feed configuration
+# ─────────────────────────────────────────────────────────────────
 PR_NEWSWIRE_FEEDS = {
     "aerospace": "https://www.prnewswire.com/rss/aerospace-defense-news.rss",
     "technology": "https://www.prnewswire.com/rss/technology-latest-news.rss",
     "energy": "https://www.prnewswire.com/rss/energy-latest-news.rss",
     "biotech": "https://www.prnewswire.com/rss/biotechnology-latest-news.rss",
+    "news_releases_list": "https://www.prnewswire.com/rss/news-releases-list.rss",
 }
 
-# GlobeNewswire RSS feeds
 GLOBENEWSWIRE_FEEDS = {
     "all": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20Releases",
+    "technology": "https://www.globenewswire.com/rss/technology",
 }
 
-# Build TRACKED_COMPANIES from master list (450+ companies with aliases)
-def get_tracked_companies():
-    """Get all company names and aliases for tracking."""
-    if MASTER_COMPANIES:
-        all_terms = []
-        for company in MASTER_COMPANIES:
-            all_terms.append(company['name'])
-            # Only add aliases that are 4+ chars to avoid false matches
-            all_terms.extend([a for a in company['aliases'] if len(a) >= 4])
-        return list(set(all_terms))
-    else:
-        # Fallback to basic list if master list not found
-        return [
-            "Anduril", "Shield AI", "Palantir", "SpaceX", "Rocket Lab",
-            "OpenAI", "Anthropic", "Figure AI", "Oklo", "Helion",
-            "Commonwealth Fusion", "Tesla", "Nvidia", "AMD"
-        ]
+BUSINESSWIRE_FEEDS = {
+    "home": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEVtRXw==",
+    "technology": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVtaWA==",
+}
 
-TRACKED_COMPANIES = get_tracked_companies()
+REUTERS_FEEDS = {
+    "business": "https://www.reutersagency.com/feed/?best-sectors=business-finance&post_type=best",
+    "technology": "https://www.reutersagency.com/feed/?best-sectors=technology-innovation&post_type=best",
+}
 
-# Keywords for categorization
 CATEGORY_KEYWORDS = {
     "funding": ["funding", "raises", "raised", "million", "billion", "investment", "series", "round"],
     "contract": ["contract", "award", "selected", "wins", "awarded"],
@@ -87,165 +127,204 @@ CATEGORY_KEYWORDS = {
     "hiring": ["hires", "appoints", "names", "executive", "CEO", "CTO"],
 }
 
+DATE_FORMATS = [
+    "%a, %d %b %Y %H:%M:%S %z",
+    "%a, %d %b %Y %H:%M:%S %Z",
+    "%a, %d %b %Y %H:%M:%S GMT",
+    "%Y-%m-%dT%H:%M:%S%z",
+    "%Y-%m-%dT%H:%M:%SZ",
+    "%Y-%m-%d %H:%M:%S",
+    "%Y-%m-%d",
+]
+
+
+# ─────────────────────────────────────────────────────────────────
+# RSS parsing
+# ─────────────────────────────────────────────────────────────────
 def parse_rss_feed(url, source):
-    """Parse an RSS feed and extract items."""
     try:
-        response = requests.get(url, timeout=30)
-        if response.status_code != 200:
-            return []
+        response = SESSION.get(url, timeout=REQUEST_TIMEOUT)
+    except requests.exceptions.RequestException as e:
+        print(f"  Error fetching {url}: {e}")
+        return []
+    if response.status_code != 200:
+        print(f"  {url}: HTTP {response.status_code}")
+        return []
 
+    try:
         root = ET.fromstring(response.content)
-
-        items = []
-        for item in root.findall(".//item"):
-            title = item.find("title")
-            link = item.find("link")
-            description = item.find("description")
-            pub_date = item.find("pubDate")
-
-            if title is not None:
-                items.append({
-                    "title": unescape(title.text or ""),
-                    "link": link.text if link is not None else "",
-                    "description": unescape((description.text or "")[:500]),
-                    "pubDate": pub_date.text if pub_date is not None else "",
-                    "source": source,
-                })
-
-        return items
-
-    except Exception as e:
+    except ET.ParseError as e:
         print(f"  Error parsing {url}: {e}")
         return []
 
-def filter_relevant_releases(items):
-    """Filter press releases for tracked companies using master list."""
+    items = []
+    for item in root.findall(".//item"):
+        title = item.find("title")
+        link = item.find("link")
+        description = item.find("description")
+        pub_date = item.find("pubDate")
+        if title is None:
+            continue
+        items.append({
+            "title": unescape((title.text or "").strip()),
+            "link": (link.text or "").strip() if link is not None else "",
+            "description": unescape((description.text or "")[:500]) if description is not None else "",
+            "pubDate": (pub_date.text or "").strip() if pub_date is not None else "",
+            "source": source,
+        })
+    return items
+
+
+def parse_pub_date_dt(date_str):
+    """Return a timezone-aware datetime or None."""
+    if not date_str:
+        return None
+    s = date_str.strip()
+    for fmt in DATE_FORMATS:
+        try:
+            dt = datetime.strptime(s, fmt)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt
+        except ValueError:
+            continue
+    return None
+
+
+def parse_pub_date(date_str):
+    dt = parse_pub_date_dt(date_str)
+    return dt.strftime("%Y-%m-%d") if dt else ""
+
+
+# ─────────────────────────────────────────────────────────────────
+# Filtering & dedup
+# ─────────────────────────────────────────────────────────────────
+def _company_mentions(text):
+    """Return the list of master-list companies mentioned in `text`."""
+    text_lower = text.lower()
+    mentioned = []
+    if not MASTER_COMPANIES:
+        return mentioned
+    for company in MASTER_COMPANIES:
+        name_lower = company['name'].lower()
+        hit = False
+        if len(name_lower) >= 6:
+            if name_lower in text_lower:
+                hit = True
+        else:
+            if re.search(r'\b' + re.escape(name_lower) + r'\b', text_lower):
+                hit = True
+        if not hit:
+            for alias in company['aliases']:
+                if len(alias) >= 4 and alias.lower() in text_lower:
+                    hit = True
+                    break
+        if hit:
+            mentioned.append(company['name'])
+    return mentioned
+
+
+def filter_relevant_releases(items, window_days=WINDOW_DAYS):
+    """
+    Keep only items from the last `window_days` that mention a tracked company.
+    Dedup by URL.
+    """
     relevant = []
+    seen_urls = set()
+    cutoff = datetime.now(timezone.utc) - timedelta(days=window_days)
 
     for item in items:
-        text = (item.get("title", "") + " " + item.get("description", "")).lower()
+        url = item.get("link") or ""
+        if url and url in seen_urls:
+            continue
+        if url:
+            seen_urls.add(url)
 
-        # Find matching companies from master list
-        matched_companies = []
-        matched_sectors = set()
+        # Date filter
+        dt = parse_pub_date_dt(item.get("pubDate", ""))
+        if dt and dt < cutoff:
+            continue
 
-        if MASTER_COMPANIES:
-            for company in MASTER_COMPANIES:
-                # Check company name (use word boundary-like matching for short names)
-                name_lower = company['name'].lower()
-                if len(name_lower) >= 6:
-                    # Longer names: substring match is fine
-                    if name_lower in text:
-                        matched_companies.append(company['name'])
-                        continue
-                else:
-                    # Short names (e.g., "Oklo", "Vast"): need word boundaries
-                    if re.search(r'\b' + re.escape(name_lower) + r'\b', text):
-                        matched_companies.append(company['name'])
-                        continue
+        text = (item.get("title", "") + " " + item.get("description", ""))
+        matched = _company_mentions(text)
+        if not matched:
+            continue
 
-                # Check aliases (4+ chars only)
-                for alias in company['aliases']:
-                    alias_lower = alias.lower()
-                    if len(alias) >= 4 and alias_lower in text:
-                        matched_companies.append(company['name'])
-                        break
-        else:
-            # Fallback to simple matching
-            for company in TRACKED_COMPANIES:
-                if company.lower() in text:
-                    matched_companies.append(company)
+        seen = set()
+        unique = []
+        for c in matched:
+            if c not in seen:
+                seen.add(c)
+                unique.append(c)
 
-        if matched_companies:
-            # Remove duplicates while preserving order
-            seen = set()
-            unique_companies = []
-            for c in matched_companies:
-                if c not in seen:
-                    seen.add(c)
-                    unique_companies.append(c)
+        categories = []
+        text_lower = text.lower()
+        for cat, keywords in CATEGORY_KEYWORDS.items():
+            if any(kw.lower() in text_lower for kw in keywords):
+                categories.append(cat)
 
-            # Categorize the release
-            categories = []
-            for cat, keywords in CATEGORY_KEYWORDS.items():
-                if any(kw.lower() in text for kw in keywords):
-                    categories.append(cat)
-
-            item["companies"] = unique_companies
-            item["categories"] = categories
-            relevant.append(item)
+        item["companies"] = unique
+        item["categories"] = categories
+        item["date"] = parse_pub_date(item.get("pubDate", ""))
+        relevant.append(item)
 
     return relevant
 
-def parse_pub_date(date_str):
-    """Parse various date formats to YYYY-MM-DD."""
-    formats = [
-        "%a, %d %b %Y %H:%M:%S %z",
-        "%a, %d %b %Y %H:%M:%S GMT",
-        "%Y-%m-%dT%H:%M:%S%z",
-        "%Y-%m-%d",
-    ]
 
-    for fmt in formats:
-        try:
-            dt = datetime.strptime(date_str.strip(), fmt)
-            return dt.strftime("%Y-%m-%d")
-        except:
-            continue
-
-    return ""
-
+# ─────────────────────────────────────────────────────────────────
+# Fetcher
+# ─────────────────────────────────────────────────────────────────
 def fetch_all_press_releases():
-    """Fetch press releases from all feeds."""
     all_releases = []
+    feed_stats = []
 
-    # Fetch from PR Newswire
+    all_feeds = []
     for industry, url in PR_NEWSWIRE_FEEDS.items():
-        print(f"Fetching PR Newswire {industry}...")
-        items = parse_rss_feed(url, f"prnewswire_{industry}")
-        print(f"  Found {len(items)} items")
-        all_releases.extend(items)
-        time.sleep(0.5)
-
-    # Fetch from GlobeNewswire
+        all_feeds.append((f"prnewswire_{industry}", url))
     for feed_name, url in GLOBENEWSWIRE_FEEDS.items():
-        print(f"Fetching GlobeNewswire {feed_name}...")
-        items = parse_rss_feed(url, f"globenewswire_{feed_name}")
+        all_feeds.append((f"globenewswire_{feed_name}", url))
+    for feed_name, url in BUSINESSWIRE_FEEDS.items():
+        all_feeds.append((f"businesswire_{feed_name}", url))
+    for feed_name, url in REUTERS_FEEDS.items():
+        all_feeds.append((f"reuters_{feed_name}", url))
+
+    for source_name, url in all_feeds:
+        print(f"Fetching {source_name}...")
+        items = parse_rss_feed(url, source_name)
         print(f"  Found {len(items)} items")
         all_releases.extend(items)
+        feed_stats.append((source_name, len(items)))
         time.sleep(0.5)
 
-    return all_releases
+    return all_releases, feed_stats
 
+
+# ─────────────────────────────────────────────────────────────────
+# File I/O
+# ─────────────────────────────────────────────────────────────────
 def save_to_json(data, filename):
-    """Save data to JSON file."""
     output_path = Path(__file__).parent.parent / "data" / filename
     output_path.parent.mkdir(exist_ok=True)
-
     with open(output_path, "w") as f:
         json.dump(data, f, indent=2)
-
     print(f"Saved {len(data)} records to {output_path}")
 
-def generate_js_snippet(releases):
-    """Generate JavaScript code snippet for PRESS_RELEASES."""
-    # Parse and sort by date
-    for r in releases:
-        r["date"] = parse_pub_date(r.get("pubDate", ""))
 
+def generate_js_snippet(releases):
+    for r in releases:
+        r["date"] = r.get("date") or parse_pub_date(r.get("pubDate", ""))
     releases.sort(key=lambda x: x.get("date", ""), reverse=True)
 
     js_output = "// Auto-updated press releases\n"
     js_output += f"// Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}\n"
     js_output += "const PRESS_RELEASES = [\n"
 
-    for r in releases[:40]:
-        title = r.get("title", "").replace('"', '\\"').replace('\n', ' ')[:80]
+    for r in releases[:100]:
+        title = r.get("title", "").replace('"', '\\"').replace('\n', ' ')[:100]
         companies = ", ".join(r.get("companies", [])[:3])
         categories = ", ".join(r.get("categories", [])[:2])
-
         js_output += f'  {{ title: "{title}", '
-        js_output += f'date: "{r["date"]}", companies: "{companies}", '
+        js_output += f'date: "{r.get("date", "")}", companies: "{companies}", '
         js_output += f'categories: "{categories}", source: "{r["source"]}" }},\n'
 
     js_output += "];\n"
@@ -253,39 +332,38 @@ def generate_js_snippet(releases):
     output_path = Path(__file__).parent.parent / "data" / "press_releases_auto.js"
     with open(output_path, "w") as f:
         f.write(js_output)
-
     print(f"Generated JS snippet at {output_path}")
 
+
+# ─────────────────────────────────────────────────────────────────
+# Main
+# ─────────────────────────────────────────────────────────────────
 def main():
     print("=" * 60)
     print("Press Release Aggregator")
     print("=" * 60)
     print(f"Master company list: {len(MASTER_COMPANIES)} companies loaded")
-    print(f"Search terms: {len(TRACKED_COMPANIES)} (including aliases)")
-    print(f"Fetching from {len(PR_NEWSWIRE_FEEDS) + len(GLOBENEWSWIRE_FEEDS)} RSS feeds")
+    print(f"Window: last {WINDOW_DAYS} days")
     print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
-    # Fetch all releases
-    all_releases = fetch_all_press_releases()
+    all_releases, feed_stats = fetch_all_press_releases()
     print(f"\nTotal releases fetched: {len(all_releases)}")
 
-    # Filter relevant
     relevant = filter_relevant_releases(all_releases)
-    print(f"Relevant to tracked companies: {len(relevant)}")
+    print(f"Relevant to tracked companies (last {WINDOW_DAYS} days): {len(relevant)}")
 
-    # Save data
     save_to_json(all_releases, "press_releases_raw.json")
     save_to_json(relevant, "press_releases_filtered.json")
 
-    # Generate JS snippet
     generate_js_snippet(relevant)
 
     print("\n" + "=" * 60)
-    print("Done!")
+    print("Feed Summary")
     print("=" * 60)
+    for source, count in feed_stats:
+        print(f"  {source}: {count}")
 
-    # Summary
     if relevant:
         print("\nMost mentioned companies:")
         company_counts = {}
@@ -295,9 +373,15 @@ def main():
         for company, count in sorted(company_counts.items(), key=lambda x: -x[1])[:10]:
             print(f"  {company}: {count} releases")
 
-        print("\nRecent releases:")
+        print("\nRecent relevant releases:")
         for r in sorted(relevant, key=lambda x: x.get("date", ""), reverse=True)[:5]:
-            print(f"  [{r.get('date', 'N/A')}] {r['title'][:60]}...")
+            title = r.get('title', '')
+            print(f"  [{r.get('date', 'N/A')}] {title[:60]}...")
+
+    print("\n" + "=" * 60)
+    print("Done!")
+    print("=" * 60)
+
 
 if __name__ == "__main__":
     main()

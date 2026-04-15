@@ -1,0 +1,683 @@
+name: Comprehensive Data Sync
+
+# Runs all data fetchers daily at 7 AM UTC
+# Previously split into daily/weekly but the weekly condition was broken,
+# so all fetchers now run daily for reliable data freshness.
+#
+# Every fetcher job uses `continue-on-error: true` so a single dead API
+# can't take down the whole sync. The final `data-health-summary` job
+# records which steps succeeded in `data/data_health.json`.
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+
+  workflow_dispatch:
+    inputs:
+      sync_type:
+        description: 'Type of sync to run'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - daily-only
+          - research-only
+
+permissions:
+  contents: write
+
+jobs:
+  # ═══════════════════════════════════════════════════════════
+  # HIGH-FREQUENCY SOURCES
+  # ═══════════════════════════════════════════════════════════
+
+  sync-hackernews:
+    name: Sync Hacker News Buzz
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'research-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_hackernews.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hackernews-data
+          path: |
+            data/hackernews_buzz_raw.json
+            data/hackernews_buzz_auto.js
+          retention-days: 7
+
+  sync-press-releases:
+    name: Sync Press Releases
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'research-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_press_releases.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: press-releases-data
+          path: |
+            data/press_releases_raw.json
+            data/press_releases_filtered.json
+            data/press_releases_auto.js
+          retention-days: 7
+
+  sync-federal-register:
+    name: Sync Federal Register
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'research-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_federal_register.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: federal-register-data
+          path: |
+            data/federal_register_raw.json
+            data/federal_register_filtered.json
+            data/federal_register_auto.js
+          retention-days: 7
+
+  # ═══════════════════════════════════════════════════════════
+  # RESEARCH & GOVERNMENT SOURCES
+  # ═══════════════════════════════════════════════════════════
+
+  sync-arxiv:
+    name: Sync arXiv Research Papers
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_arxiv_research.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arxiv-data
+          path: |
+            data/arxiv_papers_raw.json
+            data/arxiv_papers_filtered.json
+            data/arxiv_papers_auto.js
+          retention-days: 7
+
+  sync-clinical-trials:
+    name: Sync Clinical Trials
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_clinical_trials.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clinical-trials-data
+          path: |
+            data/clinical_trials_raw.json
+            data/clinical_trials_active.json
+            data/clinical_trials_auto.js
+          retention-days: 7
+
+  sync-nsf-grants:
+    name: Sync NSF Research Grants
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_nsf_grants.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nsf-grants-data
+          path: |
+            data/nsf_awards_raw.json
+            data/nsf_awards_auto.js
+          retention-days: 7
+
+  sync-doe-energy:
+    name: Sync DOE Energy Programs
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_doe_energy.py
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: doe-energy-data
+          path: |
+            data/doe_programs_raw.json
+            data/eia_statistics_raw.json
+            data/doe_programs_auto.js
+          retention-days: 7
+
+  sync-nasa:
+    name: Sync NASA TechPort Projects
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_nasa_techport.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nasa-data
+          path: |
+            data/nasa_projects_raw.json
+            data/nasa_projects_filtered.json
+            data/nasa_projects_auto.js
+          retention-days: 7
+
+  sync-congress-bills:
+    name: Sync Congress Bills
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_congress_bills.py
+        env:
+          CONGRESS_API_KEY: ${{ secrets.CONGRESS_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: congress-bills-data
+          path: |
+            data/congress_bills_auto.js
+            data/congress_bills_auto.json
+          retention-days: 7
+
+  sync-sbir-topics:
+    name: Sync SBIR/STTR Topics
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_sbir_topics.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sbir-topics-data
+          path: |
+            data/sbir_topics_auto.js
+            data/sbir_topics_auto.json
+          retention-days: 7
+
+  sync-demand-signals:
+    name: Sync Demand Signals
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_demand_signals.py
+        env:
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: demand-signals-data
+          path: |
+            data/demand_signals_auto.js
+            data/demand_signals_auto.json
+          retention-days: 7
+
+  sync-nrc-licensing:
+    name: Sync NRC Licensing
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_nrc_licensing.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nrc-licensing-data
+          path: |
+            data/nrc_licensing_auto.js
+            data/nrc_licensing_auto.json
+          retention-days: 7
+
+  sync-faa-certification:
+    name: Sync FAA Certification
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_faa_certification.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: faa-certification-data
+          path: |
+            data/faa_certification_auto.js
+            data/faa_certification_auto.json
+          retention-days: 7
+
+  sync-sam-contracts:
+    name: Sync SAM.gov Contract Opportunities
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_sam_contracts.py
+        env:
+          SAM_API_KEY: ${{ secrets.SAM_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sam-contracts-data
+          path: |
+            data/sam_contracts_raw.json
+            data/sam_contracts_aggregated.json
+            data/sam_contracts_auto.js
+          retention-days: 7
+
+  sync-census-trade:
+    name: Sync Census Bureau Trade Data
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_census_trade.py
+        env:
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: census-trade-data
+          path: |
+            data/trade_data_raw.json
+            data/trade_data_auto.js
+          retention-days: 7
+
+  sync-sbir-awards:
+    name: Sync SBIR/STTR Government Grants
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_sbir_awards.py
+        env:
+          DATA_GOV_API_KEY: ${{ secrets.DATA_GOV_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sbir-awards-data
+          path: |
+            data/sbir_awards_raw.json
+            data/sbir_awards_auto.js
+          retention-days: 7
+
+  sync-nih-grants:
+    name: Sync NIH Reporter Grants
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_nih_grants.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nih-grants-data
+          path: |
+            data/nih_grants_raw.json
+            data/nih_grants_auto.js
+          retention-days: 7
+
+  sync-arpa-e:
+    name: Sync ARPA-E Energy Projects
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_arpa_e_projects.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arpa-e-data
+          path: |
+            data/arpa_e_projects_raw.json
+            data/arpa_e_projects_auto.js
+          retention-days: 7
+
+  sync-diffbot:
+    name: Sync Diffbot Company Enrichment
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_diffbot_enrichment.py
+        env:
+          DIFFBOT_API_TOKEN: ${{ secrets.DIFFBOT_API_TOKEN }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: diffbot-data
+          path: |
+            data/diffbot_enrichment_raw.json
+            data/diffbot_enrichment_auto.js
+          retention-days: 7
+
+  sync-vc-portfolios:
+    name: Sync VC Portfolio Pages
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'daily-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_vc_portfolios.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vc-portfolio-data
+          path: |
+            data/vc_portfolio_changes.json
+          retention-days: 7
+
+  # ═══════════════════════════════════════════════════════════
+  # NEW DAILY SOURCES — Funding RSS, GitHub Signals, Podcasts, Twitter
+  # ═══════════════════════════════════════════════════════════
+
+  sync-funding-rss:
+    name: Sync Funding RSS Feed
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'research-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests feedparser
+      - run: python scripts/fetch_funding_rss.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: funding-rss-data
+          path: |
+            data/funding_feed_auto.json
+            data/funding_feed_status.json
+          retention-days: 7
+
+  sync-github-signals:
+    name: Sync GitHub Org Signals
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'research-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_github_signals.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: github-signals-data
+          path: |
+            data/github_signals_auto.json
+            data/github_signals_status.json
+            data/github_signals_etag_cache.json
+          retention-days: 7
+
+  sync-podcast-mentions:
+    name: Sync Podcast Mentions
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'research-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests feedparser
+      - run: python scripts/fetch_podcast_mentions.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: podcast-mentions-data
+          path: |
+            data/podcast_mentions_auto.json
+            data/podcast_mentions_status.json
+          retention-days: 7
+
+  sync-twitter-signals:
+    name: Sync Twitter/X Signals (experimental)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    if: github.event.inputs.sync_type != 'research-only'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python scripts/fetch_twitter_signals.py
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: twitter-signals-data
+          path: |
+            data/twitter_signals_auto.json
+            data/twitter_signals_status.json
+          retention-days: 7
+
+  # ═══════════════════════════════════════════════════════════
+  # MERGE AND COMMIT - Runs after all fetchers complete
+  # (NO continue-on-error — merge / commit must succeed)
+  # ═══════════════════════════════════════════════════════════
+
+  merge-all-data:
+    name: Merge All Data
+    runs-on: ubuntu-latest
+    needs: [sync-hackernews, sync-press-releases, sync-federal-register, sync-arxiv, sync-clinical-trials, sync-nsf-grants, sync-doe-energy, sync-nasa, sync-congress-bills, sync-sbir-topics, sync-demand-signals, sync-nrc-licensing, sync-faa-certification, sync-sam-contracts, sync-census-trade, sync-sbir-awards, sync-nih-grants, sync-arpa-e, sync-diffbot, sync-vc-portfolios, sync-funding-rss, sync-github-signals, sync-podcast-mentions, sync-twitter-signals]
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: downloaded-data/
+          merge-multiple: true
+
+      - name: Copy data files
+        run: |
+          mkdir -p data/
+          cp -r downloaded-data/* data/ 2>/dev/null || true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests feedparser python-dateutil
+
+      - name: Clean stale placeholder data
+        run: python scripts/clean_stale_data.py
+        continue-on-error: true
+
+      - name: Merge comprehensive data into data.js
+        run: python scripts/merge_data.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push
+        run: |
+          git add data/
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: Comprehensive data sync $(date +%Y-%m-%d)"
+          git pull --rebase origin main || true
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # ═══════════════════════════════════════════════════════════
+  # DATA HEALTH SUMMARY
+  # Writes data/data_health.json recording which fetchers succeeded,
+  # which were skipped, and which failed.
+  # ═══════════════════════════════════════════════════════════
+
+  data-health-summary:
+    name: Data Health Summary
+    runs-on: ubuntu-latest
+    needs: [sync-hackernews, sync-press-releases, sync-federal-register, sync-arxiv, sync-clinical-trials, sync-nsf-grants, sync-doe-energy, sync-nasa, sync-congress-bills, sync-sbir-topics, sync-demand-signals, sync-nrc-licensing, sync-faa-certification, sync-sam-contracts, sync-census-trade, sync-sbir-awards, sync-nih-grants, sync-arpa-e, sync-diffbot, sync-vc-portfolios, sync-funding-rss, sync-github-signals, sync-podcast-mentions, sync-twitter-signals, merge-all-data]
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Write data/data_health.json
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+
+          steps = {
+            "hackernews":      "${{ needs.sync-hackernews.result }}",
+            "press_releases":  "${{ needs.sync-press-releases.result }}",
+            "federal_register":"${{ needs.sync-federal-register.result }}",
+            "arxiv":           "${{ needs.sync-arxiv.result }}",
+            "clinical_trials": "${{ needs.sync-clinical-trials.result }}",
+            "nsf_grants":      "${{ needs.sync-nsf-grants.result }}",
+            "doe_energy":      "${{ needs.sync-doe-energy.result }}",
+            "nasa":            "${{ needs.sync-nasa.result }}",
+            "congress_bills":  "${{ needs.sync-congress-bills.result }}",
+            "sbir_topics":     "${{ needs.sync-sbir-topics.result }}",
+            "demand_signals":  "${{ needs.sync-demand-signals.result }}",
+            "nrc_licensing":   "${{ needs.sync-nrc-licensing.result }}",
+            "faa_certification":"${{ needs.sync-faa-certification.result }}",
+            "sam_contracts":   "${{ needs.sync-sam-contracts.result }}",
+            "census_trade":    "${{ needs.sync-census-trade.result }}",
+            "sbir_awards":     "${{ needs.sync-sbir-awards.result }}",
+            "nih_grants":      "${{ needs.sync-nih-grants.result }}",
+            "arpa_e":          "${{ needs.sync-arpa-e.result }}",
+            "diffbot":         "${{ needs.sync-diffbot.result }}",
+            "vc_portfolios":   "${{ needs.sync-vc-portfolios.result }}",
+            "funding_rss":     "${{ needs.sync-funding-rss.result }}",
+            "github_signals":  "${{ needs.sync-github-signals.result }}",
+            "podcast_mentions":"${{ needs.sync-podcast-mentions.result }}",
+            "twitter_signals": "${{ needs.sync-twitter-signals.result }}",
+            "merge_all_data":  "${{ needs.merge-all-data.result }}",
+          }
+          succeeded = [k for k, v in steps.items() if v == "success"]
+          failed    = [k for k, v in steps.items() if v == "failure"]
+          skipped   = [k for k, v in steps.items() if v in ("skipped", "cancelled", "")]
+
+          health = {
+            "workflow": "comprehensive-data-sync",
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "steps": steps,
+            "summary": {
+              "total": len(steps),
+              "succeeded": len(succeeded),
+              "failed": len(failed),
+              "skipped": len(skipped),
+            },
+            "succeeded": succeeded,
+            "failed": failed,
+            "skipped": skipped,
+          }
+          os.makedirs("data", exist_ok=True)
+          with open("data/data_health.json", "w") as f:
+              json.dump(health, f, indent=2)
+          print(json.dumps(health["summary"], indent=2))
+          PY
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit health file
+        run: |
+          git pull --rebase origin main || true
+          git add data/data_health.json
+          git diff --staged --quiet || git commit -m "🩺 Data health summary $(date +%Y-%m-%d)"
+          git push || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

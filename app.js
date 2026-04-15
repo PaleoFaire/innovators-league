@@ -473,23 +473,26 @@ function initPodcastSection() {
   if (!container || typeof FIELD_NOTES === 'undefined') return;
 
   var podcasts = FIELD_NOTES.filter(function(n) { return n.type === 'podcast' || n.type === 'interview'; })
-    .sort(function(a, b) { return new Date(b.date) - new Date(a.date); })
-    .slice(0, 3);
+    .sort(function(a, b) { return new Date(b.date) - new Date(a.date); });
 
   if (!podcasts.length) { container.parentElement.style.display = 'none'; return; }
 
-  var html = '<div class="podcast-grid">';
-  podcasts.forEach(function(ep) {
-    html += '<a class="podcast-card" href="' + sanitizeUrl(ep.sourceUrl || '#') + '" target="_blank" rel="noopener">';
-    html += '<div class="podcast-type">' + (ep.type === 'podcast' ? '🎙️ Podcast' : '🎤 Interview') + '</div>';
-    html += '<h4 class="podcast-title">' + escapeHtml(ep.title) + '</h4>';
-    html += '<div class="podcast-guest">' + escapeHtml(ep.founder || '') + (ep.founderTitle ? ', ' + escapeHtml(ep.founderTitle) : '') + '</div>';
-    html += '<div class="podcast-company">' + escapeHtml(ep.company) + '</div>';
-    html += '<div class="podcast-date">' + escapeHtml(ep.date) + '</div>';
-    html += '</a>';
-  });
-  html += '</div>';
-  container.innerHTML = html;
+  function podcastHTML(ep) {
+    return '<a class="podcast-card" href="' + sanitizeUrl(ep.sourceUrl || '#') + '" target="_blank" rel="noopener">' +
+      '<div class="podcast-type">' + (ep.type === 'podcast' ? '🎙️ Podcast' : '🎤 Interview') + '</div>' +
+      '<h4 class="podcast-title">' + escapeHtml(ep.title) + '</h4>' +
+      '<div class="podcast-guest">' + escapeHtml(ep.founder || '') + (ep.founderTitle ? ', ' + escapeHtml(ep.founderTitle) : '') + '</div>' +
+      '<div class="podcast-company">' + escapeHtml(ep.company) + '</div>' +
+      '<div class="podcast-date">' + escapeHtml(ep.date) + '</div>' +
+    '</a>';
+  }
+
+  if (typeof paginateList === 'function') {
+    paginateList(container, podcasts, podcastHTML, { initialCount: 6, stepSize: 6, label: 'episodes', wrapperTag: 'div', wrapperClass: 'podcast-grid' });
+  } else {
+    var html = '<div class="podcast-grid">' + podcasts.slice(0, 6).map(podcastHTML).join('') + '</div>';
+    container.innerHTML = html;
+  }
 }
 
 // ─── PARTNER PORTAL ───
@@ -2114,14 +2117,13 @@ function renderConvictionStack() {
     'caution': { label: 'CAUTION', cls: 'cs-caution', icon: '\u{1F534}' }
   };
 
-  var html = '<div class="conviction-stack-list">';
-  notes.forEach(function(note) {
+  function noteHTML(note) {
     var b = badges[note.conviction] || badges['watch'];
     var company = (typeof COMPANIES !== 'undefined') ? COMPANIES.find(function(c) { return c.name === note.company; }) : null;
     var sector = company ? company.sector : '';
     var sectorInfo = (typeof SECTORS !== 'undefined' && sector) ? SECTORS[sector] : { icon: '\u{1F52C}', color: '#6b7280' };
 
-    html += '<a href="company.html?slug=' + companyToSlug(note.company) + '" class="cs-item">' +
+    return '<a href="company.html?slug=' + companyToSlug(note.company) + '" class="cs-item">' +
       '<div class="cs-item-left">' +
         '<span class="cs-badge ' + b.cls + '">' + b.icon + ' ' + b.label + '</span>' +
         '<div class="cs-company">' +
@@ -2134,10 +2136,14 @@ function renderConvictionStack() {
         '<span class="cs-source">' + escapeHtml(note.source || '') + '</span>' +
       '</div>' +
     '</a>';
-  });
-  html += '</div>';
+  }
 
-  container.innerHTML = html;
+  if (typeof paginateList === 'function') {
+    paginateList(container, notes, noteHTML, { initialCount: 10, stepSize: 10, label: 'convictions', wrapperTag: 'div', wrapperClass: 'conviction-stack-list' });
+  } else {
+    var html = '<div class="conviction-stack-list">' + notes.map(noteHTML).join('') + '</div>';
+    container.innerHTML = html;
+  }
 }
 
 // ─── APP INITIALIZATION ───
@@ -3414,12 +3420,26 @@ function renderSearchResults(results, dropdown) {
 }
 
 // ─── RENDER COMPANIES ───
+const COMPANY_INITIAL_COUNT = 30;
+const COMPANY_STEP_SIZE = 30;
+let companyShownCount = COMPANY_INITIAL_COUNT;
+let lastRenderedCompanies = null;
+
 function renderCompanies(companies) {
   const grid = document.getElementById('company-grid');
   if (!grid) return;
   grid.innerHTML = '';
 
-  companies.forEach((company, i) => {
+  // Reset paging when a new filter changes the underlying list
+  if (lastRenderedCompanies !== companies) {
+    companyShownCount = COMPANY_INITIAL_COUNT;
+    lastRenderedCompanies = companies;
+  }
+
+  const total = companies.length;
+  const visibleCompanies = companies.slice(0, companyShownCount);
+
+  visibleCompanies.forEach((company, i) => {
     const sectorInfo = SECTORS[company.sector] || { color: '#6b7280', icon: '' };
     const saved = isBookmarked(company.name);
     const inCompare = compareList.includes(company.name);
@@ -3489,6 +3509,36 @@ function renderCompanies(companies) {
 
     grid.appendChild(card);
   });
+
+  // Pagination: Show more / show less button
+  const remaining = total - companyShownCount;
+  if (total > COMPANY_INITIAL_COUNT) {
+    const actions = document.createElement('div');
+    actions.className = 'paginated-list-actions';
+    if (remaining > 0) {
+      const nextBatch = Math.min(COMPANY_STEP_SIZE, remaining);
+      actions.innerHTML = `<button class="show-more-btn" type="button" data-company-action="show-more">Show ${nextBatch} more companies <span class="show-more-count">(${remaining} remaining)</span></button>`;
+    } else {
+      actions.innerHTML = `<button class="show-more-btn show-less-btn" type="button" data-company-action="show-less">Show less</button>`;
+    }
+    grid.appendChild(actions);
+    const btn = actions.querySelector('[data-company-action]');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        if (btn.getAttribute('data-company-action') === 'show-more') {
+          companyShownCount = Math.min(companyShownCount + COMPANY_STEP_SIZE, total);
+        } else {
+          companyShownCount = COMPANY_INITIAL_COUNT;
+          grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        // Re-render using cached list reference so we don't reset the state
+        const cached = lastRenderedCompanies;
+        lastRenderedCompanies = null;
+        renderCompanies(cached);
+        lastRenderedCompanies = cached;
+      });
+    }
+  }
 
   // Re-initialize reveal animations for newly rendered cards
   if (typeof initRevealAnimations === 'function') initRevealAnimations();
@@ -4651,33 +4701,70 @@ function initFundingTracker() {
   const grid = document.getElementById('funding-tracker-grid');
   if (!grid || typeof FUNDING_TRACKER === 'undefined') return;
 
-  // Header row
-  const header = document.createElement('div');
-  header.className = 'funding-row funding-row-header';
-  header.innerHTML = `
-    <span>Company</span>
-    <span>Amount</span>
-    <span>Stage</span>
-    <span>Lead Investor</span>
-    <span>Valuation</span>
-    <span>Date</span>
-  `;
-  grid.appendChild(header);
+  const FT_INITIAL_COUNT = 20;
+  const FT_STEP_SIZE = 20;
+  let ftShownCount = FT_INITIAL_COUNT;
 
-  FUNDING_TRACKER.forEach(round => {
-    const row = document.createElement('div');
-    row.className = 'funding-row';
-    row.innerHTML = `
-      <span class="funding-company">${round.company}</span>
-      <span class="funding-amount">${round.amount}</span>
-      <span><span class="funding-stage-tag">${round.stage}</span></span>
-      <span class="funding-lead">${round.lead}</span>
-      <span class="funding-val">${round.valuation}</span>
-      <span class="funding-date">${round.date}</span>
+  function renderFunding() {
+    grid.innerHTML = '';
+    // Header row
+    const header = document.createElement('div');
+    header.className = 'funding-row funding-row-header';
+    header.innerHTML = `
+      <span>Company</span>
+      <span>Amount</span>
+      <span>Stage</span>
+      <span>Lead Investor</span>
+      <span>Valuation</span>
+      <span>Date</span>
     `;
-    row.addEventListener('click', () => openCompanyModal(round.company));
-    grid.appendChild(row);
-  });
+    grid.appendChild(header);
+
+    const total = FUNDING_TRACKER.length;
+    const visibleRounds = FUNDING_TRACKER.slice(0, ftShownCount);
+
+    visibleRounds.forEach(round => {
+      const row = document.createElement('div');
+      row.className = 'funding-row';
+      row.innerHTML = `
+        <span class="funding-company">${round.company}</span>
+        <span class="funding-amount">${round.amount}</span>
+        <span><span class="funding-stage-tag">${round.stage}</span></span>
+        <span class="funding-lead">${round.lead}</span>
+        <span class="funding-val">${round.valuation}</span>
+        <span class="funding-date">${round.date}</span>
+      `;
+      row.addEventListener('click', () => openCompanyModal(round.company));
+      grid.appendChild(row);
+    });
+
+    if (total > FT_INITIAL_COUNT) {
+      const remaining = total - ftShownCount;
+      const actions = document.createElement('div');
+      actions.className = 'paginated-list-actions';
+      if (remaining > 0) {
+        const nextBatch = Math.min(FT_STEP_SIZE, remaining);
+        actions.innerHTML = `<button class="show-more-btn" type="button" data-ft-action="show-more">Show ${nextBatch} more rounds <span class="show-more-count">(${remaining} remaining)</span></button>`;
+      } else {
+        actions.innerHTML = `<button class="show-more-btn show-less-btn" type="button" data-ft-action="show-less">Show less</button>`;
+      }
+      grid.appendChild(actions);
+      const btn = actions.querySelector('[data-ft-action]');
+      if (btn) {
+        btn.addEventListener('click', () => {
+          if (btn.getAttribute('data-ft-action') === 'show-more') {
+            ftShownCount = Math.min(ftShownCount + FT_STEP_SIZE, total);
+          } else {
+            ftShownCount = FT_INITIAL_COUNT;
+            grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+          renderFunding();
+        });
+      }
+    }
+  }
+
+  renderFunding();
 }
 
 // ─── EVENTS & EXPERIENCES ───
@@ -4692,7 +4779,7 @@ function initEvents() {
     'field-trip': { label: 'Field Trip', color: '#22c55e', bg: 'rgba(34,197,94,0.12)' }
   };
 
-  grid.innerHTML = COMMUNITY_EVENTS.map(evt => {
+  function eventCardHTML(evt) {
     const cfg = typeConfig[evt.type] || typeConfig.showcase;
     const statusBadge = evt.status === 'accepting'
       ? '<span class="event-status accepting">Accepting RSVPs</span>'
@@ -4716,7 +4803,41 @@ function initEvents() {
         </div>
       </div>
     `;
-  }).join('');
+  }
+
+  const EVENTS_INITIAL_COUNT = 12;
+  const EVENTS_STEP_SIZE = 12;
+  let eventsShownCount = EVENTS_INITIAL_COUNT;
+
+  function renderEvents() {
+    const total = COMMUNITY_EVENTS.length;
+    const visible = COMMUNITY_EVENTS.slice(0, eventsShownCount);
+    let html = visible.map(eventCardHTML).join('');
+    const remaining = total - eventsShownCount;
+    if (total > EVENTS_INITIAL_COUNT) {
+      if (remaining > 0) {
+        const nextBatch = Math.min(EVENTS_STEP_SIZE, remaining);
+        html += `<div class="paginated-list-actions"><button class="show-more-btn" type="button" data-events-action="show-more">Show ${nextBatch} more events <span class="show-more-count">(${remaining} remaining)</span></button></div>`;
+      } else {
+        html += `<div class="paginated-list-actions"><button class="show-more-btn show-less-btn" type="button" data-events-action="show-less">Show less</button></div>`;
+      }
+    }
+    grid.innerHTML = html;
+    const btn = grid.querySelector('[data-events-action]');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        if (btn.getAttribute('data-events-action') === 'show-more') {
+          eventsShownCount = Math.min(eventsShownCount + EVENTS_STEP_SIZE, total);
+        } else {
+          eventsShownCount = EVENTS_INITIAL_COUNT;
+          grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        renderEvents();
+      });
+    }
+  }
+
+  renderEvents();
 }
 
 // ─── SECTOR MOMENTUM INDEX ───
@@ -4758,31 +4879,68 @@ function initIPOPipeline() {
   const grid = document.getElementById('ipo-grid');
   if (!grid || typeof IPO_PIPELINE === 'undefined') return;
 
-  IPO_PIPELINE.forEach(item => {
-    const card = document.createElement('div');
-    card.className = 'ipo-card';
+  const IPO_INITIAL_COUNT = 15;
+  const IPO_STEP_SIZE = 15;
+  let ipoShownCount = IPO_INITIAL_COUNT;
 
-    const sectorInfo = SECTORS[item.sector] || { icon: '', color: '#6b7280' };
+  function renderIPOs() {
+    grid.innerHTML = '';
+    const total = IPO_PIPELINE.length;
+    const visible = IPO_PIPELINE.slice(0, ipoShownCount);
 
-    card.innerHTML = `
-      <div style="font-size: 11px; color: ${sectorInfo.color}; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">${sectorInfo.icon} ${item.sector}</div>
-      <div class="ipo-company">${item.company}</div>
-      <div class="ipo-status ipo-status-${item.likelihood}">${item.status}</div>
-      <div class="ipo-meta">
-        <div class="ipo-meta-item">
-          <div class="ipo-meta-label">Timeline</div>
-          <div class="ipo-meta-value">${item.estimatedDate}</div>
+    visible.forEach(item => {
+      const card = document.createElement('div');
+      card.className = 'ipo-card';
+
+      const sectorInfo = SECTORS[item.sector] || { icon: '', color: '#6b7280' };
+
+      card.innerHTML = `
+        <div style="font-size: 11px; color: ${sectorInfo.color}; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px;">${sectorInfo.icon} ${item.sector}</div>
+        <div class="ipo-company">${item.company}</div>
+        <div class="ipo-status ipo-status-${item.likelihood}">${item.status}</div>
+        <div class="ipo-meta">
+          <div class="ipo-meta-item">
+            <div class="ipo-meta-label">Timeline</div>
+            <div class="ipo-meta-value">${item.estimatedDate}</div>
+          </div>
+          <div class="ipo-meta-item">
+            <div class="ipo-meta-label">Est. Valuation</div>
+            <div class="ipo-meta-value" style="color: var(--accent);">${item.estimatedValuation}</div>
+          </div>
         </div>
-        <div class="ipo-meta-item">
-          <div class="ipo-meta-label">Est. Valuation</div>
-          <div class="ipo-meta-value" style="color: var(--accent);">${item.estimatedValuation}</div>
-        </div>
-      </div>
-    `;
+      `;
 
-    card.addEventListener('click', () => openCompanyModal(item.company));
-    grid.appendChild(card);
-  });
+      card.addEventListener('click', () => openCompanyModal(item.company));
+      grid.appendChild(card);
+    });
+
+    if (total > IPO_INITIAL_COUNT) {
+      const remaining = total - ipoShownCount;
+      const actions = document.createElement('div');
+      actions.className = 'paginated-list-actions';
+      if (remaining > 0) {
+        const nextBatch = Math.min(IPO_STEP_SIZE, remaining);
+        actions.innerHTML = `<button class="show-more-btn" type="button" data-ipo-action="show-more">Show ${nextBatch} more <span class="show-more-count">(${remaining} remaining)</span></button>`;
+      } else {
+        actions.innerHTML = `<button class="show-more-btn show-less-btn" type="button" data-ipo-action="show-less">Show less</button>`;
+      }
+      grid.appendChild(actions);
+      const btn = actions.querySelector('[data-ipo-action]');
+      if (btn) {
+        btn.addEventListener('click', () => {
+          if (btn.getAttribute('data-ipo-action') === 'show-more') {
+            ipoShownCount = Math.min(ipoShownCount + IPO_STEP_SIZE, total);
+          } else {
+            ipoShownCount = IPO_INITIAL_COUNT;
+            grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+          renderIPOs();
+        });
+      }
+    }
+  }
+
+  renderIPOs();
 }
 
 // ─── TRL DASHBOARD ───
@@ -4981,9 +5139,18 @@ function initDealTracker() {
   const grid = document.getElementById('deal-grid');
   if (!grid || typeof DEAL_TRACKER === 'undefined') return;
 
+  const DEAL_INITIAL_COUNT = 20;
+  const DEAL_STEP_SIZE = 20;
+  let dealShownCount = DEAL_INITIAL_COUNT;
+  let currentDealFilter = 'all';
+
   function renderDeals(filter) {
+    if (filter !== undefined) {
+      currentDealFilter = filter;
+      dealShownCount = DEAL_INITIAL_COUNT;
+    }
     grid.innerHTML = '';
-    const deals = filter === 'lead'
+    const deals = currentDealFilter === 'lead'
       ? DEAL_TRACKER.filter(d => d.leadOrParticipant === 'lead')
       : DEAL_TRACKER;
 
@@ -5004,7 +5171,8 @@ function initDealTracker() {
     `;
     grid.appendChild(header);
 
-    deals.forEach((deal, i) => {
+    const visibleDeals = deals.slice(0, dealShownCount);
+    visibleDeals.forEach((deal, i) => {
       const row = document.createElement('div');
       row.className = 'deal-row';
       row.style.animationDelay = `${i * 30}ms`;
@@ -5020,6 +5188,31 @@ function initDealTracker() {
       `;
       grid.appendChild(row);
     });
+
+    const remaining = deals.length - dealShownCount;
+    if (remaining > 0 || deals.length > DEAL_INITIAL_COUNT) {
+      const actions = document.createElement('div');
+      actions.className = 'paginated-list-actions';
+      if (remaining > 0) {
+        const nextBatch = Math.min(DEAL_STEP_SIZE, remaining);
+        actions.innerHTML = `<button class="show-more-btn" type="button" data-deal-action="show-more">Show ${nextBatch} more deals <span class="show-more-count">(${remaining} remaining)</span></button>`;
+      } else {
+        actions.innerHTML = `<button class="show-more-btn show-less-btn" type="button" data-deal-action="show-less">Show less</button>`;
+      }
+      grid.appendChild(actions);
+      const btn = actions.querySelector('[data-deal-action]');
+      if (btn) {
+        btn.addEventListener('click', () => {
+          if (btn.getAttribute('data-deal-action') === 'show-more') {
+            dealShownCount = Math.min(dealShownCount + DEAL_STEP_SIZE, deals.length);
+          } else {
+            dealShownCount = DEAL_INITIAL_COUNT;
+            grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+          renderDeals();
+        });
+      }
+    }
   }
 
   renderDeals('all');
@@ -5232,36 +5425,73 @@ function initRequestForStartups() {
   const grid = document.getElementById('rfs-grid');
   if (!grid || typeof REQUEST_FOR_STARTUPS === 'undefined') return;
 
-  REQUEST_FOR_STARTUPS.forEach((rfs, i) => {
-    const card = document.createElement('div');
-    card.className = `rfs-card rfs-${rfs.urgency}`;
-    card.style.animationDelay = `${i * 50}ms`;
+  const RFS_INITIAL_COUNT = 10;
+  const RFS_STEP_SIZE = 10;
+  let rfsShownCount = RFS_INITIAL_COUNT;
 
-    const sectorInfo = SECTORS[rfs.sector] || { icon: '📦', color: '#6b7280' };
-    const urgencyLabels = { critical: '🔴 Critical', high: '🟠 High', medium: '🟡 Medium' };
+  function renderRFS() {
+    grid.innerHTML = '';
+    const total = REQUEST_FOR_STARTUPS.length;
+    const visible = REQUEST_FOR_STARTUPS.slice(0, rfsShownCount);
 
-    card.innerHTML = `
-      <div class="rfs-header">
-        <span class="rfs-sector" style="color:${sectorInfo.color}">${sectorInfo.icon} ${rfs.sector}</span>
-        <span class="rfs-urgency">${urgencyLabels[rfs.urgency] || rfs.urgency}</span>
-      </div>
-      <h3 class="rfs-title">${rfs.title}</h3>
-      <div class="rfs-requester">Requested by: <strong>${rfs.requestedBy}</strong></div>
-      <p class="rfs-problem">${rfs.problem}</p>
-      <div class="rfs-bounty">💰 Market Opportunity: <strong>${rfs.bounty}</strong></div>
-      <div class="rfs-tags">
-        ${rfs.tags.map(t => `<span class="tag">${t}</span>`).join('')}
-      </div>
-      ${rfs.relatedCompanies.length > 0 ? `
-        <div class="rfs-related">
-          <span class="rfs-related-label">Companies working on this:</span>
-          ${rfs.relatedCompanies.map(c => `<span class="rfs-related-company" onclick="openCompanyModal('${c}')">${c}</span>`).join('')}
+    visible.forEach((rfs, i) => {
+      const card = document.createElement('div');
+      card.className = `rfs-card rfs-${rfs.urgency}`;
+      card.style.animationDelay = `${i * 50}ms`;
+
+      const sectorInfo = SECTORS[rfs.sector] || { icon: '📦', color: '#6b7280' };
+      const urgencyLabels = { critical: '🔴 Critical', high: '🟠 High', medium: '🟡 Medium' };
+
+      card.innerHTML = `
+        <div class="rfs-header">
+          <span class="rfs-sector" style="color:${sectorInfo.color}">${sectorInfo.icon} ${rfs.sector}</span>
+          <span class="rfs-urgency">${urgencyLabels[rfs.urgency] || rfs.urgency}</span>
         </div>
-      ` : ''}
-    `;
+        <h3 class="rfs-title">${rfs.title}</h3>
+        <div class="rfs-requester">Requested by: <strong>${rfs.requestedBy}</strong></div>
+        <p class="rfs-problem">${rfs.problem}</p>
+        <div class="rfs-bounty">💰 Market Opportunity: <strong>${rfs.bounty}</strong></div>
+        <div class="rfs-tags">
+          ${rfs.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+        </div>
+        ${rfs.relatedCompanies.length > 0 ? `
+          <div class="rfs-related">
+            <span class="rfs-related-label">Companies working on this:</span>
+            ${rfs.relatedCompanies.map(c => `<span class="rfs-related-company" onclick="openCompanyModal('${c}')">${c}</span>`).join('')}
+          </div>
+        ` : ''}
+      `;
 
-    grid.appendChild(card);
-  });
+      grid.appendChild(card);
+    });
+
+    if (total > RFS_INITIAL_COUNT) {
+      const remaining = total - rfsShownCount;
+      const actions = document.createElement('div');
+      actions.className = 'paginated-list-actions';
+      if (remaining > 0) {
+        const nextBatch = Math.min(RFS_STEP_SIZE, remaining);
+        actions.innerHTML = `<button class="show-more-btn" type="button" data-rfs-action="show-more">Show ${nextBatch} more requests <span class="show-more-count">(${remaining} remaining)</span></button>`;
+      } else {
+        actions.innerHTML = `<button class="show-more-btn show-less-btn" type="button" data-rfs-action="show-less">Show less</button>`;
+      }
+      grid.appendChild(actions);
+      const btn = actions.querySelector('[data-rfs-action]');
+      if (btn) {
+        btn.addEventListener('click', () => {
+          if (btn.getAttribute('data-rfs-action') === 'show-more') {
+            rfsShownCount = Math.min(rfsShownCount + RFS_STEP_SIZE, total);
+          } else {
+            rfsShownCount = RFS_INITIAL_COUNT;
+            grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+          renderRFS();
+        });
+      }
+    }
+  }
+
+  renderRFS();
 }
 
 // ═══════════════════════════════════════════════════════════════
@@ -5296,7 +5526,13 @@ function initInnovatorScores() {
     });
   }
 
-  function renderScores() {
+  const ISCORE_INITIAL_COUNT = 20;
+  const ISCORE_STEP_SIZE = 20;
+  let iscoreShownCount = ISCORE_INITIAL_COUNT;
+
+  function renderScores(resetPagination) {
+    if (resetPagination) iscoreShownCount = ISCORE_INITIAL_COUNT;
+
     const sectorVal = document.getElementById('iscore-sector')?.value || 'all';
     const tierVal = document.getElementById('iscore-tier')?.value || 'all';
     let filtered = INNOVATOR_SCORES.filter(s => {
@@ -5309,15 +5545,16 @@ function initInnovatorScores() {
     });
 
     grid.innerHTML = '';
-    var FRONTIER_INITIAL = 20;
-    filtered.forEach((s, i) => {
+    const total = filtered.length;
+    const visibleScores = filtered.slice(0, iscoreShownCount);
+
+    visibleScores.forEach((s, i) => {
       const tierColors = { elite: '#22c55e', strong: '#60a5fa', promising: '#f59e0b', early: '#6b7280' };
       const tierLabels = { elite: 'ELITE', strong: 'STRONG', promising: 'PROMISING', early: 'EARLY' };
       const tc = tierColors[s.tier];
       const row = document.createElement('div');
       row.className = 'iscore-row';
       row.style.cursor = 'pointer';
-      if (i >= FRONTIER_INITIAL) row.style.display = 'none';
       row.onclick = () => openCompanyModal(s.company);
 
       const rankBadge = i < 3 ? ['🥇','🥈','🥉'][i] : `#${i + 1}`;
@@ -5358,26 +5595,40 @@ function initInnovatorScores() {
       grid.appendChild(row);
     });
 
-    // Remove existing show-more button if any (from previous render)
-    var existingBtn = grid.parentElement.querySelector('.show-more-btn');
-    if (existingBtn) existingBtn.remove();
+    // Remove existing pagination actions (from previous render)
+    var existingActions = grid.parentElement.querySelector('.paginated-list-actions');
+    if (existingActions) existingActions.remove();
 
-    // Add "Show All" button if there are hidden rows
-    if (filtered.length > FRONTIER_INITIAL) {
-      var showMoreBtn = document.createElement('button');
-      showMoreBtn.className = 'show-more-btn';
-      showMoreBtn.textContent = 'Show All ' + filtered.length + ' Companies';
-      showMoreBtn.addEventListener('click', function() {
-        grid.querySelectorAll('.iscore-row').forEach(function(r) { r.style.display = ''; });
-        showMoreBtn.remove();
-      });
-      grid.after(showMoreBtn);
+    // Add pagination controls
+    if (total > ISCORE_INITIAL_COUNT) {
+      const remaining = total - iscoreShownCount;
+      const actions = document.createElement('div');
+      actions.className = 'paginated-list-actions';
+      if (remaining > 0) {
+        const nextBatch = Math.min(ISCORE_STEP_SIZE, remaining);
+        actions.innerHTML = `<button class="show-more-btn" type="button" data-iscore-action="show-more">Show ${nextBatch} more companies <span class="show-more-count">(${remaining} remaining)</span></button>`;
+      } else {
+        actions.innerHTML = `<button class="show-more-btn show-less-btn" type="button" data-iscore-action="show-less">Show less</button>`;
+      }
+      grid.after(actions);
+      const btn = actions.querySelector('[data-iscore-action]');
+      if (btn) {
+        btn.addEventListener('click', () => {
+          if (btn.getAttribute('data-iscore-action') === 'show-more') {
+            iscoreShownCount = Math.min(iscoreShownCount + ISCORE_STEP_SIZE, total);
+          } else {
+            iscoreShownCount = ISCORE_INITIAL_COUNT;
+            grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+          renderScores();
+        });
+      }
     }
   }
 
   renderScores();
-  document.getElementById('iscore-sector')?.addEventListener('change', renderScores);
-  document.getElementById('iscore-tier')?.addEventListener('change', renderScores);
+  document.getElementById('iscore-sector')?.addEventListener('change', () => renderScores(true));
+  document.getElementById('iscore-tier')?.addEventListener('change', () => renderScores(true));
 }
 
 // Helper to get innovator score for a company
@@ -5814,8 +6065,13 @@ function initAlertsCenter() {
 
   let currentCategory = 'all';
   let criticalOnly = false;
+  const ALERTS_INITIAL_COUNT = 15;
+  const ALERTS_STEP_SIZE = 15;
+  let alertsShownCount = ALERTS_INITIAL_COUNT;
 
-  function renderAlerts() {
+  function renderAlerts(resetPagination) {
+    if (resetPagination) alertsShownCount = ALERTS_INITIAL_COUNT;
+
     let alerts = ALERTS_SYSTEM.recentAlerts;
 
     // Filter by category
@@ -5828,7 +6084,15 @@ function initAlertsCenter() {
       alerts = alerts.filter(a => a.priority === 'critical' || a.priority === 'high');
     }
 
-    feed.innerHTML = alerts.map(alert => {
+    if (alerts.length === 0) {
+      feed.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-muted);">No alerts match your filters</div>';
+      return;
+    }
+
+    const total = alerts.length;
+    const visibleAlerts = alerts.slice(0, alertsShownCount);
+
+    const alertsHTML = visibleAlerts.map(alert => {
       const categoryIcon = {
         funding: '💰',
         contracts: '📋',
@@ -5868,8 +6132,30 @@ function initAlertsCenter() {
       `;
     }).join('');
 
-    if (alerts.length === 0) {
-      feed.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-muted);">No alerts match your filters</div>';
+    const remaining = total - alertsShownCount;
+    let paginationHTML = '';
+    if (total > ALERTS_INITIAL_COUNT) {
+      if (remaining > 0) {
+        const nextBatch = Math.min(ALERTS_STEP_SIZE, remaining);
+        paginationHTML = `<div class="paginated-list-actions"><button class="show-more-btn" type="button" data-alerts-action="show-more">Show ${nextBatch} more alerts <span class="show-more-count">(${remaining} remaining)</span></button></div>`;
+      } else {
+        paginationHTML = `<div class="paginated-list-actions"><button class="show-more-btn show-less-btn" type="button" data-alerts-action="show-less">Show less</button></div>`;
+      }
+    }
+
+    feed.innerHTML = alertsHTML + paginationHTML;
+
+    const btn = feed.querySelector('[data-alerts-action]');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        if (btn.getAttribute('data-alerts-action') === 'show-more') {
+          alertsShownCount = Math.min(alertsShownCount + ALERTS_STEP_SIZE, total);
+        } else {
+          alertsShownCount = ALERTS_INITIAL_COUNT;
+          feed.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        renderAlerts();
+      });
     }
   }
 
@@ -5879,14 +6165,14 @@ function initAlertsCenter() {
       document.querySelectorAll('.alert-filter').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentCategory = btn.dataset.category;
-      renderAlerts();
+      renderAlerts(true);
     });
   });
 
   // Critical only checkbox
   document.getElementById('critical-only')?.addEventListener('change', (e) => {
     criticalOnly = e.target.checked;
-    renderAlerts();
+    renderAlerts(true);
   });
 
   renderAlerts();
@@ -8636,14 +8922,9 @@ function initSectorReports() {
 
   const sectorList = Object.keys(SECTORS).sort();
 
-  grid.innerHTML = sectorList.map(sector => {
+  function reportCardHTML(sector) {
     const info = SECTORS[sector] || {};
     const companies = COMPANIES.filter(c => c.sector === sector);
-    const topCompanies = companies.sort((a, b) => {
-      const sa = getInnovatorScore(a.name);
-      const sb = getInnovatorScore(b.name);
-      return ((sb ? sb.composite : 0) - (sa ? sa.composite : 0));
-    }).slice(0, 5);
 
     return `
       <div class="report-card" onclick="generateSectorPDF('${sector.replace(/'/g, "\\'")}')">
@@ -8653,7 +8934,41 @@ function initSectorReports() {
         <button class="report-card-btn">\u{1F4C4} Generate PDF</button>
       </div>
     `;
-  }).join('');
+  }
+
+  const REPORTS_INITIAL_COUNT = 12;
+  const REPORTS_STEP_SIZE = 12;
+  let reportsShownCount = REPORTS_INITIAL_COUNT;
+
+  function renderReports() {
+    const total = sectorList.length;
+    const visible = sectorList.slice(0, reportsShownCount);
+    let html = visible.map(reportCardHTML).join('');
+    const remaining = total - reportsShownCount;
+    if (total > REPORTS_INITIAL_COUNT) {
+      if (remaining > 0) {
+        const nextBatch = Math.min(REPORTS_STEP_SIZE, remaining);
+        html += `<div class="paginated-list-actions"><button class="show-more-btn" type="button" data-reports-action="show-more">Show ${nextBatch} more reports <span class="show-more-count">(${remaining} remaining)</span></button></div>`;
+      } else {
+        html += `<div class="paginated-list-actions"><button class="show-more-btn show-less-btn" type="button" data-reports-action="show-less">Show less</button></div>`;
+      }
+    }
+    grid.innerHTML = html;
+    const btn = grid.querySelector('[data-reports-action]');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        if (btn.getAttribute('data-reports-action') === 'show-more') {
+          reportsShownCount = Math.min(reportsShownCount + REPORTS_STEP_SIZE, total);
+        } else {
+          reportsShownCount = REPORTS_INITIAL_COUNT;
+          grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        renderReports();
+      });
+    }
+  }
+
+  renderReports();
 }
 
 function generateSectorPDF(sectorName) {

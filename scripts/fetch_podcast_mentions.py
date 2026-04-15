@@ -33,9 +33,7 @@ from pathlib import Path
 
 import requests
 
-# ─────────────────────────────────────────────────────────────────
 # Logging
-# ─────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -56,13 +54,20 @@ MAX_RETRIES = 3
 RETRY_BACKOFF = 2  # seconds
 LOOKBACK_DAYS = 30
 
-# Podcast RSS feeds — (display name, url)
+# Podcast RSS feeds — (display name, url). Original set + expanded coverage
+# (Moment of Zen, Dwarkesh, No Priors, Cognitive Revolution, a16z, Odd Lots).
 PODCAST_FEEDS = [
     ("Acquired",              "https://feeds.transistor.fm/acquired"),
     ("All-In",                "https://allinchamathjason.libsyn.com/rss"),
     ("20VC",                  "https://feeds.megaphone.fm/1071392"),
     ("Lex Fridman",           "https://lexfridman.com/feed/podcast/"),
     ("Invest Like the Best",  "https://feeds.megaphone.fm/EGP9797299583"),
+    ("Moment of Zen",         "https://feeds.simplecast.com/2j9VU_Tx"),
+    ("Dwarkesh Podcast",      "https://www.dwarkeshpatel.com/feed"),
+    ("No Priors",             "https://feeds.transistor.fm/no-priors-artificial-intelligence"),
+    ("Cognitive Revolution",  "https://feeds.transistor.fm/cognitive-revolution"),
+    ("a16z Podcast",          "https://feeds.simplecast.com/JGE3yC0V"),
+    ("Odd Lots",              "https://feeds.bloomberg.fm/BLM3667703180"),
 ]
 
 # Words that look like company names but are generic and should be skipped
@@ -287,9 +292,7 @@ def save_json(data, filename):
     logger.info("Wrote %s (%d bytes)", path, path.stat().st_size)
 
 
-# ─────────────────────────────────────────────────────────────────
 # Main
-# ─────────────────────────────────────────────────────────────────
 def main():
     logger.info("=" * 60)
     logger.info("Podcast Mentions Fetcher")

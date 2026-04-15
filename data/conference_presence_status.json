@@ -1,0 +1,65 @@
+{
+  "script": "fetch_conferences.py",
+  "started_at": "2026-04-15T04:45:29.781474+00:00",
+  "finished_at": "2026-04-15T04:45:59.217839+00:00",
+  "conferences": [
+    {
+      "conference": "AUVSI XPONENTIAL 2026",
+      "url": "https://www.xponential.org/speakers/",
+      "records_found": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "conference": "Space Tech Expo USA 2026",
+      "url": "https://www.spacetechexpo.com/conference-speakers",
+      "records_found": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "conference": "AI Summit 2026",
+      "url": "https://theaisummit.com/speakers",
+      "records_found": 34,
+      "error": null
+    },
+    {
+      "conference": "NDIA Defense Week 2026",
+      "url": "https://www.ndia.org/events",
+      "records_found": 0,
+      "error": null
+    },
+    {
+      "conference": "RE+ 2026",
+      "url": "https://www.re-plus.com/speakers",
+      "records_found": 21,
+      "error": null
+    },
+    {
+      "conference": "ANS Annual Meeting 2026",
+      "url": "https://www.ans.org/meetings/am2026/",
+      "records_found": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "conference": "AIAA SciTech Forum 2026",
+      "url": "https://www.aiaa.org/SciTech/program/speakers",
+      "records_found": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "conference": "DARPA Forward 2026",
+      "url": "https://www.darpa.mil/news-events/darpa-forward",
+      "records_found": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "conference": "Secure Summit DC 2026",
+      "url": "https://securesummitdc.com/speakers",
+      "records_found": 0,
+      "error": "HTTPSConnectionPool(host='securesummitdc.com', port=443): Max retries exceeded with url: /speakers (Caused by NameResolutionError(\"HTTPSConnection(host='securesummitdc.com', port=443): Failed to resolve 'securesummitdc.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    }
+  ],
+  "total_records": 74,
+  "scraped_records": 55,
+  "seed_records": 20,
+  "ok": true
+}

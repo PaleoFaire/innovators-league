@@ -1,0 +1,92 @@
+name: Weekly Intelligence Brief
+
+on:
+  schedule:
+    # Every Monday at 10 AM UTC (2 AM PST, 5 AM EST)
+    - cron: '0 10 * * 1'
+
+  # Allow manual trigger for testing
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-send-brief:
+    name: Generate & Send Weekly Brief
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate weekly brief
+        run: python scripts/generate_weekly_brief.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          BRIEF_WEBHOOK_SECRET: ${{ secrets.BRIEF_WEBHOOK_SECRET }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit score snapshot
+        run: |
+          git add data/weekly_brief.json data/prev_week_scores.json
+          git diff --staged --quiet || git commit -m "📊 Auto-update: Weekly brief & score snapshot $(date +%Y-%m-%d)"
+          git pull --rebase origin main || true
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  data-health-summary:
+    name: Data Health Summary
+    runs-on: ubuntu-latest
+    needs: [generate-and-send-brief]
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Write data/data_health_weekly_brief.json
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          steps = {"weekly_brief": "${{ needs.generate-and-send-brief.result }}"}
+          health = {
+            "workflow": "weekly-brief",
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "steps": steps,
+            "summary": {
+              "total": 1,
+              "succeeded": 1 if steps["weekly_brief"] == "success" else 0,
+              "failed":    1 if steps["weekly_brief"] == "failure" else 0,
+            },
+          }
+          os.makedirs("data", exist_ok=True)
+          with open("data/data_health_weekly_brief.json", "w") as f:
+              json.dump(health, f, indent=2)
+          PY
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit health file
+        run: |
+          git pull --rebase origin main || true
+          git add data/data_health_weekly_brief.json
+          git diff --staged --quiet || git commit -m "🩺 Weekly brief health $(date +%Y-%m-%d)"
+          git push || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

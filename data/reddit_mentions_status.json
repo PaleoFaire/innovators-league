@@ -1,0 +1,45 @@
+{
+  "script": "fetch_reddit.py",
+  "started_at": "2026-04-15T04:40:48.601051+00:00",
+  "finished_at": "2026-04-15T04:41:07.062820+00:00",
+  "subreddits": [
+    {
+      "subreddit": "investing",
+      "posts_fetched": 50,
+      "error": null
+    },
+    {
+      "subreddit": "SpaceXLounge",
+      "posts_fetched": 24,
+      "error": null
+    },
+    {
+      "subreddit": "Futurology",
+      "posts_fetched": 50,
+      "error": null
+    },
+    {
+      "subreddit": "nuclear",
+      "posts_fetched": 47,
+      "error": null
+    },
+    {
+      "subreddit": "robotics",
+      "posts_fetched": 50,
+      "error": null
+    },
+    {
+      "subreddit": "geopolitics",
+      "posts_fetched": 50,
+      "error": null
+    },
+    {
+      "subreddit": "stocks",
+      "posts_fetched": 50,
+      "error": null
+    }
+  ],
+  "total_posts": 321,
+  "total_mentions": 735,
+  "ok": true
+}

@@ -1,0 +1,156 @@
+name: Jobs & Stocks Sync
+
+on:
+  schedule:
+    # Jobs: Run every 6 hours
+    - cron: '0 */6 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-jobs:
+    name: Sync Jobs Data
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch jobs from company career pages
+        run: python scripts/fetch_jobs.py
+
+      - name: Upload Jobs artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jobs-data
+          path: data/
+          retention-days: 7
+
+  sync-stocks:
+    name: Sync Stock Prices
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch stock prices
+        run: python scripts/fetch_stocks.py
+
+      - name: Upload Stocks artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: stocks-data
+          path: data/
+          retention-days: 7
+
+  commit-data:
+    name: Commit Data Updates
+    runs-on: ubuntu-latest
+    needs: [sync-jobs, sync-stocks]
+    if: always()
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download Jobs data
+        uses: actions/download-artifact@v4
+        with:
+          name: jobs-data
+          path: data/
+        continue-on-error: true
+
+      - name: Download Stocks data
+        uses: actions/download-artifact@v4
+        with:
+          name: stocks-data
+          path: data/
+          merge-multiple: true
+        continue-on-error: true
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit and push changes
+        run: |
+          git add data/
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: Jobs & Stocks sync $(date +%Y-%m-%d\ %H:%M)"
+          git pull --rebase origin main || true
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  data-health-summary:
+    name: Data Health Summary
+    runs-on: ubuntu-latest
+    needs: [sync-jobs, sync-stocks, commit-data]
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Write data/data_health_jobs_stocks.json
+        run: |
+          python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+
+          steps = {
+            "jobs":   "${{ needs.sync-jobs.result }}",
+            "stocks": "${{ needs.sync-stocks.result }}",
+            "commit": "${{ needs.commit-data.result }}",
+          }
+          succeeded = [k for k, v in steps.items() if v == "success"]
+          failed    = [k for k, v in steps.items() if v == "failure"]
+          skipped   = [k for k, v in steps.items() if v in ("skipped", "cancelled", "")]
+
+          health = {
+            "workflow": "jobs-stocks-sync",
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "steps": steps,
+            "summary": {
+              "total": len(steps),
+              "succeeded": len(succeeded),
+              "failed": len(failed),
+              "skipped": len(skipped),
+            },
+          }
+          os.makedirs("data", exist_ok=True)
+          with open("data/data_health_jobs_stocks.json", "w") as f:
+              json.dump(health, f, indent=2)
+          PY
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit health file
+        run: |
+          git pull --rebase origin main || true
+          git add data/data_health_jobs_stocks.json
+          git diff --staged --quiet || git commit -m "🩺 Jobs/stocks sync health $(date +%Y-%m-%d\ %H:%M)"
+          git push || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

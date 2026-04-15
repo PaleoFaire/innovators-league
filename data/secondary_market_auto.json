@@ -1,0 +1,512 @@
+[
+  {
+    "company": "SpaceX",
+    "source": "Forge",
+    "sharePrice": "$204",
+    "impliedValuation": "$350B",
+    "priceChange30d": "+8%",
+    "lastTrade": "2026-04-10",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "OpenAI",
+    "source": "Forge",
+    "sharePrice": "$86",
+    "impliedValuation": "$157B",
+    "priceChange30d": "+4%",
+    "lastTrade": "2026-04-08",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Stripe",
+    "source": "EquityZen",
+    "sharePrice": "$27",
+    "impliedValuation": "$70B",
+    "priceChange30d": "+3%",
+    "lastTrade": "2026-04-05",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Databricks",
+    "source": "Forge",
+    "sharePrice": "$78",
+    "impliedValuation": "$62B",
+    "priceChange30d": "+5%",
+    "lastTrade": "2026-04-09",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Anthropic",
+    "source": "Forge",
+    "sharePrice": "$38",
+    "impliedValuation": "$61B",
+    "priceChange30d": "+12%",
+    "lastTrade": "2026-04-09",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "xAI",
+    "source": "Forge",
+    "sharePrice": "$56",
+    "impliedValuation": "$50B",
+    "priceChange30d": "+9%",
+    "lastTrade": "2026-04-09",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Canva",
+    "source": "EquityZen",
+    "sharePrice": "$119",
+    "impliedValuation": "$40B",
+    "priceChange30d": "+1%",
+    "lastTrade": "2026-04-02",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Epic Games",
+    "source": "Caplight",
+    "sharePrice": "$775",
+    "impliedValuation": "$32B",
+    "priceChange30d": "-2%",
+    "lastTrade": "2026-04-08",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Chime",
+    "source": "EquityZen",
+    "sharePrice": "$27",
+    "impliedValuation": "$25B",
+    "priceChange30d": "+1%",
+    "lastTrade": "2026-04-04",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Discord",
+    "source": "Forge",
+    "sharePrice": "$375",
+    "impliedValuation": "$15B",
+    "priceChange30d": "+3%",
+    "lastTrade": "2026-04-10",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Anduril Industries",
+    "source": "Forge",
+    "sharePrice": "$32",
+    "impliedValuation": "$14B",
+    "priceChange30d": "+6%",
+    "lastTrade": "2026-04-07",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Scale AI",
+    "source": "Forge",
+    "sharePrice": "$33",
+    "impliedValuation": "$14B",
+    "priceChange30d": "+2%",
+    "lastTrade": "2026-04-06",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Rocket Lab",
+    "source": "Forge",
+    "sharePrice": "$22",
+    "impliedValuation": "$11B",
+    "priceChange30d": "+6%",
+    "lastTrade": "2026-04-10",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Perplexity",
+    "source": "Forge",
+    "sharePrice": "$16",
+    "impliedValuation": "$9B",
+    "priceChange30d": "+11%",
+    "lastTrade": "2026-04-09",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Ramp",
+    "source": "Forge",
+    "sharePrice": "$12",
+    "impliedValuation": "$8B",
+    "priceChange30d": "+7%",
+    "lastTrade": "2026-04-10",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Commonwealth Fusion Systems",
+    "source": "Caplight",
+    "sharePrice": "$24",
+    "impliedValuation": "$6B",
+    "priceChange30d": "+1%",
+    "lastTrade": "2026-04-06",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Cohere",
+    "source": "Forge",
+    "sharePrice": "$41",
+    "impliedValuation": "$5.5B",
+    "priceChange30d": "-1%",
+    "lastTrade": "2026-04-09",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Helion",
+    "source": "Caplight",
+    "sharePrice": "$30",
+    "impliedValuation": "$5.4B",
+    "priceChange30d": "+2%",
+    "lastTrade": "2026-04-07",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Shield AI",
+    "source": "Forge",
+    "sharePrice": "$28",
+    "impliedValuation": "$5.3B",
+    "priceChange30d": "+4%",
+    "lastTrade": "2026-04-05",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Saronic",
+    "source": "Forge",
+    "sharePrice": "$19",
+    "impliedValuation": "$4B",
+    "priceChange30d": "+7%",
+    "lastTrade": "2026-04-08",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Mercury",
+    "source": "EquityZen",
+    "sharePrice": "$43",
+    "impliedValuation": "$3B",
+    "priceChange30d": "+5%",
+    "lastTrade": "2026-04-03",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Skydio",
+    "source": "EquityZen",
+    "sharePrice": "$21",
+    "impliedValuation": "$2.5B",
+    "priceChange30d": "+3%",
+    "lastTrade": "2026-04-02",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Kairos Power",
+    "source": "Forge",
+    "sharePrice": "$22",
+    "impliedValuation": "$1.9B",
+    "priceChange30d": "+2%",
+    "lastTrade": "2026-04-04",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Epirus",
+    "source": "EquityZen",
+    "sharePrice": "$16",
+    "impliedValuation": "$1.4B",
+    "priceChange30d": "+4%",
+    "lastTrade": "2026-04-05",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Fervo Energy",
+    "source": "Caplight",
+    "sharePrice": "$12",
+    "impliedValuation": "$1.4B",
+    "priceChange30d": "+2%",
+    "lastTrade": "2026-04-06",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Stoke Space",
+    "source": "Forge",
+    "sharePrice": "$15",
+    "impliedValuation": "$1.2B",
+    "priceChange30d": "+5%",
+    "lastTrade": "2026-04-03",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Impulse Space",
+    "source": "Forge",
+    "sharePrice": "$14",
+    "impliedValuation": "$1B",
+    "priceChange30d": "+3%",
+    "lastTrade": "2026-04-04",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Varda Space",
+    "source": "Caplight",
+    "sharePrice": "$18",
+    "impliedValuation": "$900M",
+    "priceChange30d": "+4%",
+    "lastTrade": "2026-04-05",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Radiant",
+    "source": "Forge",
+    "sharePrice": "$11",
+    "impliedValuation": "$450M",
+    "priceChange30d": "+3%",
+    "lastTrade": "2026-04-03",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Valar Atomics",
+    "source": "Forge",
+    "sharePrice": "$8",
+    "impliedValuation": "$250M",
+    "priceChange30d": "+6%",
+    "lastTrade": "2026-04-01",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Sakana AI",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Runway",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Anduril Industries",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Flexport",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "SpaceX",
+    "source": "Caplight",
+    "sharePrice": "$94.97B",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Vayu Robotics",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Ada",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Neura Robotics",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Multiply Labs",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Agility Robotics",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Databricks",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Parallel Systems",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Scale AI",
+    "source": "Caplight",
+    "sharePrice": "$94.97B",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Avalanche Energy",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Neuralink",
+    "source": "Caplight",
+    "sharePrice": "$94.97B",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Osmo",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Cover",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "IonQ",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "The Boring Company",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Vertical Aerospace",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Dunia",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Built Robotics",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Figure AI",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  },
+  {
+    "company": "Watershed",
+    "source": "Caplight",
+    "sharePrice": "",
+    "impliedValuation": "",
+    "priceChange30d": "",
+    "lastTrade": "",
+    "note": "scraped listing (price may be incomplete)",
+    "fetched_at": "2026-04-15T04:40:41.424437+00:00"
+  }
+]

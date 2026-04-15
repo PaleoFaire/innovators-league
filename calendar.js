@@ -203,6 +203,67 @@ var TYPE_LABELS = {
   'summit': 'Summit'
 };
 
+var CAL_INITIAL_COUNT = 15;
+var CAL_STEP_SIZE = 15;
+var calShownCount = CAL_INITIAL_COUNT;
+
+function calendarEventHTML(event) {
+  var icon = TYPE_ICONS[event.type] || '&#128197;';
+  var typeLabel = TYPE_LABELS[event.type] || 'Event';
+  var startDate = new Date(event.date);
+  var month = startDate.toLocaleDateString('en-US', { month: 'short' }).toUpperCase();
+  var day = startDate.getDate();
+  var countdown = formatDaysUntil(event.date);
+  var recommend = event.stephenRecommends
+    ? '<span class="stephen-recommends">&#9733; Stephen Recommends</span>'
+    : '';
+
+  var cardClass = 'calendar-event';
+  if (event.stephenRecommends) cardClass += ' recommended';
+
+  var monthKey = startDate.getFullYear() + '-' + String(startDate.getMonth() + 1).padStart(2, '0');
+
+  var html = '<div class="' + cardClass
+    + '" data-type="' + calEscapeHtml(event.type || '')
+    + '" data-month="' + calEscapeHtml(monthKey)
+    + '" data-recommended="' + (event.stephenRecommends ? 'true' : 'false') + '">';
+
+  // Date block
+  html += '<div class="event-date-block">';
+  html += '<div class="event-month">' + calEscapeHtml(month) + '</div>';
+  html += '<div class="event-day">' + day + '</div>';
+  html += '<div class="event-countdown">' + calEscapeHtml(countdown) + '</div>';
+  html += '</div>';
+
+  // Body
+  html += '<div class="event-body">';
+  html += '<div class="event-type-badge">' + icon + ' ' + calEscapeHtml(typeLabel.toUpperCase()) + '</div>';
+  html += '<h3 class="event-title">' + calEscapeHtml(event.title) + '</h3>';
+  html += '<div class="event-meta">';
+  html += '<span class="event-location">&#128205; ' + calEscapeHtml(event.location || 'TBD') + '</span>';
+  html += '<span class="event-dot">&middot;</span>';
+  html += '<span class="event-dates">' + calEscapeHtml(formatEventDateRange(event.date, event.endDate)) + '</span>';
+  html += '</div>';
+  html += '<p class="event-description">' + calEscapeHtml(event.description || '') + '</p>';
+
+  if (event.keyAttendees && event.keyAttendees.length) {
+    html += '<div class="event-attendees">';
+    html += '<span class="event-attendees-label">Key Companies:</span> ';
+    html += event.keyAttendees.map(calEscapeHtml).join(', ');
+    html += '</div>';
+  }
+
+  html += '<div class="event-footer">';
+  html += recommend;
+  if (event.url && event.url !== '#') {
+    html += '<a href="' + calSanitizeUrl(event.url) + '" target="_blank" rel="noopener" class="event-link">Visit Event &rarr;</a>';
+  }
+  html += '</div>';
+  html += '</div>'; // .event-body
+  html += '</div>'; // .calendar-event
+  return html;
+}
+
 function renderCalendar() {
   var container = document.getElementById('calendar-content');
   if (!container) return;
@@ -228,65 +289,39 @@ function renderCalendar() {
     return;
   }
 
+  var total = upcoming.length;
+  var visible = upcoming.slice(0, calShownCount);
+
   var html = '<div class="calendar-list">';
-  upcoming.forEach(function(event) {
-    var icon = TYPE_ICONS[event.type] || '&#128197;';
-    var typeLabel = TYPE_LABELS[event.type] || 'Event';
-    var startDate = new Date(event.date);
-    var month = startDate.toLocaleDateString('en-US', { month: 'short' }).toUpperCase();
-    var day = startDate.getDate();
-    var countdown = formatDaysUntil(event.date);
-    var recommend = event.stephenRecommends
-      ? '<span class="stephen-recommends">&#9733; Stephen Recommends</span>'
-      : '';
-
-    var cardClass = 'calendar-event';
-    if (event.stephenRecommends) cardClass += ' recommended';
-
-    var monthKey = startDate.getFullYear() + '-' + String(startDate.getMonth() + 1).padStart(2, '0');
-
-    html += '<div class="' + cardClass
-      + '" data-type="' + calEscapeHtml(event.type || '')
-      + '" data-month="' + calEscapeHtml(monthKey)
-      + '" data-recommended="' + (event.stephenRecommends ? 'true' : 'false') + '">';
-
-    // Date block
-    html += '<div class="event-date-block">';
-    html += '<div class="event-month">' + calEscapeHtml(month) + '</div>';
-    html += '<div class="event-day">' + day + '</div>';
-    html += '<div class="event-countdown">' + calEscapeHtml(countdown) + '</div>';
-    html += '</div>';
-
-    // Body
-    html += '<div class="event-body">';
-    html += '<div class="event-type-badge">' + icon + ' ' + calEscapeHtml(typeLabel.toUpperCase()) + '</div>';
-    html += '<h3 class="event-title">' + calEscapeHtml(event.title) + '</h3>';
-    html += '<div class="event-meta">';
-    html += '<span class="event-location">&#128205; ' + calEscapeHtml(event.location || 'TBD') + '</span>';
-    html += '<span class="event-dot">&middot;</span>';
-    html += '<span class="event-dates">' + calEscapeHtml(formatEventDateRange(event.date, event.endDate)) + '</span>';
-    html += '</div>';
-    html += '<p class="event-description">' + calEscapeHtml(event.description || '') + '</p>';
-
-    if (event.keyAttendees && event.keyAttendees.length) {
-      html += '<div class="event-attendees">';
-      html += '<span class="event-attendees-label">Key Companies:</span> ';
-      html += event.keyAttendees.map(calEscapeHtml).join(', ');
-      html += '</div>';
-    }
-
-    html += '<div class="event-footer">';
-    html += recommend;
-    if (event.url && event.url !== '#') {
-      html += '<a href="' + calSanitizeUrl(event.url) + '" target="_blank" rel="noopener" class="event-link">Visit Event &rarr;</a>';
-    }
-    html += '</div>';
-    html += '</div>'; // .event-body
-    html += '</div>'; // .calendar-event
-  });
+  visible.forEach(function(event) { html += calendarEventHTML(event); });
   html += '</div>';
 
+  if (total > CAL_INITIAL_COUNT) {
+    var remaining = total - calShownCount;
+    if (remaining > 0) {
+      var nextBatch = Math.min(CAL_STEP_SIZE, remaining);
+      html += '<div class="paginated-list-actions"><button class="show-more-btn" type="button" data-cal-action="show-more">Show ' + nextBatch + ' more events <span class="show-more-count">(' + remaining + ' remaining)</span></button></div>';
+    } else {
+      html += '<div class="paginated-list-actions"><button class="show-more-btn show-less-btn" type="button" data-cal-action="show-less">Show less</button></div>';
+    }
+  }
+
   container.innerHTML = html;
+
+  var btn = container.querySelector('[data-cal-action]');
+  if (btn) {
+    btn.addEventListener('click', function() {
+      if (btn.getAttribute('data-cal-action') === 'show-more') {
+        calShownCount = Math.min(calShownCount + CAL_STEP_SIZE, total);
+      } else {
+        calShownCount = CAL_INITIAL_COUNT;
+        container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      renderCalendar();
+      // Re-apply filters after re-render so filter state is preserved
+      if (typeof applyCalendarFilters === 'function') applyCalendarFilters();
+    });
+  }
 }
 
 function populateMonthFilter() {

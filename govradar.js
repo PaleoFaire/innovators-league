@@ -321,6 +321,58 @@ function initOpportunities() {
 
   renderOpportunities();
 
+  var OPP_INITIAL = 15;
+  var OPP_STEP = 15;
+  var oppShown = OPP_INITIAL;
+  var lastOppList = null;
+
+  function oppCardHTML(opp) {
+    var days = daysUntil(opp.deadline);
+    var dlClass = deadlineClass(days);
+    var dlText = deadlineText(days);
+    var typeBadge = oppTypeBadgeClass(opp.type);
+    var priClass = priorityColor(opp.priority);
+
+    var html = '<div class="opp-card">';
+    html += '<div class="opp-card-header">';
+    html += '<div>';
+    html += '<div style="display:flex;gap:0.4rem;align-items:center;margin-bottom:0.4rem;flex-wrap:wrap;">';
+    html += '<span class="opp-type-badge ' + typeBadge + '">' + escapeHtml(opp.type || 'Opportunity') + '</span>';
+    html += '<span class="opp-priority-badge ' + priClass + '">' + escapeHtml(opp.priority || '') + '</span>';
+    html += '</div>';
+    html += '<div class="opp-title">' + escapeHtml(opp.title) + '</div>';
+    html += '<div class="opp-agency">' + escapeHtml(opp.agency || '') + '</div>';
+    html += '</div>';
+    html += '</div>';
+    if (opp.description) {
+      html += '<div class="opp-desc">' + escapeHtml(opp.description) + '</div>';
+    }
+    html += '<div class="opp-meta">';
+    if (opp.value) {
+      html += '<span class="opp-value">' + escapeHtml(opp.value) + '</span>';
+    }
+    if (opp.deadline) {
+      html += '<span class="opp-deadline ' + dlClass + '">' + dlText + '</span>';
+    }
+    html += '</div>';
+    if (opp.techAreas && opp.techAreas.length > 0) {
+      html += '<div class="opp-tags">';
+      opp.techAreas.forEach(function(t) {
+        html += '<span class="opp-tag">' + escapeHtml(t) + '</span>';
+      });
+      html += '</div>';
+    }
+    if (opp.relevantCompanies && opp.relevantCompanies.length > 0) {
+      html += '<div class="opp-tags">';
+      opp.relevantCompanies.forEach(function(c) {
+        html += '<span class="opp-tag company-tag">' + escapeHtml(c) + '</span>';
+      });
+      html += '</div>';
+    }
+    html += '</div>';
+    return html;
+  }
+
   function renderOpportunities() {
     var agencyVal = document.getElementById('opp-agency-filter') ? document.getElementById('opp-agency-filter').value : 'all';
     var techVal = document.getElementById('opp-tech-filter') ? document.getElementById('opp-tech-filter').value : 'all';
@@ -345,54 +397,46 @@ function initOpportunities() {
       return;
     }
 
-    var html = '';
-    filtered.forEach(function(opp) {
-      var days = daysUntil(opp.deadline);
-      var dlClass = deadlineClass(days);
-      var dlText = deadlineText(days);
-      var typeBadge = oppTypeBadgeClass(opp.type);
-      var priClass = priorityColor(opp.priority);
+    // Reset pagination on filter change (by reference of filtered list with filter inputs)
+    var filterKey = agencyVal + '|' + techVal + '|' + priorityVal + '|' + filtered.length;
+    if (lastOppList !== filterKey) {
+      oppShown = OPP_INITIAL;
+      lastOppList = filterKey;
+    }
 
-      html += '<div class="opp-card">';
-      html += '<div class="opp-card-header">';
-      html += '<div>';
-      html += '<div style="display:flex;gap:0.4rem;align-items:center;margin-bottom:0.4rem;flex-wrap:wrap;">';
-      html += '<span class="opp-type-badge ' + typeBadge + '">' + escapeHtml(opp.type || 'Opportunity') + '</span>';
-      html += '<span class="opp-priority-badge ' + priClass + '">' + escapeHtml(opp.priority || '') + '</span>';
-      html += '</div>';
-      html += '<div class="opp-title">' + escapeHtml(opp.title) + '</div>';
-      html += '<div class="opp-agency">' + escapeHtml(opp.agency || '') + '</div>';
-      html += '</div>';
-      html += '</div>';
-      if (opp.description) {
-        html += '<div class="opp-desc">' + escapeHtml(opp.description) + '</div>';
+    var total = filtered.length;
+    var visible = filtered.slice(0, oppShown);
+    var html = '';
+    visible.forEach(function(opp) { html += oppCardHTML(opp); });
+
+    if (total > OPP_INITIAL) {
+      var remaining = total - oppShown;
+      if (remaining > 0) {
+        var nextBatch = Math.min(OPP_STEP, remaining);
+        html += '<div class="paginated-list-actions"><button class="show-more-btn" type="button" data-opp-action="show-more">Show ' + nextBatch + ' more <span class="show-more-count">(' + remaining + ' remaining)</span></button></div>';
+      } else {
+        html += '<div class="paginated-list-actions"><button class="show-more-btn show-less-btn" type="button" data-opp-action="show-less">Show less</button></div>';
       }
-      html += '<div class="opp-meta">';
-      if (opp.value) {
-        html += '<span class="opp-value">' + escapeHtml(opp.value) + '</span>';
-      }
-      if (opp.deadline) {
-        html += '<span class="opp-deadline ' + dlClass + '">' + dlText + '</span>';
-      }
-      html += '</div>';
-      if (opp.techAreas && opp.techAreas.length > 0) {
-        html += '<div class="opp-tags">';
-        opp.techAreas.forEach(function(t) {
-          html += '<span class="opp-tag">' + escapeHtml(t) + '</span>';
-        });
-        html += '</div>';
-      }
-      if (opp.relevantCompanies && opp.relevantCompanies.length > 0) {
-        html += '<div class="opp-tags">';
-        opp.relevantCompanies.forEach(function(c) {
-          html += '<span class="opp-tag company-tag">' + escapeHtml(c) + '</span>';
-        });
-        html += '</div>';
-      }
-      html += '</div>';
-    });
+    }
 
     gridEl.innerHTML = html;
+
+    var btn = gridEl.querySelector('[data-opp-action]');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        if (btn.getAttribute('data-opp-action') === 'show-more') {
+          oppShown = Math.min(oppShown + OPP_STEP, total);
+        } else {
+          oppShown = OPP_INITIAL;
+          gridEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        // Re-render while keeping the filter key stable
+        var savedKey = lastOppList;
+        lastOppList = null;
+        renderOpportunities();
+        lastOppList = savedKey;
+      });
+    }
   }
 }
 
@@ -1651,50 +1695,88 @@ function initLiveAwardFeed() {
     });
   }
 
+  var AWARD_INITIAL = 15;
+  var AWARD_STEP = 15;
+  var awardShown = AWARD_INITIAL;
+  var lastAwardFilter = null;
+
+  var typeConfig = {
+    'contract': { label: 'CONTRACT', emoji: '🏛️', cls: 'award-contract' },
+    'ota': { label: 'OTA', emoji: '⚡', cls: 'award-ota' },
+    'sbir': { label: 'SBIR', emoji: '🔬', cls: 'award-sbir' }
+  };
+
+  function awardCardHTML(award) {
+    var type = typeConfig[award.type] || { label: award.type, emoji: '📄', cls: '' };
+    var dateStr = new Date(award.date + 'T00:00:00').toLocaleDateString('en-US', {
+      month: 'short', day: 'numeric', year: 'numeric'
+    });
+    var daysAgo = Math.floor((Date.now() - new Date(award.date + 'T00:00:00').getTime()) / 86400000);
+    var freshness = daysAgo <= 3 ? 'award-fresh' : (daysAgo <= 7 ? 'award-recent' : '');
+
+    var html = '<div class="award-card ' + freshness + '">';
+    html += '<div class="award-card-left">';
+    html += '<div class="award-date-col">';
+    html += '<span class="award-date">' + dateStr + '</span>';
+    if (daysAgo <= 3) html += '<span class="award-new-badge">NEW</span>';
+    html += '</div>';
+    html += '</div>';
+    html += '<div class="award-card-center">';
+    html += '<div class="award-top-row">';
+    html += '<span class="award-type-badge ' + type.cls + '">' + type.emoji + ' ' + type.label + '</span>';
+    html += '<span class="award-agency">' + escapeHtml(award.agency) + '</span>';
+    html += '</div>';
+    html += '<h4 class="award-title">' + escapeHtml(award.title) + '</h4>';
+    html += '<p class="award-detail">' + escapeHtml(award.detail) + '</p>';
+    html += '<span class="award-company-name">' + escapeHtml(award.company) + '</span>';
+    html += '</div>';
+    html += '<div class="award-card-right">';
+    html += '<span class="award-value">' + escapeHtml(award.value) + '</span>';
+    html += '</div>';
+    html += '</div>';
+    return html;
+  }
+
   function renderFeed() {
     var filtered = data;
     if (activeFilter !== 'all') {
       filtered = data.filter(function(d) { return d.type === activeFilter; });
     }
 
-    var typeConfig = {
-      'contract': { label: 'CONTRACT', emoji: '🏛️', cls: 'award-contract' },
-      'ota': { label: 'OTA', emoji: '⚡', cls: 'award-ota' },
-      'sbir': { label: 'SBIR', emoji: '🔬', cls: 'award-sbir' }
-    };
+    if (lastAwardFilter !== activeFilter) {
+      awardShown = AWARD_INITIAL;
+      lastAwardFilter = activeFilter;
+    }
 
+    var total = filtered.length;
+    var visible = filtered.slice(0, awardShown);
     var html = '';
-    filtered.forEach(function(award) {
-      var type = typeConfig[award.type] || { label: award.type, emoji: '📄', cls: '' };
-      var dateStr = new Date(award.date + 'T00:00:00').toLocaleDateString('en-US', {
-        month: 'short', day: 'numeric', year: 'numeric'
-      });
-      var daysAgo = Math.floor((Date.now() - new Date(award.date + 'T00:00:00').getTime()) / 86400000);
-      var freshness = daysAgo <= 3 ? 'award-fresh' : (daysAgo <= 7 ? 'award-recent' : '');
+    visible.forEach(function(award) { html += awardCardHTML(award); });
 
-      html += '<div class="award-card ' + freshness + '">';
-      html += '<div class="award-card-left">';
-      html += '<div class="award-date-col">';
-      html += '<span class="award-date">' + dateStr + '</span>';
-      if (daysAgo <= 3) html += '<span class="award-new-badge">NEW</span>';
-      html += '</div>';
-      html += '</div>';
-      html += '<div class="award-card-center">';
-      html += '<div class="award-top-row">';
-      html += '<span class="award-type-badge ' + type.cls + '">' + type.emoji + ' ' + type.label + '</span>';
-      html += '<span class="award-agency">' + escapeHtml(award.agency) + '</span>';
-      html += '</div>';
-      html += '<h4 class="award-title">' + escapeHtml(award.title) + '</h4>';
-      html += '<p class="award-detail">' + escapeHtml(award.detail) + '</p>';
-      html += '<span class="award-company-name">' + escapeHtml(award.company) + '</span>';
-      html += '</div>';
-      html += '<div class="award-card-right">';
-      html += '<span class="award-value">' + escapeHtml(award.value) + '</span>';
-      html += '</div>';
-      html += '</div>';
-    });
+    if (total > AWARD_INITIAL) {
+      var remaining = total - awardShown;
+      if (remaining > 0) {
+        var nextBatch = Math.min(AWARD_STEP, remaining);
+        html += '<div class="paginated-list-actions"><button class="show-more-btn" type="button" data-award-action="show-more">Show ' + nextBatch + ' more awards <span class="show-more-count">(' + remaining + ' remaining)</span></button></div>';
+      } else {
+        html += '<div class="paginated-list-actions"><button class="show-more-btn show-less-btn" type="button" data-award-action="show-less">Show less</button></div>';
+      }
+    }
 
     feedEl.innerHTML = html;
+
+    var btn = feedEl.querySelector('[data-award-action]');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        if (btn.getAttribute('data-award-action') === 'show-more') {
+          awardShown = Math.min(awardShown + AWARD_STEP, total);
+        } else {
+          awardShown = AWARD_INITIAL;
+          feedEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        renderFeed();
+      });
+    }
   }
 
   renderFeed();

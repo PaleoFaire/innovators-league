@@ -753,11 +753,11 @@ function initClinicalTrials() {
   // Sort sponsors by number of trials
   const sponsors = Object.keys(bySponsor).sort((a, b) => bySponsor[b].length - bySponsor[a].length);
 
-  grid.innerHTML = sponsors.map((sponsor, idx) => {
-    const trials = bySponsor[sponsor];
+  function sponsorCardHTML(sponsor, idx) {
+    const sponsorTrials = bySponsor[sponsor];
     // Group by phase
     const byPhase = {};
-    trials.forEach(t => {
+    sponsorTrials.forEach(t => {
       const phase = normalizePhase(t.phase);
       if (!byPhase[phase]) byPhase[phase] = [];
       byPhase[phase].push(t);
@@ -771,7 +771,7 @@ function initClinicalTrials() {
         <div class="ct-company-header" onclick="toggleCTCard(${idx})">
           <div class="ct-company-info">
             <span class="ct-company-name">${escapeHtml(truncate(sponsor, 60))}</span>
-            <span class="ct-trial-count">${trials.length} trial${trials.length !== 1 ? 's' : ''}</span>
+            <span class="ct-trial-count">${sponsorTrials.length} trial${sponsorTrials.length !== 1 ? 's' : ''}</span>
           </div>
           <div style="display:flex;align-items:center;gap:8px;">
             <div class="ct-phase-badges">
@@ -790,7 +790,44 @@ function initClinicalTrials() {
         </div>
       </div>
     `;
-  }).join('');
+  }
+
+  const CT_INITIAL_COUNT = 20;
+  const CT_STEP_SIZE = 20;
+  let ctShownCount = CT_INITIAL_COUNT;
+
+  function renderCT() {
+    const total = sponsors.length;
+    const visible = sponsors.slice(0, ctShownCount);
+    let html = visible.map((sp, i) => sponsorCardHTML(sp, i)).join('');
+
+    if (total > CT_INITIAL_COUNT) {
+      const remaining = total - ctShownCount;
+      if (remaining > 0) {
+        const nextBatch = Math.min(CT_STEP_SIZE, remaining);
+        html += `<div class="paginated-list-actions"><button class="show-more-btn" type="button" data-ct-action="show-more">Show ${nextBatch} more sponsors <span class="show-more-count">(${remaining} remaining)</span></button></div>`;
+      } else {
+        html += `<div class="paginated-list-actions"><button class="show-more-btn show-less-btn" type="button" data-ct-action="show-less">Show less</button></div>`;
+      }
+    }
+
+    grid.innerHTML = html;
+
+    const btn = grid.querySelector('[data-ct-action]');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        if (btn.getAttribute('data-ct-action') === 'show-more') {
+          ctShownCount = Math.min(ctShownCount + CT_STEP_SIZE, total);
+        } else {
+          ctShownCount = CT_INITIAL_COUNT;
+          grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        renderCT();
+      });
+    }
+  }
+
+  renderCT();
 }
 
 function renderTrialItem(t) {

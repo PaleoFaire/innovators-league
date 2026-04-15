@@ -10,20 +10,21 @@
     ],
     "funding": "3.2B",
     "status": "Active",
-    "description": "Funding for advanced reactor demonstrations",
-    "lastUpdate": "2026-01-15"
+    "description": "Funding for advanced reactor demonstrations (Natrium, Xe-100).",
+    "lastUpdate": "2026-04-01"
   },
   {
     "program": "HALEU Availability Program",
     "agency": "DOE Office of Nuclear Energy",
     "companies": [
       "Centrus Energy",
-      "Urenco"
+      "Urenco",
+      "General Matter"
     ],
-    "funding": "700M",
-    "status": "Active",
-    "description": "High-assay low-enriched uranium production",
-    "lastUpdate": "2026-01-10"
+    "funding": "2.7B",
+    "status": "Expanded FY2026",
+    "description": "High-assay low-enriched uranium production \u2014 2026 appropriation boosted to $2.7B.",
+    "lastUpdate": "2026-03-15"
   },
   {
     "program": "Fusion Energy Sciences",
@@ -32,24 +33,26 @@
       "Commonwealth Fusion Systems",
       "TAE Technologies",
       "Helion",
-      "General Fusion"
+      "General Fusion",
+      "Zap Energy"
     ],
-    "funding": "763M",
+    "funding": "915M",
     "status": "Active",
-    "description": "Fusion research and development",
-    "lastUpdate": "2026-02-01"
+    "description": "Fusion R&D; FY2026 appropriation includes $58M for the Fusion Innovation Research Engine (FIRE).",
+    "lastUpdate": "2026-03-28"
   },
   {
     "program": "Nuclear Thermal Propulsion (NTP)",
     "agency": "NASA/DOE",
     "companies": [
       "BWXT",
-      "Lockheed Martin"
+      "Lockheed Martin",
+      "Aerojet Rocketdyne"
     ],
     "funding": "500M",
     "status": "Active",
-    "description": "Nuclear propulsion for deep space missions",
-    "lastUpdate": "2025-12-15"
+    "description": "Nuclear propulsion for deep space missions (DRACO follow-on).",
+    "lastUpdate": "2026-02-10"
   },
   {
     "program": "Microreactor Program",
@@ -58,11 +61,103 @@
       "Oklo",
       "Radiant",
       "Westinghouse",
-      "X-energy"
+      "X-energy",
+      "Antares",
+      "Last Energy"
     ],
-    "funding": "150M",
+    "funding": "250M",
+    "status": "Expanded FY2026",
+    "description": "Transportable microreactors (DoD Project Pele, DOE MARVEL).",
+    "lastUpdate": "2026-03-20"
+  },
+  {
+    "program": "Civil Nuclear Credit Program",
+    "agency": "DOE Office of Nuclear Energy",
+    "companies": [
+      "Constellation Energy",
+      "Vistra",
+      "Holtec"
+    ],
+    "funding": "6.0B",
     "status": "Active",
-    "description": "Transportable microreactors for remote/military use",
-    "lastUpdate": "2026-01-20"
+    "description": "Preserves at-risk U.S. reactors via credit auctions (Palisades restart).",
+    "lastUpdate": "2026-02-25"
+  },
+  {
+    "program": "Loan Programs Office (LPO) \u2014 Title 17",
+    "agency": "DOE Loan Programs Office",
+    "companies": [
+      "Holtec Palisades",
+      "TerraPower Natrium",
+      "X-energy",
+      "Monolith"
+    ],
+    "funding": "400B",
+    "status": "Active",
+    "description": "Loan guarantees for innovative energy projects; ~$400B lending authority.",
+    "lastUpdate": "2026-04-05"
+  },
+  {
+    "program": "SMR Licensing and Demonstration",
+    "agency": "DOE Office of Nuclear Energy",
+    "companies": [
+      "NuScale",
+      "Holtec",
+      "GE-Hitachi",
+      "TerraPower"
+    ],
+    "funding": "900M",
+    "status": "Active",
+    "description": "Support for NRC licensing of first-of-a-kind small modular reactors.",
+    "lastUpdate": "2026-03-01"
+  },
+  {
+    "program": "Gateway for Accelerated Innovation in Nuclear (GAIN)",
+    "agency": "DOE Idaho National Lab",
+    "companies": [
+      "Oklo",
+      "Radiant",
+      "Kairos Power",
+      "Westinghouse"
+    ],
+    "funding": "35M",
+    "status": "Active",
+    "description": "Vouchers giving nuclear startups access to national lab expertise.",
+    "lastUpdate": "2026-01-10"
+  },
+  {
+    "program": "Industrial Demonstrations Program (IDP)",
+    "agency": "DOE Office of Clean Energy Demonstrations",
+    "companies": [
+      "Cleveland-Cliffs",
+      "Century Aluminum",
+      "Heidelberg Materials"
+    ],
+    "funding": "6.3B",
+    "status": "Active",
+    "description": "Large-scale decarbonization demonstrations in heavy industry.",
+    "lastUpdate": "2026-02-20"
+  },
+  {
+    "program": "Hydrogen Hubs (H2Hubs)",
+    "agency": "DOE Office of Clean Energy Demonstrations",
+    "companies": [
+      "Air Products",
+      "Plug Power",
+      "Linde"
+    ],
+    "funding": "7.0B",
+    "status": "Active",
+    "description": "Seven regional clean hydrogen hubs across the U.S.",
+    "lastUpdate": "2026-03-05"
+  },
+  {
+    "program": "Grid Resilience and Innovation Partnerships (GRIP)",
+    "agency": "DOE Grid Deployment Office",
+    "companies": [],
+    "funding": "10.5B",
+    "status": "Active",
+    "description": "Upgrades to transmission, storage and grid hardening.",
+    "lastUpdate": "2026-02-15"
   }
 ]

@@ -232,6 +232,11 @@ var ALERTS_STATE = {
   filters: { type: 'all', sector: 'all', time: 'all' }
 };
 
+var ALERTS_FEED_INITIAL = 25;
+var ALERTS_FEED_STEP = 25;
+var alertsFeedShownCount = ALERTS_FEED_INITIAL;
+var lastRenderedAlertSignals = null;
+
 function renderAlertsFeed(signals) {
   var container = document.getElementById('alerts-feed');
   if (!container) return;
@@ -245,8 +250,15 @@ function renderAlertsFeed(signals) {
     return;
   }
 
-  var html = '<div class="alerts-list">';
-  signals.slice(0, 150).forEach(function(s) {
+  // Cap raw signals at 150 (original hard cap)
+  var capped = signals.slice(0, 150);
+
+  if (lastRenderedAlertSignals !== signals) {
+    alertsFeedShownCount = ALERTS_FEED_INITIAL;
+    lastRenderedAlertSignals = signals;
+  }
+
+  function alertItemHTML(s) {
     var dateStr = s.date ? alertsFormatDateRelative(s.date) : 'Recent';
     var companyLink = s.company
       ? '<a href="' + alertsSanitizeUrl(alertsCompanyHref(s.company)) + '" class="alert-company">' + alertsEscapeHtml(s.company) + '</a>'
@@ -262,7 +274,7 @@ function renderAlertsFeed(signals) {
       priorityTag = '<span class="alert-priority high">High Impact</span>';
     }
 
-    html += '<div class="alert-item" data-type="' + alertsEscapeHtml(s.type) + '" data-sector="' + alertsEscapeHtml(s.sector || '') + '" data-date="' + alertsEscapeHtml(s.date || '') + '">';
+    var html = '<div class="alert-item" data-type="' + alertsEscapeHtml(s.type) + '" data-sector="' + alertsEscapeHtml(s.sector || '') + '" data-date="' + alertsEscapeHtml(s.date || '') + '">';
     html += '<div class="alert-icon" style="background:' + s.color + '15;color:' + s.color + ';border:1px solid ' + s.color + '30;">' + s.icon + '</div>';
     html += '<div class="alert-body">';
     html += '<div class="alert-meta">' + companyLink + '<span class="alert-date">' + alertsEscapeHtml(dateStr) + '</span></div>';
@@ -270,10 +282,43 @@ function renderAlertsFeed(signals) {
     html += '<div class="alert-footer">' + sourceLink + sectorTag + priorityTag + '</div>';
     html += '</div>';
     html += '</div>';
-  });
+    return html;
+  }
+
+  var total = capped.length;
+  var visible = capped.slice(0, alertsFeedShownCount);
+
+  var html = '<div class="alerts-list">';
+  visible.forEach(function(s) { html += alertItemHTML(s); });
   html += '</div>';
 
+  if (total > ALERTS_FEED_INITIAL) {
+    var remaining = total - alertsFeedShownCount;
+    if (remaining > 0) {
+      var nextBatch = Math.min(ALERTS_FEED_STEP, remaining);
+      html += '<div class="paginated-list-actions"><button class="show-more-btn" type="button" data-alerts-feed-action="show-more">Show ' + nextBatch + ' more alerts <span class="show-more-count">(' + remaining + ' remaining)</span></button></div>';
+    } else {
+      html += '<div class="paginated-list-actions"><button class="show-more-btn show-less-btn" type="button" data-alerts-feed-action="show-less">Show less</button></div>';
+    }
+  }
+
   container.innerHTML = html;
+
+  var btn = container.querySelector('[data-alerts-feed-action]');
+  if (btn) {
+    btn.addEventListener('click', function() {
+      if (btn.getAttribute('data-alerts-feed-action') === 'show-more') {
+        alertsFeedShownCount = Math.min(alertsFeedShownCount + ALERTS_FEED_STEP, total);
+      } else {
+        alertsFeedShownCount = ALERTS_FEED_INITIAL;
+        container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+      var cached = lastRenderedAlertSignals;
+      lastRenderedAlertSignals = null;
+      renderAlertsFeed(cached);
+      lastRenderedAlertSignals = cached;
+    });
+  }
 }
 
 function renderAlertsSummary(signals) {

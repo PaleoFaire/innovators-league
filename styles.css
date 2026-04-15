@@ -18602,3 +18602,46 @@ grid-template-columns: repeat(3, 1fr);
 .podcast-guest { font-size: 12px; color: rgba(255,255,255,0.5); margin-bottom: 2px; }
 .podcast-company { font-size: 12px; color: #FF6B2C; font-weight: 500; margin-bottom: 8px; }
 .podcast-date { font-size: 11px; color: rgba(255,255,255,0.3); font-family: 'SF Mono', monospace; }
+
+/* --- Pagination / Show More --- */
+.paginated-list-actions {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  width: 100%;
+  grid-column: 1 / -1;
+}
+.paginated-list-actions .show-more-btn {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 24px;
+  background: rgba(255, 107, 44, 0.08);
+  color: #FF6B2C;
+  border: 1px solid rgba(255, 107, 44, 0.3);
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+.paginated-list-actions .show-more-btn:hover {
+  background: rgba(255, 107, 44, 0.15);
+  border-color: rgba(255, 107, 44, 0.5);
+  transform: translateY(-1px);
+}
+.paginated-list-actions .show-more-btn.show-less-btn {
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.paginated-list-actions .show-more-btn.show-less-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.8);
+}
+.show-more-count {
+  opacity: 0.6;
+  font-weight: 400;
+  margin-left: 4px;
+  font-size: 12px;
+}

@@ -1,0 +1,29 @@
+{
+  "script": "fetch_secondary_market.py",
+  "started_at": "2026-04-15T04:40:35.355383+00:00",
+  "finished_at": "2026-04-15T04:40:41.426024+00:00",
+  "sources": [
+    {
+      "source": "Forge",
+      "url": "https://forgeglobal.com/private-markets/",
+      "records_found": 0,
+      "error": "HTTP 403"
+    },
+    {
+      "source": "EquityZen",
+      "url": "https://equityzen.com/marketplace/",
+      "records_found": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "source": "Caplight",
+      "url": "https://caplight.com",
+      "records_found": 24,
+      "error": null
+    }
+  ],
+  "total_records": 54,
+  "seed_records": 30,
+  "scraped_records": 24,
+  "ok": true
+}

@@ -315,8 +315,13 @@ function initRevenueLeaderboard() {
   let sortKey = 'multiple';
   let sortDir = 'desc';
   let searchTerm = '';
+  const LB_INITIAL_COUNT = 25;
+  const LB_STEP_SIZE = 25;
+  let lbShownCount = LB_INITIAL_COUNT;
 
-  function renderTable() {
+  function renderTable(resetPagination) {
+    if (resetPagination) lbShownCount = LB_INITIAL_COUNT;
+
     let filtered = multiples;
     if (searchTerm) {
       const q = searchTerm.toLowerCase();
@@ -339,7 +344,10 @@ function initRevenueLeaderboard() {
       return sortDir === 'asc' ? av - bv : bv - av;
     });
 
-    tbody.innerHTML = filtered.map(m => `
+    const total = filtered.length;
+    const visible = filtered.slice(0, lbShownCount);
+
+    let rowsHTML = visible.map(m => `
       <tr>
         <td>${m.company}</td>
         <td>${m.revenueStr}</td>
@@ -349,6 +357,31 @@ function initRevenueLeaderboard() {
         <td>${m.growth}</td>
       </tr>
     `).join('');
+
+    if (total > LB_INITIAL_COUNT) {
+      const remaining = total - lbShownCount;
+      if (remaining > 0) {
+        const nextBatch = Math.min(LB_STEP_SIZE, remaining);
+        rowsHTML += `<tr><td colspan="6"><div class="paginated-list-actions" style="grid-column:unset;"><button class="show-more-btn" type="button" data-lb-action="show-more">Show ${nextBatch} more companies <span class="show-more-count">(${remaining} remaining)</span></button></div></td></tr>`;
+      } else {
+        rowsHTML += `<tr><td colspan="6"><div class="paginated-list-actions" style="grid-column:unset;"><button class="show-more-btn show-less-btn" type="button" data-lb-action="show-less">Show less</button></div></td></tr>`;
+      }
+    }
+
+    tbody.innerHTML = rowsHTML;
+
+    const btn = tbody.querySelector('[data-lb-action]');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        if (btn.getAttribute('data-lb-action') === 'show-more') {
+          lbShownCount = Math.min(lbShownCount + LB_STEP_SIZE, total);
+        } else {
+          lbShownCount = LB_INITIAL_COUNT;
+          table.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        renderTable();
+      });
+    }
   }
 
   // Sort click handlers
@@ -365,7 +398,7 @@ function initRevenueLeaderboard() {
       // Update header classes
       table.querySelectorAll('thead th').forEach(h => h.classList.remove('sorted-asc', 'sorted-desc'));
       th.classList.add(sortDir === 'asc' ? 'sorted-asc' : 'sorted-desc');
-      renderTable();
+      renderTable(true);
     });
   });
 
@@ -373,7 +406,7 @@ function initRevenueLeaderboard() {
   if (searchInput) {
     searchInput.addEventListener('input', () => {
       searchTerm = searchInput.value.trim();
-      renderTable();
+      renderTable(true);
     });
   }
 

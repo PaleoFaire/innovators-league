@@ -430,13 +430,16 @@
 
     scored.sort(function(a, b) { return b.score.total - a.score.total; });
 
-    var html = '';
-    scored.slice(0, 50).forEach(function(item, i) {
+    var LB_INITIAL = 20;
+    var LB_STEP = 20;
+    var lbShown = LB_INITIAL;
+
+    function lbRowHTML(item, i) {
       var c = item.company;
       var ts = item.score;
       var rank = i + 1;
       var sectorColor = getSectorColor(c.sector);
-      html += '<tr onclick="window._dfDeepDive(\'' + escapeAttr(c.name) + '\')">' +
+      return '<tr onclick="window._dfDeepDive(\'' + escapeAttr(c.name) + '\')">' +
         '<td class="lb-rank' + (rank <= 3 ? ' top-3' : '') + '">' + rank + '</td>' +
         '<td class="lb-name">' + escapeHTML(c.name) + '</td>' +
         '<td><span class="screener-badge sector" style="color:' + sectorColor + ';background:' + sectorColor + '1a;font-size:11px;">' + escapeHTML(c.sector || '') + '</span></td>' +
@@ -451,8 +454,42 @@
           '<div class="lb-bar-seg lb-bar-growth" style="width:' + ts.breakdown.growth + '%;"></div>' +
         '</div></td>' +
       '</tr>';
-    });
-    body.innerHTML = html;
+    }
+
+    function renderLB() {
+      // Cap at 50 (original hard cap)
+      var capped = scored.slice(0, 50);
+      var total = capped.length;
+      var visible = capped.slice(0, lbShown);
+      var html = '';
+      visible.forEach(function(item, i) { html += lbRowHTML(item, i); });
+
+      if (total > LB_INITIAL) {
+        var remaining = total - lbShown;
+        if (remaining > 0) {
+          var nextBatch = Math.min(LB_STEP, remaining);
+          html += '<tr><td colspan="6"><div class="paginated-list-actions" style="grid-column:unset;"><button class="show-more-btn" type="button" data-lb-action="show-more">Show ' + nextBatch + ' more <span class="show-more-count">(' + remaining + ' remaining)</span></button></div></td></tr>';
+        } else {
+          html += '<tr><td colspan="6"><div class="paginated-list-actions" style="grid-column:unset;"><button class="show-more-btn show-less-btn" type="button" data-lb-action="show-less">Show less</button></div></td></tr>';
+        }
+      }
+      body.innerHTML = html;
+
+      var btn = body.querySelector('[data-lb-action]');
+      if (btn) {
+        btn.addEventListener('click', function() {
+          if (btn.getAttribute('data-lb-action') === 'show-more') {
+            lbShown = Math.min(lbShown + LB_STEP, total);
+          } else {
+            lbShown = LB_INITIAL;
+            body.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+          renderLB();
+        });
+      }
+    }
+
+    renderLB();
 
     // Legend
     if (legendEl) {

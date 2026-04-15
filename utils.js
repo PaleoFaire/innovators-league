@@ -277,3 +277,83 @@ function exportToCSV(data, filename) {
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
 }
+
+// ─── PAGINATION ───
+
+/**
+ * Wrap a container with "Show more / Show less" pagination.
+ * @param {HTMLElement|string} container - Element or element ID where items render
+ * @param {Array} items - Full list of items to render
+ * @param {Function} renderItem - (item, index) => string | HTMLElement - returns the rendered item
+ * @param {Object} opts - { initialCount=20, stepSize=20, label='items', wrapperTag='div', wrapperClass='paginated-list' }
+ */
+function paginateList(container, items, renderItem, opts) {
+  opts = opts || {};
+  var initialCount = opts.initialCount || 20;
+  var stepSize = opts.stepSize || initialCount;
+  var label = opts.label || 'items';
+  var wrapperTag = opts.wrapperTag || 'div';
+  var wrapperClass = opts.wrapperClass || 'paginated-list';
+
+  var el = typeof container === 'string' ? document.getElementById(container) : container;
+  if (!el || !Array.isArray(items)) return;
+
+  var total = items.length;
+  // If under threshold, just render all
+  if (total <= initialCount) {
+    el.innerHTML = '<' + wrapperTag + ' class="' + wrapperClass + '">' +
+      items.map(function(item, i) {
+        var rendered = renderItem(item, i);
+        return typeof rendered === 'string' ? rendered : rendered.outerHTML;
+      }).join('') +
+    '</' + wrapperTag + '>';
+    return;
+  }
+
+  // State stored on the element
+  var state = { shown: initialCount };
+
+  function render() {
+    var visibleItems = items.slice(0, state.shown);
+    var itemsHTML = visibleItems.map(function(item, i) {
+      var r = renderItem(item, i);
+      return typeof r === 'string' ? r : r.outerHTML;
+    }).join('');
+
+    var remaining = total - state.shown;
+    var showMoreHTML = '';
+    if (remaining > 0) {
+      var nextBatch = Math.min(stepSize, remaining);
+      showMoreHTML = '<div class="paginated-list-actions">' +
+        '<button class="show-more-btn" type="button" data-pagination-action="show-more">' +
+          'Show ' + nextBatch + ' more ' + label + ' <span class="show-more-count">(' + remaining + ' remaining)</span>' +
+        '</button>' +
+      '</div>';
+    } else if (total > initialCount) {
+      showMoreHTML = '<div class="paginated-list-actions">' +
+        '<button class="show-more-btn show-less-btn" type="button" data-pagination-action="show-less">' +
+          'Show less' +
+        '</button>' +
+      '</div>';
+    }
+
+    el.innerHTML = '<' + wrapperTag + ' class="' + wrapperClass + '">' + itemsHTML + '</' + wrapperTag + '>' + showMoreHTML;
+
+    // Wire up buttons
+    var btn = el.querySelector('[data-pagination-action]');
+    if (btn) {
+      btn.addEventListener('click', function() {
+        var action = btn.getAttribute('data-pagination-action');
+        if (action === 'show-more') {
+          state.shown = Math.min(state.shown + stepSize, total);
+        } else {
+          state.shown = initialCount;
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        render();
+      });
+    }
+  }
+
+  render();
+}

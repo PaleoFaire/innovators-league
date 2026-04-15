@@ -198,11 +198,24 @@ function applyVCFilters() {
 }
 
 // ─── RENDER VC CARDS ───
+const VC_INITIAL_COUNT = 20;
+const VC_STEP_SIZE = 20;
+let vcShownCount = VC_INITIAL_COUNT;
+let lastRenderedFirms = null;
+
 function renderVCCards(firms) {
   const grid = document.getElementById('vc-grid');
   grid.innerHTML = '';
 
-  firms.forEach((firm, i) => {
+  if (lastRenderedFirms !== firms) {
+    vcShownCount = VC_INITIAL_COUNT;
+    lastRenderedFirms = firms;
+  }
+
+  const total = firms.length;
+  const visibleFirms = firms.slice(0, vcShownCount);
+
+  visibleFirms.forEach((firm, i) => {
     const card = document.createElement('div');
     card.className = 'vc-card';
     card.style.animationDelay = `${i * 0.03}s`;
@@ -259,6 +272,35 @@ function renderVCCards(firms) {
     card.style.cursor = 'pointer';
     grid.appendChild(card);
   });
+
+  // Pagination controls
+  if (total > VC_INITIAL_COUNT) {
+    const remaining = total - vcShownCount;
+    const actions = document.createElement('div');
+    actions.className = 'paginated-list-actions';
+    if (remaining > 0) {
+      const nextBatch = Math.min(VC_STEP_SIZE, remaining);
+      actions.innerHTML = `<button class="show-more-btn" type="button" data-vc-action="show-more">Show ${nextBatch} more firms <span class="show-more-count">(${remaining} remaining)</span></button>`;
+    } else {
+      actions.innerHTML = `<button class="show-more-btn show-less-btn" type="button" data-vc-action="show-less">Show less</button>`;
+    }
+    grid.appendChild(actions);
+    const btn = actions.querySelector('[data-vc-action]');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        if (btn.getAttribute('data-vc-action') === 'show-more') {
+          vcShownCount = Math.min(vcShownCount + VC_STEP_SIZE, total);
+        } else {
+          vcShownCount = VC_INITIAL_COUNT;
+          grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        const cached = lastRenderedFirms;
+        lastRenderedFirms = null;
+        renderVCCards(cached);
+        lastRenderedFirms = cached;
+      });
+    }
+  }
 }
 
 // ─── VC MODAL ───
