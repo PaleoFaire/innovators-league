@@ -254,6 +254,15 @@
   {
     "company": "Rocket Lab",
     "ticker": "RKLB",
+    "form": "8-K",
+    "date": "2026-04-14",
+    "description": "g085683_8k.htm",
+    "accessionNumber": "0001753926-26-000654",
+    "isIPO": false
+  },
+  {
+    "company": "Rocket Lab",
+    "ticker": "RKLB",
     "form": "DEF 14A",
     "date": "2026-04-06",
     "description": "rklb-20260406.htm",
@@ -483,15 +492,6 @@
     "date": "2025-12-18",
     "description": "xslF345X05/edgardoc.xml",
     "accessionNumber": "0002001011-25-000128",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2025-12-16",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-25-000126",
     "isIPO": false
   },
   {
@@ -2333,6 +2333,15 @@
   {
     "company": "Virgin Galactic",
     "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-04-14",
+    "description": "spce-20260413.htm",
+    "accessionNumber": "0001706946-26-000026",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
     "form": "4",
     "date": "2026-04-09",
     "description": "xslF345X06/wk-form4_1775775201.xml",
@@ -2655,15 +2664,6 @@
     "isIPO": false
   },
   {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "4",
-    "date": "2025-06-17",
-    "description": "xslF345X05/wk-form4_1750191169.xml",
-    "accessionNumber": "0001706946-25-000104",
-    "isIPO": false
-  },
-  {
     "company": "NuScale Power",
     "ticker": "SMR",
     "form": "4",
@@ -2904,6 +2904,15 @@
     "date": "2025-11-17",
     "description": "smr-20251116.htm",
     "accessionNumber": "0001822966-25-000179",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "8-K",
+    "date": "2026-04-14",
+    "description": "oklo-20260410.htm",
+    "accessionNumber": "0001849056-26-000006",
     "isIPO": false
   },
   {
@@ -3165,15 +3174,6 @@
     "date": "2026-01-09",
     "description": "xslF345X05/ownership.xml",
     "accessionNumber": "0001193125-26-009194",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-01-06",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001193125-26-004991",
     "isIPO": false
   },
   {
@@ -5619,6 +5619,15 @@
     "company": "Ginkgo Bioworks",
     "ticker": "DNA",
     "form": "4",
+    "date": "2026-04-14",
+    "description": "xslF345X06/wk-form4_1776200454.xml",
+    "accessionNumber": "0001628280-26-025107",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "4",
     "date": "2026-04-13",
     "description": "xslF345X06/wk-form4_1776114037.xml",
     "accessionNumber": "0001628280-26-024929",
@@ -6288,15 +6297,6 @@
     "date": "2025-11-18",
     "description": "xslF345X05/wk-form4_1763501259.xml",
     "accessionNumber": "0001856680-25-000021",
-    "isIPO": false
-  },
-  {
-    "company": "Joby Aviation",
-    "ticker": "JOBY",
-    "form": "4",
-    "date": "2025-11-18",
-    "description": "xslF345X05/wk-form4_1763501170.xml",
-    "accessionNumber": "0001611597-25-000021",
     "isIPO": false
   },
   {
@@ -8817,15 +8817,6 @@
     "date": "2025-11-28",
     "description": "xslF345X05/wk-form4_1764364816.xml",
     "accessionNumber": "0001891517-25-000023",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2025-11-18",
-    "description": "xslF345X05/wk-form4_1763503489.xml",
-    "accessionNumber": "0001891517-25-000021",
     "isIPO": false
   },
   {

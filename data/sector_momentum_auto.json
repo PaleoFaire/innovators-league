@@ -1,30 +1,47 @@
 [
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 61,
+    "sector": "AI & Software",
+    "momentum": 64,
     "trend": "accelerating",
     "catalysts": [
-      "Estonia to halt $587M Infantry Fighting Vehicle buy in favor",
-      "US military eyes high-energy \u2018laser dome\u2019 for domestic air d",
-      "Self-Driving Volkswagen ID. Buzz Vehicles Join Uber LA"
+      "Anthropic&#8217;s rise is giving some OpenAI investors secon",
+      "AI data center startup Fluidstack in talks for $1B round at",
+      "In the Wake of Anthropic\u2019s Mythos, OpenAI Has a New Cybersec"
+    ],
+    "fundingQ": "$387.2B",
+    "components": {
+      "funding": 100,
+      "news": 75,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-15"
+  },
+  {
+    "sector": "Drones & Autonomous",
+    "momentum": 64,
+    "trend": "accelerating",
+    "catalysts": [
+      "1:5 kill ratio: Ukraine inflicts heavy Russian losses using",
+      "The US and Iran are using new weapons in the war. Here&#8217"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 65,
+      "news": 75,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
   },
   {
     "sector": "Defense & Security",
     "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "US Navy should rely on allies to boost maritime industrial b",
-      "Q&#038;A: Heather Pringle on what to expect from Space Sympo",
-      "What\u2019s in Hasan Piker\u2019s Starter Pack? Creatine, Zyns, Signal"
+      "Put nuclear reactors in space within a few years, White Hous",
+      "White House wants Pentagon to demo nuclear space power by 20",
+      "1:5 kill ratio: Ukraine inflicts heavy Russian losses using"
     ],
     "fundingQ": "$22.3B",
     "components": {
@@ -33,33 +50,14 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-14"
-  },
-  {
-    "sector": "AI & Software",
-    "momentum": 58,
-    "trend": "accelerating",
-    "catalysts": [
-      "OpenAI has bought AI personal finance startup Hiro",
-      "Meta Is Warned That Facial Recognition Glasses Will Arm Sexu",
-      "The largest orbital compute cluster is open for business"
-    ],
-    "fundingQ": "$7.2B",
-    "components": {
-      "funding": 87,
-      "news": 70,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
   },
   {
     "sector": "Ocean & Maritime",
     "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "US Navy should rely on allies to boost maritime industrial b",
-      "Can a New Bridge Finally Save the Pentagon\u2019s Best Ideas?"
+      "US Navy should rely on allies to boost maritime industrial b"
     ],
     "fundingQ": "$10.8B",
     "components": {
@@ -68,85 +66,84 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 50,
+    "momentum": 51,
     "trend": "steady",
     "catalysts": [
-      "The Internet's Most Powerful Archiving Tool Is in Peril"
+      "Xoople and L3Harris team up to build satellites for \u2018Earth A"
     ],
     "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 45,
+    "momentum": 41,
     "trend": "steady",
     "catalysts": [
-      "President Trump signs legislation reauthorizing SBIR",
-      "Q&#038;A: Heather Pringle on what to expect from Space Sympo",
-      "Microsoft is officially killing its Outlook Lite app next mo"
+      "SpaceX Starship V3 Has Successful Static Fire",
+      "Kepler to lead interoperability tests for ESA\u2019s HydRON optic",
+      "Blue Origin moves toward launch at Vandenberg"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
       "news": 100,
       "hiring": 0,
-      "market": 83
+      "market": 63
     },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 44,
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
-      "You Can Soon Buy a $4,370 Humanoid Robot on AliExpress",
-      "US Navy should rely on allies to boost maritime industrial b",
-      "Uber and Nuro begin testing premium robotaxi service in San"
+      "SES and Boeing move toward factory-installed multi-orbit inf",
+      "Redefining mobile artillery for a faster, more lethal fight",
+      "London gets closer to its first robotaxi service as Waymo be"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 80,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 35,
+    "momentum": 37,
     "trend": "rising",
     "catalysts": [
-      "Q&#038;A: Heather Pringle on what to expect from Space Sympo",
-      "Stanford report highlights growing disconnect between AI ins"
+      "Coming soon: 10 Things That Matter in AI Right Now"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 65,
+      "news": 55,
       "hiring": 0,
-      "market": 79
+      "market": 100
     },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 35,
     "trend": "steady",
     "catalysts": [
-      "Tesla Full Self-Driving Europe \u2014 Initial Impressions Review",
-      "Microsoft is officially killing its Outlook Lite app next mo",
-      "Amazon reveals aviation antenna as LEO inflight connectivity"
+      "SES and Boeing move toward factory-installed multi-orbit inf",
+      "London gets closer to its first robotaxi service as Waymo be",
+      "$200 Million Heat Pump Program Somehow Slips Through Trump C"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -155,45 +152,62 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 29,
+    "momentum": 32,
     "trend": "rising",
     "catalysts": [
-      "BYD\u2019s Fastest-Charging Car in the World Is Astonishing\u2014in Go",
-      "Some Weird Things Are Happening And The Grid May Never Be Th",
-      "Zero-Emission Drone News From Ukraine: Flying Fuel Cells &#0"
+      "Active climate & energy ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 65,
-      "hiring": 0,
-      "market": 66
-    },
-    "lastUpdated": "2026-04-14"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 25,
-    "trend": "declining",
-    "catalysts": [
-      "The largest orbital compute cluster is open for business"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
+      "news": 50,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 30,
+    "trend": "declining",
+    "catalysts": [
+      "Put nuclear reactors in space within a few years, White Hous",
+      "White House wants Pentagon to demo nuclear space power by 20",
+      "NASA is building the first nuclear reactor-powered interplan"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 40,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-15"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 26,
+    "trend": "declining",
+    "catalysts": [
+      "Silicon Valley Is Spending Millions to Stop One of Its Own",
+      "The Bromine Chokepoint: How Strife in the Middle East Could"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-15"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 22,
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -203,47 +217,13 @@
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 90
+      "market": 100
     },
-    "lastUpdated": "2026-04-14"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "Can a New Bridge Finally Save the Pentagon\u2019s Best Ideas?"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 74
-    },
-    "lastUpdated": "2026-04-14"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Aerospace to support industry with government furnished tale",
-      "Voyager is fortifying the U.S. Defense supply chain",
-      "Some Weird Things Are Happening And The Grid May Never Be Th"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
   },
   {
     "sector": "Transportation",
-    "momentum": 14,
+    "momentum": 22,
     "trend": "declining",
     "catalysts": [
       "Active transportation ecosystem"
@@ -251,26 +231,43 @@
     "fundingQ": "$40M",
     "components": {
       "funding": 7,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
-      "market": 51
+      "market": 100
     },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
   },
   {
-    "sector": "Housing & Construction",
-    "momentum": 12,
+    "sector": "Infrastructure & Logistics",
+    "momentum": 19,
     "trend": "declining",
     "catalysts": [
-      "California bill would limit EV-charging access in affordable"
+      "AI and geopolitics spur space investment surge",
+      "The Bromine Chokepoint: How Strife in the Middle East Could"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 35,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Coming soon: 10 Things That Matter in AI Right Now"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-15"
   }
 ]

@@ -17,14 +17,15 @@
     "company": "Anthropic",
     "totalRaised": "$13.0B+",
     "totalRaisedRaw": 13000.0,
-    "lastRound": "Series F",
-    "lastRoundAmount": "$13B",
-    "lastRoundDate": "2025-09",
-    "valuation": "$183B",
+    "lastRound": "Series T",
+    "lastRoundAmount": "$380B",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
     "leadInvestors": [
+      "Undisclosed",
       "GIC"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Durin",
@@ -80,6 +81,20 @@
     "roundCount": 2
   },
   {
+    "company": "Rebellions",
+    "totalRaised": "$7.7B+",
+    "totalRaisedRaw": 7740.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$5.5B",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "NEA"
+    ],
+    "roundCount": 5
+  },
+  {
     "company": "Vayu Robotics",
     "totalRaised": "$7.6B+",
     "totalRaisedRaw": 7638.0,
@@ -91,20 +106,6 @@
       "Undisclosed"
     ],
     "roundCount": 2
-  },
-  {
-    "company": "Rebellions",
-    "totalRaised": "$6.7B+",
-    "totalRaisedRaw": 6740.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$5.5B",
-    "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "NEA"
-    ],
-    "roundCount": 4
   },
   {
     "company": "Sift",
@@ -450,18 +451,18 @@
   },
   {
     "company": "Watershed",
-    "totalRaised": "$522M+",
-    "totalRaisedRaw": 522.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$30M",
-    "lastRoundDate": "2026-03",
+    "totalRaised": "$542M+",
+    "totalRaisedRaw": 542.0,
+    "lastRound": "Series N",
+    "lastRoundAmount": "$20M",
+    "lastRoundDate": "2026-04",
     "valuation": "",
     "leadInvestors": [
       "a16z",
       "Undisclosed",
       "Coatue"
     ],
-    "roundCount": 5
+    "roundCount": 6
   },
   {
     "company": "Axiom Space",
@@ -589,13 +590,14 @@
     "totalRaised": "$232M+",
     "totalRaisedRaw": 232.0,
     "lastRound": "Funding Round",
-    "lastRoundAmount": "$232M",
-    "lastRoundDate": "2026-03",
+    "lastRoundAmount": "$17.6B",
+    "lastRoundDate": "2026-04",
     "valuation": "",
     "leadInvestors": [
+      "NEA",
       "Undisclosed"
     ],
-    "roundCount": 1
+    "roundCount": 2
   },
   {
     "company": "Built Robotics",
@@ -690,6 +692,19 @@
     "roundCount": 1
   },
   {
+    "company": "Revel",
+    "totalRaised": "$151M+",
+    "totalRaisedRaw": 151.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$51M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 2
+  },
+  {
     "company": "Varda Space Industries",
     "totalRaised": "$150M+",
     "totalRaisedRaw": 150.0,
@@ -748,19 +763,6 @@
     "lastRound": "Funding Round",
     "lastRoundAmount": "$100M",
     "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed"
-    ],
-    "roundCount": 1
-  },
-  {
-    "company": "Revel",
-    "totalRaised": "$100M+",
-    "totalRaisedRaw": 100.0,
-    "lastRound": "Funding Round",
-    "lastRoundAmount": "$100M",
-    "lastRoundDate": "2026-02",
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
