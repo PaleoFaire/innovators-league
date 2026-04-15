@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 0,
-      "losers": 1,
-      "avg_change": -1.77,
+      "gainers": 1,
+      "losers": 0,
+      "avg_change": 0.92,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 1.48,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": -0.12,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 6.89,
+      "avg_change": 7.99,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 16.08,
+      "avg_change": 17.17,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 24.31,
+      "avg_change": 26.62,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 29.45,
+      "avg_change": 38.49,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 5.5,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 9.35,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 6.64,
+      "avg_change": 11.38,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 17.99,
+      "avg_change": 18.17,
       "count": 3
     }
   },
@@ -61,27 +61,27 @@
     [
       "LNZA",
       "LanzaTech",
-      51.69
+      59.72
     ],
     [
       "IONQ",
       "IonQ",
-      37.29
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      35.69
+      46.86
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      27.49
+      39.16
     ],
     [
-      "OKLO",
-      "Oklo",
-      27.17
+      "ALAB",
+      "Astera Labs",
+      35.16
+    ],
+    [
+      "RGTI",
+      "Rigetti Computing",
+      29.46
     ]
   ],
   "topLosers": [
@@ -91,25 +91,25 @@
       0.83
     ],
     [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -0.44
+      "LUNR",
+      "Intuitive Machines",
+      0.45
     ],
     [
-      "PLTR",
-      "Palantir",
-      -1.77
+      "SATL",
+      "Satellogic",
+      -1.45
     ],
     [
       "PL",
       "Planet Labs",
-      -7.09
+      -8.21
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -10.45
+      -9.76
     ]
   ],
-  "lastUpdated": "2026-04-15 13:46:39"
+  "lastUpdated": "2026-04-15 19:23:28"
 }
