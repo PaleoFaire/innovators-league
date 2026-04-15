@@ -26948,23 +26948,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-15 13:54
+// Last updated: 2026-04-15 17:14
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "Claros", headline: "World Premiere of the ID.3 Neo: New Name, New Design, New Interior, and New Technologies", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Palantir", headline: "Stealth Signals Are Bypassing Iran's Internet Blackout", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Cape", headline: "Crypto Faces Increased Threat from Quantum Attacks", source: "IEEE Spectrum", time: "Just now", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Aurora Innovation", headline: "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "Vast", headline: "Vast offers new docking adapter for large space stations", source: "SpaceNews", time: "Just now", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Gladia", headline: "Fathom adds a bot-less meeting mode in a bid to take on Granola", source: "TechCrunch", time: "1h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "Cape", headline: "Cyberscammers are bypassing banks' security with illicit tools sold on Telegram", source: "MIT Tech Review", time: "2h ago", impact: "low", unread: false },
-  { id: 8, type: "hire", company: "Andromeda Surgical", headline: "I Sold My Startup A Year After Founding It. Here's Why That Was The Fastest Way To Build Real-World Healthcare AI", source: "Crunchbase News", time: "2h ago", impact: "high", unread: false },
-  { id: 9, type: "funding", company: "Turion Space", headline: "Turion Space raises $75 million to expand maneuverable satellite fleet", source: "SpaceNews", time: "2h ago", impact: "medium", unread: false },
-  { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Starship V3 Has Successful Static Fire", source: "Next Big Future", time: "8h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "Daylight Computer", headline: "B&H Photo Promo Codes and Deals This April", source: "Wired", time: "8h ago", impact: "low", unread: false },
-  { id: 12, type: "news", company: "Amidon Heavy Industries", headline: "Unheeded lessons from the US warship nearly sunk by an Iranian mine", source: "Defense One", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "funding", company: "Anthropic", headline: "Anthropic's rise is giving some OpenAI investors second thoughts", source: "TechCrunch", time: "11h ago", impact: "high", unread: false },
-  { id: 14, type: "ipo", company: "PLD Space", headline: "Kepler to lead interoperability tests for ESA's HydRON optical relay network", source: "SpaceNews", time: "13h ago", impact: "low", unread: false },
-  { id: 15, type: "ipo", company: "Astro Mechanica", headline: "Blue Origin moves toward launch at Vandenberg", source: "SpaceNews", time: "14h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Xtend", headline: "US EV Market Down 27%, Worst 1st Quarter Since 2022", source: "CleanTechnica", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "funding", company: "Anthropic", headline: "Anthropic shrugs off VC funding offers valuing it at $800B+, for now", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
+  { id: 3, type: "news", company: "Palantir", headline: "The US Government Will Ask Data Centers How Much Power They Use", source: "Wired", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Ample", headline: "Hundreds Of New Fast Chargers Coming To Circle K Stores", source: "CleanTechnica", time: "2h ago", impact: "low", unread: true },
+  { id: 5, type: "news", company: "Crusoe Energy", headline: "Tesla AI5 Chip Tapeout", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "Claros", headline: "World Premiere of the ID.3 Neo: New Name, New Design, New Interior, and New Technologies", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Palantir", headline: "Stealth Signals Are Bypassing Iran's Internet Blackout", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
+  { id: 8, type: "news", company: "Cape", headline: "Crypto Faces Increased Threat from Quantum Attacks", source: "IEEE Spectrum", time: "4h ago", impact: "low", unread: false },
+  { id: 9, type: "funding", company: "Aurora Innovation", headline: "Chipmakers AMD, Arm, and Qualcomm are all investing in this buzzy self-driving tech startup", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
+  { id: 10, type: "ipo", company: "Vast", headline: "Vast offers new docking adapter for large space stations", source: "SpaceNews", time: "4h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Gladia", headline: "Fathom adds a bot-less meeting mode in a bid to take on Granola", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Cape", headline: "Cyberscammers are bypassing banks' security with illicit tools sold on Telegram", source: "MIT Tech Review", time: "5h ago", impact: "low", unread: false },
+  { id: 13, type: "hire", company: "Andromeda Surgical", headline: "I Sold My Startup A Year After Founding It. Here's Why That Was The Fastest Way To Build Real-World Healthcare AI", source: "Crunchbase News", time: "6h ago", impact: "high", unread: false },
+  { id: 14, type: "funding", company: "Turion Space", headline: "Turion Space raises $75 million to expand maneuverable satellite fleet", source: "SpaceNews", time: "6h ago", impact: "medium", unread: false },
+  { id: 15, type: "ipo", company: "SpaceX", headline: "SpaceX Starship V3 Has Successful Static Fire", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
