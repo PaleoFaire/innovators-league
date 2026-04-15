@@ -26948,25 +26948,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-15 06:04
-// Auto-generated real-time signals
-// Last updated: 2026-04-15
+// Last updated: 2026-04-15 09:42
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Starship V3 Has Successful Static Fire", source: "Next Big Future", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Daylight Computer", headline: "B&amp;H Photo Promo Codes and Deals This April", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Amidon Heavy Industries", headline: "Unheeded lessons from the US warship nearly sunk by an Iranian mine", source: "Defense One", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "funding", company: "Anthropic", headline: "Anthropic&#8217;s rise is giving some OpenAI investors second thoughts", source: "TechCrunch", time: "5h ago", impact: "high", unread: true },
-  { id: 5, type: "ipo", company: "PLD Space", headline: "Kepler to lead interoperability tests for ESA’s HydRON optical relay network", source: "SpaceNews", time: "7h ago", impact: "low", unread: true },
-  { id: 6, type: "ipo", company: "Astro Mechanica", headline: "Blue Origin moves toward launch at Vandenberg", source: "SpaceNews", time: "8h ago", impact: "low", unread: false },
-  { id: 7, type: "milestone", company: "Blue Origin", headline: "Blue Origin Delayed Static Fire Pushes Possible Launch to April 18, 2026", source: "Next Big Future", time: "9h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "Standard Nuclear", headline: "Put nuclear reactors in space within a few years, White House tells Pentagon", source: "Defense One", time: "9h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Palantir", headline: "NRO highlights government and industry partnerships", source: "SpaceNews", time: "9h ago", impact: "medium", unread: false },
-  { id: 10, type: "funding", company: "Anthropic", headline: "AI data center startup Fluidstack in talks for $1B round at $18B valuation months after hitting $7.5B, says report", source: "TechCrunch", time: "10h ago", impact: "high", unread: false },
-  { id: 11, type: "hire", company: "Durin", headline: "SES and Boeing move toward factory-installed multi-orbit inflight connectivity", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
-  { id: 12, type: "hire", company: "Vast", headline: "Commercial Space Federation (CSF) Welcomes ispace-U.S. to Board of Directors", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Galvanick", headline: "In the Wake of Anthropic’s Mythos, OpenAI Has a New Cybersecurity Model—and Strategy", source: "Wired", time: "11h ago", impact: "low", unread: false },
-  { id: 14, type: "contract", company: "Parallel Systems", headline: "White House wants Pentagon to demo nuclear space power by 2031", source: "Breaking Defense", time: "12h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "PILGRIM", headline: "Redefining mobile artillery for a faster, more lethal fight", source: "Breaking Defense", time: "13h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Starship V3 Has Successful Static Fire", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Daylight Computer", headline: "B&H Photo Promo Codes and Deals This April", source: "Wired", time: "4h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Amidon Heavy Industries", headline: "Unheeded lessons from the US warship nearly sunk by an Iranian mine", source: "Defense One", time: "5h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "Anthropic", headline: "Anthropic's rise is giving some OpenAI investors second thoughts", source: "TechCrunch", time: "7h ago", impact: "high", unread: true },
+  { id: 5, type: "ipo", company: "PLD Space", headline: "Kepler to lead interoperability tests for ESA's HydRON optical relay network", source: "SpaceNews", time: "9h ago", impact: "low", unread: true },
+  { id: 6, type: "ipo", company: "Astro Mechanica", headline: "Blue Origin moves toward launch at Vandenberg", source: "SpaceNews", time: "10h ago", impact: "low", unread: false },
+  { id: 7, type: "milestone", company: "Blue Origin", headline: "Blue Origin Delayed Static Fire Pushes Possible Launch to April 18, 2026", source: "Next Big Future", time: "11h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "Standard Nuclear", headline: "Put nuclear reactors in space within a few years, White House tells Pentagon", source: "Defense One", time: "11h ago", impact: "low", unread: false },
+  { id: 9, type: "news", company: "Palantir", headline: "NRO highlights government and industry partnerships", source: "SpaceNews", time: "11h ago", impact: "medium", unread: false },
+  { id: 10, type: "funding", company: "Anthropic", headline: "AI data center startup Fluidstack in talks for $1B round at $18B valuation months after hitting $7.5B, says report", source: "TechCrunch", time: "12h ago", impact: "high", unread: false },
+  { id: 11, type: "hire", company: "Durin", headline: "SES and Boeing move toward factory-installed multi-orbit inflight connectivity", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "Vast", headline: "Commercial Space Federation (CSF) Welcomes ispace-U.S. to'Board of Directors", source: "SpaceNews", time: "12h ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Galvanick", headline: "In the Wake of Anthropic's Mythos, OpenAI Has a New Cybersecurity Model'and Strategy", source: "Wired", time: "13h ago", impact: "low", unread: false },
+  { id: 14, type: "contract", company: "Parallel Systems", headline: "White House wants Pentagon to demo nuclear space power by 2031", source: "Breaking Defense", time: "14h ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "PILGRIM", headline: "Redefining mobile artillery for a faster, more lethal fight", source: "Breaking Defense", time: "15h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
