@@ -535,11 +535,11 @@ def update_predictive_scores(data_js_content):
                            f'runway: "{runway}", '
                            f'analysis: "{analysis}", lastUpdated: "{last_updated}" }},')
             elif "predictedTiming" in data:
-                timing = data.get("predictedTiming", "TBD")
+                timing = data.get("predictedTiming") or "TBD"
                 confidence = data.get("confidence", 50)
-                size = data.get("predictedSize", "TBD").replace('"', '\\"')
-                val = data.get("predictedValuation", "TBD").replace('"', '\\"')
-                catalyst = data.get("catalyst", "").replace('"', '\\"')
+                size = (data.get("predictedSize") or "TBD").replace('"', '\\"')
+                val = (data.get("predictedValuation") or "TBD").replace('"', '\\"')
+                catalyst = (data.get("catalyst") or "").replace('"', '\\"')
                 lines.append(f'      "{name_escaped}": {{ predictedTiming: "{timing}", '
                            f'confidence: {confidence}, predictedSize: "{size}", '
                            f'predictedValuation: "{val}", likelyInvestors: [], '
