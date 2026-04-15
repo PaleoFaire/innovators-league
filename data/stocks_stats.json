@@ -5,83 +5,83 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -9.58,
+      "avg_change": -1.77,
       "count": 1
     },
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 4.03,
+      "avg_change": 1.48,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 6.71,
+      "gainers": 7,
+      "losers": 0,
+      "avg_change": 6.89,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 18.2,
+      "avg_change": 16.08,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 19.84,
+      "avg_change": 24.31,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 23.64,
+      "avg_change": 29.45,
       "count": 3
     },
     "biotech": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 5.91,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 5.5,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 6.96,
+      "avg_change": 6.64,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 22.95,
+      "avg_change": 17.99,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "ALAB",
-      "Astera Labs",
-      43.37
-    ],
-    [
       "LNZA",
       "LanzaTech",
-      38.13
-    ],
-    [
-      "OKLO",
-      "Oklo",
-      25.74
+      51.69
     ],
     [
       "IONQ",
       "IonQ",
-      25.52
+      37.29
+    ],
+    [
+      "ALAB",
+      "Astera Labs",
+      35.69
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      23.51
+      27.49
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      27.17
     ]
   ],
   "topLosers": [
@@ -91,25 +91,25 @@
       0.83
     ],
     [
-      "PL",
-      "Planet Labs",
-      -3.53
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -4.32
-    ],
-    [
-      "DRSHF",
-      "DroneShield",
-      -9.43
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -0.44
     ],
     [
       "PLTR",
       "Palantir",
-      -9.58
+      -1.77
+    ],
+    [
+      "PL",
+      "Planet Labs",
+      -7.09
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -10.45
     ]
   ],
-  "lastUpdated": "2026-04-15 07:53:45"
+  "lastUpdated": "2026-04-15 13:46:39"
 }
