@@ -1,14 +1,46 @@
 {
   "script": "fetch_twitter_signals.py",
-  "started_at": "2026-04-15T06:58:48.702017+00:00",
-  "finished_at": "2026-04-15T06:58:48.721324+00:00",
-  "mode": "placeholder",
-  "data_source": null,
+  "started_at": "2026-04-15T08:19:53.545271+00:00",
+  "finished_at": "2026-04-15T08:21:22.980692+00:00",
+  "mode": "real+placeholder",
+  "data_source": "apify",
   "top_founders_tracked": 100,
-  "founders_attempted": 0,
+  "founders_attempted": 25,
   "signals_collected": 0,
   "placeholder_records": 100,
-  "apify_diagnostics": null,
+  "apify_diagnostics": {
+    "last_error": "apify~twitter-scraper: HTTP 404 — {\n  \"error\": {\n    \"type\": \"record-not-found\",\n    \"message\": \"Actor with this name was not found\"\n  }\n}",
+    "actor_results": {
+      "apidojo~tweet-scraper": {
+        "attempts": 5,
+        "successes": 0,
+        "http_errors": {},
+        "last_body_preview": ""
+      },
+      "kaitoeasyapi~twitter-x-data-tweet-scraper-pay-per-result-cheapest": {
+        "attempts": 5,
+        "successes": 0,
+        "http_errors": {},
+        "last_body_preview": ""
+      },
+      "apify~twitter-scraper-lite": {
+        "attempts": 5,
+        "successes": 0,
+        "http_errors": {
+          "404": 5
+        },
+        "last_body_preview": "{\n  \"error\": {\n    \"type\": \"record-not-found\",\n    \"message\": \"Actor with this name was not found\"\n  }\n}"
+      },
+      "apify~twitter-scraper": {
+        "attempts": 5,
+        "successes": 0,
+        "http_errors": {
+          "404": 5
+        },
+        "last_body_preview": "{\n  \"error\": {\n    \"type\": \"record-not-found\",\n    \"message\": \"Actor with this name was not found\"\n  }\n}"
+      }
+    }
+  },
   "ok": true,
-  "notes": "Structured placeholder — candidate handles are guessed from first+last name; populate via APIFY_TOKEN or X_BEARER_TOKEN."
+  "notes": "Real fetching attempted for 25 founders; 0 populated, rest are structured placeholders."
 }

@@ -1,250 +1,459 @@
 [
   {
-    "id": "2544200",
-    "title": "CAREER: Physics-based Perception of 3D Human-World Interactions",
-    "abstract": "Understanding how humans interact with the physical world is a fundamental challenge in developing intelligent systems capable of assisting, learning from, and safely interacting with people. Consider a rehabilitation therapist remotely tracking patient recovery from everyday videos, novice athletes receiving feedback from expert demonstrations, or robots learning complex manipulation tasks by observing human actions. Realizing this vision requires artificial intelligence systems that understand",
-    "amount": 599540,
+    "id": "2517022",
+    "title": "Gel Electromicrofluidics Assisted In Situ Single Cell Analysis",
+    "abstract": "Analyzing single cells under a microscope is a powerful tool in healthcare, medicine, and homeland security. Typically, biological samples are spread onto glass slides for microscopic examination to detect pathogens or identify biowarfare agents. Current single-cell imaging systems use high-resolution microscopy, which captures only a small sample volume, resulting in limited sensitivity. This project will develop a gel electromicrofluidics (GEM) platform that enhances single-cell imaging by amp",
+    "amount": 450000,
+    "startDate": "07/01/2026",
+    "endDate": "06/30/2029",
+    "awardee": "Kansas State University",
+    "city": "MANHATTAN",
+    "state": "KS",
+    "pi": "Jing Ding",
+    "piEmail": "jingd@ksu.edu",
+    "date": "01/23/2026",
+    "sectors": []
+  },
+  {
+    "id": "2544325",
+    "title": "CAREER: Advancing modular quantum computing with Josephson junction field effect transistors",
+    "abstract": "Quantum computers promise capabilities far beyond those of today\u2019s classical machines, with potential applications in areas such as materials discovery, secure communication, and advanced sensing. However, existing quantum processors face major engineering barriers to continued progress. Present day superconducting quantum processors are built as single, monolithic chips in which all quantum bits (qubits) reside on a single substrate. As systems grow, this architecture becomes increasingly fragi",
+    "amount": 550000,
     "startDate": "06/01/2026",
-    "endDate": "05/31/2032",
+    "endDate": "05/31/2031",
     "awardee": "University of Texas at Austin",
     "city": "AUSTIN",
     "state": "TX",
-    "pi": "Georgios Pavlakos",
-    "piEmail": "pavlakos@cs.utexas.edu",
-    "date": "04/01/2026",
+    "pi": "Shyam Shankar",
+    "piEmail": "shyam.shankar@utexas.edu",
+    "date": "03/16/2026",
     "sectors": [
-      "robotics",
-      "ai"
+      "quantum"
     ]
   },
   {
-    "id": "2539861",
-    "title": "CAREER: On-Demand Modulation of Single-Molecule Reactivity via Engineered Nanoscale Coupling",
-    "abstract": "With support from the Chemical Structure and Dynamics (CSD) and Chemical Measurement and Imaging (CMI) programs, Professor Shaowei Li of the University of California-San Diego is investigating how the local surface structure and nanoscale environment control the chemical reactivity of individual molecules. Chemical reactions on surfaces underpin technologies ranging from catalysis to semiconductor manufacturing, yet most experiments measure billions of molecules at once, masking the unique behav",
-    "amount": 800000,
-    "startDate": "05/01/2026",
-    "endDate": "04/30/2031",
-    "awardee": "University of California-San Diego",
-    "city": "LA JOLLA",
-    "state": "CA",
-    "pi": "Shaowei Li",
-    "piEmail": "shaoweili@ucsd.edu",
-    "date": "03/26/2026",
-    "sectors": []
-  },
-  {
-    "id": "2542883",
-    "title": "CAREER: AI-Native Semantic Communication Networks: Fundamentals and Optimization",
-    "abstract": "Current communication systems, that aims to accurately reconstruct a transmitter (TX)\u2019s message at the receiver (RX) without considering message meaning, has served us well for decades. However, their limitations start to become apparent when faced with the challenge of reliably transmitting massive data or meeting extremely stringent transmission requirements of intent-based systems, within which the message intent and its system impact must be considered. Under this knowledge- and reasoning-dr",
-    "amount": 600000,
-    "startDate": "04/15/2026",
-    "endDate": "03/31/2031",
-    "awardee": "University of Miami",
-    "city": "CORAL GABLES",
-    "state": "FL",
-    "pi": "Mingzhe Chen",
-    "piEmail": "mingzhe.chen@miami.edu",
-    "date": "04/02/2026",
-    "sectors": []
-  },
-  {
-    "id": "2542318",
-    "title": "CAREER: Beyond Visible: Autonomous Soft Agro-Bioproduct Manufacturing with Lifelong Hyperspectral-Guided Imitation Learning for Mass Personalization",
-    "abstract": "The agri-food manufacturing sector plays a critical role in economic stability and food security, yet it remains highly dependent on manual labor due to the inherent variability of soft biological products. Differences in shape, texture, and material properties limit the effectiveness of conventional automation approaches that are successful in highly structured manufacturing environments. This Faculty Early Career Development Program (CAREER) project addresses these challenges by advancing auto",
-    "amount": 511074,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2031",
-    "awardee": "University of Arkansas Agricultural Experiment Station",
-    "city": "FAYETTEVILLE",
-    "state": "AR",
-    "pi": "Dongyi Wang",
-    "piEmail": "dwang@uada.edu",
+    "id": "2540484",
+    "title": "CAREER: Decoding Chronic Wound Trajectory Through Real-Time Biomaterial-mediated Cytokine Sensing",
+    "abstract": "Cytokines are proteins that regulate cell identity and function.  Repair of wounds repair requires coordinated interactions among multiple cytokines. This CAREER project will address a fundamental question in wound repair: which inflammatory cytokines determine whether a wound heals or remains chronic. The project will develop a smart, biomaterial-based wound dressing that will monitor in real time various cytokine patterns in the wound environment.  The data will enable machine learning predict",
+    "amount": 629903,
+    "startDate": "06/01/2026",
+    "endDate": "05/31/2031",
+    "awardee": "Regents of the University of Michigan - Ann Arbor",
+    "city": "ANN ARBOR",
+    "state": "MI",
+    "pi": "Maria Coronel",
+    "piEmail": "mcoronel@umich.edu",
     "date": "03/19/2026",
-    "sectors": [
-      "defense"
-    ]
-  },
-  {
-    "id": "2544186",
-    "title": "CAREER: A Dynamical Systems Framework for Systemic Inflammatory Response",
-    "abstract": "Systemic inflammatory responses are dramatic immune flares that can be triggered by causes such as infection and surgical trauma. These inflammatory responses can be lethal. The goal of this project is to develop a mathematical framework to describe these responses, using a combination of experiments in a model biological system (zebrafish) and novel Artificial Intelligence (AI) and Machine Learning (ML) tools. This project will use methods from genomics to trace the organism\u2019s immune response a",
-    "amount": 1125000,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2031",
-    "awardee": "University of Chicago",
-    "city": "CHICAGO",
-    "state": "IL",
-    "pi": "Elizabeth Jerison",
-    "piEmail": "ejerison@uchicago.edu",
-    "date": "02/26/2026",
     "sectors": [
       "ai",
       "biotech"
     ]
   },
   {
-    "id": "2540941",
-    "title": "CAREER: Engineering Bichromatic Moire Superlattices for Tunable Emerging Quasiparticles and Correlated States",
-    "abstract": "Non-technical Abstract:\r\nThis project offers an integrated research and education effort centered on programmable quantum materials engineered through the controlled stacking of atomically thin layers. By arranging layers in designed patterns, the project reveals how structure at the nanoscale shapes the material behavior. The research addresses fundamental questions in quantum matter by using a flexible platform to explore tunable quantum states, introducing new ways to program quantum interact",
-    "amount": 898496,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2031",
-    "awardee": "Washington University",
-    "city": "SAINT LOUIS",
-    "state": "MO",
-    "pi": "Xi Wang",
-    "piEmail": "wxi@wustl.edu",
-    "date": "03/24/2026",
-    "sectors": [
-      "quantum"
-    ]
-  },
-  {
-    "id": "2610324",
-    "title": "CAREER: Enzymatic Sulfur Incorporation and Modification in the Biosynthesis of Natural Products",
-    "abstract": "With the support of the Chemistry of Life Processes Program in the Chemistry Division, Jie Li from the University of South Carolina is studying how nature uses enzymes to incorporate and modify sulfur centers in microbial secondary metabolites. These natural products provide a competitive advantage to the producing microbes while also conferring significant fundamental value in medicinal, manufacturing, agricultural applications. In contrast to extensively studied sulfur incorporation in primary",
-    "amount": 865975,
-    "startDate": "02/15/2026",
-    "endDate": "01/31/2028",
-    "awardee": "University of Texas at Austin",
-    "city": "AUSTIN",
+    "id": "2541981",
+    "title": "CAREER: FLEX-MEG: Flexible Quantum MEG with Physics-Aware Compressed Sensing for Scalable, Real-Time Neural Imaging",
+    "abstract": "Understanding how the brain functions require instruments that can measure neural activity safely, accurately, and in everyday environments. Existing brain-imaging systems that detect magnetic signals from neural activity are large, expensive, and require cryogenic cooling, limiting their accessibility and preventing studies of natural behavior. This project will develop a new generation of wearable brain-imaging technology based on flexible magnetic sensors that operate at room temperature and ",
+    "amount": 500000,
+    "startDate": "06/01/2026",
+    "endDate": "05/31/2031",
+    "awardee": "Texas Tech University",
+    "city": "LUBBOCK",
     "state": "TX",
-    "pi": "JIE LI",
-    "piEmail": "jie.li@austin.utexas.edu",
-    "date": "02/09/2026",
-    "sectors": []
-  },
-  {
-    "id": "2544442",
-    "title": "CAREER: Accelerating Neutrino Physics into the Precision Era",
-    "abstract": "CAREER: Precision Theory for Interpreting Neutrino Experiments\r\n\r\nNeutrinos are among the most abundant particles in the universe, yet many of their fundamental properties remain unknown. Answering basic questions\u2014such as whether neutrinos violate fundamental symmetries or reveal new particles beyond our current knowledge\u2014requires a new level of precision in how neutrino experiments are interpreted. Over the next decade, major U.S.-led experiments will collect unprecedented data, but fully reali",
-    "amount": 400000,
-    "startDate": "07/01/2026",
-    "endDate": "06/30/2031",
-    "awardee": "University of California-Irvine",
-    "city": "IRVINE",
-    "state": "CA",
-    "pi": "Shirley Li",
-    "piEmail": "shirley.li@uci.edu",
-    "date": "03/19/2026",
-    "sectors": []
-  },
-  {
-    "id": "2446904",
-    "title": "Multi-user Community Facility for Analyses of Earth Materials",
-    "abstract": "This award funds the operation of two ion microprobes at University of California-Los Angeles (UCLA). These machines make many types of geochemical measurements on solid samples, such as pieces of rock, meteorites, and other materials.  These ion microprobes can investigate volumes of rock too small for most other methods, making them crucial for studying tiny geological features. These instruments are open to use by outside researchers. The facility will help users to study a wide range of topi",
-    "amount": 699997,
-    "startDate": "05/01/2026",
-    "endDate": "04/30/2028",
-    "awardee": "University of California-Los Angeles",
-    "city": "LOS ANGELES",
-    "state": "CA",
-    "pi": "Elizabeth Bell",
-    "piEmail": "ebell21@ucla.edu",
-    "date": "04/06/2026",
-    "sectors": []
-  },
-  {
-    "id": "2542390",
-    "title": "CAREER: Deciphering the Nuclear Fingerprints of Stellar Explosions",
-    "abstract": "Stars end their lives in large explosions called supernovae. During these explosions new elements are created and dispersed into the galaxies that host the dying stars. The newly created elements provide the seeds for the formation of the next-generation of stars and planets, such as our Solar System. Understanding these explosions, their role in element formation, and their connection to our Solar System is a long-standing goal of nuclear astrophysics. The supernovae events also leave behind co",
-    "amount": 713241,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2031",
-    "awardee": "Mississippi State University",
-    "city": "MISSISSIPPI STATE",
-    "state": "MS",
-    "pi": "Jaspreet Singh Randhawa",
-    "piEmail": "jsr512@msstate.edu",
-    "date": "03/26/2026",
+    "pi": "Kai Wu",
+    "piEmail": "kai.wu@ttu.edu",
+    "date": "03/25/2026",
     "sectors": [
-      "nuclear",
+      "defense",
+      "quantum",
       "biotech"
     ]
   },
   {
-    "id": "2510803",
-    "title": "Equipment: MRI Track 1: Acquisition of a new Cs Sputter Ion Source for the Edwards Accelerator Laboratory at Ohio University",
-    "abstract": "Intense beams of atomic nuclei are extremely important for studies in fundamental and applied research.  The research conducted at Ohio University's Edwards Accelerator Laboratory (EAL) includes studies of nuclear reactions occurring in stars and astrophysical explosions, the determination of the  structure of atomic nuclei, measurements of nuclear reactions of interest to national security and nuclear energy, and studies of novel materials. This award supports the acquisition of a new ion sourc",
-    "amount": 392438,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2028",
-    "awardee": "Ohio University",
-    "city": "ATHENS",
-    "state": "OH",
-    "pi": "Carl Brune",
-    "piEmail": "brune@ohio.edu",
-    "date": "03/23/2026",
+    "id": "2553513",
+    "title": "ERI: Data-Centric AI for Wearable Biosensors to Enhance Learning",
+    "abstract": "This project integrates wearable biosensors with an Artificial Intelligence framework to improve understanding of student engagement and stress in classroom environments. Physiological signals such as heart rate, electrodermal activity, and oxygen levels provide insights into cognitive load and emotional states during learning activities. Current approaches rarely translate these signals into practical guidance for instructors. The project investigates how biosignal data collected from wearable ",
+    "amount": 199999,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2028",
+    "awardee": "University of San Diego",
+    "city": "SAN DIEGO",
+    "state": "CA",
+    "pi": "Nadieh Moghadam",
+    "piEmail": "nmoghadam@sandiego.edu",
+    "date": "04/14/2026",
     "sectors": [
-      "nuclear"
+      "defense",
+      "ai"
     ]
   },
   {
-    "id": "2511963",
-    "title": "Equipment: MRI: Track 3 Acquisition of Helium Recovery Equipment: Helium Liquefaction Facility for Quantum Research, Engineering Laboratories, & Biochemical Applications",
-    "abstract": "Liquid helium (LHe) is a strategically important and finite resource that enables research at the frontiers of quantum science and engineering, biomedical fields, and fundamental physics. At Colorado State University (CSU), LHe supports rapidly growing programs in quantum materials, quantum computing hardware, nanophotonics, precision measurements, particle physics, and nuclear magnetic resonance (NMR) spectroscopy. Responsible recovery and recycling of LHe are essential for both sustainability ",
-    "amount": 551619,
+    "id": "2538831",
+    "title": "CAREER: Geometry-based Control of Nonlinear Distributed Energy Resources in Smart Grids",
+    "abstract": "This NSF CAREER project aims to develop a new way to control the growing number of distributed energy resources (DERs) such as solar panels, wind turbines, batteries, and small generators, that are transforming the nation\u2019s power grid. As these devices become more widespread, traditional model-based control methods struggle to keep pace with the grid\u2019s increasing complexity and data volume. The project will bring transformative change by introducing a geometry-based control paradigm that learns ",
+    "amount": 533119,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2031",
+    "awardee": "Lehigh University",
+    "city": "BETHLEHEM",
+    "state": "PA",
+    "pi": "Javad Khazaei",
+    "piEmail": "jak921@lehigh.edu",
+    "date": "04/14/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2544127",
+    "title": "CAREER: Smart Sensing of Nitrogen for Precision Agriculture",
+    "abstract": "Efficient nitrogen management is critical for sustaining U.S. agricultural productivity while reducing environmental pollution and economic losses associated with fertilizer overuse. Despite widespread adoption of precision agriculture tools such as drones and satellite imagery, farmers still lack the ability to detect nitrogen deficiency before visible symptoms appear, when yield losses are often already unavoidable. Because nitrogen stress first manifests as molecular-level changes within plan",
+    "amount": 583047,
     "startDate": "04/01/2026",
-    "endDate": "03/31/2029",
+    "endDate": "03/31/2031",
+    "awardee": "University of Texas at Tyler",
+    "city": "TYLER",
+    "state": "TX",
+    "pi": "Shawana Tabassum",
+    "piEmail": "stabassum@uttyler.edu",
+    "date": "02/13/2026",
+    "sectors": [
+      "defense",
+      "space"
+    ]
+  },
+  {
+    "id": "2553421",
+    "title": "ERI: Engineering a Hybrid Wearable System to Study High-Risk Postures  and Low Back Pain-Related Disability",
+    "abstract": "Low back pain is the most common cause of disability worldwide and leads to missed workdays and high healthcare costs. It is often treated after pain begins, using methods like medication and surgery. These treatments do not relieve pain in all patients, and surgery can reduce mobility of the spine. Low back pain is especially common in jobs that require repeated bending, twisting, and lifting. Wearable devices that monitor posture can help researchers measure real-world movement patterns and id",
+    "amount": 200000,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2028",
+    "awardee": "California Polytechnic State University Foundation",
+    "city": "SAN LUIS OBISPO",
+    "state": "CA",
+    "pi": "Britta Berg-Johansen",
+    "piEmail": "bbergjoh@calpoly.edu",
+    "date": "03/13/2026",
+    "sectors": []
+  },
+  {
+    "id": "2543990",
+    "title": "CAREER: Battery-powered wireless bandages for personalized wound care",
+    "abstract": "Chronic wounds represent a significant global health burden characterized by high healthcare expenditures, elevated amputation risks, and increased mortality. Current diagnostic methods rely on subjective visual assessments, frequently resulting in delayed or inaccurate clinical interventions. While smart bandages integrated with battery-powered sensors that monitor wounds have been developed, clinical translation is hindered due to their bulkiness and reliance on potentially toxic materials. Th",
+    "amount": 521506,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2031",
+    "awardee": "North Carolina State University",
+    "city": "RALEIGH",
+    "state": "NC",
+    "pi": "Amay Bandodkar",
+    "piEmail": "ajbandod@ncsu.edu",
+    "date": "03/25/2026",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2540465",
+    "title": "CAREER: Injectable Transponder for Precise Radiotherapy Tumor Targeting and Dosimetry",
+    "abstract": "This project aims to transform cancer radiotherapy by developing an innovative injectable transponder system that enables precise tumor targeting and enhances the effectiveness of radiation dose delivery during treatment.  Radiotherapy is a cornerstone of cancer treatment, used in over half of all cases, but its effectiveness is often hindered by challenges in accurately monitoring tumor motion and radiation dose delivery in real time.  Current methods rely on immobilization devices and computat",
+    "amount": 550000,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2031",
+    "awardee": "Regents of the University of Michigan - Ann Arbor",
+    "city": "ANN ARBOR",
+    "state": "MI",
+    "pi": "Aline Eid",
+    "piEmail": "alineeid@umich.edu",
+    "date": "03/25/2026",
+    "sectors": []
+  },
+  {
+    "id": "2533390",
+    "title": "Wing-Tail Interactions in Near-Ground in Avian-Inspired Flight: An Experimental Approach",
+    "abstract": "Quadcopters are unmanned aerial vehicles (UAVs) with four rotors. The configuration of the rotors is fixed, which limits their agility.  Still, they dominate the UAV market.  Flapping-wing UAVs that mimic the flight dynamics of birds are quieter and more maneuverable. They are underutilized because of challenges in landing and takeoff that require rapid changes in angle of attack.  Birds have the required ability to perform rapid pitch-up motions during landing and takeoff while precisely sweepi",
+    "amount": 400000,
+    "startDate": "03/15/2026",
+    "endDate": "02/28/2029",
+    "awardee": "The University of Central Florida Board of Trustees",
+    "city": "ORLANDO",
+    "state": "FL",
+    "pi": "Samik Bhattacharya",
+    "piEmail": "samik.bhattacharya@ucf.edu",
+    "date": "03/26/2026",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2612944",
+    "title": "Collaborative Research: Cooperative Processes at Surfaces: Ligand Binding at the Single Molecule Level",
+    "abstract": "With support from the Chemical Structure, Dynamics, and Mechanisms-A (CSDM-A) Program in the Division of Chemistry, Ursula Mazur and Kerry Hipps of Washington State University and Bhaskar Chilukuri of Illinois State University are exploring cooperative binding events using highly sensitive imaging and computational methods. Chemical processes such as chemical reactivity and detection sensitivity depend on cooperativity. Studying these cooperative interactions requires both surface techniques tha",
+    "amount": 150000,
+    "startDate": "03/15/2026",
+    "endDate": "12/31/2026",
+    "awardee": "East Stroudsburg University of Pennsylvania",
+    "city": "EAST STROUDSBURG",
+    "state": "PA",
+    "pi": "Bhaskar Chilukuri",
+    "piEmail": "bchilukuri@esu.edu",
+    "date": "03/05/2026",
+    "sectors": []
+  },
+  {
+    "id": "2531668",
+    "title": "Bioorthogonal Signal Transduction: Chemical Exponential Signal Amplification for Applications in Biosensing",
+    "abstract": "Diagnostic testing is challenging when the targeted compounds are present in extremely small amounts. Sophisticated laboratories are required to detect low levels in samples, which makes the tests expensive and limits their availability.  If the signal from targeted compounds could be amplified, some tests could become available in homes and smaller clinics.  This project will make detection easier by amplifying signals using simple chemical reactions. The project will demonstrate that one chemi",
+    "amount": 523361,
+    "startDate": "03/01/2026",
+    "endDate": "02/28/2029",
+    "awardee": "University of Utah",
+    "city": "SALT LAKE CITY",
+    "state": "UT",
+    "pi": "Raphael Franzini",
+    "piEmail": "raphael.franzini@utah.edu",
+    "date": "04/14/2026",
+    "sectors": []
+  },
+  {
+    "id": "2510420",
+    "title": "MRI Track 1:  Acquisition of an Advanced System for Real-time Measurement and Monitoring of Bioaerosols",
+    "abstract": "This project involves the purchase and setup of a field-deployable, continuous-flow instrument for real-time sampling and characterization of bioaerosols. Applications to potentially be advanced through the acquisition of this instrument are (1) bioaerosol, including pollen, lifecycle studies in grassland and forested ecosystems; (2) pathogen transport studies, including indoor settings, agricultural lands, and dusty regions; (3) biological ice-nucleating particle typing and identification; and ",
+    "amount": 358749,
+    "startDate": "03/01/2026",
+    "endDate": "02/28/2029",
     "awardee": "Colorado State University",
     "city": "FORT COLLINS",
     "state": "CO",
-    "pi": "Yulia Maximenko",
-    "piEmail": "y.maximenko@colostate.edu",
-    "date": "03/23/2026",
+    "pi": "Russell Perkins",
+    "piEmail": "rperkins@colostate.edu",
+    "date": "02/11/2026",
+    "sectors": []
+  },
+  {
+    "id": "2555933",
+    "title": "EAGER: Enhancing Biosensor Response Rates through Nanostructures with Analyte Delivery Functions",
+    "abstract": "Rapid detection of biological molecules helps protect public health, monitor the environment, and enable timely medical decisions. Many biosensors operate slowly because target molecules must diffuse a long distance to reach the sensing surface. The delay increases testing costs and reduces sensitivity. This project will build a nanostructure that guides target molecules toward a sensing surface. The structure will have flexible DNA \u201ctentacles\u201d that attract target molecules and concentrate them ",
+    "amount": 272112,
+    "startDate": "02/15/2026",
+    "endDate": "01/31/2028",
+    "awardee": "The University of Central Florida Board of Trustees",
+    "city": "ORLANDO",
+    "state": "FL",
+    "pi": "Dmitry Kolpashchikov",
+    "piEmail": "Dmitry.Kolpashchikov@ucf.edu",
+    "date": "02/03/2026",
     "sectors": [
-      "nuclear",
-      "quantum"
+      "defense"
     ]
   },
   {
-    "id": "2541579",
-    "title": "CAREER: Theoretical Models of Neutron Star Matter Effects from Inspiral to Post-Merger",
-    "abstract": "Coalescing binary neutron star systems, driven by gravitational-wave emission, provide a rare yet crucial natural laboratory for studying fundamental questions in astrophysics, nuclear physics, and gravitation under extreme conditions. This award supports theoretical research that strengthens the connection between the physical properties of neutron stars and the signals measured by current and next-generation gravitational-wave observatories. By improving the understanding of these observations",
-    "amount": 400000,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2031",
-    "awardee": "Montana State University",
-    "city": "BOZEMAN",
-    "state": "MT",
-    "pi": "Hang Yu",
-    "piEmail": "hang.yu2@montana.edu",
+    "id": "2541796",
+    "title": "CAREER: Expanding the dimensional and multiplexing frontiers of ultrasensitive single-molecule protein detection",
+    "abstract": "The collection of active proteins in the body contains vast information that can improve disease understanding and diagnosis. However, many disease-related proteins exist at very low levels and are difficult to detect. Furthermore, many detection tools measure protein abundance but not protein function. This CAREER project will develop ultrasensitive tools to measure simultaneously low abundance proteins and their activities. The project will build on a recently developed single-molecule protein",
+    "amount": 549998,
+    "startDate": "02/15/2026",
+    "endDate": "01/31/2031",
+    "awardee": "Regents of the University of Michigan - Ann Arbor",
+    "city": "ANN ARBOR",
+    "state": "MI",
+    "pi": "Connie Wu",
+    "piEmail": "conniewu@umich.edu",
     "date": "03/26/2026",
     "sectors": [
-      "nuclear",
       "biotech"
     ]
   },
   {
-    "id": "2510196",
-    "title": "Equipment: MRI: Track1 Acquisition of a ZEISS LSM980 Airyscan Confocal Microscope for Plant Research",
-    "abstract": "The Donald Danforth Plant Science Center (DDPSC) has received a grant to purchase a ZEISS LSM 990 Airyscan confocal microscope. This advanced tool will benefit several ongoing research projects and offer new ways for the broader scientific community to study plants through the center\u2019s Advanced Bioimaging Laboratory (ABL). The new microscope will also be used to train scientists at all levels of their careers. The center plans to continue its strong history of mentorship by involving high school",
-    "amount": 783491,
-    "startDate": "03/15/2026",
-    "endDate": "02/28/2029",
-    "awardee": "Donald Danforth Plant Science Center",
-    "city": "SAINT LOUIS",
-    "state": "MO",
-    "pi": "Tessa Burch-Smith",
-    "piEmail": "tburch-smith@danforthcenter.org",
-    "date": "03/19/2026",
+    "id": "2619576",
+    "title": "CIVIC-FA Track B: Data-Driven Monitoring and Optimizing of Right-of-Way Permits",
+    "abstract": "The objective of this Civic Innovation Challenge (CIVIC) project is to support research on building and piloting a prototype system that uses artificial intelligence and sensor data to automatically detect unpermitted closures. It seeks to enable real-time monitoring of road closures, guide inspectors with optimized routing tools, and support permit staff with better data for future planning. Right-of-way closures\u2014such as the blocking of streets, sidewalks, and bike lanes for construction, deliv",
+    "amount": 697211,
+    "startDate": "02/01/2026",
+    "endDate": "09/30/2026",
+    "awardee": "College of William and Mary",
+    "city": "WILLIAMSBURG",
+    "state": "VA",
+    "pi": "Ayan Mukhopadhyay",
+    "piEmail": "amukhopadhyay@wm.edu",
+    "date": "03/20/2026",
+    "sectors": [
+      "defense",
+      "ai"
+    ]
+  },
+  {
+    "id": "2619789",
+    "title": "CAREER:  InteractiveRF:  Fully-Adaptive, Physics-Aware RF-Enabled Cyber-Physical Human Systems",
+    "abstract": "As technology advances and an increasing number of devices enter our homes and workplace, humans have become an integral component of cyber-physical systems (CPS). One of the grand challenges of cyber-physical human systems (CPHS) is how to design autonomous systems where human-system collaboration is optimized through improved understanding of human behavior.  A new frontier within this landscape is afforded by the advent of low-cost, low-power millimeter-wave radio frequency (RF) transceivers,",
+    "amount": 547766,
+    "startDate": "01/01/2026",
+    "endDate": "04/30/2029",
+    "awardee": "North Carolina State University",
+    "city": "RALEIGH",
+    "state": "NC",
+    "pi": "Sevgi Gurbuz",
+    "piEmail": "szgurbuz@ncsu.edu",
+    "date": "04/02/2026",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2615024",
+    "title": "PFI-TT: A Novel Wireless Sensor for Continuous Monitoring of Patients with Chronic Diseases",
+    "abstract": "The broader impact of this Partnerships for Innovation - Technology Translation (PFI-TT) project is in advancing battery-free, wireless, implantable sensors, with a particular focus on monitoring patients with early-stage heart failures. Battery-free implantable sensors have been growing rapidly in clinical uses because they have the advantage of near zero power consumption, potentially allowing for long-lifetime and maintenance-free operation. Several wireless biomedical implants have been deve",
+    "amount": 550000,
+    "startDate": "12/01/2025",
+    "endDate": "02/28/2027",
+    "awardee": "Indiana University",
+    "city": "BLOOMINGTON",
+    "state": "IN",
+    "pi": "Mark Ming-Cheng Cheng",
+    "piEmail": "chengma@iu.edu",
+    "date": "03/26/2026",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2615334",
+    "title": "IRES Track I: Portable Point-of-Care Testing Device  for Pathogen Detection",
+    "abstract": "This IRES project will provide an annual cohort of six US students with the opportunity to conduct research for eight summer weeks at Toyohashi University of Technology (TUT) in Japan. The overarching theme of the project is to develop portable point-of-care testing (POCT) devices for efficient detection of infectious pathogens including the coronavirus. Participating students will be recruited with an emphasis on underrepresented groups from the University of Nebraska-Lincoln (UNL) and local un",
+    "amount": 294217,
+    "startDate": "10/01/2025",
+    "endDate": "07/31/2026",
+    "awardee": "Bradley University",
+    "city": "PEORIA",
+    "state": "IL",
+    "pi": "Sangjin Ryu",
+    "piEmail": "sryu@bradley.edu",
+    "date": "02/10/2026",
     "sectors": []
   },
   {
-    "id": "2621752",
-    "title": "Nuclear Physics from Multi-Messenger Mergers (NP3M)",
-    "abstract": "The goal of the Nuclear Physics from Multi-Messenger Mergers (NP3M) Focus Research Hub is to create a national effort in nuclear physics and astrophysical simulations to systematically probe the properties of hot and dense strongly interacting matter with multi-messenger observations of neutron stars. Neutron star mergers probe the nature of matter at densities and temperatures far beyond those present in atomic nuclei. The NP3M Hub will form a new interdisciplinary collaboration across nuclear ",
-    "amount": 3250000,
-    "startDate": "03/01/2026",
-    "endDate": "08/31/2027",
-    "awardee": "University of Houston",
-    "city": "HOUSTON",
+    "id": "2612749",
+    "title": "Diagnosing Vehicles Using Automotive Batteries as Physical Root-of-Trust",
+    "abstract": "Cyberization is the foundation of automated and intelligent vehicles, requiring the deployment of ever-increasing onboard sensing, communication, and computing services. However, vehicle cyberization also creates new problems, including the potential for software bugs, security vulnerabilities, and erroneous sensor readings, which can degrade vehicle reliability and disrupt the automotive industry. For optimal performance, vehicle diagnostics must consider the interactions across the physical an",
+    "amount": 554945,
+    "startDate": "10/01/2025",
+    "endDate": "05/31/2027",
+    "awardee": "University of Nebraska-Lincoln",
+    "city": "LINCOLN",
+    "state": "NE",
+    "pi": "Liang He",
+    "piEmail": "lhe20@unl.edu",
+    "date": "02/04/2026",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2542688",
+    "title": "CAREER: mmDrone: Protecting Drone-Integrated IoT Systems with Advanced mmWave Sensing",
+    "abstract": "Drones are increasingly integrated with Internet-of-Things (IoT) systems to support mission-critical applications such as infrastructure monitoring, emergency response, and smart transportation. However, this integration also introduces significant security and safety risks. Malicious or hijacked drones can be exploited for conducting surveillance, bringing disruptions to wireless communications, or carrying out physical attacks on critical infrastructure, all posing a major threat to public saf",
+    "amount": 584797,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2031",
+    "awardee": "University of Texas at Arlington",
+    "city": "ARLINGTON",
     "state": "TX",
-    "pi": "William Hix",
-    "piEmail": "raph@utk.edu",
+    "pi": "Dianqi Han",
+    "piEmail": "dianqi.han@uta.edu",
+    "date": "04/06/2026",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2607496",
+    "title": "Collaborative Research: RAPID: Catalyzing a Joint US-NZ Spectral Repository of Antarctic Photoautotrophs in the Face of Ongoing Environmental Shifts",
+    "abstract": "This project will generate a comprehensive database linking the biogeochemical properties of Antarctic land-based ecosystems in the McMurdo Dry Valleys to their spectroscopic properties that can be detected by drones, aircraft, and satellites. The multi-technique and multi-scale approach of this project will enable scaling from local observations to landscape-level patterns and will create a standardized monitoring framework compatible with global observation networks such as the National Ecolog",
+    "amount": 81443,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2027",
+    "awardee": "Northern Arizona University",
+    "city": "FLAGSTAFF",
+    "state": "AZ",
+    "pi": "Mark Salvatore",
+    "piEmail": "mark.salvatore@nau.edu",
     "date": "03/20/2026",
     "sectors": [
-      "nuclear"
+      "defense",
+      "space",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2607497",
+    "title": "Collaborative Research: RAPID: Catalyzing a Joint US-NZ Spectral Repository of Antarctic Photoautotrophs in the Face of Ongoing Environmental Shifts",
+    "abstract": "This project will generate a comprehensive database linking the biogeochemical properties of Antarctic land-based ecosystems in the McMurdo Dry Valleys to their spectroscopic properties that can be detected by drones, aircraft, and satellites. The multi-technique and multi-scale approach of this project will enable scaling from local observations to landscape-level patterns and will create a standardized monitoring framework compatible with global observation networks such as the National Ecolog",
+    "amount": 63416,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2027",
+    "awardee": "Colgate University",
+    "city": "HAMILTON",
+    "state": "NY",
+    "pi": "Joseph Levy",
+    "piEmail": "jlevy@colgate.edu",
+    "date": "03/20/2026",
+    "sectors": [
+      "defense",
+      "space",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2607498",
+    "title": "Collaborative Research: RAPID: Catalyzing a Joint US-NZ Spectral Repository of Antarctic Photoautotrophs in the Face of Ongoing Environmental Shifts",
+    "abstract": "This project will generate a comprehensive database linking the biogeochemical properties of Antarctic land-based ecosystems in the McMurdo Dry Valleys to their spectroscopic properties that can be detected by drones, aircraft, and satellites. The multi-technique and multi-scale approach of this project will enable scaling from local observations to landscape-level patterns and will create a standardized monitoring framework compatible with global observation networks such as the National Ecolog",
+    "amount": 54741,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2027",
+    "awardee": "Battelle Memorial Institute",
+    "city": "COLUMBUS",
+    "state": "OH",
+    "pi": "Eric Sokol",
+    "piEmail": "esokol@battelleecology.org",
+    "date": "03/20/2026",
+    "sectors": [
+      "defense",
+      "space",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2553410",
+    "title": "Conference: Algebraic structures in topology, San Juan, Puerto Rico, 2026",
+    "abstract": "The third Algebraic Structures in Topology conference will be held July 10-17, 2026, in San Juan, Puerto Rico. This conference brings together mathematicians working in algebraic topology, a field that uses algebraic tools to study qualitative and quantitative properties of geometric spaces. A central theme of this iteration is the interactions between algebraic topology and fields of national priority, including quantum physics, quantum computing, and data science. The meeting will feature a mi",
+    "amount": 30000,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2027",
+    "awardee": "Purdue University",
+    "city": "WEST LAFAYETTE",
+    "state": "IN",
+    "pi": "Manuel Rivera",
+    "piEmail": "river227@purdue.edu",
+    "date": "04/07/2026",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2544452",
+    "title": "CAREER: Efficient Scheduling for Machine Learning Training and Inference via the Gittins Index",
+    "abstract": "Artificial Intelligence (AI) is becoming increasingly ubiquitous, but with that ubiquity comes a sharp increase in data center energy consumption. This project will develop new algorithms that enable highly efficient training and deployment of AI models, contributing to the United States' strategic advantage in AI capabilities. On the training side, the new algorithms will make smarter decisions about how to explore the vast design space of possible AI models, discovering higher-quality models w",
+    "amount": 770070,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2031",
+    "awardee": "Cornell University",
+    "city": "ITHACA",
+    "state": "NY",
+    "pi": "Ziv Scully",
+    "piEmail": "zivscully@cornell.edu",
+    "date": "04/07/2026",
+    "sectors": [
+      "ai"
     ]
   },
   {
@@ -266,42 +475,6 @@
     ]
   },
   {
-    "id": "2547979",
-    "title": "REU Site: Artificial Intelligence in Modern Physics Research",
-    "abstract": "The Physics Department at Washington University in St. Louis (WashU) addresses a fundamental challenge in modern physics education: preparing the next generation of scientists to combine traditional physics understanding with Artificial Intelligence (AI) methods. Through this Research Experiences for Undergraduates (REU) site, WashU provides a fully immersive 10-week experience for undergraduate students to perform cutting-edge research in fundamental physics. The participants, selected nationwi",
-    "amount": 333375,
-    "startDate": "02/15/2026",
-    "endDate": "01/31/2029",
-    "awardee": "Washington University",
-    "city": "SAINT LOUIS",
-    "state": "MO",
-    "pi": "Yuran Chen",
-    "piEmail": "cyuran@wustl.edu",
-    "date": "02/02/2026",
-    "sectors": [
-      "ai",
-      "biotech"
-    ]
-  },
-  {
-    "id": "2506151",
-    "title": "NMR Imaging of Non-Markovian Diffusion Transport",
-    "abstract": "With the support of the Chemical Measurement and Imaging Program in the Division of Chemistry, Professor Louis Bouchard at the University of California Los Angeles will pioneer a measurement strategy poised to transform routine nuclear-magnetic-resonance (NMR) spectra into nanoscopic probes of molecular motion inside pores thousands of times narrower than a human hair. By analyzing the intrinsic shape of the NMR signal rather than relying on highly specialized and inaccessible hardware that gene",
-    "amount": 499955,
-    "startDate": "02/01/2026",
-    "endDate": "01/31/2029",
-    "awardee": "University of California-Los Angeles",
-    "city": "LOS ANGELES",
-    "state": "CA",
-    "pi": "Louis Bouchard",
-    "piEmail": "bouchard@chem.ucla.edu",
-    "date": "01/27/2026",
-    "sectors": [
-      "nuclear",
-      "biotech"
-    ]
-  },
-  {
     "id": "2541940",
     "title": "CAREER: Plasma Optics for Compact Ultra-High-Power Lasers",
     "abstract": "High-power lasers that provide ultrashort pulses of intense light are a critical technology for fundamental science and a range of industrial, medical, and national security applications. The key constraint on laser power and performance is damage to glass and metal optics: to prevent high-power lasers from destroying themselves, their optics must be large. The size and expense of large optics make higher laser powers impractical and limit possible applications of existing systems. This project ",
@@ -319,939 +492,22 @@
     ]
   },
   {
-    "id": "2507049",
-    "title": "Equipment: MRI:Track#3 Acquisition of a Partial Helium Recovery System",
-    "abstract": "An award is made to Rensselaer Polytechnic Institute to enable the acquisition of a \u201cpartial\u201d liquid helium recycling system. This partial system will capture nonrenewable helium gas used to maintain the high-field superconducting magnets of 600 and 500 MHz Nuclear Magnetic Resonance (NMR) instruments in the Chemistry building and have the gas liquified by the liquid helium plant located in the NMR core facility within the Center for Biotechnology and Interdisciplinary Studies building. This par",
-    "amount": 161832,
-    "startDate": "02/01/2026",
-    "endDate": "01/31/2029",
-    "awardee": "Rensselaer Polytechnic Institute",
-    "city": "TROY",
-    "state": "NY",
-    "pi": "Scott McCallum",
-    "piEmail": "mccals@rpi.edu",
-    "date": "02/06/2026",
-    "sectors": [
-      "nuclear",
-      "quantum"
-    ]
-  },
-  {
-    "id": "2618181",
-    "title": "Collaborative Research: Studies of light-responsive novel metal and lanthanide-based nanocomposites: X-ray radiation enhancing and radioluminescence properties",
-    "abstract": "Non-Technical Summary\r\n\r\nMaterials at the nanoscale have evidenced a wide and remarkable set of properties that make them suitable for many applications.  The behavior of nanomaterials under various external stimuli, such as temperature, mechanical forces, pH, etc., has been widely investigated.  However, the interaction of nanomaterials with ionizing radiation, such as X-rays, remains largely unexplored.  Investigating potential phenomena and understanding the interaction mechanisms of ionizing",
-    "amount": 300000,
-    "startDate": "12/01/2025",
-    "endDate": "03/31/2027",
-    "awardee": "Kansas State University",
-    "city": "MANHATTAN",
-    "state": "KS",
-    "pi": "Jessika Rojas",
-    "piEmail": "jvrojas@ksu.edu",
-    "date": "03/06/2026",
-    "sectors": []
-  },
-  {
-    "id": "2543972",
-    "title": "CAREER: Efficient Multiplexed Classical Interfaces for Scalable Cryogenic Quantum Processors",
-    "abstract": "Quantum computing has the potential to revolutionize industries such as cryptography, pharmaceuticals, and finance by solving complex problems that are beyond the capabilities of classical computers.  However, scaling quantum processors to control and read out thousands or even millions of qubits is a significant challenge due to limitations in current technologies, such as the use of bulky coaxial cables and inefficient control systems.  This project aims to overcome these barriers by developin",
-    "amount": 548598,
-    "startDate": "05/01/2026",
-    "endDate": "04/30/2031",
-    "awardee": "Cornell University",
-    "city": "ITHACA",
-    "state": "NY",
-    "pi": "Mohamed Ibrahim",
-    "piEmail": "mibrahim@cornell.edu",
-    "date": "03/25/2026",
-    "sectors": [
-      "quantum"
-    ]
-  },
-  {
-    "id": "2510580",
-    "title": "MRI: Track #1: Development of a System for Ultra-Low Temperature Spectroscopy of Quantum Emitters in Solids and 2-Dimensional Materials",
-    "abstract": "Non-technical description:\r\nQuantum science and engineering research has made tremendous progress over the past two decades, moving from simple demonstrations of single quantum bits in various platforms to proof-of-concept demonstrations of quantum technologies, including quantum computers. These technologies are also of great national importance because of their promise to provide secure communication (quantum networks), better sensors for medicine and navigation (quantum sensors), and hardware",
-    "amount": 1393726,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2029",
-    "awardee": "Stanford University",
-    "city": "STANFORD",
-    "state": "CA",
-    "pi": "Jelena Vuckovic",
-    "piEmail": "jela@stanford.edu",
-    "date": "02/26/2026",
-    "sectors": [
-      "defense",
-      "quantum"
-    ]
-  },
-  {
-    "id": "2540171",
-    "title": "CAREER: SQALE: Scalable Quantum Architectures with LDPC Error-correction",
-    "abstract": "Qubits, or quantum bits, are the fundamental units of quantum computers and they can be built from a variety of technologies, e.g., neutral atoms, ions, superconducting circuits, photons. Irrespective of the technology used to build them, they are fragile and can retain their coherence (to preserve the stored information) only for a limited time, which typically ranges from microseconds to seconds. Besides, when the qubits are manipulated through external forces to perform useful computation, th",
-    "amount": 826210,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2031",
-    "awardee": "University of Arizona",
-    "city": "TUCSON",
-    "state": "AZ",
-    "pi": "Narayanan Rengaswamy",
-    "piEmail": "narayananr@arizona.edu",
-    "date": "03/20/2026",
-    "sectors": [
-      "quantum"
-    ]
-  },
-  {
-    "id": "2605542",
-    "title": "Conference: 2026 Post-Transcriptional Gene Regulation Gordon Research Conference and Seminar",
-    "abstract": "This award supports the 2026 Gordon Research Conference (GRC) on Post-Transcriptional Gene Regulation, titled \u201cBiological Mechanisms and Applications of RNA,\u201d along with its associated Gordon Research Seminar (GRS), \u201cFeatures of RNA and RNA-Binding Proteins in Gene Expression.\u201d The GRS (July 18\u201319, 2026) will provide an engaging platform for graduate students and postdoctoral researchers to present their work, exchange ideas, and connect with peers in the field. It will also feature a career men",
-    "amount": 25355,
-    "startDate": "04/15/2026",
-    "endDate": "03/31/2027",
-    "awardee": "Gordon Research Conferences",
-    "city": "EAST GREENWICH",
-    "state": "RI",
-    "pi": "Auinash Kalsotra",
-    "piEmail": "kalsotra@illinois.edu",
-    "date": "04/08/2026",
-    "sectors": [
-      "biotech"
-    ]
-  },
-  {
-    "id": "2540612",
-    "title": "CAREER: Carbon Monoxide Sensing, Selectivity, and Signaling in Microbes",
-    "abstract": "The supported project studies how microorganisms sense and respond to carbon monoxide (CO) in the environment. CO garners a poor reputation as an imperceptible and lethal gas; however, CO is also a biological signal generated as a metabolic by-product in nearly all organisms on Earth. Such \u201cendogenously produced\u201d CO regulates cellular processes, including cell growth, cell death, and inflammation. CO is also a metabolic intermediate and nutrient for certain microorganisms, serving as a viable so",
-    "amount": 749702,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2031",
-    "awardee": "Wayne State University",
-    "city": "DETROIT",
-    "state": "MI",
-    "pi": "Matthew Dent",
-    "piEmail": "m.dent@wayne.edu",
-    "date": "03/26/2026",
-    "sectors": [
-      "biotech"
-    ]
-  },
-  {
-    "id": "2435515",
-    "title": "RESEARCH-PGR: Genomic and Regulatory Processes Associated with Drought-stress and Environment in Oaks (The Stress Project)",
-    "abstract": "In 2013\u20132015, 20% of California\u2019s forest cover was lost as a result of drought and wildfire. Because trees are ecologically crucial and economically valuable as timber for construction and furniture, forest management will benefit from knowledge of basic science about the epigenomic basis of tree response to drought. The overarching aims are to utilize natural populations of a widespread California oak, Quercus lobata (valley oak) to compare ecophysiological response to drought in trees adapted ",
-    "amount": 300000,
-    "startDate": "03/01/2026",
-    "endDate": "02/28/2029",
-    "awardee": "University of California-Los Angeles",
-    "city": "LOS ANGELES",
-    "state": "CA",
-    "pi": "Victoria Sork",
-    "piEmail": "vlsork@ucla.edu",
-    "date": "02/23/2026",
-    "sectors": [
-      "biotech"
-    ]
-  },
-  {
-    "id": "2548387",
-    "title": "Conference: Southern Regional Number Theory Conference",
-    "abstract": "This award supports participation at the 2026 Southern Regional Number Theory Conference (SRNTC), to be held March 7 and 8, 2026 on the Baton Rouge campus of Louisiana State University. Number theory is an active research area in mathematics encompassing a broad spectrum of topics and tools. It has many connections to other research fronts, and has applications in physics and information technology. The SRNTC series serves as a flagship annual meeting for the number theory research community of ",
-    "amount": 17500,
-    "startDate": "03/01/2026",
-    "endDate": "02/28/2027",
-    "awardee": "Louisiana State University",
-    "city": "BATON ROUGE",
-    "state": "LA",
-    "pi": "Ling Long",
-    "piEmail": "linglong02@gmail.com",
-    "date": "02/20/2026",
-    "sectors": []
-  },
-  {
-    "id": "2550052",
-    "title": "NERC/NSF-GEO: Constraining the source organism and function of bacteria membrane lipids to develop a robust terrestrial paleotemperature proxy",
-    "abstract": "Reconstructing how land temperatures changed over geological time is critical for understanding Earth\u2019s geologic past. So far, oceans have been the main source of ancient geological data, leaving the land\u2019s history largely untold. This project will investigate a recently discovered, unique group of bacterial membrane lipids that are well preserved in the rock record and could function as molecular fossils that provide valuable information on past ecosystems. This work aims to improve understandi",
-    "amount": 398442,
-    "startDate": "03/01/2026",
-    "endDate": "02/28/2029",
-    "awardee": "Stanford University",
-    "city": "STANFORD",
-    "state": "CA",
-    "pi": "Paula Welander",
-    "piEmail": "welander@stanford.edu",
-    "date": "02/23/2026",
-    "sectors": []
-  },
-  {
-    "id": "2614807",
-    "title": "CAREER: Integrative Pathway Analysis for Cancer Subtyping, Patient Stratification, and Risk Prediction",
-    "abstract": "Cancer is an umbrella term that includes a range of disorders, from those that are fast-growing and lethal to indolent lesions with low potential for progression to death. In recent decades, important clinical advances in cancer treatments have been attributed to molecular subtyping and targeted treatments aiming at specific genes. However, a significant percentage of patients do not respond to targeted therapies or develop resistance over time. This implies that current methods for tumor charac",
-    "amount": 490039,
-    "startDate": "01/01/2026",
-    "endDate": "06/30/2027",
-    "awardee": "Wayne State University",
-    "city": "DETROIT",
-    "state": "MI",
-    "pi": "Tin Nguyen",
-    "piEmail": "tin@wayne.edu",
-    "date": "02/04/2026",
-    "sectors": [
-      "biotech"
-    ]
-  },
-  {
-    "id": "2617954",
-    "title": "Collaborative Research: RESEARCH-PGR:  Development of Epigenetic Editing for Crop Improvement",
-    "abstract": "Genome editing tools have revolutionized biology. Scientists are using these tools to connect genes to phenotypes, generate novel phenotypic variation, and for diverse crop improvement applications. This project expands the possibilities for editing in crop plants to include a method for editing gene expression, so called \u201cepigenetic editing\u201d. Epigenetics is a broad term used to describe mechanisms that change gene expression without directly changing the DNA. Epigenetic variability can have pro",
-    "amount": 1192499,
+    "id": "2615835",
+    "title": "CICI: UCSS:  Human-Centered Cybersecurity in Robotic Surgery (HCCRS) - Coordinating the Human and Cyber Infrastructure for Cybersecurity",
+    "abstract": "Robotic-assisted surgery cyberinfrastructure combines advanced data analytics and decision making in the cloud with interconnected Internet of Things-based systems that has brought opportunities for advanced diagnostics, patient monitoring, and personalized medicine. However, the increased data and resource sharing enabled by these devices and artificial intelligence in the robotic-assisted surgery infrastructure has increased vulnerabilities and opportunities for cyberattacks. In particular, da",
+    "amount": 599982,
     "startDate": "10/01/2025",
-    "endDate": "04/30/2028",
-    "awardee": "University of California-Berkeley",
-    "city": "BERKELEY",
-    "state": "CA",
-    "pi": "Rebecca Bart",
-    "piEmail": "rbart@danforthcenter.org",
-    "date": "03/16/2026",
-    "sectors": [
-      "biotech"
-    ]
-  },
-  {
-    "id": "2614055",
-    "title": "Collaborative Research: Understanding winter nitrogen cycling across gradients of winter severity and impacts on phytoplankton communities in an inland freshwater sea, Lake Erie",
-    "abstract": "This project will investigate the cycling of the nutrient element nitrogen in Lake Erie. This study will be the first to comprehensively study the nitrogen cycle throughout the year, including in winter when the lake is covered with ice. Recent work in other lakes suggest that during winter, under-ice processes are important in determining the forms of nitrogen available to phytoplankton in spring and summer. A healthy spring bloom of phytoplankton called diatoms, in turn, is important to the la",
-    "amount": 295875,
-    "startDate": "10/01/2025",
-    "endDate": "07/31/2028",
-    "awardee": "University of Massachusetts, Dartmouth",
-    "city": "NORTH DARTMOUTH",
-    "state": "MA",
-    "pi": "Christopher Ward",
-    "piEmail": "cward8@umassd.edu",
-    "date": "02/20/2026",
-    "sectors": []
-  },
-  {
-    "id": "2622018",
-    "title": "CAREER: Mechanistic studies of cilium proteins in cell signaling",
-    "abstract": "This award is funded in whole or in part under the American Rescue Plan Act of 2021 (Public Law 117-2).\r\n\r\nMost cells in our body have a primary cilium (a single hair-like projection on their cell surface) that allows them to interact with each other via chemical signals. This ancient and mysterious organelle acts like a radio antenna, allowing cells to receive different information, depending on which kinds of receptors their antenna contains. Gene mutations affecting ciliary signaling have bee",
-    "amount": 1371381,
-    "startDate": "10/01/2025",
-    "endDate": "12/31/2026",
-    "awardee": "University of California-Riverside",
-    "city": "RIVERSIDE",
-    "state": "CA",
-    "pi": "Xuecai Ge",
-    "piEmail": "xuecaig@ucr.edu",
-    "date": "03/23/2026",
-    "sectors": [
-      "biotech"
-    ]
-  },
-  {
-    "id": "2610857",
-    "title": "Collaborative Research: An Integrative Investigation of Dispersal Plasticity Using a Coral Reef Fish",
-    "abstract": "Many marine organisms, from corals to fishes, have complex life cycles with relatively sedentary adults and dispersive larvae. The larval phase remains one of the big unknowns in marine ecology. It involves a number of complex questions. How far do larvae disperse from their parents? What causes variation in larval dispersal distance? What are the consequences of variation in larval dispersal distance? These types of questions are being addressed using clown anemonefish (a.k.a. Nemo), using a co",
-    "amount": 582954,
-    "startDate": "10/01/2025",
-    "endDate": "09/30/2027",
-    "awardee": "Pennsylvania State Univ University Park",
-    "city": "UNIVERSITY PARK",
-    "state": "PA",
-    "pi": "John Majoris",
-    "piEmail": "jxm983@psu.edu",
-    "date": "01/22/2026",
-    "sectors": []
-  },
-  {
-    "id": "2547822",
-    "title": "REU SITE: DIAMONDS: Directed, Intensive and Mentored Opportunities in Data Science",
-    "abstract": "This award supports an on-campus summer research program at Tufts University on Directed, Intensive and Mentored Opportunities in Data Science. Each summer, 10 undergraduates from across the country come to Tufts and complete a 10-week research project with a faculty mentor. Projects cover a broad range of data science and machine learning, from theoretical foundations to applications in computational biology, healthcare, and cyber-security. Participants work closely with their dedicated mentor ",
-    "amount": 465000,
-    "startDate": "10/01/2026",
-    "endDate": "09/30/2029",
-    "awardee": "Tufts University",
-    "city": "MEDFORD",
-    "state": "MA",
-    "pi": "Michael Hughes",
-    "piEmail": "michael.hughes@tufts.edu",
-    "date": "04/13/2026",
-    "sectors": [
-      "ai"
-    ]
-  },
-  {
-    "id": "2544044",
-    "title": "CAREER: Designing Domain Knowledge-Guided Learning Architectures towards Wireless Network Security: Enabling Effective and Efficient Attacks and Countermeasures",
-    "abstract": "Modern wireless networks have become increasingly complex and densely populated and can create a massive volume of operation data. As a result, extensive efforts from both academia and industry have focused on leveraging artificial intelligence (AI) in wireless network security related tasks such as (i) adversarial inference, (ii) adversarial generation, and (iii) data transformation. This project will focus on exploring new directions for incorporating additional domain knowledge to improve the",
-    "amount": 500000,
-    "startDate": "10/01/2026",
-    "endDate": "09/30/2031",
-    "awardee": "University of Oklahoma Norman Campus",
-    "city": "NORMAN",
-    "state": "OK",
-    "pi": "Shangqing Zhao",
-    "piEmail": "shangqing@ou.edu",
-    "date": "04/02/2026",
-    "sectors": [
-      "ai",
-      "biotech"
-    ]
-  },
-  {
-    "id": "2542152",
-    "title": "CAREER: Towards Semantic-Centric Wireless Foundations for Swarm AI",
-    "abstract": "Artificial intelligence (AI) is rapidly expanding from centralized computing infrastructures into the physical world, where networks of distributed devices must sense, reason, and act together in dynamic and uncertain environments. This transformation gives rise to swarm AI, an emerging form of intelligent infrastructure that supports applications such as disaster response, environmental monitoring, precision agriculture, and autonomous mobility. Unlike traditional systems that rely on stable wi",
-    "amount": 551585,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "Clemson University",
-    "city": "CLEMSON",
-    "state": "SC",
-    "pi": "Lan Zhang",
-    "piEmail": "lan7@clemson.edu",
-    "date": "04/08/2026",
-    "sectors": [
-      "defense",
-      "ai"
-    ]
-  },
-  {
-    "id": "2548201",
-    "title": "REU Site: Novel Techniques and Applications in Catalysis Research Development and Molecular Dynamics",
-    "abstract": "This Research Experiences for Undergraduates (REU) site award to University of Pennsylvania, located in Philadelphia, PA, supports the training of 10 students for 10 weeks during the summers of 2027\u20132029. In this program, participants pursue collaborative research projects, resulting in the development of new catalysts providing alternatives that address pressing chemistry needs and ultimately lower energy costs, diminish waste, and contribute cost and resource efficient systems to meet today\u2019s ",
-    "amount": 463725,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2029",
-    "awardee": "University of Pennsylvania",
-    "city": "PHILADELPHIA",
-    "state": "PA",
-    "pi": "Patrick Walsh",
-    "piEmail": "pwalsh@sas.upenn.edu",
-    "date": "03/17/2026",
-    "sectors": []
-  },
-  {
-    "id": "2543492",
-    "title": "CAREER: Enabling Single-Step Additive Manufacturing of Ceramics via Laser-Triggered Flash Sintering and Scientific Artificial Intelligence-based Multiscale Modeling",
-    "abstract": "Ceramics possess exceptional resistance to heat, wear, radiation and corrosion, yet their widespread adoption is limited because direct manufacturing complex ceramic parts requires extremely high temperatures and often leads to cracking, defects, and long processing times. This Faculty Early Career Development Program (CAREER) award supports research in additive manufacturing (AM) of high-performance ceramics to enable faster, more reliable production of components used in aerospace, nuclear ene",
-    "amount": 550000,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "University of Maryland, College Park",
-    "city": "COLLEGE PARK",
-    "state": "MD",
-    "pi": "Lin Cheng",
-    "piEmail": "lcheng90@umd.edu",
-    "date": "03/16/2026",
-    "sectors": [
-      "nuclear",
-      "ai"
-    ]
-  },
-  {
-    "id": "2542612",
-    "title": "CAREER: Quantum-Inspired Dynamic Control in Composite Metastructures with Long-Range Coupling",
-    "abstract": "This Faculty Early Career Development Program (CAREER) award will support research to create innovative strategies for controlling vibrations in critical structures such as bridges, buildings, and aircraft, where uncontrolled vibrations can lead to severe damage, safety risks, and economic losses. Current approaches often fail to detect and manage these vibrations in time. This project will establish a novel system capable of both localizing vibrations to prevent their spread and measuring their",
-    "amount": 596099,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "University of Vermont & State Agricultural College",
-    "city": "BURLINGTON",
-    "state": "VT",
-    "pi": "Jihong Ma",
-    "piEmail": "Jihong.Ma@uvm.edu",
-    "date": "03/13/2026",
-    "sectors": [
-      "quantum"
-    ]
-  },
-  {
-    "id": "2543078",
-    "title": "CAREER: Circuit discovery in the Drosophila connectome",
-    "abstract": "The fruit fly uses its senses, its memory, and its internal states to make decisions about where to lay an egg, what to eat, and whether to pursue or accept a mate. This project seeks to discover the neural pathways and circuits in the fruit fly\u2019s brain that enable it to flexibly make decisions. These parts of the brain are difficult to study with traditional methods. The recent availability of connectome data \u2013 full reconstructions of entire brain volumes \u2013 now provide researchers with access t",
-    "amount": 552221,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "Barnard College",
-    "city": "NEW YORK",
-    "state": "NY",
-    "pi": "Gabrielle Gutierrez",
-    "piEmail": "ggutierr@barnard.edu",
-    "date": "04/03/2026",
-    "sectors": []
-  },
-  {
-    "id": "2542188",
-    "title": "CAREER: Underapproximate Refinement Types for Program Exploration and Understanding",
-    "abstract": "Software development is rapidly changing, with developers increasingly delegating programming tasks to code generation tools powered by Large Language Models (LLMs). These systems often produce code that appears correct, but that actually contains subtle defects and inconsistencies with the developer\u2019s intent, compromising the reliability and security of the generated program. As the role of software engineers moves away from writing code directly to inspecting generated programs, it is vital th",
-    "amount": 673078,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "Purdue University",
-    "city": "WEST LAFAYETTE",
-    "state": "IN",
-    "pi": "Benjamin Delaware",
-    "piEmail": "bendy@purdue.edu",
-    "date": "04/01/2026",
-    "sectors": [
-      "biotech"
-    ]
-  },
-  {
-    "id": "2446222",
-    "title": "RTG: Statistics and Data Theory - Engaging the Future of Data Science",
-    "abstract": "The growing reliance on data-driven technologies across industry, science, and society demands a workforce with both strong theoretical foundations and the ability to apply rigorous statistical and mathematical reasoning to real-world problems. This Research Training Group, based in UCLA\u2019s Department of Statistics & Data Science, will train the next generation of researchers in the mathematical and statistical foundations of data science, providing them with the tools to tackle emerging challeng",
-    "amount": 2000000,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "University of California-Los Angeles",
-    "city": "LOS ANGELES",
-    "state": "CA",
-    "pi": "Guido Montufar Cuartas",
-    "piEmail": "montufar@math.ucla.edu",
-    "date": "03/19/2026",
-    "sectors": [
-      "biotech"
-    ]
-  },
-  {
-    "id": "2541857",
-    "title": "CAREER: Specifying and Verifying Correctness of Software Updates",
-    "abstract": "Software updates are a fact of life, yet they are difficult for developers to get right because the new version must correctly interact with the previous version. Incorrect updates remain a surprisingly common source of catastrophic failures in practice. Formal verification, a technique where software is mathematically proven to behave as intended, is a promising approach to make software more reliable; however, with existing verification approaches, we don't know how to state (much less prove) ",
-    "amount": 680000,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
+    "endDate": "08/31/2026",
     "awardee": "University of Wisconsin-Madison",
     "city": "MADISON",
     "state": "WI",
-    "pi": "Tej Chajed",
-    "piEmail": "chajed@wisc.edu",
-    "date": "04/03/2026",
-    "sectors": []
-  },
-  {
-    "id": "2540555",
-    "title": "CAREER: ProTrain: Enabling Efficient Large Language Model Training via Performance, Energy, and Reliability Co-optimizations",
-    "abstract": "The rapid growth of large language models (LLMs) has enabled major advances in artificial intelligence (AI), including systems that assist with writing, coding, education, and decision-making. However, training these models demands enormous computing resources, creating significant challenges across multiple dimensions, including model quality, training time, energy efficiency, and reliability. Although many optimization techniques have been proposed, most focus on only one or a few aspects of t",
-    "amount": 533628,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "University of Oregon Eugene",
-    "city": "EUGENE",
-    "state": "OR",
-    "pi": "Jieyang Chen",
-    "piEmail": "jieyang@uoregon.edu",
-    "date": "03/30/2026",
-    "sectors": [
-      "ai"
-    ]
-  },
-  {
-    "id": "2541050",
-    "title": "CAREER: Enabling Efficient AI Computing at Scale with Heterogeneous Retention-Aware Memory Systems",
-    "abstract": "Modern artificial intelligence (AI) systems are increasingly limited not by arithmetic, but by memory. As frontier AI models become more capable, they require far more data to be moved, stored, and accessed efficiently. These workloads systematically generate large volumes of short-lived data that are written in memory, consumed, and quickly discarded, as well as long-lived data that must be retained reliably across much longer time scales. Conventional memory systems are poorly optimized to thi",
-    "amount": 730000,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "Stanford University",
-    "city": "STANFORD",
-    "state": "CA",
-    "pi": "Thierry Tambe",
-    "piEmail": "ttambe@stanford.edu",
-    "date": "03/31/2026",
-    "sectors": [
-      "ai",
-      "biotech"
-    ]
-  },
-  {
-    "id": "2549953",
-    "title": "Blurring Boundaries Over Time: A Longitudinal Study of AI, Metacognitive Regulation, and Responsibility in Engineering Problem Solving",
-    "abstract": "Artificial intelligence (AI) tools are rapidly transforming how undergraduate students learn, solve problems, and make decisions in educational and professional settings. On one hand, AI systems are increasingly able to generate solutions and explanations, and to offer students new opportunities to enhance their learning through reflection, exploration of their ideas, and a deeper understanding of technical content. On the other hand, students' use of these tools may also weaken their independen",
-    "amount": 618387,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2030",
-    "awardee": "Utah State University",
-    "city": "LOGAN",
-    "state": "UT",
-    "pi": "Oenardi Lawanto",
-    "piEmail": "olawanto@usu.edu",
-    "date": "03/19/2026",
-    "sectors": [
-      "ai",
-      "biotech"
-    ]
-  },
-  {
-    "id": "2543048",
-    "title": "CAREER: OpenGPRxAI: Open-Source, AI-Powered Ground Penetrating Radar Technologies for Real-Time Subsurface Vision",
-    "abstract": "This project aims to significantly advance subsurface imaging by developing advanced, open-source, AI-powered ground-penetrating radar (GPR) technologies.  GPR is a non-invasive sensing tool that uses electromagnetic waves to detect and visualize objects beneath the surface, making it invaluable for applications such as precision agriculture, defense, archaeology, civil engineering, and planetary exploration.  Despite its broad utility, current GPR technologies face significant limitations, incl",
-    "amount": 560865,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "University of Wisconsin-Madison",
-    "city": "MADISON",
-    "state": "WI",
-    "pi": "Haihan Sun",
-    "piEmail": "haihan.sun@wisc.edu",
-    "date": "03/16/2026",
-    "sectors": [
-      "defense"
-    ]
-  },
-  {
-    "id": "2543754",
-    "title": "CAREER: Internet of Foundation Models (IoFM): Expanding the Frontiers of Distributed Learning in Heterogeneous Networks",
-    "abstract": "This project aims to advance AI machine-learning tools for future wireless networks by introducing a transformative paradigm called the Internet of Foundation Models (IoFM).  Modern wireless networks are evolving into intelligent infrastructures that generate vast amounts of distributed data from Internet of Things (IoT) devices.  This project seeks to harness this data to enable real-time decision-making, situational awareness, and autonomy in next-generation wireless systems.  By leveraging mu",
-    "amount": 550000,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "SUNY at Buffalo",
-    "city": "AMHERST",
-    "state": "NY",
-    "pi": "Seyyedali Hosseinalipour",
-    "piEmail": "alipour@buffalo.edu",
-    "date": "03/16/2026",
-    "sectors": [
-      "biotech"
-    ]
-  },
-  {
-    "id": "2543591",
-    "title": "CAREER: Modeling Trust Dynamics and System Adaptation for Human-AI Collaboration in Engineering Design",
-    "abstract": "This Faculty Early Career Development Program (CAREER) project supports research and education focused on trust in human-artificial intelligence (AI) collaboration during early-stage engineering design. In open-ended, creative design contexts, trust governs how designers engage with and rely on AI-generated suggestions, yet this reliance is often implicit, context-dependent, and difficult to capture by traditional acceptance-based or post-hoc survey measures. This project advances fundamental kn",
-    "amount": 545650,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2031",
-    "awardee": "Stevens Institute of Technology",
-    "city": "HOBOKEN",
-    "state": "NJ",
-    "pi": "Ting Liao",
-    "piEmail": "tliao@stevens.edu",
-    "date": "03/13/2026",
-    "sectors": [
-      "ai",
-      "biotech"
-    ]
-  },
-  {
-    "id": "2542238",
-    "title": "CAREER: Reasoning-Centered AI for Scientific Discovery",
-    "abstract": "Many scientific breakthroughs happen when a researcher notices that a technique from one field could solve a problem in another \u2014 a discovery in materials science, for example, might share a deep structural similarity with a finding in a different field. Yet with hundreds of new papers appearing each month even within narrow specialties, no individual can read broadly enough to spot these cross-cutting connections reliably. This project develops artificial intelligence systems that help research",
-    "amount": 600000,
-    "startDate": "08/15/2026",
-    "endDate": "07/31/2031",
-    "awardee": "Johns Hopkins University",
-    "city": "BALTIMORE",
-    "state": "MD",
-    "pi": "Daniel Khashabi",
-    "piEmail": "danielk@jhu.edu",
-    "date": "04/03/2026",
-    "sectors": [
-      "ai"
-    ]
-  },
-  {
-    "id": "2543177",
-    "title": "CAREER: Energy-Efficient and Compact Foundation Model for Universal Virtual Sensing in Dynamic Energy Systems",
-    "abstract": "This NSF CAREER project aims to develop a new class of energy-efficient artificial intelligence (AI) models that can infer the internal behavior of complex energy systems from limited sensor measurements. Many critical infrastructures, including power grids and thermal energy systems, contain regions that cannot be directly instrumented, yet safe and reliable operation requires knowledge of internal conditions such as temperature, voltage, and power balance. Existing AI methods are often computa",
-    "amount": 587981,
-    "startDate": "08/15/2026",
-    "endDate": "07/31/2031",
-    "awardee": "University of Illinois at Urbana-Champaign",
-    "city": "URBANA",
-    "state": "IL",
-    "pi": "Syed Bahauddin Alam",
-    "piEmail": "alams@illinois.edu",
-    "date": "03/17/2026",
-    "sectors": [
-      "defense",
-      "ai"
-    ]
-  },
-  {
-    "id": "2543603",
-    "title": "CAREER: Integrated Digital Thread for Self-Evolving Cooperative Robotics Remanufacturing",
-    "abstract": "Remanufacturing restores worn or damaged products to like-new performance, extending the life of high-value assets while reducing dependency on costly replacements and lowering supply chain vulnerability. Many repairs still depend on technician judgment that is difficult to document and is increasingly at risk as experienced workers retire faster than replacements can be trained. Although robots offer the potential to alleviate workforce shortages, today\u2019s programmed automation is largely limite",
-    "amount": 509434,
-    "startDate": "08/01/2026",
-    "endDate": "07/31/2031",
-    "awardee": "University of Connecticut",
-    "city": "STORRS",
-    "state": "CT",
-    "pi": "Farhad Imani",
-    "piEmail": "farhad.imani@uconn.edu",
-    "date": "01/29/2026",
-    "sectors": [
-      "robotics"
-    ]
-  },
-  {
-    "id": "2543524",
-    "title": "CAREER:Toward Generative Cinematography with Controllable Video Synthesis",
-    "abstract": "Video is rapidly becoming the dominant medium for communication, education, and entertainment, yet creating high-quality video content remains costly and technically demanding. Current artificial intelligence models can generate impressive videos from text descriptions, but they operate as black-boxes, offering users little control over the content, motion or camera perspective. This project aims to develop a new paradigm for controllable video generation by unlocking the rich but hidden capabil",
-    "amount": 562245,
-    "startDate": "08/01/2026",
-    "endDate": "07/31/2031",
-    "awardee": "Virginia Polytechnic Institute and State University",
-    "city": "BLACKSBURG",
-    "state": "VA",
-    "pi": "Pinar Yanardag Delul",
-    "piEmail": "pinary@vt.edu",
-    "date": "03/31/2026",
-    "sectors": [
-      "ai",
-      "biotech"
-    ]
-  },
-  {
-    "id": "2542222",
-    "title": "CAREER: Scalable Adaptive Control with Performance Guarantees for Safe and Efficient Autonomous Systems",
-    "abstract": "This Faculty Early Career Development Program (CAREER) grant funds research on autonomous systems that are poised to transform industries ranging from transportation and manufacturing to environmental monitoring and space exploration. Use of these systems in safety-critical applications faces significant challenges, such as ensuring safety and performance in unpredictable environments and adapting to large and sudden changes, and handling complex dynamics. This project seeks to overcome these ba",
-    "amount": 599981,
-    "startDate": "08/01/2026",
-    "endDate": "07/31/2031",
-    "awardee": "University of Alabama Tuscaloosa",
-    "city": "TUSCALOOSA",
-    "state": "AL",
-    "pi": "Pan Zhao",
-    "piEmail": "pan.zhao@ua.edu",
-    "date": "03/13/2026",
-    "sectors": [
-      "defense"
-    ]
-  },
-  {
-    "id": "2543005",
-    "title": "CAREER: From Neural Network Verification to General SMT Solving: A New Framework for Solving SMT over Non-linear Real Arithmetic",
-    "abstract": "Satisfiability Modulo Theories (SMT) problems are akin to mathematical puzzles: given a mix of equations and logical rules, an SMT solver determines whether there exists an assignment of variables that satisfies everything at once. SMT solving underpins high-stakes assurance tasks: for example, proving that a self-driving car cannot steer into an obstacle under modeled operating conditions, and supporting safety checks in domains like avionics, medical devices, and power systems. These problems ",
-    "amount": 597023,
-    "startDate": "08/01/2026",
-    "endDate": "07/31/2031",
-    "awardee": "University of Illinois at Urbana-Champaign",
-    "city": "URBANA",
-    "state": "IL",
-    "pi": "Huan Zhang",
-    "piEmail": "huan@huan-zhang.com",
-    "date": "04/02/2026",
-    "sectors": [
-      "ai",
-      "biotech"
-    ]
-  },
-  {
-    "id": "2542350",
-    "title": "CAREER: Exploiting Symmetry for Extreme-Scale Constrained Dynamical Systems",
-    "abstract": "Automation and artificial intelligence are transforming society, increasing productivity by improving the speed, efficiency, and reliability of conducting complex tasks. Despite these advances, current approaches to autonomous decision-making require enormous computational resources, driving the expansion of data centers and placing growing strain on national electricity and water infrastructure. These high computational demands also limit where autonomous systems can be deployed, preventing low",
-    "amount": 619800,
-    "startDate": "08/01/2026",
-    "endDate": "07/31/2031",
-    "awardee": "University of New Mexico",
-    "city": "ALBUQUERQUE",
-    "state": "NM",
-    "pi": "Claus Danielson",
-    "piEmail": "cdanielson@unm.edu",
-    "date": "04/03/2026",
-    "sectors": [
-      "defense",
-      "ai"
-    ]
-  },
-  {
-    "id": "2540750",
-    "title": "CAREER: A Framework for Galaxy Formation Theory in the Era of Artificial Intelligence",
-    "abstract": "Computer simulations, based on physics, can be used to predict how galaxies grow over time. These cosmological simulations connect the growth of dark matter to stellar and gaseous processes.  The predictions that these simulations provide are often sensitive to various arbitrary choices which introduce uncertainty that is rarely quantified. This program will develop a novel analysis, based on AI, that will allow for the characterization of uncertainties in cosmological simulations in a novel way",
-    "amount": 797503,
-    "startDate": "08/01/2026",
-    "endDate": "07/31/2031",
-    "awardee": "University of Virginia Main Campus",
-    "city": "CHARLOTTESVILLE",
-    "state": "VA",
-    "pi": "Paul Torrey",
-    "piEmail": "ygn5rz@virginia.edu",
-    "date": "03/16/2026",
-    "sectors": [
-      "ai"
-    ]
-  },
-  {
-    "id": "2527972",
-    "title": "Social Mobility through ARkansas Tech program",
-    "abstract": "This project will contribute to the national need for well-educated scientists, mathematicians, engineers, and technicians by supporting the retention and graduation of high-achieving, low-income students with demonstrated financial need at Arkansas Tech University. A total of 40 scholars pursuing Bachelor of Science in Computer Science, Cybersecurity, Mathematics, Physics, Engineering Physics, Computer Engineering, Electrical Engineering, and Mechanical Engineering will receive scholarships ave",
-    "amount": 2000000,
-    "startDate": "07/01/2026",
-    "endDate": "06/30/2032",
-    "awardee": "Arkansas Tech University",
-    "city": "RUSSELLVILLE",
-    "state": "AR",
-    "pi": "Matthew Hankins",
-    "piEmail": "mhankins1@atu.edu",
-    "date": "02/23/2026",
-    "sectors": []
-  },
-  {
-    "id": "2607764",
-    "title": "Collaborative Research: Quantifying Secondary Electron Emission for Predictive Electrode Boundary Conditions in Plasma-Assisted Combustion",
-    "abstract": "Plasma-assisted combustion is a new technology that can improve combustion efficiency.  It can also enable use of difficult-to-burn fuels such as ammonia. However, predicting the performance of plasma-assisted combustion requires models that take into account how plasma interacts with surfaces.  This project will use a combination of modeling and experiments to identify the fundamental physics driving interactions of plasma with surfaces.  The research outcomes will be critical tools that better",
-    "amount": 300000,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2029",
-    "awardee": "University of Arizona",
-    "city": "TUCSON",
-    "state": "AZ",
-    "pi": "Bernard Parent",
-    "piEmail": "bparent@arizona.edu",
-    "date": "03/19/2026",
-    "sectors": [
-      "nuclear"
-    ]
-  },
-  {
-    "id": "2531816",
-    "title": "EPSCoR Research Fellows: NSF: Advancing Kinetic Modeling of Low-Temperature Plasma through GPU-Accelerated High-Performance Computing",
-    "abstract": "This Research Infrastructure Improvement (RII) EPSCoR Research Fellows project provides a fellowship to an Assistant Professor and training for a graduate student at the University of North Dakota. This work is conducted in collaboration with Dr. Mark Shephard at Rensselaer Polytechnic Institute. Through the fellowship, the PI will develop efficient numerical algorithms and models to study low-temperature plasma on high-performance computing platforms powered by graphics processing units (GPUs).",
-    "amount": 299677,
-    "startDate": "05/01/2026",
-    "endDate": "04/30/2028",
-    "awardee": "University of North Dakota Main Campus",
-    "city": "GRAND FORKS",
-    "state": "ND",
-    "pi": "Chonglin Zhang",
-    "piEmail": "chonglin.zhang@und.edu",
-    "date": "04/10/2026",
-    "sectors": [
-      "nuclear"
-    ]
-  },
-  {
-    "id": "2602403",
-    "title": "Collaborative Research: Probing Coronal Processes Through Three Total Solar Eclipses",
-    "abstract": "A total solar eclipse offers a unique opportunity to study the Sun\u2019s outer atmosphere, the corona, where dynamic processes, including solar wind, originate. These dynamic processes impact the operations of satellites, power systems, and communications on Earth. The goal of this proposal is to leverage three upcoming total solar eclipses on 12 August 2026, 2 August 2027, and 22 July 2028, to advance understanding of coronal conditions that lead to extreme space weather events. The findings will h",
-    "amount": 80961,
-    "startDate": "04/15/2026",
-    "endDate": "03/31/2029",
-    "awardee": "Wentworth Institute of Tech",
-    "city": "BOSTON",
-    "state": "MA",
-    "pi": "Benjamin Boe",
-    "piEmail": "boeb@wit.edu",
-    "date": "04/13/2026",
-    "sectors": [
-      "space"
-    ]
-  },
-  {
-    "id": "2602402",
-    "title": "Collaborative Research: Probing Coronal Processes Through Three Total Solar Eclipses",
-    "abstract": "A total solar eclipse offers a unique opportunity to study the Sun\u2019s outer atmosphere, the corona, where dynamic processes, including solar wind, originate. These dynamic processes impact the operations of satellites, power systems, and communications on Earth. The goal of this proposal is to leverage three upcoming total solar eclipses on 12 August 2026, 2 August 2027, and 22 July 2028, to advance understanding of coronal conditions that lead to extreme space weather events. The findings will h",
-    "amount": 519030,
-    "startDate": "04/15/2026",
-    "endDate": "03/31/2029",
-    "awardee": "University of Hawaii",
-    "city": "HONOLULU",
-    "state": "HI",
-    "pi": "Shadia Habbal",
-    "piEmail": "shadia@ifa.hawaii.edu",
-    "date": "04/13/2026",
-    "sectors": [
-      "space"
-    ]
-  },
-  {
-    "id": "2555151",
-    "title": "Conference: Fourth Joint Alabama--Florida Conference on DifferentialEquations, Dynamical Systems and Applications (JAF DEDS)",
-    "abstract": "The fourth Joint Alabama-Florida Conference on Differential Equations, Dynamical Systems and Applications (JAF DEDS) will be held in Miami, Florida, on May 18--19, 2026. Organized by the mathematics departments at the University of Alabama at Birmingham, Auburn University, Florida International University, and Florida State University, this conference continues a rotating annual series that strengthens regional collaboration in applied mathematics. Growth in the applied mathematics community acr",
-    "amount": 22500,
-    "startDate": "04/15/2026",
-    "endDate": "03/31/2027",
-    "awardee": "Florida International University",
-    "city": "MIAMI",
-    "state": "FL",
-    "pi": "Svetlana Roudenko",
-    "piEmail": "sroudenko@fiu.edu",
-    "date": "04/02/2026",
-    "sectors": []
-  },
-  {
-    "id": "2534516",
-    "title": "Collaborative Research: Structure and Function of Direct Delivery Peptides",
-    "abstract": "Non-technical description\r\nEvery living cell is surrounded by a very thin membrane barrier that keeps most large and water-soluble molecules out of the cell. The membrane protects the cell, but it also makes it hard to deliver useful cargo molecules, such as drugs, into cells. Short molecules called cell penetrating peptides can sometimes carry cargo across this barrier, but most known examples work inefficiently and tend to trap their cargo inside internal compartments where the cargo cannot do",
-    "amount": 275000,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2029",
-    "awardee": "Tulane University",
-    "city": "NEW ORLEANS",
-    "state": "LA",
-    "pi": "William Wimley",
-    "piEmail": "wwimley@tulane.edu",
-    "date": "03/26/2026",
-    "sectors": []
-  },
-  {
-    "id": "2549969",
-    "title": "Collaborative Research:  AGS-FIRP Track 2--Phased Array Polarimetry for Electrification and Lightning (PAPEL)",
-    "abstract": "This award supports the study of cloud electrification and lightning using phased-array weather radar.  The research team will deploy multiple mobile radars to the field to observe key aspects of thunderstorms. Phased-array radars provide extremely fast sampling compared to traditional radars, allowing measurement of lightning features that were previously difficult to observe. Improved knowledge of lightning processes supports better hazard prediction and helps reduce risks to people and infras",
-    "amount": 971621,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2029",
-    "awardee": "University of Oklahoma Norman Campus",
-    "city": "NORMAN",
-    "state": "OK",
-    "pi": "David Schvartzman",
-    "piEmail": "dschvart@ou.edu",
+    "pi": "Jackie Cha",
+    "piEmail": "jackie.cha@wisc.edu",
     "date": "02/10/2026",
     "sectors": [
-      "defense"
+      "robotics",
+      "ai"
     ]
-  },
-  {
-    "id": "2529754",
-    "title": "EAGER: Developing the Wave Distribution Function Method for RBSP Wave Data Analysis",
-    "abstract": "Plasma waves are common in the space environment around Earth and influence the behavior of energetic particles that can affect satellites and other technologies. Current methods often assume that these waves travel in a single direction, but observations show that many waves move in multiple directions and arise from different physical processes. This work will develop new computational methods to determine the full range of directions in which plasma waves propagate. Improving these measuremen",
-    "amount": 299614,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2028",
-    "awardee": "University of California-Los Angeles",
-    "city": "LOS ANGELES",
-    "state": "CA",
-    "pi": "Jacob Bortnik",
-    "piEmail": "jbortnik@atmos.ucla.edu",
-    "date": "03/18/2026",
-    "sectors": [
-      "space",
-      "nuclear"
-    ]
-  },
-  {
-    "id": "2549970",
-    "title": "Collaborative Research:  AGS-FIRP Track 2--Phased Array Polarimetry for Electrification and Lightning (PAPEL)",
-    "abstract": "This award supports the study of cloud electrification and lightning using phased-array weather radar.  The research team will deploy multiple mobile radars to the field to observe key aspects of thunderstorms. Phased-array radars provide extremely fast sampling compared to traditional radars, allowing measurement of lightning features that were previously difficult to observe. Improved knowledge of lightning processes supports better hazard prediction and helps reduce risks to people and infras",
-    "amount": 389343,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2029",
-    "awardee": "Texas Tech University",
-    "city": "LUBBOCK",
-    "state": "TX",
-    "pi": "Eric Bruning",
-    "piEmail": "eric.bruning@ttu.edu",
-    "date": "02/10/2026",
-    "sectors": [
-      "defense"
-    ]
-  },
-  {
-    "id": "2542931",
-    "title": "CAREER: Influence of Ammonia-Based Additives to Control Multiphase Detonation Performance",
-    "abstract": "Renewable fuels for power generation and transportation can broaden the U.S. energy portfolio.  However, renewable fuels produce a relatively low amount of energy on a volumetric basis compared with traditional fossil fuels. Combustion is typically carried out using a subsonic process called deflagration. An alternative is detonation, which is a supersonic process.  The combustion efficiency of renewable fuels can be increased using detonation, especially with additives that enhance the process.",
-    "amount": 599927,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2031",
-    "awardee": "University of Alabama in Huntsville",
-    "city": "HUNTSVILLE",
-    "state": "AL",
-    "pi": "John Bennewitz",
-    "piEmail": "john.bennewitz@uah.edu",
-    "date": "04/08/2026",
-    "sectors": [
-      "biotech"
-    ]
-  },
-  {
-    "id": "2534515",
-    "title": "Collaborative Research: Structure and Function of Direct Delivery Peptides",
-    "abstract": "Non-technical description\r\nEvery living cell is surrounded by a very thin membrane barrier that keeps most large and water-soluble molecules out of the cell. The membrane protects the cell, but it also makes it hard to deliver useful cargo molecules, such as drugs, into cells. Short molecules called cell penetrating peptides can sometimes carry cargo across this barrier, but most known examples work inefficiently and tend to trap their cargo inside internal compartments where the cargo cannot do",
-    "amount": 300000,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2029",
-    "awardee": "Johns Hopkins University",
-    "city": "BALTIMORE",
-    "state": "MD",
-    "pi": "Kalina Hristova",
-    "piEmail": "hristova@jhu.edu",
-    "date": "03/26/2026",
-    "sectors": []
-  },
-  {
-    "id": "2534517",
-    "title": "Collaborative Research: Structure and Function of Direct Delivery Peptides",
-    "abstract": "Non-technical description\r\nEvery living cell is surrounded by a very thin membrane barrier that keeps most large and water-soluble molecules out of the cell. The membrane protects the cell, but it also makes it hard to deliver useful cargo molecules, such as drugs, into cells. Short molecules called cell penetrating peptides can sometimes carry cargo across this barrier, but most known examples work inefficiently and tend to trap their cargo inside internal compartments where the cargo cannot do",
-    "amount": 200000,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2029",
-    "awardee": "Oregon State University",
-    "city": "CORVALLIS",
-    "state": "OR",
-    "pi": "Myriam Cotten",
-    "piEmail": "cottenmy@oregonstate.edu",
-    "date": "03/26/2026",
-    "sectors": []
-  },
-  {
-    "id": "2535974",
-    "title": "NSFGEO-NERC: Carbon concentration and variability in Earth\u2019s mantle",
-    "abstract": "What controls carbon concentration and variability in the Earth\u2019s mantle is an important unanswered question. This project will address this question using small melt droplets in lavas. These melt droplets trap magma from the mantle before they travel through the crust and erupt at the Earth\u2019s surface. The investigators will use samples from Iceland and several seafloor locations. The project will serve national interests through student training, public outreach, and building analytical capabil",
-    "amount": 536839,
-    "startDate": "03/15/2026",
-    "endDate": "02/28/2029",
-    "awardee": "South Dakota School of Mines and Technology",
-    "city": "RAPID CITY",
-    "state": "SD",
-    "pi": "Gokce Ustunisik",
-    "piEmail": "Gokce.Ustunisik@sdsmt.edu",
-    "date": "03/24/2026",
-    "sectors": []
-  },
-  {
-    "id": "2609819",
-    "title": "RAPID: Guided Laser Wakefield Acceleration at the ZEUS Laser Facility",
-    "abstract": "Particle accelerators are powerful tools used in medicine, manufacturing, and fundamental science, but conventional accelerator facilities are large, expensive, and limited in number. This award advances a promising alternative: laser-driven particle accelerators that can achieve extremely high energies over much shorter distances by using plasma as the accelerating medium. The award supports the extension of this type of accelerator to unprecedented power and length scales on the highest power ",
-    "amount": 200000,
-    "startDate": "02/15/2026",
-    "endDate": "01/31/2027",
-    "awardee": "University of Maryland, College Park",
-    "city": "COLLEGE PARK",
-    "state": "MD",
-    "pi": "Jaron Shrock",
-    "piEmail": "jshrock@umd.edu",
-    "date": "02/05/2026",
-    "sectors": [
-      "nuclear"
-    ]
-  },
-  {
-    "id": "2618300",
-    "title": "Collaborative Research: GEM--How Upstream Solar Wind Conditions Determine the Properties of the Foreshock Backstreaming Ions",
-    "abstract": "The interaction of the solar wind and the Earth's magnetic field created a collisionless shock called a bow shock in front of the Earth's magnetosphere.  The incident particles can be accelerated and reflected at the bow shock, resulting in their counter-streaming along field lines and interacting with the local plasma.  Earth's bow shock is a natural laboratory to study the complex interactions between the incident solar wind and the counter-streaming foreshock populations.   This study aims to",
-    "amount": 229577,
-    "startDate": "02/01/2026",
-    "endDate": "07/31/2026",
-    "awardee": "Embry-Riddle Aeronautical University",
-    "city": "DAYTONA BEACH",
-    "state": "FL",
-    "pi": "Kun Zhang",
-    "piEmail": "kzhang@epss.ucla.edu",
-    "date": "03/25/2026",
-    "sectors": [
-      "nuclear"
-    ]
-  },
-  {
-    "id": "2619516",
-    "title": "CAREER: Hybrid Surface Coating Toward Corrosion-Controlled Magnesium-Based Implants",
-    "abstract": "NON-TECHNICAL SUMMARY\r\n\r\nThere is an increasing incidence of bone fractures in the United States, which is caused in part by an aging population. The global market for fracture fixation devices (e.g., medical implants) is expected to reach $13.6 billion by 2027, growing at a compound annual growth rate of 6.1% over that time. This Faculty Early Career Development (CAREER) award addresses a significant healthcare challenge by enhancing the clinical feasibility of biodegradable magnesium-based met",
-    "amount": 556776,
-    "startDate": "10/01/2025",
-    "endDate": "06/30/2029",
-    "awardee": "Kennesaw State University Research and Service Foundation",
-    "city": "KENNESAW",
-    "state": "GA",
-    "pi": "Hamdy Ibrahim",
-    "piEmail": "hamdy.m.elsayed@gmail.com",
-    "date": "03/13/2026",
-    "sectors": []
   },
   {
     "id": "2611147",
@@ -1344,6 +600,1239 @@
     ]
   },
   {
+    "id": "2541984",
+    "title": "CAREER: Encoding ultra-coherent logical qubits in spin ensembles",
+    "abstract": "The construction and control of large-scale quantum systems is one of the grand challenges in contemporary science. The ability to do so would enable us to unlock fundamentally new technological capabilities in the form of quantum simulation and computation. Once available, these technologies are widely anticipated to lead to solutions to so-far unsolvable problems across a multitude of fields such as materials science, drug discovery, or computer science. As such, quantum technology has excepti",
+    "amount": 550000,
+    "startDate": "06/01/2026",
+    "endDate": "05/31/2031",
+    "awardee": "University of Illinois at Urbana-Champaign",
+    "city": "URBANA",
+    "state": "IL",
+    "pi": "Wolfgang Pfaff",
+    "piEmail": "wpfaff@illinois.edu",
+    "date": "04/14/2026",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2543972",
+    "title": "CAREER: Efficient Multiplexed Classical Interfaces for Scalable Cryogenic Quantum Processors",
+    "abstract": "Quantum computing has the potential to revolutionize industries such as cryptography, pharmaceuticals, and finance by solving complex problems that are beyond the capabilities of classical computers.  However, scaling quantum processors to control and read out thousands or even millions of qubits is a significant challenge due to limitations in current technologies, such as the use of bulky coaxial cables and inefficient control systems.  This project aims to overcome these barriers by developin",
+    "amount": 548598,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2031",
+    "awardee": "Cornell University",
+    "city": "ITHACA",
+    "state": "NY",
+    "pi": "Mohamed Ibrahim",
+    "piEmail": "mibrahim@cornell.edu",
+    "date": "03/25/2026",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2540171",
+    "title": "CAREER: SQALE: Scalable Quantum Architectures with LDPC Error-correction",
+    "abstract": "Qubits, or quantum bits, are the fundamental units of quantum computers and they can be built from a variety of technologies, e.g., neutral atoms, ions, superconducting circuits, photons. Irrespective of the technology used to build them, they are fragile and can retain their coherence (to preserve the stored information) only for a limited time, which typically ranges from microseconds to seconds. Besides, when the qubits are manipulated through external forces to perform useful computation, th",
+    "amount": 826210,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2031",
+    "awardee": "University of Arizona",
+    "city": "TUCSON",
+    "state": "AZ",
+    "pi": "Narayanan Rengaswamy",
+    "piEmail": "narayananr@arizona.edu",
+    "date": "03/20/2026",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2510580",
+    "title": "MRI: Track #1: Development of a System for Ultra-Low Temperature Spectroscopy of Quantum Emitters in Solids and 2-Dimensional Materials",
+    "abstract": "Non-technical description:\r\nQuantum science and engineering research has made tremendous progress over the past two decades, moving from simple demonstrations of single quantum bits in various platforms to proof-of-concept demonstrations of quantum technologies, including quantum computers. These technologies are also of great national importance because of their promise to provide secure communication (quantum networks), better sensors for medicine and navigation (quantum sensors), and hardware",
+    "amount": 1393726,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2029",
+    "awardee": "Stanford University",
+    "city": "STANFORD",
+    "state": "CA",
+    "pi": "Jelena Vuckovic",
+    "piEmail": "jela@stanford.edu",
+    "date": "02/26/2026",
+    "sectors": [
+      "defense",
+      "quantum"
+    ]
+  },
+  {
+    "id": "2544044",
+    "title": "CAREER: Designing Domain Knowledge-Guided Learning Architectures towards Wireless Network Security: Enabling Effective and Efficient Attacks and Countermeasures",
+    "abstract": "Modern wireless networks have become increasingly complex and densely populated and can create a massive volume of operation data. As a result, extensive efforts from both academia and industry have focused on leveraging artificial intelligence (AI) in wireless network security related tasks such as (i) adversarial inference, (ii) adversarial generation, and (iii) data transformation. This project will focus on exploring new directions for incorporating additional domain knowledge to improve the",
+    "amount": 500000,
+    "startDate": "10/01/2026",
+    "endDate": "09/30/2031",
+    "awardee": "University of Oklahoma Norman Campus",
+    "city": "NORMAN",
+    "state": "OK",
+    "pi": "Shangqing Zhao",
+    "piEmail": "shangqing@ou.edu",
+    "date": "04/02/2026",
+    "sectors": [
+      "ai",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2543078",
+    "title": "CAREER: Circuit discovery in the Drosophila connectome",
+    "abstract": "The fruit fly uses its senses, its memory, and its internal states to make decisions about where to lay an egg, what to eat, and whether to pursue or accept a mate. This project seeks to discover the neural pathways and circuits in the fruit fly\u2019s brain that enable it to flexibly make decisions. These parts of the brain are difficult to study with traditional methods. The recent availability of connectome data \u2013 full reconstructions of entire brain volumes \u2013 now provide researchers with access t",
+    "amount": 552221,
+    "startDate": "09/01/2026",
+    "endDate": "08/31/2031",
+    "awardee": "Barnard College",
+    "city": "NEW YORK",
+    "state": "NY",
+    "pi": "Gabrielle Gutierrez",
+    "piEmail": "ggutierr@barnard.edu",
+    "date": "04/03/2026",
+    "sectors": []
+  },
+  {
+    "id": "2620522",
+    "title": "Conference: Horizons in Descriptive Set Theory",
+    "abstract": "This award supports participants  of conference \"Horizons in Descriptive Set Theory\" that will take place at Cornell University from October 10-12, 2026.  Descriptive set theory is a branch of mathematics which develops tools for understanding and manipulating infinite sets, particularly in settings where other mathematical structure, such as algebra or geometry, is either not present or minimized.  These methods have nevertheless proved very fruitful in yielding new insight into other areas of ",
+    "amount": 30400,
+    "startDate": "09/01/2026",
+    "endDate": "08/31/2027",
+    "awardee": "Cornell University",
+    "city": "ITHACA",
+    "state": "NY",
+    "pi": "Justin Moore",
+    "piEmail": "justin@math.cornell.edu",
+    "date": "04/07/2026",
+    "sectors": []
+  },
+  {
+    "id": "2446222",
+    "title": "RTG: Statistics and Data Theory - Engaging the Future of Data Science",
+    "abstract": "The growing reliance on data-driven technologies across industry, science, and society demands a workforce with both strong theoretical foundations and the ability to apply rigorous statistical and mathematical reasoning to real-world problems. This Research Training Group, based in UCLA\u2019s Department of Statistics & Data Science, will train the next generation of researchers in the mathematical and statistical foundations of data science, providing them with the tools to tackle emerging challeng",
+    "amount": 2000000,
+    "startDate": "09/01/2026",
+    "endDate": "08/31/2031",
+    "awardee": "University of California-Los Angeles",
+    "city": "LOS ANGELES",
+    "state": "CA",
+    "pi": "Guido Montufar Cuartas",
+    "piEmail": "montufar@math.ucla.edu",
+    "date": "03/19/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2543754",
+    "title": "CAREER: Internet of Foundation Models (IoFM): Expanding the Frontiers of Distributed Learning in Heterogeneous Networks",
+    "abstract": "This project aims to advance AI machine-learning tools for future wireless networks by introducing a transformative paradigm called the Internet of Foundation Models (IoFM).  Modern wireless networks are evolving into intelligent infrastructures that generate vast amounts of distributed data from Internet of Things (IoT) devices.  This project seeks to harness this data to enable real-time decision-making, situational awareness, and autonomy in next-generation wireless systems.  By leveraging mu",
+    "amount": 550000,
+    "startDate": "09/01/2026",
+    "endDate": "08/31/2031",
+    "awardee": "SUNY at Buffalo",
+    "city": "AMHERST",
+    "state": "NY",
+    "pi": "Seyyedali Hosseinalipour",
+    "piEmail": "alipour@buffalo.edu",
+    "date": "03/16/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2543177",
+    "title": "CAREER: Energy-Efficient and Compact Foundation Model for Universal Virtual Sensing in Dynamic Energy Systems",
+    "abstract": "This NSF CAREER project aims to develop a new class of energy-efficient artificial intelligence (AI) models that can infer the internal behavior of complex energy systems from limited sensor measurements. Many critical infrastructures, including power grids and thermal energy systems, contain regions that cannot be directly instrumented, yet safe and reliable operation requires knowledge of internal conditions such as temperature, voltage, and power balance. Existing AI methods are often computa",
+    "amount": 587981,
+    "startDate": "08/15/2026",
+    "endDate": "07/31/2031",
+    "awardee": "University of Illinois at Urbana-Champaign",
+    "city": "URBANA",
+    "state": "IL",
+    "pi": "Syed Bahauddin Alam",
+    "piEmail": "alams@illinois.edu",
+    "date": "03/17/2026",
+    "sectors": [
+      "defense",
+      "ai"
+    ]
+  },
+  {
+    "id": "2543005",
+    "title": "CAREER: From Neural Network Verification to General SMT Solving: A New Framework for Solving SMT over Non-linear Real Arithmetic",
+    "abstract": "Satisfiability Modulo Theories (SMT) problems are akin to mathematical puzzles: given a mix of equations and logical rules, an SMT solver determines whether there exists an assignment of variables that satisfies everything at once. SMT solving underpins high-stakes assurance tasks: for example, proving that a self-driving car cannot steer into an obstacle under modeled operating conditions, and supporting safety checks in domains like avionics, medical devices, and power systems. These problems ",
+    "amount": 597023,
+    "startDate": "08/01/2026",
+    "endDate": "07/31/2031",
+    "awardee": "University of Illinois at Urbana-Champaign",
+    "city": "URBANA",
+    "state": "IL",
+    "pi": "Huan Zhang",
+    "piEmail": "huan@huan-zhang.com",
+    "date": "04/02/2026",
+    "sectors": [
+      "ai",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2540750",
+    "title": "CAREER: A Framework for Galaxy Formation Theory in the Era of Artificial Intelligence",
+    "abstract": "Computer simulations, based on physics, can be used to predict how galaxies grow over time. These cosmological simulations connect the growth of dark matter to stellar and gaseous processes.  The predictions that these simulations provide are often sensitive to various arbitrary choices which introduce uncertainty that is rarely quantified. This program will develop a novel analysis, based on AI, that will allow for the characterization of uncertainties in cosmological simulations in a novel way",
+    "amount": 797503,
+    "startDate": "08/01/2026",
+    "endDate": "07/31/2031",
+    "awardee": "University of Virginia Main Campus",
+    "city": "CHARLOTTESVILLE",
+    "state": "VA",
+    "pi": "Paul Torrey",
+    "piEmail": "ygn5rz@virginia.edu",
+    "date": "03/16/2026",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2622357",
+    "title": "Travel: NSF Student Travel Grant for 2026 ACM Conference on Computer and Communications Security (CCS)",
+    "abstract": "The ACM Conference on Computer and Communications Security (CCS) is the flagship annual conference of the ACM Special Interest Group on Security, Audit and Control (SIGSAC) and is widely recognized as one of the top four venues in computer and information security. Since its inception in 1993, CCS has served as a premier international forum for researchers, practitioners, and policymakers to present and discuss advances across the full spectrum of cybersecurity, including software and systems se",
+    "amount": 15000,
+    "startDate": "07/01/2026",
+    "endDate": "06/30/2027",
+    "awardee": "George Mason University",
+    "city": "FAIRFAX",
+    "state": "VA",
+    "pi": "Kun Sun",
+    "piEmail": "ksun3@gmu.edu",
+    "date": "04/09/2026",
+    "sectors": []
+  },
+  {
+    "id": "2542372",
+    "title": "CAREER: Distributed Large-scale Machine Learning with Security Guarantees",
+    "abstract": "The colossal scale of Machine Learning (ML) systems today means that only powerful players with sufficient computing resources are able to participate in large-scale ML development. As a result, ML pipelines tend to lack transparency or auditing mechanisms. Reliance on a small number of service providers also jeopardizes availability and reliability. Alternatively, ML development can be distributed to a network of volunteer organizations and individuals, mitigating dependency on central supplier",
+    "amount": 564455,
+    "startDate": "07/01/2026",
+    "endDate": "06/30/2031",
+    "awardee": "Purdue University",
+    "city": "WEST LAFAYETTE",
+    "state": "IN",
+    "pi": "Zahra Ghodsi",
+    "piEmail": "zahra@purdue.edu",
+    "date": "03/26/2026",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2541979",
+    "title": "CAREER: Securing and Optimizing Quantum-Resilient Cryptography for Versatile Computing Architectures",
+    "abstract": "The rapidly advancing quantum computers challenge the cryptographic systems that are protecting today's digital infrastructure, including banking, healthcare, government services, and cloud platforms. As the new standardized post-quantum cryptographic (PQC) algorithms are slower and more complex than current cryptographic methods, the deployment of PQC algorithms become challenging. This project improves both the performance and security of the new PQC algorithms, enabling their wide adoption in",
+    "amount": 600610,
+    "startDate": "07/01/2026",
+    "endDate": "06/30/2031",
+    "awardee": "University of California - Merced",
+    "city": "MERCED",
+    "state": "CA",
+    "pi": "Qian Wang",
+    "piEmail": "qianwang@ucmerced.edu",
+    "date": "04/06/2026",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2540613",
+    "title": "CAREER: High-Resolution Modeling of Late Holocene Environmental Volatility in Temperate North America: Using Quantitative Wood Anatomy to Improve Understanding of Extreme Weather",
+    "abstract": "Understanding how extreme weather varies in type, magnitude, and frequency is critical for anticipating future risks to the social, ecological, and economic security of the nation. This project will use novel methods of tree-ring analysis to produce detailed records of past rainfall and temperature extremes during the last millennium across temperate North America. The project will also develop accessible visual materials and tutorials, connecting students across wide-ranging fields to create a ",
+    "amount": 498408,
+    "startDate": "07/01/2026",
+    "endDate": "06/30/2031",
+    "awardee": "University of Tennessee Knoxville",
+    "city": "KNOXVILLE",
+    "state": "TN",
+    "pi": "Karen King",
+    "piEmail": "karenking@arizona.edu",
+    "date": "04/13/2026",
+    "sectors": []
+  },
+  {
+    "id": "2543926",
+    "title": "CAREER: Towards Automated Vulnerability Management: Vulnerability Discovery, Localization, and Continuous Monitoring",
+    "abstract": "Open-source software security vulnerabilities lead to severe impacts, e.g., stolen personal data, financial losses, and disrupted services. Due to the significant growth of vulnerabilities in recent years, it has become increasingly challenging for developers to efficiently manage security vulnerabilities, leading to supply-chain delays and prolonged security risks. While artificial intelligence tools are increasingly adopted in software development, it remains unclear whether they can reliably ",
+    "amount": 624660,
+    "startDate": "07/01/2026",
+    "endDate": "06/30/2031",
+    "awardee": "Stevens Institute of Technology",
+    "city": "HOBOKEN",
+    "state": "NJ",
+    "pi": "Xueqing Liu",
+    "piEmail": "xueqing.liu@stevens.edu",
+    "date": "03/26/2026",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2540176",
+    "title": "CAREER: Bioengineering of a Human Blood-Spinal Cord Barrier-on-a-Chip",
+    "abstract": "The human body has a protective shield between the bloodstream and the central nervous system (CNS). This shield includes the blood-spinal cord barrier (BSCB). The BSCB strictly controls which molecules enter the spinal cord. A damaged or compromised BSCB can contribute to neurological disorders, including spinal cord injuries and Amyotrophic Lateral Sclerosis (ALS). Studying these diseases or testing new treatments is challenging, because researchers do not have laboratory models that accuratel",
+    "amount": 600000,
+    "startDate": "07/01/2026",
+    "endDate": "06/30/2031",
+    "awardee": "Children's Hospital Medical Center",
+    "city": "CINCINNATI",
+    "state": "OH",
+    "pi": "Ziyuan Guo",
+    "piEmail": "Ziyuan.Guo@cchmc.org",
+    "date": "02/19/2026",
+    "sectors": []
+  },
+  {
+    "id": "2539043",
+    "title": "CAREER: Elucidating and Leveraging the Connection Between Label-Free Biomedical Imaging and Gene Network Regulation",
+    "abstract": "Label-free biomedical optical imaging (LBI) is a technology used to study tissues by measuring interactions between tissue and light. This CAREER project will link biological activity to the signals detected by LBI.  The goal is to determine how biological changes, such as changes in how genes are expressed, affect the way light interacts with tissue.  The research will create new artificial intelligence (AI) methods to map the relationship between gene activity and LBI. The results could lead t",
+    "amount": 625000,
+    "startDate": "06/01/2026",
+    "endDate": "05/31/2031",
+    "awardee": "University of Arizona",
+    "city": "TUCSON",
+    "state": "AZ",
+    "pi": "Travis Sawyer",
+    "piEmail": "tsawyer9226@arizona.edu",
+    "date": "02/11/2026",
+    "sectors": [
+      "ai",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2543449",
+    "title": "CAREER: Advancing Understanding of Adsorption, Transport, and Interpenetration in Metal-Organic Frameworks with Pore Graphs",
+    "abstract": "Metal-organic frameworks (MOFs) are materials used in important industrial applications such as chemical separations, energy storage, and water harvesting.  MOFs contain intricate networks of nano-sized pores. The geometry of the networks determines how molecules move through the MOF and interact with the networks\u2019 pore walls.  Computational analysis could help describe the molecular motion, but current methods are limited because they do not capture the complexity of the pore network and chemic",
+    "amount": 549292,
+    "startDate": "06/01/2026",
+    "endDate": "05/31/2031",
+    "awardee": "SUNY at Buffalo",
+    "city": "AMHERST",
+    "state": "NY",
+    "pi": "Kaihang Shi",
+    "piEmail": "kaihangs@buffalo.edu",
+    "date": "04/08/2026",
+    "sectors": []
+  },
+  {
+    "id": "2555777",
+    "title": "Conference: Philadelphia Harmonic Analysis and Differential Equations 2026 (PHADE 2026) - ICM Satellite Conference",
+    "abstract": "The Philadelphia Harmonic Analysis and Differential Equations (PHADE 2026) conference will be held from July 18th to July 22nd, 2026 at the University of Pennsylvania in Philadelphia. The conference is an officially-designated satellite conference of the 2026 International Congress of Mathematicians, held at the Philadelphia Convention Center beginning on July 23rd. The PHADE 2026 program includes 50-minute talks by 38 international leaders in the field of harmonic analysis and partial different",
+    "amount": 31650,
+    "startDate": "06/01/2026",
+    "endDate": "05/31/2027",
+    "awardee": "University of Pennsylvania",
+    "city": "PHILADELPHIA",
+    "state": "PA",
+    "pi": "Philip Gressman",
+    "piEmail": "gressman@math.upenn.edu",
+    "date": "03/25/2026",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2621306",
+    "title": "Travel: NSF Student Travel Grants for VehicleSec '26 and USENIX Security '26",
+    "abstract": "The USENIX Security Symposium and the USENIX Symposium on Vehicle Security and Privacy (VehicleSec) are premier events in computer security, privacy, and usability research, essential for advancing progress in science and engineering. These conferences annually bring together leading researchers and practitioners to share the latest advances in computer systems and network security. The security and privacy of computer systems, networks, mobile devices, and increasingly, connected vehicles and c",
+    "amount": 15000,
+    "startDate": "06/01/2026",
+    "endDate": "02/28/2027",
+    "awardee": "USENIX Association",
+    "city": "TAHUYA",
+    "state": "WA",
+    "pi": "Catherine Bergman",
+    "piEmail": "cathy@usenix.org",
+    "date": "03/20/2026",
+    "sectors": []
+  },
+  {
+    "id": "2541910",
+    "title": "CAREER: Paths in Graphs: Structural Primitives and Algorithmic Advances",
+    "abstract": "Graphs, or networks, are a ubiquitous way of representing data. Paths in graphs can represent, for instance, transportation routes, chemical reaction pathways, or information movement through a digital or social network. To efficiently compute meaningful information about paths in graphs it is important to have efficient algorithms with strong theoretical foundations, i.e., proofs of correctness and efficiency. This project addresses the theoretical foundations of algorithmic problems regarding ",
+    "amount": 875551,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2031",
+    "awardee": "Regents of the University of Michigan - Ann Arbor",
+    "city": "ANN ARBOR",
+    "state": "MI",
+    "pi": "Nicole Wein",
+    "piEmail": "nswein@umich.edu",
+    "date": "03/25/2026",
+    "sectors": []
+  },
+  {
+    "id": "2540803",
+    "title": "CAREER: Comprehensively Understanding and Securing the Edge of the Internet",
+    "abstract": "This project focuses on developing the next generation of network scanning tools and methodologies for more efficiently finding all Internet devices and software, safely uncovering vulnerabilities and misconfigurations in them, and identifying device owners so that they can be notified before they are attacked.\r\n\r\nThis project will introduce fundamentally new methodologies in three areas. First, drawing on advances in artificial intelligence and software fuzzing, the project will build new techn",
+    "amount": 750000,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2031",
+    "awardee": "Stanford University",
+    "city": "STANFORD",
+    "state": "CA",
+    "pi": "Zakir Durumeric",
+    "piEmail": "zakir@cs.stanford.edu",
+    "date": "04/02/2026",
+    "sectors": [
+      "ai",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2544116",
+    "title": "CAREER: Generative 4D Simulation with Physical Constraints",
+    "abstract": "This project aims to improve artificial intelligence (AI) systems that predict how three-dimensional environments change over time. Current AI models that generate videos or simulate future events often require massive computing power and routinely violate basic laws of physics, such as allowing solid objects to pass through one another. These flaws make them unsafe for critical real-world applications like medical surgery, robotics, or scientific simulation of future events. This award supports",
+    "amount": 600000,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2031",
+    "awardee": "Regents of the University of Michigan - Ann Arbor",
+    "city": "ANN ARBOR",
+    "state": "MI",
+    "pi": "Jeong Joon Park",
+    "piEmail": "jjparkcv@umich.edu",
+    "date": "03/31/2026",
+    "sectors": [
+      "robotics",
+      "ai",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2542642",
+    "title": "CAREER: Post-Quantum Security and Identity Foundations for Adaptive 6G Infrastructure",
+    "abstract": "Today, wireless networks protect personal information using secret codes called encryption. Soon, a new type of computer called a quantum computer may become powerful enough to crack these codes, putting hospitals, emergency services, banks, and everyday communications at risk. This project aims to make future wireless networks safe from this threat. It builds new ways to lock and protect information that quantum computers cannot break. It also creates systems that can sense when a network is un",
+    "amount": 598956,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2031",
+    "awardee": "Florida Institute of Technology",
+    "city": "MELBOURNE",
+    "state": "FL",
+    "pi": "Abdullah Aydeger",
+    "piEmail": "aaydeger@fit.edu",
+    "date": "04/03/2026",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2544663",
+    "title": "CAREER: Modeling and Mitigating Privacy Risks to Student Data at Higher Education Institutions",
+    "abstract": "Digital technologies are ubiquitous at institutions of higher education. Their use generates enormous amounts of data that could improve teaching and learning processes. However, the accidental leakage or intentional misuse of such data can create severe privacy and safety risks for students and others at these institutions. Thus, the goal of this project is to develop a systematic method for data governance that incorporates formal risk assessments and proactive mitigation techniques. The proje",
+    "amount": 696230,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2031",
+    "awardee": "Arizona State University",
+    "city": "SCOTTSDALE",
+    "state": "AZ",
+    "pi": "Rakibul Hasan",
+    "piEmail": "rakibul.hasan@asu.edu",
+    "date": "04/06/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2545233",
+    "title": "A Generalizable Platform for Adaptive Control of Complex Biological Systems",
+    "abstract": "Researchers who study human diseases or test new drugs often use microfluidic devices that contain embedded cells that mimic the behavior of specific organs.  The usual approach is to make a change in the cells\u2019 environment and observe changes in the health of the cells. This project will expand that approach by finding ways to control the health of the cells as their environment changes.  The project will create an \u201corgan-on-a-controller\u201d system that controls the health and function of human li",
+    "amount": 400000,
+    "startDate": "09/01/2026",
+    "endDate": "08/31/2029",
+    "awardee": "Illinois Institute of Technology",
+    "city": "CHICAGO",
+    "state": "IL",
+    "pi": "Abhinav Bhushan",
+    "piEmail": "abhushan@iit.edu",
+    "date": "01/29/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2548619",
+    "title": "Freeze Induced Protein Instability Driven by Air Water Interfacial Stress",
+    "abstract": "Most ice appears cloudy because tiny air bubbles form as water freezes. The bubbles that form during freezing can damage substances dissolved in the water. This project will focus on damage to substances such as proteins, pharmaceuticals, or vaccines. The project will experimentally control and quantify air bubble formation during freezing and study the impact of reducing air bubble formation on the stability of proteins. The results of this project will improve the shelf life of temperature-sen",
+    "amount": 379887,
+    "startDate": "08/15/2026",
+    "endDate": "07/31/2029",
+    "awardee": "The University of Louisiana at Monroe",
+    "city": "MONROE",
+    "state": "LA",
+    "pi": "Huy Dao",
+    "piEmail": "DAO@ULM.EDU",
+    "date": "03/31/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2548403",
+    "title": "REU Site: Physics at Kansas State University, Interactions of Matter, Light, and Learning",
+    "abstract": "This award supports the Research Experience for Undergraduates (REU) site in Physics at Kansas State University. The site engages eleven students per year in research projects, which include the interaction of laser light with matter at atomic and molecular scales, condensed matter, biophysics, biomanufacturing, investigations of neutrinos and elementary particle collisions, and physics education research. A wide range of projects are available from faculty mentors that involve the undergraduate",
+    "amount": 528092,
+    "startDate": "06/01/2026",
+    "endDate": "05/31/2029",
+    "awardee": "Kansas State University",
+    "city": "MANHATTAN",
+    "state": "KS",
+    "pi": "Loren Greenman",
+    "piEmail": "lgreenman@phys.ksu.edu",
+    "date": "03/11/2026",
+    "sectors": []
+  },
+  {
+    "id": "2552994",
+    "title": "ERI: Engineering perivascular microphysiological systems to discover hydrodynamic signatures of neurodegeneration",
+    "abstract": "Incurable brain diseases, including Alzheimer\u2019s, Parkinson\u2019s, and amyotrophic lateral sclerosis (ALS), are caused by an unhealthy buildup of normal brain waste proteins. Recent research has shown that the brain uses cerebrospinal fluid (CSF), a clear fluid that surrounds and cushions the brain, to flush out these wastes. Waste proteins often build up around arteries, where the fluid pulses with each heartbeat, but not around veins, where the flow is steady. This pattern is puzzling, because \"cle",
+    "amount": 199991,
+    "startDate": "05/15/2026",
+    "endDate": "04/30/2028",
+    "awardee": "Regents of the University of Michigan - Dearborn",
+    "city": "Dearborn",
+    "state": "MI",
+    "pi": "Aditya Raghunandan",
+    "piEmail": "adiraghu@umich.edu",
+    "date": "03/13/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2531787",
+    "title": "EPSCoR Research Fellows: NSF: Proteomic-Environmental Applications for Contaminant Eradication",
+    "abstract": "This Research Infrastructure Improvement (RII) EPSCoR Research Fellows project provides a fellowship to an Associate Professor and training for a graduate student at the University of Kansas Center for Research Inc. This work is conducted in collaboration with Professor Rick Edmondson at the National Resource for Quantitative Proteomics at the University of Arkansas for Medical Sciences. Through the fellowship, the PI will advance the use of proteomic analysis to better understand how soil micro",
+    "amount": 286131,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2028",
+    "awardee": "University of Kansas Center for Research Inc",
+    "city": "LAWRENCE",
+    "state": "KS",
+    "pi": "Justin Hutchison",
+    "piEmail": "jhutch@ku.edu",
+    "date": "03/31/2026",
+    "sectors": []
+  },
+  {
+    "id": "2620577",
+    "title": "Conference: 2026 Centromere Biology Gordon Research Seminar",
+    "abstract": "The sixth Gordon Research Conference (GRC) and Seminar (GRS) on Centromere Biology will be held in Waterville Valley, New Hampshire, July 26\u201331, 2026. This meeting will bring together researchers at all career stages, from graduate students to senior faculty, representing disciplines across genetics, epigenetics, genomics, biochemistry, biophysics, and cell biology, to advance understanding of centromere function and its essential role in chromosome segregation. Sessions will focus on the geneti",
+    "amount": 5000,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2027",
+    "awardee": "Gordon Research Conferences",
+    "city": "EAST GREENWICH",
+    "state": "RI",
+    "pi": "Karen Miga",
+    "piEmail": "khmiga@ucsc.edu",
+    "date": "04/08/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2540612",
+    "title": "CAREER: Carbon Monoxide Sensing, Selectivity, and Signaling in Microbes",
+    "abstract": "The supported project studies how microorganisms sense and respond to carbon monoxide (CO) in the environment. CO garners a poor reputation as an imperceptible and lethal gas; however, CO is also a biological signal generated as a metabolic by-product in nearly all organisms on Earth. Such \u201cendogenously produced\u201d CO regulates cellular processes, including cell growth, cell death, and inflammation. CO is also a metabolic intermediate and nutrient for certain microorganisms, serving as a viable so",
+    "amount": 749702,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2031",
+    "awardee": "Wayne State University",
+    "city": "DETROIT",
+    "state": "MI",
+    "pi": "Matthew Dent",
+    "piEmail": "m.dent@wayne.edu",
+    "date": "03/26/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2536009",
+    "title": "Autonomous Reef Monitoring Structures Resilience: Strengthening coral reefs and food systems",
+    "abstract": "Coral reefs are a critical nexus of many food systems, as a primary source of protein and micronutrients for ~1 billion people, and they are highly sensitive to changing ocean and land conditions, which can deplete their nutritional capacity. Agriculture production is also negatively impacted, particularly in areas experiencing higher levels of drought. Thus, when drought and reef decline occur in tandem, it signals a particularly grave threat to communities, making resilient food systems an imm",
+    "amount": 1288526,
+    "startDate": "03/15/2026",
+    "endDate": "02/28/2029",
+    "awardee": "PERRY INSTITUTE FOR MARINE SCIENCE, INC",
+    "city": "WAITSFIELD",
+    "state": "VT",
+    "pi": "Aaron Hartmann",
+    "piEmail": "ahartmann@perryinstitute.org",
+    "date": "03/09/2026",
+    "sectors": [
+      "defense",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2510196",
+    "title": "Equipment: MRI: Track1 Acquisition of a ZEISS LSM980 Airyscan Confocal Microscope for Plant Research",
+    "abstract": "The Donald Danforth Plant Science Center (DDPSC) has received a grant to purchase a ZEISS LSM 990 Airyscan confocal microscope. This advanced tool will benefit several ongoing research projects and offer new ways for the broader scientific community to study plants through the center\u2019s Advanced Bioimaging Laboratory (ABL). The new microscope will also be used to train scientists at all levels of their careers. The center plans to continue its strong history of mentorship by involving high school",
+    "amount": 783491,
+    "startDate": "03/15/2026",
+    "endDate": "02/28/2029",
+    "awardee": "Donald Danforth Plant Science Center",
+    "city": "SAINT LOUIS",
+    "state": "MO",
+    "pi": "Tessa Burch-Smith",
+    "piEmail": "tburch-smith@danforthcenter.org",
+    "date": "03/19/2026",
+    "sectors": []
+  },
+  {
+    "id": "2538999",
+    "title": "Configuration Mimetic Osteogenic Peptides by Simulation and Machine Learning",
+    "abstract": "Osteoporosis is a disease that weakens bones and makes them susceptible to fracture.  It affects millions of people in the U.S., especially the elderly.  Bone morphogenetic protein-2 (BMP-2) is a protein that can stimulate bone growth, enhance healing of damaged bone, and reduce pain in osteoporosis patients. However, its use is limited by complications such as bone overgrowth and tumor formation.  An alternative is to use short amino acid chains called peptides that mimic the actions of BMP-2 w",
+    "amount": 300000,
+    "startDate": "03/01/2026",
+    "endDate": "02/28/2029",
+    "awardee": "University of South Carolina at Columbia",
+    "city": "COLUMBIA",
+    "state": "SC",
+    "pi": "Esmaiel Jabbari",
+    "piEmail": "jabbari@cec.sc.edu",
+    "date": "03/02/2026",
+    "sectors": [
+      "ai",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2610324",
+    "title": "CAREER: Enzymatic Sulfur Incorporation and Modification in the Biosynthesis of Natural Products",
+    "abstract": "With the support of the Chemistry of Life Processes Program in the Chemistry Division, Jie Li from the University of South Carolina is studying how nature uses enzymes to incorporate and modify sulfur centers in microbial secondary metabolites. These natural products provide a competitive advantage to the producing microbes while also conferring significant fundamental value in medicinal, manufacturing, agricultural applications. In contrast to extensively studied sulfur incorporation in primary",
+    "amount": 865975,
+    "startDate": "02/15/2026",
+    "endDate": "01/31/2028",
+    "awardee": "University of Texas at Austin",
+    "city": "AUSTIN",
+    "state": "TX",
+    "pi": "JIE LI",
+    "piEmail": "jie.li@austin.utexas.edu",
+    "date": "02/09/2026",
+    "sectors": []
+  },
+  {
+    "id": "2618428",
+    "title": "Multiplex Next Generation Sequencing of Glycans and Nucleic Acids for Accelerating the Development of Cell Factories and Bioprocesses for Glycoprotein Biomanufacturing",
+    "abstract": "Glycans consist of long branching chains of different sugars. They adorn proteins of all types. Some viruses use glycans to enhance the probability of infection. Some tumors hide from the immune system by using \u201cstealth\u201d glycoproteins on their surfaces. Most of the top drugs by revenue are glycoproteins, and their glycans affect drug safety and efficacy. This places a premium on making sure that their glycans are well-characterized and carefully managed. The complexity of glycan structures makes",
+    "amount": 609503,
+    "startDate": "02/15/2026",
+    "endDate": "07/31/2028",
+    "awardee": "University of Georgia Research Foundation Inc",
+    "city": "ATHENS",
+    "state": "GA",
+    "pi": "Nathan Lewis",
+    "piEmail": "natelewis@uga.edu",
+    "date": "02/24/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2502719",
+    "title": "PPM - How Is Protein Arginine Methylation Coordinated with Other Modifications to Effect Biological Function",
+    "abstract": "With this award, the Chemistry of Life Processes Program in the Chemistry Division is funding Dr. Steven Clarke from the University of California, Los Angeles to investigate how organisms enhance their resilience and survival by modifying proteins inside cells.  Proteins are long chains of amino acids that are folded in precise manners to carry out their functions inside cells.  Organisms have also developed ways of modifying specific amino acids to expand \u201cnature\u2019s inventory\u201d of chemical struct",
+    "amount": 830581,
+    "startDate": "02/01/2026",
+    "endDate": "01/31/2029",
+    "awardee": "University of California-Los Angeles",
+    "city": "LOS ANGELES",
+    "state": "CA",
+    "pi": "Steven Clarke",
+    "piEmail": "clarke@mbi.ucla.edu",
+    "date": "01/27/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2618512",
+    "title": "Collaborative Research: NSF MPS/DMS-EPSRC: Stochastic Shape Processes and Inference",
+    "abstract": "The intimate link between form, or shape, and function is ubiquitous in science. In biology, for instance, the shapes of biological components are pivotal in understanding patterns of normal behavior and growth; a notable example is protein shape, which contributes to our understanding of protein function and classification. This project, led by a team of investigators from the USA and the UK, will develop ways of modeling how biological and other shapes change with time, using formal statistica",
+    "amount": 200000,
+    "startDate": "01/15/2026",
+    "endDate": "07/31/2027",
+    "awardee": "Johns Hopkins University",
+    "city": "BALTIMORE",
+    "state": "MD",
+    "pi": "Anuj Srivastava",
+    "piEmail": "anuj@stat.fsu.edu",
+    "date": "04/01/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2614036",
+    "title": "CAREER: Exploring the Differentiation of Mesenchymal Stem Cell to Chondrocytes After Electrospraying",
+    "abstract": "The overarching goal of this research is to find a new and effective way to turn stem cells, cells that have the potential to be transformed/differentiated into any type of cell, into chondrocytes, a specific type of cell that is important for cartilage repair.  The focus of this Faculty Early Career Development project is on exploring a technique called electrospraying, where electricity and mechanical forces (rather than special/usually expensive differentiating media) are used to guide the tr",
+    "amount": 604047,
+    "startDate": "01/01/2026",
+    "endDate": "07/31/2029",
+    "awardee": "Wright State University",
+    "city": "DAYTON",
+    "state": "OH",
+    "pi": "Nasim Nosoudi",
+    "piEmail": "nosoudi@marshall.edu",
+    "date": "02/11/2026",
+    "sectors": []
+  },
+  {
+    "id": "2606308",
+    "title": "CAREER: Defining structural principles for the engineering and evolution of allostery",
+    "abstract": "Proteins are nanometer-scale molecules whose composition and shape are specified by genes. Inside the cell, they catalyze chemical reactions, perform mechanical work, and assemble into larger structures. The collective action of very many proteins drives cell growth, division, and movement. Proteins are often controlled by external signals \u2013 for example, adding a nutrient to the cellular environment might turn a protein \u201con\u201d or \u201coff\u201d by binding to the protein and altering its shape or dynamics. ",
+    "amount": 1099999,
+    "startDate": "10/01/2025",
+    "endDate": "05/31/2026",
+    "awardee": "Johns Hopkins University",
+    "city": "BALTIMORE",
+    "state": "MD",
+    "pi": "Kimberly Reynolds",
+    "piEmail": "kreynolds@jhu.edu",
+    "date": "01/15/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2622018",
+    "title": "CAREER: Mechanistic studies of cilium proteins in cell signaling",
+    "abstract": "This award is funded in whole or in part under the American Rescue Plan Act of 2021 (Public Law 117-2).\r\n\r\nMost cells in our body have a primary cilium (a single hair-like projection on their cell surface) that allows them to interact with each other via chemical signals. This ancient and mysterious organelle acts like a radio antenna, allowing cells to receive different information, depending on which kinds of receptors their antenna contains. Gene mutations affecting ciliary signaling have bee",
+    "amount": 1371381,
+    "startDate": "10/01/2025",
+    "endDate": "12/31/2026",
+    "awardee": "University of California-Riverside",
+    "city": "RIVERSIDE",
+    "state": "CA",
+    "pi": "Xuecai Ge",
+    "piEmail": "xuecaig@ucr.edu",
+    "date": "03/23/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2609947",
+    "title": "REU Site: Graph Learning and Network Analysis: from Foundations to Applications (GraLNA)",
+    "abstract": "This project establishes a new Research Experiences for Undergraduates (REU) Site hosted by the Department of Computer Science at UNC Greensboro. Ten students will receive research training each summer in the foundations of graph machine learning and network analysis and their concrete applications in real-life networks. Graphs and networks have become ubiquitous in various scientific disciplines ranging from the Internet of Things, online social networks, brain networks, and molecules to protei",
+    "amount": 371995,
+    "startDate": "10/01/2025",
+    "endDate": "12/31/2026",
+    "awardee": "Old Dominion University Research Foundation",
+    "city": "NORFOLK",
+    "state": "VA",
+    "pi": "Chunjiang Zhu",
+    "piEmail": "czhu@cs.odu.edu",
+    "date": "01/20/2026",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2602733",
+    "title": "Conference: Several Complex Variables and Complex Geometry: A Satellite Conference of the 2026 ICM in Philadelphia",
+    "abstract": "This award provides partial support for \u201cSeveral Complex Variables and Complex Geometry: A Satellite Conference of the 2026 ICM in Philadelphia\u201d which will be held at Rutgers University in New Brunswick, New Jersey, from July 17\u201321, 2026.  The event will serve as an excellent platform to highlight recent and exciting advances in the field, offering a broader scientific perspective on Several Complex Variables and Complex Geometry. This important area of mathematics has experienced remarkable pro",
+    "amount": 25000,
+    "startDate": "07/01/2026",
+    "endDate": "06/30/2027",
+    "awardee": "Rutgers University New Brunswick",
+    "city": "NEW BRUNSWICK",
+    "state": "NJ",
+    "pi": "Xiaojun Huang",
+    "piEmail": "huangx@math.rutgers.edu",
+    "date": "04/08/2026",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2606135",
+    "title": "Conference: Summer Symposium in Real Analysis 48",
+    "abstract": "From June 14\u201320, 2026, Washington University in St. Louis will host the 48th Summer Symposium in Real Analysis (SSRA48), an official satellite conference of the International Congress of Mathematicians. For nearly five decades, this annual global symposium has brought together mathematicians from around the world to share ideas, train young researchers, and foster long-term collaborations. By returning the Symposium to the United States for the first time since 2019, SSRA48 will significantly ex",
+    "amount": 23000,
+    "startDate": "06/01/2026",
+    "endDate": "05/31/2027",
+    "awardee": "Washington University",
+    "city": "SAINT LOUIS",
+    "state": "MO",
+    "pi": "Alan Chang",
+    "piEmail": "alanchang@wustl.edu",
+    "date": "03/25/2026",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2609489",
+    "title": "Conference: ICM 2026 Satellite Conference on Moduli of Galois Representations and the p-adic Local Langlands Correspondence",
+    "abstract": "This award supports participation at 2026 ICM Satellite Conference on Moduli of Galois Representations and the p-adic Local Langlands Correspondence, a research conference in mathematics that will be hosted by the University of Utah Department of Mathematics the week of August 10-14, 2026. It will provide a unique training opportunity for US mathematicians by bringing together leading experts in several rapidly-developing areas of number theory to describe the newest advances in the field. In ad",
+    "amount": 49950,
+    "startDate": "06/01/2026",
+    "endDate": "05/31/2027",
+    "awardee": "University of Utah",
+    "city": "SALT LAKE CITY",
+    "state": "UT",
+    "pi": "Sean Howe",
+    "piEmail": "sean.howe@utah.edu",
+    "date": "03/25/2026",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2603356",
+    "title": "Conference: Analysis of Partial Differential Equations arising in Physics - A satellite conference of the 2026 International Congress of Mathematicians",
+    "abstract": "This award supports participation in the conference \"Analysis of Partial Differential Equations arising in Physics\" held July 13-16, 2026 at Rutgers University in New Brunswick, NJ. The conference is a satellite event for the 2026 International Congress of Mathematicians taking place July 2026 in Philadelphia, PA. By leveraging the excellent research environment of the northeastern United States, the event gathers global experts and early-career researchers to study the equations governing fluid",
+    "amount": 22500,
+    "startDate": "05/01/2026",
+    "endDate": "04/30/2027",
+    "awardee": "Rutgers University New Brunswick",
+    "city": "NEW BRUNSWICK",
+    "state": "NJ",
+    "pi": "Maxime Van de Moortel",
+    "piEmail": "mv715@rutgers.edu",
+    "date": "04/13/2026",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2610157",
+    "title": "Collaborative Research: RAPID: Drivers and implications of recent rapid sea ice decline in the Ross Sea",
+    "abstract": "This project will advance the understanding of causes and implications of recent extreme sea ice variability in the Antarctic through development of a research and logistical partnership with New Zealand. We focus on the Ross Sea as an area of strategic interest for the US and New Zealand, a major locus of recent variability, and as a key area of significance to global ocean circulation and intact ecosystem food webs, motivating the establishment of the Ross Sea Marine Protected Area (MPA). Unde",
+    "amount": 44000,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2027",
+    "awardee": "University of Washington",
+    "city": "SEATTLE",
+    "state": "WA",
+    "pi": "Edward Blanchard-Wrigglesworth",
+    "piEmail": "edwardbw@uw.edu",
+    "date": "04/13/2026",
+    "sectors": []
+  },
+  {
+    "id": "2610153",
+    "title": "Collaborative Research: RAPID: Drivers and implications of recent rapid sea ice decline in the Ross Sea",
+    "abstract": "This project will advance the understanding of causes and implications of recent extreme sea ice variability in the Antarctic through development of a research and logistical partnership with New Zealand. We focus on the Ross Sea as an area of strategic interest for the US and New Zealand, a major locus of recent variability, and as a key area of significance to global ocean circulation and intact ecosystem food webs, motivating the establishment of the Ross Sea Marine Protected Area (MPA). Unde",
+    "amount": 45673,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2027",
+    "awardee": "Woods Hole Oceanographic Institution",
+    "city": "WOODS HOLE",
+    "state": "MA",
+    "pi": "Ted Maksym",
+    "piEmail": "tmaksym@whoi.edu",
+    "date": "04/13/2026",
+    "sectors": []
+  },
+  {
+    "id": "2610155",
+    "title": "Collaborative Research: RAPID: Drivers and implications of recent rapid sea ice decline in the Ross Sea",
+    "abstract": "This project will advance the understanding of causes and implications of recent extreme sea ice variability in the Antarctic through development of a research and logistical partnership with New Zealand. We focus on the Ross Sea as an area of strategic interest for the US and New Zealand, a major locus of recent variability, and as a key area of significance to global ocean circulation and intact ecosystem food webs, motivating the establishment of the Ross Sea Marine Protected Area (MPA). Unde",
+    "amount": 22000,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2027",
+    "awardee": "University of California-Los Angeles",
+    "city": "LOS ANGELES",
+    "state": "CA",
+    "pi": "Marilyn Raphael",
+    "piEmail": "raphael@geog.ucla.edu",
+    "date": "04/13/2026",
+    "sectors": []
+  },
+  {
+    "id": "2610156",
+    "title": "Collaborative Research: RAPID: Drivers and implications of recent rapid sea ice decline in the Ross Sea",
+    "abstract": "This project will advance the understanding of causes and implications of recent extreme sea ice variability in the Antarctic through development of a research and logistical partnership with New Zealand. We focus on the Ross Sea as an area of strategic interest for the US and New Zealand, a major locus of recent variability, and as a key area of significance to global ocean circulation and intact ecosystem food webs, motivating the establishment of the Ross Sea Marine Protected Area (MPA). Unde",
+    "amount": 29999,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2027",
+    "awardee": "University of Maryland, College Park",
+    "city": "COLLEGE PARK",
+    "state": "MD",
+    "pi": "Rachel Tilling",
+    "piEmail": "rtillin9@umd.edu",
+    "date": "04/13/2026",
+    "sectors": []
+  },
+  {
+    "id": "2610158",
+    "title": "Collaborative Research: RAPID: Drivers and implications of recent rapid sea ice decline in the Ross Sea",
+    "abstract": "This project will advance the understanding of causes and implications of recent extreme sea ice variability in the Antarctic through development of a research and logistical partnership with New Zealand. We focus on the Ross Sea as an area of strategic interest for the US and New Zealand, a major locus of recent variability, and as a key area of significance to global ocean circulation and intact ecosystem food webs, motivating the establishment of the Ross Sea Marine Protected Area (MPA). Unde",
+    "amount": 36000,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2027",
+    "awardee": "University of Alaska Fairbanks Campus",
+    "city": "FAIRBANKS",
+    "state": "AK",
+    "pi": "Andrew Mahoney",
+    "piEmail": "armahoney@alaska.edu",
+    "date": "04/13/2026",
+    "sectors": []
+  },
+  {
+    "id": "2610154",
+    "title": "Collaborative Research: RAPID: Drivers and implications of recent rapid sea ice decline in the Ross Sea",
+    "abstract": "This project will advance the understanding of causes and implications of recent extreme sea ice variability in the Antarctic through development of a research and logistical partnership with New Zealand. We focus on the Ross Sea as an area of strategic interest for the US and New Zealand, a major locus of recent variability, and as a key area of significance to global ocean circulation and intact ecosystem food webs, motivating the establishment of the Ross Sea Marine Protected Area (MPA). Unde",
+    "amount": 21981,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2027",
+    "awardee": "University of Wisconsin-Madison",
+    "city": "MADISON",
+    "state": "WI",
+    "pi": "Matthew Lazzara",
+    "piEmail": "mattl@ssec.wisc.edu",
+    "date": "04/13/2026",
+    "sectors": []
+  },
+  {
+    "id": "2549574",
+    "title": "Deep root-zone controls on forest productivity and drought recovery",
+    "abstract": "After drought ends, forests do not always recover as quickly as rainfall does. For example, trees may continue to grow slowly, and streamflow may remain lower than expected even when wet conditions return. The uncertainty underlying these delayed responses has implications for projections of water supply and management of forests. This project will improve understanding of forest response to drought, support student research training, and inform forest management practices.\r\n\r\nSeveral mechanisms",
+    "amount": 483157,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2029",
+    "awardee": "University of Texas at Austin",
+    "city": "AUSTIN",
+    "state": "TX",
+    "pi": "Daniella Rempe",
+    "piEmail": "rempe@jsg.utexas.edu",
+    "date": "04/10/2026",
+    "sectors": []
+  },
+  {
+    "id": "2619099",
+    "title": "Collaborative Research: DASI Track 1--AUtonomous Remote geospace Observation and Research Array (AURORA)",
+    "abstract": "High-latitude and polar regions present a unique set of challenges for continuous observations because of their remoteness and extreme and harsh environments. This project seeks to develop the next generation of small, low-power, autonomous, multi-instrument adaptive, ground-based geospace observation arrays, named AUtonomous Remote Geospace Observation and Research Array (AURORA). It is designed to fill large gaps in the currently existing ground-based instrument arrays in the high-latitude and",
+    "amount": 1632000,
+    "startDate": "04/15/2026",
+    "endDate": "08/31/2028",
+    "awardee": "University of Texas at Arlington",
+    "city": "ARLINGTON",
+    "state": "TX",
+    "pi": "Zhonghua Xu",
+    "piEmail": "zhonghua.xu@uta.edu",
+    "date": "04/08/2026",
+    "sectors": [
+      "defense",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2540491",
+    "title": "Conference: Conformal geometry, Einstein manifolds, and minimal submanifolds",
+    "abstract": "This award supports the ICM Satellite Conference on \u201cConformal Geometry, Einstein Manifolds, and Minimal Submanifolds\u201d, to be held at The Pennsylvania State University in University Park, PA, during July 13-17, 2026.  This conference will feature talks by approximately 30 leading experts from around the world doing work in these closely-related fields.  The meeting will also provide valuable opportunities for junior participants to present their work to and interact with senior mathematicians.\r\n",
+    "amount": 30000,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2027",
+    "awardee": "Pennsylvania State Univ University Park",
+    "city": "UNIVERSITY PARK",
+    "state": "PA",
+    "pi": "Jeffrey Case",
+    "piEmail": "jqc5026@psu.edu",
+    "date": "04/03/2026",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2554680",
+    "title": "Conference: Geometry and Dynamics of Discrete Actions in Cuernevaca",
+    "abstract": "The conference \u201cGeometry and Dynamics of Discrete Actions\u201d will be held at the Mathematics Institute of the National University of Mexico in Cuernavaca, during the week of June 15\u201320, 2026. This event is an official satellite conference of the International Congress of Mathematicians (ICM), the premier international mathematics gathering, hosted in the United States for the first time in 40 years. The study of discrete group actions remains at the heart of several key areas of modern mathematics",
+    "amount": 20000,
+    "startDate": "04/15/2026",
+    "endDate": "03/31/2027",
+    "awardee": "Regents of the University of Michigan - Ann Arbor",
+    "city": "ANN ARBOR",
+    "state": "MI",
+    "pi": "Richard Canary",
+    "piEmail": "canary@umich.edu",
+    "date": "04/06/2026",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2529754",
+    "title": "EAGER: Developing the Wave Distribution Function Method for RBSP Wave Data Analysis",
+    "abstract": "Plasma waves are common in the space environment around Earth and influence the behavior of energetic particles that can affect satellites and other technologies. Current methods often assume that these waves travel in a single direction, but observations show that many waves move in multiple directions and arise from different physical processes. This work will develop new computational methods to determine the full range of directions in which plasma waves propagate. Improving these measuremen",
+    "amount": 299614,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2028",
+    "awardee": "University of California-Los Angeles",
+    "city": "LOS ANGELES",
+    "state": "CA",
+    "pi": "Jacob Bortnik",
+    "piEmail": "jbortnik@atmos.ucla.edu",
+    "date": "03/18/2026",
+    "sectors": [
+      "space",
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2530422",
+    "title": "NSF-SNSF: Interactions of Gravity Waves and Tides in the Mesosphere and Lower Thermosphere",
+    "abstract": "This project investigates the complex \"weather\" of the upper atmosphere, specifically in the region above 80 km. This is referred to as mesosphere, and lower thermosphere, and ionosphere (MLTI). While often invisible to the naked eye, the MLTI encompasses a turbulent region where large-scale atmospheric tides and smaller-scale gravity waves\u2014ripples of energy that originate in the lower atmosphere. Understanding how these waves and tides interact is essential, as these dynamics directly influence",
+    "amount": 500000,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2029",
+    "awardee": "Embry-Riddle Aeronautical University",
+    "city": "DAYTONA BEACH",
+    "state": "FL",
+    "pi": "Alan Liu",
+    "piEmail": "alan.liu@erau.edu",
+    "date": "03/30/2026",
+    "sectors": []
+  },
+  {
+    "id": "2533277",
+    "title": "Mechanisms of Hydroxyl Energy Transfer in Upper Atmospheric Nightglow",
+    "abstract": "Earth\u2019s upper atmosphere emanates a faint luminescence known as airglow. This non-thermal radiation occurs at altitudes from about 50 to 300 km and is initiated by solar radiation absorbed by atmospheric constituents. Light emission observed during the day is called dayglow. A plethora of photochemical processes and excitation pathways persist through the night and collectively result in emission called nightglow. The OH Meinel band emission, named after American astronomer Aden B. Meinel, is a ",
+    "amount": 540000,
+    "startDate": "04/01/2026",
+    "endDate": "03/31/2029",
+    "awardee": "SRI International",
+    "city": "MENLO PARK",
+    "state": "CA",
+    "pi": "Konstantinos Kalogerakis",
+    "piEmail": "ksk@sri.com",
+    "date": "03/26/2026",
+    "sectors": []
+  },
+  {
+    "id": "2615422",
+    "title": "Space Weather Workshop 2026",
+    "abstract": "Space weather, or the variable conditions in near-Earth space environment, can disrupt technologies that people rely on every day, including GPS navigation, satellite communications, power grids, and aviation. The annual Space Weather Workshop is the nation\u2019s leading forum for connecting space weather research with real world applications. It brings together scientists, engineers, students, government agencies, and industry representatives to share knowledge, discuss challenges, and improve our ",
+    "amount": 35000,
+    "startDate": "03/15/2026",
+    "endDate": "02/28/2027",
+    "awardee": "University Corporation For Atmospheric Res",
+    "city": "BOULDER",
+    "state": "CO",
+    "pi": "Hanne Mauriello",
+    "piEmail": "hanne@ucar.edu",
+    "date": "03/24/2026",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2541020",
+    "title": "CAREER: Hunting Magnetic Fingerprints on the Sun--A Tale of Flare-Jet Connections",
+    "abstract": "Solar flares are sudden releases of energy from the Sun\u2019s magnetic field that can disrupt satellite operations, radio communication, GPS signals, and other space-based technologies. A major challenge is that scientists still lack reliable short-notice warnings for when a flare is about to begin. This CAREER project studies fast, small-scale activity in the Sun\u2019s lower atmosphere, including chromospheric jets and compact brightenings that may appear shortly before flares. By identifying repeatabl",
+    "amount": 638450,
+    "startDate": "03/15/2026",
+    "endDate": "02/28/2031",
+    "awardee": "New Mexico State University",
+    "city": "LAS CRUCES",
+    "state": "NM",
+    "pi": "Juie Shetye",
+    "piEmail": "jshetye@nmsu.edu",
+    "date": "03/23/2026",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2554571",
+    "title": "Conference: ICM2026 Satellite Conference: Southeastern Lie Theory Workshop XVI",
+    "abstract": "The award will support the five-day ICM satellite conference \u201cAlgebraic and Geometric Representation Theory,\u201d which will take place at the University of Virginia in Charlottesville, VA from July 17-21, 2026. The conference will include fifteen plenary lectures covering topics in algebraic and geometric representation theory. These talks by leading researchers will provide potential directions for participating graduate students and junior researchers to enhance their research programs. Another k",
+    "amount": 40000,
+    "startDate": "03/15/2026",
+    "endDate": "02/28/2027",
+    "awardee": "North Carolina State University",
+    "city": "RALEIGH",
+    "state": "NC",
+    "pi": "Kailash Misra",
+    "piEmail": "misra@math.ncsu.edu",
+    "date": "03/12/2026",
+    "sectors": [
+      "space"
+    ]
+  },
+  {
+    "id": "2536549",
+    "title": "FIRE-WUI: Community Resilience Assessment Framework for Wildfires using Multi-Resolution Digital Twins",
+    "abstract": "Wildfires pose a growing threat to communities across the US, particularly in areas where homes and natural landscapes meet, known as the Wildland-Urban Interface (WUI). Each year, more than 60,000 wildfires occur in the US, often resulting in tragic loss of life, destruction of homes, and severe economic disruption. Effective wildfire response and prevention efforts are hindered by a lack of detailed, up-to-date information about vegetation and buildings in these high-risk areas. To address the",
+    "amount": 2491133,
+    "startDate": "02/01/2026",
+    "endDate": "01/31/2029",
+    "awardee": "Purdue University",
+    "city": "WEST LAFAYETTE",
+    "state": "IN",
+    "pi": "Ayman Habib",
+    "piEmail": "ahabib@purdue.edu",
+    "date": "01/30/2026",
+    "sectors": []
+  },
+  {
+    "id": "2618300",
+    "title": "Collaborative Research: GEM--How Upstream Solar Wind Conditions Determine the Properties of the Foreshock Backstreaming Ions",
+    "abstract": "The interaction of the solar wind and the Earth's magnetic field created a collisionless shock called a bow shock in front of the Earth's magnetosphere.  The incident particles can be accelerated and reflected at the bow shock, resulting in their counter-streaming along field lines and interacting with the local plasma.  Earth's bow shock is a natural laboratory to study the complex interactions between the incident solar wind and the counter-streaming foreshock populations.   This study aims to",
+    "amount": 229577,
+    "startDate": "02/01/2026",
+    "endDate": "07/31/2026",
+    "awardee": "Embry-Riddle Aeronautical University",
+    "city": "DAYTONA BEACH",
+    "state": "FL",
+    "pi": "Kun Zhang",
+    "piEmail": "kzhang@epss.ucla.edu",
+    "date": "03/25/2026",
+    "sectors": [
+      "nuclear"
+    ]
+  },
+  {
+    "id": "2612002",
+    "title": "GEM: Quantifying Electron Microburst Precipitation Associated with Chorus Waves in the Earth's Inner Magnetosphere",
+    "abstract": "Microburst precipitation is a key loss mechanism for electrons in the Earth\u2019s inner magnetosphere and a significant energy source for the ionosphere. Chorus waves play a crucial role in driving electron microbursts. This study employs a simulation model to quantify microburst generation by chorus waves. The project will have a broader impact on human communication, as electron microbursts enhance ionospheric electron density, altering conductivity and consequently affecting communication signals",
+    "amount": 635942,
+    "startDate": "01/15/2026",
+    "endDate": "07/31/2029",
+    "awardee": "University of Texas at Dallas",
+    "city": "RICHARDSON",
+    "state": "TX",
+    "pi": "Huayue Chen",
+    "piEmail": "hzc0129@auburn.edu",
+    "date": "02/13/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2435515",
+    "title": "RESEARCH-PGR: Genomic and Regulatory Processes Associated with Drought-stress and Environment in Oaks (The Stress Project)",
+    "abstract": "In 2013\u20132015, 20% of California\u2019s forest cover was lost as a result of drought and wildfire. Because trees are ecologically crucial and economically valuable as timber for construction and furniture, forest management will benefit from knowledge of basic science about the epigenomic basis of tree response to drought. The overarching aims are to utilize natural populations of a widespread California oak, Quercus lobata (valley oak) to compare ecophysiological response to drought in trees adapted ",
+    "amount": 300000,
+    "startDate": "03/01/2026",
+    "endDate": "02/28/2029",
+    "awardee": "University of California-Los Angeles",
+    "city": "LOS ANGELES",
+    "state": "CA",
+    "pi": "Victoria Sork",
+    "piEmail": "vlsork@ucla.edu",
+    "date": "02/23/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2516843",
+    "title": "Collaborative Research: Linking phenotypes and genomes to environmental maladaptation in two contrasting oak species",
+    "abstract": "Oaks dominate many ecosystems of California and the United States, making them crucial to biodiversity and economically valuable for timber products, such as lumber and furniture wood. Recent research has demonstrated that oaks are maladapted to current environmental conditions, being better adapted to cooler environments present 20,000 years ago. This unexpected maladaptation results in tree mortality, reduced growth, and increased susceptibility to pathogens. The project investigates the under",
+    "amount": 367034,
+    "startDate": "02/01/2026",
+    "endDate": "01/31/2030",
+    "awardee": "University of California-Los Angeles",
+    "city": "LOS ANGELES",
+    "state": "CA",
+    "pi": "Victoria Sork",
+    "piEmail": "vlsork@ucla.edu",
+    "date": "01/29/2026",
+    "sectors": []
+  },
+  {
+    "id": "2516844",
+    "title": "Collaborative Research: Linking phenotypes and genomes to environmental maladaptation in two contrasting oak species",
+    "abstract": "Oaks dominate many ecosystems of California and the United States, making them crucial to biodiversity and economically valuable for timber products, such as lumber and furniture wood. Recent research has demonstrated that oaks are maladapted to current environmental conditions, being better adapted to cooler environments present 20,000 years ago. This unexpected maladaptation results in tree mortality, reduced growth, and increased susceptibility to pathogens. The project investigates the under",
+    "amount": 963864,
+    "startDate": "02/01/2026",
+    "endDate": "01/31/2030",
+    "awardee": "University of California-Santa Barbara",
+    "city": "SANTA BARBARA",
+    "state": "CA",
+    "pi": "Leander Anderegg",
+    "piEmail": "landeregg@ucsb.edu",
+    "date": "01/29/2026",
+    "sectors": []
+  },
+  {
+    "id": "2618378",
+    "title": "Collaborative Research: Edge CMT:  Polygenic traits of heat stress phenome in coral \"dark genes\" from genome to functional applications",
+    "abstract": "In this project, the researchers will use genomics, genetics, and cell biology to understand the function of coral genes during heat stress. Thermal stress often causes the \u201cbleaching\u201d (whitening) of corals that is harming reefs worldwide and is a threat to marine biodiversity. Genes are the functional unit of DNA and how the coral reacts to heat stress is called its phenotype. There are many genes involved in achieving the heat response phenotype and they will be studied in this project. This i",
+    "amount": 603400,
+    "startDate": "01/01/2026",
+    "endDate": "11/30/2026",
+    "awardee": "University of California-Berkeley",
+    "city": "BERKELEY",
+    "state": "CA",
+    "pi": "Phillip Cleves",
+    "piEmail": "cleves@carnegiescience.edu",
+    "date": "02/24/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2621718",
+    "title": "Collaborative: AccelNet: Global Union of Bat Diversity Networks (GBatNet): Bats as a model for understanding global vertebrate diversification and sustainability",
+    "abstract": "Bats play critical roles in ecosystems globally. However, key aspects of bat biology, from the causes and consequences of population declines to their ability to transmit viruses to people, remain poorly understood. This AccelNet project establishes the Global Union of Bat Diversity Networks (GBatNet) to fill key knowledge gaps and create an international structure to accelerate discoveries across disciplines and borders. The network of networks fosters new avenues for global research exchange t",
+    "amount": 1278044,
+    "startDate": "10/01/2025",
+    "endDate": "09/30/2026",
+    "awardee": "University of Illinois at Urbana-Champaign",
+    "city": "URBANA",
+    "state": "IL",
+    "pi": "Tigga Kingston",
+    "piEmail": "tiggak@illinois.edu",
+    "date": "03/26/2026",
+    "sectors": []
+  },
+  {
+    "id": "2619530",
+    "title": "Evolutionary and neurogenomic mechanisms of species discrimination during character displacement",
+    "abstract": "Speciation is a fundamental evolutionary process by which new species form. Behavioral isolation often plays a key role in speciation and occurs when mismatches in mating traits (signals and/or discrimination of those signals) prevent closely related species from interbreeding. The relative importance of changes in signals versus changes in signal discrimination to behavioral isolation remains unknown, as studying cognitive traits such as discrimination has traditionally posed a major challenge ",
+    "amount": 1297896,
+    "startDate": "10/01/2025",
+    "endDate": "06/30/2028",
+    "awardee": "University of Chicago",
+    "city": "CHICAGO",
+    "state": "IL",
+    "pi": "Rachel Moran",
+    "piEmail": "rlmoran@tamu.edu",
+    "date": "03/12/2026",
+    "sectors": [
+      "biotech"
+    ]
+  },
+  {
+    "id": "2550877",
+    "title": "Examining the Role of District Science Coordinator Professional Learning in Supporting and Retaining Science Teachers",
+    "abstract": "The project aims to serve the national need of supporting and retaining science teachers by exploring how the professional learning (PL) of District Science Coordinators (DSCs) impacts, if at all, the effectiveness and retention of new science teachers in high-need schools. There are a variety of factors influencing why new teachers stay or leave teaching; one factor not investigated is the role of DSCs in supporting teachers. With well-prepared DSCs, new science teachers could be better support",
+    "amount": 999995,
+    "startDate": "10/01/2026",
+    "endDate": "11/30/2027",
+    "awardee": "University of South Carolina at Columbia",
+    "city": "COLUMBIA",
+    "state": "SC",
+    "pi": "Brooke Whitworth",
+    "piEmail": "bwhit@sc.edu",
+    "date": "01/16/2026",
+    "sectors": []
+  },
+  {
     "id": "2542666",
     "title": "CAREER: Structure and Incentives for Eliciting and Aggregating Information",
     "abstract": "People, organizations, and automated systems all need to base their decisions on information. But good information is often broadly distributed, expensive to obtain, and difficult to piece together. This project lays out the theoretical foundations for this problem and how to solve it. First, it will study how to evaluate quality, correctness, and economic value of information. This part also studies the design of loss functions in machine learning and includes writing an educational text. Secon",
@@ -1356,6 +1845,55 @@
     "pi": "Bo Waggoner",
     "piEmail": "bwag@colorado.edu",
     "date": "03/26/2026",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2548467",
+    "title": "REU Site: Engineers for Exploration",
+    "abstract": "Engineers for Exploration is an experiential program that enables undergraduates to conduct computer systems research that addresses technology gaps in scientific exploration. These undergraduates are provided with an impactful research project, supported by a multi-tiered mentor network and structured collaboration with researchers, scientists, and explorers. Research problems they get to work on are framed by real-world, high-impact applications, providing participants with an inspiring, multi",
+    "amount": 520337,
+    "startDate": "10/01/2026",
+    "endDate": "09/30/2029",
+    "awardee": "University of California-San Diego",
+    "city": "LA JOLLA",
+    "state": "CA",
+    "pi": "Ryan Kastner",
+    "piEmail": "kastner@ucsd.edu",
+    "date": "04/14/2026",
+    "sectors": []
+  },
+  {
+    "id": "2547822",
+    "title": "REU SITE: DIAMONDS: Directed, Intensive and Mentored Opportunities in Data Science",
+    "abstract": "This award supports an on-campus summer research program at Tufts University on Directed, Intensive and Mentored Opportunities in Data Science. Each summer, 10 undergraduates from across the country come to Tufts and complete a 10-week research project with a faculty mentor. Projects cover a broad range of data science and machine learning, from theoretical foundations to applications in computational biology, healthcare, and cyber-security. Participants work closely with their dedicated mentor ",
+    "amount": 465000,
+    "startDate": "10/01/2026",
+    "endDate": "09/30/2029",
+    "awardee": "Tufts University",
+    "city": "MEDFORD",
+    "state": "MA",
+    "pi": "Michael Hughes",
+    "piEmail": "michael.hughes@tufts.edu",
+    "date": "04/13/2026",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2548190",
+    "title": "REU Site: AI Research for Intelligent Systems and Efficiency",
+    "abstract": "Artificial Intelligence (AI) serves as a strategic engine for economic growth, national security, and global competitiveness. This project establishes a Research Experiences for Undergraduates (REU) site, AI Research for Intelligent Systems and Efficiency (ARISE), in the Electrical and Computer Engineering Department at the University of Arizona. The project recruits and trains eight undergraduate students each summer, engaging them in immersive research at the intersection of AI applications, e",
+    "amount": 498627,
+    "startDate": "10/01/2026",
+    "endDate": "09/30/2029",
+    "awardee": "University of Arizona",
+    "city": "TUCSON",
+    "state": "AZ",
+    "pi": "Huanrui Yang",
+    "piEmail": "huanruiyang@arizona.edu",
+    "date": "04/14/2026",
     "sectors": [
       "ai"
     ]
@@ -1379,19 +1917,104 @@
     ]
   },
   {
-    "id": "2620522",
-    "title": "Conference: Horizons in Descriptive Set Theory",
-    "abstract": "This award supports participants  of conference \"Horizons in Descriptive Set Theory\" that will take place at Cornell University from October 10-12, 2026.  Descriptive set theory is a branch of mathematics which develops tools for understanding and manipulating infinite sets, particularly in settings where other mathematical structure, such as algebra or geometry, is either not present or minimized.  These methods have nevertheless proved very fruitful in yielding new insight into other areas of ",
-    "amount": 30400,
+    "id": "2548201",
+    "title": "REU Site: Novel Techniques and Applications in Catalysis Research Development and Molecular Dynamics",
+    "abstract": "This Research Experiences for Undergraduates (REU) site award to University of Pennsylvania, located in Philadelphia, PA, supports the training of 10 students for 10 weeks during the summers of 2027\u20132029. In this program, participants pursue collaborative research projects, resulting in the development of new catalysts providing alternatives that address pressing chemistry needs and ultimately lower energy costs, diminish waste, and contribute cost and resource efficient systems to meet today\u2019s ",
+    "amount": 463725,
     "startDate": "09/01/2026",
-    "endDate": "08/31/2027",
-    "awardee": "Cornell University",
-    "city": "ITHACA",
-    "state": "NY",
-    "pi": "Justin Moore",
-    "piEmail": "justin@math.cornell.edu",
-    "date": "04/07/2026",
+    "endDate": "08/31/2029",
+    "awardee": "University of Pennsylvania",
+    "city": "PHILADELPHIA",
+    "state": "PA",
+    "pi": "Patrick Walsh",
+    "piEmail": "pwalsh@sas.upenn.edu",
+    "date": "03/17/2026",
     "sectors": []
+  },
+  {
+    "id": "2542612",
+    "title": "CAREER: Quantum-Inspired Dynamic Control in Composite Metastructures with Long-Range Coupling",
+    "abstract": "This Faculty Early Career Development Program (CAREER) award will support research to create innovative strategies for controlling vibrations in critical structures such as bridges, buildings, and aircraft, where uncontrolled vibrations can lead to severe damage, safety risks, and economic losses. Current approaches often fail to detect and manage these vibrations in time. This project will establish a novel system capable of both localizing vibrations to prevent their spread and measuring their",
+    "amount": 596099,
+    "startDate": "09/01/2026",
+    "endDate": "08/31/2031",
+    "awardee": "University of Vermont & State Agricultural College",
+    "city": "BURLINGTON",
+    "state": "VT",
+    "pi": "Jihong Ma",
+    "piEmail": "Jihong.Ma@uvm.edu",
+    "date": "03/13/2026",
+    "sectors": [
+      "quantum"
+    ]
+  },
+  {
+    "id": "2541857",
+    "title": "CAREER: Specifying and Verifying Correctness of Software Updates",
+    "abstract": "Software updates are a fact of life, yet they are difficult for developers to get right because the new version must correctly interact with the previous version. Incorrect updates remain a surprisingly common source of catastrophic failures in practice. Formal verification, a technique where software is mathematically proven to behave as intended, is a promising approach to make software more reliable; however, with existing verification approaches, we don't know how to state (much less prove) ",
+    "amount": 680000,
+    "startDate": "09/01/2026",
+    "endDate": "08/31/2031",
+    "awardee": "University of Wisconsin-Madison",
+    "city": "MADISON",
+    "state": "WI",
+    "pi": "Tej Chajed",
+    "piEmail": "chajed@wisc.edu",
+    "date": "04/03/2026",
+    "sectors": []
+  },
+  {
+    "id": "2549953",
+    "title": "Blurring Boundaries Over Time: A Longitudinal Study of AI, Metacognitive Regulation, and Responsibility in Engineering Problem Solving",
+    "abstract": "Artificial intelligence (AI) tools are rapidly transforming how undergraduate students learn, solve problems, and make decisions in educational and professional settings. On one hand, AI systems are increasingly able to generate solutions and explanations, and to offer students new opportunities to enhance their learning through reflection, exploration of their ideas, and a deeper understanding of technical content. On the other hand, students' use of these tools may also weaken their independen",
+    "amount": 618387,
+    "startDate": "09/01/2026",
+    "endDate": "08/31/2030",
+    "awardee": "Utah State University",
+    "city": "LOGAN",
+    "state": "UT",
+    "pi": "Oenardi Lawanto",
+    "piEmail": "olawanto@usu.edu",
+    "date": "03/19/2026",
+    "sectors": [
+      "ai",
+      "biotech"
+    ]
+  },
+  {
+    "id": "2543048",
+    "title": "CAREER: OpenGPRxAI: Open-Source, AI-Powered Ground Penetrating Radar Technologies for Real-Time Subsurface Vision",
+    "abstract": "This project aims to significantly advance subsurface imaging by developing advanced, open-source, AI-powered ground-penetrating radar (GPR) technologies.  GPR is a non-invasive sensing tool that uses electromagnetic waves to detect and visualize objects beneath the surface, making it invaluable for applications such as precision agriculture, defense, archaeology, civil engineering, and planetary exploration.  Despite its broad utility, current GPR technologies face significant limitations, incl",
+    "amount": 560865,
+    "startDate": "09/01/2026",
+    "endDate": "08/31/2031",
+    "awardee": "University of Wisconsin-Madison",
+    "city": "MADISON",
+    "state": "WI",
+    "pi": "Haihan Sun",
+    "piEmail": "haihan.sun@wisc.edu",
+    "date": "03/16/2026",
+    "sectors": [
+      "defense"
+    ]
+  },
+  {
+    "id": "2543591",
+    "title": "CAREER: Modeling Trust Dynamics and System Adaptation for Human-AI Collaboration in Engineering Design",
+    "abstract": "This Faculty Early Career Development Program (CAREER) project supports research and education focused on trust in human-artificial intelligence (AI) collaboration during early-stage engineering design. In open-ended, creative design contexts, trust governs how designers engage with and rely on AI-generated suggestions, yet this reliance is often implicit, context-dependent, and difficult to capture by traditional acceptance-based or post-hoc survey measures. This project advances fundamental kn",
+    "amount": 545650,
+    "startDate": "09/01/2026",
+    "endDate": "08/31/2031",
+    "awardee": "Stevens Institute of Technology",
+    "city": "HOBOKEN",
+    "state": "NJ",
+    "pi": "Ting Liao",
+    "piEmail": "tliao@stevens.edu",
+    "date": "03/13/2026",
+    "sectors": [
+      "ai",
+      "biotech"
+    ]
   },
   {
     "id": "2543094",
@@ -1407,23 +2030,6 @@
     "piEmail": "sbeverl2@emich.edu",
     "date": "01/29/2026",
     "sectors": []
-  },
-  {
-    "id": "2545233",
-    "title": "A Generalizable Platform for Adaptive Control of Complex Biological Systems",
-    "abstract": "Researchers who study human diseases or test new drugs often use microfluidic devices that contain embedded cells that mimic the behavior of specific organs.  The usual approach is to make a change in the cells\u2019 environment and observe changes in the health of the cells. This project will expand that approach by finding ways to control the health of the cells as their environment changes.  The project will create an \u201corgan-on-a-controller\u201d system that controls the health and function of human li",
-    "amount": 400000,
-    "startDate": "09/01/2026",
-    "endDate": "08/31/2029",
-    "awardee": "Illinois Institute of Technology",
-    "city": "CHICAGO",
-    "state": "IL",
-    "pi": "Abhinav Bhushan",
-    "piEmail": "abhushan@iit.edu",
-    "date": "01/29/2026",
-    "sectors": [
-      "biotech"
-    ]
   },
   {
     "id": "2543343",
@@ -1443,6 +2049,40 @@
     ]
   },
   {
+    "id": "2542238",
+    "title": "CAREER: Reasoning-Centered AI for Scientific Discovery",
+    "abstract": "Many scientific breakthroughs happen when a researcher notices that a technique from one field could solve a problem in another \u2014 a discovery in materials science, for example, might share a deep structural similarity with a finding in a different field. Yet with hundreds of new papers appearing each month even within narrow specialties, no individual can read broadly enough to spot these cross-cutting connections reliably. This project develops artificial intelligence systems that help research",
+    "amount": 600000,
+    "startDate": "08/15/2026",
+    "endDate": "07/31/2031",
+    "awardee": "Johns Hopkins University",
+    "city": "BALTIMORE",
+    "state": "MD",
+    "pi": "Daniel Khashabi",
+    "piEmail": "danielk@jhu.edu",
+    "date": "04/03/2026",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
+    "id": "2543185",
+    "title": "CAREER: Uncovering the nature and impact of tumor cell clusters during metastatic migration through the circulatory system",
+    "abstract": "Metastasis is the spread of tumor cells through blood or the lymph system to form new tumors in otherwise healthy organs. Circulating tumor cells (CTCs) in the bloodstream often form clusters of CTCs. Some evidence suggests that when CTCs form clusters, they become more resistant to the body\u2019s immune responses. However, other evidence suggests that cluster formation does not significantly affect metastasis. This CAREER project will use computer modeling and artificial intelligence (AI) to examin",
+    "amount": 538930,
+    "startDate": "08/01/2026",
+    "endDate": "07/31/2031",
+    "awardee": "University of Alabama in Huntsville",
+    "city": "HUNTSVILLE",
+    "state": "AL",
+    "pi": "Agnieszka Truszkowska",
+    "piEmail": "at0175@uah.edu",
+    "date": "04/14/2026",
+    "sectors": [
+      "ai"
+    ]
+  },
+  {
     "id": "2540369",
     "title": "CAREER: Establishing Structure-property Relationships in Anion Exchange Membranes to Empower Water Electrolysis",
     "abstract": "Hydrogen is used as transportation fuel, to produce ammonia for fertilizers, and to upgrade oil for numerous products. This project seeks to lower the cost of producing hydrogen by improving water electrolysis technology. Electrolyzers use ion-conducting membranes as separators. The project will identify relationships between membrane polymer structure of the membrane and its performance in an electrolyzer. These relationships are not well understood.  The goal is to design efficient ion-conduct",
@@ -1458,102 +2098,37 @@
     "sectors": []
   },
   {
-    "id": "2541585",
-    "title": "CAREER: Process-Induced Interfacial Crack Formation in Multi-Metal Additive Manufacturing",
-    "abstract": "Multi-metal additive manufacturing enables the creation of multi-metal architectures that exceed the intrinsic property limits of single alloys by spatially combining complementary materials within a single component. Such capability is critical for next-generation aerospace systems, energy technologies, biomedical devices, and national defense applications. Despite its promise, the widespread use of multi-metal additive manufacturing is limited by cracking at dissimilar-metal interfaces, which ",
-    "amount": 549994,
+    "id": "2542222",
+    "title": "CAREER: Scalable Adaptive Control with Performance Guarantees for Safe and Efficient Autonomous Systems",
+    "abstract": "This Faculty Early Career Development Program (CAREER) grant funds research on autonomous systems that are poised to transform industries ranging from transportation and manufacturing to environmental monitoring and space exploration. Use of these systems in safety-critical applications faces significant challenges, such as ensuring safety and performance in unpredictable environments and adapting to large and sudden changes, and handling complex dynamics. This project seeks to overcome these ba",
+    "amount": 599981,
     "startDate": "08/01/2026",
     "endDate": "07/31/2031",
-    "awardee": "Arizona State University",
-    "city": "SCOTTSDALE",
-    "state": "AZ",
-    "pi": "Zhengtao Gan",
-    "piEmail": "zhengtao.gan@asu.edu",
+    "awardee": "University of Alabama Tuscaloosa",
+    "city": "TUSCALOOSA",
+    "state": "AL",
+    "pi": "Pan Zhao",
+    "piEmail": "pan.zhao@ua.edu",
     "date": "03/13/2026",
     "sectors": [
-      "biotech"
+      "defense"
     ]
   },
   {
-    "id": "2622357",
-    "title": "Travel: NSF Student Travel Grant for 2026 ACM Conference on Computer and Communications Security (CCS)",
-    "abstract": "The ACM Conference on Computer and Communications Security (CCS) is the flagship annual conference of the ACM Special Interest Group on Security, Audit and Control (SIGSAC) and is widely recognized as one of the top four venues in computer and information security. Since its inception in 1993, CCS has served as a premier international forum for researchers, practitioners, and policymakers to present and discuss advances across the full spectrum of cybersecurity, including software and systems se",
-    "amount": 15000,
-    "startDate": "07/01/2026",
-    "endDate": "06/30/2027",
-    "awardee": "George Mason University",
-    "city": "FAIRFAX",
-    "state": "VA",
-    "pi": "Kun Sun",
-    "piEmail": "ksun3@gmu.edu",
-    "date": "04/09/2026",
-    "sectors": []
-  },
-  {
-    "id": "2540861",
-    "title": "CAREER: Unlocking Spin Topological States in 1D Molecular Systems for Highly Efficient, Tunable Long-Range Quantum Transport",
-    "abstract": "Non-Technical description: \r\nMolecular electronics seeks to harness atomically precise molecular structures to enable next-generation miniaturized electronic and quantum technologies, offering novel properties and functions unattainable with conventional materials. However, a central, long-standing challenge remains: how to design molecular materials that can support efficient charge transport across long distances? This project will tackle this challenge through a new approach that leverages ra",
-    "amount": 696993,
+    "id": "2542931",
+    "title": "CAREER: Influence of Ammonia-Based Additives to Control Multiphase Detonation Performance",
+    "abstract": "Renewable fuels for power generation and transportation can broaden the U.S. energy portfolio.  However, renewable fuels produce a relatively low amount of energy on a volumetric basis compared with traditional fossil fuels. Combustion is typically carried out using a subsonic process called deflagration. An alternative is detonation, which is a supersonic process.  The combustion efficiency of renewable fuels can be increased using detonation, especially with additives that enhance the process.",
+    "amount": 599927,
     "startDate": "04/01/2026",
     "endDate": "03/31/2031",
-    "awardee": "University of Miami",
-    "city": "CORAL GABLES",
-    "state": "FL",
-    "pi": "Kun Wang",
-    "piEmail": "kxw794@miami.edu",
-    "date": "03/16/2026",
-    "sectors": [
-      "quantum",
-      "biotech"
-    ]
-  },
-  {
-    "id": "2530422",
-    "title": "NSF-SNSF: Interactions of Gravity Waves and Tides in the Mesosphere and Lower Thermosphere",
-    "abstract": "This project investigates the complex \"weather\" of the upper atmosphere, specifically in the region above 80 km. This is referred to as mesosphere, and lower thermosphere, and ionosphere (MLTI). While often invisible to the naked eye, the MLTI encompasses a turbulent region where large-scale atmospheric tides and smaller-scale gravity waves\u2014ripples of energy that originate in the lower atmosphere. Understanding how these waves and tides interact is essential, as these dynamics directly influence",
-    "amount": 500000,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2029",
-    "awardee": "Embry-Riddle Aeronautical University",
-    "city": "DAYTONA BEACH",
-    "state": "FL",
-    "pi": "Alan Liu",
-    "piEmail": "alan.liu@erau.edu",
-    "date": "03/30/2026",
-    "sectors": []
-  },
-  {
-    "id": "2511211",
-    "title": "MRI: Track 2 Development of an Ultrafast Table-top X-ray Spectrometer",
-    "abstract": "This award is jointly supported by the Major Research Instrumentation and the Chemistry Research Instrumentation programs. The University of California, Berkeley, is developing a next-generation tabletop ultrafast soft x-ray spectroscopy instrument to support the research of Professor Michael Zuerch and colleagues Stephen Leone and Daniel Neumark, as well as a broad community of campus and external users. By establishing a campus-based hub for ultrafast soft x-ray science, the project increases ",
-    "amount": 2519046,
-    "startDate": "04/01/2026",
-    "endDate": "03/31/2031",
-    "awardee": "University of California-Berkeley",
-    "city": "BERKELEY",
-    "state": "CA",
-    "pi": "Michael Zuerch",
-    "piEmail": "mwz@berkeley.edu",
-    "date": "03/16/2026",
+    "awardee": "University of Alabama in Huntsville",
+    "city": "HUNTSVILLE",
+    "state": "AL",
+    "pi": "John Bennewitz",
+    "piEmail": "john.bennewitz@uah.edu",
+    "date": "04/08/2026",
     "sectors": [
       "biotech"
-    ]
-  },
-  {
-    "id": "2452867",
-    "title": "Experimental and Theoretical Investigations of Organic Reaction Rates and Mechanisms",
-    "abstract": "This research project, led by Professor Kendall N. Houk of the University of California-Los Angeles and funded by the Chemical Mechanism, Function, and Properties Program in the Division of Chemistry, involves computer calculations using the methods of quantum mechanics and molecular dynamics to understand the factors that control chemical reactivity. Professor Houk and his team explore the detailed mechanisms by which reactions occur and predict how changing the conditions, substrates, and cata",
-    "amount": 600001,
-    "startDate": "02/15/2026",
-    "endDate": "01/31/2029",
-    "awardee": "University of California-Los Angeles",
-    "city": "LOS ANGELES",
-    "state": "CA",
-    "pi": "Kendall Houk",
-    "piEmail": "houk@chem.ucla.edu",
-    "date": "02/02/2026",
-    "sectors": [
-      "quantum"
     ]
   }
 ]

@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-04-15 05:52:22 UTC
+// Last updated: 2026-04-15 08:20:23 UTC
 const ARXIV_PAPERS = [
   { id: "2604.13016v1", title: "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe", category: "Artificial Intelligence", published: "2026-04-14", sectors: "ai", authors: "Yaxuan Li, Yuxin Zuo, Bingxiang He et al." },
   { id: "2604.13010v1", title: "Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillatio", category: "Artificial Intelligence", published: "2026-04-14", sectors: "ai", authors: "Yecheng Wu, Song Han, Hai Cai" },

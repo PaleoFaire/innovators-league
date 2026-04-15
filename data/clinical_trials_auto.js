@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-04-15 05:52:10 UTC
+// Last updated: 2026-04-15 08:20:07 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT05611632", title: "Does Screening With the Galleri Test in the NHS Reduce the Likelihood of a Late-", status: "ACTIVE_NOT_RECRUITING", phase: "NA", sponsor: "GRAIL, Inc.", conditions: "Cancer", enrollment: 142318, lastUpdated: "2026-04-14" },
   { nctId: "NCT07436637", title: "Guardant Shield Colorectal Cancer Screening", status: "NOT_YET_RECRUITING", phase: "NA", sponsor: "University of Miami", conditions: "Colorectal Cancer", enrollment: 500, lastUpdated: "2026-04-14" },
