@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -9.52,
+      "avg_change": -9.58,
       "count": 1
     },
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 2.84,
+      "avg_change": 2.9,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 7.69,
+      "avg_change": 6.68,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 17.8,
+      "avg_change": 18.2,
       "count": 3
     },
     "climate": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 18.89,
+      "avg_change": 19.84,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 22.93,
+      "avg_change": 23.64,
       "count": 3
     },
     "biotech": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 4.25,
+      "avg_change": 4.92,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 7.44,
+      "avg_change": 6.96,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 22.84,
+      "avg_change": 22.95,
       "count": 3
     }
   },
@@ -61,27 +61,27 @@
     [
       "ALAB",
       "Astera Labs",
-      43.22
+      43.37
     ],
     [
       "LNZA",
       "LanzaTech",
-      38.49
+      38.13
     ],
     [
       "OKLO",
       "Oklo",
-      25.43
+      25.74
     ],
     [
       "IONQ",
       "IonQ",
-      24.32
+      25.52
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      22.53
+      23.51
     ]
   ],
   "topLosers": [
@@ -91,14 +91,14 @@
       -2.0
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -4.02
-    ],
-    [
       "PL",
       "Planet Labs",
-      -4.78
+      -3.53
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -4.32
     ],
     [
       "DRSHF",
@@ -108,8 +108,8 @@
     [
       "PLTR",
       "Palantir",
-      -9.52
+      -9.58
     ]
   ],
-  "lastUpdated": "2026-04-14 19:22:23"
+  "lastUpdated": "2026-04-15 02:51:02"
 }
