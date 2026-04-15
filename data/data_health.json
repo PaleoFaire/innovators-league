@@ -1,481 +1,67 @@
 {
-  "generated_at": "2026-04-15T04:44:06.122683+00:00",
-  "counts": {
-    "total": 47,
-    "fresh": 7,
-    "stale": 38,
-    "broken": 2
+  "workflow": "comprehensive-data-sync",
+  "generated_at": "2026-04-15T05:39:56.817462+00:00",
+  "steps": {
+    "hackernews": "success",
+    "press_releases": "success",
+    "federal_register": "success",
+    "arxiv": "success",
+    "clinical_trials": "success",
+    "nsf_grants": "success",
+    "doe_energy": "success",
+    "nasa": "success",
+    "congress_bills": "success",
+    "sbir_topics": "success",
+    "demand_signals": "success",
+    "nrc_licensing": "success",
+    "faa_certification": "success",
+    "sam_contracts": "success",
+    "census_trade": "success",
+    "sbir_awards": "success",
+    "nih_grants": "success",
+    "arpa_e": "success",
+    "diffbot": "success",
+    "vc_portfolios": "success",
+    "funding_rss": "success",
+    "github_signals": "success",
+    "podcast_mentions": "success",
+    "twitter_signals": "success",
+    "merge_all_data": "failure"
   },
-  "sources": [
-    {
-      "id": "sec_filings",
-      "label": "SEC Filings",
-      "file": "data/sec_filings_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.335530+00:00",
-      "record_count": 51,
-      "size_bytes": 7227,
-      "error": null
-    },
-    {
-      "id": "gov_contracts",
-      "label": "Gov Contracts",
-      "file": "data/gov_contracts_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.323652+00:00",
-      "record_count": 32,
-      "size_bytes": 6614,
-      "error": null
-    },
-    {
-      "id": "sam_contracts",
-      "label": "SAM Contracts",
-      "file": "data/sam_contracts_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.334199+00:00",
-      "record_count": 18,
-      "size_bytes": 13782,
-      "error": null
-    },
-    {
-      "id": "sbir_awards",
-      "label": "SBIR Awards",
-      "file": "data/sbir_awards_auto.js",
-      "status": "broken",
-      "last_updated": "2026-04-13T10:32:28.334805+00:00",
-      "record_count": 0,
-      "size_bytes": 191,
-      "error": "no records"
-    },
-    {
-      "id": "sbir_topics",
-      "label": "SBIR Topics",
-      "file": "data/sbir_topics_auto.json",
-      "status": "stale",
-      "last_updated": "2026-02-19T04:39:39+00:00",
-      "record_count": 10,
-      "size_bytes": 5267,
-      "error": null
-    },
-    {
-      "id": "stocks",
-      "label": "Stock Prices",
-      "file": "data/stocks_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.336168+00:00",
-      "record_count": 572,
-      "size_bytes": 20122,
-      "error": null
-    },
-    {
-      "id": "jobs",
-      "label": "Job Postings",
-      "file": "data/jobs_auto.js",
-      "status": "stale",
-      "last_updated": "2026-02-17T03:41:13+00:00",
-      "record_count": 8014,
-      "size_bytes": 3377754,
-      "error": null
-    },
-    {
-      "id": "hackernews",
-      "label": "HN Buzz",
-      "file": "data/hackernews_buzz_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.324021+00:00",
-      "record_count": 31,
-      "size_bytes": 5964,
-      "error": null
-    },
-    {
-      "id": "patents",
-      "label": "Patent Intel",
-      "file": "data/patent_intel_auto.js",
-      "status": "broken",
-      "last_updated": "2026-04-06T00:03:07+00:00",
-      "record_count": 0,
-      "size_bytes": 115,
-      "error": "no records"
-    },
-    {
-      "id": "news",
-      "label": "News Feed",
-      "file": "data/news_signals_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.327842+00:00",
-      "record_count": 20,
-      "size_bytes": 7510,
-      "error": null
-    },
-    {
-      "id": "funding_tracker",
-      "label": "Funding Tracker",
-      "file": "data/funding_tracker_auto.json",
-      "status": "stale",
-      "last_updated": "2026-04-13T04:43:15.373741+00:00",
-      "record_count": 83,
-      "size_bytes": 23746,
-      "error": null
-    },
-    {
-      "id": "deals",
-      "label": "Deal Flow",
-      "file": "data/deals_auto.json",
-      "status": "stale",
-      "last_updated": "2026-04-13T04:43:15.372710+00:00",
-      "record_count": 136,
-      "size_bytes": 26754,
-      "error": null
-    },
-    {
-      "id": "demand_signals",
-      "label": "Demand Signals",
-      "file": "data/demand_signals_auto.json",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.311963+00:00",
-      "record_count": 3,
-      "size_bytes": 164652,
-      "error": null
-    },
-    {
-      "id": "moat_profiles",
-      "label": "Moat Profiles",
-      "file": "data/moat_profiles.js",
-      "status": "stale",
-      "last_updated": "2026-02-20T06:57:17+00:00",
-      "record_count": 60,
-      "size_bytes": 97862,
-      "error": null
-    },
-    {
-      "id": "founder_dna",
-      "label": "Founder DNA",
-      "file": "data/founder_dna.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T04:43:15.373432+00:00",
-      "record_count": 665,
-      "size_bytes": 359909,
-      "error": null
-    },
-    {
-      "id": "clinical_trials",
-      "label": "Clinical Trials",
-      "file": "data/clinical_trials_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.311193+00:00",
-      "record_count": 41,
-      "size_bytes": 11724,
-      "error": null
-    },
-    {
-      "id": "arxiv",
-      "label": "arXiv Papers",
-      "file": "data/arxiv_papers_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.309667+00:00",
-      "record_count": 41,
-      "size_bytes": 10025,
-      "error": null
-    },
-    {
-      "id": "federal_register",
-      "label": "Federal Register",
-      "file": "data/federal_register_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.313729+00:00",
-      "record_count": 31,
-      "size_bytes": 6909,
-      "error": null
-    },
-    {
-      "id": "github_releases",
-      "label": "GitHub Releases",
-      "file": "data/github_releases_auto.js",
-      "status": "stale",
-      "last_updated": "2026-03-02T10:13:22+00:00",
-      "record_count": 26,
-      "size_bytes": 3755,
-      "error": null
-    },
-    {
-      "id": "github_signals",
-      "label": "GitHub Signals",
-      "file": "data/github_signals_auto.json",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.314470+00:00",
-      "record_count": 37,
-      "size_bytes": 14857,
-      "error": null
-    },
-    {
-      "id": "insider_trading",
-      "label": "Insider Trading",
-      "file": "data/insider_transactions_auto.js",
-      "status": "stale",
-      "last_updated": "2026-02-20T04:16:39+00:00",
-      "record_count": 31,
-      "size_bytes": 5309,
-      "error": null
-    },
-    {
-      "id": "ipo_pipeline",
-      "label": "IPO Pipeline",
-      "file": "data/ipo_pipeline_auto.json",
-      "status": "stale",
-      "last_updated": "2026-02-23T04:47:41+00:00",
-      "record_count": 11,
-      "size_bytes": 2303,
-      "error": null
-    },
-    {
-      "id": "nasa",
-      "label": "NASA Tech",
-      "file": "data/nasa_projects_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.327380+00:00",
-      "record_count": 31,
-      "size_bytes": 6862,
-      "error": null
-    },
-    {
-      "id": "nih_grants",
-      "label": "NIH Grants",
-      "file": "data/nih_grants_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.328352+00:00",
-      "record_count": 301,
-      "size_bytes": 206030,
-      "error": null
-    },
-    {
-      "id": "nrc",
-      "label": "NRC Licensing",
-      "file": "data/nrc_licensing_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.330849+00:00",
-      "record_count": 8,
-      "size_bytes": 7262,
-      "error": null
-    },
-    {
-      "id": "nsf",
-      "label": "NSF Awards",
-      "file": "data/nsf_awards_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.331223+00:00",
-      "record_count": 41,
-      "size_bytes": 9865,
-      "error": null
-    },
-    {
-      "id": "doe",
-      "label": "DOE Programs",
-      "file": "data/doe_programs_auto.js",
-      "status": "fresh",
-      "last_updated": "2026-04-15T03:28:13.030664+00:00",
-      "record_count": 13,
-      "size_bytes": 4026,
-      "error": null
-    },
-    {
-      "id": "arpa_e",
-      "label": "ARPA-E",
-      "file": "data/arpa_e_projects_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.308140+00:00",
-      "record_count": 151,
-      "size_bytes": 75979,
-      "error": null
-    },
-    {
-      "id": "faa",
-      "label": "FAA Certification",
-      "file": "data/faa_certification_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.313436+00:00",
-      "record_count": 10,
-      "size_bytes": 11809,
-      "error": null
-    },
-    {
-      "id": "fda",
-      "label": "FDA Actions",
-      "file": "data/fda_actions_auto.js",
-      "status": "stale",
-      "last_updated": "2026-02-17T03:41:13+00:00",
-      "record_count": 31,
-      "size_bytes": 4589,
-      "error": null
-    },
-    {
-      "id": "trade_data",
-      "label": "Trade Data",
-      "file": "data/trade_data_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.336779+00:00",
-      "record_count": 21,
-      "size_bytes": 8467,
-      "error": null
-    },
-    {
-      "id": "product_launches",
-      "label": "Product Launches",
-      "file": "data/product_launches_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T04:43:15.379107+00:00",
-      "record_count": 31,
-      "size_bytes": 14805,
-      "error": null
-    },
-    {
-      "id": "press_releases",
-      "label": "Press Releases",
-      "file": "data/press_releases_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.333200+00:00",
-      "record_count": 6,
-      "size_bytes": 859,
-      "error": null
-    },
-    {
-      "id": "headcount_estimates",
-      "label": "Headcount Estimates",
-      "file": "data/headcount_estimates_auto.js",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.327003+00:00",
-      "record_count": 88,
-      "size_bytes": 24819,
-      "error": null
-    },
-    {
-      "id": "innovator_scores",
-      "label": "Innovator Scores",
-      "file": "data/innovator_scores_auto.json",
-      "status": "stale",
-      "last_updated": "2026-04-13T04:43:15.377312+00:00",
-      "record_count": 779,
-      "size_bytes": 225511,
-      "error": null
-    },
-    {
-      "id": "predictive_scores",
-      "label": "Predictive Scores",
-      "file": "data/predictive_scores_auto.json",
-      "status": "fresh",
-      "last_updated": "2026-04-15T04:26:58.064163+00:00",
-      "record_count": 4,
-      "size_bytes": 214804,
-      "error": null
-    },
-    {
-      "id": "growth_signals",
-      "label": "Growth Signals",
-      "file": "data/growth_signals_auto.json",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.323820+00:00",
-      "record_count": 52,
-      "size_bytes": 7456,
-      "error": null
-    },
-    {
-      "id": "sector_momentum",
-      "label": "Sector Momentum",
-      "file": "data/sector_momentum_auto.json",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.335990+00:00",
-      "record_count": 16,
-      "size_bytes": 6801,
-      "error": null
-    },
-    {
-      "id": "valuation_benchmarks",
-      "label": "Valuation Benchmarks",
-      "file": "data/valuation_benchmarks_auto.json",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.337566+00:00",
-      "record_count": 23,
-      "size_bytes": 5163,
-      "error": null
-    },
-    {
-      "id": "revenue_intel",
-      "label": "Revenue Intel",
-      "file": "data/revenue_intel_auto.json",
-      "status": "stale",
-      "last_updated": "2026-03-20T07:38:56+00:00",
-      "record_count": 55,
-      "size_bytes": 8491,
-      "error": null
-    },
-    {
-      "id": "vc_portfolios",
-      "label": "VC Portfolios",
-      "file": "data/vc_portfolio_changes.json",
-      "status": "stale",
-      "last_updated": "2026-04-10T09:04:37.095035+00:00",
-      "record_count": 244,
-      "size_bytes": 30400,
-      "error": null
-    },
-    {
-      "id": "twitter",
-      "label": "Twitter Signals",
-      "file": "data/twitter_signals_auto.json",
-      "status": "fresh",
-      "last_updated": "2026-04-15T02:50:47.857508+00:00",
-      "record_count": 100,
-      "size_bytes": 57598,
-      "error": null
-    },
-    {
-      "id": "podcasts",
-      "label": "Podcast Mentions",
-      "file": "data/podcast_mentions_auto.json",
-      "status": "stale",
-      "last_updated": "2026-04-13T10:32:28.331773+00:00",
-      "record_count": 88,
-      "size_bytes": 61822,
-      "error": null
-    },
-    {
-      "id": "conferences",
-      "label": "Conference Presence",
-      "file": "data/conference_presence_auto.json",
-      "status": "fresh",
-      "last_updated": "2026-04-15T04:40:32.450865+00:00",
-      "record_count": 74,
-      "size_bytes": 28956,
-      "error": null
-    },
-    {
-      "id": "secondary_market",
-      "label": "Secondary Market",
-      "file": "data/secondary_market_auto.json",
-      "status": "fresh",
-      "last_updated": "2026-04-15T04:40:41.425661+00:00",
-      "record_count": 54,
-      "size_bytes": 13489,
-      "error": null
-    },
-    {
-      "id": "linkedin_headcount",
-      "label": "LinkedIn Headcount",
-      "file": "data/linkedin_headcount_auto.json",
-      "status": "fresh",
-      "last_updated": "2026-04-15T04:40:45.758036+00:00",
-      "record_count": 564,
-      "size_bytes": 140095,
-      "error": null
-    },
-    {
-      "id": "reddit",
-      "label": "Reddit Mentions",
-      "file": "data/reddit_mentions_auto.json",
-      "status": "fresh",
-      "last_updated": "2026-04-15T04:41:07.062675+00:00",
-      "record_count": 735,
-      "size_bytes": 316263,
-      "error": null
-    }
-  ]
+  "summary": {
+    "total": 25,
+    "succeeded": 24,
+    "failed": 1,
+    "skipped": 0
+  },
+  "succeeded": [
+    "hackernews",
+    "press_releases",
+    "federal_register",
+    "arxiv",
+    "clinical_trials",
+    "nsf_grants",
+    "doe_energy",
+    "nasa",
+    "congress_bills",
+    "sbir_topics",
+    "demand_signals",
+    "nrc_licensing",
+    "faa_certification",
+    "sam_contracts",
+    "census_trade",
+    "sbir_awards",
+    "nih_grants",
+    "arpa_e",
+    "diffbot",
+    "vc_portfolios",
+    "funding_rss",
+    "github_signals",
+    "podcast_mentions",
+    "twitter_signals"
+  ],
+  "failed": [
+    "merge_all_data"
+  ],
+  "skipped": []
 }
