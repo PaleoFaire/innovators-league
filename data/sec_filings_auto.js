@@ -1,6 +1,13 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-15 07:55:18 UTC
+// Last updated: 2026-04-16 07:55:13 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "NuScale Power", form: "DEF 14A", date: "2026-04-15", description: "smr-20260415.htm", isIPO: false, ticker: "SMR" },
+  { company: "C3.ai", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776290430.xml", isIPO: false, ticker: "AI" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287399.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287314.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287224.xml", isIPO: false, ticker: "QBTS" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287102.xml", isIPO: false, ticker: "QBTS" },
+  { company: "Satellogic", form: "8-K", date: "2026-04-15", description: "ea0286487-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "Rocket Lab", form: "8-K", date: "2026-04-14", description: "g085683_8k.htm", isIPO: false, ticker: "RKLB" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-04-14", description: "spce-20260413.htm", isIPO: false, ticker: "SPCE" },
   { company: "Oklo", form: "8-K", date: "2026-04-14", description: "oklo-20260410.htm", isIPO: false, ticker: "OKLO" },
@@ -44,11 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "NuScale Power", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163943.xml", isIPO: false, ticker: "SMR" },
-  { company: "NuScale Power", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163845.xml", isIPO: false, ticker: "SMR" },
-  { company: "Upstart Holdings", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775162161.xml", isIPO: false, ticker: "UPST" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163383.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163374.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Aurora Innovation", form: "DEF 14A", date: "2026-04-02", description: "aur-20260402.htm", isIPO: false, ticker: "AUR" },
-  { company: "Rivian", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163142.xml", isIPO: false, ticker: "RIVN" },
-  { company: "Rivian", form: "8-K", date: "2026-04-02", description: "rivn-20260402.htm", isIPO: false, ticker: "RIVN" },
 ];

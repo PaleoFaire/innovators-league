@@ -2666,6 +2666,15 @@
   {
     "company": "NuScale Power",
     "ticker": "SMR",
+    "form": "DEF 14A",
+    "date": "2026-04-15",
+    "description": "smr-20260415.htm",
+    "accessionNumber": "0001822966-26-000042",
+    "isIPO": false
+  },
+  {
+    "company": "NuScale Power",
+    "ticker": "SMR",
     "form": "4",
     "date": "2026-04-13",
     "description": "xslF345X06/wk-form4_1776114526.xml",
@@ -3711,6 +3720,15 @@
     "company": "C3.ai",
     "ticker": "AI",
     "form": "4",
+    "date": "2026-04-15",
+    "description": "xslF345X06/wk-form4_1776290430.xml",
+    "accessionNumber": "0001577526-26-000042",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
+    "form": "4",
     "date": "2026-04-01",
     "description": "xslF345X06/wk-form4_1775084169.xml",
     "accessionNumber": "0001577526-26-000040",
@@ -4011,15 +4029,6 @@
     "date": "2025-10-07",
     "description": "xslF345X05/form4-10072025_101048.xml",
     "accessionNumber": "0001746277-25-000004",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2025-10-07",
-    "description": "xslF345X05/form4-10072025_101009.xml",
-    "accessionNumber": "0001307786-25-000004",
     "isIPO": false
   },
   {
@@ -5070,6 +5079,42 @@
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
     "form": "4",
+    "date": "2026-04-15",
+    "description": "xslF345X06/wk-form4_1776287399.xml",
+    "accessionNumber": "0002129321-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-04-15",
+    "description": "xslF345X06/wk-form4_1776287314.xml",
+    "accessionNumber": "0001098231-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-04-15",
+    "description": "xslF345X06/wk-form4_1776287224.xml",
+    "accessionNumber": "0001453942-26-000006",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-04-15",
+    "description": "xslF345X06/wk-form4_1776287102.xml",
+    "accessionNumber": "0001907982-26-000031",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
     "date": "2026-03-17",
     "description": "xslF345X05/wk-form4_1773783291.xml",
     "accessionNumber": "0001628280-26-018928",
@@ -5316,33 +5361,6 @@
     "date": "2025-12-05",
     "description": "xslF345X05/wk-form4_1764980462.xml",
     "accessionNumber": "0001453942-25-000008",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "8-K",
-    "date": "2025-12-02",
-    "description": "qbts-20251202.htm",
-    "accessionNumber": "0001907982-25-000261",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2025-11-25",
-    "description": "xslF345X05/wk-form4_1764115461.xml",
-    "accessionNumber": "0001346345-25-000004",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2025-11-21",
-    "description": "xslF345X05/wk-form4_1763763269.xml",
-    "accessionNumber": "0001453942-25-000006",
     "isIPO": false
   },
   {
@@ -9183,6 +9201,15 @@
     "company": "Satellogic",
     "ticker": "SATL",
     "form": "8-K",
+    "date": "2026-04-15",
+    "description": "ea0286487-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-044116",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
     "date": "2026-03-12",
     "description": "ea0281156-8k_zoomcar.htm",
     "accessionNumber": "0001213900-26-026843",
@@ -9411,24 +9438,6 @@
     "date": "2025-04-03",
     "description": "ea0237115-8k_zoomcar.htm",
     "accessionNumber": "0001213900-25-028665",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2025-03-21",
-    "description": "ea0235185-8k_zoomcar.htm",
-    "accessionNumber": "0001013762-25-000768",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2025-03-19",
-    "description": "ea0234963-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-25-025152",
     "isIPO": false
   }
 ]

@@ -261,15 +261,6 @@
     "isIPO": false
   },
   {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000005",
-    "isIPO": false
-  },
-  {
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
     "form": "4",
@@ -1010,6 +1001,15 @@
   {
     "company": "NuScale Power",
     "ticker": "SMR",
+    "form": "DEF 14A",
+    "date": "2026-04-15",
+    "description": "smr-20260415.htm",
+    "accessionNumber": "0001822966-26-000042",
+    "isIPO": false
+  },
+  {
+    "company": "NuScale Power",
+    "ticker": "SMR",
     "form": "4",
     "date": "2026-04-13",
     "description": "xslF345X06/wk-form4_1776114526.xml",
@@ -1479,6 +1479,15 @@
     "company": "C3.ai",
     "ticker": "AI",
     "form": "4",
+    "date": "2026-04-15",
+    "description": "xslF345X06/wk-form4_1776290430.xml",
+    "accessionNumber": "0001577526-26-000042",
+    "isIPO": false
+  },
+  {
+    "company": "C3.ai",
+    "ticker": "AI",
+    "form": "4",
     "date": "2026-04-01",
     "description": "xslF345X06/wk-form4_1775084169.xml",
     "accessionNumber": "0001577526-26-000040",
@@ -1617,24 +1626,6 @@
     "date": "2026-02-03",
     "description": "xslF345X05/form4-02042026_020225.xml",
     "accessionNumber": "0001031530-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/form4-01162026_020138.xml",
-    "accessionNumber": "0002040511-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/form4-01152026_090158.xml",
-    "accessionNumber": "0001031530-26-000002",
     "isIPO": false
   },
   {
@@ -1908,15 +1899,6 @@
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-26-000010",
-    "isIPO": false
-  },
-  {
     "company": "IonQ",
     "ticker": "IONQ",
     "form": "4",
@@ -2082,6 +2064,42 @@
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
     "form": "4",
+    "date": "2026-04-15",
+    "description": "xslF345X06/wk-form4_1776287399.xml",
+    "accessionNumber": "0002129321-26-000003",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-04-15",
+    "description": "xslF345X06/wk-form4_1776287314.xml",
+    "accessionNumber": "0001098231-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-04-15",
+    "description": "xslF345X06/wk-form4_1776287224.xml",
+    "accessionNumber": "0001453942-26-000006",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-04-15",
+    "description": "xslF345X06/wk-form4_1776287102.xml",
+    "accessionNumber": "0001907982-26-000031",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
     "date": "2026-03-17",
     "description": "xslF345X05/wk-form4_1773783291.xml",
     "accessionNumber": "0001628280-26-018928",
@@ -2193,33 +2211,6 @@
     "date": "2026-01-20",
     "description": "qbts-20260120.htm",
     "accessionNumber": "0001628280-26-002507",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/wk-form4_1768515125.xml",
-    "accessionNumber": "0001974777-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/wk-form4_1768514979.xml",
-    "accessionNumber": "0001453942-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/wk-form4_1768514851.xml",
-    "accessionNumber": "0001098231-26-000002",
     "isIPO": false
   },
   {
@@ -3789,30 +3780,12 @@
     "isIPO": false
   },
   {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/wk-form4_1768526506.xml",
-    "accessionNumber": "0001628280-26-002258",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/wk-form4_1768526476.xml",
-    "accessionNumber": "0001628280-26-002257",
-    "isIPO": false
-  },
-  {
-    "company": "Astera Labs",
-    "ticker": "ALAB",
-    "form": "4",
-    "date": "2026-01-15",
-    "description": "xslF345X05/wk-form4_1768526438.xml",
-    "accessionNumber": "0001628280-26-002256",
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
+    "date": "2026-04-15",
+    "description": "ea0286487-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-044116",
     "isIPO": false
   },
   {

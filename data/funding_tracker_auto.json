@@ -1,5 +1,19 @@
 [
   {
+    "company": "Anthropic",
+    "totalRaised": "$15.0B+",
+    "totalRaisedRaw": 15000.0,
+    "lastRound": "Series T",
+    "lastRoundAmount": "$380B",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "GIC"
+    ],
+    "roundCount": 4
+  },
+  {
     "company": "Shield AI",
     "totalRaised": "$13.2B+",
     "totalRaisedRaw": 13240.0,
@@ -10,20 +24,6 @@
     "leadInvestors": [
       "Undisclosed",
       "L3Harris"
-    ],
-    "roundCount": 2
-  },
-  {
-    "company": "Anthropic",
-    "totalRaised": "$13.0B+",
-    "totalRaisedRaw": 13000.0,
-    "lastRound": "Series T",
-    "lastRoundAmount": "$380B",
-    "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "GIC"
     ],
     "roundCount": 2
   },
@@ -413,6 +413,19 @@
     "roundCount": 2
   },
   {
+    "company": "X-Energy",
+    "totalRaised": "$800M+",
+    "totalRaisedRaw": 800.0,
+    "lastRound": "IPO",
+    "lastRoundAmount": "$800M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Together AI",
     "totalRaised": "$686M+",
     "totalRaisedRaw": 686.3,
@@ -744,6 +757,19 @@
     "roundCount": 1
   },
   {
+    "company": "Harbinger",
+    "totalRaised": "$100M+",
+    "totalRaisedRaw": 100.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$100M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Scale AI",
     "totalRaised": "$100M+",
     "totalRaisedRaw": 100.0,
@@ -814,6 +840,19 @@
     "valuation": "",
     "leadInvestors": [
       "Retro Biosciences"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Turion Space",
+    "totalRaised": "$75M+",
+    "totalRaisedRaw": 75.0,
+    "lastRound": "Series B",
+    "lastRoundAmount": "$75M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },

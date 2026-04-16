@@ -1,213 +1,212 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 64,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
-      "Anthropic&#8217;s rise is giving some OpenAI investors secon",
-      "AI data center startup Fluidstack in talks for $1B round at",
+      "OpenAI updates its Agents SDK to help enterprises build safe",
+      "STAT+: Novartis CEO joins Anthropic&#8217;s board",
       "In the Wake of Anthropic\u2019s Mythos, OpenAI Has a New Cybersec"
     ],
-    "fundingQ": "$387.2B",
+    "fundingQ": "$1189.2B",
     "components": {
       "funding": 100,
-      "news": 75,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
   },
   {
-    "sector": "Drones & Autonomous",
-    "momentum": 64,
-    "trend": "accelerating",
+    "sector": "Nuclear Energy",
+    "momentum": 52,
+    "trend": "steady",
     "catalysts": [
-      "1:5 kill ratio: Ukraine inflicts heavy Russian losses using",
-      "The US and Iran are using new weapons in the war. Here&#8217"
+      "Amazon-backed X-energy files to raise up to $800M in IPO",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
-    "fundingQ": "$12.7B",
+    "fundingQ": "$800M",
     "components": {
-      "funding": 100,
-      "news": 75,
+      "funding": 83,
+      "news": 10,
       "hiring": 0,
-      "market": 50
+      "market": 100
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 60,
-    "trend": "accelerating",
+    "momentum": 48,
+    "trend": "steady",
     "catalysts": [
-      "Put nuclear reactors in space within a few years, White Hous",
-      "White House wants Pentagon to demo nuclear space power by 20",
-      "1:5 kill ratio: Ukraine inflicts heavy Russian losses using"
+      "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
-      "news": 100,
+      "news": 5,
       "hiring": 0,
-      "market": 0
+      "market": 60
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
   },
   {
-    "sector": "Ocean & Maritime",
-    "momentum": 52,
+    "sector": "Drones & Autonomous",
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
-      "US Navy should rely on allies to boost maritime industrial b"
+      "Uber begins early test rides of Lucid Gravity robotaxis equi",
+      "Locus Robotics launches Locus Array for fully autonomous ful"
     ],
-    "fundingQ": "$10.8B",
+    "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 30,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
   },
   {
     "sector": "Supersonic & Hypersonic",
-    "momentum": 51,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Xoople and L3Harris team up to build satellites for \u2018Earth A"
+      "<a href=\"/ai-and-machine-learning/novartis-ceo-vas-narasimha"
     ],
     "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
-      "news": 25,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
   },
   {
-    "sector": "Space & Aerospace",
-    "momentum": 41,
+    "sector": "Ocean & Maritime",
+    "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "SpaceX Starship V3 Has Successful Static Fire",
-      "Kepler to lead interoperability tests for ESA\u2019s HydRON optic",
-      "Blue Origin moves toward launch at Vandenberg"
+      "Active ocean & maritime ecosystem"
     ],
-    "fundingQ": "$175M",
+    "fundingQ": "$10.8B",
     "components": {
-      "funding": 9,
-      "news": 100,
-      "hiring": 0,
-      "market": 63
-    },
-    "lastUpdated": "2026-04-15"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 40,
-    "trend": "steady",
-    "catalysts": [
-      "SES and Boeing move toward factory-installed multi-orbit inf",
-      "Redefining mobile artillery for a faster, more lethal fight",
-      "London gets closer to its first robotaxi service as Waymo be"
-    ],
-    "fundingQ": "$655M",
-    "components": {
-      "funding": 39,
-      "news": 65,
+      "funding": 100,
+      "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 37,
-    "trend": "rising",
+    "momentum": 33,
+    "trend": "declining",
     "catalysts": [
-      "Coming soon: 10 Things That Matter in AI Right Now"
+      "Scribing startup Abridge adds NEJM, JAMA as it moves into me",
+      "STAT+: Novartis CEO joins Anthropic&#8217;s board",
+      "Harbinger raises $100M; Astellas to close Seattle site"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 55,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-15"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 35,
-    "trend": "steady",
-    "catalysts": [
-      "SES and Boeing move toward factory-installed multi-orbit inf",
-      "London gets closer to its first robotaxi service as Waymo be",
-      "$200 Million Heat Pump Program Somehow Slips Through Trump C"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 100,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-15"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 32,
-    "trend": "rising",
-    "catalysts": [
-      "Active climate & energy ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 50,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-15"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 30,
-    "trend": "declining",
-    "catalysts": [
-      "Put nuclear reactors in space within a few years, White Hous",
-      "White House wants Pentagon to demo nuclear space power by 20",
-      "NASA is building the first nuclear reactor-powered interplan"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
       "news": 40,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 26,
+    "sector": "Robotics & Manufacturing",
+    "momentum": 30,
+    "trend": "rising",
+    "catalysts": [
+      "Ouster releases Stereolabs ZED X Nano wrist-mounted camera",
+      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene",
+      "Uber begins early test rides of Lucid Gravity robotaxis equi"
+    ],
+    "fundingQ": "$655M",
+    "components": {
+      "funding": 39,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
-      "Silicon Valley Is Spending Millions to Stop One of Its Own",
-      "The Bromine Chokepoint: How Strife in the Middle East Could"
+      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene",
+      "Fervo Energy inks big turbine deal to build more next-gen ge",
+      "Base Power to launch 100-MW home battery network for Texas u"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 15,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 22,
+    "trend": "declining",
+    "catalysts": [
+      "Self-driving scaleup Wayve raises fresh funds from AMD, Qual",
+      "<a href=\"/ai-and-machine-learning/novartis-ceo-vas-narasimha"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 21,
+    "trend": "rising",
+    "catalysts": [
+      "SpaceX Successfully Static Fires V3 Booster",
+      "Vast offers new docking adapter for large space stations",
+      "Turion Space raises $75 million to expand maneuverable satel"
+    ],
+    "fundingQ": "$175M",
+    "components": {
+      "funding": 9,
+      "news": 45,
+      "hiring": 0,
+      "market": 32
+    },
+    "lastUpdated": "2026-04-16"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 24,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -215,48 +214,33 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-15"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "Active transportation ecosystem"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
       "news": 0,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
   },
   {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 19,
+    "sector": "Consumer Tech",
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "AI and geopolitics spur space investment surge",
-      "The Bromine Chokepoint: How Strife in the Middle East Could"
+      "Vast offers new docking adapter for large space stations",
+      "Turion Space raises $75 million to expand maneuverable satel",
+      "Ouster releases Stereolabs ZED X Nano wrist-mounted camera"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 35,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 14,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
       "Coming soon: 10 Things That Matter in AI Right Now"
@@ -264,10 +248,26 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-16"
   }
 ]

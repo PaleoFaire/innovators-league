@@ -4,14 +4,24 @@
     "revenue": "$215.9B",
     "period": "2026 Annual",
     "growth": "+65% YoY",
-    "source": "SEC 10-K (NVDA)"
+    "source": "SEC 10-K (NVDA)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Tesla",
     "revenue": "$94.8B",
     "period": "2025 Annual",
     "growth": "-3% YoY",
-    "source": "SEC 10-K (TSLA)"
+    "source": "SEC 10-K (TSLA)",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "AMD",
+    "revenue": "$34.6B",
+    "period": "2025 Annual",
+    "growth": "+34% YoY",
+    "source": "SEC 10-K (AMD)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "SpaceX",
@@ -39,7 +49,8 @@
     "revenue": "$5.4B",
     "period": "2025 Annual",
     "growth": "+8% YoY",
-    "source": "SEC 10-K (RIVN)"
+    "source": "SEC 10-K (RIVN)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Databricks",
@@ -53,14 +64,16 @@
     "revenue": "$4.5B",
     "period": "2025 Annual",
     "growth": "+56% YoY",
-    "source": "SEC 10-K (PLTR)"
+    "source": "SEC 10-K (PLTR)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Tempus AI",
     "revenue": "$3.1B",
     "period": "2025 Annual",
     "growth": "+3% YoY",
-    "source": "SEC 10-K (TEM)"
+    "source": "SEC 10-K (TEM)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Flexport",
@@ -74,14 +87,24 @@
     "revenue": "$2.3B",
     "period": "2025 Annual",
     "growth": "-33% YoY",
-    "source": "SEC 10-K (IONQ)"
+    "source": "SEC 10-K (IONQ)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Intuitive Machines",
     "revenue": "$1.9B",
     "period": "2025 Annual",
     "growth": "-11% YoY",
-    "source": "SEC 10-K (LUNR)"
+    "source": "SEC 10-K (LUNR)",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Astera Labs",
+    "revenue": "$1.8B",
+    "period": "2025 Annual",
+    "growth": "+2% YoY",
+    "source": "SEC 10-K (ALAB)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Anduril Industries",
@@ -119,18 +142,12 @@
     "source": "Reported estimates"
   },
   {
-    "company": "Astera Labs",
-    "revenue": "$853M",
-    "period": "FY2025",
-    "growth": "+115% YoY",
-    "source": "Public filings (NASDAQ: ALAB)"
-  },
-  {
     "company": "Rocket Lab",
     "revenue": "$602M",
     "period": "2025 Annual",
     "growth": "+38% YoY",
-    "source": "SEC 10-K (RKLB)"
+    "source": "SEC 10-K (RKLB)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Shield AI",
@@ -144,14 +161,16 @@
     "revenue": "$442M",
     "period": "2025 Annual",
     "growth": "+29% YoY",
-    "source": "SEC 10-K (JOBY)"
+    "source": "SEC 10-K (JOBY)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "C3.ai",
     "revenue": "$389M",
     "period": "2025 Annual",
     "growth": "+25% YoY",
-    "source": "SEC 10-K (AI)"
+    "source": "SEC 10-K (AI)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Zipline",
@@ -173,6 +192,14 @@
     "period": "FY2025 Est.",
     "growth": "+22% YoY",
     "source": "Public filings (LSE: ONT)"
+  },
+  {
+    "company": "NuScale Power",
+    "revenue": "$284M",
+    "period": "2025 Annual",
+    "growth": "+257% YoY",
+    "source": "SEC 10-K (SMR)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Planet Labs",
@@ -221,14 +248,8 @@
     "revenue": "$75M",
     "period": "2025 Annual",
     "growth": "+27% YoY",
-    "source": "SEC 10-K (RXRX)"
-  },
-  {
-    "company": "NuScale Power",
-    "revenue": "$64M",
-    "period": "2025 TTM",
-    "growth": "+766% YoY",
-    "source": "Public filings (NYSE: SMR)"
+    "source": "SEC 10-K (RXRX)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "AiDash",
@@ -243,6 +264,14 @@
     "period": "2025 Est.",
     "growth": "+500% YoY",
     "source": "Early revenue stage"
+  },
+  {
+    "company": "QuantumScape",
+    "revenue": "$48M",
+    "period": "2025 Annual",
+    "growth": "-58% YoY",
+    "source": "SEC 10-K (QS)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "LanzaTech",
@@ -277,7 +306,8 @@
     "revenue": "$25M",
     "period": "2025 Annual",
     "growth": "+179% YoY",
-    "source": "SEC 10-K (QBTS)"
+    "source": "SEC 10-K (QBTS)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Rainbow Robotics",
@@ -287,6 +317,14 @@
     "source": "Public filings (KOSDAQ: 277810)"
   },
   {
+    "company": "Solid Power",
+    "revenue": "$23M",
+    "period": "2024 Annual",
+    "growth": "+422% YoY",
+    "source": "SEC 10-K (SLDP)",
+    "lastUpdated": "2026-04-16"
+  },
+  {
     "company": "D-Orbit",
     "revenue": "$20M+",
     "period": "2025 Est.",
@@ -294,25 +332,20 @@
     "source": "Company estimates"
   },
   {
-    "company": "Solid Power",
-    "revenue": "$18M",
-    "period": "2025 YTD (9mo)",
-    "growth": "N/A",
-    "source": "Public filings (NASDAQ: SLDP)"
-  },
-  {
     "company": "Satellogic",
-    "revenue": "$14M",
-    "period": "2025 TTM",
-    "growth": "+1% YoY",
-    "source": "Public filings (NASDAQ: SATL)"
+    "revenue": "$18M",
+    "period": "2025 Annual",
+    "growth": "+38% YoY",
+    "source": "SEC 10-K (SATL)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Rigetti Computing",
     "revenue": "$13M",
     "period": "2022 Annual",
     "growth": "+60% YoY",
-    "source": "SEC 10-K (RGTI)"
+    "source": "SEC 10-K (RGTI)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "ideaForge",
@@ -322,32 +355,28 @@
     "source": "Public filings (NSE: IDEAFORGE)"
   },
   {
-    "company": "QuantumScape",
-    "revenue": "$12.8M",
-    "period": "Q3 2025",
-    "growth": "First Revenue",
-    "source": "Public filings (NASDAQ: QS)"
-  },
-  {
     "company": "AST SpaceMobile",
     "revenue": "$4M",
     "period": "2024 Annual",
     "growth": "",
-    "source": "SEC 10-K (ASTS)"
+    "source": "SEC 10-K (ASTS)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Aurora Innovation",
     "revenue": "$3M",
-    "period": "FY2025",
-    "growth": "First Revenue",
-    "source": "Public filings (NASDAQ: AUR)"
+    "period": "2025 Annual",
+    "growth": "",
+    "source": "SEC 10-K (AUR)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Archer Aviation",
     "revenue": "$300K",
     "period": "2025 Annual",
     "growth": "",
-    "source": "SEC 10-K (ACHR)"
+    "source": "SEC 10-K (ACHR)",
+    "lastUpdated": "2026-04-16"
   },
   {
     "company": "Boom Supersonic",
