@@ -574,7 +574,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install requests feedparser python-dateutil
+      - run: pip install requests feedparser python-dateutil anthropic
 
       - name: Clean stale placeholder data
         run: python scripts/clean_stale_data.py
