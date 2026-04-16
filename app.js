@@ -2184,10 +2184,9 @@ document.addEventListener('DOMContentLoaded', () => {
     'discovery-hub':          [initDiscoveryHub],
     'companies':              [initFilters, function() { renderCompanies(COMPANIES); }, initCompare, initMarketMap, initDatabaseViewToggle],
     'news-ticker':            [initNewsTicker],
-    'intelligence-hub':       [initMovementTracker, initAlertsCenter, initIntelligenceHub],
-    // capital-flows now contains the merged Funding + Revenue tabs (old deal-flow table removed)
-    'capital-flows':          [initFundingTracker, initCapitalFlowsTabs, initRevenueTable],
-    'funding-tracker':        [initFundingTracker],
+    // 'intelligence-hub': REMOVED — redundant with Signals + Alerts panel was unreliable
+    // 'capital-flows': REMOVED — fabricated amounts (Anthropic $380B etc.). Revenue moved to valuations.html
+    // 'funding-tracker': REMOVED — same reason
     // 'market-pulse': REMOVED — stock prices now shown on company cards
     'growth-signals':         [initGrowthSignals],
     'leaderboard':            [initLeaderboard, initEfficiencyLeaderboard],
@@ -2203,7 +2202,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'innovator-scores':       [initInnovatorScores],
     'gov-demand':             [initGovContracts],
     'patent-intel':           [initPatentIntel],
-    'predictive-scores':      [initPredictiveScoring],
+    // 'predictive-scores': REMOVED — arbitrary heuristics without external validation
     'network-graph':          [initNetworkGraph],
     'competitive-battlefield':[initBattlefieldMap],
     'portfolio-builder':      [initPortfolioBuilder],
@@ -4545,40 +4544,42 @@ function initNewsTicker() {
 
   let items = [];
 
-  // 1. Primary source: GROWTH_SIGNALS (same fresh feed as Signals section)
+  // Tight AUTHORITATIVE-ONLY filter: only show signals whose data came from
+  // a verifiable source. RSS-matched news (media_buzz/news_activity) is excluded
+  // because the company-name-matching produces false positives.
+  const TRUSTED_SIGNAL_TYPES = new Set([
+    'stock_movement',   // from stocks_auto.js (Yahoo Finance)
+    'hiring_surge',     // from jobs_auto.js (Greenhouse/Lever/Ashby)
+    'hiring_growth',    // same
+    'gov_traction',     // from SAM.gov (government)
+    'ip_moat',          // from USPTO (government)
+  ]);
+
   if (typeof GROWTH_SIGNALS !== 'undefined' && Array.isArray(GROWTH_SIGNALS) && GROWTH_SIGNALS.length > 0) {
-    // Take top 15 sorted by strength, then recency
-    const sorted = [...GROWTH_SIGNALS].sort((a, b) => {
+    const trusted = GROWTH_SIGNALS.filter(s => TRUSTED_SIGNAL_TYPES.has(s.type));
+    const sorted = trusted.sort((a, b) => {
       const aStr = typeof a.strength === 'number' ? a.strength : 3;
       const bStr = typeof b.strength === 'number' ? b.strength : 3;
       if (aStr !== bStr) return bStr - aStr;
       return String(b.date || '').localeCompare(String(a.date || ''));
-    }).slice(0, 15);
+    }).slice(0, 20);
 
     items = sorted.map(s => {
       const typeEmoji = {
         stock_movement: '📈', hiring_surge: '🧑‍💼', hiring_growth: '🧑‍💼',
-        media_buzz: '📰', news_activity: '📰', ip_moat: '📜',
-        gov_traction: '🏛️', partnership: '🤝', regulatory: '⚖️'
+        ip_moat: '📜', gov_traction: '🏛️'
       }[s.type] || '📊';
+      const sourceTag = {
+        stock_movement: 'Yahoo Finance', hiring_surge: 'Greenhouse/Lever',
+        hiring_growth: 'Greenhouse/Lever', ip_moat: 'USPTO', gov_traction: 'SAM.gov'
+      }[s.type] || '';
       return {
         text: `${typeEmoji} ${s.company} · ${s.detail || ''}`,
-        time: formatTickerDate(s.date),
+        time: `${sourceTag} · ${formatTickerDate(s.date)}`,
         priority: (s.strength >= 3) ? 'high' : 'medium',
         kind: 'signal'
       };
     });
-  }
-  // Fallback: COMPANY_SIGNALS news
-  else if (typeof COMPANY_SIGNALS !== 'undefined' && COMPANY_SIGNALS.length > 0) {
-    items = COMPANY_SIGNALS.map(s => ({
-      text: s.headline || s.text || '',
-      time: formatTickerDate(s.time || ''),
-      priority: s.impact || s.priority || 'medium',
-      kind: 'news'
-    }));
-  } else if (typeof NEWS_TICKER !== 'undefined') {
-    items = NEWS_TICKER.map(n => ({ ...n, time: formatTickerDate(n.time), kind: 'news' }));
   }
 
   const renderTicker = (allItems) => {
@@ -4598,39 +4599,9 @@ function initNewsTicker() {
     });
   };
 
-  // Initial render with whatever we have
+  // Render with authoritative signals only — no RSS-scraped funding splice
+  // (deals_auto.json has too many mis-attributed amounts to trust)
   if (items.length > 0) renderTicker(items);
-
-  // Load live funding events and interleave
-  fetch('data/deals_auto.json', { cache: 'no-cache' })
-    .then(r => r.ok ? r.json() : null)
-    .then(deals => {
-      if (!Array.isArray(deals) || deals.length === 0) return;
-      const sorted = deals
-        .filter(d => d && d.company && d.amount)
-        .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
-        .slice(0, 8);
-
-      const fundingItems = sorted.map(d => {
-        const roundText = d.round && d.round !== 'Funding Round' ? ` · ${d.round}` : '';
-        return {
-          text: `${d.company} raised ${d.amount}${roundText}`,
-          time: formatTickerDate(d.date),
-          priority: 'high',
-          kind: 'funding'
-        };
-      });
-
-      // Interleave funding + signals
-      const merged = [];
-      const maxLen = Math.max(items.length, fundingItems.length);
-      for (let i = 0; i < maxLen; i++) {
-        if (fundingItems[i]) merged.push(fundingItems[i]);
-        if (items[i]) merged.push(items[i]);
-      }
-      renderTicker(merged);
-    })
-    .catch(() => { /* silent — fall back to what we rendered */ });
 }
 
 // ─── FIELD NOTES — Founder Intelligence from the ROS network ───

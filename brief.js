@@ -132,22 +132,23 @@
 
     // Hero stats
     setText('brief-date', digest.dateDisplay ? digest.dateDisplay.split(',')[0] : digest.date);
-    setText('brief-deal-count', (digest.stats || {}).dealCount || 0);
+    setText('brief-deal-count', (digest.stats || {}).contractCount || 0);
     setText('brief-contract-count', (digest.stats || {}).contractCount || 0);
     setText('brief-top-mover', (digest.stats || {}).topMover || '—');
 
     var s = digest.sections;
 
-    var html = '';
-    html += section('💰 Biggest Deals', 'Last 30 days', renderDeals(s.biggestDeals));
-    html += section('📰 Top News', 'Live', renderNews(s.topNews));
-    html += section('🏛️ Government Activity', 'SAM.gov', renderGovContracts(s.govActivity));
-    html += section('📈 Market Movers', 'Today', renderMovers(s.marketMovers));
-    html += section('⚖️ Regulatory Highlights', 'FDA · Fed Reg', renderRegulatory(s.regulatory));
-    html += section('🔬 Recent Patent Grants', 'USPTO', renderPatents(s.patents));
+    // AUTHORITATIVE SOURCES ONLY — no RSS-parsed funding or news matching
+    var html = '<div class="brief-trust-strip" style="background:rgba(34,197,94,0.08); border:1px solid rgba(34,197,94,0.2); border-radius:8px; padding:12px 16px; margin-bottom:24px; font-size:12px; color:rgba(255,255,255,0.7);">' +
+      '✅ <strong style="color:#22c55e;">Authoritative sources only</strong> — every item links to the original government or market data source.' +
+    '</div>';
+    html += section('🏛️ Government Activity', 'SAM.gov · Official', renderGovContracts(s.govActivity));
+    html += section('📈 Market Movers', 'Yahoo Finance · Live', renderMovers(s.marketMovers));
+    html += section('⚖️ Regulatory Highlights', 'openFDA · Federal Register', renderRegulatory(s.regulatory));
+    html += section('🔬 Recent Patent Grants', 'USPTO · Official', renderPatents(s.patents));
 
     html += '<div class="brief-footer-note">' +
-      '<p style="color:rgba(255,255,255,0.45); font-size:12px; text-align:center; margin-top:32px;">Generated ' + esc(digest.generatedAt || '') + ' · Auto-refreshed hourly from ROS data pipeline</p>' +
+      '<p style="color:rgba(255,255,255,0.45); font-size:12px; text-align:center; margin-top:32px;">Generated ' + esc(digest.generatedAt || '') + ' · Auto-refreshed hourly · All data from authoritative sources (SAM.gov, Yahoo Finance, openFDA, USPTO)</p>' +
     '</div>';
 
     var content = document.getElementById('brief-content');

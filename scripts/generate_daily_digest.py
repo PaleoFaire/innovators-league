@@ -344,24 +344,22 @@ def main():
     print(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
+    # AUTHORITATIVE-ONLY digest — no RSS-parsed funding deals or text-matched news
+    # (previous versions included Palantir $30B, SiFive-as-Cerebras, etc. — all wrong)
     digest = {
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "date": datetime.now().strftime("%Y-%m-%d"),
         "dateDisplay": datetime.now().strftime("%A, %B %d, %Y"),
         "sections": {
-            "biggestDeals": biggest_deals(),
-            "topNews": top_news(),
-            "govActivity": gov_highlights(),
-            "marketMovers": market_movers(),
-            "regulatory": regulatory_highlights(),
-            "patents": patents_recent(),
+            "govActivity": gov_highlights(),          # SAM.gov (authoritative)
+            "marketMovers": market_movers(),          # Yahoo Finance (authoritative)
+            "regulatory": regulatory_highlights(),    # FDA openFDA + Federal Register (authoritative)
+            "patents": patents_recent(),              # USPTO (authoritative)
         },
     }
 
     # Stats
     digest["stats"] = {
-        "dealCount": len(digest["sections"]["biggestDeals"]),
-        "newsCount": len(digest["sections"]["topNews"]),
         "contractCount": len(digest["sections"]["govActivity"]),
         "moverCount": len(digest["sections"]["marketMovers"]),
         "regCount": len(digest["sections"]["regulatory"]),
@@ -378,8 +376,6 @@ def main():
     with open(out_path, "w") as f:
         json.dump(digest, f, indent=2)
 
-    print(f"Biggest Deals:       {digest['stats']['dealCount']}")
-    print(f"Top News:            {digest['stats']['newsCount']}")
     print(f"Gov Contracts:       {digest['stats']['contractCount']}")
     print(f"Market Movers:       {digest['stats']['moverCount']}")
     print(f"Regulatory:          {digest['stats']['regCount']}")
