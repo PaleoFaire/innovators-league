@@ -1,6 +1,14 @@
 // Auto-updated press releases
-// Last updated: 2026-04-16 08:20:12 UTC
+// Last updated: 2026-04-16 09:00:11 UTC
 const PRESS_RELEASES = [
+  { title: "Die Muttergesellschaft von RIMAN gibt eine Vereinbarung über eine geförderte Forschungsarbeit bekann", date: "2026-04-16", companies: "Alpha School, Applied Intuition, QuEra Computing", categories: "", source: "prnewswire_news_releases_list" },
+  { title: "La société mère de RIMAN annonce un accord de recherche sponsorisée pour faire progresser l'araliadi", date: "2026-04-16", companies: "Alpha School, Applied Intuition, QuEra Computing", categories: "", source: "prnewswire_news_releases_list" },
+  { title: "RIKEN amplía la supercomputación cuántica en Japón con la actualización del sistema Quantinuum", date: "2026-04-16", companies: "Quantinuum", categories: "", source: "prnewswire_news_releases_list" },
+  { title: "SimCorp nombra a Neslihan Yegul para dirigir la región del Reino Unido y el norte de Europa", date: "2026-04-16", companies: "Agility Robotics", categories: "hiring", source: "prnewswire_news_releases_list" },
+  { title: "SimCorp appoints Neslihan Yegul to Lead UK & Northern Europe", date: "2026-04-16", companies: "Agility Robotics, Parry Labs", categories: "hiring", source: "prnewswire_news_releases_list" },
+  { title: "SimCorp ernennt Neslihan Yegul zur Leiterin für Großbritannien und Nordeuropa", date: "2026-04-16", companies: "Agility Robotics", categories: "", source: "prnewswire_news_releases_list" },
+  { title: "Global Times: Data of first quarter in 15th Five-Year Plan period reveals three things unchanged", date: "2026-04-16", companies: "Reveal Technology", categories: "milestone", source: "prnewswire_news_releases_list" },
+  { title: "GAC Drives Global Growth at the 139th Canton Fair with Three Globalization Strategies", date: "2026-04-16", companies: "Machina Labs, Divergent, Skeleton Technologies", categories: "", source: "prnewswire_news_releases_list" },
   { title: "Nuvoton lance une diode laser violette de haute puissance (402 nm, 4,5 W) d'avant-garde, dont le ren", date: "2026-04-16", companies: "Xcimer Energy, Aurelius Systems, Diode", categories: "", source: "prnewswire_news_releases_list" },
   { title: "Milesight celebra su 15º aniversario y refuerza su estrategia \"Construir en profundidad con V.I.R.\", date: "2026-04-16", companies: "Runway", categories: "", source: "prnewswire_news_releases_list" },
   { title: "Milesight célèbre son 15e anniversaire et renforce sa stratégie « Build Deep with V.I.R. »", date: "2026-04-16", companies: "Asylon Robotics, ideaForge", categories: "", source: "prnewswire_news_releases_list" },
@@ -8,13 +16,10 @@ const PRESS_RELEASES = [
   { title: "Milesight feiert sein 15-jähriges Jubiläum und bekräftigt seine Strategie „Build Deep with V.I.R.\"", date: "2026-04-16", companies: "Runway", categories: "", source: "prnewswire_news_releases_list" },
   { title: "Hannover Messe: TeamViewer highlights Agentless Access and AI-supported maintenance for industrial o", date: "2026-04-16", companies: "Karman Industries, Diode, Quilter", categories: "partnership", source: "prnewswire_news_releases_list" },
   { title: "Scania expands Services 360 portfolio to include electric and used vehicles", date: "2026-04-16", companies: "Base Power, Arc Boats, Verkor", categories: "", source: "prnewswire_news_releases_list" },
-  { title: "Shipsy Named a Niche Player in the 2026 Gartner® Magic Quadrant™ and recognized in Critical Capabili", date: "2026-04-16", companies: "Cognition, Pipedream, Flexport", categories: "", source: "prnewswire_news_releases_list" },
-  { title: "Zerova signs Nordics distribution agreement with Skårebo", date: "2026-04-16", companies: "Pipedream, Flexport, Rune Technologies", categories: "partnership", source: "prnewswire_news_releases_list" },
-  { title: "Fleet Card Market Expected to Reach $4756.6 Billion by 2034", date: "2026-04-16", companies: "Matic Robotics, Agility Robotics, Rapid Robotics", categories: "funding", source: "prnewswire_news_releases_list" },
-  { title: "Medical Spa Market Outlook 2026-2031: $47.17 Bn by 2031 Driven by Surging Demand for Non-Invasive Ae", date: "2026-04-16", companies: "Vannevar Labs, Zipline, Reveal Technology", categories: "funding", source: "prnewswire_news_releases_list" },
+  { title: "Form 8.5 (EPT/RI)- Gamma Communications Plc", date: "", companies: "goTenna", categories: "", source: "globenewswire_all" },
+  { title: "Auctions/tap sales of mortgage covered bonds (SDRO’s) for the refinancing of RD Cibor6®, RD Cibor6® ", date: "", companies: "Attio, Fortera", categories: "", source: "globenewswire_all" },
+  { title: "CaoCao: Asset Management to Decide Autonomous Driving Race, Targets 100k Driverless Cars by 2030", date: "", companies: "Waymo, Claros, Forterra", categories: "hiring", source: "globenewswire_all" },
   { title: "Atos Supported the European Space Agency in Selecting Twelve Service Providers through an Open Compe", date: "", companies: "Twelve, PLD Space, Endurosat", categories: "ipo", source: "globenewswire_all" },
   { title: "CSG introduces counter-drone ammunition enabling soldiers to neutralize UAV threats with standard ri", date: "", companies: "Cape, Percepto, ideaForge", categories: "product", source: "globenewswire_all" },
   { title: "TME Pharma Announces Publication of NOX-A12 “Triple Therapy” Phase 1/2 Expansion Arm A Findings from", date: "", companies: "goTenna", categories: "partnership, product", source: "globenewswire_all" },
-  { title: "TME PHARMA ANNONCE LA PUBLICATION DANS *NATURE COMMUNICATIONS* DES RÉSULTATS DE L'ESSAI GLORIA CONCE", date: "", companies: "goTenna", categories: "ipo", source: "globenewswire_all" },
-  { title: "Nokia and Cinia partner to secure Finland’s critical infrastructure with advanced DDoS protection", date: "", companies: "The Boring Company, Pipedream, Galvanick", categories: "partnership", source: "globenewswire_all" },
 ];

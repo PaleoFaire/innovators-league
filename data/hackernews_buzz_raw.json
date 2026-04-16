@@ -3,14 +3,14 @@
     "id": 47788542,
     "title": "Darkbloom \u2013 Private inference on idle Macs",
     "url": "https://darkbloom.dev",
-    "score": 204,
-    "comments": 97,
+    "score": 222,
+    "comments": 109,
     "author": "twapi",
     "time": 1776312399,
     "date": "2026-04-16",
     "companies": [
-      "Rebellions",
       "Groq",
+      "Rebellions",
       "Etched"
     ],
     "keywords": [],
@@ -21,16 +21,16 @@
     "id": 47769089,
     "title": "Cybersecurity looks like proof of work now",
     "url": "https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html",
-    "score": 379,
-    "comments": 138,
+    "score": 393,
+    "comments": 142,
     "author": "dbreunig",
     "time": 1776190094,
     "date": "2026-04-14",
     "companies": [
-      "ideaForge",
       "Percepto",
-      "Cape",
-      "Galvanick"
+      "ideaForge",
+      "Galvanick",
+      "Cape"
     ],
     "keywords": [],
     "hn_url": "https://news.ycombinator.com/item?id=47769089",
@@ -40,8 +40,8 @@
     "id": 47788818,
     "title": "Moving a large-scale metrics pipeline from StatsD to OpenTelemetry / Prometheus",
     "url": "https://medium.com/airbnb-engineering/building-a-high-volume-metrics-pipeline-with-opentelemetry-and-vmagent-c714d6910b45",
-    "score": 26,
-    "comments": 6,
+    "score": 30,
+    "comments": 7,
     "author": "jmarbach",
     "time": 1776315665,
     "date": "2026-04-16",
@@ -56,8 +56,8 @@
     "id": 47785397,
     "title": "ChatGPT for Excel",
     "url": "https://chatgpt.com/apps/spreadsheets/",
-    "score": 189,
-    "comments": 133,
+    "score": 197,
+    "comments": 137,
     "author": "armcat",
     "time": 1776288065,
     "date": "2026-04-15",
@@ -72,21 +72,21 @@
     "id": 47780971,
     "title": "Show HN: Libretto \u2013 Making AI browser automations deterministic",
     "url": "https://github.com/saffron-health/libretto",
-    "score": 96,
+    "score": 100,
     "comments": 35,
     "author": "muchael",
     "time": 1776268674,
     "date": "2026-04-15",
     "companies": [
-      "Dusty Robotics",
-      "Figure AI",
-      "Formic",
       "Andromeda Surgical",
-      "Cellares",
+      "Formic",
       "Monumental",
+      "Dunia",
+      "Cellares",
+      "Figure AI",
+      "Dusty Robotics",
       "Roboton",
-      "Chef Robotics",
-      "Dunia"
+      "Chef Robotics"
     ],
     "keywords": [
       "AGI"
@@ -98,7 +98,7 @@
     "id": 47777897,
     "title": "Retrofitting JIT Compilers into C Interpreters",
     "url": "https://tratt.net/laurie/blog/2026/retrofitting_jit_compilers_into_c_interpreters.html",
-    "score": 76,
+    "score": 78,
     "comments": 20,
     "author": "ltratt",
     "time": 1776254424,
@@ -114,15 +114,15 @@
     "id": 47781286,
     "title": "CRISPR takes important step toward silencing Down syndrome\u2019s extra chromosome",
     "url": "https://medicalxpress.com/news/2026-04-crispr-bold-silencing-syndrome-extra.html",
-    "score": 150,
-    "comments": 76,
+    "score": 154,
+    "comments": 81,
     "author": "amichail",
     "time": 1776269988,
     "date": "2026-04-15",
     "companies": [
-      "Zipline",
       "Mammoth Biosciences",
-      "Kinova Robotics"
+      "Kinova Robotics",
+      "Zipline"
     ],
     "keywords": [],
     "hn_url": "https://news.ycombinator.com/item?id=47781286",
@@ -132,16 +132,16 @@
     "id": 47787877,
     "title": "Stealth signals are bypassing Iran\u2019s internet blackout",
     "url": "https://spectrum.ieee.org/iran-internet-blackout-satellite-tv",
-    "score": 94,
-    "comments": 35,
+    "score": 96,
+    "comments": 39,
     "author": "WaitWaitWha",
     "time": 1776305810,
     "date": "2026-04-16",
     "companies": [
-      "Armada",
-      "GHGSat",
       "Array Labs",
-      "Floodbase"
+      "Floodbase",
+      "GHGSat",
+      "Armada"
     ],
     "keywords": [],
     "hn_url": "https://news.ycombinator.com/item?id=47787877",
@@ -151,7 +151,7 @@
     "id": 47787957,
     "title": "Tailscale-rs: Official Rust library for embedding Tailscale",
     "url": "https://tailscale.com/blog/tailscale-rs-rust-tsnet-library-preview",
-    "score": 17,
+    "score": 19,
     "comments": 1,
     "author": "phantomathkg",
     "time": 1776306616,
@@ -164,33 +164,17 @@
     "source": "top"
   },
   {
-    "id": 47788845,
-    "title": "Sal Khan's AI revolution hasn't happened yet",
-    "url": "https://www.chalkbeat.org/2026/04/09/sal-khan-reflects-on-ai-in-schools-and-khanmigo/",
-    "score": 48,
-    "comments": 63,
-    "author": "the-mitr",
-    "time": 1776315944,
-    "date": "2026-04-16",
-    "companies": [
-      "Alpha School"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47788845",
-    "source": "top"
-  },
-  {
     "id": 47785948,
     "title": "Ohio prison inmates 'built computers and hid them in ceiling' (2017)",
     "url": "https://www.bbc.com/news/technology-39576394",
-    "score": 99,
-    "comments": 96,
+    "score": 100,
+    "comments": 97,
     "author": "harambae",
     "time": 1776290744,
     "date": "2026-04-15",
     "companies": [
-      "Daylight Computer",
-      "Built Robotics"
+      "Built Robotics",
+      "Daylight Computer"
     ],
     "keywords": [],
     "hn_url": "https://news.ycombinator.com/item?id=47785948",
@@ -214,29 +198,45 @@
     "source": "top"
   },
   {
-    "id": 47777633,
-    "title": "Show HN: SmallDocs - Markdown without the frustrations",
-    "url": "",
-    "score": 8,
-    "comments": 3,
-    "author": "FailMore",
-    "time": 1776252552,
+    "id": 47774971,
+    "title": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
+    "url": "https://www.gizmoweek.com/gemma-4-runs-iphone/",
+    "score": 280,
+    "comments": 171,
+    "author": "takumi123",
+    "time": 1776230346,
     "date": "2026-04-15",
     "companies": [
-      "Ample",
-      "Built Robotics",
-      "Anthropic",
-      "Matter"
+      "Groq",
+      "d-Matrix",
+      "Rebellions",
+      "Etched"
     ],
     "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47777633",
+    "hn_url": "https://news.ycombinator.com/item?id=47774971",
+    "source": "top"
+  },
+  {
+    "id": 47788845,
+    "title": "Sal Khan's AI revolution hasn't happened yet",
+    "url": "https://www.chalkbeat.org/2026/04/09/sal-khan-reflects-on-ai-in-schools-and-khanmigo/",
+    "score": 49,
+    "comments": 65,
+    "author": "the-mitr",
+    "time": 1776315944,
+    "date": "2026-04-16",
+    "companies": [
+      "Alpha School"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47788845",
     "source": "top"
   },
   {
     "id": 47772012,
     "title": "Stop Flock",
     "url": "https://stopflock.com",
-    "score": 952,
+    "score": 953,
     "comments": 291,
     "author": "cdrnsf",
     "time": 1776203765,
@@ -252,20 +252,20 @@
     "id": 47769796,
     "title": "Tell HN: Fiverr left customer files public and searchable",
     "url": "",
-    "score": 808,
+    "score": 809,
     "comments": 229,
     "author": "morpheuskafka",
     "time": 1776193000,
     "date": "2026-04-14",
     "companies": [
-      "ideaForge",
       "Ample",
-      "Percepto",
-      "Cape",
-      "goTenna",
       "Altos Labs",
+      "Percepto",
+      "Rigetti Computing",
+      "Cape",
+      "ideaForge",
       "Retro Biosciences",
-      "Rigetti Computing"
+      "goTenna"
     ],
     "keywords": [
       "AGI"
@@ -306,25 +306,6 @@
     "source": "best"
   },
   {
-    "id": 47774971,
-    "title": "Google Gemma 4 Runs Natively on iPhone with Full Offline AI Inference",
-    "url": "https://www.gizmoweek.com/gemma-4-runs-iphone/",
-    "score": 280,
-    "comments": 171,
-    "author": "takumi123",
-    "time": 1776230346,
-    "date": "2026-04-15",
-    "companies": [
-      "d-Matrix",
-      "Rebellions",
-      "Groq",
-      "Etched"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47774971",
-    "source": "best"
-  },
-  {
     "id": 47779730,
     "title": "Elevated errors on Claude.ai, API, Claude Code",
     "url": "https://claudestatus.com/",
@@ -344,7 +325,7 @@
     "id": 47784045,
     "title": "Why are Flock employees watching our children?",
     "url": "https://substack.com/home/post/p-193593234",
-    "score": 236,
+    "score": 237,
     "comments": 44,
     "author": "enaaem",
     "time": 1776281452,
@@ -393,7 +374,7 @@
     "title": "Gemini Robotics-ER 1.6",
     "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
     "score": 209,
-    "comments": 71,
+    "comments": 72,
     "author": "markerbrod",
     "time": 1776261751,
     "date": "2026-04-15",
@@ -441,7 +422,7 @@
     "title": "Saying goodbye to Agile",
     "url": "https://lewiscampbell.tech/blog/260414.html",
     "score": 176,
-    "comments": 250,
+    "comments": 251,
     "author": "matrixhelix",
     "time": 1776228337,
     "date": "2026-04-15",
@@ -486,6 +467,184 @@
     "source": "best"
   },
   {
+    "id": 47790455,
+    "title": "Show HN: GrahamBell \u2013 If blockchain mining looked like this, would you mine?",
+    "url": "",
+    "score": 1,
+    "comments": 0,
+    "author": "HurairahShamsi",
+    "time": 1776329946,
+    "date": "2026-04-16",
+    "companies": [
+      "Humane",
+      "Quilter",
+      "QuantWare",
+      "Diode",
+      "Gravitricity",
+      "Mariana Minerals",
+      "Built Robotics",
+      "Durin",
+      "Parallel Systems"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47790455",
+    "source": "new"
+  },
+  {
+    "id": 47790398,
+    "title": "Radiologists' Diagnostic Accuracy in Detecting ChatGPT-Generated Radiographs",
+    "url": "https://pubs.rsna.org/doi/10.1148/radiol.252094",
+    "score": 1,
+    "comments": 0,
+    "author": "doener",
+    "time": 1776329457,
+    "date": "2026-04-16",
+    "companies": [
+      "OpenAI"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47790398",
+    "source": "new"
+  },
+  {
+    "id": 47790375,
+    "title": "Avoiding Malloc for Small Strings in C with Variable Length Arrays (VLAs)",
+    "url": "https://medium.com/@yair.lenga/avoiding-malloc-for-small-strings-in-c-with-variable-length-arrays-vlas-7b1fbcae7193",
+    "score": 1,
+    "comments": 1,
+    "author": "yairlenga",
+    "time": 1776329235,
+    "date": "2026-04-16",
+    "companies": [
+      "Array Labs"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47790375",
+    "source": "new"
+  },
+  {
+    "id": 47790351,
+    "title": "Eurosky: Portal to the Atmosphere",
+    "url": "https://portal.eurosky.tech/",
+    "score": 1,
+    "comments": 0,
+    "author": "doener",
+    "time": 1776329024,
+    "date": "2026-04-16",
+    "companies": [
+      "Atmo"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47790351",
+    "source": "new"
+  },
+  {
+    "id": 47790322,
+    "title": "Breathing Exercises to Relieve Stress",
+    "url": "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/wellbeing/breathing-exercises",
+    "score": 1,
+    "comments": 0,
+    "author": "thunderbong",
+    "time": 1776328778,
+    "date": "2026-04-16",
+    "companies": [
+      "Matter"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47790322",
+    "source": "new"
+  },
+  {
+    "id": 47790290,
+    "title": "Forti FIDE \u2013 local instrument for rhetorical awareness (open source, GPL v3)",
+    "url": "https://fortifide.org",
+    "score": 1,
+    "comments": 0,
+    "author": "fluxussomnii",
+    "time": 1776328441,
+    "date": "2026-04-16",
+    "companies": [
+      "Xanadu Quantum Technologies",
+      "Tenstorrent"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47790290",
+    "source": "new"
+  },
+  {
+    "id": 47790270,
+    "title": "Show HN: I built Emailbottle \u2013 AI email assistant, no inbox access",
+    "url": "https://emailbottle.com",
+    "score": 3,
+    "comments": 0,
+    "author": "devshaded",
+    "time": 1776328266,
+    "date": "2026-04-16",
+    "companies": [
+      "Built Robotics"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47790270",
+    "source": "new"
+  },
+  {
+    "id": 47790237,
+    "title": "Any Color You Like: NIST Scientists Create 'Any Wavelength' Lasers",
+    "url": "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits",
+    "score": 1,
+    "comments": 0,
+    "author": "geox",
+    "time": 1776328090,
+    "date": "2026-04-16",
+    "companies": [
+      "Focused Energy",
+      "Aurelius Systems",
+      "Marvel Fusion",
+      "Xcimer Energy"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47790237",
+    "source": "new"
+  },
+  {
+    "id": 47790214,
+    "title": "Ask HN: Simple tooling for local LLM code critique without IDE integration?",
+    "url": "",
+    "score": 1,
+    "comments": 0,
+    "author": "gspr",
+    "time": 1776327904,
+    "date": "2026-04-16",
+    "companies": [],
+    "keywords": [
+      "LLM"
+    ],
+    "hn_url": "https://news.ycombinator.com/item?id=47790214",
+    "source": "new"
+  },
+  {
+    "id": 47790208,
+    "title": "Solid-state EV batteries are coming sooner than expected after another breakthro",
+    "url": "https://electrek.co/2026/04/15/solid-state-ev-batteries-coming-sooner-than-expected/",
+    "score": 1,
+    "comments": 0,
+    "author": "xbmcuser",
+    "time": 1776327821,
+    "date": "2026-04-16",
+    "companies": [
+      "Arc Boats",
+      "Shield AI",
+      "Solid Power",
+      "FREYR Battery",
+      "Base Power",
+      "Verkor",
+      "QuantumScape"
+    ],
+    "keywords": [],
+    "hn_url": "https://news.ycombinator.com/item?id=47790208",
+    "source": "new"
+  },
+  {
     "id": 47790156,
     "title": "Claude Mythos and the EU Cyber Resilience Act",
     "url": "https://til.andrew-quinn.me/posts/claude-mythos-and-the-eu-cyber-resiilience-act/",
@@ -495,8 +654,8 @@
     "time": 1776327375,
     "date": "2026-04-16",
     "companies": [
-      "Anthropic",
-      "Wardstone"
+      "Wardstone",
+      "Anthropic"
     ],
     "keywords": [],
     "hn_url": "https://news.ycombinator.com/item?id=47790156",
@@ -538,7 +697,7 @@
     "id": 47790086,
     "title": "Claude had enough of this user",
     "url": "https://old.reddit.com/r/OpenAI/comments/1smu2rk/claude_had_enough_of_this_user/",
-    "score": 1,
+    "score": 2,
     "comments": 0,
     "author": "mellosouls",
     "time": 1776326718,
@@ -613,8 +772,8 @@
     "date": "2026-04-16",
     "companies": [
       "Reveal Technology",
-      "Umbra",
       "Vannevar Labs",
+      "Umbra",
       "Rebellion Defense"
     ],
     "keywords": [],
@@ -632,219 +791,18 @@
     "date": "2026-04-16",
     "companies": [
       "The Boring Company",
-      "Percepto",
-      "Durin",
-      "Quantum Machines",
-      "Crusoe Energy",
       "Terranova",
-      "Fortastra",
-      "Pipedream",
+      "Percepto",
       "Together AI",
-      "Blumen Systems"
+      "Blumen Systems",
+      "Pipedream",
+      "Crusoe Energy",
+      "Fortastra",
+      "Quantum Machines",
+      "Durin"
     ],
     "keywords": [],
     "hn_url": "https://news.ycombinator.com/item?id=47789873",
-    "source": "new"
-  },
-  {
-    "id": 47789838,
-    "title": "Pfsync Packet Header Field Renamed to Avoid AI Bug Report Noise",
-    "url": "https://undeadly.org/cgi?action=article;sid=20260413055845",
-    "score": 1,
-    "comments": 0,
-    "author": "somat",
-    "time": 1776324796,
-    "date": "2026-04-16",
-    "companies": [
-      "Field AI"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47789838",
-    "source": "new"
-  },
-  {
-    "id": 47789821,
-    "title": "Show HN: Using Telegram as an indexed system for geo-notes",
-    "url": "",
-    "score": 1,
-    "comments": 0,
-    "author": "migelo",
-    "time": 1776324639,
-    "date": "2026-04-16",
-    "companies": [
-      "Ample",
-      "Xtend",
-      "Built Robotics",
-      "Latitude",
-      "Avalanche Energy",
-      "Matic Robotics",
-      "Cover",
-      "Together AI",
-      "CarbonCure Technologies",
-      "Flexport"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47789821",
-    "source": "new"
-  },
-  {
-    "id": 47789798,
-    "title": "European civil servants are being forced off WhatsApp",
-    "url": "https://www.politico.eu/article/european-civil-servants-new-messaging-services/",
-    "score": 3,
-    "comments": 0,
-    "author": "ZacnyLos",
-    "time": 1776324436,
-    "date": "2026-04-16",
-    "companies": [
-      "Retro Biosciences",
-      "Endurosat",
-      "Altos Labs"
-    ],
-    "keywords": [
-      "AGI"
-    ],
-    "hn_url": "https://news.ycombinator.com/item?id=47789798",
-    "source": "new"
-  },
-  {
-    "id": 47789775,
-    "title": "Can you steal $10k from a locked iPhone? [video]",
-    "url": "https://www.youtube.com/watch?v=PPJ6NJkmDAo",
-    "score": 1,
-    "comments": 0,
-    "author": "ProfDreamer",
-    "time": 1776324231,
-    "date": "2026-04-16",
-    "companies": [
-      "Runway"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47789775",
-    "source": "new"
-  },
-  {
-    "id": 47789733,
-    "title": "A premium infrastructure layer for hotels and event booking",
-    "url": "https://cooveb-organizers-waitlist-gules.vercel.app/",
-    "score": 1,
-    "comments": 0,
-    "author": "sshinde",
-    "time": 1776323937,
-    "date": "2026-04-16",
-    "companies": [
-      "The Boring Company",
-      "Percepto",
-      "Durin",
-      "Quantum Machines",
-      "Crusoe Energy",
-      "Terranova",
-      "Fortastra",
-      "Pipedream",
-      "Together AI",
-      "Blumen Systems"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47789733",
-    "source": "new"
-  },
-  {
-    "id": 47789652,
-    "title": "More Communities Like This?",
-    "url": "",
-    "score": 1,
-    "comments": 0,
-    "author": "ayorke",
-    "time": 1776323250,
-    "date": "2026-04-16",
-    "companies": [
-      "Together AI",
-      "Orangewood Labs"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47789652",
-    "source": "new"
-  },
-  {
-    "id": 47789618,
-    "title": "Coming Soon: Things That Matter in AI",
-    "url": "https://www.technologyreview.com/2026/04/14/1135298/coming-soon-10-things-that-matter-in-ai-right-now/",
-    "score": 2,
-    "comments": 0,
-    "author": "joozio",
-    "time": 1776322964,
-    "date": "2026-04-16",
-    "companies": [
-      "Matter"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47789618",
-    "source": "new"
-  },
-  {
-    "id": 47789613,
-    "title": "AI Tremor-Print: Biometric Identification System",
-    "url": "https://github.com/peterretief/biometric",
-    "score": 1,
-    "comments": 1,
-    "author": "peter_retief",
-    "time": 1776322926,
-    "date": "2026-04-16",
-    "companies": [
-      "Biofire"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47789613",
-    "source": "new"
-  },
-  {
-    "id": 47789612,
-    "title": "Allbirds stock sees a wild surge of 582% on pivot from sneakers to AI",
-    "url": "https://www.businessinsider.com/allbirds-stock-price-ai-newbird-gpus-compute-gpuaas-bird-shoes-2026-4",
-    "score": 1,
-    "comments": 0,
-    "author": "outlore",
-    "time": 1776322924,
-    "date": "2026-04-16",
-    "companies": [
-      "Surge AI"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47789612",
-    "source": "new"
-  },
-  {
-    "id": 47789545,
-    "title": "JIT Compilers and Cache Coherency",
-    "url": "https://joelsiks.com/posts/jit-compilers-and-cache-coherency/",
-    "score": 3,
-    "comments": 0,
-    "author": "joelsiks",
-    "time": 1776322412,
-    "date": "2026-04-16",
-    "companies": [
-      "Cohere"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47789545",
-    "source": "new"
-  },
-  {
-    "id": 47789455,
-    "title": "Lovable vs. Bolt vs. Replit: who's leaking the most Supabase data?",
-    "url": "https://securityscanner.dev/blog/lovable-vs-bolt-vs-replit-rls",
-    "score": 4,
-    "comments": 0,
-    "author": "slederer",
-    "time": 1776321594,
-    "date": "2026-04-16",
-    "companies": [
-      "ideaForge",
-      "Percepto",
-      "Cape"
-    ],
-    "keywords": [],
-    "hn_url": "https://news.ycombinator.com/item?id=47789455",
     "source": "new"
   }
 ]

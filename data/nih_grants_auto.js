@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-04-16 08:20:08 UTC
+// Last updated: 2026-04-16 09:00:02 UTC
 // Total grants: 626 | Known companies: 16 | SBIR: 15
-// Total funding tracked: $378,729,959
+// Total funding tracked: $378,855,286
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",

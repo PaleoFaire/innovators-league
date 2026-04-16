@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-04-16 08:20:36 UTC
+// Last updated: 2026-04-16 09:00:23 UTC
 const ARXIV_PAPERS = [
   { id: "2604.14142v1", title: "From $P(y|x)$ to $P(y)$: Investigating Reinforcement Learning in Pre-train Space", category: "Artificial Intelligence", published: "2026-04-15", sectors: "robotics", authors: "Yuqiao Tan, Minzheng Wang, Bo Liu et al." },
   { id: "2604.14128v1", title: "Rhetorical Questions in LLM Representations: A Linear Probing Study", category: "Artificial Intelligence", published: "2026-04-15", sectors: "ai", authors: "Louie Hong Yao, Vishesh Anand, Yuan Zhuang et al." },
