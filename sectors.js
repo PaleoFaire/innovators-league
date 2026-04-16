@@ -424,6 +424,37 @@ function sxRenderDrilldownHero(sectorName) {
       trendEl.style.display = 'none';
     }
   }
+
+  // Link to transformation page if one exists for this sector
+  var trLinkEl = document.getElementById('sx-dd-transformation-link');
+  if (trLinkEl) {
+    // Map sector -> transformation slug. Keys match COMPANIES[].sector values.
+    var sectorToTransformation = {
+      'Defense & Security': 'defense',
+      'Drones & Autonomous': 'defense',
+      'Ocean & Maritime': 'defense',
+      'Supersonic & Hypersonic': 'defense',
+      'Nuclear Energy': 'energy',
+      'Climate & Energy': 'energy',
+      'Energy & Climate': 'energy',
+      'Space & Aerospace': 'space',
+      'Transportation': 'automotive',
+      'Biotech & Health': 'pharma',
+      'Biotech & Medical': 'pharma',
+      'Advanced Manufacturing': 'materials',
+      'Robotics & Manufacturing': 'materials',
+      'Robotics & Automation': 'materials'
+    };
+    var slug = sectorToTransformation[sectorName];
+    if (slug) {
+      trLinkEl.href = 'transformation/' + slug + '.html';
+      var titleEl2 = document.getElementById('sx-dd-transformation-title');
+      if (titleEl2) titleEl2.textContent = 'View full ' + sectorName + ' transformation analysis';
+      trLinkEl.style.display = '';
+    } else {
+      trLinkEl.style.display = 'none';
+    }
+  }
 }
 
 function sxRenderSegments(sectorName) {

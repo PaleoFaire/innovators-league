@@ -1,0 +1,407 @@
+{
+  "_meta": {
+    "generated_at": "2026-04-16 08:42:14 UTC",
+    "total_signals": 22,
+    "by_vertical": {
+      "space": 3,
+      "defense": 5,
+      "autonomy": 3,
+      "ai_compute": 5,
+      "humanoid": 2,
+      "quantum": 2,
+      "hypersonics": 1,
+      "nuclear": 1
+    },
+    "by_signal_type": {
+      "rd_investment": 6,
+      "capital_shift": 4,
+      "forward_guidance": 8,
+      "partnership": 3,
+      "supply_chain": 1
+    },
+    "by_significance": {
+      "high": 13,
+      "medium": 8,
+      "low": 1
+    },
+    "source": "curated_seed"
+  },
+  "signals": [
+    {
+      "incumbent": "Lockheed Martin",
+      "ticker": "LMT",
+      "quarter": "2025-Q4",
+      "date": "2026-01-29",
+      "signal_type": "rd_investment",
+      "target_vertical": "space",
+      "frontier_companies_mentioned": [],
+      "quote": "We're building an operable space-based interceptor that we wanna fly in space by 2028.",
+      "implications": [
+        "Golden Dome architecture is moving from concept to hardware procurement.",
+        "Space-based weapons primes will see step-function RFP volume over next 24 months."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/lockheed-martin-lmt-q4-2025-earnings-transcript/"
+    },
+    {
+      "incumbent": "Lockheed Martin",
+      "ticker": "LMT",
+      "quarter": "2025-Q4",
+      "date": "2026-01-29",
+      "signal_type": "rd_investment",
+      "target_vertical": "defense",
+      "frontier_companies_mentioned": [],
+      "quote": "We successfully used the shipboard laser system, Lockheed Martin's Helios, to knock an incoming UAV right out of the sky.",
+      "implications": [
+        "Directed-energy counter-UAS is now operationally demonstrated on Navy vessels.",
+        "Pressures pure-kinetic incumbents; tailwind for power-electronics and beam-director suppliers."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/lockheed-martin-lmt-q4-2025-earnings-transcript/"
+    },
+    {
+      "incumbent": "Lockheed Martin",
+      "ticker": "LMT",
+      "quarter": "2025-Q4",
+      "date": "2026-01-29",
+      "signal_type": "capital_shift",
+      "target_vertical": "defense",
+      "frontier_companies_mentioned": [],
+      "quote": "Capital and IRAD investment is expected to approach $5 billion in 2026.",
+      "implications": [
+        "Step-function ~40% YoY increase in IRAD + capex suggests major new program investments.",
+        "Munitions Acceleration Center groundbreaking signals multi-year production capacity build."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/lockheed-martin-lmt-q4-2025-earnings-transcript/"
+    },
+    {
+      "incumbent": "Lockheed Martin",
+      "ticker": "LMT",
+      "quarter": "2025-Q4",
+      "date": "2026-01-29",
+      "signal_type": "rd_investment",
+      "target_vertical": "autonomy",
+      "frontier_companies_mentioned": [],
+      "quote": "You don't need a pilot in there.",
+      "implications": [
+        "Optionally-piloted Black Hawk capability is now demonstrated, not theoretical.",
+        "Signal to Shield AI, Anduril, Red Cat: primes are going full autonomy in rotary-wing."
+      ],
+      "significance": "medium",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/lockheed-martin-lmt-q4-2025-earnings-transcript/"
+    },
+    {
+      "incumbent": "RTX",
+      "ticker": "RTX",
+      "quarter": "2025-Q4",
+      "date": "2026-01-27",
+      "signal_type": "forward_guidance",
+      "target_vertical": "defense",
+      "frontier_companies_mentioned": [],
+      "quote": "Other key awards in the quarter included over $900 million of classified bookings.",
+      "implications": [
+        "Classified portfolio continues to scale \u2014 signal that black-budget programs (Golden Dome, space, hypersonics) are funding at pace."
+      ],
+      "significance": "medium",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/rtx-rtx-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "RTX",
+      "ticker": "RTX",
+      "quarter": "2025-Q4",
+      "date": "2026-01-27",
+      "signal_type": "rd_investment",
+      "target_vertical": "ai_compute",
+      "frontier_companies_mentioned": [],
+      "quote": "We've deployed our proprietary data analytics and AI tools across our factories.",
+      "implications": [
+        "Factory AI is table-stakes for primes; vendors of industrial AI (Palantir, C3, Cognite) likely beneficiaries."
+      ],
+      "significance": "low",
+      "sentiment": "neutral",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/rtx-rtx-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "Northrop Grumman",
+      "ticker": "NOC",
+      "quarter": "2025-Q4",
+      "date": "2026-01-27",
+      "signal_type": "capital_shift",
+      "target_vertical": "defense",
+      "frontier_companies_mentioned": [],
+      "quote": "Since 2021, we have successfully doubled our production capacity for tactical solid rocket motors at our ABL facility in West Virginia and are now advancing efforts to further increase that capacity by another 50%.",
+      "implications": [
+        "Solid rocket motor capacity remains a gating factor across missile programs; 50% more = major munition-program pull.",
+        "Tailwind for specialty chemicals + energetic-materials suppliers."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.benzinga.com/insights/news/26/01/50191849/northrop-grumman-q-2026-earnings-call-transcript"
+    },
+    {
+      "incumbent": "Northrop Grumman",
+      "ticker": "NOC",
+      "quarter": "2025-Q4",
+      "date": "2026-01-27",
+      "signal_type": "forward_guidance",
+      "target_vertical": "space",
+      "frontier_companies_mentioned": [],
+      "quote": "Space security or capabilities to protect space assets represent a tremendous growth opportunity for our company given our proven technology and experience in this domain.",
+      "implications": [
+        "Space protection is an explicit growth pillar \u2014 competitive pressure on True Anomaly, Starlab, Gravitics."
+      ],
+      "significance": "medium",
+      "sentiment": "bullish",
+      "source_url": "https://www.benzinga.com/insights/news/26/01/50191849/northrop-grumman-q-2026-earnings-call-transcript"
+    },
+    {
+      "incumbent": "Boeing",
+      "ticker": "BA",
+      "quarter": "2025-Q4",
+      "date": "2026-01-27",
+      "signal_type": "forward_guidance",
+      "target_vertical": "autonomy",
+      "frontier_companies_mentioned": [],
+      "quote": "The US Navy's MQ-25 successfully completed its inaugural engine run, moving it closer to first flight.",
+      "implications": [
+        "Autonomous aerial tanker is moving toward IOC \u2014 first large unmanned carrier-launched production program.",
+        "De-risks long-range autonomous aircraft as a category."
+      ],
+      "significance": "medium",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/boeing-ba-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "Palantir Technologies",
+      "ticker": "PLTR",
+      "quarter": "2025-Q4",
+      "date": "2026-02-02",
+      "signal_type": "rd_investment",
+      "target_vertical": "defense",
+      "frontier_companies_mentioned": [],
+      "quote": "Maven is also pushing to the edge. We completed a live-fire exercise with Maven coordinating with UAV assets through our new Maven Edge agent called MAGE.",
+      "implications": [
+        "Maven is now edge-deployed and orchestrating UAV swarms \u2014 not just a cloud targeting service.",
+        "Direct competitive pressure on Anduril Lattice's orchestration pitch; validates C2 startups that integrate."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "Palantir Technologies",
+      "ticker": "PLTR",
+      "quarter": "2025-Q4",
+      "date": "2026-02-02",
+      "signal_type": "forward_guidance",
+      "target_vertical": "ai_compute",
+      "frontier_companies_mentioned": [],
+      "quote": "AIP continues to fundamentally transform how quickly our customers realize value, collapsing the time from initial engagement to transformational impact.",
+      "implications": [
+        "Enterprise AI adoption timeline compressing \u2014 commercial tail-wind for AI platform players."
+      ],
+      "significance": "medium",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "NVIDIA",
+      "ticker": "NVDA",
+      "quarter": "2026-Q4",
+      "date": "2026-02-25",
+      "signal_type": "forward_guidance",
+      "target_vertical": "humanoid",
+      "frontier_companies_mentioned": [],
+      "quote": "Physical AI is here, having already contributed north of $6,000,000,000 in NVIDIA Corporation revenue in fiscal year 2026.",
+      "implications": [
+        "Robotics + humanoid compute stack is a >$6B business at NVIDIA \u2014 validates Figure, 1X, Apptronik, Agility.",
+        "Jetson + Isaac + GR00T ecosystem is the default stack. Competitors must interop or lose."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/nvidia-nvda-q4-2026-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "NVIDIA",
+      "ticker": "NVDA",
+      "quarter": "2026-Q4",
+      "date": "2026-02-25",
+      "signal_type": "forward_guidance",
+      "target_vertical": "ai_compute",
+      "frontier_companies_mentioned": [],
+      "quote": "Rubin will deliver improved resiliency and serviceability relative to Blackwell.",
+      "implications": [
+        "Rubin roadmap on track; two-generation cadence locks in for hyperscale customers.",
+        "Pressure on AMD MI450 and AWS Trainium to match on inference TCO."
+      ],
+      "significance": "medium",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/nvidia-nvda-q4-2026-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "AMD",
+      "ticker": "AMD",
+      "quarter": "2025-Q4",
+      "date": "2026-02-03",
+      "signal_type": "partnership",
+      "target_vertical": "ai_compute",
+      "frontier_companies_mentioned": [
+        "OpenAI"
+      ],
+      "quote": "In addition to our multi-generation partnership with OpenAI to deploy six gigawatts of Instinct GPUs, we are in active discussions with other customers on at-scale multi-year deployments.",
+      "implications": [
+        "6 GW OpenAI commitment locks AMD into the frontier-model training stack for multi-year.",
+        "Validates merchant-silicon optionality \u2014 OpenAI is not NVIDIA-exclusive."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/03/amd-amd-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "Tesla",
+      "ticker": "TSLA",
+      "quarter": "2025-Q4",
+      "date": "2026-01-28",
+      "signal_type": "capital_shift",
+      "target_vertical": "humanoid",
+      "frontier_companies_mentioned": [],
+      "quote": "We are going to take the Model S and X production space in our Fremont factory and convert that into an Optimus factory with a long-term goal of having a million units a year of Optimus robots.",
+      "implications": [
+        "Tesla is reallocating flagship auto capacity to humanoids \u2014 first prime to do so at scale.",
+        "Pressure on Figure, 1X, Apptronik to raise/deploy before Tesla cost curves hit."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/28/tesla-tsla-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "Rocket Lab",
+      "ticker": "RKLB",
+      "quarter": "2025-Q4",
+      "date": "2026-02-26",
+      "signal_type": "forward_guidance",
+      "target_vertical": "space",
+      "frontier_companies_mentioned": [],
+      "quote": "The priority will always be to bring a reliable rocket to market, even if it means taking a few extra months.",
+      "implications": [
+        "Neutron first launch slipping to Q4 2026 \u2014 rideshare / constellation customers must replan.",
+        "SpaceX medium-lift dominance extends through 2026."
+      ],
+      "significance": "high",
+      "sentiment": "bearish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "IonQ",
+      "ticker": "IONQ",
+      "quarter": "2025-Q4",
+      "date": "2026-02-25",
+      "signal_type": "partnership",
+      "target_vertical": "quantum",
+      "frontier_companies_mentioned": [],
+      "quote": "In quantum networking, among numerous deployments we partnered with the U.S. Air Force Research Lab to achieve the first qubit-to-photon frequency conversion in a field-deployable system.",
+      "implications": [
+        "Field-deployable quantum networking is no longer lab-bench \u2014 DoD procurement pathway is open.",
+        "Pulls forward demand for quantum-safe crypto and entanglement-distribution startups."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/ionq-ionq-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "IonQ",
+      "ticker": "IONQ",
+      "quarter": "2025-Q4",
+      "date": "2026-02-25",
+      "signal_type": "supply_chain",
+      "target_vertical": "quantum",
+      "frontier_companies_mentioned": [
+        "SkyWater Technology"
+      ],
+      "quote": "By leveraging Skywater's unique expertise and pioneering quantum semiconductor scaling within secure, trusted environments, we will be positioned to accelerate manufacturability of IonQ, Inc.'s entire quantum platform roadmap.",
+      "implications": [
+        "IonQ acquiring a US-based Tier 1 foundry \u2014 vertical integration of quantum stack.",
+        "Secure/trusted fab capacity becomes a strategic lever; watch RigettiComputing and Atom Computing response."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/ionq-ionq-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "Kratos Defense",
+      "ticker": "KTOS",
+      "quarter": "2025-Q4",
+      "date": "2026-02-23",
+      "signal_type": "rd_investment",
+      "target_vertical": "hypersonics",
+      "frontier_companies_mentioned": [],
+      "quote": "Kratos has been selected by the Pentagon to develop highly maneuverable Mach 5+ hypersonic missiles including advancing in-flight steering and propulsion systems.",
+      "implications": [
+        "Kratos is now a prime on hypersonic propulsion \u2014 no longer just a target-drone shop.",
+        "Competitive pressure on Hermeus, Castelion, Venus Aerospace to show flight hardware."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/23/kratos-ktos-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "Kratos Defense",
+      "ticker": "KTOS",
+      "quarter": "2025-Q4",
+      "date": "2026-02-23",
+      "signal_type": "forward_guidance",
+      "target_vertical": "autonomy",
+      "frontier_companies_mentioned": [],
+      "quote": "The Marines are expected to field the first CCA. We will not let them down.",
+      "implications": [
+        "Collaborative Combat Aircraft program pulling into the field \u2014 Kratos Valkyrie has first-mover customer.",
+        "Watch Anduril Fury, GA-ASI Gambit to respond at Kratos price point."
+      ],
+      "significance": "medium",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/23/kratos-ktos-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "Meta Platforms",
+      "ticker": "META",
+      "quarter": "2025-Q4",
+      "date": "2026-01-28",
+      "signal_type": "capital_shift",
+      "target_vertical": "ai_compute",
+      "frontier_companies_mentioned": [],
+      "quote": "We are now seeing a major AI acceleration.",
+      "implications": [
+        "Meta 2026 capex guided $115B-$135B \u2014 step function in data-center buildout.",
+        "Validates massive demand tail for power, cooling, networking, memory, and optical components."
+      ],
+      "significance": "high",
+      "sentiment": "bullish",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/28/meta-meta-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "incumbent": "Constellation Energy",
+      "ticker": "CEG",
+      "quarter": "2025-Q4",
+      "date": "2026-02-24",
+      "signal_type": "partnership",
+      "target_vertical": "nuclear",
+      "frontier_companies_mentioned": [
+        "CyrusOne"
+      ],
+      "quote": "Constellation's subsidiary Calpine LLC signed a new 380-megawatt agreement with Dallas-based CyrusOne to connect and serve a new data center adjacent to the Freestone Energy Center in Freestone County, Texas.",
+      "implications": [
+        "Hyperscaler power deals continue to lock in behind-the-meter generation capacity.",
+        "Tailwind for SMR developers (X-energy, NuScale, Oklo, Kairos) as nuclear PPAs scale."
+      ],
+      "significance": "medium",
+      "sentiment": "bullish",
+      "source_url": "https://www.constellationenergy.com/news/2026/02/constellation-reports-fourth-quarter-and-full-year-2025-results.html"
+    }
+  ]
+}

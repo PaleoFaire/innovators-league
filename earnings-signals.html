@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earnings Signals | ROS Startup Database</title>
+    <meta name="description" content="Every significant frontier-tech quote from public-company earnings calls, tagged by vertical. Sources: SEC EDGAR, IR pages, call transcripts.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260416">
+    <link rel="stylesheet" href="earnings-signals-page.css?v=20260416">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Intelligence</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
+            <a href="brief.html" class="nav-link">Frontier Daily</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
+                    <a href="sectors.html" class="nav-dropdown-link">Sectors</a>
+                    <a href="transformation.html" class="nav-dropdown-link">Transformation</a>
+                    <a href="investors.html" class="nav-dropdown-link">Investors</a>
+                    <a href="jobs.html" class="nav-dropdown-link">Talent</a>
+                    <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                    <a href="patents.html" class="nav-dropdown-link">Patents</a>
+                    <a href="earnings-signals.html" class="nav-dropdown-link">Earnings Signals</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="launches.html" class="nav-dropdown-link">Launches</a>
+                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                    <a href="research.html" class="nav-dropdown-link">Research</a>
+                    <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
+        <span aria-current="page">Earnings Signals</span>
+    </div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow" style="color: #22c55e;">EARNINGS INTELLIGENCE · SEC EDGAR + IR</p>
+            <h1 class="hero-title">Earnings Signals &mdash; What Incumbents Are Saying About Frontier Tech</h1>
+            <p class="hero-subtitle">Every significant quote from public company earnings calls, tagged by vertical. Sources: SEC EDGAR, IR pages, call transcripts. Every signal links to a verifiable transcript.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Summary stats strip -->
+        <section class="section">
+            <div class="container">
+                <div id="es-summary-stats" class="es-summary-row"></div>
+            </div>
+        </section>
+
+        <!-- Filter bar -->
+        <section class="section" id="es-filters-section">
+            <div class="container">
+                <div class="es-filters">
+                    <input type="search" id="es-search" class="es-search" placeholder="Search company, vertical, or quote text..." autocomplete="off">
+                    <select id="es-filter-vertical" class="es-select" aria-label="Filter by vertical">
+                        <option value="">All verticals</option>
+                        <option value="fusion">Fusion</option>
+                        <option value="quantum">Quantum</option>
+                        <option value="hypersonics">Hypersonics</option>
+                        <option value="autonomy">Autonomy</option>
+                        <option value="humanoid">Humanoid robotics</option>
+                        <option value="space">Space</option>
+                        <option value="biotech">Biotech</option>
+                        <option value="advanced_materials">Advanced materials</option>
+                        <option value="nuclear">Nuclear</option>
+                        <option value="ai_compute">AI compute</option>
+                        <option value="defense">Defense</option>
+                    </select>
+                    <select id="es-filter-type" class="es-select" aria-label="Filter by signal type">
+                        <option value="">All signal types</option>
+                        <option value="rd_investment">R&amp;D investment</option>
+                        <option value="partnership">Partnership</option>
+                        <option value="competitive_threat">Competitive threat</option>
+                        <option value="supply_chain">Supply chain</option>
+                        <option value="capital_shift">Capital shift</option>
+                        <option value="forward_guidance">Forward guidance</option>
+                    </select>
+                    <select id="es-filter-significance" class="es-select" aria-label="Filter by significance">
+                        <option value="">All significance</option>
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>
+                    </select>
+                    <select id="es-filter-quarter" class="es-select" aria-label="Filter by quarter">
+                        <option value="">All quarters</option>
+                    </select>
+                    <button id="es-reset" class="es-reset-btn" aria-label="Reset filters">Reset</button>
+                </div>
+                <div id="es-result-count" class="es-result-count"></div>
+            </div>
+        </section>
+
+        <!-- Signal cards grid -->
+        <section class="section" id="es-signals-section">
+            <div class="container">
+                <div id="es-signals-grid" class="es-signals-grid"></div>
+
+                <div id="es-empty-state" class="es-empty-state" style="display:none;">
+                    <h3>No signals match your filters</h3>
+                    <p>Try clearing filters or broadening the search.</p>
+                </div>
+
+                <div id="es-loading-note" class="es-data-note">
+                    Loading verified earnings signals...
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology -->
+        <section class="section">
+            <div class="container">
+                <div class="es-data-note">
+                    <strong>Methodology.</strong>
+                    Signals are extracted from public earnings call transcripts and IR press releases, then tagged by <em>signal type</em> (R&amp;D investment, partnership, competitive threat, supply chain, capital shift, forward guidance) and <em>target vertical</em> (one of 11 frontier-tech categories). Every quote is <strong>verbatim</strong> and linked to its source transcript &mdash; we never paraphrase or synthesize. Primary sources: <a href="https://www.sec.gov/edgar" target="_blank" rel="noopener" style="color:var(--accent);">SEC EDGAR</a>, company IR pages, <a href="https://www.fool.com/earnings/" target="_blank" rel="noopener" style="color:var(--accent);">Motley Fool transcripts</a>, and Benzinga. The pipeline runs monthly and is augmented by LLM-assisted extraction (Claude) when the API key is configured.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="premium-footer">
+      <div class="footer-inner">
+        <p style="color:rgba(255,255,255,0.4); font-size:12px; text-align:center;">The Innovators League &middot; Data: SEC EDGAR + public earnings call transcripts (authoritative sources)</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="utils.js?v=20260416"></script>
+    <script src="auth.js?v=20260416"></script>
+    <script src="data.js?v=20260416"></script>
+    <script src="earnings-signals.js?v=20260416"></script>
+</body>
+</html>

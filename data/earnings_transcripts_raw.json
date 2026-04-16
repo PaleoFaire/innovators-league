@@ -1,0 +1,354 @@
+{
+  "_meta": {
+    "generated_at": "2026-04-16 08:42:14 UTC",
+    "total_targets": 31,
+    "with_excerpts": 25,
+    "sources": [
+      "none",
+      "sec_edgar",
+      "seed"
+    ]
+  },
+  "records": [
+    {
+      "ticker": "LMT",
+      "company": "Lockheed Martin",
+      "quarter": "2025-Q4",
+      "date": "2026-01-29",
+      "transcript_excerpts": [
+        "We're building an operable space-based interceptor that we wanna fly in space by 2028.",
+        "We successfully used the shipboard laser system, Lockheed Martin's Helios, to knock an incoming UAV right out of the sky.",
+        "Capital and IRAD investment is expected to approach $5 billion in 2026."
+      ],
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/lockheed-martin-lmt-q4-2025-earnings-transcript/",
+      "source": "seed"
+    },
+    {
+      "ticker": "RTX",
+      "company": "RTX",
+      "quarter": "2025-Q4",
+      "date": "2026-01-27",
+      "transcript_excerpts": [
+        "We've deployed our proprietary data analytics and AI tools across our factories.",
+        "Other key awards in the quarter included over $900 million of classified bookings."
+      ],
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/rtx-rtx-q4-2025-earnings-call-transcript/",
+      "source": "seed"
+    },
+    {
+      "ticker": "NOC",
+      "company": "Northrop Grumman",
+      "quarter": "2025-Q4",
+      "date": "2026-01-27",
+      "transcript_excerpts": [
+        "Since 2021, we have successfully doubled our production capacity for tactical solid rocket motors at our ABL facility in West Virginia and are now advancing efforts to further increase that capacity by another 50%.",
+        "Space security or capabilities to protect space assets represent a tremendous growth opportunity for our company given our proven technology and experience in this domain."
+      ],
+      "source_url": "https://www.benzinga.com/insights/news/26/01/50191849/northrop-grumman-q-2026-earnings-call-transcript",
+      "source": "seed"
+    },
+    {
+      "ticker": "BA",
+      "company": "Boeing",
+      "quarter": "2025-Q4",
+      "date": "2026-01-27",
+      "transcript_excerpts": [
+        "The US Navy's MQ-25 successfully completed its inaugural engine run, moving it closer to first flight."
+      ],
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/boeing-ba-q4-2025-earnings-call-transcript/",
+      "source": "seed"
+    },
+    {
+      "ticker": "GD",
+      "company": "General Dynamics",
+      "quarter": "2026-Q1",
+      "date": "2025-10-24",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/40533/000004053325000045/0000040533-25-000045-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "LHX",
+      "company": "L3Harris Technologies",
+      "quarter": "2026-Q1",
+      "date": "2025-10-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/202058/000020205825000173/0000202058-25-000173-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "LDOS",
+      "company": "Leidos",
+      "quarter": "2026-Q1",
+      "date": "2025-11-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692025000060/0001336920-25-000060-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "SAIC",
+      "company": "Science Applications",
+      "quarter": "2026-Q1",
+      "date": "2025-12-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1571123/000157112325000189/0001571123-25-000189-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "BAESY",
+      "company": "BAE Systems",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.baesystems.com/en/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "quarter": "2026-Q4",
+      "date": "2026-02-25",
+      "transcript_excerpts": [
+        "Physical AI is here, having already contributed north of $6,000,000,000 in NVIDIA Corporation revenue in fiscal year 2026.",
+        "Compute equals revenues. Without compute, there is no way to generate tokens.",
+        "Rubin will deliver improved resiliency and serviceability relative to Blackwell."
+      ],
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/25/nvidia-nvda-q4-2026-earnings-call-transcript/",
+      "source": "seed"
+    },
+    {
+      "ticker": "AMD",
+      "company": "AMD",
+      "quarter": "2025-Q4",
+      "date": "2026-02-03",
+      "transcript_excerpts": [
+        "In addition to our multi-generation partnership with OpenAI to deploy six gigawatts of Instinct GPUs, we are in active discussions with other customers on at-scale multi-year deployments.",
+        "With the MI350 series, we are entering the next phase of Instinct adoption."
+      ],
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/03/amd-amd-q4-2025-earnings-call-transcript/",
+      "source": "seed"
+    },
+    {
+      "ticker": "TSM",
+      "company": "TSMC",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investor.tsmc.com/",
+      "source": "none"
+    },
+    {
+      "ticker": "ASML",
+      "company": "ASML",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.asml.com/en/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "AMAT",
+      "company": "Applied Materials",
+      "quarter": "2026-Q1",
+      "date": "2026-02-19",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/0001628280-26-009694-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "KLAC",
+      "company": "KLA",
+      "quarter": "2026-Q1",
+      "date": "2026-01-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000008/0000319201-26-000008-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "INTC",
+      "company": "Intel",
+      "quarter": "2026-Q1",
+      "date": "2025-11-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000179/0000050863-25-000179-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "VST",
+      "company": "Vistra",
+      "quarter": "2026-Q1",
+      "date": "2025-11-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281925000094/0001692819-25-000094-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "CEG",
+      "company": "Constellation Energy",
+      "quarter": "2025-Q4",
+      "date": "2026-02-24",
+      "transcript_excerpts": [
+        "Constellation's subsidiary Calpine LLC signed a new 380-megawatt agreement with Dallas-based CyrusOne to connect and serve a new data center adjacent to the Freestone Energy Center in Freestone County, Texas."
+      ],
+      "source_url": "https://www.constellationenergy.com/news/2026/02/constellation-reports-fourth-quarter-and-full-year-2025-results.html",
+      "source": "seed"
+    },
+    {
+      "ticker": "EXC",
+      "company": "Exelon",
+      "quarter": "2026-Q1",
+      "date": "2025-11-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1109357/000110935725000182/0001109357-25-000182-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "CCJ",
+      "company": "Cameco",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.cameco.com/invest",
+      "source": "none"
+    },
+    {
+      "ticker": "LEU",
+      "company": "Centrus Energy",
+      "quarter": "2026-Q1",
+      "date": "2025-11-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828025049844/0001628280-25-049844-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "F",
+      "company": "Ford",
+      "quarter": "2026-Q1",
+      "date": "2025-10-23",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/37996/000003799625000186/0000037996-25-000186-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "GM",
+      "company": "General Motors",
+      "quarter": "2026-Q1",
+      "date": "2025-10-21",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1467858/000146785825000143/0001467858-25-000143-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "STLA",
+      "company": "Stellantis",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.stellantis.com/en/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "SIEGY",
+      "company": "Siemens",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.siemens.com/investor/en/",
+      "source": "none"
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "quarter": "2025-Q4",
+      "date": "2026-01-28",
+      "transcript_excerpts": [
+        "We are going to take the Model S and X production space in our Fremont factory and convert that into an Optimus factory with a long-term goal of having a million units a year of Optimus robots.",
+        "We expect to start production in April."
+      ],
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/28/tesla-tsla-q4-2025-earnings-call-transcript/",
+      "source": "seed"
+    },
+    {
+      "ticker": "PLTR",
+      "company": "Palantir Technologies",
+      "quarter": "2025-Q4",
+      "date": "2026-02-02",
+      "transcript_excerpts": [
+        "Maven is also pushing to the edge. We completed a live-fire exercise with Maven coordinating with UAV assets through our new Maven Edge agent called MAGE.",
+        "AIP continues to fundamentally transform how quickly our customers realize value, collapsing the time from initial engagement to transformational impact.",
+        "We closed 61 deals over $10 million."
+      ],
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/",
+      "source": "seed"
+    },
+    {
+      "ticker": "META",
+      "company": "Meta Platforms",
+      "quarter": "2025-Q4",
+      "date": "2026-01-28",
+      "transcript_excerpts": [
+        "We are now seeing a major AI acceleration.",
+        "2026 to be a year where this wave accelerates even further on several fronts."
+      ],
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/01/28/meta-meta-q4-2025-earnings-call-transcript/",
+      "source": "seed"
+    },
+    {
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "quarter": "2026-Q1",
+      "date": "2026-01-28",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/0001193125-26-027207-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "quarter": "2026-Q1",
+      "date": "2025-10-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000123/0001018724-25-000123-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "GOOGL",
+      "company": "Alphabet",
+      "quarter": "2026-Q1",
+      "date": "2025-10-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/0001652044-25-000091-index.htm",
+      "source": "sec_edgar"
+    }
+  ]
+}

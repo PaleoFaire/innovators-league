@@ -21,6 +21,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="styles.css?v=20260325">
     <link rel="stylesheet" href="company-profile.css?v=20260325">
+    <link rel="stylesheet" href="earnings-signals-page.css?v=20260416">
 </head>
 <body class="company-profile-page">
     <!-- Minimal Navigation -->
@@ -40,9 +41,11 @@
                 <div class="nav-dropdown-content">
                     <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
                     <a href="sectors.html" class="nav-dropdown-link">Sectors</a>
+                    <a href="transformation.html" class="nav-dropdown-link">Transformation</a>
                     <a href="investors.html" class="nav-dropdown-link">Investors</a>
                     <a href="jobs.html" class="nav-dropdown-link">Talent</a>
                     <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                    <a href="earnings-signals.html" class="nav-dropdown-link">Earnings Signals</a>
                 </div>
             </div>
             <div class="nav-dropdown">
@@ -165,6 +168,15 @@
                         <h3>Thesis Neighbors</h3>
                         <p style="font-size: 12px; color: var(--text-muted); margin-bottom: 12px;">Companies making a similar technical bet</p>
                         <div id="thesis-neighbors-list"></div>
+                    </div>
+
+                    <!-- Industry Transformation Feature — shown when this company is in a tracked industry -->
+                    <div class="competitive-card" id="transformation-feature-card" style="display:none;">
+                        <h3 style="display:flex; align-items:center; gap:8px;"><span style="font-size:18px;">&#128279;</span> Industry Transformation</h3>
+                        <p style="font-size:12px; color:var(--text-muted); margin-bottom:12px;" id="transformation-feature-desc"></p>
+                        <a id="transformation-feature-link" href="transformation.html" style="display:inline-flex; align-items:center; gap:6px; padding:8px 14px; border-radius:999px; background:rgba(255,107,44,0.12); color:var(--accent); text-decoration:none; font-size:13px; font-weight:600; border:1px solid rgba(255,107,44,0.3);">
+                            View full transformation report &rarr;
+                        </a>
                     </div>
 
                     <!-- Why They Win/Lose -->
@@ -294,6 +306,19 @@
                         <div id="gov-demand-content"></div>
                     </div>
                 </div>
+            </section>
+
+            <!-- Incumbent Signals — quotes from public-co earnings calls that mention this company -->
+            <section class="profile-section profile-incumbent-signals" id="profile-incumbent-signals" style="display:none;">
+                <h2 class="section-title">
+                    <span class="section-icon">📞</span>
+                    Incumbent Signals
+                    <span class="section-timestamp" id="incumbent-signals-updated"></span>
+                </h2>
+                <p style="color: rgba(255,255,255,0.55); font-size: 13px; margin: -4px 0 14px; line-height: 1.55;">
+                    Verbatim quotes from public-company earnings calls that reference this company. Sourced from SEC EDGAR, IR pages, and call transcripts. <a href="earnings-signals.html" style="color:#22c55e; text-decoration:none;">Browse all signals &rarr;</a>
+                </p>
+                <div id="incumbent-signals-list" class="incumbent-signals-list"></div>
             </section>
 
             <!-- Actions Bar -->
@@ -474,5 +499,77 @@
     <script src="data/product_launches_auto.js?v=20260325"></script>
     <script src="app.js?v=20260325"></script>
     <script src="company-profile.js?v=20260325"></script>
+    <script src="earnings-signals.js?v=20260416"></script>
+    <script>
+    /* Incumbent Signals widget bootstrap.
+       Reads the current company name from company-profile.js (exposed on
+       window.CURRENT_COMPANY_NAME if available, or from ?c= query), then
+       filters earnings_signals_auto.json for any signals that mention it. */
+    (function () {
+      function companyNameFromPage() {
+        try {
+          const qs = new URLSearchParams(window.location.search);
+          const c = qs.get('c') || qs.get('company');
+          if (c) return c.trim();
+        } catch (e) {}
+        // Fallback: try reading the profile hero h1
+        const h = document.querySelector('#profile-hero h1');
+        if (h && h.textContent) return h.textContent.trim();
+        return '';
+      }
+
+      function fmtDate(d) {
+        if (!d) return '';
+        const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d);
+        if (!m) return d;
+        const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        return months[parseInt(m[2], 10) - 1] + ' ' + parseInt(m[3], 10) + ', ' + m[1];
+      }
+
+      function esc(s) {
+        return String(s == null ? '' : s).replace(/[&<>"']/g, (c) =>
+          ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+      }
+
+      async function hydrate() {
+        if (!window.ROS_EARNINGS_SIGNALS) return;
+        const name = companyNameFromPage();
+        if (!name) return;
+
+        const all = await window.ROS_EARNINGS_SIGNALS.fetchSignals();
+        if (!all.length) return;
+
+        const matches = window.ROS_EARNINGS_SIGNALS.filterByMention(all, name);
+        if (!matches.length) return;
+
+        const section = document.getElementById('profile-incumbent-signals');
+        const list    = document.getElementById('incumbent-signals-list');
+        if (!section || !list) return;
+
+        list.innerHTML = matches.map(s => `
+          <div class="incumbent-signal-item">
+            <div class="incumbent-signal-head">
+              <span class="incumbent-name">${esc(s.incumbent || '—')} <span style="color:rgba(255,255,255,0.4); font-family:'Space Grotesk',monospace; font-weight:500;">${esc(s.ticker || '')}</span></span>
+              <span class="incumbent-meta">${esc(s.quarter || '—')} &middot; ${esc(fmtDate(s.date))}</span>
+            </div>
+            <div class="incumbent-signal-quote">&ldquo;${esc(s.quote || '')}&rdquo;</div>
+            <div class="incumbent-signal-foot">
+              <span>${esc((s.target_vertical || '').replace('_', ' '))} &middot; ${esc((s.signal_type || '').replace('_', ' '))}</span>
+              <a href="${esc(s.source_url || '#')}" target="_blank" rel="noopener">Read transcript &rarr;</a>
+            </div>
+          </div>
+        `).join('');
+
+        section.style.display = '';
+      }
+
+      // Give the profile page a moment to render
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => setTimeout(hydrate, 400));
+      } else {
+        setTimeout(hydrate, 400);
+      }
+    })();
+    </script>
 </body>
 </html>

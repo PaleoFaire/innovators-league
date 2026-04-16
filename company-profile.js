@@ -557,8 +557,40 @@
   function renderCompetitiveSection(company) {
     renderCompetitors(company);
     renderThesisNeighbors(company);
+    renderTransformationFeature(company);
     renderThesis(company);
     renderMoatEvidence(company);
+  }
+
+  function renderTransformationFeature(company) {
+    const card = document.getElementById('transformation-feature-card');
+    const descEl = document.getElementById('transformation-feature-desc');
+    const linkEl = document.getElementById('transformation-feature-link');
+    if (!card || !company || !company.sector) return;
+
+    // Map sector to transformation page slug
+    const sectorToTransformation = {
+      'Defense & Security': { slug: 'defense', label: 'Defense' },
+      'Drones & Autonomous': { slug: 'defense', label: 'Defense' },
+      'Ocean & Maritime': { slug: 'defense', label: 'Defense' },
+      'Supersonic & Hypersonic': { slug: 'defense', label: 'Defense' },
+      'Nuclear Energy': { slug: 'energy', label: 'Energy' },
+      'Climate & Energy': { slug: 'energy', label: 'Energy' },
+      'Energy & Climate': { slug: 'energy', label: 'Energy' },
+      'Space & Aerospace': { slug: 'space', label: 'Space' },
+      'Transportation': { slug: 'automotive', label: 'Automotive' },
+      'Biotech & Health': { slug: 'pharma', label: 'Pharma' },
+      'Biotech & Medical': { slug: 'pharma', label: 'Pharma' },
+      'Advanced Manufacturing': { slug: 'materials', label: 'Materials' },
+      'Robotics & Manufacturing': { slug: 'materials', label: 'Materials' },
+      'Robotics & Automation': { slug: 'materials', label: 'Materials' }
+    };
+    const match = sectorToTransformation[company.sector];
+    if (!match) { card.style.display = 'none'; return; }
+
+    if (descEl) descEl.textContent = `${escapeHtml(company.name)} is featured in the ${match.label} transformation report — the full stack breakdown, verified contract wins, capital flow, and earnings signals.`;
+    if (linkEl) linkEl.href = `transformation/${match.slug}.html`;
+    card.style.display = '';
   }
 
   function renderCompetitors(company) {

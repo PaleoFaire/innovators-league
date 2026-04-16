@@ -589,6 +589,18 @@ jobs:
         run: python scripts/fetch_launches.py
         continue-on-error: true
 
+      - name: Earnings Call Transcripts (fetch raw)
+        run: python scripts/fetch_earnings_transcripts.py
+        env:
+          EARNINGS_API_KEY: ${{ secrets.EARNINGS_API_KEY }}
+        continue-on-error: true
+
+      - name: Earnings Signals (LLM extraction)
+        run: python scripts/extract_earnings_signals.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        continue-on-error: true
+
       - name: Federal Grant Flow (NSF+NIH+ARPA-E merge)
         run: python scripts/fetch_federal_grants.py
         continue-on-error: true
