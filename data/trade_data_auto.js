@@ -1,5 +1,5 @@
 // Auto-generated Census Bureau trade data
-// Last updated: 2026-04-16 09:02:15 UTC
+// Last updated: 2026-04-16 10:10:35 UTC
 // Tracking 10 HS codes across manufacturing sectors
 const TRADE_DATA_AUTO = [
   {
@@ -129,6 +129,20 @@ const TRADE_DATA_AUTO = [
     lastUpdated: "2026-04-16",
   },
   {
+    hsCode: "8501",
+    category: "Electric motors and generators",
+    tradeType: "exports",
+    latestMonthValue: 432926965,
+    latestMonthFormatted: "$433M",
+    yoyChange: "+1.3%",
+    momChange: "+16.3%",
+    trend: "stable",
+    relevantCompanies: ["Figure AI", "Agility Robotics", "RISE Robotics", "Standard Bots"],
+    relevantSector: "robotics",
+    period: "2025-12",
+    lastUpdated: "2026-04-16",
+  },
+  {
     hsCode: "8507",
     category: "Electric accumulators (batteries)",
     tradeType: "imports",
@@ -185,6 +199,34 @@ const TRADE_DATA_AUTO = [
     lastUpdated: "2026-04-16",
   },
   {
+    hsCode: "3926",
+    category: "Plastics/composite articles",
+    tradeType: "imports",
+    latestMonthValue: 1126157372,
+    latestMonthFormatted: "$1.1B",
+    yoyChange: "+1.4%",
+    momChange: "+4.7%",
+    trend: "stable",
+    relevantCompanies: ["Axial Composites", "Layup Parts", "Fiber Dynamics"],
+    relevantSector: "manufacturing",
+    period: "2026-01",
+    lastUpdated: "2026-04-16",
+  },
+  {
+    hsCode: "3926",
+    category: "Plastics/composite articles",
+    tradeType: "exports",
+    latestMonthValue: 704613554,
+    latestMonthFormatted: "$705M",
+    yoyChange: "-5.3%",
+    momChange: "-3.1%",
+    trend: "contracting",
+    relevantCompanies: ["Axial Composites", "Layup Parts", "Fiber Dynamics"],
+    relevantSector: "manufacturing",
+    period: "2025-12",
+    lastUpdated: "2026-04-16",
+  },
+  {
     hsCode: "9013",
     category: "Lasers and optical devices",
     tradeType: "imports",
@@ -210,6 +252,20 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Lumotive", "Ouster", "Aeva Technologies", "Voyant Photonics"],
     relevantSector: "sensors",
     period: "2025-12",
+    lastUpdated: "2026-04-16",
+  },
+  {
+    hsCode: "8471",
+    category: "Data processing machines / computers",
+    tradeType: "imports",
+    latestMonthValue: 27488062732,
+    latestMonthFormatted: "$27.5B",
+    yoyChange: "+123.6%",
+    momChange: "-1.5%",
+    trend: "surging",
+    relevantCompanies: ["NVIDIA", "Cerebras", "Groq"],
+    relevantSector: "ai",
+    period: "2026-01",
     lastUpdated: "2026-04-16",
   },
   {
