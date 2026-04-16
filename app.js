@@ -4542,44 +4542,31 @@ function initNewsTicker() {
   const scroll = document.getElementById('ticker-scroll');
   if (!scroll) return;
 
+  // ONLY frontier-tech news headlines of real importance — no stock moves,
+  // no hiring, no gov contracts, no patents. Just actual news stories.
+  // Source: COMPANY_SIGNALS_AUTO (from aggregate_news.js RSS pipeline
+  // with Round 6 quality gates: garbage filter + title-match + relevance).
+  // HIGH impact only, so the bar is funding rounds / IPO filings / major
+  // acquisitions / regulatory approvals that made real news.
   let items = [];
 
-  // Tight AUTHORITATIVE-ONLY filter: only show signals whose data came from
-  // a verifiable source. RSS-matched news (media_buzz/news_activity) is excluded
-  // because the company-name-matching produces false positives.
-  const TRUSTED_SIGNAL_TYPES = new Set([
-    'stock_movement',   // from stocks_auto.js (Yahoo Finance)
-    'hiring_surge',     // from jobs_auto.js (Greenhouse/Lever/Ashby)
-    'hiring_growth',    // same
-    'gov_traction',     // from SAM.gov (government)
-    'ip_moat',          // from USPTO (government)
-  ]);
+  const newsSource = (typeof COMPANY_SIGNALS_AUTO !== 'undefined' && Array.isArray(COMPANY_SIGNALS_AUTO))
+    ? COMPANY_SIGNALS_AUTO
+    : (typeof COMPANY_SIGNALS !== 'undefined' && Array.isArray(COMPANY_SIGNALS) ? COMPANY_SIGNALS : []);
 
-  if (typeof GROWTH_SIGNALS !== 'undefined' && Array.isArray(GROWTH_SIGNALS) && GROWTH_SIGNALS.length > 0) {
-    const trusted = GROWTH_SIGNALS.filter(s => TRUSTED_SIGNAL_TYPES.has(s.type));
-    const sorted = trusted.sort((a, b) => {
-      const aStr = typeof a.strength === 'number' ? a.strength : 3;
-      const bStr = typeof b.strength === 'number' ? b.strength : 3;
-      if (aStr !== bStr) return bStr - aStr;
-      return String(b.date || '').localeCompare(String(a.date || ''));
-    }).slice(0, 20);
+  if (newsSource.length > 0) {
+    // HIGH-impact items only. LOW and MEDIUM are still in the Live Signals
+    // panel, but the scrolling ticker stays premium-only.
+    const headlines = newsSource
+      .filter(s => s && s.headline && (s.impact === 'high'))
+      .slice(0, 20);
 
-    items = sorted.map(s => {
-      const typeEmoji = {
-        stock_movement: '📈', hiring_surge: '🧑‍💼', hiring_growth: '🧑‍💼',
-        ip_moat: '📜', gov_traction: '🏛️'
-      }[s.type] || '📊';
-      const sourceTag = {
-        stock_movement: 'Yahoo Finance', hiring_surge: 'Greenhouse/Lever',
-        hiring_growth: 'Greenhouse/Lever', ip_moat: 'USPTO', gov_traction: 'SAM.gov'
-      }[s.type] || '';
-      return {
-        text: `${typeEmoji} ${s.company} · ${s.detail || ''}`,
-        time: `${sourceTag} · ${formatTickerDate(s.date)}`,
-        priority: (s.strength >= 3) ? 'high' : 'medium',
-        kind: 'signal'
-      };
-    });
+    items = headlines.map(s => ({
+      text: `${s.company ? s.company + ': ' : ''}${s.headline}`,
+      time: s.source ? `via ${s.source}` : (s.time || ''),
+      priority: 'high',
+      kind: 'news'
+    }));
   }
 
   const renderTicker = (allItems) => {
@@ -4591,17 +4578,19 @@ function initNewsTicker() {
         scroll.appendChild(divider);
       }
       const el = document.createElement('span');
-      const kindClass = item.kind === 'funding' ? 'ticker-funding' : '';
-      el.className = `ticker-item ticker-priority-${item.priority || 'medium'} ${kindClass}`.trim();
-      const prefix = item.kind === 'funding' ? '💰 ' : '';
-      el.innerHTML = `<span>${prefix}${item.text}</span><span class="ticker-time">${item.time || ''}</span>`;
+      el.className = `ticker-item ticker-priority-${item.priority || 'high'}`;
+      el.innerHTML = `<span>${item.text}</span><span class="ticker-time">${item.time || ''}</span>`;
       scroll.appendChild(el);
     });
   };
 
-  // Render with authoritative signals only — no RSS-scraped funding splice
-  // (deals_auto.json has too many mis-attributed amounts to trust)
-  if (items.length > 0) renderTicker(items);
+  if (items.length > 0) {
+    renderTicker(items);
+  } else {
+    // Nothing fresh + HIGH-impact — hide the entire bar rather than show filler
+    const bar = document.getElementById('news-ticker');
+    if (bar) bar.style.display = 'none';
+  }
 }
 
 // ─── FIELD NOTES — Founder Intelligence from the ROS network ───
