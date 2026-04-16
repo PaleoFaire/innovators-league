@@ -84,9 +84,9 @@
     <nav class="section-nav" id="section-nav" aria-label="Page sections">
         <div class="section-nav-inner">
             <a href="#innovator50" class="section-nav-dot" data-section="innovator50" title="Innovators League 30"><span>IL30</span></a>
+            <a href="#discovery-hub" class="section-nav-dot" data-section="discovery-hub" title="Innovation Map"><span>Map</span></a>
             <a href="#companies" class="section-nav-dot" data-section="companies" title="Company Database"><span>Database</span></a>
             <a href="#events" class="section-nav-dot" data-section="events" title="Events & Experiences"><span>Events</span></a>
-            <a href="#discovery-hub" class="section-nav-dot" data-section="discovery-hub" title="Innovation Map"><span>Map</span></a>
             <a href="#innovator-scores" class="section-nav-dot" data-section="innovator-scores" title="Frontier Index"><span>Index</span></a>
             <a href="#capital-flows" class="section-nav-dot" data-section="capital-flows" title="Capital Flows"><span>Capital</span></a>
             <a href="#intelligence-hub" class="section-nav-dot" data-section="intelligence-hub" title="Intelligence Hub"><span>Intel Hub</span></a>
@@ -94,8 +94,7 @@
             <a href="#thesis-collision" class="section-nav-dot" data-section="thesis-collision" title="Thesis Collision"><span>Thesis</span></a>
             <a href="#predictive-scores" class="section-nav-dot" data-section="predictive-scores" title="Predictive Analytics"><span>Predict</span></a>
             <a href="#network-graph" class="section-nav-dot" data-section="network-graph" title="Network Graph"><span>Network</span></a>
-            <a href="#portfolio-builder" class="section-nav-dot" data-section="portfolio-builder" title="Portfolio Builder"><span>Portfolio</span></a>
-            <a href="#private-community" class="section-nav-dot" data-section="private-community" title="Community"><span>Community</span></a>
+            <a href="#portfolio-builder" class="section-nav-dot" data-section="portfolio-builder" title="Portfolio & War Room"><span>Portfolio</span></a>
         </div>
     </nav>
 
@@ -124,11 +123,6 @@
                     <span class="stat-number" id="country-count">0</span>
                     <span class="stat-label">Countries</span>
                 </div>
-                <div class="stat-divider"></div>
-                <div class="stat">
-                    <span class="stat-number">30</span>
-                    <span class="stat-label">IL30 Companies</span>
-                </div>
             </div>
         </div>
     </header>
@@ -138,38 +132,6 @@
         <div class="ticker-label">LIVE</div>
         <div class="ticker-scroll" id="ticker-scroll"></div>
     </div>
-
-    <!-- About the Innovators League -->
-    <section id="about-section" class="about-section">
-      <div class="about-inner">
-        <div class="about-eyebrow">WHY THE INNOVATORS LEAGUE</div>
-        <h2 class="about-headline">We're in the golden age of innovation — but the dark age of storytelling.</h2>
-        <p class="about-body">The most important companies in the world are being built right now — in factories, labs, and hangars you've never heard of. But nobody is covering them. The Innovators League exists to change that.</p>
-        <p class="about-body">We don't just track companies. We visit their factories. We sit across from their founders. We walk their production lines. Then we tell their story to tens of thousands of investors and builders who want to know what's next.</p>
-        <div class="about-stats">
-          <div class="about-stat">
-            <div class="about-stat-value" id="about-company-count">665</div>
-            <div class="about-stat-label">Companies Tracked</div>
-          </div>
-          <div class="about-stat">
-            <div class="about-stat-value">30</div>
-            <div class="about-stat-label">IL30 Companies</div>
-          </div>
-          <div class="about-stat">
-            <div class="about-stat-value">16</div>
-            <div class="about-stat-label">Sectors Monitored</div>
-          </div>
-          <div class="about-stat">
-            <div class="about-stat-value">6</div>
-            <div class="about-stat-label">Field Notes Published</div>
-          </div>
-        </div>
-        <div class="about-cta-row">
-          <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="about-cta-primary">Read the Rational Optimist</a>
-          <a href="#innovator50" class="about-cta-secondary">Meet the IL30</a>
-        </div>
-      </div>
-    </section>
 
     <!-- The Innovators League 30 — The Hero Credential -->
     <section class="innovator50-section" id="innovator50">
@@ -233,6 +195,30 @@
         <h2 class="section-title">This Week's Movers</h2>
         <div id="movers-content"></div>
       </div>
+    </section>
+
+    <!-- Innovation Map — positioned above the database for "map first, then explore" flow -->
+    <section id="discovery-hub" class="discovery-hub-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">GLOBAL INTELLIGENCE</p>
+                <h2>Innovation Map</h2>
+                <p><span class="dynamic-company-count"></span>+ frontier tech companies across defense, space, energy, biotech, and robotics — mapped worldwide.</p>
+            </div>
+        </div>
+        <div class="discovery-view active" id="discovery-map-view">
+            <div id="innovators-map-primary"></div>
+            <div class="map-overlay-stats">
+                <div class="map-stat">
+                    <span class="map-stat-number" id="map-company-count">0</span>
+                    <span class="map-stat-label">Companies</span>
+                </div>
+                <div class="map-stat">
+                    <span class="map-stat-number" id="map-country-count">0</span>
+                    <span class="map-stat-label">Countries</span>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Company Database Section (Full-Featured) -->
@@ -345,120 +331,7 @@
       <div id="podcast-latest"></div>
     </section>
 
-    <!-- WHY THIS EXISTS — Credibility + Value Prop -->
-    <section class="why-section" style="padding:64px 0;background:var(--bg-primary);border-bottom:1px solid var(--border);">
-        <div class="container">
-            <div style="max-width:800px;margin:0 auto;text-align:center;margin-bottom:48px;">
-                <p class="section-eyebrow">WHY THE INNOVATORS LEAGUE</p>
-                <h2 style="font-family:'Space Grotesk',sans-serif;font-size:clamp(24px,4vw,36px);font-weight:700;color:var(--text-primary);margin-bottom:16px;">Frontier tech needs different intelligence.</h2>
-                <p style="font-size:15px;color:var(--text-secondary);line-height:1.7;max-width:640px;margin:0 auto;">Existing databases were built for SaaS and fintech. They can't score a nuclear microreactor company or a defense AI startup because they don't track the things that actually determine who wins: government contracts, regulatory clearances, technology readiness levels, and founder pedigree. We built the intelligence platform this ecosystem actually needs.</p>
-            </div>
-
-            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;margin-bottom:48px;">
-                <div style="padding:24px;background:var(--bg-secondary);border-radius:12px;border:1px solid var(--border);">
-                    <div style="font-size:28px;margin-bottom:8px;">&#127891;</div>
-                    <h4 style="font-size:14px;font-weight:700;color:var(--text-primary);margin-bottom:8px;">Gov-Weighted Scoring</h4>
-                    <p style="font-size:13px;color:var(--text-muted);line-height:1.5;">25% of our Frontier Index is government traction. No other platform weights defense contracts and regulatory milestones into company scoring.</p>
-                </div>
-                <div style="padding:24px;background:var(--bg-secondary);border-radius:12px;border:1px solid var(--border);">
-                    <div style="font-size:28px;margin-bottom:8px;">&#128161;</div>
-                    <h4 style="font-size:14px;font-weight:700;color:var(--text-primary);margin-bottom:8px;">76 Thesis Clusters</h4>
-                    <p style="font-size:13px;color:var(--text-muted);line-height:1.5;">See every company building the same technical bet. Fusion, quantum, autonomous drones, hypersonics &mdash; know the competitive landscape at the thesis level.</p>
-                </div>
-                <div style="padding:24px;background:var(--bg-secondary);border-radius:12px;border:1px solid var(--border);">
-                    <div style="font-size:28px;margin-bottom:8px;">&#9876;&#65039;</div>
-                    <h4 style="font-size:14px;font-weight:700;color:var(--text-primary);margin-bottom:8px;">War Game Simulator</h4>
-                    <p style="font-size:13px;color:var(--text-muted);line-height:1.5;">Model 40+ geopolitical, economic, and technology scenarios against your portfolio with probability-weighted impact analysis. Only here.</p>
-                </div>
-                <div style="padding:24px;background:var(--bg-secondary);border-radius:12px;border:1px solid var(--border);">
-                    <div style="font-size:28px;margin-bottom:8px;">&#128200;</div>
-                    <h4 style="font-size:14px;font-weight:700;color:var(--text-primary);margin-bottom:8px;">15+ Live Data Feeds</h4>
-                    <p style="font-size:13px;color:var(--text-muted);line-height:1.5;">SAM.gov contracts, SEC filings, USPTO patents, FDA actions, Federal Register, arXiv papers, GitHub releases &mdash; aggregated and scored daily.</p>
-                </div>
-            </div>
-
-            <!-- Who It's For -->
-            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-bottom:48px;">
-                <div style="padding:20px 24px;background:linear-gradient(135deg,rgba(255,107,44,0.06) 0%,rgba(255,107,44,0.02) 100%);border-radius:12px;border:1px solid rgba(255,107,44,0.15);display:flex;align-items:flex-start;gap:16px;">
-                    <span style="font-size:24px;line-height:1;">&#128176;</span>
-                    <div>
-                        <h4 style="font-size:14px;font-weight:700;color:var(--text-primary);margin-bottom:4px;">For Investors</h4>
-                        <p style="font-size:13px;color:var(--text-secondary);line-height:1.5;margin:0;">Deal flow engine, thesis matching, valuation benchmarks, co-investment network analysis, and 40-scenario war gaming. Replace a junior analyst.</p>
-                    </div>
-                </div>
-                <div style="padding:20px 24px;background:linear-gradient(135deg,rgba(34,197,94,0.06) 0%,rgba(34,197,94,0.02) 100%);border-radius:12px;border:1px solid rgba(34,197,94,0.15);display:flex;align-items:flex-start;gap:16px;">
-                    <span style="font-size:24px;line-height:1;">&#128640;</span>
-                    <div>
-                        <h4 style="font-size:14px;font-weight:700;color:var(--text-primary);margin-bottom:4px;">For Founders</h4>
-                        <p style="font-size:13px;color:var(--text-secondary);line-height:1.5;margin:0;">Free database listing, investor introductions, competitive landscape intelligence, government contract radar, and community access.</p>
-                    </div>
-                </div>
-                <div style="padding:20px 24px;background:linear-gradient(135deg,rgba(96,165,250,0.06) 0%,rgba(96,165,250,0.02) 100%);border-radius:12px;border:1px solid rgba(96,165,250,0.15);display:flex;align-items:flex-start;gap:16px;">
-                    <span style="font-size:24px;line-height:1;">&#128202;</span>
-                    <div>
-                        <h4 style="font-size:14px;font-weight:700;color:var(--text-primary);margin-bottom:4px;">For Analysts</h4>
-                        <p style="font-size:13px;color:var(--text-secondary);line-height:1.5;margin:0;">Exportable intelligence, patent portfolio data, regulatory timelines, sector momentum tracking, and citation-ready research.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Credibility Bar -->
-            <div style="display:flex;align-items:center;justify-content:center;gap:32px;flex-wrap:wrap;padding:24px;background:var(--bg-secondary);border-radius:12px;border:1px solid var(--border);">
-                <div style="text-align:center;">
-                    <div style="font-size:24px;font-weight:700;color:var(--accent);font-family:'Space Grotesk',sans-serif;" id="why-company-count"></div>
-                    <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;">Companies Tracked</div>
-                </div>
-                <div style="width:1px;height:32px;background:var(--border);"></div>
-                <div style="text-align:center;">
-                    <div style="font-size:24px;font-weight:700;color:var(--accent);font-family:'Space Grotesk',sans-serif;" id="dynamic-vc-count">18</div>
-                    <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;">VC Firms Profiled</div>
-                </div>
-                <div style="width:1px;height:32px;background:var(--border);"></div>
-                <div style="text-align:center;">
-                    <div style="font-size:24px;font-weight:700;color:var(--accent);font-family:'Space Grotesk',sans-serif;">Daily</div>
-                    <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;">Data Updates</div>
-                </div>
-                <div style="width:1px;height:32px;background:var(--border);"></div>
-                <div style="text-align:center;">
-                    <div style="font-size:24px;font-weight:700;color:var(--accent);font-family:'Space Grotesk',sans-serif;">15+</div>
-                    <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;">Gov & Data Sources</div>
-                </div>
-                <div style="width:1px;height:32px;background:var(--border);"></div>
-                <div style="text-align:center;">
-                    <div style="font-size:24px;font-weight:700;color:var(--accent);font-family:'Space Grotesk',sans-serif;">40+</div>
-                    <div style="font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;">War Game Scenarios</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- TIER 1: PRIMARY DISCOVERY -->
-
-    <!-- Innovation Map Section -->
-    <section id="discovery-hub" class="discovery-hub-section">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">GLOBAL INTELLIGENCE</p>
-                <h2>Innovation Map</h2>
-                <p><span class="dynamic-company-count"></span>+ frontier tech companies across defense, space, energy, biotech, and robotics — mapped worldwide.</p>
-            </div>
-        </div>
-
-        <!-- Map View -->
-        <div class="discovery-view active" id="discovery-map-view">
-            <div id="innovators-map-primary"></div>
-            <div class="map-overlay-stats">
-                <div class="map-stat">
-                    <span class="map-stat-number" id="map-company-count">0</span>
-                    <span class="map-stat-label">Companies</span>
-                </div>
-                <div class="map-stat">
-                    <span class="map-stat-number" id="map-country-count">0</span>
-                    <span class="map-stat-label">Countries</span>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- PROPRIETARY INTELLIGENCE -->
 
@@ -620,18 +493,6 @@
         </div>
     </section>
 
-    <!-- Market Pulse: Live Stock Prices -->
-    <section class="market-pulse-section" id="market-pulse">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">MARKET PULSE</p>
-                <h2>Public Company Tracker</h2>
-                <p>Live stock prices for publicly traded frontier tech companies in our database.</p>
-            </div>
-            <div class="market-pulse-grid-wrap" id="market-pulse-grid"></div>
-        </div>
-    </section>
-
     <!-- Funding Tracker -->
     <section class="funding-tracker-section" id="funding-tracker">
         <div class="container">
@@ -682,7 +543,6 @@
             <!-- Intelligence Hub Tabs -->
             <div class="intel-hub-tabs">
                 <button class="intel-hub-tab active" data-intel="alerts">🔔 Alerts</button>
-                <button class="intel-hub-tab" data-intel="signals">📊 Signals & News</button>
                 <button class="intel-hub-tab" data-intel="movements">🔄 Movement Tracker</button>
                 <button class="intel-hub-tab" data-intel="community">🌐 Community & Regulatory</button>
             </div>
@@ -700,29 +560,7 @@
                 </div>
                 <div class="alerts-feed" id="alerts-feed"></div>
             </div>
-            <!-- Signals & News Panel (Combined) -->
-            <div class="intel-hub-panel" id="intel-signals-panel" style="display: none;">
-                <p class="panel-explainer">Signal Strength aggregates hiring velocity, web traffic, news sentiment, and GitHub activity. Higher = stronger momentum.</p>
-                <div class="alt-data-controls">
-                    <select id="alt-sort" class="lb-filter-select">
-                        <option value="strength">Sort: Signal Strength</option>
-                        <option value="hiring">Sort: Hiring Velocity</option>
-                        <option value="name">Sort: A-Z</option>
-                    </select>
-                    <select id="feed-category" class="lb-filter-select">
-                        <option value="all">All Categories</option>
-                        <option value="funding">Funding</option>
-                        <option value="contract">Contracts</option>
-                        <option value="milestone">Milestones</option>
-                        <option value="ipo">IPO / Exit</option>
-                    </select>
-                    <select id="feed-sector" class="lb-filter-select">
-                        <option value="all">All Sectors</option>
-                    </select>
-                </div>
-                <div class="alt-data-grid" id="alt-data-grid"></div>
-                <div class="feed-panel" id="feed-news-panel" style="margin-top: 24px;"></div>
-            </div>
+            <!-- Signals & News Panel — REMOVED (redundant with Growth Signals + News Ticker) -->
             <!-- Movement Tracker Panel -->
             <div class="intel-hub-panel" id="intel-movements-panel" style="display: none;">
                 <div class="movement-tabs">
@@ -1201,8 +1039,8 @@
       <button onclick="openPartnerPortal('founder-apply')" style="padding:12px 28px; background:#FF6B2C; color:#000; font-weight:700; font-size:14px; border:none; border-radius:8px; cursor:pointer;">Apply to Be Listed</button>
     </div>
 
-    <!-- Private Community — PILLAR 4 -->
-    <section class="private-community-section" id="private-community">
+    <!-- Private Community — REMOVED: Join the Deal Engine -->
+    <section class="private-community-section" id="private-community" style="display:none"
         <div class="container">
             <div class="private-community-hero">
                 <div class="pc-badge">&#128274; INVITE ONLY</div>
@@ -1399,8 +1237,8 @@
         </div>
     </div>
 
-    <!-- Sector Reports -->
-    <section class="sector-reports-section" id="sector-reports">
+    <!-- Sector Reports — REMOVED -->
+    <section class="sector-reports-section" id="sector-reports" style="display:none"
         <div class="container">
             <div class="section-header">
                 <p class="section-eyebrow">SECTOR INTELLIGENCE</p>

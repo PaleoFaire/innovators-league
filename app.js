@@ -2184,16 +2184,16 @@ document.addEventListener('DOMContentLoaded', () => {
     'discovery-hub':          [initDiscoveryHub],
     'companies':              [initFilters, function() { renderCompanies(COMPANIES); }, initCompare, initMarketMap, initDatabaseViewToggle],
     'news-ticker':            [initNewsTicker],
-    'intelligence-hub':       [initMovementTracker, initAltData, initAlertsCenter, initIntelligenceHub, initIntelFeed],
+    'intelligence-hub':       [initMovementTracker, initAlertsCenter, initIntelligenceHub],
     'capital-flows':          [initDealTracker, initCapitalFlowsTabs, initRevenueTable],
     'funding-tracker':        [initFundingTracker],
-    'market-pulse':           [initMarketPulse],
+    // 'market-pulse': REMOVED — stock prices now shown on company cards
     'growth-signals':         [initGrowthSignals],
     'leaderboard':            [initLeaderboard, initEfficiencyLeaderboard],
     'trl-rankings':           [initTRLDashboard],
     'mafia-explorer':         [initMafiaExplorer],
     'request-for-startups':   [initRequestForStartups],
-    'conviction-stack':       [renderConvictionStack],
+    // 'conviction-stack': MOVED to portfolio-builder
     'innovator50':            [initInnovator50, renderIL30Showcase],
     'events':                 [initEvents],
     'podcast-section':        [initPodcastSection],
@@ -2205,9 +2205,9 @@ document.addEventListener('DOMContentLoaded', () => {
     'predictive-scores':      [initPredictiveScoring],
     'network-graph':          [initNetworkGraph],
     'competitive-battlefield':[initBattlefieldMap],
-    'portfolio-builder':      [initPortfolioBuilder],
+    'portfolio-builder':      [initPortfolioBuilder, renderConvictionStack],
     'anomaly-alerts':         [initAnomalyAlerts],
-    'sector-reports':         [initSectorReports],
+    // 'sector-reports': REMOVED
     'historical-tracking':    [initHistoricalTracking],
     'thesis-collision':       [initThesisCollision]
   };
@@ -3487,6 +3487,15 @@ function renderCompanies(companies) {
         ${company.location}
       </p>
       ${metaItems.length ? `<div class="card-meta">${metaItems.join('')}</div>` : ''}
+      ${(() => {
+        if (!company.ticker || typeof STOCK_PRICES === 'undefined' || !STOCK_PRICES[company.ticker]) return '';
+        const sp = STOCK_PRICES[company.ticker];
+        if (!sp || !sp.price) return '';
+        const pct = parseFloat(sp.changePercent || 0);
+        const dir = pct >= 0 ? 'up' : 'down';
+        const sign = pct >= 0 ? '+' : '';
+        return `<div class="card-stock-badge stock-${dir}"><span class="stock-ticker">${company.ticker}</span><span class="stock-price">$${Number(sp.price).toFixed(2)}</span><span class="stock-change ${dir}">${sign}${pct.toFixed(1)}%</span></div>`;
+      })()}
       <p class="card-description">${company.description}</p>
       <div class="card-tags">
         ${(company.tags || []).slice(0, 3).map(t => `<span class="tag">${t}</span>`).join('')}
@@ -4768,13 +4777,16 @@ function initFundingTracker() {
     visibleRounds.forEach(round => {
       const row = document.createElement('div');
       row.className = 'funding-row';
+      const leadText = Array.isArray(round.leadInvestors)
+        ? round.leadInvestors.filter(Boolean).join(', ')
+        : (round.lead || round.investor || '—');
       row.innerHTML = `
-        <span class="funding-company">${round.company}</span>
-        <span class="funding-amount">${round.amount}</span>
-        <span><span class="funding-stage-tag">${round.stage}</span></span>
-        <span class="funding-lead">${round.lead}</span>
-        <span class="funding-val">${round.valuation}</span>
-        <span class="funding-date">${round.date}</span>
+        <span class="funding-company">${escapeHtml(round.company || '')}</span>
+        <span class="funding-amount">${escapeHtml(round.lastRoundAmount || round.amount || '—')}</span>
+        <span><span class="funding-stage-tag">${escapeHtml(round.lastRound || round.stage || '—')}</span></span>
+        <span class="funding-lead">${escapeHtml(leadText)}</span>
+        <span class="funding-val">${escapeHtml(round.valuation || '—')}</span>
+        <span class="funding-date">${escapeHtml(round.lastRoundDate || round.date || '—')}</span>
       `;
       row.addEventListener('click', () => openCompanyModal(round.company));
       grid.appendChild(row);
@@ -5273,6 +5285,29 @@ function initDealTracker() {
 function initGrowthSignals() {
   const grid = document.getElementById('signals-grid');
   if (!grid || typeof GROWTH_SIGNALS === 'undefined' || typeof SIGNAL_TYPES === 'undefined') return;
+
+  // Surface methodology callout so users understand how signals work
+  if (typeof GROWTH_SIGNAL_METHODOLOGY !== 'undefined') {
+    const meth = GROWTH_SIGNAL_METHODOLOGY;
+    const methBox = document.createElement('div');
+    methBox.className = 'metric-methodology-box compact';
+    methBox.innerHTML = `
+      <h4 style="margin:0 0 8px;font-size:14px;font-weight:700;">How Growth Signals Work</h4>
+      <p style="font-size:13px;color:var(--text-secondary);margin:0 0 12px;line-height:1.5;">
+        We track ${Object.keys(meth.signalTypes || {}).length} signal types across every company.
+        Each signal is assigned a strength (1-10 scale) and lead time indicating how far in advance it typically predicts performance.
+      </p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;">
+        ${Object.entries(meth.signalTypes || {}).slice(0, 6).map(([key, val]) => `
+          <div style="font-size:12px;padding:8px;background:rgba(255,255,255,0.03);border-radius:6px;">
+            <strong style="color:var(--text-primary);">${key.replace(/_/g, ' ')}</strong>
+            <span style="color:var(--text-muted);"> — Lead: ${val.leadTime || '?'}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+    grid.parentElement.insertBefore(methBox, grid);
+  }
 
   // Sort by strength (strong first) then date
   const sorted = [...GROWTH_SIGNALS].sort((a, b) => {

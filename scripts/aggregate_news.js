@@ -13,9 +13,9 @@ const path = require('path');
 // Import the master company list (450+ companies with aliases)
 const { MASTER_COMPANY_LIST, mentionsCompany, getAllSearchTerms, getStats } = require('./company_master_list.js');
 
-// RSS feeds to monitor (18 total feeds for comprehensive coverage)
+// RSS feeds to monitor — 33 feeds for global frontier tech coverage
 const RSS_FEEDS = [
-  // Tech General
+  // ─── Tech General ───
   { name: 'TechCrunch', url: 'https://techcrunch.com/feed/', category: 'tech' },
   { name: 'VentureBeat AI', url: 'https://venturebeat.com/category/ai/feed/', category: 'ai' },
   { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', category: 'tech' },
@@ -24,30 +24,56 @@ const RSS_FEEDS = [
   { name: 'IEEE Spectrum', url: 'https://spectrum.ieee.org/feeds/feed.rss', category: 'tech' },
   { name: 'The Verge Tech', url: 'https://www.theverge.com/rss/tech/index.xml', category: 'tech' },
 
-  // Defense & Security
+  // ─── Defense & Security ───
   { name: 'Defense News', url: 'https://www.defensenews.com/arc/outboundfeeds/rss/', category: 'defense' },
   { name: 'Breaking Defense', url: 'https://breakingdefense.com/feed/', category: 'defense' },
   { name: 'Defense One', url: 'https://www.defenseone.com/rss/all/', category: 'defense' },
   { name: 'War on the Rocks', url: 'https://warontherocks.com/feed/', category: 'defense' },
 
-  // Space
+  // ─── Space ───
   { name: 'SpaceNews', url: 'https://spacenews.com/feed/', category: 'space' },
   { name: 'Ars Technica Space', url: 'https://feeds.arstechnica.com/arstechnica/science', category: 'space' },
+  { name: 'ESA News', url: 'https://www.esa.int/rssfeed/Our_Activities/Space_News', category: 'space' },
+  { name: 'NASA Breaking News', url: 'https://www.nasa.gov/rss/dyn/breaking_news.rss', category: 'space' },
 
-  // Energy & Climate
+  // ─── Energy & Climate ───
   { name: 'Canary Media', url: 'https://www.canarymedia.com/feed', category: 'energy' },
   { name: 'CleanTechnica', url: 'https://cleantechnica.com/feed/', category: 'energy' },
   { name: 'Nuclear Newswire', url: 'https://www.ans.org/news/rss/', category: 'nuclear' },
+  { name: 'World Nuclear News', url: 'https://world-nuclear-news.org/feed', category: 'nuclear' },
+  { name: 'Utility Dive', url: 'https://www.utilitydive.com/feeds/news/', category: 'energy' },
 
-  // Startups & VC
+  // ─── Startups & VC ───
   { name: 'Crunchbase News', url: 'https://news.crunchbase.com/feed/', category: 'funding' },
 
-  // Future Tech
+  // ─── Future Tech ───
   { name: 'Next Big Future', url: 'https://www.nextbigfuture.com/feed', category: 'tech' },
+
+  // ─── European Tech & Startups ───
+  { name: 'Sifted', url: 'https://sifted.eu/feed', category: 'startups' },
+  { name: 'Tech.eu', url: 'https://tech.eu/feed/', category: 'startups' },
+
+  // ─── Global / Wire Services ───
+  { name: 'Reuters Technology', url: 'https://www.reuters.com/technology/rss', category: 'tech' },
+
+  // ─── Biotech & Life Sciences ───
+  { name: 'STAT News', url: 'https://www.statnews.com/feed/', category: 'biotech' },
+  { name: 'Endpoints News', url: 'https://endpts.com/feed/', category: 'biotech' },
+  { name: 'FierceBiotech', url: 'https://www.fiercebiotech.com/rss/xml', category: 'biotech' },
+
+  // ─── Robotics & Autonomous ───
+  { name: 'The Robot Report', url: 'https://www.therobotreport.com/feed/', category: 'robotics' },
+  { name: 'Electrek', url: 'https://electrek.co/feed/', category: 'autonomous' },
+
+  // ─── Quantum Computing ───
+  { name: 'Inside Quantum Technology', url: 'https://www.insidequantumtechnology.com/feed/', category: 'quantum' },
+
+  // ─── Asia & Emerging Markets ───
+  { name: 'TechNode Global', url: 'https://technode.global/feed/', category: 'tech' },
 ];
 
-// Companies are now tracked via MASTER_COMPANY_LIST (450+ companies with aliases)
-// This gives us ~6x better coverage than the previous 72 hardcoded companies
+// Companies are now tracked via MASTER_COMPANY_LIST (690+ companies with aliases)
+// 33 RSS feeds covering defense, space, nuclear, biotech, robotics, quantum, EU, and Asia
 
 // Simple XML parser for RSS
 function parseRSS(xml) {

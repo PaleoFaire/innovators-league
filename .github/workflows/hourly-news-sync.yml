@@ -2,8 +2,8 @@ name: Hourly News Sync
 
 on:
   schedule:
-    # Run every 4 hours
-    - cron: '0 */4 * * *'
+    # Run hourly at :07 for Bloomberg-grade freshness
+    - cron: '7 * * * *'
 
   # Allow manual trigger
   workflow_dispatch:
