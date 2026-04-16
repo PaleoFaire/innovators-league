@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // ─── Master Init ─────────────────────────────────────────────────────────────
 function initValuations() {
   safeInit('initHeroStats', initHeroStats);
+  safeInit('initAllValuations', initAllValuations);
   safeInit('initSectorValMap', initSectorValMap);
   safeInit('initRevenueLeaderboard', initRevenueLeaderboard);
   safeInit('initOverUnder', initOverUnder);
@@ -32,6 +33,80 @@ function initValuations() {
   safeInit('initDealSignals', initDealSignals);
   safeInit('initCapitalHeatmap', initCapitalHeatmap);
   safeInit('initSectionObserver', initSectionObserver);
+}
+
+// ─── All Valuations Table — every company with valuation data ─────────────
+function initAllValuations() {
+  const tbody = document.getElementById('val-all-body');
+  const countEl = document.getElementById('val-all-count');
+  const searchEl = document.getElementById('val-all-search');
+  const sourceEl = document.getElementById('val-all-source');
+  const sectorEl = document.getElementById('val-all-sector');
+  if (!tbody) return;
+
+  const esc = (s) => (typeof escapeHtml === 'function') ? escapeHtml(String(s || '')) : String(s || '');
+
+  fetch('data/valuation_benchmarks_auto.json', { cache: 'no-cache' })
+    .then(r => r.ok ? r.json() : [])
+    .then(data => {
+      if (!Array.isArray(data) || data.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">No valuation data available.</td></tr>';
+        return;
+      }
+
+      // Populate sector dropdown
+      const sectors = [...new Set(data.map(d => d.sector).filter(Boolean))].sort();
+      if (sectorEl) {
+        sectors.forEach(s => {
+          const opt = document.createElement('option');
+          opt.value = s;
+          opt.textContent = s;
+          sectorEl.appendChild(opt);
+        });
+      }
+
+      const sourceBadge = (src) => {
+        if (src === 'market_cap') return '<span class="val-src-badge" style="color:#22c55e;">🟢 Live</span>';
+        if (src === 'last_round') return '<span class="val-src-badge" style="color:#60a5fa;">🔵 Latest Round</span>';
+        if (src === 'curated') return '<span class="val-src-badge" style="color:#f59e0b;">🟡 Curated</span>';
+        return `<span class="val-src-badge">${esc(src || '—')}</span>`;
+      };
+
+      function render() {
+        const q = (searchEl?.value || '').trim().toLowerCase();
+        const srcFilter = sourceEl?.value || 'all';
+        const sectorFilter = sectorEl?.value || 'all';
+        let filtered = data;
+        if (q) filtered = filtered.filter(d => d.company.toLowerCase().includes(q));
+        if (srcFilter !== 'all') filtered = filtered.filter(d => d.source === srcFilter);
+        if (sectorFilter !== 'all') filtered = filtered.filter(d => d.sector === sectorFilter);
+
+        if (countEl) {
+          countEl.textContent = `Showing ${filtered.length} of ${data.length} companies`;
+        }
+
+        tbody.innerHTML = filtered.slice(0, 500).map((d, i) => `
+          <tr>
+            <td>${i + 1}</td>
+            <td style="font-weight:600;">${esc(d.company)}${d.ticker ? ` <span style="color:rgba(255,255,255,0.4); font-size:11px; font-family: 'Space Grotesk', monospace;">${esc(d.ticker)}</span>` : ''}</td>
+            <td style="font-size:12px;">${esc(d.sector || '—')}</td>
+            <td style="font-size:12px; color:rgba(255,255,255,0.6);">${esc(d.stage || '—')}</td>
+            <td style="font-weight:700; color:#FF8C47;">${esc(d.valuation)}</td>
+            <td>${sourceBadge(d.source)}</td>
+            <td style="font-size:11px; color:rgba(255,255,255,0.5);">${esc(d.lastUpdated || '—')}</td>
+          </tr>
+        `).join('');
+      }
+
+      render();
+      if (searchEl) searchEl.addEventListener('input', render);
+      if (sourceEl) sourceEl.addEventListener('change', render);
+      if (sectorEl) sectorEl.addEventListener('change', render);
+    })
+    .catch(e => {
+      console.warn('[AllValuations] Failed to load:', e);
+      tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">Could not load valuation data.</td></tr>';
+    });
 }
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────

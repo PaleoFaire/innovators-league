@@ -1270,13 +1270,12 @@
   // ═══════════════════════════════════════════
   function initDealFlow() {
     safeInit('initHeroStats', initHeroStats);
-    safeInit('initThesisScreener', initThesisScreener);
     safeInit('initThesisLeaderboard', initThesisLeaderboard);
     safeInit('initDeepDiveModal', initDeepDiveModal);
     safeInit('initUpcomingRounds', initUpcomingRounds);
     safeInit('initRiskDashboard', initRiskDashboard);
-    // Removed: initKanban, initPersonalNotes, renderROSFundPipeline
-    // (ROS-specific internal tools, not useful for public visitors)
+    // Removed: initThesisScreener (duplicated main Database filters — visitors go to #companies)
+    //          initKanban, initPersonalNotes, renderROSFundPipeline (internal tools)
   }
 
   // ═══════════════════════════════════════════

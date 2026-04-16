@@ -52,9 +52,7 @@
             </div>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
-                <div class="nav-dropdown-content">
-                    <a href="alerts.html" class="nav-dropdown-link">Deal Alerts</a>
-                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                <div class="nav-dropdown-content">                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
@@ -173,15 +171,6 @@
                 <button class="i50-nominate-btn" onclick="openPartnerPortal('nominate')">Nominate a Company</button>
             </div>
         </div>
-    </section>
-
-    <!-- Conviction Stack -->
-    <section id="conviction-stack" class="section-container">
-      <div class="conviction-stack-header">
-        <h2 class="section-title">Conviction Stack</h2>
-        <p style="color:rgba(240,240,250,0.5); font-size:14px; margin-top:4px;">Where Stephen has a differentiated view. Updated from founder meetings, site visits, and deal flow.</p>
-      </div>
-      <div id="conviction-stack-content"></div>
     </section>
 
     <!-- Weekly Movers Section -->
@@ -666,7 +655,6 @@
             <div class="predictive-tabs">
                 <button class="predictive-tab active" data-tab="ipo">🔔 IPO Readiness</button>
                 <button class="predictive-tab" data-tab="ma">🎯 M&A Targets</button>
-                <button class="predictive-tab" data-tab="ma-comps">📊 M&A Comps</button>
                 <button class="predictive-tab" data-tab="deal-flow">🚀 Deal Flow Signals</button>
                 <button class="predictive-tab" data-tab="risk">⚠️ Failure Risk</button>
                 <button class="predictive-tab" data-tab="next-round">💰 Next Round</button>
@@ -764,19 +752,8 @@
     </section>
 
 
-    <!-- IPO & TECHNOLOGY READINESS -->
-
-    <!-- IPO & Exit Pipeline -->
-    <section class="ipo-section" id="ipo-pipeline">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">EXIT PIPELINE</p>
-                <h2>IPO & Exit Tracker</h2>
-                <p>Companies approaching public markets and major liquidity events.</p>
-            </div>
-            <div class="ipo-grid" id="ipo-grid"></div>
-        </div>
-    </section>
+    <!-- TECHNOLOGY READINESS -->
+    <!-- IPO & Exit Pipeline REMOVED — now lives on valuations.html -->
 
     <!-- Patent Intelligence -->
     <section class="patent-section" id="patent-intel">
@@ -1207,60 +1184,6 @@
                 <p>Deep-dive analysis of each frontier tech sector with top companies, trends, and thesis insights.</p>
             </div>
             <div id="reports-grid"></div>
-        </div>
-    </section>
-
-    <!-- Data Methodology Section -->
-    <section class="methodology-section" id="methodology">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">TRANSPARENCY</p>
-                <h2>Our Data Methodology</h2>
-                <p>How we source, verify, and maintain the intelligence in this database.</p>
-            </div>
-            <div class="methodology-content">
-                <div class="methodology-card">
-                    <h4>📊 Data Sources</h4>
-                    <ul>
-                        <li><strong>Company Data:</strong> Primary research, press releases, SEC filings (EDGAR), Crunchbase, PitchBook cross-reference</li>
-                        <li><strong>Funding Rounds:</strong> Press releases, regulatory filings, investor announcements, verified within 48 hours</li>
-                        <li><strong>Government Contracts:</strong> SAM.gov, USASpending.gov, FPDS, SBIR.gov - updated daily</li>
-                        <li><strong>Patents:</strong> USPTO PatentsView API, Google Patents - updated weekly</li>
-                        <li><strong>News & Signals:</strong> 50+ curated RSS feeds, SEC EDGAR, major tech/defense publications</li>
-                    </ul>
-                </div>
-                <div class="methodology-card">
-                    <h4>✅ Verification Process</h4>
-                    <ul>
-                        <li><strong>Multi-source confirmation:</strong> Key data points require 2+ independent sources</li>
-                        <li><strong>Direct outreach:</strong> Companies can verify/correct their own data via Partner Portal</li>
-                        <li><strong>Freshness tracking:</strong> Each data category tracks its last update and source</li>
-                        <li><strong>Editorial review:</strong> Human review of all company additions and major updates</li>
-                    </ul>
-                </div>
-                <div class="methodology-card">
-                    <h4>🔄 Update Frequency</h4>
-                    <ul>
-                        <li><strong>Real-time:</strong> SEC filings, major news alerts</li>
-                        <li><strong>Daily:</strong> Government contracts, funding announcements</li>
-                        <li><strong>Weekly:</strong> Patent filings, headcount estimates, Frontier Index scores</li>
-                        <li><strong>Monthly:</strong> Full database audit and quality review</li>
-                    </ul>
-                </div>
-                <div class="methodology-card">
-                    <h4>⚠️ Limitations & Disclaimers</h4>
-                    <ul>
-                        <li>Private company valuations are estimates from secondary market data and press reports</li>
-                        <li>Headcount data may lag actual numbers by 1-3 months</li>
-                        <li>Some metrics (revenue, margins) are not publicly disclosed for private companies</li>
-                        <li>This is not investment advice. Always conduct your own due diligence.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="methodology-cta">
-                <p>Found an error or have updated information?</p>
-                <button class="suggest-edit-btn" onclick="openPartnerPortal('correction')">✏️ Submit Correction</button>
-            </div>
         </div>
     </section>
 

@@ -41,9 +41,7 @@
             </div>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
-                <div class="nav-dropdown-content">
-                    <a href="alerts.html" class="nav-dropdown-link">Deal Alerts</a>
-                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                <div class="nav-dropdown-content">                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
@@ -82,8 +80,8 @@
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
-                    <span class="stat-number" id="df-thesis-matches">0</span>
-                    <span class="stat-label">Thesis Matches</span>
+                    <span class="stat-number" id="df-thesis-matches">50</span>
+                    <span class="stat-label">Top Fits Ranked</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
@@ -96,19 +94,16 @@
 
     <main class="container">
 
-        <!-- 1. Screener — the primary filter UI -->
-        <section class="df-section" id="thesis-screener">
-            <div class="df-section-header">
-                <h2 class="df-section-title">Screener</h2>
-                <span class="df-section-badge">Multi-Filter</span>
+        <!-- CTA pointer to main database (for company browsing) -->
+        <div style="background: rgba(139,92,246,0.08); border: 1px solid rgba(139,92,246,0.2); border-radius: 12px; padding: 16px 20px; margin-bottom: 24px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+            <div>
+                <div style="font-size:13px; font-weight:700; color:#fff; margin-bottom:2px;">Looking to browse all 690 companies?</div>
+                <div style="font-size:12px; color:rgba(255,255,255,0.55);">The main Database has filters for sector, stage, location, and more.</div>
             </div>
-            <p style="color:rgba(255,255,255,0.55); font-size:13px; margin-top:-8px; margin-bottom:16px;">Filter our full database by stage, sector, traction signals, valuation, and investment fit score.</p>
-            <div class="screener-filters" id="screener-filters"></div>
-            <div class="screener-count" id="screener-count"></div>
-            <div class="screener-results" id="screener-results"></div>
-        </section>
+            <a href="index.html#companies" style="padding:10px 20px; background:#8b5cf6; color:#fff; font-weight:600; font-size:12px; border-radius:8px; text-decoration:none; white-space:nowrap;">Go to Database →</a>
+        </div>
 
-        <!-- 2. Fund Thesis Match Score Leaderboard -->
+        <!-- Investment Fit Leaderboard — the core differentiator -->
         <section class="df-section" id="thesis-score">
             <div class="df-section-header">
                 <h2 class="df-section-title">Investment Fit Leaderboard</h2>

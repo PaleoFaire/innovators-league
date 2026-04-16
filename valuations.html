@@ -41,9 +41,7 @@
             </div>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
-                <div class="nav-dropdown-content">
-                    <a href="alerts.html" class="nav-dropdown-link">Deal Alerts</a>
-                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                <div class="nav-dropdown-content">                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
@@ -94,6 +92,46 @@
             </div>
         </div>
     </header>
+
+    <!-- Full Valuations Table — every company with known valuation data -->
+    <section class="section" id="all-valuations">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">LIVE DATA</p>
+                <h2>All Company Valuations</h2>
+                <p>Every frontier tech company with known valuation data — auto-updated daily from market caps (public), latest funding rounds, and curated ROS research.</p>
+            </div>
+            <div class="val-all-controls" style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px;">
+                <input type="text" id="val-all-search" class="leaderboard-search" placeholder="Search by company name..." style="flex:1; min-width:220px;">
+                <select id="val-all-source" class="lb-filter-select">
+                    <option value="all">All Sources</option>
+                    <option value="market_cap">🟢 Live Market Cap</option>
+                    <option value="last_round">🔵 Latest Funding</option>
+                    <option value="curated">🟡 Curated Research</option>
+                </select>
+                <select id="val-all-sector" class="lb-filter-select">
+                    <option value="all">All Sectors</option>
+                </select>
+            </div>
+            <div class="leaderboard-table-wrap">
+                <table class="leaderboard-table" id="val-all-table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Company</th>
+                            <th>Sector</th>
+                            <th>Stage</th>
+                            <th>Valuation</th>
+                            <th>Source</th>
+                            <th>Updated</th>
+                        </tr>
+                    </thead>
+                    <tbody id="val-all-body"></tbody>
+                </table>
+            </div>
+            <div id="val-all-count" style="margin-top:12px; color:rgba(255,255,255,0.5); font-size:12px;"></div>
+        </div>
+    </section>
 
     <!-- Sector Valuation Map -->
     <section class="section" id="sector-val-map">

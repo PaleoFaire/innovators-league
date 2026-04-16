@@ -2199,14 +2199,15 @@ document.addEventListener('DOMContentLoaded', () => {
     'events':                 [initEvents],
     'podcast-section':        [initPodcastSection],
     'momentum':               [initSectorMomentum],
-    'ipo-pipeline':           [initIPOPipeline],
+    // 'ipo-pipeline': REMOVED — moved to valuations.html IPO Readiness Tracker
     'innovator-scores':       [initInnovatorScores],
     'gov-demand':             [initGovContracts],
     'patent-intel':           [initPatentIntel],
     'predictive-scores':      [initPredictiveScoring],
     'network-graph':          [initNetworkGraph],
     'competitive-battlefield':[initBattlefieldMap],
-    'portfolio-builder':      [initPortfolioBuilder, renderConvictionStack],
+    'portfolio-builder':      [initPortfolioBuilder],
+    // conviction-stack REMOVED entirely
     // 'anomaly-alerts': REMOVED — Hot This Week section deleted (redundant with Growth Signals)
     // 'sector-reports': REMOVED
     'historical-tracking':    [initHistoricalTracking],
@@ -4516,26 +4517,70 @@ function initSmoothScroll() {
   });
 }
 
-// ─── BREAKING NEWS TICKER (now with LIVE CAPITAL FLOWS) ───
+// ─── LIVE TICKER — matches Growth Signals for consistent fresh data ───
+// Uses GROWTH_SIGNALS (same source as Signals section) as primary, plus
+// live deals_auto.json for funding rounds. Dates format as "April 16".
+function formatTickerDate(s) {
+  if (!s) return '';
+  const str = String(s).trim();
+  // Strip leading "Apr" prefix if already pre-formatted
+  if (/^[A-Za-z]{3,} \d+/.test(str)) return str.split(',')[0];
+  // Handle YYYY-MM (monthly granularity) — pick mid-month
+  const ymMatch = str.match(/^(\d{4})-(\d{2})$/);
+  if (ymMatch) {
+    const d = new Date(Number(ymMatch[1]), Number(ymMatch[2]) - 1, 15);
+    return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+  }
+  // Handle YYYY-MM-DD and ISO
+  const d = new Date(str);
+  if (!isNaN(d)) {
+    return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric' });
+  }
+  return str;
+}
+
 function initNewsTicker() {
   const scroll = document.getElementById('ticker-scroll');
   if (!scroll) return;
 
-  // 1. Start with signals/news (existing behavior)
   let items = [];
-  if (typeof COMPANY_SIGNALS !== 'undefined' && COMPANY_SIGNALS.length > 0) {
+
+  // 1. Primary source: GROWTH_SIGNALS (same fresh feed as Signals section)
+  if (typeof GROWTH_SIGNALS !== 'undefined' && Array.isArray(GROWTH_SIGNALS) && GROWTH_SIGNALS.length > 0) {
+    // Take top 15 sorted by strength, then recency
+    const sorted = [...GROWTH_SIGNALS].sort((a, b) => {
+      const aStr = typeof a.strength === 'number' ? a.strength : 3;
+      const bStr = typeof b.strength === 'number' ? b.strength : 3;
+      if (aStr !== bStr) return bStr - aStr;
+      return String(b.date || '').localeCompare(String(a.date || ''));
+    }).slice(0, 15);
+
+    items = sorted.map(s => {
+      const typeEmoji = {
+        stock_movement: '📈', hiring_surge: '🧑‍💼', hiring_growth: '🧑‍💼',
+        media_buzz: '📰', news_activity: '📰', ip_moat: '📜',
+        gov_traction: '🏛️', partnership: '🤝', regulatory: '⚖️'
+      }[s.type] || '📊';
+      return {
+        text: `${typeEmoji} ${s.company} · ${s.detail || ''}`,
+        time: formatTickerDate(s.date),
+        priority: (s.strength >= 3) ? 'high' : 'medium',
+        kind: 'signal'
+      };
+    });
+  }
+  // Fallback: COMPANY_SIGNALS news
+  else if (typeof COMPANY_SIGNALS !== 'undefined' && COMPANY_SIGNALS.length > 0) {
     items = COMPANY_SIGNALS.map(s => ({
       text: s.headline || s.text || '',
-      time: s.time || '',
+      time: formatTickerDate(s.time || ''),
       priority: s.impact || s.priority || 'medium',
       kind: 'news'
     }));
   } else if (typeof NEWS_TICKER !== 'undefined') {
-    items = NEWS_TICKER.map(n => ({ ...n, kind: 'news' }));
+    items = NEWS_TICKER.map(n => ({ ...n, time: formatTickerDate(n.time), kind: 'news' }));
   }
 
-  // 2. Splice in LIVE funding events from deals_auto.json
-  //    Fetched async; ticker renders once, then re-renders when live data lands.
   const renderTicker = (allItems) => {
     scroll.innerHTML = '';
     allItems.forEach((item, i) => {
@@ -4556,29 +4601,27 @@ function initNewsTicker() {
   // Initial render with whatever we have
   if (items.length > 0) renderTicker(items);
 
-  // Load live funding events and merge in
+  // Load live funding events and interleave
   fetch('data/deals_auto.json', { cache: 'no-cache' })
     .then(r => r.ok ? r.json() : null)
     .then(deals => {
       if (!Array.isArray(deals) || deals.length === 0) return;
-      // Sort by date descending, take top 8
       const sorted = deals
         .filter(d => d && d.company && d.amount)
         .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
         .slice(0, 8);
 
       const fundingItems = sorted.map(d => {
-        const investorText = d.investor && d.investor !== 'Undisclosed' ? ` from ${d.investor}` : '';
-        const roundText = d.round ? ` · ${d.round}` : '';
+        const roundText = d.round && d.round !== 'Funding Round' ? ` · ${d.round}` : '';
         return {
-          text: `${d.company} raised ${d.amount}${investorText}${roundText}`,
-          time: d.date || 'recent',
+          text: `${d.company} raised ${d.amount}${roundText}`,
+          time: formatTickerDate(d.date),
           priority: 'high',
           kind: 'funding'
         };
       });
 
-      // Interleave funding + news for visual variety (funding, news, funding, news…)
+      // Interleave funding + signals
       const merged = [];
       const maxLen = Math.max(items.length, fundingItems.length);
       for (let i = 0; i < maxLen; i++) {
@@ -6913,43 +6956,23 @@ function generateNetworkData() {
     'chips': '#22c55e', 'manufacturing': '#eab308'
   };
 
-  // 1. Add company nodes from COMPANIES array (limit to top companies by sector for performance)
-  const companyLimit = 200; // Limit for performance
-  const companiesBySector = {};
-
+  // 1. Add ALL company nodes from COMPANIES array
+  // Previously capped at 200 for performance; expanding to all to make the graph comprehensive.
+  // Performance is fine with D3 for 700+ nodes when isolated (no-edge) nodes get filtered out
+  // at the end and degree-based filtering in the UI lets users focus.
   if (typeof COMPANIES !== 'undefined') {
     COMPANIES.forEach(c => {
-      if (!companiesBySector[c.sector]) companiesBySector[c.sector] = [];
-      companiesBySector[c.sector].push(c);
-    });
-
-    // Take top companies per sector (prioritize by valuation/activity)
-    let addedCount = 0;
-    Object.entries(companiesBySector).forEach(([sector, companies]) => {
-      // Sort by presence in DEAL_TRACKER, then alphabetically
-      companies.sort((a, b) => {
-        const aDeals = typeof DEAL_TRACKER !== 'undefined' ? DEAL_TRACKER.filter(d => d.company === a.name).length : 0;
-        const bDeals = typeof DEAL_TRACKER !== 'undefined' ? DEAL_TRACKER.filter(d => d.company === b.name).length : 0;
-        return bDeals - aDeals || a.name.localeCompare(b.name);
-      });
-
-      const perSector = Math.ceil(companyLimit / Object.keys(companiesBySector).length);
-      companies.slice(0, perSector).forEach(c => {
-        if (addedCount < companyLimit) {
-          const nodeId = `company-${c.name}`;
-          if (!nodeIds.has(nodeId)) {
-            nodes.push({
-              id: nodeId,
-              label: c.name,
-              type: 'company',
-              sector: c.sector,
-              sectorColor: sectorColors[c.sector] || '#666'
-            });
-            nodeIds.add(nodeId);
-            addedCount++;
-          }
-        }
-      });
+      const nodeId = `company-${c.name}`;
+      if (!nodeIds.has(nodeId)) {
+        nodes.push({
+          id: nodeId,
+          label: c.name,
+          type: 'company',
+          sector: c.sector,
+          sectorColor: sectorColors[c.sector] || '#666'
+        });
+        nodeIds.add(nodeId);
+      }
     });
   }
 
@@ -7023,6 +7046,50 @@ function generateNetworkData() {
           detail: `${deal.round} - ${deal.amount}`
         });
       }
+    });
+  }
+
+  // 3b. Also enrich from FUNDING_TRACKER lead investors (more comprehensive)
+  if (typeof FUNDING_TRACKER !== 'undefined' && Array.isArray(FUNDING_TRACKER)) {
+    FUNDING_TRACKER.forEach(round => {
+      const leads = Array.isArray(round.leadInvestors) ? round.leadInvestors : [];
+      leads.forEach(inv => {
+        if (!inv || inv.toLowerCase() === 'undisclosed' || inv.toLowerCase() === 'unknown') return;
+        const investorId = `investor-${inv}`;
+        const companyId = `company-${round.company}`;
+
+        if (!nodeIds.has(companyId)) {
+          // Add company node if missing (shouldn't happen since we now add all COMPANIES above)
+          const company = typeof COMPANIES !== 'undefined' ? COMPANIES.find(c => c.name === round.company) : null;
+          nodes.push({
+            id: companyId,
+            label: round.company,
+            type: 'company',
+            sector: company?.sector || 'unknown',
+            sectorColor: sectorColors[company?.sector] || '#666'
+          });
+          nodeIds.add(companyId);
+        }
+        if (!nodeIds.has(investorId)) {
+          nodes.push({
+            id: investorId,
+            label: inv,
+            type: 'investor',
+            investmentCount: 1
+          });
+          nodeIds.add(investorId);
+        }
+
+        const existingEdge = edges.find(e => e.source === investorId && e.target === companyId);
+        if (!existingEdge) {
+          edges.push({
+            source: investorId,
+            target: companyId,
+            type: 'investment',
+            detail: `${round.lastRound || ''} ${round.lastRoundAmount || ''}`.trim()
+          });
+        }
+      });
     });
   }
 

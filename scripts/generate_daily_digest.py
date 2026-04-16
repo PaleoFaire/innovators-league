@@ -78,16 +78,112 @@ def within_days(date_str, days):
         return False
 
 
-def biggest_deals(days=7, limit=8):
+_PUBLIC_COMPANIES_CACHE = None
+
+def _public_companies():
+    """Load set of public company names from stocks_auto.js — these should
+    NEVER appear in 'biggest deals' because they're already public."""
+    global _PUBLIC_COMPANIES_CACHE
+    if _PUBLIC_COMPANIES_CACHE is not None:
+        return _PUBLIC_COMPANIES_CACHE
+    stocks_path = DATA_DIR / "stocks_auto.js"
+    names = set()
+    if stocks_path.exists():
+        content = stocks_path.read_text()
+        for m in re.finditer(r'"company":\s*"([^"]+)"', content):
+            names.add(m.group(1).strip().lower())
+        for m in re.finditer(r'"ticker":\s*"([A-Z0-9.]+)"', content):
+            names.add(m.group(1).strip().lower())
+    # Always add well-known public companies that might not be in stocks_auto.js
+    names.update({
+        "palantir", "palantir technologies", "pltr",
+        "nvidia", "nvda", "tesla", "tsla", "amd",
+        "rocket lab", "rklb", "planet labs", "pl",
+        "oklo", "ionq", "rigetti computing", "rgti",
+        "joby aviation", "joby", "archer aviation", "achr",
+        "rivian", "rivn", "ast spacemobile", "asts",
+        "intuitive machines", "lunr", "recursion pharmaceuticals", "rxrx",
+        "tempus ai", "tem", "aurora innovation", "aur",
+        "astera labs", "alab", "quantumscape", "qs",
+        "nuscale power", "smr", "nano nuclear energy", "nne",
+        "solid power", "sldp", "vertical aerospace", "evtl",
+        "c3.ai", "d-wave quantum", "qbts", "satellogic", "satl",
+    })
+    _PUBLIC_COMPANIES_CACHE = names
+    return names
+
+
+def _is_real_funding(company, headline, round_type, amount_raw):
+    """Validate this is actually a funding round for the company — not a
+    partnership, contract, market-cap mention, or misattributed headline.
+
+    When headline exists: strict checks (company in title + funding verb + no reject signals).
+    When no headline: only cap outlier amounts.
+    """
+    # Sanity cap — reject absurd amounts ($50B+) that are likely misparses
+    # (very few real rounds exceed this; Anthropic $300B etc are noted exceptions
+    # but usually paired with market/valuation not actual round)
+    if amount_raw > 50e9:
+        return False
+
+    if not headline:
+        # No headline to validate against — trust upstream (deals_auto)
+        return True
+
+    if not company:
+        return False
+
+    c = company.strip().lower()
+    h = headline.lower()
+
+    # Company must appear in headline — the source of truth for "who did this"
+    first_word = c.split()[0] if c.split() else c
+    if c not in h and (not first_word or len(first_word) < 4 or first_word not in h):
+        return False
+
+    # Reject partnership/contract/acquisition headlines
+    reject = [
+        "partnership", "partners with", "joins forces",
+        "wins contract", "awarded", "contract win",
+        "acquires", "acquisition of", "to acquire",
+        "announces partnership",
+    ]
+    if any(r in h for r in reject):
+        return False
+
+    # Require a funding verb in the headline
+    funding_verbs = [
+        "raises", "raised", "secures", "secured",
+        "closes", "closed", "lands", "landed",
+        "bags", "scores", "nets",
+        "series ", "seed round", "funding round",
+        "valuation of", "valued at",
+    ]
+    if not any(v in h for v in funding_verbs):
+        return False
+
+    return True
+
+
+def biggest_deals(days=30, limit=10):
     deals = load_json_safe("deals_auto.json") or []
     feed = load_json_safe("funding_feed_auto.json") or []
-    # Merge — prefer feed items (have URLs and headlines)
+    public = _public_companies()
+
     merged = []
     for d in feed:
+        company = (d.get("company") or "").strip()
+        if company.lower() in public:
+            continue  # skip public companies
+        amount = d.get("amount", "")
+        amount_raw = parse_amount_to_usd(amount)
+        # Validate the deal is real
+        if not _is_real_funding(company, d.get("headline", ""), d.get("round", ""), amount_raw):
+            continue
         merged.append({
-            "company": d.get("company", ""),
-            "amount": d.get("amount", ""),
-            "amount_raw": parse_amount_to_usd(d.get("amount", "")),
+            "company": company,
+            "amount": amount,
+            "amount_raw": amount_raw,
             "round": d.get("round", ""),
             "date": d.get("date", ""),
             "source": d.get("source", ""),
@@ -95,15 +191,24 @@ def biggest_deals(days=7, limit=8):
             "headline": d.get("headline", ""),
             "investors": d.get("investors", []),
         })
+
     for d in deals:
+        company = (d.get("company") or "").strip()
+        if company.lower() in public:
+            continue  # skip public companies
         # Avoid duplicating by (company, date)
-        key = (d.get("company", ""), d.get("date", ""))
+        key = (company, d.get("date", ""))
         if any((m["company"], m["date"]) == key for m in merged):
             continue
+        amount = d.get("amount", "")
+        amount_raw = parse_amount_to_usd(amount)
+        # Sanity caps — no validation on deals_auto since no headline
+        if amount_raw > 50e9 or amount_raw <= 0:
+            continue
         merged.append({
-            "company": d.get("company", ""),
-            "amount": d.get("amount", ""),
-            "amount_raw": parse_amount_to_usd(d.get("amount", "")),
+            "company": company,
+            "amount": amount,
+            "amount_raw": amount_raw,
             "round": d.get("round", ""),
             "date": d.get("date", ""),
             "source": "Crunchbase",

@@ -139,7 +139,7 @@
     var s = digest.sections;
 
     var html = '';
-    html += section('💰 Biggest Deals', 'Last 7 days', renderDeals(s.biggestDeals));
+    html += section('💰 Biggest Deals', 'Last 30 days', renderDeals(s.biggestDeals));
     html += section('📰 Top News', 'Live', renderNews(s.topNews));
     html += section('🏛️ Government Activity', 'SAM.gov', renderGovContracts(s.govActivity));
     html += section('📈 Market Movers', 'Today', renderMovers(s.marketMovers));

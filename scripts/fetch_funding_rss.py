@@ -390,6 +390,48 @@ def _item_to_dict(elem, source_name, is_atom, ns=None):
 # ─────────────────────────────────────────────────────────────────
 # Main extraction pipeline
 # ─────────────────────────────────────────────────────────────────
+def _is_company_subject_of_funding(company, title):
+    """
+    Critical accuracy check: the COMPANY must be the subject of the funding
+    announcement in the TITLE (not just mentioned in the body).
+
+    Good: "Anduril raises $2B at $30B valuation"
+    Bad:  "The Week's 10 Biggest Rounds: SiFive Leads..." (Hadrian mentioned in body)
+    Bad:  "No company has grown like Anthropic" (Palantir mentioned in body)
+    """
+    if not title or not company:
+        return False
+    t = title.lower()
+    c = company.lower().strip()
+    # Company name must appear in title (not just description/body)
+    if c not in t:
+        # Try first word for compound names ("Anduril Industries" → "anduril")
+        first = c.split()[0] if c.split() else c
+        if not first or len(first) < 4 or first not in t:
+            return False
+    # Title must contain a funding verb
+    funding_verbs = [
+        "raises", "raised", "secures", "secured",
+        "closes", "closed", "lands", "landed",
+        "bags", "scores", "nets",
+        "series ", "seed round", "funding round",
+        "valuation of", "valued at",
+    ]
+    if not any(v in t for v in funding_verbs):
+        return False
+    # Reject partnership/contract/acquisition headlines
+    reject = [
+        "partnership", "partners with", "joins forces",
+        "wins contract", "awarded", "contract win",
+        "acquires", "acquisition of", "to acquire",
+        "launches", "unveils",
+        "names new", "appoints", "hires",
+    ]
+    if any(r in t for r in reject):
+        return False
+    return True
+
+
 def extract_deal(item):
     """
     Try to extract a structured funding deal from an RSS item.
@@ -404,7 +446,11 @@ def extract_deal(item):
     if not company:
         return None
 
-    # 2) must have a funding amount
+    # 2) company must be the SUBJECT of the funding headline (critical accuracy check)
+    if not _is_company_subject_of_funding(company, title):
+        return None
+
+    # 3) must have a funding amount
     amount = extract_amount(full_text)
     if not amount:
         return None
