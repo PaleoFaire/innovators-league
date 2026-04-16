@@ -34,11 +34,12 @@
         <div class="nav-links">
             <a href="index.html" class="nav-back-btn">← Back to Intelligence</a>
             <a href="dealflow.html" class="nav-link">Deal Flow</a>
-            <a href="brief.html" class="nav-link">War Room</a>
+            <a href="brief.html" class="nav-link">Frontier Daily</a>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
                     <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
+                    <a href="sectors.html" class="nav-dropdown-link">Sectors</a>
                     <a href="investors.html" class="nav-dropdown-link">Investors</a>
                     <a href="jobs.html" class="nav-dropdown-link">Talent</a>
                     <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
@@ -313,6 +314,9 @@
                     <button class="action-btn" id="btn-intel-brief" onclick="generateIntelBrief()">
                         <span class="btn-icon">📄</span> Intel Brief
                     </button>
+                    <button class="action-btn" id="btn-tear-sheet">
+                        <span class="btn-icon">📑</span> Download Tear Sheet
+                    </button>
                     <a class="action-btn" id="btn-website" href="#" target="_blank" rel="noopener">
                         <span class="btn-icon">🌐</span> Visit Website
                     </a>
@@ -354,6 +358,93 @@
                         📝 Submit a Correction
                     </a>
                 </div>
+            </section>
+
+            <!-- ═══════════════════════════════════════════════════════
+                 TEAR SHEET (print-only view)
+                 Hidden in normal view; populated by renderTearSheetView()
+                 and revealed via @media print.
+                 ═══════════════════════════════════════════════════════ -->
+            <section class="tear-sheet-view" id="tear-sheet-view" aria-hidden="true">
+                <header class="ts-header">
+                    <div class="ts-brand">
+                        <div class="ts-logo">ROS</div>
+                        <div class="ts-brand-meta">
+                            <div class="ts-brand-name">THE INNOVATORS LEAGUE</div>
+                            <div class="ts-brand-tag">Frontier Tech Intelligence</div>
+                        </div>
+                    </div>
+                    <div class="ts-doc-meta">
+                        <div class="ts-doc-label">TEAR SHEET</div>
+                        <div class="ts-doc-date" id="ts-date">—</div>
+                    </div>
+                </header>
+
+                <div class="ts-divider"></div>
+
+                <section class="ts-title-row">
+                    <div class="ts-title-main">
+                        <h1 class="ts-company-name" id="ts-company-name">—</h1>
+                        <div class="ts-company-meta" id="ts-company-meta">—</div>
+                        <div class="ts-company-desc" id="ts-company-desc">—</div>
+                    </div>
+                    <div class="ts-score-box">
+                        <div class="ts-score-label">Frontier Index</div>
+                        <div class="ts-score-value" id="ts-score-value">—</div>
+                        <div class="ts-score-tier" id="ts-score-tier">—</div>
+                    </div>
+                </section>
+
+                <section class="ts-keystats">
+                    <div class="ts-keystats-grid" id="ts-keystats-grid"></div>
+                </section>
+
+                <div class="ts-columns">
+                    <div class="ts-col-left">
+                        <section class="ts-section">
+                            <h2 class="ts-section-title">Leadership</h2>
+                            <div class="ts-section-body" id="ts-founders">—</div>
+                        </section>
+
+                        <section class="ts-section">
+                            <h2 class="ts-section-title">Funding History</h2>
+                            <div class="ts-section-body" id="ts-funding">—</div>
+                        </section>
+
+                        <section class="ts-section">
+                            <h2 class="ts-section-title">Traction Signals</h2>
+                            <div class="ts-section-body" id="ts-traction">—</div>
+                        </section>
+                    </div>
+
+                    <div class="ts-col-right">
+                        <section class="ts-section">
+                            <h2 class="ts-section-title">Investment Thesis</h2>
+                            <div class="ts-section-body" id="ts-thesis">—</div>
+                        </section>
+
+                        <section class="ts-section">
+                            <h2 class="ts-section-title">Competitive Context</h2>
+                            <div class="ts-section-body" id="ts-competitive">—</div>
+                        </section>
+
+                        <section class="ts-section">
+                            <h2 class="ts-section-title">Risks &amp; Moats</h2>
+                            <div class="ts-section-body" id="ts-risks-moats">—</div>
+                        </section>
+                    </div>
+                </div>
+
+                <footer class="ts-footer">
+                    <div class="ts-sources" id="ts-sources">Sources: SEC EDGAR · SAM.gov · USPTO · Yahoo Finance · ROS research</div>
+                    <div class="ts-footer-meta">
+                        <span id="ts-footer-site">innovatorsleague.com</span>
+                        <span class="ts-footer-sep">·</span>
+                        <span>Page 1 of 1</span>
+                        <span class="ts-footer-sep">·</span>
+                        <span id="ts-footer-generated">Generated —</span>
+                    </div>
+                </footer>
             </section>
         </div>
     </main>

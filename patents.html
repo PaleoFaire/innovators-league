@@ -9,8 +9,293 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260325">
-    <link rel="stylesheet" href="valuations-page.css?v=20260325">
+    <link rel="stylesheet" href="styles.css?v=20260416">
+    <link rel="stylesheet" href="valuations-page.css?v=20260416">
+    <style>
+      /* ═══ Patents page styles ═══ */
+      .pat-summary-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 14px;
+        margin: 20px 0 36px;
+      }
+      .pat-stat-block {
+        background: rgba(139,92,246,0.06);
+        border: 1px solid rgba(139,92,246,0.18);
+        border-radius: 10px;
+        padding: 18px 20px;
+      }
+      .pat-stat-block-num {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 28px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.1;
+      }
+      .pat-stat-block-lbl {
+        margin-top: 6px;
+        font-size: 11px;
+        color: rgba(255,255,255,0.55);
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+      }
+
+      /* Leaderboard table */
+      .pat-table-wrap {
+        overflow-x: auto;
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 12px;
+        background: rgba(255,255,255,0.02);
+      }
+      .pat-leaderboard-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+      .pat-leaderboard-table thead th {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        color: rgba(255,255,255,0.45);
+        text-align: left;
+        padding: 12px 14px;
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+        background: rgba(255,255,255,0.03);
+        font-weight: 600;
+      }
+      .pat-leaderboard-table tbody td {
+        padding: 12px 14px;
+        border-bottom: 1px solid rgba(255,255,255,0.04);
+        color: rgba(255,255,255,0.85);
+        vertical-align: middle;
+      }
+      .pat-leaderboard-table tbody tr:hover {
+        background: rgba(139,92,246,0.05);
+      }
+
+      /* Sector pills */
+      .pat-sector-pill {
+        display: inline-block;
+        font-size: 10.5px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        padding: 3px 8px;
+        border-radius: 20px;
+      }
+
+      /* Sector breakdown cards */
+      .pat-sector-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 14px;
+        margin-top: 18px;
+      }
+      .pat-sector-card {
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 10px;
+        padding: 16px 18px;
+      }
+      .pat-sector-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 4px;
+      }
+      .pat-sector-name {
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+      }
+      .pat-sector-total {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+      }
+      .pat-sector-companies {
+        font-size: 11px;
+        color: rgba(255,255,255,0.45);
+        margin-bottom: 12px;
+      }
+      .pat-sector-leaders {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        border-top: 1px solid rgba(255,255,255,0.04);
+      }
+      .pat-sector-leaders li {
+        display: flex;
+        justify-content: space-between;
+        padding: 6px 0;
+        font-size: 12.5px;
+        border-bottom: 1px solid rgba(255,255,255,0.03);
+      }
+      .pat-sector-leaders li:last-child { border-bottom: none; }
+      .pat-sector-leader-name { color: rgba(255,255,255,0.8); }
+      .pat-sector-leader-count {
+        font-family: 'Space Grotesk', monospace;
+        color: rgba(255,255,255,0.6);
+      }
+
+      /* Per-company grid */
+      .pat-company-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 16px;
+        margin-top: 18px;
+      }
+      .pat-company-card {
+        background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 12px;
+        padding: 18px 20px;
+        transition: all 0.2s ease;
+      }
+      .pat-company-card:hover {
+        border-color: rgba(139,92,246,0.4);
+        transform: translateY(-2px);
+      }
+      .pat-company-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 12px;
+        gap: 10px;
+      }
+      .pat-company-name {
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 6px;
+      }
+      .pat-company-count {
+        text-align: right;
+      }
+      .pat-company-count-num {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 22px;
+        font-weight: 700;
+        color: #a78bfa;
+        line-height: 1;
+      }
+      .pat-company-count-label {
+        font-size: 10px;
+        color: rgba(255,255,255,0.4);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-top: 2px;
+      }
+      .pat-company-stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        padding: 10px 0;
+        border-top: 1px solid rgba(255,255,255,0.05);
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        margin-bottom: 12px;
+      }
+      .pat-stat-label {
+        font-size: 9.5px;
+        color: rgba(255,255,255,0.4);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .pat-stat-val {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 12.5px;
+        font-weight: 600;
+        color: rgba(255,255,255,0.85);
+        margin-top: 2px;
+      }
+      .pat-company-spark {
+        margin: 10px 0;
+      }
+      .pat-company-areas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 12px;
+      }
+      .pat-area-chip {
+        font-size: 10.5px;
+        padding: 2px 8px;
+        border-radius: 10px;
+        background: rgba(255,255,255,0.04);
+        color: rgba(255,255,255,0.65);
+        border: 1px solid rgba(255,255,255,0.06);
+      }
+      .pat-company-details {
+        margin-bottom: 12px;
+        font-size: 12px;
+      }
+      .pat-company-details summary {
+        cursor: pointer;
+        color: rgba(255,255,255,0.55);
+        font-size: 11px;
+        padding: 6px 0;
+        user-select: none;
+      }
+      .pat-company-details summary:hover {
+        color: var(--accent);
+      }
+      .pat-keypatent-list {
+        list-style: none;
+        padding: 6px 0 0;
+        margin: 0;
+      }
+      .pat-keypatent-list li {
+        padding: 6px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.03);
+        font-size: 11.5px;
+      }
+      .pat-kp-number {
+        display: inline-block;
+        font-family: 'Space Grotesk', monospace;
+        color: #a78bfa;
+        margin-right: 8px;
+        font-weight: 600;
+      }
+      .pat-kp-title {
+        color: rgba(255,255,255,0.7);
+      }
+      .pat-kp-date {
+        display: inline-block;
+        margin-left: 6px;
+        color: rgba(255,255,255,0.4);
+        font-size: 10.5px;
+      }
+      .pat-company-links {
+        display: flex;
+        gap: 12px;
+        padding-top: 10px;
+        border-top: 1px solid rgba(255,255,255,0.05);
+      }
+      .pat-link {
+        font-size: 11px;
+        color: var(--accent);
+        text-decoration: none;
+      }
+      .pat-link:hover { text-decoration: underline; }
+
+      /* Data note */
+      .pat-data-note {
+        margin-top: 40px;
+        padding: 20px 24px;
+        background: rgba(139,92,246,0.06);
+        border: 1px solid rgba(139,92,246,0.18);
+        border-radius: 12px;
+        font-size: 12.5px;
+        color: rgba(255,255,255,0.6);
+        line-height: 1.6;
+      }
+      .pat-data-note strong {
+        color: #a78bfa;
+        font-weight: 600;
+      }
+    </style>
 </head>
 <body>
     <nav class="nav">
@@ -21,11 +306,12 @@
         <div class="nav-links">
             <a href="index.html" class="nav-link">Intelligence</a>
             <a href="visualizations.html" class="nav-link">Insights</a>
-            <a href="brief.html" class="nav-link">War Room</a>
+            <a href="brief.html" class="nav-link">Frontier Daily</a>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
                     <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
+                    <a href="sectors.html" class="nav-dropdown-link">Sectors</a>
                     <a href="investors.html" class="nav-dropdown-link">Investors</a>
                     <a href="jobs.html" class="nav-dropdown-link">Talent</a>
                     <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
@@ -64,30 +350,61 @@
         <div class="hero-content">
             <p class="hero-eyebrow" style="color: #8b5cf6;">IP INTELLIGENCE · USPTO</p>
             <h1 class="hero-title">Patent Velocity Intelligence</h1>
-            <p class="hero-subtitle">Who's filing the most patents, fastest. A leading indicator of R&D investment and competitive moat. Every datapoint links back to the original USPTO filing.</p>
+            <p class="hero-subtitle">Who's filing the most patents, fastest. A leading indicator of R&D investment and competitive moat. Every datapoint links back to a USPTO or Google Patents search you can verify.</p>
         </div>
     </header>
 
     <main class="container">
+        <!-- Summary stats strip -->
+        <section class="section">
+            <div class="container">
+                <div id="patent-summary-stats" class="pat-summary-row"></div>
+            </div>
+        </section>
+
+        <!-- Velocity leaderboard -->
         <section class="section" id="patent-velocity">
             <div class="container">
                 <div class="section-header">
-                    <p class="section-eyebrow">VELOCITY · LAST 8 QUARTERS</p>
+                    <p class="section-eyebrow">VELOCITY · TOP 30 BY QoQ CHANGE</p>
                     <h2>Patent Filings by Company</h2>
-                    <p>Rank by quarter-over-quarter change in patent applications. Source: <a href="https://patentsview.org" target="_blank" rel="noopener" style="color:var(--accent);">USPTO PatentsView</a>.</p>
+                    <p>Ranked by quarter-over-quarter change in patent applications over the last 8 quarters. Source: <a href="https://patentsview.org" target="_blank" rel="noopener" style="color:var(--accent);">USPTO PatentsView</a> + Google Patents.</p>
                 </div>
 
                 <div id="patent-velocity-grid"></div>
-                <div id="patent-velocity-note" style="margin-top:40px; padding:24px; background:rgba(139,92,246,0.08); border:1px solid rgba(139,92,246,0.2); border-radius:12px;">
-                    <h3 style="color:#a78bfa; font-size:16px; font-weight:700; margin:0 0 8px;">🔧 Data Pipeline in Progress</h3>
-                    <p style="color:rgba(255,255,255,0.7); font-size:13px; line-height:1.6; margin:0 0 12px;">
-                        The USPTO PatentsView API integration is being rebuilt to provide live patent application
-                        velocity data per frontier tech company. Expected live: next comprehensive data sync cycle.
-                    </p>
-                    <p style="color:rgba(255,255,255,0.5); font-size:12px; margin:0;">
-                        <strong>Why this matters:</strong> Patent applications (not grants) are a leading indicator of R&D investment.
-                        Grants lag filings by 18–24 months. This tracker surfaces which companies are investing in IP <em>right now</em>.
-                    </p>
+
+                <div id="patent-velocity-note" class="pat-data-note" style="display:none;">
+                    <strong>Data pipeline in progress.</strong>
+                    The USPTO PatentsView API is being rebuilt. Expected live: next sync cycle.
+                </div>
+            </div>
+        </section>
+
+        <!-- Sector breakdown -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">SECTOR BREAKDOWN</p>
+                    <h2>Patents by Sector</h2>
+                    <p>Aggregate patent counts across frontier tech sectors. Top 3 companies per sector highlighted.</p>
+                </div>
+                <div id="patent-sector-grid" class="pat-sector-grid"></div>
+            </div>
+        </section>
+
+        <!-- Per-company cards -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">COMPANY PORTFOLIOS</p>
+                    <h2>Detailed Patent Intelligence</h2>
+                    <p>Click any card for key patents and USPTO/Google Patents verification links.</p>
+                </div>
+                <div id="patent-company-grid" class="pat-company-grid"></div>
+
+                <div class="pat-data-note">
+                    <strong>About this data.</strong>
+                    Patent counts are approximations (&plusmn;20%) drawn from public USPTO and Google Patents searches as of 2026-Q1. Where available, the pipeline augments counts with live PatentsView API data. Every card links to a verifiable assignee search so you can drill deeper. This tracker prioritizes <em>patent applications</em> (a leading R&amp;D signal) over granted patents, which lag filings by 18&ndash;24 months.
                 </div>
             </div>
         </section>
@@ -95,15 +412,15 @@
 
     <footer class="premium-footer">
       <div class="footer-inner">
-        <p style="color:rgba(255,255,255,0.4); font-size:12px; text-align:center;">The Innovators League · Data: USPTO (authoritative)</p>
+        <p style="color:rgba(255,255,255,0.4); font-size:12px; text-align:center;">The Innovators League &middot; Data: USPTO PatentsView + Google Patents (authoritative sources)</p>
       </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="utils.js?v=20260408"></script>
-    <script src="auth.js?v=20260325"></script>
-    <script src="data.js?v=20260325"></script>
-    <script src="data/patent_intel_auto.js?v=20260325"></script>
+    <script src="utils.js?v=20260416"></script>
+    <script src="auth.js?v=20260416"></script>
+    <script src="data.js?v=20260416"></script>
+    <script src="data/patent_intel_auto.js?v=20260416"></script>
     <script src="patents.js?v=20260416"></script>
 </body>
 </html>

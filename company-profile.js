@@ -1889,11 +1889,412 @@
       });
     }
 
+    // Tear Sheet button — populate the hidden tear-sheet-view and trigger native print
+    const tearSheetBtn = document.getElementById('btn-tear-sheet');
+    if (tearSheetBtn) {
+      tearSheetBtn.addEventListener('click', () => {
+        try {
+          renderTearSheetView(company);
+        } catch (e) {
+          console.error('[TIL] renderTearSheetView failed:', e);
+        }
+        // Give the browser one paint tick to apply the populated DOM before print
+        setTimeout(() => {
+          try { window.print(); } catch (e) { console.error('[TIL] window.print failed:', e); }
+        }, 50);
+      });
+    }
+
     // Update attribution
     const attrUpdated = document.getElementById('attribution-updated');
     if (attrUpdated && typeof DATA_SOURCES !== 'undefined') {
       attrUpdated.textContent = `Last updated: ${DATA_SOURCES.companies?.lastUpdated || 'Unknown'}`;
     }
+  }
+
+  // ═══════════════════════════════════════════════════════
+  // TEAR SHEET — banker-grade one-page PDF export view
+  // Populated from live company data; shown only via @media print
+  // ═══════════════════════════════════════════════════════
+
+  function renderTearSheetView(company) {
+    if (!company) return;
+
+    // ─── Gather data from all available sources ───
+    var scores = company.scores || {};
+    var innovatorScore = (typeof INNOVATOR_SCORES !== 'undefined')
+      ? INNOVATOR_SCORES.find(function(s) { return s.company === company.name; }) : null;
+
+    var fundingRounds = (typeof FUNDING_TRACKER !== 'undefined')
+      ? FUNDING_TRACKER.filter(function(f) { return f.company === company.name; }) : [];
+    var dealEntries = (typeof DEAL_TRACKER !== 'undefined')
+      ? DEAL_TRACKER.filter(function(d) { return d.company === company.name; }) : [];
+
+    var govContracts = (typeof GOV_CONTRACTS !== 'undefined')
+      ? GOV_CONTRACTS.filter(function(g) { return g.company === company.name; }) : [];
+    var sbirAwards = (typeof SBIR_AWARDS !== 'undefined')
+      ? SBIR_AWARDS.filter(function(s) { return s.company === company.name; }) : [];
+    var patents = (typeof PATENT_INTEL !== 'undefined')
+      ? PATENT_INTEL.find(function(p) { return p.company === company.name; }) : null;
+    var headcount = (typeof HEADCOUNT_ESTIMATES !== 'undefined')
+      ? HEADCOUNT_ESTIMATES.find(function(h) { return h.company === company.name; }) : null;
+    var moat = (typeof MOAT_PROFILES !== 'undefined')
+      ? MOAT_PROFILES.find(function(m) { return m.company === company.name; }) : null;
+    var founderDna = (typeof FOUNDER_DNA !== 'undefined')
+      ? FOUNDER_DNA.find(function(f) { return f.company === company.name; }) : null;
+    var clinicalTrials = (typeof CLINICAL_TRIALS !== 'undefined')
+      ? CLINICAL_TRIALS.filter(function(t) {
+          var hay = ((t.sponsor || '') + ' ' + (t.title || '')).toLowerCase();
+          return hay.includes(company.name.toLowerCase());
+        }) : [];
+    var trl = getTRL(company);
+
+    var today = new Date();
+    var dateStr = today.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    var genStamp = today.toLocaleString('en-US', { month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' });
+
+    // ─── Header date ───
+    setText('ts-date', dateStr);
+    setText('ts-footer-generated', 'Generated ' + genStamp);
+
+    // ─── Document title / page title ───
+    document.title = 'Tear Sheet · ' + company.name + ' | The Innovators League';
+
+    // ─── Title row ───
+    setText('ts-company-name', company.name || '—');
+
+    // Meta line: sector · stage · HQ · website · ticker
+    var website = (typeof getCompanyWebsite === 'function') ? getCompanyWebsite(company.name) : '';
+    if (!website && company.website) website = company.website;
+    var websiteDisplay = '';
+    if (website) {
+      try {
+        websiteDisplay = String(website).replace(/^https?:\/\//, '').replace(/\/$/, '');
+      } catch (e) { websiteDisplay = website; }
+    }
+    var metaParts = [];
+    if (company.sector) metaParts.push(escapeHtml(company.sector));
+    if (company.fundingStage) metaParts.push(escapeHtml(company.fundingStage));
+    if (company.location) metaParts.push(escapeHtml(company.location));
+    if (websiteDisplay) metaParts.push(escapeHtml(websiteDisplay));
+    if (company.ticker) metaParts.push('NYSE/NASDAQ: ' + escapeHtml(company.ticker));
+    setHtml('ts-company-meta', metaParts.join('<span class="ts-sep">·</span>'));
+
+    // Description (limit to ~3 sentences / ~380 chars)
+    var desc = company.description || '';
+    if (desc.length > 420) {
+      // Truncate at last period before 420 chars to preserve sentence boundary
+      var cut = desc.slice(0, 420);
+      var lastPeriod = cut.lastIndexOf('.');
+      if (lastPeriod > 200) cut = cut.slice(0, lastPeriod + 1);
+      desc = cut + (desc.length > cut.length ? '…' : '');
+    }
+    setText('ts-company-desc', desc || 'No description available.');
+
+    // ─── Score block ───
+    var scoreValue = '—';
+    var scoreTier = 'UNRATED';
+    if (innovatorScore) {
+      var composite = innovatorScore.composite != null ? innovatorScore.composite : (innovatorScore.total != null ? innovatorScore.total : null);
+      if (composite != null) {
+        scoreValue = parseFloat(composite).toFixed(0);
+        var ns = parseFloat(scoreValue);
+        if (ns >= 90) scoreTier = 'ELITE';
+        else if (ns >= 80) scoreTier = 'EXCEPTIONAL';
+        else if (ns >= 70) scoreTier = 'STRONG';
+        else scoreTier = 'PROMISING';
+      }
+    } else if (scores.composite != null) {
+      scoreValue = String(scores.composite);
+    }
+    setText('ts-score-value', scoreValue);
+    setText('ts-score-tier', scoreTier);
+
+    // ─── Key stats grid ───
+    var keyStats = [];
+    keyStats.push({ label: 'Founded', value: company.founded || company.yearFounded || '—' });
+    keyStats.push({ label: 'Total Raised', value: company.totalRaised || '—' });
+    keyStats.push({ label: 'Valuation', value: company.valuation || 'Undisclosed' });
+    keyStats.push({ label: 'HQ', value: company.location || '—' });
+    var empVal = company.employees || (headcount && headcount.current ? String(headcount.current) : '—');
+    keyStats.push({ label: 'Employees', value: empVal });
+    if (company.ticker) {
+      keyStats.push({ label: 'Ticker', value: company.ticker });
+    } else if (trl) {
+      keyStats.push({ label: 'TRL', value: 'TRL ' + trl + '/9' });
+    } else {
+      keyStats.push({ label: 'Stage', value: company.fundingStage || '—' });
+    }
+    var keyStatsHtml = keyStats.map(function(s) {
+      return '<div class="ts-keystat">' +
+        '<div class="ts-keystat-label">' + escapeHtml(s.label) + '</div>' +
+        '<div class="ts-keystat-value">' + escapeHtml(s.value) + '</div>' +
+      '</div>';
+    }).join('');
+    setHtml('ts-keystats-grid', keyStatsHtml);
+
+    // ─── Founders / Leadership ───
+    var foundersHtml = '';
+    if (company.founder) {
+      var names = String(company.founder).split(/,|\band\b|;/).map(function(n) { return n.trim(); }).filter(Boolean);
+      foundersHtml += names.map(function(n, i) {
+        var role = (i === 0) ? 'Founder &amp; CEO' : 'Co-founder';
+        return '<div class="ts-founder-row">' +
+          '<span class="ts-founder-name">' + escapeHtml(n) + '</span>' +
+          '<span class="ts-founder-role">' + role + '</span>' +
+        '</div>';
+      }).join('');
+      if (founderDna) {
+        var dnaBits = [];
+        if (founderDna.serialFounder) dnaBits.push('Serial founder');
+        if (founderDna.dnaScore != null) dnaBits.push('DNA score: ' + founderDna.dnaScore);
+        if (founderDna.mafias && founderDna.mafias.length) dnaBits.push('Mafia: ' + founderDna.mafias.join(', '));
+        if (dnaBits.length) {
+          foundersHtml += '<p style="margin-top:4px;font-size:8.5pt;color:#555;">' + escapeHtml(dnaBits.join(' · ')) + '</p>';
+        }
+      }
+    } else {
+      foundersHtml = '<span class="ts-empty">Leadership data unavailable.</span>';
+    }
+    setHtml('ts-founders', foundersHtml);
+
+    // ─── Funding History table ───
+    var fundingHtml = '';
+    // Prefer DEAL_TRACKER entries (richer) if they exist, otherwise FUNDING_TRACKER summary
+    var rows = [];
+    if (dealEntries.length > 0) {
+      rows = dealEntries.slice().sort(function(a, b) {
+        return new Date(b.date || 0) - new Date(a.date || 0);
+      }).map(function(d) {
+        return {
+          date: d.date || '',
+          stage: d.round || d.type || '—',
+          amount: d.amount || '—',
+          lead: d.lead || d.investor || '—'
+        };
+      });
+    } else if (fundingRounds.length > 0) {
+      rows = fundingRounds.map(function(f) {
+        return {
+          date: f.lastRoundDate || '',
+          stage: f.lastRound || '—',
+          amount: f.lastRoundAmount || f.totalRaised || '—',
+          lead: (f.leadInvestors && f.leadInvestors.length) ? f.leadInvestors.join(', ') : '—'
+        };
+      });
+    }
+    if (rows.length > 0) {
+      // cap to top 6 to preserve one-page layout
+      var maxRows = rows.slice(0, 6);
+      fundingHtml = '<table class="ts-table"><thead><tr>' +
+          '<th>Date</th><th>Stage</th><th class="ts-num">Amount</th><th>Lead Investor</th>' +
+        '</tr></thead><tbody>' +
+        maxRows.map(function(r) {
+          return '<tr>' +
+            '<td>' + escapeHtml(formatRoundDate(r.date)) + '</td>' +
+            '<td>' + escapeHtml(r.stage) + '</td>' +
+            '<td class="ts-num">' + escapeHtml(r.amount) + '</td>' +
+            '<td>' + escapeHtml(truncate(r.lead, 40)) + '</td>' +
+          '</tr>';
+        }).join('') +
+        '</tbody></table>' +
+        '<p style="margin-top:3pt;font-size:7pt;color:#888;font-style:italic;">Source: Crunchbase · PitchBook · press releases</p>';
+    } else if (company.totalRaised) {
+      fundingHtml = '<p>Total raised: <strong>' + escapeHtml(company.totalRaised) + '</strong>';
+      if (company.valuation) fundingHtml += ' · Last valuation: <strong>' + escapeHtml(company.valuation) + '</strong>';
+      fundingHtml += '</p>';
+    } else {
+      fundingHtml = '<span class="ts-empty">No funding rounds tracked.</span>';
+    }
+    setHtml('ts-funding', fundingHtml);
+
+    // ─── Traction signals ───
+    var tractionItems = [];
+    tractionItems.push({
+      label: 'Gov contracts',
+      value: govContracts.length > 0 ? String(govContracts.length) + ' on record' : '—',
+      src: govContracts.length ? 'SAM.gov' : null
+    });
+    if (sbirAwards.length > 0) {
+      tractionItems.push({ label: 'SBIR/STTR', value: String(sbirAwards.length) + ' awards', src: 'SBIR.gov' });
+    }
+    if (patents) {
+      if (patents.totalPatents != null) {
+        tractionItems.push({ label: 'Patents', value: String(patents.totalPatents), src: 'USPTO' });
+      } else if (patents.patentCount != null) {
+        tractionItems.push({ label: 'Patents', value: String(patents.patentCount), src: 'USPTO' });
+      }
+      if (patents.ipMoatScore != null) {
+        tractionItems.push({ label: 'IP moat', value: String(patents.ipMoatScore) + '/10', src: null });
+      }
+    }
+    if (headcount) {
+      if (headcount.current != null) {
+        tractionItems.push({ label: 'Headcount', value: String(headcount.current), src: 'LinkedIn est.' });
+      }
+      if (headcount.growth != null) {
+        var g = String(headcount.growth);
+        if (!g.startsWith('+') && !g.startsWith('-') && /^\d/.test(g)) g = '+' + g;
+        tractionItems.push({ label: '12-mo trend', value: g, src: null });
+      }
+    }
+    if (clinicalTrials.length > 0) {
+      tractionItems.push({ label: 'Clinical trials', value: String(clinicalTrials.length), src: 'ClinicalTrials.gov' });
+    }
+    if (trl != null) {
+      tractionItems.push({ label: 'Tech readiness', value: 'TRL ' + trl + '/9', src: null });
+    }
+    if (company.signal) {
+      tractionItems.push({ label: 'Signal', value: String(company.signal).toUpperCase(), src: null });
+    }
+    if (company.recentEvent && company.recentEvent.text) {
+      tractionItems.push({ label: 'Latest event', value: truncate(company.recentEvent.text, 36), src: null });
+    }
+
+    var tractionHtml = '';
+    if (tractionItems.length > 0) {
+      tractionHtml = '<div class="ts-traction-grid">' +
+        tractionItems.slice(0, 10).map(function(t) {
+          var src = t.src ? ' <span class="ts-source-tag">[' + escapeHtml(t.src) + ']</span>' : '';
+          return '<div class="ts-traction-item">' +
+            '<span class="ts-traction-label">' + escapeHtml(t.label) + src + '</span>' +
+            '<span class="ts-traction-value">' + escapeHtml(t.value) + '</span>' +
+          '</div>';
+        }).join('') +
+      '</div>';
+    } else {
+      tractionHtml = '<span class="ts-empty">No traction signals available.</span>';
+    }
+    setHtml('ts-traction', tractionHtml);
+
+    // ─── Investment thesis (bull/bear/insight) ───
+    var thesisHtml = '';
+    if (company.thesis && company.thesis.bull) {
+      thesisHtml += '<div class="ts-thesis-label">Bull</div>' +
+        '<p>' + escapeHtml(company.thesis.bull) + '</p>';
+    }
+    if (company.thesis && company.thesis.bear) {
+      thesisHtml += '<div class="ts-thesis-label">Bear</div>' +
+        '<p>' + escapeHtml(company.thesis.bear) + '</p>';
+    }
+    if (!thesisHtml && company.insight) {
+      thesisHtml = '<div class="ts-thesis-label">ROS Take</div>' +
+        '<p>' + escapeHtml(company.insight) + '</p>';
+    }
+    if (!thesisHtml) {
+      thesisHtml = '<span class="ts-empty">No published thesis.</span>';
+    }
+    setHtml('ts-thesis', thesisHtml);
+
+    // ─── Competitive context ───
+    var compHtml = '';
+    var comps = Array.isArray(company.competitors) ? company.competitors.slice(0, 5) : [];
+    if (comps.length > 0) {
+      compHtml = '<div class="ts-competitor-list">' +
+        comps.map(function(n) {
+          return '<span class="ts-competitor-chip">' + escapeHtml(n) + '</span>';
+        }).join('') +
+      '</div>';
+      // Quick comps: if any competitor is in COMPANIES, show a one-liner
+      if (typeof COMPANIES !== 'undefined') {
+        var compRows = comps.map(function(n) {
+          var c = COMPANIES.find(function(x) { return x.name === n; });
+          if (!c) return null;
+          var bits = [];
+          if (c.fundingStage) bits.push(c.fundingStage);
+          if (c.totalRaised) bits.push(c.totalRaised);
+          if (c.location) bits.push(c.location);
+          return { name: n, detail: bits.join(' · ') };
+        }).filter(Boolean);
+        if (compRows.length > 0) {
+          compHtml += '<ul style="margin-top:4pt;">' +
+            compRows.map(function(r) {
+              return '<li><strong>' + escapeHtml(r.name) + '</strong>' +
+                (r.detail ? ' <span style="color:#666;">— ' + escapeHtml(r.detail) + '</span>' : '') + '</li>';
+            }).join('') +
+          '</ul>';
+        }
+      }
+    } else {
+      compHtml = '<span class="ts-empty">No direct competitors catalogued.</span>';
+    }
+    if (company.thesisCluster) {
+      compHtml += '<p style="margin-top:4pt;font-size:8pt;color:#555;"><em>Thesis cluster: ' + escapeHtml(company.thesisCluster) + '</em></p>';
+    }
+    setHtml('ts-competitive', compHtml);
+
+    // ─── Risks & Moats ───
+    var rmHtml = '';
+    // Moats
+    var moatBullets = [];
+    if (moat && Array.isArray(moat.moats)) {
+      moat.moats.slice(0, 4).forEach(function(m) {
+        if (typeof m === 'string') moatBullets.push(m);
+        else if (m && m.title) moatBullets.push(m.title + (m.detail ? ' — ' + m.detail : ''));
+      });
+    }
+    if (!moatBullets.length && company.techApproach) {
+      moatBullets.push('Technical approach: ' + company.techApproach);
+    }
+    if (patents && patents.keyAreas && patents.keyAreas.length) {
+      moatBullets.push('IP in: ' + patents.keyAreas.slice(0, 3).join(', '));
+    }
+
+    if (moatBullets.length > 0) {
+      rmHtml += '<div class="ts-thesis-label">Moats</div><ul>' +
+        moatBullets.map(function(b) { return '<li>' + escapeHtml(truncate(b, 180)) + '</li>'; }).join('') +
+      '</ul>';
+    }
+
+    // Risks
+    var riskBullets = [];
+    if (company.thesis && Array.isArray(company.thesis.risks)) {
+      riskBullets = company.thesis.risks.slice(0, 5);
+    } else if (Array.isArray(company.risks)) {
+      riskBullets = company.risks.slice(0, 5);
+    }
+    if (riskBullets.length > 0) {
+      rmHtml += '<div class="ts-thesis-label">Risks</div><ul>' +
+        riskBullets.map(function(r) { return '<li>' + escapeHtml(truncate(r, 180)) + '</li>'; }).join('') +
+      '</ul>';
+    }
+    if (!rmHtml) {
+      rmHtml = '<span class="ts-empty">No risks or moats catalogued.</span>';
+    }
+    setHtml('ts-risks-moats', rmHtml);
+
+    // ─── Sources footer line — adapt based on what's actually used ───
+    var sources = ['ROS research'];
+    if (govContracts.length || sbirAwards.length) sources.unshift('SAM.gov');
+    if (patents) sources.unshift('USPTO');
+    if (company.ticker) sources.unshift('SEC EDGAR', 'Yahoo Finance');
+    if (dealEntries.length || fundingRounds.length) sources.push('Crunchbase');
+    if (clinicalTrials.length) sources.push('ClinicalTrials.gov');
+    // Deduplicate while preserving order
+    var seen = {};
+    var dedup = sources.filter(function(s) { if (seen[s]) return false; seen[s] = true; return true; });
+    var lastRefreshed = (typeof LAST_UPDATED !== 'undefined') ? LAST_UPDATED : (typeof DATA_SOURCES !== 'undefined' && DATA_SOURCES.companies ? DATA_SOURCES.companies.lastUpdated : '');
+    var sourceLine = 'Sources: ' + dedup.join(' · ');
+    if (lastRefreshed) sourceLine += ' · Last refreshed ' + lastRefreshed;
+    setText('ts-sources', sourceLine);
+  }
+
+  // ─── Tear-sheet helpers ───
+  function setText(id, value) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = (value == null || value === '') ? '—' : String(value);
+  }
+  function setHtml(id, html) {
+    var el = document.getElementById(id);
+    if (el) el.innerHTML = html || '—';
+  }
+  function formatRoundDate(dateStr) {
+    if (!dateStr) return '—';
+    try {
+      var d = new Date(/^\d{4}-\d{2}$/.test(dateStr) ? dateStr + '-01' : dateStr);
+      if (isNaN(d.getTime())) return String(dateStr);
+      return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+    } catch (e) { return String(dateStr); }
   }
 
   // ═══════════════════════════════════════════════════════

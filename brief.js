@@ -136,6 +136,29 @@
     setText('brief-contract-count', (digest.stats || {}).contractCount || 0);
     setText('brief-top-mover', (digest.stats || {}).topMover || '—');
 
+    // Editorial intro — Stephen's daily take. Pulls from digest.editorialIntro
+    // (set in data/daily_digest.json) OR falls back to an auto-generated summary
+    // from today's biggest signals. Shows up in a ROS-orange callout box.
+    var introEl = document.getElementById('editorial-intro-text');
+    if (introEl) {
+      var manualIntro = (digest.editorialIntro || '').trim();
+      if (manualIntro) {
+        introEl.textContent = manualIntro;
+      } else {
+        // Auto-generate a simple synopsis from the top signals
+        var parts = [];
+        var mover = (digest.sections.marketMovers || [])[0];
+        var contract = (digest.sections.govActivity || [])[0];
+        var fda = (digest.sections.regulatory || [])[0];
+        if (mover) parts.push(mover.ticker + ' is moving ' + (mover.changePercent >= 0 ? 'up' : 'down') + ' ' + Math.abs(mover.changePercent).toFixed(1) + '%');
+        if (contract && contract.company) parts.push(contract.company + ' just won a ' + (contract.amount || 'notable') + ' contract');
+        if (fda && fda.title) parts.push('and the FDA issued a new action');
+        introEl.textContent = parts.length
+          ? "Here's what matters in frontier tech today — " + parts.join(', ') + '.'
+          : "Today's frontier tech activity is below. Every data point links to its primary source.";
+      }
+    }
+
     var s = digest.sections;
 
     // AUTHORITATIVE SOURCES ONLY — no RSS-parsed funding or news matching

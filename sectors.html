@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sector Explorer | ROS Startup Database</title>
+    <meta name="description" content="Every frontier tech sector, mapped. Find the companies building what matters — defense, nuclear, space, AI, robotics, biotech, quantum, and more.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:title" content="Sector Explorer | ROS Startup Database">
+    <meta property="og:description" content="Every frontier tech sector mapped. Leaders, challengers, emerging players, investors, and government traction per sector.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Innovators League">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Sector Explorer | ROS Startup Database">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260416">
+    <link rel="stylesheet" href="sectors-page.css?v=20260416">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Intelligence</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>            <a href="brief.html" class="nav-link">Frontier Daily</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
+                    <a href="sectors.html" class="nav-dropdown-link">Sectors</a>
+                    <a href="investors.html" class="nav-dropdown-link">Investors</a>
+                    <a href="jobs.html" class="nav-dropdown-link">Talent</a>
+                    <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                    <a href="patents.html" class="nav-dropdown-link">Patents</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">                    <a href="launches.html" class="nav-dropdown-link">Launches</a>
+                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                    <a href="research.html" class="nav-dropdown-link">Research</a>
+                    <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                </div>
+            </div>
+            </div>
+            <div class="nav-auth" id="nav-auth">
+                <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+                <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+            </div>
+            <div class="nav-user" id="nav-user" style="display:none;">
+                <span class="nav-user-email" id="nav-user-email"></span>
+                <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+            </div>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Breadcrumb Navigation -->
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
+        <span id="breadcrumb-current" aria-current="page">Sector Explorer</span>
+    </div>
+
+    <!-- Hero — Sector Index view -->
+    <header class="hero sectors-hero" id="sectors-index-hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow">SECTOR EXPLORER</p>
+            <h1 class="hero-title">Sector Explorer</h1>
+            <p class="hero-subtitle">Every frontier tech sector, mapped. Find the companies building what matters.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="sx-sector-count">0</span>
+                    <span class="stat-label">Sectors Tracked</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="sx-company-count">0</span>
+                    <span class="stat-label">Companies</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="sx-total-funding">$0</span>
+                    <span class="stat-label">Total Capital Tracked</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero — Sector Drilldown view (hidden by default) -->
+    <header class="hero sectors-drilldown-hero" id="sectors-drilldown-hero" style="display:none;">
+        <div class="hero-content">
+            <a href="sectors.html" class="sx-back-link" id="sx-back-link">&larr; Back to all sectors</a>
+            <div class="sx-drilldown-top">
+                <div class="sx-drilldown-icon" id="sx-dd-icon">&#127919;</div>
+                <div class="sx-drilldown-titles">
+                    <p class="hero-eyebrow" id="sx-dd-eyebrow">SECTOR DEEP-DIVE</p>
+                    <h1 class="hero-title" id="sx-dd-title">Sector</h1>
+                </div>
+            </div>
+            <p class="hero-subtitle" id="sx-dd-description"></p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="sx-dd-companies">0</span>
+                    <span class="stat-label">Companies</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="sx-dd-funding">$0</span>
+                    <span class="stat-label">Total Raised</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" id="sx-dd-fi">0</span>
+                    <span class="stat-label">Median Frontier Index</span>
+                </div>
+            </div>
+            <p class="sx-dd-trend" id="sx-dd-trend"></p>
+        </div>
+    </header>
+
+    <!-- ── SECTOR INDEX VIEW ───────────────────────────────────── -->
+    <main id="sectors-index-view">
+
+        <!-- Sector grid -->
+        <section class="section" id="sx-grid-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">ECOSYSTEM MAP</p>
+                    <h2>Pick a Sector</h2>
+                    <p>Each sector shows company count, capital deployed, and the top players. Click any card for the full drilldown — leaders, investors, government traction, and more.</p>
+                </div>
+                <div class="sx-grid" id="sx-grid"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ── SECTOR DRILLDOWN VIEW ──────────────────────────────── -->
+    <main id="sectors-drilldown-view" style="display:none;">
+
+        <!-- Sub-segments -->
+        <section class="section" id="sx-segments-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">SUB-SEGMENTS</p>
+                    <h2>Sub-Segments &amp; Thesis Clusters</h2>
+                    <p>Companies grouped by the technology approach or vertical they pursue inside this sector.</p>
+                </div>
+                <div class="sx-segments-wrap" id="sx-segments-wrap"></div>
+            </div>
+        </section>
+
+        <!-- Market Map: Leaders / Challengers / Emerging -->
+        <section class="section" id="sx-marketmap-section" style="background: linear-gradient(135deg, rgba(255,107,44,0.03) 0%, rgba(255,107,44,0.01) 100%);">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">COMPETITIVE POSITIONING</p>
+                    <h2>Market Map</h2>
+                    <p>Companies laid out by stage and Frontier Index — Leaders (Series C+ or FI &gt; 80), Challengers (Series A/B + FI 60-80), and Emerging (Seed / Pre-seed or FI &lt; 60).</p>
+                </div>
+                <div class="sx-marketmap" id="sx-marketmap"></div>
+            </div>
+        </section>
+
+        <!-- All companies in this sector -->
+        <section class="section" id="sx-companies-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">FULL ROSTER</p>
+                    <h2 id="sx-companies-heading">Companies in This Sector</h2>
+                    <p>Every tracked company in this sector. Click any card for the full company profile.</p>
+                </div>
+                <div class="sx-companies-controls">
+                    <input type="text" id="sx-company-search" class="sx-search" placeholder="Search companies...">
+                    <select id="sx-company-sort" class="sx-select">
+                        <option value="score">Sort: Frontier Index</option>
+                        <option value="funding">Sort: Total Raised</option>
+                        <option value="stage">Sort: Stage</option>
+                        <option value="name">Sort: Name</option>
+                    </select>
+                </div>
+                <div class="sx-companies-grid" id="sx-companies-grid"></div>
+            </div>
+        </section>
+
+        <!-- Top Investors in this sector -->
+        <section class="section" id="sx-investors-section" style="background: linear-gradient(135deg, rgba(139,92,246,0.04) 0%, rgba(139,92,246,0.01) 100%);">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">CAPITAL STACK</p>
+                    <h2>Top Investors</h2>
+                    <p>VCs most active in this sector — ranked by portfolio overlap and deal lead count.</p>
+                </div>
+                <div class="sx-investors-grid" id="sx-investors-grid"></div>
+            </div>
+        </section>
+
+        <!-- Regulatory / Gov activity cross-link boxes -->
+        <section class="section" id="sx-cross-section">
+            <div class="container">
+                <div class="sx-cross-grid">
+                    <a href="#" class="sx-cross-card" id="sx-regulatory-card">
+                        <div class="sx-cross-icon" style="background:rgba(16,185,129,0.12); color:#10b981;">&#128209;</div>
+                        <div class="sx-cross-body">
+                            <p class="sx-cross-eyebrow">REGULATORY POSTURE</p>
+                            <strong class="sx-cross-title">Track FDA / NRC / FAA / DOE actions</strong>
+                            <p class="sx-cross-desc" id="sx-regulatory-desc">Open the regulatory feed filtered to this sector.</p>
+                            <span class="sx-cross-cta">Open Regulatory &rarr;</span>
+                        </div>
+                    </a>
+                    <div class="sx-cross-card sx-gov-card">
+                        <div class="sx-cross-icon" style="background:rgba(34,197,94,0.12); color:#22c55e;">&#127963;&#65039;</div>
+                        <div class="sx-cross-body">
+                            <p class="sx-cross-eyebrow">GOVERNMENT ACTIVITY</p>
+                            <strong class="sx-cross-title">Contracts &amp; SBIR awards in this sector</strong>
+                            <div class="sx-gov-lists">
+                                <div class="sx-gov-col">
+                                    <div class="sx-gov-col-title">Top Contract Winners</div>
+                                    <ul id="sx-gov-contracts"></ul>
+                                </div>
+                                <div class="sx-gov-col">
+                                    <div class="sx-gov-col-title">Recent SBIR Awards</div>
+                                    <ul id="sx-gov-sbir"></ul>
+                                </div>
+                            </div>
+                            <a href="govradar.html" class="sx-cross-cta">Open Gov Radar &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Funding trend mini-chart -->
+        <section class="section" id="sx-funding-section" style="background: linear-gradient(135deg, rgba(59,130,246,0.04) 0%, rgba(59,130,246,0.01) 100%);">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">CAPITAL FLOW</p>
+                    <h2>Funding Trend</h2>
+                    <p>Deal count per quarter over the last 8 quarters — based on tracked funding rounds in this sector.</p>
+                </div>
+                <div class="sx-trend-wrap">
+                    <div class="sx-trend-chart" id="sx-trend-chart"></div>
+                    <div class="sx-trend-stats" id="sx-trend-stats"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Auth Modal -->
+    <div class="modal-overlay auth-modal-overlay" id="auth-modal-overlay" style="display:none;">
+        <div class="modal-content auth-modal">
+            <button class="modal-close" id="auth-modal-close" aria-label="Close">&times;</button>
+            <div class="auth-modal-header">
+                <div class="auth-logo">ROS</div>
+                <h2>The Innovators League</h2>
+                <p>Access the definitive frontier tech intelligence platform.</p>
+            </div>
+            <div class="auth-error" id="auth-error" style="display:none;"></div>
+            <div class="auth-tabs">
+                <button class="auth-tab active" data-tab="login">Sign In</button>
+                <button class="auth-tab" data-tab="signup">Create Account</button>
+            </div>
+            <div class="auth-panel" id="auth-login-panel">
+                <button class="auth-google-btn" id="auth-google-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                    Continue with Google
+                </button>
+                <div class="auth-divider"><span>or</span></div>
+                <form id="auth-login-form">
+                    <div class="auth-field">
+                        <input type="email" id="auth-email" placeholder="Email address" required autocomplete="email">
+                    </div>
+                    <div class="auth-field">
+                        <input type="password" id="auth-password" placeholder="Password" required autocomplete="current-password">
+                    </div>
+                    <button type="submit" class="auth-submit-btn">Sign In</button>
+                    <a href="#" class="auth-forgot-link" id="auth-forgot-password">Forgot password?</a>
+                </form>
+            </div>
+            <div class="auth-panel" id="auth-signup-panel" style="display:none;">
+                <button class="auth-google-btn" onclick="TILAuth.signInWithGoogle()">
+                    <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                    Continue with Google
+                </button>
+                <div class="auth-divider"><span>or</span></div>
+                <form id="auth-signup-form">
+                    <div class="auth-field">
+                        <input type="email" id="auth-signup-email" placeholder="Email address" required autocomplete="email">
+                    </div>
+                    <div class="auth-field">
+                        <input type="password" id="auth-signup-password" placeholder="Password (6+ characters)" required autocomplete="new-password" minlength="6">
+                    </div>
+                    <div class="auth-field">
+                        <input type="password" id="auth-signup-confirm" placeholder="Confirm password" required autocomplete="new-password">
+                    </div>
+                    <button type="submit" class="auth-submit-btn">Create Account</button>
+                </form>
+            </div>
+            <div class="auth-footer">
+                <p>By signing in, you agree to our Terms of Service and Privacy Policy.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subscribe Banner -->
+    <section class="subscribe-banner">
+      <h3>Get Stephen's field notes every week</h3>
+      <p>Factory visits, founder calls, and deal signals that aren't in any LLM. Free, every Sunday.</p>
+      <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="subscribe-banner-btn">Subscribe Free</a>
+      <div class="subscribe-banner-note">Join 50,000+ investors and founders in the ROS community</div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="premium-footer">
+      <div class="footer-inner">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="footer-logo"><span class="footer-ros">ROS</span> THE INNOVATORS LEAGUE</div>
+            <p class="footer-tagline">The deal engine for frontier technology. Intelligence, access, and deal flow from inside the ecosystem.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>Intelligence</h4>
+              <a href="index.html">Company Database</a>
+              <a href="sectors.html">Sector Explorer</a>
+              <a href="visualizations.html">Insights &amp; Analytics</a>
+              <a href="brief.html">War Room Brief</a>
+              <a href="compare.html">Compare Companies</a>
+            </div>
+            <div class="footer-col">
+              <h4>Deal Flow</h4>
+              <a href="dealflow.html">Deal Pipeline</a>
+              <a href="investors.html">Investor Directory</a>
+              <a href="valuations.html">Valuations</a>
+              <a href="jobs.html">Talent Intelligence</a>
+            </div>
+            <div class="footer-col">
+              <h4>ROS Ecosystem</h4>
+              <a href="https://rationaloptimistsociety.substack.com" target="_blank">Newsletter</a>
+              <a href="govradar.html">Gov Radar</a>
+              <a href="regulatory.html">Regulatory Intel</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Rational Optimist Society. All rights reserved.</p>
+          <div class="footer-data-freshness" id="footer-freshness"></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="utils.js?v=20260416"></script>
+    <script src="auth.js?v=20260416"></script>
+    <script src="data.js?v=20260416"></script>
+    <script src="sectors.js?v=20260416"></script>
+</body>
+</html>
