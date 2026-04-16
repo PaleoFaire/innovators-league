@@ -6899,6 +6899,20 @@ html {
   transition: all 0.2s;
 }
 
+/* Simplified 4-column layout (Company/Amount/Valuation/Date — stage shown as sub-label) */
+.funding-row-simple {
+  grid-template-columns: 2.2fr 1fr 1.1fr 0.9fr;
+}
+.funding-company-sub {
+  display: block;
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-top: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 .funding-row:hover {
   border-color: var(--border-hover);
   background: var(--bg-card-hover);

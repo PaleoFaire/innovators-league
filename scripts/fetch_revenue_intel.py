@@ -23,6 +23,7 @@ SEC_HEADERS = {
 }
 
 # Public companies with CIK numbers for revenue tracking
+# Expanded to cover all public tickers in stocks_auto.js
 PUBLIC_REVENUE_TARGETS = {
     "PLTR": {"name": "Palantir", "cik": "0001321655"},
     "RKLB": {"name": "Rocket Lab", "cik": "0001819994"},
@@ -41,6 +42,15 @@ PUBLIC_REVENUE_TARGETS = {
     "TEM": {"name": "Tempus AI", "cik": "0001786842"},
     "NVDA": {"name": "NVIDIA", "cik": "0001045810"},
     "TSLA": {"name": "Tesla", "cik": "0001318605"},
+    "AMD": {"name": "AMD", "cik": "0000002488"},
+    "ALAB": {"name": "Astera Labs", "cik": "0001810806"},
+    "AUR": {"name": "Aurora Innovation", "cik": "0001828108"},
+    "EVTL": {"name": "Vertical Aerospace", "cik": "0001884082"},
+    "NNE": {"name": "Nano Nuclear Energy", "cik": "0001999847"},
+    "QS": {"name": "QuantumScape", "cik": "0001728117"},
+    "SATL": {"name": "Satellogic", "cik": "0001874315"},
+    "SLDP": {"name": "Solid Power", "cik": "0001840292"},
+    "SMR": {"name": "NuScale Power", "cik": "0001638290"},
 }
 
 
@@ -52,6 +62,7 @@ def fetch_company_financials(cik, ticker):
     try:
         resp = requests.get(url, headers=SEC_HEADERS, timeout=30)
         if resp.status_code != 200:
+            print(f"  ✗ {ticker}: HTTP {resp.status_code} from SEC EDGAR")
             return None
 
         data = resp.json()
@@ -154,6 +165,7 @@ def merge_revenue(existing, new_data):
         info = PUBLIC_REVENUE_TARGETS[ticker]
         company_lower = info["name"].lower()
 
+        today = datetime.now().strftime("%Y-%m-%d")
         if company_lower in existing_by_company:
             # Update existing entry with fresh SEC data
             existing_by_company[company_lower].update({
@@ -161,6 +173,7 @@ def merge_revenue(existing, new_data):
                 "period": data["period"],
                 "growth": data["growth"],
                 "source": data["source"],
+                "lastUpdated": today,
             })
             updated_count += 1
         else:
@@ -171,6 +184,7 @@ def merge_revenue(existing, new_data):
                 "period": data["period"],
                 "growth": data["growth"],
                 "source": data["source"],
+                "lastUpdated": today,
             })
             updated_count += 1
 

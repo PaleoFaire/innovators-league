@@ -2185,7 +2185,8 @@ document.addEventListener('DOMContentLoaded', () => {
     'companies':              [initFilters, function() { renderCompanies(COMPANIES); }, initCompare, initMarketMap, initDatabaseViewToggle],
     'news-ticker':            [initNewsTicker],
     'intelligence-hub':       [initMovementTracker, initAlertsCenter, initIntelligenceHub],
-    'capital-flows':          [initDealTracker, initCapitalFlowsTabs, initRevenueTable],
+    // capital-flows now contains the merged Funding + Revenue tabs (old deal-flow table removed)
+    'capital-flows':          [initFundingTracker, initCapitalFlowsTabs, initRevenueTable],
     'funding-tracker':        [initFundingTracker],
     // 'market-pulse': REMOVED — stock prices now shown on company cards
     'growth-signals':         [initGrowthSignals],
@@ -2206,7 +2207,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'network-graph':          [initNetworkGraph],
     'competitive-battlefield':[initBattlefieldMap],
     'portfolio-builder':      [initPortfolioBuilder, renderConvictionStack],
-    'anomaly-alerts':         [initAnomalyAlerts],
+    // 'anomaly-alerts': REMOVED — Hot This Week section deleted (redundant with Growth Signals)
     // 'sector-reports': REMOVED
     'historical-tracking':    [initHistoricalTracking],
     'thesis-collision':       [initThesisCollision]
@@ -3999,10 +4000,12 @@ function initLeaderboard() {
     if (statsEl) {
       const totalVal = filtered.reduce((sum, c) => sum + c._val, 0);
       const totalRaised = filtered.reduce((sum, c) => sum + c._raised, 0);
+      const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
       statsEl.innerHTML = `
         <span class="lb-stat"><strong>${filtered.length}</strong> of ${totalCount} companies</span>
         <span class="lb-stat">Combined Value: <strong>${formatValuation(totalVal)}</strong></span>
         <span class="lb-stat">Total Raised: <strong>${formatValuation(totalRaised)}</strong></span>
+        <span class="lb-stat" style="margin-left:auto; color:var(--text-muted); font-size:11px;">Valuations: live stock caps + latest funding rounds · updated ${today}</span>
       `;
     }
 
@@ -4758,14 +4761,12 @@ function initFundingTracker() {
 
   function renderFunding() {
     grid.innerHTML = '';
-    // Header row
+    // Simplified 4-column header — removed Stage and Lead Investor (irrelevant noise)
     const header = document.createElement('div');
-    header.className = 'funding-row funding-row-header';
+    header.className = 'funding-row funding-row-header funding-row-simple';
     header.innerHTML = `
       <span>Company</span>
       <span>Amount</span>
-      <span>Stage</span>
-      <span>Lead Investor</span>
       <span>Valuation</span>
       <span>Date</span>
     `;
@@ -4776,15 +4777,15 @@ function initFundingTracker() {
 
     visibleRounds.forEach(round => {
       const row = document.createElement('div');
-      row.className = 'funding-row';
-      const leadText = Array.isArray(round.leadInvestors)
-        ? round.leadInvestors.filter(Boolean).join(', ')
-        : (round.lead || round.investor || '—');
+      row.className = 'funding-row funding-row-simple';
+      const stageText = round.lastRound || round.stage || '';
+      // Stage shown as small sublabel under company name (available but de-emphasized)
       row.innerHTML = `
-        <span class="funding-company">${escapeHtml(round.company || '')}</span>
+        <span class="funding-company">
+          ${escapeHtml(round.company || '')}
+          ${stageText ? `<span class="funding-company-sub">${escapeHtml(stageText)}</span>` : ''}
+        </span>
         <span class="funding-amount">${escapeHtml(round.lastRoundAmount || round.amount || '—')}</span>
-        <span><span class="funding-stage-tag">${escapeHtml(round.lastRound || round.stage || '—')}</span></span>
-        <span class="funding-lead">${escapeHtml(leadText)}</span>
         <span class="funding-val">${escapeHtml(round.valuation || '—')}</span>
         <span class="funding-date">${escapeHtml(round.lastRoundDate || round.date || '—')}</span>
       `;
@@ -6134,9 +6135,77 @@ function initAltData() {
 // ═══════════════════════════════════════════════════════
 // REAL-TIME ALERTS CENTER
 // ═══════════════════════════════════════════════════════
-function initAlertsCenter() {
-  if (typeof ALERTS_SYSTEM === 'undefined') return;
+// Build live alerts from real-time data sources — replaces hardcoded ALERTS_SYSTEM.recentAlerts
+// which was a Feb 2026 manual list. Merges news signals + deals + gov contracts.
+function buildLiveAlerts() {
+  const alerts = [];
 
+  // 1. News signals (auto-updated hourly from RSS)
+  const newsSource = (typeof COMPANY_SIGNALS_AUTO !== 'undefined' && Array.isArray(COMPANY_SIGNALS_AUTO))
+    ? COMPANY_SIGNALS_AUTO
+    : (typeof COMPANY_SIGNALS !== 'undefined' && Array.isArray(COMPANY_SIGNALS) ? COMPANY_SIGNALS : []);
+  newsSource.slice(0, 25).forEach((s, i) => {
+    alerts.push({
+      id: `news-${i}`,
+      date: s.date || s.time || new Date().toISOString().slice(0, 10),
+      time: s.time || '',
+      company: s.company || '',
+      category: s.type === 'funding' ? 'funding' : s.type === 'contract' ? 'contracts' : 'signals',
+      priority: s.impact === 'high' ? 'high' : (s.impact || 'medium'),
+      title: s.headline || s.title || s.text || '',
+      summary: s.summary || s.description || '',
+      source: s.source || 'RSS',
+      sourceUrl: s.link || s.url || '#',
+      relatedCompanies: []
+    });
+  });
+
+  // 2. Recent deals (FUNDING_FEED_AUTO is lazy-loaded, so fall back to COMPANIES deal data if present)
+  if (typeof FUNDING_FEED_AUTO !== 'undefined' && Array.isArray(FUNDING_FEED_AUTO)) {
+    FUNDING_FEED_AUTO.slice(0, 15).forEach((d, i) => {
+      alerts.push({
+        id: `deal-${i}`,
+        date: d.date || '',
+        time: '',
+        company: d.company || '',
+        category: 'funding',
+        priority: 'high',
+        title: `${d.company} raises ${d.amount || ''} ${d.round ? '(' + d.round + ')' : ''}`.trim(),
+        summary: d.headline || (Array.isArray(d.investors) ? `Lead investors: ${d.investors.join(', ')}` : ''),
+        source: d.source || 'Crunchbase',
+        sourceUrl: d.url || '#',
+        relatedCompanies: []
+      });
+    });
+  }
+
+  // 3. Recent gov contracts (SAM_CONTRACTS_AUTO if loaded)
+  if (typeof SAM_CONTRACTS_AUTO !== 'undefined' && Array.isArray(SAM_CONTRACTS_AUTO)) {
+    SAM_CONTRACTS_AUTO.slice(0, 10).forEach((c, i) => {
+      alerts.push({
+        id: `gov-${i}`,
+        date: c.date || c.awardDate || '',
+        time: '',
+        company: c.company || c.awardee || '',
+        category: 'contracts',
+        priority: 'high',
+        title: `${c.company || c.awardee || ''} wins ${c.amount || ''} government contract`.trim(),
+        summary: c.description || c.title || '',
+        source: c.agency || 'SAM.gov',
+        sourceUrl: c.url || 'https://sam.gov',
+        relatedCompanies: []
+      });
+    });
+  }
+
+  // Sort newest first, strip blank-title items
+  return alerts
+    .filter(a => a.title && a.company)
+    .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')))
+    .slice(0, 40);
+}
+
+function initAlertsCenter() {
   const feed = document.getElementById('alerts-feed');
   if (!feed) return;
 
@@ -6146,10 +6215,13 @@ function initAlertsCenter() {
   const ALERTS_STEP_SIZE = 15;
   let alertsShownCount = ALERTS_INITIAL_COUNT;
 
+  // Build alerts from LIVE data sources (not hardcoded ALERTS_SYSTEM.recentAlerts which was Feb 2026 stale)
+  const liveAlerts = buildLiveAlerts();
+
   function renderAlerts(resetPagination) {
     if (resetPagination) alertsShownCount = ALERTS_INITIAL_COUNT;
 
-    let alerts = ALERTS_SYSTEM.recentAlerts;
+    let alerts = liveAlerts;
 
     // Filter by category
     if (currentCategory !== 'all') {

@@ -147,11 +147,12 @@ def calc_ipo_readiness(company, stage, raised, valuation, job_count, sector_mom,
     if is_public:
         return None  # Skip public companies
 
-    # Only meaningful for Series C+
-    late_stages = ["series c", "series d", "series e", "series f", "series g", "late", "pre-ipo"]
-    is_late = any(s in stage.lower() for s in late_stages)
-    if not is_late and raised < 100e6:
-        return None  # Too early
+    # Score any private company Series B+ OR raised >= $50M (was: Series C+ / $100M)
+    eligible_stages = ["series b", "series c", "series d", "series e", "series f",
+                       "series g", "late", "pre-ipo", "growth"]
+    is_eligible = any(s in stage.lower() for s in eligible_stages)
+    if not is_eligible and raised < 50e6:
+        return None  # Truly too early — skip
 
     # Revenue scale proxy (20%) - use job count as proxy
     if job_count >= 500:
@@ -463,6 +464,8 @@ def main():
     risk_results = {}
     round_results = {}
 
+    # Calculate scores for EVERY company. Curated data in data.js PREDICTIVE_SCORES
+    # takes precedence at render time, so we always produce auto-scores as fallback.
     for c in companies:
         name = c["name"]
         stage = c["stage"]
@@ -476,28 +479,24 @@ def main():
         gov = gov_counts.get(name, 0)
 
         # IPO Readiness
-        if name not in curated["ipoReadiness"]:
-            ipo = calc_ipo_readiness(name, stage, raised, valuation, jobs, sector_mom, patents, news)
-            if ipo:
-                ipo_results[name] = ipo
-        
+        ipo = calc_ipo_readiness(name, stage, raised, valuation, jobs, sector_mom, patents, news)
+        if ipo:
+            ipo_results[name] = ipo
+
         # M&A Target
-        if name not in curated["maTarget"]:
-            ma = calc_ma_target(name, stage, raised, valuation, patents, sector, gov)
-            if ma:
-                ma_results[name] = ma
+        ma = calc_ma_target(name, stage, raised, valuation, patents, sector, gov)
+        if ma:
+            ma_results[name] = ma
 
         # Failure Risk
-        if name not in curated["failureRisk"]:
-            risk = calc_failure_risk(name, stage, raised, jobs, news, sector_mom, gov)
-            if risk:
-                risk_results[name] = risk
+        risk = calc_failure_risk(name, stage, raised, jobs, news, sector_mom, gov)
+        if risk:
+            risk_results[name] = risk
 
         # Next Round
-        if name not in curated["nextRound"]:
-            nr = calc_next_round(name, stage, raised, valuation, jobs, sector)
-            if nr:
-                round_results[name] = nr
+        nr = calc_next_round(name, stage, raised, valuation, jobs, sector)
+        if nr:
+            round_results[name] = nr
 
     # Save output
     output = {

@@ -74,6 +74,36 @@ def load_revenue_data():
     return {}
 
 
+def load_companies_from_datajs():
+    """Parse COMPANIES array in data.js for manually-curated valuation fields.
+    This is the LARGEST source — ~690 companies, ~200 have valuations."""
+    if not DATA_JS_PATH.exists():
+        return {}
+    content = DATA_JS_PATH.read_text()
+
+    valuations = {}
+    sectors = {}
+    stages = {}
+    # Iterate over company blocks: each block starts `name: "X"` and contains fields
+    block_re = re.compile(
+        r'name:\s*"(?P<name>[^"]+)"(?P<body>.*?)(?=(?:\n\s*\{|\n\s*\]\s*;))',
+        re.DOTALL,
+    )
+    for m in block_re.finditer(content):
+        name = m.group("name").strip()
+        body = m.group("body")
+        val_m = re.search(r'valuation:\s*"([^"]*)"', body)
+        sector_m = re.search(r'sector:\s*"([^"]*)"', body)
+        stage_m = re.search(r'fundingStage:\s*"([^"]*)"', body)
+        if val_m and val_m.group(1) and val_m.group(1).lower() != 'undisclosed':
+            valuations[name] = val_m.group(1)
+        if sector_m:
+            sectors[name] = sector_m.group(1)
+        if stage_m:
+            stages[name] = stage_m.group(1)
+    return {"valuations": valuations, "sectors": sectors, "stages": stages}
+
+
 def parse_value(val_str):
     """Parse $2.5B or $600M to raw number."""
     if not val_str or val_str == "N/A":
@@ -109,14 +139,22 @@ def main():
     stock_data = load_stock_data()
     deal_valuations = load_deal_valuations()
     revenue_data = load_revenue_data()
+    companies_data = load_companies_from_datajs()
+    company_valuations = companies_data.get("valuations", {})
+    company_sectors = companies_data.get("sectors", {})
+    company_stages = companies_data.get("stages", {})
 
     print(f"Public companies (stocks): {len(stock_data)}")
     print(f"Private valuations (deals): {len(deal_valuations)}")
+    print(f"Company valuations (data.js manually-curated): {len(company_valuations)}")
     print(f"Revenue data: {len(revenue_data)}")
 
     benchmarks = []
 
-    # Public companies — use market cap
+    # Track which companies already have entries to avoid duplicates
+    seen_companies = set()
+
+    # Tier 1 — Public companies with live market cap (highest confidence)
     for company, data in stock_data.items():
         mcap_raw = data.get("marketCapRaw", 0)
         if mcap_raw <= 0:
@@ -127,8 +165,12 @@ def main():
             "valuation": data["marketCap"],
             "valuationRaw": mcap_raw,
             "source": "market_cap",
+            "sourceLabel": "Live market cap",
+            "confidence": "high",
             "ticker": data["ticker"],
             "dayChange": f"{data['changePercent']:+.1f}%",
+            "sector": company_sectors.get(company, ""),
+            "stage": company_stages.get(company, "Public"),
             "lastUpdated": datetime.now().strftime("%Y-%m-%d"),
         }
 
@@ -142,12 +184,12 @@ def main():
                 entry["revenue"] = rev_str
 
         benchmarks.append(entry)
+        seen_companies.add(company.lower())
 
-    # Private companies — use deal valuations
-    public_names = {c.lower() for c in stock_data.keys()}
+    # Tier 2 — Private companies with recent deal valuations (medium confidence, recent)
     for company, val_str in deal_valuations.items():
-        if company.lower() in public_names:
-            continue  # Skip if already have market cap
+        if company.lower() in seen_companies:
+            continue
 
         val_raw = parse_value(val_str)
         if val_raw <= 0:
@@ -158,8 +200,12 @@ def main():
             "valuation": val_str,
             "valuationRaw": val_raw,
             "source": "last_round",
+            "sourceLabel": "Latest funding round",
+            "confidence": "high",
             "ticker": None,
             "dayChange": None,
+            "sector": company_sectors.get(company, ""),
+            "stage": company_stages.get(company, ""),
             "lastUpdated": datetime.now().strftime("%Y-%m-%d"),
         }
 
@@ -172,6 +218,42 @@ def main():
                 entry["revenue"] = rev_str
 
         benchmarks.append(entry)
+        seen_companies.add(company.lower())
+
+    # Tier 3 — Company-data valuations from data.js (medium confidence, manually curated)
+    # This is the biggest expansion — ~200 companies have valuations in data.js that
+    # aren't caught by stock data or recent deals (e.g., last round was years ago).
+    for company, val_str in company_valuations.items():
+        if company.lower() in seen_companies:
+            continue
+        val_raw = parse_value(val_str)
+        if val_raw <= 0:
+            continue
+
+        entry = {
+            "company": company,
+            "valuation": val_str,
+            "valuationRaw": val_raw,
+            "source": "curated",
+            "sourceLabel": "Curated from ROS research",
+            "confidence": "medium",
+            "ticker": None,
+            "dayChange": None,
+            "sector": company_sectors.get(company, ""),
+            "stage": company_stages.get(company, ""),
+            "lastUpdated": datetime.now().strftime("%Y-%m-%d"),
+        }
+
+        if company in revenue_data:
+            rev_str = revenue_data[company].get("revenue", "")
+            rev_raw = parse_value(rev_str)
+            if rev_raw > 0:
+                multiple = val_raw / rev_raw
+                entry["revenueMultiple"] = f"{multiple:.1f}x"
+                entry["revenue"] = rev_str
+
+        benchmarks.append(entry)
+        seen_companies.add(company.lower())
 
     # Sort by valuation descending
     benchmarks.sort(key=lambda x: x.get("valuationRaw", 0), reverse=True)

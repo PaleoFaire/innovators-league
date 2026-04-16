@@ -99,6 +99,10 @@ jobs:
           print(f"Updated COMPANY_SIGNALS with {min(len(signals), 15)} items")
           EOF
 
+      - name: Generate Daily Digest (War Room)
+        run: python3 scripts/generate_daily_digest.py
+        continue-on-error: true
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"

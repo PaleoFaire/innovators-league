@@ -1272,12 +1272,11 @@
     safeInit('initHeroStats', initHeroStats);
     safeInit('initThesisScreener', initThesisScreener);
     safeInit('initThesisLeaderboard', initThesisLeaderboard);
-    safeInit('initKanban', initKanban);
     safeInit('initDeepDiveModal', initDeepDiveModal);
     safeInit('initUpcomingRounds', initUpcomingRounds);
     safeInit('initRiskDashboard', initRiskDashboard);
-    safeInit('initPersonalNotes', initPersonalNotes);
-    safeInit('renderROSFundPipeline', renderROSFundPipeline);
+    // Removed: initKanban, initPersonalNotes, renderROSFundPipeline
+    // (ROS-specific internal tools, not useful for public visitors)
   }
 
   // ═══════════════════════════════════════════

@@ -634,3 +634,39 @@
 @media (max-width: 768px) {
   .brief-watchlist-grid { grid-template-columns: 1fr; }
 }
+
+/* ─── Daily Digest: Market Movers Grid ─── */
+.brief-mover-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 8px 0;
+}
+.brief-mover-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 14px 16px;
+  transition: border-color 0.2s;
+}
+.brief-mover-card.mover-up { border-left: 3px solid #22c55e; }
+.brief-mover-card.mover-down { border-left: 3px solid #ef4444; }
+.mover-ticker { font-family: 'Space Grotesk', monospace; font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 2px; }
+.mover-company { font-size: 12px; color: rgba(255,255,255,0.55); margin-bottom: 10px; }
+.mover-price { font-family: 'Space Grotesk', monospace; font-size: 15px; font-weight: 600; color: #fff; }
+.mover-change { font-family: 'Space Grotesk', monospace; font-size: 13px; font-weight: 700; margin-top: 4px; }
+.brief-mover-card.mover-up .mover-change { color: #22c55e; }
+.brief-mover-card.mover-down .mover-change { color: #ef4444; }
+
+/* ─── Daily Digest: Source pills ─── */
+.brief-source, .brief-time { font-size: 11px; color: rgba(255,255,255,0.4); margin-left: 4px; }
+.brief-company-pill {
+  display: inline-block;
+  background: rgba(255,107,44,0.12);
+  color: #FF8C47;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+.brief-desc { font-size: 12px; color: rgba(255,255,255,0.55); }

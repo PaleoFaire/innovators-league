@@ -139,28 +139,35 @@ def count_gov_contracts():
 
 
 def determine_signal_type(job_count, stock_change, news_count, patent_count, gov_count):
-    """Determine the strongest growth signal type for a company."""
+    """Determine growth signals — lowered thresholds for broader coverage."""
     signals = []
 
+    # Hiring: 50+ = surge, 10+ = growth (was 50/20)
     if job_count >= 50:
         signals.append(("hiring_surge", f"{job_count} open roles"))
-    elif job_count >= 20:
+    elif job_count >= 10:
         signals.append(("hiring_growth", f"{job_count} open roles"))
 
-    if stock_change and abs(stock_change) >= 5:
+    # Stock: ≥3% move (was ≥5%)
+    if stock_change and abs(stock_change) >= 3:
         direction = "up" if stock_change > 0 else "down"
         signals.append(("stock_movement", f"{stock_change:+.1f}% {direction}"))
 
+    # News: ≥5 = buzz, ≥1 = activity (was 5/2)
     if news_count >= 5:
         signals.append(("media_buzz", f"{news_count} recent articles"))
-    elif news_count >= 2:
-        signals.append(("news_activity", f"{news_count} recent articles"))
+    elif news_count >= 1:
+        signals.append(("news_activity", f"{news_count} recent article{'s' if news_count > 1 else ''}"))
 
-    if patent_count >= 10:
+    # Patents: ≥5 (was ≥10) — builds IP moat earlier
+    if patent_count >= 5:
         signals.append(("ip_moat", f"{patent_count} patents"))
 
-    if gov_count >= 10:
+    # Gov contracts: ≥3 (was ≥10)
+    if gov_count >= 3:
         signals.append(("gov_traction", f"{gov_count} contracts"))
+    elif gov_count >= 1:
+        signals.append(("gov_traction", f"{gov_count} contract{'s' if gov_count > 1 else ''}"))
 
     return signals
 

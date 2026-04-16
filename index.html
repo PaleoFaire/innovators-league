@@ -38,7 +38,7 @@
         </div>
         <div class="nav-links">
             <a href="index.html" class="nav-link active">Intelligence</a>
-            <a href="index.html#innovator50" class="nav-link">IL30</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
             <a href="dealflow.html" class="nav-link">Deal Flow</a>
             <a href="brief.html" class="nav-link">War Room</a>
             <div class="nav-dropdown">
@@ -53,18 +53,13 @@
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
-                    <a href="visualizations.html" class="nav-dropdown-link">Insights</a>
                     <a href="alerts.html" class="nav-dropdown-link">Deal Alerts</a>
                     <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
-                    <a href="captable.html" class="nav-dropdown-link">Cap Table</a>
-                    <a href="customers.html" class="nav-dropdown-link">Customers</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
-                    <a href="compare.html" class="nav-dropdown-link">Compare</a>
-                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="nav-dropdown-link">Field Notes &#8599;</a>
-                    <a href="#" class="nav-dropdown-link" onclick="openPartnerPortal('nominate')">Founders: Get Listed</a>
                 </div>
+            </div>
             </div>
             <div class="nav-auth" id="nav-auth">
                 <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
@@ -463,45 +458,24 @@
 
     <!-- CAPITAL & MARKET ACTIVITY -->
 
-    <!-- Capital Flows (Deal Tracker + Revenue) -->
-    <section class="capital-flows-section" id="capital-flows">
+    <!-- Capital Intelligence — Unified Funding + Revenue (merged from old capital-flows + funding-tracker) -->
+    <section class="funding-tracker-section" id="capital-flows">
         <div class="container">
             <div class="section-header">
                 <p class="section-eyebrow">CAPITAL INTELLIGENCE</p>
-                <h2>Deal Flow & Revenue</h2>
-                <p>Who invested, when, and how much — plus revenue figures for companies with public data.</p>
+                <h2>Recent Funding & Revenue</h2>
+                <p>Every new round and every known revenue figure across frontier tech — auto-updated daily.</p>
             </div>
-
-            <!-- Capital Intelligence Tabs -->
             <div class="capital-tabs">
-                <button class="capital-tab active" data-tab="deals">💰 Deal Flow</button>
+                <button class="capital-tab active" data-tab="funding">💰 Recent Funding Rounds</button>
                 <button class="capital-tab" data-tab="revenue">📈 Revenue Tracker</button>
             </div>
-
-            <!-- Deal Flow Panel -->
-            <div class="capital-panel active" id="deals-panel" data-panel="deals">
-                <div class="deal-filter-bar">
-                    <button class="deal-filter active" data-filter="all">All Deals</button>
-                </div>
-                <div class="deal-grid" id="deal-grid"></div>
+            <div class="capital-panel active" id="funding-panel" data-panel="funding">
+                <div id="funding-tracker-grid"></div>
             </div>
-
-            <!-- Revenue Tracker Panel -->
-            <div class="capital-panel" id="revenue-panel" data-panel="revenue">
+            <div class="capital-panel" id="revenue-panel" data-panel="revenue" style="display:none;">
                 <div class="revenue-grid-container" id="revenue-grid"></div>
             </div>
-        </div>
-    </section>
-
-    <!-- Funding Tracker -->
-    <section class="funding-tracker-section" id="funding-tracker">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">FUNDING INTELLIGENCE</p>
-                <h2>Recent Funding Rounds</h2>
-                <p>The latest funding activity across frontier tech companies.</p>
-            </div>
-            <div id="funding-tracker-grid"></div>
         </div>
     </section>
 
@@ -516,19 +490,6 @@
             <div id="signals-grid"></div>
         </div>
     </section>
-
-    <!-- Hot This Week: Anomaly Detection -->
-    <section class="anomaly-section" id="anomaly-alerts">
-        <div class="container">
-            <div class="section-header">
-                <p class="section-eyebrow">SIGNAL CONVERGENCE</p>
-                <h2>Hot This Week</h2>
-                <p>Companies with multiple converging signals &mdash; news, hiring, funding, and government traction firing simultaneously.</p>
-            </div>
-            <div id="anomaly-grid"></div>
-        </div>
-    </section>
-
 
     <!-- REAL-TIME INTELLIGENCE -->
 

@@ -27,7 +27,7 @@
         </div>
         <div class="nav-links">
             <a href="index.html" class="nav-link">Intelligence</a>
-            <a href="index.html#innovator50" class="nav-link">IL30</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
             <a href="dealflow.html" class="nav-link active">Deal Flow</a>
             <a href="brief.html" class="nav-link">War Room</a>
             <div class="nav-dropdown">
@@ -42,18 +42,13 @@
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
-                    <a href="visualizations.html" class="nav-dropdown-link">Insights</a>
                     <a href="alerts.html" class="nav-dropdown-link">Deal Alerts</a>
                     <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
-                    <a href="captable.html" class="nav-dropdown-link">Cap Table</a>
-                    <a href="customers.html" class="nav-dropdown-link">Customers</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
-                    <a href="compare.html" class="nav-dropdown-link">Compare</a>
-                    <a href="https://rationaloptimistsociety.substack.com" target="_blank" rel="noopener" class="nav-dropdown-link">Field Notes &#8599;</a>
-                    <a href="#" class="nav-dropdown-link" onclick="openPartnerPortal('nominate')">Founders: Get Listed</a>
                 </div>
+            </div>
             </div>
             <div class="nav-auth" id="nav-auth">
                 <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
@@ -71,19 +66,19 @@
     <div class="breadcrumb" aria-label="Breadcrumb">
         <a href="index.html">Home</a>
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
-        <span aria-current="page">Deal Flow Engine</span>
+        <span aria-current="page">Investor Screener</span>
     </div>
 
     <!-- Hero -->
     <header class="hero dealflow-hero">
         <div class="hero-content">
-            <p class="hero-eyebrow" style="color: #8b5cf6;">DEAL FLOW ENGINE</p>
-            <h1 class="hero-title">ROS Fund Intelligence</h1>
-            <p class="hero-subtitle">Proprietary deal sourcing, thesis matching, and pipeline management &mdash; powered by 500+ company deep coverage.</p>
+            <p class="hero-eyebrow" style="color: #8b5cf6;">INVESTOR SCREENER</p>
+            <h1 class="hero-title">Find your next investment.</h1>
+            <p class="hero-subtitle">Filter 690+ frontier tech companies by stage, sector, traction signals, and investment fit &mdash; with live data and predictive scoring.</p>
             <div class="hero-stats">
                 <div class="stat">
-                    <span class="stat-number" id="df-pipeline-count">0</span>
-                    <span class="stat-label">In Pipeline</span>
+                    <span class="stat-number" id="df-company-count">690</span>
+                    <span class="stat-label">Companies</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
@@ -101,22 +96,13 @@
 
     <main class="container">
 
-        <!-- ROS Fund Pipeline -->
-        <section class="df-section" id="ros-pipeline-section">
-          <div class="df-section-header">
-            <h2 class="df-section-title">ROS Fund Pipeline</h2>
-            <span class="df-section-badge">Conviction</span>
-          </div>
-          <p style="color:rgba(255,255,255,0.5); font-size:13px; margin-top:-8px; margin-bottom:16px;">Companies Stephen has conviction on, sourced from founder meetings and site visits.</p>
-          <div id="ros-fund-pipeline"></div>
-        </section>
-
-        <!-- 1. Thesis Match Screener -->
+        <!-- 1. Screener — the primary filter UI -->
         <section class="df-section" id="thesis-screener">
             <div class="df-section-header">
-                <h2 class="df-section-title">Thesis Match Screener</h2>
+                <h2 class="df-section-title">Screener</h2>
                 <span class="df-section-badge">Multi-Filter</span>
             </div>
+            <p style="color:rgba(255,255,255,0.55); font-size:13px; margin-top:-8px; margin-bottom:16px;">Filter our full database by stage, sector, traction signals, valuation, and investment fit score.</p>
             <div class="screener-filters" id="screener-filters"></div>
             <div class="screener-count" id="screener-count"></div>
             <div class="screener-results" id="screener-results"></div>
@@ -125,9 +111,10 @@
         <!-- 2. Fund Thesis Match Score Leaderboard -->
         <section class="df-section" id="thesis-score">
             <div class="df-section-header">
-                <h2 class="df-section-title">Fund Thesis Match Leaderboard</h2>
+                <h2 class="df-section-title">Investment Fit Leaderboard</h2>
                 <span class="df-section-badge">Top 50</span>
             </div>
+            <p style="color:rgba(255,255,255,0.55); font-size:13px; margin-top:-8px; margin-bottom:16px;">Universal investment fit score across stage, sector alignment, traction, gov contracts, and founder quality.</p>
             <div class="leaderboard-wrapper">
                 <table class="leaderboard-table" id="leaderboard-table">
                     <thead>
@@ -146,57 +133,24 @@
             <div class="leaderboard-legend" id="leaderboard-legend"></div>
         </section>
 
-        <!-- 3. Deal Pipeline Kanban -->
-        <section class="df-section" id="pipeline-kanban">
-            <div class="df-section-header">
-                <h2 class="df-section-title">Deal Pipeline</h2>
-                <span class="df-section-badge">Kanban</span>
-            </div>
-            <div class="kanban-controls" style="position: relative;">
-                <button class="kanban-add-btn" id="kanban-add-btn">+ Add Company</button>
-                <div class="add-company-dropdown" id="add-company-dropdown">
-                    <input type="text" placeholder="Search 500+ companies..." id="add-company-search" autocomplete="off">
-                    <div class="add-company-list" id="add-company-list"></div>
-                </div>
-            </div>
-            <div class="kanban-board" id="kanban-board"></div>
-        </section>
-
-        <!-- 4. Upcoming Round Predictions -->
+        <!-- Upcoming Round Predictions -->
         <section class="df-section" id="upcoming-rounds">
             <div class="df-section-header">
                 <h2 class="df-section-title">Upcoming Round Predictions</h2>
-                <span class="df-section-badge">Signals</span>
+                <span class="df-section-badge">Predictive</span>
             </div>
+            <p style="color:rgba(255,255,255,0.55); font-size:13px; margin-top:-8px; margin-bottom:16px;">Companies likely raising in the next 12 months, ranked by probability. Get ahead of the announcement.</p>
             <div class="rounds-grid" id="rounds-grid"></div>
         </section>
 
-        <!-- 5. Risk Dashboard -->
+        <!-- Risk Dashboard -->
         <section class="df-section" id="risk-dashboard">
             <div class="df-section-header">
                 <h2 class="df-section-title">Risk Dashboard</h2>
                 <span class="df-section-badge">Failure Risk</span>
             </div>
+            <p style="color:rgba(255,255,255,0.55); font-size:13px; margin-top:-8px; margin-bottom:16px;">Companies with elevated failure risk signals &mdash; burn rate, slowing news, weak customer diversification.</p>
             <div class="risk-grid" id="risk-grid"></div>
-        </section>
-
-        <!-- 6. Personal Notes & Connections -->
-        <section class="df-section" id="personal-notes">
-            <div class="df-section-header">
-                <h2 class="df-section-title">Founder Connections & Notes</h2>
-                <span class="df-section-badge">Private</span>
-            </div>
-            <div class="notes-grid" id="notes-grid"></div>
-            <div class="add-note-section">
-                <h4>Add a Note</h4>
-                <div class="add-note-row">
-                    <select id="note-company-select">
-                        <option value="">Select company...</option>
-                    </select>
-                    <textarea id="note-text-input" placeholder="Your notes..."></textarea>
-                    <button class="kanban-add-btn" id="note-save-btn">Save Note</button>
-                </div>
-            </div>
         </section>
 
     </main>
