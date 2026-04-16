@@ -9794,9 +9794,13 @@ function renderSignals(filter) {
   const list = document.getElementById('signals-list');
   if (!list || typeof COMPANY_SIGNALS === 'undefined') return;
 
+  // QUALITY GATE: always filter out LOW-impact signals from the panel.
+  // LOW signals have been shown historically to include garbage (shopping articles,
+  // misattributed company names, tangential news). Only HIGH + MEDIUM reach users.
+  const quality = COMPANY_SIGNALS.filter(s => s.impact === 'high' || s.impact === 'medium');
   const signals = filter === 'all'
-    ? COMPANY_SIGNALS
-    : COMPANY_SIGNALS.filter(s => s.type === filter);
+    ? quality
+    : quality.filter(s => s.type === filter);
 
   const iconMap = {
     funding: '💰',

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patent Velocity Intelligence | ROS Startup Database</title>
+    <meta name="description" content="USPTO patent application velocity for frontier tech companies — who's filing the most, fastest. Leading indicator of R&D investment.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260325">
+    <link rel="stylesheet" href="valuations-page.css?v=20260325">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Intelligence</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
+            <a href="brief.html" class="nav-link">War Room</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
+                    <a href="investors.html" class="nav-dropdown-link">Investors</a>
+                    <a href="jobs.html" class="nav-dropdown-link">Talent</a>
+                    <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                    <a href="patents.html" class="nav-dropdown-link">Patents</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="launches.html" class="nav-dropdown-link">Launches</a>
+                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                    <a href="research.html" class="nav-dropdown-link">Research</a>
+                    <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
+        <span aria-current="page">Patent Velocity</span>
+    </div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow" style="color: #8b5cf6;">IP INTELLIGENCE · USPTO</p>
+            <h1 class="hero-title">Patent Velocity Intelligence</h1>
+            <p class="hero-subtitle">Who's filing the most patents, fastest. A leading indicator of R&D investment and competitive moat. Every datapoint links back to the original USPTO filing.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section" id="patent-velocity">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">VELOCITY · LAST 8 QUARTERS</p>
+                    <h2>Patent Filings by Company</h2>
+                    <p>Rank by quarter-over-quarter change in patent applications. Source: <a href="https://patentsview.org" target="_blank" rel="noopener" style="color:var(--accent);">USPTO PatentsView</a>.</p>
+                </div>
+
+                <div id="patent-velocity-grid"></div>
+                <div id="patent-velocity-note" style="margin-top:40px; padding:24px; background:rgba(139,92,246,0.08); border:1px solid rgba(139,92,246,0.2); border-radius:12px;">
+                    <h3 style="color:#a78bfa; font-size:16px; font-weight:700; margin:0 0 8px;">🔧 Data Pipeline in Progress</h3>
+                    <p style="color:rgba(255,255,255,0.7); font-size:13px; line-height:1.6; margin:0 0 12px;">
+                        The USPTO PatentsView API integration is being rebuilt to provide live patent application
+                        velocity data per frontier tech company. Expected live: next comprehensive data sync cycle.
+                    </p>
+                    <p style="color:rgba(255,255,255,0.5); font-size:12px; margin:0;">
+                        <strong>Why this matters:</strong> Patent applications (not grants) are a leading indicator of R&D investment.
+                        Grants lag filings by 18–24 months. This tracker surfaces which companies are investing in IP <em>right now</em>.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="premium-footer">
+      <div class="footer-inner">
+        <p style="color:rgba(255,255,255,0.4); font-size:12px; text-align:center;">The Innovators League · Data: USPTO (authoritative)</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="utils.js?v=20260408"></script>
+    <script src="auth.js?v=20260325"></script>
+    <script src="data.js?v=20260325"></script>
+    <script src="data/patent_intel_auto.js?v=20260325"></script>
+    <script src="patents.js?v=20260416"></script>
+</body>
+</html>

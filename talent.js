@@ -3,6 +3,7 @@
 (function() {
   function initTalentPageInner() {
     safeInit('initHeroStats', initHeroStats);
+    safeInit('initExecutiveMoves', initExecutiveMoves);
     safeInit('initTalentFlow', initTalentFlow);
     safeInit('initMafiaExplorer', initMafiaExplorer);
     safeInit('initFounderDNA', initFounderDNA);
@@ -12,6 +13,78 @@
     safeInit('initTalentGeo', initTalentGeo);
     safeInit('initMobileMenu', initMobileMenu);
     safeInit('initSectionObserver', initSectionObserver);
+  }
+
+  // ── Executive Hiring Tracker — parse SEC Form 4 + Form 8-K Item 5.02 ──
+  function initExecutiveMoves() {
+    const tbody = document.getElementById('exec-moves-body');
+    const countEl = document.getElementById('exec-moves-count');
+    if (!tbody) return;
+
+    const esc = (typeof escapeHtml === 'function') ? escapeHtml : (s) => String(s || '');
+
+    const moves = [];
+    const filings = (typeof SEC_FILINGS_LIVE !== 'undefined' && Array.isArray(SEC_FILINGS_LIVE))
+      ? SEC_FILINGS_LIVE : [];
+
+    filings.forEach(f => {
+      if (!f || !f.form) return;
+      // Form 4 / 3 / 5 — insider transactions (officer/director)
+      if (f.form === '4' || f.form === '3' || f.form === '5') {
+        moves.push({
+          company: f.company || '—',
+          ticker: f.ticker || '',
+          type: 'Insider Activity',
+          typeClass: 'insider',
+          description: f.description || `Form ${f.form} filing — insider transaction`,
+          date: f.date || f.filedDate || '',
+          url: f.url || (f.cik ? `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${f.cik}&type=4` : 'https://www.sec.gov/edgar'),
+          sourceLabel: 'SEC Form ' + f.form
+        });
+      }
+      // Form 8-K Item 5.02 — Officer departure / appointment
+      if (f.form === '8-K' && f.description) {
+        const d = String(f.description).toLowerCase();
+        if (d.includes('5.02') || d.includes('officer') || d.includes('director') ||
+            d.includes('ceo') || d.includes('cfo') || d.includes('cto') ||
+            d.includes('appoint') || d.includes('resign') || d.includes('retire')) {
+          moves.push({
+            company: f.company || '—',
+            ticker: f.ticker || '',
+            type: 'Officer Change',
+            typeClass: 'officer',
+            description: f.description,
+            date: f.date || f.filedDate || '',
+            url: f.url || 'https://www.sec.gov/edgar',
+            sourceLabel: 'SEC 8-K 5.02'
+          });
+        }
+      }
+    });
+
+    moves.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+
+    if (moves.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">No recent executive moves found in SEC EDGAR feed. This tracker surfaces Form 4 insider transactions + Form 8-K Item 5.02 officer appointments at public frontier tech companies.</td></tr>';
+      return;
+    }
+
+    if (countEl) countEl.textContent = `Showing ${Math.min(moves.length, 100)} of ${moves.length} executive moves`;
+
+    tbody.innerHTML = moves.slice(0, 100).map(m => {
+      const typeBadge = m.typeClass === 'officer'
+        ? '<span style="background:rgba(239,68,68,0.15); color:#f87171; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;">Officer Change</span>'
+        : '<span style="background:rgba(96,165,250,0.15); color:#60a5fa; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;">Insider Activity</span>';
+      return `
+        <tr>
+          <td style="font-weight:600;">${esc(m.company)}${m.ticker ? ` <span style="color:rgba(255,255,255,0.4); font-size:11px; font-family:'Space Grotesk', monospace;">${esc(m.ticker)}</span>` : ''}</td>
+          <td>${typeBadge}</td>
+          <td style="font-size:12px;">${esc((m.description || '').slice(0, 120))}</td>
+          <td style="font-family:'Space Grotesk', monospace;">${esc(m.date)}</td>
+          <td><a href="${esc(m.url)}" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none; font-size:11px;">${esc(m.sourceLabel)}</a></td>
+        </tr>
+      `;
+    }).join('');
   }
 
   // ── Hero Stats ──

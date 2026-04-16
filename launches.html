@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Launch Manifest | ROS Startup Database</title>
+    <meta name="description" content="Upcoming space launches and their frontier tech payloads. Source: FAA Commercial Space + launch provider manifests.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260325">
+    <link rel="stylesheet" href="valuations-page.css?v=20260325">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Intelligence</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
+            <a href="brief.html" class="nav-link">War Room</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
+                    <a href="investors.html" class="nav-dropdown-link">Investors</a>
+                    <a href="jobs.html" class="nav-dropdown-link">Talent</a>
+                    <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                    <a href="patents.html" class="nav-dropdown-link">Patents</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="launches.html" class="nav-dropdown-link">Launches</a>
+                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                    <a href="research.html" class="nav-dropdown-link">Research</a>
+                    <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
+        <span aria-current="page">Space Launch Manifest</span>
+    </div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow" style="color: #60a5fa;">SPACE · FAA COMMERCIAL</p>
+            <h1 class="hero-title">Space Launch Manifest</h1>
+            <p class="hero-subtitle">Every upcoming launch, which frontier-tech payload is on it, and when. Sources: <a href="https://www.faa.gov/space" target="_blank" rel="noopener" style="color:var(--accent);">FAA Commercial Space</a> + launch provider manifests.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section" id="launch-manifest">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">UPCOMING LAUNCHES</p>
+                    <h2>Next 90 Days</h2>
+                    <p>Sorted by launch date. Payloads from tracked companies highlighted.</p>
+                </div>
+
+                <div id="launch-manifest-grid"></div>
+
+                <div id="launch-manifest-note" style="margin-top:40px; padding:24px; background:rgba(96,165,250,0.08); border:1px solid rgba(96,165,250,0.2); border-radius:12px;">
+                    <h3 style="color:#60a5fa; font-size:16px; font-weight:700; margin:0 0 8px;">🔧 Data Pipeline in Progress</h3>
+                    <p style="color:rgba(255,255,255,0.7); font-size:13px; line-height:1.6; margin:0 0 12px;">
+                        Pulling from FAA Commercial Space + SpaceX manifest + RocketLab + ULA + Blue Origin. Expected live: next comprehensive data sync cycle.
+                    </p>
+                    <p style="color:rgba(255,255,255,0.5); font-size:12px; margin:0;">
+                        <strong>Why this matters:</strong> A space startup getting on a SpaceX rideshare = validation. First-flight customer = credibility signal.
+                        Launch calendar is public but fragmented across multiple providers — consolidating it is genuine alpha.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="launch-providers" style="background: linear-gradient(135deg, rgba(96,165,250,0.03) 0%, rgba(96,165,250,0.01) 100%);">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">PROVIDERS TRACKED</p>
+                    <h2>Who Launches What</h2>
+                </div>
+                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:16px;">
+                    <div style="padding:20px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
+                        <h4 style="color:#fff; margin:0 0 8px; font-size:14px;">SpaceX</h4>
+                        <p style="color:rgba(255,255,255,0.55); font-size:12px; margin:0 0 4px;">Falcon 9, Falcon Heavy, Starship</p>
+                        <p style="color:rgba(255,255,255,0.4); font-size:11px; margin:0;"><a href="https://www.spacex.com/launches" target="_blank" rel="noopener" style="color:var(--accent);">spacex.com/launches →</a></p>
+                    </div>
+                    <div style="padding:20px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
+                        <h4 style="color:#fff; margin:0 0 8px; font-size:14px;">Rocket Lab</h4>
+                        <p style="color:rgba(255,255,255,0.55); font-size:12px; margin:0 0 4px;">Electron, Neutron</p>
+                        <p style="color:rgba(255,255,255,0.4); font-size:11px; margin:0;"><a href="https://www.rocketlabusa.com/missions/next-mission/" target="_blank" rel="noopener" style="color:var(--accent);">rocketlabusa.com →</a></p>
+                    </div>
+                    <div style="padding:20px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
+                        <h4 style="color:#fff; margin:0 0 8px; font-size:14px;">ULA</h4>
+                        <p style="color:rgba(255,255,255,0.55); font-size:12px; margin:0 0 4px;">Vulcan, Atlas V, Delta IV</p>
+                        <p style="color:rgba(255,255,255,0.4); font-size:11px; margin:0;"><a href="https://www.ulalaunch.com/missions/next-launch" target="_blank" rel="noopener" style="color:var(--accent);">ulalaunch.com →</a></p>
+                    </div>
+                    <div style="padding:20px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">
+                        <h4 style="color:#fff; margin:0 0 8px; font-size:14px;">Blue Origin</h4>
+                        <p style="color:rgba(255,255,255,0.55); font-size:12px; margin:0 0 4px;">New Glenn, New Shepard</p>
+                        <p style="color:rgba(255,255,255,0.4); font-size:11px; margin:0;"><a href="https://www.blueorigin.com/" target="_blank" rel="noopener" style="color:var(--accent);">blueorigin.com →</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="premium-footer">
+      <div class="footer-inner">
+        <p style="color:rgba(255,255,255,0.4); font-size:12px; text-align:center;">The Innovators League · Sources: FAA Commercial Space, SpaceX, Rocket Lab, ULA, Blue Origin</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="utils.js?v=20260408"></script>
+    <script src="auth.js?v=20260325"></script>
+    <script src="data.js?v=20260325"></script>
+    <script src="launches.js?v=20260416"></script>
+</body>
+</html>

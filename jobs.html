@@ -35,11 +35,13 @@
                     <a href="investors.html" class="nav-dropdown-link">Investors</a>
                     <a href="jobs.html" class="nav-dropdown-link">Talent</a>
                     <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                    <a href="patents.html" class="nav-dropdown-link">Patents</a>
                 </div>
             </div>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
-                <div class="nav-dropdown-content">                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                <div class="nav-dropdown-content">                    <a href="launches.html" class="nav-dropdown-link">Launches</a>
+                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
@@ -190,6 +192,32 @@
 
     <!-- Talent Tab Content -->
     <div id="tab-talent" style="display:none">
+
+        <!-- Executive Hiring Tracker — parsed from SEC Form 4 + 8-K Item 5.02 -->
+        <section class="section" id="executive-moves">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">EXECUTIVE MOVES · SEC EDGAR</p>
+                    <h2>Executive Hiring Tracker</h2>
+                    <p>Recent C-suite appointments and insider transactions at tracked public companies. Source: <a href="https://www.sec.gov/edgar" target="_blank" rel="noopener" style="color:var(--accent);">SEC EDGAR</a> (Form 4 + Form 8-K Item 5.02).</p>
+                </div>
+                <div class="leaderboard-table-wrap">
+                    <table class="leaderboard-table" id="exec-moves-table">
+                        <thead>
+                            <tr>
+                                <th>Company</th>
+                                <th>Type</th>
+                                <th>Description</th>
+                                <th>Date</th>
+                                <th>Source</th>
+                            </tr>
+                        </thead>
+                        <tbody id="exec-moves-body"></tbody>
+                    </table>
+                </div>
+                <div id="exec-moves-count" style="margin-top:12px; color:rgba(255,255,255,0.5); font-size:12px;"></div>
+            </div>
+        </section>
 
         <!-- Talent Flow Diagram -->
         <section class="section talent-flow-section" id="talent-flow">

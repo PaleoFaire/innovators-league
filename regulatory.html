@@ -35,11 +35,13 @@
                     <a href="investors.html" class="nav-dropdown-link">Investors</a>
                     <a href="jobs.html" class="nav-dropdown-link">Talent</a>
                     <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                    <a href="patents.html" class="nav-dropdown-link">Patents</a>
                 </div>
             </div>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
-                <div class="nav-dropdown-content">                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                <div class="nav-dropdown-content">                    <a href="launches.html" class="nav-dropdown-link">Launches</a>
+                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
                     <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
                     <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
@@ -179,15 +181,73 @@
         </div>
     </section>
 
-    <!-- Clinical Trials Dashboard -->
-    <section class="section" id="clinical-trials">
+    <!-- Clinical Trials Radar — upcoming readouts from tracked biotech companies -->
+    <section class="section" id="clinical-trials-radar">
         <div class="container">
             <div class="section-header">
-                <p class="section-eyebrow">CLINICAL TRIALS</p>
-                <h2>Clinical Trials Dashboard</h2>
-                <p>Active clinical trials from ClinicalTrials.gov grouped by company and phase.</p>
+                <p class="section-eyebrow">CLINICAL TRIALS · CLINICALTRIALS.GOV</p>
+                <h2>Clinical Trials Radar</h2>
+                <p>Every active clinical trial at companies in our database, ranked by upcoming readout date. Source: <a href="https://clinicaltrials.gov" target="_blank" rel="noopener" style="color:var(--accent);">ClinicalTrials.gov</a> (NIH).</p>
             </div>
-            <div class="clinical-trials-grid" id="clinical-trials-grid"></div>
+            <div class="val-all-controls" style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px;">
+                <input type="text" id="ctr-search" placeholder="Search by company or trial..." style="flex:1; min-width:220px; padding:10px 14px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:8px; color:#fff;">
+                <select id="ctr-phase" style="padding:10px 14px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:8px; color:#fff;">
+                    <option value="all">All Phases</option>
+                    <option value="PHASE1">Phase 1</option>
+                    <option value="PHASE2">Phase 2</option>
+                    <option value="PHASE3">Phase 3</option>
+                    <option value="PHASE4">Phase 4</option>
+                </select>
+                <select id="ctr-status" style="padding:10px 14px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:8px; color:#fff;">
+                    <option value="all">All Statuses</option>
+                    <option value="RECRUITING">Recruiting</option>
+                    <option value="ACTIVE_NOT_RECRUITING">Active, Not Recruiting</option>
+                    <option value="COMPLETED">Completed</option>
+                </select>
+            </div>
+            <div class="leaderboard-table-wrap">
+                <table class="leaderboard-table" id="ctr-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Trial</th>
+                            <th>Phase</th>
+                            <th>Status</th>
+                            <th>Enrollment</th>
+                            <th>Readout</th>
+                            <th>Source</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ctr-body"></tbody>
+                </table>
+            </div>
+            <div id="ctr-count" style="margin-top:12px; color:rgba(255,255,255,0.5); font-size:12px;"></div>
+        </div>
+    </section>
+
+    <!-- openFDA PDUFA Calendar — upcoming FDA action dates -->
+    <section class="section" id="pdufa-calendar">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">FDA ACTIONS · OPENFDA</p>
+                <h2>PDUFA & Regulatory Calendar</h2>
+                <p>Recent FDA actions at tracked frontier tech companies — 510(k) clearances, breakthrough designations, approvals. Source: <a href="https://open.fda.gov" target="_blank" rel="noopener" style="color:var(--accent);">openFDA</a>.</p>
+            </div>
+            <div class="leaderboard-table-wrap">
+                <table class="leaderboard-table" id="pdufa-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Product / Device</th>
+                            <th>Action</th>
+                            <th>Date</th>
+                            <th>K Number</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pdufa-body"></tbody>
+                </table>
+            </div>
+            <div id="pdufa-count" style="margin-top:12px; color:rgba(255,255,255,0.5); font-size:12px;"></div>
         </div>
     </section>
 

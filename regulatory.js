@@ -14,9 +14,166 @@ function initRegulatory() {
   safeInit('NRCTracker', initNRCLicenseTracker);
   safeInit('RegRisk', initRegRisk);
   safeInit('FedRegisterMonitor', initFedRegisterMonitor);
-  safeInit('ClinicalTrials', initClinicalTrials);
+  safeInit('ClinicalTrialsRadar', initClinicalTrialsRadar);
+  safeInit('PDUFACalendar', initPDUFACalendar);
   safeInit('MobileMenu', initRegMobileMenu);
   safeInit('SectionObserver', initSectionObserver);
+}
+
+// ─── Clinical Trials Radar — data from data/clinical_trials_active.json (NIH) ───
+function initClinicalTrialsRadar() {
+  var tbody = document.getElementById('ctr-body');
+  var countEl = document.getElementById('ctr-count');
+  var searchEl = document.getElementById('ctr-search');
+  var phaseEl = document.getElementById('ctr-phase');
+  var statusEl = document.getElementById('ctr-status');
+  if (!tbody) return;
+
+  var esc = (typeof escapeHtml === 'function') ? escapeHtml : function(s) { return String(s || ''); };
+
+  // Build a set of tracked company names (lowercased) for sponsor matching
+  var trackedNames = new Set();
+  if (typeof COMPANIES !== 'undefined' && Array.isArray(COMPANIES)) {
+    COMPANIES.forEach(function(c) {
+      if (c && c.name) trackedNames.add(c.name.toLowerCase());
+    });
+  }
+
+  function matchSponsorToCompany(sponsor) {
+    if (!sponsor) return null;
+    var low = sponsor.toLowerCase();
+    // Try exact + substring match against tracked companies
+    var bestMatch = null;
+    trackedNames.forEach(function(name) {
+      if (low.indexOf(name) !== -1 && name.length > 3) {
+        if (!bestMatch || name.length > bestMatch.length) bestMatch = name;
+      }
+    });
+    return bestMatch;
+  }
+
+  function phaseLabel(p) {
+    if (!p) return '—';
+    return String(p).replace('PHASE', 'Phase ').replace(/,\s*PHASE/g, '/Ph ').replace(/_/g, ' ');
+  }
+
+  function statusLabel(s) {
+    if (!s) return '—';
+    return String(s).replace(/_/g, ' ').toLowerCase().replace(/(^|\s)\w/g, function(c) { return c.toUpperCase(); });
+  }
+
+  fetch('data/clinical_trials_active.json', { cache: 'no-cache' })
+    .then(function(r) { return r.ok ? r.json() : []; })
+    .then(function(data) {
+      if (!Array.isArray(data) || data.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">No clinical trial data available.</td></tr>';
+        return;
+      }
+
+      // Enrich each trial with a matched company name (when sponsor matches)
+      var trials = data.map(function(t) {
+        var match = matchSponsorToCompany(t.sponsor || '');
+        return {
+          company: match ? (COMPANIES.find(function(c) { return c.name.toLowerCase() === match; }) || {}).name || t.sponsor : t.sponsor,
+          hasMatch: !!match,
+          nctId: t.nctId || '',
+          title: t.title || '',
+          phase: t.phase || '',
+          status: t.status || '',
+          completion: t.completionDate || '',
+          enrollment: t.enrollment || 0,
+          sponsor: t.sponsor || ''
+        };
+      });
+
+      // Prefer matches to tracked companies — show those first
+      trials.sort(function(a, b) {
+        if (a.hasMatch !== b.hasMatch) return a.hasMatch ? -1 : 1;
+        return String(a.completion || 'z').localeCompare(String(b.completion || 'z'));
+      });
+
+      function render() {
+        var q = (searchEl && searchEl.value || '').trim().toLowerCase();
+        var phase = phaseEl && phaseEl.value || 'all';
+        var status = statusEl && statusEl.value || 'all';
+        var filtered = trials;
+        if (q) filtered = filtered.filter(function(t) {
+          return (t.company + ' ' + t.title).toLowerCase().indexOf(q) !== -1;
+        });
+        if (phase !== 'all') filtered = filtered.filter(function(t) { return String(t.phase).indexOf(phase) !== -1; });
+        if (status !== 'all') filtered = filtered.filter(function(t) { return t.status === status; });
+
+        if (countEl) {
+          var matchedCos = filtered.filter(function(t) { return t.hasMatch; }).length;
+          countEl.textContent = 'Showing ' + filtered.length + ' of ' + trials.length + ' trials · ' + matchedCos + ' match tracked companies';
+        }
+
+        tbody.innerHTML = filtered.slice(0, 500).map(function(t) {
+          var nctLink = t.nctId ? '<a href="https://clinicaltrials.gov/study/' + esc(t.nctId) + '" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none;">' + esc(t.nctId) + '</a>' : '—';
+          return '<tr style="' + (t.hasMatch ? '' : 'opacity:0.6;') + '">' +
+            '<td style="font-weight:600;">' + esc(t.company) + '</td>' +
+            '<td style="font-size:12px;">' + esc((t.title || '').slice(0, 100)) + '</td>' +
+            '<td><span class="val-src-badge" style="background:rgba(139,92,246,0.15); color:#a78bfa; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;">' + esc(phaseLabel(t.phase)) + '</span></td>' +
+            '<td style="font-size:12px;">' + esc(statusLabel(t.status)) + '</td>' +
+            '<td>' + esc(t.enrollment || '—') + '</td>' +
+            '<td style="font-family: Space Grotesk, monospace;">' + esc(t.completion || '—') + '</td>' +
+            '<td>' + nctLink + '</td>' +
+          '</tr>';
+        }).join('');
+      }
+
+      render();
+      if (searchEl) searchEl.addEventListener('input', render);
+      if (phaseEl) phaseEl.addEventListener('change', render);
+      if (statusEl) statusEl.addEventListener('change', render);
+    })
+    .catch(function(e) {
+      console.warn('[ClinicalTrialsRadar] Failed:', e);
+      tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">Could not load clinical trial data.</td></tr>';
+    });
+}
+
+// ─── openFDA PDUFA Calendar — data from data/fda_actions_raw.json ───
+function initPDUFACalendar() {
+  var tbody = document.getElementById('pdufa-body');
+  var countEl = document.getElementById('pdufa-count');
+  if (!tbody) return;
+
+  var esc = (typeof escapeHtml === 'function') ? escapeHtml : function(s) { return String(s || ''); };
+
+  fetch('data/fda_actions_raw.json', { cache: 'no-cache' })
+    .then(function(r) { return r.ok ? r.json() : []; })
+    .then(function(data) {
+      if (!Array.isArray(data) || data.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">No FDA action data available.</td></tr>';
+        return;
+      }
+
+      // Sort by date descending (most recent first)
+      var sorted = [...data].sort(function(a, b) {
+        return String(b.date || b.decision_date || '').localeCompare(String(a.date || a.decision_date || ''));
+      });
+
+      if (countEl) countEl.textContent = 'Showing ' + Math.min(sorted.length, 200) + ' of ' + sorted.length + ' FDA actions';
+
+      tbody.innerHTML = sorted.slice(0, 200).map(function(a) {
+        var date = a.decision_date || a.date || '—';
+        var k = a.k_number || '';
+        var kLink = k ? '<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=' + esc(k) + '" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none;">' + esc(k) + '</a>' : '—';
+        var action = a.clearance_type || a.action || a.decision_code || 'Clearance';
+        return '<tr>' +
+          '<td style="font-weight:600;">' + esc(a.company || a.applicant || '—') + '</td>' +
+          '<td style="font-size:12px;">' + esc((a.device_name || a.product || a.title || '').slice(0, 100)) + '</td>' +
+          '<td><span class="val-src-badge" style="background:rgba(34,197,94,0.15); color:#22c55e; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;">' + esc(action) + '</span></td>' +
+          '<td style="font-family: Space Grotesk, monospace;">' + esc(date) + '</td>' +
+          '<td>' + kLink + '</td>' +
+        '</tr>';
+      }).join('');
+    })
+    .catch(function(e) {
+      console.warn('[PDUFACalendar] Failed:', e);
+      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">Could not load FDA action data.</td></tr>';
+    });
 }
 
 // ─── DATA HELPERS ───

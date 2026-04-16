@@ -198,18 +198,66 @@ function categorizeArticle(article) {
   return 'news';
 }
 
-// Estimate impact level
-function estimateImpact(article) {
-  const text = `${article.title} ${article.description}`.toLowerCase();
+// ─── Quality filters (added Round 6 to fix garbage in Live Signals) ───
 
-  // High impact keywords
-  if (text.match(/billion|ipo|acquisition|acquired|major contract|\$\d+b/i)) {
+// Garbage article detector: shopping, reviews, listicles, promotional content
+// that occasionally gets matched to frontier tech company names by accident.
+function isGarbageArticle(article) {
+  const text = `${article.title || ''} ${article.description || ''}`.toLowerCase();
+  const garbageKeywords = [
+    'coupon', 'discount', 'promo code', 'promo', 'sale', 'deal of the day',
+    'best of ', 'review:', 'review |', 'how to', 'guide to', 'tips', 'tricks',
+    'shopping', 'flash sale', 'amazon prime', 'save $', 'save on',
+    'top 10 ', 'listicle', 'everything we know', 'hands on', 'hands-on',
+    'unboxing', 'gift guide', 'best gifts', 'black friday', 'cyber monday',
+    'amazon alexa', 'roku', 'netflix', 'spotify playlist'
+  ];
+  return garbageKeywords.some(k => text.includes(k));
+}
+
+// Frontier-tech relevance: article must cover a topic relevant to our sectors
+function isFrontierTechRelevant(article) {
+  const text = `${article.title || ''} ${article.description || ''}`.toLowerCase();
+  const relevantTerms = [
+    // Space
+    'space', 'spacecraft', 'launch', 'satellite', 'orbital', 'rocket', 'propulsion',
+    // Defense
+    'defense', 'pentagon', 'dod', 'military', 'weapon', 'drone', 'uav', 'counter-drone',
+    'hypersonic', 'autonomous', 'ev-tol', 'evtol', 'uas',
+    // Nuclear / Energy
+    'nuclear', 'reactor', 'fusion', 'fission', 'uranium', 'smr', 'microreactor',
+    'clean energy', 'grid', 'geothermal', 'hydrogen',
+    // AI / Quantum
+    'ai ', 'artificial intelligence', 'quantum', 'llm', 'machine learning', 'foundation model',
+    'gpu', 'chips', 'semiconductor', 'silicon', 'tpu',
+    // Biotech
+    'biotech', 'genomics', 'fda ', 'clinical trial', 'crispr', 'therapeutics',
+    'drug discovery', 'pharma ',
+    // Robotics / Manufacturing
+    'robotics', 'robot', 'manufacturing', 'automation',
+    // Business signals
+    'raises ', 'raised ', 'funding round', 'ipo', 'acquisition', 'series ',
+    'contract award', 'wins contract', 'federal contract'
+  ];
+  return relevantTerms.some(t => text.includes(t));
+}
+
+// Estimate impact level — Round 6: stricter HIGH bar requiring business+frontier signal
+function estimateImpact(article) {
+  const text = `${article.title || ''} ${article.description || ''}`.toLowerCase();
+  const title = (article.title || '').toLowerCase();
+
+  // Business-significance signals (focus on TITLE for accuracy)
+  const businessSig = /(files? for ipo|\bipo\b|raises? \$|raised \$|acquired|acquisition|billion|\$\d+b|series [c-z]|major contract|wins? contract|fda approval|breakthrough designation|phase (?:3|iii))/i.test(title);
+
+  // HIGH: real business event in headline + frontier-tech topic
+  if (businessSig && isFrontierTechRelevant(article)) {
     return 'high';
   }
 
-  // Medium impact keywords
-  if (text.match(/million|series [c-z]|partnership|expansion|\$\d+m/i)) {
-    return 'medium';
+  // MEDIUM: smaller signals
+  if (/(million|series [ab]|partnership|expansion|\$\d+m|launches|static fire|first flight|milestone)/i.test(title)) {
+    if (isFrontierTechRelevant(article)) return 'medium';
   }
 
   return 'low';
@@ -258,24 +306,49 @@ async function main() {
 
   console.log(`\nTotal articles fetched: ${allArticles.length}`);
 
-  // Filter for tracked companies (now checking 450+ companies with aliases)
+  // Filter for tracked companies + apply quality gates
   const relevantArticles = [];
+  let garbageDropped = 0;
+  let irrelevantDropped = 0;
+  let bodyOnlyDropped = 0;
   for (const article of allArticles) {
+    // Quality gate 1: drop garbage (shopping, reviews, listicles)
+    if (isGarbageArticle(article)) { garbageDropped++; continue; }
+
+    // Quality gate 2: must be frontier-tech-relevant
+    if (!isFrontierTechRelevant(article)) { irrelevantDropped++; continue; }
+
     const matches = getAllMatchedCompanies(article);
-    if (matches.length > 0) {
-      relevantArticles.push({
+    if (matches.length === 0) continue;
+
+    // Quality gate 3: the matched company must appear in the TITLE, not just body.
+    // This eliminates "Durin" being matched to an Uplift Desk coupons article or
+    // Abridge medical-AI article that happens to contain the word "infrastructure".
+    const titleLower = (article.title || '').toLowerCase();
+    const titleMatch = matches.find(m => {
+      const nameLower = m.name.toLowerCase();
+      // Whole-word match against the title
+      const wordRegex = new RegExp('\\b' + nameLower.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\b', 'i');
+      return wordRegex.test(titleLower);
+    });
+    if (!titleMatch) { bodyOnlyDropped++; continue; }
+
+    // Reorder so the title-matched company is first
+    const ordered = [titleMatch, ...matches.filter(m => m.name !== titleMatch.name)];
+
+    relevantArticles.push({
         ...article,
-        matchedCompany: matches[0].name,
-        matchedCompanies: matches.map(m => m.name),
-        sectors: [...new Set(matches.map(m => m.sector))],
+        matchedCompany: ordered[0].name,
+        matchedCompanies: ordered.map(m => m.name),
+        sectors: [...new Set(ordered.map(m => m.sector))],
         type: categorizeArticle(article),
         impact: estimateImpact(article),
         time: formatRelativeTime(article.pubDate)
       });
-    }
   }
 
-  console.log(`Relevant articles (mentioning tracked companies): ${relevantArticles.length}`);
+  console.log(`Relevant articles (tracked + quality-gated): ${relevantArticles.length}`);
+  console.log(`  Dropped: ${garbageDropped} garbage, ${irrelevantDropped} irrelevant, ${bodyOnlyDropped} body-only match`);
 
   // Sort by date (most recent first)
   relevantArticles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
