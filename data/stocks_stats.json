@@ -1,99 +1,99 @@
 {
   "totalMarketCap": "$0.0B",
-  "companiesTracked": 31,
+  "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 7.86,
+      "avg_change": 8.73,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 3.11,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 8.45,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 15.0,
+      "avg_change": 17.67,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 20.87,
+      "avg_change": 23.57,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
+      "gainers": 3,
       "losers": 0,
-      "avg_change": 13.66,
-      "count": 2
+      "avg_change": 20.71,
+      "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 39.71,
+      "avg_change": 51.23,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 15.73,
+      "avg_change": 14.78,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 9.72,
+      "avg_change": 11.21,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 14.19,
+      "avg_change": 18.47,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "QBTS",
-      "D-Wave Quantum",
-      45.93
-    ],
-    [
       "IONQ",
       "IonQ",
-      45.83
+      59.65
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      57.61
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      33.48
+      46.96
     ],
     [
-      "OKLO",
-      "Oklo",
-      29.4
+      "LNZA",
+      "LanzaTech",
+      37.45
     ],
     [
-      "AUR",
-      "Aurora Innovation",
-      29.4
+      "RGTI",
+      "Rigetti Computing",
+      36.42
     ]
   ],
   "topLosers": [
     [
       "DRSHF",
       "DroneShield",
-      5.71
+      6.12
     ],
     [
       "SATL",
       "Satellogic",
-      -0.35
+      5.29
     ],
     [
       "ASRHF",
@@ -101,15 +101,15 @@
       -1.4
     ],
     [
+      "ASTS",
+      "AST SpaceMobile",
+      -1.45
+    ],
+    [
       "9348.T",
       "ispace",
       -5.05
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -5.35
     ]
   ],
-  "lastUpdated": "2026-04-16 13:56:14"
+  "lastUpdated": "2026-04-16 19:23:11"
 }
