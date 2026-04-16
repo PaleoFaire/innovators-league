@@ -1,94 +1,99 @@
 {
   "totalMarketCap": "$0.0B",
-  "companiesTracked": 32,
+  "companiesTracked": 31,
   "sectorPerformance": {
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 0.99,
+      "avg_change": 7.86,
       "count": 1
     },
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -1.88,
+      "avg_change": 3.11,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 9.17,
+      "avg_change": 15.0,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 17.64,
+      "avg_change": 20.87,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
+      "gainers": 2,
       "losers": 0,
-      "avg_change": 27.18,
-      "count": 3
+      "avg_change": 13.66,
+      "count": 2
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 41.18,
+      "avg_change": 39.71,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.78,
+      "avg_change": 15.73,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 11.29,
+      "avg_change": 9.72,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 19.25,
+      "avg_change": 14.19,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "LNZA",
-      "LanzaTech",
-      59.06
+      "QBTS",
+      "D-Wave Quantum",
+      45.93
     ],
     [
       "IONQ",
       "IonQ",
-      49.19
+      45.83
     ],
     [
-      "QBTS",
-      "D-Wave Quantum",
-      42.83
+      "EVTL",
+      "Vertical Aerospace",
+      33.48
     ],
     [
-      "ALAB",
-      "Astera Labs",
-      37.17
+      "OKLO",
+      "Oklo",
+      29.4
     ],
     [
-      "RGTI",
-      "Rigetti Computing",
-      31.52
+      "AUR",
+      "Aurora Innovation",
+      29.4
     ]
   ],
   "topLosers": [
     [
+      "DRSHF",
+      "DroneShield",
+      5.71
+    ],
+    [
       "SATL",
       "Satellogic",
-      0.44
+      -0.35
     ],
     [
       "ASRHF",
@@ -101,15 +106,10 @@
       -5.05
     ],
     [
-      "PL",
-      "Planet Labs",
-      -5.85
-    ],
-    [
       "ASTS",
       "AST SpaceMobile",
-      -9.9
+      -5.35
     ]
   ],
-  "lastUpdated": "2026-04-16 07:53:49"
+  "lastUpdated": "2026-04-16 13:56:14"
 }
