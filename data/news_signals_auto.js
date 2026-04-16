@@ -1,85 +1,96 @@
 // Auto-generated news signals
-// Last updated: 2026-04-16T14:07:08.653Z
+// Last updated: 2026-04-16T15:51:10.109Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1776348428653,
+    "id": 1776354670109,
+    "type": "hire",
+    "company": "Runway",
+    "headline": "Runway CEO says AI could help Hollywood make 50 films instead of one $100M blockbuster",
+    "source": "TechCrunch",
+    "time": "1h ago",
+    "impact": "medium",
+    "unread": true,
+    "link": "https://techcrunch.com/2026/04/16/runway-ceo-says-ai-could-help-hollywood-make-50-films-instead-of-one-100m-blockbuster/"
+  },
+  {
+    "id": 1776354670110,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic Plots Major London Expansion",
     "source": "Wired",
-    "time": "Just now",
+    "time": "2h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://www.wired.com/story/anthropic-plots-major-london-expansion/"
   },
   {
-    "id": 1776348428654,
+    "id": 1776354670111,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "Anthropic&#8217;s Nuclear Bomb",
     "source": "War on the Rocks",
-    "time": "6h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://warontherocks.com/anthropics-nuclear-bomb/"
   },
   {
-    "id": 1776348428655,
+    "id": 1776354670112,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Successfully Static Fires V3 Booster",
     "source": "Next Big Future",
-    "time": "10h ago",
+    "time": "12h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/04/spacex-successfully-static-fires-v3-booster.html"
   },
   {
-    "id": 1776348428656,
+    "id": 1776354670113,
     "type": "funding",
     "company": "X-Energy",
     "headline": "Amazon-backed X-energy files to raise up to $800M in IPO",
     "source": "TechCrunch",
-    "time": "15h ago",
+    "time": "17h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/15/amazon-backed-x-energy-files-to-raise-up-to-800m-in-ipo/"
   },
   {
-    "id": 1776348428657,
+    "id": 1776354670114,
     "type": "hire",
     "company": "Abridge",
     "headline": "Scribing startup Abridge adds NEJM, JAMA as it moves into medical AI search",
     "source": "Endpoints News",
-    "time": "18h ago",
+    "time": "19h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://endpoints.news/scribing-startup-abridge-adds-nejm-jama-as-it-moves-into-medical-ai-search/"
   },
   {
-    "id": 1776348428658,
+    "id": 1776354670115,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents",
     "source": "TechCrunch",
-    "time": "18h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/"
   },
   {
-    "id": 1776348428659,
+    "id": 1776354670116,
     "type": "funding",
     "company": "Wayve",
     "headline": "Self-driving scaleup Wayve raises fresh funds from AMD, Qualcomm and Arm",
     "source": "Sifted",
-    "time": "22h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://sifted.eu/articles/self-driving-scaleup-wayve-raises-fresh-funds/"
   },
   {
-    "id": 1776348428660,
+    "id": 1776354670117,
     "type": "funding",
     "company": "Anthropic",
     "headline": "STAT+: Novartis CEO joins Anthropic&#8217;s board",
@@ -90,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.statnews.com/2026/04/15/biotech-news-novartis-ceo-joins-anthropic-board/?utm_campaign=rss"
   },
   {
-    "id": 1776348428661,
+    "id": 1776354670118,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship V3 Has Successful Static Fire",
@@ -101,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/spacex-starship-v3-has-successful-static-fire.html"
   },
   {
-    "id": 1776348428662,
+    "id": 1776354670119,
     "type": "milestone",
     "company": "Blue Origin",
     "headline": "Blue Origin Delayed Static Fire Pushes Possible Launch to April 18, 2026",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/blue-origin-delayed-static-fire-pushes-possible-launch-to-april-18-2026.html"
   },
   {
-    "id": 1776348428663,
+    "id": 1776354670120,
     "type": "news",
     "company": "Anthropic",
     "headline": "In the Wake of Anthropic’s Mythos, OpenAI Has a New Cybersecurity Model—and Strategy",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/in-the-wake-of-anthropics-mythos-openai-has-a-new-cybersecurity-model-and-strategy/"
   },
   {
-    "id": 1776348428664,
+    "id": 1776354670121,
     "type": "news",
     "company": "Ouster",
     "headline": "Ouster releases Stereolabs ZED X Nano wrist-mounted camera",
@@ -134,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/ouster-releases-stereolabs-zed-x-nano-wrist-mounted-camera/"
   },
   {
-    "id": 1776348428665,
+    "id": 1776354670122,
     "type": "news",
     "company": "Rivian",
     "headline": "Rivian partners with Tesla co-founder&#8217;s Redwood on energy storage",
@@ -145,18 +156,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/04/14/rivian-redwood-materials-energy-storage-partnership-illinois/"
   },
   {
-    "id": 1776348428666,
+    "id": 1776354670123,
     "type": "funding",
     "company": "Harbinger",
     "headline": "Harbinger raises $100M; Astellas to close Seattle site",
     "source": "Endpoints News",
-    "time": "1d ago",
+    "time": "2d ago",
     "impact": "high",
     "unread": false,
     "link": "https://endpoints.news/harbinger-raises-100m-astellas-to-close-seattle-site/"
   },
   {
-    "id": 1776348428667,
+    "id": 1776354670124,
     "type": "milestone",
     "company": "Nuro",
     "headline": "Uber begins early test rides of Lucid Gravity robotaxis equipped with Nuro autonomy systems",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/04/13/uber-begins-early-test-rides-lucid-gravity-robotaxi-nuro-autonomy/"
   },
   {
-    "id": 1776348428668,
+    "id": 1776354670125,
     "type": "milestone",
     "company": "Locus Robotics",
     "headline": "Locus Robotics launches Locus Array for fully autonomous fulfillment",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/locus-robotics-launches-locus-array-for-fully-autonomous-fulfillment/"
   },
   {
-    "id": 1776348428669,
+    "id": 1776354670126,
     "type": "news",
     "company": "Deterrence",
     "headline": "Disperse to Survive: The Logic of French Forward Deterrence",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/disperse-to-survive-the-logic-of-french-forward-deterrence/"
   },
   {
-    "id": 1776348428670,
+    "id": 1776354670127,
     "type": "news",
     "company": "Fervo Energy",
     "headline": "Fervo Energy inks big turbine deal to build more next-gen geothermal",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
   },
   {
-    "id": 1776348428671,
+    "id": 1776354670128,
     "type": "news",
     "company": "Anthropic",
     "headline": "Spy agencies eye new Anthropic AI model that spots cyber flaws",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.defenseone.com/policy/2026/04/spy-agencies-ai-anthropic-cybersecurity/412724/"
-  },
-  {
-    "id": 1776348428672,
-    "type": "milestone",
-    "company": "Base Power",
-    "headline": "Base Power to launch 100-MW home battery network for Texas utility",
-    "source": "Canary Media",
-    "time": "3/11/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.canarymedia.com/articles/batteries/base-power-to-launch-100-mw-home-battery-network-for-texas-utility"
   }
 ];
