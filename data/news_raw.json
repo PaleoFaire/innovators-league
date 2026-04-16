@@ -1,5 +1,25 @@
 [
   {
+    "title": "Anthropic Plots Major London Expansion",
+    "link": "https://www.wired.com/story/anthropic-plots-major-london-expansion/",
+    "description": "As tensions with the US government mount, Anthropic has leased a new office with enough space to quadruple its 200-person headcount in London.",
+    "pubDate": "Thu, 16 Apr 2026 13:49:35 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Palantir"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "ipo",
+    "impact": "medium",
+    "time": "Just now"
+  },
+  {
     "title": "Anthropic&#8217;s Nuclear Bomb",
     "link": "https://warontherocks.com/anthropics-nuclear-bomb/",
     "description": "A few hours before Anthropic announced the launch of its newest model, Claude Mythos Preview, on April 7, I had just completed a six-month analysis of AI-enabled cyberattacks. My research traced Chinese state-sponsored cyber campaigns against U.S. critical infrastructure and found that the barrier b",
@@ -19,7 +39,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "3h ago"
+    "time": "6h ago"
   },
   {
     "title": "SpaceX Successfully Static Fires V3 Booster",
@@ -38,7 +58,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "7h ago"
+    "time": "10h ago"
   },
   {
     "title": "Amazon-backed X-energy files to raise up to $800M in IPO",
@@ -57,7 +77,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "12h ago"
+    "time": "15h ago"
   },
   {
     "title": "Scribing startup Abridge adds NEJM, JAMA as it moves into medical AI search",
@@ -78,7 +98,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "15h ago"
+    "time": "18h ago"
   },
   {
     "title": "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents",
@@ -97,7 +117,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "15h ago"
+    "time": "18h ago"
   },
   {
     "title": "Self-driving scaleup Wayve raises fresh funds from AMD, Qualcomm and Arm",
@@ -118,7 +138,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "19h ago"
+    "time": "22h ago"
   },
   {
     "title": "STAT+: Novartis CEO joins Anthropic&#8217;s board",
@@ -137,45 +157,6 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "21h ago"
-  },
-  {
-    "title": "Vast offers new docking adapter for large space stations",
-    "link": "https://spacenews.com/vast-offers-new-docking-adapter-for-large-space-stations/",
-    "description": "\nCommercial space station developer Vast unveiled a new docking interface the company is offering to the broader industry for future large stations and spacecraft.\nThe post Vast offers new docking adapter for large space stations appeared first on SpaceNews.",
-    "pubDate": "Wed, 15 Apr 2026 13:00:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Vast",
-    "matchedCompanies": [
-      "Vast",
-      "Axiom Space"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "22h ago"
-  },
-  {
-    "title": "Turion Space raises $75 million to expand maneuverable satellite fleet",
-    "link": "https://spacenews.com/turion-space-raises-75-million-to-expand-maneuverable-satellite-fleet/",
-    "description": "\nWashington Harbour Partners leads Series B funding round \nThe post Turion Space raises $75 million to expand maneuverable satellite fleet appeared first on SpaceNews.",
-    "pubDate": "Wed, 15 Apr 2026 11:00:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Turion Space",
-    "matchedCompanies": [
-      "Turion Space"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "funding",
-    "impact": "high",
     "time": "1d ago"
   },
   {
@@ -198,26 +179,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Blue Origin moves toward launch at Vandenberg",
-    "link": "https://spacenews.com/blue-origin-moves-toward-launch-at-vandenberg/",
-    "description": "\nCOLORADO SPRINGS – Blue Origin moved a step closer to launching New Glenn rockets from Vandenberg Space Force Base with a U.S. Space Force decision to conduct final negotiations of a lease for Space Launch Complex (SLC)-14. “By taking the next steps to further develop heavy and super-heavy space la",
-    "pubDate": "Tue, 14 Apr 2026 23:13:56 +0000",
-    "category": "Military",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "Blue Origin",
-    "matchedCompanies": [
-      "Blue Origin",
-      "Astro Mechanica"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "Blue Origin Delayed Static Fire Pushes Possible Launch to April 18, 2026",
     "link": "https://www.nextbigfuture.com/2026/04/blue-origin-delayed-static-fire-pushes-possible-launch-to-april-18-2026.html",
     "description": "Blue Origin tried to spin the delayed static fire as a successful rehearsal. Today was a delayed static fire for the New Glenn flight 3.",
@@ -234,27 +195,6 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "1d ago"
-  },
-  {
-    "title": "Commercial Space Federation (CSF) Welcomes ispace-U.S. to Board of Directors",
-    "link": "https://spacenews.com/commercial-space-federation-csf-welcomes-ispace-u-s-to-board-of-directors/",
-    "description": "\nApril 14, 2026 – Washington, D.C.—The Commercial Space Federation (CSF) and ispace technologies U.S., inc. (ispace-U.S.) today announced that ispace-U.S., a U.S.-based commercial lunar exploration company, has joined its Board [&#8230;]\nThe post Commercial Space Federation (CSF) Welcomes ispace-U.S",
-    "pubDate": "Tue, 14 Apr 2026 21:00:00 +0000",
-    "category": "Press Release",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "ispace",
-    "matchedCompanies": [
-      "ispace",
-      "Vast",
-      "Axiom Space"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "hire",
-    "impact": "low",
     "time": "1d ago"
   },
   {
@@ -322,26 +262,6 @@
     "time": "1d ago"
   },
   {
-    "title": "Anthropic Opposes the Extreme AI Liability Bill That OpenAI Backed",
-    "link": "https://www.wired.com/story/anthropic-opposes-the-extreme-ai-liability-bill-that-openai-backed/",
-    "description": "Anthropic and OpenAI are clashing over a proposed Illinois law that would let AI labs largely off the hook for mass deaths and financial disasters.",
-    "pubDate": "Tue, 14 Apr 2026 15:21:44 +0000",
-    "category": "Business",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "Harbinger raises $100M; Astellas to close Seattle site",
     "link": "https://endpoints.news/harbinger-raises-100m-astellas-to-close-seattle-site/",
     "description": "Plus, news about Novo Nordisk and OpenAI, and Adcendo's Series C:\r\n\r\n 🧪 Flagship’s Harbinger Health raises $100 million for cancer test: The startup said it closed the Series B extension last ...",
@@ -360,25 +280,6 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "1d ago"
-  },
-  {
-    "title": "STAT+: Pharmalittle: We&#8217;re reading about an FDA push for trial transparency, a Novo-OpenAI deal, and more",
-    "link": "https://www.statnews.com/pharmalot/2026/04/14/fda-push-clinical-trial-transparency-novo-nordisk-openai-deal/?utm_campaign=rss",
-    "description": "The FDA told more than 2,200 companies and researchers that they are required to report clinical trial results, or they may face fines",
-    "pubDate": "Tue, 14 Apr 2026 13:12:36 +0000",
-    "category": "Pharma",
-    "source": "STAT News",
-    "feedCategory": "biotech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
     "time": "1d ago"
   },
   {

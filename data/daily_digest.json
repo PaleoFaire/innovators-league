@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-04-16T11:13:35.121822+00:00",
+  "generatedAt": "2026-04-16T14:07:18.156217+00:00",
   "date": "2026-04-16",
   "dateDisplay": "Thursday, April 16, 2026",
   "sections": {
     "govActivity": [],
     "marketMovers": [
       {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 41.42,
-        "changePercent": 59.06,
-        "change": 15.38
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 20.24,
+        "changePercent": 45.93,
+        "change": 6.37
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 43.25,
-        "changePercent": 49.19,
-        "change": 14.26
+        "price": 40.95,
+        "changePercent": 45.83,
+        "change": 12.87
       },
       {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 20.81,
-        "changePercent": 42.83,
-        "change": 6.24
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 172.09,
-        "changePercent": 37.17,
-        "change": 46.63
-      },
-      {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 19.11,
-        "changePercent": 31.52,
-        "change": 4.58
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 3.07,
+        "changePercent": 33.48,
+        "change": 0.77
       },
       {
         "ticker": "OKLO",
         "company": "Oklo",
-        "price": 63.35,
-        "changePercent": 26.17,
-        "change": 13.14
+        "price": 61.79,
+        "changePercent": 29.4,
+        "change": 14.04
       },
       {
         "ticker": "AUR",
         "company": "Aurora Innovation",
-        "price": 5.3,
-        "changePercent": 25.3,
-        "change": 1.07
+        "price": 5.21,
+        "changePercent": 29.4,
+        "change": 1.18
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 56.41,
-        "changePercent": 18.76,
-        "change": 8.91
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 18.23,
+        "changePercent": 27.36,
+        "change": 3.92
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 162.03,
+        "changePercent": 25.15,
+        "change": 32.56
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 11.34,
+        "changePercent": 21.94,
+        "change": 2.04
       }
     ],
     "regulatory": [],
@@ -70,6 +70,6 @@
     "moverCount": 8,
     "regCount": 0,
     "patentCount": 0,
-    "topMover": "LNZA +59.1%"
+    "topMover": "QBTS +45.9%"
   }
 }
