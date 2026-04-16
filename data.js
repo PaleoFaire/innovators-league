@@ -29143,22 +29143,22 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-16 15:51
+// Last updated: 2026-04-16 17:25
 const COMPANY_SIGNALS = [
-  { id: 1, type: "hire", company: "Runway", headline: "Runway CEO says AI could help Hollywood make 50 films instead of one $100M blockbuster", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
-  { id: 2, type: "ipo", company: "Anthropic", headline: "Anthropic Plots Major London Expansion", source: "Wired", time: "2h ago", impact: "medium", unread: true },
-  { id: 3, type: "milestone", company: "Anthropic", headline: "Anthropic's Nuclear Bomb", source: "War on the Rocks", time: "7h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "SpaceX", headline: "SpaceX Successfully Static Fires V3 Booster", source: "Next Big Future", time: "12h ago", impact: "medium", unread: true },
-  { id: 5, type: "funding", company: "X-Energy", headline: "Amazon-backed X-energy files to raise up to $800M in IPO", source: "TechCrunch", time: "17h ago", impact: "high", unread: true },
-  { id: 6, type: "hire", company: "Abridge", headline: "Scribing startup Abridge adds NEJM, JAMA as it moves into medical AI search", source: "Endpoints News", time: "19h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
+  { id: 1, type: "ipo", company: "Blue Origin", headline: "Blue Origin New Glenn 3 Has a Good Static Fire", source: "Next Big Future", time: "1h ago", impact: "medium", unread: true },
+  { id: 2, type: "hire", company: "Runway", headline: "Runway CEO says AI could help Hollywood make 50 films instead of one $100M blockbuster", source: "TechCrunch", time: "3h ago", impact: "medium", unread: true },
+  { id: 3, type: "ipo", company: "Anthropic", headline: "Anthropic Plots Major London Expansion", source: "Wired", time: "3h ago", impact: "medium", unread: true },
+  { id: 4, type: "milestone", company: "Anthropic", headline: "Anthropic's Nuclear Bomb", source: "War on the Rocks", time: "9h ago", impact: "low", unread: true },
+  { id: 5, type: "ipo", company: "SpaceX", headline: "SpaceX Successfully Static Fires V3 Booster", source: "Next Big Future", time: "13h ago", impact: "medium", unread: true },
+  { id: 6, type: "funding", company: "X-Energy", headline: "Amazon-backed X-energy files to raise up to $800M in IPO", source: "TechCrunch", time: "18h ago", impact: "high", unread: false },
+  { id: 7, type: "hire", company: "Abridge", headline: "Scribing startup Abridge adds NEJM, JAMA as it moves into medical AI search", source: "Endpoints News", time: "21h ago", impact: "low", unread: false },
   { id: 8, type: "funding", company: "Wayve", headline: "Self-driving scaleup Wayve raises fresh funds from AMD, Qualcomm and Arm", source: "Sifted", time: "1d ago", impact: "low", unread: false },
   { id: 9, type: "funding", company: "Anthropic", headline: "STAT+: Novartis CEO joins Anthropic's board", source: "STAT News", time: "1d ago", impact: "low", unread: false },
   { id: 10, type: "ipo", company: "SpaceX", headline: "SpaceX Starship V3 Has Successful Static Fire", source: "Next Big Future", time: "1d ago", impact: "medium", unread: false },
   { id: 11, type: "milestone", company: "Blue Origin", headline: "Blue Origin Delayed Static Fire Pushes Possible Launch to April 18, 2026", source: "Next Big Future", time: "1d ago", impact: "medium", unread: false },
   { id: 12, type: "news", company: "Anthropic", headline: "In the Wake of Anthropic's Mythos, OpenAI Has a New Cybersecurity Model'and Strategy", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 13, type: "news", company: "Ouster", headline: "Ouster releases Stereolabs ZED X Nano wrist-mounted camera", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Rivian", headline: "Rivian partners with Tesla co-founder's Redwood on energy storage", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 14, type: "news", company: "Rivian", headline: "Rivian partners with Tesla co-founder's Redwood on energy storage", source: "Electrek", time: "2d ago", impact: "low", unread: false },
   { id: 15, type: "funding", company: "Harbinger", headline: "Harbinger raises $100M; Astellas to close Seattle site", source: "Endpoints News", time: "2d ago", impact: "high", unread: false },
 ];
 
