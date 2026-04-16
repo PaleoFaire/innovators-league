@@ -26948,23 +26948,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-15 21:00
+// Last updated: 2026-04-16 05:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "CX2 Industries", headline: "Space Force 2040: 30,000 satellites, 'thousands' more Guardians", source: "Breaking Defense", time: "Just now", impact: "low", unread: true },
-  { id: 2, type: "ipo", company: "Kinova Robotics", headline: "Defense Business Brief: Robotic arms + satellite refueling | Iran war costs | Unmasking shadow fleets'from space", source: "Defense One", time: "1h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
-  { id: 4, type: "ipo", company: "Hadrian", headline: "Emerson Launches Innovative Software-Driven Method for High-Fidelity Aerospace RF Testing", source: "SpaceNews", time: "1h ago", impact: "low", unread: true },
-  { id: 5, type: "hire", company: "Standard Nuclear", headline: "NASA Wants to Put Nuclear Reactors on the Moon", source: "Wired", time: "2h ago", impact: "low", unread: true },
-  { id: 6, type: "contract", company: "Durin", headline: "'Paradigm-shifting' $1.5T defense budget to enable multiyear contracts: OMB director", source: "Breaking Defense", time: "2h ago", impact: "high", unread: false },
-  { id: 7, type: "news", company: "Substrate", headline: "AI Could Democratize One of Tech's Most Valuable Resources", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 8, type: "ipo", company: "True Anomaly", headline: "The Infrastructure Layer U.S. Space Superiority Has Been Missing", source: "SpaceNews", time: "3h ago", impact: "low", unread: false },
-  { id: 9, type: "news", company: "Matic Robotics", headline: "Microsoft Surface PCs Are Getting Big Price Hikes, and the Cheaper Models Are Going Away", source: "Wired", time: "3h ago", impact: "low", unread: false },
-  { id: 10, type: "milestone", company: "Shield AI", headline: "Airbus' autonomous supply-helicopter effort may pave the way for an armed model", source: "Defense One", time: "3h ago", impact: "low", unread: false },
-  { id: 11, type: "ipo", company: "Xtend", headline: "US EV Market Down 27%, Worst 1st Quarter Since 2022", source: "CleanTechnica", time: "4h ago", impact: "low", unread: false },
-  { id: 12, type: "funding", company: "Anthropic", headline: "Anthropic shrugs off VC funding offers valuing it at $800B+, for now", source: "TechCrunch", time: "4h ago", impact: "high", unread: false },
-  { id: 13, type: "news", company: "Palantir", headline: "The US Government Will Ask Data Centers How Much Power They Use", source: "Wired", time: "4h ago", impact: "low", unread: false },
-  { id: 14, type: "news", company: "Ample", headline: "Hundreds Of New Fast Chargers Coming To Circle K Stores", source: "CleanTechnica", time: "5h ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Crusoe Energy", headline: "Tesla AI5 Chip Tapeout", source: "Next Big Future", time: "6h ago", impact: "low", unread: false },
+  { id: 1, type: "news", company: "Anthropic", headline: "Lovable scrambles under pressure from Anthropic", source: "Sifted", time: "Just now", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Durin", headline: "Uplift Desk Coupon Codes & Discounts: Up to $570 Off", source: "Wired", time: "Just now", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Successfully Static Fires V3 Booster", source: "Next Big Future", time: "1h ago", impact: "low", unread: true },
+  { id: 4, type: "hire", company: "SHIELD Technology Partners", headline: "Seraphim forms space advisory council", source: "SpaceNews", time: "6h ago", impact: "low", unread: true },
+  { id: 5, type: "funding", company: "X-Energy", headline: "Amazon-backed X-energy files to raise up to $800M in IPO", source: "TechCrunch", time: "6h ago", impact: "high", unread: true },
+  { id: 6, type: "news", company: "Karman Industries", headline: "Fast Hydrofoils, Floating Logs, &#038; Canada's Ferry Electrification Challenge", source: "CleanTechnica", time: "6h ago", impact: "low", unread: false },
+  { id: 7, type: "hire", company: "Durin", headline: "Scribing startup Abridge adds NEJM, JAMA as it moves into medical AI search", source: "Endpoints News", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "WeaveGrid", headline: "Maryland regulators weigh investor-owned utilities' flexible load proposals", source: "Utility Dive", time: "12h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Xtend", headline: "US EV Market Down 27%, Worst 1st Quarter Since 2022", source: "CleanTechnica", time: "13h ago", impact: "low", unread: false },
+  { id: 10, type: "funding", company: "Aurora Innovation", headline: "Self-driving scaleup Wayve raises fresh funds from AMD, Qualcomm and Arm", source: "Sifted", time: "13h ago", impact: "low", unread: false },
+  { id: 11, type: "news", company: "Ample", headline: "Hundreds Of New Fast Chargers Coming To Circle K Stores", source: "CleanTechnica", time: "14h ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "Crusoe Energy", headline: "Tesla AI5 Chip Tapeout", source: "Next Big Future", time: "14h ago", impact: "low", unread: false },
+  { id: 13, type: "funding", company: "Together AI", headline: "Revolution Medicines prices $2B raise as XBI reaches heights not seen since pandemic", source: "Endpoints News", time: "15h ago", impact: "high", unread: false },
+  { id: 14, type: "funding", company: "Anthropic", headline: "STAT+: Novartis CEO joins Anthropic's board", source: "STAT News", time: "15h ago", impact: "high", unread: false },
+  { id: 15, type: "news", company: "Claros", headline: "World Premiere of the ID.3 Neo: New Name, New Design, New Interior, and New Technologies", source: "CleanTechnica", time: "16h ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
