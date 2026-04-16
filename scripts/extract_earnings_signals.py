@@ -554,7 +554,7 @@ def run_llm_extraction(transcripts):
         )
         try:
             msg = client.messages.create(
-                model="claude-opus-4-20250514",
+                model="claude-sonnet-4-5-20250929",
                 max_tokens=2000,
                 messages=[{"role": "user", "content": prompt}],
             )
