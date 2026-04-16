@@ -29143,25 +29143,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-16 05:36
-// Auto-generated real-time signals
-// Last updated: 2026-04-16
+// Last updated: 2026-04-16 08:00
 const COMPANY_SIGNALS = [
   { id: 1, type: "ipo", company: "SpaceX", headline: "SpaceX Successfully Static Fires V3 Booster", source: "Next Big Future", time: "4h ago", impact: "medium", unread: true },
   { id: 2, type: "funding", company: "X-Energy", headline: "Amazon-backed X-energy files to raise up to $800M in IPO", source: "TechCrunch", time: "9h ago", impact: "high", unread: true },
   { id: 3, type: "hire", company: "Abridge", headline: "Scribing startup Abridge adds NEJM, JAMA as it moves into medical AI search", source: "Endpoints News", time: "11h ago", impact: "low", unread: true },
   { id: 4, type: "news", company: "OpenAI", headline: "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents", source: "TechCrunch", time: "12h ago", impact: "low", unread: true },
   { id: 5, type: "funding", company: "Wayve", headline: "Self-driving scaleup Wayve raises fresh funds from AMD, Qualcomm and Arm", source: "Sifted", time: "16h ago", impact: "low", unread: true },
-  { id: 6, type: "funding", company: "Anthropic", headline: "STAT+: Novartis CEO joins Anthropic&#8217;s board", source: "STAT News", time: "18h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "Vast", headline: "Vast offers new docking adapter for large space stations", source: "SpaceNews", time: "18h ago", impact: "low", unread: false },
-  { id: 8, type: "funding", company: "Turion Space", headline: "Turion Space raises $75 million to expand maneuverable satellite fleet", source: "SpaceNews", time: "20h ago", impact: "high", unread: false },
+  { id: 6, type: "funding", company: "Anthropic", headline: "STAT+: Novartis CEO joins Anthropic's board", source: "STAT News", time: "18h ago", impact: "low", unread: false },
+  { id: 7, type: "ipo", company: "Vast", headline: "Vast offers new docking adapter for large space stations", source: "SpaceNews", time: "19h ago", impact: "low", unread: false },
+  { id: 8, type: "funding", company: "Turion Space", headline: "Turion Space raises $75 million to expand maneuverable satellite fleet", source: "SpaceNews", time: "21h ago", impact: "high", unread: false },
   { id: 9, type: "ipo", company: "SpaceX", headline: "SpaceX Starship V3 Has Successful Static Fire", source: "Next Big Future", time: "1d ago", impact: "medium", unread: false },
   { id: 10, type: "ipo", company: "Blue Origin", headline: "Blue Origin moves toward launch at Vandenberg", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
   { id: 11, type: "milestone", company: "Blue Origin", headline: "Blue Origin Delayed Static Fire Pushes Possible Launch to April 18, 2026", source: "Next Big Future", time: "1d ago", impact: "medium", unread: false },
-  { id: 12, type: "hire", company: "ispace", headline: "Commercial Space Federation (CSF) Welcomes ispace-U.S. to Board of Directors", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "Anthropic", headline: "In the Wake of Anthropic’s Mythos, OpenAI Has a New Cybersecurity Model—and Strategy", source: "Wired", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "hire", company: "ispace", headline: "Commercial Space Federation (CSF) Welcomes ispace-U.S. to'Board of Directors", source: "SpaceNews", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "news", company: "Anthropic", headline: "In the Wake of Anthropic's Mythos, OpenAI Has a New Cybersecurity Model'and Strategy", source: "Wired", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "news", company: "Ouster", headline: "Ouster releases Stereolabs ZED X Nano wrist-mounted camera", source: "The Robot Report", time: "1d ago", impact: "low", unread: false },
-  { id: 15, type: "news", company: "Rivian", headline: "Rivian partners with Tesla co-founder&#8217;s Redwood on energy storage", source: "Electrek", time: "1d ago", impact: "low", unread: false },
+  { id: 15, type: "news", company: "Rivian", headline: "Rivian partners with Tesla co-founder's Redwood on energy storage", source: "Electrek", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
