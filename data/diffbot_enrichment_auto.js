@@ -1,5 +1,5 @@
 // Auto-generated company enrichment data
-// Last updated: 2026-04-16 10:35:33 UTC
+// Last updated: 2026-04-16 10:50:29 UTC
 // Enriched companies: 200 / 805
 // Sources used: Diffbot + Wikipedia/Wikidata fallback
 const DIFFBOT_ENRICHMENT_AUTO = [

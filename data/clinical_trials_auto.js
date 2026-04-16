@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-04-16 10:10:30 UTC
+// Last updated: 2026-04-16 10:39:17 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT05057702", title: "Individualized Treatment Plan in Children and Young Adults With Relapsed Medullo", status: "RECRUITING", phase: "NA", sponsor: "University of California, San Francisco", conditions: "Medulloblastoma, Medulloblastoma, Childhood, Medul", enrollment: 74, lastUpdated: "2026-04-15" },
   { nctId: "NCT07126158", title: "Stereotactic Body Radiotherapy Plus FAK and RAF/MEK Inhibition in Advanced Pancr", status: "RECRUITING", phase: "PHASE2", sponsor: "Washington University School of Medicine", conditions: "Pancreatic Adenocarcinoma, Cancer of the Pancreas,", enrollment: 36, lastUpdated: "2026-04-15" },

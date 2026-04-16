@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-04-16 10:10:50 UTC
+// Last updated: 2026-04-16 10:39:12 UTC
 // Total grants: 626 | Known companies: 16 | SBIR: 15
-// Total funding tracked: $379,119,819
+// Total funding tracked: $378,855,286
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -2630,19 +2630,6 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
-    title: "Molecular imaging of novel PARP inhibitor nanomedicine delivery",
-    organization: "UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
-    orgState: "CA",
-    piName: "Rahul  Aggarwal",
-    fiscalYear: 2025,
-    awardAmount: 621383,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "PROJECT SUMMARY The goal of this proposal is to develop novel PARP inhibitor nanomedicine and a companion PET biomarker for treatment of prostate cancer. Despite recent advances, metastatic castration",
-    terms: ["Address", "Animal Model", "Biodistribution", "Biological Markers", "CT26", "Cancer Model", "Cancer Patient", "Cell Line"],
-    isKnownCompany: false,
-  },
-  {
     title: "International Consortium for the Genetics of Biliary Tract Cancers Cholangiocarcinoma Genome Wide Association Study",
     organization: "MAYO CLINIC ROCHESTER",
     orgState: "MN",
@@ -3901,6 +3888,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "The work described in this proposal investigates a novel approach to reduce drug accumulation in healthy tissues and improve the efficacy of chemotherapy. More specifically, we take advantage of recen",
     terms: ["Adverse effects", "Affect", "Antibodies", "Antineoplastic Agents", "Antitumor Response", "Attenuated", "Bacteria", "Biodistribution"],
+    isKnownCompany: false,
+  },
+  {
+    title: "The Role of the Intestinal Mycobiome in Alcoholic Liver Disease",
+    organization: "UNIVERSITY OF CALIFORNIA, SAN DIEGO",
+    orgState: "CA",
+    piName: "Bernd G. Schnabl",
+    fiscalYear: 2026,
+    awardAmount: 499159,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "Project Summary Alcohol associated health problems are a major medical burden in industrialized countries. Patients with alcohol-associated liver disease show intestinal bacterial dysbiosis and increa",
+    terms: ["Adoptive Transfer", "Affect", "Alcohol abuse", "Alcoholic Liver Diseases", "Alcoholism", "Alcohols", "Antigens", "Bacteria"],
     isKnownCompany: false,
   },
 ];
