@@ -1,5 +1,18 @@
 [
   {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "type": "Potential Officer/Director Change",
+    "description": "8-K filing (8-K (exec-move candidate)) \u2014 ea0286487-8k_zoomcar.htm",
+    "date": "2026-04-15",
+    "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-26-044116%22&dateRange=custom&forms=8-K",
+    "form": "8-K",
+    "accessionNumber": "0001213900-26-044116",
+    "_source": "sec_filings_raw",
+    "_matchedKeyword": "8-K (exec-move candidate)",
+    "lastUpdated": "2026-04-16"
+  },
+  {
     "company": "Rocket Lab",
     "ticker": "RKLB",
     "type": "Potential Officer/Director Change",
@@ -1638,19 +1651,6 @@
     "lastUpdated": "2026-04-16"
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "type": "Potential Officer/Director Change",
-    "description": "8-K filing (8-K (exec-move candidate)) \u2014 qbts-20251202.htm",
-    "date": "2025-12-02",
-    "url": "https://efts.sec.gov/LATEST/search-index?q=%220001907982-25-000261%22&dateRange=custom&forms=8-K",
-    "form": "8-K",
-    "accessionNumber": "0001907982-25-000261",
-    "_source": "sec_filings_raw",
-    "_matchedKeyword": "8-K (exec-move candidate)",
-    "lastUpdated": "2026-04-16"
-  },
-  {
     "company": "Centrus Energy",
     "ticker": "LEU",
     "type": "Potential Officer/Director Change",
@@ -2946,32 +2946,6 @@
     "url": "https://efts.sec.gov/LATEST/search-index?q=%220001013762-25-001197%22&dateRange=custom&forms=8-K",
     "form": "8-K",
     "accessionNumber": "0001013762-25-001197",
-    "_source": "sec_filings_raw",
-    "_matchedKeyword": "8-K (exec-move candidate)",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "type": "Potential Officer/Director Change",
-    "description": "8-K filing (8-K (exec-move candidate)) \u2014 ea0235185-8k_zoomcar.htm",
-    "date": "2025-03-21",
-    "url": "https://efts.sec.gov/LATEST/search-index?q=%220001013762-25-000768%22&dateRange=custom&forms=8-K",
-    "form": "8-K",
-    "accessionNumber": "0001013762-25-000768",
-    "_source": "sec_filings_raw",
-    "_matchedKeyword": "8-K (exec-move candidate)",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "type": "Potential Officer/Director Change",
-    "description": "8-K filing (8-K (exec-move candidate)) \u2014 ea0234963-8k_zoomcar.htm",
-    "date": "2025-03-19",
-    "url": "https://efts.sec.gov/LATEST/search-index?q=%220001213900-25-025152%22&dateRange=custom&forms=8-K",
-    "form": "8-K",
-    "accessionNumber": "0001213900-25-025152",
     "_source": "sec_filings_raw",
     "_matchedKeyword": "8-K (exec-move candidate)",
     "lastUpdated": "2026-04-16"

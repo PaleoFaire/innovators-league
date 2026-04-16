@@ -1,5 +1,5 @@
 // Auto-generated Census Bureau trade data
-// Last updated: 2026-04-15 08:20:22 UTC
+// Last updated: 2026-04-16 08:23:23 UTC
 // Tracking 10 HS codes across manufacturing sectors
 const TRADE_DATA_AUTO = [
   {
@@ -14,7 +14,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Cerebras", "Etched", "Lightmatter", "Astera Labs", "Tenstorrent", "Groq"],
     relevantSector: "chips",
     period: "2026-01",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "8542",
@@ -28,35 +28,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Cerebras", "Etched", "Lightmatter", "Astera Labs", "Tenstorrent", "Groq"],
     relevantSector: "chips",
     period: "2025-12",
-    lastUpdated: "2026-04-15",
-  },
-  {
-    hsCode: "8541",
-    category: "Diodes, transistors, semiconductor devices",
-    tradeType: "imports",
-    latestMonthValue: 930937044,
-    latestMonthFormatted: "$931M",
-    yoyChange: "-7.5%",
-    momChange: "-22.5%",
-    trend: "contracting",
-    relevantCompanies: ["Finwave Semiconductor", "Gallox Semiconductors", "Vertical Semiconductor"],
-    relevantSector: "chips",
-    period: "2026-01",
-    lastUpdated: "2026-04-15",
-  },
-  {
-    hsCode: "8541",
-    category: "Diodes, transistors, semiconductor devices",
-    tradeType: "exports",
-    latestMonthValue: 849466986,
-    latestMonthFormatted: "$849M",
-    yoyChange: "+63.1%",
-    momChange: "+5.0%",
-    trend: "surging",
-    relevantCompanies: ["Finwave Semiconductor", "Gallox Semiconductors", "Vertical Semiconductor"],
-    relevantSector: "chips",
-    period: "2025-12",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "8802",
@@ -70,21 +42,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["SpaceX", "Rocket Lab", "Relativity Space", "Boom Supersonic"],
     relevantSector: "space",
     period: "2026-01",
-    lastUpdated: "2026-04-15",
-  },
-  {
-    hsCode: "8802",
-    category: "Aircraft and spacecraft parts",
-    tradeType: "exports",
-    latestMonthValue: 531908131,
-    latestMonthFormatted: "$532M",
-    yoyChange: "+94.4%",
-    momChange: "+194.2%",
-    trend: "surging",
-    relevantCompanies: ["SpaceX", "Rocket Lab", "Relativity Space", "Boom Supersonic"],
-    relevantSector: "space",
-    period: "2025-12",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "2844",
@@ -98,21 +56,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Oklo", "Kairos Power", "TerraPower", "X-Energy", "NuScale"],
     relevantSector: "nuclear",
     period: "2026-01",
-    lastUpdated: "2026-04-15",
-  },
-  {
-    hsCode: "2844",
-    category: "Radioactive elements (nuclear fuel)",
-    tradeType: "exports",
-    latestMonthValue: 50025881,
-    latestMonthFormatted: "$50M",
-    yoyChange: "-65.5%",
-    momChange: "-72.0%",
-    trend: "declining",
-    relevantCompanies: ["Oklo", "Kairos Power", "TerraPower", "X-Energy", "NuScale"],
-    relevantSector: "nuclear",
-    period: "2025-12",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "8501",
@@ -126,7 +70,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Figure AI", "Agility Robotics", "RISE Robotics", "Standard Bots"],
     relevantSector: "robotics",
     period: "2026-01",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "8501",
@@ -140,7 +84,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Figure AI", "Agility Robotics", "RISE Robotics", "Standard Bots"],
     relevantSector: "robotics",
     period: "2025-12",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "8507",
@@ -154,7 +98,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Form Energy", "Natron Energy", "EnerVenue", "Solid Power", "Advano"],
     relevantSector: "energy",
     period: "2026-01",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "8507",
@@ -168,21 +112,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Form Energy", "Natron Energy", "EnerVenue", "Solid Power", "Advano"],
     relevantSector: "energy",
     period: "2025-12",
-    lastUpdated: "2026-04-15",
-  },
-  {
-    hsCode: "7601",
-    category: "Unwrought aluminum",
-    tradeType: "imports",
-    latestMonthValue: 934459846,
-    latestMonthFormatted: "$934M",
-    yoyChange: "-5.3%",
-    momChange: "+9.2%",
-    trend: "contracting",
-    relevantCompanies: ["Hadrian", "Machina Labs", "Divergent"],
-    relevantSector: "manufacturing",
-    period: "2026-01",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "7601",
@@ -196,7 +126,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Hadrian", "Machina Labs", "Divergent"],
     relevantSector: "manufacturing",
     period: "2025-12",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "3926",
@@ -210,7 +140,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Axial Composites", "Layup Parts", "Fiber Dynamics"],
     relevantSector: "manufacturing",
     period: "2026-01",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "3926",
@@ -224,7 +154,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Axial Composites", "Layup Parts", "Fiber Dynamics"],
     relevantSector: "manufacturing",
     period: "2025-12",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "9013",
@@ -238,7 +168,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Lumotive", "Ouster", "Aeva Technologies", "Voyant Photonics"],
     relevantSector: "sensors",
     period: "2026-01",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "9013",
@@ -252,7 +182,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Lumotive", "Ouster", "Aeva Technologies", "Voyant Photonics"],
     relevantSector: "sensors",
     period: "2025-12",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "8471",
@@ -266,7 +196,7 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["NVIDIA", "Cerebras", "Groq"],
     relevantSector: "ai",
     period: "2026-01",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
   {
     hsCode: "8471",
@@ -280,6 +210,6 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["NVIDIA", "Cerebras", "Groq"],
     relevantSector: "ai",
     period: "2025-12",
-    lastUpdated: "2026-04-15",
+    lastUpdated: "2026-04-16",
   },
 ];
