@@ -683,7 +683,50 @@ function initNRCLicenseTracker() {
   var grid = document.getElementById('nrc-grid');
   if (!grid) return;
 
-  var data = getNRCLicenseData();
+  // Try the new auto-generated file first (from fetch_nrc_licensing.py)
+  fetch('data/nrc_licensing_auto.json', { cache: 'no-cache' })
+    .then(function(r) { return r.ok ? r.json() : null; })
+    .then(function(autoData) {
+      if (Array.isArray(autoData) && autoData.length > 0) {
+        renderNRCAuto(grid, autoData);
+        return;
+      }
+      renderNRCLegacy(grid);
+    })
+    .catch(function() { renderNRCLegacy(grid); });
+}
+
+function renderNRCAuto(grid, data) {
+  var esc = (typeof escapeHtml === 'function') ? escapeHtml : function(s) { return String(s || ''); };
+  // Order by stage advancement (most advanced first)
+  var stagePriority = {
+    'Approved': 6, 'Operating License': 5, 'Construction Permit': 4,
+    'Combined License Application': 3, 'Design Certification Application': 2,
+    'Pre-application': 1
+  };
+  data.sort(function(a, b) { return (stagePriority[b.stage] || 0) - (stagePriority[a.stage] || 0); });
+
+  grid.innerHTML = '<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:16px;">' +
+    data.map(function(entry) {
+      var color = (stagePriority[entry.stage] || 0) >= 4 ? '#22c55e' :
+                  (stagePriority[entry.stage] || 0) >= 2 ? '#60a5fa' : 'rgba(255,255,255,0.55)';
+      return '<div style="padding:18px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">' +
+        '<div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:6px;">' +
+          '<h3 style="color:#fff; font-size:16px; font-weight:700; margin:0;">' + esc(entry.company) + '</h3>' +
+          (entry.docketId ? '<span style="color:rgba(255,255,255,0.35); font-size:11px; font-family:Space Grotesk, monospace;">' + esc(entry.docketId) + '</span>' : '') +
+        '</div>' +
+        '<div style="color:rgba(255,255,255,0.6); font-size:12px; margin-bottom:8px;">' + esc(entry.design || '—') + '</div>' +
+        '<div style="padding:6px 10px; border-radius:8px; background:' + color + '22; color:' + color + '; font-size:11px; font-weight:600; display:inline-block; margin-bottom:10px;">' + esc(entry.stage || 'Pre-application') + '</div>' +
+        '<div style="font-size:12px; color:rgba(255,255,255,0.7); margin-bottom:6px;"><strong>Status:</strong> ' + esc(entry.status || '—') + '</div>' +
+        (entry.nextMilestone ? '<div style="font-size:12px; color:rgba(255,255,255,0.55);"><strong>Next:</strong> ' + esc(entry.nextMilestone) + '</div>' : '') +
+        (entry.url ? '<a href="' + esc(entry.url) + '" target="_blank" rel="noopener" style="display:inline-block; margin-top:10px; color:var(--accent); font-size:11px; text-decoration:none;">NRC docket →</a>' : '') +
+      '</div>';
+    }).join('') +
+  '</div>';
+}
+
+function renderNRCLegacy(grid) {
+  var data = (typeof getNRCLicenseData === 'function') ? getNRCLicenseData() : [];
   if (data.length === 0) {
     grid.innerHTML = '<div class="reg-empty-state">No NRC licensing data available.</div>';
     return;

@@ -219,6 +219,30 @@
             </div>
         </section>
 
+        <!-- University Spinout Radar — from top TTO programs -->
+        <section class="section" id="university-spinouts">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow">SPINOUT RADAR · UNIVERSITY TTOs</p>
+                    <h2>University Spinouts</h2>
+                    <p>New frontier tech companies spun out of elite research labs — Stanford, MIT, Caltech, UW, CMU, Duke, Berkeley. The deal flow before it reaches seed investors.</p>
+                </div>
+                <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px;">
+                    <input type="text" id="spinouts-search" placeholder="Search by company, university, or technology..." style="flex:1; min-width:260px; padding:10px 14px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:8px; color:#fff;">
+                    <select id="spinouts-university" style="padding:10px 14px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:8px; color:#fff;">
+                        <option value="all">All Universities</option>
+                    </select>
+                </div>
+                <div class="leaderboard-table-wrap">
+                    <table class="leaderboard-table" id="spinouts-table">
+                        <thead><tr><th>Company</th><th>University</th><th>Lab</th><th>Founded</th><th>Technology</th><th>Sector</th><th>Seed</th></tr></thead>
+                        <tbody id="spinouts-body"></tbody>
+                    </table>
+                </div>
+                <div id="spinouts-count" style="margin-top:12px; color:rgba(255,255,255,0.5); font-size:12px;"></div>
+            </div>
+        </section>
+
         <!-- Talent Flow Diagram -->
         <section class="section talent-flow-section" id="talent-flow">
             <div class="container">

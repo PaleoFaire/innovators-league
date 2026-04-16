@@ -580,6 +580,27 @@ jobs:
         run: python scripts/clean_stale_data.py
         continue-on-error: true
 
+      # ─── Derived + authoritative-only enrichment (Round 6b) ───
+      - name: Defense Prime Supply Chain
+        run: python scripts/calc_prime_supply_chain.py
+        continue-on-error: true
+
+      - name: Space Launch Manifest
+        run: python scripts/fetch_launches.py
+        continue-on-error: true
+
+      - name: Federal Grant Flow (NSF+NIH+ARPA-E merge)
+        run: python scripts/fetch_federal_grants.py
+        continue-on-error: true
+
+      - name: University Spinouts
+        run: python scripts/fetch_spinouts.py
+        continue-on-error: true
+
+      - name: Executive Hiring Tracker
+        run: python scripts/fetch_exec_moves.py
+        continue-on-error: true
+
       - name: Merge comprehensive data into data.js
         run: python scripts/merge_data.py
 

@@ -1,0 +1,3472 @@
+[
+  {
+    "company": "Alice & Bob USA, Inc.",
+    "agency": "DOE",
+    "program": "QC3",
+    "amount": "$3.9M",
+    "title": "Quantum-Accelerated Discovery of Rare-Earth-Free permanent magnets",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ames National Laboratory",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$2.5M",
+    "title": "Autonomous High Throughput Experimentation to Accelerate Chemical Manufacturing (A-TEAM)",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Argonne National Laboratory",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$2.8M",
+    "title": "Accelerated Catalyst Design Foundry",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "California Institute of Technology (Caltech)",
+    "agency": "DOE",
+    "program": "QC3",
+    "amount": "$3.8M",
+    "title": "Quantum Algorithms for Accelerated Discovery of Bioelectrocatalytic Materials for Nitrogen Fixation",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "ChemFinity Technologies",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$3.0M",
+    "title": "Low-Cost, Selective Iridium and Platinum Recovery from Mining and Produced Wastewaters via Porous Polymer Sorbent Processes",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Idaho National Laboratory (INL)",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$3.0M",
+    "title": "KINETIC: Knowledge Integration and Next-Generation Experiments to Transform Industrial Catalysis",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Infleqtion",
+    "agency": "DOE",
+    "program": "QC3",
+    "amount": "$3.9M",
+    "title": "Quantum-Classical Ab Initio Co-Simulation of\u202fUnconventional Superconductors (QASUS)",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Lawrence Berkeley National Laboratory (LBNL)",
+    "agency": "DOE",
+    "program": "QC3",
+    "amount": "$4.4M",
+    "title": "SuperKIQ: Superconductor Search through Krylov-Inspired Quantum Algorithms",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Lawrence Berkeley National Laboratory (LBNL)",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$2.8M",
+    "title": "PANDORA: Platform Acceleration for Novel-catalyst Discovery and Optimization with Reactor-arrays and AI/ML",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Lawrence Livermore National Laboratory (LLNL)",
+    "agency": "DOE",
+    "program": "QC3",
+    "amount": "$4.1M",
+    "title": "Machine learning Assisted Generation of Next-generation Electronic and Thermodynamic Innovations through Quantum Computing (MAGNETIQC)",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "National Laboratory of the Rockies (NLR)",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$2.8M",
+    "title": "SYNTH-ON: An Autonomous Synthetic Framework to Power the Refinery of Tomorrow",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "North Carolina   State University (NC State)",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$3.0M",
+    "title": "Human-AI-Robot Teaming to Accelerate Heterogeneous Redox Catalyst Discovery with a Self-Driving Lab",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Oxylus Energy",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$3.0M",
+    "title": "Project SPRINT-EC: Syngas Production via Rapid Inverse-design Network for Tailored Electrochemical  Catalysts",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "P2 Science, Inc.",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$2.8M",
+    "title": "HEAT FACTORY: Highly Energetic Advanced Turpentine Fuels Accessed with Catalytic Transformations",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Pacific Northwest National Laboratory (PNNL)",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$2.7M",
+    "title": "Trinity AI Platform Integrating Digital, High Throughput, and Scale-Up for Inverse Catalyst Development",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Phasecraft, Inc.",
+    "agency": "DOE",
+    "program": "QC3",
+    "amount": "$4.5M",
+    "title": "Quantum Computing for Hydrogen Fuel Production",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Princeton Critical Minerals",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$3.1M",
+    "title": "Integrated Lithium and Magnesium Recovery from Oil and Gas Produced Water",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "PsiQuantum",
+    "agency": "DOE",
+    "program": "QC3",
+    "amount": "$3.6M",
+    "title": "Quantum-Enabled Direct Methane-to-Methanol (DMTM)",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Quantinuum",
+    "agency": "DOE",
+    "program": "QC3",
+    "amount": "$4.1M",
+    "title": "Quantum Computing for Modeling Nuclear Quantum Effects in PEM Fuel Cells and Electrolyzers",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Roca Water, Inc.",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$3.7M",
+    "title": "Battery-Inspired, Electrified System for Precision Resource Recovery from Wastewater",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "The Boeing Company",
+    "agency": "DOE",
+    "program": "QC3",
+    "amount": "$2.5M",
+    "title": "QUantum Innovation for Corrosion Kinetics (QUICK)",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Connecticut",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$2.9M",
+    "title": "REACT: Revolutionary Enhancements in AI-Guided Catalyst Transformations",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Illinois, Urbana-Champaign (UIUC)",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$2.6M",
+    "title": "Robust and Regenerable Biosorbent for Selective Recovery of Rare Earth Elements from Aqueous Waste Streams",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Rochester",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$3.0M",
+    "title": "Catalyst Acceleration and Testing via AI and Language to Yield Scalable Transformations (CATALYST)",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Wisconsin-Madison",
+    "agency": "DOE",
+    "program": "CATALCHEM-E",
+    "amount": "$2.8M",
+    "title": "AI-Driven Design of Industrial Fixed Bed Reactor Catalysts for Production of Renewable Fuels and Chemicals  from Oxygenated Feedstocks (AI-FIXCAT)",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Xanadu Quantum Technologies, Inc.",
+    "agency": "DOE",
+    "program": "QC3",
+    "amount": "$0",
+    "title": "Quantum Computing Platform for Next-Generation Batteries",
+    "year": 2026,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Carrollo Engineers, Inc.",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$2.4M",
+    "title": "Selective Recovery of Critical Metals from Produced Water Using Engineered Ferritin Protein Nanocages",
+    "year": 2025,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Columbia University",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$1.7M",
+    "title": "PURE HARVES2T: Produced water Utilization for Recovery of Energy materials\u2014High-value Advanced Resource Valorization using Emerging Switchable Solvent Technologies",
+    "year": 2025,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Johns Hopkins University",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$2.4M",
+    "title": "Bioacid-Mediated Electrowinning for Cobalt and Nickel Recovery from Wastewater",
+    "year": 2025,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Northwestern University",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$2.7M",
+    "title": "Nitrogen and Phosphorus Recovery via Intensified Microbial Extraction (N-PRIME): A Biotechnological Approach for Valorization of Municipal Wastewater",
+    "year": 2025,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Phoenix Tailings",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$1.6M",
+    "title": "SELECT: Selective Extraction via Ligand-Enhanced Complexation and Thermal separation",
+    "year": 2025,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Stanford University",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$3.0M",
+    "title": "Electrochemically Driven Wastewater Refining for Ammonia, Phosphate, and Magnesium Recovery from Anaerobic Digestate",
+    "year": 2025,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Davis (UC Davis)",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$3.0M",
+    "title": "Innovative Biocatalysts through Protein Engineering and Synthetic Biology for Efficient, Highly Selective, and Scalable Recovery of Rare Earth Elements",
+    "year": 2025,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Connecticut",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$3.0M",
+    "title": "Ammonia and Phosphorus Fractionation from Anaerobic Digesters with Ceramic Membrane Distillation",
+    "year": 2025,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Missouri",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$2.8M",
+    "title": "Development and Demonstration of a Highly Selective Rare Earth Elements Recovery System Using Novel Ion Imprinted Media",
+    "year": 2025,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Texas at Austin (UT Austin)",
+    "agency": "DOE",
+    "program": "RECOVER",
+    "amount": "$2.0M",
+    "title": "Biomimetic Membranes for Electrochemical Nutrient and Mineral Recovery from Wastewaters",
+    "year": 2025,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ames National Laboratory",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$3.0M",
+    "title": "Refractory Alloys with Ductility and Strength (RADS)",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Argonne National Laboratory",
+    "agency": "DOE",
+    "program": "NEWTON",
+    "amount": "$7.0M",
+    "title": "Liquid Lead Suspended Fuel Subcritical Fission Blanket for Nuclear Waste Transmutation",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Argonne National Laboratory",
+    "agency": "DOE",
+    "program": "NEWTON",
+    "amount": "$3.0M",
+    "title": "Nb3Sn Proton Driver Linac for Accelerator Driven Systems",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Colorado State University",
+    "agency": "DOE",
+    "program": "TEOSYNTE",
+    "amount": "$5.4M",
+    "title": "Breeding and Mechanisms to Maximize Yield at 45% Current Nitrogen Level",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Commonwealth Fusion Systems",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$0",
+    "title": "Co-Optimization of an Integral, Layered Materials Solution for Compact Tokamak Vessels",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Donald Danforth Plant Science Center",
+    "agency": "DOE",
+    "program": "TEOSYNTE",
+    "amount": "$0",
+    "title": "N-SYNC: Engineering Synchronized Nitrogen Efficiency Traits in Corn Agriculture",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "ExoFusion",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$500K",
+    "title": "Novel Liquid Metal Plasma Facing Component Alloys",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "HighT-Tech",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$1.4M",
+    "title": "Rapid Surface Graphitization of Carbon Anode for In Situ Regeneration of Batteries",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Iontra",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$0",
+    "title": "Sensing Platform for Fast Cell-Agnostic Battery State Diagnostics",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Jefferson Science Associates, LLC",
+    "agency": "DOE",
+    "program": "NEWTON",
+    "amount": "$2.2M",
+    "title": "Superconducting Nb3Sn Cavities for Efficient and Reliable 10 MW Proton Linacs",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Jefferson Science Associates, LLC",
+    "agency": "DOE",
+    "program": "NEWTON",
+    "amount": "$0",
+    "title": "High-Efficiency Continuous-Wave RF Sources for High-Power Particle Accelerators",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Johns Hopkins University",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$3.1M",
+    "title": "Complexion Engineered Nanocrystalline Tungsten Alloy Plasma Facing Materials for Long-Pulse Tokamak Operation",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Lawrence Berkeley National Laboratory",
+    "agency": "DOE",
+    "program": "TEOSYNTE",
+    "amount": "$0",
+    "title": "Developing Biological Nitrification Inhibitors to Reduce N2O Emissions in Sorghum",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Lawrence Livermore National Laboratory (LLNL)",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$1.6M",
+    "title": "Design of Complex High-Performance Armor Materials",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Nano Nuclear Energy",
+    "agency": "DOE",
+    "program": "GAIN Nuclear Energy Voucher",
+    "amount": "$3M",
+    "title": "ZEUS microreactor modeling at INL",
+    "year": 2024,
+    "url": "https://gain.inl.gov/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "New York University",
+    "agency": "DOE",
+    "program": "TEOSYNTE",
+    "amount": "$5.6M",
+    "title": "Reducing N2O Emissions by Increasing NUE in Bioenergy Crops",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Omega-P R&D, Inc.",
+    "agency": "DOE",
+    "program": "NEWTON",
+    "amount": "$769K",
+    "title": "Compact Deuteron Accelerator to Produce Neutrons for Transmutation of Used Nuclear Fuel",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "OnTo Technology",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$0",
+    "title": "Rejuvenation to Increase Life of Advanced Batteries",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Pacific Northwest National Laboratory (PNNL)",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$3.0M",
+    "title": "Ferritic and Vanadium Alloys with Nanoparticle Strengthening for Fusion (FAVA-NSF)",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Purdue University",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$2.4M",
+    "title": "Integrated Technoeconomic, Lifecycle, and Circularity Analyses Tool for EV Batteries",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "SHINE Technologies, LLC",
+    "agency": "DOE",
+    "program": "NEWTON",
+    "amount": "$4.0M",
+    "title": "REDUCE: Recover Elements - Destroy Undesirables - Create Energy",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "SUNY University at Stony Brook",
+    "agency": "DOE",
+    "program": "NEWTON",
+    "amount": "$2.3M",
+    "title": "Technical Approach to Achieving Attractive Ads Economics Based on Near-Term High Current Cyclotrons",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Saint-Gobain Ceramics & Plastics",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$0",
+    "title": "EV battERy lifetiMe extensiOn with mateRial intelligencE (EVERMORE)",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Savannah River National Laboratory",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$1.5M",
+    "title": "Machine Learning for Alloy Discovery Coupled with Geometric Optimization for Functionally Graded Liquid Metal First Wall",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "SeaLion Energy",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$1.6M",
+    "title": "TARDIS-J: Tunable Activation & Regeneration in Devices using In-Situ Jamming",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Sonocharge Energy",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$0",
+    "title": "Acoustic-Driven Rejuvenation of Rechargeable Batteries",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Stony Brook University",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$2.5M",
+    "title": "Design and Development of Composited Low-Activation UHTC Materials for Very High Temperature First Wall Application",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Stratolaunch",
+    "agency": "MDA",
+    "program": "Missile Defense Agency hypersonic testbed",
+    "amount": "$12M",
+    "title": "Talon-A hypersonic flight test services",
+    "year": 2024,
+    "url": "https://www.mda.mil/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Switch Bioworks",
+    "agency": "DOE",
+    "program": "TEOSYNTE",
+    "amount": "$0",
+    "title": "Engineering Tunable Ammonia Release In Biofertilizers",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "TAE Technologies",
+    "agency": "DOE",
+    "program": "INFUSE",
+    "amount": "$3.8M",
+    "title": "FRC plasma stability modeling",
+    "year": 2024,
+    "url": "https://www.energy.gov/science/fes/infuse",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Texas A&M Engineering Experiment Station",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$2.4M",
+    "title": "Batch-wise Improvement in Reduced Design Space using a Holistic Optimization Technique for FUSion Environments (BIRDSHOT-FUSE)",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Toyota Motor Engineering & Manufacturing North America, Inc. (TEMA)",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$0",
+    "title": "Development of an Autonomous Robotic Disassembly Process for Applications in Battery Pack Circularity",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Transmutex U.S.A., Inc.",
+    "agency": "DOE",
+    "program": "NEWTON",
+    "amount": "$0",
+    "title": "Highly Reliable Ion Source and Injection Beamline to Maximize Proton Beam Availability",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "UT-Batelle LLC",
+    "agency": "DOE",
+    "program": "NEWTON",
+    "amount": "$2.6M",
+    "title": "SMART-OPS: Self-learning Machine intelligence for Accelerator Reliability, Trip Optimization, and Performance Stabilization",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California San Diego",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$1.5M",
+    "title": "Regenerable Lithium-Ion Batteries with High Energy and Long Life",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, San Diego (UC San Diego)",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$1.3M",
+    "title": "High Flux Plasma-Materials Interaction Testing for Rapid Fusion Materials Development",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Colorado, Boulder (CU-Boulder)",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$1.8M",
+    "title": "Robust Robotic Disassembly of EV Battery Packs using Open-World Vision Language Models and Symbolic Replanning",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Illinois, Urbana-Champaign",
+    "agency": "DOE",
+    "program": "NEWTON",
+    "amount": "$1.0M",
+    "title": "EINSTEIN: Enhanced Integrated Nuclear Systems for Transmutation and Efficient Isolation of Nuclides",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Illinois, Urbana-Champaign (UIUC)",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$2.5M",
+    "title": "GRADED: Gradient composites with Radiation Amorphization-enabled Dimensional stability and Energy Dissipation",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Illinois, Urbana-Champaign (UIUC)",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$1.9M",
+    "title": "Centralized and On-Demand Radiation Transport and Techno-Economics (CORTEX) for Fusion Material Engineering",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Kentucky",
+    "agency": "DOE",
+    "program": "CHADWICK",
+    "amount": "$2.3M",
+    "title": "Combinatorial Modeling, Screening, and Development of Tungsten-Ceramic Composites with Gradient Microstructure for Improved Radiation-Tolerant Plasma Facing Materials",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Michigan",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$2.7M",
+    "title": "Rapid State of Health Diagnosis by Model-Enabled Pulse Form Sequence",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Michigan",
+    "agency": "DOE",
+    "program": "CIRCULAR",
+    "amount": "$0",
+    "title": "Multi-Material Direct Joining and Un-Joining for Easy EV Battery Pack Assembly and Disassembly for Maximal Circularity",
+    "year": 2024,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "AeroShield Materials, Inc.",
+    "agency": "DOE",
+    "program": "SCALEUP 2023",
+    "amount": "$14.3M",
+    "title": "High-Clarity Monolithic Silica Aerogel Sheets for Energy-Efficient Insulated Glass Units and Glazings",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Antora Energy",
+    "agency": "DOE",
+    "program": "SCALEUP 2023",
+    "amount": "$15.2M",
+    "title": "Powering American Industry with Ultra-Low-Cost Thermal Energy Storage",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Argonne National Laboratory (ANL)",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$3.1M",
+    "title": "High Efficiency, Solid State Microwave-Powered Hydrogen Plasmas for Use in Direct Reduction of Taconite Ore and Ore Concentrates in a Rotary Kiln Furnace",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Arizona State University (ASU)",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$4.3M",
+    "title": "High Speed Installation of Buried Medium Voltage Electrical Distribution Lines Using a Single Pass System",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Astranis",
+    "agency": "USAF",
+    "program": "AFRL Defense Innovation Unit",
+    "amount": "$10M",
+    "title": "GEO communications satellite resilient networking",
+    "year": 2023,
+    "url": "https://www.afrl.af.mil/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Atom Computing",
+    "agency": "NSF",
+    "program": "Q-NEXT",
+    "amount": "$5M",
+    "title": "Neutral-atom quantum computer scalability",
+    "year": 2023,
+    "url": "https://www.nsf.gov/awardsearch/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Battelle Energy Alliance (Idaho National Laboratory)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Performance of Brazed Materials for Molten Salt Energy Technologies",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Blue Origin",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$0",
+    "title": "Ouroboros: A Novel Reactor for Zero Emission Electrolytic Reduction of Iron",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Case Western Reserve University",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$2.1M",
+    "title": "Peristaltic Conduit with Stiff Structure and Compliant Skin",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "ChemFinity Technologies",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Tunable Porous Polymer Networks with Unprecedented Efficiency in Recovering Critical Metals",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Colossal Biosciences",
+    "agency": "NSF",
+    "program": "DBI",
+    "amount": "$1.8M",
+    "title": "Mammoth genome reconstruction pipeline",
+    "year": 2023,
+    "url": "https://www.nsf.gov/awardsearch/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Cornell University",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$752K",
+    "title": "Mini-Mole: Combustion Powered Tip Fracturing and Undulatory Locomotion Robot",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Duke University",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Upgrading Plastic Waste into Low-Cost Porous Adsorbents for Direct Air Capture",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Electra",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$2.9M",
+    "title": "Low-Temperature Green Ironmaking from Unconventional Feedstocks",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Form Energy",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$1000K",
+    "title": "Alkaline Electrochemical Ironmaking at Cost Parity with Pig Iron",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Fuceltech Inc",
+    "agency": "DOE",
+    "program": "SPARKS",
+    "amount": "$500K",
+    "title": "Development of the Next Generation of Diode Laser Pumps for Inertial Confinement Fusion (ICF)",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "GE Vernova Advanced Research",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$3.7M",
+    "title": "SPEEDWORM: Swift, Portable, and Efficient Electrical undergrounDing using a Waterfree, cOmpact, and Reliable Machine",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "GaNify",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$3.1M",
+    "title": "Medium-Voltage Optoelectronic Power IC Building Block",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Georgia Institute of Technology (Georgia Tech)",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$2.8M",
+    "title": "Direct Hydrogen Reduction of Iron Ore Concentrate and Net-Shaped Fabrication of Linear Cellular Alloy Steels",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Georgia Institute of Technology (Georgia Tech)",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$2.7M",
+    "title": "Scalable Wide-Bandgap III-Nitride Switch (SWiNS)",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Great Lakes Crystal Technologies",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$2.3M",
+    "title": "High Power Diamond Transistors with Electrical and Optical Gate Control",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Hermeus",
+    "agency": "USAF",
+    "program": "AFWERX Quarterhorse",
+    "amount": "$60M",
+    "title": "Quarterhorse Mach-5 unmanned testbed",
+    "year": 2023,
+    "url": "https://afwerx.com/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ion Storage Systems, Inc.",
+    "agency": "DOE",
+    "program": "SCALEUP 2023",
+    "amount": "$20.0M",
+    "title": "SAFERBAT: Solid-state Approach for Future Energy-dense Rechargeable Batteries and Advanced-manufacturing Technologies",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "IonQ",
+    "agency": "DOE",
+    "program": "DOE Quantum Testbed",
+    "amount": "$5M",
+    "title": "Trapped-ion quantum networking research",
+    "year": 2023,
+    "url": "https://science.osti.gov/ascr",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Lawrence Berkeley National Laboratory (LBNL)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "C1 Bioconversion Platform: Integrating Acetogenic Consortia for Circular Economy Solutions in Fuel Production and Industrial Efficiency",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Lawrence Berkeley National Laboratory (LBNL)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$497K",
+    "title": "Ambient Production of Fertilizer Precursor",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Lawrence Livermore National Laboratory (LLNL)",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$3.0M",
+    "title": "Diamond Optically Gated Junction Field Effect Transistor",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Limelight Steel",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$2.9M",
+    "title": "Laser Furnace for Reduction of Iron Ore to Iron Metal",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Lithios",
+    "agency": "DOE",
+    "program": "SPARKS",
+    "amount": "$499K",
+    "title": "Advanced Lithium Extraction for Domestic Supply Chains and Battery Circularity",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Mana Battery",
+    "agency": "DOE",
+    "program": "SPARKS",
+    "amount": "$500K",
+    "title": "Low-Cost Cradle-to-Grave: Anode-Free Sodium Batteries via Fluorine-Free Electrolytes",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Melni Technologies",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$2.0M",
+    "title": "Enhancing Reliability and Resilience of Underground Distribution Systems Using Innovative Splicing",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Michigan State University",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Optically Powered Ultra-high-Speed (OPUS) Wound-Field Synchronous Generators",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Michigan State University",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Robotic 3D Printing of Building Structures Using Lightweight Concrete",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "National Renewable Energy Laboratory (NREL)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Mixed Polyester Deconstruction & Monomer Recovery to Enable a Circular Bioeconomy",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "National Renewable Energy Laboratory (NREL)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "BUILD'EM: Chemistry, Performance, and Path to Market of a Lignin-based Construction Material",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "National Renewable Energy Laboratory (NREL)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Electrochemically Looping Adsorptive Heat Pumps to Reduce Building Energy Consumption",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Oak Ridge National Laboratory (ORNL)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Supercritical Carbon Dioxide-Leveraged Redox Flow Batteries (SUPERCOOL-RFB)",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Oak Ridge National Laboratory (ORNL)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Ductile Bulk Ionic Glasses for Electric Vehicle Batteries (BIGBATT)",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Oceanit",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$3.3M",
+    "title": "Artificial Intelligence and Unmanned Aerial Vehicle Real-Time Advanced Look-Ahead Subsurface Sensor (AURALSS)",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Opcondys",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$3.2M",
+    "title": "Ultrafast, Autonomous Grid Protection Using Linear Photonic Switching",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Pacific Northwest National Laboratory (PNNL)",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$3.7M",
+    "title": "Subsurface Intelligence for Undergrounding Operations: Rapid AI-Based Geophysical Imaging and Advanced Visualization",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Pennsylvania State University (Penn State)",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$760K",
+    "title": "Multi-Cation Electrolytes for Electrolytic Reduction of Complex Iron Oxides at Low Temperatures",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Peregrine Hydrogen",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Advanced electrolysis architectures for low-cost hydrogen",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Phoenix Boring, Inc.",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$1.7M",
+    "title": "Integrated Thermal Spallation Drill for Heterogeneous Ground",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Phoenix Tailings",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$1.0M",
+    "title": "Novel Electrolytic Direct Reduced Iron Production",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Prysmian Cables & Systems USA",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$4.4M",
+    "title": "Error-Free Splicing Machine for Underground Power Cables",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Queens Carbon",
+    "agency": "DOE",
+    "program": "SCALEUP 2023",
+    "amount": "$14.5M",
+    "title": "Revolutionizing Cement via Engineered SCM Production",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "RTX Technology Research Center",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$3.5M",
+    "title": "UNderground Imaging with QUantum sEnsors (UnIQue)",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "RTX Technology Research Center",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$2.5M",
+    "title": "TRIGER: Timed RF Integrated Gating for Energy Regulation",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Rensselaer Polytechnic Institute",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Critical Metal-Free, Conversion-Type Solid-State Batteries for Advanced Air Mobility",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Rigetti Computing",
+    "agency": "DARPA",
+    "program": "Quantum Benchmarking",
+    "amount": "$1M",
+    "title": "Superconducting quantum benchmarking Phase II",
+    "year": 2023,
+    "url": "https://www.darpa.mil/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Sandia National Laboratories",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$2.6M",
+    "title": "E1-Arrester for Improved EMP Protection",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Sandia National Laboratories",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$550K",
+    "title": "Advancing Horizontal Directional Drilling for Rapid Undergrounding of Electrical Utilities",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Stoke Space",
+    "agency": "SpaceWERX",
+    "program": "TACFI",
+    "amount": "$9.4M",
+    "title": "Fully reusable upper stage demo",
+    "year": 2023,
+    "url": "https://www.spacewerx.us/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Syracuse University",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Ultra-High Power Photoneutralization Cavity for Neutral Beam Injection in Fusion Reactors",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Texas A&M University",
+    "agency": "DOE",
+    "program": "SPARKS",
+    "amount": "$0",
+    "title": "Direct CO2 Electroreduction to a Single C2+ Product",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Texas Tech University",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$3.1M",
+    "title": "Ultrawide-Bandgap Semiconductors for Extrinsic Photoconductive Switching Devices",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Tufts University",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$2.9M",
+    "title": "Solving Ore Concentrate Reduction with New Chemistry",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "USNC",
+    "agency": "DOD",
+    "program": "DIU Mobile Nuclear Power",
+    "amount": "$3M",
+    "title": "MMR pre-prototype for defense applications",
+    "year": 2023,
+    "url": "https://www.diu.mil/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Alabama",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Tailoring Bipolar Membrane Interfaces to Boost Direct Borohydride Fuel Cell Performance for Marine Transportation Applications",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Arkansas",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$2.9M",
+    "title": "Heterogeneously Integrated Power Modules",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Buffalo",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$2.8M",
+    "title": "Optically Cascoded Ultrahigh Voltage Gallium Oxide Devices for Modular Multi-Converter",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Berkeley (UC Berkeley)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "High-Performance, Modular Piezoelectric Components for Miniaturized Power Conversion",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Santa Barbara (UC Santa Barbara)",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$3.1M",
+    "title": "Optically Controlled 20 kV Gallium Oxide Power Switches for Grid Resiliency",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Santa Barbara (UC Santa Barbara)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Solar Thermal Membrane Desalination via Thin-film Phase Change",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California-Irvine",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "High-Entropy Nanodisks by Ultrafast Electrified Vapor Deposition for Hydrogen Production",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Florida",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$3.1M",
+    "title": "A 3.3kV/200A 70kHz Half Bridge SiC Power Module with Low EMI, Low Power Loss, Good Thermal Management and High Reliability",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Illinois, Urbana-Champaign (UIUC)",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$3.0M",
+    "title": "Diamond PCSS: DIAMOND PhotoConductive Semiconductor Switches",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Minnesota (UMN)",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$2.8M",
+    "title": "Ultrafast Hydrogen Microwave Plasma Reduction of Iron Ore",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Nebraska, Lincoln (UNL)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Multicell Electrical-Transient-Accelerated Press-Pack Modules (METAPAK)",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Nevada, Las Vegas (UNLV)",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$2.1M",
+    "title": "Fast Electrowinning via Rotors for Responsible Iron Creation (FERRIC)",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Pennsylvania",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$2.2M",
+    "title": "All-Optical Control of Isolated High Voltage Power Systems Using Integrated Electronic, Photonic, and Microfabricated Sensing and Breaker Technology",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Pittsburgh",
+    "agency": "DOE",
+    "program": "SPARKS",
+    "amount": "$500K",
+    "title": "Active, Virtual And resistive Transformers for Transmission and Distribution (T&D) systems, And Resources (AVATAR)",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Southern California",
+    "agency": "DOE",
+    "program": "SPARKS",
+    "amount": "$0",
+    "title": "PhAST-Gate: (Photonic Absorption Saturation-based Thresholding Gate):  All-optical logic circuits to transform digital computing in the AI/ML age.",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Tennessee, Knoxville (UT)",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$2.8M",
+    "title": "A UNIVERSAL (Ultrafast, Noise-Immune, Versatile, Efficient, Reliable, Scalable, and Accurate Light-Controlled) Switch Module",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Utah",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$3.5M",
+    "title": "Producing Steel Directly from Iron Ore Concentrate",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Washington (UW)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Development of an Adaptive Catalytic Reactor to Store Hydrogen Using Plastic Waste",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Wisconsin-Madison (UW-Madison)",
+    "agency": "DOE",
+    "program": "ULTRAFAST",
+    "amount": "$3.0M",
+    "title": "Optically Triggered Ultrawide-Bandgap (UWBG) Power Electronics",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Wisconsin-Madison (UW-Madison)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "Direct High-Temperature Electrochemical Hydrogenative Depolymerization for Waste Plastic Upcycling",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Wisconsin-Madison (UW-Madison)",
+    "agency": "DOE",
+    "program": "IGNIITE 2024",
+    "amount": "$500K",
+    "title": "AlloyBot: Autonomous Platform to Develop Alloys for Energy and Propulsion Technologies 100x Faster",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Varda Space Industries",
+    "agency": "DOD",
+    "program": "SpaceWERX STRATFI",
+    "amount": "$60M",
+    "title": "Reentry capsule for pharmaceutical manufacturing",
+    "year": 2023,
+    "url": "https://www.spacewerx.us/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Virginia Polytechnic Institute and State University (Virginia Tech)",
+    "agency": "DOE",
+    "program": "GOPHURRS",
+    "amount": "$2.5M",
+    "title": "Multi-Physics, Intelligent Sensing System (MISS) For Real-Time, Look-Ahead While Drilling",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Worcester Polytechnic Institute",
+    "agency": "DOE",
+    "program": "ROSIE",
+    "amount": "$1.2M",
+    "title": "Low-Carbon Iron Production and High Silicon Steel Manufacturing (LCIPHSSM)",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Zap Energy",
+    "agency": "DOE",
+    "program": "ARPA-E GAMOW",
+    "amount": "$5M",
+    "title": "Sheared-flow-stabilized Z-pinch scaling",
+    "year": 2023,
+    "url": "https://arpa-e.energy.gov/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ampaire, Inc.",
+    "agency": "DOE",
+    "program": "SCALEUP 2021",
+    "amount": "$9.0M",
+    "title": "Hybrid Electric Aircraft Technology Platform",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Argonne National Laboratory (ANL)",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$4.9M",
+    "title": "Highly Efficient Electrochemical Oxide Reduction for U/TRU Recovery from LWR Fuel",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Argonne National Laboratory (ANL)",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$1.5M",
+    "title": "Radioisotope Capture Intensification Using Rotating Packed Bed Contactors",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Aspen Products Group",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$1.2M",
+    "title": "High Performance, Carbon Negative, Building Insulation",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Atlantic Council",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$600K",
+    "title": "Addressing the Future of the Nuclear Cycle",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "BWXT Advanced Technologies",
+    "agency": "DOD",
+    "program": "Project Pele (SCO)",
+    "amount": "$300M",
+    "title": "Transportable microreactor prototype",
+    "year": 2022,
+    "url": "https://www.cto.mil/pele/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "BamCore",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$1.1M",
+    "title": "Maximizing Carbon Negativity in Next Generation Bamboo Framing Materials",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Biomason",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$644K",
+    "title": "SOTERIA - Carbon Negative Bioconcrete Unit Production Concept",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Boom Supersonic",
+    "agency": "USAF",
+    "program": "AFWERX STRATFI",
+    "amount": "$60M",
+    "title": "Supersonic executive transport studies",
+    "year": 2022,
+    "url": "https://afwerx.com/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Chilldyne",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$1.3M",
+    "title": "Helical Turbulator for Robust Nucleate Boiling Cold Plate",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Clemson University",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$1.1M",
+    "title": "An Entirely Wood Floor System Designed for Carbon Negativity, Future Adaptability, and End of Life De/Re/Construction",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Colorado School of Mines",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$1.2M",
+    "title": "Block Modeling of the Carbonation Potential of Ore Deposits Using Cutting-Edge Core Scanning Technology and Advanced Machine Learning Algorithms",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Columbia University",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$2.9M",
+    "title": "Hydrometallurgical Production of Domestic Metals for Energy Transition",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Columbia University",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$2.5M",
+    "title": "Innovative Stirred Media Mill Reactor for Combined Reactive Comminution and Mineral Dissolution Integrated with Electrochemical Separation of Metals and PGMs and Carbon Mineralizat",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "CorePower Magnetics, Inc.",
+    "agency": "DOE",
+    "program": "SCALEUP 2021",
+    "amount": "$5.0M",
+    "title": "Scaled In-Line Processing Facility for Permeability Engineered Nanocrystalline Magnetics",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Curio Solutions",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$5.0M",
+    "title": "Closing the Cycle with NuCycle&trade;",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Electric Power Research Institute (EPRI)",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$3.3M",
+    "title": "Development of the Technical and Business Case for the  Establishment of an Advanced Fuel Cycle Enterprise",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Flexnode",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$3.5M",
+    "title": "Prefab Modular Liquid-cooled Micro Data Center",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "General Electric (GE) Global Research",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$6.4M",
+    "title": "Monochromatic Assays Yielding Enhanced Reliability (MAYER)",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "HP",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$3.2M",
+    "title": "Embedded Microfluidic Cooling for Nextgen High Power Server Architectures",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "HRL Laboratories",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$2.0M",
+    "title": "Aligned Graphite Microchannel Cooling (AGMC) System with Additively Manufactured Manifolds",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Harvard University",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$1.9M",
+    "title": "Developing Advanced NMR Techniques to Predict and Monitor CO2 Storage and Mineralization for Enhanced Mining Exploration and Operation",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "IBM T.J. Watson Research Center",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$2.6M",
+    "title": "Systems Two Phase Cooling",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Idaho National Laboratory (INL)",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$3.5M",
+    "title": "Integrated Electro-Hydraulic Fracturing and Real-Time Monitoring for  Carbon Negative In-Situ Mining",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Idaho National Laboratory (INL)",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$2.7M",
+    "title": "Development of Robust Anode Materials for the Electrochemical Recovery of Actinide Elements from the Used Nuclear Fuel",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Imagen Energy LLC",
+    "agency": "DOE",
+    "program": "SCALEUP 2021",
+    "amount": "$12.0M",
+    "title": "CHARGED: Commercialization of Highly Accelerated Reliable Grid-Networked Energy Delivery",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Impact Cooling",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$500K",
+    "title": "High Density Cooling System for Ultra-Low PUE Data Centers",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Intel Federal",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$1.7M",
+    "title": "Enabling Two-Phase Immersion Cooling to Support High TDP",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Inventwood LLC",
+    "agency": "DOE",
+    "program": "SCALEUP 2021",
+    "amount": "$20.0M",
+    "title": "Carbon Sequestration and Climate Resiliency via Super Wood",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "JetCool Technologies",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$1.3M",
+    "title": "Sub-One PUE through Silicon Cooling Efficiency",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Johns Hopkins University",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$2.0M",
+    "title": "Carbon-Negative Mining from Gangue Minerals Enabled by Energy-Efficient Electrosynthesis of Acid and Base",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Kent Houston Offshore Engineering",
+    "agency": "DOE",
+    "program": "SCALEUP 2021",
+    "amount": "$19.5M",
+    "title": "Passively Controlled Floating Wind Platforms for Low-cost Energy",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Mainstream Engineering",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$1.6M",
+    "title": "Improved Volatile and Semi-volatile Radionuclide Off-Gas Management",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Michigan Technological University (MTU)",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$2.5M",
+    "title": "Energy Reduction and Improved Critical Mineral Recovery From Low-Grade Disseminated Sulphide Deposits and Mine Tailings",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Missouri University of Science & Technology (Missouri S&T)",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$2.0M",
+    "title": "Reduce Comminution Energy and Improve Energy Relevant Mineral Yield Using Carbon-negative Oxalatization Reactions",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "National Renewable Energy Laboratory (NREL)",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$2.5M",
+    "title": "Cutting the Carbon from Insulation  Cellulose-Mycelium Composite Material",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "National Renewable Energy Laboratory (NREL)",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$1.8M",
+    "title": "High-Performing Carbon-Negative Concrete Using Low Value Byproducts from Biofuels Production",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "National Renewable Energy Laboratory (NREL)",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$1.5M",
+    "title": "COOLERCHIPS Technical Evaluation Team",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Niron Magnetics, Inc.",
+    "agency": "DOE",
+    "program": "SCALEUP 2021",
+    "amount": "$20.0M",
+    "title": "Pilot Production for Commercial Sampling of Rare-Earth-Free Iron Nitride Permanent Magnets",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Nokia of America",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$2.0M",
+    "title": "Delivering Energy & Exergy Efficiency in the Converged 5G RAN/Edge Compute Network",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Northeastern University",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$3.1M",
+    "title": "4C2B: Century-scale Carbon-sequestration in Cross-laminated Timber Composite  Bolted-steel Buildings",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "NuVision Engineering",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$4.7M",
+    "title": "Modular Power Fluidics and Online Optical Spectroscopy for Reprocessing Separation Plant Accountancy",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Nvidia",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$5.0M",
+    "title": "OMNICOOL: Pumped Two-Phase Cooling Architecture for Deployable AI Factory and HPC Systems",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Oregon State University (OSU)",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$2.5M",
+    "title": "Cellulose Cement Composite (C3) for Residential Construction",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Pacific Northwest National Laboratory (PNNL)",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$3.8M",
+    "title": "The Circular Home: Development and Demonstration of a Net-Negative-Carbon, Reusable Residence",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Pacific Northwest National Laboratory (PNNL)",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$2.3M",
+    "title": "Supercritical CO2 Based Mining for Critical Mineral Recovery",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Pacific Northwest National Laboratory (PNNL)",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$1.0M",
+    "title": "Re-Mining Red Mud Waste for CO2 Capture and Storage and Critical Element Recovery (RMCCS-CER)",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Phoenix Tailings",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$1.3M",
+    "title": "CO2 Gasification of Ore for Nickel Extraction",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Planet Labs",
+    "agency": "NGA",
+    "program": "EOCL",
+    "amount": "$146M",
+    "title": "Earth observation commercial layer imagery",
+    "year": 2022,
+    "url": "https://www.nga.mil/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Purdue University",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$2.3M",
+    "title": "Confined Direct Two-phase Jet Impingement Cooling with Topology Optimized Surface Engineering and Phase Separation Using Additive Manufacturing",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Purdue University",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$958K",
+    "title": "Strong and CO2 Consuming Living Wood for Buildings",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Quidnet Energy Inc.",
+    "agency": "DOE",
+    "program": "SCALEUP 2021",
+    "amount": "$10.0M",
+    "title": "Catalyzing Commercialization of Geomechanical Pumped Storage",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Raytheon Technologies Research Center",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$2.5M",
+    "title": "EXTRACT: Extra Efficient Data Centers Using Avionics Cooling Technology",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Relativity Space",
+    "agency": "NASA",
+    "program": "NASA Launch Services II",
+    "amount": "$27M",
+    "title": "VADR provider contract",
+    "year": 2022,
+    "url": "https://www.nasa.gov/launch-services-program",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "SkyNano Technologies",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$2.0M",
+    "title": "CO2mposite: Recycling of CO2, Carbon Fiber Waste, and Biomaterials into Composite Panels for Lower Embodied Carbon Building Materials",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Tempus AI",
+    "agency": "NIH",
+    "program": "K08",
+    "amount": "$4K",
+    "title": "Modeling Oral Cancer in Primary Organoid Culture",
+    "year": 2022,
+    "url": "https://reporter.nih.gov/project-details/10436294",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Texas A&M University",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$3.7M",
+    "title": "Hempcrete 3D Printed Buildings for Sustainability and Resilience",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Travertine Technologies",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$2.0M",
+    "title": "Ultramafic Tailings Leaching and Lateritization with Electrolytic Acid Recycling for Critical Metal Recovery and Enhanced Mineral Carbonation",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Alabama at Birmingham (UAB)",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$2.9M",
+    "title": "Group Hexavalent Actinide Separation: A Single-Step, Proliferation Resistant Approach to Nuclear Fuel Reprocessing",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Davis (UC Davis)",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$3.6M",
+    "title": "Holistic Modular Energy-efficient Directed Cooling Solutions (HoMEDUCS) for Edge Computing",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Davis (UC Davis)",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$2.9M",
+    "title": "Electrochemical Lithium and Nickel Extraction with Concurrent Carbon Dioxide Mineralization (Phase 2)",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Colorado, Boulder (CU-Boulder)",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$3.2M",
+    "title": "A Photosynthetic Route to Carbon-Negative Portland Limestone Cement",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Colorado, Boulder (CU-Boulder)",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$2.5M",
+    "title": "Achieving 1% Assay of Special Nuclear Materials in 2 Minutes with Microcalorimeter-Array Gamma-Ray Spectroscopy",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Florida",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$3.0M",
+    "title": "Hyperefficient Data Centers for Large-scale Computing",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Illinois, Urbana-Champaign (UIUC)",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$2.5M",
+    "title": "Holistic Rack-to-Processor Power and Thermal Co-Design for Future Servers",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Kentucky",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$3.5M",
+    "title": "Development of a Carbon-Negative Process for Comminution Energy Reduction and Energy-Relevant Mineral Extraction through Carbon Mineralization and Biological Carbon Fixation",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Maryland (UMD)",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$3.5M",
+    "title": "Modular Design and Additive Manufacturing of Interlocking Superinsulation Panel from Bio-based Feedstock for Autonomous Construction",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Maryland (UMD)",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$3.5M",
+    "title": "Multi-Objective Optimization Software for COOLERCHIPS",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Missouri",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$1.6M",
+    "title": "Dual-mode Hybrid Two-phase Loop for Data Center Cooling",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Nevada, Reno",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$1.0M",
+    "title": "Accelerated Reactive Carbonation Process (ARCP) for Energy Efficient Separation of Rare Earth Minerals",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of North Texas (UNT)",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$2.7M",
+    "title": "Self-powered Wireless Hybrid Density/Level Sensing with Differential Pressure Sensors for Safeguarding and Monitoring of Electrochemical Processing of Nuclear Spent Fuel",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Pennsylvania",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$2.4M",
+    "title": "High Performance Building Design with 3D-printed Carbon Absorbing Funicular Structures",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Tennessee, Knoxville (UT)",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$2.6M",
+    "title": "Lignin-derived Carbon Storing Foams for High Performance Insulation",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Texas at Arlington (UT Arlington)",
+    "agency": "DOE",
+    "program": "COOLERCHIPS",
+    "amount": "$2.8M",
+    "title": "Holistic Co-Design of Novel Hybrid Cooling Technology for the Data Center of the Future",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Texas at Arlington (UT Arlington)",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$153K",
+    "title": "RECLAIM: Electrochemical Lithium and Nickel Extraction with Concurrent Carbon Dioxide Mineralization",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Texas at Austin (UT Austin)",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$5.0M",
+    "title": "Reaction-driven Cracking for Enhanced Mineral Recovery: In-situ Test at a Ni-Co-PGE Deposit",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Utah",
+    "agency": "DOE",
+    "program": "CURIE",
+    "amount": "$1.6M",
+    "title": "Pyrochemical Dissolution of LWR Spent Fuel with Actinide Recovery for Advanced Reactors",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Wisconsin-Madison (UW-Madison)",
+    "agency": "DOE",
+    "program": "HESTIA",
+    "amount": "$2.3M",
+    "title": "Carbon-negative Ready-mix Concrete Building Components Through Direct Air Capture",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Via Separations, Inc.",
+    "agency": "DOE",
+    "program": "SCALEUP 2021",
+    "amount": "$9.8M",
+    "title": "Industrial Separations to Enable Domestic Manufacturing",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Virginia Polytechnic Institute and State University (Virginia Tech)",
+    "agency": "DOE",
+    "program": "MINER",
+    "amount": "$2.8M",
+    "title": "Energy-relevant Elements Recovery from CO2-reactive Minerals during Carbon Mineralization",
+    "year": 2022,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Argonne National Laboratory (ANL)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.6M",
+    "title": "Advanced Facility Design and AI/ML Enabled Safeguards to Establish Secure, Economical Recycling of Fast Reactor Fuels",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Argonne National Laboratory (ANL)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.0M",
+    "title": "Non-neutron Transmutation of Used Nuclear Fuel",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Argonne National Laboratory (ANL)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.2M",
+    "title": "A Zero-Emission Process for Direct Reduction of Iron by Hydrogen Plasma in a Rotary Kiln Reactor",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Brigham Young University (BYU)",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$927K",
+    "title": "Two-Step Chloride Volatility Process for Reprocessing Used Nuclear Fuel from Advanced Reactors",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "California Institute of Technology (Caltech)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.2M",
+    "title": "A Hybrid Electrochemical and Catalytic Compression System for Direct Generation of High-Pressure Hydrogen at 700 Bar",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Carnegie Mellon University (CMU)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.2M",
+    "title": "Ionomer-Free Electrodes for Ultrahigh Power Density Fuel Cells",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Citrine Informatics",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$3.1M",
+    "title": "Novel Phosphate Waste Forms to Enable Efficient Dehalogenation and Immobilization of Salt Waste",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Columbia University",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.4M",
+    "title": "High Capacity Electrolyzers Based on Ultrathin Proton-Conducting Oxide Membranes",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Columbia University",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.5M",
+    "title": "Lithium Ion Bobbin Cells for Grid Scale Energy Storage",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Copernic Catalysts",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.6M",
+    "title": "In-Silico Heterogeneous Catalyst Design for GHG Reduction via Bulk Chemicals",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Cornell University",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.5M",
+    "title": "Advancing a Low Carbon Built Environment With Inherent Utilization of Waste Concrete and CO2 via Integrated Electrochemical, Chemical and Biological Routes (ADVENT)",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Cornell University",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.4M",
+    "title": "Field-Focused Load-Leveled Dynamic Wireless Charging System for Electric Vehicles",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Deep Isolation",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$3.8M",
+    "title": "UPWARDS: Universal Performance Criteria and Canister for Advanced Reactor Waste Form Acceptance in Borehole and Mined Repositories Considering Design Safety",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Dimensional Energy",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.1M",
+    "title": "3D-Printed 1000 degrees Celsius Silicon-Carbide Thermocatalytic CO2 Reactor with High Carbon Conversion and Energy Efficiencies",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Eden GeoPower",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.8M",
+    "title": "Electro-Hydraulic Fracturing for Enhanced Geothermal Systems",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Fervo Energy",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$4.5M",
+    "title": "FervoFlex: Long duration in-reservoir energy storage and load-following, dispatchable geothermal generation",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Foro Energy",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$4.0M",
+    "title": "Eliminating Methane Emissions From Abandoned Oil and Gas Wells",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "General Electric (GE) Global Research",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$3.5M",
+    "title": "Resonance Absorption Densitometry for Materials Assay Security Safeguards (RADMASS)",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "General Electric (GE) Global Research",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.7M",
+    "title": "Manufacturing High-Yield Investment Castings with Minimal-Energy",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "General Electric (GE) Global Research",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.6M",
+    "title": "Lifted-Flame Combustion for High-Hydrogen Reheat Gas Turbines",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Georgia Institute of Technology (Georgia Tech)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.2M",
+    "title": "Surfactant-Free Multiphase Forming of Fiber Composite Products for Significant Reduction in Energy and CO2 Emission",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "HRL Laboratories",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.6M",
+    "title": "Surface Laser Architected Magnets (SLAM)",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Helion Energy",
+    "agency": "DOE",
+    "program": "ARPA-E OPEN 2021",
+    "amount": "$2.5M",
+    "title": "Compact Pulsed Fusion Core Development",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Hinetics",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$5.8M",
+    "title": "Cryogen-Free Ultra-High Field Superconducting Electric Motor",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Idaho National Laboratory (INL)",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$2.3M",
+    "title": "Traveling Molten Zone Refining Process Development for Innovative Fuel Cycle Solutions",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Illinois Institute of Technology (IIT)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.9M",
+    "title": "Direct Conversion of Flue Gas to Value-Added Chemicals Using a Carbon -Nuetral Process",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Makai Ocean Engineering",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.1M",
+    "title": "Remotely Installed Anchorages for Floating Offshore Wind and Other Offshore Renewables Cost Reduction",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Massachusetts Institute of Technology (MIT)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.1M",
+    "title": "Liquid Immersion Blanket: Robust Accountancy (LIBRA)",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Massachusetts Institute of Technology (MIT)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.3M",
+    "title": "Nitrogen Fertilizer: New Strategies for Low-energy, High-Efficiency Production and Use",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "National Renewable Energy Laboratory (NREL)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.5M",
+    "title": "ReSOURCE: The Carbon Negative Biorefinery of the Future",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "National Renewable Energy Laboratory (NREL)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.7M",
+    "title": "Repurposing Infrastructure for Gravity Storage using Underground Potential energy (RIGS UP)",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "North Carolina State University (NC State)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$4.8M",
+    "title": "Microgrid Control/Coordination Co-Design (MicroC3)",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "North Carolina State University (NC State)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.9M",
+    "title": "Intensified Alkenyl Benzenes Production via Modular Redox Dehydrogenation",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Northeastern University",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.1M",
+    "title": "High-Performance and Miniature Greenhouse Gas Sensor for Drone-based Remote Sensing",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Oklo",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$4.0M",
+    "title": "Enabling the Near Term Commercialization of an Electrorefining Facility to Close the Metal Fuel Cycle",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Orano Federal Services",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$2.0M",
+    "title": "Off-Gas Treatment Process for Conditioning and Recycling Facilities",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Pacific Northwest National Laboratory (PNNL)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.1M",
+    "title": "Advanced Manufacturing of High-Entropy Alloys as Cost-effective Plasma Facing Components for Fusion Power Generation",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Palo Alto Research Center (PARC)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.1M",
+    "title": "CACTUS: CO2 Aerogel Capture Towards Utilization and Sequestration",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Parallel Systems",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$4.4M",
+    "title": "Transformative Rail Architecture to Decarbonize Freight",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Perlumi Chemicals",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.5M",
+    "title": "Novel Biological Carbon Fixation Pathway to Increase Plant Yield",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Polymath Research",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.0M",
+    "title": "Longer Wavelength Lasers for Inertial Fusion Energy with Laser-Plasma Instability Control: Machine Learning Optimum Spike Trains of Uneven Duration and Delay (STUD Pulses)",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Pratt & Whitney",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.8M",
+    "title": "Hydrogen Steam and Inter-Cooled Turbine Engine (HySITE)",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Precision Combustion (PCI)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.5M",
+    "title": "Additively-Manufactured Electrochemical-Chip Based Scalable Solid Oxide Fuel Cells",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Princeton University",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.5M",
+    "title": "Economical Proton-Boron11 Fusion",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "RTI International",
+    "agency": "DOE",
+    "program": "REFUEL",
+    "amount": "$12.6M",
+    "title": "Next-Generation Ammonia System Integration Utilizing Intermittent Power",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Rensselaer Polytechnic Institute (RPI)",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$1.2M",
+    "title": "Metal-Halide Perovskites as Innovative and Cost-Effective Fluoride Salt Waste Forms",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Rio Tinto Services",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.2M",
+    "title": "Assessment of the CO2 Mineralization Potential of  Tamarack's Ultramafic Bowl-Shaped Intrusion",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Rutgers University",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$4.0M",
+    "title": "Pioneering a Cermet Waste Form for Disposal of Waste Streams from Advanced Reactors (PACE-FORWARD)",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Siemens",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$4.0M",
+    "title": "PICo-Design: Protection-Inverter Co-Design for 100% Power Electronics-based Power Systems",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "SixPoint Materials",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$4.8M",
+    "title": "Vertical GaN Photoconductive Semiconductor Switch for HVDC Breakers",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Stanford University",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.9M",
+    "title": "Additive Manufacturing of Amorphous Metal Soft Magnetic Composites",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Stony Brook University",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$3.4M",
+    "title": "MATRICY: Matrix Engineered TRISO Compacts Enabling Advanced Reactor Fuel Cycles",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Sublime Systems",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.6M",
+    "title": "Electrochemical Upcycling for Materials Production",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Synteris",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.7M",
+    "title": "Breaking the Board: Bringing 3 Dimensional Packaging and Thermal Management to Power Electronics",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Tempus AI",
+    "agency": "NIH",
+    "program": "UM1",
+    "amount": "$383K",
+    "title": "Center for Functional Validation and Evaluation of ENCODE Enhancer regions, Grant Number 5UM1HG009426",
+    "year": 2021,
+    "url": "https://reporter.nih.gov/project-details/10238284",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Tempus AI",
+    "agency": "NIH",
+    "program": "K08",
+    "amount": "$135K",
+    "title": "Modeling Oral Cancer in Primary Organoid Culture",
+    "year": 2021,
+    "url": "https://reporter.nih.gov/project-details/10221669",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "TerraPower",
+    "agency": "DOE",
+    "program": "ONWARDS",
+    "amount": "$8.6M",
+    "title": "Chloride-Based Volatility for Waste Reduction and/or Reuse of Metallic-, Oxide- and Salt-Based Reactor Fuels",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Texas Tech University",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.8M",
+    "title": "Semiconductor Fast Neutron Detectors",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "The Ohio State University",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.4M",
+    "title": "Vehicle Traction Electric Machines Enabled by Novel Composite Magnetic Powder Material and Electrophoretic Deposition Insulation Material",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Berkeley (UC Berkeley)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.1M",
+    "title": "Mesh Network of Soil Sensors for Greenhouse Gas Monitoring of Biofuel Agriculture",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Berkeley (UC Berkeley)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.0M",
+    "title": "Integrated System for Electromicrobial Production of Butanol from Air-Captured CO2",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Berkeley (UC Berkeley)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.2M",
+    "title": "Ultra Light-weight Bidirectional DC-DC Converters for Electric Aircrafts",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Los Angeles (UCLA)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.0M",
+    "title": "AMENDER: Seawater Mediated Electrochemical Carbon Dioxide Removal",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of California, Santa Barbara (UC Santa Barbara)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.9M",
+    "title": "Quantifying the Potential and Risks of Large-scale Macroalgae Cultivation and Purposeful Sequestration as a Viable CO2 Reduction (CDR) Strategy",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Delaware (UD)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.5M",
+    "title": "Energy Efficient Manufacturing of Lightweight Composite Architected Structures for Transporation Vehicles",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Houston",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.4M",
+    "title": "Lithium- and Transition Metal-Free High-Energy Fast-Charging Batteries",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Houston",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$965K",
+    "title": "Mini-PulPS: Miniaturized Pulsed Power Systems for Mission Critical Applications",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Illinois, Urbana-Champaign (UIUC)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.3M",
+    "title": "Ultra-Efficient and Ultra-Rapid Electro-Thermal Pulse Deicing, Defrosting, and Desnowing for Renewable Energy and Electrified Aircraft Systems",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Illinois, Urbana-Champaign (UIUC)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$853K",
+    "title": "Green Light Emitting Diodes for the Ultimate Solid-State Lighting",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Maryland (UMD)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.6M",
+    "title": "Fast Charging, Solid-State, Roll-to-Roll Processed Li Metal Batteries Enabled by Intercalated Ions in Cellulose Molecular Channels",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Michigan",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$950K",
+    "title": "Battery Separator for Completely Stopping Dendrite",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Tennessee, Knoxville (UT)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$2.4M",
+    "title": "Microfluidic Alpha Spectrometer for Materials Accountancy and Control in Liquid-Fueled Molten Salt Reactors",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "University of Washington (UW)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$1.3M",
+    "title": "Harvesting Infrared Light to Improve Photosynthetic Biomass Production",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Virginia Polytechnic Institute and State University (Virginia Tech)",
+    "agency": "DOE",
+    "program": "OPEN 2021",
+    "amount": "$3.4M",
+    "title": "Substation in a Cable for Adaptable, Low-cost Electrical Distribution (SCALED)",
+    "year": 2021,
+    "url": "https://arpa-e.energy.gov/technologies/projects",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Kairos Power",
+    "agency": "DOE",
+    "program": "ARDP Risk Reduction",
+    "amount": "$303M",
+    "title": "Hermes low-power demonstration reactor",
+    "year": 2020,
+    "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "NuScale Power",
+    "agency": "DOE",
+    "program": "Advanced Reactor Demonstration Cost-Share",
+    "amount": "$1.355B",
+    "title": "Carbon Free Power Project (UAMPS) deployment",
+    "year": 2020,
+    "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "agency": "NIH",
+    "program": "R44",
+    "amount": "$448K",
+    "title": "Novel Methodology for Identification of Senolytics that Reduce Age-related Disease and Dysfunction",
+    "year": 2020,
+    "url": "https://reporter.nih.gov/project-details/9948564",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Tempus AI",
+    "agency": "NIH",
+    "program": "K08",
+    "amount": "$135K",
+    "title": "Modeling Oral Cancer in Primary Organoid Culture",
+    "year": 2020,
+    "url": "https://reporter.nih.gov/project-details/9985096",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Tempus AI",
+    "agency": "NIH",
+    "program": "UM1",
+    "amount": "$444K",
+    "title": "Center for Functional Validation and Evaluation of ENCODE Enhancer Regions, Grant Number 5UM1HG009426-03",
+    "year": 2020,
+    "url": "https://reporter.nih.gov/project-details/9949750",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "X-energy",
+    "agency": "DOE",
+    "program": "Advanced Reactor Demonstration Program",
+    "amount": "$1.2B",
+    "title": "Xe-100 reactor demo with Dow Chemical",
+    "year": 2020,
+    "url": "https://www.energy.gov/ne/advanced-reactor-demonstration-program",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "agency": "NIH",
+    "program": "R44",
+    "amount": "$434K",
+    "title": "Novel Methodology for Identification of Senolytics that Reduce Age-related Disease and Dysfunction",
+    "year": 2019,
+    "url": "https://reporter.nih.gov/project-details/9792234",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Tempus AI",
+    "agency": "NIH",
+    "program": "UM1",
+    "amount": "$245K",
+    "title": "Center for Functional Validation and Evaluation of ENCODE Enhancer Regions, Grant Number 5UM1HG009426-03",
+    "year": 2019,
+    "url": "https://reporter.nih.gov/project-details/10049145",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Tempus AI",
+    "agency": "NIH",
+    "program": "K08",
+    "amount": "$135K",
+    "title": "Modeling Oral Cancer in Primary Organoid Culture",
+    "year": 2019,
+    "url": "https://reporter.nih.gov/project-details/9961975",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "agency": "NIH",
+    "program": "R44",
+    "amount": "$509K",
+    "title": "Novel Methodology for Identification of Senolytics that Reduce Age-related Disease and Dysfunction",
+    "year": 2018,
+    "url": "https://reporter.nih.gov/project-details/9789427",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "agency": "NIH",
+    "program": "R44",
+    "amount": "$223K",
+    "title": "Novel Methodology for Identification of Senolytics that Reduce Age-related Disease and Dysfunction",
+    "year": 2016,
+    "url": "https://reporter.nih.gov/project-details/9141082",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "agency": "NIH",
+    "program": "R44",
+    "amount": "$650K",
+    "title": "Expansion of an efficient drug repurposing platform for rare genetic diseases.",
+    "year": 2016,
+    "url": "https://reporter.nih.gov/project-details/9021016",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Firefly Aerospace",
+    "agency": "NIH",
+    "program": "R42",
+    "amount": "$386K",
+    "title": "RADIOGRAPHIC CONTRAST TO DIFFERENTIATE CAVITATED FROM NON-CAVITATED DENTAL CARIES",
+    "year": 2015,
+    "url": "https://reporter.nih.gov/project-details/8775215",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "agency": "NSF",
+    "program": "NSF",
+    "amount": "$180K",
+    "title": "SBIR Phase I:  Creating Plant Inspired Fragrences Via Fermentation",
+    "year": 2015,
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1448068",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "agency": "NIH",
+    "program": "R43",
+    "amount": "$225K",
+    "title": "Application of an efficient drug repurposing platform to identify treatments for Cornelia De Lange Syndrome",
+    "year": 2015,
+    "url": "https://reporter.nih.gov/project-details/9041952",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "agency": "NIH",
+    "program": "R43",
+    "amount": "$217K",
+    "title": "HLS13-04 High-Content High-Throughput Screen for Diamond Blackfan Anemia Treatments",
+    "year": 2015,
+    "url": "https://reporter.nih.gov/project-details/8902889",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Recursion Pharmaceuticals",
+    "agency": "NIH",
+    "program": "R44",
+    "amount": "$809K",
+    "title": "Expansion of an efficient drug repurposing platform for rare genetic diseases.",
+    "year": 2015,
+    "url": "https://reporter.nih.gov/project-details/8834608",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Firefly Aerospace",
+    "agency": "NIH",
+    "program": "R42",
+    "amount": "$356K",
+    "title": "RADIOGRAPHIC CONTRAST TO DIFFERENTIATE CAVITATED FROM NON-CAVITATED DENTAL CARIES",
+    "year": 2014,
+    "url": "https://reporter.nih.gov/project-details/8646064",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "agency": "NSF",
+    "program": "NSF",
+    "amount": "$1.3M",
+    "title": "SBIR Phase II:  Novel Proteolysis-based Tools for Metabolic Engineering",
+    "year": 2013,
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1256446",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "agency": "NSF",
+    "program": "NSF",
+    "amount": "$180K",
+    "title": "SBIR Phase I:  Bioproduction of Feedstock Amino Acids",
+    "year": 2013,
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1248790",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "agency": "NIH",
+    "program": "R43",
+    "amount": "$150K",
+    "title": "Microbial Platform for Accessing Plant Alkaloids",
+    "year": 2013,
+    "url": "https://reporter.nih.gov/project-details/8523545",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Firefly Aerospace",
+    "agency": "NIH",
+    "program": "R44",
+    "amount": "$664K",
+    "title": "Hydrogel Particle-Based microRNA Profiling for Discovery and Cancer Diagnostics",
+    "year": 2012,
+    "url": "https://reporter.nih.gov/project-details/8304197",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Firefly Aerospace",
+    "agency": "NIH",
+    "program": "R41",
+    "amount": "$100K",
+    "title": "RADIOGRAPHIC CONTRAST TO DIFFERENTIATE CAVITATED FROM NON-CAVITATED DENTAL CARIES",
+    "year": 2012,
+    "url": "https://reporter.nih.gov/project-details/8392613",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Firefly Aerospace",
+    "agency": "NIH",
+    "program": "R44",
+    "amount": "$1.1M",
+    "title": "Hydrogel Particle-Based microRNA Profiling for Discovery and Cancer Diagnostics",
+    "year": 2011,
+    "url": "https://reporter.nih.gov/project-details/8126610",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "agency": "NSF",
+    "program": "NSF",
+    "amount": "$150K",
+    "title": "SBIR Phase I:  Novel Proteolysis-based Tools for Metabolic Engineering of Amino Acid Producing Strains",
+    "year": 2011,
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1113506",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Firefly Aerospace",
+    "agency": "NIH",
+    "program": "R43",
+    "amount": "$176K",
+    "title": "Multiplexed Encoded Particle PCR for Rapid Panel Diagnosis of Sexually-Transmitte",
+    "year": 2010,
+    "url": "https://reporter.nih.gov/project-details/7803524",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "agency": "NSF",
+    "program": "NSF",
+    "amount": "$50K",
+    "title": "SBIR Phase IB:  Volatile gene expression reporters for use during fermentation",
+    "year": 2010,
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1003426",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Firefly Aerospace",
+    "agency": "NIH",
+    "program": "R43",
+    "amount": "$250K",
+    "title": "Hydrogel Particle-Based microRNA Profiling for Discovery and Cancer Diagnostics",
+    "year": 2009,
+    "url": "https://reporter.nih.gov/project-details/7747007",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "agency": "NSF",
+    "program": "NSF",
+    "amount": "$100K",
+    "title": "SBIR Phase I:  Volatile gene expression reporters for use during fermentation",
+    "year": 2009,
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=0912541",
+    "lastUpdated": "2026-04-16"
+  },
+  {
+    "company": "Holtec International",
+    "agency": "NSF",
+    "program": "NSF",
+    "amount": "$50K",
+    "title": "Shallow Fluidized Bed Recuperator",
+    "year": 1989,
+    "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=8861173",
+    "lastUpdated": "2026-04-16"
+  }
+]

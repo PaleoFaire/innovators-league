@@ -109,6 +109,9 @@ function getGovPullScores() {
 
 function initGovRadar() {
   safeInit('heroStats', initHeroStats);
+  safeInit('primeSupplyChain', initPrimeSupplyChain);
+  safeInit('sbirPipeline', initSbirPipeline);
+  safeInit('federalGrants', initFederalGrants);
   safeInit('demandHeatmap', initDemandHeatmap);
   safeInit('demandRadar', initDemandRadar);
   safeInit('opportunities', initOpportunities);
@@ -127,6 +130,144 @@ function initGovRadar() {
   safeInit('sbirTracker', initSbirTracker);
   safeInit('mobileMenu', initGovMobileMenu);
   safeInit('sectionObserver', initSectionObserver);
+}
+
+// ─── Prime Supply Chain — reads data/prime_supply_chain_auto.json ───
+function initPrimeSupplyChain() {
+  var grid = document.getElementById('prime-chain-grid');
+  if (!grid) return;
+  var esc = (typeof escapeHtml === 'function') ? escapeHtml : function(s) { return String(s || ''); };
+
+  fetch('data/prime_supply_chain_auto.json', { cache: 'no-cache' })
+    .then(function(r) { return r.ok ? r.json() : []; })
+    .then(function(primes) {
+      if (!Array.isArray(primes) || primes.length === 0) {
+        grid.innerHTML = '<p style="color:rgba(255,255,255,0.4); padding:20px;">No supply chain data available.</p>';
+        return;
+      }
+      var html = '<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(340px, 1fr)); gap:16px;">';
+      primes.forEach(function(p) {
+        var portfolioChips = (p.portfolio || []).slice(0, 20).map(function(c) {
+          var relClass = c.relationship === 'gov contract' ? 'background:rgba(34,197,94,0.15); color:#22c55e;' :
+                         c.relationship === 'partnership' ? 'background:rgba(255,107,44,0.15); color:var(--accent);' :
+                         'background:rgba(255,255,255,0.08); color:rgba(255,255,255,0.7);';
+          var title = c.evidence ? ' title="' + esc(c.evidence) + '"' : '';
+          return '<a href="company.html?slug=' + encodeURIComponent(c.company.toLowerCase().replace(/\s+/g, '-')) + '" style="display:inline-block; padding:4px 10px; border-radius:12px; font-size:11px; font-weight:600; text-decoration:none; margin-right:4px; margin-bottom:4px; ' + relClass + '"' + title + '>' + esc(c.company) + '</a>';
+        }).join('');
+        html += '<div style="padding:20px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px;">' +
+          '<div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom:12px;">' +
+            '<h3 style="color:#fff; font-size:16px; font-weight:700; margin:0;">' + esc(p.prime) + ' <span style="color:rgba(255,255,255,0.4); font-size:11px; font-family:Space Grotesk, monospace;">' + esc(p.ticker) + '</span></h3>' +
+            '<span style="color:var(--accent); font-size:12px; font-weight:600;">' + (p.totalCompanies || 0) + ' cos</span>' +
+          '</div>' +
+          '<div>' + (portfolioChips || '<span style="color:rgba(255,255,255,0.3); font-size:12px;">No tracked relationships yet</span>') + '</div>' +
+        '</div>';
+      });
+      html += '</div>';
+      grid.innerHTML = html;
+    })
+    .catch(function(e) {
+      console.warn('[PrimeSupplyChain] Failed:', e);
+      grid.innerHTML = '<p style="color:rgba(255,255,255,0.4); padding:20px;">Could not load supply chain data.</p>';
+    });
+}
+
+// ─── DoD SBIR/STTR Pipeline — reads data/sbir_awards_auto.json ───
+function initSbirPipeline() {
+  var tbody = document.getElementById('sbir-body');
+  var countEl = document.getElementById('sbir-count');
+  if (!tbody) return;
+  var esc = (typeof escapeHtml === 'function') ? escapeHtml : function(s) { return String(s || ''); };
+
+  fetch('data/sbir_awards_auto.json', { cache: 'no-cache' })
+    .then(function(r) { return r.ok ? r.json() : []; })
+    .then(function(awards) {
+      if (!Array.isArray(awards) || awards.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">No SBIR/STTR awards found.</td></tr>';
+        return;
+      }
+      if (countEl) countEl.textContent = 'Showing ' + awards.length + ' SBIR/STTR awards · Phase III first';
+
+      tbody.innerHTML = awards.slice(0, 200).map(function(a) {
+        var phaseColor = {
+          'Phase III': 'background:rgba(34,197,94,0.15); color:#22c55e;',
+          'Phase II': 'background:rgba(96,165,250,0.15); color:#60a5fa;',
+          'Phase I': 'background:rgba(255,255,255,0.08); color:rgba(255,255,255,0.7);'
+        }[a.phase] || 'background:rgba(255,255,255,0.08); color:rgba(255,255,255,0.7);';
+        return '<tr>' +
+          '<td style="font-weight:600;">' + esc(a.company) + '</td>' +
+          '<td><span style="padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600; ' + phaseColor + '">' + esc(a.phase) + '</span></td>' +
+          '<td style="font-size:12px;">' + esc(a.agency) + '</td>' +
+          '<td style="font-size:12px;">' + esc((a.topic || '').slice(0, 80)) + '</td>' +
+          '<td style="font-family:Space Grotesk, monospace; color:var(--accent); font-weight:700;">' + esc(a.amount) + '</td>' +
+          '<td style="font-family:Space Grotesk, monospace;">' + esc(a.year) + '</td>' +
+          '<td>' + (a.url ? '<a href="' + esc(a.url) + '" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none; font-size:11px;">SBIR.gov →</a>' : '—') + '</td>' +
+        '</tr>';
+      }).join('');
+    })
+    .catch(function(e) {
+      console.warn('[SbirPipeline] Failed:', e);
+      tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">Could not load SBIR data.</td></tr>';
+    });
+}
+
+// ─── Federal Grant Flow — reads data/federal_grants_auto.json ───
+function initFederalGrants() {
+  var tbody = document.getElementById('grants-body');
+  var countEl = document.getElementById('grants-count');
+  var searchEl = document.getElementById('grants-search');
+  var agencyEl = document.getElementById('grants-agency');
+  if (!tbody) return;
+  var esc = (typeof escapeHtml === 'function') ? escapeHtml : function(s) { return String(s || ''); };
+
+  fetch('data/federal_grants_auto.json', { cache: 'no-cache' })
+    .then(function(r) { return r.ok ? r.json() : []; })
+    .then(function(grants) {
+      if (!Array.isArray(grants) || grants.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">No federal grant data available.</td></tr>';
+        return;
+      }
+
+      var sorted = [].concat(grants).sort(function(a, b) {
+        return (b.year || 0) - (a.year || 0);
+      });
+
+      function render() {
+        var q = (searchEl && searchEl.value || '').trim().toLowerCase();
+        var agencyFilter = agencyEl && agencyEl.value || 'all';
+        var filtered = sorted;
+        if (q) filtered = filtered.filter(function(g) {
+          return (String(g.company || '') + ' ' + String(g.title || '')).toLowerCase().indexOf(q) !== -1;
+        });
+        if (agencyFilter !== 'all') filtered = filtered.filter(function(g) {
+          return String(g.agency || '').toUpperCase().indexOf(agencyFilter) !== -1;
+        });
+
+        if (countEl) countEl.textContent = 'Showing ' + Math.min(filtered.length, 300) + ' of ' + grants.length + ' grants';
+
+        tbody.innerHTML = filtered.slice(0, 300).map(function(g) {
+          var agencyColor = {
+            'NSF': 'color:#60a5fa;', 'NIH': 'color:#22c55e;',
+            'DOE': 'color:#f59e0b;', 'ARPA-E': 'color:#a78bfa;', 'DARPA': 'color:#f87171;'
+          }[g.agency] || 'color:rgba(255,255,255,0.7);';
+          return '<tr>' +
+            '<td style="font-weight:600;">' + esc(g.company) + '</td>' +
+            '<td><span style="font-weight:700; font-size:11px; text-transform:uppercase; letter-spacing:0.04em; ' + agencyColor + '">' + esc(g.agency) + '</span></td>' +
+            '<td style="font-size:12px; color:rgba(255,255,255,0.6);">' + esc(g.program || '—') + '</td>' +
+            '<td style="font-size:12px;">' + esc((g.title || '').slice(0, 80)) + (g.url ? ' <a href="' + esc(g.url) + '" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none; font-size:11px;">→</a>' : '') + '</td>' +
+            '<td style="font-family:Space Grotesk, monospace; color:var(--accent); font-weight:700;">' + esc(g.amount || '—') + '</td>' +
+            '<td style="font-family:Space Grotesk, monospace;">' + esc(g.year || '—') + '</td>' +
+          '</tr>';
+        }).join('');
+      }
+
+      render();
+      if (searchEl) searchEl.addEventListener('input', render);
+      if (agencyEl) agencyEl.addEventListener('change', render);
+    })
+    .catch(function(e) {
+      console.warn('[FederalGrants] Failed:', e);
+      tbody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">Could not load grant data.</td></tr>';
+    });
 }
 
 // ─── DOMContentLoaded + Auth ───

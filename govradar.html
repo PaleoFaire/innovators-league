@@ -93,6 +93,65 @@
         </div>
     </header>
 
+    <!-- Defense Prime Supply Chain — who's in whose ecosystem -->
+    <section class="section" id="prime-supply-chain">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">PRIME ECOSYSTEMS · SAM.GOV + PRESS</p>
+                <h2>Defense Prime Supply Chain</h2>
+                <p>Which frontier tech companies are in the supply chains of major defense primes. Data merged from SAM.gov contracts, press releases, and ROS research.</p>
+            </div>
+            <div id="prime-chain-grid"></div>
+        </div>
+    </section>
+
+    <!-- DoD SBIR/STTR Pipeline — leading indicator for prime contracts -->
+    <section class="section" id="sbir-pipeline">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">SBIR / STTR · SBIR.GOV</p>
+                <h2>DoD SBIR/STTR Pipeline</h2>
+                <p>Small Business Innovation Research awards — Phase III is the leading indicator of prime contracts. Source: <a href="https://www.sbir.gov" target="_blank" rel="noopener" style="color:var(--accent);">SBIR.gov</a>.</p>
+            </div>
+            <div class="leaderboard-table-wrap">
+                <table class="leaderboard-table" id="sbir-table">
+                    <thead><tr><th>Company</th><th>Phase</th><th>Agency</th><th>Topic</th><th>Amount</th><th>Year</th><th>Source</th></tr></thead>
+                    <tbody id="sbir-body"></tbody>
+                </table>
+            </div>
+            <div id="sbir-count" style="margin-top:12px; color:rgba(255,255,255,0.5); font-size:12px;"></div>
+        </div>
+    </section>
+
+    <!-- Federal R&D Grant Flow (NSF + NIH + DOE + ARPA-E) -->
+    <section class="section" id="federal-grants">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow">FEDERAL R&D · NSF + NIH + DOE + ARPA-E</p>
+                <h2>Federal Grant Flow</h2>
+                <p>Every research dollar flowing from federal agencies into frontier tech. Source: <a href="https://www.nsf.gov/awardsearch/" target="_blank" rel="noopener" style="color:var(--accent);">NSF Award Search</a>, <a href="https://reporter.nih.gov" target="_blank" rel="noopener" style="color:var(--accent);">NIH Reporter</a>, <a href="https://arpa-e.energy.gov" target="_blank" rel="noopener" style="color:var(--accent);">ARPA-E</a>.</p>
+            </div>
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px;">
+                <input type="text" id="grants-search" placeholder="Search by company or grant title..." style="flex:1; min-width:220px; padding:10px 14px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:8px; color:#fff;">
+                <select id="grants-agency" style="padding:10px 14px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:8px; color:#fff;">
+                    <option value="all">All Agencies</option>
+                    <option value="NSF">NSF</option>
+                    <option value="NIH">NIH</option>
+                    <option value="DOE">DOE</option>
+                    <option value="ARPA-E">ARPA-E</option>
+                    <option value="DARPA">DARPA</option>
+                </select>
+            </div>
+            <div class="leaderboard-table-wrap">
+                <table class="leaderboard-table" id="grants-table">
+                    <thead><tr><th>Company</th><th>Agency</th><th>Program</th><th>Title</th><th>Amount</th><th>Year</th></tr></thead>
+                    <tbody id="grants-body"></tbody>
+                </table>
+            </div>
+            <div id="grants-count" style="margin-top:12px; color:rgba(255,255,255,0.5); font-size:12px;"></div>
+        </div>
+    </section>
+
     <!-- Demand Heatmap -->
     <section class="section" id="demand-heatmap">
         <div class="container">

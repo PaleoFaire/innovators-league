@@ -1,0 +1,293 @@
+[
+  {
+    "prime": "Lockheed Martin",
+    "ticker": "LMT",
+    "totalCompanies": 8,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Team-of-teams program"
+      },
+      {
+        "company": "Divergent",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "lockheed martin"
+      },
+      {
+        "company": "General Atomics",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "UAV production partnership"
+      },
+      {
+        "company": "Helion Energy",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Fusion research partnership"
+      },
+      {
+        "company": "Hermeus",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Hypersonic propulsion development"
+      },
+      {
+        "company": "Nano Nuclear Energy",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Space-based nuclear power R&D"
+      },
+      {
+        "company": "Orbital Composites",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "lockheed martin"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Joint AI/ML platform"
+      }
+    ]
+  },
+  {
+    "prime": "Raytheon / RTX",
+    "ticker": "RTX",
+    "totalCompanies": 6,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Lattice integration partnership"
+      },
+      {
+        "company": "Divergent",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
+      },
+      {
+        "company": "Epirus",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "High-power microwave counter-drone"
+      },
+      {
+        "company": "Observable Space",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "raytheon"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Joint mission systems software"
+      },
+      {
+        "company": "Saronic Technologies",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Autonomous maritime systems"
+      }
+    ]
+  },
+  {
+    "prime": "Northrop Grumman",
+    "ticker": "NOC",
+    "totalCompanies": 6,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Sentry/Lattice integration"
+      },
+      {
+        "company": "Observable Space",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "northrop grumman"
+      },
+      {
+        "company": "Picogrid",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "northrop grumman"
+      },
+      {
+        "company": "Rocket Lab",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "HASTE hypersonic test bed"
+      },
+      {
+        "company": "Scout AI",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Autonomous systems collaboration"
+      },
+      {
+        "company": "Shield AI",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Autonomy integration for B-21 ecosystem"
+      }
+    ]
+  },
+  {
+    "prime": "Boeing Defense",
+    "ticker": "BA",
+    "totalCompanies": 4,
+    "portfolio": [
+      {
+        "company": "Dynamo Air",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "boeing phantom works"
+      },
+      {
+        "company": "Hermeus",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Hypersonic vehicle cooperation"
+      },
+      {
+        "company": "Loft Federal",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Satellite services"
+      },
+      {
+        "company": "Virgin Galactic",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Commercial space systems"
+      }
+    ]
+  },
+  {
+    "prime": "General Dynamics",
+    "ticker": "GD",
+    "totalCompanies": 4,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Counter-drone systems"
+      },
+      {
+        "company": "HawkEye 360",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "RF geolocation for intel missions"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Mission Command software"
+      },
+      {
+        "company": "Shield AI",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "V-BAT autonomy for GCS integration"
+      }
+    ]
+  },
+  {
+    "prime": "L3Harris",
+    "ticker": "LHX",
+    "totalCompanies": 3,
+    "portfolio": [
+      {
+        "company": "Anduril",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Counter-UAS partnership (Pulsar)"
+      },
+      {
+        "company": "Shield AI",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Autonomous systems integration"
+      },
+      {
+        "company": "True Anomaly",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Space domain awareness"
+      }
+    ]
+  },
+  {
+    "prime": "Leidos",
+    "ticker": "LDOS",
+    "totalCompanies": 3,
+    "portfolio": [
+      {
+        "company": "HawkEye 360",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Signal intelligence services"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Healthcare/defense data integration"
+      },
+      {
+        "company": "Rebellion Defense",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Defense AI platform support"
+      }
+    ]
+  },
+  {
+    "prime": "BAE Systems",
+    "ticker": "BAESY",
+    "totalCompanies": 2,
+    "portfolio": [
+      {
+        "company": "Rebellion Defense",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Mission software integration"
+      },
+      {
+        "company": "Shift5",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Cyber-operational resilience for military platforms"
+      }
+    ]
+  },
+  {
+    "prime": "SAIC",
+    "ticker": "SAIC",
+    "totalCompanies": 2,
+    "portfolio": [
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Foundry platform deployment"
+      },
+      {
+        "company": "Rebellion Defense",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "AI/ML mission systems"
+      }
+    ]
+  }
+]

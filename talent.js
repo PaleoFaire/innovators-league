@@ -4,6 +4,7 @@
   function initTalentPageInner() {
     safeInit('initHeroStats', initHeroStats);
     safeInit('initExecutiveMoves', initExecutiveMoves);
+    safeInit('initUniversitySpinouts', initUniversitySpinouts);
     safeInit('initTalentFlow', initTalentFlow);
     safeInit('initMafiaExplorer', initMafiaExplorer);
     safeInit('initFounderDNA', initFounderDNA);
@@ -15,76 +16,111 @@
     safeInit('initSectionObserver', initSectionObserver);
   }
 
-  // ── Executive Hiring Tracker — parse SEC Form 4 + Form 8-K Item 5.02 ──
+  // ── Executive Hiring Tracker — reads data/exec_moves_auto.json ──
   function initExecutiveMoves() {
     const tbody = document.getElementById('exec-moves-body');
     const countEl = document.getElementById('exec-moves-count');
     if (!tbody) return;
-
     const esc = (typeof escapeHtml === 'function') ? escapeHtml : (s) => String(s || '');
 
-    const moves = [];
-    const filings = (typeof SEC_FILINGS_LIVE !== 'undefined' && Array.isArray(SEC_FILINGS_LIVE))
-      ? SEC_FILINGS_LIVE : [];
-
-    filings.forEach(f => {
-      if (!f || !f.form) return;
-      // Form 4 / 3 / 5 — insider transactions (officer/director)
-      if (f.form === '4' || f.form === '3' || f.form === '5') {
-        moves.push({
-          company: f.company || '—',
-          ticker: f.ticker || '',
-          type: 'Insider Activity',
-          typeClass: 'insider',
-          description: f.description || `Form ${f.form} filing — insider transaction`,
-          date: f.date || f.filedDate || '',
-          url: f.url || (f.cik ? `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${f.cik}&type=4` : 'https://www.sec.gov/edgar'),
-          sourceLabel: 'SEC Form ' + f.form
-        });
-      }
-      // Form 8-K Item 5.02 — Officer departure / appointment
-      if (f.form === '8-K' && f.description) {
-        const d = String(f.description).toLowerCase();
-        if (d.includes('5.02') || d.includes('officer') || d.includes('director') ||
-            d.includes('ceo') || d.includes('cfo') || d.includes('cto') ||
-            d.includes('appoint') || d.includes('resign') || d.includes('retire')) {
-          moves.push({
-            company: f.company || '—',
-            ticker: f.ticker || '',
-            type: 'Officer Change',
-            typeClass: 'officer',
-            description: f.description,
-            date: f.date || f.filedDate || '',
-            url: f.url || 'https://www.sec.gov/edgar',
-            sourceLabel: 'SEC 8-K 5.02'
-          });
+    fetch('data/exec_moves_auto.json', { cache: 'no-cache' })
+      .then(r => r.ok ? r.json() : [])
+      .then(moves => {
+        if (!Array.isArray(moves) || moves.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">No executive moves tracked yet. Source: SEC EDGAR Form 4 + Form 8-K Item 5.02.</td></tr>';
+          return;
         }
-      }
-    });
 
-    moves.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+        moves.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+        if (countEl) countEl.textContent = `Showing ${Math.min(moves.length, 100)} of ${moves.length} executive moves · Source: SEC EDGAR`;
 
-    if (moves.length === 0) {
-      tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">No recent executive moves found in SEC EDGAR feed. This tracker surfaces Form 4 insider transactions + Form 8-K Item 5.02 officer appointments at public frontier tech companies.</td></tr>';
-      return;
-    }
+        tbody.innerHTML = moves.slice(0, 100).map(m => {
+          const typeRaw = (m.type || 'Officer Appointment').toString();
+          const isOfficer = /officer|appoint|resign|retire|director|ceo|cfo|cto|coo/i.test(typeRaw);
+          const typeBadge = isOfficer
+            ? '<span style="background:rgba(239,68,68,0.15); color:#f87171; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;">' + esc(typeRaw) + '</span>'
+            : '<span style="background:rgba(96,165,250,0.15); color:#60a5fa; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;">' + esc(typeRaw) + '</span>';
+          const sourceLabel = m.form ? 'SEC ' + m.form : 'SEC';
+          return `
+            <tr>
+              <td style="font-weight:600;">${esc(m.company)}${m.ticker ? ` <span style="color:rgba(255,255,255,0.4); font-size:11px; font-family:'Space Grotesk', monospace;">${esc(m.ticker)}</span>` : ''}</td>
+              <td>${typeBadge}</td>
+              <td style="font-size:12px;">${esc((m.description || '').slice(0, 120))}</td>
+              <td style="font-family:'Space Grotesk', monospace;">${esc(m.date)}</td>
+              <td><a href="${esc(m.url || 'https://www.sec.gov/edgar')}" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none; font-size:11px;">${esc(sourceLabel)} →</a></td>
+            </tr>`;
+        }).join('');
+      })
+      .catch(e => {
+        console.warn('[ExecutiveMoves] Failed:', e);
+        tbody.innerHTML = '<tr><td colspan="5" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">Could not load executive moves data.</td></tr>';
+      });
+  }
 
-    if (countEl) countEl.textContent = `Showing ${Math.min(moves.length, 100)} of ${moves.length} executive moves`;
+  // ── University Spinout Radar — reads data/spinouts_auto.json ──
+  function initUniversitySpinouts() {
+    const tbody = document.getElementById('spinouts-body');
+    const countEl = document.getElementById('spinouts-count');
+    const searchEl = document.getElementById('spinouts-search');
+    const uniEl = document.getElementById('spinouts-university');
+    if (!tbody) return;
+    const esc = (typeof escapeHtml === 'function') ? escapeHtml : (s) => String(s || '');
 
-    tbody.innerHTML = moves.slice(0, 100).map(m => {
-      const typeBadge = m.typeClass === 'officer'
-        ? '<span style="background:rgba(239,68,68,0.15); color:#f87171; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;">Officer Change</span>'
-        : '<span style="background:rgba(96,165,250,0.15); color:#60a5fa; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;">Insider Activity</span>';
-      return `
-        <tr>
-          <td style="font-weight:600;">${esc(m.company)}${m.ticker ? ` <span style="color:rgba(255,255,255,0.4); font-size:11px; font-family:'Space Grotesk', monospace;">${esc(m.ticker)}</span>` : ''}</td>
-          <td>${typeBadge}</td>
-          <td style="font-size:12px;">${esc((m.description || '').slice(0, 120))}</td>
-          <td style="font-family:'Space Grotesk', monospace;">${esc(m.date)}</td>
-          <td><a href="${esc(m.url)}" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none; font-size:11px;">${esc(m.sourceLabel)}</a></td>
-        </tr>
-      `;
-    }).join('');
+    fetch('data/spinouts_auto.json', { cache: 'no-cache' })
+      .then(r => r.ok ? r.json() : [])
+      .then(spinouts => {
+        if (!Array.isArray(spinouts) || spinouts.length === 0) {
+          tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">No spinout data available yet.</td></tr>';
+          return;
+        }
+
+        // Populate university dropdown
+        const unis = [...new Set(spinouts.map(s => s.university).filter(Boolean))].sort();
+        if (uniEl) unis.forEach(u => {
+          const opt = document.createElement('option');
+          opt.value = u;
+          opt.textContent = u;
+          uniEl.appendChild(opt);
+        });
+
+        // Sort most recent first
+        const sorted = [...spinouts].sort((a, b) => (b.founded || 0) - (a.founded || 0));
+
+        function render() {
+          const q = (searchEl?.value || '').trim().toLowerCase();
+          const uni = uniEl?.value || 'all';
+          let filtered = sorted;
+          if (q) filtered = filtered.filter(s =>
+            (`${s.company} ${s.university} ${s.technology || ''}`).toLowerCase().indexOf(q) !== -1
+          );
+          if (uni !== 'all') filtered = filtered.filter(s => s.university === uni);
+
+          if (countEl) countEl.textContent = `Showing ${filtered.length} of ${spinouts.length} spinouts`;
+
+          tbody.innerHTML = filtered.map(s => {
+            const companyLink = s.url
+              ? `<a href="${esc(s.url)}" target="_blank" rel="noopener" style="color:#fff; text-decoration:none; font-weight:600;">${esc(s.company)}</a>`
+              : `<span style="font-weight:600;">${esc(s.company)}</span>`;
+            return `<tr>
+              <td>${companyLink}</td>
+              <td style="font-size:12px; color:rgba(255,255,255,0.7);">${esc(s.university)}</td>
+              <td style="font-size:12px; color:rgba(255,255,255,0.55);">${esc(s.lab || '—')}</td>
+              <td style="font-family:'Space Grotesk', monospace;">${esc(s.founded || '—')}</td>
+              <td style="font-size:12px;">${esc((s.technology || '').slice(0, 80))}</td>
+              <td style="font-size:11px; color:rgba(255,255,255,0.55); text-transform:capitalize;">${esc(s.sector || '—')}</td>
+              <td style="font-family:'Space Grotesk', monospace; color:var(--accent); font-weight:700;">${esc(s.seedFunding || '—')}</td>
+            </tr>`;
+          }).join('');
+        }
+
+        render();
+        if (searchEl) searchEl.addEventListener('input', render);
+        if (uniEl) uniEl.addEventListener('change', render);
+      })
+      .catch(e => {
+        console.warn('[UniversitySpinouts] Failed:', e);
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding:40px; color:rgba(255,255,255,0.4);">Could not load spinouts data.</td></tr>';
+      });
   }
 
   // ── Hero Stats ──
