@@ -36025,23 +36025,23 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-17 16:09
+// Last updated: 2026-04-17 17:55
 const COMPANY_SIGNALS = [
-  { id: 1, type: "milestone", company: "Anthropic", headline: "Anthropic launches Claude Design, a new product for creating quick visuals", source: "TechCrunch", time: "1h ago", impact: "medium", unread: true },
-  { id: 2, type: "hire", company: "Anthropic", headline: "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera alum joins Structure as COO", source: "Endpoints News", time: "5h ago", impact: "low", unread: true },
-  { id: 3, type: "funding", company: "AlixLabs", headline: "AlixLabs closes '15M Series A to scale Atomic Layer Etching technology", source: "Tech.eu", time: "7h ago", impact: "medium", unread: true },
-  { id: 4, type: "milestone", company: "Waymo", headline: "Waymo Takes On London", source: "CleanTechnica", time: "12h ago", impact: "low", unread: true },
-  { id: 5, type: "news", company: "OpenAI", headline: "OpenAI starts offering a biology-tuned LLM", source: "Ars Technica Space", time: "18h ago", impact: "low", unread: true },
-  { id: 6, type: "news", company: "Physical Intelligence", headline: "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught", source: "TechCrunch", time: "19h ago", impact: "low", unread: false },
-  { id: 7, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Flight 12 in a Few Weeks Aka Early-Mid May", source: "Next Big Future", time: "20h ago", impact: "low", unread: false },
-  { id: 8, type: "news", company: "Anthropic", headline: "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop", source: "TechCrunch", time: "20h ago", impact: "low", unread: false },
-  { id: 9, type: "milestone", company: "Anthropic", headline: "OpenAI launches biopharma-focused AI model to compete with Anthropic", source: "Endpoints News", time: "21h ago", impact: "medium", unread: false },
-  { id: 10, type: "ipo", company: "Anthropic", headline: "Anthropic CPO leaves Figma's board after reports he will offer a competing product", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
-  { id: 11, type: "news", company: "OpenAI", headline: "Musk v. Altman Is a Battle for OpenAI's Soul", source: "Wired", time: "22h ago", impact: "low", unread: false },
-  { id: 12, type: "contract", company: "SpaceX", headline: "Starlink outage hit drone tests, exposing Pentagon's growing reliance on SpaceX", source: "Defense News", time: "22h ago", impact: "low", unread: false },
-  { id: 13, type: "news", company: "xAI", headline: "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables Breakeven", source: "Next Big Future", time: "23h ago", impact: "low", unread: false },
-  { id: 14, type: "ipo", company: "Blue Origin", headline: "Blue Origin New Glenn 3 Has a Good Static Fire", source: "Next Big Future", time: "23h ago", impact: "medium", unread: false },
-  { id: 15, type: "ipo", company: "Anthropic", headline: "Anthropic Plots Major London Expansion", source: "Wired", time: "1d ago", impact: "medium", unread: false },
+  { id: 1, type: "news", company: "Chef Robotics", headline: "Chef Robotics escaped the robot cooking graveyard and says it's thriving &#8212; here's why", source: "TechCrunch", time: "1h ago", impact: "low", unread: true },
+  { id: 2, type: "milestone", company: "Anthropic", headline: "Anthropic launches Claude Design, a new product for creating quick visuals", source: "TechCrunch", time: "2h ago", impact: "medium", unread: true },
+  { id: 3, type: "hire", company: "Anthropic", headline: "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera alum joins Structure as COO", source: "Endpoints News", time: "6h ago", impact: "low", unread: true },
+  { id: 4, type: "funding", company: "AlixLabs", headline: "AlixLabs closes '15M Series A to scale Atomic Layer Etching technology", source: "Tech.eu", time: "9h ago", impact: "medium", unread: true },
+  { id: 5, type: "milestone", company: "Waymo", headline: "Waymo Takes On London", source: "CleanTechnica", time: "13h ago", impact: "low", unread: true },
+  { id: 6, type: "news", company: "OpenAI", headline: "OpenAI starts offering a biology-tuned LLM", source: "Ars Technica Space", time: "20h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "Physical Intelligence", headline: "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught", source: "TechCrunch", time: "21h ago", impact: "low", unread: false },
+  { id: 8, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Flight 12 in a Few Weeks Aka Early-Mid May", source: "Next Big Future", time: "22h ago", impact: "low", unread: false },
+  { id: 9, type: "milestone", company: "Anthropic", headline: "OpenAI launches biopharma-focused AI model to compete with Anthropic", source: "Endpoints News", time: "22h ago", impact: "medium", unread: false },
+  { id: 10, type: "news", company: "OpenAI", headline: "Musk v. Altman Is a Battle for OpenAI's Soul", source: "Wired", time: "23h ago", impact: "low", unread: false },
+  { id: 11, type: "contract", company: "SpaceX", headline: "Starlink outage hit drone tests, exposing Pentagon's growing reliance on SpaceX", source: "Defense News", time: "1d ago", impact: "low", unread: false },
+  { id: 12, type: "news", company: "xAI", headline: "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables Breakeven", source: "Next Big Future", time: "1d ago", impact: "low", unread: false },
+  { id: 13, type: "ipo", company: "Blue Origin", headline: "Blue Origin New Glenn 3 Has a Good Static Fire", source: "Next Big Future", time: "1d ago", impact: "medium", unread: false },
+  { id: 14, type: "ipo", company: "Anthropic", headline: "Anthropic Plots Major London Expansion", source: "Wired", time: "1d ago", impact: "medium", unread: false },
+  { id: 15, type: "milestone", company: "Anthropic", headline: "Anthropic's Nuclear Bomb", source: "War on the Rocks", time: "1d ago", impact: "low", unread: false },
 ];
 
 // ─── TEGUS-STYLE EXPERT INTELLIGENCE ───
