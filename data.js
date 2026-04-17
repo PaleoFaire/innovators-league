@@ -1280,7 +1280,6 @@ const SECTORS = {
 };
 
 const COMPANIES = [
-  // ─── DEFENSE & SECURITY ───
   {
     name: "Anduril Industries",
     founded: 2017,
@@ -1606,8 +1605,6 @@ tags: ["maritime", "acoustic", "sensing", "defense"]
     techApproach: "Mass-producible 100ft-class unmanned ships for naval endurance missions requiring minimal human oversight over weeks",
     tags: ["autonomous ships", "naval", "defense"]
   },
-
-  // ─── NUCLEAR ENERGY ───
   {
     name: "Valar Atomics",
     founded: 2023,
@@ -1894,8 +1891,6 @@ tags: ["SMR", "nuclear", "Natrium"]
     techApproach: "Molten salt fast reactor technology for recycling nuclear waste into fuel, turning liability into clean energy resource",
     addedDate: "2026-02"
   },
-
-  // ─── SPACE & AEROSPACE ───
   {
     name: "SpaceX",
     founded: 2002,
@@ -2229,8 +2224,6 @@ tags: ["ground stations", "satellite comms", "space"]
     techApproach: "Lunar lander and services company — first American company to land on the Moon since Apollo via Nova-C lander",
     tags: ["Moon", "lunar lander", "NASA"]
   },
-
-  // ─── SUPERSONIC & HYPERSONIC ───
   {
     name: "Boom Supersonic",
     founded: 2014,
@@ -2325,8 +2318,6 @@ tags: ["supersonic", "aviation", "commercial jets"],
     techApproach: "Mach 9+ hypersonic vehicles using rotating detonation engines for both commercial point-to-point transport and defense applications",
     tags: ["hypersonic", "Mach 9", "aviation"]
   },
-
-  // ─── AI & SOFTWARE ───
   {
     name: "Physical Intelligence",
     founded: 2024,
@@ -2510,8 +2501,6 @@ tags: ["data analytics", "AI", "defense", "government"],
     techApproach: "Devin autonomous AI software engineer capable of end-to-end coding, debugging, and deployment with minimal human supervision",
     addedDate: "2025-01"
   },
-
-  // ─── ROBOTICS & MANUFACTURING ───
   {
     name: "Hadrian",
     founded: 2020,
@@ -2695,8 +2684,6 @@ tags: ["data analytics", "AI", "defense", "government"],
     techApproach: "Acquiring and modernizing legacy aerospace component suppliers through technology upgrades and operational improvements",
     tags: ["acquisitions", "aerospace components", "manufacturing"]
   },
-
-  // ─── BIOTECH & HEALTH ───
   {
     name: "Altos Labs",
     founded: 2021,
@@ -2850,8 +2837,6 @@ tags: ["genomics", "embryo screening", "reproductive"]
     techApproach: "Polygenic embryo screening using whole-genome sequencing and AI analysis for IVF embryo selection with comprehensive trait coverage",
     addedDate: "2026-02"
   },
-
-  // ─── CLIMATE & ENERGY ───
   {
     name: "Terraform Industries",
     founded: 2021,
@@ -3083,8 +3068,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Integrated power management technology for data centers using proprietary voltage regulation to maximize energy efficiency",
     tags: ["power management", "data centers", "efficiency"]
   },
-
-  // ─── DRONES & AUTONOMOUS ───
   {
     name: "Zipline",
     founded: 2014,
@@ -3177,8 +3160,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Next-generation blimp and airship technology for heavy cargo transport, surveillance, and communications relay at low cost",
     tags: ["airships", "blimps", "cargo"]
   },
-
-  // ─── CHIPS & SEMICONDUCTORS ───
   {
     name: "Cerebras",
     founded: 2015,
@@ -3293,8 +3274,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "2D semiconductor using Molybdenum Disulfide (MoS2) instead of silicon for transistors, enabling continued Moore\'s Law scaling",
     tags: ["2D materials", "MoS2", "5G", "semiconductors"]
   },
-
-  // ─── HOUSING & CONSTRUCTION ───
   {
     name: "Cuby Technologies",
     founded: 2021,
@@ -3335,8 +3314,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Factory-manufactured panel-based modular construction producing custom homes from precision-engineered components",
     tags: ["modular homes", "panel-based", "construction"]
   },
-
-  // ─── TRANSPORTATION ───
   {
     name: "The Boring Company",
     founded: 2017,
@@ -3409,8 +3386,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "High-performance electric boats combining advanced battery technology with luxury marine design for emission-free boating",
     tags: ["electric boats", "marine", "batteries"]
   },
-
-  // ─── CONSUMER TECH ───
   {
     name: "Matic Robotics",
     founded: 2017,
@@ -3483,8 +3458,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Underground magnetic field detection for utility locating using novel magnetometer arrays to map buried infrastructure",
     tags: ["utility locating", "underground", "mapping"]
   },
-
-  // ─── NEW: DEFENSE & SECURITY (from a16z AD50, Black Flag 100, Diary notes) ───
   {
     name: "Forterra",
     founded: 2002,
@@ -3796,8 +3769,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Mission-adaptable autonomous aerial vehicles at one-fifth traditional cost using modular payloads and AI autonomy",
     tags: ["drones", "autonomous", "low-cost", "defense"]
   },
-
-  // ─── NEW: SPACE & AEROSPACE ───
   {
     name: "Aalyria",
     founded: 2021,
@@ -3996,8 +3967,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Space-based solar power using LEO satellites with infrared laser power beaming to ground receivers for 24/7 clean energy",
     tags: ["space solar", "power beaming", "energy"]
   },
-
-  // ─── NEW: AI & SOFTWARE ───
   {
     name: "Applied Intuition",
     founded: 2017,
@@ -4123,8 +4092,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "AI copilot for commercial aviation providing real-time flight optimization, safety monitoring, and autonomous flight assistance",
     tags: ["aviation AI", "autonomous flight", "safety"]
   },
-
-  // ─── NEW: ROBOTICS & MANUFACTURING ───
   {
     name: "Agility Robotics",
     founded: 2015,
@@ -4269,8 +4236,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Fully automated PCB layout using AI constraint satisfaction to produce optimal circuit board designs without human engineers",
     tags: ["PCB layout", "AI automation", "hardware"]
   },
-
-  // ─── NEW: BIOTECH & HEALTH ───
   {
     name: "Science Corporation",
     founded: 2021,
@@ -4307,8 +4272,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Autonomous surgical robots using AI vision and machine learning to perform precise procedures with reduced human intervention",
     tags: ["surgical robots", "AI", "healthcare"]
   },
-
-  // ─── NEW: CLIMATE & ENERGY ───
   {
     name: "Solugen",
     founded: 2016,
@@ -4525,8 +4488,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Electrochemical refining for critical minerals producing battery-grade lithium, nickel, and cobalt without traditional acid leaching",
     tags: ["critical minerals", "lithium", "electrochemistry"]
   },
-
-  // ─── NEW: DRONES & AUTONOMOUS ───
   {
     name: "Manna Aero",
     founded: 2018,
@@ -4538,7 +4499,7 @@ tags: ["fusion", "field-reversed", "energy"],
     lat: 53.3498,
     lng: -6.2603,
     fundingStage: "Series B",
-    totalRaised: "$60M+",
+    totalRaised: "$110M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "autonomy-delivery-logistics",
@@ -4563,8 +4524,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Autonomous drone-in-a-box security systems providing continuous perimeter surveillance without human pilot operators",
     tags: ["security drones", "autonomous", "surveillance"]
   },
-
-  // ─── NEW: CHIPS & SEMICONDUCTORS ───
   {
     name: "Atom Computing",
     founded: 2018,
@@ -4619,8 +4578,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Atomic-scale MEMS building programmable matter and nanoelectromechanical systems at the level of individual atoms",
     tags: ["MEMS", "nanoscale", "atomic precision"]
   },
-
-  // ─── NEW: OCEAN & MARITIME ───
   {
     name: "Bedrock Ocean",
     founded: 2019,
@@ -4675,8 +4632,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Autonomous wind-powered cargo vessels using modern wing sail technology for zero-emission trans-oceanic freight shipping",
     tags: ["autonomous ships", "wind-powered", "cargo"]
   },
-
-  // ─── NEW: QUANTUM COMPUTING ───
   {
     name: "Conductor Quantum",
     founded: 2024,
@@ -4695,8 +4650,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "Silicon-based quantum computing making qubits on standard CMOS chips for compatibility with existing semiconductor manufacturing",
     tags: ["quantum computing", "silicon", "semiconductor"]
   },
-
-  // ─── NEW: INFRASTRUCTURE & LOGISTICS ───
   {
     name: "Amperon",
     founded: 2018,
@@ -4806,8 +4759,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "AI-powered supply chain automation for defense logistics optimizing procurement, inventory, and distribution workflows",
     tags: ["supply chain", "AI", "logistics"]
   },
-
-  // ─── NEW: CONSUMER TECH ───
   {
     name: "Daylight Computer",
     founded: 2018,
@@ -4844,17 +4795,6 @@ tags: ["fusion", "field-reversed", "energy"],
     techApproach: "AI-powered tutoring platform using game-based learning and personalized AI instruction for STEM education",
     tags: ["AI tutoring", "education", "kids"]
   },
-
-  // ═══════════════════════════════════════════════════════════════════
-  // MASSIVE EXPANSION — Feb 2026
-  // Sources: a16z, 8VC, Founders Fund, Lux Capital, Sequoia, Trip March,
-  // Contrary Research, Not Boring, First Principles, Jason Carman S3,
-  // + industry research across nuclear, supersonic, robotaxis, drones,
-  // space, defense, robotics, AI education, AI healthcare, genomics,
-  // solar+batteries, BCI, and other frontier tech
-  // ═══════════════════════════════════════════════════════════════════
-
-  // ─── DEFENSE & SECURITY (new) ───
   {
     name: "Helsing",
     founded: 2021,
@@ -5090,8 +5030,6 @@ tags: ["defense software", "DoD", "platform"]
     techApproach: "Battlefield biotech developing rapid-deployment medical interventions and trauma treatment technologies for military medicine",
     tags: ["military biotech", "defense medicine", "battlefield"]
   },
-
-  // ─── NUCLEAR ENERGY (new) ───
   {
     name: "NuScale Power",
     founded: 2007,
@@ -5250,8 +5188,6 @@ tags: ["fusion", "inertial confinement", "laser"]
     techApproach: "Pulsed power devices for nuclear effects testing — first fusion company to sell a product generating fusion revenue",
     tags: ["fusion", "pulsed power", "defense"]
   },
-
-  // ─── SPACE & AEROSPACE (new) ───
   {
     name: "Stoke Space",
     founded: 2019,
@@ -5433,8 +5369,6 @@ tags: ["fusion", "inertial confinement", "laser"]
     techApproach: "Large BlueBird satellites providing broadband directly to unmodified smartphones without requiring specialized ground terminals",
     tags: ["direct-to-cell", "satellites", "broadband"]
   },
-
-  // ─── SUPERSONIC & HYPERSONIC (new) ───
   {
     name: "Exosonic",
     founded: 2019,
@@ -5489,8 +5423,6 @@ tags: ["fusion", "inertial confinement", "laser"]
     techApproach: "Autonomous heavy-lift aerial robots replacing traditional cranes and helicopters for grid, telecom, energy, and defense logistics",
     tags: ["autonomous", "heavy lift", "aerial robotics", "logistics"]
   },
-
-  // ─── AI & SOFTWARE (new) ───
   {
     name: "OpenAI",
     founded: 2015,
@@ -5658,9 +5590,6 @@ tags: ["LLM", "open-source AI", "frontier AI"]
     techApproach: "Safety-focused LLM specifically trained on medical data with built-in clinical guardrails for healthcare applications",
     tags: ["healthcare AI", "LLM", "patient care"]
   },
-
-  // ─── ROBOTICS & MANUFACTURING (new) ───
-  // REMOVED: Covariant — acqui-hired by Amazon (Aug 2024), co-founders joined Amazon, company is now a zombie entity
   {
     name: "Gecko Robotics",
     founded: 2013,
@@ -5742,8 +5671,6 @@ tags: ["LLM", "open-source AI", "frontier AI"]
     techApproach: "Autonomous construction robots operating in unstructured environments for automated building assembly and earth moving",
     tags: ["construction robots", "autonomous", "earthmoving"]
   },
-
-  // ─── BIOTECH & HEALTH (new) ───
   {
     name: "Recursion Pharmaceuticals",
     founded: 2013,
@@ -5870,8 +5797,6 @@ tags: ["LLM", "open-source AI", "frontier AI"]
     techApproach: "NLP system that transcribes doctor-patient conversations into structured clinical notes integrated directly into EHR systems",
     tags: ["clinical documentation", "AI healthcare", "NLP"]
   },
-
-  // ─── CLIMATE & ENERGY (new) ───
   {
     name: "Heirloom Carbon",
     founded: 2020,
@@ -6052,8 +5977,6 @@ tags: ["LLM", "open-source AI", "frontier AI"]
     techApproach: "AI-powered mining operations combining software-enabled mine planning with autonomous extraction for critical mineral production",
     tags: ["mining", "critical minerals", "AI"]
   },
-
-  // ─── DRONES & AUTONOMOUS (new) ───
   {
     name: "Aurora Innovation",
     founded: 2017,
@@ -6128,7 +6051,6 @@ tags: ["eVTOL", "air taxi", "urban air mobility"]
     techApproach: "Hydrofoiling electric water transport reimagining mass transit on waterways using foil-borne electric vessels",
 tags: ["hydrofoil", "water transport", "electric"]
   },
-  // ─── CHIPS & SEMICONDUCTORS (new) ───
   {
     name: "PsiQuantum",
     founded: 2016,
@@ -6201,8 +6123,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "In-memory computing chiplets performing AI inference directly in SRAM, eliminating data movement bottleneck between memory and compute",
     tags: ["in-memory computing", "AI inference", "chiplets"]
   },
-
-  // ─── HOUSING & CONSTRUCTION (new) ───
   {
     name: "Inversion Space",
     founded: 2021,
@@ -6221,8 +6141,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Orbital warehouses and reentry capsules for space-based logistics, storing and delivering goods from orbit on demand",
     tags: ["space logistics", "orbital warehouse", "reentry"]
   },
-
-  // ─── TRANSPORTATION (new) ───
   {
     name: "Lumina Vehicles",
     founded: 2021,
@@ -6259,8 +6177,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Battery-electric container ships using modular swappable battery containers to convert fossil-fuel vessels to electric power",
     tags: ["electric ships", "maritime", "zero-emission"]
   },
-
-  // ─── CONSUMER TECH (new) ───
   {
     name: "Framework Computer",
     founded: 2020,
@@ -6297,8 +6213,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Ultra-quiet electric propulsion using novel fan blade geometry to reduce noise by 20dB for drones and air vehicles",
     tags: ["quiet propulsion", "electric aviation", "noise reduction"]
   },
-
-  // ─── QUANTUM COMPUTING (new) ───
   {
     name: "IonQ",
     founded: 2015,
@@ -6353,8 +6267,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Neutral-atom quantum computer using programmable arrays of Rydberg atoms for analog and digital quantum computation",
     tags: ["neutral-atom", "quantum computing", "Harvard"]
   },
-
-  // ─── OCEAN & MARITIME (new) ───
   {
     name: "NetworkOcean",
     founded: 2023,
@@ -6391,9 +6303,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Autonomous underwater robots for ocean exploration, inspection, and data collection in extreme deep-sea environments",
     tags: ["underwater robots", "ocean exploration", "marine"]
   },
-  // REMOVED: Running Tide — shut down June 2024, insufficient voluntary carbon market demand
-
-  // ─── INFRASTRUCTURE & LOGISTICS (new) ───
   {
     name: "Fortastra",
     founded: 2025,
@@ -6424,30 +6333,12 @@ tags: ["hydrofoil", "water transport", "electric"]
     lat: -33.8688,
     lng: 151.2093,
     fundingStage: "Series B",
-    totalRaised: "$30M+",
+    totalRaised: "$29M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "ai-mineral-exploration",
     techApproach: "AI-powered mineral exploration using ML on geological data to discover critical metals with 10x better drill targeting",
     tags: ["AI mining", "mineral exploration", "critical metals"]
-  },
-  {
-    name: "Watoga Tech",
-    founded: 2024,
-    sector: "Infrastructure & Logistics",
-    description: "Building autonomous mining technology for safer, more efficient extraction of critical minerals. Robotic mining systems that operate in hazardous environments.",
-    founder: "Elliot Forcier-Poirier, Roko Baljak",
-    location: "Montreal, Canada",
-    state: "QC-CAN",
-    lat: 45.5017,
-    lng: -73.5673,
-    fundingStage: "Seed",
-    totalRaised: "",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "robotics-construction-mining",
-    techApproach: "Autonomous mining technology for safer, more efficient extraction of critical minerals using robotic systems",
-    tags: ["autonomous mining", "robotics", "critical minerals"]
   },
   {
     name: "Wardstone",
@@ -6468,24 +6359,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     tags: ["infrastructure security", "resilience", "defense"]
   },
   {
-    name: "Teralta",
-    founded: 2021,
-    sector: "Infrastructure & Logistics",
-    description: "Helping industrial buyers get hydrogen when and where they need it. Building hydrogen logistics infrastructure for the energy transition.",
-    founder: "Simon Pickup",
-    location: "Burnaby, Canada",
-    state: "BC-CAN",
-    lat: 49.2434,
-    lng: -122.9725,
-    fundingStage: "Seed",
-    totalRaised: "",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "electrolysis-green-hydrogen",
-    techApproach: "Hydrogen logistics and distribution infrastructure helping industrial buyers access green hydrogen when and where needed",
-    tags: ["hydrogen logistics", "energy", "industrial"]
-  },
-  {
     name: "GenMat",
     founded: 2021,
     sector: "Infrastructure & Logistics",
@@ -6503,16 +6376,12 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "AI system for atomic-level physics simulation discovering new materials and predicting their properties computationally",
     tags: ["materials science", "AI", "physics simulation"]
   },
-
-  // ===== INTERNATIONAL COMPANIES =====
-
-  // --- UNITED KINGDOM ---
   {
     name: "Tokamak Energy",
     founded: 2009,
     sector: "Nuclear Energy",
     description: "Building compact spherical tokamak fusion reactors using high-temperature superconducting magnets, targeting commercial fusion power. CEO is Warrick Matthews since January 2023.",
-    founder: "David Kingham",
+    founder: "David Kingham, Mikhail Gryaznevich",
     location: "Oxford, UK",
     state: "UK",
     lat: 51.7520,
@@ -6529,7 +6398,7 @@ tags: ["hydrofoil", "water transport", "electric"]
     name: "First Light Fusion",
     founded: 2011,
     sector: "Nuclear Energy",
-    description: "Pioneering projectile fusion technology that fires projectiles at extreme speed to achieve fusion energy. Confirmed fusion in 2022.",
+    description: "Pioneered projectile fusion technology firing projectiles at extreme speed to achieve fusion. Abandoned power-plant plans March 2025, pivoted to become a fusion-tech supplier licensing amplifier technology.",
     founder: "Nicholas Hawker",
     location: "Oxford, UK",
     state: "UK",
@@ -6580,25 +6449,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     tags: ["autonomous vehicles", "AI", "embodied intelligence"]
   },
   {
-    name: "Orbex",
-    founded: 2015,
-    sector: "Space & Aerospace",
-    description: "Built the Prime orbital launch vehicle, a low-carbon rocket for small satellite launches from UK spaceports. Filed for administration in February 2026 after failed acquisition.",
-    founder: "Phillip Chambers",
-    location: "Forres, UK",
-    state: "UK",
-    lat: 57.6101,
-    lng: -3.6200,
-    fundingStage: "Series C",
-    totalRaised: "$65M+",
-    valuation: "",
-    signal: "dead",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "space-launch-small-intl",
-    techApproach: "Prime orbital launch vehicle with 3D-printed rocket engine and bio-propane fuel for low-carbon small satellite launches from Scotland",
-    tags: ["rockets", "launch vehicles", "small satellites", "space"]
-  },
-  {
     name: "Vertical Aerospace",
     founded: 2016,
     ticker: "EVTL",
@@ -6640,8 +6490,8 @@ tags: ["hydrofoil", "water transport", "electric"]
     name: "Oxford Quantum Circuits",
     founded: 2017,
     sector: "Quantum Computing",
-    description: "Building superconducting quantum computers with a proprietary 3D Coaxmon architecture for quantum advantage.",
-    founder: "Ilana Wisby",
+    description: "Building superconducting quantum computers with proprietary 3D Coaxmon architecture for quantum advantage. Ilana Wisby stepped down as CEO in May 2024; Gerald Mullally is interim CEO.",
+    founder: "Peter Leek, Ilana Wisby",
     location: "Oxford, UK",
     state: "UK",
     lat: 51.7434,
@@ -6678,8 +6528,8 @@ tags: ["hydrofoil", "water transport", "electric"]
     sector: "Transportation",
     description: "Developing hydrogen-electric aviation powertrains for regional aircraft, targeting zero-emission commercial flights.",
     founder: "Val Miftakhov",
-    location: "London, UK",
-    state: "UK",
+    location: "Kemble, UK",
+    state: "GB",
     lat: 51.5109,
     lng: -0.1209,
     fundingStage: "Series C",
@@ -6701,33 +6551,13 @@ tags: ["hydrofoil", "water transport", "electric"]
     lat: 51.4816,
     lng: -3.1791,
     fundingStage: "Series A",
-    totalRaised: "$20M+",
+    totalRaised: "$40M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "space-habitats-manufacturing",
     techApproach: "Microgravity manufacturing of advanced materials and semiconductors using returnable satellite capsules for space-made products",
     tags: ["space manufacturing", "materials", "satellites"]
   },
-  {
-    name: "Gravitricity",
-    founded: 2011,
-    sector: "Climate & Energy",
-    description: "Developing gravity-based energy storage using heavy weights in deep mine shafts for long-duration grid storage.",
-    founder: "Charlie Blair",
-    location: "Edinburgh, UK",
-    state: "UK",
-    lat: 55.9579,
-    lng: -3.1788,
-    fundingStage: "Series A",
-    totalRaised: "$10M+",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "energy-storage-thermal-gravity",
-    techApproach: "Gravity-based energy storage using heavy weights suspended in deep mine shafts, releasing energy by controlled descent",
-    tags: ["gravity storage", "energy storage", "grid", "mining"]
-  },
-
-  // --- GERMANY ---
   {
     name: "Isar Aerospace",
     founded: 2018,
@@ -6769,7 +6599,7 @@ tags: ["hydrofoil", "water transport", "electric"]
     founded: 2023,
     sector: "Nuclear Energy",
     description: "Building stellarator fusion power plants using quasi-isodynamic optimization. Spun out of Max Planck Institute. Europe's largest fusion raise.",
-    founder: "Francesco Sciortino",
+    founder: "Francesco Sciortino, Lucio Milanese, Jorrit Lion, Jonathan Schilling, Martin Kubie",
     location: "Munich, Germany",
     state: "DE",
     lat: 48.1339,
@@ -6872,8 +6702,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Neutral-atom quantum computing using optical lattices to trap atoms in ordered crystal-like arrays for scalable qubit control",
     tags: ["quantum computing", "neutral atom", "optical lattice"]
   },
-
-  // --- FRANCE ---
   {
     name: "Pasqal",
     founded: 2019,
@@ -6911,36 +6739,17 @@ tags: ["hydrofoil", "water transport", "electric"]
     tags: ["warehouse robotics", "logistics", "Skypod"]
   },
   {
-    name: "Naarea",
-    founded: 2020,
-    sector: "Nuclear Energy",
-    description: "Built molten salt microreactors (XAMR) for decentralized nuclear energy, producing both electricity and industrial heat. Filed for bankruptcy in 2026 after burning through EUR 90M.",
-    founder: "Jean-Luc Alexandre",
-    location: "Paris, France",
-    state: "FR",
-    lat: 48.8558,
-    lng: 2.3193,
-    fundingStage: "Series A",
-    totalRaised: "€90M",
-    valuation: "",
-    signal: "dead",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "nuclear-msr",
-    techApproach: "Molten salt microreactor (XAMR) for decentralized energy producing heat and electricity from thorium-based fuel",
-    tags: ["nuclear", "molten salt", "microreactor", "decentralized"]
-  },
-  {
     name: "Renaissance Fusion",
     founded: 2020,
     sector: "Nuclear Energy",
     description: "Developing high-temperature superconducting magnets and stellarator fusion reactors for clean energy.",
-    founder: "Francesco Volpe",
+    founder: "Simon Belka, Francesco Volpe, Martin Kupp",
     location: "Grenoble, France",
     state: "FR",
     lat: 45.1876,
     lng: 5.7358,
     fundingStage: "Series A",
-    totalRaised: "$40M+",
+    totalRaised: "$43M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "fusion-magnetic-confinement",
@@ -7003,42 +6812,21 @@ tags: ["hydrofoil", "water transport", "electric"]
   },
   {
     name: "Latitude",
-    founded: 2022,
+    founded: "2019",
     sector: "Space & Aerospace",
     description: "Building the Zephyr micro-launcher for small satellite deployment from European spaceports.",
-    founder: "Stanislas Maximin",
+    founder: "Maximin Gayet, Kevin Monvoisin, Ilan Saidi-Bekerman",
     location: "Reims, France",
     state: "FR",
     lat: 49.2583,
     lng: 4.0317,
     fundingStage: "Series B",
-    totalRaised: "$30M+",
+    totalRaised: "€50M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "space-launch-small-intl",
     techApproach: "Zephyr micro-launcher for dedicated small satellite deployment from French Guiana using hybrid solid-liquid propulsion",
     tags: ["rockets", "micro-launcher", "small satellites"]
-  },
-
-  // --- SWEDEN ---
-  {
-    name: "H2 Green Steel",
-    founded: 2020,
-    sector: "Climate & Energy",
-    description: "Renamed to Stegra in September 2024. See Stegra entry.",
-    founder: "Harald Mix",
-    location: "Boden, Sweden",
-    state: "SE",
-    lat: 66.2670,
-    lng: 21.7270,
-    fundingStage: "Series D",
-    totalRaised: "$6.5B+",
-    valuation: "",
-    signal: "dead",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "green-steel-metals",
-    techApproach: "Giga-scale green hydrogen steel plant replacing coal-based blast furnaces with hydrogen direct reduction in northern Sweden",
-    tags: ["green steel", "hydrogen", "decarbonization", "industrial"]
   },
   {
     name: "Einride",
@@ -7076,8 +6864,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Full-body scanning using advanced hardware and AI diagnostics to detect diseases early through comprehensive preventive health screening",
     tags: ["preventive healthcare", "body scanning", "diagnostics"]
   },
-
-  // --- FINLAND ---
   {
     name: "ICEYE",
     founded: 2014,
@@ -7132,14 +6918,12 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Producing protein from CO2, water, and electricity using hydrogen-oxidizing bacteria — food without agriculture or photosynthesis",
     tags: ["novel protein", "CO2 capture", "food tech", "biotech"]
   },
-
-  // --- SWITZERLAND ---
   {
     name: "Climeworks",
     founded: 2009,
     sector: "Climate & Energy",
     description: "World leader in direct air carbon capture using modular CO2 collectors. Operating world's largest DAC plant in Iceland.",
-    founder: "Christoph Gebald",
+    founder: "Christoph Gebald, Jan Wurzbacher",
     location: "Zurich, Switzerland",
     state: "CH",
     lat: 47.3769,
@@ -7188,13 +6972,11 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Solar fuel production using concentrated sunlight at 1500C to thermochemically split CO2 and water into synthetic jet fuel",
     tags: ["solar fuels", "synthetic fuel", "aviation", "sunlight"]
   },
-
-  // --- DENMARK ---
   {
-    name: "Seaborg Technologies",
+    name: "Saltfoss Energy",
     founded: 2014,
     sector: "Nuclear Energy",
-    description: "Developing compact molten salt reactors on floating barges for scalable, portable nuclear power deployment.",
+    description: "Compact molten-salt reactor developer (renamed from Seaborg Technologies in April 2025) targeting marine and industrial power applications.",
     founder: "Troels Schonfeldt",
     location: "Copenhagen, Denmark",
     state: "DK",
@@ -7226,8 +7008,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Modular thorium molten salt reactors in shipping container form factor for mass production and global deployment",
     tags: ["nuclear", "thorium", "molten salt", "modular"]
   },
-
-  // --- NORWAY ---
   {
     name: "T1 Energy (formerly FREYR Battery)",
     founded: 2018,
@@ -7247,8 +7027,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "US-based solar module manufacturing at 5 GW scale, pivoted from battery cell production to vertically integrated solar manufacturing",
     tags: ["solar manufacturing", "renewable energy", "pivoted"]
   },
-
-  // --- NETHERLANDS ---
   {
     name: "QuantWare",
     founded: 2020,
@@ -7260,15 +7038,13 @@ tags: ["hydrofoil", "water transport", "electric"]
     lat: 52.0116,
     lng: 4.3571,
     fundingStage: "Series A",
-    totalRaised: "$10M+",
+    totalRaised: "$27M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "quantum-superconducting",
     techApproach: "Off-the-shelf superconducting quantum processors democratizing quantum hardware access through standardized QPU sales",
     tags: ["quantum computing", "superconducting", "hardware"]
   },
-
-  // --- SPAIN ---
   {
     name: "PLD Space",
     founded: 2011,
@@ -7287,8 +7063,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "MIURA family of launch vehicles — first Spanish orbital rocket company with successful suborbital demonstration flights",
     tags: ["rockets", "launch vehicles", "European space"]
   },
-
-  // --- ITALY ---
   {
     name: "D-Orbit",
     founded: 2011,
@@ -7301,15 +7075,13 @@ tags: ["hydrofoil", "water transport", "electric"]
     lat: 45.8081,
     lng: 9.0852,
     fundingStage: "Series D",
-    totalRaised: "$223M+",
+    totalRaised: "$275M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "space-debris-servicing",
     techApproach: "ION orbital transfer vehicle providing precise satellite deployment, in-orbit services, and end-of-life disposal using hosted payloads",
     tags: ["space logistics", "satellite deployment", "in-orbit"]
   },
-
-  // --- ESTONIA ---
   {
     name: "Milrem Robotics",
     founded: 2013,
@@ -7346,28 +7118,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Ultracapacitor energy storage using curved graphene electrodes for ultra-high power density in automotive and grid applications",
     tags: ["supercapacitors", "energy storage", "defense", "automotive"]
   },
-
-  // --- POLAND ---
-  {
-    name: "Saule Technologies",
-    founded: 2014,
-    sector: "Climate & Energy",
-    description: "Developing perovskite solar cell technology for flexible, lightweight photovoltaics that can be printed on any surface.",
-    founder: "Olga Malinkiewicz",
-    location: "Wroclaw, Poland",
-    state: "PL",
-    lat: 51.1079,
-    lng: 17.0385,
-    fundingStage: "Series B",
-    totalRaised: "$40M+",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "consumer-hardware",
-    techApproach: "Perovskite solar cell technology printed on flexible substrates for building-integrated and portable photovoltaic applications",
-    tags: ["perovskite solar", "flexible PV", "renewable energy"]
-  },
-
-  // --- ISRAEL ---
   {
     name: "Quantum Machines",
     founded: 2018,
@@ -7397,7 +7147,7 @@ tags: ["hydrofoil", "water transport", "electric"]
     lat: 32.0859,
     lng: 34.7722,
     fundingStage: "Series B",
-    totalRaised: "$100M+",
+    totalRaised: "$70M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "autonomy-drone-military",
@@ -7415,7 +7165,7 @@ tags: ["hydrofoil", "water transport", "electric"]
     lat: 31.8928,
     lng: 35.0104,
     fundingStage: "Series C",
-    totalRaised: "$100M+",
+    totalRaised: "$128M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "inspection-quality-robots",
@@ -7427,7 +7177,7 @@ tags: ["hydrofoil", "water transport", "electric"]
     founded: 2004,
     sector: "Space & Aerospace",
     description: "Radiation-hardened computing hardware for space — builds supercomputers that operate in orbit for satellite processing.",
-    founder: "Avi Eldar",
+    founder: "Ran Ginosar, Stefano Poli, Dov Alon, Tuvia Liran",
     location: "Tel Aviv, Israel",
     state: "IL",
     lat: 32.0842,
@@ -7451,7 +7201,7 @@ tags: ["hydrofoil", "water transport", "electric"]
     lat: 32.5013,
     lng: 34.8951,
     fundingStage: "Series C",
-    totalRaised: "$270M+",
+    totalRaised: "$289M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "consumer-hardware",
@@ -7469,15 +7219,13 @@ tags: ["hydrofoil", "water transport", "electric"]
     lat: 31.9730,
     lng: 34.7925,
     fundingStage: "Series B",
-    totalRaised: "$30M+",
+    totalRaised: "$42.6M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "robotics-agriculture",
     techApproach: "Flying autonomous robots that use AI computer vision to identify and pick ripe fruit from trees without damaging crops",
     tags: ["agtech", "fruit picking", "autonomous drones", "agriculture"]
   },
-
-  // --- JAPAN ---
   {
     name: "ispace",
     founded: 2010,
@@ -7569,8 +7317,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Next-gen 2nm semiconductor foundry in Japan backed by $10B+ government investment to restore Japanese chip manufacturing leadership",
     tags: ["semiconductors", "2nm", "foundry", "national champion"]
   },
-
-  // --- SOUTH KOREA ---
   {
     name: "Rebellions",
     founded: 2020,
@@ -7626,8 +7372,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Collaborative and humanoid robots from KAIST HUBO lineage, partnered with Hyundai for next-gen manufacturing automation",
     tags: ["humanoid robots", "cobots", "Hyundai", "KAIST"]
   },
-
-  // --- INDIA ---
   {
     name: "Skyroot Aerospace",
     founded: 2018,
@@ -7701,8 +7445,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Indian drone manufacturer for defense, homeland security, and industrial inspection with rugged, high-altitude capable platforms",
     tags: ["defense drones", "surveillance", "security"]
   },
-
-  // --- CANADA ---
   {
     name: "Xanadu Quantum Technologies",
     founded: 2016,
@@ -7725,14 +7467,14 @@ tags: ["hydrofoil", "water transport", "electric"]
     name: "Terrestrial Energy",
     founded: 2013,
     sector: "Nuclear Energy",
-    description: "Developing the Integral Molten Salt Reactor (IMSR), a Generation IV nuclear reactor for clean baseload power.",
+    description: "Canadian SMR developer — integral molten-salt reactor (IMSR) for industrial heat and electricity; went public via SPAC Q4 2025 (Nasdaq: IMSR) netting $280M.",
     founder: "Simon Irish",
     location: "Oakville, Canada",
     state: "CA-CAN",
     lat: 43.4675,
     lng: -79.6877,
-    fundingStage: "Series B",
-    totalRaised: "$100M+",
+    fundingStage: "Public",
+    totalRaised: "$280M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "nuclear-smr-advanced",
@@ -7775,8 +7517,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "CO2 mineralization injecting captured carbon into fresh concrete during mixing, permanently sequestering CO2 while strengthening concrete",
     tags: ["carbon capture", "concrete", "CO2 mineralization"]
   },
-
-  // --- AUSTRALIA ---
   {
     name: "Fleet Space Technologies",
     founded: 2015,
@@ -7799,14 +7539,14 @@ tags: ["hydrofoil", "water transport", "electric"]
     name: "Quantum Brilliance",
     founded: 2019,
     sector: "Quantum Computing",
-    description: "Building room-temperature quantum computers using synthetic diamond nitrogen-vacancy centers. Portable quantum computing.",
+    description: "Room-temperature diamond-based quantum computing — Series A $20M + $23M NRFC/Breakthrough Victoria (Jan 2025); opened world's first commercial quantum diamond foundry November 2025.",
     founder: "Mark Luo",
     location: "Canberra, Australia",
     state: "AU",
     lat: -35.2809,
     lng: 149.1300,
     fundingStage: "Series B",
-    totalRaised: "$30M+",
+    totalRaised: "$50M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "quantum-sensors-software",
@@ -7842,16 +7582,14 @@ tags: ["hydrofoil", "water transport", "electric"]
     state: "AU",
     lat: -34.0264,
     lng: 151.0791,
-    fundingStage: "Seed",
-    totalRaised: "$21M+",
+    fundingStage: "Growth",
+    totalRaised: "A$60M+ (incl. A$25.3M ARENA grant Nov 2025)",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "consumer-hardware",
     techApproach: "Copper-replacing-silver solar cell metallization achieving world record efficiency while eliminating expensive silver from cell contacts",
     tags: ["solar cells", "copper", "efficiency record", "renewable"]
   },
-
-  // --- SINGAPORE ---
   {
     name: "Silicon Box",
     founded: 2021,
@@ -7870,16 +7608,14 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Advanced chiplet-based semiconductor packaging using fan-out wafer-level technology for heterogeneous chip integration",
     tags: ["semiconductor packaging", "chiplets", "advanced packaging"]
   },
-
-  // --- ARGENTINA ---
   {
     name: "Satellogic",
     founded: 2010,
     sector: "Space & Aerospace",
-    description: "Builds sub-meter resolution Earth observation satellites at low cost. Latin America's leading satellite company. Publicly listed.",
+    description: "Argentine-origin Earth-observation SAR and optical satellite operator — corporate HQ relocated to Delaware 2025 as US-listed (Nasdaq: SATL); original engineering and ops remain in Buenos Aires.",
     founder: "Emiliano Kargieman",
-    location: "Buenos Aires, Argentina",
-    state: "AR",
+    location: "Wilmington, Delaware",
+    state: "DE",
     lat: -34.6037,
     lng: -58.3816,
     fundingStage: "Public",
@@ -7890,8 +7626,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Sub-meter resolution Earth observation satellites at low cost, building Latin America\'s first commercial imaging constellation",
     tags: ["Earth observation", "satellites", "high resolution"]
   },
-
-  // --- NEW ZEALAND ---
   {
     name: "Dawn Aerospace",
     founded: 2017,
@@ -7910,8 +7644,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "Reusable spaceplane technology using horizontal takeoff and landing for daily orbital access and green satellite propulsion",
     tags: ["spaceplane", "reusable", "green propulsion", "suborbital"]
   },
-
-  // --- SOUTH AFRICA ---
   {
     name: "Dragonfly Aerospace",
     founded: 2019,
@@ -7930,8 +7662,6 @@ tags: ["hydrofoil", "water transport", "electric"]
     techApproach: "High-resolution imaging payloads and small Earth observation satellites built in South Africa for global customers",
     tags: ["satellite imaging", "Earth observation", "African space"]
   },
-
-  // --- BRAZIL ---
   {
     name: "Solinftec",
     founded: 2007,
@@ -7943,15 +7673,13 @@ tags: ["hydrofoil", "water transport", "electric"]
     lat: -21.2089,
     lng: -50.4328,
     fundingStage: "Series D",
-    totalRaised: "$70M+",
+    totalRaised: "$289M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
         thesisCluster: "robotics-agriculture",
     techApproach: "Autonomous agricultural robots and AI farm machinery for large-scale precision farming operations",
 tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
-
-  // ─── GOOGLE SHEET ADDITIONS (Feb 2026) ───
   {
     name: "Hugging Face",
     founded: 2016,
@@ -8213,12 +7941,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     sector: "Defense & Security",
     description: "European defense tech company building autonomous maritime defense systems. Bridging Greek naval heritage with modern autonomous technology.",
     founder: "Dimitrios Kottas, Georgios Kontogiannis, Ioannis Souriadakis",
-    location: "London, UK",
-    state: "UK",
+    location: "Athens, Greece",
+    state: "GR",
     lat: 51.5002,
     lng: -0.1209,
     fundingStage: "Seed",
-    totalRaised: "$6.3M",
+    totalRaised: "$14M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["maritime defense", "autonomous systems", "European defense"],
@@ -8277,57 +8005,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     addedDate: "2026-02"
   },
   {
-    name: "Dunia",
-    founded: 2022,
-    sector: "AI & Software",
-    description: "Berlin-based AI company building multi-agent systems for enterprise automation. Orchestrating teams of AI agents to handle complex business workflows.",
-    founder: "Alexander Hammer, Marcus Tze-Kiat Ng, Ahmed Ismail",
-    location: "Berlin, Germany",
-    state: "DE",
-    lat: 52.5200,
-    lng: 13.4050,
-    fundingStage: "Seed",
-    totalRaised: "$11.5M",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["multi-agent AI", "enterprise automation", "workflow", "German AI"],
-    signal: "stealth",
-    scores: null,
-    competitors: [],
-    recentEvent: { type: "funding", text: "$11.5M seed for multi-agent AI platform", date: "2025-09" },
-    thesisCluster: "ai-saas-enterprise",
-    techApproach: "Multi-agent AI systems for enterprise automation, orchestrating specialized AI agents for complex business workflows",
-    addedDate: "2026-02"
-  },
-  {
-    name: "Phospho",
-    founded: 2023,
-    sector: "AI & Software",
-    description: "Paris-based AI observability platform. Helps companies monitor, evaluate, and improve their LLM-powered applications with analytics and testing tools.",
-    founder: "Pierre-Louis Biojout, Paul-Louis Venard",
-    location: "Paris, France",
-    state: "FR",
-    lat: 48.8469,
-    lng: 2.3261,
-    fundingStage: "Seed",
-    totalRaised: "$1.85M",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["LLM observability", "AI monitoring", "evaluation", "testing"],
-    signal: "stealth",
-    scores: null,
-    competitors: [],
-    recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
-    thesisCluster: "ai-generative-media",
-    techApproach: "AI observability platform monitoring, evaluating, and improving production LLM application quality through automated testing",
-    addedDate: "2026-02"
-  },
-  {
     name: "Deep Atomic",
     founded: 2024,
     sector: "Nuclear Energy",
     description: "Zurich-based nuclear startup developing next-generation reactor technology. Pre-seed stage with ambitious plans for compact nuclear power systems.",
-    founder: "William Theron, Rea Stark",
+    founder: "William G.J. Theron",
     location: "Zurich, Switzerland",
     state: "CH",
     lat: 47.3830,
@@ -8392,29 +8074,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     addedDate: "2026-02"
   },
   {
-    name: "Roboton",
-    founded: 2019,
-    sector: "Robotics & Manufacturing",
-    description: "Czech Republic-based robotics company developing advanced robotic systems for industrial and commercial applications.",
-    founder: "Stealth",
-    location: "Prague, Czech Republic",
-    state: "CZ",
-    lat: 50.0850,
-    lng: 14.4265,
-    fundingStage: "Seed",
-    totalRaised: "",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["industrial robotics", "Czech tech", "automation"],
-    signal: "stealth",
-    scores: null,
-    competitors: [],
-    recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
-    thesisCluster: "robotics-cobots-warehouse",
-    techApproach: "Czech robotics developing advanced industrial robotic systems for manufacturing automation and quality inspection",
-    addedDate: "2026-02"
-  },
-  {
     name: "Long Wall",
     founded: 2017,
     sector: "Defense & Security",
@@ -8435,33 +8094,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     recentEvent: { type: "new", text: "Added to Innovators League database", date: "2026-02" },
     thesisCluster: "defense-munitions-energetics",
     techApproach: "Defense technology company building autonomous systems for military applications from Long Beach manufacturing base",
-    addedDate: "2026-02"
-  },
-
-  // ─── NEW ADDITIONS (Feb 2026) ───
-  {
-    name: "Turbopuffer",
-    founded: 2023,
-    sector: "AI & Software",
-    description: "Serverless vector database built for speed and scale. Designed for AI-native applications requiring fast similarity search across billions of vectors. Founded by former Shopify infrastructure lead.",
-    founder: "Simon Eskildsen",
-    location: "Ottawa, Canada",
-    state: "ON-CAN",
-    lat: 45.4215,
-    lng: -75.6972,
-    fundingStage: "Seed",
-    totalRaised: "",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["vector database", "AI infrastructure", "serverless", "search"],
-    insight: "Turbopuffer is attacking the AI infrastructure layer with a serverless-first architecture that dramatically reduces cost versus incumbents. Simon Eskildsen's infrastructure pedigree from Shopify gives deep credibility.",
-    signal: "stealth",
-    scores: { team: 9, traction: 6, techMoat: 8, market: 9, momentum: 7 },
-    competitors: [],
-    recentEvent: { type: "launch", text: "Public beta launch with serverless vector search", date: "2025-06" },
-    tbpnMentioned: true,
-    thesisCluster: "data-center-infrastructure",
-    techApproach: "Serverless vector database architecture optimized for sub-millisecond similarity search at massive scale for AI-native applications",
     addedDate: "2026-02"
   },
   {
@@ -8514,7 +8146,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "AI-powered health platform using ML for personalized health insights, risk prediction, and preventive care recommendations",
     addedDate: "2026-02"
   },
-  // ─── NEW COMPANIES FROM TRIP MARCH & CA STARTUPS ───
   {
     name: "Bedrock Robotics",
     founded: 2024,
@@ -8840,8 +8471,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "AI-powered hardware platform and SDK transforming commercial drones into defense-capable autonomous systems",
     addedDate: "2026-02"
   },
-
-  // ─── AMERICAN DYNAMISM 50 ADDITIONS ───
   {
     name: "Ambient.ai",
     founded: 2017,
@@ -9264,7 +8893,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "Autonomous drones prepositioned in wildfire-prone areas for immediate aerial suppression response at scale",
     addedDate: "2026-02"
   },
-  // REMOVED: Rapid Robotics — acquired by RobCo (Sep 2025), RobCo already in database
   {
     name: "Rivian",
     founded: 2009,
@@ -9376,8 +9004,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "AI platform for geothermal resource discovery using proprietary subsurface modeling to identify optimal drilling locations",
     addedDate: "2026-02"
   },
-
-  // ─── CANADIAN DEEP TECH ───
   {
     name: "Cohere",
     founded: 2019,
@@ -9484,7 +9110,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 45.4042,
     lng: -71.8929,
     fundingStage: "Seed",
-    totalRaised: "$7.5M+",
+    totalRaised: "C$40M+ (incl. C$23M Quantum Champions Dec 2025)",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["quantum computing", "bosonic qubits", "Canadian"],
@@ -9499,7 +9125,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Kepler Communications",
     founded: 2015,
     sector: "Space & Aerospace",
-    description: "Building a global satellite network to enable communications for the space economy. 23 satellites launched, major contracts with Canadian and European space agencies.",
+    description: "Satellite telecommunications operator building an optical relay network in LEO — launched 10 optical satellites January 2026, ESA HydRON €36M contract, and Canadian Arctic defense contract.",
     founder: "Mina Mitry, Jeffrey Osborne, Mark Michael",
     location: "Toronto, Canada",
     state: "ON-CAN",
@@ -9554,7 +9180,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 45.5086,
     lng: -73.5616,
     fundingStage: "Series A",
-    totalRaised: "$38M CAD",
+    totalRaised: "C$38M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["rockets", "launch", "hybrid propulsion", "Canadian"],
@@ -9563,29 +9189,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     competitors: ["Rocket Lab", "Relativity Space"],
     thesisCluster: "space-launch-small-intl",
     techApproach: "Low-cost hybrid rocket technology combining solid fuel grains with liquid oxidizer for affordable small satellite launches",
-    addedDate: "2026-02"
-  },
-  {
-    name: "Sanctuary AI",
-    founded: 2018,
-    sector: "Robotics & Manufacturing",
-    description: "Developing general-purpose humanoid robots (Phoenix) powered by proprietary AI system (Carbon). Advanced tactile sensing for delicate manipulation tasks.",
-    founder: "Geordie Rose, Suzanne Gildert",
-    location: "Vancouver, Canada",
-    state: "BC-CAN",
-    country: "Canada",
-    lat: 49.3761,
-    lng: -123.2762,
-    fundingStage: "Series B",
-    totalRaised: "$140M",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    tags: ["humanoid robotics", "AI", "manipulation", "Canadian"],
-    signal: "rising",
-    scores: { team: 8, traction: 6, techMoat: 8, market: 9, momentum: 7 },
-    competitors: ["Figure AI", "1X Technologies", "Apptronik"],
-    thesisCluster: "humanoid-robotics",
-    techApproach: "Phoenix humanoid robot with Carbon AI control system pursuing artificial general intelligence through embodied learning",
     addedDate: "2026-02"
   },
   {
@@ -9600,7 +9203,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 45.5047,
     lng: -73.5752,
     fundingStage: "Late Stage",
-    totalRaised: "$60M",
+    totalRaised: "$51.6M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     tags: ["assistive robotics", "robotic arms", "medical", "Canadian"],
@@ -9613,7 +9216,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "ARC Clean Technology",
-    founded: 2006,
+    founded: "2017",
     sector: "Nuclear Energy",
     description: "Developing the ARC-100 small modular reactor designed to generate 100 MW of clean energy for electrical grid and industrial applications.",
     founder: "Don Wolf",
@@ -9634,13 +9237,9 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "ARC-100 small modular reactor generating 100MW of clean electricity using proven sodium-cooled fast reactor technology",
     addedDate: "2026-02"
   },
-
-  // ─── NEW COMPANIES ADDED FEB 2026 (VC Portfolio Deep Dive) ───
-
-  // DEFENSE & AEROSPACE
   {
     name: "Kela",
-    founded: 2009,
+    founded: "2024",
     sector: "Defense & Security",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     description: "Defense integration platform providing modern defense technology solutions for Israel and Western allies.",
@@ -9651,7 +9250,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 32.0896,
     lng: 34.7861,
     fundingStage: "Series A",
-    totalRaised: "$30M+",
+    totalRaised: "$100M",
     valuation: "",
     tags: ["defense", "integration", "allies"],
     signal: "rising",
@@ -9706,8 +9305,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "AI-powered pilot assistance (FlightOS) making any aircraft fly-by-wire autonomous, starting with helicopters for safer aviation",
     addedDate: "2026-02"
   },
-
-  // ROBOTICS & MANUFACTURING
   {
     name: "Dusty Robotics",
     founded: 2018,
@@ -9752,8 +9349,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "Autonomous last-mile delivery robots using AI perception for sidewalk navigation and package delivery in diverse environments",
     addedDate: "2026-02"
   },
-
-  // CLIMATE & ENERGY
   {
     name: "Fortera",
     founded: 2019,
@@ -9865,8 +9460,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "Enterprise carbon accounting platform using proprietary emission factors and ML to measure, reduce, and report corporate carbon footprints",
     addedDate: "2026-02"
   },
-
-  // AI & QUANTUM
   {
     name: "Sakana AI",
     founded: 2023,
@@ -9934,9 +9527,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "Generative AI for video creation using diffusion models for text-to-video, image-to-video, and cinematic visual effects",
     addedDate: "2026-02"
   },
-  // REMOVED: Humane — acquired by HP for $116M (Feb 2025), AI Pin shut down permanently
-
-  // BIOTECH & HEALTH
   {
     name: "eGenesis",
     founded: 2015,
@@ -10039,7 +9629,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 51.5048,
     lng: -0.1242,
     fundingStage: "Series B",
-    totalRaised: "$80M+",
+    totalRaised: "$73M",
     valuation: "",
     tags: ["AI", "antibody", "drug discovery"],
     signal: "rising",
@@ -10071,11 +9661,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "Cultivated animal fat produced through cell culture technology, creating real fat without animals for food applications",
     addedDate: "2026-02"
   },
-
-  // ═══════════════════════════════════════════════════════════════
-  // NEW COMPANIES ADDED FEB 2026 - FROM JOLT NOTES
-  // ═══════════════════════════════════════════════════════════════
-
   {
     name: "KLIR Sky",
     founder: "Nicholas Upchurch",
@@ -10211,12 +9796,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "Ground-effect vehicle (ekranoplan) using modern composites and electric propulsion to fly cargo just above water at high speed",
     addedDate: "2026-02"
   },
-  // REMOVED: Cuby — duplicate of "Cuby Technologies" (merged into that entry)
-
-  // ═══════════════════════════════════════════════════════════════
-  // NEW COMPANIES FROM CA NOTES - FEB 2026
-  // ═══════════════════════════════════════════════════════════════
-
   {
     name: "White Stork",
     founder: "Eric Schmidt, Sebastian Thrun",
@@ -10417,7 +9996,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     keyPeople: ["Tommi Nyman (CEO)"],
     investors: ["Norrsken VC", "Lifeline Ventures"],
     fundingStage: "Series A",
-    totalRaised: "$22M",
+    totalRaised: "€32M",
     valuation: "$110M",
     tags: ["nuclear", "SMR", "clean energy", "baseload power"],
     signal: "rising",
@@ -10885,7 +10464,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     keyPeople: ["Benjamin Saada (CEO)"],
     investors: ["Slate", "Bpifrance", "Temasek", "Cape Capital", "Pictet Group", "European Investment Bank"],
     fundingStage: "Series B",
-    totalRaised: "$95M",
+    totalRaised: "~€95M ($103M)",
     valuation: "$350M",
     tags: ["carbon fiber recycling", "circular economy", "advanced materials", "sustainability"],
     signal: "rising",
@@ -11172,7 +10751,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2018,
     keyPeople: ["Mikal Bøe (CEO)", "David Landon (CTO)"],
     investors: ["TerraPower", "Hyundai Heavy Industries", "Imabari Shipbuilding", "Wan Hai Lines"],
-    fundingStage: "Series B",
+    fundingStage: "Growth",
     totalRaised: "$100M+",
     valuation: "Undisclosed",
     website: "https://corepower.energy",
@@ -11335,7 +10914,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     keyPeople: ["Himadri Majumdar (CEO)", "Janne Lehtinen (CSO)", "Mika Prunnila (CRO)"],
     investors: ["European Innovation Council", "Lunar Ventures", "Voima Ventures", "Dhyan Ventures"],
     fundingStage: "Series A",
-    totalRaised: "$18M",
+    totalRaised: "€24M+",
     valuation: "Undisclosed",
     website: "https://www.semiqon.com",
     tags: ["cryogenic CMOS", "quantum hardware", "semiconductor foundry", "Finnish deep tech"],
@@ -11371,33 +10950,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     competitors: ["No direct competitors"],
     thesisCluster: "maritime-electric-transport",
     techApproach: "Electric seagliders using wing-in-ground-effect to fly just above water at 180mph on battery power for coastal transport",
-    addedDate: "2026-02"
-  },
-  {
-    name: "Orbit2Orbit",
-    founder: "Bradley Hatton-Jones",
-    sector: "Space & Aerospace",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    description: "Building reusable, refuelable in-space logistics vehicles that never return to Earth. Enables station-to-station cargo transport in LEO, reducing waste and launch costs for orbital infrastructure.",
-    thesis: "As space stations multiply, they'll need a FedEx for orbit — Orbit2Orbit's reusable space tugs create the logistics backbone for the orbital economy.",
-    location: "Gold Coast, Australia",
-    state: "International",
-    lat: -28.0167,
-    lng: 153.4000,
-    stage: "Pre-Seed",
-    founded: 2023,
-    keyPeople: ["Bradley Hatton-Jones (CEO & Founder)"],
-    investors: [],
-    fundingStage: "Pre-Seed",
-    totalRaised: "Undisclosed",
-    valuation: "Undisclosed",
-    website: "https://www.orbit2orbit.space",
-    tags: ["space logistics", "orbital transport", "in-space servicing", "Australian space tech"],
-    signal: "early",
-    scores: { team: 7, traction: 5, techMoat: 8, market: 9, momentum: 6 },
-    competitors: ["D-Orbit", "Orbit Fab", "Momentus Space", "Impulse Space"],
-    thesisCluster: "space-debris-servicing",
-    techApproach: "Reusable in-space logistics vehicles that remain in orbit permanently, providing station-to-station cargo transport services",
     addedDate: "2026-02"
   },
   {
@@ -11481,7 +11033,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "Combined SAR and AIS satellite constellation — world\'s first dual-sensor platform for comprehensive maritime surveillance",
     addedDate: "2026-02"
   },
-  // ─── AMERICAN SHENZHEN: REINDUSTRIALIZATION / MANUFACTURING COHORT ───
   {
     name: "Axial Composites",
     founded: 2025,
@@ -11651,25 +11202,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     scores: { team: 7, traction: 7, techMoat: 6, market: 8, momentum: 7 },
     thesisCluster: "manufacturing-reshoring",
     techApproach: "Software-defined contract manufacturing platform producing custom sheet-metal parts and assemblies for hardware companies",
-    addedDate: "2026-02"
-  },
-  {
-    name: "Forge Automation",
-    founded: 2022,
-    sector: "Robotics & Manufacturing",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    description: "Software-enabled fast-turn CNC milling. Parts in 4 days or less with instant pricing. Based in Toronto.",
-    founder: "Walter Raftus",
-    location: "Toronto, Canada",
-    city: "Toronto", state: "ON", country: "Canada",
-    lat: 50.0007, lng: -86.0010,
-    fundingStage: "Seed",
-    totalRaised: "$5M+",
-    tags: ["CNC", "milling", "fast-turn", "manufacturing"],
-    signal: "rising",
-    scores: { team: 7, traction: 6, techMoat: 6, market: 8, momentum: 7 },
-    thesisCluster: "manufacturing-reshoring",
-    techApproach: "Software-enabled instant-quote CNC milling with 4-day turnaround using automated toolpath generation and scheduling",
     addedDate: "2026-02"
   },
   {
@@ -12108,25 +11640,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     scores: { team: 9, traction: 9, techMoat: 9, market: 9, momentum: 9 },
     thesisCluster: "manufacturing-reshoring",
     techApproach: "Obsidian AI model using proprietary sensing and computer vision to perceive and weld autonomously without CAD files or pre-programming",
-    addedDate: "2026-02"
-  },
-  {
-    name: "Forge Robotics",
-    founded: 2025,
-    sector: "Robotics & Manufacturing",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    description: "AI welding intelligence platform. YC F25 batch. Making robotic welding accessible to high-mix manufacturers.",
-    founder: "Eoin Cobbe",
-    location: "Galway, Ireland",
-    city: "Galway", state: "", country: "Ireland",
-    lat: 37.7608, lng: -122.4122,
-    fundingStage: "Seed",
-    totalRaised: "$2M+",
-    tags: ["welding", "AI", "YC", "manufacturing intelligence"],
-    signal: "stealth",
-    scores: { team: 7, traction: 5, techMoat: 7, market: 8, momentum: 7 },
-    thesisCluster: "manufacturing-reshoring",
-    techApproach: "AI welding intelligence making robotic welding accessible to high-mix manufacturers through adaptive programming",
     addedDate: "2026-02"
   },
   {
@@ -13208,7 +12721,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "Autonomous multi-robot WAAM micro-factories for large metal structures — $1.25M Air Force contract, forward-deployable manufacturing cells, TechCrunch Disrupt finalist",
     addedDate: "2026-03"
   },
-  // ─── VC PORTFOLIO AUDIT ADDITIONS (2026-03) ───
   {
     name: "Atomic Alchemy",
     founded: 2018,
@@ -13330,8 +12842,8 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     city: "Singapore", country: "Singapore",
     lat: 1.35, lng: 103.82,
     yearFounded: 2018,
-    fundingStage: "Series A",
-    totalRaised: "$24M",
+    fundingStage: "SPAC",
+    totalRaised: "$131M+ (incl. $110M PIPE Dec 2025)",
     investors: ["SGInnovate", "Sequoia Capital India", "Tencent", "DCVC"],
     website: "https://www.horizonquantum.com",
     tags: ["quantum software", "quantum compiler", "developer tools", "quantum algorithms"],
@@ -13347,7 +12859,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     sector: "Quantum Computing",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     description: "Advanced quantum algorithms for near-term quantum hardware, focused on materials science and condensed matter simulation. Optimized to extract maximum value from current NISQ devices for battery materials and drug discovery.",
-    founder: "Toby Cubitt",
+    founder: "Ashley Montanaro, Toby Cubitt, John Morton",
     location: "London, UK",
     city: "London", country: "United Kingdom",
     lat: 51.52, lng: -0.13,
@@ -13409,17 +12921,17 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Chemify",
-    founded: 2019,
+    founded: "2022",
     sector: "Biotech & Health",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     description: "Platform for digitized, programmable chemical synthesis — molecules designed and manufactured via software-defined processes. Transforms chemistry from artisanal craft into reproducible digital discipline for pharma, materials, and agrochemicals.",
-    founder: "Lee Cronin",
+    founder: "Leroy 'Lee' Cronin",
     location: "Glasgow, Scotland",
     city: "Glasgow", country: "United Kingdom",
     lat: 55.86, lng: -4.25,
     yearFounded: 2019,
     fundingStage: "Series B",
-    totalRaised: "$52M",
+    totalRaised: "$93M",
     investors: ["Triatomic Capital", "JSR Corporation"],
     website: "https://www.chemify.com",
     tags: ["digital chemistry", "programmable synthesis", "drug discovery", "software-defined manufacturing"],
@@ -13673,8 +13185,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     techApproach: "GaN-on-diamond satellite radios — 100x better thermal performance for smaller, cheaper space comms",
     addedDate: "2026-03"
   },
-  // ─── VALOR EQUITY PARTNERS PORTFOLIO ADDITIONS (2026-03) ───
-  // ─── DEFENSE & SECURITY ───
   {
     name: "Defense Unicorns",
     founded: 2021,
@@ -13741,7 +13251,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     competitors: ["Claroty", "Nozomi Networks", "Dragos"],
     addedDate: "2026-03"
   },
-  // ─── AI & SOFTWARE ───
   {
     name: "Dataminr",
     founded: 2009,
@@ -13786,7 +13295,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     competitors: ["Crunchbase", "ZoomInfo", "Clearbit"],
     addedDate: "2026-03"
   },
-  // ─── CHIPS & SEMICONDUCTORS ───
   {
     name: "Mythic",
     founded: 2012,
@@ -13855,7 +13363,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     competitors: ["Broadcom", "Marvell", "Intel"],
     addedDate: "2026-03"
   },
-  // ─── DATA INFRASTRUCTURE ───
   {
     name: "WEKA",
     founded: 2013,
@@ -13878,7 +13385,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     competitors: ["NetApp", "Pure Storage", "Vast Data"],
     addedDate: "2026-03"
   },
-  // ─── CLIMATE & ENERGY ───
   {
     name: "Electra",
     founded: 2020,
@@ -13924,7 +13430,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     competitors: ["EnergyX", "Standard Lithium", "Lake Resources"],
     addedDate: "2026-03"
   },
-  // ─── BIOTECH & HEALTH ───
   {
     name: "Evozyne",
     founded: 2020,
@@ -14035,7 +13540,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     competitors: [],
     addedDate: "2026-03"
   },
-  // ─── DRONES & AUTONOMOUS ───
   {
     name: "Zeitview",
     founded: 2014,
@@ -14058,7 +13562,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     competitors: ["Skydio", "DroneDeploy", "Pix4D"],
     addedDate: "2026-03"
   },
-  // ─── ROBOTICS & MANUFACTURING ───
   {
     name: "Roam Robotics",
     founded: 2012,
@@ -14611,10 +14114,10 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Material Evolution",
-    founded: 2018,
+    founded: "2017",
     sector: "Housing & Construction",
     description: "Produces zero-carbon cement and geopolymer binders from industrial waste streams, offering a drop-in replacement for Portland cement that avoids the CO2-intensive clinker production process.",
-    founder: "Liz Gilligan",
+    founder: "Liz Gilligan, Sam Clark",
     location: "Middlesbrough, UK",
     state: "",
     lat: 54.5742,
@@ -14651,28 +14154,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "hot",
     scores: { team: 8, traction: 8, techMoat: 7, market: 8, momentum: 8 },
     competitors: ["Palantir", "Janes", "legacy C2 systems"],
-    addedDate: "2026-04"
-  },
-  {
-    name: "Prenuvo",
-    founded: 2018,
-    sector: "Biotech & Health",
-    description: "Operates a network of clinics offering advanced full-body MRI scans for proactive health screening using proprietary protocols that deliver whole-body scans in about one hour without radiation or contrast agents.",
-    founder: "Andrew Lacy, Raj Attariwala",
-    location: "Vancouver, Canada",
-    state: "",
-    lat: 49.2827,
-    lng: -123.1207,
-    fundingStage: "Series B",
-    totalRaised: "$80M",
-    valuation: "",
-    rosLink: "",
-    thesisCluster: "preventive-health",
-    techApproach: "Proprietary MRI scanning protocols and AI-enhanced imaging analysis enabling fast comprehensive whole-body screening without radiation or contrast dye",
-    tags: ["preventive health", "MRI", "medical imaging", "health screening", "AI diagnostics"],
-    signal: "hot",
-    scores: { team: 8, traction: 8, techMoat: 7, market: 9, momentum: 8 },
-    competitors: ["SimonMed", "Ezra", "Forward"],
     addedDate: "2026-04"
   },
   {
@@ -14785,7 +14266,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     competitors: ["ICON", "Mighty Buildings", "CyBe Construction"],
     addedDate: "2026-04"
   },
-  // ─── NEW ADDITIONS: DEFENSE & SECURITY ───
   {
     name: "Gambit",
     sector: "Defense & Security",
@@ -14800,23 +14280,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     valuation: "",
     rosLink: "",
     tags: ["autonomy", "defense", "unmanned systems"],
-    signal: "rising",
-    addedDate: "2026-04"
-  },
-  {
-    name: "Toka",
-    sector: "Defense & Security",
-    description: "Cyber defense and intelligence platform for government and national security agencies.",
-    founder: "Ehud Barak, Yaron Rosen",
-    location: "Tel Aviv, Israel",
-    state: "",
-    lat: 32.0853,
-    lng: 34.7818,
-    fundingStage: "Series B",
-    totalRaised: "",
-    valuation: "",
-    rosLink: "",
-    tags: ["cyber defense", "intelligence", "national security"],
     signal: "rising",
     addedDate: "2026-04"
   },
@@ -14889,7 +14352,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "rising",
     addedDate: "2026-04"
   },
-  // ─── NEW ADDITIONS: SPACE & NUCLEAR ───
   {
     name: "Reliable Robotics",
     sector: "Space & Aerospace",
@@ -14907,7 +14369,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "rising",
     addedDate: "2026-04"
   },
-  // ─── NEW ADDITIONS: ENERGY & CLIMATE ───
   {
     name: "Koloma",
     sector: "Energy & Climate",
@@ -15012,7 +14473,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "rising",
     addedDate: "2026-04"
   },
-  // ─── NEW ADDITIONS: ROBOTICS & AUTONOMY ───
   {
     name: "Mytra",
     founded: 2022,
@@ -15031,7 +14491,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "rising",
     addedDate: "2026-04"
   },
-  // ─── NEW ADDITIONS: ADVANCED MANUFACTURING ───
   {
     name: "Hertha Metals",
     founded: 2023,
@@ -15050,7 +14509,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "rising",
     addedDate: "2026-04"
   },
-  // ─── NEW ADDITIONS: BIOTECH & MEDICAL ───
   {
     name: "Synchron",
     sector: "Biotech & Medical",
@@ -15136,7 +14594,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "rising",
     addedDate: "2026-04"
   },
-  // ─── NEW ADDITIONS: AI & QUANTUM ───
   {
     name: "SandboxAQ",
     sector: "AI & Autonomy",
@@ -15154,7 +14611,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "hot",
     addedDate: "2026-04"
   },
-  // ─── NEW ADDITIONS: CONSTRUCTION ───
   {
     name: "Mighty Buildings",
     sector: "Construction & Housing",
@@ -15172,8 +14628,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "rising",
     addedDate: "2026-04"
   },
-  // ─── EUROPEAN FRONTIER TECH ───
-  // DEFENSE
   {
     name: "ARX Robotics",
     founded: 2022,
@@ -15197,14 +14651,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Frankenburg Technologies",
     founded: 2024,
     sector: "Defense & Security",
-    description: "Low-cost missile interceptor systems targeting drone and cruise missile threats. Production sites targeting 100 missiles per day.",
+    description: "Estonian defense startup developing air-defense missile systems — €30M Series A in 2025 on top of earlier €10M. Led by CEO Kusti Salm (former Permanent Secretary of Estonia's MoD).",
     founder: "Taavi Madiberk, Marko Virkebau",
     location: "Tallinn, Estonia",
     state: "INT",
     lat: 59.4370,
     lng: 24.7536,
     fundingStage: "Series A",
-    totalRaised: "€30M+",
+    totalRaised: "€40M",
     valuation: "",
     rosLink: "",
     tags: ["defense", "missiles", "air defense", "counter-UAS"],
@@ -15214,16 +14668,16 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Tytan Technologies",
-    founded: 2024,
+    founded: "2023",
     sector: "Defense & Security",
     description: "AI-powered interceptor missiles and air defense systems. Scaling manufacturing across Germany, Ukraine, and allied markets.",
-    founder: "Stealth",
+    founder: "Balazs Nagy, Batuhan Yumurtaci",
     location: "Munich, Germany",
     state: "INT",
     lat: 48.1351,
     lng: 11.5820,
     fundingStage: "Series A",
-    totalRaised: "€30M",
+    totalRaised: "€46M",
     valuation: "",
     rosLink: "",
     tags: ["defense", "missiles", "air defense", "AI"],
@@ -15267,7 +14721,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "established",
     addedDate: "2026-04"
   },
-  // SPACE & AEROSPACE
   {
     name: "Aerospacelab",
     founded: 2018,
@@ -15279,7 +14732,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 50.6356,
     lng: 4.6128,
     fundingStage: "Series B",
-    totalRaised: "€160M+",
+    totalRaised: "€200M+",
     valuation: "",
     rosLink: "",
     tags: ["space", "satellites", "manufacturing", "constellation"],
@@ -15326,7 +14779,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Exolaunch",
     founded: 2018,
     sector: "Space & Aerospace",
-    description: "Satellite deployment and rideshare services. Deployed 400+ satellites across 20+ SpaceX missions. Projected $100M revenue in 2025.",
+    description: "German smallsat launch broker and integrator serving SpaceX rideshare missions — over 300 satellites deployed. Robert Sproles became CEO in August 2024.",
     founder: "Dmitriy Sternharz",
     location: "Berlin, Germany",
     state: "INT",
@@ -15345,20 +14798,19 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2015,
     sector: "Space & Aerospace",
     description: "End-to-end satellite missions and Earth observation constellations. Building Atlantic Constellation for Spain — largest EO constellation ever contracted.",
-    founder: "Rafel Jordà",
+    founder: "Rafel Jordà Siquier",
     location: "Harwell, UK",
     state: "UK",
     lat: 51.5711,
     lng: -1.3104,
     fundingStage: "Growth",
-    totalRaised: "",
+    totalRaised: "$63M",
     valuation: "",
     rosLink: "",
     tags: ["space", "satellites", "Earth observation"],
     signal: "rising",
     addedDate: "2026-04"
   },
-  // ENERGY & CLIMATE
   {
     name: "Stegra",
     founded: 2020,
@@ -15376,24 +14828,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     tags: ["green steel", "hydrogen", "industrial decarbonization"],
     signal: "hot",
     insight: "The most ambitious industrial decarbonization project in Europe. $7B in equity + debt. First green steel production on track for 2026. Renamed from H2 Green Steel to Stegra in September 2025.",
-    addedDate: "2026-04"
-  },
-  {
-    name: "1KOMMA5",
-    founded: 2021,
-    sector: "Energy & Climate",
-    description: "One-stop-shop for residential solar, heat pumps, batteries, EV charging with AI-powered energy management. Fastest-growing climate tech in Europe.",
-    founder: "Philipp Schroeder",
-    location: "Hamburg, Germany",
-    state: "INT",
-    lat: 53.5511,
-    lng: 9.9937,
-    fundingStage: "Pre-IPO",
-    totalRaised: "",
-    valuation: "$1.2B",
-    rosLink: "",
-    tags: ["distributed energy", "solar", "heat pumps", "virtual power plant"],
-    signal: "hot",
     addedDate: "2026-04"
   },
   {
@@ -15419,7 +14853,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2021,
     sector: "Energy & Climate",
     description: "Reversible fuel cells that turn biogas into electricity, hydrogen, and captured CO2. Carbon-negative power generation.",
-    founder: "Stephan Herrmann",
+    founder: "Stephan Herrmann, Felix Fischer, Jeremias Weinrich, Maximilian Hauck, Luis Poblotzki",
     location: "Munich, Germany",
     state: "INT",
     lat: 48.1351,
@@ -15456,8 +14890,8 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     sector: "Energy & Climate",
     description: "Permanently stores CO2 by mineralizing it in peridotite rock. Turns CO2 to stone in 12 months. Partnership with ADNOC in UAE.",
     founder: "Talal Hasan",
-    location: "London, UK",
-    state: "UK",
+    location: "Muscat, Oman",
+    state: "OM",
     lat: 51.5074,
     lng: -0.1278,
     fundingStage: "Series A",
@@ -15468,7 +14902,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "rising",
     addedDate: "2026-04"
   },
-  // BIOTECH & MEDTECH
   {
     name: "Isomorphic Labs",
     founded: 2021,
@@ -15493,7 +14926,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2020,
     sector: "Biotech & Medical",
     description: "Mapping global biodiversity to build AI models for protein and drug discovery. EDEN-28B — a GPT-4-scale biology model with 10B+ novel protein sequences.",
-    founder: "Glen Mayson",
+    founder: "Oliver Vince, Glen Gowers",
     location: "London, UK",
     state: "UK",
     lat: 51.5074,
@@ -15511,7 +14944,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2017,
     sector: "Biotech & Medical",
     description: "Next-gen gene therapies using proprietary spliceosome technology. Enables delivery of larger genes than traditional AAV gene therapy.",
-    founder: "Stealth",
+    founder: "Miquel Vila-Perelló",
     location: "Barcelona, Spain",
     state: "INT",
     lat: 41.3874,
@@ -15524,7 +14957,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     signal: "rising",
     addedDate: "2026-04"
   },
-  // SEMICONDUCTORS & QUANTUM
   {
     name: "SiPearl",
     founded: 2019,
@@ -15564,40 +14996,20 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Riverlane",
-    founded: 2018,
+    founded: "2016",
     sector: "Quantum Computing",
     description: "Quantum error correction technology (Deltaflow) to make quantum computers reliable. Targeting one million error-free operations by 2026.",
-    founder: "Steve Sherwin",
+    founder: "Steve Brierley",
     location: "Cambridge, UK",
     state: "UK",
     lat: 52.2053,
     lng: 0.1218,
     fundingStage: "Series C",
-    totalRaised: "$75M",
+    totalRaised: "$120M+",
     valuation: "",
     rosLink: "",
     tags: ["quantum", "error correction", "Deltaflow"],
     signal: "rising",
-    addedDate: "2026-04"
-  },
-  // AI (FRONTIER)
-  {
-    name: "Aleph Alpha",
-    founded: 2019,
-    sector: "AI & Autonomy",
-    description: "Sovereign AI models and infrastructure for European government and enterprise. $110M revenue in 2025. Key clients include German federal agencies.",
-    founder: "Jonas Andrulis",
-    location: "Heidelberg, Germany",
-    state: "INT",
-    lat: 49.3988,
-    lng: 8.6724,
-    fundingStage: "Series B",
-    totalRaised: "$520M",
-    valuation: "",
-    rosLink: "",
-    tags: ["sovereign AI", "enterprise AI", "German government"],
-    signal: "established",
-    insight: "The most important AI company for European digital sovereignty. SAP and Bosch backed. Pivoted from pure model-building to sovereign infrastructure — exactly what European governments need.",
     addedDate: "2026-04"
   },
   {
@@ -15619,25 +15031,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     addedDate: "2026-04"
   },
   {
-    name: "Synthesia",
-    founded: 2017,
-    sector: "AI & Autonomy",
-    description: "Enterprise AI video platform — create professional videos without filming. 70% of FTSE 100 as customers. $4B valuation.",
-    founder: "Victor Riparbelli",
-    location: "London, UK",
-    state: "UK",
-    lat: 51.5074,
-    lng: -0.1278,
-    fundingStage: "Series E",
-    totalRaised: "$536M",
-    valuation: "$4B",
-    rosLink: "",
-    tags: ["AI video", "enterprise", "content creation"],
-    signal: "established",
-    addedDate: "2026-04"
-  },
-  // ROBOTICS
-  {
     name: "Nomagic",
     founded: 2017,
     sector: "Robotics & Automation",
@@ -15648,18 +15041,13 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 52.2297,
     lng: 21.0122,
     fundingStage: "Series B",
-    totalRaised: "$87M",
+    totalRaised: "$97M",
     valuation: "",
     rosLink: "",
     tags: ["robotics", "warehouse", "AI", "pick and place"],
     signal: "rising",
     addedDate: "2026-04"
-  }
-,
-// ─── Round 7b: International frontier-tech expansion ───
-// 173 new companies across UK/IE, Nordics/Baltics/Eastern Europe,
-// France/Benelux/Iberia/Italy, DACH, Japan/Korea/Taiwan, India/AU/NZ,
-// Israel/MENA, Canada/LatAm/Africa — all triple-checked as of April 2026.
+  },
   {
     name: "Nu Quantum",
     founded: 2018,
@@ -15671,7 +15059,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 52.2053,
     lng: 0.1218,
     fundingStage: "Series A",
-    totalRaised: "$60M+",
+    totalRaised: "£8.5M+ (equity) + MoD/DSIT contracts",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "quantum-networking",
@@ -15710,7 +15098,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Pragmatic Semiconductor",
     founded: 2010,
     sector: "Chips & Semiconductors",
-    description: "Ultra-low-cost flexible integrated circuits on plastic substrates — printed at <1¢/unit on custom fab lines.",
+    description: "Ultra-low-cost flexible integrated circuits on plastic substrates — printed at <1¢/unit on custom fab lines. David Moore is CEO (Scott White stepped down 2022).",
     founder: "Scott White",
     location: "Durham, UK",
     state: "GB",
@@ -15731,10 +15119,10 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Porotech",
-    founded: 2019,
+    founded: "2020",
     sector: "Chips & Semiconductors",
     description: "Porous-GaN platform enabling efficient red and full-color micro-LEDs for AR/VR displays and quantum sensing.",
-    founder: "Tongtong Zhu",
+    founder: "Tongtong Zhu, Yingjun Liu, Rachel Oliver",
     location: "Cambridge, UK",
     state: "GB",
     lat: 52.2053,
@@ -15763,7 +15151,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 51.752,
     lng: -1.2577,
     fundingStage: "Series D",
-    totalRaised: "$300M+",
+    totalRaised: "$250M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "industrial-autonomy",
@@ -15779,7 +15167,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Humanoid",
     founded: 2024,
     sector: "Robotics & Manufacturing",
-    description: "HMND 01 dual-armed humanoid for warehouses, logistics, and retail — with NVIDIA partnership and live pilots.",
+    description: "HMND 01 dual-armed humanoid for warehouses, logistics, and retail — with NVIDIA partnership and live pilots. $50M in founder-led capital (not VC-raised).",
     founder: "Artem Sokolov",
     location: "London, UK",
     state: "GB",
@@ -15800,7 +15188,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Nyobolt",
-    founded: 2019,
+    founded: "2020",
     sector: "Climate & Energy",
     description: "Niobium-anode ultra-fast-charging batteries capable of 10-80% charge in under 5 minutes, with $150M contracted backlog.",
     founder: "Sai Shivareddy, Clare Grey",
@@ -15809,7 +15197,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 52.2053,
     lng: 0.1218,
     fundingStage: "Series B",
-    totalRaised: "$150M+ backlog",
+    totalRaised: "$100M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "battery-chemistry",
@@ -15855,7 +15243,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 51.5777,
     lng: -1.3162,
     fundingStage: "Seed",
-    totalRaised: "$10.5M",
+    totalRaised: "$12.5M equity (~$22M including public grants)",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "electric-propulsion",
@@ -15947,7 +15335,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 51.5074,
     lng: -0.1278,
     fundingStage: "Series B",
-    totalRaised: "$40M+",
+    totalRaised: "$26.2M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "defense-intelligence",
@@ -15987,7 +15375,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2020,
     sector: "Climate & Energy",
     description: "Electrochemical direct air capture consuming less energy than thermal DAC, backed by Breakthrough Energy Ventures.",
-    founder: "Nicholas Chadwick, Shiladitya Ghosh, Geoff Barnard",
+    founder: "Nicholas Chadwick, Shiladitya Ghosh, Gaël Gobaille-Shaw",
     location: "London, UK",
     state: "GB",
     lat: 51.5074,
@@ -16016,7 +15404,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 51.5074,
     lng: -0.1278,
     fundingStage: "Series A",
-    totalRaised: "$50M+",
+    totalRaised: "$18.3M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "synthetic-biology",
@@ -16033,7 +15421,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2013,
     sector: "Space & Aerospace",
     description: "Laser / photonic satellite comms terminals including optical feeder links and space-based quantum key distribution.",
-    founder: "John Mackey",
+    founder: "John Mackey, Ruth Mackey, David Mackey",
     location: "Galway, Ireland",
     state: "IE",
     lat: 53.2707,
@@ -16062,7 +15450,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 59.3293,
     lng: 18.0686,
     fundingStage: "Series B",
-    totalRaised: "$50M+",
+    totalRaised: "$60M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "smr-lead-cooled",
@@ -16108,7 +15496,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 59.8901,
     lng: 10.525,
     fundingStage: "Series B",
-    totalRaised: "~$90M",
+    totalRaised: "$62M+ equity + €26M EU Innovation Fund",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "green-hydrogen",
@@ -16240,7 +15628,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2022,
     sector: "Defense & Security",
     description: "Long-range strike drones (FP-1, 1,600 km) and the FP-5 'Flamingo' cruise missile (3,000 km, 1,150 kg warhead).",
-    founder: "Denys Shtilerman",
+    founder: "Denys Shtilerman, Iryna Terekh, Yehor Skalyha",
     location: "Kyiv, Ukraine",
     state: "UA",
     lat: 50.4501,
@@ -16305,34 +15693,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     international: true
   },
   {
-    name: "Swarmer",
-    founded: 2023,
-    sector: "Defense & Security",
-    description: "Multi-drone autonomy / swarming software for FPV and strike drones — Nasdaq debut 2025 with Erik Prince as non-exec chair.",
-    founder: "Serhiy Kupriienko",
-    location: "Kyiv, Ukraine",
-    state: "UA",
-    lat: 50.4501,
-    lng: 30.5234,
-    fundingStage: "Public",
-    totalRaised: "IPO 2025",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "drone-swarming",
-    techApproach: "Coordinated multi-drone autonomy enabling teams of cheap drones to saturate defenses that can handle only single targets.",
-    tags: ["drone swarm", "autonomy", "Ukraine"],
-    insight: "Swarming is the multiplier that turns cheap drones into strategic weapons. Swarmer has the only battle-tested stack.",
-    signal: "hot",
-    scores: { team: 8, traction: 9, techMoat: 9, market: 10, momentum: 10 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
     name: "HIMERA",
     founded: 2022,
     sector: "Defense & Security",
     description: "EW-resistant 256-bit encrypted tactical radios with 4-day battery life, now supplying NATO end-users.",
-    founder: "Mykhailo Rudominskyi",
+    founder: "Misha Rudominsky, Oleksiy Oliynyk",
     location: "Kyiv, Ukraine",
     state: "UA",
     lat: 50.4501,
@@ -16355,7 +15720,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2024,
     sector: "Defense & Security",
     description: "Frontier OS — AI control layer unifying UGVs, drones, and USVs at 2,000 km range, demonstrated live at DALO Expo Denmark 2025.",
-    founder: "Vlad Mykhnenko",
+    founder: "Achi Takagama",
     location: "Kyiv, Ukraine",
     state: "UA",
     lat: 50.4501,
@@ -16568,7 +15933,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 48.8566,
     lng: 2.3522,
     fundingStage: "Series A",
-    totalRaised: "€18M",
+    totalRaised: "$19.4M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "quantum-nanotube",
@@ -16653,15 +16018,15 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Harmattan AI",
     founded: 2024,
     sector: "Defense & Security",
-    description: "AI-enabled combat micro-drones (1.8 kg, autonomous targeting) — DGA contract July 2025 to deliver 1,000 drones and France's first defense unicorn.",
-    founder: "Guillaume Gonfreville",
+    description: "AI-enabled combat micro-drones (1.8kg, autonomous targeting) — $200M Series B led by Dassault Aviation January 2026 at a $1.4B valuation; DGA contract for 1,000 drones in 2025.",
+    founder: "Mouad M'Ghari, Martin de Gourcuff",
     location: "Paris, France",
     state: "FR",
     lat: 48.8566,
     lng: 2.3522,
-    fundingStage: "Series A",
-    totalRaised: "Undisclosed (unicorn)",
-    valuation: "~$1B",
+    fundingStage: "Series B",
+    totalRaised: "$200M",
+    valuation: "$1.4B",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "autonomous-munitions",
     techApproach: "Mass-producible AI-autonomous micro-loitering munitions — France's bet on Ukrainian-style asymmetric capabilities.",
@@ -16682,8 +16047,8 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     state: "FR",
     lat: 48.8566,
     lng: 2.3522,
-    fundingStage: "Series A",
-    totalRaised: "€12M",
+    fundingStage: "Seed",
+    totalRaised: "€11.5M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "battlefield-ai",
@@ -16797,7 +16162,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     state: "FR",
     lat: 48.8566,
     lng: 2.3522,
-    fundingStage: "Series B",
+    fundingStage: "Series A",
     totalRaised: "€80M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
@@ -16899,29 +16264,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     insight: "VLEO doubles resolution but demands propulsion no one has fielded. Kreios is NATO-backed and the leading contender.",
     signal: "watch",
     scores: { team: 8, traction: 5, techMoat: 10, market: 8, momentum: 7 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
-    name: "Orbital Paradigm",
-    founded: 2023,
-    sector: "Space & Aerospace",
-    description: "Low-cost reusable reentry capsules for in-space manufacturing — first demo mission fully booked.",
-    founder: "Guillermo Garcia-Talavera",
-    location: "Madrid, Spain",
-    state: "ES",
-    lat: 40.4168,
-    lng: -3.7038,
-    fundingStage: "Pre-Seed",
-    totalRaised: "€1.5M",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "reentry-capsules",
-    techApproach: "Cheap reusable reentry capsules unlocking orbital-manufacturing downmass economics.",
-    tags: ["reentry", "in-space manufacturing", "capsule"],
-    insight: "Orbital manufacturing only works if returning mass is cheap. Orbital Paradigm is the European bet.",
-    signal: "watch",
-    scores: { team: 7, traction: 4, techMoat: 8, market: 8, momentum: 7 },
     addedDate: "2026-04",
     international: true
   },
@@ -17074,7 +16416,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 51.4416,
     lng: 5.4697,
     fundingStage: "Series B",
-    totalRaised: "€60M+",
+    totalRaised: "€50M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "battery-chemistry",
@@ -17097,7 +16439,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 51.4416,
     lng: 5.4697,
     fundingStage: "Series A",
-    totalRaised: "€15.3M+",
+    totalRaised: "€25M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "direct-air-capture",
@@ -17113,7 +16455,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Synspective",
     founded: 2018,
     sector: "Space & Aerospace",
-    description: "Small SAR satellite constellation for all-weather Earth observation and defense ISR — won Japan MoD's $681M satellite constellation contract December 2025.",
+    description: "Small SAR satellite constellation for all-weather EO and defense ISR — selected as SAR imagery partner in Japan MoD's ¥283B (~$1.8B) constellation PFI contract December 2025.",
     founder: "Motoyuki Arai",
     location: "Tokyo, Japan",
     state: "JP",
@@ -17137,7 +16479,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2005,
     sector: "Space & Aerospace",
     description: "High-resolution SAR smallsats with proprietary lightweight deployable antenna — part of Japan MoD constellation award.",
-    founder: "Tetsuo Yasaka",
+    founder: "Tetsuo Yasaka, Noboru Sakurai, Kunihiro Funakoshi",
     location: "Fukuoka, Japan",
     state: "JP",
     lat: 33.5902,
@@ -17251,14 +16593,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Helical Fusion",
     founded: 2021,
     sector: "Nuclear Energy",
-    description: "Stellarator fusion using high-temperature superconducting coils — world-first commercial-reactor-condition HTS coil test October 2025.",
+    description: "Stellarator fusion using HTS coils — Series A $15.6M (July 2025) plus $5.5M extension (Dec 2025); signed Japan's first fusion PPA with Aoki Super.",
     founder: "Takaya Taguchi, Junichi Miyazawa",
     location: "Tokyo, Japan",
     state: "JP",
     lat: 35.6762,
     lng: 139.6503,
     fundingStage: "Series A",
-    totalRaised: "Undisclosed (NEDO-backed)",
+    totalRaised: "$38M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "stellarator-fusion",
@@ -17274,14 +16616,14 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "EX-Fusion",
     founded: 2021,
     sector: "Nuclear Energy",
-    description: "Laser inertial-confinement fusion — Osaka University spinout demonstrating precision laser targeting with JX Advanced Metals backing.",
+    description: "Laser inertial-confinement fusion — Osaka University spinout demonstrating precision laser targeting; Series A ¥2.6B June 2025 plus JX Advanced Metals extension October 2025.",
     founder: "Kazuki Matsuo, Shinsuke Fujioka",
     location: "Osaka, Japan",
     state: "JP",
     lat: 34.6937,
     lng: 135.5023,
     fundingStage: "Series A",
-    totalRaised: "Undisclosed",
+    totalRaised: "$37M (~¥5.6B)",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "icf-fusion",
@@ -17350,7 +16692,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 35.6762,
     lng: 139.6503,
     fundingStage: "Series B",
-    totalRaised: "~$23.7M",
+    totalRaised: "$33M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "quantum-software",
@@ -17459,12 +16801,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2024,
     sector: "Defense & Security",
     description: "Autonomous UGV/USV/UAV platforms for defense reconnaissance and perimeter security — $12M Series A November 2025.",
-    founder: "Daniel Bae",
-    location: "Seoul, South Korea",
+    founder: "DK Lee",
+    location: "Palo Alto, CA / Seoul, South Korea",
     state: "KR",
     lat: 37.5665,
     lng: 126.978,
-    fundingStage: "Series A",
+    fundingStage: "Seed",
     totalRaised: "$12M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
@@ -17474,29 +16816,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     insight: "Korea's primes are stagnant. Bone AI is a fresh-team challenger with Asian-market focus.",
     signal: "watch",
     scores: { team: 8, traction: 5, techMoat: 7, market: 8, momentum: 8 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
-    name: "Persona AI",
-    founded: 2024,
-    sector: "Robotics & Manufacturing",
-    description: "Industrial bipedal humanoid platform targeting shipyard welding for HD Hyundai — commercialization 2027.",
-    founder: "Nic Radford, Jerry Pratt",
-    location: "Seoul, South Korea",
-    state: "KR",
-    lat: 37.5665,
-    lng: 126.978,
-    fundingStage: "Seed",
-    totalRaised: "Undisclosed",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "industrial-humanoid",
-    techApproach: "Bipedal humanoid for the hardest industrial job on earth — shipyard welding — partnered with HD Hyundai.",
-    tags: ["humanoid", "shipyard", "welding"],
-    insight: "Shipyard welding is labor-constrained globally. A humanoid that can do it wins the largest physical-labor prize in robotics.",
-    signal: "hot",
-    scores: { team: 9, traction: 5, techMoat: 8, market: 10, momentum: 9 },
     addedDate: "2026-04",
     international: true
   },
@@ -17511,7 +16830,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 37.5665,
     lng: 126.978,
     fundingStage: "Public (KOSDAQ)",
-    totalRaised: "IPO",
+    totalRaised: "$36.5M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "cobot-humanoid",
@@ -17547,40 +16866,17 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     international: true
   },
   {
-    name: "Celestial AI",
-    founded: 2020,
-    sector: "Chips & Semiconductors",
-    description: "Silicon-photonic Photonic Fabric optical scale-up interconnect for AI clusters — $255M round from TSMC VentureTech and Samsung Catalyst in August 2025.",
-    founder: "Dave Lazovsky",
-    location: "Hsinchu, Taiwan",
-    state: "TW",
-    lat: 24.8138,
-    lng: 120.9675,
-    fundingStage: "Series C",
-    totalRaised: "$520M+",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "photonic-interconnect",
-    techApproach: "Silicon photonics bringing memory bandwidth to AI clusters — TSMC-backed, shipping 2026.",
-    tags: ["photonics", "AI interconnect", "TSMC"],
-    insight: "AI clusters are memory-bandwidth starved. Celestial's photonic fabric is the Nvidia-endorsed fix.",
-    signal: "hot",
-    scores: { team: 9, traction: 8, techMoat: 10, market: 10, momentum: 10 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
     name: "ABL Bio",
     founded: 2016,
     sector: "Biotech & Health",
-    description: "Bispecific antibody platform crossing the blood-brain barrier (Grabody) — £2B GSK licensing deal April 2025.",
+    description: "Bispecific antibody platform crossing the blood-brain barrier (Grabody) — £2.1B GSK licensing deal April 2025 plus separate $2.6B Eli Lilly deal November 2025.",
     founder: "Sang Hoon Lee",
     location: "Seongnam, South Korea",
     state: "KR",
     lat: 37.4386,
     lng: 127.1378,
     fundingStage: "Public (KOSDAQ)",
-    totalRaised: "IPO + $2.6B licensing",
+    totalRaised: "IPO + $5B+ licensing",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "bbb-crossing-antibodies",
@@ -17694,8 +16990,8 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     state: "IN",
     lat: 12.9716,
     lng: 77.5946,
-    fundingStage: "Series B",
-    totalRaised: "~$25M",
+    fundingStage: "Series D",
+    totalRaised: "$66.5M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "eo-ir-defense",
@@ -17711,7 +17007,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Bellatrix Aerospace",
     founded: 2015,
     sector: "Space & Aerospace",
-    description: "In-space electric and green propulsion for satellites — IISc spinout with ISRO customer and $20M pre-Series B.",
+    description: "In-space electric and green propulsion for satellites — $20M pre-Series B March 2025; RUDRA green propulsion flight-proven on POEM-4 January 2025. IISc spinout with ISRO as customer.",
     founder: "Rohan Ganapathy, Yashas Karanam",
     location: "Bengaluru, India",
     state: "IN",
@@ -17918,7 +17214,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Hypersonix Launch Systems",
     founded: 2019,
     sector: "Defense & Security",
-    description: "3D-printed hydrogen-fueled scramjet engines (DART AE Mach 7) — $46M Series A with Saab, DIU HyCAT contract, UK MoD hypersonic missile contract.",
+    description: "3D-printed hydrogen-fueled scramjet engines (DART AE, Mach 7) — DART AE flew successfully February 27, 2026 on Rocket Lab HASTE from Wallops (first Australian hypersonic flight test). $46M Series A with Saab, DIU HyCAT contract, UK MoD hypersonic missile contract.",
     founder: "David Waterhouse, Michael Smart",
     location: "Brisbane, Australia",
     state: "AU",
@@ -17941,7 +17237,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Gilmour Space Technologies",
     founded: 2013,
     sector: "Space & Aerospace",
-    description: "Eris orbital rocket — Australia's first sovereign orbital launcher, first test launch July 2025 with return-to-flight 2026.",
+    description: "Eris orbital rocket — Australia's first sovereign orbital launch attempt. Eris-1 failed 14 seconds after liftoff July 30, 2025; return-to-flight scheduled 6-8 months later.",
     founder: "Adam Gilmour, James Gilmour",
     location: "Gold Coast, Australia",
     state: "AU",
@@ -17964,7 +17260,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Southern Launch",
     founded: 2017,
     sector: "Space & Aerospace",
-    description: "Orbital launch complex at Whalers Way plus Koonibba test range — recovered 2 Varda Space re-entry vehicles in 2025.",
+    description: "Orbital launch complex at Whalers Way plus Koonibba test range — recovered three Varda Space re-entry vehicles in 2025 and contracted for 20 reentries through 2028.",
     founder: "Lloyd Damp",
     location: "Adelaide, Australia",
     state: "AU",
@@ -18063,7 +17359,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: -37.8136,
     lng: 144.9631,
     fundingStage: "Series A",
-    totalRaised: "$10M+",
+    totalRaised: "$11M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "bio-compute",
@@ -18077,16 +17373,16 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Ocius Technology",
-    founded: 2016,
+    founded: "2000",
     sector: "Defense & Security",
-    description: "Wind- and solar-powered Bluebottle autonomous surface vessels — Royal Australian Navy MASU operator with ThayerMahan US trials.",
+    description: "Wind- and solar-powered Bluebottle autonomous surface vessels — won A$176M Program of Record March 2026 for 40 Bluebottles over 5 years for the Royal Australian Navy.",
     founder: "Robert Dane",
     location: "Sydney, Australia",
     state: "AU",
     lat: -33.8688,
     lng: 151.2093,
     fundingStage: "Series B",
-    totalRaised: "Undisclosed",
+    totalRaised: "A$176M Australian Program of Record contract (March 2026)",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "persistent-usv",
@@ -18122,36 +17418,13 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     international: true
   },
   {
-    name: "TakeMe2Space",
-    founded: 2022,
-    sector: "Space & Aerospace",
-    description: "India's first on-orbit AI laboratory (OrbitLab/MOI-1) for space-based data processing — launched on PSLV-C60.",
-    founder: "Ronak Kumar Samantray",
-    location: "Hyderabad, India",
-    state: "IN",
-    lat: 17.385,
-    lng: 78.4867,
-    fundingStage: "Pre-Seed",
-    totalRaised: "₹5.5 Cr",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "orbital-compute",
-    techApproach: "On-orbit AI lab letting customers run inference in space without their own satellite.",
-    tags: ["orbital compute", "AI", "India"],
-    insight: "Space-compute-as-a-service is a sleeper category. TakeMe2Space has the first demo in orbit.",
-    signal: "watch",
-    scores: { team: 7, traction: 3, techMoat: 8, market: 7, momentum: 7 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
     name: "Heven AeroTech",
     founded: 2019,
     sector: "Defense & Security",
-    description: "Hydrogen-fuel-cell long-endurance heavy-lift drones for IDF and US DoD — $1B+ valuation after $100M round led by IonQ.",
+    description: "Hydrogen-fuel-cell long-endurance heavy-lift drones for IDF and US DoD — Israeli-founded and -engineered; rebranded Heven AeroTech Sept 2025 and moved HQ from Miami to Northern Virginia. $1B+ valuation after $100M round led by IonQ.",
     founder: "Bentzion Levinson",
-    location: "Tel Aviv, Israel",
-    state: "IL",
+    location: "Northern Virginia, USA",
+    state: "VA",
     lat: 32.0853,
     lng: 34.7818,
     fundingStage: "Series B",
@@ -18241,7 +17514,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2023,
     sector: "Quantum Computing",
     description: "Neutral-atom quantum computer targeting million-qubit scale — $24M seed April 2026 with Intel Capital.",
-    founder: "Eliran Talker, Yotam Vaknin",
+    founder: "Nir Davidson, Ofer Firstenberg, Yoav Sagi, Guy Raz",
     location: "Tel Aviv, Israel",
     state: "IL",
     lat: 32.0853,
@@ -18287,7 +17560,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2024,
     sector: "Chips & Semiconductors",
     description: "Disaggregated-memory AI server architecture using custom accelerator + memory interface chips — $100M+ raised.",
-    founder: "Ex-Google/Meta team",
+    founder: "Ofer Shacham, Sha Rabii, Masumi Reynders",
     location: "Tel Aviv, Israel",
     state: "IL",
     lat: 32.0853,
@@ -18316,7 +17589,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 32.3215,
     lng: 34.8532,
     fundingStage: "Series B",
-    totalRaised: "$70M+",
+    totalRaised: "$114M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "analytics-silicon",
@@ -18467,29 +17740,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     international: true
   },
   {
-    name: "Mentee Robotics",
-    founded: 2022,
-    sector: "Robotics & Manufacturing",
-    description: "General-purpose humanoid (MenteeBot) with AI-native perception/actuation — acquired by Mobileye for $900M January 2026.",
-    founder: "Amnon Shashua, Lior Wolf, Shai Shalev-Shwartz",
-    location: "Herzliya, Israel",
-    state: "IL",
-    lat: 32.1624,
-    lng: 34.8443,
-    fundingStage: "Acquired",
-    totalRaised: "$40M (exit $900M)",
-    valuation: "$900M exit",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "humanoid-robotics",
-    techApproach: "Vision-centric humanoid built by Mobileye founders — exit to Mobileye validates the tech.",
-    tags: ["humanoid", "AI", "Israel"],
-    insight: "Mobileye paying $900M for Mentee confirms humanoids with strong vision stacks are undervalued.",
-    signal: "hot",
-    scores: { team: 10, traction: 8, techMoat: 9, market: 10, momentum: 10 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
     name: "Arbe Robotics",
     founded: 2015,
     sector: "Drones & Autonomous",
@@ -18631,7 +17881,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Baykar",
     founded: 1984,
     sector: "Defense & Security",
-    description: "Combat drones (TB2, TB3, Akinci, Kizilelma UCAV) — $1.8B 2024 exports to 30+ countries, Leonardo JV, and Piaggio Aerospace acquired.",
+    description: "Combat drones (TB2, TB3, Akinci, Kizilelma UCAV) — $1.8B 2024 exports to 30+ countries, Leonardo JV (LBA Systems), Piaggio Aerospace acquisition closed June 2025; Kizilelma achieved jet UCAV kill.",
     founder: "Selçuk Bayraktar, Haluk Bayraktar",
     location: "Istanbul, Turkey",
     state: "TR",
@@ -18677,7 +17927,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Aleph Farms",
     founded: 2017,
     sector: "Biotech & Health",
-    description: "Cultivated beef steaks grown from cow cells — world's first regulatory approval for cultivated beef (Israel MoH, December 2023).",
+    description: "Cultivated beef steaks grown from cow cells — world's first regulatory approval for cultivated beef (Israel MoH, December 2023). Facing significant challenges: 30% layoffs June 2024, emergency $25M raise at ~$90M valuation (down from $300M peak).",
     founder: "Didier Toubia, Shulamit Levenberg",
     location: "Rehovot, Israel",
     state: "IL",
@@ -18701,7 +17951,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2017,
     sector: "Robotics & Manufacturing",
     description: "Production-grade metal and ceramic additive manufacturing using MoldJet — strategic investment from Stratasys 2025.",
-    founder: "Ben-Zion Eliash",
+    founder: "Ofer Ben-Zur",
     location: "Rosh HaAyin, Israel",
     state: "IL",
     lat: 32.0847,
@@ -18730,7 +17980,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 45.4215,
     lng: -75.6972,
     fundingStage: "Series D+",
-    totalRaised: "Undisclosed",
+    totalRaised: "$236M (incl. $36M SIF grant Aug 2025)",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "copackaged-photonics",
@@ -18766,29 +18016,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     international: true
   },
   {
-    name: "Moltex Energy Canada",
-    founded: 2014,
-    sector: "Nuclear Energy",
-    description: "300 MW Stable Salt Reactor-Wasteburner using spent fuel at Point Lepreau — C$50.5M Strategic Innovation Fund award.",
-    founder: "Ian Scott",
-    location: "Saint John, Canada",
-    state: "CA",
-    lat: 45.2733,
-    lng: -66.0633,
-    fundingStage: "Growth",
-    totalRaised: "C$50.5M+",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "msr-wasteburner",
-    techApproach: "Molten-salt SMR that consumes existing nuclear waste — Canada's sovereign solution to spent-fuel storage.",
-    tags: ["SMR", "MSR", "nuclear waste"],
-    insight: "Canada has 56,000 tonnes of spent fuel. Moltex is the rare reactor design that eats it as fuel.",
-    signal: "watch",
-    scores: { team: 8, traction: 5, techMoat: 10, market: 9, momentum: 8 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
     name: "NordSpace",
     founded: 2022,
     sector: "Space & Aerospace",
@@ -18813,7 +18040,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Canada Rocket Company",
-    founded: 2024,
+    founded: "2025",
     sector: "Space & Aerospace",
     description: "Small-lift orbital rocket by ex-SpaceX and CSA founders — $14.7M total and IDEaS defense grant.",
     founder: "Hugh Kolias, David Tenny",
@@ -18863,7 +18090,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     sector: "Quantum Computing",
     description: "Superconducting quantum computers with thousands of qubits and built-in error correction — selected as Canadian Quantum Champion.",
     founder: "Alireza Najafi-Yazdi",
-    location: "Dorval, Canada",
+    location: "Montreal, Canada",
     state: "CA",
     lat: 45.4483,
     lng: -73.7447,
@@ -18886,12 +18113,12 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     sector: "Robotics & Manufacturing",
     description: "Humanoid robots for manufacturing and logistics — C$11M funding round late 2025.",
     founder: "Ishaan Mehta",
-    location: "Mississauga, Canada",
+    location: "Waterloo, Canada",
     state: "CA",
     lat: 43.589,
     lng: -79.6441,
     fundingStage: "Seed",
-    totalRaised: "C$11M",
+    totalRaised: "C$12M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "humanoid-robotics",
@@ -18905,10 +18132,10 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
   },
   {
     name: "Epic Aerospace",
-    founded: 2020,
+    founded: "2017",
     sector: "Space & Aerospace",
-    description: "Chimera orbital transfer vehicle (LEO→GEO delivery) — Y Combinator + Thiel Fellowship backed, demo launched on Falcon 9 February 2025.",
-    founder: "Federico Klein, Matias Kurganoff",
+    description: "Chimera orbital transfer vehicle (LEO→GEO delivery) — demo Chimera GEO-1 flew February 2025 on IM-2 but failed to transition orbit due to suspected comms failure. Y Combinator + Thiel Fellowship-backed.",
+    founder: "Ignacio Belieres Montero",
     location: "Buenos Aires, Argentina",
     state: "AR",
     lat: -34.6037,
@@ -18930,8 +18157,8 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Akaer",
     founded: 1992,
     sector: "Space & Aerospace",
-    description: "Brazil's first small-lift orbital launch vehicle (with CENIC partner) — BRL 185M (~USD 37.7M) Finep contract, CDR passed May 2025.",
-    founder: "Cesar Silva (CEO)",
+    description: "Brazil's first small-lift orbital launch vehicle (Akaer-led consortium with CENIC, Acrux, Breng, Emsisti) — BRL 185M Finep contract; Critical Design Review passed May 2025. Embraer aerospace heritage.",
+    founder: "José Roberto Catarino (Cesar Silva CEO)",
     location: "São José dos Campos, Brazil",
     state: "BR",
     lat: -23.2237,
@@ -18960,7 +18187,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 51.0447,
     lng: -114.0719,
     fundingStage: "Series A",
-    totalRaised: "~C$75M",
+    totalRaised: "~C$120M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "dle-lithium",
@@ -19019,31 +18246,8 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     international: true
   },
   {
-    name: "NewSpace Systems",
-    founded: 2010,
-    sector: "Space & Aerospace",
-    description: "Satellite subsystems (reaction wheels, magnetometers, sun sensors) — supplied 27+ components to 7 clients in 2025 Transporter launches.",
-    founder: "James Barrington-Brown",
-    location: "Somerset West, South Africa",
-    state: "ZA",
-    lat: -34.0842,
-    lng: 18.8486,
-    fundingStage: "Growth",
-    totalRaised: "Undisclosed",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "satellite-components",
-    techApproach: "Smallsat reaction wheels, magnetometers, sun sensors — ESA prime supplier from Somerset West.",
-    tags: ["satellite components", "ADCS", "South Africa"],
-    insight: "The South African satellite-components cluster is globally competitive. NewSpace is its flagship.",
-    signal: "watch",
-    scores: { team: 7, traction: 8, techMoat: 7, market: 7, momentum: 7 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
     name: "Stratek Global",
-    founded: 2005,
+    founded: "2016",
     sector: "Nuclear Energy",
     description: "HTMR-100 pebble-bed high-temperature SMR (35 MWe / 100 MWth) — signed North West site deal 2025, targeting demo by 2030.",
     founder: "Kelvin Kemm",
@@ -19065,11 +18269,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     international: true
   },
   {
-    name: "Terra Industries",
+    name: "Terrahaptix",
     founded: 2024,
     sector: "Defense & Security",
-    description: "AI-powered surveillance drones for critical infrastructure protection — $34M from 8VC and Lux Capital, beat an Israeli firm on a NetHawk contract.",
-    founder: "Maxwell Maduka, Nathan Nwachuku",
+    description: "AI-powered surveillance drones for critical infrastructure protection (dba Terra Industries) — $34M from 8VC + Lux Capital; won $1.2M NetHawk contract over an Israeli firm; exports to 8 African countries.",
+    founder: "Nathan Nwachuku, Maxwell Maduka",
     location: "Abuja, Nigeria",
     state: "NG",
     lat: 9.0579,
@@ -19088,57 +18292,11 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     international: true
   },
   {
-    name: "Charis UAS",
-    founded: 2014,
-    sector: "Drones & Autonomous",
-    description: "AI-based geospatial drone hardware and analytics — first domestically-made Rwandan drone, backed by XM2 Earth.",
-    founder: "Teddy Segore",
-    location: "Kigali, Rwanda",
-    state: "RW",
-    lat: -1.9403,
-    lng: 30.0596,
-    fundingStage: "Seed",
-    totalRaised: "Undisclosed",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "african-drones",
-    techApproach: "Domestically-manufactured Rwandan drones for African markets — manufacturing under Rwanda's performance-based drone regime.",
-    tags: ["drones", "Africa", "Rwanda"],
-    insight: "Rwanda has one of Africa's most permissive drone regimes. Charis leverages it for unique manufacturing scale.",
-    signal: "watch",
-    scores: { team: 7, traction: 5, techMoat: 6, market: 7, momentum: 7 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
-    name: "ATLAN Space",
-    founded: 2017,
-    sector: "Drones & Autonomous",
-    description: "AI-driven autonomous drones for maritime surveillance, anti-poaching, and oil-spill detection — deployed in Morocco and Senegal.",
-    founder: "Badr Idrissi",
-    location: "Casablanca, Morocco",
-    state: "MA",
-    lat: 33.5731,
-    lng: -7.5898,
-    fundingStage: "Seed",
-    totalRaised: "Undisclosed",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "african-autonomy",
-    techApproach: "Long-endurance autonomous drones for African maritime zones — anti-poaching and spill response.",
-    tags: ["autonomy", "maritime", "Morocco"],
-    insight: "Africa's coastlines are under-policed. ATLAN's autonomous drones are the scalable answer.",
-    signal: "watch",
-    scores: { team: 7, traction: 4, techMoat: 7, market: 7, momentum: 7 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
     name: "Stark Defence",
     founded: 2024,
     sector: "Defense & Security",
     description: "Virtus VTOL loitering munitions and AI C2 software — $62M Sequoia round and Bundeswehr framework contract up to €2.86B.",
-    founder: "Florian Seibel",
+    founder: "Florian Seibel, Uwe Horstmann, Johannes Schaback",
     location: "Berlin, Germany",
     state: "DE",
     lat: 52.52,
@@ -19226,29 +18384,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     international: true
   },
   {
-    name: "Mynaric",
-    founded: 2009,
-    sector: "Space & Aerospace",
-    description: "Laser communication terminals (CONDOR Mk3) for optical inter-satellite links — SDA/Northrop Grumman serial customer.",
-    founder: "Bulent Altan",
-    location: "Munich, Germany",
-    state: "DE",
-    lat: 48.1351,
-    lng: 11.582,
-    fundingStage: "Public (NASDAQ)",
-    totalRaised: "IPO",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "optical-satcom",
-    techApproach: "Laser comms terminals for LEO mega-constellations — sole supplier to SDA's Tranche 2 prime integrators.",
-    tags: ["optical comms", "laser", "Germany"],
-    insight: "Starshield-era laser terminals are a duopoly. Mynaric is the European half.",
-    signal: "watch",
-    scores: { team: 8, traction: 8, techMoat: 9, market: 9, momentum: 7 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
     name: "OroraTech",
     founded: 2018,
     sector: "Space & Aerospace",
@@ -19327,8 +18462,8 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     state: "DE",
     lat: 51.0504,
     lng: 13.7373,
-    fundingStage: "Series A+",
-    totalRaised: "$30M+",
+    fundingStage: "Series A",
+    totalRaised: "$43M+",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "electric-propulsion",
@@ -19344,7 +18479,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     name: "Gauss Fusion",
     founded: 2022,
     sector: "Nuclear Energy",
-    description: "European stellarator fusion consortium — published Europe's first commercial fusion CDR October 2025, with industrial partners Leonardo, RINA, Siemens Energy.",
+    description: "European stellarator fusion consortium — published Europe's first commercial fusion CDR in October 2025, with industrial partners Leonardo, RINA, and Siemens Energy. CEO Milena Roveda stepping down April 15, 2026.",
     founder: "Milena Roveda",
     location: "Hanau, Germany",
     state: "DE",
@@ -19368,7 +18503,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2021,
     sector: "Quantum Computing",
     description: "Hardware-agnostic application-specific quantum algorithms — achieved record protein-folding on IonQ in June 2025.",
-    founder: "Enrique Solano, Daniel Volz",
+    founder: "Enrique Solano, Daniel Volz, Tobias Grab",
     location: "Karlsruhe, Germany",
     state: "DE",
     lat: 49.0069,
@@ -19414,7 +18549,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2018,
     sector: "Quantum Computing",
     description: "Trapped-ion quantum computers in 19-inch rack form factor — won €12.28M EU tender for trapped-ion system at LRZ Munich 2025.",
-    founder: "Rainer Blatt, Thomas Monz",
+    founder: "Rainer Blatt, Thomas Monz, Peter Zoller",
     location: "Innsbruck, Austria",
     state: "AT",
     lat: 47.2692,
@@ -19437,13 +18572,13 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2022,
     sector: "Quantum Computing",
     description: "Diamond NV-center quantum sensors for non-destructive semiconductor chip inspection — €152M facility announced December 2025.",
-    founder: "Jens Pontius",
+    founder: "Kevin Berghoff, Fleming Bruckmaier",
     location: "Munich, Germany",
     state: "DE",
     lat: 48.1351,
     lng: 11.582,
-    fundingStage: "Series A",
-    totalRaised: "€152M facility",
+    fundingStage: "Seed",
+    totalRaised: "€7M seed + €152M facility commitment",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "quantum-sensing",
@@ -19460,13 +18595,13 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     founded: 2020,
     sector: "Chips & Semiconductors",
     description: "Silicon-based microfluidic chip cooling extracting 10x more heat than conventional methods — $58M Series A with Microsoft endorsement.",
-    founder: "Remco van Erp, Sam Harrison",
+    founder: "Remco van Erp, Sam Harrison, Elison Matioli",
     location: "Lausanne, Switzerland",
     state: "CH",
     lat: 46.5197,
     lng: 6.6323,
     fundingStage: "Series A",
-    totalRaised: "$58M+",
+    totalRaised: "$24M",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "advanced-cooling",
@@ -19511,8 +18646,8 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     state: "CH",
     lat: 47.3769,
     lng: 8.5417,
-    fundingStage: "Series B",
-    totalRaised: "$16M",
+    fundingStage: "Seed",
+    totalRaised: "$20M+ (including $16M seed)",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "dexterous-manipulation",
@@ -19594,29 +18729,6 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     international: true
   },
   {
-    name: "CustomCells",
-    founded: 2012,
-    sector: "Climate & Energy",
-    description: "Custom high-performance lithium battery cells for e-aviation and specialty applications — €60M Series A led by World Fund.",
-    founder: "Leopold König, Torge Thönnessen",
-    location: "Itzehoe, Germany",
-    state: "DE",
-    lat: 53.9253,
-    lng: 9.5128,
-    fundingStage: "Series A",
-    totalRaised: "€60M+",
-    valuation: "",
-    rosLink: "https://rationaloptimistsociety.substack.com/",
-    thesisCluster: "specialty-battery",
-    techApproach: "Custom-chemistry high-performance cells for e-aviation — Porsche-backed supplier to the hardest battery applications.",
-    tags: ["batteries", "e-aviation", "Germany"],
-    insight: "E-aviation needs cells no commodity maker can supply. CustomCells is the Porsche-backed specialty cell maker.",
-    signal: "watch",
-    scores: { team: 8, traction: 6, techMoat: 8, market: 8, momentum: 7 },
-    addedDate: "2026-04",
-    international: true
-  },
-  {
     name: "cylib",
     founded: 2022,
     sector: "Climate & Energy",
@@ -19627,7 +18739,7 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     lat: 50.7753,
     lng: 6.0839,
     fundingStage: "Series A",
-    totalRaised: "€63.4M",
+    totalRaised: "€140M+ (Series A €55M + €26.1M NRW grant + €63.4M BMWE grant)",
     valuation: "",
     rosLink: "https://rationaloptimistsociety.substack.com/",
     thesisCluster: "battery-recycling",
@@ -19639,8 +18751,811 @@ tags: ["agtech", "autonomous robots", "precision agriculture"]
     addedDate: "2026-04",
     international: true
   },
-
-// End — 173 new international companies added
+  {
+    name: "Quantum Motion",
+    founded: 2017,
+    sector: "Quantum Computing",
+    description: "Silicon-based quantum computing using proprietary quantum dot architecture — ~$60M raised with UK National Quantum Computing Centre partnership.",
+    founder: "John Morton, Simon Benjamin",
+    location: "London, UK",
+    state: "GB",
+    lat: 51.5074,
+    lng: -0.1278,
+    fundingStage: "Series A",
+    totalRaised: "$60M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "silicon-qubits",
+    techApproach: "Silicon-qubit quantum processors manufactured on standard CMOS lines — the scalability moat inherits semiconductor industrialization.",
+    tags: ["silicon qubits", "quantum", "UK"],
+    insight: "Silicon-qubit quantum is the scalability bet. UCL + Oxford pedigree gives Quantum Motion a credible shot.",
+    signal: "watch",
+    scores: { team: 9, traction: 6, techMoat: 9, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Monumo",
+    founded: 2021,
+    sector: "Chips & Semiconductors",
+    description: "AI-designed electric motors optimising for efficiency, weight, and cost — ~$100M raised for next-generation industrial and automotive EV motors.",
+    founder: "Dominic Vergine",
+    location: "Cambridge, UK",
+    state: "GB",
+    lat: 52.2053,
+    lng: 0.1218,
+    fundingStage: "Series B",
+    totalRaised: "$100M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-design-motors",
+    techApproach: "AI-driven generative design for electric motors — a rare application where AI produces physical hardware, not software.",
+    tags: ["AI design", "electric motors", "hardware"],
+    insight: "Every EV, pump, and HVAC system needs better motors. Monumo's AI design is generating IP no human team can match.",
+    signal: "watch",
+    scores: { team: 8, traction: 6, techMoat: 9, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "XMOS",
+    founded: 2005,
+    sector: "Chips & Semiconductors",
+    description: "xcore parallel processors for edge AI, voice, audio, and IoT — £200M+ raised with real recurring revenue and Tier-1 customers.",
+    founder: "David May",
+    location: "Bristol, UK",
+    state: "GB",
+    lat: 51.4545,
+    lng: -2.5879,
+    fundingStage: "Growth",
+    totalRaised: "£200M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "edge-compute",
+    techApproach: "Parallel-processing xcore chips deliver deterministic audio/voice processing at the edge — differentiated IP from Bristol's legendary silicon community.",
+    tags: ["edge compute", "audio AI", "chips"],
+    insight: "Bristol semi community is under-appreciated. XMOS has shipped real silicon for two decades.",
+    signal: "watch",
+    scores: { team: 9, traction: 8, techMoat: 9, market: 7, momentum: 7 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Causaly",
+    founded: 2018,
+    sector: "Biotech & Health",
+    description: "Scientific literature AI for biomedical research — $95M raised (ICONIQ-led Series B) with major pharma deployments.",
+    founder: "Yiannis Kiachopoulos, Artur Saudabayev",
+    location: "London, UK",
+    state: "GB",
+    lat: 51.5074,
+    lng: -0.1278,
+    fundingStage: "Series B",
+    totalRaised: "$95M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "biomedical-ai",
+    techApproach: "Causal-knowledge-graph AI over scientific literature — accelerates target identification and hypothesis generation for drug discovery.",
+    tags: ["biomedical AI", "knowledge graph", "drug discovery"],
+    insight: "Pharma R&D is bottlenecked on literature search. Causaly's Causely platform is the clearest automation of the analyst layer.",
+    signal: "watch",
+    scores: { team: 9, traction: 7, techMoat: 8, market: 8, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Black Forest Labs",
+    founded: 2024,
+    sector: "AI & Software",
+    description: "Creators of FLUX open-weight image generation models — leading European foundation-model lab with $200M+ raised at $1B+ valuation.",
+    founder: "Robin Rombach, Andreas Blattmann, Patrick Esser",
+    location: "Freiburg, Germany",
+    state: "DE",
+    lat: 47.999,
+    lng: 7.8421,
+    fundingStage: "Series B",
+    totalRaised: "$200M+",
+    valuation: ">$1B",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "foundation-models",
+    techApproach: "Open-weight image and video foundation models — Europe's credible alternative to OpenAI/Anthropic for generative media.",
+    tags: ["foundation models", "image generation", "AI"],
+    insight: "FLUX already beats Midjourney on several benchmarks. Black Forest Labs is the new European AI champion post-Stability collapse.",
+    signal: "hot",
+    scores: { team: 10, traction: 9, techMoat: 9, market: 10, momentum: 10 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Vyoma",
+    founded: 2020,
+    sector: "Space & Aerospace",
+    description: "Space-domain-awareness constellation with optical sensors for collision avoidance — ESA contracts and European sovereign SSA positioning.",
+    founder: "Stefan Frey, Luisa Buinhas",
+    location: "Munich, Germany",
+    state: "DE",
+    lat: 48.1351,
+    lng: 11.582,
+    fundingStage: "Series A",
+    totalRaised: "€15M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "space-ssa",
+    techApproach: "Optical SSA from orbit — Europe's sovereign alternative to US-based commercial SSA providers.",
+    tags: ["SSA", "space", "ESA"],
+    insight: "Europe needs sovereign SSA as LEO fills up. Vyoma is the ESA-backed lead.",
+    signal: "watch",
+    scores: { team: 8, traction: 6, techMoat: 8, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Atmos Space Cargo",
+    founded: 2021,
+    sector: "Space & Aerospace",
+    description: "Inflatable reentry capsule 'Phoenix' — first flight April 2025; reusable in-orbit manufacturing downmass provider.",
+    founder: "Sebastian Klaus, Marta Oliveira",
+    location: "Stuttgart, Germany",
+    state: "DE",
+    lat: 48.7758,
+    lng: 9.1829,
+    fundingStage: "Series A",
+    totalRaised: "~$14M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "reentry-capsules",
+    techApproach: "Inflatable heat-shield capsule for cheap cargo return from LEO — enables orbital-manufacturing business models.",
+    tags: ["reentry", "in-space manufacturing", "Germany"],
+    insight: "Affordable downmass is the orbital-manufacturing keystone. Atmos's inflatable design is the German answer.",
+    signal: "watch",
+    scores: { team: 8, traction: 5, techMoat: 9, market: 8, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Theion",
+    founded: 2020,
+    sector: "Climate & Energy",
+    description: "Crystal-sulfur cathode lithium batteries targeting 3x energy density — €25M+ raised.",
+    founder: "Ulrich Ehmes",
+    location: "Berlin, Germany",
+    state: "DE",
+    lat: 52.52,
+    lng: 13.405,
+    fundingStage: "Series A",
+    totalRaised: "€25M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "battery-chemistry",
+    techApproach: "Crystal-sulfur cathodes breaking graphite/cobalt's energy-density ceiling — targets 1,000 Wh/kg at mass-producible cost.",
+    tags: ["lithium sulfur", "battery", "energy density"],
+    insight: "Li-S cells promise game-changing density if stability gets solved. Theion's crystal-sulfur approach has the cleanest path.",
+    signal: "watch",
+    scores: { team: 8, traction: 5, techMoat: 9, market: 9, momentum: 7 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Neustark",
+    founded: 2019,
+    sector: "Climate & Energy",
+    description: "Permanent CO2 mineralization in recycled concrete — $70M raised, operating plants and 1M-tonne target by 2030.",
+    founder: "Valentin Gutknecht, Johannes Tiefenthaler",
+    location: "Bern, Switzerland",
+    state: "CH",
+    lat: 46.9481,
+    lng: 7.4474,
+    fundingStage: "Series B",
+    totalRaised: "$70M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ccs-mineralization",
+    techApproach: "CO2 mineralization onto recycled concrete aggregate — piggybacks on the construction supply chain, not a bespoke plant play.",
+    tags: ["CCS", "mineralization", "concrete"],
+    insight: "Low-cost durable CO2 sequestration is the bottleneck. Neustark's concrete pathway is the cleanest scale play.",
+    signal: "hot",
+    scores: { team: 9, traction: 8, techMoat: 8, market: 10, momentum: 9 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Orbem",
+    founded: 2019,
+    sector: "Biotech & Health",
+    description: "AI-powered MRI imaging for biotech and agritech — ~€50M Series B with major poultry and pharma customers.",
+    founder: "Pedro Gomez, Maria Laparidou",
+    location: "Munich, Germany",
+    state: "DE",
+    lat: 48.1351,
+    lng: 11.582,
+    fundingStage: "Series B",
+    totalRaised: "€50M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "imaging-ai",
+    techApproach: "Compact MRI + AI stack compact enough for in-line industrial use — non-destructive imaging at poultry-egg and drug-discovery scale.",
+    tags: ["MRI", "AI imaging", "biotech"],
+    insight: "Industrial MRI has been science-fiction for decades. Orbem ships it today — poultry hatcheries are paying customers.",
+    signal: "watch",
+    scores: { team: 8, traction: 7, techMoat: 9, market: 8, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Calogena",
+    founded: 2023,
+    sector: "Nuclear Energy",
+    description: "Compact PWR SMR for district heating — €100M March 2026 France 2030 funding; first French SMR to submit a DAC to ASN (Feb 2026).",
+    founder: "Frédéric Mariotte",
+    location: "Paris, France",
+    state: "FR",
+    lat: 48.8566,
+    lng: 2.3522,
+    fundingStage: "Series A",
+    totalRaised: "€100M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "smr-district-heating",
+    techApproach: "Small pressurized-water reactor sized for urban district heating — first French SMR to pass into regulatory review.",
+    tags: ["SMR", "district heating", "France"],
+    insight: "District heating is unelectrifiable at scale without nuclear. Calogena is the first French bet to reach regulatory review.",
+    signal: "hot",
+    scores: { team: 8, traction: 6, techMoat: 9, market: 9, momentum: 9 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Hexana",
+    founded: 2023,
+    sector: "Nuclear Energy",
+    description: "Sodium-cooled SMR (twin 400 MWe blocks) with integrated thermal storage — €21M seed + France 2030 support.",
+    founder: "Gabriel Lévy",
+    location: "Paris, France",
+    state: "FR",
+    lat: 48.8566,
+    lng: 2.3522,
+    fundingStage: "Seed",
+    totalRaised: "€21M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "smr-sodium-cooled",
+    techApproach: "Sodium-cooled fast reactor co-designed with industrial-scale thermal storage — plant can load-follow solar/wind at scale.",
+    tags: ["SMR", "sodium-cooled", "France"],
+    insight: "Fast-reactor + thermal storage = dispatchable firm zero-carbon power. Hexana is France's flagship bet on the pair.",
+    signal: "watch",
+    scores: { team: 8, traction: 4, techMoat: 9, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Dust",
+    founded: 2023,
+    sector: "AI & Software",
+    description: "Enterprise AI agents platform — ex-OpenAI team with ~$70M+ raised and customers including Alan, Qonto, and PayFit.",
+    founder: "Gabriel Hubert, Stanislas Polu",
+    location: "Paris, France",
+    state: "FR",
+    lat: 48.8566,
+    lng: 2.3522,
+    fundingStage: "Series B",
+    totalRaised: "$70M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "ai-agents",
+    techApproach: "Enterprise-grade AI agents platform built by ex-OpenAI engineers — Europe's B2B answer to Anthropic/OpenAI.",
+    tags: ["AI agents", "enterprise", "France"],
+    insight: "Enterprise AI agents are the next billion-dollar layer. Dust's ex-OpenAI team is the strongest European contender.",
+    signal: "hot",
+    scores: { team: 10, traction: 7, techMoat: 8, market: 10, momentum: 10 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Photoroom",
+    founded: 2019,
+    sector: "AI & Software",
+    description: "On-device generative imaging AI with tens of millions of users — Series B $43M at $500M valuation December 2024.",
+    founder: "Matthieu Rouif, Eliot Andres",
+    location: "Paris, France",
+    state: "FR",
+    lat: 48.8566,
+    lng: 2.3522,
+    fundingStage: "Series B",
+    totalRaised: "$43M",
+    valuation: "$500M",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "on-device-ai",
+    techApproach: "On-device generative image AI — privacy-preserving and cost-efficient alternative to cloud APIs.",
+    tags: ["image AI", "on-device", "mobile"],
+    insight: "On-device AI wins the long-tail prosumer market. Photoroom has one of the only apps with millions of paying users.",
+    signal: "hot",
+    scores: { team: 9, traction: 8, techMoat: 8, market: 9, momentum: 9 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Fossa Systems",
+    founded: 2018,
+    sector: "Space & Aerospace",
+    description: "80+ picosatellites manufactured for IoT and defense downlink constellation — contracts with Spanish MoD and NATO.",
+    founder: "Julián Fernández, Vicente González",
+    location: "Madrid, Spain",
+    state: "ES",
+    lat: 40.4168,
+    lng: -3.7038,
+    fundingStage: "Series A",
+    totalRaised: "€15M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "picosat-iot",
+    techApproach: "Picosat IoT constellation — Spain's sovereign IoT-from-space play.",
+    tags: ["picosatellites", "IoT", "Spain"],
+    insight: "IoT-from-space needs cheap constellations. Fossa has shipped 80+ sats — rare real traction.",
+    signal: "watch",
+    scores: { team: 7, traction: 7, techMoat: 7, market: 8, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "SpaceForest",
+    founded: 2011,
+    sector: "Space & Aerospace",
+    description: "Perun suborbital rocket successfully flew 2024 — Poland's leading indigenous launch developer, GPW-listed, ESA contracts.",
+    founder: "Rafał Przybyła",
+    location: "Gdynia, Poland",
+    state: "PL",
+    lat: 54.5189,
+    lng: 18.5305,
+    fundingStage: "Public (GPW)",
+    totalRaised: "IPO + ESA",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "sovereign-launch",
+    techApproach: "Polish sovereign suborbital launch with orbital roadmap — GPW-listed and ESA-funded.",
+    tags: ["suborbital launch", "rocket", "Poland"],
+    insight: "Poland is quietly building a full sovereign space stack. SpaceForest is the launch anchor.",
+    signal: "watch",
+    scores: { team: 7, traction: 6, techMoat: 7, market: 7, momentum: 7 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "RoboTwin",
+    founded: 2021,
+    sector: "Robotics & Manufacturing",
+    description: "Handheld 'teach-by-demonstration' device plus no-code software that turns factory workers into robot programmers — €2.3M EIC 2025, deployed in Central Europe, Netherlands, Mexico, Canada.",
+    founder: "Megi Mejdrechová, Ladislav Dvořák, David Polák",
+    location: "Prague, Czech Republic",
+    state: "CZ",
+    lat: 50.0755,
+    lng: 14.4378,
+    fundingStage: "Seed",
+    totalRaised: "€2.3M EIC",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "robot-teaching",
+    techApproach: "Gesture-based robot programming — removes the bottleneck of hiring robotics engineers.",
+    tags: ["robotics", "no-code", "Czech Republic"],
+    insight: "Small factories can't hire robotics engineers. RoboTwin lets any worker program a robot in minutes.",
+    signal: "watch",
+    scores: { team: 7, traction: 5, techMoat: 7, market: 8, momentum: 7 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Ukrspecsystems",
+    founded: 2014,
+    sector: "Defense & Security",
+    description: "PD-1 / PD-2 Shark tactical UAVs mass-produced for ISR and strike — ~$50M+ estimated revenue from MoD contracts, widely used by Ukrainian forces.",
+    founder: "Yuri Pashchenko",
+    location: "Kyiv, Ukraine",
+    state: "UA",
+    lat: 50.4501,
+    lng: 30.5234,
+    fundingStage: "Growth",
+    totalRaised: "MoD contracts",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "tactical-uav",
+    techApproach: "Mass-produced tactical ISR and strike UAVs battle-tested in Ukraine — Western-aligned supply with combat validation.",
+    tags: ["UAV", "ISR", "Ukraine"],
+    insight: "NATO increasingly wants Ukraine-validated tactical UAVs. Ukrspecsystems has the biggest install base.",
+    signal: "hot",
+    scores: { team: 8, traction: 9, techMoat: 7, market: 9, momentum: 9 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Roboneers",
+    founded: 2015,
+    sector: "Defense & Security",
+    description: "Shablya M2 remote weapon stations and Ironclad UGVs — selected by Ukrainian MoD as core supplier.",
+    founder: "Anton Skrypnyk",
+    location: "Kyiv, Ukraine",
+    state: "UA",
+    lat: 50.4501,
+    lng: 30.5234,
+    fundingStage: "Growth",
+    totalRaised: "MoD contracts",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "remote-weapons",
+    techApproach: "Remote weapon stations and UGVs at combat-validated production scale — cheap, modular, effective.",
+    tags: ["RWS", "UGV", "Ukraine"],
+    insight: "Remote weapon stations are the force multiplier of modern infantry. Roboneers has the Ukrainian MoD stamp.",
+    signal: "hot",
+    scores: { team: 8, traction: 9, techMoat: 7, market: 9, momentum: 9 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Cellcolabs",
+    founded: 2021,
+    sector: "Biotech & Health",
+    description: "Industrial-scale production of clinical-grade mesenchymal stem cells at Karolinska — $25M+ raised.",
+    founder: "Mattias Bernow",
+    location: "Stockholm, Sweden",
+    state: "SE",
+    lat: 59.3293,
+    lng: 18.0686,
+    fundingStage: "Series A",
+    totalRaised: "$25M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "stem-cell-manufacturing",
+    techApproach: "Industrialized mesenchymal stem cell production — the CMO layer that cell therapy has lacked.",
+    tags: ["stem cells", "biomanufacturing", "Sweden"],
+    insight: "Cell therapy is bottlenecked on manufacturing. Cellcolabs is the Karolinska-backed scale-up candidate.",
+    signal: "watch",
+    scores: { team: 8, traction: 6, techMoat: 8, market: 8, momentum: 7 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Space Machines Company",
+    founded: 2020,
+    sector: "Space & Aerospace",
+    description: "Optimus Orbital Servicing Vehicle — flew inaugural mission 2024; pursuing India-Australia space bridge with AU$8.5M Series A.",
+    founder: "Rajat Kulshrestha",
+    location: "Sydney, Australia",
+    state: "AU",
+    lat: -33.8688,
+    lng: 151.2093,
+    fundingStage: "Series A",
+    totalRaised: "AU$11M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "orbital-servicing",
+    techApproach: "Orbital servicing platform with Indian+Australian government backing — a rare OSAM startup with actual flight heritage.",
+    tags: ["orbital servicing", "OSAM", "Australia"],
+    insight: "In-orbit servicing is the next big space market. Space Machines flew Optimus — most peers are still pitching.",
+    signal: "watch",
+    scores: { team: 8, traction: 6, techMoat: 7, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "HEO",
+    founded: 2016,
+    sector: "Space & Aerospace",
+    description: "Non-Earth imaging and satellite inspection — $12M Series A with contracts from US Space Force and UK MoD.",
+    founder: "William Crowe",
+    location: "Sydney, Australia",
+    state: "AU",
+    lat: -33.8688,
+    lng: 151.2093,
+    fundingStage: "Series A",
+    totalRaised: "$12M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "non-earth-imaging",
+    techApproach: "Inspection imagery of other spacecraft in orbit — a category competitors have ignored.",
+    tags: ["space imaging", "inspection", "Australia"],
+    insight: "Space inspection is going to explode as LEO fills up. HEO is already serving SPACECOM and UK MoD.",
+    signal: "watch",
+    scores: { team: 8, traction: 6, techMoat: 8, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Manastu Space",
+    founded: 2017,
+    sector: "Space & Aerospace",
+    description: "Green satellite propulsion using H2O2 (hydrogen peroxide) — flight-proven on PSLV 2024, IN-SPACe support.",
+    founder: "Tushar Jadhav, Ashtesh Kumar",
+    location: "Mumbai, India",
+    state: "IN",
+    lat: 19.076,
+    lng: 72.8777,
+    fundingStage: "Series A",
+    totalRaised: "$5M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "green-propulsion",
+    techApproach: "Hydrogen-peroxide satellite thrusters — non-toxic and cheaper-to-handle alternative to hydrazine.",
+    tags: ["green propulsion", "satellites", "India"],
+    insight: "Hydrazine is getting regulated. Manastu's H2O2 thrusters are flight-proven and production-ready.",
+    signal: "watch",
+    scores: { team: 7, traction: 5, techMoat: 8, market: 7, momentum: 7 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Kneron",
+    founded: 2015,
+    sector: "Chips & Semiconductors",
+    description: "Edge AI NPU chips for automotive, IoT, and consumer — $97M Series B with auto-grade NPU production.",
+    founder: "Albert Liu",
+    location: "Hsinchu, Taiwan",
+    state: "TW",
+    lat: 24.8138,
+    lng: 120.9675,
+    fundingStage: "Series B",
+    totalRaised: "$97M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "edge-ai-silicon",
+    techApproach: "Purpose-built edge AI NPU — Taiwan's native answer to Hailo and Axelera.",
+    tags: ["edge AI", "NPU", "Taiwan"],
+    insight: "Every car will ship with edge AI. Kneron has auto-grade silicon in production with Tier-1 customers.",
+    signal: "watch",
+    scores: { team: 8, traction: 7, techMoat: 8, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "MakinaRocks",
+    founded: 2017,
+    sector: "AI & Software",
+    description: "Industrial MLOps platform for heavy industry — $40M Series B, Korean conglomerate deployments.",
+    founder: "Sangmin Yoon",
+    location: "Seoul, South Korea",
+    state: "KR",
+    lat: 37.5665,
+    lng: 126.978,
+    fundingStage: "Series B",
+    totalRaised: "$40M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "industrial-ai",
+    techApproach: "MLOps purpose-built for heavy industry — closes the last-mile gap between AI research and factory floor.",
+    tags: ["industrial AI", "MLOps", "Korea"],
+    insight: "Korean chaebols are the world's hardest enterprise AI customers. MakinaRocks is the incumbent vendor.",
+    signal: "watch",
+    scores: { team: 8, traction: 7, techMoat: 7, market: 8, momentum: 7 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "DustPhotonics",
+    founded: 2017,
+    sector: "Chips & Semiconductors",
+    description: "800G/1.6T co-packaged optics silicon for AI data centers — Series C $75M+ with MediaTek lead and Tier-1 hyperscaler design wins.",
+    founder: "Ronnie Cohen, Arik Sandler",
+    location: "Modi'in, Israel",
+    state: "IL",
+    lat: 31.708,
+    lng: 35.0065,
+    fundingStage: "Series C",
+    totalRaised: "$75M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "copackaged-optics",
+    techApproach: "Silicon photonics for AI cluster interconnects — MediaTek-led Series C validates the hyperscaler design pipeline.",
+    tags: ["silicon photonics", "copackaged optics", "Israel"],
+    insight: "AI cluster bandwidth is the next bottleneck. DustPhotonics is a rare non-US alternative with hyperscaler design wins.",
+    signal: "hot",
+    scores: { team: 9, traction: 7, techMoat: 9, market: 10, momentum: 9 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Dream Security",
+    founded: 2023,
+    sector: "Defense & Security",
+    description: "AI-driven cybersecurity for critical infrastructure — $100M+ Series B at $1.5B valuation November 2024 led by Bain Capital Ventures.",
+    founder: "Shalev Hulio, Sebastian Kurz",
+    location: "Tel Aviv, Israel",
+    state: "IL",
+    lat: 32.0853,
+    lng: 34.7818,
+    fundingStage: "Series B",
+    totalRaised: "$100M+",
+    valuation: "$1.5B",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "critical-infra-security",
+    techApproach: "AI-driven defense of nation-state infrastructure — NSO-alumni team building the sovereign CIP layer.",
+    tags: ["cybersecurity", "critical infrastructure", "Israel"],
+    insight: "Critical infrastructure is nation-state priority everywhere. Dream's NSO-alumni team moves faster than any incumbent.",
+    signal: "hot",
+    scores: { team: 10, traction: 7, techMoat: 8, market: 10, momentum: 10 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Asterra",
+    founded: 2016,
+    sector: "Space & Aerospace",
+    description: "Satellite-based subsurface leak detection using SAR and L-band radar physics — $20M+ raised, deployed with ~1,000 utilities globally.",
+    founder: "Lauren Guy",
+    location: "Herzliya, Israel",
+    state: "IL",
+    lat: 32.1624,
+    lng: 34.8443,
+    fundingStage: "Series A",
+    totalRaised: "$20M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "sar-analytics",
+    techApproach: "L-band SAR analytics detect subsurface water leaks from space — a novel physics application no one else operationalized.",
+    tags: ["SAR", "water", "analytics"],
+    insight: "Water infrastructure loses 30%+ to leaks globally. Asterra is the only satellite-data firm detecting them at continental scale.",
+    signal: "watch",
+    scores: { team: 8, traction: 8, techMoat: 8, market: 8, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Vention",
+    founded: 2016,
+    sector: "Robotics & Manufacturing",
+    description: "Manufacturing automation platform with modular robotics — $95M Series C 2024 (Georgian-led) deploying across North American factories.",
+    founder: "Etienne Lacroix",
+    location: "Montreal, Canada",
+    state: "CA",
+    lat: 45.5017,
+    lng: -73.5673,
+    fundingStage: "Series C",
+    totalRaised: "$95M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "modular-automation",
+    techApproach: "Configurable modular automation platform — customers design, order, and deploy robotic cells in days.",
+    tags: ["manufacturing automation", "modular robotics", "Canada"],
+    insight: "SMB manufacturers can't hire robotics integrators. Vention's self-serve platform collapses the timeline.",
+    signal: "watch",
+    scores: { team: 9, traction: 8, techMoat: 7, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Kraken Robotics",
+    founded: 2012,
+    sector: "Defense & Security",
+    description: "Underwater robotics and synthetic aperture sonar — TSX-V listed (PNG), $50M+ revenue, Royal Canadian Navy contracts.",
+    founder: "Karl Kenny",
+    location: "St. John's, Canada",
+    state: "CA",
+    lat: 47.5615,
+    lng: -52.7126,
+    fundingStage: "Public (TSX-V)",
+    totalRaised: "Listed",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "underwater-robotics",
+    techApproach: "Production-scale underwater robotics and SAS for defense customers — Canadian naval supplier with real revenue.",
+    tags: ["underwater robotics", "sonar", "Canada"],
+    insight: "AUKUS needs underwater surveillance. Kraken is the Canadian entrant with production hardware already shipping.",
+    signal: "watch",
+    scores: { team: 8, traction: 9, techMoat: 8, market: 8, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Telesat Lightspeed",
+    founded: 2021,
+    sector: "Space & Aerospace",
+    description: "LEO satellite constellation for enterprise broadband — C$2.1B Government of Canada financing 2024, industry partners MDA and Airbus.",
+    founder: "Dan Goldberg (CEO)",
+    location: "Ottawa, Canada",
+    state: "CA",
+    lat: 45.4215,
+    lng: -75.6972,
+    fundingStage: "Growth",
+    totalRaised: "C$2.1B",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "leo-broadband",
+    techApproach: "LEO enterprise broadband with Canadian sovereign-capital backing — the non-Starlink alternative for enterprise and government.",
+    tags: ["LEO constellation", "broadband", "Canada"],
+    insight: "Enterprise and government need a non-US LEO alternative to Starlink. Telesat Lightspeed is the last credible option.",
+    signal: "watch",
+    scores: { team: 8, traction: 7, techMoat: 7, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "AbCellera",
+    founded: 2012,
+    sector: "Biotech & Health",
+    description: "Antibody discovery platform — Nasdaq-listed (ABCL), $500M+ balance sheet, commercial antibodies in clinical development.",
+    founder: "Carl Hansen",
+    location: "Vancouver, Canada",
+    state: "CA",
+    lat: 49.2827,
+    lng: -123.1207,
+    fundingStage: "Public (NASDAQ)",
+    totalRaised: "IPO",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "antibody-discovery",
+    techApproach: "High-throughput antibody discovery platform — the Illumina of antibody engineering.",
+    tags: ["antibodies", "drug discovery", "Canada"],
+    insight: "Antibodies remain biopharma's growth engine. AbCellera is the industrialized discovery layer everyone uses.",
+    signal: "watch",
+    scores: { team: 9, traction: 8, techMoat: 9, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Svante",
+    founded: 2007,
+    sector: "Climate & Energy",
+    description: "Solid-sorbent industrial carbon capture — $318M Series E 2022, Chevron-backed, major LafargeHolcim deployment.",
+    founder: "Claude Letourneau",
+    location: "Burnaby, Canada",
+    state: "CA",
+    lat: 49.2488,
+    lng: -122.9805,
+    fundingStage: "Series E",
+    totalRaised: "$318M",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "industrial-ccs",
+    techApproach: "Solid-sorbent CCS outperforms amine-thermal for industrial flue gas — the lowest-cost post-combustion CCS at scale.",
+    tags: ["carbon capture", "solid sorbent", "industrial"],
+    insight: "Industrial CCS needs solid sorbent to beat gas economics. Svante is the only producer at commercial scale.",
+    signal: "hot",
+    scores: { team: 9, traction: 8, techMoat: 9, market: 10, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "MineSense Technologies",
+    founded: 2008,
+    sector: "Climate & Energy",
+    description: "Real-time ore-sorting sensors for mines — $100M+ raised with Rio Tinto, Teck, and BHP deployments.",
+    founder: "Jeff More",
+    location: "Vancouver, Canada",
+    state: "CA",
+    lat: 49.2827,
+    lng: -123.1207,
+    fundingStage: "Growth",
+    totalRaised: "$100M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "critical-minerals",
+    techApproach: "X-ray fluorescence real-time ore sorting at the shovel face — halves ore-to-mill ratio and energy use.",
+    tags: ["mining", "ore sorting", "critical minerals"],
+    insight: "Critical-mineral supply requires smarter mining. MineSense's sensors are the only broadly deployed solution.",
+    signal: "watch",
+    scores: { team: 8, traction: 9, techMoat: 8, market: 9, momentum: 8 },
+    addedDate: "2026-04",
+    international: true
+  },
+  {
+    name: "Hypernova Space Technologies",
+    founded: 2019,
+    sector: "Space & Aerospace",
+    description: "Metal-fueled plasma thrusters for satellites — novel physics with flight demo 2023 and Series A 2024.",
+    founder: "Jonathan Lun",
+    location: "Cape Town, South Africa",
+    state: "ZA",
+    lat: -33.9249,
+    lng: 18.4241,
+    fundingStage: "Series A",
+    totalRaised: "$5M+",
+    valuation: "",
+    rosLink: "https://rationaloptimistsociety.substack.com/",
+    thesisCluster: "electric-propulsion",
+    techApproach: "Metal-fueled plasma thrusters — enables cheap, storable, non-toxic propellant with higher Isp than Hall thrusters.",
+    tags: ["electric propulsion", "plasma", "South Africa"],
+    insight: "Metal-fueled plasma is a novel physics bet. Hypernova has the world's first commercial metal-fueled thruster.",
+    signal: "watch",
+    scores: { team: 8, traction: 5, techMoat: 9, market: 7, momentum: 7 },
+    addedDate: "2026-04",
+    international: true
+  }
 ];
 
 // ─── VC FIRMS DATABASE ───
