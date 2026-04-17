@@ -29143,20 +29143,20 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-16 23:53
+// Last updated: 2026-04-17 03:36
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI starts offering a biology-tuned LLM", source: "Ars Technica Space", time: "2h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "Physical Intelligence", headline: "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught", source: "TechCrunch", time: "3h ago", impact: "low", unread: true },
-  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Flight 12 in a Few Weeks Aka Early-Mid May", source: "Next Big Future", time: "4h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "Anthropic", headline: "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 5, type: "milestone", company: "Anthropic", headline: "OpenAI launches biopharma-focused AI model to compete with Anthropic", source: "Endpoints News", time: "4h ago", impact: "medium", unread: true },
-  { id: 6, type: "ipo", company: "Anthropic", headline: "Anthropic CPO leaves Figma's board after reports he will offer a competing product", source: "TechCrunch", time: "5h ago", impact: "low", unread: false },
-  { id: 7, type: "news", company: "OpenAI", headline: "The Battle for OpenAI's Soul", source: "Wired", time: "5h ago", impact: "low", unread: false },
-  { id: 8, type: "contract", company: "SpaceX", headline: "Starlink outage hit drone tests, exposing Pentagon's growing reliance on SpaceX", source: "Defense News", time: "6h ago", impact: "low", unread: false },
-  { id: 9, type: "ipo", company: "Blue Origin", headline: "Blue Origin New Glenn 3 Has a Good Static Fire", source: "Next Big Future", time: "7h ago", impact: "medium", unread: false },
-  { id: 10, type: "ipo", company: "Anthropic", headline: "Anthropic Plots Major London Expansion", source: "Wired", time: "10h ago", impact: "medium", unread: false },
-  { id: 11, type: "milestone", company: "Anthropic", headline: "Anthropic's Nuclear Bomb", source: "War on the Rocks", time: "15h ago", impact: "low", unread: false },
-  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX Successfully Static Fires V3 Booster", source: "Next Big Future", time: "20h ago", impact: "medium", unread: false },
+  { id: 1, type: "news", company: "OpenAI", headline: "OpenAI starts offering a biology-tuned LLM", source: "Ars Technica Space", time: "6h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "Physical Intelligence", headline: "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught", source: "TechCrunch", time: "7h ago", impact: "low", unread: true },
+  { id: 3, type: "ipo", company: "SpaceX", headline: "SpaceX Starship Flight 12 in a Few Weeks Aka Early-Mid May", source: "Next Big Future", time: "8h ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "Anthropic", headline: "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop", source: "TechCrunch", time: "8h ago", impact: "low", unread: true },
+  { id: 5, type: "milestone", company: "Anthropic", headline: "OpenAI launches biopharma-focused AI model to compete with Anthropic", source: "Endpoints News", time: "8h ago", impact: "medium", unread: true },
+  { id: 6, type: "ipo", company: "Anthropic", headline: "Anthropic CPO leaves Figma's board after reports he will offer a competing product", source: "TechCrunch", time: "9h ago", impact: "low", unread: false },
+  { id: 7, type: "news", company: "OpenAI", headline: "The Battle for OpenAI's Soul", source: "Wired", time: "9h ago", impact: "low", unread: false },
+  { id: 8, type: "contract", company: "SpaceX", headline: "Starlink outage hit drone tests, exposing Pentagon's growing reliance on SpaceX", source: "Defense News", time: "9h ago", impact: "low", unread: false },
+  { id: 9, type: "ipo", company: "Blue Origin", headline: "Blue Origin New Glenn 3 Has a Good Static Fire", source: "Next Big Future", time: "11h ago", impact: "medium", unread: false },
+  { id: 10, type: "ipo", company: "Anthropic", headline: "Anthropic Plots Major London Expansion", source: "Wired", time: "13h ago", impact: "medium", unread: false },
+  { id: 11, type: "milestone", company: "Anthropic", headline: "Anthropic's Nuclear Bomb", source: "War on the Rocks", time: "19h ago", impact: "low", unread: false },
+  { id: 12, type: "ipo", company: "SpaceX", headline: "SpaceX Successfully Static Fires V3 Booster", source: "Next Big Future", time: "23h ago", impact: "medium", unread: false },
   { id: 13, type: "hire", company: "Abridge", headline: "Scribing startup Abridge adds NEJM, JAMA as it moves into medical AI search", source: "Endpoints News", time: "1d ago", impact: "low", unread: false },
   { id: 14, type: "funding", company: "Wayve", headline: "Self-driving scaleup Wayve raises fresh funds from AMD, Qualcomm and Arm", source: "Sifted", time: "1d ago", impact: "low", unread: false },
   { id: 15, type: "funding", company: "Anthropic", headline: "STAT+: Novartis CEO joins Anthropic's board", source: "STAT News", time: "1d ago", impact: "low", unread: false },
