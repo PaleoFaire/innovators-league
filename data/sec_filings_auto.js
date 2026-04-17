@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-16 07:55:13 UTC
+// Last updated: 2026-04-17 07:55:47 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "4", date: "2026-04-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
+  { company: "C3.ai", form: "4", date: "2026-04-16", description: "xslF345X06/wk-form4_1776380818.xml", isIPO: false, ticker: "AI" },
+  { company: "Upstart Holdings", form: "DEF 14A", date: "2026-04-16", description: "d177155ddef14a.htm", isIPO: false, ticker: "UPST" },
+  { company: "Joby Aviation", form: "4", date: "2026-04-16", description: "xslF345X06/wk-form4_1776373586.xml", isIPO: false, ticker: "JOBY" },
+  { company: "Rivian", form: "4", date: "2026-04-16", description: "xslF345X06/wk-form4_1776372818.xml", isIPO: false, ticker: "RIVN" },
   { company: "NuScale Power", form: "DEF 14A", date: "2026-04-15", description: "smr-20260415.htm", isIPO: false, ticker: "SMR" },
   { company: "C3.ai", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776290430.xml", isIPO: false, ticker: "AI" },
   { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287399.xml", isIPO: false, ticker: "QBTS" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248597.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248508.xml", isIPO: false, ticker: "OKLO" },
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248421.xml", isIPO: false, ticker: "OKLO" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "AST SpaceMobile", form: "4", date: "2026-04-02", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
-  { company: "NuScale Power", form: "4", date: "2026-04-02", description: "xslF345X06/wk-form4_1775163943.xml", isIPO: false, ticker: "SMR" },
 ];

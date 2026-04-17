@@ -10,7 +10,7 @@
     "dayChange": null,
     "sector": "Chips & Semiconductors",
     "stage": "",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "14.8x",
     "revenue": "$215.9B"
   },
@@ -25,7 +25,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series J",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "57.1x",
     "revenue": "$14B+"
   },
@@ -40,7 +40,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "88.9x",
     "revenue": "$4.5B"
   },
@@ -55,9 +55,22 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Seed",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "25.0x",
     "revenue": "$12B+"
+  },
+  {
+    "company": "xAI",
+    "valuation": "$250B",
+    "valuationRaw": 250000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Software",
+    "stage": "Series E",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Anthropic",
@@ -70,7 +83,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series G",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "20.3x",
     "revenue": "$9B+"
   },
@@ -85,7 +98,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series L",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "24.8x",
     "revenue": "$5.4B"
   },
@@ -100,7 +113,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Late Stage",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "126.0x",
     "revenue": "$1B+"
   },
@@ -115,7 +128,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Rocket Lab",
@@ -128,9 +141,22 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "61.5x",
     "revenue": "$602M"
+  },
+  {
+    "company": "Safe Superintelligence",
+    "valuation": "$32B",
+    "valuationRaw": 32000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Software",
+    "stage": "Series B",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Anduril Industries",
@@ -143,7 +169,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series G",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "20.3x",
     "revenue": "$1.5B+"
   },
@@ -158,7 +184,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Late Stage",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Anysphere",
@@ -171,7 +197,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "29.3x",
     "revenue": "$1B+"
   },
@@ -186,7 +212,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "20.7x",
     "revenue": "$1.4B+"
   },
@@ -201,9 +227,24 @@
     "dayChange": null,
     "sector": "Chips & Semiconductors",
     "stage": "Series H",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "115.0x",
     "revenue": "$200M+"
+  },
+  {
+    "company": "Rivian",
+    "valuation": "$20.7B",
+    "valuationRaw": 20700000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Transportation",
+    "stage": "Public",
+    "lastUpdated": "2026-04-17",
+    "revenueMultiple": "3.8x",
+    "revenue": "$5.4B"
   },
   {
     "company": "Applied Intuition",
@@ -216,22 +257,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series F",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "Rivian",
-    "valuation": "$14.8B",
-    "valuationRaw": 14800000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Transportation",
-    "stage": "Public",
-    "lastUpdated": "2026-04-16",
-    "revenueMultiple": "2.7x",
-    "revenue": "$5.4B"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Skild AI",
@@ -244,7 +270,20 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Thinking Machines Lab",
+    "valuation": "$12B",
+    "valuationRaw": 12000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Software",
+    "stage": "Seed",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "IonQ",
@@ -257,7 +296,7 @@
     "dayChange": null,
     "sector": "Quantum Computing",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "4.8x",
     "revenue": "$2.3B"
   },
@@ -272,7 +311,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series E",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "10.0x",
     "revenue": "$1B+"
   },
@@ -287,7 +326,7 @@
     "dayChange": null,
     "sector": "Nuclear Energy",
     "stage": "Public",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Joby Aviation",
@@ -300,7 +339,7 @@
     "dayChange": null,
     "sector": "Drones & Autonomous",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "22.6x",
     "revenue": "$442M"
   },
@@ -315,7 +354,7 @@
     "dayChange": null,
     "sector": "Quantum Computing",
     "stage": "Series E",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "1X Technologies",
@@ -328,7 +367,20 @@
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Baykar",
+    "valuation": "~$10B (rumored)",
+    "valuationRaw": 10000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Defense & Security",
+    "stage": "Private",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Neuralink",
@@ -341,7 +393,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Wayve",
@@ -354,7 +406,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Flock Safety",
@@ -367,7 +419,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series E",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Planet Labs",
@@ -380,9 +432,35 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "28.7x",
     "revenue": "$244M"
+  },
+  {
+    "company": "Groq",
+    "valuation": "$7B",
+    "valuationRaw": 7000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Software",
+    "stage": "Series E",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "PsiQuantum",
+    "valuation": "$7B",
+    "valuationRaw": 7000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Chips & Semiconductors",
+    "stage": "Series E",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Cohere",
@@ -395,11 +473,26 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Firefly Aerospace",
+    "valuation": "$6.3B",
+    "valuationRaw": 6300000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Space & Aerospace",
+    "stage": "Public",
+    "lastUpdated": "2026-04-17",
+    "revenueMultiple": "47.4x",
+    "revenue": "$133M\u2013$145M"
   },
   {
     "company": "TAE Technologies",
-    "valuation": "$6B+",
+    "valuation": "$6B",
     "valuationRaw": 6000000000.0,
     "source": "curated",
     "sourceLabel": "Curated from ROS research",
@@ -408,7 +501,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series G",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Tempus AI",
@@ -421,7 +514,7 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "1.9x",
     "revenue": "$3.1B"
   },
@@ -436,7 +529,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Nuro",
@@ -449,7 +542,20 @@
     "dayChange": null,
     "sector": "Drones & Autonomous",
     "stage": "Series G",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "The Boring Company",
+    "valuation": "$5.7B",
+    "valuationRaw": 5700000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Transportation",
+    "stage": "Late Stage",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Physical Intelligence",
@@ -462,7 +568,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Shield AI",
@@ -475,9 +581,22 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series F",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "11.2x",
     "revenue": "$500M+"
+  },
+  {
+    "company": "SandboxAQ",
+    "valuation": "$5.6B",
+    "valuationRaw": 5600000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Autonomy",
+    "stage": "Series E",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Rigetti Computing",
@@ -490,7 +609,7 @@
     "dayChange": null,
     "sector": "Quantum Computing",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "423.1x",
     "revenue": "$13M"
   },
@@ -505,7 +624,20 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series F",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Abridge",
+    "valuation": "$5.3B",
+    "valuationRaw": 5300000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Biotech & Health",
+    "stage": "Series E",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Commonwealth Fusion Systems",
@@ -518,7 +650,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Etched",
@@ -531,7 +663,7 @@
     "dayChange": null,
     "sector": "Chips & Semiconductors",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Archer Aviation",
@@ -544,7 +676,7 @@
     "dayChange": null,
     "sector": "Drones & Autonomous",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "16666.7x",
     "revenue": "$300K"
   },
@@ -559,9 +691,48 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "104.2x",
     "revenue": "$48M"
+  },
+  {
+    "company": "World Labs",
+    "valuation": "$5B+",
+    "valuationRaw": 5000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Software",
+    "stage": "Series B",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "SambaNova Systems",
+    "valuation": "$5B",
+    "valuationRaw": 5000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Chips & Semiconductors",
+    "stage": "Series D",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Credo Semiconductor",
+    "valuation": "$5B+",
+    "valuationRaw": 5000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Chips & Semiconductors",
+    "stage": "Public",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Kratos Defense",
@@ -574,7 +745,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Chaos Industries",
@@ -587,7 +758,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Hugging Face",
@@ -600,7 +771,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Relativity Space",
@@ -613,7 +784,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series E",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Dataminr",
@@ -626,7 +797,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series F",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Saronic",
@@ -638,8 +809,8 @@
     "ticker": null,
     "dayChange": null,
     "sector": "Defense & Security",
-    "stage": "Series G",
-    "lastUpdated": "2026-04-16",
+    "stage": "Series D",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "80.0x",
     "revenue": "$50M+"
   },
@@ -654,22 +825,7 @@
     "dayChange": null,
     "sector": "Nuclear Energy",
     "stage": "Late Stage",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "Firefly Aerospace",
-    "valuation": "$4B+",
-    "valuationRaw": 4000000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Space & Aerospace",
-    "stage": "Public",
-    "lastUpdated": "2026-04-16",
-    "revenueMultiple": "30.1x",
-    "revenue": "$133M\u2013$145M"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Ultima Genomics",
@@ -682,10 +838,10 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
-    "company": "Synthesia",
+    "company": "Luma AI",
     "valuation": "$4B",
     "valuationRaw": 4000000000.0,
     "source": "curated",
@@ -693,9 +849,22 @@
     "confidence": "medium",
     "ticker": null,
     "dayChange": null,
-    "sector": "AI & Autonomy",
+    "sector": "AI & Software",
+    "stage": "Series C",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Ayar Labs",
+    "valuation": "$3.75B",
+    "valuationRaw": 3750000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Software",
     "stage": "Series E",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Astranis",
@@ -708,7 +877,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Form Energy",
@@ -721,7 +890,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series G",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Eikon Therapeutics",
@@ -734,7 +903,7 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Together AI",
@@ -747,20 +916,20 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series G",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
-    "company": "PsiQuantum",
-    "valuation": "$3.1B",
-    "valuationRaw": 3100000000.0,
+    "company": "Sila Nanotechnologies",
+    "valuation": "$3.3B",
+    "valuationRaw": 3300000000.0,
     "source": "curated",
     "sourceLabel": "Curated from ROS research",
     "confidence": "medium",
     "ticker": null,
     "dayChange": null,
-    "sector": "Chips & Semiconductors",
-    "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "sector": "Climate & Energy",
+    "stage": "Late Stage",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "ElevenLabs",
@@ -773,7 +942,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Ascend Elements",
@@ -786,33 +955,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Growth",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "HistoSonics",
-    "valuation": "$3B",
-    "valuationRaw": 3000000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Biotech & Medical",
-    "stage": "Series D",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "Groq",
-    "valuation": "$2.8B",
-    "valuationRaw": 2800000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "AI & Software",
-    "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "ICEYE",
@@ -825,12 +968,12 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series E",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Tenstorrent",
-    "valuation": "$2.6B",
-    "valuationRaw": 2600000000.0,
+    "valuation": "$2.7B",
+    "valuationRaw": 2700000000.0,
     "source": "curated",
     "sourceLabel": "Curated from ROS research",
     "confidence": "medium",
@@ -838,7 +981,7 @@
     "dayChange": null,
     "sector": "Chips & Semiconductors",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Freenome",
@@ -850,8 +993,8 @@
     "ticker": null,
     "dayChange": null,
     "sector": "Biotech & Medical",
-    "stage": "Series E",
-    "lastUpdated": "2026-04-16"
+    "stage": "Public",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Axiom Space",
@@ -864,7 +1007,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Insitro",
@@ -877,7 +1020,20 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Liquid AI",
+    "valuation": "$2.35B",
+    "valuationRaw": 2350000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Software",
+    "stage": "Series A",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Divergent",
@@ -890,7 +1046,20 @@
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
     "stage": "Series E",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "HistoSonics",
+    "valuation": "$2.25B",
+    "valuationRaw": 2250000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Biotech & Medical",
+    "stage": "Series D",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Skydio",
@@ -903,7 +1072,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series E",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "7.3x",
     "revenue": "$300M+"
   },
@@ -917,8 +1086,8 @@
     "ticker": null,
     "dayChange": null,
     "sector": "Nuclear Energy",
-    "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "stage": "IPO",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Vast",
@@ -931,7 +1100,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Late Stage",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Field AI",
@@ -944,7 +1113,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "KoBold Metals",
@@ -957,7 +1126,20 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "d-Matrix",
+    "valuation": "$2B",
+    "valuationRaw": 2000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Chips & Semiconductors",
+    "stage": "Series C",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Exotec",
@@ -970,7 +1152,7 @@
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Hive AI",
@@ -983,7 +1165,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Locus Robotics",
@@ -996,7 +1178,7 @@
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
     "stage": "Series F",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "D-Wave Quantum",
@@ -1009,9 +1191,22 @@
     "dayChange": null,
     "sector": "Quantum Computing",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "80.0x",
     "revenue": "$25M"
+  },
+  {
+    "company": "ICON",
+    "valuation": "$2B",
+    "valuationRaw": 2000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Housing & Construction",
+    "stage": "Series C",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Impulse Space",
@@ -1024,7 +1219,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Recursion Pharmaceuticals",
@@ -1037,7 +1232,7 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "24.0x",
     "revenue": "$75M"
   },
@@ -1052,7 +1247,7 @@
     "dayChange": null,
     "sector": "Transportation",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Neko Health",
@@ -1065,7 +1260,7 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Watershed",
@@ -1078,7 +1273,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Infleqtion",
@@ -1091,7 +1286,20 @@
     "dayChange": null,
     "sector": "Quantum Computing",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Formation Bio",
+    "valuation": "$1.7B+",
+    "valuationRaw": 1700000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Biotech & Health",
+    "stage": "Series D",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Dexterity",
@@ -1104,7 +1312,7 @@
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Hadrian",
@@ -1117,7 +1325,7 @@
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "16.0x",
     "revenue": "$100M+"
   },
@@ -1132,7 +1340,7 @@
     "dayChange": null,
     "sector": "Nuclear Energy",
     "stage": "Late Stage",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "WEKA",
@@ -1145,7 +1353,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series E",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Boom Supersonic",
@@ -1158,7 +1366,7 @@
     "dayChange": null,
     "sector": "Supersonic & Hypersonic",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Varda Space Industries",
@@ -1171,7 +1379,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Vannevar Labs",
@@ -1184,7 +1392,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "True Anomaly",
@@ -1196,8 +1404,8 @@
     "ticker": null,
     "dayChange": null,
     "sector": "Defense & Security",
-    "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "stage": "Series C",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Nano Nuclear Energy",
@@ -1210,7 +1418,7 @@
     "dayChange": null,
     "sector": "Nuclear Energy",
     "stage": "Public",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Destinus",
@@ -1223,7 +1431,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Late Stage",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Colossal Biosciences",
@@ -1236,7 +1444,7 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Runway",
@@ -1249,7 +1457,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Ouster",
@@ -1262,7 +1470,46 @@
     "dayChange": null,
     "sector": "Chips & Semiconductors",
     "stage": "Public",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Dream Security",
+    "valuation": "$1.5B",
+    "valuationRaw": 1500000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Defense & Security",
+    "stage": "Series B",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Magic AI",
+    "valuation": "$1.5B+",
+    "valuationRaw": 1500000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Software",
+    "stage": "Series C",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Harmattan AI",
+    "valuation": "$1.4B",
+    "valuationRaw": 1400000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Defense & Security",
+    "stage": "Series B",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Epirus",
@@ -1275,20 +1522,33 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
-    "company": "1KOMMA5",
-    "valuation": "$1.2B",
-    "valuationRaw": 1200000000.0,
+    "company": "Aalyria",
+    "valuation": "$1.3B",
+    "valuationRaw": 1300000000.0,
     "source": "curated",
     "sourceLabel": "Curated from ROS research",
     "confidence": "medium",
     "ticker": null,
     "dayChange": null,
-    "sector": "Energy & Climate",
-    "stage": "Pre-IPO",
-    "lastUpdated": "2026-04-16"
+    "sector": "Space & Aerospace",
+    "stage": "Series B",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Skyryse",
+    "valuation": "$1.15B",
+    "valuationRaw": 1150000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Space & Aerospace",
+    "stage": "Series C",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Castelion",
@@ -1301,7 +1561,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Radiant",
@@ -1314,7 +1574,7 @@
     "dayChange": null,
     "sector": "Nuclear Energy",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Apex Space",
@@ -1327,7 +1587,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Hermeus",
@@ -1340,7 +1600,33 @@
     "dayChange": null,
     "sector": "Supersonic & Hypersonic",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Nominal",
+    "valuation": "$1B",
+    "valuationRaw": 1000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Software",
+    "stage": "Series B",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Substrate",
+    "valuation": "$1B+",
+    "valuationRaw": 1000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Chips & Semiconductors",
+    "stage": "Series A",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Zap Energy",
@@ -1353,7 +1639,7 @@
     "dayChange": null,
     "sector": "Nuclear Energy",
     "stage": "Series D",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Stoke Space",
@@ -1366,7 +1652,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Isar Aerospace",
@@ -1379,7 +1665,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Rebellions",
@@ -1392,7 +1678,7 @@
     "dayChange": null,
     "sector": "Chips & Semiconductors",
     "stage": "SPAC",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Labelbox",
@@ -1405,7 +1691,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series G",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Sakana AI",
@@ -1418,7 +1704,20 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Starcloud",
+    "valuation": "$1B+",
+    "valuationRaw": 1000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Space & Aerospace",
+    "stage": "Series A",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Electric Hydrogen",
@@ -1431,7 +1730,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Aeva Technologies",
@@ -1444,7 +1743,7 @@
     "dayChange": null,
     "sector": "Chips & Semiconductors",
     "stage": "Public",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Defense Unicorns",
@@ -1457,7 +1756,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Positron AI",
@@ -1470,7 +1769,59 @@
     "dayChange": null,
     "sector": "Chips & Semiconductors",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Fractile",
+    "valuation": "~$1B (rumored)",
+    "valuationRaw": 1000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Chips & Semiconductors",
+    "stage": "Seed",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Cambridge Aerospace",
+    "valuation": "~$1B",
+    "valuationRaw": 1000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Defense & Security",
+    "stage": "Series A",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Heven AeroTech",
+    "valuation": "$1B+",
+    "valuationRaw": 1000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Defense & Security",
+    "stage": "Series B",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Nimble Robotics",
+    "valuation": "$1B",
+    "valuationRaw": 1000000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Robotics & Manufacturing",
+    "stage": "Series C",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Astroscale",
@@ -1483,22 +1834,22 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "31.0x",
     "revenue": "$29M"
   },
   {
-    "company": "Abridge",
-    "valuation": "$850M",
-    "valuationRaw": 850000000.0,
+    "company": "New Limit",
+    "valuation": "$810M",
+    "valuationRaw": 810000000.0,
     "source": "curated",
     "sourceLabel": "Curated from ROS research",
     "confidence": "medium",
     "ticker": null,
     "dayChange": null,
     "sector": "Biotech & Health",
-    "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "stage": "Series B",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "LanzaTech",
@@ -1511,7 +1862,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Public",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "19.5x",
     "revenue": "$41M"
   },
@@ -1526,7 +1877,20 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Amogy",
+    "valuation": "$700M",
+    "valuationRaw": 700000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Climate & Energy",
+    "stage": "Series C",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Profluent",
@@ -1539,7 +1903,7 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "DEEPX",
@@ -1552,7 +1916,7 @@
     "dayChange": null,
     "sector": "Chips & Semiconductors",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Alto Neuroscience",
@@ -1565,7 +1929,7 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Public",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Bedrock Robotics",
@@ -1578,7 +1942,7 @@
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Pano AI",
@@ -1591,7 +1955,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "5.0x",
     "revenue": "$100M+"
   },
@@ -1606,7 +1970,7 @@
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Harbinger",
@@ -1619,7 +1983,7 @@
     "dayChange": null,
     "sector": "Transportation",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Q-CTRL",
@@ -1632,7 +1996,7 @@
     "dayChange": null,
     "sector": "Quantum Computing",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Hidden Level",
@@ -1645,7 +2009,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Rain AI",
@@ -1656,22 +2020,35 @@
     "confidence": "medium",
     "ticker": null,
     "dayChange": null,
-    "sector": "Quantum Computing",
+    "sector": "Chips & Semiconductors",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
-    "company": "General Fusion",
-    "valuation": "$425M",
-    "valuationRaw": 425000000.0,
+    "company": "Stark Defence",
+    "valuation": "$500M",
+    "valuationRaw": 500000000.0,
     "source": "curated",
     "sourceLabel": "Curated from ROS research",
     "confidence": "medium",
     "ticker": null,
     "dayChange": null,
-    "sector": "Nuclear Energy",
-    "stage": "Series F",
-    "lastUpdated": "2026-04-16"
+    "sector": "Defense & Security",
+    "stage": "Series A",
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Photoroom",
+    "valuation": "$500M",
+    "valuationRaw": 500000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "AI & Software",
+    "stage": "Series B",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "AiDash",
@@ -1684,7 +2061,7 @@
     "dayChange": null,
     "sector": "Infrastructure & Logistics",
     "stage": "Series C",
-    "lastUpdated": "2026-04-16",
+    "lastUpdated": "2026-04-17",
     "revenueMultiple": "8.0x",
     "revenue": "$50M+"
   },
@@ -1699,7 +2076,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Sage Geosystems",
@@ -1712,7 +2089,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "ClearSpace",
@@ -1725,7 +2102,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Elroy Air",
@@ -1738,7 +2115,7 @@
     "dayChange": null,
     "sector": "Drones & Autonomous",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Modal",
@@ -1751,7 +2128,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Fairmat",
@@ -1764,7 +2141,7 @@
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Reverion",
@@ -1777,7 +2154,7 @@
     "dayChange": null,
     "sector": "Energy & Climate",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "GrayMatter Robotics",
@@ -1790,7 +2167,7 @@
     "dayChange": null,
     "sector": "Robotics & Manufacturing",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "CarbonCapture Inc.",
@@ -1803,7 +2180,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Vatn Systems",
@@ -1816,7 +2193,20 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Sift",
+    "valuation": "$274M",
+    "valuationRaw": 274000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Space & Aerospace",
+    "stage": "Series B",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "REGENT Craft",
@@ -1829,7 +2219,7 @@
     "dayChange": null,
     "sector": "Transportation",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Twelve Labs",
@@ -1842,7 +2232,7 @@
     "dayChange": null,
     "sector": "AI & Software",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Skyrora",
@@ -1855,7 +2245,7 @@
     "dayChange": null,
     "sector": "Space & Aerospace",
     "stage": "SPAC",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Type One Energy",
@@ -1868,7 +2258,20 @@
     "dayChange": null,
     "sector": "Nuclear Energy",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "company": "Fuse Energy",
+    "valuation": "$200M+",
+    "valuationRaw": 200000000.0,
+    "source": "curated",
+    "sourceLabel": "Curated from ROS research",
+    "confidence": "medium",
+    "ticker": null,
+    "dayChange": null,
+    "sector": "Nuclear Energy",
+    "stage": "Series A",
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Graphyte",
@@ -1881,7 +2284,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Ares Industries",
@@ -1894,20 +2297,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "Celero Communications",
-    "valuation": "$150M",
-    "valuationRaw": 150000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Space & Aerospace",
-    "stage": "Series C",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Fourth Power",
@@ -1920,20 +2310,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "Orbion Space Technology",
-    "valuation": "$150M",
-    "valuationRaw": 150000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Space & Aerospace",
-    "stage": "SPAC",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Cemvita Factory",
@@ -1946,7 +2323,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series B",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Steady Energy",
@@ -1959,20 +2336,7 @@
     "dayChange": null,
     "sector": "Climate & Energy",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "Kyten Technologies",
-    "valuation": "$100M",
-    "valuationRaw": 100000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Robotics & Manufacturing",
-    "stage": "Series A",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Zeta Surgical",
@@ -1985,33 +2349,7 @@
     "dayChange": null,
     "sector": "Biotech & Health",
     "stage": "Series A",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "Kolena",
-    "valuation": "$100M",
-    "valuationRaw": 100000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "AI & Software",
-    "stage": "Series A",
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "company": "Starcloud",
-    "valuation": "$75M",
-    "valuationRaw": 75000000.0,
-    "source": "curated",
-    "sourceLabel": "Curated from ROS research",
-    "confidence": "medium",
-    "ticker": null,
-    "dayChange": null,
-    "sector": "Space & Aerospace",
-    "stage": "SPAC",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Tenna Systems",
@@ -2024,7 +2362,7 @@
     "dayChange": null,
     "sector": "Defense & Security",
     "stage": "Seed",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "company": "Archer Materials",
@@ -2037,6 +2375,6 @@
     "dayChange": null,
     "sector": "Quantum Computing",
     "stage": "Public",
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   }
 ]

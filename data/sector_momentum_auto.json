@@ -1,28 +1,45 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 58,
+    "momentum": 61,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI updates its Agents SDK to help enterprises build safe",
-      "STAT+: Novartis CEO joins Anthropic&#8217;s board",
-      "In the Wake of Anthropic\u2019s Mythos, OpenAI Has a New Cybersec"
+      "OpenAI starts offering a biology-tuned LLM",
+      "Physical Intelligence, a hot robotics startup, says its new",
+      "OpenAI takes aim at Anthropic with beefed-up Codex that give"
     ],
     "fundingQ": "$1189.2B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 65,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 58,
+    "trend": "steady",
+    "catalysts": [
+      "Starlink outage hit drone tests, exposing Pentagon\u2019s growing",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$22.3B",
+    "components": {
+      "funding": 100,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-17"
   },
   {
     "sector": "Nuclear Energy",
     "momentum": 52,
     "trend": "steady",
     "catalysts": [
-      "Amazon-backed X-energy files to raise up to $800M in IPO",
+      "Anthropic&#8217;s Nuclear Bomb",
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$800M",
@@ -32,40 +49,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 48,
-    "trend": "steady",
-    "catalysts": [
-      "Disperse to Survive: The Logic of French Forward Deterrence"
-    ],
-    "fundingQ": "$22.3B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 60
-    },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 48,
+    "momentum": 50,
     "trend": "steady",
     "catalysts": [
-      "Uber begins early test rides of Lucid Gravity robotaxis equi",
-      "Locus Robotics launches Locus Array for fully autonomous ful"
+      "Waymo Takes On London",
+      "Starlink outage hit drone tests, exposing Pentagon\u2019s growing",
+      "Uber begins early test rides of Lucid Gravity robotaxis equi"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -81,7 +83,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "sector": "Ocean & Maritime",
@@ -97,43 +99,96 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
-    "sector": "Biotech & Health",
-    "momentum": 33,
-    "trend": "declining",
+    "sector": "Space & Aerospace",
+    "momentum": 36,
+    "trend": "rising",
     "catalysts": [
-      "Scribing startup Abridge adds NEJM, JAMA as it moves into me",
-      "STAT+: Novartis CEO joins Anthropic&#8217;s board",
-      "Harbinger raises $100M; Astellas to close Seattle site"
+      "SpaceX Starship Flight 12 in a Few Weeks Aka Early-Mid May",
+      "OpenAI launches biopharma-focused AI model to compete with A",
+      "Starlink outage hit drone tests, exposing Pentagon\u2019s growing"
     ],
-    "fundingQ": "$230M",
+    "fundingQ": "$175M",
     "components": {
       "funding": 9,
-      "news": 40,
+      "news": 50,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 30,
+    "momentum": 34,
     "trend": "rising",
     "catalysts": [
-      "Ouster releases Stereolabs ZED X Nano wrist-mounted camera",
-      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene",
-      "Uber begins early test rides of Lucid Gravity robotaxis equi"
+      "Waymo Takes On London",
+      "AGIBOT deploys semi-humanoid robots in electronics manufactu",
+      "Physical Intelligence, a hot robotics startup, says its new"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 25,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 31,
+    "trend": "declining",
+    "catalysts": [
+      "Physical Intelligence, a hot robotics startup, says its new",
+      "OpenAI launches biopharma-focused AI model to compete with A",
+      "Scribing startup Abridge adds NEJM, JAMA as it moves into me"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 30,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 25,
+    "trend": "declining",
+    "catalysts": [
+      "Waymo Takes On London",
+      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 10,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 24,
+    "trend": "declining",
+    "catalysts": [
+      "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables",
+      "Self-driving scaleup Wayve raises fresh funds from AMD, Qual",
+      "<a href=\"/ai-and-machine-learning/novartis-ceo-vas-narasimha"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-17"
   },
   {
     "sector": "Climate & Energy",
@@ -151,58 +206,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 24,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 22,
-    "trend": "declining",
-    "catalysts": [
-      "Self-driving scaleup Wayve raises fresh funds from AMD, Qual",
-      "<a href=\"/ai-and-machine-learning/novartis-ceo-vas-narasimha"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 21,
-    "trend": "rising",
-    "catalysts": [
-      "SpaceX Successfully Static Fires V3 Booster",
-      "Vast offers new docking adapter for large space stations",
-      "Turion Space raises $75 million to expand maneuverable satel"
-    ],
-    "fundingQ": "$175M",
-    "components": {
-      "funding": 9,
-      "news": 45,
-      "hiring": 0,
-      "market": 32
-    },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "sector": "Quantum Computing",
@@ -218,56 +222,57 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "Vast offers new docking adapter for large space stations",
-      "Turion Space raises $75 million to expand maneuverable satel",
-      "Ouster releases Stereolabs ZED X Nano wrist-mounted camera"
+      "AGIBOT deploys semi-humanoid robots in electronics manufactu",
+      "Ouster releases Stereolabs ZED X Nano wrist-mounted camera",
+      "Locus Robotics launches Locus Array for fully autonomous ful"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-16"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "Coming soon: 10 Things That Matter in AI Right Now"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 11,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
+      "Anthropic&#8217;s Nuclear Bomb",
       "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-16"
+    "lastUpdated": "2026-04-17"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active housing & construction ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-17"
   }
 ]
