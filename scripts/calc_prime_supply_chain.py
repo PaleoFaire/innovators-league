@@ -31,12 +31,22 @@ Schema:
 
 import json
 import re
+import time
 from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
 
+try:
+    import requests
+    HAVE_REQUESTS = True
+except ImportError:
+    HAVE_REQUESTS = False
+
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_JS = Path(__file__).parent.parent / "data.js"
+
+USASPENDING_SEARCH = "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+USASPENDING_LOOKBACK_START = "2023-01-01"
 
 # Canonical list of defense primes with their tickers and alias patterns
 PRIMES = [
@@ -200,6 +210,83 @@ def mine_partnerships_from_news(tracked_companies):
     return relationships
 
 
+def mine_partnerships_from_usaspending(tracked_companies):
+    """
+    Round 6b: Query USAspending.gov for each prime's contracts and see which
+    tracked frontier-tech companies appear by name in the contract description
+    (classic marker of a prime-sub relationship).
+    """
+    relationships = defaultdict(list)
+    if not HAVE_REQUESTS:
+        print("  (skipping USAspending — `requests` not installed)")
+        return relationships
+
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "InnovatorsLeague-PrimeSupply/1.0",
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+    })
+
+    tracked_lower = {c.lower(): c for c in tracked_companies}
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    for prime in PRIMES:
+        search_name = prime["aliases"][0]  # use first alias as recipient search
+        try:
+            payload = {
+                "filters": {
+                    "recipient_search_text": [search_name],
+                    "award_type_codes": ["A", "B", "C", "D"],
+                    "time_period": [{"start_date": USASPENDING_LOOKBACK_START,
+                                     "end_date": today}],
+                },
+                "fields": ["Award ID", "Recipient Name", "Award Amount",
+                           "Awarding Agency", "Description",
+                           "generated_internal_id"],
+                "page": 1, "limit": 100, "sort": "Award Amount", "order": "desc",
+            }
+            r = session.post(USASPENDING_SEARCH, json=payload, timeout=30)
+            r.raise_for_status()
+            results = r.json().get("results", [])
+        except Exception as e:
+            print(f"  USAspending error for {prime['name']}: {e}")
+            continue
+
+        seen = set()
+        for row in results:
+            desc = (row.get("Description") or "").lower()
+            if not desc:
+                continue
+            for low_name, real_name in tracked_lower.items():
+                if len(low_name) < 4:
+                    continue
+                if re.search(r'\b' + re.escape(low_name) + r'\b', desc):
+                    if real_name in seen:
+                        continue
+                    seen.add(real_name)
+                    internal_id = row.get("generated_internal_id") or ""
+                    amt = row.get("Award Amount") or 0
+                    try:
+                        amt_str = f"${float(amt)/1_000_000:.1f}M" if float(amt) >= 1_000_000 else f"${float(amt)/1_000:.0f}K"
+                    except (TypeError, ValueError):
+                        amt_str = ""
+                    relationships[prime["name"]].append({
+                        "company": real_name,
+                        "relationship": "gov contract",
+                        "source": "USAspending.gov",
+                        "amount": amt_str,
+                        "agency": row.get("Awarding Agency", ""),
+                        "evidence": (row.get("Description") or "")[:200],
+                        "url": f"https://www.usaspending.gov/award/{internal_id}" if internal_id else "",
+                    })
+                    break
+        print(f"  USAspending: {prime['name']:25s} → {len(seen)} sub-matches")
+        time.sleep(1.0)
+
+    return relationships
+
+
 def mine_partnerships_from_gov_contracts(tracked_companies):
     """Scan gov_contracts_raw.json for subcontractor relationships with primes."""
     path = DATA_DIR / "gov_contracts_raw.json"
@@ -331,20 +418,20 @@ def main():
 
     descriptions = load_company_descriptions()
 
-    # Mine from three sources and merge
+    # Mine from four sources and merge
     relationships = defaultdict(list)
-    for source_fn in [
-        mine_partnerships_from_descriptions,
-        mine_partnerships_from_gov_contracts,
-        mine_partnerships_from_news,
-    ]:
-        source_rels = (
-            source_fn(tracked, descriptions)
-            if source_fn == mine_partnerships_from_descriptions
-            else source_fn(tracked)
-        )
-        for prime_name, rels in source_rels.items():
-            relationships[prime_name].extend(rels)
+    print("\n[1/4] Mining company descriptions...")
+    for prime_name, rels in mine_partnerships_from_descriptions(tracked, descriptions).items():
+        relationships[prime_name].extend(rels)
+    print("\n[2/4] Mining gov_contracts_raw.json...")
+    for prime_name, rels in mine_partnerships_from_gov_contracts(tracked).items():
+        relationships[prime_name].extend(rels)
+    print("\n[3/4] Mining news_raw.json...")
+    for prime_name, rels in mine_partnerships_from_news(tracked).items():
+        relationships[prime_name].extend(rels)
+    print("\n[4/4] Querying USAspending.gov (live prime contract descriptions)...")
+    for prime_name, rels in mine_partnerships_from_usaspending(tracked).items():
+        relationships[prime_name].extend(rels)
 
     # Merge curated partnerships from public sources
     add_curated_partnerships(relationships)
