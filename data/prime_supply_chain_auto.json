@@ -208,6 +208,55 @@
     ]
   },
   {
+    "prime": "SAIC",
+    "ticker": "SAIC",
+    "totalCompanies": 6,
+    "portfolio": [
+      {
+        "company": "AIR",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "saic"
+      },
+      {
+        "company": "Palantir",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "Foundry platform deployment"
+      },
+      {
+        "company": "Rebellion Defense",
+        "relationship": "partnership",
+        "source": "ROS-curated (public press releases)",
+        "evidence": "AI/ML mission systems"
+      },
+      {
+        "company": "Swan",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$8K",
+        "agency": "Department of Agriculture",
+        "evidence": "THIS TASK ORDER IS FOR MOSAIC ARCHITECTURE IDIQ 120343-19-D0001 TO PERFORM SUBMITTAL REVIEWS, ANSWER RFIS, AND INSPECT COMPLETED BRIDGE AT THE ENTRANCE TO THE SWAN LAKE RANGER STATION.",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_1240LU23F0029_12C2_12034319D0001_12C2"
+      },
+      {
+        "company": "Synthesis",
+        "relationship": "gov contract",
+        "source": "USAspending.gov",
+        "amount": "$45K",
+        "agency": "Department of Health and Human Services",
+        "evidence": "SYNTHESIS OF `960 FOR NCATS ETB - CELLMOSAIC, INC",
+        "url": "https://www.usaspending.gov/award/CONT_AWD_75N95024P00469_7529_-NONE-_-NONE-"
+      },
+      {
+        "company": "True Anomaly",
+        "relationship": "mentioned",
+        "source": "ROS company research",
+        "evidence": "saic"
+      }
+    ]
+  },
+  {
     "prime": "L3Harris",
     "ticker": "LHX",
     "totalCompanies": 5,
@@ -315,43 +364,6 @@
         "agency": "National Aeronautics and Space Administration",
         "evidence": "JPSS-1 MISSION SPACECRAFT RAPID III DELIVERY ORDER #3. RAPID III PROVIDES CORE SPACECRAFT SYSTEMS IN SUPPORT OF THE SCIENTIFIC AND TECHNOLOGY DEVELOPMENT GOALS OF THE NATIONAL AERONAUTICS AND SPACE AD",
         "url": "https://www.usaspending.gov/award/CONT_AWD_NNG10AZ45D_8000_NNG10AZ10B_8000"
-      }
-    ]
-  },
-  {
-    "prime": "SAIC",
-    "ticker": "SAIC",
-    "totalCompanies": 4,
-    "portfolio": [
-      {
-        "company": "Palantir",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "Foundry platform deployment"
-      },
-      {
-        "company": "Rebellion Defense",
-        "relationship": "partnership",
-        "source": "ROS-curated (public press releases)",
-        "evidence": "AI/ML mission systems"
-      },
-      {
-        "company": "Swan",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$8K",
-        "agency": "Department of Agriculture",
-        "evidence": "THIS TASK ORDER IS FOR MOSAIC ARCHITECTURE IDIQ 120343-19-D0001 TO PERFORM SUBMITTAL REVIEWS, ANSWER RFIS, AND INSPECT COMPLETED BRIDGE AT THE ENTRANCE TO THE SWAN LAKE RANGER STATION.",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_1240LU23F0029_12C2_12034319D0001_12C2"
-      },
-      {
-        "company": "Synthesis",
-        "relationship": "gov contract",
-        "source": "USAspending.gov",
-        "amount": "$45K",
-        "agency": "Department of Health and Human Services",
-        "evidence": "SYNTHESIS OF `960 FOR NCATS ETB - CELLMOSAIC, INC",
-        "url": "https://www.usaspending.gov/award/CONT_AWD_75N95024P00469_7529_-NONE-_-NONE-"
       }
     ]
   },

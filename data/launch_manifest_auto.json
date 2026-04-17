@@ -1,8 +1,17 @@
 [
   {
+    "date": "2026-04-16",
+    "vehicle": "Soyuz 2.1b/Volga | Kosmos (Unknown Payload)",
+    "payload": "Kosmos (Unknown Payload)",
+    "pad": "Unknown Pad, Plesetsk Cosmodrome, Russian Federation",
+    "provider": "Russian Space Forces",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0c69b50a-11d4-4c68-a0f6-4498d6ee713a/?format=json",
+    "trackedCompany": null
+  },
+  {
     "date": "2026-04-17",
-    "vehicle": "Long March 2D | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 4C | Daqi-2 (AEMS)",
+    "payload": "Daqi-2 (AEMS)",
     "pad": "Launch Area 94 (SLS-2 / 603), Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/a89636b5-20f0-491a-88a4-0ff26880ae77/?format=json",
@@ -54,15 +63,6 @@
     "trackedCompany": "SpaceX"
   },
   {
-    "date": "2026-04-22",
-    "vehicle": "South Korean ADD Solid-Fuel SLV | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "ADD Offshore launch platform, Sea Launch",
-    "provider": "Agency for Defense Development",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-04-23",
     "vehicle": "Electron | Kakushin Rising (JAXA Rideshare)",
     "payload": "Kakushin Rising (JAXA Rideshare)",
@@ -70,6 +70,15 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/9281afa8-140d-425b-a560-2fa59feef814/?format=json",
     "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-04-25",
+    "vehicle": "South Korean ADD Solid-Fuel SLV | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "ADD Offshore launch platform, Sea Launch",
+    "provider": "Agency for Defense Development",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-04-25",
@@ -145,15 +154,6 @@
   },
   {
     "date": "2026-04-30",
-    "vehicle": "Soyuz 2.1a/Fregat-M | Kosmos (Unknown Payload)",
-    "payload": "Kosmos (Unknown Payload)",
-    "pad": "Unknown Pad, Plesetsk Cosmodrome, Russian Federation",
-    "provider": "Russian Space Forces",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/0c69b50a-11d4-4c68-a0f6-4498d6ee713a/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-04-30",
     "vehicle": "Soyuz 2.1b | 16 x Rassvet-3",
     "payload": "16 x Rassvet-3",
     "pad": "Unknown Pad, Plesetsk Cosmodrome, Russian Federation",
@@ -186,15 +186,6 @@
     "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
     "provider": "Avio S.p.A",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/b31313da-ee5d-42b2-9a27-20cc18105276/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-04-30",
-    "vehicle": "Vikram-I | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "Satish Dhawan Space Centre First Launch Pad, Satish Dhawan Space Centre, India",
-    "provider": "Skyroot Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/10fa7952-f00b-4292-80a2-4207e208844e/?format=json",
     "trackedCompany": null
   },
   {
@@ -448,5 +439,14 @@
     "provider": "Rocket Factory Augsburg",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/91b13c6c-4525-496d-997b-3521bb6a4cd8/?format=json",
     "trackedCompany": null
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Electron | VICTUS HAZE Puma",
+    "payload": "VICTUS HAZE Puma",
+    "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/04154b70-045b-4e3a-bb5a-e5436091ba37/?format=json",
+    "trackedCompany": "Rocket Lab"
   }
 ]
