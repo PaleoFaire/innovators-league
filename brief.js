@@ -1,4 +1,4 @@
-/* ─── The War Room — Daily Frontier Tech Digest ─── */
+/* ─── The Frontier Daily — Frontier Tech Digest ─── */
 /* Reads data/daily_digest.json (generated every hour by generate_daily_digest.py) */
 
 (function () {

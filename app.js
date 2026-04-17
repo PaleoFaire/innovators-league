@@ -1467,8 +1467,8 @@ function openCompanyModal(companyName) {
       <button class="modal-action-btn" onclick="shareCompany('${company.name.replace(/'/g, "\\'")}')">
         ↗ Share
       </button>
-      <a href="dealflow.html" class="modal-action-btn" style="font-size:12px;">
-        🎯 Deal Flow
+      <a href="investors.html" class="modal-action-btn" style="font-size:12px;">
+        🎯 Investors
       </a>
     </div>
 
@@ -1686,7 +1686,7 @@ function initCommandPalette() {
       { title: 'Investors', subtitle: 'Investor network intelligence', icon: '💰', url: 'investors.html' },
       { title: 'Talent & Jobs', subtitle: 'Founder DNA, hiring signals', icon: '👥', url: 'jobs.html' },
       { title: 'Valuations', subtitle: 'Revenue, multiples, IPO tracker', icon: '📈', url: 'valuations.html' },
-      { title: 'Deal Flow', subtitle: 'Deal flow engine & signals', icon: '🔥', url: 'dealflow.html' },
+      { title: 'Earnings Signals', subtitle: 'Extracted signals from earnings calls', icon: '🎙️', url: 'earnings-signals.html' },
       { title: 'Government Radar', subtitle: 'Contracts, SBIR, clearance', icon: '🏛️', url: 'govradar.html' },
       { title: 'Regulatory', subtitle: 'Federal Register, compliance', icon: '📋', url: 'regulatory.html' },
     ];
@@ -1954,7 +1954,7 @@ function initKeyboardShortcuts() {
     'v': 'valuations.html',
     'i': 'investors.html',
     't': 'jobs.html',
-    'd': 'dealflow.html',
+    'd': 'earnings-signals.html',
     'r': 'regulatory.html',
   };
 
@@ -9719,8 +9719,21 @@ function initCommandBar() {
 }
 
 // ─── PITCHBOOK-STYLE SIGNALS PANEL ───
+// Shared source-of-truth for the Live Signals data (prefers the auto-updated,
+// quality-gated feed from scripts/aggregate_news.js; falls back to the static seed).
+function getSignalsSource() {
+  if (typeof COMPANY_SIGNALS_AUTO !== 'undefined' && Array.isArray(COMPANY_SIGNALS_AUTO) && COMPANY_SIGNALS_AUTO.length > 0) {
+    return COMPANY_SIGNALS_AUTO;
+  }
+  if (typeof COMPANY_SIGNALS !== 'undefined' && Array.isArray(COMPANY_SIGNALS)) {
+    return COMPANY_SIGNALS;
+  }
+  return [];
+}
+
 function initSignalsPanel() {
-  if (typeof COMPANY_SIGNALS === 'undefined') return;
+  const signalsSrc = getSignalsSource();
+  if (signalsSrc.length === 0) return;
 
   // Create signals panel
   const panel = document.createElement('div');
@@ -9730,7 +9743,7 @@ function initSignalsPanel() {
     <div class="signals-panel-header">
       <div class="signals-panel-title">
         <h3>Live Signals</h3>
-        <span class="signals-badge">${COMPANY_SIGNALS.filter(s => s.unread).length} NEW</span>
+        <span class="signals-badge">${signalsSrc.filter(s => s.unread).length} NEW</span>
       </div>
       <button class="signals-panel-close" onclick="toggleSignalsPanel()">×</button>
     </div>
@@ -9756,7 +9769,7 @@ function initSignalsPanel() {
         <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
       </svg>
       Signals
-      <span class="signal-count">${COMPANY_SIGNALS.filter(s => s.unread).length}</span>
+      <span class="signal-count">${signalsSrc.filter(s => s.unread).length}</span>
     `;
     signalsBtn.onclick = toggleSignalsPanel;
     const navCta = Array.from(navLinks.children).find(el => el.classList.contains('nav-cta'));
@@ -9781,12 +9794,14 @@ function initSignalsPanel() {
 
 function renderSignals(filter) {
   const list = document.getElementById('signals-list');
-  if (!list || typeof COMPANY_SIGNALS === 'undefined') return;
+  if (!list) return;
+  const signalsSrc = getSignalsSource();
+  if (signalsSrc.length === 0) return;
 
   // QUALITY GATE: always filter out LOW-impact signals from the panel.
-  // LOW signals have been shown historically to include garbage (shopping articles,
+  // LOW signals have historically included garbage (shopping articles,
   // misattributed company names, tangential news). Only HIGH + MEDIUM reach users.
-  const quality = COMPANY_SIGNALS.filter(s => s.impact === 'high' || s.impact === 'medium');
+  const quality = signalsSrc.filter(s => s.impact === 'high' || s.impact === 'medium');
   const signals = filter === 'all'
     ? quality
     : quality.filter(s => s.type === filter);

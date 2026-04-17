@@ -621,12 +621,25 @@ jobs:
           git config user.name "TIL Data Bot"
           git config user.email "bot@innovatorsleague.com"
 
-      - name: Commit and push
+      - name: Commit and push (retry on conflict)
         run: |
           git add data/
-          git diff --staged --quiet || git commit -m "🤖 Auto-update: Comprehensive data sync $(date +%Y-%m-%d)"
-          git pull --rebase origin main || true
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "🤖 Auto-update: Comprehensive data sync $(date +%Y-%m-%d)"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; rebasing..."
+            git pull --rebase origin main || true
+            sleep $((attempt * 3))
+          done
+          echo "::error::Failed to push comprehensive data after 5 attempts"
+          exit 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -643,6 +656,12 @@ jobs:
     if: always()
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Pull latest main (pick up merge-all-data's commit)
+        run: git pull --rebase origin main || true
 
       - name: Write data/data_health.json
         run: |
@@ -706,11 +725,27 @@ jobs:
           git config user.name "TIL Data Bot"
           git config user.email "bot@innovatorsleague.com"
 
-      - name: Commit health file
+      - name: Commit health file (retry on conflict)
         run: |
-          git pull --rebase origin main || true
-          git add data/data_health.json
-          git diff --staged --quiet || git commit -m "🩺 Data health summary $(date +%Y-%m-%d)"
-          git push || true
+          for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || true
+            git stash pop 2>/dev/null || true
+            git add data/data_health.json
+            if git diff --staged --quiet; then
+              echo "No changes to commit."
+              exit 0
+            fi
+            git commit -m "🩺 Data health summary $(date +%Y-%m-%d\ %H:%M)"
+            if git push; then
+              echo "Pushed health file on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; retrying..."
+            git reset --soft HEAD~1
+            sleep $((attempt * 5))
+          done
+          echo "::error::Failed to push data_health.json after 5 attempts"
+          exit 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

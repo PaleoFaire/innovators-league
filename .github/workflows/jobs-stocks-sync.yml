@@ -1,27 +1,25 @@
 name: Jobs & Stocks Sync
 
+# Every 6h: pull Jobs (Greenhouse/Lever/Ashby/Workable) + Stock prices
+# Single-job pattern — fetch + commit in the same runner so there's no
+# artifact-marshalling layer to silently drop jobs_auto.js (historical bug).
+
 on:
   schedule:
-    # Jobs: Run every 6 hours
     - cron: '0 */6 * * *'
-
-  # Allow manual trigger
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  sync-jobs:
-    name: Sync Jobs Data
+  sync-and-commit:
+    name: Fetch Jobs + Stocks and Commit
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -30,82 +28,50 @@ jobs:
 
       - name: Fetch jobs from company career pages
         run: python scripts/fetch_jobs.py
-
-      - name: Upload Jobs artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: jobs-data
-          path: data/
-          retention-days: 7
-
-  sync-stocks:
-    name: Sync Stock Prices
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install requests
+        continue-on-error: true
 
       - name: Fetch stock prices
         run: python scripts/fetch_stocks.py
-
-      - name: Upload Stocks artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: stocks-data
-          path: data/
-          retention-days: 7
-
-  commit-data:
-    name: Commit Data Updates
-    runs-on: ubuntu-latest
-    needs: [sync-jobs, sync-stocks]
-    if: always()
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Download Jobs data
-        uses: actions/download-artifact@v4
-        with:
-          name: jobs-data
-          path: data/
         continue-on-error: true
 
-      - name: Download Stocks data
-        uses: actions/download-artifact@v4
-        with:
-          name: stocks-data
-          path: data/
-          merge-multiple: true
-        continue-on-error: true
+      - name: Show data freshness (debug)
+        run: |
+          ls -la data/jobs_auto.js data/jobs_raw.json data/jobs_stats.json data/stocks_auto.js 2>/dev/null || true
+          head -3 data/jobs_auto.js 2>/dev/null || true
+          head -3 data/stocks_auto.js 2>/dev/null || true
 
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"
           git config user.email "bot@innovatorsleague.com"
 
-      - name: Commit and push changes
+      - name: Commit and push (retry on conflict)
         run: |
-          git add data/
-          git diff --staged --quiet || git commit -m "🤖 Auto-update: Jobs & Stocks sync $(date +%Y-%m-%d\ %H:%M)"
-          git pull --rebase origin main || true
-          git push
+          git add data/jobs_auto.js data/jobs_raw.json data/jobs_stats.json \
+                  data/stocks_auto.js data/stocks_raw.json data/stocks_stats.json 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "🤖 Auto-update: Jobs & Stocks sync $(date +%Y-%m-%d\ %H:%M)"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; rebasing..."
+            git pull --rebase origin main || true
+            sleep $((attempt * 3))
+          done
+          echo "::error::Failed to push jobs/stocks after 5 attempts"
+          exit 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   data-health-summary:
     name: Data Health Summary
     runs-on: ubuntu-latest
-    needs: [sync-jobs, sync-stocks, commit-data]
+    needs: [sync-and-commit]
     if: always()
     steps:
       - uses: actions/checkout@v4
@@ -117,9 +83,7 @@ jobs:
           from datetime import datetime, timezone
 
           steps = {
-            "jobs":   "${{ needs.sync-jobs.result }}",
-            "stocks": "${{ needs.sync-stocks.result }}",
-            "commit": "${{ needs.commit-data.result }}",
+            "sync_and_commit": "${{ needs.sync-and-commit.result }}",
           }
           succeeded = [k for k, v in steps.items() if v == "success"]
           failed    = [k for k, v in steps.items() if v == "failure"]

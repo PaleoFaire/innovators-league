@@ -62,6 +62,22 @@ function updateHeroStats() {
     animateNumber('total-jobs', stats.totalJobs);
     animateNumber('total-companies', Object.keys(stats.byCompany).length);
     animateNumber('remote-jobs', stats.remoteJobs);
+
+    // Last-updated badge with staleness warning
+    const el = document.getElementById('jobs-last-updated');
+    if (el && stats.lastUpdated) {
+        const last = new Date(stats.lastUpdated);
+        if (!isNaN(last)) {
+            const ageHours = (Date.now() - last.getTime()) / 3600000;
+            const when = last.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) +
+                         ' · ' + last.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
+            if (ageHours > 48) {
+                el.innerHTML = `<span style="color:#ff9a6e;">⚠ Data is ${Math.floor(ageHours/24)} days old</span> — last refresh ${when}`;
+            } else {
+                el.innerHTML = `Last refreshed: ${when}`;
+            }
+        }
+    }
 }
 
 function animateNumber(elementId, target) {

@@ -127,6 +127,33 @@ CATEGORY_KEYWORDS = {
     "hiring": ["hires", "appoints", "names", "executive", "CEO", "CTO"],
 }
 
+# ─────────────────────────────────────────────────────────────────
+# Quality filters — Round 6 fix for garbage in Live Signals
+# ─────────────────────────────────────────────────────────────────
+GARBAGE_KEYWORDS = [
+    "coupon", "discount code", "promo code", "deal of the day",
+    "best of ", "review:", "review |", "how to ", "guide to ",
+    "shopping", "flash sale", "amazon prime", "save $", "save on",
+    "top 10 ", "listicle", "gift guide", "best gifts",
+    "black friday", "cyber monday", "unboxing", "hands-on review",
+]
+
+# Generic/short company names that require stricter context (capitalized, or
+# with company marker within 3 words) — these names are common English words
+# and cause false-positive matches when scanned as bare substrings.
+SHORT_GENERIC_NAMES = {
+    'ada', 'cape', 'sift', 'revel', 'cover', 'modal', 'runway', 'prepared',
+    'surge ai', 'rain ai', 'hive ai', 'field ai', 'flux', 'matter', 'dirac',
+    'freeform', 'drafter', 'hlabs', 'group1', 'openx', 'emelody', 'advano',
+    'rangeview', 'duranium', 'ouster', 'durin', 'attio', 'twelve',
+}
+
+
+def is_garbage(text):
+    """True if the release looks like shopping / review / listicle content."""
+    t = text.lower()
+    return any(kw in t for kw in GARBAGE_KEYWORDS)
+
 DATE_FORMATS = [
     "%a, %d %b %Y %H:%M:%S %z",
     "%a, %d %b %Y %H:%M:%S %Z",
@@ -199,29 +226,57 @@ def parse_pub_date(date_str):
 # ─────────────────────────────────────────────────────────────────
 # Filtering & dedup
 # ─────────────────────────────────────────────────────────────────
-def _company_mentions(text):
-    """Return the list of master-list companies mentioned in `text`."""
+def _company_mentions(text, original_text=None):
+    """Return the list of master-list companies mentioned in `text`.
+
+    Uses strict word-boundary matching for every name and alias (no bare
+    substring matches). Short/generic names additionally require a
+    capitalized occurrence in the original cased text so they don't trigger
+    on common English words (e.g. "cover", "flux", "matter").
+    """
     text_lower = text.lower()
+    cased = original_text if original_text is not None else text
     mentioned = []
     if not MASTER_COMPANIES:
         return mentioned
     for company in MASTER_COMPANIES:
         name_lower = company['name'].lower()
         hit = False
-        if len(name_lower) >= 6:
-            if name_lower in text_lower:
+
+        # Always word-boundary match
+        name_re = re.compile(r'\b' + re.escape(name_lower) + r'\b', re.IGNORECASE)
+        if name_re.search(text_lower):
+            if name_lower in SHORT_GENERIC_NAMES:
+                # Require the properly-cased company name to appear in the
+                # original text (avoids matching "cover" as Cover.ai).
+                if re.search(r'\b' + re.escape(company['name']) + r'\b', cased):
+                    hit = True
+            else:
                 hit = True
-        else:
-            if re.search(r'\b' + re.escape(name_lower) + r'\b', text_lower):
-                hit = True
+
         if not hit:
             for alias in company['aliases']:
-                if len(alias) >= 4 and alias.lower() in text_lower:
+                if len(alias) < 5:
+                    continue
+                alias_lower = alias.lower()
+                if alias_lower in SHORT_GENERIC_NAMES:
+                    continue
+                alias_re = re.compile(r'\b' + re.escape(alias_lower) + r'\b', re.IGNORECASE)
+                if alias_re.search(text_lower):
                     hit = True
                     break
+
         if hit:
             mentioned.append(company['name'])
     return mentioned
+
+
+def _company_in_title(company_name, title):
+    """Word-boundary check that `company_name` appears in the title."""
+    if not title:
+        return False
+    pattern = r'\b' + re.escape(company_name.lower()) + r'\b'
+    return re.search(pattern, title.lower()) is not None
 
 
 def filter_relevant_releases(items, window_days=WINDOW_DAYS):
@@ -232,6 +287,8 @@ def filter_relevant_releases(items, window_days=WINDOW_DAYS):
     relevant = []
     seen_urls = set()
     cutoff = datetime.now(timezone.utc) - timedelta(days=window_days)
+    dropped_garbage = 0
+    dropped_body_only = 0
 
     for item in items:
         url = item.get("link") or ""
@@ -245,14 +302,33 @@ def filter_relevant_releases(items, window_days=WINDOW_DAYS):
         if dt and dt < cutoff:
             continue
 
-        text = (item.get("title", "") + " " + item.get("description", ""))
+        title = item.get("title", "") or ""
+        # Only use first 300 chars of description so we don't grab unrelated
+        # boilerplate trailing text that causes cross-matches.
+        description = (item.get("description", "") or "")[:300]
+        text = title + " " + description
+
+        # Quality gate 1: drop obvious garbage (coupons, reviews, listicles).
+        if is_garbage(text):
+            dropped_garbage += 1
+            continue
+
         matched = _company_mentions(text)
         if not matched:
             continue
 
+        # Quality gate 2: at least one matched company must appear in the
+        # TITLE (word-boundary). Body-only matches are typically coincidental
+        # substring hits on unrelated releases.
+        title_matched = [c for c in matched if _company_in_title(c, title)]
+        if not title_matched:
+            dropped_body_only += 1
+            continue
+
+        # Preserve order; title-matched companies first, then body mentions.
         seen = set()
         unique = []
-        for c in matched:
+        for c in title_matched + matched:
             if c not in seen:
                 seen.add(c)
                 unique.append(c)
@@ -268,6 +344,8 @@ def filter_relevant_releases(items, window_days=WINDOW_DAYS):
         item["date"] = parse_pub_date(item.get("pubDate", ""))
         relevant.append(item)
 
+    print(f"  Quality filter: dropped {dropped_garbage} garbage, "
+          f"{dropped_body_only} body-only matches")
     return relevant
 
 

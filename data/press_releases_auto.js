@@ -1,27 +1,4 @@
 // Auto-updated press releases
-// Last updated: 2026-04-16 10:39:29 UTC
+// Last updated: 2026-04-17 06:18:46 UTC
 const PRESS_RELEASES = [
-  { title: "Cellebrite anuncia a los 20 ganadores de los premios JUSTYS en la Cumbre de Usuarios C2C 2026", date: "2026-04-16", companies: "Agility Robotics", categories: "", source: "prnewswire_news_releases_list" },
-  { title: "Resolve AI announces Series A Extension at a $1.5B valuation and launches Resolve AI Labs to advance", date: "2026-04-16", companies: "Attio", categories: "funding, product", source: "prnewswire_news_releases_list" },
-  { title: "Inertial Labs, a VIAVI Solutions Company, Advances 3D Terrain and Surface Modeling with PCMasterPro ", date: "2026-04-16", companies: "Scale AI, Databricks, Ada", categories: "", source: "prnewswire_news_releases_list" },
-  { title: "KEYCORP REPORTS FIRST QUARTER 2026 NET INCOME OF $486 MILLION, OR $0.44 PER DILUTED COMMON SHARE INC", date: "2026-04-16", companies: "IonQ", categories: "funding, milestone", source: "prnewswire_news_releases_list" },
-  { title: "Metal Industries Research & Development Centre (MIRDC) se asocia con Dassault Systèmes", date: "2026-04-16", companies: "Sakana AI", categories: "", source: "prnewswire_news_releases_list" },
-  { title: "Brand Engagement Network Files 2025 Form 10-K, Highlights Strong Balance Sheet and Operational Progr", date: "2026-04-16", companies: "Vannevar Labs, Reveal Technology, Umbra", categories: "", source: "prnewswire_news_releases_list" },
-  { title: "AidKit 2025 Impact Report Signals Shift as State and Local Agencies Take Larger Role in Disaster Aid", date: "2026-04-16", companies: "Palantir", categories: "partnership", source: "prnewswire_news_releases_list" },
-  { title: "Think Academy's Think Kids Shines at 2026 ASU+GSV Summit, Pioneering AI-Era Early Childhood Educatio", date: "2026-04-16", companies: "Alpha School, Beacon AI, Synthesis", categories: "product", source: "prnewswire_news_releases_list" },
-  { title: "INVESTOR DEADLINE: Eos Energy Enterprises, Inc. (EOSE) Investors with Substantial Losses Have Opport", date: "2026-04-16", companies: "Databricks, Ada, Watershed", categories: "product", source: "prnewswire_news_releases_list" },
-  { title: "Introducing RyghtSites.com: The World's First, Free, AI-Powered Clinical Trial Site Search Engine", date: "2026-04-16", companies: "Labelbox, Sakana AI, Runway", categories: "milestone", source: "prnewswire_news_releases_list" },
-  { title: "Blaize and Winmate Announce Strategic Collaboration to Advance Sovereign Edge AI Capabilities for De", date: "2026-04-16", companies: "The Boring Company, Pipedream, Flexport", categories: "partnership, ipo", source: "prnewswire_news_releases_list" },
-  { title: "Zacatecas Silver Completes Surface Sampling and Mapping Program at Oso Negro Project, Sonora, Mexico", date: "", companies: "Vannevar Labs, Advanced Spade Company", categories: "funding, milestone", source: "globenewswire_all" },
-  { title: "FTAI Infrastructure Inc. Announces Timing of First Quarter 2026 Earnings and Conference Call", date: "", companies: "The Boring Company, Pipedream, Blumen Systems", categories: "product, milestone", source: "globenewswire_all" },
-  { title: "Safe Harbor Financial Fourth Quarter and Full Year 2025 Results, Highlighting Sequential 12% Sales G", date: "", companies: "Arbor Energy, Truemed, Attio", categories: "", source: "globenewswire_all" },
-  { title: "Kraken Robotics Reports 2025 Financial Results", date: "", companies: "Vannevar Labs, Twelve, Twelve Labs", categories: "", source: "globenewswire_all" },
-  { title: "Bilibili Inc. Files Its 2025 Annual Report on Form 20-F", date: "", companies: "Rocket Lab, Runway", categories: "", source: "globenewswire_all" },
-  { title: "Kraken Robotics Announces $28 Million in SeaPower Battery and Kraken SAS Orders", date: "", companies: "Base Power, Arc Boats, Impulse Labs", categories: "funding, product", source: "globenewswire_all" },
-  { title: "Transocean Ltd. Announces $158 Million Award for Ultra-Deepwater Drillship", date: "", companies: "Captura, Rainmaker, Vital Lyfe", categories: "funding, contract", source: "globenewswire_all" },
-  { title: "MoneyHero Group to Announce Fourth Quarter and Full Year 2025 Results", date: "", companies: "Agility Robotics", categories: "", source: "globenewswire_all" },
-  { title: "Aligos Therapeutics Enters into Exclusive License Deal with Xiamen Amoytop Biotech Co., Ltd. to Deve", date: "", companies: "Zipline, Focused Energy, Kinova Robotics", categories: "partnership", source: "globenewswire_all" },
-  { title: "Titan Extends Kilbourne Graphite Mineralization,  Advances Germanium and the 2026 Multi-Commodity Ex", date: "", companies: "Fervo Energy, Deep Isolation", categories: "", source: "globenewswire_all" },
-  { title: "Zymeworks to Report First Quarter 2026 Financial Results and Host Conference Call on May 7, 2026", date: "", companies: "Altos Labs, Retro Biosciences, Andromeda Surgical", categories: "milestone", source: "globenewswire_all" },
-  { title: "K Wave Media Reports Strong Momentum Across Film and Drama IP Portfolio, Highlighting Breakout Box O", date: "", companies: "Cognition, Rainmaker, Vital Lyfe", categories: "hiring", source: "globenewswire_all" },
 ];
