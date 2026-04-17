@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 9.4,
+      "avg_change": 14.51,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 9.81,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 5.62,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 16.84,
+      "avg_change": 14.19,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 24.49,
+      "avg_change": 32.18,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 20.61,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 3.16,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 50.07,
+      "avg_change": 48.18,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 15.09,
+      "avg_change": 20.48,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 11.68,
+      "avg_change": 13.12,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 19.13,
+      "avg_change": 11.69,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "IONQ",
       "IonQ",
-      59.12
+      58.81
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      55.16
+      51.75
     ],
     [
-      "EVTL",
-      "Vertical Aerospace",
-      45.22
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      37.76
+      "SMR",
+      "NuScale Power",
+      38.33
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      35.92
+      33.99
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      33.33
     ]
   ],
   "topLosers": [
-    [
-      "SATL",
-      "Satellogic",
-      4.44
-    ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       4.41
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      0.76
+      "9348.T",
+      "ispace",
+      -0.8
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -6.28
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -0.73
+      -10.04
     ],
     [
-      "9348.T",
-      "ispace",
-      -0.8
+      "LNZA",
+      "LanzaTech",
+      -14.25
     ]
   ],
-  "lastUpdated": "2026-04-17 13:28:39"
+  "lastUpdated": "2026-04-17 19:08:26"
 }
