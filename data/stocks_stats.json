@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 9.53,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 9.81,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 16.87,
+      "avg_change": 16.52,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 15.61,
+      "avg_change": 14.84,
       "count": 3
     },
     "transportation": {
@@ -96,9 +96,9 @@
       4.41
     ],
     [
-      "9348.T",
-      "ispace",
-      -0.6
+      "ASRHF",
+      "Astroscale",
+      0.76
     ],
     [
       "ASTS",
@@ -106,10 +106,10 @@
       -0.73
     ],
     [
-      "ASRHF",
-      "Astroscale",
-      -1.4
+      "9348.T",
+      "ispace",
+      -0.8
     ]
   ],
-  "lastUpdated": "2026-04-17 02:58:45"
+  "lastUpdated": "2026-04-17 07:55:10"
 }
