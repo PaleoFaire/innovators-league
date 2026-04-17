@@ -11,13 +11,13 @@
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 9.58,
+      "avg_change": 9.53,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 16.92,
+      "avg_change": 16.87,
       "count": 7
     },
     "nuclear": {
@@ -86,19 +86,19 @@
   ],
   "topLosers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      4.75
-    ],
-    [
       "SATL",
       "Satellogic",
       4.44
     ],
     [
+      "277810.KQ",
+      "Rainbow Robotics",
+      4.41
+    ],
+    [
       "9348.T",
       "ispace",
-      -0.2
+      -0.6
     ],
     [
       "ASTS",
@@ -111,5 +111,5 @@
       -1.4
     ]
   ],
-  "lastUpdated": "2026-04-17 02:25:47"
+  "lastUpdated": "2026-04-17 02:58:45"
 }
