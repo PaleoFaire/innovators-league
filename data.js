@@ -38916,12 +38916,12 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-18 19:46
+// Last updated: 2026-04-18 20:48
 const COMPANY_SIGNALS = [
-  { id: 1, type: "ipo", company: "Cerebras", headline: "AI chip startup Cerebras files for IPO", source: "TechCrunch", time: "Just now", impact: "high", unread: true },
-  { id: 2, type: "contract", company: "Anthropic", headline: "Anthropic's relationship with the Trump administration seems to be thawing", source: "TechCrunch", time: "4h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "OpenAI", headline: "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed 'side quests'", source: "TechCrunch", time: "23h ago", impact: "low", unread: true },
-  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Executive Kevin Weil Is Leaving the Company", source: "Wired", time: "23h ago", impact: "low", unread: true },
+  { id: 1, type: "ipo", company: "Cerebras", headline: "AI chip startup Cerebras files for IPO", source: "TechCrunch", time: "1h ago", impact: "high", unread: true },
+  { id: 2, type: "contract", company: "Anthropic", headline: "Anthropic's relationship with the Trump administration seems to be thawing", source: "TechCrunch", time: "5h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "OpenAI", headline: "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed 'side quests'", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
+  { id: 4, type: "news", company: "OpenAI", headline: "OpenAI Executive Kevin Weil Is Leaving the Company", source: "Wired", time: "1d ago", impact: "low", unread: true },
   { id: 5, type: "news", company: "Chef Robotics", headline: "Chef Robotics escaped the robot cooking graveyard and says it's thriving &#8212; here's why", source: "TechCrunch", time: "1d ago", impact: "low", unread: true },
   { id: 6, type: "milestone", company: "Anthropic", headline: "Anthropic launches Claude Design, a new product for creating quick visuals", source: "TechCrunch", time: "1d ago", impact: "medium", unread: false },
   { id: 7, type: "hire", company: "Anthropic", headline: "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera alum joins Structure as COO", source: "Endpoints News", time: "1d ago", impact: "low", unread: false },
