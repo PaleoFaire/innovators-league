@@ -1,21 +1,21 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 61,
+    "momentum": 60,
     "trend": "accelerating",
     "catalysts": [
-      "OpenAI starts offering a biology-tuned LLM",
-      "Physical Intelligence, a hot robotics startup, says its new",
-      "OpenAI takes aim at Anthropic with beefed-up Codex that give"
+      "Kevin Weil and Bill Peebles exit OpenAI as company continues",
+      "OpenAI Executive Kevin Weil Is Leaving the Company",
+      "Anthropic launches Claude Design, a new product for creating"
     ],
     "fundingQ": "$1189.2B",
     "components": {
       "funding": 100,
-      "news": 65,
+      "news": 60,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Defense & Security",
@@ -32,7 +32,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Nuclear Energy",
@@ -49,11 +49,11 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 50,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
       "Waymo Takes On London",
@@ -63,11 +63,11 @@
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 20,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -83,7 +83,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Ocean & Maritime",
@@ -99,16 +99,16 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Space & Aerospace",
     "momentum": 36,
     "trend": "rising",
     "catalysts": [
+      "Anthropic launches Claude Design, a new product for creating",
       "SpaceX Starship Flight 12 in a Few Weeks Aka Early-Mid May",
-      "OpenAI launches biopharma-focused AI model to compete with A",
-      "Starlink outage hit drone tests, exposing Pentagon\u2019s growing"
+      "OpenAI launches biopharma-focused AI model to compete with A"
     ],
     "fundingQ": "$175M",
     "components": {
@@ -117,34 +117,16 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-17"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 34,
-    "trend": "rising",
-    "catalysts": [
-      "Waymo Takes On London",
-      "AGIBOT deploys semi-humanoid robots in electronics manufactu",
-      "Physical Intelligence, a hot robotics startup, says its new"
-    ],
-    "fundingQ": "$655M",
-    "components": {
-      "funding": 39,
-      "news": 40,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Biotech & Health",
     "momentum": 31,
     "trend": "declining",
     "catalysts": [
-      "Physical Intelligence, a hot robotics startup, says its new",
-      "OpenAI launches biopharma-focused AI model to compete with A",
-      "Scribing startup Abridge adds NEJM, JAMA as it moves into me"
+      "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera",
+      "AlixLabs closes \u20ac15M Series A to scale Atomic Layer Etching",
+      "OpenAI launches biopharma-focused AI model to compete with A"
     ],
     "fundingQ": "$230M",
     "components": {
@@ -153,7 +135,43 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 30,
+    "trend": "rising",
+    "catalysts": [
+      "Chef Robotics escaped the robot cooking graveyard and says i",
+      "AlixLabs closes \u20ac15M Series A to scale Atomic Layer Etching",
+      "Waymo Takes On London"
+    ],
+    "fundingQ": "$655M",
+    "components": {
+      "funding": 39,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-18"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 25,
+    "trend": "declining",
+    "catalysts": [
+      "AlixLabs closes \u20ac15M Series A to scale Atomic Layer Etching",
+      "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables",
+      "Self-driving scaleup Wayve raises fresh funds from AMD, Qual"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Transportation",
@@ -170,25 +188,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-17"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 24,
-    "trend": "declining",
-    "catalysts": [
-      "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables",
-      "Self-driving scaleup Wayve raises fresh funds from AMD, Qual",
-      "<a href=\"/ai-and-machine-learning/novartis-ceo-vas-narasimha"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Climate & Energy",
@@ -206,7 +206,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Quantum Computing",
@@ -222,16 +222,16 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Consumer Tech",
     "momentum": 15,
     "trend": "declining",
     "catalysts": [
-      "AGIBOT deploys semi-humanoid robots in electronics manufactu",
-      "Ouster releases Stereolabs ZED X Nano wrist-mounted camera",
-      "Locus Robotics launches Locus Array for fully autonomous ful"
+      "Kevin Weil and Bill Peebles exit OpenAI as company continues",
+      "OpenAI Executive Kevin Weil Is Leaving the Company",
+      "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -240,7 +240,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -257,22 +257,22 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 10,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "<a href=\"/biotech/openai-launches-biotech-specific-ai-model-"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-17"
+    "lastUpdated": "2026-04-18"
   }
 ]

@@ -134,6 +134,22 @@
     "roundCount": 1
   },
   {
+    "company": "Watershed",
+    "totalRaised": "$4.0B+",
+    "totalRaisedRaw": 4042.0,
+    "lastRound": "Series N",
+    "lastRoundAmount": "$20M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "a16z",
+      "Khosla Ventures",
+      "Undisclosed",
+      "Coatue"
+    ],
+    "roundCount": 8
+  },
+  {
     "company": "Rain AI",
     "totalRaised": "$3.6B+",
     "totalRaisedRaw": 3650.0,
@@ -226,22 +242,6 @@
       "a16z"
     ],
     "roundCount": 2
-  },
-  {
-    "company": "Watershed",
-    "totalRaised": "$2.0B+",
-    "totalRaisedRaw": 2042.0,
-    "lastRound": "Series N",
-    "lastRoundAmount": "$20M",
-    "lastRoundDate": "2026-04",
-    "valuation": "",
-    "leadInvestors": [
-      "a16z",
-      "Khosla Ventures",
-      "Undisclosed",
-      "Coatue"
-    ],
-    "roundCount": 7
   },
   {
     "company": "Aetherflux",
@@ -841,6 +841,19 @@
     "valuation": "$500M",
     "leadInvestors": [
       "General Catalyst"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Fortastra",
+    "totalRaised": "$95M+",
+    "totalRaisedRaw": 95.0,
+    "lastRound": "Series C",
+    "lastRoundAmount": "$95M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
     ],
     "roundCount": 1
   },

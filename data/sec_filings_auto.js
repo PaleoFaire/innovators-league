@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-17 07:55:47 UTC
+// Last updated: 2026-04-18 07:15:32 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-04-17", description: "xslF345X06/wk-form4_1776470782.xml", isIPO: false, ticker: "PLTR" },
+  { company: "NuScale Power", form: "4", date: "2026-04-17", description: "xslF345X06/wk-form4_1776457917.xml", isIPO: false, ticker: "SMR" },
   { company: "AST SpaceMobile", form: "4", date: "2026-04-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "C3.ai", form: "4", date: "2026-04-16", description: "xslF345X06/wk-form4_1776380818.xml", isIPO: false, ticker: "AI" },
   { company: "Upstart Holdings", form: "DEF 14A", date: "2026-04-16", description: "d177155ddef14a.htm", isIPO: false, ticker: "UPST" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "LanzaTech", form: "8-K", date: "2026-04-07", description: "tlsi-20260401.htm", isIPO: false, ticker: "LNZA" },
   { company: "Rocket Lab", form: "DEF 14A", date: "2026-04-06", description: "rklb-20260406.htm", isIPO: false, ticker: "RKLB" },
   { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248597.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248508.xml", isIPO: false, ticker: "OKLO" },
-  { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248421.xml", isIPO: false, ticker: "OKLO" },
 ];
