@@ -11,13 +11,13 @@
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 6.04,
+      "avg_change": 5.31,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 13.86,
+      "avg_change": 13.98,
       "count": 7
     },
     "nuclear": {
@@ -86,9 +86,9 @@
   ],
   "topLosers": [
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      4.41
+      "ASRHF",
+      "Astroscale",
+      0.7
     ],
     [
       "9348.T",
@@ -111,5 +111,5 @@
       -16.87
     ]
   ],
-  "lastUpdated": "2026-04-18 02:45:58"
+  "lastUpdated": "2026-04-18 07:20:56"
 }
