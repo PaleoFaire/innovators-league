@@ -38916,13 +38916,13 @@ const DATA_QUALITY = {
 
 // ─── PITCHBOOK-STYLE REAL-TIME SIGNALS ───
 // Auto-generated real-time signals
-// Last updated: 2026-04-18 09:54
+// Last updated: 2026-04-18 10:52
 const COMPANY_SIGNALS = [
-  { id: 1, type: "news", company: "OpenAI", headline: "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed 'side quests'", source: "TechCrunch", time: "13h ago", impact: "low", unread: true },
-  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI Executive Kevin Weil Is Leaving the Company", source: "Wired", time: "13h ago", impact: "low", unread: true },
-  { id: 3, type: "news", company: "Chef Robotics", headline: "Chef Robotics escaped the robot cooking graveyard and says it's thriving &#8212; here's why", source: "TechCrunch", time: "17h ago", impact: "low", unread: true },
-  { id: 4, type: "milestone", company: "Anthropic", headline: "Anthropic launches Claude Design, a new product for creating quick visuals", source: "TechCrunch", time: "18h ago", impact: "medium", unread: true },
-  { id: 5, type: "hire", company: "Anthropic", headline: "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera alum joins Structure as COO", source: "Endpoints News", time: "22h ago", impact: "low", unread: true },
+  { id: 1, type: "news", company: "OpenAI", headline: "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed 'side quests'", source: "TechCrunch", time: "14h ago", impact: "low", unread: true },
+  { id: 2, type: "news", company: "OpenAI", headline: "OpenAI Executive Kevin Weil Is Leaving the Company", source: "Wired", time: "14h ago", impact: "low", unread: true },
+  { id: 3, type: "news", company: "Chef Robotics", headline: "Chef Robotics escaped the robot cooking graveyard and says it's thriving &#8212; here's why", source: "TechCrunch", time: "18h ago", impact: "low", unread: true },
+  { id: 4, type: "milestone", company: "Anthropic", headline: "Anthropic launches Claude Design, a new product for creating quick visuals", source: "TechCrunch", time: "19h ago", impact: "medium", unread: true },
+  { id: 5, type: "hire", company: "Anthropic", headline: "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera alum joins Structure as COO", source: "Endpoints News", time: "23h ago", impact: "low", unread: true },
   { id: 6, type: "funding", company: "AlixLabs", headline: "AlixLabs closes '15M Series A to scale Atomic Layer Etching technology", source: "Tech.eu", time: "1d ago", impact: "medium", unread: false },
   { id: 7, type: "milestone", company: "Waymo", headline: "Waymo Takes On London", source: "CleanTechnica", time: "1d ago", impact: "low", unread: false },
   { id: 8, type: "news", company: "OpenAI", headline: "OpenAI starts offering a biology-tuned LLM", source: "Ars Technica Space", time: "1d ago", impact: "low", unread: false },
