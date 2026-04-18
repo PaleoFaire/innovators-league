@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 14.51,
+      "avg_change": 14.31,
       "count": 1
     },
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 5.62,
+      "avg_change": 6.04,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 14.19,
+      "avg_change": 13.86,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 32.18,
+      "avg_change": 31.61,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.16,
+      "avg_change": 3.0,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 48.18,
+      "avg_change": 49.08,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 20.48,
+      "avg_change": 20.68,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 13.12,
+      "avg_change": 13.24,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 11.69,
+      "avg_change": 12.43,
       "count": 3
     }
   },
@@ -61,27 +61,27 @@
     [
       "IONQ",
       "IonQ",
-      58.81
+      60.09
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      51.75
+      52.21
     ],
     [
       "SMR",
       "NuScale Power",
-      38.33
+      37.35
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      33.99
+      34.95
     ],
     [
       "OKLO",
       "Oklo",
-      33.33
+      32.96
     ]
   ],
   "topLosers": [
@@ -98,18 +98,18 @@
     [
       "SATL",
       "Satellogic",
-      -6.28
+      -5.46
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -10.04
+      -9.87
     ],
     [
       "LNZA",
       "LanzaTech",
-      -14.25
+      -16.87
     ]
   ],
-  "lastUpdated": "2026-04-17 19:08:26"
+  "lastUpdated": "2026-04-18 02:45:58"
 }
