@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-04-16",
-    "vehicle": "Soyuz 2.1b/Volga | Kosmos (Unknown Payload)",
-    "payload": "Kosmos (Unknown Payload)",
-    "pad": "Unknown Pad, Plesetsk Cosmodrome, Russian Federation",
-    "provider": "Russian Space Forces",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/0c69b50a-11d4-4c68-a0f6-4498d6ee713a/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-04-17",
-    "vehicle": "Long March 4C | Daqi-2 (AEMS)",
-    "payload": "Daqi-2 (AEMS)",
-    "pad": "Launch Area 94 (SLS-2 / 603), Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/a89636b5-20f0-491a-88a4-0ff26880ae77/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-04-18",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-22",
     "payload": "Starlink Group 17-22",
@@ -448,5 +430,23 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/04154b70-045b-4e3a-bb5a-e5436091ba37/?format=json",
     "trackedCompany": "Rocket Lab"
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Falcon 9 Block 5 | 9 x Globalstar-3",
+    "payload": "9 x Globalstar-3",
+    "pad": "Unknown Pad, Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Falcon 9 Block 5 | Rivada 10",
+    "payload": "Rivada 10",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/511a3ef8-799e-4723-9293-b954d9d2eb83/?format=json",
+    "trackedCompany": "SpaceX"
   }
 ]

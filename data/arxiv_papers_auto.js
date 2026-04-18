@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-04-17 08:19:33 UTC
+// Last updated: 2026-04-18 07:52:00 UTC
 const ARXIV_PAPERS = [
   { id: "2604.15259v1", title: "Stability and Generalization in Looped Transformers", category: "Artificial Intelligence", published: "2026-04-16", sectors: "ai", authors: "Asher Labovich" },
   { id: "2604.15236v1", title: "Agentic Microphysics: A Manifesto for Generative AI Safety", category: "Artificial Intelligence", published: "2026-04-16", sectors: "ai", authors: "Federico Pierucci, Matteo Prandi, Marcantonio Bracale Syrnikov et al." },
