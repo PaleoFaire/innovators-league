@@ -1,38 +1,39 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 60,
+    "momentum": 62,
     "trend": "accelerating",
     "catalysts": [
-      "Kevin Weil and Bill Peebles exit OpenAI as company continues",
-      "OpenAI Executive Kevin Weil Is Leaving the Company",
-      "Anthropic launches Claude Design, a new product for creating"
+      "AI chip startup Cerebras files for IPO",
+      "Anthropic\u2019s relationship with the Trump administration seems",
+      "Kevin Weil and Bill Peebles exit OpenAI as company continues"
     ],
     "fundingQ": "$1189.2B",
     "components": {
       "funding": 100,
-      "news": 60,
+      "news": 70,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 58,
+    "momentum": 59,
     "trend": "steady",
     "catalysts": [
+      "Anthropic\u2019s relationship with the Trump administration seems",
       "Starlink outage hit drone tests, exposing Pentagon\u2019s growing",
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Nuclear Energy",
@@ -49,7 +50,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Drones & Autonomous",
@@ -67,7 +68,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -83,7 +84,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Ocean & Maritime",
@@ -99,11 +100,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 36,
+    "momentum": 34,
     "trend": "rising",
     "catalysts": [
       "Anthropic launches Claude Design, a new product for creating",
@@ -113,11 +114,11 @@
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
-      "news": 50,
+      "news": 45,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Biotech & Health",
@@ -135,7 +136,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -153,25 +154,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 25,
+    "momentum": 26,
     "trend": "declining",
     "catalysts": [
+      "AI chip startup Cerebras files for IPO",
       "AlixLabs closes \u20ac15M Series A to scale Atomic Layer Etching",
-      "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables",
-      "Self-driving scaleup Wayve raises fresh funds from AMD, Qual"
+      "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Transportation",
@@ -188,7 +189,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Climate & Energy",
@@ -206,7 +207,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Quantum Computing",
@@ -222,7 +223,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Consumer Tech",
@@ -240,7 +241,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -257,7 +258,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   },
   {
     "sector": "Housing & Construction",
@@ -273,6 +274,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
   }
 ]
