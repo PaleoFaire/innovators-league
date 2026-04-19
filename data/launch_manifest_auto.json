@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-04-18",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-22",
-    "payload": "Starlink Group 17-22",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/0727a92f-0a9c-4e01-9bf4-1dc698e17e6b/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-04-19",
     "vehicle": "New Glenn | BlueBird Block 2 #2",
     "payload": "BlueBird Block 2 #2",
@@ -16,6 +7,15 @@
     "provider": "Blue Origin",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/53769468-bfd3-45c7-a52b-46a68ed7510f/?format=json",
     "trackedCompany": "Blue Origin"
+  },
+  {
+    "date": "2026-04-19",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-22",
+    "payload": "Starlink Group 17-22",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/0727a92f-0a9c-4e01-9bf4-1dc698e17e6b/?format=json",
+    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-04-20",
@@ -36,7 +36,7 @@
     "trackedCompany": "Rocket Lab"
   },
   {
-    "date": "2026-04-22",
+    "date": "2026-04-23",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-14",
     "payload": "Starlink Group 17-14",
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
@@ -154,15 +154,6 @@
   },
   {
     "date": "2026-04-30",
-    "vehicle": "Spectrum | Onward and Upward",
-    "payload": "Onward and Upward",
-    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-04-30",
     "vehicle": "Vega-C | Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
     "payload": "Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
     "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
@@ -214,6 +205,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/e60aa241-1f2c-4459-ba94-2f576c3e5632/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-05-31",
+    "vehicle": "Spectrum | Onward and Upward",
+    "payload": "Onward and Upward",
+    "pad": "Orbital Launch Pad, And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-05-31",

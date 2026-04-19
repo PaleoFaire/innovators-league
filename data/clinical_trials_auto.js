@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-04-18 07:51:47 UTC
+// Last updated: 2026-04-19 07:58:58 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT06921707", title: "Pilot Trial for WounDx™ Clinical Decision Support Tool", status: "RECRUITING", phase: "NA", sponsor: "Henry M. Jackson Foundation for the Advancement of Military Medicine", conditions: "Wounds, Wounds and Injuries, Extremity Injury", enrollment: 40, lastUpdated: "2026-04-17" },
   { nctId: "NCT05954286", title: "PROTECT-APT 1: Early Treatment and Post-Exposure Prophylaxis of COVID-19", status: "COMPLETED", phase: "PHASE2", sponsor: "Henry M. Jackson Foundation for the Advancement of Military Medicine", conditions: "SARS-CoV-2", enrollment: 92, lastUpdated: "2026-04-17" },
