@@ -1,0 +1,17 @@
+{
+  "workflow": "weekly-extended-sync",
+  "generated_at": "2026-04-19T09:41:58.480295+00:00",
+  "steps": {
+    "insider_trading": "success",
+    "fda_approvals": "success",
+    "github_releases": "success",
+    "product_hunt": "success",
+    "merge_commit": "success"
+  },
+  "summary": {
+    "total": 5,
+    "succeeded": 5,
+    "failed": 0,
+    "skipped": 0
+  }
+}
