@@ -1,19 +1,19 @@
 // Auto-generated news signals
-// Last updated: 2026-04-19T09:02:56.985Z
+// Last updated: 2026-04-19T09:56:15.897Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1776589376985,
+    "id": 1776592575897,
     "type": "ipo",
     "company": "Cerebras",
     "headline": "AI chip startup Cerebras files for IPO",
     "source": "TechCrunch",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/"
   },
   {
-    "id": 1776589376986,
+    "id": 1776592575898,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Anthropic’s relationship with the Trump administration seems to be thawing",
@@ -24,7 +24,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/"
   },
   {
-    "id": 1776589376987,
+    "id": 1776592575899,
     "type": "news",
     "company": "OpenAI",
     "headline": "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed &#8216;side quests&#8217;",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/"
   },
   {
-    "id": 1776589376988,
+    "id": 1776592575900,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Executive Kevin Weil Is Leaving the Company",
@@ -46,7 +46,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/"
   },
   {
-    "id": 1776589376989,
+    "id": 1776592575901,
     "type": "news",
     "company": "Chef Robotics",
     "headline": "Chef Robotics escaped the robot cooking graveyard and says it&#8217;s thriving &#8212; here&#8217;s why",
@@ -57,7 +57,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/17/chef-robotics-escaped-the-robot-cooking-graveyard-and-says-its-thriving-heres-why/"
   },
   {
-    "id": 1776589376990,
+    "id": 1776592575902,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "Anthropic launches Claude Design, a new product for creating quick visuals",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
   },
   {
-    "id": 1776589376991,
+    "id": 1776592575903,
     "type": "hire",
     "company": "Anthropic",
     "headline": "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera alum joins Structure as COO",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/novartis-vas-narasimhan-heads-to-anthropics-board-structure-therapeutics-finds-coo-from-metsera/"
   },
   {
-    "id": 1776589376992,
+    "id": 1776592575904,
     "type": "funding",
     "company": "AlixLabs",
     "headline": "AlixLabs closes €15M Series A to scale Atomic Layer Etching technology",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/04/17/alixlabs-closes-eur15m-series-a-to-scale-atomic-layer-etching-technology/"
   },
   {
-    "id": 1776589376993,
+    "id": 1776592575905,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Takes On London",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/04/16/waymo-takes-on-london/"
   },
   {
-    "id": 1776589376994,
+    "id": 1776592575906,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI starts offering a biology-tuned LLM",
@@ -112,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/science/2026/04/openai-starts-offering-a-biology-tuned-llm/"
   },
   {
-    "id": 1776589376995,
+    "id": 1776592575907,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Flight 12 in a Few Weeks Aka Early-Mid May",
@@ -123,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/spacex-starship-flight-12-in-a-few-weeks-aka-early-mid-may.html"
   },
   {
-    "id": 1776589376996,
+    "id": 1776592575908,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "OpenAI launches biopharma-focused AI model to compete with Anthropic",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/openai-launches-biopharma-focused-ai-model-to-compete-with-anthropic/"
   },
   {
-    "id": 1776589376997,
+    "id": 1776592575909,
     "type": "news",
     "company": "OpenAI",
     "headline": "Musk v. Altman Is a Battle for OpenAI’s Soul",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/musk-v-altman-trial-openai-xai/"
   },
   {
-    "id": 1776589376998,
+    "id": 1776592575910,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Starlink outage hit drone tests, exposing Pentagon’s growing reliance on SpaceX",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/16/starlink-outage-hit-drone-tests-exposing-pentagons-growing-reliance-on-spacex/"
   },
   {
-    "id": 1776589376999,
+    "id": 1776592575911,
     "type": "news",
     "company": "xAI",
     "headline": "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables Breakeven",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/xai-renting-gpus-to-cursor-further-gpu-rents-enables-breakeven.html"
   },
   {
-    "id": 1776589377000,
+    "id": 1776592575912,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin New Glenn 3 Has a Good Static Fire",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/blue-origin-new-glenn-3-has-a-good-static-fire.html"
   },
   {
-    "id": 1776589377001,
+    "id": 1776592575913,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic Plots Major London Expansion",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/anthropic-plots-major-london-expansion/"
   },
   {
-    "id": 1776589377002,
+    "id": 1776592575914,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "Anthropic&#8217;s Nuclear Bomb",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/cogs-of-war/anthropics-nuclear-bomb/"
   },
   {
-    "id": 1776589377003,
+    "id": 1776592575915,
     "type": "hire",
     "company": "Abridge",
     "headline": "Scribing startup Abridge adds NEJM, JAMA as it moves into medical AI search",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/scribing-startup-abridge-adds-nejm-jama-as-it-moves-into-medical-ai-search/"
   },
   {
-    "id": 1776589377004,
+    "id": 1776592575916,
     "type": "funding",
     "company": "Wayve",
     "headline": "Self-driving scaleup Wayve raises fresh funds from AMD, Qualcomm and Arm",
