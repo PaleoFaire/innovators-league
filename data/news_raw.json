@@ -1,8 +1,71 @@
 [
   {
-    "title": "Blue Origin Launches and Recovers Booster, Orbit of AST Space Mobile Satellite is Lower Than Planned",
+    "title": "Blue Origin&#8217;s New Glenn put a customer satellite in the wrong orbit during its third launch",
+    "link": "https://techcrunch.com/2026/04/19/blue-origins-new-glenn-put-a-customer-satellite-in-the-wrong-orbit-during-its-third-launch/",
+    "description": "The first major failure of Blue Origin's new heavy-launch system could create delays to its ambition to help NASA and the Trump administration return to the Moon.",
+    "pubDate": "Sun, 19 Apr 2026 19:02:09 +0000",
+    "category": "Space",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Blue Origin",
+    "matchedCompanies": [
+      "Blue Origin",
+      "Durin"
+    ],
+    "sectors": [
+      "space",
+      "infrastructure"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
+    "link": "https://www.nextbigfuture.com/2026/04/ast-spacemobile-bb7-is-not-recoverable-per-asts.html",
+    "description": "Based on what the orbit appears to be. 20kg of fuel they can only raise it part of the way. ASTS admits the satellite is too low and cannot be saved, During the New Glenn 3 mission, BlueBird 7 was placed into a lower than planned orbit by the upper stage of the launch vehicle. ... Read more",
+    "pubDate": "Sun, 19 Apr 2026 18:23:43 +0000",
+    "category": "Energy",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "AST SpaceMobile",
+    "matchedCompanies": [
+      "AST SpaceMobile",
+      "Blue Origin",
+      "Durin"
+    ],
+    "sectors": [
+      "space",
+      "infrastructure"
+    ],
+    "type": "funding",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Blue Origin&#039;s rocket reuse achievement marred by errant satellite deployment",
+    "link": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/",
+    "description": "",
+    "pubDate": "Sun, 19 Apr 2026 18:19:19 +0000",
+    "category": "Science",
+    "source": "Ars Technica Space",
+    "feedCategory": "space",
+    "matchedCompany": "Blue Origin",
+    "matchedCompanies": [
+      "Blue Origin",
+      "D-Orbit"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Blue Origin Launches and Recovers Booster, Orbit of AST Space Mobile Satellite Too Low. BB7 Lost",
     "link": "https://www.nextbigfuture.com/2026/04/blue-origin-launches-and-recovers-booster-orbit-of-ast-space-mobile-satellite-is-lower-than-planned.html",
-    "description": "Blue Origin’s New Glenn NG-3 mission launched successfully this morning (April 19, 2026) from Cape Canaveral, carrying AST SpaceMobile’s BlueBird 7 (Block 2 FM2) satellite. After the launch and booster recover, the mission continued for 90 minutes or so. T Planned second-stage profile (per pre-launc",
+    "description": "Blue Origin’s New Glenn NG-3 mission launched successfully this morning (April 19, 2026) from Cape Canaveral, carrying AST SpaceMobile’s BlueBird 7 (Block 2 FM2) satellite. After the launch and booster recover, the mission continued for 90 minutes or so. UPDATE &#8211; ASTS admits the satellite is t",
     "pubDate": "Sun, 19 Apr 2026 15:47:05 +0000",
     "category": "Space",
     "source": "Next Big Future",
@@ -19,7 +82,7 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "Blue Origin successfully re-uses a New Glenn rocket for the first time ever",
@@ -39,7 +102,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "5h ago"
+    "time": "7h ago"
   },
   {
     "title": "AI chip startup Cerebras files for IPO",
@@ -60,7 +123,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "22h ago"
+    "time": "23h ago"
   },
   {
     "title": "Anthropic’s relationship with the Trump administration seems to be thawing",
@@ -121,25 +184,6 @@
     "type": "news",
     "impact": "low",
     "time": "1d ago"
-  },
-  {
-    "title": "Chef Robotics escaped the robot cooking graveyard and says it&#8217;s thriving &#8212; here&#8217;s why",
-    "link": "https://techcrunch.com/2026/04/17/chef-robotics-escaped-the-robot-cooking-graveyard-and-says-its-thriving-heres-why/",
-    "description": "The company, which deploys AI-guided robot arms for food production, says it is looking to expand its services to provide for a broader array of customers.",
-    "pubDate": "Fri, 17 Apr 2026 16:15:50 +0000",
-    "category": "Robotics",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Chef Robotics",
-    "matchedCompanies": [
-      "Chef Robotics"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "2d ago"
   },
   {
     "title": "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera alum joins Structure as COO",
@@ -257,7 +301,7 @@
     ],
     "type": "milestone",
     "impact": "medium",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Musk v. Altman Is a Battle for OpenAI’s Soul",
@@ -276,7 +320,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "2d ago"
+    "time": "3d ago"
   },
   {
     "title": "Starlink outage hit drone tests, exposing Pentagon’s growing reliance on SpaceX",
@@ -315,26 +359,6 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
-  },
-  {
-    "title": "Blue Origin New Glenn 3 Has a Good Static Fire",
-    "link": "https://www.nextbigfuture.com/2026/04/blue-origin-new-glenn-3-has-a-good-static-fire.html",
-    "description": "Blue Origin New Glenn 3 has a good static fire. They are trying to go for a Saturday or Sunday launch. They will launch the second commercial version of the AST Spacemobile direct to cellphone (DTC) communication satellite. AST Space Mobile needs 40-60 commercial operational and in position satellit",
-    "pubDate": "Thu, 16 Apr 2026 16:10:13 +0000",
-    "category": "Space",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "Blue Origin",
-    "matchedCompanies": [
-      "Blue Origin",
-      "AST SpaceMobile"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "medium",
     "time": "3d ago"
   },
   {
