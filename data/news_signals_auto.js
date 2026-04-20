@@ -1,74 +1,74 @@
 // Auto-generated news signals
-// Last updated: 2026-04-20T09:13:46.586Z
+// Last updated: 2026-04-20T11:26:10.677Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1776676426586,
+    "id": 1776684370677,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI’s existential questions",
     "source": "TechCrunch",
-    "time": "11h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/19/openais-existential-questions/"
   },
   {
-    "id": 1776676426587,
+    "id": 1776684370678,
     "type": "milestone",
     "company": "Blue Origin",
     "headline": "Blue Origin&#8217;s New Glenn put a customer satellite in the wrong orbit during its third launch",
     "source": "TechCrunch",
-    "time": "14h ago",
+    "time": "16h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/19/blue-origins-new-glenn-put-a-customer-satellite-in-the-wrong-orbit-during-its-third-launch/"
   },
   {
-    "id": 1776676426588,
+    "id": 1776684370679,
     "type": "funding",
     "company": "AST SpaceMobile",
     "headline": "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
     "source": "Next Big Future",
-    "time": "14h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/04/ast-spacemobile-bb7-is-not-recoverable-per-asts.html"
   },
   {
-    "id": 1776676426589,
+    "id": 1776684370680,
     "type": "news",
     "company": "Blue Origin",
     "headline": "Blue Origin&#039;s rocket reuse achievement marred by upper stage failure",
     "source": "Ars Technica Space",
-    "time": "14h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": true,
     "link": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/"
   },
   {
-    "id": 1776676426590,
+    "id": 1776684370681,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin Launches and Recovers Booster, Orbit of AST Space Mobile Satellite Too Low. BB7 Lost",
     "source": "Next Big Future",
-    "time": "17h ago",
+    "time": "19h ago",
     "impact": "medium",
     "unread": true,
     "link": "https://www.nextbigfuture.com/2026/04/blue-origin-launches-and-recovers-booster-orbit-of-ast-space-mobile-satellite-is-lower-than-planned.html"
   },
   {
-    "id": 1776676426591,
+    "id": 1776684370682,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin successfully re-uses a New Glenn rocket for the first time ever",
     "source": "TechCrunch",
-    "time": "21h ago",
+    "time": "23h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/04/19/blue-origin-successfully-re-uses-a-new-glenn-rocket-for-the-first-time-ever/"
   },
   {
-    "id": 1776676426592,
+    "id": 1776684370683,
     "type": "ipo",
     "company": "Cerebras",
     "headline": "AI chip startup Cerebras files for IPO",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/"
   },
   {
-    "id": 1776676426593,
+    "id": 1776684370684,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Anthropic’s relationship with the Trump administration seems to be thawing",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/"
   },
   {
-    "id": 1776676426594,
+    "id": 1776684370685,
     "type": "news",
     "company": "OpenAI",
     "headline": "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed &#8216;side quests&#8217;",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/"
   },
   {
-    "id": 1776676426595,
+    "id": 1776684370686,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Executive Kevin Weil Is Leaving the Company",
@@ -112,18 +112,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/"
   },
   {
-    "id": 1776676426596,
+    "id": 1776684370687,
     "type": "hire",
     "company": "Anthropic",
     "headline": "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera alum joins Structure as COO",
     "source": "Endpoints News",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://endpoints.news/novartis-vas-narasimhan-heads-to-anthropics-board-structure-therapeutics-finds-coo-from-metsera/"
   },
   {
-    "id": 1776676426597,
+    "id": 1776684370688,
     "type": "funding",
     "company": "AlixLabs",
     "headline": "AlixLabs closes €15M Series A to scale Atomic Layer Etching technology",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/04/17/alixlabs-closes-eur15m-series-a-to-scale-atomic-layer-etching-technology/"
   },
   {
-    "id": 1776676426598,
+    "id": 1776684370689,
     "type": "milestone",
     "company": "Waymo",
     "headline": "Waymo Takes On London",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/04/16/waymo-takes-on-london/"
   },
   {
-    "id": 1776676426599,
+    "id": 1776684370690,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI starts offering a biology-tuned LLM",
@@ -156,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/science/2026/04/openai-starts-offering-a-biology-tuned-llm/"
   },
   {
-    "id": 1776676426600,
+    "id": 1776684370691,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Starship Flight 12 in a Few Weeks Aka Early-Mid May",
@@ -167,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/spacex-starship-flight-12-in-a-few-weeks-aka-early-mid-may.html"
   },
   {
-    "id": 1776676426601,
+    "id": 1776684370692,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "OpenAI launches biopharma-focused AI model to compete with Anthropic",
@@ -178,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/openai-launches-biopharma-focused-ai-model-to-compete-with-anthropic/"
   },
   {
-    "id": 1776676426602,
+    "id": 1776684370693,
     "type": "news",
     "company": "OpenAI",
     "headline": "Musk v. Altman Is a Battle for OpenAI’s Soul",
@@ -189,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/musk-v-altman-trial-openai-xai/"
   },
   {
-    "id": 1776676426603,
+    "id": 1776684370694,
     "type": "contract",
     "company": "SpaceX",
     "headline": "Starlink outage hit drone tests, exposing Pentagon’s growing reliance on SpaceX",
@@ -200,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/news/pentagon-congress/2026/04/16/starlink-outage-hit-drone-tests-exposing-pentagons-growing-reliance-on-spacex/"
   },
   {
-    "id": 1776676426604,
+    "id": 1776684370695,
     "type": "news",
     "company": "xAI",
     "headline": "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables Breakeven",
@@ -211,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/xai-renting-gpus-to-cursor-further-gpu-rents-enables-breakeven.html"
   },
   {
-    "id": 1776676426605,
+    "id": 1776684370696,
     "type": "ipo",
     "company": "Anthropic",
     "headline": "Anthropic Plots Major London Expansion",
