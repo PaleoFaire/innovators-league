@@ -1,5 +1,26 @@
 [
   {
+    "title": "NASA Invites Media to SpaceX’s 34th Resupply Launch to Space Station",
+    "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-34th-resupply-launch-to-space-station/",
+    "description": "Media accreditation is open for the next U.S. launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. This launch is the 34th SpaceX Commercial Resupply Services mission to the orbital laboratory for NASA and will lift off on the company’s Falcon 9 ",
+    "pubDate": "Mon, 20 Apr 2026 18:02:28 +0000",
+    "category": "SpaceX Commercial Resupply",
+    "source": "NASA Breaking News",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Vast",
+      "Axiom Space"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1h ago"
+  },
+  {
     "title": "Saildrone unveils new medium unmanned surface vessel for anti-sub warfare, ISR",
     "link": "https://breakingdefense.com/2026/04/saildrone-unveils-new-medium-unmanned-surface-vessel-for-anti-sub-warfare-isr/",
     "description": "The MUSV comes in two variants: the Spectre Silent Endurance, and the Spectre Stealth Strike. ",
@@ -18,7 +39,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "2h ago"
   },
   {
     "title": "FAA orders investigation into Blue Origin&#8217;s New Glenn mishap",
@@ -37,7 +58,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
@@ -56,7 +77,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "Rivian&#8217;s factory hit by tornado ahead of R2 launch",
@@ -75,7 +96,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "3h ago"
+    "time": "5h ago"
   },
   {
     "title": "OpenAI’s existential questions",
@@ -96,7 +117,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "19h ago"
+    "time": "21h ago"
   },
   {
     "title": "Blue Origin&#8217;s New Glenn put a customer satellite in the wrong orbit during its third launch",
@@ -117,7 +138,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
@@ -139,7 +160,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Blue Origin&#039;s rocket reuse achievement marred by upper stage failure",
@@ -158,7 +179,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "22h ago"
+    "time": "1d ago"
   },
   {
     "title": "Blue Origin Launches and Recovers Booster, Orbit of AST Space Mobile Satellite Too Low. BB7 Lost",
@@ -183,7 +204,7 @@
     "time": "1d ago"
   },
   {
-    "title": "Blue Origin successfully re-uses a New Glenn rocket for the first time ever",
+    "title": "Blue Origin successfully reuses a New Glenn rocket for the first time ever",
     "link": "https://techcrunch.com/2026/04/19/blue-origin-successfully-re-uses-a-new-glenn-rocket-for-the-first-time-ever/",
     "description": "It's a major milestone for the company's new mega-rocket system, putting it in position to challenge SpaceX's dominance of the global launch market.",
     "pubDate": "Sun, 19 Apr 2026 11:45:38 +0000",
@@ -221,7 +242,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Siemens and Humanoid test HMND 01 Alpha for logistics tasks",
@@ -400,26 +421,6 @@
     "time": "3d ago"
   },
   {
-    "title": "OpenAI launches biopharma-focused AI model to compete with Anthropic",
-    "link": "https://endpoints.news/openai-launches-biopharma-focused-ai-model-to-compete-with-anthropic/",
-    "description": "OpenAI is the latest tech giant to move into biopharma, announcing a life sciences-focused AI offering on Thursday.\r\n\r\n The San Francisco-based company announced GPT-Rosalind, effectively a version of ChatGPT tailored to the specialized work of ...",
-    "pubDate": "Thu, 16 Apr 2026 19:00:34 +0000",
-    "category": "AI",
-    "source": "Endpoints News",
-    "feedCategory": "biotech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
-    "impact": "medium",
-    "time": "3d ago"
-  },
-  {
     "title": "Musk v. Altman Is a Battle for OpenAI’s Soul",
     "link": "https://www.wired.com/story/musk-v-altman-trial-openai-xai/",
     "description": "In Musk v. Altman, a jury will soon determine whether OpenAI has strayed from its founding mission to ensure AGI benefits humanity. Here’s what to know.",
@@ -436,7 +437,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Starlink outage hit drone tests, exposing Pentagon’s growing reliance on SpaceX",
@@ -455,7 +456,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables Breakeven",
@@ -475,26 +476,6 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "Anthropic Plots Major London Expansion",
-    "link": "https://www.wired.com/story/anthropic-plots-major-london-expansion/",
-    "description": "As tensions with the US government mount, Anthropic has leased a new office with enough space to quadruple its 200-person head count in London.",
-    "pubDate": "Thu, 16 Apr 2026 13:49:35 +0000",
-    "category": "Business",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic",
-      "Palantir"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "ipo",
-    "impact": "medium",
     "time": "4d ago"
   },
   {
@@ -557,7 +538,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5d ago"
+    "time": "6d ago"
   },
   {
     "title": "Rivian partners with Tesla co-founder&#8217;s Redwood on energy storage",
