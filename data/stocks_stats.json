@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 10.62,
+      "avg_change": 9.94,
       "count": 1
     },
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 4.7,
+      "avg_change": 4.55,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 10.57,
+      "avg_change": 10.7,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 20.69,
+      "avg_change": 25.42,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -3.08,
+      "avg_change": -2.29,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 41.27,
+      "avg_change": 46.22,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 15.69,
+      "avg_change": 15.43,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 9.24,
+      "avg_change": 8.68,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.81,
+      "avg_change": 7.51,
       "count": 3
     }
   },
@@ -61,27 +61,27 @@
     [
       "IONQ",
       "IonQ",
-      54.47
+      61.63
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      42.05
+      47.24
     ],
     [
       "SMR",
       "NuScale Power",
-      27.97
+      33.98
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      27.3
+      29.78
     ],
     [
       "RKLB",
       "Rocket Lab",
-      23.75
+      26.82
     ]
   ],
   "topLosers": [
@@ -98,18 +98,18 @@
     [
       "SATL",
       "Satellogic",
-      -9.27
+      -11.06
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -22.51
+      -18.42
     ],
     [
       "LNZA",
       "LanzaTech",
-      -26.19
+      -30.01
     ]
   ],
-  "lastUpdated": "2026-04-20 13:53:17"
+  "lastUpdated": "2026-04-20 19:15:20"
 }
