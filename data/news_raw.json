@@ -1,5 +1,43 @@
 [
   {
+    "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
+    "link": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+    "description": "Amazon has made another circular AI deal: It's investing another $5 billion in Anthropic. Anthropic has agreed to spend $100 billion on AWS in return.",
+    "pubDate": "Mon, 20 Apr 2026 23:10:27 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
+    "title": "Fervo Energy unveils new power plant details in IPO filing",
+    "link": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
+    "description": "",
+    "pubDate": "Mon, 20 Apr 2026 19:00:00 -0400",
+    "category": "",
+    "source": "Canary Media",
+    "feedCategory": "energy",
+    "matchedCompany": "Fervo Energy",
+    "matchedCompanies": [
+      "Fervo Energy"
+    ],
+    "sectors": [
+      "climate"
+    ],
+    "type": "ipo",
+    "impact": "high",
+    "time": "Just now"
+  },
+  {
     "title": "A Humanoid Robot Set a Half-Marathon Record in China",
     "link": "https://www.wired.com/story/a-humanoid-robot-set-a-half-marathon-record-in-china/",
     "description": "An autonomous robot from the company Honor ran a half marathon in 50:26, beating the human record by 7 minutes.",
@@ -21,28 +59,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
-  },
-  {
-    "title": "NASA Invites Media to SpaceX’s 34th Resupply Launch to Space Station",
-    "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-34th-resupply-launch-to-space-station/",
-    "description": "Media accreditation is open for the next U.S. launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. This launch is the 34th SpaceX Commercial Resupply Services mission to the orbital laboratory for NASA and will lift off on the company’s Falcon 9 ",
-    "pubDate": "Mon, 20 Apr 2026 18:02:28 +0000",
-    "category": "SpaceX Commercial Resupply",
-    "source": "NASA Breaking News",
-    "feedCategory": "space",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX",
-      "Vast",
-      "Axiom Space"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "4h ago"
+    "time": "1h ago"
   },
   {
     "title": "Saildrone unveils new medium unmanned surface vessel for anti-sub warfare, ISR",
@@ -63,7 +80,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "6h ago"
   },
   {
     "title": "FAA orders investigation into Blue Origin&#8217;s New Glenn mishap",
@@ -82,7 +99,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "6h ago"
+    "time": "7h ago"
   },
   {
     "title": "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
@@ -101,7 +118,7 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "6h ago"
+    "time": "7h ago"
   },
   {
     "title": "Rivian&#8217;s factory hit by tornado ahead of R2 launch",
@@ -120,7 +137,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "9h ago"
+    "time": "10h ago"
   },
   {
     "title": "OpenAI’s existential questions",
@@ -165,28 +182,6 @@
     "time": "1d ago"
   },
   {
-    "title": "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
-    "link": "https://www.nextbigfuture.com/2026/04/ast-spacemobile-bb7-is-not-recoverable-per-asts.html",
-    "description": "ASTS admits the satellite is too low and cannot be saved. Based on what the orbit appears to be. 20kg of fuel they can only raise it part of the way. During the New Glenn 3 mission, BlueBird 7 was placed into a lower than planned orbit by the upper stage of the launch vehicle. ... Read more",
-    "pubDate": "Sun, 19 Apr 2026 18:23:43 +0000",
-    "category": "Energy",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "AST SpaceMobile",
-    "matchedCompanies": [
-      "AST SpaceMobile",
-      "Blue Origin",
-      "Durin"
-    ],
-    "sectors": [
-      "space",
-      "infrastructure"
-    ],
-    "type": "funding",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
     "title": "Blue Origin&#039;s rocket reuse achievement marred by upper stage failure",
     "link": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/",
     "description": "",
@@ -203,28 +198,6 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Blue Origin Launches and Recovers Booster, Orbit of AST Space Mobile Satellite Too Low. BB7 Lost",
-    "link": "https://www.nextbigfuture.com/2026/04/blue-origin-launches-and-recovers-booster-orbit-of-ast-space-mobile-satellite-is-lower-than-planned.html",
-    "description": "Blue Origin’s New Glenn NG-3 mission launched successfully this morning (April 19, 2026) from Cape Canaveral, carrying AST SpaceMobile’s BlueBird 7 (Block 2 FM2) satellite. After the launch and booster recover, the mission continued for 90 minutes or so. UPDATE &#8211; ASTS admits the satellite is t",
-    "pubDate": "Sun, 19 Apr 2026 15:47:05 +0000",
-    "category": "Space",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "Blue Origin",
-    "matchedCompanies": [
-      "Blue Origin",
-      "Cape",
-      "AST SpaceMobile"
-    ],
-    "sectors": [
-      "space",
-      "climate"
-    ],
-    "type": "ipo",
-    "impact": "medium",
     "time": "1d ago"
   },
   {
@@ -376,45 +349,6 @@
     "matchedCompany": "OpenAI",
     "matchedCompanies": [
       "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "SpaceX Starship Flight 12 in a Few Weeks Aka Early-Mid May",
-    "link": "https://www.nextbigfuture.com/2026/04/spacex-starship-flight-12-in-a-few-weeks-aka-early-mid-may.html",
-    "description": "Starship V3 booster &#038; ship will be ready for their first test flight in a few weeks (aka Early to mid May) . Both Starship and the Super Heavy Booster have successfully completed the static fire tests and are ready to take to the skies. Starship V3 booster &#38; ship will be ready for their ...",
-    "pubDate": "Thu, 16 Apr 2026 19:31:13 +0000",
-    "category": "Energy",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "SpaceX",
-    "matchedCompanies": [
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
-    "time": "4d ago"
-  },
-  {
-    "title": "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables Breakeven",
-    "link": "https://www.nextbigfuture.com/2026/04/xai-renting-gpus-to-cursor-further-gpu-rents-enables-breakeven.html",
-    "description": "It is being reported that xAI will rent tens of thousands of GPUS to AI coding company Cursor. It is about $2.5-18 per hour for GPU rentals. For 10,000 GPUs it would be $15-40 million of rent. For 50,000 GPUs it would be $75 million to $200 million per month. If XAI was renting half ... Read more",
-    "pubDate": "Thu, 16 Apr 2026 16:36:08 +0000",
-    "category": "Artificial intelligence",
-    "source": "Next Big Future",
-    "feedCategory": "tech",
-    "matchedCompany": "xAI",
-    "matchedCompanies": [
-      "xAI",
-      "Anysphere"
     ],
     "sectors": [
       "ai"
