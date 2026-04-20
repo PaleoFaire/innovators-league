@@ -1,5 +1,29 @@
 [
   {
+    "title": "A Humanoid Robot Set a Half-Marathon Record in China",
+    "link": "https://www.wired.com/story/a-humanoid-robot-set-a-half-marathon-record-in-china/",
+    "description": "An autonomous robot from the company Honor ran a half marathon in 50:26, beating the human record by 7 minutes.",
+    "pubDate": "Mon, 20 Apr 2026 22:33:27 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Humanoid",
+    "matchedCompanies": [
+      "Humanoid",
+      "Agility Robotics",
+      "Apptronik",
+      "1X Technologies",
+      "Mara"
+    ],
+    "sectors": [
+      "robotics",
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
     "title": "NASA Invites Media to SpaceX’s 34th Resupply Launch to Space Station",
     "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-34th-resupply-launch-to-space-station/",
     "description": "Media accreditation is open for the next U.S. launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. This launch is the 34th SpaceX Commercial Resupply Services mission to the orbital laboratory for NASA and will lift off on the company’s Falcon 9 ",
@@ -18,7 +42,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3h ago"
+    "time": "4h ago"
   },
   {
     "title": "Saildrone unveils new medium unmanned surface vessel for anti-sub warfare, ISR",
@@ -39,7 +63,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "4h ago"
+    "time": "5h ago"
   },
   {
     "title": "FAA orders investigation into Blue Origin&#8217;s New Glenn mishap",
@@ -58,7 +82,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "5h ago"
+    "time": "6h ago"
   },
   {
     "title": "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
@@ -77,12 +101,12 @@
     ],
     "type": "contract",
     "impact": "low",
-    "time": "5h ago"
+    "time": "6h ago"
   },
   {
     "title": "Rivian&#8217;s factory hit by tornado ahead of R2 launch",
     "link": "https://techcrunch.com/2026/04/20/rivians-factory-hit-by-tornado-ahead-of-r2-launch/",
-    "description": "Nobody was hurt after an EF-1 tornado hit the part of the factory where the R2 SUV is supposed to be built.",
+    "description": "The tornado hit a newer part of the factory, primarily used for R2 logistics such as deliveries of parts. Rivian has paused operations in the building and expects to start back up sometime this week.",
     "pubDate": "Mon, 20 Apr 2026 13:47:51 +0000",
     "category": "Transportation",
     "source": "TechCrunch",
@@ -96,7 +120,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "8h ago"
+    "time": "9h ago"
   },
   {
     "title": "OpenAI’s existential questions",
@@ -201,26 +225,6 @@
     ],
     "type": "ipo",
     "impact": "medium",
-    "time": "1d ago"
-  },
-  {
-    "title": "Blue Origin successfully reuses a New Glenn rocket for the first time ever",
-    "link": "https://techcrunch.com/2026/04/19/blue-origin-successfully-re-uses-a-new-glenn-rocket-for-the-first-time-ever/",
-    "description": "It's a major milestone for the company's new mega-rocket system, putting it in position to challenge SpaceX's dominance of the global launch market.",
-    "pubDate": "Sun, 19 Apr 2026 11:45:38 +0000",
-    "category": "Space",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Blue Origin",
-    "matchedCompanies": [
-      "Blue Origin",
-      "SpaceX"
-    ],
-    "sectors": [
-      "space"
-    ],
-    "type": "ipo",
-    "impact": "low",
     "time": "1d ago"
   },
   {
@@ -359,7 +363,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "OpenAI starts offering a biology-tuned LLM",
