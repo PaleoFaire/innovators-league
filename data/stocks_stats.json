@@ -11,13 +11,13 @@
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 5.31,
+      "avg_change": 5.03,
       "count": 7
     },
     "autonomous": {
       "gainers": 7,
       "losers": 0,
-      "avg_change": 14.01,
+      "avg_change": 14.09,
       "count": 7
     },
     "nuclear": {
@@ -93,7 +93,7 @@
     [
       "9348.T",
       "ispace",
-      -0.8
+      -2.75
     ],
     [
       "SATL",
@@ -111,5 +111,5 @@
       -16.87
     ]
   ],
-  "lastUpdated": "2026-04-19 18:58:42"
+  "lastUpdated": "2026-04-20 03:23:05"
 }
