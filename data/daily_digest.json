@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T11:26:19.271517+00:00",
+  "generatedAt": "2026-04-20T14:05:53.138818+00:00",
   "date": "2026-04-20",
   "dateDisplay": "Monday, April 20, 2026",
   "sections": {
@@ -8,58 +8,58 @@
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 46.09,
-        "changePercent": 60.09,
-        "change": 17.3
+        "price": 45.97,
+        "changePercent": 54.47,
+        "change": 16.21
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 21.69,
-        "changePercent": 52.21,
-        "change": 7.44
+        "price": 20.81,
+        "changePercent": 42.05,
+        "change": 6.16
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 12.65,
-        "changePercent": 37.35,
-        "change": 3.44
+        "price": 12.26,
+        "changePercent": 27.97,
+        "change": 2.68
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 19.81,
-        "changePercent": 34.95,
-        "change": 5.13
+        "price": 19.26,
+        "changePercent": 27.3,
+        "change": 4.13
       },
       {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 66.81,
-        "changePercent": 32.96,
-        "change": 16.56
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 25.11,
+        "changePercent": -26.19,
+        "change": -8.91
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 87.39,
+        "changePercent": 23.75,
+        "change": 16.77
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 55.87,
-        "changePercent": 30.11,
-        "change": 12.93
+        "price": 56.66,
+        "changePercent": 23.23,
+        "change": 10.68
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 2.99,
-        "changePercent": 27.78,
-        "change": 0.65
-      },
-      {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 5.27,
-        "changePercent": 26.99,
-        "change": 1.12
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 76.69,
+        "changePercent": -22.51,
+        "change": -22.28
       }
     ],
     "regulatory": [],
@@ -70,6 +70,6 @@
     "moverCount": 8,
     "regCount": 0,
     "patentCount": 0,
-    "topMover": "IONQ +60.1%"
+    "topMover": "IONQ +54.5%"
   }
 }
