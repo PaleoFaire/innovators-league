@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-19 07:25:52 UTC
+// Last updated: 2026-04-20 08:16:54 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "4", date: "2026-04-17", description: "xslF345X06/wk-form4_1776470782.xml", isIPO: false, ticker: "PLTR" },
   { company: "NuScale Power", form: "4", date: "2026-04-17", description: "xslF345X06/wk-form4_1776457917.xml", isIPO: false, ticker: "SMR" },

@@ -4,9 +4,9 @@
     "momentum": 62,
     "trend": "accelerating",
     "catalysts": [
+      "OpenAI\u2019s existential questions",
       "AI chip startup Cerebras files for IPO",
-      "Anthropic\u2019s relationship with the Trump administration seems",
-      "Kevin Weil and Bill Peebles exit OpenAI as company continues"
+      "Anthropic\u2019s relationship with the Trump administration seems"
     ],
     "fundingQ": "$1189.2B",
     "components": {
@@ -15,7 +15,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Defense & Security",
@@ -33,7 +33,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Nuclear Energy",
@@ -50,7 +50,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Drones & Autonomous",
@@ -68,7 +68,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -84,7 +84,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Ocean & Maritime",
@@ -100,29 +100,47 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 34,
+    "momentum": 38,
     "trend": "rising",
     "catalysts": [
-      "Anthropic launches Claude Design, a new product for creating",
-      "SpaceX Starship Flight 12 in a Few Weeks Aka Early-Mid May",
-      "OpenAI launches biopharma-focused AI model to compete with A"
+      "Blue Origin&#8217;s New Glenn put a customer satellite in th",
+      "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
+      "Blue Origin&#039;s rocket reuse achievement marred by upper"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
-      "news": 45,
+      "news": 60,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
+  },
+  {
+    "sector": "Robotics & Manufacturing",
+    "momentum": 29,
+    "trend": "rising",
+    "catalysts": [
+      "AlixLabs closes \u20ac15M Series A to scale Atomic Layer Etching",
+      "Waymo Takes On London",
+      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
+    ],
+    "fundingQ": "$655M",
+    "components": {
+      "funding": 39,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 31,
+    "momentum": 29,
     "trend": "declining",
     "catalysts": [
       "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera",
@@ -132,29 +150,11 @@
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-19"
-  },
-  {
-    "sector": "Robotics & Manufacturing",
-    "momentum": 30,
-    "trend": "rising",
-    "catalysts": [
-      "Chef Robotics escaped the robot cooking graveyard and says i",
-      "AlixLabs closes \u20ac15M Series A to scale Atomic Layer Etching",
-      "Waymo Takes On London"
-    ],
-    "fundingQ": "$655M",
-    "components": {
-      "funding": 39,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -172,7 +172,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Transportation",
@@ -189,7 +189,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Climate & Energy",
@@ -207,7 +207,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Quantum Computing",
@@ -223,25 +223,43 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 15,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
+      "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
       "Kevin Weil and Bill Peebles exit OpenAI as company continues",
-      "OpenAI Executive Kevin Weil Is Leaving the Company",
-      "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera"
+      "OpenAI Executive Kevin Weil Is Leaving the Company"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 20,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
+      "Blue Origin Launches and Recovers Booster, Orbit of AST Spac",
+      "<a href=\"/biotech/openai-launches-biotech-specific-ai-model-"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-20"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -258,22 +276,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-19"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "<a href=\"/biotech/openai-launches-biotech-specific-ai-model-"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-19"
+    "lastUpdated": "2026-04-20"
   }
 ]
