@@ -1,30 +1,19 @@
 // Auto-generated news signals
-// Last updated: 2026-04-21T21:01:10.619Z
+// Last updated: 2026-04-21T21:53:43.756Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1776805270618,
+    "id": 1776808423756,
     "type": "news",
-    "company": "Matter",
-    "headline": "10 Things That Matter in AI Right Now",
-    "source": "MIT Tech Review",
+    "company": "Saildrone",
+    "headline": "Saildrone announces new USV class aimed at anti-submarine warfare",
+    "source": "Defense News",
     "time": "Just now",
     "impact": "low",
     "unread": true,
-    "link": "https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026/"
+    "link": "https://www.defensenews.com/industry/techwatch/2026/04/21/saildrone-announces-new-usv-class-aimed-at-anti-submarine-warfare/"
   },
   {
-    "id": 1776805270619,
-    "type": "news",
-    "company": "Humanoid",
-    "headline": "Humanoid data",
-    "source": "MIT Tech Review",
-    "time": "Just now",
-    "impact": "low",
-    "unread": true,
-    "link": "https://www.technologyreview.com/2026/04/21/1135656/humanoid-data-robot-training-ai-artificial-intelligence/"
-  },
-  {
-    "id": 1776805270621,
+    "id": 1776808423757,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI Beefs Up ChatGPT’s Image Generation Model",
@@ -35,40 +24,40 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-beefs-up-chatgpts-image-generation-model/"
   },
   {
-    "id": 1776805270622,
+    "id": 1776808423758,
     "type": "hire",
     "company": "Anthropic",
     "headline": "Sam Altman throws shade at Anthropic&#8217;s cyber model, Mythos: &#8216;fear-based marketing&#8217;",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/"
   },
   {
-    "id": 1776805270623,
+    "id": 1776808423759,
     "type": "news",
     "company": "Anthropic",
     "headline": "Mozilla Used Anthropic’s Mythos to Find and Fix 271 Bugs in Firefox",
     "source": "Wired",
-    "time": "2h ago",
+    "time": "3h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/mozilla-used-anthropics-mythos-to-find-271-bugs-in-firefox/"
   },
   {
-    "id": 1776805270624,
+    "id": 1776808423760,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "Anthropic and Status of AI Data Centers",
     "source": "Next Big Future",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
-    "unread": false,
+    "unread": true,
     "link": "https://www.nextbigfuture.com/2026/04/anthropic-and-status-of-ai-data-centers.html"
   },
   {
-    "id": 1776805270625,
+    "id": 1776808423761,
     "type": "news",
     "company": "Latitude",
     "headline": "AI Dungeon maker Latitude unveils Voyage, a platform for creating AI-powered RPGs",
@@ -79,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/21/voyage-is-an-ai-rpg-platform-for-creating-custom-gaming-worlds-with-ai-generated-npc-interactions/"
   },
   {
-    "id": 1776805270626,
+    "id": 1776808423762,
     "type": "ipo",
     "company": "Cover",
     "headline": "NASA to Cover Progress 95 Spacecraft Launch, Docking",
@@ -90,29 +79,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nasa.gov/news-release/nasa-to-cover-progress-95-spacecraft-launch-docking/"
   },
   {
-    "id": 1776805270627,
+    "id": 1776808423763,
     "type": "hire",
     "company": "Humanoid",
     "headline": "Foxconn to manufacture humanoid robots in Vietnam",
     "source": "TechNode Global",
-    "time": "11h ago",
+    "time": "12h ago",
     "impact": "low",
     "unread": false,
     "link": "https://technode.global/2026/04/21/foxconn-to-manufacture-humanoid-robots-in-vietnam/"
   },
   {
-    "id": 1776805270628,
+    "id": 1776808423764,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Falcon 9 Almost Only Rocket for AST Space Mobile, Amazon LEO and Space Force",
     "source": "Next Big Future",
-    "time": "14h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/04/spacex-falcon-9-almost-only-rocket-for-ast-space-mobile-amazon-leo-and-space-force.html"
   },
   {
-    "id": 1776805270629,
+    "id": 1776808423765,
     "type": "funding",
     "company": "Scale AI",
     "headline": "VisioLab raises $11M Series A to scale AI self-checkout globally",
@@ -123,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/04/21/visiolab-raises-11m-series-a-to-scale-ai-self-checkout-globally/"
   },
   {
-    "id": 1776805270630,
+    "id": 1776808423766,
     "type": "ipo",
     "company": "Fervo Energy",
     "headline": "Fervo Energy unveils new power plant details in IPO filing",
@@ -134,18 +123,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
   },
   {
-    "id": 1776805270631,
+    "id": 1776808423767,
     "type": "news",
     "company": "Humanoid",
     "headline": "A Humanoid Robot Set a Half-Marathon Record in China",
     "source": "Wired",
-    "time": "22h ago",
+    "time": "23h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/a-humanoid-robot-set-a-half-marathon-record-in-china/"
   },
   {
-    "id": 1776805270632,
+    "id": 1776808423768,
     "type": "funding",
     "company": "AST SpaceMobile",
     "headline": "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
@@ -156,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/ast-spacemobile-bb7-is-not-recoverable-per-asts.html"
   },
   {
-    "id": 1776805270633,
+    "id": 1776808423769,
     "type": "news",
     "company": "Blue Origin",
     "headline": "Blue Origin&#039;s rocket reuse achievement marred by upper stage failure",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/"
   },
   {
-    "id": 1776805270634,
+    "id": 1776808423770,
     "type": "ipo",
     "company": "Blue Origin",
     "headline": "Blue Origin Launches and Recovers Booster, Orbit of AST Space Mobile Satellite Too Low. BB7 Lost",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/blue-origin-launches-and-recovers-booster-orbit-of-ast-space-mobile-satellite-is-lower-than-planned.html"
   },
   {
-    "id": 1776805270635,
+    "id": 1776808423771,
     "type": "hire",
     "company": "Humanoid",
     "headline": "Siemens and Humanoid test HMND 01 Alpha for logistics tasks",
@@ -189,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/siemens-and-humanoid-test-hmnd0-01-alpha-logistics-tasks/"
   },
   {
-    "id": 1776805270636,
+    "id": 1776808423772,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Executive Kevin Weil Is Leaving the Company",
@@ -200,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-executive-kevin-weil-is-leaving-the-company/"
   },
   {
-    "id": 1776805270637,
+    "id": 1776808423773,
     "type": "milestone",
     "company": "Chef Robotics",
     "headline": "Chef Robotics completes 100M meal servings milestone",
@@ -211,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/chef-robotics-completes-100-million-product-servings-milestone/"
   },
   {
-    "id": 1776805270638,
+    "id": 1776808423774,
     "type": "funding",
     "company": "AlixLabs",
     "headline": "AlixLabs closes €15M Series A to scale Atomic Layer Etching technology",
@@ -220,5 +209,16 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "medium",
     "unread": false,
     "link": "https://tech.eu/2026/04/17/alixlabs-closes-eur15m-series-a-to-scale-atomic-layer-etching-technology/"
+  },
+  {
+    "id": 1776808423775,
+    "type": "news",
+    "company": "Humanoid",
+    "headline": "AGIBOT deploys semi-humanoid robots in electronics manufacturing",
+    "source": "The Robot Report",
+    "time": "4d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.therobotreport.com/agibot-deploys-semi-humanoid-robots-in-electronics-manufacturing/"
   }
 ];
