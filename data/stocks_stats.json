@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 10.21,
+      "avg_change": 8.81,
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 3.99,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 8.24,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 10.05,
+      "avg_change": 7.4,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 25.52,
+      "avg_change": 15.8,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -0.81,
+      "avg_change": -3.44,
       "count": 3
     },
     "quantum": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 46.68,
+      "avg_change": 25.72,
       "count": 3
     },
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.4,
+      "avg_change": 10.22,
       "count": 3
     },
     "transportation": {
       "gainers": 2,
       "losers": 0,
-      "avg_change": 8.89,
+      "avg_change": 7.77,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.84,
+      "avg_change": 7.19,
       "count": 3
     }
   },
@@ -61,30 +61,35 @@
     [
       "IONQ",
       "IonQ",
-      62.37
+      34.19
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      47.85
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      33.51
-    ],
-    [
-      "RGTI",
-      "Rigetti Computing",
-      29.81
+      27.4
     ],
     [
       "RKLB",
       "Rocket Lab",
-      26.68
+      25.64
+    ],
+    [
+      "SLDP",
+      "Solid Power",
+      22.57
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      22.54
     ]
   ],
   "topLosers": [
+    [
+      "SATL",
+      "Satellogic",
+      0.55
+    ],
     [
       "277810.KQ",
       "Rainbow Robotics",
@@ -96,20 +101,15 @@
       -4.69
     ],
     [
-      "SATL",
-      "Satellogic",
-      -11.26
-    ],
-    [
       "ASTS",
       "AST SpaceMobile",
-      -18.16
+      -6.1
     ],
     [
       "LNZA",
       "LanzaTech",
-      -28.01
+      -39.81
     ]
   ],
-  "lastUpdated": "2026-04-21 08:00:30"
+  "lastUpdated": "2026-04-21 13:53:38"
 }
