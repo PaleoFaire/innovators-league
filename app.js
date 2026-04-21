@@ -34,37 +34,111 @@ const STATE_NAMES = {
   'WI': 'Wisconsin', 'WY': 'Wyoming', 'DC': 'Washington D.C.'
 };
 
-// Unambiguous international codes (no US state conflict)
+// Unambiguous international codes (no US state conflict).
+// Expanded in Round 7n to cover every non-US code actually used in COMPANIES.
 const INTL_CODES = {
+  // Canada — all province variants are suffixed -CAN so they never
+  // collide with US state codes. Plain "CA" stays ambiguous (California
+  // vs Canada) and is resolved from the location string below.
+  'CA-CAN': 'Canada', 'ON-CAN': 'Canada', 'QC-CAN': 'Canada',
+  'BC-CAN': 'Canada', 'NB-CAN': 'Canada', 'AB-CAN': 'Canada',
+  'MB-CAN': 'Canada', 'SK-CAN': 'Canada', 'NS-CAN': 'Canada',
+  'NL-CAN': 'Canada', 'PE-CAN': 'Canada',
+  // Europe
   'UK': 'United Kingdom', 'GB': 'United Kingdom',
-  'FR': 'France', 'SE': 'Sweden', 'FI': 'Finland',
-  'CH': 'Switzerland', 'DK': 'Denmark', 'NO': 'Norway', 'NL': 'Netherlands',
-  'ES': 'Spain', 'IT': 'Italy', 'EE': 'Estonia', 'PL': 'Poland',
-  'JP': 'Japan', 'KR': 'South Korea',
-  'AU': 'Australia', 'SG': 'Singapore',
-  'NZ': 'New Zealand', 'ZA': 'South Africa', 'BR': 'Brazil',
-  'IE': 'Ireland', 'CA-CAN': 'Canada',
-  'PT': 'Portugal', 'CZ': 'Czech Republic'
+  'FR': 'France', 'CH': 'Switzerland', 'NL': 'Netherlands',
+  'SE': 'Sweden', 'FI': 'Finland', 'NO': 'Norway', 'DK': 'Denmark',
+  'ES': 'Spain', 'IT': 'Italy', 'PL': 'Poland', 'EE': 'Estonia',
+  'PT': 'Portugal', 'CZ': 'Czech Republic', 'AT': 'Austria',
+  'BE': 'Belgium', 'GR': 'Greece', 'BG': 'Bulgaria',
+  'LT': 'Lithuania', 'LV': 'Latvia', 'RO': 'Romania', 'HU': 'Hungary',
+  'HR': 'Croatia', 'SI': 'Slovenia', 'SK': 'Slovakia',
+  'IE': 'Ireland', 'IS': 'Iceland', 'LU': 'Luxembourg',
+  // Asia / Pacific
+  'JP': 'Japan', 'KR': 'South Korea', 'TW': 'Taiwan',
+  'SG': 'Singapore', 'AU': 'Australia', 'NZ': 'New Zealand',
+  'HK': 'Hong Kong', 'MY': 'Malaysia', 'TH': 'Thailand',
+  'PH': 'Philippines', 'VN': 'Vietnam',
+  // NOTE: 'ID' (Indonesia) deliberately omitted — conflicts with Idaho US
+  // state code. Falls through to location-string lookup which has "Indonesia".
+  // Middle East / Africa
+  'AE': 'UAE', 'SA': 'Saudi Arabia', 'TR': 'Turkey',
+  'QA': 'Qatar', 'KW': 'Kuwait', 'BH': 'Bahrain', 'OM': 'Oman',
+  'JO': 'Jordan', 'LB': 'Lebanon', 'EG': 'Egypt',
+  'ZA': 'South Africa', 'NG': 'Nigeria', 'KE': 'Kenya',
+  // NOTE: 'MA' (Morocco) deliberately omitted — conflicts with Massachusetts.
+  // Americas (non-US)
+  'BR': 'Brazil', 'MX': 'Mexico', 'CL': 'Chile',
+  // NOTE: 'CO' (Colombia) deliberately omitted — conflicts with Colorado.
+  // Former Soviet
+  'UA': 'Ukraine',
 };
 
-// Countries found in location strings — used to disambiguate shared codes
+// Location-string keywords — resolve ambiguous US state codes (CA=California
+// vs Canada, DE=Delaware vs Germany, IN=Indiana vs India, AR=Arkansas vs
+// Argentina) AND catch companies whose state field is "INT"/"International"/"".
+// Ordering matters only for the substring fallback; exact-tail matches win
+// first and are unambiguous.
 const LOCATION_COUNTRIES = {
-  'Germany': 'Germany', 'Israel': 'Israel', 'India': 'India',
-  'Argentina': 'Argentina', 'Ireland': 'Ireland'
+  // Canada / UK variants
+  'Canada': 'Canada',
+  'United Kingdom': 'United Kingdom', 'UK': 'United Kingdom',
+  'Scotland': 'United Kingdom', 'England': 'United Kingdom',
+  'Wales': 'United Kingdom', 'Northern Ireland': 'United Kingdom',
+  // Europe
+  'Germany': 'Germany', 'France': 'France', 'Switzerland': 'Switzerland',
+  'Netherlands': 'Netherlands', 'Sweden': 'Sweden', 'Finland': 'Finland',
+  'Norway': 'Norway', 'Denmark': 'Denmark', 'Spain': 'Spain', 'Italy': 'Italy',
+  'Poland': 'Poland', 'Estonia': 'Estonia', 'Portugal': 'Portugal',
+  'Czech Republic': 'Czech Republic', 'Czechia': 'Czech Republic',
+  'Austria': 'Austria', 'Belgium': 'Belgium', 'Greece': 'Greece',
+  'Bulgaria': 'Bulgaria', 'Lithuania': 'Lithuania', 'Latvia': 'Latvia',
+  'Romania': 'Romania', 'Hungary': 'Hungary', 'Croatia': 'Croatia',
+  'Slovenia': 'Slovenia', 'Slovakia': 'Slovakia',
+  'Ireland': 'Ireland', 'Iceland': 'Iceland', 'Luxembourg': 'Luxembourg',
+  // Americas
+  'Argentina': 'Argentina', 'Brazil': 'Brazil', 'Mexico': 'Mexico',
+  'Chile': 'Chile', 'Colombia': 'Colombia',
+  // Asia / Pacific
+  'India': 'India', 'Japan': 'Japan',
+  'South Korea': 'South Korea', 'Korea': 'South Korea',
+  'Taiwan': 'Taiwan', 'Singapore': 'Singapore',
+  'Australia': 'Australia', 'New Zealand': 'New Zealand',
+  'Hong Kong': 'Hong Kong', 'Malaysia': 'Malaysia', 'Thailand': 'Thailand',
+  'Philippines': 'Philippines', 'Vietnam': 'Vietnam', 'Indonesia': 'Indonesia',
+  // Middle East / Africa
+  'Israel': 'Israel', 'UAE': 'UAE', 'Abu Dhabi': 'UAE', 'Dubai': 'UAE',
+  'Saudi Arabia': 'Saudi Arabia', 'Turkey': 'Turkey',
+  'Qatar': 'Qatar', 'Kuwait': 'Kuwait', 'Bahrain': 'Bahrain', 'Oman': 'Oman',
+  'Jordan': 'Jordan', 'Lebanon': 'Lebanon', 'Egypt': 'Egypt',
+  'South Africa': 'South Africa', 'Nigeria': 'Nigeria', 'Kenya': 'Kenya',
+  'Morocco': 'Morocco',
+  // Former Soviet
+  'Ukraine': 'Ukraine',
 };
 
 function getCountry(stateCode, location) {
-  // Check unambiguous international codes first
-  if (INTL_CODES[stateCode]) return INTL_CODES[stateCode];
+  var loc = (location || '').trim();
 
-  // For ambiguous codes (DE, IL, IN, AR, GA), use the location string
-  if (location) {
-    for (const [keyword, country] of Object.entries(LOCATION_COUNTRIES)) {
-      if (location.includes(keyword)) return country;
+  // Step 1: location-string exact-segment match wins. We split on commas
+  // and check each trimmed segment against LOCATION_COUNTRIES, so
+  // "Tokyo, Japan" → "Japan" ✓ and "South Jordan, UT" → no match (neither
+  // "South Jordan" nor "UT" is a country). Single-word locations like
+  // "Singapore" are treated as a single segment. No substring matching —
+  // that was causing false positives like "Jordan" in "South Jordan".
+  if (loc) {
+    var parts = loc.split(',');
+    for (var p = 0; p < parts.length; p++) {
+      var seg = parts[p].trim();
+      if (seg && LOCATION_COUNTRIES[seg]) return LOCATION_COUNTRIES[seg];
     }
   }
 
-  // Default: US state
+  // Step 2: unambiguous state/country code
+  if (INTL_CODES[stateCode]) return INTL_CODES[stateCode];
+
+  // Step 3: default US (every US state code + any ambiguous code that
+  // didn't match a country keyword above)
   return 'United States';
 }
 
