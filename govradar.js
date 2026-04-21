@@ -584,7 +584,12 @@ function initOpportunities() {
 // ─── 4. CONTRACTOR READINESS ───
 
 function initContractorReadiness() {
-  var data = (typeof CONTRACTOR_READINESS !== 'undefined') ? CONTRACTOR_READINESS : [];
+  // Round 7m: merge curated entries with the daily-refreshed auto-scored
+  // CONTRACTOR_READINESS_AUTO (0-100 scale from govTraction + contracts).
+  var curated = (typeof CONTRACTOR_READINESS !== 'undefined') ? CONTRACTOR_READINESS : [];
+  var data = (typeof mergeAuto === 'function')
+    ? mergeAuto(curated, getAutoGlobal('CONTRACTOR_READINESS_AUTO'), function(r) { return r && r.company; })
+    : curated;
   var gridEl = document.getElementById('readiness-grid');
   if (!gridEl) return;
 
@@ -641,7 +646,10 @@ function initContractorReadiness() {
 // ─── CLEARANCE ADVANTAGE DASHBOARD ───
 
 function initClearanceAdvantage() {
-  var readinessData = (typeof CONTRACTOR_READINESS !== 'undefined') ? CONTRACTOR_READINESS : [];
+  var curatedReadiness = (typeof CONTRACTOR_READINESS !== 'undefined') ? CONTRACTOR_READINESS : [];
+  var readinessData = (typeof mergeAuto === 'function')
+    ? mergeAuto(curatedReadiness, getAutoGlobal('CONTRACTOR_READINESS_AUTO'), function(r) { return r && r.company; })
+    : curatedReadiness;
   var demandData = (typeof GOV_DEMAND_TRACKER !== 'undefined') ? GOV_DEMAND_TRACKER : [];
   var companies = (typeof COMPANIES !== 'undefined') ? COMPANIES : [];
 
@@ -864,7 +872,11 @@ function initClearanceAdvantage() {
 // ─── 5. BUDGET SIGNALS ───
 
 function initBudgetSignals() {
-  var data = (typeof BUDGET_SIGNALS !== 'undefined') ? BUDGET_SIGNALS : [];
+  // Round 7m: merge curated signals with daily sector-activity index
+  var curated = (typeof BUDGET_SIGNALS !== 'undefined') ? BUDGET_SIGNALS : [];
+  var data = (typeof mergeAuto === 'function')
+    ? mergeAuto(curated, getAutoGlobal('BUDGET_SIGNALS_AUTO'), function(b) { return b && b.category; })
+    : curated;
   var barsEl = document.getElementById('budget-bars');
   if (!barsEl) return;
 

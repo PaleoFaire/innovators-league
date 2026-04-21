@@ -2437,10 +2437,16 @@
       predictive = PREDICTIVE_SCORES.find(function(p) { return p.company === c.name; });
     }
 
-    // Contractor readiness
+    // Contractor readiness (Round 7m: fall back to auto-scored if curated missing)
     var contractor = null;
     if (typeof CONTRACTOR_READINESS !== 'undefined') {
       contractor = CONTRACTOR_READINESS.find(function(cr) { return cr.company === c.name; });
+    }
+    if (!contractor && typeof getAutoGlobal === 'function') {
+      var autoList = getAutoGlobal('CONTRACTOR_READINESS_AUTO');
+      if (Array.isArray(autoList)) {
+        contractor = autoList.find(function(cr) { return cr.company === c.name; });
+      }
     }
 
     // News signals

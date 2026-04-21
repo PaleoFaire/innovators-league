@@ -202,6 +202,72 @@ function safeInit(nameOrFn, fnOrUndef) {
   try { fn(); } catch (e) { console.error('[TIL] ' + name + ' failed:', e); }
 }
 
+// ─── ROUND 7m — CURATED + AUTO DATA MERGE ───
+//
+// Every curated array (FIELD_NOTES, MA_COMPS, BUDGET_SIGNALS, …) now has
+// a sibling AUTO global (FIELD_NOTES_AUTO, MA_COMPS_AUTO, …) populated
+// each day by the Round 7l pipeline. These helpers merge the two so
+// renderers show curated-first, then fill in with fresh auto-entries.
+//
+// mergeAuto(curated, auto, keyFn?) — array merge, curated wins on dedupe.
+// mergeAutoObj(curated, auto)      — object merge, curated keys win.
+// getAutoGlobal(name)              — safely read a global AUTO constant
+//                                    that may not be defined on a given
+//                                    page, without triggering ReferenceError.
+
+function mergeAuto(curated, auto, keyFn) {
+  if (!Array.isArray(curated)) curated = [];
+  if (!Array.isArray(auto)) auto = [];
+  if (typeof keyFn !== 'function') {
+    keyFn = function(item) {
+      if (!item) return null;
+      if (item.id !== undefined && item.id !== null) return item.id;
+      if (item.name) return item.name;
+      if (item.company) return item.company;
+      if (item.title) return item.title;
+      return JSON.stringify(item);
+    };
+  }
+  var seen = new Set();
+  var out = [];
+  for (var i = 0; i < curated.length; i++) {
+    var k = keyFn(curated[i]);
+    if (k != null) seen.add(String(k).toLowerCase());
+    out.push(curated[i]);
+  }
+  for (var j = 0; j < auto.length; j++) {
+    var k2 = keyFn(auto[j]);
+    if (k2 != null && seen.has(String(k2).toLowerCase())) continue;
+    out.push(auto[j]);
+  }
+  return out;
+}
+
+function mergeAutoObj(curated, auto) {
+  var out = {};
+  if (curated && typeof curated === 'object') {
+    for (var k in curated) if (Object.prototype.hasOwnProperty.call(curated, k)) out[k] = curated[k];
+  }
+  if (auto && typeof auto === 'object') {
+    for (var k2 in auto) {
+      if (!Object.prototype.hasOwnProperty.call(auto, k2)) continue;
+      if (Object.prototype.hasOwnProperty.call(out, k2)) continue;
+      out[k2] = auto[k2];
+    }
+  }
+  return out;
+}
+
+function getAutoGlobal(name) {
+  try {
+    var v = window[name];
+    if (v === undefined) return null;
+    return v;
+  } catch (e) {
+    return null;
+  }
+}
+
 // ─── LOCAL STORAGE ───
 
 function safeLocalStorageGet(key, fallback) {
