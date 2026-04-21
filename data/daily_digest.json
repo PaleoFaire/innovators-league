@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-04-21T12:05:28.394524+00:00",
+  "generatedAt": "2026-04-21T14:05:17.634287+00:00",
   "date": "2026-04-21",
   "dateDisplay": "Tuesday, April 21, 2026",
   "sections": {
     "govActivity": [],
     "marketMovers": [
       {
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 22.83,
+        "changePercent": -39.81,
+        "change": -15.1
+      },
+      {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 48.32,
-        "changePercent": 62.37,
-        "change": 18.56
+        "price": 47.98,
+        "changePercent": 34.19,
+        "change": 12.23
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 21.66,
-        "changePercent": 47.85,
-        "change": 7.01
-      },
-      {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 12.79,
-        "changePercent": 33.51,
-        "change": 3.21
-      },
-      {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 19.64,
-        "changePercent": 29.81,
-        "change": 4.51
-      },
-      {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 24.49,
-        "changePercent": -28.01,
-        "change": -9.53
+        "price": 21.62,
+        "changePercent": 27.4,
+        "change": 4.65
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 89.46,
-        "changePercent": 26.68,
-        "change": 18.84
+        "price": 90.74,
+        "changePercent": 25.64,
+        "change": 18.52
       },
       {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 68.13,
-        "changePercent": 26.31,
-        "change": 14.19
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 3.86,
+        "changePercent": 22.57,
+        "change": 0.71
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 12.56,
+        "changePercent": 22.54,
+        "change": 2.31
+      },
+      {
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 28.59,
+        "changePercent": 20.81,
+        "change": 4.92
       },
       {
         "ticker": "TEM",
         "company": "Tempus AI",
-        "price": 56.78,
-        "changePercent": 23.49,
-        "change": 10.8
+        "price": 57.63,
+        "changePercent": 16.35,
+        "change": 8.1
       }
     ],
     "regulatory": [],
@@ -70,6 +70,6 @@
     "moverCount": 8,
     "regCount": 0,
     "patentCount": 0,
-    "topMover": "IONQ +62.4%"
+    "topMover": "LNZA -39.8%"
   }
 }
