@@ -5580,10 +5580,84 @@ function initRequestForStartups() {
 // ═══════════════════════════════════════════════════════════════
 // INNOVATOR SCORE™ RANKINGS
 // ═══════════════════════════════════════════════════════════════
+// Weekly digest cache — loaded lazily once per page view
+let WEEKLY_DIGEST_CACHE = null;
+async function loadWeeklyDigest() {
+  if (WEEKLY_DIGEST_CACHE !== null) return WEEKLY_DIGEST_CACHE;
+  try {
+    const resp = await fetch('data/weekly_scoring_digest.json', { cache: 'no-store' });
+    if (!resp.ok) { WEEKLY_DIGEST_CACHE = false; return false; }
+    WEEKLY_DIGEST_CACHE = await resp.json();
+    return WEEKLY_DIGEST_CACHE;
+  } catch (e) {
+    WEEKLY_DIGEST_CACHE = false;
+    return false;
+  }
+}
+
+// Render "This Week's Movers" block (injected above the Frontier Index table)
+async function renderWeeklyMovers() {
+  const digest = await loadWeeklyDigest();
+  if (!digest || !digest.movers_up_top20) return;
+  const target = document.getElementById('iscore-weekly-movers');
+  if (!target) return;
+  const up = digest.movers_up_top20 || [];
+  const down = digest.movers_down_top10 || [];
+  if (up.length === 0 && down.length === 0) return;
+
+  const card = (m, direction) => {
+    const arrow = direction === 'up' ? '▲' : '▼';
+    const color = direction === 'up' ? '#22c55e' : '#ef4444';
+    const sign = direction === 'up' ? '+' : '';
+    const reasonHtml = (m.reasons || []).slice(0, 1).map(r => {
+      return `<div style="font-size:11px;color:rgba(255,255,255,0.55);margin-top:4px;line-height:1.3;">${r.replace(/[<>&"]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]))}</div>`;
+    }).join('');
+    return `
+      <div class="wkly-mover" style="padding:12px 14px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:10px;cursor:pointer;" onclick="openCompanyModal('${m.company.replace(/'/g, "\\'")}')">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;">
+          <span style="font-weight:600;font-size:13px;">${m.company}</span>
+          <span style="color:${color};font-size:13px;font-weight:600;white-space:nowrap;">
+            ${arrow} ${sign}${m.delta.toFixed(1)}
+          </span>
+        </div>
+        <div style="display:flex;gap:6px;align-items:baseline;margin-top:2px;">
+          <span style="font-size:11px;color:var(--text-secondary);">${m.old_composite.toFixed(1)}</span>
+          <span style="font-size:10px;color:var(--text-muted);">→</span>
+          <span style="font-size:13px;font-weight:600;color:${color};">${m.new_composite.toFixed(1)}</span>
+          <span style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin-left:6px;">${m.new_tier}</span>
+        </div>
+        ${reasonHtml}
+      </div>
+    `;
+  };
+
+  target.innerHTML = `
+    <div style="margin:16px 0 28px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+        <h3 style="margin:0;font-size:16px;letter-spacing:0.5px;">📊 THIS WEEK'S MOVERS</h3>
+        <span style="font-size:11px;color:var(--text-muted);">Week ending ${digest.week_ending} · ${digest.events_processed} events processed</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;">
+        ${up.slice(0, 8).map(m => card(m, 'up')).join('')}
+        ${down.slice(0, 4).map(m => card(m, 'down')).join('')}
+      </div>
+    </div>
+  `;
+}
+
 function initInnovatorScores() {
   if (typeof INNOVATOR_SCORES === 'undefined') return;
   const grid = document.getElementById('iscore-grid');
   if (!grid) return;
+
+  // Ensure a mount point exists for weekly movers panel (inserted once, above grid)
+  if (!document.getElementById('iscore-weekly-movers')) {
+    const mount = document.createElement('div');
+    mount.id = 'iscore-weekly-movers';
+    grid.parentNode.insertBefore(mount, grid);
+    // Fetch and render asynchronously
+    renderWeeklyMovers();
+  }
 
   // Recalculate composites (Frontier Index™ v3.0 — published methodology)
   // Capital Momentum 25% · Gov Traction 25% · Tech Moat 20% · Operator DNA 15% · Strategic Alignment 15%
