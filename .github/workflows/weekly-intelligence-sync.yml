@@ -30,6 +30,48 @@ jobs:
         run: python scripts/sync_weekly_metrics.py
         continue-on-error: false
 
+      # Round 7l — Proprietary metrics refresh
+      # Each script is independent and produces a data/*_auto.json file.
+      # emit_round7l_auto_js.py then wraps each as a browser-ready data/*_auto.js.
+      - name: Pull Substack field notes
+        run: python scripts/fetch_substack_posts.py
+        continue-on-error: true
+
+      - name: Calc Budget Signals (sector activity index)
+        run: python scripts/calc_budget_signals.py
+        continue-on-error: true
+
+      - name: Calc Fund Intelligence (platform stats + top funds)
+        run: python scripts/calc_fund_intelligence.py
+        continue-on-error: true
+
+      - name: Calc M&A comps (news + press + SEC 8-K)
+        run: python scripts/calc_ma_comps.py
+        continue-on-error: true
+
+      - name: Calc Founder Mafias (prior-employer clusters)
+        run: python scripts/calc_founder_mafias.py
+        continue-on-error: true
+
+      - name: Calc Network Graph (competitor + thesis + alumni edges)
+        run: python scripts/calc_network_graph.py
+        continue-on-error: true
+
+      - name: Calc Contractor Readiness (gov-contract weighted scores)
+        run: python scripts/calc_contractor_readiness.py
+        continue-on-error: true
+
+      - name: Calc Gov Demand Summary (sector aggregations)
+        run: python scripts/calc_gov_demand_summary.py
+        continue-on-error: true
+
+      - name: Calc Expert Takes (earnings + high-impact news)
+        run: python scripts/calc_expert_takes.py
+        continue-on-error: true
+
+      - name: Emit Round 7l auto.js bundles
+        run: python scripts/emit_round7l_auto_js.py
+
       - name: Regenerate weekly brief (picks up fresh Frontier movers)
         run: python scripts/generate_weekly_brief.py
         env:
@@ -71,12 +113,22 @@ jobs:
           git add data.js data/weekly_scoring_digest.json \
                   data/weekly_history.json \
                   data/weekly_brief_movers.json \
-                  data/weekly_brief.json 2>/dev/null || true
+                  data/weekly_brief.json \
+                  data/field_notes_auto.json data/field_notes_auto.js \
+                  data/budget_signals_auto.json data/budget_signals_auto.js \
+                  data/fund_intelligence_auto.json data/fund_intelligence_auto.js \
+                  data/ma_comps_auto.json data/ma_comps_auto.js \
+                  data/founder_mafias_auto.json data/founder_mafias_auto.js \
+                  data/network_graph_auto.json data/network_graph_auto.js \
+                  data/contractor_readiness_auto.json data/contractor_readiness_auto.js \
+                  data/gov_demand_summary_auto.json data/gov_demand_summary_auto.js \
+                  data/expert_takes_auto.json data/expert_takes_auto.js \
+                  2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes to commit this week."
             exit 0
           fi
-          git commit -m "📊 Weekly Intelligence Sync $(date +%Y-%m-%d) — Frontier Index refresh"
+          git commit -m "📊 Weekly Intelligence Sync $(date +%Y-%m-%d) — Frontier Index + proprietary metrics refresh"
           for attempt in 1 2 3 4 5; do
             if git push; then
               echo "Pushed on attempt $attempt"

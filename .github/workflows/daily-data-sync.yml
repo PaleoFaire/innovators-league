@@ -169,6 +169,48 @@ jobs:
         run: python scripts/clean_stale_data.py
         continue-on-error: true
 
+      # Round 7l proprietary metrics — run daily so panels stay fresh
+      # without waiting for the Sunday weekly sync. Each is independent
+      # and safe to re-run; failures don't block the rest of the pipeline.
+      - name: Fetch Substack field notes
+        run: python scripts/fetch_substack_posts.py
+        continue-on-error: true
+
+      - name: Calc Contractor Readiness
+        run: python scripts/calc_contractor_readiness.py
+        continue-on-error: true
+
+      - name: Calc Gov Demand Summary
+        run: python scripts/calc_gov_demand_summary.py
+        continue-on-error: true
+
+      - name: Calc Budget Signals
+        run: python scripts/calc_budget_signals.py
+        continue-on-error: true
+
+      - name: Calc Expert Takes
+        run: python scripts/calc_expert_takes.py
+        continue-on-error: true
+
+      - name: Calc Fund Intelligence
+        run: python scripts/calc_fund_intelligence.py
+        continue-on-error: true
+
+      - name: Calc Founder Mafias
+        run: python scripts/calc_founder_mafias.py
+        continue-on-error: true
+
+      - name: Calc Network Graph
+        run: python scripts/calc_network_graph.py
+        continue-on-error: true
+
+      - name: Calc M&A comps
+        run: python scripts/calc_ma_comps.py
+        continue-on-error: true
+
+      - name: Emit Round 7l auto.js bundles
+        run: python scripts/emit_round7l_auto_js.py
+
       - name: Merge all data into data.js
         run: python scripts/merge_data.py
 

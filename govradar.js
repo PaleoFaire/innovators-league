@@ -1804,9 +1804,83 @@ function initVodViewToggle() {
 }
 
 // ─── LIVE CONTRACT & AWARD FEED ───
+//
+// Derived at runtime from GOV_CONTRACTS (+ SBIR + news) so the feed never
+// drifts from the canonical contract totals. LIVE_AWARD_FEED was deprecated
+// and removed in Round 7l — this function now builds the same shape from the
+// single source of truth.
+function deriveLiveAwardFeed() {
+  var out = [];
+  var idCounter = 1;
+
+  // 1. Government contracts → "contract" rows
+  if (typeof GOV_CONTRACTS !== 'undefined' && GOV_CONTRACTS.length) {
+    GOV_CONTRACTS.forEach(function(c) {
+      var agencies = c.agencies || [];
+      var agencyList = agencies.slice(0, 2).join(', ');
+      out.push({
+        id: idCounter++,
+        date: c.lastUpdated || '',
+        company: c.company,
+        type: 'contract',
+        title: 'Government Contract — ' + (agencyList || 'Federal Agency'),
+        value: c.totalGovValue || '',
+        agency: agencies.join(', '),
+        detail: (c.contractCount || 0) + ' contracts across ' + agencies.length + ' agencies.'
+      });
+    });
+  }
+
+  // 2. SBIR awards → "sbir" rows (most recent first, cap 25)
+  if (typeof SBIR_AWARDS !== 'undefined' && SBIR_AWARDS.length) {
+    SBIR_AWARDS.slice(0, 25).forEach(function(a) {
+      out.push({
+        id: idCounter++,
+        date: a.awardDate || a.date || '',
+        company: a.company || a.firm || '',
+        type: 'sbir',
+        title: a.title || a.topic || 'SBIR/STTR Award',
+        value: a.amount || a.awardAmount || '',
+        agency: a.agency || 'SBIR',
+        detail: (a.phase || '') + (a.branch ? ' · ' + a.branch : '')
+      });
+    });
+  }
+
+  // 3. OTA news signals → "ota" rows (Other Transaction Authority)
+  if (typeof NEWS_FEED !== 'undefined' && NEWS_FEED.length) {
+    NEWS_FEED.forEach(function(n) {
+      var t = (n.title || '').toLowerCase();
+      if (t.indexOf('ota') >= 0 || t.indexOf('other transaction') >= 0 || t.indexOf('prototype agreement') >= 0) {
+        out.push({
+          id: idCounter++,
+          date: n.date || n.pubDate || '',
+          company: n.company || n.matchedCompany || '',
+          type: 'ota',
+          title: n.title || '',
+          value: '',
+          agency: n.agency || '',
+          detail: n.summary || ''
+        });
+      }
+    });
+  }
+
+  // Sort by date descending where possible
+  out.sort(function(a, b) {
+    return String(b.date || '').localeCompare(String(a.date || ''));
+  });
+
+  return out;
+}
 
 function initLiveAwardFeed() {
-  var data = (typeof LIVE_AWARD_FEED !== 'undefined') ? LIVE_AWARD_FEED : [];
+  // Prefer derived (live) feed; fall back to deprecated LIVE_AWARD_FEED if
+  // anything still ships it for backwards compatibility.
+  var data = deriveLiveAwardFeed();
+  if (data.length === 0 && typeof LIVE_AWARD_FEED !== 'undefined') {
+    data = LIVE_AWARD_FEED;
+  }
   var feedEl = document.getElementById('award-feed');
   var filterEl = document.getElementById('award-feed-filters');
   if (!feedEl) return;

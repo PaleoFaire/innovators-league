@@ -1,0 +1,170 @@
+[
+  {
+    "mafia": "Y Combinator",
+    "count": 7,
+    "companies": [
+      {
+        "company": "Wardstone",
+        "sector": "Space & Aerospace",
+        "totalRaised": "",
+        "valuation": ""
+      },
+      {
+        "company": "Orangewood Labs",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$5M+",
+        "valuation": ""
+      },
+      {
+        "company": "Axial Composites",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$1M+",
+        "valuation": ""
+      },
+      {
+        "company": "Nox Metals",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$5.1M",
+        "valuation": ""
+      },
+      {
+        "company": "BurnBot",
+        "sector": "Climate & Energy",
+        "totalRaised": "$25M",
+        "valuation": ""
+      },
+      {
+        "company": "Biobot Analytics",
+        "sector": "Biotech & Health",
+        "totalRaised": "$40M",
+        "valuation": ""
+      },
+      {
+        "company": "Epic Aerospace",
+        "sector": "Space & Aerospace",
+        "totalRaised": "Undisclosed (YC/Thiel)",
+        "valuation": ""
+      }
+    ],
+    "description": "7 companies with founding-team links to Y Combinator."
+  },
+  {
+    "mafia": "SpaceX Mafia",
+    "count": 4,
+    "companies": [
+      {
+        "company": "Starpath Robotics",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$14.5M+",
+        "valuation": ""
+      },
+      {
+        "company": "Freeform",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$125M+",
+        "valuation": ""
+      },
+      {
+        "company": "First Resonance",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$40.8M",
+        "valuation": ""
+      },
+      {
+        "company": "Canada Rocket Company",
+        "sector": "Space & Aerospace",
+        "totalRaised": "$14.7M",
+        "valuation": ""
+      }
+    ],
+    "description": "4 companies with founding-team links to SpaceX."
+  },
+  {
+    "mafia": "MIT CSAIL Spinouts",
+    "count": 3,
+    "companies": [
+      {
+        "company": "QuEra Computing",
+        "sector": "Quantum Computing",
+        "totalRaised": "$120M+",
+        "valuation": ""
+      },
+      {
+        "company": "Finwave Semiconductor",
+        "sector": "Chips & Semiconductors",
+        "totalRaised": "$25M+",
+        "valuation": ""
+      },
+      {
+        "company": "Liquid AI",
+        "sector": "AI & Software",
+        "totalRaised": "$287M",
+        "valuation": "$2.35B"
+      }
+    ],
+    "description": "3 companies with founding-team links to MIT CSAIL Spinouts."
+  },
+  {
+    "mafia": "OpenAI Mafia",
+    "count": 3,
+    "companies": [
+      {
+        "company": "Dust",
+        "sector": "AI & Software",
+        "totalRaised": "$70M+",
+        "valuation": ""
+      },
+      {
+        "company": "Safe Superintelligence",
+        "sector": "AI & Software",
+        "totalRaised": "$3B+",
+        "valuation": "$32B"
+      },
+      {
+        "company": "Thinking Machines Lab",
+        "sector": "AI & Software",
+        "totalRaised": "$2B",
+        "valuation": "$12B"
+      }
+    ],
+    "description": "3 companies with founding-team links to OpenAI."
+  },
+  {
+    "mafia": "Google/DeepMind",
+    "count": 2,
+    "companies": [
+      {
+        "company": "MatX",
+        "sector": "Chips & Semiconductors",
+        "totalRaised": "$130M",
+        "valuation": ""
+      },
+      {
+        "company": "Majestic Labs",
+        "sector": "Chips & Semiconductors",
+        "totalRaised": "$100M+",
+        "valuation": ""
+      }
+    ],
+    "description": "2 companies with founding-team links to Google/DeepMind."
+  },
+  {
+    "mafia": "Tesla Mafia",
+    "count": 2,
+    "companies": [
+      {
+        "company": "Slip Robotics",
+        "sector": "Robotics & Manufacturing",
+        "totalRaised": "$44M",
+        "valuation": ""
+      },
+      {
+        "company": "Heron Power",
+        "sector": "Energy & Climate",
+        "totalRaised": "$170M+",
+        "valuation": ""
+      }
+    ],
+    "description": "2 companies with founding-team links to Tesla."
+  }
+]
