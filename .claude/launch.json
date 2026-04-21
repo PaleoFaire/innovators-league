@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "static",
+      "name": "il",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "9879"],
-      "port": 9879
+      "runtimeArgs": ["-m", "http.server", "9882", "-d", "/Users/stephenmcbride/Desktop/Claude/innovators-league"],
+      "port": 9882
     }
   ]
 }

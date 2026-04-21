@@ -213,11 +213,13 @@ function renderSignalBadge(signal) {
 function getInnovatorScoreLabel(score) {
   if (!score) return { label: 'Unrated', class: 'unrated' };
   const c = score.composite || 0;
-  if (c >= 90) return { label: 'Elite', class: 'elite', icon: '👑' };
-  if (c >= 75) return { label: 'Strong', class: 'strong', icon: '🔥' };
-  if (c >= 60) return { label: 'Promising', class: 'promising', icon: '⚡' };
-  if (c >= 45) return { label: 'Developing', class: 'developing', icon: '📈' };
-  return { label: 'Early', class: 'early', icon: '🔬' };
+  if (c >= 90) return { label: 'Elite',       class: 'elite',       icon: '👑' };
+  if (c >= 80) return { label: 'Exceptional', class: 'exceptional', icon: '🔥' };
+  if (c >= 70) return { label: 'Leader',      class: 'leader',      icon: '⭐' };
+  if (c >= 60) return { label: 'Strong',      class: 'strong',      icon: '⚡' };
+  if (c >= 50) return { label: 'Promising',   class: 'promising',   icon: '📈' };
+  if (c >= 40) return { label: 'Emerging',    class: 'emerging',    icon: '🌱' };
+  return                { label: 'Early',      class: 'early',       icon: '🔬' };
 }
 
 function renderInnovatorScoreBadge(companyName) {
@@ -5583,11 +5585,20 @@ function initInnovatorScores() {
   const grid = document.getElementById('iscore-grid');
   if (!grid) return;
 
-  // Recalculate composites and sort
+  // Recalculate composites (Frontier Index™ v3.0 — published methodology)
+  // Capital Momentum 25% · Gov Traction 25% · Tech Moat 20% · Operator DNA 15% · Strategic Alignment 15%
+  // Capital Efficiency is shown as an auxiliary dim but not weighted in composite.
   INNOVATOR_SCORES.forEach(s => {
-    s.composite = s.techMoat * 2.5 + s.momentum * 2.5 + s.teamPedigree * 1.5 +
-                  s.marketGravity * 1.5 + s.capitalEfficiency * 1.0 + s.govTraction * 1.0;
-    s.tier = s.composite >= 90 ? 'elite' : s.composite >= 75 ? 'strong' : s.composite >= 60 ? 'promising' : 'early';
+    s.composite = s.momentum * 2.5 + s.govTraction * 2.5 + s.techMoat * 2.0 +
+                  s.teamPedigree * 1.5 + s.marketGravity * 1.5;
+    s.composite = Math.round(s.composite * 10) / 10;
+    s.tier = s.composite >= 90 ? 'elite'
+           : s.composite >= 80 ? 'exceptional'
+           : s.composite >= 70 ? 'leader'
+           : s.composite >= 60 ? 'strong'
+           : s.composite >= 50 ? 'promising'
+           : s.composite >= 40 ? 'emerging'
+           : 'early';
   });
   INNOVATOR_SCORES.sort((a, b) => b.composite - a.composite);
 
@@ -5630,8 +5641,24 @@ function initInnovatorScores() {
     const visibleScores = filtered.slice(0, iscoreShownCount);
 
     visibleScores.forEach((s, i) => {
-      const tierColors = { elite: '#22c55e', strong: '#60a5fa', promising: '#f59e0b', early: '#6b7280' };
-      const tierLabels = { elite: 'ELITE', strong: 'STRONG', promising: 'PROMISING', early: 'EARLY' };
+      const tierColors = {
+        elite:       '#22c55e',
+        exceptional: '#16a34a',
+        leader:      '#60a5fa',
+        strong:      '#3b82f6',
+        promising:   '#f59e0b',
+        emerging:    '#fb923c',
+        early:       '#6b7280',
+      };
+      const tierLabels = {
+        elite:       'ELITE',
+        exceptional: 'EXCEPTIONAL',
+        leader:      'LEADER',
+        strong:      'STRONG',
+        promising:   'PROMISING',
+        emerging:    'EMERGING',
+        early:       'EARLY',
+      };
       const tc = tierColors[s.tier];
       const row = document.createElement('div');
       row.className = 'iscore-row';
