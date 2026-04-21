@@ -559,6 +559,10 @@ jobs:
     if: always()
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history so `git pull --rebase` works when other workflows
+          # have pushed multiple commits ahead of us mid-run.
+          fetch-depth: 0
 
       - name: Download all artifacts
         uses: actions/download-artifact@v4
@@ -623,20 +627,37 @@ jobs:
 
       - name: Commit and push (retry on conflict)
         run: |
-          git add data/
-          if git diff --staged --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-          git commit -m "🤖 Auto-update: Comprehensive data sync $(date +%Y-%m-%d)"
+          # Bug-fix (2026-04-21): previously this step did `git add data/`
+          # which misses data.js at the repo root — leaving it unstaged so
+          # the pull-rebase aborted on "local changes would be overwritten".
+          # Also the retry loop's `|| true` silently hid rebase conflicts,
+          # leaving the repo stuck mid-rebase. Rewritten to stash-rebase-pop
+          # each attempt, so parallel pushes from other workflows never wedge us.
           for attempt in 1 2 3 4 5; do
+            # Stash any local edits (merge_data wrote data.js + data/*)
+            git stash --include-untracked 2>/dev/null || true
+            # Rebase cleanly onto latest origin/main
+            git pull --rebase origin main || {
+              echo "Rebase failed on attempt $attempt; aborting rebase"
+              git rebase --abort 2>/dev/null || true
+            }
+            # Re-apply stashed edits (may need manual merge on data.js —
+            # stash pop errors are non-fatal because we'll re-run merge if so)
+            git stash pop 2>/dev/null || true
+            # Stage everything merge_data.py could have touched
+            git add data.js data/ 2>/dev/null || true
+            if git diff --staged --quiet; then
+              echo "No changes to commit on attempt $attempt."
+              exit 0
+            fi
+            git commit -m "🤖 Auto-update: Comprehensive data sync $(date +%Y-%m-%d)"
             if git push; then
               echo "Pushed on attempt $attempt"
               exit 0
             fi
-            echo "Push rejected on attempt $attempt; rebasing..."
-            git pull --rebase origin main || true
-            sleep $((attempt * 3))
+            echo "Push rejected on attempt $attempt; soft-resetting commit and retrying"
+            git reset --soft HEAD~1
+            sleep $((attempt * 5))
           done
           echo "::error::Failed to push comprehensive data after 5 attempts"
           exit 1

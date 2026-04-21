@@ -103,6 +103,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Full history so `git pull --rebase` works when other workflows
+          # have pushed commits ahead of us during our run.
+          fetch-depth: 0
 
       - name: Download SEC data
         uses: actions/download-artifact@v4
@@ -219,12 +223,35 @@ jobs:
           git config user.name "TIL Data Bot"
           git config user.email "bot@innovatorsleague.com"
 
-      - name: Commit and push changes
+      - name: Commit and push changes (retry on conflict)
         run: |
-          git add data.js data/
-          git diff --staged --quiet || git commit -m "🤖 Auto-update: Daily data sync $(date +%Y-%m-%d)"
-          git pull --rebase origin main || true
-          git push
+          # Same robust pattern as comprehensive-data-sync: stash local
+          # edits, rebase onto remote, pop stash, stage, commit, push.
+          # On push failure, soft-reset and retry. Survives parallel commits
+          # from other scheduled workflows without ever getting stuck mid-rebase.
+          for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || {
+              echo "Rebase failed on attempt $attempt; aborting"
+              git rebase --abort 2>/dev/null || true
+            }
+            git stash pop 2>/dev/null || true
+            git add data.js data/ 2>/dev/null || true
+            if git diff --staged --quiet; then
+              echo "No changes to commit on attempt $attempt."
+              exit 0
+            fi
+            git commit -m "🤖 Auto-update: Daily data sync $(date +%Y-%m-%d)"
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; soft-resetting and retrying"
+            git reset --soft HEAD~1
+            sleep $((attempt * 5))
+          done
+          echo "::error::Failed to push daily data sync after 5 attempts"
+          exit 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
