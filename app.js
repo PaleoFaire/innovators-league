@@ -3591,11 +3591,12 @@ function renderCompanies(companies) {
           companyShownCount = COMPANY_INITIAL_COUNT;
           grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
-        // Re-render using cached list reference so we don't reset the state
-        const cached = lastRenderedCompanies;
-        lastRenderedCompanies = null;
-        renderCompanies(cached);
-        lastRenderedCompanies = cached;
+        // Re-render with the same array reference — the guard inside
+        // renderCompanies() compares by identity, so passing the cached
+        // array preserves the new companyShownCount. (Previously this
+        // code nulled out lastRenderedCompanies before the call, which
+        // tripped the guard and reset the count back to 30 every click.)
+        renderCompanies(lastRenderedCompanies);
       });
     }
   }
