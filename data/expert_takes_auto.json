@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-04-21T07:03:43.049441Z",
+  "generated_at": "2026-04-21T08:00:48.168787Z",
   "takes": [
+    {
+      "author": "Tech.eu",
+      "role": "Industry signal",
+      "company": "Scale AI",
+      "text": "VisioLab raises $11M Series A to scale AI self-checkout globally",
+      "date": "Tue, 21 Ap",
+      "source": "news",
+      "source_url": "https://tech.eu/2026/04/21/visiolab-raises-11m-series-a-to-scale-ai-self-checkout-globally/",
+      "signal_type": "funding"
+    },
     {
       "author": "TechCrunch",
       "role": "Industry signal",
@@ -25,7 +35,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 2,
+    "from_news": 3,
     "from_press": 0
   }
 }

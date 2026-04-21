@@ -497,6 +497,15 @@
   {
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
+    "form": "8-K",
+    "date": "2026-04-20",
+    "description": "form8-k.htm",
+    "accessionNumber": "0001493152-26-018012",
+    "isIPO": false
+  },
+  {
+    "company": "AST SpaceMobile",
+    "ticker": "ASTS",
     "form": "4",
     "date": "2026-04-16",
     "description": "xslF345X06/ownership.xml",
@@ -753,15 +762,6 @@
     "date": "2025-12-03",
     "description": "xslF345X05/ownership.xml",
     "accessionNumber": "0001493152-25-026053",
-    "isIPO": false
-  },
-  {
-    "company": "AST SpaceMobile",
-    "ticker": "ASTS",
-    "form": "4",
-    "date": "2025-12-03",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001493152-25-026050",
     "isIPO": false
   },
   {
@@ -2079,15 +2079,6 @@
     "isIPO": false
   },
   {
-    "company": "Momentus",
-    "ticker": "MNTS",
-    "form": "8-K",
-    "date": "2025-06-09",
-    "description": "tm2517510d1_8k.htm",
-    "accessionNumber": "0001104659-25-057807",
-    "isIPO": false
-  },
-  {
     "company": "Virgin Orbit",
     "ticker": "VORB",
     "form": "8-K",
@@ -2292,6 +2283,15 @@
     "date": "2023-02-28",
     "description": "xslF345X03/wf-form4_167762314087910.xml",
     "accessionNumber": "0001843388-23-000010",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-04-20",
+    "description": "spce-20260420.htm",
+    "accessionNumber": "0001706946-26-000032",
     "isIPO": false
   },
   {
@@ -2619,15 +2619,6 @@
     "isIPO": false
   },
   {
-    "company": "Virgin Galactic",
-    "ticker": "SPCE",
-    "form": "4",
-    "date": "2025-07-01",
-    "description": "xslF345X05/wk-form4_1751401164.xml",
-    "accessionNumber": "0001706946-25-000108",
-    "isIPO": false
-  },
-  {
     "company": "NuScale Power",
     "ticker": "SMR",
     "form": "4",
@@ -2873,6 +2864,33 @@
   {
     "company": "Oklo",
     "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-04-20",
+    "description": "xslF345X06/wk-form4_1776721392.xml",
+    "accessionNumber": "0001849056-26-000018",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-04-20",
+    "description": "xslF345X06/wk-form4_1776721329.xml",
+    "accessionNumber": "0001849056-26-000016",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
+    "form": "4",
+    "date": "2026-04-20",
+    "description": "xslF345X06/wk-form4_1776721224.xml",
+    "accessionNumber": "0001849056-26-000014",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
     "form": "8-K",
     "date": "2026-04-14",
     "description": "oklo-20260410.htm",
@@ -3105,39 +3123,12 @@
     "isIPO": false
   },
   {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-01-13",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001193125-26-011966",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-01-13",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001193125-26-011965",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-01-09",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001193125-26-009196",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-01-09",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001193125-26-009194",
+    "company": "Centrus Energy",
+    "ticker": "LEU",
+    "form": "8-K",
+    "date": "2026-04-20",
+    "description": "leu-20260416.htm",
+    "accessionNumber": "0001628280-26-025916",
     "isIPO": false
   },
   {
@@ -3399,15 +3390,6 @@
     "date": "2025-06-24",
     "description": "xslF345X05/wk-form4_1750802434.xml",
     "accessionNumber": "0001065059-25-000043",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "4",
-    "date": "2025-06-24",
-    "description": "xslF345X05/wk-form4_1750801850.xml",
-    "accessionNumber": "0001065059-25-000041",
     "isIPO": false
   },
   {
@@ -4592,6 +4574,15 @@
   {
     "company": "IonQ",
     "ticker": "IONQ",
+    "form": "8-K",
+    "date": "2026-04-20",
+    "description": "bakkt-20260417.htm",
+    "accessionNumber": "0001628280-26-025920",
+    "isIPO": false
+  },
+  {
+    "company": "IonQ",
+    "ticker": "IONQ",
     "form": "4",
     "date": "2026-04-08",
     "description": "xslF345X06/primary_doc.xml",
@@ -4758,15 +4749,6 @@
     "date": "2025-11-18",
     "description": "xslF345X05/primary_doc.xml",
     "accessionNumber": "0002043681-25-000009",
-    "isIPO": false
-  },
-  {
-    "company": "IonQ",
-    "ticker": "IONQ",
-    "form": "4",
-    "date": "2025-11-18",
-    "description": "xslF345X05/primary_doc.xml",
-    "accessionNumber": "0001870910-25-000013",
     "isIPO": false
   },
   {
@@ -5310,15 +5292,6 @@
     "isIPO": false
   },
   {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2025-12-05",
-    "description": "xslF345X05/wk-form4_1764980462.xml",
-    "accessionNumber": "0001453942-25-000008",
-    "isIPO": false
-  },
-  {
     "company": "Recursion Pharmaceuticals",
     "ticker": "RXRX",
     "form": "4",
@@ -5592,6 +5565,15 @@
     "company": "Ginkgo Bioworks",
     "ticker": "DNA",
     "form": "4",
+    "date": "2026-04-20",
+    "description": "xslF345X06/wk-form4_1776718959.xml",
+    "accessionNumber": "0001628280-26-026038",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
+    "form": "4",
     "date": "2026-04-14",
     "description": "xslF345X06/wk-form4_1776200454.xml",
     "accessionNumber": "0001628280-26-025107",
@@ -5775,15 +5757,6 @@
     "date": "2025-08-29",
     "description": "dna-20250829.htm",
     "accessionNumber": "0001628280-25-041399",
-    "isIPO": false
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "ticker": "DNA",
-    "form": "4",
-    "date": "2025-08-26",
-    "description": "xslF345X05/wk-form4_1756238998.xml",
-    "accessionNumber": "0001977441-25-000006",
     "isIPO": false
   },
   {
@@ -7364,6 +7337,15 @@
   {
     "company": "LanzaTech",
     "ticker": "LNZA",
+    "form": "4",
+    "date": "2026-04-20",
+    "description": "xslF345X06/wk-form4_1776717403.xml",
+    "accessionNumber": "0001628280-26-026014",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
     "form": "8-K",
     "date": "2026-04-07",
     "description": "tlsi-20260401.htm",
@@ -7656,15 +7638,6 @@
     "date": "2025-08-12",
     "description": "tlsi-20250812.htm",
     "accessionNumber": "0001826667-25-000115",
-    "isIPO": false
-  },
-  {
-    "company": "LanzaTech",
-    "ticker": "LNZA",
-    "form": "8-K",
-    "date": "2025-07-24",
-    "description": "tlsi-20250724.htm",
-    "accessionNumber": "0001826667-25-000103",
     "isIPO": false
   },
   {

@@ -1,6 +1,15 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-20 08:16:54 UTC
+// Last updated: 2026-04-21 08:00:07 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "AST SpaceMobile", form: "8-K", date: "2026-04-20", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
+  { company: "Virgin Galactic", form: "8-K", date: "2026-04-20", description: "spce-20260420.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Oklo", form: "4", date: "2026-04-20", description: "xslF345X06/wk-form4_1776721392.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-04-20", description: "xslF345X06/wk-form4_1776721329.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Oklo", form: "4", date: "2026-04-20", description: "xslF345X06/wk-form4_1776721224.xml", isIPO: false, ticker: "OKLO" },
+  { company: "Centrus Energy", form: "8-K", date: "2026-04-20", description: "leu-20260416.htm", isIPO: false, ticker: "LEU" },
+  { company: "IonQ", form: "8-K", date: "2026-04-20", description: "bakkt-20260417.htm", isIPO: false, ticker: "IONQ" },
+  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-20", description: "xslF345X06/wk-form4_1776718959.xml", isIPO: false, ticker: "DNA" },
+  { company: "LanzaTech", form: "4", date: "2026-04-20", description: "xslF345X06/wk-form4_1776717403.xml", isIPO: false, ticker: "LNZA" },
   { company: "Palantir Technologies", form: "4", date: "2026-04-17", description: "xslF345X06/wk-form4_1776470782.xml", isIPO: false, ticker: "PLTR" },
   { company: "NuScale Power", form: "4", date: "2026-04-17", description: "xslF345X06/wk-form4_1776457917.xml", isIPO: false, ticker: "SMR" },
   { company: "AST SpaceMobile", form: "4", date: "2026-04-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
@@ -42,13 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "NuScale Power", form: "8-K", date: "2026-04-08", description: "smr-20260408.htm", isIPO: false, ticker: "SMR" },
   { company: "IonQ", form: "4", date: "2026-04-08", description: "xslF345X06/primary_doc.xml", isIPO: false, ticker: "IONQ" },
   { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-08", description: "xslF345X06/wk-form4_1775681908.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-08", description: "xslF345X06/wk-form4_1775681902.xml", isIPO: false, ticker: "RXRX" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-08", description: "xslF345X06/wk-form4_1775681895.xml", isIPO: false, ticker: "RXRX" },
-  { company: "BlackSky Technology", form: "8-K", date: "2026-04-07", description: "bksy-20260407.htm", isIPO: false, ticker: "BKSY" },
-  { company: "UiPath", form: "4", date: "2026-04-07", description: "xslF345X06/primarydocument.xml", isIPO: false, ticker: "PATH" },
-  { company: "Rigetti Computing", form: "8-K", date: "2026-04-07", description: "tm2611278d1_8k.htm", isIPO: false, ticker: "RGTI" },
-  { company: "Ginkgo Bioworks", form: "8-K", date: "2026-04-07", description: "dna-20260403.htm", isIPO: false, ticker: "DNA" },
-  { company: "LanzaTech", form: "8-K", date: "2026-04-07", description: "tlsi-20260401.htm", isIPO: false, ticker: "LNZA" },
-  { company: "Rocket Lab", form: "DEF 14A", date: "2026-04-06", description: "rklb-20260406.htm", isIPO: false, ticker: "RKLB" },
-  { company: "Oklo", form: "4", date: "2026-04-03", description: "xslF345X06/wk-form4_1775248597.xml", isIPO: false, ticker: "OKLO" },
 ];

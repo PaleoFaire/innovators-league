@@ -1,29 +1,11 @@
 [
   {
-    "sector": "AI & Software",
-    "momentum": 62,
-    "trend": "accelerating",
-    "catalysts": [
-      "OpenAI\u2019s existential questions",
-      "AI chip startup Cerebras files for IPO",
-      "Anthropic\u2019s relationship with the Trump administration seems"
-    ],
-    "fundingQ": "$1189.2B",
-    "components": {
-      "funding": 100,
-      "news": 70,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-20"
-  },
-  {
     "sector": "Defense & Security",
     "momentum": 59,
     "trend": "steady",
     "catalysts": [
-      "Anthropic\u2019s relationship with the Trump administration seems",
-      "Starlink outage hit drone tests, exposing Pentagon\u2019s growing",
+      "A Humanoid Robot Set a Half-Marathon Record in China",
+      "NSA spies are reportedly using Anthropic\u2019s Mythos, despite P",
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$22.3B",
@@ -33,7 +15,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
+  },
+  {
+    "sector": "AI & Software",
+    "momentum": 56,
+    "trend": "accelerating",
+    "catalysts": [
+      "VisioLab raises $11M Series A to scale AI self-checkout glob",
+      "Anthropic takes $5B from Amazon and pledges $100B in cloud s",
+      "NSA spies are reportedly using Anthropic\u2019s Mythos, despite P"
+    ],
+    "fundingQ": "$1189.2B",
+    "components": {
+      "funding": 100,
+      "news": 45,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-21"
   },
   {
     "sector": "Nuclear Energy",
@@ -50,15 +50,15 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
     "sector": "Drones & Autonomous",
     "momentum": 49,
     "trend": "steady",
     "catalysts": [
-      "Waymo Takes On London",
-      "Starlink outage hit drone tests, exposing Pentagon\u2019s growing",
+      "A Humanoid Robot Set a Half-Marathon Record in China",
+      "Saildrone unveils new medium unmanned surface vessel for ant",
       "Uber begins early test rides of Lucid Gravity robotaxis equi"
     ],
     "fundingQ": "$12.7B",
@@ -68,118 +68,118 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
-    "sector": "Supersonic & Hypersonic",
+    "sector": "Ocean & Maritime",
     "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "<a href=\"/ai-and-machine-learning/novartis-ceo-vas-narasimha"
+      "Saildrone unveils new medium unmanned surface vessel for ant"
     ],
-    "fundingQ": "$1.6B",
+    "fundingQ": "$10.8B",
     "components": {
       "funding": 100,
       "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
-    "sector": "Ocean & Maritime",
+    "sector": "Supersonic & Hypersonic",
     "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "Active ocean & maritime ecosystem"
+      "Active supersonic & hypersonic ecosystem"
     ],
-    "fundingQ": "$10.8B",
+    "fundingQ": "$1.6B",
     "components": {
       "funding": 100,
       "news": 0,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 38,
+    "momentum": 37,
     "trend": "rising",
     "catalysts": [
-      "Blue Origin&#8217;s New Glenn put a customer satellite in th",
-      "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
-      "Blue Origin&#039;s rocket reuse achievement marred by upper"
+      "SpaceX Falcon 9 Almost Only Rocket for AST Space Mobile, Ama",
+      "NASA Invites Media to SpaceX\u2019s 34th Resupply Launch to Space",
+      "FAA orders investigation into Blue Origin&#8217;s New Glenn"
     ],
     "fundingQ": "$175M",
     "components": {
       "funding": 9,
-      "news": 60,
+      "news": 55,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 29,
+    "momentum": 35,
     "trend": "rising",
     "catalysts": [
-      "AlixLabs closes \u20ac15M Series A to scale Atomic Layer Etching",
-      "Waymo Takes On London",
-      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
+      "A Humanoid Robot Set a Half-Marathon Record in China",
+      "Rivian&#8217;s factory hit by tornado ahead of R2 launch",
+      "Siemens and Humanoid test HMND 01 Alpha for logistics tasks"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 20,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 29,
+    "momentum": 27,
     "trend": "declining",
     "catalysts": [
       "Novartis' Vas Narasimhan heads to Anthropic's board; Metsera",
       "AlixLabs closes \u20ac15M Series A to scale Atomic Layer Etching",
-      "OpenAI launches biopharma-focused AI model to compete with A"
+      "<a href=\"/biotech/openai-launches-biotech-specific-ai-model-"
     ],
     "fundingQ": "$230M",
     "components": {
       "funding": 9,
-      "news": 25,
+      "news": 15,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
-    "sector": "Chips & Semiconductors",
-    "momentum": 26,
+    "sector": "Climate & Energy",
+    "momentum": 25,
     "trend": "declining",
     "catalysts": [
-      "AI chip startup Cerebras files for IPO",
-      "AlixLabs closes \u20ac15M Series A to scale Atomic Layer Etching",
-      "XAI Renting GPUs to Cursor &#8211; Further GPU Rents Enables"
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene",
+      "Fervo Energy inks big turbine deal to build more next-gen ge"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
     "sector": "Transportation",
     "momentum": 25,
     "trend": "declining",
     "catalysts": [
-      "Waymo Takes On London",
+      "Rivian&#8217;s factory hit by tornado ahead of R2 launch",
       "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
     ],
     "fundingQ": "$40M",
@@ -189,16 +189,16 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
-    "sector": "Climate & Energy",
+    "sector": "Chips & Semiconductors",
     "momentum": 24,
     "trend": "declining",
     "catalysts": [
-      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene",
-      "Fervo Energy inks big turbine deal to build more next-gen ge",
-      "Base Power to launch 100-MW home battery network for Texas u"
+      "Siemens and Humanoid test HMND 01 Alpha for logistics tasks",
+      "AlixLabs closes \u20ac15M Series A to scale Atomic Layer Etching",
+      "Self-driving scaleup Wayve raises fresh funds from AMD, Qual"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -207,7 +207,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
     "sector": "Quantum Computing",
@@ -223,25 +223,43 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
+      "FAA orders investigation into Blue Origin&#8217;s New Glenn",
       "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
-      "Kevin Weil and Bill Peebles exit OpenAI as company continues",
-      "OpenAI Executive Kevin Weil Is Leaving the Company"
+      "Siemens and Humanoid test HMND 01 Alpha for logistics tasks"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Rivian&#8217;s factory hit by tornado ahead of R2 launch",
+      "Siemens and Humanoid test HMND 01 Alpha for logistics tasks",
+      "Anthropic&#8217;s Nuclear Bomb"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-21"
   },
   {
     "sector": "Housing & Construction",
@@ -259,23 +277,6 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-20"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Anthropic&#8217;s Nuclear Bomb",
-      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-20"
+    "lastUpdated": "2026-04-21"
   }
 ]
