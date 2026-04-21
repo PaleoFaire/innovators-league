@@ -1,5 +1,65 @@
 [
   {
+    "title": "OpenAI Beefs Up ChatGPT's Image Generation Model",
+    "link": "https://www.wired.com/story/openai-beefs-up-chatgpts-image-generation-model/",
+    "description": "The ChatGPT Images 2.0 model is here. Our testing shows it's better at creating more detailed images and rendering text, but it still struggles with languages other than English.",
+    "pubDate": "Tue, 21 Apr 2026 19:00:00 +0000",
+    "category": "Gear",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Sam Altman throws shade at Anthropic&#8217;s cyber model, Mythos: &#8216;fear-based marketing&#8217;",
+    "link": "https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/",
+    "description": "The AI industry's mudslinging continues.",
+    "pubDate": "Tue, 21 Apr 2026 18:51:52 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Dust"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Mozilla Used Anthropic’s Mythos to Find and Fix 271 Bugs in Firefox",
+    "link": "https://www.wired.com/story/mozilla-used-anthropics-mythos-to-find-271-bugs-in-firefox/",
+    "description": "The Firefox team doesn’t think emerging AI capabilities will upend cybersecurity long term, but they warn that software developers are likely in for a rocky transition.",
+    "pubDate": "Tue, 21 Apr 2026 18:30:00 +0000",
+    "category": "Security",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Galvanick"
+    ],
+    "sectors": [
+      "ai",
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
     "title": "Anthropic and Status of AI Data Centers",
     "link": "https://www.nextbigfuture.com/2026/04/anthropic-and-status-of-ai-data-centers.html",
     "description": "Amazon announced an additional $5 billion investment in Anthropic immediately, plus up to $20 billion more in the future (tied to commercial milestones). This brings its total committed capital to as much as $33 billion. The announcement does not specify how much new equity/percentage this adds or t",
@@ -17,14 +77,14 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "Just now"
+    "time": "2h ago"
   },
   {
     "title": "AI Dungeon maker Latitude unveils Voyage, a platform for creating AI-powered RPGs",
     "link": "https://techcrunch.com/2026/04/21/voyage-is-an-ai-rpg-platform-for-creating-custom-gaming-worlds-with-ai-generated-npc-interactions/",
     "description": "Latitude's new AI-native platform, Voyage, aims to help gamers create their very own role-playing game.",
     "pubDate": "Tue, 21 Apr 2026 16:00:00 +0000",
-    "category": "Startups",
+    "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "Latitude",
@@ -36,7 +96,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1h ago"
+    "time": "3h ago"
   },
   {
     "title": "NASA to Cover Progress 95 Spacecraft Launch, Docking",
@@ -60,7 +120,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "Foxconn to manufacture humanoid robots in Vietnam",
@@ -82,7 +142,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "7h ago"
+    "time": "9h ago"
   },
   {
     "title": "SpaceX Falcon 9 Almost Only Rocket for AST Space Mobile, Amazon LEO and Space Force",
@@ -102,7 +162,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "10h ago"
+    "time": "13h ago"
   },
   {
     "title": "VisioLab raises $11M Series A to scale AI self-checkout globally",
@@ -121,26 +181,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "13h ago"
-  },
-  {
-    "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
-    "link": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
-    "description": "Amazon has made another circular AI deal: It's investing another $5 billion in Anthropic. Anthropic has agreed to spend $100 billion on AWS in return.",
-    "pubDate": "Mon, 20 Apr 2026 23:10:27 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "news",
-    "impact": "high",
-    "time": "18h ago"
+    "time": "15h ago"
   },
   {
     "title": "Fervo Energy unveils new power plant details in IPO filing",
@@ -159,7 +200,7 @@
     ],
     "type": "ipo",
     "impact": "high",
-    "time": "18h ago"
+    "time": "20h ago"
   },
   {
     "title": "A Humanoid Robot Set a Half-Marathon Record in China",
@@ -183,7 +224,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "20h ago"
   },
   {
     "title": "NASA Invites Media to SpaceX’s 34th Resupply Launch to Space Station",
@@ -204,7 +245,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Saildrone unveils new medium unmanned surface vessel for anti-sub warfare, ISR",
@@ -247,7 +288,7 @@
     ],
     "type": "funding",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Blue Origin&#039;s rocket reuse achievement marred by upper stage failure",
@@ -266,7 +307,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "1d ago"
+    "time": "2d ago"
   },
   {
     "title": "Blue Origin Launches and Recovers Booster, Orbit of AST Space Mobile Satellite Too Low. BB7 Lost",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-21T17:13:23.698134+00:00",
+  "generatedAt": "2026-04-21T19:24:13.605284+00:00",
   "date": "2026-04-21",
   "dateDisplay": "Tuesday, April 21, 2026",
   "sections": {
@@ -8,58 +8,58 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 22.83,
-        "changePercent": -39.81,
-        "change": -15.1
+        "price": 23.39,
+        "changePercent": -38.32,
+        "change": -14.54
       },
       {
         "ticker": "IONQ",
         "company": "IonQ",
-        "price": 47.98,
-        "changePercent": 34.19,
-        "change": 12.23
+        "price": 47.27,
+        "changePercent": 32.19,
+        "change": 11.51
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 21.62,
-        "changePercent": 27.4,
-        "change": 4.65
+        "price": 20.77,
+        "changePercent": 22.39,
+        "change": 3.8
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 90.74,
-        "changePercent": 25.64,
-        "change": 18.52
-      },
-      {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 3.86,
-        "changePercent": 22.57,
-        "change": 0.71
-      },
-      {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 12.56,
-        "changePercent": 22.54,
-        "change": 2.31
+        "price": 87.6,
+        "changePercent": 21.3,
+        "change": 15.38
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 28.59,
-        "changePercent": 20.81,
-        "change": 4.92
+        "price": 28.11,
+        "changePercent": 18.76,
+        "change": 4.44
       },
       {
-        "ticker": "TEM",
-        "company": "Tempus AI",
-        "price": 57.63,
-        "changePercent": 16.35,
-        "change": 8.1
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 11.81,
+        "changePercent": 15.22,
+        "change": 1.56
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 3.61,
+        "changePercent": 14.54,
+        "change": 0.46
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 195.26,
+        "changePercent": 14.45,
+        "change": 24.66
       }
     ],
     "regulatory": [],
@@ -70,6 +70,6 @@
     "moverCount": 8,
     "regCount": 0,
     "patentCount": 0,
-    "topMover": "LNZA -39.8%"
+    "topMover": "LNZA -38.3%"
   }
 }
