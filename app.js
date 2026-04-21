@@ -241,12 +241,28 @@ function renderInnovatorScoreDetail(companyName) {
 
   const { label, class: cls } = getInnovatorScoreLabel(score);
 
+  // Lazy-load weekly history + digest for sparkline/delta/badge (fire-and-forget)
+  if (WEEKLY_HISTORY_CACHE === null) { loadWeeklyHistory(); }
+  if (WEEKLY_DIGEST_CACHE === null) { loadWeeklyDigest(); }
+
+  const sparkline = renderSparkline(companyName, { width: 120, height: 30 });
+  const deltaBadge = renderCompositeDelta(companyName, { size: 13 });
+  const crossBadge = renderTierCrossingBadge(companyName);
+  const trendRow = sparkline ? `
+    <div style="display:flex;align-items:center;gap:10px;margin:8px 0 12px;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;">
+      <span style="font-size:10px;letter-spacing:1px;color:var(--text-muted);text-transform:uppercase;">26-week trend</span>
+      ${sparkline}
+      ${deltaBadge ? `<span style="font-size:10px;color:var(--text-muted);">this week</span>${deltaBadge}` : ''}
+    </div>
+  ` : '';
+
   return `
     <div class="innovator-score-detail">
       <div class="score-header">
         <span class="score-total ${cls}">${score.composite.toFixed(0)}</span>
-        <span class="score-label">${label}</span>
+        <span class="score-label">${label}${crossBadge}</span>
       </div>
+      ${trendRow}
       <div class="score-dimensions">
         <div class="score-dim" title="Technical moat and defensibility">
           <span class="dim-label">Tech Moat</span>
@@ -5595,6 +5611,105 @@ async function loadWeeklyDigest() {
   }
 }
 
+// ─── Per-company weekly history (sparkline source) ───
+let WEEKLY_HISTORY_CACHE = null;
+async function loadWeeklyHistory() {
+  if (WEEKLY_HISTORY_CACHE !== null) return WEEKLY_HISTORY_CACHE;
+  try {
+    const resp = await fetch('data/weekly_history.json', { cache: 'no-store' });
+    if (!resp.ok) { WEEKLY_HISTORY_CACHE = false; return false; }
+    WEEKLY_HISTORY_CACHE = await resp.json();
+    return WEEKLY_HISTORY_CACHE;
+  } catch (e) {
+    WEEKLY_HISTORY_CACHE = false;
+    return false;
+  }
+}
+
+/** Return the composite-delta for a company from last-week to this-week.
+ *  Returns null if history doesn't have 2 data points yet. */
+function getCompositeDelta(company) {
+  const h = WEEKLY_HISTORY_CACHE;
+  if (!h || !h.companies || !h.companies[company]) return null;
+  const hist = h.companies[company];
+  if (hist.length < 2) return null;
+  return hist[hist.length - 1].c - hist[hist.length - 2].c;
+}
+
+/** Return a compact SVG sparkline of a company's composite over the last
+ *  8-26 weeks. width/height are px; color auto-selects green/red. */
+function renderSparkline(company, opts = {}) {
+  const h = WEEKLY_HISTORY_CACHE;
+  if (!h || !h.companies || !h.companies[company]) return '';
+  const hist = h.companies[company];
+  if (hist.length < 2) return '';
+
+  const w = opts.width || 80;
+  const hpx = opts.height || 22;
+  const pad = 2;
+
+  const values = hist.map(e => e.c);
+  const minV = Math.min(...values);
+  const maxV = Math.max(...values);
+  const range = (maxV - minV) || 1;
+  const dx = (w - pad * 2) / Math.max(1, values.length - 1);
+
+  // Build polyline
+  const pts = values.map((v, i) => {
+    const x = pad + i * dx;
+    const y = hpx - pad - ((v - minV) / range) * (hpx - pad * 2);
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(' ');
+
+  const first = values[0];
+  const last = values[values.length - 1];
+  const color = last > first ? '#22c55e' : (last < first ? '#ef4444' : '#94a3b8');
+
+  return `
+    <svg width="${w}" height="${hpx}" viewBox="0 0 ${w} ${hpx}" style="vertical-align:middle;">
+      <polyline points="${pts}" fill="none" stroke="${color}" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="${(pad + (values.length - 1) * dx).toFixed(1)}" cy="${(hpx - pad - ((last - minV) / range) * (hpx - pad * 2)).toFixed(1)}" r="2" fill="${color}"/>
+    </svg>
+  `;
+}
+
+/** Render a small delta arrow next to a composite score.  E.g. "▲ +3.5" */
+function renderCompositeDelta(company, opts = {}) {
+  const delta = getCompositeDelta(company);
+  if (delta === null || Math.abs(delta) < 0.1) return '';
+  const up = delta > 0;
+  const arrow = up ? '▲' : '▼';
+  const color = up ? '#22c55e' : '#ef4444';
+  const sign = up ? '+' : '';
+  const size = opts.size || 11;
+  return `<span style="color:${color};font-size:${size}px;font-weight:600;margin-left:4px;white-space:nowrap;" title="Week-over-week change">${arrow} ${sign}${delta.toFixed(1)}</span>`;
+}
+
+/** Is this company one of this week's first-time-elite? */
+function isFirstTimeElite(company) {
+  const d = WEEKLY_DIGEST_CACHE;
+  if (!d || !d.first_time_elite) return false;
+  return d.first_time_elite.some(c => c.company === company);
+}
+
+/** Did this company cross up a tier this week? Returns { from, to } or null. */
+function getTierCrossing(company) {
+  const d = WEEKLY_DIGEST_CACHE;
+  if (!d || !d.tier_crossings) return null;
+  const hit = d.tier_crossings.find(c => c.company === company);
+  return hit ? { from: hit.from_tier, to: hit.to_tier, firstTimeElite: hit.first_time_elite } : null;
+}
+
+/** Render tier-crossing badge — "🏆 NEW ELITE" or "↑ Upgraded to LEADER" etc. */
+function renderTierCrossingBadge(company) {
+  const cross = getTierCrossing(company);
+  if (!cross) return '';
+  if (cross.firstTimeElite) {
+    return `<span class="tier-cross-badge first-elite" style="display:inline-block;padding:2px 8px;background:linear-gradient(135deg,#fbbf24 0%,#f59e0b 100%);color:#000;border-radius:10px;font-size:10px;font-weight:700;letter-spacing:0.5px;margin-left:6px;vertical-align:middle;" title="First time reaching Elite tier this week">🏆 NEW ELITE</span>`;
+  }
+  return `<span class="tier-cross-badge tier-up" style="display:inline-block;padding:2px 8px;background:rgba(34,197,94,0.15);color:#22c55e;border-radius:10px;font-size:10px;font-weight:700;letter-spacing:0.5px;margin-left:6px;vertical-align:middle;border:1px solid rgba(34,197,94,0.3);" title="Tier upgraded this week: ${cross.from} → ${cross.to}">↑ ${cross.to.toUpperCase()}</span>`;
+}
+
 // Render "This Week's Movers" block (injected above the Frontier Index table)
 async function renderWeeklyMovers() {
   const digest = await loadWeeklyDigest();
@@ -5655,8 +5770,13 @@ function initInnovatorScores() {
     const mount = document.createElement('div');
     mount.id = 'iscore-weekly-movers';
     grid.parentNode.insertBefore(mount, grid);
-    // Fetch and render asynchronously
-    renderWeeklyMovers();
+    // Fetch and render asynchronously — also primes the history + digest cache
+    (async () => {
+      await Promise.all([loadWeeklyDigest(), loadWeeklyHistory()]);
+      renderWeeklyMovers();
+      // Re-render grid with sparklines + deltas now that history is loaded
+      if (typeof _iscoreReRender === 'function') _iscoreReRender(true);
+    })();
   }
 
   // Recalculate composites (Frontier Index™ v3.0 — published methodology)
@@ -5741,10 +5861,14 @@ function initInnovatorScores() {
 
       const rankBadge = i < 3 ? ['🥇','🥈','🥉'][i] : `#${i + 1}`;
 
+      const sparkline = renderSparkline(s.company, { width: 70, height: 20 });
+      const deltaBadge = renderCompositeDelta(s.company, { size: 11 });
+      const crossBadge = renderTierCrossingBadge(s.company);
+
       row.innerHTML = `
         <div class="iscore-rank" style="${i < 3 ? 'font-size:20px;' : ''}">${rankBadge}</div>
         <div class="iscore-info">
-          <div class="iscore-name">${s.company}</div>
+          <div class="iscore-name">${s.company}${crossBadge}</div>
           <div class="iscore-note">${s.note || ''}</div>
         </div>
         <div class="iscore-dimensions">
@@ -5755,22 +5879,10 @@ function initInnovatorScores() {
           <div class="iscore-bar" title="Efficiency: ${s.capitalEfficiency}/10"><div class="iscore-bar-fill" style="width:${s.capitalEfficiency * 10}%; background:#06b6d4;"></div></div>
           <div class="iscore-bar" title="Gov't: ${s.govTraction}/10"><div class="iscore-bar-fill" style="width:${s.govTraction * 10}%; background:#dc2626;"></div></div>
         </div>
+        <div class="iscore-sparkline" style="display:flex;align-items:center;opacity:0.8;min-width:72px;" title="Composite trend — last 26 weeks">${sparkline}</div>
         <div class="iscore-composite" style="border-color:${tc};">
           <span class="iscore-composite-value" style="color:${tc};">${s.composite.toFixed(0)}</span>
-          ${(() => {
-            if (typeof PREV_WEEK_SCORES !== 'undefined') {
-              const prev = PREV_WEEK_SCORES.find(p => p.company === s.company);
-              if (prev) {
-                const delta = (s.composite - prev.composite).toFixed(1);
-                if (Math.abs(delta) >= 0.5) {
-                  const color = delta > 0 ? '#22c55e' : '#ef4444';
-                  const arrow = delta > 0 ? '↑' : '↓';
-                  return `<span class="iscore-delta" style="color:${color};font-size:11px;font-weight:600;">${arrow}${Math.abs(delta)}</span>`;
-                }
-              }
-            }
-            return '';
-          })()}
+          ${deltaBadge}
           <span class="iscore-tier-badge" style="background:${tc}15; color:${tc}; border:1px solid ${tc}40;">${tierLabels[s.tier]}</span>
         </div>
       `;
@@ -5809,6 +5921,8 @@ function initInnovatorScores() {
   }
 
   renderScores();
+  // Expose re-render hook so async data loaders (history, digest) can refresh
+  window._iscoreReRender = renderScores;
   document.getElementById('iscore-sector')?.addEventListener('change', () => renderScores(true));
   document.getElementById('iscore-tier')?.addEventListener('change', () => renderScores(true));
 }

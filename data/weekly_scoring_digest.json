@@ -1,50 +1,28 @@
 {
-  "generated_at": "2026-04-21T04:58:45.496032+00:00",
+  "generated_at": "2026-04-21T05:24:54.083266+00:00",
   "week_ending": "2026-04-21",
   "window_days": 7,
   "events_processed": 343,
   "companies_touched": 239,
-  "companies_moved": 40,
-  "companies_unchanged": 2,
+  "companies_moved": 37,
+  "companies_unchanged": 5,
   "movers_up_top20": [
-    {
-      "company": "Impulse Space",
-      "delta": 4.0,
-      "new_composite": 86.5,
-      "old_composite": 82.5,
-      "new_tier": "exceptional",
-      "reasons": [
-        "[sbir_phase_iii] Department of Defense \u2014 IMPULSE SPACE SBIR PHASE III"
-      ]
-    },
     {
       "company": "Castelion",
       "delta": 4.0,
-      "new_composite": 81.0,
-      "old_composite": 77.0,
+      "new_composite": 85.0,
+      "old_composite": 81.0,
       "new_tier": "exceptional",
       "reasons": [
         "[sbir_phase_iii] Department of Defense \u2014 LOW-COST HIGHLY MANUFACTURABLE LONG-RANGE STRIKE WEAPON PRODUCTION SMALL BUSINES"
       ]
     },
     {
-      "company": "Applied Intuition",
-      "delta": 4.0,
-      "new_composite": 96.5,
-      "old_composite": 92.5,
-      "new_tier": "elite",
-      "reasons": [
-        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III - B52 MISSION EXECUTION TRAINER (MET)",
-        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III - TIGERSHARK UNMANNED AERIAL VEHICLES, AUXILLARY EQUIPMENT, AND C",
-        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III"
-      ]
-    },
-    {
       "company": "Muon Space",
       "delta": 4.0,
-      "new_composite": 78.5,
-      "old_composite": 74.5,
-      "new_tier": "leader",
+      "new_composite": 82.5,
+      "old_composite": 78.5,
+      "new_tier": "exceptional",
       "reasons": [
         "[sbir_phase_iii] National Aeronautics and Space Administration \u2014 STTR PHASE III CONTRACT # 80NSSC25C0471 TITLED: CONSTELLATION OF NANOSATELLITE R"
       ]
@@ -52,48 +30,28 @@
     {
       "company": "Infleqtion",
       "delta": 4.0,
-      "new_composite": 83.5,
-      "old_composite": 79.5,
+      "new_composite": 87.5,
+      "old_composite": 83.5,
       "new_tier": "exceptional",
       "reasons": [
         "[sbir_phase_iii] Department of Defense \u2014 RACK MOUNT OPTICAL CLOCKS SBIR PHASE III"
       ]
     },
     {
-      "company": "Shield AI",
-      "delta": 4.0,
-      "new_composite": 98.0,
-      "old_composite": 94.0,
-      "new_tier": "elite",
-      "reasons": [
-        "[sbir_phase_iii] Air Force \u2014 Hivemind autonomous flight for V-BAT"
-      ]
-    },
-    {
       "company": "Skydio",
       "delta": 4.0,
-      "new_composite": 86.5,
-      "old_composite": 82.5,
-      "new_tier": "exceptional",
+      "new_composite": 90.5,
+      "old_composite": 86.5,
+      "new_tier": "elite",
       "reasons": [
         "[sbir_phase_iii] Army \u2014 X10D short-range reconnaissance drone"
       ]
     },
     {
-      "company": "Saildrone",
-      "delta": 4.0,
-      "new_composite": 78.5,
-      "old_composite": 74.5,
-      "new_tier": "leader",
-      "reasons": [
-        "[sbir_phase_iii] Navy \u2014 Unmanned surface vehicle maritime domain awareness"
-      ]
-    },
-    {
       "company": "Sakana AI",
       "delta": 4.0,
-      "new_composite": 72.0,
-      "old_composite": 68.0,
+      "new_composite": 76.0,
+      "old_composite": 72.0,
       "new_tier": "leader",
       "reasons": [
         "[sbir_phase_iii] General Services Administration \u2014 IST DO32 ORIGINAL AWARD. THIS SBIR PHASE III DERIVED FROM WORK COMPLETED UNDER C",
@@ -102,21 +60,11 @@
       ]
     },
     {
-      "company": "Epirus",
-      "delta": 4.0,
-      "new_composite": 91.5,
-      "old_composite": 87.5,
-      "new_tier": "elite",
-      "reasons": [
-        "[sbir_phase_iii] Army \u2014 Leonidas counter-UAS high-power microwave directed energy"
-      ]
-    },
-    {
       "company": "Astranis",
       "delta": 4.0,
-      "new_composite": 79.5,
-      "old_composite": 75.5,
-      "new_tier": "leader",
+      "new_composite": 83.5,
+      "old_composite": 79.5,
+      "new_tier": "exceptional",
       "reasons": [
         "[sbir_phase_iii] Space Force \u2014 Small GEO satellite broadband communications"
       ]
@@ -124,8 +72,8 @@
     {
       "company": "Planet Labs",
       "delta": 4.0,
-      "new_composite": 75.0,
-      "old_composite": 71.0,
+      "new_composite": 79.0,
+      "old_composite": 75.0,
       "new_tier": "leader",
       "reasons": [
         "[sbir_phase_iii] NRO \u2014 Daily Earth-observation CubeSat imagery"
@@ -134,8 +82,8 @@
     {
       "company": "Lightmatter",
       "delta": 4.0,
-      "new_composite": 65.0,
-      "old_composite": 61.0,
+      "new_composite": 69.0,
+      "old_composite": 65.0,
       "new_tier": "strong",
       "reasons": [
         "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III THERMALLY EFFICIENT EMITTER ARRAY (TEEA)"
@@ -144,8 +92,8 @@
     {
       "company": "Varda Space Industries",
       "delta": 4.0,
-      "new_composite": 85.5,
-      "old_composite": 81.5,
+      "new_composite": 89.5,
+      "old_composite": 85.5,
       "new_tier": "exceptional",
       "reasons": [
         "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III RESEARCH&DEVELOPMENT",
@@ -155,8 +103,8 @@
     {
       "company": "Agility Robotics",
       "delta": 4.0,
-      "new_composite": 61.0,
-      "old_composite": 57.0,
+      "new_composite": 65.0,
+      "old_composite": 61.0,
       "new_tier": "strong",
       "reasons": [
         "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III RESEARCH & DEVELOPMENT",
@@ -166,8 +114,8 @@
     {
       "company": "Turion Space",
       "delta": 4.0,
-      "new_composite": 73.5,
-      "old_composite": 69.5,
+      "new_composite": 77.5,
+      "old_composite": 73.5,
       "new_tier": "leader",
       "reasons": [
         "[contract_major] Department of Defense \u2014 TURION SBIR PHASE II"
@@ -176,29 +124,19 @@
     {
       "company": "Altos Labs",
       "delta": 4.0,
-      "new_composite": 67.5,
-      "old_composite": 63.5,
-      "new_tier": "strong",
+      "new_composite": 71.5,
+      "old_composite": 67.5,
+      "new_tier": "leader",
       "reasons": [
         "[contract_major] Department of Defense \u2014 IGF::OT::IGF STTR PHASE II - BIOLOGICALLY-INSPIRED INTEGRATED VISION SYSTEM",
         "[contract_major] Department of Defense \u2014 BAA - DARPA SBIR PHASE II - NOUN: NYQUIST-LIMITED INFRARED DETECTORS (NIRD)"
       ]
     },
     {
-      "company": "Stratolaunch",
-      "delta": 4.0,
-      "new_composite": 85.0,
-      "old_composite": 81.0,
-      "new_tier": "exceptional",
-      "reasons": [
-        "[contract_major] MDA \u2014 Hypersonic test platform Talon-A"
-      ]
-    },
-    {
       "company": "Rigetti Computing",
       "delta": 4.0,
-      "new_composite": 73.0,
-      "old_composite": 69.0,
+      "new_composite": 77.0,
+      "old_composite": 73.0,
       "new_tier": "leader",
       "reasons": [
         "[contract_major] DARPA \u2014 Superconducting quantum benchmarking"
@@ -207,15 +145,211 @@
     {
       "company": "Astera Labs",
       "delta": 4.0,
-      "new_composite": 63.5,
-      "old_composite": 59.5,
+      "new_composite": 67.5,
+      "old_composite": 63.5,
       "new_tier": "strong",
       "reasons": [
         "[contract_major] Air Force \u2014 PCIe retimer chips for AI training clusters"
       ]
+    },
+    {
+      "company": "Relativity Space",
+      "delta": 4.0,
+      "new_composite": 79.0,
+      "old_composite": 75.0,
+      "new_tier": "leader",
+      "reasons": [
+        "[contract_major] Air Force \u2014 3D-printed Terran R launch vehicle structures"
+      ]
+    },
+    {
+      "company": "Form Energy",
+      "delta": 4.0,
+      "new_composite": 65.5,
+      "old_composite": 61.5,
+      "new_tier": "strong",
+      "reasons": [
+        "[contract_major] DOE \u2014 Iron-air multi-day grid storage pilot"
+      ]
+    },
+    {
+      "company": "Mythic",
+      "delta": 4.0,
+      "new_composite": 80.0,
+      "old_composite": 76.0,
+      "new_tier": "exceptional",
+      "reasons": [
+        "[contract_major] Army \u2014 Analog compute for edge AI inference"
+      ]
+    },
+    {
+      "company": "Velo3D",
+      "delta": 4.0,
+      "new_composite": 69.0,
+      "old_composite": 65.0,
+      "new_tier": "strong",
+      "reasons": [
+        "[contract_major] Air Force \u2014 Metal additive manufacturing for hypersonic components"
+      ]
+    },
+    {
+      "company": "Hermeus",
+      "delta": 4.0,
+      "new_composite": 92.5,
+      "old_composite": 88.5,
+      "new_tier": "elite",
+      "reasons": [
+        "[contract_major] Air Force \u2014 Mach 5 aircraft turbine-based combined cycle engine"
+      ]
+    },
+    {
+      "company": "IonQ",
+      "delta": 4.0,
+      "new_composite": 77.0,
+      "old_composite": 73.0,
+      "new_tier": "leader",
+      "reasons": [
+        "[contract_major] Air Force \u2014 Trapped-ion quantum computing benchmarks for cryptanalysis"
+      ]
     }
   ],
   "movers_down_top10": [],
+  "tier_crossings": [
+    {
+      "company": "Hermeus",
+      "from_tier": "exceptional",
+      "to_tier": "elite",
+      "new_composite": 92.5,
+      "reasons": [
+        "[contract_major] Air Force \u2014 Mach 5 aircraft turbine-based combined cycle engine"
+      ],
+      "first_time_elite": true
+    },
+    {
+      "company": "Skydio",
+      "from_tier": "exceptional",
+      "to_tier": "elite",
+      "new_composite": 90.5,
+      "reasons": [
+        "[sbir_phase_iii] Army \u2014 X10D short-range reconnaissance drone"
+      ],
+      "first_time_elite": true
+    },
+    {
+      "company": "Astranis",
+      "from_tier": "leader",
+      "to_tier": "exceptional",
+      "new_composite": 83.5,
+      "reasons": [
+        "[sbir_phase_iii] Space Force \u2014 Small GEO satellite broadband communications"
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "Muon Space",
+      "from_tier": "leader",
+      "to_tier": "exceptional",
+      "new_composite": 82.5,
+      "reasons": [
+        "[sbir_phase_iii] National Aeronautics and Space Administration \u2014 STTR PHASE III CONTRACT # 80NSSC25C0471 TITLED: CONSTELLATION OF NANOSATELLITE R"
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "Saildrone",
+      "from_tier": "leader",
+      "to_tier": "exceptional",
+      "new_composite": 81.0,
+      "reasons": [
+        "[sbir_phase_iii] Navy \u2014 Unmanned surface vehicle maritime domain awareness"
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "Mythic",
+      "from_tier": "leader",
+      "to_tier": "exceptional",
+      "new_composite": 80.0,
+      "reasons": [
+        "[contract_major] Army \u2014 Analog compute for edge AI inference"
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "Satellogic",
+      "from_tier": "strong",
+      "to_tier": "leader",
+      "new_composite": 70.0,
+      "reasons": [
+        "[exec_hire_star] "
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "Zipline",
+      "from_tier": "strong",
+      "to_tier": "leader",
+      "new_composite": 70.5,
+      "reasons": [
+        "[contract_minor] Department of Health and Human Services \u2014 IGF::OT::IGF TDCS TO REDUCE CRAVING IN COCAINE ADDICTION. BASE AWARD. SBIR PHASE"
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "Altos Labs",
+      "from_tier": "strong",
+      "to_tier": "leader",
+      "new_composite": 71.5,
+      "reasons": [
+        "[contract_major] Department of Defense \u2014 IGF::OT::IGF STTR PHASE II - BIOLOGICALLY-INSPIRED INTEGRATED VISION SYSTEM",
+        "[contract_major] Department of Defense \u2014 BAA - DARPA SBIR PHASE II - NOUN: NYQUIST-LIMITED INFRARED DETECTORS (NIRD)"
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "Atomic Industries",
+      "from_tier": "promising",
+      "to_tier": "strong",
+      "new_composite": 61.5,
+      "reasons": [
+        "[contract_major] Department of Defense \u2014 SBIR/STTR PHASE II R&D - MINIATURE IODINE NANOSECOND TIMEKEEPER (MINT)"
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "Xcimer Energy",
+      "from_tier": "promising",
+      "to_tier": "strong",
+      "new_composite": 60.5,
+      "reasons": [
+        "[contract_major] Department of Defense \u2014 SBIR/STTR PHASE II R&D: NONINTRUSIVE DIAGNOSIS OF DEBRIS FROM HYPERVELOCITY IMPA",
+        "[contract_major] Department of Defense \u2014 SBIR/STTR PHASE II R&D, NON-DESTRUCTIVE EVALUATION OF ADDITIVE MANUFACTURED PART"
+      ],
+      "first_time_elite": false
+    }
+  ],
+  "first_time_elite": [
+    {
+      "company": "Hermeus",
+      "from_tier": "exceptional",
+      "to_tier": "elite",
+      "new_composite": 92.5,
+      "reasons": [
+        "[contract_major] Air Force \u2014 Mach 5 aircraft turbine-based combined cycle engine"
+      ],
+      "first_time_elite": true
+    },
+    {
+      "company": "Skydio",
+      "from_tier": "exceptional",
+      "to_tier": "elite",
+      "new_composite": 90.5,
+      "reasons": [
+        "[sbir_phase_iii] Army \u2014 X10D short-range reconnaissance drone"
+      ],
+      "first_time_elite": true
+    }
+  ],
   "top_headlines": [
     {
       "company": "Muon Space",

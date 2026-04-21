@@ -613,7 +613,46 @@ def main():
     headlines.sort(key=lambda x: (x[0], -len(x[1]["detail"])))
     top_headlines = [h[1] for h in headlines[:40]]
 
-    # 5. Publish digest
+    # 5a. Update per-company weekly HISTORY (for sparklines + trend)
+    history_path = DATA / "weekly_history.json"
+    history = safe_json(history_path) or {"companies": {}, "weeks": []}
+    if WEEK_ENDING not in history["weeks"]:
+        history["weeks"].append(WEEK_ENDING)
+        history["weeks"] = history["weeks"][-26:]  # Keep last 26 weeks
+    for name, s in updated_innov.items():
+        history["companies"].setdefault(name, [])
+        # Replace entry for today if already present, else append
+        entry = {"w": WEEK_ENDING, "c": s["composite"], "t": s["tier"]}
+        hist = history["companies"][name]
+        if hist and hist[-1]["w"] == WEEK_ENDING:
+            hist[-1] = entry
+        else:
+            hist.append(entry)
+        history["companies"][name] = hist[-26:]
+    history_path.write_text(json.dumps(history, separators=(",", ":"), default=str))
+    log.info(f"Updated weekly_history.json ({len(history['companies'])} companies, "
+             f"{len(history['weeks'])} weeks)")
+
+    # 5b. Detect TIER CROSSINGS this week
+    tier_rank = {"early": 0, "emerging": 1, "promising": 2, "strong": 3,
+                 "leader": 4, "exceptional": 5, "elite": 6}
+    tier_crossings = []
+    for name, s in updated_innov.items():
+        old = innov.get(name)
+        if not old: continue
+        old_rank = tier_rank.get(old["tier"], 0)
+        new_rank = tier_rank.get(s["tier"], 0)
+        if new_rank > old_rank:
+            tier_crossings.append({
+                "company": name,
+                "from_tier": old["tier"],
+                "to_tier": s["tier"],
+                "new_composite": s["composite"],
+                "reasons": all_reasons.get(name, []),
+                "first_time_elite": (s["tier"] == "elite" and old["tier"] != "elite"),
+            })
+
+    # 5c. Publish digest
     digest = {
         "generated_at": NOW.isoformat(),
         "week_ending": WEEK_ENDING,
@@ -624,6 +663,8 @@ def main():
         "companies_unchanged": unchanged,
         "movers_up_top20": movers_up[:20],
         "movers_down_top10": movers_down[:10],
+        "tier_crossings": tier_crossings,
+        "first_time_elite": [c for c in tier_crossings if c["first_time_elite"]],
         "top_headlines": top_headlines,
         "methodology": {
             "rubric": "See EVENT_IMPACT in scripts/sync_weekly_metrics.py",
@@ -637,7 +678,31 @@ def main():
     log.info(f"\nWrote digest: {digest_path}")
     log.info(f"  Movers up:   {len(movers_up)} (top: {[m['company'] for m in movers_up[:5]]})")
     log.info(f"  Movers down: {len(movers_down)} (bottom: {[m['company'] for m in movers_down[:5]]})")
+    log.info(f"  Tier crossings: {len(tier_crossings)} (first-time-elite: "
+             f"{len([c for c in tier_crossings if c['first_time_elite']])})")
     log.info(f"  Top headlines: {len(top_headlines)}")
+
+    # 5d. Emit newsletter-friendly mover summary for weekly brief pickup
+    brief_movers = {
+        "week_ending": WEEK_ENDING,
+        "generated_at": NOW.isoformat(),
+        "lede": (
+            f"{len(movers_up)} companies moved up, "
+            f"{len([c for c in tier_crossings if c['first_time_elite']])} reached elite tier, "
+            f"{len([h for h in top_headlines if h['type'].startswith('contract')])} major contract wins"
+            if movers_up else f"Quiet week — {len(all_events)} events tracked across the Frontier Index"
+        ),
+        "top_3_up":   [f"{m['company']}: {m['old_composite']:.1f} → {m['new_composite']:.1f} "
+                       f"(+{m['delta']:.1f}) — {m['reasons'][0][:120] if m['reasons'] else '—'}"
+                       for m in movers_up[:3]],
+        "first_time_elite": [c["company"] for c in tier_crossings if c["first_time_elite"]],
+        "tier_upgrades":    [f"{c['company']}: {c['from_tier']} → {c['to_tier']}"
+                            for c in tier_crossings[:10]],
+        "notable_headlines": [f"[{h['type']}] {h['company']}: {h['detail'][:100]}"
+                             for h in top_headlines[:10]],
+    }
+    (DATA / "weekly_brief_movers.json").write_text(json.dumps(brief_movers, indent=2))
+    log.info(f"Wrote newsletter-friendly movers: data/weekly_brief_movers.json")
 
     # 6. Rewrite INNOVATOR_SCORES array in data.js
     if not movers_up and not movers_down:

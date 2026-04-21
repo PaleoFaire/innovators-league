@@ -344,6 +344,62 @@ def summarize_score_changes():
     }
 
 
+def summarize_frontier_movers():
+    """Read weekly_scoring_digest.json (Frontier Index sync output) and build a
+    section that includes mover deltas WITH REASON trails + tier crossings.
+    This is a richer version of the legacy summarize_score_changes."""
+    digest = load_json('weekly_scoring_digest.json')
+    if not digest:
+        return None
+    up = digest.get('movers_up_top20') or []
+    down = digest.get('movers_down_top10') or []
+    crossings = digest.get('tier_crossings') or []
+    first_elite = digest.get('first_time_elite') or []
+
+    if not up and not down and not crossings:
+        return None
+
+    items = []
+    for m in up[:8]:
+        reason = (m.get('reasons') or [''])[0]
+        items.append({
+            'headline': f"{m['company']}: {m['old_composite']:.1f} → {m['new_composite']:.1f} (+{m['delta']:.1f})",
+            'tier': m.get('new_tier', ''),
+            'direction': 'up',
+            'reason': reason[:180],
+        })
+    for m in down[:4]:
+        reason = (m.get('reasons') or [''])[0]
+        items.append({
+            'headline': f"{m['company']}: {m['old_composite']:.1f} → {m['new_composite']:.1f} ({m['delta']:.1f})",
+            'tier': m.get('new_tier', ''),
+            'direction': 'down',
+            'reason': reason[:180],
+        })
+    for c in crossings[:6]:
+        arrow = '🏆' if c.get('first_time_elite') else '↑'
+        items.append({
+            'headline': f"{arrow} {c['company']}: {c['from_tier']} → {c['to_tier']}",
+            'tier': c['to_tier'],
+            'direction': 'tier-up',
+            'reason': (c.get('reasons') or [''])[0][:180] if c.get('reasons') else '',
+        })
+
+    return {
+        'title': 'Frontier Index — This Week\'s Movers',
+        'icon': '\U0001f4ca',  # 📊
+        'count': len(items),
+        'items': items,
+        'lede': (
+            f"{len(up)} companies moved up, "
+            f"{len(first_elite)} reached elite tier this week, "
+            f"{len(crossings)} tier upgrades total"
+            if up else
+            f"Quiet week — {digest.get('events_processed', 0)} events tracked"
+        ),
+    }
+
+
 def save_score_snapshot():
     """Save current scores as the baseline for next week's comparison."""
     current_scores = load_json('innovator_scores_auto.json')
@@ -364,7 +420,8 @@ def build_brief():
 
     sections = []
     generators = [
-        ('Score Changes', summarize_score_changes),
+        ('Frontier Movers', summarize_frontier_movers),  # new: richer movers + tier crossings
+        ('Score Changes', summarize_score_changes),       # legacy: pure deltas
         ('Funding', summarize_deals),
         ('SEC', summarize_sec_filings),
         ('Contracts', summarize_contracts),

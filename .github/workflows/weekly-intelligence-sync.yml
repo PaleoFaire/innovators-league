@@ -30,6 +30,13 @@ jobs:
         run: python scripts/sync_weekly_metrics.py
         continue-on-error: false
 
+      - name: Regenerate weekly brief (picks up fresh Frontier movers)
+        run: python scripts/generate_weekly_brief.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          BRIEF_WEBHOOK_SECRET: ${{ secrets.BRIEF_WEBHOOK_SECRET }}
+        continue-on-error: true
+
       - name: Inspect digest
         run: |
           if [ -f data/weekly_scoring_digest.json ]; then
@@ -61,7 +68,10 @@ jobs:
 
       - name: Commit and push (retry on conflict)
         run: |
-          git add data.js data/weekly_scoring_digest.json
+          git add data.js data/weekly_scoring_digest.json \
+                  data/weekly_history.json \
+                  data/weekly_brief_movers.json \
+                  data/weekly_brief.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes to commit this week."
             exit 0
