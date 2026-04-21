@@ -425,7 +425,27 @@ def update_valuation_benchmarks(data_js_content):
 
 
 def update_innovator_scores(data_js_content):
-    """Update INNOVATOR_SCORES in data.js with auto-calculated scores."""
+    """INNOVATOR_SCORES is owned by weekly-intelligence-sync
+    (scripts/sync_weekly_metrics.py), NOT daily-data-sync.
+
+    Why: weekly sync emits insight-rich, delta-applied scores with
+    Stephen's hand-written `insight` notes. Daily merge_data would
+    overwrite those with the thin calc_innovator_scores output.
+
+    We leave innovator_scores_auto.json intact (back-compat consumers
+    may still read the json file directly), but we no longer rewrite
+    the array in data.js from it. Source of truth for INNOVATOR_SCORES
+    in data.js = sync_weekly_metrics.py every Sunday.
+    """
+    scores = load_json("innovator_scores_auto.json")
+    if scores:
+        print(f"  [merge_data] innovator_scores_auto.json has {len(scores)} rows — "
+              f"skipping data.js rewrite (owned by sync_weekly_metrics.py)")
+    return data_js_content
+
+
+def update_innovator_scores_legacy_DISABLED(data_js_content):
+    """Legacy rewrite logic — preserved for reference but not called."""
     scores = load_json("innovator_scores_auto.json")
     if not scores:
         print("No innovator scores data found, skipping...")
