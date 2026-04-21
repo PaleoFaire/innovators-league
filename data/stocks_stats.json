@@ -11,13 +11,13 @@
     "space": {
       "gainers": 4,
       "losers": 3,
-      "avg_change": 4.13,
+      "avg_change": 3.99,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 10.12,
+      "avg_change": 10.05,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 15.87,
+      "avg_change": 13.4,
       "count": 3
     },
     "transportation": {
@@ -88,12 +88,12 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -0.83
+      -0.33
     ],
     [
       "9348.T",
       "ispace",
-      -3.71
+      -4.69
     ],
     [
       "SATL",
@@ -111,5 +111,5 @@
       -28.01
     ]
   ],
-  "lastUpdated": "2026-04-21 02:55:51"
+  "lastUpdated": "2026-04-21 08:00:30"
 }
