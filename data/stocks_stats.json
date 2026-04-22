@@ -9,15 +9,15 @@
       "count": 1
     },
     "space": {
-      "gainers": 4,
-      "losers": 3,
-      "avg_change": 5.51,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 5.63,
       "count": 7
     },
     "autonomous": {
       "gainers": 6,
       "losers": 1,
-      "avg_change": 4.29,
+      "avg_change": 6.01,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.39,
+      "avg_change": 5.63,
       "count": 3
     },
     "transportation": {
@@ -79,16 +79,16 @@
       17.53
     ],
     [
-      "SMR",
-      "NuScale Power",
-      13.85
+      "IDEAFORGE.NS",
+      "ideaForge",
+      16.61
     ]
   ],
   "topLosers": [
     [
-      "9348.T",
-      "ispace",
-      -0.2
+      "ASRHF",
+      "Astroscale",
+      0.11
     ],
     [
       "SATL",
@@ -98,7 +98,7 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -3.11
+      -2.45
     ],
     [
       "ASTS",
@@ -111,5 +111,5 @@
       -37.25
     ]
   ],
-  "lastUpdated": "2026-04-22 02:54:23"
+  "lastUpdated": "2026-04-22 07:56:45"
 }
