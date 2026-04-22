@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T06:07:00.764932+00:00",
+  "generatedAt": "2026-04-22T08:03:47.693512+00:00",
   "date": "2026-04-22",
   "dateDisplay": "Wednesday, April 22, 2026",
   "sections": {
@@ -41,6 +41,13 @@
         "change": 4.15
       },
       {
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 543.5,
+        "changePercent": 16.61,
+        "change": 77.4
+      },
+      {
         "ticker": "SMR",
         "company": "NuScale Power",
         "price": 11.67,
@@ -53,13 +60,6 @@
         "price": 191.97,
         "changePercent": 12.53,
         "change": 21.37
-      },
-      {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 3.54,
-        "changePercent": 12.38,
-        "change": 0.39
       }
     ],
     "regulatory": [],
