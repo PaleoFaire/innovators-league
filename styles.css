@@ -18690,3 +18690,101 @@ grid-template-columns: repeat(3, 1fr);
   margin-left: 4px;
   font-size: 12px;
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   COMMUNITY UPVOTES (Round 7n)
+   — Company card upvote pill, modal upvote button, and profile-page variant.
+   Hidden gracefully (display:none forced by votes.js) until the Supabase
+   migration is live.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Card-header row wrapper so upvote + bookmark sit side-by-side */
+.card-header-actions {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+
+/* Compact pill used inside company cards */
+.upvote-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s, transform 0.15s;
+  user-select: none;
+  font-family: inherit;
+}
+.upvote-btn:hover {
+  background: rgba(255, 107, 44, 0.08);
+  border-color: rgba(255, 107, 44, 0.3);
+  color: #FF8C5C;
+}
+.upvote-btn.voted {
+  background: rgba(255, 107, 44, 0.15);
+  border-color: rgba(255, 107, 44, 0.5);
+  color: #FF6B2C;
+}
+.upvote-btn.voted:hover {
+  background: rgba(255, 107, 44, 0.22);
+}
+.upvote-btn.upvoting {
+  transform: scale(0.96);
+  opacity: 0.7;
+}
+.upvote-btn .upvote-icon {
+  font-size: 12px;
+  line-height: 1;
+  display: inline-block;
+}
+.upvote-btn .upvote-count {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.2px;
+}
+
+/* Larger variant used inside the company modal's action row */
+.upvote-modal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.upvote-modal-btn.voted {
+  background: rgba(255, 107, 44, 0.12);
+  border-color: rgba(255, 107, 44, 0.4);
+  color: #FF6B2C;
+}
+.upvote-modal-btn .upvote-icon  { font-size: 14px; }
+.upvote-modal-btn .upvote-count { font-variant-numeric: tabular-nums; font-weight: 700; }
+.upvote-modal-btn .upvote-label { font-size: 13px; }
+
+/* Full-size variant for the company profile page action bar */
+.upvote-profile-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.upvote-profile-btn.voted {
+  background: rgba(255, 107, 44, 0.12);
+  border-color: rgba(255, 107, 44, 0.4);
+  color: #FF6B2C;
+}
+.upvote-profile-btn .upvote-count {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.upvote-profile-btn.voted .upvote-count {
+  background: rgba(255, 107, 44, 0.2);
+  color: #FF8C5C;
+}
+.upvote-profile-btn.upvoting { opacity: 0.7; }

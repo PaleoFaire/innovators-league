@@ -1891,6 +1891,36 @@
       });
     }
 
+    // Upvote button — community ranking signal. Hidden until votes.js and
+    // the Supabase migration are live.
+    const upvoteBtn = document.getElementById('btn-upvote');
+    if (upvoteBtn) {
+      if (typeof TILVotes === 'undefined') {
+        upvoteBtn.style.display = 'none';
+      } else {
+        function refreshUpvote() {
+          const count = TILVotes.getCount(company.name);
+          const voted = TILVotes.hasVoted(company.name);
+          const countEl = document.getElementById('btn-upvote-count');
+          const iconEl  = upvoteBtn.querySelector('.upvote-icon');
+          const labelEl = upvoteBtn.querySelector('.upvote-label');
+          if (countEl) countEl.textContent = count;
+          if (iconEl)  iconEl.textContent  = voted ? '🔥' : '△';
+          if (labelEl) labelEl.textContent = voted ? 'Upvoted' : 'Upvote';
+          upvoteBtn.classList.toggle('voted', voted);
+          upvoteBtn.setAttribute('title', voted ? 'Remove upvote' : 'Community upvote — sign-in required');
+        }
+        refreshUpvote();
+        TILVotes.onChange(refreshUpvote);
+        upvoteBtn.addEventListener('click', async () => {
+          upvoteBtn.classList.add('upvoting');
+          await TILVotes.toggle(company.name);
+          upvoteBtn.classList.remove('upvoting');
+          refreshUpvote();
+        });
+      }
+    }
+
     // Share on X button
     const shareXBtn = document.getElementById('btn-share-x');
     if (shareXBtn) {

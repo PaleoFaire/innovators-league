@@ -1588,6 +1588,17 @@ function openCompanyModal(companyName) {
       <button class="modal-action-btn ${saved ? 'saved' : ''}" onclick="toggleBookmark('${company.name.replace(/'/g, "\\'")}'); openCompanyModal('${company.name.replace(/'/g, "\\'")}');">
         ${saved ? '★ Saved' : '☆ Save'}
       </button>
+      ${(typeof TILVotes !== 'undefined') ? (function() {
+        var vCount = TILVotes.getCount(company.name);
+        var vVoted = TILVotes.hasVoted(company.name);
+        return `<button class="modal-action-btn upvote-modal-btn ${vVoted ? 'voted' : ''}" data-upvote="${escapeAttr(company.name)}"
+                        onclick="handleUpvoteClick('${company.name.replace(/'/g, "\\'")}', this);"
+                        title="${vVoted ? 'Remove upvote' : 'Upvote — community ranking signal'}">
+          <span class="upvote-icon">${vVoted ? '🔥' : '△'}</span>
+          <span class="upvote-count" data-count-for="${escapeAttr(company.name)}">${vCount}</span>
+          <span class="upvote-label">${vVoted ? 'Upvoted' : 'Upvote'}</span>
+        </button>`;
+      })() : ''}
       <button class="modal-action-btn" onclick="shareCompany('${company.name.replace(/'/g, "\\'")}')">
         ↗ Share
       </button>
@@ -2283,6 +2294,24 @@ document.addEventListener('DOMContentLoaded', () => {
     try { fn(); } catch (e) { console.error('[TIL] ' + (name || fn.name) + ' failed:', e); }
   }
 
+  // When community vote counts arrive (async, after first auth-ready roundtrip),
+  // patch the rendered cards in place instead of re-rendering the whole grid.
+  if (typeof TILVotes !== 'undefined' && TILVotes.onChange) {
+    TILVotes.onChange(function(state) {
+      document.querySelectorAll('[data-count-for]').forEach(function(el) {
+        var name = el.getAttribute('data-count-for');
+        el.textContent = state.counts[name] || 0;
+      });
+      document.querySelectorAll('[data-upvote]').forEach(function(btn) {
+        var name = btn.getAttribute('data-upvote');
+        var voted = state.myVotes.has(name);
+        btn.classList.toggle('voted', voted);
+        var icon = btn.querySelector('.upvote-icon');
+        if (icon) icon.textContent = voted ? '🔥' : '△';
+      });
+    });
+  }
+
   // ── EAGER: Global UI that must run immediately ──
   try { initStats(); } catch (e) { /* non-critical */ }
   safeInit(initSearch);
@@ -2945,15 +2974,32 @@ function renderCompanyCardHTML(company) {
   const govBadge = getGovBadge(company.name);
 
   const isFeatured = company.scores && company.scores.composite >= 80;
+
+  // Community upvote widget — hidden until votes.js + the Supabase migration
+  // are live, at which point every card gets a vote count and toggle.
+  const voteCount = (typeof TILVotes !== 'undefined') ? TILVotes.getCount(company.name) : 0;
+  const hasVoted  = (typeof TILVotes !== 'undefined') ? TILVotes.hasVoted(company.name) : false;
+  const voteSafeName = company.name.replace(/'/g, "\\'");
+  const upvoteBtn = (typeof TILVotes !== 'undefined') ? `
+        <button class="upvote-btn ${hasVoted ? 'voted' : ''}" data-upvote="${escapeAttr(company.name)}"
+                onclick="event.stopPropagation(); handleUpvoteClick('${voteSafeName}', this);"
+                title="${hasVoted ? 'Remove your upvote' : 'Upvote this company'}">
+          <span class="upvote-icon">${hasVoted ? '🔥' : '△'}</span>
+          <span class="upvote-count" data-count-for="${escapeAttr(company.name)}">${voteCount}</span>
+        </button>` : '';
+
   return `
     <div class="company-card card-glass${isFeatured ? ' card-featured' : ''} reveal-up" data-name="${company.name}" onclick="openCompanyModal('${company.name.replace(/'/g, "\\'")}')">
       <div class="card-header">
         <div class="card-sector-badge" style="background:${sectorInfo.color}15; color:${sectorInfo.color}; border-color:${sectorInfo.color}30;">
           ${sectorInfo.icon} ${company.sector}
         </div>
-        <button class="bookmark-btn ${saved ? 'saved' : ''}" onclick="event.stopPropagation(); toggleBookmark('${company.name.replace(/'/g, "\\'")}')" title="${saved ? 'Remove from watchlist' : 'Add to watchlist'}">
-          ${saved ? '★' : '☆'}
-        </button>
+        <div class="card-header-actions">
+          ${upvoteBtn}
+          <button class="bookmark-btn ${saved ? 'saved' : ''}" onclick="event.stopPropagation(); toggleBookmark('${company.name.replace(/'/g, "\\'")}')" title="${saved ? 'Remove from watchlist' : 'Add to watchlist'}">
+            ${saved ? '★' : '☆'}
+          </button>
+        </div>
       </div>
       <h3 class="card-title">${company.name}</h3>
       ${company.founder ? `<p class="card-founder">${company.founder}</p>` : ''}
@@ -2970,6 +3016,33 @@ function renderCompanyCardHTML(company) {
       </div>
     </div>
   `;
+}
+
+// ─── COMMUNITY UPVOTES — shared handler ───
+// Called from inline onclick on every upvote button. Toggles the vote and
+// updates every card/modal showing this company's count live.
+async function handleUpvoteClick(companyName, buttonEl) {
+  if (typeof TILVotes === 'undefined') return;
+  // Not logged in? Module opens auth modal; we just short-circuit UI flash.
+  if (typeof TILAuth !== 'undefined' && !TILAuth.isLoggedIn()) {
+    TILVotes.toggle(companyName); // will open auth modal via the module
+    return;
+  }
+  // Visual feedback before network returns
+  buttonEl.classList.add('upvoting');
+  const result = await TILVotes.toggle(companyName);
+  buttonEl.classList.remove('upvoting');
+  // Update every rendered instance of this company's count/voted state
+  document.querySelectorAll(`[data-upvote="${CSS.escape(companyName)}"]`).forEach(btn => {
+    btn.classList.toggle('voted', !!result.voted);
+    const icon = btn.querySelector('.upvote-icon');
+    if (icon) icon.textContent = result.voted ? '🔥' : '△';
+    const title = result.voted ? 'Remove your upvote' : 'Upvote this company';
+    btn.setAttribute('title', title);
+  });
+  document.querySelectorAll(`[data-count-for="${CSS.escape(companyName)}"]`).forEach(el => {
+    el.textContent = result.count;
+  });
 }
 
 // ─── FILTERS ───
@@ -3205,6 +3278,13 @@ function applyFilters() {
       const dA = a.recentEvent ? a.recentEvent.date : '0000-00';
       const dB = b.recentEvent ? b.recentEvent.date : '0000-00';
       return dB.localeCompare(dA) || a.name.localeCompare(b.name);
+    });
+  } else if (sortBy === 'community') {
+    // Community picks — sorted by upvote count desc, alpha tiebreak
+    filtered.sort((a, b) => {
+      const ca = (typeof TILVotes !== 'undefined') ? TILVotes.getCount(a.name) : 0;
+      const cb = (typeof TILVotes !== 'undefined') ? TILVotes.getCount(b.name) : 0;
+      return cb - ca || a.name.localeCompare(b.name);
     });
   }
 

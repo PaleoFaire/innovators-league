@@ -323,6 +323,11 @@
                     <button class="action-btn primary" id="btn-save">
                         <span class="btn-icon">☆</span> Save to Watchlist
                     </button>
+                    <button class="action-btn upvote-profile-btn" id="btn-upvote" title="Community upvote — sign-in required">
+                        <span class="upvote-icon">△</span>
+                        <span class="upvote-label">Upvote</span>
+                        <span class="upvote-count" id="btn-upvote-count">0</span>
+                    </button>
                     <button class="action-btn" id="btn-share">
                         <span class="btn-icon">↗</span> Share Profile
                     </button>
@@ -474,6 +479,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="utils.js?v=20260408"></script>
     <script src="auth.js?v=20260325"></script>
+    <script src="votes.js?v=20260422"></script>
     <script src="data.js?v=20260325"></script>
     <script src="data/sec_filings_auto.js?v=20260325"></script>
     <script src="data/stocks_auto.js?v=20260325"></script>
