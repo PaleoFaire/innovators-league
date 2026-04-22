@@ -2751,7 +2751,7 @@ function getMarkerOffset(index, groupSize) {
 
 function initDiscoveryMap() {
   if (typeof L === 'undefined') {
-    console.log('Leaflet not loaded, skipping discovery map');
+    // Leaflet not loaded — fail silent in production
     return;
   }
 
@@ -7516,8 +7516,6 @@ function generateNetworkData() {
   });
   const filteredNodes = nodes.filter(n => connectedIds.has(n.id));
 
-  console.log(`Network Graph: ${filteredNodes.length} nodes (${nodes.length - filteredNodes.length} isolated removed), ${edges.length} edges`);
-
   return { nodes: filteredNodes, edges };
 }
 
@@ -9440,35 +9438,49 @@ function initIntelFeed() {
     if (sec !== 'all') items = items.filter(n => n.sector === sec);
     if (imp !== 'all') items = items.filter(n => n.impact === imp);
 
+    // XSS-safe: every interpolated field comes from third-party RSS and
+    // must be escaped. Company names are also run through escapeAttr for
+    // the inline onclick handler payload.
     newsPanel.innerHTML = items.length === 0
       ? '<div style="padding:30px; text-align:center; color:var(--text-muted)">No news items match your filters.</div>'
-      : items.map(n => `
-        <div class="feed-item ${n.rosAnalysis ? 'has-analysis' : ''}">
+      : items.map(n => {
+          const safeCompany  = escapeHtml(n.company || '');
+          const safeHeadline = escapeHtml(n.headline || '');
+          const safeSummary  = escapeHtml(n.summary || '');
+          const safeAnalysis = escapeHtml(n.rosAnalysis || '');
+          const safeAuthor   = escapeHtml(n.analysisAuthor || '');
+          const safeCategory = escapeHtml(n.category || '');
+          const safeSource   = escapeHtml(n.source || '');
+          const safeImpact   = escapeHtml(n.impact || '');
+          const attrCompany  = escapeAttr((n.company || '').replace(/'/g, "\\'"));
+          return `
+        <div class="feed-item ${safeAnalysis ? 'has-analysis' : ''}">
           <div class="feed-date">${formatFeedDate(n.date)}</div>
           <div class="feed-content">
             <div class="feed-headline">
-              <span class="feed-company-link" onclick="openCompanyModal('${(n.company || '').replace(/'/g, "\\'")}')">${n.company}</span>: ${n.headline}
+              <span class="feed-company-link" onclick="openCompanyModal('${attrCompany}')">${safeCompany}</span>: ${safeHeadline}
             </div>
-            <div class="feed-summary">${n.summary || ''}</div>
-            ${n.rosAnalysis ? `
+            <div class="feed-summary">${safeSummary}</div>
+            ${safeAnalysis ? `
               <div class="feed-ros-analysis">
                 <div class="ros-analysis-header">
                   <span class="ros-analysis-badge">💡 ROS Analysis</span>
-                  ${n.analysisAuthor ? `<span class="ros-analysis-author">by ${n.analysisAuthor}</span>` : ''}
+                  ${safeAuthor ? `<span class="ros-analysis-author">by ${safeAuthor}</span>` : ''}
                 </div>
-                <div class="ros-analysis-text">${n.rosAnalysis}</div>
+                <div class="ros-analysis-text">${safeAnalysis}</div>
               </div>
             ` : ''}
             <div class="feed-meta">
-              <span class="feed-category-tag ${n.category}">${n.category}</span>
-              <span class="feed-source">${n.source || ''}</span>
+              <span class="feed-category-tag ${safeCategory}">${safeCategory}</span>
+              <span class="feed-source">${safeSource}</span>
             </div>
           </div>
           <div class="feed-impact">
-            <span class="feed-impact-badge ${n.impact}">${n.impact}</span>
+            <span class="feed-impact-badge ${safeImpact}">${safeImpact}</span>
           </div>
         </div>
-      `).join('');
+      `;
+        }).join('');
   }
 
   function renderStoryLeads() {
@@ -10949,16 +10961,18 @@ function initThesisCollision() {
     );
 
     companiesEl.innerHTML = sorted.map(company => {
-      const stage = company.fundingStage || company.stage || '';
-      const raised = company.totalRaised || '';
-      const location = company.location || '';
-      const approach = company.techApproach || company.description || '';
+      const stage = escapeHtml(company.fundingStage || company.stage || '');
+      const raised = escapeHtml(company.totalRaised || '');
+      const location = escapeHtml(company.location || '');
+      const approach = escapeHtml(company.techApproach || company.description || '');
       const signalEmoji = { hot: '🔥', rising: '📈', established: '💚', early: '🌱', stealth: '👻' };
       const emoji = signalEmoji[company.signal] || '';
+      const safeName = escapeHtml(company.name || '');
+      const hrefUrl  = 'company.html?c=' + encodeURIComponent(company.name || '');
 
       return `
-        <div class="thesis-company-card" onclick="window.location.href='company.html?c=${encodeURIComponent(company.name)}'">
-          <div class="thesis-company-name">${emoji} ${company.name}</div>
+        <div class="thesis-company-card" onclick="window.location.href='${escapeAttr(hrefUrl)}'">
+          <div class="thesis-company-name">${emoji} ${safeName}</div>
           <div class="thesis-company-meta">${stage} ${raised ? '| ' + raised : ''} ${location ? '| ' + location : ''}</div>
           <div class="thesis-company-approach">${approach}</div>
         </div>

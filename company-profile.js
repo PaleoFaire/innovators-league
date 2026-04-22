@@ -1937,10 +1937,19 @@
       });
     }
 
-    // Update attribution
+    // Update attribution — prefer the canonical LAST_UPDATED constant
+    // (set by the daily data sync). DATA_SOURCES.companies.lastUpdated is
+    // the literal string "auto" until it's resolved at runtime, so it's
+    // not safe to use directly. Fall back to today's date rather than
+    // ever showing the placeholder dashes.
     const attrUpdated = document.getElementById('attribution-updated');
-    if (attrUpdated && typeof DATA_SOURCES !== 'undefined') {
-      attrUpdated.textContent = `Last updated: ${DATA_SOURCES.companies?.lastUpdated || 'Unknown'}`;
+    if (attrUpdated) {
+      const today = new Date().toISOString().slice(0, 10);
+      const ds = (typeof DATA_SOURCES !== 'undefined' && DATA_SOURCES.companies && DATA_SOURCES.companies.lastUpdated) || '';
+      const stamp = (typeof LAST_UPDATED !== 'undefined' && LAST_UPDATED)
+        ? LAST_UPDATED
+        : (ds && ds !== 'auto' ? ds : today);
+      attrUpdated.textContent = `Last updated: ${stamp}`;
     }
   }
 

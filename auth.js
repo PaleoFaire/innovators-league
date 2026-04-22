@@ -268,6 +268,9 @@ const TILAuth = (function() {
     if (errorEl) {
       errorEl.textContent = msg;
       errorEl.style.display = 'block';
+      // Reset any success-state styling left over from a prior showAuthSuccess call.
+      errorEl.style.color = '';
+      errorEl.style.borderColor = '';
     }
   }
 
@@ -276,6 +279,8 @@ const TILAuth = (function() {
     if (errorEl) {
       errorEl.textContent = '';
       errorEl.style.display = 'none';
+      errorEl.style.color = '';
+      errorEl.style.borderColor = '';
     }
   }
 
@@ -391,19 +396,31 @@ const TILAuth = (function() {
       });
     }
 
-    // Forgot password link
+    // Forgot password link — pull email from whichever form the user is on.
+    // If they're mid-signup but realize they already have an account, we still
+    // want to grab their typed email so they don't have to retype it.
     const forgotLink = document.getElementById('auth-forgot-password');
     if (forgotLink) {
       forgotLink.addEventListener('click', async (e) => {
         e.preventDefault();
         clearAuthError();
-        const email = document.getElementById('auth-email').value.trim();
-        if (!email) { showAuthError('Enter your email above, then click Forgot Password.'); return; }
+        const loginEmail  = document.getElementById('auth-email');
+        const signupEmail = document.getElementById('auth-signup-email');
+        const email = (loginEmail && loginEmail.value.trim()) ||
+                      (signupEmail && signupEmail.value.trim()) || '';
+        if (!email) {
+          showAuthError('Enter your email above, then click Forgot Password.');
+          return;
+        }
+        forgotLink.style.pointerEvents = 'none';
+        forgotLink.textContent = 'Sending…';
         const { error } = await resetPassword(email);
+        forgotLink.style.pointerEvents = '';
+        forgotLink.textContent = 'Forgot password?';
         if (error) {
-          showAuthError(error.message);
+          showAuthError(error.message || 'Could not send reset email. Try again.');
         } else {
-          showAuthSuccess('Password reset email sent! Check your inbox.');
+          showAuthSuccess('Password reset email sent! Check your inbox (and spam folder).');
         }
       });
     }

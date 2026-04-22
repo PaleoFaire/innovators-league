@@ -2119,12 +2119,14 @@ function initSbirTracker() {
     var typeClass = topic.type === 'STTR' ? 'sbir-type-sttr' : 'sbir-type-sbir';
     var phaseClass = topic.phase === 'Phase II' ? 'sbir-phase-ii' : 'sbir-phase-i';
 
+    // XSS-safe: company + sector names are curated but topic titles/etc.
+    // come from SBIR.gov feeds, so escape all interpolations anyway.
     var companyTags = (topic.relevantCompanies || []).map(function(c) {
-      return '<span class="sbir-company-tag" onclick="window.location.href=\'company.html?c=' + encodeURIComponent(c) + '\'">' + c + '</span>';
+      return '<span class="sbir-company-tag" onclick="window.location.href=\'company.html?c=' + encodeURIComponent(c) + '\'">' + escapeHtml(c) + '</span>';
     }).join('');
 
     var sectorTags = (topic.sectors || []).map(function(s) {
-      return '<span class="sbir-sector-tag">' + s + '</span>';
+      return '<span class="sbir-sector-tag">' + escapeHtml(s) + '</span>';
     }).join('');
 
     html += '<div class="sbir-card">' +
