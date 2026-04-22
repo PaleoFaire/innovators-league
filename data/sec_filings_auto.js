@@ -1,6 +1,12 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-21 08:00:07 UTC
+// Last updated: 2026-04-22 07:56:50 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Virgin Galactic", form: "DEF 14A", date: "2026-04-21", description: "spce-20260421.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Virgin Galactic", form: "8-K", date: "2026-04-21", description: "spce-20260421.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Oklo", form: "DEF 14A", date: "2026-04-21", description: "a2025proxy.htm", isIPO: false, ticker: "OKLO" },
+  { company: "Rigetti Computing", form: "8-K", date: "2026-04-21", description: "tm2612288d1_8k.htm", isIPO: false, ticker: "RGTI" },
+  { company: "D-Wave Quantum", form: "4", date: "2026-04-21", description: "xslF345X06/wk-form4_1776806393.xml", isIPO: false, ticker: "QBTS" },
+  { company: "Satellogic", form: "8-K", date: "2026-04-21", description: "ea0287153-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
   { company: "AST SpaceMobile", form: "8-K", date: "2026-04-20", description: "form8-k.htm", isIPO: false, ticker: "ASTS" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-04-20", description: "spce-20260420.htm", isIPO: false, ticker: "SPCE" },
   { company: "Oklo", form: "4", date: "2026-04-20", description: "xslF345X06/wk-form4_1776721392.xml", isIPO: false, ticker: "OKLO" },
@@ -45,10 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110405.xml", isIPO: false, ticker: "LUNR" },
   { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110459.xml", isIPO: false, ticker: "LUNR" },
   { company: "Virgin Galactic", form: "4", date: "2026-04-09", description: "xslF345X06/wk-form4_1775775201.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-04-09", description: "xslF345X06/wk-form4_1775775187.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-04-09", description: "xslF345X06/wk-form4_1775775170.xml", isIPO: false, ticker: "SPCE" },
-  { company: "Virgin Galactic", form: "4", date: "2026-04-09", description: "xslF345X06/wk-form4_1775775154.xml", isIPO: false, ticker: "SPCE" },
-  { company: "NuScale Power", form: "8-K", date: "2026-04-08", description: "smr-20260408.htm", isIPO: false, ticker: "SMR" },
-  { company: "IonQ", form: "4", date: "2026-04-08", description: "xslF345X06/primary_doc.xml", isIPO: false, ticker: "IONQ" },
-  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-08", description: "xslF345X06/wk-form4_1775681908.xml", isIPO: false, ticker: "RXRX" },
 ];

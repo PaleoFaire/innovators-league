@@ -875,6 +875,24 @@
   {
     "company": "Virgin Galactic",
     "ticker": "SPCE",
+    "form": "DEF 14A",
+    "date": "2026-04-21",
+    "description": "spce-20260421.htm",
+    "accessionNumber": "0001706946-26-000046",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
+    "form": "8-K",
+    "date": "2026-04-21",
+    "description": "spce-20260421.htm",
+    "accessionNumber": "0001706946-26-000045",
+    "isIPO": false
+  },
+  {
+    "company": "Virgin Galactic",
+    "ticker": "SPCE",
     "form": "8-K",
     "date": "2026-04-20",
     "description": "spce-20260420.htm",
@@ -1226,6 +1244,15 @@
   {
     "company": "Oklo",
     "ticker": "OKLO",
+    "form": "DEF 14A",
+    "date": "2026-04-21",
+    "description": "a2025proxy.htm",
+    "accessionNumber": "0001849056-26-000023",
+    "isIPO": false
+  },
+  {
+    "company": "Oklo",
+    "ticker": "OKLO",
     "form": "4",
     "date": "2026-04-20",
     "description": "xslF345X06/wk-form4_1776721392.xml",
@@ -1473,15 +1500,6 @@
     "date": "2026-02-04",
     "description": "xslF345X05/ownership.xml",
     "accessionNumber": "0001193125-26-037908",
-    "isIPO": false
-  },
-  {
-    "company": "Oklo",
-    "ticker": "OKLO",
-    "form": "4",
-    "date": "2026-02-04",
-    "description": "xslF345X05/ownership.xml",
-    "accessionNumber": "0001193125-26-037906",
     "isIPO": false
   },
   {
@@ -2037,6 +2055,15 @@
     "company": "Rigetti Computing",
     "ticker": "RGTI",
     "form": "8-K",
+    "date": "2026-04-21",
+    "description": "tm2612288d1_8k.htm",
+    "accessionNumber": "0001104659-26-045994",
+    "isIPO": false
+  },
+  {
+    "company": "Rigetti Computing",
+    "ticker": "RGTI",
+    "form": "8-K",
     "date": "2026-04-07",
     "description": "tm2611278d1_8k.htm",
     "accessionNumber": "0001104659-26-040377",
@@ -2103,6 +2130,15 @@
     "date": "2026-02-10",
     "description": "xslF345X05/form4.xml",
     "accessionNumber": "0001123292-26-000132",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "4",
+    "date": "2026-04-21",
+    "description": "xslF345X06/wk-form4_1776806393.xml",
+    "accessionNumber": "0001907982-26-000033",
     "isIPO": false
   },
   {
@@ -3840,6 +3876,15 @@
     "date": "2026-01-26",
     "description": "traeger-jan2026proxystatem.htm",
     "accessionNumber": "0001628280-26-003412",
+    "isIPO": false
+  },
+  {
+    "company": "Satellogic",
+    "ticker": "SATL",
+    "form": "8-K",
+    "date": "2026-04-21",
+    "description": "ea0287153-8k_zoomcar.htm",
+    "accessionNumber": "0001213900-26-046282",
     "isIPO": false
   },
   {
