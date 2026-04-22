@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T11:15:36.186783+00:00",
+  "generatedAt": "2026-04-22T14:03:40.353396+00:00",
   "date": "2026-04-22",
   "dateDisplay": "Wednesday, April 22, 2026",
   "sections": {
@@ -8,58 +8,58 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 23.8,
-        "changePercent": -37.25,
-        "change": -14.13
-      },
-      {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 46.28,
-        "changePercent": 29.42,
-        "change": 10.52
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 20.36,
-        "changePercent": 19.98,
-        "change": 3.39
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 86.64,
-        "changePercent": 19.97,
-        "change": 14.42
+        "price": 24.02,
+        "changePercent": -42.02,
+        "change": -17.41
       },
       {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 27.82,
-        "changePercent": 17.53,
-        "change": 4.15
+        "price": 30.79,
+        "changePercent": 28.94,
+        "change": 6.91
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 91.72,
+        "changePercent": 24.62,
+        "change": 18.12
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 3.94,
+        "changePercent": 20.86,
+        "change": 0.68
+      },
+      {
+        "ticker": "PL",
+        "company": "Planet Labs",
+        "price": 40.45,
+        "changePercent": 17.54,
+        "change": 6.04
       },
       {
         "ticker": "IDEAFORGE.NS",
         "company": "ideaForge",
-        "price": 543.5,
-        "changePercent": 16.61,
-        "change": 77.4
+        "price": 545.9,
+        "changePercent": 17.12,
+        "change": 79.8
       },
       {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 11.67,
-        "changePercent": 13.85,
-        "change": 1.42
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 7.96,
+        "changePercent": 14.96,
+        "change": 1.04
       },
       {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 191.97,
-        "changePercent": 12.53,
-        "change": 21.37
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 48.8,
+        "changePercent": 12.82,
+        "change": 5.55
       }
     ],
     "regulatory": [],
@@ -70,6 +70,6 @@
     "moverCount": 8,
     "regCount": 0,
     "patentCount": 0,
-    "topMover": "LNZA -37.2%"
+    "topMover": "LNZA -42.0%"
   }
 }
