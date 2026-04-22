@@ -5,95 +5,100 @@
     "ai": {
       "gainers": 1,
       "losers": 0,
-      "avg_change": 7.57,
+      "avg_change": 4.64,
       "count": 1
     },
     "space": {
-      "gainers": 5,
-      "losers": 2,
-      "avg_change": 5.63,
+      "gainers": 6,
+      "losers": 1,
+      "avg_change": 13.26,
       "count": 7
     },
     "autonomous": {
-      "gainers": 6,
-      "losers": 1,
-      "avg_change": 6.01,
+      "gainers": 5,
+      "losers": 2,
+      "avg_change": 4.56,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 7.28,
+      "avg_change": 7.2,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": -7.71,
+      "avg_change": -6.75,
       "count": 3
     },
     "quantum": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 19.19,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 5.14,
       "count": 3
     },
     "biotech": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 5.63,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 0.83,
       "count": 3
     },
     "transportation": {
-      "gainers": 2,
-      "losers": 0,
-      "avg_change": 6.67,
+      "gainers": 1,
+      "losers": 1,
+      "avg_change": 3.27,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.59,
+      "avg_change": 7.89,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "IONQ",
-      "IonQ",
-      29.42
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      19.98
+      "LUNR",
+      "Intuitive Machines",
+      28.94
     ],
     [
       "RKLB",
       "Rocket Lab",
-      19.97
+      24.62
     ],
     [
-      "LUNR",
-      "Intuitive Machines",
-      17.53
+      "SLDP",
+      "Solid Power",
+      20.86
+    ],
+    [
+      "PL",
+      "Planet Labs",
+      17.54
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      16.61
+      17.12
     ]
   ],
   "topLosers": [
     [
-      "ASRHF",
-      "Astroscale",
-      0.11
+      "RGTI",
+      "Rigetti Computing",
+      -0.63
     ],
     [
-      "SATL",
-      "Satellogic",
-      -1.23
+      "ASTS",
+      "AST SpaceMobile",
+      -1.42
+    ],
+    [
+      "RXRX",
+      "Recursion Pharmaceuticals",
+      -1.73
     ],
     [
       "277810.KQ",
@@ -101,15 +106,10 @@
       -2.45
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -9.66
-    ],
-    [
       "LNZA",
       "LanzaTech",
-      -37.25
+      -42.02
     ]
   ],
-  "lastUpdated": "2026-04-22 07:56:45"
+  "lastUpdated": "2026-04-22 13:52:29"
 }
