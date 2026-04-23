@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-04-22T07:57:38.059414Z",
+  "generated_at": "2026-04-23T08:04:09.646512Z",
   "takes": [
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "SpaceX",
+      "text": "How SpaceX preempted a $2B fundraise with a $60B buyout offer",
+      "date": "Wed, 22 Ap",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
+      "signal_type": "funding"
+    },
     {
       "author": "Next Big Future",
       "role": "Industry signal",
@@ -12,23 +22,13 @@
       "signal_type": "ipo"
     },
     {
-      "author": "TechCrunch",
+      "author": "SpaceNews",
       "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX is working with Cursor and has an option to buy the startup for $60B",
-      "date": "Tue, 21 Ap",
+      "company": "Atmos Space Cargo",
+      "text": "Atmos Space Cargo raises $30 million for reentry missions",
+      "date": "Thu, 23 Ap",
       "source": "news",
-      "source_url": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Scale AI",
-      "text": "VisioLab raises $11M Series A to scale AI self-checkout globally",
-      "date": "Tue, 21 Ap",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/04/21/visiolab-raises-11m-series-a-to-scale-ai-self-checkout-globally/",
+      "source_url": "https://spacenews.com/atmos-space-cargo-raises-30-million-for-reentry-missions/",
       "signal_type": "funding"
     },
     {

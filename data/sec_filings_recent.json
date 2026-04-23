@@ -252,24 +252,6 @@
     "isIPO": false
   },
   {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "4",
-    "date": "2026-01-22",
-    "description": "xslF345X05/edgardoc.xml",
-    "accessionNumber": "0002001011-26-000006",
-    "isIPO": false
-  },
-  {
-    "company": "Rocket Lab",
-    "ticker": "RKLB",
-    "form": "8-K",
-    "date": "2026-01-22",
-    "description": "rklb-20260121.htm",
-    "accessionNumber": "0001819994-26-000004",
-    "isIPO": false
-  },
-  {
     "company": "AST SpaceMobile",
     "ticker": "ASTS",
     "form": "8-K",
@@ -2475,15 +2457,6 @@
     "isIPO": false
   },
   {
-    "company": "Recursion Pharmaceuticals",
-    "ticker": "RXRX",
-    "form": "4",
-    "date": "2026-01-22",
-    "description": "xslF345X05/wk-form4_1769128479.xml",
-    "accessionNumber": "0001856369-26-000005",
-    "isIPO": false
-  },
-  {
     "company": "Ginkgo Bioworks",
     "ticker": "DNA",
     "form": "4",
@@ -2592,12 +2565,21 @@
     "isIPO": false
   },
   {
-    "company": "Ginkgo Bioworks",
-    "ticker": "DNA",
+    "company": "Archer Aviation",
+    "ticker": "ACHR",
     "form": "4",
-    "date": "2026-01-22",
-    "description": "xslF345X05/wk-form4_1769116333.xml",
-    "accessionNumber": "0001628280-26-003084",
+    "date": "2026-04-22",
+    "description": "xslF345X06/form4-04232026_120446.xml",
+    "accessionNumber": "0002016416-26-000013",
+    "isIPO": false
+  },
+  {
+    "company": "Archer Aviation",
+    "ticker": "ACHR",
+    "form": "4",
+    "date": "2026-04-22",
+    "description": "xslF345X06/form4-04232026_120425.xml",
+    "accessionNumber": "0001882348-26-000012",
     "isIPO": false
   },
   {
@@ -2868,15 +2850,6 @@
     "date": "2026-01-26",
     "description": "achr-20260123.htm",
     "accessionNumber": "0001824502-26-000005",
-    "isIPO": false
-  },
-  {
-    "company": "Archer Aviation",
-    "ticker": "ACHR",
-    "form": "8-K",
-    "date": "2026-01-22",
-    "description": "achr-20260122.htm",
-    "accessionNumber": "0001824502-26-000003",
     "isIPO": false
   },
   {
@@ -3567,6 +3540,42 @@
     "company": "Rivian",
     "ticker": "RIVN",
     "form": "4",
+    "date": "2026-04-22",
+    "description": "xslF345X06/wk-form4_1776890579.xml",
+    "accessionNumber": "0002066491-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
+    "form": "4",
+    "date": "2026-04-22",
+    "description": "xslF345X06/wk-form4_1776890555.xml",
+    "accessionNumber": "0001607879-26-000002",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
+    "form": "4",
+    "date": "2026-04-22",
+    "description": "xslF345X06/wk-form4_1776890533.xml",
+    "accessionNumber": "0001891751-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
+    "form": "4",
+    "date": "2026-04-22",
+    "description": "xslF345X06/wk-form4_1776890517.xml",
+    "accessionNumber": "0001891037-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "Rivian",
+    "ticker": "RIVN",
+    "form": "4",
     "date": "2026-04-16",
     "description": "xslF345X06/wk-form4_1776372818.xml",
     "accessionNumber": "0001891517-26-000021",
@@ -3732,42 +3741,6 @@
     "date": "2026-02-12",
     "description": "rivn-20260212.htm",
     "accessionNumber": "0001874178-26-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-01-22",
-    "description": "xslF345X05/wk-form4_1769120680.xml",
-    "accessionNumber": "0001891037-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-01-22",
-    "description": "xslF345X05/wk-form4_1769120618.xml",
-    "accessionNumber": "0001891751-26-000002",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-01-22",
-    "description": "xslF345X05/wk-form4_1769120583.xml",
-    "accessionNumber": "0002066491-26-000003",
-    "isIPO": false
-  },
-  {
-    "company": "Rivian",
-    "ticker": "RIVN",
-    "form": "4",
-    "date": "2026-01-22",
-    "description": "xslF345X05/wk-form4_1769119701.xml",
-    "accessionNumber": "0001891517-26-000007",
     "isIPO": false
   },
   {

@@ -1,29 +1,46 @@
 [
   {
+    "sector": "Space & Aerospace",
+    "momentum": 65,
+    "trend": "accelerating",
+    "catalysts": [
+      "Atmos Space Cargo raises $30 million for reentry missions",
+      "OpenAI's head of health lays out the AI giant\u2019s healthcare a",
+      "How SpaceX preempted a $2B fundraise with a $60B buyout offe"
+    ],
+    "fundingQ": "$2.2B",
+    "components": {
+      "funding": 78,
+      "news": 70,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-23"
+  },
+  {
     "sector": "Defense & Security",
-    "momentum": 58,
+    "momentum": 56,
     "trend": "steady",
     "catalysts": [
-      "A Humanoid Robot Set a Half-Marathon Record in China",
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "sector": "AI & Software",
     "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI",
-      "SpaceX is working with Cursor and has an option to buy the s",
-      "OpenAI Beefs Up ChatGPT\u2019s Image Generation Model"
+      "Cape EMS expands into advanced interconnect engineering for",
+      "OpenAI's head of health lays out the AI giant\u2019s healthcare a",
+      "Join Our Livestream: Musk v. Altman and the Future of OpenAI"
     ],
     "fundingQ": "$1189.2B",
     "components": {
@@ -32,7 +49,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "sector": "Nuclear Energy",
@@ -49,25 +66,23 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 49,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Saildrone announces new USV class aimed at anti-submarine wa",
-      "A Humanoid Robot Set a Half-Marathon Record in China",
-      "Uber begins early test rides of Lucid Gravity robotaxis equi"
+      "Saildrone announces new USV class aimed at anti-submarine wa"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "sector": "Ocean & Maritime",
@@ -83,7 +98,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -99,96 +114,80 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "sector": "Robotics & Manufacturing",
-    "momentum": 34,
+    "momentum": 29,
     "trend": "rising",
     "catalysts": [
-      "Vietnam&#8217;s VinDynamics, Germany&#8217;s Schaeffler to j",
-      "Foxconn to manufacture humanoid robots in Vietnam",
-      "A Humanoid Robot Set a Half-Marathon Record in China"
+      "Rivian (RIVN) starts R2 production days after tornado hit fa",
+      "HII partners with Path Robotics, GrayMatter Robotics to acce",
+      "Vietnam&#8217;s VinDynamics, Germany&#8217;s Schaeffler to j"
     ],
     "fundingQ": "$655M",
     "components": {
       "funding": 39,
-      "news": 40,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-22"
-  },
-  {
-    "sector": "Space & Aerospace",
-    "momentum": 34,
-    "trend": "rising",
-    "catalysts": [
-      "ATMOS Space Cargo secures \u20ac25.7M Series A to expand Europe\u2019s",
-      "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI",
-      "SpaceX is working with Cursor and has an option to buy the s"
-    ],
-    "fundingQ": "$175M",
-    "components": {
-      "funding": 9,
-      "news": 45,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-22"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 24,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI Beefs Up ChatGPT\u2019s Image Generation Model"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-22"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 23,
-    "trend": "declining",
-    "catalysts": [
-      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 5,
-      "hiring": 0,
-      "market": 96
-    },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 22,
+    "momentum": 21,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI",
-      "Siemens and Humanoid test HMND 01 Alpha for logistics tasks"
+      "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 10,
+      "news": 5,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Cape EMS expands into advanced interconnect engineering for",
+      "Rivian (RIVN) starts R2 production days after tornado hit fa"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 10,
+      "hiring": 0,
+      "market": 77
+    },
+    "lastUpdated": "2026-04-23"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Fervo Energy inks big turbine deal to build more next-gen ge",
+      "Base Power to launch 100-MW home battery network for Texas u"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 70
+    },
+    "lastUpdated": "2026-04-23"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 20,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -198,54 +197,18 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 100
+      "market": 76
     },
-    "lastUpdated": "2026-04-22"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 19,
-    "trend": "declining",
-    "catalysts": [
-      "Fervo Energy unveils new power plant details in IPO filing",
-      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene",
-      "Fervo Energy inks big turbine deal to build more next-gen ge"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 20,
-      "hiring": 0,
-      "market": 68
-    },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "Sam Altman throws shade at Anthropic&#8217;s cyber model, My",
-      "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
-      "Siemens and Humanoid test HMND 01 Alpha for logistics tasks"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-22"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Siemens and Humanoid test HMND 01 Alpha for logistics tasks",
-      "Anthropic&#8217;s Nuclear Bomb",
-      "Rivian partners with Tesla co-founder&#8217;s Redwood on ene"
+      "Atmos Space Cargo raises $30 million for reentry missions",
+      "HII partners with Path Robotics, GrayMatter Robotics to acce",
+      "AST Spacemobile BB7 Is Not Recoverable Per ASTS"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -254,15 +217,32 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
-    "sector": "Housing & Construction",
+    "sector": "Biotech & Health",
+    "momentum": 13,
+    "trend": "declining",
+    "catalysts": [
+      "OpenAI's head of health lays out the AI giant\u2019s healthcare a",
+      "OpenAI Beefs Up ChatGPT\u2019s Image Generation Model"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 10,
+      "hiring": 0,
+      "market": 39
+    },
+    "lastUpdated": "2026-04-23"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
     "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
-      "Blue Origin Launches and Recovers Booster, Orbit of AST Spac"
+      "Cape EMS expands into advanced interconnect engineering for",
+      "Anthropic&#8217;s Nuclear Bomb"
     ],
     "fundingQ": "$0M",
     "components": {
@@ -271,6 +251,22 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 11,
+    "trend": "declining",
+    "catalysts": [
+      "AST Spacemobile BB7 Is Not Recoverable Per ASTS"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-23"
   }
 ]

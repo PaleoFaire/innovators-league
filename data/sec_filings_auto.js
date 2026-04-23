@@ -1,6 +1,12 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-22 07:56:50 UTC
+// Last updated: 2026-04-23 08:02:39 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Archer Aviation", form: "4", date: "2026-04-22", description: "xslF345X06/form4-04232026_120446.xml", isIPO: false, ticker: "ACHR" },
+  { company: "Archer Aviation", form: "4", date: "2026-04-22", description: "xslF345X06/form4-04232026_120425.xml", isIPO: false, ticker: "ACHR" },
+  { company: "Rivian", form: "4", date: "2026-04-22", description: "xslF345X06/wk-form4_1776890579.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-04-22", description: "xslF345X06/wk-form4_1776890555.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-04-22", description: "xslF345X06/wk-form4_1776890533.xml", isIPO: false, ticker: "RIVN" },
+  { company: "Rivian", form: "4", date: "2026-04-22", description: "xslF345X06/wk-form4_1776890517.xml", isIPO: false, ticker: "RIVN" },
   { company: "Virgin Galactic", form: "DEF 14A", date: "2026-04-21", description: "spce-20260421.htm", isIPO: false, ticker: "SPCE" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-04-21", description: "spce-20260421.htm", isIPO: false, ticker: "SPCE" },
   { company: "Oklo", form: "DEF 14A", date: "2026-04-21", description: "a2025proxy.htm", isIPO: false, ticker: "OKLO" },
@@ -45,10 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Tempus AI", form: "DEF 14A", date: "2026-04-10", description: "vnt-20260410.htm", isIPO: false, ticker: "TEM" },
   { company: "Astera Labs", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775864074.xml", isIPO: false, ticker: "ALAB" },
   { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110444.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110447.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110454.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110411.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110405.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110459.xml", isIPO: false, ticker: "LUNR" },
-  { company: "Virgin Galactic", form: "4", date: "2026-04-09", description: "xslF345X06/wk-form4_1775775201.xml", isIPO: false, ticker: "SPCE" },
 ];

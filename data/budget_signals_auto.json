@@ -3,14 +3,14 @@
     "category": "Nuclear Energy",
     "icon": "\u269b\ufe0f",
     "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
-    "change": "+5%",
-    "changeNum": 5,
+    "change": "+15%",
+    "changeNum": 15,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 4,
+    "activityIndex": 9,
     "billsTracked": 2,
-    "rulesTracked": 2,
-    "description": "2 bill(s) + 2 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 4 \u2014 +5% relative trend.",
+    "rulesTracked": 7,
+    "description": "2 bill(s) + 7 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 9 \u2014 +15% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -26,19 +26,25 @@
       },
       {
         "type": "federal_register",
-        "title": "Draft Interim Staff Guidance: NRC Application Pathway for Reactor Designs Previo",
+        "title": "Duke Energy Carolinas, LLC; Catawba Nuclear Station, Units 1 and 2; Independent ",
         "agency": "",
         "date": ""
       },
       {
         "type": "federal_register",
-        "title": "Draft Regulatory Guide: Nuclear Power Plant Simulation Facilities for Use in Ope",
+        "title": "Information Collection: NRC Form 361, Reactor Plant Event Notification Worksheet",
+        "agency": "",
+        "date": ""
+      },
+      {
+        "type": "federal_register",
+        "title": "Kairos Power LLC; Hermes Test Reactor; Environmental Assessment and Finding of N",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "category": "Autonomous Systems & Drones",
@@ -61,13 +67,13 @@
       },
       {
         "type": "federal_register",
-        "title": "Unleashing American Drone Dominance",
+        "title": "Settlement Policy for Small Unmanned Aircraft System (UAS) Cases",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "category": "Quantum Computing",
@@ -90,7 +96,7 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   },
   {
     "category": "Space & Aerospace",
@@ -113,6 +119,6 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-22"
+    "lastUpdated": "2026-04-23"
   }
 ]

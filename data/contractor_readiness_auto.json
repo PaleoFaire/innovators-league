@@ -123,7 +123,7 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 22500,
+    "estimatedHeadcount": 22614,
     "headcountFormatted": "22K+"
   },
   {
@@ -195,8 +195,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1757,
-    "headcountFormatted": "1,757+"
+    "estimatedHeadcount": 1714,
+    "headcountFormatted": "1,714+"
   },
   {
     "company": "Hermeus",
@@ -462,8 +462,10 @@
     "readinessScore": 100,
     "govTractionScore": 10,
     "compositeScore": 95.5,
-    "contractsTracked": 0,
-    "agencies": [],
+    "contractsTracked": 1,
+    "agencies": [
+      "National Aeronautics and Space Administration"
+    ],
     "keyIndicators": {
       "clearance": false,
       "itar_compliant": false,
@@ -573,8 +575,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1771,
-    "headcountFormatted": "1,771+"
+    "estimatedHeadcount": 1757,
+    "headcountFormatted": "1,757+"
   },
   {
     "company": "Apex Space",
@@ -712,7 +714,7 @@
   },
   {
     "company": "Precision Neuroscience",
-    "sector": "Biotech & Medical",
+    "sector": "Biotech & Health",
     "readinessScore": 85,
     "govTractionScore": 8,
     "compositeScore": 76.5,
@@ -1289,7 +1291,7 @@
       "itar_compliant": true,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 914,
+    "estimatedHeadcount": 886,
     "headcountFormatted": "900+"
   },
   {
@@ -1497,8 +1499,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 2086,
-    "headcountFormatted": "2,086+"
+    "estimatedHeadcount": 2114,
+    "headcountFormatted": "2,114+"
   },
   {
     "company": "Northwood Space",
@@ -2077,6 +2079,24 @@
     "headcountFormatted": ""
   },
   {
+    "company": "DZYNE Technologies",
+    "sector": "Defense & Security",
+    "readinessScore": 70,
+    "govTractionScore": 6,
+    "compositeScore": 74.0,
+    "contractsTracked": 2,
+    "agencies": [
+      "Department of Defense"
+    ],
+    "keyIndicators": {
+      "clearance": true,
+      "itar_compliant": false,
+      "cmmc_level_3": false
+    },
+    "estimatedHeadcount": 0,
+    "headcountFormatted": ""
+  },
+  {
     "company": "Red 6",
     "sector": "Defense & Security",
     "readinessScore": 70,
@@ -2143,8 +2163,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 2714,
-    "headcountFormatted": "2,714+"
+    "estimatedHeadcount": 2700,
+    "headcountFormatted": "2,700+"
   },
   {
     "company": "Agility Robotics",
@@ -2233,22 +2253,6 @@
     ],
     "keyIndicators": {
       "clearance": false,
-      "itar_compliant": false,
-      "cmmc_level_3": false
-    },
-    "estimatedHeadcount": 0,
-    "headcountFormatted": ""
-  },
-  {
-    "company": "DZYNE Technologies",
-    "sector": "Defense & Security",
-    "readinessScore": 65,
-    "govTractionScore": 6,
-    "compositeScore": 74.0,
-    "contractsTracked": 0,
-    "agencies": [],
-    "keyIndicators": {
-      "clearance": true,
       "itar_compliant": false,
       "cmmc_level_3": false
     },
@@ -2812,8 +2816,8 @@
       "itar_compliant": false,
       "cmmc_level_3": false
     },
-    "estimatedHeadcount": 1357,
-    "headcountFormatted": "1,357+"
+    "estimatedHeadcount": 1343,
+    "headcountFormatted": "1,343+"
   },
   {
     "company": "Delian Alliance Industries",
