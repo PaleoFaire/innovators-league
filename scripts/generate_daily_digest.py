@@ -37,7 +37,13 @@ def load_json_safe(filename):
 
 
 def load_js_const(filename, const_name):
-    """Extract a JS const array/object from a .js file."""
+    """Extract a JS const array/object from a .js file.
+
+    Handles both JSON-formatted (quoted keys) and JS-object-literal
+    formatted (unquoted keys like `{ docNum: "…", date: "…" }`) content
+    by normalizing unquoted identifier keys to JSON-quoted keys before
+    parsing.
+    """
     p = DATA_DIR / filename
     if not p.exists():
         return None
@@ -45,8 +51,19 @@ def load_js_const(filename, const_name):
     m = re.search(rf'const {const_name}\s*=\s*(\[[\s\S]*?\]|\{{[\s\S]*?\}});', content)
     if not m:
         return None
+    block = m.group(1)
+    # First try parsing as-is (already valid JSON)
     try:
-        return json.loads(m.group(1))
+        return json.loads(block)
+    except json.JSONDecodeError:
+        pass
+    # Normalize: { identifier: → { "identifier":
+    normalized = re.sub(r'([{,]\s*)([A-Za-z_][A-Za-z0-9_]*)\s*:',
+                        r'\1"\2":', block)
+    # Strip trailing commas before } or ]
+    normalized = re.sub(r",(\s*[}\]])", r"\1", normalized)
+    try:
+        return json.loads(normalized)
     except json.JSONDecodeError:
         return None
 
@@ -240,26 +257,44 @@ def top_news(limit=10):
 
 
 def gov_highlights(limit=8):
-    """Biggest government contracts in last 7 days."""
+    """Biggest government contracts in the last 90 days.
+
+    sam_contracts_aggregated.json is organized PER COMPANY with individual
+    contracts nested under `recentOpportunities: [{title, agency, postedDate,
+    awardAmount, noticeId}, …]`. The old implementation read the top-level
+    `amount`/`date` fields (which are empty) and produced zero rows. Fix:
+    flatten every company's opportunities into individual contract rows,
+    then sort by dollar amount.
+    """
     raw = load_json_safe("sam_contracts_aggregated.json") or []
     items = []
-    for c in raw[:200]:
-        amt_str = c.get("amount", "") or c.get("awardAmount", "")
-        amt_raw = parse_amount_to_usd(str(amt_str))
-        if amt_raw <= 0:
+    for company_rec in raw[:200]:
+        if not isinstance(company_rec, dict):
             continue
-        date = c.get("date", c.get("awardDate", ""))
-        if not within_days(str(date)[:10], 14):
-            continue
-        items.append({
-            "company": c.get("company", c.get("awardee", "")),
-            "amount": amt_str,
-            "amount_raw": amt_raw,
-            "agency": c.get("agency", ""),
-            "description": c.get("description", c.get("title", "")),
-            "date": date,
-            "url": c.get("url", "https://sam.gov"),
-        })
+        company_name = company_rec.get("company", company_rec.get("awardee", ""))
+        opps = company_rec.get("recentOpportunities", []) or []
+        for opp in opps:
+            if not isinstance(opp, dict):
+                continue
+            amt_str = opp.get("awardAmount", "") or opp.get("amount", "")
+            amt_raw = parse_amount_to_usd(str(amt_str))
+            if amt_raw <= 0:
+                continue
+            date = str(opp.get("postedDate", opp.get("date", "")))[:10]
+            if not within_days(date, 90):
+                continue
+            notice_id = opp.get("noticeId", "")
+            url = (f"https://sam.gov/opp/{notice_id}/view"
+                   if notice_id else "https://sam.gov/")
+            items.append({
+                "company": company_name,
+                "amount": amt_str,
+                "amount_raw": amt_raw,
+                "agency": opp.get("agency", ""),
+                "description": opp.get("title", ""),
+                "date": date,
+                "url": url,
+            })
     items.sort(key=lambda x: x["amount_raw"], reverse=True)
     return items[:limit]
 
@@ -289,53 +324,110 @@ def market_movers(limit=8):
 
 
 def regulatory_highlights(limit=6):
-    """Recent FDA actions + federal register frontier-tech entries."""
+    """Recent frontier-relevant regulatory activity.
+
+    Pulls from two feeds:
+      • fda_actions_raw.json — FDA approvals, guidance, advisories
+      • federal_register_auto.js — daily FR docket, filtered to frontier sectors
+
+    Previous implementation had two bugs: (1) expected FR const name
+    `FEDERAL_REGISTER_AUTO` but the file declares `FEDERAL_REGISTER`,
+    so nothing loaded; (2) used `url` field which doesn't exist. Fixed
+    below by using the correct const name and constructing the FR url
+    from `docNum`.
+    """
     items = []
-    # FDA actions
+    # Note: the FR feed tags almost every record "ai" as a fallback (it's the
+    # dumping-ground sector), so matching "ai" alone surfaces EPA rules and
+    # marine-mammal notices. Restrict to the specific frontier sectors that
+    # actually signal hard-tech relevance.
+    FRONTIER_SECTORS = {"defense", "nuclear", "space", "drones",
+                        "biotech", "semi", "quantum"}
+
+    # ── FDA actions (may be stale; we still surface the freshest we have) ──
     fda = load_json_safe("fda_actions_raw.json") or []
-    for f in fda[:20]:
-        if not within_days(f.get("date", f.get("actionDate", ""))[:10], 14):
+    fda_with_dates = []
+    for f in fda:
+        if not isinstance(f, dict):
             continue
+        d = str(f.get("date", f.get("actionDate", "")))[:10]
+        if not d:
+            continue
+        fda_with_dates.append((d, f))
+    fda_with_dates.sort(key=lambda x: x[0], reverse=True)
+    for d, f in fda_with_dates[:3]:  # top 3 most-recent FDA items
         items.append({
             "kind": "FDA",
             "company": f.get("company", f.get("sponsor", "")),
-            "title": f.get("action", f.get("title", ""))[:140],
-            "date": f.get("date", f.get("actionDate", "")),
-            "url": f.get("url", "https://www.fda.gov"),
+            "title": (f.get("action") or f.get("title") or "")[:140],
+            "date": d,
+            "url": f.get("url", "https://www.fda.gov/news-events"),
         })
-    # Federal register
-    fr = load_js_const("federal_register_auto.js", "FEDERAL_REGISTER_AUTO") or []
-    for r in fr[:20]:
-        if not within_days(r.get("date", "")[:10], 14):
+
+    # ── Federal Register — filter to frontier-relevant dockets ──
+    fr = load_js_const("federal_register_auto.js", "FEDERAL_REGISTER") or []
+    fr_sorted = sorted(
+        [r for r in fr if isinstance(r, dict)],
+        key=lambda r: str(r.get("date", ""))[:10],
+        reverse=True,
+    )
+    fr_count = 0
+    for r in fr_sorted:
+        d = str(r.get("date", ""))[:10]
+        if not within_days(d, 14):
             continue
+        # Must have at least one frontier sector tag to make the cut
+        sector_tags = set((r.get("sectors", "") or "").split(", "))
+        if not sector_tags & FRONTIER_SECTORS:
+            continue
+        doc = r.get("docNum", "")
         items.append({
             "kind": "Federal Register",
             "company": r.get("company", ""),
-            "title": r.get("title", "")[:140],
-            "date": r.get("date", ""),
-            "url": r.get("url", "https://www.federalregister.gov"),
+            "title": (r.get("title") or "")[:140],
+            "date": d,
+            "url": (f"https://www.federalregister.gov/documents/search?"
+                    f"conditions[term]={doc}" if doc
+                    else "https://www.federalregister.gov"),
         })
+        fr_count += 1
+        if fr_count >= 6:
+            break
     return items[:limit]
 
 
 def patents_recent(limit=6):
-    """Recent patent grants from patents_aggregated.json."""
+    """Top patent-filing frontier companies.
+
+    patents_aggregated.json is company-level only — no individual patent
+    titles or dates. Each record has `company`, `patentCount`,
+    `recentPatents` (count of recent grants), `technologyAreas`, and
+    `latestPatentDate` (e.g. "2025-Q4"). So we render a leaderboard of
+    the most prolific filers rather than individual patent rows.
+    """
     raw = load_json_safe("patents_aggregated.json")
     if not raw or not isinstance(raw, list):
         return []
-    items = []
-    for p in raw[:30]:
+    companies = []
+    for p in raw:
         if not isinstance(p, dict):
             continue
-        if not within_days(str(p.get("grantDate", p.get("date", "")))[:10], 30):
+        recent = p.get("recentPatents", 0) or 0
+        if recent <= 0:
             continue
-        items.append({
+        areas = p.get("technologyAreas", []) or []
+        areas_str = ", ".join(areas[:3]) if isinstance(areas, list) else ""
+        companies.append({
             "company": p.get("company", p.get("assignee", "")),
-            "title": p.get("title", "")[:140],
-            "date": p.get("grantDate", p.get("date", "")),
-            "url": p.get("url", ""),
+            "title": (f"{recent} patents granted recently · "
+                      f"focus: {areas_str}" if areas_str
+                      else f"{recent} patents granted recently"),
+            "date": p.get("latestPatentDate", ""),
+            "url": (f"https://patents.google.com/?assignee="
+                    f"{(p.get('company') or '').replace(' ', '+')}"),
         })
-    return items[:limit]
+    companies.sort(key=lambda x: int(x["title"].split()[0]), reverse=True)
+    return companies[:limit]
 
 
 def main():

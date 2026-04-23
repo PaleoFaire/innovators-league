@@ -1,9 +1,73 @@
 {
-  "generatedAt": "2026-04-22T23:53:58.234632+00:00",
-  "date": "2026-04-22",
-  "dateDisplay": "Wednesday, April 22, 2026",
+  "generatedAt": "2026-04-23T01:55:07.707177+00:00",
+  "date": "2026-04-23",
+  "dateDisplay": "Thursday, April 23, 2026",
   "sections": {
-    "govActivity": [],
+    "govActivity": [
+      {
+        "company": "Palantir",
+        "amount": "$95M",
+        "amount_raw": 95000000.0,
+        "agency": "Department of Agriculture",
+        "description": "CENTRALIZE FARM PRODUCTION & CONSERVATION IT SYSTEMS, AUTOMATE PROCESSES, AND INTEGRATE DATA FOR BETTER EFFICIENCY PER T",
+        "date": "2026-04-18",
+        "url": "https://sam.gov/opp/12314426F0126/view"
+      },
+      {
+        "company": "Shield AI",
+        "amount": "$16M",
+        "amount_raw": 16000000.0,
+        "agency": "Department of Homeland Security",
+        "description": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.",
+        "date": "2026-02-27",
+        "url": "https://sam.gov/opp/70Z02326F93130005/view"
+      },
+      {
+        "company": "Shield AI",
+        "amount": "$2M",
+        "amount_raw": 2000000.0,
+        "agency": "Department of Homeland Security",
+        "description": "TASK ORDER FOR MR-UAS DEPLOYMENT SERVICES FOR CG NATIONAL SECURITY CUTTERS.",
+        "date": "2026-02-11",
+        "url": "https://sam.gov/opp/70Z02326F93130004/view"
+      },
+      {
+        "company": "Rocket Lab",
+        "amount": "$391K",
+        "amount_raw": 391000.0,
+        "agency": "National Aeronautics and Space Administration",
+        "description": "MARS END-TO-END COMMUNICATION SERVICE ARCHITECTURES: STUDIES TO ADVANCE END-TO-END COMMUNICATION SOLUTIONS FOR MARS EXPL",
+        "date": "2026-02-23",
+        "url": "https://sam.gov/opp/80GSFC26C0008/view"
+      },
+      {
+        "company": "Skydio",
+        "amount": "$251K",
+        "amount_raw": 251000.0,
+        "agency": "Department of the Interior",
+        "description": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL",
+        "date": "2026-02-04",
+        "url": "https://sam.gov/opp/140D0426F0169/view"
+      },
+      {
+        "company": "Skydio",
+        "amount": "$224K",
+        "amount_raw": 224000.0,
+        "agency": "Department of Agriculture",
+        "description": "DELIVERY ORDER FOR UAS AND ACCESSORIES",
+        "date": "2026-04-12",
+        "url": "https://sam.gov/opp/12639526F0393/view"
+      },
+      {
+        "company": "Skydio",
+        "amount": "$147K",
+        "amount_raw": 147000.0,
+        "agency": "Department of the Interior",
+        "description": "SKYDIO X2E AND NEXT GENERATION UAS BLANKET PURCHASE AGREEMENT CALL ORDER",
+        "date": "2026-03-25",
+        "url": "https://sam.gov/opp/140D0426F0309/view"
+      }
+    ],
     "marketMovers": [
       {
         "ticker": "LNZA",
@@ -62,14 +126,94 @@
         "change": 1.43
       }
     ],
-    "regulatory": [],
-    "patents": []
+    "regulatory": [
+      {
+        "kind": "FDA",
+        "company": "Medtronic",
+        "title": "",
+        "date": "2026-01-17",
+        "url": "https://www.fda.gov/news-events"
+      },
+      {
+        "kind": "FDA",
+        "company": "Intuitive Surgical",
+        "title": "",
+        "date": "2025-12-16",
+        "url": "https://www.fda.gov/news-events"
+      },
+      {
+        "kind": "FDA",
+        "company": "Tempus AI",
+        "title": "",
+        "date": "2025-09-19",
+        "url": "https://www.fda.gov/news-events"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
+        "title": "NextEra Energy Duane Arnold, LLC; Duane Arnold Energy Center; Applications for A",
+        "date": "2026-04-22",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-07796"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
+        "title": "Establishment of Restricted Areas R-5305A, R-5305B, and R-5305C; Camp Lejeune, N",
+        "date": "2026-04-21",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-07766"
+      },
+      {
+        "kind": "Federal Register",
+        "company": "",
+        "title": "Duke Energy Carolinas, LLC; Catawba Nuclear Station, Units 1 and 2; Independent ",
+        "date": "2026-04-21",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-07742"
+      }
+    ],
+    "patents": [
+      {
+        "company": "Tesla",
+        "title": "451 patents granted recently \u00b7 focus: Battery cells, Autopilot/FSD, Electric motors",
+        "date": "2025-Q4",
+        "url": "https://patents.google.com/?assignee=Tesla"
+      },
+      {
+        "company": "Ginkgo Bioworks",
+        "title": "152 patents granted recently \u00b7 focus: Cell programming, Organism design, Enzyme engineering",
+        "date": "2025-Q4",
+        "url": "https://patents.google.com/?assignee=Ginkgo+Bioworks"
+      },
+      {
+        "company": "Waymo",
+        "title": "116 patents granted recently \u00b7 focus: LiDAR perception, Motion planning, HD maps",
+        "date": "2025-Q4",
+        "url": "https://patents.google.com/?assignee=Waymo"
+      },
+      {
+        "company": "Tempus AI",
+        "title": "113 patents granted recently \u00b7 focus: Clinical genomics, Multi-modal data, AI diagnostics",
+        "date": "2025-Q4",
+        "url": "https://patents.google.com/?assignee=Tempus+AI"
+      },
+      {
+        "company": "Rivian",
+        "title": "98 patents granted recently \u00b7 focus: Skateboard platform, Tank-turn, Off-road EV",
+        "date": "2025-Q4",
+        "url": "https://patents.google.com/?assignee=Rivian"
+      },
+      {
+        "company": "Aurora Innovation",
+        "title": "86 patents granted recently \u00b7 focus: Trucking autonomy, FirstLight LiDAR, Driver platform",
+        "date": "2025-Q4",
+        "url": "https://patents.google.com/?assignee=Aurora+Innovation"
+      }
+    ]
   },
   "stats": {
-    "contractCount": 0,
+    "contractCount": 7,
     "moverCount": 8,
-    "regCount": 0,
-    "patentCount": 0,
+    "regCount": 6,
+    "patentCount": 6,
     "topMover": "LNZA -40.1%"
   }
 }
