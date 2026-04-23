@@ -1,140 +1,151 @@
 // Auto-generated news signals
-// Last updated: 2026-04-22T23:53:50.230Z
+// Last updated: 2026-04-23T03:38:08.272Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1776902030230,
+    "id": 1776915488272,
+    "type": "funding",
+    "company": "Atmos Space Cargo",
+    "headline": "Atmos Space Cargo raises $30 million for reentry missions",
+    "source": "SpaceNews",
+    "time": "1h ago",
+    "impact": "high",
+    "unread": true,
+    "link": "https://spacenews.com/atmos-space-cargo-raises-30-million-for-reentry-missions/"
+  },
+  {
+    "id": 1776915488273,
     "type": "news",
     "company": "Cape",
     "headline": "Cape EMS expands into advanced interconnect engineering for EV mobility, AI infrastructure, energy systems with GrandCap",
     "source": "TechNode Global",
-    "time": "Just now",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://technode.global/2026/04/23/cape-ems-expands-into-advanced-interconnect-engineering-for-ev-mobility-ai-infrastructure-energy-systems-with-grandcape/"
   },
   {
-    "id": 1776902030231,
+    "id": 1776915488274,
     "type": "hire",
     "company": "OpenAI",
     "headline": "OpenAI's head of health lays out the AI giant’s healthcare ambitions",
     "source": "Endpoints News",
-    "time": "3h ago",
+    "time": "7h ago",
     "impact": "low",
     "unread": true,
     "link": "https://endpoints.news/openais-head-of-health-lays-out-the-ai-giants-healthcare-ambitions/"
   },
   {
-    "id": 1776902030232,
+    "id": 1776915488275,
     "type": "funding",
     "company": "SpaceX",
     "headline": "How SpaceX preempted a $2B fundraise with a $60B buyout offer",
     "source": "TechCrunch",
-    "time": "4h ago",
+    "time": "7h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/"
   },
   {
-    "id": 1776902030233,
+    "id": 1776915488276,
+    "type": "ipo",
+    "company": "AST SpaceMobile",
+    "headline": "FCC clears AST SpaceMobile constellation as launch setback clouds ramp-up",
+    "source": "SpaceNews",
+    "time": "7h ago",
+    "impact": "low",
+    "unread": true,
+    "link": "https://spacenews.com/fcc-clears-ast-spacemobile-constellation-as-launch-setback-clouds-ramp-up/"
+  },
+  {
+    "id": 1776915488277,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Will Buy Cursor",
     "source": "Next Big Future",
-    "time": "4h ago",
+    "time": "8h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://www.nextbigfuture.com/2026/04/spacex-will-buy-cursor.html"
   },
   {
-    "id": 1776902030234,
+    "id": 1776915488278,
     "type": "hire",
     "company": "Rivian",
     "headline": "Rivian (RIVN) starts R2 production days after tornado hit factory, deliveries this spring",
     "source": "Electrek",
-    "time": "8h ago",
+    "time": "12h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://electrek.co/2026/04/22/rivian-r2-starts-production-tornado-deliveries-spring/"
   },
   {
-    "id": 1776902030235,
-    "type": "news",
-    "company": "OpenAI",
-    "headline": "OpenAI teams up with Infosys to bring AI tools to more businesses",
-    "source": "TechCrunch",
-    "time": "9h ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/"
-  },
-  {
-    "id": 1776902030236,
+    "id": 1776915488279,
     "type": "news",
     "company": "GrayMatter Robotics",
     "headline": "HII partners with Path Robotics, GrayMatter Robotics to accelerate shipbuilding",
     "source": "The Robot Report",
-    "time": "11h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/hii-partners-path-robotics-graymatter-robotics-accelerate-shipbuilding/"
   },
   {
-    "id": 1776902030237,
+    "id": 1776915488280,
     "type": "milestone",
     "company": "Matter",
     "headline": "The Download: introducing the 10 Things That Matter in AI Right Now",
     "source": "MIT Tech Review",
-    "time": "11h ago",
+    "time": "15h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/"
   },
   {
-    "id": 1776902030238,
+    "id": 1776915488281,
     "type": "news",
     "company": "OpenAI",
     "headline": "Join Our Livestream: Musk v. Altman and the Future of OpenAI",
     "source": "Wired",
-    "time": "13h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/livestream-musk-v-altman-trial/"
   },
   {
-    "id": 1776902030239,
+    "id": 1776915488282,
     "type": "funding",
     "company": "Atmos Space Cargo",
     "headline": "ATMOS Space Cargo secures €25.7M Series A to expand Europe’s sovereign return-from-orbit capability",
     "source": "Tech.eu",
-    "time": "19h ago",
+    "time": "23h ago",
     "impact": "medium",
     "unread": false,
     "link": "https://tech.eu/2026/04/22/atmos-space-cargo-secures-eur257-million-to-expand-europes-sovereign-return-from-orbit-capability/"
   },
   {
-    "id": 1776902030240,
+    "id": 1776915488283,
     "type": "news",
     "company": "Humanoid",
     "headline": "Vietnam&#8217;s VinDynamics, Germany&#8217;s Schaeffler to jointly advance humanoid robotics development",
     "source": "TechNode Global",
-    "time": "20h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://technode.global/2026/04/22/vietnams-vindynamics-germanys-schaeffler-to-jointly-advance-humanoid-robotics-development/"
   },
   {
-    "id": 1776902030241,
+    "id": 1776915488284,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI and Cursor Try to Catch Athropic Claude Code",
     "source": "Next Big Future",
-    "time": "23h ago",
+    "time": "1d ago",
     "impact": "high",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/04/spacex-has-option-to-buy-cursor-for-60-billion-xai-and-cursor-try-to-catch-athropic-claude-code.html"
   },
   {
-    "id": 1776902030242,
+    "id": 1776915488285,
     "type": "news",
     "company": "Matter",
     "headline": "Roundtables: Unveiling The 10 Things That Matter in AI Right Now",
@@ -145,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/04/21/1135486/roundtables-unveiling-the-10-things-that-matter-in-ai-right-now/"
   },
   {
-    "id": 1776902030243,
+    "id": 1776915488286,
     "type": "news",
     "company": "Saildrone",
     "headline": "Saildrone announces new USV class aimed at anti-submarine warfare",
@@ -156,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.defensenews.com/industry/techwatch/2026/04/21/saildrone-announces-new-usv-class-aimed-at-anti-submarine-warfare/"
   },
   {
-    "id": 1776902030244,
+    "id": 1776915488287,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI Beefs Up ChatGPT’s Image Generation Model",
@@ -167,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/openai-beefs-up-chatgpts-image-generation-model/"
   },
   {
-    "id": 1776902030245,
+    "id": 1776915488288,
     "type": "news",
     "company": "Anthropic",
     "headline": "Mozilla Used Anthropic’s Mythos to Find and Fix 271 Bugs in Firefox",
@@ -178,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/mozilla-used-anthropics-mythos-to-find-271-bugs-in-firefox/"
   },
   {
-    "id": 1776902030246,
+    "id": 1776915488289,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "Anthropic and Status of AI Data Centers",
@@ -189,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/anthropic-and-status-of-ai-data-centers.html"
   },
   {
-    "id": 1776902030247,
+    "id": 1776915488290,
     "type": "hire",
     "company": "Humanoid",
     "headline": "Foxconn to manufacture humanoid robots in Vietnam",
@@ -200,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/04/21/foxconn-to-manufacture-humanoid-robots-in-vietnam/"
   },
   {
-    "id": 1776902030248,
+    "id": 1776915488291,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Falcon 9 Almost Only Rocket for AST Space Mobile, Amazon LEO and Space Force",
@@ -209,16 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/04/spacex-falcon-9-almost-only-rocket-for-ast-space-mobile-amazon-leo-and-space-force.html"
-  },
-  {
-    "id": 1776902030249,
-    "type": "funding",
-    "company": "Scale AI",
-    "headline": "VisioLab raises $11M Series A to scale AI self-checkout globally",
-    "source": "Tech.eu",
-    "time": "1d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://tech.eu/2026/04/21/visiolab-raises-11m-series-a-to-scale-ai-self-checkout-globally/"
   }
 ];
