@@ -11,13 +11,13 @@
     "space": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 9.65,
+      "avg_change": 10.2,
       "count": 7
     },
     "autonomous": {
       "gainers": 5,
       "losers": 2,
-      "avg_change": 2.49,
+      "avg_change": 1.99,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": 0.61,
+      "avg_change": -0.37,
       "count": 3
     },
     "transportation": {
@@ -79,9 +79,9 @@
       17.57
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      17.12
+      "SMR",
+      "NuScale Power",
+      15.88
     ]
   ],
   "topLosers": [
@@ -93,7 +93,12 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      -2.76
+      -2.6
+    ],
+    [
+      "9348.T",
+      "ispace",
+      -2.82
     ],
     [
       "RGTI",
@@ -101,15 +106,10 @@
       -3.82
     ],
     [
-      "9348.T",
-      "ispace",
-      -4.44
-    ],
-    [
       "LNZA",
       "LanzaTech",
       -39.96
     ]
   ],
-  "lastUpdated": "2026-04-23 02:56:51"
+  "lastUpdated": "2026-04-23 08:02:24"
 }
