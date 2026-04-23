@@ -1,5 +1,26 @@
 [
   {
+    "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
+    "link": "https://spectrum.ieee.org/ai-cybersecurity-mythos",
+    "description": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that t",
+    "pubDate": "Thu, 23 Apr 2026 14:00:01 +0000",
+    "category": "Cybersecurity",
+    "source": "IEEE Spectrum",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Galvanick"
+    ],
+    "sectors": [
+      "ai",
+      "defense"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
     "title": "Elon Musk mulled Mistral deal to take on OpenAI and Anthropic, reports say",
     "link": "https://sifted.eu/articles/elon-musk-xai-mistral-partnership/",
     "description": "",
@@ -17,7 +38,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "2h ago"
   },
   {
     "title": "Atmos Space Cargo raises $30 million for reentry missions",
@@ -38,7 +59,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "Cape EMS expands into advanced interconnect engineering for EV mobility, AI infrastructure, energy systems with GrandCape",
@@ -57,7 +78,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "13h ago"
+    "time": "15h ago"
   },
   {
     "title": "OpenAI's head of health lays out the AI giant’s healthcare ambitions",
@@ -78,7 +99,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "16h ago"
+    "time": "18h ago"
   },
   {
     "title": "How SpaceX preempted a $2B fundraise with a $60B buyout offer",
@@ -97,7 +118,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "16h ago"
+    "time": "18h ago"
   },
   {
     "title": "FCC clears AST SpaceMobile constellation as launch setback clouds ramp-up",
@@ -116,7 +137,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "16h ago"
+    "time": "18h ago"
   },
   {
     "title": "SpaceX Will Buy Cursor",
@@ -137,7 +158,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "16h ago"
+    "time": "18h ago"
   },
   {
     "title": "Rivian (RIVN) starts R2 production days after tornado hit factory, deliveries this spring",
@@ -156,7 +177,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "20h ago"
+    "time": "22h ago"
   },
   {
     "title": "HII partners with Path Robotics, GrayMatter Robotics to accelerate shipbuilding",
@@ -178,7 +199,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "The Download: introducing the 10 Things That Matter in AI Right Now",
@@ -197,7 +218,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "23h ago"
+    "time": "1d ago"
   },
   {
     "title": "Join Our Livestream: Musk v. Altman and the Future of OpenAI",
@@ -319,25 +340,6 @@
       "defense"
     ],
     "type": "news",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "OpenAI Beefs Up ChatGPT’s Image Generation Model",
-    "link": "https://www.wired.com/story/openai-beefs-up-chatgpts-image-generation-model/",
-    "description": "The ChatGPT Images 2.0 model is here. Our testing shows it’s better at creating more detailed images and rendering text, but it still struggles with languages other than English.",
-    "pubDate": "Tue, 21 Apr 2026 19:00:00 +0000",
-    "category": "Gear",
-    "source": "Wired",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
     "impact": "low",
     "time": "1d ago"
   },

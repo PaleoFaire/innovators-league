@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T12:04:48.180160+00:00",
+  "generatedAt": "2026-04-23T14:06:42.451492+00:00",
   "date": "2026-04-23",
   "dateDisplay": "Thursday, April 23, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 24.87,
-        "changePercent": -39.96,
-        "change": -16.55
+        "price": 25.74,
+        "changePercent": -28.3,
+        "change": -10.16
       },
       {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 29.94,
-        "changePercent": 25.38,
-        "change": 6.06
-      },
-      {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 90.04,
-        "changePercent": 22.34,
-        "change": 16.44
-      },
-      {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 3.96,
-        "changePercent": 21.47,
-        "change": 0.7
-      },
-      {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 303.46,
-        "changePercent": 17.57,
-        "change": 45.34
-      },
-      {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 13.57,
-        "changePercent": 15.88,
-        "change": 1.86
-      },
-      {
-        "ticker": "PL",
-        "company": "Planet Labs",
-        "price": 39.47,
-        "changePercent": 14.71,
-        "change": 5.06
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 2.61,
+        "changePercent": -21.86,
+        "change": -0.73
       },
       {
         "ticker": "OKLO",
         "company": "Oklo",
-        "price": 72.41,
-        "changePercent": 14.3,
-        "change": 9.06
+        "price": 77.96,
+        "changePercent": 21.41,
+        "change": 13.75
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 3.94,
+        "changePercent": 21.01,
+        "change": 0.69
+      },
+      {
+        "ticker": "QS",
+        "company": "QuantumScape",
+        "price": 8.32,
+        "changePercent": 18.18,
+        "change": 1.28
+      },
+      {
+        "ticker": "SMR",
+        "company": "NuScale Power",
+        "price": 13.44,
+        "changePercent": 17.79,
+        "change": 2.03
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 195.96,
+        "changePercent": 14.72,
+        "change": 25.15
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 80.69,
+        "changePercent": -11.28,
+        "change": -10.25
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA -40.0%"
+    "topMover": "LNZA -28.3%"
   }
 }
