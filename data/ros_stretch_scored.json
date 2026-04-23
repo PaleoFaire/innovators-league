@@ -1,0 +1,5409 @@
+[
+  {
+    "rank": 1,
+    "name": "Dream Security",
+    "score": 108.4,
+    "company": {
+      "name": "Dream Security",
+      "sector": "Defense & Security",
+      "location": "Tel Aviv, Israel",
+      "founder": "Shalev Hulio, Sebastian Kurz",
+      "founded": 2023,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M+",
+      "valuation": "$1.5B",
+      "description": "AI-driven cybersecurity for critical infrastructure \u2014 $100M+ Series B at $1.5B valuation November 2024 led by Bain Capital Ventures.",
+      "insight": "Critical infrastructure is nation-state priority everywhere. Dream's NSO-alumni team moves faster than any incumbent."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        10,
+        "2023"
+      ],
+      [
+        "FI",
+        23.4,
+        "composite 93.5"
+      ],
+      [
+        "govTraction",
+        10.0,
+        "axis 10.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 2,
+    "name": "Impulse Space",
+    "score": 107.2,
+    "company": {
+      "name": "Impulse Space",
+      "sector": "Space & Aerospace",
+      "location": "Redondo Beach, CA",
+      "founder": "Tom Mueller",
+      "founded": 2021,
+      "fundingStage": "Series C",
+      "totalRaised": "$300M+",
+      "valuation": "$1.8B",
+      "description": "Orbital kickstage for last-mile payload delivery and high-maneuverability satellite buses. Successfully launched 3 missions. $300M Series C from Founders Fund, Lux, RTX.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$300M+"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        22.2,
+        "composite 89.0"
+      ],
+      [
+        "govTraction",
+        10.0,
+        "axis 10.0"
+      ],
+      [
+        "FORM_D",
+        15,
+        "filed 2026-04-15"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": {
+      "company": "Impulse Space",
+      "issuer_name": "Impulse Space Apr 2026 a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-04-15",
+      "cik": "2129918",
+      "accession": "0002129918-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002129918&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002129918-26-000001",
+      "offering_amount": "457600",
+      "amount_sold": "457600",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    }
+  },
+  {
+    "rank": 3,
+    "name": "Turion Space",
+    "score": 106.4,
+    "company": {
+      "name": "Turion Space",
+      "sector": "Space & Aerospace",
+      "location": "Irvine, CA",
+      "founder": "Ryan Westerdahl",
+      "founded": 2020,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M+",
+      "valuation": "",
+      "description": "Space debris removal and real-time orbital domain awareness. Building autonomous spacecraft for on-orbit servicing, proximity operations, and space sustainability.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        7,
+        "2020"
+      ],
+      [
+        "FI",
+        19.4,
+        "composite 77.5"
+      ],
+      [
+        "govTraction",
+        10.0,
+        "axis 10.0"
+      ],
+      [
+        "FORM_D",
+        15,
+        "filed 2026-04-15"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": {
+      "company": "Turion Space",
+      "issuer_name": "Turion Space Mar 2026 a Series of CGF2021 LLC",
+      "form": "D",
+      "filed_date": "2026-04-15",
+      "cik": "2128431",
+      "accession": "0002128431-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002128431&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002128431-26-000001",
+      "offering_amount": "50000",
+      "amount_sold": "50000",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    }
+  },
+  {
+    "rank": 4,
+    "name": "Harmattan AI",
+    "score": 105.4,
+    "company": {
+      "name": "Harmattan AI",
+      "sector": "Defense & Security",
+      "location": "Paris, France",
+      "founder": "Mouad M'Ghari, Martin de Gourcuff",
+      "founded": 2024,
+      "fundingStage": "Series B",
+      "totalRaised": "$200M",
+      "valuation": "$1.4B",
+      "description": "AI-enabled combat micro-drones (1.8kg, autonomous targeting) \u2014 $200M Series B led by Dassault Aviation January 2026 at a $1.4B valuation; DGA contract for 1,000 drones in 2025.",
+      "insight": "France's DGA rarely anchors startups \u2014 they did here. Harmattan is the French equivalent of Anduril's Roadrunner."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$200M"
+      ],
+      [
+        "age",
+        10,
+        "2024"
+      ],
+      [
+        "FI",
+        22.4,
+        "composite 89.5"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 5,
+    "name": "Heven AeroTech",
+    "score": 102.5,
+    "company": {
+      "name": "Heven AeroTech",
+      "sector": "Defense & Security",
+      "location": "Northern Virginia, USA",
+      "founder": "Bentzion Levinson",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M+",
+      "valuation": "$1B+",
+      "description": "Hydrogen-fuel-cell long-endurance heavy-lift drones for IDF and US DoD \u2014 Israeli-founded and -engineered; rebranded Heven AeroTech Sept 2025 and moved HQ from Miami to Northern Virginia. $1B+ valuation after $100M round led by IonQ.",
+      "insight": "Heven is Israel's first defense-tech unicorn and IonQ-backed \u2014 signals real US DoD pull."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        22.5,
+        "composite 90.0"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 6,
+    "name": "ElevenLabs",
+    "score": 101.0,
+    "company": {
+      "name": "ElevenLabs",
+      "sector": "AI & Software",
+      "location": "New York, NY",
+      "founder": "Piotr Dabkowski, Mati Staniszewski",
+      "founded": 2022,
+      "fundingStage": "Series C",
+      "totalRaised": "$200M+",
+      "valuation": "$3B+",
+      "description": "AI voice synthesis, cloning, and audio generation platform. Making any content instantly available in any language with natural-sounding AI voices.",
+      "insight": "ElevenLabs owns the voice AI market with a quality moat that keeps widening. At $11B valuation, they're pricing in a world where every piece of content is instantly available in every language \u2014 and that world is coming fast."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$200M+"
+      ],
+      [
+        "age",
+        10,
+        "2022"
+      ],
+      [
+        "FI",
+        17.0,
+        "composite 68.0"
+      ],
+      [
+        "govTraction",
+        1.0,
+        "axis 1.0"
+      ],
+      [
+        "FORM_D",
+        15,
+        "filed 2026-04-22"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "AI & Software"
+      ]
+    ],
+    "form_d": {
+      "company": "ElevenLabs",
+      "issuer_name": "ElevenLabs 36 a Series of Denver Ventures I LLC",
+      "form": "D",
+      "filed_date": "2026-04-22",
+      "cik": "2128938",
+      "accession": "0002128938-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002128938&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002128938-26-000001",
+      "offering_amount": "5309737",
+      "amount_sold": "5309737",
+      "amount_remaining": "0",
+      "securities_type": "",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    }
+  },
+  {
+    "rank": 7,
+    "name": "Cambridge Aerospace",
+    "score": 100.0,
+    "company": {
+      "name": "Cambridge Aerospace",
+      "sector": "Defense & Security",
+      "location": "Cambridge, UK",
+      "founder": "Undisclosed (ex-defense founders)",
+      "founded": 2024,
+      "fundingStage": "Series A",
+      "totalRaised": "$136M (raising $200M)",
+      "valuation": "~$1B",
+      "description": "Skyhammer jet-powered drone/missile interceptor \u2014 won UK MoD contract April 2026 with first deliveries in May.",
+      "insight": "Counter-drone economics are broken. Cambridge Aerospace is one of very few solutions that cost less than the threats they kill."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$136M (raising $200M)"
+      ],
+      [
+        "age",
+        10,
+        "2024"
+      ],
+      [
+        "FI",
+        22.0,
+        "composite 88.0"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 8,
+    "name": "Stark Defence",
+    "score": 99.5,
+    "company": {
+      "name": "Stark Defence",
+      "sector": "Defense & Security",
+      "location": "Berlin, Germany",
+      "founder": "Florian Seibel, Uwe Horstmann, Johannes Schaback",
+      "founded": 2024,
+      "fundingStage": "Series A",
+      "totalRaised": "$100M+",
+      "valuation": "$500M",
+      "description": "Virtus VTOL loitering munitions and AI C2 software \u2014 $62M Sequoia round and Bundeswehr framework contract up to \u20ac2.86B.",
+      "insight": "Europe's defense wave needs German champions. Stark + \u20ac2.86B Bundeswehr deal is one."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        10,
+        "2024"
+      ],
+      [
+        "FI",
+        21.5,
+        "composite 86.0"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 9,
+    "name": "Varda Space Industries",
+    "score": 99.4,
+    "company": {
+      "name": "Varda Space Industries",
+      "sector": "Space & Aerospace",
+      "location": "El Segundo, CA",
+      "founder": "Will Bruey, Delian Asparouhov",
+      "founded": 2020,
+      "fundingStage": "Series C",
+      "totalRaised": "$187M+",
+      "valuation": "$1.5B",
+      "description": "Manufacturing pharmaceuticals in microgravity and returning them to Earth via re-entry capsules. Launched 5 missions in 2025. $187M Series C from Founders Fund and Khosla Ventures.",
+      "insight": "Co-founded by Delian Asparouhov from Founders Fund. In-space pharmaceutical manufacturing is the killer app for microgravity \u2014 plus hypersonic re-entry capability is the ultimate dual-use technology."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$187M+"
+      ],
+      [
+        "age",
+        7,
+        "2020"
+      ],
+      [
+        "FI",
+        22.4,
+        "composite 89.5"
+      ],
+      [
+        "govTraction",
+        10.0,
+        "axis 10.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 10,
+    "name": "Red 6",
+    "score": 99.1,
+    "company": {
+      "name": "Red 6",
+      "sector": "Defense & Security",
+      "location": "Orlando, FL",
+      "founder": "Daniel Robinson",
+      "founded": 2018,
+      "fundingStage": "Series B+",
+      "totalRaised": "$100M+",
+      "valuation": "",
+      "description": "Airborne tactical AR system (ATARS) for pilot training with synthetic adversaries \u2014 $30M USAF contract, Lockheed partnership, $100M+ raised.",
+      "insight": "Live-fly dogfight training is prohibitively expensive. Red 6's AR lets F-16s dogfight Flankers safely at scale."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B+"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        20.1,
+        "composite 80.5"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 11,
+    "name": "Neros",
+    "score": 98.8,
+    "company": {
+      "name": "Neros",
+      "sector": "Defense & Security",
+      "location": "El Segundo, CA",
+      "founder": "Soren Monroe-Anderson, Olaf Hichwa",
+      "founded": 2023,
+      "fundingStage": "Series B",
+      "totalRaised": "$110M+",
+      "valuation": "",
+      "description": "America's leading FPV drone manufacturer. Produces ~1,000 drones monthly. Selected as US Army's primary FPV manufacturer for the Attritable Systems program. Delivered 6,000 Archer drones to Ukraine.",
+      "insight": "Mass-producing FPV drones for Ukraine and US allies at scale. Core insight: drones are now consumables \u2014 winning this war requires building them like ammunition, not aircraft."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$110M+"
+      ],
+      [
+        "age",
+        10,
+        "2023"
+      ],
+      [
+        "FI",
+        16.8,
+        "composite 67.0"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 12,
+    "name": "Stoke Space",
+    "score": 98.8,
+    "company": {
+      "name": "Stoke Space",
+      "sector": "Space & Aerospace",
+      "location": "Kent, WA",
+      "founder": "Andy Lapsa, Tom Feldman",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$175M+",
+      "valuation": "$1B",
+      "description": "Building a fully reusable rocket with a revolutionary reusable second stage. One of the most technically ambitious new launch companies.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$175M+"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        16.8,
+        "composite 67.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "FORM_D",
+        15,
+        "filed 2026-04-16"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": {
+      "company": "Stoke Space",
+      "issuer_name": "Stoke Space Technologies, Inc",
+      "form": "D",
+      "filed_date": "2026-04-16",
+      "cik": "1861415",
+      "accession": "0001861415-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001861415&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001861415-26-000001",
+      "offering_amount": "350000015",
+      "amount_sold": "275000029",
+      "amount_remaining": "74999986",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    }
+  },
+  {
+    "rank": 13,
+    "name": "Raphe mPhibr",
+    "score": 98.8,
+    "company": {
+      "name": "Raphe mPhibr",
+      "sector": "Defense & Security",
+      "location": "Noida, India",
+      "founder": "Vivek Mishra, Vikash Mishra",
+      "founded": 2017,
+      "fundingStage": "Series B",
+      "totalRaised": "$145M+",
+      "valuation": "",
+      "description": "Heavy-lift and high-altitude military UAVs \u2014 $100M June 2025 round, used in Operation Sindoor, part of MoD's \u20b930,000 Cr MALE UAV order.",
+      "insight": "India needs sovereign UAVs at scale. Raphe mPhibr is the only startup that has shipped in combat and landed the big MoD order."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$145M+"
+      ],
+      [
+        "age",
+        4,
+        "2017"
+      ],
+      [
+        "FI",
+        21.8,
+        "composite 87.0"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 14,
+    "name": "Defense Unicorns",
+    "score": 97.1,
+    "company": {
+      "name": "Defense Unicorns",
+      "sector": "Defense & Security",
+      "location": "Colorado Springs, CO",
+      "founder": "Rob Slaughter, Jeff McCoy, Andrew Greene",
+      "founded": 2021,
+      "fundingStage": "Series B",
+      "totalRaised": "$186.5M",
+      "valuation": "$1B",
+      "description": "Open-source software platform enabling secure deployment of code and updates in air-gapped military and classified environments using Kubernetes. Zarf tool packages and deploys software stacks to disconnected clusters. $1B valuation.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$186.5M"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        22.1,
+        "composite 88.5"
+      ],
+      [
+        "govTraction",
+        10.0,
+        "axis 10.0"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 15,
+    "name": "Synspective",
+    "score": 96.8,
+    "company": {
+      "name": "Synspective",
+      "sector": "Space & Aerospace",
+      "location": "Tokyo, Japan",
+      "founder": "Motoyuki Arai",
+      "founded": 2018,
+      "fundingStage": "Series C",
+      "totalRaised": "~$220M",
+      "valuation": "",
+      "description": "Small SAR satellite constellation for all-weather EO and defense ISR \u2014 selected as SAR imagery partner in Japan MoD's \u00a5283B (~$1.8B) constellation PFI contract December 2025.",
+      "insight": "Japan just wrote the biggest commercial SAR contract ever. Synspective owns the lion's share."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "~$220M"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        21.8,
+        "composite 87.0"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 16,
+    "name": "Majestic Labs",
+    "score": 96.4,
+    "company": {
+      "name": "Majestic Labs",
+      "sector": "Chips & Semiconductors",
+      "location": "Tel Aviv, Israel",
+      "founder": "Ofer Shacham, Sha Rabii, Masumi Reynders",
+      "founded": 2024,
+      "fundingStage": "Series A",
+      "totalRaised": "$100M+",
+      "valuation": "",
+      "description": "Disaggregated-memory AI server architecture using custom accelerator + memory interface chips \u2014 $100M+ raised.",
+      "insight": "Memory is the new AI bottleneck. Majestic's ex-Google/Meta team is building the architectural fix."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        10,
+        "2024"
+      ],
+      [
+        "FI",
+        19.4,
+        "composite 77.5"
+      ],
+      [
+        "govTraction",
+        3.0,
+        "axis 3.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "mafia",
+        5,
+        ""
+      ],
+      [
+        "sector",
+        4,
+        "Chips & Semiconductors"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 17,
+    "name": "Muon Space",
+    "score": 95.6,
+    "company": {
+      "name": "Muon Space",
+      "sector": "Space & Aerospace",
+      "location": "Mountain View, CA",
+      "founder": "Jonny Dyer",
+      "founded": 2021,
+      "fundingStage": "Series B",
+      "totalRaised": "$188M",
+      "valuation": "",
+      "description": "Custom satellite constellations for climate and defense missions \u2014 $188M total including $44.6M Space Force SBIR December 2025.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$188M"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        20.6,
+        "composite 82.5"
+      ],
+      [
+        "govTraction",
+        10.0,
+        "axis 10.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 18,
+    "name": "Hermeus",
+    "score": 95.1,
+    "company": {
+      "name": "Hermeus",
+      "sector": "Supersonic & Hypersonic",
+      "location": "Los Angeles, CA",
+      "founder": "AJ Piplica",
+      "founded": 2018,
+      "fundingStage": "Series C",
+      "totalRaised": "$500M",
+      "valuation": "$1B",
+      "description": "Hypersonic aircraft company \u2014 $500M Series C at $1B valuation April 2026; Quarterhorse uncrewed hypersonic testbed with DoD contracts. HQ moved from Atlanta to Los Angeles April 2026.",
+      "insight": "Hermeus's military-first strategy is smart \u2014 DoD will pay for Mach 5 capabilities that commercial aviation won't need for decades. The Chimera engine's turbine-to-ramjet transition is the key technical risk."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        5,
+        "$500M"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        23.1,
+        "composite 92.5"
+      ],
+      [
+        "govTraction",
+        10.0,
+        "axis 10.0"
+      ],
+      [
+        "FORM_D",
+        15,
+        "filed 2026-04-14"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Supersonic & Hypersonic"
+      ]
+    ],
+    "form_d": {
+      "company": "Hermeus",
+      "issuer_name": "Hermeus Corp",
+      "form": "D",
+      "filed_date": "2026-04-14",
+      "cik": "1831988",
+      "accession": "0001831988-26-000002",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001831988&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0001831988-26-000002",
+      "offering_amount": "200589992",
+      "amount_sold": "200589992",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    }
+  },
+  {
+    "rank": 19,
+    "name": "ARX Robotics",
+    "score": 94.4,
+    "company": {
+      "name": "ARX Robotics",
+      "sector": "Defense & Security",
+      "location": "Munich, Germany",
+      "founder": "Marc Wietfeld",
+      "founded": 2022,
+      "fundingStage": "Series A",
+      "totalRaised": "$106M+",
+      "valuation": "",
+      "description": "Autonomous unmanned ground systems for NATO forces. Converts legacy military vehicles to unmanned platforms. EUR42M Series A backed by NATO Innovation Fund.",
+      "insight": "NATO-backed. Building UK production facility. Modular platform that retrofits trucks into unmanned systems \u2014 solving the supply problem without designing new vehicles from scratch."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$106M+"
+      ],
+      [
+        "age",
+        10,
+        "2022"
+      ],
+      [
+        "FI",
+        17.4,
+        "composite 69.5"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 20,
+    "name": "Monumo",
+    "score": 94.1,
+    "company": {
+      "name": "Monumo",
+      "sector": "Chips & Semiconductors",
+      "location": "Cambridge, UK",
+      "founder": "Dominic Vergine",
+      "founded": 2021,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M",
+      "valuation": "",
+      "description": "AI-designed electric motors optimising for efficiency, weight, and cost \u2014 ~$100M raised for next-generation industrial and automotive EV motors.",
+      "insight": "Every EV, pump, and HVAC system needs better motors. Monumo's AI design is generating IP no human team can match."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        17.1,
+        "composite 68.5"
+      ],
+      [
+        "govTraction",
+        3.0,
+        "axis 3.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Chips & Semiconductors"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 21,
+    "name": "Calogena",
+    "score": 94.0,
+    "company": {
+      "name": "Calogena",
+      "sector": "Nuclear Energy",
+      "location": "Paris, France",
+      "founder": "Fr\u00e9d\u00e9ric Mariotte",
+      "founded": 2023,
+      "fundingStage": "Series A",
+      "totalRaised": "\u20ac100M",
+      "valuation": "",
+      "description": "Compact PWR SMR for district heating \u2014 \u20ac100M March 2026 France 2030 funding; first French SMR to submit a DAC to ASN (Feb 2026).",
+      "insight": "District heating is unelectrifiable at scale without nuclear. Calogena is the first French bet to reach regulatory review."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "\u20ac100M"
+      ],
+      [
+        "age",
+        10,
+        "2023"
+      ],
+      [
+        "FI",
+        19.0,
+        "composite 76.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Nuclear Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 22,
+    "name": "Ocius Technology",
+    "score": 93.6,
+    "company": {
+      "name": "Ocius Technology",
+      "sector": "Defense & Security",
+      "location": "Sydney, Australia",
+      "founder": "Robert Dane",
+      "founded": 0,
+      "fundingStage": "Series B",
+      "totalRaised": "A$176M Australian Program of Record contract (March 2026)",
+      "valuation": "",
+      "description": "Wind- and solar-powered Bluebottle autonomous surface vessels \u2014 won A$176M Program of Record March 2026 for 40 Bluebottles over 5 years for the Royal Australian Navy.",
+      "insight": "Persistent USVs change the Pacific surveillance map. Ocius has survived 20m waves \u2014 proof of seaworthiness."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "A$176M Australian Program of Record contract (March 2026)"
+      ],
+      [
+        "FI",
+        20.6,
+        "composite 82.5"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 23,
+    "name": "Collaborative Robotics",
+    "score": 93.0,
+    "company": {
+      "name": "Collaborative Robotics",
+      "sector": "Robotics & Manufacturing",
+      "location": "Santa Clara, CA",
+      "founder": "Brad Porter",
+      "founded": 2022,
+      "fundingStage": "Series B",
+      "totalRaised": "$150M+",
+      "valuation": "$500M+",
+      "description": "Builds 'Proxie,' a mobile manipulator cobot that carries 75 lb payloads and moves carts up to 1,500 lb. Deliberate non-humanoid design optimized for real-world utility. Clients include Mayo Clinic, Maersk, and US DoD.",
+      "insight": "Founded by Brad Porter, former Amazon VP of Robotics who led 10,000 people. When the guy who ran Amazon's robot army starts his own company, you pay attention. Backed by Sequoia, General Catalyst, and Khosla \u2014 the ultimate signal. Non-humanoid design is a bet that function trumps form."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$150M+"
+      ],
+      [
+        "age",
+        10,
+        "2022"
+      ],
+      [
+        "FI",
+        17.0,
+        "composite 68.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Robotics & Manufacturing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 24,
+    "name": "Chroma Medicine",
+    "score": 92.9,
+    "company": {
+      "name": "Chroma Medicine",
+      "sector": "Biotech & Health",
+      "location": "Cambridge, MA",
+      "founder": "Angus McQuilken, Vic Myer",
+      "founded": 2021,
+      "fundingStage": "Series B",
+      "totalRaised": "$260M+",
+      "valuation": "",
+      "description": "Epigenetic editing (non-DNA-cutting) platform from Flagship Pioneering \u2014 $260M+ raised; leading the epigenome programming field; merged with nChroma Bio 2024.",
+      "insight": "Epigenetic editing may prove safer and more scalable than CRISPR. Chroma is the Flagship-backed category leader."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$260M+"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        17.9,
+        "composite 71.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "Biotech & Health"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 25,
+    "name": "DEEPX",
+    "score": 92.5,
+    "company": {
+      "name": "DEEPX",
+      "sector": "Chips & Semiconductors",
+      "location": "Seongnam, South Korea",
+      "founder": "Lokwon Kim",
+      "founded": 2018,
+      "fundingStage": "Series C",
+      "totalRaised": "$103M",
+      "valuation": "$529M",
+      "description": "Edge AI semiconductor company founded by the lead designer of Apple's A10-A12 Bionic chips. DX-M1 and DX-M2 processors deliver high-performance AI inference at ultra-low power for robotics, smart factories, and edge devices.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$103M"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        18.5,
+        "composite 74.0"
+      ],
+      [
+        "govTraction",
+        3.0,
+        "axis 3.0"
+      ],
+      [
+        "FORM_D",
+        15,
+        "filed 2026-04-21"
+      ],
+      [
+        "sector",
+        4,
+        "Chips & Semiconductors"
+      ]
+    ],
+    "form_d": {
+      "company": "DEEPX",
+      "issuer_name": "DeepX Elysium Inc",
+      "form": "D",
+      "filed_date": "2026-04-21",
+      "cik": "2130701",
+      "accession": "0002130701-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002130701&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002130701-26-000001",
+      "offering_amount": "5",
+      "amount_sold": "5",
+      "amount_remaining": "0",
+      "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    }
+  },
+  {
+    "rank": 26,
+    "name": "Liquid AI",
+    "score": 92.4,
+    "company": {
+      "name": "Liquid AI",
+      "sector": "AI & Software",
+      "location": "Cambridge, MA",
+      "founder": "Ramin Hasani, Mathias Lechner, Alexander Amini, Daniela Rus",
+      "founded": 2023,
+      "fundingStage": "Series A",
+      "totalRaised": "$287M",
+      "valuation": "$2.35B",
+      "description": "MIT CSAIL spinout building Liquid Foundation Models (non-transformer architecture) \u2014 $287M Series A December 2024 led by AMD Ventures at $2.35B valuation; 90% lower memory than comparable transformers.",
+      "insight": "Transformers may not be the endpoint. Liquid AI is the best-funded non-transformer bet."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$287M"
+      ],
+      [
+        "age",
+        10,
+        "2023"
+      ],
+      [
+        "FI",
+        18.4,
+        "composite 73.5"
+      ],
+      [
+        "govTraction",
+        1.0,
+        "axis 1.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "mafia",
+        5,
+        ""
+      ],
+      [
+        "sector",
+        3,
+        "AI & Software"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 27,
+    "name": "Black Forest Labs",
+    "score": 92.2,
+    "company": {
+      "name": "Black Forest Labs",
+      "sector": "AI & Software",
+      "location": "Freiburg, Germany",
+      "founder": "Robin Rombach, Andreas Blattmann, Patrick Esser",
+      "founded": 2024,
+      "fundingStage": "Series B",
+      "totalRaised": "$200M+",
+      "valuation": ">$1B",
+      "description": "Creators of FLUX open-weight image generation models \u2014 leading European foundation-model lab with $200M+ raised at $1B+ valuation.",
+      "insight": "FLUX already beats Midjourney on several benchmarks. Black Forest Labs is the new European AI champion post-Stability collapse."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$200M+"
+      ],
+      [
+        "age",
+        10,
+        "2024"
+      ],
+      [
+        "FI",
+        18.2,
+        "composite 73.0"
+      ],
+      [
+        "govTraction",
+        1.0,
+        "axis 1.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "AI & Software"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 28,
+    "name": "AAVantgarde Bio",
+    "score": 92.1,
+    "company": {
+      "name": "AAVantgarde Bio",
+      "sector": "Biotech & Health",
+      "location": "Milan, Italy",
+      "founder": "Alberto Auricchio, Natalia Misciattelli",
+      "founded": 2021,
+      "fundingStage": "Series B",
+      "totalRaised": "$141M",
+      "valuation": "",
+      "description": "Dual-AAV vector gene therapy for inherited blinding diseases \u2014 $141M Series B November 2025.",
+      "insight": "AAV size limits blocked many gene therapies. AAVantgarde's dual-AAV reopens those indications."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$141M"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        17.1,
+        "composite 68.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "Biotech & Health"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 29,
+    "name": "Quantum Art",
+    "score": 91.8,
+    "company": {
+      "name": "Quantum Art",
+      "sector": "Quantum Computing",
+      "location": "Ness Ziona, Israel",
+      "founder": "Tal David, Nitzan Akerman",
+      "founded": 2021,
+      "fundingStage": "Series A",
+      "totalRaised": "$124M",
+      "valuation": "",
+      "description": "Trapped-ion quantum computer using optical multiplexing to scale qubits \u2014 $100M Series A led by Bedford Ridge.",
+      "insight": "Israel is quietly a top-5 quantum nation. Quantum Art has the biggest single round and the clearest hardware path."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$124M"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        18.8,
+        "composite 75.0"
+      ],
+      [
+        "govTraction",
+        4.0,
+        "axis 4.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Quantum Computing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 30,
+    "name": "Speedata",
+    "score": 91.5,
+    "company": {
+      "name": "Speedata",
+      "sector": "Chips & Semiconductors",
+      "location": "Netanya, Israel",
+      "founder": "Jonathan Friedmann, Rami Dahan",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$114M",
+      "valuation": "",
+      "description": "Purpose-built APU (Analytics Processing Unit) for big-data workloads \u2014 $44M round backed by Intel CEO.",
+      "insight": "Everyone focused on AI compute; Speedata targets the much larger analytics workloads \u2014 a structural blind spot."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$114M"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        17.5,
+        "composite 70.0"
+      ],
+      [
+        "govTraction",
+        3.0,
+        "axis 3.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Chips & Semiconductors"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 31,
+    "name": "MatX",
+    "score": 90.9,
+    "company": {
+      "name": "MatX",
+      "sector": "Chips & Semiconductors",
+      "location": "Mountain View, CA",
+      "founder": "Reiner Pope",
+      "founded": 2022,
+      "fundingStage": "Series B",
+      "totalRaised": "$130M",
+      "valuation": "",
+      "description": "Designs custom AI inference and training chips purpose-built for large language models. Founded by ex-Google TPU engineers, MatX builds from-scratch silicon architectures optimized for transformer data-movement patterns at advanced process nodes.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$130M"
+      ],
+      [
+        "age",
+        10,
+        "2022"
+      ],
+      [
+        "FI",
+        18.9,
+        "composite 75.5"
+      ],
+      [
+        "govTraction",
+        3.0,
+        "axis 3.0"
+      ],
+      [
+        "mafia",
+        5,
+        ""
+      ],
+      [
+        "sector",
+        4,
+        "Chips & Semiconductors"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 32,
+    "name": "Iambic Therapeutics",
+    "score": 90.9,
+    "company": {
+      "name": "Iambic Therapeutics",
+      "sector": "Biotech & Health",
+      "location": "San Diego, CA",
+      "founder": "Tom Miller, Fred Manby, Matthew Welborn",
+      "founded": 2020,
+      "fundingStage": "Series B",
+      "totalRaised": "$220M+",
+      "valuation": "",
+      "description": "AI-drug-discovery with first clinical-stage molecules (IAM1363 HER2 inhibitor in Phase 1) \u2014 $220M+ raised with NVIDIA-backed novel physics-ML hybrid models.",
+      "insight": "First-in-human Phase 1 HER2 inhibitor from an AI platform is a category-defining proof point."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$220M+"
+      ],
+      [
+        "age",
+        7,
+        "2020"
+      ],
+      [
+        "FI",
+        18.9,
+        "composite 75.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "Biotech & Health"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 33,
+    "name": "H2Pro",
+    "score": 90.8,
+    "company": {
+      "name": "H2Pro",
+      "sector": "Climate & Energy",
+      "location": "Caesarea, Israel",
+      "founder": "Talia Gomez Atzmon, Hen Dotan, Avner Rothschild, Gideon Grader",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M+",
+      "valuation": "",
+      "description": "E-TAC electrolysis producing hydrogen at projected <$1/kg \u2014 $100M+ from Breakthrough Energy Ventures, Temasek, Horizons.",
+      "insight": "H2Pro's <$1/kg target is where green H becomes cheaper than grey. Gates and Temasek bet on it."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        18.8,
+        "composite 75.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "Climate & Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 34,
+    "name": "Mach Industries",
+    "score": 90.4,
+    "company": {
+      "name": "Mach Industries",
+      "sector": "Defense & Security",
+      "location": "Huntington Beach, CA",
+      "founder": "Ethan Thornton",
+      "founded": 2023,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M+",
+      "valuation": "",
+      "description": "Advanced energetics and propulsion for defense. $100M Series B from Khosla and Bedrock. Developing VTOL cruise missiles (Viper) and propulsion systems for UAS.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        10,
+        "2023"
+      ],
+      [
+        "FI",
+        17.4,
+        "composite 69.5"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 35,
+    "name": "Genesis Therapeutics",
+    "score": 90.1,
+    "company": {
+      "name": "Genesis Therapeutics",
+      "sector": "Biotech & Health",
+      "location": "Burlingame, CA",
+      "founder": "Evan Feinberg",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$280M+",
+      "valuation": "",
+      "description": "GEMS platform uses generative plus predictive AI for molecular modeling \u2014 $280M+ raised ($200M Series B August 2023 led by a16z, NVIDIA, BlackRock, Fidelity); first drug candidates in clinical testing.",
+      "insight": "NVIDIA's biotech bet is Genesis. That's signal."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$280M+"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        18.1,
+        "composite 72.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "Biotech & Health"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 36,
+    "name": "Rondo Energy",
+    "score": 89.9,
+    "company": {
+      "name": "Rondo Energy",
+      "sector": "Climate & Energy",
+      "location": "Alameda, CA",
+      "founder": "John O'Donnell, Eric Trusiewicz",
+      "founded": 2020,
+      "fundingStage": "Series B",
+      "totalRaised": "$150M+",
+      "valuation": "",
+      "description": "Industrial thermal batteries with 97% round-trip efficiency \u2014 100 MWh+ deployments in CA oil fields (Holmes Western) and Thailand (SCG cement); $150M+ raised.",
+      "insight": "Industrial heat is 20% of global emissions. Rondo is the only company shipping thermal batteries at commercial scale."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$150M+"
+      ],
+      [
+        "age",
+        7,
+        "2020"
+      ],
+      [
+        "FI",
+        17.9,
+        "composite 71.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "Climate & Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 37,
+    "name": "Watershed",
+    "score": 89.5,
+    "company": {
+      "name": "Watershed",
+      "sector": "Climate & Energy",
+      "location": "San Francisco, CA",
+      "founder": "Taylor Francis, Christian Anderson, Avi Itskovich",
+      "founded": 2019,
+      "fundingStage": "Series A",
+      "totalRaised": "$200M+",
+      "valuation": "$1.8B",
+      "description": "Enterprise carbon management platform helping companies measure, reduce, remove, and report their carbon footprint.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$200M+"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        17.5,
+        "composite 70.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "FORM_D",
+        15,
+        "filed 2026-04-14"
+      ],
+      [
+        "sector",
+        3,
+        "Climate & Energy"
+      ]
+    ],
+    "form_d": {
+      "company": "Watershed",
+      "issuer_name": "Watershed Medical Inc",
+      "form": "D",
+      "filed_date": "2026-04-14",
+      "cik": "2092749",
+      "accession": "0002092749-26-000003",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002092749&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002092749-26-000003",
+      "offering_amount": "10000000",
+      "amount_sold": "300000",
+      "amount_remaining": "9700000",
+      "securities_type": "Equity",
+      "exemption": "06c",
+      "first_sale_date": "",
+      "is_safe": false
+    }
+  },
+  {
+    "rank": 38,
+    "name": "Hubble Network",
+    "score": 89.2,
+    "company": {
+      "name": "Hubble Network",
+      "sector": "Space & Aerospace",
+      "location": "Seattle, WA",
+      "founder": "Alex Haro & Ben Wild",
+      "founded": 2021,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M",
+      "valuation": "$400M",
+      "description": "Building a global satellite network that any Bluetooth-enabled device can connect to directly, demonstrated first Bluetooth-to-satellite link over 600km.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        19.2,
+        "composite 77.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 39,
+    "name": "Multiverse Computing",
+    "score": 89.2,
+    "company": {
+      "name": "Multiverse Computing",
+      "sector": "AI & Software",
+      "location": "San Sebasti\u00e1n, Spain",
+      "founder": "Enrique Lizaso Olmos, Rom\u00e1n Or\u00fas, Alfonso Rubio-Manzanares, Sam Mugel",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$215M+",
+      "valuation": ">$500M",
+      "description": "CompactifAI tensor-network LLM compression and quantum-inspired algorithms \u2014 $215M Series B in June 2025.",
+      "insight": "LLMs are ballooning in cost. Multiverse shrinks them \u2014 HP and Toshiba are deploying it at scale."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$215M+"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        18.2,
+        "composite 73.0"
+      ],
+      [
+        "govTraction",
+        1.0,
+        "axis 1.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "AI & Software"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 40,
+    "name": "EvolutionaryScale",
+    "score": 88.8,
+    "company": {
+      "name": "EvolutionaryScale",
+      "sector": "Biotech & Health",
+      "location": "New York, NY",
+      "founder": "Alexander Rives, Tom Sercu, Salvatore Candido",
+      "founded": 2023,
+      "fundingStage": "Seed",
+      "totalRaised": "$142M",
+      "valuation": "",
+      "description": "Built ESM3, the largest protein language model (98B params trained on 2.78B proteins) \u2014 generated novel esmGFP equivalent to 500M years of evolution. Science-published. $142M raised.",
+      "insight": "Protein design will transform biology. EvolutionaryScale's ex-Meta FAIR team built the dominant protein LM."
+    },
+    "signals": [
+      [
+        "stage",
+        15,
+        "Seed"
+      ],
+      [
+        "capital",
+        25,
+        "$142M"
+      ],
+      [
+        "age",
+        10,
+        "2023"
+      ],
+      [
+        "FI",
+        18.8,
+        "composite 75.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "mafia",
+        5,
+        ""
+      ],
+      [
+        "sector",
+        3,
+        "Biotech & Health"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 41,
+    "name": "Nominal",
+    "score": 87.5,
+    "company": {
+      "name": "Nominal",
+      "sector": "AI & Software",
+      "location": "Culver City, CA",
+      "founder": "Cameron McCord, Bryce Strauss",
+      "founded": 2022,
+      "fundingStage": "Series B",
+      "totalRaised": "$155M",
+      "valuation": "$1B",
+      "description": "Engineering observability platform for hardware testing, reliability, and performance monitoring. $75M Series B from Sequoia. 10x revenue growth and 6x customer growth YoY.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$155M"
+      ],
+      [
+        "age",
+        10,
+        "2022"
+      ],
+      [
+        "FI",
+        17.5,
+        "composite 70.0"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "sector",
+        3,
+        "AI & Software"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 42,
+    "name": "Telexistence",
+    "score": 87.4,
+    "company": {
+      "name": "Telexistence",
+      "sector": "Robotics & Manufacturing",
+      "location": "Tokyo, Japan",
+      "founder": "Jin Tomioka, Ken Tomoyose, Susumu Tachi",
+      "founded": 2017,
+      "fundingStage": "Series B",
+      "totalRaised": "$170M+",
+      "valuation": "",
+      "description": "VLA-powered humanoid (Astra) for retail labor \u2014 Seven-Eleven Japan partnership to deploy by 2029.",
+      "insight": "Japan's labor crunch makes it the world's best humanoid market. Telexistence has the cleanest go-to-market there."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$170M+"
+      ],
+      [
+        "age",
+        4,
+        "2017"
+      ],
+      [
+        "FI",
+        17.4,
+        "composite 69.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Robotics & Manufacturing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 43,
+    "name": "Aalyria",
+    "score": 86.8,
+    "company": {
+      "name": "Aalyria",
+      "sector": "Space & Aerospace",
+      "location": "Livermore, CA",
+      "founder": "Chris Taylor",
+      "founded": 2021,
+      "fundingStage": "Series B",
+      "totalRaised": "$150M+",
+      "valuation": "$1.3B",
+      "description": "Multi-domain mesh networking securing communications in contested environments. Originally developed at Google X as Project Loon's networking stack. Defense-grade satellite communications.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$150M+"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        16.8,
+        "composite 67.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 44,
+    "name": "cylib",
+    "score": 86.8,
+    "company": {
+      "name": "cylib",
+      "sector": "Climate & Energy",
+      "location": "Aachen, Germany",
+      "founder": "Lilian Schwich, Gideon Schwich, Paul Sabarny",
+      "founded": 2022,
+      "fundingStage": "Series A",
+      "totalRaised": "\u20ac140M+ (Series A \u20ac55M + \u20ac26.1M NRW grant + \u20ac63.4M BMWE grant)",
+      "valuation": "",
+      "description": "End-to-end battery recycling with high recovery \u2014 \u20ac63.4M growth round for Dormagen plant (Europe's first LFP recycling plant).",
+      "insight": "LFP recycling is the next wave \u2014 cylib's Dormagen plant is Europe's first. Critical minerals sovereignty story."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "\u20ac140M+ (Series A \u20ac55M + \u20ac26.1M NRW grant + \u20ac63.4M BMWE grant)"
+      ],
+      [
+        "age",
+        10,
+        "2022"
+      ],
+      [
+        "FI",
+        16.8,
+        "composite 67.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "Climate & Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 45,
+    "name": "Osmo",
+    "score": 86.6,
+    "company": {
+      "name": "Osmo",
+      "sector": "Consumer Tech",
+      "location": "Cambridge, MA",
+      "founder": "Alex Wiltschko",
+      "founded": 2023,
+      "fundingStage": "Series B",
+      "totalRaised": "$130M",
+      "valuation": "",
+      "description": "First company to teleport a scent digitally. Building AI models for digital olfaction to understand, digitize, and recreate scents. Giving computers a sense of smell.",
+      "insight": "Google-incubated digital olfaction \u2014 teaching computers to smell. The AI + chemistry breakthrough unlocks massive markets in flavor, fragrance, disease detection, and industrial monitoring."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$130M"
+      ],
+      [
+        "age",
+        10,
+        "2023"
+      ],
+      [
+        "FI",
+        14.6,
+        "composite 58.5"
+      ],
+      [
+        "govTraction",
+        1.0,
+        "axis 1.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        1,
+        "Consumer Tech"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 46,
+    "name": "Armada",
+    "score": 86.1,
+    "company": {
+      "name": "Armada",
+      "sector": "Space & Aerospace",
+      "location": "San Francisco, CA",
+      "founder": "Dan Wright, Jon Runyan",
+      "founded": 2022,
+      "fundingStage": "Series B",
+      "totalRaised": "$186M",
+      "valuation": "",
+      "description": "Satellite-connected, rapidly deployable AI-enabled data centers for off-grid locations. Self-contained Galleon units bring compute to remote military and industrial sites.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$186M"
+      ],
+      [
+        "age",
+        10,
+        "2022"
+      ],
+      [
+        "FI",
+        16.1,
+        "composite 64.5"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 47,
+    "name": "Parallel Systems",
+    "score": 85.8,
+    "company": {
+      "name": "Parallel Systems",
+      "sector": "Transportation",
+      "location": "Culver City, CA",
+      "founder": "Matt Soule, John Howard, Ben Stabler",
+      "founded": 2020,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M",
+      "valuation": "",
+      "description": "Develops autonomous, battery-electric freight rail vehicles to transition freight transportation from trucking to rail using existing railroad infrastructure.",
+      "insight": "Parallel Systems is attacking the $800B US trucking market by making rail as flexible as trucks. Autonomous electric rail pods can go directly from warehouse to warehouse on existing tracks."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M"
+      ],
+      [
+        "age",
+        7,
+        "2020"
+      ],
+      [
+        "FI",
+        15.8,
+        "composite 63.0"
+      ],
+      [
+        "govTraction",
+        1.0,
+        "axis 1.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        2,
+        "Transportation"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 48,
+    "name": "Cognition",
+    "score": 85.2,
+    "company": {
+      "name": "Cognition",
+      "sector": "AI & Software",
+      "location": "San Francisco, CA",
+      "founder": "Scott Wu, Steven Hao, Walden Yan",
+      "founded": 2023,
+      "fundingStage": "Series A",
+      "totalRaised": "$175M+",
+      "valuation": "",
+      "description": "Building Devin, the world's first AI software engineer. Autonomous coding agent that can plan, write, debug, and deploy software end-to-end.",
+      "insight": "Devin represents the frontier of AI agents \u2014 not just generating code but planning, debugging, and deploying autonomously. If this works at scale, every software team becomes 10x more productive."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$175M+"
+      ],
+      [
+        "age",
+        10,
+        "2023"
+      ],
+      [
+        "FI",
+        16.2,
+        "composite 65.0"
+      ],
+      [
+        "govTraction",
+        1.0,
+        "axis 1.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "AI & Software"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 49,
+    "name": "FuriosaAI",
+    "score": 85.1,
+    "company": {
+      "name": "FuriosaAI",
+      "sector": "Chips & Semiconductors",
+      "location": "Seongnam, South Korea",
+      "founder": "June Paik",
+      "founded": 2017,
+      "fundingStage": "Series C",
+      "totalRaised": "$246M",
+      "valuation": "",
+      "description": "AI inference accelerators (RNGD chip) using Tensor Contraction Architecture \u2014 rejected Meta's $800M acquisition in 2025.",
+      "insight": "FuriosaAI rejected a near-$1B exit to stay independent. That alone signals founder-market fit."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$246M"
+      ],
+      [
+        "age",
+        4,
+        "2017"
+      ],
+      [
+        "FI",
+        19.1,
+        "composite 76.5"
+      ],
+      [
+        "govTraction",
+        3.0,
+        "axis 3.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Chips & Semiconductors"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 50,
+    "name": "ICON",
+    "score": 84.9,
+    "company": {
+      "name": "ICON",
+      "sector": "Housing & Construction",
+      "location": "Austin, TX",
+      "founder": "Jason Ballard, Alex Le Roux, Evan Loomis",
+      "founded": 2017,
+      "fundingStage": "Series C",
+      "totalRaised": "$450M+",
+      "valuation": "$2B",
+      "description": "3D-printed homes plus DoD and NASA (Project Olympus) contracts \u2014 $450M+ raised at $2B valuation; first printed homes shipped to homeowners in Texas.",
+      "insight": "3D-printed construction is one of the few housing-cost innovations that has shipped. ICON is the US leader by orders of magnitude."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        15,
+        "$450M+"
+      ],
+      [
+        "age",
+        4,
+        "2017"
+      ],
+      [
+        "FI",
+        23.9,
+        "composite 95.5"
+      ],
+      [
+        "govTraction",
+        10.0,
+        "axis 10.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        2,
+        "Housing & Construction"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 51,
+    "name": "Lightelligence",
+    "score": 84.6,
+    "company": {
+      "name": "Lightelligence",
+      "sector": "Chips & Semiconductors",
+      "location": "Boston, MA",
+      "founder": "Yichen Shen",
+      "founded": 2017,
+      "fundingStage": "Series C",
+      "totalRaised": "$270M+",
+      "valuation": "",
+      "description": "Photonic computing chips with optical matrix multiplication \u2014 $270M+ raised for Hummingbird photonic arithmetic chip targeting AI inference.",
+      "insight": "Photonic compute is high-risk high-reward. Lightelligence has the most funded commercial bet in the category."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$270M+"
+      ],
+      [
+        "age",
+        4,
+        "2017"
+      ],
+      [
+        "FI",
+        18.6,
+        "composite 74.5"
+      ],
+      [
+        "govTraction",
+        3.0,
+        "axis 3.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Chips & Semiconductors"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 52,
+    "name": "Lumafield",
+    "score": 84.4,
+    "company": {
+      "name": "Lumafield",
+      "sector": "Robotics & Manufacturing",
+      "location": "Cambridge, MA",
+      "founder": "Eduardo Torrealba, Andreas Bastian, Kevin Cedrone, Ric Fulop, Scott Johnston",
+      "founded": 2019,
+      "fundingStage": "Series C",
+      "totalRaised": "$142M",
+      "valuation": "",
+      "description": "Industrial CT scanning company providing accessible computed tomography solutions for non-destructive testing and AI-powered inspection for engineers.",
+      "insight": "Lumafield is democratizing industrial X-ray/CT scanning the way iPhone democratized photography. Product-market fit is exceptional in hardware QA."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$142M"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        16.4,
+        "composite 65.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Robotics & Manufacturing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 53,
+    "name": "Hidden Level",
+    "score": 84.0,
+    "company": {
+      "name": "Hidden Level",
+      "sector": "Defense & Security",
+      "location": "Syracuse, NY",
+      "founder": "Jeff Cole, Gary Dominicos",
+      "founded": 2018,
+      "fundingStage": "Series C",
+      "totalRaised": "$130M",
+      "valuation": "$500M",
+      "description": "Develops passive radar and RF sensing technology to detect drones and aircraft threats, protecting critical infrastructure and national security.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$130M"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        20.0,
+        "composite 80.0"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 54,
+    "name": "Kvertus",
+    "score": 84.0,
+    "company": {
+      "name": "Kvertus",
+      "sector": "Defense & Security",
+      "location": "Kyiv, Ukraine",
+      "founder": "Yaroslav Filimonov",
+      "founded": 2014,
+      "fundingStage": "Growth",
+      "totalRaised": "~$130M (raising)",
+      "valuation": "",
+      "description": "Electronic-warfare jammers and the Atlas networked EW wall (1,500 km detector/jammer system) supplying the Ukrainian Armed Forces.",
+      "insight": "EW is now the defining battlefield capability. Kvertus has more combat-validated EW hardware than any Western peer."
+    },
+    "signals": [
+      [
+        "stage",
+        12,
+        "Growth"
+      ],
+      [
+        "capital",
+        25,
+        "~$130M (raising)"
+      ],
+      [
+        "age",
+        4,
+        "2014"
+      ],
+      [
+        "FI",
+        21.0,
+        "composite 84.0"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 55,
+    "name": "Strider Technologies",
+    "score": 83.9,
+    "company": {
+      "name": "Strider Technologies",
+      "sector": "Defense & Security",
+      "location": "South Jordan, UT",
+      "founder": "Greg Levesque, Eric Levesque, Mike Brown",
+      "founded": 2019,
+      "fundingStage": "Series C",
+      "totalRaised": "$117M",
+      "valuation": "",
+      "description": "AI-powered strategic intelligence platform converting open-source data into actionable insights to counter nation-state IP theft, talent acquisition, and supply chain threats. NATO DIANA partnership. 282 employees across 15 countries.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$117M"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        19.9,
+        "composite 79.5"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 56,
+    "name": "Aerospacelab",
+    "score": 83.8,
+    "company": {
+      "name": "Aerospacelab",
+      "sector": "Space & Aerospace",
+      "location": "Mont-Saint-Guibert, Belgium",
+      "founder": "Beno\u00eet Deper",
+      "founded": 2018,
+      "fundingStage": "Series B",
+      "totalRaised": "\u20ac200M+",
+      "valuation": "",
+      "description": "Mass satellite manufacturing for large constellations. New integration plant going live 2026 to boost EU capacity in NewSpace.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "\u20ac200M+"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        16.8,
+        "composite 67.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 57,
+    "name": "Marvel Fusion",
+    "score": 83.6,
+    "company": {
+      "name": "Marvel Fusion",
+      "sector": "Nuclear Energy",
+      "location": "Munich, Germany",
+      "founder": "Moritz von der Linden",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$161M+",
+      "valuation": "",
+      "description": "Laser-driven inertial confinement fusion using novel silicon nanostructured fuel targets. Building $150M laser facility.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$161M+"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        16.6,
+        "composite 66.5"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Nuclear Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 58,
+    "name": "Bedrock Robotics",
+    "score": 83.6,
+    "company": {
+      "name": "Bedrock Robotics",
+      "sector": "Robotics & Manufacturing",
+      "location": "San Francisco, CA",
+      "founder": "Boris Sofman",
+      "founded": 2024,
+      "fundingStage": "Series B",
+      "totalRaised": "$350M+",
+      "valuation": "$1.75B",
+      "description": "Retrofits existing heavy construction equipment \u2014 excavators, bulldozers, loaders \u2014 with reversible hardware and software to enable fully autonomous operations on job sites. Founded by former Waymo engineers.",
+      "insight": "Reached $1.75B valuation in under two years from founding. The retrofit approach is genius \u2014 why replace a $500K excavator when you can make it autonomous for a fraction of the cost? Targeting an 800,000 worker shortage in construction."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        15,
+        "$350M+"
+      ],
+      [
+        "age",
+        10,
+        "2024"
+      ],
+      [
+        "FI",
+        17.6,
+        "composite 70.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Robotics & Manufacturing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 59,
+    "name": "Zanskar",
+    "score": 83.6,
+    "company": {
+      "name": "Zanskar",
+      "sector": "Climate & Energy",
+      "location": "Salt Lake City, UT",
+      "founder": "Carl Hoiland, Joel Edwards",
+      "founded": 2019,
+      "fundingStage": "Series C",
+      "totalRaised": "$180M",
+      "valuation": "",
+      "description": "Leading AI company for geothermal discovery. Uses proprietary platform to identify and de-risk new geothermal energy resources for power generation.",
+      "insight": "Zanskar is the 'Kobold Metals for geothermal' \u2014 using AI to find hidden geothermal resources. The tech-enabled exploration model is proving out."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$180M"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        16.6,
+        "composite 66.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "Climate & Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 60,
+    "name": "Vannevar Labs",
+    "score": 83.5,
+    "company": {
+      "name": "Vannevar Labs",
+      "sector": "Defense & Security",
+      "location": "Palo Alto, CA",
+      "founder": "Brett Granberg, Nini Hamrick",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$91M",
+      "valuation": "$1.5B",
+      "description": "Intelligence, sensing, and analysis platforms for DoD competition missions. Profitable with $80M+ ACV. Named after Vannevar Bush, WWII science advisor.",
+      "insight": "Vannevar Labs is one of the few defense tech companies that's actually profitable. $80M+ ACV with DoD contracts shows real traction, not just hype."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        8,
+        "$91M"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        20.5,
+        "composite 82.0"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 61,
+    "name": "Profluent",
+    "score": 83.4,
+    "company": {
+      "name": "Profluent",
+      "sector": "Biotech & Health",
+      "location": "Emeryville, CA",
+      "founder": "Ali Madani",
+      "founded": 2022,
+      "fundingStage": "Series B",
+      "totalRaised": "$150M",
+      "valuation": "$600M",
+      "description": "Uses AI and large language models for de novo protein design, making biology programmable for therapeutics and industrial applications.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$150M"
+      ],
+      [
+        "age",
+        10,
+        "2022"
+      ],
+      [
+        "FI",
+        18.4,
+        "composite 73.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "sector",
+        3,
+        "Biotech & Health"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 62,
+    "name": "Standard Nuclear",
+    "score": 83.2,
+    "company": {
+      "name": "Standard Nuclear",
+      "sector": "Nuclear Energy",
+      "location": "Oak Ridge, TN",
+      "founder": "Kurt Terrani",
+      "founded": 2024,
+      "fundingStage": "Series A",
+      "totalRaised": "$182M",
+      "valuation": "",
+      "description": "Developing standardized advanced nuclear reactors for rapid deployment. $140M Series A led by Decisive Point in Jan 2026. Part of the nuclear renaissance for data center power.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$182M"
+      ],
+      [
+        "age",
+        10,
+        "2024"
+      ],
+      [
+        "FI",
+        18.2,
+        "composite 73.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Nuclear Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 63,
+    "name": "Nearfield Instruments",
+    "score": 83.1,
+    "company": {
+      "name": "Nearfield Instruments",
+      "sector": "Chips & Semiconductors",
+      "location": "Rotterdam, Netherlands",
+      "founder": "Hamed Sadeghian",
+      "founded": 2016,
+      "fundingStage": "Series C",
+      "totalRaised": "\u20ac135M+",
+      "valuation": "",
+      "description": "Atomic-force-based sub-surface metrology tools for sub-3nm chip fabs \u2014 \u20ac135M Series C and imec R&D partnership.",
+      "insight": "Metrology is the hidden bottleneck in leading-edge nodes. Nearfield is the critical non-US supplier to TSMC/Intel."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "\u20ac135M+"
+      ],
+      [
+        "age",
+        4,
+        "2016"
+      ],
+      [
+        "FI",
+        17.1,
+        "composite 68.5"
+      ],
+      [
+        "govTraction",
+        3.0,
+        "axis 3.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Chips & Semiconductors"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 64,
+    "name": "Type One Energy",
+    "score": 83.0,
+    "company": {
+      "name": "Type One Energy",
+      "sector": "Nuclear Energy",
+      "location": "Madison, WI",
+      "founder": "Chris Hegna",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M+",
+      "valuation": "$200M+",
+      "description": "Building an optimized stellarator fusion device leveraging advanced manufacturing and high-temperature superconducting magnets.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        16.0,
+        "composite 64.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Nuclear Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 65,
+    "name": "Nimble Robotics",
+    "score": 83.0,
+    "company": {
+      "name": "Nimble Robotics",
+      "sector": "Robotics & Manufacturing",
+      "location": "San Francisco, CA",
+      "founder": "Simon Kalouche",
+      "founded": 2016,
+      "fundingStage": "Series C",
+      "totalRaised": "$221M",
+      "valuation": "$1B",
+      "description": "General-purpose fulfillment robot plus fully autonomous 3PL \u2014 $221M raised at $1B valuation October 2024 Series C led by FedEx.",
+      "insight": "FedEx leading a $221M round validates that fulfillment autonomy is the big prize. Nimble has it."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$221M"
+      ],
+      [
+        "age",
+        4,
+        "2016"
+      ],
+      [
+        "FI",
+        18.0,
+        "composite 72.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Robotics & Manufacturing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 66,
+    "name": "Tomorrow.io",
+    "score": 82.9,
+    "company": {
+      "name": "Tomorrow.io",
+      "sector": "Space & Aerospace",
+      "location": "Boston, MA",
+      "founder": "Shimon Elkabetz, Rei Goffer, Itai Zlotnik",
+      "founded": 2016,
+      "fundingStage": "Series E",
+      "totalRaised": "$200M+",
+      "valuation": "",
+      "description": "Space-based weather radar constellation \u2014 first radar satellite launched 2024; $200M+ raised for global real-time weather.",
+      "insight": "Weather data is a fundamental climate adaptation primitive. Tomorrow.io owns the first commercial space radar."
+    },
+    "signals": [
+      [
+        "stage",
+        15,
+        "Series E"
+      ],
+      [
+        "capital",
+        25,
+        "$200M+"
+      ],
+      [
+        "age",
+        4,
+        "2016"
+      ],
+      [
+        "FI",
+        18.9,
+        "composite 75.5"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 67,
+    "name": "Albedo",
+    "score": 82.5,
+    "company": {
+      "name": "Albedo",
+      "sector": "Space & Aerospace",
+      "location": "Broomfield, CO",
+      "founder": "Topher Haddad, AJ Lasater",
+      "founded": 2020,
+      "fundingStage": "Series B",
+      "totalRaised": "$130M+",
+      "valuation": "",
+      "description": "Very low Earth orbit satellites delivering 10cm-resolution optical imagery. Unprecedented commercial satellite resolution for defense and commercial applications.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$130M+"
+      ],
+      [
+        "age",
+        7,
+        "2020"
+      ],
+      [
+        "FI",
+        15.5,
+        "composite 62.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 68,
+    "name": "Pasqal",
+    "score": 82.5,
+    "company": {
+      "name": "Pasqal",
+      "sector": "Quantum Computing",
+      "location": "Massy, France",
+      "founder": "Georges-Olivier Reymond",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$300M+",
+      "valuation": "",
+      "description": "Building neutral-atom quantum processors based on Nobel Prize-winning research. Sold quantum computers to OVHcloud and deployed in Canada.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$300M+"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        17.5,
+        "composite 70.0"
+      ],
+      [
+        "govTraction",
+        4.0,
+        "axis 4.0"
+      ],
+      [
+        "sector",
+        4,
+        "Quantum Computing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 69,
+    "name": "Nyobolt",
+    "score": 82.2,
+    "company": {
+      "name": "Nyobolt",
+      "sector": "Climate & Energy",
+      "location": "Cambridge, UK",
+      "founder": "Sai Shivareddy, Clare Grey",
+      "founded": 0,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M+",
+      "valuation": "",
+      "description": "Niobium-anode ultra-fast-charging batteries capable of 10-80% charge in under 5 minutes, with $150M contracted backlog.",
+      "insight": "5-minute charging removes the last psychological barrier to EV mass adoption. Nyobolt's the rare startup with Nobel-laureate chemistry + contracts."
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "FI",
+        17.2,
+        "composite 69.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "Climate & Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 70,
+    "name": "Proxima Fusion",
+    "score": 82.0,
+    "company": {
+      "name": "Proxima Fusion",
+      "sector": "Nuclear Energy",
+      "location": "Munich, Germany",
+      "founder": "Francesco Sciortino, Lucio Milanese, Jorrit Lion, Jonathan Schilling, Martin Kubie",
+      "founded": 2023,
+      "fundingStage": "Series A",
+      "totalRaised": "\u20ac200M",
+      "valuation": "",
+      "description": "Building stellarator fusion power plants using quasi-isodynamic optimization. Spun out of Max Planck Institute. Europe's largest fusion raise.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "\u20ac200M"
+      ],
+      [
+        "age",
+        10,
+        "2023"
+      ],
+      [
+        "FI",
+        17.0,
+        "composite 68.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Nuclear Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 71,
+    "name": "Sakana AI",
+    "score": 82.0,
+    "company": {
+      "name": "Sakana AI",
+      "sector": "AI & Software",
+      "location": "Tokyo, Japan",
+      "founder": "Llion Jones, David Ha",
+      "founded": 2023,
+      "fundingStage": "Series A",
+      "totalRaised": "$200M+",
+      "valuation": "$1B+",
+      "description": "Japanese AI research lab building nature-inspired foundation models using evolutionary and collective intelligence principles.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$200M+"
+      ],
+      [
+        "age",
+        10,
+        "2023"
+      ],
+      [
+        "FI",
+        19.0,
+        "composite 76.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        3,
+        "AI & Software"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 72,
+    "name": "Fortem Technologies",
+    "score": 82.0,
+    "company": {
+      "name": "Fortem Technologies",
+      "sector": "Defense & Security",
+      "location": "Pleasant Grove, UT",
+      "founder": "Timothy Bean",
+      "founded": 2016,
+      "fundingStage": "Series C",
+      "totalRaised": "$100M+",
+      "valuation": "",
+      "description": "Counter-drone radar and interceptor systems \u2014 awarded 3-year $18M US Army contract Feb 2026 and Lockheed-partnered; over $100M raised.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        4,
+        "2016"
+      ],
+      [
+        "FI",
+        20.0,
+        "composite 80.0"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 73,
+    "name": "Silicon Box",
+    "score": 81.9,
+    "company": {
+      "name": "Silicon Box",
+      "sector": "Chips & Semiconductors",
+      "location": "Singapore, SG",
+      "founder": "Sehat Sutardja",
+      "founded": 2021,
+      "fundingStage": "Series B",
+      "totalRaised": "$200M+",
+      "valuation": "",
+      "description": "Advanced semiconductor packaging using chiplet-based architecture for next-gen chips. Founded by Marvell co-founder.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$200M+"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        14.9,
+        "composite 59.5"
+      ],
+      [
+        "govTraction",
+        3.0,
+        "axis 3.0"
+      ],
+      [
+        "sector",
+        4,
+        "Chips & Semiconductors"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 74,
+    "name": "H Company",
+    "score": 81.8,
+    "company": {
+      "name": "H Company",
+      "sector": "AI & Software",
+      "location": "Paris, France",
+      "founder": "Charles Kantor, Laurent Sifre, Karl Tuyls, Julien Perolat, Daan Wierstra",
+      "founded": 2024,
+      "fundingStage": "Seed",
+      "totalRaised": "$220M",
+      "valuation": "",
+      "description": "Agentic foundation models (Holo3) that control user interfaces across web and desktop \u2014 $220M seed from Accel, Amazon, UiPath.",
+      "insight": "Agent systems are the next product category. H's DeepMind team assembled the strongest non-US research group in the race."
+    },
+    "signals": [
+      [
+        "stage",
+        15,
+        "Seed"
+      ],
+      [
+        "capital",
+        25,
+        "$220M"
+      ],
+      [
+        "age",
+        10,
+        "2024"
+      ],
+      [
+        "FI",
+        17.8,
+        "composite 71.0"
+      ],
+      [
+        "govTraction",
+        1.0,
+        "axis 1.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "AI & Software"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 75,
+    "name": "Skydio",
+    "score": 81.6,
+    "company": {
+      "name": "Skydio",
+      "sector": "Defense & Security",
+      "location": "San Mateo, CA",
+      "founder": "Adam Bry, Abraham Bachrach, Matt Donahoe",
+      "founded": 2014,
+      "fundingStage": "Series E",
+      "totalRaised": "$340M+",
+      "valuation": "$2.2B",
+      "description": "Autonomous drones for defense and public safety. Only major US-made drone company. Blue UAS listed and NDAA compliant. Major defense and law enforcement contracts.",
+      "insight": "Skydio's position as the only major US-made drone company is a regulatory moat that's becoming a fortress. As DJI bans spread, every US government agency needs a domestic alternative."
+    },
+    "signals": [
+      [
+        "stage",
+        15,
+        "Series E"
+      ],
+      [
+        "capital",
+        15,
+        "$340M+"
+      ],
+      [
+        "age",
+        4,
+        "2014"
+      ],
+      [
+        "FI",
+        22.6,
+        "composite 90.5"
+      ],
+      [
+        "govTraction",
+        10.0,
+        "axis 10.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 76,
+    "name": "REGENT Craft",
+    "score": 81.6,
+    "company": {
+      "name": "REGENT Craft",
+      "sector": "Transportation",
+      "location": "North Kingstown, RI",
+      "founder": "Billy Thalheimer",
+      "founded": 2020,
+      "fundingStage": "Series A",
+      "totalRaised": "$100M+",
+      "valuation": "$270M",
+      "description": "Developing electric seagliders \u2014 wing-in-ground-effect vehicles that fly just above the water at 180mph. The Viceroy carries 12 passengers over 180 miles on battery power alone, combining the speed of planes with the efficiency of boats.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        7,
+        "2020"
+      ],
+      [
+        "FI",
+        20.6,
+        "composite 82.5"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "sector",
+        2,
+        "Transportation"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 77,
+    "name": "LeoLabs",
+    "score": 81.5,
+    "company": {
+      "name": "LeoLabs",
+      "sector": "Space & Aerospace",
+      "location": "Menlo Park, CA",
+      "founder": "Dan Ceperley",
+      "founded": 2016,
+      "fundingStage": "Series B",
+      "totalRaised": "$129M",
+      "valuation": "",
+      "description": "Space situational awareness company tracking objects in low Earth orbit using a global network of ground-based phased array radars.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$129M"
+      ],
+      [
+        "age",
+        4,
+        "2016"
+      ],
+      [
+        "FI",
+        17.5,
+        "composite 70.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 78,
+    "name": "SiPearl",
+    "score": 81.5,
+    "company": {
+      "name": "SiPearl",
+      "sector": "Chips & Semiconductors",
+      "location": "Paris, France",
+      "founder": "Philippe Notton",
+      "founded": 2019,
+      "fundingStage": "Series A",
+      "totalRaised": "\u20ac130M",
+      "valuation": "",
+      "description": "Designing Europe's most complex processor (Rhea1) for supercomputers. Will power JUPITER \u2014 Europe's first exascale supercomputer. Manufacturing at TSMC.",
+      "insight": "Rhea1 is the most complex processor ever designed in Europe. Critical for European digital sovereignty \u2014 ensuring Europe doesn't depend on US/China for supercomputing."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "\u20ac130M"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        13.5,
+        "composite 54.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Chips & Semiconductors"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 79,
+    "name": "Vast",
+    "score": 81.4,
+    "company": {
+      "name": "Vast",
+      "sector": "Space & Aerospace",
+      "location": "Long Beach, CA",
+      "founder": "Max Haot, Jed McCaleb",
+      "founded": 2021,
+      "fundingStage": "Late Stage",
+      "totalRaised": "$300M+",
+      "valuation": "$2B",
+      "description": "Building the world's first commercial space station. Haven Demo launched Nov 2025 on SpaceX rideshare. Haven-1 targeted for May 2026 launch. In-Q-Tel investment.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        15,
+        "Late Stage"
+      ],
+      [
+        "capital",
+        25,
+        "$300M+"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        19.4,
+        "composite 77.5"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 80,
+    "name": "Kodiak Robotics",
+    "score": 81.4,
+    "company": {
+      "name": "Kodiak Robotics",
+      "sector": "Defense & Security",
+      "location": "Mountain View, CA",
+      "founder": "Don Burnette, Paz Eshel",
+      "founded": 2018,
+      "fundingStage": "Series C",
+      "totalRaised": "$250M+",
+      "valuation": "",
+      "description": "Autonomous long-haul trucking tech that also pivoted into defense with autonomous military vehicles. Dual-use AI driving stack for commercial and military.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$250M+"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        17.4,
+        "composite 69.5"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 81,
+    "name": "Endurosat",
+    "score": 81.2,
+    "company": {
+      "name": "Endurosat",
+      "sector": "Space & Aerospace",
+      "location": "Sofia, Bulgaria",
+      "founder": "Raycho Raychev",
+      "founded": 2015,
+      "fundingStage": "Series B",
+      "totalRaised": "$167M+",
+      "valuation": "",
+      "description": "Bulgarian satellite manufacturing company building nanosatellites and providing space services.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$167M+"
+      ],
+      [
+        "age",
+        4,
+        "2015"
+      ],
+      [
+        "FI",
+        17.2,
+        "composite 69.0"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 82,
+    "name": "QuEra Computing",
+    "score": 81.1,
+    "company": {
+      "name": "QuEra Computing",
+      "sector": "Quantum Computing",
+      "location": "Boston, MA",
+      "founder": "Mikhail Lukin, Vladan Vuletic, Markus Greiner",
+      "founded": 2018,
+      "fundingStage": "Series B",
+      "totalRaised": "$120M+",
+      "valuation": "",
+      "description": "Neutral-atom quantum computer using programmable arrays of Rydberg atoms. Harvard/MIT spinout pushing the boundaries of quantum processing.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$120M+"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        16.1,
+        "composite 64.5"
+      ],
+      [
+        "govTraction",
+        4.0,
+        "axis 4.0"
+      ],
+      [
+        "sector",
+        4,
+        "Quantum Computing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 83,
+    "name": "Bear Robotics",
+    "score": 80.8,
+    "company": {
+      "name": "Bear Robotics",
+      "sector": "Robotics & Manufacturing",
+      "location": "Redwood City, CA",
+      "founder": "John Ha",
+      "founded": 2017,
+      "fundingStage": "Series C",
+      "totalRaised": "$160M+",
+      "valuation": "",
+      "description": "Service robotics at scale (Servi) \u2014 $160M+ raised with SoftBank backing; thousands of robots deployed in restaurants and hotels globally.",
+      "insight": "Most service robotics startups haven't reached commercial scale. Bear did \u2014 with real margin."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$160M+"
+      ],
+      [
+        "age",
+        4,
+        "2017"
+      ],
+      [
+        "FI",
+        15.8,
+        "composite 63.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        4,
+        "Robotics & Manufacturing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 84,
+    "name": "Freeform",
+    "score": 80.5,
+    "company": {
+      "name": "Freeform",
+      "sector": "Robotics & Manufacturing",
+      "location": "Hawthorne, CA",
+      "founder": "Erik Palitsch",
+      "founded": 2018,
+      "fundingStage": "Series B",
+      "totalRaised": "$125M+",
+      "valuation": "",
+      "description": "AI-first autonomous metal additive manufacturing. Former SpaceX engineers building software-defined 3D printing factories. NVIDIA-backed. $125M+ raised.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$125M+"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        17.5,
+        "composite 70.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "sector",
+        4,
+        "Robotics & Manufacturing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 85,
+    "name": "Manna Aero",
+    "score": 80.4,
+    "company": {
+      "name": "Manna Aero",
+      "sector": "Drones & Autonomous",
+      "location": "Dublin, Ireland",
+      "founder": "Bobby Healy",
+      "founded": 2018,
+      "fundingStage": "Series B",
+      "totalRaised": "$110M",
+      "valuation": "",
+      "description": "Drone delivery service operating commercially in Ireland with 250,000+ deliveries. Expanding to US market. Costs under $2 per delivery. Bobby Healy founded.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$110M"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        14.4,
+        "composite 57.5"
+      ],
+      [
+        "govTraction",
+        4.0,
+        "axis 4.0"
+      ],
+      [
+        "sector",
+        5,
+        "Drones & Autonomous"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 86,
+    "name": "Alice & Bob",
+    "score": 80.4,
+    "company": {
+      "name": "Alice & Bob",
+      "sector": "Quantum Computing",
+      "location": "Paris, France",
+      "founder": "Theau Peronnin, Raphael Lescanne",
+      "founded": 2020,
+      "fundingStage": "Series B",
+      "totalRaised": "$104M+",
+      "valuation": "",
+      "description": "Developing cat qubit quantum computers designed to suppress bit-flip errors natively for fault-tolerant quantum computing.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$104M+"
+      ],
+      [
+        "age",
+        7,
+        "2020"
+      ],
+      [
+        "FI",
+        15.4,
+        "composite 61.5"
+      ],
+      [
+        "govTraction",
+        4.0,
+        "axis 4.0"
+      ],
+      [
+        "sector",
+        4,
+        "Quantum Computing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 87,
+    "name": "Quantum Machines",
+    "score": 80.4,
+    "company": {
+      "name": "Quantum Machines",
+      "sector": "Quantum Computing",
+      "location": "Tel Aviv, Israel",
+      "founder": "Itamar Sivan",
+      "founded": 2018,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M+",
+      "valuation": "",
+      "description": "Builds the hardware operating system and control stack (OPX+) for quantum computers. Enabling quantum labs worldwide.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        15.4,
+        "composite 61.5"
+      ],
+      [
+        "govTraction",
+        4.0,
+        "axis 4.0"
+      ],
+      [
+        "sector",
+        4,
+        "Quantum Computing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 88,
+    "name": "New Limit",
+    "score": 80.2,
+    "company": {
+      "name": "New Limit",
+      "sector": "Biotech & Health",
+      "location": "San Francisco, CA",
+      "founder": "Brian Armstrong, Blake Byers, Jacob Kimmel",
+      "founded": 2021,
+      "fundingStage": "Series B",
+      "totalRaised": "$170M+",
+      "valuation": "$810M",
+      "description": "Finding safer transcription factor combinations for cellular reprogramming using AI. Co-founded by Brian Armstrong (Coinbase) and Blake Byers. Peter Thiel, Eric Schmidt investors.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$170M+"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        15.2,
+        "composite 61.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "sector",
+        3,
+        "Biotech & Health"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 89,
+    "name": "Elroy Air",
+    "score": 80.2,
+    "company": {
+      "name": "Elroy Air",
+      "sector": "Drones & Autonomous",
+      "location": "San Francisco, CA",
+      "founder": "David Merrill & Clint Cope",
+      "founded": 2016,
+      "fundingStage": "Series B",
+      "totalRaised": "$116M",
+      "valuation": "$400M",
+      "description": "Building the Chaparral, a hybrid-electric autonomous VTOL cargo drone capable of carrying 300-500 lbs over 300 miles for military resupply and disaster relief.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$116M"
+      ],
+      [
+        "age",
+        4,
+        "2016"
+      ],
+      [
+        "FI",
+        17.2,
+        "composite 69.0"
+      ],
+      [
+        "govTraction",
+        4.0,
+        "axis 4.0"
+      ],
+      [
+        "sector",
+        5,
+        "Drones & Autonomous"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 90,
+    "name": "Umbra",
+    "score": 80.1,
+    "company": {
+      "name": "Umbra",
+      "sector": "Space & Aerospace",
+      "location": "Santa Barbara, CA",
+      "founder": "David Langan, Gabe Dominocielo",
+      "founded": 2015,
+      "fundingStage": "Series B",
+      "totalRaised": "$100M+",
+      "valuation": "",
+      "description": "Commercial SAR satellite constellation \u2014 $100M+ total plus STRATFI award up to $60M in 2025.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        4,
+        "2015"
+      ],
+      [
+        "FI",
+        16.1,
+        "composite 64.5"
+      ],
+      [
+        "govTraction",
+        5.0,
+        "axis 5.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 91,
+    "name": "Q-CTRL",
+    "score": 80.1,
+    "company": {
+      "name": "Q-CTRL",
+      "sector": "Quantum Computing",
+      "location": "Sydney, Australia",
+      "founder": "Michael Biercuk",
+      "founded": 2017,
+      "fundingStage": "Series B",
+      "totalRaised": "$132M",
+      "valuation": "$500M",
+      "description": "Develops AI-powered quantum infrastructure software that improves quantum computer and quantum sensor performance; embedded in IBM Quantum.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$132M"
+      ],
+      [
+        "age",
+        4,
+        "2017"
+      ],
+      [
+        "FI",
+        18.1,
+        "composite 72.5"
+      ],
+      [
+        "govTraction",
+        4.0,
+        "axis 4.0"
+      ],
+      [
+        "sector",
+        4,
+        "Quantum Computing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 92,
+    "name": "Strand Therapeutics",
+    "score": 79.8,
+    "company": {
+      "name": "Strand Therapeutics",
+      "sector": "Biotech & Health",
+      "location": "Cambridge, MA",
+      "founder": "Jake Becraft, Tasuku Kitada",
+      "founded": 2019,
+      "fundingStage": "Series B",
+      "totalRaised": "$205M",
+      "valuation": "",
+      "description": "Develops programmable mRNA therapeutics with built-in genetic logic circuits that sense cellular environment and activate only in targeted cell types. Raised $153M Series B in 2025 with Phase 1 STX-001 data.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$205M"
+      ],
+      [
+        "age",
+        7,
+        "2019"
+      ],
+      [
+        "FI",
+        17.8,
+        "composite 71.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "sector",
+        3,
+        "Biotech & Health"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 93,
+    "name": "Pickle Robot Company",
+    "score": 79.6,
+    "company": {
+      "name": "Pickle Robot Company",
+      "sector": "Robotics & Manufacturing",
+      "location": "Cambridge, MA",
+      "founder": "AJ Meyer",
+      "founded": 2018,
+      "fundingStage": "Series B",
+      "totalRaised": "$113M",
+      "valuation": "",
+      "description": "Builds AI-powered robotic arms that autonomously unload freight trailers in warehouse environments, handling boxes up to 50 lbs. Secured a $120M order from UPS for 400 robots deploying across their network.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$113M"
+      ],
+      [
+        "age",
+        7,
+        "2018"
+      ],
+      [
+        "FI",
+        16.6,
+        "composite 66.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "sector",
+        4,
+        "Robotics & Manufacturing"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 94,
+    "name": "Aleph Farms",
+    "score": 79.5,
+    "company": {
+      "name": "Aleph Farms",
+      "sector": "Biotech & Health",
+      "location": "Rehovot, Israel",
+      "founder": "Didier Toubia, Shulamit Levenberg",
+      "founded": 2017,
+      "fundingStage": "Series C",
+      "totalRaised": "$140M+",
+      "valuation": "",
+      "description": "Cultivated beef steaks grown from cow cells \u2014 world's first regulatory approval for cultivated beef (Israel MoH, December 2023). Facing significant challenges: 30% layoffs June 2024, emergency $25M raise at ~$90M valuation (down from $300M peak).",
+      "insight": "Aleph won the first regulatory green light for cultivated beef. That's a first-mover moat in every market that opens next."
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$140M+"
+      ],
+      [
+        "age",
+        4,
+        "2017"
+      ],
+      [
+        "FI",
+        15.5,
+        "composite 62.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "curated_insight",
+        10,
+        "has ROS thesis"
+      ],
+      [
+        "sector",
+        3,
+        "Biotech & Health"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 95,
+    "name": "Northwood Space",
+    "score": 79.4,
+    "company": {
+      "name": "Northwood Space",
+      "sector": "Space & Aerospace",
+      "location": "El Segundo, CA",
+      "founder": "Bridgit Mendler, Griffin Cleverly",
+      "founded": 0,
+      "fundingStage": "Series B",
+      "totalRaised": "$130M+",
+      "valuation": "",
+      "description": "Modular ground-station infrastructure \u2014 Series B $100M January 2026 plus $49M Space Force contract.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$130M+"
+      ],
+      [
+        "FI",
+        17.4,
+        "composite 69.5"
+      ],
+      [
+        "govTraction",
+        7.0,
+        "axis 7.0"
+      ],
+      [
+        "sector",
+        5,
+        "Space & Aerospace"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 96,
+    "name": "Science Corporation",
+    "score": 79.2,
+    "company": {
+      "name": "Science Corporation",
+      "sector": "Biotech & Health",
+      "location": "Alameda, CA",
+      "founder": "Max Hodak",
+      "founded": 2021,
+      "fundingStage": "Series B",
+      "totalRaised": "$200M+",
+      "valuation": "",
+      "description": "Brain-computer interfaces and organ preservation technology. Founded by former Neuralink president Max Hodak. Building biohybrid neural interfaces using living neurons and vision restoration tech.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$200M+"
+      ],
+      [
+        "age",
+        10,
+        "2021"
+      ],
+      [
+        "FI",
+        14.2,
+        "composite 57.0"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "sector",
+        3,
+        "Biotech & Health"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 97,
+    "name": "Xcimer Energy",
+    "score": 79.1,
+    "company": {
+      "name": "Xcimer Energy",
+      "sector": "Climate & Energy",
+      "location": "Denver, CO",
+      "founder": "Conner Galloway, Alexander Valys",
+      "founded": 2022,
+      "fundingStage": "Series A",
+      "totalRaised": "$100M+",
+      "valuation": "",
+      "description": "Inertial confinement fusion using massive lasers to fire at falling fuel capsules. Colorado-based approach to commercial fusion energy.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series A"
+      ],
+      [
+        "capital",
+        25,
+        "$100M+"
+      ],
+      [
+        "age",
+        10,
+        "2022"
+      ],
+      [
+        "FI",
+        15.1,
+        "composite 60.5"
+      ],
+      [
+        "govTraction",
+        6.0,
+        "axis 6.0"
+      ],
+      [
+        "sector",
+        3,
+        "Climate & Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 98,
+    "name": "Electra",
+    "score": 79.1,
+    "company": {
+      "name": "Electra",
+      "sector": "Climate & Energy",
+      "location": "Boulder, CO",
+      "founder": "Sandeep Nijhawan, Quoc Pham",
+      "founded": 2020,
+      "fundingStage": "Series B",
+      "totalRaised": "$299M",
+      "valuation": "",
+      "description": "Uses low-temperature electrochemistry powered by renewable electricity to refine iron ore into 99% pure iron, decarbonizing steelmaking. Series B led by Temasek. $299M total raised.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        25,
+        "Series B"
+      ],
+      [
+        "capital",
+        25,
+        "$299M"
+      ],
+      [
+        "age",
+        7,
+        "2020"
+      ],
+      [
+        "FI",
+        17.1,
+        "composite 68.5"
+      ],
+      [
+        "govTraction",
+        2.0,
+        "axis 2.0"
+      ],
+      [
+        "sector",
+        3,
+        "Climate & Energy"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 99,
+    "name": "True Anomaly",
+    "score": 78.9,
+    "company": {
+      "name": "True Anomaly",
+      "sector": "Defense & Security",
+      "location": "Centennial, CO",
+      "founder": "Even Rogers",
+      "founded": 2022,
+      "fundingStage": "Series C",
+      "totalRaised": "$420M",
+      "valuation": "$1.5B",
+      "description": "Autonomous orbital spacecraft (Jackal, Mosaic) for US national-security rendezvous and proximity operations \u2014 Series C $260M April 2025 Accel-led at $1.5B valuation. Core Golden Dome contractor.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        15,
+        "$420M"
+      ],
+      [
+        "age",
+        10,
+        "2022"
+      ],
+      [
+        "FI",
+        19.9,
+        "composite 79.5"
+      ],
+      [
+        "govTraction",
+        9.0,
+        "axis 9.0"
+      ],
+      [
+        "sector",
+        5,
+        "Defense & Security"
+      ]
+    ],
+    "form_d": null
+  },
+  {
+    "rank": 100,
+    "name": "Infleqtion",
+    "score": 78.9,
+    "company": {
+      "name": "Infleqtion",
+      "sector": "Quantum Computing",
+      "location": "Boulder, CO",
+      "founder": "Dana Anderson",
+      "founded": 2007,
+      "fundingStage": "Series C",
+      "totalRaised": "$210M",
+      "valuation": "$1.8B",
+      "description": "Develops atom-based quantum sensors including precision atomic clocks (100x more accurate than legacy systems), inertial navigation, and RF receivers for GPS-denied environments.",
+      "insight": ""
+    },
+    "signals": [
+      [
+        "stage",
+        20,
+        "Series C"
+      ],
+      [
+        "capital",
+        25,
+        "$210M"
+      ],
+      [
+        "FI",
+        21.9,
+        "composite 87.5"
+      ],
+      [
+        "govTraction",
+        8.0,
+        "axis 8.0"
+      ],
+      [
+        "sector",
+        4,
+        "Quantum Computing"
+      ]
+    ],
+    "form_d": null
+  }
+]
