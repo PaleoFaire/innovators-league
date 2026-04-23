@@ -1,12 +1,12 @@
 // Auto-generated Form D + SAFE exempt-offering filings
 // Source: SEC EDGAR (public)
-// Last updated: 2026-04-23 04:35:57 UTC
-// Total: 15 filings across 13 companies
+// Last updated: 2026-04-23 08:40:37 UTC
+// Total: 16 filings across 14 companies
 const FORM_D_FILINGS = {
-  "generated_at": "2026-04-23T04:35:57.807724+00:00",
+  "generated_at": "2026-04-23T08:40:37.364359+00:00",
   "source": "SEC EDGAR Form D / Rule 506 exempt offerings",
   "lookback_days": 60,
-  "total_filings": 15,
+  "total_filings": 16,
   "filings": [
     {
       "company": "ElevenLabs",
@@ -106,6 +106,23 @@ const FORM_D_FILINGS = {
       "amount_sold": "5",
       "amount_remaining": "0",
       "securities_type": "Equity",
+      "exemption": "06b",
+      "first_sale_date": "",
+      "is_safe": false
+    },
+    {
+      "company": "Icarus",
+      "issuer_name": "Icarus Opportunity Fund I, LP",
+      "form": "D",
+      "filed_date": "2026-04-17",
+      "cik": "2130339",
+      "accession": "0002130339-26-000001",
+      "filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002130339&type=D&dateb=&owner=include&count=10",
+      "adsh_raw": "0002130339-26-000001",
+      "offering_amount": "Indefinite",
+      "amount_sold": "0",
+      "amount_remaining": "Indefinite",
+      "securities_type": "",
       "exemption": "06b",
       "first_sale_date": "",
       "is_safe": false

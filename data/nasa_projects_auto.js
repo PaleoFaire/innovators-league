@@ -1,7 +1,17 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-23 08:29:55 UTC
+// Last updated: 2026-04-23 08:27:41 UTC
 const NASA_PROJECTS = [
-  { id: 184881, title: "Mars PLSS Testbed", status: "Active", center: "Johnson Space Center", techArea: "Portable Life Support System", lastUpdated: "04/21/26" },
+  { id: 156378, title: "Wall modeled large eddy simulation of high-enthalpy hypersonic flows", status: "Active", center: "University of Colorado Boulder", techArea: "Integrated Modeling and Simulation for EDL", lastUpdated: "04/22/26" },
+  { id: 118475, title: "Virtual Prototyping of Multifunctional Boron-Nitrogen Nanostructures and their C", status: "Completed", center: "Rice University", techArea: "Lightweight Concepts", lastUpdated: "04/22/26" },
+  { id: 156318, title: "Institute for Model-Based Qualification & Certification of Additive Manufacturin", status: "Active", center: "Carnegie Mellon University", techArea: "Manufacturing Processes", lastUpdated: "04/22/26" },
+  { id: 183451, title: "Crosscutting Fission-Based Nuclear Capabilities", status: "Completed", center: "Marshall Space Flight Center", techArea: "", lastUpdated: "04/22/26" },
+  { id: 158561, title: "Nuclear Thermal Propulsion Technology Maturation", status: "Completed", center: "Marshall Space Flight Center", techArea: "Nuclear Thermal Propulsion", lastUpdated: "04/22/26" },
+  { id: 116319, title: "Moon-to-Mars Planetary Autonomous Construction Technology", status: "Active", center: "Marshall Space Flight Center", techArea: "Surface Construction and Assembly", lastUpdated: "04/22/26" },
+  { id: 156375, title: "High-fidelity numerical simulation and modeling of boundary layer transition and", status: "Active", center: "University of Southern California", techArea: "Integrated Modeling and Simulation for EDL", lastUpdated: "04/22/26" },
+  { id: 183422, title: "High Performance Materials for Space", status: "Completed", center: "Langley Research Center", techArea: "Lightweight Structural Materials", lastUpdated: "04/22/26" },
+  { id: 116262, title: "Descent Systems Study", status: "Completed", center: "Langley Research Center", techArea: "Supersonic Retropropulsion", lastUpdated: "04/22/26" },
+  { id: 158058, title: "Performance of Expansion-Deflection Nozzles for Rotating Detonation Rocket Engin", status: "Completed", center: "CFD Research Corporation", techArea: "Airbreathing Pressure Gain Combustion", lastUpdated: "04/22/26" },
+  { id: 183486, title: "Dust Vacuum System (DVS)", status: "Active", center: "Johnson Space Center", techArea: "Particulate Contamination Prevention and Mitigation", lastUpdated: "04/22/26" },
   { id: 157177, title: "Crew Health And Performance Exploration Analog", status: "Active", center: "Johnson Space Center", techArea: "Behavioral Health and Performance", lastUpdated: "04/21/26" },
   { id: 157628, title: "Spacesuit Fit & Injury Technologies", status: "Active", center: "Johnson Space Center", techArea: "Human Health, Life Support, and Habitation Systems", lastUpdated: "04/21/26" },
   { id: 106556, title: "Mars Ascent Vehicle I", status: "Completed", center: "Marshall Space Flight Center", techArea: "Instrumentation and Health Monitoring for EDL", lastUpdated: "04/21/26" },
@@ -21,14 +31,4 @@ const NASA_PROJECTS = [
   { id: 184848, title: "Additive Manufacturing for Propulsion", status: "Active", center: "Marshall Space Flight Center", techArea: "Additive Manufacturing", lastUpdated: "04/15/26" },
   { id: 184847, title: "Space Storm Solar Sail Sentinel (S5)", status: "Active", center: "Marshall Space Flight Center", techArea: "Solar Sails", lastUpdated: "04/15/26" },
   { id: 182479, title: "NASA TechLeap Prize: Nighttime Precision Landing Challenge No. 1", status: "Completed", center: "Armstrong Flight Research Center", techArea: "Landing", lastUpdated: "04/15/26" },
-  { id: 183910, title: "Novel Recuperator Design for Cryogenic Fluid Management System", status: "Completed", center: "Marshall Space Flight Center", techArea: "Cryogenic Propulsion", lastUpdated: "04/15/26" },
-  { id: 182478, title: "Find me on the Moon: NASA Lunar Navigation Challenge", status: "Completed", center: "Johnson Space Center", techArea: "Navigation Technologies", lastUpdated: "04/15/26" },
-  { id: 182455, title: "Automated Design and Placement of Printed Hybrid Electronics", status: "Completed", center: "Goddard Space Flight Center", techArea: "Additive Manufacturing", lastUpdated: "04/15/26" },
-  { id: 182477, title: "Robotic Assembly and Outfitting for NASA Missions", status: "Completed", center: "Ames Research Center", techArea: "Robotic Systems", lastUpdated: "04/15/26" },
-  { id: 183844, title: "Deep Space Food Challenge:  Mars to Table", status: "Active", center: "Marshall Space Flight Center", techArea: "Food Production, Processing, and Preservation", lastUpdated: "04/15/26" },
-  { id: 183846, title: "LunaRecycle - Phase 2 (Luna)", status: "Active", center: "NASA Marshall Space Flight Center", techArea: "Waste Management", lastUpdated: "04/15/26" },
-  { id: 157706, title: "1040nm 3-D imaging CASALS Lidar for Landing and Long-Distance Navigation", status: "Completed", center: "Goddard Space Flight Center", techArea: "Revolutionary PNT Technologies", lastUpdated: "04/14/26" },
-  { id: 157654, title: "Application of ML to Detection of Anomalies in Spacecraft Health and Status Data", status: "Completed", center: "Goddard Space Flight Center", techArea: "Anomaly Detection", lastUpdated: "04/14/26" },
-  { id: 157708, title: "Ground-Based Telemetry Antenna Arraying", status: "Completed", center: "Wallops Flight Facility", techArea: "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems", lastUpdated: "04/14/26" },
-  { id: 157656, title: "Intelligent Extensible Mission Architectures Systems and Prototypes", status: "Completed", center: "Goddard Space Flight Center", techArea: "Activity and Resource Planning and Scheduling", lastUpdated: "04/14/26" },
 ];
