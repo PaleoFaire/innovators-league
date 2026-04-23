@@ -3,57 +3,57 @@
   "companiesTracked": 32,
   "sectorPerformance": {
     "ai": {
-      "gainers": 1,
-      "losers": 0,
-      "avg_change": 3.04,
+      "gainers": 0,
+      "losers": 1,
+      "avg_change": -0.28,
       "count": 1
     },
     "space": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": -1.4,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -2.98,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -2.63,
+      "gainers": 1,
+      "losers": 6,
+      "avg_change": -5.53,
       "count": 7
     },
     "nuclear": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 16.8,
+      "avg_change": 12.01,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.63,
+      "avg_change": -4.08,
       "count": 3
     },
     "quantum": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": -3.38,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -8.65,
       "count": 3
     },
     "biotech": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -0.8,
+      "gainers": 0,
+      "losers": 3,
+      "avg_change": -3.92,
       "count": 3
     },
     "transportation": {
       "gainers": 1,
       "losers": 1,
-      "avg_change": 0.05,
+      "avg_change": -1.86,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.93,
+      "avg_change": 8.05,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "OKLO",
       "Oklo",
-      21.41
+      20.23
     ],
     [
       "SLDP",
       "Solid Power",
-      21.01
-    ],
-    [
-      "QS",
-      "QuantumScape",
-      18.18
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      17.79
+      14.72
     ],
     [
       "ALAB",
       "Astera Labs",
-      14.72
+      14.32
+    ],
+    [
+      "SMR",
+      "NuScale Power",
+      10.96
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      10.89
     ]
   ],
   "topLosers": [
     [
-      "SATL",
-      "Satellogic",
-      -6.52
+      "QBTS",
+      "D-Wave Quantum",
+      -10.18
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      -8.95
+      -13.24
     ],
     [
       "ASTS",
       "AST SpaceMobile",
-      -11.28
+      -13.34
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -21.86
+      -26.65
     ],
     [
       "LNZA",
       "LanzaTech",
-      -28.3
+      -31.78
     ]
   ],
-  "lastUpdated": "2026-04-23 13:54:18"
+  "lastUpdated": "2026-04-23 19:17:30"
 }
