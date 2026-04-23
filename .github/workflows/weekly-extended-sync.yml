@@ -118,10 +118,41 @@ jobs:
           path: data/
           retention-days: 7
 
+  sync-linkedin-headcount:
+    name: Sync LinkedIn Headcount (Apify)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch LinkedIn company headcount
+        # Real LinkedIn employee counts + 90-day growth per tracked company.
+        # No-op (writes `awaiting_apify_key` placeholders) until APIFY_TOKEN
+        # is set in repo secrets.
+        run: python scripts/fetch_linkedin_headcount.py
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: linkedin-headcount-data
+          path: data/
+          retention-days: 7
+
   merge-and-commit:
     name: Merge Extended Data and Commit
     runs-on: ubuntu-latest
-    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt]
+    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-linkedin-headcount]
     if: always()
     steps:
       - name: Checkout repository
@@ -154,6 +185,14 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: product-hunt-data
+          path: data/
+          merge-multiple: true
+        continue-on-error: true
+
+      - name: Download LinkedIn headcount data
+        uses: actions/download-artifact@v4
+        with:
+          name: linkedin-headcount-data
           path: data/
           merge-multiple: true
         continue-on-error: true
