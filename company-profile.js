@@ -24,10 +24,17 @@
   });
 
   function initCompanyProfile() {
-    // Get company from URL parameter — support slug, name, and company params
+    // Get company from URL parameter — accept every shape the site uses
+    // anywhere. IL30 cards, upvotes, alerts, customers, captable, earnings
+    // chips etc. all historically used `?c=<name>`. The profile page only
+    // read `?slug=` / `?name=` / `?company=`, so every one of those links
+    // broke with "Company Not Found". Accepting `?c=` here unbreaks them
+    // in a single line without a codebase-wide sweep.
     const urlParams = new URLSearchParams(window.location.search);
     const slug = urlParams.get('slug');
-    const companyName = urlParams.get('name') || urlParams.get('company');
+    const companyName = urlParams.get('name') ||
+                        urlParams.get('company') ||
+                        urlParams.get('c');
 
     // Find company in database
     if (typeof COMPANIES === 'undefined') {
@@ -39,6 +46,14 @@
     // Resolve company from slug or name
     if (slug) {
       currentCompany = COMPANIES.find(c => profileSlug(c.name) === slug.toLowerCase());
+      // Slug not found? Fall back to trying it as a hyphen-joined name
+      // (covers mismatches between profileSlug() and companyToSlug() variants).
+      if (!currentCompany) {
+        currentCompany = COMPANIES.find(c =>
+          c.name.toLowerCase().replace(/\s+/g, '-') === slug.toLowerCase() ||
+          c.name.toLowerCase() === slug.toLowerCase().replace(/-/g, ' ')
+        );
+      }
     } else if (companyName) {
       currentCompany = COMPANIES.find(c =>
         c.name.toLowerCase() === companyName.toLowerCase() ||
