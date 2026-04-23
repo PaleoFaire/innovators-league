@@ -18,3 +18,7 @@ Thumbs.db
 
 # Supabase
 supabase/.temp/
+
+# ── Raw-data blobs (regenerable per run, excluded from repo) ──
+data/export_controls_raw.json
+data/form_d_filings_raw.json

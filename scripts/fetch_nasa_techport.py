@@ -64,7 +64,10 @@ def fetch_recent_projects(days=365):
         # Use the updatedSince parameter to filter to recently updated projects
         url = f"{NASA_TECHPORT_BASE}/projects"
         params = {"updatedSince": cutoff}
-        headers = {"Accept": "application/json"}
+        headers = {
+            "User-Agent": "InnovatorsLeague/1.0 (contact@innovatorsleague.com)",
+            "Accept": "application/json",
+        }
 
         print(f"Fetching projects updated since {cutoff}...")
         response = fetch_with_retry(url, headers=headers, params=params, timeout=60)

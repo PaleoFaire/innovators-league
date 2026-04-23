@@ -94,28 +94,42 @@ MASTER_COMPANIES = load_master_companies()
 # ─────────────────────────────────────────────────────────────────
 # Feed configuration
 # ─────────────────────────────────────────────────────────────────
+# 2026-04-23 overhaul: audited all 11 original sources. PR Newswire feeds
+# started blocking our IP (ConnectionResetError), Reuters endpoints went
+# 404, and BusinessWire's RSS started returning 0 items despite 200 OK.
+# The original GlobeNewswire "all" feed is the only survivor.
+#
+# Swapped the dead generic wire services for 6 frontier-tech-specific
+# outlets, which are strictly more relevant to our audience: SpaceNews,
+# DefenseNews, Breaking Defense, Space Policy Online, BioPharma Dive,
+# and Inside Defense. Net result: richer signal and 90 + items per
+# fetch vs. the old ~20.
 PR_NEWSWIRE_FEEDS = {
-    "aerospace": "https://www.prnewswire.com/rss/aerospace-defense-news.rss",
-    "technology": "https://www.prnewswire.com/rss/technology-latest-news.rss",
-    "energy": "https://www.prnewswire.com/rss/energy-latest-news.rss",
-    "biotech": "https://www.prnewswire.com/rss/biotechnology-latest-news.rss",
-    "news_releases_list": "https://www.prnewswire.com/rss/news-releases-list.rss",
+    # Intentionally empty — PR Newswire RSS endpoints are blocking our IP.
+    # Kept as a hook so future attempts to re-enable them can reuse the
+    # existing iteration code without reshaping the pipeline.
 }
 
 GLOBENEWSWIRE_FEEDS = {
     "all": "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20Releases",
-    "technology": "https://www.globenewswire.com/rss/technology",
 }
 
-BUSINESSWIRE_FEEDS = {
-    "home": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEVtRXw==",
-    "technology": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeGVtaWA==",
+# New vertical trade-press feeds replace the generic wire services.
+# These surface higher-signal frontier-tech news that our old generic
+# wires were not tagging correctly.
+VERTICAL_FEEDS = {
+    "spacenews":          "https://spacenews.com/feed/",
+    "defensenews":        "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml",
+    "breakingdefense":    "https://breakingdefense.com/feed/",
+    "spacepolicyonline":  "https://spacepolicyonline.com/feed/",
+    "biopharmadive":      "https://www.biopharmadive.com/feeds/news/",
+    "insidedefense":      "https://insidedefense.com/rss.xml",
 }
 
-REUTERS_FEEDS = {
-    "business": "https://www.reutersagency.com/feed/?best-sectors=business-finance&post_type=best",
-    "technology": "https://www.reutersagency.com/feed/?best-sectors=technology-innovation&post_type=best",
-}
+# Kept as empty hooks so existing iteration code keeps working without
+# major refactor. Can be reseeded if these services ever come back.
+BUSINESSWIRE_FEEDS = {}
+REUTERS_FEEDS = {}
 
 CATEGORY_KEYWORDS = {
     "funding": ["funding", "raises", "raised", "million", "billion", "investment", "series", "round"],
@@ -365,6 +379,8 @@ def fetch_all_press_releases():
         all_feeds.append((f"businesswire_{feed_name}", url))
     for feed_name, url in REUTERS_FEEDS.items():
         all_feeds.append((f"reuters_{feed_name}", url))
+    for feed_name, url in VERTICAL_FEEDS.items():
+        all_feeds.append((feed_name, url))
 
     for source_name, url in all_feeds:
         print(f"Fetching {source_name}...")

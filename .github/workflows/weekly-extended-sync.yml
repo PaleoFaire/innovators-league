@@ -149,14 +149,57 @@ jobs:
           path: data/
           retention-days: 7
 
+  sync-trademarks:
+    name: Sync USPTO Trademarks
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests
+      - name: Fetch USPTO trademark filings
+        # Graceful no-op (writes placeholder) when USPTO_API_KEY is unset.
+        # Get free key at https://developer.uspto.gov/api-catalog
+        run: python scripts/fetch_trademarks.py
+        env:
+          USPTO_API_KEY: ${{ secrets.USPTO_API_KEY }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: trademarks-data
+          path: data/
+          retention-days: 7
+
+  sync-factory-watch:
+    name: Sync Factory Watch (ESA Copernicus)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests
+      - name: Fetch Sentinel-2 satellite passes over watched sites
+        # FREE public API via Copernicus Data Space Ecosystem (no key).
+        run: python scripts/fetch_factory_watch.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: factory-watch-data
+          path: data/
+          retention-days: 7
+
   merge-and-commit:
     name: Merge Extended Data and Commit
     runs-on: ubuntu-latest
-    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-linkedin-headcount]
+    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-linkedin-headcount, sync-trademarks, sync-factory-watch]
     if: always()
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Full history so `git pull --rebase` works when other workflows
+          # push during our 20-min fan-out run.
+          fetch-depth: 0
 
       - name: Download insider data
         uses: actions/download-artifact@v4
@@ -197,6 +240,22 @@ jobs:
           merge-multiple: true
         continue-on-error: true
 
+      - name: Download Trademarks data
+        uses: actions/download-artifact@v4
+        with:
+          name: trademarks-data
+          path: data/
+          merge-multiple: true
+        continue-on-error: true
+
+      - name: Download Factory Watch data
+        uses: actions/download-artifact@v4
+        with:
+          name: factory-watch-data
+          path: data/
+          merge-multiple: true
+        continue-on-error: true
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -205,17 +264,48 @@ jobs:
       - name: Regenerate Founder DNA Index
         run: python scripts/generate_founder_dna.py
 
+      - name: Pipeline Health Watchdog
+        # Emit data/pipeline_health.json so the site footer and admin
+        # dashboard always have an up-to-date freshness picture.
+        run: python scripts/pipeline_watchdog.py
+        continue-on-error: true
+
       - name: Configure Git
         run: |
           git config user.name "TIL Data Bot"
           git config user.email "bot@innovatorsleague.com"
 
-      - name: Commit and push changes
+      - name: Commit and push changes (retry on conflict)
         run: |
-          git add data/ data.js
-          git diff --staged --quiet || git commit -m "🤖 Auto-update: Weekly extended sync (FDA, Insider, GitHub, PH, Founder DNA) $(date +%Y-%m-%d)"
-          git pull --rebase origin main || true
-          git push
+          # Robust stash-rebase-pop-commit pattern. Previous version used
+          # `git pull --rebase origin main || true` which silently swallowed
+          # rebase conflicts, leaving the repo stuck and the push failing
+          # without any error surfaced. That's why FDA/insider/github
+          # outputs went 50-65 days stale while this workflow reported
+          # "success" every Sunday.
+          for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || {
+              echo "Rebase failed on attempt $attempt; aborting cleanly"
+              git rebase --abort 2>/dev/null || true
+            }
+            git stash pop 2>/dev/null || true
+            git add data/ data.js 2>/dev/null || true
+            if git diff --staged --quiet; then
+              echo "No changes to commit on attempt $attempt."
+              exit 0
+            fi
+            git commit -m "🤖 Auto-update: Weekly extended sync (FDA, Insider, GitHub, PH, Founder DNA) $(date +%Y-%m-%d)"
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; soft-resetting and retrying"
+            git reset --soft HEAD~1
+            sleep $((attempt * 5))
+          done
+          echo "::error::Failed to push weekly extended sync after 5 attempts"
+          exit 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

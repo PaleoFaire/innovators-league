@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proprietary Signals | ROS Startup Database</title>
+    <meta name="description" content="Five unique frontier-tech intelligence feeds: Form D filings, Export Controls Watch, USPTO Trademarks, SBIR bid-fit, and Factory Watch satellite monitoring.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:title" content="Proprietary Signals | The Innovators League">
+    <meta property="og:description" content="Five unique frontier-tech intelligence signals nobody else surfaces.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="The Innovators League">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260422">
+    <style>
+      /* ═══ Signals page ═══ */
+      .signals-hero {
+        background: linear-gradient(135deg, #0a0f1a 0%, #1a0d2c 40%, #2a1049 70%, #120623 100%);
+        padding: 80px 24px 60px;
+      }
+      .signals-hero-content { max-width: 1200px; margin: 0 auto; }
+      .signals-hero h1 {
+        font-size: clamp(28px, 4.5vw, 44px);
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+        line-height: 1.1;
+        margin-bottom: 12px;
+        color: #fff;
+      }
+      .signals-hero p {
+        font-size: 16px;
+        color: rgba(255,255,255,0.7);
+        max-width: 720px;
+        line-height: 1.55;
+      }
+      .signals-badges {
+        margin-top: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .signals-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 12px;
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 20px;
+        font-size: 11px;
+        font-weight: 600;
+        color: rgba(255,255,255,0.85);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .signals-badge.new { background: rgba(255,107,44,0.15); border-color: rgba(255,107,44,0.4); color: #FF8C5C; }
+
+      .signals-container { max-width: 1200px; margin: 0 auto; padding: 0 24px 80px; }
+
+      .signal-section {
+        margin-top: 56px;
+        padding-top: 36px;
+        border-top: 1px solid rgba(255,255,255,0.08);
+      }
+      .signal-section:first-of-type { border-top: 0; margin-top: 28px; }
+      .signal-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 24px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+      }
+      .signal-title {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        color: #fff;
+        margin: 0 0 4px;
+      }
+      .signal-subtitle {
+        font-size: 13px;
+        color: rgba(255,255,255,0.55);
+        line-height: 1.5;
+        max-width: 640px;
+      }
+      .signal-meta {
+        font-size: 11px;
+        color: rgba(255,255,255,0.4);
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        text-align: right;
+      }
+      .signal-meta .sig-count {
+        font-size: 24px;
+        color: #FF8C5C;
+        font-family: 'Space Grotesk', monospace;
+        font-weight: 700;
+        letter-spacing: 0;
+      }
+
+      /* Filings grid */
+      .filing-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 12px;
+      }
+      .filing-card {
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 10px;
+        padding: 16px 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        transition: border-color 0.15s, background 0.15s;
+        text-decoration: none;
+        color: inherit;
+      }
+      .filing-card:hover {
+        border-color: rgba(255,107,44,0.35);
+        background: rgba(255,107,44,0.04);
+      }
+      .filing-row-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .filing-co { font-weight: 700; font-size: 15px; color: #fff; }
+      .filing-amt {
+        font-family: 'Space Grotesk', monospace;
+        font-weight: 700;
+        color: #22c55e;
+        font-size: 14px;
+      }
+      .filing-meta-row {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        font-size: 11px;
+        color: rgba(255,255,255,0.55);
+      }
+      .filing-pill {
+        padding: 2px 8px;
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 10px;
+        font-weight: 500;
+      }
+      .filing-pill.safe { background: rgba(255,193,7,0.08); border-color: rgba(255,193,7,0.3); color: #ffcd38; }
+      .filing-pill.equity { background: rgba(34,197,94,0.08); border-color: rgba(34,197,94,0.3); color: #34d17c; }
+      .filing-issuer {
+        font-size: 12px;
+        color: rgba(255,255,255,0.45);
+        font-style: italic;
+      }
+
+      /* Export-controls table */
+      .ec-empty {
+        padding: 36px 24px;
+        text-align: center;
+        background: rgba(34,197,94,0.06);
+        border: 1px solid rgba(34,197,94,0.25);
+        border-radius: 10px;
+        color: #34d17c;
+        font-size: 14px;
+      }
+      .ec-empty strong { color: #22c55e; font-size: 16px; display: block; margin-bottom: 4px; }
+      .ec-match-card {
+        background: rgba(239,68,68,0.06);
+        border: 1px solid rgba(239,68,68,0.35);
+        border-radius: 10px;
+        padding: 16px 18px;
+        margin-bottom: 10px;
+      }
+      .ec-match-card.new { box-shadow: 0 0 0 2px rgba(239,68,68,0.35); }
+      .ec-match-title { font-weight: 700; color: #fca5a5; font-size: 15px; margin-bottom: 6px; }
+      .ec-match-meta { font-size: 12px; color: rgba(255,255,255,0.55); }
+
+      /* SBIR bid-fit */
+      .sbir-topic-card {
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 10px;
+        padding: 18px 20px;
+        margin-bottom: 14px;
+      }
+      .sbir-topic-title { font-weight: 700; font-size: 15px; color: #fff; margin-bottom: 6px; }
+      .sbir-topic-desc { font-size: 13px; color: rgba(255,255,255,0.65); line-height: 1.5; margin-bottom: 12px; }
+      .sbir-topic-meta {
+        display: flex;
+        gap: 10px;
+        font-size: 11px;
+        color: rgba(255,255,255,0.5);
+        margin-bottom: 14px;
+      }
+      .sbir-bidfit-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 8px;
+      }
+      .sbir-bidfit {
+        padding: 10px 12px;
+        background: rgba(255,107,44,0.05);
+        border: 1px solid rgba(255,107,44,0.18);
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+        transition: background 0.15s;
+        text-decoration: none;
+        color: inherit;
+      }
+      .sbir-bidfit:hover { background: rgba(255,107,44,0.10); }
+      .sbir-bidfit-name { font-weight: 600; font-size: 13px; color: #fff; }
+      .sbir-bidfit-terms { font-size: 10px; color: rgba(255,255,255,0.45); margin-top: 2px; }
+      .sbir-bidfit-score { font-family: 'Space Grotesk', monospace; font-weight: 700; color: #FF8C5C; font-size: 13px; }
+
+      /* Factory Watch cards */
+      .fw-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        gap: 12px;
+      }
+      .fw-card {
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 10px;
+        padding: 16px 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        transition: all 0.15s;
+      }
+      .fw-card:hover { border-color: rgba(59,130,246,0.35); background: rgba(59,130,246,0.04); }
+      .fw-co { font-weight: 700; font-size: 15px; color: #fff; }
+      .fw-site { font-size: 12px; color: rgba(255,255,255,0.55); }
+      .fw-stats { display: flex; gap: 14px; font-size: 11px; margin-top: 6px; }
+      .fw-stat-lbl { color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.5px; font-size: 9.5px; }
+      .fw-stat-val { color: #fff; font-weight: 600; font-family: 'Space Grotesk', monospace; margin-top: 2px; }
+      .fw-stat-val.clear { color: #34d17c; }
+      .fw-stat-val.cloudy { color: #fbbf24; }
+      .fw-link {
+        margin-top: 10px;
+        display: inline-block;
+        font-size: 12px;
+        color: #60a5fa;
+        text-decoration: none;
+      }
+      .fw-link:hover { text-decoration: underline; }
+
+      /* Trademarks placeholder */
+      .tm-placeholder {
+        padding: 28px 24px;
+        text-align: center;
+        background: rgba(139,92,246,0.06);
+        border: 1px solid rgba(139,92,246,0.25);
+        border-radius: 10px;
+        color: rgba(255,255,255,0.75);
+        font-size: 14px;
+      }
+      .tm-placeholder strong { color: #a78bfa; display: block; margin-bottom: 6px; font-size: 16px; }
+      .tm-placeholder code {
+        background: rgba(0,0,0,0.3);
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 12px;
+      }
+    </style>
+    <script src="analytics.js?v=20260422"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Intelligence</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
+            <a href="brief.html" class="nav-link">Frontier Daily</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
+                    <a href="sectors.html" class="nav-dropdown-link">Sectors</a>
+                    <a href="transformation.html" class="nav-dropdown-link">Transformation</a>
+                    <a href="investors.html" class="nav-dropdown-link">Investors</a>
+                    <a href="jobs.html" class="nav-dropdown-link">Talent</a>
+                    <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                    <a href="patents.html" class="nav-dropdown-link">Patents</a>
+                    <a href="earnings-signals.html" class="nav-dropdown-link">Earnings Signals</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="signals.html" class="nav-dropdown-link">🔴 Signals</a>
+                    <a href="launches.html" class="nav-dropdown-link">Launches</a>
+                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                    <a href="research.html" class="nav-dropdown-link">Research</a>
+                    <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
+        <span aria-current="page">Proprietary Signals</span>
+    </div>
+
+    <header class="signals-hero">
+      <div class="signals-hero-content">
+        <p class="hero-eyebrow" style="font-size:11px; letter-spacing:2px; color:#FF8C5C; text-transform:uppercase; margin-bottom:12px;">PROPRIETARY INTELLIGENCE · AUTHORITATIVE SOURCES ONLY</p>
+        <h1>Five signals nobody else tracks.</h1>
+        <p>Leading-indicator intelligence pulled daily from SEC EDGAR, US Commerce/Treasury/State sanctions, USPTO trademarks, DoD SBIR solicitations, and ESA Copernicus satellite imagery. Every row links to the primary source — no aggregation middlemen, no AI-summarized slop.</p>
+        <div class="signals-badges">
+          <span class="signals-badge new">✨ NEW</span>
+          <span class="signals-badge">Form D Filings</span>
+          <span class="signals-badge">Export Controls</span>
+          <span class="signals-badge">USPTO Trademarks</span>
+          <span class="signals-badge">SBIR Bid-Fit</span>
+          <span class="signals-badge">Factory Watch</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="signals-container">
+
+      <!-- ════════════════════════════════════════════════════════ -->
+      <!-- SECTION 1: Form D Filings                                 -->
+      <!-- ════════════════════════════════════════════════════════ -->
+      <section class="signal-section" id="form-d">
+        <div class="signal-head">
+          <div>
+            <h2 class="signal-title">📄 Form D / SAFE Filings</h2>
+            <p class="signal-subtitle">Every private funding round &gt; $5K files an SEC Form D within 15 days of first sale — weeks before the press release. The leading indicator for funding activity.</p>
+          </div>
+          <div class="signal-meta">
+            <span class="sig-count" id="form-d-count">—</span>
+            <span>filings, last 60 days</span>
+            <span>Source: SEC EDGAR</span>
+          </div>
+        </div>
+        <div id="form-d-grid" class="filing-grid"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading Form D filings…</p></div>
+      </section>
+
+      <!-- ════════════════════════════════════════════════════════ -->
+      <!-- SECTION 2: Export Controls Watch                          -->
+      <!-- ════════════════════════════════════════════════════════ -->
+      <section class="signal-section" id="export-controls">
+        <div class="signal-head">
+          <div>
+            <h2 class="signal-title">🚨 Export Controls / Entity List Watch</h2>
+            <p class="signal-subtitle">Cross-references all 868 tracked companies against the BIS Entity List, OFAC SDN, Commerce Denied Persons, ITAR Debarred, and 10 other restricted-party lists — every day. Unique: no competitor tracks this systematically.</p>
+          </div>
+          <div class="signal-meta">
+            <span class="sig-count" id="ec-count">—</span>
+            <span>matches</span>
+            <span id="ec-new-adds">—</span>
+          </div>
+        </div>
+        <div id="ec-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading Export Controls Watch…</p></div>
+      </section>
+
+      <!-- ════════════════════════════════════════════════════════ -->
+      <!-- SECTION 3: USPTO Trademarks                               -->
+      <!-- ════════════════════════════════════════════════════════ -->
+      <section class="signal-section" id="trademarks">
+        <div class="signal-head">
+          <div>
+            <h2 class="signal-title">™️ USPTO Trademark Filings</h2>
+            <p class="signal-subtitle">Trademarks leak new product names 6-12 months before reveal events. "Anduril files LATTICE AEGIS" → new product coming. We scan the IL30 + priority 100 weekly.</p>
+          </div>
+          <div class="signal-meta">
+            <span class="sig-count" id="tm-count">—</span>
+            <span>filings, last 365d</span>
+            <span>Source: USPTO</span>
+          </div>
+        </div>
+        <div id="tm-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading trademarks…</p></div>
+      </section>
+
+      <!-- ════════════════════════════════════════════════════════ -->
+      <!-- SECTION 4: SBIR Bid-Fit                                   -->
+      <!-- ════════════════════════════════════════════════════════ -->
+      <section class="signal-section" id="sbir-bidfit">
+        <div class="signal-head">
+          <div>
+            <h2 class="signal-title">🎯 DoD SBIR Topic Bid-Fit</h2>
+            <p class="signal-subtitle">Active SBIR solicitations matched against all 868 companies via TF-IDF scoring over their curated descriptions. Predictive: which of our tracked companies will most likely win each topic.</p>
+          </div>
+          <div class="signal-meta">
+            <span class="sig-count" id="sbir-count">—</span>
+            <span>active topics</span>
+            <span>Source: SBIR.gov</span>
+          </div>
+        </div>
+        <div id="sbir-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading SBIR bid-fit…</p></div>
+      </section>
+
+      <!-- ════════════════════════════════════════════════════════ -->
+      <!-- SECTION 5: Factory Watch                                  -->
+      <!-- ════════════════════════════════════════════════════════ -->
+      <section class="signal-section" id="factory-watch">
+        <div class="signal-head">
+          <div>
+            <h2 class="signal-title">🛰️ Factory Watch — Satellite Monitoring</h2>
+            <p class="signal-subtitle">Most-recent Sentinel-2 satellite passes over 26 strategic frontier-tech factories and launch sites. Click any card for the live Copernicus Browser imagery. Free. Every pass tracked.</p>
+          </div>
+          <div class="signal-meta">
+            <span class="sig-count" id="fw-count">—</span>
+            <span>sites monitored</span>
+            <span>Source: ESA Copernicus</span>
+          </div>
+        </div>
+        <div id="fw-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading Factory Watch…</p></div>
+      </section>
+    </main>
+
+    <footer style="padding:40px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.06);">
+      <p style="font-size:11px; color:rgba(255,255,255,0.4); letter-spacing:0.5px;">
+        All five feeds refresh automatically every 1-7 days. Every data point links to its primary US-government source.<br>
+        <a href="terms.html" style="color:rgba(255,255,255,0.5);">Terms</a> · <a href="privacy.html" style="color:rgba(255,255,255,0.5);">Privacy</a>
+      </p>
+    </footer>
+
+    <script src="utils.js?v=20260422"></script>
+    <script src="auth.js?v=20260422"></script>
+    <script src="data/form_d_filings_auto.js?v=20260423"></script>
+    <script src="data/export_controls_auto.js?v=20260423"></script>
+    <script src="data/trademarks_auto.js?v=20260423"></script>
+    <script src="data/sbir_topics_auto.js?v=20260423"></script>
+    <script src="data/factory_watch_auto.js?v=20260423"></script>
+    <script src="signals.js?v=20260423"></script>
+</body>
+</html>

@@ -617,6 +617,30 @@ jobs:
         run: python scripts/fetch_exec_moves.py
         continue-on-error: true
 
+      # ─── NEW proprietary pipelines (2026-04-23) ───
+      - name: Form D + SAFE Filings (SEC EDGAR, last 60d)
+        # Leading indicator for private funding rounds. No key required.
+        run: python scripts/fetch_form_d_filings.py
+        continue-on-error: true
+
+      - name: Export Controls / Entity List Watch
+        # Daily cross-reference of 868 companies against BIS + OFAC + State
+        # restricted-party lists. Unique to our product. No key required.
+        run: python scripts/fetch_export_controls.py
+        continue-on-error: true
+
+      - name: Enhance SBIR topics with full-COMPANIES bid-fit
+        # Must run AFTER fetch_sbir_topics.py (which is in sync-sbir-topics
+        # above and lands its output via artifact download).
+        run: python scripts/enhance_sbir_topics.py
+        continue-on-error: true
+
+      - name: Pipeline Health Watchdog
+        # Scans every auto.js / auto.json and emits data/pipeline_health.json.
+        # Advisory — does NOT fail the run even if some pipelines are stale.
+        run: python scripts/pipeline_watchdog.py
+        continue-on-error: true
+
       - name: Merge comprehensive data into data.js
         run: python scripts/merge_data.py
 
