@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T06:13:14.099144+00:00",
+  "generatedAt": "2026-04-23T08:59:34.887572+00:00",
   "date": "2026-04-23",
   "dateDisplay": "Thursday, April 23, 2026",
   "sections": {
@@ -105,13 +105,6 @@
         "change": 45.34
       },
       {
-        "ticker": "IDEAFORGE.NS",
-        "company": "ideaForge",
-        "price": 545.9,
-        "changePercent": 17.12,
-        "change": 79.8
-      },
-      {
         "ticker": "SMR",
         "company": "NuScale Power",
         "price": 13.57,
@@ -124,6 +117,13 @@
         "price": 39.47,
         "changePercent": 14.71,
         "change": 5.06
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 72.41,
+        "changePercent": 14.3,
+        "change": 9.06
       }
     ],
     "regulatory": [
@@ -151,23 +151,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "NextEra Energy Duane Arnold, LLC; Duane Arnold Energy Center; Applications for A",
-        "date": "2026-04-22",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-07796"
+        "title": "Exceptions From Foreign Ownership, Control or Domination",
+        "date": "2026-04-23",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-07918"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Establishment of Restricted Areas R-5305A, R-5305B, and R-5305C; Camp Lejeune, N",
-        "date": "2026-04-21",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-07766"
+        "title": "Exceptions From Foreign Ownership, Control, or Domination",
+        "date": "2026-04-23",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-07917"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Duke Energy Carolinas, LLC; Catawba Nuclear Station, Units 1 and 2; Independent ",
-        "date": "2026-04-21",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-07742"
+        "title": "Notice Pursuant to the Defense Production Act of 1950",
+        "date": "2026-04-23",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-07900"
       }
     ],
     "patents": [
