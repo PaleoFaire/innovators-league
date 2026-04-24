@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T17:08:59.219233+00:00",
+  "generatedAt": "2026-04-24T19:06:39.597087+00:00",
   "date": "2026-04-24",
   "dateDisplay": "Friday, April 24, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 342.91,
-        "changePercent": 23.18,
-        "change": 64.52
+        "price": 346.13,
+        "changePercent": 24.33,
+        "change": 67.74
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 208.46,
-        "changePercent": 19.77,
-        "change": 34.41
-      },
-      {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 79.25,
-        "changePercent": 18.63,
-        "change": 12.44
+        "price": 211.8,
+        "changePercent": 21.69,
+        "change": 37.75
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.48,
-        "changePercent": -16.89,
-        "change": -0.51
-      },
-      {
-        "ticker": "QS",
-        "company": "QuantumScape",
-        "price": 8.2,
-        "changePercent": 15.42,
-        "change": 1.1
+        "price": 2.35,
+        "changePercent": -21.24,
+        "change": -0.64
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 16.77,
-        "changePercent": -15.35,
-        "change": -3.04
-      },
-      {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 3.83,
-        "changePercent": 13.5,
-        "change": 0.46
+        "price": 16.52,
+        "changePercent": -16.62,
+        "change": -3.29
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 19.09,
-        "changePercent": -12.01,
-        "change": -2.61
+        "price": 18.45,
+        "changePercent": -14.91,
+        "change": -3.24
+      },
+      {
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 515.3,
+        "changePercent": 11.55,
+        "change": 53.35
+      },
+      {
+        "ticker": "LNZA",
+        "company": "LanzaTech",
+        "price": 25.04,
+        "changePercent": 10.94,
+        "change": 2.47
+      },
+      {
+        "ticker": "ASTS",
+        "company": "AST SpaceMobile",
+        "price": 77.13,
+        "changePercent": -9.82,
+        "change": -8.4
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AMD +23.2%"
+    "topMover": "AMD +24.3%"
   }
 }
