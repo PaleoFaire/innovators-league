@@ -16,6 +16,17 @@
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 
+  // Bulletproof global reader — handles both `window.X = ...` and
+  // top-level `const X = ...` declarations uniformly. Returns null
+  // rather than throwing a ReferenceError when the global is missing.
+  function G(name) {
+    if (typeof window !== 'undefined' && typeof window[name] !== 'undefined') {
+      return window[name];
+    }
+    try { return new Function('try { return typeof ' + name + ' !== "undefined" ? ' + name + ' : null; } catch (e) { return null; }')(); }
+    catch (e) { return null; }
+  }
+
   function daysAgo(ds) {
     if (!ds) return '';
     const d = new Date(String(ds).replace(' ', 'T'));
@@ -50,28 +61,35 @@
   // ── Top-bar quick stats ───────────────────────────────────────────────────
 
   function renderQuickStats() {
-    // Signals today: count of items in last 72h across a few feeds
+    // Signals today: count of items in last 72h across a few feeds.
+    // news_signals_auto.js declares `const COMPANY_SIGNALS_AUTO` (an
+    // array), not the name we originally guessed — use G() which
+    // finds both patterns.
     let signals = 0;
-    const newsFeed = window.NEWS_SIGNALS && window.NEWS_SIGNALS.items;
+    const newsFeed = G('COMPANY_SIGNALS_AUTO');
     if (Array.isArray(newsFeed)) {
       signals += newsFeed.filter(n => {
-        const d = new Date(n.date || n.publishedAt || 0);
+        const d = new Date((n && (n.date || n.publishedAt)) || 0);
         return !isNaN(d) && (Date.now() - d) < 3 * 86400000;
       }).length;
+    } else if (newsFeed && Array.isArray(newsFeed.items)) {
+      signals += newsFeed.items.length;
     }
-    // Fall back to counting form D filings if news is sparse
-    const fd = window.FORM_D_FILINGS && window.FORM_D_FILINGS.filings;
+    // Fall back to counting Form D filings if news is sparse
+    const fdObj = G('FORM_D_FILINGS');
+    const fd = fdObj && fdObj.filings;
     if (Array.isArray(fd)) signals += fd.length;
     const signalsEl = document.getElementById('term-qs-signals');
     if (signalsEl) signalsEl.textContent = signals || '—';
 
     // Actively raising: Form D count
-    const raising = (window.FORM_D_FILINGS && window.FORM_D_FILINGS.total_filings) || 0;
+    const raising = (fdObj && fdObj.total_filings) || (Array.isArray(fd) ? fd.length : 0);
     const rEl = document.getElementById('term-qs-raising');
     if (rEl) rEl.textContent = raising;
 
     // Queue MW
-    const mw = (window.INTERCONNECTION_QUEUE_AUTO && window.INTERCONNECTION_QUEUE_AUTO.summary && window.INTERCONNECTION_QUEUE_AUTO.summary.total_mw) || 0;
+    const iq = G('INTERCONNECTION_QUEUE_AUTO');
+    const mw = (iq && iq.summary && iq.summary.total_mw) || 0;
     const mwEl = document.getElementById('term-qs-mw');
     if (mwEl) mwEl.textContent = mw >= 1000 ? (mw / 1000).toFixed(1) + 'GW' : mw + 'MW';
 
@@ -109,11 +127,14 @@
   }
 
   function companyHasRecentSignal(name) {
-    const fd = window.FORM_D_FILINGS && window.FORM_D_FILINGS.filings;
+    const fdObj = G('FORM_D_FILINGS');
+    const fd = fdObj && fdObj.filings;
     if (Array.isArray(fd) && fd.some(f => f.company === name)) return true;
-    const dep = window.DECEPTION_SCORES_AUTO && window.DECEPTION_SCORES_AUTO.scored_calls;
+    const depObj = G('DECEPTION_SCORES_AUTO');
+    const dep = depObj && depObj.scored_calls;
     if (Array.isArray(dep) && dep.some(d => d.company === name && d.composite_score >= 60)) return true;
-    const wc = window.WEBSITE_CHANGES_AUTO && window.WEBSITE_CHANGES_AUTO.changes;
+    const wcObj = G('WEBSITE_CHANGES_AUTO');
+    const wc = wcObj && wcObj.changes;
     if (Array.isArray(wc) && wc.some(c => c.company === name)) return true;
     return false;
   }
@@ -144,7 +165,7 @@
   function buildTodayActions() {
     const out = [];
     // 1. Top-flagged earnings-call deception score
-    const dep = window.DECEPTION_SCORES_AUTO && window.DECEPTION_SCORES_AUTO.scored_calls;
+    const dep = G('DECEPTION_SCORES_AUTO') && G('DECEPTION_SCORES_AUTO').scored_calls;
     if (Array.isArray(dep) && dep.length > 0 && dep[0].composite_score >= 60) {
       const top = dep[0];
       out.push({
@@ -158,7 +179,7 @@
       });
     }
     // 2. Active Form D raisers
-    const fd = (window.FORM_D_FILINGS && window.FORM_D_FILINGS.filings) || [];
+    const fd = (G('FORM_D_FILINGS') && G('FORM_D_FILINGS').filings) || [];
     if (fd.length > 0) {
       const top = fd.slice(0, 3);
       out.push({
@@ -172,7 +193,7 @@
       });
     }
     // 3. DSCA FMS deal this week with tracked company named
-    const dsca = (window.DSCA_FMS_AUTO && window.DSCA_FMS_AUTO.notifications) || [];
+    const dsca = (G('DSCA_FMS_AUTO') && G('DSCA_FMS_AUTO').notifications) || [];
     const dscaWithMatch = dsca.filter(n => (n.matched_companies || []).length > 0);
     if (dscaWithMatch.length > 0) {
       const top = dscaWithMatch[0];
@@ -187,7 +208,7 @@
       });
     }
     // 4. Lobbying spend acceleration
-    const lob = (window.LOBBYING_AUTO && window.LOBBYING_AUTO.by_company) || [];
+    const lob = (G('LOBBYING_AUTO') && G('LOBBYING_AUTO').by_company) || [];
     const accel = lob.filter(r => r.qoq_pct > 25).slice(0, 1);
     if (accel.length > 0) {
       const r = accel[0];
@@ -202,7 +223,7 @@
       });
     }
     // 5. Website change detected
-    const wc = (window.WEBSITE_CHANGES_AUTO && window.WEBSITE_CHANGES_AUTO.changes) || [];
+    const wc = (G('WEBSITE_CHANGES_AUTO') && G('WEBSITE_CHANGES_AUTO').changes) || [];
     if (wc.length > 0) {
       const first = wc.slice(0, 3);
       out.push({
@@ -241,7 +262,7 @@
 
   function buildFeedItems() {
     const items = [];
-    const fd = (window.FORM_D_FILINGS && window.FORM_D_FILINGS.filings) || [];
+    const fd = (G('FORM_D_FILINGS') && G('FORM_D_FILINGS').filings) || [];
     fd.slice(0, 4).forEach(f => {
       items.push({
         icon: '$',
@@ -251,7 +272,7 @@
         href: 'signals.html#form-d',
       });
     });
-    const dsca = (window.DSCA_FMS_AUTO && window.DSCA_FMS_AUTO.notifications) || [];
+    const dsca = (G('DSCA_FMS_AUTO') && G('DSCA_FMS_AUTO').notifications) || [];
     dsca.slice(0, 3).forEach(d => {
       items.push({
         icon: '🎖',
@@ -261,7 +282,7 @@
         href: 'govradar.html#dsca-fms-section',
       });
     });
-    const wc = (window.WEBSITE_CHANGES_AUTO && window.WEBSITE_CHANGES_AUTO.changes) || [];
+    const wc = (G('WEBSITE_CHANGES_AUTO') && G('WEBSITE_CHANGES_AUTO').changes) || [];
     wc.slice(0, 2).forEach(c => {
       items.push({
         icon: '🕵',
@@ -271,7 +292,7 @@
         href: 'signals.html#website-changes',
       });
     });
-    const queue = (window.INTERCONNECTION_QUEUE_AUTO && window.INTERCONNECTION_QUEUE_AUTO.entries) || [];
+    const queue = (G('INTERCONNECTION_QUEUE_AUTO') && G('INTERCONNECTION_QUEUE_AUTO').entries) || [];
     queue.slice(0, 2).forEach(q => {
       items.push({
         icon: '⚡',
@@ -289,7 +310,7 @@
   function renderDeception() {
     const body = document.getElementById('term-deception-body');
     if (!body) return;
-    const scored = (window.DECEPTION_SCORES_AUTO && window.DECEPTION_SCORES_AUTO.scored_calls) || [];
+    const scored = (G('DECEPTION_SCORES_AUTO') && G('DECEPTION_SCORES_AUTO').scored_calls) || [];
     const flagged = scored.filter(s => s.flag_level === 'high_alert' || s.flag_level === 'suspicious');
     if (flagged.length === 0) {
       body.innerHTML = '<p style="color:rgba(255,255,255,0.4); font-size:12px;">All recent earnings calls scoring clean.</p>';
@@ -323,21 +344,21 @@
   function buildSyntheticAlerts() {
     // Until real user alerts exist, synthesize from the feed
     const out = [];
-    const fd = (window.FORM_D_FILINGS && window.FORM_D_FILINGS.filings) || [];
+    const fd = (G('FORM_D_FILINGS') && G('FORM_D_FILINGS').filings) || [];
     if (fd.length > 0) {
       out.push({
         time: daysAgo(fd[0].filed_date),
         text: '🟢 ' + fd[0].company + ' filed Form D — round opening.',
       });
     }
-    const scored = (window.DECEPTION_SCORES_AUTO && window.DECEPTION_SCORES_AUTO.scored_calls) || [];
+    const scored = (G('DECEPTION_SCORES_AUTO') && G('DECEPTION_SCORES_AUTO').scored_calls) || [];
     if (scored.length > 0 && scored[0].composite_score >= 60) {
       out.push({
         time: scored[0].date,
         text: '🔴 ' + scored[0].company + ' · earnings-call deception score ' + scored[0].composite_score + '.',
       });
     }
-    const lob = (window.LOBBYING_AUTO && window.LOBBYING_AUTO.by_company) || [];
+    const lob = (G('LOBBYING_AUTO') && G('LOBBYING_AUTO').by_company) || [];
     const accel = lob.filter(r => r.qoq_pct > 30)[0];
     if (accel) {
       out.push({
