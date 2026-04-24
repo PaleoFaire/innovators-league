@@ -1,6 +1,6 @@
 // Auto-generated SBIR topics + full-company bid-fit scoring
 // Topics: 10  |  Matching: TF-IDF weighted
-// Last updated: 2026-04-23 08:40:43 UTC
+// Last updated: 2026-04-24 09:14:17 UTC
 const SBIR_TOPICS_AUTO = [
   {
     "id": "DOD-SBIR-2026-006",
@@ -124,7 +124,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Hypersonix Launch Systems",
         "sector": "Defense & Security",
-        "bid_fit_score": 20.4,
+        "bid_fit_score": 20.3,
         "matched_terms": [
           "hypersonic",
           "flight",
@@ -134,7 +134,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Astro Mechanica",
         "sector": "Supersonic & Hypersonic",
-        "bid_fit_score": 17.6,
+        "bid_fit_score": 17.5,
         "matched_terms": [
           "hypersonic",
           "flight"
@@ -240,7 +240,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Valar Atomics",
         "sector": "Nuclear Energy",
-        "bid_fit_score": 27.6,
+        "bid_fit_score": 27.5,
         "matched_terms": [
           "nuclear",
           "fuel",
@@ -321,7 +321,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "CX2 Industries",
         "sector": "Defense & Security",
-        "bid_fit_score": 26.6,
+        "bid_fit_score": 26.7,
         "matched_terms": [
           "electronic",
           "warfare",
@@ -351,7 +351,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "SatRev",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 13.0,
+        "bid_fit_score": 12.9,
         "matched_terms": [
           "time",
           "real"
@@ -428,13 +428,23 @@ const SBIR_TOPICS_AUTO = [
         ]
       },
       {
+        "company": "Horizon Quantum Computing",
+        "sector": "Quantum Computing",
+        "bid_fit_score": 22.2,
+        "matched_terms": [
+          "quantum",
+          "computing",
+          "level"
+        ]
+      },
+      {
         "company": "Anyon Systems",
         "sector": "Quantum Computing",
         "bid_fit_score": 21.7,
         "matched_terms": [
           "quantum",
           "computing",
-          "error"
+          "correction"
         ]
       },
       {
@@ -447,13 +457,12 @@ const SBIR_TOPICS_AUTO = [
         ]
       },
       {
-        "company": "Horizon Quantum Computing",
+        "company": "Quantinuum",
         "sector": "Quantum Computing",
-        "bid_fit_score": 20.7,
+        "bid_fit_score": 20.5,
         "matched_terms": [
           "quantum",
-          "computing",
-          "level"
+          "computing"
         ]
       },
       {
@@ -467,18 +476,9 @@ const SBIR_TOPICS_AUTO = [
         ]
       },
       {
-        "company": "Quantinuum",
-        "sector": "Quantum Computing",
-        "bid_fit_score": 20.5,
-        "matched_terms": [
-          "quantum",
-          "computing"
-        ]
-      },
-      {
         "company": "Quantum Art",
         "sector": "Quantum Computing",
-        "bid_fit_score": 20.5,
+        "bid_fit_score": 20.4,
         "matched_terms": [
           "quantum",
           "computing",
@@ -520,7 +520,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Dream Security",
         "sector": "Defense & Security",
-        "bid_fit_score": 14.4,
+        "bid_fit_score": 14.2,
         "matched_terms": [
           "critical",
           "infrastructure",
@@ -530,7 +530,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Asterra",
         "sector": "Space & Aerospace",
-        "bid_fit_score": 13.3,
+        "bid_fit_score": 13.2,
         "matched_terms": [
           "detecting",
           "water",
@@ -540,7 +540,7 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Xage Security",
         "sector": "Defense & Security",
-        "bid_fit_score": 12.2,
+        "bid_fit_score": 11.9,
         "matched_terms": [
           "infrastructure",
           "cyber",
@@ -550,10 +550,20 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "AiDash",
         "sector": "Infrastructure & Logistics",
-        "bid_fit_score": 11.3,
+        "bid_fit_score": 11.2,
         "matched_terms": [
           "infrastructure",
           "energy",
+          "critical"
+        ]
+      },
+      {
+        "company": "Galvanick",
+        "sector": "Defense & Security",
+        "bid_fit_score": 11.1,
+        "matched_terms": [
+          "cyber",
+          "cybersecurity",
           "critical"
         ]
       },
@@ -583,16 +593,6 @@ const SBIR_TOPICS_AUTO = [
           "energy",
           "infrastructure",
           "learning"
-        ]
-      },
-      {
-        "company": "Hidden Level",
-        "sector": "Defense & Security",
-        "bid_fit_score": 8.8,
-        "matched_terms": [
-          "cyber",
-          "threats",
-          "critical"
         ]
       }
     ],
@@ -848,21 +848,11 @@ const SBIR_TOPICS_AUTO = [
       {
         "company": "Ulysses Robotics",
         "sector": "Robotics & Manufacturing",
-        "bid_fit_score": 15.6,
+        "bid_fit_score": 15.7,
         "matched_terms": [
           "autonomous",
           "maritime",
           "robotics"
-        ]
-      },
-      {
-        "company": "Amidon Heavy Industries",
-        "sector": "Ocean & Maritime",
-        "bid_fit_score": 15.4,
-        "matched_terms": [
-          "maritime",
-          "undersea",
-          "autonomous"
         ]
       },
       {
@@ -892,6 +882,16 @@ const SBIR_TOPICS_AUTO = [
         "matched_terms": [
           "defense",
           "robotics"
+        ]
+      },
+      {
+        "company": "RIOS Intelligent Machines",
+        "sector": "Robotics & Manufacturing",
+        "bid_fit_score": 13.1,
+        "matched_terms": [
+          "robotics",
+          "autonomous",
+          "operations"
         ]
       }
     ],

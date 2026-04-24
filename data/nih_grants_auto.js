@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-04-23 08:26:53 UTC
+// Last updated: 2026-04-24 08:54:32 UTC
 // Total grants: 628 | Known companies: 15 | SBIR: 14
-// Total funding tracked: $377,328,675
+// Total funding tracked: $377,402,862
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -2214,6 +2214,19 @@ const NIH_GRANTS_AUTO = [
     isKnownCompany: false,
   },
   {
+    title: "Proteolysis targeting chimera against nuclear receptor NR4A1 for melanoma therapy",
+    organization: "UNIVERSITY OF FLORIDA",
+    orgState: "FL",
+    piName: "Keiran  Smalley",
+    fiscalYear: 2026,
+    awardAmount: 645631,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "Project Summary-Abstract Tumor microenvironment (TME) consists of many cell types that co-exist to promote tumor progression. Most cancer therapeutics are designed to target one molecule in one define",
+    terms: ["Agonist", "B-Lymphocytes", "BRAF gene", "Binding", "CD8-Positive T-Lymphocytes", "CD8B1 gene", "CTLA4 gene", "Cell Physiology"],
+    isKnownCompany: false,
+  },
+  {
     title: "Mechanisms of cardiac sympathetic hyperactivity in chronic heart failure",
     organization: "UNIVERSITY OF NEBRASKA MEDICAL CENTER",
     orgState: "NE",
@@ -2991,19 +3004,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Interrogating and Perturbing Neural Population Dynamics Project Summary Our behavior and our mental functions, such as movement, perception, memory, cognition, and emotional processing are mediated by",
     terms: ["Animals", "Area", "Artificial Intelligence", "Behavior", "Behavioral", "Brain", "Central Nervous System", "Cognition"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Utilization of Immuno-PET to detect response and guide novel oHSV-based therapy for glioma",
-    organization: "UNIVERSITY OF ALABAMA AT BIRMINGHAM",
-    orgState: "AL",
-    piName: "JAMES M MARKERT",
-    fiscalYear: 2026,
-    awardAmount: 571444,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "PROJECT SUMMARY  The overarching goal of this project is to quantify the temporal kinetics of T-cell activation and infiltration during novel combination intratumoral oncolytic herpes simplex virus (o",
-    terms: ["Biological", "Biological Assay", "Biopsy", "CD8-Positive T-Lymphocytes", "CD8B1 gene", "Cell Cycle Kinetics", "Cells", "Characteristics"],
     isKnownCompany: false,
   },
   {

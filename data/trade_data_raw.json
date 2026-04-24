@@ -1,5 +1,99 @@
 [
   {
+    "hsCode": "8542",
+    "category": "Integrated circuits / semiconductors",
+    "tradeType": "imports",
+    "latestMonthValue": 4057995325,
+    "latestMonthFormatted": "$4.1B",
+    "yoyChange": "+40.8%",
+    "momChange": "-16.8%",
+    "trend": "surging",
+    "relevantCompanies": [
+      "Cerebras",
+      "Etched",
+      "Lightmatter",
+      "Astera Labs",
+      "Tenstorrent",
+      "Groq"
+    ],
+    "relevantSector": "chips",
+    "period": "2026-01",
+    "monthlyData": [
+      {
+        "period": "2025-08",
+        "value": 2996637321
+      },
+      {
+        "period": "2025-09",
+        "value": 3474625226
+      },
+      {
+        "period": "2025-10",
+        "value": 3357396806
+      },
+      {
+        "period": "2025-11",
+        "value": 4195138713
+      },
+      {
+        "period": "2025-12",
+        "value": 4878002687
+      },
+      {
+        "period": "2026-01",
+        "value": 4057995325
+      }
+    ],
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "hsCode": "8542",
+    "category": "Integrated circuits / semiconductors",
+    "tradeType": "exports",
+    "latestMonthValue": 4398868181,
+    "latestMonthFormatted": "$4.4B",
+    "yoyChange": "-11.1%",
+    "momChange": "+16.8%",
+    "trend": "declining",
+    "relevantCompanies": [
+      "Cerebras",
+      "Etched",
+      "Lightmatter",
+      "Astera Labs",
+      "Tenstorrent",
+      "Groq"
+    ],
+    "relevantSector": "chips",
+    "period": "2025-12",
+    "monthlyData": [
+      {
+        "period": "2025-07",
+        "value": 4257142067
+      },
+      {
+        "period": "2025-08",
+        "value": 4432135391
+      },
+      {
+        "period": "2025-09",
+        "value": 4006891640
+      },
+      {
+        "period": "2025-10",
+        "value": 4305035120
+      },
+      {
+        "period": "2025-11",
+        "value": 3766068634
+      },
+      {
+        "period": "2025-12",
+        "value": 4398868181
+      }
+    ],
+    "lastUpdated": "2026-04-24"
+  },
+  {
     "hsCode": "8541",
     "category": "Diodes, transistors, semiconductor devices",
     "tradeType": "imports",
@@ -41,7 +135,51 @@
         "value": 930937044
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "hsCode": "8541",
+    "category": "Diodes, transistors, semiconductor devices",
+    "tradeType": "exports",
+    "latestMonthValue": 849466986,
+    "latestMonthFormatted": "$849M",
+    "yoyChange": "+63.1%",
+    "momChange": "+5.0%",
+    "trend": "surging",
+    "relevantCompanies": [
+      "Finwave Semiconductor",
+      "Gallox Semiconductors",
+      "Vertical Semiconductor"
+    ],
+    "relevantSector": "chips",
+    "period": "2025-12",
+    "monthlyData": [
+      {
+        "period": "2025-07",
+        "value": 516441922
+      },
+      {
+        "period": "2025-08",
+        "value": 507793144
+      },
+      {
+        "period": "2025-09",
+        "value": 599049714
+      },
+      {
+        "period": "2025-10",
+        "value": 691382766
+      },
+      {
+        "period": "2025-11",
+        "value": 808897943
+      },
+      {
+        "period": "2025-12",
+        "value": 849466986
+      }
+    ],
+    "lastUpdated": "2026-04-24"
   },
   {
     "hsCode": "8802",
@@ -86,7 +224,144 @@
         "value": 801899028
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "hsCode": "8802",
+    "category": "Aircraft and spacecraft parts",
+    "tradeType": "exports",
+    "latestMonthValue": 531908131,
+    "latestMonthFormatted": "$532M",
+    "yoyChange": "+94.4%",
+    "momChange": "+194.2%",
+    "trend": "surging",
+    "relevantCompanies": [
+      "SpaceX",
+      "Rocket Lab",
+      "Relativity Space",
+      "Boom Supersonic"
+    ],
+    "relevantSector": "space",
+    "period": "2025-12",
+    "monthlyData": [
+      {
+        "period": "2025-07",
+        "value": 298380246
+      },
+      {
+        "period": "2025-08",
+        "value": 59225874
+      },
+      {
+        "period": "2025-09",
+        "value": 438952208
+      },
+      {
+        "period": "2025-10",
+        "value": 194550208
+      },
+      {
+        "period": "2025-11",
+        "value": 180801950
+      },
+      {
+        "period": "2025-12",
+        "value": 531908131
+      }
+    ],
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "hsCode": "2844",
+    "category": "Radioactive elements (nuclear fuel)",
+    "tradeType": "imports",
+    "latestMonthValue": 394766917,
+    "latestMonthFormatted": "$395M",
+    "yoyChange": "-21.3%",
+    "momChange": "-40.2%",
+    "trend": "declining",
+    "relevantCompanies": [
+      "Oklo",
+      "Kairos Power",
+      "TerraPower",
+      "X-Energy",
+      "NuScale"
+    ],
+    "relevantSector": "nuclear",
+    "period": "2026-01",
+    "monthlyData": [
+      {
+        "period": "2025-08",
+        "value": 598552652
+      },
+      {
+        "period": "2025-09",
+        "value": 519649906
+      },
+      {
+        "period": "2025-10",
+        "value": 662563472
+      },
+      {
+        "period": "2025-11",
+        "value": 250870342
+      },
+      {
+        "period": "2025-12",
+        "value": 660094781
+      },
+      {
+        "period": "2026-01",
+        "value": 394766917
+      }
+    ],
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "hsCode": "2844",
+    "category": "Radioactive elements (nuclear fuel)",
+    "tradeType": "exports",
+    "latestMonthValue": 50025881,
+    "latestMonthFormatted": "$50M",
+    "yoyChange": "-65.5%",
+    "momChange": "-72.0%",
+    "trend": "declining",
+    "relevantCompanies": [
+      "Oklo",
+      "Kairos Power",
+      "TerraPower",
+      "X-Energy",
+      "NuScale"
+    ],
+    "relevantSector": "nuclear",
+    "period": "2025-12",
+    "monthlyData": [
+      {
+        "period": "2025-07",
+        "value": 24955988
+      },
+      {
+        "period": "2025-08",
+        "value": 69291460
+      },
+      {
+        "period": "2025-09",
+        "value": 84923826
+      },
+      {
+        "period": "2025-10",
+        "value": 102165899
+      },
+      {
+        "period": "2025-11",
+        "value": 178559746
+      },
+      {
+        "period": "2025-12",
+        "value": 50025881
+      }
+    ],
+    "lastUpdated": "2026-04-24"
   },
   {
     "hsCode": "8501",
@@ -131,7 +406,52 @@
         "value": 1017728973
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "hsCode": "8501",
+    "category": "Electric motors and generators",
+    "tradeType": "exports",
+    "latestMonthValue": 432926965,
+    "latestMonthFormatted": "$433M",
+    "yoyChange": "+1.3%",
+    "momChange": "+16.3%",
+    "trend": "stable",
+    "relevantCompanies": [
+      "Figure AI",
+      "Agility Robotics",
+      "RISE Robotics",
+      "Standard Bots"
+    ],
+    "relevantSector": "robotics",
+    "period": "2025-12",
+    "monthlyData": [
+      {
+        "period": "2025-07",
+        "value": 400202392
+      },
+      {
+        "period": "2025-08",
+        "value": 423883037
+      },
+      {
+        "period": "2025-09",
+        "value": 391565619
+      },
+      {
+        "period": "2025-10",
+        "value": 402969574
+      },
+      {
+        "period": "2025-11",
+        "value": 372147426
+      },
+      {
+        "period": "2025-12",
+        "value": 432926965
+      }
+    ],
+    "lastUpdated": "2026-04-24"
   },
   {
     "hsCode": "8507",
@@ -177,7 +497,7 @@
         "value": 1767903134
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
     "hsCode": "8507",
@@ -223,7 +543,7 @@
         "value": 373830598
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
     "hsCode": "7601",
@@ -267,7 +587,7 @@
         "value": 934459846
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
     "hsCode": "7601",
@@ -311,7 +631,51 @@
         "value": 80460254
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "hsCode": "3926",
+    "category": "Plastics/composite articles",
+    "tradeType": "imports",
+    "latestMonthValue": 1126157372,
+    "latestMonthFormatted": "$1.1B",
+    "yoyChange": "+1.4%",
+    "momChange": "+4.7%",
+    "trend": "stable",
+    "relevantCompanies": [
+      "Axial Composites",
+      "Layup Parts",
+      "Fiber Dynamics"
+    ],
+    "relevantSector": "manufacturing",
+    "period": "2026-01",
+    "monthlyData": [
+      {
+        "period": "2025-08",
+        "value": 1210816740
+      },
+      {
+        "period": "2025-09",
+        "value": 1129578390
+      },
+      {
+        "period": "2025-10",
+        "value": 1198448124
+      },
+      {
+        "period": "2025-11",
+        "value": 1061770995
+      },
+      {
+        "period": "2025-12",
+        "value": 1075304289
+      },
+      {
+        "period": "2026-01",
+        "value": 1126157372
+      }
+    ],
+    "lastUpdated": "2026-04-24"
   },
   {
     "hsCode": "3926",
@@ -355,7 +719,7 @@
         "value": 704613554
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
     "hsCode": "9013",
@@ -400,7 +764,52 @@
         "value": 207908467
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "hsCode": "9013",
+    "category": "Lasers and optical devices",
+    "tradeType": "exports",
+    "latestMonthValue": 280827266,
+    "latestMonthFormatted": "$281M",
+    "yoyChange": "+18.3%",
+    "momChange": "+11.7%",
+    "trend": "surging",
+    "relevantCompanies": [
+      "Lumotive",
+      "Ouster",
+      "Aeva Technologies",
+      "Voyant Photonics"
+    ],
+    "relevantSector": "sensors",
+    "period": "2025-12",
+    "monthlyData": [
+      {
+        "period": "2025-07",
+        "value": 293637249
+      },
+      {
+        "period": "2025-08",
+        "value": 308890410
+      },
+      {
+        "period": "2025-09",
+        "value": 290602705
+      },
+      {
+        "period": "2025-10",
+        "value": 287159219
+      },
+      {
+        "period": "2025-11",
+        "value": 251472106
+      },
+      {
+        "period": "2025-12",
+        "value": 280827266
+      }
+    ],
+    "lastUpdated": "2026-04-24"
   },
   {
     "hsCode": "8471",
@@ -444,7 +853,7 @@
         "value": 27488062732
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
     "hsCode": "8471",
@@ -488,6 +897,6 @@
         "value": 6286325490
       }
     ],
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   }
 ]

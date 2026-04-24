@@ -1,6 +1,6 @@
 // Auto-generated demand signals data
-// Last updated: 2026-04-23 08:26:53 UTC
-// Total signals: 44 | Companies matched: 194
+// Last updated: 2026-04-24 08:54:31 UTC
+// Total signals: 44 | Companies matched: 193
 
 const GOV_DEMAND_SIGNALS_AUTO = [
   {
@@ -548,16 +548,6 @@ const GOV_DEMAND_SIGNALS_AUTO = [
         ]
       },
       {
-        "name": "Amidon Heavy Industries",
-        "score": 55,
-        "matchReasons": [
-          "tag: auv",
-          "tag: underwater",
-          "tag: defense",
-          "cluster: autonomy-maritime"
-        ]
-      },
-      {
         "name": "Vatn Systems",
         "score": 55,
         "matchReasons": [
@@ -631,11 +621,19 @@ const GOV_DEMAND_SIGNALS_AUTO = [
           "tag: autonomous",
           "techApproach overlap"
         ]
+      },
+      {
+        "name": "Tekever",
+        "score": 31,
+        "matchReasons": [
+          "tag: isr",
+          "tag: defense",
+          "techApproach overlap"
+        ]
       }
     ],
     "relevantCompanies": [
       "Xtend",
-      "Amidon Heavy Industries",
       "Vatn Systems",
       "Saronic",
       "Blue Water Autonomy",
@@ -643,7 +641,8 @@ const GOV_DEMAND_SIGNALS_AUTO = [
       "Thalassa Robotics",
       "Delian Alliance Industries",
       "Saildrone",
-      "Quantum-Systems"
+      "Quantum-Systems",
+      "Tekever"
     ]
   },
   {
@@ -4369,18 +4368,19 @@ const GOV_PULL_SCORES_AUTO = {
   },
   "Tekever": {
     "name": "Tekever",
-    "govPullScore": 44,
-    "matchCount": 4,
+    "govPullScore": 57,
+    "matchCount": 5,
     "topAgencies": [
       "DARPA",
       "Department of Homeland Security (DHS)",
+      "Office of Naval Research (ONR)",
       "U.S. Army"
     ],
-    "avgRelevance": 29,
+    "avgRelevance": 30,
     "topSignals": [
       "Autonomous Border Surveillance Platforms",
       "AI-Enabled Autonomous Naval Surface Vessels",
-      "Joint All-Domain Command and Control Integration"
+      "Undersea Autonomous Systems for ISR"
     ]
   },
   "Delian Alliance Industries": {
@@ -4611,18 +4611,6 @@ const GOV_PULL_SCORES_AUTO = {
       "Undersea Autonomous Systems for ISR",
       "Autonomous Border Surveillance Platforms",
       "Autonomous AI Agents for Complex Decision Making"
-    ]
-  },
-  "Amidon Heavy Industries": {
-    "name": "Amidon Heavy Industries",
-    "govPullScore": 27,
-    "matchCount": 1,
-    "topAgencies": [
-      "Office of Naval Research (ONR)"
-    ],
-    "avgRelevance": 55,
-    "topSignals": [
-      "Undersea Autonomous Systems for ISR"
     ]
   },
   "Vatn Systems": {
@@ -6739,6 +6727,6 @@ const DEMAND_SIGNALS_STATS = {
     "NSA Cybersecurity Directorate": 1,
     "Environmental Protection Agency (EPA)": 1
   },
-  "companiesMatched": 194,
-  "lastUpdated": "2026-04-23 08:26:53 UTC"
+  "companiesMatched": 193,
+  "lastUpdated": "2026-04-24 08:54:31 UTC"
 };

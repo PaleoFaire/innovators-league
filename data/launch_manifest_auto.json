@@ -1,26 +1,8 @@
 [
   {
-    "date": "2026-04-23",
-    "vehicle": "Electron | Kakushin Rising (JAXA Rideshare)",
-    "payload": "Kakushin Rising (JAXA Rideshare)",
-    "pad": "Rocket Lab Launch Complex 1A, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/9281afa8-140d-425b-a560-2fa59feef814/?format=json",
-    "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-04-23",
-    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-14",
-    "payload": "Starlink Group 17-14",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/20418dc6-1870-4018-adda-1e6156717f02/?format=json",
-    "trackedCompany": "SpaceX"
-  },
-  {
     "date": "2026-04-24",
-    "vehicle": "Long March 2D | Unknown Payload",
-    "payload": "Unknown Payload",
+    "vehicle": "Long March 2D | SatNet test satellite",
+    "payload": "SatNet test satellite",
     "pad": "Launch Complex 3 (LC-3/LA-1), Xichang Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/214b4db1-7112-4428-a999-29d2765c8306/?format=json",
@@ -42,6 +24,15 @@
     "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/33eb7522-d371-4195-addb-c22aeff30c41/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-04-26",
+    "vehicle": "Soyuz-5 | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "45/1, Baikonur Cosmodrome, Republic of Kazakhstan",
+    "provider": "RKK Energiya",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4/?format=json",
     "trackedCompany": null
   },
   {
@@ -82,15 +73,6 @@
   },
   {
     "date": "2026-04-30",
-    "vehicle": "Angara 1.2 | Kosmos (Unknown Payload)",
-    "payload": "Kosmos (Unknown Payload)",
-    "pad": "35/1, Plesetsk Cosmodrome, Russian Federation",
-    "provider": "Russian Space Forces",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/41139aa5-3f45-440a-8131-9cb391ddc995/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-04-30",
     "vehicle": "Long March 10B | Demo Flight",
     "payload": "Demo Flight",
     "pad": "Commercial LC-2, Wenchang Space Launch Site, People's Republic of China",
@@ -114,24 +96,6 @@
     "pad": "Unknown Pad, Plesetsk Cosmodrome, Russian Federation",
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/aafe107e-46d8-420c-bcb9-192069d80893/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-04-30",
-    "vehicle": "Soyuz-5 | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "45/1, Baikonur Cosmodrome, Republic of Kazakhstan",
-    "provider": "RKK Energiya",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-04-30",
-    "vehicle": "Vega-C | Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
-    "payload": "Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
-    "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
-    "provider": "Avio S.p.A",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/b31313da-ee5d-42b2-9a27-20cc18105276/?format=json",
     "trackedCompany": null
   },
   {
@@ -162,6 +126,15 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-05-06",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-29",
+    "payload": "Starlink Group 17-29",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/dd82ccd7-9ab2-410a-ac41-306218015c05/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-05-12",
     "vehicle": "Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
     "payload": "Dragon CRS-2 SpX-34",
@@ -169,6 +142,15 @@
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/e60aa241-1f2c-4459-ba94-2f576c3e5632/?format=json",
     "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-05-19",
+    "vehicle": "Vega-C | Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
+    "payload": "Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
+    "pad": "Ariane Launch Area 1 (ELV), Guiana Space Centre, French Guiana",
+    "provider": "Avio S.p.A",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/b31313da-ee5d-42b2-9a27-20cc18105276/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-05-31",
@@ -241,6 +223,15 @@
     "provider": "Northrop Grumman Space Systems",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/f596ad48-881e-47d6-806d-113c6dd97427/?format=json",
     "trackedCompany": "Northrop Grumman"
+  },
+  {
+    "date": "2026-06-10",
+    "vehicle": "H3-30 | H3-30 Test Flight",
+    "payload": "H3-30 Test Flight",
+    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
+    "provider": "Mitsubishi Heavy Industries",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/e1a3b702-464f-435d-8c1f-ade9be196b77/?format=json",
+    "trackedCompany": null
   },
   {
     "date": "2026-06-17",
@@ -379,15 +370,6 @@
   },
   {
     "date": "2026-06-30",
-    "vehicle": "H3-30 | H3-30 Test Flight",
-    "payload": "H3-30 Test Flight",
-    "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
-    "provider": "Mitsubishi Heavy Industries",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/e1a3b702-464f-435d-8c1f-ade9be196b77/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-30",
     "vehicle": "Long March 12B | Demo Flight",
     "payload": "Demo Flight",
     "pad": "Long March 12 series Pad, Jiuquan Satellite Launch Center, People's Republic of China",
@@ -447,6 +429,24 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/d08d8b46-353b-4eee-ab5e-e1385b329008/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Falcon 9 Block 5 | Rivada 12",
+    "payload": "Rivada 12",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/bf5c6fa2-3add-49ff-aad6-c6450148cd89/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Falcon 9 Block 5 | Rivada 7",
+    "payload": "Rivada 7",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/1fa3741c-3339-4954-a026-2cd9d36161c0/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]

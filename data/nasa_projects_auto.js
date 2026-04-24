@@ -1,6 +1,8 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-23 08:27:41 UTC
+// Last updated: 2026-04-24 08:55:46 UTC
 const NASA_PROJECTS = [
+  { id: 116400, title: "Small Spacecraft Electric Propulsion System", status: "Completed", center: "", techArea: "Electrostatic Propulsion", lastUpdated: "04/23/26" },
+  { id: 158421, title: "LunaRecycle - Phase 1", status: "Completed", center: "Marshall Space Flight Center", techArea: "Waste Management", lastUpdated: "04/23/26" },
   { id: 156378, title: "Wall modeled large eddy simulation of high-enthalpy hypersonic flows", status: "Active", center: "University of Colorado Boulder", techArea: "Integrated Modeling and Simulation for EDL", lastUpdated: "04/22/26" },
   { id: 118475, title: "Virtual Prototyping of Multifunctional Boron-Nitrogen Nanostructures and their C", status: "Completed", center: "Rice University", techArea: "Lightweight Concepts", lastUpdated: "04/22/26" },
   { id: 156318, title: "Institute for Model-Based Qualification & Certification of Additive Manufacturin", status: "Active", center: "Carnegie Mellon University", techArea: "Manufacturing Processes", lastUpdated: "04/22/26" },
@@ -29,6 +31,4 @@ const NASA_PROJECTS = [
   { id: 157469, title: "Lunar GNSS Receiver Experiment", status: "Completed", center: "Goddard Space Flight Center", techArea: "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems", lastUpdated: "04/16/26" },
   { id: 93175, title: "Logistics Reduction: RFID Enabled Autonomous Logistics Management", status: "Active", center: "Johnson Space Center", techArea: "Logistics Management", lastUpdated: "04/15/26" },
   { id: 184848, title: "Additive Manufacturing for Propulsion", status: "Active", center: "Marshall Space Flight Center", techArea: "Additive Manufacturing", lastUpdated: "04/15/26" },
-  { id: 184847, title: "Space Storm Solar Sail Sentinel (S5)", status: "Active", center: "Marshall Space Flight Center", techArea: "Solar Sails", lastUpdated: "04/15/26" },
-  { id: 182479, title: "NASA TechLeap Prize: Nighttime Precision Landing Challenge No. 1", status: "Completed", center: "Armstrong Flight Research Center", techArea: "Landing", lastUpdated: "04/15/26" },
 ];
