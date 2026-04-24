@@ -20,7 +20,27 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "Just now"
+    "time": "1h ago"
+  },
+  {
+    "title": "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?",
+    "link": "https://www.nextbigfuture.com/2026/04/openai-gpt-5-5-has-good-ranking-scores-but-is-it-better.html",
+    "description": "OpenAI GPT-5.5 tops the Artificial Analysis Intelligence Index by 3 points, breaking a three-way tie with Anthropic and Google. There is indication that is faster and has some good results but some results are mid. More time is needed. It is a good model but it does not appear to be groundbreaking. ",
+    "pubDate": "Thu, 23 Apr 2026 23:36:16 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Anthropic"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "9h ago"
   },
   {
     "title": "SpaceX wins $57 million U.S. military contract for satellite crosslink demo",
@@ -39,7 +59,7 @@
     ],
     "type": "contract",
     "impact": "medium",
-    "time": "10h ago"
+    "time": "11h ago"
   },
   {
     "title": "NASA Shares SpaceX Crew-13 Assignments for Space Station Mission",
@@ -60,7 +80,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "10h ago"
+    "time": "11h ago"
   },
   {
     "title": "Apple’s Next Chapter, SpaceX and Cursor Strike a Deal, and Palantir’s Controversial Manifesto",
@@ -81,7 +101,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "12h ago"
+    "time": "13h ago"
   },
   {
     "title": "OpenAI releases GPT-5.5, bringing company one step closer to an AI &#8216;super app&#8217;",
@@ -100,7 +120,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "13h ago"
+    "time": "14h ago"
   },
   {
     "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
@@ -121,7 +141,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "18h ago"
+    "time": "19h ago"
   },
   {
     "title": "Elon Musk mulled Mistral deal to take on OpenAI and Anthropic, reports say",
@@ -141,7 +161,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "20h ago"
+    "time": "21h ago"
   },
   {
     "title": "Atmos Space Cargo raises $30 million for reentry missions",
@@ -218,6 +238,27 @@
     ],
     "sectors": [
       "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "1d ago"
+  },
+  {
+    "title": "SpaceX Will Buy Cursor",
+    "link": "https://www.nextbigfuture.com/2026/04/spacex-will-buy-cursor.html",
+    "description": "Cursor is already at ~$2 Billion ARR (annual recurring revenue as of February 2026) and was on track to triple to over $6 billion ARR by the end of 2026 even before the xAI deal. The brand-new partnership with xAI/SpaceX gives them massive Colossus supercomputer access, which removes their biggest r",
+    "pubDate": "Wed, 22 Apr 2026 19:25:10 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "xAI"
+    ],
+    "sectors": [
+      "space",
+      "ai"
     ],
     "type": "ipo",
     "impact": "low",
@@ -303,28 +344,6 @@
     "time": "1d ago"
   },
   {
-    "title": "ATMOS Space Cargo secures €25.7M Series A to expand Europe’s sovereign return-from-orbit capability",
-    "link": "https://tech.eu/2026/04/22/atmos-space-cargo-secures-eur257-million-to-expand-europes-sovereign-return-from-orbit-capability/",
-    "description": "ATMOS Space Cargo, a European company developing orbital transport and re-entry vehicles, has closed a €25.7 million Series A financing round.  The funding will support an initial three-vehicle PHOENI...",
-    "pubDate": "Wed, 22 Apr 2026 04:00:00 +0000",
-    "category": "Spacetech",
-    "source": "Tech.eu",
-    "feedCategory": "startups",
-    "matchedCompany": "Atmos Space Cargo",
-    "matchedCompanies": [
-      "Atmos Space Cargo",
-      "Varda Space Industries",
-      "Atmo"
-    ],
-    "sectors": [
-      "space",
-      "ai"
-    ],
-    "type": "funding",
-    "impact": "medium",
-    "time": "2d ago"
-  },
-  {
     "title": "Vietnam&#8217;s VinDynamics, Germany&#8217;s Schaeffler to jointly advance humanoid robotics development",
     "link": "https://technode.global/2026/04/22/vietnams-vindynamics-germanys-schaeffler-to-jointly-advance-humanoid-robotics-development/",
     "description": "VinDynamics, a robotics company under Vietnam's conglomerate Vingroup, and Germany's motion technology firm Schaeffler will collaborate on research and development in humanoid robotics.",
@@ -341,6 +360,31 @@
     ],
     "type": "news",
     "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI and Cursor Try to Catch Athropic Claude Code",
+    "link": "https://www.nextbigfuture.com/2026/04/spacex-has-option-to-buy-cursor-for-60-billion-xai-and-cursor-try-to-catch-athropic-claude-code.html",
+    "description": "SpaceXAI and Cursor_ai are partners trying to catch up to Anthropic and Claude Code. XAI data center and hundreds of thousands of chips can power Cursor Composer 2. The combination of Cursor’s leading product and distribution to expert software engineers with SpaceX’s million H100 equivalent Colossu",
+    "pubDate": "Wed, 22 Apr 2026 00:00:11 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX",
+      "Anthropic",
+      "Astera Labs",
+      "Rebellions",
+      "xAI"
+    ],
+    "sectors": [
+      "space",
+      "ai",
+      "chips"
+    ],
+    "type": "ipo",
+    "impact": "high",
     "time": "2d ago"
   },
   {
@@ -378,6 +422,26 @@
       "defense"
     ],
     "type": "news",
+    "impact": "low",
+    "time": "2d ago"
+  },
+  {
+    "title": "Anthropic and Status of AI Data Centers",
+    "link": "https://www.nextbigfuture.com/2026/04/anthropic-and-status-of-ai-data-centers.html",
+    "description": "Amazon announced an additional $5 billion investment in Anthropic immediately, plus up to $20 billion more in the future (tied to commercial milestones). This brings its total committed capital to as much as $33 billion. The announcement does not specify how much new equity/percentage this adds or t",
+    "pubDate": "Tue, 21 Apr 2026 16:33:58 +0000",
+    "category": "Artificial intelligence",
+    "source": "Next Big Future",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Crusoe Energy"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
     "impact": "low",
     "time": "2d ago"
   },
