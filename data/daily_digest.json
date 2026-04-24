@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-23T23:54:59.602071+00:00",
-  "date": "2026-04-23",
-  "dateDisplay": "Thursday, April 23, 2026",
+  "generatedAt": "2026-04-24T03:40:23.709349+00:00",
+  "date": "2026-04-24",
+  "dateDisplay": "Friday, April 24, 2026",
   "sections": {
     "govActivity": [
       {
@@ -72,58 +72,58 @@
       {
         "ticker": "LNZA",
         "company": "LanzaTech",
-        "price": 24.49,
-        "changePercent": -31.78,
-        "change": -11.41
+        "price": 25.0,
+        "changePercent": -30.36,
+        "change": -10.9
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.45,
-        "changePercent": -26.65,
-        "change": -0.89
+        "price": 2.47,
+        "changePercent": -26.05,
+        "change": -0.87
       },
       {
         "ticker": "OKLO",
         "company": "Oklo",
-        "price": 77.2,
-        "changePercent": 20.23,
-        "change": 12.99
-      },
-      {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 3.74,
-        "changePercent": 14.72,
-        "change": 0.48
+        "price": 76.46,
+        "changePercent": 19.08,
+        "change": 12.25
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 195.27,
-        "changePercent": 14.32,
-        "change": 24.46
+        "price": 197.54,
+        "changePercent": 15.65,
+        "change": 26.73
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 3.7,
+        "changePercent": 13.5,
+        "change": 0.44
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 78.81,
-        "changePercent": -13.34,
-        "change": -12.13
+        "price": 78.75,
+        "changePercent": -13.4,
+        "change": -12.19
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 16.88,
-        "changePercent": -13.24,
-        "change": -2.57
+        "price": 16.86,
+        "changePercent": -13.32,
+        "change": -2.59
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 12.66,
-        "changePercent": 10.96,
-        "change": 1.25
+        "price": 12.72,
+        "changePercent": 11.48,
+        "change": 1.31
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA -31.8%"
+    "topMover": "LNZA -30.4%"
   }
 }
