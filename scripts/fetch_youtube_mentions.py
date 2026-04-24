@@ -223,31 +223,159 @@ def match_companies_in_text(text, company_names):
     return matches
 
 
+def fetch_recent_videos(channel_id, max_per_channel=8):
+    """List the most recent uploaded videos for a channel via YouTube
+    Data API v3. Returns [{id, title, published_at, channel_id}]."""
+    try:
+        # Search endpoint — sort by date, filter to videos on this channel
+        r = requests.get(
+            "https://www.googleapis.com/youtube/v3/search",
+            params={
+                "key": YOUTUBE_API_KEY,
+                "channelId": channel_id,
+                "part": "snippet",
+                "order": "date",
+                "maxResults": max_per_channel,
+                "type": "video",
+            },
+            timeout=20,
+            headers={"User-Agent": USER_AGENT},
+        )
+        if r.status_code != 200:
+            return []
+        items = r.json().get("items", [])
+        out = []
+        for it in items:
+            snip = it.get("snippet", {})
+            out.append({
+                "id": it.get("id", {}).get("videoId", ""),
+                "title": snip.get("title", ""),
+                "published_at": snip.get("publishedAt", "")[:10],
+                "channel_id": channel_id,
+                "channel_title": snip.get("channelTitle", ""),
+            })
+        return out
+    except Exception as e:
+        print(f"    channel {channel_id} search failed: {type(e).__name__}")
+        return []
+
+
+def fetch_transcript(video_id):
+    """Fetch auto-generated caption text via youtube-transcript-api.
+    Returns list of {start, text} or [] on failure."""
+    try:
+        from youtube_transcript_api import YouTubeTranscriptApi
+        try:
+            chunks = YouTubeTranscriptApi.get_transcript(video_id, languages=["en", "en-US"])
+        except Exception:
+            # Try any available auto-generated language as fallback
+            chunks = YouTubeTranscriptApi.get_transcript(video_id)
+        return [{"start": c.get("start", 0), "text": c.get("text", "")} for c in chunks]
+    except ImportError:
+        return []
+    except Exception:
+        return []
+
+
+def ts_to_hms(seconds):
+    """Seconds → H:MM:SS or M:SS format for UI display."""
+    s = int(seconds)
+    h = s // 3600
+    m = (s % 3600) // 60
+    sec = s % 60
+    if h > 0:
+        return f"{h}:{m:02d}:{sec:02d}"
+    return f"{m}:{sec:02d}"
+
+
+def extract_mentions_from_transcript(
+    video, transcript, company_names, tracked_lower
+):
+    """Scan a transcript for company mentions. Returns list of mention dicts."""
+    mentions = []
+    if not transcript:
+        return mentions
+    # Concatenate chunks with their timestamps
+    # For each company, find first mention and grab surrounding context
+    seen_companies = set()
+    for i, chunk in enumerate(transcript):
+        text_lc = chunk["text"].lower()
+        for name in company_names:
+            nlc = name.lower()
+            if len(nlc) < 4 or nlc in seen_companies:
+                continue
+            # Word-boundary match to avoid false positives
+            if re.search(rf'\b{re.escape(nlc)}\b', text_lc):
+                # Build context from ±3 chunks
+                s = max(0, i - 2)
+                e = min(len(transcript), i + 3)
+                context = " ".join(transcript[j]["text"] for j in range(s, e)).strip()
+                # Shorten to ~180 chars with ellipses
+                if len(context) > 180:
+                    context = "…" + context[:180] + "…"
+                mentions.append({
+                    "company": name,
+                    "video_id": video["id"],
+                    "channel": video.get("channel_title", ""),
+                    "video_title": video.get("title", ""),
+                    "published_at": video.get("published_at", ""),
+                    "timestamp": ts_to_hms(chunk["start"]),
+                    "context": context,
+                })
+                seen_companies.add(nlc)
+    return mentions
+
+
+def live_pipeline(company_names, tracked_lower):
+    """Run the real pipeline: channel → videos → captions → NER."""
+    all_mentions = []
+    for ch_name, ch_id in CURATED_CHANNELS.items():
+        print(f"  [{ch_name}] fetching recent videos...")
+        videos = fetch_recent_videos(ch_id, max_per_channel=8)
+        for v in videos:
+            if not v.get("id"):
+                continue
+            time.sleep(0.2)  # polite pacing
+            transcript = fetch_transcript(v["id"])
+            if not transcript:
+                continue
+            mentions = extract_mentions_from_transcript(
+                v, transcript, company_names, tracked_lower
+            )
+            if mentions:
+                print(f"    {v['title'][:50]}... → {len(mentions)} mentions")
+            all_mentions.extend(mentions)
+    # Sort newest first
+    all_mentions.sort(key=lambda m: m.get("published_at", ""), reverse=True)
+    return all_mentions
+
+
 def main():
     DATA_DIR.mkdir(exist_ok=True)
     company_names = parse_company_names()
+    tracked_lower = set(n.lower() for n in company_names)
     print(f"Parsed {len(company_names)} tracked companies")
 
-    # Live pipeline would require:
-    #   - YouTube Data API channel→video listing (needs YOUTUBE_API_KEY)
-    #   - youtube-transcript-api for each video
-    #   - NER over each transcript
-    # For now, gracefully emit the seeded dataset. In production, replace
-    # the `seeded_mentions()` call with a real pipeline.
     if not YOUTUBE_API_KEY:
         print("  YOUTUBE_API_KEY not set — emitting seeded mentions")
         mentions = seeded_mentions()
         source_status = "seeded"
     else:
-        # Real pipeline would go here. For safety in CI we still emit
-        # seeded data but tag the status so we know to wire live fetch.
-        mentions = seeded_mentions()
-        source_status = "live_pending"
+        print(f"  Live pipeline: {len(CURATED_CHANNELS)} curated channels")
+        try:
+            mentions = live_pipeline(company_names, tracked_lower)
+            if not mentions:
+                print("  Live pipeline returned 0 mentions; falling back to seeded")
+                mentions = seeded_mentions()
+                source_status = "seeded_fallback"
+            else:
+                source_status = "live"
+        except Exception as e:
+            print(f"  Live pipeline errored ({type(e).__name__}: {e}); falling back to seeded")
+            mentions = seeded_mentions()
+            source_status = "seeded_fallback"
 
-    # Filter seeded mentions to those whose company is actually tracked
-    tracked_set = set(n.lower() for n in company_names)
-    filtered = [m for m in mentions if m["company"].lower() in tracked_set or True]
-    # (currently allowing all — in real pipeline we'd enforce tracking)
+    filtered = mentions[:60]  # cap display
 
     payload = {
         "generated_at": datetime.now(tz=timezone.utc).isoformat(),

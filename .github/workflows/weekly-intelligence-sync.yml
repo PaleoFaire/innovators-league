@@ -24,7 +24,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests python-dateutil
+        run: pip install requests python-dateutil youtube-transcript-api
 
       - name: Run weekly intelligence sync
         run: python scripts/sync_weekly_metrics.py

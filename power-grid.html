@@ -347,6 +347,159 @@
         font-size: 14px;
       }
 
+      /* ─── US Map ─── */
+      .pg-map-wrap {
+        margin-top: 40px;
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.07);
+        border-radius: 14px;
+        padding: 28px 24px 20px;
+        position: relative;
+      }
+      .pg-map-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 20px;
+      }
+      .pg-map-head h3 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        color: #fff;
+        margin: 0;
+      }
+      .pg-map-legend {
+        display: flex;
+        gap: 16px;
+        font-size: 11px;
+        color: rgba(255,255,255,0.6);
+      }
+      .pg-map-legend-item {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .pg-map-dot {
+        width: 10px; height: 10px;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      .pg-map-dot.smr   { background: #fbbf24; }
+      .pg-map-dot.ai    { background: #60a5fa; }
+      .pg-map-dot.large { background: #86efac; }
+      .pg-map-dot.std   { background: rgba(255,255,255,0.4); }
+
+      .pg-map-svg {
+        width: 100%;
+        height: auto;
+        max-height: 520px;
+        display: block;
+        cursor: default;
+      }
+      .pg-map-state {
+        fill: rgba(255,255,255,0.04);
+        stroke: rgba(255,255,255,0.08);
+        stroke-width: 0.8;
+        transition: fill 0.12s;
+        cursor: pointer;
+      }
+      .pg-map-state:hover {
+        fill: rgba(134,239,172,0.08);
+      }
+      .pg-map-state.active {
+        fill: rgba(134,239,172,0.15);
+        stroke: rgba(134,239,172,0.5);
+      }
+      .pg-map-bubble {
+        pointer-events: none;
+        transition: transform 0.12s ease-out;
+      }
+      .pg-map-bubble-outer {
+        fill-opacity: 0.22;
+        stroke-width: 1;
+        stroke-opacity: 0.55;
+      }
+      .pg-map-bubble-inner {
+        fill-opacity: 0.9;
+      }
+      .pg-map-label {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 9px;
+        font-weight: 700;
+        fill: rgba(255,255,255,0.9);
+        pointer-events: none;
+        text-anchor: middle;
+      }
+      .pg-map-mw {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 8px;
+        fill: rgba(255,255,255,0.55);
+        pointer-events: none;
+        text-anchor: middle;
+      }
+
+      .pg-tooltip {
+        position: absolute;
+        background: rgba(10,15,20,0.97);
+        border: 1px solid rgba(134,239,172,0.35);
+        border-radius: 10px;
+        padding: 12px 14px;
+        font-size: 12px;
+        color: rgba(255,255,255,0.9);
+        pointer-events: none;
+        max-width: 300px;
+        z-index: 10;
+        opacity: 0;
+        transition: opacity 0.15s;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      }
+      .pg-tooltip.active { opacity: 1; }
+      .pg-tooltip-state {
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+        color: #86efac;
+        font-size: 13px;
+        margin-bottom: 4px;
+      }
+      .pg-tooltip-stats {
+        font-size: 11px;
+        color: rgba(255,255,255,0.6);
+        margin-bottom: 8px;
+      }
+      .pg-tooltip-project {
+        font-size: 11px;
+        color: rgba(255,255,255,0.8);
+        padding: 3px 0;
+        border-top: 1px solid rgba(255,255,255,0.08);
+      }
+      .pg-tooltip-project:first-of-type { border-top: 0; }
+
+      .pg-state-filter-info {
+        margin-top: 12px;
+        padding: 10px 14px;
+        background: rgba(134,239,172,0.08);
+        border: 1px solid rgba(134,239,172,0.25);
+        border-radius: 8px;
+        font-size: 12px;
+        color: #86efac;
+        display: none;
+      }
+      .pg-state-filter-info.active { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+      .pg-state-filter-clear {
+        background: transparent;
+        border: 1px solid rgba(134,239,172,0.4);
+        color: #86efac;
+        padding: 3px 10px;
+        border-radius: 6px;
+        font-size: 11px;
+        cursor: pointer;
+        font-family: inherit;
+      }
+      .pg-state-filter-clear:hover { background: rgba(134,239,172,0.15); }
+
       .pg-sec-head {
         display: flex;
         justify-content: space-between;
@@ -466,6 +619,32 @@
           &nbsp;1. <strong>Detect hyperscaler site selection</strong> — Stargate in Abilene, Meta Louisiana, xAI Memphis — before press.<br>
           &nbsp;2. <strong>Surface SMR offtake agreements</strong> — which nuclear developer is being preferred supply to which data center.<br>
           &nbsp;3. <strong>Flag frontier-tech matches</strong> — any time a tracked company's name appears as a queue counterparty.</p>
+      </div>
+
+      <!-- US Map -->
+      <div class="pg-map-wrap" id="pg-map-wrap">
+        <div class="pg-map-head">
+          <h3>Geographic distribution</h3>
+          <div class="pg-map-legend">
+            <div class="pg-map-legend-item"><span class="pg-map-dot smr"></span> SMR / Nuclear</div>
+            <div class="pg-map-legend-item"><span class="pg-map-dot ai"></span> AI Hyperscaler</div>
+            <div class="pg-map-legend-item"><span class="pg-map-dot large"></span> Large Load</div>
+            <div class="pg-map-legend-item"><span class="pg-map-dot std"></span> Standard</div>
+          </div>
+        </div>
+        <svg class="pg-map-svg" id="pg-map-svg" viewBox="0 0 960 600" preserveAspectRatio="xMidYMid meet">
+          <g id="pg-map-states"></g>
+          <g id="pg-map-bubbles"></g>
+          <g id="pg-map-labels"></g>
+        </svg>
+        <div class="pg-tooltip" id="pg-map-tooltip"></div>
+        <div class="pg-state-filter-info" id="pg-state-filter-info">
+          <span>Filtered to <strong id="pg-state-filter-name"></strong></span>
+          <button class="pg-state-filter-clear" onclick="window.pgClearStateFilter && window.pgClearStateFilter()">Clear filter</button>
+        </div>
+        <p style="margin:14px 0 0; font-size:11px; color:rgba(255,255,255,0.4); text-align:center;">
+          Circle size = total MW in the queue for that state. Click a state to filter the table below.
+        </p>
       </div>
 
       <!-- Filter bar -->
