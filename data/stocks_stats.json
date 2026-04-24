@@ -5,111 +5,111 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -0.83,
+      "avg_change": -3.62,
       "count": 1
     },
     "space": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -3.36,
+      "avg_change": -1.45,
       "count": 7
     },
     "autonomous": {
-      "gainers": 1,
-      "losers": 6,
-      "avg_change": -5.05,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -3.54,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 11.25,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 6.45,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": -3.87,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 13.23,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.65,
+      "avg_change": -11.11,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.02,
+      "avg_change": -8.65,
       "count": 3
     },
     "transportation": {
-      "gainers": 1,
-      "losers": 1,
-      "avg_change": -1.77,
+      "gainers": 0,
+      "losers": 2,
+      "avg_change": -4.08,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 8.68,
+      "avg_change": 14.33,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "OKLO",
-      "Oklo",
-      19.08
+      "AMD",
+      "AMD",
+      23.18
     ],
     [
       "ALAB",
       "Astera Labs",
-      15.65
+      19.77
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      18.63
+    ],
+    [
+      "QS",
+      "QuantumScape",
+      15.42
     ],
     [
       "SLDP",
       "Solid Power",
       13.5
-    ],
-    [
-      "SMR",
-      "NuScale Power",
-      11.48
-    ],
-    [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      11.12
     ]
   ],
   "topLosers": [
     [
+      "ASTS",
+      "AST SpaceMobile",
+      -8.45
+    ],
+    [
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -10.35
+    ],
+    [
       "QBTS",
       "D-Wave Quantum",
-      -10.27
+      -12.01
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      -13.32
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -13.4
+      -15.35
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -26.05
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      -30.36
+      -16.89
     ]
   ],
-  "lastUpdated": "2026-04-24 08:11:46"
+  "lastUpdated": "2026-04-24 13:44:44"
 }
