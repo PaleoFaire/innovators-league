@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-04-23T08:04:09.902045Z",
+  "generated_at": "2026-04-24T08:12:09.318860Z",
   "platform": {
-    "companiesTracked": 868,
+    "companiesTracked": 869,
     "sectorsMonitored": 16,
-    "totalCapitalRaisedTracked": "$471.1B",
-    "totalValuationTracked": "$2998.3B",
+    "totalCapitalRaisedTracked": "$476.7B",
+    "totalValuationTracked": "$2999.7B",
     "companiesWithValuation": 182,
     "govContractsTracked": 32,
     "sbirAwardsTracked": 342,
-    "dealsTracked": 163,
-    "newsItemsTracked": 28,
-    "dataPointsUpdated": "34,720+"
+    "dealsTracked": 166,
+    "newsItemsTracked": 27,
+    "dataPointsUpdated": "34,760+"
   },
   "topFunds": [
     {
@@ -144,6 +144,14 @@
       ]
     },
     {
+      "fund": "Benchmark",
+      "portfolio_count": 2,
+      "companies": [
+        "Kipu Quantum",
+        "Starcloud"
+      ]
+    },
+    {
       "fund": "Valor Equity",
       "portfolio_count": 1,
       "companies": [
@@ -184,13 +192,6 @@
       "companies": [
         "Terrahaptix"
       ]
-    },
-    {
-      "fund": "8VC",
-      "portfolio_count": 1,
-      "companies": [
-        "Terrahaptix"
-      ]
     }
   ],
   "sectorConcentration": {
@@ -208,6 +209,6 @@
     "Housing & Construction": 8,
     "Consumer Tech": 8,
     "Ocean & Maritime": 8,
-    "Supersonic & Hypersonic": 4
+    "Infrastructure & Logistics": 5
   }
 }

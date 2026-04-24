@@ -3,14 +3,14 @@
     "category": "Nuclear Energy",
     "icon": "\u269b\ufe0f",
     "budgetLineItem": "Nuclear Energy \u2014 federal activity index",
-    "change": "+15%",
-    "changeNum": 15,
+    "change": "+5%",
+    "changeNum": 5,
     "fy": "FY2026",
     "allocation": "",
-    "activityIndex": 9,
+    "activityIndex": 3,
     "billsTracked": 2,
-    "rulesTracked": 7,
-    "description": "2 bill(s) + 7 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 9 \u2014 +15% relative trend.",
+    "rulesTracked": 1,
+    "description": "2 bill(s) + 1 federal-register action(s) touching Nuclear Energy in the last 90 days. Activity index 3 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
@@ -29,27 +29,15 @@
         "title": "Duke Energy Carolinas, LLC; Catawba Nuclear Station, Units 1 and 2; Independent ",
         "agency": "",
         "date": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Information Collection: NRC Form 361, Reactor Plant Event Notification Worksheet",
-        "agency": "",
-        "date": ""
-      },
-      {
-        "type": "federal_register",
-        "title": "Kairos Power LLC; Hermes Test Reactor; Environmental Assessment and Finding of N",
-        "agency": "",
-        "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
-    "category": "Autonomous Systems & Drones",
-    "icon": "\ud83d\udef8",
-    "budgetLineItem": "Autonomous Systems & Drones \u2014 federal activity index",
+    "category": "Space & Aerospace",
+    "icon": "\ud83d\ude80",
+    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
     "change": "+5%",
     "changeNum": 5,
     "fy": "FY2026",
@@ -57,23 +45,23 @@
     "activityIndex": 2,
     "billsTracked": 1,
     "rulesTracked": 1,
-    "description": "1 bill(s) + 1 federal-register action(s) touching Autonomous Systems & Drones in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
+    "description": "1 bill(s) + 1 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 2 \u2014 +5% relative trend.",
     "examples": [
       {
         "type": "bill",
-        "title": "Autonomous Vehicle Safety Act",
-        "number": "HR6001",
+        "title": "Commercial Space Launch Competitiveness Act Amendments",
+        "number": "HR3684",
         "status": ""
       },
       {
         "type": "federal_register",
-        "title": "Settlement Policy for Small Unmanned Aircraft System (UAS) Cases",
+        "title": "Space Launch and Reentry Licensing and Permitting User Fees",
         "agency": "",
         "date": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
     "category": "Quantum Computing",
@@ -96,12 +84,12 @@
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
-    "category": "Space & Aerospace",
-    "icon": "\ud83d\ude80",
-    "budgetLineItem": "Space & Aerospace \u2014 federal activity index",
+    "category": "Autonomous Systems & Drones",
+    "icon": "\ud83d\udef8",
+    "budgetLineItem": "Autonomous Systems & Drones \u2014 federal activity index",
     "change": "flat",
     "changeNum": 0,
     "fy": "FY2026",
@@ -109,16 +97,16 @@
     "activityIndex": 1,
     "billsTracked": 1,
     "rulesTracked": 0,
-    "description": "1 bill(s) + 0 federal-register action(s) touching Space & Aerospace in the last 90 days. Activity index 1 \u2014 flat relative trend.",
+    "description": "1 bill(s) + 0 federal-register action(s) touching Autonomous Systems & Drones in the last 90 days. Activity index 1 \u2014 flat relative trend.",
     "examples": [
       {
         "type": "bill",
-        "title": "Commercial Space Launch Competitiveness Act Amendments",
-        "number": "HR3684",
+        "title": "Autonomous Vehicle Safety Act",
+        "number": "HR6001",
         "status": ""
       }
     ],
     "source": "federal_register + congress_bills",
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   }
 ]

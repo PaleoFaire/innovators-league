@@ -1,6 +1,10 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-23 08:02:39 UTC
+// Last updated: 2026-04-24 08:11:15 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "NuScale Power", form: "4", date: "2026-04-23", description: "xslF345X06/wk-form4_1776940981.xml", isIPO: false, ticker: "SMR" },
+  { company: "Centrus Energy", form: "4", date: "2026-04-23", description: "xslF345X06/wk-form4_1776962694.xml", isIPO: false, ticker: "LEU" },
+  { company: "D-Wave Quantum", form: "DEF 14A", date: "2026-04-23", description: "qbts-20260422.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Astera Labs", form: "4", date: "2026-04-23", description: "xslF345X06/wk-form4_1776987959.xml", isIPO: false, ticker: "ALAB" },
   { company: "Archer Aviation", form: "4", date: "2026-04-22", description: "xslF345X06/form4-04232026_120446.xml", isIPO: false, ticker: "ACHR" },
   { company: "Archer Aviation", form: "4", date: "2026-04-22", description: "xslF345X06/form4-04232026_120425.xml", isIPO: false, ticker: "ACHR" },
   { company: "Rivian", form: "4", date: "2026-04-22", description: "xslF345X06/wk-form4_1776890579.xml", isIPO: false, ticker: "RIVN" },
@@ -47,8 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Astera Labs", form: "4", date: "2026-04-13", description: "xslF345X06/wk-form4_1776113737.xml", isIPO: false, ticker: "ALAB" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854931.xml", isIPO: false, ticker: "DNA" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854911.xml", isIPO: false, ticker: "DNA" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854893.xml", isIPO: false, ticker: "DNA" },
-  { company: "Tempus AI", form: "DEF 14A", date: "2026-04-10", description: "vnt-20260410.htm", isIPO: false, ticker: "TEM" },
-  { company: "Astera Labs", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775864074.xml", isIPO: false, ticker: "ALAB" },
-  { company: "Intuitive Machines", form: "4", date: "2026-04-09", description: "xslF345X06/form4-04092026_110444.xml", isIPO: false, ticker: "LUNR" },
 ];

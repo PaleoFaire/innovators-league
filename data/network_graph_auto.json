@@ -831,7 +831,7 @@
       "thesisCluster": "autonomy-maritime"
     },
     {
-      "id": "Amidon Heavy Industries",
+      "id": "Standard Subsea",
       "sector": "Ocean & Maritime",
       "thesisCluster": "autonomy-maritime"
     },
@@ -847,6 +847,11 @@
     },
     {
       "id": "Durin",
+      "sector": "Infrastructure & Logistics",
+      "thesisCluster": "robotics-construction-mining"
+    },
+    {
+      "id": "Watoga Technologies",
       "sector": "Infrastructure & Logistics",
       "thesisCluster": "robotics-construction-mining"
     },
@@ -2551,7 +2556,7 @@
       "thesisCluster": "commercial-robotics"
     },
     {
-      "id": "Auradine",
+      "id": "Velaura AI",
       "sector": "Chips & Semiconductors",
       "thesisCluster": "ai-semiconductor-architecture"
     },
@@ -8231,6 +8236,12 @@
     },
     {
       "src": "Durin",
+      "dst": "Watoga Technologies",
+      "type": "thesis",
+      "cluster": "robotics-construction-mining"
+    },
+    {
+      "src": "Durin",
       "dst": "Terranova",
       "type": "thesis",
       "cluster": "robotics-construction-mining"
@@ -8244,6 +8255,24 @@
     {
       "src": "Built Robotics",
       "dst": "Durin",
+      "type": "thesis",
+      "cluster": "robotics-construction-mining"
+    },
+    {
+      "src": "Terranova",
+      "dst": "Watoga Technologies",
+      "type": "thesis",
+      "cluster": "robotics-construction-mining"
+    },
+    {
+      "src": "Bedrock Robotics",
+      "dst": "Watoga Technologies",
+      "type": "thesis",
+      "cluster": "robotics-construction-mining"
+    },
+    {
+      "src": "Built Robotics",
+      "dst": "Watoga Technologies",
       "type": "thesis",
       "cluster": "robotics-construction-mining"
     },
@@ -8734,8 +8763,8 @@
       "cluster": "quantum-sensors-software"
     },
     {
-      "src": "Auradine",
-      "dst": "MatX",
+      "src": "MatX",
+      "dst": "Velaura AI",
       "type": "thesis",
       "cluster": "ai-semiconductor-architecture"
     },
@@ -9215,10 +9244,10 @@
     }
   ],
   "counts": {
-    "total_nodes": 868,
-    "total_edges": 843,
+    "total_nodes": 869,
+    "total_edges": 847,
     "competitor_edges": 187,
-    "thesis_edges": 656,
+    "thesis_edges": 660,
     "alumni_edges": 0
   }
 }

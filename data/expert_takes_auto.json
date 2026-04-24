@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-04-23T08:04:09.646512Z",
+  "generated_at": "2026-04-24T08:12:09.055534Z",
   "takes": [
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "How SpaceX preempted a $2B fundraise with a $60B buyout offer",
-      "date": "Wed, 22 Ap",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
-      "signal_type": "funding"
-    },
-    {
-      "author": "Next Big Future",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI and Cursor Try to Catch Athropic Claude Code",
-      "date": "Wed, 22 Ap",
-      "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/04/spacex-has-option-to-buy-cursor-for-60-billion-xai-and-cursor-try-to-catch-athropic-claude-code.html",
-      "signal_type": "ipo"
-    },
     {
       "author": "SpaceNews",
       "role": "Industry signal",
@@ -40,12 +20,22 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
       "signal_type": "ipo"
+    },
+    {
+      "author": "Tech.eu",
+      "role": "Industry signal",
+      "company": "Scale AI",
+      "text": "Verda raises $117M to scale AI cloud infrastructure built on clean Nordic power",
+      "date": "Fri, 24 Ap",
+      "source": "news",
+      "source_url": "https://tech.eu/2026/04/24/verda-raises-117m-to-scale-ai-cloud-infrastructure-built-on-clean-nordic-power/",
+      "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 4,
+    "from_news": 3,
     "from_press": 0
   }
 }

@@ -637,6 +637,18 @@
   },
   {
     "company": "Anduril",
+    "awardId": "H9240226FE014",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 4768282.7,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2026-01-16",
+    "endDate": "2026-08-14",
+    "description": "SIP TO129 BC2 HW BUY"
+  },
+  {
+    "company": "Anduril",
     "awardId": "FA868424FB023",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 4617999.0,
@@ -949,6 +961,18 @@
   },
   {
     "company": "Anduril",
+    "awardId": "FA542224C0016",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 1153000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2024-09-18",
+    "endDate": "2026-04-24",
+    "description": "GHOST-X SBIR PHASE 3 UNDER SBIR# F191-005-1461"
+  },
+  {
+    "company": "Anduril",
     "awardId": "M6785426F0023",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 1152957.0,
@@ -994,18 +1018,6 @@
     "startDate": "2025-07-03",
     "endDate": "2026-01-26",
     "description": "TO 98 - UK EFS-L"
-  },
-  {
-    "company": "Anduril",
-    "awardId": "FA542224C0016",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 934000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2024-09-18",
-    "endDate": "2025-06-04",
-    "description": "GHOST-X SBIR PHASE 3 UNDER SBIR# F191-005-1461"
   },
   {
     "company": "Anduril",
@@ -1186,18 +1198,6 @@
     "startDate": "2025-09-16",
     "endDate": "2025-12-15",
     "description": "SIP TO 121 - GENERATORS"
-  },
-  {
-    "company": "Anduril",
-    "awardId": "H9240225FE010",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 256022.78,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-06-24",
-    "endDate": "2026-05-22",
-    "description": "FOR COUNTER UNMANNED SYSTEMS (CUXS) ANNUAL SOFTWARE LICENSING AND SUSTAINMENT FOR ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
   },
   {
     "company": "Anduril Industries",
@@ -1837,6 +1837,18 @@
   },
   {
     "company": "Anduril Industries",
+    "awardId": "H9240226FE014",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 4768282.7,
+    "agency": "Department of Defense",
+    "subAgency": "U.S. Special Operations Command",
+    "awardType": null,
+    "startDate": "2026-01-16",
+    "endDate": "2026-08-14",
+    "description": "SIP TO129 BC2 HW BUY"
+  },
+  {
+    "company": "Anduril Industries",
     "awardId": "FA868424FB023",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 4617999.0,
@@ -2149,6 +2161,18 @@
   },
   {
     "company": "Anduril Industries",
+    "awardId": "FA542224C0016",
+    "recipientName": "ANDURIL INDUSTRIES, INC.",
+    "amount": 1153000.0,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2024-09-18",
+    "endDate": "2026-04-24",
+    "description": "GHOST-X SBIR PHASE 3 UNDER SBIR# F191-005-1461"
+  },
+  {
+    "company": "Anduril Industries",
     "awardId": "M6785426F0023",
     "recipientName": "ANDURIL INDUSTRIES, INC.",
     "amount": 1152957.0,
@@ -2194,18 +2218,6 @@
     "startDate": "2025-07-03",
     "endDate": "2026-01-26",
     "description": "TO 98 - UK EFS-L"
-  },
-  {
-    "company": "Anduril Industries",
-    "awardId": "FA542224C0016",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 934000.0,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2024-09-18",
-    "endDate": "2025-06-04",
-    "description": "GHOST-X SBIR PHASE 3 UNDER SBIR# F191-005-1461"
   },
   {
     "company": "Anduril Industries",
@@ -2388,18 +2400,6 @@
     "description": "SIP TO 121 - GENERATORS"
   },
   {
-    "company": "Anduril Industries",
-    "awardId": "H9240225FE010",
-    "recipientName": "ANDURIL INDUSTRIES, INC.",
-    "amount": 256022.78,
-    "agency": "Department of Defense",
-    "subAgency": "U.S. Special Operations Command",
-    "awardType": null,
-    "startDate": "2025-06-24",
-    "endDate": "2026-05-22",
-    "description": "FOR COUNTER UNMANNED SYSTEMS (CUXS) ANNUAL SOFTWARE LICENSING AND SUSTAINMENT FOR ADVANCED POSITION, NAVIGATION AND TIMING (PNT)"
-  },
-  {
     "company": "Shield AI",
     "awardId": "70Z02326F93130005",
     "recipientName": "SHIELD AI INC",
@@ -2535,7 +2535,7 @@
     "company": "Palantir",
     "awardId": "W9128Z26FA001",
     "recipientName": "PALANTIR USG INC",
-    "amount": 252458698.22,
+    "amount": 270145899.11,
     "agency": "Department of Defense",
     "subAgency": "Department of the Army",
     "awardType": null,
@@ -2842,6 +2842,18 @@
     "startDate": "2024-09-11",
     "endDate": "2026-03-24",
     "description": "NEW SELECTION AND ANALYTICS PROGRAM (SNAP)/ NET INCOME TEST (NIT) TASK ORDER"
+  },
+  {
+    "company": "Palantir",
+    "awardId": "205AE925F00203",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 13325955.3,
+    "agency": "Department of the Treasury",
+    "subAgency": "Internal Revenue Service",
+    "awardType": null,
+    "startDate": "2025-09-24",
+    "endDate": "2026-09-23",
+    "description": "IT SERVICES. COMMERCIAL OFF THE SHELF (COTS) SOFTWARE LICENSING, CLOUD SERVICES, TO ENABLE COMPLIANCE HUB TO CREATE ANALYTIC  MODELS."
   },
   {
     "company": "Palantir",
@@ -3706,18 +3718,6 @@
     "startDate": "2025-10-28",
     "endDate": "2025-12-09",
     "description": "THE PURPOSE OF THIS TASK ORDER IS TO IMPLEMENT PHASE 0 OF THE VETTING OF WEDDING-BASED SCHEMES (VOWS) PLATFORM"
-  },
-  {
-    "company": "Palantir",
-    "awardId": "70SBUR26F00000055",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 99500.0,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Citizenship and Immigration Services",
-    "awardType": null,
-    "startDate": "2026-02-13",
-    "endDate": "2026-03-27",
-    "description": "THIS FOLLOW-ON PHASE 2 VOWS TASK ORDER IS DESIGNED TO SUPPORT USCIS IN ACHIEVING ITS OBJECTIVE OF IMPLEMENTING THE VETTING OF WEDDING-BASED SCHEMES (VOWS) PLATFORM. THESE EFFORTS WILL ENABLE USCIS TO "
   },
   {
     "company": "Palantir Technologies",
@@ -3735,7 +3735,7 @@
     "company": "Palantir Technologies",
     "awardId": "W9128Z26FA001",
     "recipientName": "PALANTIR USG INC",
-    "amount": 252458698.22,
+    "amount": 270145899.11,
     "agency": "Department of Defense",
     "subAgency": "Department of the Army",
     "awardType": null,
@@ -4042,6 +4042,18 @@
     "startDate": "2024-09-11",
     "endDate": "2026-03-24",
     "description": "NEW SELECTION AND ANALYTICS PROGRAM (SNAP)/ NET INCOME TEST (NIT) TASK ORDER"
+  },
+  {
+    "company": "Palantir Technologies",
+    "awardId": "205AE925F00203",
+    "recipientName": "PALANTIR TECHNOLOGIES INC.",
+    "amount": 13325955.3,
+    "agency": "Department of the Treasury",
+    "subAgency": "Internal Revenue Service",
+    "awardType": null,
+    "startDate": "2025-09-24",
+    "endDate": "2026-09-23",
+    "description": "IT SERVICES. COMMERCIAL OFF THE SHELF (COTS) SOFTWARE LICENSING, CLOUD SERVICES, TO ENABLE COMPLIANCE HUB TO CREATE ANALYTIC  MODELS."
   },
   {
     "company": "Palantir Technologies",
@@ -4906,18 +4918,6 @@
     "startDate": "2025-10-28",
     "endDate": "2025-12-09",
     "description": "THE PURPOSE OF THIS TASK ORDER IS TO IMPLEMENT PHASE 0 OF THE VETTING OF WEDDING-BASED SCHEMES (VOWS) PLATFORM"
-  },
-  {
-    "company": "Palantir Technologies",
-    "awardId": "70SBUR26F00000055",
-    "recipientName": "PALANTIR TECHNOLOGIES INC.",
-    "amount": 99500.0,
-    "agency": "Department of Homeland Security",
-    "subAgency": "U.S. Citizenship and Immigration Services",
-    "awardType": null,
-    "startDate": "2026-02-13",
-    "endDate": "2026-03-27",
-    "description": "THIS FOLLOW-ON PHASE 2 VOWS TASK ORDER IS DESIGNED TO SUPPORT USCIS IN ACHIEVING ITS OBJECTIVE OF IMPLEMENTING THE VETTING OF WEDDING-BASED SCHEMES (VOWS) PLATFORM. THESE EFFORTS WILL ENABLE USCIS TO "
   },
   {
     "company": "Space Exploration Technologies",
@@ -5137,6 +5137,18 @@
   },
   {
     "company": "Space Exploration Technologies",
+    "awardId": "FA881123F0023",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 100122399.42,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "awardType": null,
+    "startDate": "2023-06-15",
+    "endDate": "2026-03-29",
+    "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2"
+  },
+  {
+    "company": "Space Exploration Technologies",
     "awardId": "FA881125FB010",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
     "amount": 100000000.0,
@@ -5146,18 +5158,6 @@
     "startDate": "2025-04-14",
     "endDate": "2026-04-13",
     "description": "SEE ATTACHMENT 1, PERFORMANCE WORK STATEMENT (PWS)"
-  },
-  {
-    "company": "Space Exploration Technologies",
-    "awardId": "FA881125FB021",
-    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 99572695.42,
-    "agency": "Department of Defense",
-    "subAgency": "Department of the Air Force",
-    "awardType": null,
-    "startDate": "2025-07-01",
-    "endDate": "2026-03-29",
-    "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 3 LANE 2"
   },
   {
     "company": "Space Exploration Technologies",
@@ -5269,15 +5269,15 @@
   },
   {
     "company": "Space Exploration Technologies",
-    "awardId": "FA881123F0023",
+    "awardId": "FA881125FB021",
     "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
-    "amount": 86163655.0,
+    "amount": 85613951.0,
     "agency": "Department of Defense",
     "subAgency": "Department of the Air Force",
     "awardType": null,
-    "startDate": "2023-06-15",
+    "startDate": "2025-07-01",
     "endDate": "2028-08-30",
-    "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 2"
+    "description": "NATIONAL SECURITY SPACE LAUNCH PHASE 3 LANE 2"
   },
   {
     "company": "Space Exploration Technologies",
@@ -5794,6 +5794,18 @@
     "startDate": "2024-08-21",
     "endDate": "2024-09-12",
     "description": "HIGH PERFORMANCE INTERNET SERVICE NEC"
+  },
+  {
+    "company": "Space Exploration Technologies",
+    "awardId": "140L3925F0020",
+    "recipientName": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+    "amount": 9287.08,
+    "agency": "Department of the Interior",
+    "subAgency": "Bureau of Land Management",
+    "awardType": null,
+    "startDate": "2025-03-28",
+    "endDate": "2026-05-14",
+    "description": "FY 25 CRD INTERNET (NVSO)"
   },
   {
     "company": "Space Exploration Technologies",

@@ -846,15 +846,6 @@
     "isIPO": false
   },
   {
-    "company": "Momentus",
-    "ticker": "MNTS",
-    "form": "8-K",
-    "date": "2026-01-23",
-    "description": "tm263963d1_8k.htm",
-    "accessionNumber": "0001104659-26-006267",
-    "isIPO": false
-  },
-  {
     "company": "Virgin Galactic",
     "ticker": "SPCE",
     "form": "DEF 14A",
@@ -1023,6 +1014,15 @@
     "date": "2026-03-18",
     "description": "xslF345X06/wk-form4_1773866086.xml",
     "accessionNumber": "0001706946-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "NuScale Power",
+    "ticker": "SMR",
+    "form": "4",
+    "date": "2026-04-23",
+    "description": "xslF345X06/wk-form4_1776940981.xml",
+    "accessionNumber": "0001124198-26-000049",
     "isIPO": false
   },
   {
@@ -1487,6 +1487,15 @@
   {
     "company": "Centrus Energy",
     "ticker": "LEU",
+    "form": "4",
+    "date": "2026-04-23",
+    "description": "xslF345X06/wk-form4_1776962694.xml",
+    "accessionNumber": "0001628280-26-026745",
+    "isIPO": false
+  },
+  {
+    "company": "Centrus Energy",
+    "ticker": "LEU",
     "form": "8-K",
     "date": "2026-04-20",
     "description": "leu-20260416.htm",
@@ -1536,15 +1545,6 @@
     "date": "2026-02-10",
     "description": "leu-20260210.htm",
     "accessionNumber": "0001628280-26-006909",
-    "isIPO": false
-  },
-  {
-    "company": "Centrus Energy",
-    "ticker": "LEU",
-    "form": "8-K",
-    "date": "2026-01-23",
-    "description": "leu-20260123.htm",
-    "accessionNumber": "0001628280-26-003245",
     "isIPO": false
   },
   {
@@ -1845,15 +1845,6 @@
     "isIPO": false
   },
   {
-    "company": "Upstart Holdings",
-    "ticker": "UPST",
-    "form": "4",
-    "date": "2026-01-23",
-    "description": "xslF345X05/wk-form4_1769208293.xml",
-    "accessionNumber": "0001558259-26-000004",
-    "isIPO": false
-  },
-  {
     "company": "UiPath",
     "ticker": "PATH",
     "form": "4",
@@ -2112,6 +2103,15 @@
     "date": "2026-02-10",
     "description": "xslF345X05/form4.xml",
     "accessionNumber": "0001123292-26-000132",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
+    "form": "DEF 14A",
+    "date": "2026-04-23",
+    "description": "qbts-20260422.htm",
+    "accessionNumber": "0001907982-26-000040",
     "isIPO": false
   },
   {
@@ -3747,6 +3747,15 @@
     "company": "Astera Labs",
     "ticker": "ALAB",
     "form": "4",
+    "date": "2026-04-23",
+    "description": "xslF345X06/wk-form4_1776987959.xml",
+    "accessionNumber": "0001628280-26-026962",
+    "isIPO": false
+  },
+  {
+    "company": "Astera Labs",
+    "ticker": "ALAB",
+    "form": "4",
     "date": "2026-04-13",
     "description": "xslF345X06/wk-form4_1776113737.xml",
     "accessionNumber": "0001628280-26-024921",
@@ -3921,15 +3930,6 @@
     "date": "2026-02-12",
     "description": "xslF345X05/ownership.xml",
     "accessionNumber": "0001213900-26-015620",
-    "isIPO": false
-  },
-  {
-    "company": "Satellogic",
-    "ticker": "SATL",
-    "form": "8-K",
-    "date": "2026-01-23",
-    "description": "ea0273974-8k_zoomcar.htm",
-    "accessionNumber": "0001213900-26-007349",
     "isIPO": false
   }
 ]

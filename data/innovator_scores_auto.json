@@ -3204,18 +3204,6 @@
     "note": "Defense integration platform providing modern technology solutions for Indo-Pacific allied military interoperability \u2014 Series A \u00b7 $100M raised"
   },
   {
-    "company": "Auradine",
-    "techMoat": 8,
-    "momentum": 8,
-    "teamPedigree": 9,
-    "marketGravity": 9,
-    "capitalEfficiency": 6,
-    "govTraction": 3,
-    "composite": 70.5,
-    "tier": "leader",
-    "note": "Custom 3nm ASIC fabrication for high-efficiency compute \u2014 $80M+ in 2025 bookings, $200M+ pipeline, board member Lip-Bu Tan became Intel CEO \u2014 Series C \u00b7 $450M+ raised"
-  },
-  {
     "company": "Magdrive",
     "techMoat": 9,
     "momentum": 7,
@@ -9816,18 +9804,6 @@
     "note": "AI-automated circuit board design reducing PCB development time from weeks to hours through generative layout optimization \u2014 Seed \u00b7 $10M+ raised"
   },
   {
-    "company": "Amidon Heavy Industries",
-    "techMoat": 6,
-    "momentum": 5,
-    "teamPedigree": 6,
-    "marketGravity": 6,
-    "capitalEfficiency": 6,
-    "govTraction": 3,
-    "composite": 50.0,
-    "tier": "promising",
-    "note": "Autonomous underwater vehicles for defense and commercial applications with emphasis on mass-producible AUV platforms \u2014 Seed \u00b7 $10M+ raised"
-  },
-  {
     "company": "Amperon",
     "techMoat": 6,
     "momentum": 6,
@@ -10464,42 +10440,6 @@
     "note": "Notable team pedigree. Composite: 38/100."
   },
   {
-    "company": "Kratos Defense",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 6,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 38.5,
-    "tier": "early",
-    "note": "Large addressable market. Composite: 38/100."
-  },
-  {
-    "company": "hiringVelocity",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 6,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 38.5,
-    "tier": "early",
-    "note": "Large addressable market. Composite: 38/100."
-  },
-  {
-    "company": "Strategic Milestones",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 6,
-    "capitalEfficiency": 5,
-    "govTraction": 2,
-    "composite": 38.5,
-    "tier": "early",
-    "note": "Large addressable market. Composite: 38/100."
-  },
-  {
     "company": "Founder Tier",
     "techMoat": 3,
     "momentum": 3,
@@ -11089,6 +11029,18 @@
   },
   {
     "company": "Thrive Capital",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 5,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 37/100."
+  },
+  {
+    "company": "Kratos Defense",
     "techMoat": 3,
     "momentum": 3,
     "teamPedigree": 5,
@@ -11988,6 +11940,18 @@
     "note": "Notable team pedigree. Composite: 37/100."
   },
   {
+    "company": "Strategic Milestones",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 5,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 37.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 37/100."
+  },
+  {
     "company": "LA Defense Corridor",
     "techMoat": 3,
     "momentum": 3,
@@ -12048,6 +12012,42 @@
     "note": "Notable team pedigree. Composite: 37/100."
   },
   {
+    "company": "Standard Subsea",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 5,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "hiringVelocity",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 4,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 35.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 36/100."
+  },
+  {
+    "company": "Velaura AI",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 5,
+    "govTraction": 2,
+    "composite": 32.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
     "company": "NVIDIA",
     "techMoat": 3,
     "momentum": 3,
@@ -12058,5 +12058,17 @@
     "composite": 32.5,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 32/100."
+  },
+  {
+    "company": "Watoga Technologies",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 2,
+    "capitalEfficiency": 3.5,
+    "govTraction": 2,
+    "composite": 31.0,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 31/100."
   }
 ]

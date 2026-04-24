@@ -1,46 +1,12 @@
 [
   {
-    "sector": "Space & Aerospace",
-    "momentum": 65,
-    "trend": "accelerating",
-    "catalysts": [
-      "Atmos Space Cargo raises $30 million for reentry missions",
-      "OpenAI's head of health lays out the AI giant\u2019s healthcare a",
-      "How SpaceX preempted a $2B fundraise with a $60B buyout offe"
-    ],
-    "fundingQ": "$2.2B",
-    "components": {
-      "funding": 78,
-      "news": 70,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-23"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 56,
-    "trend": "steady",
-    "catalysts": [
-      "Disperse to Survive: The Logic of French Forward Deterrence"
-    ],
-    "fundingQ": "$22.3B",
-    "components": {
-      "funding": 100,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-23"
-  },
-  {
     "sector": "AI & Software",
     "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Cape EMS expands into advanced interconnect engineering for",
-      "OpenAI's head of health lays out the AI giant\u2019s healthcare a",
-      "Join Our Livestream: Musk v. Altman and the Future of OpenAI"
+      "Verda raises $117M to scale AI cloud infrastructure built on",
+      "OpenAI releases GPT-5.5, bringing company one step closer to",
+      "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit"
     ],
     "fundingQ": "$1189.2B",
     "components": {
@@ -49,7 +15,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
     "sector": "Nuclear Energy",
@@ -66,23 +32,42 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 46,
+    "momentum": 48,
     "trend": "steady",
     "catalysts": [
+      "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit",
       "Saildrone announces new USV class aimed at anti-submarine wa"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 47,
+    "trend": "steady",
+    "catalysts": [
+      "SpaceX wins $57 million U.S. military contract for satellite",
+      "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$22.3B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
+      "market": 42
+    },
+    "lastUpdated": "2026-04-24"
   },
   {
     "sector": "Ocean & Maritime",
@@ -98,7 +83,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 45,
+    "trend": "steady",
+    "catalysts": [
+      "SpaceX wins $57 million U.S. military contract for satellite",
+      "NASA Shares SpaceX Crew-13 Assignments for Space Station Mis",
+      "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P"
+    ],
+    "fundingQ": "$2.2B",
+    "components": {
+      "funding": 78,
+      "news": 60,
+      "hiring": 0,
+      "market": 14
+    },
+    "lastUpdated": "2026-04-24"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -114,7 +117,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -132,44 +135,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-23"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 21,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-23"
-  },
-  {
-    "sector": "Transportation",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Cape EMS expands into advanced interconnect engineering for",
-      "Rivian (RIVN) starts R2 production days after tornado hit fa"
-    ],
-    "fundingQ": "$40M",
-    "components": {
-      "funding": 7,
-      "news": 10,
-      "hiring": 0,
-      "market": 77
-    },
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 18,
+    "momentum": 24,
     "trend": "declining",
     "catalysts": [
       "Fervo Energy unveils new power plant details in IPO filing",
@@ -181,13 +151,114 @@
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 70
+      "market": 100
     },
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 20,
+    "trend": "declining",
+    "catalysts": [
+      "Active chips & semiconductors ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 16,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX wins $57 million U.S. military contract for satellite",
+      "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P",
+      "OpenAI releases GPT-5.5, bringing company one step closer to"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 25,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "sector": "Infrastructure & Logistics",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Verda raises $117M to scale AI cloud infrastructure built on",
+      "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit",
+      "Cape EMS expands into advanced interconnect engineering for"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "sector": "Housing & Construction",
+    "momentum": 10,
+    "trend": "declining",
+    "catalysts": [
+      "Active housing & construction ecosystem"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 0,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "sector": "Transportation",
+    "momentum": 7,
+    "trend": "declining",
+    "catalysts": [
+      "Cape EMS expands into advanced interconnect engineering for",
+      "Rivian (RIVN) starts R2 production days after tornado hit fa"
+    ],
+    "fundingQ": "$40M",
+    "components": {
+      "funding": 7,
+      "news": 10,
+      "hiring": 0,
+      "market": 8
+    },
+    "lastUpdated": "2026-04-24"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 6,
+    "trend": "declining",
+    "catalysts": [
+      "OpenAI's head of health lays out the AI giant\u2019s healthcare a"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 5,
+      "hiring": 0,
+      "market": 9
+    },
+    "lastUpdated": "2026-04-24"
   },
   {
     "sector": "Quantum Computing",
-    "momentum": 15,
+    "momentum": 0,
     "trend": "declining",
     "catalysts": [
       "Active quantum computing ecosystem"
@@ -197,76 +268,8 @@
       "funding": 0,
       "news": 0,
       "hiring": 0,
-      "market": 76
+      "market": 0
     },
-    "lastUpdated": "2026-04-23"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Atmos Space Cargo raises $30 million for reentry missions",
-      "HII partners with Path Robotics, GrayMatter Robotics to acce",
-      "AST Spacemobile BB7 Is Not Recoverable Per ASTS"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-23"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 13,
-    "trend": "declining",
-    "catalysts": [
-      "OpenAI's head of health lays out the AI giant\u2019s healthcare a",
-      "OpenAI Beefs Up ChatGPT\u2019s Image Generation Model"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 10,
-      "hiring": 0,
-      "market": 39
-    },
-    "lastUpdated": "2026-04-23"
-  },
-  {
-    "sector": "Infrastructure & Logistics",
-    "momentum": 12,
-    "trend": "declining",
-    "catalysts": [
-      "Cape EMS expands into advanced interconnect engineering for",
-      "Anthropic&#8217;s Nuclear Bomb"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 10,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-23"
-  },
-  {
-    "sector": "Housing & Construction",
-    "momentum": 11,
-    "trend": "declining",
-    "catalysts": [
-      "AST Spacemobile BB7 Is Not Recoverable Per ASTS"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 5,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
   }
 ]
