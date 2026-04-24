@@ -69,6 +69,15 @@ jobs:
         run: python scripts/calc_expert_takes.py
         continue-on-error: true
 
+      - name: Verify Company Metadata (rebrands, IPOs, acquisitions)
+        # Catches the category of issue that no other pipeline catches:
+        # a tracked company changed its name, went public, got acquired,
+        # or shut down. Desk-checks are always on; --probe makes weekly
+        # HEAD requests to every company website (caps at 200 for cost).
+        # Writes data/metadata_verification.json for the admin dashboard.
+        run: python scripts/verify_company_metadata.py --probe --limit 200
+        continue-on-error: true
+
       - name: Emit Round 7l auto.js bundles
         run: python scripts/emit_round7l_auto_js.py
 
@@ -114,6 +123,7 @@ jobs:
                   data/weekly_history.json \
                   data/weekly_brief_movers.json \
                   data/weekly_brief.json \
+                  data/metadata_verification.json \
                   data/field_notes_auto.json data/field_notes_auto.js \
                   data/budget_signals_auto.json data/budget_signals_auto.js \
                   data/fund_intelligence_auto.json data/fund_intelligence_auto.js \

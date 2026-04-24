@@ -188,10 +188,32 @@ jobs:
           path: data/
           retention-days: 7
 
+  sync-exec-moves:
+    name: Sync Executive Moves (C-suite / board changes)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests
+      - name: Detect CEO / CFO / CTO / board changes from SEC 8-K + Form 4
+        # Parses data/sec_filings_raw.json for Item 5.02 (officer appointments)
+        # and Form 4 new-officer transactions; falls back to a curated seed
+        # of well-documented frontier-tech exec moves. This is the next class
+        # of drift after rebrands/acquisitions — catches "CEO change at X"
+        # events that no other pipeline surfaces.
+        run: python scripts/fetch_exec_moves.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: exec-moves-data
+          path: data/
+          retention-days: 7
+
   merge-and-commit:
     name: Merge Extended Data and Commit
     runs-on: ubuntu-latest
-    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-linkedin-headcount, sync-trademarks, sync-factory-watch]
+    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-linkedin-headcount, sync-trademarks, sync-factory-watch, sync-exec-moves]
     if: always()
     steps:
       - name: Checkout repository
@@ -252,6 +274,14 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: factory-watch-data
+          path: data/
+          merge-multiple: true
+        continue-on-error: true
+
+      - name: Download Executive Moves data
+        uses: actions/download-artifact@v4
+        with:
+          name: exec-moves-data
           path: data/
           merge-multiple: true
         continue-on-error: true
