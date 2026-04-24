@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T12:02:15.504952+00:00",
+  "generatedAt": "2026-04-24T13:59:32.577898+00:00",
   "date": "2026-04-24",
   "dateDisplay": "Friday, April 24, 2026",
   "sections": {
@@ -70,60 +70,60 @@
     ],
     "marketMovers": [
       {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 25.0,
-        "changePercent": -30.36,
-        "change": -10.9
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 2.47,
-        "changePercent": -26.05,
-        "change": -0.87
-      },
-      {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 76.46,
-        "changePercent": 19.08,
-        "change": 12.25
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 342.91,
+        "changePercent": 23.18,
+        "change": 64.52
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 197.54,
-        "changePercent": 15.65,
-        "change": 26.73
+        "price": 208.46,
+        "changePercent": 19.77,
+        "change": 34.41
       },
       {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 3.7,
-        "changePercent": 13.5,
-        "change": 0.44
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 79.25,
+        "changePercent": 18.63,
+        "change": 12.44
       },
       {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 78.75,
-        "changePercent": -13.4,
-        "change": -12.19
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 2.48,
+        "changePercent": -16.89,
+        "change": -0.51
+      },
+      {
+        "ticker": "QS",
+        "company": "QuantumScape",
+        "price": 8.2,
+        "changePercent": 15.42,
+        "change": 1.1
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 16.86,
-        "changePercent": -13.32,
-        "change": -2.59
+        "price": 16.77,
+        "changePercent": -15.35,
+        "change": -3.04
       },
       {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 12.72,
-        "changePercent": 11.48,
-        "change": 1.31
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 3.83,
+        "changePercent": 13.5,
+        "change": 0.46
+      },
+      {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 19.09,
+        "changePercent": -12.01,
+        "change": -2.61
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LNZA -30.4%"
+    "topMover": "AMD +23.2%"
   }
 }
