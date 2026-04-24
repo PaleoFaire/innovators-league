@@ -97,6 +97,12 @@ PIPELINE_CADENCE = {
     "h1b_lca_auto.js":                   30,  # DOL OFLC quarterly source
     "dsca_fms_auto.js":                   7,  # DSCA FMS notifications
     "lobbying_auto.js":                  30,  # Senate LDA quarterly
+
+    # ── Round 9: Supply chain + regulatory depth + hedge fund skill ──
+    "bill_of_lading_auto.js":             7,  # ImportYeti / CBP ACE
+    "state_puct_dockets_auto.js":         7,  # State PUC filings
+    "water_permits_auto.js":              7,  # EPA NPDES + state water
+    "deception_scores_auto.js":           7,  # Earnings deception (skill)
 }
 
 # Human-readable labels for the site footer / admin dashboard
@@ -151,6 +157,12 @@ PIPELINE_LABEL = {
     "h1b_lca_auto.js":               "H-1B LCA Hiring",
     "dsca_fms_auto.js":              "DSCA Arms Sales",
     "lobbying_auto.js":              "Senate Lobbying",
+
+    # ── Round 9 pipelines ──
+    "bill_of_lading_auto.js":        "Bill of Lading (Supply Chain)",
+    "state_puct_dockets_auto.js":    "State PUC Dockets",
+    "water_permits_auto.js":         "Water Permits",
+    "deception_scores_auto.js":      "Deception Detector (Skill)",
 }
 
 

@@ -131,6 +131,35 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         continue-on-error: true
 
+      # ═══════════════════════════════════════════════════════════════
+      # Round 9 — Supply Chain + Regulatory Depth + Hedge Fund Skill
+      # ═══════════════════════════════════════════════════════════════
+
+      - name: US Customs Bill of Lading (ImportYeti)
+        # Supply-chain ground truth — detect manufacturing ramp and
+        # risk-country supplier concentration for hardware companies.
+        run: python scripts/fetch_bill_of_lading.py
+        continue-on-error: true
+
+      - name: State PUC Dockets (TX / CA / AZ / NV / OH / WY / ID)
+        # Large-load applications that surface in state PUC dockets
+        # BEFORE FERC queue filings. Texas SB 6 (2025) makes every
+        # >75 MW interconnection a docket filing.
+        run: python scripts/fetch_state_puct_dockets.py
+        continue-on-error: true
+
+      - name: EPA NPDES + State Water Permits
+        # Fab + data center + lithium brine water permits. 12-24 months
+        # of lead-time visibility into large industrial buildouts.
+        run: python scripts/fetch_water_permits.py
+        continue-on-error: true
+
+      - name: Earnings Call Deception Detector (Skill)
+        # The direct hedge fund pattern — Larcker & Zakolyukina 2010
+        # linguistic scoring of public frontier-tech earnings calls.
+        run: python scripts/skill_deception_detector.py
+        continue-on-error: true
+
       - name: Emit Round 7l auto.js bundles
         run: python scripts/emit_round7l_auto_js.py
 
@@ -184,6 +213,10 @@ jobs:
                   data/dsca_fms_auto.json data/dsca_fms_auto.js \
                   data/lobbying_auto.json data/lobbying_auto.js \
                   data/youtube_mentions_auto.json data/youtube_mentions_auto.js \
+                  data/bill_of_lading_auto.json data/bill_of_lading_auto.js \
+                  data/state_puct_dockets_auto.json data/state_puct_dockets_auto.js \
+                  data/water_permits_auto.json data/water_permits_auto.js \
+                  data/deception_scores_auto.json data/deception_scores_auto.js \
                   data/field_notes_auto.json data/field_notes_auto.js \
                   data/budget_signals_auto.json data/budget_signals_auto.js \
                   data/fund_intelligence_auto.json data/fund_intelligence_auto.js \

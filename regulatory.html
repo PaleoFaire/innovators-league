@@ -29,6 +29,7 @@
         <div class="nav-links">
             <a href="index.html" class="nav-link">Intelligence</a>
             <a href="visualizations.html" class="nav-link">Insights</a>            <a href="brief.html" class="nav-link">Frontier Daily</a>
+            <a href="terminal.html" class="nav-link" style="color:#86efac;">⚡ Terminal</a>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
@@ -286,6 +287,28 @@
         </div>
     </section>
 
+    <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+    <!-- NEW: EPA NPDES + State Water Withdrawal Permits                               -->
+    <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+    <section class="section" id="water-permits-section" style="background: linear-gradient(135deg, rgba(59,130,246,0.04) 0%, rgba(0,0,0,0) 100%); border-top: 1px solid rgba(59,130,246,0.18);">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow" style="color:#93c5fd;">✨ NEW · WATER INFRASTRUCTURE · EPA NPDES + STATE</p>
+                <h2>Water Permits</h2>
+                <p>Semiconductor fabs need 2–4M gallons/day. AI data centers are increasingly water-hungry. Lithium brine operations require massive groundwater permits. Every one of these shows up in the public permit trail <strong>12–24 months before construction</strong>.</p>
+            </div>
+            <div class="leaderboard-table-wrap">
+                <table class="leaderboard-table" id="water-table">
+                    <thead>
+                        <tr><th>Facility</th><th>Operator</th><th>State</th><th>Flow (MGD)</th><th>Source</th><th>Permit Date</th><th>Status</th></tr>
+                    </thead>
+                    <tbody id="water-body"><tr><td colspan="7" style="padding:24px;text-align:center;color:rgba(255,255,255,0.4);">Loading water permits…</td></tr></tbody>
+                </table>
+            </div>
+            <div id="water-footer-note" style="margin-top:12px;color:rgba(255,255,255,0.5);font-size:12px;"></div>
+        </div>
+    </section>
+
     <!-- Footer -->
 
 <!-- Subscribe Banner -->
@@ -346,6 +369,7 @@
     <script src="data/expert_takes_auto.js?v=20260421"></script>
     <script src="data/budget_signals_auto.js?v=20260421"></script>
     <script src="data/fcc_licenses_auto.js?v=20260424"></script>
+    <script src="data/water_permits_auto.js?v=20260424"></script>
     <script src="regulatory.js?v=20260325"></script>
     <script>
     // NEW: FCC Spectrum & Experimental Radio renderer
@@ -388,6 +412,48 @@
         }
       }
       document.addEventListener('DOMContentLoaded', renderFCC);
+    })();
+    </script>
+    <script>
+    // Water Permits renderer
+    (function(){
+      'use strict';
+      const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+      function render() {
+        const data = (typeof window.WATER_PERMITS_AUTO !== 'undefined') ? window.WATER_PERMITS_AUTO : null;
+        const body = document.getElementById('water-body');
+        const note = document.getElementById('water-footer-note');
+        if (!body) return;
+        if (!data) {
+          body.innerHTML = '<tr><td colspan="7" style="padding:24px;text-align:center;color:rgba(255,255,255,0.4);">Water permits pipeline not yet populated.</td></tr>';
+          return;
+        }
+        const permits = Array.isArray(data.permits) ? data.permits : [];
+        if (permits.length === 0) {
+          body.innerHTML = '<tr><td colspan="7" style="padding:24px;text-align:center;color:rgba(255,255,255,0.4);">No permits matched.</td></tr>';
+          return;
+        }
+        body.innerHTML = permits.map(p => {
+          const match = p.matched_company
+            ? '<br><a href="company.html?c=' + encodeURIComponent(p.matched_company) + '" style="display:inline-block;padding:2px 8px;background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-radius:6px;font-size:10px;font-weight:700;color:#93c5fd;text-decoration:none;margin-top:4px;">✓ ' + esc(p.matched_company) + '</a>'
+            : '';
+          const nameLink = p.url ? '<a href="' + esc(p.url) + '" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">' + esc(p.facility_name) + '</a>' : esc(p.facility_name);
+          return '<tr>' +
+            '<td><strong style="color:#fff;">' + nameLink + '</strong>' + match + '</td>' +
+            '<td style="color:rgba(255,255,255,0.85);font-size:13px;">' + esc(p.operator) + '</td>' +
+            '<td style="color:rgba(255,255,255,0.75);">' + esc(p.state) + '</td>' +
+            '<td style="font-family:\'Space Grotesk\',monospace;font-weight:700;color:#93c5fd;">' + (p.flow_mgd || 0).toFixed(1) + '</td>' +
+            '<td style="color:rgba(255,255,255,0.7);font-size:12px;">' + esc(p.source_water||'') + '</td>' +
+            '<td style="color:rgba(255,255,255,0.6);font-size:12px;">' + esc(p.permit_date||'') + '</td>' +
+            '<td style="color:rgba(255,255,255,0.7);font-size:11px;">' + esc(p.status||'') + '</td>' +
+          '</tr>';
+        }).join('');
+        if (note) {
+          const s = data.source_status === 'seeded' ? 'seeded (EPA ECHO live parse pending)' : 'live-pending';
+          note.textContent = (data.summary||{}).total_permits + ' permits · ' + ((data.summary||{}).total_flow_mgd||0).toFixed(1) + ' MGD aggregate · Source: EPA ECHO + state water boards (' + s + ')';
+        }
+      }
+      document.addEventListener('DOMContentLoaded', render);
     })();
     </script>
 </body>

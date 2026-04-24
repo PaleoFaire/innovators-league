@@ -1,0 +1,566 @@
+{
+  "generated_at": "2026-04-24T07:42:00.352612+00:00",
+  "source_status": "seeded",
+  "shipments": [
+    {
+      "consignee": "Anduril Industries",
+      "shipper": "Taiwan Semiconductor Manufacturing Co. (TSMC)",
+      "shipper_country": "TAIWAN",
+      "hs_code": "8542",
+      "description": "Integrated circuits for Lattice sensor fusion",
+      "port": "Los Angeles, CA",
+      "weight_kg": 1240,
+      "shipments_ytd": 47,
+      "first_seen": "2024-08-12",
+      "last_seen": "2026-04-02",
+      "matched_company": "Anduril Industries"
+    },
+    {
+      "consignee": "Anduril Industries",
+      "shipper": "Foxconn Interconnect Technology",
+      "shipper_country": "TAIWAN",
+      "hs_code": "8544",
+      "description": "Wiring harnesses for sentry towers",
+      "port": "Long Beach, CA",
+      "weight_kg": 8900,
+      "shipments_ytd": 22,
+      "first_seen": "2025-02-05",
+      "last_seen": "2026-03-28",
+      "matched_company": "Anduril Industries"
+    },
+    {
+      "consignee": "Skydio Inc.",
+      "shipper": "Sony Semiconductor Solutions",
+      "shipper_country": "JAPAN",
+      "hs_code": "8525",
+      "description": "IMX-series image sensors for X10D",
+      "port": "Oakland, CA",
+      "weight_kg": 320,
+      "shipments_ytd": 31,
+      "first_seen": "2024-11-20",
+      "last_seen": "2026-04-10",
+      "matched_company": "Skydio"
+    },
+    {
+      "consignee": "Skydio Inc.",
+      "shipper": "LG Chem",
+      "shipper_country": "SOUTH KOREA",
+      "hs_code": "8507",
+      "description": "Lithium polymer batteries for X10D payload",
+      "port": "Long Beach, CA",
+      "weight_kg": 4200,
+      "shipments_ytd": 18,
+      "first_seen": "2025-01-15",
+      "last_seen": "2026-04-05",
+      "matched_company": "Skydio"
+    },
+    {
+      "consignee": "Oklo Inc.",
+      "shipper": "Linde Engineering (Germany)",
+      "shipper_country": "GERMANY",
+      "hs_code": "8419",
+      "description": "Cryogenic heat exchangers for Aurora",
+      "port": "Baltimore, MD",
+      "weight_kg": 15400,
+      "shipments_ytd": 4,
+      "first_seen": "2025-08-22",
+      "last_seen": "2026-03-18",
+      "matched_company": "Oklo"
+    },
+    {
+      "consignee": "Figure AI, Inc.",
+      "shipper": "Harmonic Drive Systems",
+      "shipper_country": "JAPAN",
+      "hs_code": "8483",
+      "description": "Harmonic reducer gearboxes for humanoid joints",
+      "port": "Oakland, CA",
+      "weight_kg": 2800,
+      "shipments_ytd": 38,
+      "first_seen": "2024-06-14",
+      "last_seen": "2026-04-08",
+      "matched_company": "Figure AI"
+    },
+    {
+      "consignee": "Figure AI, Inc.",
+      "shipper": "Maxon Motor",
+      "shipper_country": "SWITZERLAND",
+      "hs_code": "8501",
+      "description": "Precision brushless motors",
+      "port": "Los Angeles, CA",
+      "weight_kg": 1100,
+      "shipments_ytd": 24,
+      "first_seen": "2024-10-02",
+      "last_seen": "2026-04-01",
+      "matched_company": "Figure AI"
+    },
+    {
+      "consignee": "Saronic Technologies",
+      "shipper": "Yanmar Holdings",
+      "shipper_country": "JAPAN",
+      "hs_code": "8407",
+      "description": "Marine diesel engines for Corsair platforms",
+      "port": "Houston, TX",
+      "weight_kg": 42000,
+      "shipments_ytd": 9,
+      "first_seen": "2024-09-11",
+      "last_seen": "2026-03-25",
+      "matched_company": "Saronic"
+    },
+    {
+      "consignee": "Helion Energy, Inc.",
+      "shipper": "SuperPower Inc.",
+      "shipper_country": "JAPAN",
+      "hs_code": "8507",
+      "description": "HTS superconducting wire",
+      "port": "Seattle, WA",
+      "weight_kg": 480,
+      "shipments_ytd": 12,
+      "first_seen": "2025-03-18",
+      "last_seen": "2026-04-03",
+      "matched_company": "Helion"
+    },
+    {
+      "consignee": "Rocket Lab USA",
+      "shipper": "Mitsubishi Chemical Advanced Materials",
+      "shipper_country": "JAPAN",
+      "hs_code": "3926",
+      "description": "Carbon composite substrates for Neutron fairings",
+      "port": "Long Beach, CA",
+      "weight_kg": 8700,
+      "shipments_ytd": 15,
+      "first_seen": "2024-12-04",
+      "last_seen": "2026-04-06",
+      "matched_company": "Rocket Lab"
+    },
+    {
+      "consignee": "Commonwealth Fusion Systems",
+      "shipper": "Fujikura Ltd.",
+      "shipper_country": "JAPAN",
+      "hs_code": "8544",
+      "description": "REBCO HTS tape for SPARC magnets",
+      "port": "Boston, MA",
+      "weight_kg": 920,
+      "shipments_ytd": 8,
+      "first_seen": "2025-04-20",
+      "last_seen": "2026-03-30",
+      "matched_company": "Commonwealth Fusion Systems"
+    },
+    {
+      "consignee": "Shield AI",
+      "shipper": "Maxon Motor",
+      "shipper_country": "SWITZERLAND",
+      "hs_code": "8501",
+      "description": "Precision servo motors for V-BAT VTOL",
+      "port": "Long Beach, CA",
+      "weight_kg": 780,
+      "shipments_ytd": 14,
+      "first_seen": "2025-01-08",
+      "last_seen": "2026-03-15",
+      "matched_company": "Shield AI"
+    },
+    {
+      "consignee": "Archer Aviation",
+      "shipper": "Hexcel Composites (Austria)",
+      "shipper_country": "AUSTRIA",
+      "hs_code": "3901",
+      "description": "Carbon prepreg for Midnight airframes",
+      "port": "Oakland, CA",
+      "weight_kg": 22000,
+      "shipments_ytd": 11,
+      "first_seen": "2024-11-18",
+      "last_seen": "2026-04-02",
+      "matched_company": "Archer Aviation"
+    },
+    {
+      "consignee": "Velaura AI, Inc.",
+      "shipper": "ASML Netherlands",
+      "shipper_country": "NETHERLANDS",
+      "hs_code": "9011",
+      "description": "2nm EUV photomask blanks",
+      "port": "San Francisco, CA",
+      "weight_kg": 150,
+      "shipments_ytd": 3,
+      "first_seen": "2025-12-22",
+      "last_seen": "2026-04-11",
+      "matched_company": "Velaura AI"
+    },
+    {
+      "consignee": "Hermeus Corp.",
+      "shipper": "Inconel Specialty Alloys",
+      "shipper_country": "UNITED KINGDOM",
+      "hs_code": "7220",
+      "description": "Nickel superalloys for Chimera turbine section",
+      "port": "Savannah, GA",
+      "weight_kg": 6300,
+      "shipments_ytd": 6,
+      "first_seen": "2025-05-04",
+      "last_seen": "2026-03-12",
+      "matched_company": "Hermeus"
+    }
+  ],
+  "by_company": [
+    {
+      "company": "Anduril Industries",
+      "shipments": 69,
+      "total_weight_kg": 10140,
+      "top_suppliers": [
+        [
+          "Taiwan Semiconductor Manufacturing Co. (TSMC)",
+          47
+        ],
+        [
+          "Foxconn Interconnect Technology",
+          22
+        ]
+      ],
+      "top_countries": [
+        [
+          "TAIWAN",
+          69
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "8542",
+          47
+        ],
+        [
+          "8544",
+          22
+        ]
+      ],
+      "latest_shipment": "2026-04-02",
+      "primary_country": "TAIWAN",
+      "primary_country_pct": 100.0,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Figure AI",
+      "shipments": 62,
+      "total_weight_kg": 3900,
+      "top_suppliers": [
+        [
+          "Harmonic Drive Systems",
+          38
+        ],
+        [
+          "Maxon Motor",
+          24
+        ]
+      ],
+      "top_countries": [
+        [
+          "JAPAN",
+          38
+        ],
+        [
+          "SWITZERLAND",
+          24
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "8483",
+          38
+        ],
+        [
+          "8501",
+          24
+        ]
+      ],
+      "latest_shipment": "2026-04-08",
+      "primary_country": "JAPAN",
+      "primary_country_pct": 61.3,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Skydio",
+      "shipments": 49,
+      "total_weight_kg": 4520,
+      "top_suppliers": [
+        [
+          "Sony Semiconductor Solutions",
+          31
+        ],
+        [
+          "LG Chem",
+          18
+        ]
+      ],
+      "top_countries": [
+        [
+          "JAPAN",
+          31
+        ],
+        [
+          "SOUTH KOREA",
+          18
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "8525",
+          31
+        ],
+        [
+          "8507",
+          18
+        ]
+      ],
+      "latest_shipment": "2026-04-10",
+      "primary_country": "JAPAN",
+      "primary_country_pct": 63.3,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Rocket Lab",
+      "shipments": 15,
+      "total_weight_kg": 8700,
+      "top_suppliers": [
+        [
+          "Mitsubishi Chemical Advanced Materials",
+          15
+        ]
+      ],
+      "top_countries": [
+        [
+          "JAPAN",
+          15
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "3926",
+          15
+        ]
+      ],
+      "latest_shipment": "2026-04-06",
+      "primary_country": "JAPAN",
+      "primary_country_pct": 100.0,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Shield AI",
+      "shipments": 14,
+      "total_weight_kg": 780,
+      "top_suppliers": [
+        [
+          "Maxon Motor",
+          14
+        ]
+      ],
+      "top_countries": [
+        [
+          "SWITZERLAND",
+          14
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "8501",
+          14
+        ]
+      ],
+      "latest_shipment": "2026-03-15",
+      "primary_country": "SWITZERLAND",
+      "primary_country_pct": 100.0,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Helion",
+      "shipments": 12,
+      "total_weight_kg": 480,
+      "top_suppliers": [
+        [
+          "SuperPower Inc.",
+          12
+        ]
+      ],
+      "top_countries": [
+        [
+          "JAPAN",
+          12
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "8507",
+          12
+        ]
+      ],
+      "latest_shipment": "2026-04-03",
+      "primary_country": "JAPAN",
+      "primary_country_pct": 100.0,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Archer Aviation",
+      "shipments": 11,
+      "total_weight_kg": 22000,
+      "top_suppliers": [
+        [
+          "Hexcel Composites (Austria)",
+          11
+        ]
+      ],
+      "top_countries": [
+        [
+          "AUSTRIA",
+          11
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "3901",
+          11
+        ]
+      ],
+      "latest_shipment": "2026-04-02",
+      "primary_country": "AUSTRIA",
+      "primary_country_pct": 100.0,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Saronic",
+      "shipments": 9,
+      "total_weight_kg": 42000,
+      "top_suppliers": [
+        [
+          "Yanmar Holdings",
+          9
+        ]
+      ],
+      "top_countries": [
+        [
+          "JAPAN",
+          9
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "8407",
+          9
+        ]
+      ],
+      "latest_shipment": "2026-03-25",
+      "primary_country": "JAPAN",
+      "primary_country_pct": 100.0,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Commonwealth Fusion Systems",
+      "shipments": 8,
+      "total_weight_kg": 920,
+      "top_suppliers": [
+        [
+          "Fujikura Ltd.",
+          8
+        ]
+      ],
+      "top_countries": [
+        [
+          "JAPAN",
+          8
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "8544",
+          8
+        ]
+      ],
+      "latest_shipment": "2026-03-30",
+      "primary_country": "JAPAN",
+      "primary_country_pct": 100.0,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Hermeus",
+      "shipments": 6,
+      "total_weight_kg": 6300,
+      "top_suppliers": [
+        [
+          "Inconel Specialty Alloys",
+          6
+        ]
+      ],
+      "top_countries": [
+        [
+          "UNITED KINGDOM",
+          6
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "7220",
+          6
+        ]
+      ],
+      "latest_shipment": "2026-03-12",
+      "primary_country": "UNITED KINGDOM",
+      "primary_country_pct": 100.0,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Oklo",
+      "shipments": 4,
+      "total_weight_kg": 15400,
+      "top_suppliers": [
+        [
+          "Linde Engineering (Germany)",
+          4
+        ]
+      ],
+      "top_countries": [
+        [
+          "GERMANY",
+          4
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "8419",
+          4
+        ]
+      ],
+      "latest_shipment": "2026-03-18",
+      "primary_country": "GERMANY",
+      "primary_country_pct": 100.0,
+      "risk_country_pct": 0.0
+    },
+    {
+      "company": "Velaura AI",
+      "shipments": 3,
+      "total_weight_kg": 150,
+      "top_suppliers": [
+        [
+          "ASML Netherlands",
+          3
+        ]
+      ],
+      "top_countries": [
+        [
+          "NETHERLANDS",
+          3
+        ]
+      ],
+      "top_hs_codes": [
+        [
+          "9011",
+          3
+        ]
+      ],
+      "latest_shipment": "2026-04-11",
+      "primary_country": "NETHERLANDS",
+      "primary_country_pct": 100.0,
+      "risk_country_pct": 0.0
+    }
+  ],
+  "risk_flagged_companies": [],
+  "summary": {
+    "total_shipment_records": 15,
+    "total_shipments_ytd": 262,
+    "unique_consignees": 12,
+    "risk_flagged": 0
+  }
+}

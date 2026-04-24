@@ -384,6 +384,54 @@
     return parts[0] || 0;
   }
 
+  // ── SECTION 8: Bill of Lading (Supply Chain) ──────────────────────────────
+
+  function renderBillOfLading() {
+    const body = document.getElementById('bol-body');
+    const count = document.getElementById('bol-count');
+    if (!body) return;
+    const data = (typeof window.BILL_OF_LADING_AUTO !== 'undefined') ? window.BILL_OF_LADING_AUTO : null;
+    if (!data) {
+      body.innerHTML = '<div style="color:rgba(255,255,255,0.5); font-size:13px;">Bill-of-lading pipeline not yet run.</div>';
+      if (count) count.textContent = '0';
+      return;
+    }
+    const byCo = Array.isArray(data.by_company) ? data.by_company : [];
+    if (count) count.textContent = (data.summary || {}).unique_consignees || 0;
+    if (byCo.length === 0) {
+      body.innerHTML = '<div class="ec-empty">No matched shipment records yet.</div>';
+      return;
+    }
+    body.innerHTML = `
+      <div class="filing-grid">
+      ${byCo.slice(0, 12).map(r => {
+        const riskPill = r.risk_country_pct >= 50
+          ? '<span class="filing-pill" style="background:rgba(239,68,68,0.12); border-color:rgba(239,68,68,0.4); color:#fca5a5;">⚠ ' + r.risk_country_pct.toFixed(0) + '% risk-country</span>'
+          : '';
+        const topCountry = r.top_countries && r.top_countries[0] ? r.top_countries[0][0] : '—';
+        const topSupplier = r.top_suppliers && r.top_suppliers[0] ? r.top_suppliers[0][0] : '—';
+        return `
+          <a class="filing-card" href="company.html?c=${encodeURIComponent(r.company)}">
+            <div class="filing-row-top">
+              <span class="filing-co">${esc(r.company)}</span>
+              <span class="filing-amt" style="color:#60a5fa;">${r.shipments} ships</span>
+            </div>
+            <div class="filing-issuer">Top supplier: ${esc(topSupplier)} (${esc(topCountry)})</div>
+            <div class="filing-meta-row">
+              <span class="filing-pill">${(r.total_weight_kg / 1000).toFixed(1)}t cumulative</span>
+              ${r.latest_shipment ? `<span class="filing-pill">latest ${esc(r.latest_shipment)}</span>` : ''}
+              ${riskPill}
+            </div>
+          </a>
+        `;
+      }).join('')}
+      </div>
+      <div style="margin-top:16px; font-size:11px; color:rgba(255,255,255,0.4);">
+        ${(data.summary || {}).total_shipments_ytd || 0} YTD ocean shipments tracked. ${(data.summary || {}).risk_flagged || 0} cos flagged with >50% risk-country supplier concentration.
+      </div>
+    `;
+  }
+
   // ── Boot ──────────────────────────────────────────────────────────────────
 
   function boot() {
@@ -394,6 +442,7 @@
     try { renderFactoryWatch(); } catch (e) { console.error('[signals] Factory Watch failed:', e); }
     try { renderWebsiteChanges(); } catch (e) { console.error('[signals] Website Changes failed:', e); }
     try { renderYoutubeMentions(); } catch (e) { console.error('[signals] YouTube mentions failed:', e); }
+    try { renderBillOfLading(); } catch (e) { console.error('[signals] Bill of Lading failed:', e); }
   }
 
   if (document.readyState === 'loading') {

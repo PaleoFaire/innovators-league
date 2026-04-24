@@ -1,0 +1,186 @@
+{
+  "generated_at": "2026-04-24T07:42:07.644619+00:00",
+  "source_status": "seeded",
+  "model_basis": "Larcker & Zakolyukina (2010) + Cialdini hedge/frame theory",
+  "scored_calls": [
+    {
+      "company": "AST SpaceMobile",
+      "ticker": "NASDAQ: ASTS",
+      "quarter": "Q1 2026",
+      "date": "2026-05-12",
+      "composite_score": 78.7,
+      "flag_level": "high_alert",
+      "axes": {
+        "hedge_density": 100,
+        "self_avoidance": 85.1,
+        "topic_avoidance": 100,
+        "extreme_positive": 0.0,
+        "hedge_trend_pct": 381.4
+      },
+      "transcript_excerpt": "BlueBird operations are progressing as expected. We've had approximately the number of successful direct-to-cell links we projected. Partnership economics are, we believe, fairly favorable. The business is complex. We don't disclose per-satellite economics. Generally we are pleas\u2026"
+    },
+    {
+      "company": "Archer Aviation",
+      "ticker": "NYSE: ACHR",
+      "quarter": "Q1 2026",
+      "date": "2026-05-09",
+      "composite_score": 74.7,
+      "flag_level": "suspicious",
+      "axes": {
+        "hedge_density": 100,
+        "self_avoidance": 66.7,
+        "topic_avoidance": 100,
+        "extreme_positive": 0.0,
+        "hedge_trend_pct": 604.2
+      },
+      "transcript_excerpt": "We believe the Midnight certification process is probably going to be completed in the timeframe we previously discussed. Potentially some variables could impact the exact date. Roughly speaking, we expect production to ramp in the second half. We don't break that out. Let me get\u2026"
+    },
+    {
+      "company": "NuScale Power",
+      "ticker": "NYSE: SMR",
+      "quarter": "Q1 2026",
+      "date": "2026-05-04",
+      "composite_score": 60.0,
+      "flag_level": "suspicious",
+      "axes": {
+        "hedge_density": 100,
+        "self_avoidance": 0.0,
+        "topic_avoidance": 100,
+        "extreme_positive": 0.0,
+        "hedge_trend_pct": 669.2
+      },
+      "transcript_excerpt": "NuScale has continued to advance its design certification. We potentially see project economics improving somewhat in the current environment. Relatively speaking, costs are stabilizing. We believe the Carbon Free Power Project alternative structures could work. Maybe by end of y\u2026"
+    },
+    {
+      "company": "Symbotic",
+      "ticker": "NASDAQ: SYM",
+      "quarter": "Q2 2026",
+      "date": "2026-05-13",
+      "composite_score": 40.0,
+      "flag_level": "clean",
+      "axes": {
+        "hedge_density": 0.0,
+        "self_avoidance": 100,
+        "topic_avoidance": 0.0,
+        "extreme_positive": 100,
+        "hedge_trend_pct": -100.0
+      },
+      "transcript_excerpt": "This quarter was absolutely fantastic for Symbotic. Record bookings. The company has truly transformational opportunities ahead. Walmart deployment is phenomenal. We're seeing unprecedented demand from new customers. Every operating metric is off the charts. The organization is s\u2026"
+    },
+    {
+      "company": "Palantir",
+      "ticker": "NYSE: PLTR",
+      "quarter": "Q1 2026",
+      "date": "2026-05-05",
+      "composite_score": 36.0,
+      "flag_level": "clean",
+      "axes": {
+        "hedge_density": 0.0,
+        "self_avoidance": 81.6,
+        "topic_avoidance": 0.0,
+        "extreme_positive": 100,
+        "hedge_trend_pct": -100.0
+      },
+      "transcript_excerpt": "Our performance this quarter has been absolutely incredible. The company has seen unprecedented demand across the US government segment. Revenue grew at record-breaking rates, and we see that momentum continuing. On international commercial, frankly, it's phenomenal. AIP is trans\u2026"
+    },
+    {
+      "company": "IonQ",
+      "ticker": "NYSE: IONQ",
+      "quarter": "Q1 2026",
+      "date": "2026-05-07",
+      "composite_score": 20.5,
+      "flag_level": "clean",
+      "axes": {
+        "hedge_density": 0.0,
+        "self_avoidance": 93.0,
+        "topic_avoidance": 0.0,
+        "extreme_positive": 0.0,
+        "hedge_trend_pct": -100.0
+      },
+      "transcript_excerpt": "IonQ continues to execute on its technical roadmap. We achieved milestone algorithmic qubits targets this quarter. The company's partnerships expanded. Government contracts grew at a steady pace. We don't guide on individual deals but commercial interest remains strong. Margin im\u2026"
+    },
+    {
+      "company": "Rocket Lab",
+      "ticker": "NASDAQ: RKLB",
+      "quarter": "Q1 2026",
+      "date": "2026-05-08",
+      "composite_score": 0.0,
+      "flag_level": "clean",
+      "axes": {
+        "hedge_density": 0.0,
+        "self_avoidance": 0.0,
+        "topic_avoidance": 0.0,
+        "extreme_positive": 0.0,
+        "hedge_trend_pct": -100.0
+      },
+      "transcript_excerpt": "We executed against plan this quarter. Neutron development is on track. Electron launches continue. We maintained a strong backlog. Pricing power is improving in the launch business. Our photon spacecraft customer pipeline grew 40% year-over-year. We expect continued execution th\u2026"
+    },
+    {
+      "company": "Oklo",
+      "ticker": "NYSE: OKLO",
+      "quarter": "Q4 2025",
+      "date": "2026-02-18",
+      "composite_score": 0.0,
+      "flag_level": "clean",
+      "axes": {
+        "hedge_density": 0.0,
+        "self_avoidance": 0.0,
+        "topic_avoidance": 0.0,
+        "extreme_positive": 0.0,
+        "hedge_trend_pct": -100.0
+      },
+      "transcript_excerpt": "The Aurora SMR program advanced. NRC pre-application engagement completed. We placed orders for long-lead items. Fuel qualification progress remains on schedule. We secured additional memorandums of understanding with commercial offtakers. Cash position strengthened following the\u2026"
+    },
+    {
+      "company": "Joby Aviation",
+      "ticker": "NYSE: JOBY",
+      "quarter": "Q1 2026",
+      "date": "2026-05-11",
+      "composite_score": 0.0,
+      "flag_level": "clean",
+      "axes": {
+        "hedge_density": 0.0,
+        "self_avoidance": 0.0,
+        "topic_avoidance": 0.0,
+        "extreme_positive": 0.0,
+        "hedge_trend_pct": -100.0
+      },
+      "transcript_excerpt": "Type certification work with the FAA continued on plan. Flight testing programs progressed. Dubai operations launched commercially. We are manufacturing at a deliberate pace to preserve quality. Partner commitments remain intact. Our pilot training program is up and running."
+    },
+    {
+      "company": "D-Wave",
+      "ticker": "NYSE: QBTS",
+      "quarter": "Q1 2026",
+      "date": "2026-05-14",
+      "composite_score": 0.0,
+      "flag_level": "clean",
+      "axes": {
+        "hedge_density": 0.0,
+        "self_avoidance": 0.0,
+        "topic_avoidance": 0.0,
+        "extreme_positive": 0.0,
+        "hedge_trend_pct": -100.0
+      },
+      "transcript_excerpt": "We continued commercial engagement with enterprise customers. Advantage2 system interest grew. Quantum application revenue pipeline is developing. We delivered against planned milestones. Partnership with EP Business Resources is on track. Annual recurring revenue remains a key f\u2026"
+    }
+  ],
+  "summary": {
+    "total_calls_scored": 10,
+    "high_alert_count": 1,
+    "suspicious_count": 2,
+    "top_flagged": [
+      "AST SpaceMobile",
+      "Archer Aviation",
+      "NuScale Power",
+      "Symbotic",
+      "Palantir"
+    ],
+    "cleanest": [
+      "D-Wave",
+      "Joby Aviation",
+      "Oklo",
+      "Rocket Lab",
+      "IonQ"
+    ]
+  }
+}

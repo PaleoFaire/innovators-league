@@ -535,6 +535,7 @@
             <a href="index.html" class="nav-link">Intelligence</a>
             <a href="visualizations.html" class="nav-link">Insights</a>
             <a href="brief.html" class="nav-link">Frontier Daily</a>
+            <a href="terminal.html" class="nav-link" style="color:#86efac;">⚡ Terminal</a>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
@@ -679,6 +680,15 @@
         </table>
       </div>
 
+      <!-- State PUC Dockets — pre-FERC-queue filings -->
+      <div class="pg-sec-head">
+        <h2>State PUC dockets</h2>
+        <span class="pg-source">Pre-FERC large-load filings · TX / CA / AZ / NV / OH / WY / ID</span>
+      </div>
+      <div id="pg-puct-body" style="background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.07); border-radius:14px; padding:4px;">
+        <p style="padding:24px; color:rgba(255,255,255,0.4); font-size:13px;">Loading state PUC dockets…</p>
+      </div>
+
       <!-- Breakdowns -->
       <div class="pg-sec-head">
         <h2>Queue breakdown</h2>
@@ -707,6 +717,55 @@
     <script src="utils.js?v=20260424"></script>
     <script src="auth.js?v=20260424"></script>
     <script src="data/interconnection_queue_auto.js?v=20260424"></script>
+    <script src="data/state_puct_dockets_auto.js?v=20260424"></script>
     <script src="power-grid.js?v=20260424"></script>
+    <script>
+    // State PUC dockets renderer
+    (function(){
+      'use strict';
+      const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+      function render() {
+        const data = (typeof window.STATE_PUCT_DOCKETS_AUTO !== 'undefined') ? window.STATE_PUCT_DOCKETS_AUTO : null;
+        const body = document.getElementById('pg-puct-body');
+        if (!body) return;
+        if (!data) {
+          body.innerHTML = '<p style="padding:24px; color:rgba(255,255,255,0.4); font-size:13px;">PUC dockets pipeline not yet run.</p>';
+          return;
+        }
+        const dockets = Array.isArray(data.dockets) ? data.dockets : [];
+        if (dockets.length === 0) {
+          body.innerHTML = '<p style="padding:24px; color:rgba(255,255,255,0.4); font-size:13px;">No dockets matched.</p>';
+          return;
+        }
+        body.innerHTML = `
+          <table class="pg-queue-table" style="border-radius:12px; overflow:hidden;">
+            <thead>
+              <tr>
+                <th>Applicant</th><th>State</th><th>Filing Type</th><th>MW</th><th>Location</th><th>Filed</th><th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${dockets.map(d => {
+                const match = d.matched_company ? `<br><span class="pg-match-tag">✓ ${esc(d.matched_company)}</span>` : '';
+                return `<tr>
+                  <td><a href="${esc(d.url)}" target="_blank" rel="noopener" style="color:#fff; font-weight:600; text-decoration:none;">${esc(d.applicant)}</a>${match}</td>
+                  <td><span class="pg-rto-pill">${esc(d.state)} · ${esc(d.commission)}</span></td>
+                  <td style="font-size:12px; color:rgba(255,255,255,0.7);">${esc(d.filing_type)}</td>
+                  <td><span class="pg-mw">${d.mw_requested}</span></td>
+                  <td style="font-size:12px; color:rgba(255,255,255,0.6);">${esc(d.site_location)}</td>
+                  <td style="font-size:12px; color:rgba(255,255,255,0.55);">${esc(d.filing_date)}</td>
+                  <td style="font-size:11px;">${esc(d.status)}</td>
+                </tr>`;
+              }).join('')}
+            </tbody>
+          </table>
+          <p style="padding:14px 20px; margin:0; font-size:11px; color:rgba(255,255,255,0.4); border-top:1px solid rgba(255,255,255,0.05);">
+            ${dockets.length} dockets across ${Object.keys(data.by_state || {}).length} states · ${(data.summary || {}).total_mw_requested || 0} MW aggregate · Source: state PUC filings (${data.source_status})
+          </p>
+        `;
+      }
+      document.addEventListener('DOMContentLoaded', render);
+    })();
+    </script>
 </body>
 </html>

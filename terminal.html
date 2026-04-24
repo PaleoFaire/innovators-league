@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Terminal | ROS Startup Database</title>
+    <meta name="description" content="The Bloomberg Terminal for frontier tech. One integrated workspace — personalized daily feed, 'what do I do today' widget, skills sidebar, alerts stream.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:title" content="The Terminal | The Innovators League">
+    <meta property="og:description" content="Bloomberg-style integrated workspace for frontier-tech intelligence.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260424">
+    <style>
+      /* ═══ Terminal page ═══ */
+      body { background: #05080c; }
+      .term-container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      /* Top bar: greeting + quick stats */
+      .term-topbar {
+        background: linear-gradient(135deg, #0a0f1a 0%, #10192c 100%);
+        border: 1px solid rgba(134,239,172,0.15);
+        border-radius: 14px;
+        padding: 24px 28px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .term-greeting h1 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #fff;
+        margin: 0 0 4px;
+      }
+      .term-greeting p {
+        font-size: 13px;
+        color: rgba(255,255,255,0.55);
+        margin: 0;
+      }
+      .term-greeting .term-date {
+        color: #86efac;
+        font-family: 'Space Grotesk', monospace;
+      }
+
+      .term-quickstats {
+        display: flex;
+        gap: 20px;
+      }
+      .term-qs {
+        text-align: right;
+      }
+      .term-qs-lbl {
+        font-size: 10px;
+        color: rgba(255,255,255,0.5);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .term-qs-val {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        margin-top: 2px;
+      }
+      .term-qs-val.up   { color: #86efac; }
+      .term-qs-val.down { color: #fca5a5; }
+      .term-qs-val.hot  { color: #fbbf24; }
+
+      /* Three-column layout */
+      .term-grid {
+        display: grid;
+        grid-template-columns: 280px 1fr 320px;
+        gap: 20px;
+      }
+      @media (max-width: 1200px) {
+        .term-grid { grid-template-columns: 1fr; }
+      }
+      .term-col {
+        background: rgba(255,255,255,0.015);
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 14px;
+        padding: 22px;
+        min-height: 400px;
+      }
+      .term-col h2 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        color: #86efac;
+        margin: 0 0 16px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(134,239,172,0.15);
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+      }
+
+      /* Watchlist (left column) */
+      .term-watchlist { list-style: none; padding: 0; margin: 0 0 20px; }
+      .term-watch-item {
+        padding: 10px 4px;
+        border-bottom: 1px solid rgba(255,255,255,0.04);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+      }
+      .term-watch-co {
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .term-watch-co:hover { color: #86efac; }
+      .term-watch-sig {
+        font-size: 10px;
+        color: rgba(255,255,255,0.4);
+        font-family: monospace;
+      }
+      .term-watch-sig.hot { color: #fbbf24; }
+      .term-watch-empty {
+        padding: 16px 4px;
+        color: rgba(255,255,255,0.4);
+        font-size: 12px;
+        font-style: italic;
+      }
+
+      /* Quick actions buttons */
+      .term-quick-actions {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .term-quick-btn {
+        padding: 10px 14px;
+        background: rgba(134,239,172,0.05);
+        border: 1px solid rgba(134,239,172,0.2);
+        border-radius: 8px;
+        color: rgba(255,255,255,0.85);
+        font-size: 12px;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.15s;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .term-quick-btn:hover {
+        border-color: rgba(134,239,172,0.5);
+        background: rgba(134,239,172,0.1);
+        color: #fff;
+      }
+
+      /* Today's actions (center column) */
+      .term-today {
+        margin-bottom: 24px;
+      }
+      .term-today h2 { color: #fff; font-size: 16px; }
+      .term-action {
+        background: linear-gradient(135deg, rgba(59,130,246,0.06) 0%, rgba(134,239,172,0.03) 100%);
+        border: 1px solid rgba(59,130,246,0.22);
+        border-left: 3px solid #60a5fa;
+        border-radius: 10px;
+        padding: 14px 16px;
+        margin-bottom: 10px;
+      }
+      .term-action.urgent {
+        border-color: rgba(251,191,36,0.4);
+        border-left-color: #fbbf24;
+        background: linear-gradient(135deg, rgba(251,191,36,0.07) 0%, rgba(0,0,0,0) 100%);
+      }
+      .term-action.risk {
+        border-color: rgba(239,68,68,0.4);
+        border-left-color: #fca5a5;
+        background: linear-gradient(135deg, rgba(239,68,68,0.06) 0%, rgba(0,0,0,0) 100%);
+      }
+      .term-action-head {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4px;
+      }
+      .term-action-type {
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #60a5fa;
+        font-weight: 700;
+      }
+      .term-action.urgent .term-action-type { color: #fbbf24; }
+      .term-action.risk .term-action-type { color: #fca5a5; }
+      .term-action-time {
+        font-size: 10px;
+        color: rgba(255,255,255,0.4);
+        font-family: monospace;
+      }
+      .term-action-headline {
+        font-size: 14px;
+        color: #fff;
+        font-weight: 600;
+        margin: 4px 0 6px;
+      }
+      .term-action-cta {
+        font-size: 12px;
+        color: rgba(255,255,255,0.7);
+      }
+      .term-action-cta strong { color: #fff; }
+      .term-action-btn {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 4px 12px;
+        background: rgba(134,239,172,0.1);
+        border: 1px solid rgba(134,239,172,0.35);
+        border-radius: 6px;
+        color: #86efac;
+        font-size: 11px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .term-action-btn:hover {
+        background: rgba(134,239,172,0.18);
+      }
+
+      /* Daily feed cards */
+      .term-feed-item {
+        padding: 12px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        display: flex;
+        gap: 12px;
+      }
+      .term-feed-icon {
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+      }
+      .term-feed-body {
+        flex: 1;
+        min-width: 0;
+      }
+      .term-feed-title {
+        font-size: 13px;
+        color: #fff;
+        font-weight: 500;
+        margin: 0 0 2px;
+      }
+      .term-feed-title a { color: inherit; text-decoration: none; }
+      .term-feed-title a:hover { color: #86efac; }
+      .term-feed-meta {
+        font-size: 11px;
+        color: rgba(255,255,255,0.4);
+      }
+
+      /* Skills sidebar (right column) */
+      .term-skill {
+        padding: 12px 14px;
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 9px;
+        margin-bottom: 8px;
+        display: block;
+        text-decoration: none;
+        transition: all 0.15s;
+      }
+      .term-skill:hover {
+        border-color: rgba(134,239,172,0.3);
+        background: rgba(134,239,172,0.04);
+      }
+      .term-skill-name {
+        font-size: 12px;
+        font-weight: 600;
+        color: #fff;
+        margin: 0 0 3px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .term-skill-tag {
+        font-size: 9px;
+        padding: 1px 6px;
+        border-radius: 4px;
+        background: rgba(134,239,172,0.12);
+        color: #86efac;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+      .term-skill-tag.new {
+        background: rgba(251,191,36,0.12);
+        color: #fbbf24;
+      }
+      .term-skill-desc {
+        font-size: 11px;
+        color: rgba(255,255,255,0.55);
+        line-height: 1.4;
+      }
+
+      /* Alerts stream */
+      .term-alert {
+        padding: 8px 10px;
+        border-left: 2px solid rgba(134,239,172,0.4);
+        margin-bottom: 6px;
+        font-size: 12px;
+        color: rgba(255,255,255,0.8);
+        background: rgba(255,255,255,0.02);
+        border-radius: 0 6px 6px 0;
+      }
+      .term-alert-ts {
+        font-size: 10px;
+        color: rgba(255,255,255,0.4);
+        font-family: monospace;
+        display: block;
+        margin-bottom: 2px;
+      }
+
+      .term-subhead {
+        font-size: 11px;
+        color: rgba(255,255,255,0.45);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 20px 0 10px;
+        font-weight: 600;
+      }
+    </style>
+    <script src="analytics.js?v=20260424"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-brand">
+            <div class="nav-logo">ROS</div>
+            <span class="nav-title">THE INNOVATORS LEAGUE</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Intelligence</a>
+            <a href="visualizations.html" class="nav-link">Insights</a>
+            <a href="brief.html" class="nav-link">Frontier Daily</a>
+            <a href="terminal.html" class="nav-link" style="color:#86efac;" aria-current="page">⚡ Terminal</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="index.html#companies" class="nav-dropdown-link">Companies</a>
+                    <a href="sectors.html" class="nav-dropdown-link">Sectors</a>
+                    <a href="transformation.html" class="nav-dropdown-link">Transformation</a>
+                    <a href="investors.html" class="nav-dropdown-link">Investors</a>
+                    <a href="jobs.html" class="nav-dropdown-link">Talent</a>
+                    <a href="valuations.html" class="nav-dropdown-link">Valuations</a>
+                    <a href="patents.html" class="nav-dropdown-link">Patents</a>
+                    <a href="earnings-signals.html" class="nav-dropdown-link">Earnings Signals</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="signals.html" class="nav-dropdown-link">🔴 Signals</a>
+                    <a href="power-grid.html" class="nav-dropdown-link">⚡ Power Grid</a>
+                    <a href="launches.html" class="nav-dropdown-link">Launches</a>
+                    <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
+                    <a href="research.html" class="nav-dropdown-link">Research</a>
+                    <a href="govradar.html" class="nav-dropdown-link">Gov Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">Regulatory</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <main class="term-container">
+      <!-- Top bar -->
+      <div class="term-topbar">
+        <div class="term-greeting">
+          <h1 id="term-greeting-h1">Good morning.</h1>
+          <p><span class="term-date" id="term-date">—</span> · Here's what matters in frontier tech today.</p>
+        </div>
+        <div class="term-quickstats">
+          <div class="term-qs">
+            <div class="term-qs-lbl">Signals today</div>
+            <div class="term-qs-val hot" id="term-qs-signals">—</div>
+          </div>
+          <div class="term-qs">
+            <div class="term-qs-lbl">Actively raising</div>
+            <div class="term-qs-val" id="term-qs-raising">—</div>
+          </div>
+          <div class="term-qs">
+            <div class="term-qs-lbl">Queue MW tracked</div>
+            <div class="term-qs-val" id="term-qs-mw">—</div>
+          </div>
+          <div class="term-qs">
+            <div class="term-qs-lbl">Your watchlist</div>
+            <div class="term-qs-val" id="term-qs-watch">0</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="term-grid">
+        <!-- ═══════════ LEFT COLUMN ═══════════ -->
+        <aside class="term-col" id="term-left">
+          <h2>Your Watchlist</h2>
+          <ul class="term-watchlist" id="term-watchlist-ul">
+            <li class="term-watch-empty">Click "+ Add to watchlist" on any company profile to start. Your picks surface at the top of every section.</li>
+          </ul>
+
+          <h2 style="margin-top:32px;">Quick Actions</h2>
+          <div class="term-quick-actions">
+            <a class="term-quick-btn" href="power-grid.html">⚡ Power Grid queue</a>
+            <a class="term-quick-btn" href="signals.html">🔴 Proprietary Signals</a>
+            <a class="term-quick-btn" href="earnings-signals.html">🎯 Earnings Deception</a>
+            <a class="term-quick-btn" href="govradar.html">🎖️ Gov Demand Radar</a>
+            <a class="term-quick-btn" href="index.html#companies">🏢 Full database</a>
+            <a class="term-quick-btn" href="alerts.html">🔔 Set an alert</a>
+          </div>
+        </aside>
+
+        <!-- ═══════════ CENTER COLUMN ═══════════ -->
+        <section class="term-col" id="term-center">
+          <div class="term-today">
+            <h2 style="color:#fff; font-size:16px; border-bottom:none; padding-bottom:0;">⭐ What to do today</h2>
+            <div id="term-today-body"><p style="color:rgba(255,255,255,0.4); font-size:13px;">Loading action items…</p></div>
+          </div>
+
+          <h2 style="color:#fff;">📰 The feed — last 72 hours</h2>
+          <div id="term-feed-body"><p style="color:rgba(255,255,255,0.4); font-size:13px;">Loading feed…</p></div>
+
+          <div class="term-subhead">Recent earnings deception flags</div>
+          <div id="term-deception-body"><p style="color:rgba(255,255,255,0.4); font-size:12px;">Loading…</p></div>
+        </section>
+
+        <!-- ═══════════ RIGHT COLUMN ═══════════ -->
+        <aside class="term-col" id="term-right">
+          <h2>ROS Skills</h2>
+          <a href="earnings-signals.html#deception-detector-section" class="term-skill">
+            <div class="term-skill-name">🎯 Deception Detector <span class="term-skill-tag new">NEW</span></div>
+            <div class="term-skill-desc">Score every public earnings call on 5 linguistic axes (Larcker model).</div>
+          </a>
+          <a href="govradar.html#sbir-pipeline" class="term-skill">
+            <div class="term-skill-name">🎖️ Gov Contract Predictor <span class="term-skill-tag">v2</span></div>
+            <div class="term-skill-desc">For any SAM.gov solicitation, rank which tracked company most likely wins.</div>
+          </a>
+          <a href="signals.html#form-d" class="term-skill">
+            <div class="term-skill-name">💰 Active-Raisers Finder <span class="term-skill-tag">v2</span></div>
+            <div class="term-skill-desc">Form D filings in last 60d — companies raising right now.</div>
+          </a>
+          <a href="power-grid.html" class="term-skill">
+            <div class="term-skill-name">⚡ Power Grid Queue <span class="term-skill-tag new">NEW</span></div>
+            <div class="term-skill-desc">Every data-center + SMR build 18–36mo before groundbreaking.</div>
+          </a>
+          <a href="signals.html#bill-of-lading" class="term-skill">
+            <div class="term-skill-name">📦 Supply-Chain Tracker <span class="term-skill-tag new">NEW</span></div>
+            <div class="term-skill-desc">Bill-of-lading diff — detect manufacturing ramp + risk-country concentration.</div>
+          </a>
+          <a href="govradar.html#lobbying-section" class="term-skill">
+            <div class="term-skill-name">🏛️ Lobbying Velocity <span class="term-skill-tag new">NEW</span></div>
+            <div class="term-skill-desc">LDA spend acceleration = leading indicator of policy win coming.</div>
+          </a>
+          <a href="signals.html#website-changes" class="term-skill">
+            <div class="term-skill-name">🕵️ Website Drift <span class="term-skill-tag new">NEW</span></div>
+            <div class="term-skill-desc">Wayback diffs catch exec moves, customer wins, pivots early.</div>
+          </a>
+
+          <h2 style="margin-top:32px;">🔔 Live Alerts</h2>
+          <div id="term-alerts-body"><p style="color:rgba(255,255,255,0.4); font-size:12px;">No active alerts configured. <a href="alerts.html" style="color:#86efac;">Set one up →</a></p></div>
+
+          <div class="term-subhead" style="margin-top:24px;">Export</div>
+          <div class="term-quick-actions">
+            <button class="term-quick-btn" onclick="window.termExport && window.termExport()" style="cursor:pointer; font-family:inherit;">⬇ Download today's feed (CSV)</button>
+            <a class="term-quick-btn" href="#" onclick="alert('API access available at Pro tier. Contact stephen@rationaloptimistsociety.com'); return false;">🔑 API access</a>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer style="padding:32px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.06);">
+      <p style="font-size:11px; color:rgba(255,255,255,0.4); letter-spacing:0.5px;">
+        The Terminal · Integrated intelligence workspace · Every data point links to its primary source · <a href="terms.html" style="color:rgba(255,255,255,0.5);">Terms</a> · <a href="privacy.html" style="color:rgba(255,255,255,0.5);">Privacy</a>
+      </p>
+    </footer>
+
+    <script src="utils.js?v=20260424"></script>
+    <script src="auth.js?v=20260424"></script>
+    <script src="data.js?v=20260424"></script>
+    <script src="data/form_d_filings_auto.js?v=20260424"></script>
+    <script src="data/interconnection_queue_auto.js?v=20260424"></script>
+    <script src="data/deception_scores_auto.js?v=20260424"></script>
+    <script src="data/news_signals_auto.js?v=20260424" onerror="console.log('[terminal] news_signals optional')"></script>
+    <script src="data/dsca_fms_auto.js?v=20260424"></script>
+    <script src="data/lobbying_auto.js?v=20260424"></script>
+    <script src="data/website_changes_auto.js?v=20260424"></script>
+    <script src="terminal.js?v=20260424"></script>
+</body>
+</html>

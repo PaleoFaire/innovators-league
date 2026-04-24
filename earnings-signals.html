@@ -23,6 +23,7 @@
             <a href="index.html" class="nav-link">Intelligence</a>
             <a href="visualizations.html" class="nav-link">Insights</a>
             <a href="brief.html" class="nav-link">Frontier Daily</a>
+            <a href="terminal.html" class="nav-link" style="color:#86efac;">⚡ Terminal</a>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
@@ -141,6 +142,22 @@
             </div>
         </section>
 
+        <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+        <!-- NEW: Deception Detector — the Hedge Fund Pattern                              -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+        <section class="section" id="deception-detector-section" style="background: linear-gradient(135deg, rgba(239,68,68,0.03) 0%, rgba(0,0,0,0) 100%); border-top: 1px solid rgba(239,68,68,0.15);">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow" style="color:#fca5a5;">✨ NEW · THE HEDGE FUND SKILL · LARCKER & ZAKOLYUKINA (2010)</p>
+                    <h2>Earnings Call Deception Detector</h2>
+                    <p>Every public frontier-tech CEO's earnings call is scored on <strong>5 academic-grounded linguistic axes</strong>: hedge density, self-reference avoidance, topic avoidance, extreme-positive language, and QoQ confidence trend. The model is based on Larcker &amp; Zakolyukina's 2010 paper showing later-restated companies exhibit distinct linguistic markers on their calls. Scores above <strong>60 = suspicious</strong>, above <strong>75 = high alert</strong>.</p>
+                </div>
+                <div id="deception-summary" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-bottom:2rem;"></div>
+                <div id="deception-calls" style="display:flex;flex-direction:column;gap:12px;"></div>
+                <div id="deception-footer-note" style="margin-top:1.5rem;font-size:12px;color:rgba(255,255,255,0.5);"></div>
+            </div>
+        </section>
+
         <!-- Methodology -->
         <section class="section">
             <div class="container">
@@ -163,5 +180,88 @@
     <script src="auth.js?v=20260416"></script>
     <script src="data.js?v=20260416"></script>
     <script src="earnings-signals.js?v=20260416"></script>
+    <script src="data/deception_scores_auto.js?v=20260424"></script>
+    <script>
+    // Deception Detector renderer
+    (function(){
+      'use strict';
+      const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+      function flagColor(flag) {
+        if (flag === 'high_alert') return '#fca5a5';
+        if (flag === 'suspicious') return '#fbbf24';
+        if (flag === 'monitor') return '#93c5fd';
+        return '#86efac';
+      }
+      function flagLabel(flag) {
+        return ({high_alert:'HIGH ALERT', suspicious:'SUSPICIOUS', monitor:'MONITOR', clean:'CLEAN'})[flag] || flag;
+      }
+      function render() {
+        const data = (typeof window.DECEPTION_SCORES_AUTO !== 'undefined') ? window.DECEPTION_SCORES_AUTO : null;
+        const summary = document.getElementById('deception-summary');
+        const calls = document.getElementById('deception-calls');
+        const note = document.getElementById('deception-footer-note');
+        if (!summary || !calls) return;
+        if (!data) {
+          calls.innerHTML = '<div style="padding:24px;background:rgba(255,255,255,0.03);border-radius:10px;color:rgba(255,255,255,0.55);font-size:13px;">Deception detector not yet run. Execute <code>scripts/skill_deception_detector.py</code>.</div>';
+          return;
+        }
+        const s = data.summary || {};
+        summary.innerHTML =
+          '<div style="padding:1.2rem;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.25);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Calls scored</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#fca5a5;font-family:\'Space Grotesk\',monospace;">' + (s.total_calls_scored||0) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.25);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">High alerts</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#fca5a5;font-family:\'Space Grotesk\',monospace;">' + (s.high_alert_count||0) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.25);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Suspicious</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#fbbf24;font-family:\'Space Grotesk\',monospace;">' + (s.suspicious_count||0) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(34,197,94,0.05);border:1px solid rgba(34,197,94,0.25);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Top 3 flagged</div>' +
+            '<div style="font-size:0.9rem;font-weight:600;color:#86efac;line-height:1.35;margin-top:4px;">' + (s.top_flagged||[]).slice(0,3).map(esc).join(' · ') + '</div>' +
+          '</div>';
+
+        const scored = Array.isArray(data.scored_calls) ? data.scored_calls : [];
+        calls.innerHTML = scored.map(c => {
+          const col = flagColor(c.flag_level);
+          const axesHtml = Object.entries(c.axes || {}).map(([k, v]) => {
+            const nice = k.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+            const barW = Math.max(0, Math.min(100, v));
+            return '<div style="font-size:11px; color:rgba(255,255,255,0.55); margin-bottom:6px;">' +
+              '<div style="display:flex; justify-content:space-between; margin-bottom:3px;">' +
+                '<span>' + esc(nice) + '</span><span style="color:#fff; font-family:monospace;">' + v + (k === 'hedge_trend_pct' ? '%' : '') + '</span>' +
+              '</div>' +
+              (k === 'hedge_trend_pct' ? '' :
+                '<div style="height:4px; background:rgba(255,255,255,0.04); border-radius:2px; overflow:hidden;"><div style="height:100%; width:' + barW + '%; background:' + col + '; opacity:0.7;"></div></div>') +
+              '</div>';
+          }).join('');
+          return '<div style="background:rgba(255,255,255,0.02); border:1px solid ' + col + '33; border-left:3px solid ' + col + '; border-radius:10px; padding:16px 20px;">' +
+            '<div style="display:flex; justify-content:space-between; align-items:center; gap:16px; margin-bottom:10px;">' +
+              '<div>' +
+                '<span style="font-weight:700; color:#fff; font-size:15px;">' + esc(c.company) + '</span>' +
+                '<span style="font-size:11px; color:rgba(255,255,255,0.45); margin-left:10px; font-family:monospace;">' + esc(c.ticker) + ' · ' + esc(c.quarter) + ' · ' + esc(c.date) + '</span>' +
+              '</div>' +
+              '<div style="display:flex; align-items:baseline; gap:12px;">' +
+                '<span style="font-family:\'Space Grotesk\',monospace; font-size:28px; font-weight:700; color:' + col + ';">' + c.composite_score.toFixed(0) + '</span>' +
+                '<span style="padding:3px 10px; border:1px solid ' + col + '; color:' + col + '; border-radius:10px; font-size:10px; font-weight:700; letter-spacing:0.5px;">' + flagLabel(c.flag_level) + '</span>' +
+              '</div>' +
+            '</div>' +
+            '<div style="display:grid; grid-template-columns:2fr 1fr; gap:20px; margin-top:12px;">' +
+              '<div style="font-size:13px; color:rgba(255,255,255,0.75); font-style:italic; line-height:1.5; border-left:2px solid rgba(255,255,255,0.08); padding-left:12px;">"' + esc(c.transcript_excerpt) + '"</div>' +
+              '<div>' + axesHtml + '</div>' +
+            '</div>' +
+          '</div>';
+        }).join('');
+
+        if (note) {
+          note.innerHTML = 'Model: <strong>' + esc(data.model_basis || '') + '</strong>. Composite weights: hedge-density 28% · self-avoidance 22% · topic-avoidance 20% · extreme-positive 18% · QoQ hedge trend 12%. <em>This is a linguistic screening tool, not an accusation.</em>';
+        }
+      }
+      document.addEventListener('DOMContentLoaded', render);
+    })();
+    </script>
 </body>
 </html>

@@ -286,6 +286,7 @@
             <a href="index.html" class="nav-link">Intelligence</a>
             <a href="visualizations.html" class="nav-link">Insights</a>
             <a href="brief.html" class="nav-link">Frontier Daily</a>
+            <a href="terminal.html" class="nav-link" style="color:#86efac;">⚡ Terminal</a>
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">Database <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
@@ -473,6 +474,24 @@
         </div>
         <div id="yt-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading corporate-mention feed…</p></div>
       </section>
+
+      <!-- ════════════════════════════════════════════════════════ -->
+      <!-- SECTION 8: Bill of Lading — Supply Chain Ground Truth     -->
+      <!-- ════════════════════════════════════════════════════════ -->
+      <section class="signal-section" id="bill-of-lading">
+        <div class="signal-head">
+          <div>
+            <h2 class="signal-title">📦 Supply Chain — Bill of Lading</h2>
+            <p class="signal-subtitle">Every ocean shipment into a US port is a public CBP filing. We cross-reference shipments against tracked companies to reveal actual supplier dependencies, manufacturing ramp, and supply-chain risk — months before earnings calls or press releases.</p>
+          </div>
+          <div class="signal-meta">
+            <span class="sig-count" id="bol-count">—</span>
+            <span>consignees tracked</span>
+            <span>Source: CBP ACE / ImportYeti</span>
+          </div>
+        </div>
+        <div id="bol-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading supply-chain data…</p></div>
+      </section>
     </main>
 
     <footer style="padding:40px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.06);">
@@ -491,6 +510,7 @@
     <script src="data/factory_watch_auto.js?v=20260423"></script>
     <script src="data/website_changes_auto.js?v=20260424"></script>
     <script src="data/youtube_mentions_auto.js?v=20260424"></script>
+    <script src="data/bill_of_lading_auto.js?v=20260424"></script>
     <script src="signals.js?v=20260424"></script>
 </body>
 </html>
