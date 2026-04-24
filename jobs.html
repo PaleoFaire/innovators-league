@@ -45,6 +45,7 @@
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">                                        <a href="signals.html" class="nav-dropdown-link">🔴 Signals</a>
+                    <a href="power-grid.html" class="nav-dropdown-link">⚡ Power Grid</a>
 <a href="launches.html" class="nav-dropdown-link">Launches</a>
                     <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
@@ -338,6 +339,22 @@
             </div>
         </section>
 
+        <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+        <!-- H-1B LCA Hiring Signal (NEW) - from DOL OFLC Labor Condition Applications    -->
+        <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+        <section class="section" id="h1b-lca-section" style="background: linear-gradient(135deg, rgba(59,130,246,0.04) 0%, rgba(139,92,246,0.02) 100%);">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-eyebrow" style="color:#93c5fd;">✨ NEW · REAL HIRING SIGNAL · DOL OFLC</p>
+                    <h2>H-1B Labor Condition Applications</h2>
+                    <p>Every H-1B petition requires a public LCA filing with salary, job title, and worksite. Beyond counting headcount — <strong>the titles reveal what a company is actually building</strong>. A fusion startup hiring "Plasma Control Engineer" means plasma-facing hardware phase. Anduril hiring "MLOps Defense Systems" means Lattice is scaling.</p>
+                </div>
+                <div id="h1b-summary" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-bottom:2rem;"></div>
+                <div id="h1b-company-cards" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1rem;"></div>
+                <div id="h1b-footer-note" style="margin-top:1.5rem;font-size:12px;color:rgba(255,255,255,0.5);"></div>
+            </div>
+        </section>
+
     </div><!-- /tab-talent -->
 
     <!-- Footer -->
@@ -394,6 +411,75 @@
     <script src="jobs.js?v=20260325"></script>
     <script src="data/founder_dna.js?v=20260325"></script>
     <script src="talent.js?v=20260325"></script>
+    <script src="data/h1b_lca_auto.js?v=20260424"></script>
+    <script>
+    // H-1B LCA renderer — runs when Talent tab is shown
+    (function(){
+      'use strict';
+      const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+      const fmtWage = n => typeof n === 'number' ? '$' + Math.round(n/1000) + 'K' : '—';
+      function renderH1B() {
+        const data = (typeof window.H1B_LCA_AUTO !== 'undefined') ? window.H1B_LCA_AUTO : null;
+        const summary = document.getElementById('h1b-summary');
+        const cards = document.getElementById('h1b-company-cards');
+        const note = document.getElementById('h1b-footer-note');
+        if (!summary || !cards) return;
+        if (!data) {
+          cards.innerHTML = '<div style="padding:24px;background:rgba(255,255,255,0.03);border-radius:10px;color:rgba(255,255,255,0.55);font-size:13px;">H-1B LCA pipeline not yet run. Execute <code>scripts/fetch_h1b_lca.py</code>.</div>';
+          return;
+        }
+        const s = data.summary || {};
+        summary.innerHTML =
+          '<div style="padding:1.2rem;background:rgba(59,130,246,0.05);border:1px solid rgba(59,130,246,0.2);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Total LCAs (rolling)</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#93c5fd;font-family:\'Space Grotesk\',monospace;">' + (s.total_filings||0) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(59,130,246,0.05);border:1px solid rgba(59,130,246,0.2);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Median wage</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#93c5fd;font-family:\'Space Grotesk\',monospace;">' + fmtWage(s.median_wage) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(59,130,246,0.05);border:1px solid rgba(59,130,246,0.2);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Matched companies</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#93c5fd;font-family:\'Space Grotesk\',monospace;">' + (s.unique_matched_companies||0) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(59,130,246,0.05);border:1px solid rgba(59,130,246,0.2);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Top wage seen</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#93c5fd;font-family:\'Space Grotesk\',monospace;">' + fmtWage(s.max_wage) + '</div>' +
+          '</div>';
+
+        const rolls = Array.isArray(data.by_company) ? data.by_company : [];
+        if (rolls.length === 0) {
+          cards.innerHTML = '<div style="padding:24px;background:rgba(255,255,255,0.03);border-radius:10px;color:rgba(255,255,255,0.55);font-size:13px;">No matched H-1B LCA filings yet.</div>';
+        } else {
+          cards.innerHTML = rolls.map(r => {
+            const topTitles = (r.top_titles||[]).slice(0,3).map(t => '<li>' + esc(t[0]) + ' <span style="color:rgba(255,255,255,0.5);font-size:11px;">× ' + t[1] + '</span></li>').join('');
+            const topCities = (r.top_cities||[]).slice(0,3).map(c => esc(c[0])).join(' · ');
+            return '<div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:18px 20px;">' +
+              '<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:10px;">' +
+                '<a href="company.html?c=' + encodeURIComponent(r.company) + '" style="color:#fff;font-weight:700;font-size:15px;text-decoration:none;">' + esc(r.company) + '</a>' +
+                '<span style="font-family:\'Space Grotesk\',monospace;font-weight:700;color:#93c5fd;font-size:14px;">' + r.filings + ' LCA' + (r.filings !== 1 ? 's' : '') + '</span>' +
+              '</div>' +
+              '<div style="font-size:11px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:6px;">Top Hires</div>' +
+              '<ul style="list-style:none;padding:0;margin:0 0 10px;font-size:13px;color:rgba(255,255,255,0.8);line-height:1.6;">' + topTitles + '</ul>' +
+              '<div style="display:flex;gap:14px;font-size:12px;color:rgba(255,255,255,0.55);border-top:1px solid rgba(255,255,255,0.06);padding-top:10px;">' +
+                '<span>Avg wage <strong style="color:#fff;">' + fmtWage(r.average_wage) + '</strong></span>' +
+                '<span>Locations <strong style="color:#fff;">' + esc(topCities) + '</strong></span>' +
+              '</div>' +
+            '</div>';
+          }).join('');
+        }
+
+        if (note) {
+          const src = data.source_status === 'seeded' ? 'seeded dataset (DOL OFLC upstream pending)' :
+                      data.source_status === 'live_pending' ? 'live DOL OFLC pipeline pending' : 'live';
+          note.textContent = 'Source: DOL OFLC quarterly public disclosure — ' + src + '. Updated monthly.';
+        }
+      }
+      // Run when Talent tab becomes visible, and on load
+      window._renderH1B = renderH1B;
+      document.addEventListener('DOMContentLoaded', renderH1B);
+    })();
+    </script>
     <script>
     function switchJTTab(tab) {
         document.getElementById('tab-jobs').style.display = tab === 'jobs' ? '' : 'none';

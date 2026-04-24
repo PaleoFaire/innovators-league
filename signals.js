@@ -278,6 +278,112 @@
     `;
   }
 
+  // ── SECTION 6: Website Changes (Wayback Machine) ─────────────────────────
+
+  function fmtWaybackTs(ts) {
+    if (!ts || ts.length < 8) return '—';
+    // Wayback timestamps are YYYYMMDDhhmmss
+    const y = ts.slice(0, 4), m = ts.slice(4, 6), d = ts.slice(6, 8);
+    return `${y}-${m}-${d}`;
+  }
+
+  function renderWebsiteChanges() {
+    const body = document.getElementById('wc-body');
+    const count = document.getElementById('wc-count');
+    if (!body) return;
+    const data = (typeof window.WEBSITE_CHANGES_AUTO !== 'undefined') ? window.WEBSITE_CHANGES_AUTO : null;
+    if (!data) {
+      body.innerHTML = '<div style="color:rgba(255,255,255,0.5); font-size:13px;">Website-change pipeline not yet run. Execute <code>scripts/fetch_website_changes.py</code> to populate.</div>';
+      if (count) count.textContent = '0';
+      return;
+    }
+    const changes = Array.isArray(data.changes) ? data.changes : [];
+    if (count) count.textContent = changes.length;
+    if (changes.length === 0) {
+      body.innerHTML = `<div class="ec-empty"><strong>No recent website changes detected</strong>${data.probed_count ? ` across ${data.probed_count} tracked companies` : ''} in the last ${data.recent_window_days || 90} days.</div>`;
+      return;
+    }
+
+    body.innerHTML = `
+      <div class="filing-grid">
+      ${changes.map(c => {
+        const waybackUrl = c.url
+          ? `https://web.archive.org/web/${c.latest_snapshot || ''}*/${c.url}`
+          : '';
+        return `
+          <a class="filing-card" href="${esc(waybackUrl)}" target="_blank" rel="noopener">
+            <div class="filing-row-top">
+              <span class="filing-co">${esc(c.company)}</span>
+              <span class="filing-pill" style="background:rgba(239,68,68,0.12); border-color:rgba(239,68,68,0.35); color:#fca5a5;">CHANGED</span>
+            </div>
+            <div class="filing-issuer">${esc(c.url || '')}</div>
+            <div class="filing-meta-row">
+              <span class="filing-pill">latest ${esc(fmtWaybackTs(c.latest_snapshot))}</span>
+              <span class="filing-pill">${c.snapshots_seen || 0} snapshots tracked</span>
+            </div>
+          </a>
+        `;
+      }).join('')}
+      </div>
+      <div style="margin-top:16px; font-size:11px; color:rgba(255,255,255,0.4);">
+        Content-hash diff over the last ${data.recent_window_days || 90} days. Click any card to open the Wayback Machine archive for comparison. ${data.probed_count || 0} companies probed this run.
+      </div>
+    `;
+  }
+
+  // ── SECTION 7: YouTube Corporate Mentions ─────────────────────────────────
+
+  function renderYoutubeMentions() {
+    const body = document.getElementById('yt-body');
+    const count = document.getElementById('yt-count');
+    if (!body) return;
+    const data = (typeof window.YOUTUBE_MENTIONS_AUTO !== 'undefined') ? window.YOUTUBE_MENTIONS_AUTO : null;
+    if (!data) {
+      body.innerHTML = '<div style="color:rgba(255,255,255,0.5); font-size:13px;">YouTube mention pipeline not yet run.</div>';
+      if (count) count.textContent = '0';
+      return;
+    }
+    const mentions = Array.isArray(data.mentions) ? data.mentions : [];
+    if (count) count.textContent = mentions.length;
+    if (mentions.length === 0) {
+      body.innerHTML = '<div style="color:rgba(255,255,255,0.5); font-size:13px;">No recent mentions.</div>';
+      return;
+    }
+    body.innerHTML = `
+      <div class="filing-grid">
+      ${mentions.map(m => {
+        const videoUrl = m.video_id
+          ? `https://www.youtube.com/watch?v=${encodeURIComponent(m.video_id)}${m.timestamp ? '&t=' + encodeURIComponent(convertTsToSeconds(m.timestamp)) + 's' : ''}`
+          : '';
+        return `
+          <a class="filing-card" href="${esc(videoUrl)}" target="_blank" rel="noopener">
+            <div class="filing-row-top">
+              <span class="filing-co">${esc(m.company)}</span>
+              <span class="filing-amt" style="color:#93c5fd; font-size:11px;">${esc(m.timestamp || '')}</span>
+            </div>
+            <div class="filing-issuer">${esc(m.channel || '')} · ${esc(m.video_title || '')}</div>
+            <div class="filing-meta-row" style="margin-top:4px;">
+              <span style="font-size:12px; color:rgba(255,255,255,0.75); font-style:italic; line-height:1.5;">${esc(m.context || '')}</span>
+            </div>
+            ${m.published_at ? `<div style="font-size:10px; color:rgba(255,255,255,0.45); margin-top:6px;">${esc(m.published_at)} · ${daysAgo(m.published_at)}</div>` : ''}
+          </a>
+        `;
+      }).join('')}
+      </div>
+      <div style="margin-top:16px; font-size:11px; color:rgba(255,255,255,0.4);">
+        NER-matched auto-captions from ${data.curated_channels_count || 'curated'} high-signal channels. Click any card to jump to the exact timestamp in the video.
+      </div>
+    `;
+  }
+
+  function convertTsToSeconds(ts) {
+    if (!ts) return 0;
+    const parts = String(ts).split(':').map(p => parseInt(p, 10) || 0);
+    if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+    if (parts.length === 2) return parts[0] * 60 + parts[1];
+    return parts[0] || 0;
+  }
+
   // ── Boot ──────────────────────────────────────────────────────────────────
 
   function boot() {
@@ -286,6 +392,8 @@
     try { renderTrademarks(); } catch (e) { console.error('[signals] Trademarks failed:', e); }
     try { renderSbirBidFit(); } catch (e) { console.error('[signals] SBIR failed:', e); }
     try { renderFactoryWatch(); } catch (e) { console.error('[signals] Factory Watch failed:', e); }
+    try { renderWebsiteChanges(); } catch (e) { console.error('[signals] Website Changes failed:', e); }
+    try { renderYoutubeMentions(); } catch (e) { console.error('[signals] YouTube mentions failed:', e); }
   }
 
   if (document.readyState === 'loading') {

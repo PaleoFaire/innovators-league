@@ -45,6 +45,7 @@
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">                                        <a href="signals.html" class="nav-dropdown-link">🔴 Signals</a>
+                    <a href="power-grid.html" class="nav-dropdown-link">⚡ Power Grid</a>
 <a href="launches.html" class="nav-dropdown-link">Launches</a>
                     <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
@@ -344,6 +345,38 @@
         </div>
     </section>
 
+    <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+    <!-- NEW: DSCA Foreign Military Sales Notifications                                -->
+    <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+    <section class="section" id="dsca-fms-section" style="background: linear-gradient(135deg, rgba(239,68,68,0.03) 0%, rgba(0,0,0,0) 100%); border-top: 1px solid rgba(239,68,68,0.12);">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow" style="color:#fca5a5;">✨ NEW · DEFENSE EXPORT PIPELINE · DSCA</p>
+                <h2>Foreign Military Sales Notifications</h2>
+                <p>Every US arms sale to an allied government triggers a DSCA Congressional notification. Counter-drone systems, loitering munitions, AI decision-support platforms, autonomous vessels increasingly show up as named sub-contractors in multi-hundred-million-dollar packages. Leading indicator of <strong>which frontier defense tech is actually being exported</strong>, and to where.</p>
+            </div>
+            <div id="dsca-summary" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-bottom:2rem;"></div>
+            <div id="dsca-notifications" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:1rem;"></div>
+            <div id="dsca-footer-note" style="margin-top:1.5rem;font-size:12px;color:rgba(255,255,255,0.5);"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+    <!-- NEW: Senate Lobbying Disclosure (LDA) Tracker                                  -->
+    <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+    <section class="section" id="lobbying-section" style="background: linear-gradient(135deg, rgba(139,92,246,0.04) 0%, rgba(0,0,0,0) 100%); border-top: 1px solid rgba(139,92,246,0.15);">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow" style="color:#c4b5fd;">✨ NEW · POLICY INTELLIGENCE · SENATE LDA</p>
+                <h2>Lobbying Disclosure Tracker</h2>
+                <p>Every lobbyist hired in DC files an LD-1 registration and a quarterly LD-2 spending report with the Senate. When a frontier company's lobbying spend <strong>doubles year-over-year</strong>, they're fighting for something specific: spectrum allocation, procurement reform, export-control carveouts, tax credits. That acceleration is a leading indicator of regulatory traction and commercial pipeline.</p>
+            </div>
+            <div id="lobbying-summary" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-bottom:2rem;"></div>
+            <div id="lobbying-company-cards" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:1rem;"></div>
+            <div id="lobbying-footer-note" style="margin-top:1.5rem;font-size:12px;color:rgba(255,255,255,0.5);"></div>
+        </div>
+    </section>
+
     <!-- Footer -->
 
 <!-- Subscribe Banner -->
@@ -410,6 +443,122 @@
     <script src="data/budget_signals_auto.js?v=20260421"></script>
     <script src="data/contractor_readiness_auto.js?v=20260421"></script>
     <script src="data/gov_demand_summary_auto.js?v=20260421"></script>
+    <script src="data/dsca_fms_auto.js?v=20260424"></script>
+    <script src="data/lobbying_auto.js?v=20260424"></script>
     <script src="govradar.js?v=20260325"></script>
+    <script>
+    // NEW sections: DSCA FMS + Senate LDA lobbying renderers
+    (function(){
+      'use strict';
+      const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+      const fmtUsdM = n => typeof n === 'number' ? '$' + (n >= 1000 ? (n/1000).toFixed(1)+'B' : n.toFixed(0)+'M') : '—';
+      const fmtUsd = n => typeof n === 'number' ? '$' + (n >= 1e6 ? (n/1e6).toFixed(1)+'M' : (n/1e3).toFixed(0)+'K') : '—';
+
+      function renderDSCA() {
+        const data = (typeof window.DSCA_FMS_AUTO !== 'undefined') ? window.DSCA_FMS_AUTO : null;
+        const summary = document.getElementById('dsca-summary');
+        const body = document.getElementById('dsca-notifications');
+        const note = document.getElementById('dsca-footer-note');
+        if (!body || !summary) return;
+        if (!data) {
+          body.innerHTML = '<div style="padding:24px;background:rgba(255,255,255,0.03);border-radius:10px;color:rgba(255,255,255,0.55);font-size:13px;">DSCA FMS pipeline not yet populated.</div>';
+          return;
+        }
+        const s = data.summary || {};
+        summary.innerHTML =
+          '<div style="padding:1.2rem;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.2);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Active notifications</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#fca5a5;font-family:\'Space Grotesk\',monospace;">' + (s.total_notifications||0) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.2);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Total value</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#fca5a5;font-family:\'Space Grotesk\',monospace;">' + fmtUsdM(s.total_value_usd_m) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.2);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Buyer countries</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#fca5a5;font-family:\'Space Grotesk\',monospace;">' + (s.unique_countries||0) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.2);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Tracked cos named</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#fca5a5;font-family:\'Space Grotesk\',monospace;">' + (s.tracked_company_appearances||0) + '</div>' +
+          '</div>';
+
+        const notifs = Array.isArray(data.notifications) ? data.notifications : [];
+        body.innerHTML = notifs.map(n => {
+          const matchPills = (n.matched_companies||[]).map(c => '<a href="company.html?c=' + encodeURIComponent(c) + '" style="display:inline-block;padding:3px 9px;background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-radius:8px;font-size:11px;font-weight:600;color:#93c5fd;text-decoration:none;margin-right:4px;margin-top:4px;">✓ ' + esc(c) + '</a>').join('');
+          const primes = (n.primary_contractors||[]).map(esc).join(' · ');
+          return '<div style="background:rgba(255,255,255,0.02);border:1px solid rgba(239,68,68,0.18);border-radius:12px;padding:18px 20px;">' +
+            '<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:8px;">' +
+              '<div style="font-size:12px;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.5px;font-weight:600;">' + esc(n.country || '—') + ' · ' + esc(n.notification_date || '') + '</div>' +
+              '<span style="font-family:\'Space Grotesk\',monospace;font-weight:700;color:#fca5a5;font-size:14px;">' + fmtUsdM(n.value_usd_m) + '</span>' +
+            '</div>' +
+            '<div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:8px;">' + esc(n.article || '') + '</div>' +
+            '<div style="font-size:12px;color:rgba(255,255,255,0.55);margin-bottom:10px;font-style:italic;line-height:1.5;">' + esc(n.summary || '') + '</div>' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);border-top:1px solid rgba(255,255,255,0.05);padding-top:10px;">Primes: ' + primes + '</div>' +
+            (matchPills ? '<div style="margin-top:6px;">' + matchPills + '</div>' : '') +
+          '</div>';
+        }).join('');
+
+        if (note) note.textContent = 'Source: DSCA Press-Media (Major Arms Sales) · ' + (data.source_status === 'seeded' ? 'seeded dataset, live scrape pending' : 'live-pipeline-pending');
+      }
+
+      function renderLobbying() {
+        const data = (typeof window.LOBBYING_AUTO !== 'undefined') ? window.LOBBYING_AUTO : null;
+        const summary = document.getElementById('lobbying-summary');
+        const cards = document.getElementById('lobbying-company-cards');
+        const note = document.getElementById('lobbying-footer-note');
+        if (!cards || !summary) return;
+        if (!data) {
+          cards.innerHTML = '<div style="padding:24px;background:rgba(255,255,255,0.03);border-radius:10px;color:rgba(255,255,255,0.55);font-size:13px;">Lobbying pipeline not yet populated.</div>';
+          return;
+        }
+        const s = data.summary || {};
+        summary.innerHTML =
+          '<div style="padding:1.2rem;background:rgba(139,92,246,0.05);border:1px solid rgba(139,92,246,0.25);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Filings tracked</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#c4b5fd;font-family:\'Space Grotesk\',monospace;">' + (s.total_filings||0) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(139,92,246,0.05);border:1px solid rgba(139,92,246,0.25);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Total spend</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#c4b5fd;font-family:\'Space Grotesk\',monospace;">' + fmtUsd(s.total_spend_usd) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(139,92,246,0.05);border:1px solid rgba(139,92,246,0.25);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Companies tracked</div>' +
+            '<div style="font-size:2rem;font-weight:700;color:#c4b5fd;font-family:\'Space Grotesk\',monospace;">' + (s.unique_clients||0) + '</div>' +
+          '</div>' +
+          '<div style="padding:1.2rem;background:rgba(139,92,246,0.05);border:1px solid rgba(139,92,246,0.25);border-radius:12px;">' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);letter-spacing:.5px;text-transform:uppercase;">Fastest growing</div>' +
+            '<div style="font-size:0.85rem;font-weight:600;color:#c4b5fd;line-height:1.35;margin-top:4px;">' + (s.fastest_growing||[]).slice(0,3).map(esc).join(', ') + '</div>' +
+          '</div>';
+
+        const rolls = Array.isArray(data.by_company) ? data.by_company : [];
+        cards.innerHTML = rolls.map(r => {
+          const delta = r.qoq_pct || 0;
+          const dCol = delta > 20 ? '#86efac' : delta > 0 ? '#c4b5fd' : '#9ca3af';
+          const dSign = delta > 0 ? '+' : '';
+          const issues = (r.issues||[]).slice(0,6).map(i => '<span style="display:inline-block;padding:2px 8px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:6px;font-size:10px;color:rgba(255,255,255,0.7);margin-right:4px;margin-top:3px;font-family:monospace;">' + esc(i) + '</span>').join('');
+          return '<div style="background:rgba(255,255,255,0.02);border:1px solid rgba(139,92,246,0.18);border-radius:12px;padding:18px 20px;">' +
+            '<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:10px;">' +
+              '<a href="company.html?c=' + encodeURIComponent(r.company) + '" style="color:#fff;font-weight:700;font-size:15px;text-decoration:none;">' + esc(r.company) + '</a>' +
+              '<span style="font-family:\'Space Grotesk\',monospace;font-weight:700;color:#c4b5fd;font-size:14px;">' + fmtUsd(r.total_spend) + '</span>' +
+            '</div>' +
+            '<div style="font-size:11px;color:rgba(255,255,255,0.5);margin-bottom:6px;">Quarterly spend trend</div>' +
+            '<div style="display:flex;gap:8px;margin-bottom:10px;font-size:12px;font-family:\'Space Grotesk\',monospace;">' +
+              Object.entries(r.quarters||{}).map(([q,v]) => '<span style="color:rgba(255,255,255,0.8);"><span style="color:rgba(255,255,255,0.4);">' + esc(q.replace('20','').replace('-',' ')) + '</span> ' + fmtUsd(v) + '</span>').join(' · ') +
+              '<span style="color:' + dCol + ';font-weight:600;margin-left:auto;">' + dSign + delta.toFixed(0) + '% QoQ</span>' +
+            '</div>' +
+            '<div>' + issues + '</div>' +
+          '</div>';
+        }).join('');
+
+        if (note) note.textContent = 'Source: lda.senate.gov/api · ' + (data.source_status === 'seeded' ? 'seeded dataset, live fetch pending' : 'live-pipeline-pending') + ' · Issue codes per LDA taxonomy (DEF=defense, TEC=tech, CPI=computer+internet, etc.)';
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        try { renderDSCA(); } catch (e) { console.error('DSCA render:', e); }
+        try { renderLobbying(); } catch (e) { console.error('Lobbying render:', e); }
+      });
+    })();
+    </script>
 </body>
 </html>

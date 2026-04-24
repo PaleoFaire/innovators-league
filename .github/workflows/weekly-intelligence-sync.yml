@@ -78,6 +78,59 @@ jobs:
         run: python scripts/verify_company_metadata.py --probe --limit 200
         continue-on-error: true
 
+      # ═══════════════════════════════════════════════════════════════
+      # NEW PIPELINES — Round 8 · Crown-Jewel Intelligence
+      # Each writes its own _auto.json + _auto.js file. All have graceful
+      # fallbacks so workflow never fails on upstream flakiness.
+      # ═══════════════════════════════════════════════════════════════
+
+      - name: Power Grid — FERC/ISO Interconnection Queue
+        # Crown jewel. Aggregates PJM/MISO/ERCOT/CAISO/SPP/NYISO/ISO-NE
+        # queue filings. Reveals every data-center + SMR + gigafactory
+        # buildout 18-36 months before groundbreaking press.
+        run: python scripts/fetch_interconnection_queue.py
+        continue-on-error: true
+
+      - name: Website Change Detection (Wayback CDX)
+        # HEADs every tracked company's homepage via Wayback CDX and
+        # diffs content hashes. Catches exec departures / pivots /
+        # customer wins before announcements.
+        run: python scripts/fetch_website_changes.py
+        continue-on-error: true
+
+      - name: FCC Spectrum + Experimental Radio Licenses
+        # Every satellite downlink / drone C2 / autonomous radar filing
+        # is public. ELS filings precede product launches by 6-12 months.
+        run: python scripts/fetch_fcc_licenses.py
+        continue-on-error: true
+
+      - name: H-1B LCA Hiring Signal (DOL OFLC)
+        # Job titles + wages + worksites from public H-1B filings —
+        # reveals what a company is actually building beyond headcount.
+        run: python scripts/fetch_h1b_lca.py
+        continue-on-error: true
+
+      - name: DSCA Foreign Military Sales Notifications
+        # Defense tech as named subs in foreign arms packages; geographic
+        # demand signal (UAE, Taiwan, Saudi) — relevant to SAVI/ADIO.
+        run: python scripts/fetch_dsca_fms.py
+        continue-on-error: true
+
+      - name: Senate LDA Lobbying Disclosure Tracker
+        # Quarterly lobbying spend trend per company. Acceleration is a
+        # leading indicator of regulatory/commercial traction.
+        run: python scripts/fetch_lobbying.py
+        continue-on-error: true
+
+      - name: YouTube Corporate Caption Mentions
+        # Auto-captions from NVIDIA GTC, Tesla AI Day, SpaceX launches,
+        # Figure demos, All-In, 20VC, Acquired, Dwarkesh, BG2, Lex podcasts.
+        # NER-matches against 868 tracked companies.
+        run: python scripts/fetch_youtube_mentions.py
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        continue-on-error: true
+
       - name: Emit Round 7l auto.js bundles
         run: python scripts/emit_round7l_auto_js.py
 
@@ -124,6 +177,13 @@ jobs:
                   data/weekly_brief_movers.json \
                   data/weekly_brief.json \
                   data/metadata_verification.json \
+                  data/interconnection_queue_auto.json data/interconnection_queue_auto.js \
+                  data/website_changes_auto.json data/website_changes_auto.js \
+                  data/fcc_licenses_auto.json data/fcc_licenses_auto.js \
+                  data/h1b_lca_auto.json data/h1b_lca_auto.js \
+                  data/dsca_fms_auto.json data/dsca_fms_auto.js \
+                  data/lobbying_auto.json data/lobbying_auto.js \
+                  data/youtube_mentions_auto.json data/youtube_mentions_auto.js \
                   data/field_notes_auto.json data/field_notes_auto.js \
                   data/budget_signals_auto.json data/budget_signals_auto.js \
                   data/fund_intelligence_auto.json data/fund_intelligence_auto.js \

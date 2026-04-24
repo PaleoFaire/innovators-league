@@ -45,6 +45,7 @@
             <div class="nav-dropdown">
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">                                        <a href="signals.html" class="nav-dropdown-link">🔴 Signals</a>
+                    <a href="power-grid.html" class="nav-dropdown-link">⚡ Power Grid</a>
 <a href="launches.html" class="nav-dropdown-link">Launches</a>
                     <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
@@ -256,6 +257,35 @@
         </div>
     </section>
 
+    <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+    <!-- NEW: FCC Spectrum & Experimental Radio Licenses                                -->
+    <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+    <section class="section" id="fcc-licenses-section" style="background: linear-gradient(135deg, rgba(251,146,60,0.03) 0%, rgba(0,0,0,0) 100%); border-top: 1px solid rgba(251,146,60,0.15);">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow" style="color:#fdba74;">✨ NEW · SPECTRUM INTELLIGENCE · FCC ULS+ELS</p>
+                <h2>FCC Spectrum &amp; Experimental Licenses</h2>
+                <p>Every experimental radio license filed with the FCC — satellite downlinks, drone command-and-control links, autonomous vehicle radars, quantum sensors — is public. ELS filings often <strong>precede product launches by 6–12 months</strong>. For satellite companies, earth-station licenses reveal which ground infrastructure is about to go live.</p>
+            </div>
+            <div class="leaderboard-table-wrap">
+                <table class="leaderboard-table" id="fcc-table">
+                    <thead>
+                        <tr>
+                            <th>Applicant / Company</th>
+                            <th>Service Type</th>
+                            <th>Frequency Band</th>
+                            <th>Purpose</th>
+                            <th>Filed</th>
+                            <th>Bureau</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fcc-body"><tr><td colspan="6" style="padding:24px;text-align:center;color:rgba(255,255,255,0.4);">Loading FCC filings…</td></tr></tbody>
+                </table>
+            </div>
+            <div id="fcc-footer-note" style="margin-top:12px;color:rgba(255,255,255,0.5);font-size:12px;"></div>
+        </div>
+    </section>
+
     <!-- Footer -->
 
 <!-- Subscribe Banner -->
@@ -315,6 +345,50 @@
     <!-- Round 7l proprietary regulatory-adjacent metrics -->
     <script src="data/expert_takes_auto.js?v=20260421"></script>
     <script src="data/budget_signals_auto.js?v=20260421"></script>
+    <script src="data/fcc_licenses_auto.js?v=20260424"></script>
     <script src="regulatory.js?v=20260325"></script>
+    <script>
+    // NEW: FCC Spectrum & Experimental Radio renderer
+    (function(){
+      'use strict';
+      const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+      function renderFCC() {
+        const data = (typeof window.FCC_LICENSES_AUTO !== 'undefined') ? window.FCC_LICENSES_AUTO : null;
+        const body = document.getElementById('fcc-body');
+        const note = document.getElementById('fcc-footer-note');
+        if (!body) return;
+        if (!data) {
+          body.innerHTML = '<tr><td colspan="6" style="padding:24px;text-align:center;color:rgba(255,255,255,0.4);">FCC pipeline not yet populated.</td></tr>';
+          return;
+        }
+        const filings = Array.isArray(data.filings) ? data.filings : [];
+        if (filings.length === 0) {
+          body.innerHTML = '<tr><td colspan="6" style="padding:24px;text-align:center;color:rgba(255,255,255,0.4);">No FCC filings matched.</td></tr>';
+          return;
+        }
+        body.innerHTML = filings.map(f => {
+          const bureauColor = f.bureau === 'OET' ? '#fdba74' : f.bureau === 'IB' ? '#93c5fd' : '#86efac';
+          const match = f.matched_company
+            ? '<br><a href="company.html?c=' + encodeURIComponent(f.matched_company) + '" style="display:inline-block;padding:2px 8px;background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);border-radius:6px;font-size:10px;font-weight:700;color:#93c5fd;text-decoration:none;margin-top:4px;">✓ ' + esc(f.matched_company) + '</a>'
+            : '';
+          const filingLink = f.url ? '<a href="' + esc(f.url) + '" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">' + esc(f.applicant) + '</a>' : esc(f.applicant);
+          return '<tr>' +
+            '<td><strong style="color:#fff;">' + filingLink + '</strong>' + match + '</td>' +
+            '<td style="color:rgba(255,255,255,0.85);font-size:13px;">' + esc(f.service_type||'—') + '</td>' +
+            '<td style="color:rgba(255,255,255,0.75);font-family:monospace;font-size:12px;">' + esc(f.frequency_band||'—') + '</td>' +
+            '<td style="color:rgba(255,255,255,0.7);font-size:12px;">' + esc(f.purpose||'—') + '</td>' +
+            '<td style="color:rgba(255,255,255,0.6);font-size:12px;">' + esc(f.filing_date||'—') + '</td>' +
+            '<td><span style="display:inline-block;padding:3px 9px;border-radius:8px;font-size:10px;font-weight:700;color:' + bureauColor + ';border:1px solid ' + bureauColor + '66;background:' + bureauColor + '18;">' + esc(f.bureau||'—') + '</span></td>' +
+          '</tr>';
+        }).join('');
+        if (note) {
+          const s = data.source_status === 'seeded' ? 'seeded dataset, live fetch pending' : 'live pipeline';
+          const sum = data.summary || {};
+          note.textContent = sum.total + ' filings · ' + sum.matched_to_tracked_company + ' matched to tracked frontier-tech companies · Source: FCC License View API (' + s + ')';
+        }
+      }
+      document.addEventListener('DOMContentLoaded', renderFCC);
+    })();
+    </script>
 </body>
 </html>

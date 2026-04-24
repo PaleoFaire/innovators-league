@@ -88,6 +88,15 @@ PIPELINE_CADENCE = {
     "contractor_readiness_auto.js":      7,
     "gov_demand_summary_auto.js":        7,
     "expert_takes_auto.js":              3,
+
+    # ── Round 8: Crown-Jewel Intelligence Pipelines ──
+    "interconnection_queue_auto.js":      7,  # FERC/ISO power queue
+    "website_changes_auto.js":            7,  # Wayback CDX
+    "youtube_mentions_auto.js":           7,  # YouTube captions
+    "fcc_licenses_auto.js":               7,  # FCC ULS+ELS
+    "h1b_lca_auto.js":                   30,  # DOL OFLC quarterly source
+    "dsca_fms_auto.js":                   7,  # DSCA FMS notifications
+    "lobbying_auto.js":                  30,  # Senate LDA quarterly
 }
 
 # Human-readable labels for the site footer / admin dashboard
@@ -133,6 +142,15 @@ PIPELINE_LABEL = {
     "contractor_readiness_auto.js": "Contractor Readiness",
     "gov_demand_summary_auto.js":   "Gov Demand Summary",
     "expert_takes_auto.js":         "Expert Takes",
+
+    # ── Round 8 crown-jewel pipelines ──
+    "interconnection_queue_auto.js": "Power Grid (FERC/ISO)",
+    "website_changes_auto.js":       "Website Changes (Wayback)",
+    "youtube_mentions_auto.js":      "Corporate Mentions (YouTube)",
+    "fcc_licenses_auto.js":          "FCC Licenses (ULS/ELS)",
+    "h1b_lca_auto.js":               "H-1B LCA Hiring",
+    "dsca_fms_auto.js":              "DSCA Arms Sales",
+    "lobbying_auto.js":              "Senate Lobbying",
 }
 
 

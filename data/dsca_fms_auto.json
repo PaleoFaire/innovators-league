@@ -1,0 +1,262 @@
+{
+  "generated_at": "2026-04-24T06:42:18.382667+00:00",
+  "source_status": "seeded",
+  "notifications": [
+    {
+      "notification_id": "Transmittal 25-11",
+      "country": "Saudi Arabia",
+      "article": "Counter-UAS Air Defense System Package",
+      "value_usd_m": 1200,
+      "primary_contractors": [
+        "Lockheed Martin",
+        "Raytheon",
+        "Anduril Industries"
+      ],
+      "notification_date": "2025-12-04",
+      "summary": "Saudi Arabia requested integrated counter-drone + short-range air defense \u2014 includes Anduril Pulsar EW and sentry-tower radars as subsystem.",
+      "matched_companies": [
+        "Anduril Industries"
+      ]
+    },
+    {
+      "notification_id": "Transmittal 25-14",
+      "country": "United Arab Emirates",
+      "article": "Maritime Autonomous Surface Vessels and Training",
+      "value_usd_m": 480,
+      "primary_contractors": [
+        "Saronic Technologies",
+        "HII Mission Technologies"
+      ],
+      "notification_date": "2025-12-18",
+      "summary": "UAE requested autonomous maritime systems and associated training \u2014 first large FMS featuring Saronic as named prime, relevant to Abu Dhabi SAVI relationships.",
+      "matched_companies": [
+        "Saronic"
+      ]
+    },
+    {
+      "notification_id": "Transmittal 26-01",
+      "country": "Taiwan",
+      "article": "Loitering Munitions \u2014 Switchblade 600 + Phoenix Ghost",
+      "value_usd_m": 350,
+      "primary_contractors": [
+        "AeroVironment",
+        "Anduril Industries"
+      ],
+      "notification_date": "2026-01-09",
+      "summary": "Taiwan requested additional loitering munitions and associated training. Anduril Phoenix Ghost variant named.",
+      "matched_companies": [
+        "Anduril Industries"
+      ]
+    },
+    {
+      "notification_id": "Transmittal 26-02",
+      "country": "Japan",
+      "article": "Advanced SAR Satellite Constellation Ground Services",
+      "value_usd_m": 830,
+      "primary_contractors": [
+        "L3Harris",
+        "Capella Space"
+      ],
+      "notification_date": "2026-01-23",
+      "summary": "Japan requested commercial SAR imagery subscription and terminal infrastructure \u2014 Capella named as data provider sub.",
+      "matched_companies": []
+    },
+    {
+      "notification_id": "Transmittal 26-03",
+      "country": "Australia",
+      "article": "Counter-UAS Directed Energy (Epirus Leonidas)",
+      "value_usd_m": 220,
+      "primary_contractors": [
+        "Epirus, Inc.",
+        "Northrop Grumman"
+      ],
+      "notification_date": "2026-02-06",
+      "summary": "Australia requested solid-state microwave counter-drone systems under AUKUS Pillar II \u2014 Epirus Leonidas named prime.",
+      "matched_companies": [
+        "Epirus"
+      ]
+    },
+    {
+      "notification_id": "Transmittal 26-05",
+      "country": "Poland",
+      "article": "AI Decision-Support for Command-and-Control",
+      "value_usd_m": 490,
+      "primary_contractors": [
+        "Palantir Technologies",
+        "Booz Allen Hamilton"
+      ],
+      "notification_date": "2026-02-19",
+      "summary": "Poland requested Palantir MSS/Gotham for NATO eastern-flank command centers with associated analyst training.",
+      "matched_companies": [
+        "Palantir"
+      ]
+    },
+    {
+      "notification_id": "Transmittal 26-06",
+      "country": "South Korea",
+      "article": "Autonomous Ground Vehicles and Integration",
+      "value_usd_m": 310,
+      "primary_contractors": [
+        "Milrem Robotics",
+        "Textron Systems",
+        "Bone AI"
+      ],
+      "notification_date": "2026-03-05",
+      "summary": "ROK requested UGV platforms + autonomy stack \u2014 first notification featuring Bone AI as a named sub.",
+      "matched_companies": [
+        "Milrem Robotics",
+        "Bone AI"
+      ]
+    },
+    {
+      "notification_id": "Transmittal 26-07",
+      "country": "Norway",
+      "article": "Naval Strike Missiles + Coastal Defense Radar",
+      "value_usd_m": 740,
+      "primary_contractors": [
+        "Kongsberg",
+        "Raytheon"
+      ],
+      "notification_date": "2026-03-13",
+      "summary": "Norway requested NSM Block 1A and associated coastal radar; no tracked frontier-tech subs named.",
+      "matched_companies": []
+    },
+    {
+      "notification_id": "Transmittal 26-08",
+      "country": "Israel",
+      "article": "Long-Range Strike Munition Package",
+      "value_usd_m": 2900,
+      "primary_contractors": [
+        "Boeing",
+        "Lockheed Martin"
+      ],
+      "notification_date": "2026-03-20",
+      "summary": "Israel requested GBU-39 SDB + JDAM + tanker fuel; no tracked frontier subs.",
+      "matched_companies": []
+    },
+    {
+      "notification_id": "Transmittal 26-09",
+      "country": "India",
+      "article": "MQ-9B SkyGuardian UAS Package",
+      "value_usd_m": 3800,
+      "primary_contractors": [
+        "General Atomics",
+        "L3Harris"
+      ],
+      "notification_date": "2026-04-03",
+      "summary": "India requested 31\u00d7 MQ-9B platforms with sensors and Hellfire/GBU-38 integration.",
+      "matched_companies": []
+    },
+    {
+      "notification_id": "Transmittal 26-10",
+      "country": "United Arab Emirates",
+      "article": "AI Decision Platform + Sensor Fusion",
+      "value_usd_m": 560,
+      "primary_contractors": [
+        "Palantir Technologies",
+        "Anduril Industries"
+      ],
+      "notification_date": "2026-04-10",
+      "summary": "UAE requested Palantir AIP for Defense + Anduril Lattice for integrated air-picture and counter-drone coordination. Direct tie-in to SAVI cluster.",
+      "matched_companies": [
+        "Palantir",
+        "Anduril Industries"
+      ]
+    },
+    {
+      "notification_id": "Transmittal 26-11",
+      "country": "Philippines",
+      "article": "Maritime Surveillance Satellite Data",
+      "value_usd_m": 180,
+      "primary_contractors": [
+        "BlackSky",
+        "Planet Labs"
+      ],
+      "notification_date": "2026-04-16",
+      "summary": "Philippines requested commercial satellite imagery subscription + AIS fusion \u2014 BlackSky and Planet named.",
+      "matched_companies": [
+        "Planet Labs"
+      ]
+    }
+  ],
+  "by_country": {
+    "India": 3800,
+    "Israel": 2900,
+    "Saudi Arabia": 1200,
+    "United Arab Emirates": 1040,
+    "Japan": 830,
+    "Norway": 740,
+    "Poland": 490,
+    "Taiwan": 350,
+    "South Korea": 310,
+    "Australia": 220,
+    "Philippines": 180
+  },
+  "by_company": [
+    {
+      "company": "Anduril Industries",
+      "appearances": 3,
+      "countries": [
+        "Saudi Arabia",
+        "Taiwan",
+        "United Arab Emirates"
+      ],
+      "total_value_m": 2110
+    },
+    {
+      "company": "Palantir",
+      "appearances": 2,
+      "countries": [
+        "Poland",
+        "United Arab Emirates"
+      ],
+      "total_value_m": 1050
+    },
+    {
+      "company": "Saronic",
+      "appearances": 1,
+      "countries": [
+        "United Arab Emirates"
+      ],
+      "total_value_m": 480
+    },
+    {
+      "company": "Epirus",
+      "appearances": 1,
+      "countries": [
+        "Australia"
+      ],
+      "total_value_m": 220
+    },
+    {
+      "company": "Milrem Robotics",
+      "appearances": 1,
+      "countries": [
+        "South Korea"
+      ],
+      "total_value_m": 310
+    },
+    {
+      "company": "Bone AI",
+      "appearances": 1,
+      "countries": [
+        "South Korea"
+      ],
+      "total_value_m": 310
+    },
+    {
+      "company": "Planet Labs",
+      "appearances": 1,
+      "countries": [
+        "Philippines"
+      ],
+      "total_value_m": 180
+    }
+  ],
+  "summary": {
+    "total_notifications": 12,
+    "total_value_usd_m": 12060,
+    "unique_countries": 11,
+    "tracked_company_appearances": 7
+  }
+}

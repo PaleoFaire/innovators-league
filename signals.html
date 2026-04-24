@@ -303,6 +303,7 @@
                 <button class="nav-link nav-link-main">More <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
                 <div class="nav-dropdown-content">
                     <a href="signals.html" class="nav-dropdown-link">🔴 Signals</a>
+                    <a href="power-grid.html" class="nav-dropdown-link">⚡ Power Grid</a>
                     <a href="launches.html" class="nav-dropdown-link">Launches</a>
                     <a href="calendar.html" class="nav-dropdown-link">Calendar</a>
                     <a href="research.html" class="nav-dropdown-link">Research</a>
@@ -331,15 +332,16 @@
     <header class="signals-hero">
       <div class="signals-hero-content">
         <p class="hero-eyebrow" style="font-size:11px; letter-spacing:2px; color:#FF8C5C; text-transform:uppercase; margin-bottom:12px;">PROPRIETARY INTELLIGENCE · AUTHORITATIVE SOURCES ONLY</p>
-        <h1>Five signals nobody else tracks.</h1>
-        <p>Leading-indicator intelligence pulled daily from SEC EDGAR, US Commerce/Treasury/State sanctions, USPTO trademarks, DoD SBIR solicitations, and ESA Copernicus satellite imagery. Every row links to the primary source — no aggregation middlemen, no AI-summarized slop.</p>
+        <h1>Seven signals nobody else tracks.</h1>
+        <p>Leading-indicator intelligence pulled daily from SEC EDGAR, US Commerce/Treasury/State sanctions, USPTO trademarks, DoD SBIR solicitations, ESA Copernicus satellite imagery, the Internet Archive Wayback Machine, and corporate keynote captions. Every row links to the primary source — no aggregation middlemen, no AI-summarized slop.</p>
         <div class="signals-badges">
-          <span class="signals-badge new">✨ NEW</span>
           <span class="signals-badge">Form D Filings</span>
           <span class="signals-badge">Export Controls</span>
           <span class="signals-badge">USPTO Trademarks</span>
           <span class="signals-badge">SBIR Bid-Fit</span>
           <span class="signals-badge">Factory Watch</span>
+          <span class="signals-badge new">✨ Website Changes</span>
+          <span class="signals-badge new">✨ Corporate Mentions</span>
         </div>
       </div>
     </header>
@@ -435,6 +437,42 @@
         </div>
         <div id="fw-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading Factory Watch…</p></div>
       </section>
+
+      <!-- ════════════════════════════════════════════════════════ -->
+      <!-- SECTION 6: Website Changes (Wayback Machine) — NEW        -->
+      <!-- ════════════════════════════════════════════════════════ -->
+      <section class="signal-section" id="website-changes">
+        <div class="signal-head">
+          <div>
+            <h2 class="signal-title">🕵️ Website Change Detection</h2>
+            <p class="signal-subtitle">Every tracked company's homepage is archived weekly by the Internet Archive. We compare content hashes week-over-week to flag companies whose site changed in the last 90 days — earliest public signal of exec moves, product pivots, customer wins, and pricing shifts.</p>
+          </div>
+          <div class="signal-meta">
+            <span class="sig-count" id="wc-count">—</span>
+            <span>recent changes</span>
+            <span>Source: Wayback Machine</span>
+          </div>
+        </div>
+        <div id="wc-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading website-change detection…</p></div>
+      </section>
+
+      <!-- ════════════════════════════════════════════════════════ -->
+      <!-- SECTION 7: YouTube Corporate Mentions — NEW              -->
+      <!-- ════════════════════════════════════════════════════════ -->
+      <section class="signal-section" id="youtube-mentions">
+        <div class="signal-head">
+          <div>
+            <h2 class="signal-title">🎤 Heard in the Wild — Corporate Mentions</h2>
+            <p class="signal-subtitle">Every NVIDIA GTC keynote, Tesla AI Day, SpaceX launch webcast, and top investor podcast (All-In, 20VC, Acquired, BG2, Dwarkesh) is auto-captioned within 24 hours. We NER-match against the full database and surface named mentions with context + video timestamp.</p>
+          </div>
+          <div class="signal-meta">
+            <span class="sig-count" id="yt-count">—</span>
+            <span>recent mentions</span>
+            <span>Source: YouTube captions</span>
+          </div>
+        </div>
+        <div id="yt-body"><p style="color:rgba(255,255,255,0.5); font-size:13px;">Loading corporate-mention feed…</p></div>
+      </section>
     </main>
 
     <footer style="padding:40px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.06);">
@@ -451,6 +489,8 @@
     <script src="data/trademarks_auto.js?v=20260423"></script>
     <script src="data/sbir_topics_auto.js?v=20260423"></script>
     <script src="data/factory_watch_auto.js?v=20260423"></script>
-    <script src="signals.js?v=20260423"></script>
+    <script src="data/website_changes_auto.js?v=20260424"></script>
+    <script src="data/youtube_mentions_auto.js?v=20260424"></script>
+    <script src="signals.js?v=20260424"></script>
 </body>
 </html>
