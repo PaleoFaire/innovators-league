@@ -1,6 +1,7 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-24 08:55:46 UTC
+// Last updated: 2026-04-25 07:59:31 UTC
 const NASA_PROJECTS = [
+  { id: 182855, title: "Mini-MARLI, a small lidar for measuring of atmospheric wind and dust profiles fr", status: "Completed", center: "Goddard Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "04/24/26" },
   { id: 116400, title: "Small Spacecraft Electric Propulsion System", status: "Completed", center: "", techArea: "Electrostatic Propulsion", lastUpdated: "04/23/26" },
   { id: 158421, title: "LunaRecycle - Phase 1", status: "Completed", center: "Marshall Space Flight Center", techArea: "Waste Management", lastUpdated: "04/23/26" },
   { id: 156378, title: "Wall modeled large eddy simulation of high-enthalpy hypersonic flows", status: "Active", center: "University of Colorado Boulder", techArea: "Integrated Modeling and Simulation for EDL", lastUpdated: "04/22/26" },
@@ -30,5 +31,4 @@ const NASA_PROJECTS = [
   { id: 184865, title: "Advanced Energy Management System", status: "Active", center: "Glenn Research Center", techArea: "Aerospace Power and Energy Storage", lastUpdated: "04/17/26" },
   { id: 157469, title: "Lunar GNSS Receiver Experiment", status: "Completed", center: "Goddard Space Flight Center", techArea: "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems", lastUpdated: "04/16/26" },
   { id: 93175, title: "Logistics Reduction: RFID Enabled Autonomous Logistics Management", status: "Active", center: "Johnson Space Center", techArea: "Logistics Management", lastUpdated: "04/15/26" },
-  { id: 184848, title: "Additive Manufacturing for Propulsion", status: "Active", center: "Marshall Space Flight Center", techArea: "Additive Manufacturing", lastUpdated: "04/15/26" },
 ];

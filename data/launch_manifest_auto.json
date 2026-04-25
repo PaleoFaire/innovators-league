@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-04-24",
-    "vehicle": "Long March 2D | SatNet test satellite",
-    "payload": "SatNet test satellite",
-    "pad": "Launch Complex 3 (LC-3/LA-1), Xichang Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/214b4db1-7112-4428-a999-29d2765c8306/?format=json",
-    "trackedCompany": null
-  },
-  {
     "date": "2026-04-25",
     "vehicle": "Long March 6 | Unknown Payload",
     "payload": "Unknown Payload",
@@ -126,6 +117,15 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-05-03",
+    "vehicle": "Falcon 9 Block 5 | CAS500-2 & Others",
+    "payload": "CAS500-2 & Others",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/05530ccb-7184-41e7-b2e5-c090b61e0e3a/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-05-06",
     "vehicle": "Falcon 9 Block 5 | Starlink Group 17-29",
     "payload": "Starlink Group 17-29",
@@ -169,15 +169,6 @@
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/8b7e748c-6ed5-4681-a898-827b4a23b8d7/?format=json",
     "trackedCompany": "Rocket Lab"
-  },
-  {
-    "date": "2026-05-31",
-    "vehicle": "Falcon 9 Block 5 | CAS500-2 & Others",
-    "payload": "CAS500-2 & Others",
-    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/05530ccb-7184-41e7-b2e5-c090b61e0e3a/?format=json",
-    "trackedCompany": "SpaceX"
   },
   {
     "date": "2026-05-31",
@@ -447,6 +438,15 @@
     "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/1fa3741c-3339-4954-a026-2cd9d36161c0/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
+    "date": "2026-06-30",
+    "vehicle": "Falcon 9 Block 5 | Rivada 8",
+    "payload": "Rivada 8",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/7d77bd89-af23-4a5a-b632-de0034003a64/?format=json",
     "trackedCompany": "SpaceX"
   }
 ]
