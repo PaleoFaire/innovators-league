@@ -1,30 +1,30 @@
 // Auto-generated news signals
-// Last updated: 2026-04-25T10:54:02.792Z
+// Last updated: 2026-04-25T11:47:10.162Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1777114442792,
+    "id": 1777117630162,
     "type": "news",
     "company": "Cohere",
     "headline": "Cohere acquires, merges with Germany-based startup to create a &#8216;transatlantic AI powerhouse&#8217;",
     "source": "TechCrunch",
-    "time": "13h ago",
+    "time": "14h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/"
   },
   {
-    "id": 1777114442793,
+    "id": 1777117630163,
     "type": "ipo",
     "company": "X-Energy",
     "headline": "X-energy stock pops 27% on first day of trading following upsized IPO",
     "source": "TechCrunch",
-    "time": "14h ago",
+    "time": "15h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/24/x-energy-stock-pops-27-on-first-day-of-trading-following-upsized-ipo/"
   },
   {
-    "id": 1777114442794,
+    "id": 1777117630164,
     "type": "news",
     "company": "Humanoid",
     "headline": "Accenture, Vodafone, and SAP to pilot humanoid robots in the warehouse",
@@ -35,7 +35,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/accenture-vodafone-and-sap-to-pilot-humanoid-robots-in-the-warehouse/"
   },
   {
-    "id": 1777114442795,
+    "id": 1777117630165,
     "type": "news",
     "company": "Waymo",
     "headline": "Hyundai Partners With Waymo To Produce An IONIQ 5 Robotaxi — Field Trip",
@@ -46,29 +46,29 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/04/24/hyundai-partners-with-waymo-to-produce-an-ioniq-5-robotaxi-field-trip/"
   },
   {
-    "id": 1777114442796,
+    "id": 1777117630166,
     "type": "news",
     "company": "Anthropic",
     "headline": "Google to invest up to $40B in Anthropic in cash and compute",
     "source": "TechCrunch",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/"
   },
   {
-    "id": 1777114442797,
+    "id": 1777117630167,
     "type": "funding",
     "company": "X-Energy",
     "headline": "Nuclear startup X-energy raises $1B in data center-driven IPO",
     "source": "TechCrunch",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "high",
     "unread": false,
     "link": "https://techcrunch.com/2026/04/24/nuclear-startup-x-energy-raises-1b-in-data-center-driven-ipo/"
   },
   {
-    "id": 1777114442798,
+    "id": 1777117630168,
     "type": "news",
     "company": "Cohere",
     "headline": "Aleph Alpha to be acquired by Cohere",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/04/24/aleph-alpha-to-be-acquired-by-cohere/"
   },
   {
-    "id": 1777114442799,
+    "id": 1777117630169,
     "type": "funding",
     "company": "Scale AI",
     "headline": "Verda raises $117M to scale AI cloud infrastructure built on clean Nordic power",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/04/24/verda-raises-117m-to-scale-ai-cloud-infrastructure-built-on-clean-nordic-power/"
   },
   {
-    "id": 1777114442800,
+    "id": 1777117630170,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?",
@@ -101,7 +101,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/openai-gpt-5-5-has-good-ranking-scores-but-is-it-better.html"
   },
   {
-    "id": 1777114442801,
+    "id": 1777117630171,
+    "type": "contract",
+    "company": "SpaceX",
+    "headline": "SpaceX wins $57 million U.S. military contract for satellite crosslink demo",
+    "source": "SpaceNews",
+    "time": "1d ago",
+    "impact": "medium",
+    "unread": false,
+    "link": "https://spacenews.com/spacex-wins-57-million-u-s-military-contract-for-satellite-crosslink-demo/"
+  },
+  {
+    "id": 1777117630172,
     "type": "hire",
     "company": "SpaceX",
     "headline": "Apple’s Next Chapter, SpaceX and Cursor Strike a Deal, and Palantir’s Controversial Manifesto",
@@ -112,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.wired.com/story/uncanny-valley-podcast-apple-next-chapter-spacex-cursor-deal-palantir-manifesto/"
   },
   {
-    "id": 1777114442802,
+    "id": 1777117630173,
     "type": "news",
     "company": "Anthropic",
     "headline": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
@@ -123,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
   },
   {
-    "id": 1777114442803,
+    "id": 1777117630174,
     "type": "news",
     "company": "Anthropic",
     "headline": "Elon Musk mulled Mistral deal to take on OpenAI and Anthropic, reports say",
@@ -134,7 +145,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/elon-musk-xai-mistral-partnership/"
   },
   {
-    "id": 1777114442804,
+    "id": 1777117630175,
+    "type": "funding",
+    "company": "Atmos Space Cargo",
+    "headline": "Atmos Space Cargo raises $30 million for reentry missions",
+    "source": "SpaceNews",
+    "time": "2d ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://spacenews.com/atmos-space-cargo-raises-30-million-for-reentry-missions/"
+  },
+  {
+    "id": 1777117630176,
     "type": "news",
     "company": "Cape",
     "headline": "Cape EMS expands into advanced interconnect engineering for EV mobility, AI infrastructure, energy systems with GrandCap",
@@ -145,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://technode.global/2026/04/23/cape-ems-expands-into-advanced-interconnect-engineering-for-ev-mobility-ai-infrastructure-energy-systems-with-grandcape/"
   },
   {
-    "id": 1777114442805,
+    "id": 1777117630177,
     "type": "hire",
     "company": "OpenAI",
     "headline": "OpenAI's head of health lays out the AI giant’s healthcare ambitions",
@@ -156,7 +178,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/openais-head-of-health-lays-out-the-ai-giants-healthcare-ambitions/"
   },
   {
-    "id": 1777114442806,
+    "id": 1777117630178,
+    "type": "ipo",
+    "company": "AST SpaceMobile",
+    "headline": "FCC clears AST SpaceMobile constellation as launch setback clouds ramp-up",
+    "source": "SpaceNews",
+    "time": "2d ago",
+    "impact": "low",
+    "unread": false,
+    "link": "https://spacenews.com/fcc-clears-ast-spacemobile-constellation-as-launch-setback-clouds-ramp-up/"
+  },
+  {
+    "id": 1777117630179,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Will Buy Cursor",
@@ -167,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/spacex-will-buy-cursor.html"
   },
   {
-    "id": 1777114442807,
+    "id": 1777117630180,
     "type": "hire",
     "company": "Rivian",
     "headline": "Rivian (RIVN) starts R2 production days after tornado hit factory, deliveries this spring",
@@ -178,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/04/22/rivian-r2-starts-production-tornado-deliveries-spring/"
   },
   {
-    "id": 1777114442808,
+    "id": 1777117630181,
     "type": "news",
     "company": "GrayMatter Robotics",
     "headline": "HII partners with Path Robotics, GrayMatter Robotics to accelerate shipbuilding",
@@ -187,38 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/hii-partners-path-robotics-graymatter-robotics-accelerate-shipbuilding/"
-  },
-  {
-    "id": 1777114442809,
-    "type": "milestone",
-    "company": "Matter",
-    "headline": "The Download: introducing the 10 Things That Matter in AI Right Now",
-    "source": "MIT Tech Review",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/"
-  },
-  {
-    "id": 1777114442810,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI and Cursor Try to Catch Athropic Claude Code",
-    "source": "Next Big Future",
-    "time": "3d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/04/spacex-has-option-to-buy-cursor-for-60-billion-xai-and-cursor-try-to-catch-athropic-claude-code.html"
-  },
-  {
-    "id": 1777114442811,
-    "type": "news",
-    "company": "Saildrone",
-    "headline": "Saildrone announces new USV class aimed at anti-submarine warfare",
-    "source": "Defense News",
-    "time": "3d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.defensenews.com/industry/techwatch/2026/04/21/saildrone-announces-new-usv-class-aimed-at-anti-submarine-warfare/"
   }
 ];
