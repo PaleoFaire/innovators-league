@@ -1,8 +1,8 @@
 [
   {
     "company": "Anthropic",
-    "totalRaised": "$15.0B+",
-    "totalRaisedRaw": 15000.0,
+    "totalRaised": "$20.0B+",
+    "totalRaisedRaw": 20000.0,
     "lastRound": "Series T",
     "lastRoundAmount": "$380B",
     "lastRoundDate": "2026-04",
@@ -11,7 +11,7 @@
       "Undisclosed",
       "GIC"
     ],
-    "roundCount": 4
+    "roundCount": 5
   },
   {
     "company": "OpenStar",
@@ -678,6 +678,19 @@
       "Undisclosed"
     ],
     "roundCount": 2
+  },
+  {
+    "company": "Matter",
+    "totalRaised": "$200M+",
+    "totalRaisedRaw": 200.0,
+    "lastRound": "Series S",
+    "lastRoundAmount": "$200M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
   },
   {
     "company": "Nuro",

@@ -1,38 +1,21 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 56,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
+      "Google to invest up to $40B in Anthropic in cash and compute",
       "Verda raises $117M to scale AI cloud infrastructure built on",
-      "OpenAI releases GPT-5.5, bringing company one step closer to",
-      "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit"
+      "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?"
     ],
-    "fundingQ": "$1189.2B",
+    "fundingQ": "$1194.2B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-24"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "Anthropic&#8217;s Nuclear Bomb",
-      "Disperse to Survive: The Logic of French Forward Deterrence"
-    ],
-    "fundingQ": "$800M",
-    "components": {
-      "funding": 83,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
   },
   {
     "sector": "Drones & Autonomous",
@@ -49,25 +32,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-24"
-  },
-  {
-    "sector": "Defense & Security",
-    "momentum": 47,
-    "trend": "steady",
-    "catalysts": [
-      "SpaceX wins $57 million U.S. military contract for satellite",
-      "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P",
-      "Disperse to Survive: The Logic of French Forward Deterrence"
-    ],
-    "fundingQ": "$22.3B",
-    "components": {
-      "funding": 100,
-      "news": 15,
-      "hiring": 0,
-      "market": 42
-    },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
   },
   {
     "sector": "Ocean & Maritime",
@@ -83,25 +48,25 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
   },
   {
-    "sector": "Space & Aerospace",
+    "sector": "Nuclear Energy",
     "momentum": 45,
     "trend": "steady",
     "catalysts": [
-      "SpaceX wins $57 million U.S. military contract for satellite",
-      "NASA Shares SpaceX Crew-13 Assignments for Space Station Mis",
-      "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P"
+      "X-energy stock pops 27% on first day of trading following up",
+      "Nuclear startup X-energy raises $1B in data center-driven IP",
+      "Anthropic&#8217;s Nuclear Bomb"
     ],
-    "fundingQ": "$2.2B",
+    "fundingQ": "$800M",
     "components": {
-      "funding": 78,
-      "news": 60,
+      "funding": 83,
+      "news": 20,
       "hiring": 0,
-      "market": 14
+      "market": 54
     },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -117,16 +82,52 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
+  },
+  {
+    "sector": "Defense & Security",
+    "momentum": 44,
+    "trend": "steady",
+    "catalysts": [
+      "SpaceX wins $57 million U.S. military contract for satellite",
+      "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$22.3B",
+    "components": {
+      "funding": 100,
+      "news": 15,
+      "hiring": 0,
+      "market": 28
+    },
+    "lastUpdated": "2026-04-25"
+  },
+  {
+    "sector": "Space & Aerospace",
+    "momentum": 44,
+    "trend": "accelerating",
+    "catalysts": [
+      "SpaceX wins $57 million U.S. military contract for satellite",
+      "NASA Shares SpaceX Crew-13 Assignments for Space Station Mis",
+      "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P"
+    ],
+    "fundingQ": "$2.2B",
+    "components": {
+      "funding": 78,
+      "news": 65,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-04-25"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 29,
     "trend": "rising",
     "catalysts": [
-      "Rivian (RIVN) starts R2 production days after tornado hit fa",
-      "HII partners with Path Robotics, GrayMatter Robotics to acce",
-      "Vietnam&#8217;s VinDynamics, Germany&#8217;s Schaeffler to j"
+      "Accenture, Vodafone, and SAP to pilot humanoid robots in the",
+      "Hyundai Partners With Waymo To Produce An IONIQ 5 Robotaxi \u2014",
+      "Rivian (RIVN) starts R2 production days after tornado hit fa"
     ],
     "fundingQ": "$655M",
     "components": {
@@ -135,11 +136,45 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
+  },
+  {
+    "sector": "Chips & Semiconductors",
+    "momentum": 21,
+    "trend": "declining",
+    "catalysts": [
+      "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 5,
+      "hiring": 0,
+      "market": 100
+    },
+    "lastUpdated": "2026-04-25"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 18,
+    "trend": "declining",
+    "catalysts": [
+      "Accenture, Vodafone, and SAP to pilot humanoid robots in the",
+      "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?",
+      "SpaceX wins $57 million U.S. military contract for satellite"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 30,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-25"
   },
   {
     "sector": "Climate & Energy",
-    "momentum": 24,
+    "momentum": 17,
     "trend": "declining",
     "catalysts": [
       "Fervo Energy unveils new power plant details in IPO filing",
@@ -151,43 +186,9 @@
       "funding": 0,
       "news": 15,
       "hiring": 0,
-      "market": 100
+      "market": 67
     },
-    "lastUpdated": "2026-04-24"
-  },
-  {
-    "sector": "Chips & Semiconductors",
-    "momentum": 20,
-    "trend": "declining",
-    "catalysts": [
-      "Active chips & semiconductors ecosystem"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 0,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-24"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 16,
-    "trend": "declining",
-    "catalysts": [
-      "SpaceX wins $57 million U.S. military contract for satellite",
-      "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P",
-      "OpenAI releases GPT-5.5, bringing company one step closer to"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 25,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -205,7 +206,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
   },
   {
     "sector": "Housing & Construction",
@@ -221,11 +222,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
   },
   {
     "sector": "Transportation",
-    "momentum": 7,
+    "momentum": 5,
     "trend": "declining",
     "catalysts": [
       "Cape EMS expands into advanced interconnect engineering for",
@@ -236,13 +237,13 @@
       "funding": 7,
       "news": 10,
       "hiring": 0,
-      "market": 8
+      "market": 0
     },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
   },
   {
     "sector": "Biotech & Health",
-    "momentum": 6,
+    "momentum": 4,
     "trend": "declining",
     "catalysts": [
       "OpenAI's head of health lays out the AI giant\u2019s healthcare a"
@@ -252,9 +253,9 @@
       "funding": 9,
       "news": 5,
       "hiring": 0,
-      "market": 9
+      "market": 0
     },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
   },
   {
     "sector": "Quantum Computing",
@@ -270,6 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
   }
 ]

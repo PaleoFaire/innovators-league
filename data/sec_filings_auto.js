@@ -1,12 +1,19 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-24 08:11:15 UTC
+// Last updated: 2026-04-25 07:24:43 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "DEF 14A", date: "2026-04-24", description: "pltr-20260423.htm", isIPO: false, ticker: "PLTR" },
+  { company: "Virgin Galactic", form: "8-K", date: "2026-04-24", description: "spce-20260424.htm", isIPO: false, ticker: "SPCE" },
+  { company: "Centrus Energy", form: "DEF 14A", date: "2026-04-24", description: "leu-20260424.htm", isIPO: false, ticker: "LEU" },
+  { company: "Rigetti Computing", form: "DEF 14A", date: "2026-04-24", description: "tm261606-2_def14a.htm", isIPO: false, ticker: "RGTI" },
+  { company: "Recursion Pharmaceuticals", form: "4", date: "2026-04-24", description: "xslF345X06/wk-form4_1777062192.xml", isIPO: false, ticker: "RXRX" },
+  { company: "Joby Aviation", form: "8-K", date: "2026-04-24", description: "d207058d8k.htm", isIPO: false, ticker: "JOBY" },
+  { company: "Rivian", form: "4", date: "2026-04-24", description: "xslF345X06/wk-form4_1777063417.xml", isIPO: false, ticker: "RIVN" },
   { company: "NuScale Power", form: "4", date: "2026-04-23", description: "xslF345X06/wk-form4_1776940981.xml", isIPO: false, ticker: "SMR" },
   { company: "Centrus Energy", form: "4", date: "2026-04-23", description: "xslF345X06/wk-form4_1776962694.xml", isIPO: false, ticker: "LEU" },
   { company: "D-Wave Quantum", form: "DEF 14A", date: "2026-04-23", description: "qbts-20260422.htm", isIPO: false, ticker: "QBTS" },
   { company: "Astera Labs", form: "4", date: "2026-04-23", description: "xslF345X06/wk-form4_1776987959.xml", isIPO: false, ticker: "ALAB" },
-  { company: "Archer Aviation", form: "4", date: "2026-04-22", description: "xslF345X06/form4-04232026_120446.xml", isIPO: false, ticker: "ACHR" },
   { company: "Archer Aviation", form: "4", date: "2026-04-22", description: "xslF345X06/form4-04232026_120425.xml", isIPO: false, ticker: "ACHR" },
+  { company: "Archer Aviation", form: "4", date: "2026-04-22", description: "xslF345X06/form4-04232026_120446.xml", isIPO: false, ticker: "ACHR" },
   { company: "Rivian", form: "4", date: "2026-04-22", description: "xslF345X06/wk-form4_1776890579.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rivian", form: "4", date: "2026-04-22", description: "xslF345X06/wk-form4_1776890555.xml", isIPO: false, ticker: "RIVN" },
   { company: "Rivian", form: "4", date: "2026-04-22", description: "xslF345X06/wk-form4_1776890533.xml", isIPO: false, ticker: "RIVN" },
@@ -44,11 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "Virgin Galactic", form: "8-K", date: "2026-04-14", description: "spce-20260413.htm", isIPO: false, ticker: "SPCE" },
   { company: "Oklo", form: "8-K", date: "2026-04-14", description: "oklo-20260410.htm", isIPO: false, ticker: "OKLO" },
   { company: "Ginkgo Bioworks", form: "4", date: "2026-04-14", description: "xslF345X06/wk-form4_1776200454.xml", isIPO: false, ticker: "DNA" },
-  { company: "Intuitive Machines", form: "8-K", date: "2026-04-13", description: "tm2611649d1_8k.htm", isIPO: false, ticker: "LUNR" },
-  { company: "NuScale Power", form: "4", date: "2026-04-13", description: "xslF345X06/wk-form4_1776114526.xml", isIPO: false, ticker: "SMR" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-13", description: "xslF345X06/wk-form4_1776114037.xml", isIPO: false, ticker: "DNA" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-13", description: "xslF345X06/wk-form4_1776114009.xml", isIPO: false, ticker: "DNA" },
-  { company: "Astera Labs", form: "4", date: "2026-04-13", description: "xslF345X06/wk-form4_1776113737.xml", isIPO: false, ticker: "ALAB" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854931.xml", isIPO: false, ticker: "DNA" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-10", description: "xslF345X06/wk-form4_1775854911.xml", isIPO: false, ticker: "DNA" },
 ];
