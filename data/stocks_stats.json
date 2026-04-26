@@ -17,13 +17,13 @@
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -3.88,
+      "avg_change": -3.89,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.47,
+      "avg_change": -1.49,
       "count": 3
     },
     "climate": {
@@ -35,7 +35,7 @@
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.76,
+      "avg_change": -12.77,
       "count": 3
     },
     "biotech": {
@@ -61,7 +61,7 @@
     [
       "AMD",
       "AMD",
-      24.94
+      24.93
     ],
     [
       "ALAB",
@@ -71,7 +71,7 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      11.55
+      11.58
     ],
     [
       "LNZA",
@@ -103,7 +103,7 @@
     [
       "RGTI",
       "Rigetti Computing",
-      -16.15
+      -16.18
     ],
     [
       "EVTL",
@@ -111,5 +111,5 @@
       -20.74
     ]
   ],
-  "lastUpdated": "2026-04-26 13:15:24"
+  "lastUpdated": "2026-04-26 19:01:36"
 }
