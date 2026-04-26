@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-04-25 07:58:11 UTC
+// Last updated: 2026-04-26 08:09:55 UTC
 const ARXIV_PAPERS = [
   { id: "2604.21903v1", title: "A Scale-Adaptive Framework for Joint Spatiotemporal Super-Resolution with Diffusion Models", category: "Artificial Intelligence", published: "2026-04-23", sectors: "nuclear, ai", authors: "Max Defez, Filippo Quarenghi, Mathieu Vrac et al." },
   { id: "2604.21896v1", title: "Nemobot Games: Crafting Strategic AI Gaming Agents for Interactive Learning with Large Language Mode", category: "Artificial Intelligence", published: "2026-04-23", sectors: "ai", authors: "Chee Wei Tan, Yuchen Wang, Shangxin Guo" },

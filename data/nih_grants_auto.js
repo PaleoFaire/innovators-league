@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-04-25 07:57:48 UTC
-// Total grants: 628 | Known companies: 15 | SBIR: 15
-// Total funding tracked: $377,843,114
+// Last updated: 2026-04-26 08:09:37 UTC
+// Total grants: 628 | Known companies: 15 | SBIR: 14
+// Total funding tracked: $377,402,862
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -807,19 +807,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Project Summary/Abstract Recent technological advancements have allowed for single-neuron and intracranial electroencephalographic (iEEG) recordings in freely moving humans. However, these implanted n",
     terms: ["Acute", "Amygdaloid structure", "Area", "Augmented Reality", "Behavior", "Binge eating disorder", "Biochemical", "Biochemical Markers"],
-    isKnownCompany: false,
-  },
-  {
-    title: "AT191: An inhaled & precision RNA therapeutic with pan-variant SARS-CoV-2 efficacy",
-    organization: "AUTONOMOUS THERAPEUTICS, INC.",
-    orgState: "MD",
-    piName: "Timothy  Notton",
-    fiscalYear: 2025,
-    awardAmount: 1004473,
-    activityCode: "R44",
-    isSbir: true,
-    abstract: "PROJECT SUMMARY/ABSTRACT This Phase II SBIR will de-risk a new class of antivirals that can be developed to target any RNA virus from SARS-CoV-2 to influenza. The effort will specifically translate a ",
-    terms: ["2019-nCoV", "Ablation", "American", "Anti-viral Agents", "Binding", "Biological Assay", "Biological Products", "COVID-19"],
     isKnownCompany: false,
   },
   {
@@ -3095,6 +3082,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY Current treatments of diabetic kidney disease (DKD) mainly focus on managing the symptoms of diabetes and do not address the root causes of DKD. Among causal mechanisms associated with",
     terms: ["Address", "Affect", "Albuminuria", "Bioenergetics", "CRISPR interference", "CRISPR screen", "CRISPR-mediated transcriptional activation", "Candidate Disease Gene"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Improving response durability after CAR T cell therapy for multiple myeloma",
+    organization: "UNIVERSITY OF PENNSYLVANIA",
+    orgState: "PA",
+    piName: "Michael C. Milone",
+    fiscalYear: 2025,
+    awardAmount: 564221,
+    activityCode: "P01",
+    isSbir: false,
+    abstract: "PROJECT SUMMARY / ABSTRACT (PROJECT 3) Multiple myeloma (MM) is a hematologic malignancy of bone marrow plasma cells. Even though MM is almost universally fatal, modern therapy has markedly improved s",
+    terms: ["Adoptive Immunotherapy", "Antigen Targeting", "Antigen-Presenting Cells", "Antigens", "Autologous", "B-Lymphocytes", "Bone Marrow", "CAR T cell therapy"],
     isKnownCompany: false,
   },
   {

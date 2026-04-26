@@ -1,5 +1,5 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-25 07:59:31 UTC
+// Last updated: 2026-04-26 08:10:22 UTC
 const NASA_PROJECTS = [
   { id: 182855, title: "Mini-MARLI, a small lidar for measuring of atmospheric wind and dust profiles fr", status: "Completed", center: "Goddard Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "04/24/26" },
   { id: 116400, title: "Small Spacecraft Electric Propulsion System", status: "Completed", center: "", techArea: "Electrostatic Propulsion", lastUpdated: "04/23/26" },

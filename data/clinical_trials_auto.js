@@ -1,5 +1,5 @@
 // Auto-updated clinical trials from ClinicalTrials.gov
-// Last updated: 2026-04-25 07:57:54 UTC
+// Last updated: 2026-04-26 08:09:31 UTC
 const CLINICAL_TRIALS = [
   { nctId: "NCT05887882", title: "Intra-Tumoral Injections of Natural Killer Cells for Recurrent Malignant Pediatr", status: "SUSPENDED", phase: "PHASE1", sponsor: "Sabine Mueller, MD, PhD", conditions: "Pediatric Brain Tumor, Recurrent Pediatric Brain T", enrollment: 24, lastUpdated: "2026-04-24" },
   { nctId: "NCT01175993", title: "Effects of Rapid-Resisted Exercise and Bright Light Therapy on Ambulatory Adults", status: "COMPLETED", phase: "PHASE1, PHASE2", sponsor: "National Institutes of Health Clinical Center (CC)", conditions: "Adult, Traumatic Brain Injury, fMRI", enrollment: 34, lastUpdated: "2026-04-24" },
