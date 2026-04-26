@@ -1,21 +1,21 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 58,
+    "momentum": 59,
     "trend": "accelerating",
     "catalysts": [
-      "Google to invest up to $40B in Anthropic in cash and compute",
-      "Verda raises $117M to scale AI cloud infrastructure built on",
-      "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?"
+      "Anthropic created a test marketplace for agent-on-agent comm",
+      "OpenAI CEO apologizes to Tumbler Ridge community",
+      "Google to invest up to $40B in Anthropic in cash and compute"
     ],
-    "fundingQ": "$1194.2B",
+    "fundingQ": "$1194.6B",
     "components": {
       "funding": 100,
-      "news": 50,
+      "news": 55,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Drones & Autonomous",
@@ -32,7 +32,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Ocean & Maritime",
@@ -48,25 +48,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-25"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 45,
-    "trend": "steady",
-    "catalysts": [
-      "X-energy stock pops 27% on first day of trading following up",
-      "Nuclear startup X-energy raises $1B in data center-driven IP",
-      "Anthropic&#8217;s Nuclear Bomb"
-    ],
-    "fundingQ": "$800M",
-    "components": {
-      "funding": 83,
-      "news": 20,
-      "hiring": 0,
-      "market": 54
-    },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -82,7 +64,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Defense & Security",
@@ -100,25 +82,43 @@
       "hiring": 0,
       "market": 28
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 44,
+    "trend": "steady",
+    "catalysts": [
+      "X-energy stock pops 27% on first day of trading following up",
+      "Anthropic&#8217;s Nuclear Bomb",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$800M",
+    "components": {
+      "funding": 83,
+      "news": 15,
+      "hiring": 0,
+      "market": 54
+    },
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 44,
-    "trend": "accelerating",
+    "momentum": 41,
+    "trend": "steady",
     "catalysts": [
+      "SpaceX XAI 2027",
       "SpaceX wins $57 million U.S. military contract for satellite",
-      "NASA Shares SpaceX Crew-13 Assignments for Space Station Mis",
       "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 65,
+      "news": 55,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -136,23 +136,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Chips & Semiconductors",
-    "momentum": 21,
+    "momentum": 20,
     "trend": "declining",
     "catalysts": [
-      "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI"
+      "Active chips & semiconductors ecosystem"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 5,
+      "news": 0,
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Consumer Tech",
@@ -170,7 +170,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Climate & Energy",
@@ -188,7 +188,7 @@
       "hiring": 0,
       "market": 67
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -206,7 +206,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Housing & Construction",
@@ -222,7 +222,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Transportation",
@@ -239,7 +239,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Biotech & Health",
@@ -255,7 +255,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   },
   {
     "sector": "Quantum Computing",
@@ -271,6 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-25"
+    "lastUpdated": "2026-04-26"
   }
 ]

@@ -1,5 +1,5 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-25 07:24:43 UTC
+// Last updated: 2026-04-26 07:45:56 UTC
 const SEC_FILINGS_LIVE = [
   { company: "Palantir Technologies", form: "DEF 14A", date: "2026-04-24", description: "pltr-20260423.htm", isIPO: false, ticker: "PLTR" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-04-24", description: "spce-20260424.htm", isIPO: false, ticker: "SPCE" },

@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-04-25T07:25:35.500778Z",
+  "generated_at": "2026-04-26T07:46:42.789696Z",
   "takes": [
-    {
-      "author": "Next Big Future",
-      "role": "Industry signal",
-      "company": "SpaceX",
-      "text": "SpaceX Has Option to Buy Cursor for $60 Billion &#8211; XAI and Cursor Try to Catch Athropic Claude Code",
-      "date": "Wed, 22 Ap",
-      "source": "news",
-      "source_url": "https://www.nextbigfuture.com/2026/04/spacex-has-option-to-buy-cursor-for-60-billion-xai-and-cursor-try-to-catch-athropic-claude-code.html",
-      "signal_type": "ipo"
-    },
     {
       "author": "SpaceNews",
       "role": "Industry signal",
@@ -52,16 +42,6 @@
       "signal_type": "news"
     },
     {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "X-Energy",
-      "text": "Nuclear startup X-energy raises $1B in data center-driven IPO",
-      "date": "Fri, 24 Ap",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/04/24/nuclear-startup-x-energy-raises-1b-in-data-center-driven-ipo/",
-      "signal_type": "funding"
-    },
-    {
       "author": "Tech.eu",
       "role": "Industry signal",
       "company": "Cohere",
@@ -85,7 +65,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 8,
+    "from_news": 6,
     "from_press": 0
   }
 }
