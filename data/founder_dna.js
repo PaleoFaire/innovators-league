@@ -1,4 +1,4 @@
-// Founder DNA Index — Auto-generated 2026-04-27 09:24
+// Founder DNA Index — Auto-generated 2026-04-27 09:44
 // 870 company founder profiles + 16 sector aggregations + 16 serial founders
 // Cross-referenced from COMPANIES, FOUNDER_MAFIAS, INNOVATOR_SCORES
 // DO NOT EDIT — regenerate with: python3 scripts/generate_founder_dna.py
@@ -20945,8 +20945,8 @@ const FOUNDER_SERIAL_MAP = [
     ],
     "sectors": [
       "Transportation",
-      "Space & Aerospace",
-      "AI & Software"
+      "AI & Software",
+      "Space & Aerospace"
     ],
     "totalCapitalRaisedM": 53975.0
   },
@@ -21116,8 +21116,8 @@ const FOUNDER_SERIAL_MAP = [
       "Fergani Space"
     ],
     "sectors": [
-      "Space & Aerospace",
-      "Defense & Security"
+      "Defense & Security",
+      "Space & Aerospace"
     ],
     "totalCapitalRaisedM": 0
   }
