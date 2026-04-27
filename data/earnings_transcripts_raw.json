@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-04-26 08:21:18 UTC",
-    "total_targets": 31,
-    "with_excerpts": 25,
+    "generated_at": "2026-04-27 10:12:32 UTC",
+    "total_targets": 127,
+    "with_excerpts": 82,
     "sources": [
       "none",
       "sec_edgar",
@@ -348,6 +348,984 @@
         "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
       ],
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000091/0001652044-25-000091-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "HII",
+      "company": "Huntington Ingalls",
+      "quarter": "2026-Q1",
+      "date": "2025-10-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158525000112/0001501585-25-000112-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "TXT",
+      "company": "Textron",
+      "quarter": "2026-Q1",
+      "date": "2025-10-23",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/217346/000021734625000077/0000217346-25-000077-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "TDG",
+      "company": "TransDigm",
+      "quarter": "2026-Q1",
+      "date": "2026-02-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022126000017/0001260221-26-000017-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "HEI",
+      "company": "Heico",
+      "quarter": "2026-Q1",
+      "date": "2026-02-27",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/46619/000004661926000005/0000046619-26-000005-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "TDY",
+      "company": "Teledyne Technologies",
+      "quarter": "2026-Q1",
+      "date": "2026-04-24",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1094285/000109428526000030/0001094285-26-000030-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "AXON",
+      "company": "Axon Enterprise",
+      "quarter": "2026-Q1",
+      "date": "2025-11-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069183/000162828025049143/0001628280-25-049143-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "KTOS",
+      "company": "Kratos Defense",
+      "quarter": "2026-Q1",
+      "date": "2025-11-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925825000058/0001069258-25-000058-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "AVAV",
+      "company": "AeroVironment",
+      "quarter": "2026-Q1",
+      "date": "2026-03-10",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926025979/0001104659-26-025979-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "MRCY",
+      "company": "Mercury Systems",
+      "quarter": "2026-Q1",
+      "date": "2026-02-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1049521/000104952126000006/0001049521-26-000006-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "CW",
+      "company": "Curtiss-Wright",
+      "quarter": "2026-Q1",
+      "date": "2025-11-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/26324/000162828025050106/0001628280-25-050106-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "MOG-A",
+      "company": "Moog",
+      "quarter": "2026-Q1",
+      "date": "2026-04-24",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026027064/0001628280-26-027064-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "HWM",
+      "company": "Howmet Aerospace",
+      "quarter": "2026-Q1",
+      "date": "2025-10-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/4281/000162828025047584/0001628280-25-047584-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "BA.L",
+      "company": "BAE Systems (UK)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.baesystems.com/en/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "HO.PA",
+      "company": "Thales (France)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.thalesgroup.com/en/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "AIR.PA",
+      "company": "Airbus (France)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.airbus.com/en/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "LDO.MI",
+      "company": "Leonardo (Italy)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.leonardo.com/en/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "RHM.DE",
+      "company": "Rheinmetall (Germany)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.rheinmetall.com/en/investor-relations",
+      "source": "none"
+    },
+    {
+      "ticker": "SAAB-B.ST",
+      "company": "Saab (Sweden)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.saab.com/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "KOG.OL",
+      "company": "Kongsberg (Norway)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.kongsberg.com/investors/",
+      "source": "none"
+    },
+    {
+      "ticker": "7011.T",
+      "company": "Mitsubishi Heavy Industries (Japan)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.mhi.com/expertise/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "7012.T",
+      "company": "Kawasaki Heavy Industries (Japan)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://global.kawasaki.com/en/corp/ir/",
+      "source": "none"
+    },
+    {
+      "ticker": "AM.PA",
+      "company": "Dassault Aviation (France)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.dassault-aviation.com/en/group/finance/",
+      "source": "none"
+    },
+    {
+      "ticker": "MU",
+      "company": "Micron Technology",
+      "quarter": "2026-Q1",
+      "date": "2026-03-18",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/0000723125-26-000006-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "QCOM",
+      "company": "Qualcomm",
+      "quarter": "2026-Q1",
+      "date": "2026-02-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000017/0000804328-26-000017-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "AVGO",
+      "company": "Broadcom",
+      "quarter": "2026-Q1",
+      "date": "2026-03-11",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/0001730168-26-000016-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "MRVL",
+      "company": "Marvell Technology",
+      "quarter": "2026-Q1",
+      "date": "2025-12-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563225000197/0001835632-25-000197-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "LRCX",
+      "company": "Lam Research",
+      "quarter": "2026-Q1",
+      "date": "2026-04-23",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000022/0000707549-26-000022-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "ARM",
+      "company": "Arm Holdings",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.arm.com/",
+      "source": "none"
+    },
+    {
+      "ticker": "TER",
+      "company": "Teradyne",
+      "quarter": "2026-Q1",
+      "date": "2025-10-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/97210/000119312525258477/0001193125-25-258477-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "ENTG",
+      "company": "Entegris",
+      "quarter": "2026-Q1",
+      "date": "2025-10-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130225000103/0001101302-25-000103-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "ON",
+      "company": "ON Semiconductor",
+      "quarter": "2026-Q1",
+      "date": "2025-11-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1097864/000109786425000019/0001097864-25-000019-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "TXN",
+      "company": "Texas Instruments",
+      "quarter": "2026-Q1",
+      "date": "2026-04-24",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/97476/000009747626000101/0000097476-26-000101-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "SNPS",
+      "company": "Synopsys",
+      "quarter": "2026-Q1",
+      "date": "2026-02-25",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000014/0000883241-26-000014-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "CDNS",
+      "company": "Cadence Design",
+      "quarter": "2026-Q1",
+      "date": "2025-10-28",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/813672/000081367225000148/0000813672-25-000148-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "005930.KS",
+      "company": "Samsung Electronics (Korea)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.samsung.com/global/ir/",
+      "source": "none"
+    },
+    {
+      "ticker": "000660.KS",
+      "company": "SK Hynix (Korea)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.skhynix.com/eng/sub01/investor.jsp",
+      "source": "none"
+    },
+    {
+      "ticker": "8035.T",
+      "company": "Tokyo Electron (Japan)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.tel.com/ir/",
+      "source": "none"
+    },
+    {
+      "ticker": "6857.T",
+      "company": "Advantest (Japan)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.advantest.com/en/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "STM",
+      "company": "STMicroelectronics (Switzerland)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.st.com/",
+      "source": "none"
+    },
+    {
+      "ticker": "ORCL",
+      "company": "Oracle",
+      "quarter": "2026-Q1",
+      "date": "2026-03-11",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/0001193125-26-101045-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "NET",
+      "company": "Cloudflare",
+      "quarter": "2026-Q1",
+      "date": "2025-10-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000141/0001477333-25-000141-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "EQIX",
+      "company": "Equinix",
+      "quarter": "2026-Q1",
+      "date": "2025-10-29",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123925000062/0001101239-25-000062-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "DLR",
+      "company": "Digital Realty",
+      "quarter": "2026-Q1",
+      "date": "2025-10-31",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1297996/000110465925104945/0001104659-25-104945-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "SNOW",
+      "company": "Snowflake",
+      "quarter": "2026-Q1",
+      "date": "2025-12-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000211/0001640147-25-000211-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "DDOG",
+      "company": "Datadog",
+      "quarter": "2026-Q1",
+      "date": "2025-11-07",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1561550/000156155025000313/0001561550-25-000313-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "CRWV",
+      "company": "CoreWeave",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://investors.coreweave.com/",
+      "source": "none"
+    },
+    {
+      "ticker": "MDB",
+      "company": "MongoDB",
+      "quarter": "2026-Q1",
+      "date": "2025-12-02",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1441816/000162828025054768/0001628280-25-054768-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "ROK",
+      "company": "Rockwell Automation",
+      "quarter": "2026-Q1",
+      "date": "2026-02-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000005/0001024478-26-000005-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "EMR",
+      "company": "Emerson Electric",
+      "quarter": "2026-Q1",
+      "date": "2026-02-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/32604/000003260426000007/0000032604-26-000007-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "ETN",
+      "company": "Eaton",
+      "quarter": "2026-Q1",
+      "date": "2025-11-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118225000036/0001551182-25-000036-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "PH",
+      "company": "Parker Hannifin",
+      "quarter": "2026-Q1",
+      "date": "2026-01-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000008/0000076334-26-000008-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "HON",
+      "company": "Honeywell",
+      "quarter": "2026-Q1",
+      "date": "2026-04-23",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/773840/000077384026000057/0000773840-26-000057-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "ZBRA",
+      "company": "Zebra Technologies",
+      "quarter": "2026-Q1",
+      "date": "2025-10-28",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/877212/000162828025046778/0001628280-25-046778-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "6954.T",
+      "company": "Fanuc (Japan)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.fanuc.com/en/ir.html",
+      "source": "none"
+    },
+    {
+      "ticker": "6594.T",
+      "company": "Nidec (Japan)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.nidec.com/en/ir/",
+      "source": "none"
+    },
+    {
+      "ticker": "ABBNY",
+      "company": "ABB (Switzerland)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://global.abb/group/en/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "SU.PA",
+      "company": "Schneider Electric (France)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.se.com/ww/en/about-us/investor-relations/",
+      "source": "none"
+    },
+    {
+      "ticker": "RIVN",
+      "company": "Rivian Automotive",
+      "quarter": "2026-Q1",
+      "date": "2025-11-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417825000052/0001874178-25-000052-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "AUR",
+      "company": "Aurora Innovation",
+      "quarter": "2026-Q1",
+      "date": "2025-10-28",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1828108/000182810825000157/0001828108-25-000157-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "MBLY",
+      "company": "Mobileye",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.mobileye.com/",
+      "source": "none"
+    },
+    {
+      "ticker": "NIO",
+      "company": "NIO (China)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.nio.com/",
+      "source": "none"
+    },
+    {
+      "ticker": "XPEV",
+      "company": "XPeng (China)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.xiaopeng.com/",
+      "source": "none"
+    },
+    {
+      "ticker": "LI",
+      "company": "Li Auto (China)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ir.lixiang.com/",
+      "source": "none"
+    },
+    {
+      "ticker": "BYDDY",
+      "company": "BYD (China)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.bydglobal.com/en/InvestorRelations.html",
+      "source": "none"
+    },
+    {
+      "ticker": "7203.T",
+      "company": "Toyota Motor (Japan)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://global.toyota/en/ir/",
+      "source": "none"
+    },
+    {
+      "ticker": "005380.KS",
+      "company": "Hyundai Motor (Korea)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.hyundai.com/worldwide/en/company/investor-relations",
+      "source": "none"
+    },
+    {
+      "ticker": "VOW3.DE",
+      "company": "Volkswagen (Germany)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.volkswagenag.com/en/InvestorRelations.html",
+      "source": "none"
+    },
+    {
+      "ticker": "RKLB",
+      "company": "Rocket Lab",
+      "quarter": "2026-Q1",
+      "date": "2025-11-10",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999425000021/0001819994-25-000021-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "ACHR",
+      "company": "Archer Aviation",
+      "quarter": "2026-Q1",
+      "date": "2025-11-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1824502/000182450225000010/0001824502-25-000010-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "JOBY",
+      "company": "Joby Aviation",
+      "quarter": "2026-Q1",
+      "date": "2025-11-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819848/000181984825000596/0001819848-25-000596-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "PL",
+      "company": "Planet Labs",
+      "quarter": "2026-Q1",
+      "date": "2025-12-10",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1836833/000119312525314295/0001193125-25-314295-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "IRDM",
+      "company": "Iridium Communications",
+      "quarter": "2026-Q1",
+      "date": "2026-04-23",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000026/0001418819-26-000026-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "ASTS",
+      "company": "AST SpaceMobile",
+      "quarter": "2026-Q1",
+      "date": "2025-11-10",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1780312/000119312525274391/0001193125-25-274391-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "LUNR",
+      "company": "Intuitive Machines",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.intuitivemachines.com/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "9348.T",
+      "company": "ispace (Japan)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://ispace-inc.com/inv/",
+      "source": "none"
+    },
+    {
+      "ticker": "OKLO",
+      "company": "Oklo",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://oklo.com/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "SMR",
+      "company": "NuScale Power",
+      "quarter": "2026-Q1",
+      "date": "2025-11-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1822966/000182296625000175/0001822966-25-000175-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "NNE",
+      "company": "Nano Nuclear Energy",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://nanonuclearenergy.com/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "BWXT",
+      "company": "BWX Technologies",
+      "quarter": "2026-Q1",
+      "date": "2025-11-03",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1486957/000148695725000059/0001486957-25-000059-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "NEE",
+      "company": "NextEra Energy",
+      "quarter": "2026-Q1",
+      "date": "2026-04-23",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/753308/000075330826000031/0000753308-26-000031-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "QS",
+      "company": "QuantumScape",
+      "quarter": "2026-Q1",
+      "date": "2026-04-24",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1811414/000119312526177161/0001193125-26-177161-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "MP",
+      "company": "MP Materials",
+      "quarter": "2026-Q1",
+      "date": "2025-11-07",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136825000054/0001801368-25-000054-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "LAC",
+      "company": "Lithium Americas",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://lithiumamericas.com/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "ALB",
+      "company": "Albemarle",
+      "quarter": "2026-Q1",
+      "date": "2025-11-05",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/915913/000091591325000162/0000915913-25-000162-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "6752.T",
+      "company": "Panasonic (Japan)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.panasonic.com/global/corporate/ir.html",
+      "source": "none"
+    },
+    {
+      "ticker": "051910.KS",
+      "company": "LG Chem (Korea)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.lgchem.com/main/ir",
+      "source": "none"
+    },
+    {
+      "ticker": "BHP",
+      "company": "BHP Group (Australia)",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.bhp.com/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "RIO",
+      "company": "Rio Tinto",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.riotinto.com/en/invest",
+      "source": "none"
+    },
+    {
+      "ticker": "PWR",
+      "company": "Quanta Services",
+      "quarter": "2026-Q1",
+      "date": "2025-10-30",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091525000111/0001050915-25-000111-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "GEV",
+      "company": "GE Vernova",
+      "quarter": "pending",
+      "date": "",
+      "transcript_excerpts": [],
+      "source_url": "https://www.gevernova.com/investors",
+      "source": "none"
+    },
+    {
+      "ticker": "GE",
+      "company": "GE Aerospace",
+      "quarter": "2026-Q1",
+      "date": "2026-04-21",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000027/0000040545-26-000027-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "GNRC",
+      "company": "Generac",
+      "quarter": "2026-Q1",
+      "date": "2025-11-04",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774925033048/0001437749-25-033048-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "ISRG",
+      "company": "Intuitive Surgical",
+      "quarter": "2026-Q1",
+      "date": "2026-04-22",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000032/0001035267-26-000032-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "ILMN",
+      "company": "Illumina",
+      "quarter": "2026-Q1",
+      "date": "2025-10-31",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1110803/000111080325000073/0001110803-25-000073-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "TXG",
+      "company": "10x Genomics",
+      "quarter": "2026-Q1",
+      "date": "2025-11-06",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1770787/000162828025050332/0001628280-25-050332-index.htm",
+      "source": "sec_edgar"
+    },
+    {
+      "ticker": "TWST",
+      "company": "Twist Bioscience",
+      "quarter": "2026-Q1",
+      "date": "2026-02-26",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1581280/000158128026000029/0001581280-26-000029-index.htm",
       "source": "sec_edgar"
     }
   ]

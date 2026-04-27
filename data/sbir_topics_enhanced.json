@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T08:22:38.767859+00:00",
+  "generated_at": "2026-04-27T10:17:36.621337+00:00",
   "total_topics": 10,
   "topics": [
     {
@@ -92,7 +92,7 @@
         {
           "company": "Nordic Air Defence",
           "sector": "Defense & Security",
-          "bid_fit_score": 11.6,
+          "bid_fit_score": 11.7,
           "matched_terms": [
             "uas",
             "counter",
@@ -568,6 +568,15 @@
           ]
         },
         {
+          "company": "Panthalassa",
+          "sector": "Climate & Energy",
+          "bid_fit_score": 11.1,
+          "matched_terms": [
+            "energy",
+            "water"
+          ]
+        },
+        {
           "company": "Senra Systems",
           "sector": "Robotics & Manufacturing",
           "bid_fit_score": 9.9,
@@ -580,19 +589,9 @@
         {
           "company": "Pale Blue",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 9.7,
+          "bid_fit_score": 9.5,
           "matched_terms": [
             "water"
-          ]
-        },
-        {
-          "company": "WeaveGrid",
-          "sector": "Climate & Energy",
-          "bid_fit_score": 9.3,
-          "matched_terms": [
-            "energy",
-            "infrastructure",
-            "learning"
           ]
         }
       ],
@@ -621,7 +620,7 @@
         {
           "company": "Cascade Space",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 28.9,
+          "bid_fit_score": 28.7,
           "matched_terms": [
             "deep",
             "space",
@@ -649,7 +648,7 @@
         {
           "company": "Starpath Robotics",
           "sector": "Space & Aerospace",
-          "bid_fit_score": 18.7,
+          "bid_fit_score": 18.6,
           "matched_terms": [
             "space",
             "deep"
@@ -673,16 +672,15 @@
           ]
         },
         {
-          "company": "Pulsar Fusion",
+          "company": "Scout Space",
           "sector": "Space & Aerospace",
           "bid_fit_score": 16.7,
           "matched_terms": [
-            "propulsion",
             "space"
           ]
         },
         {
-          "company": "Morpheus Space",
+          "company": "Pulsar Fusion",
           "sector": "Space & Aerospace",
           "bid_fit_score": 16.7,
           "matched_terms": [
