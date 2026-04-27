@@ -1,21 +1,21 @@
 {
   "date": "2026-04-27",
   "display_date": "Apr 27, 2026",
-  "generated_at": "2026-04-27T04:11:39.665608+00:00",
-  "cutoff": "2026-04-20T04:11:39.665608+00:00",
+  "generated_at": "2026-04-27T11:49:34.715392+00:00",
+  "cutoff": "2026-04-20T11:49:34.715392+00:00",
   "section_count": 8,
-  "total_items": 1109,
+  "total_items": 1118,
   "sections": [
     {
       "title": "Top Score Movers",
       "icon": "\ud83d\udcc8",
-      "count": 870,
+      "count": 869,
       "items": [
         {
           "company": "ICON",
-          "current": 95.5,
+          "current": 97.5,
           "previous": 31.0,
-          "change": 64.5,
+          "change": 66.5,
           "tier": "elite"
         },
         {
@@ -47,6 +47,13 @@
           "tier": "exceptional"
         },
         {
+          "company": "Infleqtion",
+          "current": 91.5,
+          "previous": 37.0,
+          "change": 54.5,
+          "tier": "elite"
+        },
+        {
           "company": "AIR",
           "current": 86.0,
           "previous": 31.5,
@@ -73,13 +80,6 @@
           "previous": 31.5,
           "change": 52.5,
           "tier": "exceptional"
-        },
-        {
-          "company": "Heven AeroTech",
-          "current": 90.0,
-          "previous": 38.0,
-          "change": 52.0,
-          "tier": "elite"
         }
       ]
     },
@@ -162,61 +162,67 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 31,
+      "count": 39,
       "items": [
         {
-          "title": "Duke Energy Carolinas, LLC; Belews Creek, North Carolina Site, Early Site Permit, Notice of Intent To Conduct Scoping Pr",
+          "title": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to U.S. Army Corps of Engin",
           "type": "Notice",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Commerce Department",
+            "National Oceanic and Atmospheric Administration"
           ],
           "significant": false,
           "date": "2026-04-27"
         },
         {
-          "title": "U.S. Department of Energy; Three Mile Island Unit 2 Independent Spent Fuel Storage Installation; License Amendment",
-          "type": "Notice",
+          "title": "Endangered and Threatened Wildlife and Plants; Designation of Critical Habitat for the Rayed Bean, Sheepnose, Snuffbox, ",
+          "type": "Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Interior Department",
+            "Fish and Wildlife Service"
           ],
           "significant": false,
           "date": "2026-04-27"
         },
         {
-          "title": "Response to Petition To Change Regulation of Phosphogypsum Under RCRA",
-          "type": "Notice",
+          "title": "Energy Conservation Program: Notification of Petition for Rulemaking",
+          "type": "Proposed Rule",
           "agencies": [
-            "Environmental Protection Agency"
+            "Energy Department"
           ],
           "significant": false,
-          "date": "2026-04-24"
+          "date": "2026-04-27"
         },
         {
-          "title": "Environmental Impact Statements; Notice of Availability",
-          "type": "Notice",
-          "agencies": [
-            "Environmental Protection Agency"
-          ],
-          "significant": false,
-          "date": "2026-04-24"
-        },
-        {
-          "title": "Cost Expenditure Criteria for Research and Development Utilization Facilities",
+          "title": "Administrative Rulemaking, Guidance, and Enforcement Procedures",
           "type": "Rule",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Transportation Department",
+            "Transportation Department",
+            "Pipeline and Hazardous Materials Safety Administration"
           ],
           "significant": false,
-          "date": "2026-04-24"
+          "date": "2026-04-27"
         },
         {
-          "title": "Generic Environmental Impact Statement for Licensing of New Nuclear Reactors",
-          "type": "Rule",
+          "title": "Eunice Kennedy Shriver National Institute of Child Health & Human Development; Notice of Meeting",
+          "type": "Notice",
           "agencies": [
-            "Nuclear Regulatory Commission"
+            "Health and Human Services Department",
+            "National Institutes of Health"
           ],
           "significant": false,
-          "date": "2026-04-24"
+          "date": "2026-04-27"
+        },
+        {
+          "title": "National Institute on Deafness and Other Communication Disorders; Notice of Meeting",
+          "type": "Notice",
+          "agencies": [
+            "Health and Human Services Department",
+            "National Institutes of Health"
+          ],
+          "significant": false,
+          "date": "2026-04-27"
         }
       ]
     },
@@ -309,102 +315,102 @@
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 49,
+      "count": 50,
       "items": [
         {
-          "title": "DeepSeek v4",
-          "score": 2041,
-          "comments": 1555,
+          "title": "Amateur armed with ChatGPT solves an Erd\u0151s problem",
+          "score": 759,
+          "comments": 543,
           "companies": [
-            "Hugging Face"
+            "OpenAI"
           ],
-          "url": "https://news.ycombinator.com/item?id=47884971"
+          "url": "https://news.ycombinator.com/item?id=47903126"
         },
         {
-          "title": "I cancelled Claude: Token issues, declining quality, and poor support",
-          "score": 946,
-          "comments": 565,
+          "title": "Tell HN: An app is silently installing itself on my iPhone every day",
+          "score": 549,
+          "comments": 183,
           "companies": [
-            "Anthropic"
+            "Matic Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=47892019"
+          "url": "https://news.ycombinator.com/item?id=47906253"
         },
         {
-          "title": "Google plans to invest up to $40B in Anthropic",
-          "score": 801,
-          "comments": 804,
+          "title": "Sawe becomes first athlete to run a sub-two-hour marathon in a competitive race",
+          "score": 402,
+          "comments": 274,
           "companies": [
-            "Anthropic"
+            "Mara"
           ],
-          "url": "https://news.ycombinator.com/item?id=47892074"
+          "url": "https://news.ycombinator.com/item?id=47914350"
         },
         {
-          "title": "New 10 GbE USB adapters are cooler, smaller, cheaper",
-          "score": 575,
-          "comments": 345,
+          "title": "EU Age Control: The trojan horse for digital IDs",
+          "score": 342,
+          "comments": 198,
           "companies": [
-            "Ada"
+            "Agility Robotics"
           ],
-          "url": "https://news.ycombinator.com/item?id=47899053"
+          "url": "https://news.ycombinator.com/item?id=47907130"
         },
         {
-          "title": "Sabotaging projects by overthinking, scope creep, and structural diffing",
-          "score": 518,
-          "comments": 134,
+          "title": "SWE-bench Verified no longer measures frontier coding capabilities",
+          "score": 313,
+          "comments": 170,
           "companies": [
-            "Retro Biosciences",
-            "Altos Labs"
+            "OpenAI"
           ],
-          "url": "https://news.ycombinator.com/item?id=47890799"
+          "url": "https://news.ycombinator.com/item?id=47910388"
         },
         {
-          "title": "How to be anti-social \u2013 a guide to incoherent and isolating social experiences",
-          "score": 371,
-          "comments": 344,
+          "title": "Fast16: High-precision software sabotage 5 years before Stuxnet",
+          "score": 272,
+          "comments": 55,
           "companies": [
-            "Cohere"
+            "Atomic Industries",
+            "Reveal Technology"
           ],
-          "url": "https://news.ycombinator.com/item?id=47888372"
+          "url": "https://news.ycombinator.com/item?id=47913855"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 108,
+      "count": 109,
       "items": [
         {
-          "title": "Auto China 2026: LEPAS Unveils NEV Portfolio, Kicking Off Its \u00abYear of Delivery\u00bb",
+          "title": "SCHMID Group N.V. Provides Q1 2026 Business Update and Balance-sheet Strengthening",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "From Next-Generation Mobility to Global Expansion: iCAUR Demonstrated Its Vision at Beijing Auto Show 2026",
+          "title": "Fulcrum Therapeutics Appoints Josh Lehrer to its Board of Directors",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Rekordh\u00f6g kvartalsproduktion och operativt kassafl\u00f6de",
+          "title": "Form 8.5 (EPT/RI)- Gamma Communications Plc",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Product Recall: PC\u00ae Cola",
+          "title": "Man Group PLC : Form 8.3 - A consortium comprising LondonMetric Property plc and Schroder Real Estate Investment Trust L",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Rappel de produit : Cola PC(MD)",
+          "title": "Eton Pharmaceuticals Announces Initiation of Clinical Study for Product Candidate ET-700",
           "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "New Species Unveiled! iCAUR Break Boundaries, Take You Anywhere",
+          "title": "Notice of Calling the Annual General Meeting of AS Pro Kapital Grupp Shareholders",
           "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-04-27-3111883473d4"
+  "brief_id": "brief-2026-04-27-1ca3fb6dbcf8"
 }
