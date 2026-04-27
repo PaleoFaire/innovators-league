@@ -88,6 +88,13 @@ PODCASTS = [
     # Removed sources with broken/changed RSS endpoints (BG2 Pod, Modern Wisdom,
     # Logan Bartlett Show, TWIST). To re-add: find current RSS via the
     # podcast's web page. Many switched providers in 2024-25.
+    {
+        "name": "TBPN",
+        "host": "John Coogan + Jordi Hays",
+        "url": "https://feeds.transistor.fm/technology-brother",
+        "weight": 0.95,  # Very high signal — daily live tech show, specifically
+                          # surfaces frontier-tech founders. Acquired by OpenAI 4/2026.
+    },
 ]
 
 HTTP_HEADERS = {

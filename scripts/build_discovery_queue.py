@@ -233,6 +233,43 @@ def collect_newsletter_signals(known):
     return out
 
 
+def collect_llm_extracted_signals(known):
+    """LLM-extracted candidates from podcasts + newsletters (high-precision
+    extraction by Claude). These are typically the BEST quality signals
+    when ANTHROPIC_API_KEY is set in CI."""
+    fp = DATA_DIR / "scout_llm_extracted.json"
+    if not fp.exists():
+        return []
+    raw = json.load(open(fp))
+    out = []
+    for c in raw.get("candidates", []):
+        if is_known(c["name"], known):
+            continue
+        # LLM-flagged stealth + high-confidence = highest weight
+        confidence = c.get("confidence", "medium")
+        weight_map = {"high": 30, "medium": 18, "low": 8}
+        weight = weight_map.get(confidence, 10)
+        if c.get("stealthSignal"):
+            weight += 8
+
+        for d in c.get("discoveries", []):
+            out.append({
+                "name": c["name"],
+                "source": f"LLM ({d.get('source', '?')})",
+                "sourceWeight": weight,
+                "context": c.get("description") or "",
+                "founder": ", ".join(c.get("founders") or []),
+                "fundingMentioned": c.get("fundingMentioned"),
+                "stealthSignal": c.get("stealthSignal", False),
+                "confidence": confidence,
+                "date": d.get("date"),
+                "verifyUrl": d.get("url"),
+                "articleTitle": d.get("title"),
+                "suggestedSector": (c.get("sectors") or [None])[0],
+            })
+    return out
+
+
 def fmt_amount(n):
     if not n:
         return "?"
@@ -253,15 +290,17 @@ def main():
     form_d = collect_form_d_signals(known)
     vc = collect_vc_portfolio_signals(known)
     news = collect_newsletter_signals(known)
+    llm = collect_llm_extracted_signals(known)
 
-    print(f"  Form D candidates:      {len(form_d)}")
-    print(f"  VC portfolio additions: {len(vc)}")
-    print(f"  Newsletter mentions:    {len(news)}")
+    print(f"  Form D candidates:        {len(form_d)}")
+    print(f"  VC portfolio additions:   {len(vc)}")
+    print(f"  Newsletter (regex NER):   {len(news)}")
+    print(f"  LLM-extracted (podcasts+): {len(llm)}")
     print()
 
     # Aggregate by normalized company name
     by_name = {}
-    for sig in form_d + vc + news:
+    for sig in form_d + vc + news + llm:
         key = normalize_name(sig["name"])
         if not key:
             continue
@@ -342,6 +381,7 @@ def main():
             "fromFormD": len(form_d),
             "fromVcPortfolios": len(vc),
             "fromNewsletters": len(news),
+            "fromLlmExtraction": len(llm),
             "multiSource": sum(1 for c in candidates if c["multiSource"]),
         },
         "candidates": candidates,

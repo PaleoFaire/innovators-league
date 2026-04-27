@@ -82,6 +82,48 @@ SOURCES = [
         "url": "https://brief.bismarckanalysis.com/feed",
         "weight": 0.6,
     },
+    # ─── Traditional tech media (broader coverage, lower per-item signal) ───
+    {
+        "name": "TechCrunch · Venture",
+        "url": "https://techcrunch.com/category/venture/feed/",
+        "weight": 0.5,
+    },
+    {
+        "name": "The Information",
+        "url": "https://www.theinformation.com/feed",
+        "weight": 0.7,
+    },
+    {
+        "name": "Rest of World",
+        "url": "https://restofworld.org/feed",
+        "weight": 0.6,  # Non-Western frontier-tech
+    },
+    {
+        "name": "404 Media",
+        "url": "https://www.404media.co/feed",
+        "weight": 0.6,
+    },
+    {
+        "name": "SemiAnalysis (Dylan Patel)",
+        "url": "https://www.semianalysis.com/feed",
+        "weight": 0.85,  # Chips, AI compute — high frontier signal
+    },
+    {
+        "name": "Stratechery (Ben Thompson)",
+        "url": "https://stratechery.com/feed/",
+        "weight": 0.7,
+    },
+    {
+        "name": "Platformer (Casey Newton)",
+        "url": "https://www.platformer.news/rss",
+        "weight": 0.5,
+    },
+    # ─── AI-specific high-signal sources ───
+    {
+        "name": "Import AI (Jack Clark)",
+        "url": "https://importai.substack.com/feed",
+        "weight": 0.85,
+    },
 ]
 
 # Frontier-tech positive keywords (scoring +1 each)

@@ -1,10 +1,10 @@
 // Auto-generated from scout_briefing_auto.json
-// Last updated: 2026-04-27T07:17:51+00:00
+// Last updated: 2026-04-27T08:03:11+00:00
 const SCOUT_BRIEFING_AUTO = {
-  "generatedAt": "2026-04-27T07:17:51+00:00",
+  "generatedAt": "2026-04-27T08:03:11+00:00",
   "weekOf": "2026-04-27",
   "summary": {
-    "rosterSize": 1006,
+    "rosterSize": 1007,
     "candidatesScreened": 222,
     "topPicks": 5,
     "runnerUp": 10,

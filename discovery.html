@@ -290,6 +290,121 @@
         background: rgba(239,68,68,0.15);
         border-color: rgba(239,68,68,0.3);
       }
+
+      /* ─── Scout top picks (hero briefing) ─── */
+      .scout-pick {
+        background: linear-gradient(135deg, rgba(34,197,94,0.06) 0%, rgba(34,197,94,0.02) 100%);
+        border: 1px solid rgba(34,197,94,0.25);
+        border-radius: 14px;
+        padding: 24px 28px;
+        margin-bottom: 16px;
+        position: relative;
+      }
+      .scout-pick-rank {
+        position: absolute;
+        top: 18px;
+        right: 22px;
+        background: rgba(34,197,94,0.18);
+        border: 1px solid rgba(34,197,94,0.4);
+        color: #22c55e;
+        font-family: 'Space Grotesk', monospace;
+        font-weight: 700;
+        font-size: 13px;
+        padding: 4px 11px;
+        border-radius: 14px;
+      }
+      .scout-pick-name {
+        font-size: 24px;
+        font-weight: 800;
+        color: #fff;
+        margin: 0 0 4px;
+        letter-spacing: -0.3px;
+      }
+      .scout-pick-sector {
+        font-size: 11px;
+        color: #4ade80;
+        text-transform: uppercase;
+        letter-spacing: 0.7px;
+        margin-bottom: 14px;
+        font-weight: 600;
+      }
+      .scout-pick-dimensions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-bottom: 14px;
+      }
+      .scout-dim {
+        font-size: 10px;
+        font-family: 'Space Grotesk', monospace;
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.08);
+        padding: 3px 8px;
+        border-radius: 8px;
+        color: rgba(255,255,255,0.6);
+      }
+      .scout-dim strong { color: #fff; font-weight: 600; }
+      .scout-pick-brief {
+        font-size: 14px;
+        line-height: 1.7;
+        color: rgba(255,255,255,0.85);
+        margin: 14px 0;
+        white-space: pre-wrap;
+      }
+      .scout-pick-brief strong { color: #fff; }
+      .scout-pick-actions {
+        display: flex;
+        gap: 8px;
+        margin-top: 16px;
+        padding-top: 14px;
+        border-top: 1px solid rgba(34,197,94,0.15);
+      }
+      .scout-pick-btn {
+        font-size: 12px;
+        padding: 7px 14px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        border: 1px solid transparent;
+        text-decoration: none;
+        background: rgba(34,197,94,0.18);
+        color: #4ade80;
+        border-color: rgba(34,197,94,0.4);
+      }
+      .scout-pick-btn:hover { background: rgba(34,197,94,0.3); }
+      .scout-pick-btn-research {
+        background: rgba(96,165,250,0.12);
+        color: #93c5fd;
+        border-color: rgba(96,165,250,0.3);
+      }
+      .scout-pick-btn-research:hover { background: rgba(96,165,250,0.22); }
+      .scout-pick-btn-skip {
+        background: rgba(239,68,68,0.08);
+        color: #fca5a5;
+        border-color: rgba(239,68,68,0.25);
+      }
+      .scout-runner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 14px;
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 8px;
+        margin-bottom: 6px;
+        font-size: 13px;
+      }
+      .scout-runner-name { font-weight: 600; color: #fff; }
+      .scout-runner-meta { color: rgba(255,255,255,0.5); font-size: 11.5px; }
+      .scout-empty {
+        background: rgba(245,158,11,0.06);
+        border: 1px solid rgba(245,158,11,0.2);
+        border-radius: 12px;
+        padding: 20px 24px;
+        color: rgba(255,255,255,0.7);
+        font-size: 13px;
+        line-height: 1.6;
+      }
     </style>
     <script src="analytics.js?v=20260422"></script>
 </head>
@@ -356,15 +471,35 @@
 
     <header class="hero">
         <div class="hero-content">
-            <p class="hero-eyebrow" style="color: #f59e0b;">DISCOVERY PIPELINE · WEEKLY REVIEW</p>
-            <h1 class="hero-title">Frontier-Tech Discovery Queue</h1>
-            <p class="hero-subtitle">New companies emerging from stealth, fundraising under SEC Form D, joining elite VC portfolios, or breaking in trusted newsletters. Reviewed weekly — your job is to triage. <strong style="color:#f59e0b;">High-confidence multi-source hits at top.</strong></p>
+            <p class="hero-eyebrow" style="color: #f59e0b;">FRONTIER-TECH HEADHUNTER · WEEKLY BRIEFING</p>
+            <h1 class="hero-title">Scout: This Week's Picks</h1>
+            <p class="hero-subtitle">Active scout combining 30+ elite VC portfolios, SEC Form D, 17 newsletters (Vance, TBPN, SemiAnalysis, Stratechery, Newcomer…), 7 podcasts (Core Memory, Acquired, ILtB, 20VC…), and DARPA performers. <strong style="color:#22c55e;">Claude-powered company extraction</strong> reads every episode + article so we don't miss the next Panthalassa.</p>
         </div>
     </header>
 
     <main class="container">
+        <!-- ⭐ TOP PICKS — the headhunter's elite weekly briefing -->
+        <section class="section" id="scout-top-picks-section">
+            <div class="container">
+                <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:18px;">
+                    <div>
+                        <p class="section-eyebrow" style="color:#22c55e;">⭐ THIS WEEK'S TOP PICKS · HEADHUNTER BRIEFING</p>
+                        <h2 style="margin:4px 0 8px; font-size:26px;">Top 5 Frontier-Tech Finds</h2>
+                        <p style="color:rgba(255,255,255,0.6); font-size:13px; margin:0;">Active scouting across all sources. Each pick has a 100-word brief, the question to ask the founder, and verification links.</p>
+                    </div>
+                    <div id="scout-week-of" style="font-size:11px; color:rgba(255,255,255,0.4); text-transform:uppercase; letter-spacing:0.6px;"></div>
+                </div>
+                <div id="scout-top-picks"></div>
+            </div>
+        </section>
+
         <section class="section">
             <div class="container">
+                <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 30px; margin-top: 20px;">
+                    <p class="section-eyebrow" style="color:#f59e0b;">FULL CANDIDATE QUEUE · ALL SOURCES</p>
+                    <h2 style="margin:4px 0 8px; font-size:22px;">All Discovery Candidates</h2>
+                    <p style="color:rgba(255,255,255,0.6); font-size:13px; margin:0 0 18px;">Every candidate that surfaced this cycle, sortable by confidence + source. Below the top 5 picks lies the broader queue.</p>
+                </div>
                 <div class="dq-hero-stats" id="dq-stats"></div>
 
                 <div class="dq-filters" id="dq-filters">
@@ -412,6 +547,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="utils.js?v=20260427"></script>
     <script src="auth.js?v=20260427"></script>
+    <script src="data/scout_briefing_auto.js?v=20260427"></script>
     <script src="data/discovery_queue_auto.js?v=20260427"></script>
     <script src="discovery.js?v=20260427"></script>
 </body>

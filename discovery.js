@@ -224,17 +224,93 @@
     });
   }
 
+  function renderScoutTopPicks() {
+    const container = document.getElementById('scout-top-picks');
+    const weekEl = document.getElementById('scout-week-of');
+    if (!container) return;
+    if (typeof SCOUT_BRIEFING_AUTO === 'undefined') {
+      container.innerHTML = '<div class="scout-empty">Scout briefing not yet generated. Run <code>scripts/scout_top_picks.py</code> or wait for the weekly workflow.</div>';
+      return;
+    }
+    const briefing = SCOUT_BRIEFING_AUTO;
+    if (weekEl && briefing.weekOf) {
+      weekEl.textContent = 'Week of ' + briefing.weekOf;
+    }
+    const picks = briefing.topPicks || [];
+    if (picks.length === 0) {
+      container.innerHTML = '<div class="scout-empty">No high-conviction picks this week. The scout screened ' +
+        (briefing.summary?.candidatesScreened || 0) + ' candidates from ' +
+        (briefing.summary?.rosterSize || 0) + ' tracked companies.</div>';
+      return;
+    }
+    container.innerHTML = picks.map((p, i) => {
+      const d = p.dimensions || {};
+      const dimsHtml = [
+        ['Capital', d.capital_quality],
+        ['Magnitude', d.magnitude],
+        ['Tech Depth', d.tech_depth],
+        ['Frontier Fit', d.frontier_fit],
+        ['Stealth', d.stealth_signal],
+        ['Excitement', d.excitement],
+      ].map(([k, v]) => `<span class="scout-dim">${k}: <strong>${(v ?? 0).toFixed ? v.toFixed(0) : v}</strong></span>`).join('');
+
+      const briefingMd = (p.briefing || '')
+        .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\n\n/g, '<br><br>');
+
+      // First verifyUrl from any signal
+      const sig = (p.signals || []).find(s => s.verifyUrl) || {};
+      const verifyHref = sig.verifyUrl || '#';
+
+      return `<div class="scout-pick">
+        <div class="scout-pick-rank">#${i + 1} · ${p.score?.toFixed ? p.score.toFixed(0) : p.score}/70</div>
+        <div class="scout-pick-name">${esc(p.name)}</div>
+        <div class="scout-pick-sector">${esc(p.suggestedSector || 'Frontier Tech')}</div>
+        <div class="scout-pick-dimensions">${dimsHtml}</div>
+        <div class="scout-pick-brief">${briefingMd}</div>
+        <div class="scout-pick-actions">
+          <button class="scout-pick-btn" onclick="window._scoutAdd('${esc(p.name)}')">✓ Add to ROS DB</button>
+          <a class="scout-pick-btn scout-pick-btn-research" href="${esc(verifyHref)}" target="_blank" rel="noopener">🔍 Research source →</a>
+          <button class="scout-pick-btn scout-pick-btn-skip" onclick="window._scoutSkip('${esc(p.name)}')">Skip this week</button>
+        </div>
+      </div>`;
+    }).join('');
+
+    // Runner-up summary
+    const runners = briefing.runnersUp || [];
+    if (runners.length) {
+      const runnerHtml = runners.slice(0, 8).map(r =>
+        `<div class="scout-runner"><span class="scout-runner-name">${esc(r.name)}</span> <span class="scout-runner-meta">${(r.sources || []).join(' · ')} · score ${r.score?.toFixed ? r.score.toFixed(0) : r.score}/70</span></div>`
+      ).join('');
+      container.innerHTML += `<div style="margin-top:24px;">
+        <p style="font-size:11px; color:rgba(255,255,255,0.45); text-transform:uppercase; letter-spacing:0.6px; margin-bottom:8px;">Runners-up (${runners.length})</p>
+        ${runnerHtml}
+      </div>`;
+    }
+  }
+
+  // Action helpers exposed globally so the scout-pick buttons can call them
+  window._scoutAdd = function(name) {
+    setAction(name, 'add');
+    alert('Added "' + name + '" to your add-to-DB queue. Click the floating tray to copy as markdown for the ROS team.');
+  };
+  window._scoutSkip = function(name) {
+    setAction(name, 'reject');
+  };
+
   function init() {
     if (typeof DISCOVERY_QUEUE_AUTO === 'undefined') {
       const grid = document.getElementById('dq-grid');
       if (grid) grid.innerHTML = '<div class="dq-empty">Discovery queue data not loaded.</div>';
-      return;
     }
     loadActions();
-    renderStats(DISCOVERY_QUEUE_AUTO);
-    bindFilters();
+    renderScoutTopPicks();  // hero briefing first
+    if (typeof DISCOVERY_QUEUE_AUTO !== 'undefined') {
+      renderStats(DISCOVERY_QUEUE_AUTO);
+      bindFilters();
+      render();
+    }
     bindTray();
-    render();
     renderTray();
   }
 

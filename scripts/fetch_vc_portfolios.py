@@ -17,54 +17,45 @@ from pathlib import Path
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_JS_PATH = Path(__file__).parent.parent / "data.js"
 
-# Known portfolio page URLs for each VC firm
-# Most VCs have standardized portfolio/companies pages
+# Known portfolio page URLs for each VC firm.
+# 30+ frontier-tech-focused firms — when one of them adds a company we
+# don't have, that's a high-conviction signal for the discovery pipeline.
 VC_PORTFOLIO_URLS = {
-    "a16z": [
-        "https://a16z.com/portfolio/",
-    ],
-    "8VC": [
-        "https://8vc.com/portfolio/",
-    ],
-    "Founders Fund": [
-        "https://foundersfund.com/portfolio/",
-    ],
-    "Khosla": [
-        "https://khoslaventures.com/portfolio/",
-    ],
-    "Sequoia": [
-        "https://sequoiacap.com/companies/",
-    ],
-    "DCVC": [
-        "https://dcvc.com/portfolio/",
-    ],
-    "Eclipse": [
-        "https://eclipse.vc/portfolio/",
-    ],
-    "GC": [
-        "https://generalcatalyst.com/portfolio/",
-    ],
-    "AV": [
-        "https://av.vc/portfolio/",
-    ],
-    "Lux": [
-        "https://luxcapital.com/portfolio/",
-    ],
-    "Harpoon": [
-        "https://harpoon.vc/portfolio/",
-    ],
-    "Lower Carbon": [
-        "https://lowercarbon.com/portfolio/",
-    ],
-    "Cantos": [
-        "https://cantos.vc/portfolio/",
-    ],
-    "Shield Capital": [
-        "https://shieldcap.com/portfolio/",
-    ],
-    "Bedrock": [
-        "https://bedrockcap.com/portfolio/",
-    ],
+    # ─── Tier 1: elite frontier-tech generalists ───
+    "a16z": ["https://a16z.com/portfolio/"],
+    "Founders Fund": ["https://foundersfund.com/portfolio/"],
+    "Khosla": ["https://khoslaventures.com/portfolio/"],
+    "Sequoia": ["https://sequoiacap.com/companies/"],
+    "Lux": ["https://luxcapital.com/portfolio/"],
+    "8VC": ["https://8vc.com/portfolio/"],
+    "GC": ["https://generalcatalyst.com/portfolio/"],
+    "Bessemer": ["https://www.bvp.com/portfolio/companies"],
+    "Greylock": ["https://greylock.com/portfolio/"],
+    "Index Ventures": ["https://www.indexventures.com/companies/"],
+    "Spark Capital": ["https://www.sparkcapital.com/companies"],
+
+    # ─── Tier 2: deeptech / hardtech specialists ───
+    "DCVC": ["https://dcvc.com/portfolio/"],
+    "Eclipse": ["https://eclipse.vc/portfolio/"],
+    "Playground Global": ["https://playground.global/portfolio/"],
+    "AV": ["https://av.vc/portfolio/"],            # Anduril Ventures
+    "Pillar VC": ["https://www.pillar.vc/companies"],
+    "Atomic": ["https://www.atomic.vc/companies"],
+
+    # ─── Tier 3: defense / dual-use / security ───
+    "Shield Capital": ["https://shieldcap.com/portfolio/"],
+    "In-Q-Tel": ["https://www.iqt.org/portfolio/"],   # CIA's VC arm
+    "Decisive Point": ["https://decisivepoint.com/portfolio"],
+    "Cantos": ["https://cantos.vc/portfolio/"],
+    "Razor's Edge": ["https://www.razorsedge.vc/portfolio/"],
+
+    # ─── Tier 4: climate / energy / hard-physics ───
+    "Lower Carbon": ["https://lowercarbon.com/companies/"],     # Backs Panthalassa
+    "Gigascale Capital": ["https://gigascale.com/portfolio/"],  # Backs Panthalassa
+
+    # ─── Tier 5: emerging / boutique ───
+    "Harpoon": ["https://harpoon.vc/portfolio/"],
+    "Bedrock": ["https://bedrockcap.com/portfolio/"],
 }
 
 HEADERS = {
