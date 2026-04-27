@@ -231,10 +231,41 @@ jobs:
           path: data/
           retention-days: 7
 
+  sync-discovery-queue:
+    name: Build Discovery Queue (frontier-tech candidates not yet in DB)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    # Runs after sync-vc-portfolios + comprehensive-data-sync produces
+    # form_d_filings_auto.json. By placing in weekly-extended-sync, we
+    # accept that discovery refreshes weekly — fine for a triage queue.
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests
+      - name: Pull elite newsletter RSS feeds (8 sources)
+        # Curated list of frontier-tech newsletters: Vance, Newcomer,
+        # Latent Space, Construction Physics, Generalist, Strange Loop,
+        # Not Boring, Asianometry, Bismarck Brief.
+        run: python scripts/fetch_newsletter_signals.py
+      - name: Build discovery queue (combine Form D + VC + newsletter signals)
+        # Aggregates SEC Form D filings + 16 VC portfolio diffs + 8
+        # newsletter mentions. De-dupes against existing 869 companies in
+        # data.js. Outputs data/discovery_queue_auto.{json,js} with
+        # confidence labels (high/medium/low) for the review UI.
+        run: python scripts/build_discovery_queue.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: discovery-data
+          path: data/
+          retention-days: 7
+
   merge-and-commit:
     name: Merge Extended Data and Commit
     runs-on: ubuntu-latest
-    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-linkedin-headcount, sync-trademarks, sync-factory-watch, sync-exec-moves, sync-darpa-programs]
+    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-linkedin-headcount, sync-trademarks, sync-factory-watch, sync-exec-moves, sync-darpa-programs, sync-discovery-queue]
     if: always()
     steps:
       - name: Checkout repository
@@ -315,6 +346,14 @@ jobs:
           merge-multiple: true
         continue-on-error: true
 
+      - name: Download discovery queue data
+        uses: actions/download-artifact@v4
+        with:
+          name: discovery-data
+          path: data/
+          merge-multiple: true
+        continue-on-error: true
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -380,7 +419,7 @@ jobs:
   data-health-summary:
     name: Data Health Summary
     runs-on: ubuntu-latest
-    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-darpa-programs, merge-and-commit]
+    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-darpa-programs, sync-discovery-queue, merge-and-commit]
     if: always()
     steps:
       - uses: actions/checkout@v4
@@ -397,6 +436,7 @@ jobs:
             "github_releases": "${{ needs.sync-github-releases.result }}",
             "product_hunt":    "${{ needs.sync-product-hunt.result }}",
             "darpa_programs":  "${{ needs.sync-darpa-programs.result }}",
+            "discovery_queue": "${{ needs.sync-discovery-queue.result }}",
             "merge_commit":    "${{ needs.merge-and-commit.result }}",
           }
           succeeded = [k for k, v in steps.items() if v == "success"]

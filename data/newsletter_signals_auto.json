@@ -1,0 +1,406 @@
+{
+  "generatedAt": "2026-04-27T07:02:21+00:00",
+  "lookbackDays": 14,
+  "sources": [
+    {
+      "name": "Core Memory (Ashlee Vance)",
+      "url": "https://www.corememory.com/feed",
+      "totalItems": 20,
+      "recentItems": 6
+    },
+    {
+      "name": "Newcomer (Eric Newcomer)",
+      "url": "https://www.newcomer.co/feed",
+      "totalItems": 20,
+      "recentItems": 5
+    },
+    {
+      "name": "Latent Space (swyx)",
+      "url": "https://www.latent.space/feed",
+      "totalItems": 20,
+      "recentItems": 14
+    },
+    {
+      "name": "Construction Physics (Brian Potter)",
+      "url": "https://www.construction-physics.com/feed",
+      "totalItems": 20,
+      "recentItems": 3
+    },
+    {
+      "name": "The Generalist (Mario Gabriele)",
+      "url": "https://www.generalist.com/feed",
+      "totalItems": 20,
+      "recentItems": 3
+    },
+    {
+      "name": "Strange Loop Canon (Rohit Krishnan)",
+      "url": "https://www.strangeloopcanon.com/feed",
+      "totalItems": 20,
+      "recentItems": 4
+    },
+    {
+      "name": "Not Boring (Packy McCormick)",
+      "url": "https://www.notboring.co/feed",
+      "totalItems": 20,
+      "recentItems": 3
+    },
+    {
+      "name": "Asianometry",
+      "url": "https://asianometry.substack.com/feed",
+      "totalItems": 20,
+      "recentItems": 0
+    },
+    {
+      "name": "Bismarck Brief (Samo Burja)",
+      "url": "https://brief.bismarckanalysis.com/feed",
+      "totalItems": 20,
+      "recentItems": 1
+    }
+  ],
+  "totalRawSignals": 18,
+  "uniqueCandidateCount": 18,
+  "candidates": [
+    {
+      "name": "Blue Energy",
+      "totalScore": 14.4,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Blue Energy",
+          "score": 14.4,
+          "frontierTechScore": 4,
+          "mentions": 1,
+          "context": "Industries. Fidelity, NEA, and Nvidia also participated, among others. Nuclear power plant startup  Blue Energy  raised $380 million in combined equity and debt funding led by VXI Capital. Other inves",
+          "source": "Newcomer (Eric Newcomer)",
+          "sourceUrl": "https://www.newcomer.co/feed",
+          "articleTitle": "Stakes Keep Getting Higher for the SpaceX IPO",
+          "articleUrl": "https://www.newcomer.co/p/stakes-keep-getting-higher-for-the",
+          "articleDate": "Fri, 24 Apr 2026 14:02:18 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Rebo",
+      "totalScore": 7.0,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Rebo",
+          "score": 7.0,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "s in the longevity field. Today, the company, located in New Hampshire, has a handful of employees. Rebo declines to say how much money the company has raised or from whom. Kind has spent much of its ",
+          "source": "Core Memory (Ashlee Vance)",
+          "sourceUrl": "https://www.corememory.com/feed",
+          "articleTitle": "The Man Growing Organs On Demand",
+          "articleUrl": "https://www.corememory.com/p/the-man-growing-organs-on-demand-kind-bio-justin-rebo",
+          "articleDate": "Mon, 20 Apr 2026 18:43:31 GMT"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V3",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "DeepSeek V3",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "model flagship , competitive with top closed models from the prior generation and a major leap over DeepSeek V3.x  @arena ,  @scaling01 ,  @kimmonismus . Technical report highlights: long-context effi",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] GPT 5.5 and OpenAI Codex Superapp",
+          "articleUrl": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
+          "articleDate": "Fri, 24 Apr 2026 04:40:43 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Multi",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Multi",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "presentation renderer/viewer  as a surprisingly useful agent-native artifact format  @BraceSproul . Multi-agent orchestration is moving into products : Sakana AI launched the beta of  Fugu , a multi-a",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] GPT 5.5 and OpenAI Codex Superapp",
+          "articleUrl": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
+          "articleDate": "Fri, 24 Apr 2026 04:40:43 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Agent",
+      "totalScore": 5.95,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Agent",
+          "score": 5.95,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "kathon   @NousResearch , signaling a push from coding/productivity into  creative agent  workflows. Agent research: self-improvement, monitoring, web skills, and evaluation A cluster of papers pushed ",
+          "source": "Latent Space (swyx)",
+          "sourceUrl": "https://www.latent.space/feed",
+          "articleTitle": "[AINews] The Two Sides of OpenClaw",
+          "articleUrl": "https://www.latent.space/p/ainews-the-two-sides-of-openclaw",
+          "articleDate": "Sat, 18 Apr 2026 06:50:57 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Mars",
+      "totalScore": 5.4,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Mars",
+          "score": 5.4,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "st rocket company bought a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we ",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #190",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Fervo Energy Files",
+      "totalScore": 5.4,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Fervo Energy Files",
+          "score": 5.4,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "t a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quais",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #190",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
+        }
+      ]
+    },
+    {
+      "name": "IPOs",
+      "totalScore": 5.4,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "IPOs",
+          "score": 5.4,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "t prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quaise breaking ground on the world\u2019s fir",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #190",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
+        }
+      ]
+    },
+    {
+      "name": "AUV",
+      "totalScore": 5.4,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "AUV",
+          "score": 5.4,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": " to the rest of the world. A fully autonomous system is a much cheaper system, because the cheapest AUV in the world is still expensive if it\u2019s hand launched and recovered, and requires a crewed ship ",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "The Great Blue Frontier",
+          "articleUrl": "https://www.notboring.co/p/the-great-blue-frontier",
+          "articleDate": "Thu, 23 Apr 2026 12:59:00 GMT"
+        }
+      ]
+    },
+    {
+      "name": "There",
+      "totalScore": 5.4,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "There",
+          "score": 5.4,
+          "frontierTechScore": 3,
+          "mentions": 1,
+          "context": "d is still expensive if it\u2019s hand launched and recovered, and requires a crewed ship to operate it. There\u2019s a joke in the maritime industry that \u201cunmanned\u201d systems are only unmanned in the sense that ",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "The Great Blue Frontier",
+          "articleUrl": "https://www.notboring.co/p/the-great-blue-frontier",
+          "articleDate": "Thu, 23 Apr 2026 12:59:00 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Moon",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Moon",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "world\u2019s greatest rocket company bought a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  ",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #190",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Dose",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Dose",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "viously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quaise breaking ground on the world\u2019s first commercial superhot geothermal plant. Superhot",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #190",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Quaise",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Quaise",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "(3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quaise breaking ground on the world\u2019s first commercial superhot geothermal plant. Superhot is a dril",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #190",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Ana-Maria Stanciuc",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Ana-Maria Stanciuc",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "this frackin\u2019 thing public.  (4)  Humble unstealths with a cabless autonomous electric truck & $24M Ana-Maria Stanciuc for TheNextWeb On Tuesday, a San Francisco startup called Humble came out of stea",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #190",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
+        }
+      ]
+    },
+    {
+      "name": "TheNextWeb On Tuesday",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "TheNextWeb On Tuesday",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "lic.  (4)  Humble unstealths with a cabless autonomous electric truck & $24M Ana-Maria Stanciuc for TheNextWeb On Tuesday, a San Francisco startup called Humble came out of stealth with $24 million in",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "Weekly Dose of Optimism #190",
+          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Estonia",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Estonia",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "-fleet tanker dragged its anchor through the Estlink 2 power cable and four telecom cables, cutting Estonia\u2019s cross-border electricity capacity by two-thirds. NATO launched  Operation Baltic Sentry  i",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "The Great Blue Frontier",
+          "articleUrl": "https://www.notboring.co/p/the-great-blue-frontier",
+          "articleDate": "Thu, 23 Apr 2026 12:59:00 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Strait",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Strait",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": ", as the IRGC and United States are locked in a conflict over whether to reopen the recently closed Strait of Hormuz, the passage through which a fifth of the world\u2019s oil supply normally flows. When I",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "The Great Blue Frontier",
+          "articleUrl": "https://www.notboring.co/p/the-great-blue-frontier",
+          "articleDate": "Thu, 23 Apr 2026 12:59:00 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Hormuz",
+      "totalScore": 4.2,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Hormuz",
+          "score": 4.2,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "RGC and United States are locked in a conflict over whether to reopen the recently closed Strait of Hormuz, the passage through which a fifth of the world\u2019s oil supply normally flows. When Iran first ",
+          "source": "Not Boring (Packy McCormick)",
+          "sourceUrl": "https://www.notboring.co/feed",
+          "articleTitle": "The Great Blue Frontier",
+          "articleUrl": "https://www.notboring.co/p/the-great-blue-frontier",
+          "articleDate": "Thu, 23 Apr 2026 12:59:00 GMT"
+        }
+      ]
+    }
+  ]
+}

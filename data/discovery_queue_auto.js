@@ -1,0 +1,676 @@
+// Auto-generated from discovery_queue_auto.json
+// Last updated: 2026-04-27T07:05:19+00:00
+const DISCOVERY_QUEUE_AUTO = {
+  "generatedAt": "2026-04-27T07:05:19+00:00",
+  "knownCompaniesCount": 1592,
+  "summary": {
+    "totalCandidates": 28,
+    "fromFormD": 0,
+    "fromVcPortfolios": 18,
+    "fromNewsletters": 18,
+    "multiSource": 0
+  },
+  "candidates": [
+    {
+      "name": "Flexport",
+      "score": 70,
+      "signals": [
+        {
+          "name": "Flexport",
+          "source": "VC portfolio: Founders Fund",
+          "sourceWeight": 35,
+          "vc": "Founders Fund",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Founders Fund portfolio on 2026-03-16"
+        },
+        {
+          "name": "Flexport",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Celero Communications",
+      "score": 70,
+      "signals": [
+        {
+          "name": "Celero Communications",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        },
+        {
+          "name": "Celero Communications",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-04-01"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Forge Automation",
+      "score": 70,
+      "signals": [
+        {
+          "name": "Forge Automation",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        },
+        {
+          "name": "Forge Automation",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-04-01"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Kyten Technologies",
+      "score": 70,
+      "signals": [
+        {
+          "name": "Kyten Technologies",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        },
+        {
+          "name": "Kyten Technologies",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-04-01"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Lotus Health AI",
+      "score": 70,
+      "signals": [
+        {
+          "name": "Lotus Health AI",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        },
+        {
+          "name": "Lotus Health AI",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-04-01"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Sphere Semi",
+      "score": 70,
+      "signals": [
+        {
+          "name": "Sphere Semi",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        },
+        {
+          "name": "Sphere Semi",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-04-01"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Vayu Robotics",
+      "score": 70,
+      "signals": [
+        {
+          "name": "Vayu Robotics",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        },
+        {
+          "name": "Vayu Robotics",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-04-01"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "SHIELD Technology Partners",
+      "score": 70,
+      "signals": [
+        {
+          "name": "SHIELD Technology Partners",
+          "source": "VC portfolio: Sequoia",
+          "sourceWeight": 35,
+          "vc": "Sequoia",
+          "date": "2026-03-29",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Sequoia portfolio on 2026-03-29"
+        },
+        {
+          "name": "SHIELD Technology Partners",
+          "source": "VC portfolio: Sequoia",
+          "sourceWeight": 35,
+          "vc": "Sequoia",
+          "date": "2026-04-01",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in Sequoia portfolio on 2026-04-01"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Fiber Dynamics",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Fiber Dynamics",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Revel",
+      "score": 35,
+      "signals": [
+        {
+          "name": "Revel",
+          "source": "VC portfolio: AV",
+          "sourceWeight": 35,
+          "vc": "AV",
+          "date": "2026-03-16",
+          "verifyUrl": "portfolio_page",
+          "context": "Newly listed in AV portfolio on 2026-03-16"
+        }
+      ],
+      "sources": [
+        "VC portfolio"
+      ],
+      "multiSource": false,
+      "confidence": "high",
+      "suggestedSector": null
+    },
+    {
+      "name": "Blue Energy",
+      "score": 14.4,
+      "signals": [
+        {
+          "name": "Blue Energy",
+          "source": "Newsletter: Newcomer (Eric Newcomer)",
+          "sourceWeight": 14.4,
+          "context": "Industries. Fidelity, NEA, and Nvidia also participated, among others. Nuclear power plant startup  Blue Energy  raised $380 million in combined equity and debt funding led by VXI Capital. Other inves",
+          "date": "Fri, 24 Apr 2026 14:02:18 GMT",
+          "verifyUrl": "https://www.newcomer.co/p/stakes-keep-getting-higher-for-the",
+          "articleTitle": "Stakes Keep Getting Higher for the SpaceX IPO"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "Nuclear Energy"
+    },
+    {
+      "name": "Rebo",
+      "score": 7.0,
+      "signals": [
+        {
+          "name": "Rebo",
+          "source": "Newsletter: Core Memory (Ashlee Vance)",
+          "sourceWeight": 7.0,
+          "context": "s in the longevity field. Today, the company, located in New Hampshire, has a handful of employees. Rebo declines to say how much money the company has raised or from whom. Kind has spent much of its ",
+          "date": "Mon, 20 Apr 2026 18:43:31 GMT",
+          "verifyUrl": "https://www.corememory.com/p/the-man-growing-organs-on-demand-kind-bio-justin-rebo",
+          "articleTitle": "The Man Growing Organs On Demand"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "DeepSeek V3",
+      "score": 5.95,
+      "signals": [
+        {
+          "name": "DeepSeek V3",
+          "source": "Newsletter: Latent Space (swyx)",
+          "sourceWeight": 5.95,
+          "context": "model flagship , competitive with top closed models from the prior generation and a major leap over DeepSeek V3.x  @arena ,  @scaling01 ,  @kimmonismus . Technical report highlights: long-context effi",
+          "date": "Fri, 24 Apr 2026 04:40:43 GMT",
+          "verifyUrl": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
+          "articleTitle": "[AINews] GPT 5.5 and OpenAI Codex Superapp"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
+      "name": "Multi",
+      "score": 5.95,
+      "signals": [
+        {
+          "name": "Multi",
+          "source": "Newsletter: Latent Space (swyx)",
+          "sourceWeight": 5.95,
+          "context": "presentation renderer/viewer  as a surprisingly useful agent-native artifact format  @BraceSproul . Multi-agent orchestration is moving into products : Sakana AI launched the beta of  Fugu , a multi-a",
+          "date": "Fri, 24 Apr 2026 04:40:43 GMT",
+          "verifyUrl": "https://www.latent.space/p/ainews-gpt-55-and-openai-codex-superapp",
+          "articleTitle": "[AINews] GPT 5.5 and OpenAI Codex Superapp"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Agent",
+      "score": 5.95,
+      "signals": [
+        {
+          "name": "Agent",
+          "source": "Newsletter: Latent Space (swyx)",
+          "sourceWeight": 5.95,
+          "context": "kathon   @NousResearch , signaling a push from coding/productivity into  creative agent  workflows. Agent research: self-improvement, monitoring, web skills, and evaluation A cluster of papers pushed ",
+          "date": "Sat, 18 Apr 2026 06:50:57 GMT",
+          "verifyUrl": "https://www.latent.space/p/ainews-the-two-sides-of-openclaw",
+          "articleTitle": "[AINews] The Two Sides of OpenClaw"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Mars",
+      "score": 5.4,
+      "signals": [
+        {
+          "name": "Mars",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 5.4,
+          "context": "st rocket company bought a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we ",
+          "date": "Fri, 24 Apr 2026 12:55:48 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleTitle": "Weekly Dose of Optimism #190"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Fervo Energy Files",
+      "score": 5.4,
+      "signals": [
+        {
+          "name": "Fervo Energy Files",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 5.4,
+          "context": "t a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quais",
+          "date": "Fri, 24 Apr 2026 12:55:48 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleTitle": "Weekly Dose of Optimism #190"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "IPOs",
+      "score": 5.4,
+      "signals": [
+        {
+          "name": "IPOs",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 5.4,
+          "context": "t prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quaise breaking ground on the world\u2019s fir",
+          "date": "Fri, 24 Apr 2026 12:55:48 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleTitle": "Weekly Dose of Optimism #190"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "AUV",
+      "score": 5.4,
+      "signals": [
+        {
+          "name": "AUV",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 5.4,
+          "context": " to the rest of the world. A fully autonomous system is a much cheaper system, because the cheapest AUV in the world is still expensive if it\u2019s hand launched and recovered, and requires a crewed ship ",
+          "date": "Thu, 23 Apr 2026 12:59:00 GMT",
+          "verifyUrl": "https://www.notboring.co/p/the-great-blue-frontier",
+          "articleTitle": "The Great Blue Frontier"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "There",
+      "score": 5.4,
+      "signals": [
+        {
+          "name": "There",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 5.4,
+          "context": "d is still expensive if it\u2019s hand launched and recovered, and requires a crewed ship to operate it. There\u2019s a joke in the maritime industry that \u201cunmanned\u201d systems are only unmanned in the sense that ",
+          "date": "Thu, 23 Apr 2026 12:59:00 GMT",
+          "verifyUrl": "https://www.notboring.co/p/the-great-blue-frontier",
+          "articleTitle": "The Great Blue Frontier"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Moon",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "Moon",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": "world\u2019s greatest rocket company bought a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  ",
+          "date": "Fri, 24 Apr 2026 12:55:48 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleTitle": "Weekly Dose of Optimism #190"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Dose",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "Dose",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": "viously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quaise breaking ground on the world\u2019s first commercial superhot geothermal plant. Superhot",
+          "date": "Fri, 24 Apr 2026 12:55:48 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleTitle": "Weekly Dose of Optimism #190"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Quaise",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "Quaise",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": "(3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quaise breaking ground on the world\u2019s first commercial superhot geothermal plant. Superhot is a dril",
+          "date": "Fri, 24 Apr 2026 12:55:48 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleTitle": "Weekly Dose of Optimism #190"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Ana-Maria Stanciuc",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "Ana-Maria Stanciuc",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": "this frackin\u2019 thing public.  (4)  Humble unstealths with a cabless autonomous electric truck & $24M Ana-Maria Stanciuc for TheNextWeb On Tuesday, a San Francisco startup called Humble came out of stea",
+          "date": "Fri, 24 Apr 2026 12:55:48 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleTitle": "Weekly Dose of Optimism #190"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": null
+    },
+    {
+      "name": "TheNextWeb On Tuesday",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "TheNextWeb On Tuesday",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": "lic.  (4)  Humble unstealths with a cabless autonomous electric truck & $24M Ana-Maria Stanciuc for TheNextWeb On Tuesday, a San Francisco startup called Humble came out of stealth with $24 million in",
+          "date": "Fri, 24 Apr 2026 12:55:48 GMT",
+          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
+          "articleTitle": "Weekly Dose of Optimism #190"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": null
+    },
+    {
+      "name": "Estonia",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "Estonia",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": "-fleet tanker dragged its anchor through the Estlink 2 power cable and four telecom cables, cutting Estonia\u2019s cross-border electricity capacity by two-thirds. NATO launched  Operation Baltic Sentry  i",
+          "date": "Thu, 23 Apr 2026 12:59:00 GMT",
+          "verifyUrl": "https://www.notboring.co/p/the-great-blue-frontier",
+          "articleTitle": "The Great Blue Frontier"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Strait",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "Strait",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": ", as the IRGC and United States are locked in a conflict over whether to reopen the recently closed Strait of Hormuz, the passage through which a fifth of the world\u2019s oil supply normally flows. When I",
+          "date": "Thu, 23 Apr 2026 12:59:00 GMT",
+          "verifyUrl": "https://www.notboring.co/p/the-great-blue-frontier",
+          "articleTitle": "The Great Blue Frontier"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Hormuz",
+      "score": 4.2,
+      "signals": [
+        {
+          "name": "Hormuz",
+          "source": "Newsletter: Not Boring (Packy McCormick)",
+          "sourceWeight": 4.2,
+          "context": "RGC and United States are locked in a conflict over whether to reopen the recently closed Strait of Hormuz, the passage through which a fifth of the world\u2019s oil supply normally flows. When Iran first ",
+          "date": "Thu, 23 Apr 2026 12:59:00 GMT",
+          "verifyUrl": "https://www.notboring.co/p/the-great-blue-frontier",
+          "articleTitle": "The Great Blue Frontier"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "AI & Compute"
+    }
+  ]
+};
+if (typeof window !== 'undefined') window.DISCOVERY_QUEUE_AUTO = DISCOVERY_QUEUE_AUTO;

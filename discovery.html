@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovery Queue · ROS Frontier-Tech Pipeline</title>
+    <meta name="description" content="Weekly review queue of new frontier-tech companies surfacing from SEC Form D, elite VC portfolio diffs, and curated newsletter signals.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260427">
+    <style>
+      /* ─── Discovery Queue page ─── */
+      .dq-hero-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 12px;
+        margin: 20px 0 28px;
+      }
+      .dq-stat {
+        background: rgba(245,158,11,0.06);
+        border: 1px solid rgba(245,158,11,0.2);
+        border-radius: 10px;
+        padding: 16px 18px;
+      }
+      .dq-stat-num {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 26px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1;
+      }
+      .dq-stat-lbl {
+        margin-top: 6px;
+        font-size: 11px;
+        color: rgba(255,255,255,0.55);
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+      }
+
+      /* Filter strip */
+      .dq-filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        margin-bottom: 18px;
+        padding: 12px 14px;
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 10px;
+      }
+      .dq-filter-btn {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.1);
+        color: rgba(255,255,255,0.75);
+        font-size: 12px;
+        padding: 5px 12px;
+        border-radius: 14px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.15s ease;
+      }
+      .dq-filter-btn:hover {
+        border-color: rgba(245,158,11,0.5);
+        color: #fff;
+      }
+      .dq-filter-btn.active {
+        background: rgba(245,158,11,0.18);
+        border-color: rgba(245,158,11,0.5);
+        color: #fff;
+      }
+      .dq-filter-btn-high.active { background: rgba(34,197,94,0.18); border-color: rgba(34,197,94,0.5); }
+      .dq-filter-btn-med.active  { background: rgba(245,158,11,0.18); border-color: rgba(245,158,11,0.5); }
+      .dq-filter-btn-low.active  { background: rgba(239,68,68,0.10); border-color: rgba(239,68,68,0.4); }
+
+      /* Candidate cards */
+      .dq-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        gap: 14px;
+      }
+      .dq-card {
+        background: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 12px;
+        padding: 18px 20px;
+        position: relative;
+        transition: all 0.2s ease;
+      }
+      .dq-card:hover { border-color: rgba(245,158,11,0.3); transform: translateY(-1px); }
+      .dq-card.dq-confidence-high  { border-left: 3px solid #22c55e; }
+      .dq-card.dq-confidence-medium { border-left: 3px solid #f59e0b; }
+      .dq-card.dq-confidence-low   { border-left: 3px solid rgba(239,68,68,0.5); }
+
+      .dq-card-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 8px;
+        margin-bottom: 10px;
+      }
+      .dq-card-name {
+        font-size: 17px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 1.2;
+      }
+      .dq-confidence-badge {
+        font-size: 9.5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.7px;
+        padding: 3px 9px;
+        border-radius: 12px;
+        white-space: nowrap;
+      }
+      .dq-confidence-high {
+        background: rgba(34,197,94,0.15);
+        color: #22c55e;
+      }
+      .dq-confidence-medium {
+        background: rgba(245,158,11,0.15);
+        color: #f59e0b;
+      }
+      .dq-confidence-low {
+        background: rgba(239,68,68,0.10);
+        color: #ef4444;
+      }
+
+      .dq-sources-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 10px;
+      }
+      .dq-source-chip {
+        font-size: 10.5px;
+        padding: 2px 8px;
+        border-radius: 10px;
+        background: rgba(96,165,250,0.12);
+        color: #93c5fd;
+        border: 1px solid rgba(96,165,250,0.2);
+      }
+      .dq-source-chip.is-multi {
+        background: rgba(34,197,94,0.18);
+        color: #4ade80;
+        border-color: rgba(34,197,94,0.35);
+      }
+
+      .dq-card-meta {
+        font-size: 11.5px;
+        color: rgba(255,255,255,0.55);
+        margin-bottom: 10px;
+      }
+
+      .dq-signals-detail {
+        font-size: 11.5px;
+        color: rgba(255,255,255,0.6);
+        line-height: 1.6;
+        padding: 10px 0;
+        border-top: 1px solid rgba(255,255,255,0.06);
+      }
+      .dq-signal-item {
+        margin-bottom: 6px;
+      }
+      .dq-signal-item:last-child { margin-bottom: 0; }
+      .dq-signal-source {
+        color: #f59e0b;
+        font-weight: 600;
+        font-size: 10.5px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      .dq-signal-context {
+        color: rgba(255,255,255,0.55);
+        font-style: italic;
+        font-size: 11px;
+      }
+
+      .dq-card-actions {
+        display: flex;
+        gap: 8px;
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid rgba(255,255,255,0.06);
+      }
+      .dq-action-btn {
+        font-size: 11.5px;
+        padding: 6px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        border: 1px solid transparent;
+        background: rgba(255,255,255,0.04);
+        color: rgba(255,255,255,0.85);
+        text-decoration: none;
+      }
+      .dq-action-add {
+        background: rgba(34,197,94,0.15);
+        color: #22c55e;
+        border-color: rgba(34,197,94,0.3);
+      }
+      .dq-action-add:hover { background: rgba(34,197,94,0.25); }
+      .dq-action-reject {
+        background: rgba(239,68,68,0.1);
+        color: #ef4444;
+        border-color: rgba(239,68,68,0.25);
+      }
+      .dq-action-reject:hover { background: rgba(239,68,68,0.18); }
+      .dq-action-research {
+        color: #93c5fd;
+        border-color: rgba(96,165,250,0.25);
+      }
+      .dq-action-research:hover { background: rgba(96,165,250,0.12); }
+
+      .dq-empty {
+        text-align: center;
+        padding: 60px 20px;
+        color: rgba(255,255,255,0.4);
+      }
+
+      .dq-suggested-sector {
+        font-size: 11px;
+        padding: 2px 8px;
+        margin-left: 6px;
+        border-radius: 10px;
+        background: rgba(255,255,255,0.05);
+        color: rgba(255,255,255,0.65);
+        border: 1px solid rgba(255,255,255,0.08);
+      }
+
+      .dq-data-note {
+        margin-top: 32px;
+        padding: 18px 22px;
+        background: rgba(245,158,11,0.05);
+        border: 1px solid rgba(245,158,11,0.18);
+        border-radius: 12px;
+        font-size: 12.5px;
+        color: rgba(255,255,255,0.65);
+        line-height: 1.6;
+      }
+      .dq-data-note strong { color: #f59e0b; font-weight: 600; }
+
+      .dq-action-tray {
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        background: rgba(0,0,0,0.85);
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(245,158,11,0.3);
+        border-radius: 12px;
+        padding: 14px 18px;
+        font-size: 13px;
+        color: #fff;
+        z-index: 50;
+        max-width: 360px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+        display: none;
+      }
+      .dq-action-tray.show { display: block; }
+      .dq-action-tray-title {
+        font-weight: 700;
+        margin-bottom: 8px;
+        color: #f59e0b;
+      }
+      .dq-action-tray-list {
+        max-height: 200px;
+        overflow-y: auto;
+        font-size: 12px;
+        line-height: 1.5;
+        color: rgba(255,255,255,0.85);
+      }
+      .dq-action-tray-buttons {
+        margin-top: 10px;
+        display: flex;
+        gap: 8px;
+      }
+      .dq-tray-btn {
+        font-size: 11.5px;
+        padding: 5px 10px;
+        border-radius: 6px;
+        background: rgba(255,255,255,0.08);
+        color: #fff;
+        border: 1px solid rgba(255,255,255,0.15);
+        cursor: pointer;
+      }
+      .dq-tray-btn-clear {
+        background: rgba(239,68,68,0.15);
+        border-color: rgba(239,68,68,0.3);
+      }
+    </style>
+    <script src="analytics.js?v=20260422"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-brand">
+            <a href="index.html" style="display:flex;align-items:center;gap:8px;text-decoration:none;">
+                <div class="nav-logo">ROS</div>
+                <span class="nav-title">THE INNOVATORS LEAGUE</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Companies</a>
+            <a href="terminal.html" class="nav-link" style="color:#86efac;">⚡ Terminal</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Signals <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="brief.html" class="nav-dropdown-link">📰 Frontier Daily</a>
+                    <a href="signals.html" class="nav-dropdown-link">🔴 Proprietary Signals</a>
+                    <a href="discovery.html" class="nav-dropdown-link">🌟 Discovery Queue</a>
+                    <a href="investor-hub.html" class="nav-dropdown-link">💰 Investor Hub</a>
+                    <a href="power-grid.html" class="nav-dropdown-link">⚡ Power Grid</a>
+                    <a href="govradar.html" class="nav-dropdown-link">🎖️ Government Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">📋 Regulatory</a>
+                    <a href="earnings-signals.html" class="nav-dropdown-link">📈 Earnings Signals</a>
+                    <a href="launches.html" class="nav-dropdown-link">🛰️ Space Launches</a>
+                    <a href="alerts.html" class="nav-dropdown-link">🔔 Alerts</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Research <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="visualizations.html" class="nav-dropdown-link">📊 Insights &amp; Data Viz</a>
+                    <a href="sectors.html" class="nav-dropdown-link">🏭 Sectors</a>
+                    <a href="investors.html" class="nav-dropdown-link">💰 Investors</a>
+                    <a href="valuations.html" class="nav-dropdown-link">📉 Valuations</a>
+                    <a href="jobs.html" class="nav-dropdown-link">💼 Talent</a>
+                    <a href="patents.html" class="nav-dropdown-link">📜 Patents</a>
+                    <a href="customers.html" class="nav-dropdown-link">👥 Customers</a>
+                    <a href="captable.html" class="nav-dropdown-link">📋 Cap Tables</a>
+                    <a href="compare.html" class="nav-dropdown-link">⚖️ Compare</a>
+                    <a href="transformation.html" class="nav-dropdown-link">🌱 Transformation</a>
+                    <a href="calendar.html" class="nav-dropdown-link">📅 Events</a>
+                    <a href="research.html" class="nav-dropdown-link">🔬 Deep Research</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <div class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.5 2.5l3.5 3.5-3.5 3.5"/></svg>
+        <span aria-current="page">Discovery Queue</span>
+    </div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow" style="color: #f59e0b;">DISCOVERY PIPELINE · WEEKLY REVIEW</p>
+            <h1 class="hero-title">Frontier-Tech Discovery Queue</h1>
+            <p class="hero-subtitle">New companies emerging from stealth, fundraising under SEC Form D, joining elite VC portfolios, or breaking in trusted newsletters. Reviewed weekly — your job is to triage. <strong style="color:#f59e0b;">High-confidence multi-source hits at top.</strong></p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <div class="container">
+                <div class="dq-hero-stats" id="dq-stats"></div>
+
+                <div class="dq-filters" id="dq-filters">
+                    <span style="font-size:11px; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.6px; margin-right:8px;">Confidence:</span>
+                    <button class="dq-filter-btn dq-filter-btn-high active" data-filter="high">🟢 High</button>
+                    <button class="dq-filter-btn dq-filter-btn-med active" data-filter="medium">🟡 Medium</button>
+                    <button class="dq-filter-btn dq-filter-btn-low" data-filter="low">🔴 Low</button>
+                    <span style="margin: 0 8px; color:rgba(255,255,255,0.2);">|</span>
+                    <span style="font-size:11px; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.6px; margin-right:8px;">Source:</span>
+                    <button class="dq-filter-btn active" data-source="all">All sources</button>
+                    <button class="dq-filter-btn" data-source="VC portfolio">VC portfolio only</button>
+                    <button class="dq-filter-btn" data-source="Form D filing">Form D only</button>
+                    <button class="dq-filter-btn" data-source="Newsletter">Newsletter only</button>
+                </div>
+
+                <div class="dq-grid" id="dq-grid"></div>
+
+                <div class="dq-data-note">
+                    <strong>How to use this queue:</strong> Each card represents a candidate company that's NOT yet in the ROS database. Three signal sources feed this view:
+                    <strong>SEC Form D filings</strong> (private fundraises ≥$1M, filed within 15 days),
+                    <strong>VC portfolio diffs</strong> (weekly delta of 16 elite frontier-tech VC portfolios), and
+                    <strong>newsletter mentions</strong> (8 curated Substack feeds).
+                    Multi-source candidates are highest-conviction. Click <em>Add to DB</em> to flag for inclusion (writes a queue file the ROS team will process); <em>Reject</em> to dismiss; <em>Research</em> to open the source link in a new tab.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Action tray for tracking adds/rejections -->
+    <div class="dq-action-tray" id="dq-action-tray">
+        <div class="dq-action-tray-title" id="dq-action-tray-title">Pending review actions</div>
+        <div class="dq-action-tray-list" id="dq-action-tray-list"></div>
+        <div class="dq-action-tray-buttons">
+            <button class="dq-tray-btn" id="dq-tray-export">Copy to clipboard</button>
+            <button class="dq-tray-btn dq-tray-btn-clear" id="dq-tray-clear">Clear</button>
+        </div>
+    </div>
+
+    <footer class="premium-footer">
+        <div class="footer-inner">
+            <p style="color:rgba(255,255,255,0.4); font-size:12px; text-align:center;">The Innovators League · Discovery Pipeline (SEC Form D + VC portfolio diffs + 8 newsletter feeds)</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="utils.js?v=20260427"></script>
+    <script src="auth.js?v=20260427"></script>
+    <script src="data/discovery_queue_auto.js?v=20260427"></script>
+    <script src="discovery.js?v=20260427"></script>
+</body>
+</html>
