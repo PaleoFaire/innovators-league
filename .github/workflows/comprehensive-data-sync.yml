@@ -599,10 +599,11 @@ jobs:
           EARNINGS_API_KEY: ${{ secrets.EARNINGS_API_KEY }}
         continue-on-error: true
 
-      - name: Earnings Signals (LLM extraction)
+      - name: Earnings Signals (LLM extraction across ~100 frontier-adjacent global tickers)
         run: python scripts/extract_earnings_signals.py
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Stephen's repo secret is named ANTHROPIC_API_KEY2 (not ANTHROPIC_API_KEY)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
         continue-on-error: true
 
       - name: Federal Grant Flow (NSF+NIH+ARPA-E merge)
