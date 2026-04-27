@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Profile | ROS Startup Database</title>
+    <meta name="description" content="Deep page for any frontier-tech VC — full portfolio, sector mix, recent activity, and co-investor patterns.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:title" content="Investor Profile | The Innovators League">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260427">
+    <style>
+      .if-hero {
+        background: linear-gradient(135deg, #0a0f1a 0%, #1a0d2c 40%, #2a1049 100%);
+        padding: 70px 24px 50px;
+      }
+      .if-hero-inner { max-width: 1200px; margin: 0 auto; }
+      .if-back {
+        display: inline-flex; align-items: center; gap: 6px;
+        font-size: 12px; color: rgba(255,255,255,0.55);
+        text-decoration: none; margin-bottom: 18px; letter-spacing: 0.5px;
+      }
+      .if-back:hover { color: #86efac; }
+      .if-name {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: clamp(28px, 4vw, 44px); font-weight: 700;
+        color: #fff; margin: 0 0 8px;
+      }
+      .if-meta {
+        display: flex; flex-wrap: wrap; gap: 16px;
+        margin-top: 14px; font-size: 13px; color: rgba(255,255,255,0.7);
+      }
+      .if-meta-item { display: flex; align-items: center; gap: 6px; }
+      .if-meta-label {
+        font-size: 10px; text-transform: uppercase; letter-spacing: 1px;
+        color: rgba(255,255,255,0.45); margin-right: 4px;
+      }
+      .if-meta-value {
+        font-family: 'Space Grotesk', monospace; color: #86efac; font-weight: 600;
+      }
+      .if-website {
+        display: inline-block; margin-top: 16px;
+        padding: 8px 16px; background: rgba(134,239,172,0.1);
+        border: 1px solid rgba(134,239,172,0.35); border-radius: 8px;
+        color: #86efac; font-size: 13px; font-weight: 600;
+        text-decoration: none;
+      }
+      .if-website:hover { background: rgba(134,239,172,0.18); }
+
+      .if-container { max-width: 1200px; margin: 0 auto; padding: 40px 24px 80px; }
+      .if-section {
+        margin-bottom: 36px;
+        padding: 26px 28px;
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 14px;
+      }
+      .if-section h2 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 14px; font-weight: 700;
+        color: #86efac; margin: 0 0 16px;
+        text-transform: uppercase; letter-spacing: 1.2px;
+        padding-bottom: 10px; border-bottom: 1px solid rgba(134,239,172,0.15);
+      }
+      .if-thesis-text {
+        font-size: 15px; line-height: 1.65;
+        color: rgba(255,255,255,0.85); margin: 0;
+      }
+      .if-insight-text {
+        font-size: 14px; line-height: 1.6;
+        color: rgba(255,255,255,0.7); font-style: italic;
+        padding-left: 14px; border-left: 3px solid rgba(134,239,172,0.3);
+        margin: 0;
+      }
+      .if-partners {
+        display: flex; flex-wrap: wrap; gap: 8px;
+      }
+      .if-partner {
+        padding: 6px 12px;
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 16px;
+        font-size: 12px; color: #fff;
+      }
+      .if-sectors {
+        display: flex; flex-direction: column; gap: 8px;
+      }
+      .if-sector-bar {
+        display: flex; align-items: center; gap: 10px;
+      }
+      .if-sector-lbl {
+        width: 180px; font-size: 12px; color: rgba(255,255,255,0.75);
+      }
+      .if-sector-track {
+        flex: 1; height: 8px; background: rgba(255,255,255,0.04); border-radius: 4px;
+      }
+      .if-sector-fill {
+        height: 100%; background: linear-gradient(90deg, #86efac, #22c55e);
+        border-radius: 4px;
+      }
+      .if-sector-cnt {
+        min-width: 32px; text-align: right;
+        font-family: 'Space Grotesk', monospace; font-weight: 600;
+        font-size: 12px; color: #86efac;
+      }
+
+      .if-portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 12px;
+      }
+      .if-portfolio-card {
+        padding: 12px 14px;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 10px;
+        text-decoration: none;
+        transition: all 0.15s;
+      }
+      .if-portfolio-card:hover {
+        border-color: rgba(134,239,172,0.4);
+        background: rgba(134,239,172,0.05);
+        transform: translateY(-1px);
+      }
+      .if-pc-name { color: #fff; font-weight: 600; font-size: 13px; }
+      .if-pc-meta {
+        font-size: 11px; color: rgba(255,255,255,0.5);
+        margin-top: 4px;
+        display: flex; gap: 8px; align-items: center;
+      }
+      .if-pc-sector { color: rgba(134,239,172,0.7); }
+
+      .if-coinvest-list {
+        display: flex; flex-direction: column; gap: 8px;
+      }
+      .if-coinvest-row {
+        display: flex; justify-content: space-between; align-items: center;
+        padding: 10px 14px;
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 8px;
+      }
+      .if-coinvest-name { font-weight: 600; color: #fff; font-size: 13px; }
+      .if-coinvest-name a { color: inherit; text-decoration: none; }
+      .if-coinvest-name a:hover { color: #86efac; }
+      .if-coinvest-cos {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 12px; color: #86efac;
+      }
+      .if-coinvest-cos-detail {
+        font-size: 11px; color: rgba(255,255,255,0.45); margin-top: 2px;
+      }
+
+      .if-deals-list { display: flex; flex-direction: column; gap: 8px; }
+      .if-deal {
+        padding: 10px 14px;
+        background: rgba(255,255,255,0.02);
+        border-left: 3px solid rgba(134,239,172,0.3);
+        border-radius: 0 8px 8px 0;
+        display: flex; justify-content: space-between; align-items: center;
+        gap: 12px;
+      }
+      .if-deal-co { font-weight: 600; color: #fff; font-size: 13px; }
+      .if-deal-co a { color: inherit; text-decoration: none; }
+      .if-deal-co a:hover { color: #86efac; }
+      .if-deal-meta { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 2px; }
+      .if-deal-amt {
+        font-family: 'Space Grotesk', monospace;
+        font-weight: 700; color: #86efac; font-size: 13px;
+      }
+
+      .if-not-found {
+        max-width: 600px; margin: 80px auto;
+        padding: 40px; text-align: center;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 14px;
+      }
+      .if-not-found h2 { color: #fff; margin: 0 0 12px; }
+      .if-not-found p { color: rgba(255,255,255,0.6); margin: 0 0 16px; }
+      .if-not-found a {
+        color: #86efac; text-decoration: none; font-weight: 600;
+      }
+    </style>
+    <script src="analytics.js?v=20260427"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-brand">
+            <a href="index.html" style="display:flex;align-items:center;gap:8px;text-decoration:none;">
+                <div class="nav-logo">ROS</div>
+                <span class="nav-title">THE INNOVATORS LEAGUE</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Companies</a>
+            <a href="terminal.html" class="nav-link" style="color:#86efac;">⚡ Terminal</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Signals <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="brief.html" class="nav-dropdown-link">📰 Frontier Daily</a>
+                    <a href="signals.html" class="nav-dropdown-link">🔴 Proprietary Signals</a>
+                    <a href="investor-hub.html" class="nav-dropdown-link">💰 Investor Hub</a>
+                    <a href="power-grid.html" class="nav-dropdown-link">⚡ Power Grid</a>
+                    <a href="govradar.html" class="nav-dropdown-link">🎖️ Government Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">📋 Regulatory</a>
+                    <a href="earnings-signals.html" class="nav-dropdown-link">📈 Earnings Signals</a>
+                    <a href="launches.html" class="nav-dropdown-link">🛰️ Space Launches</a>
+                    <a href="alerts.html" class="nav-dropdown-link">🔔 Alerts</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Research <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="visualizations.html" class="nav-dropdown-link">📊 Insights &amp; Data Viz</a>
+                    <a href="sectors.html" class="nav-dropdown-link">🏭 Sectors</a>
+                    <a href="investors.html" class="nav-dropdown-link">💰 Investors</a>
+                    <a href="valuations.html" class="nav-dropdown-link">📉 Valuations</a>
+                    <a href="jobs.html" class="nav-dropdown-link">💼 Talent</a>
+                    <a href="patents.html" class="nav-dropdown-link">📜 Patents</a>
+                    <a href="customers.html" class="nav-dropdown-link">👥 Customers</a>
+                    <a href="captable.html" class="nav-dropdown-link">📋 Cap Tables</a>
+                    <a href="compare.html" class="nav-dropdown-link">⚖️ Compare</a>
+                    <a href="transformation.html" class="nav-dropdown-link">🌱 Transformation</a>
+                    <a href="calendar.html" class="nav-dropdown-link">📅 Events</a>
+                    <a href="research.html" class="nav-dropdown-link">🔬 Deep Research</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <!-- Page renders into here -->
+    <div id="if-root">
+      <div class="if-not-found">
+        <h2>Loading…</h2>
+        <p>Fetching investor data.</p>
+      </div>
+    </div>
+
+    <footer style="padding:32px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.06);">
+      <p style="font-size:11px; color:rgba(255,255,255,0.4); letter-spacing:0.5px;">
+        Per-investor deep page · Data from VC_FIRMS + DEAL_TRACKER ·
+        <a href="terms.html" style="color:rgba(255,255,255,0.5);">Terms</a> ·
+        <a href="privacy.html" style="color:rgba(255,255,255,0.5);">Privacy</a>
+      </p>
+    </footer>
+
+    <script src="utils.js?v=20260427"></script>
+    <script src="auth.js?v=20260427"></script>
+    <script src="data.js?v=20260427"></script>
+    <script src="investor-firm.js?v=20260427"></script>
+</body>
+</html>

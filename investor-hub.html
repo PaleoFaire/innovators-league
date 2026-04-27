@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Hub | ROS Startup Database</title>
+    <meta name="description" content="The unified investor workspace — active raises, funding pulse, co-investor network, and per-firm portfolio deep pages. Every data point linked to its primary source.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:title" content="Investor Hub | The Innovators League">
+    <meta property="og:description" content="The Bloomberg Terminal for frontier-tech investors. Active raises + co-investor map + portfolio intelligence.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260427">
+    <style>
+      .ih-hero {
+        background: linear-gradient(135deg, #0a0f1a 0%, #1a0d2c 40%, #2a1049 70%, #120623 100%);
+        padding: 60px 24px 50px;
+        position: relative;
+        overflow: hidden;
+      }
+      .ih-hero::before {
+        content: ""; position: absolute; inset: 0;
+        background:
+          radial-gradient(circle at 20% 40%, rgba(134,239,172,0.08) 0%, transparent 50%),
+          radial-gradient(circle at 80% 60%, rgba(139,92,246,0.08) 0%, transparent 50%);
+        pointer-events: none;
+      }
+      .ih-hero-inner { max-width: 1280px; margin: 0 auto; position: relative; z-index: 1; }
+      .ih-eyebrow {
+        font-size: 11px; letter-spacing: 2.5px; color: #86efac;
+        text-transform: uppercase; font-weight: 600; margin: 0 0 14px;
+      }
+      .ih-title {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: clamp(28px, 4vw, 44px); font-weight: 700;
+        line-height: 1.05; margin: 0 0 14px; color: #fff;
+      }
+      .ih-lede {
+        font-size: 16px; color: rgba(255,255,255,0.72);
+        max-width: 780px; line-height: 1.55; margin: 0;
+      }
+
+      .ih-stats {
+        display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 14px; margin-top: 28px;
+      }
+      .ih-stat {
+        background: rgba(0,0,0,0.35);
+        border: 1px solid rgba(134,239,172,0.18);
+        border-radius: 12px; padding: 16px 20px;
+        backdrop-filter: blur(8px);
+      }
+      .ih-stat-lbl {
+        font-size: 10px; color: rgba(255,255,255,0.5);
+        text-transform: uppercase; letter-spacing: 1px;
+        margin-bottom: 8px; font-weight: 600;
+      }
+      .ih-stat-val {
+        font-family: 'Space Grotesk', monospace;
+        font-size: 28px; font-weight: 700; color: #86efac;
+        line-height: 1;
+      }
+      .ih-stat-sub {
+        font-size: 11px; color: rgba(255,255,255,0.45); margin-top: 6px;
+      }
+
+      .ih-container { max-width: 1280px; margin: 0 auto; padding: 32px 24px 80px; }
+
+      .ih-section {
+        margin-bottom: 36px;
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.06);
+        border-radius: 14px;
+        overflow: hidden;
+      }
+      .ih-section-head {
+        padding: 22px 26px 16px;
+        display: flex; justify-content: space-between; align-items: baseline;
+        gap: 16px; flex-wrap: wrap;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+      }
+      .ih-section h2 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 20px; font-weight: 700; color: #fff; margin: 0;
+      }
+      .ih-section-sub {
+        font-size: 13px; color: rgba(255,255,255,0.55); margin: 4px 0 0;
+      }
+      .ih-section-meta {
+        font-size: 11px; color: rgba(255,255,255,0.4);
+        text-transform: uppercase; letter-spacing: 0.6px;
+        font-family: 'Space Grotesk', monospace;
+      }
+      .ih-section-body { padding: 16px 22px 22px; }
+
+      /* Active Raise Calendar */
+      .ih-raise-table {
+        width: 100%; border-collapse: collapse; font-size: 13px;
+      }
+      .ih-raise-table th {
+        text-align: left; padding: 10px 12px;
+        font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px;
+        color: rgba(255,255,255,0.5); font-weight: 600;
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+      }
+      .ih-raise-table td {
+        padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.04);
+        color: rgba(255,255,255,0.85); vertical-align: top;
+      }
+      .ih-raise-table tr:hover { background: rgba(134,239,172,0.03); }
+      .ih-raise-co a {
+        color: #fff; font-weight: 600; text-decoration: none;
+      }
+      .ih-raise-co a:hover { color: #86efac; }
+      .ih-raise-amt {
+        font-family: 'Space Grotesk', monospace;
+        font-weight: 700; color: #22c55e; font-size: 13px;
+      }
+      .ih-raise-fit {
+        display: inline-block; padding: 2px 8px;
+        border-radius: 8px; font-size: 10px; font-weight: 700;
+        letter-spacing: 0.4px;
+      }
+      .ih-raise-fit.green {
+        background: rgba(34,197,94,0.15);
+        border: 1px solid rgba(34,197,94,0.4);
+        color: #86efac;
+      }
+      .ih-raise-fit.amber {
+        background: rgba(251,191,36,0.12);
+        border: 1px solid rgba(251,191,36,0.4);
+        color: #fbbf24;
+      }
+      .ih-raise-fit.red {
+        background: rgba(239,68,68,0.1);
+        border: 1px solid rgba(239,68,68,0.3);
+        color: #fca5a5;
+      }
+      .ih-raise-fit.gray {
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.1);
+        color: rgba(255,255,255,0.55);
+      }
+      .ih-source-link {
+        font-size: 11px; color: #60a5fa; text-decoration: none;
+      }
+      .ih-source-link:hover { text-decoration: underline; }
+
+      /* Funding Pulse */
+      .ih-pulse-list { display: flex; flex-direction: column; gap: 8px; }
+      .ih-pulse-item {
+        display: grid;
+        grid-template-columns: 60px 1fr auto;
+        gap: 14px; align-items: center;
+        padding: 12px 14px;
+        background: rgba(255,255,255,0.02);
+        border-left: 3px solid rgba(255,255,255,0.1);
+        border-radius: 0 8px 8px 0;
+        transition: all 0.15s;
+      }
+      .ih-pulse-item:hover {
+        background: rgba(255,255,255,0.04);
+        border-left-color: #86efac;
+      }
+      .ih-pulse-item.formd { border-left-color: #22c55e; }
+      .ih-pulse-item.news { border-left-color: #60a5fa; }
+      .ih-pulse-item.press { border-left-color: #a78bfa; }
+      .ih-pulse-item.signal { border-left-color: #fbbf24; }
+      .ih-pulse-tag {
+        font-size: 9px; font-weight: 700; letter-spacing: 0.5px;
+        text-transform: uppercase; padding: 3px 6px;
+        border-radius: 4px; text-align: center;
+        font-family: 'Space Grotesk', monospace;
+      }
+      .ih-pulse-tag.formd { background: rgba(34,197,94,0.15); color: #86efac; }
+      .ih-pulse-tag.news { background: rgba(59,130,246,0.15); color: #93c5fd; }
+      .ih-pulse-tag.press { background: rgba(139,92,246,0.15); color: #c4b5fd; }
+      .ih-pulse-tag.signal { background: rgba(251,191,36,0.15); color: #fbbf24; }
+      .ih-pulse-co a {
+        color: #fff; font-weight: 600; font-size: 13px; text-decoration: none;
+      }
+      .ih-pulse-co a:hover { color: #86efac; }
+      .ih-pulse-headline {
+        font-size: 12px; color: rgba(255,255,255,0.7); margin-top: 2px;
+      }
+      .ih-pulse-headline a { color: inherit; text-decoration: none; }
+      .ih-pulse-headline a:hover { color: #93c5fd; }
+      .ih-pulse-time {
+        font-size: 11px; color: rgba(255,255,255,0.4);
+        font-family: 'Space Grotesk', monospace;
+        text-align: right;
+      }
+
+      .ih-filter-bar {
+        display: flex; flex-wrap: wrap; gap: 8px;
+        margin-bottom: 14px; align-items: center;
+      }
+      .ih-filter-chip {
+        padding: 6px 12px;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 14px;
+        font-size: 11px; font-weight: 600;
+        color: rgba(255,255,255,0.7);
+        cursor: pointer; transition: all 0.15s;
+        font-family: inherit;
+      }
+      .ih-filter-chip:hover { border-color: rgba(134,239,172,0.4); color: #fff; }
+      .ih-filter-chip.active {
+        background: rgba(134,239,172,0.12);
+        border-color: rgba(134,239,172,0.5);
+        color: #86efac;
+      }
+
+      /* Co-Investor Graph */
+      .ih-graph-wrap {
+        position: relative;
+        background: rgba(0,0,0,0.25);
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .ih-graph-svg {
+        width: 100%; display: block;
+        cursor: grab;
+      }
+      .ih-graph-svg:active { cursor: grabbing; }
+      .ih-graph-info {
+        padding: 14px 18px;
+        font-size: 12px; color: rgba(255,255,255,0.55);
+        border-top: 1px solid rgba(255,255,255,0.05);
+      }
+      .ih-graph-info strong { color: #86efac; }
+
+      /* Investor Directory */
+      .ih-firm-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 12px;
+      }
+      .ih-firm-card {
+        padding: 14px 16px;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 10px;
+        text-decoration: none;
+        transition: all 0.15s;
+        display: block;
+      }
+      .ih-firm-card:hover {
+        border-color: rgba(134,239,172,0.4);
+        background: rgba(134,239,172,0.04);
+        transform: translateY(-1px);
+      }
+      .ih-firm-name {
+        color: #fff; font-weight: 700; font-size: 14px;
+      }
+      .ih-firm-aum {
+        color: rgba(134,239,172,0.85); font-family: 'Space Grotesk', monospace;
+        font-size: 12px; font-weight: 600; margin-top: 2px;
+      }
+      .ih-firm-thesis {
+        font-size: 12px; color: rgba(255,255,255,0.55);
+        margin-top: 8px; line-height: 1.5;
+        display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .ih-firm-portfolio-cnt {
+        font-size: 11px; color: rgba(255,255,255,0.45);
+        margin-top: 8px;
+      }
+
+      .ih-empty {
+        padding: 36px 20px; text-align: center;
+        color: rgba(255,255,255,0.4); font-size: 13px;
+      }
+
+      /* Why-this-matters callout */
+      .ih-callout {
+        margin-top: 14px;
+        padding: 18px 22px;
+        background: linear-gradient(135deg, rgba(134,239,172,0.05) 0%, rgba(59,130,246,0.04) 100%);
+        border: 1px solid rgba(134,239,172,0.18);
+        border-radius: 12px;
+      }
+      .ih-callout strong { color: #86efac; }
+      .ih-callout p {
+        font-size: 13px; color: rgba(255,255,255,0.78);
+        line-height: 1.6; margin: 0;
+      }
+
+      /* SVG node + edge styles for co-investor graph */
+      .ih-node circle { fill: rgba(134,239,172,0.7); stroke: #86efac; stroke-width: 1.5; cursor: pointer; }
+      .ih-node:hover circle { fill: #86efac; }
+      .ih-node text { fill: #fff; font-size: 9px; font-family: 'Space Grotesk', monospace; pointer-events: none; }
+      .ih-edge { stroke: rgba(134,239,172,0.2); stroke-linecap: round; pointer-events: none; }
+      .ih-edge.highlighted { stroke: rgba(134,239,172,0.6); }
+      .ih-node.dimmed circle { fill: rgba(255,255,255,0.15); stroke: rgba(255,255,255,0.2); }
+      .ih-node.dimmed text { opacity: 0.3; }
+    </style>
+    <script src="analytics.js?v=20260427"></script>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-brand">
+            <a href="index.html" style="display:flex;align-items:center;gap:8px;text-decoration:none;">
+                <div class="nav-logo">ROS</div>
+                <span class="nav-title">THE INNOVATORS LEAGUE</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Companies</a>
+            <a href="terminal.html" class="nav-link" style="color:#86efac;">⚡ Terminal</a>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Signals <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="brief.html" class="nav-dropdown-link">📰 Frontier Daily</a>
+                    <a href="signals.html" class="nav-dropdown-link">🔴 Proprietary Signals</a>
+                    <a href="investor-hub.html" class="nav-dropdown-link" aria-current="page">💰 Investor Hub</a>
+                    <a href="power-grid.html" class="nav-dropdown-link">⚡ Power Grid</a>
+                    <a href="govradar.html" class="nav-dropdown-link">🎖️ Government Radar</a>
+                    <a href="regulatory.html" class="nav-dropdown-link">📋 Regulatory</a>
+                    <a href="earnings-signals.html" class="nav-dropdown-link">📈 Earnings Signals</a>
+                    <a href="launches.html" class="nav-dropdown-link">🛰️ Space Launches</a>
+                    <a href="alerts.html" class="nav-dropdown-link">🔔 Alerts</a>
+                </div>
+            </div>
+            <div class="nav-dropdown">
+                <button class="nav-link nav-link-main">Research <svg width="10" height="6" viewBox="0 0 10 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l4 4 4-4"/></svg></button>
+                <div class="nav-dropdown-content">
+                    <a href="visualizations.html" class="nav-dropdown-link">📊 Insights &amp; Data Viz</a>
+                    <a href="sectors.html" class="nav-dropdown-link">🏭 Sectors</a>
+                    <a href="investors.html" class="nav-dropdown-link">💰 Investors</a>
+                    <a href="valuations.html" class="nav-dropdown-link">📉 Valuations</a>
+                    <a href="jobs.html" class="nav-dropdown-link">💼 Talent</a>
+                    <a href="patents.html" class="nav-dropdown-link">📜 Patents</a>
+                    <a href="customers.html" class="nav-dropdown-link">👥 Customers</a>
+                    <a href="captable.html" class="nav-dropdown-link">📋 Cap Tables</a>
+                    <a href="compare.html" class="nav-dropdown-link">⚖️ Compare</a>
+                    <a href="transformation.html" class="nav-dropdown-link">🌱 Transformation</a>
+                    <a href="calendar.html" class="nav-dropdown-link">📅 Events</a>
+                    <a href="research.html" class="nav-dropdown-link">🔬 Deep Research</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav-auth" id="nav-auth">
+            <button class="nav-sign-in-btn" onclick="TILAuth.showAuthModal()">Sign In</button>
+            <a href="https://www.rationaloptimistsociety.com" target="_blank" rel="noopener" class="nav-cta">Join ROS</a>
+        </div>
+        <div class="nav-user" id="nav-user" style="display:none;">
+            <span class="nav-user-email" id="nav-user-email"></span>
+            <button class="nav-signout-btn" onclick="TILAuth.signOut()">Sign Out</button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+
+    <header class="ih-hero">
+      <div class="ih-hero-inner">
+        <p class="ih-eyebrow">INVESTOR HUB · 100% PRIMARY SOURCE</p>
+        <h1 class="ih-title">Who's investing. Who's raising. Right now.</h1>
+        <p class="ih-lede">The unified investor workspace. Active Form D filings, real-time funding pulse, co-investor network map, and per-firm deep pages. Every data point links to its primary source — SEC EDGAR, original publishers, and curated portfolio data. Nothing inferred or estimated.</p>
+        <div class="ih-stats">
+          <div class="ih-stat">
+            <div class="ih-stat-lbl">Active Form D filings</div>
+            <div class="ih-stat-val" id="ih-stat-raises">—</div>
+            <div class="ih-stat-sub">last 60 days · SEC EDGAR</div>
+          </div>
+          <div class="ih-stat">
+            <div class="ih-stat-lbl">VC firms tracked</div>
+            <div class="ih-stat-val" id="ih-stat-firms" style="color:#c4b5fd;">—</div>
+            <div class="ih-stat-sub">curated frontier-tech investors</div>
+          </div>
+          <div class="ih-stat">
+            <div class="ih-stat-lbl">Pulse items (72h)</div>
+            <div class="ih-stat-val" id="ih-stat-pulse" style="color:#93c5fd;">—</div>
+            <div class="ih-stat-sub">Form D + news + press combined</div>
+          </div>
+          <div class="ih-stat">
+            <div class="ih-stat-lbl">Co-invest links</div>
+            <div class="ih-stat-val" id="ih-stat-edges" style="color:#fbbf24;">—</div>
+            <div class="ih-stat-sub">syndicate edges in network graph</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="ih-container">
+
+      <!-- Why this matters -->
+      <div class="ih-callout">
+        <p><strong>The two questions every investor asks:</strong> "Who's invested in what?" and "When are companies raising?" This page answers both. Every Form D row links to SEC EDGAR. Every news item links to the original publisher. Every co-investor edge is a confirmed shared portfolio company. Zero inference, zero seeded data — the bar is 100% accuracy.</p>
+      </div>
+
+      <!-- ═══ SECTION 1: Active Raise Calendar ═══ -->
+      <section class="ih-section" id="active-raises">
+        <div class="ih-section-head">
+          <div>
+            <h2>📋 Active Raise Calendar</h2>
+            <p class="ih-section-sub">Companies that filed Form D with the SEC in the last 60 days — they're legally required to file within 15 days of first sale. Color-coded for ROS Fund check-size fit ($100K–$250K).</p>
+          </div>
+          <span class="ih-section-meta" id="ih-raise-meta">—</span>
+        </div>
+        <div class="ih-section-body">
+          <div id="ih-raise-body"><p class="ih-empty">Loading active raises…</p></div>
+        </div>
+      </section>
+
+      <!-- ═══ SECTION 2: Unified Funding Pulse ═══ -->
+      <section class="ih-section" id="funding-pulse">
+        <div class="ih-section-head">
+          <div>
+            <h2>📰 Unified Funding Pulse</h2>
+            <p class="ih-section-sub">Form D filings + funding news + press releases, in one chronological feed. Filter by signal type. Click any item to open the primary source.</p>
+          </div>
+          <span class="ih-section-meta" id="ih-pulse-meta">—</span>
+        </div>
+        <div class="ih-section-body">
+          <div class="ih-filter-bar" id="ih-pulse-filters">
+            <button class="ih-filter-chip active" data-filter="all">All sources</button>
+            <button class="ih-filter-chip" data-filter="formd">Form D only</button>
+            <button class="ih-filter-chip" data-filter="news">News only</button>
+            <button class="ih-filter-chip" data-filter="press">Press only</button>
+            <button class="ih-filter-chip" data-filter="signal">Signals only</button>
+          </div>
+          <div id="ih-pulse-body"><p class="ih-empty">Loading funding pulse…</p></div>
+        </div>
+      </section>
+
+      <!-- ═══ SECTION 3: Co-Investor Network Graph ═══ -->
+      <section class="ih-section" id="co-investor-graph">
+        <div class="ih-section-head">
+          <div>
+            <h2>🕸️ Co-Investor Network</h2>
+            <p class="ih-section-sub">Force-directed graph: nodes are VC firms, edges are shared portfolio companies. Bigger nodes have larger portfolios. Click a node to see who they syndicate with most often.</p>
+          </div>
+          <span class="ih-section-meta" id="ih-graph-meta">—</span>
+        </div>
+        <div class="ih-section-body">
+          <div class="ih-graph-wrap">
+            <svg class="ih-graph-svg" id="ih-graph-svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet">
+              <g id="ih-graph-edges"></g>
+              <g id="ih-graph-nodes"></g>
+            </svg>
+            <div class="ih-graph-info" id="ih-graph-info">
+              Click any node to see <strong>top co-investors</strong> for that firm.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ SECTION 4: Investor Directory ═══ -->
+      <section class="ih-section" id="investor-directory">
+        <div class="ih-section-head">
+          <div>
+            <h2>💼 Investor Directory</h2>
+            <p class="ih-section-sub">Click any firm for a deep page: full portfolio, sector breakdown, co-investors, recent deals, and ROS editorial take.</p>
+          </div>
+          <span class="ih-section-meta" id="ih-firms-meta">—</span>
+        </div>
+        <div class="ih-section-body">
+          <div id="ih-firms-body"><p class="ih-empty">Loading firms…</p></div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer style="padding:32px 24px; text-align:center; border-top:1px solid rgba(255,255,255,0.06);">
+      <p style="font-size:11px; color:rgba(255,255,255,0.4); letter-spacing:0.5px;">
+        Investor Hub · Form D from SEC EDGAR (free, public) · News from RSS feeds (cited per item) · VC data curated by ROS ·
+        <a href="terms.html" style="color:rgba(255,255,255,0.5);">Terms</a> ·
+        <a href="privacy.html" style="color:rgba(255,255,255,0.5);">Privacy</a>
+      </p>
+    </footer>
+
+    <script src="utils.js?v=20260427"></script>
+    <script src="auth.js?v=20260427"></script>
+    <script src="data.js?v=20260427"></script>
+    <script src="data/form_d_filings_auto.js?v=20260427"></script>
+    <script src="data/news_signals_auto.js?v=20260427"></script>
+    <script src="data/press_releases_auto.js?v=20260427"></script>
+    <script src="investor-hub.js?v=20260427"></script>
+</body>
+</html>

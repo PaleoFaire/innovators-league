@@ -236,14 +236,17 @@ function renderVCCards(firms) {
 
     const sectorBadges = firm.sectorFocus.map(s => `<span class="vc-sector-tag">${s}</span>`).join('');
 
+    // Make the card name clickable → opens the per-firm deep page
+    const deepLink = `investor-firm.html?firm=${encodeURIComponent(firm.name)}`;
     card.innerHTML = `
       <div class="vc-card-header">
         <div>
-          <h3 class="vc-card-name">${firm.shortName}</h3>
+          <h3 class="vc-card-name"><a href="${deepLink}" style="color:inherit; text-decoration:none;">${firm.shortName}</a></h3>
           <p class="vc-card-fullname">${firm.name}</p>
         </div>
         <div class="vc-card-aum">${firm.aum}</div>
       </div>
+      <a href="${deepLink}" style="display:inline-block; margin-top:6px; padding:4px 10px; background:rgba(134,239,172,0.1); border:1px solid rgba(134,239,172,0.35); border-radius:6px; color:#86efac; font-size:11px; font-weight:600; text-decoration:none;">Open deep page →</a>
       <div class="vc-card-meta">
         <span class="vc-meta-item">📍 ${firm.hq}</span>
         <span class="vc-meta-item">📅 Est. ${firm.founded}</span>
