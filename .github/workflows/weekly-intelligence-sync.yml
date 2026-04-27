@@ -199,47 +199,80 @@ jobs:
           git config user.name "TIL Data Bot"
           git config user.email "bot@innovatorsleague.com"
 
-      - name: Commit and push (retry on conflict)
+      - name: Commit and push (robust stash-rebase-pop pattern)
+        # Uses the same stash-rebase-pop-commit-soft-reset pattern that
+        # weekly-extended-sync.yml uses. The previous version did:
+        #   git push; if fail: git pull --rebase || true; retry
+        # That swallowed rebase failures silently — when concurrent runs
+        # touched any of the auto.js files, rebase aborted, the push
+        # repeatedly failed, and the workflow ran for 23 minutes before
+        # exiting with code 1. (Same root-cause family as the data.js
+        # conflict-marker bug from the previous round.)
         run: |
-          git add data.js data/weekly_scoring_digest.json \
-                  data/weekly_history.json \
-                  data/weekly_brief_movers.json \
-                  data/weekly_brief.json \
-                  data/metadata_verification.json \
-                  data/interconnection_queue_auto.json data/interconnection_queue_auto.js \
-                  data/website_changes_auto.json data/website_changes_auto.js \
-                  data/fcc_licenses_auto.json data/fcc_licenses_auto.js \
-                  data/h1b_lca_auto.json data/h1b_lca_auto.js \
-                  data/dsca_fms_auto.json data/dsca_fms_auto.js \
-                  data/lobbying_auto.json data/lobbying_auto.js \
-                  data/youtube_mentions_auto.json data/youtube_mentions_auto.js \
-                  data/bill_of_lading_auto.json data/bill_of_lading_auto.js \
-                  data/state_puct_dockets_auto.json data/state_puct_dockets_auto.js \
-                  data/water_permits_auto.json data/water_permits_auto.js \
-                  data/deception_scores_auto.json data/deception_scores_auto.js \
-                  data/field_notes_auto.json data/field_notes_auto.js \
-                  data/budget_signals_auto.json data/budget_signals_auto.js \
-                  data/fund_intelligence_auto.json data/fund_intelligence_auto.js \
-                  data/ma_comps_auto.json data/ma_comps_auto.js \
-                  data/founder_mafias_auto.json data/founder_mafias_auto.js \
-                  data/network_graph_auto.json data/network_graph_auto.js \
-                  data/contractor_readiness_auto.json data/contractor_readiness_auto.js \
-                  data/gov_demand_summary_auto.json data/gov_demand_summary_auto.js \
-                  data/expert_takes_auto.json data/expert_takes_auto.js \
-                  2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "No changes to commit this week."
-            exit 0
+          # Pre-commit conflict marker guard — refuse to ship any file
+          # that contains an unresolved <<<<<<< / ======= / >>>>>>> marker.
+          # Caught by the regression that broke the homepage in Apr 2026.
+          if grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null | head -1 | grep -q .; then
+            echo "::error::Conflict markers detected in tracked files. Refusing to commit."
+            grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null
+            exit 1
           fi
-          git commit -m "📊 Weekly Intelligence Sync $(date +%Y-%m-%d) — Frontier Index + proprietary metrics refresh"
+
           for attempt in 1 2 3 4 5; do
+            git stash --include-untracked 2>/dev/null || true
+            git pull --rebase origin main || {
+              echo "Rebase failed on attempt $attempt; aborting cleanly"
+              git rebase --abort 2>/dev/null || true
+            }
+            git stash pop 2>/dev/null || true
+            git add data.js data/weekly_scoring_digest.json \
+                    data/weekly_history.json \
+                    data/weekly_brief_movers.json \
+                    data/weekly_brief.json \
+                    data/metadata_verification.json \
+                    data/interconnection_queue_auto.json data/interconnection_queue_auto.js \
+                    data/website_changes_auto.json data/website_changes_auto.js \
+                    data/fcc_licenses_auto.json data/fcc_licenses_auto.js \
+                    data/h1b_lca_auto.json data/h1b_lca_auto.js \
+                    data/dsca_fms_auto.json data/dsca_fms_auto.js \
+                    data/lobbying_auto.json data/lobbying_auto.js \
+                    data/youtube_mentions_auto.json data/youtube_mentions_auto.js \
+                    data/bill_of_lading_auto.json data/bill_of_lading_auto.js \
+                    data/state_puct_dockets_auto.json data/state_puct_dockets_auto.js \
+                    data/water_permits_auto.json data/water_permits_auto.js \
+                    data/deception_scores_auto.json data/deception_scores_auto.js \
+                    data/field_notes_auto.json data/field_notes_auto.js \
+                    data/budget_signals_auto.json data/budget_signals_auto.js \
+                    data/fund_intelligence_auto.json data/fund_intelligence_auto.js \
+                    data/ma_comps_auto.json data/ma_comps_auto.js \
+                    data/founder_mafias_auto.json data/founder_mafias_auto.js \
+                    data/network_graph_auto.json data/network_graph_auto.js \
+                    data/contractor_readiness_auto.json data/contractor_readiness_auto.js \
+                    data/gov_demand_summary_auto.json data/gov_demand_summary_auto.js \
+                    data/expert_takes_auto.json data/expert_takes_auto.js \
+                    2>/dev/null || true
+
+            # Re-check conflict markers AFTER stash pop — the rebase may
+            # have introduced them when merging concurrent auto.js writes.
+            if grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null | head -1 | grep -q .; then
+              echo "::error::Conflict markers introduced by rebase on attempt $attempt"
+              grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null
+              # Don't push broken JS — give up cleanly so a human can fix
+              exit 1
+            fi
+
+            if git diff --staged --quiet; then
+              echo "No changes to commit on attempt $attempt."
+              exit 0
+            fi
+            git commit -m "📊 Weekly Intelligence Sync $(date +%Y-%m-%d) — Frontier Index + proprietary metrics refresh"
             if git push; then
               echo "Pushed on attempt $attempt"
               exit 0
             fi
-            echo "Push rejected, rebasing..."
-            git pull --rebase origin main || true
-            sleep $((attempt * 3))
+            echo "Push rejected on attempt $attempt; soft-resetting and retrying"
+            git reset --soft HEAD~1
+            sleep $((attempt * 5))
           done
           echo "::error::Failed to push weekly sync after 5 attempts"
           exit 1
