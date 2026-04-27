@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.25,
+      "avg_change": -1.81,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -7.24,
+      "avg_change": -9.11,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -1.81,
+      "avg_change": -0.71,
       "count": 7
     },
     "nuclear": {
       "gainers": 1,
       "losers": 2,
-      "avg_change": -1.49,
+      "avg_change": 0.15,
       "count": 3
     },
     "climate": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 7.09,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 3.82,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.77,
+      "avg_change": -15.8,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.44,
+      "avg_change": -6.16,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -5.1,
+      "avg_change": -3.74,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 16.83,
+      "avg_change": 12.99,
       "count": 3
     }
   },
@@ -61,55 +61,55 @@
     [
       "AMD",
       "AMD",
-      24.93
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      22.29
+      22.07
     ],
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      15.6
+      13.64
     ],
     [
-      "LNZA",
-      "LanzaTech",
-      10.68
+      "ALAB",
+      "Astera Labs",
+      12.78
     ],
     [
       "277810.KQ",
       "Rainbow Robotics",
       10.03
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      7.22
     ]
   ],
   "topLosers": [
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -10.67
+      "RKLB",
+      "Rocket Lab",
+      -12.81
     ],
     [
-      "SATL",
-      "Satellogic",
-      -10.97
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      -14.75
-    ],
-    [
-      "RGTI",
-      "Rigetti Computing",
-      -16.18
+      "IONQ",
+      "IonQ",
+      -13.82
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -20.74
+      -15.56
+    ],
+    [
+      "QBTS",
+      "D-Wave Quantum",
+      -16.53
+    ],
+    [
+      "RGTI",
+      "Rigetti Computing",
+      -17.06
     ]
   ],
-  "lastUpdated": "2026-04-27 08:33:01"
+  "lastUpdated": "2026-04-27 14:04:38"
 }
