@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.81,
+      "avg_change": -2.2,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -9.11,
+      "avg_change": -7.33,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.71,
+      "avg_change": -0.02,
       "count": 7
     },
     "nuclear": {
-      "gainers": 1,
-      "losers": 2,
-      "avg_change": 0.15,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 2.63,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 3.82,
+      "avg_change": 1.07,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.8,
+      "avg_change": -12.68,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.16,
+      "avg_change": -6.28,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -3.74,
+      "avg_change": -2.07,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 12.99,
+      "avg_change": 13.6,
       "count": 3
     }
   },
@@ -61,7 +61,7 @@
     [
       "AMD",
       "AMD",
-      22.07
+      22.28
     ],
     [
       "IDEAFORGE.NS",
@@ -71,7 +71,7 @@
     [
       "ALAB",
       "Astera Labs",
-      12.78
+      11.76
     ],
     [
       "277810.KQ",
@@ -81,35 +81,35 @@
     [
       "OKLO",
       "Oklo",
-      7.22
+      9.89
     ]
   ],
   "topLosers": [
     [
-      "RKLB",
-      "Rocket Lab",
-      -12.81
-    ],
-    [
       "IONQ",
       "IonQ",
-      -13.82
+      -10.08
     ],
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -15.56
+      "ASRHF",
+      "Astroscale",
+      -12.69
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -16.53
+      -13.27
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      -17.06
+      -14.69
+    ],
+    [
+      "EVTL",
+      "Vertical Aerospace",
+      -16.26
     ]
   ],
-  "lastUpdated": "2026-04-27 14:04:38"
+  "lastUpdated": "2026-04-27 19:39:44"
 }
