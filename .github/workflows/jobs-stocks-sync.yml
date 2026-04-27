@@ -24,21 +24,27 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests yfinance
 
       - name: Fetch jobs from company career pages
         run: python scripts/fetch_jobs.py
         continue-on-error: true
 
-      - name: Fetch stock prices
+      - name: Fetch stock prices + fundamentals
         run: python scripts/fetch_stocks.py
+        continue-on-error: true
+
+      - name: Build public multiples + comparable engine data
+        run: python scripts/build_public_multiples.py
         continue-on-error: true
 
       - name: Show data freshness (debug)
         run: |
-          ls -la data/jobs_auto.js data/jobs_raw.json data/jobs_stats.json data/stocks_auto.js 2>/dev/null || true
+          ls -la data/jobs_auto.js data/jobs_raw.json data/jobs_stats.json \
+                 data/stocks_auto.js data/public_multiples_auto.json data/public_multiples_auto.js 2>/dev/null || true
           head -3 data/jobs_auto.js 2>/dev/null || true
           head -3 data/stocks_auto.js 2>/dev/null || true
+          head -3 data/public_multiples_auto.js 2>/dev/null || true
 
       - name: Configure Git
         run: |
@@ -48,7 +54,8 @@ jobs:
       - name: Commit and push (retry on conflict)
         run: |
           git add data/jobs_auto.js data/jobs_raw.json data/jobs_stats.json \
-                  data/stocks_auto.js data/stocks_raw.json data/stocks_stats.json 2>/dev/null || true
+                  data/stocks_auto.js data/stocks_raw.json data/stocks_stats.json \
+                  data/public_multiples_auto.json data/public_multiples_auto.js 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0

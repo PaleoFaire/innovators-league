@@ -210,10 +210,31 @@ jobs:
           path: data/
           retention-days: 7
 
+  sync-darpa-programs:
+    name: Sync DARPA Performer Map (USAspending)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests
+      - name: Fetch DARPA contracts from USAspending API (5-year window)
+        # Powers the DARPA Performer Map on govradar.html. Pulls every
+        # contract awarded by Defense Advanced Research Projects Agency,
+        # clusters by program tag, and matches recipients to ROS roster.
+        # Updates data/darpa_programs_auto.{json,js}.
+        run: python scripts/fetch_darpa_programs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: darpa-data
+          path: data/
+          retention-days: 7
+
   merge-and-commit:
     name: Merge Extended Data and Commit
     runs-on: ubuntu-latest
-    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-linkedin-headcount, sync-trademarks, sync-factory-watch, sync-exec-moves]
+    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-linkedin-headcount, sync-trademarks, sync-factory-watch, sync-exec-moves, sync-darpa-programs]
     if: always()
     steps:
       - name: Checkout repository
@@ -286,6 +307,14 @@ jobs:
           merge-multiple: true
         continue-on-error: true
 
+      - name: Download DARPA programs data
+        uses: actions/download-artifact@v4
+        with:
+          name: darpa-data
+          path: data/
+          merge-multiple: true
+        continue-on-error: true
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -351,7 +380,7 @@ jobs:
   data-health-summary:
     name: Data Health Summary
     runs-on: ubuntu-latest
-    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, merge-and-commit]
+    needs: [sync-insider-trading, sync-fda-approvals, sync-github-releases, sync-product-hunt, sync-darpa-programs, merge-and-commit]
     if: always()
     steps:
       - uses: actions/checkout@v4
@@ -367,6 +396,7 @@ jobs:
             "fda_approvals":   "${{ needs.sync-fda-approvals.result }}",
             "github_releases": "${{ needs.sync-github-releases.result }}",
             "product_hunt":    "${{ needs.sync-product-hunt.result }}",
+            "darpa_programs":  "${{ needs.sync-darpa-programs.result }}",
             "merge_commit":    "${{ needs.merge-and-commit.result }}",
           }
           succeeded = [k for k, v in steps.items() if v == "success"]

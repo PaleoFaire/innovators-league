@@ -14,6 +14,17 @@ from datetime import datetime
 from pathlib import Path
 import time
 
+# yfinance handles the Yahoo Finance crumb-auth that the bare quoteSummary
+# endpoint now requires. If it isn't installed, fundamentals fetching
+# silently returns empty dicts (price-only mode still works).
+try:
+    import yfinance as yf
+    _YFINANCE_AVAILABLE = True
+except ImportError:
+    yf = None
+    _YFINANCE_AVAILABLE = False
+    print("⚠ yfinance not installed — fundamentals will be skipped. Install with: pip install yfinance")
+
 # Public companies from MASTER_COMPANY_LIST with tickers
 PUBLIC_COMPANIES = [
     # Defense & Space
@@ -74,41 +85,38 @@ PUBLIC_COMPANIES = [
 def fetch_yahoo_fundamentals(ticker, headers):
     """Fetch financial fundamentals (P/S, P/E, revenue, margins) from Yahoo Finance.
 
+    Uses yfinance, which handles the Yahoo Finance crumb-auth that the bare
+    quoteSummary endpoint now requires. The `headers` argument is unused
+    (yfinance manages its own session) but kept for backward compatibility.
+
     Returns a dict with keys (each may be None if Yahoo lacks data):
       trailingPE, forwardPE, priceToSalesTTM, enterpriseToRevenue,
       enterpriseToEbitda, revenueTTM, revenueGrowthYoY, grossMarginsTTM,
       operatingMarginsTTM, ebitdaTTM
     """
+    if not _YFINANCE_AVAILABLE:
+        return {}
     out = {}
     try:
-        url = f"https://query1.finance.yahoo.com/v10/finance/quoteSummary/{ticker}"
-        modules = "summaryDetail,defaultKeyStatistics,financialData"
-        r = requests.get(url, headers=headers, params={"modules": modules}, timeout=12)
-        if r.status_code != 200:
+        info = yf.Ticker(ticker).info
+        if not info or len(info) < 5:
             return out
-        data = r.json()
-        result = (data.get("quoteSummary", {}).get("result") or [])
-        if not result:
-            return out
-        node = result[0]
-        sd = node.get("summaryDetail", {}) or {}
-        ks = node.get("defaultKeyStatistics", {}) or {}
-        fd = node.get("financialData", {}) or {}
 
-        def raw(field, src):
-            v = (src.get(field) or {}).get("raw")
+        def num(field):
+            v = info.get(field)
             return v if isinstance(v, (int, float)) and v != 0 else None
 
-        out["trailingPE"] = raw("trailingPE", sd) or raw("trailingPE", ks)
-        out["forwardPE"] = raw("forwardPE", sd) or raw("forwardPE", ks)
-        out["priceToSalesTTM"] = raw("priceToSalesTrailing12Months", sd)
-        out["enterpriseToRevenue"] = raw("enterpriseToRevenue", ks)
-        out["enterpriseToEbitda"] = raw("enterpriseToEbitda", ks)
-        out["revenueTTM"] = raw("totalRevenue", fd)
-        out["revenueGrowthYoY"] = raw("revenueGrowth", fd)
-        out["grossMarginsTTM"] = raw("grossMargins", fd)
-        out["operatingMarginsTTM"] = raw("operatingMargins", fd)
-        out["ebitdaTTM"] = raw("ebitda", fd)
+        out["trailingPE"] = num("trailingPE")
+        out["forwardPE"] = num("forwardPE")
+        out["priceToSalesTTM"] = num("priceToSalesTrailing12Months")
+        out["enterpriseToRevenue"] = num("enterpriseToRevenue")
+        out["enterpriseToEbitda"] = num("enterpriseToEbitda")
+        out["revenueTTM"] = num("totalRevenue")
+        out["revenueGrowthYoY"] = num("revenueGrowth")
+        out["grossMarginsTTM"] = num("grossMargins")
+        out["operatingMarginsTTM"] = num("operatingMargins")
+        out["ebitdaTTM"] = num("ebitda")
+        out["fundamentalsSource"] = "Yahoo Finance · yfinance.info"
     except Exception as e:
         print(f"  {ticker} fundamentals: Error - {e}")
     return out
