@@ -906,3 +906,260 @@
   .val-stats-banner { grid-template-columns: 1fr; }
   .cap-heatmap-stats { grid-template-columns: 1fr; }
 }
+
+/* ─── Public Multiples table (live Yahoo Finance) ─── */
+.pm-controls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 18px 0 14px;
+  padding: 14px 16px;
+  background: rgba(34,197,94,0.05);
+  border: 1px solid rgba(34,197,94,0.18);
+  border-radius: 10px;
+}
+.pm-input, .pm-select {
+  background: rgba(0,0,0,0.3);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+.pm-input { flex: 1 1 240px; }
+.pm-input:focus, .pm-select:focus { outline: none; border-color: rgba(34,197,94,0.5); }
+
+.pm-table-wrap {
+  overflow-x: auto;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.02);
+}
+.pm-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.pm-table thead th {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(255,255,255,0.5);
+  text-align: left;
+  padding: 12px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.pm-table thead th.pm-num { text-align: right; }
+.pm-table tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.85);
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.pm-table tbody td.pm-num {
+  text-align: right;
+  font-family: 'Space Grotesk', monospace;
+  font-size: 12.5px;
+}
+.pm-table tbody tr:hover { background: rgba(34,197,94,0.04); }
+.pm-ticker {
+  font-family: 'Space Grotesk', monospace;
+  font-weight: 700;
+  color: #22c55e;
+  font-size: 12.5px;
+}
+.pm-na { color: rgba(255,255,255,0.25); font-style: italic; font-size: 11.5px; font-family: 'Space Grotesk', monospace; }
+.pm-flag-prerev {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 9px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: rgba(245,158,11,0.18);
+  color: #f59e0b;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.pm-verify-link { font-size: 11px; color: var(--accent); text-decoration: none; }
+.pm-verify-link:hover { text-decoration: underline; }
+.pm-meta {
+  margin-top: 14px;
+  padding: 12px 16px;
+  background: rgba(255,255,255,0.02);
+  border-radius: 8px;
+  font-size: 11.5px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.6;
+}
+.pm-pos { color: #22c55e; }
+.pm-neg { color: #ef4444; }
+
+/* ─── Comparable Engine (interactive) ─── */
+.ce-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 18px;
+  margin-top: 18px;
+}
+.ce-input-card, .ce-output-card {
+  background: rgba(96,165,250,0.05);
+  border: 1px solid rgba(96,165,250,0.2);
+  border-radius: 12px;
+  padding: 22px;
+}
+.ce-label {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.ce-select, .ce-revenue-input, .ce-unit-select {
+  background: rgba(0,0,0,0.3);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #fff;
+  padding: 9px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+.ce-select { width: 100%; }
+.ce-input-row { display: flex; gap: 8px; }
+.ce-revenue-input { flex: 1; font-family: 'Space Grotesk', monospace; }
+.ce-unit-select { flex: 0 0 110px; }
+.ce-empty {
+  text-align: center;
+  color: rgba(255,255,255,0.4);
+  font-size: 13px;
+  padding: 40px 20px;
+}
+.ce-result-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.ce-result-card {
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 14px 12px;
+  text-align: center;
+}
+.ce-result-card.ce-median {
+  border-color: rgba(96,165,250,0.5);
+  background: rgba(96,165,250,0.1);
+}
+.ce-result-lbl {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 6px;
+}
+.ce-result-val {
+  font-family: 'Space Grotesk', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+.ce-result-mult {
+  font-size: 11px;
+  color: rgba(255,255,255,0.5);
+  margin-top: 4px;
+  font-family: 'Space Grotesk', monospace;
+}
+.ce-comp-list {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+.ce-comp-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.ce-comp-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 10px;
+  padding: 6px 0;
+  font-size: 12.5px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+.ce-comp-row:last-child { border-bottom: none; }
+.ce-comp-name { color: rgba(255,255,255,0.85); }
+.ce-comp-mult { font-family: 'Space Grotesk', monospace; color: rgba(255,255,255,0.6); }
+.ce-comp-link { color: #60a5fa; text-decoration: none; font-size: 11px; }
+.ce-disclaimer {
+  margin-top: 14px;
+  padding: 10px 14px;
+  background: rgba(245,158,11,0.06);
+  border-left: 3px solid rgba(245,158,11,0.5);
+  border-radius: 4px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .ce-grid { grid-template-columns: 1fr; }
+  .ce-result-grid { grid-template-columns: 1fr; }
+  .pm-table { font-size: 11.5px; }
+  .pm-table tbody td.pm-num { font-size: 11px; }
+}
+
+/* ─── Round-by-Round Comp Engine ─── */
+.rc-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 18px 0 14px;
+  padding: 14px 16px;
+  background: rgba(168,85,247,0.05);
+  border: 1px solid rgba(168,85,247,0.18);
+  border-radius: 10px;
+}
+.rc-filters .pm-input { flex: 1 1 220px; }
+.rc-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  margin: 14px 0;
+}
+.rc-summary-card {
+  background: rgba(168,85,247,0.06);
+  border: 1px solid rgba(168,85,247,0.18);
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+.rc-summary-lbl {
+  font-size: 10.5px;
+  color: rgba(255,255,255,0.55);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  margin-bottom: 6px;
+}
+.rc-summary-val {
+  font-family: 'Space Grotesk', monospace;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.rc-no-data {
+  text-align: center;
+  padding: 30px;
+  color: rgba(255,255,255,0.4);
+  font-size: 13px;
+}

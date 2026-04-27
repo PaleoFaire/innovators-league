@@ -67,17 +67,232 @@
     </svg>`;
   }
 
-  // ── Velocity leaderboard (top 30 by QoQ change) ─────────────────
-  function renderVelocityLeaderboard(velocityData) {
+  // ── Hold the velocity dataset globally for filters/compare ──────
+  let _velocityData = [];
+  const _filterState = { search: '', sector: '', trend: '' };
+
+  // ── Acceleration Alerts: latest_Q vs trailing-4Q-avg ────────────
+  // VC leading indicator: a company suddenly filing 2-3x its baseline
+  // signals R&D acceleration before commercial inflection.
+  function computeAccelerationCandidates(velocityData) {
+    if (!velocityData || velocityData.length === 0) return [];
+    const out = [];
+    velocityData.forEach((r) => {
+      const qs = r.quarters || [];
+      if (qs.length < 5) return; // need at least latest + 4 prior
+      const latest = qs[qs.length - 1].filings || 0;
+      const prior4 = qs.slice(-5, -1).map(q => q.filings || 0);
+      const prior4Avg = prior4.reduce((s, v) => s + v, 0) / prior4.length;
+      if (prior4Avg < 1) return; // skip companies with no baseline (avoids div-by-zero noise)
+      if (latest < 3) return;     // filter out tiny absolute counts (noise filter)
+      const accelPct = ((latest - prior4Avg) / prior4Avg) * 100;
+      if (accelPct < 50) return;  // only flag >=50% spikes
+      out.push({
+        company: r.company,
+        sector: r.sector,
+        latest,
+        prior4Avg,
+        accelPct,
+        latestQuarter: qs[qs.length - 1].quarter,
+        sourceUrl: r.sourceUrl,
+        usptoUrl: r.usptoUrl,
+      });
+    });
+    return out.sort((a, b) => b.accelPct - a.accelPct).slice(0, 12);
+  }
+
+  function renderAccelerationAlerts(velocityData) {
+    const wrap = document.getElementById('patent-acceleration-grid');
+    if (!wrap) return;
+    const candidates = computeAccelerationCandidates(velocityData);
+    if (candidates.length === 0) {
+      wrap.innerHTML = '<div style="padding:32px; text-align:center; color:rgba(255,255,255,0.4); font-size:13px;">No companies are currently exhibiting >50% acceleration above baseline. Quiet quarter.</div>';
+      return;
+    }
+    wrap.className = 'pat-accel-grid';
+    wrap.innerHTML = candidates.map((c, i) => {
+      const sector = sectorStyle(c.sector);
+      const source = esc(c.sourceUrl || c.usptoUrl || 'https://patents.google.com/');
+      return `<div class="pat-accel-card">
+        <div class="pat-accel-rank">#${i + 1}</div>
+        <div class="pat-accel-name">${esc(c.company)}</div>
+        <div class="pat-accel-sector" style="color:${sector.color};">${esc(sector.label)}</div>
+        <div class="pat-accel-metric">
+          <div class="pat-accel-num">+${c.accelPct.toFixed(0)}%</div>
+          <div class="pat-accel-lbl">vs trailing 4Q avg</div>
+        </div>
+        <div class="pat-accel-detail">
+          Latest quarter (<strong>${esc(c.latestQuarter)}</strong>): <strong style="color:#fff;">${c.latest}</strong> filings<br>
+          Trailing 4Q avg: <strong style="color:rgba(255,255,255,0.75);">${c.prior4Avg.toFixed(1)}</strong>
+          <a href="${source}" target="_blank" rel="noopener" class="pat-accel-link">Verify on USPTO →</a>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  // ── Scanner filter pills + state ───────────────────────────────
+  function renderScannerControls(velocityData) {
+    const pillWrap = document.getElementById('pat-scanner-sector-pills');
+    if (!pillWrap) return;
+    const sectors = Array.from(new Set((velocityData || []).map(r => r.sector).filter(Boolean))).sort();
+    pillWrap.innerHTML = sectors.map(s => {
+      const lbl = sectorStyle(s).label;
+      return `<button class="pat-scanner-sector-btn" data-sector="${esc(s)}">${esc(lbl)}</button>`;
+    }).join('');
+
+    pillWrap.addEventListener('click', (e) => {
+      const btn = e.target.closest('.pat-scanner-sector-btn');
+      if (!btn) return;
+      const sector = btn.getAttribute('data-sector') || '';
+      _filterState.sector = (_filterState.sector === sector) ? '' : sector;
+      Array.from(pillWrap.querySelectorAll('.pat-scanner-sector-btn')).forEach(b => {
+        b.classList.toggle('active', b.getAttribute('data-sector') === _filterState.sector);
+      });
+      applyFilters();
+    });
+
+    const searchEl = document.getElementById('pat-scanner-search');
+    if (searchEl) {
+      searchEl.addEventListener('input', (e) => {
+        _filterState.search = (e.target.value || '').toLowerCase().trim();
+        applyFilters();
+      });
+    }
+    const trendEl = document.getElementById('pat-scanner-trend');
+    if (trendEl) {
+      trendEl.addEventListener('change', (e) => {
+        _filterState.trend = e.target.value || '';
+        applyFilters();
+      });
+    }
+  }
+
+  function applyFilters() {
+    const filtered = _velocityData.filter(r => {
+      if (_filterState.sector && r.sector !== _filterState.sector) return false;
+      if (_filterState.trend && r.trend !== _filterState.trend) return false;
+      if (_filterState.search) {
+        const name = (r.company || '').toLowerCase();
+        if (!name.includes(_filterState.search)) return false;
+      }
+      return true;
+    });
+    renderVelocityLeaderboard(filtered, /*alreadyFiltered*/ true);
+  }
+
+  // ── Compare Mode: overlay 2-4 companies' 8Q sparklines ─────────
+  const COMPARE_COLORS = ['#8b5cf6', '#22c55e', '#f59e0b', '#06b6d4'];
+
+  function renderCompareControls(velocityData) {
+    const sel = document.getElementById('pat-compare-select');
+    const chart = document.getElementById('pat-compare-chart');
+    if (!sel || !chart) return;
+    const sorted = [...velocityData].sort((a, b) => (a.company || '').localeCompare(b.company || ''));
+    sel.innerHTML = sorted.map(r => `<option value="${esc(r.company)}">${esc(r.company)}</option>`).join('');
+
+    chart.className = 'pat-compare-chart';
+    chart.innerHTML = '<div class="pat-compare-empty">Select 2&ndash;4 companies above to overlay their 8-quarter trajectories.</div>';
+
+    sel.addEventListener('change', () => {
+      const picked = Array.from(sel.selectedOptions).map(o => o.value).slice(0, 4);
+      if (picked.length < 2) {
+        chart.innerHTML = '<div class="pat-compare-empty">Select 2&ndash;4 companies above to overlay their 8-quarter trajectories.</div>';
+        return;
+      }
+      const series = picked.map(name => velocityData.find(r => r.company === name)).filter(Boolean);
+      renderCompareChart(series);
+    });
+  }
+
+  function renderCompareChart(series) {
+    const chart = document.getElementById('pat-compare-chart');
+    if (!chart || series.length === 0) return;
+
+    // Collect all quarters in order
+    const allQs = Array.from(new Set(series.flatMap(s => (s.quarters || []).map(q => q.quarter)))).sort();
+    if (allQs.length < 2) {
+      chart.innerHTML = '<div class="pat-compare-empty">Not enough quarterly data to compare.</div>';
+      return;
+    }
+
+    // Find max filings across all selected for y-axis
+    let maxF = 0;
+    series.forEach(s => (s.quarters || []).forEach(q => { if (q.filings > maxF) maxF = q.filings; }));
+    if (maxF === 0) maxF = 1;
+
+    const W = 600, H = 220, padL = 40, padR = 16, padT = 16, padB = 36;
+    const innerW = W - padL - padR;
+    const innerH = H - padT - padB;
+    const stepX = innerW / (allQs.length - 1);
+
+    // Build polylines per series
+    const polylines = series.map((s, i) => {
+      const color = COMPARE_COLORS[i % COMPARE_COLORS.length];
+      const qMap = {};
+      (s.quarters || []).forEach(q => { qMap[q.quarter] = q.filings; });
+      const pts = allQs.map((q, idx) => {
+        const v = qMap[q];
+        if (v == null) return null;
+        const x = padL + idx * stepX;
+        const y = padT + innerH - (v / maxF) * innerH;
+        return `${x.toFixed(1)},${y.toFixed(1)}`;
+      }).filter(p => p !== null);
+      const dots = allQs.map((q, idx) => {
+        const v = qMap[q];
+        if (v == null) return '';
+        const x = padL + idx * stepX;
+        const y = padT + innerH - (v / maxF) * innerH;
+        return `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="3" fill="${color}"/>`;
+      }).join('');
+      return `<polyline points="${pts.join(' ')}" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round"/>${dots}`;
+    }).join('');
+
+    // Y-axis ticks
+    const yTicks = [0, Math.round(maxF / 2), maxF];
+    const yLabels = yTicks.map(v => {
+      const y = padT + innerH - (v / maxF) * innerH;
+      return `<text x="${padL - 8}" y="${y + 3}" font-size="10" fill="rgba(255,255,255,0.4)" text-anchor="end" font-family="Space Grotesk, monospace">${v}</text>
+              <line x1="${padL}" y1="${y}" x2="${W - padR}" y2="${y}" stroke="rgba(255,255,255,0.05)"/>`;
+    }).join('');
+
+    // X-axis quarter labels (show every 2nd if many)
+    const xStep = allQs.length > 6 ? 2 : 1;
+    const xLabels = allQs.map((q, idx) => {
+      if (idx % xStep !== 0 && idx !== allQs.length - 1) return '';
+      const x = padL + idx * stepX;
+      return `<text x="${x}" y="${H - 16}" font-size="10" fill="rgba(255,255,255,0.5)" text-anchor="middle" font-family="Space Grotesk, monospace">${q}</text>`;
+    }).join('');
+
+    const legend = series.map((s, i) => {
+      const color = COMPARE_COLORS[i % COMPARE_COLORS.length];
+      return `<div class="pat-compare-legend-item">
+        <div class="pat-compare-swatch" style="background:${color};"></div>
+        <span style="color:#fff; font-weight:600;">${esc(s.company)}</span>
+        <span style="color:rgba(255,255,255,0.5);">· ${s.qoqChange || 'flat'}</span>
+      </div>`;
+    }).join('');
+
+    chart.innerHTML = `<div class="pat-compare-legend">${legend}</div>
+      <svg width="100%" viewBox="0 0 ${W} ${H}" style="display:block; max-width:800px; margin:0 auto;">
+        ${yLabels}
+        ${polylines}
+        ${xLabels}
+        <text x="${padL - 28}" y="${padT - 4}" font-size="9" fill="rgba(255,255,255,0.4)" font-family="Space Grotesk, monospace">filings</text>
+      </svg>
+      <div style="text-align:center; margin-top:12px; font-size:11px; color:rgba(255,255,255,0.4);">8-quarter trajectory · USPTO PatentsView authoritative data</div>`;
+  }
+
+  // ── Velocity leaderboard (filtered or top 30) ─────────────────
+  function renderVelocityLeaderboard(velocityData, alreadyFiltered) {
     const grid = document.getElementById('patent-velocity-grid');
     if (!grid) return;
 
     if (!velocityData || velocityData.length === 0) {
-      grid.innerHTML = '<div style="padding:40px; text-align:center; color:rgba(255,255,255,0.4);">No velocity data available.</div>';
+      grid.innerHTML = '<div style="padding:40px; text-align:center; color:rgba(255,255,255,0.4);">No companies match the current filters.</div>';
       return;
     }
 
-    const top = velocityData.slice(0, 30);
+    const top = alreadyFiltered ? velocityData : velocityData.slice(0, 30);
 
     const rowsHtml = top.map((r, i) => {
       const trend = TREND_STYLES[r.trend] || TREND_STYLES.steady;
@@ -271,12 +486,21 @@
     const velocityPath = 'data/patent_velocity_auto.json?v=' + (new Date().toISOString().slice(0, 10));
     fetch(velocityPath)
       .then(r => r.ok ? r.json() : Promise.reject('fetch failed'))
-      .then(v => renderVelocityLeaderboard(v))
+      .then(v => initVelocityViews(v))
       .catch(() => {
         // Fallback: derive velocity view from PATENT_INTEL_AUTO
         const derived = [...intel].sort((a, b) => (b.qoqChangeNum || 0) - (a.qoqChangeNum || 0));
-        renderVelocityLeaderboard(derived);
+        initVelocityViews(derived);
       });
+  }
+
+  // Boot all velocity-driven views once data is in hand
+  function initVelocityViews(velocityData) {
+    _velocityData = (velocityData || []).slice().sort((a, b) => (b.qoqChangeNum || 0) - (a.qoqChangeNum || 0));
+    renderAccelerationAlerts(_velocityData);
+    renderScannerControls(_velocityData);
+    renderVelocityLeaderboard(_velocityData);
+    renderCompareControls(_velocityData);
   }
 
   if (document.readyState === 'loading') {

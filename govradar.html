@@ -135,6 +135,24 @@
         </div>
     </section>
 
+    <!-- DARPA Performer Map (NEW) -->
+    <section class="section" id="darpa-map" style="background: linear-gradient(135deg, rgba(239,68,68,0.04) 0%, rgba(239,68,68,0.01) 100%); border-top: 1px solid rgba(239,68,68,0.15);">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow" style="color:#ef4444;">🎯 DARPA PERFORMER MAP · USASPENDING.GOV</p>
+                <h2>DARPA Programs &amp; Performers</h2>
+                <p>Every contract awarded by the Defense Advanced Research Projects Agency over the last 5 years — clustered by program area and recipient. Source: <a href="https://www.usaspending.gov" target="_blank" rel="noopener" style="color:var(--accent);">USAspending.gov</a> (subtier: Defense Advanced Research Projects Agency). Every datapoint links back to its USAspending award page for verification.</p>
+            </div>
+            <div class="darpa-stats" id="darpa-stats"></div>
+            <div class="darpa-tabs">
+                <button class="darpa-tab active" data-view="performers">By Performer</button>
+                <button class="darpa-tab" data-view="programs">By Program</button>
+                <button class="darpa-tab" data-view="ros">ROS-Tracked Only</button>
+            </div>
+            <div id="darpa-content"></div>
+        </div>
+    </section>
+
     <!-- Federal R&D Grant Flow (NSF + NIH + DOE + ARPA-E) -->
     <section class="section" id="federal-grants">
         <div class="container">
@@ -451,7 +469,9 @@
     <script src="data/gov_demand_summary_auto.js?v=20260421"></script>
     <script src="data/dsca_fms_auto.js?v=20260424"></script>
     <script src="data/lobbying_auto.js?v=20260424"></script>
+    <script src="data/darpa_programs_auto.js?v=20260427"></script>
     <script src="govradar.js?v=20260325"></script>
+    <script src="govradar-darpa.js?v=20260427"></script>
     <script>
     // NEW sections: DSCA FMS + Senate LDA lobbying renderers
     (function(){

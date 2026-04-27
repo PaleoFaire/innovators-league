@@ -2554,6 +2554,25 @@
     briefHTML += '<strong>Sector:</strong> ' + (c.sector || 'N/A') + ' | <strong>Stage:</strong> ' + (c.fundingStage || 'N/A') + ' | <strong>Location:</strong> ' + (c.location || 'N/A');
     briefHTML += '</div>';
 
+    // ─── NEW: TL;DR (VC One-Pager Block) ───
+    // Pulls four highest-signal datapoints into a single readable paragraph.
+    briefHTML += '<div style="background:#FFF8F5; border-left:4px solid #FF6B2C; padding:18px 22px; margin-bottom:24px; border-radius:0 8px 8px 0;">';
+    briefHTML += '<div style="font-size:11px; text-transform:uppercase; letter-spacing:1.5px; color:#FF6B2C; font-weight:700; margin-bottom:8px;">TL;DR · VC ONE-PAGER</div>';
+    var tldrParts = [];
+    if (c.totalRaised) tldrParts.push('<strong>' + c.totalRaised + '</strong> raised across ' + (fundingEntries.length || (c.priorRounds ? c.priorRounds.length : 0) || '?') + ' tracked round' + (fundingEntries.length === 1 ? '' : 's'));
+    if (c.valuation) tldrParts.push('last valued at <strong>' + c.valuation + '</strong>');
+    if (govContracts.length > 0) tldrParts.push('<strong>' + govContracts.length + '</strong> tracked government contract' + (govContracts.length === 1 ? '' : 's'));
+    if (sbirAwards.length > 0) tldrParts.push('<strong>' + sbirAwards.length + '</strong> SBIR/STTR award' + (sbirAwards.length === 1 ? '' : 's'));
+    if (patents && patents.patentCount) tldrParts.push('<strong>' + patents.patentCount + '</strong> patents (USPTO)');
+    if (patents && patents.qoqChange) tldrParts.push('Q/Q patent velocity <strong>' + patents.qoqChange + '</strong>');
+    if (newsItems.length > 0) tldrParts.push('<strong>' + newsItems.length + '</strong> recent news signal' + (newsItems.length === 1 ? '' : 's') + ' tracked');
+    if (tldrParts.length === 0) {
+      briefHTML += '<p style="margin:0; font-size:13px; color:#666; font-style:italic;">Limited public datapoints on file — see Section 9 (Data Gaps) for what diligence still needs.</p>';
+    } else {
+      briefHTML += '<p style="margin:0; font-size:14px; line-height:1.7;">' + (typeof escapeHtml === 'function' ? escapeHtml(c.name) : c.name) + ' — ' + tldrParts.join('; ') + '.</p>';
+    }
+    briefHTML += '</div>';
+
     // SECTION 1: Executive Summary
     briefHTML += '<h2>1. Executive Summary</h2>';
     briefHTML += '<p>' + (c.description || 'No description available.') + '</p>';
@@ -2714,6 +2733,75 @@
     if (c.conviction) {
       briefHTML += '<p><strong>Conviction Level:</strong> <span class="badge badge-orange">' + c.conviction + '</span></p>';
     }
+
+    // ─── NEW: SECTION 9 — Public Market Comparable Set ───
+    // Pulls live multiples from public_multiples_auto.json. The brief is
+    // generated client-side so this is a synchronous read of an already-
+    // loaded global, with a graceful fallback message.
+    briefHTML += '<h2>9. Public Market Comparable Set</h2>';
+    var pubData = (typeof PUBLIC_MULTIPLES_AUTO !== 'undefined') ? PUBLIC_MULTIPLES_AUTO : null;
+    if (pubData && pubData.sectors && c.sector) {
+      // Map the company sector to one of our public-multiples buckets.
+      var sectorKey = (c.sector || '').toLowerCase().replace(/\s+/g,'').replace(/&/g,'');
+      var sectorMatch = pubData.sectors.find(function(s) {
+        var sl = (s.sector || '').toLowerCase();
+        var sLab = (s.sectorLabel || '').toLowerCase().replace(/\s+/g,'').replace(/&/g,'');
+        return sl === sectorKey || sLab.indexOf(sectorKey) >= 0 || sectorKey.indexOf(sl) >= 0;
+      });
+      if (sectorMatch && sectorMatch.priceToSales && sectorMatch.priceToSales.median != null) {
+        briefHTML += '<p style="font-size:13px; color:#333;">Based on <strong>' + sectorMatch.n + '</strong> live public ticker' + (sectorMatch.n === 1 ? '' : 's') + ' in the <strong>' + sectorMatch.sectorLabel + '</strong> sector (Yahoo Finance, last refreshed ' + (pubData.generatedAt || 'today') + '):</p>';
+        briefHTML += '<div class="stat-grid">';
+        briefHTML += '<div class="stat-box"><div class="label">Median P/S</div><div class="value">' + sectorMatch.priceToSales.median.toFixed(1) + 'x</div></div>';
+        if (sectorMatch.evRevenue && sectorMatch.evRevenue.median != null) briefHTML += '<div class="stat-box"><div class="label">Median EV/Revenue</div><div class="value">' + sectorMatch.evRevenue.median.toFixed(1) + 'x</div></div>';
+        if (sectorMatch.evEbitda && sectorMatch.evEbitda.median != null) briefHTML += '<div class="stat-box"><div class="label">Median EV/EBITDA</div><div class="value">' + sectorMatch.evEbitda.median.toFixed(1) + 'x</div></div>';
+        if (sectorMatch.revenueGrowth && sectorMatch.revenueGrowth.median != null) briefHTML += '<div class="stat-box"><div class="label">Median Rev Growth</div><div class="value">' + (sectorMatch.revenueGrowth.median * 100).toFixed(1) + '%</div></div>';
+        briefHTML += '</div>';
+        briefHTML += '<p class="section-note">Comp set: ' + (sectorMatch.tickers || []).join(', ') + ' — verify on <a href="https://finance.yahoo.com/" target="_blank" rel="noopener">Yahoo Finance</a>. Apply the median multiple to a TTM revenue figure for an implied valuation range.</p>';
+      } else {
+        briefHTML += '<p class="section-note">No directly-matching public comparable sector for &quot;' + (c.sector || 'unknown') + '&quot;. Use the <a href="valuations.html#comparable-engine">Comparable Engine</a> to pick a sector manually.</p>';
+      }
+    } else {
+      briefHTML += '<p class="section-note">Public market multiples data not loaded — open the <a href="valuations.html#public-multiples">Public Multiples</a> page for live comp sets.</p>';
+    }
+
+    // ─── NEW: SECTION 10 — Diligence Gaps ───
+    // Explicit list of what we DON'T have. Doing this transparently is what
+    // separates a real diligence brief from a marketing one-pager.
+    briefHTML += '<h2>10. Diligence Gaps · Data We Do Not Have</h2>';
+    briefHTML += '<p style="font-size:12px; color:#666; margin-bottom:8px;"><em>The following datapoints are not in our database for this company. A real diligence process should source these directly from the company.</em></p>';
+    var gaps = [];
+    if (!c.totalRaised && fundingEntries.length === 0) gaps.push('Verified total capital raised (only public-source rounds tracked)');
+    if (!c.valuation) gaps.push('Latest post-money valuation (no public disclosure on file)');
+    if (!c.employeeCount && (!headcount || headcount.current == null)) gaps.push('Current full-time headcount');
+    if (!c.revenue && !c.arr) gaps.push('Annual recurring revenue (ARR) / TTM revenue');
+    if (!c.grossMargin) gaps.push('Gross margin');
+    if (!c.burnRate) gaps.push('Net cash burn rate / runway');
+    if (!c.customerConcentration) gaps.push('Customer concentration (top-N % of revenue)');
+    if (!c.boardSeats && !c.boardComposition) gaps.push('Board composition / investor representation');
+    if (!c.executiveTeam || (Array.isArray(c.executiveTeam) && c.executiveTeam.length === 0)) gaps.push('Full executive team beyond founder');
+    if (!c.competitors || c.competitors.length === 0) gaps.push('Direct competitor mapping');
+    if (!c.exitTerms) gaps.push('Liquidation preferences / exit terms (cap-table-level detail)');
+    if (govContracts.length === 0) gaps.push('Government contract pipeline / unawarded SBIR submissions');
+    if (gaps.length === 0) {
+      briefHTML += '<p style="color:#22c55e; font-size:13px;"><strong>✓ Coverage complete:</strong> all standard diligence datapoints are populated for this company.</p>';
+    } else {
+      briefHTML += '<ul style="font-size:13px; line-height:1.7; color:#444;">';
+      gaps.forEach(function(g) { briefHTML += '<li>' + g + '</li>'; });
+      briefHTML += '</ul>';
+    }
+
+    // ─── NEW: Source Citations Footer ───
+    briefHTML += '<h2>Source Citations</h2>';
+    briefHTML += '<p style="font-size:11.5px; color:#666; line-height:1.7;">';
+    briefHTML += 'Funding rounds: <a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany" target="_blank">SEC EDGAR Form D</a>, public press releases, ROS curated dataset. ';
+    briefHTML += 'Government contracts: <a href="https://sam.gov" target="_blank">SAM.gov</a>. ';
+    briefHTML += 'SBIR/STTR awards: <a href="https://www.sbir.gov" target="_blank">SBIR.gov</a>. ';
+    briefHTML += 'Patents: <a href="https://patentsview.org" target="_blank">USPTO PatentsView</a>, <a href="https://patents.google.com" target="_blank">Google Patents</a>. ';
+    briefHTML += 'Public market multiples: <a href="https://finance.yahoo.com" target="_blank">Yahoo Finance</a>. ';
+    briefHTML += 'News signals: aggregated RSS + ROS proprietary feeds. ';
+    briefHTML += 'All datapoints in this brief are linkable back to their primary source. ';
+    briefHTML += 'For corrections: <a href="https://innovators-league.com/index.html">submit feedback</a>.';
+    briefHTML += '</p>';
 
     // Footer
     briefHTML += '<hr style="margin-top:40px;border:none;border-top:1px solid #ddd;">';

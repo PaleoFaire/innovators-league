@@ -71,6 +71,49 @@ PUBLIC_COMPANIES = [
 ]
 
 
+def fetch_yahoo_fundamentals(ticker, headers):
+    """Fetch financial fundamentals (P/S, P/E, revenue, margins) from Yahoo Finance.
+
+    Returns a dict with keys (each may be None if Yahoo lacks data):
+      trailingPE, forwardPE, priceToSalesTTM, enterpriseToRevenue,
+      enterpriseToEbitda, revenueTTM, revenueGrowthYoY, grossMarginsTTM,
+      operatingMarginsTTM, ebitdaTTM
+    """
+    out = {}
+    try:
+        url = f"https://query1.finance.yahoo.com/v10/finance/quoteSummary/{ticker}"
+        modules = "summaryDetail,defaultKeyStatistics,financialData"
+        r = requests.get(url, headers=headers, params={"modules": modules}, timeout=12)
+        if r.status_code != 200:
+            return out
+        data = r.json()
+        result = (data.get("quoteSummary", {}).get("result") or [])
+        if not result:
+            return out
+        node = result[0]
+        sd = node.get("summaryDetail", {}) or {}
+        ks = node.get("defaultKeyStatistics", {}) or {}
+        fd = node.get("financialData", {}) or {}
+
+        def raw(field, src):
+            v = (src.get(field) or {}).get("raw")
+            return v if isinstance(v, (int, float)) and v != 0 else None
+
+        out["trailingPE"] = raw("trailingPE", sd) or raw("trailingPE", ks)
+        out["forwardPE"] = raw("forwardPE", sd) or raw("forwardPE", ks)
+        out["priceToSalesTTM"] = raw("priceToSalesTrailing12Months", sd)
+        out["enterpriseToRevenue"] = raw("enterpriseToRevenue", ks)
+        out["enterpriseToEbitda"] = raw("enterpriseToEbitda", ks)
+        out["revenueTTM"] = raw("totalRevenue", fd)
+        out["revenueGrowthYoY"] = raw("revenueGrowth", fd)
+        out["grossMarginsTTM"] = raw("grossMargins", fd)
+        out["operatingMarginsTTM"] = raw("operatingMargins", fd)
+        out["ebitdaTTM"] = raw("ebitda", fd)
+    except Exception as e:
+        print(f"  {ticker} fundamentals: Error - {e}")
+    return out
+
+
 def fetch_yahoo_quote(ticker):
     """Fetch stock quote from Yahoo Finance."""
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}"
@@ -145,6 +188,12 @@ def fetch_yahoo_quote(ticker):
             else:
                 market_cap_str = "N/A"
 
+            # Fundamentals (P/S, P/E, EV/Revenue, revenue growth, gross margins)
+            # Pulls from Yahoo's quoteSummary endpoint with multiple modules.
+            # Every field is optional — if Yahoo doesn't return it, the field
+            # is None and the UI labels it "n/a" rather than fabricating zero.
+            fundamentals = fetch_yahoo_fundamentals(ticker, headers)
+
             return {
                 "price": round(current_price, 2),
                 "previousClose": round(previous_close, 2),
@@ -160,6 +209,18 @@ def fetch_yahoo_quote(ticker):
                 "sparkline": sparkline,
                 "currency": meta.get("currency", "USD"),
                 "exchange": meta.get("exchangeName", ""),
+                # Fundamentals (may be None if Yahoo doesn't expose for ticker)
+                "trailingPE": fundamentals.get("trailingPE"),
+                "forwardPE": fundamentals.get("forwardPE"),
+                "priceToSalesTTM": fundamentals.get("priceToSalesTTM"),
+                "enterpriseToRevenue": fundamentals.get("enterpriseToRevenue"),
+                "enterpriseToEbitda": fundamentals.get("enterpriseToEbitda"),
+                "revenueTTM": fundamentals.get("revenueTTM"),
+                "revenueGrowthYoY": fundamentals.get("revenueGrowthYoY"),
+                "grossMarginsTTM": fundamentals.get("grossMarginsTTM"),
+                "operatingMarginsTTM": fundamentals.get("operatingMarginsTTM"),
+                "ebitdaTTM": fundamentals.get("ebitdaTTM"),
+                "fundamentalsSource": "Yahoo Finance · quoteSummary",
             }
         else:
             print(f"  {ticker}: HTTP {response.status_code}")

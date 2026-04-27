@@ -256,6 +256,114 @@
         </div>
     </section>
 
+    <!-- Round-by-Round Comp Engine (NEW) — sector + stage round browser -->
+    <section class="section" id="round-comp" style="background: linear-gradient(135deg, rgba(168,85,247,0.04) 0%, rgba(168,85,247,0.01) 100%);">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow" style="color:#a855f7;">📊 ROUND-BY-ROUND COMPARABLE ENGINE</p>
+                <h2>Comparable Funding Rounds</h2>
+                <p>Filter our tracked funding deals by sector + round stage to surface a comp set: round size, lead investor, valuation (where disclosed), and date. Source: latest-round entries from <code style="background:rgba(255,255,255,0.06); padding:1px 5px; border-radius:3px; font-size:11px;">FUNDING_TRACKER</code> + per-deal entries from <code style="background:rgba(255,255,255,0.06); padding:1px 5px; border-radius:3px; font-size:11px;">DEAL_TRACKER</code>.</p>
+            </div>
+            <div class="rc-filters">
+                <select id="rc-sector" class="pm-select"><option value="">All sectors</option></select>
+                <select id="rc-stage" class="pm-select"><option value="">All stages</option></select>
+                <input type="search" id="rc-search" class="pm-input" placeholder="🔍 Search company or investor…"/>
+            </div>
+            <div id="rc-summary" class="rc-summary"></div>
+            <div class="pm-table-wrap" style="margin-top:14px;">
+                <table class="pm-table" id="rc-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Sector</th>
+                            <th>Stage</th>
+                            <th class="pm-num">Round Size</th>
+                            <th class="pm-num">Valuation</th>
+                            <th>Lead Investor</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rc-body"></tbody>
+                </table>
+            </div>
+            <div class="ce-disclaimer" style="margin-top:14px;">
+                <strong style="color:#a855f7;">Data caveats:</strong> ROS does NOT have complete round-by-round history for every company. <code>FUNDING_TRACKER</code> records the latest round per company; <code>DEAL_TRACKER</code> records all individual deals we've observed. Where a company's prior rounds aren't on file, we mark "no historical data on file" rather than infer. Valuations only shown when publicly disclosed.
+            </div>
+        </div>
+    </section>
+
+    <!-- Public Market Multiples (NEW) — 100% live Yahoo Finance data -->
+    <section class="section" id="public-multiples" style="background: linear-gradient(135deg, rgba(34,197,94,0.04) 0%, rgba(34,197,94,0.01) 100%);">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow" style="color:#22c55e;">🟢 LIVE PUBLIC MARKET DATA · YAHOO FINANCE</p>
+                <h2>Public Comparables &amp; Multiples</h2>
+                <p>Every public frontier-tech ticker we track, with live trailing-twelve-month multiples. Source data verifiable on each ticker's Yahoo Finance page. Pre-revenue companies are flagged where multiples mathematically blow out.</p>
+            </div>
+            <div class="pm-controls">
+                <input type="search" id="pm-search" class="pm-input" placeholder="🔍 Search ticker or company…"/>
+                <select id="pm-sector" class="pm-select"><option value="">All sectors</option></select>
+                <select id="pm-sort" class="pm-select">
+                    <option value="marketCap">Sort: Market Cap (desc)</option>
+                    <option value="priceToSalesTTM">Sort: P/S TTM (desc)</option>
+                    <option value="enterpriseToRevenue">Sort: EV/Revenue (desc)</option>
+                    <option value="enterpriseToEbitda">Sort: EV/EBITDA (desc)</option>
+                    <option value="revenueGrowthYoY">Sort: Revenue Growth (desc)</option>
+                </select>
+            </div>
+            <div class="pm-table-wrap">
+                <table class="pm-table" id="pm-table">
+                    <thead>
+                        <tr>
+                            <th>Ticker</th>
+                            <th>Company</th>
+                            <th>Sector</th>
+                            <th class="pm-num">Mkt Cap</th>
+                            <th class="pm-num">P/S</th>
+                            <th class="pm-num">EV/Rev</th>
+                            <th class="pm-num">EV/EBITDA</th>
+                            <th class="pm-num">Trailing P/E</th>
+                            <th class="pm-num">Rev Growth</th>
+                            <th class="pm-num">Gross Margin</th>
+                            <th>Verify</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pm-body"></tbody>
+                </table>
+            </div>
+            <div id="pm-meta" class="pm-meta"></div>
+        </div>
+    </section>
+
+    <!-- Comparable Engine (NEW) — interactive private→public benchmarking -->
+    <section class="section" id="comparable-engine" style="background: linear-gradient(135deg, rgba(96,165,250,0.04) 0%, rgba(96,165,250,0.01) 100%);">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-eyebrow" style="color:#60a5fa;">⚖️ COMPARABLE ENGINE · BENCHMARK YOUR PRIVATE COMP</p>
+                <h2>Implied Valuation Calculator</h2>
+                <p>Pick a sector and input the private company's TTM revenue. The engine applies the live <strong>median, 25th-percentile, and 75th-percentile</strong> revenue multiples from public companies in that sector to produce an implied valuation range. <strong style="color:#60a5fa;">Public side is 100% Yahoo-sourced. Private revenue is your input — we don't estimate.</strong></p>
+            </div>
+            <div class="ce-grid">
+                <div class="ce-input-card">
+                    <label class="ce-label">Sector</label>
+                    <select id="ce-sector" class="ce-select"></select>
+                    <label class="ce-label" style="margin-top:14px;">Private TTM Revenue (USD)</label>
+                    <div class="ce-input-row">
+                        <input type="number" id="ce-revenue" class="ce-revenue-input" placeholder="e.g. 25" min="0" step="1"/>
+                        <select id="ce-revenue-unit" class="ce-unit-select">
+                            <option value="1000000">millions</option>
+                            <option value="1000000000">billions</option>
+                        </select>
+                    </div>
+                    <div style="font-size:11px; color:rgba(255,255,255,0.45); margin-top:8px;">Tip: most pre-IPO frontier-tech companies sit at $5M&ndash;$500M TTM revenue.</div>
+                </div>
+                <div class="ce-output-card" id="ce-output-card">
+                    <div class="ce-empty">Pick a sector and enter revenue to compute the implied valuation range.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Deal Flow Signals — Cross-link to Deal Flow page -->
     <section class="section" id="deal-signals" style="background: linear-gradient(135deg, rgba(255,107,44,0.03) 0%, rgba(255,107,44,0.01) 100%);">
         <div class="container">
@@ -380,5 +488,6 @@
     <script src="data.js?v=20260325"></script>
     <script src="data/stocks_auto.js?v=20260325"></script>
     <script src="valuations.js?v=20260325"></script>
+    <script src="valuations-multiples.js?v=20260427"></script>
 </body>
 </html>

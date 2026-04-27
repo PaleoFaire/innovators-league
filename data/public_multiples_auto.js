@@ -1,0 +1,1289 @@
+// Auto-generated from public_multiples_auto.json
+// Last updated: 2026-04-27T05:47:31+00:00
+const PUBLIC_MULTIPLES_AUTO = {
+  "generatedAt": "2026-04-27T05:47:31+00:00",
+  "source": "Yahoo Finance \u00b7 live quoteSummary modules (summaryDetail, defaultKeyStatistics, financialData)",
+  "disclaimer": "Public market multiples sourced live from Yahoo Finance. Comparable Engine applies sector-median multiples to user-supplied private revenue figures. ROS does NOT estimate private-company revenue \u2014 those inputs must be supplied. All public values are verifiable on the linked Yahoo Finance ticker page.",
+  "tickerCount": 32,
+  "sectorCount": 13,
+  "tickers": [
+    {
+      "ticker": "PLTR",
+      "company": "Palantir",
+      "sector": "ai",
+      "sectorLabel": "AI & Compute",
+      "price": 143.09,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": 227.12698,
+      "forwardPE": 76.82767,
+      "priceToSalesTTM": 76.46722,
+      "enterpriseToRevenue": 74.937,
+      "enterpriseToEbitda": 232.875,
+      "revenueTTM": 4475445760,
+      "revenueTTMFormatted": "$4.48B",
+      "revenueGrowthYoY": 0.7,
+      "grossMarginsTTM": 0.82366997,
+      "operatingMarginsTTM": 0.40901002,
+      "ebitdaTTM": 1440160000,
+      "lastUpdated": "2026-04-27 03:28:30",
+      "yahooUrl": "https://finance.yahoo.com/quote/PLTR",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PLTR"
+    },
+    {
+      "ticker": "RKLB",
+      "company": "Rocket Lab",
+      "sector": "space",
+      "sectorLabel": "Space & Aerospace",
+      "price": 79.68,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": 1554.7317,
+      "priceToSalesTTM": 76.534805,
+      "enterpriseToRevenue": 73.883,
+      "enterpriseToEbitda": -239.674,
+      "revenueTTM": 601798976,
+      "revenueTTMFormatted": "$601.8M",
+      "revenueGrowthYoY": 0.357,
+      "grossMarginsTTM": 0.34427,
+      "operatingMarginsTTM": -0.28412,
+      "ebitdaTTM": -185512992,
+      "lastUpdated": "2026-04-27 03:28:30",
+      "yahooUrl": "https://finance.yahoo.com/quote/RKLB",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RKLB"
+    },
+    {
+      "ticker": "JOBY",
+      "company": "Joby Aviation",
+      "sector": "evtol",
+      "sectorLabel": "Advanced Air Mobility",
+      "price": 8.5,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -18.27957,
+      "priceToSalesTTM": 156.42375,
+      "enterpriseToRevenue": 130.289,
+      "enterpriseToEbitda": -10.245,
+      "revenueTTM": 53425000,
+      "revenueTTMFormatted": "$53.4M",
+      "revenueGrowthYoY": 559.655,
+      "grossMarginsTTM": 0.45104,
+      "operatingMarginsTTM": -6.8937597,
+      "ebitdaTTM": -679433024,
+      "lastUpdated": "2026-04-27 03:28:31",
+      "yahooUrl": "https://finance.yahoo.com/quote/JOBY",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=JOBY"
+    },
+    {
+      "ticker": "ACHR",
+      "company": "Archer Aviation",
+      "sector": "evtol",
+      "sectorLabel": "Advanced Air Mobility",
+      "price": 5.7,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -5.4669967,
+      "priceToSalesTTM": 14247.421,
+      "enterpriseToRevenue": 8003.571,
+      "enterpriseToEbitda": -3.385,
+      "revenueTTM": 300000,
+      "revenueTTMFormatted": "$300,000",
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": -781.3334,
+      "ebitdaTTM": -709299968,
+      "lastUpdated": "2026-04-27 03:28:32",
+      "yahooUrl": "https://finance.yahoo.com/quote/ACHR",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ACHR"
+    },
+    {
+      "ticker": "PL",
+      "company": "Planet Labs",
+      "sector": "space",
+      "sectorLabel": "Space & Aerospace",
+      "price": 35.44,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -1575.111,
+      "priceToSalesTTM": 39.86495,
+      "enterpriseToRevenue": 39.288,
+      "enterpriseToEbitda": -268.79,
+      "revenueTTM": 307727008,
+      "revenueTTMFormatted": "$307.7M",
+      "revenueGrowthYoY": 0.411,
+      "grossMarginsTTM": 0.56154996,
+      "operatingMarginsTTM": -0.30429,
+      "ebitdaTTM": -44979000,
+      "lastUpdated": "2026-04-27 03:28:32",
+      "yahooUrl": "https://finance.yahoo.com/quote/PL",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PL"
+    },
+    {
+      "ticker": "LUNR",
+      "company": "Intuitive Machines",
+      "sector": "space",
+      "sectorLabel": "Space & Aerospace",
+      "price": 25.53,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": 118.74419,
+      "priceToSalesTTM": 19.369707,
+      "enterpriseToRevenue": 22.932,
+      "enterpriseToEbitda": -57.401,
+      "revenueTTM": 210059008,
+      "revenueTTMFormatted": "$210.1M",
+      "revenueGrowthYoY": -0.181,
+      "grossMarginsTTM": 0.0428,
+      "operatingMarginsTTM": -0.73898005,
+      "ebitdaTTM": -83919000,
+      "lastUpdated": "2026-04-27 03:28:33",
+      "yahooUrl": "https://finance.yahoo.com/quote/LUNR",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LUNR"
+    },
+    {
+      "ticker": "ASTS",
+      "company": "AST SpaceMobile",
+      "sector": "space",
+      "sectorLabel": "Space & Aerospace",
+      "price": 76.4,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -505.69235,
+      "priceToSalesTTM": 315.25803,
+      "enterpriseToRevenue": 321.669,
+      "enterpriseToEbitda": -96.416,
+      "revenueTTM": 70918000,
+      "revenueTTMFormatted": "$70.9M",
+      "revenueGrowthYoY": 27.313,
+      "grossMarginsTTM": 0.50343,
+      "operatingMarginsTTM": -1.33095,
+      "ebitdaTTM": -236602000,
+      "lastUpdated": "2026-04-27 03:28:34",
+      "yahooUrl": "https://finance.yahoo.com/quote/ASTS",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ASTS"
+    },
+    {
+      "ticker": "SATL",
+      "company": "Satellogic",
+      "sector": "space",
+      "sectorLabel": "Space & Aerospace",
+      "price": 6.17,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -56.09091,
+      "priceToSalesTTM": 49.913166,
+      "enterpriseToRevenue": 48.095,
+      "enterpriseToEbitda": -36.583,
+      "revenueTTM": 17707000,
+      "revenueTTMFormatted": "$17.7M",
+      "revenueGrowthYoY": 0.938,
+      "grossMarginsTTM": 0.72463,
+      "operatingMarginsTTM": -1.14247,
+      "ebitdaTTM": -23279000,
+      "lastUpdated": "2026-04-27 03:28:34",
+      "yahooUrl": "https://finance.yahoo.com/quote/SATL",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SATL"
+    },
+    {
+      "ticker": "OKLO",
+      "company": "Oklo",
+      "sector": "nuclear",
+      "sectorLabel": "Nuclear Energy",
+      "price": 71.0,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -81.50708,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": -79.965,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": -138772000,
+      "lastUpdated": "2026-04-27 03:28:37",
+      "yahooUrl": "https://finance.yahoo.com/quote/OKLO",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=OKLO"
+    },
+    {
+      "ticker": "QS",
+      "company": "QuantumScape",
+      "sector": "battery",
+      "sectorLabel": "Energy Storage",
+      "price": 7.22,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -12.247458,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": -9.101,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": -396212992,
+      "lastUpdated": "2026-04-27 03:28:37",
+      "yahooUrl": "https://finance.yahoo.com/quote/QS",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=QS"
+    },
+    {
+      "ticker": "IONQ",
+      "company": "IonQ",
+      "sector": "quantum",
+      "sectorLabel": "Quantum Computing",
+      "price": 42.69,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -47.62542,
+      "priceToSalesTTM": 120.38437,
+      "enterpriseToRevenue": 102.325,
+      "enterpriseToEbitda": -25.842,
+      "revenueTTM": 130016000,
+      "revenueTTMFormatted": "$130.0M",
+      "revenueGrowthYoY": 4.285,
+      "grossMarginsTTM": 0.42062,
+      "operatingMarginsTTM": -3.45663,
+      "ebitdaTTM": -514811008,
+      "lastUpdated": "2026-04-27 03:28:40",
+      "yahooUrl": "https://finance.yahoo.com/quote/IONQ",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=IONQ"
+    },
+    {
+      "ticker": "RGTI",
+      "company": "Rigetti Computing",
+      "sector": "quantum",
+      "sectorLabel": "Quantum Computing",
+      "price": 16.61,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -91.68461,
+      "priceToSalesTTM": 778.1264,
+      "enterpriseToRevenue": 716.8,
+      "enterpriseToEbitda": -66.422,
+      "revenueTTM": 7088000,
+      "revenueTTMFormatted": "$7.1M",
+      "revenueGrowthYoY": -0.179,
+      "grossMarginsTTM": 0.2912,
+      "operatingMarginsTTM": -12.096899,
+      "ebitdaTTM": -76491000,
+      "lastUpdated": "2026-04-27 03:28:41",
+      "yahooUrl": "https://finance.yahoo.com/quote/RGTI",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RGTI"
+    },
+    {
+      "ticker": "QBTS",
+      "company": "D-Wave Quantum",
+      "sector": "quantum",
+      "sectorLabel": "Quantum Computing",
+      "price": 18.49,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -49.972973,
+      "priceToSalesTTM": 278.56937,
+      "enterpriseToRevenue": 243.978,
+      "enterpriseToEbitda": -60.712,
+      "revenueTTM": 24587000,
+      "revenueTTMFormatted": "$24.6M",
+      "revenueGrowthYoY": 0.192,
+      "grossMarginsTTM": 0.82588,
+      "operatingMarginsTTM": -12.65952,
+      "ebitdaTTM": -98805000,
+      "lastUpdated": "2026-04-27 03:28:41",
+      "yahooUrl": "https://finance.yahoo.com/quote/QBTS",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=QBTS"
+    },
+    {
+      "ticker": "RXRX",
+      "company": "Recursion Pharmaceuticals",
+      "sector": "biotech",
+      "sectorLabel": "Biotech & Health",
+      "price": 3.51,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -4.1186547,
+      "priceToSalesTTM": 24.82546,
+      "enterpriseToRevenue": 15.879,
+      "enterpriseToEbitda": -2.101,
+      "revenueTTM": 74681000,
+      "revenueTTMFormatted": "$74.7M",
+      "revenueGrowthYoY": 6.817,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": -3.2880301,
+      "ebitdaTTM": -564430976,
+      "lastUpdated": "2026-04-27 03:28:42",
+      "yahooUrl": "https://finance.yahoo.com/quote/RXRX",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RXRX"
+    },
+    {
+      "ticker": "TEM",
+      "company": "Tempus AI",
+      "sector": "biotech",
+      "sectorLabel": "Biotech & Health",
+      "price": 52.12,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -576.48486,
+      "priceToSalesTTM": 7.3522954,
+      "enterpriseToRevenue": 7.776,
+      "enterpriseToEbitda": -57.662,
+      "revenueTTM": 1271789056,
+      "revenueTTMFormatted": "$1.27B",
+      "revenueGrowthYoY": 0.83,
+      "grossMarginsTTM": 0.62738,
+      "operatingMarginsTTM": -0.16697,
+      "ebitdaTTM": -171512992,
+      "lastUpdated": "2026-04-27 03:28:44",
+      "yahooUrl": "https://finance.yahoo.com/quote/TEM",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TEM"
+    },
+    {
+      "ticker": "RIVN",
+      "company": "Rivian",
+      "sector": "ev",
+      "sectorLabel": "Electric Vehicles",
+      "price": 16.52,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -8.508315,
+      "priceToSalesTTM": 3.8056715,
+      "enterpriseToRevenue": 3.646,
+      "enterpriseToEbitda": -7.013,
+      "revenueTTM": 5386999808,
+      "revenueTTMFormatted": "$5.39B",
+      "revenueGrowthYoY": -0.258,
+      "grossMarginsTTM": 0.026730001,
+      "operatingMarginsTTM": -0.64774,
+      "ebitdaTTM": -2800999936,
+      "lastUpdated": "2026-04-27 03:28:44",
+      "yahooUrl": "https://finance.yahoo.com/quote/RIVN",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=RIVN"
+    },
+    {
+      "ticker": "ALAB",
+      "company": "Astera Labs",
+      "sector": "chips",
+      "sectorLabel": "Semiconductors",
+      "price": 212.84,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": 175.90082,
+      "forwardPE": 59.380524,
+      "priceToSalesTTM": 42.76197,
+      "enterpriseToRevenue": 41.137,
+      "enterpriseToEbitda": 194.564,
+      "revenueTTM": 852524992,
+      "revenueTTMFormatted": "$852.5M",
+      "revenueGrowthYoY": 0.918,
+      "grossMarginsTTM": 0.75688004,
+      "operatingMarginsTTM": 0.24746001,
+      "ebitdaTTM": 180252000,
+      "lastUpdated": "2026-04-27 03:28:45",
+      "yahooUrl": "https://finance.yahoo.com/quote/ALAB",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ALAB"
+    },
+    {
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "sector": "chips",
+      "sectorLabel": "Semiconductors",
+      "price": 208.26,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": 42.58896,
+      "forwardPE": 18.529821,
+      "priceToSalesTTM": 23.4408,
+      "enterpriseToRevenue": 23.2,
+      "enterpriseToEbitda": 37.603,
+      "revenueTTM": 215938007040,
+      "revenueTTMFormatted": "$215.94B",
+      "revenueGrowthYoY": 0.732,
+      "grossMarginsTTM": 0.71068,
+      "operatingMarginsTTM": 0.65024,
+      "ebitdaTTM": 133230002176,
+      "lastUpdated": "2026-04-27 03:28:47",
+      "yahooUrl": "https://finance.yahoo.com/quote/NVDA",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NVDA"
+    },
+    {
+      "ticker": "AMD",
+      "company": "AMD",
+      "sector": "chips",
+      "sectorLabel": "Semiconductors",
+      "price": 347.8,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": 133.2567,
+      "forwardPE": 31.594515,
+      "priceToSalesTTM": 16.370474,
+      "enterpriseToRevenue": 16.182,
+      "enterpriseToEbitda": 83.103,
+      "revenueTTM": 34638999552,
+      "revenueTTMFormatted": "$34.64B",
+      "revenueGrowthYoY": 0.341,
+      "grossMarginsTTM": 0.52493,
+      "operatingMarginsTTM": 0.17059,
+      "ebitdaTTM": 6744999936,
+      "lastUpdated": "2026-04-27 03:28:48",
+      "yahooUrl": "https://finance.yahoo.com/quote/AMD",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AMD"
+    },
+    {
+      "ticker": "AUR",
+      "company": "Aurora Innovation",
+      "sector": "autonomy",
+      "sectorLabel": "Autonomous Driving",
+      "price": 4.91,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -10.900001,
+      "priceToSalesTTM": 3204.8755,
+      "enterpriseToRevenue": 2792.224,
+      "enterpriseToEbitda": -9.617,
+      "revenueTTM": 3000000,
+      "revenueTTMFormatted": "$3.0M",
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": -238.0,
+      "ebitdaTTM": -871000000,
+      "lastUpdated": "2026-04-27 03:28:48",
+      "yahooUrl": "https://finance.yahoo.com/quote/AUR",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=AUR"
+    },
+    {
+      "ticker": "LNZA",
+      "company": "LanzaTech",
+      "sector": "climate",
+      "sectorLabel": "Climate & Bio-Manufacturing",
+      "price": 24.98,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -73.47059,
+      "priceToSalesTTM": 4.5129786,
+      "enterpriseToRevenue": 5.005,
+      "enterpriseToEbitda": -3.73,
+      "revenueTTM": 55845000,
+      "revenueTTMFormatted": "$55.8M",
+      "revenueGrowthYoY": 1.327,
+      "grossMarginsTTM": 0.45306,
+      "operatingMarginsTTM": -0.00732,
+      "ebitdaTTM": -74929000,
+      "lastUpdated": "2026-04-27 03:28:51",
+      "yahooUrl": "https://finance.yahoo.com/quote/LNZA",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=LNZA"
+    },
+    {
+      "ticker": "NNE",
+      "company": "Nano Nuclear Energy",
+      "sector": "nuclear",
+      "sectorLabel": "Nuclear Energy",
+      "price": 24.48,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -21.922321,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": -13.098,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": -53352960,
+      "lastUpdated": "2026-04-27 03:28:52",
+      "yahooUrl": "https://finance.yahoo.com/quote/NNE",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=NNE"
+    },
+    {
+      "ticker": "SMR",
+      "company": "NuScale Power",
+      "sector": "nuclear",
+      "sectorLabel": "Nuclear Energy",
+      "price": 11.96,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -27.867744,
+      "priceToSalesTTM": 122.99819,
+      "enterpriseToRevenue": 79.449,
+      "enterpriseToEbitda": -13.818,
+      "revenueTTM": 31479000,
+      "revenueTTMFormatted": "$31.5M",
+      "revenueGrowthYoY": -0.947,
+      "grossMarginsTTM": 0.36313,
+      "operatingMarginsTTM": -33.37777,
+      "ebitdaTTM": -180996992,
+      "lastUpdated": "2026-04-27 03:28:52",
+      "yahooUrl": "https://finance.yahoo.com/quote/SMR",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SMR"
+    },
+    {
+      "ticker": "SLDP",
+      "company": "Solid Power",
+      "sector": "battery",
+      "sectorLabel": "Energy Storage",
+      "price": 3.67,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -7.126214,
+      "priceToSalesTTM": 45.999348,
+      "enterpriseToRevenue": 31.653,
+      "enterpriseToEbitda": -6.943,
+      "revenueTTM": 17913000,
+      "revenueTTMFormatted": "$17.9M",
+      "revenueGrowthYoY": -0.424,
+      "grossMarginsTTM": -0.15274,
+      "operatingMarginsTTM": -10.31155,
+      "ebitdaTTM": -81662000,
+      "lastUpdated": "2026-04-27 03:28:55",
+      "yahooUrl": "https://finance.yahoo.com/quote/SLDP",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=SLDP"
+    },
+    {
+      "ticker": "EVTL",
+      "company": "Vertical Aerospace",
+      "sector": "evtol",
+      "sectorLabel": "Advanced Air Mobility",
+      "price": 2.37,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": 0.30819243,
+      "forwardPE": -1.5147086,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": null,
+      "enterpriseToEbitda": -1.398,
+      "revenueTTM": null,
+      "revenueTTMFormatted": null,
+      "revenueGrowthYoY": null,
+      "grossMarginsTTM": null,
+      "operatingMarginsTTM": null,
+      "ebitdaTTM": -126347000,
+      "lastUpdated": "2026-04-27 03:28:56",
+      "yahooUrl": "https://finance.yahoo.com/quote/EVTL",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=EVTL"
+    },
+    {
+      "ticker": "ASRHF",
+      "company": "Astroscale",
+      "sector": "space",
+      "sectorLabel": "Space & Aerospace",
+      "price": 8.39,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": null,
+      "priceToSalesTTM": null,
+      "enterpriseToRevenue": -0.396,
+      "enterpriseToEbitda": 0.231,
+      "revenueTTM": 5373635072,
+      "revenueTTMFormatted": "$5.37B",
+      "revenueGrowthYoY": 1.323,
+      "grossMarginsTTM": 0.03022,
+      "operatingMarginsTTM": -1.3299099,
+      "ebitdaTTM": -9191977984,
+      "lastUpdated": "2026-04-27 03:28:58",
+      "yahooUrl": "https://finance.yahoo.com/quote/ASRHF",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=ASRHF"
+    },
+    {
+      "ticker": "DRSHF",
+      "company": "DroneShield",
+      "sector": "defense",
+      "sectorLabel": "Defense & Dual-use",
+      "price": 2.67,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": null,
+      "priceToSalesTTM": 11.367841,
+      "enterpriseToRevenue": 10.348,
+      "enterpriseToEbitda": 934.44,
+      "revenueTTM": 216812000,
+      "revenueTTMFormatted": "$216.8M",
+      "revenueGrowthYoY": 3.168,
+      "grossMarginsTTM": 0.60931,
+      "operatingMarginsTTM": -0.03497,
+      "ebitdaTTM": 2401000,
+      "lastUpdated": "2026-04-27 03:28:59",
+      "yahooUrl": "https://finance.yahoo.com/quote/DRSHF",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=DRSHF"
+    },
+    {
+      "ticker": "ONT.L",
+      "company": "Oxford Nanopore Technologies",
+      "sector": "biotech",
+      "sectorLabel": "Biotech & Health",
+      "price": 114.9,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -15.246815,
+      "priceToSalesTTM": 4.964279,
+      "enterpriseToRevenue": 3.992,
+      "enterpriseToEbitda": -7.732,
+      "revenueTTM": 223900000,
+      "revenueTTMFormatted": "$223.9M",
+      "revenueGrowthYoY": 0.194,
+      "grossMarginsTTM": 0.6092,
+      "operatingMarginsTTM": -0.48689997,
+      "ebitdaTTM": -115600000,
+      "lastUpdated": "2026-04-27 03:28:59",
+      "yahooUrl": "https://finance.yahoo.com/quote/ONT.L",
+      "secUrl": null
+    },
+    {
+      "ticker": "277810.KQ",
+      "company": "Rainbow Robotics",
+      "sector": "robotics",
+      "sectorLabel": "Robotics",
+      "price": 669000.0,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": 563.1313,
+      "priceToSalesTTM": 380.34357,
+      "enterpriseToRevenue": 345.917,
+      "enterpriseToEbitda": -8338.992,
+      "revenueTTM": 34123110400,
+      "revenueTTMFormatted": "$34.12B",
+      "revenueGrowthYoY": 0.349,
+      "grossMarginsTTM": 0.34903,
+      "operatingMarginsTTM": 0.13057,
+      "ebitdaTTM": -1415489152,
+      "lastUpdated": "2026-04-27 03:29:00",
+      "yahooUrl": "https://finance.yahoo.com/quote/277810.KQ",
+      "secUrl": null
+    },
+    {
+      "ticker": "IDEAFORGE.NS",
+      "company": "ideaForge",
+      "sector": "defense",
+      "sectorLabel": "Defense & Dual-use",
+      "price": 515.45,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": 38.637325,
+      "priceToSalesTTM": 22.539896,
+      "enterpriseToRevenue": 20.374,
+      "enterpriseToEbitda": -19.448,
+      "revenueTTM": 1053960000,
+      "revenueTTMFormatted": "$1.05B",
+      "revenueGrowthYoY": 0.791,
+      "grossMarginsTTM": 0.40089,
+      "operatingMarginsTTM": -1.18852,
+      "ebitdaTTM": -1104130048,
+      "lastUpdated": "2026-04-27 03:29:01",
+      "yahooUrl": "https://finance.yahoo.com/quote/IDEAFORGE.NS",
+      "secUrl": null
+    },
+    {
+      "ticker": "9348.T",
+      "company": "ispace",
+      "sector": "space",
+      "sectorLabel": "Space & Aerospace",
+      "price": 471.0,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": null,
+      "forwardPE": -6.596045,
+      "priceToSalesTTM": 12.41645,
+      "enterpriseToRevenue": 12.001,
+      "enterpriseToEbitda": -6.54,
+      "revenueTTM": 5497686016,
+      "revenueTTMFormatted": "$5.50B",
+      "revenueGrowthYoY": -0.15,
+      "grossMarginsTTM": 0.21988001,
+      "operatingMarginsTTM": -5.06842,
+      "ebitdaTTM": -10088245248,
+      "lastUpdated": "2026-04-27 03:29:01",
+      "yahooUrl": "https://finance.yahoo.com/quote/9348.T",
+      "secUrl": null
+    },
+    {
+      "ticker": "TSLA",
+      "company": "Tesla",
+      "sector": "ev",
+      "sectorLabel": "Electric Vehicles",
+      "price": 376.3,
+      "marketCap": "N/A",
+      "marketCapRaw": 0,
+      "trailingPE": 345.22934,
+      "forwardPE": 149.6532,
+      "priceToSalesTTM": 14.439041,
+      "enterpriseToRevenue": 14.151,
+      "enterpriseToEbitda": 124.852,
+      "revenueTTM": 97878999040,
+      "revenueTTMFormatted": "$97.88B",
+      "revenueGrowthYoY": 0.158,
+      "grossMarginsTTM": 0.19065,
+      "operatingMarginsTTM": 0.04203,
+      "ebitdaTTM": 11093999616,
+      "lastUpdated": "2026-04-27 03:29:02",
+      "yahooUrl": "https://finance.yahoo.com/quote/TSLA",
+      "secUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=TSLA"
+    }
+  ],
+  "sectors": [
+    {
+      "sector": "ai",
+      "sectorLabel": "AI & Compute",
+      "n": 1,
+      "tickers": [
+        "PLTR"
+      ],
+      "priceToSales": {
+        "median": 76.46722,
+        "p25": 76.46722,
+        "p75": 76.46722,
+        "n": 1
+      },
+      "evRevenue": {
+        "median": 74.937,
+        "p25": 74.937,
+        "p75": 74.937,
+        "n": 1
+      },
+      "evEbitda": {
+        "median": 232.875,
+        "p25": 232.875,
+        "p75": 232.875,
+        "n": 1
+      },
+      "trailingPE": {
+        "median": 227.12698,
+        "p25": 227.12698,
+        "p75": 227.12698,
+        "n": 1
+      },
+      "revenueGrowth": {
+        "median": 0.7,
+        "n": 1
+      },
+      "grossMargin": {
+        "median": 0.82366997,
+        "n": 1
+      }
+    },
+    {
+      "sector": "evtol",
+      "sectorLabel": "Advanced Air Mobility",
+      "n": 3,
+      "tickers": [
+        "JOBY",
+        "ACHR",
+        "EVTL"
+      ],
+      "priceToSales": {
+        "median": 7201.922375,
+        "p25": 3679.1730625,
+        "p75": 10724.6716875,
+        "n": 2
+      },
+      "evRevenue": {
+        "median": 4066.9300000000003,
+        "p25": 2098.6095,
+        "p75": 6035.2505,
+        "n": 2
+      },
+      "evEbitda": {
+        "median": -3.385,
+        "p25": -6.8149999999999995,
+        "p75": -2.3914999999999997,
+        "n": 3
+      },
+      "trailingPE": {
+        "median": 0.30819243,
+        "p25": 0.30819243,
+        "p75": 0.30819243,
+        "n": 1
+      },
+      "revenueGrowth": {
+        "median": 559.655,
+        "n": 1
+      },
+      "grossMargin": {
+        "median": 0.45104,
+        "n": 1
+      }
+    },
+    {
+      "sector": "autonomy",
+      "sectorLabel": "Autonomous Driving",
+      "n": 1,
+      "tickers": [
+        "AUR"
+      ],
+      "priceToSales": {
+        "median": 3204.8755,
+        "p25": 3204.8755,
+        "p75": 3204.8755,
+        "n": 1
+      },
+      "evRevenue": {
+        "median": 2792.224,
+        "p25": 2792.224,
+        "p75": 2792.224,
+        "n": 1
+      },
+      "evEbitda": {
+        "median": -9.617,
+        "p25": -9.617,
+        "p75": -9.617,
+        "n": 1
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": null,
+        "n": 0
+      },
+      "grossMargin": {
+        "median": null,
+        "n": 0
+      }
+    },
+    {
+      "sector": "biotech",
+      "sectorLabel": "Biotech & Health",
+      "n": 3,
+      "tickers": [
+        "RXRX",
+        "TEM",
+        "ONT.L"
+      ],
+      "priceToSales": {
+        "median": 7.3522954,
+        "p25": 6.1582872,
+        "p75": 16.0888777,
+        "n": 3
+      },
+      "evRevenue": {
+        "median": 7.776,
+        "p25": 5.884,
+        "p75": 11.8275,
+        "n": 3
+      },
+      "evEbitda": {
+        "median": -7.732,
+        "p25": -32.697,
+        "p75": -4.9165,
+        "n": 3
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": 0.83,
+        "n": 3
+      },
+      "grossMargin": {
+        "median": 0.61829,
+        "n": 2
+      }
+    },
+    {
+      "sector": "climate",
+      "sectorLabel": "Climate & Bio-Manufacturing",
+      "n": 1,
+      "tickers": [
+        "LNZA"
+      ],
+      "priceToSales": {
+        "median": 4.5129786,
+        "p25": 4.5129786,
+        "p75": 4.5129786,
+        "n": 1
+      },
+      "evRevenue": {
+        "median": 5.005,
+        "p25": 5.005,
+        "p75": 5.005,
+        "n": 1
+      },
+      "evEbitda": {
+        "median": -3.73,
+        "p25": -3.73,
+        "p75": -3.73,
+        "n": 1
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": 1.327,
+        "n": 1
+      },
+      "grossMargin": {
+        "median": 0.45306,
+        "n": 1
+      }
+    },
+    {
+      "sector": "defense",
+      "sectorLabel": "Defense & Dual-use",
+      "n": 2,
+      "tickers": [
+        "DRSHF",
+        "IDEAFORGE.NS"
+      ],
+      "priceToSales": {
+        "median": 16.9538685,
+        "p25": 14.16085475,
+        "p75": 19.74688225,
+        "n": 2
+      },
+      "evRevenue": {
+        "median": 15.361,
+        "p25": 12.8545,
+        "p75": 17.8675,
+        "n": 2
+      },
+      "evEbitda": {
+        "median": 457.49600000000004,
+        "p25": 219.024,
+        "p75": 695.9680000000001,
+        "n": 2
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": 1.9795000000000003,
+        "n": 2
+      },
+      "grossMargin": {
+        "median": 0.5051,
+        "n": 2
+      }
+    },
+    {
+      "sector": "ev",
+      "sectorLabel": "Electric Vehicles",
+      "n": 2,
+      "tickers": [
+        "RIVN",
+        "TSLA"
+      ],
+      "priceToSales": {
+        "median": 9.12235625,
+        "p25": 6.464013875,
+        "p75": 11.780698625,
+        "n": 2
+      },
+      "evRevenue": {
+        "median": 8.898499999999999,
+        "p25": 6.27225,
+        "p75": 11.52475,
+        "n": 2
+      },
+      "evEbitda": {
+        "median": 58.919500000000006,
+        "p25": 25.953250000000004,
+        "p75": 91.88575,
+        "n": 2
+      },
+      "trailingPE": {
+        "median": 345.22934,
+        "p25": 345.22934,
+        "p75": 345.22934,
+        "n": 1
+      },
+      "revenueGrowth": {
+        "median": -0.04999999999999999,
+        "n": 2
+      },
+      "grossMargin": {
+        "median": 0.1086900005,
+        "n": 2
+      }
+    },
+    {
+      "sector": "battery",
+      "sectorLabel": "Energy Storage",
+      "n": 2,
+      "tickers": [
+        "QS",
+        "SLDP"
+      ],
+      "priceToSales": {
+        "median": 45.999348,
+        "p25": 45.999348,
+        "p75": 45.999348,
+        "n": 1
+      },
+      "evRevenue": {
+        "median": 31.653,
+        "p25": 31.653,
+        "p75": 31.653,
+        "n": 1
+      },
+      "evEbitda": {
+        "median": -8.022,
+        "p25": -8.5615,
+        "p75": -7.4825,
+        "n": 2
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": -0.424,
+        "n": 1
+      },
+      "grossMargin": {
+        "median": -0.15274,
+        "n": 1
+      }
+    },
+    {
+      "sector": "nuclear",
+      "sectorLabel": "Nuclear Energy",
+      "n": 3,
+      "tickers": [
+        "OKLO",
+        "NNE",
+        "SMR"
+      ],
+      "priceToSales": {
+        "median": 122.99819,
+        "p25": 122.99819,
+        "p75": 122.99819,
+        "n": 1
+      },
+      "evRevenue": {
+        "median": 79.449,
+        "p25": 79.449,
+        "p75": 79.449,
+        "n": 1
+      },
+      "evEbitda": {
+        "median": -13.818,
+        "p25": -46.8915,
+        "p75": -13.458,
+        "n": 3
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": -0.947,
+        "n": 1
+      },
+      "grossMargin": {
+        "median": 0.36313,
+        "n": 1
+      }
+    },
+    {
+      "sector": "quantum",
+      "sectorLabel": "Quantum Computing",
+      "n": 3,
+      "tickers": [
+        "IONQ",
+        "RGTI",
+        "QBTS"
+      ],
+      "priceToSales": {
+        "median": 278.56937,
+        "p25": 199.47687000000002,
+        "p75": 528.347885,
+        "n": 3
+      },
+      "evRevenue": {
+        "median": 243.978,
+        "p25": 173.1515,
+        "p75": 480.389,
+        "n": 3
+      },
+      "evEbitda": {
+        "median": -60.712,
+        "p25": -63.567,
+        "p75": -43.277,
+        "n": 3
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": 0.192,
+        "n": 3
+      },
+      "grossMargin": {
+        "median": 0.42062,
+        "n": 3
+      }
+    },
+    {
+      "sector": "robotics",
+      "sectorLabel": "Robotics",
+      "n": 1,
+      "tickers": [
+        "277810.KQ"
+      ],
+      "priceToSales": {
+        "median": 380.34357,
+        "p25": 380.34357,
+        "p75": 380.34357,
+        "n": 1
+      },
+      "evRevenue": {
+        "median": 345.917,
+        "p25": 345.917,
+        "p75": 345.917,
+        "n": 1
+      },
+      "evEbitda": {
+        "median": -8338.992,
+        "p25": -8338.992,
+        "p75": -8338.992,
+        "n": 1
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": 0.349,
+        "n": 1
+      },
+      "grossMargin": {
+        "median": 0.34903,
+        "n": 1
+      }
+    },
+    {
+      "sector": "chips",
+      "sectorLabel": "Semiconductors",
+      "n": 3,
+      "tickers": [
+        "ALAB",
+        "NVDA",
+        "AMD"
+      ],
+      "priceToSales": {
+        "median": 23.4408,
+        "p25": 19.905637,
+        "p75": 33.101385,
+        "n": 3
+      },
+      "evRevenue": {
+        "median": 23.2,
+        "p25": 19.691,
+        "p75": 32.1685,
+        "n": 3
+      },
+      "evEbitda": {
+        "median": 83.103,
+        "p25": 60.352999999999994,
+        "p75": 138.8335,
+        "n": 3
+      },
+      "trailingPE": {
+        "median": 133.2567,
+        "p25": 87.92283,
+        "p75": 154.57876,
+        "n": 3
+      },
+      "revenueGrowth": {
+        "median": 0.732,
+        "n": 3
+      },
+      "grossMargin": {
+        "median": 0.71068,
+        "n": 3
+      }
+    },
+    {
+      "sector": "space",
+      "sectorLabel": "Space & Aerospace",
+      "n": 7,
+      "tickers": [
+        "RKLB",
+        "PL",
+        "LUNR",
+        "ASTS",
+        "SATL",
+        "ASRHF",
+        "9348.T"
+      ],
+      "priceToSales": {
+        "median": 44.889058,
+        "p25": 24.49351775,
+        "p75": 69.87939525,
+        "n": 6
+      },
+      "evRevenue": {
+        "median": 39.288,
+        "p25": 17.4665,
+        "p75": 60.989,
+        "n": 7
+      },
+      "evEbitda": {
+        "median": -57.401,
+        "p25": -168.04500000000002,
+        "p75": -21.5615,
+        "n": 7
+      },
+      "trailingPE": {
+        "median": null,
+        "p25": null,
+        "p75": null,
+        "n": 0
+      },
+      "revenueGrowth": {
+        "median": 0.411,
+        "n": 7
+      },
+      "grossMargin": {
+        "median": 0.34427,
+        "n": 7
+      }
+    }
+  ]
+};
+if (typeof window !== 'undefined') window.PUBLIC_MULTIPLES_AUTO = PUBLIC_MULTIPLES_AUTO;
