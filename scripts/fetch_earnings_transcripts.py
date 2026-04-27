@@ -77,26 +77,21 @@ TARGETS = [
     {"ticker": "LHX",   "company": "L3Harris Technologies",  "ir": "https://investors.l3harris.com/"},
     {"ticker": "LDOS",  "company": "Leidos",                 "ir": "https://investors.leidos.com/"},
     {"ticker": "SAIC",  "company": "Science Applications",   "ir": "https://investors.saic.com/"},
-    {"ticker": "BAESY", "company": "BAE Systems",            "ir": "https://www.baesystems.com/en/investors"},
-    # Semiconductor / AI compute
+    # Semiconductor / AI compute (US-domiciled only — TSMC/ASML/Arm dropped)
     {"ticker": "NVDA",  "company": "NVIDIA",                 "ir": "https://investor.nvidia.com/"},
     {"ticker": "AMD",   "company": "AMD",                    "ir": "https://ir.amd.com/"},
-    {"ticker": "TSM",   "company": "TSMC",                   "ir": "https://investor.tsmc.com/"},
-    {"ticker": "ASML",  "company": "ASML",                   "ir": "https://www.asml.com/en/investors"},
     {"ticker": "AMAT",  "company": "Applied Materials",      "ir": "https://ir.appliedmaterials.com/"},
     {"ticker": "KLAC",  "company": "KLA",                    "ir": "https://ir.kla.com/"},
     {"ticker": "INTC",  "company": "Intel",                  "ir": "https://www.intc.com/"},
-    # Nuclear / energy
+    # Nuclear / energy (US — Cameco kept as it's the dominant uranium supplier)
     {"ticker": "VST",   "company": "Vistra",                 "ir": "https://investor.vistracorp.com/"},
     {"ticker": "CEG",   "company": "Constellation Energy",   "ir": "https://investors.constellationenergy.com/"},
     {"ticker": "EXC",   "company": "Exelon",                 "ir": "https://investors.exeloncorp.com/"},
     {"ticker": "CCJ",   "company": "Cameco",                 "ir": "https://www.cameco.com/invest"},
     {"ticker": "LEU",   "company": "Centrus Energy",         "ir": "https://investors.centrusenergy.com/"},
-    # Industrial / auto / hardware
+    # Industrial / auto / hardware (Stellantis + Siemens dropped — non-US)
     {"ticker": "F",     "company": "Ford",                   "ir": "https://shareholder.ford.com/"},
     {"ticker": "GM",    "company": "General Motors",         "ir": "https://investor.gm.com/"},
-    {"ticker": "STLA",  "company": "Stellantis",             "ir": "https://www.stellantis.com/en/investors"},
-    {"ticker": "SIEGY", "company": "Siemens",                "ir": "https://www.siemens.com/investor/en/"},
     {"ticker": "TSLA",  "company": "Tesla",                  "ir": "https://ir.tesla.com/"},
     # Tech adjacent / data-intensive
     {"ticker": "PLTR",  "company": "Palantir Technologies",  "ir": "https://investors.palantir.com/"},
@@ -105,13 +100,14 @@ TARGETS = [
     {"ticker": "AMZN",  "company": "Amazon",                 "ir": "https://ir.aboutamazon.com/"},
     {"ticker": "GOOGL", "company": "Alphabet",               "ir": "https://abc.xyz/investor/"},
 
-    # ═══ EXPANDED UNIVERSE — 100 frontier-adjacent global tickers ═══
-    # Added 2026-04: ~70 new tickers spanning US + Europe + Asia. Selection
-    # criteria: companies whose earnings calls actually move frontier-tech
-    # narratives — capex on AI compute, defense supply chain commentary,
-    # nuclear/fusion progress, robotics/manufacturing rollout, EV/autonomy.
+    # ═══ EXPANDED UNIVERSE — 100 US-only frontier-adjacent tickers ═══
+    # Refined 2026-04: dropped all international tickers (re-add later when
+    # EARNINGS_API_KEY is set for non-US transcript coverage). Replaced with
+    # high-quality US frontier-tech-adjacent names — including outside
+    # S&P 500 if they're materially exposed to defense, AI, nuclear,
+    # robotics, biotech, quantum, or space.
 
-    # ─── Defense & dual-use (US, beyond primes) ───
+    # ─── Defense & dual-use (US) ───
     {"ticker": "HII",   "company": "Huntington Ingalls",     "ir": "https://investors.huntingtoningalls.com/"},
     {"ticker": "TXT",   "company": "Textron",                "ir": "https://investor.textron.com/"},
     {"ticker": "TDG",   "company": "TransDigm",              "ir": "https://www.transdigm.com/investor-relations/"},
@@ -124,41 +120,30 @@ TARGETS = [
     {"ticker": "CW",    "company": "Curtiss-Wright",         "ir": "https://www.curtisswright.com/investors"},
     {"ticker": "MOG-A", "company": "Moog",                   "ir": "https://investors.moog.com/"},
     {"ticker": "HWM",   "company": "Howmet Aerospace",       "ir": "https://www.howmet.com/investors"},
+    {"ticker": "VSAT",  "company": "Viasat",                 "ir": "https://investors.viasat.com/"},
+    {"ticker": "PSN",   "company": "Parsons Corp",           "ir": "https://investors.parsons.com/"},
 
-    # ─── Defense (international) ───
-    {"ticker": "BA.L",     "company": "BAE Systems (UK)",       "ir": "https://www.baesystems.com/en/investors"},
-    {"ticker": "HO.PA",    "company": "Thales (France)",        "ir": "https://www.thalesgroup.com/en/investors"},
-    {"ticker": "AIR.PA",   "company": "Airbus (France)",        "ir": "https://www.airbus.com/en/investors"},
-    {"ticker": "LDO.MI",   "company": "Leonardo (Italy)",       "ir": "https://www.leonardo.com/en/investors"},
-    {"ticker": "RHM.DE",   "company": "Rheinmetall (Germany)",  "ir": "https://www.rheinmetall.com/en/investor-relations"},
-    {"ticker": "SAAB-B.ST","company": "Saab (Sweden)",          "ir": "https://www.saab.com/investors"},
-    {"ticker": "KOG.OL",   "company": "Kongsberg (Norway)",     "ir": "https://www.kongsberg.com/investors/"},
-    {"ticker": "7011.T",   "company": "Mitsubishi Heavy Industries (Japan)", "ir": "https://www.mhi.com/expertise/investors"},
-    {"ticker": "7012.T",   "company": "Kawasaki Heavy Industries (Japan)",   "ir": "https://global.kawasaki.com/en/corp/ir/"},
-    {"ticker": "AM.PA",    "company": "Dassault Aviation (France)", "ir": "https://www.dassault-aviation.com/en/group/finance/"},
+    # ─── Cybersecurity (defense-adjacent) ───
+    {"ticker": "CRWD",  "company": "CrowdStrike",            "ir": "https://ir.crowdstrike.com/"},
+    {"ticker": "PANW",  "company": "Palo Alto Networks",     "ir": "https://investors.paloaltonetworks.com/"},
 
-    # ─── Semiconductors (US) ───
+    # ─── Semiconductors (US-listed) ───
     {"ticker": "MU",    "company": "Micron Technology",      "ir": "https://investors.micron.com/"},
     {"ticker": "QCOM",  "company": "Qualcomm",               "ir": "https://investor.qualcomm.com/"},
     {"ticker": "AVGO",  "company": "Broadcom",               "ir": "https://investors.broadcom.com/"},
     {"ticker": "MRVL",  "company": "Marvell Technology",     "ir": "https://investor.marvell.com/"},
     {"ticker": "LRCX",  "company": "Lam Research",           "ir": "https://investor.lamresearch.com/"},
-    {"ticker": "ARM",   "company": "Arm Holdings",           "ir": "https://investors.arm.com/"},
     {"ticker": "TER",   "company": "Teradyne",               "ir": "https://investors.teradyne.com/"},
     {"ticker": "ENTG",  "company": "Entegris",               "ir": "https://investor.entegris.com/"},
     {"ticker": "ON",    "company": "ON Semiconductor",       "ir": "https://investor.onsemi.com/"},
     {"ticker": "TXN",   "company": "Texas Instruments",      "ir": "https://www.ti.com/about-ti/investor-relations.html"},
     {"ticker": "SNPS",  "company": "Synopsys",               "ir": "https://www.synopsys.com/company/investor-relations.html"},
     {"ticker": "CDNS",  "company": "Cadence Design",         "ir": "https://www.cadence.com/en_US/home/company/investor-relations.html"},
+    {"ticker": "WOLF",  "company": "Wolfspeed",              "ir": "https://investor.wolfspeed.com/"},
+    {"ticker": "MCHP",  "company": "Microchip Technology",   "ir": "https://www.microchip.com/about-us/investors"},
+    {"ticker": "ADI",   "company": "Analog Devices",         "ir": "https://investor.analog.com/"},
 
-    # ─── Semiconductors (international) ───
-    {"ticker": "005930.KS", "company": "Samsung Electronics (Korea)", "ir": "https://www.samsung.com/global/ir/"},
-    {"ticker": "000660.KS", "company": "SK Hynix (Korea)",            "ir": "https://www.skhynix.com/eng/sub01/investor.jsp"},
-    {"ticker": "8035.T",    "company": "Tokyo Electron (Japan)",      "ir": "https://www.tel.com/ir/"},
-    {"ticker": "6857.T",    "company": "Advantest (Japan)",           "ir": "https://www.advantest.com/en/investors"},
-    {"ticker": "STM",       "company": "STMicroelectronics (Switzerland)", "ir": "https://investors.st.com/"},
-
-    # ─── AI / Cloud / Compute infrastructure ───
+    # ─── AI / Cloud / Compute infrastructure (US) ───
     {"ticker": "ORCL",  "company": "Oracle",                 "ir": "https://investor.oracle.com/"},
     {"ticker": "NET",   "company": "Cloudflare",             "ir": "https://cloudflare.net/investors"},
     {"ticker": "EQIX",  "company": "Equinix",                "ir": "https://investor.equinix.com/"},
@@ -168,31 +153,30 @@ TARGETS = [
     {"ticker": "CRWV",  "company": "CoreWeave",              "ir": "https://investors.coreweave.com/"},
     {"ticker": "MDB",   "company": "MongoDB",                "ir": "https://investors.mongodb.com/"},
 
-    # ─── Robotics / Industrial automation ───
+    # ─── Robotics / Industrial automation (US) ───
     {"ticker": "ROK",   "company": "Rockwell Automation",    "ir": "https://www.rockwellautomation.com/en-us/company/investor-relations.html"},
     {"ticker": "EMR",   "company": "Emerson Electric",       "ir": "https://www.emerson.com/en-us/investors"},
     {"ticker": "ETN",   "company": "Eaton",                  "ir": "https://www.eaton.com/us/en-us/company/investor-relations.html"},
     {"ticker": "PH",    "company": "Parker Hannifin",        "ir": "https://www.parker.com/us/en/company/investors.html"},
     {"ticker": "HON",   "company": "Honeywell",              "ir": "https://investor.honeywell.com/"},
     {"ticker": "ZBRA",  "company": "Zebra Technologies",     "ir": "https://investors.zebra.com/"},
-    {"ticker": "6954.T","company": "Fanuc (Japan)",          "ir": "https://www.fanuc.com/en/ir.html"},
-    {"ticker": "6594.T","company": "Nidec (Japan)",          "ir": "https://www.nidec.com/en/ir/"},
-    {"ticker": "ABBNY", "company": "ABB (Switzerland)",      "ir": "https://global.abb/group/en/investors"},
-    {"ticker": "SU.PA", "company": "Schneider Electric (France)", "ir": "https://www.se.com/ww/en/about-us/investor-relations/"},
 
-    # ─── EV / Autonomy / Mobility ───
+    # ─── Quantum computing (pure-play public US) ───
+    {"ticker": "IONQ",  "company": "IonQ",                   "ir": "https://investors.ionq.com/"},
+    {"ticker": "QBTS",  "company": "D-Wave Quantum",         "ir": "https://ir.dwavesys.com/"},
+    {"ticker": "RGTI",  "company": "Rigetti Computing",      "ir": "https://investors.rigetti.com/"},
+
+    # ─── Additive manufacturing (US) ───
+    {"ticker": "DDD",   "company": "3D Systems",             "ir": "https://www.3dsystems.com/investor"},
+    {"ticker": "VLD",   "company": "Velo3D",                 "ir": "https://investors.velo3d.com/"},
+    {"ticker": "DM",    "company": "Desktop Metal",          "ir": "https://ir.desktopmetal.com/"},
+
+    # ─── EV / Autonomy / Mobility (US) ───
     {"ticker": "RIVN",  "company": "Rivian Automotive",      "ir": "https://rivian.com/investors"},
     {"ticker": "AUR",   "company": "Aurora Innovation",      "ir": "https://aurora.tech/investors"},
     {"ticker": "MBLY",  "company": "Mobileye",               "ir": "https://ir.mobileye.com/"},
-    {"ticker": "NIO",   "company": "NIO (China)",            "ir": "https://ir.nio.com/"},
-    {"ticker": "XPEV",  "company": "XPeng (China)",          "ir": "https://ir.xiaopeng.com/"},
-    {"ticker": "LI",    "company": "Li Auto (China)",        "ir": "https://ir.lixiang.com/"},
-    {"ticker": "BYDDY", "company": "BYD (China)",            "ir": "https://www.bydglobal.com/en/InvestorRelations.html"},
-    {"ticker": "7203.T","company": "Toyota Motor (Japan)",   "ir": "https://global.toyota/en/ir/"},
-    {"ticker": "005380.KS","company": "Hyundai Motor (Korea)", "ir": "https://www.hyundai.com/worldwide/en/company/investor-relations"},
-    {"ticker": "VOW3.DE","company": "Volkswagen (Germany)",  "ir": "https://www.volkswagenag.com/en/InvestorRelations.html"},
 
-    # ─── Aerospace / Space (newspace) ───
+    # ─── Aerospace / Space (newspace, US) ───
     {"ticker": "RKLB",  "company": "Rocket Lab",             "ir": "https://www.rocketlabusa.com/investors/"},
     {"ticker": "ACHR",  "company": "Archer Aviation",        "ir": "https://investors.archer.com/"},
     {"ticker": "JOBY",  "company": "Joby Aviation",          "ir": "https://www.jobyaviation.com/investor-relations"},
@@ -200,36 +184,44 @@ TARGETS = [
     {"ticker": "IRDM",  "company": "Iridium Communications", "ir": "https://investor.iridium.com/"},
     {"ticker": "ASTS",  "company": "AST SpaceMobile",        "ir": "https://investors.ast-science.com/"},
     {"ticker": "LUNR",  "company": "Intuitive Machines",     "ir": "https://www.intuitivemachines.com/investors"},
-    {"ticker": "9348.T","company": "ispace (Japan)",         "ir": "https://ispace-inc.com/inv/"},
+    {"ticker": "SPIR",  "company": "Spire Global",           "ir": "https://ir.spire.com/"},
+    {"ticker": "RDW",   "company": "Redwire",                "ir": "https://investors.redwirespace.com/"},
+    {"ticker": "SATL",  "company": "Satellogic",             "ir": "https://investors.satellogic.com/"},
 
-    # ─── Nuclear / advanced energy ───
+    # ─── Nuclear / advanced energy (US) ───
     {"ticker": "OKLO",  "company": "Oklo",                   "ir": "https://oklo.com/investors"},
     {"ticker": "SMR",   "company": "NuScale Power",          "ir": "https://www.nuscalepower.com/en/investors"},
     {"ticker": "NNE",   "company": "Nano Nuclear Energy",    "ir": "https://nanonuclearenergy.com/investors"},
     {"ticker": "BWXT",  "company": "BWX Technologies",       "ir": "https://investors.bwxt.com/"},
     {"ticker": "NEE",   "company": "NextEra Energy",         "ir": "https://www.investor.nexteraenergy.com/"},
+    {"ticker": "TLN",   "company": "Talen Energy",           "ir": "https://ir.talenenergy.com/"},
 
-    # ─── Energy storage / batteries / critical minerals ───
+    # ─── Energy storage / batteries / critical minerals (US) ───
     {"ticker": "QS",    "company": "QuantumScape",           "ir": "https://ir.quantumscape.com/"},
     {"ticker": "MP",    "company": "MP Materials",           "ir": "https://investors.mpmaterials.com/"},
     {"ticker": "LAC",   "company": "Lithium Americas",       "ir": "https://lithiumamericas.com/investors"},
     {"ticker": "ALB",   "company": "Albemarle",              "ir": "https://investors.albemarle.com/"},
-    {"ticker": "6752.T","company": "Panasonic (Japan)",      "ir": "https://www.panasonic.com/global/corporate/ir.html"},
-    {"ticker": "051910.KS","company": "LG Chem (Korea)",     "ir": "https://www.lgchem.com/main/ir"},
-    {"ticker": "BHP",   "company": "BHP Group (Australia)",  "ir": "https://www.bhp.com/investors"},
-    {"ticker": "RIO",   "company": "Rio Tinto",              "ir": "https://www.riotinto.com/en/invest"},
+    {"ticker": "ENVX",  "company": "Enovix",                 "ir": "https://ir.enovix.com/"},
+    {"ticker": "BE",    "company": "Bloom Energy",           "ir": "https://investor.bloomenergy.com/"},
 
-    # ─── Power infrastructure / grid ───
+    # ─── Power infrastructure / grid (US) ───
     {"ticker": "PWR",   "company": "Quanta Services",        "ir": "https://investors.quantaservices.com/"},
     {"ticker": "GEV",   "company": "GE Vernova",             "ir": "https://www.gevernova.com/investors"},
     {"ticker": "GE",    "company": "GE Aerospace",           "ir": "https://www.geaerospace.com/investor-relations"},
     {"ticker": "GNRC",  "company": "Generac",                "ir": "https://investors.generac.com/"},
+    {"ticker": "MTZ",   "company": "MasTec",                 "ir": "https://investors.mastec.com/"},
 
-    # ─── Health AI / advanced biotech industrials ───
+    # ─── Biotech / synthetic bio / health AI (US) ───
     {"ticker": "ISRG",  "company": "Intuitive Surgical",     "ir": "https://isrg.intuitive.com/"},
     {"ticker": "ILMN",  "company": "Illumina",               "ir": "https://www.illumina.com/company/about-us/investor-relations.html"},
     {"ticker": "TXG",   "company": "10x Genomics",           "ir": "https://investors.10xgenomics.com/"},
     {"ticker": "TWST",  "company": "Twist Bioscience",       "ir": "https://investors.twistbioscience.com/"},
+    {"ticker": "DNA",   "company": "Ginkgo Bioworks",        "ir": "https://investors.ginkgobioworks.com/"},
+    {"ticker": "RXRX",  "company": "Recursion Pharma",       "ir": "https://ir.recursion.com/"},
+    {"ticker": "TEM",   "company": "Tempus AI",              "ir": "https://investors.tempus.com/"},
+    {"ticker": "NTLA",  "company": "Intellia Therapeutics",  "ir": "https://ir.intelliatx.com/"},
+    {"ticker": "BEAM",  "company": "Beam Therapeutics",      "ir": "https://investors.beamtx.com/"},
+    {"ticker": "CRSP",  "company": "CRISPR Therapeutics",    "ir": "https://crisprtx.com/investors"},
 ]
 
 
