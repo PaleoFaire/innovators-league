@@ -2,7 +2,7 @@
   {
     "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
     "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
-    "description": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft get more cash in a revenue-share agreement.",
+    "description": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement.",
     "pubDate": "Mon, 27 Apr 2026 17:40:38 +0000",
     "category": "AI",
     "source": "TechCrunch",
@@ -18,26 +18,27 @@
     ],
     "type": "news",
     "impact": "high",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "OpenAI could be making a phone with AI agents replacing apps",
     "link": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
-    "description": "The phone could go into mass production in 2028, an analyst says.",
+    "description": "There have been plenty of rumors about OpenAI's hardware plans, which involve launching a pair of earbuds. A new note from industry analyst Ming-Chi Kuo suggests that the AI company might be working on a phone in collaboration with MediaTek, Qualcomm, and Luxshare.",
     "pubDate": "Mon, 27 Apr 2026 13:08:59 +0000",
     "category": "AI",
     "source": "TechCrunch",
     "feedCategory": "tech",
     "matchedCompany": "OpenAI",
     "matchedCompanies": [
-      "OpenAI"
+      "OpenAI",
+      "Dust"
     ],
     "sectors": [
       "ai"
     ],
-    "type": "news",
+    "type": "milestone",
     "impact": "low",
-    "time": "7h ago"
+    "time": "8h ago"
   },
   {
     "title": "Compass Therapeutics unveils key secondary endpoint results from pivotal biliary tract cancer trial",
@@ -60,7 +61,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "8h ago"
+    "time": "10h ago"
   },
   {
     "title": "STAT+: Intellia says CRISPR-based treatment for rare disease reduced swelling attacks in pivotal trial",
@@ -79,7 +80,7 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "9h ago"
+    "time": "11h ago"
   },
   {
     "title": "SpaceX Launch Rate in 2026 After Reaching Orbital Operations, Booster and Starship Recovery",
@@ -97,25 +98,6 @@
       "space"
     ],
     "type": "ipo",
-    "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "Anthropic created a test marketplace for agent-on-agent commerce",
-    "link": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-    "description": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
-    "pubDate": "Sat, 25 Apr 2026 21:43:37 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Anthropic",
-    "matchedCompanies": [
-      "Anthropic"
-    ],
-    "sectors": [
-      "ai"
-    ],
-    "type": "milestone",
     "impact": "low",
     "time": "1d ago"
   },
@@ -245,6 +227,25 @@
     "time": "3d ago"
   },
   {
+    "title": "SpaceX wins $57 million U.S. military contract for satellite crosslink demo",
+    "link": "https://spacenews.com/spacex-wins-57-million-u-s-military-contract-for-satellite-crosslink-demo/",
+    "description": "\nThe contract is to demonstrate space-based data links using the Link-182 standard that will support Golden Dome \nThe post SpaceX wins $57 million U.S. military contract for satellite crosslink demo appeared first on SpaceNews.",
+    "pubDate": "Thu, 23 Apr 2026 21:48:12 +0000",
+    "category": "Military",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "SpaceX",
+    "matchedCompanies": [
+      "SpaceX"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "contract",
+    "impact": "medium",
+    "time": "4d ago"
+  },
+  {
     "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
     "link": "https://spectrum.ieee.org/ai-cybersecurity-mythos",
     "description": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that t",
@@ -286,6 +287,27 @@
     "time": "4d ago"
   },
   {
+    "title": "Atmos Space Cargo raises $30 million for reentry missions",
+    "link": "https://spacenews.com/atmos-space-cargo-raises-30-million-for-reentry-missions/",
+    "description": "\nAtmos Space Cargo has raised 25.7 million euros ($30.1 million) to fly a series of reentry vehicle missions and work on a larger spacecraft.\nThe post Atmos Space Cargo raises $30 million for reentry missions appeared first on SpaceNews.",
+    "pubDate": "Thu, 23 Apr 2026 02:08:31 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "Atmos Space Cargo",
+    "matchedCompanies": [
+      "Atmos Space Cargo",
+      "Atmo"
+    ],
+    "sectors": [
+      "space",
+      "ai"
+    ],
+    "type": "funding",
+    "impact": "high",
+    "time": "4d ago"
+  },
+  {
     "title": "Cape EMS expands into advanced interconnect engineering for EV mobility, AI infrastructure, energy systems with GrandCape",
     "link": "https://technode.global/2026/04/23/cape-ems-expands-into-advanced-interconnect-engineering-for-ev-mobility-ai-infrastructure-energy-systems-with-grandcape/",
     "description": "Malaysia-based Cape EMS Berhad has on Tuesday announced the establishment of GrandCape (M) Sdn Bhd through a joint venture with New Grand Tech (HK) Limited, to expand into advanced interconnect engineering for electric vehicle (EV) mobility, artificial intelligence (AI) infrastructure, energy system",
@@ -303,6 +325,25 @@
     "type": "news",
     "impact": "low",
     "time": "4d ago"
+  },
+  {
+    "title": "FCC clears AST SpaceMobile constellation as launch setback clouds ramp-up",
+    "link": "https://spacenews.com/fcc-clears-ast-spacemobile-constellation-as-launch-setback-clouds-ramp-up/",
+    "description": "\nAST SpaceMobile received permission to provide direct-to-smartphone broadband services in the United States with up to 248 satellites, days after a botched launch complicated plans to ramp up deployments this year.\nThe post FCC clears AST SpaceMobile constellation as launch setback clouds ramp-up a",
+    "pubDate": "Wed, 22 Apr 2026 19:41:41 +0000",
+    "category": "Commercial",
+    "source": "SpaceNews",
+    "feedCategory": "space",
+    "matchedCompany": "AST SpaceMobile",
+    "matchedCompanies": [
+      "AST SpaceMobile"
+    ],
+    "sectors": [
+      "space"
+    ],
+    "type": "ipo",
+    "impact": "low",
+    "time": "5d ago"
   },
   {
     "title": "Rivian (RIVN) starts R2 production days after tornado hit factory, deliveries this spring",
