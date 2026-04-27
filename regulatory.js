@@ -108,15 +108,16 @@ function initClinicalTrialsRadar() {
           countEl.textContent = 'Showing ' + filtered.length + ' of ' + trials.length + ' trials · ' + matchedCos + ' match tracked companies';
         }
 
+        var dim = '<span style="color:rgba(255,255,255,0.3); font-size:11px; font-style:italic;">—</span>';
         tbody.innerHTML = filtered.slice(0, 500).map(function(t) {
-          var nctLink = t.nctId ? '<a href="https://clinicaltrials.gov/study/' + esc(t.nctId) + '" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none;">' + esc(t.nctId) + '</a>' : '—';
+          var nctLink = t.nctId ? '<a href="https://clinicaltrials.gov/study/' + esc(t.nctId) + '" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none;">' + esc(t.nctId) + '</a>' : dim;
           return '<tr style="' + (t.hasMatch ? '' : 'opacity:0.6;') + '">' +
             '<td style="font-weight:600;">' + esc(t.company) + '</td>' +
             '<td style="font-size:12px;">' + esc((t.title || '').slice(0, 100)) + '</td>' +
             '<td><span class="val-src-badge" style="background:rgba(139,92,246,0.15); color:#a78bfa; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;">' + esc(phaseLabel(t.phase)) + '</span></td>' +
             '<td style="font-size:12px;">' + esc(statusLabel(t.status)) + '</td>' +
-            '<td>' + esc(t.enrollment || '—') + '</td>' +
-            '<td style="font-family: Space Grotesk, monospace;">' + esc(t.completion || '—') + '</td>' +
+            '<td>' + (t.enrollment ? esc(t.enrollment) : dim) + '</td>' +
+            '<td style="font-family: Space Grotesk, monospace;">' + (t.completion ? esc(t.completion) : dim) + '</td>' +
             '<td>' + nctLink + '</td>' +
           '</tr>';
         }).join('');
@@ -156,16 +157,19 @@ function initPDUFACalendar() {
 
       if (countEl) countEl.textContent = 'Showing ' + Math.min(sorted.length, 200) + ' of ' + sorted.length + ' FDA actions';
 
-      tbody.innerHTML = sorted.slice(0, 200).map(function(a) {
-        var date = a.decision_date || a.date || '—';
+      var dim = '<span style="color:rgba(255,255,255,0.3); font-size:11px; font-style:italic;">—</span>';
+      // Empty-UI rule: only show actions where we have a company name
+      var usable = sorted.filter(function(a) { return a.company || a.applicant; });
+      tbody.innerHTML = usable.slice(0, 200).map(function(a) {
+        var date = a.decision_date || a.date;
         var k = a.k_number || '';
-        var kLink = k ? '<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=' + esc(k) + '" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none;">' + esc(k) + '</a>' : '—';
+        var kLink = k ? '<a href="https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=' + esc(k) + '" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none;">' + esc(k) + '</a>' : dim;
         var action = a.clearance_type || a.action || a.decision_code || 'Clearance';
         return '<tr>' +
-          '<td style="font-weight:600;">' + esc(a.company || a.applicant || '—') + '</td>' +
+          '<td style="font-weight:600;">' + esc(a.company || a.applicant) + '</td>' +
           '<td style="font-size:12px;">' + esc((a.device_name || a.product || a.title || '').slice(0, 100)) + '</td>' +
           '<td><span class="val-src-badge" style="background:rgba(34,197,94,0.15); color:#22c55e; padding:2px 8px; border-radius:10px; font-size:11px; font-weight:600;">' + esc(action) + '</span></td>' +
-          '<td style="font-family: Space Grotesk, monospace;">' + esc(date) + '</td>' +
+          '<td style="font-family: Space Grotesk, monospace;">' + (date ? esc(date) : dim) + '</td>' +
           '<td>' + kLink + '</td>' +
         '</tr>';
       }).join('');

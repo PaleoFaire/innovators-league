@@ -131,11 +131,11 @@
              '<span class="pg-project">' + esc(e.project_name || '') + '</span>' +
              matchHtml +
           '</td>' +
-          '<td><span class="pg-rto-pill">' + esc(e.rto || '—') + '</span></td>' +
+          '<td>' + (e.rto ? '<span class="pg-rto-pill">' + esc(e.rto) + '</span>' : '') + '</td>' +
           '<td><span class="pg-mw">' + fmtMw(e.mw_size) + '</span></td>' +
-          '<td>' + esc(e.fuel_type || '—') + '</td>' +
-          '<td>' + esc((e.county ? (e.county + ', ') : '') + (e.state || '—')) + '</td>' +
-          '<td>' + esc(fmtDate(e.proposed_online_date)) + '</td>' +
+          '<td>' + (e.fuel_type ? esc(e.fuel_type) : '<span style="color:rgba(255,255,255,0.3);">—</span>') + '</td>' +
+          '<td>' + (e.state ? esc((e.county ? (e.county + ', ') : '') + e.state) : '') + '</td>' +
+          '<td>' + (e.proposed_online_date ? esc(fmtDate(e.proposed_online_date)) : '<span style="color:rgba(255,255,255,0.3);">TBA</span>') + '</td>' +
           '<td><span class="pg-priority-pill ' + prio + '">' + prioLabel + '</span></td>' +
         '</tr>'
       );

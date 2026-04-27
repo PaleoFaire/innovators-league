@@ -2097,19 +2097,21 @@
     setText('ts-score-tier', scoreTier);
 
     // ─── Key stats grid ───
+    // Empty-UI rule: only push stats with a real value. No "—" placeholders.
     var keyStats = [];
-    keyStats.push({ label: 'Founded', value: company.founded || company.yearFounded || '—' });
-    keyStats.push({ label: 'Total Raised', value: company.totalRaised || '—' });
-    keyStats.push({ label: 'Valuation', value: company.valuation || 'Undisclosed' });
-    keyStats.push({ label: 'HQ', value: company.location || '—' });
-    var empVal = company.employees || (headcount && headcount.current ? String(headcount.current) : '—');
-    keyStats.push({ label: 'Employees', value: empVal });
+    var foundedVal = company.founded || company.yearFounded;
+    if (foundedVal) keyStats.push({ label: 'Founded', value: foundedVal });
+    if (company.totalRaised) keyStats.push({ label: 'Total Raised', value: company.totalRaised });
+    if (company.valuation) keyStats.push({ label: 'Valuation', value: company.valuation });
+    if (company.location) keyStats.push({ label: 'HQ', value: company.location });
+    var empVal = company.employees || (headcount && headcount.current ? String(headcount.current) : null);
+    if (empVal) keyStats.push({ label: 'Employees', value: empVal });
     if (company.ticker) {
       keyStats.push({ label: 'Ticker', value: company.ticker });
     } else if (trl) {
       keyStats.push({ label: 'TRL', value: 'TRL ' + trl + '/9' });
-    } else {
-      keyStats.push({ label: 'Stage', value: company.fundingStage || '—' });
+    } else if (company.fundingStage) {
+      keyStats.push({ label: 'Stage', value: company.fundingStage });
     }
     var keyStatsHtml = keyStats.map(function(s) {
       return '<div class="ts-keystat">' +

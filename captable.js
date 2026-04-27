@@ -148,11 +148,21 @@ function renderCapTable(company) {
   html += '<a class="captable-profile-link" href="company.html?c=' + encodeURIComponent(company.name) + '">View Full Profile &rarr;</a>';
   html += '</div>';
 
+  // Stat tiles — only render tiles that have real values (no "—" placeholders).
+  // Empty-UI rule: never ship a stat card with no data.
   html += '<div class="captable-stats">';
-  html += statCard('Total Raised', totalRaisedDisplay);
-  html += statCard('Stage', company.fundingStage || '—');
-  html += statCard('Valuation', valuationDisplay);
-  html += statCard('Rounds', String(rounds.length || '—'));
+  if (totalRaisedDisplay && totalRaisedDisplay !== 'Undisclosed' && totalRaisedDisplay !== '—') {
+    html += statCard('Total Raised', totalRaisedDisplay);
+  }
+  if (company.fundingStage) {
+    html += statCard('Stage', company.fundingStage);
+  }
+  if (valuationDisplay && valuationDisplay !== 'Undisclosed' && valuationDisplay !== '—') {
+    html += statCard('Valuation', valuationDisplay);
+  }
+  if (rounds.length) {
+    html += statCard('Rounds', String(rounds.length));
+  }
   html += '</div>';
   html += '</div>';
 
@@ -260,59 +270,45 @@ function statCard(label, value) {
     '</div>';
 }
 
-// Build a synthetic funding timeline from FUNDING_TRACKER + stage inference
+// Build a funding-rounds timeline from real data sources only.
+// Previously this synthesized empty rows for every stage Pre-Seed →
+// current, then labeled them "Inferred from stage progression" — which
+// looked unprofessional (8 rows of "—  —"). New rule: only return rounds
+// with REAL confirmed data. If the company has no per-round detail,
+// return an empty list so the caller can render the helpful empty state.
 function buildRoundsTimeline(company, tracker) {
-  var stages = ['Pre-Seed', 'Seed', 'Series A', 'Series B', 'Series C', 'Series D', 'Series E', 'Series F', 'Series G'];
-  var currentStage = (company.fundingStage || '').trim();
-
-  // Find the index of the current stage
-  var currentIdx = -1;
-  for (var i = 0; i < stages.length; i++) {
-    if (stages[i].toLowerCase() === currentStage.toLowerCase()) {
-      currentIdx = i;
-      break;
-    }
-  }
-
   var rounds = [];
+  if (!tracker) return rounds;
 
-  if (currentIdx === -1) {
-    // No recognized stage — if tracker has a last round, show just that
-    if (tracker && tracker.lastRoundAmount) {
-      rounds.push({
-        stage: tracker.lastRound || currentStage || 'Round',
-        amount: tracker.lastRoundAmount,
-        date: tracker.lastRoundDate || '',
-        investors: (tracker.leadInvestors || []).filter(function(i) { return i && i !== 'Undisclosed'; }),
-        latest: true,
-        confirmed: true
-      });
-    }
-    return rounds;
+  // Latest round — always emit if we have ANY data point on it
+  if (tracker.lastRoundAmount || tracker.lastRoundDate || (tracker.leadInvestors && tracker.leadInvestors.length)) {
+    rounds.push({
+      stage: tracker.lastRound || company.fundingStage || 'Round',
+      amount: tracker.lastRoundAmount || '',
+      date: tracker.lastRoundDate || '',
+      investors: (tracker.leadInvestors || []).filter(function(i) { return i && i !== 'Undisclosed'; }),
+      latest: true,
+      confirmed: true
+    });
   }
 
-  // Build inferred prior rounds plus the latest confirmed one
-  for (var j = 0; j <= currentIdx; j++) {
-    var isLatest = (j === currentIdx);
-    var entry = {
-      stage: stages[j],
-      amount: '',
-      date: '',
-      investors: [],
-      latest: isLatest,
-      confirmed: false
-    };
-
-    if (isLatest && tracker) {
-      if (tracker.lastRoundAmount) entry.amount = tracker.lastRoundAmount;
-      if (tracker.lastRoundDate) entry.date = tracker.lastRoundDate;
-      if (tracker.leadInvestors && tracker.leadInvestors.length) {
-        entry.investors = tracker.leadInvestors.filter(function(i) { return i && i !== 'Undisclosed'; });
+  // Historical rounds — only if tracker has explicit `priorRounds` array.
+  // (Future enhancement: populate priorRounds from a manual + Crunchbase
+  // scrape for the IL30. For now this gracefully handles companies that
+  // already have per-round data.)
+  if (tracker.priorRounds && tracker.priorRounds.length) {
+    tracker.priorRounds.forEach(function(r) {
+      if (r.amount || r.date || (r.investors && r.investors.length)) {
+        rounds.unshift({
+          stage: r.stage || 'Round',
+          amount: r.amount || '',
+          date: r.date || '',
+          investors: r.investors || [],
+          latest: false,
+          confirmed: true
+        });
       }
-      entry.confirmed = true;
-    }
-
-    rounds.push(entry);
+    });
   }
 
   return rounds;

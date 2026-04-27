@@ -147,12 +147,12 @@
     return `<article class="es-card ${sigClass}">
       <div class="es-card-head">
         <div class="es-incumbent">
-          <h3 class="es-incumbent-name">${esc(s.incumbent || '—')}</h3>
-          <span class="es-ticker">${esc(s.ticker || '—')}</span>
+          <h3 class="es-incumbent-name">${esc(s.incumbent || 'Unknown company')}</h3>
+          ${s.ticker ? `<span class="es-ticker">${esc(s.ticker)}</span>` : ''}
         </div>
         <div class="es-quarter-date">
-          <strong>${esc(s.quarter || '—')}</strong>
-          ${esc(formatDate(s.date))}
+          ${s.quarter ? `<strong>${esc(s.quarter)}</strong>` : ''}
+          ${s.date ? esc(formatDate(s.date)) : ''}
         </div>
       </div>
 

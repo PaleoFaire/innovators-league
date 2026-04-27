@@ -91,7 +91,7 @@
         <td style="font-weight:600;">${esc(r.company)}</td>
         <td><span class="pat-sector-pill" style="background:${sector.color}1a; color:${sector.color}; border:1px solid ${sector.color}55;">${esc(sector.label)}</span></td>
         <td style="font-family:'Space Grotesk',monospace; text-align:right;">${esc(r.patentCount)}</td>
-        <td style="text-align:right; font-family:'Space Grotesk',monospace; color:${qoqColor}; font-weight:600;">${esc(r.qoqChange || '—')}</td>
+        <td style="text-align:right; font-family:'Space Grotesk',monospace; color:${qoqColor}; font-weight:600;">${r.qoqChange ? esc(r.qoqChange) : '<span style="color:rgba(255,255,255,0.3); font-weight:400;">flat</span>'}</td>
         <td>${spark}</td>
         <td style="font-size:11px; color:${trend.color};"><span style="display:inline-block; margin-right:6px;">${trend.icon}</span>${esc(trend.label)}</td>
         <td><a href="${source}" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none; font-size:11px;">Verify →</a></td>
@@ -195,7 +195,7 @@
         <div class="pat-company-stats">
           <div class="pat-stat">
             <div class="pat-stat-label">QoQ Δ</div>
-            <div class="pat-stat-val" style="color:${qoqColor};">${esc(r.qoqChange || '—')}</div>
+            <div class="pat-stat-val" style="color:${r.qoqChange ? qoqColor : 'rgba(255,255,255,0.4)'};">${r.qoqChange ? esc(r.qoqChange) : 'flat'}</div>
           </div>
           <div class="pat-stat">
             <div class="pat-stat-label">Trend</div>
@@ -217,8 +217,8 @@
           <summary>Key patents (${keyPatents.length})</summary>
           <ul class="pat-keypatent-list">
             ${keyPatents.map(p => `<li>
-              <span class="pat-kp-number">${esc(p.number || '—')}</span>
-              <span class="pat-kp-title">${esc(p.title || '')}</span>
+              ${p.number ? `<span class="pat-kp-number">${esc(p.number)}</span>` : ''}
+              ${p.title ? `<span class="pat-kp-title">${esc(p.title)}</span>` : ''}
               ${p.date ? `<span class="pat-kp-date">${esc(p.date)}</span>` : ''}
             </li>`).join('')}
           </ul>
