@@ -1,4 +1,4 @@
-// Auto-generated 2026-04-27 09:57
+// Auto-generated 2026-04-27 11:00
 const FAA_CERTIFICATION_AUTO = [
   {
     "company": "Skydio",

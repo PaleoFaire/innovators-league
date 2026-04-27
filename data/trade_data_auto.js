@@ -1,5 +1,5 @@
 // Auto-generated Census Bureau trade data
-// Last updated: 2026-04-27 10:00:40 UTC
+// Last updated: 2026-04-27 11:02:42 UTC
 // Tracking 10 HS codes across manufacturing sectors
 const TRADE_DATA_AUTO = [
   {
@@ -28,20 +28,6 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Cerebras", "Etched", "Lightmatter", "Astera Labs", "Tenstorrent", "Groq"],
     relevantSector: "chips",
     period: "2025-12",
-    lastUpdated: "2026-04-27",
-  },
-  {
-    hsCode: "8541",
-    category: "Diodes, transistors, semiconductor devices",
-    tradeType: "imports",
-    latestMonthValue: 930937044,
-    latestMonthFormatted: "$931M",
-    yoyChange: "-7.5%",
-    momChange: "-22.5%",
-    trend: "contracting",
-    relevantCompanies: ["Finwave Semiconductor", "Gallox Semiconductors", "Vertical Semiconductor"],
-    relevantSector: "chips",
-    period: "2026-01",
     lastUpdated: "2026-04-27",
   },
   {
@@ -126,6 +112,20 @@ const TRADE_DATA_AUTO = [
     relevantCompanies: ["Figure AI", "Agility Robotics", "RISE Robotics", "Standard Bots"],
     relevantSector: "robotics",
     period: "2026-01",
+    lastUpdated: "2026-04-27",
+  },
+  {
+    hsCode: "8501",
+    category: "Electric motors and generators",
+    tradeType: "exports",
+    latestMonthValue: 432926965,
+    latestMonthFormatted: "$433M",
+    yoyChange: "+1.3%",
+    momChange: "+16.3%",
+    trend: "stable",
+    relevantCompanies: ["Figure AI", "Agility Robotics", "RISE Robotics", "Standard Bots"],
+    relevantSector: "robotics",
+    period: "2025-12",
     lastUpdated: "2026-04-27",
   },
   {

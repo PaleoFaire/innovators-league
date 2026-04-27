@@ -1,5 +1,5 @@
 // Auto-updated arXiv research papers
-// Last updated: 2026-04-27 09:58:04 UTC
+// Last updated: 2026-04-27 11:01:10 UTC
 const ARXIV_PAPERS = [
   { id: "2604.22601v1", title: "From Natural Language to Verified Code: Toward AI Assisted Problem-to-Code Generation with Dafny-Bas", category: "Artificial Intelligence", published: "2026-04-24", sectors: "ai", authors: "Md Erfan, Md Kamal Hossain Chowdhury, Ahmed Ryan et al." },
   { id: "2604.22597v1", title: "Rethinking Math Reasoning Evaluation: A Robust LLM-as-a-Judge Framework Beyond Symbolic Rigidity", category: "Artificial Intelligence", published: "2026-04-24", sectors: "ai", authors: "Erez Yosef, Oron Anschel, Shunit Haviv Hakimi et al." },
