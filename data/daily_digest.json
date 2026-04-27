@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T11:53:20.032060+00:00",
+  "generatedAt": "2026-04-27T14:21:04.128335+00:00",
   "date": "2026-04-27",
   "dateDisplay": "Monday, April 27, 2026",
   "sections": {
@@ -72,58 +72,58 @@
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 347.8,
-        "changePercent": 24.93,
-        "change": 69.41
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 212.84,
-        "changePercent": 22.29,
-        "change": 38.79
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 2.37,
-        "changePercent": -20.74,
-        "change": -0.62
+        "price": 335.64,
+        "changePercent": 22.07,
+        "change": 60.69
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 16.61,
-        "changePercent": -16.18,
-        "change": -3.2
-      },
-      {
-        "ticker": "IDEAFORGE.NS",
-        "company": "ideaForge",
-        "price": 559.4,
-        "changePercent": 15.6,
-        "change": 75.5
+        "price": 16.29,
+        "changePercent": -17.06,
+        "change": -3.35
       },
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 18.49,
-        "changePercent": -14.75,
-        "change": -3.2
+        "price": 18.08,
+        "changePercent": -16.53,
+        "change": -3.58
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 6.17,
-        "changePercent": -10.97,
-        "change": -0.76
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 2.42,
+        "changePercent": -15.56,
+        "change": -0.44
       },
       {
-        "ticker": "LNZA",
-        "company": "LanzaTech",
-        "price": 24.98,
-        "changePercent": 10.68,
-        "change": 2.41
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 41.64,
+        "changePercent": -13.82,
+        "change": -6.68
+      },
+      {
+        "ticker": "IDEAFORGE.NS",
+        "company": "ideaForge",
+        "price": 549.9,
+        "changePercent": 13.64,
+        "change": 66.0
+      },
+      {
+        "ticker": "RKLB",
+        "company": "Rocket Lab",
+        "price": 78.0,
+        "changePercent": -12.81,
+        "change": -11.46
+      },
+      {
+        "ticker": "ALAB",
+        "company": "Astera Labs",
+        "price": 198.26,
+        "changePercent": 12.78,
+        "change": 22.46
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AMD +24.9%"
+    "topMover": "AMD +22.1%"
   }
 }
