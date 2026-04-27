@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T18:12:41.477547+00:00",
+  "generatedAt": "2026-04-27T20:14:53.721770+00:00",
   "date": "2026-04-27",
   "dateDisplay": "Monday, April 27, 2026",
   "sections": {
@@ -72,37 +72,23 @@
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 335.64,
-        "changePercent": 22.07,
-        "change": 60.69
-      },
-      {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 16.29,
-        "changePercent": -17.06,
-        "change": -3.35
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 18.08,
-        "changePercent": -16.53,
-        "change": -3.58
+        "price": 336.21,
+        "changePercent": 22.28,
+        "change": 61.26
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.42,
-        "changePercent": -15.56,
-        "change": -0.44
+        "price": 2.4,
+        "changePercent": -16.26,
+        "change": -0.46
       },
       {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 41.64,
-        "changePercent": -13.82,
-        "change": -6.68
+        "ticker": "RGTI",
+        "company": "Rigetti Computing",
+        "price": 16.75,
+        "changePercent": -14.69,
+        "change": -2.89
       },
       {
         "ticker": "IDEAFORGE.NS",
@@ -112,18 +98,32 @@
         "change": 66.0
       },
       {
-        "ticker": "RKLB",
-        "company": "Rocket Lab",
-        "price": 78.0,
-        "changePercent": -12.81,
-        "change": -11.46
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 18.79,
+        "changePercent": -13.27,
+        "change": -2.88
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 8.15,
+        "changePercent": -12.69,
+        "change": -1.19
       },
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 198.26,
-        "changePercent": 12.78,
-        "change": 22.46
+        "price": 196.47,
+        "changePercent": 11.76,
+        "change": 20.67
+      },
+      {
+        "ticker": "IONQ",
+        "company": "IonQ",
+        "price": 43.45,
+        "changePercent": -10.08,
+        "change": -4.87
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AMD +22.1%"
+    "topMover": "AMD +22.3%"
   }
 }
