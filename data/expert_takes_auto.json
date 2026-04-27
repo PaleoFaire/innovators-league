@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T07:46:42.789696Z",
+  "generated_at": "2026-04-27T03:50:02.630234Z",
   "takes": [
     {
       "author": "SpaceNews",
@@ -20,26 +20,6 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
       "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "X-Energy",
-      "text": "X-energy stock pops 27% on first day of trading following upsized IPO",
-      "date": "Fri, 24 Ap",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/04/24/x-energy-stock-pops-27-on-first-day-of-trading-following-upsized-ipo/",
-      "signal_type": "ipo"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "Anthropic",
-      "text": "Google to invest up to $40B in Anthropic in cash and compute",
-      "date": "Fri, 24 Ap",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
-      "signal_type": "news"
     },
     {
       "author": "Tech.eu",
@@ -65,7 +45,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 6,
+    "from_news": 4,
     "from_press": 0
   }
 }

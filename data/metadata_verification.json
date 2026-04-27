@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T04:50:14Z",
+  "generated_at": "2026-04-27T03:50:03Z",
   "company_count": 869,
   "checks": {
     "acquisition_language": [
@@ -26,8 +26,47 @@
       }
     ],
     "defunct_language": [],
-    "ipo_mismatches": [],
-    "spac_staleness": [],
+    "ipo_mismatches": [
+      {
+        "name": "Intuitive Machines",
+        "current_stage": "SPAC",
+        "expected_stage": "Public",
+        "ticker": "NASDAQ: LUNR",
+        "action": "Update fundingStage to \"Public\" and set ticker to \"NASDAQ: LUNR\""
+      }
+    ],
+    "spac_staleness": [
+      {
+        "name": "Intuitive Machines",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
+      {
+        "name": "Galvanick",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
+      {
+        "name": "Rebellion Defense",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
+      {
+        "name": "PLD Space",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
+      {
+        "name": "Starcloud",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      },
+      {
+        "name": "Skyrora",
+        "current_stage": "SPAC",
+        "action": "SPAC is transitional. Verify current status — did the merger close (→ Public) or collapse (→ Late Stage / Defunct)?"
+      }
+    ],
     "missing_websites": [
       {
         "name": "Anduril Industries",
@@ -4061,18 +4100,19 @@
       }
     ],
     "stage_vocabulary": {
-      "Series A": 229,
-      "Series B": 193,
-      "Seed": 138,
-      "Series C": 98,
-      "Public": 45,
+      "Series A": 226,
+      "Series B": 191,
+      "Seed": 139,
+      "Series C": 96,
+      "Public": 44,
       "Series D": 40,
       "Growth": 28,
-      "Series E": 24,
-      "Series G": 12,
+      "Series E": 25,
+      "Series G": 13,
       "Late Stage": 12,
       "Pre-Seed": 10,
       "Series F": 7,
+      "SPAC": 6,
       "Public (Tokyo)": 3,
       "Public (KOSDAQ)": 3,
       "Pre-IPO": 2,
@@ -4081,7 +4121,6 @@
       "Private": 2,
       "Seed+": 2,
       "IPO": 1,
-      "Series J": 1,
       "Series H": 1,
       "Acquired": 1,
       "Series L": 1,
@@ -4098,11 +4137,61 @@
       "Public (NASDAQ)": 1,
       "Series B+": 1
     },
-    "web_probes": []
+    "web_probes": [
+      {
+        "kind": "unreachable_website",
+        "name": "Watoga Technologies",
+        "url": "https://www.watoga.io/",
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
+      {
+        "kind": "unreachable_website",
+        "name": "Cache Energy",
+        "url": "https://www.cache.energy",
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
+      {
+        "kind": "unreachable_website",
+        "name": "Furno Materials",
+        "url": "https://furnomaterials.com",
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
+      {
+        "kind": "unreachable_website",
+        "name": "Rugged Robotics",
+        "url": "https://www.ruggedrobotics.com",
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
+      {
+        "kind": "unreachable_website",
+        "name": "Ideon Technologies",
+        "url": "https://www.ideontech.com",
+        "error": "SSLError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      },
+      {
+        "kind": "rebrand_suspect",
+        "name": "Evolv Technology",
+        "old_url": "https://www.evolvtechnology.com",
+        "new_url": "https://evolv.com/",
+        "action": "Website 301-redirects to new domain. Likely rebrand. Investigate and update data.js."
+      },
+      {
+        "kind": "unreachable_website",
+        "name": "Sabanto",
+        "url": "https://www.sabanto.com",
+        "error": "ConnectionError",
+        "action": "Website unreachable (network or SSL error). Re-probe next week."
+      }
+    ]
   },
   "summary": {
-    "p0_issues": 3,
-    "p1_issues": 0,
+    "p0_issues": 5,
+    "p1_issues": 6,
     "missing_websites": 806,
     "distinct_stages": 36
   }

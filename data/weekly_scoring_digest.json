@@ -1,38 +1,51 @@
 {
-  "generated_at": "2026-04-21T05:24:54.083266+00:00",
-  "week_ending": "2026-04-21",
+  "generated_at": "2026-04-27T03:50:00.104286+00:00",
+  "week_ending": "2026-04-27",
   "window_days": 7,
-  "events_processed": 343,
-  "companies_touched": 239,
-  "companies_moved": 37,
-  "companies_unchanged": 5,
+  "events_processed": 348,
+  "companies_touched": 236,
+  "companies_moved": 36,
+  "companies_unchanged": 12,
   "movers_up_top20": [
     {
-      "company": "Castelion",
+      "company": "DZYNE Technologies",
       "delta": 4.0,
-      "new_composite": 85.0,
-      "old_composite": 81.0,
-      "new_tier": "exceptional",
+      "new_composite": 78.0,
+      "old_composite": 74.0,
+      "new_tier": "leader",
       "reasons": [
-        "[sbir_phase_iii] Department of Defense \u2014 LOW-COST HIGHLY MANUFACTURABLE LONG-RANGE STRIKE WEAPON PRODUCTION SMALL BUSINES"
+        "[sbir_phase_iii] Department of Defense \u2014 MOBILE ONBOARD NEXUS FOR AUTONOMY AND RADICAL COMPUTATION HANDLING (MONARCH) SMA",
+        "[contract_minor] Department of Defense \u2014 ARMY SMALL BUSINESS INNOVATION RESEARCH (SBIR) PHASE I FOR EFFORT ENTITLED, \"VID"
       ]
     },
     {
-      "company": "Muon Space",
+      "company": "Bear Robotics",
       "delta": 4.0,
-      "new_composite": 82.5,
-      "old_composite": 78.5,
-      "new_tier": "exceptional",
+      "new_composite": 67.0,
+      "old_composite": 63.0,
+      "new_tier": "strong",
       "reasons": [
-        "[sbir_phase_iii] National Aeronautics and Space Administration \u2014 STTR PHASE III CONTRACT # 80NSSC25C0471 TITLED: CONSTELLATION OF NANOSATELLITE R"
+        "[sbir_phase_iii] Department of Defense \u2014 IGF::OT::IGF        SBIR PHASE III INTEGRATED CIVIL ENGINEER ENVIRONMENT",
+        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III TO SBCC FOR TRANSITION FROM IPODS-IT TO IPODS.",
+        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III \"PREDICTIVE GEOSPATIAL ANALYSIS TOOL\" ACTIVITIES IN SUPPORT OF TH"
+      ]
+    },
+    {
+      "company": "Vention",
+      "delta": 4.0,
+      "new_composite": 67.5,
+      "old_composite": 63.5,
+      "new_tier": "strong",
+      "reasons": [
+        "[sbir_phase_iii] Department of Defense \u2014 NEW DARPA SMALL BUSINESS INNOVATIVE RESEARCH (SBIR) PHASE III TITLED SMARTKM"
       ]
     },
     {
       "company": "Infleqtion",
       "delta": 4.0,
-      "new_composite": 87.5,
-      "old_composite": 83.5,
-      "new_tier": "exceptional",
+      "new_composite": 91.5,
+      "old_composite": 87.5,
+      "new_tier": "elite",
       "reasons": [
         "[sbir_phase_iii] Department of Defense \u2014 RACK MOUNT OPTICAL CLOCKS SBIR PHASE III"
       ]
@@ -40,8 +53,8 @@
     {
       "company": "Skydio",
       "delta": 4.0,
-      "new_composite": 90.5,
-      "old_composite": 86.5,
+      "new_composite": 94.5,
+      "old_composite": 90.5,
       "new_tier": "elite",
       "reasons": [
         "[sbir_phase_iii] Army \u2014 X10D short-range reconnaissance drone"
@@ -50,9 +63,9 @@
     {
       "company": "Sakana AI",
       "delta": 4.0,
-      "new_composite": 76.0,
-      "old_composite": 72.0,
-      "new_tier": "leader",
+      "new_composite": 80.0,
+      "old_composite": 76.0,
+      "new_tier": "exceptional",
       "reasons": [
         "[sbir_phase_iii] General Services Administration \u2014 IST DO32 ORIGINAL AWARD. THIS SBIR PHASE III DERIVED FROM WORK COMPLETED UNDER C",
         "[sbir_phase_iii] General Services Administration \u2014 IST PULSE SBIR III DO 20 1ST IO CMD  SBIR PHASE III DERIVED FROM WORK COMPLETED ",
@@ -62,8 +75,8 @@
     {
       "company": "Astranis",
       "delta": 4.0,
-      "new_composite": 83.5,
-      "old_composite": 79.5,
+      "new_composite": 87.5,
+      "old_composite": 83.5,
       "new_tier": "exceptional",
       "reasons": [
         "[sbir_phase_iii] Space Force \u2014 Small GEO satellite broadband communications"
@@ -72,9 +85,9 @@
     {
       "company": "Planet Labs",
       "delta": 4.0,
-      "new_composite": 79.0,
-      "old_composite": 75.0,
-      "new_tier": "leader",
+      "new_composite": 83.0,
+      "old_composite": 79.0,
+      "new_tier": "exceptional",
       "reasons": [
         "[sbir_phase_iii] NRO \u2014 Daily Earth-observation CubeSat imagery"
       ]
@@ -82,29 +95,18 @@
     {
       "company": "Lightmatter",
       "delta": 4.0,
-      "new_composite": 69.0,
-      "old_composite": 65.0,
-      "new_tier": "strong",
+      "new_composite": 73.0,
+      "old_composite": 69.0,
+      "new_tier": "leader",
       "reasons": [
         "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III THERMALLY EFFICIENT EMITTER ARRAY (TEEA)"
       ]
     },
     {
-      "company": "Varda Space Industries",
-      "delta": 4.0,
-      "new_composite": 89.5,
-      "old_composite": 85.5,
-      "new_tier": "exceptional",
-      "reasons": [
-        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III RESEARCH&DEVELOPMENT",
-        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III RESEARCH & DEVELOPMENT"
-      ]
-    },
-    {
       "company": "Agility Robotics",
       "delta": 4.0,
-      "new_composite": 65.0,
-      "old_composite": 61.0,
+      "new_composite": 69.0,
+      "old_composite": 65.0,
       "new_tier": "strong",
       "reasons": [
         "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III RESEARCH & DEVELOPMENT",
@@ -112,20 +114,10 @@
       ]
     },
     {
-      "company": "Turion Space",
-      "delta": 4.0,
-      "new_composite": 77.5,
-      "old_composite": 73.5,
-      "new_tier": "leader",
-      "reasons": [
-        "[contract_major] Department of Defense \u2014 TURION SBIR PHASE II"
-      ]
-    },
-    {
       "company": "Altos Labs",
       "delta": 4.0,
-      "new_composite": 71.5,
-      "old_composite": 67.5,
+      "new_composite": 75.5,
+      "old_composite": 71.5,
       "new_tier": "leader",
       "reasons": [
         "[contract_major] Department of Defense \u2014 IGF::OT::IGF STTR PHASE II - BIOLOGICALLY-INSPIRED INTEGRATED VISION SYSTEM",
@@ -135,19 +127,20 @@
     {
       "company": "Rigetti Computing",
       "delta": 4.0,
-      "new_composite": 77.0,
-      "old_composite": 73.0,
-      "new_tier": "leader",
+      "new_composite": 81.0,
+      "old_composite": 77.0,
+      "new_tier": "exceptional",
       "reasons": [
-        "[contract_major] DARPA \u2014 Superconducting quantum benchmarking"
+        "[contract_major] DARPA \u2014 Superconducting quantum benchmarking",
+        "[exec_hire_star] "
       ]
     },
     {
       "company": "Astera Labs",
       "delta": 4.0,
-      "new_composite": 67.5,
-      "old_composite": 63.5,
-      "new_tier": "strong",
+      "new_composite": 71.5,
+      "old_composite": 67.5,
+      "new_tier": "leader",
       "reasons": [
         "[contract_major] Air Force \u2014 PCIe retimer chips for AI training clusters"
       ]
@@ -155,9 +148,9 @@
     {
       "company": "Relativity Space",
       "delta": 4.0,
-      "new_composite": 79.0,
-      "old_composite": 75.0,
-      "new_tier": "leader",
+      "new_composite": 83.0,
+      "old_composite": 79.0,
+      "new_tier": "exceptional",
       "reasons": [
         "[contract_major] Air Force \u2014 3D-printed Terran R launch vehicle structures"
       ]
@@ -165,8 +158,8 @@
     {
       "company": "Form Energy",
       "delta": 4.0,
-      "new_composite": 65.5,
-      "old_composite": 61.5,
+      "new_composite": 69.5,
+      "old_composite": 65.5,
       "new_tier": "strong",
       "reasons": [
         "[contract_major] DOE \u2014 Iron-air multi-day grid storage pilot"
@@ -175,8 +168,8 @@
     {
       "company": "Mythic",
       "delta": 4.0,
-      "new_composite": 80.0,
-      "old_composite": 76.0,
+      "new_composite": 84.0,
+      "old_composite": 80.0,
       "new_tier": "exceptional",
       "reasons": [
         "[contract_major] Army \u2014 Analog compute for edge AI inference"
@@ -185,167 +178,211 @@
     {
       "company": "Velo3D",
       "delta": 4.0,
-      "new_composite": 69.0,
-      "old_composite": 65.0,
-      "new_tier": "strong",
+      "new_composite": 73.0,
+      "old_composite": 69.0,
+      "new_tier": "leader",
       "reasons": [
         "[contract_major] Air Force \u2014 Metal additive manufacturing for hypersonic components"
       ]
     },
     {
-      "company": "Hermeus",
+      "company": "IonQ",
       "delta": 4.0,
-      "new_composite": 92.5,
-      "old_composite": 88.5,
-      "new_tier": "elite",
+      "new_composite": 81.0,
+      "old_composite": 77.0,
+      "new_tier": "exceptional",
       "reasons": [
-        "[contract_major] Air Force \u2014 Mach 5 aircraft turbine-based combined cycle engine"
+        "[contract_major] Air Force \u2014 Trapped-ion quantum computing benchmarks for cryptanalysis"
       ]
     },
     {
-      "company": "IonQ",
+      "company": "Xcimer Energy",
       "delta": 4.0,
-      "new_composite": 77.0,
-      "old_composite": 73.0,
-      "new_tier": "leader",
+      "new_composite": 64.5,
+      "old_composite": 60.5,
+      "new_tier": "strong",
       "reasons": [
-        "[contract_major] Air Force \u2014 Trapped-ion quantum computing benchmarks for cryptanalysis"
+        "[contract_major] Department of Defense \u2014 SBIR/STTR PHASE II R&D: NONINTRUSIVE DIAGNOSIS OF DEBRIS FROM HYPERVELOCITY IMPA",
+        "[contract_major] Department of Defense \u2014 SBIR/STTR PHASE II R&D, NON-DESTRUCTIVE EVALUATION OF ADDITIVE MANUFACTURED PART"
+      ]
+    },
+    {
+      "company": "Atomic Industries",
+      "delta": 4.0,
+      "new_composite": 65.5,
+      "old_composite": 61.5,
+      "new_tier": "strong",
+      "reasons": [
+        "[contract_major] Department of Defense \u2014 SBIR/STTR PHASE II R&D - MINIATURE IODINE NANOSECOND TIMEKEEPER (MINT)"
       ]
     }
   ],
   "movers_down_top10": [],
   "tier_crossings": [
     {
-      "company": "Hermeus",
+      "company": "Varda Space Industries",
       "from_tier": "exceptional",
       "to_tier": "elite",
       "new_composite": 92.5,
       "reasons": [
-        "[contract_major] Air Force \u2014 Mach 5 aircraft turbine-based combined cycle engine"
+        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III RESEARCH&DEVELOPMENT",
+        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III RESEARCH & DEVELOPMENT"
       ],
       "first_time_elite": true
     },
     {
-      "company": "Skydio",
+      "company": "Impulse Space",
       "from_tier": "exceptional",
       "to_tier": "elite",
-      "new_composite": 90.5,
+      "new_composite": 91.0,
       "reasons": [
-        "[sbir_phase_iii] Army \u2014 X10D short-range reconnaissance drone"
+        "[sbir_phase_iii] Department of Defense \u2014 IMPULSE SPACE SBIR PHASE III"
       ],
       "first_time_elite": true
     },
     {
-      "company": "Astranis",
+      "company": "Infleqtion",
+      "from_tier": "exceptional",
+      "to_tier": "elite",
+      "new_composite": 91.5,
+      "reasons": [
+        "[sbir_phase_iii] Department of Defense \u2014 RACK MOUNT OPTICAL CLOCKS SBIR PHASE III"
+      ],
+      "first_time_elite": true
+    },
+    {
+      "company": "Parry Labs",
       "from_tier": "leader",
       "to_tier": "exceptional",
-      "new_composite": 83.5,
+      "new_composite": 82.0,
       "reasons": [
-        "[sbir_phase_iii] Space Force \u2014 Small GEO satellite broadband communications"
+        "[contract_minor] Department of Defense \u2014 SBIR PHASE I TOPIC NO. A201-082-1561"
       ],
       "first_time_elite": false
     },
     {
-      "company": "Muon Space",
+      "company": "Planet Labs",
       "from_tier": "leader",
       "to_tier": "exceptional",
-      "new_composite": 82.5,
+      "new_composite": 83.0,
       "reasons": [
-        "[sbir_phase_iii] National Aeronautics and Space Administration \u2014 STTR PHASE III CONTRACT # 80NSSC25C0471 TITLED: CONSTELLATION OF NANOSATELLITE R"
+        "[sbir_phase_iii] NRO \u2014 Daily Earth-observation CubeSat imagery"
       ],
       "first_time_elite": false
     },
     {
-      "company": "Saildrone",
+      "company": "Relativity Space",
+      "from_tier": "leader",
+      "to_tier": "exceptional",
+      "new_composite": 83.0,
+      "reasons": [
+        "[contract_major] Air Force \u2014 3D-printed Terran R launch vehicle structures"
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "IonQ",
       "from_tier": "leader",
       "to_tier": "exceptional",
       "new_composite": 81.0,
       "reasons": [
-        "[sbir_phase_iii] Navy \u2014 Unmanned surface vehicle maritime domain awareness"
+        "[contract_major] Air Force \u2014 Trapped-ion quantum computing benchmarks for cryptanalysis"
       ],
       "first_time_elite": false
     },
     {
-      "company": "Mythic",
+      "company": "Rigetti Computing",
       "from_tier": "leader",
       "to_tier": "exceptional",
-      "new_composite": 80.0,
+      "new_composite": 81.0,
       "reasons": [
-        "[contract_major] Army \u2014 Analog compute for edge AI inference"
-      ],
-      "first_time_elite": false
-    },
-    {
-      "company": "Satellogic",
-      "from_tier": "strong",
-      "to_tier": "leader",
-      "new_composite": 70.0,
-      "reasons": [
+        "[contract_major] DARPA \u2014 Superconducting quantum benchmarking",
         "[exec_hire_star] "
       ],
       "first_time_elite": false
     },
     {
-      "company": "Zipline",
-      "from_tier": "strong",
-      "to_tier": "leader",
-      "new_composite": 70.5,
+      "company": "Sakana AI",
+      "from_tier": "leader",
+      "to_tier": "exceptional",
+      "new_composite": 80.0,
       "reasons": [
-        "[contract_minor] Department of Health and Human Services \u2014 IGF::OT::IGF TDCS TO REDUCE CRAVING IN COCAINE ADDICTION. BASE AWARD. SBIR PHASE"
+        "[sbir_phase_iii] General Services Administration \u2014 IST DO32 ORIGINAL AWARD. THIS SBIR PHASE III DERIVED FROM WORK COMPLETED UNDER C",
+        "[sbir_phase_iii] General Services Administration \u2014 IST PULSE SBIR III DO 20 1ST IO CMD  SBIR PHASE III DERIVED FROM WORK COMPLETED ",
+        "[sbir_phase_iii] National Aeronautics and Space Administration \u2014 E014042 STTR PHASE III A SCALABLE GAS-PARTICLE FLOW SIMULATION TOOL FOR LANDER P"
       ],
       "first_time_elite": false
     },
     {
-      "company": "Altos Labs",
+      "company": "Lightmatter",
+      "from_tier": "strong",
+      "to_tier": "leader",
+      "new_composite": 73.0,
+      "reasons": [
+        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III THERMALLY EFFICIENT EMITTER ARRAY (TEEA)"
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "Velo3D",
+      "from_tier": "strong",
+      "to_tier": "leader",
+      "new_composite": 73.0,
+      "reasons": [
+        "[contract_major] Air Force \u2014 Metal additive manufacturing for hypersonic components"
+      ],
+      "first_time_elite": false
+    },
+    {
+      "company": "Astera Labs",
       "from_tier": "strong",
       "to_tier": "leader",
       "new_composite": 71.5,
       "reasons": [
-        "[contract_major] Department of Defense \u2014 IGF::OT::IGF STTR PHASE II - BIOLOGICALLY-INSPIRED INTEGRATED VISION SYSTEM",
-        "[contract_major] Department of Defense \u2014 BAA - DARPA SBIR PHASE II - NOUN: NYQUIST-LIMITED INFRARED DETECTORS (NIRD)"
+        "[contract_major] Air Force \u2014 PCIe retimer chips for AI training clusters"
       ],
       "first_time_elite": false
     },
     {
-      "company": "Atomic Industries",
-      "from_tier": "promising",
-      "to_tier": "strong",
-      "new_composite": 61.5,
+      "company": "Space Forge",
+      "from_tier": "strong",
+      "to_tier": "leader",
+      "new_composite": 71.5,
       "reasons": [
-        "[contract_major] Department of Defense \u2014 SBIR/STTR PHASE II R&D - MINIATURE IODINE NANOSECOND TIMEKEEPER (MINT)"
-      ],
-      "first_time_elite": false
-    },
-    {
-      "company": "Xcimer Energy",
-      "from_tier": "promising",
-      "to_tier": "strong",
-      "new_composite": 60.5,
-      "reasons": [
-        "[contract_major] Department of Defense \u2014 SBIR/STTR PHASE II R&D: NONINTRUSIVE DIAGNOSIS OF DEBRIS FROM HYPERVELOCITY IMPA",
-        "[contract_major] Department of Defense \u2014 SBIR/STTR PHASE II R&D, NON-DESTRUCTIVE EVALUATION OF ADDITIVE MANUFACTURED PART"
+        "[contract_major] Department of Defense \u2014 SBIR/STTR PHASE II R&D:  INNOVATIVE METHODOLOGIES FOR MANUFACTURING OF LETHALITY"
       ],
       "first_time_elite": false
     }
   ],
   "first_time_elite": [
     {
-      "company": "Hermeus",
+      "company": "Varda Space Industries",
       "from_tier": "exceptional",
       "to_tier": "elite",
       "new_composite": 92.5,
       "reasons": [
-        "[contract_major] Air Force \u2014 Mach 5 aircraft turbine-based combined cycle engine"
+        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III RESEARCH&DEVELOPMENT",
+        "[sbir_phase_iii] Department of Defense \u2014 SBIR PHASE III RESEARCH & DEVELOPMENT"
       ],
       "first_time_elite": true
     },
     {
-      "company": "Skydio",
+      "company": "Impulse Space",
       "from_tier": "exceptional",
       "to_tier": "elite",
-      "new_composite": 90.5,
+      "new_composite": 91.0,
       "reasons": [
-        "[sbir_phase_iii] Army \u2014 X10D short-range reconnaissance drone"
+        "[sbir_phase_iii] Department of Defense \u2014 IMPULSE SPACE SBIR PHASE III"
+      ],
+      "first_time_elite": true
+    },
+    {
+      "company": "Infleqtion",
+      "from_tier": "exceptional",
+      "to_tier": "elite",
+      "new_composite": 91.5,
+      "reasons": [
+        "[sbir_phase_iii] Department of Defense \u2014 RACK MOUNT OPTICAL CLOCKS SBIR PHASE III"
       ],
       "first_time_elite": true
     }
@@ -355,7 +392,7 @@
       "company": "Muon Space",
       "type": "sbir_phase_iii",
       "detail": "National Aeronautics and Space Administration \u2014 STTR PHASE III CONTRACT # 80NSSC25C0471 TITLED: CONSTELLATION OF NANOSATELLITE R",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC25C0471_8000_-NONE-_-NONE-"
     },
@@ -363,15 +400,23 @@
       "company": "goTenna",
       "type": "sbir_phase_iii",
       "detail": "National Aeronautics and Space Administration \u2014 STTR PHASE III Z2.02-2105 - HIGHLY PARALLEL, FAST MEMORY, PERIPHERAL ACCESS FOR ",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC25CA046_8000_-NONE-_-NONE-"
+    },
+    {
+      "company": "ICON",
+      "type": "sbir_phase_iii",
+      "detail": "National Aeronautics and Space Administration \u2014 FY22 SBIR PHASE III - DESIGN, DEVELOPMENT, FABRICATION TESTING, AND DELIVERY OF ",
+      "date": "2026-04-23",
+      "source": "SBIR.gov",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC22CA196_8000_-NONE-_-NONE-"
     },
     {
       "company": "Sakana AI",
       "type": "sbir_phase_iii",
       "detail": "National Aeronautics and Space Administration \u2014 E014042 STTR PHASE III A SCALABLE GAS-PARTICLE FLOW SIMULATION TOOL FOR LANDER P",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC22CA038_8000_-NONE-_-NONE-"
     },
@@ -379,7 +424,7 @@
       "company": "Mudawar Thermal Systems Inc",
       "type": "sbir_phase_iii",
       "detail": "National Aeronautics and Space Administration \u2014 STTR PHASE III - HEAT TRANSFER CORRELATIONS FOR COMPLETE CRYOGENIC POOL BOILING ",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC26C0007_8000_-NONE-_-NONE-"
     },
@@ -387,23 +432,15 @@
       "company": "Global Technology Connection, Inc.",
       "type": "sbir_phase_iii",
       "detail": "National Aeronautics and Space Administration \u2014 STTR PHASE III - MODEL-BASED ENTERPRISE ARCHITECTURE FOR INSTITUTIONAL MANAGEMEN",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC25CA049_8000_-NONE-_-NONE-"
-    },
-    {
-      "company": "Icon Technology Inc",
-      "type": "sbir_phase_iii",
-      "detail": "National Aeronautics and Space Administration \u2014 FY22 SBIR PHASE III - DESIGN, DEVELOPMENT, FABRICATION TESTING, AND DELIVERY OF ",
-      "date": "2026-04-17",
-      "source": "SBIR.gov",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC22CA196_8000_-NONE-_-NONE-"
     },
     {
       "company": "Starfish Space Inc.",
       "type": "sbir_phase_iii",
       "detail": "National Aeronautics and Space Administration \u2014 FY24 SBIR PHASE III - SSPICY - STARFISH SPACE ORBITAL DEBRIS INSPECTION MISSION",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC24CA187_8000_-NONE-_-NONE-"
     },
@@ -411,7 +448,7 @@
       "company": "Creare Llc",
       "type": "sbir_phase_iii",
       "detail": "National Aeronautics and Space Administration \u2014 SBIR PHASE III - CREARE LLC - 90 K 30 W CRYOCOOLER DESIGN AND DEMONSTRATION",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC25C0441_8000_-NONE-_-NONE-"
     },
@@ -419,7 +456,7 @@
       "company": "Convergent Manufacturing Technologies Us Inc",
       "type": "sbir_phase_iii",
       "detail": "National Aeronautics and Space Administration \u2014 STTR PHASE III - PROCESS SIMULATION & OPTIMIZATION FOR THIN-PLY COMPOSITES",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC25C0506_8000_-NONE-_-NONE-"
     },
@@ -427,7 +464,7 @@
       "company": "Cross Trac Engineering, Inc.",
       "type": "sbir_phase_iii",
       "detail": "National Aeronautics and Space Administration \u2014 STTR PHASE III - OPTICAL INTERSATELLITE COMMUNICATIONS FOR CUBESAT SWARMS",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC24CA058_8000_-NONE-_-NONE-"
     },
@@ -435,7 +472,7 @@
       "company": "Sakana AI",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 IST DO32 ORIGINAL AWARD. THIS SBIR PHASE III DERIVED FROM WORK COMPLETED UNDER C",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA23F0054_4732_47QFCA20D0004_4732"
     },
@@ -443,7 +480,7 @@
       "company": "Sakana AI",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 IST PULSE SBIR III DO 20 1ST IO CMD  SBIR PHASE III DERIVED FROM WORK COMPLETED ",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA22F0061_4732_47QFCA20D0004_4732"
     },
@@ -451,7 +488,7 @@
       "company": "Sakana AI",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 IST PULSE SBIR III DELIVERY ORDER 14 1ST SFCA  SBIR PHASE III DERIVED FROM WORK ",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA21F0100_4732_47QFCA20D0004_4732"
     },
@@ -459,7 +496,7 @@
       "company": "Beast Code Llc",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 DIGITAL TWIN SOFTWARE DELIVERY SBIR III TO1 INITIAL AWARD. THIS SBIR PHASE III W",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA23F0020_4732_47QFCA23D0002_4732"
     },
@@ -467,7 +504,7 @@
       "company": "Seacorp, Llc",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 ATD HMI SBIR III. THIS SBIR PHASE III DERIVES FROM SBIR PHASE I CONTRACT N00024-",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA23C0003_4732_-NONE-_-NONE-"
     },
@@ -475,7 +512,7 @@
       "company": "Defense Unicorns, Inc.",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 AIR GAP SOFTWARE DELIVERY SBIR III TO 1  SBIR PHASE III DERIVED FROM WORK COMPLE",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA22F0052_4732_47QFCA22D0503_4732"
     },
@@ -483,7 +520,7 @@
       "company": "Eccalon, Llc",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 CS4SB SBIR PHASE III TO1 AWARD. THIS TO1 FALLS UNDER BASIC CONTRACT 47QFCA22D050",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA22F0044_4732_47QFCA22D0502_4732"
     },
@@ -491,7 +528,7 @@
       "company": "Linquest Corporation",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 DIGITAL ENGINEERING RESEARCH AND DEVELOPMENT FOR AFLCMC SBIR PHASE III TASK ORDE",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFLA21F0221_4732_47QFLA21D0008_4732"
     },
@@ -499,7 +536,7 @@
       "company": "Revacomm Inc",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 SBIR PHASE III DOD ENTERPRISE DEVSECOPS ONBOARDING DEVSECOPS SOFTWARE SERVICES A",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFLA21F0117_4732_47QFLA20D0010_4732"
     },
@@ -507,7 +544,7 @@
       "company": "The Perduco Group, Inc.",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 SBIR PHASE III DECISION SUPPORT FOR STRATEGIC PLANNING AND EXPERIMENTATION TASK ",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFLA20F0255_4732_47QFLA19D0003_4732"
     },
@@ -515,7 +552,7 @@
       "company": "Frontier Technology Inc",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 AWARD OF A SBIR PHASE III TASK ORDER FOR OUSD ATL DASD C3CB STUDIES AND TECHNICA",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFLA18F0201_4732_GS05Q14BMD0001_4732"
     },
@@ -523,7 +560,7 @@
       "company": "Frontier Technology Inc",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 IGF::OT::IGF - SBIR PHASE III AWARD FOR COMMANDER OPERATIONAL TEST AND EVALUATIO",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_GSQ0517BM0271_4732_GS05Q14BMD0001_4732"
     },
@@ -531,7 +568,7 @@
       "company": "Jjr Solutions Llc",
       "type": "sbir_phase_iii",
       "detail": "Department of Veterans Affairs \u2014 SBIR PHASE III AWARD TO CONDUCT HUMAN PERFORMANCE ASSESSMENTS (HPA). THE CONTRAC",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_36C10B22C0030_3600_-NONE-_-NONE-"
     },
@@ -539,7 +576,7 @@
       "company": "Jjr Solutions Llc",
       "type": "sbir_phase_iii",
       "detail": "Department of Veterans Affairs \u2014 SBIR PHASE III AWARD FOR VETERANS EXPERIENCE OFFICE HUMAN CENTERED DESIGN SUPPOR",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_36C10X23F0084_3600_FA800322G0001_9700"
     },
@@ -547,7 +584,7 @@
       "company": "Aurora Engineering Llc",
       "type": "sbir_phase_iii",
       "detail": "National Aeronautics and Space Administration \u2014 STTR PHASE III - MEDOS EXTENSION TO HELIOPHYSICS INSTRUMENTATION",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_80NSSC25C0509_8000_-NONE-_-NONE-"
     },
@@ -555,7 +592,7 @@
       "company": "The Perduco Group, Inc.",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 SBIR PHASE III DECISION SUPPORT FOR STRATEGIC PLANNING AND EXPERIMENTATION TO5",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFLA22F0086_4732_47QFLA19D0003_4732"
     },
@@ -563,7 +600,7 @@
       "company": "Frontier Technology Inc",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 SBIR PHASE III US NAVY TRAINING LIFECYCLE READINESS MANAGEMENT AND MONITORING",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFLA20C0006_4732_-NONE-_-NONE-"
     },
@@ -571,7 +608,7 @@
       "company": "Frontier Technology Inc",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 AWARD OF A SBIR PHASE III STUDIES AND TECHNICAL ANALYSIS SUPPORT TASK ORDER.",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFLA18F0149_4732_GS05Q14BMD0001_4732"
     },
@@ -579,7 +616,7 @@
       "company": "D&G Analytics Inc.",
       "type": "sbir_phase_iii",
       "detail": "Department of the Treasury \u2014 CLAIRVOYANT BIG CODE ANALYTICS SOFTWARE SUBSCRIPTION (SBA STTR PHASE III PROCURE",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_2031JW25P00025_2046_-NONE-_-NONE-"
     },
@@ -587,15 +624,23 @@
       "company": "Transtecs Corporation",
       "type": "sbir_phase_iii",
       "detail": "General Services Administration \u2014 SBIR PHASE III  PERFORMANCE BASED TRAINING DATA COLLECTION AND ANALYSIS",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFLA22C0002_4732_-NONE-_-NONE-"
+    },
+    {
+      "company": "DZYNE Technologies",
+      "type": "sbir_phase_iii",
+      "detail": "Department of Defense \u2014 MOBILE ONBOARD NEXUS FOR AUTONOMY AND RADICAL COMPUTATION HANDLING (MONARCH) SMA",
+      "date": "2026-04-23",
+      "source": "SBIR.gov",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_FA865019C9203_9700_-NONE-_-NONE-"
     },
     {
       "company": "Castelion",
       "type": "sbir_phase_iii",
       "detail": "Department of Defense \u2014 LOW-COST HIGHLY MANUFACTURABLE LONG-RANGE STRIKE WEAPON PRODUCTION SMALL BUSINES",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA861224CB010_9700_-NONE-_-NONE-"
     },
@@ -603,15 +648,23 @@
       "company": "goTenna",
       "type": "sbir_phase_iii",
       "detail": "Department of Defense \u2014 IGF::OT::IGF - SBIR PHASE III - NAVIGATION WARFARE (NAVWAR) COMPATIBLE SMALL GPS",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA865016C1703_9700_-NONE-_-NONE-"
+    },
+    {
+      "company": "Bear Robotics",
+      "type": "sbir_phase_iii",
+      "detail": "Department of Defense \u2014 SBIR PHASE III \"PREDICTIVE GEOSPATIAL ANALYSIS TOOL\" ACTIVITIES IN SUPPORT OF TH",
+      "date": "2026-04-23",
+      "source": "SBIR.gov",
+      "url": "https://www.usaspending.gov/award/CONT_AWD_W56KGU21C0005_9700_-NONE-_-NONE-"
     },
     {
       "company": "Sakana AI",
       "type": "sbir_phase_iii",
       "detail": "Department of Defense \u2014 NON-KINETIC DIAGNOSTICS AND ASSESSMENT (NOKIDA)ORDER OFF OF TEST AND EVALUATION ",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_W900KK20F0158_9700_W900KK19D0007_9700"
     },
@@ -619,7 +672,7 @@
       "company": "Applied Intuition",
       "type": "sbir_phase_iii",
       "detail": "Department of Defense \u2014 SBIR PHASE III - TIGERSHARK UNMANNED AERIAL VEHICLES, AUXILLARY EQUIPMENT, AND C",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_N6833512C0353_9700_-NONE-_-NONE-"
     },
@@ -627,7 +680,7 @@
       "company": "Anduril Industries",
       "type": "sbir_phase_iii",
       "detail": "Department of Defense \u2014 SBIR PHASE III - AUTONOMOUS FORCE PROTECTION INTRUSION WITH 5TH GENERATION NETWO",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_N6600122C0074_9700_-NONE-_-NONE-"
     },
@@ -635,23 +688,15 @@
       "company": "Sierra Space Corp",
       "type": "sbir_phase_iii",
       "detail": "Department of Defense \u2014 SMALL BUSINESS INNOVATIVE RESEARCH (SBIR) PHASE III \"MATURATION OF SNC UPPER STA",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA930022C6022_9700_-NONE-_-NONE-"
-    },
-    {
-      "company": "Dzyne Technologies, Llc",
-      "type": "sbir_phase_iii",
-      "detail": "Department of Defense \u2014 MOBILE ONBOARD NEXUS FOR AUTONOMY AND RADICAL COMPUTATION HANDLING (MONARCH) SMA",
-      "date": "2026-04-17",
-      "source": "SBIR.gov",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_FA865019C9203_9700_-NONE-_-NONE-"
     },
     {
       "company": "Black River Systems Company, Inc.",
       "type": "sbir_phase_iii",
       "detail": "Department of Defense \u2014 IGF::OT::IGF - SBIR PHASE III - ADAPTIVE DECISIONS FOR ACTIVE AND PASSIVE SYSTEM",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA865015C1838_9700_-NONE-_-NONE-"
     },
@@ -659,17 +704,9 @@
       "company": "Rockcrest Investments Llc",
       "type": "sbir_phase_iii",
       "detail": "Department of Defense \u2014 STTR - PHASE III - TOPIC AFX23D-TCSO1, TECHNOLOGY ASSESSMENT ROADMAP MODEL (TARM",
-      "date": "2026-04-17",
+      "date": "2026-04-23",
       "source": "SBIR.gov",
       "url": "https://www.usaspending.gov/award/CONT_AWD_FA857125C0047_9700_-NONE-_-NONE-"
-    },
-    {
-      "company": "Physical Optics Corporation",
-      "type": "sbir_phase_iii",
-      "detail": "Department of Defense \u2014 SBIR PHASE III - SECURE TRANSFER AND RECORDING SYSTEM FOR THE F-16 WEAPON SYSTEM",
-      "date": "2026-04-17",
-      "source": "SBIR.gov",
-      "url": "https://www.usaspending.gov/award/CONT_AWD_FA822218C0014_9700_-NONE-_-NONE-"
     }
   ],
   "methodology": {

@@ -1,70 +1,147 @@
 {
-  "date": "2026-04-20",
-  "display_date": "Apr 20, 2026",
-  "generated_at": "2026-04-20T11:22:54.386877+00:00",
-  "cutoff": "2026-04-13T11:22:54.386877+00:00",
-  "section_count": 6,
-  "total_items": 177,
+  "date": "2026-04-27",
+  "display_date": "Apr 27, 2026",
+  "generated_at": "2026-04-27T04:11:39.665608+00:00",
+  "cutoff": "2026-04-20T04:11:39.665608+00:00",
+  "section_count": 8,
+  "total_items": 1109,
   "sections": [
+    {
+      "title": "Top Score Movers",
+      "icon": "\ud83d\udcc8",
+      "count": 870,
+      "items": [
+        {
+          "company": "ICON",
+          "current": 95.5,
+          "previous": 31.0,
+          "change": 64.5,
+          "tier": "elite"
+        },
+        {
+          "company": "HUMAIN",
+          "current": 94.5,
+          "previous": 38.5,
+          "change": 56.0,
+          "tier": "elite"
+        },
+        {
+          "company": "Dream Security",
+          "current": 93.5,
+          "previous": 38.0,
+          "change": 55.5,
+          "tier": "elite"
+        },
+        {
+          "company": "Polar Semiconductor",
+          "current": 88.0,
+          "previous": 32.5,
+          "change": 55.5,
+          "tier": "exceptional"
+        },
+        {
+          "company": "Mindgrove Technologies",
+          "current": 86.5,
+          "previous": 31.5,
+          "change": 55.0,
+          "tier": "exceptional"
+        },
+        {
+          "company": "AIR",
+          "current": 86.0,
+          "previous": 31.5,
+          "change": 54.5,
+          "tier": "exceptional"
+        },
+        {
+          "company": "Stratolaunch",
+          "current": 88.5,
+          "previous": 35.5,
+          "change": 53.0,
+          "tier": "exceptional"
+        },
+        {
+          "company": "Baykar",
+          "current": 91.0,
+          "previous": 38.5,
+          "change": 52.5,
+          "tier": "elite"
+        },
+        {
+          "company": "Pacific Fusion",
+          "current": 84.0,
+          "previous": 31.5,
+          "change": 52.5,
+          "tier": "exceptional"
+        },
+        {
+          "company": "Heven AeroTech",
+          "current": 90.0,
+          "previous": 38.0,
+          "change": 52.0,
+          "tier": "elite"
+        }
+      ]
+    },
     {
       "title": "SEC Activity",
       "icon": "\ud83d\udcdc",
-      "count": 18,
+      "count": 23,
       "items": [
         {
-          "company": "Rocket Lab",
+          "company": "Virgin Galactic",
           "form": "8-K",
-          "description": "g085683_8k.htm",
-          "date": "2026-04-14",
+          "description": "spce-20260424.htm",
+          "date": "2026-04-24",
           "isIPO": false
         },
         {
           "company": "Virgin Galactic",
           "form": "8-K",
-          "description": "spce-20260413.htm",
-          "date": "2026-04-14",
+          "description": "spce-20260421.htm",
+          "date": "2026-04-21",
           "isIPO": false
         },
         {
-          "company": "Oklo",
+          "company": "Rigetti Computing",
           "form": "8-K",
-          "description": "oklo-20260410.htm",
-          "date": "2026-04-14",
+          "description": "tm2612288d1_8k.htm",
+          "date": "2026-04-21",
+          "isIPO": false
+        },
+        {
+          "company": "Joby Aviation",
+          "form": "8-K",
+          "description": "d207058d8k.htm",
+          "date": "2026-04-24",
           "isIPO": false
         },
         {
           "company": "Satellogic",
           "form": "8-K",
-          "description": "ea0286487-8k_zoomcar.htm",
-          "date": "2026-04-15",
+          "description": "ea0287153-8k_zoomcar.htm",
+          "date": "2026-04-21",
           "isIPO": false
         },
         {
           "company": "Palantir Technologies",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1776470782.xml",
-          "date": "2026-04-17",
-          "isIPO": false
-        },
-        {
-          "company": "AST SpaceMobile",
-          "form": "4",
-          "description": "xslF345X06/ownership.xml",
-          "date": "2026-04-16",
-          "isIPO": false
-        },
-        {
-          "company": "NuScale Power",
-          "form": "4",
-          "description": "xslF345X06/wk-form4_1776457917.xml",
-          "date": "2026-04-17",
-          "isIPO": false
-        },
-        {
-          "company": "NuScale Power",
           "form": "DEF 14A",
-          "description": "smr-20260415.htm",
-          "date": "2026-04-15",
+          "description": "pltr-20260423.htm",
+          "date": "2026-04-24",
+          "isIPO": false
+        },
+        {
+          "company": "Virgin Galactic",
+          "form": "DEF 14A",
+          "description": "spce-20260421.htm",
+          "date": "2026-04-21",
+          "isIPO": false
+        },
+        {
+          "company": "NuScale Power",
+          "form": "4",
+          "description": "xslF345X06/wk-form4_1776940981.xml",
+          "date": "2026-04-23",
           "isIPO": false
         }
       ]
@@ -85,239 +162,249 @@
     {
       "title": "Federal Register",
       "icon": "\ud83c\udfdb\ufe0f",
-      "count": 42,
+      "count": 31,
       "items": [
         {
-          "title": "Safety Assessment of Genome Editing in Human Gene Therapy Products Using Next-Generation Sequencing; Draft Guidance for ",
+          "title": "Duke Energy Carolinas, LLC; Belews Creek, North Carolina Site, Early Site Permit, Notice of Intent To Conduct Scoping Pr",
           "type": "Notice",
           "agencies": [
-            "Health and Human Services Department",
-            "Food and Drug Administration"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-04-15"
+          "date": "2026-04-27"
         },
         {
-          "title": "Medicare Program; Hospital Inpatient Prospective Payment Systems for Acute Care Hospitals (IPPS) and the Long-Term Care ",
-          "type": "Proposed Rule",
-          "agencies": [
-            "Health and Human Services Department",
-            "Centers for Medicare & Medicaid Services"
-          ],
-          "significant": false,
-          "date": "2026-04-14"
-        },
-        {
-          "title": "Agency Information Collection Activities: Request for Comments for a New Information Collection",
+          "title": "U.S. Department of Energy; Three Mile Island Unit 2 Independent Spent Fuel Storage Installation; License Amendment",
           "type": "Notice",
           "agencies": [
-            "Transportation Department",
-            "Federal Highway Administration"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-04-16"
+          "date": "2026-04-27"
         },
         {
-          "title": "Accountability in Higher Education and Access Through Demand-Driven Workforce Pell: Student Tuition and Transparency Sys",
-          "type": "Proposed Rule",
+          "title": "Response to Petition To Change Regulation of Phosphogypsum Under RCRA",
+          "type": "Notice",
           "agencies": [
-            "Education Department"
+            "Environmental Protection Agency"
           ],
           "significant": false,
-          "date": "2026-04-20"
+          "date": "2026-04-24"
         },
         {
-          "title": "Extension of Compliance Dates for Nondiscrimination on the Basis of Disability; Accessibility of Web Information and Ser",
+          "title": "Environmental Impact Statements; Notice of Availability",
+          "type": "Notice",
+          "agencies": [
+            "Environmental Protection Agency"
+          ],
+          "significant": false,
+          "date": "2026-04-24"
+        },
+        {
+          "title": "Cost Expenditure Criteria for Research and Development Utilization Facilities",
           "type": "Rule",
           "agencies": [
-            "Justice Department"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-04-20"
+          "date": "2026-04-24"
         },
         {
-          "title": "Reducing Barriers to Network Improvements and Service Changes",
+          "title": "Generic Environmental Impact Statement for Licensing of New Nuclear Reactors",
           "type": "Rule",
           "agencies": [
-            "Federal Communications Commission"
+            "Nuclear Regulatory Commission"
           ],
           "significant": false,
-          "date": "2026-04-20"
+          "date": "2026-04-24"
+        }
+      ]
+    },
+    {
+      "title": "Insider Trading",
+      "icon": "\ud83d\udd0d",
+      "count": 2,
+      "items": [
+        {
+          "company": "Archer Aviation",
+          "insider": "Lentell Eric",
+          "transaction_type": "Grant",
+          "shares": 78659,
+          "value": 0.0,
+          "date": "2026-04-22"
+        },
+        {
+          "company": "Archer Aviation",
+          "insider": "Muniz Thomas Paul",
+          "transaction_type": "Grant",
+          "shares": 78659,
+          "value": 0.0,
+          "date": "2026-04-22"
         }
       ]
     },
     {
       "title": "Market Signals",
       "icon": "\ud83d\udcf0",
-      "count": 24,
+      "count": 25,
       "items": [
         {
-          "title": "AI chip startup Cerebras files for IPO",
-          "source": "TechCrunch",
-          "company": "Cerebras",
+          "title": "Aleph Alpha to be acquired by Cohere",
+          "source": "Tech.eu",
+          "company": "Cohere",
+          "impact": "high",
+          "type": "news"
+        },
+        {
+          "title": "Verda raises $117M to scale AI cloud infrastructure built on clean Nordic power",
+          "source": "Tech.eu",
+          "company": "Scale AI",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Atmos Space Cargo raises $30 million for reentry missions",
+          "source": "SpaceNews",
+          "company": "Atmos Space Cargo",
+          "impact": "high",
+          "type": "funding"
+        },
+        {
+          "title": "Fervo Energy unveils new power plant details in IPO filing",
+          "source": "Canary Media",
+          "company": "Fervo Energy",
           "impact": "high",
           "type": "ipo"
         },
         {
-          "title": "OpenAI\u2019s existential questions",
-          "source": "TechCrunch",
-          "company": "OpenAI",
-          "impact": "low",
-          "type": "milestone"
-        },
-        {
-          "title": "Blue Origin&#8217;s New Glenn put a customer satellite in the wrong orbit during its third launch",
-          "source": "TechCrunch",
-          "company": "Blue Origin",
-          "impact": "low",
-          "type": "milestone"
-        },
-        {
-          "title": "AST Spacemobile BB7 Is Not Recoverable Per ASTS",
+          "title": "SpaceX Launch Rate in 2026 After Reaching Orbital Operations, Booster and Starship Recovery",
           "source": "Next Big Future",
-          "company": "AST SpaceMobile",
-          "impact": "low",
-          "type": "funding"
-        },
-        {
-          "title": "Blue Origin&#039;s rocket reuse achievement marred by upper stage failure",
-          "source": "Ars Technica Space",
-          "company": "Blue Origin",
-          "impact": "low",
-          "type": "news"
-        },
-        {
-          "title": "Blue Origin Launches and Recovers Booster, Orbit of AST Space Mobile Satellite Too Low. BB7 Lost",
-          "source": "Next Big Future",
-          "company": "Blue Origin",
-          "impact": "medium",
-          "type": "ipo"
-        },
-        {
-          "title": "Blue Origin successfully re-uses a New Glenn rocket for the first time ever",
-          "source": "TechCrunch",
-          "company": "Blue Origin",
+          "company": "SpaceX",
           "impact": "low",
           "type": "ipo"
         },
         {
-          "title": "Anthropic\u2019s relationship with the Trump administration seems to be thawing",
+          "title": "Anthropic created a test marketplace for agent-on-agent commerce",
           "source": "TechCrunch",
           "company": "Anthropic",
           "impact": "low",
-          "type": "contract"
+          "type": "milestone"
+        },
+        {
+          "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+          "source": "TechCrunch",
+          "company": "OpenAI",
+          "impact": "low",
+          "type": "hire"
+        },
+        {
+          "title": "SpaceX XAI 2027",
+          "source": "Next Big Future",
+          "company": "SpaceX",
+          "impact": "low",
+          "type": "ipo"
         }
       ]
     },
     {
       "title": "Hacker News Buzz",
       "icon": "\ud83d\udd25",
-      "count": 52,
+      "count": 49,
       "items": [
         {
-          "title": "Claude Design",
-          "score": 1194,
-          "comments": 741,
+          "title": "DeepSeek v4",
+          "score": 2041,
+          "comments": 1555,
+          "companies": [
+            "Hugging Face"
+          ],
+          "url": "https://news.ycombinator.com/item?id=47884971"
+        },
+        {
+          "title": "I cancelled Claude: Token issues, declining quality, and poor support",
+          "score": 946,
+          "comments": 565,
           "companies": [
             "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=47806725"
+          "url": "https://news.ycombinator.com/item?id=47892019"
         },
         {
-          "title": "Isaac Asimov: The Last Question (1956)",
-          "score": 761,
-          "comments": 299,
-          "companies": [
-            "Asimov"
-          ],
-          "url": "https://news.ycombinator.com/item?id=47804965"
-        },
-        {
-          "title": "Migrating from DigitalOcean to Hetzner",
-          "score": 751,
-          "comments": 377,
-          "companies": [
-            "Agility Robotics",
-            "Endurance Energy",
-            "Captura"
-          ],
-          "url": "https://news.ycombinator.com/item?id=47815774"
-        },
-        {
-          "title": "Measuring Claude 4.7's tokenizer costs",
-          "score": 692,
-          "comments": 487,
+          "title": "Google plans to invest up to $40B in Anthropic",
+          "score": 801,
+          "comments": 804,
           "companies": [
             "Anthropic"
           ],
-          "url": "https://news.ycombinator.com/item?id=47807006"
+          "url": "https://news.ycombinator.com/item?id=47892074"
         },
         {
-          "title": "All 12 moonwalkers had \"lunar hay fever\" from dust smelling like gunpowder (2018)",
-          "score": 444,
-          "comments": 260,
+          "title": "New 10 GbE USB adapters are cooler, smaller, cheaper",
+          "score": 575,
+          "comments": 345,
           "companies": [
-            "ispace",
-            "Dust"
+            "Ada"
           ],
-          "url": "https://news.ycombinator.com/item?id=47808913"
+          "url": "https://news.ycombinator.com/item?id=47899053"
         },
         {
-          "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
-          "score": 298,
-          "comments": 50,
+          "title": "Sabotaging projects by overthinking, scope creep, and structural diffing",
+          "score": 518,
+          "comments": 134,
           "companies": [
-            "Seaborg Technologies",
-            "Auterion",
-            "Atomic Industries",
-            "Field AI",
-            "Xtend",
-            "Cognition",
-            "Sakana AI",
-            "Kyutai",
-            "Together AI"
+            "Retro Biosciences",
+            "Altos Labs"
           ],
-          "url": "https://news.ycombinator.com/item?id=47812341"
+          "url": "https://news.ycombinator.com/item?id=47890799"
+        },
+        {
+          "title": "How to be anti-social \u2013 a guide to incoherent and isolating social experiences",
+          "score": 371,
+          "comments": 344,
+          "companies": [
+            "Cohere"
+          ],
+          "url": "https://news.ycombinator.com/item?id=47888372"
         }
       ]
     },
     {
       "title": "Press Releases",
       "icon": "\ud83d\udce2",
-      "count": 40,
+      "count": 108,
       "items": [
         {
-          "title": "L'excellence en toute simplicit\u00e9 : Bambu Lab lance la X2D, son imprimante 3D phare de nouvelle g\u00e9n\u00e9ration \u00e0 double extru",
-          "source": "prnewswire_news_releases_list",
+          "title": "Auto China 2026: LEPAS Unveils NEV Portfolio, Kicking Off Its \u00abYear of Delivery\u00bb",
+          "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Bambu Lab lanza X2D, su impresora 3D insignia de \u00faltima generaci\u00f3n con sistema de doble extrusi\u00f3n",
-          "source": "prnewswire_news_releases_list",
+          "title": "From Next-Generation Mobility to Global Expansion: iCAUR Demonstrated Its Vision at Beijing Auto Show 2026",
+          "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "Xcellence leicht gemacht: Bambu Lab bringt den X2D auf den Markt, seinen Flaggschiff-3D-Drucker der n\u00e4chsten Generation ",
-          "source": "prnewswire_news_releases_list",
+          "title": "Rekordh\u00f6g kvartalsproduktion och operativt kassafl\u00f6de",
+          "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "10x Genomics Introduces Atera, a New Platform to Redefine How Biology is Measured and Understood",
-          "source": "prnewswire_news_releases_list",
+          "title": "Product Recall: PC\u00ae Cola",
+          "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "TTW Unveils Top 50 Airlines in the World for 2026",
-          "source": "prnewswire_news_releases_list",
+          "title": "Rappel de produit : Cola PC(MD)",
+          "source": "globenewswire_all",
           "companies": []
         },
         {
-          "title": "A Pioneer in the Firearms Industry: Anthony Imperato Honored by NRA",
-          "source": "prnewswire_news_releases_list",
+          "title": "New Species Unveiled! iCAUR Break Boundaries, Take You Anywhere",
+          "source": "globenewswire_all",
           "companies": []
         }
       ]
     }
   ],
-  "brief_id": "brief-2026-04-20-4953e9c5958b"
+  "brief_id": "brief-2026-04-27-3111883473d4"
 }
