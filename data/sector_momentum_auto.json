@@ -1,21 +1,21 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 59,
+    "momentum": 58,
     "trend": "accelerating",
     "catalysts": [
       "Anthropic created a test marketplace for agent-on-agent comm",
       "OpenAI CEO apologizes to Tumbler Ridge community",
-      "Google to invest up to $40B in Anthropic in cash and compute"
+      "Verda raises $117M to scale AI cloud infrastructure built on"
     ],
     "fundingQ": "$1194.6B",
     "components": {
       "funding": 100,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Drones & Autonomous",
@@ -32,7 +32,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Ocean & Maritime",
@@ -48,7 +48,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -64,61 +64,59 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 44,
+    "momentum": 43,
     "trend": "steady",
     "catalysts": [
-      "SpaceX wins $57 million U.S. military contract for satellite",
       "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P",
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 28
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Nuclear Energy",
-    "momentum": 44,
+    "momentum": 42,
     "trend": "steady",
     "catalysts": [
-      "X-energy stock pops 27% on first day of trading following up",
       "Anthropic&#8217;s Nuclear Bomb",
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$800M",
     "components": {
       "funding": 83,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 54
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 41,
+    "momentum": 40,
     "trend": "steady",
     "catalysts": [
+      "SpaceX Launch Rate in 2026 After Reaching Orbital Operations",
       "SpaceX XAI 2027",
-      "SpaceX wins $57 million U.S. military contract for satellite",
-      "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P"
+      "NASA Shares SpaceX Crew-13 Assignments for Space Station Mis"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 55,
+      "news": 50,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -136,7 +134,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -152,25 +150,7 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-26"
-  },
-  {
-    "sector": "Consumer Tech",
-    "momentum": 18,
-    "trend": "declining",
-    "catalysts": [
-      "Accenture, Vodafone, and SAP to pilot humanoid robots in the",
-      "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?",
-      "SpaceX wins $57 million U.S. military contract for satellite"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 30,
-      "hiring": 0,
-      "market": 50
-    },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Climate & Energy",
@@ -188,7 +168,25 @@
       "hiring": 0,
       "market": 67
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
+  },
+  {
+    "sector": "Consumer Tech",
+    "momentum": 15,
+    "trend": "declining",
+    "catalysts": [
+      "Accenture, Vodafone, and SAP to pilot humanoid robots in the",
+      "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?",
+      "Apple\u2019s Next Chapter, SpaceX and Cursor Strike a Deal, and P"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 20,
+      "hiring": 0,
+      "market": 50
+    },
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Infrastructure & Logistics",
@@ -206,23 +204,23 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Housing & Construction",
-    "momentum": 10,
+    "momentum": 11,
     "trend": "declining",
     "catalysts": [
-      "Active housing & construction ecosystem"
+      "SpaceX Launch Rate in 2026 After Reaching Orbital Operations"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 0,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Transportation",
@@ -239,7 +237,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Biotech & Health",
@@ -255,7 +253,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   },
   {
     "sector": "Quantum Computing",
@@ -271,6 +269,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-26"
+    "lastUpdated": "2026-04-27"
   }
 ]

@@ -50,7 +50,7 @@
   },
   {
     "mafia": "SpaceX Mafia",
-    "count": 4,
+    "count": 5,
     "companies": [
       {
         "company": "Starpath Robotics",
@@ -75,9 +75,15 @@
         "sector": "Space & Aerospace",
         "totalRaised": "$14.7M",
         "valuation": ""
+      },
+      {
+        "company": "Panthalassa",
+        "sector": "Climate & Energy",
+        "totalRaised": "Undisclosed",
+        "valuation": ""
       }
     ],
-    "description": "4 companies with founding-team links to SpaceX."
+    "description": "5 companies with founding-team links to SpaceX."
   },
   {
     "mafia": "MIT CSAIL Spinouts",
