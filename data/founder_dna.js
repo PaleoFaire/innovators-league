@@ -1,5 +1,5 @@
-// Founder DNA Index — Auto-generated 2026-04-26 09:51
-// 869 company founder profiles + 16 sector aggregations + 16 serial founders
+// Founder DNA Index — Auto-generated 2026-04-27 09:24
+// 870 company founder profiles + 16 sector aggregations + 16 serial founders
 // Cross-referenced from COMPANIES, FOUNDER_MAFIAS, INNOVATOR_SCORES
 // DO NOT EDIT — regenerate with: python3 scripts/generate_founder_dna.py
 
@@ -5801,6 +5801,29 @@ const FOUNDER_DNA = [
     "sector": "Climate & Energy"
   },
   {
+    "company": "Joby Aviation",
+    "founderCount": 1,
+    "teamStructure": "solo",
+    "founders": [
+      "JoeBen Bevirt"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 2000.0,
+    "capitalPerFounderM": 2000.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 10,
+      "serialBonus": 0,
+      "teamSizeSignal": 6,
+      "teamPedigree": 7
+    },
+    "dnaScore": 46,
+    "sector": "Drones & Autonomous"
+  },
+  {
     "company": "Agility Robotics",
     "founderCount": 2,
     "teamStructure": "duo",
@@ -6043,6 +6066,29 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 46,
     "sector": "Defense & Security"
+  },
+  {
+    "company": "Satellogic",
+    "founderCount": 1,
+    "teamStructure": "solo",
+    "founders": [
+      "Emiliano Kargieman"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 100.0,
+    "capitalPerFounderM": 100.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 7,
+      "serialBonus": 0,
+      "teamSizeSignal": 6,
+      "teamPedigree": 9
+    },
+    "dnaScore": 46,
+    "sector": "Space & Aerospace"
   },
   {
     "company": "Lumafield",
@@ -7648,29 +7694,6 @@ const FOUNDER_DNA = [
     "sector": "Biotech & Health"
   },
   {
-    "company": "Joby Aviation",
-    "founderCount": 1,
-    "teamStructure": "solo",
-    "founders": [
-      "JoeBen Bevirt"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 2000.0,
-    "capitalPerFounderM": 2000.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 10,
-      "serialBonus": 0,
-      "teamSizeSignal": 6,
-      "teamPedigree": 6
-    },
-    "dnaScore": 44,
-    "sector": "Drones & Autonomous"
-  },
-  {
     "company": "Etched",
     "founderCount": 3,
     "teamStructure": "trio",
@@ -8769,29 +8792,6 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 43,
     "sector": "Consumer Tech"
-  },
-  {
-    "company": "Satellogic",
-    "founderCount": 1,
-    "teamStructure": "solo",
-    "founders": [
-      "Emiliano Kargieman"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 100.0,
-    "capitalPerFounderM": 100.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 7,
-      "serialBonus": 0,
-      "teamSizeSignal": 6,
-      "teamPedigree": 8
-    },
-    "dnaScore": 43,
-    "sector": "Space & Aerospace"
   },
   {
     "company": "GrayMatter Robotics",
@@ -10634,6 +10634,29 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 42,
     "sector": "Chips & Semiconductors"
+  },
+  {
+    "company": "Rigetti Computing",
+    "founderCount": 1,
+    "teamStructure": "solo",
+    "founders": [
+      "Chad Rigetti"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 300.0,
+    "capitalPerFounderM": 300.0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 8,
+      "serialBonus": 0,
+      "teamSizeSignal": 6,
+      "teamPedigree": 7
+    },
+    "dnaScore": 42,
+    "sector": "Quantum Computing"
   },
   {
     "company": "Newcleo",
@@ -12687,29 +12710,6 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 40,
     "sector": "Consumer Tech"
-  },
-  {
-    "company": "Rigetti Computing",
-    "founderCount": 1,
-    "teamStructure": "solo",
-    "founders": [
-      "Chad Rigetti"
-    ],
-    "mafiaConnections": [],
-    "mafiaCount": 0,
-    "serialFounders": [],
-    "hasSerialFounder": false,
-    "totalRaisedM": 300.0,
-    "capitalPerFounderM": 300.0,
-    "scores": {
-      "mafiaPedigree": 0,
-      "capitalEfficiency": 8,
-      "serialBonus": 0,
-      "teamSizeSignal": 6,
-      "teamPedigree": 6
-    },
-    "dnaScore": 40,
-    "sector": "Quantum Computing"
   },
   {
     "company": "Oxford Quantum Circuits",
@@ -20697,6 +20697,29 @@ const FOUNDER_DNA = [
     },
     "dnaScore": 27,
     "sector": "Ocean & Maritime"
+  },
+  {
+    "company": "Panthalassa",
+    "founderCount": 1,
+    "teamStructure": "solo",
+    "founders": [
+      "Garth Sheldon-Coulson"
+    ],
+    "mafiaConnections": [],
+    "mafiaCount": 0,
+    "serialFounders": [],
+    "hasSerialFounder": false,
+    "totalRaisedM": 0,
+    "capitalPerFounderM": 0,
+    "scores": {
+      "mafiaPedigree": 0,
+      "capitalEfficiency": 3,
+      "serialBonus": 0,
+      "teamSizeSignal": 6,
+      "teamPedigree": 4
+    },
+    "dnaScore": 25,
+    "sector": "Climate & Energy"
   }
 ];
 
@@ -20754,6 +20777,19 @@ const FOUNDER_DNA_SECTORS = [
     ]
   },
   {
+    "sector": "Quantum Computing",
+    "companyCount": 43,
+    "avgFounderCount": 1.8,
+    "pctMafiaConnected": 0,
+    "avgDnaScore": 43.3,
+    "dominantTeamStructure": "solo",
+    "topDnaCompanies": [
+      "Quantinuum",
+      "Quantum Motion",
+      "Photonic Inc"
+    ]
+  },
+  {
     "sector": "Transportation",
     "companyCount": 21,
     "avgFounderCount": 1.7,
@@ -20764,19 +20800,6 @@ const FOUNDER_DNA_SECTORS = [
       "The Boring Company",
       "Harbinger",
       "Rivian"
-    ]
-  },
-  {
-    "sector": "Quantum Computing",
-    "companyCount": 43,
-    "avgFounderCount": 1.8,
-    "pctMafiaConnected": 0,
-    "avgDnaScore": 43.2,
-    "dominantTeamStructure": "solo",
-    "topDnaCompanies": [
-      "Quantinuum",
-      "Quantum Motion",
-      "Photonic Inc"
     ]
   },
   {
@@ -20794,10 +20817,10 @@ const FOUNDER_DNA_SECTORS = [
   },
   {
     "sector": "Climate & Energy",
-    "companyCount": 115,
+    "companyCount": 116,
     "avgFounderCount": 1.6,
     "pctMafiaConnected": 3,
-    "avgDnaScore": 42.3,
+    "avgDnaScore": 42.1,
     "dominantTeamStructure": "solo",
     "topDnaCompanies": [
       "Helion",
@@ -20922,8 +20945,8 @@ const FOUNDER_SERIAL_MAP = [
     ],
     "sectors": [
       "Transportation",
-      "AI & Software",
-      "Space & Aerospace"
+      "Space & Aerospace",
+      "AI & Software"
     ],
     "totalCapitalRaisedM": 53975.0
   },

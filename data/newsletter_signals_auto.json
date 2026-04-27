@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-27T07:02:21+00:00",
+  "generatedAt": "2026-04-27T09:18:23+00:00",
   "lookbackDays": 14,
   "sources": [
     {
@@ -45,20 +45,50 @@
       "recentItems": 3
     },
     {
-      "name": "Asianometry",
-      "url": "https://asianometry.substack.com/feed",
-      "totalItems": 20,
-      "recentItems": 0
-    },
-    {
       "name": "Bismarck Brief (Samo Burja)",
       "url": "https://brief.bismarckanalysis.com/feed",
       "totalItems": 20,
       "recentItems": 1
+    },
+    {
+      "name": "TechCrunch \u00b7 Venture",
+      "url": "https://techcrunch.com/category/venture/feed/",
+      "totalItems": 20,
+      "recentItems": 20
+    },
+    {
+      "name": "Rest of World",
+      "url": "https://restofworld.org/feed",
+      "totalItems": 12,
+      "recentItems": 11
+    },
+    {
+      "name": "404 Media",
+      "url": "https://www.404media.co/feed",
+      "totalItems": 15,
+      "recentItems": 15
+    },
+    {
+      "name": "SemiAnalysis (Dylan Patel)",
+      "url": "https://www.semianalysis.com/feed",
+      "totalItems": 10,
+      "recentItems": 0
+    },
+    {
+      "name": "Stratechery (Ben Thompson)",
+      "url": "https://stratechery.com/feed/",
+      "totalItems": 10,
+      "recentItems": 10
+    },
+    {
+      "name": "Platformer (Casey Newton)",
+      "url": "https://www.platformer.news/rss",
+      "totalItems": 15,
+      "recentItems": 5
     }
   ],
-  "totalRawSignals": 18,
-  "uniqueCandidateCount": 18,
+  "totalRawSignals": 19,
+  "uniqueCandidateCount": 19,
   "candidates": [
     {
       "name": "Blue Energy",
@@ -95,6 +125,44 @@
           "articleTitle": "The Man Growing Organs On Demand",
           "articleUrl": "https://www.corememory.com/p/the-man-growing-organs-on-demand-kind-bio-justin-rebo",
           "articleDate": "Mon, 20 Apr 2026 18:43:31 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Anna",
+      "totalScore": 6.0,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Anna",
+          "score": 6.0,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "r $11.57 billion. Spotify  and three major labels  won  a copyright lawsuit against pirate library  Anna\u2019s Archive . Spotify  launched  its feature that allows users to buy physical books through the ",
+          "source": "Platformer (Casey Newton)",
+          "sourceUrl": "https://www.platformer.news/rss",
+          "articleTitle": "The scientific case for being nice to your chatbot",
+          "articleUrl": "https://www.platformer.news/chatbot-emotion-research-anthropic-alignment-interpretability/",
+          "articleDate": "Fri, 17 Apr 2026 00:00:42 GMT"
+        }
+      ]
+    },
+    {
+      "name": "Archive",
+      "totalScore": 6.0,
+      "sourceCount": 1,
+      "signals": [
+        {
+          "name": "Archive",
+          "score": 6.0,
+          "frontierTechScore": 2,
+          "mentions": 1,
+          "context": "7 billion. Spotify  and three major labels  won  a copyright lawsuit against pirate library  Anna\u2019s Archive . Spotify  launched  its feature that allows users to buy physical books through the app. Sn",
+          "source": "Platformer (Casey Newton)",
+          "sourceUrl": "https://www.platformer.news/rss",
+          "articleTitle": "The scientific case for being nice to your chatbot",
+          "articleUrl": "https://www.platformer.news/chatbot-emotion-research-anthropic-alignment-interpretability/",
+          "articleDate": "Fri, 17 Apr 2026 00:00:42 GMT"
         }
       ]
     },
@@ -166,25 +234,6 @@
           "frontierTechScore": 3,
           "mentions": 1,
           "context": "st rocket company bought a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we ",
-          "source": "Not Boring (Packy McCormick)",
-          "sourceUrl": "https://www.notboring.co/feed",
-          "articleTitle": "Weekly Dose of Optimism #190",
-          "articleUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
-          "articleDate": "Fri, 24 Apr 2026 12:55:48 GMT"
-        }
-      ]
-    },
-    {
-      "name": "Fervo Energy Files",
-      "totalScore": 5.4,
-      "sourceCount": 1,
-      "signals": [
-        {
-          "name": "Fervo Energy Files",
-          "score": 5.4,
-          "frontierTechScore": 3,
-          "mentions": 1,
-          "context": "t a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quais",
           "source": "Not Boring (Packy McCormick)",
           "sourceUrl": "https://www.notboring.co/feed",
           "articleTitle": "Weekly Dose of Optimism #190",

@@ -1,13 +1,13 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-04-27T08:01:28+00:00
+// Last updated: 2026-04-27T09:24:07+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-04-27T08:01:28+00:00",
+  "generatedAt": "2026-04-27T09:24:07+00:00",
   "knownCompaniesCount": 1593,
   "summary": {
-    "totalCandidates": 28,
+    "totalCandidates": 29,
     "fromFormD": 0,
     "fromVcPortfolios": 18,
-    "fromNewsletters": 18,
+    "fromNewsletters": 19,
     "fromLlmExtraction": 0,
     "multiSource": 0
   },
@@ -337,6 +337,48 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
+      "name": "Anna",
+      "score": 6.0,
+      "signals": [
+        {
+          "name": "Anna",
+          "source": "Newsletter: Platformer (Casey Newton)",
+          "sourceWeight": 6.0,
+          "context": "r $11.57 billion. Spotify  and three major labels  won  a copyright lawsuit against pirate library  Anna\u2019s Archive . Spotify  launched  its feature that allows users to buy physical books through the ",
+          "date": "Fri, 17 Apr 2026 00:00:42 GMT",
+          "verifyUrl": "https://www.platformer.news/chatbot-emotion-research-anthropic-alignment-interpretability/",
+          "articleTitle": "The scientific case for being nice to your chatbot"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
+      "name": "Archive",
+      "score": 6.0,
+      "signals": [
+        {
+          "name": "Archive",
+          "source": "Newsletter: Platformer (Casey Newton)",
+          "sourceWeight": 6.0,
+          "context": "7 billion. Spotify  and three major labels  won  a copyright lawsuit against pirate library  Anna\u2019s Archive . Spotify  launched  its feature that allows users to buy physical books through the app. Sn",
+          "date": "Fri, 17 Apr 2026 00:00:42 GMT",
+          "verifyUrl": "https://www.platformer.news/chatbot-emotion-research-anthropic-alignment-interpretability/",
+          "articleTitle": "The scientific case for being nice to your chatbot"
+        }
+      ],
+      "sources": [
+        "Newsletter"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
       "name": "DeepSeek V3",
       "score": 5.95,
       "signals": [
@@ -408,27 +450,6 @@ const DISCOVERY_QUEUE_AUTO = {
           "source": "Newsletter: Not Boring (Packy McCormick)",
           "sourceWeight": 5.4,
           "context": "st rocket company bought a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we ",
-          "date": "Fri, 24 Apr 2026 12:55:48 GMT",
-          "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
-          "articleTitle": "Weekly Dose of Optimism #190"
-        }
-      ],
-      "sources": [
-        "Newsletter"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
-      "name": "Fervo Energy Files",
-      "score": 5.4,
-      "signals": [
-        {
-          "name": "Fervo Energy Files",
-          "source": "Newsletter: Not Boring (Packy McCormick)",
-          "sourceWeight": 5.4,
-          "context": "t a product that can write code as it prepares to colonize the Moon and then Mars, obviously.  (3)  Fervo Energy Files S-1 for IPO M&A. IPOs. Oh my. We are back.  Last week, we led the Dose with Quais",
           "date": "Fri, 24 Apr 2026 12:55:48 GMT",
           "verifyUrl": "https://www.notboring.co/p/weekly-dose-of-optimism-190",
           "articleTitle": "Weekly Dose of Optimism #190"

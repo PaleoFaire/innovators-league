@@ -1,7 +1,9 @@
 {
-  "generatedAt": "2026-04-27T08:00:00+00:00",
-  "model": null,
-  "skipped": true,
-  "reason": "ANTHROPIC_API_KEY not set",
+  "generatedAt": "2026-04-27T09:24:07+00:00",
+  "model": "claude-haiku-4-5",
+  "rosterSize": 1597,
+  "rawItemsConsidered": 91,
+  "newExtractionsThisRun": 91,
+  "uniqueCandidates": 0,
   "candidates": []
 }

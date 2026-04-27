@@ -1,6 +1,6 @@
 # 🌟 ROS Frontier-Tech Scout — Week of 2026-04-27
 
-**Roster:** 1007 companies tracked  ·  **Screened this cycle:** 222  ·  **Top picks:** 5  ·  **Runners-up:** 10
+**Roster:** 1007 companies tracked  ·  **Screened this cycle:** 223  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
 ---
 
@@ -128,17 +128,17 @@ Worth a quick scan — surfaced in scout but didn't quite make the top 5.
 Recent episodes from the scout's podcast sources. Scan titles for company names the LLM may have missed.
 
 - **[Core Memory]** [Here Come The Space Lasers - EP 62 Baiju Bhatt](https://www.corememory.com/p/here-come-the-space-lasers-aetherflux-baiju-bhatt)
+- **[TBPN]** [SpaceX-Cursor Deal, ChatGPT Images 2.0, Fake Bear Scam | Diet TBPN](https://share.transistor.fm/s/f7d3d1b4)
+- **[TBPN]** [SpaceX/Cursor Deal, Images 2.0 Reactions, Fake Bear Attack | Anil Chakravarthy, Naveen Gavini, Avlok Kohli & Ankur Nagpa](https://share.transistor.fm/s/2c6e810f)
 - **[Core Memory]** [The Aussie Man Who Used AI To Create A Cancer Cure For His Dog](https://www.corememory.com/p/the-aussie-man-who-used-ai-to-create-cancer-therapy-dog-rosie)
 - **[All-In]** [John Fetterman: The Rogue Democrat Who Broke Party Ranks](https://allinchamathjason.libsyn.com/john-fetterman-the-rogue-democrat-who-broke-party-ranks)
+- **[TBPN]** [Allbirds’ AI Pivot, Snap Cuts 16% of Workforce, Amazon’s GlobalStar Deal | Diet TBPN](https://share.transistor.fm/s/ce28b57f)
 - **[Core Memory]** [The Very Wild, Very Real Plan To Build AI Data Centers In The Ocean - EP 65 Garth Sheldon-Coulson](https://www.corememory.com/p/ocean-ai-data-center-panthalassa-garth)
+- **[TBPN]** [AI-Birds, Snap's Next Chapter, Amazon + Globalstar | Kiva Dickinson, Aron D'Souza, Michael Mignano, Wade Foster, Ankur N](https://share.transistor.fm/s/5aca9c1e)
 - **[Lex Fridman Podcast]** [#493 – Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming](https://lexfridman.com/jeff-kaplan/?utm_source=rss&utm_medium=rss&utm_campaign=jeff-kaplan)
 - **[All-In]** [Rewriting the Rules: The SEC & CFTC on Crypto, IPOs & the Future of American Markets](https://allinchamathjason.libsyn.com/rewriting-the-rules-the-sec-cftc-on-crypto-ipos-the-future-of-american-markets)
-- **[Core Memory]** [Inside The Race To Reboot Human Cells - EP 60 Nabiha Saklayen](https://www.corememory.com/p/inside-the-race-to-reboot-human-cells-cellino-ipsc)
-- **[All-In]** [Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race](https://allinchamathjason.libsyn.com/josh-shapiro-on-trump-iran-war-chaos-israels-failure-the-economy-and-2028-race)
-- **[Core Memory]** [The Company Helping Paralyzed People Move And Thrive Again - EP 64 Dave Marver](https://www.corememory.com/p/the-company-helping-paralyzed-people)
-- **[Invest Like the Best]** [Alan Waxman - Private Credit and the Modern Financial System - [Invest Like the Best, EP.466]](https://colossus.com/episode/clarity-of-purpose/)
 
 ---
 
 
-*Generated 2026-04-27T08:03:47+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-04-27T09:24:07+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
