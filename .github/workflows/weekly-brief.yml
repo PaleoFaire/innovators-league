@@ -42,8 +42,18 @@ jobs:
       - name: Commit score snapshot
         run: |
           git add data/weekly_brief.json data/prev_week_scores.json
+          # ── CONFLICT-MARKER GUARD ──
+          if grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null | head -1 | grep -q .; then
+            echo "::error::Conflict markers detected in tracked files. Refusing to commit."
+            grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null
+            exit 1
+          fi
           git diff --staged --quiet || git commit -m "📊 Auto-update: Weekly brief & score snapshot $(date +%Y-%m-%d)"
           git pull --rebase origin main || true
+          if grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null | head -1 | grep -q .; then
+            echo "::error::Conflict markers introduced by rebase. Aborting."
+            exit 1
+          fi
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

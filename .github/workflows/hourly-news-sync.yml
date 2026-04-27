@@ -111,8 +111,23 @@ jobs:
       - name: Commit and push changes
         run: |
           git add data.js data/
+          # ── CONFLICT-MARKER GUARD ──
+          # Refuse to commit any file that contains an unresolved git
+          # conflict marker. Caught by the regression that broke the
+          # homepage in Apr 2026 (commit 96e92bf).
+          if grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null | head -1 | grep -q .; then
+            echo "::error::Conflict markers detected in tracked files. Refusing to commit."
+            grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null
+            exit 1
+          fi
           git diff --staged --quiet || git commit -m "🤖 Auto-update: News signals $(date +%Y-%m-%d\ %H:%M)"
           git pull --rebase origin main || true
+          # Re-check after rebase (rebase may introduce markers when
+          # merging concurrent auto.js writes from sibling workflows)
+          if grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null | head -1 | grep -q .; then
+            echo "::error::Conflict markers introduced by rebase. Aborting."
+            exit 1
+          fi
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
