@@ -162,7 +162,7 @@
       ${trademarks.map(t => `
         <a class="filing-card" href="${esc(t.source_url)}" target="_blank" rel="noopener">
           <div class="filing-row-top">
-            <span class="filing-co">${esc(t.mark || '—')}</span>
+            <span class="filing-co">${t.mark ? esc(t.mark) : esc(t.company)}</span>
             <span class="filing-amt" style="color:#a78bfa; font-size:12px;">${esc(t.company)}</span>
           </div>
           <div class="filing-meta-row">
@@ -202,9 +202,9 @@
           <div class="sbir-topic-title">${esc(t.title || '')}</div>
           <div class="sbir-topic-desc">${esc(t.description || '')}</div>
           <div class="sbir-topic-meta">
-            <span>${esc(t.agency || '—')}</span>
-            <span>•</span>
-            <span>${esc(t.phase || '—')}</span>
+            ${t.agency ? `<span>${esc(t.agency)}</span>` : ''}
+            ${t.agency && t.phase ? '<span>•</span>' : ''}
+            ${t.phase ? `<span>${esc(t.phase)}</span>` : ''}
             ${t.award ? `<span>•</span><span>${esc(t.award)}</span>` : ''}
             ${t.closeDate ? `<span>•</span><span>closes ${esc(t.closeDate)}</span>` : ''}
           </div>

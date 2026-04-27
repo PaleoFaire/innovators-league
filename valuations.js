@@ -89,11 +89,11 @@ function initAllValuations() {
           <tr>
             <td>${i + 1}</td>
             <td style="font-weight:600;">${esc(d.company)}${d.ticker ? ` <span style="color:rgba(255,255,255,0.4); font-size:11px; font-family: 'Space Grotesk', monospace;">${esc(d.ticker)}</span>` : ''}</td>
-            <td style="font-size:12px;">${esc(d.sector || '—')}</td>
-            <td style="font-size:12px; color:rgba(255,255,255,0.6);">${esc(d.stage || '—')}</td>
+            <td style="font-size:12px;">${d.sector ? esc(d.sector) : ''}</td>
+            <td style="font-size:12px; color:rgba(255,255,255,0.6);">${d.stage ? esc(d.stage) : ''}</td>
             <td style="font-weight:700; color:#FF8C47;">${esc(d.valuation)}</td>
             <td>${sourceBadge(d.source)}</td>
-            <td style="font-size:11px; color:rgba(255,255,255,0.5);">${esc(d.lastUpdated || '—')}</td>
+            <td style="font-size:11px; color:rgba(255,255,255,0.5);">${d.lastUpdated ? esc(d.lastUpdated) : ''}</td>
           </tr>
         `).join('');
       }

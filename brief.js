@@ -25,7 +25,7 @@
         return '<tr>' +
           '<td class="brief-company-name">' + linkedCompany + '</td>' +
           '<td class="brief-amount">' + esc(d.amount) + '</td>' +
-          '<td><span class="brief-badge brief-badge-round">' + esc(d.round || '—') + '</span></td>' +
+          '<td>' + (d.round ? '<span class="brief-badge brief-badge-round">' + esc(d.round) + '</span>' : '') + '</td>' +
           '<td class="brief-date">' + esc(d.date) + '</td>' +
           '</tr>';
       }).join('') +
@@ -40,7 +40,7 @@
         : esc(n.headline);
       return '<div class="brief-list-item">' +
         '<div class="brief-list-meta">' +
-          '<span class="brief-company-pill">' + esc(n.company || '—') + '</span>' +
+          (n.company ? '<span class="brief-company-pill">' + esc(n.company) + '</span>' : '') +
           (n.source ? '<span class="brief-source">· ' + esc(n.source) + '</span>' : '') +
           (n.time ? '<span class="brief-time">· ' + esc(n.time) + '</span>' : '') +
         '</div>' +

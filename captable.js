@@ -177,8 +177,8 @@ function renderCapTable(company) {
       html += '<div class="round-body">';
       html += '<div class="round-stage">' + escapeHtml(r.stage || 'Round') + (r.latest ? ' <span class="round-latest-tag">LATEST</span>' : '') + '</div>';
       html += '<div class="round-meta">';
-      html += '<span class="round-amount">' + escapeHtml(r.amount || '—') + '</span>';
-      html += '<span class="round-date">' + (r.date ? formatDateAbsolute(r.date) : '—') + '</span>';
+      if (r.amount) html += '<span class="round-amount">' + escapeHtml(r.amount) + '</span>';
+      if (r.date) html += '<span class="round-date">' + formatDateAbsolute(r.date) + '</span>';
       html += '</div>';
       if (r.investors && r.investors.length) {
         html += '<div class="round-investors">';

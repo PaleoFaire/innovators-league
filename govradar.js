@@ -252,10 +252,10 @@ function initFederalGrants() {
           return '<tr>' +
             '<td style="font-weight:600;">' + esc(g.company) + '</td>' +
             '<td><span style="font-weight:700; font-size:11px; text-transform:uppercase; letter-spacing:0.04em; ' + agencyColor + '">' + esc(g.agency) + '</span></td>' +
-            '<td style="font-size:12px; color:rgba(255,255,255,0.6);">' + esc(g.program || '—') + '</td>' +
+            '<td style="font-size:12px; color:rgba(255,255,255,0.6);">' + (g.program ? esc(g.program) : '') + '</td>' +
             '<td style="font-size:12px;">' + esc((g.title || '').slice(0, 80)) + (g.url ? ' <a href="' + esc(g.url) + '" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none; font-size:11px;">→</a>' : '') + '</td>' +
-            '<td style="font-family:Space Grotesk, monospace; color:var(--accent); font-weight:700;">' + esc(g.amount || '—') + '</td>' +
-            '<td style="font-family:Space Grotesk, monospace;">' + esc(g.year || '—') + '</td>' +
+            '<td style="font-family:Space Grotesk, monospace; color:var(--accent); font-weight:700;">' + (g.amount ? esc(g.amount) : '') + '</td>' +
+            '<td style="font-family:Space Grotesk, monospace;">' + (g.year ? esc(g.year) : '') + '</td>' +
           '</tr>';
         }).join('');
       }
