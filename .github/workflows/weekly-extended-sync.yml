@@ -259,7 +259,8 @@ jobs:
         # via Claude. Way better than regex NER. Caches by content hash
         # so re-runs only process new items. Cost: <$1/week.
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Repo secret is named ANTHROPIC_API_KEY2 (Stephen's chosen name)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
         run: python scripts/scout_extract_with_llm.py
 
       - name: Build discovery queue (combine all signal sources)
