@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-28T02:02:06+00:00",
+  "generatedAt": "2026-04-28T03:34:06+00:00",
   "model": "claude-haiku-4-5",
   "rosterSize": 1597,
   "rawItemsConsidered": 91,
   "newExtractionsThisRun": 91,
-  "uniqueCandidates": 32,
+  "uniqueCandidates": 34,
   "candidates": [
     {
       "name": "Mistral",
@@ -40,34 +40,7 @@
       ],
       "sourceCount": 2,
       "multiSource": true,
-      "description": "AI model developer building frontier large language models as an alternative to incumbents."
-    },
-    {
-      "name": "10100",
-      "discoveries": [
-        {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "Travis Kalanick & Michael Dell Live from Austin, Texas",
-          "url": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
-          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Robotics & Manufacturing"
-      ],
-      "founders": [
-        "Travis Kalanick"
-      ],
-      "stealthSignal": true,
-      "confidence": "high",
-      "sources": [
-        "All-In"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A robotics company focused on automating the physical world, including actuators and robot hands for industrial automation."
+      "description": "European AI company developing large language models and frontier AI systems."
     },
     {
       "name": "Anduril",
@@ -92,7 +65,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Defense technology company building autonomous weapons systems and munitions manufacturing infrastructure through its Arsenal-1 factory."
+      "description": "Defense technology company building autonomous weapons systems and operating Arsenal-1, a factory focused on fixing US munitions supply chain constraints."
     },
     {
       "name": "Cavalla Industries",
@@ -110,7 +83,7 @@
         "Robotics & Manufacturing"
       ],
       "founders": [
-        "Victor Boyd"
+        "Victor Boyd (co-founder and CTO)"
       ],
       "stealthSignal": false,
       "confidence": "high",
@@ -119,7 +92,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Develops autonomous forklifts for rapid goods delivery and logistics automation."
+      "description": "Develops autonomous forklifts designed to deliver goods anywhere within hours, addressing challenges in retrofitting existing equipment with inconsistent designs."
     },
     {
       "name": "Column",
@@ -146,7 +119,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A software company that owns a bank and provides banking infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury."
+      "description": "A software company that owns a bank and provides core banking infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury."
     },
     {
       "name": "CoreWeave",
@@ -173,7 +146,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "GPU cloud infrastructure company providing compute resources for AI workloads and model training."
+      "description": "Infrastructure provider specializing in GPU compute and cloud services for AI workloads."
     },
     {
       "name": "CrowdStrike",
@@ -200,32 +173,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Cybersecurity platform led by veteran cybersecurity expert with 30+ years experience, formerly at McAfee."
-    },
-    {
-      "name": "Lovable",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20Growth: Inside Lovable's $400M ARR Growth Machine | How Lovable Does Product Launches | How Lovable Hacks Social To Make Posts Go Viral | How Lovable Makes Every Employee a Brand with Elena Verna",
-          "url": "https://thetwentyminutevc.libsyn.com/20growth-inside-lovables-400m-arr-growth-machine-how-lovable-does-product-launches-how-lovable-hacks-social-to-make-posts-go-viral-how-lovable-makes-every-employee-a-brand-with-elena-verna",
-          "date": "Sat, 14 Mar 2026 07:07:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A rapidly scaling AI-powered software development platform that reached $400M ARR in 18 months through viral growth and community-driven product launches."
+      "description": "Cybersecurity platform led by George Kurtz, a veteran with 30+ years of experience including prior roles at McAfee."
     },
     {
       "name": "Onward Medical",
@@ -250,7 +198,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A Swiss biotech company developing technology to help paralyzed people regain mobility and movement through neurotechnology."
+      "description": "A Swiss biotech company developing technologies to help paralyzed people regain movement and mobility."
     },
     {
       "name": "Perplexity",
@@ -277,7 +225,34 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-powered search and reasoning engine that competes with traditional search and ChatGPT-style interfaces."
+      "description": "AI-powered search and answer engine that competes with traditional search paradigms."
+    },
+    {
+      "name": "Senda Biosciences",
+      "discoveries": [
+        {
+          "source": "Core Memory",
+          "host": "Ashlee Vance",
+          "title": "Inside The Race To Reboot Human Cells - EP 60 Nabiha Saklayen",
+          "url": "https://www.corememory.com/p/inside-the-race-to-reboot-human-cells-cellino-ipsc",
+          "date": "Wed, 11 Mar 2026 14:26:48 GMT",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Biotech & Health"
+      ],
+      "founders": [
+        "Nabiha Saklayen"
+      ],
+      "stealthSignal": false,
+      "confidence": "high",
+      "sources": [
+        "Core Memory"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Develops induced pluripotent stem cell (iPSC) technologies to reverse aging and regenerate human tissues and organs."
     },
     {
       "name": "Supabase",
@@ -302,7 +277,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Open-source Firebase alternative providing backend infrastructure and database services for developers."
+      "description": "Open-source Firebase alternative providing backend infrastructure and real-time databases for developers."
     },
     {
       "name": "Ulysses",
@@ -327,7 +302,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "San Francisco-based startup building autonomous underwater drones, initially focused on seagrass planting and marine ecosystem monitoring."
+      "description": "San Francisco startup building autonomous underwater drones, initially focused on seagrass planting and marine ecosystem monitoring."
     },
     {
       "name": "CloudKitchens",
@@ -354,7 +329,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A ghost kitchen/food delivery infrastructure company automating the physical world of food preparation and logistics."
+      "description": "A ghost kitchen and food delivery infrastructure company automating physical food production and logistics."
     },
     {
       "name": "Kind",
@@ -381,7 +356,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A company developing on-demand organ growth technology for longevity applications."
+      "description": "A company growing organs on demand, operating in the longevity field with a small team in New Hampshire."
     },
     {
       "name": "Sign\u00fcll",
@@ -406,7 +381,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "An AI-driven home screen replacement for iPhones that transforms static interfaces into dynamic, personalized experiences using agentic AI."
+      "description": "Develops an AI-driven home screen replacement for iPhones that transforms static interfaces into dynamic, personalized experiences using agentic AI."
     },
     {
       "name": "Atoms",
@@ -433,7 +408,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Manufacturing-focused startup founded by Travis Kalanick applying operational efficiency principles to physical production."
+      "description": "A manufacturing-focused startup founded by Travis Kalanick aimed at scaling physical production and logistics."
     },
     {
       "name": "Blue Energy",
@@ -458,7 +433,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A nuclear power plant startup focused on advanced reactor development and deployment."
+      "description": "A nuclear power plant startup that raised significant funding for advanced reactor development."
     },
     {
       "name": "Critical Loop",
@@ -485,7 +460,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Energy company focused on reliable, cost-effective power solutions, founded by a former SpaceX engineer transitioning from aerospace to energy."
+      "description": "Energy company founded by former SpaceX engineer focused on delivering reliable, cost-effective power solutions."
     },
     {
       "name": "Cursor",
@@ -510,7 +485,32 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-powered development tool with a SpaceX partnership deal mentioned in the episode."
+      "description": "AI-powered coding platform involved in a notable SpaceX partnership deal."
+    },
+    {
+      "name": "Happy Robot",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must",
+          "url": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
+          "date": "Sat, 11 Apr 2026 07:07:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Robotics & Manufacturing"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Robotics company mentioned as an investment in Carles Reina's portfolio."
     },
     {
       "name": "IREN",
@@ -537,7 +537,32 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Nuclear energy company focused on advanced reactor technology or fuel cycle innovation."
+      "description": "Nuclear energy or advanced reactor technology company focused on next-generation power solutions."
+    },
+    {
+      "name": "LMArena",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
+          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Language model evaluation and benchmarking platform."
     },
     {
       "name": "Mercor",
@@ -562,7 +587,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI platform for talent and workforce management that experienced a notable security breach."
+      "description": "Platform connecting AI talent and services, mentioned in context of cybersecurity vulnerabilities."
     },
     {
       "name": "Olipop",
@@ -587,7 +612,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Functional beverage company focused on health-oriented soda alternatives."
+      "description": "A functional beverage company focused on health-oriented soft drink alternatives."
     },
     {
       "name": "Open Router",
@@ -612,7 +637,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "API routing platform that aggregates access to multiple large language models and AI inference providers."
+      "description": "API router aggregating access to multiple large language models and AI providers."
     },
     {
       "name": "OpenClaw",
@@ -637,7 +662,32 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A robotics company developing physical AI systems, positioned as part of the emerging operating system for modern AI computing."
+      "description": "Robotics company building physical AI systems, positioned as part of the operating system for modern AI computing."
+    },
+    {
+      "name": "OpenRouter",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
+          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "medium",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "AI infrastructure platform providing access to multiple large language models."
     },
     {
       "name": "Periodic Labs",
@@ -652,7 +702,7 @@
         }
       ],
       "sectors": [
-        "Climate & Energy"
+        "Biotech & Health"
       ],
       "founders": [],
       "stealthSignal": false,
@@ -662,7 +712,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Materials science company focused on advanced materials for energy applications."
+      "description": "Biotech company leveraging AI for scientific discovery."
     },
     {
       "name": "Ramp",
@@ -687,7 +737,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Financial operations platform for businesses to manage expenses and payments."
+      "description": "A financial operations platform for businesses, likely focused on spend management and accounting automation."
     },
     {
       "name": "Sesame",
@@ -712,7 +762,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Frontier AI or compute infrastructure company in Anj's portfolio."
+      "description": "AI-related company where Anj Midha serves on the board."
     },
     {
       "name": "Adobe",
@@ -762,32 +812,34 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A global payments and financial platform enabling businesses to manage cross-border transactions and financial operations."
+      "description": "A global payments and financial platform enabling modern businesses to manage international transactions and financial operations."
     },
     {
-      "name": "Happy Robot",
+      "name": "Plaid",
       "discoveries": [
         {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must",
-          "url": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
-          "date": "Sat, 11 Apr 2026 07:07:00 +0000",
+          "source": "Invest Like the Best",
+          "host": "Patrick O'Shaughnessy",
+          "title": "William Hockey - Building the Operating System for the Dollar and Silicon Valley Heresy - [Invest Like the Best, EP.463]",
+          "url": "https://colossus.com/episode/playing-a-different-game/",
+          "date": "Tue, 17 Mar 2026 08:00:00 -0000",
           "kind": "podcast_episode"
         }
       ],
       "sectors": [
-        "Robotics & Manufacturing"
+        "Other"
       ],
-      "founders": [],
+      "founders": [
+        "William Hockey (co-founder)"
+      ],
       "stealthSignal": false,
       "confidence": "low",
       "sources": [
-        "20VC"
+        "Invest Like the Best"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Robotics company mentioned as an investment by the guest."
+      "description": "A financial data connectivity platform (mentioned as prior company; excluded from frontier-tech scope but included for context of founder's track record)."
     },
     {
       "name": "Revolut",
@@ -812,7 +864,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Fintech company mentioned as an investment by the guest."
+      "description": "Fintech company (outside frontier-tech focus areas, included only as portfolio mention)."
     },
     {
       "name": "Thrive",
@@ -837,7 +889,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Company launching Thrive Eternal product with significant investment backing."
+      "description": "Company launching Thrive Eternal product with significant investment described as a 'giant bet.'"
     }
   ]
 }

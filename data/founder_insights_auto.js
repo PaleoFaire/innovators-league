@@ -1,21 +1,21 @@
 // Auto-generated from founder_insights_auto.json
-// Last updated: 2026-04-28T02:04:33+00:00
+// Last updated: 2026-04-28T03:36:15+00:00
 const FOUNDER_INSIGHTS_AUTO = {
-  "generatedAt": "2026-04-28T02:04:33+00:00",
+  "generatedAt": "2026-04-28T03:36:15+00:00",
   "model": "claude-haiku-4-5",
   "companiesProcessed": 141,
-  "companiesWithInsights": 2,
-  "totalInsights": 3,
+  "companiesWithInsights": 4,
+  "totalInsights": 7,
   "newClaudeCallsThisRun": 141,
   "byCompany": {
     "OpenAI": {
       "founder": "Sam Altman, Greg Brockman, Ilya Sutskever",
       "ticker": null,
-      "lastUpdated": "2026-04-28T02:02:18+00:00",
+      "lastUpdated": "2026-04-28T03:34:17+00:00",
       "insights": [
         {
-          "quote": "We got into the company restructuring. Why Sora got cut. Why the social network is dead. The 'personal AGI' that knows your calendar and your taste and books the concert",
-          "topic": "Company strategy, product priorities",
+          "quote": "Sam Altman and Greg Brockman came on Core Memory together for a ten-year look back at OpenAI. It's also the first time they've done a media podcast together. We juiced every second of our 90 minutes with the cofounders of OpenAI. We got into the company restructuring. Why Sora got cut. Why the social network is dead. The 'personal AGI' that knows your calendar and your taste and books the concert",
+          "topic": "company restructuring, product strategy",
           "source_type": "podcast",
           "source_name": "Core Memory",
           "url": "https://www.corememory.com/p/the-great-reset-at-openai-ep-67-sam-altman-greg-brockman",
@@ -24,14 +24,64 @@ const FOUNDER_INSIGHTS_AUTO = {
         }
       ]
     },
+    "SpaceX": {
+      "founder": "Elon Musk",
+      "ticker": null,
+      "lastUpdated": "2026-04-28T03:34:35+00:00",
+      "insights": [
+        {
+          "quote": "SpaceX is building data centers in space",
+          "topic": "data center strategy",
+          "source_type": "podcast",
+          "source_name": "20VC",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-why-you-need-1bn-to-do-series-a-today-openai-vs-anthropic-who-wins-enterprise-spacex-at-2trn-and-data-centers-in-space-the-20bn-groq-deal-broken-down-jeff-bezos-100bn-new-fund",
+          "date": "2026-05-26",
+          "paraphrased": true
+        },
+        {
+          "quote": "SpaceX dish production is ramping toward 50,000 dishes/day",
+          "topic": "Starlink production capacity",
+          "source_type": "news",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/04/spacex-xai-2027.html",
+          "date": "2026-04-25",
+          "paraphrased": true
+        },
+        {
+          "quote": "The high speed internet subscriber base could more than double to ~20\u201325 million by end of 2026 and then ~50 million in 2027",
+          "topic": "Starlink subscriber growth",
+          "source_type": "news",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/04/spacex-xai-2027.html",
+          "date": "2026-04-25",
+          "paraphrased": true
+        }
+      ]
+    },
+    "Rocket Lab": {
+      "founder": "Peter Beck",
+      "ticker": null,
+      "lastUpdated": "2026-04-28T03:35:18+00:00",
+      "insights": [
+        {
+          "quote": "The priority will always be to bring a reliable rocket to market, even if it means taking a few extra months.",
+          "topic": "reliability over speed",
+          "source_type": "earnings",
+          "source_name": "Rocket Lab Q4 2025 Earnings Call",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/26/rocket-lab-rklb-q4-2025-earnings-call-transcript/",
+          "date": "2026-02-26",
+          "paraphrased": false
+        }
+      ]
+    },
     "General Matter": {
       "founder": "Scott Nolan, Lee Robinson",
       "ticker": null,
-      "lastUpdated": "2026-04-28T02:03:48+00:00",
+      "lastUpdated": "2026-04-28T03:35:38+00:00",
       "insights": [
         {
-          "quote": "I spent 12 years at Founders Fund looking for the most important problems that no one else was funding. Then he found a problem so critical, and so ignored, that he couldn't find a company to back. So he started one.",
-          "topic": "Company founding motivation",
+          "quote": "spent 12 years at Founders Fund looking for the most important problems that no one else was funding. Then he found a problem so critical, and so ignored, that he couldn't find a company to back. So he started one.",
+          "topic": "founding motivation",
           "source_type": "podcast",
           "source_name": "Invest Like the Best",
           "url": "https://colossus.com/episode/betting-on-atoms/",
@@ -39,8 +89,8 @@ const FOUNDER_INSIGHTS_AUTO = {
           "paraphrased": true
         },
         {
-          "quote": "General Matter is rebuilding US uranium enrichment. The United States was the world leader in enrichment through the 1980s and then stopped entirely.",
-          "topic": "Company mission and market gap",
+          "quote": "General Matter is rebuilding US uranium enrichment.",
+          "topic": "company mission",
           "source_type": "podcast",
           "source_name": "Invest Like the Best",
           "url": "https://colossus.com/episode/betting-on-atoms/",

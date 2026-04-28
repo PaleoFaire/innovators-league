@@ -1,14 +1,14 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-04-28T02:02:06+00:00
+// Last updated: 2026-04-28T03:34:07+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-04-28T02:02:06+00:00",
+  "generatedAt": "2026-04-28T03:34:07+00:00",
   "knownCompaniesCount": 1593,
   "summary": {
-    "totalCandidates": 60,
+    "totalCandidates": 62,
     "fromFormD": 0,
     "fromVcPortfolios": 18,
     "fromNewsletters": 19,
-    "fromLlmExtraction": 33,
+    "fromLlmExtraction": 35,
     "multiSource": 2
   },
   "candidates": [
@@ -20,7 +20,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Mistral",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "AI model developer building frontier large language models as an alternative to incumbents.",
+          "context": "European AI company developing large language models and frontier AI systems.",
           "founder": "Arthur Mensch",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -34,7 +34,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Mistral",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "AI model developer building frontier large language models as an alternative to incumbents.",
+          "context": "European AI company developing large language models and frontier AI systems.",
           "founder": "Arthur Mensch",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -310,7 +310,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Blue Energy",
           "source": "LLM (Newcomer (Eric Newcomer))",
           "sourceWeight": 18,
-          "context": "A nuclear power plant startup focused on advanced reactor development and deployment.",
+          "context": "A nuclear power plant startup that raised significant funding for advanced reactor development.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -328,32 +328,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": true,
       "confidence": "high",
       "suggestedSector": "Nuclear Energy"
-    },
-    {
-      "name": "10100",
-      "score": 38,
-      "signals": [
-        {
-          "name": "10100",
-          "source": "LLM (All-In)",
-          "sourceWeight": 38,
-          "context": "A robotics company focused on automating the physical world, including actuators and robot hands for industrial automation.",
-          "founder": "Travis Kalanick",
-          "fundingMentioned": null,
-          "stealthSignal": true,
-          "confidence": "high",
-          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
-          "articleTitle": "Travis Kalanick & Michael Dell Live from Austin, Texas",
-          "suggestedSector": "Robotics & Manufacturing"
-        }
-      ],
-      "sources": [
-        "LLM (All-In)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Robotics & Manufacturing"
     },
     {
       "name": "Fiber Dynamics",
@@ -405,7 +379,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Anduril",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "Defense technology company building autonomous weapons systems and munitions manufacturing infrastructure through its Arsenal-1 factory.",
+          "context": "Defense technology company building autonomous weapons systems and operating Arsenal-1, a factory focused on fixing US munitions supply chain constraints.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -431,8 +405,8 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Cavalla Industries",
           "source": "LLM (TBPN)",
           "sourceWeight": 30,
-          "context": "Develops autonomous forklifts for rapid goods delivery and logistics automation.",
-          "founder": "Victor Boyd",
+          "context": "Develops autonomous forklifts designed to deliver goods anywhere within hours, addressing challenges in retrofitting existing equipment with inconsistent designs.",
+          "founder": "Victor Boyd (co-founder and CTO)",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "high",
@@ -457,7 +431,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Column",
           "source": "LLM (Invest Like the Best)",
           "sourceWeight": 30,
-          "context": "A software company that owns a bank and provides banking infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury.",
+          "context": "A software company that owns a bank and provides core banking infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury.",
           "founder": "William Hockey",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -483,7 +457,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "CoreWeave",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "GPU cloud infrastructure company providing compute resources for AI workloads and model training.",
+          "context": "Infrastructure provider specializing in GPU compute and cloud services for AI workloads.",
           "founder": "Michael Intrator",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -509,7 +483,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "CrowdStrike",
           "source": "LLM (TBPN)",
           "sourceWeight": 30,
-          "context": "Cybersecurity platform led by veteran cybersecurity expert with 30+ years experience, formerly at McAfee.",
+          "context": "Cybersecurity platform led by George Kurtz, a veteran with 30+ years of experience including prior roles at McAfee.",
           "founder": "George Kurtz",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -528,32 +502,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Lovable",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Lovable",
-          "source": "LLM (20VC)",
-          "sourceWeight": 30,
-          "context": "A rapidly scaling AI-powered software development platform that reached $400M ARR in 18 months through viral growth and community-driven product launches.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Sat, 14 Mar 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20growth-inside-lovables-400m-arr-growth-machine-how-lovable-does-product-launches-how-lovable-hacks-social-to-make-posts-go-viral-how-lovable-makes-every-employee-a-brand-with-elena-verna",
-          "articleTitle": "20Growth: Inside Lovable's $400M ARR Growth Machine | How Lovable Does Product Launches | How Lovable Hacks Social To Make Posts Go Viral | How Lovable Makes Every Employee a Brand with Elena Verna",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Space & Aerospace"
-    },
-    {
       "name": "Onward Medical",
       "score": 30,
       "signals": [
@@ -561,7 +509,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Onward Medical",
           "source": "LLM (Core Memory)",
           "sourceWeight": 30,
-          "context": "A Swiss biotech company developing technology to help paralyzed people regain mobility and movement through neurotechnology.",
+          "context": "A Swiss biotech company developing technologies to help paralyzed people regain movement and mobility.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -587,7 +535,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Perplexity",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "AI-powered search and reasoning engine that competes with traditional search and ChatGPT-style interfaces.",
+          "context": "AI-powered search and answer engine that competes with traditional search paradigms.",
           "founder": "Aravind Srinivas",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -606,6 +554,32 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
+      "name": "Senda Biosciences",
+      "score": 30,
+      "signals": [
+        {
+          "name": "Senda Biosciences",
+          "source": "LLM (Core Memory)",
+          "sourceWeight": 30,
+          "context": "Develops induced pluripotent stem cell (iPSC) technologies to reverse aging and regenerate human tissues and organs.",
+          "founder": "Nabiha Saklayen",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Wed, 11 Mar 2026 14:26:48 GMT",
+          "verifyUrl": "https://www.corememory.com/p/inside-the-race-to-reboot-human-cells-cellino-ipsc",
+          "articleTitle": "Inside The Race To Reboot Human Cells - EP 60 Nabiha Saklayen",
+          "suggestedSector": "Biotech & Health"
+        }
+      ],
+      "sources": [
+        "LLM (Core Memory)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "Biotech & Health"
+    },
+    {
       "name": "Supabase",
       "score": 30,
       "signals": [
@@ -613,7 +587,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Supabase",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Open-source Firebase alternative providing backend infrastructure and database services for developers.",
+          "context": "Open-source Firebase alternative providing backend infrastructure and real-time databases for developers.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -639,7 +613,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Ulysses",
           "source": "LLM (Core Memory)",
           "sourceWeight": 30,
-          "context": "San Francisco-based startup building autonomous underwater drones, initially focused on seagrass planting and marine ecosystem monitoring.",
+          "context": "San Francisco startup building autonomous underwater drones, initially focused on seagrass planting and marine ecosystem monitoring.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -665,7 +639,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "CloudKitchens",
           "source": "LLM (All-In)",
           "sourceWeight": 26,
-          "context": "A ghost kitchen/food delivery infrastructure company automating the physical world of food preparation and logistics.",
+          "context": "A ghost kitchen and food delivery infrastructure company automating physical food production and logistics.",
           "founder": "Travis Kalanick",
           "fundingMentioned": null,
           "stealthSignal": true,
@@ -691,7 +665,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Kind",
           "source": "LLM (Core Memory (Ashlee Vance))",
           "sourceWeight": 26,
-          "context": "A company developing on-demand organ growth technology for longevity applications.",
+          "context": "A company growing organs on demand, operating in the longevity field with a small team in New Hampshire.",
           "founder": "Rebo",
           "fundingMentioned": null,
           "stealthSignal": true,
@@ -717,7 +691,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Sign\u00fcll",
           "source": "LLM (TBPN)",
           "sourceWeight": 26,
-          "context": "An AI-driven home screen replacement for iPhones that transforms static interfaces into dynamic, personalized experiences using agentic AI.",
+          "context": "Develops an AI-driven home screen replacement for iPhones that transforms static interfaces into dynamic, personalized experiences using agentic AI.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": true,
@@ -743,7 +717,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Atoms",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Manufacturing-focused startup founded by Travis Kalanick applying operational efficiency principles to physical production.",
+          "context": "A manufacturing-focused startup founded by Travis Kalanick aimed at scaling physical production and logistics.",
           "founder": "Travis Kalanick",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -759,7 +733,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "Robotics & Manufacturing"
+      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Critical Loop",
@@ -769,7 +743,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Critical Loop",
           "source": "LLM (TBPN)",
           "sourceWeight": 18,
-          "context": "Energy company focused on reliable, cost-effective power solutions, founded by a former SpaceX engineer transitioning from aerospace to energy.",
+          "context": "Energy company founded by former SpaceX engineer focused on delivering reliable, cost-effective power solutions.",
           "founder": "Balachandar Ramamurthy",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -795,7 +769,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Cursor",
           "source": "LLM (TBPN)",
           "sourceWeight": 18,
-          "context": "AI-powered development tool with a SpaceX partnership deal mentioned in the episode.",
+          "context": "AI-powered coding platform involved in a notable SpaceX partnership deal.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -814,6 +788,32 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Space & Aerospace"
     },
     {
+      "name": "Happy Robot",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Happy Robot",
+          "source": "LLM (20VC)",
+          "sourceWeight": 18,
+          "context": "Robotics company mentioned as an investment in Carles Reina's portfolio.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "medium",
+          "date": "Sat, 11 Apr 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
+          "articleTitle": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must",
+          "suggestedSector": "Robotics & Manufacturing"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "Robotics & Manufacturing"
+    },
+    {
       "name": "IREN",
       "score": 18,
       "signals": [
@@ -821,7 +821,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "IREN",
           "source": "LLM (All-In)",
           "sourceWeight": 18,
-          "context": "Nuclear energy company focused on advanced reactor technology or fuel cycle innovation.",
+          "context": "Nuclear energy or advanced reactor technology company focused on next-generation power solutions.",
           "founder": "Daniel Roberts",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -840,6 +840,32 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Nuclear Energy"
     },
     {
+      "name": "LMArena",
+      "score": 18,
+      "signals": [
+        {
+          "name": "LMArena",
+          "source": "LLM (20VC)",
+          "sourceWeight": 18,
+          "context": "Language model evaluation and benchmarking platform.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "medium",
+          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
+          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
+          "suggestedSector": "AI & Compute"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": null
+    },
+    {
       "name": "Mercor",
       "score": 18,
       "signals": [
@@ -847,7 +873,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Mercor",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "AI platform for talent and workforce management that experienced a notable security breach.",
+          "context": "Platform connecting AI talent and services, mentioned in context of cybersecurity vulnerabilities.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -873,7 +899,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Olipop",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Functional beverage company focused on health-oriented soda alternatives.",
+          "context": "A functional beverage company focused on health-oriented soft drink alternatives.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -899,7 +925,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Open Router",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "API routing platform that aggregates access to multiple large language models and AI inference providers.",
+          "context": "API router aggregating access to multiple large language models and AI providers.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -925,7 +951,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "OpenClaw",
           "source": "LLM (All-In)",
           "sourceWeight": 18,
-          "context": "A robotics company developing physical AI systems, positioned as part of the emerging operating system for modern AI computing.",
+          "context": "Robotics company building physical AI systems, positioned as part of the operating system for modern AI computing.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -944,14 +970,14 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Periodic Labs",
+      "name": "OpenRouter",
       "score": 18,
       "signals": [
         {
-          "name": "Periodic Labs",
+          "name": "OpenRouter",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Materials science company focused on advanced materials for energy applications.",
+          "context": "AI infrastructure platform providing access to multiple large language models.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -959,7 +985,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "date": "Tue, 14 Apr 2026 09:24:00 +0000",
           "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
           "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "Climate & Energy"
+          "suggestedSector": "AI & Compute"
         }
       ],
       "sources": [
@@ -967,7 +993,33 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": null
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Periodic Labs",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Periodic Labs",
+          "source": "LLM (20VC)",
+          "sourceWeight": 18,
+          "context": "Biotech company leveraging AI for scientific discovery.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "medium",
+          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
+          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
+          "suggestedSector": "Biotech & Health"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Ramp",
@@ -977,7 +1029,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Ramp",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Financial operations platform for businesses to manage expenses and payments.",
+          "context": "A financial operations platform for businesses, likely focused on spend management and accounting automation.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1003,7 +1055,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Sesame",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Frontier AI or compute infrastructure company in Anj's portfolio.",
+          "context": "AI-related company where Anj Midha serves on the board.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1055,7 +1107,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Airwallex",
           "source": "LLM (All-In)",
           "sourceWeight": 8,
-          "context": "A global payments and financial platform enabling businesses to manage cross-border transactions and financial operations.",
+          "context": "A global payments and financial platform enabling modern businesses to manage international transactions and financial operations.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1074,30 +1126,30 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Happy Robot",
+      "name": "Plaid",
       "score": 8,
       "signals": [
         {
-          "name": "Happy Robot",
-          "source": "LLM (20VC)",
+          "name": "Plaid",
+          "source": "LLM (Invest Like the Best)",
           "sourceWeight": 8,
-          "context": "Robotics company mentioned as an investment by the guest.",
-          "founder": "",
+          "context": "A financial data connectivity platform (mentioned as prior company; excluded from frontier-tech scope but included for context of founder's track record).",
+          "founder": "William Hockey (co-founder)",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "low",
-          "date": "Sat, 11 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
-          "articleTitle": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must",
-          "suggestedSector": "Robotics & Manufacturing"
+          "date": "Tue, 17 Mar 2026 08:00:00 -0000",
+          "verifyUrl": "https://colossus.com/episode/playing-a-different-game/",
+          "articleTitle": "William Hockey - Building the Operating System for the Dollar and Silicon Valley Heresy - [Invest Like the Best, EP.463]",
+          "suggestedSector": "Other"
         }
       ],
       "sources": [
-        "LLM (20VC)"
+        "LLM (Invest Like the Best)"
       ],
       "multiSource": false,
       "confidence": "low",
-      "suggestedSector": "Robotics & Manufacturing"
+      "suggestedSector": null
     },
     {
       "name": "Revolut",
@@ -1107,7 +1159,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Revolut",
           "source": "LLM (20VC)",
           "sourceWeight": 8,
-          "context": "Fintech company mentioned as an investment by the guest.",
+          "context": "Fintech company (outside frontier-tech focus areas, included only as portfolio mention).",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1133,7 +1185,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Thrive",
           "source": "LLM (TBPN)",
           "sourceWeight": 8,
-          "context": "Company launching Thrive Eternal product with significant investment backing.",
+          "context": "Company launching Thrive Eternal product with significant investment described as a 'giant bet.'",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
