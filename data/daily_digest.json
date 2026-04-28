@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T06:37:48.260898+00:00",
+  "generatedAt": "2026-04-28T09:30:41.140495+00:00",
   "date": "2026-04-28",
   "dateDisplay": "Tuesday, April 28, 2026",
   "sections": {
@@ -91,13 +91,6 @@
         "change": -2.73
       },
       {
-        "ticker": "IDEAFORGE.NS",
-        "company": "ideaForge",
-        "price": 549.9,
-        "changePercent": 13.64,
-        "change": 66.0
-      },
-      {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
         "price": 18.8,
@@ -124,6 +117,13 @@
         "price": 75.93,
         "changePercent": 11.45,
         "change": 7.8
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 668000.0,
+        "changePercent": 11.15,
+        "change": 67000.0
       }
     ],
     "regulatory": [

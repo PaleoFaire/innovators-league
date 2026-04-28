@@ -1,63 +1,63 @@
 // Auto-generated news signals
-// Last updated: 2026-04-28T08:30:56.585Z
+// Last updated: 2026-04-28T09:30:31.579Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1777365056585,
+    "id": 1777368631579,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Elon Musk and Sam Altman are going to court over OpenAI’s future",
     "source": "MIT Tech Review",
-    "time": "9h ago",
+    "time": "10h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/"
   },
   {
-    "id": 1777365056586,
+    "id": 1777368631580,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
     "source": "TechCrunch",
-    "time": "14h ago",
+    "time": "15h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/"
   },
   {
-    "id": 1777365056587,
+    "id": 1777368631581,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "OpenAI could be making a phone with AI agents replacing apps",
     "source": "TechCrunch",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/"
   },
   {
-    "id": 1777365056588,
+    "id": 1777368631582,
     "type": "news",
     "company": "Pivotal",
     "headline": "Compass Therapeutics unveils key secondary endpoint results from pivotal biliary tract cancer trial",
     "source": "Endpoints News",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": true,
     "link": "https://endpoints.news/compass-therapeutics-unveils-key-secondary-endpoint-results-from-pivotal-biliary-tract-cancer-trial/"
   },
   {
-    "id": 1777365056589,
+    "id": 1777368631583,
     "type": "hire",
     "company": "Pivotal",
     "headline": "STAT+: Intellia says CRISPR-based treatment for rare disease reduced swelling attacks in pivotal trial",
     "source": "STAT News",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.statnews.com/2026/04/27/intellia-therapeutics-phase-3-trial-hereditary-angioedema-crispr-treatment/?utm_campaign=rss"
   },
   {
-    "id": 1777365056590,
+    "id": 1777368631584,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Launch Rate in 2026 After Reaching Orbital Operations, Booster and Starship Recovery",
@@ -68,7 +68,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/spacex-launch-rate-in-2026-after-reaching-orbital-operations-booster-and-starship-recovery.html"
   },
   {
-    "id": 1777365056591,
+    "id": 1777368631585,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX XAI 2027",
@@ -79,7 +79,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/spacex-xai-2027.html"
   },
   {
-    "id": 1777365056592,
+    "id": 1777368631586,
     "type": "news",
     "company": "Humanoid",
     "headline": "Accenture, Vodafone, and SAP to pilot humanoid robots in the warehouse",
@@ -90,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/accenture-vodafone-and-sap-to-pilot-humanoid-robots-in-the-warehouse/"
   },
   {
-    "id": 1777365056593,
+    "id": 1777368631587,
     "type": "news",
     "company": "Waymo",
     "headline": "Hyundai Partners With Waymo To Produce An IONIQ 5 Robotaxi — Field Trip",
@@ -101,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/04/24/hyundai-partners-with-waymo-to-produce-an-ioniq-5-robotaxi-field-trip/"
   },
   {
-    "id": 1777365056594,
+    "id": 1777368631588,
     "type": "news",
     "company": "Cohere",
     "headline": "Aleph Alpha to be acquired by Cohere",
@@ -112,18 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://tech.eu/2026/04/24/aleph-alpha-to-be-acquired-by-cohere/"
   },
   {
-    "id": 1777365056595,
-    "type": "funding",
-    "company": "Scale AI",
-    "headline": "Verda raises $117M to scale AI cloud infrastructure built on clean Nordic power",
-    "source": "Tech.eu",
-    "time": "4d ago",
-    "impact": "high",
-    "unread": false,
-    "link": "https://tech.eu/2026/04/24/verda-raises-117m-to-scale-ai-cloud-infrastructure-built-on-clean-nordic-power/"
-  },
-  {
-    "id": 1777365056596,
+    "id": 1777368631589,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?",
@@ -134,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/openai-gpt-5-5-has-good-ranking-scores-but-is-it-better.html"
   },
   {
-    "id": 1777365056597,
+    "id": 1777368631590,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX wins $57 million U.S. military contract for satellite crosslink demo",
@@ -145,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-wins-57-million-u-s-military-contract-for-satellite-crosslink-demo/"
   },
   {
-    "id": 1777365056598,
+    "id": 1777368631591,
     "type": "news",
     "company": "Anthropic",
     "headline": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
@@ -156,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
   },
   {
-    "id": 1777365056599,
+    "id": 1777368631592,
     "type": "news",
     "company": "Anthropic",
     "headline": "Elon Musk mulled Mistral deal to take on OpenAI and Anthropic, reports say",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/elon-musk-xai-mistral-partnership/"
   },
   {
-    "id": 1777365056600,
+    "id": 1777368631593,
     "type": "funding",
     "company": "Atmos Space Cargo",
     "headline": "Atmos Space Cargo raises $30 million for reentry missions",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/atmos-space-cargo-raises-30-million-for-reentry-missions/"
   },
   {
-    "id": 1777365056601,
+    "id": 1777368631594,
     "type": "ipo",
     "company": "AST SpaceMobile",
     "headline": "FCC clears AST SpaceMobile constellation as launch setback clouds ramp-up",
@@ -189,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/fcc-clears-ast-spacemobile-constellation-as-launch-setback-clouds-ramp-up/"
   },
   {
-    "id": 1777365056602,
+    "id": 1777368631595,
     "type": "hire",
     "company": "Rivian",
     "headline": "Rivian (RIVN) starts R2 production days after tornado hit factory, deliveries this spring",
@@ -200,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/04/22/rivian-r2-starts-production-tornado-deliveries-spring/"
   },
   {
-    "id": 1777365056603,
+    "id": 1777368631596,
     "type": "milestone",
     "company": "Matter",
     "headline": "The Download: introducing the 10 Things That Matter in AI Right Now",
@@ -211,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/"
   },
   {
-    "id": 1777365056604,
+    "id": 1777368631597,
     "type": "ipo",
     "company": "Fervo Energy",
     "headline": "Fervo Energy unveils new power plant details in IPO filing",
@@ -220,5 +209,16 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "high",
     "unread": false,
     "link": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
+  },
+  {
+    "id": 1777368631598,
+    "type": "news",
+    "company": "Blue Origin",
+    "headline": "Blue Origin&#039;s rocket reuse achievement marred by upper stage failure",
+    "source": "Ars Technica Space",
+    "time": "4/19/2026",
+    "impact": "low",
+    "unread": false,
+    "link": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/"
   }
 ];
