@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T18:23:17.323907+00:00",
+  "generatedAt": "2026-04-28T20:23:48.829712+00:00",
   "date": "2026-04-28",
   "dateDisplay": "Tuesday, April 28, 2026",
   "sections": {
@@ -70,25 +70,46 @@
     ],
     "marketMovers": [
       {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 71.81,
-        "changePercent": 14.7,
-        "change": 9.2
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 6.08,
+        "changePercent": -15.6,
+        "change": -1.12
       },
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 325.6,
-        "changePercent": 14.45,
-        "change": 41.11
+        "price": 324.04,
+        "changePercent": 13.9,
+        "change": 39.55
       },
       {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 6.34,
-        "changePercent": -12.07,
-        "change": -0.87
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 24.35,
+        "changePercent": -12.47,
+        "change": -3.47
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 2.35,
+        "changePercent": -11.47,
+        "change": -0.31
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 69.72,
+        "changePercent": 11.36,
+        "change": 7.11
+      },
+      {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 18.05,
+        "changePercent": -11.35,
+        "change": -2.31
       },
       {
         "ticker": "277810.KQ",
@@ -98,32 +119,11 @@
         "change": 67000.0
       },
       {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 2.37,
-        "changePercent": -10.9,
-        "change": -0.29
-      },
-      {
         "ticker": "ASRHF",
         "company": "Astroscale",
         "price": 8.15,
         "changePercent": -10.64,
         "change": -0.97
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 18.27,
-        "changePercent": -10.27,
-        "change": -2.09
-      },
-      {
-        "ticker": "ONT.L",
-        "company": "Oxford Nanopore Technologies",
-        "price": 112.7,
-        "changePercent": -9.48,
-        "change": -11.8
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "OKLO +14.7%"
+    "topMover": "SATL -15.6%"
   }
 }
