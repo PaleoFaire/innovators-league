@@ -5,68 +5,68 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.53,
+      "avg_change": -3.06,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -8.21,
+      "avg_change": -10.08,
       "count": 7
     },
     "autonomous": {
-      "gainers": 3,
-      "losers": 4,
-      "avg_change": 0.06,
+      "gainers": 2,
+      "losers": 5,
+      "avg_change": -0.7,
       "count": 7
     },
     "nuclear": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 5.98,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 3.72,
       "count": 3
     },
     "climate": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 0.29,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": 0.57,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.11,
+      "avg_change": -9.63,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.15,
+      "avg_change": -6.88,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -3.48,
+      "avg_change": -4.26,
       "count": 2
     },
     "chips": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 5.38,
+      "avg_change": 5.6,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "OKLO",
-      "Oklo",
-      14.7
+      "AMD",
+      "AMD",
+      13.9
     ],
     [
-      "AMD",
-      "AMD",
-      14.45
+      "OKLO",
+      "Oklo",
+      11.36
     ],
     [
       "277810.KQ",
@@ -76,40 +76,40 @@
     [
       "NVDA",
       "NVIDIA",
-      6.35
+      6.86
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      3.89
+      "LNZA",
+      "LanzaTech",
+      5.19
     ]
   ],
   "topLosers": [
-    [
-      "ONT.L",
-      "Oxford Nanopore Technologies",
-      -9.48
-    ],
-    [
-      "QBTS",
-      "D-Wave Quantum",
-      -10.27
-    ],
     [
       "ASRHF",
       "Astroscale",
       -10.64
     ],
     [
+      "QBTS",
+      "D-Wave Quantum",
+      -11.35
+    ],
+    [
       "EVTL",
       "Vertical Aerospace",
-      -10.9
+      -11.47
+    ],
+    [
+      "LUNR",
+      "Intuitive Machines",
+      -12.47
     ],
     [
       "SATL",
       "Satellogic",
-      -12.07
+      -15.6
     ]
   ],
-  "lastUpdated": "2026-04-28 14:22:42"
+  "lastUpdated": "2026-04-28 19:47:03"
 }
