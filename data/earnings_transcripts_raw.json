@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "generated_at": "2026-04-27 11:15:09 UTC",
+    "generated_at": "2026-04-28 09:57:12 UTC",
     "total_targets": 116,
-    "with_excerpts": 105,
+    "with_excerpts": 106,
     "sources": [
       "none",
       "sec_edgar",
@@ -462,11 +462,13 @@
     {
       "ticker": "CRWD",
       "company": "CrowdStrike",
-      "quarter": "pending",
-      "date": "",
-      "transcript_excerpts": [],
-      "source_url": "https://ir.crowdstrike.com/",
-      "source": "none"
+      "quarter": "2026-Q1",
+      "date": "2025-12-02",
+      "transcript_excerpts": [
+        "Latest 10-Q filing available via SEC EDGAR. See source URL for MD&A management commentary."
+      ],
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552725000033/0001535527-25-000033-index.htm",
+      "source": "sec_edgar"
     },
     {
       "ticker": "PANW",
