@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-04-27T08:33:46.037448Z",
+  "generated_at": "2026-04-28T08:32:00.139426Z",
   "takes": [
+    {
+      "author": "SpaceNews",
+      "role": "Industry signal",
+      "company": "Atmos Space Cargo",
+      "text": "Atmos Space Cargo raises $30 million for reentry missions",
+      "date": "Thu, 23 Ap",
+      "source": "news",
+      "source_url": "https://spacenews.com/atmos-space-cargo-raises-30-million-for-reentry-missions/",
+      "signal_type": "funding"
+    },
+    {
+      "author": "TechCrunch",
+      "role": "Industry signal",
+      "company": "OpenAI",
+      "text": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+      "date": "Mon, 27 Ap",
+      "source": "news",
+      "source_url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+      "signal_type": "news"
+    },
     {
       "author": "Canary Media",
       "role": "Industry signal",
@@ -35,7 +55,7 @@
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 3,
+    "from_news": 5,
     "from_press": 0
   }
 }

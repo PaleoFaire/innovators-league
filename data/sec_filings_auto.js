@@ -1,6 +1,11 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-27 08:32:59 UTC
+// Last updated: 2026-04-28 08:31:11 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Intuitive Machines", form: "DEF 14A", date: "2026-04-27", description: "tm2532185-5_def14a.htm", isIPO: false, ticker: "LUNR" },
+  { company: "Joby Aviation", form: "DEF 14A", date: "2026-04-27", description: "ny20064068x1_def14a.htm", isIPO: false, ticker: "JOBY" },
+  { company: "Agrify Corporation", form: "DEF 14A", date: "2026-04-27", description: "ea0286708-02.htm", isIPO: false, ticker: "AGFY" },
+  { company: "Rivian", form: "DEF 14A", date: "2026-04-27", description: "rivn-20260427.htm", isIPO: false, ticker: "RIVN" },
+  { company: "Astera Labs", form: "DEF 14A", date: "2026-04-27", description: "cook-20260427.htm", isIPO: false, ticker: "ALAB" },
   { company: "Palantir Technologies", form: "DEF 14A", date: "2026-04-24", description: "pltr-20260423.htm", isIPO: false, ticker: "PLTR" },
   { company: "Virgin Galactic", form: "8-K", date: "2026-04-24", description: "spce-20260424.htm", isIPO: false, ticker: "SPCE" },
   { company: "Centrus Energy", form: "DEF 14A", date: "2026-04-24", description: "leu-20260424.htm", isIPO: false, ticker: "LEU" },
@@ -46,9 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287314.xml", isIPO: false, ticker: "QBTS" },
   { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287224.xml", isIPO: false, ticker: "QBTS" },
   { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287102.xml", isIPO: false, ticker: "QBTS" },
-  { company: "Satellogic", form: "8-K", date: "2026-04-15", description: "ea0286487-8k_zoomcar.htm", isIPO: false, ticker: "SATL" },
-  { company: "Rocket Lab", form: "8-K", date: "2026-04-14", description: "g085683_8k.htm", isIPO: false, ticker: "RKLB" },
-  { company: "Virgin Galactic", form: "8-K", date: "2026-04-14", description: "spce-20260413.htm", isIPO: false, ticker: "SPCE" },
-  { company: "Oklo", form: "8-K", date: "2026-04-14", description: "oklo-20260410.htm", isIPO: false, ticker: "OKLO" },
-  { company: "Ginkgo Bioworks", form: "4", date: "2026-04-14", description: "xslF345X06/wk-form4_1776200454.xml", isIPO: false, ticker: "DNA" },
 ];
