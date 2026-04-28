@@ -80,6 +80,7 @@
     renderCompetitiveSection(currentCompany);
     renderIntelligenceSection(currentCompany);
     renderMarketIntelSection(currentCompany);
+    renderFounderInsightsFeed(currentCompany);  // 🎙️ Founder Insights — verbatim quotes
     renderRelatedSection(currentCompany);
     renderFounderSocialSignal(currentCompany);
     initActionButtons(currentCompany);
@@ -1796,6 +1797,76 @@
   // Renders founder X presence from data/twitter_signals_auto.json.
   // Hides itself if no record exists for this company.
   // ═══════════════════════════════════════════════════════
+  // ─── 🎙️ Founder Insights Feed ─────────────────────────────────
+  // Renders the per-founder "in their own words" section using
+  // window.FOUNDER_INSIGHTS_AUTO. If no insights for this company,
+  // section stays hidden (no-empty-UI rule).
+  function renderFounderInsightsFeed(company) {
+    var section = document.getElementById('profile-founder-insights');
+    var feed = document.getElementById('founder-insights-feed');
+    var titleEl = document.getElementById('founder-insights-title');
+    var subEl = document.getElementById('founder-insights-subtitle');
+    if (!section || !feed) return;
+
+    if (typeof FOUNDER_INSIGHTS_AUTO === 'undefined' ||
+        !FOUNDER_INSIGHTS_AUTO.byCompany ||
+        !FOUNDER_INSIGHTS_AUTO.byCompany[company.name]) {
+      // No insights yet — keep section hidden
+      return;
+    }
+
+    var data = FOUNDER_INSIGHTS_AUTO.byCompany[company.name];
+    var insights = data.insights || [];
+    if (insights.length === 0) return;
+
+    var founder = data.founder || company.founder || 'Founder';
+    var primaryFounder = founder.split(',')[0].trim();
+    if (titleEl) titleEl.textContent = primaryFounder + ' · In Their Own Words';
+    if (subEl) {
+      subEl.textContent = 'Verbatim quotes from ' + insights.length +
+        ' public source' + (insights.length !== 1 ? 's' : '') +
+        ' — podcast appearances, earnings calls, news interviews. Every quote linked back to the original source.';
+    }
+
+    var SOURCE_ICONS = {
+      podcast: '🎙️',
+      earnings: '📊',
+      news: '📰',
+      newsletter: '📬',
+      other: '🔗'
+    };
+
+    var html = insights.map(function(ins) {
+      var icon = SOURCE_ICONS[ins.source_type] || SOURCE_ICONS.other;
+      var paraphraseTag = ins.paraphrased
+        ? '<span class="founder-insight-paraphrase-tag" title="Paraphrased from source — not direct verbatim">paraphrase</span>'
+        : '';
+      var topicHtml = ins.topic
+        ? '<span class="founder-insight-topic">' + escapeHtml(ins.topic) + '</span>'
+        : '';
+      var dateHtml = ins.date
+        ? '<span class="founder-insight-date">' + escapeHtml(ins.date) + '</span>'
+        : '';
+      var paraphraseClass = ins.paraphrased ? ' founder-insight-paraphrased' : '';
+
+      return '<div class="founder-insight-card' + paraphraseClass + '">' +
+        '<p class="founder-insight-quote">' + escapeHtml(ins.quote) + paraphraseTag + '</p>' +
+        '<div class="founder-insight-meta">' +
+          topicHtml +
+          '<span class="founder-insight-source">' +
+            '<span class="founder-insight-source-icon">' + icon + '</span> ' +
+            escapeHtml(ins.source_name || ins.source_type || 'source') +
+          '</span>' +
+          dateHtml +
+          (ins.url ? '<a href="' + escapeHtml(ins.url) + '" target="_blank" rel="noopener" class="founder-insight-verify">Verify →</a>' : '') +
+        '</div>' +
+      '</div>';
+    }).join('');
+
+    feed.innerHTML = html;
+    section.style.display = 'block';
+  }
+
   function renderFounderSocialSignal(company) {
     const section = document.getElementById('profile-social');
     const grid = document.getElementById('social-grid');

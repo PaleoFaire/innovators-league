@@ -2826,3 +2826,131 @@
   border-radius: 4px;
   font-family: 'Inter', Arial, system-ui, sans-serif;
 }
+
+/* ─── Founder Insights Feed ─── */
+.profile-founder-insights {
+  margin-top: 24px;
+}
+
+.founder-insights-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.founder-insight-card {
+  background: linear-gradient(135deg, rgba(255,107,44,0.05) 0%, rgba(255,107,44,0.02) 100%);
+  border: 1px solid rgba(255,107,44,0.18);
+  border-left: 3px solid var(--accent, #FF6B2C);
+  border-radius: 10px;
+  padding: 18px 22px;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.founder-insight-card:hover {
+  border-color: rgba(255,107,44,0.4);
+  background: linear-gradient(135deg, rgba(255,107,44,0.07) 0%, rgba(255,107,44,0.03) 100%);
+}
+
+.founder-insight-quote {
+  font-size: 16px;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.95);
+  font-style: italic;
+  margin: 0 0 12px;
+  position: relative;
+  padding-left: 18px;
+}
+
+.founder-insight-quote::before {
+  content: '"';
+  position: absolute;
+  left: -2px;
+  top: -8px;
+  font-size: 36px;
+  color: rgba(255,107,44,0.5);
+  font-family: 'Space Grotesk', monospace;
+  font-style: normal;
+  line-height: 1;
+}
+
+.founder-insight-paraphrased .founder-insight-quote {
+  font-style: normal;
+  color: rgba(255,255,255,0.78);
+}
+
+.founder-insight-paraphrased .founder-insight-quote::before {
+  content: '↪';
+  font-size: 22px;
+  color: rgba(255,255,255,0.4);
+  top: 0;
+}
+
+.founder-insight-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  font-size: 11.5px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255,107,44,0.1);
+}
+
+.founder-insight-topic {
+  background: rgba(255,107,44,0.15);
+  color: var(--accent, #FF6B2C);
+  padding: 3px 9px;
+  border-radius: 10px;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.founder-insight-source {
+  color: rgba(255,255,255,0.55);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.founder-insight-source-icon {
+  font-size: 13px;
+}
+
+.founder-insight-date {
+  color: rgba(255,255,255,0.4);
+  font-size: 11px;
+  font-family: 'Space Grotesk', monospace;
+}
+
+.founder-insight-verify {
+  margin-left: auto;
+  color: var(--accent, #FF6B2C);
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.founder-insight-verify:hover {
+  text-decoration: underline;
+}
+
+.founder-insight-paraphrase-tag {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.55);
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+}
+
+@media (max-width: 720px) {
+  .founder-insight-quote { font-size: 14px; padding-left: 14px; }
+  .founder-insight-quote::before { font-size: 28px; }
+}

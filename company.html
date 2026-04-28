@@ -355,6 +355,18 @@
                 </div>
             </section>
 
+            <!-- Founder Insights Feed — verbatim quotes from podcasts, earnings, news, newsletters -->
+            <section class="profile-section profile-founder-insights" id="profile-founder-insights" style="display:none;">
+                <h2 class="section-title">
+                    <span class="section-icon">🎙️</span>
+                    <span id="founder-insights-title">In Their Own Words</span>
+                </h2>
+                <p class="founder-insights-subtitle" id="founder-insights-subtitle" style="color:rgba(255,255,255,0.55); font-size:13px; margin:-8px 0 18px; font-style:italic;"></p>
+                <div class="founder-insights-feed" id="founder-insights-feed">
+                    <!-- Populated by JS from window.FOUNDER_INSIGHTS_AUTO -->
+                </div>
+            </section>
+
             <!-- Founder Social Signal (X / Twitter) -->
             <section class="profile-section profile-social" id="profile-social" style="display:none;">
                 <h2 class="social-title">
@@ -493,6 +505,7 @@
     <script src="data/news_signals_auto.js?v=20260325"></script>
     <script src="data/patent_intel_auto.js?v=20260325"></script>
     <script src="data/public_multiples_auto.js?v=20260427"></script>
+    <script src="data/founder_insights_auto.js?v=20260427"></script>
     <script src="data/github_releases_auto.js?v=20260325"></script>
     <script src="data/arxiv_papers_auto.js?v=20260325"></script>
     <script src="data/clinical_trials_auto.js?v=20260325"></script>

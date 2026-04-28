@@ -272,6 +272,16 @@ jobs:
       - name: Generate weekly digest (markdown + JSON for email)
         run: python scripts/scout_generate_digest.py
 
+      - name: Build Founder Insights Feed (LLM extraction per founder)
+        # For each company in DB, gathers all public sources where the
+        # founder appears (podcasts, news, earnings, newsletters), then
+        # uses Claude to extract the most important verbatim quotes.
+        # Output: data/founder_insights_auto.{json,js} for company.html
+        # to render as a per-founder "in their own words" feed.
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+        run: python scripts/build_founder_insights.py
+
       - uses: actions/upload-artifact@v4
         with:
           name: discovery-data
