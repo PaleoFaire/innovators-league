@@ -5,73 +5,68 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -1.91,
+      "avg_change": -2.53,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -6.49,
+      "avg_change": -8.21,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -1.18,
+      "avg_change": 0.06,
       "count": 7
     },
     "nuclear": {
-      "gainers": 2,
-      "losers": 1,
-      "avg_change": 3.75,
+      "gainers": 3,
+      "losers": 0,
+      "avg_change": 5.98,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.78,
+      "avg_change": 0.29,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.12,
+      "avg_change": -8.11,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.41,
+      "avg_change": -6.15,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -2.35,
+      "avg_change": -3.48,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 13.59,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 5.38,
       "count": 3
     }
   },
   "topGainers": [
     [
-      "AMD",
-      "AMD",
-      21.71
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      11.85
-    ],
-    [
       "OKLO",
       "Oklo",
-      11.45
+      14.7
+    ],
+    [
+      "AMD",
+      "AMD",
+      14.45
     ],
     [
       "277810.KQ",
@@ -81,35 +76,40 @@
     [
       "NVDA",
       "NVIDIA",
-      7.2
+      6.35
+    ],
+    [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      3.89
     ]
   ],
   "topLosers": [
     [
       "ONT.L",
       "Oxford Nanopore Technologies",
-      -9.32
-    ],
-    [
-      "ASRHF",
-      "Astroscale",
-      -12.69
+      -9.48
     ],
     [
       "QBTS",
       "D-Wave Quantum",
-      -13.2
+      -10.27
     ],
     [
-      "RGTI",
-      "Rigetti Computing",
-      -13.9
+      "ASRHF",
+      "Astroscale",
+      -10.64
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -16.78
+      -10.9
+    ],
+    [
+      "SATL",
+      "Satellogic",
+      -12.07
     ]
   ],
-  "lastUpdated": "2026-04-28 08:31:24"
+  "lastUpdated": "2026-04-28 14:22:42"
 }
