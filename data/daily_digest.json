@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T11:54:21.248781+00:00",
+  "generatedAt": "2026-04-28T14:36:17.102457+00:00",
   "date": "2026-04-28",
   "dateDisplay": "Tuesday, April 28, 2026",
   "sections": {
@@ -70,53 +70,25 @@
     ],
     "marketMovers": [
       {
-        "ticker": "AMD",
-        "company": "AMD",
-        "price": 334.63,
-        "changePercent": 21.71,
-        "change": 59.68
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 2.38,
-        "changePercent": -16.78,
-        "change": -0.48
-      },
-      {
-        "ticker": "RGTI",
-        "company": "Rigetti Computing",
-        "price": 16.91,
-        "changePercent": -13.9,
-        "change": -2.73
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 18.8,
-        "changePercent": -13.2,
-        "change": -2.86
-      },
-      {
-        "ticker": "ASRHF",
-        "company": "Astroscale",
-        "price": 8.15,
-        "changePercent": -12.69,
-        "change": -1.19
-      },
-      {
-        "ticker": "ALAB",
-        "company": "Astera Labs",
-        "price": 196.64,
-        "changePercent": 11.85,
-        "change": 20.84
-      },
-      {
         "ticker": "OKLO",
         "company": "Oklo",
-        "price": 75.93,
-        "changePercent": 11.45,
-        "change": 7.8
+        "price": 71.81,
+        "changePercent": 14.7,
+        "change": 9.2
+      },
+      {
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 325.6,
+        "changePercent": 14.45,
+        "change": 41.11
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 6.34,
+        "changePercent": -12.07,
+        "change": -0.87
       },
       {
         "ticker": "277810.KQ",
@@ -124,6 +96,34 @@
         "price": 668000.0,
         "changePercent": 11.15,
         "change": 67000.0
+      },
+      {
+        "ticker": "EVTL",
+        "company": "Vertical Aerospace",
+        "price": 2.37,
+        "changePercent": -10.9,
+        "change": -0.29
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 8.15,
+        "changePercent": -10.64,
+        "change": -0.97
+      },
+      {
+        "ticker": "QBTS",
+        "company": "D-Wave Quantum",
+        "price": 18.27,
+        "changePercent": -10.27,
+        "change": -2.09
+      },
+      {
+        "ticker": "ONT.L",
+        "company": "Oxford Nanopore Technologies",
+        "price": 112.7,
+        "changePercent": -9.48,
+        "change": -11.8
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AMD +21.7%"
+    "topMover": "OKLO +14.7%"
   }
 }
