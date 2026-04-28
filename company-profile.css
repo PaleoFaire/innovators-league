@@ -2954,3 +2954,186 @@
   .founder-insight-quote { font-size: 14px; padding-left: 14px; }
   .founder-insight-quote::before { font-size: 28px; }
 }
+
+/* ─── 💎 Comp-Set + Valuation Triangulation ─── */
+.profile-comp-set { margin-top: 24px; }
+
+.comp-set-range-card {
+  background: linear-gradient(135deg, rgba(96,165,250,0.08) 0%, rgba(96,165,250,0.02) 100%);
+  border: 1px solid rgba(96,165,250,0.25);
+  border-radius: 14px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+}
+
+.comp-range-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.comp-range-cell {
+  text-align: center;
+  background: rgba(0,0,0,0.18);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 16px 12px;
+}
+
+.comp-range-cell.median {
+  border-color: rgba(96,165,250,0.5);
+  background: rgba(96,165,250,0.12);
+}
+
+.comp-range-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 6px;
+}
+
+.comp-range-value {
+  font-family: 'Space Grotesk', monospace;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.comp-range-current {
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid rgba(96,165,250,0.15);
+}
+
+.comp-range-current strong { color: #93c5fd; }
+
+.comp-methods {
+  margin-top: 18px;
+}
+
+.comp-method-row {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 8px;
+}
+
+.comp-method-row.skip {
+  opacity: 0.55;
+  background: transparent;
+  border-style: dashed;
+}
+
+.comp-method-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+
+.comp-method-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.comp-method-result {
+  font-family: 'Space Grotesk', monospace;
+  font-size: 16px;
+  font-weight: 700;
+  color: #93c5fd;
+}
+
+.comp-method-skip {
+  font-size: 11px;
+  color: rgba(255,255,255,0.4);
+  font-style: italic;
+}
+
+.comp-method-rationale {
+  font-size: 12px;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.5;
+}
+
+.comp-table {
+  margin-top: 18px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.comp-table-section-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: #93c5fd;
+  font-weight: 700;
+  padding: 12px 16px;
+  background: rgba(96,165,250,0.08);
+  border-bottom: 1px solid rgba(96,165,250,0.18);
+}
+
+.comp-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.comp-table th {
+  text-align: left;
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(255,255,255,0.45);
+  padding: 10px 14px;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.comp-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.85);
+}
+
+.comp-table td.num { text-align: right; font-family: 'Space Grotesk', monospace; }
+
+.comp-table tbody tr:hover { background: rgba(96,165,250,0.04); }
+
+.comp-table .no-val { color: rgba(255,255,255,0.3); font-style: italic; font-size: 11px; }
+
+.comp-narrative {
+  margin-top: 18px;
+  padding: 18px 22px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.82);
+  white-space: pre-wrap;
+}
+
+.comp-narrative-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #93c5fd;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.comp-verify-link {
+  font-size: 11px;
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+.comp-verify-link:hover { text-decoration: underline; }

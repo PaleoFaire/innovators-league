@@ -282,6 +282,16 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
         run: python scripts/build_founder_insights.py
 
+      - name: Build Comp-Set + Valuation Triangulation
+        # Per-company peer comp set + 3-method valuation range. All math
+        # is deterministic Python — LLM ONLY writes the synthesis
+        # narrative paragraph using the math we hand it. Every number
+        # traced to source data; no estimation; "n/a" shown when missing.
+        # Output: data/comp_sets_auto.{json,js}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+        run: python scripts/build_comp_sets.py
+
       - uses: actions/upload-artifact@v4
         with:
           name: discovery-data

@@ -80,6 +80,7 @@
     renderCompetitiveSection(currentCompany);
     renderIntelligenceSection(currentCompany);
     renderMarketIntelSection(currentCompany);
+    renderCompSetSection(currentCompany);       // 💎 Comp-Set + Valuation Triangulation
     renderFounderInsightsFeed(currentCompany);  // 🎙️ Founder Insights — verbatim quotes
     renderRelatedSection(currentCompany);
     renderFounderSocialSignal(currentCompany);
@@ -1797,6 +1798,133 @@
   // Renders founder X presence from data/twitter_signals_auto.json.
   // Hides itself if no record exists for this company.
   // ═══════════════════════════════════════════════════════
+  // ─── 💎 Comp-Set + Valuation Triangulation ───────────────────
+  // Renders deterministic peer comp set + valuation range from
+  // window.COMP_SETS_AUTO. All numbers traced to source data; LLM
+  // narrative (when present) is grounded in passed-in math.
+  function renderCompSetSection(company) {
+    var section = document.getElementById('profile-comp-set');
+    var content = document.getElementById('comp-set-content');
+    if (!section || !content) return;
+    if (typeof COMP_SETS_AUTO === 'undefined' ||
+        !COMP_SETS_AUTO.byCompany ||
+        !COMP_SETS_AUTO.byCompany[company.name]) {
+      return;  // hide section if no data — no-empty-UI rule
+    }
+
+    var data = COMP_SETS_AUTO.byCompany[company.name];
+    var t = data.target || {};
+    var methods = data.methods || [];
+    var tri = data.triangulated;
+    var cs = data.compSet || { public: [], private: [] };
+
+    // Don't render if NO methods applicable AND comp set is empty
+    var anyApplicable = methods.some(function(m) { return m && m.applicable; });
+    if (!anyApplicable && (!cs.public || cs.public.length === 0) && (!cs.private || cs.private.length === 0)) {
+      return;
+    }
+
+    var html = '';
+
+    // Triangulation range card
+    if (tri) {
+      html += '<div class="comp-set-range-card">' +
+        '<div class="comp-range-grid">' +
+          '<div class="comp-range-cell"><div class="comp-range-label">Low</div><div class="comp-range-value">' + escapeHtml(tri.low_fmt) + '</div></div>' +
+          '<div class="comp-range-cell median"><div class="comp-range-label">Median</div><div class="comp-range-value">' + escapeHtml(tri.median_fmt) + '</div></div>' +
+          '<div class="comp-range-cell"><div class="comp-range-label">High</div><div class="comp-range-value">' + escapeHtml(tri.high_fmt) + '</div></div>' +
+        '</div>';
+      if (t.currentValuation) {
+        html += '<div class="comp-range-current">Current on-file valuation: <strong>' + escapeHtml(t.currentValuation) + '</strong> · Triangulation uses ' + tri.method_count + ' method' + (tri.method_count !== 1 ? 's' : '') + '</div>';
+      } else {
+        html += '<div class="comp-range-current">No current valuation on file · Triangulation uses ' + tri.method_count + ' method' + (tri.method_count !== 1 ? 's' : '') + '</div>';
+      }
+      html += '</div>';
+    }
+
+    // Method breakdown
+    if (methods.length) {
+      html += '<div class="comp-methods">';
+      methods.forEach(function(m) {
+        if (!m) return;
+        if (m.applicable) {
+          html += '<div class="comp-method-row">' +
+            '<div class="comp-method-head">' +
+              '<span class="comp-method-name">' + escapeHtml(m.name) + '</span>' +
+              '<span class="comp-method-result">' + escapeHtml(m.implied_fmt || '') + '</span>' +
+            '</div>' +
+            '<div class="comp-method-rationale">' + escapeHtml(m.rationale || '') + '</div>' +
+          '</div>';
+        } else {
+          html += '<div class="comp-method-row skip">' +
+            '<div class="comp-method-head">' +
+              '<span class="comp-method-name">' + escapeHtml(m.name) + '</span>' +
+              '<span class="comp-method-skip">not applicable</span>' +
+            '</div>' +
+            '<div class="comp-method-rationale">' + escapeHtml(m.rationale || m.skip_reason || '') + '</div>' +
+          '</div>';
+        }
+      });
+      html += '</div>';
+    }
+
+    // Comp-set table — public + private
+    if ((cs.public && cs.public.length) || (cs.private && cs.private.length)) {
+      html += '<div class="comp-table" style="margin-top:18px;">';
+
+      if (cs.public && cs.public.length) {
+        html += '<div class="comp-table-section-label">Public Comparables (' + cs.public.length + ')</div>' +
+          '<table><thead><tr>' +
+          '<th>Ticker</th><th>Company</th><th class="num">Market Cap</th><th class="num">P/S</th><th class="num">EV/Rev</th><th class="num">Rev Growth</th><th>Verify</th>' +
+          '</tr></thead><tbody>';
+        cs.public.forEach(function(p) {
+          var ps = (p.priceToSales != null) ? p.priceToSales.toFixed(1) + 'x' : '<span class="no-val">n/a</span>';
+          var evr = (p.evRevenue != null) ? p.evRevenue.toFixed(1) + 'x' : '<span class="no-val">n/a</span>';
+          var rg = (p.revenueGrowth != null) ? (p.revenueGrowth * 100).toFixed(0) + '%' : '<span class="no-val">n/a</span>';
+          html += '<tr>' +
+            '<td><strong>' + escapeHtml(p.ticker) + '</strong></td>' +
+            '<td>' + escapeHtml(p.company || '') + '</td>' +
+            '<td class="num">' + escapeHtml(p.marketCap || '<span class="no-val">n/a</span>') + '</td>' +
+            '<td class="num">' + ps + '</td>' +
+            '<td class="num">' + evr + '</td>' +
+            '<td class="num">' + rg + '</td>' +
+            '<td>' + (p.yahooUrl ? '<a class="comp-verify-link" href="' + escapeHtml(p.yahooUrl) + '" target="_blank" rel="noopener">Yahoo →</a>' : '') + '</td>' +
+          '</tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      if (cs.private && cs.private.length) {
+        html += '<div class="comp-table-section-label">Private Comparables (' + cs.private.length + ')</div>' +
+          '<table><thead><tr>' +
+          '<th>Company</th><th>Stage</th><th class="num">Valuation</th><th>Why It\'s a Comp</th>' +
+          '</tr></thead><tbody>';
+        cs.private.forEach(function(p) {
+          var profileUrl = 'company.html?name=' + encodeURIComponent(p.name);
+          html += '<tr>' +
+            '<td><a href="' + profileUrl + '" style="color:#93c5fd; text-decoration:none;">' + escapeHtml(p.name) + '</a></td>' +
+            '<td>' + escapeHtml(p.stage || '—') + '</td>' +
+            '<td class="num">' + escapeHtml(p.valuation || '<span class="no-val">n/a</span>') + '</td>' +
+            '<td style="font-size:12px; color:rgba(255,255,255,0.65);">' + escapeHtml(p.rationale || '') + '</td>' +
+          '</tr>';
+        });
+        html += '</tbody></table>';
+      }
+      html += '</div>';
+    }
+
+    // LLM narrative (if generated)
+    if (data.narrative && data.narrative.trim()) {
+      html += '<div class="comp-narrative">' +
+        '<div class="comp-narrative-label">📝 ROS Synthesis</div>' +
+        escapeHtml(data.narrative) +
+      '</div>';
+    }
+
+    content.innerHTML = html;
+    section.style.display = 'block';
+  }
+
   // ─── 🎙️ Founder Insights Feed ─────────────────────────────────
   // Renders the per-founder "in their own words" section using
   // window.FOUNDER_INSIGHTS_AUTO. If no insights for this company,
