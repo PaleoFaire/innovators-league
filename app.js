@@ -3136,22 +3136,26 @@ function initFilters() {
   });
   stageFilter.addEventListener('change', applyFilters);
 
-  // City filter — dynamically built from company locations
+  // City filter — dynamically built from company locations.
+  // FIX 2026-04: use the FULL location string as the key (e.g.
+  // "Cambridge, MA" vs "Cambridge, UK") so same-name cities in
+  // different regions stay distinct. Previously stripped to first
+  // token which collapsed Cambridge MA + Cambridge UK into one entry.
   const cityFilter = document.getElementById('city-filter');
   if (cityFilter) {
     const cityCount = {};
     COMPANIES.forEach(c => {
       if (c.location) {
-        const city = c.location.split(',')[0].trim();
-        if (city) cityCount[city] = (cityCount[city] || 0) + 1;
+        const cityKey = c.location.trim();
+        if (cityKey) cityCount[cityKey] = (cityCount[cityKey] || 0) + 1;
       }
     });
     const citiesSorted = Object.entries(cityCount)
       .sort((a, b) => b[1] - a[1]); // sort by count descending
-    citiesSorted.forEach(([city, count]) => {
+    citiesSorted.forEach(([cityKey, count]) => {
       const opt = document.createElement('option');
-      opt.value = city;
-      opt.textContent = `${city} (${count})`;
+      opt.value = cityKey;
+      opt.textContent = `${cityKey} (${count})`;
       cityFilter.appendChild(opt);
     });
     cityFilter.addEventListener('change', applyFilters);
@@ -3207,12 +3211,12 @@ function applyFilters() {
     filtered = filtered.filter(c => c.fundingStage === stage);
   }
 
-  // City filter
+  // City filter — match on full location string so same-name cities in
+  // different regions (e.g. Cambridge MA vs Cambridge UK) stay distinct.
   if (city && city !== 'all') {
     filtered = filtered.filter(c => {
       if (!c.location) return false;
-      const companyCity = c.location.split(',')[0].trim();
-      return companyCity === city;
+      return c.location.trim() === city;
     });
   }
 
@@ -4082,7 +4086,7 @@ function exportCompanyList() {
   if (country && country !== 'all') companies = companies.filter(c => getCountry(c.state, c.location) === country);
   if (stateCode && stateCode !== 'all') companies = companies.filter(c => c.state === stateCode && getCountry(c.state, c.location) === 'United States');
   if (stage && stage !== 'all') companies = companies.filter(c => c.fundingStage === stage);
-  if (city && city !== 'all') companies = companies.filter(c => c.location && c.location.split(',')[0].trim() === city);
+  if (city && city !== 'all') companies = companies.filter(c => c.location && c.location.trim() === city);
   if (special === 'innovator50') companies = companies.filter(c => isInROS50(c.name));
   if (special === 'govContracts') companies = companies.filter(c => typeof GOV_CONTRACTS !== 'undefined' && GOV_CONTRACTS.some(g => g.company === c.name));
   if (searchTerm) {
@@ -11554,12 +11558,13 @@ function initOpti() {
 
   function buildLocationResponse(q) {
     if (typeof COMPANIES === 'undefined') return { text: "Database loading..." };
-    // Try to extract a city from the query
+    // Aggregate by full location string (so "Cambridge, MA" and
+    // "Cambridge, UK" stay distinct in the response).
     const cities = {};
     COMPANIES.forEach(c => {
       if (c.location) {
-        const city = c.location.split(',')[0].trim();
-        cities[city] = (cities[city] || 0) + 1;
+        const cityKey = c.location.trim();
+        cities[cityKey] = (cities[cityKey] || 0) + 1;
       }
     });
     const topCities = Object.entries(cities).sort((a, b) => b[1] - a[1]).slice(0, 8);
