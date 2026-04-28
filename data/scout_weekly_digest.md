@@ -141,4 +141,4 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 ---
 
 
-*Generated 2026-04-28T03:43:18+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-04-28T03:59:36+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*

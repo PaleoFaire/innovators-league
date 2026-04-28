@@ -1,7 +1,7 @@
 // Auto-generated from scout_briefing_auto.json
-// Last updated: 2026-04-28T03:43:18+00:00
+// Last updated: 2026-04-28T03:59:36+00:00
 const SCOUT_BRIEFING_AUTO = {
-  "generatedAt": "2026-04-28T03:43:18+00:00",
+  "generatedAt": "2026-04-28T03:59:36+00:00",
   "weekOf": "2026-04-28",
   "summary": {
     "rosterSize": 1007,

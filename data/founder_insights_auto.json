@@ -1,71 +1,19 @@
 {
-  "generatedAt": "2026-04-28T03:45:58+00:00",
+  "generatedAt": "2026-04-28T04:02:03+00:00",
   "model": "claude-haiku-4-5",
   "companiesProcessed": 141,
   "companiesWithInsights": 5,
-  "totalInsights": 13,
+  "totalInsights": 11,
   "newClaudeCallsThisRun": 141,
   "byCompany": {
-    "OpenAI": {
-      "founder": "Sam Altman, Greg Brockman, Ilya Sutskever",
-      "ticker": null,
-      "lastUpdated": "2026-04-28T03:43:39+00:00",
-      "insights": [
-        {
-          "quote": "the company began to believe that intensifying competition could make it dangerous to share how it develops its AI models and that a nonprofit structure could not raise enough money to keep building AI",
-          "topic": "Nonprofit to for-profit transition rationale",
-          "source_type": "news",
-          "source_name": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
-          "date": "2026-04-27",
-          "paraphrased": true
-        },
-        {
-          "quote": "In October 2025, state attorneys general of California, where OpenAI is headquartered, and Delaware, where OpenAI is incorporated, struck a deal with OpenAI to approve its new corporate structure on a series of conditions. For example, a safety and security committee at the nonprofit would review safety-related decisions made by the for-profit subsidiary.",
-          "topic": "Corporate governance and safety oversight",
-          "source_type": "news",
-          "source_name": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
-          "date": "2026-04-27",
-          "paraphrased": true
-        },
-        {
-          "quote": "OpenAI products will ship 'first on Azure, unless Microsoft cannot and chooses not to support the necessary capabilities,' the companies say. But, critically, 'OpenAI can now serve all its products to customers across any cloud provider.'",
-          "topic": "Cloud partnership and multi-vendor strategy",
-          "source_type": "news",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
-          "date": "2026-04-27",
-          "paraphrased": true
-        },
-        {
-          "quote": "OpenAI would develop a smartphone chip with MediaTek and Qualcomm, with Luxshare acting as a co-design and manufacturing partner. The analyst's note also suggests that instead of apps, the smartphone could rely on AI agents to complete different tasks.",
-          "topic": "Hardware expansion and AI agents",
-          "source_type": "news",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
-          "date": "2026-04-27",
-          "paraphrased": true
-        },
-        {
-          "quote": "By creating its own smartphone and hardware stack, OpenAI would be able to use AI in all kinds of features without restrictions. With ChatGPT nearing a billion weekly users, a hardware product for daily use could also bode well for OpenAI's ambition to reach more consumers.",
-          "topic": "Hardware strategy and consumer reach",
-          "source_type": "news",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
-          "date": "2026-04-27",
-          "paraphrased": true
-        }
-      ]
-    },
     "SpaceX": {
       "founder": "Elon Musk",
       "ticker": null,
-      "lastUpdated": "2026-04-28T03:44:01+00:00",
+      "lastUpdated": "2026-04-28T04:00:09+00:00",
       "insights": [
         {
           "quote": "What an absolute privilege it is to come to work at @SpaceX every day. So damn cool to showcase the greatest team on Earth. The team, the team, the team!!!",
-          "topic": "company culture, team pride",
+          "topic": "company culture, team",
           "source_type": "news",
           "source_name": "Next Big Future",
           "url": "https://www.nextbigfuture.com/2026/04/spacex-launch-rate-in-2026-after-reaching-orbital-operations-booster-and-starship-recovery.html",
@@ -74,10 +22,26 @@
         }
       ]
     },
+    "xAI": {
+      "founder": "Elon Musk",
+      "ticker": null,
+      "lastUpdated": "2026-04-28T04:00:51+00:00",
+      "insights": [
+        {
+          "quote": "The SpaceX-XAI buying Cursor deal will likely be a huge win.",
+          "topic": "Cursor acquisition strategy",
+          "source_type": "news",
+          "source_name": "Next Big Future",
+          "url": "https://www.nextbigfuture.com/2026/04/spacex-xai-2027.html",
+          "date": "2026-04-25",
+          "paraphrased": false
+        }
+      ]
+    },
     "Rocket Lab": {
       "founder": "Peter Beck",
       "ticker": null,
-      "lastUpdated": "2026-04-28T03:44:47+00:00",
+      "lastUpdated": "2026-04-28T04:00:56+00:00",
       "insights": [
         {
           "quote": "The priority will always be to bring a reliable rocket to market, even if it means taking a few extra months.",
@@ -93,7 +57,7 @@
     "General Matter": {
       "founder": "Scott Nolan, Lee Robinson",
       "ticker": null,
-      "lastUpdated": "2026-04-28T03:45:18+00:00",
+      "lastUpdated": "2026-04-28T04:01:20+00:00",
       "insights": [
         {
           "quote": "spent 12 years at Founders Fund looking for the most important problems that no one else was funding. Then he found a problem so critical, and so ignored, that he couldn't find a company to back. So he started one.",
@@ -105,7 +69,7 @@
           "paraphrased": true
         },
         {
-          "quote": "General Matter is rebuilding US uranium enrichment.",
+          "quote": "General Matter is rebuilding US uranium enrichment. The United States was the world leader in enrichment through the 1980s and then stopped entirely.",
           "topic": "company mission",
           "source_type": "podcast",
           "source_name": "Invest Like the Best",
@@ -118,42 +82,60 @@
     "Fervo Energy": {
       "founder": "Tim Latimer, Jack Norbeck",
       "ticker": null,
-      "lastUpdated": "2026-04-28T03:45:26+00:00",
+      "lastUpdated": "2026-04-28T04:01:30+00:00",
       "insights": [
         {
           "quote": "Fervo makes use of horizontal-drilling techniques honed in the shale oil and gas sector, where its CEO, Tim Latimer, worked before co-founding the company in 2017 alongside Jack Norbeck.",
-          "topic": "Technology foundation, background",
+          "topic": "technology foundation, prior experience",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
           "date": "2026-04-20",
-          "paraphrased": true
-        },
-        {
-          "quote": "multiple projects in various stages of progress and is pursuing multi-year, multi-gigawatt offtake partnerships with both utilities and hyperscalers",
-          "topic": "Pipeline strategy, customer partnerships",
-          "source_type": "news",
-          "source_name": "Canary Media",
-          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
-          "date": "2026-04-09",
-          "paraphrased": true
-        },
-        {
-          "quote": "The Cape Station site has an estimated 4.3 GW of capacity potential, based on internal and independent estimates.",
-          "topic": "Project scale and potential",
-          "source_type": "news",
-          "source_name": "Canary Media",
-          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
-          "date": "2026-04-09",
           "paraphrased": true
         },
         {
           "quote": "Fervo has a total of 3.65 gigawatts of power plant capacity that are under construction, ready to build, or in advanced stages of development",
-          "topic": "Development pipeline",
+          "topic": "project pipeline scale",
           "source_type": "news",
           "source_name": "Canary Media",
           "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
           "date": "2026-04-20",
+          "paraphrased": false
+        },
+        {
+          "quote": "Across the nearly 600,000 acres it has leased \u2014 spanning public and private land in the American West, from New Mexico up to Washington \u2014 Fervo estimates that it has the potential to develop over 42 GW in total geothermal-energy capacity.",
+          "topic": "land portfolio and potential capacity",
+          "source_type": "news",
+          "source_name": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
+          "date": "2026-04-20",
+          "paraphrased": false
+        },
+        {
+          "quote": "the Cape Station site has an estimated 4.3 GW of capacity potential, based on internal and independent estimates",
+          "topic": "single site expansion potential",
+          "source_type": "news",
+          "source_name": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
+          "date": "2026-04-09",
+          "paraphrased": false
+        },
+        {
+          "quote": "the company has 'multiple projects in various stages of progress' and is pursuing 'multi-year, multi-gigawatt offtake partnerships with both utilities and hyperscalers'",
+          "topic": "customer strategy, commercial partnerships",
+          "source_type": "news",
+          "source_name": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
+          "date": "2026-04-09",
+          "paraphrased": true
+        },
+        {
+          "quote": "This week's development with Turboden 'helps streamline project execution and accelerate deployment as our project pipeline advances'",
+          "topic": "supply chain strategy, execution velocity",
+          "source_type": "news",
+          "source_name": "Canary Media",
+          "url": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal",
+          "date": "2026-04-09",
           "paraphrased": true
         }
       ]
