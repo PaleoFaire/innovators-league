@@ -652,12 +652,16 @@ jobs:
 
       - name: Commit and push (retry on conflict)
         run: |
-          # Bug-fix (2026-04-21): previously this step did `git add data/`
-          # which misses data.js at the repo root — leaving it unstaged so
-          # the pull-rebase aborted on "local changes would be overwritten".
-          # Also the retry loop's `|| true` silently hid rebase conflicts,
-          # leaving the repo stuck mid-rebase. Rewritten to stash-rebase-pop
-          # each attempt, so parallel pushes from other workflows never wedge us.
+          # Bug-fix (2026-04-21): originally `git add data/` missed data.js
+          # at the repo root. Bug-fix (2026-04-28): the stash-pop step
+          # could conflict on data.js when hourly-news-sync wrote to it
+          # mid-run. The conflict-marker guard would correctly refuse to
+          # commit but exit 1 — failing the workflow.
+          #
+          # NEW HEALING STRATEGY: if data.js has conflict markers after
+          # stash pop, regenerate it cleanly by re-running merge_data.py
+          # against current upstream + our data/* files. This eliminates
+          # the race because data.js is DERIVED from inputs, not merged.
           for attempt in 1 2 3 4 5; do
             # Stash any local edits (merge_data wrote data.js + data/*)
             git stash --include-untracked 2>/dev/null || true
@@ -666,21 +670,37 @@ jobs:
               echo "Rebase failed on attempt $attempt; aborting rebase"
               git rebase --abort 2>/dev/null || true
             }
-            # Re-apply stashed edits (may need manual merge on data.js —
-            # stash pop errors are non-fatal because we'll re-run merge if so)
+            # Re-apply stashed edits (data/*.json apply cleanly — only
+            # data.js has any race-conflict risk because it's the one file
+            # multiple workflows derive into)
             git stash pop 2>/dev/null || true
+
+            # ── HEAL DATA.JS RACE CONFLICT ──
+            # If hourly-news-sync wrote to data.js while we were running,
+            # stash pop will have left conflict markers in it. Reset data.js
+            # to upstream + regenerate from inputs.
+            if grep -lE '^<{7}|^>{7}|^={7}$' data.js >/dev/null 2>&1; then
+              echo "data.js has conflict markers (concurrent-write race) — regenerating cleanly"
+              git checkout HEAD -- data.js
+              git stash drop 2>/dev/null || true
+              python scripts/merge_data.py
+            fi
+            # Heal any data/ file conflicts the same way
+            if grep -RIlE '^<{7}|^>{7}|^={7}$' data/ 2>/dev/null | head -1 | grep -q .; then
+              echo "data/ has conflict markers — re-running merge_data.py to regenerate"
+              python scripts/merge_data.py
+            fi
+
             # Stage everything merge_data.py could have touched
             git add data.js data/ 2>/dev/null || true
             if git diff --staged --quiet; then
               echo "No changes to commit on attempt $attempt."
               exit 0
             fi
-            # ── CONFLICT-MARKER GUARD ──
-            # Refuse to commit any file that contains an unresolved git
-            # conflict marker. Caught by the regression that broke the
-            # homepage in Apr 2026 (commit 96e92bf).
+            # ── CONFLICT-MARKER GUARD (final safety) ──
+            # If healing didn't work, refuse to commit a broken data.js.
             if grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null | head -1 | grep -q .; then
-              echo "::error::Conflict markers detected in tracked files. Refusing to commit."
+              echo "::error::Conflict markers persist after healing. Refusing to commit."
               grep -RIlE '^<{7}|^>{7}|^={7}$' data.js data/ 2>/dev/null
               exit 1
             fi
