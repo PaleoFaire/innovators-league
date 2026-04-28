@@ -56,24 +56,45 @@ DEFAULT_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5")
 MAX_COMPANIES_PER_RUN = int(os.environ.get("MAX_COMPANIES_PER_RUN", "200"))
 MIN_SOURCES = 2  # Need at least 2 mentions to bother extracting
 
-EXTRACTION_PROMPT = """You are an editorial researcher. Below are public sources where {founder} (founder of {company}) appears or is quoted. Extract the most important things {founder} has *personally said* in public — their genuine views about their company, technology, vision, or strategy.
+EXTRACTION_PROMPT = """You are an editorial researcher building a "founder voice" feed. Below are public sources where {founder} (founder of {company}) appears, is quoted, or whose company is described. Extract substantive insights attributable to {founder} — their genuine views about their company, technology, vision, market, or strategy.
 
-STRICT RULES:
-1. Only include quotes that are clearly attributable to {founder} — not other speakers, hosts, or third parties paraphrasing about the company.
-2. Verbatim quotes preferred. If a news article paraphrases the founder, use the exact quoted span ("...") if one exists. If only paraphrased, mark it as "paraphrased: [...]" and only include if the attribution is unambiguous.
-3. Skip: generic industry commentary, marketing-speak press release boilerplate, predictions about competitors, things said by hosts/journalists.
-4. Aim for 5-10 substantive insights. If genuinely fewer exist, return fewer. Empty array is valid.
-5. Every insight must have a source URL.
+EXTRACTION HIERARCHY (use highest tier available):
 
-Output: JSON array. Each item:
+TIER 1 — Verbatim quote (preferred when available):
+   Set paraphrased = false. Use the exact quoted text from the source.
+   Common in: earnings call transcripts, news articles with "..." quotes,
+   podcast transcripts.
+
+TIER 2 — Clearly-attributed paraphrase:
+   Set paraphrased = true. The source describes what the founder said,
+   built, or believes — clearly attributed to them, even without quote
+   marks. Example: an episode summary saying "Garth Sheldon-Coulson
+   explained that Panthalassa is building wave-powered floating data
+   centers..." — that's a paraphrased insight you should capture.
+   Common in: podcast episode descriptions, article summaries.
+
+TIER 3 — Strong inference about founder's stated focus:
+   Only when the founder is named as builder/architect/originator of
+   something and the description is detailed enough to convey their POV.
+   Set paraphrased = true. Be conservative.
+
+ALWAYS SKIP:
+- Things said by hosts, journalists, or third parties about the founder
+- Generic industry commentary not specific to {company}
+- Marketing-boilerplate ("revolutionizing", "leading platform")
+- Anything where attribution to {founder} is unclear
+
+Output: JSON array. Aim for 3-8 substantive insights. Empty array if genuinely no extractable material.
+
+Each item:
 {{
-  "quote": "the actual words",
-  "topic": "1-3 word what it's about (e.g. 'manufacturing strategy', 'AI safety', 'commercial timeline')",
+  "quote": "the actual words (verbatim) or paraphrased description of what they said/believe",
+  "topic": "1-3 word what it's about (e.g. 'manufacturing strategy', 'AI safety', 'why now')",
   "source_type": "podcast|earnings|news|newsletter|other",
   "source_name": "Core Memory" or article publisher,
-  "url": "source URL",
+  "url": "source URL (REQUIRED)",
   "date": "YYYY-MM-DD if available, else null",
-  "paraphrased": true if not verbatim, false otherwise
+  "paraphrased": true if not verbatim, false if exact quote
 }}
 
 Return ONLY the JSON array. No prose, no code fences, no commentary.
@@ -203,24 +224,33 @@ def gather_sources(company_name, founder_name, ticker):
         except Exception:
             pass
 
-    # Earnings signals (by ticker, for public cos)
-    if ticker:
-        es_path = DATA / "earnings_signals_auto.json"
-        if es_path.exists():
-            try:
-                d = json.load(open(es_path))
-                for s in d.get("signals", []):
-                    if s.get("ticker") == ticker:
-                        sources.append({
-                            "type": "earnings",
-                            "source_name": f"{s.get('incumbent','')} {s.get('quarter','')} earnings call",
-                            "title": s.get("quote", "")[:120],
-                            "url": s.get("source_url"),
-                            "date": s.get("date") or s.get("quarter"),
-                            "text": s.get("quote") or "",
-                        })
-            except Exception:
-                pass
+    # Earnings signals — match by ticker OR by incumbent company name.
+    # Most COMPANIES entries don't have a ticker field, so fall back to
+    # name match. Strip "NYSE:" / "NASDAQ:" prefixes when comparing.
+    es_path = DATA / "earnings_signals_auto.json"
+    if es_path.exists():
+        try:
+            d = json.load(open(es_path))
+            ticker_clean = (ticker or "").split(":")[-1].strip().upper() if ticker else ""
+            company_lower = company_name.lower()
+            for s in d.get("signals", []):
+                sig_ticker = (s.get("ticker") or "").upper()
+                sig_incumbent = (s.get("incumbent") or "").lower()
+                # Match if ticker matches OR incumbent name matches
+                if (ticker_clean and sig_ticker == ticker_clean) or \
+                   (sig_incumbent and sig_incumbent == company_lower) or \
+                   (sig_incumbent and company_lower in sig_incumbent) or \
+                   (sig_incumbent and sig_incumbent in company_lower):
+                    sources.append({
+                        "type": "earnings",
+                        "source_name": f"{s.get('incumbent','')} {s.get('quarter','')} earnings call",
+                        "title": s.get("quote", "")[:120],
+                        "url": s.get("source_url"),
+                        "date": s.get("date") or s.get("quarter"),
+                        "text": s.get("quote") or "",
+                    })
+        except Exception:
+            pass
 
     # Newsletter signals (matched company in candidates)
     ns_path = DATA / "newsletter_signals_auto.json"
