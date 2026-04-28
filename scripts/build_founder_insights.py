@@ -43,14 +43,28 @@ import os
 import re
 import hashlib
 import time
+import urllib.request
+import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
+from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DATA_JS = ROOT / "data.js"
 OUT_PATH = DATA / "founder_insights_auto.json"
 CACHE_PATH = DATA / ".founder_insights_cache.json"
+URL_CACHE_PATH = DATA / ".founder_insights_url_cache.json"
+
+# v3 unlock: fetch full article/episode page text (not just 200-char
+# description excerpts). Vance's full Substack posts, Forbes article
+# bodies, podcast show notes — that's where real founder quotes live.
+HTTP_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,*/*",
+}
+FETCH_TIMEOUT = 10
+MAX_CHARS_PER_PAGE = 8000  # Cap fetched body to manage prompt size + cost
 
 DEFAULT_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5")
 MAX_COMPANIES_PER_RUN = int(os.environ.get("MAX_COMPANIES_PER_RUN", "200"))
@@ -122,6 +136,96 @@ def load_cache():
 
 def save_cache(cache):
     CACHE_PATH.write_text(json.dumps(cache, indent=2, default=str))
+
+
+def load_url_cache():
+    if not URL_CACHE_PATH.exists():
+        return {}
+    try:
+        return json.load(open(URL_CACHE_PATH))
+    except Exception:
+        return {}
+
+
+def save_url_cache(cache):
+    URL_CACHE_PATH.write_text(json.dumps(cache, indent=2))
+
+
+# ─── v3: Full-page fetch + HTML strip ────────────────────────────
+
+
+class TextExtractor(HTMLParser):
+    """Extract visible text from HTML. Skips script/style/nav/header
+    cruft. Preserves paragraph breaks for readability."""
+    SKIP_TAGS = {"script", "style", "nav", "header", "footer", "aside",
+                 "noscript", "iframe", "form", "button"}
+
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+        self.skip_depth = 0
+        self.in_paragraph = False
+
+    def handle_starttag(self, tag, attrs):
+        if tag in self.SKIP_TAGS:
+            self.skip_depth += 1
+        elif tag in {"p", "div", "br", "li", "h1", "h2", "h3", "h4", "blockquote"}:
+            if self.parts and not self.parts[-1].endswith("\n"):
+                self.parts.append("\n")
+
+    def handle_endtag(self, tag):
+        if tag in self.SKIP_TAGS:
+            self.skip_depth = max(0, self.skip_depth - 1)
+        elif tag in {"p", "div", "li", "h1", "h2", "h3", "h4", "blockquote"}:
+            self.parts.append("\n")
+
+    def handle_data(self, data):
+        if self.skip_depth == 0:
+            self.parts.append(data)
+
+    def text(self):
+        joined = "".join(self.parts)
+        # Collapse 3+ newlines, multiple spaces
+        joined = re.sub(r"\n{3,}", "\n\n", joined)
+        joined = re.sub(r"[ \t]+", " ", joined)
+        return joined.strip()
+
+
+def fetch_url_text(url, url_cache):
+    """Fetch URL → strip HTML → return plain text (capped). Cached."""
+    if not url or not url.startswith(("http://", "https://")):
+        return None
+    if url in url_cache:
+        return url_cache[url]
+    try:
+        req = urllib.request.Request(url, headers=HTTP_HEADERS)
+        with urllib.request.urlopen(req, timeout=FETCH_TIMEOUT) as r:
+            ct = r.headers.get("Content-Type", "")
+            if "html" not in ct.lower() and "xml" not in ct.lower():
+                url_cache[url] = ""
+                return ""
+            raw = r.read(500_000)  # cap to 500KB
+            html = raw.decode("utf-8", errors="replace")
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ConnectionError) as e:
+        url_cache[url] = ""
+        return ""
+    except Exception:
+        url_cache[url] = ""
+        return ""
+
+    # Strip HTML
+    try:
+        ex = TextExtractor()
+        ex.feed(html)
+        text = ex.text()
+    except Exception:
+        text = re.sub(r"<[^>]+>", " ", html)
+        text = re.sub(r"\s+", " ", text).strip()
+
+    # Cap length
+    text = text[:MAX_CHARS_PER_PAGE]
+    url_cache[url] = text
+    return text
 
 
 def parse_companies():
@@ -307,17 +411,33 @@ def gather_sources(company_name, founder_name, ticker):
     return deduped
 
 
-def format_sources_for_prompt(sources, max_chars=8000):
-    """Format sources as a labeled list for Claude. Cap at max_chars."""
+def format_sources_for_prompt(sources, max_chars=24000, url_cache=None):
+    """Format sources as a labeled list for Claude. v3: fetches full
+    article/episode page text when description is too thin (<400 chars).
+    Cap at max_chars total."""
+    if url_cache is None:
+        url_cache = {}
     parts = []
     used = 0
     for i, s in enumerate(sources, 1):
+        # Use existing description excerpt as baseline
+        text = s.get("text") or ""
+        # If thin AND we have a URL, fetch the full page for richer content
+        # (skip earnings — those are already verbatim quotes)
+        if len(text) < 400 and s.get("url") and s.get("type") != "earnings":
+            fetched = fetch_url_text(s["url"], url_cache)
+            if fetched and len(fetched) > len(text):
+                text = fetched
+        # Cap per-source contribution to 4K chars (otherwise one big source
+        # crowds out others)
+        text = text[:4000]
+
         block = (
             f"[{i}] {s.get('type', '?').upper()} — {s.get('source_name', '?')} "
             f"({s.get('date', 'date unknown')})\n"
             f"Title: {s.get('title', '?')}\n"
             f"URL: {s.get('url', '')}\n"
-            f"Text: {(s.get('text') or '')[:1200]}\n\n"
+            f"Text: {text}\n\n"
         )
         if used + len(block) > max_chars:
             break
@@ -379,7 +499,9 @@ def main():
 
     client = anthropic.Anthropic(api_key=api_key)
     cache = load_cache()
-    print(f"  Cache entries: {len(cache)}")
+    url_cache = load_url_cache()
+    print(f"  Prompt cache entries: {len(cache)}")
+    print(f"  URL cache entries: {len(url_cache)}")
 
     companies = parse_companies()
     print(f"  Companies in DB: {len(companies)}")
@@ -404,8 +526,11 @@ def main():
     print(f"  Companies with ≥{MIN_SOURCES} sources: {len(candidates)}")
     print(f"  Will process up to {MAX_COMPANIES_PER_RUN} this run")
 
+    fetched_pages_total = 0
     for c, sources in candidates[:MAX_COMPANIES_PER_RUN]:
-        sources_text = format_sources_for_prompt(sources)
+        url_cache_size_before = len(url_cache)
+        sources_text = format_sources_for_prompt(sources, url_cache=url_cache)
+        fetched_pages_total += (len(url_cache) - url_cache_size_before)
         prompt = EXTRACTION_PROMPT.format(
             company=c["name"],
             founder=c["founder"],
@@ -448,11 +573,14 @@ def main():
             extracted_total += len(clean)
         processed += 1
 
-        # Persist cache periodically
+        # Persist caches periodically
         if new_calls % 20 == 0 and new_calls > 0:
             save_cache(cache)
+            save_url_cache(url_cache)
 
     save_cache(cache)
+    save_url_cache(url_cache)
+    print(f"  URL pages fetched this run: {fetched_pages_total}")
 
     out = {
         "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
