@@ -1,52 +1,41 @@
 // Auto-generated news signals
-// Last updated: 2026-04-28T14:36:07.664Z
+// Last updated: 2026-04-28T17:00:16.337Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1777386967664,
+    "id": 1777395616337,
     "type": "news",
     "company": "Forterra",
     "headline": "Forterra, Polaris tout new autonomous vehicle for CASEVAC, logistics",
     "source": "Breaking Defense",
-    "time": "2h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://breakingdefense.com/2026/04/forterra-polaris-tout-new-autonomous-vehicle-for-casevac-logistics/"
   },
   {
-    "id": 1777386967665,
+    "id": 1777395616338,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Elon Musk and Sam Altman are going to court over OpenAI’s future",
     "source": "MIT Tech Review",
-    "time": "15h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/"
   },
   {
-    "id": 1777386967666,
+    "id": 1777395616339,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
     "source": "TechCrunch",
-    "time": "20h ago",
+    "time": "23h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/"
   },
   {
-    "id": 1777386967667,
-    "type": "milestone",
-    "company": "OpenAI",
-    "headline": "OpenAI could be making a phone with AI agents replacing apps",
-    "source": "TechCrunch",
-    "time": "1d ago",
-    "impact": "low",
-    "unread": true,
-    "link": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/"
-  },
-  {
-    "id": 1777386967668,
+    "id": 1777395616340,
     "type": "news",
     "company": "Pivotal",
     "headline": "Compass Therapeutics unveils key secondary endpoint results from pivotal biliary tract cancer trial",
@@ -57,18 +46,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/compass-therapeutics-unveils-key-secondary-endpoint-results-from-pivotal-biliary-tract-cancer-trial/"
   },
   {
-    "id": 1777386967669,
+    "id": 1777395616341,
     "type": "hire",
     "company": "Pivotal",
     "headline": "STAT+: Intellia says CRISPR-based treatment for rare disease reduced swelling attacks in pivotal trial",
     "source": "STAT News",
     "time": "1d ago",
     "impact": "low",
-    "unread": false,
+    "unread": true,
     "link": "https://www.statnews.com/2026/04/27/intellia-therapeutics-phase-3-trial-hereditary-angioedema-crispr-treatment/?utm_campaign=rss"
   },
   {
-    "id": 1777386967670,
+    "id": 1777395616342,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Launch Rate in 2026 After Reaching Orbital Operations, Booster and Starship Recovery",
@@ -79,18 +68,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/spacex-launch-rate-in-2026-after-reaching-orbital-operations-booster-and-starship-recovery.html"
   },
   {
-    "id": 1777386967671,
+    "id": 1777395616343,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX XAI 2027",
     "source": "Next Big Future",
-    "time": "2d ago",
+    "time": "3d ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.nextbigfuture.com/2026/04/spacex-xai-2027.html"
   },
   {
-    "id": 1777386967672,
+    "id": 1777395616344,
     "type": "news",
     "company": "Humanoid",
     "headline": "Accenture, Vodafone, and SAP to pilot humanoid robots in the warehouse",
@@ -101,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/accenture-vodafone-and-sap-to-pilot-humanoid-robots-in-the-warehouse/"
   },
   {
-    "id": 1777386967673,
+    "id": 1777395616345,
     "type": "news",
     "company": "Waymo",
     "headline": "Hyundai Partners With Waymo To Produce An IONIQ 5 Robotaxi — Field Trip",
@@ -112,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/04/24/hyundai-partners-with-waymo-to-produce-an-ioniq-5-robotaxi-field-trip/"
   },
   {
-    "id": 1777386967674,
+    "id": 1777395616346,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?",
@@ -123,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/openai-gpt-5-5-has-good-ranking-scores-but-is-it-better.html"
   },
   {
-    "id": 1777386967675,
+    "id": 1777395616347,
     "type": "news",
     "company": "Anthropic",
     "headline": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
@@ -134,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
   },
   {
-    "id": 1777386967676,
+    "id": 1777395616348,
     "type": "news",
     "company": "Anthropic",
     "headline": "Elon Musk mulled Mistral deal to take on OpenAI and Anthropic, reports say",
@@ -145,18 +134,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/elon-musk-xai-mistral-partnership/"
   },
   {
-    "id": 1777386967677,
+    "id": 1777395616349,
     "type": "hire",
     "company": "Rivian",
     "headline": "Rivian (RIVN) starts R2 production days after tornado hit factory, deliveries this spring",
     "source": "Electrek",
-    "time": "5d ago",
+    "time": "6d ago",
     "impact": "low",
     "unread": false,
     "link": "https://electrek.co/2026/04/22/rivian-r2-starts-production-tornado-deliveries-spring/"
   },
   {
-    "id": 1777386967678,
+    "id": 1777395616350,
     "type": "ipo",
     "company": "Fervo Energy",
     "headline": "Fervo Energy unveils new power plant details in IPO filing",
@@ -167,7 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
   },
   {
-    "id": 1777386967679,
+    "id": 1777395616351,
     "type": "news",
     "company": "Blue Origin",
     "headline": "Blue Origin&#039;s rocket reuse achievement marred by upper stage failure",
@@ -178,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/"
   },
   {
-    "id": 1777386967680,
+    "id": 1777395616352,
     "type": "milestone",
     "company": "Anthropic",
     "headline": "Anthropic&#8217;s Nuclear Bomb",
@@ -189,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/cogs-of-war/anthropics-nuclear-bomb/"
   },
   {
-    "id": 1777386967681,
+    "id": 1777395616353,
     "type": "news",
     "company": "Deterrence",
     "headline": "Disperse to Survive: The Logic of French Forward Deterrence",
@@ -200,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://warontherocks.com/disperse-to-survive-the-logic-of-french-forward-deterrence/"
   },
   {
-    "id": 1777386967682,
+    "id": 1777395616354,
     "type": "news",
     "company": "Fervo Energy",
     "headline": "Fervo Energy inks big turbine deal to build more next-gen geothermal",
@@ -211,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
   },
   {
-    "id": 1777386967683,
+    "id": 1777395616355,
     "type": "milestone",
     "company": "Base Power",
     "headline": "Base Power to launch 100-MW home battery network for Texas utility",
@@ -220,5 +209,16 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://www.canarymedia.com/articles/batteries/base-power-to-launch-100-mw-home-battery-network-for-texas-utility"
+  },
+  {
+    "id": 1777395616356,
+    "type": "milestone",
+    "company": "Profluent",
+    "headline": "<a href=\"/biotech/lilly-pens-22b-pact-bezos-backed-profluent-work-recombinase-based-gene-editing\" hreflang=\"en\">Lilly pe",
+    "source": "FierceBiotech",
+    "time": "Invalid Date",
+    "impact": "low",
+    "unread": false,
+    "link": "https://www.fiercebiotech.com/biotech/lilly-pens-22b-pact-bezos-backed-profluent-work-recombinase-based-gene-editing"
   }
 ];
