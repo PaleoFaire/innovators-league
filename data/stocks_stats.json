@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.0,
+      "avg_change": -1.18,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.37,
+      "avg_change": -7.41,
       "count": 3
     },
     "transportation": {
@@ -64,11 +64,6 @@
       21.71
     ],
     [
-      "IDEAFORGE.NS",
-      "ideaForge",
-      13.64
-    ],
-    [
       "ALAB",
       "Astera Labs",
       11.85
@@ -81,14 +76,19 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      10.48
+      11.15
+    ],
+    [
+      "NVDA",
+      "NVIDIA",
+      7.2
     ]
   ],
   "topLosers": [
     [
-      "IONQ",
-      "IonQ",
-      -9.27
+      "ONT.L",
+      "Oxford Nanopore Technologies",
+      -9.32
     ],
     [
       "ASRHF",
@@ -111,5 +111,5 @@
       -16.78
     ]
   ],
-  "lastUpdated": "2026-04-28 03:35:04"
+  "lastUpdated": "2026-04-28 08:31:24"
 }
