@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-27T23:59:40.255426+00:00",
-  "date": "2026-04-27",
-  "dateDisplay": "Monday, April 27, 2026",
+  "generatedAt": "2026-04-28T03:57:40.616500+00:00",
+  "date": "2026-04-28",
+  "dateDisplay": "Tuesday, April 28, 2026",
   "sections": {
     "govActivity": [
       {
@@ -72,23 +72,23 @@
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 336.21,
-        "changePercent": 22.28,
-        "change": 61.26
+        "price": 334.63,
+        "changePercent": 21.71,
+        "change": 59.68
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.4,
-        "changePercent": -16.26,
-        "change": -0.46
+        "price": 2.38,
+        "changePercent": -16.78,
+        "change": -0.48
       },
       {
         "ticker": "RGTI",
         "company": "Rigetti Computing",
-        "price": 16.75,
-        "changePercent": -14.69,
-        "change": -2.89
+        "price": 16.91,
+        "changePercent": -13.9,
+        "change": -2.73
       },
       {
         "ticker": "IDEAFORGE.NS",
@@ -100,9 +100,9 @@
       {
         "ticker": "QBTS",
         "company": "D-Wave Quantum",
-        "price": 18.79,
-        "changePercent": -13.27,
-        "change": -2.88
+        "price": 18.8,
+        "changePercent": -13.2,
+        "change": -2.86
       },
       {
         "ticker": "ASRHF",
@@ -114,16 +114,16 @@
       {
         "ticker": "ALAB",
         "company": "Astera Labs",
-        "price": 196.47,
-        "changePercent": 11.76,
-        "change": 20.67
+        "price": 196.64,
+        "changePercent": 11.85,
+        "change": 20.84
       },
       {
-        "ticker": "IONQ",
-        "company": "IonQ",
-        "price": 43.45,
-        "changePercent": -10.08,
-        "change": -4.87
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 75.93,
+        "changePercent": 11.45,
+        "change": 7.8
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "AMD +22.3%"
+    "topMover": "AMD +21.7%"
   }
 }
