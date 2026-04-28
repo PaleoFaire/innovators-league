@@ -1,0 +1,54 @@
+// Auto-generated from founder_insights_auto.json
+// Last updated: 2026-04-28T02:04:33+00:00
+const FOUNDER_INSIGHTS_AUTO = {
+  "generatedAt": "2026-04-28T02:04:33+00:00",
+  "model": "claude-haiku-4-5",
+  "companiesProcessed": 141,
+  "companiesWithInsights": 2,
+  "totalInsights": 3,
+  "newClaudeCallsThisRun": 141,
+  "byCompany": {
+    "OpenAI": {
+      "founder": "Sam Altman, Greg Brockman, Ilya Sutskever",
+      "ticker": null,
+      "lastUpdated": "2026-04-28T02:02:18+00:00",
+      "insights": [
+        {
+          "quote": "We got into the company restructuring. Why Sora got cut. Why the social network is dead. The 'personal AGI' that knows your calendar and your taste and books the concert",
+          "topic": "Company strategy, product priorities",
+          "source_type": "podcast",
+          "source_name": "Core Memory",
+          "url": "https://www.corememory.com/p/the-great-reset-at-openai-ep-67-sam-altman-greg-brockman",
+          "date": "2026-04-21",
+          "paraphrased": true
+        }
+      ]
+    },
+    "General Matter": {
+      "founder": "Scott Nolan, Lee Robinson",
+      "ticker": null,
+      "lastUpdated": "2026-04-28T02:03:48+00:00",
+      "insights": [
+        {
+          "quote": "I spent 12 years at Founders Fund looking for the most important problems that no one else was funding. Then he found a problem so critical, and so ignored, that he couldn't find a company to back. So he started one.",
+          "topic": "Company founding motivation",
+          "source_type": "podcast",
+          "source_name": "Invest Like the Best",
+          "url": "https://colossus.com/episode/betting-on-atoms/",
+          "date": "2024-04-14",
+          "paraphrased": true
+        },
+        {
+          "quote": "General Matter is rebuilding US uranium enrichment. The United States was the world leader in enrichment through the 1980s and then stopped entirely.",
+          "topic": "Company mission and market gap",
+          "source_type": "podcast",
+          "source_name": "Invest Like the Best",
+          "url": "https://colossus.com/episode/betting-on-atoms/",
+          "date": "2024-04-14",
+          "paraphrased": true
+        }
+      ]
+    }
+  }
+};
+if (typeof window !== 'undefined') window.FOUNDER_INSIGHTS_AUTO = FOUNDER_INSIGHTS_AUTO;

@@ -1,4 +1,4 @@
-# 🌟 ROS Frontier-Tech Scout — Week of 2026-04-27
+# 🌟 ROS Frontier-Tech Scout — Week of 2026-04-28
 
 **Roster:** 1007 companies tracked  ·  **Screened this cycle:** 254  ·  **Top picks:** 5  ·  **Runners-up:** 10
 
@@ -141,4 +141,4 @@ Recent episodes from the scout's podcast sources. Scan titles for company names 
 ---
 
 
-*Generated 2026-04-27T09:44:19+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*
+*Generated 2026-04-28T02:02:06+00:00 · ROS Frontier-Tech Headhunter · 30+ VC portfolios + 17 newsletters + 7 podcasts + Form D + DARPA · LLM-extracted via Claude Haiku*

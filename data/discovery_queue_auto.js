@@ -1,7 +1,7 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-04-27T09:44:19+00:00
+// Last updated: 2026-04-28T02:02:06+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-04-27T09:44:19+00:00",
+  "generatedAt": "2026-04-28T02:02:06+00:00",
   "knownCompaniesCount": 1593,
   "summary": {
     "totalCandidates": 60,
@@ -20,7 +20,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Mistral",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "European AI company developing open and optimized large language models.",
+          "context": "AI model developer building frontier large language models as an alternative to incumbents.",
           "founder": "Arthur Mensch",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -34,7 +34,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Mistral",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "European AI company developing open and optimized large language models.",
+          "context": "AI model developer building frontier large language models as an alternative to incumbents.",
           "founder": "Arthur Mensch",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -310,7 +310,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Blue Energy",
           "source": "LLM (Newcomer (Eric Newcomer))",
           "sourceWeight": 18,
-          "context": "A nuclear power plant startup focused on developing advanced nuclear energy solutions.",
+          "context": "A nuclear power plant startup focused on advanced reactor development and deployment.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -328,6 +328,32 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": true,
       "confidence": "high",
       "suggestedSector": "Nuclear Energy"
+    },
+    {
+      "name": "10100",
+      "score": 38,
+      "signals": [
+        {
+          "name": "10100",
+          "source": "LLM (All-In)",
+          "sourceWeight": 38,
+          "context": "A robotics company focused on automating the physical world, including actuators and robot hands for industrial automation.",
+          "founder": "Travis Kalanick",
+          "fundingMentioned": null,
+          "stealthSignal": true,
+          "confidence": "high",
+          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
+          "verifyUrl": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
+          "articleTitle": "Travis Kalanick & Michael Dell Live from Austin, Texas",
+          "suggestedSector": "Robotics & Manufacturing"
+        }
+      ],
+      "sources": [
+        "LLM (All-In)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "Robotics & Manufacturing"
     },
     {
       "name": "Fiber Dynamics",
@@ -372,6 +398,32 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Anduril",
+      "score": 30,
+      "signals": [
+        {
+          "name": "Anduril",
+          "source": "LLM (All-In)",
+          "sourceWeight": 30,
+          "context": "Defense technology company building autonomous weapons systems and munitions manufacturing infrastructure through its Arsenal-1 factory.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
+          "verifyUrl": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
+          "articleTitle": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+          "suggestedSector": "Defense & Security"
+        }
+      ],
+      "sources": [
+        "LLM (All-In)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "Defense & Security"
+    },
+    {
       "name": "Cavalla Industries",
       "score": 30,
       "signals": [
@@ -379,7 +431,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Cavalla Industries",
           "source": "LLM (TBPN)",
           "sourceWeight": 30,
-          "context": "Develops autonomous forklifts for rapid goods delivery, addressing logistics challenges through retrofit and autonomous systems.",
+          "context": "Develops autonomous forklifts for rapid goods delivery and logistics automation.",
           "founder": "Victor Boyd",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -431,7 +483,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "CoreWeave",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "GPU cloud infrastructure and compute platform optimized for AI workloads and large language models.",
+          "context": "GPU cloud infrastructure company providing compute resources for AI workloads and model training.",
           "founder": "Michael Intrator",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -450,6 +502,58 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
+      "name": "CrowdStrike",
+      "score": 30,
+      "signals": [
+        {
+          "name": "CrowdStrike",
+          "source": "LLM (TBPN)",
+          "sourceWeight": 30,
+          "context": "Cybersecurity platform led by veteran cybersecurity expert with 30+ years experience, formerly at McAfee.",
+          "founder": "George Kurtz",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Fri, 24 Apr 2026 13:32:08 -0700",
+          "verifyUrl": "https://share.transistor.fm/s/d3095cca",
+          "articleTitle": "Intel Rips, Cursor's Plan, Thrive's Giant Bet, GPT 5.5 | George Kurtz, Professor Sendy, Gary Vaynerchuk, Yoland Yan, Ben Horwitz",
+          "suggestedSector": "Defense & Security"
+        }
+      ],
+      "sources": [
+        "LLM (TBPN)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": null
+    },
+    {
+      "name": "Lovable",
+      "score": 30,
+      "signals": [
+        {
+          "name": "Lovable",
+          "source": "LLM (20VC)",
+          "sourceWeight": 30,
+          "context": "A rapidly scaling AI-powered software development platform that reached $400M ARR in 18 months through viral growth and community-driven product launches.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Sat, 14 Mar 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20growth-inside-lovables-400m-arr-growth-machine-how-lovable-does-product-launches-how-lovable-hacks-social-to-make-posts-go-viral-how-lovable-makes-every-employee-a-brand-with-elena-verna",
+          "articleTitle": "20Growth: Inside Lovable's $400M ARR Growth Machine | How Lovable Does Product Launches | How Lovable Hacks Social To Make Posts Go Viral | How Lovable Makes Every Employee a Brand with Elena Verna",
+          "suggestedSector": "AI & Compute"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
       "name": "Onward Medical",
       "score": 30,
       "signals": [
@@ -457,7 +561,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Onward Medical",
           "source": "LLM (Core Memory)",
           "sourceWeight": 30,
-          "context": "A Swiss biotech company developing technologies to help paralyzed people regain mobility and movement.",
+          "context": "A Swiss biotech company developing technology to help paralyzed people regain mobility and movement through neurotechnology.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -483,7 +587,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Perplexity",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "AI-powered search and answer engine that uses language models to provide direct answers to user queries.",
+          "context": "AI-powered search and reasoning engine that competes with traditional search and ChatGPT-style interfaces.",
           "founder": "Aravind Srinivas",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -502,6 +606,32 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
+      "name": "Supabase",
+      "score": 30,
+      "signals": [
+        {
+          "name": "Supabase",
+          "source": "LLM (20VC)",
+          "sourceWeight": 30,
+          "context": "Open-source Firebase alternative providing backend infrastructure and database services for developers.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "high",
+          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
+          "articleTitle": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
+          "suggestedSector": "AI & Compute"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": null
+    },
+    {
       "name": "Ulysses",
       "score": 30,
       "signals": [
@@ -509,7 +639,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Ulysses",
           "source": "LLM (Core Memory)",
           "sourceWeight": 30,
-          "context": "San Francisco-based startup building autonomous underwater drones for marine applications like seagrass planting and ocean monitoring.",
+          "context": "San Francisco-based startup building autonomous underwater drones, initially focused on seagrass planting and marine ecosystem monitoring.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -528,6 +658,32 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Defense & Security"
     },
     {
+      "name": "CloudKitchens",
+      "score": 26,
+      "signals": [
+        {
+          "name": "CloudKitchens",
+          "source": "LLM (All-In)",
+          "sourceWeight": 26,
+          "context": "A ghost kitchen/food delivery infrastructure company automating the physical world of food preparation and logistics.",
+          "founder": "Travis Kalanick",
+          "fundingMentioned": null,
+          "stealthSignal": true,
+          "confidence": "medium",
+          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
+          "verifyUrl": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
+          "articleTitle": "Travis Kalanick & Michael Dell Live from Austin, Texas",
+          "suggestedSector": "Advanced Manufacturing"
+        }
+      ],
+      "sources": [
+        "LLM (All-In)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": null
+    },
+    {
       "name": "Kind",
       "score": 26,
       "signals": [
@@ -535,7 +691,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Kind",
           "source": "LLM (Core Memory (Ashlee Vance))",
           "sourceWeight": 26,
-          "context": "A biotech company focused on growing organs on demand for longevity applications.",
+          "context": "A company developing on-demand organ growth technology for longevity applications.",
           "founder": "Rebo",
           "fundingMentioned": null,
           "stealthSignal": true,
@@ -551,7 +707,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "Biotech & Health"
+      "suggestedSector": null
     },
     {
       "name": "Sign\u00fcll",
@@ -561,7 +717,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Sign\u00fcll",
           "source": "LLM (TBPN)",
           "sourceWeight": 26,
-          "context": "Develops an AI-driven home screen replacement for iPhones that uses agentic AI to create dynamic, personalized interfaces.",
+          "context": "An AI-driven home screen replacement for iPhones that transforms static interfaces into dynamic, personalized experiences using agentic AI.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": true,
@@ -587,7 +743,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Atoms",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "A manufacturing-focused startup founded by Travis Kalanick focused on physical production and logistics optimization.",
+          "context": "Manufacturing-focused startup founded by Travis Kalanick applying operational efficiency principles to physical production.",
           "founder": "Travis Kalanick",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -613,7 +769,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Critical Loop",
           "source": "LLM (TBPN)",
           "sourceWeight": 18,
-          "context": "Energy company focused on providing reliable, cost-effective power solutions, founded by a former SpaceX engineer.",
+          "context": "Energy company focused on reliable, cost-effective power solutions, founded by a former SpaceX engineer transitioning from aerospace to energy.",
           "founder": "Balachandar Ramamurthy",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -639,14 +795,14 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Cursor",
           "source": "LLM (TBPN)",
           "sourceWeight": 18,
-          "context": "AI-powered code editor that integrates with xAI for advanced coding assistance.",
+          "context": "AI-powered development tool with a SpaceX partnership deal mentioned in the episode.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "medium",
-          "date": "Thu, 16 Apr 2026 14:09:34 -0700",
-          "verifyUrl": "https://share.transistor.fm/s/a8f01390",
-          "articleTitle": "Jensen on Dwarkesh, Cursor + xAI, Codex Update | Kevin Hart & James Morrissey, Ben Smith, Jonathan Criss, Paul Scherer, Matan Grinberg, Akhil Voorakkara, Charlie Cheever, Victor Cardenas Codriansky, T",
+          "date": "Fri, 24 Apr 2026 13:32:08 -0700",
+          "verifyUrl": "https://share.transistor.fm/s/d3095cca",
+          "articleTitle": "Intel Rips, Cursor's Plan, Thrive's Giant Bet, GPT 5.5 | George Kurtz, Professor Sendy, Gary Vaynerchuk, Yoland Yan, Ben Horwitz",
           "suggestedSector": "AI & Compute"
         }
       ],
@@ -655,33 +811,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Happy Robot",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Happy Robot",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "Robotics company mentioned as an investment.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Sat, 11 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
-          "articleTitle": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must",
-          "suggestedSector": "Robotics & Manufacturing"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Robotics & Manufacturing"
+      "suggestedSector": "Space & Aerospace"
     },
     {
       "name": "IREN",
@@ -691,7 +821,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "IREN",
           "source": "LLM (All-In)",
           "sourceWeight": 18,
-          "context": "Advanced nuclear energy company focused on next-generation reactor technology or nuclear solutions.",
+          "context": "Nuclear energy company focused on advanced reactor technology or fuel cycle innovation.",
           "founder": "Daniel Roberts",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -710,21 +840,21 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Nuclear Energy"
     },
     {
-      "name": "Lovable",
+      "name": "Mercor",
       "score": 18,
       "signals": [
         {
-          "name": "Lovable",
+          "name": "Mercor",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "A rapidly scaling software company that reached $400M ARR in 18 months, focused on product launches and growth through social virality.",
+          "context": "AI platform for talent and workforce management that experienced a notable security breach.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "medium",
-          "date": "Sat, 14 Mar 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20growth-inside-lovables-400m-arr-growth-machine-how-lovable-does-product-launches-how-lovable-hacks-social-to-make-posts-go-viral-how-lovable-makes-every-employee-a-brand-with-elena-verna",
-          "articleTitle": "20Growth: Inside Lovable's $400M ARR Growth Machine | How Lovable Does Product Launches | How Lovable Hacks Social To Make Posts Go Viral | How Lovable Makes Every Employee a Brand with Elena Verna",
+          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
+          "articleTitle": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
           "suggestedSector": "AI & Compute"
         }
       ],
@@ -733,7 +863,33 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "Space & Aerospace"
+      "suggestedSector": "AI & Compute"
+    },
+    {
+      "name": "Olipop",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Olipop",
+          "source": "LLM (20VC)",
+          "sourceWeight": 18,
+          "context": "Functional beverage company focused on health-oriented soda alternatives.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "medium",
+          "date": "Sat, 18 Apr 2026 12:36:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
+          "articleTitle": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike T",
+          "suggestedSector": "Biotech & Health"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": null
     },
     {
       "name": "Open Router",
@@ -743,7 +899,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Open Router",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Platform enabling access to multiple AI models, discussed as rising in prominence.",
+          "context": "API routing platform that aggregates access to multiple large language models and AI inference providers.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -769,7 +925,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "OpenClaw",
           "source": "LLM (All-In)",
           "sourceWeight": 18,
-          "context": "A company working on physical AI and robotic systems as part of the emerging operating system for modern AI computing.",
+          "context": "A robotics company developing physical AI systems, positioned as part of the emerging operating system for modern AI computing.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -788,32 +944,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "OpenRouter",
-      "score": 18,
-      "signals": [
-        {
-          "name": "OpenRouter",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "AI infrastructure platform providing access to multiple LLMs.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
       "name": "Periodic Labs",
       "score": 18,
       "signals": [
@@ -821,7 +951,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Periodic Labs",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Biotech company using AI/compute for scientific discovery.",
+          "context": "Materials science company focused on advanced materials for energy applications.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -829,7 +959,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "date": "Tue, 14 Apr 2026 09:24:00 +0000",
           "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
           "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "Biotech & Health"
+          "suggestedSector": "Climate & Energy"
         }
       ],
       "sources": [
@@ -837,7 +967,33 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "AI & Compute"
+      "suggestedSector": null
+    },
+    {
+      "name": "Ramp",
+      "score": 18,
+      "signals": [
+        {
+          "name": "Ramp",
+          "source": "LLM (20VC)",
+          "sourceWeight": 18,
+          "context": "Financial operations platform for businesses to manage expenses and payments.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "medium",
+          "date": "Sat, 18 Apr 2026 12:36:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
+          "articleTitle": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike T",
+          "suggestedSector": "Other"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "medium",
+      "suggestedSector": null
     },
     {
       "name": "Sesame",
@@ -847,7 +1003,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Sesame",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "AI/compute platform company in Anj's board portfolio.",
+          "context": "Frontier AI or compute infrastructure company in Anj's portfolio.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -866,30 +1022,30 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Supabase",
-      "score": 18,
+      "name": "Adobe",
+      "score": 8,
       "signals": [
         {
-          "name": "Supabase",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "Open-source backend-as-a-service platform targeting a $10B valuation, competing in the infrastructure space.",
+          "name": "Adobe",
+          "source": "LLM (TBPN)",
+          "sourceWeight": 8,
+          "context": "Collaborating with Nvidia to integrate 3D digital twins into marketing and customer experiences for streamlined product design.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-          "articleTitle": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
+          "confidence": "low",
+          "date": "Wed, 22 Apr 2026 13:27:11 -0700",
+          "verifyUrl": "https://share.transistor.fm/s/2c6e810f",
+          "articleTitle": "SpaceX/Cursor Deal, Images 2.0 Reactions, Fake Bear Attack | Anil Chakravarthy, Naveen Gavini, Avlok Kohli & Ankur Nagpal, Joel Edwards, Renen Hallak, Darian Shirazi",
           "suggestedSector": "AI & Compute"
         }
       ],
       "sources": [
-        "LLM (20VC)"
+        "LLM (TBPN)"
       ],
       "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Space & Aerospace"
+      "confidence": "low",
+      "suggestedSector": null
     },
     {
       "name": "Airwallex",
@@ -899,7 +1055,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Airwallex",
           "source": "LLM (All-In)",
           "sourceWeight": 8,
-          "context": "A global payments and financial platform enabling modern businesses to manage cross-border transactions and financial operations.",
+          "context": "A global payments and financial platform enabling businesses to manage cross-border transactions and financial operations.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -918,134 +1074,30 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Anduril",
+      "name": "Happy Robot",
       "score": 8,
       "signals": [
         {
-          "name": "Anduril",
-          "source": "LLM (All-In)",
+          "name": "Happy Robot",
+          "source": "LLM (20VC)",
           "sourceWeight": 8,
-          "context": "Defense technology company building autonomous weapons systems and munitions manufacturing infrastructure.",
+          "context": "Robotics company mentioned as an investment by the guest.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "low",
-          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
-          "articleTitle": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-          "suggestedSector": "Defense & Security"
+          "date": "Sat, 11 Apr 2026 07:07:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
+          "articleTitle": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must",
+          "suggestedSector": "Robotics & Manufacturing"
         }
       ],
       "sources": [
-        "LLM (All-In)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "Defense & Security"
-    },
-    {
-      "name": "CloudFlare",
-      "score": 8,
-      "signals": [
-        {
-          "name": "CloudFlare",
-          "source": "LLM (All-In)",
-          "sourceWeight": 8,
-          "context": "Company working on automating the physical world through robotics and actuators.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
-          "articleTitle": "Travis Kalanick & Michael Dell Live from Austin, Texas",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (All-In)"
+        "LLM (20VC)"
       ],
       "multiSource": false,
       "confidence": "low",
       "suggestedSector": "Robotics & Manufacturing"
-    },
-    {
-      "name": "Codex",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Codex",
-          "source": "LLM (TBPN)",
-          "sourceWeight": 8,
-          "context": "AI coding assistant or code generation platform.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Thu, 16 Apr 2026 14:09:34 -0700",
-          "verifyUrl": "https://share.transistor.fm/s/a8f01390",
-          "articleTitle": "Jensen on Dwarkesh, Cursor + xAI, Codex Update | Kevin Hart & James Morrissey, Ben Smith, Jonathan Criss, Paul Scherer, Matan Grinberg, Akhil Voorakkara, Charlie Cheever, Victor Cardenas Codriansky, T",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (TBPN)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Delve",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Delve",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "AI-related startup kicked out of Y Combinator.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-          "articleTitle": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Mercor",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Mercor",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "AI platform that experienced a security hack, relevant to cyber threats in AI infrastructure.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-          "articleTitle": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Revolut",
@@ -1055,7 +1107,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Revolut",
           "source": "LLM (20VC)",
           "sourceWeight": 8,
-          "context": "Financial services/fintech company mentioned as an investment.",
+          "context": "Fintech company mentioned as an investment by the guest.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1074,82 +1126,30 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Selva Ventures",
+      "name": "Thrive",
       "score": 8,
       "signals": [
         {
-          "name": "Selva Ventures",
+          "name": "Thrive",
           "source": "LLM (TBPN)",
           "sourceWeight": 8,
-          "context": "A venture capital firm focused on emerging health and wellness brands.",
-          "founder": "Kiva Dickinson",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Wed, 15 Apr 2026 13:46:13 -0700",
-          "verifyUrl": "https://share.transistor.fm/s/5aca9c1e",
-          "articleTitle": "AI-Birds, Snap's Next Chapter, Amazon + Globalstar | Kiva Dickinson, Aron D'Souza, Michael Mignano, Wade Foster, Ankur Nagpal, Bailey Pumfleet, Han Wang",
-          "suggestedSector": "Other"
-        }
-      ],
-      "sources": [
-        "LLM (TBPN)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": null
-    },
-    {
-      "name": "Semafor",
-      "score": 8,
-      "signals": [
-        {
-          "name": "Semafor",
-          "source": "LLM (TBPN)",
-          "sourceWeight": 8,
-          "context": "Media and news organization focused on global economy coverage.",
-          "founder": "Ben Smith",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "low",
-          "date": "Thu, 16 Apr 2026 14:09:34 -0700",
-          "verifyUrl": "https://share.transistor.fm/s/a8f01390",
-          "articleTitle": "Jensen on Dwarkesh, Cursor + xAI, Codex Update | Kevin Hart & James Morrissey, Ben Smith, Jonathan Criss, Paul Scherer, Matan Grinberg, Akhil Voorakkara, Charlie Cheever, Victor Cardenas Codriansky, T",
-          "suggestedSector": "Other"
-        }
-      ],
-      "sources": [
-        "LLM (TBPN)"
-      ],
-      "multiSource": false,
-      "confidence": "low",
-      "suggestedSector": null
-    },
-    {
-      "name": "TBPN",
-      "score": 8,
-      "signals": [
-        {
-          "name": "TBPN",
-          "source": "LLM (20VC)",
-          "sourceWeight": 8,
-          "context": "Company acquired by OpenAI, details sparse in episode.",
+          "context": "Company launching Thrive Eternal product with significant investment backing.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "low",
-          "date": "Thu, 09 Apr 2026 07:07:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-          "articleTitle": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising ",
-          "suggestedSector": "AI & Compute"
+          "date": "Fri, 24 Apr 2026 13:32:08 -0700",
+          "verifyUrl": "https://share.transistor.fm/s/d3095cca",
+          "articleTitle": "Intel Rips, Cursor's Plan, Thrive's Giant Bet, GPT 5.5 | George Kurtz, Professor Sendy, Gary Vaynerchuk, Yoland Yan, Ben Horwitz",
+          "suggestedSector": "Other"
         }
       ],
       "sources": [
-        "LLM (20VC)"
+        "LLM (TBPN)"
       ],
       "multiSource": false,
       "confidence": "low",
-      "suggestedSector": "AI & Compute"
+      "suggestedSector": "Space & Aerospace"
     },
     {
       "name": "Rebo",

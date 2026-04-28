@@ -1,4 +1,4 @@
-// Founder DNA Index — Auto-generated 2026-04-27 09:44
+// Founder DNA Index — Auto-generated 2026-04-28 02:04
 // 870 company founder profiles + 16 sector aggregations + 16 serial founders
 // Cross-referenced from COMPANIES, FOUNDER_MAFIAS, INNOVATOR_SCORES
 // DO NOT EDIT — regenerate with: python3 scripts/generate_founder_dna.py
@@ -20944,8 +20944,8 @@ const FOUNDER_SERIAL_MAP = [
       "xAI"
     ],
     "sectors": [
-      "Transportation",
       "AI & Software",
+      "Transportation",
       "Space & Aerospace"
     ],
     "totalCapitalRaisedM": 53975.0
@@ -20968,8 +20968,8 @@ const FOUNDER_SERIAL_MAP = [
       "Aurora Innovation"
     ],
     "sectors": [
-      "Drones & Autonomous",
-      "AI & Software"
+      "AI & Software",
+      "Drones & Autonomous"
     ],
     "totalCapitalRaisedM": 18000.0
   },
@@ -20980,8 +20980,8 @@ const FOUNDER_SERIAL_MAP = [
       "Archer Aviation"
     ],
     "sectors": [
-      "Drones & Autonomous",
-      "AI & Software"
+      "AI & Software",
+      "Drones & Autonomous"
     ],
     "totalCapitalRaisedM": 3300.0
   },
@@ -21048,8 +21048,8 @@ const FOUNDER_SERIAL_MAP = [
       "Frankenburg Technologies"
     ],
     "sectors": [
-      "Climate & Energy",
-      "Defense & Security"
+      "Defense & Security",
+      "Climate & Energy"
     ],
     "totalCapitalRaisedM": 240.0
   },
@@ -21060,8 +21060,8 @@ const FOUNDER_SERIAL_MAP = [
       "Valinor Enterprises"
     ],
     "sectors": [
-      "Climate & Energy",
-      "Defense & Security"
+      "Defense & Security",
+      "Climate & Energy"
     ],
     "totalCapitalRaisedM": 115.0
   },
