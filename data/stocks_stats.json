@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -2.2,
+      "avg_change": -1.91,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -7.33,
+      "avg_change": -6.49,
       "count": 7
     },
     "autonomous": {
       "gainers": 3,
       "losers": 4,
-      "avg_change": -0.02,
+      "avg_change": -0.0,
       "count": 7
     },
     "nuclear": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 2.63,
+      "avg_change": 3.75,
       "count": 3
     },
     "climate": {
       "gainers": 2,
       "losers": 1,
-      "avg_change": 1.07,
+      "avg_change": 1.78,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.68,
+      "avg_change": -12.12,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -6.28,
+      "avg_change": -6.37,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -2.07,
+      "avg_change": -2.35,
       "count": 2
     },
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 13.6,
+      "avg_change": 13.59,
       "count": 3
     }
   },
@@ -61,7 +61,7 @@
     [
       "AMD",
       "AMD",
-      22.28
+      21.71
     ],
     [
       "IDEAFORGE.NS",
@@ -71,24 +71,24 @@
     [
       "ALAB",
       "Astera Labs",
-      11.76
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      10.03
+      11.85
     ],
     [
       "OKLO",
       "Oklo",
-      9.89
+      11.45
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      10.48
     ]
   ],
   "topLosers": [
     [
       "IONQ",
       "IonQ",
-      -10.08
+      -9.27
     ],
     [
       "ASRHF",
@@ -98,18 +98,18 @@
     [
       "QBTS",
       "D-Wave Quantum",
-      -13.27
+      -13.2
     ],
     [
       "RGTI",
       "Rigetti Computing",
-      -14.69
+      -13.9
     ],
     [
       "EVTL",
       "Vertical Aerospace",
-      -16.26
+      -16.78
     ]
   ],
-  "lastUpdated": "2026-04-27 19:39:44"
+  "lastUpdated": "2026-04-28 03:35:04"
 }
