@@ -1,14 +1,14 @@
 // Auto-generated from discovery_queue_auto.json
-// Last updated: 2026-04-28T03:34:07+00:00
+// Last updated: 2026-04-28T03:43:17+00:00
 const DISCOVERY_QUEUE_AUTO = {
-  "generatedAt": "2026-04-28T03:34:07+00:00",
+  "generatedAt": "2026-04-28T03:43:17+00:00",
   "knownCompaniesCount": 1593,
   "summary": {
-    "totalCandidates": 62,
+    "totalCandidates": 59,
     "fromFormD": 0,
     "fromVcPortfolios": 18,
     "fromNewsletters": 19,
-    "fromLlmExtraction": 35,
+    "fromLlmExtraction": 32,
     "multiSource": 2
   },
   "candidates": [
@@ -20,7 +20,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Mistral",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "European AI company developing large language models and frontier AI systems.",
+          "context": "An AI/LLM company where Midha serves on the board, operating in the frontier AI space.",
           "founder": "Arthur Mensch",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -34,7 +34,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Mistral",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "European AI company developing large language models and frontier AI systems.",
+          "context": "An AI/LLM company where Midha serves on the board, operating in the frontier AI space.",
           "founder": "Arthur Mensch",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -310,7 +310,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Blue Energy",
           "source": "LLM (Newcomer (Eric Newcomer))",
           "sourceWeight": 18,
-          "context": "A nuclear power plant startup that raised significant funding for advanced reactor development.",
+          "context": "A nuclear power plant startup that has secured substantial funding from VXI Capital and other investors.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -372,32 +372,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Anduril",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Anduril",
-          "source": "LLM (All-In)",
-          "sourceWeight": 30,
-          "context": "Defense technology company building autonomous weapons systems and operating Arsenal-1, a factory focused on fixing US munitions supply chain constraints.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
-          "articleTitle": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-          "suggestedSector": "Defense & Security"
-        }
-      ],
-      "sources": [
-        "LLM (All-In)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Defense & Security"
-    },
-    {
       "name": "Cavalla Industries",
       "score": 30,
       "signals": [
@@ -405,8 +379,8 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Cavalla Industries",
           "source": "LLM (TBPN)",
           "sourceWeight": 30,
-          "context": "Develops autonomous forklifts designed to deliver goods anywhere within hours, addressing challenges in retrofitting existing equipment with inconsistent designs.",
-          "founder": "Victor Boyd (co-founder and CTO)",
+          "context": "Develops autonomous forklifts designed to deliver goods anywhere within hours, addressing logistics and material handling automation.",
+          "founder": "Victor Boyd",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "high",
@@ -431,7 +405,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Column",
           "source": "LLM (Invest Like the Best)",
           "sourceWeight": 30,
-          "context": "A software company that owns a bank and provides core banking infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury.",
+          "context": "A software company that owns a bank and provides the infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury.",
           "founder": "William Hockey",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -439,7 +413,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "date": "Tue, 17 Mar 2026 08:00:00 -0000",
           "verifyUrl": "https://colossus.com/episode/playing-a-different-game/",
           "articleTitle": "William Hockey - Building the Operating System for the Dollar and Silicon Valley Heresy - [Invest Like the Best, EP.463]",
-          "suggestedSector": "Other"
+          "suggestedSector": "AI & Compute"
         }
       ],
       "sources": [
@@ -483,7 +457,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "CrowdStrike",
           "source": "LLM (TBPN)",
           "sourceWeight": 30,
-          "context": "Cybersecurity platform led by George Kurtz, a veteran with 30+ years of experience including prior roles at McAfee.",
+          "context": "Cybersecurity platform founded by George Kurtz, a veteran security expert with 30+ years of experience including leadership roles at McAfee.",
           "founder": "George Kurtz",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -509,7 +483,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Onward Medical",
           "source": "LLM (Core Memory)",
           "sourceWeight": 30,
-          "context": "A Swiss biotech company developing technologies to help paralyzed people regain movement and mobility.",
+          "context": "A Swiss biotech company developing neurotech solutions to help paralyzed people regain movement and mobility.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -535,7 +509,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Perplexity",
           "source": "LLM (All-In)",
           "sourceWeight": 30,
-          "context": "AI-powered search and answer engine that competes with traditional search paradigms.",
+          "context": "AI-powered search and answer engine providing an alternative to traditional search.",
           "founder": "Aravind Srinivas",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -554,32 +528,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "AI & Compute"
     },
     {
-      "name": "Senda Biosciences",
-      "score": 30,
-      "signals": [
-        {
-          "name": "Senda Biosciences",
-          "source": "LLM (Core Memory)",
-          "sourceWeight": 30,
-          "context": "Develops induced pluripotent stem cell (iPSC) technologies to reverse aging and regenerate human tissues and organs.",
-          "founder": "Nabiha Saklayen",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "high",
-          "date": "Wed, 11 Mar 2026 14:26:48 GMT",
-          "verifyUrl": "https://www.corememory.com/p/inside-the-race-to-reboot-human-cells-cellino-ipsc",
-          "articleTitle": "Inside The Race To Reboot Human Cells - EP 60 Nabiha Saklayen",
-          "suggestedSector": "Biotech & Health"
-        }
-      ],
-      "sources": [
-        "LLM (Core Memory)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "Biotech & Health"
-    },
-    {
       "name": "Supabase",
       "score": 30,
       "signals": [
@@ -587,7 +535,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Supabase",
           "source": "LLM (20VC)",
           "sourceWeight": 30,
-          "context": "Open-source Firebase alternative providing backend infrastructure and real-time databases for developers.",
+          "context": "Open-source backend-as-a-service platform targeting a $10B valuation, competing with Firebase for developers building AI applications.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -603,7 +551,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": null
+      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Ulysses",
@@ -613,7 +561,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Ulysses",
           "source": "LLM (Core Memory)",
           "sourceWeight": 30,
-          "context": "San Francisco startup building autonomous underwater drones, initially focused on seagrass planting and marine ecosystem monitoring.",
+          "context": "San Francisco-based startup building autonomous underwater drones for marine applications like seagrass planting and ocean monitoring.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -632,32 +580,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Defense & Security"
     },
     {
-      "name": "CloudKitchens",
-      "score": 26,
-      "signals": [
-        {
-          "name": "CloudKitchens",
-          "source": "LLM (All-In)",
-          "sourceWeight": 26,
-          "context": "A ghost kitchen and food delivery infrastructure company automating physical food production and logistics.",
-          "founder": "Travis Kalanick",
-          "fundingMentioned": null,
-          "stealthSignal": true,
-          "confidence": "medium",
-          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
-          "verifyUrl": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
-          "articleTitle": "Travis Kalanick & Michael Dell Live from Austin, Texas",
-          "suggestedSector": "Advanced Manufacturing"
-        }
-      ],
-      "sources": [
-        "LLM (All-In)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": null
-    },
-    {
       "name": "Kind",
       "score": 26,
       "signals": [
@@ -665,7 +587,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Kind",
           "source": "LLM (Core Memory (Ashlee Vance))",
           "sourceWeight": 26,
-          "context": "A company growing organs on demand, operating in the longevity field with a small team in New Hampshire.",
+          "context": "A New Hampshire-based biotech company working on growing organs on demand for longevity applications.",
           "founder": "Rebo",
           "fundingMentioned": null,
           "stealthSignal": true,
@@ -681,7 +603,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": null
+      "suggestedSector": "Biotech & Health"
     },
     {
       "name": "Sign\u00fcll",
@@ -717,7 +639,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Atoms",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "A manufacturing-focused startup founded by Travis Kalanick aimed at scaling physical production and logistics.",
+          "context": "A manufacturing-focused startup founded by Travis Kalanick focused on physical production and logistics optimization.",
           "founder": "Travis Kalanick",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -733,7 +655,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "AI & Compute"
+      "suggestedSector": "Robotics & Manufacturing"
     },
     {
       "name": "Critical Loop",
@@ -743,7 +665,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Critical Loop",
           "source": "LLM (TBPN)",
           "sourceWeight": 18,
-          "context": "Energy company founded by former SpaceX engineer focused on delivering reliable, cost-effective power solutions.",
+          "context": "Energy company founded by former SpaceX engineer focused on developing reliable, cost-effective power solutions.",
           "founder": "Balachandar Ramamurthy",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -769,7 +691,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Cursor",
           "source": "LLM (TBPN)",
           "sourceWeight": 18,
-          "context": "AI-powered coding platform involved in a notable SpaceX partnership deal.",
+          "context": "AI coding tool with a notable SpaceX deal mentioned in the episode.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -795,7 +717,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Happy Robot",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Robotics company mentioned as an investment in Carles Reina's portfolio.",
+          "context": "Robotics company mentioned as an investment.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -821,7 +743,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "IREN",
           "source": "LLM (All-In)",
           "sourceWeight": 18,
-          "context": "Nuclear energy or advanced reactor technology company focused on next-generation power solutions.",
+          "context": "Nuclear energy company focused on advanced reactor technology or fuel solutions.",
           "founder": "Daniel Roberts",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -840,32 +762,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": "Nuclear Energy"
     },
     {
-      "name": "LMArena",
-      "score": 18,
-      "signals": [
-        {
-          "name": "LMArena",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "Language model evaluation and benchmarking platform.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": null
-    },
-    {
       "name": "Mercor",
       "score": 18,
       "signals": [
@@ -873,7 +769,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Mercor",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "Platform connecting AI talent and services, mentioned in context of cybersecurity vulnerabilities.",
+          "context": "AI-driven platform for hiring and workforce management that experienced a security hack, raising questions about AI cyber vulnerabilities.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -890,32 +786,6 @@ const DISCOVERY_QUEUE_AUTO = {
       "multiSource": false,
       "confidence": "medium",
       "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Olipop",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Olipop",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "A functional beverage company focused on health-oriented soft drink alternatives.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Sat, 18 Apr 2026 12:36:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
-          "articleTitle": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike T",
-          "suggestedSector": "Biotech & Health"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": null
     },
     {
       "name": "Open Router",
@@ -925,7 +795,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Open Router",
           "source": "LLM (20VC)",
           "sourceWeight": 18,
-          "context": "API router aggregating access to multiple large language models and AI providers.",
+          "context": "Platform routing API calls across multiple large language models, abstracting model selection and pricing for developers.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -941,7 +811,7 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "AI & Compute"
+      "suggestedSector": null
     },
     {
       "name": "OpenClaw",
@@ -951,7 +821,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "OpenClaw",
           "source": "LLM (All-In)",
           "sourceWeight": 18,
-          "context": "Robotics company building physical AI systems, positioned as part of the operating system for modern AI computing.",
+          "context": "A robotics company working on physical AI systems, positioning itself as an operating system for modern AI-powered manufacturing.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -967,111 +837,33 @@ const DISCOVERY_QUEUE_AUTO = {
       ],
       "multiSource": false,
       "confidence": "medium",
-      "suggestedSector": "AI & Compute"
+      "suggestedSector": "Robotics & Manufacturing"
     },
     {
-      "name": "OpenRouter",
+      "name": "Plaid",
       "score": 18,
       "signals": [
         {
-          "name": "OpenRouter",
-          "source": "LLM (20VC)",
+          "name": "Plaid",
+          "source": "LLM (Invest Like the Best)",
           "sourceWeight": 18,
-          "context": "AI infrastructure platform providing access to multiple large language models.",
-          "founder": "",
+          "context": "A financial data infrastructure company that William Hockey co-founded and whose shares he used to fund Column.",
+          "founder": "William Hockey (co-founder)",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "medium",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
+          "date": "Tue, 17 Mar 2026 08:00:00 -0000",
+          "verifyUrl": "https://colossus.com/episode/playing-a-different-game/",
+          "articleTitle": "William Hockey - Building the Operating System for the Dollar and Silicon Valley Heresy - [Invest Like the Best, EP.463]",
           "suggestedSector": "AI & Compute"
         }
       ],
       "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Periodic Labs",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Periodic Labs",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "Biotech company leveraging AI for scientific discovery.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "Biotech & Health"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
-    },
-    {
-      "name": "Ramp",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Ramp",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "A financial operations platform for businesses, likely focused on spend management and accounting automation.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Sat, 18 Apr 2026 12:36:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
-          "articleTitle": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike T",
-          "suggestedSector": "Other"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
+        "LLM (Invest Like the Best)"
       ],
       "multiSource": false,
       "confidence": "medium",
       "suggestedSector": null
-    },
-    {
-      "name": "Sesame",
-      "score": 18,
-      "signals": [
-        {
-          "name": "Sesame",
-          "source": "LLM (20VC)",
-          "sourceWeight": 18,
-          "context": "AI-related company where Anj Midha serves on the board.",
-          "founder": "",
-          "fundingMentioned": null,
-          "stealthSignal": false,
-          "confidence": "medium",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "suggestedSector": "AI & Compute"
-        }
-      ],
-      "sources": [
-        "LLM (20VC)"
-      ],
-      "multiSource": false,
-      "confidence": "medium",
-      "suggestedSector": "AI & Compute"
     },
     {
       "name": "Adobe",
@@ -1081,7 +873,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Adobe",
           "source": "LLM (TBPN)",
           "sourceWeight": 8,
-          "context": "Collaborating with Nvidia to integrate 3D digital twins into marketing and customer experiences for streamlined product design.",
+          "context": "Collaborating with Nvidia to integrate 3D digital twins into marketing and customer experiences for enterprise clients.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1107,7 +899,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Airwallex",
           "source": "LLM (All-In)",
           "sourceWeight": 8,
-          "context": "A global payments and financial platform enabling modern businesses to manage international transactions and financial operations.",
+          "context": "A global payments and financial platform for modern businesses enabling cross-border transactions and financial management.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1126,30 +918,108 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
-      "name": "Plaid",
+      "name": "Anduril",
       "score": 8,
       "signals": [
         {
-          "name": "Plaid",
-          "source": "LLM (Invest Like the Best)",
+          "name": "Anduril",
+          "source": "LLM (All-In)",
           "sourceWeight": 8,
-          "context": "A financial data connectivity platform (mentioned as prior company; excluded from frontier-tech scope but included for context of founder's track record).",
-          "founder": "William Hockey (co-founder)",
+          "context": "Defense technology company building autonomous systems and munitions manufacturing (Arsenal-1 factory)",
+          "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
           "confidence": "low",
-          "date": "Tue, 17 Mar 2026 08:00:00 -0000",
-          "verifyUrl": "https://colossus.com/episode/playing-a-different-game/",
-          "articleTitle": "William Hockey - Building the Operating System for the Dollar and Silicon Valley Heresy - [Invest Like the Best, EP.463]",
+          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
+          "verifyUrl": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
+          "articleTitle": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+          "suggestedSector": "Defense & Security"
+        }
+      ],
+      "sources": [
+        "LLM (All-In)"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Defense & Security"
+    },
+    {
+      "name": "CloudFlare",
+      "score": 8,
+      "signals": [
+        {
+          "name": "CloudFlare",
+          "source": "LLM (All-In)",
+          "sourceWeight": 8,
+          "context": "Unable to identify from podcast text",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
+          "verifyUrl": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
+          "articleTitle": "Travis Kalanick & Michael Dell Live from Austin, Texas",
           "suggestedSector": "Other"
         }
       ],
       "sources": [
-        "LLM (Invest Like the Best)"
+        "LLM (All-In)"
       ],
       "multiSource": false,
       "confidence": "low",
       "suggestedSector": null
+    },
+    {
+      "name": "HP",
+      "score": 8,
+      "signals": [
+        {
+          "name": "HP",
+          "source": "LLM (TBPN)",
+          "sourceWeight": 8,
+          "context": "Using 3D digital twin technology to streamline product design and marketing processes.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Wed, 22 Apr 2026 13:27:11 -0700",
+          "verifyUrl": "https://share.transistor.fm/s/2c6e810f",
+          "articleTitle": "SpaceX/Cursor Deal, Images 2.0 Reactions, Fake Bear Attack | Anil Chakravarthy, Naveen Gavini, Avlok Kohli & Ankur Nagpal, Joel Edwards, Renen Hallak, Darian Shirazi",
+          "suggestedSector": "Advanced Manufacturing"
+        }
+      ],
+      "sources": [
+        "LLM (TBPN)"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": null
+    },
+    {
+      "name": "Periodic Labs",
+      "score": 8,
+      "signals": [
+        {
+          "name": "Periodic Labs",
+          "source": "LLM (20VC)",
+          "sourceWeight": 8,
+          "context": "A frontier-tech biotech company where Midha sits on the board.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
+          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
+          "suggestedSector": "Biotech & Health"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Biotech & Health"
     },
     {
       "name": "Revolut",
@@ -1159,7 +1029,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Revolut",
           "source": "LLM (20VC)",
           "sourceWeight": 8,
-          "context": "Fintech company (outside frontier-tech focus areas, included only as portfolio mention).",
+          "context": "Financial services/fintech company mentioned as an investment.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,
@@ -1178,6 +1048,58 @@ const DISCOVERY_QUEUE_AUTO = {
       "suggestedSector": null
     },
     {
+      "name": "Selva Ventures",
+      "score": 8,
+      "signals": [
+        {
+          "name": "Selva Ventures",
+          "source": "LLM (TBPN)",
+          "sourceWeight": 8,
+          "context": "A venture capital firm investing in emerging health and wellness brands, founded by a former investment banker.",
+          "founder": "Kiva Dickinson",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Wed, 15 Apr 2026 13:46:13 -0700",
+          "verifyUrl": "https://share.transistor.fm/s/5aca9c1e",
+          "articleTitle": "AI-Birds, Snap's Next Chapter, Amazon + Globalstar | Kiva Dickinson, Aron D'Souza, Michael Mignano, Wade Foster, Ankur Nagpal, Bailey Pumfleet, Han Wang",
+          "suggestedSector": "Other"
+        }
+      ],
+      "sources": [
+        "LLM (TBPN)"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": null
+    },
+    {
+      "name": "Sesame",
+      "score": 8,
+      "signals": [
+        {
+          "name": "Sesame",
+          "source": "LLM (20VC)",
+          "sourceWeight": 8,
+          "context": "A frontier-tech company in the AI/compute space where Midha serves as board member.",
+          "founder": "",
+          "fundingMentioned": null,
+          "stealthSignal": false,
+          "confidence": "low",
+          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
+          "verifyUrl": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
+          "articleTitle": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
+          "suggestedSector": "AI & Compute"
+        }
+      ],
+      "sources": [
+        "LLM (20VC)"
+      ],
+      "multiSource": false,
+      "confidence": "low",
+      "suggestedSector": "Space & Aerospace"
+    },
+    {
       "name": "Thrive",
       "score": 8,
       "signals": [
@@ -1185,7 +1107,7 @@ const DISCOVERY_QUEUE_AUTO = {
           "name": "Thrive",
           "source": "LLM (TBPN)",
           "sourceWeight": 8,
-          "context": "Company launching Thrive Eternal product with significant investment described as a 'giant bet.'",
+          "context": "Company launching Thrive Eternal, described as making a giant bet in the episode.",
           "founder": "",
           "fundingMentioned": null,
           "stealthSignal": false,

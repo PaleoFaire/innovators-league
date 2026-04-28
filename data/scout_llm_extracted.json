@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-28T03:34:06+00:00",
+  "generatedAt": "2026-04-28T03:43:17+00:00",
   "model": "claude-haiku-4-5",
   "rosterSize": 1597,
   "rawItemsConsidered": 91,
   "newExtractionsThisRun": 91,
-  "uniqueCandidates": 34,
+  "uniqueCandidates": 31,
   "candidates": [
     {
       "name": "Mistral",
@@ -40,32 +40,7 @@
       ],
       "sourceCount": 2,
       "multiSource": true,
-      "description": "European AI company developing large language models and frontier AI systems."
-    },
-    {
-      "name": "Anduril",
-      "discoveries": [
-        {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-          "url": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
-          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Defense & Security"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "All-In"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Defense technology company building autonomous weapons systems and operating Arsenal-1, a factory focused on fixing US munitions supply chain constraints."
+      "description": "An AI/LLM company where Midha serves on the board, operating in the frontier AI space."
     },
     {
       "name": "Cavalla Industries",
@@ -83,7 +58,7 @@
         "Robotics & Manufacturing"
       ],
       "founders": [
-        "Victor Boyd (co-founder and CTO)"
+        "Victor Boyd"
       ],
       "stealthSignal": false,
       "confidence": "high",
@@ -92,7 +67,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Develops autonomous forklifts designed to deliver goods anywhere within hours, addressing challenges in retrofitting existing equipment with inconsistent designs."
+      "description": "Develops autonomous forklifts designed to deliver goods anywhere within hours, addressing logistics and material handling automation."
     },
     {
       "name": "Column",
@@ -107,7 +82,7 @@
         }
       ],
       "sectors": [
-        "Other"
+        "AI & Compute"
       ],
       "founders": [
         "William Hockey"
@@ -119,7 +94,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A software company that owns a bank and provides core banking infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury."
+      "description": "A software company that owns a bank and provides the infrastructure powering fintech platforms like Ramp, Wise, Bilt, and Mercury."
     },
     {
       "name": "CoreWeave",
@@ -173,7 +148,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Cybersecurity platform led by George Kurtz, a veteran with 30+ years of experience including prior roles at McAfee."
+      "description": "Cybersecurity platform founded by George Kurtz, a veteran security expert with 30+ years of experience including leadership roles at McAfee."
     },
     {
       "name": "Onward Medical",
@@ -198,7 +173,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A Swiss biotech company developing technologies to help paralyzed people regain movement and mobility."
+      "description": "A Swiss biotech company developing neurotech solutions to help paralyzed people regain movement and mobility."
     },
     {
       "name": "Perplexity",
@@ -225,34 +200,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-powered search and answer engine that competes with traditional search paradigms."
-    },
-    {
-      "name": "Senda Biosciences",
-      "discoveries": [
-        {
-          "source": "Core Memory",
-          "host": "Ashlee Vance",
-          "title": "Inside The Race To Reboot Human Cells - EP 60 Nabiha Saklayen",
-          "url": "https://www.corememory.com/p/inside-the-race-to-reboot-human-cells-cellino-ipsc",
-          "date": "Wed, 11 Mar 2026 14:26:48 GMT",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Biotech & Health"
-      ],
-      "founders": [
-        "Nabiha Saklayen"
-      ],
-      "stealthSignal": false,
-      "confidence": "high",
-      "sources": [
-        "Core Memory"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Develops induced pluripotent stem cell (iPSC) technologies to reverse aging and regenerate human tissues and organs."
+      "description": "AI-powered search and answer engine providing an alternative to traditional search."
     },
     {
       "name": "Supabase",
@@ -277,7 +225,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Open-source Firebase alternative providing backend infrastructure and real-time databases for developers."
+      "description": "Open-source backend-as-a-service platform targeting a $10B valuation, competing with Firebase for developers building AI applications."
     },
     {
       "name": "Ulysses",
@@ -302,34 +250,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "San Francisco startup building autonomous underwater drones, initially focused on seagrass planting and marine ecosystem monitoring."
-    },
-    {
-      "name": "CloudKitchens",
-      "discoveries": [
-        {
-          "source": "All-In",
-          "host": "Chamath/Jason/Sacks/Friedberg",
-          "title": "Travis Kalanick & Michael Dell Live from Austin, Texas",
-          "url": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
-          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Advanced Manufacturing"
-      ],
-      "founders": [
-        "Travis Kalanick"
-      ],
-      "stealthSignal": true,
-      "confidence": "medium",
-      "sources": [
-        "All-In"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A ghost kitchen and food delivery infrastructure company automating physical food production and logistics."
+      "description": "San Francisco-based startup building autonomous underwater drones for marine applications like seagrass planting and ocean monitoring."
     },
     {
       "name": "Kind",
@@ -356,7 +277,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A company growing organs on demand, operating in the longevity field with a small team in New Hampshire."
+      "description": "A New Hampshire-based biotech company working on growing organs on demand for longevity applications."
     },
     {
       "name": "Sign\u00fcll",
@@ -408,7 +329,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A manufacturing-focused startup founded by Travis Kalanick aimed at scaling physical production and logistics."
+      "description": "A manufacturing-focused startup founded by Travis Kalanick focused on physical production and logistics optimization."
     },
     {
       "name": "Blue Energy",
@@ -433,7 +354,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A nuclear power plant startup that raised significant funding for advanced reactor development."
+      "description": "A nuclear power plant startup that has secured substantial funding from VXI Capital and other investors."
     },
     {
       "name": "Critical Loop",
@@ -460,7 +381,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Energy company founded by former SpaceX engineer focused on delivering reliable, cost-effective power solutions."
+      "description": "Energy company founded by former SpaceX engineer focused on developing reliable, cost-effective power solutions."
     },
     {
       "name": "Cursor",
@@ -485,7 +406,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI-powered coding platform involved in a notable SpaceX partnership deal."
+      "description": "AI coding tool with a notable SpaceX deal mentioned in the episode."
     },
     {
       "name": "Happy Robot",
@@ -510,7 +431,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Robotics company mentioned as an investment in Carles Reina's portfolio."
+      "description": "Robotics company mentioned as an investment."
     },
     {
       "name": "IREN",
@@ -537,32 +458,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Nuclear energy or advanced reactor technology company focused on next-generation power solutions."
-    },
-    {
-      "name": "LMArena",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Language model evaluation and benchmarking platform."
+      "description": "Nuclear energy company focused on advanced reactor technology or fuel solutions."
     },
     {
       "name": "Mercor",
@@ -587,32 +483,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Platform connecting AI talent and services, mentioned in context of cybersecurity vulnerabilities."
-    },
-    {
-      "name": "Olipop",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike T",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
-          "date": "Sat, 18 Apr 2026 12:36:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Biotech & Health"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A functional beverage company focused on health-oriented soft drink alternatives."
+      "description": "AI-driven platform for hiring and workforce management that experienced a security hack, raising questions about AI cyber vulnerabilities."
     },
     {
       "name": "Open Router",
@@ -637,7 +508,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "API router aggregating access to multiple large language models and AI providers."
+      "description": "Platform routing API calls across multiple large language models, abstracting model selection and pricing for developers."
     },
     {
       "name": "OpenClaw",
@@ -662,107 +533,34 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Robotics company building physical AI systems, positioned as part of the operating system for modern AI computing."
+      "description": "A robotics company working on physical AI systems, positioning itself as an operating system for modern AI-powered manufacturing."
     },
     {
-      "name": "OpenRouter",
+      "name": "Plaid",
       "discoveries": [
         {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
+          "source": "Invest Like the Best",
+          "host": "Patrick O'Shaughnessy",
+          "title": "William Hockey - Building the Operating System for the Dollar and Silicon Valley Heresy - [Invest Like the Best, EP.463]",
+          "url": "https://colossus.com/episode/playing-a-different-game/",
+          "date": "Tue, 17 Mar 2026 08:00:00 -0000",
           "kind": "podcast_episode"
         }
       ],
       "sectors": [
         "AI & Compute"
       ],
-      "founders": [],
+      "founders": [
+        "William Hockey (co-founder)"
+      ],
       "stealthSignal": false,
       "confidence": "medium",
       "sources": [
-        "20VC"
+        "Invest Like the Best"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "AI infrastructure platform providing access to multiple large language models."
-    },
-    {
-      "name": "Periodic Labs",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Biotech & Health"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "Biotech company leveraging AI for scientific discovery."
-    },
-    {
-      "name": "Ramp",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike T",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
-          "date": "Sat, 18 Apr 2026 12:36:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "Other"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "A financial operations platform for businesses, likely focused on spend management and accounting automation."
-    },
-    {
-      "name": "Sesame",
-      "discoveries": [
-        {
-          "source": "20VC",
-          "host": "Harry Stebbings",
-          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
-          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
-          "kind": "podcast_episode"
-        }
-      ],
-      "sectors": [
-        "AI & Compute"
-      ],
-      "founders": [],
-      "stealthSignal": false,
-      "confidence": "medium",
-      "sources": [
-        "20VC"
-      ],
-      "sourceCount": 1,
-      "multiSource": false,
-      "description": "AI-related company where Anj Midha serves on the board."
+      "description": "A financial data infrastructure company that William Hockey co-founded and whose shares he used to fund Column."
     },
     {
       "name": "Adobe",
@@ -787,7 +585,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Collaborating with Nvidia to integrate 3D digital twins into marketing and customer experiences for streamlined product design."
+      "description": "Collaborating with Nvidia to integrate 3D digital twins into marketing and customer experiences for enterprise clients."
     },
     {
       "name": "Airwallex",
@@ -812,34 +610,107 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A global payments and financial platform enabling modern businesses to manage international transactions and financial operations."
+      "description": "A global payments and financial platform for modern businesses enabling cross-border transactions and financial management."
     },
     {
-      "name": "Plaid",
+      "name": "Anduril",
       "discoveries": [
         {
-          "source": "Invest Like the Best",
-          "host": "Patrick O'Shaughnessy",
-          "title": "William Hockey - Building the Operating System for the Dollar and Silicon Valley Heresy - [Invest Like the Best, EP.463]",
-          "url": "https://colossus.com/episode/playing-a-different-game/",
-          "date": "Tue, 17 Mar 2026 08:00:00 -0000",
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+          "url": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
+          "date": "Mon, 06 Apr 2026 12:51:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Defense & Security"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "All-In"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Defense technology company building autonomous systems and munitions manufacturing (Arsenal-1 factory)"
+    },
+    {
+      "name": "CloudFlare",
+      "discoveries": [
+        {
+          "source": "All-In",
+          "host": "Chamath/Jason/Sacks/Friedberg",
+          "title": "Travis Kalanick & Michael Dell Live from Austin, Texas",
+          "url": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
+          "date": "Tue, 17 Mar 2026 04:11:00 +0000",
           "kind": "podcast_episode"
         }
       ],
       "sectors": [
         "Other"
       ],
-      "founders": [
-        "William Hockey (co-founder)"
-      ],
+      "founders": [],
       "stealthSignal": false,
       "confidence": "low",
       "sources": [
-        "Invest Like the Best"
+        "All-In"
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "A financial data connectivity platform (mentioned as prior company; excluded from frontier-tech scope but included for context of founder's track record)."
+      "description": "Unable to identify from podcast text"
+    },
+    {
+      "name": "HP",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "SpaceX/Cursor Deal, Images 2.0 Reactions, Fake Bear Attack | Anil Chakravarthy, Naveen Gavini, Avlok Kohli & Ankur Nagpal, Joel Edwards, Renen Hallak, Darian Shirazi",
+          "url": "https://share.transistor.fm/s/2c6e810f",
+          "date": "Wed, 22 Apr 2026 13:27:11 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Advanced Manufacturing"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "Using 3D digital twin technology to streamline product design and marketing processes."
+    },
+    {
+      "name": "Periodic Labs",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
+          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Biotech & Health"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A frontier-tech biotech company where Midha sits on the board."
     },
     {
       "name": "Revolut",
@@ -864,7 +735,59 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Fintech company (outside frontier-tech focus areas, included only as portfolio mention)."
+      "description": "Financial services/fintech company mentioned as an investment."
+    },
+    {
+      "name": "Selva Ventures",
+      "discoveries": [
+        {
+          "source": "TBPN",
+          "host": "John Coogan + Jordi Hays",
+          "title": "AI-Birds, Snap's Next Chapter, Amazon + Globalstar | Kiva Dickinson, Aron D'Souza, Michael Mignano, Wade Foster, Ankur Nagpal, Bailey Pumfleet, Han Wang",
+          "url": "https://share.transistor.fm/s/5aca9c1e",
+          "date": "Wed, 15 Apr 2026 13:46:13 -0700",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "Other"
+      ],
+      "founders": [
+        "Kiva Dickinson"
+      ],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "TBPN"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A venture capital firm investing in emerging health and wellness brands, founded by a former investment banker."
+    },
+    {
+      "name": "Sesame",
+      "discoveries": [
+        {
+          "source": "20VC",
+          "host": "Harry Stebbings",
+          "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Wo",
+          "url": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
+          "date": "Tue, 14 Apr 2026 09:24:00 +0000",
+          "kind": "podcast_episode"
+        }
+      ],
+      "sectors": [
+        "AI & Compute"
+      ],
+      "founders": [],
+      "stealthSignal": false,
+      "confidence": "low",
+      "sources": [
+        "20VC"
+      ],
+      "sourceCount": 1,
+      "multiSource": false,
+      "description": "A frontier-tech company in the AI/compute space where Midha serves as board member."
     },
     {
       "name": "Thrive",
@@ -889,7 +812,7 @@
       ],
       "sourceCount": 1,
       "multiSource": false,
-      "description": "Company launching Thrive Eternal product with significant investment described as a 'giant bet.'"
+      "description": "Company launching Thrive Eternal, described as making a giant bet in the episode."
     }
   ]
 }
