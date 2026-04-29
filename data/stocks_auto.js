@@ -1,5 +1,5 @@
 // Auto-generated stock price data for The Innovators League
-// Last updated: 2026-04-29 03:33:33 UTC
+// Last updated: 2026-04-29 08:25:19 UTC
 // Companies tracked: 32
 
 const STOCK_PRICES = {
@@ -26,7 +26,7 @@ const STOCK_PRICES = {
     ],
     "currency": "USD",
     "exchange": "NMS",
-    "trailingPE": 224.09523,
+    "trailingPE": 220.59375,
     "forwardPE": 75.6912,
     "priceToSalesTTM": 75.61942,
     "enterpriseToRevenue": 73.917,
@@ -37,7 +37,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": 0.40901002,
     "ebitdaTTM": 1440160000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:32:56"
+    "lastUpdated": "2026-04-29 08:24:49"
   },
   "RKLB": {
     "company": "Rocket Lab",
@@ -73,7 +73,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -0.28412,
     "ebitdaTTM": -185512992,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:32:57"
+    "lastUpdated": "2026-04-29 08:24:50"
   },
   "JOBY": {
     "company": "Joby Aviation",
@@ -109,7 +109,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -6.8937597,
     "ebitdaTTM": -679433024,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:32:58"
+    "lastUpdated": "2026-04-29 08:24:51"
   },
   "ACHR": {
     "company": "Archer Aviation",
@@ -145,7 +145,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -781.3334,
     "ebitdaTTM": -709299968,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:32:59"
+    "lastUpdated": "2026-04-29 08:24:52"
   },
   "PL": {
     "company": "Planet Labs",
@@ -181,7 +181,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -0.30429,
     "ebitdaTTM": -44979000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:00"
+    "lastUpdated": "2026-04-29 08:24:53"
   },
   "LUNR": {
     "company": "Intuitive Machines",
@@ -217,7 +217,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -0.73898005,
     "ebitdaTTM": -83919000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:00"
+    "lastUpdated": "2026-04-29 08:24:54"
   },
   "ASTS": {
     "company": "AST SpaceMobile",
@@ -253,7 +253,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -1.33095,
     "ebitdaTTM": -236602000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:01"
+    "lastUpdated": "2026-04-29 08:24:54"
   },
   "SATL": {
     "company": "Satellogic",
@@ -289,7 +289,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -1.14247,
     "ebitdaTTM": -23279000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:03"
+    "lastUpdated": "2026-04-29 08:24:55"
   },
   "OKLO": {
     "company": "Oklo",
@@ -325,7 +325,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": null,
     "ebitdaTTM": -138772000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:05"
+    "lastUpdated": "2026-04-29 08:24:57"
   },
   "QS": {
     "company": "QuantumScape",
@@ -361,7 +361,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": null,
     "ebitdaTTM": -396212992,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:05"
+    "lastUpdated": "2026-04-29 08:24:58"
   },
   "IONQ": {
     "company": "IonQ",
@@ -397,7 +397,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -3.45663,
     "ebitdaTTM": -514811008,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:06"
+    "lastUpdated": "2026-04-29 08:24:59"
   },
   "RGTI": {
     "company": "Rigetti Computing",
@@ -433,7 +433,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -12.096899,
     "ebitdaTTM": -76491000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:07"
+    "lastUpdated": "2026-04-29 08:25:00"
   },
   "QBTS": {
     "company": "D-Wave Quantum",
@@ -469,7 +469,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -12.65952,
     "ebitdaTTM": -98805000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:08"
+    "lastUpdated": "2026-04-29 08:25:01"
   },
   "RXRX": {
     "company": "Recursion Pharmaceuticals",
@@ -505,7 +505,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -3.2880301,
     "ebitdaTTM": -564430976,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:09"
+    "lastUpdated": "2026-04-29 08:25:02"
   },
   "TEM": {
     "company": "Tempus AI",
@@ -541,7 +541,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -0.16697,
     "ebitdaTTM": -171512992,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:12"
+    "lastUpdated": "2026-04-29 08:25:02"
   },
   "RIVN": {
     "company": "Rivian",
@@ -577,7 +577,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -0.64774,
     "ebitdaTTM": -2800999936,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:13"
+    "lastUpdated": "2026-04-29 08:25:03"
   },
   "ALAB": {
     "company": "Astera Labs",
@@ -613,7 +613,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": 0.24746001,
     "ebitdaTTM": 180252000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:15"
+    "lastUpdated": "2026-04-29 08:25:04"
   },
   "NVDA": {
     "company": "NVIDIA",
@@ -649,7 +649,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": 0.65024,
     "ebitdaTTM": 133230002176,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:16"
+    "lastUpdated": "2026-04-29 08:25:05"
   },
   "AMD": {
     "company": "AMD",
@@ -685,7 +685,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": 0.17059,
     "ebitdaTTM": 6744999936,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:17"
+    "lastUpdated": "2026-04-29 08:25:06"
   },
   "AUR": {
     "company": "Aurora Innovation",
@@ -721,7 +721,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -238.0,
     "ebitdaTTM": -871000000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:20"
+    "lastUpdated": "2026-04-29 08:25:06"
   },
   "LNZA": {
     "company": "LanzaTech",
@@ -757,7 +757,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -0.00732,
     "ebitdaTTM": -74929000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:23"
+    "lastUpdated": "2026-04-29 08:25:09"
   },
   "NNE": {
     "company": "Nano Nuclear Energy",
@@ -793,7 +793,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": null,
     "ebitdaTTM": -53352960,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:24"
+    "lastUpdated": "2026-04-29 08:25:10"
   },
   "SMR": {
     "company": "NuScale Power",
@@ -829,7 +829,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -33.37777,
     "ebitdaTTM": -180996992,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:25"
+    "lastUpdated": "2026-04-29 08:25:11"
   },
   "SLDP": {
     "company": "Solid Power",
@@ -865,7 +865,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -10.31155,
     "ebitdaTTM": -81662000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:25"
+    "lastUpdated": "2026-04-29 08:25:12"
   },
   "EVTL": {
     "company": "Vertical Aerospace",
@@ -901,7 +901,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": null,
     "ebitdaTTM": -126347000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:26"
+    "lastUpdated": "2026-04-29 08:25:13"
   },
   "ASRHF": {
     "company": "Astroscale",
@@ -937,7 +937,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -1.3299099,
     "ebitdaTTM": -9191977984,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:28"
+    "lastUpdated": "2026-04-29 08:25:14"
   },
   "DRSHF": {
     "company": "DroneShield",
@@ -973,34 +973,34 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -0.03497,
     "ebitdaTTM": 2401000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:29"
+    "lastUpdated": "2026-04-29 08:25:15"
   },
   "ONT.L": {
     "company": "Oxford Nanopore Technologies",
     "ticker": "ONT.L",
-    "price": 112.6,
-    "previousClose": 124.5,
-    "change": -11.9,
-    "changePercent": -9.56,
+    "price": 110.05,
+    "previousClose": 120.8,
+    "change": -10.75,
+    "changePercent": -8.9,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 529,
-    "dayHigh": 0.0,
-    "dayLow": 0.0,
+    "volume": 88392,
+    "dayHigh": 113.1,
+    "dayLow": 109.65,
     "fiftyTwoWeekHigh": 224.8,
-    "fiftyTwoWeekLow": 0.0,
+    "fiftyTwoWeekLow": 104.0,
     "sparkline": [
-      120.80000305175781,
       115.30000305175781,
       114.9000015258789,
       114.9000015258789,
-      112.5999984741211
+      112.5999984741211,
+      110.05000305175781
     ],
     "currency": "GBp",
     "exchange": "LSE",
     "trailingPE": null,
-    "forwardPE": -14.941614,
-    "priceToSalesTTM": 4.864907,
+    "forwardPE": -14.603238,
+    "priceToSalesTTM": 4.7547336,
     "enterpriseToRevenue": 3.893,
     "enterpriseToEbitda": -7.54,
     "revenueTTM": 223900000,
@@ -1009,18 +1009,18 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -0.48689997,
     "ebitdaTTM": -115600000,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:30"
+    "lastUpdated": "2026-04-29 08:25:16"
   },
   "277810.KQ": {
     "company": "Rainbow Robotics",
     "ticker": "277810.KQ",
-    "price": 657000.0,
+    "price": 664000.0,
     "previousClose": 596000.0,
-    "change": 61000.0,
-    "changePercent": 10.23,
+    "change": 68000.0,
+    "changePercent": 11.41,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 72631,
+    "volume": 109460,
     "dayHigh": 683000.0,
     "dayLow": 655000.0,
     "fiftyTwoWeekHigh": 934000.0,
@@ -1030,13 +1030,13 @@ const STOCK_PRICES = {
       612000.0,
       669000.0,
       668000.0,
-      657000.0
+      664000.0
     ],
     "currency": "KRW",
     "exchange": "KOE",
     "trailingPE": null,
-    "forwardPE": 553.0303,
-    "priceToSalesTTM": 373.52124,
+    "forwardPE": 558.92255,
+    "priceToSalesTTM": 377.50092,
     "enterpriseToRevenue": 377.754,
     "enterpriseToEbitda": -9106.495,
     "revenueTTM": 34123110400,
@@ -1045,34 +1045,34 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": 0.13057,
     "ebitdaTTM": -1415489152,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:30"
+    "lastUpdated": "2026-04-29 08:25:16"
   },
   "IDEAFORGE.NS": {
     "company": "ideaForge",
     "ticker": "IDEAFORGE.NS",
-    "price": 567.15,
-    "previousClose": 545.9,
-    "change": 21.25,
-    "changePercent": 3.89,
+    "price": 594.35,
+    "previousClose": 528.8,
+    "change": 65.55,
+    "changePercent": 12.4,
     "marketCap": "N/A",
     "marketCapRaw": 0,
-    "volume": 1711106,
-    "dayHigh": 580.0,
-    "dayLow": 546.0,
+    "volume": 4221327,
+    "dayHigh": 622.2,
+    "dayLow": 577.55,
     "fiftyTwoWeekHigh": 659.85,
     "fiftyTwoWeekLow": 355.05,
     "sparkline": [
-      545.9000244140625,
       528.7999877929688,
       515.2999877929688,
       549.9000244140625,
-      567.1500244140625
+      567.1500244140625,
+      594.3499755859375
     ],
     "currency": "INR",
     "exchange": "NSI",
     "trailingPE": null,
-    "forwardPE": 39.940144,
-    "priceToSalesTTM": 23.299921,
+    "forwardPE": 41.855633,
+    "priceToSalesTTM": 24.417364,
     "enterpriseToRevenue": 22.523,
     "enterpriseToEbitda": -21.499,
     "revenueTTM": 1053960000,
@@ -1081,7 +1081,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -1.18852,
     "ebitdaTTM": -1104130048,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:31"
+    "lastUpdated": "2026-04-29 08:25:17"
   },
   "9348.T": {
     "company": "ispace",
@@ -1117,7 +1117,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": -5.06842,
     "ebitdaTTM": -10088245248,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:32"
+    "lastUpdated": "2026-04-29 08:25:18"
   },
   "TSLA": {
     "company": "Tesla",
@@ -1153,7 +1153,7 @@ const STOCK_PRICES = {
     "operatingMarginsTTM": 0.04203,
     "ebitdaTTM": 11093999616,
     "fundamentalsSource": "Yahoo Finance \u00b7 quoteSummary",
-    "lastUpdated": "2026-04-29 03:33:33"
+    "lastUpdated": "2026-04-29 08:25:19"
   }
 };
 
@@ -1176,7 +1176,7 @@ const STOCK_STATS = {
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -1.04,
+      "avg_change": 0.35,
       "count": 7
     },
     "nuclear": {
@@ -1200,7 +1200,7 @@ const STOCK_STATS = {
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.04,
+      "avg_change": -6.82,
       "count": 3
     },
     "transportation": {
@@ -1223,24 +1223,24 @@ const STOCK_STATS = {
       13.61
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      12.4
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      11.41
+    ],
+    [
       "OKLO",
       "Oklo",
       10.35
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      10.23
-    ],
-    [
       "NVDA",
       "NVIDIA",
       6.65
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      5.0
     ]
   ],
   "topLosers": [
@@ -1270,5 +1270,5 @@ const STOCK_STATS = {
       -14.7
     ]
   ],
-  "lastUpdated": "2026-04-29 03:33:33"
+  "lastUpdated": "2026-04-29 08:25:19"
 };

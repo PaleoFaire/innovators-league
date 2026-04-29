@@ -17,7 +17,7 @@
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -1.04,
+      "avg_change": 0.35,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.04,
+      "avg_change": -6.82,
       "count": 3
     },
     "transportation": {
@@ -64,24 +64,24 @@
       13.61
     ],
     [
+      "IDEAFORGE.NS",
+      "ideaForge",
+      12.4
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      11.41
+    ],
+    [
       "OKLO",
       "Oklo",
       10.35
     ],
     [
-      "277810.KQ",
-      "Rainbow Robotics",
-      10.23
-    ],
-    [
       "NVDA",
       "NVIDIA",
       6.65
-    ],
-    [
-      "LNZA",
-      "LanzaTech",
-      5.0
     ]
   ],
   "topLosers": [
@@ -111,5 +111,5 @@
       -14.7
     ]
   ],
-  "lastUpdated": "2026-04-29 03:33:33"
+  "lastUpdated": "2026-04-29 08:25:19"
 }
