@@ -1,6 +1,11 @@
 // Auto-updated NASA TechPort projects
-// Last updated: 2026-04-28 09:42:30 UTC
+// Last updated: 2026-04-29 09:04:30 UTC
 const NASA_PROJECTS = [
+  { id: 184882, title: "Mars Exercise System", status: "Active", center: "Johnson Space Center", techArea: "Prevention and Countermeasures", lastUpdated: "04/28/26" },
+  { id: 156391, title: "ULA Vulcan Engine Reuse Scale (VERS) HIAD Technology Demonstration", status: "Active", center: "United Launch Alliance", techArea: "Hypersonic Decelerators", lastUpdated: "04/28/26" },
+  { id: 184847, title: "Space Storm Solar Sail Sentinel (S5)", status: "Active", center: "Marshall Space Flight Center", techArea: "Solar Sails", lastUpdated: "04/28/26" },
+  { id: 156385, title: "Propellant Production Plant Tipping Point (PRO-TP)", status: "Completed", center: "Blue Origin, LLC", techArea: "Cryogenic Propulsion", lastUpdated: "04/28/26" },
+  { id: 184848, title: "Additive Manufacturing for Propulsion", status: "Active", center: "Marshall Space Flight Center", techArea: "Additive Manufacturing", lastUpdated: "04/28/26" },
   { id: 182855, title: "Mini-MARLI, a small lidar for measuring of atmospheric wind and dust profiles fr", status: "Completed", center: "Goddard Space Flight Center", techArea: "Sensors and Instruments", lastUpdated: "04/24/26" },
   { id: 116400, title: "Small Spacecraft Electric Propulsion System", status: "Completed", center: "", techArea: "Electrostatic Propulsion", lastUpdated: "04/23/26" },
   { id: 158421, title: "LunaRecycle - Phase 1", status: "Completed", center: "Marshall Space Flight Center", techArea: "Waste Management", lastUpdated: "04/23/26" },
@@ -26,9 +31,4 @@ const NASA_PROJECTS = [
   { id: 117540, title: "Advanced Lightweight Lunar Gantry for Operations", status: "Completed", center: "Langley Research Center", techArea: "Surface Construction and Assembly", lastUpdated: "04/20/26" },
   { id: 117529, title: "Aftershock: NASA Shock Propagation Prediction Challenge", status: "Completed", center: "Langley Research Center", techArea: "Tests, Tools, and Methods", lastUpdated: "04/20/26" },
   { id: 91410, title: "3D Printed Habitat - Design Competition", status: "Completed", center: "Kennedy Space Center", techArea: "Surface Construction and Assembly", lastUpdated: "04/20/26" },
-  { id: 182468, title: "Lunar Dust Reduction through Electrostatic Adhesion Mitigation  (L-DREAM)", status: "Active", center: "Glenn Research Center", techArea: "Materials for Extreme Environments", lastUpdated: "04/20/26" },
-  { id: 184866, title: "Surface Power Exchange Vehicle Interface", status: "Active", center: "Johnson Space Center", techArea: "Aerospace Power and Energy Storage", lastUpdated: "04/17/26" },
-  { id: 184865, title: "Advanced Energy Management System", status: "Active", center: "Glenn Research Center", techArea: "Aerospace Power and Energy Storage", lastUpdated: "04/17/26" },
-  { id: 157469, title: "Lunar GNSS Receiver Experiment", status: "Completed", center: "Goddard Space Flight Center", techArea: "Communications, Navigation, and Orbital Debris Tracking and Characterization Systems", lastUpdated: "04/16/26" },
-  { id: 93175, title: "Logistics Reduction: RFID Enabled Autonomous Logistics Management", status: "Active", center: "Johnson Space Center", techArea: "Logistics Management", lastUpdated: "04/15/26" },
 ];
