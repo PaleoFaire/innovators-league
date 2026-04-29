@@ -1,6 +1,8 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-28 08:31:11 UTC
+// Last updated: 2026-04-29 08:25:18 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "Palantir Technologies", form: "4", date: "2026-04-28", description: "xslF345X06/wk-form4_1777418320.xml", isIPO: false, ticker: "PLTR" },
+  { company: "AST SpaceMobile", form: "DEF 14A", date: "2026-04-28", description: "formdef14a.htm", isIPO: false, ticker: "ASTS" },
   { company: "Intuitive Machines", form: "DEF 14A", date: "2026-04-27", description: "tm2532185-5_def14a.htm", isIPO: false, ticker: "LUNR" },
   { company: "Joby Aviation", form: "DEF 14A", date: "2026-04-27", description: "ny20064068x1_def14a.htm", isIPO: false, ticker: "JOBY" },
   { company: "Agrify Corporation", form: "DEF 14A", date: "2026-04-27", description: "ea0286708-02.htm", isIPO: false, ticker: "AGFY" },
@@ -49,6 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "C3.ai", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776290430.xml", isIPO: false, ticker: "AI" },
   { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287399.xml", isIPO: false, ticker: "QBTS" },
   { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287314.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287224.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287102.xml", isIPO: false, ticker: "QBTS" },
 ];

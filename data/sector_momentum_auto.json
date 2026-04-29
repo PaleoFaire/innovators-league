@@ -1,21 +1,21 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 55,
+    "momentum": 56,
     "trend": "accelerating",
     "catalysts": [
-      "Elon Musk and Sam Altman are going to court over OpenAI\u2019s fu",
-      "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
-      "OpenAI could be making a phone with AI agents replacing apps"
+      "At his OpenAI trial, Musk relitigates an old friendship",
+      "OpenAI Really Wants Codex to Shut Up About Goblins",
+      "Elon Musk Testifies That He Started OpenAI to Prevent a \u2018Ter"
     ],
     "fundingQ": "$1194.6B",
     "components": {
       "funding": 100,
-      "news": 40,
+      "news": 45,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Nuclear Energy",
@@ -32,23 +32,25 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 46,
+    "momentum": 49,
     "trend": "steady",
     "catalysts": [
+      "Google expands Pentagon&#8217;s access to its AI after Anthr",
+      "Forterra, Polaris tout new autonomous vehicle for CASEVAC, l",
       "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 5,
+      "news": 15,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -64,7 +66,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Ocean & Maritime",
@@ -80,50 +82,51 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 44,
+    "momentum": 42,
     "trend": "steady",
     "catalysts": [
+      "Google expands Pentagon&#8217;s access to its AI after Anthr",
       "SpaceX wins $57 million U.S. military contract for satellite",
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
-      "news": 10,
+      "news": 15,
       "hiring": 0,
-      "market": 31
+      "market": 17
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 41,
+    "momentum": 37,
     "trend": "steady",
     "catalysts": [
-      "OpenAI could be making a phone with AI agents replacing apps",
+      "True Anomaly raises $650 million, reaching $2.2 billion valu",
       "SpaceX Launch Rate in 2026 After Reaching Orbital Operations",
       "SpaceX XAI 2027"
     ],
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 55,
+      "news": 40,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Robotics & Manufacturing",
     "momentum": 27,
     "trend": "rising",
     "catalysts": [
+      "Apptronik\u2019s new CPO hire a major step in right direction",
       "Accenture, Vodafone, and SAP to pilot humanoid robots in the",
-      "Hyundai Partners With Waymo To Produce An IONIQ 5 Robotaxi \u2014",
       "Rivian (RIVN) starts R2 production days after tornado hit fa"
     ],
     "fundingQ": "$655M",
@@ -133,7 +136,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -149,32 +152,50 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 18,
+    "momentum": 16,
     "trend": "declining",
     "catalysts": [
-      "OpenAI could be making a phone with AI agents replacing apps",
-      "STAT+: Intellia says CRISPR-based treatment for rare disease",
-      "Accenture, Vodafone, and SAP to pilot humanoid robots in the"
+      "Elon Musk Testifies That He Started OpenAI to Prevent a \u2018Ter",
+      "Apptronik\u2019s new CPO hire a major step in right direction",
+      "True Anomaly raises $650 million, reaching $2.2 billion valu"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 30,
+      "news": 25,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 14,
+    "trend": "declining",
+    "catalysts": [
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Fervo Energy inks big turbine deal to build more next-gen ge",
+      "Base Power to launch 100-MW home battery network for Texas u"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 49
+    },
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Infrastructure & Logistics",
     "momentum": 14,
     "trend": "declining",
     "catalysts": [
-      "Verda raises $117M to scale AI cloud infrastructure built on",
+      "Forterra, Polaris tout new autonomous vehicle for CASEVAC, l",
       "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit",
       "Anthropic&#8217;s Nuclear Bomb"
     ],
@@ -185,7 +206,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Housing & Construction",
@@ -201,29 +222,11 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-28"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 10,
-    "trend": "declining",
-    "catalysts": [
-      "Fervo Energy unveils new power plant details in IPO filing",
-      "Fervo Energy inks big turbine deal to build more next-gen ge",
-      "Base Power to launch 100-MW home battery network for Texas u"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 33
-    },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Transportation",
-    "momentum": 10,
+    "momentum": 8,
     "trend": "declining",
     "catalysts": [
       "Rivian (RIVN) starts R2 production days after tornado hit fa"
@@ -233,9 +236,9 @@
       "funding": 7,
       "news": 5,
       "hiring": 0,
-      "market": 31
+      "market": 23
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Biotech & Health",
@@ -243,7 +246,7 @@
     "trend": "declining",
     "catalysts": [
       "Compass Therapeutics unveils key secondary endpoint results",
-      "STAT+: Intellia says CRISPR-based treatment for rare disease"
+      "<a href=\"/biotech/lilly-pens-22b-pact-bezos-backed-profluent"
     ],
     "fundingQ": "$230M",
     "components": {
@@ -252,7 +255,7 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   },
   {
     "sector": "Quantum Computing",
@@ -268,6 +271,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
   }
 ]

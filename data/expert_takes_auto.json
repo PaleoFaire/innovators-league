@@ -1,25 +1,15 @@
 {
-  "generated_at": "2026-04-28T08:32:00.139426Z",
+  "generated_at": "2026-04-29T08:26:08.591830Z",
   "takes": [
     {
       "author": "SpaceNews",
       "role": "Industry signal",
-      "company": "Atmos Space Cargo",
-      "text": "Atmos Space Cargo raises $30 million for reentry missions",
-      "date": "Thu, 23 Ap",
+      "company": "True Anomaly",
+      "text": "True Anomaly raises $650 million, reaching $2.2 billion valuation",
+      "date": "Tue, 28 Ap",
       "source": "news",
-      "source_url": "https://spacenews.com/atmos-space-cargo-raises-30-million-for-reentry-missions/",
+      "source_url": "https://spacenews.com/true-anomaly-raises-650-million-reaching-2-2-billion-valuation/",
       "signal_type": "funding"
-    },
-    {
-      "author": "TechCrunch",
-      "role": "Industry signal",
-      "company": "OpenAI",
-      "text": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
-      "date": "Mon, 27 Ap",
-      "source": "news",
-      "source_url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
-      "signal_type": "news"
     },
     {
       "author": "Canary Media",
@@ -30,32 +20,12 @@
       "source": "news",
       "source_url": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing",
       "signal_type": "ipo"
-    },
-    {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Cohere",
-      "text": "Aleph Alpha to be acquired by Cohere",
-      "date": "Fri, 24 Ap",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/04/24/aleph-alpha-to-be-acquired-by-cohere/",
-      "signal_type": "news"
-    },
-    {
-      "author": "Tech.eu",
-      "role": "Industry signal",
-      "company": "Scale AI",
-      "text": "Verda raises $117M to scale AI cloud infrastructure built on clean Nordic power",
-      "date": "Fri, 24 Ap",
-      "source": "news",
-      "source_url": "https://tech.eu/2026/04/24/verda-raises-117m-to-scale-ai-cloud-infrastructure-built-on-clean-nordic-power/",
-      "signal_type": "funding"
     }
   ],
   "insights": [],
   "counts": {
     "from_earnings": 0,
-    "from_news": 5,
+    "from_news": 2,
     "from_press": 0
   }
 }
