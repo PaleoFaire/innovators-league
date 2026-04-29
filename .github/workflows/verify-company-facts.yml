@@ -1,0 +1,71 @@
+name: Verify Company Facts (manual trigger)
+
+# Multi-source fact verification pipeline. Manually triggered to avoid
+# burning Claude budget on schedule. Each run processes one cohort
+# (default: top 100 cold-email picks) and outputs a verification report
+# Stephen reviews before any data.js changes are applied.
+
+on:
+  workflow_dispatch:
+    inputs:
+      cohort_file:
+        description: 'JSON file with company names to verify (relative to repo)'
+        default: 'data/cold_email_picks.json'
+        required: true
+      limit:
+        description: 'Max companies to process (cost control, ~$0.10/co)'
+        default: '100'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    name: Verify cohort against public sources
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests anthropic
+
+      - name: Run multi-source fact verifier
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+          VERIFY_LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          python scripts/verify_company_facts.py \
+            --cohort-file "${{ github.event.inputs.cohort_file }}" \
+            --limit "${{ github.event.inputs.limit }}"
+
+      - name: Generate human-readable report
+        run: python scripts/generate_verification_report.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      - name: Commit verification artifacts (NOT data.js — stages for review)
+        run: |
+          git add data/company_facts_verification.json \
+                  data/.company_facts_url_cache.json \
+                  data/.company_facts_extraction_cache.json \
+                  COMPANY_FACTS_VERIFICATION_REPORT.md 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git commit -m "📊 Company facts verification: ${{ github.event.inputs.cohort_file }} (limit ${{ github.event.inputs.limit }})"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main 2>/dev/null || true
+            if git push; then exit 0; fi
+            sleep 5
+          done
+          echo "::error::Push failed after retries"
+          exit 1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
