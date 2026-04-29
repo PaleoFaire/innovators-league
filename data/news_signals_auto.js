@@ -1,63 +1,85 @@
 // Auto-generated news signals
-// Last updated: 2026-04-28T23:06:43.635Z
+// Last updated: 2026-04-29T00:03:36.208Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1777417603635,
+    "id": 1777421016208,
+    "type": "news",
+    "company": "OpenAI",
+    "headline": "OpenAI Really Wants Codex to Shut Up About Goblins",
+    "source": "Wired",
+    "time": "Just now",
+    "impact": "low",
+    "unread": true,
+    "link": "https://www.wired.com/story/openai-really-wants-codex-to-shut-up-about-goblins/"
+  },
+  {
+    "id": 1777421016209,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "Elon Musk Testifies That He Started OpenAI to Prevent a ‘Terminator Outcome’",
     "source": "Wired",
-    "time": "1h ago",
+    "time": "2h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.wired.com/story/model-behavior-elon-musk-testifies-at-musk-v-altman-trial/"
   },
   {
-    "id": 1777417603636,
+    "id": 1777421016210,
     "type": "news",
     "company": "OpenAI",
     "headline": "Amazon is already offering new OpenAI products on AWS",
     "source": "TechCrunch",
-    "time": "3h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/"
   },
   {
-    "id": 1777417603637,
+    "id": 1777421016211,
     "type": "hire",
     "company": "Apptronik",
     "headline": "Apptronik’s new CPO hire a major step in right direction",
     "source": "The Robot Report",
-    "time": "3h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://www.therobotreport.com/apptroniks-new-cpo-chu-hire-major-step-right-direction/"
   },
   {
-    "id": 1777417603638,
+    "id": 1777421016212,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Google expands Pentagon&#8217;s access to its AI after Anthropic&#8217;s refusal",
     "source": "TechCrunch",
-    "time": "4h ago",
+    "time": "5h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/"
   },
   {
-    "id": 1777417603639,
+    "id": 1777421016213,
     "type": "news",
     "company": "Forterra",
     "headline": "Forterra, Polaris tout new autonomous vehicle for CASEVAC, logistics",
     "source": "Breaking Defense",
-    "time": "10h ago",
+    "time": "11h ago",
     "impact": "low",
-    "unread": true,
+    "unread": false,
     "link": "https://breakingdefense.com/2026/04/forterra-polaris-tout-new-autonomous-vehicle-for-casevac-logistics/"
   },
   {
-    "id": 1777417603640,
+    "id": 1777421016214,
+    "type": "funding",
+    "company": "True Anomaly",
+    "headline": "True Anomaly raises $650 million, reaching $2.2 billion valuation",
+    "source": "SpaceNews",
+    "time": "13h ago",
+    "impact": "high",
+    "unread": false,
+    "link": "https://spacenews.com/true-anomaly-raises-650-million-reaching-2-2-billion-valuation/"
+  },
+  {
+    "id": 1777421016215,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Elon Musk and Sam Altman are going to court over OpenAI’s future",
@@ -68,7 +90,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/"
   },
   {
-    "id": 1777417603641,
+    "id": 1777421016216,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
@@ -79,7 +101,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/"
   },
   {
-    "id": 1777417603642,
+    "id": 1777421016217,
     "type": "news",
     "company": "Pivotal",
     "headline": "Compass Therapeutics unveils key secondary endpoint results from pivotal biliary tract cancer trial",
@@ -90,7 +112,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://endpoints.news/compass-therapeutics-unveils-key-secondary-endpoint-results-from-pivotal-biliary-tract-cancer-trial/"
   },
   {
-    "id": 1777417603643,
+    "id": 1777421016218,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX Launch Rate in 2026 After Reaching Orbital Operations, Booster and Starship Recovery",
@@ -101,7 +123,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/spacex-launch-rate-in-2026-after-reaching-orbital-operations-booster-and-starship-recovery.html"
   },
   {
-    "id": 1777417603644,
+    "id": 1777421016219,
     "type": "ipo",
     "company": "SpaceX",
     "headline": "SpaceX XAI 2027",
@@ -112,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.nextbigfuture.com/2026/04/spacex-xai-2027.html"
   },
   {
-    "id": 1777417603645,
+    "id": 1777421016220,
     "type": "news",
     "company": "Humanoid",
     "headline": "Accenture, Vodafone, and SAP to pilot humanoid robots in the warehouse",
@@ -123,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/accenture-vodafone-and-sap-to-pilot-humanoid-robots-in-the-warehouse/"
   },
   {
-    "id": 1777417603646,
+    "id": 1777421016221,
     "type": "news",
     "company": "Waymo",
     "headline": "Hyundai Partners With Waymo To Produce An IONIQ 5 Robotaxi — Field Trip",
@@ -134,7 +156,18 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://cleantechnica.com/2026/04/24/hyundai-partners-with-waymo-to-produce-an-ioniq-5-robotaxi-field-trip/"
   },
   {
-    "id": 1777417603647,
+    "id": 1777421016222,
+    "type": "contract",
+    "company": "SpaceX",
+    "headline": "SpaceX wins $57 million U.S. military contract for satellite crosslink demo",
+    "source": "SpaceNews",
+    "time": "5d ago",
+    "impact": "medium",
+    "unread": false,
+    "link": "https://spacenews.com/spacex-wins-57-million-u-s-military-contract-for-satellite-crosslink-demo/"
+  },
+  {
+    "id": 1777421016223,
     "type": "news",
     "company": "Anthropic",
     "headline": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
@@ -145,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
   },
   {
-    "id": 1777417603648,
+    "id": 1777421016224,
     "type": "news",
     "company": "Anthropic",
     "headline": "Elon Musk mulled Mistral deal to take on OpenAI and Anthropic, reports say",
@@ -156,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://sifted.eu/articles/elon-musk-xai-mistral-partnership/"
   },
   {
-    "id": 1777417603649,
+    "id": 1777421016225,
     "type": "hire",
     "company": "Rivian",
     "headline": "Rivian (RIVN) starts R2 production days after tornado hit factory, deliveries this spring",
@@ -167,7 +200,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://electrek.co/2026/04/22/rivian-r2-starts-production-tornado-deliveries-spring/"
   },
   {
-    "id": 1777417603650,
+    "id": 1777421016226,
     "type": "ipo",
     "company": "Fervo Energy",
     "headline": "Fervo Energy unveils new power plant details in IPO filing",
@@ -178,7 +211,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
   },
   {
-    "id": 1777417603651,
+    "id": 1777421016227,
     "type": "news",
     "company": "Blue Origin",
     "headline": "Blue Origin&#039;s rocket reuse achievement marred by upper stage failure",
@@ -187,38 +220,5 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/"
-  },
-  {
-    "id": 1777417603652,
-    "type": "milestone",
-    "company": "Anthropic",
-    "headline": "Anthropic&#8217;s Nuclear Bomb",
-    "source": "War on the Rocks",
-    "time": "4/16/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://warontherocks.com/cogs-of-war/anthropics-nuclear-bomb/"
-  },
-  {
-    "id": 1777417603653,
-    "type": "news",
-    "company": "Deterrence",
-    "headline": "Disperse to Survive: The Logic of French Forward Deterrence",
-    "source": "War on the Rocks",
-    "time": "4/10/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://warontherocks.com/disperse-to-survive-the-logic-of-french-forward-deterrence/"
-  },
-  {
-    "id": 1777417603654,
-    "type": "news",
-    "company": "Fervo Energy",
-    "headline": "Fervo Energy inks big turbine deal to build more next-gen geothermal",
-    "source": "Canary Media",
-    "time": "4/9/2026",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.canarymedia.com/articles/geothermal/fervo-energy-inks-turbine-deal"
   }
 ];
