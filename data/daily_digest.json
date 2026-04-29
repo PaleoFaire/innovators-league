@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T18:19:09.228763+00:00",
+  "generatedAt": "2026-04-29T20:16:55.964116+00:00",
   "date": "2026-04-29",
   "dateDisplay": "Wednesday, April 29, 2026",
   "sections": {
@@ -70,60 +70,60 @@
     ],
     "marketMovers": [
       {
+        "ticker": "NNE",
+        "company": "Nano Nuclear Energy",
+        "price": 22.07,
+        "changePercent": -19.44,
+        "change": -5.32
+      },
+      {
         "ticker": "LUNR",
         "company": "Intuitive Machines",
-        "price": 22.88,
-        "changePercent": -23.6,
-        "change": -7.07
+        "price": 24.3,
+        "changePercent": -18.84,
+        "change": -5.64
       },
       {
         "ticker": "ASTS",
         "company": "AST SpaceMobile",
-        "price": 67.67,
-        "changePercent": -20.06,
-        "change": -16.98
-      },
-      {
-        "ticker": "NNE",
-        "company": "Nano Nuclear Energy",
-        "price": 21.93,
-        "changePercent": -19.93,
-        "change": -5.46
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 5.82,
-        "changePercent": -19.68,
-        "change": -1.42
+        "price": 69.44,
+        "changePercent": -17.98,
+        "change": -15.22
       },
       {
         "ticker": "SMR",
         "company": "NuScale Power",
-        "price": 10.98,
-        "changePercent": -19.05,
-        "change": -2.59
-      },
-      {
-        "ticker": "QBTS",
-        "company": "D-Wave Quantum",
-        "price": 17.21,
-        "changePercent": -18.97,
-        "change": -4.03
+        "price": 11.22,
+        "changePercent": -17.32,
+        "change": -2.35
       },
       {
         "ticker": "EVTL",
         "company": "Vertical Aerospace",
-        "price": 2.21,
-        "changePercent": -18.03,
-        "change": -0.48
+        "price": 2.23,
+        "changePercent": -16.91,
+        "change": -0.46
+      },
+      {
+        "ticker": "SATL",
+        "company": "Satellogic",
+        "price": 6.04,
+        "changePercent": -16.51,
+        "change": -1.2
+      },
+      {
+        "ticker": "SLDP",
+        "company": "Solid Power",
+        "price": 3.33,
+        "changePercent": -15.78,
+        "change": -0.62
       },
       {
         "ticker": "RKLB",
         "company": "Rocket Lab",
-        "price": 74.25,
-        "changePercent": -17.53,
-        "change": -15.79
+        "price": 76.36,
+        "changePercent": -15.19,
+        "change": -13.68
       }
     ],
     "regulatory": [
@@ -214,6 +214,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "LUNR -23.6%"
+    "topMover": "NNE -19.4%"
   }
 }
