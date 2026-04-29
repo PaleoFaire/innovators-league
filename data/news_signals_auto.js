@@ -1,129 +1,129 @@
 // Auto-generated news signals
-// Last updated: 2026-04-29T16:48:36.848Z
+// Last updated: 2026-04-29T18:18:59.327Z
 const COMPANY_SIGNALS_AUTO = [
   {
-    "id": 1777481316848,
+    "id": 1777486739327,
     "type": "news",
     "company": "Earth AI",
     "headline": "Earth AI is vertically integrating the search for critical minerals",
     "source": "TechCrunch",
-    "time": "2h ago",
+    "time": "4h ago",
     "impact": "low",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/29/earth-ai-is-vertically-integrating-the-search-for-critical-minerals/"
   },
   {
-    "id": 1777481316849,
+    "id": 1777486739328,
     "type": "funding",
     "company": "Firestorm Labs",
     "headline": "Firestorm Labs raises $82M to take drone factories into the field",
     "source": "TechCrunch",
-    "time": "3h ago",
+    "time": "5h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/29/firestorm-labs-raises-82m-to-take-drone-factories-into-the-field/"
   },
   {
-    "id": 1777481316850,
+    "id": 1777486739329,
     "type": "funding",
     "company": "Scale AI",
     "headline": "Cleo Labs secures €1.5M to scale AI-driven product compliance globally",
     "source": "Tech.eu",
-    "time": "6h ago",
+    "time": "8h ago",
     "impact": "low",
     "unread": true,
     "link": "https://tech.eu/2026/04/29/cleo-labs-secures-eur15m-to-scale-ai-driven-product-compliance-globally/"
   },
   {
-    "id": 1777481316851,
+    "id": 1777486739330,
     "type": "funding",
     "company": "Scout AI",
     "headline": "Colby Adcock&#8217;s Scout AI raises $100M to train its models for war: We visited its bootcamp",
     "source": "TechCrunch",
-    "time": "7h ago",
+    "time": "8h ago",
     "impact": "high",
     "unread": true,
     "link": "https://techcrunch.com/2026/04/29/coby-adcocks-scout-ai-raises-100-million-to-train-models-for-war-we-visited-its-bootcamp/"
   },
   {
-    "id": 1777481316852,
+    "id": 1777486739331,
     "type": "news",
     "company": "Cognition",
     "headline": "AI coding agent Cognition expands to Singapore as Asia-Pacific Hub",
     "source": "TechNode Global",
-    "time": "8h ago",
+    "time": "9h ago",
     "impact": "low",
     "unread": true,
     "link": "https://technode.global/2026/04/29/ai-coding-agent-cognition-expands-to-singapore-as-asia-pacific-hub/"
   },
   {
-    "id": 1777481316853,
+    "id": 1777486739332,
     "type": "news",
     "company": "OpenAI",
     "headline": "At his OpenAI trial, Musk relitigates an old friendship",
     "source": "TechCrunch",
-    "time": "16h ago",
+    "time": "17h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/04/28/at-his-openai-trial-musk-relitigates-an-old-friendship/"
   },
   {
-    "id": 1777481316854,
+    "id": 1777486739333,
     "type": "news",
     "company": "OpenAI",
     "headline": "OpenAI Really Wants Codex to Shut Up About Goblins",
     "source": "Wired",
-    "time": "17h ago",
+    "time": "18h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/openai-really-wants-codex-to-shut-up-about-goblins/"
   },
   {
-    "id": 1777481316855,
+    "id": 1777486739334,
     "type": "milestone",
     "company": "OpenAI",
     "headline": "Elon Musk Testifies That He Started OpenAI to Prevent a ‘Terminator Outcome’",
     "source": "Wired",
-    "time": "19h ago",
+    "time": "20h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.wired.com/story/model-behavior-elon-musk-testifies-at-musk-v-altman-trial/"
   },
   {
-    "id": 1777481316856,
+    "id": 1777486739335,
     "type": "news",
     "company": "OpenAI",
     "headline": "Amazon is already offering new OpenAI products on AWS",
     "source": "TechCrunch",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/"
   },
   {
-    "id": 1777481316857,
+    "id": 1777486739336,
     "type": "hire",
     "company": "Apptronik",
     "headline": "Apptronik’s new CPO hire a major step in right direction",
     "source": "The Robot Report",
-    "time": "21h ago",
+    "time": "22h ago",
     "impact": "low",
     "unread": false,
     "link": "https://www.therobotreport.com/apptroniks-new-cpo-chu-hire-major-step-right-direction/"
   },
   {
-    "id": 1777481316858,
+    "id": 1777486739337,
     "type": "contract",
     "company": "Anthropic",
     "headline": "Google expands Pentagon&#8217;s access to its AI after Anthropic&#8217;s refusal",
     "source": "TechCrunch",
-    "time": "22h ago",
+    "time": "1d ago",
     "impact": "low",
     "unread": false,
     "link": "https://techcrunch.com/2026/04/28/google-expands-pentagons-access-to-its-ai-after-anthropics-refusal/"
   },
   {
-    "id": 1777481316859,
+    "id": 1777486739338,
     "type": "news",
     "company": "Forterra",
     "headline": "Forterra, Polaris tout new autonomous vehicle for CASEVAC, logistics",
@@ -134,7 +134,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://breakingdefense.com/2026/04/forterra-polaris-tout-new-autonomous-vehicle-for-casevac-logistics/"
   },
   {
-    "id": 1777481316860,
+    "id": 1777486739339,
     "type": "funding",
     "company": "True Anomaly",
     "headline": "True Anomaly raises $650 million, reaching $2.2 billion valuation",
@@ -145,7 +145,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/true-anomaly-raises-650-million-reaching-2-2-billion-valuation/"
   },
   {
-    "id": 1777481316861,
+    "id": 1777486739340,
     "type": "hire",
     "company": "OpenAI",
     "headline": "Elon Musk and Sam Altman are going to court over OpenAI’s future",
@@ -156,29 +156,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/"
   },
   {
-    "id": 1777481316862,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX Launch Rate in 2026 After Reaching Orbital Operations, Booster and Starship Recovery",
-    "source": "Next Big Future",
-    "time": "2d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/04/spacex-launch-rate-in-2026-after-reaching-orbital-operations-booster-and-starship-recovery.html"
-  },
-  {
-    "id": 1777481316863,
-    "type": "ipo",
-    "company": "SpaceX",
-    "headline": "SpaceX XAI 2027",
-    "source": "Next Big Future",
-    "time": "4d ago",
-    "impact": "low",
-    "unread": false,
-    "link": "https://www.nextbigfuture.com/2026/04/spacex-xai-2027.html"
-  },
-  {
-    "id": 1777481316864,
+    "id": 1777486739341,
     "type": "news",
     "company": "Humanoid",
     "headline": "Accenture, Vodafone, and SAP to pilot humanoid robots in the warehouse",
@@ -189,7 +167,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://www.therobotreport.com/accenture-vodafone-and-sap-to-pilot-humanoid-robots-in-the-warehouse/"
   },
   {
-    "id": 1777481316865,
+    "id": 1777486739342,
     "type": "contract",
     "company": "SpaceX",
     "headline": "SpaceX wins $57 million U.S. military contract for satellite crosslink demo",
@@ -200,7 +178,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spacenews.com/spacex-wins-57-million-u-s-military-contract-for-satellite-crosslink-demo/"
   },
   {
-    "id": 1777481316866,
+    "id": 1777486739343,
     "type": "news",
     "company": "Anthropic",
     "headline": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
@@ -211,7 +189,7 @@ const COMPANY_SIGNALS_AUTO = [
     "link": "https://spectrum.ieee.org/ai-cybersecurity-mythos"
   },
   {
-    "id": 1777481316867,
+    "id": 1777486739344,
     "type": "news",
     "company": "Anthropic",
     "headline": "Elon Musk mulled Mistral deal to take on OpenAI and Anthropic, reports say",
@@ -220,5 +198,27 @@ const COMPANY_SIGNALS_AUTO = [
     "impact": "low",
     "unread": false,
     "link": "https://sifted.eu/articles/elon-musk-xai-mistral-partnership/"
+  },
+  {
+    "id": 1777486739345,
+    "type": "hire",
+    "company": "Rivian",
+    "headline": "Rivian (RIVN) starts R2 production days after tornado hit factory, deliveries this spring",
+    "source": "Electrek",
+    "time": "4/22/2026",
+    "impact": "low",
+    "unread": false,
+    "link": "https://electrek.co/2026/04/22/rivian-r2-starts-production-tornado-deliveries-spring/"
+  },
+  {
+    "id": 1777486739346,
+    "type": "ipo",
+    "company": "Fervo Energy",
+    "headline": "Fervo Energy unveils new power plant details in IPO filing",
+    "source": "Canary Media",
+    "time": "4/20/2026",
+    "impact": "high",
+    "unread": false,
+    "link": "https://www.canarymedia.com/articles/climatetech-finance/fervo-energy-geothermal-ipo-filing"
   }
 ];
