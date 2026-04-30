@@ -1,0 +1,275 @@
+name: Verify All Remaining (auto-chain batches 4-9)
+
+# One-shot workflow: runs the verifier on all 6 remaining cohorts
+# (570 companies) sequentially, auto-applying changes after each
+# batch with conservative red-flag detection.
+#
+# Each batch step is `continue-on-error: true` so a single failure
+# doesn't abort the chain. Total wall-clock: ~3-4 hours.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify-and-apply-all:
+    name: Verify + auto-apply 6 remaining cohorts (batch 4 → 9)
+    runs-on: ubuntu-latest
+    timeout-minutes: 350  # 5h 50m, just under GH job hard limit (6h)
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install requests anthropic
+
+      - name: Configure Git
+        run: |
+          git config user.name "TIL Data Bot"
+          git config user.email "bot@innovatorsleague.com"
+
+      # ─── BATCH 4 ──────────────────────────────────────────────
+      - name: Batch 4 — Verify
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+          VERIFY_LIMIT: '95'
+        continue-on-error: true
+        run: |
+          python scripts/verify_company_facts.py \
+            --cohort-file data/cold_email_batch4.json \
+            --limit 95 --output-suffix batch4
+          python scripts/generate_verification_report.py --suffix batch4
+
+      - name: Batch 4 — Auto-apply + commit
+        continue-on-error: true
+        run: |
+          python scripts/auto_apply_verified.py --suffix batch4
+          # Quick parse-check: data.js must still tokenize cleanly
+          python3 -c "
+          import re
+          src = open('data.js').read()
+          assert 'const COMPANIES' in src, 'COMPANIES array missing'
+          # Brace balance sanity
+          if src.count('{') != src.count('}'):
+              raise SystemExit('Brace imbalance after batch 4 apply')
+          print('✓ data.js sanity check passed')
+          "
+          git add data.js \
+                  data/company_facts_verification_batch4.json \
+                  COMPANY_FACTS_VERIFICATION_REPORT_batch4.md 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "Nothing to commit for batch 4"
+          else
+            git commit -m "📊 Batch 4 verified + auto-applied (95 cos)"
+            for attempt in 1 2 3; do
+              git pull --rebase -X theirs origin main 2>/dev/null || true
+              if git push; then break; fi
+              sleep 5
+            done
+          fi
+
+      # ─── BATCH 5 ──────────────────────────────────────────────
+      - name: Batch 5 — Verify
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+          VERIFY_LIMIT: '95'
+        continue-on-error: true
+        run: |
+          python scripts/verify_company_facts.py \
+            --cohort-file data/cold_email_batch5.json \
+            --limit 95 --output-suffix batch5
+          python scripts/generate_verification_report.py --suffix batch5
+
+      - name: Batch 5 — Auto-apply + commit
+        continue-on-error: true
+        run: |
+          python scripts/auto_apply_verified.py --suffix batch5
+          python3 -c "
+          import re
+          src = open('data.js').read()
+          assert 'const COMPANIES' in src
+          assert src.count('{') == src.count('}'), 'Brace imbalance'
+          print('✓ sanity check passed')
+          "
+          git add data.js \
+                  data/company_facts_verification_batch5.json \
+                  COMPANY_FACTS_VERIFICATION_REPORT_batch5.md 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "📊 Batch 5 verified + auto-applied (95 cos)"
+            for attempt in 1 2 3; do
+              git pull --rebase -X theirs origin main 2>/dev/null || true
+              if git push; then break; fi
+              sleep 5
+            done
+          fi
+
+      # ─── BATCH 6 ──────────────────────────────────────────────
+      - name: Batch 6 — Verify
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+          VERIFY_LIMIT: '95'
+        continue-on-error: true
+        run: |
+          python scripts/verify_company_facts.py \
+            --cohort-file data/cold_email_batch6.json \
+            --limit 95 --output-suffix batch6
+          python scripts/generate_verification_report.py --suffix batch6
+
+      - name: Batch 6 — Auto-apply + commit
+        continue-on-error: true
+        run: |
+          python scripts/auto_apply_verified.py --suffix batch6
+          python3 -c "
+          import re
+          src = open('data.js').read()
+          assert 'const COMPANIES' in src
+          assert src.count('{') == src.count('}')
+          print('✓ sanity check passed')
+          "
+          git add data.js \
+                  data/company_facts_verification_batch6.json \
+                  COMPANY_FACTS_VERIFICATION_REPORT_batch6.md 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "📊 Batch 6 verified + auto-applied (95 cos)"
+            for attempt in 1 2 3; do
+              git pull --rebase -X theirs origin main 2>/dev/null || true
+              if git push; then break; fi
+              sleep 5
+            done
+          fi
+
+      # ─── BATCH 7 ──────────────────────────────────────────────
+      - name: Batch 7 — Verify
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+          VERIFY_LIMIT: '95'
+        continue-on-error: true
+        run: |
+          python scripts/verify_company_facts.py \
+            --cohort-file data/cold_email_batch7.json \
+            --limit 95 --output-suffix batch7
+          python scripts/generate_verification_report.py --suffix batch7
+
+      - name: Batch 7 — Auto-apply + commit
+        continue-on-error: true
+        run: |
+          python scripts/auto_apply_verified.py --suffix batch7
+          python3 -c "
+          import re
+          src = open('data.js').read()
+          assert 'const COMPANIES' in src
+          assert src.count('{') == src.count('}')
+          print('✓ sanity check passed')
+          "
+          git add data.js \
+                  data/company_facts_verification_batch7.json \
+                  COMPANY_FACTS_VERIFICATION_REPORT_batch7.md 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "📊 Batch 7 verified + auto-applied (95 cos)"
+            for attempt in 1 2 3; do
+              git pull --rebase -X theirs origin main 2>/dev/null || true
+              if git push; then break; fi
+              sleep 5
+            done
+          fi
+
+      # ─── BATCH 8 ──────────────────────────────────────────────
+      - name: Batch 8 — Verify
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+          VERIFY_LIMIT: '95'
+        continue-on-error: true
+        run: |
+          python scripts/verify_company_facts.py \
+            --cohort-file data/cold_email_batch8.json \
+            --limit 95 --output-suffix batch8
+          python scripts/generate_verification_report.py --suffix batch8
+
+      - name: Batch 8 — Auto-apply + commit
+        continue-on-error: true
+        run: |
+          python scripts/auto_apply_verified.py --suffix batch8
+          python3 -c "
+          import re
+          src = open('data.js').read()
+          assert 'const COMPANIES' in src
+          assert src.count('{') == src.count('}')
+          print('✓ sanity check passed')
+          "
+          git add data.js \
+                  data/company_facts_verification_batch8.json \
+                  COMPANY_FACTS_VERIFICATION_REPORT_batch8.md 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "📊 Batch 8 verified + auto-applied (95 cos)"
+            for attempt in 1 2 3; do
+              git pull --rebase -X theirs origin main 2>/dev/null || true
+              if git push; then break; fi
+              sleep 5
+            done
+          fi
+
+      # ─── BATCH 9 ──────────────────────────────────────────────
+      - name: Batch 9 — Verify
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
+          VERIFY_LIMIT: '95'
+        continue-on-error: true
+        run: |
+          python scripts/verify_company_facts.py \
+            --cohort-file data/cold_email_batch9.json \
+            --limit 95 --output-suffix batch9
+          python scripts/generate_verification_report.py --suffix batch9
+
+      - name: Batch 9 — Auto-apply + commit
+        continue-on-error: true
+        run: |
+          python scripts/auto_apply_verified.py --suffix batch9
+          python3 -c "
+          import re
+          src = open('data.js').read()
+          assert 'const COMPANIES' in src
+          assert src.count('{') == src.count('}')
+          print('✓ sanity check passed')
+          "
+          git add data.js \
+                  data/company_facts_verification_batch9.json \
+                  COMPANY_FACTS_VERIFICATION_REPORT_batch9.md 2>/dev/null || true
+          if ! git diff --staged --quiet; then
+            git commit -m "📊 Batch 9 verified + auto-applied (95 cos) — 100% COVERAGE"
+            for attempt in 1 2 3; do
+              git pull --rebase -X theirs origin main 2>/dev/null || true
+              if git push; then break; fi
+              sleep 5
+            done
+          fi
+
+      # ─── FINAL SUMMARY ────────────────────────────────────────
+      - name: Final summary
+        if: always()
+        run: |
+          echo "==============================================="
+          echo "VERIFICATION CHAIN COMPLETE"
+          echo "==============================================="
+          for b in 4 5 6 7 8 9; do
+            f="data/company_facts_verification_batch${b}.json"
+            if [ -f "$f" ]; then
+              echo
+              echo "Batch $b:"
+              python3 -c "
+              import json
+              d = json.load(open('$f'))
+              s = d.get('summary',{})
+              print(f'  cohort: {d.get(\"cohortSize\",0)}')
+              print(f'  cleared: {s.get(\"cleared\",0)}')
+              print(f'  changes: {s.get(\"changesProposed\",0)}')
+              print(f'  unverifiable: {s.get(\"unverifiable\",0)}')
+              print(f'  cost: ~\${d.get(\"newExtractionsThisRun\",0)*0.05:.2f}')
+              "
+            else
+              echo "Batch $b: did not complete"
+            fi
+          done
