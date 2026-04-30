@@ -16,6 +16,10 @@ on:
         description: 'Max companies to process (cost control, ~$0.10/co)'
         default: '100'
         required: true
+      output_suffix:
+        description: 'Suffix for output files (parallel-safe). e.g. "batch2"'
+        default: ''
+        required: false
 
 permissions:
   contents: write
@@ -39,10 +43,11 @@ jobs:
         run: |
           python scripts/verify_company_facts.py \
             --cohort-file "${{ github.event.inputs.cohort_file }}" \
-            --limit "${{ github.event.inputs.limit }}"
+            --limit "${{ github.event.inputs.limit }}" \
+            --output-suffix "${{ github.event.inputs.output_suffix }}"
 
       - name: Generate human-readable report
-        run: python scripts/generate_verification_report.py
+        run: python scripts/generate_verification_report.py --suffix "${{ github.event.inputs.output_suffix }}"
 
       - name: Configure Git
         run: |
@@ -51,10 +56,11 @@ jobs:
 
       - name: Commit verification artifacts (NOT data.js — stages for review)
         run: |
-          git add data/company_facts_verification.json \
+          # Add per-suffix output files (parallel-safe)
+          git add data/company_facts_verification*.json \
                   data/.company_facts_url_cache.json \
                   data/.company_facts_extraction_cache.json \
-                  COMPANY_FACTS_VERIFICATION_REPORT.md 2>/dev/null || true
+                  COMPANY_FACTS_VERIFICATION_REPORT*.md 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes."
             exit 0

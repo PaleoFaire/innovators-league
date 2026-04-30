@@ -72,9 +72,14 @@ from urllib.parse import urlparse, quote
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DATA_JS = ROOT / "data.js"
-OUT_PATH = DATA / "company_facts_verification.json"
-URL_CACHE_PATH = DATA / ".company_facts_url_cache.json"
-EXTRACTION_CACHE_PATH = DATA / ".company_facts_extraction_cache.json"
+# Output paths support a --output-suffix for parallel-safe runs
+def _out_paths(suffix=""):
+    suf = f"_{suffix}" if suffix else ""
+    return (
+        DATA / f"company_facts_verification{suf}.json",
+        DATA / ".company_facts_url_cache.json",  # shared (read-mostly)
+        DATA / ".company_facts_extraction_cache.json",  # shared
+    )
 
 DEFAULT_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5")
 DEFAULT_LIMIT = int(os.environ.get("VERIFY_LIMIT", "100"))
@@ -594,7 +599,10 @@ def main():
                     help='JSON file listing company names to verify (default: top 100 cold-email picks)')
     ap.add_argument('--limit', type=int, default=DEFAULT_LIMIT,
                     help='Max companies to process (cost control)')
+    ap.add_argument('--output-suffix', default='',
+                    help='Suffix for output files (parallel-safe). e.g. "batch2" → company_facts_verification_batch2.json')
     args = ap.parse_args()
+    OUT_PATH, URL_CACHE_PATH, EXTRACTION_CACHE_PATH = _out_paths(args.output_suffix)
 
     print("=" * 64)
     print("Company Facts Verifier — Accuracy-first")
