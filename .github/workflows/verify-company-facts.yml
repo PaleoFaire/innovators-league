@@ -56,22 +56,42 @@ jobs:
 
       - name: Commit verification artifacts (NOT data.js — stages for review)
         run: |
-          # Add per-suffix output files (parallel-safe)
+          # Per-suffix output files (parallel-safe; each run owns its files).
+          # Cache files INTENTIONALLY EXCLUDED to avoid rebase conflicts in
+          # parallel runs — they're just speedups, no need to share across.
           git add data/company_facts_verification*.json \
-                  data/.company_facts_url_cache.json \
-                  data/.company_facts_extraction_cache.json \
                   COMPANY_FACTS_VERIFICATION_REPORT*.md 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes."
             exit 0
           fi
           git commit -m "📊 Company facts verification: ${{ github.event.inputs.cohort_file }} (limit ${{ github.event.inputs.limit }})"
-          for attempt in 1 2 3; do
-            git pull --rebase origin main 2>/dev/null || true
-            if git push; then exit 0; fi
-            sleep 5
+          # Backup our commit's files in case rebase nukes them
+          mkdir -p /tmp/verify_backup
+          cp data/company_facts_verification*.json /tmp/verify_backup/ 2>/dev/null || true
+          cp COMPANY_FACTS_VERIFICATION_REPORT*.md /tmp/verify_backup/ 2>/dev/null || true
+          for attempt in 1 2 3 4 5; do
+            # Refetch + check if we're still up to date
+            git fetch origin main
+            if git push origin HEAD:main 2>&1; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push rejected on attempt $attempt; recovering from backup + retrying"
+            # Reset to clean main, then re-stage from backup
+            git reset --hard origin/main
+            cp /tmp/verify_backup/* data/ 2>/dev/null || true
+            cp /tmp/verify_backup/COMPANY*.md . 2>/dev/null || true
+            git add data/company_facts_verification*.json \
+                    COMPANY_FACTS_VERIFICATION_REPORT*.md 2>/dev/null || true
+            if git diff --staged --quiet; then
+              echo "Nothing to commit after recovery — main already has our state."
+              exit 0
+            fi
+            git commit -m "📊 Company facts verification: ${{ github.event.inputs.cohort_file }} (limit ${{ github.event.inputs.limit }})"
+            sleep $((attempt * 3))
           done
-          echo "::error::Push failed after retries"
+          echo "::error::Push failed after 5 retries"
           exit 1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
