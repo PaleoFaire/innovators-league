@@ -26,25 +26,101 @@ PERMANENT_SKIP_FIELDS_PER_COMPANY = {
     'OpenAI': {'founder'},
 }
 
-# Red-flag phrases in verifier `notes` that auto-skip the entire company
-DOUBT_PHRASES = [
+# Tier-1 doubt phrases: indicate the verifier got the WRONG company entirely.
+# When any of these appear in notes → skip the whole company, no fields applied.
+TIER1_DOUBT_PHRASES = [
     'different company',
     'wrong company',
-    'NOT a',
-    'NOT the',
-    'appear to be two different',
     'are two different companies',
-    'cannot be verified',
-    'could not be verified',
-    'kitchen',  # the famous "Sift" / kitchen sieves false positive
-    'unrelated',
+    'appear to be two different',
+    'unrelated company',
+    'kitchen',                # famous Sift / kitchen-sieves false positive
+]
+# Tier-1 negative patterns matched CASE-SENSITIVELY in raw notes (rarer + specific):
+TIER1_NEGATIVE_PATTERNS = [
+    r'\bNOT a (company|startup|firm|business)\b',
+    r'\bNOT the same (company|firm)\b',
+    r'\bis NOT (a|an|the)\b',
 ]
 
+# Tier-2 doubt phrases: indicate uncertainty about a SPECIFIC field, not the
+# whole company. We only skip the field whose name (or synonym) appears
+# nearby in the notes — other verified fields still get applied.
+# This implements Stephen's per-field-doubt-filter rule:
+# "update what information you can verify and leave the rest blank."
+TIER2_DOUBT_PHRASES = [
+    'cannot be verified',
+    'could not be verified',
+    'not be verified',
+    'no clear evidence',
+    'unable to verify',
+    'cannot verify',
+    'could not verify',
+    'not explicitly',
+    'no information about',
+    'no source for',
+]
 
-def has_doubt(notes):
+# Map each verified field → text we'd look for in notes to associate doubts.
+FIELD_SYNONYMS = {
+    'totalRaised':  ['total raised', 'total_raised', 'total funding', 'capital raised',
+                     'amount raised', 'fundraising', 'funding amount'],
+    'founded':      ['founded year', 'founding year', 'founded_year', 'year founded',
+                     'established', 'founded in', 'founded:'],
+    'fundingStage': ['funding stage', 'current_stage', 'current stage', 'series',
+                     'funding round', 'stage'],
+    'founder':      ['founder', 'founders', 'co-founder', 'co-founders', 'cofounder',
+                     'founding team'],
+    'location':     ['location', 'headquarters', 'hq ', 'based in', 'based out',
+                     'headquartered'],
+    'investors':    ['investor', 'investors', 'backed by', 'lead investor', 'capital partners'],
+    'website':      ['website', 'url', 'domain'],
+    'description':  ['description', 'business description'],
+}
+
+# Window (chars) around a tier-2 doubt phrase in which a field synonym
+# counts as "this doubt refers to that field".
+DOUBT_PROXIMITY_WINDOW = 80
+
+
+def is_tier1_doubt(notes):
+    """Whole company is unsalvageable (wrong-company source confusion)."""
     if not notes: return False
-    n = notes.lower()
-    return any(phrase.lower() in n for phrase in DOUBT_PHRASES)
+    nl = notes.lower()
+    for p in TIER1_DOUBT_PHRASES:
+        if p.lower() in nl: return True
+    for pat in TIER1_NEGATIVE_PATTERNS:
+        if re.search(pat, notes): return True   # case-sensitive
+    return False
+
+
+def field_has_doubt(notes, field):
+    """True iff a tier-2 doubt phrase appears within DOUBT_PROXIMITY_WINDOW
+    chars of any synonym of `field` in `notes`. Skips just that field."""
+    if not notes: return False
+    nl = notes.lower()
+    synonyms = list(FIELD_SYNONYMS.get(field, [])) + [field.lower()]
+    # Pre-compute tier-2 phrase positions
+    doubt_spans = []
+    for d in TIER2_DOUBT_PHRASES:
+        for m in re.finditer(re.escape(d.lower()), nl):
+            doubt_spans.append((m.start(), m.end()))
+    if not doubt_spans:
+        return False
+    for syn in synonyms:
+        for sm in re.finditer(re.escape(syn.lower()), nl):
+            for ds, de in doubt_spans:
+                # synonym overlap window with the doubt phrase?
+                if abs(sm.start() - ds) < DOUBT_PROXIMITY_WINDOW or \
+                   abs(sm.start() - de) < DOUBT_PROXIMITY_WINDOW:
+                    return True
+    return False
+
+
+# Backwards-compat alias (old call sites used this for "skip whole company")
+def has_doubt(notes):
+    """Conservative whole-company skip — kept for legacy callers."""
+    return is_tier1_doubt(notes)
 
 
 def find_object(src, name):
@@ -162,18 +238,19 @@ def main():
     noop_per_field = {}        # field → count of "matched but value identical" cases
     applied_per_company = []   # [(name, [fields_actually_changed]), ...]
     noop_per_company = []      # [(name, [fields_no_op]), ...]
-    skipped = []
+    skipped = []                  # whole-company skips
+    field_skipped_doubt = []      # per-field doubt skips: (name, field)
 
     for entry in changes:
         name = entry['name']
         notes = entry.get('notes') or ''
 
-        # Auto-skip via red-flag detection
+        # Whole-company skips: permanent + tier-1 (wrong-company source confusion)
         if name in PERMANENT_SKIP_COMPANIES:
             skipped.append((name, 'permanent skip (Stephen-flagged)'))
             continue
-        if has_doubt(notes):
-            skipped.append((name, f'doubt phrase: "{(notes or "")[:80]}..."'))
+        if is_tier1_doubt(notes):
+            skipped.append((name, f'tier-1 doubt: "{(notes or "")[:80]}..."'))
             continue
 
         skip_fields = PERMANENT_SKIP_FIELDS_PER_COMPANY.get(name, set())
@@ -191,6 +268,11 @@ def main():
         for ch in entry.get('changes', []):
             field = ch['field']
             if field in skip_fields:
+                continue
+            # Per-field tier-2 doubt: skip just this field if verifier expressed
+            # uncertainty about it specifically, but apply other verified fields.
+            if field_has_doubt(notes, field):
+                field_skipped_doubt.append((name, field))
                 continue
             verified_val = ch.get('verified')
             new_obj, changed, reason = apply_change_to_obj(new_obj, field, verified_val)
@@ -220,19 +302,27 @@ def main():
 
     real_total = sum(len(c) for _, c in applied_per_company)
     noop_total = sum(len(c) for _, c in noop_per_company)
-    print(f'✅ Real changes:   {real_total} fields across {len(applied_per_company)} companies')
-    print(f'➖ No-op matches:  {noop_total} fields across {len(noop_per_company)} companies (value already correct)')
-    print(f'⏭  Skipped:        {len(skipped)} companies')
+    print(f'✅ Real changes:        {real_total} fields across {len(applied_per_company)} companies')
+    print(f'➖ No-op matches:       {noop_total} fields across {len(noop_per_company)} companies (value already correct)')
+    print(f'⏭  Whole-co skipped:    {len(skipped)} companies (tier-1 doubt or permanent)')
+    print(f'⏭  Per-field skipped:   {len(field_skipped_doubt)} field-changes (tier-2 field-specific doubt)')
     if applied_per_field:
         print(f'\nField breakdown (real changes):')
         for f, n in sorted(applied_per_field.items(), key=lambda x: -x[1]):
             print(f'  {n:>3}  {f}')
     if skipped:
-        print(f'\nSkipped (auto red-flag detection):')
+        print(f'\nWhole-company skips (first 10):')
         for nm, reason in skipped[:10]:
             print(f'  ⏭ {nm}: {reason}')
         if len(skipped) > 10:
             print(f'  ...and {len(skipped)-10} more')
+    if field_skipped_doubt:
+        # Field-level skips, grouped by field
+        from collections import Counter
+        c = Counter(f for _, f in field_skipped_doubt)
+        print(f'\nPer-field doubt skips by field:')
+        for f, n in c.most_common():
+            print(f'  {n:>3}  {f}')
     return 0
 
 

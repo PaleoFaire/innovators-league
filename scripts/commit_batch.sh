@@ -96,7 +96,14 @@ fi
 git commit -m "📊 ${SUFFIX} verified + auto-applied"
 echo "✓ Committed locally"
 
-# ── 9. Push with retry + recovery on conflict ───────────────
+# ── 9. Push with retry + RE-APPLY on conflict ──────────────────────────
+# IMPORTANT: on push rejection we MUST NOT blanket-overwrite data.js
+# from /tmp backup — that clobbers any changes that landed in main during
+# our run (other batches, manual edits, news syncs). Instead, we reset
+# to the latest origin/main and RE-RUN auto_apply_verified.py against
+# the verification JSON. The verifier output only modifies SPECIFIC
+# company entries by name, so changes to OTHER entries on main are
+# preserved.
 for attempt in 1 2 3 4 5; do
   echo
   echo "  Push attempt ${attempt}/5..."
@@ -105,18 +112,25 @@ for attempt in 1 2 3 4 5; do
     echo "✓ Pushed successfully on attempt ${attempt}"
     exit 0
   fi
-  echo "  Push rejected on attempt ${attempt}. Recovering and retrying..."
-  # Reset to clean origin/main, restore our files, recommit
+  echo "  Push rejected on attempt ${attempt}. Re-applying on fresh main..."
+  # Reset to fresh main (preserves whatever others committed during our run)
   git reset --hard origin/main
-  cp /tmp/commit_backup_${SUFFIX}/$(basename "$JSON") "$JSON" 2>/dev/null || true
-  [ -f /tmp/commit_backup_${SUFFIX}/$(basename "$REPORT") ] && \
-    cp /tmp/commit_backup_${SUFFIX}/$(basename "$REPORT") "$REPORT" 2>/dev/null || true
-  cp /tmp/commit_backup_${SUFFIX}/data.js data.js 2>/dev/null || true
+  # Restore the verification JSON + report (these are OUR new files)
+  cp "/tmp/commit_backup_${SUFFIX}/$(basename "$JSON")" "$JSON" 2>/dev/null || true
+  [ -f "/tmp/commit_backup_${SUFFIX}/$(basename "$REPORT")" ] && \
+    cp "/tmp/commit_backup_${SUFFIX}/$(basename "$REPORT")" "$REPORT" 2>/dev/null || true
+  # RE-APPLY our verified changes onto the fresh data.js — DO NOT
+  # blanket-copy our backup data.js (that would lose other commits).
+  python scripts/auto_apply_verified.py --suffix "${SUFFIX}" || {
+    echo "::error::auto_apply failed during retry — bailing out to avoid corrupting data.js"
+    exit 1
+  }
+  # Stage everything
   git add "$JSON" 2>&1 || true
   [ -f "$REPORT" ] && git add "$REPORT" 2>&1 || true
   git add data.js 2>&1 || true
   if git diff --staged --quiet; then
-    echo "  Nothing to commit after recovery — main already has our state."
+    echo "  Nothing to commit after re-apply — main already has our verified state."
     exit 0
   fi
   git commit -m "📊 ${SUFFIX} verified + auto-applied (retry ${attempt})"
