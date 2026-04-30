@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T11:46:13.975195+00:00",
+  "generatedAt": "2026-04-30T14:20:08.106854+00:00",
   "date": "2026-04-30",
   "dateDisplay": "Thursday, April 30, 2026",
   "sections": {
@@ -81,58 +81,58 @@
       {
         "ticker": "IDEAFORGE.NS",
         "company": "ideaForge",
-        "price": 610.25,
-        "changePercent": 18.43,
-        "change": 94.95
+        "price": 609.2,
+        "changePercent": 18.22,
+        "change": 93.9
+      },
+      {
+        "ticker": "AMD",
+        "company": "AMD",
+        "price": 343.9,
+        "changePercent": 12.63,
+        "change": 38.57
+      },
+      {
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 5.4,
+        "changePercent": 11.99,
+        "change": 0.58
+      },
+      {
+        "ticker": "ASRHF",
+        "company": "Astroscale",
+        "price": 8.0,
+        "changePercent": -11.5,
+        "change": -1.04
+      },
+      {
+        "ticker": "277810.KQ",
+        "company": "Rainbow Robotics",
+        "price": 664000.0,
+        "changePercent": 10.67,
+        "change": 64000.0
+      },
+      {
+        "ticker": "OKLO",
+        "company": "Oklo",
+        "price": 68.64,
+        "changePercent": -10.22,
+        "change": -7.81
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 22.42,
-        "changePercent": -18.15,
-        "change": -4.97
-      },
-      {
-        "ticker": "ASTS",
-        "company": "AST SpaceMobile",
-        "price": 69.85,
-        "changePercent": -17.49,
-        "change": -14.81
-      },
-      {
-        "ticker": "LUNR",
-        "company": "Intuitive Machines",
-        "price": 24.79,
-        "changePercent": -17.2,
-        "change": -5.15
-      },
-      {
-        "ticker": "EVTL",
-        "company": "Vertical Aerospace",
-        "price": 2.24,
-        "changePercent": -16.73,
-        "change": -0.45
-      },
-      {
-        "ticker": "SMR",
-        "company": "NuScale Power",
-        "price": 11.32,
-        "changePercent": -16.58,
-        "change": -2.25
+        "price": 22.91,
+        "changePercent": -9.55,
+        "change": -2.42
       },
       {
         "ticker": "SLDP",
         "company": "Solid Power",
-        "price": 3.35,
-        "changePercent": -15.4,
-        "change": -0.61
-      },
-      {
-        "ticker": "SATL",
-        "company": "Satellogic",
-        "price": 6.15,
-        "changePercent": -15.06,
-        "change": -1.09
+        "price": 3.38,
+        "changePercent": -8.65,
+        "change": -0.32
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "IDEAFORGE.NS +18.4%"
+    "topMover": "IDEAFORGE.NS +18.2%"
   }
 }
