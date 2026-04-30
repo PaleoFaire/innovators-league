@@ -1,5 +1,51 @@
 [
   {
+    "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
+    "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+    "description": "OpenAI will begin rolling out it cybersecurity testing tool, GPT-5.5 Cyber only \"to critical cyber defenders\" at first.",
+    "pubDate": "Thu, 30 Apr 2026 19:27:41 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "Anthropic",
+    "matchedCompanies": [
+      "Anthropic",
+      "Galvanick",
+      "OpenAI"
+    ],
+    "sectors": [
+      "ai",
+      "defense"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico",
+    "link": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+    "description": "OpenAI is launching additional opt-in protections for ChatGPT accounts. The new security initiative includes a new partnership with security key provider Yubico.",
+    "pubDate": "Thu, 30 Apr 2026 18:20:03 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "ai",
+      "climate",
+      "autonomous"
+    ],
+    "type": "milestone",
+    "impact": "medium",
+    "time": "1h ago"
+  },
+  {
     "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
     "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
     "description": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models.",
@@ -17,7 +63,7 @@
     ],
     "type": "milestone",
     "impact": "low",
-    "time": "Just now"
+    "time": "2h ago"
   },
   {
     "title": "Elon Musk Seemingly Admits xAI Has Used OpenAI’s Models to Train Its Own",
@@ -37,7 +83,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "2h ago"
   },
   {
     "title": "OpenAI Rolls Out ‘Advanced’ Security Mode for At-Risk Accounts",
@@ -61,7 +107,7 @@
     ],
     "type": "news",
     "impact": "low",
-    "time": "Just now"
+    "time": "2h ago"
   },
   {
     "title": "SpaceX backer 137 Ventures raises $700M for two growth-stage funds",
@@ -82,7 +128,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "2h ago"
+    "time": "4h ago"
   },
   {
     "title": "Cleo Labs secures €1.5M to scale AI-driven product compliance globally",
@@ -181,25 +227,6 @@
     ],
     "type": "hire",
     "impact": "low",
-    "time": "1d ago"
-  },
-  {
-    "title": "True Anomaly raises $650 million, reaching $2.2 billion valuation",
-    "link": "https://spacenews.com/true-anomaly-raises-650-million-reaching-2-2-billion-valuation/",
-    "description": "\nFunding backs the company&#8217;s entry into Golden Dome program to build interceptor satellites\nThe post True Anomaly raises $650 million, reaching $2.2 billion valuation appeared first on SpaceNews.",
-    "pubDate": "Tue, 28 Apr 2026 10:30:00 +0000",
-    "category": "Commercial",
-    "source": "SpaceNews",
-    "feedCategory": "space",
-    "matchedCompany": "True Anomaly",
-    "matchedCompanies": [
-      "True Anomaly"
-    ],
-    "sectors": [
-      "defense"
-    ],
-    "type": "funding",
-    "impact": "high",
     "time": "2d ago"
   },
   {
@@ -239,26 +266,6 @@
     "type": "ipo",
     "impact": "low",
     "time": "4d ago"
-  },
-  {
-    "title": "Accenture, Vodafone, and SAP to pilot humanoid robots in the warehouse",
-    "link": "https://www.therobotreport.com/accenture-vodafone-and-sap-to-pilot-humanoid-robots-in-the-warehouse/",
-    "description": "The humanoids in the pilot are powered by Accenture’s Robot Brain solution, enabling them to interact naturally with human operators.\nThe post Accenture, Vodafone, and SAP to pilot humanoid robots in the warehouse appeared first on The Robot Report.",
-    "pubDate": "Fri, 24 Apr 2026 18:51:50 +0000",
-    "category": "Autonomous Mobile Robots (AMRs)",
-    "source": "The Robot Report",
-    "feedCategory": "robotics",
-    "matchedCompany": "Humanoid",
-    "matchedCompanies": [
-      "Humanoid",
-      "Agility Robotics"
-    ],
-    "sectors": [
-      "robotics"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "5d ago"
   },
   {
     "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",

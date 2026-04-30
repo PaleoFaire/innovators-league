@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T18:17:26.288510+00:00",
+  "generatedAt": "2026-04-30T20:15:07.921447+00:00",
   "date": "2026-04-30",
   "dateDisplay": "Thursday, April 30, 2026",
   "sections": {
@@ -79,6 +79,13 @@
     ],
     "marketMovers": [
       {
+        "ticker": "AUR",
+        "company": "Aurora Innovation",
+        "price": 6.04,
+        "changePercent": 25.21,
+        "change": 1.21
+      },
+      {
         "ticker": "IDEAFORGE.NS",
         "company": "ideaForge",
         "price": 609.2,
@@ -88,16 +95,9 @@
       {
         "ticker": "AMD",
         "company": "AMD",
-        "price": 343.9,
-        "changePercent": 12.63,
-        "change": 38.57
-      },
-      {
-        "ticker": "AUR",
-        "company": "Aurora Innovation",
-        "price": 5.4,
-        "changePercent": 11.99,
-        "change": 0.58
+        "price": 352.87,
+        "changePercent": 15.57,
+        "change": 47.54
       },
       {
         "ticker": "ASRHF",
@@ -114,25 +114,25 @@
         "change": 64000.0
       },
       {
-        "ticker": "OKLO",
-        "company": "Oklo",
-        "price": 68.64,
-        "changePercent": -10.22,
-        "change": -7.81
+        "ticker": "LUNR",
+        "company": "Intuitive Machines",
+        "price": 25.11,
+        "changePercent": -8.89,
+        "change": -2.45
       },
       {
         "ticker": "NNE",
         "company": "Nano Nuclear Energy",
-        "price": 22.91,
-        "changePercent": -9.55,
-        "change": -2.42
+        "price": 23.26,
+        "changePercent": -8.17,
+        "change": -2.07
       },
       {
-        "ticker": "SLDP",
-        "company": "Solid Power",
-        "price": 3.38,
-        "changePercent": -8.65,
-        "change": -0.32
+        "ticker": "JOBY",
+        "company": "Joby Aviation",
+        "price": 9.11,
+        "changePercent": 7.3,
+        "change": 0.62
       }
     ],
     "regulatory": [
@@ -223,6 +223,6 @@
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
-    "topMover": "IDEAFORGE.NS +18.2%"
+    "topMover": "AUR +25.2%"
   }
 }
