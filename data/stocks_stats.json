@@ -5,55 +5,55 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -9.6,
+      "avg_change": -2.73,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -13.55,
+      "avg_change": -6.28,
       "count": 7
     },
     "autonomous": {
-      "gainers": 2,
-      "losers": 5,
-      "avg_change": -1.8,
+      "gainers": 4,
+      "losers": 3,
+      "avg_change": 4.61,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -15.0,
+      "avg_change": -9.23,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -7.77,
+      "avg_change": -5.08,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -12.53,
+      "avg_change": -1.91,
       "count": 3
     },
     "biotech": {
-      "gainers": 0,
-      "losers": 3,
-      "avg_change": -8.55,
+      "gainers": 1,
+      "losers": 2,
+      "avg_change": -2.24,
       "count": 3
     },
     "transportation": {
       "gainers": 0,
       "losers": 2,
-      "avg_change": -6.63,
+      "avg_change": -2.97,
       "count": 2
     },
     "chips": {
-      "gainers": 3,
-      "losers": 0,
-      "avg_change": 5.29,
+      "gainers": 2,
+      "losers": 1,
+      "avg_change": 3.26,
       "count": 3
     }
   },
@@ -61,12 +61,17 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      18.43
+      18.22
     ],
     [
       "AMD",
       "AMD",
-      11.09
+      12.63
+    ],
+    [
+      "AUR",
+      "Aurora Innovation",
+      11.99
     ],
     [
       "277810.KQ",
@@ -74,42 +79,37 @@
       10.67
     ],
     [
-      "NVDA",
-      "NVIDIA",
-      3.33
-    ],
-    [
-      "ALAB",
-      "Astera Labs",
-      1.44
+      "JOBY",
+      "Joby Aviation",
+      5.17
     ]
   ],
   "topLosers": [
     [
       "SMR",
       "NuScale Power",
-      -16.58
+      -7.93
     ],
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -16.73
-    ],
-    [
-      "LUNR",
-      "Intuitive Machines",
-      -17.2
-    ],
-    [
-      "ASTS",
-      "AST SpaceMobile",
-      -17.49
+      "SLDP",
+      "Solid Power",
+      -8.65
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -18.15
+      -9.55
+    ],
+    [
+      "OKLO",
+      "Oklo",
+      -10.22
+    ],
+    [
+      "ASRHF",
+      "Astroscale",
+      -11.5
     ]
   ],
-  "lastUpdated": "2026-04-30 08:28:11"
+  "lastUpdated": "2026-04-30 14:06:18"
 }
