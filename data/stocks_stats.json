@@ -11,13 +11,13 @@
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -13.58,
+      "avg_change": -13.55,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -2.29,
+      "avg_change": -1.8,
       "count": 7
     },
     "nuclear": {
@@ -41,7 +41,7 @@
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -10.64,
+      "avg_change": -8.55,
       "count": 3
     },
     "transportation": {
@@ -61,17 +61,17 @@
     [
       "IDEAFORGE.NS",
       "ideaForge",
-      13.84
-    ],
-    [
-      "277810.KQ",
-      "Rainbow Robotics",
-      11.83
+      18.43
     ],
     [
       "AMD",
       "AMD",
       11.09
+    ],
+    [
+      "277810.KQ",
+      "Rainbow Robotics",
+      10.67
     ],
     [
       "NVDA",
@@ -111,5 +111,5 @@
       -18.15
     ]
   ],
-  "lastUpdated": "2026-04-30 03:34:26"
+  "lastUpdated": "2026-04-30 08:28:11"
 }
