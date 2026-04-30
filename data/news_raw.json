@@ -1,5 +1,69 @@
 [
   {
+    "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+    "link": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+    "description": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models.",
+    "pubDate": "Thu, 30 Apr 2026 18:03:57 +0000",
+    "category": "AI",
+    "source": "TechCrunch",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "xAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "milestone",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "Elon Musk Seemingly Admits xAI Has Used OpenAI’s Models to Train Its Own",
+    "link": "https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/",
+    "description": "While answering questions under oath, Musk argued it’s standard practice for AI labs to use their competitors’ models.",
+    "pubDate": "Thu, 30 Apr 2026 17:41:14 +0000",
+    "category": "Business",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "xAI"
+    ],
+    "sectors": [
+      "ai"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
+    "title": "OpenAI Rolls Out ‘Advanced’ Security Mode for At-Risk Accounts",
+    "link": "https://www.wired.com/story/openai-chatgpt-codex-advanced-account-security/",
+    "description": "OpenAI is rolling out Advanced Account Security for people concerned that their ChatGPT or Codex accounts could be potential targets of phishing attacks.",
+    "pubDate": "Thu, 30 Apr 2026 17:30:39 +0000",
+    "category": "Security",
+    "source": "Wired",
+    "feedCategory": "tech",
+    "matchedCompany": "OpenAI",
+    "matchedCompanies": [
+      "OpenAI",
+      "Cape",
+      "Percepto",
+      "ideaForge"
+    ],
+    "sectors": [
+      "ai",
+      "climate",
+      "autonomous"
+    ],
+    "type": "news",
+    "impact": "low",
+    "time": "Just now"
+  },
+  {
     "title": "SpaceX backer 137 Ventures raises $700M for two growth-stage funds",
     "link": "https://techcrunch.com/2026/04/30/spacex-backer-137-ventures-raises-700m-for-two-growth-stage-funds/",
     "description": "VC firm 137 Ventures has raised over $700 million to back growth-stage startups. Its portfolio includes SpaceX, Anduril, Hadrian.",
@@ -18,48 +82,7 @@
     ],
     "type": "funding",
     "impact": "high",
-    "time": "Just now"
-  },
-  {
-    "title": "Satya Nadella says he&#8217;s ready to &#8216;exploit&#8217; the new OpenAI deal",
-    "link": "https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/",
-    "description": "Microsoft gets to offer OpenAI's tech to its cloud customers and doesn't have to pay for it. \"We fully plan to exploit it,\" Nadella said.",
-    "pubDate": "Wed, 29 Apr 2026 23:55:23 +0000",
-    "category": "AI",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "OpenAI",
-    "matchedCompanies": [
-      "OpenAI",
-      "Photonic Inc"
-    ],
-    "sectors": [
-      "ai",
-      "quantum"
-    ],
-    "type": "news",
-    "impact": "low",
-    "time": "16h ago"
-  },
-  {
-    "title": "Fusion power startup Zap Energy pulls a partial pivot, adding nuclear fission to the mix",
-    "link": "https://techcrunch.com/2026/04/29/fusion-power-startup-zap-energy-pulls-a-partial-pivot-adding-nuclear-fission-to-the-mix/",
-    "description": "Surprise! Fusion startup Zap Energy says it will be developing fission reactors alongside its fusion devices.",
-    "pubDate": "Wed, 29 Apr 2026 20:53:56 +0000",
-    "category": "Climate",
-    "source": "TechCrunch",
-    "feedCategory": "tech",
-    "matchedCompany": "Zap Energy",
-    "matchedCompanies": [
-      "Zap Energy",
-      "Standard Nuclear"
-    ],
-    "sectors": [
-      "nuclear"
-    ],
-    "type": "hire",
-    "impact": "low",
-    "time": "19h ago"
+    "time": "2h ago"
   },
   {
     "title": "Cleo Labs secures €1.5M to scale AI-driven product compliance globally",
@@ -215,7 +238,7 @@
     ],
     "type": "ipo",
     "impact": "low",
-    "time": "3d ago"
+    "time": "4d ago"
   },
   {
     "title": "Accenture, Vodafone, and SAP to pilot humanoid robots in the warehouse",
@@ -374,27 +397,5 @@
     "type": "milestone",
     "impact": "low",
     "time": "3/11/2026"
-  },
-  {
-    "title": "<a href=\"/biotech/lilly-pens-22b-pact-bezos-backed-profluent-work-recombinase-based-gene-editing\" hreflang=\"en\">Lilly pens $2.2B pact with Bezos-backed Profluent to work on recombinase-based gene editing</a>",
-    "link": "https://www.fiercebiotech.com/biotech/lilly-pens-22b-pact-bezos-backed-profluent-work-recombinase-based-gene-editing",
-    "description": "Eli Lilly’s latest attempt to strengthen its genetic medicine offering has seen the pharma team up with Profluent to develop AI-designed recombinases to address diseases with severe unmet needs.",
-    "pubDate": "Apr 28, 2026 8:21am",
-    "category": "",
-    "source": "FierceBiotech",
-    "feedCategory": "biotech",
-    "matchedCompany": "Profluent",
-    "matchedCompanies": [
-      "Profluent",
-      "Mammoth Biosciences",
-      "Colossal Biosciences",
-      "eGenesis"
-    ],
-    "sectors": [
-      "biotech"
-    ],
-    "type": "milestone",
-    "impact": "low",
-    "time": "Invalid Date"
   }
 ]
