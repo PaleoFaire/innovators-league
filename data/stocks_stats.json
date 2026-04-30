@@ -5,43 +5,43 @@
     "ai": {
       "gainers": 0,
       "losers": 1,
-      "avg_change": -9.89,
+      "avg_change": -9.6,
       "count": 1
     },
     "space": {
       "gainers": 0,
       "losers": 7,
-      "avg_change": -14.19,
+      "avg_change": -13.58,
       "count": 7
     },
     "autonomous": {
       "gainers": 2,
       "losers": 5,
-      "avg_change": -2.36,
+      "avg_change": -2.29,
       "count": 7
     },
     "nuclear": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -16.01,
+      "avg_change": -15.0,
       "count": 3
     },
     "climate": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -8.09,
+      "avg_change": -7.77,
       "count": 3
     },
     "quantum": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -13.7,
+      "avg_change": -12.53,
       "count": 3
     },
     "biotech": {
       "gainers": 0,
       "losers": 3,
-      "avg_change": -11.36,
+      "avg_change": -10.64,
       "count": 3
     },
     "transportation": {
@@ -53,7 +53,7 @@
     "chips": {
       "gainers": 3,
       "losers": 0,
-      "avg_change": 5.12,
+      "avg_change": 5.29,
       "count": 3
     }
   },
@@ -66,50 +66,50 @@
     [
       "277810.KQ",
       "Rainbow Robotics",
-      11.41
+      11.83
     ],
     [
       "AMD",
       "AMD",
-      11.21
+      11.09
     ],
     [
       "NVDA",
       "NVIDIA",
-      3.24
+      3.33
     ],
     [
       "ALAB",
       "Astera Labs",
-      0.9
+      1.44
     ]
   ],
   "topLosers": [
     [
-      "EVTL",
-      "Vertical Aerospace",
-      -16.91
-    ],
-    [
       "SMR",
       "NuScale Power",
-      -17.32
+      -16.58
     ],
     [
-      "ASTS",
-      "AST SpaceMobile",
-      -17.98
+      "EVTL",
+      "Vertical Aerospace",
+      -16.73
     ],
     [
       "LUNR",
       "Intuitive Machines",
-      -18.84
+      -17.2
+    ],
+    [
+      "ASTS",
+      "AST SpaceMobile",
+      -17.49
     ],
     [
       "NNE",
       "Nano Nuclear Energy",
-      -19.44
+      -18.15
     ]
   ],
-  "lastUpdated": "2026-04-29 19:43:29"
+  "lastUpdated": "2026-04-30 03:34:26"
 }
