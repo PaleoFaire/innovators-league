@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T09:22:23.939180+00:00",
+  "generatedAt": "2026-04-30T11:46:13.975195+00:00",
   "date": "2026-04-30",
   "dateDisplay": "Thursday, April 30, 2026",
   "sections": {
@@ -21,6 +21,15 @@
         "description": "VBAT SHORE BASED SERVICES. TASK ORDER FOR PUERTO RICO.",
         "date": "2026-02-27",
         "url": "https://sam.gov/opp/70Z02326F93130005/view"
+      },
+      {
+        "company": "Varda Space",
+        "amount": "$4M",
+        "amount_raw": 4000000.0,
+        "agency": "Department of Defense",
+        "description": "THIS TASK ORDER IS FOR THE ORDER OF LAUNCH SERVICES IN THE MONTH OF OCTOBER 2026.",
+        "date": "2026-01-30",
+        "url": "https://sam.gov/opp/FA945326FX010/view"
       },
       {
         "company": "Shield AI",
@@ -151,23 +160,23 @@
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "AI-Enabled Optimization of Early-Phase Clinical Trials Pilot Program; Request fo",
-        "date": "2026-04-29",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08281"
+        "title": "Submission for OMB Review; Comment Request",
+        "date": "2026-04-30",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08440"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Monthly Notices: Applications and Amendments to Licenses Involving No Significan",
-        "date": "2026-04-29",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08346"
+        "title": "Privacy Act of 1974; System of Records",
+        "date": "2026-04-30",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08431"
       },
       {
         "kind": "Federal Register",
         "company": "",
-        "title": "Accelerated Decommissioning Partners Crystal River Unit 3, LLC; Crystal River Un",
-        "date": "2026-04-29",
-        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08342"
+        "title": "In the Matter of SHINE Technologies, LLC; SHINE Medical Isotope Production Facil",
+        "date": "2026-04-30",
+        "url": "https://www.federalregister.gov/documents/search?conditions[term]=2026-08415"
       }
     ],
     "patents": [
@@ -210,7 +219,7 @@
     ]
   },
   "stats": {
-    "contractCount": 7,
+    "contractCount": 8,
     "moverCount": 8,
     "regCount": 6,
     "patentCount": 6,
