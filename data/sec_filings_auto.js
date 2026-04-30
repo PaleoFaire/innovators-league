@@ -1,6 +1,12 @@
 // Auto-updated SEC filings from EDGAR
-// Last updated: 2026-04-29 08:25:18 UTC
+// Last updated: 2026-04-30 08:27:47 UTC
 const SEC_FILINGS_LIVE = [
+  { company: "IonQ", form: "4", date: "2026-04-29", description: "xslF345X06/wk-form4_1777503628.xml", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "4", date: "2026-04-29", description: "xslF345X06/wk-form4_1777502768.xml", isIPO: false, ticker: "IONQ" },
+  { company: "IonQ", form: "4", date: "2026-04-29", description: "xslF345X06/wk-form4_1777501977.xml", isIPO: false, ticker: "IONQ" },
+  { company: "D-Wave Quantum", form: "8-K", date: "2026-04-29", description: "qbts-20260429.htm", isIPO: false, ticker: "QBTS" },
+  { company: "Ginkgo Bioworks", form: "DEF 14A", date: "2026-04-29", description: "dna-20260429.htm", isIPO: false, ticker: "DNA" },
+  { company: "LanzaTech", form: "8-K", date: "2026-04-29", description: "tlsi-20260424.htm", isIPO: false, ticker: "LNZA" },
   { company: "Palantir Technologies", form: "4", date: "2026-04-28", description: "xslF345X06/wk-form4_1777418320.xml", isIPO: false, ticker: "PLTR" },
   { company: "AST SpaceMobile", form: "DEF 14A", date: "2026-04-28", description: "formdef14a.htm", isIPO: false, ticker: "ASTS" },
   { company: "Intuitive Machines", form: "DEF 14A", date: "2026-04-27", description: "tm2532185-5_def14a.htm", isIPO: false, ticker: "LUNR" },
@@ -45,10 +51,4 @@ const SEC_FILINGS_LIVE = [
   { company: "AST SpaceMobile", form: "4", date: "2026-04-16", description: "xslF345X06/ownership.xml", isIPO: false, ticker: "ASTS" },
   { company: "C3.ai", form: "4", date: "2026-04-16", description: "xslF345X06/wk-form4_1776380818.xml", isIPO: false, ticker: "AI" },
   { company: "Upstart Holdings", form: "DEF 14A", date: "2026-04-16", description: "d177155ddef14a.htm", isIPO: false, ticker: "UPST" },
-  { company: "Joby Aviation", form: "4", date: "2026-04-16", description: "xslF345X06/wk-form4_1776373586.xml", isIPO: false, ticker: "JOBY" },
-  { company: "Rivian", form: "4", date: "2026-04-16", description: "xslF345X06/wk-form4_1776372818.xml", isIPO: false, ticker: "RIVN" },
-  { company: "NuScale Power", form: "DEF 14A", date: "2026-04-15", description: "smr-20260415.htm", isIPO: false, ticker: "SMR" },
-  { company: "C3.ai", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776290430.xml", isIPO: false, ticker: "AI" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287399.xml", isIPO: false, ticker: "QBTS" },
-  { company: "D-Wave Quantum", form: "4", date: "2026-04-15", description: "xslF345X06/wk-form4_1776287314.xml", isIPO: false, ticker: "QBTS" },
 ];

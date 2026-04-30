@@ -12060,18 +12060,6 @@
     "note": "Notable team pedigree. Composite: 32/100."
   },
   {
-    "company": "Panthalassa",
-    "techMoat": 3,
-    "momentum": 3,
-    "teamPedigree": 5,
-    "marketGravity": 1,
-    "capitalEfficiency": 4,
-    "govTraction": 2,
-    "composite": 30.0,
-    "tier": "early",
-    "note": "Notable team pedigree. Composite: 30/100."
-  },
-  {
     "company": "Watoga Technologies",
     "techMoat": 3,
     "momentum": 3,
@@ -12082,5 +12070,17 @@
     "composite": 29.5,
     "tier": "early",
     "note": "Notable team pedigree. Composite: 30/100."
+  },
+  {
+    "company": "Panthalassa",
+    "techMoat": 3,
+    "momentum": 3,
+    "teamPedigree": 5,
+    "marketGravity": 0,
+    "capitalEfficiency": 4,
+    "govTraction": 2,
+    "composite": 28.5,
+    "tier": "early",
+    "note": "Notable team pedigree. Composite: 28/100."
   }
 ]

@@ -11,7 +11,7 @@
       "Undisclosed",
       "GIC"
     ],
-    "roundCount": 5
+    "roundCount": 6
   },
   {
     "company": "OpenStar",
@@ -294,6 +294,19 @@
     "valuation": "",
     "leadInvestors": [
       "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
+    "company": "Parallel Systems",
+    "totalRaised": "$2.0B+",
+    "totalRaisedRaw": 2000.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$2B",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Sequoia"
     ],
     "roundCount": 1
   },
@@ -653,6 +666,19 @@
     "roundCount": 2
   },
   {
+    "company": "Fairmat",
+    "totalRaised": "$300M+",
+    "totalRaisedRaw": 300.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$300M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Orangewood Labs",
     "totalRaised": "$295M+",
     "totalRaisedRaw": 295.0,
@@ -937,6 +963,19 @@
     "roundCount": 1
   },
   {
+    "company": "Firestorm Labs",
+    "totalRaised": "$82M+",
+    "totalRaisedRaw": 82.0,
+    "lastRound": "Funding Round",
+    "lastRoundAmount": "$82M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed"
+    ],
+    "roundCount": 1
+  },
+  {
     "company": "Turion Space",
     "totalRaised": "$75M+",
     "totalRaisedRaw": 75.0,
@@ -961,6 +1000,20 @@
       "Undisclosed"
     ],
     "roundCount": 1
+  },
+  {
+    "company": "Palantir",
+    "totalRaised": "$65M+",
+    "totalRaisedRaw": 65.0,
+    "lastRound": "Series A",
+    "lastRoundAmount": "$22M",
+    "lastRoundDate": "2026-04",
+    "valuation": "",
+    "leadInvestors": [
+      "Undisclosed",
+      "Sequoia"
+    ],
+    "roundCount": 3
   },
   {
     "company": "AiDash",
@@ -1013,20 +1066,6 @@
       "Giant Ventures"
     ],
     "roundCount": 1
-  },
-  {
-    "company": "Palantir",
-    "totalRaised": "$43M+",
-    "totalRaisedRaw": 43.0,
-    "lastRound": "Series A",
-    "lastRoundAmount": "$13M",
-    "lastRoundDate": "2026-03",
-    "valuation": "",
-    "leadInvestors": [
-      "Undisclosed",
-      "Sequoia"
-    ],
-    "roundCount": 2
   },
   {
     "company": "Dragonfly Aerospace",

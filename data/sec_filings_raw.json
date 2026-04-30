@@ -2016,15 +2016,6 @@
     "isIPO": false
   },
   {
-    "company": "Momentus",
-    "ticker": "MNTS",
-    "form": "4",
-    "date": "2025-06-09",
-    "description": "xslF345X05/tm2517366-4_4seq1.xml",
-    "accessionNumber": "0001104659-25-057813",
-    "isIPO": false
-  },
-  {
     "company": "Virgin Orbit",
     "ticker": "VORB",
     "form": "8-K",
@@ -3861,15 +3852,6 @@
     "isIPO": false
   },
   {
-    "company": "C3.ai",
-    "ticker": "AI",
-    "form": "8-K",
-    "date": "2025-10-09",
-    "description": "ai-20251003.htm",
-    "accessionNumber": "0001577526-25-000045",
-    "isIPO": false
-  },
-  {
     "company": "Upstart Holdings",
     "ticker": "UPST",
     "form": "DEF 14A",
@@ -4464,12 +4446,30 @@
     "isIPO": false
   },
   {
-    "company": "UiPath",
-    "ticker": "PATH",
+    "company": "IonQ",
+    "ticker": "IONQ",
     "form": "4",
-    "date": "2025-12-08",
-    "description": "xslF345X05/primarydocument.xml",
-    "accessionNumber": "0001855767-25-000038",
+    "date": "2026-04-29",
+    "description": "xslF345X06/wk-form4_1777503628.xml",
+    "accessionNumber": "0001870910-26-000004",
+    "isIPO": false
+  },
+  {
+    "company": "IonQ",
+    "ticker": "IONQ",
+    "form": "4",
+    "date": "2026-04-29",
+    "description": "xslF345X06/wk-form4_1777502768.xml",
+    "accessionNumber": "0002043681-26-000005",
+    "isIPO": false
+  },
+  {
+    "company": "IonQ",
+    "ticker": "IONQ",
+    "form": "4",
+    "date": "2026-04-29",
+    "description": "xslF345X06/wk-form4_1777501977.xml",
+    "accessionNumber": "0001871559-26-000004",
     "isIPO": false
   },
   {
@@ -4623,24 +4623,6 @@
     "date": "2025-11-24",
     "description": "bakkt-20251121.htm",
     "accessionNumber": "0001628280-25-053695",
-    "isIPO": false
-  },
-  {
-    "company": "IonQ",
-    "ticker": "IONQ",
-    "form": "4",
-    "date": "2025-11-18",
-    "description": "xslF345X05/primary_doc.xml",
-    "accessionNumber": "0002062543-25-000006",
-    "isIPO": false
-  },
-  {
-    "company": "IonQ",
-    "ticker": "IONQ",
-    "form": "4",
-    "date": "2025-11-18",
-    "description": "xslF345X05/primary_doc.xml",
-    "accessionNumber": "0001871559-25-000016",
     "isIPO": false
   },
   {
@@ -4907,6 +4889,15 @@
   {
     "company": "D-Wave Quantum",
     "ticker": "QBTS",
+    "form": "8-K",
+    "date": "2026-04-29",
+    "description": "qbts-20260429.htm",
+    "accessionNumber": "0001907982-26-000046",
+    "isIPO": false
+  },
+  {
+    "company": "D-Wave Quantum",
+    "ticker": "QBTS",
     "form": "DEF 14A",
     "date": "2026-04-23",
     "description": "qbts-20260422.htm",
@@ -5154,24 +5145,6 @@
     "date": "2025-12-16",
     "description": "xslF345X05/wk-form4_1765922816.xml",
     "accessionNumber": "0001628280-25-057436",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2025-12-16",
-    "description": "xslF345X05/wk-form4_1765922346.xml",
-    "accessionNumber": "0001974777-25-000007",
-    "isIPO": false
-  },
-  {
-    "company": "D-Wave Quantum",
-    "ticker": "QBTS",
-    "form": "4",
-    "date": "2025-12-16",
-    "description": "xslF345X05/wk-form4_1765922246.xml",
-    "accessionNumber": "0001453942-25-000010",
     "isIPO": false
   },
   {
@@ -5438,6 +5411,15 @@
   {
     "company": "Ginkgo Bioworks",
     "ticker": "DNA",
+    "form": "DEF 14A",
+    "date": "2026-04-29",
+    "description": "dna-20260429.htm",
+    "accessionNumber": "0001628280-26-028377",
+    "isIPO": false
+  },
+  {
+    "company": "Ginkgo Bioworks",
+    "ticker": "DNA",
     "form": "4",
     "date": "2026-04-20",
     "description": "xslF345X06/wk-form4_1776718959.xml",
@@ -5613,24 +5595,6 @@
     "date": "2025-09-10",
     "description": "xslF345X05/wk-form4_1757534793.xml",
     "accessionNumber": "0001263805-25-000007",
-    "isIPO": false
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "ticker": "DNA",
-    "form": "8-K",
-    "date": "2025-09-04",
-    "description": "dna-20250904.htm",
-    "accessionNumber": "0001830214-25-000009",
-    "isIPO": false
-  },
-  {
-    "company": "Ginkgo Bioworks",
-    "ticker": "DNA",
-    "form": "8-K",
-    "date": "2025-08-29",
-    "description": "dna-20250829.htm",
-    "accessionNumber": "0001628280-25-041399",
     "isIPO": false
   },
   {
@@ -7157,6 +7121,15 @@
   {
     "company": "LanzaTech",
     "ticker": "LNZA",
+    "form": "8-K",
+    "date": "2026-04-29",
+    "description": "tlsi-20260424.htm",
+    "accessionNumber": "0001628280-26-028425",
+    "isIPO": false
+  },
+  {
+    "company": "LanzaTech",
+    "ticker": "LNZA",
     "form": "4",
     "date": "2026-04-20",
     "description": "xslF345X06/wk-form4_1776717403.xml",
@@ -8295,15 +8268,6 @@
     "date": "2025-05-28",
     "description": "xslF345X05/wk-form4_1748462796.xml",
     "accessionNumber": "0001786842-25-000039",
-    "isIPO": false
-  },
-  {
-    "company": "Tempus AI",
-    "ticker": "TEM",
-    "form": "4",
-    "date": "2025-05-28",
-    "description": "xslF345X05/wk-form4_1748462708.xml",
-    "accessionNumber": "0001786842-25-000038",
     "isIPO": false
   },
   {

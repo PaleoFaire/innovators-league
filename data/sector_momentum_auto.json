@@ -1,56 +1,37 @@
 [
   {
     "sector": "AI & Software",
-    "momentum": 56,
+    "momentum": 55,
     "trend": "accelerating",
     "catalysts": [
-      "At his OpenAI trial, Musk relitigates an old friendship",
-      "OpenAI Really Wants Codex to Shut Up About Goblins",
-      "Elon Musk Testifies That He Started OpenAI to Prevent a \u2018Ter"
+      "Satya Nadella says he&#8217;s ready to &#8216;exploit&#8217;",
+      "Cleo Labs secures \u20ac1.5M to scale AI-driven product complianc",
+      "AI coding agent Cognition expands to Singapore as Asia-Pacif"
     ],
-    "fundingQ": "$1194.6B",
+    "fundingQ": "$1244.6B",
     "components": {
       "funding": 100,
-      "news": 45,
+      "news": 40,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-29"
-  },
-  {
-    "sector": "Nuclear Energy",
-    "momentum": 52,
-    "trend": "steady",
-    "catalysts": [
-      "Anthropic&#8217;s Nuclear Bomb",
-      "Disperse to Survive: The Logic of French Forward Deterrence"
-    ],
-    "fundingQ": "$800M",
-    "components": {
-      "funding": 83,
-      "news": 10,
-      "hiring": 0,
-      "market": 100
-    },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Drones & Autonomous",
-    "momentum": 49,
+    "momentum": 46,
     "trend": "steady",
     "catalysts": [
-      "Google expands Pentagon&#8217;s access to its AI after Anthr",
-      "Forterra, Polaris tout new autonomous vehicle for CASEVAC, l",
       "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit"
     ],
     "fundingQ": "$12.7B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 5,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Supersonic & Hypersonic",
@@ -66,7 +47,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Ocean & Maritime",
@@ -82,29 +63,27 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Defense & Security",
-    "momentum": 42,
+    "momentum": 36,
     "trend": "steady",
     "catalysts": [
-      "Google expands Pentagon&#8217;s access to its AI after Anthr",
-      "SpaceX wins $57 million U.S. military contract for satellite",
       "Disperse to Survive: The Logic of French Forward Deterrence"
     ],
     "fundingQ": "$22.3B",
     "components": {
       "funding": 100,
-      "news": 15,
+      "news": 5,
       "hiring": 0,
-      "market": 17
+      "market": 0
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Space & Aerospace",
-    "momentum": 37,
+    "momentum": 35,
     "trend": "steady",
     "catalysts": [
       "True Anomaly raises $650 million, reaching $2.2 billion valu",
@@ -114,11 +93,29 @@
     "fundingQ": "$2.2B",
     "components": {
       "funding": 78,
-      "news": 40,
+      "news": 30,
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
+  },
+  {
+    "sector": "Nuclear Energy",
+    "momentum": 33,
+    "trend": "steady",
+    "catalysts": [
+      "Fusion power startup Zap Energy pulls a partial pivot, addin",
+      "Anthropic&#8217;s Nuclear Bomb",
+      "Disperse to Survive: The Logic of French Forward Deterrence"
+    ],
+    "fundingQ": "$800M",
+    "components": {
+      "funding": 83,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Robotics & Manufacturing",
@@ -136,7 +133,7 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Chips & Semiconductors",
@@ -152,11 +149,11 @@
       "hiring": 0,
       "market": 100
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Consumer Tech",
-    "momentum": 16,
+    "momentum": 15,
     "trend": "declining",
     "catalysts": [
       "Elon Musk Testifies That He Started OpenAI to Prevent a \u2018Ter",
@@ -166,47 +163,28 @@
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 25,
+      "news": 20,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-29"
-  },
-  {
-    "sector": "Climate & Energy",
-    "momentum": 14,
-    "trend": "declining",
-    "catalysts": [
-      "Fervo Energy unveils new power plant details in IPO filing",
-      "Fervo Energy inks big turbine deal to build more next-gen ge",
-      "Base Power to launch 100-MW home battery network for Texas u"
-    ],
-    "fundingQ": "$0M",
-    "components": {
-      "funding": 0,
-      "news": 15,
-      "hiring": 0,
-      "market": 49
-    },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Infrastructure & Logistics",
-    "momentum": 14,
+    "momentum": 12,
     "trend": "declining",
     "catalysts": [
-      "Forterra, Polaris tout new autonomous vehicle for CASEVAC, l",
       "What Anthropic\u2019s Mythos Means for the Future of Cybersecurit",
       "Anthropic&#8217;s Nuclear Bomb"
     ],
     "fundingQ": "$0M",
     "components": {
       "funding": 0,
-      "news": 15,
+      "news": 10,
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Housing & Construction",
@@ -222,11 +200,45 @@
       "hiring": 0,
       "market": 50
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
+  },
+  {
+    "sector": "Climate & Energy",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "Fervo Energy unveils new power plant details in IPO filing",
+      "Fervo Energy inks big turbine deal to build more next-gen ge",
+      "Base Power to launch 100-MW home battery network for Texas u"
+    ],
+    "fundingQ": "$0M",
+    "components": {
+      "funding": 0,
+      "news": 15,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-04-30"
+  },
+  {
+    "sector": "Biotech & Health",
+    "momentum": 4,
+    "trend": "declining",
+    "catalysts": [
+      "<a href=\"/biotech/lilly-pens-22b-pact-bezos-backed-profluent"
+    ],
+    "fundingQ": "$230M",
+    "components": {
+      "funding": 9,
+      "news": 5,
+      "hiring": 0,
+      "market": 0
+    },
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Transportation",
-    "momentum": 8,
+    "momentum": 4,
     "trend": "declining",
     "catalysts": [
       "Rivian (RIVN) starts R2 production days after tornado hit fa"
@@ -236,26 +248,9 @@
       "funding": 7,
       "news": 5,
       "hiring": 0,
-      "market": 23
-    },
-    "lastUpdated": "2026-04-29"
-  },
-  {
-    "sector": "Biotech & Health",
-    "momentum": 6,
-    "trend": "declining",
-    "catalysts": [
-      "Compass Therapeutics unveils key secondary endpoint results",
-      "<a href=\"/biotech/lilly-pens-22b-pact-bezos-backed-profluent"
-    ],
-    "fundingQ": "$230M",
-    "components": {
-      "funding": 9,
-      "news": 10,
-      "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "sector": "Quantum Computing",
@@ -271,6 +266,6 @@
       "hiring": 0,
       "market": 0
     },
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   }
 ]
