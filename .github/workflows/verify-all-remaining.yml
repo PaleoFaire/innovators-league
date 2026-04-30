@@ -1,23 +1,46 @@
-name: Verify All Remaining (auto-chain batches 4-9)
+name: Verify All Remaining (hardened, batches 4-9)
 
-# One-shot workflow: runs the verifier on all 6 remaining cohorts
-# (570 companies) sequentially, auto-applying changes after each
-# batch with conservative red-flag detection.
-#
-# Each batch step is `continue-on-error: true` so a single failure
-# doesn't abort the chain. Total wall-clock: ~3-4 hours.
+# HARDENED — fixes that prevent silent data loss seen in chain run 25146250695,
+# where ALL 6 batches' push attempts failed and the broken retry loop
+# ate the failures:
+#   1. Push failures no longer silent — exit 1 if all retries fail
+#      (previous: 3-attempt loop with no exit code, then continue-on-error
+#      caused step to "succeed" while losing all data).
+#   2. Verification JSON uploaded as workflow artifact BEFORE push attempt
+#      so verify work is recoverable even if the commit/push fails entirely.
+#   3. Each batch step verifies the JSON exists + is valid before staging.
+#   4. Uses verify-company-facts.yml's proven push pattern (5 attempts,
+#      explicit `git fetch + reset + recommit + push HEAD:main`, no rebase).
+#   5. continue-on-error retained ONLY on the verify steps (so a single
+#      cohort's API failure doesn't abort the chain) — NOT on commit steps.
+#   6. `batches` input lets you re-run only the cohorts that failed.
 
 on:
   workflow_dispatch:
+    inputs:
+      batches:
+        description: 'Comma-separated batches to run (default 4,5,6,7,8,9)'
+        default: '4,5,6,7,8,9'
+        required: true
+      limit:
+        description: 'Max companies per batch (default 95)'
+        default: '95'
+        required: true
+
+concurrency:
+  group: verify-chain
+  cancel-in-progress: false   # don't cancel a running chain
 
 permissions:
   contents: write
 
 jobs:
   verify-and-apply-all:
-    name: Verify + auto-apply 6 remaining cohorts (batch 4 → 9)
+    name: Verify + auto-apply selected cohorts (hardened)
     runs-on: ubuntu-latest
-    timeout-minutes: 350  # 5h 50m, just under GH job hard limit (6h)
+    timeout-minutes: 350
+    env:
+      LIMIT: ${{ github.event.inputs.limit }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -34,242 +57,204 @@ jobs:
 
       # ─── BATCH 4 ──────────────────────────────────────────────
       - name: Batch 4 — Verify
+        if: contains(github.event.inputs.batches, '4')
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
-          VERIFY_LIMIT: '95'
-        continue-on-error: true
+          VERIFY_LIMIT: ${{ env.LIMIT }}
+        continue-on-error: true   # API failures shouldn't kill chain
         run: |
+          set -euo pipefail
           python scripts/verify_company_facts.py \
             --cohort-file data/cold_email_batch4.json \
-            --limit 95 --output-suffix batch4
+            --limit "$LIMIT" --output-suffix batch4
           python scripts/generate_verification_report.py --suffix batch4
+          # Sanity: file exists and has changesProposed key
+          test -s data/company_facts_verification_batch4.json
+          python3 -c "import json,sys; d=json.load(open('data/company_facts_verification_batch4.json')); assert 'changesProposed' in d or d.get('skipped'), 'malformed verifier output'"
+
+      - name: Batch 4 — Upload artifact (pre-push backup)
+        if: contains(github.event.inputs.batches, '4')
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-batch4
+          path: |
+            data/company_facts_verification_batch4.json
+            COMPANY_FACTS_VERIFICATION_REPORT_batch4.md
+          if-no-files-found: warn
+          retention-days: 30
 
       - name: Batch 4 — Auto-apply + commit
-        continue-on-error: true
+        if: contains(github.event.inputs.batches, '4')
         run: |
-          python scripts/auto_apply_verified.py --suffix batch4
-          # Quick parse-check: data.js must still tokenize cleanly
-          python3 -c "
-          import re
-          src = open('data.js').read()
-          assert 'const COMPANIES' in src, 'COMPANIES array missing'
-          # Brace balance sanity
-          if src.count('{') != src.count('}'):
-              raise SystemExit('Brace imbalance after batch 4 apply')
-          print('✓ data.js sanity check passed')
-          "
-          git add data.js \
-                  data/company_facts_verification_batch4.json \
-                  COMPANY_FACTS_VERIFICATION_REPORT_batch4.md 2>/dev/null || true
-          if git diff --staged --quiet; then
-            echo "Nothing to commit for batch 4"
-          else
-            git commit -m "📊 Batch 4 verified + auto-applied (95 cos)"
-            for attempt in 1 2 3; do
-              git pull --rebase -X theirs origin main 2>/dev/null || true
-              if git push; then break; fi
-              sleep 5
-            done
-          fi
+          set -euo pipefail
+          bash scripts/commit_batch.sh batch4
 
       # ─── BATCH 5 ──────────────────────────────────────────────
       - name: Batch 5 — Verify
+        if: contains(github.event.inputs.batches, '5')
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
-          VERIFY_LIMIT: '95'
+          VERIFY_LIMIT: ${{ env.LIMIT }}
         continue-on-error: true
         run: |
+          set -euo pipefail
           python scripts/verify_company_facts.py \
             --cohort-file data/cold_email_batch5.json \
-            --limit 95 --output-suffix batch5
+            --limit "$LIMIT" --output-suffix batch5
           python scripts/generate_verification_report.py --suffix batch5
+          test -s data/company_facts_verification_batch5.json
+          python3 -c "import json,sys; d=json.load(open('data/company_facts_verification_batch5.json')); assert 'changesProposed' in d or d.get('skipped'), 'malformed verifier output'"
+
+      - name: Batch 5 — Upload artifact (pre-push backup)
+        if: contains(github.event.inputs.batches, '5')
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-batch5
+          path: |
+            data/company_facts_verification_batch5.json
+            COMPANY_FACTS_VERIFICATION_REPORT_batch5.md
+          if-no-files-found: warn
+          retention-days: 30
 
       - name: Batch 5 — Auto-apply + commit
-        continue-on-error: true
+        if: contains(github.event.inputs.batches, '5')
         run: |
-          python scripts/auto_apply_verified.py --suffix batch5
-          python3 -c "
-          import re
-          src = open('data.js').read()
-          assert 'const COMPANIES' in src
-          assert src.count('{') == src.count('}'), 'Brace imbalance'
-          print('✓ sanity check passed')
-          "
-          git add data.js \
-                  data/company_facts_verification_batch5.json \
-                  COMPANY_FACTS_VERIFICATION_REPORT_batch5.md 2>/dev/null || true
-          if ! git diff --staged --quiet; then
-            git commit -m "📊 Batch 5 verified + auto-applied (95 cos)"
-            for attempt in 1 2 3; do
-              git pull --rebase -X theirs origin main 2>/dev/null || true
-              if git push; then break; fi
-              sleep 5
-            done
-          fi
+          set -euo pipefail
+          bash scripts/commit_batch.sh batch5
 
       # ─── BATCH 6 ──────────────────────────────────────────────
       - name: Batch 6 — Verify
+        if: contains(github.event.inputs.batches, '6')
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
-          VERIFY_LIMIT: '95'
+          VERIFY_LIMIT: ${{ env.LIMIT }}
         continue-on-error: true
         run: |
+          set -euo pipefail
           python scripts/verify_company_facts.py \
             --cohort-file data/cold_email_batch6.json \
-            --limit 95 --output-suffix batch6
+            --limit "$LIMIT" --output-suffix batch6
           python scripts/generate_verification_report.py --suffix batch6
+          test -s data/company_facts_verification_batch6.json
+          python3 -c "import json,sys; d=json.load(open('data/company_facts_verification_batch6.json')); assert 'changesProposed' in d or d.get('skipped'), 'malformed verifier output'"
+
+      - name: Batch 6 — Upload artifact (pre-push backup)
+        if: contains(github.event.inputs.batches, '6')
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-batch6
+          path: |
+            data/company_facts_verification_batch6.json
+            COMPANY_FACTS_VERIFICATION_REPORT_batch6.md
+          if-no-files-found: warn
+          retention-days: 30
 
       - name: Batch 6 — Auto-apply + commit
-        continue-on-error: true
+        if: contains(github.event.inputs.batches, '6')
         run: |
-          python scripts/auto_apply_verified.py --suffix batch6
-          python3 -c "
-          import re
-          src = open('data.js').read()
-          assert 'const COMPANIES' in src
-          assert src.count('{') == src.count('}')
-          print('✓ sanity check passed')
-          "
-          git add data.js \
-                  data/company_facts_verification_batch6.json \
-                  COMPANY_FACTS_VERIFICATION_REPORT_batch6.md 2>/dev/null || true
-          if ! git diff --staged --quiet; then
-            git commit -m "📊 Batch 6 verified + auto-applied (95 cos)"
-            for attempt in 1 2 3; do
-              git pull --rebase -X theirs origin main 2>/dev/null || true
-              if git push; then break; fi
-              sleep 5
-            done
-          fi
+          set -euo pipefail
+          bash scripts/commit_batch.sh batch6
 
       # ─── BATCH 7 ──────────────────────────────────────────────
       - name: Batch 7 — Verify
+        if: contains(github.event.inputs.batches, '7')
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
-          VERIFY_LIMIT: '95'
+          VERIFY_LIMIT: ${{ env.LIMIT }}
         continue-on-error: true
         run: |
+          set -euo pipefail
           python scripts/verify_company_facts.py \
             --cohort-file data/cold_email_batch7.json \
-            --limit 95 --output-suffix batch7
+            --limit "$LIMIT" --output-suffix batch7
           python scripts/generate_verification_report.py --suffix batch7
+          test -s data/company_facts_verification_batch7.json
+          python3 -c "import json,sys; d=json.load(open('data/company_facts_verification_batch7.json')); assert 'changesProposed' in d or d.get('skipped'), 'malformed verifier output'"
+
+      - name: Batch 7 — Upload artifact (pre-push backup)
+        if: contains(github.event.inputs.batches, '7')
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-batch7
+          path: |
+            data/company_facts_verification_batch7.json
+            COMPANY_FACTS_VERIFICATION_REPORT_batch7.md
+          if-no-files-found: warn
+          retention-days: 30
 
       - name: Batch 7 — Auto-apply + commit
-        continue-on-error: true
+        if: contains(github.event.inputs.batches, '7')
         run: |
-          python scripts/auto_apply_verified.py --suffix batch7
-          python3 -c "
-          import re
-          src = open('data.js').read()
-          assert 'const COMPANIES' in src
-          assert src.count('{') == src.count('}')
-          print('✓ sanity check passed')
-          "
-          git add data.js \
-                  data/company_facts_verification_batch7.json \
-                  COMPANY_FACTS_VERIFICATION_REPORT_batch7.md 2>/dev/null || true
-          if ! git diff --staged --quiet; then
-            git commit -m "📊 Batch 7 verified + auto-applied (95 cos)"
-            for attempt in 1 2 3; do
-              git pull --rebase -X theirs origin main 2>/dev/null || true
-              if git push; then break; fi
-              sleep 5
-            done
-          fi
+          set -euo pipefail
+          bash scripts/commit_batch.sh batch7
 
       # ─── BATCH 8 ──────────────────────────────────────────────
       - name: Batch 8 — Verify
+        if: contains(github.event.inputs.batches, '8')
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
-          VERIFY_LIMIT: '95'
+          VERIFY_LIMIT: ${{ env.LIMIT }}
         continue-on-error: true
         run: |
+          set -euo pipefail
           python scripts/verify_company_facts.py \
             --cohort-file data/cold_email_batch8.json \
-            --limit 95 --output-suffix batch8
+            --limit "$LIMIT" --output-suffix batch8
           python scripts/generate_verification_report.py --suffix batch8
+          test -s data/company_facts_verification_batch8.json
+          python3 -c "import json,sys; d=json.load(open('data/company_facts_verification_batch8.json')); assert 'changesProposed' in d or d.get('skipped'), 'malformed verifier output'"
+
+      - name: Batch 8 — Upload artifact (pre-push backup)
+        if: contains(github.event.inputs.batches, '8')
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-batch8
+          path: |
+            data/company_facts_verification_batch8.json
+            COMPANY_FACTS_VERIFICATION_REPORT_batch8.md
+          if-no-files-found: warn
+          retention-days: 30
 
       - name: Batch 8 — Auto-apply + commit
-        continue-on-error: true
+        if: contains(github.event.inputs.batches, '8')
         run: |
-          python scripts/auto_apply_verified.py --suffix batch8
-          python3 -c "
-          import re
-          src = open('data.js').read()
-          assert 'const COMPANIES' in src
-          assert src.count('{') == src.count('}')
-          print('✓ sanity check passed')
-          "
-          git add data.js \
-                  data/company_facts_verification_batch8.json \
-                  COMPANY_FACTS_VERIFICATION_REPORT_batch8.md 2>/dev/null || true
-          if ! git diff --staged --quiet; then
-            git commit -m "📊 Batch 8 verified + auto-applied (95 cos)"
-            for attempt in 1 2 3; do
-              git pull --rebase -X theirs origin main 2>/dev/null || true
-              if git push; then break; fi
-              sleep 5
-            done
-          fi
+          set -euo pipefail
+          bash scripts/commit_batch.sh batch8
 
       # ─── BATCH 9 ──────────────────────────────────────────────
       - name: Batch 9 — Verify
+        if: contains(github.event.inputs.batches, '9')
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY2 }}
-          VERIFY_LIMIT: '95'
+          VERIFY_LIMIT: ${{ env.LIMIT }}
         continue-on-error: true
         run: |
+          set -euo pipefail
           python scripts/verify_company_facts.py \
             --cohort-file data/cold_email_batch9.json \
-            --limit 95 --output-suffix batch9
+            --limit "$LIMIT" --output-suffix batch9
           python scripts/generate_verification_report.py --suffix batch9
+          test -s data/company_facts_verification_batch9.json
+          python3 -c "import json,sys; d=json.load(open('data/company_facts_verification_batch9.json')); assert 'changesProposed' in d or d.get('skipped'), 'malformed verifier output'"
+
+      - name: Batch 9 — Upload artifact (pre-push backup)
+        if: contains(github.event.inputs.batches, '9')
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-batch9
+          path: |
+            data/company_facts_verification_batch9.json
+            COMPANY_FACTS_VERIFICATION_REPORT_batch9.md
+          if-no-files-found: warn
+          retention-days: 30
 
       - name: Batch 9 — Auto-apply + commit
-        continue-on-error: true
+        if: contains(github.event.inputs.batches, '9')
         run: |
-          python scripts/auto_apply_verified.py --suffix batch9
-          python3 -c "
-          import re
-          src = open('data.js').read()
-          assert 'const COMPANIES' in src
-          assert src.count('{') == src.count('}')
-          print('✓ sanity check passed')
-          "
-          git add data.js \
-                  data/company_facts_verification_batch9.json \
-                  COMPANY_FACTS_VERIFICATION_REPORT_batch9.md 2>/dev/null || true
-          if ! git diff --staged --quiet; then
-            git commit -m "📊 Batch 9 verified + auto-applied (95 cos) — 100% COVERAGE"
-            for attempt in 1 2 3; do
-              git pull --rebase -X theirs origin main 2>/dev/null || true
-              if git push; then break; fi
-              sleep 5
-            done
-          fi
+          set -euo pipefail
+          bash scripts/commit_batch.sh batch9
 
       # ─── FINAL SUMMARY ────────────────────────────────────────
       - name: Final summary
         if: always()
-        run: |
-          echo "==============================================="
-          echo "VERIFICATION CHAIN COMPLETE"
-          echo "==============================================="
-          for b in 4 5 6 7 8 9; do
-            f="data/company_facts_verification_batch${b}.json"
-            if [ -f "$f" ]; then
-              echo
-              echo "Batch $b:"
-              python3 -c "
-              import json
-              d = json.load(open('$f'))
-              s = d.get('summary',{})
-              print(f'  cohort: {d.get(\"cohortSize\",0)}')
-              print(f'  cleared: {s.get(\"cleared\",0)}')
-              print(f'  changes: {s.get(\"changesProposed\",0)}')
-              print(f'  unverifiable: {s.get(\"unverifiable\",0)}')
-              print(f'  cost: ~\${d.get(\"newExtractionsThisRun\",0)*0.05:.2f}')
-              "
-            else
-              echo "Batch $b: did not complete"
-            fi
-          done
+        run: bash scripts/chain_summary.sh 4 5 6 7 8 9

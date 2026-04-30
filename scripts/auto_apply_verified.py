@@ -74,14 +74,29 @@ def find_object(src, name):
     return None
 
 
-def apply_change_to_obj(obj, field, verified_val):
-    """Apply a single field change to a JS object literal string."""
-    if not verified_val:
-        return obj, False
+# Robust JS-literal regexes that handle escaped quotes / nested brackets
+# in string values. Critical: the simpler "[^"]*" form fails on description
+# strings with embedded \" sequences and would silently corrupt the file
+# if such a value is ever inserted by a future verifier run.
+_STRING_LIT = r'"(?:[^"\\]|\\.)*"'
+_ARRAY_LIT  = r'\[(?:[^\[\]"]*|' + _STRING_LIT + r')*\]'
 
+
+def apply_change_to_obj(obj, field, verified_val):
+    """Apply a single field change to a JS object literal string.
+
+    Returns (new_obj, changed, reason) where:
+      - new_obj: the (possibly modified) JS object literal
+      - changed: True iff new_obj != obj (i.e., bytes really changed)
+      - reason:  'replaced' | 'inserted' | 'noop_same_value' | 'skipped:<why>'
+    """
+    if verified_val is None or verified_val == "":
+        return obj, False, 'skipped:empty_verified'
+
+    # Format new value as JS literal
     if field == 'investors':
         if not isinstance(verified_val, list):
-            return obj, False
+            return obj, False, 'skipped:investors_not_list'
         items = verified_val[:10]
         items_str = ', '.join('"' + i.replace('"', '\\"') + '"' for i in items)
         new_value = f'[{items_str}]'
@@ -89,17 +104,20 @@ def apply_change_to_obj(obj, field, verified_val):
         try:
             new_value = str(int(verified_val))
         except (ValueError, TypeError):
-            return obj, False
+            return obj, False, 'skipped:founded_not_int'
     else:
-        v_str = str(verified_val).replace('"', '\\"')
+        v_str = str(verified_val).replace('\\', '\\\\').replace('"', '\\"')
         new_value = f'"{v_str}"'
 
-    existing_pattern = rf'\b{field}\s*:\s*("[^"]*"|\[[^\]]*\]|\d+|null|true|false)'
+    existing_pattern = rf'\b{field}\s*:\s*({_STRING_LIT}|{_ARRAY_LIT}|-?\d+|null|true|false)'
     m = re.search(existing_pattern, obj)
     if m:
-        return obj[:m.start()] + f'{field}: {new_value}' + obj[m.end():], True
+        candidate = obj[:m.start()] + f'{field}: {new_value}' + obj[m.end():]
+        if candidate == obj:
+            return obj, False, 'noop_same_value'
+        return candidate, True, 'replaced'
 
-    # Insert new field before closing brace
+    # Field doesn't exist — insert before closing brace
     indent_match = re.search(r'\n(\s+)\w+\s*:', obj)
     indent = indent_match.group(1) if indent_match else '    '
     close_idx = obj.rfind('}')
@@ -107,29 +125,43 @@ def apply_change_to_obj(obj, field, verified_val):
     while prev > 0 and obj[prev] in ' \n\t':
         prev -= 1
     if obj[prev] == ',':
-        return obj[:prev+1] + f'\n{indent}{field}: {new_value}\n{indent[:-2]}' + obj[close_idx:], True
+        candidate = obj[:prev+1] + f'\n{indent}{field}: {new_value}\n{indent[:-2]}' + obj[close_idx:]
     elif obj[prev] != '{':
-        return obj[:prev+1] + f',\n{indent}{field}: {new_value}\n{indent[:-2]}' + obj[close_idx:], True
-    return obj, False
+        candidate = obj[:prev+1] + f',\n{indent}{field}: {new_value}\n{indent[:-2]}' + obj[close_idx:]
+    else:
+        return obj, False, 'skipped:cant_locate_insertion_point'
+    if candidate == obj:
+        return obj, False, 'noop_same_value'
+    return candidate, True, 'inserted'
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--suffix', required=True, help='batch suffix (e.g. batch4)')
+    ap.add_argument('--dry-run', action='store_true', help='Print what would change without writing data.js')
     args = ap.parse_args()
 
     in_path = ROOT / f'data/company_facts_verification_{args.suffix}.json'
     if not in_path.exists():
-        print(f'⚠ {in_path} not found — nothing to apply')
-        return 0
+        # Per Stephen's "no silent failures" rule, this is an error condition
+        # the caller (workflow) should be aware of. Exit non-zero.
+        print(f'❌ {in_path} not found — verify step likely failed silently')
+        return 2
 
     d = json.load(open(in_path))
+    if d.get('skipped'):
+        print(f"⚠ Verifier was skipped: {d.get('reason')}")
+        return 0
+
     changes = d.get('changesProposed', [])
     print(f'Verification report: {len(changes)} companies w/ proposed changes')
 
-    src = DATA_JS.read_text(encoding='utf-8')
-    applied_per_field = {}
-    applied_per_company = []
+    src_before = DATA_JS.read_text(encoding='utf-8')
+    src = src_before
+    applied_per_field = {}     # field → count of REAL byte-level changes
+    noop_per_field = {}        # field → count of "matched but value identical" cases
+    applied_per_company = []   # [(name, [fields_actually_changed]), ...]
+    noop_per_company = []      # [(name, [fields_no_op]), ...]
     skipped = []
 
     for entry in changes:
@@ -153,30 +185,48 @@ def main():
         open_pos, close_pos = loc
         obj = src[open_pos:close_pos+1]
         new_obj = obj
-        company_changes = []
+        company_changes_real = []
+        company_changes_noop = []
 
         for ch in entry.get('changes', []):
             field = ch['field']
             if field in skip_fields:
                 continue
             verified_val = ch.get('verified')
-            new_obj, ok = apply_change_to_obj(new_obj, field, verified_val)
-            if ok:
-                company_changes.append(field)
+            new_obj, changed, reason = apply_change_to_obj(new_obj, field, verified_val)
+            if changed:
+                company_changes_real.append(field)
                 applied_per_field[field] = applied_per_field.get(field, 0) + 1
+            elif reason == 'noop_same_value':
+                company_changes_noop.append(field)
+                noop_per_field[field] = noop_per_field.get(field, 0) + 1
+            # other 'skipped:*' reasons are quietly counted as no-ops
 
-        if company_changes:
+        if company_changes_real:
             src = src[:open_pos] + new_obj + src[close_pos+1:]
-            applied_per_company.append((name, len(company_changes)))
+            applied_per_company.append((name, company_changes_real))
+        if company_changes_noop:
+            noop_per_company.append((name, company_changes_noop))
 
-    DATA_JS.write_text(src, encoding='utf-8')
+    if args.dry_run:
+        print('\n[DRY RUN] data.js NOT modified')
+    else:
+        if src != src_before:
+            DATA_JS.write_text(src, encoding='utf-8')
+            byte_delta = len(src) - len(src_before)
+            print(f'\n✏️  data.js MODIFIED: {len(src_before):,} → {len(src):,} bytes ({byte_delta:+,})')
+        else:
+            print(f'\n📄 data.js UNCHANGED ({len(src):,} bytes) — all proposed changes were no-ops or skipped')
 
-    total = sum(n for _, n in applied_per_company)
-    print(f'\n✅ Applied {total} changes across {len(applied_per_company)} companies')
-    print(f'⏭  Skipped {len(skipped)} companies')
-    print(f'\nField breakdown:')
-    for f, n in sorted(applied_per_field.items(), key=lambda x: -x[1]):
-        print(f'  {n:>3}  {f}')
+    real_total = sum(len(c) for _, c in applied_per_company)
+    noop_total = sum(len(c) for _, c in noop_per_company)
+    print(f'✅ Real changes:   {real_total} fields across {len(applied_per_company)} companies')
+    print(f'➖ No-op matches:  {noop_total} fields across {len(noop_per_company)} companies (value already correct)')
+    print(f'⏭  Skipped:        {len(skipped)} companies')
+    if applied_per_field:
+        print(f'\nField breakdown (real changes):')
+        for f, n in sorted(applied_per_field.items(), key=lambda x: -x[1]):
+            print(f'  {n:>3}  {f}')
     if skipped:
         print(f'\nSkipped (auto red-flag detection):')
         for nm, reason in skipped[:10]:
