@@ -1,7 +1,7 @@
 // Auto-generated NIH Reporter grant data
-// Last updated: 2026-04-29 09:03:37 UTC
+// Last updated: 2026-04-30 09:06:42 UTC
 // Total grants: 633 | Known companies: 16 | SBIR: 14
-// Total funding tracked: $378,408,965
+// Total funding tracked: $379,197,859
 const NIH_GRANTS_AUTO = [
   {
     title: "Intermediate-sized Expanded Access Protocol for CNM-Au8 in Amyotrophic Lateral Sclerosis (ALS).",
@@ -989,6 +989,19 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "Project Summary Over the past twenty years, six coronaviruses (CoV) have emerged or expanded their geographic range. The emergent human CoVs with the greatest global impact (SARS-CoV-1, SARS-CoV-2, an",
     terms: ["2019-nCoV", "ACE2", "Adenovirus Vector", "Animals", "Antibodies", "Antibody Response", "Antigens", "Attenuated"],
+    isKnownCompany: false,
+  },
+  {
+    title: "Multiomic strategies to assess HIV reservoir persistence",
+    organization: "UNIVERSITY OF PENNSYLVANIA",
+    orgState: "PA",
+    piName: "Michael R Betts",
+    fiscalYear: 2026,
+    awardAmount: 844008,
+    activityCode: "R01",
+    isSbir: false,
+    abstract: "Persistence of the latent HIV reservoir in people living with HIV (PLWH) remains the critical barrier to an HIV cure. Numerous reservoir reduction and control studies have met with only limited succes",
+    terms: ["ATAC-seq", "Address", "Aftercare", "Anatomy", "Apoptosis", "Binding", "Biological Assay", "Blood"],
     isKnownCompany: false,
   },
   {
@@ -3888,19 +3901,6 @@ const NIH_GRANTS_AUTO = [
     isSbir: false,
     abstract: "PROJECT SUMMARY Solitary pulmonary nodules (SPNs) are hazy opacities less than or equal to 3 cm in diameter that are surrounded by aerated lung. The incidence of SPN in the United States is approximat",
     terms: ["Age", "Benign", "Biological", "Biological Assay", "Body Fluids", "Cells", "Cholesterol", "Clinical"],
-    isKnownCompany: false,
-  },
-  {
-    title: "Reducing Off-Target Accumulation of Chemotherapeutic Nanomedicines",
-    organization: "UNIVERSITY OF COLORADO DENVER",
-    orgState: "CO",
-    piName: "THOMAS  ANCHORDOQUY",
-    fiscalYear: 2026,
-    awardAmount: 500290,
-    activityCode: "R01",
-    isSbir: false,
-    abstract: "The work described in this proposal investigates a novel approach to reduce drug accumulation in healthy tissues and improve the efficacy of chemotherapy. More specifically, we take advantage of recen",
-    terms: ["Adverse effects", "Affect", "Antibodies", "Antineoplastic Agents", "Antitumor Response", "Attenuated", "Bacteria", "Biodistribution"],
     isKnownCompany: false,
   },
 ];

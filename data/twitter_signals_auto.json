@@ -1,23 +1,5 @@
 [
   {
-    "founder": "Peter Thiel",
-    "company": "Palantir",
-    "handle": "@peterthiel",
-    "candidate_handles": [
-      "@peterthiel",
-      "@peter_thiel",
-      "@pthiel",
-      "@peter",
-      "@thiel"
-    ],
-    "followers": null,
-    "recent_posts": null,
-    "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
-    "placeholder": true,
-    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
-  },
-  {
     "founder": "Palmer Luckey",
     "company": "Anduril Industries",
     "handle": "@palmerluckey",
@@ -31,7 +13,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -49,7 +31,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -67,7 +49,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -85,7 +67,25 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
+    "placeholder": true,
+    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
+  },
+  {
+    "founder": "Peter Thiel",
+    "company": "Palantir",
+    "handle": "@peterthiel",
+    "candidate_handles": [
+      "@peterthiel",
+      "@peter_thiel",
+      "@pthiel",
+      "@peter",
+      "@thiel"
+    ],
+    "followers": null,
+    "recent_posts": null,
+    "topics": [],
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -103,7 +103,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -121,7 +121,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -139,7 +139,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -157,7 +157,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -175,7 +175,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -193,25 +193,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
-    "placeholder": true,
-    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
-  },
-  {
-    "founder": "Jeff Bezos",
-    "company": "Blue Origin",
-    "handle": "@jeffbezos",
-    "candidate_handles": [
-      "@jeffbezos",
-      "@jeff_bezos",
-      "@jbezos",
-      "@jeff",
-      "@bezos"
-    ],
-    "followers": null,
-    "recent_posts": null,
-    "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -229,7 +211,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -247,7 +229,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -265,7 +247,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -283,61 +265,60 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Piotr Dabkowski",
+    "founder": "Piotr Dąbkowski",
     "company": "ElevenLabs",
-    "handle": "@piotrdabkowski",
+    "handle": "@piotrdbkowski",
     "candidate_handles": [
-      "@piotrdabkowski",
-      "@piotr_dabkowski",
-      "@pdabkowski",
+      "@piotrdbkowski",
+      "@piotr_dbkowski",
+      "@pdbkowski",
       "@piotr",
-      "@dabkowski"
+      "@dbkowski"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Chris Monroe",
+    "founder": "Christopher Monroe",
     "company": "IonQ",
-    "handle": "@chrismonroe",
+    "handle": "@christophermonroe",
     "candidate_handles": [
-      "@chrismonroe",
-      "@chris_monroe",
+      "@christophermonroe",
+      "@christopher_monroe",
       "@cmonroe",
-      "@chris",
+      "@christopher",
       "@monroe"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "RJ Scaringe",
+    "founder": "R. J. Scaringe",
     "company": "Rivian",
-    "handle": "@rjscaringe",
+    "handle": "@rscaringe",
     "candidate_handles": [
-      "@rjscaringe",
-      "@rj_scaringe",
       "@rscaringe",
-      "@rj",
+      "@r_scaringe",
+      "@r",
       "@scaringe"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -355,7 +336,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -373,7 +354,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -391,25 +372,25 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Nobu Okada",
+    "founder": "Mitsunobu Okada",
     "company": "Astroscale",
-    "handle": "@nobuokada",
+    "handle": "@mitsunobuokada",
     "candidate_handles": [
-      "@nobuokada",
-      "@nobu_okada",
-      "@nokada",
-      "@nobu",
+      "@mitsunobuokada",
+      "@mitsunobu_okada",
+      "@mokada",
+      "@mitsunobu",
       "@okada"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -427,7 +408,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -445,25 +426,25 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Gordon Sanghera",
+    "founder": "Hagan Bayley",
     "company": "Oxford Nanopore Technologies",
-    "handle": "@gordonsanghera",
+    "handle": "@haganbayley",
     "candidate_handles": [
-      "@gordonsanghera",
-      "@gordon_sanghera",
-      "@gsanghera",
-      "@gordon",
-      "@sanghera"
+      "@haganbayley",
+      "@hagan_bayley",
+      "@hbayley",
+      "@hagan",
+      "@bayley"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -481,7 +462,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -499,7 +480,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -517,25 +498,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
-    "placeholder": true,
-    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
-  },
-  {
-    "founder": "Oh Jun-ho",
-    "company": "Rainbow Robotics",
-    "handle": "@ohjunho",
-    "candidate_handles": [
-      "@ohjunho",
-      "@oh_junho",
-      "@ojunho",
-      "@oh",
-      "@junho"
-    ],
-    "followers": null,
-    "recent_posts": null,
-    "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -553,25 +516,25 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Brian Hearing & John Franklin",
+    "founder": "Brian Hearing",
     "company": "DroneShield",
-    "handle": "@brianfranklin",
+    "handle": "@brianhearing",
     "candidate_handles": [
-      "@brianfranklin",
-      "@brian_franklin",
-      "@bfranklin",
+      "@brianhearing",
+      "@brian_hearing",
+      "@bhearing",
       "@brian",
-      "@franklin"
+      "@hearing"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -589,7 +552,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -607,7 +570,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -625,7 +588,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -643,7 +606,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -661,7 +624,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -679,7 +642,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -697,7 +660,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -715,7 +678,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -733,7 +696,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -751,7 +714,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -769,7 +732,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -787,7 +750,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -805,25 +768,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
-    "placeholder": true,
-    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
-  },
-  {
-    "founder": "Tim Ellis",
-    "company": "Relativity Space",
-    "handle": "@timellis",
-    "candidate_handles": [
-      "@timellis",
-      "@tim_ellis",
-      "@tellis",
-      "@tim",
-      "@ellis"
-    ],
-    "followers": null,
-    "recent_posts": null,
-    "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -841,25 +786,25 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Max Haot",
+    "founder": "Jake Cannell",
     "company": "Vast",
-    "handle": "@maxhaot",
+    "handle": "@jakecannell",
     "candidate_handles": [
-      "@maxhaot",
-      "@max_haot",
-      "@mhaot",
-      "@max",
-      "@haot"
+      "@jakecannell",
+      "@jake_cannell",
+      "@jcannell",
+      "@jake",
+      "@cannell"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -877,7 +822,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -895,7 +840,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -913,25 +858,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
-    "placeholder": true,
-    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
-  },
-  {
-    "founder": "Elon Musk",
-    "company": "Neuralink",
-    "handle": "@elonmusk",
-    "candidate_handles": [
-      "@elonmusk",
-      "@elon_musk",
-      "@emusk",
-      "@elon",
-      "@musk"
-    ],
-    "followers": null,
-    "recent_posts": null,
-    "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -949,7 +876,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -967,7 +894,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -985,7 +912,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1003,7 +930,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1021,12 +948,12 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Michael Suffredini",
+    "founder": "Michael T. Suffredini",
     "company": "Axiom Space",
     "handle": "@michaelsuffredini",
     "candidate_handles": [
@@ -1039,7 +966,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1057,7 +984,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1075,7 +1002,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1093,25 +1020,43 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Will Marshall",
-    "company": "Planet Labs",
-    "handle": "@willmarshall",
+    "founder": "Andy Lapsa",
+    "company": "Stoke Space",
+    "handle": "@andylapsa",
     "candidate_handles": [
-      "@willmarshall",
-      "@will_marshall",
-      "@wmarshall",
-      "@will",
-      "@marshall"
+      "@andylapsa",
+      "@andy_lapsa",
+      "@alapsa",
+      "@andy",
+      "@lapsa"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
+    "placeholder": true,
+    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
+  },
+  {
+    "founder": "Chris Boshuizen",
+    "company": "Planet Labs",
+    "handle": "@chrisboshuizen",
+    "candidate_handles": [
+      "@chrisboshuizen",
+      "@chris_boshuizen",
+      "@cboshuizen",
+      "@chris",
+      "@boshuizen"
+    ],
+    "followers": null,
+    "recent_posts": null,
+    "topics": [],
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1129,7 +1074,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1147,7 +1092,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1165,7 +1110,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1183,7 +1128,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1201,7 +1146,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1219,7 +1164,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1237,7 +1182,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1255,25 +1200,24 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "JB Straubel",
+    "founder": "J. B. Straubel",
     "company": "Redwood Materials",
-    "handle": "@jbstraubel",
+    "handle": "@jstraubel",
     "candidate_handles": [
-      "@jbstraubel",
-      "@jb_straubel",
       "@jstraubel",
-      "@jb",
+      "@j_straubel",
+      "@j",
       "@straubel"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1291,7 +1235,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1309,25 +1253,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
-    "placeholder": true,
-    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
-  },
-  {
-    "founder": "Jeremy O'Brien",
-    "company": "PsiQuantum",
-    "handle": "@jeremyobrien",
-    "candidate_handles": [
-      "@jeremyobrien",
-      "@jeremy_obrien",
-      "@jobrien",
-      "@jeremy",
-      "@obrien"
-    ],
-    "followers": null,
-    "recent_posts": null,
-    "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1345,25 +1271,25 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Alex Kendall",
+    "founder": "Amar Shah",
     "company": "Wayve",
-    "handle": "@alexkendall",
+    "handle": "@amarshah",
     "candidate_handles": [
-      "@alexkendall",
-      "@alex_kendall",
-      "@akendall",
-      "@alex",
-      "@kendall"
+      "@amarshah",
+      "@amar_shah",
+      "@ashah",
+      "@amar",
+      "@shah"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1381,7 +1307,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1399,7 +1325,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1417,25 +1343,25 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Rafal Modrzewski",
+    "founder": "Rafał Modrzewski",
     "company": "ICEYE",
-    "handle": "@rafalmodrzewski",
+    "handle": "@rafamodrzewski",
     "candidate_handles": [
-      "@rafalmodrzewski",
-      "@rafal_modrzewski",
+      "@rafamodrzewski",
+      "@rafa_modrzewski",
       "@rmodrzewski",
-      "@rafal",
+      "@rafa",
       "@modrzewski"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1453,25 +1379,25 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
   {
-    "founder": "Ljubisa Bajic",
+    "founder": "Milos Trajkovic",
     "company": "Tenstorrent",
-    "handle": "@ljubisabajic",
+    "handle": "@milostrajkovic",
     "candidate_handles": [
-      "@ljubisabajic",
-      "@ljubisa_bajic",
-      "@lbajic",
-      "@ljubisa",
-      "@bajic"
+      "@milostrajkovic",
+      "@milos_trajkovic",
+      "@mtrajkovic",
+      "@milos",
+      "@trajkovic"
     ],
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1489,7 +1415,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1507,7 +1433,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1525,7 +1451,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1543,7 +1469,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1561,7 +1487,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1579,7 +1505,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1597,7 +1523,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1615,7 +1541,25 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
+    "placeholder": true,
+    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
+  },
+  {
+    "founder": "Taylor Francis",
+    "company": "Watershed",
+    "handle": "@taylorfrancis",
+    "candidate_handles": [
+      "@taylorfrancis",
+      "@taylor_francis",
+      "@tfrancis",
+      "@taylor",
+      "@francis"
+    ],
+    "followers": null,
+    "recent_posts": null,
+    "topics": [],
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1633,7 +1577,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1651,7 +1595,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1669,7 +1613,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1687,7 +1631,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1705,7 +1649,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1723,7 +1667,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1741,7 +1685,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1759,7 +1703,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1777,7 +1721,7 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   },
@@ -1795,7 +1739,61 @@
     "followers": null,
     "recent_posts": null,
     "topics": [],
-    "fetched_at": "2026-04-29T09:03:51.656133+00:00",
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
+    "placeholder": true,
+    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
+  },
+  {
+    "founder": "Eric Gratz",
+    "company": "Ascend Elements",
+    "handle": "@ericgratz",
+    "candidate_handles": [
+      "@ericgratz",
+      "@eric_gratz",
+      "@egratz",
+      "@eric",
+      "@gratz"
+    ],
+    "followers": null,
+    "recent_posts": null,
+    "topics": [],
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
+    "placeholder": true,
+    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
+  },
+  {
+    "founder": "Charles Cain",
+    "company": "HistoSonics",
+    "handle": "@charlescain",
+    "candidate_handles": [
+      "@charlescain",
+      "@charles_cain",
+      "@ccain",
+      "@charles",
+      "@cain"
+    ],
+    "followers": null,
+    "recent_posts": null,
+    "topics": [],
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
+    "placeholder": true,
+    "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
+  },
+  {
+    "founder": "Gabriel Otte",
+    "company": "Freenome",
+    "handle": "@gabrielotte",
+    "candidate_handles": [
+      "@gabrielotte",
+      "@gabriel_otte",
+      "@gotte",
+      "@gabriel",
+      "@otte"
+    ],
+    "followers": null,
+    "recent_posts": null,
+    "topics": [],
+    "fetched_at": "2026-04-30T09:06:40.088172+00:00",
     "placeholder": true,
     "reason": "No X_BEARER_TOKEN / APIFY_TOKEN / RAPIDAPI_KEY set. This record documents that this founder IS on the tracking list; fields will populate once a credential is configured."
   }

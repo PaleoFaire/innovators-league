@@ -50,7 +50,7 @@
         "awardAmount": "$41M"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Palantir",
@@ -58,6 +58,7 @@
     "agencies": [
       "Department of Agriculture",
       "Department of Defense",
+      "Department of Health and Human Services",
       "Department of Homeland Security",
       "Department of State",
       "Department of Transportation",
@@ -107,11 +108,11 @@
         "awardAmount": "$93M"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Skydio",
-    "opportunityCount": 14,
+    "opportunityCount": 15,
     "agencies": [
       "Department of Agriculture",
       "Department of Defense",
@@ -162,7 +163,7 @@
         "awardAmount": "$147K"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Radiant",
@@ -219,7 +220,7 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Shield AI",
@@ -271,7 +272,59 @@
         "awardAmount": "$2M"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
+  },
+  {
+    "company": "Varda Space",
+    "opportunityCount": 6,
+    "agencies": [
+      "Department of Defense",
+      "National Aeronautics and Space Administration"
+    ],
+    "types": [],
+    "recentOpportunities": [
+      {
+        "title": "STRATFI, SMALL BUSINESS INNOVATIVE RESEARCH, ECONOMICAL REENTRY CAPSULES FOR HYPERSONIC TESTING",
+        "agency": "Department of Defense",
+        "postedDate": "2023-05-16",
+        "type": null,
+        "noticeId": "FA945323CA035",
+        "awardAmount": "$27M"
+      },
+      {
+        "title": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.",
+        "agency": "Department of Defense",
+        "postedDate": "2024-12-30",
+        "type": null,
+        "noticeId": "FA945325FX010",
+        "awardAmount": "$9M"
+      },
+      {
+        "title": "THIS TASK ORDER IS FOR THE ORDER OF LAUNCH SERVICES IN THE MONTH OF OCTOBER 2026.",
+        "agency": "Department of Defense",
+        "postedDate": "2026-01-30",
+        "type": null,
+        "noticeId": "FA945326FX010",
+        "awardAmount": "$4M"
+      },
+      {
+        "title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE",
+        "agency": "Department of Defense",
+        "postedDate": "2025-11-25",
+        "type": null,
+        "noticeId": "FA945326FX002",
+        "awardAmount": "$58K"
+      },
+      {
+        "title": "MINIMUM GUARANTEED",
+        "agency": "National Aeronautics and Space Administration",
+        "postedDate": "2024-03-15",
+        "type": null,
+        "noticeId": "80AFRC24FA018",
+        "awardAmount": "$25K"
+      }
+    ],
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Rocket Lab",
@@ -323,7 +376,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Axiom Space",
@@ -375,7 +428,7 @@
         "awardAmount": ""
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Sierra Space",
@@ -427,59 +480,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-04-29"
-  },
-  {
-    "company": "Varda Space",
-    "opportunityCount": 5,
-    "agencies": [
-      "Department of Defense",
-      "National Aeronautics and Space Administration"
-    ],
-    "types": [],
-    "recentOpportunities": [
-      {
-        "title": "STRATFI, SMALL BUSINESS INNOVATIVE RESEARCH, ECONOMICAL REENTRY CAPSULES FOR HYPERSONIC TESTING",
-        "agency": "Department of Defense",
-        "postedDate": "2023-05-16",
-        "type": null,
-        "noticeId": "FA945323CA035",
-        "awardAmount": "$27M"
-      },
-      {
-        "title": "TASK ORDER 3 - TWO NOMINAL SCHEDULE INTERIOR PAYLOAD LAUNCHES FOR OCTOBER 2025.",
-        "agency": "Department of Defense",
-        "postedDate": "2024-12-30",
-        "type": null,
-        "noticeId": "FA945325FX010",
-        "awardAmount": "$9M"
-      },
-      {
-        "title": "THIS TASK ORDER IS FOR THE ORDER OF ELEVEN (11) MONTHLY REPORTS TO PROVIDE STATUS UPDATES FROM 30 NOV 2025 THROUGH 30 SE",
-        "agency": "Department of Defense",
-        "postedDate": "2025-11-25",
-        "type": null,
-        "noticeId": "FA945326FX002",
-        "awardAmount": "$58K"
-      },
-      {
-        "title": "MINIMUM GUARANTEED",
-        "agency": "National Aeronautics and Space Administration",
-        "postedDate": "2024-03-15",
-        "type": null,
-        "noticeId": "80AFRC24FA018",
-        "awardAmount": "$25K"
-      },
-      {
-        "title": "SCALABLE HOMELAND INNOVATIVE ENTERPRISE LAYERED DEFENSE (SHIELD) INITIAL ORDER.",
-        "agency": "Department of Defense",
-        "postedDate": "2025-12-29",
-        "type": null,
-        "noticeId": "HQ085926FF090",
-        "awardAmount": "$500"
-      }
-    ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Castelion",
@@ -522,7 +523,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Planet Labs",
@@ -567,7 +568,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Capella Space",
@@ -603,7 +604,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "BlackSky",
@@ -639,7 +640,7 @@
         "awardAmount": "$178K"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Scale AI",
@@ -666,7 +667,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Epirus",
@@ -685,7 +686,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Saronic",
@@ -704,7 +705,7 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Vannevar Labs",
@@ -723,7 +724,7 @@
         "awardAmount": "$4M"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   },
   {
     "company": "Relativity Space",
@@ -742,6 +743,6 @@
         "awardAmount": "$500"
       }
     ],
-    "lastUpdated": "2026-04-29"
+    "lastUpdated": "2026-04-30"
   }
 ]

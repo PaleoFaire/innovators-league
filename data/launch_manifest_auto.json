@@ -1,15 +1,6 @@
 [
   {
     "date": "2026-04-29",
-    "vehicle": "Soyuz-5 | Demo Flight",
-    "payload": "Demo Flight",
-    "pad": "45/1, Baikonur Cosmodrome, Republic of Kazakhstan",
-    "provider": "RKK Energiya",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-04-29",
     "vehicle": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
     "payload": "ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
     "pad": "Launch Complex 39A, Kennedy Space Center, FL, USA",
@@ -33,6 +24,15 @@
     "pad": "Ariane Launch Area 4, Guiana Space Centre, French Guiana",
     "provider": "Arianespace",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/7bffe283-a708-427d-ba0d-43ea741453b1/?format=json",
+    "trackedCompany": null
+  },
+  {
+    "date": "2026-04-30",
+    "vehicle": "Soyuz-5 | Demo Flight",
+    "payload": "Demo Flight",
+    "pad": "45/1, Baikonur Cosmodrome, Republic of Kazakhstan",
+    "provider": "RKK Energiya",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4/?format=json",
     "trackedCompany": null
   },
   {
@@ -63,6 +63,15 @@
     "trackedCompany": "SpaceX"
   },
   {
+    "date": "2026-05-09",
+    "vehicle": "Falcon 9 Block 5 | Starlink Group 17-37",
+    "payload": "Starlink Group 17-37",
+    "pad": "Space Launch Complex 4E, Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/75a35be5-b3bd-4591-b978-9a876da9fa96/?format=json",
+    "trackedCompany": "SpaceX"
+  },
+  {
     "date": "2026-05-12",
     "vehicle": "Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
     "payload": "Dragon CRS-2 SpX-34",
@@ -90,9 +99,9 @@
     "trackedCompany": "ULA"
   },
   {
-    "date": "2026-05-31",
-    "vehicle": "Electron | StriX Launch 9",
-    "payload": "StriX Launch 9",
+    "date": "2026-05-22",
+    "vehicle": "Electron | Viva La Strix (StriX Launch 9)",
+    "payload": "Viva La Strix (StriX Launch 9)",
     "pad": "Unknown Pad, Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/156a9e46-01b5-46f4-818e-ea563c71c5fe/?format=json",
@@ -204,15 +213,6 @@
     "pad": "Yoshinobu Launch Complex LP-2, Tanegashima Space Center, Japan",
     "provider": "Mitsubishi Heavy Industries",
     "url": "https://ll.thespacedevs.com/2.2.0/launch/e1a3b702-464f-435d-8c1f-ade9be196b77/?format=json",
-    "trackedCompany": null
-  },
-  {
-    "date": "2026-06-17",
-    "vehicle": "Soyuz 2.1a | Progress MS-35 (96P)",
-    "payload": "Progress MS-35 (96P)",
-    "pad": "31/6, Baikonur Cosmodrome, Republic of Kazakhstan",
-    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/?format=json",
     "trackedCompany": null
   },
   {

@@ -180,23 +180,6 @@
     "enrollment": 500
   },
   {
-    "nctId": "NCT05257551",
-    "title": "TEMPUS Small Cell Lung Cancer OBSERVATIONAL STUDY (Sculptor)",
-    "status": "RECRUITING",
-    "phase": "N/A",
-    "startDate": "2022-07-13",
-    "completionDate": "2029-03",
-    "sponsor": "Tempus AI",
-    "conditions": [
-      "Small Cell Lung Cancer"
-    ],
-    "interventions": [
-      "Observation"
-    ],
-    "lastUpdated": "2026-04-02",
-    "enrollment": 200
-  },
-  {
     "nctId": "NCT06018753",
     "title": "Umbrella Study for Analysis of Data Related to Patients With Cancer",
     "status": "ACTIVE_NOT_RECRUITING",
@@ -230,6 +213,23 @@
     ],
     "lastUpdated": "2026-04-02",
     "enrollment": 1000
+  },
+  {
+    "nctId": "NCT05257551",
+    "title": "TEMPUS Small Cell Lung Cancer OBSERVATIONAL STUDY (Sculptor)",
+    "status": "RECRUITING",
+    "phase": "N/A",
+    "startDate": "2022-07-13",
+    "completionDate": "2029-03",
+    "sponsor": "Tempus AI",
+    "conditions": [
+      "Small Cell Lung Cancer"
+    ],
+    "interventions": [
+      "Observation"
+    ],
+    "lastUpdated": "2026-04-02",
+    "enrollment": 200
   },
   {
     "nctId": "NCT06099665",
@@ -770,24 +770,6 @@
     "enrollment": 1017
   },
   {
-    "nctId": "NCT05246839",
-    "title": "Informed Choice - Compass",
-    "status": "TERMINATED",
-    "phase": "N/A",
-    "startDate": "2022-04-28",
-    "completionDate": "2025-01-31",
-    "sponsor": "Exact Sciences Corporation",
-    "conditions": [
-      "Colorectal Cancer"
-    ],
-    "interventions": [
-      "Brief Video",
-      "Brief Video Plus"
-    ],
-    "lastUpdated": "2025-11-10",
-    "enrollment": 1823
-  },
-  {
     "nctId": "NCT05220501",
     "title": "Optimization of Prostate Biopsy - Micro-Ultrasound Versus MRI",
     "status": "COMPLETED",
@@ -804,6 +786,24 @@
     ],
     "lastUpdated": "2025-11-10",
     "enrollment": 804
+  },
+  {
+    "nctId": "NCT05246839",
+    "title": "Informed Choice - Compass",
+    "status": "TERMINATED",
+    "phase": "N/A",
+    "startDate": "2022-04-28",
+    "completionDate": "2025-01-31",
+    "sponsor": "Exact Sciences Corporation",
+    "conditions": [
+      "Colorectal Cancer"
+    ],
+    "interventions": [
+      "Brief Video",
+      "Brief Video Plus"
+    ],
+    "lastUpdated": "2025-11-10",
+    "enrollment": 1823
   },
   {
     "nctId": "NCT05064553",
@@ -1751,6 +1751,23 @@
     "enrollment": 44467
   },
   {
+    "nctId": "NCT04497285",
+    "title": "Real World Study Using Comprehensive Genomic Data on the Next Treatment Decision Making in Metastatic Breast Cancer",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "phase": "N/A",
+    "startDate": "2020-10-20",
+    "completionDate": "2026-11-30",
+    "sponsor": "SOLTI Breast Cancer Research Group",
+    "conditions": [
+      "Metastatic Breast Cancer"
+    ],
+    "interventions": [
+      "blood sample collection and collection of tumor tissue block"
+    ],
+    "lastUpdated": "2025-08-06",
+    "enrollment": 600
+  },
+  {
     "nctId": "NCT05885009",
     "title": "Feasibility and Impact of Liquid Biopsy Genomic Profiling on Treatment Patients With Metastatic Prostate Cancer in Spain (SOLTI-2102)",
     "status": "RECRUITING",
@@ -1767,23 +1784,6 @@
     ],
     "lastUpdated": "2025-08-06",
     "enrollment": 240
-  },
-  {
-    "nctId": "NCT04497285",
-    "title": "Real World Study Using Comprehensive Genomic Data on the Next Treatment Decision Making in Metastatic Breast Cancer",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "phase": "N/A",
-    "startDate": "2020-10-20",
-    "completionDate": "2026-11-30",
-    "sponsor": "SOLTI Breast Cancer Research Group",
-    "conditions": [
-      "Metastatic Breast Cancer"
-    ],
-    "interventions": [
-      "blood sample collection and collection of tumor tissue block"
-    ],
-    "lastUpdated": "2025-08-06",
-    "enrollment": 600
   },
   {
     "nctId": "NCT04087473",
@@ -1947,25 +1947,6 @@
     "enrollment": 700
   },
   {
-    "nctId": "NCT05890963",
-    "title": "10E8.4/iMab Bispecific Antibody and VRC07-523LS Monoclonal Antibody in HIV-infected Adults",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "phase": "PHASE1",
-    "startDate": "2023-11-28",
-    "completionDate": "2027-05",
-    "sponsor": "David Ho",
-    "conditions": [
-      "HIV-1-infection"
-    ],
-    "interventions": [
-      "ART",
-      "10E8.4/iMab",
-      "VRC07-523LS"
-    ],
-    "lastUpdated": "2026-04-28",
-    "enrollment": 20
-  },
-  {
     "nctId": "NCT01132937",
     "title": "Evaluation, Pathogenesis, and Outcome of Subjects With or Suspected Traumatic Brain Injury",
     "status": "COMPLETED",
@@ -1977,26 +1958,64 @@
       "Traumatic Brain Injury"
     ],
     "interventions": [],
-    "lastUpdated": "2026-04-28",
+    "lastUpdated": "2026-04-29",
     "enrollment": 886
   },
   {
-    "nctId": "NCT07050238",
-    "title": "Evaluation of a Group-based, Skills Training for Increasing Mental Toughness",
+    "nctId": "NCT05426967",
+    "title": "rTMS for Military TBI-related Depression",
     "status": "RECRUITING",
     "phase": "NA",
-    "startDate": "2026-01-06",
-    "completionDate": "2029-07-01",
-    "sponsor": "Uniformed Services University of the Health Sciences",
+    "startDate": "2024-12-16",
+    "completionDate": "2026-12-31",
+    "sponsor": "Henry M. Jackson Foundation for the Advancement of Military Medicine",
     "conditions": [
-      "Resilience",
-      "Mental Toughness"
+      "Depressive Symptoms",
+      "Mild Traumatic Brain Injury",
+      "Concussion"
     ],
     "interventions": [
-      "Life Force"
+      "Repetitive Transcranial Magnetic Stimulation (rTMS)",
+      "Sham rTMS"
     ],
-    "lastUpdated": "2026-04-28",
-    "enrollment": 2400
+    "lastUpdated": "2026-04-29",
+    "enrollment": 198
+  },
+  {
+    "nctId": "NCT05581212",
+    "title": "TB Case-Finding, Treatment and Prevention Intervention in Thailand",
+    "status": "COMPLETED",
+    "phase": "NA",
+    "startDate": "2024-05-07",
+    "completionDate": "2026-01-07",
+    "sponsor": "Institut de Recherche pour le Developpement",
+    "conditions": [
+      "Tuberculosis"
+    ],
+    "interventions": [
+      "Tuberculosis Case-Finding, Treatment and Prevention Public Health Pack"
+    ],
+    "lastUpdated": "2026-04-29",
+    "enrollment": 7455
+  },
+  {
+    "nctId": "NCT01175993",
+    "title": "Effects of Rapid-Resisted Exercise and Bright Light Therapy on Ambulatory Adults With Traumatic Brain Injury",
+    "status": "COMPLETED",
+    "phase": "PHASE1, PHASE2",
+    "startDate": "2011-08-24",
+    "completionDate": "2014-02-04",
+    "sponsor": "National Institutes of Health Clinical Center (CC)",
+    "conditions": [
+      "Adult",
+      "Traumatic Brain Injury",
+      "fMRI"
+    ],
+    "interventions": [
+      "Elliptical exercise"
+    ],
+    "lastUpdated": "2026-04-29",
+    "enrollment": 34
   },
   {
     "nctId": "NCT07288593",
@@ -2036,6 +2055,43 @@
     "enrollment": 30
   },
   {
+    "nctId": "NCT05890963",
+    "title": "10E8.4/iMab Bispecific Antibody and VRC07-523LS Monoclonal Antibody in HIV-infected Adults",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "phase": "PHASE1",
+    "startDate": "2023-11-28",
+    "completionDate": "2027-05",
+    "sponsor": "David Ho",
+    "conditions": [
+      "HIV-1-infection"
+    ],
+    "interventions": [
+      "ART",
+      "10E8.4/iMab",
+      "VRC07-523LS"
+    ],
+    "lastUpdated": "2026-04-28",
+    "enrollment": 20
+  },
+  {
+    "nctId": "NCT07050238",
+    "title": "Evaluation of a Group-based, Skills Training for Increasing Mental Toughness",
+    "status": "RECRUITING",
+    "phase": "NA",
+    "startDate": "2026-01-06",
+    "completionDate": "2029-07-01",
+    "sponsor": "Uniformed Services University of the Health Sciences",
+    "conditions": [
+      "Resilience",
+      "Mental Toughness"
+    ],
+    "interventions": [
+      "Life Force"
+    ],
+    "lastUpdated": "2026-04-28",
+    "enrollment": 2400
+  },
+  {
     "nctId": "NCT07552246",
     "title": "Comparing Acupuncture With Medication to Reduce Anxiety and Depression in China",
     "status": "NOT_YET_RECRUITING",
@@ -2052,6 +2108,26 @@
     ],
     "lastUpdated": "2026-04-27",
     "enrollment": 120
+  },
+  {
+    "nctId": "NCT04099797",
+    "title": "C7R-GD2.CAR T Cells for Patients With GD2-expressing Brain Tumors (GAIL-B)",
+    "status": "RECRUITING",
+    "phase": "PHASE1",
+    "startDate": "2020-02-03",
+    "completionDate": "2041-02",
+    "sponsor": "Baylor College of Medicine",
+    "conditions": [
+      "Diffuse Intrinsic Pontine Glioma",
+      "High Grade Glioma",
+      "Embryonal Tumor"
+    ],
+    "interventions": [
+      "C7R-GD2.CART cells (IV and ICV infusion)",
+      "C7R-GD2.CART cells (IV and ICV infusion)"
+    ],
+    "lastUpdated": "2026-04-27",
+    "enrollment": 56
   },
   {
     "nctId": "NCT05187182",
@@ -2073,26 +2149,6 @@
     ],
     "lastUpdated": "2026-04-27",
     "enrollment": 42
-  },
-  {
-    "nctId": "NCT04099797",
-    "title": "C7R-GD2.CAR T Cells for Patients With GD2-expressing Brain Tumors (GAIL-B)",
-    "status": "RECRUITING",
-    "phase": "PHASE1",
-    "startDate": "2020-02-03",
-    "completionDate": "2041-02",
-    "sponsor": "Baylor College of Medicine",
-    "conditions": [
-      "Diffuse Intrinsic Pontine Glioma",
-      "High Grade Glioma",
-      "Embryonal Tumor"
-    ],
-    "interventions": [
-      "C7R-GD2.CART cells (IV and ICV infusion)",
-      "C7R-GD2.CART cells (IV and ICV infusion)"
-    ],
-    "lastUpdated": "2026-04-27",
-    "enrollment": 56
   },
   {
     "nctId": "NCT07419464",
@@ -2135,44 +2191,6 @@
     "enrollment": 24
   },
   {
-    "nctId": "NCT01175993",
-    "title": "Effects of Rapid-Resisted Exercise and Bright Light Therapy on Ambulatory Adults With Traumatic Brain Injury",
-    "status": "COMPLETED",
-    "phase": "PHASE1, PHASE2",
-    "startDate": "2011-08-24",
-    "completionDate": "2014-02-04",
-    "sponsor": "National Institutes of Health Clinical Center (CC)",
-    "conditions": [
-      "Adult",
-      "Traumatic Brain Injury",
-      "fMRI"
-    ],
-    "interventions": [
-      "Elliptical exercise"
-    ],
-    "lastUpdated": "2026-04-24",
-    "enrollment": 34
-  },
-  {
-    "nctId": "NCT05457257",
-    "title": "Clinical Study to Assess the Efficacy and Safety of Olaparib in Chinese Patients With Metastatic Castration-Resistant Prostate Cancer Who Have Failed Prior Treatment With a New Hormonal Agent and Have BRCA1/2 Mutations",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "phase": "PHASE4",
-    "startDate": "2022-07-29",
-    "completionDate": "2026-12-31",
-    "sponsor": "AstraZeneca",
-    "conditions": [
-      "Metastatic Castration-resistant Prostate Cancer"
-    ],
-    "interventions": [
-      "olaparib",
-      "enzalutamide",
-      "abiraterone acetate"
-    ],
-    "lastUpdated": "2026-04-21",
-    "enrollment": 43
-  },
-  {
     "nctId": "NCT02204098",
     "title": "Safety and Immune Response to a Mammaglobin-A DNA Vaccine In Breast Cancer Patients Undergoing Neoadjuvant Endocrine Therapy",
     "status": "ACTIVE_NOT_RECRUITING",
@@ -2208,6 +2226,25 @@
     ],
     "lastUpdated": "2026-04-21",
     "enrollment": 18
+  },
+  {
+    "nctId": "NCT05457257",
+    "title": "Clinical Study to Assess the Efficacy and Safety of Olaparib in Chinese Patients With Metastatic Castration-Resistant Prostate Cancer Who Have Failed Prior Treatment With a New Hormonal Agent and Have BRCA1/2 Mutations",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "phase": "PHASE4",
+    "startDate": "2022-07-29",
+    "completionDate": "2026-12-31",
+    "sponsor": "AstraZeneca",
+    "conditions": [
+      "Metastatic Castration-resistant Prostate Cancer"
+    ],
+    "interventions": [
+      "olaparib",
+      "enzalutamide",
+      "abiraterone acetate"
+    ],
+    "lastUpdated": "2026-04-21",
+    "enrollment": 43
   },
   {
     "nctId": "NCT04113434",
@@ -2261,24 +2298,6 @@
     "enrollment": 88
   },
   {
-    "nctId": "NCT05954286",
-    "title": "PROTECT-APT 1: Early Treatment and Post-Exposure Prophylaxis of COVID-19",
-    "status": "COMPLETED",
-    "phase": "PHASE2",
-    "startDate": "2024-01-29",
-    "completionDate": "2025-04-24",
-    "sponsor": "Henry M. Jackson Foundation for the Advancement of Military Medicine",
-    "conditions": [
-      "SARS-CoV-2"
-    ],
-    "interventions": [
-      "Upamostat",
-      "Placebo (PO)"
-    ],
-    "lastUpdated": "2026-04-17",
-    "enrollment": 92
-  },
-  {
     "nctId": "NCT06921707",
     "title": "Pilot Trial for WounDx\u2122 Clinical Decision Support Tool",
     "status": "RECRUITING",
@@ -2297,26 +2316,6 @@
     ],
     "lastUpdated": "2026-04-17",
     "enrollment": 40
-  },
-  {
-    "nctId": "NCT07524244",
-    "title": "Ketogenic and Carnivore (Lion) Diets for Inflammatory Bowel Disease and Rheumatoid Arthritis",
-    "status": "RECRUITING",
-    "phase": "NA",
-    "startDate": "2026-02-17",
-    "completionDate": "2027-09",
-    "sponsor": "Fuller Research Foundation",
-    "conditions": [
-      "Rheumatoid Arthritis (RA)",
-      "Crohn's Disease (CD)",
-      "Ulcerative Colitis (UC)"
-    ],
-    "interventions": [
-      "Ketogenic diet",
-      "Carnivore (Lion) Diet"
-    ],
-    "lastUpdated": "2026-04-16",
-    "enrollment": 160
   },
   {
     "nctId": "NCT06339190",
@@ -2393,25 +2392,6 @@
     "enrollment": 150
   },
   {
-    "nctId": "NCT05380557",
-    "title": "ARTEMIS: Study of Patients With Early Stage Pancreatic Cancer Who Have Undergone Genetic Testing",
-    "status": "TERMINATED",
-    "phase": "N/A",
-    "startDate": "2021-08-23",
-    "completionDate": "2022-09-06",
-    "sponsor": "Invitae Corporation",
-    "conditions": [
-      "Pancreatic Adenocarcinoma",
-      "Pancreatic Cancer",
-      "Resectable Pancreatic Cancer"
-    ],
-    "interventions": [
-      "Germline genetic testing"
-    ],
-    "lastUpdated": "2022-12-07",
-    "enrollment": 2
-  },
-  {
     "nctId": "NCT05416710",
     "title": "Universal Germline Testing in the Community",
     "status": "UNKNOWN",
@@ -2429,6 +2409,25 @@
     ],
     "lastUpdated": "2022-12-07",
     "enrollment": 1000
+  },
+  {
+    "nctId": "NCT05380557",
+    "title": "ARTEMIS: Study of Patients With Early Stage Pancreatic Cancer Who Have Undergone Genetic Testing",
+    "status": "TERMINATED",
+    "phase": "N/A",
+    "startDate": "2021-08-23",
+    "completionDate": "2022-09-06",
+    "sponsor": "Invitae Corporation",
+    "conditions": [
+      "Pancreatic Adenocarcinoma",
+      "Pancreatic Cancer",
+      "Resectable Pancreatic Cancer"
+    ],
+    "interventions": [
+      "Germline genetic testing"
+    ],
+    "lastUpdated": "2022-12-07",
+    "enrollment": 2
   },
   {
     "nctId": "NCT05447637",
@@ -3398,25 +3397,6 @@
     "enrollment": 16
   },
   {
-    "nctId": "NCT03655678",
-    "title": "A Safety and Efficacy Study Evaluating CTX001 in Participants With Transfusion-Dependent \u03b2-Thalassemia",
-    "status": "COMPLETED",
-    "phase": "PHASE2, PHASE3",
-    "startDate": "2018-09-14",
-    "completionDate": "2025-11-13",
-    "sponsor": "Vertex Pharmaceuticals Incorporated",
-    "conditions": [
-      "Beta-Thalassemia",
-      "Thalassemia",
-      "Genetic Diseases, Inborn"
-    ],
-    "interventions": [
-      "CTX001"
-    ],
-    "lastUpdated": "2025-12-17",
-    "enrollment": 59
-  },
-  {
     "nctId": "NCT06925542",
     "title": "A Safety and Efficacy Study Evaluating CTX112 in Adult Subjects With Refractory Autoimmune Disease",
     "status": "RECRUITING",
@@ -3434,6 +3414,25 @@
     ],
     "lastUpdated": "2025-12-17",
     "enrollment": 80
+  },
+  {
+    "nctId": "NCT03655678",
+    "title": "A Safety and Efficacy Study Evaluating CTX001 in Participants With Transfusion-Dependent \u03b2-Thalassemia",
+    "status": "COMPLETED",
+    "phase": "PHASE2, PHASE3",
+    "startDate": "2018-09-14",
+    "completionDate": "2025-11-13",
+    "sponsor": "Vertex Pharmaceuticals Incorporated",
+    "conditions": [
+      "Beta-Thalassemia",
+      "Thalassemia",
+      "Genetic Diseases, Inborn"
+    ],
+    "interventions": [
+      "CTX001"
+    ],
+    "lastUpdated": "2025-12-17",
+    "enrollment": 59
   },
   {
     "nctId": "NCT05795595",
@@ -3530,23 +3529,6 @@
     "enrollment": 63
   },
   {
-    "nctId": "NCT04244656",
-    "title": "A Safety and Efficacy Study Evaluating CTX120 in Subjects With Relapsed or Refractory Multiple Myeloma",
-    "status": "TERMINATED",
-    "phase": "PHASE1",
-    "startDate": "2020-01-22",
-    "completionDate": "2024-01-04",
-    "sponsor": "CRISPR Therapeutics AG",
-    "conditions": [
-      "Multiple Myeloma"
-    ],
-    "interventions": [
-      "CTX120"
-    ],
-    "lastUpdated": "2025-01-08",
-    "enrollment": 26
-  },
-  {
     "nctId": "NCT04502446",
     "title": "A Safety and Efficacy Study Evaluating CTX130 in Subjects With Relapsed or Refractory T or B Cell Malignancies (COBALT-LYM)",
     "status": "TERMINATED",
@@ -3562,6 +3544,23 @@
     ],
     "lastUpdated": "2025-01-08",
     "enrollment": 49
+  },
+  {
+    "nctId": "NCT04244656",
+    "title": "A Safety and Efficacy Study Evaluating CTX120 in Subjects With Relapsed or Refractory Multiple Myeloma",
+    "status": "TERMINATED",
+    "phase": "PHASE1",
+    "startDate": "2020-01-22",
+    "completionDate": "2024-01-04",
+    "sponsor": "CRISPR Therapeutics AG",
+    "conditions": [
+      "Multiple Myeloma"
+    ],
+    "interventions": [
+      "CTX120"
+    ],
+    "lastUpdated": "2025-01-08",
+    "enrollment": 26
   },
   {
     "nctId": "NCT04438083",
@@ -3619,6 +3618,41 @@
     "enrollment": 7
   },
   {
+    "nctId": "NCT07463430",
+    "title": "Suzetrigine for Non-Mastectomy Breast Surgery",
+    "status": "ENROLLING_BY_INVITATION",
+    "phase": "PHASE4",
+    "startDate": "2026-04-14",
+    "completionDate": "2027-12-31",
+    "sponsor": "University of California, San Diego",
+    "conditions": [
+      "Pain, Acute Postoperative",
+      "Breast Disease"
+    ],
+    "interventions": [
+      "suzetrigine"
+    ],
+    "lastUpdated": "2026-04-29",
+    "enrollment": 120
+  },
+  {
+    "nctId": "NCT05844449",
+    "title": "Evaluation of Long-Term Safety and Efficacy of Vanzacaftor/Tezacaftor/Deutivacaftor in Cystic Fibrosis Participants 1 Year of Age and Older",
+    "status": "ENROLLING_BY_INVITATION",
+    "phase": "PHASE3",
+    "startDate": "2023-08-11",
+    "completionDate": "2029-07-30",
+    "sponsor": "Vertex Pharmaceuticals Incorporated",
+    "conditions": [
+      "Cystic Fibrosis"
+    ],
+    "interventions": [
+      "VNZ/TEZ/D-IVA"
+    ],
+    "lastUpdated": "2026-04-29",
+    "enrollment": 174
+  },
+  {
     "nctId": "NCT06628908",
     "title": "Evaluation of Efficacy and Safety of Suzetrigine for Pain Associated With Diabetic Peripheral Neuropathy",
     "status": "RECRUITING",
@@ -3656,6 +3690,23 @@
     "enrollment": 734
   },
   {
+    "nctId": "NCT07161037",
+    "title": "Phase 2a Study of VX-407 in Participants With ADPKD Who Have a Subset of PKD1 Gene Variants (AGLOW)",
+    "status": "RECRUITING",
+    "phase": "PHASE2",
+    "startDate": "2025-11-19",
+    "completionDate": "2027-12-31",
+    "sponsor": "Vertex Pharmaceuticals Incorporated",
+    "conditions": [
+      "Autosomal Dominant Polycystic Kidney Disease (ADPKD)"
+    ],
+    "interventions": [
+      "VX-407"
+    ],
+    "lastUpdated": "2026-04-24",
+    "enrollment": 24
+  },
+  {
     "nctId": "NCT07204275",
     "title": "Evaluation of Efficacy, Safety, and Tolerability of Povetacicept in Participants With Primary Membranous Nephropathy (pMN)",
     "status": "RECRUITING",
@@ -3672,23 +3723,6 @@
     ],
     "lastUpdated": "2026-04-24",
     "enrollment": 176
-  },
-  {
-    "nctId": "NCT07161037",
-    "title": "Phase 2a Study of VX-407 in Participants With ADPKD Who Have a Subset of PKD1 Gene Variants (AGLOW)",
-    "status": "RECRUITING",
-    "phase": "PHASE2",
-    "startDate": "2025-11-19",
-    "completionDate": "2027-12-31",
-    "sponsor": "Vertex Pharmaceuticals Incorporated",
-    "conditions": [
-      "Autosomal Dominant Polycystic Kidney Disease (ADPKD)"
-    ],
-    "interventions": [
-      "VX-407"
-    ],
-    "lastUpdated": "2026-04-24",
-    "enrollment": 24
   },
   {
     "nctId": "NCT06747572",
@@ -3923,39 +3957,60 @@
     "enrollment": 39
   },
   {
-    "nctId": "NCT05951205",
-    "title": "Evaluation of Efficacy and Safety of a Single Dose of Exa-cel in Participants With Severe Sickle Cell Disease, \u03b2S/ \u03b2C Genotype",
-    "status": "WITHDRAWN",
-    "phase": "PHASE3",
-    "startDate": "2027-07-31",
-    "completionDate": "2033-12-31",
-    "sponsor": "Vertex Pharmaceuticals Incorporated",
+    "nctId": "NCT07255404",
+    "title": "A Clinical Trial Testing the Safety of BNT327 (an Investigational Drug) and How Well it Works When Combined With Chemotherapy for People Who Have Not Been Treated Yet for Pancreatic Cancer",
+    "status": "RECRUITING",
+    "phase": "PHASE2",
+    "startDate": "2025-12-04",
+    "completionDate": "2028-08",
+    "sponsor": "BioNTech SE",
     "conditions": [
-      "Sickle Cell Disease"
+      "Pancreatic Ductal Adenocarcinoma (PDAC)"
     ],
     "interventions": [
-      "Exa-cel"
+      "Pumitamig",
+      "Nab-paclitaxel",
+      "Gemcitabine"
     ],
-    "lastUpdated": "2026-03-25",
-    "enrollment": 0
+    "lastUpdated": "2026-04-29",
+    "enrollment": 105
   },
   {
-    "nctId": "NCT07463430",
-    "title": "Suzetrigine for Non-Mastectomy Breast Surgery",
-    "status": "NOT_YET_RECRUITING",
-    "phase": "PHASE4",
-    "startDate": "2026-03-30",
-    "completionDate": "2027-09-30",
-    "sponsor": "University of California, San Diego",
+    "nctId": "NCT05671510",
+    "title": "ONC-392 Versus Docetaxel in Metastatic NSCLC That Progressed on PD-1/PD-L1 Inhibitors",
+    "status": "RECRUITING",
+    "phase": "PHASE3",
+    "startDate": "2023-06-28",
+    "completionDate": "2028-08-31",
+    "sponsor": "OncoC4, Inc.",
     "conditions": [
-      "Pain, Acute Postoperative",
-      "Breast Disease"
+      "Non Small Cell Lung Cancer"
     ],
     "interventions": [
-      "suzetrigine"
+      "Gotistobart",
+      "Docetaxel"
     ],
-    "lastUpdated": "2026-03-24",
-    "enrollment": 120
+    "lastUpdated": "2026-04-29",
+    "enrollment": 630
+  },
+  {
+    "nctId": "NCT07297212",
+    "title": "A Clinical Trial Testing the Safety of the Investigational Drug Pumitamig (BNT327) and How Well it Works in Patients With Recurrent Glioblastoma",
+    "status": "RECRUITING",
+    "phase": "PHASE2",
+    "startDate": "2026-01-15",
+    "completionDate": "2029-07",
+    "sponsor": "BioNTech SE",
+    "conditions": [
+      "Recurrent Glioblastoma"
+    ],
+    "interventions": [
+      "Pumitamig",
+      "Bevacizumab",
+      "Temozolomide"
+    ],
+    "lastUpdated": "2026-04-29",
+    "enrollment": 75
   },
   {
     "nctId": "NCT05997290",
@@ -4015,24 +4070,6 @@
     "enrollment": 60
   },
   {
-    "nctId": "NCT05671510",
-    "title": "ONC-392 Versus Docetaxel in Metastatic NSCLC That Progressed on PD-1/PD-L1 Inhibitors",
-    "status": "RECRUITING",
-    "phase": "PHASE3",
-    "startDate": "2023-06-28",
-    "completionDate": "2028-08-31",
-    "sponsor": "OncoC4, Inc.",
-    "conditions": [
-      "Non Small Cell Lung Cancer"
-    ],
-    "interventions": [
-      "Gotistobart",
-      "Docetaxel"
-    ],
-    "lastUpdated": "2026-04-24",
-    "enrollment": 630
-  },
-  {
     "nctId": "NCT07173751",
     "title": "ROSETTA Breast-01: The Effects and Safety of Pumitamig in Patients With Triple-Negative Breast Cancer",
     "status": "RECRUITING",
@@ -4070,6 +4107,24 @@
     ],
     "lastUpdated": "2026-04-17",
     "enrollment": 110
+  },
+  {
+    "nctId": "NCT07186842",
+    "title": "A Clinical Trial to Test if the Investigational Drug BNT329 is Safe and Potentially Beneficial for People With Advanced Solid Tumors Known to Express the Tumor Marker CA19-9",
+    "status": "RECRUITING",
+    "phase": "PHASE1, PHASE2",
+    "startDate": "2025-11-18",
+    "completionDate": "2030-05",
+    "sponsor": "BioNTech SE",
+    "conditions": [
+      "Advanced Solid Cancers"
+    ],
+    "interventions": [
+      "BNT329",
+      "CA19-9-targeting monoclonal antibody"
+    ],
+    "lastUpdated": "2026-04-17",
+    "enrollment": 245
   },
   {
     "nctId": "NCT06827236",
@@ -4111,24 +4166,6 @@
     "enrollment": 482
   },
   {
-    "nctId": "NCT07186842",
-    "title": "A Clinical Trial to Test if the Investigational Drug BNT329 is Safe and Potentially Beneficial for People With Advanced Solid Tumors Known to Express the Tumor Marker CA19-9",
-    "status": "RECRUITING",
-    "phase": "PHASE1, PHASE2",
-    "startDate": "2025-11-18",
-    "completionDate": "2030-05",
-    "sponsor": "BioNTech SE",
-    "conditions": [
-      "Advanced Solid Cancers"
-    ],
-    "interventions": [
-      "BNT329",
-      "CA19-9-targeting monoclonal antibody"
-    ],
-    "lastUpdated": "2026-04-17",
-    "enrollment": 245
-  },
-  {
     "nctId": "NCT04503278",
     "title": "A Clinical Study of the Safety and Effectiveness of an Investigational Cell Therapy Given With and Without an Investigational RNA-based Vaccine in Patients With Organ Tumors",
     "status": "RECRUITING",
@@ -4145,6 +4182,60 @@
     ],
     "lastUpdated": "2026-04-17",
     "enrollment": 214
+  },
+  {
+    "nctId": "NCT06069544",
+    "title": "A Clinical Trial to Evaluate the Safety, Efficacy and Immune Responses After Vaccination With an Investigational RNA-based Vaccine Against Malaria",
+    "status": "COMPLETED",
+    "phase": "PHASE1, PHASE2",
+    "startDate": "2023-11-13",
+    "completionDate": "2026-03-20",
+    "sponsor": "BioNTech SE",
+    "conditions": [
+      "Malaria"
+    ],
+    "interventions": [
+      "BNT165e",
+      "Placebo"
+    ],
+    "lastUpdated": "2026-04-15",
+    "enrollment": 163
+  },
+  {
+    "nctId": "NCT07361510",
+    "title": "A Study to Evaluate the Efficacy of Pumitamig Versus Pembrolizumab in Participants With Previously Untreated Advanced Non-Small Cell Lung Cancer and PD-L1 \u2265 50%. (ROSETTA Lung-202)",
+    "status": "RECRUITING",
+    "phase": "PHASE3",
+    "startDate": "2026-03-12",
+    "completionDate": "2031-10-14",
+    "sponsor": "Bristol-Myers Squibb",
+    "conditions": [
+      "Non-Small Cell Lung Cancer (NSCLC)"
+    ],
+    "interventions": [
+      "Pumitamig",
+      "Pembrolizumab"
+    ],
+    "lastUpdated": "2026-04-15",
+    "enrollment": 750
+  },
+  {
+    "nctId": "NCT06892548",
+    "title": "A Clinical Study to Investigate the Efficacy and Safety of an Investigational Combination Therapy With BNT324 and BNT327 in Patients With Advanced Lung Cancer",
+    "status": "RECRUITING",
+    "phase": "PHASE1, PHASE2",
+    "startDate": "2025-05-02",
+    "completionDate": "2031-06",
+    "sponsor": "BioNTech SE",
+    "conditions": [
+      "Advanced Lung Cancer"
+    ],
+    "interventions": [
+      "BNT324",
+      "BNT327"
+    ],
+    "lastUpdated": "2026-04-15",
+    "enrollment": 594
   },
   {
     "nctId": "NCT04534205",
@@ -4167,22 +4258,23 @@
     "enrollment": 350
   },
   {
-    "nctId": "NCT06069544",
-    "title": "A Clinical Trial to Evaluate the Safety, Efficacy and Immune Responses After Vaccination With an Investigational RNA-based Vaccine Against Malaria",
-    "status": "COMPLETED",
-    "phase": "PHASE1, PHASE2",
-    "startDate": "2023-11-13",
-    "completionDate": "2026-03-20",
+    "nctId": "NCT04486378",
+    "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
+    "status": "RECRUITING",
+    "phase": "PHASE2",
+    "startDate": "2021-03-08",
+    "completionDate": "2030-08",
     "sponsor": "BioNTech SE",
     "conditions": [
-      "Malaria"
+      "Colorectal Cancer Stage II",
+      "Colorectal Cancer Stage III"
     ],
     "interventions": [
-      "BNT165e",
-      "Placebo"
+      "RO7198457 intravenous (IV)",
+      "Observational group (no intervention)"
     ],
     "lastUpdated": "2026-04-15",
-    "enrollment": 163
+    "enrollment": 327
   },
   {
     "nctId": "NCT06712316",
@@ -4202,61 +4294,6 @@
     ],
     "lastUpdated": "2026-04-15",
     "enrollment": 1260
-  },
-  {
-    "nctId": "NCT06892548",
-    "title": "A Clinical Study to Investigate the Efficacy and Safety of an Investigational Combination Therapy With BNT324 and BNT327 in Patients With Advanced Lung Cancer",
-    "status": "RECRUITING",
-    "phase": "PHASE1, PHASE2",
-    "startDate": "2025-05-02",
-    "completionDate": "2031-06",
-    "sponsor": "BioNTech SE",
-    "conditions": [
-      "Advanced Lung Cancer"
-    ],
-    "interventions": [
-      "BNT324",
-      "BNT327"
-    ],
-    "lastUpdated": "2026-04-15",
-    "enrollment": 594
-  },
-  {
-    "nctId": "NCT07361510",
-    "title": "A Study to Evaluate the Efficacy of Pumitamig Versus Pembrolizumab in Participants With Previously Untreated Advanced Non-Small Cell Lung Cancer and PD-L1 \u2265 50%. (ROSETTA Lung-202)",
-    "status": "RECRUITING",
-    "phase": "PHASE3",
-    "startDate": "2026-03-12",
-    "completionDate": "2031-10-14",
-    "sponsor": "Bristol-Myers Squibb",
-    "conditions": [
-      "Non-Small Cell Lung Cancer (NSCLC)"
-    ],
-    "interventions": [
-      "Pumitamig",
-      "Pembrolizumab"
-    ],
-    "lastUpdated": "2026-04-15",
-    "enrollment": 750
-  },
-  {
-    "nctId": "NCT04486378",
-    "title": "A Phase II Clinical Trial Comparing the Efficacy of RO7198457 Versus Watchful Waiting in Patients With ctDNA-positive, Resected Stage II (High Risk) and Stage III Colorectal Cancer",
-    "status": "RECRUITING",
-    "phase": "PHASE2",
-    "startDate": "2021-03-08",
-    "completionDate": "2030-08",
-    "sponsor": "BioNTech SE",
-    "conditions": [
-      "Colorectal Cancer Stage II",
-      "Colorectal Cancer Stage III"
-    ],
-    "interventions": [
-      "RO7198457 intravenous (IV)",
-      "Observational group (no intervention)"
-    ],
-    "lastUpdated": "2026-04-15",
-    "enrollment": 327
   },
   {
     "nctId": "NCT07291076",
@@ -4295,44 +4332,6 @@
     ],
     "lastUpdated": "2026-04-14",
     "enrollment": 320
-  },
-  {
-    "nctId": "NCT07300839",
-    "title": "A Study to Learn About a COVID-19 Vaccine in Healthy Adults 50 Through 64 Years of Age",
-    "status": "ACTIVE_NOT_RECRUITING",
-    "phase": "PHASE3",
-    "startDate": "2025-12-10",
-    "completionDate": "2026-07-31",
-    "sponsor": "BioNTech SE",
-    "conditions": [
-      "COVID-19",
-      "SARS-COV-2 Infection"
-    ],
-    "interventions": [
-      "BNT162b2 Vaccine",
-      "Placebo"
-    ],
-    "lastUpdated": "2026-04-13",
-    "enrollment": 5240
-  },
-  {
-    "nctId": "NCT05968326",
-    "title": "A Study of the Efficacy and Safety of Adjuvant Autogene Cevumeran Plus Atezolizumab and mFOLFIRINOX Versus mFOLFIRINOX Alone in Participants With Resected PDAC",
-    "status": "RECRUITING",
-    "phase": "PHASE2",
-    "startDate": "2023-10-18",
-    "completionDate": "2031-01-01",
-    "sponsor": "Genentech, Inc.",
-    "conditions": [
-      "Adenocarcinoma, Pancreatic Ductal"
-    ],
-    "interventions": [
-      "Autogene cevumeran",
-      "Atezolizumab",
-      "mFOLFIRINOX"
-    ],
-    "lastUpdated": "2026-04-13",
-    "enrollment": 260
   },
   {
     "nctId": "NCT05446740",
